@@ -1,0 +1,43 @@
+# حزمة المحتوى المعلومات المهنية الطاقة
+## [حزمة المحتوى إدارة التكاليف](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# تكلفة تم تحديده مسبقاً
+## [Costing sheet](costing-sheets.md)
+## [Costing version](costing-versions.md)
+## [محاكاة تغيير التكلفة باستخدام إصدار تكاليف للتكاليف المخططة](simulate-cost-changes-costing-version-planned-costs.md)
+# تكلفة المخزون
+## [قم بتعديل قيمة التكلفة المخزون الفعلي](adjust-hand-inventory-cost-values.md)
+## [Cost object](cost-object.md)
+## [Cost entry](cost-entries.md)
+## [Cost group](cost-groups.md)
+## [ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز](fifo-physical-value-marking.md)
+## [Include physical value](include-physical-value.md)
+## [قيمة كائن المخزون](physical-quantity.md)
+## [Inventory close](inventory-close.md)
+## [تاريخ ما يرد أخيرًا يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](lifo-date-physical-value-marking.md)
+## [LIFO with physical value and marking](lifo-physical-value-marking.md)
+## [Moving average](moving-average.md)
+## [تحديث الفعلية والمالية](physical-financial-updates.md)
+## [Running average cost price](running-average-cost-price.md)
+## [Tracking running average cost per inventory dimension](track-running-average-cost-per-inventory-dimension.md)
+## [Weighted average date](weighted-average-date.md)
+## [المتوسط المرجح مع القيمة الفعلية ووضع العلامات](weighted-average-physical-value-marking.md)
+# تكاليف التصنيع
+## [مجموعة حساب شجرة المواد](bom-calculation-groups.md)
+## [الحصول على موارد عامة للفرق في الإنتاج](common-sources-of-production-variances.md)
+## [فئة التكلفة المستخدمة في توجيه الإنتاج](cost-categories-used-production-routings.md)
+## [فئة التكلفة المستخدمة في التحكم في الإنتاج وحسابات إدارة المشروع](cost-categories-used-production-control-project-management-accounting.md)
+## [Production order cost analysis](production-order-cost-analysis.md)
+## [Production order cost estimation](production-order-cost-estimation.md)
+## [Production posting](production-posting.md)
+## [قم بإعداد أحد منتجات التي يمكن إنتاجها أو قمت بعمل](manufactured-items-treated-as-purchased-items.md)
+## [Total cost allocation method](methodology-total-cost-allocation.md)
+# التكلفة المعيارية
+## [حسابات شجرة المواد مع التكاليف المعيارية](information-used-bom-calculations-standard-costs.md)
+## [إدارة تحديث التكلفة المعيارية](manage-standard-cost-updates.md)
+## [المتطلبات الأساسية لتحويل تكلفة المعيارية](prerequisites-standard-cost-conversion.md)
+## [Standard cost conversion overview](standard-cost-conversion-overview.md)
+## [تحديث التكاليف المعيارية في بيئة تصنيع](update-standard-costs-manufacturing-environment.md)
+## [تحديث التكاليف المعيارية لصنف مصنع جديد](update-standard-costs-new-manufactured-item.md)
+## [تحديث التكاليف المعيارية في بيئة غير التصنيع](update-standard-costs-non-manufacturing-environment.md)
+
+

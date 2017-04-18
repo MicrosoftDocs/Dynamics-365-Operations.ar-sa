@@ -1,0 +1,157 @@
+# [Cost management](cost-management/TOC.md)
+# [Inventory management](inventory/TOC.md)
+# التخطيط الرئيسي
+## إنشاء التنبؤ بالطلب
+### [نظرة عامة حول التنبؤ بالطلب](master-planning/introduction-demand-forecasting.md)
+### [قم بإعداد التنبؤ بالطلب](master-planning/demand-forecasting-setup.md)
+### [إنشاء أساس إحصائية التنبؤ](master-planning/generate-statistical-baseline-forecast.md)
+### [قم بإجراء التعديل اليدوي للخط الأساسي التنبؤ](master-planning/manual-adjustments-baseline-forecast.md)
+### [تفويض تنبؤ المعدل](master-planning/authorize-adjusted-forecast.md)
+### [التنبؤ بدقة جهاز العرض](master-planning/monitor-forecast-accuracy.md)
+### [قم بإزالة أووتلييرس من بيانات الحركة التاريخية](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
+### [Reduction keys](master-planning/reduction-keys.md)
+## خطة رئيسية
+### [رسائل الإجراءات](master-planning/action-messages.md)
+### [إعدادات التغطية](master-planning/coverage-settings.md)
+### [Delays](master-planning/delays.md)
+### [Master plans](master-planning/master-plans.md)
+### [وظيفة المواقع المتعددة والخطط الرئيسية](master-planning/master-plan-multisite-functionality.md)
+#### [قم بالتخطيط لتغطية الموقع والمستودع الإلزامي](master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+#### [قم بالتخطيط لتغطية الموقع والمستودع ليس إلزامياً](master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+#### [قم بالتخطيط لتغطية الموقع والمستودع، المستودع الإلزامي](master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+#### [قم بالتخطيط لتغطية الموقع والمستودع، ليس المستودع الإلزامي](master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+#### [تحديد إصدار قائمة مكونات الصنف](master-planning/master-plan-bom-version-determined.md)
+### [تحديد إجمالي المكونات المطلوبة لإصدار شجرة المواد](master-planning/master-plan-explosion-bom-version.md)
+### [Maintain planned orders](master-planning/maintain-planned-orders.md)
+### [تتبع بعد ذلك بالتقسيم](master-planning/trace-explosion.md)
+# التدبير وتحديد الموارد
+## [Procurement and sourcing overview](procurement/procurement-sourcing-overview.md)
+## [سير العمل للتدبير وتحديد الموارد](procurement/procurement-sourcing-workflows.md)
+## [Purchasing policies](procurement/purchase-policies.md)
+## [Procurement catalogs](procurement/procurement-catalogs.md)
+## [Purchase requisitions](procurement/purchase-requisitions-overview.md)
+### [Purchase requisition workflow](procurement/purchase-requisitions-workflow.md) 
+## [طلب عرض الأسعار (Rfq)](procurement/request-quotations.md)
+## أوامر الشراء
+### [Purchase order overview](procurement/purchase-order-overview.md)
+### [Create purchase orders](procurement/purchase-order-creation.md)
+### [قبول وتأكيد أوامر الشراء](procurement/purchase-order-approval-confirmation.md)
+## إدارة وتعاون المورد‬
+### [إعداد تعاون المورد والمحافظة عليه](procurement/set-up-maintain-vendor-collaboration.md)
+### [إدارة مستخدمي تعاون المورد‬](procurement/manage-vendor-collaboration-users.md)
+### [قم بإعداد حسابات المورد](procurement/set-up-vendor-accounts.md)
+### [تعاون المورد مع موردين خارجيين](procurement/vendor-collaboration-work-external-vendors.md)
+### [تعاون المورد مع العملاء](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [التعاون مع الموردين باستخدام مدخل المورد على الإنترنت](procurement/collaborate-vendors-vendor-portal.md)
+### [المورد الهاتف الجوال لمساحة عمل التعاون](procurement/vendor-collaboration-mobile-workspace.md)
+### [أمان المستخدم مدخل المورد](procurement/configure-security-vendor-portal-users.md)
+## الأسعار والخصومات
+### [Purchase agreements](procurement/purchase-agreements.md)
+## تحرير الفواتير وإيصالات استلام المنتجات
+### [إيصال استلام المنتجات في مقابل أوامر الشراء](procurement/product-receipt-against-purchase-orders.md)
+### [نظرة عامة على فواتير الموردين](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Vendor posting profiles](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+# إدارة معلومات المنتج
+## معلومات المنتج
+### [قائمة مكونات الصنف والمعادلة](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Product dimension](pim/product-dimensions.md)
+### [مصطلحات رقم المنتج](pim/product-variant-identification-nomenclature.md)
+### [ترجمة الأسئلة المتداولة المتعلقة بالمنتج](pim/translations-product-related-information.md)
+### [تسجيل الرقم المسلسل في عملية المبيعات](sales-marketing/register-serial-numbers-sales-process.md)
+### [البحث عن المنتج أثناء إدخال أمر](pim/search-products-product-variants.md)
+## إنشاء تكوين المنتج
+### [إنشاء نموذج تكوين المنتج](pim/build-product-configuration-model.md)
+### [حساب للأسئلة المتداولة حول طراز تكوين المنتج](pim/calculate-product-configuration-models.md)
+### [قاعدة التكوين](pim/configuration-rules.md)
+### [Dimension-based configuration](pim/dimension-based-product-configuration.md)
+### [قيد التعبير وقيود الجدول](pim/expression-constraints-table-constraints-product-configuration-models.md)
+### [إعادة استخدام تكوين المنتج](pim/reuse-product-configurations.md)
+### [قم بإعداد نموذج تكوين مستند](pim/set-up-maintain-product-configuration-model.md)
+### [قيد الجدول المعرف من قبل النظام ومعرفة من قبل المستخدم](pim/system-defined-user-defined-table-constraints.md)
+# التحكم بالإنتاج
+## عملية الإنتاج    
+### [المستندة إلى النشاط التعاقد من الباطن](production-control/activity-based-subcontracting.md)
+### [Batch attributes](production-control/batch-attributes.md)
+### [BOMs and formulas](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Consolidated batch orders](production-control/consolidated-batch-orders.md)
+### [إدارة التعاقد من الباطن العمل في الإنتاج](production-control/manage-subcontract-work-production.md)
+### [Mixed mode planning: Combine discrete, process, and lean sourcing](production-control/mixed-mode-plan.md)
+### [عملية الإنتاج](production-control/production-process-overview.md)
+### [Production setup requirements](production-control/production-set-up-requirements.md)
+### [المسارات والعمليات](production-control/routes-operations.md)
+## أوامر الإنتاج
+### [Create production orders](production-control/create-production-orders.md)
+### [إعدادات الأمر الافتراضية للأبعاد ومتغيرات المنتجات](production-control/default-order-settings.md)
+### [إصدار أوامر الإنتاج](production-control/release-production-orders.md)
+### [عكس حالة أمر الإنتاج](production-control/reverse-production-order-status.md)
+### [تقرير شجرة المواد منتهية](production-control/report-boms-as-finished.md)
+### [الإبلاغ عن انتهاء أوامر الإنتاج](production-control/report-production-orders-as-finished.md)
+## الإنتاج محدود الفاقد 
+### [تدعم لوحة تحويل كانبان للماسحات الضوئية الكود الشريطي](production-control/kanban-transfer-board-support-barcode-scanner.md) 
+### [المهام كانبان للتصنيع محدود الفاقد](production-control/lean-manufacturing-kanban-job-scheduling.md)
+### [نظرة عامة حول التصنيع محدود الفاقد](production-control/lean-manufacturing-overview.md)
+### [نموذج مؤسسة محدودة الفاقد](production-control/lean-manufacturing-modeling-lean-organization.md)
+## جدولة العمليات والمهام
+### [تخصيص الوقت لمهمة في تجميع الوظيفة](production-control/allocate-time-jobs-job-bundle.md)
+### [Job scheduling](production-control/job-scheduling.md)
+### [Operations scheduling options](production-control/operation-scheduling-options.md)
+### [Operations scheduling](production-control/operations-scheduling.md)
+## الموارد
+### [Operations resources](production-control/operations-resources.md)
+### [Resource capabilities](production-control/resource-capabilities.md)
+### [Time and attendance registration](production-control/time-attendance-registrations.md)
+## التنفيذ التصنيعي
+### [Material substitution in manufacturing](production-control/substitute-items-bom-lines.md)
+### [حساب استهلاك المواد](production-control/consumption.md)
+### [Production feedback](production-control/production-feedback.md)
+### [القيم الافتراضية لأوامر الإنتاج في تنفيذ التصنيع](production-control/production-order-defaults-manufacturing-execution.md)
+### [Production posting](cost-management/production-posting.md)
+### [Registration for manufacturing execution](production-control/registration-manufacturing-execution.md)
+# المبيعات والتسويق
+## [Marketing](sales-marketing/overview-sales-marketing.md)
+## أوامر المبيعات
+### [Order promising](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Order entry deadlines](sales-marketing/order-entry-deadlines.md)
+### [Direct deliveries](sales-marketing/direct-deliveries.md)
+### [Delivery schedules](sales-marketing/delivery-schedules.md)
+### [الأرقام المسلسلة في عملية المبيعات](sales-marketing/register-serial-numbers-sales-process.md)
+### [الحجز من الدفعة نفسها](sales-marketing/reserve-same-batch-sales-order.md)
+## [Sales agreements](sales-marketing/sales-agreements.md)
+## عروض أسعار المبيعات
+### [Price simulation](sales-marketing/price-simulation.md)
+## العائدات
+### [Sales returns](warehousing/sales-returns.md)
+# إدارة النقل
+## [أحد محركات نقل جديد](transportation/create-new-transportation-management-engine.md)
+## [إنشاء بوليصة شحن](transportation/create-bill-of-lading.md)
+## [تخطيط الطرق النقل الشحن](transportation/plan-freight-transportation-routes-multiple-stops.md)
+## [تخطيط الأحمال باستخدام توحيد الموزِّعين](transportation/plan-loads-hub-consolidation.md)
+## [تسوية الشحن](transportation/reconcile-freight-transportation-management.md)
+## [Transportation management](transportation/transportation-management-overview.md)
+## [مشغل النقل](transportation/transportation-management-engines.md)
+# إدارة المستودعات
+## الإعداد 
+### [عنصر التحكم العمل باستخدام قوالب العمل وتوجيهات الموقع](warehousing/control-warehouse-location-directives.md)
+### [إدارة عمال المستودعات](warehousing/manage-warehouse-workers.md)
+### [قم بإعداد تخطيط](warehousing/warehouse-configuration.md)
+### [Warehouse work policies](warehousing/warehouse-work-policies.md)
+### [وحدة القياس وسياسات المخزون](warehousing/unit-measure-stocking-policies.md)
+## الانتقاء والتعبئة
+### [مواد التعبئة ورسوم](warehousing/pack-materials-packing-material-fees.md)
+## جرد المخزون
+### [Block inventory](inventory/inventory-blocking.md)
+### [Cycle counting](warehousing/cycle-counting.md)
+### [Inventory journal](inventory/inventory-journals.md)
+### [Inventory location](inventory/inventory-locations.md)
+### [Inventory status](inventory/inventory-statuses.md)
+### [جرد علامات المخزون](inventory/inventory-tag-counting.md)
+## التعبئة في حاويات 
+## الاستعاضة
+### [الاستعاضة](warehousing/replenishment.md)
+## الأجهزة المحمولة
+### [قم بتكوين أسماء الحقول في مستودع التطبيق](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [قم بإعداد الأجهزة المحمولة لعمل المستودع](warehousing/configure-mobile-devices-warehouse.md)
+### [موقع المستودع على الأجهزة المحمولة (ومدب)](warehousing/warehouse-mobile-devices-portal.md)
+### [إعدادات عرض الجهاز المحمول للمستودع](warehousing/change-warehouse-mobile-device-displays.md)
