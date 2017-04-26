@@ -55,3 +55,5 @@ ms.lasthandoff: 04/12/2017
 ## <a name="elearning-courses"></a>التعليم الإلكتروني الدورات التدريبية
 لمزيد من المعلومات حول Microsoft Dynamics 365 لعمليات التدريب وراجع <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics التعلم مدخل</a>. (يتطلب حساب العملاء) 
 
+
+

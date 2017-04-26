@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>الصفحة الرئيسية محددات إدارة البنك والنقد
 
+[!include[banner](../includes/banner.md)]
+
+
 يمكنك استخدام إدارة النقد والبنوك للاحتفاظ بحسابات مصرفية خاصة بالكيان القانوني والمستندات المالية المقترنة بهذه الحسابات البنكية. 
 
 وتشمل هذه المستندات إيصالات الإيداع والشيكات والكمبيالات والسندات الإذنية. كما يُمكنك أيضًا تسوية قوائم كشوف الحسابات المالية وطباعة بيانات البنك في التقارير القياسية.
@@ -69,4 +72,6 @@ ms.lasthandoff: 04/12/2017
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [السيناريو: استخدام دفع العميل واحد لتسوية الفاتورة متعددة تمتد فترات خصم متعددة](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 
