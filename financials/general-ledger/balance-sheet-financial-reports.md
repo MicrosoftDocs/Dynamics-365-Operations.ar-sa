@@ -1,6 +1,6 @@
 ---
 title: "التقارير المالية للميزانية العمومية"
-description: "توضح هذه المقالة التقارير الافتراضية للميزانيات العمومية. كما يصف كتل الإنشاء التي تقترن بهذه التقارير."
+description: "توضح هذه المقالة التقارير الافتراضية للميزانيات العمومية. كما تصف العناصر الأساسية التي تقترن بهذه التقارير."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>التقارير المالية للميزانية العمومية
 
-توضح هذه المقالة التقارير الافتراضية للميزانيات العمومية. كما يصف كتل الإنشاء التي تقترن بهذه التقارير. 
+[!include[banner](../includes/banner.md)]
+
+
+توضح هذه المقالة التقارير الافتراضية للميزانيات العمومية. كما تصف العناصر الأساسية التي تقترن بهذه التقارير. 
 
 <a name="default-balance-sheet-reports"></a>تقارير الميزانية العمومية الافتراضية
 -----------------------------
@@ -72,10 +75,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[التقارير المالية](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[عرض التقارير المالية](view-financial-reports.md)
 
-[مدونة dynamics المالية المشمولة بالتقرير](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[مدونة التقارير المالية في Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

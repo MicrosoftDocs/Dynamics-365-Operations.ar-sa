@@ -86,5 +86,5 @@ ms.lasthandoff: 03/31/2017
 باستخدام خيار **تصدير أرصدة الشركة** للتصدير من مثيل واحد، ثم باستخدام خيار **التجميع مع الاستيراد** في المثيل الآخر، يمكنك تجميع البيانات.
 
 
-لمزيد من المعلومات، راجع [ريفالوشن عمله في شركة موحدة](\finanicials\general-ledger\currency-revaluation-consolidation-company).
+لمزيد من المعلومات، راجع [إعادة تقييم العملة في شركة موحدة](\finanicials\general-ledger\currency-revaluation-consolidation-company).
 

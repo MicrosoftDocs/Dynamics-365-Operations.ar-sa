@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>إدارة المصروفات
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [تخطيط إدارة المصروفات](plan-expense-management.md) ستتم إضافة المزيد من المعلومات لاحقاً؛ تحقق مرة أخرى قريبًا.
+
+
 
 

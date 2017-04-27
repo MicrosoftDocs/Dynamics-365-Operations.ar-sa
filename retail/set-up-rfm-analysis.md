@@ -1,5 +1,5 @@
 ---
-title: "قم بإعداد تحليل RFM"
+title: "إعداد تحليل RFM"
 description: "يشرح هذا الموضوع كيفية إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 78943
 ms.assetid: 8ff9aac3-5ada-4150-85fd-18901c926d53
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-rfm-analysis"></a>قم بإعداد تحليل RFM
+# <a name="set-up-rfm-analysis"></a>إعداد تحليل RFM
+
+[!include[banner](includes/banner.md)]
+
 
 يشرح هذا الموضوع كيفية إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء.
 
@@ -36,5 +39,7 @@ ms.lasthandoff: 03/31/2017
 -   **تصنيف القيمة النقدية 5** – عندما يقوم العميل بشراء، وينفق مبلغًا كبيرًا من المال.
 
 إذا كانت مؤسستك تستخدم رقمًا مجمعًا للمصدر، فإنه تتم إضافة التصنيفات الفردية معًا. على سبيل المثال نفسه، العميل يمتلك تصنيف 13 (5 + 3 + 5).
+
+
 
 

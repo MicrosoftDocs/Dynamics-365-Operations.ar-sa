@@ -1,6 +1,6 @@
 ---
-title: "ثنائي &amp;تقارير الصفحة الرئيسية"
-description: "يسرد هذا الموضوع المعلومات المهنية &amp;تقرير الموارد المتوفرة في Microsoft Dynamics 365 للعمليات."
+title: "الصفحة الرئيسية للتقارير والمعلومات المهنية"
+description: "يذكر هذا الموضوع موارد المعلومات المهنية وإعداد التقارير المتوفرة في Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>ثنائي &amp;تقارير الصفحة الرئيسية
+# <a name="bi-amp-reporting-home-page"></a>الصفحة الرئيسية للتقارير والمعلومات المهنية
 
-يسرد هذا الموضوع المعلومات المهنية &amp;تقرير الموارد المتوفرة في Microsoft Dynamics 365 للعمليات.
+[!include[banner](../includes/banner.md)]
+
+
+يذكر هذا الموضوع موارد المعلومات المهنية وإعداد التقارير المتوفرة في Microsoft Dynamics 365 for Operations. 
 
 <a name="working-with-aggregate-data"></a>التعامل مع البيانات المجمعة
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [التحليلات](analytics.md)
 -   [نماذج التجميع في الذاكرة، في الوقت الحقيقي تحل محل ‬مكعبات SSAS](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [بناء و "تجميع البيانات" باستخدام](model-aggregate-data.md)
--   [ترحيل مكعب Dynamics AX 2012 R3 مبيعات الذي تمت ترقيته إلى مخزن الكيان](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [تصميم البيانات المجمعة واستخدامها](model-aggregate-data.md)
+-   [ترحيل مكعب مبيعات Dynamics AX 2012 R3 تمت ترقيته إلى مخزن الكيان](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>تقارير الخدمة الذاتية
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>إعداد تقارير الخدمة الذاتية
+-   [تكامل Power BI](power-bi-integration.md)
 -   [تكوين تكامل Power BI لمساحات العمل](configure-power-bi-integration.md)
 -   [إنشاء تقرير Power BI باستخدام بيانات Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
--   [إنشاء تقرير "ثنائي الطاقة" ولوحة المعلومات](create-powerbi-report-dashboard.md)
--   [محتوى "ثنائي الطاقة أداء قناة" البيع بالتجزئة](retail-channel-performance-dashboard-power-bi-data.md)
--   [محتوى "ثنائي الطاقة الأداء" المالي](financial-performance-power-bi-content-pack.md)
--   [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)
+-   [إنشاء تقرير ولوحة معلومات Power BI](create-powerbi-report-dashboard.md)
+-   [محتوى أداء قناة البيع بالتجزئة‬ لـ Power BI](retail-channel-performance-dashboard-power-bi-data.md)
+-   [محتوى الأداء المالي لـ Power BI](financial-performance-power-bi-content-pack.md)
+-   [محتوى أداء المبيعات والربحية لـ Power BI](sales-profitability-performance-content-pack.md)
 -   [استخدام تكوين تقارير إلكترونية لتزويد Power BI ببيانات من Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>بناء تجارب تحليلية مضمنة في عميل Dynamics 365 for Operations
@@ -95,6 +98,8 @@ ms.lasthandoff: 03/31/2017
 -   [التقارير الإلكترونية - استخدام ملفات إدارة المستندات في مخرجات التنسيق‬ (الجزء 5: تعديل التنسيق وتشغيله)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (دليل المهام)
 -   [التقارير الإلكترونية - إنشاء التقارير الإلكترونية للدفعات باستخدام تكوين التنسيق](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (دليل المهام)
 -   [التقارير الإلكترونية - ترقية التنسيق الخاص بك باعتماد إصدار أساسي جديد لهذا التنسيق](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (دليل المهام)
+
+
 
 
 

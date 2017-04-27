@@ -1,5 +1,5 @@
 ---
-title: "بناء جملة الاستعلام والتصفية المتقدمة"
+title: "التصفية المتقدمة وبنية الاستعلام"
 description: "توضح هذه المقالة خيارات التصفية والاستعلام التي تتوفر عند استخدام عامل التشغيل &quot;تطابق&quot; في مربع الحوار &quot;عامل التصفية/الفرز المتقدم&quot;."
 author: jasongre
 manager: AnnBe
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-filtering-and-query-syntax"></a>بناء جملة الاستعلام والتصفية المتقدمة
+# <a name="advanced-filtering-and-query-syntax"></a>التصفية المتقدمة وبنية الاستعلام
+
+[!include[banner](../includes/banner.md)]
+
 
 توضح هذه المقالة خيارات التصفية والاستعلام التي تتوفر عند استخدام عامل التشغيل "تطابق" في مربع الحوار "عامل التصفية/الفرز المتقدم".
 
-<a name="advanced-query-syntax"></a>بناء جملة الاستعلام المتقدمة
+<a name="advanced-query-syntax"></a>‏‫بنية الاستعلام المتقدمة
 ---------------------
 
 <table>
@@ -52,79 +55,79 @@ ms.lasthandoff: 03/31/2017
 <td><em>قيمة</em></td>
 <td>مساوية للقيمة التي تم إدخالها</td>
 <td>اكتب القيمة التي ترغب في البحث عنها.</td>
-<td><strong>السيد</strong> البحث عن &quot;سميث&quot;.</td>
+<td><strong>أشرف</strong> يتم البحث عن &quot;أشرف&quot;.</td>
 </tr>
 <tr class="even">
-<td>! <em>قيمة</em> (علامة تعجب)</td>
+<td>!<em>القيمة‬</em> (علامة التعجب)</td>
 <td>غير مساوية للقيمة التي تم إدخالها</td>
 <td>اكتب علامة تعجب، ثم القيمة لاستبعادها.</td>
-<td><strong>! السيد</strong> يبحث عن قيم كافة ما عدا &quot;سميث&quot;.</td>
+<td><strong>!أشرف</strong> يتم البحث عن كل القيم ما عدا &quot;أشرف&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>القيمة من</em>..<em>القيمة إلى</em> (نقطة مزدوجة)‬</td>
 <td>بين القيمتين اللتين تم الفصل بينهما بنقطتين مزدوجتين</td>
 <td>اكتب القيمة من، ثم نقطتين، ثم قيمة إلى.</td>
-<td><strong>1..10</strong> يبحث عن كافة القيم من 1 إلى 10. ومع ذلك، في حقل سلسلة، <strong>أ. ج</strong> يبحث عن كافة القيم التي تبدأ ب &quot;A&quot; و &quot;ب&quot;، والقيم التي تساوي تماما &quot;ج&quot;. على سبيل المثال، لن يجد هذا الاستعلام &quot;Ca&quot;. للبحث عن قيم كل من &quot;A*&quot; من خلال &quot;ج*&quot;، نوع <strong>أ. D</strong>.</td>
+<td><strong>1..10</strong> يتم البحث عن جميع القيم من 1 وحتى 10. مع ذلك، في حقل السلسلة، <strong>أ..ج</strong> يتم البحث عن كافة القيم التي تبدأ بـ &quot;أ&quot; و&quot;ب&quot;، والقيم التي تساوي  &quot;ج&quot; تمامًا. على سبيل المثال، لن يبحث هذا الاستعلام عن &quot;ج أ&quot;. للبحث عن جميع القيم بدءًا من &quot;أ*&quot; وحتى &quot;ج*&quot;، اكتب <strong>أ..د</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>القيمة</em> (نقطة مزدوجة)</td>
 <td>أقل من أو تساوي القيمة التي تم إدخالها</td>
 <td>اكتب النقطتين ثم القيمة.</td>
-<td><strong>.. 1000</strong> أي رقم يكون أقل من أو يساوي 1000، مثل &quot;100&quot;، &quot;999.95&quot;، و &quot;1000&quot;.</td>
+<td><strong>..1000</strong> يتم البحث عن أي رقم أقل من 1000 أو مساوٍ له، على سبيل المثال، &quot;100&quot;، و&quot;999.95&quot;، و&quot;1000&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>القيمة</em>.. (نقاط مزدوجة)</td>
 <td>أكبر من القيمة التي تم إدخالها أو مساوية لها</td>
 <td>اكتب القيمة ثم النقطتين.</td>
-<td><strong>1000..</strong> أي رقم يكون أكبر من أو يساوي 1000، مثل &quot;1000&quot;، &quot;1,000.01&quot;، و &quot;1000000&quot;.</td>
+<td><strong>1000..</strong> يتم البحث عن أي رقم أكبر من 1000 أو مساوٍ له، على سبيل المثال، &quot;1000&quot;، و&quot;1000.01&quot;، و&quot;1000000&quot;.</td>
 </tr>
 <tr class="even">
-<td>&gt;<em>قيمة</em> (أكبر من تسجيل)</td>
+<td>&gt;<em>القيمة</em> (علامة أكبر من)</td>
 <td>أكبر من القيمة التي تم إدخالها</td>
-<td>اكتب علامة أكبر من (<strong>&gt;</strong>) ومن ثم القيمة.</td>
-<td><strong>&gt;1000</strong> أي رقم أكبر من 1000، مثل &quot;1000.01&quot;، &quot;20000&quot;، و &quot;1000000&quot;.</td>
+<td>اكتب علامة أكبر من (<strong>&gt;</strong>) ثم القيمة.</td>
+<td><strong>&gt;1000</strong> يتم البحث عن أي رقم أكبر من 1000، على سبيل المثال، &quot;1000.01&quot;، و&quot;20000&quot;، و&quot;1000000&quot;.</td>
 </tr>
 <tr class="odd">
-<td>&lt;<em>قيمة</em> (أقل من تسجيل)</td>
+<td>&lt;<em>القيمة</em> (علامة أصغر من)</td>
 <td>أقل من القيمة التي تم إدخالها</td>
-<td>اكتب أقل من (<strong>&lt;</strong>) ومن ثم القيمة.</td>
-<td><strong>&lt;1000</strong> أي رقم هو أقل من 1000، مثل &quot;999.99&quot;، &quot;1&quot;، و &quot;-200&quot;.</td>
+<td>اكتب علامة أقل من (<strong>&lt;</strong>) ثم القيمة.</td>
+<td><strong>&lt;1000</strong> يتم البحث عن أي رقم أصغر من 1000، على سبيل المثال، &quot;999.99&quot;، و&quot;1&quot;، و&quot;-200&quot;.</td>
 </tr>
 <tr class="even">
-<td><em>قيمة</em>* علامة نجمية (*)</td>
+<td><em>القيمة</em>* (العلامة النجمية)</td>
 <td>تبدأ من القيمة التي تم إدخالها</td>
-<td>اكتب قيمة البداية ثم علامة نجمة (<strong>*</strong>).</td>
-<td><strong>S *</strong> بالعثور على أي سلسلة تبدأ ب &quot;S&quot;، مثل &quot;استكهولم&quot;، &quot;سيدني&quot;، و &quot;سان فرانسيسكو&quot;.</td>
+<td>اكتب قيمة البدء ثم علامة نجمية (<strong>*</strong>).</td>
+<td><strong>س*</strong> يتم البحث عن أية سلسلة تبدأ بـ &quot;س&quot;، مثل &quot;ستوكهولم&quot;، و&quot;سيدني&quot;، و&quot;سان فرانسيسكو&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>value</em> (asterisk)</td>
+<td>*<em>القيمة</em> (العلامة النجمية)</td>
 <td>الانتهاء بالقيمة التي تم إدخالها</td>
 <td>اكتب علامة النجمة ثم قيمة الانتهاء.</td>
-<td><strong>* شرق</strong> بالعثور على أي سلسلة تنتهي ب &quot;الشرقية&quot;، مثل &quot;شمال شرق&quot; و &quot;جنوب شرق&quot;.</td>
+<td><strong>*شرق</strong> يتم البحث عن أي سلسلة تنتهي بـ &quot;شرق&quot;، مثل &quot;شمال شرق&quot; و&quot;جنوب شرق&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>قيمة</em>* علامة نجمية (*)</td>
+<td>*<em>القيمة</em>* (العلامة النجمية)</td>
 <td>تحتوي على القيمة التي تم إدخالها</td>
 <td>اكتب علامة النجمة ثم القيمة ثم علامة نجمة أخرى.</td>
-<td><strong>*ال*</strong> بالعثور على أي سلسلة التي تحتوي على &quot;ال&quot;، مثل &quot;شمال شرق&quot; و &quot;جنوب شرق&quot;.</td>
+<td><strong>*رق*</strong> يتم البحث عن أي سلسلة تحتوي على &quot;رق&quot;، مثل &quot;شمال شرق&quot; و&quot;جنوب شرق&quot;.</td>
 </tr>
 <tr class="odd">
 <td>؟ (علامة استفهام)</td>
 <td>وجود حرف واحد أو أكثر غير معروف</td>
 <td>اكتب علامة استفهام في موضع الحرف غير المعروف في القيمة.</td>
-<td><strong>رش؟ د</strong> يرى &quot;سميث&quot; و &quot;رشيد&quot;.</td>
+<td><strong>أش؟ف</strong> يتم البحث عن &quot;أشرف&quot; و&quot;أشراف&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>قيمة</em>،<em>قيمة</em> (فاصلة)</td>
 <td>مطابقة القيم التي تم الفصل بينها بفواصل.</td>
 <td>اكتب كافة المعايير، وافصلها ياستخدام الفواصل.</td>
-<td><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;. <strong>10، 20 و 30 و 100</strong> يرى تماما &quot;10، 20 و 30 و 100&quot;.</td>
+<td><strong>أ، د، و، ز</strong> يتم البحث عن &quot;أ&quot;، و&quot;د&quot;، و&quot;و&quot;، و&quot;ز&quot;. و<strong>10،‏ 20، 30، 100</strong> يتم البحث عن &quot;10،‏ 20، 30، 100&quot; بالضبط.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">عبارة SQL</span>) (عبارة SQL بين قوسين)</td>
 <td>مطابقة استعلام محدد</td>
 <td>اكتب استعلامًا على هيئة عبارة SQL بين قوسين.</td>
-<td><strong><span class="code">(مصدر البيانات. اسم الحقل! = &quot;A&quot;)</span></strong></td>
+<td><strong><span class="code">(مصدر البيانات.اسم الحقل != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
 <td>ث</td>
@@ -137,7 +140,7 @@ ms.lasthandoff: 03/31/2017
 <td>مطابقة القيمة أو نطاق القيم المحددة من قِبل المعلمات لطريقة <strong>SysQueryRangeUtil</strong></td>
 <td>اكتب طريقة <strong>SysQueryRangeUtil</strong> التي تشتمل على معلمات تحدد قيمة أو نطاق القيم. </td>
 <td><ol>
-<li>انقر فوق <strong>الحسابات المدينة</strong>&gt;<strong>فواتير</strong>&gt;<strong>فتح فواتير العملاء</strong>.</li>
+<li>انقر فوق <strong>الحسابات المدينة</strong> &gt; <strong>الفواتير</strong> &gt; <strong>فواتير العملاء المفتوحة</strong>.</li>
 <li>اضغط على Ctrl + Shift + F3 لفتح صفحة <strong>الاستعلام</strong>.</li>
 <li>في علامة التبويب <strong>نطاق</strong>، انقر فوق <strong>إضافة</strong>.</li>
 <li>في حقل <strong>الجدول</strong>، حدد <strong>حركات العملاء المفتوحة</strong>.</li>
@@ -228,6 +231,8 @@ ms.lasthandoff: 03/31/2017
 </tr>
 </tbody>
 </table>
+
+
 
 
 

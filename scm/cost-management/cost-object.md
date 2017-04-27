@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>كائنات التكلفة
 
+[!include[banner](../includes/banner.md)]
+
+
 توفر هذه المقالة معلومات حول كائنات التكاليف وتشرح كيفية تراكم التكاليف والكميات. كائن التكلفة هو كيان تتراكم له التكاليف والكميات. وبإمكان كائن التكلفة أن يكون عبارة عن منتج أو متغيرات منتج، كمتغيرات النمط واللون.  
 
 <a name="cost-objects"></a>كائنات التكلفة
@@ -65,19 +68,21 @@ ms.lasthandoff: 03/31/2017
     -   الكمية التي تم ترحيلها
 -   حقل **متوسط تكلفة الوحدة** عبارة عن حقل محسوب. ويتم حساب القيمة بقسمة قيمة **القيمة** على قيمة **الكمية**.
 
-**ملاحظة:** * * تضمين قيمة فعلية * * المعلمة له أي تأثير على الحسابات السابقة.
+**ملاحظة:** لا تؤثر معلمة **تضمين القيمة الفعلية **في الحسابات السابقة.
 
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[مجموعة أبعاد المنتجات](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[مجموعة أبعاد التخزين](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[مجموعة أبعاد التعقب](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[ما هو الجديد أو تم تغييرها في Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[الميزات الجديدة أو المتغيرة في Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[إدخالات التكلفة](cost-entries.md)
+
+
 
 

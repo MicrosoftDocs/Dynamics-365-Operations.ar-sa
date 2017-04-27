@@ -1,5 +1,5 @@
 ---
-title: "الأجهزة الطرفية نقطة البيع"
+title: "‏‫الأجهزة الطرفية لنقطة البيع"
 description: "باستطاعة نقطة البيع بالتجزئة الحديثة (POS) ونقطة بيع المجموعة استخدام مجموعة واسعة من الأجهزة الطرفية، مع واجهات وخيارات نشر متعددة لتحقيق سيناريوهات أعمال مختلفة لبائع التجزئة."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>الأجهزة الطرفية نقطة البيع
+# <a name="pos-hardware-peripherals"></a>‏‫الأجهزة الطرفية لنقطة البيع
+
+[!include[banner](includes/banner.md)]
+
 
 باستطاعة نقطة البيع بالتجزئة الحديثة (POS) ونقطة بيع المجموعة استخدام مجموعة واسعة من الأجهزة الطرفية، مع واجهات وخيارات نشر متعددة لتحقيق سيناريوهات أعمال مختلفة لبائع التجزئة. 
 
@@ -63,6 +66,8 @@ ms.lasthandoff: 03/31/2017
 
 -   الكود الشريطي – Honeywell 1900, HP LS2208
 -   قارئ الشريط المغناطيسي – Magtek PN - 21073075
+
+
 
 
 

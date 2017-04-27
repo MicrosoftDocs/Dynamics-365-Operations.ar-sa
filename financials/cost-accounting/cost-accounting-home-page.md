@@ -1,6 +1,6 @@
 ---
-title: "الصفحة الرئيسية لمحاسبة التكاليف"
-description: "يوفر هذا الموضوع قائمة بمواضيع &quot;التعليمات&quot; وغيرها من الموارد التي تتوفر لمحاسبة التكاليف."
+title: "الصفحة الرئيسية لمحاسبة التكاليف‬‏‫"
+description: "يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة لمحاسبة التكاليف‬‏‫."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف
+# <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف‬‏‫
 
-يوفر هذا الموضوع قائمة بمواضيع "التعليمات" وغيرها من الموارد التي تتوفر لمحاسبة التكاليف.
+[!include[banner](../includes/banner.md)]
 
-وحدة محاسبة التكاليف يسمح لك بالقيام بما يلي:
 
--   تعريف أبعاد عنصر التكلفة واستيراد الأعضاء بعد عنصر تكلفة تعيين أبعاد عنصر التكلفة.
--   تعريف أبعاد كائن التكلفة واستيراد الأعضاء بعد الكائن التكلفة.
+يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة لمحاسبة التكاليف‬‏‫.
+
+تسمح لك وحدة محاسبة التكاليف بالقيام بما يلي:
+
+-   تعريف أبعاد عنصر التكلفة واستيراد أعضاء أبعاد عنصر التكلفة و‏‫تعيين أبعاد عنصر التكلفة.
+-   تعريف أبعاد كائن التكلفة واستيراد أعضاء أبعاد كائن التكلفة.
 -   تحديد الأبعاد الإحصائية أو استيرادها.
 -   إنشاء قوالب موفري القياسات الإحصائية.
 -   إنشاء دفاتر أستاذ محاسبة التكاليف.
@@ -46,29 +49,31 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="get-started"></a>بدء الاستخدام
 
-توفير التدريب العملي على مختبرات لمحاسبة التكاليف الخطوات الأساسية لتكوين Microsoft Dynamics 365 للعمليات-محاسبة التكاليف بغية إجراء تحليل التكلفة الفعلية. ويوفر أيضا سلسلة من الإجراءات التي يمكن إكمالها بالترتيب الذي تظهر به.
+توفر معامل التدريب العملي لمحاسبة التكاليف الخطوات الأساسية لتكوين Microsoft Dynamics 365 for Operations - محاسبة التكاليف بغية إجراء تحليل التكلفة الفعلية. وتوفر أيضاً سلسلة من الإجراءات التي يمكن إكمالها بالترتيب الذي تظهر به.
 
--   [الشروع في استخدام محاسبة التكاليف](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (المستند التقني ويتطلب حساب العملاء)
+-   [بدء استخدام محاسبة التكاليف](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (المستند التقني ويتطلب حساب CustomerSource)
 
-لفهم كيفية استخدام محاسبة التكاليف للعمل اليومي، يجب فهم هذه المفاهيم.
+لفهم كيفية استخدام محاسبة التكاليف في عملك اليومي، يجب عليك فهم هذه المفاهيم.
 
--   [Key terms in Cost accounting](terms-cost-accounting.md)
--   [عناصر التكلفة وأبعاد عنصر التكلفة](cost-elements.md)
--   [Map different cost element dimension members to a common set of cost element dimension members](map-cost-elements-dimension-members.md)
--   [إنشاء عناصر التكلفة](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (إرشادات المهمة)
--   [Cost object dimensions](cost-objects.md)
--   [إنشاء كائنات التكلفة](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (إرشادات المهمة)
+-   [المصطلحات الأساسية‬ في محاسبة التكاليف](terms-cost-accounting.md)
+-   [عناصر التكلفة وأبعاد عناصر التكلفة](cost-elements.md)
+-   [تعيين أعضاء مختلفين لأبعاد عنصر التكلفة إلى مجموعة مشتركة من أعضاء أبعاد عنصر التكلفة](map-cost-elements-dimension-members.md)
+-   [إنشاء عناصر التكلفة](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (دليل المهام)
+-   [أبعاد كائن التكلفة](cost-objects.md)
+-   [إنشاء كائنات التكلفة](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (دليل المهام)
 
-## <a name="cost-control-mobile-workspace"></a>التحكم في التكاليف مساحة المحمول
-باستخدام مساحة المحمول مراقبة التكلفة، رؤية مديري مراكز التكلفة أداء مراكز التكلفة في أي وقت وفي أي مكان.
+## <a name="cost-control-mobile-workspace"></a>مساحة العمل المحمولة للتحكم في التكاليف
+باستخدام مساحة العمل المحمولة للتحكم في التكاليف، يمكن لمديري مركز التكلفة رؤية أداء مركز التكلفة في أي وقت وفي أي مكان.
 
--   [Cost control mobile workspace](cost-controlling-mobile-workspace.md)
+-   [مساحة العمل المحمولة للتحكم في التكاليف](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>محاسبة التكاليف تحليل محتوى "ثنائي الطاقة"
-يهدف تحليل محتوى ثنائي الطاقة Microsoft محاسبة التكاليف لوحدات التحكم بالتكلفة أو أي شخص مسؤول عن تنفيذ مراقبة التكاليف لمؤسسة. وتتضمن المقاييس الرئيسية، مثل التكلفة والحجم ومعدل التكلفة بالتكلفة الفعلية وتكلفة الموازنة تكلفة الموازنة المرنة. أنه يستخدم بيانات الحركة من محاسبة التكاليف في Microsoft Dynamics 365 للعمليات ويوفر طريقة عرض إجمالي التكاليف للمؤسسة بأكملها بعمله واحدة التقارير. مديري تصفية البيانات حسب التكلفة لتنفيذ مراقبة التكاليف الخاصة بها الوحدات التنظيمية، حتى لو أن المنظمة العديد من الكيانات القانونية.
+## <a name="cost-accounting-analysis-power-bi-content"></a>محتوى Power BI لتحليل محاسبة التكاليف
+يهدف محتوى Microsoft Power BI لتحليل محاسبة التكاليف إلى مساعدة مراقبي التكاليف أو أي شخص مسؤول عن تنفيذ مراقبة التكاليف لمؤسسة. ويتضمن المقاييس الرئيسية، مثل التكلفة والمقدار ومعدل التكلفة بحسب التكلفة الفعلية وتكلفة الموازنة وتكلفة الموازنة المرنة. يستخدم بيانات الحركة من محاسبة التكاليف في Microsoft Dynamics 365 for Operations، ويقدم نظرة إجمالية عن التكاليف للمؤسسة بأكملها في عملة تقارير واحدة. يمكن للمديرين تصفية البيانات حسب كائنات التكلفة لتنفيذ مراقبة التكاليف الخاصة بوحداتهم التنظيمية، حتى لو كانت المؤسسة تمتلك العديد من الكيانات القانونية.
 
--   [محاسبة التكاليف تحليل محتوى "ثنائي الطاقة"](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Set up security for the Cost accounting analysis Power BI content](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [محتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [إعداد الأمان لمحتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+
+
 
 
 

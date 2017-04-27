@@ -1,5 +1,5 @@
 ---
-title: "تكوين مهمة تلقائية في سير عمل"
+title: "تكوين مهمة مؤتمتة في سير عمل"
 description: "يوضح هذا الموضوع كيفية تكوين خصائص مهمة تلقائية."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>تكوين مهمة تلقائية في سير عمل
+# <a name="configure-an-automated-task-in-a-workflow"></a>تكوين مهمة مؤتمتة في سير عمل
+
+[!include[banner](../includes/banner.md)]
+
 
 يوضح هذا الموضوع كيفية تكوين خصائص مهمة تلقائية.
 
@@ -92,16 +95,18 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="odd">
     <td>المستخدم</td>
-    <td>365 Dynamics Microsoft معينة للمستخدمين العمليات</td>
+    <td>‏‫مستخدمو Microsoft Dynamics 365 for Operations معينون‬</td>
     <td><ol>
     <li>بعد تحديد <strong>المستخدم</strong>، انقر فوق علامة تبويب <strong>المستخدم</strong>.</li>
-    <li><strong>المستخدمين المتاحين</strong> 365 Dynamics كافة المستخدمين عمليات تتضمن القائمة. حدد المستخدمين لإرسال الإخطارات لهم، ثم انقل هؤلاء المستخدمين إلى قائمة <strong>المستخدمون المحددون</strong>.</li>
+    <li>تتضمن قائمة <strong>المستخدمون المتاحون</strong> جميع مستخدمي Dynamics 365 for Operations. حدد المستخدمين لإرسال الإخطارات لهم، ثم انقل هؤلاء المستخدمين إلى قائمة <strong>المستخدمون المحددون</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  كرر الخطوات من 3 إلى 7 لكل الأحداث التي قمت بتحديدها في الخطوة 2.
+
+
 
 
 

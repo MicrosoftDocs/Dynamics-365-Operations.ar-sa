@@ -1,5 +1,5 @@
 ---
-title: "اعتماد وتأكيد أوامر الشراء"
+title: "الموافقة على أوامر الشراء وتأكيدها"
 description: "توضح هذه المقالة الحالات التي تمر بها أوامر الشراء بعد إنشائها، وتأثير تمكين إدارة التغييرات في أوامر الشراء."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>اعتماد وتأكيد أوامر الشراء
+# <a name="approve-and-confirm-purchase-orders"></a>الموافقة على أوامر الشراء وتأكيدها
+
+[!include[banner](../includes/banner.md)]
+
 
 توضح هذه المقالة الحالات التي تمر بها أوامر الشراء بعد إنشائها، وتأثير تمكين إدارة التغييرات في أوامر الشراء.
 
@@ -73,12 +76,14 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[نظرة عامة على أمر الشراء](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[إنشاء أمر شراء](purchase-order-creation.md)
 
 [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
 
 [نظرة عامة على فواتير الموردين](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

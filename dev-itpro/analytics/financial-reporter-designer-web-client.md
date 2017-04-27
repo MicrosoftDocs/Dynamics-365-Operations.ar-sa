@@ -1,5 +1,5 @@
 ---
-title: "أداة إدارة-مصمم وعميل ويب"
+title: "‏‫أداة تقارير الإدارة‬ - المصمم وعميل الويب"
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>أداة إدارة-مصمم وعميل ويب
+# <a name="management-reporter----the-designer-and-web-client"></a>‏‫أداة تقارير الإدارة‬ - المصمم وعميل الويب
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

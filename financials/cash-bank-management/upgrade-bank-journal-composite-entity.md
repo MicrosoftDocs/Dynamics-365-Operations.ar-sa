@@ -1,5 +1,5 @@
 ---
-title: "تحديث دفتر يومية البنك الكيان المركب"
+title: "تحديث الكيان المركب لدفتر يومية البنك"
 description: "تُعد الخطوات التالية مطلوبة لإضافة الحقل BankTransactionType الإضافي إلى BankJournalEntity المركب."
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>تحديث دفتر يومية البنك الكيان المركب
+# <a name="update-the-bank-journal-composite-entity"></a>تحديث الكيان المركب لدفتر يومية البنك
+
+[!include[banner](../includes/banner.md)]
+
 
 تُعد الخطوات التالية مطلوبة لإضافة الحقل BankTransactionType الإضافي إلى BankJournalEntity المركب.
 
 استخدم الخطوات التالية لإضافة الحقل الإضافي BankTransactionType إلى BankJournalEntity المركب.
 
 1.  تجميع ومزامنة الكيانات المركبة التالية لدفتر يومية البنك والكيانات وجداول التشغيل المرحلي:
-    -   الكيان المركب\\بانكجورنالينتيتي
-    -   وحدة\\بانكجورنالهيديرينتيتي
-    -   وحدة\\بانكجورنالينينتيتي
-    -   جدول\\بانكجورنالهيديرستاجينج
-    -   جدول\\بانكجورنالينيستاجينج
+    -   الكيان المركب‬\\BankJournalEntity
+    -   الكيان\\BankJournalHeaderEntity
+    -   الكيان\\BankJournalLineEntity
+    -   الجدول\\BankJournalHeaderStaging
+    -   الجدول\\BankJournalLineStaging
 
-2.  إدارة بيانات\\مشاريع البيانات
+2.  إدارة البيانات\\مشاريع البيانات
     -   عرض نوع **الحركة البنكية** على تخطيط **المصدر المصدر**.
         -   تنسيق بيانات المصدر = عنصر XML
         -   اسم الكيان = دفتر يومية البنك
@@ -49,6 +52,8 @@ ms.lasthandoff: 03/31/2017
             -   تأكد من تعيين نوع الحركة البنكية من المصدر إلى التشغيل المرحلي‬.
 
 3.  استيراد كشف الحساب الجديد.
+
+
 
 
 

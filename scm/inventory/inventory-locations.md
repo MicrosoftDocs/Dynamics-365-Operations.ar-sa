@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>مواقع المخزون
 
+[!include[banner](../includes/banner.md)]
+
+
 تُستخدم مواقع المخزون مع التخزين الأساسي (WMS I) لتحديد المكان الذي يتم فيه تخزين الأصناف والمكان الذي يتم منه انتقاء الأصناف من مستودع (WMS I).
 
 ينطبق هذا الموضوع على ميزات في وحدة إدارة المخزون. ولا ينطبق على الميزات الموجودة في وحدة إدارة المستودع.
@@ -64,6 +67,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[إنشاء تخطيط مستودع جديد (إرشادات المهمة)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[إنشاء تخطيط مستودع جديد (دليل المهام)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

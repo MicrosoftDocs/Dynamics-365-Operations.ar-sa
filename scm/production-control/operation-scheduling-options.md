@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>خيارات جدولة العمليات
 
+[!include[banner](../includes/banner.md)]
+
+
 يصف هذا الموضوع خيارات جدولة العمليات. يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن.
 
 تقوم جدولة العمليات بحساب المعلومات التالية لأمر إنتاج:
@@ -128,6 +131,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[جدولة العمليات](operations-scheduling.md)
+
+
 
 

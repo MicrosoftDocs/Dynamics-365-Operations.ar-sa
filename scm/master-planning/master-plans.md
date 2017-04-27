@@ -1,6 +1,6 @@
 ---
 title: "الخطط الرئيسية"
-description: "استخدام العديد من الخطط الرئيسية لدعم عمليات العمل اليومي الخاص بالشركة ومحاكاة استراتيجيات التخطيط المختلفة التي تحتاج إلى مراقبة وتنفيذ سياسة شركة، مثل سياسة حول الداخلية الأداء أو رضا العميل."
+description: "يمكنك استخدام العديد من الخطط الرئيسية لدعم مهام العمل اليومية بشركتك وكذلك محاكاة إستراتيجيات التخطيط المختلفة التي تريد مراقبتها بالإضافة إلى تطبيق نهج الشركة، على سبيل المثال فيما يتعلق بالأداء الداخلي أو إرضاء العملاء."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>الخطط الرئيسية
 
-استخدام العديد من الخطط الرئيسية لدعم عمليات العمل اليومي الخاص بالشركة ومحاكاة استراتيجيات التخطيط المختلفة التي تحتاج إلى مراقبة وتنفيذ سياسة شركة، مثل سياسة حول الداخلية الأداء أو رضا العميل. 
+[!include[banner](../includes/banner.md)]
+
+
+يمكنك استخدام العديد من الخطط الرئيسية لدعم مهام العمل اليومية بشركتك وكذلك محاكاة إستراتيجيات التخطيط المختلفة التي تريد مراقبتها بالإضافة إلى تطبيق نهج الشركة، على سبيل المثال فيما يتعلق بالأداء الداخلي أو إرضاء العملاء. 
 
 يمكنك تكوين الخطط الرئيسية في صفحة **الخطط الرئيسية**.
 
@@ -50,8 +53,10 @@ ms.lasthandoff: 03/31/2017
 
 [إعدادات التغطية](coverage-settings.md)
 
-[فصل التخطيط التكتيكي والجراحي للجدولة الرئيسية](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
+[‬‏‫فصل التخطيط التكتيكي والتشغيلي للجدولة الرئيسية](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[التخطيط الرئيسي: استخدام خطة رئيسية والدينامية أو استخدام خطة واحدة؟](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[التخطيط الرئيسي: استخدام خطة رئيسية ثابتة وديناميكية أو استخدام خطة واحدة؟](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

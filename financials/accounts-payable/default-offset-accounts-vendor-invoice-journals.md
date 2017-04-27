@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>الحسابات المقابلة الافتراضية لدفاتر يومية فواتير المورد ودفاتر يومية اعتماد الفاتورة
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 يتم استخدام الحسابات المقابلة الافتراضية في صفحات دفاتر يومية فاتورة المورد التالية:
@@ -92,6 +95,8 @@ ms.lasthandoff: 03/31/2017
 </tr>
 </tbody>
 </table>
+
+
 
 
 

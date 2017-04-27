@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>سير عمل طلب الشراء
 
+[!include[banner](../includes/banner.md)]
+
+
 تنقل عملية سير العمل طلبات الشراء من خلال عملية المراجعة، من حالة أولية للمسودة إلى حالة نهائية معتمدة. وعند إرسال طلب شراء للمراجعة، يتم بدء عملية سير العمل. وبعد الموافقة على طلب الشراء، يمكن إنشاء أمر شراء لأصناف طلبات الشراء وإرساله للمُورد لتلبية الطلب.
 
 قبل أن يمكن تقديم طلب شراء للمراجعة، يجب عليك تكوين سير عمل. ويمكن أن تشمل عملية سير العمل خطوة مراجعة واحدة أو أكثر بأي ترتيب. ويمكن أيضا تكوين عملية سير العمل لتخطي مهام المراجعة والموافقة على طلب الشراء تلقائياً. يمكنك تكوين سير العمل لتوجيه طلب الشراء كوثيقة واحدة، أو يمكنك توجيه بنود طلب الشراء الفردية للمراجعين المناسبين. كما يمكنك إنشاء سيناريو حيث يتم توجيه طلب الشراء كمستند واحد لبعض المراجعين، وتوجيه أصناف طلب الشراء المحدد للمراجعين الآخرين.  
@@ -107,12 +110,14 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[إنشاء طلب للاستهلاك (إرشادات المهمة)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[إنشاء طلب للاستهلاك (دليل المهام)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[عمليات سير العمل للتدبير وتحديد الموارد](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[نظرة عامة على طلب الشراء](purchase-requisitions-overview.md)
+
+
 
 

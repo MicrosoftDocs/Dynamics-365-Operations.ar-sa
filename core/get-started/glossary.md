@@ -1,5 +1,5 @@
 ---
-title: "ديناميكيات 365 لمصطلحات العمليات"
+title: "مصطلحات Dynamics 365 for Operations"
 description: "تعرّف مصطلحات Microsoft Dynamics 365 for Operations التعابير والمفاهيم الأساسية في منتج Dynamics 365 for Operations."
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>ديناميكيات 365 لمصطلحات العمليات
+# <a name="dynamics-365-for-operations-glossary"></a>مصطلحات Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 تعرّف مصطلحات Microsoft Dynamics 365 for Operations التعابير والمفاهيم الأساسية في منتج Dynamics 365 for Operations. 
 
@@ -247,9 +250,9 @@ ms.lasthandoff: 03/31/2017
 
 ###### <a name="designer"></a>**مصمم**
 
-أداة Visual Studio تستخدمه لإنشاء، وتحديث، وفحص عناصر النموذج الخاص بك.
+أداة Visual Studio تستخدمها لإنشاء، وتحديث، وفحص عناصر النموذج الخاص بك.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.. تكوين \financial-dimensions\dimension-based**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\‏‫الأبعاد-المالية\التكوين المستنِد إلى البُعد**
 
 تقنية تكوين يتم استخدامها لإنشاء متغيرات المنتج عن طريق تحديد قيم لأبعاد المنتج.
 
@@ -499,7 +502,7 @@ ms.lasthandoff: 03/31/2017
 
 ###### <a name="product-dimension"></a>**بُعد منتج**
 
-حجم أو لون أو تكوين المنتج السمات المستخدمة في... تكوين \financial-dimensions\dimension-based.
+الحجم، أو اللون، أو سمات تكوين المنتج التي يتم استخدامها لـ ..\الأبعاد-المالية\التكوين المستنِد إلى البُعد‬‏‫.
 
 ###### <a name="product-family"></a>**مجموعة منتجات**
 
@@ -697,7 +700,7 @@ ms.lasthandoff: 03/31/2017
 
 طريقة لتشكيل أصول المنتجات والبحث عن تكوينات متغير المنتج.
 
-###### <a name="vat-value-added-tax"></a>**ضريبة القيمة المضافة (ضريبة القيمة المضافة)**
+###### <a name="vat-value-added-tax"></a>**ضريبة القيمة المضافة (VAT)**
 
 ضريبة على المنتجات في كل مرحلة من مراحل الإنتاج الخاصة بها استنادًا إلى القيمة المضافة خلال تلك المرحلة.
 
@@ -722,5 +725,7 @@ ms.lasthandoff: 03/31/2017
 ###### <a name="workspace"></a>**مساحة العمل**
 
 صفحة توفر نظرة عامة على أحد الأنشطة التي يقوم بها المستخدم. وتستخدم هذه الصفحة التجانبات والقوائم والمخططات لعرض تعليق العمل والبيانات ذات الصلة من مصادر متعددة، وتعرض الصفحة المهام المتكررة ذات الصلة بهذه البيانات. كما يتم عرض التجانبات المعروضة في قسم ملخص مساحة العمل في القسم ذي الصلة في لوحة المعلومات.
+
+
 
 

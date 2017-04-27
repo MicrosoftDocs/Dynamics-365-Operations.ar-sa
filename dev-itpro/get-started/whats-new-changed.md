@@ -41,23 +41,23 @@ ms.lasthandoff: 03/31/2017
 <thead>
 <tr class="header">
 <th><strong>الإصدار</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
-<th><strong><strong>لمزيد من المعلومات</strong></strong></th>
+<th><strong><strong>الإصدار</strong></strong></th>
+<th><strong><strong>رقم الإنشاء</strong></strong></th>
+<th><strong><strong>التوفر</strong></strong></th>
+<th><strong><strong>لمعرفة المزيد</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>النظام الأساسي Microsoft Dynamics 365 for Operations</td>
-<td>تحديث النظام الأساسي 4</td>
+<td>الإصدار 4 من تحديث النظام الأساسي</td>
 <td>7.0.4425.16160</td>
-<td>شباط/فبراير عام 2017</td>
+<td>2017 فبراير</td>
 <td><ol>
-<li>انتقل إلى <a href="https://roadmap.dynamics.com/">Dynamics 365 خارطة الطريق</a>.</li>
-<li>حدد <strong>الجديد</strong> علامة التبويب.</li>
-<li>في <strong>تطبيقات</strong> المقطع، حدد <strong>365 ديناميات عمليات</strong>.</li>
-<li>في <strong>مناطق</strong> المقطع، حدد <strong>"النظام الأساسي سحابة"</strong>.</li>
+<li>انتقل إلى <a href="https://roadmap.dynamics.com/">تخطيط Dynamics 365</a>.</li>
+<li>حدد علامة التبويب <strong>ما الجديد</strong>.</li>
+<li>في المقطع <strong>تطبيقات</strong>، حدد <strong>Dynamics 365 for Operations</strong>.</li>
+<li>في المقطع <strong>مناطق</strong>، حدد <strong>النظام الأساسي للمجموعة</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

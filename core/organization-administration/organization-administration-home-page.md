@@ -1,6 +1,6 @@
 ---
 title: "الصفحة الرئيسية لإدارة المؤسسة"
-description: "استخدم هذه النقاط الموضوع إلى الموارد التي ستساعدك Microsoft Dynamics 365 للعمليات في المؤسسة الخاصة بك."
+description: "يشير هذا الموضوع إلى الموارد التي ستساعدك في استخدام Microsoft Dynamics 365 for Operations في مؤسستك."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>الصفحة الرئيسية لإدارة المؤسسة
 
-استخدم هذه النقاط الموضوع إلى الموارد التي ستساعدك Microsoft Dynamics 365 للعمليات في المؤسسة الخاصة بك.
+[!include[banner](../includes/banner.md)]
+
+
+يشير هذا الموضوع إلى الموارد التي ستساعدك في استخدام Microsoft Dynamics 365 for Operations في مؤسستك.
 
 <a name="number-sequences"></a>التسلسلات الرقمية
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [قم بإعداد التسلسلات الرقمية باستخدام معالج](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (إرشادات المهمة)
--   [قم بإعداد التسلسلات الرقمية كل على حدة](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (إرشادات المهمة)
+-   [نظرة عامة على تسلسلات الأرقام](number-sequence-overview.md)
+-   [إعداد التسلسلات الرقمية باستخدام معالج](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (دليل المهام)
+-   [إعداد التسلسلات الرقمية على أساس فردي](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (دليل المهام)
 
 ## <a name="address-books"></a>دفاتر العناوين
--   [Address books](qa-address-books.md)
+-   [دفاتر العناوين](qa-address-books.md)
 -   [نظرة عامة: دفتر العناوين العمومي](overview-global-address-book.md)
--   [تخطيط تكوين دفتر العناوين العمومي ودفتر عناوين إضافية](plan-configuration-global-address-book-additional-address-books.md)
+-   [تخطيط تكوين دفتر العناوين العمومي ودفتر العناوين الإضافي](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>سير العمل
--   [Overview of the workflow system](overview-workflow-system.md)
+-   [نظرة عامة على نظام سير العمل](overview-workflow-system.md)
 -   [بنية نظام سير العمل](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
+-   [عناصر سير العمل](workflow-elements.md)
+-   [إجراءات سير العمل](workflow-actions.md)
 -   [إنشاء سير عمل](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
+-   [تكوين خصائص سير عمل](configure-workflow-properties.md)
 -   [تكوين مهمة يدوية](configure-manual-task-workflow.md)
 -   [تكوين مهمة تلقائية](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [تكوين عملية اعتماد](configure-approval-process-workflow.md)
 -   [تكوين خطوة اعتماد](configure-approval-step-workflow.md)
 -   [تكوين قرار يدوي](configure-manual-decision-workflow.md)
 -   [تكوين قرار شرطي](configure-conditional-decision-workflow.md)
 -   [تكوين نشاط موازٍ](configure-parallel-activity-workflow.md)
 -   [تكوين فرع موازٍ](configure-parallel-branch-workflow.md)
--   [تكوين صنف بند عنصر سير العمل](configure-line-item-workflow.md)
+-   [تكوين عنصر سير عمل لعنصر بند](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>إدارة الحالة
--   [التخطيط: حالة الإعداد](plan-case-management.md)
--   [أمثلة على إدارة القضايا](cases.md)
+-   [تخطيط: إعداد الحالة](plan-case-management.md)
+-   [أمثلة إدارة الحالة](cases.md)
 
 ## <a name="electronic-signatures"></a>التوقيعات الإلكترونية
--   [Electronic signature overview](electronic-signature-overview.md)
--   [إعداد التوقيعات الإلكترونية](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (إرشادات المهمة)
+-   [نظرة عامة على التوقيعات الإلكترونية](electronic-signature-overview.md)
+-   [إعداد التوقيعات الإلكترونية](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (دليل المهام)
 
 ## <a name="organizations"></a>المؤسسات
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Plan the organizational hierarchy](plan-organizational-hierarchy.md)
--   [إنشاء وحدة تشغيل](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (إرشادات المهمة)
--   [إنشاء تدرج هرمي تنظيمي](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (إرشادات المهمة)
--   [إنشاء كيان قانوني](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (إرشادات المهمة)
+-   [المؤسسات والتدرجات الهرمية للمؤسسات](organizations-organizational-hierarchies.md)
+-   [تخطيط التدرج الهرمي للمؤسسات](plan-organizational-hierarchy.md)
+-   [إنشاء وحدة تشغيل](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (دليل المهام)
+-   [إنشاء تدرج هرمي للمؤسسات](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (دليل المهام)
+-   [إنشاء كيان قانوني](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (دليل المهام)
 
 ## <a name="general-administration"></a>الإدارة العامة
--   [تغيير الشعار أو شعار](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (إرشادات المهمة)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+-   [تغيير اللافتة أو الشعار](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (دليل المهام)
+-   [حول بيانات التاريخ/الوقت والمناطق الزمنية](date-time-zones.md)
+-   [قوالب السجل](record-templates.md)
+
+
 
 
 

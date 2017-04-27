@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>أساليب الإهلاك والقواعد
 
+[!include[banner](../includes/banner.md)]
+
+
 توفر هذه المقالة نظرة عامة حول قواعد الإهلاك وطرق الإهلاك معتمدة من قبل Microsoft Dynamics AX.
 
 يُمكنك تحديد أساليب وقواعد إهلاك متعددة. تهدف هذه الطرق إلى تخصيص القيمة الممكن إهلاكها للأصل الثابت إلى فترات مالية. والقيمة الممكن إهلاكها للأصل الثابت هي عبارة عن سعر الامتلاك الذي يتم خصم قيمة الخردة منه، إن وُجدت. 
@@ -66,26 +69,27 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[إهلاك الأصول الثابتة‬](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[إهلاك مدة خدمة القسط الثابت](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[إهلاك القسط المتناقص](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[الإهلاك اليدوي](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[إهلاك العامل](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[إهلاك الاستهلاك](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[إهلاك المتبقي من مدة خدمة القسط الثابت](straight-line-life-remaining-depreciation.md)
 
-[125 في المائة إهلاك الرصيد المتناقص](125-percent-reducing-balance-depreciation.md)
+[إهلاك الرصيد المتناقص بنسبة 125 بالمائة](125-percent-reducing-balance-depreciation.md)
 
-[إهلاك الرصيد المتناقص 150 في المائة](150-percent-reducing-balance-depreciation.md)
+[إهلاك الرصيد المتناقص بنسبة 150 بالمائة](150-percent-reducing-balance-depreciation.md)
 
-[إهلاك الرصيد المتناقص 175 في المائة](175-percent-reducing-balance-depreciation.md)
+[إهلاك الرصيد المتناقص بنسبة 175 بالمائة](175-percent-reducing-balance-depreciation.md)
 
-[200 في المائة إهلاك الرصيد المتناقص](200-percent-reducing-balance-depreciation.md)
+[إهلاك الرصيد المتناقص بنسبة 200 بالمائة](200-percent-reducing-balance-depreciation.md)
+
 
 

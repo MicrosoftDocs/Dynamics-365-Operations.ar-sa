@@ -85,6 +85,6 @@ ms.lasthandoff: 03/30/2017
 
 #<a name="see-also"></a>راجع أيضًا
 
-[إنشاء تقرير مالي] ((dynamics365\operations\financials\general-ledger\generate--التقرير المالي)
+[إنشاء تقرير مالي‬]((dynamics365\العمليات\الماليات\دفتر الأستاذ العام‬\إنشاء التقارير المالية)
 
 
