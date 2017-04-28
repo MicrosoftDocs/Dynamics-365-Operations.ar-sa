@@ -1,21 +1,21 @@
 # إنشاء تخطيط المستودع
-# عملية إيندبوند
-# عملية خارجية
-# قم بتعقب المخزون
-## [Inventory journals](inventory-journals.md)
-## [Inventory locations](inventory-locations.md)
-## [Inventory statuses](inventory-statuses.md)
-## [كمية المخزون الاحتياطي](reserve-inventory-quantities.md)
-## [حجز الدفعة نفسها لأمر توريد](../sales-marketing/reserve-same-batch-sales-order.md)
+# العملية الواردة
+# العملية الصادرة
+# إعداد تعقب المخزون
+## [دفاتر يومية المخزون](inventory-journals.md)
+## [مواقع المخزون](inventory-locations.md)
+## [حالات المخزون](inventory-statuses.md)
+## [حجز كمية المخزون](reserve-inventory-quantities.md)
+## [حجز نفس الدُفعة لأمر مبيعات](../sales-marketing/reserve-same-batch-sales-order.md)
 # مخزون الشحن
-## [Consignment](consignment.md)
+## [الشحن](consignment.md)
 ## [إعداد الشحن](set-up-consignment.md)
 # إدارة الجودة
-## [Enable quality management](enable-quality-management.md)
-## [Inventory blocking](inventory-blocking.md)
-## [إدارة عدم التوافق](enable-nonconformance-management.md)
-## [Quarantine order](quarantine-orders.md)
+## [تمكين إدارة الجودة](enable-quality-management.md)
+## [حظر المخزون](inventory-blocking.md)
+## [إدارة عدم المطابقة](enable-nonconformance-management.md)
+## [أمر العزل](quarantine-orders.md)
 ## [عملية إدارة الجودة](quality-management-processes.md)
-# تتبع الصنف والمجموعة
-## [دمج دفعة المخزون](merge-inventory-batches.md)
-## [تتبع الصنف والمواد الخام](trace-items-raw-materials-inventory-production-sales.md)
+# تعقب الصنف والدفعة
+## [دمج دُفعة المخزون](merge-inventory-batches.md)
+## [تعقب الصنف والمواد الخام](trace-items-raw-materials-inventory-production-sales.md)

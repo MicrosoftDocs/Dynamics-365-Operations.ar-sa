@@ -1,6 +1,6 @@
 ---
-title: "الصفحة الرئيسية محددات إدارة البنك والنقد"
-description: "يمكنك استخدام إدارة النقد والبنوك للاحتفاظ بحسابات مصرفية خاصة بالكيان القانوني والمستندات المالية المقترنة بهذه الحسابات البنكية."
+title: "الصفحة الرئيسية لإدارة البنك والنقد"
+description: "يمكنك استخدام إدارة البنك والنقد للاحتفاظ بالحسابات البنكية الخاصة بالكيان القانوني والمستندات المالية المقترنة بتلك الحسابات البنكية."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,53 +25,53 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="cash-and-bank-management-home-page"></a>الصفحة الرئيسية محددات إدارة البنك والنقد
+# <a name="cash-and-bank-management-home-page"></a>الصفحة الرئيسية لإدارة البنك والنقد
 
 [!include[banner](../includes/banner.md)]
 
 
-يمكنك استخدام إدارة النقد والبنوك للاحتفاظ بحسابات مصرفية خاصة بالكيان القانوني والمستندات المالية المقترنة بهذه الحسابات البنكية. 
+يمكنك استخدام إدارة البنك والنقد للاحتفاظ بالحسابات البنكية الخاصة بالكيان القانوني والمستندات المالية المقترنة بتلك الحسابات البنكية. 
 
-وتشمل هذه المستندات إيصالات الإيداع والشيكات والكمبيالات والسندات الإذنية. كما يُمكنك أيضًا تسوية قوائم كشوف الحسابات المالية وطباعة بيانات البنك في التقارير القياسية.
+وتشمل هذه المستندات إيصالات الإيداع والشيكات والكمبيالات والسندات الإذنية. كما يُمكنك أيضًا تسوية كشوف الحساب البنكية‬ وطباعة البيانات البنكية في التقارير القياسية.
 
--   [Cash discounts](cash-discounts.md)
--   [Settlement overview](settlement-overview.md)
--   [Configure settlement](configure-settlement.md)
--   [Foreign currency revaluation for Accounts payable and Accounts receivable](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+-   [الخصومات النقدية](cash-discounts.md)
+-   [نظرة عامة على التسوية](settlement-overview.md)
+-   [تكوين التسوية](configure-settlement.md)
+-   [إعادة تقييم العملة الأجنبية للحسابات الدائنة والحسابات المدينة](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 -   [خطابات الاعتماد](letters-of-credit.md)
--   [خطابات الاعتماد وتحصيلات الاستيراد](letters-of-credit-import-collections.md)
+-   [خطاب الاعتماد وتحصيلات الاستيراد](letters-of-credit-import-collections.md)
 -   [خطاب الضمان](letters-of-guarantee.md)
 -   [نظرة عامة على التسوية البنكية المتقدمة](advanced-bank-reconciliation-overview.md)
--   [Configure advanced bank reconciliation](configure-advanced-bank-reconciliation.md)
+-   [تكوين التسوية البنكية المتقدمة](configure-advanced-bank-reconciliation.md)
 -   [إعداد استيراد التسوية البنكية المتقدمة](set-up-advanced-bank-reconciliation-import-process.md)
 -   [تسوية كشوف الحسابات البنكية باستخدام التسوية البنكية المتقدمة](reconcile-bank-statements-advanced-bank-reconciliation.md)
 -   [إعداد قواعد مطابقة التسوية البنكية](set-up-bank-reconciliation-matching-rules.md)
--   [إعداد المدفوعات المركزية](set-up-centralized-payments.md)
+-   [إعداد الدفعات المركزية](set-up-centralized-payments.md)
 
-## <a name="accounts-payable-payments-and-settlements"></a>مدفوعات وتسويات الحسابات الدائنة
--   [Centralized payments for Accounts payable](../accounts-payable/centralized-payments-accounts-payable.md)
+## <a name="accounts-payable-payments-and-settlements"></a>دفعات وتسويات الحسابات الدائنة
+-   [الدفعات المركزية للحسابات الدائنة](../accounts-payable/centralized-payments-accounts-payable.md)
 -   [إنشاء فواتير المورد باستخدام مقترح دفع](../accounts-payable/create-vendor-payments-payment-proposal.md)
--   [Reverse a vendor payment](../accounts-payable/reverse-vendor-payment.md)
--   [Vendor payments for a partial amount](../accounts-payable/vendor-payments-partial-amount.md)
--   [نظرة عامة حول المدفوعات والفواتير الدفعة المقدمة](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Scenario: Settle a partial vendor payment that has discounts on vendor credit notes](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Scenario: Settle a partial vendor payment that has multiple discount periods](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Scenario: Take a discount that is more than the calculated discount for a vendor payment](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Scenario: Take a cash discount outside the cash discount period](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+-   [إلغاء دفعة مورد](../accounts-payable/reverse-vendor-payment.md)
+-   [دفعات المورد لمبلغ جزئي](../accounts-payable/vendor-payments-partial-amount.md)
+-   [نظرة عامة على فواتير الدفعات المقدمة والدفعات المقدمة](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [السيناريو: تسوية دفعة جزئية لمورد وتسوية الدفعة النهائية بالكامل قبل تاريخ الخصم](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [السيناريو: تسوية دفع جزئي لمورد قبل تاريخ الخصم مع دفعة نهائية بعد تاريخ الخصم](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [السيناريو: تسوية دفعة جزئية لمورد لديه خصومات في الإشعارات الدائنة للمورد](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [السيناريو: تسوية دفعة جزئية لمورد تحتوي على عدة فترات خصم](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [السيناريو: الحصول على خصم أكبر من الخصم المحتسب لدفعة المورد](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [السيناريو: الحصول على خصم نقدي خارج فترة الخصم النقدي](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
-## <a name="accounts-receivable-payments-and-settlements"></a>مدفوعات وتسويات الحسابات المدينة
--   [Centralized payments for Accounts receivable](../accounts-receivable/centralized-payments-accounts-receivable.md)
--   [Customer payments for a partial amount](../accounts-receivable/customer-payments-partial-amount.md)
--   [Reimburse customers](../accounts-receivable/reimburse-customers.md)
--   [Scenario: Automatic settlement and prioritization](../accounts-receivable/automatic-settlement-prioritization.md)
--   [السيناريو: الخصم النقدي للزيادة معالجة](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Scenario: Settle a partial customer payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [السيناريو: استخدام دفع العميل واحد لتسوية الفاتورة متعددة تمتد فترات خصم متعددة](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+## <a name="accounts-receivable-payments-and-settlements"></a>دفعات وتسويات الحسابات المدينة
+-   [الدفعات المركزية للحسابات المدينة](../accounts-receivable/centralized-payments-accounts-receivable.md)
+-   [دفعات العميل لمبلغ جزئي](../accounts-receivable/customer-payments-partial-amount.md)
+-   [عملاء التعويض](../accounts-receivable/reimburse-customers.md)
+-   [السيناريو: التسوية التلقائية وترتيب الأولويات التلقائي](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [السيناريو: معالجة الخصم النقدي لحالات الدفع بالزيادة](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [السيناريو: تسوية دفعة جزئية لعميل وتسوية الدفعة النهائية بالكامل قبل تاريخ الخصم](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [السيناريو: تسوية دفع جزئي لعميل قبل تاريخ الخصم مع دفعة نهائية بعد تاريخ الخصم](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [السيناريو: تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة للمورد](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [السيناريو: تسوية دفعة جزئية لعميل تحتوي على عدة فترات خصم](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [السيناريو: استخدام دفعة عميل واحدة لتسوية فواتير متعددة تمتد عبر عدة فترات خصم](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
