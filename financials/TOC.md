@@ -170,6 +170,7 @@
 ## [أبعاد عنصر التكلفة](cost-accounting/cost-elements.md)
 ## [أبعاد كائن التكاليف](cost-accounting/cost-objects.md)
 ## [تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد](cost-accounting/map-cost-elements-dimension-members.md)
+## [عملية حساب المصروفات الزائدة](cost-accounting/overhead-calculation.md)
 ## [مساحة العمل المحمولة للتحكم في التكلفة](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [محتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [إعداد الأمان لمحتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [عروض أسعار المشروع](project-management/project-quotations.md)
 ## [تحديد موارد المشروع](project-management/project-resourcing.md)
 ## [هياكل تنظيم العمل](project-management/work-breakdown-structures.md)
+## [مساحة عمل محمولة لإدخال وقت المشروع](project-management/project-time-entry-mobile-workspace.md)
 # [عمليات الترجمة](localizations/TOC.md)
+
+# [الموارد البشرية](/dynamics365/operations/human-resources/index)
+
+# [‏‫البيع بالتجزئة‬](/dynamics365/operations/retail/index)
+
+# [إدارة سلسلة التوريد](/dynamics365/operations/supply-chain/index)
+
+# [المطور والمسؤول](/dynamics365/operations/dev-itpro/index)
+
+# موارد أخرى
+## [مصطلحات Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [ما الجديد أو التغيير](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

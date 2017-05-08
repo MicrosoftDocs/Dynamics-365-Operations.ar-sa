@@ -1,5 +1,6 @@
 # إنشاء تخطيط المستودع
 # العملية الواردة
+## [نظرة عامة على الوصول](arrival-overview.md)
 # العملية الصادرة
 # إعداد تعقب المخزون
 ## [دفاتر يومية المخزون](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [الشحن](consignment.md)
 ## [إعداد الشحن](set-up-consignment.md)
 # إدارة الجودة
+## [مساحة عمل محمولة للمخزون الفعلي](inventory-on-hand-mobile-workspace.md)
 ## [تمكين إدارة الجودة](enable-quality-management.md)
 ## [حظر المخزون](inventory-blocking.md)
 ## [إدارة عدم المطابقة](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # تعقب الصنف والدفعة
 ## [دمج دُفعة المخزون](merge-inventory-batches.md)
 ## [تعقب الصنف والمواد الخام](trace-items-raw-materials-inventory-production-sales.md)
+

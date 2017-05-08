@@ -68,3 +68,16 @@
 ## [نظرة عامة على أساسيات التجارة](commerce-essentials.md)
 ## [المؤسسات والتدرجات الهرمية للمؤسسات (أساسيات التجارة)](organizational-hierarchies-commerce-essentials.md)
 # [محتوى المطورين ومتخصصي تقنية المعلومات](dev-itpro/TOC.md)
+
+# [الماليات](/dynamics365/operations/financials/index)
+
+# [الموارد البشرية](/dynamics365/operations/human-resources/index)
+
+# [إدارة سلسلة التوريد](/dynamics365/operations/supply-chain/index)
+
+# [المطور والمسؤول](/dynamics365/operations/dev-itpro/index)
+
+# موارد أخرى
+## [مصطلحات Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [ما الجديد أو التغيير](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

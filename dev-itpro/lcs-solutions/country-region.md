@@ -17,29 +17,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: b77b61089c359127a7404437c29ef63a01416779
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
+ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>الترجمة والميزات التنظيمية
 
-يتضمن Microsoft Dynamics 365 for Operations وظائف لبعض العمليات واللوائح الخاصة بالبلد/المنطقة. يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الوظائف الخاصة بالبلد/المنطقة. 
+[!include[banner](../includes/banner.md)]
 
-## <a name="developer-and-isv-information"></a>معلومات المطور ومورِّد البرامج
-توفر الموارد التالية معلومات يمكن أن تساعد المطورين ومورِّدي البرامج الذين يُنشئون التخصيصات الخاصة بالبلد/المنطقة.
+
+يتضمن Microsoft Dynamics 365 for Operations وظائف للبلد/المناطق الموثقة في [دليل إتاحة المنتج](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
+
+يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الوظائف الخاصة بالبلد/المنطقة. 
+
+## <a name="developing-localized-solutions"></a>نشر حلول مترجمة
+توفر الموارد التالية توجيهات ومعلومات يمكن أن تساعد المطورين ومورِّدي البرامج الذين يُنشئون التخصيصات الخاصة بالبلد/المنطقة أو أنشأوا حلا لدولة لا تدعمها Microsoft.
 -   [نماذج الترجمة المنفصلة](separate-localization-models.md)
 -   [تطبيق سياق البلد/المنطقة](apply-country-context.md)
 -   [الشهادات التنظيمية](regulatory-certifications.md)
 -   [تصنيف ميزات الترجمة](classify-localization-features.md)
 -   [أكواد البلدان - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates"></a>تحديثات الترجمة
+## <a name="localization-updates-and-communication"></a>تحديثات الترجمة والاتصالات
 توفر الموارد التالية المعلومات المتعلقة بميزات الترجمة الجديدة والمخطط لها. 
--   [مدخل الترجمة](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)
+
+### <a name="localization-updates"></a>تحديثات الترجمة
+-   [مدخل الترجمة](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (يتم تحديثه أسبوعيًا)
+-   [البحث عن المشاكل في LCS](../lifecycle-services/issue-search-lcs.md) (يتم تحديثه يوميًا)
+
+### <a name="communication-and-alerts"></a>الاتصال والتنبيهات
 -   [المراقبة التنظيمية والإبلاغ عن التحديثات التنظيمية](regulatory-watch-communication.md)
 -   [إبلاغ Microsoft عن تنبيهات لوائح البلد/المنطقة وتعقب حالة الميزات التنظيمية](submit-localization-alerts.md)
 
@@ -51,7 +62,15 @@ ms.lasthandoff: 04/12/2017
 -   [توسيع قائمة وظائف التقارير الإلكترونية](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [وجهات إعداد التقارير الإلكترونية‬](../analytics/electronic-reporting-destinations.md)
 -   [تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [إعداد التقارير الإلكترونية باستخدام Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [تكوين إعداد التقارير الإلكترونية لسحب البيانات إلى Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+## <a name="task-guides"></a>دلائل المهام
+تتوافر دلائل المهام من جزء تعليمات في المنتج وتوفر معاينة إرشادية للعمليات التجارية الرئيسية. ويمكنك فتح دليل المهام وقراءة خطوات عملية تجارية أو يمكنك تشغيل دليل المهام لمعاينة عملية تجارية وإدخال البيانات.
+
+للعثور على دلائل المهام، انتقل إلى صفحة في Microsoft Dynamics 365 for Operations وانقر فوق تعليمات. يتم سرد دلائل المهام التي تستخدم الصفحة في جزء التعليمات. يمكنك أيضًا استخدام جزء التعليمات للبحث عن دلائل مهام حسب العنوان.
+
+لتعلم المزيد، راجع [دلائل المهام](/dynamics365/operations/dev-itpro/get-started/help-overview#task-guides).
+
 
 ## <a name="countryregion-specific-help-topics"></a>مواضيع التعليمات الخاصة بالبلدان/المناطق
 تسرد الأقسام التالية الموارد حسب البلد/المنطقة.
@@ -62,17 +81,17 @@ ms.lasthandoff: 04/12/2017
 -   [بيان النشاط التجاري ](/dynamics365/operations/financials/localizations/apac-aus-business-activity-statement)
 -   [إهلاك وعاء منخفض القيمة](/dynamics365/operations/financials/localizations/apac-aus-low-value-pool-depreciation)
 
-
 ### <a name="austria"></a>النمسا
 
+-   [إهلاك نصف السنة](/dynamics365/operations/financials/localizations/emea-aut-half-year-depreciation)
 -   [رسوم مواد التعبئة](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
 -   [بيان ضريبة القيمة المضافة](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>بلجيكا
 
 -   [كشف الحساب البنكي بتنسيق CODA](/dynamics365/operations/financials/localizations/emea-bel-coda-bank-statement-import)
+-   [‏‏إقرار ضريبة Intervat](/dynamics365/operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [إعداد تقرير PRODCOM](/dynamics365/operations/financials/localizations/emea-bel-prodcom-report)
-
 
 ### <a name="brazil"></a>البرازيل
 
@@ -93,7 +112,6 @@ ms.lasthandoff: 04/12/2017
 -   [مدفوعات الضرائب](/dynamics365/operations/financials/localizations/latam-bra-tax-payments)
 -   [الضرائب](/dynamics365/operations/financials/localizations/latam-bra-calculate-taxes)
 
-
 ### <a name="china"></a>الصين
 -   [مقارنة قوائم مكونات الصنف](/dynamics365/operations/financials/localizations/apac-chn-bom-comparison)
 -   [الإيصالات الصينية](/dynamics365/operations/financials/localizations/apac-chn-vouchers)
@@ -105,12 +123,14 @@ ms.lasthandoff: 04/12/2017
 -   [ترحيل الحسابات الرئيسية للمخزون حسب الموقع](/dynamics365/operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
 -   [عرض المبالغ المدينة والدائنة لحسابات دفتر الأستاذ](/dynamics365/operations/financials/localizations/apac-chn-negative-debits-credits)
 
-
 ### <a name="the-czech-republic"></a>جمهورية التشيك
+
+-   [الخصم النقدي على إشعار دائن](/dynamics365/operations/financials/localizations/emea-cze-credit-note-cash-discount)
 -   [تقريب الإهلاك](/dynamics365/operations/financials/localizations/emea-cze-depreciation-rounding)
--       [إهلاك نصف السنة على التصرف في الأصول الثابتة لجمهورية التشيك](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
-    -   [تعليق الإهلاك (العطلات)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
-    -   [طرق إهلاك الأصول الثابتة لجمهورية التشيك](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+-   [إهلاك نصف السنة على التصرف في الأصول الثابتة لجمهورية التشيك](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
+-   [تعليق الإهلاك (العطلات)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
+-   [طرق إهلاك الأصول الثابتة لجمهورية التشيك](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+
 -   [ترحيل الاستحواذ المسبق لأصل ثابت](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [بيان ضريبة القيمة المضافة لجمهورية التشيك](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
 -   [تقسيم الفترات في دفاتر اليومية الدورية](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
@@ -127,6 +147,7 @@ ms.lasthandoff: 04/12/2017
 -   [تحرير معرفات الفواتير في أوامر المبيعات](/dynamics365/operations/financials/localizations/emea-edit-invoice-id-sales-orders)
 -   [شهادات دخول الاتحاد الأوروبي](/dynamics365/operations/financials/localizations/emea-entry-certificates)
 -   [تقارير قائمة مبيعات الاتحاد الأوروبي](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
+-   [تعديلات سعر الصرف](/dynamics365/operations/financials/localizations/emea-exchange-rate-adjustments)
 -   [تنسيقات الملف لطرق الدفع](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 -   [التخلص من الأصول الثابتة لإستونيا وليتوانيا](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 -   [نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي](/dynamics365/operations/financials/localizations/emea-intrastat)
@@ -143,11 +164,9 @@ ms.lasthandoff: 04/12/2017
 -   [إعداد الموقِّعين لنماذج الطباعة](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [تقسيم الفترات في دفاتر اليومية الدورية](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [تحديث طريقة عرض المبالغ في التقارير والمستندات](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
-
+-   [أسعار صرف ضريبة القيمة المضافة](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)
 -   [تقارير ضريبة القيمة المضافة لأوروبا](/dynamics365/operations/financials/localizations/emea-vat-reporting)
-
--   [عرض الحركات في التسوية](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
-
+-   [عرض الحركات عن التسوية](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
 
 ### <a name="france"></a>فرنسا
 -   [أرقام الفواتير والإيصالات المرتبة زمنيًا](/dynamics365/operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -164,15 +183,16 @@ ms.lasthandoff: 04/12/2017
    -   [الفواتير](/dynamics365/operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [تعليقات دفع فواتير الموردين](/dynamics365/operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
-
 ### <a name="germany"></a>ألمانيا
 -   [إهلاك الاستحواذ الإضافي](/dynamics365/operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
 -   [ملف المراجعة الألماني (GDPdU/GoBD)](/dynamics365/operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [تقرير قائمة دفتر اليومية الألماني](/dynamics365/operations/financials/localizations/emea-deu-journal-list-report)
--   [طباعة تسمية منفصلة لمذكرات الائتمان التي تنشأ من المبيعات (دليل المهام)](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [طباعة تسمية منفصلة لمذكرات الائتمان التي تنشأ من المبيعات](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
-### <a name="hungary"></a>هنغاريا
+### <a name="hungary"></a>المجر
 
+-   [طرق إهلاك الأصول الثابتة](/dynamics365/operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods)    
+-   [نقل أصل ثابت إلى المخزون](/dynamics365/operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
 -   [الأصول الثابتة ذات التكلفة المنخفضة](/dynamics365/operations/financials/localizations/emea-hun-low-cost-fixed-assets)
 
 ### <a name="italy"></a>إيطاليا
@@ -184,6 +204,7 @@ ms.lasthandoff: 04/12/2017
 -   [التحقق من صحة تاريخ إيصال التعبئة على الفواتير لإيطاليا](/dynamics365/operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [دفاتر ضريبة المبيعات الإيطالية](/dynamics365/operations/financials/localizations/emea-ita-fiscal-books)
 -   [الدفعة المقسمة للفواتير الصادرة للإدارة العامة](/dynamics365/operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
+-   [ضريبة الخصم](/dynamics365/operations/financials/localizations/emea-ita-withholding tax)
 
 ### <a name="japan"></a>اليابان
 
@@ -240,6 +261,9 @@ ms.lasthandoff: 04/12/2017
 -   [ترقيم فواتير المبيعات المتكررة](/dynamics365/operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [إهلاك الأصول الثابتة](/dynamics365/operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [التخلص من الأصول الثابتة](/dynamics365/operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
+-   [العبوات القابلة للإرجاع](/dynamics365/operations/financials/localizations/emea-pol-returnable-packages)
+-   [تقارير ضريبة المبيعات](/dynamics365/operations/financials/localizations/emea-pol-sales-tax-reports)
+-   [ملف التدقيق القياسي (SAF)](/dynamics365/operations/financials/localizations/emea-pol-standard-audit-file-saf)
 -   [كشف الأرصدة والدوران](/dynamics365/operations/financials/localizations/emea-pol-turnover-balances-statement)
 
 ### <a name="saudi-arabia"></a>السعودية
@@ -252,15 +276,16 @@ ms.lasthandoff: 04/12/2017
 
 ### <a name="spain"></a>إسبانيا
 
-
--   [خيارات الكمبيالة الإسبانية](/dynamics365/operations/financials/localizations/emea-esp-spanish-bill-of-exchange-options)
+-   [خيارات الكمبيالة الإسبانية](/dynamics365/operations/financials/localizations/emea-esp-bill-of-exchange-options)
 -   [يتم تطبيق الخصم النقدي في معلمة الفاتورة](/dynamics365/operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [استخدام البيانات المالية من حساب فاتورة](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [ضريبة مبيعات مشروطة](/dynamics365/operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [مجموعات إعادة تقييم الأصول الثابتة](/dynamics365/operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
+-   [ضريبة القيمة المضافة بين المجتمعات](/dynamics365/operations/financials/localizations/emea-esp-intra-community-vat)
 -   [عملاء المرة الواحدة](/dynamics365/operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
 -   [خيارات السندات الإذنية الإسبانية](/dynamics365/operations/financials/localizations/emea-esp-promissory-note-options)
 -   [دورات المبيعات والشراء](/dynamics365/operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬](/dynamics365/operations/financials/localizations/emea-esp-opening-sheets-spain)
+-   [استخدام البيانات المالية من حساب فاتورة](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>السويد
 
@@ -286,4 +311,7 @@ ms.lasthandoff: 04/12/2017
 -   [تقرير 1099 لنهاية العام](/dynamics365/operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [كشف الرواتب](/dynamics365/operations/human-resources/localizations/noam-usa-payroll)
 -   [القطاع العام](/dynamics365/operations/financials/public-sector/public-sector-functionality)
+
+
+
 

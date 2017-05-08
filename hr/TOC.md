@@ -60,3 +60,15 @@
 #### [الأسئلة الشائعة حول تحديثات بيانات كشف الرواتب](localizations/noam-usa-payroll-data-updates.md)
 #### [إنشاء تقارير كشف الرواتب](localizations/noam-usa-generate-payroll-reports.md)
 
+# [الماليات](/dynamics365/operations/financials/index)
+
+# [‏‫البيع بالتجزئة‬](/dynamics365/operations/retail/index)
+
+# [إدارة سلسلة التوريد](/dynamics365/operations/supply-chain/index)
+
+# [المطور والمسؤول](/dynamics365/operations/dev-itpro/index)
+
+# موارد أخرى
+## [مصطلحات Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [ما الجديد أو التغيير](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+

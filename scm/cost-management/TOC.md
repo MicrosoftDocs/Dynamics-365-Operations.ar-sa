@@ -22,10 +22,14 @@
 ## [تاريخ المتوسط المرجح](weighted-average-date.md)
 ## [المتوسط المرجح مع القيمة الفعلية ووضع العلامات](weighted-average-physical-value-marking.md)
 # تكاليف التصنيع
+## [استهلاك أصول التكلفة الثابتة لصنف مصنّع](amortize-constant-costs-manufactured-item.md)
+## [تحديد تكاليف الإصدار التلقائي](backflush-costing.md)
+## [العمليات الحسابية لقائمة مكونات الصنف](bom-calculations.md)
 ## [مجموعة حساب قائمة مكونات الصنف](bom-calculation-groups.md)
 ## [المصادر الشائعة للفرق في الإنتاج](common-sources-of-production-variances.md)
 ## [فئة التكاليف المستخدمة في توجيه الإنتاج](cost-categories-used-production-routings.md)
 ## [فئة التكلفة المستخدمة في التحكم بالإنتاج ومحاسبة إدارة المشروع](cost-categories-used-production-control-project-management-accounting.md)
+## [عرض المصاريف المتنوعة لصنف مصنّع](charges-manufactured-item.md)
 ## [تحليل تكلفة أمر الإنتاج](production-order-cost-analysis.md)
 ## [تقدير تكلفة أمر الإنتاج](production-order-cost-estimation.md)
 ## [ترحيل الإنتاج](production-posting.md)
@@ -39,5 +43,6 @@
 ## [تحديث التكلفة القياسية في بيئة تصنيع](update-standard-costs-manufacturing-environment.md)
 ## [تحديث التكلفة القياسية لصنف مصنّع جديد](update-standard-costs-new-manufactured-item.md)
 ## [تحديث التكلفة القياسية في بيئة غير تصنيع](update-standard-costs-non-manufacturing-environment.md)
+
 
 

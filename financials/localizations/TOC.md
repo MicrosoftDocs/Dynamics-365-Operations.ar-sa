@@ -42,6 +42,7 @@
 ## [تحرير معرفات الفواتير في أوامر المبيعات](emea-edit-invoice-id-sales-orders.md)
 ## [شهادات دخول الاتحاد الأوروبي](emea-entry-certificates.md)
 ## [تقارير قائمة مبيعات الاتحاد الأوروبي](emea-eu-sales-list.md)
+## [تعديلات سعر الصرف](emea-exchange-rate-adjustments.md)
 ## [تنسيقات الملف لطرق الدفع](emea-select-file-formats-for-the-method-of-payments.md)
 ## [التخلص من الأصول الثابتة لإستونيا وليتوانيا](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [نظرة عامة على تحويل ائتمان سيبا](../accounts-payable/sepa-credit-transfer.md)
 ## [نظرة عامة على دين سيبا المباشر](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [إعداد الموقِّعين لنماذج الطباعة](emea-set-up-signers-for-printing-forms.md)
-## [تقسيم الفترات في دفاتر اليومية الدورية](emea-create-post-periodic-journals.md)
-## [تحديث طريقة عرض المبالغ في التقارير والمستندات](emea-amount-printing-forms.md)
-## [تقارير ضريبة القيمة المضافة](emea-vat-reporting.md)
-## [عرض الحركات في التسوية](emea-transactions-settlement-form.md)
+## [أسعار صرف ضريبة القيمة المضافة](emea-vat-exchange-rate.md)
+## [عرض الحركات عن التسوية](emea-transactions-settlement-form.md)
 ## النمسا
+### [إهلاك نصف السنة](emea-aut-half-year-depreciation.md)
 ### [رسوم مواد التعبئة](emea-aut-packing-material-fee-calculation.md)
 ### [بيان ضريبة القيمة المضافة](emea-aut-vat-statement-details.md)
 ## بلجيكا
 ### [كشف الحساب البنكي بتنسيق CODA](emea-bel-coda-bank-statement-import.md)
+### [‏‏إقرار ضريبة Intervat](emea-bel-intervat-tax-declaration.md)
 ### [إعداد تقرير PRODCOM](emea-bel-prodcom-report.md)
 
 ## جمهورية التشيك
+### [الخصم النقدي على إشعار دائن](emea-cze-credit-note-cash-discount.md)
 ### [تقريب الإهلاك](emea-cze-depreciation-rounding.md)
 ### [تعليق الإهلاك](emea-cze-depreciation-suspension-holidays.md)
 ### [إهلاك الأصول الثابتة](emea-cze-fixed-assets-depreciation.md)
@@ -93,8 +95,10 @@
 ### [ملف مراجعة ](emea-deu-gdpdu-audit-data-export.md)
 ### [تقرير قائمة دفتر اليومية](emea-deu-journal-list-report.md)
 ### [طباعة تسمية منفصلة لمذكرات الائتمان التي تنشأ من المبيعات](emea-deu-print-separate-label-credit-memo-originating-sales.md)
-## هنغاريا
+## المجر
+### [طرق إهلاك الأصول الثابتة](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [الأصول الثابتة ذات التكلفة المنخفضة](emea-hun-low-cost-fixed-assets.md)
+### [نقل أصل ثابت إلى المخزون](emea-hun-fixed-asset-to-inventory.md)
 ## إيطاليا
 ### [تفاصيل كشوف حساب ضريبة القيمة المضافة](emea-ita-vat-statements-details.md)
 ### [تقرير القائمة السوداء](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [التحقق من صحة تاريخ إيصال التعبئة على الفواتير](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [دفاتر ضريبة المبيعات](emea-ita-fiscal-books.md)
 ### [الدفعة المقسمة للفواتير الصادرة للإدارة العامة](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [ضريبة الخصم](emea-ita-withholding tax.md)
 ## لاتفيا
 ### [محاسبة الأصول الثابتة](emea-lva-fixed-assets-accounting.md)
 ### [تعقب التغييرات بمواقع الأصول الثابتة](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [ترقيم فواتير المبيعات المتكررة](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [إهلاك الأصل الثابت](emea-pol-fixed-assets-depreciation.md)
 ### [توسيع وظائف التخلص من الأصول الثابتة](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [العبوات القابلة للإرجاع](emea-pol-returnable-packages.md)
+### [تقارير ضريبة المبيعات](emea-pol-sales-tax-reports.md)
+### [ملف التدقيق القياسي (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [كشف الأرصدة والدوران](emea-pol-turnover-balances-statement.md)
 ## إسبانيا
-### [خيارات الكمبيالة](emea-esp-bill-of-exchange-options.md)
 ### [تطبيق الخصومات النقدية في الفاتورة](emea-esp-cash-discount-applied-invoice.md)
+### [خيارات الكمبيالة](emea-esp-bill-of-exchange-options.md)
+### [ضريبة مبيعات مشروطة](emea-esp-conditional-sales-tax.md)
 ### [حساب فاتورة البيانات المالية](emea-esp-fiscal-data-invoice-account.md)
 ### [إعادة تقييم مجموعة الأصول الثابتة](emea-esp-fixed-asset-group-revaluation.md)
+### [ضريبة القيمة المضافة بين المجتمعات](emea-esp-intra-community-vat.md)
 ### [عملاء المرة الواحدة](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [خيارات السندات الإذنية](emea-esp-promissory-note-options.md)
 ### [دورات المبيعات والشراء](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # أمريكا الشمالية
 ## [تقرير 1099 لنهاية العام للولايات المتحدة](noam-usa-year-end-1099-reporting.md)
+
