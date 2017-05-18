@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d9dcdd63649d6dbff96efe2eec7cad34025ab2ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 01ab473951bc04c68a0248b37041a116eebcaea9
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ ms.lasthandoff: 03/31/2017
 تقوم شركة USMF بتنفيذ عمليات دورية إضافية:
 
 -   تتم معالجة الحركة المادية للمخزون المملوك من المورد بين مستودعات مختلفة باستخدام دفتر يومية تحويل.
--   يتم تحديث المخزون المادي الفعلي باستخدام دفتر يومية** جرد الأصناف**. يمكنك استخدام الجرد أيضًا من قِبل المورد لتحديث المخزون الفعلي، إذا كان لديه الإذن للقيام بذلك.
+-   يتم تحديث المخزون المادي الفعلي باستخدام دفتر يومية**جرد الأصناف**. يمكنك استخدام الجرد أيضًا من قِبل المورد لتحديث المخزون الفعلي، إذا كان لديه الإذن للقيام بذلك.
 
 باستطاعة المورد، US-104، مراقبة التحديثات باستخدام صفحة **مخزون الشحن الفعلي‬**.
 

@@ -3,7 +3,7 @@ title: "عرض أوصاف الحقول وتصديرها"
 description: "توضح هذه المقالة كيفية عرض أوصاف الحقول وكيفية استخدام صفحة أوصاف الحقل لتصدير الأوصاف."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: d4fc9cdee0e2160e363f9defcf6bdbc57ed4db74
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3029cb441d124e6e5aa427f7fcd95540700254c6
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>عرض أوصاف الحقول وتصديرها
+
+[!include[banner](../includes/banner.md)]
+
 
 توضح هذه المقالة كيفية عرض أوصاف الحقول وكيفية استخدام صفحة أوصاف الحقل لتصدير الأوصاف.
 
@@ -80,11 +84,11 @@ ms.lasthandoff: 03/31/2017
 
 ### <a name="i-cant-find-a-field-description"></a>لا يمكنني العثور على وصف الحقل
 
-نحن نعمل على إضافة أوصاف للحقول الأكثر تعقيدً. إذا احتجت إلى مساعدة تتعلق بحقل معين، فالرجاء إعلامنا عن طريق إضافة تعليق على مقالة wiki هذه.
+نحن نعمل على إضافة أوصاف للحقول الأكثر تعقيدً. إذا احتجت إلى مساعدة تتعلق بحقل معين، فالرجاء إعلامنا عن طريق إضافة تعليق على هذا الموضوع.
 
 ### <a name="the-field-description-isnt-helpful"></a>وصف الحقل غير مساعد.
 
-الرجاء إعلامنا برأيك عن طريق إضافة تعليق على مقالة wiki هذه. وقدّم لنا وصفًا للمعلومات الإضافية التي تحتاج إليها، إذا أمكنك ذلك.
+الرجاء إعلامنا برأيك عن طريق إضافة تعليق على هذا الموضوع. وقدّم لنا وصفًا للمعلومات الإضافية التي تحتاج إليها، إذا أمكنك ذلك.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>يتعذر عليّ العثور على حقل في صفحة أوصاف الحقول
 
@@ -97,6 +101,9 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[تعليمات تخصيص الحقل](https:/docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/user-interface/customize-field-help.md)
+[تعليمات تخصيص الحقل](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+
+
+
 
 

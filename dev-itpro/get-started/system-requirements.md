@@ -3,7 +3,7 @@ title: "متطلبات النظام"
 description: "يوفر هذا الموضوع متطلبات النظام للإصدار الحالي من Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 9220c093d3f6d6700127c93651db4083be300311
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="system-requirements"></a>متطلبات النظام
+
+[!include[banner](../includes/banner.md)]
+
 
 يوفر هذا الموضوع متطلبات النظام للإصدار الحالي من Microsoft Dynamics 365 for Operations.
 
@@ -43,6 +47,8 @@ ms.lasthandoff: 03/31/2017
 -   لالتقاط الصور التي إنشاؤها من مسجل المهام، وتضمينها في مستندات Microsoft Word، يجب عليك تثبيت ملحق Chrome. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   تم بدء تشغيل محرر سير العمل كتطبيق ClickOnce. تدعم Microsoft Edge و Internet Explorer فقط (على الإصدارات المعتمدة من Microsoft Windows) تطبيقات ClickOnce. يتطلب تطبيق ClickOnce محرر سير العمل نظام تشغيل متوافق 64 بت.
 -   بدء تشغيل مصمم التقرير للتقارير المالية كتطبيق ClickOnce. يتطلب هذا نظام تشغيل متوافق 64 بت. إذا كنت تستخدم Chrome، يجب تثبيت ملحق ClickOnce لتتمكن من تنزيل عميل مصمم التقارير. إذا كنت تستخدم Chrome مع وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي أيضًا.
+-   لمعاينة ملفات PDF، ننصح باستخدام المستعرضات الحديثة مثل Microsoft Edge (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Google Chrome (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو الكمبيوتر اللوحي Google Nexus 10.
+
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>مستعرضات الويب المدعومة لـ "نقطة بيع مجموعة النظراء للبيع بالتجزئة"
 
@@ -84,7 +90,7 @@ ms.lasthandoff: 03/31/2017
 
 -   Retail hardware station هي تطبيق 32 بت، ولكن سيتم تشغيله على كل من بنى x86 وx64.
 -   يتم اعتماد Retail hardware station على أنظمة التشغيل التالية:
-    -   إصدارات Windows 7 Professional وEnterprise وUltimate** ملاحظة:** يكون Windows 7 مدعومًا فقط إذا تم تثبيت Internet Explorer 11 يدويًا على النظام.
+    -   إصدارات Windows 7 Professional وEnterprise وUltimate**ملاحظة:** يكون Windows 7 مدعومًا فقط إذا تم تثبيت Internet Explorer 11 يدويًا على النظام.
     -   إصدارات Windows 8.1 Update 1 Professional وEnterprise وEmbedded
     -   إصدارات Windows 10 Pro وEnterprise وEnterprise LTSB
 
@@ -117,11 +123,13 @@ ms.lasthandoff: 03/31/2017
 -   10 غيغابايت على الأقل من المساحة الحرة (يمكن لقاعدة بيانات القناة أن تتطلب قدر أكبر من المساحة.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>متطلبات للتطوير في الأجهزة الظاهرية المحلية
-للحصول على معلومات حول متطلبات التطوير على الأجهزة الظاهرية المحلية (الأجهزة الظاهرية)، راجع [تشغيل الأجهزة الظاهرية محليًا](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
+للحصول على معلومات حول متطلبات التطوير على الأجهزة الظاهرية المحلية (الأجهزة الظاهرية)، راجع [تشغيل الأجهزة الظاهرية محليًا](../dev-tools/access-instances.md).
 
 <a name="see-also"></a>راجع أيضًا
 --------
 
 [الحصول على نسخة تقييم لـ Dynamics 365 for Operation](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+
+
 
 

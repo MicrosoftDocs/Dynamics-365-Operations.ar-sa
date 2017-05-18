@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 82d03b6bc190fb612dd2cc7a25dc11875212f1ea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fbca041e0663fad4437207146bcfff8f93f4a7fc
+ms.openlocfilehash: 67faa02d445cc4c6e78fe5471605d8c0a2da21de
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>الميزات الجديدة أو المتغيرة في الإصدار 1611 من Dynamics 365 for Operations (نوفمبر 2016)
+
+[!include[banner](../includes/banner.md)]
+
 
 يوضح هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 1611 من تطبيق Microsoft Dynamics 365 for Operations.
 
@@ -514,6 +518,11 @@ ms.lasthandoff: 03/31/2017
 <li>تنسيق استيراد ملف كشف الحساب البنكي ESR (سويسرا)</li>
 </ul></td>
 </tr>
+<tr class="even">
+<td>ألمانيا - تصدير دفعات المورّدين بتنسيق DTAZV</td>
+<td>تفرض ألمانيا التنسيق DTAZV مع مواصفات تنسيق الخارجية، مما يمثل رسالة تحويل ائتمان (دفع المورّد) ائتمان وفقًا لمواصفات الدفعات عبر الحدود من ألمانيا إلى حساب في بنك أجنبي أو إلى بنك محلي بعمله أجنبية. 
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -675,7 +684,7 @@ ms.lasthandoff: 03/31/2017
 
 ### <a name="store-system-providing-a-seamless-on-premises-store-experience"></a>نظام المتجر: توفير تجربة متجر محلي سلسة
 
-إن نظام المتجر هو خيار نشر لبائعي التجزئة يمكنه المساعدة في تعزيز مجموعة من عمليات المتجر، سواء في المتجر المحلي أو مجموعة عامة من Microsoft أو مجموعة خاصة تابعة للعميل. بالنسبة إلى الإصدار 7.1 من تطبيق Microsoft Dynamics AX، يكون النطاق في المتجر فقط. لتوفير دعم أفضل للبيئات حيث يتسم اتصال الشبكة بالبطء وعدم الموثوقية، يتعين علينا توفير حل لبائعي التجزئة من أجل نشر قاعدة بيانات القنوات وخادم البيع بالتجزئة في المتجر. وبإمكانهم الاستمرار في تشغيل سيناريوهات الأعمال الرئيسية حتى عندما لا يوجد أي اتصال بالمقر الرئيسي (HQ). استنادًا إلى نقاط البيانات المختلفة، والتي شملت مناقشات فريق الهندسة ونتائج استطلاع العملاء وتحليل المنافسين، حددنا نطاق الحل التالي كخيار مثالي لعملائنا المستهدفين:
+إن نظام المتجر هو خيار نشر لبائعي التجزئة يمكنه المساعدة في تعزيز مجموعة من عمليات المتجر، سواء في المتجر المحلي أو مجموعة عامة من Microsoft أو مجموعة خاصة تابعة للعميل. بالنسبة إلى هذا الإصدار، يكون النطاق في المخزن فقط. لتوفير دعم أفضل للبيئات حيث يتسم اتصال الشبكة بالبطء وعدم الموثوقية، يتعين علينا توفير حل لبائعي التجزئة من أجل نشر قاعدة بيانات القنوات وخادم البيع بالتجزئة في المتجر. وبإمكانهم الاستمرار في تشغيل سيناريوهات الأعمال الرئيسية حتى عندما لا يوجد أي اتصال بالمقر الرئيسي (HQ). استنادًا إلى نقاط البيانات المختلفة، والتي شملت مناقشات فريق الهندسة ونتائج استطلاع العملاء وتحليل المنافسين، حددنا نطاق الحل التالي كخيار مثالي لعملائنا المستهدفين:
 
 -   تتوفر حزمة خدمة الذاتية لنظام المتجر.
 -   التثبيت الافتراضي عبارة عن عملية نشر من صندوق واحد، ولكن يُسمح بالنشر المخصص.
@@ -718,7 +727,7 @@ ms.lasthandoff: 03/31/2017
 | بصفتك مورد، يمكنك الحصول على معلومات حول كمية مخزون الشحن الذي تم تحويله إلى العميل.                                                                      | لفوترة لعميل، يحتاج المورد إلى معلومات عن المواد الخام التي تم شراؤها من مخزون الشحن وتاريخ الشراء. باستطاعة المورد أيضًا مراقبة المخزون الفعلي في موقع العميل باستخدام واجهة تعاون المورد.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | نقل المخزون المملوك من المورد باستخدام دفتر يومية التحويل.                                                                                                                       | لتعقب الموضع الفعلي للمخزون المملوك من المورد، يجب أن تكون قادرًا على تسجيل الموضع في النظام. من خلال استخدام دفتر يومية التحويل، يمكنك تسجيل الحركة المادية للمخزون، مثل الحركة من موقع في مستودع إلى موقع آخر في هذا المستودع.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ضبط المخزون المملوك من المورد باستخدام دفتر يومية الجرد‬.                                                                                                                     | من الضروري أن تحافظ على مزامنة المخزون الفعلي للنظام مع المخزون المادي الفعلي. ويمكن ضبط المخزون المملوك من المورد للداخل والخارج عن طريق استخدام عمليات الجرد مثل عمليات تعديل الكميات ودفتر يومية الجرد.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| معرفة المزيد حول دعم الشحن في Dynamics 365 for Operations                                                                                                         | لمزيد من المعلومات حول دعم عمليات الشحن، راجع [الشحن](/dynamics365/operations/scm/inventory/consignment) و[إعداد الشحن](/dynamics365/operations/scm/inventory/set-up-consignment) و[إنشاء أمر تزويد الشحن (دليل المهام)](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/) و[تغيير ملكية مخزون الشحن استنادًا إلى الطلب على الإنتاج (دليل المهام)](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| معرفة المزيد حول دعم الشحن في Dynamics 365 for Operations                                                                                                         | لمزيد من المعلومات حول دعم عمليات الشحن، راجع [الشحن](/dynamics365/operations/supply-chain/inventory/consignment) و[إعداد الشحن](/dynamics365/operations/supply-chain/inventory/set-up-consignment) و[إنشاء أمر تزويد الشحن (دليل المهام)](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/) و[تغيير ملكية مخزون الشحن استنادًا إلى الطلب على الإنتاج (دليل المهام)](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>تعاون المورد (المعروف سابقًا بمدخل المورد)
 
@@ -728,7 +737,7 @@ ms.lasthandoff: 03/31/2017
 | تمكين الموردين من إدارة معلومات جهات الاتصال.                                 | باستطاعة الموردين المحافظة على معلومات جهات الاتصال في شركتهم. تتضمن هذه المعلومات الأسماء وعناوين البريد الإلكتروني وأرقام الهاتف. يُمنح حق الوصول إلى هذه الميزة من خلال دور أمان مخصص.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | مشاركة المستندات المتعلقة بأوامر الشراء مع الموردين.                    | عندما يتعين عليك مشاركة مستند مع أحد الموردين، مثل مستند حول المتطلبات، يمكن ربط المستند بأمر الشراء المناسب. يستطيع المورد عندئذٍ مشاركة الملاحظات والمرفقات مع العميل عن طريق ربط المستند باستجابته لأمر الشراء. تعتبر إدارة المستندات إطار الدعم الأساسي، ويمكن مشاركة فقط الملاحظات والمرفقات المصنفة على أنها "خارجية" مع الموردين.                                                                                                                                                                                                                                                                                                                              |
 | تزويد مستخدمي موردين جدد.                                                          | إذا كان الموردون الذين تتعامل معهم يستخدمون واجهة تعاون المورد، فستتوفر لديهم طريقة سلسة لطلب حسابات مستخدمين جدد عندما تحتاج جهات اتصال جديدة إلى الوصول إلى تعاون المورد. يستطيع أخصائيو التدبير تقديم طلب الحصول على حساب مستخدم لجهة اتصال في مؤسسة المورد. باستطاعة الشخص الذي يعتبر جهة اتصال المورد ويستخدم واجهة تعاون المورد تقديم طلب من هذا النوع. يؤدي هذا الطلب في نهاية المطاف إلى إنشاء مستخدم جديد في Dynamics 365 for Operations لديه أدوار الأمان الخاصة بالمورد. وهو يسهّل أيضًا الطلب المرسل إلى مدخل Microsoft Azure B2B المتعلق بتزويد المستخدمين بحساب مستخدم Azure Active Directory (Azure AD) جديد. باستطاعة الموردين أيضًا طلب إلغاء تنشيط حسابات مستخدمين محددين لدى المورد أو تعديل أدوار الأمان. |
-| معرفة المزيد حول تعاون المورد في Dynamics 365 for Operations. | لمزيد من المعلومات حول تعاون المورد، راجع [تعاون المورد مع موردين خارجيين‬](/dynamics365/operations/scm/procurement/vendor-collaboration-work-external-vendors) و[تعاون المورد مع العملاء‬](/dynamics365/operations/scm/procurement/vendor-collaboration-work-customers-dynamics-365-operations) و[إدارة مستخدمي تعاون المورد‬‬](/dynamics365/operations/scm/procurement/manage-vendor-collaboration-users) و[إعداد تعاون المورد والحفاظ عليه](/dynamics365/operations/scm/procurement/set-up-maintain-vendor-collaboration) و[مساحة عمل فوترة تعاون المورد](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).                                                         |
+| معرفة المزيد حول تعاون المورد في Dynamics 365 for Operations. | لمزيد من المعلومات حول تعاون المورد، راجع [تعاون المورد مع موردين خارجيين‬](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-external-vendors) و[تعاون المورد مع العملاء‬](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) و[إدارة مستخدمي تعاون المورد‬‬](/dynamics365/operations/supply-chain/procurement/manage-vendor-collaboration-users) و[إعداد تعاون المورد والحفاظ عليه](/dynamics365/operations/supply-chain/procurement/set-up-maintain-vendor-collaboration) و[مساحة عمل فوترة تعاون المورد](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).                                                         |
 
 ### <a name="intercompany-order-processing"></a>معالجة الأوامر بين الشركات الشقيقة
 
@@ -846,5 +855,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [ما الجديد أو التغيير](whats-new-changed.md)
+
+
 
 

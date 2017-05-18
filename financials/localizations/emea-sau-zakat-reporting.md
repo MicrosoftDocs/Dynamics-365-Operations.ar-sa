@@ -16,10 +16,11 @@ ms.search.region: Saudi Arabia
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 61795d0556cec3f7799e31091ac18e5621f3a972
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 20ccfa52e4037beb56a318d0cad234e3c7389ba3
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---

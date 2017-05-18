@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>محتوى أداء المبيعات والربحية لـ Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 يصف هذا الموضوع محتويات Dynamics 365 for Operations - حزمة محتوى أداء المبيعات والربحية لـ Microsoft Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في حزمة المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء حزمة المحتوى.
 
@@ -44,6 +48,7 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="accessing-the-content-pack"></a>الوصول إلى حزمة المحتوى
 يتم نشر حزمة محتوى أداء المبيعات والربحية لـ Power BI كأصل تنفيذ في Microsoft Dynamics Lifecycle Services (LCS(، ويمكن الوصول إليه من خلال Dynamics 365 for Operations. لمزيد من المعلومات حول كيفية الوصول وإطلاق تقارير Power BI، راجع [محتوى Power BI في LCS من Microsoft والشركاء](power-bi-content-microsoft-partners.md).
+**ملاحظة:** KB 4011327 عبارة عن مطلب أساسي لمحتوى Power BI هذا. بعد تسجيلك للدخول إلى Lifecycle Services، يمكنك الوصول إلى KB من خلال هذا الرابط: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>المقاييس المضمنة في حزمة المحتوى
 تشمل حزمة المحتوى تقريرًا يتكون من مجموعة من المقاييس الظاهرية مثل المخططات والتجانبات والجداول. يوفر الجدول التالي نظرة عامة حول مجموعة الرسوم المرئية في حزمة المحتوى.
@@ -110,6 +115,8 @@ ms.lasthandoff: 03/31/2017
 -   [إنشاء حزم المحتوى التنظيمية](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [تصميم البيانات باستخدام Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [إضافة إطارات Power BI المتجانبة إلى مساحات العمل](configure-power-bi-integration.md)
+
+
 
 
 

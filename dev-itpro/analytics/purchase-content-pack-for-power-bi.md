@@ -3,7 +3,7 @@ title: "محتوى Power BI لتحليل إنفاق الشراء"
 description: "يوضح هذا الموضوع ما هو مدرج في حزمة محتوى تحليل إنفاق الشراء لـ Microsoft Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في حزمة المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء حزمة المحتوى."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>محتوى Power BI لتحليل إنفاق الشراء
+
+[!include[banner](../includes/banner.md)]
+
 
 يوضح هذا الموضوع ما هو مدرج في حزمة محتوى تحليل إنفاق الشراء لـ Microsoft Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في حزمة المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء حزمة المحتوى.
 
@@ -38,6 +42,7 @@ ms.lasthandoff: 03/29/2017
 
 ## <a name="accessing-the-content-pack"></a>الوصول إلى حزمة المحتوى
 يتم نشر حزمة محتوى تحليل إنفاق الشراء كأصل تنفيذ في Microsoft Dynamics Lifecycle Services (LCS(، ويمكن الوصول إليه من خلال Microsoft Dynamics 365 for Operations. لمزيد من المعلومات حول كيفية الوصول وفتح تقارير Power BI، راجع [محتوى Power BI في LCS من Microsoft والشركاء](power-bi-content-microsoft-partners.md).
+ملاحظة: KB 4011327 عبارة عن مطلب أساسي لمحتوى Power BI هذا. بعد تسجيلك للدخول إلى Lifecycle Services، يمكنك الوصول إلى KB من خلال هذا الرابط: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>المقاييس المضمنة في حزمة المحتوى
 تشمل حزمة محتوى تحليل إنفاق الشراء تقريرًا يتكون من مجموعة من المقاييس. هذه المقاييس مرئية مثل المخططات والتجانبات والجداول. يوفر الجدول التالي نظرة عامة حول مجموعة الرسوم المرئية في حزمة المحتوى.
@@ -129,7 +134,7 @@ ms.lasthandoff: 03/29/2017
 \* الشراء في العام الماضي وهذا العام، والنمو حسب فئة التدبير
 
 ## <a name="data-model-and-entities"></a>نموذج البيانات والكيانات
-تستخدم بيانات Dynamics 365 for Operations لإعداد التقرير الموجود في حزمة محتول تحليل إنفاق الشراء. يتم تمثيل هذه البيانات كقياسات تجميعية مقسمة مرحليًا في متجر الكيان، وهو قاعدة بيانات Microsoft SQL المُحسنة للتحليلات. لمزيد من المعلومات حول مخزن الكيان، ["تكامل Power BI مع متجر الكيان في Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) منشور مدونة. تُعد القياسات التجميعية في حزمة المحتوي هذه هي مجموعة فرعية من القياسات التجمعية التي كانت متوفرة في مكعب الشراء في Microsoft Dynamics AX 2012 و Microsoft Dynamics 365 for Operations 2012 R3. للوصول إلى مرحلة قياسات المكعب التجميعية في متجر الكيان، يجب أن تأخذها قابلة للنشر. لمزيد من المعلومات انظر الإجراء للوصول إلى التشغيل المرحلي للقياسات التجميعية في متجر الكيان في، ["تكامل Power BI مع متجر الكيان في Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) منشور مدونة. تتوافر القياسات التجميعية الرئيسية التالية مباشرة من كيان سطور فاتورة كأساس لحزمة المحتوى.
+تستخدم بيانات Dynamics 365 for Operations لإعداد التقرير الموجود في حزمة محتول تحليل إنفاق الشراء. يتم تمثيل هذه البيانات كقياسات تجميعية مقسمة مرحليًا في متجر الكيان، وهو قاعدة بيانات Microsoft SQL المُحسنة للتحليلات. لمزيد من المعلومات حول مخزن الكيان، ["تكامل Power BI مع متجر الكيان في Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) منشور مدونة. تُعد القياسات المجمّعة في حزمة المحتوى هذه مجموعة فرعية من القياسات المجمّعة التي كانت متوفرة في مكعب الشراء في Dynamics AX 2012 وMicrosoft Dynamics AX 2012 R3. للوصول إلى مرحلة قياسات المكعب التجميعية في متجر الكيان، يجب أن تأخذها قابلة للنشر. لمزيد من المعلومات انظر الإجراء للوصول إلى التشغيل المرحلي للقياسات التجميعية في متجر الكيان في، ["تكامل Power BI مع متجر الكيان في Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) منشور مدونة. تتوافر القياسات التجميعية الرئيسية التالية مباشرة من كيان سطور فاتورة كأساس لحزمة المحتوى.
 
 | الكيان        | القياسات التجميعية الرئيسية | مصدر البيانات لـ Dynamics 365 for Operations | الحقل              | ‏‏الوصف                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -162,6 +167,8 @@ ms.lasthandoff: 03/29/2017
 -   [إنشاء حزم المحتوى التنظيمية](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [تصميم البيانات باستخدام Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [إضافة إطارات Power BI المتجانبة إلى مساحات العمل](configure-power-bi-integration.md)
+
+
 
 
 

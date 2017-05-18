@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 84b9f91f49e988244b98aeb7a6a6344548d6a8c0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fb9f7b8aa9198b66f196613641de5237fac2ac2c
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ ms.lasthandoff: 03/31/2017
 -   تعيين نوع تكلفة إلى **تكلفة معيارية**.
 -   تعيين معرّف مهم يشير إلى محتويات إصدار التكاليف، مثل **2016-UPDATES**.
 -   في مجموعة الحقل **السماح بأنواع الأسعار**، تأكد من تعيين **سعر التكلفة** إلى **نعم**.
--   السماح بإدخال سجلات التكلفة لكل المواقع (أي ترك حقل **الموقع **فارغًا). إذا قمت بإدخال موقع، فيمكن إدخال سجلات التكلفة لهذا الموقع فقط.
+-   السماح بإدخال سجلات التكلفة لكل المواقع (أي ترك حقل **الموقع**فارغًا). إذا قمت بإدخال موقع، فيمكن إدخال سجلات التكلفة لهذا الموقع فقط.
 -   استخدام مبدأ الاحتياطي **النشط**.
 
 لإضافة أصناف مصنعة جديدة طوال الفترة المجمدة، اتبع هذه الخطوات:
