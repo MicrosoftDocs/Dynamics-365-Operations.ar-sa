@@ -3,7 +3,7 @@ title: "تثبيت وتكوين Microsoft Dynamics 365 for Operations &#8211; ا
 description: "يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Operations - التخزين."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>تثبيت وتكوين Microsoft Dynamics 365 for Operations &#8211; التخزين
+
+[!include[banner](../includes/banner.md)]
+
 
 يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Operations - التخزين.
 
@@ -38,7 +42,7 @@ ms.lasthandoff: 03/31/2017
 | النظام الأساسي                    | ‏‏الإصدار                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4 و5.0 و6.0                                                                                                                                                               |
-| Windows (UWP)               | Windows 10 (كل الإصدارات)                                                                                                                                                   |
+| Windows ‏(UWP)               | Windows 10 (كل الإصدارات)                                                                                                                                                   |
 | Dynamics 365 for Operations | الإصدار 1611 من Microsoft Dynamics 365 for Operations -أو- الإصدار 7.0/7.0.1 من Microsoft Dynamics Dynamics AX والإصدار 2 من تحديث النظام الأساسي Microsoft Dynamics AX مع الإصلاح العاجل KB 3210014 |
 
 ## <a name="get-the-app"></a>الحصول على التطبيق
@@ -67,7 +71,7 @@ ms.lasthandoff: 03/31/2017
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>إنشاء وتكوين حساب مستخدم في Dynamics 365 for Operations
 لتمكين Dynamics 365 for Operations لاستخدام تطبيق Azure AD، تحتاج إلى إكمال خطوات التكوين التالية:
 
-1.  أنشئ حساب مستخدم جديدًا في Active Directory لمستأجر Dynamics 365 for Operations. الغرض من حساب المستخدم هذا هو الوصول إلى الخدمة المخصصة المعينة لتطبيق التخزين، والتي يعرضها خادم Dynamics 365 for Operations. بعد إكمال هذه الخطوة، سيكون لديك بيانات اعتماد مستخدم WMDP، التي تتكون من عنوان بريد إلكتروني WMDP وكلمة مرور WMDP. للتعرف على الخطوات الأساسية لإضافة مستخدمين إلى Azure AD وDynamics 365 for Operations، يمكنك مراجعة هذا البرنامج التعليمي: [التسجيل للحصول على اشتراك في Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  أنشئ حساب مستخدم جديدًا في Active Directory لمستأجر Dynamics 365 for Operations. الغرض من حساب المستخدم هذا هو الوصول إلى الخدمة المخصصة المعينة لتطبيق التخزين، والتي يعرضها خادم Dynamics 365 for Operations. بعد إكمال هذه الخطوة، سيكون لديك بيانات اعتماد مستخدم WMDP، التي تتكون من عنوان بريد إلكتروني WMDP وكلمة مرور WMDP. للتعرف على الخطوات الأساسية لإضافة مستخدمين إلى Azure AD وDynamics 365 for Operations، يمكنك مراجعة هذا البرنامج التعليمي: [التسجيل للحصول على اشتراك في Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  إنشاء مستخدم Dynamics 365 for Operations يتطابق مع بيانات اعتماد مستخدم تطبيق التخزين
     1.  في Dynamics 365 for Operations، انتقل إلى **إدارة النظام** &gt; **عام** &gt; **المستخدمون**.
     2.  أنشئ مستخدمًا جديدًا.
@@ -98,6 +102,8 @@ ms.lasthandoff: 03/31/2017
 6.  انقر فوق علامة التبويب **تكوين**، وقم بالتمرير لأسفل وتأكد من أن **"معرف العميل"** للتطبيق هو نفسها كما في الخطوة 2 في هذا القسم.
 7.  انقر فوق الزر **حذف** في شريط الأدوات.
 8.  انقر فوق **نعم** في رسالة التأكيد.
+
+
 
 
 

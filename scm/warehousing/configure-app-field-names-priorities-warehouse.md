@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: ce8f6d6f7090995bc44db1ba0103a7d6c0416620
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 73fcc19b9ee17a691206019efbff29c4967f4e2f
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -138,7 +139,7 @@ ms.lasthandoff: 03/31/2017
 
 -   الصف الأول: الصنف والكمية ووحدة القياس
 -   الصف 2: وصف الصنف
--   الصف 3: الحجم
+-   صف 3: الحجم
 
 لن يتم عرض بيانات التعريف المتبقية، الموقع على سبيل المثال، على صفحة المهمة، ولكن سيتم عرضها على صفحة التفاصيل. لمزيد من المعلومات ومشاهدة أمثلة من واجهة المستخدم، راجع منشور مدونة [الإعلان عن Dynamics 365 for Operations - التخزين](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 

@@ -1,9 +1,9 @@
 ---
 title: "إعادة تعيين متجر البيانات للتقارير المالية بعد استعادة قاعدة البيانات"
 description: "يوضح هذا الموضوع كيفية إعادة تعيين متجر البيانات للتقارير المالية بعد استعادة قاعدة بيانات Microsoft Dynamics 365."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>إعادة تعيين متجر البيانات للتقارير المالية بعد استعادة قاعدة البيانات
+
+[!include[banner](../includes/banner.md)]
+
 
 يوضح هذا الموضوع كيفية إعادة تعيين متجر البيانات للتقارير المالية بعد استعادة قاعدة بيانات Microsoft Dynamics 365. 
 
@@ -43,7 +47,11 @@ ms.lasthandoff: 03/29/2017
 5.  أدخل اسم ملف وحدد موقع أمن حيث تريد حفظ تعريفات التقارير التي تم تصديرها.
 6.  انقر فوق **حفظ**.
 
-يمكن نسخ الملف أو تحميله إلى موقع آمن، ليسمح ذلك باستيرادها إلى بيئة مختلفة في وقت آخر. يمكن العثور على معلومات حول كيفية استخدام حساب Microsoft Azure storage في [نقل البيانات باستخدام أداة سطر الأوامر المساعدة AzCopy"](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **ملاحظة:** لا تقدم Microsoft حساب تخزين كجزء من اتفاقية Dynamics 365 for Operations الخاصة بك. يجب عليك شراء حساب تخزين أو استخدام حساب تخزين من اشتراك Azure منفصل. **هام:** يجب مراعاة سلوك محرك الأقراص D على أجهزة Azure الظاهرية. لا تحتفظ بمجموعات كتل الإنشاء التي تم تصديرها هنا بشكل دائم. لمزيد من المعلومات حول محركات الأقراص المؤقتة، انظر [فهم آلية عمل محرك الأقراص المؤقت على الأجهزة الظاهرية لـ Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+يمكن نسخ الملف أو تحميله إلى موقع آمن، ليسمح ذلك باستيرادها إلى بيئة مختلفة في وقت آخر. يمكن العثور على معلومات حول كيفية استخدام حساب Microsoft Azure storage في [نقل البيانات باستخدام أداة سطر الأوامر المساعدة AzCopy"](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
+> [!NOTE]
+> لا تقدم Microsoft حساب تخزين كجزء من اتفاقية Dynamics 365 for Operations الخاصة بك. يجب عليك شراء حساب تخزين أو استخدام حساب تخزين من اشتراك Azure منفصل. 
+> [!WARNING]
+> يجب مراعاة سلوك محرك الأقراص D على أجهزة Azure الظاهرية. لا تحتفظ بمجموعات كتل الإنشاء التي تم تصديرها هنا بشكل دائم. لمزيد من المعلومات حول محركات الأقراص المؤقتة، انظر [فهم آلية عمل محرك الأقراص المؤقت على الأجهزة الظاهرية لـ Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>وقف الخدمات
 استخدم "سطح المكتب البعيد" للاتصال بكافة أجهزة الكمبيوتر الموجودة في البيئة وإيقاف خدمات Windows التالية باستخدام services.msc:
@@ -96,7 +104,9 @@ ms.lasthandoff: 03/29/2017
 استيراد تصاميم التقارير من "مصمم التقرير"، باستخدام الملف الذي قمت بإنشاؤه أثناء عملية التصدير:
 
 1.  في مصمم التقرير، انتقل إلى **الشركة** &gt; **مجموعات كتل الإنشاء**.
-2.  حدد مجموعة كتلة الإنشاء لتصديرها، ثم انقر فوق **تصدير**. **ملاحظة:** بالنسبة لـ Dynamics 365 for Operations، يتم دعم مجموعة واحدة فقط من كتل الإنشاء، **الافتراضي**.
+2.  حدد مجموعة كتلة الإنشاء لتصديرها، ثم انقر فوق **تصدير**. 
+    > [!NOTE]
+    > بالنسبة إلى Dynamics 365 for Operations، يتم دعم مجموعة واحدة فقط من كتل الإنشاء، **الافتراضي**.
 3.  حدد **الخيار الافتراضي**لكتلة الإنشاء، ثم انقر فوق **استيراد**.
 4.  حدد الملف الذي يحتوي على تعريفات التقرير الذي تم تصديره، ثم انقر فوق **فتح**.
 5.  في مربع الحوار استيراد، حدد تعريفات التقرير المراد استيرادها.
@@ -104,6 +114,8 @@ ms.lasthandoff: 03/29/2017
     -   لاستيراد تقارير أو صفوف أو أعمدة أو أشجار أو مجموعات أبعاد محددة، حدد التقارير أو الصفوف أو الأعمدة أو الأشجار أو مجموعات الأبعاد لاستيرادها.
 
 6.  انقر فوق **استيراد**.
+
+
 
 
 

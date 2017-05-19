@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: hminzner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b8ad4aa1653d090b46a7e35e9e710324df2edfe5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 109f8e008b9865188c1c2cae3855884739d9d57d
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,11 +36,11 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="company-setup"></a>إعداد الشركة
 -   **شركة التشغيل/المصدر (USMF)** – يتم استخدام الدولارات الأمريكية (USD) كعملة للمحاسبة والتقارير.
--   **الشركة المجمعة (CON) ** – يتم استخدام اليورو (EUR) كعلمة للمحاسبة والتقارير.
+-   **الشركة المجمعة (CON)** – يتم استخدام اليورو (EUR) كعلمة للمحاسبة والتقارير.
     -   **الأرباح المحققة **– حساب دفتر الأستاذ 801500
-    -   **الخسائر المحققة **– حساب دفتر الأستاذ 801600
-    -   **الأرباح غير المحققة **– حساب دفتر الأستاذ 801600
-    -   **الخسائر غير المحققة **– حساب دفتر الأستاذ 801400
+    -   **الخسائر المحققة**– حساب دفتر الأستاذ 801600
+    -   **الأرباح غير المحققة**– حساب دفتر الأستاذ 801600
+    -   **الخسائر غير المحققة**– حساب دفتر الأستاذ 801400
 
 ## <a name="original-transactions"></a>الحركات الأصلية
 ### <a name="cash-receipt-transactions-in-usmf"></a>حركات إيصال استلام النقدية في USMF

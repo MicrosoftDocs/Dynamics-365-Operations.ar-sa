@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 19eeee753c15cf2670948ce2c615a112813c16ad
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2112d6dd45c76af3cea75a4e06b06f9577c572ad
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="master-planning-and-multisite-functionality"></a>التخطيط الرئيسي ووظائف المواقع المتعددة
+
+[!include[banner](../includes/banner.md)]
+
 
 يأخذ التخطيط الرئيسي إعدادات أبعاد مخزون المستودع والموقع في الاعتبار. 
 
@@ -37,7 +41,7 @@ ms.lasthandoff: 03/31/2017
 
 وعندما لا يتم تعيين المستودع ليكون إلزاميًا، قد لا يُعرف من الطلب الأولي. ويجب أن يحدد محرك التخطيط المستودع الذي سيستخدمه بناءً على الإعدادات المحددة للصنف، والمستودعات الفردية، وكذلك تفاصيل بند الأمر.
 
-توضح مقالات wiki التالية كيفية عمل محرك التخطيط، عند تحديد إعدادات مختلفة، لتحديد المستودع الذي سيتم استخدامه.
+تصف المواضيع التالية كيفية عمل محرك التخطيط، عند تحديد إعدادات مختلفة، لتحديد المستودع الذي سيتم استخدامه.
 
 [التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع إلزامي](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -48,5 +52,7 @@ ms.lasthandoff: 03/31/2017
 [التخطيط الرئيسي - تغطية الموقع، المستودع غير إلزامي](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [التخطيط الرئيسي - كيفية تحديد إصدار قائمة مكونات الصنف](master-plan-bom-version-determined.md)
+
+
 
 

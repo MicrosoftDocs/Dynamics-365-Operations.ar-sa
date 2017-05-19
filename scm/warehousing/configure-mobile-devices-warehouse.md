@@ -3,7 +3,7 @@ title: "إعداد الأجهزة المحمولة لعمل المستودع"
 description: "تصف هذه المقالة كيفية تكوين عناصر القائمة التي يستخدمها العاملون في المستودع لإنجاز العمل على جهاز محمول."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>إعداد الأجهزة المحمولة لعمل المستودع
+
+[!include[banner](../includes/banner.md)]
+
 
 تصف هذه المقالة كيفية تكوين عناصر القائمة التي يستخدمها العاملون في المستودع لإنجاز العمل على جهاز محمول.
 
@@ -315,7 +319,7 @@ ms.lasthandoff: 03/31/2017
 </tr>
 <tr class="even">
 <td>عرض حالة المخزون</td>
-<td>حدد هذا الخيار لعرض حالة الأصناف في المخزون. لمزيد من المعلومات، راجع <a href="/inventory/inventory-statuses.md">مزايا استخدام حالات المخزون</a>. يتوفر هذا الخيار لجميع عناصر القائمة التي تستخدم العمل الموجود، ما عدا الجرد الدوري.</td>
+<td>حدد هذا الخيار لعرض حالة الأصناف في المخزون. يتوفر هذا الخيار لجميع عناصر القائمة التي تستخدم العمل الموجود، ما عدا الجرد الدوري.</td>
 </tr>
 <tr class="odd">
 <td>عرض ملخص شاشة الانتقاء</td>
@@ -412,5 +416,7 @@ ms.lasthandoff: 03/31/2017
 [إعداد صنف قائمة الجهاز المحمول لإكمال عمل من النوع "أمر الشراء" (دليل المهام)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
 [إعداد صنف قائمة الجهاز المحمول لتسجيل الأصناف المستلمة (دليل المهام)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[مزايا استخدام حالات المخزون](../inventory/inventory-statuses.md)
+
 
 

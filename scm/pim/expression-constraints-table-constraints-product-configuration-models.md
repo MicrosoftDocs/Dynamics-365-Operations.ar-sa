@@ -3,7 +3,7 @@ title: "قيود التعبير وقيود الجدول في نماذج تكوي
 description: "يصف هذا الموضوع استخدام قيود التعبير وقيود الجدول. تتحكم القيود في قيم السمات التي يمكن تحديدها عند تكوين المنتجات لأمر المبيعات أو عرض أسعار المبيعات أو أمر الشراء أو أمر الإنتاج. يمكنك استخدام قيود التعبير أو قيود الجدول، اعتمادًا على الطريقة التي تفضل بها إنشاء القيود."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>قيود التعبير وقيود الجدول في نماذج تكوين المنتج
+
+[!include[banner](../includes/banner.md)]
+
 
 يصف هذا الموضوع استخدام قيود التعبير وقيود الجدول. تتحكم القيود في قيم السمات التي يمكن تحديدها عند تكوين المنتجات لأمر المبيعات أو عرض أسعار المبيعات أو أمر الشراء أو أمر الإنتاج. يمكنك استخدام قيود التعبير أو قيود الجدول، اعتمادًا على الطريقة التي تفضل بها إنشاء القيود. 
 
@@ -40,7 +44,7 @@ ms.lasthandoff: 03/30/2017
 
 ### <a name="example-of-a-table-constraint"></a>مثال على قيد جدول
 
-يوضح هذا المثال كيفية تحديد تكوين مكبر صوت لألوان الكابينة محددة والأجزاء الأمامية. يعرض الجدول الأول ألوان الكابينة والأجزاء الأمامية المتوفرة بشكل عام للتكوين. ويتم تحديد القيم لنوعي السمات **لون الكابينة **و**Front grill** الشبكة الأمامية.
+يوضح هذا المثال كيفية تحديد تكوين مكبر صوت لألوان الكابينة محددة والأجزاء الأمامية. يعرض الجدول الأول ألوان الكابينة والأجزاء الأمامية المتوفرة بشكل عام للتكوين. ويتم تحديد القيم لنوعي السمات **لون الكابينة**و**الشبكة الأمامية**.
 
 | نوع السمة | القيم                      |
 |----------------|-----------------------------|
@@ -248,5 +252,7 @@ ms.lasthandoff: 03/30/2017
 [إنشاء قيد تعبير (دليل المهام)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [إضافة عملية حسابية إلى نموذج تكوين منتج (دليل المهام)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

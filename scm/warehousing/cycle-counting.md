@@ -3,7 +3,7 @@ title: "الجرد الدوري"
 description: "تصف هذه المقالة كيفية استخدام الجرد الدوري مع حل التخزين المتوفر في إدارة المستودعات. لا تنطبق هذه المقالة على حل التخزين المتوفر في إدارة المخزون."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>الجرد الدوري
+
+[!include[banner](../includes/banner.md)]
+
 
 تصف هذه المقالة كيفية استخدام الجرد الدوري مع حل التخزين المتوفر في إدارة المستودعات. لا تنطبق هذه المقالة على حل التخزين المتوفر في إدارة المخزون.
 
@@ -39,7 +43,6 @@ ms.lasthandoff: 03/30/2017
 
 ## <a name="cycle-counting-prerequisites"></a>متطلبات الجرد الدوري الأساسية
 يعرض الجدول التالي المتطلبات الأساسية التي يجب أن تكون موجودة قبل أن تتمكن من استخدام الجرد الدوري.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ ms.lasthandoff: 03/30/2017
 <li>تجميع الجرد الدوري</li>
 <li>الجرد الدوري الفوري</li>
 </ul>
-لمزيد من المعلومات، راجع <a href="configure-mobile-devices-warehouse">تكوين أجهزة المحمول لعمل المستودع</a>.</li>
+</li>
 <li>قم بإعداد قائمة للجهاز المحمول.</li>
 <li>أنشئ حساب مستخدم عمل وعيّن قائمة الجهاز المحمول إلى معرف مستخدم العمل.</li>
 </ul></td>
@@ -133,6 +136,9 @@ ms.lasthandoff: 03/30/2017
 -   تختلف قيمة الجرد عن كمية المخزون الفعلي ولا يتم تعيين حدود الانحراف.
 
 يمكنك ضبط الفروقات في قيمة الجرد ثم قبول قيمة الجرد في صفحة **تعليق مراجعة الجرد الدوري‬**. يمكن التحقق من الجرد المعدل لكمية الصنف في صفحة **الفعلي حسب الموقع‬**. يتم رفض قيمة الجرد إذا تعذرت الموافقة على الفرق.
+
+# <a name="see-also"></a>راجع أيضًا
+[تكوين الأجهزة المحمولة لعمل المستودع](configure-mobile-devices-warehouse.md)
 
 
 

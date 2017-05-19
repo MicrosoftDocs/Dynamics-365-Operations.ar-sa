@@ -1,7 +1,7 @@
 ---
 title: "عرض التقارير المالية وتصميمها"
-description: "تقدم هذه المقالة التمارين التي تشرح لك عرض التقارير المالية وإنشاءها لـ Microsoft Dynamics 365 for Operations. تتألف ميزة إعداد التقارير المالية من تجربة عرض داخل Dynamics 365 for Operations ومصمم تقارير من نقرة واحدة يتيح لك إنشاء التقارير المالية وتحريرها."
-author: twheeloc
+description: "تقدم هذه المقالة التمارين التي تشرح لك عرض التقارير المالية وإنشاءها لـ Microsoft Dynamics 365 for Operations."
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: ar-sa
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -96,7 +97,7 @@ ms.lasthandoff: 03/31/2017
 22. من تعريف تقرير **ميزان المراجعة التفصيلية مع السمات**، حدد ميزان المراجعة التفصيلية مع السمات لكلٍّ من تعريف الصف وتعريف العمود.
 23. قم بتغيير سنة الأساس إلى **2012.**
 24. **احفظ** تعريف التقرير و**قم بالإنشاء**. بمجرد الانتهاء من إنشاء التقرير وفتحه، يمكنك استكشاف التقرير كما فعلت في التمرين الأول. تنقل في الحسابات المختلفة لمشاهدة كيفية عرض السمات الإضافية.
-25. أغلق تقرير **ميزان المراجعة التفصيلية مع السمات **.
+25. أغلق تقرير **ميزان المراجعة التفصيلية مع السمات**.
 26. أغلق **مصمم التقارير**.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>التمرين 3: إنشاء تقرير متعدد الأبعاد باستخدام شجرة التقارير
@@ -165,7 +166,7 @@ ms.lasthandoff: 03/31/2017
 6.  انقر نقراً مزدوجاً في حقل **عامل تصفية البُعد**.
 7.  في إطار **البُعد**، انقر نقراً مزدوجاً فوق عمود **القسم**.
 8.  في القسم الفردي أو مجموعة أقسام في مربع الحوار، انقر فوق **علامة حذف** للحقل **من** لعرض قائمة بالأقسام.
-9.  حدد القسم **022**، و**المبيعات والتسويق**، ثم انقر فوق** موافق**.
+9.  حدد القسم **022**، و**المبيعات والتسويق**، ثم انقر فوق**موافق**.
 10. كرر الخطوات من 5 إلى 8 للأقسام من 23 إلى 25.
 11. وفي صف **الرأس 2** لكل عمود FD، اكتب أوصاف الأقسام التالية:
     -   العمود ب - التسويق والمبيعات
@@ -182,8 +183,8 @@ ms.lasthandoff: 03/31/2017
 18. **احفظ** التغييرات التي أجريتها وقم **بالإنشاء**. وبمجرد اكتمال عملية إنشاء التقرير وفتحه، يمكنك استكشاف التقرير.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-[التقارير المالية](\financials\general-ledger\financial-reporting-getting-started.md) 
-[عرض التقارير المالية](\financials\general-ledger\view-financial-reports.md) 
+[التقارير المالية](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[عرض التقارير المالية](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [مدونة التقارير المالية في Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
