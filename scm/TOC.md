@@ -4,6 +4,7 @@
 ## إنشاء التنبؤ بالطلب
 ### [نظرة عامة على التنبؤ بالطلب](master-planning/introduction-demand-forecasting.md)
 ### [إعداد تنبؤ بالطلب](master-planning/demand-forecasting-setup.md)
+### [استيراد البيانات التاريخية‬ للتنبؤات بالطلب](master-planning/import-historical-data.md)
 ### [إنشاء تنبؤ أساسي إحصائي](master-planning/generate-statistical-baseline-forecast.md)
 ### [إجراء تسوية يدوية في التنبؤ الأساسي](master-planning/manual-adjustments-baseline-forecast.md)
 ### [تخويل ‏‫التنبؤ الذي تمت تسويته](master-planning/authorize-adjusted-forecast.md)

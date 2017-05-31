@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/10/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -251,9 +251,9 @@ ms.lasthandoff: 05/10/2017
 
 ###### <a name="designer"></a>**المصمم**
 
-أداة Visual Studio تستخدمها لإنشاء، وتحديث، وفحص عناصر النموذج الخاص بك.
+أداة Visual Studio التي استخدمتها لإنشاء وتحديث وفحص عناصر النموذج الخاص بك.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**تكوين المنتج المستنِد إلى البُعد**
+###### <a name="dimension-based-product-configuration"></a>**تكوين المنتج المستند إلى بُعد**
 
 تقنية تكوين يتم استخدامها لإنشاء متغيرات المنتج عن طريق تحديد قيم لأبعاد المنتج.
 

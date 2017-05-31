@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ ms.lasthandoff: 04/25/2017
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>يعرض البيانات المالية أو البيانات من ورقة عمل Excel عند استخدام عمود <strong>ارتباط إلى الأبعاد المالية</strong> أو عمود <strong>ارتباط إلى ورقة عمل</strong> في تعريف الصف. وعندما تقوم بتحديد نوع العمود <strong>FD</strong>، يتم تحديد الإعدادات الافتراضية تلقائياً للصفوف التالية:
-    <ul>
+    <td>يعرض البيانات المالية أو البيانات من ورقة عمل Excel عند استخدام عمود <strong>ارتباط إلى الأبعاد المالية</strong> أو عمود <strong>ارتباط إلى ورقة عمل</strong> في تعريف الصف. وعندما تقوم بتحديد نوع العمود <strong>FD</strong>، يتم تحديد الإعدادات الافتراضية تلقائياً للصفوف التالية: <ul>
     <li><strong>كود الدفتر/فئة السمة:</strong> ACTUAL</li>
     <li><strong>كود الدفتر/فئة السمة:</strong> ACTUAL</li>
     <li><strong>السنة المالية:</strong> BASE</li>
@@ -359,7 +358,7 @@ ms.lasthandoff: 04/25/2017
     <li><strong>الفترات المشمولة:</strong> PERIODIC</li>
     <li><strong>عرض العمود:</strong> 14</li>
     </ul>
-    يمكنك تغيير الإعدادات الافتراضية.</td>
+يمكنك تغيير الإعدادات الافتراضية.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -387,12 +386,11 @@ ms.lasthandoff: 04/25/2017
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>عرض البيانات التي يتم سحبها من ورقة عمل Excel. وعندما تقوم بتحديد نوع العمود <strong>WKS</strong>، يتم تحديد الإعدادات الافتراضية تلقائياً للصفوف التالية:
-    <ul>
+    <td>عرض البيانات التي يتم سحبها من ورقة عمل Excel. وعندما تقوم بتحديد نوع العمود <strong>WKS</strong>، يتم تحديد الإعدادات الافتراضية تلقائياً للصفوف التالية: <ul>
     <li><strong>السنة المالية:</strong> PERIODIC</li>
     <li><strong>الفترة:</strong> BASE</li>
     </ul>
-    يمكنك تغيير الإعدادات الافتراضية.</td>
+يمكنك تغيير الإعدادات الافتراضية.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

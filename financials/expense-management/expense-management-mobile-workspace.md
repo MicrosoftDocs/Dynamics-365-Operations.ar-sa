@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: end user, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 8bc47c5b170fd7dd8f6288682aad6eae1d2dc09a
-ms.openlocfilehash: 9d3b7a4d5184c3c4958f4298f1d3dd4de0cd06d6
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4e3202de8e5288bbd52e8c28922374de147cc99f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -29,8 +29,6 @@ ms.lasthandoff: 04/26/2017
 # <a name="expense-management-mobile-workspace"></a>مساحة العمل المحمولة لإدارة المصروفات
 
 [!include[banner](../includes/banner.md)]
-
-"[!include[banner](../includes/banner.md)]"
 
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة لإدارة المصروفات التي تتوفر في تطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة. تسمح مساحة العمل هذه للمستخدمين بالتقاط إيصال وتحميله، مما يمكنهم من إرفاقه بتقرير مصروفات فيما بعد. وتسمح أيضًا مساحة العمل المحمولة للمستخدمين بإنشاء بند مصروفات باستخدام إيصال مرفق.
@@ -66,7 +64,7 @@ ms.lasthandoff: 04/26/2017
 <tr class="odd">
 <td>يجب تطبيق الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث.</td>
 <td>مسؤول النظام</td>
-<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
+<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>يجب أن يتم تطبيق KB 4019015.</td>
@@ -74,9 +72,9 @@ ms.lasthandoff: 04/26/2017
 <td>تحتوي مقالة قاعدة المعارف KB 4019015 (تحديث X + + أو إصلاح عاجل لبيانات التعريف) على أربع مساحات عمل محمولة لإدارة سلسلة التوريد. لتطبيق KB 4019015، يجب أن يتبع مسؤول النظام الخطوات التالية:
 <ol>
 <li>تنزيل KB 4019015 من Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>‎ApplicationSuite</strong> و<strong>ExpenseMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>‎ApplicationSuite</strong> و<strong>ExpenseMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -97,14 +95,15 @@ ms.lasthandoff: 04/26/2017
 
 -   لـ Android: [Dynamics 365 for Operations على Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
 -   لـ iPhone: [Dynamics 365 for Operations على iTunes apps store](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
--   بالنسبة إلى Windows phone (النظام الأساسي العام لـ Windows \[UWP\]): على وشك القدوم‬!
 
 ## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>تسجيل الدخول إلى تطبيق Dynamics 365 for Operations للأجهزة المحمولة
 1.  ابدأ تشغيل التطبيق على جهازك المحمول.
 2.  أدخل عنوان URL لتطبيق Dynamics 365 for Operations.
 3.  أدخل الشركة لتسجيل الدخول إلى. على سبيل المثال، أدخل **USMF**.
 4.  في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بحسابك في تطبيق Dynamics 365 for Operations. أدخل بيانات اعتمادك.
-5.  بعد تسجيل الدخول، يمكنك رؤية مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، يمكنك السحب لتحديث قائمة مساحات العمل المحمولة. [![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+5.  بعد تسجيل الدخول، يمكنك رؤية مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، يمكنك السحب لتحديث قائمة مساحات العمل المحمولة. 
+
+[![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>التقاط إيصال باستخدام مساحة العمل المحمولة لإدارة المصروفات
 1.  على جهازك المحمول، حدد مساحة عمل **إدارة المصروفات**.
@@ -114,7 +113,7 @@ ms.lasthandoff: 04/26/2017
     1.  يتم نقلك إلى الكاميرا على جهازك المحمول، بحيث يمكنك التقاط صورة للإيصال. عند الانتهاء من التقاط صورة، انقر فوق **موافق** للموافقة على الصورة.
     2.  اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.
 
-     أو إذا قمت بتحديد **اختيار صورة**، فاتبع الخطوات التالية:
+     **أو:**  إذا حددت **اختيار صورة**، فاتبع الخطوات التالية:
     1.  حدد صورة في القائمة.
     2.  اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.
 
@@ -123,11 +122,11 @@ ms.lasthandoff: 04/26/2017
 ## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>إدخال مصروفات سريعة باستخدام مساحة العمل المحمولة لإدارة المصروفات
 1.  على جهازك المحمول، حدد مساحة عمل **إدارة المصروفات**.
 2.  حدد **إدخال مصروفات سريعة**.
-3.  حدد فئة المصروفات. يمكن الآن رؤية قائمة بفئات المصروفة تم تحميلها على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف كحدٍ أقصى، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول Dynamics 365 for Operations](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/). إذا لم تكن الفئة المطلوبة في القائمة، فحدد **بحث** للقيام ببحث عبر الإنترنت في Dynamics 365 for Operations. ابحث حسب فئة المصروفات، أو قم بالتبديل إلى البحث حسب نوع المصروفات.
+3.  حدد فئة المصروفات. يمكن الآن رؤية قائمة بفئات المصروفة تم تحميلها على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف كحدٍ أقصى، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). إذا لم تكن الفئة المطلوبة في القائمة، فحدد **بحث** للقيام ببحث عبر الإنترنت في Dynamics 365 for Operations. ابحث حسب فئة المصروفات، أو قم بالتبديل إلى البحث حسب نوع المصروفات.
 4.  أدخل تاريخ الحركة للمصروفات.
 5.  اختياري: أدخل التاجر للمصروفات.
 6.  أدخل مبلغ المصروفات.
-7.  حدد عملة المصروفات. يمكن الآن رؤية قائمة بأكواد العملات التي تم تحميلها على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 400 عملة كحدٍ أقصى، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول Dynamics 365 for Operations](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/). إذا لم تكن العملة المطلوبة في القائمة، فحدد **بحث** للقيام ببحث عبر الإنترنت في Dynamics 365 for Operations. ابحث حسب العملة أو قم بالتبديل إلى البحث حسب الاسم.
+7.  حدد عملة المصروفات. يمكن الآن رؤية قائمة بأكواد العملات التي تم تحميلها على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 400 عملة كحدٍ أقصى، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). إذا لم تكن العملة المطلوبة في القائمة، فحدد **بحث** للقيام ببحث عبر الإنترنت في Dynamics 365 for Operations. ابحث حسب العملة أو قم بالتبديل إلى البحث حسب الاسم.
 8.  حدد **التقاط صورة‬** أو **اختيار صورة**.
 9.  إذا حددت **التقاط صورة**، فسيتم نقلك إلى الكاميرا على جهازك المحمول، بحيث يمكنك التقاط صورة للإيصال. عند الانتهاء من التقاط صورة، انقر فوق **موافق** للموافقة على الصورة.  أو إذا حددت **اختيار صورة**، فحدد صورة في القائمة.
 10. حدد **تم**.

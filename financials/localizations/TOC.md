@@ -67,6 +67,7 @@
 ### [كشف الحساب البنكي بتنسيق CODA](emea-bel-coda-bank-statement-import.md)
 ### [‏‏إقرار ضريبة Intervat](emea-bel-intervat-tax-declaration.md)
 ### [إعداد تقرير PRODCOM](emea-bel-prodcom-report.md)
+### [تقارير التسوية](emea-bel-reconciliation-reports.md)
 
 ## جمهورية التشيك
 ### [الخصم النقدي على إشعار دائن](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [تعليق الإهلاك](emea-cze-depreciation-suspension-holidays.md)
 ### [إهلاك الأصول الثابتة](emea-cze-fixed-assets-depreciation.md)
 ### [إهلاك نصف السنة](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [إعداد تقرير عن ضريبة المبيعات ](emea-cze-intra-community-vat-transactions.md)
 ### [بيان ضريبة القيمة المضافة](emea-cze-vat-statement-details.md)
 ## إستونيا
 ### [بيان ضريبة القيمة المضافة](emea-est-vat-statement-details.md)
