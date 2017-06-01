@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 005c4ecb81c650945aba19e001547967f594412b
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: fe14f765555d8b0f05777a1b7fb0f5edda96ef63
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -60,7 +60,7 @@ ms.lasthandoff: 04/25/2017
 
 يمكن لأعضاء قائمة انتظار عناصر العمل إعادة تعيين المستندات الموجودة في قائمة الانتظار تلك إلى قائمة انتظار أخرى. على سبيل المثال، تراقب منال، وهي عضو في إدارة تقارير مصروفات شركة المنتجات التجارية، قائمة الانتظار. وللمساعدة في موازنة حمل العمل، تقوم بإعادة تعيين تقرير المصروفات والإيصالات المشمولة فيه، إلى قائمة انتظار أخرى.
 
-### <a name="release"></a>إصدار
+### <a name="release"></a>الإصدار
 
 وفي بعض الأحيان، قد يقبل عضو قائمة انتظار عناصر العمل مهمة، ولكنه يقرر أو تقرر أنه لا يمكنه إكمال المهمة. وفي هذه الحالة، الشخص الذي قام بقبول المهمة يمكنه إصدار المستند مرة أخرى إلى قائمة انتظار عناصر العمل. على سبيل المثال، قبلت منال، وهي عضو في إدارة تقارير مصروفات شركة المنتجات التجارية، مهمة مراجعة إيصالات وتقرير المصروفات الخاصة بسامي. إذا قررت منال أنه لا يمكنها إكمال المهمة، فيمكنها تحرير المستند. ويتم إرجاع تقرير المصروفات إلى قائمة الانتظار، بحيث يستطيع أعضاء آخرون في إدارة تقارير المصروفات شركة المنتجات التجارية إنجاز المهمة.
 

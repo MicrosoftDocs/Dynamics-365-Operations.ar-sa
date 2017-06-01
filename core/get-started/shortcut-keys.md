@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ ms.lasthandoff: 04/25/2017
 | فتح جزء مربع حقائق (أو نقل التركيز إلى جزء مربع الحقائق إذا كان مفتوحاً بالفعل) | Ctrl+F2                                   |
 | إغلاق جزء مربع الحقائق (مع التركيز في جزء مربع الحقائق)                         | Esc                                       |
 | الانتقال إلى مربع الحقائق التالي/السابق (مع التركيز في جزء مربع الحقائق)              | Alt+Shift+سهم لأسفل / Alt+Shift+سهم لأعلى |
-| الانتقال إلى مربع الحقائق &lt;n&gt;th (مع التركيز في جزء مربع الحقائق)                | Alt+&lt;n&gt; (&lt;n&gt; =‏ 1-9)           |
+| الانتقال إلى مربع الحقائق &lt;n&gt; (مع التركيز في جزء مربع الحقائق)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | توسيع مربع حقائق (مع التركيز على رأس مربع الحقائق)                             | Space أو Enter                            |
 | طي مربع الحقائق الحالي                                                    | Alt+0                                     |
 
@@ -115,8 +115,8 @@ ms.lasthandoff: 04/25/2017
 | الانتقال إلى الحقل التالي/السابق                     | Tab / Shift+Tab                              |
 | الانتقال إلى علامة التبويب التالية/السابقة                       | Alt+Shift+سهم لليمين / Alt+Shift+سهم لليسار |
 | الانتقال إلى علامة التبويب السريع التالية/السابقة                   | Alt+Shift+سهم لأسفل / Alt+Shift+سهم لأعلى    |
-| الانتقال إلى علامة التبويب السريع  &lt;n&gt;th                      | Alt+&lt;n&gt; (&lt;n&gt; =‏ 1-9)              |
-| الانتقال إلى علامة التبويب &lt;n&gt;th                          | Alt+Shift+&lt;n&gt; (&lt;n&gt; =‏ 1-9)        |
+| الانتقال إلى علامة التبويب السريعة &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| الانتقال إلى علامة التبويب &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | توسيع علامة تبويب سريع (مع التركيز على رأس علامة التبويب السريع) | Space أو Enter                               |
 | طي علامة تبويب السريع الحالية                        | Alt+0                                        |
 | التبديل إلى طريقة عرض الشبكة                                 | Ctrl+Shift+G                                 |

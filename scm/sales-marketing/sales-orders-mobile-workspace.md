@@ -3,10 +3,10 @@ title: "مساحة العمل المحمولة لأوامر المبيعات"
 description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة لأوامر المبيعات التي تتوفر في تطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة. تسمح لك مساحة العمل هذا بالبقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>نظرة عامة على مساحة العمل المحمولة لأوامر المبيعات
 ---------------------------------------------
 
-باستطاعة مساحة العمل المحمولة **أوامر المبيعات** الوصول إلى Microsoft Dynamics 365 for Operations وتسمح لك بعرض معلومات مفصلة حول كل أمر مبيعات. تتضمن هذه المعلومات حالة الأمر ومعلومات الاتصال الخاصة بالعميل ومعلومات الاتصال الخاصة بمتلقي الأمر. توفر مساحة العمل المحمولة **أوامر المبيعات** عرضًا فوريًا لأوامر المبيعات. يمكنك عرض كل أوامر المبيعات أو عرض أوامر المبيعات حسب العميل أو عرض معلومات خاصة بأمر مبيعات معين. توفر مساحة العمل المحمولة طريقتي عرض لمساعدتك في تحليل أوامر المبيعات بشكل أكثر تفصيلًا.
+باستطاعة مساحة العمل المحمولة **أوامر المبيعات** الوصول إلى Microsoft Dynamics 365 for Operations وتسمح لك بعرض معلومات مفصلة حول كل أمر مبيعات. تتضمن هذه المعلومات حالة الأمر ومعلومات الاتصال الخاصة بالعميل ومعلومات الاتصال الخاصة بمتلقي الأمر. توفر مساحة العمل المحمولة **أوامر المبيعات** عرضًا فوريًا لأوامر المبيعات. يمكنك عرض كل أوامر المبيعات أو عرض أوامر المبيعات حسب العميل أو عرض معلومات خاصة بأمر مبيعات معين. 
+
+توفر مساحة العمل المحمولة طريقتي عرض لمساعدتك في تحليل أوامر المبيعات بشكل أكثر تفصيلًا.
 
 ### <a name="view-all-sales-orders"></a>عرض جميع أوامر المبيعات
 
@@ -50,6 +52,7 @@ ms.lasthandoff: 04/25/2017
     -   البحث حسب الحالة
     -   البحث حسب إصدار الحالة
     -   البحث حسب التاريخ المُنشئ والوقت
+    
 -   بعد تحديد أوامر المبيعات، يمكنك عرض تفاصيل أوامر معينة. يمكنك عرض المعلومات التالية، على وجه التحديد:
     -   معلومات خاصة باسم وعنوان العميل
     -   تواريخ مختلفة لأمر المبيعات، مثل تاريخ الشحن المطلوب وتاريخ الشحن المؤكد.
@@ -65,6 +68,7 @@ ms.lasthandoff: 04/25/2017
 -   استخدم أحد عوامل التصفية التالية لعرض الأوامر الخاصة بعميل:
     -   البحث حسب الاسم
     -   البحث حسب الحساب
+
 -   بعد تحديد عميل، يمكنك عرض المعلومات التالية:
     -   اسم العميل والمجموعة
     -   معلومات الاتصال بالعميل
@@ -96,7 +100,7 @@ ms.lasthandoff: 04/25/2017
 <tr class="odd">
 <td>يجب تطبيق الإصدار 1611 من Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث.‬</td>
 <td>مسؤول النظام</td>
-<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
+<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>يجب أن يتم تطبيق KB 4013633.</td>
@@ -104,9 +108,9 @@ ms.lasthandoff: 04/25/2017
 <td>تحتوي مقالة قاعدة المعارف KB 4013633 (تحديث X + + أو إصلاح عاجل لبيانات التعريف) على أربع مساحات عمل محمولة لإدارة سلسلة التوريد. لتطبيق KB 4013633، يجب أن يتبع مسؤول النظام الخطوات التالية:
 <ol>
 <li>تنزيل KB 4013633 من Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

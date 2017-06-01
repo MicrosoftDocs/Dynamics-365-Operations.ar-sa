@@ -3,10 +3,10 @@ title: "مساحة العمل المحمولة للتحكم في التكلفة"
 description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة للتحكم في التكلفة التي تتوفر في تطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 05/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 31a9650774b2ddb70827ffa210154ca10c761236
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 09383c24b0dd2ad61a836f6c8dc97f4389915772
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -36,11 +36,15 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-cost-controlling-mobile-workspace"></a>نظرة عامة على مساحة العمل المحمولة للتحكم في التكلفة
 -------------------------------------------------
 
-توفر مساحة العمل المحمولة **التحكم في التكلفة** طريقة عرض فورية للأداء الحالي لمراكز التكلفة من خلال مقارنة التكاليف الفعلية في مقابل التكاليف المُدرجة في الموازنة. يمكنك التنقل لأسفل لمشاهدة حالات عناصر التكلفة الفردية. على سبيل المثال، يستلم أحد الموظفين دعوة لحضور مؤتمر دولي، ولكن يجب أن تغطي المؤسسة كافة مصروفات السفر. يسأل الموظف مديره إذا كان بإمكانه حضور المؤتمر. يفتح المدير مساحة العلم المحمولة **التحكم في التكلفة** على جهازه المحمول، لمعرفة إذا ما كان لديه ميزانية تتيح للموظف حضور المؤتمر.
+توفر مساحة العمل المحمولة **التحكم في التكلفة** طريقة عرض فورية للأداء الحالي لمراكز التكلفة من خلال مقارنة التكاليف الفعلية في مقابل التكاليف المُدرجة في الموازنة. يمكنك التنقل لأسفل لمشاهدة حالات عناصر التكلفة الفردية. 
+
+على سبيل المثال، يستلم أحد الموظفين دعوة لحضور مؤتمر دولي، ولكن يجب أن تغطي المؤسسة كافة مصروفات السفر. يسأل الموظف مديره إذا كان بإمكانه حضور المؤتمر. يفتح المدير مساحة العلم المحمولة **التحكم في التكلفة** على جهازه المحمول، لمعرفة إذا ما كان لديه ميزانية تتيح للموظف حضور المؤتمر.
 
 ### <a name="data-security"></a>أمان البيانات
 
-تتم حماية البيانات في مساحة العمل المحمولة **التحكم في التكلفة** عبر بيانات اعتماد المستخدم. يُسمح لمدير مركز التكلفة فقط برؤية بيانات مركز التكلفة الخاص به. تتم إدارة أمان مستوى الوصول ضمن وحدة **محاسبة التكاليف**. يحدد محاسبو التكلفة تكوين مساحة العمل المحمولة **التحكم في التكلفة** في وحدة **التحكم في التكلفة‏‎**. بعد نشر مساحة العمل على تطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة، ستكون متوفرة في التطبيق. وبالتالي، سيتمكن جميع مدراء مراكز التكلفة في المؤسسة من عرض البيانات بالتنسيق نفسه.
+تتم حماية البيانات في مساحة العمل المحمولة **التحكم في التكلفة** عبر بيانات اعتماد المستخدم. يُسمح لمدير مركز التكلفة فقط برؤية بيانات مركز التكلفة الخاص به. تتم إدارة أمان مستوى الوصول ضمن وحدة **محاسبة التكاليف**. 
+
+يحدد محاسبو التكلفة تكوين مساحة العمل المحمولة **التحكم في التكلفة** في وحدة **التحكم في التكلفة‏‎**. بعد نشر مساحة العمل على تطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة، ستكون متوفرة في التطبيق. وبالتالي، سيتمكن جميع مدراء مراكز التكلفة في المؤسسة من عرض البيانات بالتنسيق نفسه.
 
 ### <a name="actions-views-and-links"></a>الإجراءات، وطرق العرض والارتباطات
 
@@ -87,7 +91,7 @@ ms.lasthandoff: 04/25/2017
 <tr class="odd">
 <td>يجب تطبيق الإصدار 1611 من Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث.‬</td>
 <td>مسؤول النظام</td>
-<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
+<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>يجب أن يتم تطبيق KB 4013633.</td>
@@ -95,9 +99,9 @@ ms.lasthandoff: 04/25/2017
 <td>تحتوي مقالة قاعدة المعارف KB 4013633 (تحديث X + + أو إصلاح عاجل لبيانات التعريف) على أربع مساحات عمل محمولة لإدارة سلسلة التوريد. لتطبيق KB 4013633، يجب أن يتبع مسؤول النظام الخطوات التالية:
 <ol>
 <li>تنزيل KB 4013633 من Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

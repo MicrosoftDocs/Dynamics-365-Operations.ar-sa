@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 335a0d7ca466028e8b157cb4e04df7d0f4880e73
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5726a6fc60977a82b49e00ca653696e4051cbb10
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -474,7 +474,7 @@ ms.lasthandoff: 04/25/2017
 </tr>
 <tr class="even">
 <td>FORMAT (السلسلة 1، السلسلة 2[، السلسلة 3، ...])</td>
-<td>إرجاع السلسلة المحددة المنسقة باستبدال تواجد <strong>%N</strong> بالوسيطة <em>n</em>th. الوسيطات عبارة عن سلاسل. إذا لم يتم توفير وسيطة لمعلمة، فسيتم إرجاع المعلمة على الشكل <strong>&quot;%N&quot;</strong> في السلسلة. بالنسبة إلى القيم من النوع <strong>الحقيقي</strong>، تتحدد سلسلة التحويل بمنزلتين عشريتين.</td>
+<td>إرجاع السلسلة المحددة المنسقة باستبدال تواجد <strong>%N</strong> بالوسيطة <em>n</em>. الوسيطات عبارة عن سلاسل. إذا لم يتم توفير وسيطة لمعلمة، فسيتم إرجاع المعلمة على الشكل <strong>&quot;%N&quot;</strong> في السلسلة. بالنسبة إلى القيم من النوع <strong>الحقيقي</strong>، تتحدد سلسلة التحويل بمنزلتين عشريتين.</td>
 <td>في هذا المثال، يرجع مصدر البيانات <strong>PaymentModel</strong> قائمة سجلات العملاء عبر المكون <strong>Customer</strong> وقيمة بيانات المعالجة عبر الحقل <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> في تنسيق التقارير الإلكترونية المصمم لإنشاء ملف إلكتروني لعملاء معينين، يتم تحديد <strong>PaymentModel</strong> كمصدر بيانات ويتحكم بسير العملية. يتم طرح استثناء للمستخدمين النهائيين عند إيقاف عميل محدد للتاريخ عندما تتم معالجة التقرير. باستطاعة المعادلة المصممة لنوع التحكم بالمعالجة هذا استخدام الموارد التالية:
 <ul>
 <li>التسمية SYS70894 لـ Dynamics 365 for Operations، التي تتضمن النص التالي:

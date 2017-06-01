@@ -3,10 +3,10 @@ title: "مساحة العمل المحمولة لإدخال وقت المشرو�
 description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة لإدخال وقت المشروع. تسمح مساحة العمل هذه للمستخدمين بإدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازهم المحمول."
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,19 +19,18 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="project-time-entry-mobile-workspace"></a>مساحة العمل المحمولة لإدخال وقت المشروع
+# <a name="project-time-entry-mobile-workspace"></a>مساحة عمل محمولة لإدخال وقت المشروع
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة لإدخال وقت المشروع لتطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة. تسمح مساحة العمل هذه للمستخدمين بإدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازهم المحمول.
@@ -71,7 +70,7 @@ ms.lasthandoff: 04/25/2017
 <tr class="odd">
 <td>يجب تطبيق الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث.</td>
 <td>مسؤول النظام</td>
-<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
+<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>يجب أن يتم تطبيق KB 4018050.</td>
@@ -79,9 +78,9 @@ ms.lasthandoff: 04/25/2017
 <td>إن KB 4018050 عبارة عن تحديث X++ أو إصلاح عاجل لبيانات التعريف يحتوي على مساحة العمل المحمولة <strong>إدخال وقت المشروع</strong>. لتطبيق KB 4018050، يجب أن يتبع مسؤول النظام الخطوات التالية.
 <ol>
 <li>تنزيل KB 4018050 من Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>ApplicationSuite</strong> و<strong>ProjectMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>ApplicationSuite</strong> و<strong>ProjectMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

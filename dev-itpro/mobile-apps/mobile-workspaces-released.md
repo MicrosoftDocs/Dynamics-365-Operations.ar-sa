@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 17a5dcf0f406380fbc4ff242932516894562fe5d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -30,7 +30,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 يسرد هذا الموضوع مساحات العمل المحمولة التي تم إصدارها مؤخرًا لتطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة.
@@ -51,9 +50,9 @@ ms.lasthandoff: 04/25/2017
 | مساحة العمل المحمولة     | ‏‏الوصف                                                                                                                                                                         | تعرف على المزيد                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | التحكم في التكلفة     | باستطاعة مدير مركز التكلفة رؤية أداء مركز التكلفة في أي وقت وفي أي مكان.                                                                                               | [مساحة العمل المحمولة للتحكم في التكلفة](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| المخزون الفعلي    | احصل على معلومات دقيقة على جهازك المحمول تتعلق بالمخزون المحجوز والمتوفر في أي وقت وفي أي مكان.                                                                                                    | [مساحة العمل المحمولة للمخزون الفعلي](/dynamics365/operations/scm/production-control/inventory-on-hand-mobile-workspace)       |
-| أوامر المبيعات         | تمكّن من البقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان.                                                                                                                          | [مساحة العمل المحمولة لأوامر المبيعات](/dynamics365/operations/scm/production-control/sales-orders-mobile-workspace)                 |
-| تعاون المورد | باستطاعة المورّدين البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها، ويمكنهم معلومات حول أوامر الشراء وجهات الاتصال الجديدة والمحدثة. | [مساحة العمل المحمولة لتعاون المورد](/dynamics365/operations/scm/procurement/vendor-collaboration-mobile-workspace) |
+| المخزون الفعلي    | احصل على معلومات دقيقة على جهازك المحمول تتعلق بالمخزون المحجوز والمتوفر في أي وقت وفي أي مكان.                                                                                                    | [مساحة عمل محمولة للمخزون الفعلي](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
+| أوامر المبيعات         | تمكّن من البقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان.                                                                                                                          | [مساحة العمل المحمولة لأوامر المبيعات](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
+| تعاون المورد | باستطاعة المورّدين البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها، ويمكنهم معلومات حول أوامر الشراء وجهات الاتصال الجديدة والمحدثة. | [مساحة العمل المحمولة لتعاون المورد](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
 ## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>وظيفة مساحة العمل المحمولة التي تم إصدارها في ديسمبر 2016
 | مساحة العمل المحمولة        | ‏‏الوصف                                                                    | تعرف على المزيد                                                                                                            |

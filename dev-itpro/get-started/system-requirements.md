@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: Core
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -42,7 +42,9 @@ ms.lasthandoff: 04/25/2017
 -   Google Chrome (أحدث إصدار تمت إتاحته) على Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو Google Nexus 10 tablet
 -   Apple Safari (أحدث إصدار تمت إتاحته) على Mac OS X 10.10 ‏(Yosemite)‏ أو 10.11 (El Capitan)‏ أو 10.12 (Sierra) أو Apple iPad
 
-للعثور على أحدث إصدار لكل مستعرض ويب، انتقل إلى موقع ويب الشركة المصنعة للبرنامج. **ملاحظات:**
+للعثور على أحدث إصدار لكل مستعرض ويب، انتقل إلى موقع ويب الشركة المصنعة للبرنامج. 
+
+**ملاحظات:**
 
 -   لالتقاط الصور التي إنشاؤها من مسجل المهام، وتضمينها في مستندات Microsoft Word، يجب عليك تثبيت ملحق Chrome. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   تم بدء تشغيل محرر سير العمل كتطبيق ClickOnce. تدعم Microsoft Edge و Internet Explorer فقط (على الإصدارات المعتمدة من Microsoft Windows) تطبيقات ClickOnce. يتطلب تطبيق ClickOnce محرر سير العمل نظام تشغيل متوافق 64 بت.
@@ -59,10 +61,12 @@ ms.lasthandoff: 04/25/2017
 -   Chrome (أحدث نسخة متاحة للجمهور) على Windows 10 أو Windows 8.1 أو Windows 7
 
 ## <a name="network-requirements"></a>متطلبات الشبكة
--   صمم Dynamics 365 for Operations للشبكات مع زمن وصول أقل من 150 مللي ثانية (مللى ثانية). هذا هو زمن الوصول من عميل مستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Dynamics 365 for Operations. نوصي باختبار زمن وصول الشبكة على <http://www.azurespeed.com>.
+-   تم تصميم Dynamics 365 for Operations للشبكات ذات زمن وصول من 250-300 مللي ثانية أو أقل. هذا هو زمن الوصول من عميل مستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Dynamics 365 for Operations. نوصي باختبار زمن وصول الشبكة على <http://www.azurespeed.com>.
 -   تعتمد متطلبات عرض النطاق الترددي لـ Dynamics 365 for Operations على السيناريو الخاص بك. تتطلب السيناريوهات الأكثر شيوعاً عرض نطاق ترددي لأكثر من 50 كيلو بايت في الثانية (KBps). ولكن، بالنسبة للسيناريوهات التي لها متطلبات حمولة عالية، مثل مساحات العمل أو السيناريوهات التي تشمل تخصيص واسع، فنوصي بأكثر من عرض نطاق ترددي.
 
-وبوجه عام، تم تحسين Dynamics 365 for Operations للإنترنت. يعتبر عدد الجولات من عميل مستعرض إلى مركز البيانات Azure صغير جدًا، ويتم ضغط حمولة كاملة. **تحذير:** لا تقم بحساب متطلبات النطاق الترددي من موقع عميل من خلال ضرب عدد المستخدمين في متطلبات الحد الأدنى للنطاق الترددي. يُصعب للغاية حساب الاستخدام المستزامن لموقع ما. بالنسبة للعملاء المهتمين بشأن متطلبات النطاق الترددي، استخدام إصدار المعاينة لـ Dynamics 365 for Operations.
+وبوجه عام، تم تحسين Dynamics 365 for Operations للإنترنت. يعتبر عدد الجولات من عميل مستعرض إلى مركز البيانات Azure صغير جدًا، ويتم ضغط حمولة كاملة. 
+
+**تحذير:** لا تقم بحساب متطلبات النطاق الترددي من موقع عميل من خلال ضرب عدد المستخدمين في متطلبات الحد الأدنى للنطاق الترددي. يُصعب للغاية حساب الاستخدام المستزامن لموقع ما. بالنسبة للعملاء المهتمين بشأن متطلبات النطاق الترددي، استخدام إصدار المعاينة لـ Dynamics 365 for Operations.
 
 ## <a name="net-framework-requirements"></a>متطلبات .NET Framework
 يتطلب Dynamics 365 for Operations إصدار .NET Framework 4.6.2 لجميع تطبيقات Click-once، مثل عامل توجيه المستند. للحصول على إرشادات التثبيت، راجع [تثبيت.NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).

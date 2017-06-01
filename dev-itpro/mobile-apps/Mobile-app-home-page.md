@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>الصفحة الرئيسية لتطبيق Dynamics 365 for Operations للأجهزة المحمولة
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ ms.lasthandoff: 04/25/2017
 ## <a name="implementation-process"></a>عملية التطبيق
 يبين الرسم التوضيحي التالي عملية تطبيق Dynamics 365 for Operations للأجهزة المحمولة في مؤسسةك. 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![عملية تنفيذ تطبيقات الأجهزة المحمولة](./media/mobile-implementation-process_4.png)
 
 يتضمن الجدول التالي ارتباطات إلى موارد من يمكنها مساعدتك في تطبيق Dynamics 365 for Operations للأجهزة المحمولة في مؤسستك. تتوافق الأرقام في العمود الأول مع الخطوات المرقمة في الرسم التوضيحي السابق.
 
@@ -85,7 +83,7 @@ ms.lasthandoff: 04/25/2017
 <td>1</td>
 <td>مسؤول النظام</td>
 <td>تطبيق Dynamics 365 for Operations للمؤسسة.</td>
-<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، راجع <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
+<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، راجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -93,32 +91,27 @@ ms.lasthandoff: 04/25/2017
 <td>تنزيل وتثبيت مقالات قاعدة المعارف التي تمكّن مساحات العمل المحمولة التي توفرها قبل Microsoft.</td>
 <td>راجع قسم &quot;المتطلبات الأساسية‬&quot; في الموضوع المتعلق بمساحة العمل المحمولة التي تريد مؤسستك استخدامها:
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">مساحة العمل المحمولة للتحكم في التكلفة</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">مساحة العمل المحمولة للمخزون الفعلي</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">مساحات العمل المحمولة لأوامر المبيعات</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">مساحة العمل المحمولة لتعاون المورد</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">مساحة العمل المحمولة لإدخال وقت المشروع</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">مساحة العمل المحمولة للتحكم في التكلفة</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">مساحة العمل المحمولة للمخزون الفعلي</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">مساحات العمل المحمولة لأوامر المبيعات</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">مساحة العمل المحمولة لتعاون المورد</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">مساحة عمل محمولة لإدخال وقت المشروع</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">مساحة العمل المحمولة لإدارة المصروفات</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>مسؤول النظام</td>
 <td>نشر مساحات العمل المحمولة التي توفرها Microsoft.</td>
-<td>راجع قسم &quot;المتطلبات الأساسية‬&quot; في الموضوع المتعلق بمساحة العمل المحمولة التي تريد مؤسستك استخدامها:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">مساحة العمل المحمولة للتحكم في التكلفة</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">مساحة العمل المحمولة للمخزون الفعلي</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">مساحات العمل المحمولة لأوامر المبيعات</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">مساحة العمل المحمولة لتعاون المورد</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">مساحة العمل المحمولة لإدخال وقت المشروع</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">نشر مساحة عمل محمولة</a>
+</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>مطور أو مورِّد برامج مستقل (ISV)</td>
 <td>استخدام إطار عمل Dynamics 365 for Operations للأجهزة المحمولة لإنشاء مساحات عمل محمولة مخصصة.</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">إطار عمل Dynamics 365 for Operations للأجهزة المحمولة</a></li>
+<li><a href="mobile-platform.md">إطار عمل Dynamics 365 for Operations للأجهزة المحمولة</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">مساحة عمل X++ APIs لـ Dynamics 365 for Operations</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ ms.lasthandoff: 04/25/2017
 <td>5</td>
 <td>مورِّد برامج مستقل (ISV)</td>
 <td>إنشاء حزمة قابلة للنشر تحتوي على مساحات عمل محمولة مخصصة، وتحميل الحزمة إلى Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">إنشاء حزمة قابلة للنشر</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>مسؤول النظام</td>
 <td>تطبيق الحزمة قابلة للنشر التي تحتوي على مساحات العمل المخصصة التي يوفرها مورّد البرامج المستقل (ISV).</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق حزمة قابلة للنشر على نظام Microsoft Dynamics 365 for Operations</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">تطبيق حزمة قابلة للنشر على نظام Microsoft Dynamics 365 for Operations</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>مسؤول النظام</td>
 <td>نشر مساحات العمل المحمولة المخصصة التي يوفرها مورّد البرامج المستقل (ISV).‬</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل محمولة</a></td>
+<td><a href="publish-mobile-workspace.md">نشر مساحة عمل محمولة</a></td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -153,24 +146,12 @@ ms.lasthandoff: 04/25/2017
 <td>9</td>
 <td>المستخدم</td>
 <td>تسجيل الدخول إلى تطبيق Dynamics 365 for Operations للأجهزة المحمولة واستخدامه. يتضمن التطبيق مساحات العمل المحمولة التي تم نشرها.</td>
-<td>قامت Microsoft بتوفير مساحات العمل المحمولة التالية:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">مساحة العمل المحمولة للتحكم في التكلفة</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">مساحة العمل المحمولة للمخزون الفعلي</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">مساحات العمل المحمولة لأوامر المبيعات</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">مساحة العمل المحمولة لتعاون المورد</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">مساحة العمل المحمولة لإدخال وقت المشروع</a></li>
-</ul></td>
+<td>للاطلاع علة قائمة بمساحات العمل المحمولة التي تم توفيرها من قبل Microsoft، راجع <a href="mobile-workspaces-released.md">مساحات العمل المحمولة التي تم إصدارها مؤخرًا لتطبيق Dynamics 365 for Operations للأجهزة المحمولة‬</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>راجع أيضًا
---------
-
-[مساحات العمل المحمولة التي تم إصدارها مؤخرًا لتطبيق Dynamics 365 for Operations للأجهزة المحمولة](mobile-workspaces-released.md)
 
 
 
