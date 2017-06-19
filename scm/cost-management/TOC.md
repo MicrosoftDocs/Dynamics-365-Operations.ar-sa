@@ -1,5 +1,5 @@
 # حزمة محتوى Power BI
-## [حزمة محتوى إدارة التكاليف](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [حزمة محتوى إدارة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # التكلفة المحددة مسبقًا
 ## [كشف التكاليف](costing-sheets.md)
 ## [إصدار التكاليف](costing-versions.md)
