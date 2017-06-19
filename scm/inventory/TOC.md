@@ -21,4 +21,5 @@
 # تعقب الصنف والدفعة
 ## [دمج دُفعة المخزون](merge-inventory-batches.md)
 ## [تعقب الصنف والمواد الخام](trace-items-raw-materials-inventory-production-sales.md)
+## [تسجيل الرقم المسلسل في عملية المبيعات](../sales-marketing/register-serial-numbers-sales-process.md)
 

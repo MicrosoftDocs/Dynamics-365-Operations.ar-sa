@@ -14,9 +14,10 @@
 ## [نظرة عامة على المتجر على الإنترنت](online-stores.md)
 ## [تكوين وتثبيت محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md)
 ## [وقت البيع بالتجزئة والحضور](retail-time-attendance.md)
-# نقطة البيع الحديثة (MPOS) ونطقة بيع المجموعة
-## الأجهزة الطرفية للأجهزة
+# نقطة البيع الحديثة (MPOS) ونقطة بيع المجموعة
+## الأجهزة والأجهزة الطرفية
 ### [نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة](retail-peripherals-overview.md)
+### [محاكي الأجهزة الطرفية للبيع بالتجزئة](retail-peripheral-simulator.md)
 ### [الأجهزة الطرفية لأجهزة نقطة البيع الخاضعة لاختبارات Microsoft](microsoft-tested-pos-hardware-peripherals.md)
 ### [تحديد عملاء القنوات، والسجلات، ومحطات الأجهزة والاحتفاظ بها](define-maintain-channel-clients-registers-hw-stations.md)
 ## تخطيط الشاشة
@@ -39,9 +40,10 @@
 ### [تكوين نقطة البيع الحديثة وتثبيتها](retail-modern-pos-device-activation.md)
 ### [إعداد تسجيل الدخول الموسع لنقطة بيع المجموعة و‏‫نقطة البيع الحديثة](extended-logon.md)
 ### [إدارة حسابات البيع بالتجزئة والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
-## إيصالات الاستلام‬
+## إيصالات الاستلام
 ### [إعداد قوالب إيصالات الاستلام](receipt-templates-printing.md) 
 ### [إرسال إيصالات الاستلام عبر البريد الإلكتروني من نقطة بيع حديثة](email-receipts.md)
+## [مسجل المهام ونظام التعليمات في نقطة البيع](task-recorder-retail-pos.md)
 # الرصد والتحليل
 ## [رصد أداء المبيعات والهامش](monitor-sales-margin-performance.md)
 ## [تحليل أنماط واتجاهات المبيعات](analyze-sales-trends-patterns.md)
@@ -53,6 +55,7 @@
 ## [تعديلات الأسعار والخصومات](price-adjustments-discounts.md)
 ## [تحديد المجموعة المثلى من الخصومات المتداخلة](optimal-combination-overlapping-discounts.md)
 ## [تحديد الخصومات الخاصة بالقناة](define-channel-specific-discounts.md)
+## [إنشاء القسائم لمبيعات البيع بالتجزئة](retail-coupons.md)
 # المنتجات وترويج السلع
 ## [التدرجات الهرمية للبيع بالتجزئة](retail-hierarchies.md)
 ## [إنشاء وإدارة السمات](create-manage-attributes.md)
@@ -60,6 +63,7 @@
 ## [إعداد الأكواد الشريطية](set-up-bar-codes.md)
 ## [إعداد أقنعة الأكواد الشريطية](set-up-bar-code-masks.md)
 ## [إعداد عمليات الفرز](set-up-assortments.md)
+## [بيع وإرجاع المنتجات خارج عملية فرز](sell-return-outside-assortments.md)
 # الولاء
 ## [إعداد برنامج ولاء العملاء](set-up-customer-loyalty-program.md)
 # المخزون
@@ -69,15 +73,15 @@
 ## [المؤسسات والتدرجات الهرمية للمؤسسات (أساسيات التجارة)](organizational-hierarchies-commerce-essentials.md)
 # [محتوى المطورين ومتخصصي تقنية المعلومات](dev-itpro/TOC.md)
 
-# [الماليات](/dynamics365/operations/financials/index)
+# [الماليات](/dynamics365/unified-operations/financials/index)
 
-# [الموارد البشرية](/dynamics365/operations/human-resources/index)
+# [الموارد البشرية](/dynamics365/unified-operations/talent/index)
 
-# [إدارة سلسلة التوريد](/dynamics365/operations/supply-chain/index)
+# [إدارة سلسلة التوريد](/dynamics365/unified-operations/supply-chain/index)
 
-# [المطور والمسؤول](/dynamics365/operations/dev-itpro/index)
+# [المطور والمسؤول](/dynamics365/unified-operations/dev-itpro/index)
 
 # موارد أخرى
-## [مصطلحات Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [ما الجديد أو التغيير](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [مصطلحات Dynamics 365 for Retail](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [ما الجديد أو التغيير](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 

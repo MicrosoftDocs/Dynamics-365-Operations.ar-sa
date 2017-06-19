@@ -1,4 +1,4 @@
-# [نظرة عامة على الترجمة](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [نظرة عامة على الترجمة](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # آسيا والمحيط الهادئ
 ## أستراليا
 ### [تنسيقات ملفات البنك](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [ترحيل الاستحواذ المسبق لأصل ثابت](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [الأكواد البريدية](emea-import-create-postal-codes-manually.md)
 ## [‏‫معرفات التسجيل](emea-registration-ids.md)
+## [ضريبة القيمة المضافة للرسوم العكسية](emea-reverse-charge.md)
 ## [نظرة عامة على تحويل ائتمان سيبا](../accounts-payable/sepa-credit-transfer.md)
 ## [نظرة عامة على دين سيبا المباشر](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [إعداد الموقِّعين لنماذج الطباعة](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [تقرير قائمة دفتر اليومية](emea-deu-journal-list-report.md)
 ### [طباعة تسمية منفصلة لمذكرات الائتمان التي تنشأ من المبيعات](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## المجر
-### [طرق إهلاك الأصول الثابتة](emea-hun-fixed-assets-depreciation-methods.md)    
+### [طرق إهلاك الأصول الثابتة](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [الأصول الثابتة ذات التكلفة المنخفضة](emea-hun-low-cost-fixed-assets.md)
 ### [نقل أصل ثابت إلى المخزون](emea-hun-fixed-asset-to-inventory.md)
 ## إيطاليا
@@ -138,6 +139,7 @@
 ### [إعادة تقييم مجموعة الأصول الثابتة](emea-esp-fixed-asset-group-revaluation.md)
 ### [ضريبة القيمة المضافة بين المجتمعات](emea-esp-intra-community-vat.md)
 ### [عملاء المرة الواحدة](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [طباعة الشيكات باستخدام مخطط إسباني](emea-esp-print-checks-with-spanish-layout.md)
 ### [خيارات السندات الإذنية](emea-esp-promissory-note-options.md)
 ### [دورات المبيعات والشراء](emea-esp-sales-purchase-cycle.md)
 ### [الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [الدفاتر المالية‬](latam-bra-fiscal-books.md)
 #### [المستندات المالية لضريبة ICMS](latam-bra-icms-tax-fiscal-documents.md)
 #### [استيراد المستندات المالية](latam-bra-import-fiscal-documents.md)
+#### [تصدير واستيراد حركات الكيان القانوني من توحيد دفتر الأستاذ العام](latam-bra-general-ledger-consolidation-transactions.md)
 #### [استيراد والتحقق من صحة مستندات NF-e XML وملفات DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [معالجة حوالات الدفع الإلكتروني](latam-bra-process-electronic-payment-remittances.md)
 #### [المستندات المالية](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [العناصر النائبة لنص المستند المالي](latam-bra-fiscal-document-text-placeholders.md)
 #### [المستندات المالية المتممة للشراء](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,8 +167,10 @@
 ### [دفاتر اليومية التي تم إنشاؤها أثناء عملية إرجاع الدفع الإلكتروني](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [عملية NF-e](latam-bra-nf-e-process.md)
 ### [المعلمات الخاصة بالكيانات القانونية](latam-bra-legal-entity-parameters.md)
+### [الحصول على أصل CIAP ثابت](latam-bra-ciap-fixed-asset.md)
+### [التخلص من أصل CIAP ثابت](latam-bra-ciap-fixed-asset.md)
 ### [الضرائب](latam-bra-calculate-taxes.md)
-#### [سمات الضريبة](latam-bra-tax-attributes.md)
+#### [سمات الضرائب](latam-bra-tax-attributes.md)
 #### [مدفوعات الضرائب](latam-bra-tax-payments.md)
 ## المكسيك
 ### [تقرير إعلان تسوية التضخم](latam-mex-adjustment-inflation-declaration-report.md)

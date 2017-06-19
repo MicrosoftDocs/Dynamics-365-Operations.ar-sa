@@ -43,6 +43,8 @@
 ### [إعداد حسابات الموردين](procurement/set-up-vendor-accounts.md)
 ### [تعاون المورد مع موردين خارجيين](procurement/vendor-collaboration-work-external-vendors.md)
 ### [تعاون المورد مع العملاء](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [استخدام الكتالوجات الخارجية للتدبير الإلكتروني للاختراق](procurement/use-external-catalogs-for-punchout.md)
+### [إعداد كتالوج خارجي للتدبير الإلكتروني للاختراق](procurement/set-up-external-catalog-for-punchout.md)
 ### [التعاون مع المورّدين باستخدام مدخل المورِّد‬](procurement/collaborate-vendors-vendor-portal.md)
 ### [مساحة العمل المحمولة لتعاون المورد](procurement/vendor-collaboration-mobile-workspace.md)
 ### [أمان مستخدم مدخل المورد](procurement/configure-security-vendor-portal-users.md)
@@ -50,19 +52,37 @@
 ### [اتفاقيات الشراء](procurement/purchase-agreements.md)
 ## إيصالات استلام المنتجات والفوترة
 ### [إيصال استلام المنتجات في مقابل أوامر الشراء](procurement/product-receipt-against-purchase-orders.md)
-### [نظرة عامة على فواتير المورّدين](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
-### [ملفات تعريف ترحيل الموردين](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
-# إدارة معلومات المنتج
-## معلومات المنتج
-### [قائمة مكونات الصنف والمعادلة](production-control/bill-of-material-bom.md)
-### [وظيفة مصمم قائمة مكونات الصنف](production-control/bom-designer-functionality.md)
-### [بُعد المنتج](pim/product-dimensions.md)
-### [إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات](production-control/default-order-settings.md)
-### [كود nomenclature لرقم المنتج](pim/product-variant-identification-nomenclature.md)
-### [الأسئلة الشائعة حول الترجمة المتعلقة بالمنتج](pim/translations-product-related-information.md)
-### [تسجيل الرقم المسلسل في عملية المبيعات](sales-marketing/register-serial-numbers-sales-process.md)
-### [البحث عن المنتج أثناء إدخال أمر](pim/search-products-product-variants.md)
-## إنشاء تكوين المنتج
+### [نظرة عامة على فواتير المورّدين](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [ملفات تعريف ترحيل الموردين](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+# إدارة معلومات المنتجات
+## [نظرة عامة على معلومات المنتجات](pim/product-information.md)
+## الاحتفاظ بكتالوجات المنتجات
+## الاحتفاظ بمعلومات المنتجات
+### الاحتفاظ بتعريف المنتجات
+#### [كود nomenclature لرقم المنتج](pim/product-variant-identification-nomenclature.md)
+#### قوالب المنتجات
+#### [بُعد المنتج](pim/product-dimensions.md)
+#### سمات المنتجات
+#### صور المنتجات ومرفقاتها
+#### معرّفات المنتجات
+#### [ترجمة الأسئلة الشائعة حول معلومات المنتجات](pim/translations-product-related-information.md)
+### إصدار المنتجات للكيانات القانونية
+### البحث عن المنتجات
+#### [البحث عن المنتج أثناء إدخال أمر](pim/search-products-product-variants.md)
+### إعداد المنتج للتخطيط
+#### [إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات](production-control/default-order-settings.md)
+#### نماذج التنبؤ ومفاتيح توزيع الأصناف
+### إعداد المنتج للإنتاج
+#### قائمة مكونات الصنف والمعادلة
+##### [قوائم مكونات الصنف والمعادلات](production-control/bill-of-material-bom.md)
+##### [استخدام مصمم قائمة مكونات الصنف](production-control/bom-designer-functionality.md)
+##### [استخدام مصمم المعادلة](production-control/formula-designer.md)
+#### المسارات
+#### Lean manufacturing
+### إعداد المنتجات للمستودع واللوجستيات‬
+### تقدير التكلفة للمنتجات
+#### [العمليات الحسابية لقائمة مكونات الصنف](cost-management/bom-calculations.md)
+## الاحتفاظ بنماذج تكوين المنتجات
 ### [تصميم نموذج تكوين المنتج](pim/build-product-configuration-model.md)
 ### [الأسئلة الشائعة حول حساب نموذج تكوين المنتج](pim/calculate-product-configuration-models.md)
 ### [قاعدة التكوين](pim/configuration-rules.md)
@@ -71,6 +91,8 @@
 ### [إعادة استخدام تكوين المنتج](pim/reuse-product-configurations.md)
 ### [إعداد نموذج تكوين](pim/set-up-maintain-product-configuration-model.md)
 ### [قيد الجدول المحدد من قِبل النظام ومن قِبل المستخدم](pim/system-defined-user-defined-table-constraints.md)
+## استيراد بيانات معلومات المنتج
+## تصدير بيانات معلومات المنتج
 # التحكم بالإنتاج
 ## [نظرة عامة على عملية الإنتاج](production-control/production-process-overview.md)
 ## [وضع التخطيط المختلط: دمج مصادر منفصلة وعملية وبسيطة](production-control/mixed-mode-plan.md)
@@ -80,7 +102,7 @@
 #### [متطلبات إعداد الإنتاج](production-control/production-set-up-requirements.md)
 #### [قوائم مكونات الصنف والمعادلات](production-control/bill-of-material-bom.md)
 #### [وظيفة مصمم قائمة مكونات الصنف](production-control/bom-designer-functionality.md)
-#### [عمليات حساب قائمة مكونات الصنف](cost-management/bom-calculations.md)
+#### [العمليات الحسابية لقائمة مكونات الصنف](cost-management/bom-calculations.md)
 #### [موارد العمليات](production-control/operations-resources.md)
 #### [إمكانات الموارد](production-control/resource-capabilities.md)
 #### [المسارات والعمليات](production-control/routes-operations.md)
@@ -96,6 +118,8 @@
 #### [عكس حالة أمر الإنتاج](production-control/reverse-production-order-status.md)
 #### [الإبلاغ عن أوامر الإنتاج كمنتهية](production-control/report-production-orders-as-finished.md)
 #### [الإبلاغ عن قوائم مكونات الصنف كمنتهية](production-control/report-boms-as-finished.md)
+#### [توزيع البضائع من أوامر الإنتاج لمساحات خارجية](production-control/cross-docking-opportunities.md)
+#### [تسجيل استهلاك المواد باستخدام جهاز محمول](production-control/register-material-consumption-hand-held-device.md)
 #### [استبدال المواد في التصنيع](production-control/substitute-items-bom-lines.md)
 #### [تسجيل لتنفيذ التصنيع](production-control/registration-manufacturing-execution.md)
 #### [ملاحظات الإنتاج](production-control/production-feedback.md)
@@ -111,8 +135,9 @@
 #### [تصميم مؤسسة محدودة الفاقد](production-control/lean-manufacturing-modeling-lean-organization.md)
 #### [موارد العمليات](production-control/operations-resources.md)
 ### جدولة وظائف كانبان
+#### [جدولة ظاهرية لـ Lean manufacturing](production-control/visual-scheduling-lean-manufacturing.md)
 #### [جدولة وظائف كانبان لـ Lean manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
-#### [جدولة الوظيفة](production-control/job-scheduling.md)
+#### [جدولة الوظائف](production-control/job-scheduling.md)
 ### تشغيل وظائف كانبان
 #### [دعم لوحة تحويل كانبان للماسحات الضوئية للأكواد الشريطية](production-control/kanban-transfer-board-support-barcode-scanner.md)
 #### [ملاحظات الإنتاج](production-control/production-feedback.md)
@@ -127,7 +152,8 @@
 ### جدولة عمليات الإنتاج
 #### [جدولة العمليات](production-control/operations-scheduling.md)
 #### [خيارات جدولة العمليات](production-control/operation-scheduling-options.md)
-#### [جدولة الوظيفة](production-control/job-scheduling.md)
+#### [جدولة الوظائف](production-control/job-scheduling.md)
+#### [مخطط "جانت" لجدولة الوظائف](production-control/visual-scheduling-production.md)
 ### تشغيل وظائف الإنتاج
 #### [الأوامر الدفعية المجمعة](production-control/consolidated-batch-orders.md)
 #### [استبدال المواد في التصنيع](production-control/substitute-items-bom-lines.md)
@@ -162,18 +188,26 @@
 ## [إدارة النقل](transportation/transportation-management-overview.md)
 ## [محرك النقل](transportation/transportation-management-engines.md)
 # إدارة المستودعات
+## إدارة المستودعات المتقدمة
+### [الترحيل من AX 2012 إلى Finance and Operations](warehousing/upgrade-migration-warehouse-management-processes.md)
 ## الإعداد 
 ### [التحكم في العمل باستخدام قوالب العمل وتوجيهات الموقع](warehousing/control-warehouse-location-directives.md)
 ### [إدارة عمال المستودعات](warehousing/manage-warehouse-workers.md)
 ### [إعداد التخطيط](warehousing/warehouse-configuration.md)
 ### [سياسات عمل المستودع](warehousing/warehouse-work-policies.md)
 ### [وحدة القياس وسياسات المخزون](warehousing/unit-measure-stocking-policies.md)
-### [محتوى Power BI للمستودع](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
+### [محتوى Power BI للمستودع](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/scm/toc.json)
+### [تأكيد لوحة الترخيص والدُفعة](warehousing/batch-and-license-plate-confirmation.md)
+### [حركة المخزون مع العمل المقترن](warehousing/move-inventory-associated-work.md)
+### [تجميع النظام في قائمة عمل مفتوحة](warehousing/system-group-on-open-work-list.md)
+### [تأكيد المنتج لانتقاء نظام المجموعة](warehousing/cluster-picking-item-confirmation.md)
 ## الانتقاء والتعبئة
 ### [رسوم ومواد التعبئة](warehousing/pack-materials-packing-material-fees.md)
+### [تأكيد انتقاء الأجزاء](warehousing/piece-picking-confirmation.md)
 ## جرد المخزون
 ### [حظر المخزون](inventory/inventory-blocking.md)
 ### [الجرد الدوري](warehousing/cycle-counting.md)
+### [الجرد الدوري الجزئي للمواقع](warehousing/partial-location-cycle-counting.md)
 ### [دفتر يومية المخزون](inventory/inventory-journals.md)
 ### [موقع المخزون](inventory/inventory-locations.md)
 ### [حالة المخزون](inventory/inventory-statuses.md)
@@ -181,6 +215,7 @@
 ## التعبئة في حاويات 
 ## التزويد
 ### [التزويد](warehousing/replenishment.md)
+### [التزويد بحلول كانبان للسحب](warehousing/material-replenishment-withdrawal-kanban.md)
 ## الأجهزة المحمولة
 ### [تثبيت وتكوين تطبيق المستودع](warehousing/install-configure-warehousing-app.md)
 ### [تكوين أسماء الحقول في تطبيق المستودع](warehousing/configure-app-field-names-priorities-warehouse.md)
@@ -188,15 +223,15 @@
 ### [مدخل الأجهزة المحمولة للمستودع (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [إعدادات عرض الأجهزة المحمولة للمستودع](warehousing/change-warehouse-mobile-device-displays.md)
 
-# [الماليات](/dynamics365/operations/financials/index)
+# [الماليات](/dynamics365/unified-operations/financials/index)
 
-# [الموارد البشرية](/dynamics365/operations/human-resources/index)
+# [الموارد البشرية](/dynamics365/unified-operations/talent/index)
 
-# [‏‫البيع بالتجزئة‬](/dynamics365/operations/retail/index)
+# [‏‫البيع بالتجزئة‬](/dynamics365/unified-operations/retail/index)
 
-# [المطور والمسؤول](/dynamics365/operations/dev-itpro/index)
+# [المطور والمسؤول](/dynamics365/unified-operations/dev-itpro/index)
 
 # موارد أخرى
-## [مصطلحات Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
-## [ما الجديد أو التغيير](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+## [مصطلحات Finance and Operations](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+## [ما الجديد أو التغيير](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 

@@ -1,34 +1,34 @@
 # [مقدمة](index.md)
 
-# [الإعداد لـ Dynamics 365 for Operations](get-started/onboarding-home.md)
-## مقدمة إلى Dynamics 365 for Operations
-### [بدء الاستخدام مع Microsoft FastTrack لـ Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
-### [تسجيل الاشتراك للحصول على اشتراك](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [كيفية الحصول على النسخة المحلية من Dynamics AX 2012](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [نشر بيئة عرض توضيحي](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+# [الإعداد لـ Finance and Operations](get-started/onboarding-home.md)
+## مقدمة إلى Finance and Operations
+### [بدء الاستخدام مع Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
+### [تسجيل الاشتراك للحصول على اشتراك](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [كيفية الحصول على النسخة المحلية من Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+## [نشر بيئة عرض توضيحي](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## استكشاف واجهة المستخدم
 ### [البحث عن إجراء](get-started/action-search.md)
 ### [التصفية المتقدمة وبنية الاستعلام](get-started/advanced-filtering-query-options.md)
-### [الأسئلة الشائعة حول عميل Dynamics 365 for Operations](get-started/client-faq.md)
+### [الأسئلة الشائعة حول عميل Finance and Operations](get-started/client-faq.md)
 ### [تكوين مساحات العمل وتصفيتها](get-started/configure-filter-workspaces.md)
 ### [عرض الصفحات بجوار بعضها باستخدام الأيقونة "فتح في نافذة جديدة"](get-started/display-pages-side-by-side.md)
 ### [بحث التنقل](get-started/navigation-search.md)
 ### [تخصيص تجربة المستخدم](get-started/personalize-user-experience.md)
 ### [اختصارات لوحة المفاتيح](get-started/shortcut-keys.md)
 ### [إدارة كيفية عرض الصفحات](get-started/window-management.md)
-### [فهم Lifecycle Services](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [فهم Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## الحصول على التعليمات والدعم
-### [نظرة عامة على التعليمات](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [تعليمات الاتصال](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [نظرة عامة على التعليمات](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [تعليمات الاتصال](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [عرض أوصاف الحقول وتصديرها](get-started/view-export-field-descriptions.md)
 
 ### دلائل المهام ومسجل المهام
-#### [مسجل المهام](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [إنشاء الوثائق أو التدريب](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [مسجل المهام](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [إنشاء الوثائق أو التدريب](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [محتوى التعليمات الخاص بالبلدان/المناطق](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [محتوى التعليمات الخاص بالبلدان/المناطق](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 # [تكوين المؤسسة الخاصة بك](organization-administration/organization-administration-home-page.md)
 ## [المؤسسات والتدرجات الهرمية للمؤسسات](organization-administration/organizations-organizational-hierarchies.md)
@@ -63,17 +63,17 @@
 ## [تكوين الوظيفة الدفعية لمعالجة الرسالة](organization-administration/workflow-batch-job-critical.md)
 ## [تقرير أنواع سير العمل](organization-administration/workflow-types-report.md)
 
-# [الماليات](/dynamics365/operations/financials/index)
+# [الماليات](/dynamics365/unified-operations/financials/index)
 
-# [الموارد البشرية](/dynamics365/operations/human-resources/index)
+# [الموارد البشرية](/dynamics365/unified-operations/talent/index)
 
-# [‏‫البيع بالتجزئة‬](/dynamics365/operations/retail/index)
+# [‏‫البيع بالتجزئة‬](/dynamics365/unified-operations/retail/index)
 
-# [إدارة سلسلة التوريد](/dynamics365/operations/supply-chain/index)
+# [إدارة سلسلة التوريد](/dynamics365/unified-operations/supply-chain/index)
 
-# [المطور والمسؤول](/dynamics365/operations/dev-itpro/index)
+# [المطور والمسؤول](/dynamics365/unified-operations/dev-itpro/index)
 
 # موارد أخرى
-## [مصطلحات Dynamics 365 for Operations](get-started/glossary.md)
-## [ما الجديد أو التغيير](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+## [مصطلحات Finance and Operations](get-started/glossary.md)
+## [ما الجديد أو التغيير](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
