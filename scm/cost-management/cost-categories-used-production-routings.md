@@ -3,7 +3,7 @@ title: "فئات التكلفة المستخدمة في عمليات توجيه 
 description: "توفر هذه المقالة معلومات حول فئات التكلفة التي يتم تطبيقها على بيئات التصنيع التي تستخدم التوجيه."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

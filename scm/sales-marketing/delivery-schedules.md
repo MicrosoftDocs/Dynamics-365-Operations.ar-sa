@@ -3,7 +3,7 @@ title: "جداول التسليم"
 description: "تتيح لك جداول التسليم إمكانية تتبع كمية بند الأمر عند استخدام عمليات تسليم متعددة لأمر مبيعات أو عرض أسعار مبيعات أو أمر شراء واحد."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

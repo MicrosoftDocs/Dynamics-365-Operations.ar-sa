@@ -3,7 +3,7 @@ title: "قدرات الموارد"
 description: "توفر هذه المقالة معلومات حول قدرات الموارد‬. القدرة هي إمكانية قيام مورد عمليات بتنفيذ نشاط معين. توضح هذه المقالة كيفية استخدام القدرات والمفاهيم ذات الصلة، مثل مستوى الكفاءة والأولوية، لتحديد الموارد المناسبة لنشاط ما."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "إهلاك المتبقي من مدة خدمة القسط الثابت"
 description: "تقدم هذه المقالة نظرة عامة على أسلوب إهلاك المتبقي من مدة خدمة القسط الثابت‬."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

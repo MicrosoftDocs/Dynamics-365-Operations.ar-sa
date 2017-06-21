@@ -3,7 +3,7 @@ title: "الصفحة الرئيسية للأصول الثابتة"
 description: "الأصول الثابتة هي أصناف لها قيمة، مثل المباني والمركبات والأراضي والمعدات، التي يمتلكها أحد الأفراد أو إحدى المؤسسات."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

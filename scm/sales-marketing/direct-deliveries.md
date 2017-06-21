@@ -3,7 +3,7 @@ title: "عمليات التسليم المباشرة"
 description: "يوفر هذا المقال معلومات حول عمليات التسليم المباشرة‬. عمليات التسليم المباشرة‬ عبارة عن عمليات تسليم يتم إرسالها من المورّد إلى عمليك بشكل مباشر."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

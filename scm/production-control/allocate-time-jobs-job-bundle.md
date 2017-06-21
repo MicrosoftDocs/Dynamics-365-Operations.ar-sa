@@ -3,7 +3,7 @@ title: "تخصيص الوقت للوظائف في مجموعة الوظائف‬
 description: "في تنفيذ التصنيع، يمكنك تجميع الوظائف. يمكنك عندئذٍ بدء مهام متعددة في نفس الوقت في صفحة قائمة الوظائف."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

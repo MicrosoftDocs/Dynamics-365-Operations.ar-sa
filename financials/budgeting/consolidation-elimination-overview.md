@@ -3,7 +3,7 @@ title: "نظرة عامة على التجميع والاستبعاد"
 description: "توفر هذه المقالة معلومات عامة حول عملية التوحيد والاستبعاد. وتتضمن أيضًا إجابات على بعض الأسئلة المتداولة."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

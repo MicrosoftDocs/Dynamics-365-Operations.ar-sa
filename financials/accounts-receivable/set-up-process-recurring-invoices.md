@@ -3,7 +3,7 @@ title: "إعداد ومعالجة الفواتير المتكررة"
 description: "توضح هذه المقالة كيفية إعداد ومعالجة الفواتير المتكررة. يمكنك استخدام الفواتير المتكررة إذا توجب عليك فوترة العملاء بنفس المبلغ على أساس منتظم."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

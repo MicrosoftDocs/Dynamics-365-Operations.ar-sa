@@ -3,7 +3,7 @@ title: "إلغاء دفعة مورد"
 description: "توضح هذه المقالة الاختلافات بين عكس الدفع وحذفه وإلغائه ورفضه. وهي تشرح أيضًا الأسلوبين المتعلقين بعكس شيك المورّد."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

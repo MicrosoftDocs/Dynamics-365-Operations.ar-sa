@@ -3,7 +3,7 @@ title: "الدفاتر المشتقة"
 description: "توفر هذه المقالة نظرة عامة على وظيفة الدفاتر المشتقة."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

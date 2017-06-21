@@ -3,7 +3,7 @@ title: "حسابات ترحيل التخلص من الأصول الثابتة"
 description: "توضح هذه المقالة كيفية إعداد حسابات ترحيل دفتر الأستاذ العام للتخلص من الأصول."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

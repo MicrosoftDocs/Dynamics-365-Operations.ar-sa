@@ -3,7 +3,7 @@ title: "إعادة حساب تكاليف الإحلال والقيم المؤم�
 description: "توضح هذه المقالة عملية تحديث تكاليف الإحلال والقيم المؤمن لها للأصول الثابتة."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

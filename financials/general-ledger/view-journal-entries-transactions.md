@@ -3,7 +3,7 @@ title: "عرض الحركات وإدخالات دفاتر اليومية"
 description: "توضح هذه المقالة الطرق المختلفة التي يمكنك من خلالها عرض إدخالات وحركات دفتر اليومية."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

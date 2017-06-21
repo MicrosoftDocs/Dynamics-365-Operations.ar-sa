@@ -3,7 +3,7 @@ title: "تخطيط الأحمال باستخدام توحيد الموزِّعي
 description: "تصف هذه المقالة ميزة توحيد الشحنات في الموزّع عند تسليم بضائع من مستودعات مختلفة إلى العميل نفسه، أو عند استلام بضائع من مورّدين متعددين في المستودع نفسه."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

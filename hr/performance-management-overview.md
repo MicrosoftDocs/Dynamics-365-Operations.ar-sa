@@ -3,10 +3,10 @@ title: "نظرة عامة حول إدارة الأداء"
 description: "تتيح عملية إدارة الأداء للموظفين توثيق أدائهم ومناقشته مع مديرهم. ومن ثم، يمكن للمديرين تقديم تعليقات وتوجيهات للموظفين."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

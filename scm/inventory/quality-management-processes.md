@@ -3,7 +3,7 @@ title: "عمليات إدارة الجودة"
 description: "توفر هذه المقالة معلومات حول عملية إدارة الجودة للمنتجات غير المطابقة. ويوضح الكيفية التي يمكنك بها استخدام وظيفة مراقبة الجودة، وكيفية تحديد حالات عدم المطابقة والاحتفاظ بها، وكيفية معالجة التصحيحات."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "عكس حالة أمر المنتج"
 description: "يصف هذا الموضوع كيفية عكس حالة أمر الإنتاج."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

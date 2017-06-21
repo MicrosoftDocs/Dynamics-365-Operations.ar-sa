@@ -3,7 +3,7 @@ title: "نظرة عامة حول تحويل التكاليف القياسية"
 description: "توفر هذه المقالة نظرة عامة على العملية لمساعدتك على إعداد وتشغيل تحويل تكلفة المعيارية. يجب إكمال الخطوات المذكورة بعد أن تستكمل المتطلبات الأساسية لتحويل تكلفة المعيارية."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

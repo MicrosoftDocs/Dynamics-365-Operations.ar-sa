@@ -3,7 +3,7 @@ title: "إعداد الكمبيالات"
 description: "يصف هذا الموضوع خطوات إعداد الكمبيالات."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

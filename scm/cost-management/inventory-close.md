@@ -3,7 +3,7 @@ title: "إغلاق المخزون"
 description: "كجزء من عملية تسوية حركات الإصدار بحركات الاستلام، يمكنك أيضًا اختيار تحديث دفتر الأستاذ العام ليعكس التعديلات التي تم إجراؤها."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

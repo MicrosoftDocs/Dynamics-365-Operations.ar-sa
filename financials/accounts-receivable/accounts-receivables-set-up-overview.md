@@ -3,7 +3,7 @@ title: "تكوين الحسابات المدينة والائتمان والتح
 description: "تكوين الحسابات المدينة وعمليات التحصيل والائتمان‬ لتعقب الفواتير والمدفوعات الواردة من العملاء."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

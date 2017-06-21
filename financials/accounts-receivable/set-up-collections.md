@@ -3,7 +3,7 @@ title: "إعداد الائتمان وعمليات التحصيل"
 description: "توضح هذه المقالة كيفية إعداد وظيفة المجموعات."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "أبعاد المنتجات"
 description: "هناك أربعة أبعاد للمنتج - اللون والتكوين والحجم والنمط. يمكنك دمج أبعاد المنتج في مجموعات أبعاد، وتعيين مجموعات الأبعاد إلى أصول المنتج. تحدد مجموعات أبعاد المنتجات كيفية تعريف متغيرات المنتج."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

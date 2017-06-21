@@ -3,7 +3,7 @@ title: "إدارة عدم المطابقة"
 description: "توضح هذه المقالة الإعداد الأساسي المطلوب لاستخدام حالات عدم المطابقة. ستحتاج إلى إجراء إعداد إضافي إذا كنت تريد استخدام أوامر الجودة."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

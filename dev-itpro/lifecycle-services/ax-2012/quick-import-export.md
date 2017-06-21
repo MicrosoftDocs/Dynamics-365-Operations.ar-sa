@@ -3,7 +3,7 @@ title: "استخدام ميزة الاستيراد/التصدير السريع"
 description: "الغرض من ميزة الاستيراد والتصدير السريع هو السماح لك بالاستيراد والتصدير من خلال تنفيذ عدد أقل من الخطوات."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
 ms.service: 

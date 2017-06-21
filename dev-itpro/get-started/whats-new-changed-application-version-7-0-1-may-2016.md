@@ -3,7 +3,7 @@ title: "الميزات الجديدة أو المتغيرة في الإصدار 
 description: "توضح هذه المقالة الميزات الجديدة أو المتغيرة في الإصدار 7.0.1 من تطبيق Microsoft Dynamics AX. تم إطلاق هذا الإصدار في مايو 2016 ورقم الإصدار هو 7.0.1265.23014."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

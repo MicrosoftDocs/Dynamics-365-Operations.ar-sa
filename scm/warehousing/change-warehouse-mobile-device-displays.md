@@ -3,7 +3,7 @@ title: "إعدادات عرض الجهاز المحمول للمستودع"
 description: "تصف هذه المقالة كيفية إعداد مظهر شاشة جهاز محمول، وكيفية تعيين مفاتيح الاختصار إلى عناصر تحكم مثل الأزرار."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

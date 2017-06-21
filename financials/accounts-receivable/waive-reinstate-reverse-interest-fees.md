@@ -3,7 +3,7 @@ title: "التنازل عن رسوم الفائدة أو إعادة المطال
 description: "تشرح هذه المقالة كيفية التنازل عن تكاليف الفائدة والرسوم وإعادة المطالبة بها وإلغائها."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

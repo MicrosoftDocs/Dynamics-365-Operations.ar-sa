@@ -3,7 +3,7 @@ title: "محاكاة تغييرات التكاليف باستخدام إصدار
 description: "تشرح هذه المقالة كيفي مكنك محاكاة تأثيرات تغييرات التكاليف على التكاليف المحسوبة لصنف مصنّع باستخدام إصدار تكاليف منفصل للتكاليف المخططة."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

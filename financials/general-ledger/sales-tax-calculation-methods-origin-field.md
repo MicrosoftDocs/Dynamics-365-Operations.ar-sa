@@ -3,7 +3,7 @@ title: "طرق حساب ضريبة المبيعات في حقل الأصل"
 description: "توضح هذه المقالة الخيارات في حقل الأصل في صفحة أكواد ضريبة المبيعات وكيف يتم حساب ضريبة المبيعات استنادًا إلى الخيار المحدد لكود ضريبة المبيعات."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "التقارير المالية للميزانية العمومية"
 description: "توضح هذه المقالة التقارير الافتراضية للميزانيات العمومية. كما تصف العناصر الأساسية التي تقترن بهذه التقارير."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

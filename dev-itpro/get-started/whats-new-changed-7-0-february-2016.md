@@ -3,7 +3,7 @@ title: "الميزات الجديدة أو المتغيرة في Dynamics AX 7.0
 description: "توضح هذه المقالة الميزات الجديدة أو المتغيرة في Microsoft Dynamics AX 7.0. يحتوي هذا الإصدار على ميزات كل من النظام الأساسي والتطبيق وقد تم إصداره في فبراير 2016."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

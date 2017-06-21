@@ -1,9 +1,9 @@
 ---
 title: "المبلغ التقريبي لعمليات حساب الإهلاك"
-description: "تتناول هذه المقالة حقل &quot;تقريب الإهلاك&quot; الموجود في صفحات إعداد الدفتر."
+description: "تتناول هذه المقالة حقل \"تقريب الإهلاك\" الموجود في صفحات إعداد الدفتر."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

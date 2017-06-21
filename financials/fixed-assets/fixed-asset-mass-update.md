@@ -3,7 +3,7 @@ title: "تحديث شامل للأصول الثابتة"
 description: "في حالة استخدام الدفاتر، فإنه يمكن تغيير قواعد الإهلاك لمجموعات أصول تعد جزءًا من نفس الدفتر."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

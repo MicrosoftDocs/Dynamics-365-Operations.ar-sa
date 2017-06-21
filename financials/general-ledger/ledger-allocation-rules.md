@@ -3,7 +3,7 @@ title: "قواعد توزيع دفتر الأستاذ"
 description: "توفر هذه المقالة معلومات حول قواعد توزيع دفتر الأستاذ. وهذ تصف المكونات المختلفة لقواعد التوزيع هذه وأساليب التوزيع التي يمكن استخدامها لها."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

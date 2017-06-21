@@ -3,7 +3,7 @@ title: "تعيين أعضاء أبعاد عنصر التكلفة لمجموعة 
 description: "من خلال تعيين أعضاء أبعاد عنصر تكلفة مختلفين إلى مجموعة مشتركة من أعضاء أبعاد عنصر تكلفة، ستقوم بدمج البيانات في تنسيق مشترك لأغراض التحليل."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
