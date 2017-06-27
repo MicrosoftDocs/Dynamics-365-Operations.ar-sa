@@ -3,7 +3,7 @@ title: "تكامل الأصول الثابتة"
 description: "يمكن تكامل الأصول الثابتة مع دفتر الأستاذ العام وإدارة المخزون وكذلك الحسابات المدينة والدائنة. كما يمكن إعداد أصول ثابتة بحيث تتكامل مع أوامر الشراء."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

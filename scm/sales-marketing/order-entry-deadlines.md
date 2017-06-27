@@ -3,7 +3,7 @@ title: "المواعيد النهائية لإدخال الأوامر"
 description: "توفر هذه المقالة معلومات حول المواعيد النهائية لإدخال أمر. الموعد نهائي لإدخال أمر هو الانقطاع الذي يحدد ما إذا كان يتم التعامل مع طلب عميل (وتنفيذه) كما لو تم تلقيه في اليوم الحالي أو في اليوم التالي."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

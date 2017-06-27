@@ -3,7 +3,7 @@ title: "وحدة القياس وسياسات المخزون"
 description: "توضح هذه المقالة كيفية استخدام الوحدات الافتراضية وتسلسلات الوحدات وتحويلات الوحدات في عمليات المستودع."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

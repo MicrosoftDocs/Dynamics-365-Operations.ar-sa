@@ -3,7 +3,7 @@ title: "تسوية دفعة جزئية لمورد لديه خصومات في ا�
 description: "ترشدك هذه المقالة من خلال سيناريو حيث تتم تسوية إشعار دائن مقابل فاتورة."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

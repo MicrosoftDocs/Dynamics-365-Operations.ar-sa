@@ -3,7 +3,7 @@ title: "أرصدة حساب دفتر الأستاذ العام"
 description: "توضح هذه المقالة طريقتين لعرض أرصدة حساب دفتر الأستاذ العام: صفحة قائمة ميزان المراجعة والتقارير المالية. وهي تتناول أيضًا كيفية تحديث أرصدة مجموعة الأبعاد‬."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

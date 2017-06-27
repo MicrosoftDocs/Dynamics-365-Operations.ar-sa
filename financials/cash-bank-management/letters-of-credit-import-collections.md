@@ -3,7 +3,7 @@ title: "خطابات الاعتماد وتحصيلات الاستيراد"
 description: "توفر هذه المقالة معلومات عامة حول مجموعات الاستيراد وخطابات الاعتماد. يُستخدم هذان النوعان من المستندات البنكية بشكل شائع لشراء وبيع السلع عبر الحدود الدولية."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

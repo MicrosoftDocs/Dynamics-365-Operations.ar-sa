@@ -3,7 +3,7 @@ title: "غير موثق"
 description: "رسالة الإجراء هي عبارة عن اقتراح منشأ بواسطة النظام بغرض تغيير أمر مخطط أو مؤكد موجود."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

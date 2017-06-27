@@ -3,7 +3,7 @@ title: "أنواع الحساب الرئيسي"
 description: "تحدد أنواع الحسابات الرئيسية كيفية استخدام حساب رئيسي في دليل الحسابات."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

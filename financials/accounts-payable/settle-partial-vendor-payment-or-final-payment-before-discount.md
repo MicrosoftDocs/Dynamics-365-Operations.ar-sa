@@ -3,7 +3,7 @@ title: "تسوية دفعة جزئية لمورد وتسوية الدفعة ال
 description: "ترشدك هذه المقالة عبر سيناريو حيث يتم تسديد دفعات جزئية لفاتورة مورّد ويتم أخذ خصم نقدي."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

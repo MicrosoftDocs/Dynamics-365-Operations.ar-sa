@@ -3,7 +3,7 @@ title: "المصادر العامة لفروقات الإنتاج"
 description: "توضح هذه المقالة المصادر النموذجية المختلفة لكل نوع من أنواع الفرق في الإنتاج."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "أبعاد عنصر التكلفة"
 description: "تعتبر أبعاد عنصر التكلفة أحد الركائز الأساسية في محاسبة التكاليف، ويتم استخدامها لتصنيف وتعقب الأماكن التي تتدفق التكاليف إليها."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

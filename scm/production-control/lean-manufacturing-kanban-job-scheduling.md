@@ -3,7 +3,7 @@ title: "جدولة وظائف كانبان لخدمات lean manufacturing‬"
 description: "توفر هذه المقالة معلومات حول التحكم المرئي في جدولة وظائف كانبان ومختلف طرق جدولة وظائف كانبان."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "دلائل المهام الجديدة أو المحدثة (مايو 201
 description: "‏‫تسرد هذه المقالة دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (مايو 2016 -- كل اللغات) لتطبيق Microsoft Dynamics AX. لم يتم إصدار مكتبة بدء استخدام جديدة."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

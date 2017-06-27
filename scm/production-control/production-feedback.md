@@ -3,7 +3,7 @@ title: "ملاحظات الإنتاج"
 description: "توفر هذه المقالة معلومات حول ملاحظات الإنتاج، مما يوفر للعاملين ملاحظات حول وظائف الإنتاج. تتضمن المقالة معلومات حول الطرق المختلفة التي يمكن من خلالها تحديث ملاحظات الإنتاج."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

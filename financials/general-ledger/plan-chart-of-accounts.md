@@ -3,7 +3,7 @@ title: "تخطيط مخطط الحسابات"
 description: "توفر هذه المقالة معلومات ستساعدك في وضع تخطيط لدليل الحسابات في مؤسستك."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "اكتشاف مشكلات إعداد موازنة المنصب‬ وإص
 description: "توفر هذه المقالة أجوبة على الأسئلة التي قد تواجهك عند تكوين موازنة المنصب‬. وهو يتناول الأسئلة المتداولة حول كيفية إنشاء عناصر تكلفة الموازنة ومجموعات التعويض وشبكات التعويض."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

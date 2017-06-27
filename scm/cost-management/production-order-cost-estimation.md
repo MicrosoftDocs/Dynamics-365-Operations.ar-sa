@@ -3,7 +3,7 @@ title: "تقدير تكلفة أمر الإنتاج"
 description: "توفر هذه المقالة معلومات حول تقدير تكلفة الإنتاج. يزودك تقدير تكلفة الإنتاج بتكاليف المواد المرتقبة واستهلاك القدرة لإنتاج صنف في كمية أمر الإنتاج المخطط."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

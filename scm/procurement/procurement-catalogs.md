@@ -3,7 +3,7 @@ title: "كتالوجات التدبير"
 description: "توضح هذه المقالة، على مستوى عالٍ، كيف يمكن لمحترفي الشراء إعداد كتالوجات التدبير والمحافظة عليها تحدد كتالوجات التدبير الأصناف والخدمات التي يمكن لموظفي الشركة طلبها للاستخدام الداخلي."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

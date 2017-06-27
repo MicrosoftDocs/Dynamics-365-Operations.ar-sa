@@ -3,7 +3,7 @@ title: "الصفحة الرئيسية لإدارة البنك والنقد"
 description: "يمكنك استخدام إدارة البنك والنقد للاحتفاظ بالحسابات البنكية الخاصة بالكيان القانوني والمستندات المالية المقترنة بتلك الحسابات البنكية."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

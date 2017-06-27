@@ -3,7 +3,7 @@ title: "دليل مهام جديد أو محدث (نوفمبر 2016)"
 description: "يسرد هذا الموضوع دليل المهام الجديد أو المحدث الذي تم إصداره لمكتبة Microsost الموحدة APQC (نوفمبر 2016- جميع اللغات) لـ Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

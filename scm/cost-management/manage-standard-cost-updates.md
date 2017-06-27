@@ -3,7 +3,7 @@ title: "إدارة تحديثات التكلفة القياسية"
 description: "يمكن إدارة تحديثات بيانات التكلفة القياسية باستخدام نهجين مختلفين: النهج أحادي الإصدار والنهج ثنائي الإصدار."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

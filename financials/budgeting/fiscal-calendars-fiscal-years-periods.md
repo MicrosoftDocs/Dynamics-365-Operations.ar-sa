@@ -3,7 +3,7 @@ title: "التقويمات المالية، والسنوات المالية، و
 description: "تتناول هذه المقالة التقويمات المالية والسنوات والفترات المالية وكيفية الاستفادة منها للكيانات القانونية والأصول الثابتة وإعداد الميزانية."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "خطابات الضمان"
 description: "توفر هذه المقالة معلومات حول خطابات الضمان. في خطاب الضمان، يوافق البنك على دفع مبلغ معين من المال إلى أحد الأشخاص إذا تعثر أحد عملاء البنك في تسديد دفع أو التزام لذلك الشخص."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

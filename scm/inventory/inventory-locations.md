@@ -3,7 +3,7 @@ title: "مواقع المخزون"
 description: "تُستخدم مواقع المخزون مع التخزين الأساسي (WMS I) لتحديد المكان الذي يتم فيه تخزين الأصناف والمكان الذي يتم منه انتقاء الأصناف من مستودع (WMS I)."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

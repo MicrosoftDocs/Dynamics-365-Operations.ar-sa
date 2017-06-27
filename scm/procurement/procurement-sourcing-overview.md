@@ -3,7 +3,7 @@ title: "نظرة عامة على التدبير والتوريد"
 description: "تقدم هذه المقالة نظرة عامة على الوظائف المتوفرة في الوحدة النمطية التدبير وتحديد الموارد‬."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

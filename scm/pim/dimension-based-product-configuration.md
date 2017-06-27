@@ -3,7 +3,7 @@ title: "تكوين المنتج المستند إلى بُعد"
 description: "يمثل تكوين المنتج المستند إلى بُعد‬ حلاً بسيطًا لإنشاء متغيرات منتج متعددة من أصل منتج واحد وقائمة مكونات الصنف الخاصة به."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
