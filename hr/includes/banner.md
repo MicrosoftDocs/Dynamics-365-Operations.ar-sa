@@ -1,3 +1,2 @@
 > [!IMPORTANT]
-> مرحبًا بك في وثائق Microsoft Dynamics 365 for Operations على موقع docs.microsoft.com. نحن نرحل المحتويات الخاصة بنا هنا من Dynamics 365 for Operations Help Wiki. 
-
+> ينطبق هذا الموضوع على Dynamics 365 for Talent (الإصدار التجريبي)، وDynamics 365 for Finance and Operations، وإصدار Enterprise، وDynamics 365 for Operations. 
