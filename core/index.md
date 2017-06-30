@@ -1,9 +1,9 @@
 ---
-title: "مقدمة إلى Dynamics 365 for Operations"
-description: "إن Microsoft Dynamics 365 for Operations هو تطبيق الأعمال للمؤسسات لدى Microsoft. تساعدك هذه الصفحة في التعرف على المنتج والبدء في استخدامه."
+title: "مقدمة إلى Dynamics 365 for Finance and Operations"
+description: "إن Microsoft Dynamics 365 for Finance and Operations هو تطبيق الأعمال للمؤسسات لدى Microsoft. تساعدك هذه الصفحة في التعرف على المنتج والبدء في استخدامه."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,77 +17,107 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86f8625019c25257d8d07701b17707c8ca48c9df
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
-# <a name="introduction-to-dynamics-365-for-operations"></a>مقدمة إلى Dynamics 365 for Operations
+# <a name="introduction-to-dynamics-365-finance-and-operations"></a>مقدمة إلى Dynamics 365 Finance and Operations
 
 [!include[banner](includes/banner.md)]
 
-إن Microsoft Dynamics 365 for Operations هو تطبيق الأعمال للمؤسسات لدى Microsoft. يتيح للأشخاص إمكانية اتخاذ قرارات أكثر ذكاءً بسرعة من خلال واجهة مستخدم ذكية توفر الوصول إلى البيانات والمعلومات في الوقت الحقيقي. يتيح للشركات إمكانية التحويل والابتكار عن طريق توفير منطق أعمال أثبت جدارته ويسمح لهم بإعادة تصميم عمليات الأعمال بشكل أسرع. يمنح الشركات مرونة النمو بوتيرتها الخاصة وأداء الأعمال تقريبًا في أي مكان، وفي أي وقت، مما يسمح لهم بتحسين العمليات الخاصة بهم على المستوى العالمي تلبية احتياجات الأعمال. 
+إن Microsoft Dynamics 365 for Finance and Operations هو تطبيق الأعمال للمؤسسات لدى Microsoft. يتيح للأشخاص إمكانية اتخاذ قرارات أكثر ذكاءً بسرعة من خلال واجهة مستخدم ذكية توفر الوصول إلى البيانات والمعلومات في الوقت الحقيقي. يتيح للشركات إمكانية التحويل والابتكار عن طريق توفير منطق أعمال أثبت جدارته ويسمح لهم بإعادة تصميم عمليات الأعمال بشكل أسرع. يمنح الشركات مرونة النمو بوتيرتها الخاصة وأداء الأعمال تقريبًا في أي مكان، وفي أي وقت، مما يسمح لهم بتحسين العمليات الخاصة بهم على المستوى العالمي لتلبية احتياجات الأعمال. 
 
-يمكن لدليل المستخدم هذا أن يساعدك في التعرف على كيفية جعل Dynamics 365 يعمل لصالح أعمالك.    
+يمكن لهذه الوثائق أن تساعدك في التعرف على كيفية جعل Dynamics 365 for Finance and Operations يعمل لصالح أعمالك. إنه متصل بوثائق المنتجات ذات الصلة في مجموعة Unified Operations، وDynamics 365 for Retail، وDynamics 365 for Talent. 
 
 <table>
 <colgroup>
-<col width="50%" />
-<col width="50%" />
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started/onboarding-home.md">إعداد المؤسسة الخاصة بك</a></p>
-<p>الماليات</p>
-<ul><li><a href="financials/accounts-payable/accounts-payable.md">الحسابات الدائنة</a></li>
-<li><a href="financials/accounts-receivable/accounts-receivable.md">الحسابات المدينة</a></li>
-<li><a href="financials/budgeting/budgeting-overview.md">إعداد الموازنة</a></li>
-<li><a href="financials/cash-bank-management/cash-bank-management.md">إدارة النقد والبنوك</a></li>
-<li><a href="financials/cost-accounting/cost-accounting-home-page.md">محاسبة التكاليف</a></li>
-<li><a href="financials/fixed-assets/fixed-assets.md">الأصول الثابتة</a></li>
-<li><a href="financials/general-ledger/general-ledger.md">دفتر الأستاذ العام</a></li>
-<li><a href="financials/project-management/overview-project-management-accounting.md">إدارة المشروع</a></li>
-<li><a href="financials/public-sector/public-sector-functionality.md">القطاع العام</a></li></ul>
-<p><a href="dev-itpro/lcs-solutions/country-region.md">الميزات الإقليمية</a></p>
-<p>الموارد البشرية</p>
-   <ul>
-  <li><a href="human-resources/departments-jobs-positions.md">استراتيجية الموارد البشرية</a></li>
-  <li><a href="human-resources/manage-recruiting-process.md">التعيين والتوظيف والتحفيز</a></li>
-  <li><a href="human-resources/performance-management-overview.md">تدريب الموظفين</a></li>
-  <li><a href="human-resources/manage-benefit-program.md">الميزات</a></li>
-  <li><a href="human-resources/questionnaires.md">الاستبيان</a></li>
-  <li><a href="human-resources/localizations/noam-usa-payroll.md">الميزات الأمريكية</a></li>
-</ul></td>
-  <td>
-  <p>‏‫البيع بالتجزئة‬</p>
+<td><h3>الماليات</h3>
+<p>التوافق</p>
+<p>الإدارة المالية</p>
+<ul><li><a href="../financials/accounts-payable/accounts-payable">الحسابات الدائنة</a></li>
+<li><a href="../financials/accounts-receivable/accounts-receivable">الحسابات المدينة</a></li>
+<li><a href="../financials/budgeting/budgeting-overview">إعداد الموازنة</a></li>
+<li><a href="../financials/cash-bank-management/cash-bank-management">إدارة النقد والبنوك</a></li>
+<li><a href="../financials/cost-accounting/cost-accounting-home-page">محاسبة التكاليف</a></li>
+<li><a href="../financials/fixed-assets/fixed-assets">الأصول الثابتة</a></li>
+<li><a href="../financials/general-ledger/general-ledger">دفتر الأستاذ العام</a></li>
+
+<li><a href="../financials/public-sector/public-sector-functionality">القطاع العام</a></li>
+<li><a href="../dev-itpro/lcs-solutions/country-region">الميزات التنظيمية الإقليمية</a></li></ul>
+<p><a href="../financials/project-management/overview-project-management-accounting">إدارة المشاريع</a></p>
+<H3>الموارد البشرية</h3>
   <ul>
-<li><a href="retail/call-center-functionality.md">مركز الاتصال</a></li>
-  <li><a href="retail/define-maintain-retail-channels.md">إعداد القنوات وإدارتها</a></li>
-  <li><a href="retail/define-maintain-channel-clients-registers-hw-stations.md">نقطة البيع الحديثة ونقطة بيع المجموعة</a></li>
-  <li><a href="retail/dev-itpro/dev-retail-home-page.md">مطور البيع بالتجزئة والإدارة</a></li></ul>
-  <p>إدارة سلسلة التوريد</p>
+<li><a href="hr/manage-recruiting-process">التوظيف</a></li>
+<li><a href="hr/localizations/noam-usa-payroll">كشف رواتب الولايات المتحدة</a></li>
+</ul>
+<h3>إدارة سلاسل التوريد</h3>
+<p><a href="../supply-chain/cost-management/costing-sheets">إدارة التكاليف</a></p>
+<p><a href="../supply-chain/inventory/inventory-locations">إدارة المخزون</a></p>
+<p>اللوجستيات</p>
+<ul><li><a href="../supply-chain/transportation/transportation-management-overview">إدارة النقل</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">إدارة المستودعات</a></li></ul></li>
+<p><a href="../supply-chain/master-planning/master-plans">التخطيط</a></p>
+  <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">إدارة معلومات المنتج</a></p>
+  <p><a href="../supply-chain/production-control/create-production-orders">التحكم بالإنتاج</a></p>
+<p>إدارة الأوامر</p>
+  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">التدبير وتحديد الموارد</a></li>
+  <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">المبيعات والتسويق</a></li></ul>
+</td>
+<td>
+<h3>النظام الأساسي لـ Unified Operations</h3>
+<p>المعلومات</p>
+<ul><li><a href="../dev-itpro/analytics/analytics">التحليلات</a></li>
+ <li><a href="../dev-itpro/analytics/document-reporting-services">مستندات الأعمال</a></li>
+<li><a href="../dev-itpro/analytics/financial-reporting-intro">التقارير المالية</a></li>
+<li><a href="../dev-itpro/analytics/general-electronic-reporting">إعداد التقارير التنظيمية</a></li></ul>
+
+<p><a href="../dev-itpro/mobile-apps/mobile-platform">النظام الأساسي للأجهزة المحمولة</a></p>
+
+ <p>وظائف المطور</p>
 <ul>
-<li><a href="supply-chain/cost-management/costing-sheets.md">إدارة التكلفة</a></li>
-  <li><a href="supply-chain/inventory/inventory-locations.md">إدارة المخزون</a></li>
-  <li><a href="supply-chain/master-planning/master-plans.md">التخطيط الرئيسي</a></li>
-  <li><a href="supply-chain/procurement/procurement-sourcing-overview.md">التدبير وتحديد الموارد</a></li>
-  <li><a href="supply-chain/pim/set-up-maintain-product-configuration-model.md">إدارة معلومات المنتج</a></li>
-  <li><a href="supply-chain/production-control/create-production-orders">التحكم بالإنتاج</a></li>
-  <li><a href="supply-chain/sales-marketing/overview-sales-marketing.md">المبيعات والتسويق</a></li>
-  <li><a href="supply-chain/transportation/transportation-management-overview.md">إدارة النقل</a></li>
-  <li><a href="supply-chain/warehousing/warehouse-configuration.md">إدارة المستودعات</a></li></ul>
-  <p>وظائف المطور والمسؤول</p>
-  <ul><li><a href="dev-itpro/analytics/analytics.md">التحليلات</a></li>
-  <li><a href="dev-itpro/data-entities/data-entities.md">كيانات البيانات</a></li>
-  <li><a href="dev-itpro/mobile-apps/mobile-platform.md">تطبيقات الجوال</a></li>
-  <li><a href="dev-itpro/office-integration/office-integration.md">تكامل المكتب</a></li>
-  <li><a href="dev-itpro/sysadmin/system-administration-home-page.md">الإدارة</a></li>
-  <li><a href="dev-itpro/dev-tools/developer-home-page.md">أدوات المطور</a></li></ul></td>
+<li><a href="../dev-itpro/continuous-delivery-home-page">التسليم المستمر</a></li>
+<li><a href="../dev-itpro/get-started/demo-data">بيانات العرض التوضيحي</a></li>
+<li><a href="../dev-itpro/dev-tools/developer-home-page">أدوات المطور</a></li>
+<li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">القابلية للتوسعة</a></li>
+<li><p>التكامل</p>
+<ul><li><a href="../dev-itpro/data-entities/data-entities">كيانات البيانات</a></li>
+<li><a href="../dev-itpro/office-integration/office-integration">تكامل المكتب</a></li></ul></li></ul>
+
+<p>وظيفة المسؤول<p>
+<ul>
+<li><a href="../get-started/onboarding-home">إعداد المؤسسة الخاصة بك</a></li>
+<li><a href="../dev-itpro/deploy-demo-environment">التوزيع والخدمة</a></li>
+<li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">الترقية</a></li>
+<li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">إدارة البيانات</a></li>
+<li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
+<li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">إدارة المؤسسات</a></li>
+<li><a href="../dev-itpro/sysadmin/system-administration-home-page">إدارة الأنظمة</a></li>
+<ul>
+</td>
+<td>
+<h3>Dynamics 365 for Talent</h3>
+<p><a href="../talent/manage-benefit-program">الميزات</a></p>
+<p><a href="../talent/performance-management-overview">تنمية مهارات الموظفين وتدريبهم</a></p>
+<p><a href="../talent/questionnaires">الاستبيان</a></p>
+
+<h3>Dynamics 365 for Retail</h3>
+<p><a href="../retail/call-center-functionality">مركز الاتصال</p>
+<p><a href="../retail/define-maintain-retail-channels">إعداد القنوات وإدارتها</p>
+<p><a href="../retail/retail-peripherals-overview">نقطة البيع الحديثة ونقطة بيع المجموعة</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">مطور البيع بالتجزئة والإدارة</p>
+
+</td>
 </tr>
+
 </tbody>
 </table>
-
-
 

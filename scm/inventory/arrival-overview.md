@@ -1,6 +1,6 @@
 ---
 title: "نظرة عامة على الوصول"
-description: "يوفر هذا الموضوع معلومات حول ميزة النظرة العامة على الوصول. تعتبر الصفحة &quot;نظرة عامة على الوصول&quot; جزءًا من هذه الميزة وتوفر نظرة عامة على كافة العناصر التي من المتوقع أن تصل كأصناف واردة."
+description: "يوفر هذا الموضوع معلومات حول ميزة النظرة العامة على الوصول. تعتبر الصفحة \"نظرة عامة على الوصول\" جزءًا من هذه الميزة وتوفر نظرة عامة على كافة العناصر التي من المتوقع أن تصل كأصناف واردة."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/20/2017
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global

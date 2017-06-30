@@ -1,15 +1,15 @@
 ---
-title: "الصفحة الرئيسية للتقارير المعلومات المهنية BI &amp;"
-description: "يسرد هذا الموضوع موارد المعلومات المهنية BI &amp; المتوفرة في Microsoft Dynamics 365 for Operations."
+title: "الصفحة الرئيسية لإعداد التقارير وBI"
+description: "يسرد هذا الموضوع BI وموارد إعداد التقارير المتوفرة في Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,20 +17,20 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>الصفحة الرئيسية للتقارير المعلومات المهنية BI &amp;
+# <a name="bi-amp-reporting-home-page"></a>الصفحة الرئيسية لإعداد التقارير وBI
 
 [!include[banner](../includes/banner.md)]
 
 
-يسرد هذا الموضوع موارد المعلومات المهنية BI &amp; المتوفرة في Microsoft Dynamics 365 for Operations. 
+يسرد هذا الموضوع BI وموارد إعداد التقارير المتوفرة في Microsoft Dynamics 365 for Finance and Operations. 
 
 <a name="working-with-aggregate-data"></a>التعامل مع تجميع البيانات
 ---------------------------
@@ -43,22 +43,22 @@ ms.lasthandoff: 05/25/2017
 ## <a name="self-service-reporting"></a>تقارير الخدمة الذاتية
 -   [تكامل Power BI](power-bi-integration.md)
 -   [تكوين تكامل Power BI لمساحات العمل](configure-power-bi-integration.md)
--   [إنشاء تقرير Power BI باستخدام بيانات Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
+-   [إنشاء تقرير Power BI باستخدام بيانات Microsoft Dynamics 365 for Finance and Operations](create-powerbi-report-data.md)
 -   [إنشاء تقرير ولوحة معلومات Power BI](create-powerbi-report-dashboard.md)
 -   [محتوى Power BI لأداء قناة البيع بالتجزئة](retail-channel-performance-dashboard-power-bi-data.md)
 -   [محتوى Power BI للأداء المالي](financial-performance-power-bi-content-pack.md)
 -   [محتوى Power BI لأداء المبيعات والربحية](sales-profitability-performance-content-pack.md)
--   [استخدام تكوين التقارير الإلكترونية لتزويد Power BI بالبيانات من Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [استخدام تكوين التقارير الإلكترونية لتزويد Power BI بالبيانات من Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>بناء تجارب تحليلية مضمنة في عميل Dynamics 365 for Operations
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>إنشاء تجارب تحليلية مضمنة في عميل Finance and Operations
 -   [ذكاء الأعمال المضمن](analytics.md#embedded-business-intelligence)
--   [تصميم KPI والتخصيص](analytics.md#kpi-modeling-and-customization)
+-   [تصميم مؤشرات الأداء الرئيسية (KPI) والتخصيص](analytics.md#kpi-modeling-and-customization)
 -   [إضافة المعلومات المهنية BI إلى مساحات العمل](add-bi-workspaces.md)
 -   [إضافة معلومات مهنية BI سياقية إلى النماذج](add-contextual-bi-forms.md)
 
 ## <a name="document-reporting-and-printing"></a>تقارير المستندات وطباعتها
 -   [نظرة عامة على خدمات تقارير المستندات](document-reporting-services.md)
--   [الطباعة في تطبيقات Dynamics 365 for Operations](print-documents.md)
+-   [الطباعة في تطبيقات Finance and Operations](print-documents.md)
 -   [تثبيت "وكيل توجيه المستند" لتمكين أجهزة الطابعات على الشبكة](install-document-routing-agent.md)
 -   [تشغيل وكيل توجيه المستند كخدمة Windows](run-document-routing-agent-as-windows-service.md)
 -   [إنشاء حلول تقارير الجيل التالي](create-nextgen-reporting-solutions.md)
@@ -72,8 +72,8 @@ ms.lasthandoff: 05/25/2017
 -   [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
 -   [وجهات إعداد التقارير الإلكترونية‬](electronic-reporting-destinations.md)
 -   [تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [استخدام تكوين التقارير الإلكترونية لتزويد Power BI بالبيانات من Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [إنشاء موفر تكوين وجعله نشطًا في ER](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (دليل المهام)
+-   [استخدام تكوين التقارير الإلكترونية لتزويد Power BI بالبيانات من Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [إنشاء موفر تكوين وتمييزه كنشط في ER](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (دليل المهام)
 -   [نموذج بيانات خاصة بمجال التصميم في ER](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (دليل المهام)
 -   [تحديد تعيين النموذج وتحديد مصادر البيانات في ER](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (دليل المهام)
 -   [تعيين نموذج بيانات لمصادر بيانات محددة في ER](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (دليل المهام)
