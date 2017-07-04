@@ -2,24 +2,39 @@
 
 ## [بدء الاستخدام](/dynamics365/unified-operations/fin-and-ops/get-started/onboarding-home?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Microsoft FastTrack for Dynamics 365](/dynamics365/unified-operations/fin-and-ops/get-started/fasttrack-dynamics-365-overview?toc=/dynamics365/unified-operations/talent/toc.json)
-### [تسجيل الاشتراك للحصول على اشتراك](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/talent/toc.json)
-### [كيفية الحصول على النسخة المحلية من Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/talent/toc.json)
+### [التسجيل للاشتراك](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/talent/toc.json)
+### [كيف تحصل على إصدار محلي من Finance and Operations](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
+### [معلومات للعملاء الذين اشتروا Finance and Operations عن طريق موفر خدمة سحابية](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [نشر بيئة عرض توضيحي](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/talent/toc.json)
-### [ما الجديد أو التغيير](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [الميزات المهملة](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [ميزات AX 2012 لم يتم تنفيذها بعد](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [ميزات لم يتم تنفيذها في عمليات النشر المحلية](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/talent/toc.json)
+### [ما الجديد أو ما الذي تغير](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Finance and Operations، الإصدار Enterprise تحديث يوليو 2017](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-application-July-2017-update?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث النظام الأساسي 8 (يونيو 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-8?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث النظام الأساسي 7 (مايو 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث النظام الأساسي 6 (أبريل 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث النظام الأساسي 5 (مارس 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث النظام الأساسي 4 (أبريل 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إصدار Operations 1611 (نوفمبر 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث النظام الأساسي 3 (نوفمبر 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث النظام الأساسي 2 (أغسطس 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/talent/toc.json) 
+#### [Dynamics AX إصدار 7.0.1 (مايو 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث النظام الأساسي 1 (مايو 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Dynamics AX 7.0 (فبراير 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+### [الميزات المهملة](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/talent/toc.json)
+### [ميزات AX 2012 لم يتم تنفيذها بعد](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/talent/toc.json)
+### [ميزات لم يتم تنفيذها في عمليات النشر المحلية](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/talent/toc.json)
+### [نهج دورة حياة](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### استكشاف واجهة المستخدم
+#### [الأسئلة المتداولة حول واجهة مستخدم عميل](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [البحث عن إجراء](/dynamics365/unified-operations/fin-and-ops/get-started/action-search?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [التصفية المتقدمة وبنية الاستعلام](/dynamics365/unified-operations/fin-and-ops/get-started/advanced-filtering-query-options?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [الأسئلة الشائعة حول عميل Dynamics 365 for Finance and Operations، الإصدار Enterprise](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تكوين مساحات العمل وتصفيتها](/dynamics365/unified-operations/fin-and-ops/get-started/configure-filter-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [عرض الصفحات بجوار بعضها باستخدام الأيقونة "فتح في نافذة جديدة"](/dynamics365/unified-operations/fin-and-ops/get-started/display-pages-side-by-side?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [بحث التنقل](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تخصيص تجربة المستخدم](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [اختصارات لوحة المفاتيح](/dynamics365/unified-operations/fin-and-ops/get-started/shortcut-keys?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إدارة كيفية عرض الصفحات](/dynamics365/unified-operations/fin-and-ops/get-started/window-management?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [بحث التنقل](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تخصيص تجربة المستخدم](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [استخدام عمليات البحث للعثور على المعلومات](/dynamics365/unified-operations/fin-and-ops//get-started/use-lookups-to-find-information?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [فهم Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### الحصول على التعليمات والدعم
@@ -28,62 +43,66 @@
 #### [عرض أوصاف الحقول وتصديرها](/dynamics365/unified-operations/fin-and-ops/get-started/view-export-field-descriptions?toc=/dynamics365/unified-operations/talent/toc.json)
 #### دلائل المهام ومسجل المهام
 ##### [مسجل المهام](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [إنشاء الوثائق أو التدريب](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [محتوى التعليمات الخاص بالبلدان/المناطق](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إنشاء الوثائق أو التدريب](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [دلائل مهام نوفمبر 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [دلائل مهام أغسطس 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [دلائل مهام مايو 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [دلائل مهام فبراير 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [الترجمة والميزات التنظيمية](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [المصطلحات](/dynamics365/unified-operations/fin-and-ops/get-started/glossary?toc=/dynamics365/unified-operations/talent/toc.json)
 
-## التوافق
+## توافق
 ### [قواعد سياسة التدقيق](/dynamics365/unified-operations/financials/general-ledger/audit-policy-rules?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [تدقيق انتهاكات السياسة والحالات](/dynamics365/unified-operations/financials/general-ledger/audit-policy-violations-cases?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## إدارة التكلفة
 ### حزمة محتوى Power BI
-#### [حزمة محتوى إدارة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [حزمة محتوى إدارة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 ### التكلفة المحددة مسبقًا
-#### [كشف التكاليف](/dynamics365/unified-operations/supply-chain/costing-sheets?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إصدار التكاليف](/dynamics365/unified-operations/supply-chain/costing-versions?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [محاكاة تغييرات التكاليف باستخدام إصدار تكاليف للتكلفة المخطط لها](/dynamics365/unified-operations/supply-chain/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [كشف التكاليف](/dynamics365/unified-operations/supply-chain/cost-management/costing-sheets?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إصدار التكاليف](/dynamics365/unified-operations/supply-chain/cost-management/costing-versions?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [محاكاة تغييرات التكاليف باستخدام إصدار تكاليف للتكلفة المخطط لها](/dynamics365/unified-operations/supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/talent/toc.json)
 ### تكلفة المخزون
-#### [تعديل قيمة تكلفة المخزون الفعلي](/dynamics365/unified-operations/supply-chain/inventory/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [كائن التكلفة](/dynamics365/unified-operations/supply-chain/inventory/cost-object?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إدخال التكلفة](/dynamics365/unified-operations/supply-chain/inventory/cost-entries?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مجموعة التكاليف](/dynamics365/unified-operations/supply-chain/inventory/cost-groups?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز](/dynamics365/unified-operations/supply-chain/inventory/fifo-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تضمين القيمة الفعلية](/dynamics365/unified-operations/supply-chain/inventory/include-physical-value?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [قيمة كائن المخزون](/dynamics365/unified-operations/supply-chain/inventory/physical-quantity?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إغلاق المخزون](/dynamics365/unified-operations/supply-chain/inventory/inventory-close?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تاريخ ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](/dynamics365/unified-operations/supply-chain/inventory/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](/dynamics365/unified-operations/supply-chain/inventory/lifo-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [المتوسط المتحرك](/dynamics365/unified-operations/supply-chain/inventory/moving-average?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [التحديث الفعلي والمالي](/dynamics365/unified-operations/supply-chain/inventory/physical-financial-updates?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تشغيل متوسط سعر التكلفة](/dynamics365/unified-operations/supply-chain/inventory/running-average-cost-price?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تتبع متوسط تكلفة التشغيل لكل بُعد مخزون](/dynamics365/unified-operations/supply-chain/inventory/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تاريخ المتوسط المرجح](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-date?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [المتوسط المرجح مع القيمة الفعلية ووضع العلامات](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تعديل قيمة تكلفة المخزون الفعلي](/dynamics365/unified-operations/supply-chain/cost-management/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [كائن التكلفة](/dynamics365/unified-operations/supply-chain/cost-management/cost-object?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إدخال التكلفة](/dynamics365/unified-operations/supply-chain/cost-management/cost-entries?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مجموعة التكاليف](/dynamics365/unified-operations/supply-chain/cost-management/cost-groups?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز](/dynamics365/unified-operations/supply-chain/cost-management/fifo-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تضمين القيمة الفعلية](/dynamics365/unified-operations/supply-chain/cost-management/include-physical-value?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [قيمة كائن المخزون](/dynamics365/unified-operations/supply-chain/cost-management/physical-quantity?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إغلاق المخزون](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تاريخ ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](/dynamics365/unified-operations/supply-chain/cost-management/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](/dynamics365/unified-operations/supply-chain/cost-management/lifo-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [المتوسط المتحرك](/dynamics365/unified-operations/supply-chain/cost-management/moving-average?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [التحديث الفعلي والمالي](/dynamics365/unified-operations/supply-chain/cost-management/physical-financial-updates?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تشغيل متوسط سعر التكلفة](/dynamics365/unified-operations/supply-chain/cost-management/running-average-cost-price?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تتبع متوسط تكلفة التشغيل لكل بُعد مخزون](/dynamics365/unified-operations/supply-chain/cost-management/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تاريخ المتوسط المرجح](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-date?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [المتوسط المرجح مع القيمة الفعلية ووضع العلامات](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
 ### تكاليف التصنيع
-#### [استهلاك أصول التكلفة الثابتة لصنف مصنّع](/dynamics365/unified-operations/supply-chain/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تحديد تكاليف الإصدار التلقائي](/dynamics365/unified-operations/supply-chain/backflush-costing?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [العمليات الحسابية لقائمة مكونات الصنف](/dynamics365/unified-operations/supply-chain/bom-calculations?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مجموعة حساب قائمة مكونات الصنف](/dynamics365/unified-operations/supply-chain/bom-calculation-groups?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [المصادر الشائعة للفرق في الإنتاج](/dynamics365/unified-operations/supply-chain/common-sources-of-production-variances?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [فئة التكاليف المستخدمة في توجيه الإنتاج](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [فئة التكلفة المستخدمة في التحكم بالإنتاج ومحاسبة إدارة المشروع](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [عرض المصاريف المتنوعة لصنف مصنّع](/dynamics365/unified-operations/supply-chain/charges-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تحليل تكلفة أمر الإنتاج](/dynamics365/unified-operations/supply-chain/production-order-cost-analysis?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تقدير تكلفة أمر الإنتاج](/dynamics365/unified-operations/supply-chain/production-order-cost-estimation?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [ترحيل الإنتاج](/dynamics365/unified-operations/supply-chain/production-posting?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إعداد منتج يمكن إنتاجه أو تدبيره](/dynamics365/unified-operations/supply-chain/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [طريقة توزيع التكلفة الإجمالية](/dynamics365/unified-operations/supply-chain/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [استهلاك أصول التكلفة الثابتة لصنف مصنّع](/dynamics365/unified-operations/supply-chain/cost-management/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديد تكاليف الإصدار التلقائي](/dynamics365/unified-operations/supply-chain/cost-management/backflush-costing?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [العمليات الحسابية لقائمة مكونات الصنف](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculations?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مجموعة حساب قائمة مكونات الصنف](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculation-groups?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [المصادر الشائعة للفرق في الإنتاج](/dynamics365/unified-operations/supply-chain/cost-management/common-sources-of-production-variances?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [فئة التكاليف المستخدمة في توجيه الإنتاج](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [فئة التكلفة المستخدمة في التحكم بالإنتاج ومحاسبة إدارة المشروع](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [عرض المصاريف المتنوعة لصنف مصنّع](/dynamics365/unified-operations/supply-chain/cost-management/charges-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحليل تكلفة أمر الإنتاج](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-analysis?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تقدير تكلفة أمر الإنتاج](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-estimation?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [ترحيل الإنتاج](/dynamics365/unified-operations/supply-chain/cost-management/production-posting?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إعداد منتج يمكن إنتاجه أو تدبيره](/dynamics365/unified-operations/supply-chain/cost-management/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [طريقة توزيع التكلفة الإجمالية](/dynamics365/unified-operations/supply-chain/cost-management/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/talent/toc.json)
 ### التكلفة القياسية
-#### [حسابات قائمة مكونات الصنف المشتملة على تكلفة قياسية](/dynamics365/unified-operations/supply-chain/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إدارة تحديث التكلفة القياسية](/dynamics365/unified-operations/supply-chain/manage-standard-cost-updates?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [متطلب تحويل التكلفة القياسية](/dynamics365/unified-operations/supply-chain/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [نظرة عامة حول تحويل التكاليف القياسية](/dynamics365/unified-operations/supply-chain/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تحديث التكلفة القياسية في بيئة تصنيع](/dynamics365/unified-operations/supply-chain/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تحديث التكلفة القياسية لصنف مصنّع جديد](/dynamics365/unified-operations/supply-chain/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تحديث التكلفة القياسية في بيئة غير تصنيع](/dynamics365/unified-operations/supply-chain/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [حسابات قائمة مكونات الصنف المشتملة على تكلفة قياسية](/dynamics365/unified-operations/supply-chain/cost-management/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إدارة تحديث التكلفة القياسية](/dynamics365/unified-operations/supply-chain/cost-management/manage-standard-cost-updates?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [متطلب تحويل التكلفة القياسية](/dynamics365/unified-operations/supply-chain/cost-management/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [نظرة عامة حول تحويل التكاليف القياسية](/dynamics365/unified-operations/supply-chain/cost-management/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث التكلفة القياسية في بيئة تصنيع](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث التكلفة القياسية لصنف مصنّع جديد](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث التكلفة القياسية في بيئة غير تصنيع](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/talent/toc.json)
 
-## [الإدارة المالية](/dynamics365/unified-operations/financials/TOC)
+## الإدارة المالية
 
 ### [دفتر الأستاذ العام](/dynamics365/unified-operations/financials/general-ledger/general-ledger?toc=/dynamics365/unified-operations/talent/toc.json)
 #### الحسابات
@@ -124,8 +143,12 @@
 ##### [دفعات ضريبة المبيعات وقواعد التقريب](/dynamics365/unified-operations/financials/general-ledger/round-sales-tax-payments?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [طرق حساب ضريبة المبيعات في حقل الأصل](/dynamics365/unified-operations/financials/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات](/dynamics365/unified-operations/financials/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/unified-operations/talent/toc.json)
+#### إدارة المصروفات
+##### [إدارة مصروفات الخطة](/dynamics365/unified-operations/financials/expense-management/plan-expense-management?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [معلمات إدارة المصروفات](/dynamics365/unified-operations/financials/expense-management/Expense-Management-Parameters?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [مساحة عمل محمولة لإدارة المصروفات](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 
-### [الحسابات الدائنة](/dynamics365/unified-operations/financials/accounts-payable/accounts-payable?toc=/dynamics365/unified-operations/talent/toc.json)
+### [حسابات دائنة](/dynamics365/unified-operations/financials/accounts-payable/accounts-payable?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نظرة عامة على فواتير المورّدين](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تكوين الحسابات الدائنة](/dynamics365/unified-operations/financials/accounts-payable/accounts-payable-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [سياسات المطابقة الثلاثية](/dynamics365/unified-operations/financials/accounts-payable/three-way-matching-policies?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -136,18 +159,18 @@
 #### [إعداد ملفات الدفع الإيجابي وإنشاؤها](/dynamics365/unified-operations/financials/accounts-payable/set-up-generate-positive-pay-files?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [الحسابات المقابلة الافتراضية لدفاتر يومية فواتير المورد ودفاتر يومية اعتماد الفاتورة](/dynamics365/unified-operations/financials/accounts-payable/default-offset-accounts-vendor-invoice-journals?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [حل الاختلافات أثناء مطابقة إجماليات الفواتير](/dynamics365/unified-operations/financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [ملفات تعريف ترحيل المورد](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [ملفات تعريف ترحيل الموردين](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إعادة تقييم العملة الأجنبية للحسابات الدائنة والحسابات المدينة](/dynamics365/unified-operations/financials/cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [الموافقة على فاتورة المحمول](/dynamics365/unified-operations/financials/accounts-payable/mobile-invoice-approvals?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [مساحة عمل فوترة تعاون المورد](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [التشغيل التلقائي لفاتورة المورّد](/dynamics365/unified-operations/financials/vendor-invoice-automation?toc=/dynamics365/unified-operations/talent/toc.json) 
+#### [التشغيل التلقائي لفاتورة المورّد](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoice-automation?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### الدفعات والتسويات
 ##### [الدفعات المركزية للحسابات الدائنة](/dynamics365/unified-operations/financials/accounts-payable/centralized-payments-accounts-payable?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تكوين التسوية](/dynamics365/unified-operations/financials/cash-bank-management/configure-settlement?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [مساحة عمل دفعات المورد](/dynamics365/unified-operations/financials/vendor-payments-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [مساحة عمل دفعات المورد](/dynamics365/unified-operations/financials/accounts-payable/vendor-payments-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إنشاء دفعات المورد باستخدام مقترح دفع](/dynamics365/unified-operations/financials/accounts-payable/create-vendor-payments-payment-proposal?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إلغاء دفعة مورد](/dynamics365/unified-operations/financials/accounts-payable/reverse-vendor-payment?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [إعداد التقارير الإلكترونية لشيكات المورد](/dynamics365/unified-operations/financials/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إعداد التقارير الإلكترونية لشيكات المورد](/dynamics365/unified-operations/financials/accounts-payable/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [نظرة عامة على فواتير الدفعات المقدمة والدفعات المقدمة](/dynamics365/unified-operations/financials/accounts-payable/prepayments-invoices-vs-prepayments?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تسوية دفعة مورد جزئية قبل تاريخ الخصم](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تسوية دفعة جزئية لمورد لديه خصومات في الإشعارات الدائنة للمورد](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -166,6 +189,7 @@
 #### [التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي للفواتير ذات النص الحر](/dynamics365/unified-operations/financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [ملفات تعريف ترحيل العميل](/dynamics365/unified-operations/financials/accounts-receivable/customer-posting-profiles?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نظرة عامة على دين سيبا المباشر](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تفويض دين سيبا المباشر](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-mandate?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إعداد وتفويض والتقاط بطاقة الائتمان](/dynamics365/unified-operations/financials/accounts-receivable/credit-card-authorizations?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تصحيح فاتورة ذات نص حر](/dynamics365/unified-operations/financials/accounts-receivable/correct-free-text-invoice?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إعداد معدلات الفائدة لكود فائدة](/dynamics365/unified-operations/financials/accounts-receivable/set-up-interest-rates-interest-code?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -177,7 +201,7 @@
 #### الدفعات والتسويات
 ##### [استخدام دفعة عميل واحدة لتسوية فواتير متعددة تمتد عبر عدة فترات خصم](/dynamics365/unified-operations/financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [الدفعات المركزية للحسابات المدينة](/dynamics365/unified-operations/financials/accounts-receivable/centralized-payments-accounts-receivable?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تسوية دفعة عميل جزئية أو دفعة نهائية قبل_الخصم](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/talent/toc.json) 
+##### [تسوية دفعة عميل جزئية أو دفعة نهائية قبل_الخصم](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount?toc=/dynamics365/unified-operations/talent/toc.json) 
 ##### [تسوية دفع جزئي لعميل قبل تاريخ الخصم مع دفعة نهائية بعد تاريخ الخصم](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة للمورد](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-discounts-credit-notes?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تسوية دفعة عميل جزئية تحتوي على عدة فترات خصم](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-multiple-discount-periods?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -186,8 +210,9 @@
 
 ### [إدارة النقد والبنوك](/dynamics365/unified-operations/financials/cash-bank-management/cash-bank-management?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تقدير التدفقات النقدية](/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مساحة عمل إدارة البنك](/dynamics365/unified-operations/financials/cash-bank-management/bank-management-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [الخصومات النقدية](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مساحة عمل إدارة البنك](/dynamics365/unified-operations/financials/cash-bank-management/Bank-management-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [الخصومات النقدية](/dynamics365/unified-operations/financials/cash-bank-management/cash-discounts?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [الخصومات النقدية لحالات الدفع بالزيادة](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نظرة عامة على التسوية](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نظرة عامة على التسوية للدفعات المركزية](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [خطابات الاعتماد](/dynamics365/unified-operations/financials/cash-bank-management/letters-of-credit?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -210,7 +235,7 @@
 ##### [تحديث الكيان المركب لدفتر يومية البنك‬](/dynamics365/unified-operations/financials/cash-bank-management/upgrade-bank-journal-composite-entity?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [الأصول الثابتة](/dynamics365/unified-operations/financials/fixed-assets/fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مساحة عمل الأصول الثابتة](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مساحة عمل الأصول الثابتة](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-management-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نظرة عامة على ترقية دفاتر الإهلاك](/dynamics365/unified-operations/financials/fixed-assets/depreciation-book-upgrade-considerations?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [الدفاتر المشتقة](/dynamics365/unified-operations/financials/fixed-assets/derived-books?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [دمج نموذج قيم الأصول الثابتة ودفتر الإهلاك](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-value-model-depreciation-book-merge?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -256,15 +281,15 @@
 #### [تكامل تخطيط الموازنة مع الوحدات الأخرى](/dynamics365/unified-operations/financials/budgeting/budget-planning-integration-other-modules?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [إعداد التقارير](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [التقارير المالية للميزانية العمومية](/dynamics365/unified-operations/financials/general-ledger/balance-sheet-financial-reports?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إنشاء تقرير مالي](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [إنشاء تقرير مالي](/dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [التقرير المالي لكشف حساب الدخل](/dynamics365/unified-operations/financials/general-ledger/income-statement-financial-report?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [التقارير المالية لميزان المراجعة](/dynamics365/unified-operations/financials/general-ledger/trial-balance-financial-reports?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [عرض التقارير المالية](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مصمم التقرير](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [مصمم التقرير](/dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [محاسبة التكاليف](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [الشروط](/dynamics365/unified-operations/financials/cost-accounting/terms-cost-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [المختبرات المتاحة (/dynamics365/unified-operations/financials/مستند تقني)](/dynamics365/unified-operations/financials/https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
+#### [المختبرات المتاحة (المستند التقني)](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
 #### [أبعاد عنصر التكلفة](/dynamics365/unified-operations/financials/cost-accounting/cost-elements?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [أبعاد كائن التكاليف](/dynamics365/unified-operations/financials/cost-accounting/cost-objects?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد](/dynamics365/unified-operations/financials/cost-accounting/map-cost-elements-dimension-members?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -276,8 +301,8 @@
 #### [حقوق الوصول لمراقب كائن التكلفة](/dynamics365/unified-operations/financials/cost-accounting/access-rights-cost-object-controller?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [مساحة عمل مراقبة التكلفة](/dynamics365/unified-operations/financials/cost-accounting/cost-control-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [مساحة العمل المحمولة لمراقبة التكلفة](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [محتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
-#### [إعداد الأمان لمحتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [محتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إعداد الأمان لمحتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [القطاع العام](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [خطة لوظائف القطاع العام](/dynamics365/unified-operations/financials/public-sector/plan-public-sector-functionality?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -316,7 +341,7 @@
 ### [تعديل خلايا تعريف الصفوف](/dynamics365/unified-operations/dev-itpro/analytics/modify-row-definition-cells-financial-reporting?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [إعادة تعيين متجر بيانات التقرير المالي بعد استعادة قاعدة بيانات](/dynamics365/unified-operations/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore?toc=/dynamics365/unified-operations/talent/toc.json)
 
-### [نظرة عامة على الترجمة](/dynamics365/unified-operations/financials/localizations//dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/localizations/toc.json)
+## [الترجمة والميزات التنظيمية](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/talent/toc.json)
 ### آسيا والمحيط الهادئ
 #### أستراليا
 ##### [تنسيقات ملفات البنك](/dynamics365/unified-operations/financials/localizations/apac-aus-method-of-payment-pay-vendors-banks?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -327,27 +352,27 @@
 ##### [مقارنة قوائم مكونات الصنف](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [الإيصالات الصينية](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تكوين تكامل الضريبة](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [الأسئلة الشائعة حول فواتير عملاء ضريبة القيمة المضافة](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [الأسئلة الشائعة حول فواتير عملاء ضريبة القيمة المضافة](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [الأصول الثابتة لطرق الإهلاك ](/dynamics365/unified-operations/financials/localizations/apac-chn-depreciation-methods-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [استيراد كيان بيانات الضريبة الصينية الذهبية](/dynamics365/unified-operations/financials/localizations/apac-chn-import-golden-tax-data-entity?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [نموذج متوسط التكلفة الشهرية](/dynamics365/unified-operations/financials/localizations/apac-chn-monthly-average-cost-model?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [ترحيل الحسابات الرئيسية للمخزون حسب الموقع](/dynamics365/unified-operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إعداد ائتمانات الديون السالبة ](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits?toc=/dynamics365/unified-operations/talent/toc.json)
 #### اليابان
+##### [قواعد التوزيع](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [رسوم الدفع البنكي المشمولة من قِبل الموردين](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [الفواتير المجمعة](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
-##### الأصول الثابتة
-###### [قواعد التوزيع](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [الأسئلة الشائعة حول الإهلاك](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [طريقة الإهلاك بالتساوي](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [ضعف المحاسبة](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [ضعف المحاسبة في وحدة توليد النقد](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [إعداد ARO](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [إعداد إدخالات الخفض](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [الأسئلة الشائعة حول الإهلاك](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [طريقة الإهلاك بالتساوي](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ضعف المحاسبة](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ضعف المحاسبة في وحدة توليد النقد](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [استيراد الأرقام البريدية](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes?toc=/dynamics365/unified-operations/talent/toc.json) 
 ##### [الدفع لمورد عن طريق مصادقة الكمبيالة](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [حساب ضريبة الخصم التقدمية](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إعداد ARO](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إعداد إدخالات الخفض](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
 #### ماليزيا
-##### [ضريبة البضائع والخدمات ](/dynamics365/unified-operations/financials/localizations/apac-mys-gst?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ضريبة البضائع والخدمات](/dynamics365/unified-operations/financials/localizations/apac-mys-gst?toc=/dynamics365/unified-operations/talent/toc.json)
 #### سنغافورة
 ##### [إنشاء تقرير GST-05](/dynamics365/unified-operations/financials/localizations/apac-sgp-generate-gst-05-report?toc=/dynamics365/unified-operations/talent/toc.json)
 #### تايلاند
@@ -357,13 +382,20 @@
 
 ### أوروبا
 #### [أصحاب السُلف‬](/dynamics365/unified-operations/financials/localizations/emea-advance-holders?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [حركات أصحاب السُلف](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [فوترة متقدمة](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تسوية البنك](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [فوترة تصحيحية](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إنشاء وترحيل دفاتر اليومية الدورية](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تحرير معرفات الفواتير في أوامر المبيعات](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [شهادات دخول الاتحاد الأوروبي](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تقارير قائمة مبيعات الاتحاد الأوروبي](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تعديلات سعر الصرف](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تنسيقات الملف لطرق الدفع](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [التخلص من الأصول الثابتة لإستونيا وليتوانيا](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [استيراد ملفات ISO20022](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي](/dynamics365/unified-operations/financials/localizations/emea-intrastat?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تقارير دفتر يومية المخزون](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [ترقيم إيصالات التعبئة والفواتير للاتفيا وليتوانيا](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [المواعيد النهائية لإصدار الفواتير](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [معايير OIOUBL](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -372,14 +404,22 @@
 #### [ترحيل الاستحواذ المسبق لأصل ثابت](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [الأكواد البريدية](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [‏‫معرفات التسجيل](/dynamics365/unified-operations/financials/localizations/emea-registration-ids?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [الرسوم العكسية](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نظرة عامة على تحويل ائتمان سيبا](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نظرة عامة على دين سيبا المباشر](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إعداد تعويض العميل والمورد](/dynamics365/unified-operations/financials/accounts-receivable/emea-compensation-customer-vendor-transactions?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إعداد الموقِّعين لنماذج الطباعة](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [محاسبة Storno](/dynamics365/unified-operations/financials/localizations/emea-storno?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [التوجيهات الضريبية](/dynamics365/unified-operations/financials/localizations/emea-tax-directives?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحديث طريقة عرض المبالغ في التقارير والمستندات](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### [أسعار صرف ضريبة القيمة المضافة](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [حركات سجل ضريبة القيمة المضافة لأوروبا الشرقية](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تقارير ضريبة القيمة المضافة](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [عرض الحركات عن التسوية](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form?toc=/dynamics365/unified-operations/talent/toc.json)
 #### النمسا
 ##### [إهلاك نصف السنة](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [رسوم مواد التعبئة](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [رسوم المشتريات](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [بيان ضريبة القيمة المضافة](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details?toc=/dynamics365/unified-operations/talent/toc.json)
 #### بلجيكا
 ##### [كشف الحساب البنكي بتنسيق CODA](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -388,7 +428,7 @@
 ##### [تقارير التسوية](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports?toc=/dynamics365/unified-operations/talent/toc.json)
 
 #### جمهورية التشيك
-##### [الخصم النقدي على إشعار دائن](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إشعار دائن على خصم نقدي](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تقريب الإهلاك](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-rounding?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تعليق الإهلاك](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إهلاك الأصول الثابتة](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -402,6 +442,7 @@
 ###### [محاسبة القطاع العام](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [الالتزامات](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [شروط الدفع](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [التدبير وتحديد الموارد](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [الفواتير](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [تعليقات دفع فواتير الموردين](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إيصالات الفواتير المرتبة زمنيًا](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -427,7 +468,7 @@
 ##### [التحقق من صحة تاريخ إيصال التعبئة على الفواتير](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [دفاتر ضريبة المبيعات](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [الدفعة المقسمة للفواتير الصادرة للإدارة العامة](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [ضريبة الخصم](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ضريبة الخصم](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax?toc=/dynamics365/unified-operations/talent/toc.json)
 #### لاتفيا
 ##### [محاسبة الأصول الثابتة](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تعقب التغييرات بمواقع الأصول الثابتة](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-location-fields-change?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -438,6 +479,7 @@
 ##### [تفاصيل كشف حساب ضريبة القيمة المضافة](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details?toc=/dynamics365/unified-operations/talent/toc.json)
 #### النرويج
 ##### [تنسيق ملف استيراد صافي القيم](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [بيان ضريبة القيمة المضافة](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### بولندا
 ##### [حساب خصومات البند من سعر الوحدة](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [ملاحظات التصحيح](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -474,6 +516,7 @@
 ###### [استيراد المستندات المالية](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [تصدير واستيراد حركات الكيان القانوني من توحيد دفتر الأستاذ العام](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [استيراد والتحقق من صحة مستندات NF-e XML وملفات DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [إعداد ملفات NF-e وDANFE](/dynamics365/unified-operations/financials/localizations/Set-up-import-nf-e-documents?toc=/dynamics365/unified-operations/talent/toc.json) 
 ###### [معالجة حوالات الدفع الإلكتروني](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [المستندات المالية](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [العناصر النائبة لنص المستند المالي](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -481,7 +524,7 @@
 ###### [المستندات المالية المُشار إليها](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [المستندات المالية المتممة للمبيعات](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [المستند المالي الإلكتروني للخدمة](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [دفاتر اليومية التي تم إنشاؤها أثناء عملية إرجاع الدفع الإلكتروني](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [دفاتر اليومية التي تم إنشاؤها أثناء عملية إرجاع الدفع الإلكتروني](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [عملية NF-e](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [المعلمات الخاصة بالكيانات القانونية](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [الحصول على أصل CIAP ثابت](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -495,11 +538,13 @@
 ##### [الفواتير الإلكترونية ](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [بيانات المحاسبة الإلكترونية لدفتر الأستاذ](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تقرير إقرار العمليات مع الموردين](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes?toc=/dynamics365/unified-operations/talent/toc.json)
-
+### الشرق الأوسط
+#### [إعداد تقارير الزكاة للمملكة العربية السعودية](/dynamics365/unified-operations/financials/localizations/emea-sau-zakat-reporting?toc=/dynamics365/unified-operations/talent/toc.json)
 ### أمريكا الشمالية
 #### [تقرير 1099 لنهاية العام للولايات المتحدة](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting?toc=/dynamics365/unified-operations/talent/toc.json)
-## الموارد البشرية
+#### [نموذج 1099 للقطاع العام](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 
+## الموارد البشرية
 ### توظيف
 #### [إدارة عملية التوظيف](/dynamics365/unified-operations/fin-and-ops/hr/manage-recruiting-process?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [مشاريع التوظيف الجماعي](/dynamics365/unified-operations/fin-and-ops/hr/mass-hire-projects?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -538,6 +583,7 @@
 ### [الوصول إلى محتوى Power BI](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [محتوى Power BI المصّدر](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [الفعلي مقابل الموازنة](/dynamics365/unified-operations/dev-itpro/analytics/ledger-budgets-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [الميزات](/dynamics365/unified-operations/dev-itpro/analytics/benefits-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نظرة عامة على النقدية](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 #### [‏‫نظرة عامة على المدير المالي](/dynamics365/unified-operations/dev-itpro/analytics/CFO-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -550,7 +596,7 @@
 #### [اختصاصات الموظفين وتطويرهم](/dynamics365/unified-operations/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تطوير الموظفين](/dynamics365/unified-operations/dev-itpro/analytics/employee-development-PBI?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### [الأداء المالي](/dynamics365/unified-operations/dev-itpro/analytics/financial-performance-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إدارة الأصول الثابتة](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
+#### [إدارة الأصول الثابتة](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [التعلم](/dynamics365/unified-operations/dev-itpro/analytics/learning-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [التدريب المؤسسي](/dynamics365/unified-operations/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [مدير الممارسة](/dynamics365/unified-operations/dev-itpro/analytics/practice-manager-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -559,7 +605,7 @@
 #### [توظيف](/dynamics365/unified-operations/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [أداء قناة البيع بالتجزئة ](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [أداء الربحية والمبيعات](/dynamics365/unified-operations/dev-itpro/analytics/sales-profitability-performance-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مدفوعات المورد](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
+#### [مدفوعات المورد](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [أداء المستودع](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [مقاييس القوى العاملة](/dynamics365/unified-operations/dev-itpro/analytics/workforce-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -567,6 +613,7 @@
 #### [نظرة عامة على خدمات تقارير المستندات](/dynamics365/unified-operations/dev-itpro/analytics/document-reporting-services?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [طباعة](/dynamics365/unified-operations/dev-itpro/analytics/print-documents?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تمكين أجهزة طابعات الشبكة](/dynamics365/unified-operations/dev-itpro/analytics/install-document-routing-agent?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إمكانات إنشاء مستند، والنشر، والطباعة في عمليات النشر المحلي](/dynamics365/unified-operations/dev-itpro/analytics/printing-capabilities-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تشغيل وكيل توجيه المستند كخدمة Windows](/dynamics365/unified-operations/dev-itpro/analytics/run-document-routing-agent-as-windows-service?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [المساعدة في تفادي انتهاء مهلة التقارير التي تعمل لفترة طويلة](/dynamics365/unified-operations/dev-itpro/analytics/prevent-long-running-reports-timing-out?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [قائمة تقارير خدمات تقارير SQL Server](/dynamics365/unified-operations/dev-itpro/analytics/SSRS-report?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -593,6 +640,7 @@
 ### الأدوات التحليلية والمرئيات
 #### [التحليلات والقياسات التجميعية وتصميم نماذج مؤشرات الأداء الأساسية](/dynamics365/unified-operations/dev-itpro/analytics/analytics?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [التصميم والبيانات التجميعية](/dynamics365/unified-operations/dev-itpro/analytics/model-aggregate-data?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إضافة الأبعاد المالية لتجميع القياسات](/dynamics365/unified-operations/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إضافة معلومات مهنية BI سياقية إلى النماذج](/dynamics365/unified-operations/dev-itpro/analytics/add-contextual-bi-forms?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تقرير القياسات التجميعية](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-measurements-report?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تقرير كيانات القياسات التجميعية](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-data-entities-report?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -600,10 +648,13 @@
 #### [تكامل Power BI](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تكامل Power BI المضمن](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-embedded-integration?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Power BI المضمن في مساحات العمل](/dynamics365/unified-operations/dev-itpro/analytics/embed-power-bi-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إضافة التحليلات إلى مساحات العمل باستخدام Power BI المدمج](/dynamics365/unified-operations/dev-itpro/analytics/secure-analytical-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [المساعدة في تأمين مساحات عمل تحليلية والتقارير باستخدام Power BI المدمج](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إضافة Power BI إلى مساحات العمل](/dynamics365/unified-operations/dev-itpro/analytics/add-bi-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تثبيت تقارير Power BI في مساحات العمل](/dynamics365/unified-operations/dev-itpro/analytics/pin-power-bi-reports?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تكامل Power BI مع متجر الكيانات](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تأليف وتوزيع تقارير Power BI مع متجر الكيانات](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تصدير الكيانات إلى قاعدة بيانات Azure SQL الخاصة بك](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/unified-operations/talent/toc.json)
 
 
 ## إدارة المخزون
@@ -657,6 +708,7 @@
 ##### [تجميع النظام في قائمة عمل مفتوحة](/dynamics365/unified-operations/supply-chain/warehousing/system-group-on-open-work-list?toc=/dynamics365/unified-operations/talent/toc.json)
 #### الانتقاء والتعبئة
 ##### [انتقاء الدُفعة الأقدم على جهاز محمول](/dynamics365/unified-operations/supply-chain/warehousing/pick-oldest-batch?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [تكوين عرض المجموعات القديمة داخل المستودع على جهاز محمول](/dynamics365/unified-operations/supply-chain/warehousing/display-older-batches-within-warehouses?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تأكيد انتقاء الأجزاء](/dynamics365/unified-operations/supply-chain/warehousing/piece-picking-confirmation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [رسوم ومواد التعبئة](/dynamics365/unified-operations/supply-chain/warehousing/pack-materials-packing-material-fees?toc=/dynamics365/unified-operations/talent/toc.json)
 #### جرد المخزون
@@ -677,6 +729,8 @@
 ##### [إعداد الأجهزة المحمولة لعمل المستودع](/dynamics365/unified-operations/supply-chain/warehousing/configure-mobile-devices-warehouse?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [مدخل الأجهزة المحمولة للمستودع (WMDP)](/dynamics365/unified-operations/supply-chain/warehousing/warehouse-mobile-devices-portal?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إعدادات عرض الأجهزة المحمولة للمستودع](/dynamics365/unified-operations/supply-chain/warehousing/change-warehouse-mobile-device-displays?toc=/dynamics365/unified-operations/talent/toc.json)
+#### الترقية والترحيل
+##### [الترحيل من AX 2012 إلى Finance and Operations](/dynamics365/unified-operations/supply-chain/warehousing/upgrade-migration-warehouse-management-processes?toc=/dynamics365/unified-operations/talent/toc.json)
 
 
 ## التخطيط الرئيسي
@@ -719,12 +773,13 @@
 ##### [نظرة عامة على أمر الشراء](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إنشاء أوامر شراء](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-creation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [اعتماد وتأكيد أوامر الشراء](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-approval-confirmation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [مساحة العمل المحمولة للموافقة على أمر الشراء](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### الأسعار والخصومات
 ##### [اتفاقيات الشراء](/dynamics365/unified-operations/supply-chain/procurement/purchase-agreements?toc=/dynamics365/unified-operations/talent/toc.json)
 #### إيصالات استلام المنتجات والفوترة
 ##### [إيصال استلام المنتجات في مقابل أوامر الشراء](/dynamics365/unified-operations/supply-chain/procurement/product-receipt-against-purchase-orders?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [نظرة عامة على فواتير المورّدين](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [ملفات تعريف ترحيل الموردين](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [نظرة عامة على فواتير المورّدين](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ملفات تعريف ترحيل الموردين](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/talent/toc.json)
 #### إدارة وتعاون المورد‬
 ##### [إعداد تعاون المورد والمحافظة عليه](/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إدارة مستخدمي تعاون المورد](/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-users?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -762,6 +817,7 @@
 ### [نظرة عامة على التوقيعات الإلكترونية](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [نظرة عامة على إدارة الحالات](/dynamics365/unified-operations/fin-and-ops/organization-administration/cases?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تكوين أمان الحالة والعمليات والفئات](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-case-management?toc=/dynamics365/unified-operations/talent/toc.json)
+### [تكوين إدارة المستندات](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [إنشاء قوالب السجلات](/dynamics365/unified-operations/fin-and-ops/organization-administration/record-templates?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [تكوين البريد الإلكتروني وإرساله](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-email?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [بيانات التاريخ/الوقت والمناطق الزمنية](/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -822,6 +878,9 @@
 #### إدارة المواد الخام
 ##### [توزيع البضائع من أوامر الإنتاج لمساحات خارجية](/dynamics365/unified-operations/supply-chain/production-control/cross-docking-opportunities?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تسجيل استهلاك المواد باستخدام جهاز محمول](/dynamics365/unified-operations/supply-chain/production-control/register-material-consumption-hand-held-device?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [التحكم استهلاك المادة الخام عن طريق استخدام قواعد التفريغ](/dynamics365/unified-operations/supply-chain/production-control/flushing-principles?toc=/dynamics365/unified-operations/talent/toc.json) 
+#### إدارة البضائع المنتهية
+##### [إنشاء موقع إخراج المنتج للبضائع المنتهية](/dynamics365/unified-operations/supply-chain/production-control/production-output-location?toc=/dynamics365/unified-operations/talent/toc.json)
 ### Lean manufacturing 
 #### [نظرة عامة على Lean manufacturing](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [التعاقد من الباطن المستند إلى نشاط](/dynamics365/unified-operations/supply-chain/production-control/activity-based-subcontracting?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -912,35 +971,17 @@
 
 ## [التطوير والإدارة باستخدام النظام الأساسي لـ Unified Operations](/dynamics365/unified-operations/dev-itpro/index)
 
-### [نظرة عامة على التطوير والإدارة](/dynamics365/unified-operations/dev-itpro/get-started/getting-started-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [متطلبات النظام](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [نظرة عامة على بيانات العرض التوضيحي](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/talent/toc.json)
-#### نظام التعليمات
-##### [نظرة عامة على نظام التعليمات](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [الاتصال بنظام التعليمات](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [ما الجديد أو التغيير](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تحديث النظام الأساسي لـ Operations 7 (مايو 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تحديث النظام الأساسي لـ Operations 6 (أبريل 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تحديث النظام الأساسي لـ Operations 5 (مارس 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تحديث النظام الأساسي لـ Operations 4 (فبراير 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [إصدار Operations 1611 (نوفمبر 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تحديث النظام الأساسي لـ Operations 3 (نوفمبر 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تحديث النظام الأساسي لـ Dynamics AX 2 (أغسطس 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/talent/toc.json) 
-##### [تطبيق Dynamics AX الإصدار 7.0.1 (مايو 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تحديث النظام الأساسي لـ Dynamics AX 1 (مايو 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Dynamics AX 7.0 (فبراير 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-##### دلائل المهام المحدثة
-###### [دلائل مهام نوفمبر 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [دلائل مهام أغسطس 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [دلائل مهام مايو 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [دلائل مهام فبراير 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+### [متطلبات النظام](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/talent/toc.json)
+### [بيانات العرض التوضيحي](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/talent/toc.json)
+### [التحقق من صحة البيانات](/dynamics365/unified-operations/dev-itpro/user-interface/data-validation-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+
 
 
 ### [التطوير والتخصيص باستخدام Visual Studio](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [مكدس التطبيق وبنية الخادم](/dynamics365/unified-operations/dev-itpro/dev-tools/application-stack-server-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [الحصول على نسخة تقييم](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تسجيل الاشتراك للحصول على اشتراك](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [الوصول إلى مثيلات Dynamics 365 for Finance and Operations، الإصدار Enterprise](/dynamics365/unified-operations/dev-itpro/dev-tools/dev-tools/access-instances?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [التسجيل للاشتراك](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [الوصول إلى المثيلات](/dynamics365/unified-operations/dev-itpro/dev-tools/access-instances?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [متطلبات نظام التطوير](/dynamics365/unified-operations/dev-itpro/dev-tools/development-system-requirements?toc=/dynamics365/unified-operations/talent/toc.json)
 #### تطبيق نموذجي لإدارة الأساطيل
 ##### [تطبيق نموذجي لإدارة الأساطيل](/dynamics365/unified-operations/dev-itpro/dev-tools/fleet-management-sample?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -955,7 +996,6 @@
 ##### [إنشاء نموذج وعناصر نموذج بيانات](/dynamics365/unified-operations/dev-itpro/dev-tools/create-data-model-elements?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إنشاء مستخدم جديد على جهاز التطوير](/dynamics365/unified-operations/dev-itpro/dev-tools/enable-development-machine?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تقرير تحليل التخصيص](/dynamics365/unified-operations/dev-itpro/dev-tools/customization-analysis-report?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [أدوات التطوير](/dynamics365/unified-operations/dev-itpro/dev-tools/development-tools?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [وحدات تصميم العناصر](/dynamics365/unified-operations/dev-itpro/dev-tools/element-designers?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [استخدام العنصر](/dynamics365/unified-operations/dev-itpro/dev-tools/element-usage?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [استيراد وتصدير نموذج](/dynamics365/unified-operations/dev-itpro/dev-tools/models-export-import?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -970,9 +1010,9 @@
 ##### [تصحيح أخطاء X++ على نسخة من قاعدة بيانات إنتاج](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-x-issue-against-copy-of-production?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تصحيح كود X++](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-xpp?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة](/dynamics365/unified-operations/dev-itpro/dev-tools/event-handler-result-class?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [كتابة منطق تسلسل العمل باستخدام كود المصدر C#### وX++](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [كتابة منطق الأعمال باستخدام كود مصدر C\# و X++](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [دعم لغة البرمجة](/dynamics365/unified-operations/dev-itpro/dev-tools/programming-language-support?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [موفر LINQ ل C#](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [موفر LINQ لـ C\#](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تأليف أفضل الممارسات](/dynamics365/unified-operations/dev-itpro/dev-tools/author-best-practice-rules?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [خصائص مستكشف التطبيق](/dynamics365/unified-operations/dev-itpro/dev-ref/application-explorer-aot-properties?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### مرجع اللغة X++
@@ -985,7 +1025,7 @@
 ###### [تحديد بيانات X++ والمعالجة](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-data-query?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [وحدات ماكرو X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-macros?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [فئات سمات X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-attribute-classes?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [مقارنة X++ وC####](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [مقارنة X++ وC\#](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [بناء جملة X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-syntax?toc=/dynamics365/unified-operations/talent/toc.json)
 #### وظائف وقت التحويل
 ##### [وظائف وقت التحويل X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-compile-time-functions?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1039,7 +1079,7 @@
 ##### [فئات W](/dynamics365/unified-operations/dev-itpro/dev-ref/w-classes?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [فئات X](/dynamics365/unified-operations/dev-itpro/dev-ref/x-classes?toc=/dynamics365/unified-operations/talent/toc.json)
 #### تخصيص باستخدام الملحقات وتراكب الطبقات
-##### القابلية للتوسعة
+##### [القابلية للتوسعة](/dynamics365/unified-operations/dev-itpro/extensibility/extensibility-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تخصيص عناصر النموذج باستخدام الملحقات](/dynamics365/unified-operations/dev-itpro/extensibility/customize-model-elements-extensions?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تخصيص باستخدام الملحقات وتراكب الطبقات](/dynamics365/unified-operations/dev-itpro/extensibility/customization-overlayering-extensions?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [ملحقات الفئة](/dynamics365/unified-operations/dev-itpro/extensibility/class-extensions?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1048,8 +1088,11 @@
 ##### مزامنة قاعدة البيانات
 #### نقل حزم بين بيئات
 ##### إنشاء وتطبيق حزمة قابلة للنشر
-##### [التسليم المستمر](/dynamics365/unified-operations/dev-itpro/continuous-delivery-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
-
+#### [الصفحة الرئيسية للتسليم المستمر](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [الأسئلة الشائعة للتطوير والتسليم المستمر](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-faq?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [استثناء حزم الاختبار من إخراج البناء](/dynamics365/unified-operations/dev-itpro/dev-tools/exclude-test-packages?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إدارة نماذج الجهات الخارجية وحزم وقت التشغيل باستخدام التحكم بالمصادر](/dynamics365/unified-operations/dev-itpro/dev-tools/manage-runtime-packages?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [نماذج الإصدار في البناء التلقائي](/dynamics365/unified-operations/dev-itpro/dev-tools/version-models-build?toc=/dynamics365/unified-operations/talent/toc.json)
 
 #### الصفحة الرئيسية للأداء
 ##### [أخذ عينة تتبع باستخدام محلل التتبع](/dynamics365/unified-operations/dev-itpro/perf-test/trace-trace-tutorial?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1086,8 +1129,8 @@
 ##### [عوامل التصفية](/dynamics365/unified-operations/dev-itpro/user-interface/filtering?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [عناصر تحكم مضيف PowerApps](/dynamics365/unified-operations/dev-itpro/user-interface/powerapps-host-control?toc=/dynamics365/unified-operations/talent/toc.json)
 #### إدارة النوافذ
-##### [ترحيل كود قائمة السياق](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [ترحيل رمز النقر المزدوج بالماوس](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ترحيل كود قائمة السياق](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ترحيل رمز النقر المزدوج بالماوس](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إدخال بيانات سياقية لعمليات البحث](/dynamics365/unified-operations/dev-itpro/user-interface/contextual-data-entry-lookups?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [عنصر تحكم HierarchyViewer](/dynamics365/unified-operations/dev-itpro/user-interface/hierarchy-viewer-control?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [عناصر التحكم في البحث‬](/dynamics365/unified-operations/dev-itpro/user-interface/lookups-controls?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1128,8 +1171,8 @@
 ##### [نمط نموذج مربع حقائق](/dynamics365/unified-operations/dev-itpro/user-interface/factbox-form-patterns?toc=/dynamics365/unified-operations/talent/toc.json)
 #### أنماط فرعية
 ##### [نموذج فرعي لمجموعة عوامل تصفية مخصصة](/dynamics365/unified-operations/dev-itpro/user-interface/custom-filter-group-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [نموذج فرعي لعنصر تحكم إدخال البعد](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [نموذج فرعي لمنشئ تعبير البُعد](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [نموذج فرعي لعنصر تحكم إدخال البعد](/dynamics365/unified-operations/dev-itpro/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [نموذج فرعي لمنشئ تعبير البُعد](/dynamics365/unified-operations/dev-itpro/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [نموذج فرعي للحقول ومجموعات الحقول](/dynamics365/unified-operations/dev-itpro/user-interface/fields-field-groups-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [نماذج فرعية لعوامل التصفية وأشرطة الأدوات](/dynamics365/unified-operations/dev-itpro/user-interface/filters-toolbar-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [نموذج فرعي لملء النص](/dynamics365/unified-operations/dev-itpro/user-interface/fill-text-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1158,9 +1201,9 @@
 #### إنشاء مساحات عمل
 ##### [إنشاء مساحات عمل تشغيلية](/dynamics365/unified-operations/dev-itpro/user-interface/build-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تخزين مؤقت للإطارات المتجانبة والقوائم لمساحات العمل](/dynamics365/unified-operations/dev-itpro/user-interface/tile-list-caching-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
-#### مسجل المهام
-##### [مسجل المهام في Dynamics 365 for Finance and Operations، الإصدار Enterprise](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مسجل المهام](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [مرجع سريع لمسجل المهام](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-quick-reference?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إنشاء وثائق أو التدريب على استخدام "مسجل المهام"](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### تحرير حلول باستخدام Lifecycle Services
 #### [تطوير وإصدار](/dynamics365/unified-operations/dev-itpro/lcs-solutions/lcs-solutions-app-source)
@@ -1181,7 +1224,7 @@
 ##### [إرسال تنبيه تنظيمي](/dynamics365/unified-operations/dev-itpro/lcs-solutions/submit-localization-alerts)
 
 
-### [كيانات البيانات](/dynamics365/unified-operations/dev-itpro/data-entities?toc=/dynamics365/unified-operations/talent/toc.json)
+### [كيانات البيانات](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities?toc=/dynamics365/unified-operations/talent/toc.json)
 #### كيانات البيانات الافتراضية
 ##### [تقريرا كيانات البيانات](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-report?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [كيانات البيانات: الحسابات الدائنة والضرائب](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-accounts-payable-taxes?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1211,7 +1254,9 @@
 
 #### ترحيل الكيانات
 ##### [مشروعات بيانات التكوين](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-projects?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تكوين قوالب البيانات](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [حزم بيانات التكوين](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-packages?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [قوالب بيانات التكوين](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/talent/toc.json)
+
 ###### [نسخ بيانات التكوين بين الشركات](/dynamics365/unified-operations/dev-itpro/data-entities/copy-configuration?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [أفضل الممارسات استيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام](/dynamics365/unified-operations/dev-itpro/data-entities/tips-tricks-import-general-journal-entity?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1248,7 +1293,7 @@
 ### تكامل Office
 #### [تكامل Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [برنامج تعليمي لتكامل Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [استخدام الوظيفة الإضافية لبرنامج Excel](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [استخدام الوظيفة الإضافية لبرنامج Excel](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إنشاء خبرات فتح في Excel](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-edit-excel?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إضافة قوالب إلى قائمة فتح السطور في Excel](/dynamics365/unified-operations/dev-itpro/user-interface/add-templates-open-lines-excel-menu?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تخصيص قائمة فتح في Microsoft Office](/dynamics365/unified-operations/dev-itpro/office-integration/customize-open-office-menu?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1278,19 +1323,30 @@
 #### [دليل تطوير جانت](/dynamics365/unified-operations/dev-itpro/user-interface/gantt-development-guide?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إنشاء محرك إدارة نقل جديد](/dynamics365/unified-operations/supply-chain/transportation/create-new-transportation-management-engine?toc=/dynamics365/unified-operations/talent/toc.json)
 
-### [مكتبة تطوير البيع بالتجزئة](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### النشر
-#### [نشر Microsoft Dynamics 365 for Finance and Operations، بيئة عرض توضيحي لإصدار Enterprise](/dynamics365/unified-operations/dev-itpro/deploy-demo-environment?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إلحاق مدير موارد Azure](/dynamics365/unified-operations/dev-itpro/arm-onboarding?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Azure ExpressRoute وDynamics 365 for Finance and Operations، الإصدار Enterprise](/dynamics365/unified-operations/dev-itpro/expressroute?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [نشر Microsoft Dynamics 365 for Finance and Operations، بيئة عرض توضيحي لإصدار Enterprise](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إلحاق مدير موارد Azure](/dynamics365/unified-operations/dev-itpro/deployment/arm-onboarding?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Azure ExpressRoute وDynamics 365 for Finance and Operations، الإصدار Enterprise](/dynamics365/unified-operations/dev-itpro/deployment/expressroute?toc=/dynamics365/unified-operations/talent/toc.json)
+
+#### [نشر Microsoft Dynamics 365 for Finance and Operations المحلي](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+##### [نظرة عامة على Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [متطلبات النظام](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ضبط حجم الأجهزة للبيئات المحلية](/dynamics365/unified-operations/dev-itpro/get-started/hardware-sizing-on-premises-environments?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [نهج دورة الحياة وللخدمة على الإنترنت والبرنامج المحلي](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [شراء Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](/dynamics365/unified-operations/dev-itpro/https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إنشاء مشروع محلي في Lifecycle Services](/dynamics365/unified-operations/dev-itpro/deployment/lifecycle-services/lbd-create-lcs-on-prem-project?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إعداد بيئات محلية ونشرها](/dynamics365/unified-operations/dev-itpro/deployment/setup-deploy-on-premises-environments?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [تكوين خدمات SQL Server Reporting Services للنشر المحلي](/dynamics365/unified-operations/dev-itpro/analytics/configure-ssrs-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [تطوير النماذج المخصصة للبيئات المحلية ونشرها](/dynamics365/unified-operations/dev-itpro/deployment/develop-deploy-custom-models-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
+
 
 #### نشر كود مخصص
-##### [إنشاء حزمة قابلة للنشر](/dynamics365/unified-operations/dev-itpro/create-apply-deployable-package?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تطبيق حزمة قابلة للنشر](/dynamics365/unified-operations/dev-itpro/apply-deployable-package-system?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [تثبيت حزمة قابلة للنشر](/dynamics365/unified-operations/dev-itpro/install-deployable-package?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إنشاء حزمة قابلة للنشر](/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [تطبيق حزمة قابلة للنشر](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [تثبيت حزمة قابلة للنشر](/dynamics365/unified-operations/dev-itpro/deployment/install-deployable-package?toc=/dynamics365/unified-operations/talent/toc.json)
 
-#### [تنزيلات موفر خدمة السحابة وDynamics AX 2012](/dynamics365/unified-operations/dev-itpro/csp-download-customersource?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تنزيلات موفر خدمة السحابة وDynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [الترقية والترحيل](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [ترقية من AX 2012 إلى Dynamics 365 for Finance and Operations](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-overview-2012?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1301,7 +1357,7 @@
 ##### [ترقية - مهام ترقية بيانات AX 2012](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [ترقية - ترقية البيانات في بيئة وضع الحماية](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-data-sandbox?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [التحقق من الصحة - اختبار مرحلي](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-cutover-testing?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [التحقق من الصحة - عملية التحقق من صحة التطبيق](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [التحقق من الصحة - المهام التي يجب إنجازها بعد الترقية](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [التحقق من الصحة - اختبار وظيفي](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-functional-validation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [التحقق من الصحة- التحضير للعرض المباشر](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-go-live-prep?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1321,7 +1377,7 @@
 
 #### الترقية إلى تحديث جديد
 ##### [التحضير للانتقال إلى آخر تحديث](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-update?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [الإصدارات وسياسة التحديث](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [نهج دورة حياة](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [الترقية إلى تحديث النظام الأساسي الأخير](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-platform-update?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [ترقية النظام الأساسي لـ Dynamics إلى إصدار أغسطس 2016](/dynamics365/unified-operations/dev-itpro/migration-upgrade/update-platform-each-release?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [ترقية بيئة وضع الحماية](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-sandbox-environment?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1341,116 +1397,118 @@
 
 
 ### إدارة النظام
-#### [أسئلة شائعة حول تحديثات النظام الأساسي الشهرية](/dynamics365/unified-operations/dev-itpro/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إضافة ارتباطات للشروط القانونية الخاصة بمؤسستك وبيان الخصوصية](/dynamics365/unified-operations/dev-itpro/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تقرير أكواد التراخيص ومفاتيح التكوين](/dynamics365/unified-operations/dev-itpro/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مشاركة البيانات عبر الشركة](/dynamics365/unified-operations/dev-itpro/cross-company-data-sharing?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [وضع الصيانة](/dynamics365/unified-operations/dev-itpro/maintenance-mode?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [أسئلة شائعة حول تحديثات النظام الأساسي الشهرية](/dynamics365/unified-operations/dev-itpro/sysadmin/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إضافة ارتباطات للشروط القانونية الخاصة بمؤسستك وبيان الخصوصية](/dynamics365/unified-operations/dev-itpro/sysadmin/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تقرير أكواد التراخيص ومفاتيح التكوين](/dynamics365/unified-operations/dev-itpro/sysadmin/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مشاركة البيانات عبر الشركة](/dynamics365/unified-operations/dev-itpro/sysadmin/cross-company-data-sharing?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [وضع الصيانة](/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode?toc=/dynamics365/unified-operations/talent/toc.json)
 #### الأمان
-##### [أمان يستند إلى الدور](/dynamics365/unified-operations/dev-itpro/role-based-security?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [هندسة الأمان](/dynamics365/unified-operations/dev-itpro/security-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [أمان يستند إلى الدور](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [هندسة الأمان](/dynamics365/unified-operations/dev-itpro/sysadmin/security-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [تقارير الأمان](/dynamics365/unified-operations/dev-itpro/sysadmin/security-reports?toc=/dynamics365/unified-operations/talent/toc.json)
 #### معالجة الدُفعات
-##### [نظرة عامة على معالجة الدُفعات](/dynamics365/unified-operations/dev-itpro/batch-processing-overview?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [نظرة عامة على خادم الدفعات](/dynamics365/unified-operations/dev-itpro/batch-server-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [نظرة عامة على معالجة الدُفعات](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-processing-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [نظرة عامة على خادم الدفعات](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-server-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### Lifecycle Services
-#### [نظرة عامة على Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [LCS للعملاء](/dynamics365/unified-operations/dev-itpro/lcs-works-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [LCS للشركاء](/dynamics365/unified-operations/dev-itpro/getting-started-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [ما الجديد](/dynamics365/unified-operations/dev-itpro/whats-new-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [مشكلات معروفة](/dynamics365/unified-operations/dev-itpro/known-issues?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [دليل مستخدم Dynamics Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lcs-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تكوين الأمان](/dynamics365/unified-operations/dev-itpro/configure-lcs-security?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [بحث عن المشاكل](/dynamics365/unified-operations/dev-itpro/issue-search-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مدير التكوين](/dynamics365/unified-operations/dev-itpro/configuration-manager-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [إعداد مدير التكوين ](/dynamics365/unified-operations/dev-itpro/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تكوين خدمة ترقية الكود](/dynamics365/unified-operations/dev-itpro/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [إنشاء منهجية ](/dynamics365/unified-operations/dev-itpro/create-methodology?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [أداة تكوين عمليات الأعمال](/dynamics365/unified-operations/dev-itpro/business-process-modeler-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مكتبات العملية التجارية في أداة تكوين عمليات الأعمال](/dynamics365/unified-operations/dev-itpro/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [مخططات انسيابية لأداة تكوين عمليات الأعمال](/dynamics365/unified-operations/dev-itpro/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تحميل عمليات أعمال مخصصة](/dynamics365/unified-operations/dev-itpro/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [المراقبة والتشخيص ](/dynamics365/unified-operations/dev-itpro/monitoring-diagnostics?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [نظرة عامة على Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [LCS للعملاء](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [LCS للشركاء](/dynamics365/unified-operations/dev-itpro/lifecycle-services/getting-started-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ما الجديد](/dynamics365/unified-operations/dev-itpro/lifecycle-services/whats-new-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [مشكلات معروفة](/dynamics365/unified-operations/dev-itpro/lifecycle-services/known-issues?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [دليل مستخدم Dynamics Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تكوين الأمان](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-lcs-security?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [بحث عن المشاكل](/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مدير التكوين](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configuration-manager-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إعداد مدير التكوين ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تكوين خدمة ترقية الكود](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [إنشاء منهجية ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/create-methodology?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [أداة تكوين عمليات الأعمال](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-modeler-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مكتبات العملية التجارية في أداة تكوين عمليات الأعمال](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مخططات انسيابية لأداة تكوين عمليات الأعمال](/dynamics365/unified-operations/dev-itpro/lifecycle-services/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تحميل عمليات أعمال مخصصة](/dynamics365/unified-operations/dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [المراقبة والتشخيص ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/monitoring-diagnostics?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [مكتبة الأصول](/dynamics365/unified-operations/dev-itpro/lifecycle-services/asset-library?toc=/dynamics365/unified-operations/talent/toc.json)
 
 #### ميزات Dynamics AX 2012 Lifecycle Services
 ##### النشر
-###### [بيئات مستضافة على الشبكة السحابية](/dynamics365/unified-operations/dev-itpro/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نسخ تكوين](/dynamics365/unified-operations/dev-itpro/copy-configuration-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تخطيط نشر Dynamics AX 2012 R3 على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نشر Dynamics AX 2012 R3 على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نشر بيئة عرض توضيحي لـ Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نشر بيئة تطوير على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نشر بيئة بقابلية وصول عالية على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نشر بيئة اختبار على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [إدارة نشر Dynamics AX 2012 R3 على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [دمج خوادم "مدخل الشركة على الإنترنت" في مزرعة خوادم واحدة](/dynamics365/unified-operations/dev-itpro/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تسجيل نقاط الدخول في مدخل الشركة على الإنترنت لـ Dynamics AX](/dynamics365/unified-operations/dev-itpro/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نشر بيئة اختبار/تطوير للتجارة الإلكترونية للبيع بالتجزئة على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نشر بيئة عرض توضيحي لأساسيات البيع بالتجزئة على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نشر بيئة اختبار/تطوير أساسيات البيع بالتجزئة على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نشر بيئة اختبار/تطوير محمولة للبيع بالتجزئة على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [استكشاف أخطاء نشر Dynamics AX 2012 R3 على Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تحديثات لـ Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [دليل مستخدم إطار عمل استيراد/تصدير البيانات](/dynamics365/unified-operations/dev-itpro/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تثبيت](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [تثبيت AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [تثبيت Dynamics AX 2012 R2 CU7 الإصدار الخاص بـ SQL Server 2014](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [ترحيل البيانات](/dynamics365/unified-operations/dev-itpro/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تكوين الإصدار SSIS](/dynamics365/unified-operations/dev-itpro/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نسخ ومقارنة بيانات الكيانات بين الشركات](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نسخ البيانات بين شركات Dynamics AX](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [نسخ البيانات بين مثيلات Dynamics AX](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [إنشاء كيان هدف مخصص](/dynamics365/unified-operations/dev-itpro/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [كيانات إطار عمل استيراد/تصدير البيانات](/dynamics365/unified-operations/dev-itpro/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [استيراد البيانات من مصدر بيانات CSV](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [استيراد البيانات من مصدر بيانات ODBC](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [ملفات العرض التوضيحي](/dynamics365/unified-operations/dev-itpro/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [الاستيراد والتصدير السريع](/dynamics365/unified-operations/dev-itpro/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [بيئات مستضافة على الشبكة السحابية](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نسخ تكوين](/dynamics365/unified-operations/dev-itpro/lifecycle-services/copy-configuration-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [تخطيط نشر Dynamics AX 2012 R3 على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نشر Dynamics AX 2012 R3 على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نشر بيئة عرض توضيحي لـ Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نشر بيئة تطوير على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نشر بيئة بقابلية وصول عالية على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نشر بيئة اختبار على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [إدارة نشر Dynamics AX 2012 R3 على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [دمج خوادم "مدخل الشركة على الإنترنت" في مزرعة خوادم واحدة](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [تسجيل نقاط الدخول في مدخل الشركة على الإنترنت لـ Dynamics AX](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نشر بيئة اختبار/تطوير للتجارة الإلكترونية للبيع بالتجزئة على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نشر بيئة عرض توضيحي لأساسيات البيع بالتجزئة على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نشر بيئة اختبار/تطوير أساسيات البيع بالتجزئة على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نشر بيئة اختبار/تطوير محمولة للبيع بالتجزئة على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [استكشاف أخطاء نشر Dynamics AX 2012 R3 على Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [تحديثات لـ Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [دليل مستخدم إطار عمل استيراد/تصدير البيانات](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [تثبيت](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [تثبيت AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [تثبيت Dynamics AX 2012 R2 CU7 الإصدار الخاص بـ SQL Server 2014](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [ترحيل البيانات](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [تكوين الإصدار SSIS](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نسخ ومقارنة بيانات الكيانات بين الشركات](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نسخ البيانات بين شركات Dynamics AX](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [نسخ البيانات بين مثيلات Dynamics AX](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [إنشاء كيان هدف مخصص](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [كيانات إطار عمل استيراد/تصدير البيانات](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [استيراد البيانات من مصدر بيانات CSV](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [استيراد البيانات من مصدر بيانات ODBC](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [ملفات العرض التوضيحي](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [الاستيراد والتصدير السريع](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### جداول 
-###### [إنشاء جداول](/dynamics365/unified-operations/dev-itpro/ax-2012/create-tables?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [خصائص الجدول](/dynamics365/unified-operations/dev-itpro/ax-2012/table-properties?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [إنشاء جداول](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-tables?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [خصائص الجدول](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/table-properties?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### أدوات Dynamics AX 2012 LCS
-###### [المشاريع](/dynamics365/unified-operations/dev-itpro/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [منهجيات](/dynamics365/unified-operations/dev-itpro/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تحليل التخصيص ](/dynamics365/unified-operations/dev-itpro/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [أداة تقدير البنية الأساسية](/dynamics365/unified-operations/dev-itpro/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [أداة تقدير عدد التراخيص](/dynamics365/unified-operations/dev-itpro/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [استجابات طلبات العروض (/dynamics365/unified-operations/dev-itpro/RFP)](/dynamics365/unified-operations/dev-itpro/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [عمليات تشخيص أداء النظام](/dynamics365/unified-operations/dev-itpro/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تثبيت وتشغيل عمليات تشخيص أداء النظام](/dynamics365/unified-operations/dev-itpro/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تحليل عمليات الترقية](/dynamics365/unified-operations/dev-itpro/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [محلل الاستخدام](/dynamics365/unified-operations/dev-itpro/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [المشاريع](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [منهجيات](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [تحليل التخصيص ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [أداة تقدير البنية الأساسية](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [أداة تقدير عدد التراخيص](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [استجابات طلبات العرض (/dynamics365/unified-operations/dev-itpro/lifecycle-services/RFP)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [عمليات تشخيص أداء النظام](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [تثبيت وتشغيل عمليات تشخيص أداء النظام](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [تحليل عمليات الترقية](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [محلل الاستخدام](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### أدوات Dynamics AX 2012 قابلة للتنزيل
-###### [دليل مستخدم أداة ترقية الكود (مهمل)](/dynamics365/unified-operations/dev-itpro/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [أدوات Lifecycle Services قابلة للتنزيل](/dynamics365/unified-operations/dev-itpro/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [أداة تحويل بيانات الاختبار (beta)](/dynamics365/unified-operations/dev-itpro/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [تثبيت](/dynamics365/unified-operations/dev-itpro/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [تشغيل](/dynamics365/unified-operations/dev-itpro/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [استيراد بيانات العرض التوضيحي لـ AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [أداة تطوير الأمان](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [تثبيت](/dynamics365/unified-operations/dev-itpro/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [دليل المستخدم](/dynamics365/unified-operations/dev-itpro/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [تحديد أو تحرير أذونات نقطة الإدخال](/dynamics365/unified-operations/dev-itpro/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [مجموعة أدوات تطوير برامج قياس الأداء](/dynamics365/unified-operations/dev-itpro/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [أداة Security Upgrade Advisor](/dynamics365/unified-operations/dev-itpro/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Intelligent Data Management Framework (IDMF)](/dynamics365/unified-operations/dev-itpro/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [نظرة عامة](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [دليل التثبيت](/dynamics365/unified-operations/dev-itpro/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [التكوين](/dynamics365/unified-operations/dev-itpro/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [التحليل](/dynamics365/unified-operations/dev-itpro/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [إزالة وأرشفة الكائنات](/dynamics365/unified-operations/dev-itpro/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [إنشاء كائنات مؤرشفة](/dynamics365/unified-operations/dev-itpro/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [إنشاء كائنات الإزالة](/dynamics365/unified-operations/dev-itpro/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [جدولة مهام الإزالة والتحليل](/dynamics365/unified-operations/dev-itpro/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [عرض وظائف الإزالة أو الأرشفة](/dynamics365/unified-operations/dev-itpro/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [صيانة](/dynamics365/unified-operations/dev-itpro/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [استكشاف الأخطاء وإصلاحها‬](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [دليل مستخدم أداة ترقية الكود (مهمل)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [أدوات Lifecycle Services قابلة للتنزيل](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [أداة تحويل بيانات الاختبار (beta)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [تثبيت](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [تشغيل](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [استيراد بيانات العرض التوضيحي لـ AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [أداة تطوير الأمان](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [تثبيت](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [دليل المستخدم](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [تحديد أو تحرير أذونات نقطة الإدخال](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [مجموعة أدوات تطوير برامج قياس الأداء](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [أداة Security Upgrade Advisor](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Intelligent Data Management Framework (IDMF)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [نظرة عامة](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [دليل التثبيت](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [التكوين](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [التحليل](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [إزالة وأرشفة الكائنات](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [إنشاء كائنات مؤرشفة](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [إنشاء كائنات الإزالة](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [جدولة مهام الإزالة والتحليل](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [عرض وظائف الإزالة أو الأرشفة](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [صيانة](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [استكشاف الأخطاء وإصلاحها‬](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### إدارة قاعدة البيانات
-#### [نسخ قاعدة بيانات من قاعدة بيانات SQL Azure إلى بيئة خادم SQL](/dynamics365/unified-operations/dev-itpro/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [نسخ قاعدة بيانات من خادم SQL إلى بيئة قاعدة بيانات SQL Azure للإنتاج](/dynamics365/unified-operations/dev-itpro/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [استعادة قاعدة بيانات في بيئة غير إنتاجية](/dynamics365/unified-operations/dev-itpro/request-point-in-time-restore?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تصدير نسخة من قاعدة بيانات لاستعادتها لاحقًا](/dynamics365/unified-operations/dev-itpro/copy-operations-database?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [نسخ قاعدة بيانات من قاعدة بيانات SQL Azure إلى بيئة خادم SQL](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [نسخ قاعدة بيانات من خادم SQL إلى بيئة قاعدة بيانات SQL Azure للإنتاج](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [استعادة قاعدة بيانات في بيئة غير إنتاجية](/dynamics365/unified-operations/dev-itpro/database/request-point-in-time-restore?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تصدير نسخة من قاعدة بيانات لاستعادتها لاحقًا](/dynamics365/unified-operations/dev-itpro/database/copy-operations-database?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### الدعم
 #### [الحصول على دعم لـ Dynamics 365 for Finance and Operations، الإصدار Enterprise وLifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-support)
@@ -1466,6 +1524,7 @@
 
 ## المدفوعات
 ### [طرق الدفع](/dynamics365/unified-operations/retail/payment-methods?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [الأسئلة الشائعة للمدفوعات](/dynamics365/unified-operations/retail/dev-itpro/payments-retail?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## مركز الاتصال
 ### [نظرة عامة على مركز الاتصال](/dynamics365/unified-operations/retail/call-center-functionality?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1488,6 +1547,7 @@
 ### الأجهزة الطرفية للأجهزة
 #### [نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة](/dynamics365/unified-operations/retail/retail-peripherals-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [الأجهزة الطرفية لأجهزة نقطة البيع الخاضعة لاختبارات Microsoft](/dynamics365/unified-operations/retail/microsoft-tested-pos-hardware-peripherals?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [محاكي الأجهزة الطرفية للبيع بالتجزئة](/dynamics365/unified-operations/retail/dev-itpro/retail-peripheral-simulator?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تحديد عملاء القنوات، والسجلات، ومحطات الأجهزة والاحتفاظ بها](/dynamics365/unified-operations/retail/define-maintain-channel-clients-registers-hw-stations?toc=/dynamics365/unified-operations/talent/toc.json)
 ### تخطيط الشاشة
 #### [تكوين تخطيطات الشاشة لنقطة البيع](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1512,7 +1572,7 @@
 ### إيصالات الاستلام
 #### [إعداد قوالب إيصالات الاستلام](/dynamics365/unified-operations/retail/receipt-templates-printing?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### [إرسال إيصالات الاستلام عبر البريد الإلكتروني من نقطة بيع حديثة](/dynamics365/unified-operations/retail/email-receipts?toc=/dynamics365/unified-operations/talent/toc.json)
-### [مسجل المهام ونظام التعليمات في نقطة البيع](/dynamics365/unified-operations/retail/task-recorder-retail-pos?toc=/dynamics365/unified-operations/retail/toc.json)
+### [مسجل المهام ونظام التعليمات في نقطة البيع](/dynamics365/unified-operations/retail/task-recorder-retail-pos?toc=/dynamics365/unified-operations/talent/toc.json)
 ## الرصد والتحليل
 ### [رصد أداء المبيعات والهامش](/dynamics365/unified-operations/retail/monitor-sales-margin-performance?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [تحليل أنماط واتجاهات المبيعات](/dynamics365/unified-operations/retail/analyze-sales-trends-patterns?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1525,7 +1585,7 @@
 ### [تعديلات الأسعار والخصومات](/dynamics365/unified-operations/retail/price-adjustments-discounts?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [تحديد المجموعة المثلى من الخصومات المتداخلة](/dynamics365/unified-operations/retail/optimal-combination-overlapping-discounts?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [تحديد الخصومات الخاصة بالقناة](/dynamics365/unified-operations/retail/define-channel-specific-discounts?toc=/dynamics365/unified-operations/talent/toc.json)
-### [إنشاء القسائم لمبيعات البيع بالتجزئة](/dynamics365/unified-operations/retail/retail-coupons?toc=/dynamics365/unified-operations/retail/toc.json)
+### [إنشاء القسائم لمبيعات البيع بالتجزئة](/dynamics365/unified-operations/retail/retail-coupons?toc=/dynamics365/unified-operations/talent/toc.json)
 ## المنتجات وترويج السلع
 ### [التدرجات الهرمية للبيع بالتجزئة](/dynamics365/unified-operations/retail/retail-hierarchies?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [إنشاء وإدارة السمات](/dynamics365/unified-operations/retail/create-manage-attributes?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1533,15 +1593,12 @@
 ### [إعداد الأكواد الشريطية](/dynamics365/unified-operations/retail/set-up-bar-codes?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [إعداد أقنعة الأكواد الشريطية](/dynamics365/unified-operations/retail/set-up-bar-code-masks?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [إعداد عمليات الفرز](/dynamics365/unified-operations/retail/set-up-assortments?toc=/dynamics365/unified-operations/talent/toc.json)
-### [بيع وإرجاع المنتجات خارج عملية فرز](/dynamics365/unified-operations/retail/sell-return-outside-assortments?toc=/dynamics365/unified-operations/retail/toc.json)
+### [بيع وإرجاع المنتجات خارج عملية فرز](/dynamics365/unified-operations/retail/sell-return-outside-assortments?toc=/dynamics365/unified-operations/talent/toc.json)
 ## الولاء
 ### [إعداد برنامج ولاء العملاء](/dynamics365/unified-operations/retail/set-up-customer-loyalty-program?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## المخزون
 ### [إدارة مخزون المتجر](/dynamics365/unified-operations/retail/work-with-store-inventory?toc=/dynamics365/unified-operations/talent/toc.json)
-## أساسيات التجارة
-### [نظرة عامة على أساسيات التجارة](/dynamics365/unified-operations/retail/commerce-essentials?toc=/dynamics365/unified-operations/talent/toc.json)
-### [المؤسسات والتدرجات الهرمية للمؤسسات في أساسيات التجارة](/dynamics365/unified-operations/retail/organizational-hierarchies-commerce-essentials?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## [تطوير البيع بالتجزئة والإدارة](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1551,16 +1608,16 @@
 #### [اتصالات قناة التجزئة](/dynamics365/unified-operations/retail/dev-itpro/define-retail-channel-communications-cdx?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [هندسة MPOS](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [هندسة نشر متجر البيع بالتجزئة على الإنترنت](/dynamics365/unified-operations/retail/dev-itpro/retail-online-store-publishing-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [محتوى Power BI لأداء قناة البيع بالتجزئة](/dynamics365/unified-operations/retail/dev-itpro//dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
+#### [محتوى Power BI لأداء قناة البيع بالتجزئة](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
 
 ### النشر والإصلاحات العاجلة
 #### [تكوين وتثبيت Retail Store Scale Unit](/dynamics365/unified-operations/retail/dev-itpro/retail-store-scale-unit-configuration-installation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [نظام متجر البيع بالتجزئة، قبل أن تبدأ](/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تكوين وتثبيت Retail Modern POS](/dynamics365/unified-operations/retail//retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [إدارة حسابات البيع بالتجزئة والأجهزة من المقر الرئيسي](/dynamics365/unified-operations/retail//set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تكوين وتثبيت Retail Modern POS](/dynamics365/unified-operations/retail/retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [إدارة حسابات البيع بالتجزئة والأجهزة من المقر الرئيسي](/dynamics365/unified-operations/retail/set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تنشيط جهاز Retail POS](/dynamics365/unified-operations/retail/dev-itpro/retail-device-activation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [retail Cloud POS آمنة](/dynamics365/unified-operations/retail/dev-itpro/secure-retail-cloud-pos?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [تكوين وتثبيت Retail Hardware Station](/dynamics365/unified-operations/retail//retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [تكوين وتثبيت Retail Hardware Station](/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [أحداث مكونات البيع بالتجزئة لأدوات التشخيص واستكشاف الأخطاء وإصلاحها](/dynamics365/unified-operations/retail/dev-itpro/retail-component-events-diagnostics-troubleshooting?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تطبيق حزمة قابلة للنشر](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1570,8 +1627,8 @@
 
 ### القابلية للتوسعة
 #### نقطة البيع
-##### [تخطيط شاشة Retail POS](/dynamics365/unified-operations/retail//pos-screen-layouts?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [تثبيت مصمم تخطيط POS](/dynamics365/unified-operations/retail//install-pos-layout-designer?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [تخطيط شاشة Retail POS](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [تثبيت مصمم تخطيط POS](/dynamics365/unified-operations/retail/install-pos-layout-designer?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [تكوين MPOS لوضع العمل دون اتصال](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-offline?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [قابلية التوسعة لمشغل MPOS وPOS السحابي](/dynamics365/unified-operations/retail/dev-itpro/modern-pos-trigger-extensibility?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [إنشاء تجربة البيع بالتجزئة](/dynamics365/unified-operations/retail/dev-itpro/create-retail-experience-app?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1596,7 +1653,7 @@
 ##### [النظام الأساسي للتجارة الإلكترونية](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [النظام الأساسي للتجارة الإلكترونية SDK](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk?toc=/dynamics365/unified-operations/talent/toc.json)
 #### موصل المدفوعات
-##### [تنفيذ موصل المدفوعات وجهاز الدفع (مستند تقني)](/dynamics365/unified-operations/retail/dev-itpro/http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+##### [تنفيذ موصل المدفوعات وجهاز الدفع (مستند تقني)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ##### [نشر موصل المدفوعات](/dynamics365/unified-operations/retail/dev-itpro/deploy-payment-connector?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [إنشاء Windows installer لموصل المدفوعات](/dynamics365/unified-operations/retail/dev-itpro/create-windows-installer-payment-connector?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1604,13 +1661,14 @@
 #### [نظرة عامة حول Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [تكامل Retail SDK مع نظام البناء المستمر](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [نماذج قابلة للتوسعة لـ Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [عينة لتكامل Retail POS مع وحدات التحكم بالسويد](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-control-unit-sample?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [حزمة Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-packaging?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [أمثلة Retail SDK ](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-samples?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### وقت التشغيل التجاري
 #### [ملحق الولاء](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/loyalty-extension-sample?toc=/dynamics365/unified-operations/talent/toc.json)
 
-# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index)
+# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## تطوير إستراتيجية الموارد البشرية
 ### [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](/dynamics365/unified-operations/talent/departments-jobs-positions?toc=/dynamics365/unified-operations/talent/toc.json)
