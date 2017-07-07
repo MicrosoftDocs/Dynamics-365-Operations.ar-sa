@@ -3,7 +3,7 @@ title: "قواعد الاستبعاد"
 description: "يقدم هذا الموضوع معلومات حول قواعد الاستبعاد، والخيارات المختلفة للتبليغ عن عمليات الاستبعاد."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ab1d8fb5bfc9413652d222e701c44b3b91a4c842
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -133,7 +133,7 @@ ms.lasthandoff: 05/25/2017
 تقوم كل هذه الحركات بإنشاء حركات بين الشركات الشقيقة والتي يتم ترحيلها إلى حسابات "مستحقة حتى" والحسابات "مستحقة من". علاوة على ذلك، ربما تشتمل هذه الحركات على مبلغ فرق السعر سواء بالارتفاع أو الانخفاض عندما لا يتساوى مبلغ مبيعات الشركات الشقيقة مع تكلفة البضائع المبيعة.
 
 ## <a name="set-up-elimination-rules"></a>إعداد قواعد الاستبعاد
-عند إعداد قواعد الاستبعاد في Dynamics 365 for Operations، نوصي بإنشاء بعد مالي بشكل خاص لأغراض الاستبعاد. يطلق عليه معظم العملاء "الشريك التجاري" أو شيء من هذا القبيل. إذا قررت عدم استخدام بعد مالي، فمن ثم عليك التأكد أن لديك الحسابات الرئيسية الخاصة بالحركات فيما بين الشركات الشقيقة فقط. 
+عند إعداد قواعد الاستبعاد في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition نوصي بإنشاء بعد مالي بشكل خاص لأغراض الاستبعاد. يطلق عليه معظم العملاء "الشريك التجاري" أو شيء من هذا القبيل. إذا قررت عدم استخدام بعد مالي، فمن ثم عليك التأكد أن لديك الحسابات الرئيسية الخاصة بالحركات فيما بين الشركات الشقيقة فقط. 
 
 يمكنك العثور على إعداد عمليات الاستبعاد في إعداد منطقة الوحدة النمطية لعمليات الدمج. بعد قيامك بإدخال وصف للقاعدة، يجب عليك اختيار الشركة التي سيتم ترحيل دفتر يومية الاستبعاد إليها. ويجب أن تحتوي هذه الشركة على **‏‫يُستخدم لعملية الاستبعاد المالي‬** محددة في إعداد الكيان القانوني. 
 

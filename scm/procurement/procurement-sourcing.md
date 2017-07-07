@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ ms.lasthandoff: 05/25/2017
 -   [تعاون المورد مع العملاء](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [إدارة مستخدمي تعاون المورد‬](manage-vendor-collaboration-users.md)
 -   [إعداد تعاون المورد والمحافظة عليه](set-up-maintain-vendor-collaboration.md)
--   [البرنامج النصي للعرض التوضيحي الخاص بمخزون الشحن الوارد لتطبيق Microsoft Dynamics 365 for Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(مستند تقني)
+-   [البرنامج النصي للعرض التوضيحي الخاص بمخزون الشحن الوارد لتطبيق Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(مستند تقني)
 -   [مراقبة مخزون الشحن باستخدام تعاون المورّد](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [التعاون مع الموردين باستخدام مدخل المورد](collaborate-vendors-vendor-portal.md)  (إصدارات فبراير 2016 ومايو May 2016 من Dynamics 365 for Operations فقط)
--   [تكوين الأمان لمستخدمي مدخل المورد](configure-security-vendor-portal-users.md) (إصدارات 2016 ومايو 2016 من Dynamics 365 for Operations فقط)
--   [مساحة العمل المحمولة‬ لتعاون المورّد في تطبيق Microsoft Dynamics 365 for Operations](vendor-collaboration-mobile-workspace.md)
+-   [التعاون مع الموردين باستخدام مدخل المورد](collaborate-vendors-vendor-portal.md)  (إصدارات فبراير 2016 ومايو 2016 من Dynamics AX فقط)
+-   [تكوين الأمان لمستخدمي مدخل المورد](configure-security-vendor-portal-users.md) (إصدارات فبراير 2016 ومايو 2016 من Finance and Operations فقط)
+-   [مساحة العمل المحمولة‬ لتعاون المورّد في تطبيق Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>إدارة منتج التدبير
 -   [كتالوجات التدبير](procurement-catalogs.md)
@@ -92,8 +92,8 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="product-receipt-and-invoicing"></a>إيصال استلام المنتجات والفوترة
 -   [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
--   [نظرة عامة على فواتير المورّدين](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [ملفات تعريف ترحيل الموردين](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [نظرة عامة على فواتير المورّدين](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [ملفات تعريف ترحيل الموردين](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>عمليات سير العمل للتدبير وتحديد الموارد
 -   [نظرة عامة على التدبير وتحديد الموارد](procurement-sourcing-overview.md)

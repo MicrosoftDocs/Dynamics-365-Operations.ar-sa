@@ -1,16 +1,16 @@
 ---
-title: "منصب تنبؤ"
-description: 
+title: "التنبؤ بالمنصب"
+description: "النفقات المتعلقة بالعمال كثيرًا ما تشكل نسبة كبيرة من التكاليف للمنظمة. يتيح لك منصب التنبؤ تخطيط تلك النفقات وتضمينها في تخطيط الميزانيات."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,18 +18,17 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="position-forecasting"></a>منصب تنبؤ
+# <a name="position-forecasting"></a>التنبؤ بالمنصب
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,7 +96,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>إنشاء مناصب تنبؤ للمناصب الحالية
 
-لتخطيط الموازنة الأكثر دقة، فإنه يمكنك إنشاء مناصب التنبؤ باستخدام تفاصيل من المناصب الموجودة فيMicrosoft  Dynamics 365 for Operations، بغض النظر عما إذا كان المنصب مشغولاً أو شاغرًا حاليًا. 
+لتخطيط الموازنة الأكثر دقة، يمكنك إنشاء مناصب التنبؤ باستخدام تفاصيل من المناصب الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، بغض النظر عما إذا كان المنصب مشغولاً أو شاغرًا حاليًا. 
 
 تعرض وظيفة **إضافة المناصب القائمة** كافة المناصب لمؤسسة. عن طريق تعيين تاريخ**اعتبارًا من**، فإنه يمكنك تغيير قائمة المناصب حتى تحتوي على المناصب التي كانت موجودة في تاريخ في الماضي أو الأكثر شيوعًا، في المستقبل (على سبيل المثال، بداية دورة الموازنة المقبلة). حدد عملية تخطيط الموازنة وسيناريو خطة الموازنة وحدد المناصب في القائمة ثم انقر فوق **موافق** لإنشاء مناصب التنبؤ للمناصب المحددة. لاحظ أنه يمكنك إنشاء منصب تنبؤ واحد فقط لكل منصب موجود في عملية تخطيط الموازنة والسيناريو. ومع ذلك، يمكنك إنشاء إصدارات إضافية عن طريق تعيين سيناريوهات خطة موازنة مختلفة. 
 

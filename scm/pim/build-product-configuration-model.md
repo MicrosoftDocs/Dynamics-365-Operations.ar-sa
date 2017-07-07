@@ -3,14 +3,14 @@ title: "إنشاء نموذج تكوين المنتج"
 description: "تصبح الحاجة إلى تكوين المنتجات لتلبية متطلبات الخاصة القاعدة لا الاستثناء، في كلٍّ من العلاقات بين الشركات وبين الشركة والمستهلك."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 901d5dd18f0da6f05c185c24b3f11fe32fdc400b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5bc19e95266e8f1bec8744da688387dca559373f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/25/2017
 
 يتم تصميم قيد الجدول المحدد من قِبل المستخدم بواسطة المستخدم. ويحدد المستخدم مجموعة من أنواع السمات لتمثيل أعمدة الجدول، ثم يقوم بإدخال قيم من مجالات أنواع السمات المحددة لتكوين الصفوف في قيد الجدول.  
 
-ويتم تحديد قيد الجدول المحدد من قِبل النظام بتحديد جدول Microsoft Dynamics 365 for Operations الذي يجب استخدامه كمرجع، ثم تحديد الحقول الموجودة في هذا الجدول لتكوين الأعمدة في القيد. وصفوف قيد الجدول هي صفوف جدول Dynamics 365 for Operations الموجودة في وقت التكوين.  
+ويتم تحديد قيد الجدول المحدد من قِبل النظام بتحديد جدول Microsoft Dynamics 365 for Finance and Operations الذي يجب استخدامه كمرجع، ثم تحديد الحقول الموجودة في هذا الجدول لتكوين الأعمدة في القيد. وصفوف قيد الجدول هي صفوف جدول Finance and Operations الموجود في وقت التكوين.  
 
 ويتم تضمين قيد جدول في نموذج تكوين منتج بالرجوع إلى تعريف قيد الجدول وتعيين السمات ذات الصلة الموجودة في النموذج إلى الأعمدة في قيد الجدول.
 

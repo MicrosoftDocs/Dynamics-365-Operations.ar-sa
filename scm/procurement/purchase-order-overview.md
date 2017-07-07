@@ -3,14 +3,14 @@ title: "نظرة عامة على أمر الشراء"
 description: "توفر هذه المقالة معلومات عامة حول أوامر الشراء بالإضافة إلى ارتباطات تؤدي إلى مقالات ذات صلة بمختلف المراحل التي يمر عبرها أمر الشراء."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 88fa3fb97621e0f4a226a45b36809e824c807420
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="purchase-order-overview"></a>نظرة عامة على أمر الشراء
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 توفر هذه المقالة معلومات عامة حول أوامر الشراء بالإضافة إلى ارتباطات تؤدي إلى مقالات ذات صلة بمختلف المراحل التي يمر عبرها أمر الشراء.
@@ -46,7 +48,7 @@ ms.lasthandoff: 05/25/2017
 -   [إنشاء أمر شراء](purchase-order-creation.md)
 -   [الموافقة على أمر الشراء وتأكيده](purchase-order-approval-confirmation.md)
 -   [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
--   [نظرة عامة على فواتير الموردين](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+-   [نظرة عامة على فواتير المورّدين](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>أنواع أوامر الشراء
 ‏‫هناك ثلاثة أنواع من أوامر الشراء. عندما تنشئ أمر شراء، يتعين عليك تحديد النوع.‬ يمكنك إعداد نوع أمر افتراضي للأوامر الجديدة في صفحة **محددات تحديد الموارد والتدبير‬**.
@@ -90,7 +92,7 @@ ms.lasthandoff: 05/25/2017
 
 [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
 
-[نظرة عامة على فواتير الموردين](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[نظرة عامة على فواتير المورّدين](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

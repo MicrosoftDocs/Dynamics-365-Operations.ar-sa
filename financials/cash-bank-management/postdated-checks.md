@@ -1,16 +1,16 @@
 ---
 title: "الشيكات التي تم تأخير تاريخها"
-description: "توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Microsoft Dynamics 365 for Operations. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد."
+description: "توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c3e59ae5126cd21e668459686133ba8bcf728df3
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Microsoft Dynamics 365 for Operations. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد.
+توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد.
 
-يدعم Microsoft Dynamics 365 for Operations دورة الإدارة الكاملة للشيكات بتاريخ لاحق في كلٍّ من الحسابات المدينة والحسابات الدائنة، كما هو موضح في الجدول التالي.
+يدعم Microsoft Dynamics 365 for Finance and Operations دورة الإدارة الكاملة للشيكات بتاريخ لاحق في كلٍّ من الحسابات المدينة والحسابات الدائنة، كما هو موضح في الجدول التالي.
 <table>
 <colgroup>
 <col width="50%" />

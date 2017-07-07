@@ -1,28 +1,29 @@
 ---
 title: "تهيئة بيانات القيم الأولية في بيئة بيع بالتجزئة جديدة"
-description: "توضح هذه المقالة البيانات التي تم إنشاؤه كجزء من عملية التهيئة لـ Microsoft Dynamics 365 for Operations - البيع بالتجزئة."
+description: "توضح هذه المقالة البيانات التي تم إنشاؤها كجزء من عملية تهيئة Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 49621
 ms.assetid: 4dc762eb-190e-4485-8f55-b0cafc81bc37
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 534c9ab0f4d95f42d09f35d3197a2258c8d39526
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0ee002d733882734c9f5a21e0467cacd1b3ff318
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,12 +33,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-توضح هذه المقالة البيانات التي تم إنشاؤه كجزء من عملية التهيئة لـ Microsoft Dynamics 365 for Operations - البيع بالتجزئة.
+توضح هذه المقالة البيانات التي تم إنشاؤها كجزء من عملية تهيئة Microsoft Dynamics 365 for Retail.
 
 بعد أنه تم نشر حل البيع بالتجزئة من خلال Microsoft Dynamics Lifecycle Services ‏(LCS)، يجب عليك تهيئة تكوين البيع بالتجزئة لإنشاء بيانات التكوين الأساسية. **هام:** قبل تهيئة تكوين البيع بالتجزئة، تأكد من أنك حددت لغة وعنوان بريدي لكل كيان قانوني حيث ستقوم بإعداد متاجر البيع بالتجزئة. ويجب إكمال هذه الخطوة لكل كيان قانوني تستخدمه للبيع بالتجزئة. وتهيئة تكوين البيع بالتجزئة، اتبع الخطوات التالية.
 
-1.  بدء عميل Dynamics 365 for Operations.
-2.  انقر فوق **البيع بالتجزئة والتجارة** &gt; **إعداد المقر الرئيسي** &gt; **المعلمات** &gt; **معلمات البيع بالتجزئة**.
+1.  بدء عميل Dynamics 365 for Retail.
+2.  انقر فوق **البيع بالتجزئة** &gt; **إعداد المقر الرئيسي** &gt; **المعلمات** &gt; **معلمات البيع بالتجزئة**.
 3.  انقر فوق **تهيئة**.
 
 تقوم التهيئة بإنشاء بيانات التكوين الافتراضية التالية:
@@ -54,7 +55,7 @@ ms.lasthandoff: 05/25/2017
 -   قوالب التحقق من صحة الكيان
 -   الوظيفة الدُفعية لإزالة محفوظات جلسات Commerce Data Exchange
 
-بالإضافة إلى ذلك، يتم تمكين التسجيل المتعلق بصناعة بطاقات الدفع (PCI) لقاعدة بيانات Dynamics 365 for Operations. **ملاحظة:** هناك خيار لتكوين مجدول البيع بالتجزئة بشكل منفصل. يتيح لك هذا الخيار إعادة تعيين تكوين مجدول البيع بالتجزئة إلى الإعدادات الافتراضية الخاصة به. وبعد إتمام عملية التهيئة، يجب عليك تكوين البيانات الإضافية للبيع بالتجزئة. فيما يلي بعض الأمثلة:
+بالإضافة إلى ذلك، يتم تمكين التسجيل المتعلق بصناعة بطاقات الدفع (PCI) لقاعدة بيانات Dynamics 365 for Retail. **ملاحظة:** هناك خيار لتكوين مجدول البيع بالتجزئة بشكل منفصل. يتيح لك هذا الخيار إعادة تعيين تكوين مجدول البيع بالتجزئة إلى الإعدادات الافتراضية الخاصة به. وبعد إتمام عملية التهيئة، يجب عليك تكوين البيانات الإضافية للبيع بالتجزئة. فيما يلي بعض الأمثلة:
 
 -   معلمات البيع بالتجزئة
 -   معلمات مجدول البيع بالتجزئة

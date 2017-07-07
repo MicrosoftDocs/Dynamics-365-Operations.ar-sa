@@ -3,14 +3,14 @@ title: "عرض أوصاف الحقول وتصديرها"
 description: "توضح هذه المقالة كيفية عرض أوصاف الحقول وكيفية استخدام صفحة أوصاف الحقل لتصدير الأوصاف."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 توضح هذه المقالة كيفية عرض أوصاف الحقول وكيفية استخدام صفحة أوصاف الحقل لتصدير الأوصاف.
 
-يتضمن Microsoft Dynamics 365 for Operations أوصافًا لبعض الحقول الأكثر تعقيدًا. وتظهر هذه الأوصاف عند تمرير الماوس فوق حقل. يمكنك أيضًا عرض أوصاف الحقول وتصديرها في صفحة **أوصاف الحقول**. 
+يتضمن Microsoft Dynamics 365 for Finance and Operations أوصافًا لبعض الحقول الأكثر تعقيدًا. وتظهر هذه الأوصاف عند تمرير الماوس فوق حقل. يمكنك أيضًا عرض أوصاف الحقول وتصديرها في صفحة **أوصاف الحقول**. 
 
 لا تتضمن كل الصفحات أوصاف الحقول. إننا نريد فقط توفير أوصاف للحقول الكثيرة التعقيدات، وليس لتلك التي يكون فيها استخدام الحقل واضحًا. وبالتالي، هناك بعض الصفحات حيث لا تتوفر أوصاف الحقول، وهناك صفحات أخرى فيها بعض الأوصاف القليلة، بينما تتضمن بعض الصفحات المعقدة الكثير من هذه الأوصاف، ومنها عدد كبير من صفحات المحددات. 
 
-إذا كان لديك حق الوصول إلى بيئة التطوير في Microsoft Dynamics 365 for Operations، فيمكنك إضافة أوصاف حقول جديدة وتخصيص الأوصاف الموجودة. على سبيل المثال، يمكنك إضافة معلومات خاصة بالشركة إلى وصف الحقل. لمزيد من المعلومات، راجع [تعليمات تخصيص الحقل](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
+إذا كان لديك حق الوصول إلى بيئة التطوير في Finance and Operations، فيمكنك إضافة أوصاف حقول جديدة وتخصيص الأوصاف الموجودة. على سبيل المثال، يمكنك إضافة معلومات خاصة بالشركة إلى وصف الحقل. لمزيد من المعلومات، راجع [تعليمات تخصيص الحقل](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>الاطلاع على أوصاف الحقول في واجهة المستخدم
-يمكنك عرض أوصاف الحقول عن طريق المرور بالماوس فوق حقل. إذا لم يتوفر أي وصف، فسترى اسم الحقل عند تمرير الماوس فوق الحقل. ملاحظة: في الإصدار 7.0.0، يمكن عرض أوصاف الحقول فقط في صفحة **أوصاف الحقول**.) ‏‫يبين الرسم التوضيحي التالي وصف الحقل الذي يظهر عند تمرير الماوس فوق الحقل **تأمين الأصناف أثناء الجرد**. 
+يمكنك عرض أوصاف الحقول عن طريق المرور بالماوس فوق حقل. إذا لم يتوفر أي وصف، فسترى اسم الحقل عند تمرير الماوس فوق الحقل. (ملاحظة: في Dynamics AX 7.0 (فبراير 2016)، يمكن عرض أوصاف الحقول فقط في صفحة **أوصاف الحقول**.) ‏‫يبين الرسم التوضيحي التالي وصف الحقل الذي يظهر عند تمرير الماوس فوق الحقل **تأمين الأصناف أثناء الجرد**. 
 
 [![مثال عن وصف حقل](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ ms.lasthandoff: 05/25/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[تعليمات تخصيص الحقل](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[تعليمات تخصيص الحقل](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

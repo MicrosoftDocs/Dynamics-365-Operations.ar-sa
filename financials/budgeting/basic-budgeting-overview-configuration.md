@@ -1,15 +1,15 @@
 ---
 title: "نظرة عامة على إعداد الموازنة"
-description: "ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Operations من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Dynamics 365 for Operations أو تحميلها من برنامج تابع لجهة خارجية."
+description: "ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations, Enterprise edition أو تحميلها من برنامج تابع لجهة خارجية."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="budgeting-overview"></a>نظرة عامة على إعداد الموازنة
+# <a name="budgeting-overview"></a>نظرة عامة على إعداد الموازنة 
 
 [!include[banner](../includes/banner.md)]
 
 
-ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Operations من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Dynamics 365 for Operations أو تحميلها من برنامج تابع لجهة خارجية.
+ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations أو تحميلها من برنامج تابع لجهة خارجية.
 
 <a name="overview"></a>نظرة عامة
 --------
 
 يتم الاحتفاظ الموازنة المعتمدة لكيان قانوني في وثيقة تُعرف باسم *إدخال سجل الموازنة*. ‏‫وتعرف البنود في مستند إدخال سجل الموازنة بإدخالات *‬‏‫حساب الموازنة‬‏‫* وتحتوي على معلومات البعد المالي والتواريخ ومبالغ الموازنة المعتمدة. وتم دمج مستند إدخال سجل الموازنة في التقارير المالية الأساسية وصفحات الاستعلام حيث تتم مقارنة المبالغ الفعلية في دفتر الأستاذ بمبالغ الموازنة.‬ 
 
-هناك عدة طرق لإنشاء إدخالات سجل الموازنة في Dynamics 365 for Operations:
+هناك عدة طرق لإنشاء إدخالات سجل الموازنة في Finance and Operations:
 
 -   أدخل معلومات المستند يدوياً في صفحة **إدخالات سجل الموازنة**.
 -   استخدم قالب Microsoft Excel الذي يمكنك فتحه بالنقر فوق الزر **فتح في Excel** في صفحة **إدخالات سجل الموازنة**.

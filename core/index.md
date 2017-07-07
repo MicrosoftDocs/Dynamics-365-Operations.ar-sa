@@ -114,7 +114,7 @@ ms.lasthandoff: 06/28/2017
 <p><a href="../retail/call-center-functionality">مركز الاتصال</p>
 <p><a href="../retail/define-maintain-retail-channels">إعداد القنوات وإدارتها</p>
 <p><a href="../retail/retail-peripherals-overview">نقطة البيع الحديثة ونقطة بيع المجموعة</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">مطور البيع بالتجزئة والإدارة</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">مطور وإدارة Retail</p>
 
 </td>
 </tr>

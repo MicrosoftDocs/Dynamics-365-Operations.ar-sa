@@ -3,14 +3,14 @@ title: "استيراد أسعار صرف العملات"
 description: "إذا تلقى كيان قانوني فواتير بعملات أجنبية، فمن الضروري تحويل العملات الأجنبية إلى العملة المحلية. وهذا يعني أنه يلزم معرفة آخر تحديث لأسعار صرف العملات المختلفة حتى تاريخه. يوفر هذا الموضوع نظرة عامة حول الإعدادات المطلوبة وطرق المعالجة لاستيراد معدلات مرجع سعر الصرف الأجنبي المنشورة عبر الإنترنت من خلال موفري أسعار الصرف مثل البنك المركزي الأوروبي وبنك روسيا الاتحادية المركزي."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 69a622f54581504989504a06f90d443a98ad2f63
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2d0654d6dbed3b4fe56b8918194132787f66af80
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2017
 توضح الأقسام التالية تدفق المعلومات المستخدم لإعداد ومعالجة استيراد أسعار صرف العملات الأجنبية.
 
 ## <a name="configure-an-exchange-rate-provider"></a>تكوين موفر سعر الصرف
-قبل أن يمكنك استيراد أسعار الصرف، يتعين عليك إعداد المعلومات المطلوبة من قبل الموفرين الذين يقدمون أسعار الصرف. استخدم صفحة **تكوين موفرات أسعار الصرف** لتحديد موفري سعر الصرف. تم تضمين بعض موفري سعر الصرف في بيانات العرض التوضيحي في Microsoft Dynamics 365 for Operations. يعرض الجدول التالي الأوصاف الخاصة بعناصر التحكم في هذه الصفحة.
+قبل أن يمكنك استيراد أسعار الصرف، يتعين عليك إعداد المعلومات المطلوبة من قبل الموفرين الذين يقدمون أسعار الصرف. استخدم صفحة **تكوين موفرات أسعار الصرف** لتحديد موفري سعر الصرف. تم تضمين بعض موفري سعر الصرف في بيانات العرض التوضيحي في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. يعرض الجدول التالي الأوصاف الخاصة بعناصر التحكم في هذه الصفحة.
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

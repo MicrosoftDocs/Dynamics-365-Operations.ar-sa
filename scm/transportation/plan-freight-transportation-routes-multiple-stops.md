@@ -1,16 +1,16 @@
 ---
 title: "تخطيط مسارات نقل الشحن ذات نقاط توقف متعددة"
-description: "توضح هذه المقالة العناصر المختلفة التي تستخدمها لتخطيط مسارات النقل في Microsoft Dynamics AX."
+description: "توضح هذه المقالة العناصر المختلفة التي تستخدمها لتخطيط مسارات النقل في Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 90013
 ms.assetid: 50d6f58c-f1c8-4321-9e83-8445cec57a85
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cdb073f707355d6dbf8dffd3abc410e1320c5db9
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: e7965c094f91bcbcad21ecfa599f133a6e84f4f7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة العناصر المختلفة التي تستخدمها لتخطيط مسارات النقل في Microsoft Dynamics AX.
+توضح هذه المقالة العناصر المختلفة التي تستخدمها لتخطيط مسارات النقل في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 يمكنك استخدام خطط وأدلة مسارات لمسارات نقل معقدة ذات نقاط توقف متعددة. إذا كان المسار نفسه سيستخدم بشكل منتظم، فيمكنك إعداد مسار مجدول.
 

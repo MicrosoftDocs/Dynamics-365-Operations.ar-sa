@@ -3,26 +3,27 @@ title: "أكواد المعلومات"
 description: "توفر هذه المقالة نظرة عامة حول أكواد المعلومات ومجموعات أكواد المعلومات وكيفية استخدامها."
 author: mugunthanm
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: b7417a8fece55963dcde53e7016e4d41793a6102
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -41,8 +42,8 @@ ms.lasthandoff: 05/25/2017
 -   بيع منتج كبيع عادي أو كبيع بالخصم أو كمنتج مجاني.
 -   يمكنك مطالبة الصراف بإدخال قيمة أو تحديد كود من قائمة الأكواد الفرعية عند قيامه بفتح درج السجل وعدم تنفيذ عملية مبيعات.
 
-## <a name="info-codes-group-in-retail-and-commerce"></a>مجموعة أكواد المعلومات في البيع بالتجزئة والتجارة
-في Dynamics 365 for Operations - البيع بالتجزئة، يمكنك إنشاء مجموعات رموز المعلومات.‬ تعمل مجموعات أكواد المعلومات على زيادة سهولة الاستخدام من خلال تمكين تحديد أكواد معلومات أقل ومن ثم استخدامهم بشكل أكثر تنوعًا. يمكنك استخدام مجموعات أكواد المعلومات بالطرقتين التاليتين:
+## <a name="info-codes-group"></a>مجموعة أكواد المعلومات
+في Dynamics 365 for Retail، يمكنك إنشاء مجموعات من أكواد المعلومات.‬ تعمل مجموعات أكواد المعلومات على زيادة سهولة الاستخدام من خلال تمكين تحديد أكواد معلومات أقل ومن ثم استخدامهم بشكل أكثر تنوعًا. يمكنك استخدام مجموعات أكواد المعلومات بالطرقتين التاليتين:
 -   تحديد عدد أقل من أكواد المعلومات وإعادة استخدامها بسهولة. لا يوجد لأكواد المعلومات المضمنة في مجموعات أكواد المعلومات تبعيات محددة مسبقًا بناءً على أكواد المعلومات الأخرى. يمكنك تضمين نفس كود المعلومات في عدة مجموعات أكواد معلومات واستخدام ترتيب الأولويات لوضع نفس أكواد المعلومات بترتيب منطقي في أي حالة بعينها.
 -   ربط أكواد معلومات بمجموعات أكواد معلومات أو أكواد معلومات أخرى لجمع معلومات حول منتج أو حركة دون الحاجة إلى تحديد كود معلومات منفصل أو كود معلومات مرتبط لكل سيناريو.
 

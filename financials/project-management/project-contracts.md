@@ -1,27 +1,27 @@
 ---
 title: "عقود المشاريع"
-description: "تصف هذه المقالة عقود المشاريع التي يمكنك إنشاؤها لمختلف أنواع المشاريع ومصادر التمويل وكيفية إدارة العقود وفوترة عملاء المشاريع في Microsoft Dynamics 365 for Operations، كما تقدم هذه المقالة أمثلة عن هذه العقود."
+description: "تصف هذه المقالة عقود المشاريع التي يمكنك إنشاؤها لمختلف أنواع المشاريع ومصادر التمويل وكيفية إدارة العقود وفوترة عملاء المشاريع في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، كما تقدم أمثلة لهذه العقود."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f3bdbd147f3132d64e3b9ac2bdd37f7278ae18d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2aa70e050bf068a26e2d0d86c26045fc000931eb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-تصف هذه المقالة عقود المشاريع التي يمكنك إنشاؤها لمختلف أنواع المشاريع ومصادر التمويل وكيفية إدارة العقود وفوترة عملاء المشاريع في Microsoft Dynamics 365 for Operations، كما تقدم هذه المقالة أمثلة عن هذه العقود.
+تصف هذه المقالة عقود المشاريع التي يمكنك إنشاؤها لمختلف أنواع المشاريع ومصادر التمويل وكيفية إدارة العقود وفوترة عملاء المشاريع في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، كما تقدم أمثلة لهذه العقود.
 
 يحدد نوع المشروع الذي تقوم بإنشائه لعقد مشروع الطريقة المستخدمة لفوترة عملاء المشروع. ويمكنك تغيير عقد مشروع والمشروع المرتبط، ولكن لا يمكنك تغيير نوع المشروع. 
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/25/2017
 -   يتم تمويل مشروع طرق بشكل مشترك بين بلديتين.
 -   يتم تمويل مشروع جسر بمنحه حكومية وشركة خاصة.
 
-في Microsoft Dynamics 365 for Operations، يمكنك تقسيم الفوترة لحركة واحدة أو مشروع بأكمله بين عدة عملاء أو منح أو مؤسسات متعددة. 
+في Finance and Operations، يمكنك تقسيم الفوترة لحركة واحدة أو مشروع بأكمله بين عملاء أو منح أو مؤسسات متعددة. 
 
 وفي المشاريع التي تحتوي على العديد من الممولين، تُسمى جميع الأطراف المساهمة في تمويل مشروع التمويل المتقدم مصادر التمويل. وبعد تحديد العميل أو المؤسسة أو المنحة كمصدر للتمويل، يمكن تعيينها لواحد أو أكثر من قواعد التمويل. وتتضمن قواعد التمويل المعايير التي تحدد كيفية تخصيص المصاريف لمختلف مصادر التمويل لمشروع. 
 

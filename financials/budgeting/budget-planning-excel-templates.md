@@ -3,7 +3,7 @@ title: "قوالب التخطيط للموازنة لـ Excel"
 description: "يوضح هذا الموضوع كيفية إنشاء قوالب Microsoft Excel التي يمكن استخدامها مع خطط الموازنة."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ ms.lasthandoff: 05/25/2017
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> لتجنب المشاكل المحتملة في عرض وتحرير بيانات خطة الموازنة باستخدام Excel، فمن ثم يجب تسجيل دخول نفس المستخدم إلى كل من Dynamics 365 for Operations وموصل بيانات وظيفة Office الإضافية لـ Microsoft Dynamics.
+> لتجنب المشاكل المحتملة في عرض وتحرير بيانات خطة الموازنة باستخدام Excel، يجب تسجيل دخول نفس المستخدم إلى كل من Microsoft Dynamics 365 for Finance and Operations, Enterprise edition وموصل بيانات وظيفة Office الإضافية لـ Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>إضافة عنوان إلى قالب مستند خطة الموازنة
 لإضافة معلومات العنوان، حدد الصف العلوي في ملف Excel، ثم قم بإدراج صفوف فارغة. انقر فوق **تصميم** في **موصل البيانات** لإضافة حقول العنوان إلى ملف Excel.
@@ -79,11 +79,11 @@ ms.lasthandoff: 05/25/2017
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**. عادة ما يتم تسمية جدول العمليات المرتبطة لـ Dynamics 365 for Operations باسم "AXTtable1" على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].
+> لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**. عادة ما يتم تسمية جدول العمليات المرتبطة لـ Finance and Operations باسم "AXTtable1" على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].
 
 كرر هذه الخطوات لإدراج عمود **تسوية**. استخدم المعادلة= AxTable1\[طلب إجمالي\]\*$I$1 لهذا العمود. وسوف تأخذ هذه القيمة في الخلية 1 ومضاعفة القيم في عمود **الطلب الإجمالي** لحساب مبالغ التسوية.
 
-قم بحفظ ملف Excel وإغلاقه. قم بالرجوع إلى Dynamics 365 for Operations، وفي **تخطيطات**، انقر فوق **قالب &gt;تحميل** لتحميل قالب Excel المحفوظ ليتم استخدامه لخطة الموازنة. 
+قم بحفظ ملف Excel وإغلاقه. قم بالرجوع إلى Finance and Operations، وفي **تخطيطات**، انقر فوق **قالب &gt; تحميل** لتحميل قالب Excel المحفوظ ليتم استخدامه لخطة الموازنة. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

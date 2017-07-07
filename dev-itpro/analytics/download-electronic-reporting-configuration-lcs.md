@@ -3,14 +3,14 @@ title: "تنزيل تكوينات التقارير الإلكترونية من L
 description: "يوضح هذا الموضوع كيفية تنزيل تكوينات التقارير الإلكترونية من Microsoft Dynamics Lifecycle Services ‏(LCS)."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 105843
 ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1e73cd38c33d88feaba825abb64721bc332a4d6e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: be77d76194e9d38589548113cc650599d5af4323
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 
 يرشدك هذا البرنامج التعليمي عبر عملية تنزيل الإصدار الأحدث من تكوينات التقارير الإلكترونية من Microsoft Dynamics Lifecycle Services (LCS).
 
-1.  سجّل الدخول إلى Dynamics 365 for Operations باستخدام أحد الأدوار التالية:
+1.  سجّل الدخول إلى Finance and Operations باستخدام أحد الأدوار التالية:
     -   مطور إعداد التقارير الإلكتروني
     -   مستشار وظيفي لإعداد التقارير الإلكتروني
     -   مسؤول النظام
@@ -55,7 +55,7 @@ ms.lasthandoff: 05/25/2017
 6.  انقر فوق **فتح** لعرض قائمة تكوينات التقارير الإلكترونية للمستودع المحدد. [![تحديث التقارير الإلكترونية من LCS لـ MS - عمل ‏‫مستودع LCS](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  في شجرة التكوينات في الجزء الأيمن، حدد تكوين التقارير الإلكترونية المطلوب.
 8.  على علامة التبويب السريعة **إصدارات**، حدد الإصدار المطلوب لتكوين التقارير الإلكترونية المحدد.
-9.  انقر فوق **استيراد** لتنزيل الإصدار المحدد من LCS إلى مثيل Dynamics 365 for Operations الحالي. **ملاحظة:** لا يتوفر الزر **استيراد‏‎** لإصدارات تكوينات التقارير الإلكترونية الموجودة في مثيل Dynamics 365 for Operations الحالي. [![تحديث التقارير الإلكترونية من LCS لـ MS - تنزيل التكوين](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+9.  انقر فوق **استيراد** لتنزيل الإصدار المحدد من LCS إلى مثيل Finance and Operations الحالي. **ملاحظة:** لا يتوفر الزر **استيراد‏‎** لإصدارات تكوينات التقارير الإلكترونية الموجودة في مثيل Finance and Operations الحالي. [![تحديث التقارير الإلكترونية من LCS لـ MS - تنزيل التكوين](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 **ملاحظة:** استنادًا إلى إعدادات التقارير الإلكترونية، يتم التحقق من صحة التكوينات بعد استيرادها. قد يتم إعلامك بأي مشكلات عدم التوافق التي يتم اكتشافها. يجب حل هذه المشكلات قبل أن تتمكن من استخدام إصدار التكوين المستورد. لمزيد من المعلومات، راجع قائمة المقالات ذات الصلة لهذا الموضوع.
 

@@ -3,14 +3,14 @@ title: "دفاتر يومية المخزون"
 description: "توضح هذه المقالة كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d947b184fd61af3b997182f0a39a8c13c58d6a5a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,10 +30,12 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
+
 
 توضح هذه المقالة كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية. 
 
-تُستخدم دفاتر يومية المخزون في Microsoft Dynamics 365 for Operations لترحيل حركات المخزون الفعلية من مختلف الأنواع، مثل ترحيل عمليات الإصدار والاستلام، وحركات المخزون، وإنشاء قائمة مكونات الصنف (BOM)، وتسوية المخزون الفعلي. وتُستخدم كافة دفاتر يومية المخزون هذه بطريقة مماثلة، ولكن يتم تقسيمها إلى أنواع مختلفة.
+تُستخدم دفاتر يومية المخزون في Microsoft Dynamics 365 for Finance and Operations لترحيل حركات المخزون الفعلية من مختلف الأنواع، مثل ترحيل عمليات الإصدار والاستلام، وحركات المخزون، وإنشاء قائمة مكونات الصنف (BOM)، وتسوية المخزون الفعلي. وتُستخدم كافة دفاتر يومية المخزون هذه بطريقة مماثلة، ولكن يتم تقسيمها إلى أنواع مختلفة.
 
 ## <a name="types-of-inventory-journals"></a>أنواع دفاتر يومية المخزون
 تتوفر الأنواع التالية من دفاتر يومية المخزون:
@@ -68,7 +70,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="item-arrival"></a>وصول الصنف
 
-يمكنك استخدام دفتر يومية وصول الصنف لتسجيل استلام الأصناف (على سبيل المثال، من أوامر الشراء). ويمكنك إنشاء دفتر يومية وصول صنف كجزء من إدارة الوصول من صفحة **نظرة عامة على الوصول**، أو يمكنك يدوياً إنشاء إدخال دفتر يومية من صفحة **وصول الصنف**. وإذا قمت بتمكين اسم دفتر يومية وصول الصنف للتحقق من وجود مواقع الانتقاء، فسيبحث Dynamics 365 for Operations عن موقع للأصناف المستلمة، وينشئ وجهات مواقع للأصناف الواردة، في حال وجود حيّز لذلك.
+يمكنك استخدام دفتر يومية وصول الصنف لتسجيل استلام الأصناف (على سبيل المثال، من أوامر الشراء). ويمكنك إنشاء دفتر يومية وصول صنف كجزء من إدارة الوصول من صفحة **نظرة عامة على الوصول**، أو يمكنك يدوياً إنشاء إدخال دفتر يومية من صفحة **وصول الصنف**. وإذا قمت بتمكين اسم دفتر يومية وصول الصنف للتحقق من وجود مواقع الانتقاء، فسيبحث Finance and Operations عن موقع للأصناف المستلمة، وينشئ وجهات مواقع للأصناف الواردة، في حال وجود حيّز لذلك.
 
 ### <a name="production-input"></a>مدخلات الإنتاج
 

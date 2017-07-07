@@ -1,27 +1,27 @@
 ---
 title: "عرض التقارير المالية"
-description: "توضح هذه المقالة كيفية عرض واستكشاف التقارير المالية في Microsoft Dynamics AX. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها."
-author: RobinARH
+description: "تصف هذه المقالة كيفية عرض التقارير المالية واستكشافها في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة كيفية عرض واستكشاف التقارير المالية في Microsoft Dynamics AX. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
+تصف هذه المقالة كيفية عرض التقارير المالية واستكشافها في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
 
 <a name="financial-reporting-overview"></a>نظرة عامة على التقارير المالية
 ----------------------------
@@ -64,7 +64,7 @@ ms.lasthandoff: 05/25/2017
 بعد تحديث تقرير مالي، يمكنك نشره. سيستطيع الأشخاص في المؤسسة عرضه فيما بعد. ولنشر تقرير، في "جزء الإجراءات"، انقر فوق **نشر**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>عرض تقرير مالي بعملة أخرى
-يمكن عرض تقرير مالي بأي عملة في أي وقت. ولعرض تقرير بعمله أخرى، في "جزء الإجراءات"، انقر فوق **عملة**، ثم حدد عملة. وتتم ترجمة التقرير إلى تلك العملة، ويتم عرض النتائج. ويتم تحديث أي أكواد أو رموز عملة مضمنة كجزء من تصميم التقرير لإظهار العملة الجديدة. العملات التي تظهر في القائمة هي عملات تقارير تم تكوينها في Microsoft Dynamics AX.
+يمكن عرض تقرير مالي بأي عملة في أي وقت. ولعرض تقرير بعمله أخرى، في "جزء الإجراءات"، انقر فوق **عملة**، ثم حدد عملة. وتتم ترجمة التقرير إلى تلك العملة، ويتم عرض النتائج. ويتم تحديث أي أكواد أو رموز عملة مضمنة كجزء من تصميم التقرير لإظهار العملة الجديدة. العملات التي تظهر في القائمة هي عملات تقارير تم تكوينها في Finance and Operations.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>عرض طريقة العرض ملخصة للتقرير المالي
 يمكن أن يحتوي التقرير المالي على بنود تفاصيل وبنود ملخص. بنود التفاصيل عبارة عن بنود تتضمن الحسابات الرئيسية أو الأبعاد. بنود الملخص عبارة عن بنود العملية الحسابية والوصف والإجمالي. ولعرض بنود الملخص لتقرير فقط، انقر فوق **إظهار**، ثم انقر فوق **بنود الملخص فقط**. يتم طي التقرير ويعرض بنود الملخص فقط. ولعرض بنود التفاصيل جنبًا إلى جنب مع بنود الملخص، انقر فوق **إظهار**، ثم انقر فوق **بنود الملخص فقط** مرة أخرى.
@@ -88,7 +88,8 @@ ms.lasthandoff: 05/25/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[التقارير المالية في Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[التقارير المالية في Microsoft Dynamics AX](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

@@ -3,13 +3,13 @@ title: "الصفحة الرئيسية لمحاسبة التكاليف‬‏‫"
 description: "يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة لمحاسبة التكاليف‬‏‫."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbf755c7adb3589ca0fa5242589f1aae3ef6e1b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="get-started"></a>بدء الاستخدام
 
-توفر معامل التدريب العملي لمحاسبة التكاليف الخطوات الأساسية لتكوين Microsoft Dynamics 365 for Operations - محاسبة التكاليف بغية إجراء تحليل التكلفة الفعلية. وتوفر أيضاً سلسلة من الإجراءات التي يمكن إكمالها بالترتيب الذي تظهر به.
+توفر معامل التدريب العملي لمحاسبة التكاليف الخطوات الأساسية لتكوين Microsoft Dynamics 365 for Finance and Operations, Enterprise edition - محاسبة التكاليف بغية إجراء تحليل التكلفة الفعلية. وتوفر أيضاً سلسلة من الإجراءات التي يمكن إكمالها بالترتيب الذي تظهر به.
 
 -   [بدء استخدام محاسبة التكاليف](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (المستند التقني ويتطلب حساب CustomerSource)
 
@@ -68,11 +68,11 @@ ms.lasthandoff: 05/25/2017
 
 -   [مساحة العمل المحمولة للتحكم في التكاليف](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>محتوى Power BI لتحليل محاسبة التكاليف
-يهدف محتوى Microsoft Power BI لتحليل محاسبة التكاليف إلى مساعدة مراقبي التكاليف أو أي شخص مسؤول عن تنفيذ مراقبة التكاليف لمؤسسة. ويتضمن المقاييس الرئيسية، مثل التكلفة والمقدار ومعدل التكلفة بحسب التكلفة الفعلية وتكلفة الموازنة وتكلفة الموازنة المرنة. يستخدم بيانات الحركة من محاسبة التكاليف في Microsoft Dynamics 365 for Operations، ويقدم نظرة إجمالية عن التكاليف للمؤسسة بأكملها في عملة تقارير واحدة. يمكن للمديرين تصفية البيانات حسب كائنات التكلفة لتنفيذ مراقبة التكاليف الخاصة بوحداتهم التنظيمية، حتى لو كانت المؤسسة تمتلك العديد من الكيانات القانونية.
+## <a name="cost-accounting-analysis-power-bi-content"></a>محتوى Power BI - تحليل محاسبة التكاليف
+يهدف محتوى Microsoft Power BI تحليل محاسبة التكاليف إلى مساعدة مراقبي التكاليف أو أي شخص مسؤول عن تنفيذ مراقبة التكاليف لمؤسسة. ويتضمن المقاييس الرئيسية، مثل التكلفة والمقدار ومعدل التكلفة بحسب التكلفة الفعلية وتكلفة الموازنة وتكلفة الموازنة المرنة. يستخدم بيانات الحركة من الوحدة النمطية لمحاسبة التكاليف في Finance and Operations، ويقدم نظرة إجمالية عن التكاليف للمؤسسة بأكملها في عملة تقارير واحدة. يمكن للمديرين تصفية البيانات حسب كائنات التكلفة لتنفيذ مراقبة التكاليف الخاصة بوحداتهم التنظيمية، حتى لو كانت المؤسسة تمتلك العديد من الكيانات القانونية.
 
--   [محتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [إعداد الأمان لمحتوى Power BI لتحليل محاسبة التكاليف](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [محتوى Power BI - تحليل محاسبة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [إعداد الأمان لمحتوى Power BI - تحليل محاسبة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 
 
 

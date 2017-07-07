@@ -1,15 +1,16 @@
 ---
 title: "البحث عن إجراء"
-description: "توضح هذه المقالة وظيفة البحث عن إجراء في Microsoft Dynamics 365 for Operations. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة."
+description: "توضح هذه المقالة وظيفة البحث عن إجراء في Microsoft Dynamics 365 for Finance and Operations. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62303
 ms.assetid: 62c70de0-fdde-4417-8e08-0583fb095a40
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef5709889dcabd4c9ed760f57d210956f38c37e9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة وظيفة البحث عن إجراء في Microsoft Dynamics 365 for Operations. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.
+توضح هذه المقالة وظيفة البحث عن إجراء في Microsoft Dynamics 365 for Finance and Operations. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.
 
 <a name="introduction"></a>مقدمة
 ------------
 
-تعرض الصفحات في Microsoft Dynamics 365 for Operations بشكل أساسي الأوامر في أجزاء الإجراءات، فضلًا عن أجزاء الإجراء المعيارية التي تظهر في أعلى الصفحة، وأشرطة الأدوات التي تظهر في أقسام متنوعة من الصفحة. في الإصدارات السابقة، تسمح لك وظيفة "التلميحات الرئيسية" الوصول بسرعة إلى أي زر في أجزاء الإجراء من خلال الضغط على مفتاح Alt، ثم مجموعة من الأحرف. 
+تعرض الصفحات في Microsoft Dynamics 365 for Finance and Operations بشكل أساسي الأوامر في أجزاء الإجراءات؛ جزء الإجراءات المعيارية التي تظهر في أعلى الصفحة، وأشرطة الأدوات التي تظهر في أقسام متنوعة من الصفحة. في الإصدارات السابقة، تسمح لك وظيفة "التلميحات الرئيسية" الوصول بسرعة إلى أي زر في أجزاء الإجراء من خلال الضغط على مفتاح Alt، ثم مجموعة من الأحرف. 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) ولكن، في الإصدار الحالي من Dynamics 365 for Operations، لم تعد ميزة التلميحات الأساسية متاحة، ولكن تم استبدالها بميزة البحث عن إجراء. تُمكّنك هذه الميزة الجديدة من البحث بسرعة عن وتشغيل زر من أي "جزء إجراء" مرئي.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) ولكن، في الإصدار الحالي من Finance and Operations، لم تعد ميزة التلميحات الأساسية متاحة، ولكن تم استبدالها بميزة البحث عن إجراء. تُمكّنك هذه الميزة الجديدة من البحث بسرعة عن وتشغيل زر من أي "جزء إجراء" مرئي.
 
 ## <a name="using-action-search"></a>استخدام البحث عن إجراء
 لاستخدام ميزة البحث عن إجراء، اتبع الخطوات التالية.
@@ -53,7 +54,7 @@ ms.lasthandoff: 05/25/2017
 يمكنك أيضًا بدء تشغيل البحث عن إجراء بالضغط على Ctrl+/ أو Alt+Q. اضغط على اختصار لوحة المفاتيح مرة أخرى لإرجاع التركيز إلى الموضع الأخير في الصفحة مرة أخرى.
 
 ## <a name="understanding-the-results-list"></a>فهم قائمة النتائج
-غالبًا، في Dynamics 365 for Operations، يجب أن تعرف كل من موقع و سياق الزر ليكون لديك فهم واضح بغرض هذا الزر. وبالتالي، يتم عرض معلومات إضافية لكل عنصر في قائمة النتائج، وذلك لمساعدتك على فهم وظيفة الأزرار التي تظهر في القائمة. وبشكل خاص، يتم عرض "مسار" الزر. قد يتضمن هذا المسار تسميات عناصر واجهة المستخدم التالية، حسب الاقتضاء:
+غالبًا، في Finance and Operations، يجب أن تعرف كل من موقع و سياق الزر ليكون لديك فهم واضح بوظيفة هذا الزر. وبالتالي، يتم عرض معلومات إضافية لكل عنصر في قائمة النتائج، وذلك لمساعدتك على فهم وظيفة الأزرار التي تظهر في القائمة. وبشكل خاص، يتم عرض "مسار" الزر. قد يتضمن هذا المسار تسميات عناصر واجهة المستخدم التالية، حسب الاقتضاء:
 
 -   علامة تبويب جزء الإجراءات
 -   مجموعة الزر
@@ -70,7 +71,7 @@ ms.lasthandoff: 05/25/2017
 [![المخزون الفعلي](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>البحث عن إجراء بحث مقابل البحث عن تنقل
-وعلى الرغم من أنه يتم استخدام البحث عن إجراء للبحث عن وتشغيل الإجراءات في صفحة، إلا أن هناك آلية بحث منفصلة للبحث والتنقل بين الصفحات في Dynamics 365 for Operations. للمزيد من المعلومات حول هذه الميزة، راجع مقالة [‏‫بحث التنقل‬](navigation-search.md).
+وعلى الرغم من أنه يتم استخدام البحث عن إجراء للبحث عن وتشغيل الإجراءات في صفحة، إلا أن هناك آلية بحث منفصلة للبحث والتنقل بين الصفحات في Finance and Operations. للمزيد من المعلومات حول هذه الميزة، راجع مقالة [‏‫بحث التنقل‬](navigation-search.md).
 
 
 

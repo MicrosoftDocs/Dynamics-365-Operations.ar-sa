@@ -3,14 +3,14 @@ title: "اتفاقيات الشراء"
 description: "توفر هذه المقالة معلومات حول تعيين اتفاقيات الشراء. اتفاقية شراء هو عقد الذي يلزم مؤسسة بشراء كمية محددة أو مبلغ باستخدام أوامر شراء متعددة مع مرور الوقت. مقابل هذا الالتزام، يتلقى المشتري أسعار وخصومات خاصة."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ ms.lasthandoff: 05/25/2017
 عندما تقوم بإنشاء أمر شراء، يمكنك تطبيق اتفاقية شراء له. ويتم نسخ المعلومات من شروط الاتفاقية، مثل شروط الدفع، وشروط التسليم، وعنوان التسليم، ثم يتم نسخها إلى رأس أمر الشراء. وإذا كانت أمر الشراء يحتوي على بند واحد أو أكثر للمنتجات أو الفئات المشمولة ضمن اتفاقية الشراء، فإنه يتم استخدام الأسعار والخصومات من اتفاقية الشراء لتلك البنود. ويُسهم المبلغ أو الكمية الواردة في بند الأمر في تنفيذ الالتزام في اتفاقية الشراء. ويمكن أن يتضمن أمر الشراء نفسه كلا البندين غير المرتبطين باتفاقية الشراء والبنود التي لها التزام خاص باتفاقية شراء.  
 
 ويمكنك تحديد اتفاقية شراء فقط عندما تقوم بإنشاء أمر شراء. ولا يمكنك تحديد اتفاقية شراء بعد إنشاء أمر الشراء.  
-في بعض الحالات حيث يتم إنشاء أوامر الشراء بطريقة غير مباشرة، يمكنك التحكم في ما إذا كان Microsoft Dynamics 365 for Operations يبحث تلقائيًا عن اتفاقيات الشراء القابلة للتطبيق. على سبيل المثال، قد تقوم بذلك عندما يتم تأكيد أوامر الشراء المخططة أو إنشاء أوامر الشراء استنادًا إلى أوامر المبيعات تلقائيًا.
+في بعض الحالات حيث يتم إنشاء أوامر الشراء بطريقة غير مباشرة، يمكنك التحكم في ما إذا كان تطبيق Finance and Operations يبحث تلقائيًا عن اتفاقيات الشراء القابلة للتطبيق. على سبيل المثال، قد تقوم بذلك عندما يتم تأكيد أوامر الشراء المخططة أو إنشاء أوامر الشراء استنادًا إلى أوامر المبيعات تلقائيًا.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>اتفاقيات الشراء والتجارة بين الشركات الشقيقة
 يمكن إنشاء علاقات تجارية بين شركات شقيقة وبين حسابات الموردين وحسابات العميل في كيانات قانونية مختلفة. وعندما يتم إنشاء أمر مبيعات أو أمر شراء لأحد الأطراف، يتم إنشاء سلسلة أوامر بين الشركات الشقيقة. وفي سلسلة الأوامر، يتم إنشاء أمر المبيعات وأمر الشراء في الكيانات القانونية المناسبة.  

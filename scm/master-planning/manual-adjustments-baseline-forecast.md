@@ -3,14 +3,14 @@ title: "القيام بتسويات يدوية في التنبؤ الأساسي"
 description: "يشرح هذا المقال كيف يمكن إجراء التسويات اليدوية على تنبؤ خط أساسي وعرض تفاصيل التنبؤ."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 00e3d39d93a971dd6d4e88e322a1311eb58d7230
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0b3b56aa838888461a6d27c6612e405a3cf59414
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -73,7 +73,7 @@ ms.lasthandoff: 05/25/2017
 **ملاحظات:**
 
 -   فاصل الثقة الذي يظهر في قسم **التنبؤ** من الصفحة يمثل الفرق بين الحد الأعلى لفاصل الثقة والحد الأدنى لفاصل الثقة. لعرض القيم للحدود العليا والسفلية، قم بالمرور فوق التخطيط في القسم **‏‫التنبؤ والطلب التاريخي بشكل رسومي‬**.
--   إذا كنت تستخدم التنبؤ بطلب Dynamics 365 for Operations لخدمة Azure Machine Learning، يمكنك تحديد نسبة مئوية لمستوى الثقة الذي ينبغي أن يتمتع به التنبؤ الذي تم إنشاؤه. فاصل الثقة يتكون من مجموعة من القيم التي تعمل كتقديرات جيدة للتنبؤ بالطلب. تشير النسبة المئوية لمستوى الثقة بنسبة 95% إلى وجود فرصة مخاطرة بنسبة 5% بخروج التنبؤ بالطلب من نطاق فاصل الثقة.
+-   إذا كنت تستخدم التنبؤ بالطلب في تطبيق Finance and Operations لخدمة التعلم الآلي من Microsoft Azure، يمكنك تحديد نسبة مئوية لمستوى الثقة الذي ينبغي أن يتمتع به التنبؤ الذي تم إنشاؤه. فاصل الثقة يتكون من مجموعة من القيم التي تعمل كتقديرات جيدة للتنبؤ بالطلب. تشير النسبة المئوية لمستوى الثقة بنسبة 95% إلى وجود فرصة مخاطرة بنسبة 5% بخروج التنبؤ بالطلب من نطاق فاصل الثقة.
 
 يمكن أيضًا إجراء التسويات اليدوية للتنبؤ على الصفحة **تفاصيل التنبؤ بالطلب** عن طريق تعديل القيم في الصف **التنبؤ** في القسم **التنبؤ**.
 

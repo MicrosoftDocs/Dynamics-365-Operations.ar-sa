@@ -3,13 +3,13 @@ title: "مستندات تبرير تخطيط الموازنة"
 description: "توفر مستندات التبرير سردًا لأولئك الذي يطلبون موازنة لتوضيح ضرورة وجود موازنة محددة."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ ms.lasthandoff: 05/25/2017
 
 1.  انقر فوق **التصميم** في وظيفة Office الإضافية لـ Microsoft Dynamics بعد أن قمت بتسجيل الدخول.
 2.  بالنسبة لمعلومات العنوان، استخدم زر **إضافة حقول**.
-3.  قم بتحديد مصدر بيانات الكيان لـ BudgetPlanJustification، ثم انقر فوق **التالي**. **ملاحظة:** هذا الكيان مطلوب لأي مستند تبرير. يمكن استخدام الكيانات الأخرى، ولكن سوف يفشل التحميل للرجوع إلى Microsoft Dynamics 365 for Operations، إذا لم يتم تضمين هذا الكيان.
+3.  قم بتحديد مصدر بيانات الكيان لـ BudgetPlanJustification، ثم انقر فوق **التالي**. **ملاحظة:** هذا الكيان مطلوب لأي مستند تبرير. يمكن استخدام الكيانات الأخرى، ولكن سفيشل التحميل للرجوع إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition إذا لم يتم تضمين هذا الكيان.
 4.  إضافة تسميات وقيم BudgetPlanName وBudgetPlanPreparer وResponsibilityCenter وDocumentNumber في مستند Word. **ملاحظة:** يمكنك استخدام التسميات المخصصة لك بدلاً من التسميات القياسية، إذا لزم الأمر.
 5.  انقر فوق **تم** لإكمال قسم العنوان.
 6.  بالنسبة لتفاصيل مستوى بنود مبالغ خطة الموازنة، انقر فوق **إضافة جدول**.
@@ -57,7 +57,7 @@ ms.lasthandoff: 05/25/2017
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>قم بإعداد عملية التخطيط للموازنة لاستخدام قالب التبرير.
 
-1.  في Microsoft Dynamics 365 for Operations، انتقل إلى **إعداد الموازنة** &gt; **إعداد** &gt; **تخطيط الموازنة** &gt; **‎قوالب مستندات التبرير**.
+1.  في Finance and Operations، انتقل إلى **إعداد الموازنة** &gt; **إعداد** &gt; **تخطيط الموازنة** &gt; **‎قوالب مستندات التبرير**.
 2.  انقر فوق **جديد** واستعرض مستند Microsoft Word الذي تم إنشاؤه حديثًا.
 3.  أدخل اسم عرض قالب ووصفًا. انقر فوق **موافق**.
 4.  انتقل إلى **إعداد الموازنة** &gt; **إعداد** &gt; **الموازنة** **تخطيط** &gt; **عملية تخطيط الموازنة**.
@@ -66,7 +66,7 @@ ms.lasthandoff: 05/25/2017
 
 ##### <a name="edit-and-save-personalized-justification-documents"></a>تحرير وحفظ مستندات التبرير المخصصة
 
-1.  في Dynamics 365 for Operations، قم بإنشاء خطة موازنة جديدة أو فتح خطة الموازنة الموجود.
+1.  في Finance and Operations، قم بإنشاء خطة موازنة جديدة أو فتح خطة الموازنة الموجود.
 2.  في قائمة **تبرير** المنسدلة، حدد **إنشاء مبررات جديدة**.
 3.  بعد ملء التفاصيل، حدد تحميل المستند المخصص من قائمة **تبرير** المنسدلة.
 

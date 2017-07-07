@@ -3,7 +3,7 @@ title: "محاكاة السعر"
 description: "توفر هذه المقالة معلومات حول محاكاة السعر لعروض الأسعار. تساعدك محاكاة السعر على تقييم تأثير الخصومات‬ على سعر المبيعات المستقبلي أثناء معالجة عرض الأسعار قبل أن تلتزم بسعر معين."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 293f09ca8758c0b1a66614eb9c75ca266b044fe7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c5381ab48e394702c2423de7a5b5cb9166993388
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -54,7 +54,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>أنواع الخصومات في الاتفاقيات التجارية
 
-قد تشتمل الاتفاقيات التجارية في نظام Microsoft Dynamics 365 for Operations على أربعة أنواع من خصومات الأسعار. ويمكن إعداد هذه الخصومات لمجموعات أصناف أو عملاء أو أسعار مختلفة، كما يمكن تقييدها حسب التاريخ. ولتجنب حدوث أخطاء، يجب مراعاة الاتفاقيات التجارية عند تشغيل عمليات محاكاة الأسعار. وفيما يلي الأنواع الأربعة للخصومات في الاتفاقيات التجارية:
+قد تشتمل الاتفاقيات التجارية في نظام Dynamics 365 for Finance and Operations على أربعة أنواع من خصومات الأسعار. ويمكن إعداد هذه الخصومات لمجموعات أصناف أو عملاء أو أسعار مختلفة، كما يمكن تقييدها حسب التاريخ. ولتجنب حدوث أخطاء، يجب مراعاة الاتفاقيات التجارية عند تشغيل عمليات محاكاة الأسعار. وفيما يلي الأنواع الأربعة للخصومات في الاتفاقيات التجارية:
 
 -   **سعر المبيعات** – يمكن تحديد أسعار مبيعات للأصناف. وعند إنشاء بنود عرض الأسعار، يبحث البرنامج عن سعر المبيعات الصحيح للصنف وينقله إلى بنود عرض الأسعار. ولذلك، لا تؤثر اتفاقية التجارة التي تشتمل على هذا النوع من الخصم في محاكاة الأسعار. ويعكس سعر المبيعات في بند عرض الأسعار الاتفاقية التجارية.
 -   **خصم البند** – يتم تحديد خصومات خاصة للأصناف تبعاً للكمية التي تم طلبها. وعادةً ما يتم تقليل مبالغ البنود بخصم البند قبل تشغيل محاكاة أسعار. ولذلك، تؤثر اتفاقية التجارة التي تشتمل على هذا النوع من الخصم في محاكاة الأسعار.
