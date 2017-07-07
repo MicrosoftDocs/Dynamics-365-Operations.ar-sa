@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 55021
 ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="lifo-with-physical-value-and-marking"></a>نموذج المخزون ما يرد أخيرًا يصرف أولاً‬ (LIFO) مع القيمة الفعلية والعلامات
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 ما يرد أخيرًا يصرف أولاً (LIFO) هو نموذج مخزون يتم فيه صرف آخر عمليات الاستلام (الأحدث) أولاً. وتتم تسوية الإصدارات من المخزون مقابل آخر عمليات استلام في المخزون استنادًا إلى تاريخ العملية المخزنية. 

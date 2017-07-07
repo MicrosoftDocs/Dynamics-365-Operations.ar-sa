@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventOnhandItem
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 75053
 ms.assetid: 68cc00f4-0f7a-4a7d-be90-8f2e0d0563d3
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="tracking-running-average-cost-per-inventory-dimension"></a>تتبع متوسط التكلفة الجارية لكل بعد مخزون
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 يتم إرفاق مجموعة أبعاد مخزون لكل صنف بالمخزون. ولذلك، يتم احتساب متوسط سعر التكلفة الحالي للصنف استنادًا إلى أبعاد المخزون المحددة التي يتم تعقبها ماليًا.

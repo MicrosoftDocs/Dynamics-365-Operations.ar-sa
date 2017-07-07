@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 54682
 ms.assetid: dc0e2855-83a0-41a7-a398-3c7852597d1a
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="fifo-with-physical-value-and-marking"></a>ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 تعتبر قاعدة "ما يدخل أولاً يخرج أولاً" (FIFO) إحدى نماذج المخزون التي يتم فيها إصدار عمليات الاستلام الأولى المكتسبة أولاً. تتم تسوية الإصدارات المحدّثة ماليًا من المخزون مقابل عمليات الاستلام التي تم تحديثها ماليًا أولاً إلى المخزون وذلك بالاستناد إلى التاريخ المالي لحركة المخزون. 
