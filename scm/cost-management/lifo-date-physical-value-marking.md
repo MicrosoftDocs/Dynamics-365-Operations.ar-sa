@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="lifo-date-with-physical-value-and-marking"></a>تاريخ ما يرد أخيرًا يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 تاريخ ما يرد أخيرًا يصرف أولاً‬ (تاريخ LIFO) هو نموذج مخزون مستند إلى مبدأ LIFO. وتتم تسوية الإصدارات من المخزون في مقابل عمليات الاستلام الأخيرة في المخزون، استنادًا إلى تاريخ حركة المخزون‬. ومن خلال استخدام تاريخ LIFO، إذا لم يوجد أية عملية استلام قبل عملية الإصدار، فستتم تسوية عملية الإصدار مقابل أية عمليات استلام تحدث بعد تاريخ الإصدار. وقد يتم تسوية عمليات إصدار عديدة في نفس التاريخ حسب ترتيب عملية الإصدار الأخيرة، وعملية الاستلام الأخيرة. 
