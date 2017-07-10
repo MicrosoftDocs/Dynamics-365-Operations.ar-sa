@@ -1,36 +1,36 @@
 ---
-title: "التقارير المالية في Dynamics 365 for Operations"
-description: "تسمح التقارير المالية في Dynamics 365 for Operations للأخصائيين العاملين في مجالات المال والأعمال بإنشاء القوائم المالية وصيانتها ونشرها وعرضها. إنها تتجاوز قيود التقارير التقليدية لكي تقدم لك مساعدة فعالة على صعيد تصميم مختلف أنواع التقارير."
+title: "إعداد التقارير المالية لتطبيق Finance and Operations"
+description: "تسمح التقارير المالية في تطبيق Finance and Operations للأخصائيين العاملين في مجالات المال والأعمال بإنشاء القوائم المالية وصيانتها ونشرها وعرضها. إنها تتجاوز قيود التقارير التقليدية لكي تقدم لك مساعدة فعالة على صعيد تصميم مختلف أنواع التقارير."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: Management Reporter
+ms.search.scope: Management Reporter, UnifiedOperations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 997c34856d2445b02038d208f91522fe7a9a487c
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="financial-reporting-for-dynamics-365-for-operations"></a>التقارير المالية في Dynamics 365 for Operations
+# <a name="financial-reporting-for-finance-and-operations"></a>إعداد التقارير المالية لتطبيق Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
 
-تسمح التقارير المالية في Dynamics 365 for Operations للأخصائيين العاملين في مجالات المال والأعمال بإنشاء القوائم المالية وصيانتها ونشرها وعرضها. إنها تتجاوز قيود التقارير التقليدية لكي تقدم لك مساعدة فعالة على صعيد تصميم مختلف أنواع التقارير.
+تسمح التقارير المالية في تطبيق Finance and Operations للأخصائيين العاملين في مجالات المال والأعمال بإنشاء القوائم المالية وصيانتها ونشرها وعرضها. إنها تتجاوز قيود التقارير التقليدية لكي تقدم لك مساعدة فعالة على صعيد تصميم مختلف أنواع التقارير.
 
 تتضمن التقارير المالية ميزة دعم الأبعاد. وبالتالي، ستكون أقسام الحساب أو أبعاده متوفرة على الفور. لا حاجة إلى أدوات أو خطوات تكوين إضافية.
 

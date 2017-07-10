@@ -1,16 +1,16 @@
 ---
 title: "نظرة عامة على إدارة الجودة"
-description: "توضح هذه المقالة كيفية استخدام إدارة الجودة في Microsoft Dynamics 365 for Operations للمساعدة في تحسين جودة المنتج ضمن سلسلة التوريد."
+description: "توضح هذه المقالة كيفية استخدام إدارة الجودة في تطبيق Finance and Operations للمساعدة في تحسين جودة المنتج ضمن سلسلة التوريد."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,13 +32,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة كيفية استخدام إدارة الجودة في Microsoft Dynamics 365 for Operations للمساعدة في تحسين جودة المنتج ضمن سلسلة التوريد.
+توضح هذه المقالة كيفية استخدام إدارة الجودة في تطبيق Finance and Operations للمساعدة في تحسين جودة المنتج ضمن سلسلة التوريد.
 
-ويمكن أن تساعدك إدارة الجودة في إدارة تنظيم أوقات الإنتاج عندما تتعامل مع المنتجات غير المتوافقة، بغض النظر عن نقطة الأصل. ولأن أنواع التشخيص ترتبط بالإبلاغ عن التصحيحات، باستطاعة Microsoft Dynamics 365 for Operations جدولة المهام لحل المشاكل ومنع تكرارها.
+ويمكن أن تساعدك إدارة الجودة في إدارة تنظيم أوقات الإنتاج عندما تتعامل مع المنتجات غير المتوافقة، بغض النظر عن نقطة الأصل. ولأن أنواع التشخيص ترتبط بالإبلاغ عن التصحيحات، باستطاعة Finance and Operations جدولة المهام لحل المشاكل ومنع تكرارها.
 
 وبالإضافة إلى وظيفة إدارة عدم التوافق، تتضمن إدارة الجودة وظيفة تعقب المشكلات حسب نوع المشكلة (حتى المشكلات الداخلية، ولتحديد الحلول قصيرة الأجل أو طويلة الأجل. وتوفر إحصاءات مؤشرات الأداء الرئيسية (KPIs) رؤية في مشاكل عدم التوافق التي حدثت مسبقاً والحلول التي تم تطبيقها لتصحيحها. ويمكنك استخدام البيانات التاريخية للمساعدة على مراجعة فعالية تدابير الجودة التي تم اتخاذها سابقًا لتحديد التدابير المناسبة في المستقبل.
 
-عندما تقوم بإعداد اقتران جودة، بإمكان Microsoft Dynamics 365 for Operations إنشاء أوامر الجودة لمختلف الأعمال والأحداث والشروط. ويمكن لاقتران الجودة تغطية صنف محدد أو مجموعة محددة من الأصناف أو كافة الأصناف.
+عند إعداد اقتران جودة، يمكن لتطبيق Finance and Operations إنشاء أوامر الجودة لمختلف الأعمال والأحداث والشروط. ويمكن لاقتران الجودة تغطية صنف محدد أو مجموعة محددة من الأصناف أو كافة الأصناف.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>أمثلة على استخدام إدارة الجودة
 تتسم إدارة الجودة بالمرونة ويمكن تنفيذها بطرق مختلفة للوفاء بمتطلبات مستويات محددة من عمليات سلاسل التوريد. توضح الأمثلة التالية الاستخدامات المحتملة لهذه الميزات:

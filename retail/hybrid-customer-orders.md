@@ -3,25 +3,26 @@ title: "أوامر العملاء المختلطة"
 description: "أمر العميل المختلط هو أمر واحد يحتوي على المنتجات التي يمكن تلبيتها من المتجر للعميل، بالإضافة إلى المنتجات التي سيتم انتقاؤها أو شحنها لاحقاً."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Retail, Operations, Core, UnifiedOperations
 ms.custom: 261164
 ms.assetid: 9d99a5b9-4662-499a-bece-3ea1d6092934
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: eb6ba7cfdf098671192d4d6e73119f96b287c437
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: e748c6fb788f4ec00ab2a0ef62e139a6180089be
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 أمر العميل المختلط هو أمر واحد يحتوي على المنتجات التي يمكن تلبيتها من المتجر للعميل، بالإضافة إلى المنتجات التي سيتم انتقاؤها أو شحنها لاحقاً.
 
-في Microsoft Dynamics 365 for Operations - البيع بالتجزئة، يمكنك تحديد إما تلبية كافة المنتجات أو تلبية منتجات محددة من أمر العميل. تتم تلقائيًا فوترة بنود المنتجات التي يُوضع عليها علامة التنفيذ بعد إنشاء الأمر، وبالمثل يكون هذا هو الحال نفسه مع أمر مقرر انتقاؤه لتنفيذه بعد إنشاء الأمر. يتحدد المبلغ المستحق للأوامر المختلطة عبر إضافة نسبة الوديعة على الانتقاء وشحن بنود المنتجات إلى المبلغ الكامل لتنفيذ البنود. بالنسبة للأوامر المختلطة، يقوم النظام بالتبديل بين وضع أمر العميل ووضع الدفع والتسليم كما يلي:
+في Microsoft Dynamics 365 for Retail، يمكنك تحديد إما تلبية كافة المنتجات أو تلبية منتجات محددة من أمر العميل. تتم تلقائيًا فوترة بنود المنتجات التي يُوضع عليها علامة التنفيذ بعد إنشاء الأمر، وبالمثل يكون هذا هو الحال نفسه مع أمر مقرر انتقاؤه لتنفيذه بعد إنشاء الأمر. يتحدد المبلغ المستحق للأوامر المختلطة عبر إضافة نسبة الوديعة على الانتقاء وشحن بنود المنتجات إلى المبلغ الكامل لتنفيذ البنود. بالنسبة للأوامر المختلطة، يقوم النظام بالتبديل بين وضع أمر العميل ووضع الدفع والتسليم كما يلي:
 
 -   إذا تم تعيين كافة المنتجات في السلة إلى **تنفيذ التسليم**، فسيتم التعامل مع الأمر كحركة دفع وتسليم.
 -   إذا تم تعيين أي أو جميع البنود في السلة إما إلى **انتقاء** أو **شحن التسليم**، فسيتم التعامل مع الأمر كحركة أمر عميل.

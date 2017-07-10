@@ -1,67 +1,74 @@
 ---
-title: "مساحات العمل المحمولة التي تم إصدارها مؤخرًا لتطبيق Dynamics 365 for Operations للأجهزة المحمولة"
-description: "يسرد هذا الموضوع مساحات العمل المحمولة التي تم إصدارها مؤخرًا لتطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة."
+title: "مساحة العمل المحمولة‬ التي تم إصدارها مؤخرًا"
+description: "يسرد هذا الموضوع مساحات العمل المحمولة التي تم إصدارها مؤخرًا."
 author: sericks007
 manager: AnnBe
-ms.date: 04/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
-ms.custom: 271724
-ms.assetid: 4b639ee1-5ee3-4389-8fbb-3c65150ba8b2
+ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: sericks
-ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: e5633d1db9593e2e0cb8bb4703de76766ab706b0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="mobile-workspaces-recently-released-for-the-dynamics-365-for-operations-mobile-app"></a>مساحات العمل المحمولة التي تم إصدارها مؤخرًا لتطبيق Dynamics 365 for Operations للأجهزة المحمولة
+# <a name="mobile-workspaces-recently-released"></a>مساحة العمل المحمولة‬ التي تم إصدارها مؤخرًا
 
 [!include[banner](../includes/banner.md)]
 
 
 
-يسرد هذا الموضوع مساحات العمل المحمولة التي تم إصدارها مؤخرًا لتطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة.
+يسرد هذا الموضوع مساحات العمل المحمولة التي تم إصدارها مؤخرًا لتطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة.
 
-<a name="mobile-workspaces-that-were-released-in-april-2017"></a>مساحات العمل المحمولة تم إصدارها في أبريل 2017
---------------------------------------------------
+> [!NOTE]
+> كان تطبيق الأجهزة المحمولة يسمى في السابق *Microsoft Dynamics 365 for Finance and Operations*.
+
+
+## <a name="new-mobile-workspaces-released-in-june-2017"></a>مساحات العمل المحمولة الجديدة التي تم إصدارها في يونيو 2017
+
+| مساحة العمل المحمولة     | ‏‏الوصف   | تعرف على المزيد   |
+|----------------------|---------------|--------------|
+|دليل الشركة| للسماح للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.| [مساحة العمل المحمولة دليل الشركة](company-directory-mobile-workspace.md)|    
+|فريقي| للسماح للمستخدمين بعرض مرؤوسيهم المباشرين وفريق العمل الموسع، بالإضافة إلى إرسال ثناء إلى الأفراد في سلسلة التدرج الهرمي:| [مساحة العمل المحمولة فريقي](manager-self-service-mobile-workspace.md)|     
+|الموافقات على الفواتير| توفير قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد.|[مساحة العمل المحمولة الموافقة على الفاتورة](invoice-approval-mobile-workspace.md)    |    
+
+## <a name="new-mobile-workspaces-released-in-april-2017"></a>مساحات العمل المحمولة الجديدة التي تم إصدارها في أبريل 2017
 
 | مساحة العمل المحمولة   | ‏‏الوصف                                                                                                                                                                                                      | تعرف على المزيد                                                                                                      |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| إدارة المصروفات | تسمح مساحة العمل هذه للمستخدمين بالتقاط إيصال وتحميله، مما يمكنهم من إرفاقه بتقرير مصروفات فيما بعد. وتسمح أيضًا مساحة العمل المحمولة للمستخدمين بإنشاء بند مصروفات باستخدام إيصال مرفق. | [مساحة العمل المحمولة لإدارة المصروفات](/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace) |
+| إدارة المصروفات | للسماح للمستخدمين بالتقاط إيصال وتحميله، لتمكينهم من إرفاقه بتقرير مصروفات فيما بعد. وتسمح أيضًا مساحة العمل المحمولة للمستخدمين بإنشاء بند مصروفات باستخدام إيصال مرفق. | [مساحة العمل المحمولة لإدارة المصروفات](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace) |
+| اعتماد أمر الشراء | للسماح للمستخدمين بعرض طلبات الشراء واﻻستجابة لها بواسطة إجراءات مثل الموافقة عليه أو رفضها. | [مساحة العمل المحمولة الموافقة على أمر الشراء](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace) |
 
-## <a name="mobile-workspaces-that-were-released-in-march-2017"></a>مساحات العمل المحمولة تم إصدارها في مارس 2017
+## <a name="new-mobile-workspaces-released-in-march-2017"></a>مساحات العمل المحمولة الجديدة التي تم إصدارها في مارس 2017
+
 | مساحة العمل المحمولة   | ‏‏الوصف                                                                                   | تعرف على المزيد                                                                                                                                                                              |
 |--------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| إدخال وقت المشروع | تسمح مساحة العمل هذه للمستخدمين بإدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازهم المحمول. | [مساحة العمل المحمولة لإدخال وقت المشروع](/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace) |
+| إدخال وقت المشروع | للسماح للمستخدمين بإدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازهم المحمول. | [مساحة عمل محمولة لإدخال وقت المشروع](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace) |
 
-## <a name="mobile-workspaces-that-were-released-in-january-2017"></a>مساحات العمل المحمولة تم إصدارها في يناير 2017
+## <a name="new-mobile-workspaces-released-in-january-2017"></a>مساحات العمل المحمولة الجديدة التي تم إصدارها في يناير 2017
+
 | مساحة العمل المحمولة     | ‏‏الوصف                                                                                                                                                                         | تعرف على المزيد                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| التحكم في التكلفة     | باستطاعة مدير مركز التكلفة رؤية أداء مركز التكلفة في أي وقت وفي أي مكان.                                                                                               | [مساحة العمل المحمولة للتحكم في التكلفة](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| المخزون الفعلي    | احصل على معلومات دقيقة على جهازك المحمول تتعلق بالمخزون المحجوز والمتوفر في أي وقت وفي أي مكان.                                                                                                    | [مساحة عمل محمولة للمخزون الفعلي](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
-| أوامر المبيعات         | تمكّن من البقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان.                                                                                                                          | [مساحة العمل المحمولة لأوامر المبيعات](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
-| تعاون المورد | باستطاعة المورّدين البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها، ويمكنهم معلومات حول أوامر الشراء وجهات الاتصال الجديدة والمحدثة. | [مساحة العمل المحمولة لتعاون المورد](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
+| التحكم في التكاليف     | للسماح لمدراء مركز التكلفة برؤية أداء مركز التكلفة في أي وقت وفي أي مكان.                                                                                               | [مساحة العمل المحمولة للتحكم في التكلفة](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
+| المخزون الفعلي    | للسماح للمستخدمين بالحصول على معلومات دقيقة تتعلق بالمخزون المحجوز والمتوفر في أي وقت وفي أي مكان.                                                                                                    | [مساحة عمل محمولة للمخزون الفعلي](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace)       |
+| أوامر المبيعات         | للسماح للمستخدمين بالاطلاع على أوامر المبيعات في أي وقت وفي أي مكان.                                                                                                                          | [مساحة العمل المحمولة لأوامر المبيعات](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace)                 |
+| تعاون المورد | للسماح للموردين بالاطلاع بشكل دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها. ويمكنهم أيضًا عرض معلومات حول جهات الاتصال وأوامر الشراء الجديدة والمحدثة. | [مساحة العمل المحمولة لتعاون المورد](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
-## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>وظيفة مساحة العمل المحمولة التي تم إصدارها في ديسمبر 2016
+## <a name="new-mobile-workspace-functionality-released-in-december-2016"></a>وظيفة مساحة العمل المحمولة الجديدة التي تم إصدارها في ديسمبر 2016
+
 | مساحة العمل المحمولة        | ‏‏الوصف                                                                    | تعرف على المزيد                                                                                                            |
 |-------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| الموافقة على فاتورة المورّد | تعرّف على كيفية تصميم وإنشاء مساحة عمل محمولة للموافقة على فاتورة المورد. | [الموافقة على فاتورة المحمول](/dynamics365/operations/financials/accounts-payable/mobile-invoice-approvals) |
-
-
-
-
-
+| الموافقة على فاتورة المورّد | تعرّف على كيفية تصميم وإنشاء مساحة عمل محمولة للموافقة على فاتورة المورد. | [الموافقة على فاتورة المحمول](/dynamics365/unified-operations/financials/accounts-payable/mobile-invoice-approvals) |
 
 

@@ -3,24 +3,24 @@ title: "الإبلاغ عن الزكاة"
 description: "الأشخاص المسلمون الذين تتجاوز إيراداتهم السنوية مستوى يسمى النصاب، ملزمون قانونًا بدفع 2.5% من إيراداتهم إلى الحكومة على شكل زكاة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 265024
 ms.search.region: Saudi Arabia
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 13237b4e4008535512a0c716e5e71c8df7c159d0
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 677277a95ed44f6d519deda6c0104829e72a54e1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 الأشخاص المسلمون الذين تتجاوز إيراداتهم السنوية مستوى يسمى النصاب، ملزمون قانونًا بدفع 2.5% من إيراداتهم إلى الحكومة على شكل زكاة.
 
-يجب أن تدفع كل الشركات السعودية بكافة أنواعها والشركات المملوكة من قبل مواطني دول مجلس التعاون الخليجي (GCC) الذين يقومون بأعمال تجارية زكاة إلى مصلحة الزكاة والدخل (DZIT) في نهاية السنة المالية. يجب أيضًا على الشركات إنشاء وتقديم مجموعة مكونة من 14 تقرير عن الزكاة جنبًا إلى جنب مع ميزانياتها العمومية وكشوف الأرباح والخسائر إلى DZIT خلال شهر من نهاية العام. يتيح لك Microsoft Dynamics 365 for Operations إنشاء تقارير الزكاة المطلوبة:‬
+يجب أن تدفع كل الشركات السعودية بكافة أنواعها والشركات المملوكة من قبل مواطني دول مجلس التعاون الخليجي (GCC) الذين يقومون بأعمال تجارية زكاة إلى مصلحة الزكاة والدخل (DZIT) في نهاية السنة المالية. يجب أيضًا على الشركات إنشاء وتقديم مجموعة مكونة من 14 تقرير عن الزكاة جنبًا إلى جنب مع ميزانياتها العمومية وكشوف الأرباح والخسائر إلى DZIT خلال شهر من نهاية العام. يتيح لك Microsoft Dynamics 365 for Finance and Operations, Enterprise edition إنشاء تقارير الزكاة المطلوبة:
 -   تقرير عن الزكاة الرئيسي
 -   تقرير عن إيراد النشاط الرئيسي
 -   تقرير عن الإيراد من نشاط آخر

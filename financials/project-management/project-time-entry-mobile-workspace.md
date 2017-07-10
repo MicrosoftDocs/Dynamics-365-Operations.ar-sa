@@ -1,28 +1,28 @@
 ---
-title: "مساحة العمل المحمولة لإدخال وقت المشروع في تطبيق Dynamics 365 for Operations"
+title: "مساحة عمل محمولة لإدخال وقت المشروع"
 description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة لإدخال وقت المشروع. تسمح مساحة العمل هذه للمستخدمين بإدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازهم المحمول."
-author: annbe
+author: KimANelson
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-audience: Application User, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: annbe
+ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,16 +31,14 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **إدخال وقت المشروع**. تسمح مساحة العمل هذه للمستخدمين بإدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازهم المحمول.
 
+تهدف مساحة العمل المحمولة هذه إلى استخدامها بواسطة تطبيق المحمول Microsoft Dynamics 365 for Unified Operations. 
 
-يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة لإدخال وقت المشروع لتطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة. تسمح مساحة العمل هذه للمستخدمين بإدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازهم المحمول.
-
-<a name="overview-of-the-project-time-entry-mobile-workspace"></a>نظرة عامة على مساحة العمل المحمولة لإدخال وقت المشروع
----------------------------------------------------
-
+## <a name="overview"></a>نظرة عامة
 تكون موارد المشروع في أغلب الأوقات موجودة في الموقع أو مسافرة، وذلك كجزء من عملها اليومي. تسمح مساحة العمل المحمولة **إدخال وقت المشروع** للمستخدمين بإدخال الوقت القابل للفوترة أو غير القابل للفوترة في مقابل مشروع ما على اجهاز محمول من اختيارهم. وبالتالي، تستطيع موارد المشروع تسجيل إدخالات الوقت في أي وقت وفي أي مكان. وباستطاعة الموارد أيضًا عرض إدخالات الوقت التي تم تسجيلها. 
 
-وبوجه خاص، توفر مساحة العمل المحمولة **إدخال وقت المشروع** هذه الميزات:
+باستطاعة المستخدمين تنفيذ هذه المهام على وجه التحديد في مساحة العمل المحمولة **إدخال وقت المشروع**.
 
 -   لأي تاريخ محدد، أدخل عدد الساعات التي أمضيتها في العمل على مهمة معينة.
 -   ابحث حسب اسم المشروع أو العميل للعثور على المشروع الذي تريد إدخال الوقت له.
@@ -48,17 +46,16 @@ ms.lasthandoff: 05/25/2017
 -   سجّل الوقت كقابل للفوترة أو غير قابل للفوترة للمشروع.
 -   بشكل اختياري، أدخل أية تعليقات خارجية أو داخلية.
 
-لتطبيق مساحة العمل المحمولة **إدخال وقت المشروع**، راجع الأقسام التالية في هذا الموضوع.
-
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-قبل تنفيذ مساحة العمل المحمولة **إدخال وقت المشروع**، تأكد من أن مسؤول النظام استكمل المتطلبات الأساسية التالية.
+تختلف المتطلبات الأساسية، بناءً على إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>يلزم وجود المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition تحديث يوليو 2017 
+إذا تم نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تحديث يوليو 2017 لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **إدخال وقت المشروع**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث
+إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>المتطلب الأساسي</th>
@@ -68,65 +65,54 @@ ms.lasthandoff: 05/25/2017
 </thead>
 <tbody>
 <tr class="odd">
-<td>يجب تطبيق الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث.</td>
-<td>مسؤول النظام</td>
-<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
-</tr>
-<tr class="even">
-<td>يجب أن يتم تطبيق KB 4018050.</td>
+
+<td>تطبيق قاعدة المعارف 4018050.</td>
 <td>مسؤول النظام</td>
 <td>إن KB 4018050 عبارة عن تحديث X++ أو إصلاح عاجل لبيانات التعريف يحتوي على مساحة العمل المحمولة <strong>إدخال وقت المشروع</strong>. لتطبيق KB 4018050، يجب أن يتبع مسؤول النظام الخطوات التالية.
 <ol>
-<li>تنزيل KB 4018050 من Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>ApplicationSuite</strong> و<strong>ProjectMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">تنزيل الإصلاح العاجل لبيانات التعريف من Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>ApplicationSuite</strong> و<strong>ProjectMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة القابلة للنشر</a>.</li>
+
 </ol></td>
 </tr>
-<tr class="odd">
-<td>يجب نشر مساحة العمل المحمولة <strong>إدخال وقت المشروع</strong> إلى تطبيق Dynamics 365 for Operations للأجهزة المحمولة.</td>
+<tr class="even">
+<td>نشر مساحة العمل المحمولة <strong>إدخال وقت المشروع</strong>.</td>
 <td>مسؤول النظام</td>
-<td><ol>
-<li>ابدأ تشغيل Dynamics 365 for Operations في المستعرض.</li>
-<li>في صفحة <strong>محددات النظام</strong>، على علامة التبويب <strong>إدارة مساحات العمل المحمولة</strong>، حدد <strong>إدخال وقت المشروع</strong>.</li>
-<li>انقر فوق <strong>نشر مساحة العمل المحمولة</strong>.</li>
-</ol></td>
+<td>راجع <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل محمولة</a></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>تنزيل وتثبيت تطبيق Dynamics 365 for Operations للأجهزة المحمولة
-يمكنك تنزيل وتثبيت تطبيق Dynamics 365 for operations للأجهزة المحمولة من متجر تطبيقات المحمول.
+## <a name="download-and-install-the-mobile-app"></a>تحميل وتثبيت تطبيق الجوال
 
--   لـ Android: [Dynamics 365 for Operations على Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   لـ iPhone: [Dynamics 365 for Operations على iTunes apps store](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>تسجيل الدخول إلى تطبيق Dynamics 365 for Operations للأجهزة المحمولة
+-   [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+
+## <a name="sign-in-to-the-mobile-app"></a>تسجيل الدخول إلى تطبيق الهاتف الجوال
 1.  ابدأ تشغيل التطبيق على جهازك المحمول.
-2.  أدخل عنوان URL لتطبيق Dynamics 365 for Operations.
-3.  أدخل الشركة لتسجيل الدخول إلى. على سبيل المثال، أدخل **USMF**.
-4.  في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بحسابك في تطبيق Microsoft Dynamics 365 for Operations. أدخل بيانات اعتمادك.
-5.  بعد تسجيل الدخول، يمكنك رؤية مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، يمكنك السحب لتحديث قائمة مساحات العمل المحمولة.
+2.  أدخل عنوان URL لـ Dynamics 365.
+3.  في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
+4.  بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
 [![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>إدخال الوقت باستخدام مساحة العمل المحمولة لإدخال وقت المشروع
 1.  على جهازك المحمول، حدد مساحة عمل **إدخال وقت المشروع**.
-2.  حدد **إدخال الوقت**. سترى تواريخ التقويم للأسبوع الحالي.
+2.  حدد **إدخال الوقت**. تظهر تواريخ التقويم للأسبوع الحالي.
 3.  لتاريخ محدد، حدد **الإجراءات** &gt; **إدخال جديد**.
 4.  أدخل عدد الساعات التي يجب تسجيلها.
-5.  حدد مشروعًا لإدخال الوقت. يمكن الآن رؤية قائمة المشاريع المُحمّلة على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
-6.  إذا لم يكن المشروع المطلوب في القائمة، فحدد **بحث** للقيام ببحث عبر الإنترنت في Dynamics 365 for Operations. ابحث حسب الاسم، أو قم بالتبديل إلى البحث حسب اسم المشروع أو العميل.
-7.  حدد إحدى الفئات. يمكن الآن رؤية قائمة الفئات المُحمّلة على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
-8.  إذا لم تكن الفئة المطلوبة في القائمة، فحدد **بحث** للقيام ببحث عبر الإنترنت في Dynamics 365 for Operations. ابحث حسب الفئة أو قم بالتبديل إلى البحث حسب اسم الفئة.
-9.  حدد نشاطًا. يمكن الآن رؤية قائمة الأنشطة المُحمّلة على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
-10. إذا لم يكن النشاط المطلوب في القائمة، فحدد **بحث** للقيام ببحث عبر الإنترنت في Dynamics 365 for Operations. ابحث حسب رقم النشاط أو قم بالتبديل إلى البحث حسب الغرض.
+5.  حدد مشروعًا لإدخال الوقت. تعرض قائمة المشاريع المُحمّلة على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، راجع [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+6.  إذا لم يكن مشروعك موجودًا في القائمة، فحدد **بحث عن المزيد‬**. ابحث حسب الاسم، أو قم بالتبديل إلى البحث حسب اسم المشروع أو العميل.
+7.  حدد إحدى الفئات. تعرض قائمة الفئات المُحمّلة على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، راجع [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+8.  إذا لم تكن فئتك موجودة في القائمة، فحدد **بحث عن المزيد‬**. ابحث حسب الفئة أو قم بالتبديل إلى البحث حسب اسم الفئة.
+9.  حدد نشاطًا. تعرض قائمة الأنشطة المُحمّلة على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، راجع [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+10. إذا لم يكن نشاطك موجودًا في القائمة، فحدد **بحث عن المزيد‬**. ابحث حسب رقم النشاط أو قم بالتبديل إلى البحث حسب الغرض.
+
 11. حدد خاصية البند.
 12. بشكل اختياري، أدخل أية تعليقات خارجية أو داخلية.
 13. حدد **تم**.
-
-
-
-
-
 

@@ -1,16 +1,16 @@
 ---
 title: "تعاون المورد مع العملاء"
-description: "يصف هذا الموضوع كيفية استخدام تعاون المورد في Microsoft Dynamics 365 for Operations للتعامل مع أوامر الشراء ولمراقبة مخزون الشحن."
+description: "يصف هذا الموضوع كيفية استخدام تعاون المورد في Finance and Operations للتعامل مع أوامر الشراء ولمراقبة مخزون الشحن."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-يصف هذا الموضوع كيفية استخدام تعاون المورد في Microsoft Dynamics 365 for Operations للتعامل مع أوامر الشراء ولمراقبة مخزون الشحن.
+يصف هذا الموضوع كيفية استخدام تعاون المورد في Finance and Operations للتعامل مع أوامر الشراء ولمراقبة مخزون الشحن.
 
-يصف هذا الموضوع كيفية استخدام تعاون المورد للتعامل مع العملاء في Microsoft Dynamics 365 for Operations. ‏‫ويتضمن هذا الموضوع معلومات حول كيفية مراقبة أوامر الشراء والاستجابة لها، وكيفية مراقبة مخزون الشحن. من الممكن أيضًا استخدام تعاون المورد للتعامل مع الفواتير.‬ لمزيد من المعلومات، راجع [مساحة عمل فوترة تعاون المورد](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+يصف هذا الموضوع كيفية استخدام تعاون المورد للتعامل مع العملاء في Microsoft Finance and Operations. ‏‫ويتضمن هذا الموضوع معلومات حول كيفية مراقبة أوامر الشراء والاستجابة لها، وكيفية مراقبة مخزون الشحن. من الممكن أيضًا استخدام تعاون المورد للتعامل مع الفواتير.‬ لمزيد من المعلومات، راجع [مساحة عمل فوترة تعاون المورد](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>التعامل مع أوامر الشراء
 تمكّنك لك مساحة عمل **تأكيد أمر الشراء** من الاستجابة لأوامر الشراء التي تم إرسالها إليك للمراجعة. وهي تمكّنك أيضًا من عرض معلومات حول أوامر الشراء التي تنتظر إجراءات العميل، وأوامر الشراء التي تم تأكيدها، ولكنها ما زالت مفتوحة. هناك ثلاث قوائم في مساحة عمل **تأكيد أمر الشراء**:

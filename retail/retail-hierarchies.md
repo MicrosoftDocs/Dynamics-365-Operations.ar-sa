@@ -1,28 +1,29 @@
 ---
 title: "التسلسلات الهرمية للبيع بالتجزئة"
-description: "توضح هذه المقالة التدرجات الهرمية للبيع بالتجزئة في Microsoft Dynamics AX."
+description: "توضح هذه المقالة التدرجات الهرمية للبيع بالتجزئة في Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2544b299267ec6e21adf5c657c23f545fc66a0b3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: a425680fb4d2e2da8d96acd843694ea9a07e29f0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-توضح هذه المقالة التدرجات الهرمية للبيع بالتجزئة في Microsoft Dynamics AX.
+توضح هذه المقالة التدرجات الهرمية للبيع بالتجزئة في Microsoft Dynamics 365 for Retail.
 
 يمكنك إنشاء تدرج هرمي لفئات البيع بالتجزئة لتنظيم المنتجات التي تبيعها عبر قنوات البيع بالتجزئة لديك. ويمكنك استخدام التدرجات الهرمية لمنتجات البيع بالتجزئة لتصنيف أو تجميع المنتجات. ويمكنك بعد ذلك استخدام هذه المنتجات لإنشاء عمليات فرز المنتجات وبرامج ولاء العملاء. كما يمكنك تعيين خصائص وسمات المنتجات، وتعيين هيكل تسعير، وتضمين المنتجات في عروض المنتجات، واستخدام المنتجات للإبلاغ. يمكنك إنشاء تدرج هرمي واحد لفئات البيع بالتجزئة لتمثيل كافة المنتجات والفئات في مؤسستك، ثم استخدام ذلك التدرج الهرمي للفئات لأغراض متعددة. وبدلاً من ذلك، يمكنك إنشاء تدرجات هرمية متعددة لفئات البيع بالتجزئة لأغراضٍ خاصة، مثل عروض المنتجات. عند إنشاء تدرج هرمي لمنتجات بيع بالتجزئة، يجب تعيين نوع تدرج هرمي للفئات لتحديد غرض التدرج الهرمي للفئات. على سبيل المثال، يتم الرجوع إلى التدرجات الهرمية للمنتجات فقط التي تم تعيين نوع **التدرج الهرمي للتنقل للبيع بالتجزئة** لها، عند استعراض المنتجات حسب الفئة عبر الإنترنت أو في نقطة البيع (POS).
 

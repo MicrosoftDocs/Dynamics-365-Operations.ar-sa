@@ -1,6 +1,6 @@
 ---
 title: "بحث التنقل"
-description: "يشرح هذا الموضوع كيفية استخدام وظيفة البحث للتنقل في الصفحات في Microsoft Dynamics 365 for Operations."
+description: "يشرح هذا الموضوع كيفية استخدام وظيفة البحث للتنقل في الصفحات في Microsoft Dynamics 365 for Finance and Operations."
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: df804f79d6639c118e3e0534a21423f207ceb2c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 431165d541c9a3b63100a93108ee770df8e88aa8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-يشرح هذا الموضوع كيفية استخدام وظيفة البحث للتنقل في الصفحات في Microsoft Dynamics 365 for Operations.
+يشرح هذا الموضوع كيفية استخدام وظيفة البحث للتنقل في الصفحات في Microsoft Dynamics 365 for Finance and Operations.
 
-يوفر Dynamics 365 for Operations وظائف لمجموعة واسعة من القطاعات والصناعات. يحتوي هذا التطبيق على عدد من النواحي والصفحات لمساعدتك في تنفيذ المهام المختلفة. للعثور بسرعة على الصفحات التي تحتاجها لإكمال مهامك، استخدم ميزة بحث التنقل.‬ 
+يوفر تطبيق Finance and Operations وظائف لمجموعة واسعة من القطاعات والصناعات. يحتوي هذا التطبيق على عدد من النواحي والصفحات لمساعدتك في تنفيذ المهام المختلفة. للعثور بسرعة على الصفحات التي تحتاجها لإكمال مهامك، استخدم ميزة بحث التنقل.‬ 
 
 ولاستخدام هذه الميزة، انقر فوق رمز **البحث** لعرض مربع **البحث**. ويمكنك بعد ذلك كتابة كلمة واحدة أو أكثر في المربع. ويقوم النظام بالبحث على الفور عن الصفحات ذات الصلة في التطبيق التي تتطابق مع الكلمات التي أدخلتها. على سبيل المثال، يمكنك كتابة "فاتورة المورد" كإدخال، ثم يعرض النظام النتائج المطابقة لهذا الإدخال. 
 

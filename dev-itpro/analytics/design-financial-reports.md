@@ -1,16 +1,16 @@
 ---
 title: "عرض التقارير المالية وتصميمها"
-description: "تقدم هذه المقالة التمارين التي تشرح لك عرض التقارير المالية وإنشاءها لـ Microsoft Dynamics 365 for Operations."
+description: "تقدم هذه المقالة التمارين التي تشرح لك عرض التقارير المالية وإنشاءها لـ Microsoft Dynamics 365 for Finance and Operations."
 author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1c0787327830d2cdff9e8a48798165dc83493393
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-تقدم هذه المقالة التمارين التي تشرح لك عرض التقارير المالية وإنشاءها لـ Microsoft Dynamics 365 for Operations. تتألف ميزة إعداد التقارير المالية من تجربة عرض داخل Dynamics 365 for Operations ومصمم تقارير من نقرة واحدة يتيح لك إنشاء التقارير المالية وتحريرها.  
+تقدم هذه المقالة التمارين التي تشرح لك عرض التقارير المالية وإنشاءها لـ Microsoft Dynamics 365 for Finance and Operations. تتألف ميزة إعداد التقارير المالية من تجربة عرض داخل Finance and Operations ومصمم تقارير من نقرة واحدة يتيح لك إنشاء التقارير المالية وتحريرها.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>تمرين 1: إنشاء واستكشاف تقرير مالي افتراضي
 -----------------------------------------------------------
@@ -59,7 +59,7 @@ ms.lasthandoff: 05/25/2017
 13. حدد **خيارات التقرير**.
 14. حدد **إضافة عامل تصفية بعد** واختر **وحدة الأعمال**.
 15. أدخل 001 في الحقل، وحدد **موافق**. يعرض التقرير الآن البيانات فقط لوحدة الأعمال 001. هذه طريقة عرض مخصصة للتقرير ولا تتوفر للآخرين لعرضها.
-16. قم بإغلاق التقرير المصفى. يمكن عرض التقارير المالية بأية عملة تمت إضافتها إلى Dynamics 365 for Operations.
+16. قم بإغلاق التقرير المصفى. يمكن عرض التقارير المالية بأية عملة تمت إضافتها إلى Finance and Operations.
 17. حدد **العملة**، ثم حدد **اليورو.** يعرض التقرير الآن العملة باليورو. يتم الآن عرض أي أكواد عملة أو رموز عملة مضمنة في تصميم التقرير بالعملة المطبقة. وإذا لم يتم تحديد أي رمز عملة لعملة، فإنه لا يتم عرض رمز العملة.
 18. أغلق تقرير **تفاصيل دفتر الأستاذ العام**.
 19. أغلق **مصمم التقارير**.
@@ -70,7 +70,7 @@ ms.lasthandoff: 05/25/2017
 1.  انتقل إلى **التقارير المالية** ضمن الاستعلامات والتقارير في دفتر الأستاذ العام.
 2.  حدد الصف للتقرير المسمى **ميزان المراجعة المخصص - الافتراضي.**
 3.  حدد **تحرير**. **ميزان المراجعة الملخص – الافتراضي** سيُفتح في مصمم التقارير.
-4.  حدد **ملف**، ثم **حفظ باسم**، وقم بتسمية التقرير باسم "ميزان المراجعة التفصيلية مع السمات". ملاحظة: في أي وقت يتم فيه إنشاء تقرير جديد في مصمم التقارير، يتم تحديث قائمة التقارير المالية في Dynamics 365 for Operations.
+4.  حدد **ملف**، ثم **حفظ باسم**، وقم بتسمية التقرير باسم "ميزان المراجعة التفصيلية مع السمات". ملاحظة: في أي وقت يتم فيه إنشاء تقرير جديد في مصمم التقارير، يتم تحديث قائمة التقارير المالية في Finance and Operations.
 5.  من تعريف التقرير، حدد رمز تعريف الصف لفتح **ميزان المراجعة – تعريف الصف الافتراضي**.
 6.  احفظ تعريف الصف باسم **ميزان المراجعة التفصيلية مع السمات**
 7.  وبوضع المؤشر فوق الصف 50، حدد **تحرير**، ثم **إدراج صفوف من الأبعاد**. يتيح لك إدراج صفوف من الأبعاد لك باختيار الأبعاد التي تريد توفرها في تعريف الصف الخاص بك. وفي هذا التمرين، سنقوم بإنشاء تعريف الصف باستخدام "الحساب الرئيسي".
@@ -183,8 +183,8 @@ ms.lasthandoff: 05/25/2017
 18. **احفظ** التغييرات التي أجريتها وقم **بالإنشاء**. وبمجرد اكتمال عملية إنشاء التقرير وفتحه، يمكنك استكشاف التقرير.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-[التقارير المالية](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
-[عرض التقارير المالية](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
+[التقارير المالية](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
+[عرض التقارير المالية](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
 [مدونة التقارير المالية في Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

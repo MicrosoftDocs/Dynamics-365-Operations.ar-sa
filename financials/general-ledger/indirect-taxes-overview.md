@@ -3,7 +3,7 @@ title: "نظرة عامة على ضريبة المبيعات"
 description: "توفر هذه المقالة نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>نظرة عامة على ضريبة المبيعات
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 توفر هذه المقالة نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا.
@@ -73,7 +75,7 @@ ms.lasthandoff: 05/25/2017
 وفي كل حركة، يمكنك البحث عن ضريبة المبيعات المحسوبة بفتح صفحة **حركة ضريبة المبيعات**. ويمكنك البحث عن ضريبة المبيعات لبند مستند أو المستند بالكامل. وفي وثائق معينة (على سبيل المثال، فاتورة المورد، ودفاتر اليومية العامة)، يمكنك تعديل ضريبة المبيعات المحسوبة إذا كان المستند الأصلي يعرض المبالغ المنحرفة.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>تسوية ضريبة المبيعات وإعداد التقارير
-يجب الإبلاغ عن ضريبة المبيعات ودفعها إلى هيئات الضرائب على فترات منتظمة (شهريًا، وكل ثلاثة أشهر، وهكذا). ويوفر Microsoft Dynamics 365 for Operations الوظائف التي تمكّنك من تسوية حسابات الضرائب للفاصل الزمني وإزاحة الأرصدة إلى حساب تسوية الضريبة، كما هو محدد في مجموعات ترحيل دفتر الأستاذ. ويمكنك الوصول إلى هذه الوظيفة في صفحة **تسوية وترحيل ضريبة المبيعات**. ويجب تحديد فترة تسوية ضريبة المبيعات التي ينبغي تسوية ضريبة المبيعات لها.‬ 
+يجب الإبلاغ عن ضريبة المبيعات ودفعها إلى هيئات الضرائب على فترات منتظمة (شهريًا، وكل ثلاثة أشهر، وهكذا). ويوفر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition الوظائف التي تمكّنك من تسوية حسابات الضرائب للفاصل الزمني وإزاحة الأرصدة إلى حساب تسوية الضريبة، كما هو محدد في مجموعات ترحيل دفتر الأستاذ. ويمكنك الوصول إلى هذه الوظيفة في صفحة **تسوية وترحيل ضريبة المبيعات**. ويجب تحديد فترة تسوية ضريبة المبيعات التي ينبغي تسوية ضريبة المبيعات لها.‬ 
 
 وبعد أن يتم دفع ضريبة المبيعات، يجب موازنة حساب تسوية ضريبة المبيعات في مقابل الحساب البنكي. وإذا كانت هيئة ضريبة المبيعات المحددة في فترة تسوية ضريبة المبيعات مرتبطة بحساب مورد، فإنه يتم ترحيل رصيد ضريبة المبيعات كفاتورة مورد مفتوحة ويمكن تضمينها في مقترح الدفع المنتظم.
 

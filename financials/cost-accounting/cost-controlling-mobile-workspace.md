@@ -1,27 +1,27 @@
 ---
 title: "مساحة العمل المحمولة للتحكم في التكلفة"
-description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة للتحكم في التكلفة التي تتوفر في تطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان."
+description: "يقدم هذا الموضوع معلومات حول مساحة العمل المحمولة - التحكم في التكلفة. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267114
 ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
-ms.author: yuyus
+ms.author: aevengir
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 09383c24b0dd2ad61a836f6c8dc97f4389915772
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dbedf75a6f61a9e2bc644056f0dd1e7499cedc42
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,56 +30,62 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+يقدم هذا الموضوع معلومات حول مساحة العمل المحمولة **التحكم في التكلفة**. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان.
 
-يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة للتحكم في التكلفة التي تتوفر في تطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان. 
+تهدف مساحة العمل المحمولة هذه إلى استخدامها بواسطة تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.
 
-<a name="overview-of-the-cost-controlling-mobile-workspace"></a>نظرة عامة على مساحة العمل المحمولة للتحكم في التكلفة
--------------------------------------------------
-
-توفر مساحة العمل المحمولة **التحكم في التكلفة** طريقة عرض فورية للأداء الحالي لمراكز التكلفة من خلال مقارنة التكاليف الفعلية في مقابل التكاليف المُدرجة في الموازنة. يمكنك التنقل لأسفل لمشاهدة حالات عناصر التكلفة الفردية. 
+## <a name="overview"></a>نظرة عامة
+توفر مساحة العمل المحمولة **التحكم في التكلفة** طريقة عرض فورية للأداء الحالي لمراكز التكلفة من خلال مقارنة التكاليف الفعلية في مقابل التكاليف المُدرجة في الموازنة. يمكنك التنقل لأسفل لمشاهدة حالة عناصر التكلفة الفردية.
 
 على سبيل المثال، يستلم أحد الموظفين دعوة لحضور مؤتمر دولي، ولكن يجب أن تغطي المؤسسة كافة مصروفات السفر. يسأل الموظف مديره إذا كان بإمكانه حضور المؤتمر. يفتح المدير مساحة العلم المحمولة **التحكم في التكلفة** على جهازه المحمول، لمعرفة إذا ما كان لديه ميزانية تتيح للموظف حضور المؤتمر.
 
 ### <a name="data-security"></a>أمان البيانات
+تتم حماية البيانات في مساحة العمل المحمولة **التحكم في التكلفة** عبر بيانات اعتماد المستخدم. يُسمح لمدير مركز التكلفة فقط برؤية بيانات مركز التكلفة الخاص به. تتم إدارة أمان مستوى الوصول ضمن وحدة **محاسبة التكاليف**.
 
-تتم حماية البيانات في مساحة العمل المحمولة **التحكم في التكلفة** عبر بيانات اعتماد المستخدم. يُسمح لمدير مركز التكلفة فقط برؤية بيانات مركز التكلفة الخاص به. تتم إدارة أمان مستوى الوصول ضمن وحدة **محاسبة التكاليف**. 
-
-يحدد محاسبو التكلفة تكوين مساحة العمل المحمولة **التحكم في التكلفة** في وحدة **التحكم في التكلفة‏‎**. بعد نشر مساحة العمل على تطبيق Microsoft Dynamics 365 for Operations للأجهزة المحمولة، ستكون متوفرة في التطبيق. وبالتالي، سيتمكن جميع مدراء مراكز التكلفة في المؤسسة من عرض البيانات بالتنسيق نفسه.
+يحدد محاسبو التكلفة تكوين مساحة العمل المحمولة **التحكم في التكلفة** في وحدة **التحكم في التكلفة‏‎**. بعد نشر مساحة العمل على تطبيق الأجهزة المحمولة، ستكون متوفرة في التطبيق. وبالتالي، سيتمكن جميع مدراء مراكز التكلفة في المؤسسة من عرض البيانات بالتنسيق نفسه.
 
 ### <a name="actions-views-and-links"></a>الإجراءات، وطرق العرض والارتباطات
-
-توفر مساحة العمل المحمولة **التحكم في التكلفة** لتطبيق Dynamics 365 for Operations الإجراءات وطرق العرض والارتباطات التالية:
+توفر مساحة العمل المحمولة **التحكم في التكلفة** الإجراءات التالية، وطرق العرض والارتباطات:
 
 -   **الإجراءات:**
+
     -   استخدم **تحديد التكوين** لتحديد تخطيط.
-    -   استخدم **حدد الكائن التكلفة** لتحديد مراكز التكلفة لتصفية البيانات عليها. **ملاحظة:** تتوقف مراكز التكلفة التي تظهر في القائمة على الوصول الممنوح في وحدة **محاسبة التكاليف**.
--   **طرق العرض:** استنادًا إلى الإجراءات المحددة والتكوين في وحدة **محاسبة التكاليف** يمكنك عرض المعلومات التالية في البطاقات.
-    -   الفعلي مقابل الموازنة (الفترة الحالية)
-    -   الفعلي مقابل الموازنة التي تمت مراجعتها (الفترة الحالية)
+    -   استخدم **حدد الكائن التكلفة** لتحديد مراكز التكلفة لتصفية البيانات عليها.
+    
+        > [!NOTE]
+        > تتوقف مراكز التكلفة التي تظهر في القائمة على الوصول الممنوح في وحدة **محاسبة التكاليف**.
+
+-   **طرق العرض:** استنادًا إلى الإجراءات المحددة والتكوين في وحدة **محاسبة التكاليف** يمكنك عرض المعلومات التالية في البطاقات:
+
+    -   القيمة الفعلية مقابل الموازنة (الفترة الحالية)
+    -   القيمة الفعلية مقابل الموازنة المراجعة (الفترة الحالية)
     -   الفعلي مقابل الموازنة (الفترة السابقة)
     -   الفعلي مقابل الموازنة التي تمت مراجعتها (الفترة السابقة)
     -   الفعلي مقابل الموازنة (السنة حتى تاريخه)
     -   الفعلي مقابل الموازنة التي تمت مراجعتها (السنة حتى تاريخه)
 
     تظهر المبالغ التالية على كل بطاقة: الفعلي والموازنة والفرق والفرق %.
+
 -   **الارتباطات:**
+
     -   تفاصيل للفترة الحالية
     -   تفاصيل للفترة السابقة
     -   تفاصيل السنة حتى تاريخه
 
-    عندما تقوم بتحديد ارتباط، تظهر بطاقة لكل عنصر التكلفة. يتم عرض المبالغ التالية على كل في بطاقة: الفعلي والموازنة وفرق الموازنة وفرق الموازنة % والموازنة التي تمت مراجعتها وفرق الموازنة التي تمت مراجعتها وفرق الموازنة التي تمت مراجعتها %. 
+    عندما تقوم بتحديد ارتباط، تظهر بطاقة لكل عنصر التكلفة. يتم عرض المبالغ التالية على كل في بطاقة: الفعلي والموازنة وفرق الموازنة وفرق الموازنة % والموازنة التي تمت مراجعتها وفرق الموازنة التي تمت مراجعتها وفرق الموازنة التي تمت مراجعتها %.
     
-    [![بطاقة لعنصر تكلفة ](./media/cost-controlling.png)](./media/cost-controlling.png)
+    [![بطاقة لعنصر تكلفة ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-قبل استخدام مساحة العمل المحمولة **التحكم في التكلفة**، تأكد من أن مسؤول النظام استكمل المتطلبات الأساسية التالية.
+تختلف المتطلبات الأساسية، بناءً على إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>يلزم وجود المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition تحديث يوليو 2017
+إذا تم نشر Microsoft Dynamics 365 for Finance and Operations، الEnterprise edition، تحديث يوليو 2017 لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **التحكم في التكاليف**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث
+إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>المتطلب الأساسي</th>
@@ -89,50 +95,44 @@ ms.lasthandoff: 05/25/2017
 </thead>
 <tbody>
 <tr class="odd">
-<td>يجب تطبيق الإصدار 1611 من Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث.‬</td>
+<td>تطبيق قاعدة المعارف 4013633.</td>
 <td>مسؤول النظام</td>
-<td>في حال عدم نشر Dynamics 365 for Operations في المؤسسة، يجب على مسؤول النظام الاطلاع على <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">نشر بيئة عرض توضيحي Microsoft Dynamics 365 for Operations</a>.</td>
+
+<td>إن KB 4013633 عبارة عن تحديث X++ أو إصلاح عاجل لبيانات التعريف يحتوي على مساحة العمل المحمولة <strong>التحكم في التكاليف</strong>. لتطبيق KB 4013633، يجب أن يتبع مسؤول النظام الخطوات التالية.
+<ol>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">تنزيل الإصلاح العاجل لبيانات التعريف من Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة القابلة للنشر</a>.</li>
+
+</ol></td>
 </tr>
 <tr class="even">
-<td>يجب أن يتم تطبيق KB 4013633.</td>
+<td>نشر مساحة العمل المحمولة لـ <strong>التحكم في التكاليف</strong>.</td>
 <td>مسؤول النظام</td>
-<td>تحتوي مقالة قاعدة المعارف KB 4013633 (تحديث X + + أو إصلاح عاجل لبيانات التعريف) على أربع مساحات عمل محمولة لإدارة سلسلة التوريد. لتطبيق KB 4013633، يجب أن يتبع مسؤول النظام الخطوات التالية:
-<ol>
-<li>تنزيل KB 4013633 من Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة قابلة للنشر</a> على نظام Dynamics 365 for Operations.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>يجب نشر مساحة العمل المحمولة <strong>التحكم في التكلفة</strong> إلى تطبيق Dynamics 365 for Operations للأجهزة المحمولة.</td>
-<td>مسؤول النظام</td>
-<td><ol>
-<li>ابدأ تشغيل Dynamics 365 for Operations في المستعرض.</li>
-<li>في صفحة <strong>محددات النظام</strong>، حدد <strong>إدارة مساحات العمل المحمولة</strong>.</li>
-<li>حدد مساحة العمل <strong>نظرة عامة على كائن التكلفة</strong>.</li>
-<li>انقر فوق <strong>نشر مساحة العمل المحمولة</strong>.</li>
-</ol></td>
+<td>راجع <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل محمولة</a></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>تنزيل وتثبيت تطبيق Dynamics 365 for Operations للأجهزة المحمولة
-يمكنك تنزيل وتثبيت تطبيق Dynamics 365 for operations للأجهزة المحمولة من متجر تطبيقات المحمول.
 
--   لـ Android: [Dynamics 365 for Operations على Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   لـ iPhone: [Dynamics 365 for Operations على iTunes apps store](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+## <a name="download-and-install-the-mobile-app"></a>تحميل وتثبيت تطبيق الجوال
+تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>تسجيل الدخول إلى تطبيق Dynamics 365 for Operations للأجهزة المحمولة
+-   [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+
+## <a name="sign-in-to-the-mobile-app"></a>تسجيل الدخول إلى تطبيق الهاتف الجوال
+
 1.  ابدأ تشغيل التطبيق على جهازك المحمول.
-2.  أدخل عنوان URL لتطبيق Dynamics 365 for Operations.
-3.  أدخل الشركة لتسجيل الدخول إلى. على سبيل المثال، أدخل **USMF**.
-4.  في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بحسابك في تطبيق Microsoft Dynamics 365 for Operations. أدخل بيانات اعتمادك.
-5.  بعد تسجيل الدخول، يمكنك رؤية مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، يمكنك السحب لتحديث قائمة مساحات العمل المحمولة. 
+2.  أدخل عنوان URL لـ Dynamics 365.
+3.  في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
+4.  بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
-    [![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>عرض أداء مركز التكلفة باستخدام مساحة العمل المحمولة للتحكم في التكلفة
+
 1.  على جهازك المحمول، حدد مساحة عمل **التحكم في التكلفة**.
 2.  حدد **التحكم في كائن التكلفة**.
 3.  حدد **الإجراءات**.
@@ -145,8 +145,5 @@ ms.lasthandoff: 05/25/2017
 10. حدد الارتباط **تفاصيل للفترة الحالية**.
 11. عرض أداء عناصر تكاليف الفردية.
 12. يمكنك أيضا البحث عن عناصر تكلفة معينة.
-
-
-
 
 

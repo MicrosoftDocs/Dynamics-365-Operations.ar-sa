@@ -1,9 +1,9 @@
 ---
 title: "نظرة عامة على Lean manufacturing"
-description: "تقدم هذه المقالة نظرة عامة على ميزات lean manufacturing في Microsoft Dynamics AX بالإضافة إلى وصف لهذه الميزات."
+description: "تقدم هذه المقالة نظرة عامة على ميزات lean manufacturing في Dynamics 365 for Finance and Operations بالإضافة إلى وصف لهذه الميزات."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dd29e601cb78b6903e09e63182196427183f6dbe
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 376b521a7527b4f60bc01c080f8eabb5cb231b30
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,17 +33,17 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-تقدم هذه المقالة نظرة عامة على ميزات lean manufacturing في Microsoft Dynamics AX بالإضافة إلى وصف لهذه الميزات.
+تقدم هذه المقالة نظرة عامة على ميزات lean manufacturing في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition بالإضافة إلى وصف لهذه الميزات.
 
 تقدم Lean manufacturing الأدوات التي يمكن استخدامها لنمذجة العمليات البسيطة. تدعم هذه الأدوات وتعزز الأنشطة التجارية والمفاهيم التالية:
 -   إنشاء أساس lean manufacturing بواسطة تصميم عمليات التصنيع واللوجستيات كتدفقات إنتاج.
 -   تطبيق نظام سحب بسيط باستخدام وحدات كانبان لمتطلبات طلب الإشارة.
 -   رصد وظائف كانبان والمحافظة عليها.
 
-تشتمل بنية lean manufacturing في Microsoft Dynamics AX 7 على تدفقات الإنتاج، والأنشطة، وقواعد كانبان. ويتم دمج هذه البنيات بالكامل في عمليات Microsoft Dynamics AX 7. يمكنك استخدام lean manufacturing في بيئة تصنيع في وضع مختلط يجمع بين مختلف استراتيجيات التوريد والإنتاج والتزويد. تتضمن هذه الاستراتيجيات أوامر الإنتاج وأوامر الدُعة للصناعات العملية، أوامر الشراء، وأوامر التحويل.
+تشتمل بنية lean manufacturing في Finance and Operations على تدفقات الإنتاج، والأنشطة، وقواعد كانبان. هذه البنيات تتكامل بشكل كامل مع عمليات Finance and Operations. يمكنك استخدام lean manufacturing في بيئة تصنيع في وضع مختلط يجمع بين مختلف استراتيجيات التوريد والإنتاج والتزويد. تتضمن هذه الاستراتيجيات أوامر الإنتاج وأوامر الدُعة للصناعات العملية، أوامر الشراء، وأوامر التحويل.
 | **هام**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| يمكنك استخدام Microsoft Dynamics AX 7 لدعم تنفيذ lean manufacturing باستخدام وظائف kanban. وعلى الرغم من ذلك، يعتمد التنفيذ الناجح للمبادئ البسيطة على العمليات التجارية الداخلية التي تستخدمها، وبيئة وظروف الإنتاج الفعلي. |
+| يمكنك استخدام Finance and Operations لدعم تنفيذ lean manufacturing باستخدام وظائف كانبان. وعلى الرغم من ذلك، يعتمد التنفيذ الناجح للمبادئ البسيطة على العمليات التجارية الداخلية التي تستخدمها، وبيئة وظروف الإنتاج الفعلي. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>وضع نموذج عمليات التصنيع واللوجستيات كتدفقات إنتاج
 لإنشاء أساس lean manufacturing، صمم نموذج عمليات التصنيع واللوجستيات كتدفقات إنتاج. يشمل هذا النشاط المهام التالية:
@@ -71,8 +71,8 @@ ms.lasthandoff: 05/25/2017
 -   لوحة كانبان لوظائف النقل - توفر هذه اللوحة نظرة عامة على وظائف النقل الحالية. ويمكنك تحديث وتسجيل قوائم الانتقاء وبدء وإتمام وظائف النقل والقيام بمهام أخرى.
 -   لوحة كانبان لوظائف العملية - تم تصميم هذه اللوحة لدعم تدفق الإنتاج العادي وإعطاء نظرة عامة على الوضع الراهن في واحدة أو أكثر من خلايا العمل. ومن هذه اللوحة، يمكن تحديد أولويات وظائف كانبان أو انتقاؤها أو تصنيعها. كما تم تصميم هذه اللوحة لدعم باركود المسح الضوئي للإبلاغ عن وظائف كانبان.
 
-## <a name="kanban-jobs-and-integration-with-microsoft-dynamics-ax-processes"></a>وظائف كانبان والاندماج مع عمليات Microsoft Dynamics AX
-يتم دمج وظائف كانبان بشكل كامل مع العمليات الحالية لحركات المخزون في Microsoft Dynamics AX.
+## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>وظائف كانبان وتكاملها مع عمليات Finance and Operations
+تتكامل وظائف كانبان بشكل كامل مع العمليات الحالية لحركات المخزون في Finance and Operations.
 -   ويمكنك تنفيذ أنشطة الانتقاء لتزويد المواد التي تُستخدم لتلبية متطلبات وظائف كانبان.
 -   ويمكنك طباعة بطاقات كانبان وبطاقات كانبان للتداول وقوائم الانتقاء لدعم استخدام وظائف كانبان. ويتم استخدام هذه المستندات لتقديم وتعقب وتسجيل وظائف كانبان في المستودع وطابق الإنتاج.
 -   يمكنك تسجيل أنشطة الانتقاء والنقل في المخزون عن طريق فحص الأكواد الشريطية.

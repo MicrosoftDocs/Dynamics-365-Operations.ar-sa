@@ -3,14 +3,14 @@ title: "تصميم المؤسسة المرنة"
 description: "توفر هذه المقالة معلومات حول المفاهيم الأساسية في تصميم مؤسسة مرنة."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ec9191054a1b3587ebbde16acf278084cbd22660
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: c5bb642df692451e975be74bd8aa7d856b964a68
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -41,7 +41,7 @@ ms.lasthandoff: 05/25/2017
 
 لتقليل زمن وصول البضاعة‬ والمخزون الفائض بين مراكز العمل الناجم عن إنتاج الدُفعات، يقدم lean manufacturing تزويد كانبان والمتاجر الكبرى في التصنيع وتزويد المستودع. تقوم هذه الميزات عادةً بتعطيل دورات كانبان المستقلة جزئيًا. لم يعد تشغيل تزويد كانبان لمنتج غير نهائي يتم الآن بواسطة أمر لمنتج نهائي. 
 
-لإعادة إنشاء سياق إنتاج وتكلفة لمختلف سيناريوهات كانبان المقترحة في Microsoft Dynamics AX، تم تقديم تدفقات الإنتاج المستندة إلى النشاط كأساس lean manufacturing. تشير كافة قواعد كانبان إلى هذه البنية المحددة مسبقاً. يدعم النموذج المستندة إلى النشاط إعداد مجموعة أوسع من السيناريوهات التي كانت تدعمها الإصدارات السابقة من تصنيع Lean manufacturing. على الرغم من ذلك، فإن هذا النموذج لا يضيف تعقيدات إلى العاملين في صالة الإنتاج‬، نظرًا لاستخدام كافة السيناريوهات واجهة المستخدم نفسها المستندة إلى النشاط.
+لإعادة إنشاء سياق إنتاج وتكلفة لمختلف سيناريوهات كانبان المقترحة في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تم تقديم تدفقات الإنتاج المستندة إلى النشاط كأساس lean manufacturing. تشير كافة قواعد كانبان إلى هذه البنية المحددة مسبقاً. يدعم النموذج المستندة إلى النشاط إعداد مجموعة أوسع من السيناريوهات التي كانت تدعمها الإصدارات السابقة من تصنيع Lean manufacturing. على الرغم من ذلك، فإن هذا النموذج لا يضيف تعقيدات إلى العاملين في صالة الإنتاج‬، نظرًا لاستخدام كافة السيناريوهات واجهة المستخدم نفسها المستندة إلى النشاط.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>المنتجات غير النهائية (غير مستويات قائمة مكونات الصنف)
 يدمج Lean Manufacturing في Dynamics AX وظائف كانبان للمنتجات المخزنة والمنتجات غير النهائية في إطار واحد، مما يوفر تجربة مستخدم موحدة لجميع الحالات. وبسبب هذه الهندسة، لم يعد من الضروري تقديم مستويات إضافية لقائمة مكونات الصنف من أجل تمكين استخدام كانبان للمنتجات غير النهائية. تساعد هذه الهندسة أيضًا في تقليل حركات المخزون إلى أدنى حد.

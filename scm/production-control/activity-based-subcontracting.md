@@ -3,14 +3,14 @@ title: "التعاقد من الباطن المستند إلى النشاط"
 description: "يصف هذا الموضوع، بشكل مفصل، كيفية استخدام الأنشطة المتعاقد عليها من الباطن في تدفق الإنتاج من أجل lean manufacturing."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 43c95c8ab8599a048b1c8c732d6dcac1c3e8b9e9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 يصف هذا الموضوع، بشكل مفصل، كيفية استخدام الأنشطة المتعاقد عليها من الباطن في تدفق الإنتاج من أجل lean manufacturing.
 
-في Microsoft Dynamics 365 for Operations، هناك طريقتان للتعاقد من الباطن: أوامر الإنتاج وlean manufacturing. في طريقة lean manufacturing، يتم تصميم عمل التعاقد من الباطن كخدمة مرتبطة بنشاط تدفق الإنتاج. تم تقديم نوع خاص من نوع مجموعة التكاليف‬ يسمى **إسناد مباشر** ولم تعد خدمات التعاقد من الباطن جزءًا من قائمة مكونات الصنف. تم دمج محاسبة التكاليف للعمل المتعاقد عليه من الباطن بشكل كامل في حل تكلفة lean manufacturing.
+في Microsoft Dynamics 365 for Finance and Operations، هناك طريقتان للتعاقد من الباطن: أوامر الإنتاج وlean manufacturing. في طريقة lean manufacturing، يتم تصميم عمل التعاقد من الباطن كخدمة مرتبطة بنشاط تدفق الإنتاج. تم تقديم نوع خاص من نوع مجموعة التكاليف‬ يسمى **إسناد مباشر** ولم تعد خدمات التعاقد من الباطن جزءًا من قائمة مكونات الصنف. تم دمج محاسبة التكاليف للعمل المتعاقد عليه من الباطن بشكل كامل في حل تكلفة lean manufacturing.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>تدفقات الإنتاج التي تشمل المقاولين
 لا يتغير المبدأ الأساسي لتدفق الإنتاج عندما تكون الأنشطة متعاقد عليها من الباطن. يستمر تدفق الموارد بين المواقع، وتحوّل أنشطة المعالجة المواد إلى منتجات وتنقل أنشطة التحويل مواد أو منتجات من موقع إلى آخر. ويمكنك تصميم خلايا المواقع والعمل كخلايا مُدارة بواسطة المورّد عن طريق تعيين حساب المورّد إلى مستودع أو إلى مورد في مجموعة الموارد.  
@@ -104,7 +104,7 @@ ms.lasthandoff: 05/25/2017
 
 يسمح لك التعاقد من الباطن المستند إلى النشاط‬ في lean manufacturing بدمج شركات النقل ومورّدي خدمات النقل ممن ينقلون المواد والمنتجات بين مواقع تدفق الإنتاج. ومن خلال تصميم نشاط نقل، يمكنك تعيين ناقل أو مورّد. تستند وظيفة/أنشطة النقل إلى اتفاقية الخدمة والشراء، ويمكنك إنشاء أوامر الشراء وتقارير الاستلام، استنادًا إلى وظائف النقل الفعلي. هذه الوظيفة هي نفسها وظيفة أنشطة المعالجة المتعاقد عليها من الباطن‬.  
 
-ولذلك، تدعم خدمة Dynamics 365 for Operations الآن حساب قائمة مكونات الصنف الذي يتضمن خدمات النقل، وإنشاء أوامر الشراء المرتبطة، وتسجيل إيصالات الاستلام المتكاملة، ودمج تكاليف خدمة النقل بتكلفة تدفق الإنتاج.
+ولذلك، يدعم Finance and Operations الآن حساب قائمة مكونات الصنف الذي يتضمن خدمات النقل، وإنشاء أوامر الشراء المرتبطة، وتسجيل إيصالات الاستلام المتكاملة، ودمج تكاليف خدمة النقل بتكلفة تدفق الإنتاج.
 
 
 

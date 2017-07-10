@@ -3,13 +3,13 @@ title: "محتوى Power BI لإدارة التكلفة"
 description: "يوضح هذا الموضوع ما هو مدرج في محتوى Power BI لإدارة التكاليف. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9449e42224d5dfb1bc1f0368a041c45afc334a2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -52,7 +52,7 @@ ms.lasthandoff: 05/25/2017
 يُعد مصدر البيانات الأساسي لـ CostAggregatedCostStatementEntryEntity هو جدول CostStatementCache. يُدار هذا الجدول من خلال إطار عمل ذاكرة التخزين المؤقت لمجموعة البيانات. وبشكل افتراضي، يتم تحديث الجدول كل 24 ساعة، ولكنك يمكنك تحديثه يدويًا في تكوين ذاكرة التخزين المؤقت للبيانات. ثم يمكنك القيام بالتحديث اليدوي في مساحة العمل **إدارة التكلفة** أو **تحليل التكلفة**. بعد تشغيل تحديث CostStatementCache، يجب عليك تحديث اتصال OData على Power BI.com لرؤية البيانات المُحدثة على الموقع. تتعلق قياسات الفرق (الشراء والإنتاج) في محتوى Power BI هذا فقط بالأصناف المُقيّمة من خلال أسلوب مخزون التكلفة المعياري. يتم حساب الفرق في الإنتاج بالفرق بين التكلفة النشطة والتكلفة المحققة. يتم حساب فرق الإنتاج عندما تكون حالة أمر الإنتاج مُعيَنة على **تم الإنهاء**. لمزيد من المعلومات حول أنواع فروق الإنتاج، وكيفية حساب كل نوع، راجع [حول تحليل نسب الفرق لأوامر الإنتاج المكتملة](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-يتوفر محتوي Power BI لـ **إدارة التكلفة** من PowerBI.com. لمزيد من المعلومات حول كيفية الاتصال وتحميل بيانات Microsoft Dynamics 365 for Operations الخاصة بك، راجع [الوصول إلى محتوى Power BI من PowerBI.com](power-bi-home-page.md).
+يتوفر محتوي Power BI لـ **إدارة التكلفة** من PowerBI.com. لمزيد من المعلومات حول كيفية الاتصال وتحميل بيانات Microsoft Dynamics 365 for Finance and Operations الخاصة بك، راجع [الوصول إلى محتوى Power BI من PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>المقاييس المُدرجة في محتوى Power BI
 يشمل المحتوى مجموعة من صفحات التقرير. تتكون كل صفحة من مجموعة من المقاييس المصورة مرئيًا مثل المخططات، والتجانبات والجداول. يوفر الجدول التالي نظرة عامة حول مجموعة الرسوم المرئية في محتوى Power BI لـ **إدارة التكلفة**.
@@ -84,9 +84,9 @@ ms.lasthandoff: 05/25/2017
 | |فروق الإنتاج حسب اسم الموقع والمستوى 3 لاسم الفئة | |
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
-تستخدم بيانات Dynamics 365 for Operations لملء صفحات التقارير في محتوى Power BI لـ **إدارة التكلفة**. يتم تمثيل هذه البيانات كقياسات تجميعية مقسمة مرحليًا في متجر الكيان، وهو قاعدة بيانات Microsoft SQL المُحسنة للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع متجر الكيان](power-bi-integration-entity-store.md). تستخدم القياسات التجميعية الرئيسية التالية كأساس للمحتوى.
+تستخدم بيانات Finance and Operations لملء صفحات التقارير في محتوى Power BI لـ **إدارة التكلفة**. يتم تمثيل هذه البيانات كقياسات تجميعية مقسمة مرحليًا في متجر الكيان، وهو قاعدة بيانات Microsoft SQL المُحسنة للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع متجر الكيان](power-bi-integration-entity-store.md). تستخدم القياسات التجميعية الرئيسية التالية كأساس للمحتوى.
 
-| الكيان            | القياسات التجميعية الرئيسية | مصدر البيانات لـ Dynamics 365 for Operations | الحقل             | ‏‏الوصف                       |
+| الكيان            | القياسات التجميعية الرئيسية | بيانات المصدر لـ Finance and Operations | الحقل             | ‏‏الوصف                       |
 |-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
 | إدخالات الكشف | صافي التغيير                | CostAggregatedCostStatementEntryEntity      | المجموع (\[مبلغ\])   | المبلغ بعملة المحاسبة |
 | إدخالات الكشف | كمية التغيير الصافي       | CostAggregatedCostStatementEntryEntity      | المجموع(\[الكمية\]) |                                   |

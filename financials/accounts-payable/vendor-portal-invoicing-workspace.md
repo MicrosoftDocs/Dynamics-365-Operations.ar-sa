@@ -3,13 +3,14 @@ title: "مساحة عمل فوترة تعاون المورد"
 description: "يشرح هذا الموضوع كيفية عرض فواتير المورد وإرسال الفواتير من مساحة عمل فوترة تعاون المورد."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 يشرح هذا الموضوع كيفية عرض فواتير المورد وإرسال الفواتير من مساحة عمل فوترة تعاون المورد.
 
-يمكن استخدام مساحة عمل **فوترة تعاون المورد** لعرض معلومات حول فواتير المورد وتقديم الفواتير إلى Microsoft Dynamics 365 for Operations باستخدام قدرات سير العمل.
+يمكن استخدام مساحة عمل **فوترة تعاون المورد** لعرض معلومات حول فواتير المورد وتقديم الفواتير إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition باستخدام قدرات سير العمل.
 مساحة عمل فوترة تعاون المورد
 ----------------------------------------
 
@@ -40,9 +41,9 @@ ms.lasthandoff: 05/25/2017
 
 توفر لك لوحات **الملخص** نظرة عامة على فواتير المورد المحدد. ويمكنك عرض الفواتير حسب حالتها.
 -   لم يتم إرسال الفواتير المسودة إلى سير العمل.
--   الفواتير المرسلة وغير المعتمدة‬ هي تلك التي أرسلها المورد، ولكن لم يتم ترحيلها في Dynamics 365 for Operations.
--   الفواتير المعتمدة وغير المدفوعة هي تلك التي تم ترحيلها في Dynamics 365 for Operations، ولكن لم يتم دفعها حتى الآن بشكل كامل.
--   الفواتير المدفوعة هي تلك التي تم دفعها بشكل كامل في Dynamics 365 for Operations.
+-   الفواتير المرسلة وغير المعتمدة‬ هي تلك التي أرسلها المورد، ولكن لم يتم ترحيلها في Finance and Operations.
+-   الفواتير المعتمدة وغير المدفوعة هي تلك التي تم ترحيلها في Finance and Operations، ولكن لم يتم دفعها حتى الآن بشكل كامل.
+-   الفواتير المدفوعة هي تلك التي تم دفعها بشكل كامل في Finance and Operations.
 
 يؤدي النقر فوق لوحة إلى فتح طريقة عرض تمت تصفيتها **لقائمة الفواتير**.
 ### <a name="tabular-lists"></a>القوائم الجدولية
@@ -59,7 +60,7 @@ ms.lasthandoff: 05/25/2017
 
 
 
-لمزيد من المعلومات، راجع [‬‏‫التعاون مع المورّدين باستخدام مدخل المورِّد‬‬‏‫](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+لمزيد من المعلومات، راجع [‬‏‫التعاون مع المورّدين باستخدام مدخل المورِّد‬‬‏‫](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 
