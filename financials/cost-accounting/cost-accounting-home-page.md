@@ -14,7 +14,7 @@ ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,10 +22,11 @@ ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
 ms.contentlocale: ar-sa
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف‬‏‫
+<a id="cost-accounting-home-page" class="xliff"></a>
+
+# الصفحة الرئيسية لمحاسبة التكاليف‬‏‫
 
 [!include[banner](../includes/banner.md)]
 
@@ -48,7 +49,11 @@ ms.lasthandoff: 06/13/2017
 -   إنشاء كشوفات يمكن عرضها في مساحة العمل.
 -   إنشاء تقارير باستخدام Excel.
 
-## <a name="get-started"></a>بدء الاستخدام
+<a id="get-started" class="xliff"></a>
+
+## بدء الاستخدام
+
+> [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
 توفر معامل التدريب العملي لمحاسبة التكاليف الخطوات الأساسية لتكوين Microsoft Dynamics 365 for Finance and Operations, Enterprise edition - محاسبة التكاليف بغية إجراء تحليل التكلفة الفعلية. وتوفر أيضاً سلسلة من الإجراءات التي يمكن إكمالها بالترتيب الذي تظهر به.
 
@@ -63,12 +68,16 @@ ms.lasthandoff: 06/13/2017
 -   [أبعاد كائن التكلفة](cost-objects.md)
 -   [إنشاء كائنات التكلفة](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (دليل المهام)
 
-## <a name="cost-control-mobile-workspace"></a>مساحة العمل المحمولة للتحكم في التكاليف
+<a id="cost-control-mobile-workspace" class="xliff"></a>
+
+## مساحة العمل المحمولة للتحكم في التكاليف
 باستخدام مساحة العمل المحمولة للتحكم في التكاليف، يمكن لمديري مركز التكلفة رؤية أداء مركز التكلفة في أي وقت وفي أي مكان.
 
 -   [مساحة العمل المحمولة للتحكم في التكاليف](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>محتوى Power BI - تحليل محاسبة التكاليف
+<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
+
+## محتوى Power BI - تحليل محاسبة التكاليف
 يهدف محتوى Microsoft Power BI تحليل محاسبة التكاليف إلى مساعدة مراقبي التكاليف أو أي شخص مسؤول عن تنفيذ مراقبة التكاليف لمؤسسة. ويتضمن المقاييس الرئيسية، مثل التكلفة والمقدار ومعدل التكلفة بحسب التكلفة الفعلية وتكلفة الموازنة وتكلفة الموازنة المرنة. يستخدم بيانات الحركة من الوحدة النمطية لمحاسبة التكاليف في Finance and Operations، ويقدم نظرة إجمالية عن التكاليف للمؤسسة بأكملها في عملة تقارير واحدة. يمكن للمديرين تصفية البيانات حسب كائنات التكلفة لتنفيذ مراقبة التكاليف الخاصة بوحداتهم التنظيمية، حتى لو كانت المؤسسة تمتلك العديد من الكيانات القانونية.
 
 -   [محتوى Power BI - تحليل محاسبة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
