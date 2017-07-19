@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: ar-sa
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
@@ -128,3 +128,4 @@ ms.lasthandoff: 06/20/2017
 من هذه الصفحة، يستطيع المستخدمون التنقل في صفحة **إحصائيات رقابة الموازنة حسب الفترة** لعرض تفاصيل توفر الموازنة وعمليات الحجز لمجموعة أبعاد رقابة الموازنة. باستطاعة المستخدمين أيضًا التنقل في صفحة **إحصاء رقابة الموازنة**لعرض توفر الموازنة لكافة مجموعات الأبعاد المالية التي يتم استخدامها في رقابة الموازنة. 
 
 إذا تم تشغيل رقابة الموازنة لأوامر الشراء، فبإمكان مدير الموازنة استخدام مساحة عمل **تنبؤات وموازنات دفتر الأستاذ‬** لمراجعة قائمة انتظار كل أوامر الشراء غير المؤكدة التي لديها أخطاء وتحذيرات تتعلق بفحص الموازنة. إذا قام مدير الموازنة بتكوين أذونات زائدة على الموازنة، فيمكنه تأكيد أوامر الشراء مباشرةً في مساحة العمل.    
+

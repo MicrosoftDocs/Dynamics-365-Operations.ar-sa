@@ -51,6 +51,7 @@
       "docset_name": "d365Ops-Retail",
       "build_source_folder": "retail",
       "build_output_subfolder": "d365Ops-Retail",
+
       "locale": "ar-sa",
       "monikers": [],
       "open_to_public_contributors": false,
@@ -103,6 +104,11 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.ar-sa",
       "branch": "master",
       "branch_mapping": {}
+    }, 
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master"
     },
     {
       "path_to_root": "_repo.en-us",
@@ -120,5 +126,10 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true
+  "need_generate_pdf_url_template": true,
+    "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  }
 }
