@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# الصفحة الرئيسية لمحاسبة التكاليف‬‏‫
+# <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف‬‏‫
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ ms.lasthandoff: 06/13/2017
 -   إنشاء كشوفات يمكن عرضها في مساحة العمل.
 -   إنشاء تقارير باستخدام Excel.
 
-<a id="get-started" class="xliff"></a>
-
-## بدء الاستخدام
+## <a name="get-started"></a>بدء الاستخدام
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ ms.lasthandoff: 06/13/2017
 -   [أبعاد كائن التكلفة](cost-objects.md)
 -   [إنشاء كائنات التكلفة](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (دليل المهام)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## مساحة العمل المحمولة للتحكم في التكاليف
+## <a name="cost-control-mobile-workspace"></a>مساحة العمل المحمولة للتحكم في التكاليف
 باستخدام مساحة العمل المحمولة للتحكم في التكاليف، يمكن لمديري مركز التكلفة رؤية أداء مركز التكلفة في أي وقت وفي أي مكان.
 
 -   [مساحة العمل المحمولة للتحكم في التكاليف](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## محتوى Power BI - تحليل محاسبة التكاليف
+## <a name="cost-accounting-analysis-power-bi-content"></a>محتوى Power BI - تحليل محاسبة التكاليف
 يهدف محتوى Microsoft Power BI تحليل محاسبة التكاليف إلى مساعدة مراقبي التكاليف أو أي شخص مسؤول عن تنفيذ مراقبة التكاليف لمؤسسة. ويتضمن المقاييس الرئيسية، مثل التكلفة والمقدار ومعدل التكلفة بحسب التكلفة الفعلية وتكلفة الموازنة وتكلفة الموازنة المرنة. يستخدم بيانات الحركة من الوحدة النمطية لمحاسبة التكاليف في Finance and Operations، ويقدم نظرة إجمالية عن التكاليف للمؤسسة بأكملها في عملة تقارير واحدة. يمكن للمديرين تصفية البيانات حسب كائنات التكلفة لتنفيذ مراقبة التكاليف الخاصة بوحداتهم التنظيمية، حتى لو كانت المؤسسة تمتلك العديد من الكيانات القانونية.
 
 -   [محتوى Power BI - تحليل محاسبة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
