@@ -14,14 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
+ms.translationtype: HT
+ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
+ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/29/2017
 يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الوظائف الخاصة بالبلد/المنطقة. 
 
 ## <a name="developing-localized-solutions"></a>نشر حلول مترجمة
-توفر الموارد التالية توجيهات ومعلومات يمكن أن تساعد المطورين ومورِّدي البرامج الذين يُنشئون التخصيصات الخاصة بالبلد/المنطقة أو أنشأوا حلا لدولة لا تدعمها Microsoft.
+توفر الموارد التالية توجيهات ومعلومات يمكن أن تساعد المطورين ومورِّدي البرامج الذين يُنشئون التخصيصات الخاصة بالبلد/المنطقة أو يُنشئون حلا لدولة لا تدعمها Microsoft.
 -   [نماذج الترجمة المنفصلة](separate-localization-models.md)
 -   [تطبيق سياق البلد/المنطقة](apply-country-context.md)
 -   [الشهادات التنظيمية](regulatory-certifications.md)
@@ -204,7 +203,7 @@ ms.lasthandoff: 06/29/2017
 -   [تقرير قائمة دفتر اليومية الألماني](/dynamics365/unified-operations/financials/localizations/emea-deu-journal-list-report)
 -   [طباعة تسمية منفصلة لمذكرات الائتمان التي تنشأ من المبيعات](/dynamics365/unified-operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
-### <a name="hungary"></a>المجر
+### <a name="hungary"></a>هنغاريا‬
 
 -   [طرق إهلاك الأصول الثابتة](/dynamics365/unified-operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods) 
 -   [نقل أصل ثابت إلى المخزون](/dynamics365/unified-operations/financials/localizations/emea-hun-fixed-asset-to-inventory)

@@ -1,28 +1,28 @@
 ---
 title: "الصفحة الرئيسية لإدارة سلسة التوريد"
 description: "تشير هذه الصفحة إلى الموارد التي ستساعدك في استخدام Dynamics 365 for Finance and Operations - إدارة سلسلة التوريد بفعالية أكبر."
-author: yuyus
+author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 4044c66833e914b1f0f2d552d827013bd48dc2db
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -33,28 +33,55 @@ ms.lasthandoff: 06/29/2017
 تشير هذه الصفحة إلى الموارد التي ستساعدك في استخدام Dynamics 365 for Finance and Operations - إدارة سلسلة التوريد بفعالية أكبر. 
 
 ## <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
-انتقل إلى <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> لمعرفة الميزات الجديدة التي تم إصدارها وما الميزات الجديدة قيد التطوير. 
+انتقل إلى <a href="https://roadmap.dynamics.com/">خارطة طريق Dynamics 365</a> لمعرفة الميزات الجديدة التي تم إصدارها وما الميزات الجديدة قيد التطوير. 
 
 ## <a name="core-concepts-and-tasks"></a>المفاهيم الأساسية والمهام
-*  في الجزء الأيمن، حدد منطقة ميزة لمعرفة مزيد من المعلومات حولها. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">معالجة إشعارات Asn الواردة في إدارة المستودعات</a> (فيديو) 
 
+حدد منطقة ميزة لمعرفة المزيد حول هذا الموضوع.
+
+- [محاسبة التكاليف](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/financials/toc.json)
+- [إدارة التكلفة](cost-management\costing-sheets.md)  
+- [إدارة المخزون](inventory\consignment.md)
+- [التخطيط الرئيسي](master-planning\introduction-demand-forecasting.md)
+- [التدبير وتحديد الموارد](procurement\procurement-sourcing-overview.md)
+- [إدارة معلومات المنتج](pim\product-information.md)
+- [التحكم بالإنتاج](production-control\production-process-overview.md)
+- [المبيعات والتسويق](sales-marketing\overview-sales-marketing.md)
+- [إدارة النقل](transportation\transportation-management-overview.md)
+- [إدارة المستودعات](warehousing\warehouse-configuration.md)
+
+## <a name="videos"></a>مقاطع الفيديو
+
+### <a name="get-started"></a>بدء الاستخدام  
+
+مقاطع الفيديو القصيرة هذه ستساعدك في بدء استخدام الميزات الجديدة المزودة في Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise، تحديث يوليو 2017.
+
+-  [بدء الاستخدام في ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
+-  [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
+-  [استخدام Excel لتحليل التكلفة](https://youtu.be/-HKHYdClvx8)
+
+### <a name="tech-talk"></a>حديث فني 
+-  <a href="https://youtu.be/zotrj3SbCl4">مكون المنتج في Microsoft Dynamics AX</a>
+-  <a href="https://youtu.be/7v8BPmEs9Dg">التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها</a>
+-  <a href="https://youtu.be/RLXybx20B5o">التعليمات! تخطيط متطلبات المواد بطيء!</a>
+-  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">معالجة إشعارات ASN الواردة في إدارة المستودعات</a> 
+-  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">الاستفادة بأفضل صورة من نظام إدارة المستودعات</a>
+-  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">إدارة المستودعات إصدار R3 المتقدم -معالجة الوارد و‏‫الحد الأدنى/الحد الأقصى لعملية التزويد‬</a>
+-  <a href="https://youtu.be/Og0gLlVp7jA">إدارة المستودعات إصدار R3 المتقدم -يوم من الحياة، ومعالجة الصادر وتزويد الطلب</a>
+-  <a href="https://youtu.be/5w1MngVchBA">التسميات في إدارة مستودعات Microsoft Dynamics AX 2012 R3 الجديد</a>
+-  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: إدارة المستودعات - يوم في حياة التصنيع التحويلي</a>
+-  <a href="https://youtu.be/y1jrd3A_k70">عمليات وأنشطة التعاقد من الباطن في التصنيع</a>
 
 ## <a name="blogs"></a>المدونات
 هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد ضمن <a href="https://blogs.msdn.microsoft.com/axmfg/">مدونة فريق بحث وتطوير Dynamics AX Manufacturing</a> و<a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX</a>. وقد تمت كتابة معظم هذه المنشورات للإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي. 
 
-على سبيل المثال، يمكنك قراءة المنشورات الأخيرة حول: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">الإعلان عن Finance and Operations – التخزين في المستودعات</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">وظيفة التعبئة المحسَّنة (Dynamics 365 for Operations 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">توزيع البضائع من أوامر الإنتاج لأوامر التحويل</a>
-
 ## <a name="white-papers"></a>المستندات التقنية
-* يوفر المستند التقني <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Finance and Operations - بدء العمل مع محاسبة التكاليف</a> الخطوات الأساسية لتكوين Microsoft Dynamics 365 for Finance and Operations – محاسبة التكاليف لإجراء تحليل التكلفة الفعلية. يوفر أيضًا سلسلة من الإجراءات التي يمكنك إكمالها بالترتيب الذي تظهر به.
-* يصف المستند التقني <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Finance and Operations -‏ Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان</a> تفاصيل جدولة وظيفة الكانبان ويقدم مفهوم تلقي أمر المبيعات الذي يستخدم طريقة المتاح للتعهد (CTP) للتحكم في تاريخ التسليم. كما يمكن أن يوضح الكيفية التي يمكن بها دمج CTP مع بطاقات كانبان الأحداث لجمع النماذج لأمر أو سيناريوهات التصميم لأمر.
-* يوضح المستند التقني <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Finance and Operations - حساب قائمة مكونات الصنف باستخدام كشف التكاليف</a> كيفية إعداد كشف تكاليف يتضمن التصنيع والمواد، ومدى تأثير الإعداد على نتائج حساب قائمة مكونات الصنف. يمكنك القيام بالتمارين في الملحق لأغراض تعليمية، واستخدام المعرفة التي اكتسبتها من قراءة هذا المستند للقيام بتحليل حساب قائمة مكونات الصنف.
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">المختبرات المتاحة لمحاسبة التكاليف</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">‏‫حساب قائمة مكونات الصنف ‏‫باستخدام كشف التكاليف‬‏‫‬‬</a>
 
 ## <a name="elearning-courses"></a>دورات التعليم الإلكتروني
-لمزيد من المعلومات حول تدريب Microsoft Dynamics 365 for Finance and Operations، راجع <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">مدخل تعلم Microsoft Dynamics</a>. (يتطلب حساب CustomerSource) 
+لمزيد من المعلومات حول تدريب Microsoft Dynamics 365 for Finance and Operations، راجع <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> مدخل تعلم Microsoft Dynamics</a>. (يتطلب حساب CustomerSource) 
 
 
 
