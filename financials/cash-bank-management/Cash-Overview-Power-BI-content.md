@@ -3,21 +3,23 @@ title: "محتوى Power BI - نظرة عامة على النقد"
 description: "يصف هذا الموضوع محتوى Power BI - نظرة عامة على النقد. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 06/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e969c2033463d565ce782c7dc8cfc4b458349289
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 367fe61492648ee3ee629a8121e664dfaa0c6c99
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,6 +36,10 @@ ms.lasthandoff: 06/20/2017
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 
 إذا كنت تستخدم Dynamics 365 for Finance and Operations, Enterprise edition، تحديث يوليو 2017، فسوف يتم عرض تقارير من محتوى Power BI **نظرة عامة على النقد** في مساحتي عمل **نظرة عامة على النقد** و**إدارة البنك**.
+
+لعرض تقارير تقدير التدفقات النقدية، يجب أولاً تشغيل عملية حساب التقدير باستخدام وظيفة **حساب تقديرات التدفقات النقدية** من منطقة إدارة النقد والبنوك.  يجب إكمال هذه العملية لكل شركة مضمنة في التقدير.  بعد ذلك، يجب تحديث القياس المجمع LedgerCovLiquidityMeasurement في صفحة the **مخزن الكيانات**.  
+
+ولأغراض تتعلق بالعرض التوضيحي، يمكنك أيضًا نقل بيانات العرض التوضيحي لتقدير التدفق النقدي باستخدام صفحة **إنشاء بيانات** من الوحدة النمطية لبيانات العرض التوضيحي.  سيقوم هذا البرنامج النصي بإدراج البيانات في جداول تقدير التدفق النقدي لملء المعلومات الضرورية للتقارير بسرعة.  تتوفر هذه الوحدة فقط إذا كان لديك نموذج مجموعة بيانات العرض التوضيحي تم نشره على البيئة. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
 يوفر الجدول التالي تفاصيل حول المقاييس التي يتم العثور عليها في كل صفحة من صفحات التقرير في محتوى Power BI **نظرة عامة على النقد**.

@@ -1,28 +1,28 @@
 ---
 title: "التصفية المتقدمة وبنية الاستعلام"
-description: "توضح هذه المقالة خيارات التصفية والاستعلام التي تتوفر عند استخدام عامل التشغيل &quot;تطابق&quot; في مربع الحوار &quot;عامل التصفية/الفرز المتقدم&quot;."
+description: "توضح هذه المقالة خيارات التصفية والاستعلام التي تتوفر عند استخدام عامل التشغيل \"تطابق\" في مربع الحوار \"عامل التصفية/الفرز المتقدم\"."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysQueryForm
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48b2049c3f5025d7e8d3fc7e944aa9360786d18a
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 05/25/2017
 <td><em>القيمة من</em>..<em>القيمة إلى</em> (نقطة مزدوجة)‬</td>
 <td>بين القيمتين اللتين تم الفصل بينهما بنقطتين مزدوجتين</td>
 <td>اكتب القيمة من، ثم نقطتين، ثم قيمة إلى.</td>
-<td><strong>1..10</strong> يتم البحث عن جميع القيم من 1 وحتى 10. مع ذلك، في حقل السلسلة، <strong>أ..ج</strong> يتم البحث عن كافة القيم التي تبدأ بـ &quot;أ&quot; و&quot;ب&quot;، والقيم التي تساوي  &quot;ج&quot; تمامًا. على سبيل المثال، لن يبحث هذا الاستعلام عن &quot;ج أ&quot;. للبحث عن جميع القيم بدءًا من &quot;أ*&quot; وحتى &quot;ج*&quot;، اكتب <strong>أ..د</strong>.</td>
+<td><strong>1..10</strong> يتم البحث عن جميع القيم من 1 وحتى 10. ومع ذلك، في حقل السلسلة <strong>أ..ج</strong>، يتم البحث عن جميع القيم التي تبدأ بـ &quot;أ&quot; و&quot;ب&quot;، والقيم المساوية تمامًا لـ &quot;ج&quot;. على سبيل المثال، لن يبحث هذا الاستعلام عن &quot;جأ&quot;. للبحث عن جميع القيم بدءًا من &quot;أ*&quot; وحتى &quot;ج*&quot;، اكتب <strong>أ..د</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>القيمة</em> (نقطة مزدوجة)</td>
@@ -122,7 +122,7 @@ ms.lasthandoff: 05/25/2017
 <td><em>قيمة</em>،<em>قيمة</em> (فاصلة)</td>
 <td>مطابقة القيم التي تم الفصل بينها بفواصل.</td>
 <td>اكتب كافة المعايير، وافصلها ياستخدام الفواصل.</td>
-<td><strong>أ، د، و، ز</strong> يتم البحث عن &quot;أ&quot;، و&quot;د&quot;، و&quot;و&quot;، و&quot;ز&quot;. و<strong>10،‏ 20، 30، 100</strong> يتم البحث عن &quot;10،‏ 20، 30، 100&quot; بالضبط.</td>
+<td><strong>A, D, F, G</strong> يبحث تمامًا عن &quot;أ&quot; و&quot;د&quot; و&quot;ز&quot; و&quot;ح&quot;. <strong>10, 20, 30, 100</strong> يبحث تمامًا عن &quot;10 و20 و30 و100&quot;.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">عبارة SQL</span>) (عبارة SQL بين قوسين)</td>

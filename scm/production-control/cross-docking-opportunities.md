@@ -1,5 +1,5 @@
 ---
-title: "توزيع البضائع من أوامر الإنتاج لمساحات خارجية | Microsoft Docs"
+title: "توزيع البضائع من أوامر الإنتاج لمساحات خارجية"
 description: "يصف هذا الموضوع كيفية إدارة عملية مواد توزيع البضائع التي يتم الإبلاغ عنها كبضائع منتهية من خط الإنتاج إلى رصيف نقل الصادرات."
 author: johanhoffmann
 manager: AnnBe
@@ -8,19 +8,20 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+audience: Application User
 ms.reviewer: bis
 ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 0b5541b6752da0c73e4309951ecabc0793f24289
+ms.translationtype: HT
+ms.sourcegitcommit: b424be5396df9434cd799ca7e7e9342a7c476e29
+ms.openlocfilehash: 231808260eeab73120bab43558ab5745f9fdbe46
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -123,7 +124,6 @@ ms.lasthandoff: 06/20/2017
 ### <a name="additional-information"></a>معلومات إضافية
 
 -   يتم دعم سيناريو توزيع البضائع للدفعة والأصناف التي يتم التحكم فيها من خلال الرقم التسلسلي، كلًا منهما من خلال الدفعة وأبعاد الرقم التسلسلي المحدد أعلاه، والموقع أدناه في التدرج الهرمي للحجز.
--   لا يمكن تقسيم الكمية التي يتم الإبلاغ عنها كمنتهية إلى طلب أمر تحويل أقل. على سبيل المثال، إذا تم الإبلاغ عن 20 قطعة كمنتهي، وكان أمر التحويل موجود لـ 5 قطع، فمن ثم فلن يتم تطبيق امر التحويل على توزيع البضائع.
 
 
 

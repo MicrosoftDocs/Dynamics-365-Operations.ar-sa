@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 889a9ce79d4599a60a4503d7876276a1452a5465
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 84243a91d8b76873cd33651bbdff900b14d9c76e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,8 +36,8 @@ ms.lasthandoff: 06/13/2017
 ----------------
 
 -   [نظرة عامة على تسلسلات الأرقام](number-sequence-overview.md)
--   [إعداد التسلسلات الرقمية باستخدام معالج](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (دليل المهام)
--   [إعداد التسلسلات الرقمية على أساس فردي](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (دليل المهام)
+-   [إعداد التسلسلات الرقمية باستخدام معالج](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (دليل المهام)
+-   [إعداد التسلسلات الرقمية على أساس فردي](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (دليل المهام)
 
 ## <a name="address-books"></a>دفاتر العناوين
 -   [دفاتر العناوين](qa-address-books.md)
@@ -67,17 +67,17 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="electronic-signatures"></a>التوقيعات الإلكترونية
 -   [نظرة عامة على التوقيعات الإلكترونية](electronic-signature-overview.md)
--   [إعداد التوقيعات الإلكترونية](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (دليل المهام)
+-   [إعداد التوقيعات الإلكترونية](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (دليل المهام)
 
 ## <a name="organizations"></a>المؤسسات
 -   [المؤسسات والتدرجات الهرمية للمؤسسات](organizations-organizational-hierarchies.md)
 -   [تخطيط التدرج الهرمي للمؤسسات](plan-organizational-hierarchy.md)
--   [إنشاء وحدة تشغيل](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (دليل المهام)
--   [إنشاء تدرج هرمي للمؤسسات](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (دليل المهام)
--   [إنشاء كيان قانوني](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (دليل المهام)
+-   [إنشاء وحدة تشغيل](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (دليل المهام)
+-   [إنشاء تدرج هرمي للمؤسسات](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (دليل المهام)
+-   [إنشاء كيان قانوني](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (دليل المهام)
 
 ## <a name="general-administration"></a>الإدارة العامة
--   [تغيير اللافتة أو الشعار](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (دليل المهام)
+-   [تغيير اللافتة أو الشعار](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (دليل المهام)
 -   [حول بيانات التاريخ/الوقت والمناطق الزمنية](date-time-zones.md)
 -   [قوالب السجل](record-templates.md)
 

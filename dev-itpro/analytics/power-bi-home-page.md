@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/25/2017
 
 ---
 
@@ -35,28 +35,30 @@ ms.lasthandoff: 06/20/2017
 إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تحديث يوليو 2017، فسوف يتوفر محتوى Power BI التالي:
 
 - [محتوى Power BI - الميزات](benefits-power-bi.md)
-- [محتوى Power BI - نظرة عامة على النقد](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [محتوى Power BI - نظرة عامة على النقد](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [محتوى Power BI - نظرة عامة على المدير المالي](CFO-power-bi.md)
 - [محتوى Power BI - التعويض](compensation-power-bi.md)
 - [محتوى Power BI - تحليل محاسبة التكاليف*](cost-accounting-analysis-content-pack.md) 
-- [محتوى Power BI - إدارة التحصيلات والائتمان](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [محتوى Power BI - إدارة التحصيلات والائتمان](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [محتوى Power BI - تطوير الموظفين](employee-development-PBI.md) 
 - [محتوى Power BI - الأداء المالي*](financial-performance-power-bi-content-pack.md)
-- [محتوى Power BI - ‏‫إدارة الأصول الثابتة‬](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [محتوى Power BI - ‏‫إدارة الأصول الثابتة‬](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
 - [محتوى Power BI - ‏‫التعلم‬](learning-power-bi.md)
 - [محتوى Power BI - ‏‫إدارة الممارسات‬](practice-manager-power-bi.md)
 - [محتوى Power BI - ‏أداء الإنتاج](production-performance-power-bi.md)
 - [محتوى Power BI لتحليل الإنفاق على الشراء](purchase-content-pack-for-power-bi.md) 
 - [محتوى Power BI للتوظيف](recruiting-analysis-power-bi-content-pack.md) 
 - [محتوى Power BI لأداء المبيعات والربحية](sales-profitability-performance-content-pack.md)
-- [محتوى Power BI - ‏‫مدفوعات المورّد‬](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [محتوى Power BI - ‏‫مدفوعات المورّد‬](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
 - [محتوى Power BI لأداء المستودع](warehouse-power-bi-content.md)
 - [محتوى Power BI لمقاييس القوى العاملة](workforce-analysis-power-bi-content-pack.md)  
 
 ### <a name="accessing-the-content"></a>الوصول إلى المحتوى
 
 #### <a name="embedded-content"></a>المحتوى المضمن
-باستثناء المحتوى الذي تم وضع علامة نجمية عليه (\*)، يتم تضمين كل المحتوى الموجود في القائمة السابقة في التطبيق. لمزيد من المعلومات حول المكان حيث يمكنك عرض محتوى Power BI، انقر فوق الارتباطات.
+باستثناء المحتوى الذي تم وضع علامة نجمية عليه (\*)، يتم تضمين كل المحتوى الموجود في القائمة السابقة في التطبيق. لمزيد من المعلومات حول المكان حيث يمكنك عرض محتوى Power BI، انقر فوق الارتباطات أعلاه.
+
+لعرض البيانات في تقارير Power BI، احرص على تحديث مخزن الكيانات. لمزيد من المعلومات، راجع القسم *تحديث مخزن الكيانات* من [نظرة عامة حول تكامل Power BI مع مخزن كيانات](power-bi-integration-entity-store.md).
 
 #### <a name="files-available-in-lifecycle-services"></a>الملفات المتوفرة في Lifecycle Services
 يتوفر محتوى Power BI هذا في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS). للمزيد من المعلومات حول كيفية تنزيل المحتوى وتوصيله ببياناتك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
@@ -66,7 +68,7 @@ ms.lasthandoff: 06/20/2017
 
 - [محتوى Power BI للتعويض والميزات](compensation-and-benefits-analysis-power-bi-content-pack.md)   
 - [محتوى Power BI - تحليل محاسبة التكاليف](cost-accounting-analysis-content-pack.md) 
-- [محتوى Power BI - إدارة التحصيلات والائتمان](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [محتوى Power BI - إدارة التحصيلات والائتمان](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [محتوى Power BI لكفاءات الموظفين وتطويرهم](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
 - [محتوى Power BI - الأداء المالي](financial-performance-power-bi-content-pack.md)
 - [محتوى Power BI للتدريب المؤسسي](organizational-training-analysis-power-bi-content-pack.md) 

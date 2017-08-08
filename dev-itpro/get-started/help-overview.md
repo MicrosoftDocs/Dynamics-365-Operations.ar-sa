@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 توفر هذه المقالة نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations وهي تشرح أيضًا كيفية توفير التدريب والوثائق المخصصة لمؤسستك. 
 
-> [!IMPORTANT] 
-> ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations, Enterprise edition؛ وDynamics 365 for Retail؛ وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة
+> [!NOTE] 
+> ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations, Enterprise edition؛ وDynamics 365 for Retail؛ وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
+
+تشارك كافة منتجات Unified Operations نظام التعليمات:
+- Dynamics 365 for Finance and Operations، الإصدار Enterprise
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 يتضمن Finance and Operations نظام تعليمات يستند إلى مكونين رئيسيين هما:
 
 -   موقع الوثائق
 -   دلائل المهام
 
-ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations, Enterprise edition؛ وDynamics 365 for Retail؛ وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة. 
-
-تشارك كافة منتجات Unified Operations نظام التعليمات:
-- Dynamics 365 for Finance and Operations, Enterprise edition
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
-
 يمكنك الوصول إلى مواضيع التعليمات ودلائل المهام من الجزء "تعليمات" بغض النظر عن المنتج الذي تستخدمه. تظهر لقطة الشاشة التالية Dynamics 365 for Finance and Operations
 
-![جزء التعليمات](./media/help-pane-ops-task-guides-1024x741.png)
+![جزء التعليمات](./media/help-pane-ops-task-guides.png)
 
 يصف هذا الموضوع نظام التعليمات، ويشرح الطريقة التي يمكنك من خلالها إنشاء الوثائق المخصصة وموارد التدريب لمؤسستك.
 
 > [!IMPORTANT]
-> علامة التبويب **دلائل المهام** غير متوفرة بعد في كل من Microsoft Dynamics 365 for Talent وMicrosoft Dynamics 365 for Retail. نحن نعمل حاليًا على تمكين هذه الوظيفة في إصدار مستقبلي. تبقى دلائل المهام في تجربة "بدء الاستخدام" في Talent متوفرة لتغطية الوظائف الأساسية. تتوفر أيضًا تعليمات إجرائية في الموقع docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) لكل من Retail وTalent.
+> علامة التبويب **دلائل المهام** غير متوفرة بعد في كل من Microsoft Dynamics 365 for Talent وMicrosoft Dynamics 365 for Retail. نحن نعمل حاليًا على تمكين هذه الوظيفة في إصدار مستقبلي. تبقى دلائل المهام في تجربة "بدء الاستخدام" في Talent متوفرة لتغطية الوظائف الأساسية. تتوفر أيضًا تعليمات إجرائية في الموقع docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index) لكل من Retail وTalent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>تعليمات حول docs.microsoft.com
 
-يُعتبر موقع docs.microsoft.com site ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) المصدر الأساسي لوثائق المنتج Finance and Operations. يقدم الموقع الميزات التالية:
+يُعتبر موقع docs.microsoft.com site ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) المصدر الأساسي لوثائق المنتج Finance and Operations. يقدم الموقع الميزات التالية:
 
 -   **الوصول إلى أحدث محتوى**– يعطينا الموقع طريقة أسرع وأكثر مرونةً لإنشاء وتسليم وتحديث وثائق المنتج. ولذلك، فهو يساعد على ضمان إمكانية الوصول إلى أحدث المعلومات التقنية.
 -   **المحتوى الذي أعده خبراء**- يوفر الموقع مجموعة أوسع من وثائق المنتج يمكن أن تتعزز من قِبل أعضاء المجتمع داخل وخارج Microsoft.
@@ -68,12 +65,13 @@ ms.lasthandoff: 06/20/2017
 ### <a name="searching-on-docsmicrosoftcom"></a>البحث على docs.microsoft.com
 إننا نتلقى الكثير من الأسئلة حول كيفية البحث عن المحتوى. في موقعنا، إذا بدأت من صفحة حول Finance and Operations، فسنعيّن نطاق بحثك بحيث يتركز على محتوى Finance and Operations فقط. يمكنك إزالة نطاق البحث عن طريق النقر فوق علامة X الموجود بجانب Operations في مربع البحث. 
 
-![بحث](./media/search-scope.png)
+![بحث](./media/search-scope-2.png)
 
 يمكنك أيضًا العثور على المحتوى التابع لنا باستخدام أي محرك بحث. من أجل الحصول على أفضل النتائج، ننصحك باستخدام البحث في الموقع، مثل "مصطلح البحث" site:docs.microsoft.com dynamics 365.  
-![بحث في الموقع](./media/site-search.png)
 
-![نتائج البحث في الموقع](./media/site-search-results.png)
+![بحث في الموقع](./media/site-search-1.png)
+
+![نتائج البحث في الموقع](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>جدول محتويات docs.microsoft.com لـ Unified Operations
 تشارك جميع المنتجات جدول محتويات واحدًا في موقع docs، مما يسمح للعملاء برؤية سياق الموضوع حيث هم. ويسمح لك أيضًا باستخدام عنصر تحكم التصفية للعثور على المواضيع التي تبحث عنها.
@@ -105,7 +103,7 @@ ms.lasthandoff: 06/20/2017
 
 سنقوم بتقديم مجموعات مختلفة من إرشادات المهمة لكل منتج Unified Operations. يصف القسم " الوصول إلى دلائل المهام من جزء التعليمات" كيفية البحث عن دلائل المهام الصحيحة لمنتجك. 
 
-![طريقة عرض قراءة دليل المهام](./media/task-guide-ops-1024x742.png)
+![طريقة عرض قراءة دليل المهام](./media/task-guide-ops.png)
 
 لبدء تجربة إرشادية تفاعلية، انقر فوق **بدء دليل مهمة** في أسفل جزء المساعدة. يفتح مؤشر أسود يشير إلى الإجراء الذي يجب عليك اتخاذه. اتبع الإرشادات التي تظهر في واجهة المستخدم، وأدخل البيانات على النحو المطلوب. 
 ![إرشادات خطوة بخطوة في دليل المهام](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ ms.lasthandoff: 06/20/2017
 ## <a name="in-product-help"></a>التعليمات في منتج
 للوصول إلى محتوى التعليمات ضمن Finance and Operations، انقر فوق أيقونة **التعليمات** (**؟**) ثم اختر "تعليمات" أو اضغط على Ctrl+Shift+?. وفي كلتا الحالتين، يتم فتح جزء المساعدة. وفي جزء التعليمات، يمكنك الوصول إلى مقالات أو دلائل المهام. 
 
-![جزء التعليمات](./media/help-pane-wiki-1024x684.png)
+![جزء التعليمات](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>الوصول إلى مواضيع التعليمات من جزء التعليمات
 
@@ -162,7 +160,7 @@ ms.lasthandoff: 06/20/2017
 
 بعد أن يكمل مسؤول النظام هذه الخطوات، يمكنك فتح جزء التعليمات والنقر فوق علامة التبويب **دلائل المهام‬**. سترى الآن دلائل المهام التي تنطبق على الصفحة التي تعمل عليها حاليًا في Finance and Operations. إذا لم تعثر على دلائل المهام، فيمكنك إدخال كلمات أساسية لتنقية البحث. بعد النقر فوق دليل مهمة في جزء التعليمات، يعرض جزء التعليمات إرشادات خطوة بخطوة، ويمكنك تشغيل دليل المهمة. 
 
-![طريقة عرض قراءة دليل المهام](./media/task-guide-ops-1024x742.png)
+![طريقة عرض قراءة دليل المهام](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>أين توجد دلائل المهام المترجمة؟
 

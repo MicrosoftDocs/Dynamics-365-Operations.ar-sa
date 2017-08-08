@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 06/20/2017
 
 ### <a name="data-formatting"></a>تنسيق البيانات
 
-يمكن استخدام مصمم معادلة التقارير الإلكترونية لتعريف تعبير يقوم بتنسيق البيانات التي يتم تلقيها من مصادر البيانات، بحيث يمكن إرسال البيانات كجزء من المستند الإلكتروني الناشئ. إذا كان لديك تنسيق يجب تطبيقه كقاعدة نموذجية يجب إعادة استخدامها لتنسيق ما، فيمكن تقديم هذا التنسيق مرة واحدة في تكوين تنسيق كتحويل مسمى يحتوي على تعبير تنسيق. عندئذٍ، يمكن ربط هذا التحويل المسمى بالعديد من مكونات التنسيق التي يجب تنسيق إخراجها وفقًا للتعبير الذي تم إنشاؤه. يبين الرسم التوضيحي التالي تصميم تحويل من هذا النوع. في هذا المثال، تأخذ عملية التحويل **TrimmedString** البيانات الواردة من نوع البيانات **سلسلة** وتقتطع المسافات البادئة والزائدة عندما تقوم بإرجاع قيمة السلسلة. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) يبين الرسم التوضيحي التالي كيف يمكن استخدام عملية التحويل من هذا النوع. في هذا المثال، يشير الكثير من مكونات التنسيق التي ترسل النص كإخراج لإنشاء المستند الإلكتروني في وقت التشغيل إلى عملية التحويل **TrimmedString** حسب الاسم. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) عندما تشير مكونات التنسيق إلى تحويل **TrimmedString **transformation (على سبيل المثال المكون **partyName** في الرسم التوضيحي السابق) يؤدي ذلك إلى إرسال نص كإخراج إلى المستند الناشئ. لا يتضمن النص مسافات بادئة وزائدة. إذا كان لديك تنسيق يجب أن يُطبق بشكل فردي، فيمكنك إدخال ذلك التنسيق كتعبير فردي لربط خاص بمكون تنسيق محدد. يبين الرسم التوضيحي التالي تعبيرًا من هذا النوع. في هذا المثال، يرتبط مكون التنسيق **partyType** بمصدر البيانات عبر تعبير يقوم بتحويل البيانات الواردة من الحقل **Model.Company.RegistrationType** في مصدر البيانات إلى نص بأحرف كبيرة ويرسل النص كإخراج إلى المستند الإلكتروني. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+يمكن استخدام مصمم معادلة التقارير الإلكترونية لتعريف تعبير يقوم بتنسيق البيانات التي يتم تلقيها من مصادر البيانات، بحيث يمكن إرسال البيانات كجزء من المستند الإلكتروني الناشئ. إذا كان لديك تنسيق يجب تطبيقه كقاعدة نموذجية يجب إعادة استخدامها لتنسيق ما، فيمكن تقديم هذا التنسيق مرة واحدة في تكوين تنسيق كتحويل مسمى يحتوي على تعبير تنسيق. عندئذٍ، يمكن ربط هذا التحويل المسمى بالعديد من مكونات التنسيق التي يجب تنسيق إخراجها وفقًا للتعبير الذي تم إنشاؤه. يبين الرسم التوضيحي التالي تصميم تحويل من هذا النوع. في هذا المثال، تأخذ عملية التحويل **TrimmedString** البيانات الواردة من نوع البيانات **سلسلة** وتقتطع المسافات البادئة والزائدة عندما تقوم بإرجاع قيمة السلسلة. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) يبين الرسم التوضيحي التالي كيف يمكن استخدام عملية التحويل من هذا النوع. في هذا المثال، يشير الكثير من مكونات التنسيق التي ترسل النص كإخراج لإنشاء المستند الإلكتروني في وقت التشغيل إلى عملية التحويل **TrimmedString** حسب الاسم. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) عندما تشير مكونات التنسيق إلى تحويل **TrimmedString**transformation (على سبيل المثال المكون **partyName** في الرسم التوضيحي السابق) يؤدي ذلك إلى إرسال نص كإخراج إلى المستند الناشئ. لا يتضمن النص مسافات بادئة وزائدة. إذا كان لديك تنسيق يجب أن يُطبق بشكل فردي، فيمكنك إدخال ذلك التنسيق كتعبير فردي لربط خاص بمكون تنسيق محدد. يبين الرسم التوضيحي التالي تعبيرًا من هذا النوع. في هذا المثال، يرتبط مكون التنسيق **partyType** بمصدر البيانات عبر تعبير يقوم بتحويل البيانات الواردة من الحقل **Model.Company.RegistrationType** في مصدر البيانات إلى نص بأحرف كبيرة ويرسل النص كإخراج إلى المستند الإلكتروني. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ### <a name="process-flow-control"></a>التحكم في تدفق العملية
 
@@ -136,7 +136,7 @@ ms.lasthandoff: 06/20/2017
 
 #### <a name="operator-precedence"></a>أسبقية عامل التشغيل
 
-يُعد الترتيب الذي يتم بموجبه تقييم أجزاء تعبير مركب عنصرًا هامًا. على سبيل المثال، تختلف نتيجة التعبير ** 1 + 4 / 2**، تبعًا للعملية التي تم تنفيذها أولاً، سواء كانت عملية جمع أم قسمة. يمكنك استخدام الأقواس لتعريف كيفية تقييم تعبير بوضوح. على سبيل المثال، للإشارة إلى وجوب إنجازه عملية الجمع أولاً، يمكنك تعديل التعبير السابق إلى **(1 + 4)/2**. إذا لم يكن ترتيب العمليات التي يجب إنجازها في التعبير معرّفًا بشكل واضح، فإن الترتيب يستند إلى الأسبقية الافتراضية المعيّنة إلى عوامل التشغيل المعتمدة. تظهر الجداول التالية عوامل التشغيل والأولوية المعينة لكل واحد منها. يتم تقييم عوامل التشغيل التي لها أسبقية أعلى (على سبيل المثال، 7) قبل عوامل التشغيل التي لها أولوية أقل (على سبيل المثال، 1).
+يُعد الترتيب الذي يتم بموجبه تقييم أجزاء تعبير مركب عنصرًا هامًا. على سبيل المثال، تختلف نتيجة التعبير **1 + 4 / 2**، تبعًا للعملية التي تم تنفيذها أولاً، سواء كانت عملية جمع أم قسمة. يمكنك استخدام الأقواس لتعريف كيفية تقييم تعبير بوضوح. على سبيل المثال، للإشارة إلى وجوب إنجازه عملية الجمع أولاً، يمكنك تعديل التعبير السابق إلى **(1 + 4)/2**. إذا لم يكن ترتيب العمليات التي يجب إنجازها في التعبير معرّفًا بشكل واضح، فإن الترتيب يستند إلى الأسبقية الافتراضية المعيّنة إلى عوامل التشغيل المعتمدة. تظهر الجداول التالية عوامل التشغيل والأولوية المعينة لكل واحد منها. يتم تقييم عوامل التشغيل التي لها أسبقية أعلى (على سبيل المثال، 7) قبل عوامل التشغيل التي لها أولوية أقل (على سبيل المثال، 1).
 
 | الأسبقية | عوامل التشغيل      | بناء الجملة                                                   |
 |------------|----------------|----------------------------------------------------------|
@@ -148,7 +148,7 @@ ms.lasthandoff: 06/20/2017
 | 2          | مقارنة     | … &lt; … … &lt;= … … =&gt; … … &gt; … … = … … &lt;&gt; … |
 | 1          | الفصل     | … , …                                                    |
 
-تتسم عوامل التشغيل على السطر نفسه بأسبقية متساوية. إذا تضمن التعبير أكثر من واحد من عوامل التشغيل هذه، فسيتم تقييم التعبير من اليسار إلى اليمين. على سبيل المثال، يُرجع التعبير **1 + 6 / 2 \* 3 &gt; 5** القيمة **true**. نوصي باستخدام الأقواس للإشارة بوضوح إلى الترتيب المطلوب لتقييم التعبيرات، ولتسهيل قراءة التعبيرات والمحافظة عليها.
+تتسم عوامل التشغيل على السطر نفسه بأسبقية متساوية. إذا تضمن التعبير أكثر من واحد من عوامل التشغيل هذه، فسيتم تقييم التعبير من اليسار إلى اليمين. على سبيل المثال، يُرجع التعبير **1 + 6 / 2 \* 3 &gt;5** القيمة **true**. نوصي باستخدام الأقواس للإشارة بوضوح إلى الترتيب المطلوب لتقييم التعبيرات، ولتسهيل قراءة التعبيرات والمحافظة عليها.
 
 #### <a name="references"></a>المراجع
 
@@ -196,8 +196,8 @@ ms.lasthandoff: 06/20/2017
 | SESSIONNOW ()                              | تُرجع تاريخ ووقت جلسة عمل Dynamics 365 for Finance and Operations الحالية كقيمة تاريخ ووقت.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (التاريخ، التنسيق)                  | إرجاع تمثيل سلسلة التاريخ باستخدام التنسيق المحدد.                                                                                                                                                                                                                                                                                                    | تُرجع المعادلة **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** تاريخ جلسة Dynamics 365 for Finance and Operations الحالية، 12/24/2015، على الشكل “**24-12-2015**”، وفقًا للتنسيق المخصص المحدد.                                                                                                                      |
 | DATEFORMAT (التاريخ، التنسيق، الثقافة)         | تحويل قيمة التاريخ المحددة إلى سلسلة بالتنسيق [والثقافة](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) المحددة. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)).     | تُرجع المعادلة **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** تاريخ جلسة Finance and Operations الحالية 12/24/2015 على الشكل **“24.12.2015”** وفقًا للثقافة الألمانية المحددة.                                                                                                                       |
-| DAYOFYEAR (التاريخ)              | تُرجع تمثيل عدد صحيح لعدد الأيام من 1 يناير إلى التاريخ المحدد.       | تُرجع المعادلة **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** القيمة **61**.
-تُرجع المعادلة **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** القيمة **1**.                                                                                                                       |
+| DAYOFYEAR (التاريخ)              | تُرجع تمثيل عدد صحيح لعدد الأيام من 1 يناير إلى التاريخ المحدد.       | تُرجع المعادلة **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** القيمة **61**. تُرجع المعادلة **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** القيمة **1**. 
+                                                                                                                      |
 
 **دالات تحويل البيانات**
 
@@ -236,7 +236,14 @@ ms.lasthandoff: 06/20/2017
 <li>الدُفعات كقوائم منتظمة (المكون <strong>قيمة</strong>)</li>
 <li>رقم الدُفعة الحالية (المكون <strong>BatchNumber</strong>)</li>
 </ul></td>
-<td>في المثال التالي، يتم إنشاء مصدر البيانات <strong>Lines</strong> كقائمة سجلات من ثلاثة سجلات، وقد تم تقسيمه إلى دُفعات تحتوي كل واحدة منها على سجلين كحد أقصى. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> يُظهر هذا تخطيط التنسيق الذي تم تصميمه، حيث يتم إنشاء الراوبط إلى مصدر البيانات <strong>Lines</strong> لتوليد إخراج بتنسيق XML يقدم العقد الفردية لكل دّفعة والسجلات فيها. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> التالي هو نتيجة لتشغيل التنسيق الذي تم تصميمه. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>في المثال التالي، يتم إنشاء مصدر البيانات <strong>Lines</strong> كقائمة سجلات من ثلاثة سجلات، وقد تم تقسيمه إلى دُفعات تحتوي كل واحدة منها على سجلين كحد أقصى. 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+يُظهر هذا تخطيط التنسيق الذي تم تصميمه، حيث يتم إنشاء الروابط إلى مصدر البيانات <strong>Lines</strong> لتوليد إخراج بتنسيق XML يقدم العقد الفردية لكل دُفعة والسجلات فيها. 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+التالي هو نتيجة لتشغيل التنسيق الذي تم تصميمه. 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST (سجل 1 [، سجل 2، ...])</td>
@@ -300,7 +307,14 @@ ms.lasthandoff: 06/20/2017
 <li>سجلات قائمة محددة كقوائم عادية (المكون<strong>قيمة</strong>)</li>
 <li>فهرس السجلات الحالية (المكون <strong>Number</strong>)</li>
 </ul></td>
-<td>في المثال التالي، يتم إنشاء مصدر البيانات <strong>Enumerated</strong> كقائمة تم تعدادها لسجلات المورّدين من مصدر البيانات <strong>Vendors</strong> الذي يشير إلى الجدول <strong>VendTable</strong>. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>هذا هو التنسيق، حيث يتم إنشاء روابط البيانات لتوليد إخراج بتنسيق XML يقدم مورّدين فرديين كعقد تم تعدادها. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> هذه هي نتيجة تشغيل التنسيق الذي تم تصميمه. <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>في المثال التالي، يتم إنشاء مصدر البيانات <strong>Enumerated</strong> كقائمة تم تعدادها لسجلات المورّدين من مصدر البيانات <strong>Vendors</strong> الذي يشير إلى الجدول <strong>VendTable</strong>. 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+هذا هو التنسيق، حيث يتم إنشاء روابط البيانات لتوليد إخراج بتنسيق XML يقدم مورّدين فرديين كعقد تم تعدادها. 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+هذه هي نتيجة تشغيل التنسيق الذي تم تصميمه. 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (قائمة)</td>
@@ -322,13 +336,24 @@ ms.lasthandoff: 06/20/2017
 <li>‏‏الوصف</li>
 </ul>
 سيقوم حقل "التسمية" وحقل "الوصف" بإرجاع قيم في وقت التشغيل استنادًا إلى إعدادات لغة للتنسيق.</td>
-<td>يوضح المثال التالي التعداد المقدم في نموذج بيانات. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>يوضح المثال التالي:
+<td>يوضح المثال التالي التعداد المقدم في نموذج بيانات. 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+يوضح المثال التالي:
 <ul>
 <li>إدراج تعداد النموذج في تقرير كمصدر بيانات.</li>
 <li>تصميم تعبير التقرير الإلكتروني لاستخدام تعداد نموذج كمحددة لهذه الدالة.</li>
 <li>إدراج مصدر بيانات نوع قائمة السجلات في تقرير باستخدام تعبير التقرير الإلكتروني المنشأ.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> يوضح المثال التالي عناصر تنسيق التقارير الإلكترونية المرتبطة بمصدر بيانات نوع قائمة السجلات الذي تم إنشاؤه باستخدام الدالة LISTOFFIELDS.<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>هذه هي نتيجة تنفيذ التنسيق الذي تم تصميمه.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>ملاحظة:</strong> تتم تعبئة النص المترجم للتسميات والأوصاف بمخرجات تنسيق التقرير الإلكتروني وفقًا لإعدادات اللغة التي تم تكوينها لعناصر تنسيق الملف الأصل والمجلد الأصل.</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+يوضح المثال التالي عناصر تنسيق التقارير الإلكترونية المرتبطة بمصدر البيانات من نوع قائمة السجلات الذي تم إنشاؤها باستخدام الدالة LISTOFFIELDS.
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+هذه هي نتيجة تنفيذ التنسيق الذي تم تصميمه.
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+ملاحظة:</strong> يتم تعبئة النص المترجم للتسميات والوصف في إخراج تنسيق التقارير الإلكترونية وفقًا لإعدادات اللغة التي تم تكوينها لعناصر تنسيق الملف والمجلد لأصل.</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (قائمة، اسم الحقل، محدد)</td>
@@ -338,7 +363,18 @@ ms.lasthandoff: 06/20/2017
 <tr class="even">
 <td>SPLITLISTBYLIMIT (قائمة، قيمة الحد، مصدر الحد)</td>
 <td>تقسيم القائمة المعينة إلى قائمة جديدة من القوائم الفرعية وإرجاع النتيجة في محتوى قائمة السجلات. تعين محددة قيمة الحد قيمة الحد لتقسيم القائمة الأصل. وتعين محددة مصدر الحد الخطوة التي يزداد عندها المجموع إجمالي. لا يتم تطبيق الحد على صنف واحد من القائمة المعينة عندما يقوم مصدر الحد بتجاوز الحد المعرّف.</td>
-<td>يوضح المثال التالي نموذج تنسيق باستخدام مصادر البيانات. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>وهذا هو نتيجة تنفيذ التنسيق الذي يقدم قائمة كاملة بعناصر السلعة.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>يوضح المثال التالي نفس التنسيق الذي تم تعديله ليمثل قائمة عناصر السلع في الدفعات عندما يجب أن تشمل الدفعة الواحدة السلع مع الوزن الإجمالي ينبغي ألا يتجاوز حد 9.<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>وهذا نتيجة لتنفيذ التنسيق المُعدّل. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>ملاحظة:</strong> لا يتم تطبيق الحد على الصنف الأخير من القائمة الأصلية لأن القيمة (11) لمصدر الحد (الوزن) تتجاوز الحد المُعرف (9). استخدم الدالة <strong>WHERE</strong> أو التعبير <strong>ممكّن</strong> لعنصر التنسيق المناظر لتجاهل (تخطي) القوائم الفرعية أثناء إنشاء التقرير (عند الحاجة).</td>
+<td>يوضح المثال التالي نموذج تنسيق باستخدام مصادر البيانات. 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+فيما يلي تنفيذ تنسيق النتيجة الذي يمثل قائمة ثابتة بأصناف السلع.
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+يبين المثال التالي التنسيق نفسه الذي تم ضبطه لتقديم قائمة أصناف السلع في دُفعات عندما يجب أن تتضمن دُفعة واحدة سلعًا مع وزن إجمالي يجب ألا يتجاوز الحد 9.
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+هذه هي نتيجة تنفيذ التنسيق الذي تم ضبطه. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>ملاحظة:</strong> لا يتم تطبيق الحد على الصنف الأخير من القائمة الأصلية لأن القيمة (11) لمصدر الحد (الوزن) تتجاوز الحد المُعرف (9). استخدم الدالة <strong>WHERE</strong> أو التعبير <strong>ممكّن</strong> لعنصر التنسيق المناظر لتجاهل (تخطي) القوائم الفرعية أثناء إنشاء التقرير (عند الحاجة).</td>
 </tr>
 <tr class="odd">
 <td>FILTER (قائمة، شرط)</td>
@@ -511,7 +547,10 @@ ms.lasthandoff: 06/20/2017
 <tr class="even">
 <td>FORMAT (السلسلة 1، السلسلة 2[، السلسلة 3، ...])</td>
 <td>إرجاع السلسلة المحددة المنسقة باستبدال تواجد <strong>%N</strong> بالوسيطة <em>n</em>. الوسيطات عبارة عن سلاسل. إذا لم يتم توفير وسيطة لمعلمة، فسيتم إرجاع المعلمة على الشكل <strong>&quot;%N&quot;</strong> في السلسلة. بالنسبة إلى القيم من النوع <strong>الحقيقي</strong>، تتحدد سلسلة التحويل بمنزلتين عشريتين.</td>
-<td>في هذا المثال، يرجع مصدر البيانات <strong>PaymentModel</strong> قائمة سجلات العملاء عبر المكون <strong>Customer</strong> وقيمة بيانات المعالجة عبر الحقل <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> في تنسيق التقارير الإلكترونية المصمم لإنشاء ملف إلكتروني لعملاء معينين، يتم تحديد <strong>PaymentModel</strong> كمصدر بيانات ويتحكم بسير العملية. يتم طرح استثناء للمستخدمين النهائيين عند إيقاف عميل محدد للتاريخ عندما تتم معالجة التقرير. باستطاعة المعادلة المصممة لنوع التحكم بالمعالجة هذا استخدام الموارد التالية:
+<td>في هذا المثال، يرجع مصدر البيانات <strong>PaymentModel</strong> قائمة سجلات العملاء عبر المكون <strong>Customer</strong> وقيمة بيانات المعالجة عبر الحقل <strong>ProcessingDate</strong>. 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+في تنسيق التقارير الإلكترونية المصمم لإنشاء ملف إلكتروني لعملاء معينين، يتم تحديد <strong>PaymentModel</strong> كمصدر بيانات ويتحكم بسير العملية. يتم طرح استثناء للمستخدمين النهائيين عند إيقاف عميل محدد للتاريخ عندما تتم معالجة التقرير. باستطاعة المعادلة المصممة لنوع التحكم بالمعالجة هذا استخدام الموارد التالية:
 <ul>
 <li>التسمية SYS70894 لـ Finance and Operations، التي تتضمن النص التالي:
 <ul>
@@ -526,8 +565,8 @@ ms.lasthandoff: 06/20/2017
 </ul>
 هذه هي المعادلة التي يمكن تصميمها: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) إذا تمت معالجة تقرير <strong>للعميل Litware Retail في  </strong> 17ديسمبر 2015، بالثقافة الإنجليزية <strong>EN-US</strong> وباللغة<strong>EN-US</strong> فإن هذه المعادلة سترجع النص التالي الذي يمكن تقديمه كرسالة استثناء للمستخدم النهائي: &quot;‏‫لا توجد عناصر لطباعتها‬. Customer Litware Retail is stopped for 12/17/2015.&quot; إذا تمت معالجة التقرير نفسه للعميل <strong> Litware Retail customer</strong> بتاريخ 17 ديسمبر 2015، في الثقافة <strong>DE</strong> وباللغة <strong>DE</strong> فإن هذه المعادلة ترجع النص التالي الذي يستخدم تنسيق تاريخ آخر: &quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot; <strong>Note:</strong> يتم تطبيق بناء الجملة التالي في معادلات التقارير الإلكترونية للتسميات:
 <ul>
-<li><strong>بالنسبة إلى التسميات من موارد Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>حيث X هو معرف التسمية في شجرة مكونات البرنامج (AOT)</li>
-<li><strong>إلى التسميات المقيمة في تكوينات التقارير الإلكترونية:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>، حيث X هو معرف التسمية في تكوين التقارير الإلكترونية</li>
+<li><strong>بالنسبة إلى التسميات من موارد Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>، حيث X هو معرف التسمية في شجرة مكونات البرنامج (AOT)</li>
+<li><strong>بالنسبة إلى التسميات المقيمة في تكوينات التقارير الإلكترونية:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>، حيث X هو معرف التسمية في تكوين التقارير الإلكترونية</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -549,7 +588,8 @@ ms.lasthandoff: 06/20/2017
 <td>TRIM (سلسلة)</td>
 <td>تُرجع نصًا محددًا بعد اقتطاع المسافات السابقة واللاحقة وتزيل المسافات المتعددة بين الكلمات. </td>
 <td>تُرجع <strong>TRIM ("     Sample     text     ")</strong> القيمة <strong>"نص نموذجي".</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (مسار مصدر بيانات تعداد، نص تسمية قيمة تعداد)</td>
 <td>تُرجع قيمة مصدر بيانات تعداد محدد بالنص المحدد لتسمية التعداد هذه.</td>
 <td>يوضح المثال التالي التعداد ReportDirection المقدم في نموذج بيانات. لاحظ أنه يتم تحديد التسميات لقيم التعداد.
