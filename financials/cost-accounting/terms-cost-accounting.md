@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1f12e8e82430c79ee93f2284e5fdf47ac559525d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -123,7 +123,11 @@ ms.lasthandoff: 06/13/2017
 
 **توزيع التكلفة**
 
-توزيع التكلفة هو عملية لتعيين وتوزيع التكاليف، استنادًا إلى الأسباب الجذرية للتكاليف العامة. يمكنك تخصيص مبالغ التكلفة والكميات من كائن تكلفة إلى كائن تكلفة واحد أو أكثر. على سبيل المثال، يتم تخصيص كافة تكاليف خدمات المرافق لمختلف الإدارات التي تستخدم مبنى المكاتب المشترك.
+يتم استخدام توزيع التكلفة لإعادة توزيع التكلفة من كائن تكلفة واحد إلى كائن تكلفة واحد أو أكثر عن طريق تطبيق أساس توزيع ذي صلة. هناك اختلاف بين توزيع التكلفة وتخصيص التكلفة، حيث يحدث توزيع التكلفة دائمًا على مستوى عنصر التكلفة الأساسية‬‏‫ للتكلفة الأصلية.
+
+**تخصيص التكلفة**
+
+يُستخدم التخصيص لتخصيص رصيد كائن التكلفة إلى كائنات تكلفة أخرى عن طريق تطبيق أساس التوزيع. يدعم تطبيق Finance and Operations طريقة التوزيع المتبادل. في أسلوب التخصيص المتبادل، يتم التعرّف بشكل كامل على الخدمات المتبادلة التي تتبادلها كائنات التكلفة المساعدة. يحدد النظام بشكل تلقائي الترتيب الصحيح لتنفيذ عمليات التخصيص فيه. يتم تخصيص الرصيد الخاص بكائن التكلفة بواسطة أساس توزيع فردي. يتم دعم عمليات التخصيص عبر أبعاد كائنات التكلفة وأعضائها. يتم التحكم بترتيب التخصيص بواسطة وحدة التحكم في التكلفة.
 
 **سياسة توزيع التكلفة**
 

@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ ms.lasthandoff: 06/13/2017
 في صفحة **التكوينات** (**إدارة المؤسسة** &gt; **إعداد التقارير الإلكترونية** &gt; **التكوينات**)، في شجرة التكوينات، حدد تكوين **أنشطة الاستيراد/التصدير** الذي قمت بإنشائه سابقًا. قم بتغيير حالة الإصدار 1.1 من **مسودة** إلى **مكتمل** لجعل هذا التنسيق متوفرًا للاستخدام. [![صفحة التكوينات‬‏‫](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) حدد الإصدار المكتمل لتكوين **أنشطة الاستيراد/التصدير**، ومن ثم انقر فوق **تشغيل‏‎**. لاحظ تطبيق الوجهة المكوّنة على نتيجة الإخراج التي نشأت بتنسيق Excel. عيّن الخيار **معالجة الدُفعات‬** إلى **نعم** لتشغيل هذا التقرير في الوضع غير المراقب. انقر فوق **التكرار** لجدولة التكرار المطلوب لتنفيذ هذه الدُفعة. يحدد التكرار مدى تكرار نقل البيانات المحدثة من Finance and Operations إلى Power BI. [![‬‏‫مربع حوار معلمات التقرير الإلكتروني](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) يمكنك العثور على وظيفة تنفيذ التقارير الإلكترونية، بعد تكوينها، في صفحة **الوظائف الدفعية** (**إدارة النظام‬ &gt; الاستعلامات &gt; الوظائف الدفعية**). [![صفحة الوظائف الدفعية](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) عن تشغيل هذه الوظيفة للمرة الأولى، تنشئ الوجهة ملف Excel جديدًا لديه الاسم الذي تم تكوينه في مجلد SharePoint المحدد. وفي كل مرة يتم فيها تشغيل الوظيفة، تنشئ الوجهة إصدارًا جديدًا من ملف Excel هذا. [![إصدار جديد من ملف Excel](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>إنشاء مجموعة بيانات Power BI باستخدام نتيجة الإخراج لتنسيق التقارير الإلكترونية
-سجّل دخولك إلى Power BI وافتح مجموعة Power BI موجودة (مساحة عمل) أو أنشئ مجموعة جديدة. انقر فوق **إضافة** تحت **الملفات** في المقطع **استيراد أو الاتصال بالبيانات**، أو انقر فوق علامة الجمع (**+**) إلى جانب **مجموعات البيانات** في الجزء الأيمن. [![‬‏‫إنشاء مجموعة بيانات](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) حدد الخيار **SharePoint – مواقع الفريق**، ثم قم بإدخال مسار SharePoint Server الذي تستخدمه (**https://ax7partner.spoppe.com** في المثال الذي قدمناه). ثم استعرض وصولاً إلى المجلد **/Shared Documents/GER data/PowerBI**، وحدد ملف Excel الذي أنشأته كمصدر بيانات لمجموعات بيانات Power BI الجديدة. [![‬‏‫تحديد ملف Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) انقر فوق **اتصال**، ثم فوق **استيراد‏‎**. يتم إنشاء مجموعة بيانات جديدة استنادًا إلى ملف Excel المحدد. كما يمكن إضافة مجموعة البيانات تلقائيًا إلى لوحة المعلومات التي تم إنشاؤها مؤخرًا. [![‬‏‫مجموعة بيانات في لوحة المعلومات](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) قم بتكوين جدول التحديث لمجموعة البيانات هذه لفرض تحديث دوري. تتيح التحديثات الدورية استهلاك بيانات العمل الجديدة التي تأتي من Finance and Operations من خلال التنفيذ الدوري للتقارير الإلكترونية عبر الإصدارات الجديدة من ملف Excel الذي تم إنشاؤه على SharePoint Server.
+سجّل دخولك إلى Power BI وافتح مجموعة Power BI موجودة (مساحة عمل) أو أنشئ مجموعة جديدة. انقر فوق **إضافة** تحت **الملفات** في المقطع **استيراد أو الاتصال بالبيانات**، أو انقر فوق علامة الجمع (**+**) إلى جانب **مجموعات البيانات** في الجزء الأيمن. [![‬‏‫إنشاء مجموعة بيانات](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) حدد الخيار **SharePoint – مواقع الفريق**، ثم قم بإدخال مسار SharePoint Server الذي تستخدمه (**https://ax7partner.litware.com** في المثال الذي قدمناه). ثم استعرض وصولاً إلى المجلد **/Shared Documents/GER data/PowerBI**، وحدد ملف Excel الذي أنشأته كمصدر بيانات لمجموعات بيانات Power BI الجديدة. [![‬‏‫تحديد ملف Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) انقر فوق **اتصال**، ثم فوق **استيراد‏‎**. يتم إنشاء مجموعة بيانات جديدة استنادًا إلى ملف Excel المحدد. كما يمكن إضافة مجموعة البيانات تلقائيًا إلى لوحة المعلومات التي تم إنشاؤها مؤخرًا. [![‬‏‫مجموعة بيانات في لوحة المعلومات](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) قم بتكوين جدول التحديث لمجموعة البيانات هذه لفرض تحديث دوري. تتيح التحديثات الدورية استهلاك بيانات العمل الجديدة التي تأتي من Finance and Operations من خلال التنفيذ الدوري للتقارير الإلكترونية عبر الإصدارات الجديدة من ملف Excel الذي تم إنشاؤه على SharePoint Server.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>إنشاء تقرير Power BI باستخدام مجموعة البيانات الجديدة
 لإنشاء تقرير Power BI جديد، انقر فوق مجموعة بيانات Power BI **تفاصيل الاستيراد والتصدير** التي قمت بإنشائها. ثم قم بتكوين الرسوم المرئية. على سبيل المثال، حدد الرسم المرئي **خريطة معبأة**، ثم قم بتكوينه كما يلي:

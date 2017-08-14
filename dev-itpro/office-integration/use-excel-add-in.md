@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 06fc9f8dda83fddea9ae331bb82c8874b15d76b9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -90,7 +90,7 @@ ms.lasthandoff: 06/20/2017
 5. لتطبيق التغييرات على مصدر البيانات، انقر فوق **تحديث**. بعد ذلك، انقر فوق **تم** لإغلاق المصمم. 
 6. إذا قمت بإضافة حقل (عمود)، فانقر فوق **تحديث** لسحب مجموعة محدّثة من البيانات.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)استكشاف الأخطاء وإصلاحها
+## <a name="troubleshooting"></a>استكشاف الأخطاء وإصلاحها
 هناك بعض المشاكل التي يمكن حلها من خلال بعض الخطوات السهلة.
 
 -   **ظهور زر تحميل البرامج.** إذا تضمنت وظيفة Excel الإضافية الزر **تحميل البرامج‬** بعد تسجيل الدخول، فهذا يعني على الأرجح أنك لم تسجل دخولك كمستخدم صحيح. لحل هذه المشكلة، تحقق من ظهور اسم المستخدم الصحيح في الزاوية اليسرى العليا من وظيفة Excel الإضافية. إذا ظهر اسم مستخدم غير صحيح، فانقر فوقه وسجّل خروج وثم سجّل دخولك مرة أخرى.

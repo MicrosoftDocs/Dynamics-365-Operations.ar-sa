@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.assetid: 
 ms.search.region: Global
 ms.author: twheeloc
-ms.dyn365.intro: 2017-06-30
+ms.dyn365.intro: 2017-06-30T00:00:00.000Z
 ms.dyn365.version: Enterprise edition, July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6cb473962f40ed9ef2f5f807f089098764f47009
-ms.openlocfilehash: 8228690ee5ab7839ec19c307c23f9b6150006371
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: a8ba439ff643fce4811be9224a3edf96b2b9025c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/14/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -38,11 +38,11 @@ ms.lasthandoff: 06/14/2017
 
 ## <a name="what-do-i-have-to-set-up"></a>ما الذي يجب عليَّ إعداده؟
 
-- قبل أن تتمكن من طباعة الشيكات باستخدام التقارير الإلكترونية، فمن ثم يجب استيراد تكوين شيك نشط واحد على الأقل إلى تكوينات التقارير الإلكترونية الخاص بك. للمزيد من التعليمات، راجع [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- قبل أن تتمكن من طباعة الشيكات باستخدام التقارير الإلكترونية، فمن ثم يجب استيراد تكوين شيك نشط واحد على الأقل إلى تكوينات التقارير الإلكترونية الخاص بك. للمزيد من التعليمات، راجع [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 - عندما تقوم بتكوين الشيكات النقدية وشيكات الإدارة البنكية للحساب البنكي، حدد خانة اختيار **تنسيق تصدير إلكتروني عام**، ثم حدد تنسيق الشيك المناسب كتكوين تنسيق ملف تصدير.
 - يجب عليك أيضا تحديد عدد أسطر الإيصال التي سوف تتم طباعتها على الحوالة. تأكد من تضمين صفوف الرؤوس عند حساب هذا الرقم. بالنسبة لعينتي تنسيق الشيك، يبلغ عدد أسطر الإيصال الموصي بها هي 17 سطرًا. ولكن، سوف يختلف هذا الرقم، بناءً على مخزون الشيكات لديك، وبرامج تشغيل الطابعة الخاصة بك.
 - نوصي بطباعة شيك كاختبار للتحقق من صحة تخطيط الشيك. لطباعة شيك اختبار، حدد خيار **اختبار طباعة**. تعمل عينات تنسيقات الشيكات بشكل أفضل عندما يتم تعيين الـ **هوامش** إلى **بلا** في خصائص الطابعة المتقدمة لـ Microsoft Excel. بعد إنشاء شيك اختبار، يتم تمكين التحرير مخرجات Excel، وتكوين تخطيط الصفحة بحيث يتم تعيين جميع الهوامش إلى **0** (صفر). قم بمقارنة نسخة اختبار الشيك بمخزون الشيكات لديك، ثم قم بضبط الإعدادات حتي تكون راضيًا عن المحاذاة.
 - عندما تقوم بإنشاء المدفوعات الخاصة بالحساب البنكي الذي تم تكوينه في دفتر يومية المدفوعات، فسوف تتم طباعة الشيكات باستخدام التنسيق المحدد.
 
-للمزيد من المعلومات، راجع [تعديل تنسيق تقارير إلكترونية](/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+للمزيد من المعلومات، راجع [تعديل تنسيق تقارير إلكترونية](/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template).
 

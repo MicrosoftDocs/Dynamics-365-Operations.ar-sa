@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 2
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: a65de22d01d15510c3f2cb792b86e6a88260bed9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2044bd5a3c858fb099fa7f612ede9963acc51efb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,9 +34,10 @@ ms.lasthandoff: 06/20/2017
 
 للحصول على معلومات حول كيفية الترقية إلى الإصدار الأخير، راجع [عملية الترقية إلى التحديث الأخير‬](../migration-upgrade/upgrade-latest-update.md).
 
-## <a name="application-releases"></a>إصدارات التطبيق
+> [!NOTE]
+> يتم حاليًا إعادة تسمية Dynamics 365 for Operations (محلي). سوى ترى Dynamics 365 for Operations (محلي) مشارًا إليه خلال الاتصالات ودلائل الترخيص. الاسم في المنتج الذي سوف تراه عند نشر المنتج هو 365 Dynamics 365 for Finance and Operations, Enterprise edition. ويشير هذان الاسمان إلى المنتج نفسه.
 
-لمعرفة المزيد حول مساحات العمل المحمولة ومحتوى Power BI الذي تم إصداره مؤخرًا، راجع [مساحات العمل المحمولة التي تم إصدارها مؤخرًا لتطبيق Dynamics 365 for Finance and Operations للأجهزة المحمولة‬](../mobile-apps/mobile-workspaces-released.md) وأيضًا [محتوى Power BI الذي تم إصداره مؤخرًا لتطبيق Dynamics 365 for Finance and Operations](../analytics/power-bi-home-page.md)
+## <a name="application-releases"></a>إصدارات التطبيق
 
 <table>
 <colgroup>
@@ -57,9 +58,9 @@ ms.lasthandoff: 06/20/2017
 </thead>
 <tbody>
 <tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
 <td>تحديث يوليو 2017</td>
-<td>س</td>
+<td>7.2.11792.56024</td>
 <td>2017 يونيو</td>
 <td><a href="whats-new-application-July-2017-update.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition، تحديث يوليو 2017</a></td>
 </tr>
@@ -108,9 +109,9 @@ ms.lasthandoff: 06/20/2017
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
 <td>الإصدار 8 من تحديث النظام الأساسي</td>
-<td>س</td>
+<td>7.0.4565.16212</td>
 <td>2017 يونيو</td>
 <td><a href="whats-new-platform-update-8.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition، الإصدار 8 من تحديث النظام الأساسي (يونيو 2017)</a></td>
 </tr>
