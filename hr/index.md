@@ -15,14 +15,13 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: ed80e59579c2356cc3c1e0f13b33026284867a2c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -54,12 +53,15 @@ ms.lasthandoff: 06/29/2017
 -   [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](departments-jobs-positions.md)
 -   [إعداد معلمات الموارد البشرية الخاصة بالشركة](set-up-company-specific-hr-parameters.md)
 -   [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](set-up-hr-parameters-across-legal-entities.md) 
+-   [الأسئلة الشائعة حول إجراءات العاملين](personnel-actions-faq.md)
+-   [نظرة عامة على الإجازة والغياب](leave-absence-overview.md)
 
-## <a name="retain-and-motivate-employees"></a>اكتساب الموظفين وتحفيزهم 
+## <a name="retain-and-motivate-employees"></a>اكتساب الموظفين وتحفيزهم
 
 يمكنك إعداد خطط تسمح لك بإدارة التعويض بطريقة فعالة ومنصفة، بالإضافة إلى إدارة عناصر، مثل أجهزة الكمبيوتر أو الهواتف، التي تقوم مؤسستك بإعارتها للموظفين. يمكنك إنشاء خطط التعويض الثابتة والمتغيرة، بالإضافة إلى تحديد قواعد تطبيق خطة التعويض للوفاء بالمعايير الخاصة بتلك الخطة.
 
 -   [خطط التعويض](compensation-plans.md)
+-   [تعويض العملية](process-compensation.md)
 -   [إنشاء خطط التعويض الثابتة](create-fixed-compensation-plans.md)
 -   [إنشاء خطط التعويض المتغيرة](create-variable-compensation-plans.md)
 
