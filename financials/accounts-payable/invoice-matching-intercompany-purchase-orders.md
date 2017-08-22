@@ -1,9 +1,9 @@
 ---
 title: "مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة"
 description: "قد يتم إعداد الكيان القانوني المشتري المعني بحركة تجارية بين شركات شقيقة لاستخدام مطابقة فواتير الحسابات الدائنة. في هذه الحالة، يجب تلبية متطلبات الترحيل لكل من مطابقة فواتير الحركات التجارية بين الشركات الشقيقة ومطابقة فواتير الحسابات الدائنة قبل ترحيل فواتير المورّد المشتركة بين الشركات الشقيقة."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
-ms.author: abruer
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 07c101b886d33fa5fc9e8129230ca270f48c5217
 ms.contentlocale: ar-sa
 ms.lasthandoff: 05/25/2017
-
 
 ---
 
