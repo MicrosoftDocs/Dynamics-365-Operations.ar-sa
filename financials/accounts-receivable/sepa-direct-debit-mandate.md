@@ -1,9 +1,9 @@
 ---
 title: "إعداد أمر رسمي لخصم سيبا مباشر"
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59491
 ms.assetid: 653a135f-c515-4ae3-9da2-82b5e1f103b5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ebf80efa32b21184a8effdde4d46c4d0d2179efd
+ms.translationtype: HT
+ms.sourcegitcommit: 17dc0cc19c4c58e6c795e085e2e8985598d403a0
+ms.openlocfilehash: 4ea72cf6410eb30d83103bceb4a1628bafd33ac7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -51,7 +51,10 @@ ms.lasthandoff: 05/25/2017
 -   اختياري: إذا كنت تتوقع كل من العملاء أن يكون لديهم عدة أوامر رسمية، في الحقل **الفترة‬**، حدد **الفاتورة**. ويتم إنشاء دفعة منفصلة لكل فاتورة، وستستخدم كل دفعة الأمر الرسمي المحدد للفاتورة.‬
 -   وحدد خيار **الأمر الرسمي مطلوب** لإنشاء المدفوعات باستخدام الأوامر الرسمية للخصم المباشر. يتوفر خيار **الأمر الرسمي مطلوب** فقط إذا قمت بتحديد **الدفع الإلكتروني** في حقل **نوع الدفع**.
 
-شاهد أيضًا [نظرة عامة على خصم سيبا المباشر‬‏‫](sepa-direct-debit-overview.md) 
+راجع أيضًا
 
+[نظرة عامة على الخصم المباشر](sepa-direct-debit-overview.md) 
+
+[إنشاء تفويض خصم مباشر لعميل](tasks/create-direct-debit-mandate-customer.md) 
 
 

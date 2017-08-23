@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ ms.lasthandoff: 06/20/2017
 </tr>
 <tr class="even">
 <td>تسجيل شيك بتاريخ لاحق لمورد وترحيله</td>
-<td>سجّل تفاصيل الشيك بتاريخ لاحق الذي تصدره لمورّد. عند ترحيل الدفع، يتم التعرف على التزام المورّد، ولكن المبلغ لم يُضف بعد إلى الحساب البنكي. بدلاً من ذلك، يتم استخدام حساب مقاصة لهذا الغرض.</td>
+<td>سجّل تفاصيل الشيك بتاريخ لاحق الذي تصدره لمورّد. عند ترحيل الدفع، يتم التعرف على التزام المورّد، ولكن المبلغ لم يُضف بعد إلى الحساب البنكي. بدلاً من ذلك، يتم استخدام حساب مقاصة لهذا الغرض. </td>
 </tr>
 <tr class="odd">
 <td>تسجيل شيك بتاريخ لاحق لعميل وترحيله</td>
@@ -87,6 +86,17 @@ ms.lasthandoff: 06/20/2017
 
 
 
+لمزيد من المعلومات، راجع الموضوعات التالية:
+
+[إعداد شيكات بتاريخ لاحق](tasks/set-up-postdated-checks.md)
+
+[تسجيل شيك بتاريخ لاحق لعميل وترحيله](tasks/register-post-postdated-check-customer.md)
+
+[تسوية شيك بتاريخ لاحق من عميل](tasks/settle-postdated-check-customer.md)
+
+[تسجيل شيك بتاريخ لاحق لمورد وترحيله](tasks/register-post-postdated-check-vendor.md) 
+
+[تسوية شيك بتاريخ لاحق لمورد](tasks/settle-postdated-check-vendor.md)
 
 
 

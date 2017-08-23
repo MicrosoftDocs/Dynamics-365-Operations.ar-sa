@@ -3,7 +3,7 @@ title: "قواعد سياسة التدقيق"
 description: "يمكنك استخدام سياسات التدقيق لتقييم تقارير المصروفات، وفواتير المورد، وأوامر الشراء للتأكد من امتثالها لقواعد السياسة التي تقوم بإنشائها. يتم تشغيل كل القواعد المقترنة بسياسة التدقيق في الوضع الدفعي، ووفقا للجدول الزمني الذي تحدده.  كل قاعدة سياسة هي مثال على نوع قاعدة السياسة. لكل نوع قاعدة السياسة، يمكن تنشيط قاعدة سياسة واحدة فقط في المرة الواحدة."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 43d2595a4a80e68ed1c0e5639e5413d732fe6a32
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68f31f00a30513b7d2f3f36a39eaf1cfe7a219a1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -101,7 +100,7 @@ ms.lasthandoff: 05/25/2017
 --------
 
 [تدقيق انتهاكات السياسة والحالات](audit-policy-violations-cases.md)
-
+[تحديد سياسات التدقيق‬ للمستندات المصدر](tasks/define-audit-policies-source-documents.md)
 
 
 

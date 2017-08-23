@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-يوضح هذا الموضوع كيفية إعادة تعيين متجر بيانات التقارير المالية بعد استعادة قاعدة بيانات Microsoft Dynamics 365 for Finance and Operations. 
+يوضح هذا الموضوع كيفية إعادة تعيين متجر بيانات التقارير المالية بعد استعادة قاعدة بيانات Microsoft Dynamics 365 for Finance and Operations.
 
-توجد عدة سيناريوهات قد تحتاج فيها إلى استعادة قاعدة بيانات Finance and Operations من قاعدة بيانات احتياطية أو نسخ قاعدة البيانات من بيئة أخرى. عند حدوث ذلك، تحتاج أيضًا إلى اتباع الخطوات المناسبة لضمان قيام متجر بيانات التقارير المالية باستخدام قاعدة بيانات Finance and Operations التي تمت استعادتها بشكل صحيح. إذا كانت لديك أسئلة حول إعادة تعيين متجر بيانات التقارير المالية لسبب آخر خارج استعادة قاعدة بيانات Finance and Operations، فراجع [إعادة تعيين متجر بيانات أداة تقارير الإدارة](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) للحصول على مزيد من المعلومات. لاحظ أن الخطوات في هذه العملية مدعومة لإصدار Dynamics 365 for Operation مايو 2016 (إنشاء تطبيق 7.0.1265.23014 و إنشاء التقارير المالية 7.0.10000.4 ) والإصدارات الأحدث. إذا كان لديك إصدار سابق من Finance and Operations، فيُرجى الاتصال بفريق الدعم للمساعدة.
+إذا قمت في أي وقت باستعادة قاعدة بيانات Finance and Operations من نسخة احتياطية أو نسخ قاعدة البيانات من بيئة أخرى، فيجب اتباع الخطوات الواردة في هذا الموضوع للتأكد من أن متجر بيانات التقارير المالية يستخدم بشكل صحيح قاعدة بيانات Finance and Operations التي تمت استعادتها. 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> الخطوات في هذه العملية مدعومة لإصدار Dynamics 365 for Operations مايو 2016 (إصدار التطبيق 7.0.1265.23014 وإصدار التقارير المالية 7.0.10000.4) والإصدارات الأحدث. إذا كان لديك إصدار سابق من Finance and Operations، فاتصل بفريق الدعم للمساعدة.
 
 ## <a name="export-report-definitions"></a>تصدير تعريفات التقارير
 أولاً، تصدير تصميمات التقارير الموجودة في "مصمم التقرير"، باستخدام الخطوات التالية:
 
 1.  في مصمم التقرير، انتقل إلى **الشركة** &gt; **مجموعات كتل الإنشاء**.
-2.  حدد مجموعة كتلة الإنشاء لتصديرها، ثم انقر فوق **تصدير**. **ملاحظة:** بالنسبة إلى Finance and Operations، يتم دعم مجموعة واحدة فقط من كتل الإنشاء، وهي المجموعة **الافتراضية**.
+2.  حدد مجموعة كتلة الإنشاء لتصديرها، ثم انقر فوق **تصدير**. 
+    > [!Note] 
+    > ملاحظة: بالنسبة إلى Finance and Operations، يتم دعم مجموعة واحدة فقط من كتل الإنشاء، وهي المجموعة **الافتراضية**.
 3.  حدد تعريفات التقارير لتصديرها:
     -   لتصدير كافة تعريفات التقارير وكتل الإنشاء المقترنة، انقر فوق **تحديد الكل**.
     -   لتصدير مجموعات محددة من التقارير أو الصفوف أو الأعمدة أو الأشجار أو الأبعاد، انقر فوق علامة التبويب المناسبة ثم حدد العناصر المراد تصديرها. اضغط مع الاستمرار على مفتاح Ctrl لتحديد أصناف متعددة في علامة التبويب. عند تحديد التقارير لتصديرها، يتم تحديد مجموعات الصفوف المقترنة والأعمدة وشجر التدرجات والأبعاد.
@@ -63,9 +68,9 @@ ms.lasthandoff: 06/13/2017
 ستكون لهذه الخدمات اتصالات مفتوحة بقاعدة بيانات Finance and Operations.
 
 ## <a name="reset"></a>إعادة التعيين
-#### <a name="locate-the-latest-dataupgradezip-package"></a>حدد موقع حزمة أحدث DataUpgrade.zip
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>تحديد موقع حزمة MinorVersionDataUpgrade.zip الأحدث وتنزيلها
 
-حدد أحدث موقع حزمة DataUpgrade.zip باستخدام التوجيهات الموجودة في [تحميل البرنامج النصي لـ DataUpgrade.zip](..\migration-upgrade\upgrade-data-to-latest-update.md). توضح الإرشادات كيفية تحديد الإصدار الصحيح من حزمة ترقية البيانات للبيئة الخاصة بك.
+حدد موقع حزمة MinorVersionDataUpgrade.zip الأحدث باستخدام الإرشادات التي يمكن العثور عليها في [تنزيل أحدث حزمة قابلة للنشر لترقية البيانات](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). توضح الإرشادات كيفية تحديد موقع الإصدار الصحيح من حزمة ترقية البيانات وتنزيلها. لا حاجة إلى إجراء عملية ترقية لتنزيل حزمة MinorVersionDataUpgrade.zip. أنت تحتاج فقط إلى إكمال الخطوات المذكورة في القسم "تنزيل أحدث حزمة قابلة للنشر لترقية البيانات" من دون تنفيذ أي من الخطوات الأخرى الواردة في المقالة لاسترداد نسخة من حزمة MinorVersionDataUpgrade.zip.
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>تنفيذ البرامج النصية مقابل قاعدة بيانات Finance and Operations
 
@@ -105,8 +110,10 @@ ms.lasthandoff: 06/13/2017
 
 1.  في مصمم التقرير، انتقل إلى **الشركة** &gt; **مجموعات كتل الإنشاء**.
 2.  حدد مجموعة كتلة الإنشاء لتصديرها، ثم انقر فوق **تصدير**. 
+
     > [!NOTE]
     > ملاحظة: بالنسبة إلى Finance and Operations، يتم دعم مجموعة واحدة فقط من كتل الإنشاء، وهي المجموعة **الافتراضية**.
+    
 3.  حدد **الخيار الافتراضي**لكتلة الإنشاء، ثم انقر فوق **استيراد**.
 4.  حدد الملف الذي يحتوي على تعريفات التقرير الذي تم تصديره، ثم انقر فوق **فتح**.
 5.  في مربع الحوار استيراد، حدد تعريفات التقرير المراد استيرادها.

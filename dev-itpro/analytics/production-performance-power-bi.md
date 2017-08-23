@@ -13,11 +13,11 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: aevengir
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: d3f5d48683c13d1affa88dd44727639cd6158c73
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: fa93249d2dba0e6f72d394daa6a125f29a062594
 ms.contentlocale: ar-sa
 ms.lasthandoff: 07/27/2017
 
@@ -143,7 +143,7 @@ ms.lasthandoff: 07/27/2017
 
 فيما يلي بعض الارتباطات المفيدة المتعلقة بالكيانات وإنشاء محتوى Power BI:
 
-- [كيانات البيانات](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities.md)
+- [كيانات البيانات](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities)
 - [إنشاء حزم المحتوى التنظيمية](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 - [تصميم البيانات باستخدام Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 - [إضافة إطارات Power BI المتجانبة إلى مساحات العمل](/dynamics365/unified-operations/dev-itpro/analytics/configure-power-bi-integration)

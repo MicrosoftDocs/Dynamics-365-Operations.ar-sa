@@ -1,9 +1,9 @@
 ---
 title: "تكوين الحسابات الدائنة"
 description: "تصف هذه المقالة الصفحات التي تستخدمها لإعداد الوظائف الأساسية والاختيارية للحسابات الدائنة في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. وتصف أيضًا خطوات الإعداد التي يجب إكمالها قبل بدء إعداد الحسابات الدائنة."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2a61cb86a4f2cfc6d701445c139e22df0db44f8c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -47,7 +46,7 @@ ms.lasthandoff: 06/13/2017
 ## <a name="setup-pages-for-accounts-payable"></a>إعداد الصفحات للحسابات الدائنة
 
 استخدم الصفحات التالية لإعداد الوظيفة الرئيسية للحسابات الدائنة لكل كيان قانوني. ويتم سرد الصفحات حسب الترتيب الموصى به للإعداد. لتسهيل عملية الإعداد، فإنه يمكنك إنشاء قوالب من السجلات الأولى التي تقوم بإنشاؤها. وفي القالب، يتم عادةً إدخال القيم في العديد من الحقول لتعكس الميزات التي ترغب المؤسسة في تنفيذها لنوعية محددة من الموردين.
-1.  في صفحة شروط الدفع، حدد شروط الدفع التي تقوم بتعيينها لأوامر المبيعات، وأوامر الشراء، والعملاء، والموردين، والتي تحدد تواريخ استحقاق الفواتير.
+1.  في صفحة شروط الدفع، حدد شروط الدفع التي تقوم بتعيينها لأوامر المبيعات، وأوامر الشراء، والعملاء، والموردين، والتي تحدد تواريخ استحقاق الفواتير. للحصول على مزيد من المعلومات، راجع [تحديد رسوم دفع المورّد](tasks/define-vendor-payment-fees.md).
 2.  في صفحة طرق الدفع - الموردون، قم بإنشاء والاحتفاظ بمعلومات حول كيفية دفع المؤسسة للموردين الخاصين بها.
 3.  في صفحة مجموعات الموردين، قم بإنشاء والاحتفاظ بمجموعات الموردين الذين يتشاركون في المعلمات المهمة الخاصة بالترحيل، والتسوية والدفع، وإعداد التقارير، والتنبؤ.
 4.  في صفحة ملفات تعريف ترحيل الموردين، حدد طريقة ترحيل حركات الموردين إلى دفتر الأستاذ العام.

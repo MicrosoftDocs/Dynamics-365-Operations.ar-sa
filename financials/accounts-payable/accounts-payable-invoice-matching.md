@@ -3,7 +3,7 @@ title: "مطابقة فاتورة الحسابات الدائنة"
 description: "مطابقة فاتورة الحسابات الدائنة هي عبارة عن عملية مطابقة فاتورة المورّد وأمر الشراء ومعلومات إيصال استلام المنتجات."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ ms.lasthandoff: 05/25/2017
 -   إدخال مبالغ الفاتورة التي لم يتم تضمينها في أمر الشراء الأصلي، بحيث تتطابق معلومات الفاتورة مع الفاتورة التي تسلمتها من المورّد. يُمكنك مقارنة المصاريف لأوامر الشراء بمصاريف الفواتير. وإذا لزم الأمر، يُمكنك إضافة المصاريف إلى الفواتير وتخصيصها إلى بنود الفاتورة.
 -   عرض اختلافات مطابقة السعر بين صافي سعر وحدة الفاتورة وصافي سعر وحدة أمر الشراء واعتمادها. يُمكنك إعداد النسب المئوية لتفاوتات الأسعار للكيانات القانونية، والموردين، والأصناف. وإذا لم يقع سعر بند فاتورة المورد داخل نطاق تفاوت السعر المقبول، فيُمكنك حفظ الفاتورة إلى أن يتم اعتمادها للترحيل أو حتى تتسلم تصحيحًا من المورّد.
 
-لمزيد من المعلومات، راجع [‏‫سياسات المطابقة الثلاثية‬](three-way-matching-policies.md).
+للحصول على مزيد من المعلومات، راجع [سياسات المطابقة الثلاثية](three-way-matching-policies.md) و[‏‫إعداد التحقق من صحة مطابقة فاتورة الحسابات الدائنة‬](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 
