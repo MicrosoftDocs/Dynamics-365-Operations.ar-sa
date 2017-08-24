@@ -1,9 +1,9 @@
 ---
 title: "نظرة عامة على فواتير الموردين"
 description: "توفر هذه المقالة معلومات عامة حول فواتير المورد. فواتير المورد هي طلبات دفع للمنتجات والخدمات التي تم تلقيها. بإمكان فواتير المورد أن تمثل فاتورة في مقابل خدمات مستمرة، أو يمكنها أن تستند إلى أوامر شراء لأصناف وخدمات معينة."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 16ff8ebb0e620f45c4d290ee5076d5505abf3436
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 4c27b5a8ab1a7aeab31b48937dcaf4a86d798689
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -75,11 +74,23 @@ ms.lasthandoff: 05/25/2017
 
 يفترض هذا الخيار أن يتم ترحيل إيصال استلام منتجات واحد على الأقل لأمر الشراء. تعتمد فاتورة المورد على إيصالات الاستلام هذه ويعكس الكميات من خلالها. وتعتمد المعلومات المالية للفاتورة على المعلومات التي يتم إدخالها عند ترحيلك للفاتورة.
 
+لمزيد من المعلومات، راجع [تسجيل فاتورة المورّد ومطابقتها بالكمية المستلمة](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+
 ## <a name="working-with-multiple-invoices"></a>العمل مع العديد من الفواتير
 
 يمكنك العمل بفواتير متعددة في وقت واحد وترحيلها جميعًا في وقت واحد. إذا كان يجب عليك إنشاء فواتير متعددة، فاستخدم صفحة **فواتير المورد المعلقة**. وإذا كان يجب عليك ترحيل وطباعة فواتير موردين متعددة، فاستخدم صفحة دفتر يومية اعتماد الفاتورة. وإذا كنت تستخدم دفتر يومية اعتماد الفاتورة، فيجب ترحيل إيصال استلام منتج واحد على الأقل لطلب الشراء وترحيل فاتورة لأمر الشراء في سجل الفاتورة. ترد المعلومات المالية الخاصة بالفاتورة من الفاتورة التي تم ترحيلها في السجل.
 
 
+لمزيد من المعلومات، راجع: 
 
+ - [إعداد سياسات فواتير المورِّدين](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+
+ - [بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام فاتورة المورد](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+ 
+ - [بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام ‏‫دفتر يومية الموافقة](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+  
+ - [بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام ‏‫وعاء الفواتير‬](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
+ 
+ - [تسجيل فاتورة مورّد في دفتر يومية الفواتير](tasks/record-vendor-invoice-invoice-journal.md)
 
 

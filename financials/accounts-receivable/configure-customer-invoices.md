@@ -1,9 +1,9 @@
 ---
 title: "إنشاء فاتورة عميل"
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fd89921a97782c4d09807a730ab077809304159f
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 249b1f331d6889d3b9ed2ace2e5db21d7a5d3e46
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,11 +30,20 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-
-
-**فاتورة عميل لأمر المبيعات** هي فاتورة ترتبط بعملية بيع وتعطيها مؤسسة لعميل. ويتم إنشاء هذا النوع من فاتورة العميل استنادًا إلى أمر المبيعات، الذي يتضمن بنود الأوامر وأرقام الأصناف. ويتم تحديد أرقام الأصناف وترحيلها في دفتر الأستاذ. ولا تتوفر إدخالات دفتر اليومية في دفتر الأستاذ الفرعي لفاتورة عميل لأمر مبيعات.‬ 
+**فاتورة عميل لأمر المبيعات** هي فاتورة ترتبط بعملية بيع وتعطيها مؤسسة لعميل. ويتم إنشاء هذا النوع من فاتورة العميل استنادًا إلى أمر المبيعات، الذي يتضمن بنود الأوامر وأرقام الأصناف. ويتم تحديد أرقام الأصناف وترحيلها في دفتر الأستاذ. ولا تتوفر إدخالات دفتر اليومية في دفتر الأستاذ الفرعي لفاتورة عميل لأمر مبيعات.‬ للحصول على مزيد من المعلومات، راجع [إنشاء فواتير أوامر المبيعات‬](tasks/create-sales-order-invoices.md).
 
 ولا ترتبط **فاتورة النص الحر** بأمر مبيعات. ولكنها تحتوي على بنود الأمر التي تتضمن حسابات دفتر الأستاذ وأوصاف النص الحر ومبلغ المبيعات الذي تقوم بإدخاله. ولا يمكنك إدخال رقم الصنف في نوع الفاتورة هذا. يجب إدخال معلومات ضريبة المبيعات الصحيحة. وتتم الإشارة إلى حساب رئيسي للبيع في كل بند فاتورة تقوم بتوزيعها على عدة حسابات دفتر أستاذ بالنقر فوق **توزيع المبالغ** في صفحة **فاتورة النص الحر**. وبالإضافة إلى ذلك، يتم ترحيل رصيد العميل إلى حساب الملخص من ملف تعريف الترحيل المستخدم لفاتورة النص الحر.
+
+لمزيد من المعلومات، راجع: 
+
+[إنشاء فاتورة نص حر](tasks/create-free-text-invoice.md)
+
+[إنشاء قالب نص حر](tasks/create-free-text-invoice-template.md)
+
+[‏‫تعيين قالب فاتورة ذات نص حر إلى عميل](tasks/assign-free-text-invoice-template-customer.md)
+
+[إنشاء وترحيل فواتير النص الحر المكررة](tasks/post-recurring-free-text-invoices.md)
+
 
 **الفاتورة المبدئية** هي فاتورة يتم إعدادها كتقدير لمبالغ الفاتورة الفعلية قبل ترحيل الفاتورة. ويمكنك طباعة فاتورة مبدئية لفاتورة عميل لفاتورة مبيعات أو لفاتورة النص الحر.
 

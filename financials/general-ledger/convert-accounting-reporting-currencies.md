@@ -1,35 +1,33 @@
 ---
 title: "تحويل عملات المحاسبة أو التقارير"
 description: 
-author: RobinARH
+author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 78223
 ms.assetid: 31c56f9a-9c64-40a2-90e3-1969a760614b
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 728af2fff6317c17e47d48ea07dbeb57068fbf3f
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: c738207f3088da151ec2317ce2b445f83278ec79
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a>تحويل عملات المحاسبة أو التقارير
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 أمام الشركة التي يجب عليها تغيير عملة المحاسبة أو عملة التقارير خياران. الخيار الأول هو إنشاء شركة جديدة والبدء من جديد. الخيار الثاني هو تشغيل عملية تحويل عملة المحاسبة والتقارير. هذه عملية تشغيل لفترة طويلة جداً تغير كل حركة في النظام. مطلوب أيضًا بعض الإعداد قبل أن يمكن تشغيل العملية.
@@ -77,6 +75,6 @@ ms.lasthandoff: 05/25/2017
 
 عند حذف جميع دفاتر يومية حركات دفتر الأستاذ، يمكنك تسجيل حركات دفتر الأستاذ في دفاتر اليومية مرة أخرى. انقر فوق **دفتر الأستاذ العام** &gt; **‎دوري** &gt; **دفاتر اليومية** &gt; **تسجيل في دفتر يومية**. يمكنك إعادة تقييم مبالغ العملات الأجنبية بعد تحويل العملة، إذا كان مطلوباً إعادة التقييم. وتقوم بإعادة تقييم مبالغ العملات الأجنبية عن طريق تحديد **قياسي** في حقل **الطريقة** لإعادة التقييم.
 
-
+للحصول على مزيد من المعلومات، راجع [تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية‬](tasks/journalize-posted-journal-entries.md).
 
 

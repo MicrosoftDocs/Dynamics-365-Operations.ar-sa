@@ -1,7 +1,7 @@
 ---
 title: "المدفوعات المركزية للحسابات الدائنة"
 description: "يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني واحد يعالج جميع المدفوعات. ولذلك، لا يلزم إدخال نفس المدفوعات في العديد من الكيانات القانونية. توفر هذه المقالة أمثلة تعرض كيفية معالجة الترحيل للمدفوعات المركزية في سيناريوهات مختلفة."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14341
 ms.assetid: 7bd02e32-2416-4ac6-8a60-85525267fdb7
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
 ms.contentlocale: ar-sa
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

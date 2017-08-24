@@ -15,13 +15,13 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: kfend
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: e090d4af91ec979aeccdd954e4fdab99f026e150
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: 4399dc7374ae11f2eca3add37b60c50574dfad9d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>الصفحة المقصودة لعملية النشر المحلي
@@ -32,7 +32,7 @@ ms.lasthandoff: 07/27/2017
 
 ## <a name="get-started"></a>بدء الاستخدام
 - [نظرة عامة على Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](on-premises-overview.md)
-- [متطلبات النظام](../get-started/system-requirements.md)
+- [متطلبات النظام لعمليات النشر المحلي](../get-started/system-requirements-on-prem.md)
 - [ضبط حجم الأجهزة للبيئات المحلية](../get-started/hardware-sizing-on-premises-environments.md)
 - [نهج دورة الحياة وللخدمة على الإنترنت والبرنامج المحلي](../migration-upgrade/versions-update-policy.md)
 - [شراء Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](../get-started/purchase-on-premises.md)
