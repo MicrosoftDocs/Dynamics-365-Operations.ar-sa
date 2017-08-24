@@ -16,13 +16,13 @@ ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
+ms.sourcegitcommit: 9e0d4e510542ffdeb01c8c9daffab40f5ba4b654
+ms.openlocfilehash: 3875aab63d2046bf6f0ebeb04622babb6f3f104d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -59,8 +59,11 @@ ms.lasthandoff: 07/27/2017
 -  [بدء الاستخدام في ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
 -  [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
 -  [استخدام Excel لتحليل التكلفة](https://youtu.be/-HKHYdClvx8)
+-  [الموافقة على أوامر الشراء على جهاز محمول](https://youtu.be/gZ-gOlJe7H8)
 
-### <a name="tech-talk"></a>حديث فني 
+### <a name="tech-talks"></a>الأحاديث الفنية
+تناقش معظم هذه المنشورات وظائف المنتج في الإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي. 
+
 -  <a href="https://youtu.be/zotrj3SbCl4">مكون المنتج في Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها</a>
 -  <a href="https://youtu.be/RLXybx20B5o">التعليمات! تخطيط متطلبات المواد بطيء!</a>
@@ -71,6 +74,7 @@ ms.lasthandoff: 07/27/2017
 -  <a href="https://youtu.be/5w1MngVchBA">التسميات في إدارة مستودعات Microsoft Dynamics AX 2012 R3 الجديد</a>
 -  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: إدارة المستودعات - يوم في حياة التصنيع التحويلي</a>
 -  <a href="https://youtu.be/y1jrd3A_k70">عمليات وأنشطة التعاقد من الباطن في التصنيع</a>
+-  <a href="https://youtu.be/jgmTgJIgEFQ">إدارة النقل (TMS) في Microsoft Dynamics AX الجديد</a>
 
 ## <a name="blogs"></a>المدونات
 هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد ضمن <a href="https://blogs.msdn.microsoft.com/axmfg/">مدونة فريق بحث وتطوير Dynamics AX Manufacturing</a> و<a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX</a>. وقد تمت كتابة معظم هذه المنشورات للإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي. 
