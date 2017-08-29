@@ -1,7 +1,7 @@
 ---
 title: "نظرة عامة على الاستحقاقات"
 description: "تصف هذه المقالة الاستحقاقات، وتوفر معلومات حول كيفية إعدادها وإنشاء الحركات."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

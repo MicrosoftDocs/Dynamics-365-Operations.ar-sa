@@ -1,7 +1,7 @@
 ---
 title: "إعداد الدفعات المركزية"
 description: "‏‫اتبع هذه الخطوات لإعداد معالجة المدفوعات في كيان قانوني واحد نيابة عن الكيانات القانونية الأخرى في مؤسستك."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article

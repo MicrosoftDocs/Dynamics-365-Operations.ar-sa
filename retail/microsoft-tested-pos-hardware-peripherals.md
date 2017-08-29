@@ -1,7 +1,7 @@
 ---
 title: "‏‫الأجهزة الطرفية لنقطة البيع"
 description: "باستطاعة نقطة البيع بالتجزئة الحديثة (POS) ونقطة بيع المجموعة استخدام مجموعة واسعة من الأجهزة الطرفية، مع واجهات وخيارات نشر متعددة لتحقيق سيناريوهات أعمال مختلفة لبائع التجزئة."
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: f5f090eb406488ecfcd502c2cc6e3a63ca16111a
 ms.contentlocale: ar-sa
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

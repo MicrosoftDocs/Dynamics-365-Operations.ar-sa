@@ -1,7 +1,7 @@
 ---
 title: "محتوى Power BI أداء الإنتاج"
 description: "يوضح هذا الموضوع ما هو مضمن في محتوى Power BI أداء الإنتاج. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

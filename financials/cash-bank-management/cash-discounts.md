@@ -1,7 +1,7 @@
 ---
 title: "الخصومات النقدية"
 description: "يتم إعداد الخصومات النقدية وتتم مشاركتها لكل من الحسابات الدائنة والحسابات المدينة.  يمكن تعريف الخصم النقدي المتوفر على فاتورة العميل أو فاتورة المورّد، وسيتم أخذه إذا تم دفع الفاتورة في غضون تاريخ الخصم النقدي."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 9d581a1d32a0df15e0b63e129d369d90aaa440d2
 ms.contentlocale: ar-sa
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

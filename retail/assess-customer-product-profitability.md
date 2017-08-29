@@ -1,7 +1,7 @@
 ---
 title: "تقييم العميل وربحية المنتج"
 description: "تشرح هذه المقالة كيفية استخدام التحليلات في الذاكرة وفي الوقت الحقيقي للوصول إلى معلومات حول العملاء وربحية المنتج‬ واستكشافها واكتسابها من بيانات Microsoft Dynamics 365 for Retail."
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: ea35bdd54c476fc5a3d329f7ca0dcf014c417e7a
 ms.contentlocale: ar-sa
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

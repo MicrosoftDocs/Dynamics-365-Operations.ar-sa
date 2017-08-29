@@ -1,7 +1,7 @@
 ---
 title: "إدارة الورديات وأدراج الأوراق النقدية‬"
 description: "توضح هذه المقالة كيفية إعداد واستخدام نوعي ورديات نقاط البيع بالتجزئة: الورديات المستقلة والورديات المشتركة. يمكن استخدام الورديات المشتركة من قِبل عدة مستخدمين في أماكن متعددة، بينما يمكن استخدام الورديات المستقلة من قِبل عامل واحد فقط في كل مرة‬."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: ar-sa
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

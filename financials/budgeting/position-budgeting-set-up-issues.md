@@ -1,7 +1,7 @@
 ---
 title: "اكتشاف مشكلات إعداد موازنة المنصب‬ وإصلاحها"
 description: "توفر هذه المقالة أجوبة على الأسئلة التي قد تواجهك عند تكوين موازنة المنصب‬. وهو يتناول الأسئلة المتداولة حول كيفية إنشاء عناصر تكلفة الموازنة ومجموعات التعويض وشبكات التعويض."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 88253
 ms.assetid: c44df01b-8700-4022-b4c6-c4b1cb84d31d
 ms.search.region: Global
 ms.author: ryansand
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

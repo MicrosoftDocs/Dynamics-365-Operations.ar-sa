@@ -1,7 +1,7 @@
 ---
 title: "الأبعاد المالية"
 description: "يصف هذا الموضوع مختلف أنواع الأبعاد المالية وكيفية إعدادها."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

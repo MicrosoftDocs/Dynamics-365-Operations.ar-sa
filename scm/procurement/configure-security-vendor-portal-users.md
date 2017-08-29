@@ -1,7 +1,7 @@
 ---
 title: "أمان مستخدم مدخل المورّد على الإنترنت‬"
 description: "تشرح هذه المقالة كيفية إعداد الأمان للمورّدين الخارجيين الذين يستخدمون مدخل المورّد. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016."
-author: YuyuScheller
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 30231
 ms.assetid: 3574db17-81c7-4c5a-999b-0098aa0b9cda
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
