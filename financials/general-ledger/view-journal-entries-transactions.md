@@ -1,7 +1,7 @@
 ---
 title: "عرض الحركات وإدخالات دفاتر اليومية"
 description: "توضح هذه المقالة الطرق المختلفة التي يمكنك من خلالها عرض إدخالات وحركات دفتر اليومية."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

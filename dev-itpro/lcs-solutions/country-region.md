@@ -14,13 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
-ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -29,11 +29,11 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-يتضمن Microsoft Dynamics 365 for Finance and Operations وظائف للبلد/المناطق الموثقة في [دليل توافر المنتج](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
+يتضمن Microsoft Dynamics 365 for Finance and Operations وظائف للبلد/المناطق الموثقة في [دليل توافر المنتج الدولي](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
 
-يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الوظائف الخاصة بالبلد/المنطقة. 
+يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الحلول والتحديثات والإنذارات والوظائف الخاصة بالبلد/المنطقة. 
 
-## <a name="developing-localized-solutions"></a>نشر حلول مترجمة
+## <a name="developing-localized-solutions"></a>تطوير حلول مترجمة
 توفر الموارد التالية توجيهات ومعلومات يمكن أن تساعد المطورين ومورِّدي البرامج الذين يُنشئون التخصيصات الخاصة بالبلد/المنطقة أو يُنشئون حلا لدولة لا تدعمها Microsoft.
 -   [نماذج الترجمة المنفصلة](separate-localization-models.md)
 -   [تطبيق سياق البلد/المنطقة](apply-country-context.md)
@@ -96,9 +96,13 @@ ms.lasthandoff: 07/27/2017
 -   [كشف الحساب البنكي بتنسيق CODA](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
 -   [‏‏إقرار ضريبة Intervat](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [إعداد تقرير PRODCOM](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
+-   [تقارير التسوية](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
 
 ### <a name="brazil"></a>البرازيل
 
+-   [أصل CIAP الثابت](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
+-   [تكوين الدفاتر المالية‬](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
+-   [تصدير واستيراد حركات توحيد دفتر الأستاذ العام للبرازيل](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
 -   [الدفاتر المالية‬](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
 -   [العناصر النائبة لنص المستند المالي](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
 -   [المستندات المالية](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
@@ -108,11 +112,13 @@ ms.lasthandoff: 07/27/2017
 -   [دفاتر اليومية التي تم إنشاؤها أثناء عملية إرجاع الدفع الإلكتروني](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
 -   [عملية NF-e](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
 -   [المعلمات الخاصة بالكيانات القانونية](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
+-   [معالجة حوالات الدفع الإلكتروني للبرازيل](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
 -   [المستندات المالية المتممة للشراء](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
 -   [المستندات المالية المُشار إليها](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
 -   [المستندات المالية المتممة للمبيعات](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
 -   [المستند المالي الإلكتروني للخدمة](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
--   [سمات الضريبة](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
+-   [إعداد واستيراد والتحقق من صحة مستندات NF-e XML وDANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
+-   [سمات الضرائب](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
 -   [مدفوعات الضرائب](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
 -   [الضرائب](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
 
@@ -159,6 +165,7 @@ ms.lasthandoff: 07/27/2017
 - [تعديلات سعر الصرف](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
 - [تنسيقات الملف لطرق الدفع](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 - [التخلص من الأصول الثابتة لإستونيا وليتوانيا](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [استيراد ملفات ISO20022](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
 - [نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
 - [تقارير دفتر يومية المخزون](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
 - [ترقيم إيصالات التعبئة والفواتير للاتفيا وليتوانيا](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -174,6 +181,7 @@ ms.lasthandoff: 07/27/2017
 - [نظرة عامة على دين سيبا المباشر](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [إعداد تعويض العميل والمورد](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
 - [إعداد الموقِّعين لنماذج الطباعة](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [محاسبة Storno](/dynamics365/unified-operations/financials/localizations/emea-storno)
 - [التوجيهات الضريبية](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
 - [تحديث طريقة عرض المبالغ في التقارير والمستندات](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
 - [أسعار صرف ضريبة القيمة المضافة](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
@@ -246,6 +254,7 @@ ms.lasthandoff: 07/27/2017
 
 -   [كشف إصلاح الأصول الثابتة](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
 -   [ترقيم الفواتير وإيصالات التعبئة](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+-   [تفاصيل كشف حساب ضريبة القيمة المضافة](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
 
 ### <a name="mexico"></a>المكسيك
 
@@ -296,6 +305,7 @@ ms.lasthandoff: 07/27/2017
 -   [مجموعات إعادة تقييم الأصول الثابتة](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
 -   [ضريبة القيمة المضافة بين المجتمعات](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
 -   [عملاء المرة الواحدة](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
+-   [طباعة الشيكات باستخدام المخطط الإسباني](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
 -   [خيارات السندات الإذنية الإسبانية](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [دورات المبيعات والشراء](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
@@ -313,6 +323,7 @@ ms.lasthandoff: 07/27/2017
 ### <a name="thailand"></a>تايلاند
 
 -   [تقارير بطاقات المخزون](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
+-   [فاتورة ضريبة الإحلال/التسوية لتايلاند](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
 -   [ضريبة القيمة المضافة غير المحققة](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
 -   [ضريبة الخصم](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
 
@@ -322,6 +333,7 @@ ms.lasthandoff: 07/27/2017
 
 ### <a name="united-states"></a>الولايات المتحدة
 
+-   [نموذج 1099 في القطاع العام](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
 -   [التحقق من صحة النموذج I-9](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
 -   [تقرير 1099 لنهاية العام](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [كشف الرواتب](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)

@@ -1,7 +1,7 @@
 ---
 title: "مواد ورسوم التعبئة"
 description: "يتم دفع رسوم مواد التعبئة على فترات زمنية محددة إلى شركة إعادة التدوير. يتم دفع مبلغ، حسب وحدة الوزن، لكل مادة تتكون منها وحدة التعبئة. ويتم حساب رسوم مواد التعبئة وإعداد تقارير بها، ولكن لا يتم ترحيل أي من حركات دفتر الأستاذ وذلك لعدم اعتبار هذه الرسوم بمثابة ضرائب لا بد من دفعها إلى هيئة الضرائب."
-author: YuyuScheller
+author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

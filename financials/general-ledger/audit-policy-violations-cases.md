@@ -1,7 +1,7 @@
 ---
 title: "تدقيق انتهاكات السياسة والحالات"
 description: "تشرح هذه المقالة كيفية إنشاء حالات التدقيق من انتهاكات قواعد سياسة التدقيق. وتتضمن أيضًا معلومات حول مختلف الطرق التي تتبعها سياسة التدقيق لاستخدام نطاق تاريخ تحديد المستند."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 882f99beff256f96b6879c4af4c4ca8a6c4dbec3
 ms.contentlocale: ar-sa
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

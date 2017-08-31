@@ -1,7 +1,7 @@
 ---
 title: "قوائم مكونات الصنف والمعادلات"
 description: "توفر هذه المقالة معلومات حول قوائم مكونات الصنف‬ (BOM) والمعادلات، التي تعتبر جزءًا أساسيًا من تعريف متغيرات المنتجات والمنتجات. تحدد قوائم مكونات الصنف‬ (BOM) والمعادلات تلك المواد أو المكونات المطلوبة لمنتج معين. تحدد المعادلات أيضًا المنتجات المساعدة والمنتجات الثانوية التي ترد في سياق إنتاج معين."
-author: YuyuScheller
+author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
@@ -24,7 +24,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 5a23acfa95bb93dbc5990bf3839bbc629f15cc2f
 ms.contentlocale: ar-sa
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

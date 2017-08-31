@@ -1,7 +1,7 @@
 ---
 title: "إقفال دفتر الأستاذ العام في نهاية الفترة"
 description: "يوضح هذا الموضوع المهام التي يتم إكمالها عادةً عند تنفيذ إقفال فترة لدفتر الأستاذ العام."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

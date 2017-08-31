@@ -13,13 +13,13 @@ ms.reviewer: margoc
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
+ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
+ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 إن Microsoft Dynamics 365 for Finance and Operations هو تطبيق الأعمال للمؤسسات لدى Microsoft. يتيح للأشخاص إمكانية اتخاذ قرارات أكثر ذكاءً بسرعة من خلال واجهة مستخدم ذكية توفر الوصول إلى البيانات والمعلومات في الوقت الحقيقي. يتيح للشركات إمكانية التحويل والابتكار عن طريق توفير منطق أعمال أثبت جدارته ويسمح لهم بإعادة تصميم عمليات الأعمال بشكل أسرع. يمنح الشركات مرونة النمو بوتيرتها الخاصة وأداء الأعمال تقريبًا في أي مكان، وفي أي وقت، مما يسمح لهم بتحسين العمليات الخاصة بهم على المستوى العالمي لتلبية احتياجات الأعمال. 
 
-يمكن لهذه الوثائق أن تساعدك في التعرف على كيفية جعل Dynamics 365 for Finance and Operations يعمل لصالح أعمالك. إنه متصل بوثائق المنتجات ذات الصلة في مجموعة Unified Operations، وDynamics 365 for Retail، وDynamics 365 for Talent. 
+يمكن لهذه الوثائق أن تساعدك في التعرف على كيفية جعل Dynamics 365 for Finance and Operations يعمل لصالح أعمالك. إنه متصل بوثائق المنتجات ذات الصلة: Dynamics 365 for Retail، وDynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -39,7 +39,7 @@ ms.lasthandoff: 07/27/2017
 <tbody>
 <tr class="odd">
 <td>
-<h3><a href="../fin-and-ops/get-started/before-you-buy">قبل البدء</a></h3>
+<h3><a href="../fin-and-ops/get-started/before-you-buy">قبل الشراء</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription">التسجيل للاشتراك في المعاينة</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type">اختيار خيار نشر</a></p>
 <p>شراء Finance and Operations</p>
@@ -86,7 +86,7 @@ ms.lasthandoff: 07/27/2017
 <p><a href="../dev-itpro/analytics/financial-reporting-intro">التقارير المالية</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting">إعداد التقارير التنظيمية</a></p>
 
-<h3><a href="../dev-itpro/mobile-apps/mobile-platform">النظام الأساسي للأجهزة المحمولة</a></h3>
+<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">النظام الأساسي للأجهزة المحمولة</a></h3>
 
 <h3>وظائف المطور</h3>
 <p><a href="../dev-itpro/dev-tools/developer-home-page">الصفحة الرئيسية للمطور</a></p>
