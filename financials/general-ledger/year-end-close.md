@@ -1,7 +1,7 @@
 ---
 title: "إقفال نهاية السنة"
 description: "يصف هذا الموضوع الإعداد والخطوات المطلوبة لتشغيل عملية إقفال نهاية السنة في دفتر الأستاذ العام."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
