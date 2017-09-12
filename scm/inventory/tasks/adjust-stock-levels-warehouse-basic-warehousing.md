@@ -1,4 +1,4 @@
---- 
+---
 title: "ضبط مستويات المخزون في المستودع (التخزين الأساسي)"
 description: "يوضح لك هذا الإجراء عملية إنشاء دفتر يومية تعديل مخزون وترحيله لضبط مستويات المخزون من المنتجات في المستودع."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ ms.lasthandoff: 07/27/2017
 4. انقر فوق "موافق".
 5. وقم بغلق النموذج.
 6. قم بإغلاق الصفحة.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "جرد المخزون في مستودع"
 description: "يوضح لك هذا الإجراء عملية إنشاء دفتر يومية جرد مخزون وترحيله لجرد صنف معين بأحد المواقع في المستودع."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -68,5 +68,4 @@ ms.lasthandoff: 07/27/2017
 1. انقر فوق المخزون.
 2. انقر فوق "الحركات".
     * هنا يمكنك أن ترى أي حركات ذات صلة سيتم إنشاؤها عند ترحيل دفتر يومية جرد المخزون الخاص بك.   
-
 

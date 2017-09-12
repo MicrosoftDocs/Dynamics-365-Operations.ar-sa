@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-توضح هذه المقالة كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية. 
+توضح هذه المقالة كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية.
 
 تُستخدم دفاتر يومية المخزون في Microsoft Dynamics 365 for Finance and Operations لترحيل حركات المخزون الفعلية من مختلف الأنواع، مثل ترحيل عمليات الإصدار والاستلام، وحركات المخزون، وإنشاء قائمة مكونات الصنف (BOM)، وتسوية المخزون الفعلي. وتُستخدم كافة دفاتر يومية المخزون هذه بطريقة مماثلة، ولكن يتم تقسيمها إلى أنواع مختلفة.
 
@@ -95,7 +95,4 @@ ms.lasthandoff: 07/27/2017
 
 ## <a name="posting-journal-lines"></a>ترحيل بنود دفاتر يومية
 يمكنك ترحيل بنود دفتر اليومية التي قمت بإنشائها في أي وقت حتى تقوم بحظر صنف من الحركات الإضافية. تبقى البيانات التي تقوم بإدخالها في دفتر يومية بداخل دفتر اليومية حتى إذا قمت بإغلاق دفتر اليومية دون ترحيل البنود.
-
-
-
 

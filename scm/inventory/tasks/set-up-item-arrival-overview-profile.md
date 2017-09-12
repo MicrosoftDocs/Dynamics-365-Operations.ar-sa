@@ -1,7 +1,7 @@
---- 
+---
 title: "إعداد ملف تعريف نظرة عامة على وصول الصنف"
 description: "تركز هذه المهمة على إعداد ملف تعريف النظرة العامة على الوصول."
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ ms.lasthandoff: 07/28/2017
     * حدد بنود الإيصال من أوامر التحويل.  
 17. انقر فوق "حفظ".
 18. قم بإغلاق الصفحة.
-
 

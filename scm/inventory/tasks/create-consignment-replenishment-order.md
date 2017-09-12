@@ -1,4 +1,4 @@
---- 
+---
 title: "إنشاء أمر تزويد شحن"
 description: "يوضح هذا الإجراء كيفية إنشاء أمر تزويد الشحن حيث يمكنك تعقب التسليم المتوقع من مورّد إلى مخزون الشحن."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ ms.lasthandoff: 07/28/2017
 ## <a name="receive-items"></a>استلام الأصناف
 1. انقر فوق "إيصال استلام المنتجات".
 2. في الحقل "إيصال استلام المنتجات الخارجي‬"، اكتب قيمة.
-3. في حقل "الكمية"، أدخل رقمًا أقل من الرقم الذي يظهر هناك. 
+3. في حقل "الكمية"، أدخل رقمًا أقل من الرقم الذي يظهر هناك.
 4. انقر فوق "موافق".
 
 ## <a name="check-the-on-hand-inventory"></a>التحقق من المخزون الفعلي
@@ -70,5 +70,4 @@ ms.lasthandoff: 07/28/2017
     * تتوفر الأصناف التي تم استلامها كمخزون شحن مملوك من قِبل المورّد بشكل فعلي. وتظهر الكمية المتبقية في أمر تزويد الشحن في حقل "الكمية المطلوبة إجمالاً‬".  
 4. قم بإغلاق الصفحة.
 5. انقر فوق "إغلاق".
-
 

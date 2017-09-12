@@ -1,7 +1,7 @@
 ---
 title: "دمج دُفعات المخزون"
 description: "توفر هذه المقالة معلومات حول كيفية دمج دُفعتي مخزون أو أكثر في دُفعة مدمجة."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-توفر هذه المقالة معلومات حول كيفية دمج دُفعتي مخزون أو أكثر في دُفعة مدمجة. 
+توفر هذه المقالة معلومات حول كيفية دمج دُفعتي مخزون أو أكثر في دُفعة مدمجة.
 
 عند دمج الدفُعات، بإمكان الحسابات أن تساعد في تحسين الخصائص ومواصفات التشغيلة في المجموعة المدمجة. بعد تحديد دُفعات المصدر، يمكنك مراجعة الدُفعة المدمجة وتغييرها قبل ترحيلها. يمكنك أيضًا نقل دمج الدُفعة إلى دفتر يومية مخزون للموافقة عليه. ويمكن عندئذٍ حجز المخزون أو ترحيله مباشرة من دفتر يومية المخزون هذا. عندما تقوم بترحيل دفعة مدمجة، يتم ضبط المخزون لدفعات المصدر وفي المجموعة المدمجة.
 
@@ -142,7 +142,4 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>بعد دمج صنف وزن تعبئة، لماذا لا أرى معلومات وزن التعبئة في دفتر يومية المخزون؟
 يمكنك دمج دُفعات أصناف وزن التعبئة مثل كافة الأصناف الأخرى. ومع ذلك، لا تظهر معلومات وزن التعبئة في دفتر يومية المخزون. نوصي بالتحقق من معلومات وزن التعبئة قبل تحويل دمج الدُفعة إلى دفتر يومية المخزون.
-
-
-
 

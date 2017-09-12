@@ -1,4 +1,4 @@
---- 
+---
 title: "تهيئة مستويات المخزون في المستودع"
 description: "يوضح هذا الإجراء كيفية تحديث المخزون المتاح يدوياً باستخدام دفتر يومية حركة مخزون."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ ms.lasthandoff: 07/27/2017
 24. انقر فوق "موافق".
 25. قم بإغلاق الصفحة.
 26. قم بإغلاق الصفحة.
-
 

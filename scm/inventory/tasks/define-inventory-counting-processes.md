@@ -1,4 +1,4 @@
---- 
+---
 title: "تحديد عمليات جرد المخزون"
 description: "ينقلك هذا الإجراء عبر تكوين عمليات جرد المخزون الأساسي عن طريق إنشاء مجموعة جرد ودفتر يومية جرد."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ ms.lasthandoff: 07/27/2017
 7. في القائمة، حدد مجموعة جرد.
     * هنا يمكنك تحديد مجموعة جرد محددة يجب أن تنطبق على الصنف في المستودع المعين الذي حددته. عندما يتم تنفيذ الجرد في هذا المستودع، ستتجاوز سياسة الجرد هذه سياسة الجرد العامة لهذا الصنف.  
 8. انقر فوق "حفظ".
-
 

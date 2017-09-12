@@ -1,7 +1,7 @@
 ---
 title: "تتبع الأصناف والمواد الخام في المخزون والإنتاج والمبيعات"
 description: "يوضح هذا الموضوع كيفية استخدام تتبع للصنف لتعريف مكان استخدام العناصر أو المواد الخام أو تستخدم أو ستستخدم في عمليات المبيعات والإنتاج."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-يوضح هذا الموضوع كيفية استخدام تتبع للصنف لتعريف مكان استخدام العناصر أو المواد الخام أو تستخدم أو ستستخدم في عمليات المبيعات والإنتاج. 
+يوضح هذا الموضوع كيفية استخدام تتبع للصنف لتعريف مكان استخدام العناصر أو المواد الخام أو تستخدم أو ستستخدم في عمليات المبيعات والإنتاج.
 
 تتوفر وظيفة تتبع الأصناف في صفحة **تتبع الصنف‬**. تصف الأقسام التالية كيفية استخدام تتبع الصنف، وما هي الخيارات والقيود.
 
@@ -142,7 +142,4 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>هل يمكنني تتبع المنتجات المساعدة والمنتجات الثانوية؟
 يمكنك تتبع المنتجات المساعدة، ولكن لا يمكن تتبع منتج ثانوي إذ لا يتم عادةً تعيين أبعاد التعقب للمنتجات الثانوية. عند تتبع أحد الأصناف، فإن تفاصيل التتبع تتضمن أيضًا أي منتجات مساعدة ذات صلة. تتضمن عقدة التي تحتوي على منتج مساعد على كلمة "المنتج المساعد" في التفاصيل. يمكنك أيضا عرض تفاصيل حول منتج المساعد بتحديد العقدة في تفاصيل التتبع، ثم النقر فوق علامة التبويب السريعة **الإنتاج**.
-
-
-
 

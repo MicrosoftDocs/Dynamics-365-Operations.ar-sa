@@ -1,4 +1,4 @@
---- 
+---
 title: "تعقب صنف أو مادة خام"
 description: "يوضح هذا الإجراء كيفية استخدام تتبع صنف لتحديد الموقع الذي تم أو يتم به استخدام الأصناف أو المواد الخام."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ ms.lasthandoff: 07/27/2017
 8. في جزء الإجراءات، انقر فوق "تتبع".
 9. انقر فوق "أوامر المبيعات المشحونة".
 10. قم بإغلاق الصفحة.
-
 
