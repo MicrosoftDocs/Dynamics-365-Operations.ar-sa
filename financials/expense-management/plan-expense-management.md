@@ -19,125 +19,125 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 83cfd2ef15ae3a02eba21bb31f3311e8f5e15b90
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>تكوين إدارة المصروفات
+# <a name="configure-expense-management"></a><span data-ttu-id="93cbd-104">تكوين إدارة المصروفات</span><span class="sxs-lookup"><span data-stu-id="93cbd-104">Configure expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-تصف هذه المقالة الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل تكوين إدارة المصروفات في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. في ناحية إدارة المصروفات، يمكنك تخزين معلومات حول طرق الدفع وطلبات السفر وتقارير المصروفات والسياسات، من بين أمور أخرى. 
+<span data-ttu-id="93cbd-105">تصف هذه المقالة الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل تكوين إدارة المصروفات في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="93cbd-105">This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="93cbd-106">في ناحية إدارة المصروفات، يمكنك تخزين معلومات حول طرق الدفع وطلبات السفر وتقارير المصروفات والسياسات، من بين أمور أخرى.</span><span class="sxs-lookup"><span data-stu-id="93cbd-106">In the Expense management area, you can store information about payment methods, travel requisitions, expense reports, and policies, among other things.</span></span> 
 
-لأن العديد من القرارات التي تتخذها عندما تخطط للتكوين الخاص بك لإدارة المصروفات مبنية على الهيكل المالي والتدرج الهرمي للمؤسسة الخاصة بك، فإنه يجب عليك الرجوع إلى وثائق التخطيط لتلك المناطق.
+<span data-ttu-id="93cbd-107">لأن العديد من القرارات التي تتخذها عندما تخطط للتكوين الخاص بك لإدارة المصروفات مبنية على الهيكل المالي والتدرج الهرمي للمؤسسة الخاصة بك، فإنه يجب عليك الرجوع إلى وثائق التخطيط لتلك المناطق.</span><span class="sxs-lookup"><span data-stu-id="93cbd-107">Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.</span></span>
 
-## <a name="intercompany-expenses"></a>المصروفات المشتركة بين الشركات الشقيقة
-وعند تمكين المصروفات بين الشركات الشقيقة، تسمح للكيانات القانونية والموظفين بتحمل المصروفات نيابةً عنك، وتحصيل المدفوعات من كيان قانوني آخر داخل المؤسسة. على سبيل المثال، يقوم موظف في الكيان القانوني بإكمال مشروع للكيان القانوني ب. وإذا تم تمكين المصروفات بين الشركات الشقيقة، فإنه يمكن للموظف تقديم ملف جدول زمني إلى الكيان القانوني ب والحصول على الدفع منه. وإذا لم يكن لدى المؤسسة الخاصة بك العديد من الكيانات القانونية، فلن تحتاج إلى تمكين المصروفات بين الشركات الشقيقة. **القرار:** هل تريد تمكين المصروفات بين الشركات الشقيقة؟
+## <a name="intercompany-expenses"></a><span data-ttu-id="93cbd-108">المصروفات المشتركة بين الشركات الشقيقة</span><span class="sxs-lookup"><span data-stu-id="93cbd-108">Intercompany expenses</span></span>
+<span data-ttu-id="93cbd-109">وعند تمكين المصروفات بين الشركات الشقيقة، تسمح للكيانات القانونية والموظفين بتحمل المصروفات نيابةً عنك، وتحصيل المدفوعات من كيان قانوني آخر داخل المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="93cbd-109">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of, and collect payment from, another legal entity within your organization.</span></span> <span data-ttu-id="93cbd-110">على سبيل المثال، يقوم موظف في الكيان القانوني بإكمال مشروع للكيان القانوني ب. وإذا تم تمكين المصروفات بين الشركات الشقيقة، فإنه يمكن للموظف تقديم ملف جدول زمني إلى الكيان القانوني ب والحصول على الدفع منه. وإذا لم يكن لدى المؤسسة الخاصة بك العديد من الكيانات القانونية، فلن تحتاج إلى تمكين المصروفات بين الشركات الشقيقة.</span><span class="sxs-lookup"><span data-stu-id="93cbd-110">For example, an employee in legal entity A completes a project for legal entity B. If intercompany expenses are enabled, the employee can then file a timesheet to, and be paid by, legal entity B. If your organization doesn’t have multiple legal entities, you won’t need to enable intercompany expenses.</span></span> <span data-ttu-id="93cbd-111">**القرار:** هل تريد تمكين المصروفات بين الشركات الشقيقة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
-## <a name="financial-management"></a>الإدارة المالية
-تتكامل إدارة المصروفات مع الإدارة المالية للمؤسسة الخاصة بك بشدة. وستستند دفعة التكوين الخاص بك لإدارة المصروفات إلى القرارات التي قمت بإجرائها حول الموارد المالية للمؤسسة. وتصف الأقسام التالية مختلف المجالات التي تتطلب التخطيط واتخاذ القرارات استناداً إلى القرارات المالية للمؤسسة والتوجيه المقدم من فريق القيادة.
+## <a name="financial-management"></a><span data-ttu-id="93cbd-112">الإدارة المالية</span><span class="sxs-lookup"><span data-stu-id="93cbd-112">Financial management</span></span>
+<span data-ttu-id="93cbd-113">تتكامل إدارة المصروفات مع الإدارة المالية للمؤسسة الخاصة بك بشدة.</span><span class="sxs-lookup"><span data-stu-id="93cbd-113">Expense management is tightly integrated with the financial management of your organization.</span></span> <span data-ttu-id="93cbd-114">وستستند دفعة التكوين الخاص بك لإدارة المصروفات إلى القرارات التي قمت بإجرائها حول الموارد المالية للمؤسسة.</span><span class="sxs-lookup"><span data-stu-id="93cbd-114">A lot of your configuration for Expense management will be based on the decisions that you’ve made about your organization’s finances.</span></span> <span data-ttu-id="93cbd-115">وتصف الأقسام التالية مختلف المجالات التي تتطلب التخطيط واتخاذ القرارات استناداً إلى القرارات المالية للمؤسسة والتوجيه المقدم من فريق القيادة.</span><span class="sxs-lookup"><span data-stu-id="93cbd-115">The following sections describe the different areas that require planning and decisions based on your organization’s financial decisions and guidance from your leadership team.</span></span>
 
-### <a name="per-diems"></a>المصروفات اليومية
+### <a name="per-diems"></a><span data-ttu-id="93cbd-116">المصروفات اليومية</span><span class="sxs-lookup"><span data-stu-id="93cbd-116">Per diems</span></span>
 
-يجب عليك تحديد الموظف في اليومية الذي توفره المؤسسة الخاصة بك. ولأنه يتم عادةً استخدام اليومية لتغطية المصاريف، مثل الوجبات والإقامة والمصروفات العرضية الأخرى، فإنه يمكنك إنشاء قواعد لبدلات المصروفات اليومية التي تقدمها مؤسستك. ويمكن تعيين معدلات المصروفات اليومية استنادًا إلى الفترات الزمنية من العام وموقع السفر أو كليهما. وعند إنشاء قاعدة اليومية، يمكنك تحديد أن النسبة المئوية لمعدل المصروف اليومي سيتم اقتطاعها إذا ما تلقى العامل وجبات أو خدمات مجانية. ويمكنك أيضًا تحديد مستويات المعدل اليومي لتعيين الحد الأدنى والحد الأقصى لعدد الساعات التي يمكن خلالها تطبيق معدل المصروف اليومي على سفر العامل. **القرارات:**
+<span data-ttu-id="93cbd-117">يجب عليك تحديد الموظف في اليومية الذي توفره المؤسسة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="93cbd-117">You must define the employee per diems that your organization provides.</span></span> <span data-ttu-id="93cbd-118">ولأنه يتم عادةً استخدام اليومية لتغطية المصاريف، مثل الوجبات والإقامة والمصروفات العرضية الأخرى، فإنه يمكنك إنشاء قواعد لبدلات المصروفات اليومية التي تقدمها مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="93cbd-118">Because per diems are typically used to cover expenses such as meals, lodging, and other incidental expenses, you can create rules for the per diem allowances that your organization offers.</span></span> <span data-ttu-id="93cbd-119">ويمكن تعيين معدلات المصروفات اليومية استنادًا إلى الفترات الزمنية من العام وموقع السفر أو كليهما.</span><span class="sxs-lookup"><span data-stu-id="93cbd-119">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="93cbd-120">وعند إنشاء قاعدة اليومية، يمكنك تحديد أن النسبة المئوية لمعدل المصروف اليومي سيتم اقتطاعها إذا ما تلقى العامل وجبات أو خدمات مجانية.</span><span class="sxs-lookup"><span data-stu-id="93cbd-120">When you define a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="93cbd-121">ويمكنك أيضًا تحديد مستويات المعدل اليومي لتعيين الحد الأدنى والحد الأقصى لعدد الساعات التي يمكن خلالها تطبيق معدل المصروف اليومي على سفر العامل.</span><span class="sxs-lookup"><span data-stu-id="93cbd-121">You can also define per diem rate tiers to set the minimum and maximum number of hours that the per diem rate can be applied to a worker’s travel.</span></span> <span data-ttu-id="93cbd-122">**القرارات:**</span><span class="sxs-lookup"><span data-stu-id="93cbd-122">**Decisions:**</span></span>
 
--   قواعد المصروف اليومي الافتراضية للأيام الأولى والأخيرة:
-    -   ما هو الحد الأدنى لعدد الساعات الذي يمكن لموظف المطالبة به ليوم ولا يزال يتلقى المصروف اليومي؟
-    -   هل هناك تخفيض في المبلغ المقدم لوجبات الطعام لليوم الأول والأخير؟ إذا كان الأمر كذلك، ما هي النسبة المئوية للتخفيض؟
-    -   هل هناك تخفيض في المبلغ المقدم لفندق لليوم الأول والأخير؟ إذا كان الأمر كذلك، ما هي النسبة المئوية للتخفيض؟
-    -   هل هناك تخفيض في المبلغ المقدم للمصروفات الأخرى المتحملة في اليوم الأول والأخير؟ إذا كان الأمر كذلك، ما هي النسبة المئوية للتخفيض؟
--   قواعد المصروف اليومي الافتراضية:
-    -   هل هناك انخفاض في النسبة المئوية لبدل المصروف اليومي لكل وجبة، على سبيل المثال، الوجبة مجانية؟ إذا كان الأمر كذلك، ما هي النسبة المئوية للتخفيض لكل وجبة؟
-    -   هل يتم حساب تخفيض الوجبة كل يوم، ام للرحلة الواحدة، أم بعدد الوجبات يوميًا؟
-    -   هل يجب تقريب المبالغ اليومية بطريقة عادية أم تقريبها لأعلى؟
-    -   هل يتم حساب المصاريف اليومية على أساس فترة الـ 24 ساعة أم يوم التقويم؟
--   قواعد المصروف اليومي استناداً إلى الموقع:
-    -   هل تختلف معدلات المصروف اليومي بناءاً على الموقع وما المواقع المضمنة؟
-    -   إذا كان معدل المصروف اليومي يختلف استناداً إلى الموقع لكل موقع، فما مقدار النسبة المئوية المقدَّمة لما يلي:
-        -   الوجبات
-        -   الفندق
-        -   المصروفات الأخرى
+-   <span data-ttu-id="93cbd-123">قواعد المصروف اليومي الافتراضية للأيام الأولى والأخيرة:</span><span class="sxs-lookup"><span data-stu-id="93cbd-123">Default per diem rules for the first and last days:</span></span>
+    -   <span data-ttu-id="93cbd-124">ما هو الحد الأدنى لعدد الساعات الذي يمكن لموظف المطالبة به ليوم ولا يزال يتلقى المصروف اليومي؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-124">What is the minimum number of hours that an employee can claim for a day and still receive a per diem?</span></span>
+    -   <span data-ttu-id="93cbd-125">هل هناك تخفيض في المبلغ المقدم لوجبات الطعام لليوم الأول والأخير؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-125">Is there a reduction in the amount that is offered for meals for the first and last day?</span></span> <span data-ttu-id="93cbd-126">إذا كان الأمر كذلك، ما هي النسبة المئوية للتخفيض؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-126">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="93cbd-127">هل هناك تخفيض في المبلغ المقدم لفندق لليوم الأول والأخير؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-127">Is there a reduction in the amount that is offered for a hotel for the first and last day?</span></span> <span data-ttu-id="93cbd-128">إذا كان الأمر كذلك، ما هي النسبة المئوية للتخفيض؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-128">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="93cbd-129">هل هناك تخفيض في المبلغ المقدم للمصروفات الأخرى المتحملة في اليوم الأول والأخير؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-129">Is there a reduction in the amount that is offered for other expenses incurred on the first and last day?</span></span> <span data-ttu-id="93cbd-130">إذا كان الأمر كذلك، ما هي النسبة المئوية للتخفيض؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-130">If so, what is the percentage of the reduction?</span></span>
+-   <span data-ttu-id="93cbd-131">قواعد المصروف اليومي الافتراضية:</span><span class="sxs-lookup"><span data-stu-id="93cbd-131">Default per diem rules:</span></span>
+    -   <span data-ttu-id="93cbd-132">هل هناك انخفاض في النسبة المئوية لبدل المصروف اليومي لكل وجبة، على سبيل المثال، الوجبة مجانية؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-132">Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary?</span></span> <span data-ttu-id="93cbd-133">إذا كان الأمر كذلك، ما هي النسبة المئوية للتخفيض لكل وجبة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-133">If so, what is the reduction percentage for each meal?</span></span>
+    -   <span data-ttu-id="93cbd-134">هل يتم حساب تخفيض الوجبة كل يوم، ام للرحلة الواحدة، أم بعدد الوجبات يوميًا؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-134">Is the meal reduction calculated per day, per trip, or by the number of meals per day?</span></span>
+    -   <span data-ttu-id="93cbd-135">هل يجب تقريب المبالغ اليومية بطريقة عادية أم تقريبها لأعلى؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-135">Should per diem amounts be rounded normally or rounded up?</span></span>
+    -   <span data-ttu-id="93cbd-136">هل يتم حساب المصاريف اليومية على أساس فترة الـ 24 ساعة أم يوم التقويم؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-136">Are per diems calculated on a 24-hour period or on a calendar day?</span></span>
+-   <span data-ttu-id="93cbd-137">قواعد المصروف اليومي استناداً إلى الموقع:</span><span class="sxs-lookup"><span data-stu-id="93cbd-137">Per diem rules based on location:</span></span>
+    -   <span data-ttu-id="93cbd-138">هل تختلف معدلات المصروف اليومي بناءاً على الموقع وما المواقع المضمنة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-138">Do per diem rates vary based on location and what locations are included?</span></span>
+    -   <span data-ttu-id="93cbd-139">إذا كان معدل المصروف اليومي يختلف استناداً إلى الموقع لكل موقع، فما مقدار النسبة المئوية المقدَّمة لما يلي:</span><span class="sxs-lookup"><span data-stu-id="93cbd-139">If per diem rate do vary based on location, for each location, what percentage amount is provided for:</span></span>
+        -   <span data-ttu-id="93cbd-140">الوجبات</span><span class="sxs-lookup"><span data-stu-id="93cbd-140">meals</span></span>
+        -   <span data-ttu-id="93cbd-141">الفندق</span><span class="sxs-lookup"><span data-stu-id="93cbd-141">hotel</span></span>
+        -   <span data-ttu-id="93cbd-142">المصروفات الأخرى</span><span class="sxs-lookup"><span data-stu-id="93cbd-142">other expenses</span></span>
 
-### <a name="expense-management-journals-and-accounts"></a>حسابات ودفاتر يومية إدارة المصروفات
+### <a name="expense-management-journals-and-accounts"></a><span data-ttu-id="93cbd-143">حسابات ودفاتر يومية إدارة المصروفات</span><span class="sxs-lookup"><span data-stu-id="93cbd-143">Expense management journals and accounts</span></span>
 
-تتطلب إدارة المصروفات استخدام حسابات ودفاتر يومية متعددة. ويجب أن تقرر، على سبيل المثال، استخدام نفس الحساب للسلف النقدية ومنازعات بطاقة الائتمان أو لا. **القرارات:**
+<span data-ttu-id="93cbd-144">تتطلب إدارة المصروفات استخدام حسابات ودفاتر يومية متعددة.</span><span class="sxs-lookup"><span data-stu-id="93cbd-144">Expense management requires that you use multiple journals and accounts.</span></span> <span data-ttu-id="93cbd-145">ويجب أن تقرر، على سبيل المثال، استخدام نفس الحساب للسلف النقدية ومنازعات بطاقة الائتمان أو لا.</span><span class="sxs-lookup"><span data-stu-id="93cbd-145">You must decide, for example, whether the same account is used for cash advances and credit card disputes.</span></span> <span data-ttu-id="93cbd-146">**القرارات:**</span><span class="sxs-lookup"><span data-stu-id="93cbd-146">**Decisions:**</span></span>
 
--   ما دفتر يومية الأستاذ الذي يتم ترحيل تقارير المصروفات المعتمدة إليه؟
--   ما الحساب الذي يتم استخدامه للسلف النقدية؟
--   هل يجب ترحيل السلف النقدية مباشرةً؟
+-   <span data-ttu-id="93cbd-147">ما دفتر يومية الأستاذ الذي يتم ترحيل تقارير المصروفات المعتمدة إليه؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-147">Which ledger journal are approved expense reports posted to?</span></span>
+-   <span data-ttu-id="93cbd-148">ما الحساب الذي يتم استخدامه للسلف النقدية؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-148">Which account is used for cash advances?</span></span>
+-   <span data-ttu-id="93cbd-149">هل يجب ترحيل السلف النقدية مباشرةً؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-149">Should cash advances be posted immediately?</span></span>
 
-### <a name="payment-methods"></a>طرق الدفع
+### <a name="payment-methods"></a><span data-ttu-id="93cbd-150">طرق الدفع</span><span class="sxs-lookup"><span data-stu-id="93cbd-150">Payment methods</span></span>
 
-عند السماح للموظفين بتحمل المصروفات باسم شركتك، يجب عليك تحديد طرق الدفع التي يُسمح للموظفين باستخدامها. على سبيل المثال، قد تسمح للموظفين باستخدام النقدية أو بطاقة ائتمان شركة. كما قد تسمح للموظفين باستخدام بطاقات الائتمان الشخصية، ومن ثم تعويض الموظفين. يجب اتخاذ القرارات التالية لكل طريقة دفع تسمح بها. **القرارات:**
+<span data-ttu-id="93cbd-151">عند السماح للموظفين بتحمل المصروفات باسم شركتك، يجب عليك تحديد طرق الدفع التي يُسمح للموظفين باستخدامها.</span><span class="sxs-lookup"><span data-stu-id="93cbd-151">When you allow employees to incur expenses on behalf of your business, you must define the payment methods that employees are allowed to use.</span></span> <span data-ttu-id="93cbd-152">على سبيل المثال، قد تسمح للموظفين باستخدام النقدية أو بطاقة ائتمان شركة.</span><span class="sxs-lookup"><span data-stu-id="93cbd-152">For example, you might allow employees to use cash or a corporate credit card.</span></span> <span data-ttu-id="93cbd-153">كما قد تسمح للموظفين باستخدام بطاقات الائتمان الشخصية، ومن ثم تعويض الموظفين.</span><span class="sxs-lookup"><span data-stu-id="93cbd-153">You might also allow employees to use personal credit cards, and then reimburse the employees.</span></span> <span data-ttu-id="93cbd-154">يجب اتخاذ القرارات التالية لكل طريقة دفع تسمح بها.</span><span class="sxs-lookup"><span data-stu-id="93cbd-154">You must make the following decisions for each payment method that you allow.</span></span> <span data-ttu-id="93cbd-155">**القرارات:**</span><span class="sxs-lookup"><span data-stu-id="93cbd-155">**Decisions:**</span></span>
 
--   ما طرق الدفع المسموح بها؟
--   مَن الذي يملك مصروفات طريقة الدفع؟
--   هل هناك نوع حساب مقابل؟ إذا كان الأمر كذلك، فما هو؟
--   إذا كان هناك حساب مقابل، فما الحساب؟
--   إذا كانت طريقة الدفع بطاقة ائتمان، فهل يجب استخدام طريقة الدفع فقط في الحركات المستوردة؟
+-   <span data-ttu-id="93cbd-156">ما طرق الدفع المسموح بها؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-156">What payment methods are allowed?</span></span>
+-   <span data-ttu-id="93cbd-157">مَن الذي يملك مصروفات طريقة الدفع؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-157">Who owns the payment method expenses?</span></span>
+-   <span data-ttu-id="93cbd-158">هل هناك نوع حساب مقابل؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-158">Is there an offset account type?</span></span> <span data-ttu-id="93cbd-159">إذا كان الأمر كذلك، فما هو؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-159">If so, what is it?</span></span>
+-   <span data-ttu-id="93cbd-160">إذا كان هناك حساب مقابل، فما الحساب؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-160">If there is an offset account, what is the account?</span></span>
+-   <span data-ttu-id="93cbd-161">إذا كانت طريقة الدفع بطاقة ائتمان، فهل يجب استخدام طريقة الدفع فقط في الحركات المستوردة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-161">If the payment method is a credit card, should the payment method be used only with imported transactions?</span></span>
 
-### <a name="expense-categories-and-shared-categories"></a>الفئات المشتركة وفئات المصروفات
+### <a name="expense-categories-and-shared-categories"></a><span data-ttu-id="93cbd-162">الفئات المشتركة وفئات المصروفات</span><span class="sxs-lookup"><span data-stu-id="93cbd-162">Expense categories and shared categories</span></span>
 
-عند قيام الموظفين بإنشاء تقرير مصروفات، يجب أن يكون كل مصروف يقومون بتسجيله مقترنًا بفئة مصروفات. ويتم اشتقاق فئات المصروفات من الفئات المشتركة التي يمكن مشاركتها عبر الكيانات القانونية داخل المؤسسة. ويمكن أيضًا مشاركة هذه الفئات في محاسبة وإدارة المشاريع، استناداً إلى كيفية تحديد المؤسسة الخاصة بك. وبناءً على تعريف المؤسسة والتوجيه من فريق التنفيذ، حدد ما إذا كانت الفئات المستخدمة في إدارة المصروفات يتعين استخدامها في المصروفات فقط أو ما إذا كان يجب مشاركتها بين المشروع والمصروفات. ولاحظ أنه يمكن مشاركة هذه الفئات بين المشروع والمصروفات أو المشروع والإنتاج، ولكن ليس بين المصروفات والإنتاج. يجب اتخاذ القرارات التالية لكل فئة مصروفات. **القرارات:**
+<span data-ttu-id="93cbd-163">عند قيام الموظفين بإنشاء تقرير مصروفات، يجب أن يكون كل مصروف يقومون بتسجيله مقترنًا بفئة مصروفات.</span><span class="sxs-lookup"><span data-stu-id="93cbd-163">When employees create an expense report, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="93cbd-164">ويتم اشتقاق فئات المصروفات من الفئات المشتركة التي يمكن مشاركتها عبر الكيانات القانونية داخل المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="93cbd-164">Expense categories are derived from Shared categories that can be shared across the legal entities within your organization.</span></span> <span data-ttu-id="93cbd-165">ويمكن أيضًا مشاركة هذه الفئات في محاسبة وإدارة المشاريع، استناداً إلى كيفية تحديد المؤسسة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="93cbd-165">These categories can also be shared in Project management and accounting, depending on how your organization is defined.</span></span> <span data-ttu-id="93cbd-166">وبناءً على تعريف المؤسسة والتوجيه من فريق التنفيذ، حدد ما إذا كانت الفئات المستخدمة في إدارة المصروفات يتعين استخدامها في المصروفات فقط أو ما إذا كان يجب مشاركتها بين المشروع والمصروفات.</span><span class="sxs-lookup"><span data-stu-id="93cbd-166">Based on the definition of your organization and guidance from the implementation team, determine whether the categories used in expense management are to be used in only expense or if they should be shared between Project and Expense.</span></span> <span data-ttu-id="93cbd-167">ولاحظ أنه يمكن مشاركة هذه الفئات بين المشروع والمصروفات أو المشروع والإنتاج، ولكن ليس بين المصروفات والإنتاج.</span><span class="sxs-lookup"><span data-stu-id="93cbd-167">Note that these categories can be shared between Project and Expense or Project and Production, but not between Expense and Production.</span></span> <span data-ttu-id="93cbd-168">يجب اتخاذ القرارات التالية لكل فئة مصروفات.</span><span class="sxs-lookup"><span data-stu-id="93cbd-168">You must make the following decisions for each expense category.</span></span> <span data-ttu-id="93cbd-169">**القرارات:**</span><span class="sxs-lookup"><span data-stu-id="93cbd-169">**Decisions:**</span></span>
 
--   ما المقصود بفئة المصروفات؟ على سبيل المثال، الرحلات أو الفندق أو المسافة المقطوعة بالميل.
--   هل يمكن أيضًا استخدام فئات المصروفات هذه في محاسبة وإدارة المشروع؟
--   ما نوع المصروفات؟
--   ما طريقة الدفع الافتراضية لفئة المصروفات؟
--   هل يلزم تفصيل المصروفات الموجودة في هذه الفئة؟
--   ما الحساب الافتراضي الرئيسي لفئة المصروفات؟
--   ما مجموعة ضريبة مبيعات الصنف الافتراضية لفئة المصروفات؟
--   هل يُسمح بطرق الدفع الإضافية لفئة المصروفات؟ إذا كان الأمر كذلك، فما هي؟
--   هل توجد فئات فرعية ضمن فئة المصروفات هذه؟ إذا كان الأمر كذلك:
-    -   هل يتم استبعاد الفئات الفرعية من استرداد الضريبة؟
-    -   ما مجموعة ضريبة مبيعات الصنف في الفئات الفرعية؟
+-   <span data-ttu-id="93cbd-170">ما المقصود بفئة المصروفات؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-170">What is the expense category?</span></span> <span data-ttu-id="93cbd-171">على سبيل المثال، الرحلات أو الفندق أو المسافة المقطوعة بالميل.</span><span class="sxs-lookup"><span data-stu-id="93cbd-171">For example, flights, hotel, or mileage.</span></span>
+-   <span data-ttu-id="93cbd-172">هل يمكن أيضًا استخدام فئات المصروفات هذه في محاسبة وإدارة المشروع؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-172">Can this expense category also be used in Project management and accounting?</span></span>
+-   <span data-ttu-id="93cbd-173">ما نوع المصروفات؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-173">What is the expense type?</span></span>
+-   <span data-ttu-id="93cbd-174">ما طريقة الدفع الافتراضية لفئة المصروفات؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-174">What is the default payment method for the expense category?</span></span>
+-   <span data-ttu-id="93cbd-175">هل يلزم تفصيل المصروفات الموجودة في هذه الفئة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-175">Are expenses in this category required to be itemized?</span></span>
+-   <span data-ttu-id="93cbd-176">ما الحساب الافتراضي الرئيسي لفئة المصروفات؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-176">What is the main default account for the expense category?</span></span>
+-   <span data-ttu-id="93cbd-177">ما مجموعة ضريبة مبيعات الصنف الافتراضية لفئة المصروفات؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-177">What is the default item sales tax group for the expense category?</span></span>
+-   <span data-ttu-id="93cbd-178">هل يُسمح بطرق الدفع الإضافية لفئة المصروفات؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-178">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="93cbd-179">إذا كان الأمر كذلك، فما هي؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-179">If so, what are they?</span></span>
+-   <span data-ttu-id="93cbd-180">هل توجد فئات فرعية ضمن فئة المصروفات هذه؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-180">Are there subcategories within this expense category?</span></span> <span data-ttu-id="93cbd-181">إذا كان الأمر كذلك:</span><span class="sxs-lookup"><span data-stu-id="93cbd-181">If so:</span></span>
+    -   <span data-ttu-id="93cbd-182">هل يتم استبعاد الفئات الفرعية من استرداد الضريبة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-182">Are any of the subcategories excluded from tax recovery?</span></span>
+    -   <span data-ttu-id="93cbd-183">ما مجموعة ضريبة مبيعات الصنف في الفئات الفرعية؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-183">What is the item sales tax group of the subcategories?</span></span>
 
-    إذا تم أيضًا استخدام فئة المصروفات هذه في محاسبة وإدارة المشاريع، فأجب عن الأسئلة المتبقية. وإلا، تكون قد انتهيت من هذا القسم.
--   ما حسابات التكاليف التي سيتم استخدامها لما يلي؟
-    -   التكلفة
-    -   توزيع الرواتب
-    -   الأعمال تحت التنفيذ – قيمة التكلفة
-    -   التكلفة - الصنف
-    -   الأعمال تحت التنفيذ - قيمة التكلفة - الصنف
-    -   الخسارة المستحقة
-    -   الأعمال تحت التنفيذ - الخسارة المستحقة
--   ما حسابات الإيرادات التي سيتم استخدامها لما يلي؟
-    -   إيراد تمت فوترته
-    -   الإيراد المستحق – قيمة المبيعات
-    -   الأعمال تحت التنفيذ – قيمة المبيعات
-    -   الإيراد المستحق - الإنتاج
-    -   الأعمال تحت التنفيذ - الإنتاج
-    -   الإيراد المستحق - الأرباح
-    -   الأعمال تحت التنفيذ - الأرباح
-    -   الإيراد المستحق - الاشتراك
-    -   الأعمال تحت التنفيذ - الاشتراكات
+    <span data-ttu-id="93cbd-184">إذا تم أيضًا استخدام فئة المصروفات هذه في محاسبة وإدارة المشاريع، فأجب عن الأسئلة المتبقية.</span><span class="sxs-lookup"><span data-stu-id="93cbd-184">If this expense category is also used in Project management and accounting, answer the remaining questions.</span></span> <span data-ttu-id="93cbd-185">وإلا، تكون قد انتهيت من هذا القسم.</span><span class="sxs-lookup"><span data-stu-id="93cbd-185">Otherwise, you are finished with this section.</span></span>
+-   <span data-ttu-id="93cbd-186">ما حسابات التكاليف التي سيتم استخدامها لما يلي؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-186">Which cost accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="93cbd-187">التكلفة</span><span class="sxs-lookup"><span data-stu-id="93cbd-187">Cost</span></span>
+    -   <span data-ttu-id="93cbd-188">توزيع الرواتب</span><span class="sxs-lookup"><span data-stu-id="93cbd-188">Payroll allocation</span></span>
+    -   <span data-ttu-id="93cbd-189">الأعمال تحت التنفيذ – قيمة التكلفة</span><span class="sxs-lookup"><span data-stu-id="93cbd-189">WIP-cost value</span></span>
+    -   <span data-ttu-id="93cbd-190">التكلفة - الصنف</span><span class="sxs-lookup"><span data-stu-id="93cbd-190">Cost-item</span></span>
+    -   <span data-ttu-id="93cbd-191">الأعمال تحت التنفيذ - قيمة التكلفة - الصنف</span><span class="sxs-lookup"><span data-stu-id="93cbd-191">WIP-cost value-item</span></span>
+    -   <span data-ttu-id="93cbd-192">الخسارة المستحقة</span><span class="sxs-lookup"><span data-stu-id="93cbd-192">Accrued loss</span></span>
+    -   <span data-ttu-id="93cbd-193">الأعمال تحت التنفيذ - الخسارة المستحقة</span><span class="sxs-lookup"><span data-stu-id="93cbd-193">WIP-accrued loss</span></span>
+-   <span data-ttu-id="93cbd-194">ما حسابات الإيرادات التي سيتم استخدامها لما يلي؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-194">Which revenue accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="93cbd-195">إيراد تمت فوترته</span><span class="sxs-lookup"><span data-stu-id="93cbd-195">Invoiced revenue</span></span>
+    -   <span data-ttu-id="93cbd-196">الإيراد المستحق – قيمة المبيعات</span><span class="sxs-lookup"><span data-stu-id="93cbd-196">Accrued revenue-sales value</span></span>
+    -   <span data-ttu-id="93cbd-197">الأعمال تحت التنفيذ – قيمة المبيعات</span><span class="sxs-lookup"><span data-stu-id="93cbd-197">WIP-sales value</span></span>
+    -   <span data-ttu-id="93cbd-198">الإيراد المستحق - الإنتاج</span><span class="sxs-lookup"><span data-stu-id="93cbd-198">Accrued revenue-production</span></span>
+    -   <span data-ttu-id="93cbd-199">الأعمال تحت التنفيذ - الإنتاج</span><span class="sxs-lookup"><span data-stu-id="93cbd-199">WIP-production</span></span>
+    -   <span data-ttu-id="93cbd-200">الإيراد المستحق - الأرباح</span><span class="sxs-lookup"><span data-stu-id="93cbd-200">Accrued revenue-profit</span></span>
+    -   <span data-ttu-id="93cbd-201">الأعمال تحت التنفيذ - الأرباح</span><span class="sxs-lookup"><span data-stu-id="93cbd-201">WIP-profit</span></span>
+    -   <span data-ttu-id="93cbd-202">الإيراد المستحق - الاشتراك</span><span class="sxs-lookup"><span data-stu-id="93cbd-202">Accrued revenue-subscription</span></span>
+    -   <span data-ttu-id="93cbd-203">الأعمال تحت التنفيذ - الاشتراكات</span><span class="sxs-lookup"><span data-stu-id="93cbd-203">WIP-subscription</span></span>
 
  
 
-### <a name="taxes"></a>الضرائب
+### <a name="taxes"></a><span data-ttu-id="93cbd-204">الضرائب</span><span class="sxs-lookup"><span data-stu-id="93cbd-204">Taxes</span></span>
 
-بالنسبة للضرائب المتعلقة بالمصروفات، يجب عليك تحديد ما يتم تضمينه أو تمكينه في تقارير المصروفات. **القرارات:**
+<span data-ttu-id="93cbd-205">بالنسبة للضرائب المتعلقة بالمصروفات، يجب عليك تحديد ما يتم تضمينه أو تمكينه في تقارير المصروفات.</span><span class="sxs-lookup"><span data-stu-id="93cbd-205">For expense-related taxes, you must determine what is included or enabled on expense reports.</span></span> <span data-ttu-id="93cbd-206">**القرارات:**</span><span class="sxs-lookup"><span data-stu-id="93cbd-206">**Decisions:**</span></span>
 
--   هل يتم تضمين ضريبة المبيعات في مبالغ المصروفات؟
--   هل يجب تمكين استرداد الضريبة في المصروفات؟
+-   <span data-ttu-id="93cbd-207">هل يتم تضمين ضريبة المبيعات في مبالغ المصروفات؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-207">Is sales tax included in the expense amounts?</span></span>
+-   <span data-ttu-id="93cbd-208">هل يجب تمكين استرداد الضريبة في المصروفات؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-208">Should tax recovery be enabled on expenses?</span></span>
 
-لاحظ أنه إذا قررت أثناء التخطيط لدفتر الأستاذ العام تطبيق ضريبة المبيعات في الولايات المتحدة واستخدام القواعد الضريبية، التي تتم عن طريق تبديل حقل **تطبيق قواعد الضرائب لضريبة المبيعات** إلى "نعم"، فلا يمكنك تمكين استرداد الضريبة على المصروفات.
+<span data-ttu-id="93cbd-209">لاحظ أنه إذا قررت أثناء التخطيط لدفتر الأستاذ العام تطبيق ضريبة المبيعات في الولايات المتحدة واستخدام القواعد الضريبية، التي تتم عن طريق تبديل حقل **تطبيق قواعد الضرائب لضريبة المبيعات** إلى "نعم"، فلا يمكنك تمكين استرداد الضريبة على المصروفات.</span><span class="sxs-lookup"><span data-stu-id="93cbd-209">Note that if, during your planning of the general ledger, you have decided to apply U.S. sales tax and use tax rules, which is done by toggling the **Apply sales tax taxations rules** field to Yes, you can’t enable tax recovery on expenses.</span></span>
 
-## <a name="policies"></a>السياسات
-يمكنك إنشاء سياسات تقارير المصروفات بحيث تستطيع المؤسسة الخاصة بك توفير الوقت والمال عندما يتحمل الموظفون المصروفات بالنيابة عنها. وتضمن السياسات بقاء الموظفين في حدود الميزانية وتوفير كافة المعلومات المطلوبة وإنفاق الأموال عند الضرورة فقط. ويجب عليك اتخاذ القرارات التالية لكل سياسة تقرير مصروفات وكل سياسة موافقة على تقرير مصروفات تقوم بإنشائها. **القرارات:**
+## <a name="policies"></a><span data-ttu-id="93cbd-210">السياسات</span><span class="sxs-lookup"><span data-stu-id="93cbd-210">Policies</span></span>
+<span data-ttu-id="93cbd-211">يمكنك إنشاء سياسات تقارير المصروفات بحيث تستطيع المؤسسة الخاصة بك توفير الوقت والمال عندما يتحمل الموظفون المصروفات بالنيابة عنها.</span><span class="sxs-lookup"><span data-stu-id="93cbd-211">You can create expense report policies so that your organization can save time and money when employees incur expenses on its behalf.</span></span> <span data-ttu-id="93cbd-212">وتضمن السياسات بقاء الموظفين في حدود الميزانية وتوفير كافة المعلومات المطلوبة وإنفاق الأموال عند الضرورة فقط.</span><span class="sxs-lookup"><span data-stu-id="93cbd-212">Policies ensure that employees stay within budget, provide all required information, and spend money only as necessary.</span></span> <span data-ttu-id="93cbd-213">ويجب عليك اتخاذ القرارات التالية لكل سياسة تقرير مصروفات وكل سياسة موافقة على تقرير مصروفات تقوم بإنشائها.</span><span class="sxs-lookup"><span data-stu-id="93cbd-213">You must make the following decisions for each expense report policy and each expense report approval policy that you create.</span></span> <span data-ttu-id="93cbd-214">**القرارات:**</span><span class="sxs-lookup"><span data-stu-id="93cbd-214">**Decisions:**</span></span>
 
--   ما اسم السياسة؟
--   ما الذي يتم وضع سياسة المصروفات له؟
--   إذا كنت قررت سابقًا تمكين المصروفات بين الشركات الشقيقة، على أي شركات في المؤسسة سيتم تطبيق هذه السياسة؟
--   متى تصبح السياسة فعالة؟
--   متى ينتهي تاريخ صلاحية السياسة؟
--   ما المقصود بقاعدة السياسة؟
--   ما نتيجة قاعدة السياسة؟
+-   <span data-ttu-id="93cbd-215">ما اسم السياسة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-215">What is the name of the policy?</span></span>
+-   <span data-ttu-id="93cbd-216">ما الذي يتم وضع سياسة المصروفات له؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-216">What is the expense policy for?</span></span>
+-   <span data-ttu-id="93cbd-217">إذا كنت قررت سابقًا تمكين المصروفات بين الشركات الشقيقة، على أي شركات في المؤسسة سيتم تطبيق هذه السياسة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-217">If you previously decided to enable intercompany expenses, to which companies in your organization will this policy apply?</span></span>
+-   <span data-ttu-id="93cbd-218">متى تصبح السياسة فعالة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-218">When does the policy become effective?</span></span>
+-   <span data-ttu-id="93cbd-219">متى ينتهي تاريخ صلاحية السياسة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-219">When does the policy expire?</span></span>
+-   <span data-ttu-id="93cbd-220">ما المقصود بقاعدة السياسة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-220">What is the policy rule?</span></span>
+-   <span data-ttu-id="93cbd-221">ما نتيجة قاعدة السياسة؟</span><span class="sxs-lookup"><span data-stu-id="93cbd-221">What is the outcome of the policy rule?</span></span>
 
 
 

@@ -16,41 +16,41 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 0bb995a95529be4d69fd9e82a2bb1fe473feb7f9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 85b6d502f8dea32602d2fd5edc223a9660b863ad
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-a-related-intercompany-voucher-from-a-journal"></a>‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬
+# <a name="view-a-related-intercompany-voucher-from-a-journal"></a><span data-ttu-id="2e6d4-103">‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬</span><span class="sxs-lookup"><span data-stu-id="2e6d4-103">View a related intercompany voucher from a journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح إطار الإيصال ذات الصلة الإيصال من الشركة المقابلة عند ترحيل حركة بين شركات شقيقة من دفتر اليومية العام.
+<span data-ttu-id="2e6d4-104">يوضح إطار الإيصال ذات الصلة الإيصال من الشركة المقابلة عند ترحيل حركة بين شركات شقيقة من دفتر اليومية العام.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
 
 
-## <a name="post-an-intercompany-journal"></a>ترحيل دفتر اليومية بين الشركات الشقيقة
-1. انتقل إلى دفاتر اليومية العامة.
-2. انقر فوق "جديد".
-3. في القائمة، قم بوضع علامة للصف المحدد.
-4. في حقل "الاسم"، أدخل اسم دفتر اليومية بين الشركات الشقيقة أو حدده.
-5. انقر فوق البنود.
-6. في القائمة، قم بوضع علامة للصف المحدد.
-7. في حقل "الحساب"، حدد القيم المطلوبة.
-8. في حقل "الوصف"، أدخل قيمة أو حددها.
-9. في وصف الحقل، اكتب قيمة.
-10. قم بإغلاق الصفحة.
-11. في الحقل "مدين"، أدخل رقمًا.
-12. في حقل "الشركة المقابلة"، اكتب الشركة المقابلة أو حددها.
-13. في حقل "الشركة المقابلة"، أدخل قيمة أو حددها.
-14. قم بإغلاق الصفحة.
-15. في الحقل "حساب مقابل"، حدد القيم المطلوبة.
-16. انقر فوق "ترحيل".
+## <a name="post-an-intercompany-journal"></a><span data-ttu-id="2e6d4-105">ترحيل دفتر اليومية بين الشركات الشقيقة</span><span class="sxs-lookup"><span data-stu-id="2e6d4-105">Post an intercompany journal</span></span>
+1. <span data-ttu-id="2e6d4-106">انتقل إلى دفاتر اليومية العامة.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-106">Go to General journals.</span></span>
+2. <span data-ttu-id="2e6d4-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="2e6d4-107">Click New.</span></span>
+3. <span data-ttu-id="2e6d4-108">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="2e6d4-109">في حقل "الاسم"، أدخل اسم دفتر اليومية بين الشركات الشقيقة أو حدده.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-109">In the Name field, enter or select the intercompany journal name.</span></span>
+5. <span data-ttu-id="2e6d4-110">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-110">Click Lines.</span></span>
+6. <span data-ttu-id="2e6d4-111">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-111">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="2e6d4-112">في حقل "الحساب"، حدد القيم المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-112">In the Account field, specify the desired values.</span></span>
+8. <span data-ttu-id="2e6d4-113">في حقل "الوصف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-113">In the Description field, enter or select a value.</span></span>
+9. <span data-ttu-id="2e6d4-114">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-114">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="2e6d4-115">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-115">Close the page.</span></span>
+11. <span data-ttu-id="2e6d4-116">في الحقل "مدين"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-116">In the Debit field, enter a number.</span></span>
+12. <span data-ttu-id="2e6d4-117">في حقل "الشركة المقابلة"، اكتب الشركة المقابلة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-117">In the Offset company field, type or select the offset company.</span></span>
+13. <span data-ttu-id="2e6d4-118">في حقل "الشركة المقابلة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-118">In the Offset company field, enter or select a value.</span></span>
+14. <span data-ttu-id="2e6d4-119">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-119">Close the page.</span></span>
+15. <span data-ttu-id="2e6d4-120">في الحقل "حساب مقابل"، حدد القيم المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-120">In the Offset account field, specify the desired values.</span></span>
+16. <span data-ttu-id="2e6d4-121">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="2e6d4-121">Click Post.</span></span>
 
-## <a name="view-related-intercompany-voucher"></a>عرض الإيصال ذي الصلة بين الشركات الشقيقة
-1. انقر فوق "الإيصال".
-2. انقر فوق الإيصالات ذات الصلة.
-3. في القائمة، قم بوضع علامة للصف المحدد.
-4. انقر فوق "الإيصال".
+## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="2e6d4-122">عرض الإيصال ذي الصلة بين الشركات الشقيقة</span><span class="sxs-lookup"><span data-stu-id="2e6d4-122">View related intercompany voucher</span></span>
+1. <span data-ttu-id="2e6d4-123">انقر فوق "الإيصال".</span><span class="sxs-lookup"><span data-stu-id="2e6d4-123">Click Voucher.</span></span>
+2. <span data-ttu-id="2e6d4-124">انقر فوق الإيصالات ذات الصلة.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-124">Click Related vouchers.</span></span>
+3. <span data-ttu-id="2e6d4-125">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="2e6d4-125">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="2e6d4-126">انقر فوق "الإيصال".</span><span class="sxs-lookup"><span data-stu-id="2e6d4-126">Click Voucher.</span></span>
 
 

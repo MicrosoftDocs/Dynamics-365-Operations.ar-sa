@@ -18,165 +18,165 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 785da18a851c4d040843f49ca9f1b9ae12d701d3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>إعداد عملية استيراد التسوية البنكية المتقدمة
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="6aead-104">إعداد عملية استيراد التسوية البنكية المتقدمة</span><span class="sxs-lookup"><span data-stu-id="6aead-104">Set up the advanced bank reconciliation import process</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition بشكل تلقائي. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية. 
+<span data-ttu-id="6aead-105">تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="6aead-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="6aead-106">توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية.</span><span class="sxs-lookup"><span data-stu-id="6aead-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
-يختلف إعداد استيراد كشف الحساب البنكي، استنادًا إلى تنسيق كشف حسابك البنكي الإلكتروني. يدعم Finance and Operations ثلاثة تنسيقات جاهزة لكشوف الحسابات: ISO20022 وMT940 وBAI2.
+<span data-ttu-id="6aead-107">يختلف إعداد استيراد كشف الحساب البنكي، استنادًا إلى تنسيق كشف حسابك البنكي الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="6aead-107">The setup for bank statement import varies, depending on the format of your electronic bank statement.</span></span> <span data-ttu-id="6aead-108">يدعم Finance and Operations ثلاثة تنسيقات جاهزة لكشوف الحسابات: ISO20022 وMT940 وBAI2.</span><span class="sxs-lookup"><span data-stu-id="6aead-108">Finance and Operations supports three bank statement formats out of the box: ISO20022, MT940, and BAI2.</span></span>
 
-## <a name="sample-files"></a>الملفات النموذجية
-بالنسبة إلى التنسيقات الثلاثة كلها، يجب أن يكون لديك ملفات تترجم كشف الحساب البنكي الإلكتروني من التنسيق الأصلي إلى تنسيق يستطيع Finance and Operations استخدامه. يمكنك العثور على ملفات الموارد المطلوبة تحت عقدة **الموارد** في مستكشف التطبيق‬ في Microsoft Visual Studio. بعد العثور على الملفات، انسخها إلى موقع واحد معروف، لكي تتمكن من تحميلها بسهولة أثناء عملية الإعداد.
+## <a name="sample-files"></a><span data-ttu-id="6aead-109">الملفات النموذجية</span><span class="sxs-lookup"><span data-stu-id="6aead-109">Sample files</span></span>
+<span data-ttu-id="6aead-110">بالنسبة إلى التنسيقات الثلاثة كلها، يجب أن يكون لديك ملفات تترجم كشف الحساب البنكي الإلكتروني من التنسيق الأصلي إلى تنسيق يستطيع Finance and Operations استخدامه.</span><span class="sxs-lookup"><span data-stu-id="6aead-110">For all three formats, you must have files that translate the electronic bank statement from the original format to a format that Finance and Operations can use.</span></span> <span data-ttu-id="6aead-111">يمكنك العثور على ملفات الموارد المطلوبة تحت عقدة **الموارد** في مستكشف التطبيق‬ في Microsoft Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="6aead-111">You can find the required resource files under the **Resources** node in Application Explorer in Microsoft Visual Studio.</span></span> <span data-ttu-id="6aead-112">بعد العثور على الملفات، انسخها إلى موقع واحد معروف، لكي تتمكن من تحميلها بسهولة أثناء عملية الإعداد.</span><span class="sxs-lookup"><span data-stu-id="6aead-112">After you find the files, copy them to a single known location, so that you can more easily upload them during the setup process.</span></span>
 
-| اسم المورد                                           | اسم الملف                            |
+| <span data-ttu-id="6aead-113">اسم المورد</span><span class="sxs-lookup"><span data-stu-id="6aead-113">Resource name</span></span>                                           | <span data-ttu-id="6aead-114">اسم الملف</span><span class="sxs-lookup"><span data-stu-id="6aead-114">File name</span></span>                            |
 |---------------------------------------------------------|--------------------------------------|
-| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt              | BAI2CSV-to-BAI2XML.xslt              |
-| BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt       | BAI2XML-to-Reconciliation.xslt       |
-| BankStmtImport\_BankReconciliation\_to\_Composite\_xslt | BankReconciliation-to-Composite.xslt |
-| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt   | ISO20022XML-to-Reconciliation.xslt   |
-| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt            | MT940TXT-to-MT940XML.xslt            |
-| BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt      | MT940XML-to-Reconciliation.xslt      |
-| BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
+| <span data-ttu-id="6aead-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>              | <span data-ttu-id="6aead-116">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-116">BAI2CSV-to-BAI2XML.xslt</span></span>              |
+| <span data-ttu-id="6aead-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span></span>       | <span data-ttu-id="6aead-118">BAI2XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-118">BAI2XML-to-Reconciliation.xslt</span></span>       |
+| <span data-ttu-id="6aead-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span></span> | <span data-ttu-id="6aead-120">BankReconciliation-to-Composite.xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-120">BankReconciliation-to-Composite.xslt</span></span> |
+| <span data-ttu-id="6aead-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span>   | <span data-ttu-id="6aead-122">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-122">ISO20022XML-to-Reconciliation.xslt</span></span>   |
+| <span data-ttu-id="6aead-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>            | <span data-ttu-id="6aead-124">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-124">MT940TXT-to-MT940XML.xslt</span></span>            |
+| <span data-ttu-id="6aead-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span></span>      | <span data-ttu-id="6aead-126">MT940XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="6aead-126">MT940XML-to-Reconciliation.xslt</span></span>      |
+| <span data-ttu-id="6aead-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span><span class="sxs-lookup"><span data-stu-id="6aead-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span></span>          | <span data-ttu-id="6aead-128">SampleBankCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="6aead-128">SampleBankCompositeEntity.xml</span></span>        |
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>أمثلة عن تنسيقات كشوف الحسابات البنكية والتخطيطات التقنية
-‏‫تجد أدناه أمثلة عن تعريفات التخطيط التقني لملفات استيراد التسوية البنكية المتقدمة وثلاثة ملفات أمثلة عن كشوفات الحسابات البنكية ذات الصلة:‬ https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="6aead-129">أمثلة عن تنسيقات كشوف الحسابات البنكية والتخطيطات التقنية</span><span class="sxs-lookup"><span data-stu-id="6aead-129">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="6aead-130">‏‫تجد أدناه أمثلة عن تعريفات التخطيط التقني لملفات استيراد التسوية البنكية المتقدمة وثلاثة ملفات أمثلة عن كشوفات الحسابات البنكية ذات الصلة:‬ https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="6aead-130">Below are examples of the advanced bank reconciliation import file technical layout definitions and three related bank statement example files: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
-| تعريف التخطيط التقني                             | ملف مثال عن كشف الحساب البنكي          |
+| <span data-ttu-id="6aead-131">تعريف التخطيط التقني</span><span class="sxs-lookup"><span data-stu-id="6aead-131">Technical layout definition</span></span>                             | <span data-ttu-id="6aead-132">ملف مثال عن كشف الحساب البنكي</span><span class="sxs-lookup"><span data-stu-id="6aead-132">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="6aead-133">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="6aead-133">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="6aead-134">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="6aead-134">MT940StatementExample</span></span>                |
+| <span data-ttu-id="6aead-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="6aead-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="6aead-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="6aead-136">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="6aead-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="6aead-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="6aead-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="6aead-138">BAI2StatementExample</span></span>                 |
 
  
 
-## <a name="set-up-the-import-of-iso20022-bank-statements"></a>إعداد استيراد كشوف الحسابات البنكية ISO20022
-أولاً، يجب عليك تعريف مجموعة معالجة تنسيق كشف الحساب البنكي لكشوف الحسابات البنكية ISO20022 باستخدام إطار عمل كيان البيانات.
+## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="6aead-139">إعداد استيراد كشوف الحسابات البنكية ISO20022</span><span class="sxs-lookup"><span data-stu-id="6aead-139">Set up the import of ISO20022 bank statements</span></span>
+<span data-ttu-id="6aead-140">أولاً، يجب عليك تعريف مجموعة معالجة تنسيق كشف الحساب البنكي لكشوف الحسابات البنكية ISO20022 باستخدام إطار عمل كيان البيانات.</span><span class="sxs-lookup"><span data-stu-id="6aead-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>
 
-1.  انتقل إلى **مساحات العمل** &gt; **إدارة البيانات**.
-2.  انقر فوق **استيراد**.
-3.  أدخل اسمًا للتنسيق، على سبيل المثال **ISO20022**.
-4.  عيّن حقل **تنسيق بيانات المصدر**إلى **XML-Element**.
-5.  عيّن حقل **اسم الكيان** إلى **كشوف حسابات بنكية**.
-6.  لتحميل ملفات الاستيراد، انقر فوق **تحميل**، ثم استعرض لتحديد ملف **SampleBankCompositeEntity.xml** الذي قمت بحفظه في وقت سابق.
-7.  بعد تحميل كيان كشوف الحسابات البنكية واكتمال التعيين، انقر فوق إجراء **عرض التعيين‬** للكيان.
-8.  كيان كشوف الحسابات البنكية عبارة عن كيان مركب يتكون من أربعة كيانات منفصلة. في القائمة، حدد **BankStatementDocumentEntity‎**، ثم انقر فوق إجراء **عرض التعيين**.
-9.  على علامة التبويب **التحويلات‬**، انقر فوق **جديد**.
-10. للتسلسل الرقمي 1، انقر فوق **تحميل ملف**، ثم حدد الملف **ISO20022XML-to-Reconciliation.xslt** الذي قمت بحفظه في وقت سابق. **ملاحظة:** تم إنشاء ملفات التحويل في Finance and Operations للتنسيق القياسي. ولأن البنوك غالبًا ما تخرج عن هذا التنسيق، قد يتعين عليك تحديث ملف التحويل لتعيينه إلى تنسيق كشف حسابك البنكي. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
-11. انقر فوق **جديد**.
-12. للتسلسل الرقمي 2، انقر فوق **تحميل ملف**، ثم حدد الملف **BankReconciliation-to-Composite.xslt** الذي قمت بحفظه في وقت سابق.
-13. انقر فوق **تطبيق عمليات التحويل‬**.
+1.  <span data-ttu-id="6aead-141">انتقل إلى **مساحات العمل** &gt; **إدارة البيانات**.</span><span class="sxs-lookup"><span data-stu-id="6aead-141">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="6aead-142">انقر فوق **استيراد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-142">Click **Import**.</span></span>
+3.  <span data-ttu-id="6aead-143">أدخل اسمًا للتنسيق، على سبيل المثال **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="6aead-143">Enter a name for the format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="6aead-144">عيّن حقل **تنسيق بيانات المصدر**إلى **XML-Element**.</span><span class="sxs-lookup"><span data-stu-id="6aead-144">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="6aead-145">عيّن حقل **اسم الكيان** إلى **كشوف حسابات بنكية**.</span><span class="sxs-lookup"><span data-stu-id="6aead-145">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="6aead-146">لتحميل ملفات الاستيراد، انقر فوق **تحميل**، ثم استعرض لتحديد ملف **SampleBankCompositeEntity.xml** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-146">To upload the import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="6aead-147">بعد تحميل كيان كشوف الحسابات البنكية واكتمال التعيين، انقر فوق إجراء **عرض التعيين‬** للكيان.</span><span class="sxs-lookup"><span data-stu-id="6aead-147">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="6aead-148">كيان كشوف الحسابات البنكية عبارة عن كيان مركب يتكون من أربعة كيانات منفصلة.</span><span class="sxs-lookup"><span data-stu-id="6aead-148">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="6aead-149">في القائمة، حدد **BankStatementDocumentEntity‎**، ثم انقر فوق إجراء **عرض التعيين**.</span><span class="sxs-lookup"><span data-stu-id="6aead-149">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="6aead-150">على علامة التبويب **التحويلات‬**، انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-150">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="6aead-151">للتسلسل الرقمي 1، انقر فوق **تحميل ملف**، ثم حدد الملف **ISO20022XML-to-Reconciliation.xslt** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-151">For sequence number 1, click **Upload file**, and select the **ISO20022XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="6aead-152">**ملاحظة:** تم إنشاء ملفات التحويل في Finance and Operations للتنسيق القياسي.</span><span class="sxs-lookup"><span data-stu-id="6aead-152">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="6aead-153">ولأن البنوك غالبًا ما تخرج عن هذا التنسيق، قد يتعين عليك تحديث ملف التحويل لتعيينه إلى تنسيق كشف حسابك البنكي.</span><span class="sxs-lookup"><span data-stu-id="6aead-153">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+11. <span data-ttu-id="6aead-154">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-154">Click **New**.</span></span>
+12. <span data-ttu-id="6aead-155">للتسلسل الرقمي 2، انقر فوق **تحميل ملف**، ثم حدد الملف **BankReconciliation-to-Composite.xslt** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-155">For sequence number 2, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+13. <span data-ttu-id="6aead-156">انقر فوق **تطبيق عمليات التحويل‬**.</span><span class="sxs-lookup"><span data-stu-id="6aead-156">Click **Apply transforms**.</span></span>
 
-بعد إعداد مجموعة معالجة التنسيق، ستحدد في الخطوة التالية قواعد تنسيق كشف الحساب البنكي لكشوفات الحسابات البنكية ISO20022.
+<span data-ttu-id="6aead-157">بعد إعداد مجموعة معالجة التنسيق، ستحدد في الخطوة التالية قواعد تنسيق كشف الحساب البنكي لكشوفات الحسابات البنكية ISO20022.</span><span class="sxs-lookup"><span data-stu-id="6aead-157">After the format processing group is set up, the next step is to define the bank statement format rules for ISO20022 bank statements.</span></span>
 
-1.  انتقل إلى **إدارة النقد والبنك** &gt; **إعداد** &gt; **إعداد تسوية بنكية متقدمة** &gt; **تنسيق كشف الحساب البنكي**.
-2.  انقر فوق **جديد**.
-3.  حدد تنسيق كشف حساب، مثل **ISO20022**.
-4.  أدخل اسمًا للتنسيق.
-5.  عيّن الحقل **مجموعة معالجة‬** إلى المجموعة التي قمت بتحديدها سابقًا، مثل **ISO20022**.
-6.  حدد خانة الاختيار **ملف XML**.
+1.  <span data-ttu-id="6aead-158">انتقل إلى **إدارة النقد والبنك** &gt; **إعداد** &gt; **إعداد تسوية بنكية متقدمة** &gt; **تنسيق كشف الحساب البنكي**.</span><span class="sxs-lookup"><span data-stu-id="6aead-158">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="6aead-159">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-159">Click **New**.</span></span>
+3.  <span data-ttu-id="6aead-160">حدد تنسيق كشف حساب، مثل **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="6aead-160">Specify a statement format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="6aead-161">أدخل اسمًا للتنسيق.</span><span class="sxs-lookup"><span data-stu-id="6aead-161">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="6aead-162">عيّن الحقل **مجموعة معالجة‬** إلى المجموعة التي قمت بتحديدها سابقًا، مثل **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="6aead-162">Set the **Processing group** field to the group that you defined earlier, such as **ISO20022**.</span></span>
+6.  <span data-ttu-id="6aead-163">حدد خانة الاختيار **ملف XML**.</span><span class="sxs-lookup"><span data-stu-id="6aead-163">Select the **XML file** check box.</span></span>
 
-تقضي الخطوة الأخيرة بتمكين التسوية البنكية المتقدمة وتعيين تنسيق كشف الحساب القياسي على الحساب البنكي.
+<span data-ttu-id="6aead-164">تقضي الخطوة الأخيرة بتمكين التسوية البنكية المتقدمة وتعيين تنسيق كشف الحساب القياسي على الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="6aead-164">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  انتقل إلى **إدارة النقد والبنوك** &gt; **الحسابات البنكية**.
-2.  حدد الحساب البنكي، وافتحه لعرض التفاصيل.
-3.  على علامة تبويب **التسوية‬**، عيّن الخيار **تسوية بنكية متقدمة**إلى **نعم**.
-4.  عيّن الحقل **تنسيق كشف الحساب‬‬** إلى التنسيق الذي أنشأته سابقًا، مثل **ISO20022**.
+1.  <span data-ttu-id="6aead-165">انتقل إلى **إدارة النقد والبنوك** &gt; **الحسابات البنكية**.</span><span class="sxs-lookup"><span data-stu-id="6aead-165">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="6aead-166">حدد الحساب البنكي، وافتحه لعرض التفاصيل.</span><span class="sxs-lookup"><span data-stu-id="6aead-166">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="6aead-167">على علامة تبويب **التسوية‬**، عيّن الخيار **تسوية بنكية متقدمة**إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="6aead-167">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="6aead-168">عيّن الحقل **تنسيق كشف الحساب‬‬** إلى التنسيق الذي أنشأته سابقًا، مثل **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="6aead-168">Set the **Statement format** field to the format that you created earlier, such as **ISO20022**.</span></span>
 
-## <a name="set-up-the-import-of-mt940-bank-statements"></a>إعداد استيراد كشوف الحسابات البنكية MT940
-أولاً، يجب عليك تعريف مجموعة معالجة تنسيق كشف الحساب البنكي لكشوف الحسابات البنكية MT940 باستخدام إطار عمل كيان البيانات.
+## <a name="set-up-the-import-of-mt940-bank-statements"></a><span data-ttu-id="6aead-169">إعداد استيراد كشوف الحسابات البنكية MT940</span><span class="sxs-lookup"><span data-stu-id="6aead-169">Set up the import of MT940 bank statements</span></span>
+<span data-ttu-id="6aead-170">أولاً، يجب عليك تعريف مجموعة معالجة تنسيق كشف الحساب البنكي لكشوف الحسابات البنكية MT940 باستخدام إطار عمل كيان البيانات.</span><span class="sxs-lookup"><span data-stu-id="6aead-170">First, you must define the bank statement format processing group for MT940 bank statements by using the data entity framework.</span></span>
 
-1.  انتقل إلى **مساحات العمل** &gt; **إدارة البيانات**.
-2.  انقر فوق **استيراد**.
-3.  أدخل اسمًا للتنسيق، على سبيل المثال **MT940**.
-4.  عيّن حقل **تنسيق بيانات المصدر** إلى **XML-Element**.
-5.  عيّن حقل **اسم الكيان** إلى **كشوف حسابات بنكية**.
-6.  لتحميل ملفات الاستيراد، انقر فوق **تحميل**، ثم استعرض لتحديد ملف **SampleBankCompositeEntity.xml** الذي قمت بحفظه في وقت سابق.
-7.  بعد تحميل كيان كشوف الحسابات البنكية واكتمال التعيين، انقر فوق إجراء **عرض التعيين‬** للكيان.
-8.  كيان كشوف الحسابات البنكية عبارة عن كيان مركب يتكون من أربعة كيانات منفصلة. في القائمة، حدد **BankStatementDocumentEntity‎**، ثم انقر فوق إجراء **عرض التعيين**.
-9.  على علامة التبويب **التحويلات‬**، انقر فوق **جديد**.
-10. للتسلسل الرقمي 1، انقر فوق **تحميل ملف**، ثم حدد الملف **MT940TXT-to-MT940XML.xslt** الذي قمت بحفظه في وقت سابق.
-11. انقر فوق **جديد**.
-12. للتسلسل الرقمي 2، انقر فوق **تحميل ملف**، ثم حدد الملف **MT940XML-to-Reconciliation.xslt** الذي قمت بحفظه في وقت سابق. **ملاحظة:** تم إنشاء ملفات التحويل في Finance and Operations للتنسيق القياسي. ولأن البنوك غالبًا ما تخرج عن هذا التنسيق، قد يتعين عليك تحديث ملف التحويل لتعيينه إلى تنسيق كشف حسابك البنكي. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
-13. انقر فوق **جديد**.
-14. للتسلسل الرقمي 3، انقر فوق **تحميل ملف**، ثم حدد الملف **BankReconciliation-to-Composite.xslt** الذي قمت بحفظه في وقت سابق.
-15. انقر فوق **تطبيق عمليات التحويل‬**.
+1.  <span data-ttu-id="6aead-171">انتقل إلى **مساحات العمل** &gt; **إدارة البيانات**.</span><span class="sxs-lookup"><span data-stu-id="6aead-171">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="6aead-172">انقر فوق **استيراد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-172">Click **Import**.</span></span>
+3.  <span data-ttu-id="6aead-173">أدخل اسمًا للتنسيق، على سبيل المثال **MT940**.</span><span class="sxs-lookup"><span data-stu-id="6aead-173">Enter a name for the format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="6aead-174">عيّن حقل **تنسيق بيانات المصدر** إلى **XML-Element**.</span><span class="sxs-lookup"><span data-stu-id="6aead-174">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="6aead-175">عيّن حقل **اسم الكيان** إلى **كشوف حسابات بنكية**.</span><span class="sxs-lookup"><span data-stu-id="6aead-175">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="6aead-176">لتحميل ملفات الاستيراد، انقر فوق **تحميل**، ثم استعرض لتحديد ملف **SampleBankCompositeEntity.xml** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-176">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="6aead-177">بعد تحميل كيان كشوف الحسابات البنكية واكتمال التعيين، انقر فوق إجراء **عرض التعيين‬** للكيان.</span><span class="sxs-lookup"><span data-stu-id="6aead-177">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="6aead-178">كيان كشوف الحسابات البنكية عبارة عن كيان مركب يتكون من أربعة كيانات منفصلة.</span><span class="sxs-lookup"><span data-stu-id="6aead-178">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="6aead-179">في القائمة، حدد **BankStatementDocumentEntity‎**، ثم انقر فوق إجراء **عرض التعيين**.</span><span class="sxs-lookup"><span data-stu-id="6aead-179">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="6aead-180">على علامة التبويب **التحويلات‬**، انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-180">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="6aead-181">للتسلسل الرقمي 1، انقر فوق **تحميل ملف**، ثم حدد الملف **MT940TXT-to-MT940XML.xslt** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-181">For sequence number 1, click **Upload file**, and select the **MT940TXT-to-MT940XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="6aead-182">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-182">Click **New**.</span></span>
+12. <span data-ttu-id="6aead-183">للتسلسل الرقمي 2، انقر فوق **تحميل ملف**، ثم حدد الملف **MT940XML-to-Reconciliation.xslt** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-183">For sequence number 2, click **Upload file**, and select the **MT940XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="6aead-184">**ملاحظة:** تم إنشاء ملفات التحويل في Finance and Operations للتنسيق القياسي.</span><span class="sxs-lookup"><span data-stu-id="6aead-184">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="6aead-185">ولأن البنوك غالبًا ما تخرج عن هذا التنسيق، قد يتعين عليك تحديث ملف التحويل لتعيينه إلى تنسيق كشف حسابك البنكي.</span><span class="sxs-lookup"><span data-stu-id="6aead-185">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+13. <span data-ttu-id="6aead-186">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-186">Click **New**.</span></span>
+14. <span data-ttu-id="6aead-187">للتسلسل الرقمي 3، انقر فوق **تحميل ملف**، ثم حدد الملف **BankReconciliation-to-Composite.xslt** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-187">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="6aead-188">انقر فوق **تطبيق عمليات التحويل‬**.</span><span class="sxs-lookup"><span data-stu-id="6aead-188">Click **Apply transforms**.</span></span>
 
-بعد إعداد مجموعة معالجة التنسيق، ستحدد في الخطوة التالية قواعد تنسيق كشف الحساب البنكي لكشوفات الحسابات البنكية MT940.
+<span data-ttu-id="6aead-189">بعد إعداد مجموعة معالجة التنسيق، ستحدد في الخطوة التالية قواعد تنسيق كشف الحساب البنكي لكشوفات الحسابات البنكية MT940.</span><span class="sxs-lookup"><span data-stu-id="6aead-189">After the format processing group is set up, the next step is to define the bank statement format rules for MT940 bank statements.</span></span>
 
-1.  انتقل إلى **إدارة النقد والبنك** &gt; **إعداد** &gt; **إعداد تسوية بنكية متقدمة** &gt; **تنسيق كشف الحساب البنكي**.
-2.  انقر فوق **جديد**.
-3.  حدد تنسيق كشف حساب، مثل **MT940**.
-4.  أدخل اسمًا للتنسيق.
-5.  عيّن الحقل **مجموعة معالجة‬** إلى المجموعة التي قمت بتحديدها سابقًا، مثل **MT940**.
-6.  قم بتعيين حقل **نوع الملف** إلى **txt**.
+1.  <span data-ttu-id="6aead-190">انتقل إلى **إدارة النقد والبنك** &gt; **إعداد** &gt; **إعداد تسوية بنكية متقدمة** &gt; **تنسيق كشف الحساب البنكي**.</span><span class="sxs-lookup"><span data-stu-id="6aead-190">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="6aead-191">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-191">Click **New**.</span></span>
+3.  <span data-ttu-id="6aead-192">حدد تنسيق كشف حساب، مثل **MT940**.</span><span class="sxs-lookup"><span data-stu-id="6aead-192">Specify a statement format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="6aead-193">أدخل اسمًا للتنسيق.</span><span class="sxs-lookup"><span data-stu-id="6aead-193">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="6aead-194">عيّن الحقل **مجموعة معالجة‬** إلى المجموعة التي قمت بتحديدها سابقًا، مثل **MT940**.</span><span class="sxs-lookup"><span data-stu-id="6aead-194">Set the **Processing group** field to the group that you defined earlier, such as **MT940**.</span></span>
+6.  <span data-ttu-id="6aead-195">قم بتعيين حقل **نوع الملف** إلى **txt**.</span><span class="sxs-lookup"><span data-stu-id="6aead-195">Set the **File type** field to **txt**.</span></span>
 
-تقضي الخطوة الأخيرة بتمكين التسوية البنكية المتقدمة وتعيين تنسيق كشف الحساب القياسي على الحساب البنكي.
+<span data-ttu-id="6aead-196">تقضي الخطوة الأخيرة بتمكين التسوية البنكية المتقدمة وتعيين تنسيق كشف الحساب القياسي على الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="6aead-196">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  انتقل إلى **إدارة النقد والبنوك** &gt; **الحسابات البنكية**.
-2.  حدد الحساب البنكي، وافتحه لعرض التفاصيل.
-3.  على علامة تبويب **التسوية‬**، عيّن الخيار **تسوية بنكية متقدمة** إلى **نعم**.
-4.  عند مطالبتك بتأكيد تحديد وتمكين التسوية البنكية المتقدمة، انقر فوق **موافق**.
-5.  عيّن الحقل **تنسيق كشف الحساب** إلى التنسيق الذي أنشأته سابقًا، مثل **MT940**.
+1.  <span data-ttu-id="6aead-197">انتقل إلى **إدارة النقد والبنوك** &gt; **الحسابات البنكية**.</span><span class="sxs-lookup"><span data-stu-id="6aead-197">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="6aead-198">حدد الحساب البنكي، وافتحه لعرض التفاصيل.</span><span class="sxs-lookup"><span data-stu-id="6aead-198">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="6aead-199">على علامة تبويب **التسوية‬**، عيّن الخيار **تسوية بنكية متقدمة** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="6aead-199">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="6aead-200">عند مطالبتك بتأكيد تحديد وتمكين التسوية البنكية المتقدمة، انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="6aead-200">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="6aead-201">عيّن الحقل **تنسيق كشف الحساب** إلى التنسيق الذي أنشأته سابقًا، مثل **MT940**.</span><span class="sxs-lookup"><span data-stu-id="6aead-201">Set the **Statement format** field to the format that you created earlier, such as **MT940**.</span></span>
 
-## <a name="set-up-the-import-of-bai2-bank-statements"></a>إعداد استيراد كشوف الحسابات البنكية BAI2
-أولاً، يجب عليك تعريف مجموعة معالجة تنسيق كشف الحساب البنكي لكشوف الحسابات البنكية BAI2 باستخدام إطار عمل كيان البيانات.
+## <a name="set-up-the-import-of-bai2-bank-statements"></a><span data-ttu-id="6aead-202">إعداد استيراد كشوف الحسابات البنكية BAI2</span><span class="sxs-lookup"><span data-stu-id="6aead-202">Set up the import of BAI2 bank statements</span></span>
+<span data-ttu-id="6aead-203">أولاً، يجب عليك تعريف مجموعة معالجة تنسيق كشف الحساب البنكي لكشوف الحسابات البنكية BAI2 باستخدام إطار عمل كيان البيانات.</span><span class="sxs-lookup"><span data-stu-id="6aead-203">First, you must define the bank statement format processing group for BAI2 bank statements by using the data entity framework.</span></span>
 
-1.  انتقل إلى **مساحات العمل** &gt; **إدارة البيانات**.
-2.  انقر فوق **استيراد**.
-3.  أدخل اسمًا للتنسيق، على سبيل المثال **BAI2**.
-4.  عيّن حقل **تنسيق بيانات المصدر** إلى **XML-Element**.
-5.  عيّن حقل **اسم الكيان** إلى **كشوف حسابات بنكية**.
-6.  لتحميل ملفات الاستيراد، انقر فوق **تحميل**، ثم استعرض لتحديد ملف **SampleBankCompositeEntity.xml** الذي قمت بحفظه في وقت سابق.
-7.  بعد تحميل كيان كشوف الحسابات البنكية واكتمال التعيين، انقر فوق إجراء **عرض التعيين‬** للكيان.
-8.  كيان كشوف الحسابات البنكية عبارة عن كيان مركب يتكون من أربعة كيانات منفصلة. في القائمة، حدد **BankStatementDocumentEntity‎**، ثم انقر فوق إجراء **عرض التعيين**.
-9.  على علامة التبويب **التحويلات‬**، انقر فوق **جديد**.
-10. للتسلسل الرقمي 1، انقر فوق **تحميل ملف**، ثم حدد الملف **BAI2CSV-to-BAI2XML.xslt** الذي قمت بحفظه في وقت سابق.
-11. انقر فوق **جديد**.
-12. للتسلسل الرقمي 2، انقر فوق **تحميل ملف**، ثم حدد الملف **BAI2XML-to-Reconciliation.xslt** الذي قمت بحفظه في وقت سابق. **ملاحظة:** تم إنشاء ملفات التحويل في Finance and Operations للتنسيق القياسي. ولأن البنوك غالبًا ما تخرج عن هذا التنسيق، قد يتعين عليك تحديث ملف التحويل لتعيينه إلى تنسيق كشف حسابك البنكي. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
-13. انقر فوق **جديد**.
-14. للتسلسل الرقمي 3، انقر فوق **تحميل ملف**، ثم حدد الملف **BankReconciliation-to-Composite.xslt** الذي قمت بحفظه في وقت سابق.
-15. انقر فوق **تطبيق عمليات التحويل‬**.
+1.  <span data-ttu-id="6aead-204">انتقل إلى **مساحات العمل** &gt; **إدارة البيانات**.</span><span class="sxs-lookup"><span data-stu-id="6aead-204">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="6aead-205">انقر فوق **استيراد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-205">Click **Import**.</span></span>
+3.  <span data-ttu-id="6aead-206">أدخل اسمًا للتنسيق، على سبيل المثال **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="6aead-206">Enter a name for the format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="6aead-207">عيّن حقل **تنسيق بيانات المصدر** إلى **XML-Element**.</span><span class="sxs-lookup"><span data-stu-id="6aead-207">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="6aead-208">عيّن حقل **اسم الكيان** إلى **كشوف حسابات بنكية**.</span><span class="sxs-lookup"><span data-stu-id="6aead-208">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="6aead-209">لتحميل ملفات الاستيراد، انقر فوق **تحميل**، ثم استعرض لتحديد ملف **SampleBankCompositeEntity.xml** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-209">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="6aead-210">بعد تحميل كيان كشوف الحسابات البنكية واكتمال التعيين، انقر فوق إجراء **عرض التعيين‬** للكيان.</span><span class="sxs-lookup"><span data-stu-id="6aead-210">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="6aead-211">كيان كشوف الحسابات البنكية عبارة عن كيان مركب يتكون من أربعة كيانات منفصلة.</span><span class="sxs-lookup"><span data-stu-id="6aead-211">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="6aead-212">في القائمة، حدد **BankStatementDocumentEntity‎**، ثم انقر فوق إجراء **عرض التعيين**.</span><span class="sxs-lookup"><span data-stu-id="6aead-212">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="6aead-213">على علامة التبويب **التحويلات‬**، انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-213">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="6aead-214">للتسلسل الرقمي 1، انقر فوق **تحميل ملف**، ثم حدد الملف **BAI2CSV-to-BAI2XML.xslt** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-214">For sequence number 1, click **Upload file**, and select the **BAI2CSV-to-BAI2XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="6aead-215">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-215">Click **New**.</span></span>
+12. <span data-ttu-id="6aead-216">للتسلسل الرقمي 2، انقر فوق **تحميل ملف**، ثم حدد الملف **BAI2XML-to-Reconciliation.xslt** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-216">For sequence number 2, click **Upload file**, and select the **BAI2XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="6aead-217">**ملاحظة:** تم إنشاء ملفات التحويل في Finance and Operations للتنسيق القياسي.</span><span class="sxs-lookup"><span data-stu-id="6aead-217">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="6aead-218">ولأن البنوك غالبًا ما تخرج عن هذا التنسيق، قد يتعين عليك تحديث ملف التحويل لتعيينه إلى تنسيق كشف حسابك البنكي.</span><span class="sxs-lookup"><span data-stu-id="6aead-218">Because banks often diverge from this format, and you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+13. <span data-ttu-id="6aead-219">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-219">Click **New**.</span></span>
+14. <span data-ttu-id="6aead-220">للتسلسل الرقمي 3، انقر فوق **تحميل ملف**، ثم حدد الملف **BankReconciliation-to-Composite.xslt** الذي قمت بحفظه في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="6aead-220">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="6aead-221">انقر فوق **تطبيق عمليات التحويل‬**.</span><span class="sxs-lookup"><span data-stu-id="6aead-221">Click **Apply transforms**.</span></span>
 
-بعد إعداد مجموعة معالجة التنسيق، ستحدد في الخطوة التالية قواعد تنسيق كشف الحساب البنكي لكشوفات الحسابات البنكية BAI2.
+<span data-ttu-id="6aead-222">بعد إعداد مجموعة معالجة التنسيق، ستحدد في الخطوة التالية قواعد تنسيق كشف الحساب البنكي لكشوفات الحسابات البنكية BAI2.</span><span class="sxs-lookup"><span data-stu-id="6aead-222">After the format processing group is set up, the next step is to define the bank statement format rules for BAI2 bank statements.</span></span>
 
-1.  انتقل إلى **إدارة النقد والبنك** &gt; **إعداد** &gt; **إعداد تسوية بنكية متقدمة** &gt; **تنسيق كشف الحساب البنكي**.
-2.  انقر فوق **جديد**.
-3.  حدد تنسيق كشف حساب، مثل **BAI2**.
-4.  أدخل اسمًا للتنسيق.
-5.  عيّن الحقل **مجموعة معالجة‬** إلى المجموعة التي قمت بتحديدها سابقًا، مثل **BAI2**.
-6.  قم بتعيين حقل **نوع الملف** إلى **txt**.
+1.  <span data-ttu-id="6aead-223">انتقل إلى **إدارة النقد والبنك** &gt; **إعداد** &gt; **إعداد تسوية بنكية متقدمة** &gt; **تنسيق كشف الحساب البنكي**.</span><span class="sxs-lookup"><span data-stu-id="6aead-223">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="6aead-224">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="6aead-224">Click **New**.</span></span>
+3.  <span data-ttu-id="6aead-225">حدد تنسيق كشف حساب، مثل **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="6aead-225">Specify a statement format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="6aead-226">أدخل اسمًا للتنسيق.</span><span class="sxs-lookup"><span data-stu-id="6aead-226">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="6aead-227">عيّن الحقل **مجموعة معالجة‬** إلى المجموعة التي قمت بتحديدها سابقًا، مثل **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="6aead-227">Set the **Processing group** field to the group that you defined earlier, such as **BAI2**.</span></span>
+6.  <span data-ttu-id="6aead-228">قم بتعيين حقل **نوع الملف** إلى **txt**.</span><span class="sxs-lookup"><span data-stu-id="6aead-228">Set the **File type** field to **txt**.</span></span>
 
-تقضي الخطوة الأخيرة بتمكين التسوية البنكية المتقدمة وتعيين تنسيق كشف الحساب القياسي على الحساب البنكي.
+<span data-ttu-id="6aead-229">تقضي الخطوة الأخيرة بتمكين التسوية البنكية المتقدمة وتعيين تنسيق كشف الحساب القياسي على الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="6aead-229">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  انتقل إلى **إدارة النقد والبنوك** &gt; **الحسابات البنكية**.
-2.  حدد الحساب البنكي، وافتحه لعرض التفاصيل.
-3.  على علامة تبويب **التسوية‬**، عيّن الخيار **تسوية بنكية متقدمة** إلى **نعم**.
-4.  عند مطالبتك بتأكيد تحديد وتمكين التسوية البنكية المتقدمة، انقر فوق **موافق**.
-5.  عيّن الحقل **تنسيق كشف الحساب** إلى التنسيق الذي أنشأته سابقًا، مثل **BAI2**.
+1.  <span data-ttu-id="6aead-230">انتقل إلى **إدارة النقد والبنوك** &gt; **الحسابات البنكية**.</span><span class="sxs-lookup"><span data-stu-id="6aead-230">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="6aead-231">حدد الحساب البنكي، وافتحه لعرض التفاصيل.</span><span class="sxs-lookup"><span data-stu-id="6aead-231">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="6aead-232">على علامة تبويب **التسوية‬**، عيّن الخيار **تسوية بنكية متقدمة** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="6aead-232">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="6aead-233">عند مطالبتك بتأكيد تحديد وتمكين التسوية البنكية المتقدمة، انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="6aead-233">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="6aead-234">عيّن الحقل **تنسيق كشف الحساب** إلى التنسيق الذي أنشأته سابقًا، مثل **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="6aead-234">Set the **Statement format** field to the format that you created earlier, such as **BAI2**.</span></span>
 
-## <a name="test-the-bank-statement-import"></a>اختبار استيراد كشف الحساب البنكي
-تقضي الخطوة الأخيرة باختبار إمكانية استيراد كشف الحساب البنكي.
+## <a name="test-the-bank-statement-import"></a><span data-ttu-id="6aead-235">اختبار استيراد كشف الحساب البنكي</span><span class="sxs-lookup"><span data-stu-id="6aead-235">Test the bank statement import</span></span>
+<span data-ttu-id="6aead-236">تقضي الخطوة الأخيرة باختبار إمكانية استيراد كشف الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="6aead-236">The final step is to test that you can import your bank statement.</span></span>
 
-1.  انتقل إلى **إدارة النقد والبنوك** &gt; **الحسابات البنكية**.
-2.  حدد الحساب البنكي الذي تم تمكين وظيفة التسوية البنكية المتقدمة له.
-3.  على علامة تبويب **التسوية**، انقر فوق **كشوف حسابات بنكية**.
-4.  في صفحة **كشف حساب بنكي**، انقر فوق **استيراد كشف الحساب**.
-5.  عيّن حقل **الحساب البنكي** إلى الحساب البنكي المحدد. سيتم تعيين حقل **تنسيق كشف الحساب** بشكل تلقائي، استنادًا إلى الإعداد على الحساب البنكي.
-6.  انقر فوق **استعراض**، وحدد ملف كشف حسابك البنكي الإلكتروني.
-7.  انقر فوق **تحميل**.
-8.  وانقر فوق **موافق**.
+1.  <span data-ttu-id="6aead-237">انتقل إلى **إدارة النقد والبنوك** &gt; **الحسابات البنكية**.</span><span class="sxs-lookup"><span data-stu-id="6aead-237">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="6aead-238">حدد الحساب البنكي الذي تم تمكين وظيفة التسوية البنكية المتقدمة له.</span><span class="sxs-lookup"><span data-stu-id="6aead-238">Select the bank account that Advanced bank reconciliation functionality is enabled for.</span></span>
+3.  <span data-ttu-id="6aead-239">على علامة تبويب **التسوية**، انقر فوق **كشوف حسابات بنكية**.</span><span class="sxs-lookup"><span data-stu-id="6aead-239">On the **Reconcile** tab, click **Bank statements**.</span></span>
+4.  <span data-ttu-id="6aead-240">في صفحة **كشف حساب بنكي**، انقر فوق **استيراد كشف الحساب**.</span><span class="sxs-lookup"><span data-stu-id="6aead-240">On the **Bank statement** page, click **Import statement**.</span></span>
+5.  <span data-ttu-id="6aead-241">عيّن حقل **الحساب البنكي** إلى الحساب البنكي المحدد.</span><span class="sxs-lookup"><span data-stu-id="6aead-241">Set the **Bank account** field to the selected bank account.</span></span> <span data-ttu-id="6aead-242">سيتم تعيين حقل **تنسيق كشف الحساب** بشكل تلقائي، استنادًا إلى الإعداد على الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="6aead-242">The **Statement format** field will be set automatically, based on the setting on the bank account.</span></span>
+6.  <span data-ttu-id="6aead-243">انقر فوق **استعراض**، وحدد ملف كشف حسابك البنكي الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="6aead-243">Click **Browse**, and select your electronic bank statement file.</span></span>
+7.  <span data-ttu-id="6aead-244">انقر فوق **تحميل**.</span><span class="sxs-lookup"><span data-stu-id="6aead-244">Click **Upload**.</span></span>
+8.  <span data-ttu-id="6aead-245">وانقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="6aead-245">Click **OK**.</span></span>
 
-في حالة نجاح عملية الاستيراد، سوف تتلقى رسالة تشير إلى إتمام عملية استيراد كشوف حساباتك. أما إذا لم تنجح عملية الاستيراد، فابحث عن الوظيفة في مساحة عمل **إدارة البيانات**، في المقطع **محفوظات الوظيفة**. انقر فوق **تفاصيل التنفيذ** للوظيفة لفتح صفحة **ملخص تنفيذ**، ثم انقر فوق **عرض سجل التنفيذ** لعرض أخطاء الاستيراد.
+<span data-ttu-id="6aead-246">في حالة نجاح عملية الاستيراد، سوف تتلقى رسالة تشير إلى إتمام عملية استيراد كشوف حساباتك.</span><span class="sxs-lookup"><span data-stu-id="6aead-246">If the import is successful, you will receive a message that states that your statement was imported.</span></span> <span data-ttu-id="6aead-247">أما إذا لم تنجح عملية الاستيراد، فابحث عن الوظيفة في مساحة عمل **إدارة البيانات**، في المقطع **محفوظات الوظيفة**.</span><span class="sxs-lookup"><span data-stu-id="6aead-247">If the import wasn't successful, in the **Data management** workspace, in the **Job history** section, find the job.</span></span> <span data-ttu-id="6aead-248">انقر فوق **تفاصيل التنفيذ** للوظيفة لفتح صفحة **ملخص تنفيذ**، ثم انقر فوق **عرض سجل التنفيذ** لعرض أخطاء الاستيراد.</span><span class="sxs-lookup"><span data-stu-id="6aead-248">Click **Execution details** for the job to open the **Execution summary** page, and then click **View execution log** to view the import errors.</span></span>
 
 
 

@@ -18,60 +18,60 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 9b9bb0acc6f0dc1722c916f133eed766ffdd4cc8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="action-search"></a>البحث عن إجراء
+# <a name="action-search"></a><span data-ttu-id="ce6a8-104">البحث عن إجراء</span><span class="sxs-lookup"><span data-stu-id="ce6a8-104">Action search</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة وظيفة البحث عن إجراء في Microsoft Dynamics 365 for Finance and Operations. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.
+<span data-ttu-id="ce6a8-105">توضح هذه المقالة وظيفة البحث عن إجراء في Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-105">This article describes the action search functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="ce6a8-106">سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-106">Action search will help you find and run actions on a page.</span></span>
 
-<a name="introduction"></a>مقدمة
+<a name="introduction"></a><span data-ttu-id="ce6a8-107">مقدمة</span><span class="sxs-lookup"><span data-stu-id="ce6a8-107">Introduction</span></span>
 ------------
 
-تعرض الصفحات في Microsoft Dynamics 365 for Finance and Operations بشكل أساسي الأوامر في أجزاء الإجراءات؛ جزء الإجراءات المعيارية التي تظهر في أعلى الصفحة، وأشرطة الأدوات التي تظهر في أقسام متنوعة من الصفحة. في الإصدارات السابقة، تسمح لك وظيفة "التلميحات الرئيسية" الوصول بسرعة إلى أي زر في أجزاء الإجراء من خلال الضغط على مفتاح Alt، ثم مجموعة من الأحرف. 
+<span data-ttu-id="ce6a8-108">تعرض الصفحات في Microsoft Dynamics 365 for Finance and Operations بشكل أساسي الأوامر في أجزاء الإجراءات؛ جزء الإجراءات المعيارية التي تظهر في أعلى الصفحة، وأشرطة الأدوات التي تظهر في أقسام متنوعة من الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-108">Pages in Microsoft Dynamics 365 for Finance and Operations primarily expose commands on Action Panes, both the standard Action Pane that appears at the top of a page and the toolbars that appear in various sections of the page.</span></span> <span data-ttu-id="ce6a8-109">في الإصدارات السابقة، تسمح لك وظيفة "التلميحات الرئيسية" الوصول بسرعة إلى أي زر في أجزاء الإجراء من خلال الضغط على مفتاح Alt، ثم مجموعة من الأحرف.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-109">In previous versions, a Key Tips feature let you quickly access any button on an Action Pane by pressing the Alt key and then a series of letters.</span></span> 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) ولكن، في الإصدار الحالي من Finance and Operations، لم تعد ميزة التلميحات الأساسية متاحة، ولكن تم استبدالها بميزة البحث عن إجراء. تُمكّنك هذه الميزة الجديدة من البحث بسرعة عن وتشغيل زر من أي "جزء إجراء" مرئي.
+<span data-ttu-id="ce6a8-110">[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) ولكن، في الإصدار الحالي من Finance and Operations، لم تعد ميزة التلميحات الأساسية متاحة، ولكن تم استبدالها بميزة البحث عن إجراء.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-110">[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) However, in the current version of Finance and Operations, Key Tips are no longer available but have been replaced by the action search feature.</span></span> <span data-ttu-id="ce6a8-111">تُمكّنك هذه الميزة الجديدة من البحث بسرعة عن وتشغيل زر من أي "جزء إجراء" مرئي.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-111">This new feature lets you quickly search for and run a button from any visible Action Pane.</span></span>
 
-## <a name="using-action-search"></a>استخدام البحث عن إجراء
-لاستخدام ميزة البحث عن إجراء، اتبع الخطوات التالية.
+## <a name="using-action-search"></a><span data-ttu-id="ce6a8-112">استخدام البحث عن إجراء</span><span class="sxs-lookup"><span data-stu-id="ce6a8-112">Using action search</span></span>
+<span data-ttu-id="ce6a8-113">لاستخدام ميزة البحث عن إجراء، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-113">To use the action search feature, follow these steps.</span></span>
 
-1.  في "جزء الإجراءات"، انقر فوق حقل **البحث عن إجراء**. (يحتوي حقل **البحث عن إجراء** على رمز معدسة مكبرة).
-2.  اكتب اسم الزر كله أو جزء من اسم الزر الذي تريد تشغيله. يمكنك أيضًا البحث باستخدام الكلمات من الزر "مسار". (لمزيد من المعلومات، يُرجى الاطلاع على القسم التالي من هذه المقالة.) عادةً، سوف يظهر الزر بجانب أعلي قائمة النتائج بعد كتابة من حرفين إلى أربعة أحرف.
-3.  ابحث عن وقم بتشغيل الزر في قائمة النتائج (باستخدام الماوس أو لوحة المفاتيح).
+1.  <span data-ttu-id="ce6a8-114">في "جزء الإجراءات"، انقر فوق حقل **البحث عن إجراء**.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-114">On the Action Pane, click in the **action search** field.</span></span> <span data-ttu-id="ce6a8-115">(يحتوي حقل **البحث عن إجراء** على رمز معدسة مكبرة).</span><span class="sxs-lookup"><span data-stu-id="ce6a8-115">(The **action search** field contains a magnifying glass icon.)</span></span>
+2.  <span data-ttu-id="ce6a8-116">اكتب اسم الزر كله أو جزء من اسم الزر الذي تريد تشغيله.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-116">Type all or part of the name of the button that you want to run.</span></span> <span data-ttu-id="ce6a8-117">يمكنك أيضًا البحث باستخدام الكلمات من الزر "مسار".</span><span class="sxs-lookup"><span data-stu-id="ce6a8-117">You can also search by using words from the button's "path."</span></span> <span data-ttu-id="ce6a8-118">(لمزيد من المعلومات، يُرجى الاطلاع على القسم التالي من هذه المقالة.) عادةً، سوف يظهر الزر بجانب أعلي قائمة النتائج بعد كتابة من حرفين إلى أربعة أحرف.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-118">(For more information, see the next section of this article.) Typically, a button will appear near the top of the results list after you've typed two to four characters.</span></span>
+3.  <span data-ttu-id="ce6a8-119">ابحث عن وقم بتشغيل الزر في قائمة النتائج (باستخدام الماوس أو لوحة المفاتيح).</span><span class="sxs-lookup"><span data-stu-id="ce6a8-119">Find and run the button in the results list (by using your mouse or keyboard).</span></span>
 
-وبعد تشغيل الزر، يتم إرجاع التركيز إلى الموضع الأخير في الصفحة، بحيث يمكنك متابعة العمل. 
+<span data-ttu-id="ce6a8-120">وبعد تشغيل الزر، يتم إرجاع التركيز إلى الموضع الأخير في الصفحة، بحيث يمكنك متابعة العمل.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-120">After the button is run, the focus is returned to your last position on the page, so that you can continue to work.</span></span> 
 
-[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
+<span data-ttu-id="ce6a8-121">[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)</span><span class="sxs-lookup"><span data-stu-id="ce6a8-121">[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)</span></span>
 
-يمكنك أيضًا بدء تشغيل البحث عن إجراء بالضغط على Ctrl+/ أو Alt+Q. اضغط على اختصار لوحة المفاتيح مرة أخرى لإرجاع التركيز إلى الموضع الأخير في الصفحة مرة أخرى.
+<span data-ttu-id="ce6a8-122">يمكنك أيضًا بدء تشغيل البحث عن إجراء بالضغط على Ctrl+/ أو Alt+Q.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-122">You can also start action search by pressing Ctrl+/ or Alt+Q.</span></span> <span data-ttu-id="ce6a8-123">اضغط على اختصار لوحة المفاتيح مرة أخرى لإرجاع التركيز إلى الموضع الأخير في الصفحة مرة أخرى.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-123">Press the keyboard shortcut again to return the focus to your last position on the page.</span></span>
 
-## <a name="understanding-the-results-list"></a>فهم قائمة النتائج
-غالبًا، في Finance and Operations، يجب أن تعرف كل من موقع و سياق الزر ليكون لديك فهم واضح بوظيفة هذا الزر. وبالتالي، يتم عرض معلومات إضافية لكل عنصر في قائمة النتائج، وذلك لمساعدتك على فهم وظيفة الأزرار التي تظهر في القائمة. وبشكل خاص، يتم عرض "مسار" الزر. قد يتضمن هذا المسار تسميات عناصر واجهة المستخدم التالية، حسب الاقتضاء:
+## <a name="understanding-the-results-list"></a><span data-ttu-id="ce6a8-124">فهم قائمة النتائج</span><span class="sxs-lookup"><span data-stu-id="ce6a8-124">Understanding the results list</span></span>
+<span data-ttu-id="ce6a8-125">غالبًا، في Finance and Operations، يجب أن تعرف كل من موقع و سياق الزر ليكون لديك فهم واضح بوظيفة هذا الزر.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-125">Often, in Finance and Operations, you must know both the location and the context of a button to fully understand the purpose of that button.</span></span> <span data-ttu-id="ce6a8-126">وبالتالي، يتم عرض معلومات إضافية لكل عنصر في قائمة النتائج، وذلك لمساعدتك على فهم وظيفة الأزرار التي تظهر في القائمة.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-126">Therefore, additional information is shown for each item in the results list, to help you understand exactly which buttons appear in the list.</span></span> <span data-ttu-id="ce6a8-127">وبشكل خاص، يتم عرض "مسار" الزر.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-127">In particular, the "path" of the button is shown.</span></span> <span data-ttu-id="ce6a8-128">قد يتضمن هذا المسار تسميات عناصر واجهة المستخدم التالية، حسب الاقتضاء:</span><span class="sxs-lookup"><span data-stu-id="ce6a8-128">This path might include the labels of the following UI elements, as relevant:</span></span>
 
--   علامة تبويب جزء الإجراءات
--   مجموعة الزر
--   زر القائمة (إذا كان الزر داخل زر قائمة)
--   فاصل القائمة (إذا كان الزر داخل مجموعة مسماة داخل زر قائمة)
--   مجموعة أو علامة تبويب في الصفحة (على سبيل المثال، اسم علامة تبويب سريعة)
+-   <span data-ttu-id="ce6a8-129">علامة تبويب جزء الإجراءات</span><span class="sxs-lookup"><span data-stu-id="ce6a8-129">Action Pane tab</span></span>
+-   <span data-ttu-id="ce6a8-130">مجموعة الزر</span><span class="sxs-lookup"><span data-stu-id="ce6a8-130">Button group</span></span>
+-   <span data-ttu-id="ce6a8-131">زر القائمة (إذا كان الزر داخل زر قائمة)</span><span class="sxs-lookup"><span data-stu-id="ce6a8-131">Menu button (if the button is inside a menu button)</span></span>
+-   <span data-ttu-id="ce6a8-132">فاصل القائمة (إذا كان الزر داخل مجموعة مسماة داخل زر قائمة)</span><span class="sxs-lookup"><span data-stu-id="ce6a8-132">Menu separator (if the button is inside a named group inside a menu button)</span></span>
+-   <span data-ttu-id="ce6a8-133">مجموعة أو علامة تبويب في الصفحة (على سبيل المثال، اسم علامة تبويب سريعة)</span><span class="sxs-lookup"><span data-stu-id="ce6a8-133">Group or tab on the page (for example, the name of a FastTab)</span></span>
 
-على سبيل المثال، يمكنك كتابة **tot** في حقل **البحث عن إجراء** ويتم الآن فحص قائمة النتائج. يتم تمييز الإدخال الأول، لزر يُسمى **الإجماليات**. كما يوضح أيضًا مسار زر **أمر المبيعات** &gt; **عرض** . يمثل زر **أمر المبيعات** جزءًا من المسار المناظر لتبويب **أمر المبيعات** في جزء الإجراءات، وجزء **عرض** من المسار المناظر لمجموعة **عرض** في علامة التبويب هذه. وبالمثل، يُخبرك مسار زر **الخصم الإجمالي** (**بيع** &gt; **حساب**) أن هذا الزر يقع في مجموعة **حساب** في علامة التبويب **بيع** من جزء الإجراءات. وبالتالي، تساعدك هذه المعلومات على فهم ما هو الزر الذي سيتم تشغيله بالظبط باستخدام وظيفة بحث الإجراء (إذا قمت باختيار هذا الزر في قائمة النتائج). 
+<span data-ttu-id="ce6a8-134">على سبيل المثال، يمكنك كتابة **tot** في حقل **البحث عن إجراء** ويتم الآن فحص قائمة النتائج.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-134">For example, you typed **tot** in the **action search** field and are now examining the results list.</span></span> <span data-ttu-id="ce6a8-135">يتم تمييز الإدخال الأول، لزر يُسمى **الإجماليات**.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-135">The first entry, for a button that is named **Totals**, is highlighted.</span></span> <span data-ttu-id="ce6a8-136">كما يوضح أيضًا مسار زر **أمر المبيعات** &gt; **عرض** .</span><span class="sxs-lookup"><span data-stu-id="ce6a8-136">A button path of **Sales order** &gt; **View** is also shown.</span></span> <span data-ttu-id="ce6a8-137">يمثل زر **أمر المبيعات** جزءًا من المسار المناظر لتبويب **أمر المبيعات** في جزء الإجراءات، وجزء **عرض** من المسار المناظر لمجموعة **عرض** في علامة التبويب هذه.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-137">The **Sales order** part of the path corresponds to the **Sales order** tab on the Action Pane, and the **View** part of the path corresponds to the **View** group on that tab.</span></span> <span data-ttu-id="ce6a8-138">وبالمثل، يُخبرك مسار زر **الخصم الإجمالي** (**بيع** &gt; **حساب**) أن هذا الزر يقع في مجموعة **حساب** في علامة التبويب **بيع** من جزء الإجراءات.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-138">Similarly, the path of the **Total discount** button (**Sell** &gt; **Calculate**) informs you that this button is located in the **Calculate** group on the **Sell** tab of the Action Pane.</span></span> <span data-ttu-id="ce6a8-139">وبالتالي، تساعدك هذه المعلومات على فهم ما هو الزر الذي سيتم تشغيله بالظبط باستخدام وظيفة بحث الإجراء (إذا قمت باختيار هذا الزر في قائمة النتائج).</span><span class="sxs-lookup"><span data-stu-id="ce6a8-139">Therefore, this information helps you understand exactly which button will be triggered by action search (if you select that button in the results list).</span></span> 
 
-[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
+<span data-ttu-id="ce6a8-140">[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)</span><span class="sxs-lookup"><span data-stu-id="ce6a8-140">[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)</span></span> 
 
-في المثال السابق، أظهرت عملية البحث عن إجراء نتائج من جزء الإجراءات القياسي في أعلى الصفحة. ومع ذلك، يعرض البحث عن إجراء أيضًا نتائج من أشرطة الأدوات المرئية الموجودة في أماكن أخرى في الصفحة. على سبيل المثال، تقوم بالبحث عن زر **المخزون الفعلي** الموجود في علامة التبويب السريعة **بنود أمر المبيعات**. في هذه الحالة، يُخبرك مسار الزر في قائمة النتائج (**بنود أمر المبيعات** &gt; **المخزون** &gt; **عرض**) أن هذا الزر يقع تحت **عرض** بعنوان زر قائمة **المخزون** في علامة التبويب السريعة **بنود أمر المبيعات**. 
+<span data-ttu-id="ce6a8-141">في المثال السابق، أظهرت عملية البحث عن إجراء نتائج من جزء الإجراءات القياسي في أعلى الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-141">In the previous example, action search showed results from the standard Action Pane at the top of a page.</span></span> <span data-ttu-id="ce6a8-142">ومع ذلك، يعرض البحث عن إجراء أيضًا نتائج من أشرطة الأدوات المرئية الموجودة في أماكن أخرى في الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-142">However, action search also shows results from visible toolbars that are located in other places on the page.</span></span> <span data-ttu-id="ce6a8-143">على سبيل المثال، تقوم بالبحث عن زر **المخزون الفعلي** الموجود في علامة التبويب السريعة **بنود أمر المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-143">For example, you're searching for the **On-hand inventory** button that is located on the **Sales order lines** FastTab.</span></span> <span data-ttu-id="ce6a8-144">في هذه الحالة، يُخبرك مسار الزر في قائمة النتائج (**بنود أمر المبيعات** &gt; **المخزون** &gt; **عرض**) أن هذا الزر يقع تحت **عرض** بعنوان زر قائمة **المخزون** في علامة التبويب السريعة **بنود أمر المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-144">In this case, the button path in the results list (**Sales order lines** &gt; **Inventory** &gt; **View**) informs you that this button is located under the **View** heading on the **Inventory** menu button on the **Sales order lines** FastTab.</span></span> 
 
-[![المخزون الفعلي](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+<span data-ttu-id="ce6a8-145">[![المخزون الفعلي](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)</span><span class="sxs-lookup"><span data-stu-id="ce6a8-145">[![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)</span></span>
 
-## <a name="action-search-vs-navigation-search"></a>البحث عن إجراء بحث مقابل البحث عن تنقل
-وعلى الرغم من أنه يتم استخدام البحث عن إجراء للبحث عن وتشغيل الإجراءات في صفحة، إلا أن هناك آلية بحث منفصلة للبحث والتنقل بين الصفحات في Finance and Operations. للمزيد من المعلومات حول هذه الميزة، راجع مقالة [‏‫بحث التنقل‬](navigation-search.md).
+## <a name="action-search-vs-navigation-search"></a><span data-ttu-id="ce6a8-146">البحث عن إجراء بحث مقابل البحث عن تنقل</span><span class="sxs-lookup"><span data-stu-id="ce6a8-146">Action search vs. Navigation search</span></span>
+<span data-ttu-id="ce6a8-147">وعلى الرغم من أنه يتم استخدام البحث عن إجراء للبحث عن وتشغيل الإجراءات في صفحة، إلا أن هناك آلية بحث منفصلة للبحث والتنقل بين الصفحات في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ce6a8-147">Whereas action search is intended to find and run actions on a page, there is a separate search mechanism for finding and navigating to pages in Finance and Operations.</span></span> <span data-ttu-id="ce6a8-148">للمزيد من المعلومات حول هذه الميزة، راجع مقالة [‏‫بحث التنقل‬](navigation-search.md).</span><span class="sxs-lookup"><span data-stu-id="ce6a8-148">For more information about that feature, see the [Navigation search](navigation-search.md) article.</span></span>
 
 
 

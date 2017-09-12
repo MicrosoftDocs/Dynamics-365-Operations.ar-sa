@@ -25,18 +25,18 @@ ms.lasthandoff: 08/09/2017
 
 ---
 
-# <a name="purchase-orders-for-a-project"></a>أوامر الشراء لمشروع
+# <a name="purchase-orders-for-a-project"></a><span data-ttu-id="c6925-104">أوامر الشراء لمشروع</span><span class="sxs-lookup"><span data-stu-id="c6925-104">Purchase orders for a project</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة مختف الأساليب التي يمكنك استخدامها لإنشاء أوامر شراء لمشروع. يتوقف الأسلوب الذي تستخدمه على غرض أمر الشراء، والوقت الذي يتم فيه استهلاك الأصناف التي تم شراؤها وتحميل المشروع تكاليفها.
+<span data-ttu-id="c6925-105">توضح هذه المقالة مختف الأساليب التي يمكنك استخدامها لإنشاء أوامر شراء لمشروع.</span><span class="sxs-lookup"><span data-stu-id="c6925-105">This article describes the various methods that you can use to create purchase orders for a project.</span></span> <span data-ttu-id="c6925-106">يتوقف الأسلوب الذي تستخدمه على غرض أمر الشراء، والوقت الذي يتم فيه استهلاك الأصناف التي تم شراؤها وتحميل المشروع تكاليفها.</span><span class="sxs-lookup"><span data-stu-id="c6925-106">The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.</span></span>
 
-في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، يمكنك استخدام أساليب متعددة لإنشاء أوامر شراء لمشروع. يتوقف الأسلوب الذي تستخدمه على غرض أمر الشراء، والوقت الذي يتم فيه استهلاك الأصناف التي تم شراؤها، والوقت الذي يتم فيه تحميل المشروع تكاليف الأصناف.
+<span data-ttu-id="c6925-107">في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، يمكنك استخدام أساليب متعددة لإنشاء أوامر شراء لمشروع.</span><span class="sxs-lookup"><span data-stu-id="c6925-107">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, you can use multiple methods to create purchase orders for a project.</span></span> <span data-ttu-id="c6925-108">يتوقف الأسلوب الذي تستخدمه على غرض أمر الشراء، والوقت الذي يتم فيه استهلاك الأصناف التي تم شراؤها، والوقت الذي يتم فيه تحميل المشروع تكاليف الأصناف.</span><span class="sxs-lookup"><span data-stu-id="c6925-108">The method that you use depends on the purpose of the purchase order, when the purchased items are consumed, and when the purchased items are charged to a project.</span></span>
 
-### <a name="methods-for-creating-a-purchase-order"></a>أساليب لإنشاء أمر شراء
+### <a name="methods-for-creating-a-purchase-order"></a><span data-ttu-id="c6925-109">أساليب لإنشاء أمر شراء</span><span class="sxs-lookup"><span data-stu-id="c6925-109">Methods for creating a purchase order</span></span>
 
-يمكنك استخدام أحد الأساليب التالية لإنشاء أمر شراء في المحاسبة وإدارة المشروع. يحدد غرض أمر الشراء الوقت الذي سيتم فيه استهلاك فيه أمر الشراء، وبالتالي إلى تحديد الوقت الذي سيتم فيه تحميل المشروع تكاليف الأصناف.
+<span data-ttu-id="c6925-110">يمكنك استخدام أحد الأساليب التالية لإنشاء أمر شراء في المحاسبة وإدارة المشروع.</span><span class="sxs-lookup"><span data-stu-id="c6925-110">You can use one of the following methods to create a purchase order in Project management and accounting.</span></span> <span data-ttu-id="c6925-111">يحدد غرض أمر الشراء الوقت الذي سيتم فيه استهلاك فيه أمر الشراء، وبالتالي إلى تحديد الوقت الذي سيتم فيه تحميل المشروع تكاليف الأصناف.</span><span class="sxs-lookup"><span data-stu-id="c6925-111">The purpose of the purchase order determines when the purchase order is consumed and, therefore, when items are charged to a project.</span></span>
 
 <table>
 <colgroup>
@@ -46,37 +46,37 @@ ms.lasthandoff: 08/09/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>الأسلوب</th>
-<th>الغرض</th>
-<th>استهلاك الأصناف</th>
+<th><span data-ttu-id="c6925-112">الأسلوب</span><span class="sxs-lookup"><span data-stu-id="c6925-112">Method</span></span></th>
+<th><span data-ttu-id="c6925-113">الغرض</span><span class="sxs-lookup"><span data-stu-id="c6925-113">Purpose</span></span></th>
+<th><span data-ttu-id="c6925-114">استهلاك الأصناف</span><span class="sxs-lookup"><span data-stu-id="c6925-114">Consumption of items</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>إنشاء أمر شراء مباشرةً من مشروع.</td>
-<td>استخدم هذه الطريقة لشراء أصناف من مورد خارجي للاستهلاك في مشروع. يمكنك إنشاء أمر الشراء باستخدام طريقتين:
+<td><span data-ttu-id="c6925-115">إنشاء أمر شراء مباشرةً من مشروع.</span><span class="sxs-lookup"><span data-stu-id="c6925-115">Create a purchase order directly from a project.</span></span></td>
+<td><span data-ttu-id="c6925-116">استخدم هذه الطريقة لشراء أصناف من مورد خارجي للاستهلاك في مشروع.</span><span class="sxs-lookup"><span data-stu-id="c6925-116">Use this method to purchase items from an external vendor for consumption on a project.</span></span> <span data-ttu-id="c6925-117">يمكنك إنشاء أمر الشراء باستخدام طريقتين:</span><span class="sxs-lookup"><span data-stu-id="c6925-117">You can create the purchase order in two ways:</span></span>
 <ul>
-<li>من المشروع نفسه. وفي هذه الحالة يكون المشروع معرفًا بالفعل لأمر الشراء.</li>
-<li>عن طريق الانتقال إلى أمر شراء المشروع. يجب تحديد كل من المورد والمشروع المراد إنشاء أمر الشراء لهما.</li>
+<li><span data-ttu-id="c6925-118">من المشروع نفسه.</span><span class="sxs-lookup"><span data-stu-id="c6925-118">From the project itself.</span></span> <span data-ttu-id="c6925-119">وفي هذه الحالة يكون المشروع معرفًا بالفعل لأمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="c6925-119">In this case, the project is already defined for the purchase order.</span></span></li>
+<li><span data-ttu-id="c6925-120">عن طريق الانتقال إلى أمر شراء المشروع.</span><span class="sxs-lookup"><span data-stu-id="c6925-120">By navigating to the project purchase order.</span></span> <span data-ttu-id="c6925-121">يجب تحديد كل من المورد والمشروع المراد إنشاء أمر الشراء لهما.</span><span class="sxs-lookup"><span data-stu-id="c6925-121">You must select both the vendor and the project to create the purchase order for.</span></span></li>
 </ul></td>
-<td>يتم استهلاك الأصناف عندما يتم تحديث فاتورة المورد.</td>
+<td><span data-ttu-id="c6925-122">يتم استهلاك الأصناف عندما يتم تحديث فاتورة المورد.</span><span class="sxs-lookup"><span data-stu-id="c6925-122">Items are consumed when the vendor invoice is updated.</span></span></td>
 </tr>
 <tr class="even">
-<td>إنشاء أمر شراء من أمر توريد.</td>
-<td>استخدم هذا الأسلوب لشراء الأصناف عندما تنشئ أمر مبيعات من مشروع.</td>
-<td>يتم استهلاك الأصناف عند فوترة أمر التوريد إلى العميل.</td>
+<td><span data-ttu-id="c6925-123">إنشاء أمر شراء من أمر توريد.</span><span class="sxs-lookup"><span data-stu-id="c6925-123">Create a purchase order from a sales order.</span></span></td>
+<td><span data-ttu-id="c6925-124">استخدم هذا الأسلوب لشراء الأصناف عندما تنشئ أمر مبيعات من مشروع.</span><span class="sxs-lookup"><span data-stu-id="c6925-124">Use this method to purchase items when you create a sales order from a project.</span></span></td>
+<td><span data-ttu-id="c6925-125">يتم استهلاك الأصناف عند فوترة أمر التوريد إلى العميل.</span><span class="sxs-lookup"><span data-stu-id="c6925-125">Items are consumed when the sales order is invoiced to the customer.</span></span></td>
 </tr>
 <tr class="odd">
-<td>إنشاء أمر شراء من أحد متطلبات الصنف.</td>
-<td>استخدم هذا الأسلوب لشراء الأصناف عندما تنشئ أحد متطلبات الصنف من مشروع.</td>
-<td>يتم استهلاك الأصناف عندما يتم تحديث إيصال تعبئة متطلبات الصنف.</td>
+<td><span data-ttu-id="c6925-126">إنشاء أمر شراء من أحد متطلبات الصنف.</span><span class="sxs-lookup"><span data-stu-id="c6925-126">Create a purchase order from an item requirement.</span></span></td>
+<td><span data-ttu-id="c6925-127">استخدم هذا الأسلوب لشراء الأصناف عندما تنشئ أحد متطلبات الصنف من مشروع.</span><span class="sxs-lookup"><span data-stu-id="c6925-127">Use this method to purchase items when you create an item requirement from a project.</span></span></td>
+<td><span data-ttu-id="c6925-128">يتم استهلاك الأصناف عندما يتم تحديث إيصال تعبئة متطلبات الصنف.</span><span class="sxs-lookup"><span data-stu-id="c6925-128">Items are consumed when the item requirement packing slip is updated.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE] 
-> عند تحديث فاتورة المورد أو إيصال تعبئة، فإنه تتم مطالبتك بتحديث إيصال التعبئة الخاص بمتطلبات الصنف.
+> <span data-ttu-id="c6925-129">عند تحديث فاتورة المورد أو إيصال تعبئة، فإنه تتم مطالبتك بتحديث إيصال التعبئة الخاص بمتطلبات الصنف.</span><span class="sxs-lookup"><span data-stu-id="c6925-129">When you update the vendor invoice or packing slip, you're prompted to update the packing slip on the item requirement.</span></span>
 
-للحصول على مزيد من المعلومات، راجع [تلقي الأصناف على أمر شراء من طلبات الصنف‬](tasks/receive-items-purchase-order-item-requirement.md).
+<span data-ttu-id="c6925-130">للحصول على مزيد من المعلومات، راجع [تلقي الأصناف على أمر شراء من طلبات الصنف‬](tasks/receive-items-purchase-order-item-requirement.md).</span><span class="sxs-lookup"><span data-stu-id="c6925-130">For more information, see [Receive items on purchase order from item requirement](tasks/receive-items-purchase-order-item-requirement.md).</span></span>
 
 

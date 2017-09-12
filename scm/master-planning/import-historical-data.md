@@ -18,45 +18,45 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 957626a283b750645adefa5176480e68cc27e4f1
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: c46b659a0ecffd6180fd0a76ff1b8d228f121571
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="import-historical-data-for-demand-forecasts"></a>استيراد البيانات التاريخية‬ للتنبؤات بالطلب
+# <a name="import-historical-data-for-demand-forecasts"></a><span data-ttu-id="2eb71-104">استيراد البيانات التاريخية‬ للتنبؤات بالطلب</span><span class="sxs-lookup"><span data-stu-id="2eb71-104">Import historical data for demand forecasts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-للمساعدة في ضمان دقة التنبؤات بالطلب، يجب أن تكون بيانات الطلب التاريخية لديك بمقدار مماثل لما يمكنك الحصول عليه لكل صنف أو مفتاح توزيع الصنف. إذا لم يكن قد تم بعد استيراد بيانات الطلب التاريخية، فاستخدم كيان البيانات **الطلب الخارجي التاريخي** (ReqDemPlanHistoricalExternalDemandEntity) في in Microsoft Dynamics 365 for Finance and Operations لاستيرادها.
+<span data-ttu-id="2eb71-105">للمساعدة في ضمان دقة التنبؤات بالطلب، يجب أن تكون بيانات الطلب التاريخية لديك بمقدار مماثل لما يمكنك الحصول عليه لكل صنف أو مفتاح توزيع الصنف.</span><span class="sxs-lookup"><span data-stu-id="2eb71-105">To help guarantee the accuracy of demand forecasts, you must have as much historical demand data as you can get per item or item allocation key.</span></span> <span data-ttu-id="2eb71-106">إذا لم يكن قد تم بعد استيراد بيانات الطلب التاريخية، فاستخدم كيان البيانات **الطلب الخارجي التاريخي** (ReqDemPlanHistoricalExternalDemandEntity) في in Microsoft Dynamics 365 for Finance and Operations لاستيرادها.</span><span class="sxs-lookup"><span data-stu-id="2eb71-106">If the historical demand data isn't already imported, use the **Historical external demand** (ReqDemPlanHistoricalExternalDemandEntity) data entity in Microsoft Dynamics 365 for Finance and Operations to import it.</span></span>
 
-في مساحة العمل **إدارة البيانات**، يمكنك الاطلاع على نظرة عامة على كافة الحقول الموجودة في الكيان.
+<span data-ttu-id="2eb71-107">في مساحة العمل **إدارة البيانات**، يمكنك الاطلاع على نظرة عامة على كافة الحقول الموجودة في الكيان.</span><span class="sxs-lookup"><span data-stu-id="2eb71-107">In the **Data management** workspace, you can see an overview of all the fields in the entity.</span></span>
 
-1. افتح مساحة العمل **إدارة البيانات**.
-2. انقر فوق لوحة **كيانات البيانات**.
-3. ابحث في قائمة الكيانات عن **الطلب الخارجي التاريخي**.
-4. انقر فوق **الحقول الهدف**. تُعتبر حقول الكيانات التالية إلزامية: الموقع (**DeliveringSiteId**)، والتاريخ (**DemandDate**) والكمية، (**DemandQuantity**)، وإما رقم الصنف (**ItemNumber**) أو مفتاح توزيع الصنف (**ProductAllocationKeyId**).
+1. <span data-ttu-id="2eb71-108">افتح مساحة العمل **إدارة البيانات**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-108">Open the **Data management** workspace.</span></span>
+2. <span data-ttu-id="2eb71-109">انقر فوق لوحة **كيانات البيانات**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-109">Click the **Data entities** tile.</span></span>
+3. <span data-ttu-id="2eb71-110">ابحث في قائمة الكيانات عن **الطلب الخارجي التاريخي**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-110">Search the entity list for **Historical external demand**.</span></span>
+4. <span data-ttu-id="2eb71-111">انقر فوق **الحقول الهدف**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-111">Click **Target fields**.</span></span> <span data-ttu-id="2eb71-112">تُعتبر حقول الكيانات التالية إلزامية: الموقع (**DeliveringSiteId**)، والتاريخ (**DemandDate**) والكمية، (**DemandQuantity**)، وإما رقم الصنف (**ItemNumber**) أو مفتاح توزيع الصنف (**ProductAllocationKeyId**).</span><span class="sxs-lookup"><span data-stu-id="2eb71-112">The following entity fields are mandatory: site (**DeliveringSiteId**), date (**DemandDate**), quantity (**DemandQuantity**), and either item number (**ItemNumber**) or item allocation key (**ProductAllocationKeyId**).</span></span>
 
-لاستخدام كيان البيانات، يجب أن يكون لديك ملف Microsoft Excel أو ملف قيم تفصلها الفواصل (CSV) يحتوي على بيانات الطلب التاريخية. يوضح المثال التالي كيفية استيراد البيانات من ملف CSV.
+<span data-ttu-id="2eb71-113">لاستخدام كيان البيانات، يجب أن يكون لديك ملف Microsoft Excel أو ملف قيم تفصلها الفواصل (CSV) يحتوي على بيانات الطلب التاريخية.</span><span class="sxs-lookup"><span data-stu-id="2eb71-113">To use the data entity, you must have a Microsoft Excel file or comma-separated values (CSV) file that contains the historical demand data.</span></span> <span data-ttu-id="2eb71-114">يوضح المثال التالي كيفية استيراد البيانات من ملف CSV.</span><span class="sxs-lookup"><span data-stu-id="2eb71-114">The following example shows how to import the data from a CSV file.</span></span>
 
-## <a name="example"></a>مثال
+## <a name="example"></a><span data-ttu-id="2eb71-115">مثال</span><span class="sxs-lookup"><span data-stu-id="2eb71-115">Example</span></span>
 
-يمكن استخدام الملف التالي كمثال. قم بتنزيل [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast). يحتوي هذا الملف على بيانات الطلب التاريخية للصنف D0001. إنه يحتوي على الحقول الإلزامية التالية فقط: الموقع والكمية وتاريخ الطلب.
+<span data-ttu-id="2eb71-116">يمكن استخدام الملف التالي كمثال.</span><span class="sxs-lookup"><span data-stu-id="2eb71-116">You can use the following file as an example.</span></span> <span data-ttu-id="2eb71-117">قم بتنزيل [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span><span class="sxs-lookup"><span data-stu-id="2eb71-117">Download the [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span></span> <span data-ttu-id="2eb71-118">يحتوي هذا الملف على بيانات الطلب التاريخية للصنف D0001.</span><span class="sxs-lookup"><span data-stu-id="2eb71-118">This file contains the historical demand data for item D0001.</span></span> <span data-ttu-id="2eb71-119">إنه يحتوي على الحقول الإلزامية التالية فقط: الموقع والكمية وتاريخ الطلب.</span><span class="sxs-lookup"><span data-stu-id="2eb71-119">It contains only the following mandatory fields: site, quantity, and the demand date.</span></span>
 
-1. حدد الشركة لاستيراد بيانات الطلب التاريخية إليها.
-2. افتح مساحة العمل **إدارة البيانات**.
-3. انقر فوق اللوحة **استيراد**.
-4. أدخل اسمًا لمشروع الاستيراد، مثل **استيراد الطلب التاريخي للصنف D0001**.
-5. في الحقل **تنسيق بيانات المصدر** ، حدد تنسيق الملف للملف الذي تريد استيراده. لاستيراد الملف HistoricalDemandData لهذا المثال، حدد **CSV**.
-6. في الحقل **اسم الكيان**، حدد **الطلب الخارجي التاريخي‬**.
-7. احفظ الملف في الكمبيوتر، ثم قم بتحميله.
-8. انقر فوق **استيراد**.
-9. تفتح صفحة **ملخص التنفيذ** بشكل تلقائي. تحقق من صحة البيانات التي تم استيرادها في الصفحة.
+1. <span data-ttu-id="2eb71-120">حدد الشركة لاستيراد بيانات الطلب التاريخية إليها.</span><span class="sxs-lookup"><span data-stu-id="2eb71-120">Select the company to import the historical demand data into.</span></span>
+2. <span data-ttu-id="2eb71-121">افتح مساحة العمل **إدارة البيانات**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-121">Open the **Data management** workspace.</span></span>
+3. <span data-ttu-id="2eb71-122">انقر فوق اللوحة **استيراد**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-122">Click the **Import** tile.</span></span>
+4. <span data-ttu-id="2eb71-123">أدخل اسمًا لمشروع الاستيراد، مثل **استيراد الطلب التاريخي للصنف D0001**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-123">Enter a name for the import project, such as **Import historical demand for item D0001**.</span></span>
+5. <span data-ttu-id="2eb71-124">في الحقل **تنسيق بيانات المصدر** ، حدد تنسيق الملف للملف الذي تريد استيراده.</span><span class="sxs-lookup"><span data-stu-id="2eb71-124">In the **Source data format** field, select the file format of the file that you're importing.</span></span> <span data-ttu-id="2eb71-125">لاستيراد الملف HistoricalDemandData لهذا المثال، حدد **CSV**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-125">To import the HistoricalDemandData file for this example, select **CSV**.</span></span>
+6. <span data-ttu-id="2eb71-126">في الحقل **اسم الكيان**، حدد **الطلب الخارجي التاريخي‬**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-126">In the **Entity name** field, select **Historical external demand**.</span></span>
+7. <span data-ttu-id="2eb71-127">احفظ الملف في الكمبيوتر، ثم قم بتحميله.</span><span class="sxs-lookup"><span data-stu-id="2eb71-127">Save the file to your computer, and then upload it.</span></span>
+8. <span data-ttu-id="2eb71-128">انقر فوق **استيراد**.</span><span class="sxs-lookup"><span data-stu-id="2eb71-128">Click **Import**.</span></span>
+9. <span data-ttu-id="2eb71-129">تفتح صفحة **ملخص التنفيذ** بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="2eb71-129">The **Execution summary** page is opened automatically.</span></span> <span data-ttu-id="2eb71-130">تحقق من صحة البيانات التي تم استيرادها في الصفحة.</span><span class="sxs-lookup"><span data-stu-id="2eb71-130">Verify the imported data on the page.</span></span>
 
-بعد استيراد بيانات الطلب التاريخية، يمكنك إنشاء تنبؤ بالطلب.
+<span data-ttu-id="2eb71-131">بعد استيراد بيانات الطلب التاريخية، يمكنك إنشاء تنبؤ بالطلب.</span><span class="sxs-lookup"><span data-stu-id="2eb71-131">After you've imported the historical demand data, you can generate a demand forecast.</span></span>
 
-## <a name="see-also"></a>راجع أيضًا
+## <a name="see-also"></a><span data-ttu-id="2eb71-132">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="2eb71-132">See also</span></span>
 
-[إنشاء تنبؤ أساسي إحصائي](generate-statistical-baseline-forecast.md)
+[<span data-ttu-id="2eb71-133">إنشاء تنبؤ أساسي إحصائي</span><span class="sxs-lookup"><span data-stu-id="2eb71-133">Generate a statistical baseline forecast</span></span>](generate-statistical-baseline-forecast.md)
 

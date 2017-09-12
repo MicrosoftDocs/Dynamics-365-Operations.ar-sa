@@ -25,222 +25,222 @@ ms.lasthandoff: 08/10/2017
 
 ---
 
-# <a name="expense-management-mobile-workspace"></a>مساحة عمل محمولة لإدارة المصروفات
+# <a name="expense-management-mobile-workspace"></a><span data-ttu-id="d9845-105">مساحة عمل محمولة لإدارة المصروفات</span><span class="sxs-lookup"><span data-stu-id="d9845-105">Expense management mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **إدارة المصروفات**. تسمح مساحة العمل هذه للمستخدمين بالتقاط إيصال وتحميله، مما يمكنهم من إرفاقه بتقرير مصروفات فيما بعد. باستطاعة المستخدمين أيضًا إنشاء بند مصروفات بسرعة باستخدام إيصال استلام مرفق، وإنشاء وإدارة تقارير المصروفات الخاصة بهم. بالإضافة إلى ذلك، باستطاعة المعتمدين‬ استخدام العمل المحمولة **إدارة المصروفات** لعرض تقارير المصروفات التي تم تعيينها إليهم، وإما الموافقة على تقارير المصروفات هذه أو رفضها.
+<span data-ttu-id="d9845-106">يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **إدارة المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d9845-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="d9845-107">تسمح مساحة العمل هذه للمستخدمين بالتقاط إيصال وتحميله، مما يمكنهم من إرفاقه بتقرير مصروفات فيما بعد.</span><span class="sxs-lookup"><span data-stu-id="d9845-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="d9845-108">باستطاعة المستخدمين أيضًا إنشاء بند مصروفات بسرعة باستخدام إيصال استلام مرفق، وإنشاء وإدارة تقارير المصروفات الخاصة بهم.</span><span class="sxs-lookup"><span data-stu-id="d9845-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="d9845-109">بالإضافة إلى ذلك، باستطاعة المعتمدين‬ استخدام العمل المحمولة **إدارة المصروفات** لعرض تقارير المصروفات التي تم تعيينها إليهم، وإما الموافقة على تقارير المصروفات هذه أو رفضها.</span><span class="sxs-lookup"><span data-stu-id="d9845-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
 
-تهدف مساحة العمل المحمولة هذه إلى استخدامها بواسطة تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="d9845-110">تهدف مساحة العمل المحمولة هذه إلى استخدامها بواسطة تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="d9845-110">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
 
-## <a name="overview"></a>نظرة عامة
+## <a name="overview"></a><span data-ttu-id="d9845-111">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="d9845-111">Overview</span></span>
 
-يتطلب الكثير من المؤسسات إرفاق نسخة الإيصال بتقرير مصروفات يتعلق بالسفر أو العمل يقدمه الموظف للحصول على التعويض. تسمح مساحة العمل المحمولة **إدارة المصروفات** للمستخدمين بإنشاء بنود مصروفات جديدة بسرعة على جهاز محمول من اختيارهم باستخدام صورة إيصال مرفقة. بدلاً من ذلك، باستطاعة المستخدمين التقاط صورة لإيصال المستخدمين ثم إرفاقه بتقرير مصروفات فيما بعد. باستطاعة الموظفين أيضًا إنشاء تقارير مصروفاتهم وإدارتها، ثم إرسالها للموافقة عليها والحصول على التعويض عن طريق استخدام جهازهم المحمول.
+<span data-ttu-id="d9845-112">يتطلب الكثير من المؤسسات إرفاق نسخة الإيصال بتقرير مصروفات يتعلق بالسفر أو العمل يقدمه الموظف للحصول على التعويض.</span><span class="sxs-lookup"><span data-stu-id="d9845-112">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="d9845-113">تسمح مساحة العمل المحمولة **إدارة المصروفات** للمستخدمين بإنشاء بنود مصروفات جديدة بسرعة على جهاز محمول من اختيارهم باستخدام صورة إيصال مرفقة.</span><span class="sxs-lookup"><span data-stu-id="d9845-113">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="d9845-114">بدلاً من ذلك، باستطاعة المستخدمين التقاط صورة لإيصال المستخدمين ثم إرفاقه بتقرير مصروفات فيما بعد.</span><span class="sxs-lookup"><span data-stu-id="d9845-114">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="d9845-115">باستطاعة الموظفين أيضًا إنشاء تقارير مصروفاتهم وإدارتها، ثم إرسالها للموافقة عليها والحصول على التعويض عن طريق استخدام جهازهم المحمول.</span><span class="sxs-lookup"><span data-stu-id="d9845-115">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
 
-بشكل أكثر تحديدًا، تسمح مساحة العمل المحمولة **دليل الشركة** للمستخدمين بتنفيذ هذه المهام:
+<span data-ttu-id="d9845-116">بشكل أكثر تحديدًا، تسمح مساحة العمل المحمولة **دليل الشركة** للمستخدمين بتنفيذ هذه المهام:</span><span class="sxs-lookup"><span data-stu-id="d9845-116">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- التقاط صورة للإيصال وتحميلها إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. يمكنك عندئذٍ إرفاق هذه الصورة بتقرير مصروفات فيما بعد.
-- تحميل ملف كإيصال تم التقاطه. يمكنك عندئذٍ إرفاق هذه الملف بتقرير مصروفات فيما بعد.
-- إنشاء بند مصروفات جديد باستخدام إيصال مرفق. يمكنك عندئذٍ إضافة البند إلى تقرير مصروفات فيما بعد، وإرساله للموافقة عليه والحصول على التعويض.
+- <span data-ttu-id="d9845-117">التقاط صورة للإيصال وتحميلها إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="d9845-117">Take a photo of a receipt, and upload it to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="d9845-118">يمكنك عندئذٍ إرفاق هذه الصورة بتقرير مصروفات فيما بعد.</span><span class="sxs-lookup"><span data-stu-id="d9845-118">You can then attach that photo to an expense report later.</span></span>
+- <span data-ttu-id="d9845-119">تحميل ملف كإيصال تم التقاطه.</span><span class="sxs-lookup"><span data-stu-id="d9845-119">Upload a file as a captured receipt.</span></span> <span data-ttu-id="d9845-120">يمكنك عندئذٍ إرفاق هذه الملف بتقرير مصروفات فيما بعد.</span><span class="sxs-lookup"><span data-stu-id="d9845-120">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="d9845-121">إنشاء بند مصروفات جديد باستخدام إيصال مرفق.</span><span class="sxs-lookup"><span data-stu-id="d9845-121">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="d9845-122">يمكنك عندئذٍ إضافة البند إلى تقرير مصروفات فيما بعد، وإرساله للموافقة عليه والحصول على التعويض.</span><span class="sxs-lookup"><span data-stu-id="d9845-122">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تحديث يوليو 2017، فيمكنك أيضًا استخدام هذه الميزات:
+<span data-ttu-id="d9845-123">إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تحديث يوليو 2017، فيمكنك أيضًا استخدام هذه الميزات:</span><span class="sxs-lookup"><span data-stu-id="d9845-123">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, you can also use these features:</span></span>
 
-- إنشاء تقرير مصروفات جديد.
-- إرفاق حركات بطاقات الائتمان والنفقات الأخرى التي تم إنشاؤها مسبقًا بتقرير مصروفات.
-- إنشاء مصروفات لتقرير مصروفات.
-- إرفاق إيصال استلام أي من مصروفات تقرير مصروفات، إما بالتقاط صورة لإيصال الاستلام أو بتحميل ملف كإيصال استلام تم تصويره.
-- إضافة قائمة الضيوف إلى أحد المصروفات، بحسب سياسة المصروفات المتبعة في الشركة.
-- تفصيل المصروفات، بحسب سياسة المصروفات المتبعة في الشركة.
-- إرسال تقرير مصروفات للموافقة والتعويض.
-- قبول أو رفض تقارير المصروفات التي تم تعيينك كمعتمد لها.
+- <span data-ttu-id="d9845-124">إنشاء تقرير مصروفات جديد.</span><span class="sxs-lookup"><span data-stu-id="d9845-124">Create a new expense report.</span></span>
+- <span data-ttu-id="d9845-125">إرفاق حركات بطاقات الائتمان والنفقات الأخرى التي تم إنشاؤها مسبقًا بتقرير مصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-125">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="d9845-126">إنشاء مصروفات لتقرير مصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-126">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="d9845-127">إرفاق إيصال استلام أي من مصروفات تقرير مصروفات، إما بالتقاط صورة لإيصال الاستلام أو بتحميل ملف كإيصال استلام تم تصويره.</span><span class="sxs-lookup"><span data-stu-id="d9845-127">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="d9845-128">إضافة قائمة الضيوف إلى أحد المصروفات، بحسب سياسة المصروفات المتبعة في الشركة.</span><span class="sxs-lookup"><span data-stu-id="d9845-128">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="d9845-129">تفصيل المصروفات، بحسب سياسة المصروفات المتبعة في الشركة.</span><span class="sxs-lookup"><span data-stu-id="d9845-129">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="d9845-130">إرسال تقرير مصروفات للموافقة والتعويض.</span><span class="sxs-lookup"><span data-stu-id="d9845-130">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="d9845-131">قبول أو رفض تقارير المصروفات التي تم تعيينك كمعتمد لها.</span><span class="sxs-lookup"><span data-stu-id="d9845-131">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>المتطلبات الأساسية
-تختلف المتطلبات الأساسية، بناءً على إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
+## <a name="prerequisites"></a><span data-ttu-id="d9845-132">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="d9845-132">Prerequisites</span></span>
+<span data-ttu-id="d9845-133">تختلف المتطلبات الأساسية، بناءً على إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.</span><span class="sxs-lookup"><span data-stu-id="d9845-133">The prerequisites vary, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>يلزم وجود المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition تحديث يوليو 2017 
-إذا تم نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تحديث يوليو 2017 لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **إدارة المصروفات**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="d9845-134">يلزم وجود المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition تحديث يوليو 2017</span><span class="sxs-lookup"><span data-stu-id="d9845-134">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="d9845-135">إذا تم نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تحديث يوليو 2017 لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **إدارة المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d9845-135">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> <span data-ttu-id="d9845-136">للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="d9845-136">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث
-إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="d9845-137">المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث</span><span class="sxs-lookup"><span data-stu-id="d9845-137">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="d9845-138">إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية.</span><span class="sxs-lookup"><span data-stu-id="d9845-138">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>المتطلب الأساسي</th>
-<th>الدور</th>
-<th>‏‏الوصف</th>
+<th><span data-ttu-id="d9845-139">المتطلب الأساسي</span><span class="sxs-lookup"><span data-stu-id="d9845-139">Prerequisite</span></span></th>
+<th><span data-ttu-id="d9845-140">الدور</span><span class="sxs-lookup"><span data-stu-id="d9845-140">Role</span></span></th>
+<th><span data-ttu-id="d9845-141">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="d9845-141">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>تطبيق قاعدة المعارف 4019015.</td>
-<td>مسؤول النظام</td>
-<td>إن KB 4019015 عبارة عن تحديث X++ أو إصلاح عاجل لبيانات التعريف يحتوي على مساحة العمل المحمولة <strong>إدارة المصروفات</strong>. لتطبيق KB 4019015، يجب أن يتبع مسؤول النظام الخطوات التالية.
+<td><span data-ttu-id="d9845-142">تطبيق قاعدة المعارف 4019015.</span><span class="sxs-lookup"><span data-stu-id="d9845-142">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="d9845-143">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="d9845-143">System administrator</span></span></td>
+<td><span data-ttu-id="d9845-144">إن KB 4019015 عبارة عن تحديث X++ أو إصلاح عاجل لبيانات التعريف يحتوي على مساحة العمل المحمولة <strong>إدارة المصروفات</strong>.</span><span class="sxs-lookup"><span data-stu-id="d9845-144">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="d9845-145">لتطبيق KB 4019015، يجب أن يتبع مسؤول النظام الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="d9845-145">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">تنزيل الإصلاح العاجل لبيانات التعريف من Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على النموذجين <strong>‎ApplicationSuite</strong> و<strong>ExpenseMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة القابلة للنشر</a>.</li>
+<li><span data-ttu-id="d9845-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">تنزيل الإصلاح العاجل لبيانات التعريف من Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="d9845-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="d9845-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</span><span class="sxs-lookup"><span data-stu-id="d9845-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="d9845-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على النموذجين <strong>‎ApplicationSuite</strong> و<strong>ExpenseMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</span><span class="sxs-lookup"><span data-stu-id="d9845-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="d9845-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة القابلة للنشر</a>.</span><span class="sxs-lookup"><span data-stu-id="d9845-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>نشر مساحة العمل المحمولة <strong>إدارة المصروفات</strong>.</td>
-<td>مسؤول النظام</td>
-<td>راجع <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل محمولة</a></td>
+<td><span data-ttu-id="d9845-150">نشر مساحة العمل المحمولة <strong>إدارة المصروفات</strong>.</span><span class="sxs-lookup"><span data-stu-id="d9845-150">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="d9845-151">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="d9845-151">System administrator</span></span></td>
+<td><span data-ttu-id="d9845-152">راجع <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل محمولة</a></span><span class="sxs-lookup"><span data-stu-id="d9845-152">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>تنزيل وتثبيت تطبيق Dynamics 365 for Operations للأجهزة المحمولة
-تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a><span data-ttu-id="d9845-153">تنزيل وتثبيت تطبيق Dynamics 365 for Operations للأجهزة المحمولة</span><span class="sxs-lookup"><span data-stu-id="d9845-153">Download and install the Dynamics 365 for Operations mobile app</span></span>
+<span data-ttu-id="d9845-154">تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:</span><span class="sxs-lookup"><span data-stu-id="d9845-154">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
-- [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="d9845-155">لهواتف Android</span><span class="sxs-lookup"><span data-stu-id="d9845-155">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="d9845-156">لهواتف iPhone</span><span class="sxs-lookup"><span data-stu-id="d9845-156">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>تسجيل الدخول إلى تطبيق الهاتف الجوال
-1. ابدأ تشغيل التطبيق على جهازك المحمول.
-2. أدخل عنوان URL لـ Dynamics 365.
-4. في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
-5. بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="d9845-157">تسجيل الدخول إلى تطبيق الهاتف الجوال</span><span class="sxs-lookup"><span data-stu-id="d9845-157">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="d9845-158">ابدأ تشغيل التطبيق على جهازك المحمول.</span><span class="sxs-lookup"><span data-stu-id="d9845-158">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="d9845-159">أدخل عنوان URL لـ Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="d9845-159">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="d9845-160">في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="d9845-160">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="d9845-161">أدخل بيانات اعتمادك.</span><span class="sxs-lookup"><span data-stu-id="d9845-161">Enter your credentials.</span></span>
+5. <span data-ttu-id="d9845-162">بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك.</span><span class="sxs-lookup"><span data-stu-id="d9845-162">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="d9845-163">تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.</span><span class="sxs-lookup"><span data-stu-id="d9845-163">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
 
-[![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="d9845-164">[![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="d9845-164">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>التقاط إيصال باستخدام مساحة العمل المحمولة لإدارة المصروفات
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="d9845-165">التقاط إيصال باستخدام مساحة العمل المحمولة لإدارة المصروفات</span><span class="sxs-lookup"><span data-stu-id="d9845-165">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. على جهازك المحمول، افتح مساحة العمل **إدارة المصروفات**.
-2. حدد **التقاط الإيصال**.
-3. حدد **التقاط صورة‬** أو **اختيار صورة**.
-4. اتبع إحدى الخطوات التالية:
+1. <span data-ttu-id="d9845-166">على جهازك المحمول، افتح مساحة العمل **إدارة المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d9845-166">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="d9845-167">حدد **التقاط الإيصال**.</span><span class="sxs-lookup"><span data-stu-id="d9845-167">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="d9845-168">حدد **التقاط صورة‬** أو **اختيار صورة**.</span><span class="sxs-lookup"><span data-stu-id="d9845-168">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="d9845-169">اتبع إحدى الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-169">Follow one of these steps:</span></span>
 
-    - إذا حددت **التقاط صورة‬**، فاتبع الخطوات التالية:
+    - <span data-ttu-id="d9845-170">إذا حددت **التقاط صورة‬**، فاتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-170">If you selected **Take photo**, follow these steps:</span></span>
 
-        1. يتم نقلك إلى الكاميرا على جهازك المحمول، بحيث يمكنك التقاط صورة للإيصال. عند الانتهاء من التقاط صورة، حدد **موافق** للموافقة على الصورة.
-        2. اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.
+        1. <span data-ttu-id="d9845-171">يتم نقلك إلى الكاميرا على جهازك المحمول، بحيث يمكنك التقاط صورة للإيصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-171">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="d9845-172">عند الانتهاء من التقاط صورة، حدد **موافق** للموافقة على الصورة.</span><span class="sxs-lookup"><span data-stu-id="d9845-172">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+        2. <span data-ttu-id="d9845-173">اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.</span><span class="sxs-lookup"><span data-stu-id="d9845-173">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - إذا حددت **اختيار صورة**، فاتبع الخطوات التالية:
+    - <span data-ttu-id="d9845-174">إذا حددت **اختيار صورة**، فاتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-174">If you selected **Choose image**, follow these steps:</span></span>
 
-        1. حدد صورة في القائمة.
-        2. اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.
+        1. <span data-ttu-id="d9845-175">حدد صورة في القائمة.</span><span class="sxs-lookup"><span data-stu-id="d9845-175">Select an image in the list.</span></span>
+        2. <span data-ttu-id="d9845-176">اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.</span><span class="sxs-lookup"><span data-stu-id="d9845-176">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. حدد **تم**.
+5. <span data-ttu-id="d9845-177">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-177">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>إدخال المصروفات بسرعة باستخدام مساحة العمل المحمولة "إدارة المصروفات"
-1. على جهازك المحمول، افتح مساحة العمل **إدارة المصروفات**.
-2. حدد **إدخال مصروفات سريعة**.
-3. حدد فئة المصروفات. يمكن الآن رؤية قائمة بفئات المصروفة تم تحميلها على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). إذا لم تكن فئتك موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت. ابحث حسب فئة المصروفات، أو قم بالتبديل إلى البحث حسب نوع المصروفات.
-4. أدخل تاريخ الحركة للمصروفات.
-5. اختياري: أدخل التاجر للمصروفات.
-6. أدخل مبلغ المصروفات.
-7. حدد عملة المصروفات. يمكن الآن رؤية قائمة بأكواد العملات التي تم تحميلها على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، يتم تحميل 400 عملة، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). إذا لم تكن عملتك موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت. ابحث حسب العملة أو قم بالتبديل إلى البحث حسب الاسم.
-8. حدد **التقاط صورة‬** أو **اختيار صورة**.
-9. اتبع إحدى الخطوات التالية:
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="d9845-178">إدخال المصروفات بسرعة باستخدام مساحة العمل المحمولة "إدارة المصروفات"</span><span class="sxs-lookup"><span data-stu-id="d9845-178">Quickly enter expenses by using the Expense management mobile workspace</span></span>
+1. <span data-ttu-id="d9845-179">على جهازك المحمول، افتح مساحة العمل **إدارة المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d9845-179">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="d9845-180">حدد **إدخال مصروفات سريعة**.</span><span class="sxs-lookup"><span data-stu-id="d9845-180">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="d9845-181">حدد فئة المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-181">Select the category for the expense.</span></span> <span data-ttu-id="d9845-182">يمكن الآن رؤية قائمة بفئات المصروفة تم تحميلها على تطبيقك للاستخدام دون اتصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-182">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="d9845-183">بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم.</span><span class="sxs-lookup"><span data-stu-id="d9845-183">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="d9845-184">للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="d9845-184">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="d9845-185">إذا لم تكن فئتك موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت.</span><span class="sxs-lookup"><span data-stu-id="d9845-185">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="d9845-186">ابحث حسب فئة المصروفات، أو قم بالتبديل إلى البحث حسب نوع المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-186">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="d9845-187">أدخل تاريخ الحركة للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-187">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="d9845-188">اختياري: أدخل التاجر للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-188">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="d9845-189">أدخل مبلغ المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-189">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="d9845-190">حدد عملة المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-190">Select the currency of the expense.</span></span> <span data-ttu-id="d9845-191">يمكن الآن رؤية قائمة بأكواد العملات التي تم تحميلها على تطبيقك للاستخدام دون اتصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-191">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="d9845-192">بشكل افتراضي، يتم تحميل 400 عملة، ولكن باستطاعة المطور تغيير هذا الرقم.</span><span class="sxs-lookup"><span data-stu-id="d9845-192">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="d9845-193">للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="d9845-193">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="d9845-194">إذا لم تكن عملتك موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت.</span><span class="sxs-lookup"><span data-stu-id="d9845-194">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="d9845-195">ابحث حسب العملة أو قم بالتبديل إلى البحث حسب الاسم.</span><span class="sxs-lookup"><span data-stu-id="d9845-195">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="d9845-196">حدد **التقاط صورة‬** أو **اختيار صورة**.</span><span class="sxs-lookup"><span data-stu-id="d9845-196">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="d9845-197">اتبع إحدى الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-197">Follow one of these steps:</span></span>
 
-    - إذا حددت **التقاط صورة**، فسيتم نقلك إلى الكاميرا على جهازك المحمول، بحيث يمكنك التقاط صورة للإيصال. عند الانتهاء من التقاط صورة، حدد **موافق** للموافقة على الصورة.
-    - إذا حددت **اختيار صورة**، فحدد صورة في القائمة.
+    - <span data-ttu-id="d9845-198">إذا حددت **التقاط صورة**، فسيتم نقلك إلى الكاميرا على جهازك المحمول، بحيث يمكنك التقاط صورة للإيصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-198">If you selected **Take photo**, you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="d9845-199">عند الانتهاء من التقاط صورة، حدد **موافق** للموافقة على الصورة.</span><span class="sxs-lookup"><span data-stu-id="d9845-199">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="d9845-200">إذا حددت **اختيار صورة**، فحدد صورة في القائمة.</span><span class="sxs-lookup"><span data-stu-id="d9845-200">If you selected **Choose image**, select an image in the list.</span></span>
 
-10. حدد **تم**.
+10. <span data-ttu-id="d9845-201">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-201">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>الموافقة على تقرير مصروفات باستخدام مساحة العمل المحمولة "إدارة المصروفات" (إذا كنت تستخدم تحديث يوليو 2017)
-1. على جهازك المحمول، افتح مساحة العمل **إدارة المصروفات**.
-2. يعرض الخيار **الموافقات على المصروفات‬** عدد تقارير المصروفات التي تم تعيينها لك للموافقة عليها. يتم تحديث الرقم كل 30 دقيقة تقريبًا. حدد **الموافقات على المصروفات**.
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="d9845-202">الموافقة على تقرير مصروفات باستخدام مساحة العمل المحمولة "إدارة المصروفات" (إذا كنت تستخدم تحديث يوليو 2017)</span><span class="sxs-lookup"><span data-stu-id="d9845-202">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="d9845-203">على جهازك المحمول، افتح مساحة العمل **إدارة المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d9845-203">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="d9845-204">يعرض الخيار **الموافقات على المصروفات‬** عدد تقارير المصروفات التي تم تعيينها لك للموافقة عليها.</span><span class="sxs-lookup"><span data-stu-id="d9845-204">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="d9845-205">يتم تحديث الرقم كل 30 دقيقة تقريبًا.</span><span class="sxs-lookup"><span data-stu-id="d9845-205">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="d9845-206">حدد **الموافقات على المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d9845-206">Select **Expense approvals**.</span></span>
 
-    تظهر قائمة بتقارير المصروفات التي تم تعيينها لك للموافقة عليها.
+    <span data-ttu-id="d9845-207">تظهر قائمة بتقارير المصروفات التي تم تعيينها لك للموافقة عليها.</span><span class="sxs-lookup"><span data-stu-id="d9845-207">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. حدد تقرير مصروفات لعرض تفاصيل المصروفات الخاصة به.
-4. حدد أحد المصروفات لعرض التفاصيل الخاصة به. تتضمن المعلومات التي تظهر لأحد المصروفات أي إيصال استلام وضيف وتفاصيل البنود.
-5. بالعودة إلى صفحة **تقرير المصروفات**، حدد لقبول أو رفض تقرير المصروفات.
-6. أدخل أية تعليقات لإجراء الموافقة.
-7. حدد **تم**.
+3. <span data-ttu-id="d9845-208">حدد تقرير مصروفات لعرض تفاصيل المصروفات الخاصة به.</span><span class="sxs-lookup"><span data-stu-id="d9845-208">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="d9845-209">حدد أحد المصروفات لعرض التفاصيل الخاصة به.</span><span class="sxs-lookup"><span data-stu-id="d9845-209">Select an expense to view the details for it.</span></span> <span data-ttu-id="d9845-210">تتضمن المعلومات التي تظهر لأحد المصروفات أي إيصال استلام وضيف وتفاصيل البنود.</span><span class="sxs-lookup"><span data-stu-id="d9845-210">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="d9845-211">بالعودة إلى صفحة **تقرير المصروفات**، حدد لقبول أو رفض تقرير المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-211">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="d9845-212">أدخل أية تعليقات لإجراء الموافقة.</span><span class="sxs-lookup"><span data-stu-id="d9845-212">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="d9845-213">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-213">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>إنشاء تقرير مصروفات جديد وإرساله للموافقة باستخدام مساحة العمل المحمولة "إدارة المصروفات" (إذا كنت تستخدم تحديث يوليو 2017)
-1. على جهازك المحمول، افتح مساحة العمل **إدارة المصروفات**.
-2. حدد **إدخال المصروفات**.
-3. حدد **تقرير جديد**، أو حدد تقرير مصروفات موجودًا في القائمة.
-4. لتقارير المصروفات الجديدة، أدخل الغرض وأية معلومات إضافية متوفرة. تختلف هذه المعلومات، بحسب الطريقة التي تم بها تكوين إدارة المصروفات لشركتك.
-5. حدد **تم**.
-6. لإضافة مصروفات موجودة، مثل حركات بطاقات الائتمان، إلى تقرير المصروفات، حدد **إرفاق**.
-7. حدد مصروفًا أو أكثر في القائمة.
-8. حدد **تم**.
-9. لإضافة مصروفات جديدة إلى تقرير المصروفات، حدد **مصروفات جديدة**.
-10. حدد فئة المصروفات. يمكن الآن رؤية قائمة بفئات المصروفة تم تحميلها على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). إذا لم تكن فئتك موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت. ابحث حسب فئة المصروفات، أو قم بالتبديل إلى البحث حسب نوع المصروفات.
-11. اختياري: أدخل التاجر للمصروفات.
-12. أدخل تاريخ الحركة للمصروفات.
-13. أدخل مبلغ المصروفات.
-14. حدد عملة المصروفات. يمكن الآن رؤية قائمة بأكواد العملات التي تم تحميلها على تطبيقك للاستخدام دون اتصال. بشكل افتراضي، يتم تحميل 400 عملة، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). إذا لم تكن عملتك موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت. ابحث حسب العملة أو قم بالتبديل إلى البحث حسب الاسم.
-15. حدد **تم**.
-16. لإضافة المزيد من التفاصيل إلى المصروفات، حدد **إضافة مزيد من التفاصيل**. تتوقف الحقول المتوفرة على تكوين إدارة المصروفات لشركتك.
-17. إذا تطلبت سياسة الشركة إيصال استلام للمصروفات، فحدد **إيصالات الاستلام**، ثم اتبع الخطوات التالية:
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="d9845-214">إنشاء تقرير مصروفات جديد وإرساله للموافقة باستخدام مساحة العمل المحمولة "إدارة المصروفات" (إذا كنت تستخدم تحديث يوليو 2017)</span><span class="sxs-lookup"><span data-stu-id="d9845-214">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="d9845-215">على جهازك المحمول، افتح مساحة العمل **إدارة المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d9845-215">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="d9845-216">حدد **إدخال المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d9845-216">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="d9845-217">حدد **تقرير جديد**، أو حدد تقرير مصروفات موجودًا في القائمة.</span><span class="sxs-lookup"><span data-stu-id="d9845-217">Select **New report**, or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="d9845-218">لتقارير المصروفات الجديدة، أدخل الغرض وأية معلومات إضافية متوفرة.</span><span class="sxs-lookup"><span data-stu-id="d9845-218">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="d9845-219">تختلف هذه المعلومات، بحسب الطريقة التي تم بها تكوين إدارة المصروفات لشركتك.</span><span class="sxs-lookup"><span data-stu-id="d9845-219">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="d9845-220">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-220">Select **Done**.</span></span>
+6. <span data-ttu-id="d9845-221">لإضافة مصروفات موجودة، مثل حركات بطاقات الائتمان، إلى تقرير المصروفات، حدد **إرفاق**.</span><span class="sxs-lookup"><span data-stu-id="d9845-221">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="d9845-222">حدد مصروفًا أو أكثر في القائمة.</span><span class="sxs-lookup"><span data-stu-id="d9845-222">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="d9845-223">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-223">Select **Done**.</span></span>
+9. <span data-ttu-id="d9845-224">لإضافة مصروفات جديدة إلى تقرير المصروفات، حدد **مصروفات جديدة**.</span><span class="sxs-lookup"><span data-stu-id="d9845-224">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="d9845-225">حدد فئة المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-225">Select the category for the expense.</span></span> <span data-ttu-id="d9845-226">يمكن الآن رؤية قائمة بفئات المصروفة تم تحميلها على تطبيقك للاستخدام دون اتصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-226">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="d9845-227">بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم.</span><span class="sxs-lookup"><span data-stu-id="d9845-227">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="d9845-228">للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="d9845-228">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="d9845-229">إذا لم تكن فئتك موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت.</span><span class="sxs-lookup"><span data-stu-id="d9845-229">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="d9845-230">ابحث حسب فئة المصروفات، أو قم بالتبديل إلى البحث حسب نوع المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-230">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="d9845-231">اختياري: أدخل التاجر للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-231">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="d9845-232">أدخل تاريخ الحركة للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-232">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="d9845-233">أدخل مبلغ المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-233">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="d9845-234">حدد عملة المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-234">Select the currency of the expense.</span></span> <span data-ttu-id="d9845-235">يمكن الآن رؤية قائمة بأكواد العملات التي تم تحميلها على تطبيقك للاستخدام دون اتصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-235">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="d9845-236">بشكل افتراضي، يتم تحميل 400 عملة، ولكن باستطاعة المطور تغيير هذا الرقم.</span><span class="sxs-lookup"><span data-stu-id="d9845-236">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="d9845-237">للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="d9845-237">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="d9845-238">إذا لم تكن عملتك موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت.</span><span class="sxs-lookup"><span data-stu-id="d9845-238">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="d9845-239">ابحث حسب العملة أو قم بالتبديل إلى البحث حسب الاسم.</span><span class="sxs-lookup"><span data-stu-id="d9845-239">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="d9845-240">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-240">Select **Done**.</span></span>
+16. <span data-ttu-id="d9845-241">لإضافة المزيد من التفاصيل إلى المصروفات، حدد **إضافة مزيد من التفاصيل**.</span><span class="sxs-lookup"><span data-stu-id="d9845-241">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="d9845-242">تتوقف الحقول المتوفرة على تكوين إدارة المصروفات لشركتك.</span><span class="sxs-lookup"><span data-stu-id="d9845-242">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="d9845-243">إذا تطلبت سياسة الشركة إيصال استلام للمصروفات، فحدد **إيصالات الاستلام**، ثم اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-243">If company policy requires a receipt for the expense, select **Receipts**, and then follow these steps:</span></span>
 
-    1. حدد **التقاط إيصال الاستلام‬** أو **إرفاق إيصال الاستلام**.
-    2. اتبع إحدى الخطوات التالية:
+    1. <span data-ttu-id="d9845-244">حدد **التقاط إيصال الاستلام‬** أو **إرفاق إيصال الاستلام**.</span><span class="sxs-lookup"><span data-stu-id="d9845-244">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="d9845-245">اتبع إحدى الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-245">Follow one of these steps:</span></span>
 
-        - إذا حددت **التقاط إيصال الاستلام**، فاتبع الخطوات التالية:
+        - <span data-ttu-id="d9845-246">إذا حددت **التقاط إيصال الاستلام**، فاتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-246">If you selected **Capture receipt**, follow these steps:</span></span>
 
-            1. حدد **التقاط صورة‬** أو **اختيار صورة**.
-            2. اتبع إحدى الخطوات التالية:
+            1. <span data-ttu-id="d9845-247">حدد **التقاط صورة‬** أو **اختيار صورة**.</span><span class="sxs-lookup"><span data-stu-id="d9845-247">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="d9845-248">اتبع إحدى الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-248">Follow one of these steps:</span></span>
 
-                - إذا حددت **التقاط صورة‬**، فاتبع الخطوات التالية:
+                - <span data-ttu-id="d9845-249">إذا حددت **التقاط صورة‬**، فاتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-249">If you selected **Take photo**, follow these steps:</span></span>
 
-                    1. يتم نقلك إلى الكاميرا على جهازك المحمول، بحيث يمكنك التقاط صورة للإيصال. عند الانتهاء من التقاط صورة، حدد **موافق** للموافقة على الصورة.
-                    2. اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.
+                    1. <span data-ttu-id="d9845-250">يتم نقلك إلى الكاميرا على جهازك المحمول، بحيث يمكنك التقاط صورة للإيصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-250">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="d9845-251">عند الانتهاء من التقاط صورة، حدد **موافق** للموافقة على الصورة.</span><span class="sxs-lookup"><span data-stu-id="d9845-251">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="d9845-252">اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.</span><span class="sxs-lookup"><span data-stu-id="d9845-252">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - إذا حددت **اختيار صورة**، فاتبع الخطوات التالية:
+                - <span data-ttu-id="d9845-253">إذا حددت **اختيار صورة**، فاتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-253">If you selected **Choose image**, follow these steps:</span></span>
 
-                    1. حدد صورة في القائمة.
-                    2. اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.
+                    1. <span data-ttu-id="d9845-254">حدد صورة في القائمة.</span><span class="sxs-lookup"><span data-stu-id="d9845-254">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="d9845-255">اختياري: أدخل اسمًا للصورة، ثم أدخل أية ملاحظات.</span><span class="sxs-lookup"><span data-stu-id="d9845-255">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  حدد **تم**.
+            3.  <span data-ttu-id="d9845-256">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-256">Select **Done**.</span></span>
 
-        - إذا حددت **إرفاق إيصال الاستلام**، فاتبع الخطوات التالية:
+        - <span data-ttu-id="d9845-257">إذا حددت **إرفاق إيصال الاستلام**، فاتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-257">If you selected **Attach receipt**, follow these steps:</span></span>
 
-            1.  حدد صورة أو أكثر في القائمة.
-            2.  حدد **تم**.
+            1.  <span data-ttu-id="d9845-258">حدد صورة أو أكثر في القائمة.</span><span class="sxs-lookup"><span data-stu-id="d9845-258">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="d9845-259">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-259">Select **Done**.</span></span>
 
-    3. حدد زر **السابق** للعودة إلى تفاصيل المصروفات.
+    3. <span data-ttu-id="d9845-260">حدد زر **السابق** للعودة إلى تفاصيل المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-260">Select the **Back** button to return to the expense details.</span></span>
 
-18. إذا تطلبت سياسة الشركة ضيوفًا للمصروفات، فحدد **الضيوف**، ثم اتبع الخطوات التالية:
+18. <span data-ttu-id="d9845-261">إذا تطلبت سياسة الشركة ضيوفًا للمصروفات، فحدد **الضيوف**، ثم اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-261">If company policy requires guests for the expense, select **Guests**, and then follow these steps:</span></span>
 
-    1. حدد **الضيف** أو **الضيوف السابقون‬** أو **زملاء العمل‬**.
-    2. اتبع إحدى الخطوات التالية:
+    1. <span data-ttu-id="d9845-262">حدد **الضيف** أو **الضيوف السابقون‬** أو **زملاء العمل‬**.</span><span class="sxs-lookup"><span data-stu-id="d9845-262">Select **Guest**, **Previous guests**, or **Coworkers**.</span></span>
+    2. <span data-ttu-id="d9845-263">اتبع إحدى الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-263">Follow one of these steps:</span></span>
 
-        - إذا حددت **الضيف‬**، فاتبع الخطوات التالية:
+        - <span data-ttu-id="d9845-264">إذا حددت **الضيف‬**، فاتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-264">If you selected **Guest**, follow these steps:</span></span>
 
-            1. أدخل اسم الضيف.
-            2. اختياري: أدخل مؤسسة و/أو بلد الضيف.
-            3. اختياري: أدخل المسمى الوظيفي للضيف.
-            4. حدد **تم**.
+            1. <span data-ttu-id="d9845-265">أدخل اسم الضيف.</span><span class="sxs-lookup"><span data-stu-id="d9845-265">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="d9845-266">اختياري: أدخل مؤسسة و/أو بلد الضيف.</span><span class="sxs-lookup"><span data-stu-id="d9845-266">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="d9845-267">اختياري: أدخل المسمى الوظيفي للضيف.</span><span class="sxs-lookup"><span data-stu-id="d9845-267">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="d9845-268">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-268">Select **Done**.</span></span>
 
-        - إذا حددت **الضيوف السابقون**، فاتبع الخطوات التالية:
+        - <span data-ttu-id="d9845-269">إذا حددت **الضيوف السابقون**، فاتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-269">If you selected **Previous guests**, follow these steps:</span></span>
 
-            1. حدد ضيفًا سابقًا أو أكثر في القائمة. يمكنك رؤية قائمة بضيوف سابقين أضفتهم إلى تقارير المصروفات السابقة وتم تحميلها إلى تطبيقك لاستخدامها دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). إذا لم يكن ضيفك السابق موجودًا في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت. ابحث عنه حسب الاسم، أو قم بالتبديل إلى البحث حسب المؤسسة أو البلد أو المسمى الوظيفي.
-            2. حدد **تم**.
+            1. <span data-ttu-id="d9845-270">حدد ضيفًا سابقًا أو أكثر في القائمة.</span><span class="sxs-lookup"><span data-stu-id="d9845-270">Select one or more previous guests in the list.</span></span> <span data-ttu-id="d9845-271">يمكنك رؤية قائمة بضيوف سابقين أضفتهم إلى تقارير المصروفات السابقة وتم تحميلها إلى تطبيقك لاستخدامها دون اتصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-271">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="d9845-272">بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم.</span><span class="sxs-lookup"><span data-stu-id="d9845-272">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="d9845-273">للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="d9845-273">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="d9845-274">إذا لم يكن ضيفك السابق موجودًا في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت.</span><span class="sxs-lookup"><span data-stu-id="d9845-274">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="d9845-275">ابحث عنه حسب الاسم، أو قم بالتبديل إلى البحث حسب المؤسسة أو البلد أو المسمى الوظيفي.</span><span class="sxs-lookup"><span data-stu-id="d9845-275">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="d9845-276">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-276">Select **Done**.</span></span>
 
-        - إذا حددت **زملاء العمل‬**، فاتبع الخطوات التالية:
+        - <span data-ttu-id="d9845-277">إذا حددت **زملاء العمل‬**، فاتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-277">If you selected **Coworkers**, follow these steps:</span></span>
 
-            1. حدد زميل عمل أو أكثر في القائمة. يمكنك رؤية قائمة زملاء العمل تم تحميلهما إلى تطبيقك لاستخدامها دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). إذا لم يكن زميل العمل موجودًا في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت. ابحث عنه حسب الاسم، أو قم بالتبديل إلى البحث حسب الشركة أو المسمى الوظيفي.
-            2. حدد **تم**.
+            1. <span data-ttu-id="d9845-278">حدد زميل عمل أو أكثر في القائمة.</span><span class="sxs-lookup"><span data-stu-id="d9845-278">Select one or more coworkers in the list.</span></span> <span data-ttu-id="d9845-279">يمكنك رؤية قائمة زملاء العمل تم تحميلهما إلى تطبيقك لاستخدامها دون اتصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-279">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="d9845-280">بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم.</span><span class="sxs-lookup"><span data-stu-id="d9845-280">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="d9845-281">للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="d9845-281">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="d9845-282">إذا لم يكن زميل العمل موجودًا في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت.</span><span class="sxs-lookup"><span data-stu-id="d9845-282">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="d9845-283">ابحث عنه حسب الاسم، أو قم بالتبديل إلى البحث حسب الشركة أو المسمى الوظيفي.</span><span class="sxs-lookup"><span data-stu-id="d9845-283">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="d9845-284">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-284">Select **Done**.</span></span>
 
-    3. حدد زر **السابق** للعودة إلى تفاصيل المصروفات.
+    3. <span data-ttu-id="d9845-285">حدد زر **السابق** للعودة إلى تفاصيل المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-285">Select the **Back** button to return to the expense details.</span></span>
 
-19. إذا تطلبت سياسة الشركة تفصيل المصروفات إلى بنود، فحدد **تفصيل‬**، ثم اتبع الخطوات التالية:
+19. <span data-ttu-id="d9845-286">إذا تطلبت سياسة الشركة تفصيل المصروفات إلى بنود، فحدد **تفصيل‬**، ثم اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="d9845-286">If company policy requires that the expense be itemized, select **Itemize**, and then follow these steps:</span></span>
 
-    1. حدد أول تاريخ تريد تفصيله.
-    2. حدد **إضافة التفصيل**.
-    3. حدد الفئة الفرعية لتفصيل المصروفات. يمكن رؤية قائمة بالفئات الفرعية للمصروفات تم تحميلها على تطبيقك لاستخدامها دون اتصال. بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم. للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). إذا لم تكن فئتك الفرعية موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت. ابحث حسب اسم الفئة الفرعية للمصروفات.
-    4. أدخل مبلغ للحركة لتفصيله.
-    5. حرر تاريخ الحركة إذا كان ذلك مطلوبًا.
-    6. حدد **تم**.
-    7. كرر الخطوات السابقة حتى الانتهاء من إضافة كافة تفصيلات البنود للتاريخ المحدد.
-    8. لأيام إضافية، يمكنك تحديد **النسخ إلى اليوم التالي** لنسخ التفصيلات إلى اليوم التالي. أو، يمكنك تحديد التاريخ المراد تفصيله ثم إضافة التفصيلات كما فعلت للتاريخ الأول.
-    9. بعد الانتهاء من تفصيل المصروفات، حدد زر **السابق** للعودة إلى تفاصيل المصروفات.
+    1. <span data-ttu-id="d9845-287">حدد أول تاريخ تريد تفصيله.</span><span class="sxs-lookup"><span data-stu-id="d9845-287">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="d9845-288">حدد **إضافة التفصيل**.</span><span class="sxs-lookup"><span data-stu-id="d9845-288">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="d9845-289">حدد الفئة الفرعية لتفصيل المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-289">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="d9845-290">يمكن رؤية قائمة بالفئات الفرعية للمصروفات تم تحميلها على تطبيقك لاستخدامها دون اتصال.</span><span class="sxs-lookup"><span data-stu-id="d9845-290">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="d9845-291">بشكل افتراضي، تم تحميل 50 صنف، ولكن باستطاعة المطور تغيير هذا الرقم.</span><span class="sxs-lookup"><span data-stu-id="d9845-291">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="d9845-292">للحصول على مزيد من المعلومات، يجب على المطورين الاطلاع على [النظام الأساسي للمحمول](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="d9845-292">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="d9845-293">إذا لم تكن فئتك الفرعية موجودة في القائمة، فحدد **بحث‬** لإجراء بحث عبر الإنترنت.</span><span class="sxs-lookup"><span data-stu-id="d9845-293">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="d9845-294">ابحث حسب اسم الفئة الفرعية للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-294">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="d9845-295">أدخل مبلغ للحركة لتفصيله.</span><span class="sxs-lookup"><span data-stu-id="d9845-295">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="d9845-296">حرر تاريخ الحركة إذا كان ذلك مطلوبًا.</span><span class="sxs-lookup"><span data-stu-id="d9845-296">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="d9845-297">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-297">Select **Done**.</span></span>
+    7. <span data-ttu-id="d9845-298">كرر الخطوات السابقة حتى الانتهاء من إضافة كافة تفصيلات البنود للتاريخ المحدد.</span><span class="sxs-lookup"><span data-stu-id="d9845-298">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="d9845-299">لأيام إضافية، يمكنك تحديد **النسخ إلى اليوم التالي** لنسخ التفصيلات إلى اليوم التالي.</span><span class="sxs-lookup"><span data-stu-id="d9845-299">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="d9845-300">أو، يمكنك تحديد التاريخ المراد تفصيله ثم إضافة التفصيلات كما فعلت للتاريخ الأول.</span><span class="sxs-lookup"><span data-stu-id="d9845-300">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="d9845-301">بعد الانتهاء من تفصيل المصروفات، حدد زر **السابق** للعودة إلى تفاصيل المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-301">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. حدد زر **السابق** للعودة إلى صفحة **تقرير المصروفات**.
-21. كرر الخطوات السابقة حتى الانتهاء من إضافة كافة المصروفات.
-22. حدد **إرسال**.
-23. أدخل أية تعليقات للمعتمد.
-24. حدد **تم**.
+20. <span data-ttu-id="d9845-302">حدد زر **السابق** للعودة إلى صفحة **تقرير المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d9845-302">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="d9845-303">كرر الخطوات السابقة حتى الانتهاء من إضافة كافة المصروفات.</span><span class="sxs-lookup"><span data-stu-id="d9845-303">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="d9845-304">حدد **إرسال**.</span><span class="sxs-lookup"><span data-stu-id="d9845-304">Select **Submit**.</span></span>
+23. <span data-ttu-id="d9845-305">أدخل أية تعليقات للمعتمد.</span><span class="sxs-lookup"><span data-stu-id="d9845-305">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="d9845-306">حدد **تم**.</span><span class="sxs-lookup"><span data-stu-id="d9845-306">Select **Done**.</span></span>
 

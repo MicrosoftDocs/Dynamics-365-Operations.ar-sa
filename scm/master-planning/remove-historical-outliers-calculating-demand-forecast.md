@@ -20,36 +20,36 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 72735c9e3fb4291076f0b577f45384dec319b2a7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ea3f08b20e25af6ebb738c2373b65532d74a0c80
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>إزالة القيم المتطرفة من بيانات الحركة التاريخية عند حساب التنبؤ بالطلب
+# <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a><span data-ttu-id="46d3a-104">إزالة القيم المتطرفة من بيانات الحركة التاريخية عند حساب التنبؤ بالطلب</span><span class="sxs-lookup"><span data-stu-id="46d3a-104">Remove outliers from historical transaction data when calculating a demand forecast</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-يصف هذا المقال كيفية استبعاد القيم المتطرفة من البيانات التاريخية التي يتم استخدامها لحساب التنبؤ بطلب. وباستبعاد الأخطاء، يمكنك تحسين دقة التنبؤ.
+<span data-ttu-id="46d3a-105">يصف هذا المقال كيفية استبعاد القيم المتطرفة من البيانات التاريخية التي يتم استخدامها لحساب التنبؤ بطلب.</span><span class="sxs-lookup"><span data-stu-id="46d3a-105">This article describes how to exclude outliers from the historical data that is used to calculate a demand forecast.</span></span> <span data-ttu-id="46d3a-106">وباستبعاد الأخطاء، يمكنك تحسين دقة التنبؤ.</span><span class="sxs-lookup"><span data-stu-id="46d3a-106">By excluding outliers, you can improve forecast accuracy.</span></span>
 
-يمكنك استبعاد القيم المتطرفة لتحسين دقة التنبؤ. هذه المهمة اختيارية. وفيما يلي نظرة عامة على العملية:
+<span data-ttu-id="46d3a-107">يمكنك استبعاد القيم المتطرفة لتحسين دقة التنبؤ.</span><span class="sxs-lookup"><span data-stu-id="46d3a-107">You can exclude outliers to improve forecast accuracy.</span></span> <span data-ttu-id="46d3a-108">هذه المهمة اختيارية.</span><span class="sxs-lookup"><span data-stu-id="46d3a-108">This is an optional task.</span></span> <span data-ttu-id="46d3a-109">وفيما يلي نظرة عامة على العملية:</span><span class="sxs-lookup"><span data-stu-id="46d3a-109">Here is an overview of the process:</span></span>
 
-1.  انقر فوق **التخطيط الرئيسي** &gt; **إعداد‏‎** &gt; **التنبؤ بالطلب** &gt; **‎إزالة الأخطاء** لفتح صفحة **إزالة الأخطاء**، حيث يمكنك استخدام استعلام لتحديد الحركات لاستبعادها.
-2.  حدد الشركة التي ينطبق عليها الاستعلام، ثم أدخل اسمًا ووصفًا. ويتم تعيين حقل **تاريخ الاستعلام** تلقائياً تعيين إلى التاريخ الحالي.
-3.  حدد خانة الاختيار **نشطة** لاستبعاد الحركات التي تم العثور عليها من قِبل الاستعلام من البيانات التاريخية. سيتم تطبيق هذا الإعداد عند إنشاء تنبؤ أساسي.
-4.  في صفحة **استعلام إزالة الأخطاء‬**، يمكنك إضافة وإزالة وتحديد المعايير التي تحدد الحركات التي سيتم استبعادها عندما يتم حساب التنبؤ الأساسي. على سبيل المثال، حدد صنف أو حركة أمر معين تريد استبعادها.
-5.  انقر فوق **عرض الحركات**. تسرد صفحة **حركات الأخطاء** الحركات التي تفي بالمعيار المحدد في الاستعلام والتي سيتم استبعاده من البيانات التاريخية عند حساب التنبؤ بالطلب.
+1.  <span data-ttu-id="46d3a-110">انقر فوق **التخطيط الرئيسي** &gt; **إعداد‏‎** &gt; **التنبؤ بالطلب** &gt; **‎إزالة الأخطاء** لفتح صفحة **إزالة الأخطاء**، حيث يمكنك استخدام استعلام لتحديد الحركات لاستبعادها.</span><span class="sxs-lookup"><span data-stu-id="46d3a-110">Click **Master planning** &gt; **Setup** &gt; **Demand forecasting** &gt; **Outlier removal** to open the **Outlier removal** page, where you can use a query to select the transactions to exclude.</span></span>
+2.  <span data-ttu-id="46d3a-111">حدد الشركة التي ينطبق عليها الاستعلام، ثم أدخل اسمًا ووصفًا.</span><span class="sxs-lookup"><span data-stu-id="46d3a-111">Select the company that the query applies to, and then enter a name and description.</span></span> <span data-ttu-id="46d3a-112">ويتم تعيين حقل **تاريخ الاستعلام** تلقائياً تعيين إلى التاريخ الحالي.</span><span class="sxs-lookup"><span data-stu-id="46d3a-112">The **Query date** field is automatically set to the current date.</span></span>
+3.  <span data-ttu-id="46d3a-113">حدد خانة الاختيار **نشطة** لاستبعاد الحركات التي تم العثور عليها من قِبل الاستعلام من البيانات التاريخية.</span><span class="sxs-lookup"><span data-stu-id="46d3a-113">Select the **Active** check box to exclude the transactions that the query finds from the historical data.</span></span> <span data-ttu-id="46d3a-114">سيتم تطبيق هذا الإعداد عند إنشاء تنبؤ أساسي.</span><span class="sxs-lookup"><span data-stu-id="46d3a-114">This setting will take effect when you create a baseline forecast.</span></span>
+4.  <span data-ttu-id="46d3a-115">في صفحة **استعلام إزالة الأخطاء‬**، يمكنك إضافة وإزالة وتحديد المعايير التي تحدد الحركات التي سيتم استبعادها عندما يتم حساب التنبؤ الأساسي.</span><span class="sxs-lookup"><span data-stu-id="46d3a-115">On the **Outlier removal query** page, you can add, remove, and select the criteria that define which transactions will be excluded when the baseline forecast is calculated.</span></span> <span data-ttu-id="46d3a-116">على سبيل المثال، حدد صنف أو حركة أمر معين تريد استبعادها.</span><span class="sxs-lookup"><span data-stu-id="46d3a-116">For example, select a specific item or order transaction to exclude.</span></span>
+5.  <span data-ttu-id="46d3a-117">انقر فوق **عرض الحركات**.</span><span class="sxs-lookup"><span data-stu-id="46d3a-117">Click **Display transactions**.</span></span> <span data-ttu-id="46d3a-118">تسرد صفحة **حركات الأخطاء** الحركات التي تفي بالمعيار المحدد في الاستعلام والتي سيتم استبعاده من البيانات التاريخية عند حساب التنبؤ بالطلب.</span><span class="sxs-lookup"><span data-stu-id="46d3a-118">The **Outlier transactions** page lists the transactions that meet the criteria that you defined in the query, and that will be excluded from the historical data when the demand forecast is calculated.</span></span>
 
-**ملاحظة:** يمكنك أيضًا إنشاء استعلام يستند إلى استعلام موجود. حدد الاستعلام المراد نسخه، ثم انقر فوق **نسخ**. يحدد حقل **تاريخ الاستعلام** الإصدار. يمكنك استخدام الاستعلام كما هو، أو يمكنك النقر فوق **تحرير استعلام** لتعديل المعايير. ويمكنك بشكل اختياري تعديل اسم ووصف الاستعلام الجديد.
+<span data-ttu-id="46d3a-119">**ملاحظة:** يمكنك أيضًا إنشاء استعلام يستند إلى استعلام موجود.</span><span class="sxs-lookup"><span data-stu-id="46d3a-119">**Note:** You can also create a query that is based on an existing query.</span></span> <span data-ttu-id="46d3a-120">حدد الاستعلام المراد نسخه، ثم انقر فوق **نسخ**.</span><span class="sxs-lookup"><span data-stu-id="46d3a-120">Select the query to copy, and then click **Duplicate**.</span></span> <span data-ttu-id="46d3a-121">يحدد حقل **تاريخ الاستعلام** الإصدار.</span><span class="sxs-lookup"><span data-stu-id="46d3a-121">The **Query date** field identifies the version.</span></span> <span data-ttu-id="46d3a-122">يمكنك استخدام الاستعلام كما هو، أو يمكنك النقر فوق **تحرير استعلام** لتعديل المعايير.</span><span class="sxs-lookup"><span data-stu-id="46d3a-122">You can use the query as it is, or you can click **Edit query** to modify the criteria.</span></span> <span data-ttu-id="46d3a-123">ويمكنك بشكل اختياري تعديل اسم ووصف الاستعلام الجديد.</span><span class="sxs-lookup"><span data-stu-id="46d3a-123">You can optionally modify the name and description of the new query.</span></span>
 
-<a name="see-also"></a>راجع أيضًا
+<a name="see-also"></a><span data-ttu-id="46d3a-124">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="46d3a-124">See also</span></span>
 --------
 
-[مقدمة إلى التنبؤ بالطلب](introduction-demand-forecasting.md)
+[<span data-ttu-id="46d3a-125">مقدمة إلى التنبؤ بالطلب</span><span class="sxs-lookup"><span data-stu-id="46d3a-125">Introduction to demand forecasting</span></span>](introduction-demand-forecasting.md)
 
-[مراقبة دقة التنبؤ](monitor-forecast-accuracy.md)
+[<span data-ttu-id="46d3a-126">مراقبة دقة التنبؤ</span><span class="sxs-lookup"><span data-stu-id="46d3a-126">Monitoring forecast accuracy</span></span>](monitor-forecast-accuracy.md)
 
 
 

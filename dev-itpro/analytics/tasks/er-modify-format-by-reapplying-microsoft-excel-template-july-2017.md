@@ -16,72 +16,72 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c6077b8a34ba4a11df014912d8b4c2b3749bc04d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ae1de653354d891e99fb41fa4b10e6910f458cf4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>تعديل تنسيق من خلال إعادة تطبيق قالب Microsoft Excel للتقارير الإلكترونية (ER)
+# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a><span data-ttu-id="91e24-103">تعديل تنسيق من خلال إعادة تطبيق قالب Microsoft Excel للتقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="91e24-103">Modify a format by reapplying a Microsoft Excel template for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء "التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML".
+<span data-ttu-id="91e24-104">لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء "التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML".</span><span class="sxs-lookup"><span data-stu-id="91e24-104">To complete the steps in this procedure, you must first complete the procedure, ER - Design a configuration for generating reports in OPENXML format.</span></span>
 
-يفسر هذا الإجراء كيفية تعديل تكوين تنسيق التقارير الإلكترونية عن طريق إعادة تطبيق قالب Microsoft Excel الذي تم تعديله. في هذا الإجراء، سوف تستورد قالب Excel معدلاً إلى تكوينات تنسيق التقارير الإلكترونية التي تم إنشاؤها للشركة النموذجية Litware, Inc، ثم تنشئ المستندات الإلكترونية. تم تخصيص هذا الإجراء للمستخدمين الذين يؤدون دور مسؤول النظام أو مطور التقارير الإلكترونية. يمكن إتمام هذه الخطوات باستخدام مجموعة بيانات GBSI. قبل البدء، اعمل على تنزيل وحفظ الملف، SampleVendPaymWsReport2.xlsx، المدرج في موضع التعليمات، تعديل تنسيق إعداد التقارير الإلكترونية من خلال إعادة تطبيق قالب Excel (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/).
+<span data-ttu-id="91e24-105">يفسر هذا الإجراء كيفية تعديل تكوين تنسيق التقارير الإلكترونية عن طريق إعادة تطبيق قالب Microsoft Excel الذي تم تعديله.</span><span class="sxs-lookup"><span data-stu-id="91e24-105">This procedure explains how to modify an Electronic reporting (ER) format configuration by reapplying a Microsoft Excel template that has been modified.</span></span> <span data-ttu-id="91e24-106">في هذا الإجراء، سوف تستورد قالب Excel معدلاً إلى تكوينات تنسيق التقارير الإلكترونية التي تم إنشاؤها للشركة النموذجية Litware, Inc، ثم تنشئ المستندات الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="91e24-106">In this procedure, you will import a modified Excel template into ER format configurations that have been created for the sample company, Litware, Inc., and then generate electronic documents.</span></span> <span data-ttu-id="91e24-107">تم تخصيص هذا الإجراء للمستخدمين الذين يؤدون دور مسؤول النظام أو مطور التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="91e24-107">This procedure is intended for users who have the system administrator or electronic reporting developer role.</span></span> <span data-ttu-id="91e24-108">يمكن إتمام هذه الخطوات باستخدام مجموعة بيانات GBSI.</span><span class="sxs-lookup"><span data-stu-id="91e24-108">These steps can be completed by using the GBSI dataset.</span></span> <span data-ttu-id="91e24-109">قبل البدء، اعمل على تنزيل وحفظ الملف، SampleVendPaymWsReport2.xlsx، المدرج في موضع التعليمات، تعديل تنسيق إعداد التقارير الإلكترونية من خلال إعادة تطبيق قالب Excel (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/).</span><span class="sxs-lookup"><span data-stu-id="91e24-109">Before you begin, download and save the file, SampleVendPaymWsReport2.xlsx, which is listed in the Help topic, Modify Electronic reporting format by reapplying an Excel template (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/).</span></span>
 
-1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
-    * تأكد من وجود موفر التكوين للشركة النموذجية "Litware, Inc." ومن وضع علامة عليه كنشط. إذا لم تشاهد موفر التكوين هذا، فيجب أولاً إكمال الخطوات المذكورة في الإجراء، "إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬".  
+1. <span data-ttu-id="91e24-110">انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.</span><span class="sxs-lookup"><span data-stu-id="91e24-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="91e24-111">تأكد من وجود موفر التكوين للشركة النموذجية "Litware, Inc." ومن وضع علامة عليه كنشط.</span><span class="sxs-lookup"><span data-stu-id="91e24-111">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as Active.</span></span> <span data-ttu-id="91e24-112">إذا لم تشاهد موفر التكوين هذا، فيجب أولاً إكمال الخطوات المذكورة في الإجراء، "إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬".</span><span class="sxs-lookup"><span data-stu-id="91e24-112">If you don’t see this configuration provider, complete the steps in the procedure, Create a configuration provider and mark it as active.</span></span>  
 
-## <a name="select-the-er-format"></a>تحديد تنسيق التقارير الإلكترونية
-1. انقر فوق "تكوينات إعداد التقارير‬".
-2. في الشجرة ، قم بتوسيع "نموذج الدفع".
-3. في الشجرة، حدد "Payment model\Sample worksheet report".
-4. انقر فوق "المرفقات".
-    * لاحظ أن ملف Excel، واسمه SampleVendPaymWsReport.xlsx، يُستخدم حاليًا كقالب لمعالجة دفتر يومية المدفوعات.   
-5. انقر فوق "فتح".
-    * انقر فوق "فتح" لاستكشاف تخطيط قالب Excel.  
-    * راجع القالب. تذكر أنه يتضمن حاليًا التفاصيل التالية لكل بند من بنود الدفع: رقم حساب المورّد واسم المورّد والبنك ورقم التوجيه ورقم الحساب والمدين والدائن والعملة. لهذا المثال، نحن نريد توسيع هذه القائمة من خلال إضافة تفاصيل حول تاريخ الدفع.   
-6. قم بإغلاق الصفحة.
+## <a name="select-the-er-format"></a><span data-ttu-id="91e24-113">تحديد تنسيق التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="91e24-113">Select the ER format</span></span>
+1. <span data-ttu-id="91e24-114">انقر فوق "تكوينات إعداد التقارير‬".</span><span class="sxs-lookup"><span data-stu-id="91e24-114">Click Reporting configurations.</span></span>
+2. <span data-ttu-id="91e24-115">في الشجرة ، قم بتوسيع "نموذج الدفع".</span><span class="sxs-lookup"><span data-stu-id="91e24-115">In the tree, expand 'Payment model'.</span></span>
+3. <span data-ttu-id="91e24-116">في الشجرة، حدد "Payment model\Sample worksheet report".</span><span class="sxs-lookup"><span data-stu-id="91e24-116">In the tree, select 'Payment model\Sample worksheet report'.</span></span>
+4. <span data-ttu-id="91e24-117">انقر فوق "المرفقات".</span><span class="sxs-lookup"><span data-stu-id="91e24-117">Click Attachments.</span></span>
+    * <span data-ttu-id="91e24-118">لاحظ أن ملف Excel، واسمه SampleVendPaymWsReport.xlsx، يُستخدم حاليًا كقالب لمعالجة دفتر يومية المدفوعات.</span><span class="sxs-lookup"><span data-stu-id="91e24-118">Note that the SampleVendPaymWsReport.xlsx Excel file is currently used as a template for payment journal processing.</span></span>   
+5. <span data-ttu-id="91e24-119">انقر فوق "فتح".</span><span class="sxs-lookup"><span data-stu-id="91e24-119">Click Open.</span></span>
+    * <span data-ttu-id="91e24-120">انقر فوق "فتح" لاستكشاف تخطيط قالب Excel.</span><span class="sxs-lookup"><span data-stu-id="91e24-120">Click Open to explore the layout of the Excel template.</span></span>  
+    * <span data-ttu-id="91e24-121">راجع القالب.</span><span class="sxs-lookup"><span data-stu-id="91e24-121">Review the template.</span></span> <span data-ttu-id="91e24-122">تذكر أنه يتضمن حاليًا التفاصيل التالية لكل بند من بنود الدفع: رقم حساب المورّد واسم المورّد والبنك ورقم التوجيه ورقم الحساب والمدين والدائن والعملة.</span><span class="sxs-lookup"><span data-stu-id="91e24-122">Note that it currently includes the following details for each payment line: vendor account number, vendor name, bank, routing number, account number, debit, credit, and currency.</span></span> <span data-ttu-id="91e24-123">لهذا المثال، نحن نريد توسيع هذه القائمة من خلال إضافة تفاصيل حول تاريخ الدفع.</span><span class="sxs-lookup"><span data-stu-id="91e24-123">For this example, we want to extend this list by adding details about the payment date.</span></span>   
+6. <span data-ttu-id="91e24-124">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="91e24-124">Close the page.</span></span>
 
-## <a name="reapply-a-new-excel-template-to-er-format"></a>إعادة تطبيق قالب Excel جديد على تنسيق التقارير الإلكترونية
-1. انقر فوق المصمم.
-    * افتح إصدار المسودة لتنسيق التقارير الإلكترونية المحدد لتحريره.  
-2. في جزء الإجراءات، انقر فوق "استيراد".
-3. انقر فوق "تحديث من Excel".
-    * انقر فوق "تحديث القالب"، ثم حدد الملف، SampleVendPaymWsReport2.xlsx.  
-    * انقر فوق "تحديث القالب" واستعرض للوصل إلى الملف SampleVendPaymWsReport2.xlsx الذي تم تنزيله في وقت سابق.  
-4. انقر فوق "موافق".
-    * يتم تطبيق القالب SampleVendPaymWsReport2.xlsx. تتم مزامنة بنية تنسيق التقارير الإلكترونية مع محتوى القالب، الذي تضاف عناصره إلى تنسيق التقارير الإلكترونية. تُزال من تعريف التنسيق أي عناصر موجودة في تنسيق التقارير الإلكترونية غير مضمنة في القالب.  
-5. في الشجرة، حدد 'Excel'.
-    * لاحظ أن الحقل "القالب" يحتوي الآن على مرجع إلى القالب الجديد.   
-6. انقر فوق "المرفقات".
-7. انقر فوق "فتح".
-    * انقر فوق "فتح" لاستكشاف تخطيط قالب Excel المعدّل.  
-    * راجع القالب. لاحظ أنه يحتوي الآن على بند لتاريخ الدفع.   
-8. قم بإغلاق الصفحة.
-9. في الشجرة، قم بتوسيع 'Excel'.
-10. في الشجرة، قم بتوسيع "Excel\PaymLines".
-11. في الشجرة، حدد "Excel\PaymLines\PaymDate".
-    * لاحظ أن تنسيق التقارير الإلكترونية يحتوي الآن على عنصر إضافي واحد. تمت إضافة خلية، PaymDate، إلى قالب Excel.  
-12. انقر فوق علامة التبويب "التعيين".
-13. في الشجرة ، قم بتوسيع "النموذج"
-14. في الشجرة، قم بتوسيع "النموذج/المدفوعات".
-15. في الشجرة، حدد "النموذج/المدفوعات/تاريخ الحركة(TransactionDate)".
-16. انقر فوق "ربط".
-    * حدد البيانات المضافة إلى الخلية الجديدة في وقت التشغيل.  
-17. انقر فوق "حفظ".
-18. قم بإغلاق الصفحة.
+## <a name="reapply-a-new-excel-template-to-er-format"></a><span data-ttu-id="91e24-125">إعادة تطبيق قالب Excel جديد على تنسيق التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="91e24-125">Reapply a new Excel template to ER format</span></span>
+1. <span data-ttu-id="91e24-126">انقر فوق المصمم.</span><span class="sxs-lookup"><span data-stu-id="91e24-126">Click Designer.</span></span>
+    * <span data-ttu-id="91e24-127">افتح إصدار المسودة لتنسيق التقارير الإلكترونية المحدد لتحريره.</span><span class="sxs-lookup"><span data-stu-id="91e24-127">Open the draft version of the selected ER format for editing.</span></span>  
+2. <span data-ttu-id="91e24-128">في جزء الإجراءات، انقر فوق "استيراد".</span><span class="sxs-lookup"><span data-stu-id="91e24-128">On the Action Pane, click Import.</span></span>
+3. <span data-ttu-id="91e24-129">انقر فوق "تحديث من Excel".</span><span class="sxs-lookup"><span data-stu-id="91e24-129">Click Update from Excel.</span></span>
+    * <span data-ttu-id="91e24-130">انقر فوق "تحديث القالب"، ثم حدد الملف، SampleVendPaymWsReport2.xlsx.</span><span class="sxs-lookup"><span data-stu-id="91e24-130">Click ‘Update template’, and then select the file, SampleVendPaymWsReport2.xlsx.</span></span>  
+    * <span data-ttu-id="91e24-131">انقر فوق "تحديث القالب" واستعرض للوصل إلى الملف SampleVendPaymWsReport2.xlsx الذي تم تنزيله في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="91e24-131">Click Update template and browse to get the downloaded earlier SampleVendPaymWsReport2.xlsx file.</span></span>  
+4. <span data-ttu-id="91e24-132">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="91e24-132">Click OK.</span></span>
+    * <span data-ttu-id="91e24-133">يتم تطبيق القالب SampleVendPaymWsReport2.xlsx.</span><span class="sxs-lookup"><span data-stu-id="91e24-133">The SampleVendPaymWsReport2.xlsx template is applied.</span></span> <span data-ttu-id="91e24-134">تتم مزامنة بنية تنسيق التقارير الإلكترونية مع محتوى القالب، الذي تضاف عناصره إلى تنسيق التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="91e24-134">The structure of the ER format is synchronized with the content of the template, whose elements are added to the ER format.</span></span> <span data-ttu-id="91e24-135">تُزال من تعريف التنسيق أي عناصر موجودة في تنسيق التقارير الإلكترونية غير مضمنة في القالب.</span><span class="sxs-lookup"><span data-stu-id="91e24-135">Any existing elements in the ER format that aren’t included in the template are removed from the format definition.</span></span>  
+5. <span data-ttu-id="91e24-136">في الشجرة، حدد 'Excel'.</span><span class="sxs-lookup"><span data-stu-id="91e24-136">In the tree, select 'Excel'.</span></span>
+    * <span data-ttu-id="91e24-137">لاحظ أن الحقل "القالب" يحتوي الآن على مرجع إلى القالب الجديد.</span><span class="sxs-lookup"><span data-stu-id="91e24-137">Note that the Template field now contains a reference to the new template.</span></span>   
+6. <span data-ttu-id="91e24-138">انقر فوق "المرفقات".</span><span class="sxs-lookup"><span data-stu-id="91e24-138">Click Attachments.</span></span>
+7. <span data-ttu-id="91e24-139">انقر فوق "فتح".</span><span class="sxs-lookup"><span data-stu-id="91e24-139">Click Open.</span></span>
+    * <span data-ttu-id="91e24-140">انقر فوق "فتح" لاستكشاف تخطيط قالب Excel المعدّل.</span><span class="sxs-lookup"><span data-stu-id="91e24-140">Click Open to explore the layout of the modified Excel template.</span></span>  
+    * <span data-ttu-id="91e24-141">راجع القالب.</span><span class="sxs-lookup"><span data-stu-id="91e24-141">Review the template.</span></span> <span data-ttu-id="91e24-142">لاحظ أنه يحتوي الآن على بند لتاريخ الدفع.</span><span class="sxs-lookup"><span data-stu-id="91e24-142">Note that it now contains a line for the payment date.</span></span>   
+8. <span data-ttu-id="91e24-143">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="91e24-143">Close the page.</span></span>
+9. <span data-ttu-id="91e24-144">في الشجرة، قم بتوسيع 'Excel'.</span><span class="sxs-lookup"><span data-stu-id="91e24-144">In the tree, expand 'Excel'.</span></span>
+10. <span data-ttu-id="91e24-145">في الشجرة، قم بتوسيع "Excel\PaymLines".</span><span class="sxs-lookup"><span data-stu-id="91e24-145">In the tree, expand 'Excel\PaymLines'.</span></span>
+11. <span data-ttu-id="91e24-146">في الشجرة، حدد "Excel\PaymLines\PaymDate".</span><span class="sxs-lookup"><span data-stu-id="91e24-146">In the tree, select 'Excel\PaymLines\PaymDate'.</span></span>
+    * <span data-ttu-id="91e24-147">لاحظ أن تنسيق التقارير الإلكترونية يحتوي الآن على عنصر إضافي واحد.</span><span class="sxs-lookup"><span data-stu-id="91e24-147">Note that the ER format now contains one more item.</span></span> <span data-ttu-id="91e24-148">تمت إضافة خلية، PaymDate، إلى قالب Excel.</span><span class="sxs-lookup"><span data-stu-id="91e24-148">A cell, PaymDate, has been added to the Excel template.</span></span>  
+12. <span data-ttu-id="91e24-149">انقر فوق علامة التبويب "التعيين".</span><span class="sxs-lookup"><span data-stu-id="91e24-149">Click the Mapping tab.</span></span>
+13. <span data-ttu-id="91e24-150">في الشجرة ، قم بتوسيع "النموذج"</span><span class="sxs-lookup"><span data-stu-id="91e24-150">In the tree, expand 'model'.</span></span>
+14. <span data-ttu-id="91e24-151">في الشجرة، قم بتوسيع "النموذج/المدفوعات".</span><span class="sxs-lookup"><span data-stu-id="91e24-151">In the tree, expand 'model\Payments'.</span></span>
+15. <span data-ttu-id="91e24-152">في الشجرة، حدد "النموذج/المدفوعات/تاريخ الحركة(TransactionDate)".</span><span class="sxs-lookup"><span data-stu-id="91e24-152">In the tree, select 'model\Payments\Transaction date(TransactionDate)'.</span></span>
+16. <span data-ttu-id="91e24-153">انقر فوق "ربط".</span><span class="sxs-lookup"><span data-stu-id="91e24-153">Click Bind.</span></span>
+    * <span data-ttu-id="91e24-154">حدد البيانات المضافة إلى الخلية الجديدة في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="91e24-154">Specify what data is added to the new cell at runtime.</span></span>  
+17. <span data-ttu-id="91e24-155">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="91e24-155">Click Save.</span></span>
+18. <span data-ttu-id="91e24-156">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="91e24-156">Close the page.</span></span>
 
-## <a name="enable-the-modified-draft-version-of-the-er-format-for-use-in-payment-journal-processing"></a>تمكين إصدار المسودة‬ المعدل لتنسيق التقارير الإلكترونية لاستخدامه في معالجة دفتر يومية المدفوعات
-1. في جزء الإجراءات، انقر فوق "التكوينات".
-2. انقر فوق "محددات المستخدم".
-3. حدد "نعم" في حقل "تشغيل الإعدادات".
-4. انقر فوق "موافق".
-5. انقر فوق "تحرير".
-6. حدد "نعم" في حقل "تشغيل المسودة‬".
+## <a name="enable-the-modified-draft-version-of-the-er-format-for-use-in-payment-journal-processing"></a><span data-ttu-id="91e24-157">تمكين إصدار المسودة‬ المعدل لتنسيق التقارير الإلكترونية لاستخدامه في معالجة دفتر يومية المدفوعات</span><span class="sxs-lookup"><span data-stu-id="91e24-157">Enable the modified draft version of the ER format for use in payment journal processing</span></span>
+1. <span data-ttu-id="91e24-158">في جزء الإجراءات، انقر فوق "التكوينات".</span><span class="sxs-lookup"><span data-stu-id="91e24-158">On the Action Pane, click Configurations.</span></span>
+2. <span data-ttu-id="91e24-159">انقر فوق "محددات المستخدم".</span><span class="sxs-lookup"><span data-stu-id="91e24-159">Click User parameters.</span></span>
+3. <span data-ttu-id="91e24-160">حدد "نعم" في حقل "تشغيل الإعدادات".</span><span class="sxs-lookup"><span data-stu-id="91e24-160">Select Yes in the Run settings field.</span></span>
+4. <span data-ttu-id="91e24-161">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="91e24-161">Click OK.</span></span>
+5. <span data-ttu-id="91e24-162">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="91e24-162">Click Edit.</span></span>
+6. <span data-ttu-id="91e24-163">حدد "نعم" في حقل "تشغيل المسودة‬".</span><span class="sxs-lookup"><span data-stu-id="91e24-163">Select Yes in the Run Draft field.</span></span>
 
-## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>استخدام إصدار المسودة‬ المعدل لتنسيق التقارير الإلكترونية لاستخدامه في معالجة دفتر يومية المدفوعات
-    * قم بمراجعة ورقة العمل التي تم إنشاؤها، بما في ذلك التفاصيل الجديدة لبنود الدفع – تاريخ الدفع.  
+## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a><span data-ttu-id="91e24-164">استخدام إصدار المسودة‬ المعدل لتنسيق التقارير الإلكترونية لاستخدامه في معالجة دفتر يومية المدفوعات</span><span class="sxs-lookup"><span data-stu-id="91e24-164">Use the modified draft version of the ER format for payment journal processing</span></span>
+    * <span data-ttu-id="91e24-165">قم بمراجعة ورقة العمل التي تم إنشاؤها، بما في ذلك التفاصيل الجديدة لبنود الدفع – تاريخ الدفع.</span><span class="sxs-lookup"><span data-stu-id="91e24-165">Review the created worksheet, including new detail of payment lines – payment date.</span></span>  
 
 

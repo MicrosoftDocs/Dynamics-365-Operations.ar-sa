@@ -17,42 +17,42 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 75d8b6614fd3b36d87bcb95b0b753b611a101f62
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a5bc20c0a9e2396365caebeb3751d2090e4575a4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-lean-schedule-groups"></a>تحديد مجموعات جداول محدودة الفاقد
+# <a name="define-lean-schedule-groups"></a><span data-ttu-id="85b42-103">تحديد مجموعات جداول محدودة الفاقد</span><span class="sxs-lookup"><span data-stu-id="85b42-103">Define lean schedule groups</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يتم تعريف مجموعات الجداول محدودة الفاقد لتجميع المنتجات وتمييزها في جدولة كانبان. يمكن إجراء التجميع كاقتران عامة لكل شركة أو خاصة بخلية عمل. تحتوي كل مجموعة على رمز ألوان معين للإشارة المرئية في صفحة قوائم جدولة كانبان. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+<span data-ttu-id="85b42-104">يتم تعريف مجموعات الجداول محدودة الفاقد لتجميع المنتجات وتمييزها في جدولة كانبان.</span><span class="sxs-lookup"><span data-stu-id="85b42-104">Lean schedule groups are defined to group and distinguish products in kanban scheduling.</span></span> <span data-ttu-id="85b42-105">يمكن إجراء التجميع كاقتران عامة لكل شركة أو خاصة بخلية عمل.</span><span class="sxs-lookup"><span data-stu-id="85b42-105">The grouping can be done as generic association per company or specific to a work cell.</span></span> <span data-ttu-id="85b42-106">تحتوي كل مجموعة على رمز ألوان معين للإشارة المرئية في صفحة قوائم جدولة كانبان.</span><span class="sxs-lookup"><span data-stu-id="85b42-106">Each group has a color code assigned for visual indication in the kanban scheduling listpage.</span></span> <span data-ttu-id="85b42-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="85b42-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="define-lean-scheduling-group"></a>تحديد مجموعات الجداول محدودة الفاقد
-1. انتقل إلى إدارة معلومات المنتج > Lean manufacturing > مجموعة الجداول محدودة الفاقد.
-2. انقر فوق "جديد".
-3. في الحقل "مجموعة الجداول"، اكتب قيمة.
-    * يمكن تعريف مجموعة جداول كمجموعة عامة أو خاصة بخلية عمل. في هذا المثال البسيط، نقوم بتعريف مجموعة عامة ويتم الاحتفاظ بخلية العمل فارغة. تنطبق إعدادات هذه المجموعة على جميع خلايا العمل التي ليس لديها مجموعات جداول محددة.  
-4. حدد لونًا من خيارات تحديد اللون.
-    * يتم استخدام الألوان لتمييز الوظائف على صفحة قائمة جداول كانبان أو لوحة عمليات كانبان.  
-5. في القائمة، قم بوضع علامة للصف المحدد.
-6. في القائمة، انقر فوق الارتباط في الصف المحدد.
+## <a name="define-lean-scheduling-group"></a><span data-ttu-id="85b42-108">تحديد مجموعات الجداول محدودة الفاقد</span><span class="sxs-lookup"><span data-stu-id="85b42-108">Define lean scheduling group</span></span>
+1. <span data-ttu-id="85b42-109">انتقل إلى إدارة معلومات المنتج > Lean manufacturing > مجموعة الجداول محدودة الفاقد.</span><span class="sxs-lookup"><span data-stu-id="85b42-109">Go to Product information management > Lean manufacturing > Lean schedule groups.</span></span>
+2. <span data-ttu-id="85b42-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="85b42-110">Click New.</span></span>
+3. <span data-ttu-id="85b42-111">في الحقل "مجموعة الجداول"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="85b42-111">In the Schedule group field, type a value.</span></span>
+    * <span data-ttu-id="85b42-112">يمكن تعريف مجموعة جداول كمجموعة عامة أو خاصة بخلية عمل.</span><span class="sxs-lookup"><span data-stu-id="85b42-112">A schedule group can be defined as global group or specific to a work cell.</span></span> <span data-ttu-id="85b42-113">في هذا المثال البسيط، نقوم بتعريف مجموعة عامة ويتم الاحتفاظ بخلية العمل فارغة.</span><span class="sxs-lookup"><span data-stu-id="85b42-113">In this simple example, we define a global group, and the work cell is kept empty.</span></span> <span data-ttu-id="85b42-114">تنطبق إعدادات هذه المجموعة على جميع خلايا العمل التي ليس لديها مجموعات جداول محددة.</span><span class="sxs-lookup"><span data-stu-id="85b42-114">The settings of this group apply to all work cells that do not have specific schedule groups.</span></span>  
+4. <span data-ttu-id="85b42-115">حدد لونًا من خيارات تحديد اللون.</span><span class="sxs-lookup"><span data-stu-id="85b42-115">Select a color from the color selection.</span></span>
+    * <span data-ttu-id="85b42-116">يتم استخدام الألوان لتمييز الوظائف على صفحة قائمة جداول كانبان أو لوحة عمليات كانبان.</span><span class="sxs-lookup"><span data-stu-id="85b42-116">The colors are used to highlight the jobs on the kanban schedule list page or the kanban process board.</span></span>  
+5. <span data-ttu-id="85b42-117">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="85b42-117">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="85b42-118">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="85b42-118">In the list, click the link in the selected row.</span></span>
 
-## <a name="associate-product"></a>إقران منتج
-1. إقران منتج معين
-    * هناك طريقتان لربط المنتجات لمجموعات الجداول محدودة الفاقد، إما كمنتج معين (نوع علاقة الصنف= الصنف) أو كجزء من مفتاح توزيع الصنف (نوع علاقة الصنف = المجموعة).    
-2. في الحقل "علاقة نوع الصنف"، حدد "صنف".
-3. في الحقل "رقم الصنف" اكتب قيمة.
-4. في الحقل "معدل الإنتاجية"، أدخل رقمًا.
-    * معدل الإنتاجية الافتراضي هو 1، وهو ما يعني أن المنتجات ذات الصلة تستهلك القدرة المحددة في أنشطة العملية لتدفقات الإنتاج تماما. يحدد معدل الإنتاجية > 1 استهلاكًا أعلى للموارد، فيما يحدد معدل الإنتاجية< 1 استهلاكًا أقل للموارد. يتم استخدام النسبة في حساب التكلفة وفي حساب استهلاك وظيفة كانبان.  
+## <a name="associate-product"></a><span data-ttu-id="85b42-119">إقران منتج</span><span class="sxs-lookup"><span data-stu-id="85b42-119">Associate product</span></span>
+1. <span data-ttu-id="85b42-120">إقران منتج معين</span><span class="sxs-lookup"><span data-stu-id="85b42-120">Associate a specific product</span></span>
+    * <span data-ttu-id="85b42-121">هناك طريقتان لربط المنتجات لمجموعات الجداول محدودة الفاقد، إما كمنتج معين (نوع علاقة الصنف= الصنف) أو كجزء من مفتاح توزيع الصنف (نوع علاقة الصنف = المجموعة).</span><span class="sxs-lookup"><span data-stu-id="85b42-121">There are two ways to associate products to lean schedule groups, either as a specific product (Item relation type = Item) or as part of an item allocation key (item relation type = group).</span></span>    
+2. <span data-ttu-id="85b42-122">في الحقل "علاقة نوع الصنف"، حدد "صنف".</span><span class="sxs-lookup"><span data-stu-id="85b42-122">In the Item relation type field, select Item</span></span>
+3. <span data-ttu-id="85b42-123">في الحقل "رقم الصنف" اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="85b42-123">In the Item number field, type a value.</span></span>
+4. <span data-ttu-id="85b42-124">في الحقل "معدل الإنتاجية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="85b42-124">In the Throughput ratio field, enter a number.</span></span>
+    * <span data-ttu-id="85b42-125">معدل الإنتاجية الافتراضي هو 1، وهو ما يعني أن المنتجات ذات الصلة تستهلك القدرة المحددة في أنشطة العملية لتدفقات الإنتاج تماما.</span><span class="sxs-lookup"><span data-stu-id="85b42-125">The default Throughput ratio is 1, which means that the related products consume exactly the capacity specified in the process activites of the production flows.</span></span> <span data-ttu-id="85b42-126">يحدد معدل الإنتاجية > 1 استهلاكًا أعلى للموارد، فيما يحدد معدل الإنتاجية< 1 استهلاكًا أقل للموارد.</span><span class="sxs-lookup"><span data-stu-id="85b42-126">Throughput ratio > 1 defines a higher resource consumption, Throughput ratio < 1 defines a lower resource consumption.</span></span> <span data-ttu-id="85b42-127">يتم استخدام النسبة في حساب التكلفة وفي حساب استهلاك وظيفة كانبان.</span><span class="sxs-lookup"><span data-stu-id="85b42-127">The ratio is used in the cost calculation and in the calculation of the kanban job consumption.</span></span>  
 
-## <a name="associate-item-allocation-key"></a>إقران مفتاح توزيع صنف
-1. إقران مفتاح توزيع صنف
-    * قم بإضافة اقتران لمفتاح توزيع صنف باستخدام مجموعة أنواع علاقة الصنف.   لاحظ أنه بالنسبة لهذه العملية، تحتاجُ إلى مفتاح تخصيص بند تنبؤ محدد في البيانات الخاصة بك.  
-2. في الحقل "نوع علاقة الصنف"، حدد "مجموعة".
-3. في الحقل "مفتاح توزيع الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-4. في القائمة، انقر فوق الارتباط في الصف المحدد.
+## <a name="associate-item-allocation-key"></a><span data-ttu-id="85b42-128">إقران مفتاح توزيع صنف</span><span class="sxs-lookup"><span data-stu-id="85b42-128">Associate item allocation key</span></span>
+1. <span data-ttu-id="85b42-129">إقران مفتاح توزيع صنف</span><span class="sxs-lookup"><span data-stu-id="85b42-129">Associate an item allocation key</span></span>
+    * <span data-ttu-id="85b42-130">قم بإضافة اقتران لمفتاح توزيع صنف باستخدام مجموعة أنواع علاقة الصنف.</span><span class="sxs-lookup"><span data-stu-id="85b42-130">Add an association to an item allocation key by using the Item relation type Group.</span></span>   <span data-ttu-id="85b42-131">لاحظ أنه بالنسبة لهذه العملية، تحتاجُ إلى مفتاح تخصيص بند تنبؤ محدد في البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="85b42-131">Note that for this process, you need a forecast item alllocation key defined in your data.</span></span>  
+2. <span data-ttu-id="85b42-132">في الحقل "نوع علاقة الصنف"، حدد "مجموعة".</span><span class="sxs-lookup"><span data-stu-id="85b42-132">In the Item relation type field, select Group</span></span>
+3. <span data-ttu-id="85b42-133">في الحقل "مفتاح توزيع الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="85b42-133">In the Item allocation key field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="85b42-134">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="85b42-134">In the list, click the link in the selected row.</span></span>
 
 

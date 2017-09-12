@@ -17,58 +17,58 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a88968072b28ab468af97a875bd76d4d6abecfde
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 33558053d33d9fe4a2ecb3576da569b2c441db80
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="start-a-production-order"></a>بدء أمر الإنتاج
+# <a name="start-a-production-order"></a><span data-ttu-id="d7b79-103">بدء أمر الإنتاج</span><span class="sxs-lookup"><span data-stu-id="d7b79-103">Start a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيفية بدء أوامر الإنتاج بحالة العمل. يتم الإبلاغ عن استهلاك الوقت والمواد في هذه العملية. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا هو الإجراء الخامس من أصل سبعة إجراءات الذي يشرح دورة حياة أمر الإنتاج.
+<span data-ttu-id="d7b79-104">يوضح هذا الإجراء كيفية بدء أوامر الإنتاج بحالة العمل.</span><span class="sxs-lookup"><span data-stu-id="d7b79-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="d7b79-105">يتم الإبلاغ عن استهلاك الوقت والمواد في هذه العملية.</span><span class="sxs-lookup"><span data-stu-id="d7b79-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="d7b79-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="d7b79-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d7b79-107">هذا هو الإجراء الخامس من أصل سبعة إجراءات الذي يشرح دورة حياة أمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="d7b79-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a>بدء أمر الإنتاج
-1. انتقل إلى التحكم بالإنتاج‬ > أوامر الإنتاج > كافة أوامر الإنتاج.
-    * حدد أمر إنتاج يكون في الحالة "تم إصداره".  
-2. في جزء "الإجراءات"، انقر فوق "أمر إنتاج".
-3. انقر فوق "بدء".
-    * في هذه الصفحة، يمكنك تأكيد بدء أمر الإنتاج.  
-4. انقر فوق علامة التبويب "عام".
-5. في حقل "من العملية رقم ، أدخل "10".
-6. في الحقل "استهلاك المسار التلقائي"، حدد "دائمًا".
-7. انقر فوق خانة اختيار "ترحيل بطاقة المسار الآن".
-8. في الحقل "استهلاك قائمة مكونات الصنف"، حدد "دائمًا".
-9. انقر فوق خانة اختيار "ترحيل قائمة الانتقاء الآن".
-10. انقر فوق خانة اختيار "طباعة قائمة الانتقاء".
-11. انقر فوق "موافق".
-    * فيما يلي قائمة الانتقاء المطبوعة التي تبين المواد المستخدمة لأمر الإنتاج.  
-12. قم بإغلاق الصفحة.
+## <a name="start-a-production-order"></a><span data-ttu-id="d7b79-108">بدء أمر الإنتاج</span><span class="sxs-lookup"><span data-stu-id="d7b79-108">Start a production order</span></span>
+1. <span data-ttu-id="d7b79-109">انتقل إلى التحكم بالإنتاج‬ > أوامر الإنتاج > كافة أوامر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="d7b79-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="d7b79-110">حدد أمر إنتاج يكون في الحالة "تم إصداره".</span><span class="sxs-lookup"><span data-stu-id="d7b79-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="d7b79-111">في جزء "الإجراءات"، انقر فوق "أمر إنتاج".</span><span class="sxs-lookup"><span data-stu-id="d7b79-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="d7b79-112">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="d7b79-112">Click Start.</span></span>
+    * <span data-ttu-id="d7b79-113">في هذه الصفحة، يمكنك تأكيد بدء أمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="d7b79-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="d7b79-114">انقر فوق علامة التبويب "عام".</span><span class="sxs-lookup"><span data-stu-id="d7b79-114">Click the General tab.</span></span>
+5. <span data-ttu-id="d7b79-115">في حقل "من العملية</span><span class="sxs-lookup"><span data-stu-id="d7b79-115">In the From Oper.</span></span> <span data-ttu-id="d7b79-116">رقم</span><span class="sxs-lookup"><span data-stu-id="d7b79-116">No.</span></span> <span data-ttu-id="d7b79-117">، أدخل "10".</span><span class="sxs-lookup"><span data-stu-id="d7b79-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="d7b79-118">في الحقل "استهلاك المسار التلقائي"، حدد "دائمًا".</span><span class="sxs-lookup"><span data-stu-id="d7b79-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="d7b79-119">انقر فوق خانة اختيار "ترحيل بطاقة المسار الآن".</span><span class="sxs-lookup"><span data-stu-id="d7b79-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="d7b79-120">في الحقل "استهلاك قائمة مكونات الصنف"، حدد "دائمًا".</span><span class="sxs-lookup"><span data-stu-id="d7b79-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="d7b79-121">انقر فوق خانة اختيار "ترحيل قائمة الانتقاء الآن".</span><span class="sxs-lookup"><span data-stu-id="d7b79-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="d7b79-122">انقر فوق خانة اختيار "طباعة قائمة الانتقاء".</span><span class="sxs-lookup"><span data-stu-id="d7b79-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="d7b79-123">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="d7b79-123">Click OK.</span></span>
+    * <span data-ttu-id="d7b79-124">فيما يلي قائمة الانتقاء المطبوعة التي تبين المواد المستخدمة لأمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="d7b79-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="d7b79-125">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d7b79-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a>التحقق من صحة قائمة الانتقاء
-1. في جزء "الإجراءات"، انقر فوق "عرض".
-2. انقر فوق "قائمة الانتقاء".
-3. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-4. في القائمة، انقر فوق الارتباط في الصف المحدد.
-5. انقر فوق "تحرير".
-6. في الحقل "الاستهلاك"، أدخل رقمًا.
-7. انقر فوق "ترحيل".
-8. انقر فوق "موافق".
-    * في دفتر يومية قائمة الانتقاء، يتم ترحيل المواد المستهلكة بواسطة أمر الإنتاج. قبل ترحيل دفتر اليومية، يمكنك إجراء تعديلات في حالة وجود فرق بين الكمية المقدرة والكمية المستهلكة الفعلية.  
-9. انقر فوق علامة التبويب "GridPanel".
-10. قم بإغلاق الصفحة.
+## <a name="validate-the-picking-list"></a><span data-ttu-id="d7b79-126">التحقق من صحة قائمة الانتقاء</span><span class="sxs-lookup"><span data-stu-id="d7b79-126">Validate the picking list</span></span>
+1. <span data-ttu-id="d7b79-127">في جزء "الإجراءات"، انقر فوق "عرض".</span><span class="sxs-lookup"><span data-stu-id="d7b79-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="d7b79-128">انقر فوق "قائمة الانتقاء".</span><span class="sxs-lookup"><span data-stu-id="d7b79-128">Click Picking list.</span></span>
+3. <span data-ttu-id="d7b79-129">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="d7b79-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="d7b79-130">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="d7b79-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="d7b79-131">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="d7b79-131">Click Edit.</span></span>
+6. <span data-ttu-id="d7b79-132">في الحقل "الاستهلاك"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="d7b79-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="d7b79-133">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="d7b79-133">Click Post.</span></span>
+8. <span data-ttu-id="d7b79-134">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="d7b79-134">Click OK.</span></span>
+    * <span data-ttu-id="d7b79-135">في دفتر يومية قائمة الانتقاء، يتم ترحيل المواد المستهلكة بواسطة أمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="d7b79-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="d7b79-136">قبل ترحيل دفتر اليومية، يمكنك إجراء تعديلات في حالة وجود فرق بين الكمية المقدرة والكمية المستهلكة الفعلية.</span><span class="sxs-lookup"><span data-stu-id="d7b79-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="d7b79-137">انقر فوق علامة التبويب "GridPanel".</span><span class="sxs-lookup"><span data-stu-id="d7b79-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="d7b79-138">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d7b79-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a>التحقق من دفتر يومية بطاقة المسار
-1. في جزء "الإجراءات"، انقر فوق "عرض".
-2. انقر فوق "بطاقة المسار".
-3. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-4. في القائمة، انقر فوق الارتباط في الصف المحدد.
-5. انقر فوق "تحرير".
-6. في الحقل "الساعات" أدخل رقمًا.
-7. انقر فوق "ترحيل".
-8. انقر فوق "موافق".
-    * في دفتر يومية بطاقة المسار، يتم تسجيل الوقت المستغرق في العمليات الفردية. ويمكنك أيضا الإبلاغ عن كمية البضائع والأخطاء.  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="d7b79-139">التحقق من دفتر يومية بطاقة المسار</span><span class="sxs-lookup"><span data-stu-id="d7b79-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="d7b79-140">في جزء "الإجراءات"، انقر فوق "عرض".</span><span class="sxs-lookup"><span data-stu-id="d7b79-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="d7b79-141">انقر فوق "بطاقة المسار".</span><span class="sxs-lookup"><span data-stu-id="d7b79-141">Click Route card.</span></span>
+3. <span data-ttu-id="d7b79-142">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="d7b79-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="d7b79-143">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="d7b79-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="d7b79-144">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="d7b79-144">Click Edit.</span></span>
+6. <span data-ttu-id="d7b79-145">في الحقل "الساعات" أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="d7b79-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="d7b79-146">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="d7b79-146">Click Post.</span></span>
+8. <span data-ttu-id="d7b79-147">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="d7b79-147">Click OK.</span></span>
+    * <span data-ttu-id="d7b79-148">في دفتر يومية بطاقة المسار، يتم تسجيل الوقت المستغرق في العمليات الفردية.</span><span class="sxs-lookup"><span data-stu-id="d7b79-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="d7b79-149">ويمكنك أيضا الإبلاغ عن كمية البضائع والأخطاء.</span><span class="sxs-lookup"><span data-stu-id="d7b79-149">Good and error quantity can also be reported.</span></span>  
 
 

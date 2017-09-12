@@ -18,321 +18,219 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة
+# <a name="retail-peripherals-overview"></a><span data-ttu-id="56b98-104">نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="56b98-104">Retail peripherals overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-يشرح هذا الموضوع المفاهيم المرتبطة بالأجهزة الطرفية للبيع بالتجزئة. فهو يصف الطرق المختلفة التي يمكن من خلال توصيل الأجهزة الطرفية بنقطة البيع (POS) والمكونات التي تكون مسؤولة عن إدارة الاتصال بنقطة البيع.
+<span data-ttu-id="56b98-105">يشرح هذا الموضوع المفاهيم المرتبطة بالأجهزة الطرفية للبيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="56b98-105">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="56b98-106">فهو يصف الطرق المختلفة التي يمكن من خلال توصيل الأجهزة الطرفية بنقطة البيع (POS) والمكونات التي تكون مسؤولة عن إدارة الاتصال بنقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-106">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 
-## <a name="concepts"></a>المفاهيم
+## <a name="concepts"></a><span data-ttu-id="56b98-107">المفاهيم</span><span class="sxs-lookup"><span data-stu-id="56b98-107">Concepts</span></span>
 
-### <a name="pos-registers"></a>سجلات ‏‫نقطة البيع‬
+### <a name="pos-registers"></a><span data-ttu-id="56b98-108">سجلات ‏‫نقطة البيع‬</span><span class="sxs-lookup"><span data-stu-id="56b98-108">POS registers</span></span>
 
-الانتقال إلى: انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **السجلات‬**. يُعتبر سجل نقطة البيع نقطة بمثابة كيان يُستخدم لتعريف خصائص مثيل المحدد لنقطة البيع. وتتضمن هذه الخصائص إعداد أو ملف تعريف الأجهزة أو للأجهزة الطرفية للبيع بالتجزئة التي سيتم استخدامها في السجل، والمتجر الذي تم تعيين السجل إليه، والتجربة المرئية للمستخدم الذي يسجل الدخول إلى هذا السجل.
+<span data-ttu-id="56b98-109">الانتقال إلى: انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **السجلات‬**.</span><span class="sxs-lookup"><span data-stu-id="56b98-109">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="56b98-110">يُعتبر سجل نقطة البيع نقطة بمثابة كيان يُستخدم لتعريف خصائص مثيل المحدد لنقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-110">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="56b98-111">وتتضمن هذه الخصائص إعداد أو ملف تعريف الأجهزة أو للأجهزة الطرفية للبيع بالتجزئة التي سيتم استخدامها في السجل، والمتجر الذي تم تعيين السجل إليه، والتجربة المرئية للمستخدم الذي يسجل الدخول إلى هذا السجل.</span><span class="sxs-lookup"><span data-stu-id="56b98-111">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
 
-### <a name="devices"></a>الأجهزة
+### <a name="devices"></a><span data-ttu-id="56b98-112">الأجهزة</span><span class="sxs-lookup"><span data-stu-id="56b98-112">Devices</span></span>
 
-الانتقال إلى: انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **الأجهزة‬**. إن الجهاز عبارة عن كيان يمثل مثيلاً فعليًا لجهاز تم تعيينه إلى سجل نقطة البيع. عند إنشاء جهاز، يتم تعيينه إلى سجل نقطة البيع. ويقوم كيان الجهاز بتعقب معلومات حول الوقت الذي يتم فيه تنشيط سجل نقطة البيع ونوع العميل الذي يتم استخدامه وحزمة التطبيق التي تم نشرها لجهاز معين. يمكن تعيين الأجهزة إلى أنواع التطبيقات التالية: نقطة البيع الحديثة للبيع بالتجزئة‬، نقطة بيع مجموعة البيع بالتجزئة، نقطة البيع الحديثة للبيع بالتجزئة – Windows Phone، نقطة البيع الحديثة للبيع بالتجزئة – Android، ونقطة البيع الحديثة للبيع بالتجزئة – iOS.
+<span data-ttu-id="56b98-113">الانتقال إلى: انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **الأجهزة‬**.</span><span class="sxs-lookup"><span data-stu-id="56b98-113">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="56b98-114">إن الجهاز عبارة عن كيان يمثل مثيلاً فعليًا لجهاز تم تعيينه إلى سجل نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-114">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="56b98-115">عند إنشاء جهاز، يتم تعيينه إلى سجل نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-115">When a device is created, it’s mapped to a POS register.</span></span> <span data-ttu-id="56b98-116">ويقوم كيان الجهاز بتعقب معلومات حول الوقت الذي يتم فيه تنشيط سجل نقطة البيع ونوع العميل الذي يتم استخدامه وحزمة التطبيق التي تم نشرها لجهاز معين.</span><span class="sxs-lookup"><span data-stu-id="56b98-116">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="56b98-117">يمكن تعيين الأجهزة إلى أنواع التطبيقات التالية: نقطة البيع الحديثة للبيع بالتجزئة‬، نقطة بيع مجموعة البيع بالتجزئة، نقطة البيع الحديثة للبيع بالتجزئة – Windows Phone، نقطة البيع الحديثة للبيع بالتجزئة – Android، ونقطة البيع الحديثة للبيع بالتجزئة – iOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-117">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
 
-### <a name="retail-modern-pos"></a>Retail Modern POS
+### <a name="retail-modern-pos"></a><span data-ttu-id="56b98-118">Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="56b98-118">Retail Modern POS</span></span>
 
-نقطة البيع الحديثة هي برنامج نقطة البيع لـ Microsoft Windows. ويمكن نشره على أنظمة التشغيل Windows 10 (OSs).
+<span data-ttu-id="56b98-119">نقطة البيع الحديثة هي برنامج نقطة البيع لـ Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-119">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="56b98-120">ويمكن نشره على أنظمة التشغيل Windows 10 (OSs).</span><span class="sxs-lookup"><span data-stu-id="56b98-120">It can be deployed on Windows 10 operating systems (OSs).</span></span>
 
-### <a name="cloud-pos"></a>نقطة بيع المجموعة (Cloud POS)
+### <a name="cloud-pos"></a><span data-ttu-id="56b98-121">نقطة بيع المجموعة (Cloud POS)</span><span class="sxs-lookup"><span data-stu-id="56b98-121">Cloud POS</span></span>
 
-نقطة بيع المجموعة‬ عبارة عن إصدار يستند إلى المستعرض من برنامج نقطة البيع الحديثة الذي يمكن الوصول إليه في مستعرض ويب.
+<span data-ttu-id="56b98-122">نقطة بيع المجموعة‬ عبارة عن إصدار يستند إلى المستعرض من برنامج نقطة البيع الحديثة الذي يمكن الوصول إليه في مستعرض ويب.</span><span class="sxs-lookup"><span data-stu-id="56b98-122">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
 
-### <a name="modern-pos-for-ios"></a>نقطة بيع حديثة لنظام التشغيل iOS
+### <a name="modern-pos-for-ios"></a><span data-ttu-id="56b98-123">نقطة بيع حديثة لنظام التشغيل iOS</span><span class="sxs-lookup"><span data-stu-id="56b98-123">Modern POS for iOS</span></span>
 
-نقطة البيع الحديثة لنظام التشغيل iOS هي إصدار يستند إلى iOS من برنامج نقطة البيع الحديثة يمكن نشره على أجهزة iOS.
+<span data-ttu-id="56b98-124">نقطة البيع الحديثة لنظام التشغيل iOS هي إصدار يستند إلى iOS من برنامج نقطة البيع الحديثة يمكن نشره على أجهزة iOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-124">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
 
-### <a name="modern-pos-for-android"></a>نقطة بيع حديثة لنظام التشغيل Android
+### <a name="modern-pos-for-android"></a><span data-ttu-id="56b98-125">نقطة بيع حديثة لنظام التشغيل Android</span><span class="sxs-lookup"><span data-stu-id="56b98-125">Modern POS for Android</span></span>
 
-نقطة بيع حديثة لنظام التشغيل Android هي إصدار يستند إلى Android من برنامج نقطة البيع الحديثة يمكن نشره على أجهزة Android.
+<span data-ttu-id="56b98-126">نقطة بيع حديثة لنظام التشغيل Android هي إصدار يستند إلى Android من برنامج نقطة البيع الحديثة يمكن نشره على أجهزة Android.</span><span class="sxs-lookup"><span data-stu-id="56b98-126">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
 
-### <a name="pos-peripherals"></a>الأجهزة الطرفية لنقطة البيع
+### <a name="pos-peripherals"></a><span data-ttu-id="56b98-127">الأجهزة الطرفية لنقطة البيع</span><span class="sxs-lookup"><span data-stu-id="56b98-127">POS peripherals</span></span>
 
-إن الأجهزة الطرفية لنقطة البيع هي أجهزة معتمدة بشكل واضح لوظائف نقطة البيع. وهذه الأجهزة الطرفية مقسمة عادة إلى فئات معينة. لمزيد من المعلومات حول هذه الفئات، راجع المقطع "فئات الأجهزة" في هذا الموضوع.
+<span data-ttu-id="56b98-128">إن الأجهزة الطرفية لنقطة البيع هي أجهزة معتمدة بشكل واضح لوظائف نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-128">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="56b98-129">وهذه الأجهزة الطرفية مقسمة عادة إلى فئات معينة.</span><span class="sxs-lookup"><span data-stu-id="56b98-129">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="56b98-130">لمزيد من المعلومات حول هذه الفئات، راجع المقطع "فئات الأجهزة" في هذا الموضوع.</span><span class="sxs-lookup"><span data-stu-id="56b98-130">For more information about these classes, see the “Device classes” section of this topic.</span></span>
 
-### <a name="hardware-station"></a>محطة الأجهزة
+### <a name="hardware-station"></a><span data-ttu-id="56b98-131">محطة الأجهزة</span><span class="sxs-lookup"><span data-stu-id="56b98-131">Hardware station</span></span>
 
-التنقل: انقر فوق **البيع بالتجزئة** &gt; **القنوات** &gt; **متاجر البيع بالتجزئة** &gt; **جميع متاجر البيع بالتجزئة**. حدد متجرًا، ثم انقر فوق علامة التبويب السريعة **محطات الأجهزة**. إن إعداد **محطة الأجهزة** عبارة عن إعداد على أجهزة القناة يُستخدم لتعريف المثيلات حيث سيتم نشر الأجهزة الطرفية للبيع بالتجزئة. يتم استخدام هذا الإعداد على مستوى القناة لتحديد الصفات المميزة لمحطة الأجهزة. ويتم استخدامه أيضًا لسرد محطات الأجهزة المتوفرة لمثيل نقطة بيع حديثة في متجر محدد. تم بناء محطة الأجهزة في برنامج نقطة البيع الحديثة لنظام التشغيل Windows. ويمكن أيضًا نشر محطة الأجهزة بشكل مستقل كبرنامج Microsoft Internet Information Services (IIS) مستقل. في هذه الحالة، يمكن الوصول إليه عبر الشبكة.
+<span data-ttu-id="56b98-132">التنقل: انقر فوق **البيع بالتجزئة** &gt; **القنوات** &gt; **متاجر البيع بالتجزئة** &gt; **جميع متاجر البيع بالتجزئة**.</span><span class="sxs-lookup"><span data-stu-id="56b98-132">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="56b98-133">حدد متجرًا، ثم انقر فوق علامة التبويب السريعة **محطات الأجهزة**.</span><span class="sxs-lookup"><span data-stu-id="56b98-133">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="56b98-134">إن إعداد **محطة الأجهزة** عبارة عن إعداد على أجهزة القناة يُستخدم لتعريف المثيلات حيث سيتم نشر الأجهزة الطرفية للبيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="56b98-134">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="56b98-135">يتم استخدام هذا الإعداد على مستوى القناة لتحديد الصفات المميزة لمحطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-135">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="56b98-136">ويتم استخدامه أيضًا لسرد محطات الأجهزة المتوفرة لمثيل نقطة بيع حديثة في متجر محدد.</span><span class="sxs-lookup"><span data-stu-id="56b98-136">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="56b98-137">تم بناء محطة الأجهزة في برنامج نقطة البيع الحديثة لنظام التشغيل Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-137">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="56b98-138">ويمكن أيضًا نشر محطة الأجهزة بشكل مستقل كبرنامج Microsoft Internet Information Services (IIS) مستقل.</span><span class="sxs-lookup"><span data-stu-id="56b98-138">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="56b98-139">في هذه الحالة، يمكن الوصول إليه عبر الشبكة.</span><span class="sxs-lookup"><span data-stu-id="56b98-139">In this case, it can be accessed via a network.</span></span>
 
-### <a name="hardware-profile"></a>ملف تعريف الأجهزة
+### <a name="hardware-profile"></a><span data-ttu-id="56b98-140">ملف تعريف الأجهزة</span><span class="sxs-lookup"><span data-stu-id="56b98-140">Hardware profile</span></span>
 
-التنقل: انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **ملفات تعريف نقطة البيع** &gt; **ملفات تعريف الأجهزة**. يُعتبر ملف تعريف الأجهزة قائمة تتضمن الأجهزة التي تم تكوينها لسجل نقطة البيع أو محطة أجهزة. يمكن تعيين ملفا تعريف الأجهزة بشكل مباشر إلى سجل نقطة بيع أو إلى محطة أجهزة.
+<span data-ttu-id="56b98-141">التنقل: انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **ملفات تعريف نقطة البيع** &gt; **ملفات تعريف الأجهزة**.</span><span class="sxs-lookup"><span data-stu-id="56b98-141">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="56b98-142">يُعتبر ملف تعريف الأجهزة قائمة تتضمن الأجهزة التي تم تكوينها لسجل نقطة البيع أو محطة أجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-142">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="56b98-143">يمكن تعيين ملفا تعريف الأجهزة بشكل مباشر إلى سجل نقطة بيع أو إلى محطة أجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-143">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
 
-## <a name="devices-classes"></a>فئات الأجهزة
-تكون الأجهزة الطرفية لنقطة البيع مقسمة عادة إلى فئات. يصف هذا القسم الأجهزة التي تدعمها نقطة البيع الحديثة، ويقدم نظرة عامة حول هذه الأجهزة.
+## <a name="devices-classes"></a><span data-ttu-id="56b98-144">فئات الأجهزة</span><span class="sxs-lookup"><span data-stu-id="56b98-144">Devices classes</span></span>
+<span data-ttu-id="56b98-145">تكون الأجهزة الطرفية لنقطة البيع مقسمة عادة إلى فئات.</span><span class="sxs-lookup"><span data-stu-id="56b98-145">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="56b98-146">يصف هذا القسم الأجهزة التي تدعمها نقطة البيع الحديثة، ويقدم نظرة عامة حول هذه الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-146">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
 
-### <a name="printer"></a>الطابعة
+### <a name="printer"></a><span data-ttu-id="56b98-147">الطابعة</span><span class="sxs-lookup"><span data-stu-id="56b98-147">Printer</span></span>
 
-تتضمن الطابعات طابعات إيصالات نقطة البيع التقليدية وطابعات الصفحات الكاملة. ويتم دعم الطابعة من خلال ربط الكائنات وتضمينها لنقاط بيع التجزئة (OPOS) وواجهات برامج تشغيل Microsoft Windows. يمكن استخدام ما يصل إلى طابعتين في نفس الوقت. تدعم هذه القدرة السيناريوهات حيث تتم طباعة إيصالات عملاء الدفع والاستلام على طابعات الإيصالات، بينما تتم طباعة أوامر العملاء، التي تحمل المزيد من المعلومات، على طابعة الصفحات الكاملة. يمكن توصيل طابعات الإيصالات مباشرة بالكمبيوتر عبر منفذ USB أو توصيلها بشبكة عبر Ethernet أو توصيلها عبر Bluetooth.
+<span data-ttu-id="56b98-148">تتضمن الطابعات طابعات إيصالات نقطة البيع التقليدية وطابعات الصفحات الكاملة.</span><span class="sxs-lookup"><span data-stu-id="56b98-148">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="56b98-149">ويتم دعم الطابعة من خلال ربط الكائنات وتضمينها لنقاط بيع التجزئة (OPOS) وواجهات برامج تشغيل Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-149">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="56b98-150">يمكن استخدام ما يصل إلى طابعتين في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="56b98-150">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="56b98-151">تدعم هذه القدرة السيناريوهات حيث تتم طباعة إيصالات عملاء الدفع والاستلام على طابعات الإيصالات، بينما تتم طباعة أوامر العملاء، التي تحمل المزيد من المعلومات، على طابعة الصفحات الكاملة.</span><span class="sxs-lookup"><span data-stu-id="56b98-151">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="56b98-152">يمكن توصيل طابعات الإيصالات مباشرة بالكمبيوتر عبر منفذ USB أو توصيلها بشبكة عبر Ethernet أو توصيلها عبر Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="56b98-152">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
 
-### <a name="scanner"></a>الماسح الضوئي
+### <a name="scanner"></a><span data-ttu-id="56b98-153">الماسح الضوئي</span><span class="sxs-lookup"><span data-stu-id="56b98-153">Scanner</span></span>
 
-يمكن استخدام ما يصل إلى ماسحتين ضوئيتين للأكواد الشريطية في نفس الوقت. تدعم هذه القدرة السيناريوهات حيث يكون ماسح ضوئي قابل للنقل ضروريًا من أجل إجراء مسح ضوئي لعناصر أكبر أو أثقل، بينما يتم استخدام ماسح ضوئي ثابت مضمن لمعظم العناصر ذات الحجم العادي، لتسريع أوقات السداد مع الخروج‬. يمكن دعم الماسحات الضوئية عبر OPOS أو النظام الأساسي العام لـ Windows أو واجهات لوحة مفاتيح wedge. يمكن استخدام USB أو Bluetooth لتوصيل ماسح ضوئي بكمبيوتر.
+<span data-ttu-id="56b98-154">يمكن استخدام ما يصل إلى ماسحتين ضوئيتين للأكواد الشريطية في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="56b98-154">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="56b98-155">تدعم هذه القدرة السيناريوهات حيث يكون ماسح ضوئي قابل للنقل ضروريًا من أجل إجراء مسح ضوئي لعناصر أكبر أو أثقل، بينما يتم استخدام ماسح ضوئي ثابت مضمن لمعظم العناصر ذات الحجم العادي، لتسريع أوقات السداد مع الخروج‬.</span><span class="sxs-lookup"><span data-stu-id="56b98-155">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="56b98-156">يمكن دعم الماسحات الضوئية عبر OPOS أو النظام الأساسي العام لـ Windows أو واجهات لوحة مفاتيح wedge.</span><span class="sxs-lookup"><span data-stu-id="56b98-156">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="56b98-157">يمكن استخدام USB أو Bluetooth لتوصيل ماسح ضوئي بكمبيوتر.</span><span class="sxs-lookup"><span data-stu-id="56b98-157">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
 
-### <a name="msr"></a>MSR
+### <a name="msr"></a><span data-ttu-id="56b98-158">MSR</span><span class="sxs-lookup"><span data-stu-id="56b98-158">MSR</span></span>
 
-يمكن إعداد قارئ شريط مغناطيسي واحد (MSR) باستخدام برامج تشغيل OPOS. إذا أردت استخدام MSR مستقل لحركات الدفع بالتحويل النقدي الإلكتروني (EFT)، ينبغي إدارة MSR بواسطة موصل دفع. يمكن استخدام قارئات MSR مستقلة لإدخال ولاء العملاء وتسجيل دخول الموظف وإدخال بطاقة الهدايا، بشكل مستقل عن موصل الدفع.
+<span data-ttu-id="56b98-159">يمكن إعداد قارئ شريط مغناطيسي واحد (MSR) باستخدام برامج تشغيل OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-159">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="56b98-160">إذا أردت استخدام MSR مستقل لحركات الدفع بالتحويل النقدي الإلكتروني (EFT)، ينبغي إدارة MSR بواسطة موصل دفع.</span><span class="sxs-lookup"><span data-stu-id="56b98-160">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="56b98-161">يمكن استخدام قارئات MSR مستقلة لإدخال ولاء العملاء وتسجيل دخول الموظف وإدخال بطاقة الهدايا، بشكل مستقل عن موصل الدفع.</span><span class="sxs-lookup"><span data-stu-id="56b98-161">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
 
-### <a name="cash-drawer"></a>درج الأوراق النقدية
+### <a name="cash-drawer"></a><span data-ttu-id="56b98-162">درج الأوراق النقدية</span><span class="sxs-lookup"><span data-stu-id="56b98-162">Cash drawer</span></span>
 
-يمكن دعم درجين من أدراج الأوراق النقدية في ملف تعريف الأجهزة. تمكن هذه القدرة توافر ورديتين نشطتين لكل سجل في نفس الوقت. عند وجود وردية مشتركة أو درج أوراق نقدية مستخدم من قبل أجهزة نقاط بيع متنقلة متعددة في نفس الوقت، سيُسمح بدرج أوراق نقدية واحد فقط لكل ملف تعريف أجهزة. يمكن توصيل أدراج أوراق النقدية مباشرة بالكمبيوتر عبر منفذ USB أو توصيلها بشبكة أو توصيلها بطابعة إيصالات عبر واجهة RJ12. في بعض الحالات، يمكن أيضًا توصيل أدراج الأوراق النقدية عبر Bluetooth.
+<span data-ttu-id="56b98-163">يمكن دعم درجين من أدراج الأوراق النقدية في ملف تعريف الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-163">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="56b98-164">تمكن هذه القدرة توافر ورديتين نشطتين لكل سجل في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="56b98-164">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="56b98-165">عند وجود وردية مشتركة أو درج أوراق نقدية مستخدم من قبل أجهزة نقاط بيع متنقلة متعددة في نفس الوقت، سيُسمح بدرج أوراق نقدية واحد فقط لكل ملف تعريف أجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-165">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="56b98-166">يمكن توصيل أدراج أوراق النقدية مباشرة بالكمبيوتر عبر منفذ USB أو توصيلها بشبكة أو توصيلها بطابعة إيصالات عبر واجهة RJ12.</span><span class="sxs-lookup"><span data-stu-id="56b98-166">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="56b98-167">في بعض الحالات، يمكن أيضًا توصيل أدراج الأوراق النقدية عبر Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="56b98-167">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
 
-### <a name="line-display"></a>شاشة عرض سطرية
+### <a name="line-display"></a><span data-ttu-id="56b98-168">شاشة عرض سطرية</span><span class="sxs-lookup"><span data-stu-id="56b98-168">Line display</span></span>
 
-يتم استخدام شاشات العرض السطرية لإظهار المنتجات وأرصدة الحركة ومعلومات أخرى مفيدة للعميل أثناء الحركة. يمكن توصيل شاشة عرض سطرية واحدة بالكمبيوتر عبر USB باستخدام برامج تشغيل OPOS.
+<span data-ttu-id="56b98-169">يتم استخدام شاشات العرض السطرية لإظهار المنتجات وأرصدة الحركة ومعلومات أخرى مفيدة للعميل أثناء الحركة.</span><span class="sxs-lookup"><span data-stu-id="56b98-169">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="56b98-170">يمكن توصيل شاشة عرض سطرية واحدة بالكمبيوتر عبر USB باستخدام برامج تشغيل OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-170">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
 
-### <a name="signature-capture"></a>التقاط التوقيع
+### <a name="signature-capture"></a><span data-ttu-id="56b98-171">التقاط التوقيع</span><span class="sxs-lookup"><span data-stu-id="56b98-171">Signature capture</span></span>
 
-يمكن توصيل أجهزة التقاط التوقيع بالكمبيوتر بشكل مباشر عبر USB باستخدام برامج تشغيل OPOS. عند تكوين التقاط التوقيع، تتم مطالبة العميل بتسجيل الدخول إلى الجهاز. بعد أن يتم توفير التوقيع، يتم عرضه على الصراف لقبوله.
+<span data-ttu-id="56b98-172">يمكن توصيل أجهزة التقاط التوقيع بالكمبيوتر بشكل مباشر عبر USB باستخدام برامج تشغيل OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-172">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="56b98-173">عند تكوين التقاط التوقيع، تتم مطالبة العميل بتسجيل الدخول إلى الجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-173">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="56b98-174">بعد أن يتم توفير التوقيع، يتم عرضه على الصراف لقبوله.</span><span class="sxs-lookup"><span data-stu-id="56b98-174">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
 
-### <a name="scale"></a>المقياس
+### <a name="scale"></a><span data-ttu-id="56b98-175">المقياس</span><span class="sxs-lookup"><span data-stu-id="56b98-175">Scale</span></span>
 
-يمكن توصيل المقاييس بالكمبيوتر عبر USP باستخدام برامج تشغيل OPOS. عند إضافة منتج تم وضع علامة عليه كمنتج "الموزون" إلى حركة، تقرأ نقطة البيع الوزن من المقياس، وتضيف المنتج إلى الحركة وتستخدم الكمية التي وفرها المقياس.
+<span data-ttu-id="56b98-176">يمكن توصيل المقاييس بالكمبيوتر عبر USP باستخدام برامج تشغيل OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-176">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="56b98-177">عند إضافة منتج تم وضع علامة عليه كمنتج "الموزون" إلى حركة، تقرأ نقطة البيع الوزن من المقياس، وتضيف المنتج إلى الحركة وتستخدم الكمية التي وفرها المقياس.</span><span class="sxs-lookup"><span data-stu-id="56b98-177">When a product that is marked as a “Weighed” product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
 
-### <a name="pin-pad"></a>لوحة PIN
+### <a name="pin-pad"></a><span data-ttu-id="56b98-178">لوحة PIN</span><span class="sxs-lookup"><span data-stu-id="56b98-178">PIN pad</span></span>
 
-يتم دعم لوحات رقم التعريف الشخصي (PIN) عبر OPOS، ولكن يجب إدارتها عبر موصل دفع.
+<span data-ttu-id="56b98-179">يتم دعم لوحات رقم التعريف الشخصي (PIN) عبر OPOS، ولكن يجب إدارتها عبر موصل دفع.</span><span class="sxs-lookup"><span data-stu-id="56b98-179">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
 
-### <a name="secondary-display"></a>شاشة عرض ثانوية
+### <a name="secondary-display"></a><span data-ttu-id="56b98-180">شاشة عرض ثانوية</span><span class="sxs-lookup"><span data-stu-id="56b98-180">Secondary display</span></span>
 
-عندما يتم تكوين شاشة عرض ثانوية، يتم استخدام شاشة Windows رقم 2 لإظهار معلومات أساسية. الهدف من شاشة العرض الثانوية هو دعم توسعة مورِّدي البرامج المستقلين (ISV)‬، لأن شاشة العرض الثانوية المخصصة غير قابلة للتكوين وتعرض محتوى محدودًا.
+<span data-ttu-id="56b98-181">عندما يتم تكوين شاشة عرض ثانوية، يتم استخدام شاشة Windows رقم 2 لإظهار معلومات أساسية.</span><span class="sxs-lookup"><span data-stu-id="56b98-181">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="56b98-182">الهدف من شاشة العرض الثانوية هو دعم توسعة مورِّدي البرامج المستقلين (ISV)‬، لأن شاشة العرض الثانوية المخصصة غير قابلة للتكوين وتعرض محتوى محدودًا.</span><span class="sxs-lookup"><span data-stu-id="56b98-182">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
 
-### <a name="payment-device"></a>جهاز الدفع
+### <a name="payment-device"></a><span data-ttu-id="56b98-183">جهاز الدفع</span><span class="sxs-lookup"><span data-stu-id="56b98-183">Payment device</span></span>
 
-يتم تطبيق دعم جهاز الدفع عبر موصل الدفع. باستطاعة أجهزة الدفع تنفيذ وظيفة واحدة أو وظائف متعددة توفرها فئات الأجهزة الأخرى. على سبيل المثال، باستطاعة جهاز دفع أن يعمل كقارئ بطاقات/MSR أو شاشة عرض سطرية أو جهاز التقاط التوقيع‬ أو لوحة PIN. يتم تطبيق دعم أجهزة الدفع بصرف النظر عن دعم الأجهزة المستقلة الذي يتم توفيره للأجهزة الأخرى المضمنة في ملف تعريف الأجهزة.
+<span data-ttu-id="56b98-184">يتم تطبيق دعم جهاز الدفع عبر موصل الدفع.</span><span class="sxs-lookup"><span data-stu-id="56b98-184">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="56b98-185">باستطاعة أجهزة الدفع تنفيذ وظيفة واحدة أو وظائف متعددة توفرها فئات الأجهزة الأخرى.</span><span class="sxs-lookup"><span data-stu-id="56b98-185">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="56b98-186">على سبيل المثال، باستطاعة جهاز دفع أن يعمل كقارئ بطاقات/MSR أو شاشة عرض سطرية أو جهاز التقاط التوقيع‬ أو لوحة PIN.</span><span class="sxs-lookup"><span data-stu-id="56b98-186">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="56b98-187">يتم تطبيق دعم أجهزة الدفع بصرف النظر عن دعم الأجهزة المستقلة الذي يتم توفيره للأجهزة الأخرى المضمنة في ملف تعريف الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-187">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
 
-## <a name="supported-interfaces"></a>الواجهات المعتمدة
-### <a name="opos"></a>OPOS
+## <a name="supported-interfaces"></a><span data-ttu-id="56b98-188">الواجهات المعتمدة</span><span class="sxs-lookup"><span data-stu-id="56b98-188">Supported interfaces</span></span>
+### <a name="opos"></a><span data-ttu-id="56b98-189">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-189">OPOS</span></span>
 
-للمساعدة في ضمان إمكانية استخدام أكبر مجموعة من الأجهزة مع Microsoft Dynamics 365 for Retail، يُعد مقياس المجال OLE لنقاط البيع النظام الأساسي الرئيسي للأجهزة الطرفية للبيع بالتجزئة المعتمد في Microsoft Dynamics 365 for Retail. تم إنتاج مقياس المجال OLE لنقاط البيع بواسطة الاتحاد الوطني للبيع بالتجزئة (NRF)، والذي أسس بروتوكولات الاتصالات التي تلبي مقياس المجال للأجهزة الطرفية للبيع بالتجزئة. تُعتبر واجهة OPOS تنفيذًا معتمدًا على نطاق واسع لمقياس OLE لنقاط البيع. وقد تم تطويرها في منتصف التسعينات وتم تحديثها عدة مرات منذ ذلك التاريخ. توفر واجهة OPOS بنية لبرامج تشغيل الأجهزة تمكّن عملية دمج سهلة لأجهزة نقاط البيع مع أنظمة نقاط البيع القائمة على Windows. تعالج عناصر تحكم OPOS الاتصالات بين الأجهزة المتوافقة وبرامج نقاط البيع. يتكوّن عنصر تحكم OPOS من قسمين:
+<span data-ttu-id="56b98-190">للمساعدة في ضمان إمكانية استخدام أكبر مجموعة من الأجهزة مع Microsoft Dynamics 365 for Retail، يُعد مقياس المجال OLE لنقاط البيع النظام الأساسي الرئيسي للأجهزة الطرفية للبيع بالتجزئة المعتمد في Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="56b98-190">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="56b98-191">تم إنتاج مقياس المجال OLE لنقاط البيع بواسطة الاتحاد الوطني للبيع بالتجزئة (NRF)، والذي أسس بروتوكولات الاتصالات التي تلبي مقياس المجال للأجهزة الطرفية للبيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="56b98-191">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="56b98-192">تُعتبر واجهة OPOS تنفيذًا معتمدًا على نطاق واسع لمقياس OLE لنقاط البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-192">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="56b98-193">وقد تم تطويرها في منتصف التسعينات وتم تحديثها عدة مرات منذ ذلك التاريخ.</span><span class="sxs-lookup"><span data-stu-id="56b98-193">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="56b98-194">توفر واجهة OPOS بنية لبرامج تشغيل الأجهزة تمكّن عملية دمج سهلة لأجهزة نقاط البيع مع أنظمة نقاط البيع القائمة على Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-194">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="56b98-195">تعالج عناصر تحكم OPOS الاتصالات بين الأجهزة المتوافقة وبرامج نقاط البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-195">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="56b98-196">يتكوّن عنصر تحكم OPOS من قسمين:</span><span class="sxs-lookup"><span data-stu-id="56b98-196">An OPOS control consists of two parts:</span></span>
 
--   **كائن التحكم** – يوفر كائن التحكم‏‎ لفئة جهاز (مثل شاشات العرض السطرية) واجهة للبرنامج. توفر شركة Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) مجموعة موحدة من كائنات عناصر تحكم OPOS المعروفة على أنها كائنات تحكم عامة (CCO). ويتم استخدام كائنات التحكم العامة لاختبار مكون نقطة البيع في Microsoft Dynamics 365 for Retail. وبالتالي، يساعد الاختبار على ضمان إمكانية دعم الكثير من أنواع الأجهزة إذا كان Microsoft Dynamics 365 for Retail يدعم فئة جهاز عبر OPOS، شرط أن توفر الشركة المصنعة كائن خدمة مبني لواجهة OPOS. ولست بحاجة إلى اختبار كل نوع جهاز بشكل صريح.
--   **كائن الخدمة** – يوفر كائن الخدمة الاتصال بين كائن التحكم والجهاز. يتم عادةً توفير كائن الخدمة لجهاز من الشركة المصنعة للجهاز. ومع ذلك، في بعض الحالات، قد تحتاج إلى تنزيل كائن الخدمة من موقع ويب الخاص بالشركة المصنعة. على سبيل المثال، قد يكون كائن خدمة أحدث متوفرًا. للبحث عن عنوان موقع الويب الخاص بالشركة المصنعة، راجع الوثائق المرفقة مع الجهاز.
+-   <span data-ttu-id="56b98-197">**كائن التحكم** – يوفر كائن التحكم‏‎ لفئة جهاز (مثل شاشات العرض السطرية) واجهة للبرنامج.</span><span class="sxs-lookup"><span data-stu-id="56b98-197">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="56b98-198">توفر شركة Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) مجموعة موحدة من كائنات عناصر تحكم OPOS المعروفة على أنها كائنات تحكم عامة (CCO).</span><span class="sxs-lookup"><span data-stu-id="56b98-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="56b98-199">ويتم استخدام كائنات التحكم العامة لاختبار مكون نقطة البيع في Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="56b98-199">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="56b98-200">وبالتالي، يساعد الاختبار على ضمان إمكانية دعم الكثير من أنواع الأجهزة إذا كان Microsoft Dynamics 365 for Retail يدعم فئة جهاز عبر OPOS، شرط أن توفر الشركة المصنعة كائن خدمة مبني لواجهة OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-200">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="56b98-201">ولست بحاجة إلى اختبار كل نوع جهاز بشكل صريح.</span><span class="sxs-lookup"><span data-stu-id="56b98-201">You don't have to explicitly test each device type.</span></span>
+-   <span data-ttu-id="56b98-202">**كائن الخدمة** – يوفر كائن الخدمة الاتصال بين كائن التحكم والجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-202">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="56b98-203">يتم عادةً توفير كائن الخدمة لجهاز من الشركة المصنعة للجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-203">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="56b98-204">ومع ذلك، في بعض الحالات، قد تحتاج إلى تنزيل كائن الخدمة من موقع ويب الخاص بالشركة المصنعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-204">However, in some cases, you might have to download the service object from the manufacturer’s website.</span></span> <span data-ttu-id="56b98-205">على سبيل المثال، قد يكون كائن خدمة أحدث متوفرًا.</span><span class="sxs-lookup"><span data-stu-id="56b98-205">For example, a more recent service object might be available.</span></span> <span data-ttu-id="56b98-206">للبحث عن عنوان موقع الويب الخاص بالشركة المصنعة، راجع الوثائق المرفقة مع الجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-206">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
 
-[![كائن التحكم وكائن الخدمة](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) يساعد دعم تطبيق OPOS لمقياس OLE لنقطة البيع على ضمان عمل أجهزة POS والأجهزة المعتمدة معًا، حتى لو لم يتم اختبارها معًا، في حالي قيام الشركات المصنعة للأجهزة وناشري نقطة البيع بتطبيق المقياس بشكل صحيح. **ملاحظة:** لا تضمن واجهة OPOS الدعم لكافة الأجهزة التي لها برامج تشغيل OPOS. يجب أن يدعم Microsoft Dynamics 365 for Retail نوع الجهاز هذا أو هذه الفئة أولاً، عبر OPOS. وبالإضافة إلى ذلك، قد لا تكون كائنات الخدمة دومًا محدثة بواسطة أحدث إصدار من كائنات التحكم العامة. يجب أن تكون على علم، بشكل عام، بوجود اختلافات في جودة كائنات الخدمة.
+<span data-ttu-id="56b98-207">[![كائن التحكم وكائن الخدمة](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) يساعد دعم تطبيق OPOS لمقياس OLE لنقطة البيع على ضمان عمل أجهزة POS والأجهزة المعتمدة معًا، حتى لو لم يتم اختبارها معًا، في حالي قيام الشركات المصنعة للأجهزة وناشري نقطة البيع بتطبيق المقياس بشكل صحيح.</span><span class="sxs-lookup"><span data-stu-id="56b98-207">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span> <span data-ttu-id="56b98-208">**ملاحظة:** لا تضمن واجهة OPOS الدعم لكافة الأجهزة التي لها برامج تشغيل OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-208">**Note:** OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="56b98-209">يجب أن يدعم Microsoft Dynamics 365 for Retail نوع الجهاز هذا أو هذه الفئة أولاً، عبر OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="56b98-210">وبالإضافة إلى ذلك، قد لا تكون كائنات الخدمة دومًا محدثة بواسطة أحدث إصدار من كائنات التحكم العامة.</span><span class="sxs-lookup"><span data-stu-id="56b98-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="56b98-211">يجب أن تكون على علم، بشكل عام، بوجود اختلافات في جودة كائنات الخدمة.</span><span class="sxs-lookup"><span data-stu-id="56b98-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="56b98-212">Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-212">Windows</span></span>
 
-تم تحسين طباعة الإيصالات في نقطة البيع لواجهة OPOS. تميل OPOS إلى أن تكون أسرع بكثير من الطباعة من خلال Windows. لذلك، من المستحسن استخدام OPOS، خاصة في بيئات البيع بالتجزئة حيث يتم طباعة إيصالات من 40 عمودًا وحيث يجب أن تكون أوقات الحركة سريعة. لمعظم الأجهزة، يمكنك استخدام عناصر تحكم OPOS. غير أن بعض طابعات إيصالات OPOS تدعم أيضًا برامج تشغيل Windows. باستخدام برنامج تشغيل Windows، يمكنك الوصول إلى أحدث الخطوط وطابعة شبكة واحدة لسجلات متعددة. ومع ذلك، ينطوي استخدام برامج تشغيل Windows على بعض السلبيات: فيما يلي بعض الأمثلة عن هذه السلبيات:
+<span data-ttu-id="56b98-213">تم تحسين طباعة الإيصالات في نقطة البيع لواجهة OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="56b98-214">تميل OPOS إلى أن تكون أسرع بكثير من الطباعة من خلال Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="56b98-215">لذلك، من المستحسن استخدام OPOS، خاصة في بيئات البيع بالتجزئة حيث يتم طباعة إيصالات من 40 عمودًا وحيث يجب أن تكون أوقات الحركة سريعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="56b98-216">لمعظم الأجهزة، يمكنك استخدام عناصر تحكم OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="56b98-217">غير أن بعض طابعات إيصالات OPOS تدعم أيضًا برامج تشغيل Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="56b98-218">باستخدام برنامج تشغيل Windows، يمكنك الوصول إلى أحدث الخطوط وطابعة شبكة واحدة لسجلات متعددة.</span><span class="sxs-lookup"><span data-stu-id="56b98-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="56b98-219">ومع ذلك، ينطوي استخدام برامج تشغيل Windows على بعض السلبيات:</span><span class="sxs-lookup"><span data-stu-id="56b98-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="56b98-220">فيما يلي بعض الأمثلة عن هذه السلبيات:</span><span class="sxs-lookup"><span data-stu-id="56b98-220">Here are some examples of these drawbacks:</span></span>
 
--   عند استخدام برامج تشغيل Windows، يتم تقديم الصور قبل الطباعة. لذلك، تميل الطباعة إلى أن تكون أبطأ مما عليه على الطابعات التي تستخدم عناصر تحكم OPOS.
--   قد لا تعمل الأجهزة المتصلة عبر الطابعة ("سلسلة تعاقبية") بشكل صحيح عند استخدام برامج تشغيل Windows. على سبيل المثال، قد لا يفتح درج الأوراق النقدية، أو قد لا تعمل طابعة الإيصالات كما هو متوقع.
--   تدعم OPOS أيضًا مجموعة أوسع من المتغيرات الخاصة بطابعات إيصالات البيع بالتجزئة، مثل قطع الورق أو طباعة الإيصالات.
+-   <span data-ttu-id="56b98-221">عند استخدام برامج تشغيل Windows، يتم تقديم الصور قبل الطباعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="56b98-222">لذلك، تميل الطباعة إلى أن تكون أبطأ مما عليه على الطابعات التي تستخدم عناصر تحكم OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
+-   <span data-ttu-id="56b98-223">قد لا تعمل الأجهزة المتصلة عبر الطابعة ("سلسلة تعاقبية") بشكل صحيح عند استخدام برامج تشغيل Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-223">Devices that are connected through the printer (“daisy-chained”) might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="56b98-224">على سبيل المثال، قد لا يفتح درج الأوراق النقدية، أو قد لا تعمل طابعة الإيصالات كما هو متوقع.</span><span class="sxs-lookup"><span data-stu-id="56b98-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
+-   <span data-ttu-id="56b98-225">تدعم OPOS أيضًا مجموعة أوسع من المتغيرات الخاصة بطابعات إيصالات البيع بالتجزئة، مثل قطع الورق أو طباعة الإيصالات.</span><span class="sxs-lookup"><span data-stu-id="56b98-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
 
-إذا كانت عناصر تحكم OPOS متوفرة لطابعة Windows التي تستخدمها، فمن المفترض أن تستمر الطابعة بالعمل بشكل صحيح مع Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="56b98-226">إذا كانت عناصر تحكم OPOS متوفرة لطابعة Windows التي تستخدمها، فمن المفترض أن تستمر الطابعة بالعمل بشكل صحيح مع Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="56b98-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
 
-### <a name="universal-windows-platform"></a>النظام الأساسي العام لـ Windows
+### <a name="universal-windows-platform"></a><span data-ttu-id="56b98-227">النظام الأساسي العام لـ Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-227">Universal Windows Platform</span></span>
 
-يتعلق UWP، في حالة الأجهزة الطرفية للبيع بالتجزئة، بدعم Windows لأجهزة التوصيل والتشغيل. عند توصيل جهاز توصيل وتشغيل بإصدار نظام التشغيل Windows الذي يدعم نوع الجهاز هذا، لا حاجة إلى استخدام برنامج تشغيل للجهاز بالشكل المقصود. على سبيل المثال، إذا اكتشف Windows جهاز مكبر صوت Bluetooth، فإن نظام التشغيل يعلم أن الجهاز يتضمن نوع الفئة **مكبر الصوت**. وهو بالتالي يعامل هذا الجهاز كمكبر صوت. لا حاجة إلى أي إعداد إضافي. عندما يتعلق الأمر بأجهزة نقاط البيع، يمكن توصيل العديد من أجهزة USB، وسيتعرف Windows عليها كأجهزة واجهات بشرية (HIDs). ومع ذلك، فقد لا يتمكن من تحديد القدرات التي يوفرها الجهاز، لأن الجهاز لا يحدد فئة أو نوع الجهاز. في Windows 10، تمت إضافة فئات الأجهزة للماسحات الضوئية للرمز الشريطي وقارئات MSR. ولذلك، إذا أعلن أحد الأجهزة نفسه لنظام Windows 10 على أنه جهاز من إحدى هذه الفئات، فسوف يستمع Windows للأحداث من الجهاز في الأوقات المناسبة. تدعم نقاط البيع الحديثة UWP MSR والماسحات الضوئية. وبالتالي، عندما تكون جاهزة للإدخال من أحد هذه الأجهزة، وتم توصيل جهاز ينتمي إلى إحدى هذه الفئات، يمكن استخدام الجهاز. على سبيل المثال، إذا كان الماسح الضوئي للرمز الشريطي UWP موصولاً بكمبيوتر Windows 10، وتم تكوين تسجيل دخول الرمز الشريطي لنقطة البيع الحديثة، فسيصبح الماسح الضوئي للرمز الشريطي نشطًا على شاشة تسجيل الدخول. لا حاجة إلى أي إعداد إضافي. تُضاف فئات إضافية لأجهزة UWP لنقاط الخدمة إلى Windows. وتتضمن هذه الفئات فئات خاصة بأدراج الأوراق النقدية وطابعات الإيصالات. لا يزال الدعم لفئات الأجهزة الجديدة هذه في نقطة البيع الحديثة معلقًا.
+<span data-ttu-id="56b98-228">يتعلق UWP، في حالة الأجهزة الطرفية للبيع بالتجزئة، بدعم Windows لأجهزة التوصيل والتشغيل.</span><span class="sxs-lookup"><span data-stu-id="56b98-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="56b98-229">عند توصيل جهاز توصيل وتشغيل بإصدار نظام التشغيل Windows الذي يدعم نوع الجهاز هذا، لا حاجة إلى استخدام برنامج تشغيل للجهاز بالشكل المقصود.</span><span class="sxs-lookup"><span data-stu-id="56b98-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="56b98-230">على سبيل المثال، إذا اكتشف Windows جهاز مكبر صوت Bluetooth، فإن نظام التشغيل يعلم أن الجهاز يتضمن نوع الفئة **مكبر الصوت**.</span><span class="sxs-lookup"><span data-stu-id="56b98-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="56b98-231">وهو بالتالي يعامل هذا الجهاز كمكبر صوت.</span><span class="sxs-lookup"><span data-stu-id="56b98-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="56b98-232">لا حاجة إلى أي إعداد إضافي.</span><span class="sxs-lookup"><span data-stu-id="56b98-232">No additional setup is required.</span></span> <span data-ttu-id="56b98-233">عندما يتعلق الأمر بأجهزة نقاط البيع، يمكن توصيل العديد من أجهزة USB، وسيتعرف Windows عليها كأجهزة واجهات بشرية (HIDs).</span><span class="sxs-lookup"><span data-stu-id="56b98-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="56b98-234">ومع ذلك، فقد لا يتمكن من تحديد القدرات التي يوفرها الجهاز، لأن الجهاز لا يحدد فئة أو نوع الجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="56b98-235">في Windows 10، تمت إضافة فئات الأجهزة للماسحات الضوئية للرمز الشريطي وقارئات MSR.</span><span class="sxs-lookup"><span data-stu-id="56b98-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="56b98-236">ولذلك، إذا أعلن أحد الأجهزة نفسه لنظام Windows 10 على أنه جهاز من إحدى هذه الفئات، فسوف يستمع Windows للأحداث من الجهاز في الأوقات المناسبة.</span><span class="sxs-lookup"><span data-stu-id="56b98-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="56b98-237">تدعم نقاط البيع الحديثة UWP MSR والماسحات الضوئية.</span><span class="sxs-lookup"><span data-stu-id="56b98-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="56b98-238">وبالتالي، عندما تكون جاهزة للإدخال من أحد هذه الأجهزة، وتم توصيل جهاز ينتمي إلى إحدى هذه الفئات، يمكن استخدام الجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="56b98-239">على سبيل المثال، إذا كان الماسح الضوئي للرمز الشريطي UWP موصولاً بكمبيوتر Windows 10، وتم تكوين تسجيل دخول الرمز الشريطي لنقطة البيع الحديثة، فسيصبح الماسح الضوئي للرمز الشريطي نشطًا على شاشة تسجيل الدخول.</span><span class="sxs-lookup"><span data-stu-id="56b98-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="56b98-240">لا حاجة إلى أي إعداد إضافي.</span><span class="sxs-lookup"><span data-stu-id="56b98-240">No additional setup is required.</span></span> <span data-ttu-id="56b98-241">تُضاف فئات إضافية لأجهزة UWP لنقاط الخدمة إلى Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="56b98-242">وتتضمن هذه الفئات فئات خاصة بأدراج الأوراق النقدية وطابعات الإيصالات.</span><span class="sxs-lookup"><span data-stu-id="56b98-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="56b98-243">لا يزال الدعم لفئات الأجهزة الجديدة هذه في نقطة البيع الحديثة معلقًا.</span><span class="sxs-lookup"><span data-stu-id="56b98-243">Support for these new device classes in Modern POS is pending.</span></span>
 
-### <a name="keyboard-wedge"></a>لوحة مفاتيح wedge
+### <a name="keyboard-wedge"></a><span data-ttu-id="56b98-244">لوحة مفاتيح wedge</span><span class="sxs-lookup"><span data-stu-id="56b98-244">Keyboard wedge</span></span>
 
-ترسل أجهزة لوحة مفاتيح wedge البيانات إلى جهاز الكمبيوتر كما لو أن كتابة هذه البيانات قد تمت على لوحة مفاتيح. وبالتالي، بشكل افتراضي، ستلقى الحقل النشط في نقطة البيع البيانات التي تم مسحها ضوئيًا أو تمريرها. في بعض الحالات، بإمكان هذا السلوك أن يتسبب في إجراء مسح ضوئي لنوع البيانات غير الصحيح في الحقل غير الصحيح. على سبيل المثال، قد يتم إجراء مسح ضوئي لرمز شريطي في حقل مخصص لإدخال بيانات بطاقة ائتمان. في الكثير من الحالات، هناك منطق في نقطة البيع يحدد ما إذا كانت البيانات التي يتم مسحها ضوئيًا أو تمريرها عبارة عن تمرير رمز شريطي أو بطاقة. وبالتالي، تتم معالجة البيانات بشكل صحيح. ومع ذلك، عندما يتم إعداد الأجهزة لـ OPOS بدلاً من أجهزة لوحة مفاتيح wedge، هناك المزيد من التحكم في كيفية استهلاك البيانات من هذه الأجهزة، لأن معلومات أكثر أصبحت "معروفة" عن الجهاز الذي يُعتبر مصدر البيانات. على سبيل المثال، يتم بشكل تلقائي التعرف على بيانات من الماسح الضوئي للرمز الشريطي كرمز شريطي، ويتم العثور بشكل أسرع وأسهل على السجل المقترن في قاعدة البيانات مقارنةً باستخدام عملية بحث عن سلسلة عامة، كما هو الحال في أجهزة لوحة مفاتيح wedge.
+<span data-ttu-id="56b98-245">ترسل أجهزة لوحة مفاتيح wedge البيانات إلى جهاز الكمبيوتر كما لو أن كتابة هذه البيانات قد تمت على لوحة مفاتيح.</span><span class="sxs-lookup"><span data-stu-id="56b98-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="56b98-246">وبالتالي، بشكل افتراضي، ستلقى الحقل النشط في نقطة البيع البيانات التي تم مسحها ضوئيًا أو تمريرها.</span><span class="sxs-lookup"><span data-stu-id="56b98-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="56b98-247">في بعض الحالات، بإمكان هذا السلوك أن يتسبب في إجراء مسح ضوئي لنوع البيانات غير الصحيح في الحقل غير الصحيح.</span><span class="sxs-lookup"><span data-stu-id="56b98-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="56b98-248">على سبيل المثال، قد يتم إجراء مسح ضوئي لرمز شريطي في حقل مخصص لإدخال بيانات بطاقة ائتمان.</span><span class="sxs-lookup"><span data-stu-id="56b98-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="56b98-249">في الكثير من الحالات، هناك منطق في نقطة البيع يحدد ما إذا كانت البيانات التي يتم مسحها ضوئيًا أو تمريرها عبارة عن تمرير رمز شريطي أو بطاقة.</span><span class="sxs-lookup"><span data-stu-id="56b98-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="56b98-250">وبالتالي، تتم معالجة البيانات بشكل صحيح.</span><span class="sxs-lookup"><span data-stu-id="56b98-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="56b98-251">ومع ذلك، عندما يتم إعداد الأجهزة لـ OPOS بدلاً من أجهزة لوحة مفاتيح wedge، هناك المزيد من التحكم في كيفية استهلاك البيانات من هذه الأجهزة، لأن معلومات أكثر أصبحت "معروفة" عن الجهاز الذي يُعتبر مصدر البيانات.</span><span class="sxs-lookup"><span data-stu-id="56b98-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is “known” about the device that the data originates from.</span></span> <span data-ttu-id="56b98-252">على سبيل المثال، يتم بشكل تلقائي التعرف على بيانات من الماسح الضوئي للرمز الشريطي كرمز شريطي، ويتم العثور بشكل أسرع وأسهل على السجل المقترن في قاعدة البيانات مقارنةً باستخدام عملية بحث عن سلسلة عامة، كما هو الحال في أجهزة لوحة مفاتيح wedge.</span><span class="sxs-lookup"><span data-stu-id="56b98-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
 
-### <a name="native-printer"></a>الطابعة الأصلية
+### <a name="native-printer"></a><span data-ttu-id="56b98-253">الطابعة الأصلية</span><span class="sxs-lookup"><span data-stu-id="56b98-253">Native printer</span></span>
 
-يمكن تكوين الطابعات الأصلية (أو "الجهاز" بحسب تسمية النوع في ملف تعريف الأجهزة) لمطالبة المستخدم بتحديد طابعة تم تكوينها للكمبيوتر. عند تكوين طابعة من نوع **الجهاز**، تتم مطالبة المستخدم بتحديد طابعة في قائمة، إذا صادفت نقطة البيع الحديثة أمر طباعة. يختلف هذا السلوك عن سلوك برامج تشغيل Windows، لأن نوع طابعة **Windows** في ملف تعريف الأجهزة لا يعرض قائمة طابعات. وهو يطلب، بدلاً من ذلك، توفير طابعة مسماة في حقل **اسم الجهاز**.
+<span data-ttu-id="56b98-254">يمكن تكوين الطابعات الأصلية (أو "الجهاز" بحسب تسمية النوع في ملف تعريف الأجهزة) لمطالبة المستخدم بتحديد طابعة تم تكوينها للكمبيوتر.</span><span class="sxs-lookup"><span data-stu-id="56b98-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="56b98-255">عند تكوين طابعة من نوع **الجهاز**، تتم مطالبة المستخدم بتحديد طابعة في قائمة، إذا صادفت نقطة البيع الحديثة أمر طباعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="56b98-256">يختلف هذا السلوك عن سلوك برامج تشغيل Windows، لأن نوع طابعة **Windows** في ملف تعريف الأجهزة لا يعرض قائمة طابعات.</span><span class="sxs-lookup"><span data-stu-id="56b98-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="56b98-257">وهو يطلب، بدلاً من ذلك، توفير طابعة مسماة في حقل **اسم الجهاز**.</span><span class="sxs-lookup"><span data-stu-id="56b98-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="56b98-258">Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-258">Windows</span></span>
 
-يُستخدم نوع جهاز **Windows** للطابعات فقط. عندما يتم تكوين طابعة Windows في ملف تعريف الأجهزة، يجب توفير اسم الطابعة المعينة. عندما تصادف نقطة البيع الحديثة أحداث طباعة، سيتم تمرير الحدث إلى طابعة Windows المحددة، إذا تم تكوين طابعة Windows. ولن تتم مطالبة المستخدم بتحديد طابعة.
+<span data-ttu-id="56b98-259">يُستخدم نوع جهاز **Windows** للطابعات فقط.</span><span class="sxs-lookup"><span data-stu-id="56b98-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="56b98-260">عندما يتم تكوين طابعة Windows في ملف تعريف الأجهزة، يجب توفير اسم الطابعة المعينة.</span><span class="sxs-lookup"><span data-stu-id="56b98-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="56b98-261">عندما تصادف نقطة البيع الحديثة أحداث طباعة، سيتم تمرير الحدث إلى طابعة Windows المحددة، إذا تم تكوين طابعة Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="56b98-262">ولن تتم مطالبة المستخدم بتحديد طابعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-262">The user won't be prompted to select a printer.</span></span>
 
-### <a name="network"></a>الشبكة
+### <a name="network"></a><span data-ttu-id="56b98-263">الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-263">Network</span></span>
 
-يمكن استخدام أدراج الأوراق النقدية وطابعات الإيصالات ووحدات الدفع الطرفية القابلة للعنونة على الشبكة عبر الشبكة، إما مباشرةً عبر محطة أجهزة الاتصالات بين العمليات‬ (IPC) المضمنة في نقطة البيع الحديثة لتطبيق Windows أو عبر محطة أجهزة IIS لعملاء آخرين لنقطة البيع الحديثة.
+<span data-ttu-id="56b98-264">يمكن استخدام أدراج الأوراق النقدية وطابعات الإيصالات ووحدات الدفع الطرفية القابلة للعنونة على الشبكة عبر الشبكة، إما مباشرةً عبر محطة أجهزة الاتصالات بين العمليات‬ (IPC) المضمنة في نقطة البيع الحديثة لتطبيق Windows أو عبر محطة أجهزة IIS لعملاء آخرين لنقطة البيع الحديثة.</span><span class="sxs-lookup"><span data-stu-id="56b98-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
 
-## <a name="hardware-station-deployment-options"></a>خيارات نشر محطة الأجهزة الطرفية
-### <a name="ipc-built-in"></a>IPC (مضمنة)
+## <a name="hardware-station-deployment-options"></a><span data-ttu-id="56b98-265">خيارات نشر محطة الأجهزة الطرفية</span><span class="sxs-lookup"><span data-stu-id="56b98-265">Hardware station deployment options</span></span>
+### <a name="ipc-built-in"></a><span data-ttu-id="56b98-266">IPC (مضمنة)</span><span class="sxs-lookup"><span data-stu-id="56b98-266">IPC (built-in)</span></span>
 
-تم بناء محطة أجهزة الاتصالات بين العمليات (IPC) في تطبيق نقطة البيع الحديثة لنظام التشغيل Windows. لاستخدام محطة أجهزة IPC، يجب تعيين ملف تعريف أجهزة إلى سجل سيستخدم تطبيق نقطة البيع الحديثة لنظام التشغيل Windows. بعد ذلك، أنشئ محطة أجهزة من النوع **مخصص** للمتجر حيث سيتم استخدام السجل. عند بدء تشغيل نقطة بيع حديثة، ستكون محطة أجهزة IPC نشطة، وستكون الأجهزة الطرفية لنقطة البيع‬ التي تم تكوينها جاهزة للاستخدام. إذا لم تكن بحاجة إلى الأجهزة المحلية لسبب ما وبشكل مؤقت، فاستخدم عملية **إدارة محطات أجهزة** لإيقاف تشغيل قدرات محطة الأجهزة. باستطاعة نقاط البيع الحديثة أن تستخدم أيضًا محطة الأجهزة IPC للاتصال مباشرة بالأجهزة الطرفية على الشبكة.
+<span data-ttu-id="56b98-267">تم بناء محطة أجهزة الاتصالات بين العمليات (IPC) في تطبيق نقطة البيع الحديثة لنظام التشغيل Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="56b98-268">لاستخدام محطة أجهزة IPC، يجب تعيين ملف تعريف أجهزة إلى سجل سيستخدم تطبيق نقطة البيع الحديثة لنظام التشغيل Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="56b98-269">بعد ذلك، أنشئ محطة أجهزة من النوع **مخصص** للمتجر حيث سيتم استخدام السجل.</span><span class="sxs-lookup"><span data-stu-id="56b98-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="56b98-270">عند بدء تشغيل نقطة بيع حديثة، ستكون محطة أجهزة IPC نشطة، وستكون الأجهزة الطرفية لنقطة البيع‬ التي تم تكوينها جاهزة للاستخدام.</span><span class="sxs-lookup"><span data-stu-id="56b98-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="56b98-271">إذا لم تكن بحاجة إلى الأجهزة المحلية لسبب ما وبشكل مؤقت، فاستخدم عملية **إدارة محطات أجهزة** لإيقاف تشغيل قدرات محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="56b98-272">باستطاعة نقاط البيع الحديثة أن تستخدم أيضًا محطة الأجهزة IPC للاتصال مباشرة بالأجهزة الطرفية على الشبكة.</span><span class="sxs-lookup"><span data-stu-id="56b98-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
 
-### <a name="iis"></a>IIS
+### <a name="iis"></a><span data-ttu-id="56b98-273">IIS</span><span class="sxs-lookup"><span data-stu-id="56b98-273">IIS</span></span>
 
-يمكنك استخدام IIS أو الإصدار المستقل من محطة الأجهزة بطريقتين. يعني الواصف "IIS" أن تطبيق نقطة البيع يتصل بمحطة الأجهزة عبر Microsoft Internet Information Services. يتصل تطبيق نقطة البيع بمحطة أجهزة IIS عبر خدمات الويب التي يتم تشغيلها على جهاز كمبيوتر حيث تم توصيل الأجهزة. عند استخدام IIS، يمكن استخدام الأجهزة الطرفية للبيع بالتجزئة المتصلة بمحطة أجهزة من قِبل أي سجل نقطة بيع موجود على الشبكة نفسها حيث محطة أجهزة IIS. ولأن نقاط البيع الحديثة لنظام Windows وحدها تتضمن الدعم المضمن للأجهزة الطرفية للبيع بالتجزئة، فإن كافة التطبيقات الأخرى لنقاط البيع الحديثة يجب أن تستخدم محطة أجهزة IIS للتواصل مع الأجهزة الطرفية لنقطة البيع التي تم تكوينها في ملف تعريف الأجهزة. وبالتالي، يحتاج كل مثيل لمحطة أجهزة IIS إلى جهاز كمبيوتر يقوم بتشغيل خدمة ويب والتطبيق الذي يتواصل مع الأجهزة. تُعتبر محطة أجهزة IIS مطلوبة لكافة تطبيقات نقطة البيع الحديثة التي لا تعمل بنظام التشغيل Windows.
+<span data-ttu-id="56b98-274">يمكنك استخدام IIS أو الإصدار المستقل من محطة الأجهزة بطريقتين.</span><span class="sxs-lookup"><span data-stu-id="56b98-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="56b98-275">يعني الواصف "IIS" أن تطبيق نقطة البيع يتصل بمحطة الأجهزة عبر Microsoft Internet Information Services.</span><span class="sxs-lookup"><span data-stu-id="56b98-275">The descriptor “IIS” implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="56b98-276">يتصل تطبيق نقطة البيع بمحطة أجهزة IIS عبر خدمات الويب التي يتم تشغيلها على جهاز كمبيوتر حيث تم توصيل الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="56b98-277">عند استخدام IIS، يمكن استخدام الأجهزة الطرفية للبيع بالتجزئة المتصلة بمحطة أجهزة من قِبل أي سجل نقطة بيع موجود على الشبكة نفسها حيث محطة أجهزة IIS.</span><span class="sxs-lookup"><span data-stu-id="56b98-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="56b98-278">ولأن نقاط البيع الحديثة لنظام Windows وحدها تتضمن الدعم المضمن للأجهزة الطرفية للبيع بالتجزئة، فإن كافة التطبيقات الأخرى لنقاط البيع الحديثة يجب أن تستخدم محطة أجهزة IIS للتواصل مع الأجهزة الطرفية لنقطة البيع التي تم تكوينها في ملف تعريف الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="56b98-279">وبالتالي، يحتاج كل مثيل لمحطة أجهزة IIS إلى جهاز كمبيوتر يقوم بتشغيل خدمة ويب والتطبيق الذي يتواصل مع الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="56b98-280">تُعتبر محطة أجهزة IIS مطلوبة لكافة تطبيقات نقطة البيع الحديثة التي لا تعمل بنظام التشغيل Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
 
-#### <a name="dedicated"></a>مخصص
+#### <a name="dedicated"></a><span data-ttu-id="56b98-281">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-281">Dedicated</span></span>
 
-تستخدم نقطة البيع الحديثة محطات أجهزة من النوع **مخصص** للكشف عن أن الأجهزة الطرفية موصولة مباشرة بالكمبيوتر حيث يتم استخدام التطبيق. ومع ذلك، يمكن استخدام النوع **مخصص** أيضًا لمحطات أجهزة IIS. في سيناريو نقطة بيع تقليدية وثابت يستخدم نقطة بيع المجموعة‬ كتطبيق نقاط البيع، يتم استخدام نوع محطة الأجهزة **مخصص** لمحطات أجهزة IIS التي يتم نشرها على نفس الكمبيوتر الذي يقوم بتشغيل نقطة بيع المجموعة‬. من وجهة نظر الأجهزة الطرفية للبيع بالتجزئة، تتضمن محطة أجهزة IIS المخصصة دعمًا أفضل للأجهزة الطرفية للبيع بالتجزئة لسيناريوهات POS التقليدية والثابتة. وتدعم محطات الأجهزة المخصصة كافة الأجهزة الطرفية التي يتم دعمها في ملف تعريف الأجهزة.
+<span data-ttu-id="56b98-282">تستخدم نقطة البيع الحديثة محطات أجهزة من النوع **مخصص** للكشف عن أن الأجهزة الطرفية موصولة مباشرة بالكمبيوتر حيث يتم استخدام التطبيق.</span><span class="sxs-lookup"><span data-stu-id="56b98-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="56b98-283">ومع ذلك، يمكن استخدام النوع **مخصص** أيضًا لمحطات أجهزة IIS.</span><span class="sxs-lookup"><span data-stu-id="56b98-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="56b98-284">في سيناريو نقطة بيع تقليدية وثابت يستخدم نقطة بيع المجموعة‬ كتطبيق نقاط البيع، يتم استخدام نوع محطة الأجهزة **مخصص** لمحطات أجهزة IIS التي يتم نشرها على نفس الكمبيوتر الذي يقوم بتشغيل نقطة بيع المجموعة‬.</span><span class="sxs-lookup"><span data-stu-id="56b98-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="56b98-285">من وجهة نظر الأجهزة الطرفية للبيع بالتجزئة، تتضمن محطة أجهزة IIS المخصصة دعمًا أفضل للأجهزة الطرفية للبيع بالتجزئة لسيناريوهات POS التقليدية والثابتة.</span><span class="sxs-lookup"><span data-stu-id="56b98-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="56b98-286">وتدعم محطات الأجهزة المخصصة كافة الأجهزة الطرفية التي يتم دعمها في ملف تعريف الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
 
-#### <a name="shared"></a>مشترك
+#### <a name="shared"></a><span data-ttu-id="56b98-287">مشترك</span><span class="sxs-lookup"><span data-stu-id="56b98-287">Shared</span></span>
 
-تم إعداد محطات الأجهزة المشتركة لكي تستخدمها أجهزة نقاط بيع متعددة خلال اليوم. وقد تم تحسين محطات الأجهزة المشتركة لدعم فقط أدراج الأوراق النقدية وطابعات الإيصالات ووحدات الدفع الطرفية. لا يمكنك أن تقوم بشكل مباشر بتوصيل أجهزة مستقلة مثل الماسحات الضوئية للرمز الشريطي أو قارئات MSR أو شاشات العرض السطرية أو المقاييس أو أجهزة أخرى. وإلا، فقد تحدث تعارضات عندما تحاول أجهزة نقاط بيع متعددة المطالبة بتلك الأجهزة الطرفية في نفس الوقت. إليك كيفية إدارة التعارضات للأجهزة المعتمدة:
+<span data-ttu-id="56b98-288">تم إعداد محطات الأجهزة المشتركة لكي تستخدمها أجهزة نقاط بيع متعددة خلال اليوم.</span><span class="sxs-lookup"><span data-stu-id="56b98-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="56b98-289">وقد تم تحسين محطات الأجهزة المشتركة لدعم فقط أدراج الأوراق النقدية وطابعات الإيصالات ووحدات الدفع الطرفية.</span><span class="sxs-lookup"><span data-stu-id="56b98-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="56b98-290">لا يمكنك أن تقوم بشكل مباشر بتوصيل أجهزة مستقلة مثل الماسحات الضوئية للرمز الشريطي أو قارئات MSR أو شاشات العرض السطرية أو المقاييس أو أجهزة أخرى.</span><span class="sxs-lookup"><span data-stu-id="56b98-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="56b98-291">وإلا، فقد تحدث تعارضات عندما تحاول أجهزة نقاط بيع متعددة المطالبة بتلك الأجهزة الطرفية في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="56b98-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="56b98-292">إليك كيفية إدارة التعارضات للأجهزة المعتمدة:</span><span class="sxs-lookup"><span data-stu-id="56b98-292">Here is how conflicts are managed for supported devices:</span></span>
 
--   **درج الأوراق النقدية** – يتم فتح درج الأوراق النقدية عبر حدث يتم إرساله إلى الجهاز. هناك مشكلة وحيدة قد تحدث وهي عند استدعاء درج الأوراق النقدية إذا كان الدرج مفتوحًا بالفعل. فيما يتعلق بمحطات الأجهزة المشتركة، يجب تعيين درج الأوراق النقدية إلى **مشترك** في ملف تعريف الأجهزة. هذا الإعداد يمنع نقطة البيع من التحقق مما إذا كان درج الأوراق النقدية مفتوحًا بالفعل عند إرسال أوامر الفتح.
--   **طابعة الإيصالات** – إذا تم إرسال طلبين من طلبات طباعة الإيصالات إلى محطة الأجهزة في نفس الوقت، قد يضيع أحد الأوامر، وهذا يتوقف على الجهاز. تتضمن بعض الأجهزة ذاكرة داخلية أو تجميعًا باستطاعته منع حدوث هذه المشكلة. إذا فشل أمر الطباعة، فسيتلقى الصراف رسالة خطأ ويمكنه إعادة محاولة إرسال أمر الطباعة من نقطة البيع.
--   **وحدة الدفع الطرفية** – إذا حاول الصراف‬‬ تحديد الدفع لحركة على وحدة دفع طرفية قيد الاستخدام، فستظهر رسالة تعلم الصراف‬‬ بأن الوحدة قيد الاستخدام وتطالبه بإعادة المحاولة لاحقًا. عادة، باستطاعة الصراف أن يرى أن الوحدة الطرفية قيد الاستخدام بالفعل، وسينتظر حتى إكمال الحركة الأخرى قبل محاولة تحديد الدفع مرة أخرى.
+-   <span data-ttu-id="56b98-293">**درج الأوراق النقدية** – يتم فتح درج الأوراق النقدية عبر حدث يتم إرساله إلى الجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="56b98-294">هناك مشكلة وحيدة قد تحدث وهي عند استدعاء درج الأوراق النقدية إذا كان الدرج مفتوحًا بالفعل.</span><span class="sxs-lookup"><span data-stu-id="56b98-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="56b98-295">فيما يتعلق بمحطات الأجهزة المشتركة، يجب تعيين درج الأوراق النقدية إلى **مشترك** في ملف تعريف الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="56b98-296">هذا الإعداد يمنع نقطة البيع من التحقق مما إذا كان درج الأوراق النقدية مفتوحًا بالفعل عند إرسال أوامر الفتح.</span><span class="sxs-lookup"><span data-stu-id="56b98-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
+-   <span data-ttu-id="56b98-297">**طابعة الإيصالات** – إذا تم إرسال طلبين من طلبات طباعة الإيصالات إلى محطة الأجهزة في نفس الوقت، قد يضيع أحد الأوامر، وهذا يتوقف على الجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="56b98-298">تتضمن بعض الأجهزة ذاكرة داخلية أو تجميعًا باستطاعته منع حدوث هذه المشكلة.</span><span class="sxs-lookup"><span data-stu-id="56b98-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="56b98-299">إذا فشل أمر الطباعة، فسيتلقى الصراف رسالة خطأ ويمكنه إعادة محاولة إرسال أمر الطباعة من نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
+-   <span data-ttu-id="56b98-300">**وحدة الدفع الطرفية** – إذا حاول الصراف‬‬ تحديد الدفع لحركة على وحدة دفع طرفية قيد الاستخدام، فستظهر رسالة تعلم الصراف‬‬ بأن الوحدة قيد الاستخدام وتطالبه بإعادة المحاولة لاحقًا.</span><span class="sxs-lookup"><span data-stu-id="56b98-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="56b98-301">عادة، باستطاعة الصراف أن يرى أن الوحدة الطرفية قيد الاستخدام بالفعل، وسينتظر حتى إكمال الحركة الأخرى قبل محاولة تحديد الدفع مرة أخرى.</span><span class="sxs-lookup"><span data-stu-id="56b98-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
 
-تم التخطيط لإضافة التحقق من الصحة في إصدار مستقبلي للكشف عما إذا كانت الأجهزة المعتمدة معدّة لملف تعريف أجهزة تم تعيينه لمحطة أجهزة مشتركة. إذا تم الكشف عن أية أجهزة غير معتمدة، فسيتلقى المستخدم رسالة تشير إلى أن حالات الأجهزة غير معتمدة لمحطات الأجهزة المشتركة. فيما يتعلق بمحطات الأجهزة المشتركة، تم تعيين الخيار **تحديد عند الدفع‬** إلى **نعم** على مستوى السجل. تتم مطالبة مستخدم نقطة البيع عندئذٍ بتحديد محطة أجهزة عند تحديد الدفع لحركة في نقطة البيع. عند تحديد محطة الأجهزة فقط في وقت الدفع، يضاف تحديد محطة الأجهزة مباشرة إلى سير عمل نقطة البيع لسيناريوهات المحمول. كميزة إضافية، لا يتم استخدام شاشة العرض السطرية في وحدة الدفع الطرفية للسيناريوهات المشتركة. إذا تم استخدام وحدة الدفع الطرفية كشاشة عرض سطرية، قد يتم منع المستخدمين الآخرين من استخدام هذه المحطة الفرعية حتى إكمال الحركة. في سيناريوهات المحمول، قد تُضاف بنود إلى الحركة على مدى فترة أطول. وبالتالي، يكون الخيار **تحديد عند الدفع‬** مطلوبًا لضمان التوفر المثالي للأجهزة.
+<span data-ttu-id="56b98-302">تم التخطيط لإضافة التحقق من الصحة في إصدار مستقبلي للكشف عما إذا كانت الأجهزة المعتمدة معدّة لملف تعريف أجهزة تم تعيينه لمحطة أجهزة مشتركة.</span><span class="sxs-lookup"><span data-stu-id="56b98-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="56b98-303">إذا تم الكشف عن أية أجهزة غير معتمدة، فسيتلقى المستخدم رسالة تشير إلى أن حالات الأجهزة غير معتمدة لمحطات الأجهزة المشتركة.</span><span class="sxs-lookup"><span data-stu-id="56b98-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="56b98-304">فيما يتعلق بمحطات الأجهزة المشتركة، تم تعيين الخيار **تحديد عند الدفع‬** إلى **نعم** على مستوى السجل.</span><span class="sxs-lookup"><span data-stu-id="56b98-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="56b98-305">تتم مطالبة مستخدم نقطة البيع عندئذٍ بتحديد محطة أجهزة عند تحديد الدفع لحركة في نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="56b98-306">عند تحديد محطة الأجهزة فقط في وقت الدفع، يضاف تحديد محطة الأجهزة مباشرة إلى سير عمل نقطة البيع لسيناريوهات المحمول.</span><span class="sxs-lookup"><span data-stu-id="56b98-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="56b98-307">كميزة إضافية، لا يتم استخدام شاشة العرض السطرية في وحدة الدفع الطرفية للسيناريوهات المشتركة.</span><span class="sxs-lookup"><span data-stu-id="56b98-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="56b98-308">إذا تم استخدام وحدة الدفع الطرفية كشاشة عرض سطرية، قد يتم منع المستخدمين الآخرين من استخدام هذه المحطة الفرعية حتى إكمال الحركة.</span><span class="sxs-lookup"><span data-stu-id="56b98-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="56b98-309">في سيناريوهات المحمول، قد تُضاف بنود إلى الحركة على مدى فترة أطول.</span><span class="sxs-lookup"><span data-stu-id="56b98-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="56b98-310">وبالتالي، يكون الخيار **تحديد عند الدفع‬** مطلوبًا لضمان التوفر المثالي للأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
 
-### <a name="network-peripherals"></a>الأجهزة الطرفية للشبكة
+### <a name="network-peripherals"></a><span data-ttu-id="56b98-311">الأجهزة الطرفية للشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-311">Network peripherals</span></span>
 
-بإمكان تعيين الشبكة للأجهزة في ملف تعريف الأجهزة أن يسمح لأدراج الأوراق النقدية وطابعات الإيصالات ووحدات الدفع الطرفية بالاتصال عبر الشبكة.
+<span data-ttu-id="56b98-312">بإمكان تعيين الشبكة للأجهزة في ملف تعريف الأجهزة أن يسمح لأدراج الأوراق النقدية وطابعات الإيصالات ووحدات الدفع الطرفية بالاتصال عبر الشبكة.</span><span class="sxs-lookup"><span data-stu-id="56b98-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
 
-#### <a name="modern-pos-for-windows"></a>نقطة البيع الحديثة لنظام التشغيل Windows
+#### <a name="modern-pos-for-windows"></a><span data-ttu-id="56b98-313">نقطة البيع الحديثة لنظام التشغيل Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-313">Modern POS for Windows</span></span>
 
-يمكنك تحديد عناوين IP للأجهزة الطرفية للشبكة في مكانين. إذا كان عميل نقطة البيع الحديثة لنظام التشغيل Windows يستخدم مجموعة واحدة من الأجهزة الطرفية للشبكة، فيجب تعيين عناوين IP لهذه الأجهزة باستخدام الخيار **تكوين IP** في جزء الإجراءات في السجل نفسه. عندما يتعلق الأمر بأجهزة شبكة ستتم مشاركتها بين سجلات نقطة البيع، يمكن تعيين ملف تعريف أجهزة لديه أجهزة شبكة معيّنة له إلى محطة أجهزة مشتركة بشكل مباشر. لتعيين عناوين IP، حدد محطة الأجهزة هذه في صفحة **متاجر البيع بالتجزئة‬**، ثم استخدم الخيار **تكوين IP** في القسم **محطات الأجهزة** لتحديد أجهزة الشبكة التي تم تعيينها إلى محطة الأجهزة هذه. فيما يتعلق بمحطات الأجهزة التي تحتوي على أجهزة شبكة فقط، لا حاجة إلى نشر محطة الأجهزة بحد ذاتها. وفي هذه الحالة، تكون محطة الأجهزة مطلوبة فقط لتجميع الأجهزة القابلة للعنونة على الشبكة مفهوميًا وفقًا لموقعها في متجر البيع بالتجزئة.
+<span data-ttu-id="56b98-314">يمكنك تحديد عناوين IP للأجهزة الطرفية للشبكة في مكانين.</span><span class="sxs-lookup"><span data-stu-id="56b98-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="56b98-315">إذا كان عميل نقطة البيع الحديثة لنظام التشغيل Windows يستخدم مجموعة واحدة من الأجهزة الطرفية للشبكة، فيجب تعيين عناوين IP لهذه الأجهزة باستخدام الخيار **تكوين IP** في جزء الإجراءات في السجل نفسه.</span><span class="sxs-lookup"><span data-stu-id="56b98-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="56b98-316">عندما يتعلق الأمر بأجهزة شبكة ستتم مشاركتها بين سجلات نقطة البيع، يمكن تعيين ملف تعريف أجهزة لديه أجهزة شبكة معيّنة له إلى محطة أجهزة مشتركة بشكل مباشر.</span><span class="sxs-lookup"><span data-stu-id="56b98-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="56b98-317">لتعيين عناوين IP، حدد محطة الأجهزة هذه في صفحة **متاجر البيع بالتجزئة‬**، ثم استخدم الخيار **تكوين IP** في القسم **محطات الأجهزة** لتحديد أجهزة الشبكة التي تم تعيينها إلى محطة الأجهزة هذه.</span><span class="sxs-lookup"><span data-stu-id="56b98-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="56b98-318">فيما يتعلق بمحطات الأجهزة التي تحتوي على أجهزة شبكة فقط، لا حاجة إلى نشر محطة الأجهزة بحد ذاتها.</span><span class="sxs-lookup"><span data-stu-id="56b98-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="56b98-319">وفي هذه الحالة، تكون محطة الأجهزة مطلوبة فقط لتجميع الأجهزة القابلة للعنونة على الشبكة مفهوميًا وفقًا لموقعها في متجر البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="56b98-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>نقطة بيع المجموعة‬ ونقطة البيع الحديثة لنظام التشغيل iOS‬ ونقطة البيع الحديثة لنظام التشغيل Android
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="56b98-320">نقطة بيع المجموعة‬ ونقطة البيع الحديثة لنظام التشغيل iOS‬ ونقطة البيع الحديثة لنظام التشغيل Android</span><span class="sxs-lookup"><span data-stu-id="56b98-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
 
-تتضمن محطة الأجهزة المنطق الذي يحرك الأجهزة الطرفية الموصولة بشكل فعلي وتلك القابلة للعنونة على الشبكة. وبالتالي، بالنسبة إلى كافة عملاء نقطة البيع باستثناء نقطة البيع الحديثة لنظام التشغيل Windows، يجب نشر محطة أجهزة IIS ويجب أن تكون هذه المحطة نشطة لتمكين نقطة البيع من التواصل مع الأجهزة الطرفية، بصرف النظر عما إذا كانت تلك الأجهزة الطرفية موصولة فعليًا بمحطة أجهزة أو معنونة عبر الشبكة.
+<span data-ttu-id="56b98-321">تتضمن محطة الأجهزة المنطق الذي يحرك الأجهزة الطرفية الموصولة بشكل فعلي وتلك القابلة للعنونة على الشبكة.</span><span class="sxs-lookup"><span data-stu-id="56b98-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="56b98-322">وبالتالي، بالنسبة إلى كافة عملاء نقطة البيع باستثناء نقطة البيع الحديثة لنظام التشغيل Windows، يجب نشر محطة أجهزة IIS ويجب أن تكون هذه المحطة نشطة لتمكين نقطة البيع من التواصل مع الأجهزة الطرفية، بصرف النظر عما إذا كانت تلك الأجهزة الطرفية موصولة فعليًا بمحطة أجهزة أو معنونة عبر الشبكة.</span><span class="sxs-lookup"><span data-stu-id="56b98-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
 
-## <a name="setup-and-configuration"></a>الإعداد والتكوين
-### <a name="hardware-station-installation"></a>تثبيت محطة الأجهزة
+## <a name="setup-and-configuration"></a><span data-ttu-id="56b98-323">الإعداد والتكوين</span><span class="sxs-lookup"><span data-stu-id="56b98-323">Setup and configuration</span></span>
+### <a name="hardware-station-installation"></a><span data-ttu-id="56b98-324">تثبيت محطة الأجهزة</span><span class="sxs-lookup"><span data-stu-id="56b98-324">Hardware station installation</span></span>
 
-للحصول على معلومات، راجع [تثبيت وتكوين محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md).
+<span data-ttu-id="56b98-325">للحصول على معلومات، راجع [تثبيت وتكوين محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="56b98-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
 
-### <a name="modern-pos-for-windows-setup-and-configuration"></a>إعداد وتكوين نقطة البيع الحديثة لنظام التشغيل Windows
+### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="56b98-326">إعداد وتكوين نقطة البيع الحديثة لنظام التشغيل Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-326">Modern POS for Windows setup and configuration</span></span>
 
-للحصول على معلومات، راجع [تثبيت وتكوين نقطة بيع حديثة للبيع بالتجزئة](retail-modern-pos-device-activation.md).
+<span data-ttu-id="56b98-327">للحصول على معلومات، راجع [تثبيت وتكوين نقطة بيع حديثة للبيع بالتجزئة](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="56b98-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
 
-### <a name="opos-device-setup-and-configuration"></a>إعداد وتكوين جهاز OPOS
+### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="56b98-328">إعداد وتكوين جهاز OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-328">OPOS device setup and configuration</span></span>
 
-لمزيد من المعلومات حول مكونات OPOS، راجع قسم "الواجهات المعتمدة" في هذا المستند. بشكل عام، يتم توفير برامج تشغيل OPOS بواسطة الشركة المصنعة للأجهزة. عند تثبيت برنامج تشغيل جهاز OPOS، يضيف هذا البرنامج مفتاحًا إلى تسجيل Windows في أحد المواقع التالية:
+<span data-ttu-id="56b98-329">لمزيد من المعلومات حول مكونات OPOS، راجع قسم "الواجهات المعتمدة" في هذا المستند.</span><span class="sxs-lookup"><span data-stu-id="56b98-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="56b98-330">بشكل عام، يتم توفير برامج تشغيل OPOS بواسطة الشركة المصنعة للأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="56b98-331">عند تثبيت برنامج تشغيل جهاز OPOS، يضيف هذا البرنامج مفتاحًا إلى تسجيل Windows في أحد المواقع التالية:</span><span class="sxs-lookup"><span data-stu-id="56b98-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
 
--   **نظام 32 بت:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **نظام 64 بت:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   <span data-ttu-id="56b98-332">**نظام 32 بت:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
+-   <span data-ttu-id="56b98-333">**نظام 64 بت:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
 
-ضمن موقع سجل ServiceOPOS، يتم تنظيم الأجهزة المكونة وفقًا لفئة جهاز OPOS. ويتم حفظ العديد من برامج تشغيل الأجهزة.
+<span data-ttu-id="56b98-334">ضمن موقع سجل ServiceOPOS، يتم تنظيم الأجهزة المكونة وفقًا لفئة جهاز OPOS.</span><span class="sxs-lookup"><span data-stu-id="56b98-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="56b98-335">ويتم حفظ العديد من برامج تشغيل الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-335">Multiple device drivers are saved.</span></span>
 
-## <a name="supported-scenarios-by-hardware-station-type"></a>السيناريوهات المعتمدة حسب نوع محطة الأجهزة
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>دعم العميل – محطة أجهزة IPC في مقابل محطة أجهزة IIS
+## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="56b98-336">السيناريوهات المعتمدة حسب نوع محطة الأجهزة</span><span class="sxs-lookup"><span data-stu-id="56b98-336">Supported scenarios by hardware station type</span></span>
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="56b98-337">دعم العميل – محطة أجهزة IPC في مقابل محطة أجهزة IIS</span><span class="sxs-lookup"><span data-stu-id="56b98-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
 
-يعرض الجدول التالي طبولوجيا وسيناريوهات النشر المعتمدة.
+<span data-ttu-id="56b98-338">يعرض الجدول التالي طبولوجيا وسيناريوهات النشر المعتمدة.</span><span class="sxs-lookup"><span data-stu-id="56b98-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
 
-| العميل      | محطة أجهزة IPC | محطة أجهزة IIS |
+| <span data-ttu-id="56b98-339">العميل</span><span class="sxs-lookup"><span data-stu-id="56b98-339">Client</span></span>      | <span data-ttu-id="56b98-340">محطة أجهزة IPC</span><span class="sxs-lookup"><span data-stu-id="56b98-340">IPC hardware station</span></span> | <span data-ttu-id="56b98-341">محطة أجهزة IIS</span><span class="sxs-lookup"><span data-stu-id="56b98-341">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| تطبيق Windows | نعم                  | نعم                  |
-| نقطة بيع المجموعة (Cloud POS)   | لا                   | نعم                  |
-| Android     | لا                   | نعم                  |
-| iOS         | لا                   | نعم                  |
+| <span data-ttu-id="56b98-342">تطبيق Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-342">Windows app</span></span> | <span data-ttu-id="56b98-343">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-343">Yes</span></span>                  | <span data-ttu-id="56b98-344">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-344">Yes</span></span>                  |
+| <span data-ttu-id="56b98-345">نقطة بيع المجموعة (Cloud POS)</span><span class="sxs-lookup"><span data-stu-id="56b98-345">Cloud POS</span></span>   | <span data-ttu-id="56b98-346">لا</span><span class="sxs-lookup"><span data-stu-id="56b98-346">No</span></span>                   | <span data-ttu-id="56b98-347">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-347">Yes</span></span>                  |
+| <span data-ttu-id="56b98-348">Android</span><span class="sxs-lookup"><span data-stu-id="56b98-348">Android</span></span>     | <span data-ttu-id="56b98-349">لا</span><span class="sxs-lookup"><span data-stu-id="56b98-349">No</span></span>                   | <span data-ttu-id="56b98-350">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-350">Yes</span></span>                  |
+| <span data-ttu-id="56b98-351">iOS</span><span class="sxs-lookup"><span data-stu-id="56b98-351">iOS</span></span>         | <span data-ttu-id="56b98-352">لا</span><span class="sxs-lookup"><span data-stu-id="56b98-352">No</span></span>                   | <span data-ttu-id="56b98-353">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-353">Yes</span></span>                  |
 
-### <a name="network-peripherals"></a>الأجهزة الطرفية للشبكة
+### <a name="network-peripherals"></a><span data-ttu-id="56b98-354">الأجهزة الطرفية للشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-354">Network peripherals</span></span>
 
-يمكن دعم الأجهزة الطرفية للشبكة مباشرة من خلال محطة الأجهزة التي تم تضمينها في نقطة البيع الحديثة لنظام التشغيل Windows.‬ لكافة العملاء الآخرين، يجب نشر محطة أجهزة IIS.
+<span data-ttu-id="56b98-355">يمكن دعم الأجهزة الطرفية للشبكة مباشرة من خلال محطة الأجهزة التي تم تضمينها في نقطة البيع الحديثة لنظام التشغيل Windows.‬</span><span class="sxs-lookup"><span data-stu-id="56b98-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="56b98-356">لكافة العملاء الآخرين، يجب نشر محطة أجهزة IIS.</span><span class="sxs-lookup"><span data-stu-id="56b98-356">For all other clients, you must deploy an IIS hardware station.</span></span>
 
-| العميل      | محطة أجهزة IPC | محطة أجهزة IIS |
+| <span data-ttu-id="56b98-357">العميل</span><span class="sxs-lookup"><span data-stu-id="56b98-357">Client</span></span>      | <span data-ttu-id="56b98-358">محطة أجهزة IPC</span><span class="sxs-lookup"><span data-stu-id="56b98-358">IPC hardware station</span></span> | <span data-ttu-id="56b98-359">محطة أجهزة IIS</span><span class="sxs-lookup"><span data-stu-id="56b98-359">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| تطبيق Windows | نعم                  | نعم                  |
-| نقطة بيع المجموعة (Cloud POS)   | لا                   | نعم                  |
-| Android     | لا                   | نعم                  |
-| iOS         | لا                   | نعم                  |
+| <span data-ttu-id="56b98-360">تطبيق Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-360">Windows app</span></span> | <span data-ttu-id="56b98-361">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-361">Yes</span></span>                  | <span data-ttu-id="56b98-362">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-362">Yes</span></span>                  |
+| <span data-ttu-id="56b98-363">نقطة بيع المجموعة (Cloud POS)</span><span class="sxs-lookup"><span data-stu-id="56b98-363">Cloud POS</span></span>   | <span data-ttu-id="56b98-364">لا</span><span class="sxs-lookup"><span data-stu-id="56b98-364">No</span></span>                   | <span data-ttu-id="56b98-365">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-365">Yes</span></span>                  |
+| <span data-ttu-id="56b98-366">Android</span><span class="sxs-lookup"><span data-stu-id="56b98-366">Android</span></span>     | <span data-ttu-id="56b98-367">لا</span><span class="sxs-lookup"><span data-stu-id="56b98-367">No</span></span>                   | <span data-ttu-id="56b98-368">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-368">Yes</span></span>                  |
+| <span data-ttu-id="56b98-369">iOS</span><span class="sxs-lookup"><span data-stu-id="56b98-369">iOS</span></span>         | <span data-ttu-id="56b98-370">لا</span><span class="sxs-lookup"><span data-stu-id="56b98-370">No</span></span>                   | <span data-ttu-id="56b98-371">نعم</span><span class="sxs-lookup"><span data-stu-id="56b98-371">Yes</span></span>                  |
 
-## <a name="supported-device-types-by-hardware-station-type"></a>أنواع الأجهزة المعتمدة حسب نوع محطة الأجهزة
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>نقطة بيع حديثة لنظام التشغيل Windows مع محطة أجهزة IPC (مضمنة)
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>فئة الأجهزة المعتمدة</th>
-<th>الواجهات المعتمدة</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>الطابعة</td>
-<td><ul>
-<li>OPOS</li>
-<li>برنامج تشغيل Windows</li>
-<li>الجهاز</li>
-<li>الشبكة</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>الطابعة 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>برنامج تشغيل Windows</li>
-<li>الجهاز</li>
-<li>الشبكة</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>شاشة عرض سطرية</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>العرض الثنائي</td>
-<td>برنامج تشغيل Windows</td>
-</tr>
-<tr class="odd">
-<td>MSR</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (الإعداد غير مطلوب.)</li>
-<li>لوحة مفاتيح wedge (الإعداد غير مطلوب.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>الدرج</td>
-<td><ul>
-<li>OPOS</li>
-<li>الشبكة <strong>ملاحظة:</strong> يمكن إعداد درج واحد فقط إذا تم تكوين <strong>استخدام الورديات المشتركة</strong> على الدرج.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>الدرج 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>الشبكة <strong>ملاحظة:</strong> يمكن إعداد درج واحد فقط إذا تم تكوين <strong>استخدام الورديات المشتركة</strong> على الدرج.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>الماسح الضوئي</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (الإعداد غير مطلوب.)</li>
-<li>لوحة مفاتيح wedge (الإعداد غير مطلوب.)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>الماسح الضوئي 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (الإعداد غير مطلوب.)</li>
-<li>لوحة مفاتيح wedge (الإعداد غير مطلوب.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>المقياس</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>لوحة PIN</td>
-<td>OPOS (يتم توفير الدعم عبر تخصيص موصل المدفوعات‬.)</td>
-</tr>
-<tr class="even">
-<td>التقاط التوقيع</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>وحدة الدفع الطرفية </td>
-<td><ul>
-<li>دعم جهاز مخصص</li>
-<li>الشبكة (لمزيد من المعلومات، راجع وثائق موصل المدفوعات‬.)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>توجد محطة أجهزة IIS مخصصة لدى كل عملاء نقطة البيع الحديثة
-
-**ملاحظة:** عندما تكون محطة الأجهزة IIS "مخصصة،" هناك علاقة واحد لواحد بين عميل نقطة البيع ومحطة الأجهزة.
+## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="56b98-372">أنواع الأجهزة المعتمدة حسب نوع محطة الأجهزة</span><span class="sxs-lookup"><span data-stu-id="56b98-372">Supported device types by hardware station type</span></span>
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="56b98-373">نقطة بيع حديثة لنظام التشغيل Windows مع محطة أجهزة IPC (مضمنة)</span><span class="sxs-lookup"><span data-stu-id="56b98-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
 <table>
 <colgroup>
@@ -341,82 +239,100 @@ ms.lasthandoff: 06/20/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>فئة الأجهزة المعتمدة</th>
-<th>الواجهات المعتمدة</th>
+<th><span data-ttu-id="56b98-374">فئة الأجهزة المعتمدة</span><span class="sxs-lookup"><span data-stu-id="56b98-374">Supported device class</span></span></th>
+<th><span data-ttu-id="56b98-375">الواجهات المعتمدة</span><span class="sxs-lookup"><span data-stu-id="56b98-375">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>الطابعة</td>
+<td><span data-ttu-id="56b98-376">الطابعة</span><span class="sxs-lookup"><span data-stu-id="56b98-376">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>برنامج تشغيل Windows <strong>ملاحظة:</strong> فيما يتعلق بطابعات Windows الموجودة على شبكة، يجب أن يكون لدى مستخدم محطة الأجهزة الإذن الوصول إلى الطابعة.</li>
-<li>الشبكة</li>
+<li><span data-ttu-id="56b98-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-377">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-378">برنامج تشغيل Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-378">Windows driver</span></span></li>
+<li><span data-ttu-id="56b98-379">الجهاز</span><span class="sxs-lookup"><span data-stu-id="56b98-379">Device</span></span></li>
+<li><span data-ttu-id="56b98-380">الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-380">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>الطابعة 2</td>
+<td><span data-ttu-id="56b98-381">الطابعة 2</span><span class="sxs-lookup"><span data-stu-id="56b98-381">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>برنامج تشغيل Windows</li>
-<li>الشبكة</li>
+<li><span data-ttu-id="56b98-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-382">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-383">برنامج تشغيل Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-383">Windows driver</span></span></li>
+<li><span data-ttu-id="56b98-384">الجهاز</span><span class="sxs-lookup"><span data-stu-id="56b98-384">Device</span></span></li>
+<li><span data-ttu-id="56b98-385">الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-385">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>شاشة عرض سطرية</td>
-<td>OPOS</td>
+<td><span data-ttu-id="56b98-386">شاشة عرض سطرية</span><span class="sxs-lookup"><span data-stu-id="56b98-386">Line display</span></span></td>
+<td><span data-ttu-id="56b98-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-387">OPOS</span></span></td>
 </tr>
 <tr class="even">
-<td>MSR</td>
-<td>OPOS</td>
+<td><span data-ttu-id="56b98-388">العرض الثنائي</span><span class="sxs-lookup"><span data-stu-id="56b98-388">Dual display</span></span></td>
+<td><span data-ttu-id="56b98-389">برنامج تشغيل Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-389">Windows driver</span></span></td>
 </tr>
 <tr class="odd">
-<td>الدرج</td>
+<td><span data-ttu-id="56b98-390">MSR</span><span class="sxs-lookup"><span data-stu-id="56b98-390">MSR</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>الشبكة <strong>ملاحظة:</strong> يمكن إعداد درج واحد فقط لكل ملف تعريف أجهزة إذا تم تكوين <strong>استخدام الورديات المشتركة</strong> على الدرج.</li>
+<li><span data-ttu-id="56b98-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-391">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-392">UWP (الإعداد غير مطلوب.)</span><span class="sxs-lookup"><span data-stu-id="56b98-392">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="56b98-393">لوحة مفاتيح wedge (الإعداد غير مطلوب.)</span><span class="sxs-lookup"><span data-stu-id="56b98-393">Keyboard wedge (No setup is required.)</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>الدرج 2</td>
+<td><span data-ttu-id="56b98-394">الدرج</span><span class="sxs-lookup"><span data-stu-id="56b98-394">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>الشبكة</li>
+<li><span data-ttu-id="56b98-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-395">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-396">الشبكة <strong>ملاحظة:</strong> يمكن إعداد درج واحد فقط إذا تم تكوين <strong>استخدام الورديات المشتركة</strong> على الدرج.</span><span class="sxs-lookup"><span data-stu-id="56b98-396">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>الماسح الضوئي</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>الماسح الضوئي 2</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>المقياس</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>لوحة PIN</td>
-<td>OPOS (يتم توفير الدعم عبر تخصيص موصل المدفوعات‬.)</td>
-</tr>
-<tr class="odd">
-<td>التقاط التوقيع</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>وحدة الدفع الطرفية </td>
+<td><span data-ttu-id="56b98-397">الدرج 2</span><span class="sxs-lookup"><span data-stu-id="56b98-397">Drawer 2</span></span></td>
 <td><ul>
-<li>دعم جهاز مخصص</li>
-<li>الشبكة (لمزيد من المعلومات، راجع وثائق موصل المدفوعات‬.)</li>
+<li><span data-ttu-id="56b98-398">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-398">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-399">الشبكة <strong>ملاحظة:</strong> يمكن إعداد درج واحد فقط إذا تم تكوين <strong>استخدام الورديات المشتركة</strong> على الدرج.</span><span class="sxs-lookup"><span data-stu-id="56b98-399">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="56b98-400">الماسح الضوئي</span><span class="sxs-lookup"><span data-stu-id="56b98-400">Scanner</span></span></td>
+<td><ul>
+<li><span data-ttu-id="56b98-401">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-401">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-402">UWP (الإعداد غير مطلوب.)</span><span class="sxs-lookup"><span data-stu-id="56b98-402">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="56b98-403">لوحة مفاتيح wedge (الإعداد غير مطلوب.)</span><span class="sxs-lookup"><span data-stu-id="56b98-403">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="56b98-404">الماسح الضوئي 2</span><span class="sxs-lookup"><span data-stu-id="56b98-404">Scanner 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="56b98-405">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-405">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-406">UWP (الإعداد غير مطلوب.)</span><span class="sxs-lookup"><span data-stu-id="56b98-406">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="56b98-407">لوحة مفاتيح wedge (الإعداد غير مطلوب.)</span><span class="sxs-lookup"><span data-stu-id="56b98-407">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="56b98-408">المقياس</span><span class="sxs-lookup"><span data-stu-id="56b98-408">Scale</span></span></td>
+<td><span data-ttu-id="56b98-409">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-409">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="56b98-410">لوحة PIN</span><span class="sxs-lookup"><span data-stu-id="56b98-410">PIN pad</span></span></td>
+<td><span data-ttu-id="56b98-411">OPOS (يتم توفير الدعم عبر تخصيص موصل المدفوعات‬.)</span><span class="sxs-lookup"><span data-stu-id="56b98-411">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="56b98-412">التقاط التوقيع</span><span class="sxs-lookup"><span data-stu-id="56b98-412">Signature capture</span></span></td>
+<td><span data-ttu-id="56b98-413">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-413">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="56b98-414">وحدة الدفع الطرفية </span><span class="sxs-lookup"><span data-stu-id="56b98-414">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="56b98-415">دعم جهاز مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-415">Custom device support</span></span></li>
+<li><span data-ttu-id="56b98-416">الشبكة (لمزيد من المعلومات، راجع وثائق موصل المدفوعات‬.)</span><span class="sxs-lookup"><span data-stu-id="56b98-416">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>توجد محطة أجهزة IIS مشتركة لدى كل عملاء نقطة البيع الحديثة
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="56b98-417">توجد محطة أجهزة IIS مخصصة لدى كل عملاء نقطة البيع الحديثة</span><span class="sxs-lookup"><span data-stu-id="56b98-417">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-**ملاحظة:** عندما تكون محطة أجهزة IIS "مشتركة،" باستطاعة عدة أجهزة استخدام محطة الأجهزة في نفس الوقت. لهذا السيناريو، يجب عليك استخدام فقط الأجهزة المذكورة في الجدول التالي. إذا حاولت مشاركة أجهزة غير مدرجة هنا، مثل الماسحات الضوئية للرمز الشريطي وقارئات MSR، فستحدث أخطاء عندما تحاول عدة أجهزة طرفية المطالبة بالجهاز الطرفي نفسه. في المستقبل، سيمنع مثل هذا التكوين بشكل صريح.
+<span data-ttu-id="56b98-418">**ملاحظة:** عندما تكون محطة الأجهزة IIS "مخصصة،" هناك علاقة واحد لواحد بين عميل نقطة البيع ومحطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-418">**Note:** When the IIS hardware station is “dedicated,” there is a one-to-one relationship between the POS client and the hardware station.</span></span>
 
 <table>
 <colgroup>
@@ -425,386 +341,470 @@ ms.lasthandoff: 06/20/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>فئة الأجهزة المعتمدة</th>
-<th>الواجهات المعتمدة</th>
+<th><span data-ttu-id="56b98-419">فئة الأجهزة المعتمدة</span><span class="sxs-lookup"><span data-stu-id="56b98-419">Supported device class</span></span></th>
+<th><span data-ttu-id="56b98-420">الواجهات المعتمدة</span><span class="sxs-lookup"><span data-stu-id="56b98-420">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>الطابعة</td>
+<td><span data-ttu-id="56b98-421">الطابعة</span><span class="sxs-lookup"><span data-stu-id="56b98-421">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>برنامج تشغيل Windows <strong>ملاحظة:</strong> فيما يتعلق بطابعات Windows الموجودة على شبكة، يجب أن يكون لدى مستخدم محطة الأجهزة الإذن الوصول إلى الطابعة.</li>
-<li>الشبكة</li>
+<li><span data-ttu-id="56b98-422">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-422">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-423">برنامج تشغيل Windows <strong>ملاحظة:</strong> فيما يتعلق بطابعات Windows الموجودة على شبكة، يجب أن يكون لدى مستخدم محطة الأجهزة الإذن الوصول إلى الطابعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-423">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="56b98-424">الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-424">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>الطابعة 2</td>
+<td><span data-ttu-id="56b98-425">الطابعة 2</span><span class="sxs-lookup"><span data-stu-id="56b98-425">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>برنامج تشغيل Windows</li>
-<li>الشبكة</li>
+<li><span data-ttu-id="56b98-426">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-426">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-427">برنامج تشغيل Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-427">Windows driver</span></span></li>
+<li><span data-ttu-id="56b98-428">الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-428">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>الدرج</td>
+<td><span data-ttu-id="56b98-429">شاشة عرض سطرية</span><span class="sxs-lookup"><span data-stu-id="56b98-429">Line display</span></span></td>
+<td><span data-ttu-id="56b98-430">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-430">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="56b98-431">MSR</span><span class="sxs-lookup"><span data-stu-id="56b98-431">MSR</span></span></td>
+<td><span data-ttu-id="56b98-432">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-432">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="56b98-433">الدرج</span><span class="sxs-lookup"><span data-stu-id="56b98-433">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>الشبكة <strong>ملاحظة:</strong> يمكن إعداد درج واحد فقط لكل ملف تعريف أجهزة إذا تم تكوين <strong>استخدام الورديات المشتركة</strong> على الدرج.</li>
+<li><span data-ttu-id="56b98-434">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-434">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-435">الشبكة <strong>ملاحظة:</strong> يمكن إعداد درج واحد فقط لكل ملف تعريف أجهزة إذا تم تكوين <strong>استخدام الورديات المشتركة</strong> على الدرج.</span><span class="sxs-lookup"><span data-stu-id="56b98-435">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>الدرج 2</td>
+<td><span data-ttu-id="56b98-436">الدرج 2</span><span class="sxs-lookup"><span data-stu-id="56b98-436">Drawer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>الشبكة</li>
+<li><span data-ttu-id="56b98-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-437">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-438">الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-438">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>وحدة الدفع الطرفية </td>
+<td><span data-ttu-id="56b98-439">الماسح الضوئي</span><span class="sxs-lookup"><span data-stu-id="56b98-439">Scanner</span></span></td>
+<td><span data-ttu-id="56b98-440">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-440">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="56b98-441">الماسح الضوئي 2</span><span class="sxs-lookup"><span data-stu-id="56b98-441">Scanner 2</span></span></td>
+<td><span data-ttu-id="56b98-442">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-442">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="56b98-443">المقياس</span><span class="sxs-lookup"><span data-stu-id="56b98-443">Scale</span></span></td>
+<td><span data-ttu-id="56b98-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-444">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="56b98-445">لوحة PIN</span><span class="sxs-lookup"><span data-stu-id="56b98-445">PIN pad</span></span></td>
+<td><span data-ttu-id="56b98-446">OPOS (يتم توفير الدعم عبر تخصيص موصل المدفوعات‬.)</span><span class="sxs-lookup"><span data-stu-id="56b98-446">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="56b98-447">التقاط</span><span class="sxs-lookup"><span data-stu-id="56b98-447">Sig.</span></span> <span data-ttu-id="56b98-448">التوقيع</span><span class="sxs-lookup"><span data-stu-id="56b98-448">capture</span></span></td>
+<td><span data-ttu-id="56b98-449">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-449">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="56b98-450">وحدة الدفع الطرفية </span><span class="sxs-lookup"><span data-stu-id="56b98-450">Payment terminal</span></span></td>
 <td><ul>
-<li>دعم جهاز مخصص</li>
-<li>الشبكة (لمزيد من المعلومات، راجع وثائق موصل المدفوعات‬.)</li>
+<li><span data-ttu-id="56b98-451">دعم جهاز مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-451">Custom device support</span></span></li>
+<li><span data-ttu-id="56b98-452">الشبكة (لمزيد من المعلومات، راجع وثائق موصل المدفوعات‬.)</span><span class="sxs-lookup"><span data-stu-id="56b98-452">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configuration-for-supported-scenarios"></a>التكوين للسيناريوهات المعتمدة
-لمزيد من المعلومات حول كيفية إنشاء ملفات تعريف الأجهزة، راجع [تعريف عملاء القنوات وصيانتهم، بما في ذلك السجلات ومحطات الأجهزة‬](define-maintain-channel-clients-registers-hw-stations.md). **ملاحظة:** فيما يتعلق بالإصدار 1611 من Microsoft Dynamics 365 for Retail، لم يعد ملف تعريف محطة الأجهزة مستخدمًا. تشكل الآن السمات التي سبق لك إعدادها في ملف تعريف محطة الأجهزة جزءًا من محطة الأجهزة بحد ذاتها.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="56b98-453">توجد محطة أجهزة IIS مشتركة لدى كل عملاء نقطة البيع الحديثة</span><span class="sxs-lookup"><span data-stu-id="56b98-453">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>نقطة بيع حديثة لنظام التشغيل Windows مع محطة أجهزة IPC (مضمنة)
+<span data-ttu-id="56b98-454">**ملاحظة:** عندما تكون محطة أجهزة IIS "مشتركة،" باستطاعة عدة أجهزة استخدام محطة الأجهزة في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="56b98-454">**Note:** When the IIS hardware station is “shared,” multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="56b98-455">لهذا السيناريو، يجب عليك استخدام فقط الأجهزة المذكورة في الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="56b98-455">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="56b98-456">إذا حاولت مشاركة أجهزة غير مدرجة هنا، مثل الماسحات الضوئية للرمز الشريطي وقارئات MSR، فستحدث أخطاء عندما تحاول عدة أجهزة طرفية المطالبة بالجهاز الطرفي نفسه.</span><span class="sxs-lookup"><span data-stu-id="56b98-456">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="56b98-457">في المستقبل، سيمنع مثل هذا التكوين بشكل صريح.</span><span class="sxs-lookup"><span data-stu-id="56b98-457">In the future, such a configuration will be explicitly prevented.</span></span>
 
-يُعد هذا التكوين الأكثر شيوعًا لسجلات نقطة البيع التقليدية والثابتة. لهذا السيناريو، يتم تعيين معلومات ملف تعريف الأجهزة مباشرة إلى السجل بحد ذاته. ينبغي أيضًا تعيين رقم المحطة الطرفية EFT على السجل بحد ذاته. لإعداد هذا التكوين، اتبع هذه الخطوات.
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="56b98-458">فئة الأجهزة المعتمدة</span><span class="sxs-lookup"><span data-stu-id="56b98-458">Supported device class</span></span></th>
+<th><span data-ttu-id="56b98-459">الواجهات المعتمدة</span><span class="sxs-lookup"><span data-stu-id="56b98-459">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="56b98-460">الطابعة</span><span class="sxs-lookup"><span data-stu-id="56b98-460">Printer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="56b98-461">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-461">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-462">برنامج تشغيل Windows <strong>ملاحظة:</strong> فيما يتعلق بطابعات Windows الموجودة على شبكة، يجب أن يكون لدى مستخدم محطة الأجهزة الإذن الوصول إلى الطابعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-462">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="56b98-463">الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-463">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="56b98-464">الطابعة 2</span><span class="sxs-lookup"><span data-stu-id="56b98-464">Printer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="56b98-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-465">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-466">برنامج تشغيل Windows</span><span class="sxs-lookup"><span data-stu-id="56b98-466">Windows driver</span></span></li>
+<li><span data-ttu-id="56b98-467">الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-467">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="56b98-468">الدرج</span><span class="sxs-lookup"><span data-stu-id="56b98-468">Drawer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="56b98-469">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-469">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-470">الشبكة <strong>ملاحظة:</strong> يمكن إعداد درج واحد فقط لكل ملف تعريف أجهزة إذا تم تكوين <strong>استخدام الورديات المشتركة</strong> على الدرج.</span><span class="sxs-lookup"><span data-stu-id="56b98-470">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="56b98-471">الدرج 2</span><span class="sxs-lookup"><span data-stu-id="56b98-471">Drawer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="56b98-472">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-472">OPOS</span></span></li>
+<li><span data-ttu-id="56b98-473">الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-473">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="56b98-474">وحدة الدفع الطرفية </span><span class="sxs-lookup"><span data-stu-id="56b98-474">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="56b98-475">دعم جهاز مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-475">Custom device support</span></span></li>
+<li><span data-ttu-id="56b98-476">الشبكة (لمزيد من المعلومات، راجع وثائق موصل المدفوعات‬.)</span><span class="sxs-lookup"><span data-stu-id="56b98-476">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-1.  أنشئ ملف تعريف أجهزة حيث يتم تكوين كافة الأجهزة الطرفية المطلوبة.
-2.  عيّن ملف تعريف الأجهزة إلى سجل نقطة البيع.
-3.  أنشئ محطة أجهزة من النوع **مخصص** لمتجر البيع بالتجزئة حيث سيتم استخدام سجل نقطة البيع. يعتبر إدخال الوصف اختياري. **ملاحظة:** لا حاجة إلى تعيين أية خصائص أخرى في محطة الأجهزة. سوف تأتي كافة المعلومات الأخرى المطلوبة، مثل ملف تعريف الأجهزة، من السجل بحد ذاته.
-4.  انقر فوق **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جدول التوزيع**.
-5.  حدد جدول التوزيع **1090** لمزامنة ملف تعريف الأجهزة الجديد إلى المتجر. انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.
-6.  حدد جدول التوزيع **1040** لمزامنة محطة الأجهزة الجديدة إلى المتجر. انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.
-7.  قم بتثبيت وتنشيط نقطة بيع حديثة لنظام التشغيل Windows.
-8.  ابدأ تشغيل نقطة بيع حديثة لنظام التشغيل Windows، وابدأ استخدام الأجهزة الطرفية المتصلة.
+## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="56b98-477">التكوين للسيناريوهات المعتمدة</span><span class="sxs-lookup"><span data-stu-id="56b98-477">Configuration for supported scenarios</span></span>
+<span data-ttu-id="56b98-478">لمزيد من المعلومات حول كيفية إنشاء ملفات تعريف الأجهزة، راجع [تعريف عملاء القنوات وصيانتهم، بما في ذلك السجلات ومحطات الأجهزة‬](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="56b98-478">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span> <span data-ttu-id="56b98-479">**ملاحظة:** فيما يتعلق بالإصدار 1611 من Microsoft Dynamics 365 for Retail، لم يعد ملف تعريف محطة الأجهزة مستخدمًا.</span><span class="sxs-lookup"><span data-stu-id="56b98-479">**Note:** For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="56b98-480">تشكل الآن السمات التي سبق لك إعدادها في ملف تعريف محطة الأجهزة جزءًا من محطة الأجهزة بحد ذاتها.</span><span class="sxs-lookup"><span data-stu-id="56b98-480">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>توجد محطة أجهزة IIS مخصصة لدى كل عملاء نقطة البيع الحديثة
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="56b98-481">نقطة بيع حديثة لنظام التشغيل Windows مع محطة أجهزة IPC (مضمنة)</span><span class="sxs-lookup"><span data-stu-id="56b98-481">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
-يمكن استخدام هذا التكوين لكافة عملاء نقطة البيع الحديثة الذين لديهم محطة أجهزة يستخدمها سجل نقطة بيع واحد فقط بشكل حصري. لإعداد هذا التكوين، اتبع هذه الخطوات.
+<span data-ttu-id="56b98-482">يُعد هذا التكوين الأكثر شيوعًا لسجلات نقطة البيع التقليدية والثابتة.</span><span class="sxs-lookup"><span data-stu-id="56b98-482">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="56b98-483">لهذا السيناريو، يتم تعيين معلومات ملف تعريف الأجهزة مباشرة إلى السجل بحد ذاته.</span><span class="sxs-lookup"><span data-stu-id="56b98-483">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="56b98-484">ينبغي أيضًا تعيين رقم المحطة الطرفية EFT على السجل بحد ذاته.</span><span class="sxs-lookup"><span data-stu-id="56b98-484">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="56b98-485">لإعداد هذا التكوين، اتبع هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="56b98-485">To set up this configuration, follow these steps.</span></span>
 
-1.  أنشئ ملف تعريف أجهزة حيث يتم تكوين كافة الأجهزة الطرفية المطلوبة.
-2.  أنشئ محطة أجهزة من النوع **مخصص** لمتجر البيع بالتجزئة حيث سيتم استخدام سجل نقطة البيع.
-3.  على محطة الأجهزة المخصصة، يمكنك تعيين الخصائص التالية:
-    -   **اسم المضيف** -اسم الكمبيوتر المضيف حيث سيتم تشغيل محطة الأجهزة. **ملاحظة:** باستطاعة نقطة بيع المجموعة حل **localhost** لتحديد الكمبيوتر المحلي حيث يتم تشغيل نقطة بيع المجموعة. ومع ذلك، يجب أن تتضمن أيضًا الشهادة المطلوبة من أجل إقران نقطة البيع بمحطة الأجهزة "Localhost" كاسم الكمبيوتر. لتجنب المشكلات، نوصي بأن تدرج مثيلاً لكل محطة أجهزة مخصصة للمتجر، كما هو مطلوب. لكل محطة أجهزة، يجب أن يكون اسم المضيف اسم الكمبيوتر المحدد حيث سيتم نشر محطة الأجهزة.
-    -   **المنفذ** – المنفذ الذي يجب استخدامه لكي تتواصل محطة الأجهزة مع عميل نقطة البيع الحديثة.
-    -   **ملف تعريف الأجهزة** – إذا لم يتم توفير ملف تعريف الأجهزة على محطة الأجهزة بحد ذاتها، سيتم استخدام ملف تعريف الأجهزة الذي تم تعيينه للسجل.
-    -   **رقم سجل نقطع البيع EFT** – معرف المحطة الطرفية EFT الذي يجب استخدامه عند إرسال تفويضات EFT. يتم توفير هذا المعرف من قبل معالج بطاقة الائتمان.
-    -   **اسم الحزمة** – حزمة محطة الأجهزة التي يجب استخدامها عند نشر محطة الأجهزة.
+1.  <span data-ttu-id="56b98-486">أنشئ ملف تعريف أجهزة حيث يتم تكوين كافة الأجهزة الطرفية المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="56b98-486">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="56b98-487">عيّن ملف تعريف الأجهزة إلى سجل نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-487">Map the hardware profile to the POS register.</span></span>
+3.  <span data-ttu-id="56b98-488">أنشئ محطة أجهزة من النوع **مخصص** لمتجر البيع بالتجزئة حيث سيتم استخدام سجل نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-488">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="56b98-489">يعتبر إدخال الوصف اختياري.</span><span class="sxs-lookup"><span data-stu-id="56b98-489">A description is optional.</span></span> <span data-ttu-id="56b98-490">**ملاحظة:** لا حاجة إلى تعيين أية خصائص أخرى في محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-490">**Note:** You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="56b98-491">سوف تأتي كافة المعلومات الأخرى المطلوبة، مثل ملف تعريف الأجهزة، من السجل بحد ذاته.</span><span class="sxs-lookup"><span data-stu-id="56b98-491">All other required information, such as the hardware profile, will come from the register itself.</span></span>
+4.  <span data-ttu-id="56b98-492">انقر فوق **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جدول التوزيع**.</span><span class="sxs-lookup"><span data-stu-id="56b98-492">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="56b98-493">حدد جدول التوزيع **1090** لمزامنة ملف تعريف الأجهزة الجديد إلى المتجر.</span><span class="sxs-lookup"><span data-stu-id="56b98-493">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="56b98-494">انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-494">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="56b98-495">حدد جدول التوزيع **1040** لمزامنة محطة الأجهزة الجديدة إلى المتجر.</span><span class="sxs-lookup"><span data-stu-id="56b98-495">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="56b98-496">انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-496">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="56b98-497">قم بتثبيت وتنشيط نقطة بيع حديثة لنظام التشغيل Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-497">Install and activate Modern POS for Windows.</span></span>
+8.  <span data-ttu-id="56b98-498">ابدأ تشغيل نقطة بيع حديثة لنظام التشغيل Windows، وابدأ استخدام الأجهزة الطرفية المتصلة.</span><span class="sxs-lookup"><span data-stu-id="56b98-498">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
 
-4.  انقر فوق **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جدول التوزيع**.
-5.  حدد جدول التوزيع **1090** لمزامنة ملف تعريف الأجهزة الجديد إلى المتجر. انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.
-6.  حدد جدول التوزيع **1040** لمزامنة محطة الأجهزة الجديدة إلى المتجر. انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.
-7.  قم بتثبيت محطة الأجهزة. لمزيد من المعلومات حول كيفية تثبيت محطة الأجهزة، راجع [تثبيت وتكوين محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md).
-8.  قم بتثبيت وتنشيط نقطة بيع حديثة. لمزيد من المعلومات حول كيفية تثبيت نقاط البيع الحديثة، راجع [تثبيت وتكوين نقطة بيع حديثة للبيع بالتجزئة](retail-modern-pos-device-activation.md).
-9.  سجل دخولك إلى نقطة البيع الحديثة، وحدد **تنفيذ عمليات غير مرتبطة بالدرج‬**.
-10. ابدأ عملية **إدارة محطات الأجهزة**.
-11. انقر فوق **إدارة**.
-12. في صفحة إدارة محطة الأجهزة، قم بتعيين خيار تشغيل محطة الأجهزة.
-13. حدد محطة الأجهزة التي تريد استخدامها، ثم انقر فوق **إقران**.
-14. بعد أن يتم إقران محطة الأجهزة، انقر فوق **إغلاق**.
-15. في صفحة تحديد محطة الأجهزة، انقر فوق محطة الأجهزة التي حددتها مؤخرًا لتنشيطها.
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="56b98-499">توجد محطة أجهزة IIS مخصصة لدى كل عملاء نقطة البيع الحديثة</span><span class="sxs-lookup"><span data-stu-id="56b98-499">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>توجد محطة أجهزة IIS مشتركة لدى كل عملاء نقطة البيع الحديثة
+<span data-ttu-id="56b98-500">يمكن استخدام هذا التكوين لكافة عملاء نقطة البيع الحديثة الذين لديهم محطة أجهزة يستخدمها سجل نقطة بيع واحد فقط بشكل حصري.</span><span class="sxs-lookup"><span data-stu-id="56b98-500">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="56b98-501">لإعداد هذا التكوين، اتبع هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="56b98-501">To set up this configuration, follow these steps.</span></span>
 
-يمكن استخدام هذا التكوين لكافة عملاء نقطة البيع الحديثة‬ الذين يشاركون محطات الأجهزة مع أجهزة الأخرى. لإعداد هذا التكوين، اتبع هذه الخطوات.
+1.  <span data-ttu-id="56b98-502">أنشئ ملف تعريف أجهزة حيث يتم تكوين كافة الأجهزة الطرفية المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="56b98-502">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="56b98-503">أنشئ محطة أجهزة من النوع **مخصص** لمتجر البيع بالتجزئة حيث سيتم استخدام سجل نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-503">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="56b98-504">على محطة الأجهزة المخصصة، يمكنك تعيين الخصائص التالية:</span><span class="sxs-lookup"><span data-stu-id="56b98-504">On the dedicated hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="56b98-505">**اسم المضيف** -اسم الكمبيوتر المضيف حيث سيتم تشغيل محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-505">**Host name** – The name of the host computer where the hardware station will run.</span></span> <span data-ttu-id="56b98-506">**ملاحظة:** باستطاعة نقطة بيع المجموعة حل **localhost** لتحديد الكمبيوتر المحلي حيث يتم تشغيل نقطة بيع المجموعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-506">**Note:** Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="56b98-507">ومع ذلك، يجب أن تتضمن أيضًا الشهادة المطلوبة من أجل إقران نقطة البيع بمحطة الأجهزة "Localhost" كاسم الكمبيوتر.</span><span class="sxs-lookup"><span data-stu-id="56b98-507">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="56b98-508">لتجنب المشكلات، نوصي بأن تدرج مثيلاً لكل محطة أجهزة مخصصة للمتجر، كما هو مطلوب.</span><span class="sxs-lookup"><span data-stu-id="56b98-508">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="56b98-509">لكل محطة أجهزة، يجب أن يكون اسم المضيف اسم الكمبيوتر المحدد حيث سيتم نشر محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-509">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
+    -   <span data-ttu-id="56b98-510">**المنفذ** – المنفذ الذي يجب استخدامه لكي تتواصل محطة الأجهزة مع عميل نقطة البيع الحديثة.</span><span class="sxs-lookup"><span data-stu-id="56b98-510">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="56b98-511">**ملف تعريف الأجهزة** – إذا لم يتم توفير ملف تعريف الأجهزة على محطة الأجهزة بحد ذاتها، سيتم استخدام ملف تعريف الأجهزة الذي تم تعيينه للسجل.</span><span class="sxs-lookup"><span data-stu-id="56b98-511">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
+    -   <span data-ttu-id="56b98-512">**رقم سجل نقطع البيع EFT** – معرف المحطة الطرفية EFT الذي يجب استخدامه عند إرسال تفويضات EFT.</span><span class="sxs-lookup"><span data-stu-id="56b98-512">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="56b98-513">يتم توفير هذا المعرف من قبل معالج بطاقة الائتمان.</span><span class="sxs-lookup"><span data-stu-id="56b98-513">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="56b98-514">**اسم الحزمة** – حزمة محطة الأجهزة التي يجب استخدامها عند نشر محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-514">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-1.  أنشئ ملف تعريف أجهزة حيث يتم تكوين الأجهزة الطرفية المطلوبة.
-2.  أنشئ محطة أجهزة من النوع **مشترك** لمتجر البيع بالتجزئة حيث سيتم استخدام سجل نقطة البيع.
-3.  على محطة الأجهزة المشتركة، يمكنك تعيين الخصائص التالية:
-    -   **اسم المضيف** -اسم الكمبيوتر المضيف حيث سيتم تشغيل محطة الأجهزة.
-    -   **الوصف** – نص سوف يساعد على تعريف محطة الأجهزة، مثل **المرتجعات** أو **واجهة المتجر**.
-    -   **المنفذ** – المنفذ الذي يجب استخدامه لكي تتواصل محطة الأجهزة مع عميل نقطة البيع الحديثة.
-    -   **ملف تعريف الأجهزة** – لمحطات الأجهزة المشتركة، يجب أن يكون لدى كل محطة أجهزة ملف تعريف أجهزة. يمكن مشاركة ملفات تعريف الأجهزة بين محطات الأجهزة، ولكن يجب أن يتم تعيينها لكل محطة أجهزة. بالإضافة إلى ذلك، من المستحسن استخدام ورديات مشتركة عندما تستخدم أجهزة متعددة محطة الأجهزة المشتركة نفسها. لإعداد وردية مشتركة، انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **ملفات تعريف نقطة البيع** &gt; **ملفات تعريف الأجهزة**. لكل ملف تعريف أجهزة مشترك، حدد درج الأوراق النقدية، وعيّن الخيار **درج الورديات المشتركة‬** إلى **نعم**.
-    -   **رقم سجل نقطع البيع EFT** – معرف المحطة الطرفية EFT الذي يجب استخدامه عند إرسال تفويضات EFT. يتم توفير هذا المعرف من قبل معالج بطاقة الائتمان.
-    -   **اسم الحزمة** – حزمة محطة الأجهزة التي يجب استخدامها عند نشر محطة الأجهزة.
+4.  <span data-ttu-id="56b98-515">انقر فوق **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جدول التوزيع**.</span><span class="sxs-lookup"><span data-stu-id="56b98-515">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="56b98-516">حدد جدول التوزيع **1090** لمزامنة ملف تعريف الأجهزة الجديد إلى المتجر.</span><span class="sxs-lookup"><span data-stu-id="56b98-516">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="56b98-517">انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-517">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="56b98-518">حدد جدول التوزيع **1040** لمزامنة محطة الأجهزة الجديدة إلى المتجر.</span><span class="sxs-lookup"><span data-stu-id="56b98-518">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="56b98-519">انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-519">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="56b98-520">قم بتثبيت محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-520">Install the hardware station.</span></span> <span data-ttu-id="56b98-521">لمزيد من المعلومات حول كيفية تثبيت محطة الأجهزة، راجع [تثبيت وتكوين محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="56b98-521">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+8.  <span data-ttu-id="56b98-522">قم بتثبيت وتنشيط نقطة بيع حديثة.</span><span class="sxs-lookup"><span data-stu-id="56b98-522">Install and activate Modern POS.</span></span> <span data-ttu-id="56b98-523">لمزيد من المعلومات حول كيفية تثبيت نقاط البيع الحديثة، راجع [تثبيت وتكوين نقطة بيع حديثة للبيع بالتجزئة](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="56b98-523">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+9.  <span data-ttu-id="56b98-524">سجل دخولك إلى نقطة البيع الحديثة، وحدد **تنفيذ عمليات غير مرتبطة بالدرج‬**.</span><span class="sxs-lookup"><span data-stu-id="56b98-524">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+10. <span data-ttu-id="56b98-525">ابدأ عملية **إدارة محطات الأجهزة**.</span><span class="sxs-lookup"><span data-stu-id="56b98-525">Start the **Manage hardware stations** operation.</span></span>
+11. <span data-ttu-id="56b98-526">انقر فوق **إدارة**.</span><span class="sxs-lookup"><span data-stu-id="56b98-526">Click **Manage**.</span></span>
+12. <span data-ttu-id="56b98-527">في صفحة إدارة محطة الأجهزة، قم بتعيين خيار تشغيل محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-527">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+13. <span data-ttu-id="56b98-528">حدد محطة الأجهزة التي تريد استخدامها، ثم انقر فوق **إقران**.</span><span class="sxs-lookup"><span data-stu-id="56b98-528">Select the hardware station to use, and then click **Pair**.</span></span>
+14. <span data-ttu-id="56b98-529">بعد أن يتم إقران محطة الأجهزة، انقر فوق **إغلاق**.</span><span class="sxs-lookup"><span data-stu-id="56b98-529">After the hardware station is paired, click **Close**.</span></span>
+15. <span data-ttu-id="56b98-530">في صفحة تحديد محطة الأجهزة، انقر فوق محطة الأجهزة التي حددتها مؤخرًا لتنشيطها.</span><span class="sxs-lookup"><span data-stu-id="56b98-530">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
 
-4.  كرر الخطوتين 2 و3 لكل محطة أجهزة إضافية مطلوبة في المتجر.
-5.  انقر فوق **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جدول التوزيع**.
-6.  حدد جدول التوزيع **1090** لمزامنة ملف تعريف الأجهزة الجديد إلى المتجر. انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.
-7.  حدد جدول التوزيع **1040** لمزامنة محطة الأجهزة الجديدة إلى المتجر. انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.
-8.  ثبّت محطة الأجهزة على كل كمبيوتر مضيف قمت بإعداده في الخطوتين 2 و3. لمزيد من المعلومات حول كيفية تثبيت محطة الأجهزة، راجع [تثبيت وتكوين محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md).
-9.  قم بتثبيت وتنشيط نقطة بيع حديثة. لمزيد من المعلومات حول كيفية تثبيت نقاط البيع الحديثة، راجع [تثبيت وتكوين نقطة بيع حديثة للبيع بالتجزئة](retail-modern-pos-device-activation.md).
-10. سجل دخولك إلى نقطة البيع الحديثة، وحدد **تنفيذ عمليات غير مرتبطة بالدرج‬**.
-11. ابدأ عملية **إدارة محطات الأجهزة**.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="56b98-531">توجد محطة أجهزة IIS مشتركة لدى كل عملاء نقطة البيع الحديثة</span><span class="sxs-lookup"><span data-stu-id="56b98-531">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-12. انقر فوق **إدارة**.
-13. في صفحة إدارة محطة الأجهزة، قم بتعيين خيار تشغيل محطة الأجهزة.
-14. حدد محطة الأجهزة التي تريد استخدامها، ثم انقر فوق **إقران**.
-15. كرر الخطوة 14 لكل محطة أجهزة سوف تستخدمها نقطة البيع الحديثة.
-16. بعد أن يتم إقران كافة محطات الأجهزة المطلوبة، انقر فوق **إغلاق**.
-17. في صفحة تحديد محطة الأجهزة، انقر فوق محطة الأجهزة التي حددتها مؤخرًا لتنشيطها. **ملاحظة:** إذا كانت الأجهزة تستخدم محطات أجهزة مختلفة في أغلب الأحيان، فمن المستحسن تكوين نقطة بيع حديثة لمطالبة الصرافين بتحديد محطة أجهزة عند بدء عملية تحديد الدفع. انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **السجلات‬**. حدد السجل، ثم عيّن الخيار **تحديد عند الدفع‬** إلى **نعم**. استخدم جدول التوزيع **1090** لمزامنة التغييرات إلى قاعدة بيانات القناة.
+<span data-ttu-id="56b98-532">يمكن استخدام هذا التكوين لكافة عملاء نقطة البيع الحديثة‬ الذين يشاركون محطات الأجهزة مع أجهزة الأخرى.</span><span class="sxs-lookup"><span data-stu-id="56b98-532">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="56b98-533">لإعداد هذا التكوين، اتبع هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="56b98-533">To set up this configuration, follow these steps.</span></span>
 
-## <a name="extensibility"></a>القابلية للتوسعة
-لمزيد من المعلومات حول سيناريوهات قابلية التوسعة لمحطة الأجهزة، راجع [قابلية توسعة محطة الأجهزة"](dev-itpro/hardware-station-extensibility.md).
+1.  <span data-ttu-id="56b98-534">أنشئ ملف تعريف أجهزة حيث يتم تكوين الأجهزة الطرفية المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="56b98-534">Create a hardware profile where the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="56b98-535">أنشئ محطة أجهزة من النوع **مشترك** لمتجر البيع بالتجزئة حيث سيتم استخدام سجل نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-535">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="56b98-536">على محطة الأجهزة المشتركة، يمكنك تعيين الخصائص التالية:</span><span class="sxs-lookup"><span data-stu-id="56b98-536">On the shared hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="56b98-537">**اسم المضيف** -اسم الكمبيوتر المضيف حيث سيتم تشغيل محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-537">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+    -   <span data-ttu-id="56b98-538">**الوصف** – نص سوف يساعد على تعريف محطة الأجهزة، مثل **المرتجعات** أو **واجهة المتجر**.</span><span class="sxs-lookup"><span data-stu-id="56b98-538">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
+    -   <span data-ttu-id="56b98-539">**المنفذ** – المنفذ الذي يجب استخدامه لكي تتواصل محطة الأجهزة مع عميل نقطة البيع الحديثة.</span><span class="sxs-lookup"><span data-stu-id="56b98-539">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="56b98-540">**ملف تعريف الأجهزة** – لمحطات الأجهزة المشتركة، يجب أن يكون لدى كل محطة أجهزة ملف تعريف أجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-540">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="56b98-541">يمكن مشاركة ملفات تعريف الأجهزة بين محطات الأجهزة، ولكن يجب أن يتم تعيينها لكل محطة أجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-541">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="56b98-542">بالإضافة إلى ذلك، من المستحسن استخدام ورديات مشتركة عندما تستخدم أجهزة متعددة محطة الأجهزة المشتركة نفسها.</span><span class="sxs-lookup"><span data-stu-id="56b98-542">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="56b98-543">لإعداد وردية مشتركة، انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **ملفات تعريف نقطة البيع** &gt; **ملفات تعريف الأجهزة**.</span><span class="sxs-lookup"><span data-stu-id="56b98-543">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="56b98-544">لكل ملف تعريف أجهزة مشترك، حدد درج الأوراق النقدية، وعيّن الخيار **درج الورديات المشتركة‬** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="56b98-544">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
+    -   <span data-ttu-id="56b98-545">**رقم سجل نقطع البيع EFT** – معرف المحطة الطرفية EFT الذي يجب استخدامه عند إرسال تفويضات EFT.</span><span class="sxs-lookup"><span data-stu-id="56b98-545">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="56b98-546">يتم توفير هذا المعرف من قبل معالج بطاقة الائتمان.</span><span class="sxs-lookup"><span data-stu-id="56b98-546">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="56b98-547">**اسم الحزمة** – حزمة محطة الأجهزة التي يجب استخدامها عند نشر محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-547">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-## <a name="security"></a>الأمان
-وفقًا لمعايير الأمان الحالية، يجب استخدام الإعدادات التالية في بيئة إنتاج: **ملاحظة:** سيقوم مثبت محطة الأجهزة بشكل تلقائي بتحويل تعديلات السجلات هذه إلى جزء من عملية التثبيت عبر الخدمة الذاتية.
+4.  <span data-ttu-id="56b98-548">كرر الخطوتين 2 و3 لكل محطة أجهزة إضافية مطلوبة في المتجر.</span><span class="sxs-lookup"><span data-stu-id="56b98-548">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
+5.  <span data-ttu-id="56b98-549">انقر فوق **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جدول التوزيع**.</span><span class="sxs-lookup"><span data-stu-id="56b98-549">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+6.  <span data-ttu-id="56b98-550">حدد جدول التوزيع **1090** لمزامنة ملف تعريف الأجهزة الجديد إلى المتجر.</span><span class="sxs-lookup"><span data-stu-id="56b98-550">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="56b98-551">انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-551">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="56b98-552">حدد جدول التوزيع **1040** لمزامنة محطة الأجهزة الجديدة إلى المتجر.</span><span class="sxs-lookup"><span data-stu-id="56b98-552">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="56b98-553">انقر فوق **تشغيل الآن** لمزامنة التغييرات إلى نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-553">Click **Run now** to sync changes to the POS.</span></span>
+8.  <span data-ttu-id="56b98-554">ثبّت محطة الأجهزة على كل كمبيوتر مضيف قمت بإعداده في الخطوتين 2 و3.</span><span class="sxs-lookup"><span data-stu-id="56b98-554">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="56b98-555">لمزيد من المعلومات حول كيفية تثبيت محطة الأجهزة، راجع [تثبيت وتكوين محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="56b98-555">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+9.  <span data-ttu-id="56b98-556">قم بتثبيت وتنشيط نقطة بيع حديثة.</span><span class="sxs-lookup"><span data-stu-id="56b98-556">Install and activate Modern POS.</span></span> <span data-ttu-id="56b98-557">لمزيد من المعلومات حول كيفية تثبيت نقاط البيع الحديثة، راجع [تثبيت وتكوين نقطة بيع حديثة للبيع بالتجزئة](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="56b98-557">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+10. <span data-ttu-id="56b98-558">سجل دخولك إلى نقطة البيع الحديثة، وحدد **تنفيذ عمليات غير مرتبطة بالدرج‬**.</span><span class="sxs-lookup"><span data-stu-id="56b98-558">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+11. <span data-ttu-id="56b98-559">ابدأ عملية **إدارة محطات الأجهزة**.</span><span class="sxs-lookup"><span data-stu-id="56b98-559">Start the **Manage hardware stations** operation.</span></span>
 
--   يجب تعطيل طبقة مآخذ التوصيل الآمنة (SSL).
--   يجب تمكين واستخدام فقط أمان طبقة النقل (TLS) الإصدار 1.2 (أو الإصدار الأعلى الحالي). **ملاحظة:** بشكل افتراضي، يكون كل من SSL وكل إصدار من TLS باستثناء TLS 1.2 معطلاً. لتحرير هذه القيم أو تمكينها، اتبع الخطوات التالية:
-    1.  اضغط مفتاح شعار Windows مع المفتاح R لفتح النافذة **تشغيل**.
-    2.  في الحقل **فتح**، اكتب **Regedit**، ثم انقر فوق **موافق**.
-    3.  إذا ظهر مربع الرسالة **"التحكم بحساب المستخدم"**، فانقر فوق **نعم**.
-    4.  في نافذة **محرر التسجيل**، انتقل إلى **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. تم إدخال المفاتيح التالية تلقائيًا للسماح لـ TLS 1.2 فقط:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   يجب ألا تكون هناك منافذ شبكة إضافية مفتوحة، إلا إذا كانت مطلوبة لأسباب محددة معروفة.
--   يجب تعطيل مشاركة الموارد عبر الأصل ويجب تحديد الأصول المسموح بها المقبولة.
--   يجب استخدام المراجع المصدقة الموثوق بها فقط للحصول على الشهادات التي سيتم استخدامها على أجهزة الكمبيوتر تستخدم محطة الأجهزة.
+12. <span data-ttu-id="56b98-560">انقر فوق **إدارة**.</span><span class="sxs-lookup"><span data-stu-id="56b98-560">Click **Manage**.</span></span>
+13. <span data-ttu-id="56b98-561">في صفحة إدارة محطة الأجهزة، قم بتعيين خيار تشغيل محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-561">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+14. <span data-ttu-id="56b98-562">حدد محطة الأجهزة التي تريد استخدامها، ثم انقر فوق **إقران**.</span><span class="sxs-lookup"><span data-stu-id="56b98-562">Select the hardware station to use, and then click **Pair**.</span></span>
+15. <span data-ttu-id="56b98-563">كرر الخطوة 14 لكل محطة أجهزة سوف تستخدمها نقطة البيع الحديثة.</span><span class="sxs-lookup"><span data-stu-id="56b98-563">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
+16. <span data-ttu-id="56b98-564">بعد أن يتم إقران كافة محطات الأجهزة المطلوبة، انقر فوق **إغلاق**.</span><span class="sxs-lookup"><span data-stu-id="56b98-564">After all the required hardware stations are paired, click **Close**.</span></span>
+17. <span data-ttu-id="56b98-565">في صفحة تحديد محطة الأجهزة، انقر فوق محطة الأجهزة التي حددتها مؤخرًا لتنشيطها.</span><span class="sxs-lookup"><span data-stu-id="56b98-565">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span> <span data-ttu-id="56b98-566">**ملاحظة:** إذا كانت الأجهزة تستخدم محطات أجهزة مختلفة في أغلب الأحيان، فمن المستحسن تكوين نقطة بيع حديثة لمطالبة الصرافين بتحديد محطة أجهزة عند بدء عملية تحديد الدفع.</span><span class="sxs-lookup"><span data-stu-id="56b98-566">**Note:** If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="56b98-567">انقر فوق **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **السجلات‬**.</span><span class="sxs-lookup"><span data-stu-id="56b98-567">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="56b98-568">حدد السجل، ثم عيّن الخيار **تحديد عند الدفع‬** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="56b98-568">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="56b98-569">استخدم جدول التوزيع **1090** لمزامنة التغييرات إلى قاعدة بيانات القناة.</span><span class="sxs-lookup"><span data-stu-id="56b98-569">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
 
-**ملاحظة:** من الضروري جدًا مراجعة إرشادات أمان IIS ومتطلبات صناعة بطاقات الدفع (PCI).
+## <a name="extensibility"></a><span data-ttu-id="56b98-570">القابلية للتوسعة</span><span class="sxs-lookup"><span data-stu-id="56b98-570">Extensibility</span></span>
+<span data-ttu-id="56b98-571">لمزيد من المعلومات حول سيناريوهات قابلية التوسعة لمحطة الأجهزة، راجع [قابلية توسعة محطة الأجهزة"](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="56b98-571">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
 
-## <a name="peripheral-simulator"></a>محاكي الأجهزة الطرفية للبيع بالتجزئة
-للحصول على معلومات، راجع [محاكي الأجهزة الطرفية‬ للبيع بالتجزئة](dev-itpro/retail-peripheral-simulator.md).
+## <a name="security"></a><span data-ttu-id="56b98-572">الأمان</span><span class="sxs-lookup"><span data-stu-id="56b98-572">Security</span></span>
+<span data-ttu-id="56b98-573">وفقًا لمعايير الأمان الحالية، يجب استخدام الإعدادات التالية في بيئة إنتاج: **ملاحظة:** سيقوم مثبت محطة الأجهزة بشكل تلقائي بتحويل تعديلات السجلات هذه إلى جزء من عملية التثبيت عبر الخدمة الذاتية.</span><span class="sxs-lookup"><span data-stu-id="56b98-573">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
 
-## <a name="microsofttested-peripheral-devices"></a>الأجهزة الطرفية التي خضعت لاختبارات Microsoft
-### <a name="ipc-built-in-hardware-station"></a>‏‫محطة أجهزة IPC (مضمنة)‬
+-   <span data-ttu-id="56b98-574">يجب تعطيل طبقة مآخذ التوصيل الآمنة (SSL).</span><span class="sxs-lookup"><span data-stu-id="56b98-574">Secure Sockets Layer (SSL) should be disabled.</span></span>
+-   <span data-ttu-id="56b98-575">يجب تمكين واستخدام فقط أمان طبقة النقل (TLS) الإصدار 1.2 (أو الإصدار الأعلى الحالي).</span><span class="sxs-lookup"><span data-stu-id="56b98-575">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span> <span data-ttu-id="56b98-576">**ملاحظة:** بشكل افتراضي، يكون كل من SSL وكل إصدار من TLS باستثناء TLS 1.2 معطلاً.</span><span class="sxs-lookup"><span data-stu-id="56b98-576">**Note:** By default, SSL and all version of TLS except TLS 1.2 are disabled.</span></span> <span data-ttu-id="56b98-577">لتحرير هذه القيم أو تمكينها، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="56b98-577">To edit or enable these values, follow these steps:</span></span>
+    1.  <span data-ttu-id="56b98-578">اضغط مفتاح شعار Windows مع المفتاح R لفتح النافذة **تشغيل**.</span><span class="sxs-lookup"><span data-stu-id="56b98-578">Press the Windows logo key+R to open a **Run** window.</span></span>
+    2.  <span data-ttu-id="56b98-579">في الحقل **فتح**، اكتب **Regedit**، ثم انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="56b98-579">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
+    3.  <span data-ttu-id="56b98-580">إذا ظهر مربع الرسالة **"التحكم بحساب المستخدم"**، فانقر فوق **نعم**.</span><span class="sxs-lookup"><span data-stu-id="56b98-580">If a **User Account Control** message box appears, click **Yes**.</span></span>
+    4.  <span data-ttu-id="56b98-581">في نافذة **محرر التسجيل**، انتقل إلى **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span><span class="sxs-lookup"><span data-stu-id="56b98-581">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="56b98-582">تم إدخال المفاتيح التالية تلقائيًا للسماح لـ TLS 1.2 فقط:</span><span class="sxs-lookup"><span data-stu-id="56b98-582">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
+        -   <span data-ttu-id="56b98-583">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="56b98-583">TLS 1.2Server:Enabled=1</span></span>
+        -   <span data-ttu-id="56b98-584">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="56b98-584">TLS 1.2Server:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="56b98-585">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="56b98-585">TLS 1.2Client:Enabled=1</span></span>
+        -   <span data-ttu-id="56b98-586">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="56b98-586">TLS 1.2Client:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="56b98-587">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="56b98-587">TLS 1.1Server:Enabled=0</span></span>
+        -   <span data-ttu-id="56b98-588">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="56b98-588">TLS 1.1Client:Enabled=0</span></span>
+        -   <span data-ttu-id="56b98-589">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="56b98-589">TLS 1.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="56b98-590">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="56b98-590">TLS 1.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="56b98-591">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="56b98-591">SSL 3.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="56b98-592">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="56b98-592">SSL 3.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="56b98-593">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="56b98-593">SSL 2.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="56b98-594">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="56b98-594">SSL 2.0Client:Enabled=0</span></span>
+-   <span data-ttu-id="56b98-595">يجب ألا تكون هناك منافذ شبكة إضافية مفتوحة، إلا إذا كانت مطلوبة لأسباب محددة معروفة.</span><span class="sxs-lookup"><span data-stu-id="56b98-595">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
+-   <span data-ttu-id="56b98-596">يجب تعطيل مشاركة الموارد عبر الأصل ويجب تحديد الأصول المسموح بها المقبولة.</span><span class="sxs-lookup"><span data-stu-id="56b98-596">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
+-   <span data-ttu-id="56b98-597">يجب استخدام المراجع المصدقة الموثوق بها فقط للحصول على الشهادات التي سيتم استخدامها على أجهزة الكمبيوتر تستخدم محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-597">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
 
-تم اختبار الأجهزة الطرفية التالية باستخدام محطة أجهزة IPC المضمنة في نقطة البيع الحديثة لنظام التشغيل Windows.
+<span data-ttu-id="56b98-598">**ملاحظة:** من الضروري جدًا مراجعة إرشادات أمان IIS ومتطلبات صناعة بطاقات الدفع (PCI).</span><span class="sxs-lookup"><span data-stu-id="56b98-598">**Note:** It’s very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
 
-#### <a name="printer"></a>الطابعة
+## <a name="peripheral-simulator"></a><span data-ttu-id="56b98-599">محاكي الأجهزة الطرفية للبيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="56b98-599">Peripheral simulator</span></span>
+<span data-ttu-id="56b98-600">للحصول على معلومات، راجع [محاكي الأجهزة الطرفية‬ للبيع بالتجزئة](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="56b98-600">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
 
-| الشركة المصنعة | الطراز    | الواجهة | تعليقات                |
+## <a name="microsofttested-peripheral-devices"></a><span data-ttu-id="56b98-601">الأجهزة الطرفية التي خضعت لاختبارات Microsoft</span><span class="sxs-lookup"><span data-stu-id="56b98-601">Microsofttested peripheral devices</span></span>
+### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="56b98-602">‏‫محطة أجهزة IPC (مضمنة)‬</span><span class="sxs-lookup"><span data-stu-id="56b98-602">IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="56b98-603">تم اختبار الأجهزة الطرفية التالية باستخدام محطة أجهزة IPC المضمنة في نقطة البيع الحديثة لنظام التشغيل Windows.</span><span class="sxs-lookup"><span data-stu-id="56b98-603">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="56b98-604">الطابعة</span><span class="sxs-lookup"><span data-stu-id="56b98-604">Printer</span></span>
+
+| <span data-ttu-id="56b98-605">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-605">Manufacturer</span></span> | <span data-ttu-id="56b98-606">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-606">Model</span></span>    | <span data-ttu-id="56b98-607">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-607">Interface</span></span> | <span data-ttu-id="56b98-608">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-608">Comments</span></span>                |
 |--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | مخصص    | متصل عبر الشبكة   |
-| Star         | mPOP     | OPOS      | متصل عبر Bluetooth |
-| HP           | F7M67AA  | OPOS      | USB مزود بالطاقة             |
+| <span data-ttu-id="56b98-609">Epson</span><span class="sxs-lookup"><span data-stu-id="56b98-609">Epson</span></span>        | <span data-ttu-id="56b98-610">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="56b98-610">Tm-T88IV</span></span> | <span data-ttu-id="56b98-611">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-611">OPOS</span></span>      |                         |
+| <span data-ttu-id="56b98-612">Epson</span><span class="sxs-lookup"><span data-stu-id="56b98-612">Epson</span></span>        | <span data-ttu-id="56b98-613">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="56b98-613">TM-T88V</span></span>  | <span data-ttu-id="56b98-614">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-614">OPOS</span></span>      |                         |
+| <span data-ttu-id="56b98-615">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-615">Star</span></span>         | <span data-ttu-id="56b98-616">TSP650II</span><span class="sxs-lookup"><span data-stu-id="56b98-616">TSP650II</span></span> | <span data-ttu-id="56b98-617">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-617">OPOS</span></span>      |                         |
+| <span data-ttu-id="56b98-618">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-618">Star</span></span>         | <span data-ttu-id="56b98-619">TSP650II</span><span class="sxs-lookup"><span data-stu-id="56b98-619">TSP650II</span></span> | <span data-ttu-id="56b98-620">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-620">Custom</span></span>    | <span data-ttu-id="56b98-621">متصل عبر الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-621">Connected via network</span></span>   |
+| <span data-ttu-id="56b98-622">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-622">Star</span></span>         | <span data-ttu-id="56b98-623">mPOP</span><span class="sxs-lookup"><span data-stu-id="56b98-623">mPOP</span></span>     | <span data-ttu-id="56b98-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-624">OPOS</span></span>      | <span data-ttu-id="56b98-625">متصل عبر Bluetooth</span><span class="sxs-lookup"><span data-stu-id="56b98-625">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="56b98-626">HP</span><span class="sxs-lookup"><span data-stu-id="56b98-626">HP</span></span>           | <span data-ttu-id="56b98-627">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="56b98-627">F7M67AA</span></span>  | <span data-ttu-id="56b98-628">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-628">OPOS</span></span>      | <span data-ttu-id="56b98-629">USB مزود بالطاقة</span><span class="sxs-lookup"><span data-stu-id="56b98-629">Powered USB</span></span>             |
 
-#### <a name="bar-code-scanner"></a>الماسح الضوئي للرمز الشريطي
+#### <a name="bar-code-scanner"></a><span data-ttu-id="56b98-630">الماسح الضوئي للرمز الشريطي</span><span class="sxs-lookup"><span data-stu-id="56b98-630">Bar code scanner</span></span>
 
-| الشركة المصنعة  | الطراز         | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-631">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-631">Manufacturer</span></span>  | <span data-ttu-id="56b98-632">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-632">Model</span></span>         | <span data-ttu-id="56b98-633">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-633">Interface</span></span> | <span data-ttu-id="56b98-634">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-634">Comments</span></span> |
 |---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Symbol        | LS2208        | OPOS      |          |
-| HP Integrated | E1L07AA       | OPOS      |          |
-| Datalogic     | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="56b98-635">Motorola</span><span class="sxs-lookup"><span data-stu-id="56b98-635">Motorola</span></span>      | <span data-ttu-id="56b98-636">DS9208</span><span class="sxs-lookup"><span data-stu-id="56b98-636">DS9208</span></span>        | <span data-ttu-id="56b98-637">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-637">OPOS</span></span>      |          |
+| <span data-ttu-id="56b98-638">Honeywell</span><span class="sxs-lookup"><span data-stu-id="56b98-638">Honeywell</span></span>     | <span data-ttu-id="56b98-639">1900</span><span class="sxs-lookup"><span data-stu-id="56b98-639">1900</span></span>          | <span data-ttu-id="56b98-640">UWP</span><span class="sxs-lookup"><span data-stu-id="56b98-640">UWP</span></span>       |          |
+| <span data-ttu-id="56b98-641">Symbol</span><span class="sxs-lookup"><span data-stu-id="56b98-641">Symbol</span></span>        | <span data-ttu-id="56b98-642">LS2208</span><span class="sxs-lookup"><span data-stu-id="56b98-642">LS2208</span></span>        | <span data-ttu-id="56b98-643">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-643">OPOS</span></span>      |          |
+| <span data-ttu-id="56b98-644">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="56b98-644">HP Integrated</span></span> | <span data-ttu-id="56b98-645">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="56b98-645">E1L07AA</span></span>       | <span data-ttu-id="56b98-646">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-646">OPOS</span></span>      |          |
+| <span data-ttu-id="56b98-647">Datalogic</span><span class="sxs-lookup"><span data-stu-id="56b98-647">Datalogic</span></span>     | <span data-ttu-id="56b98-648">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="56b98-648">Magellan 8400</span></span> | <span data-ttu-id="56b98-649">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-649">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>لوحة PIN
+#### <a name="pin-pad"></a><span data-ttu-id="56b98-650">لوحة PIN</span><span class="sxs-lookup"><span data-stu-id="56b98-650">PIN pad</span></span>
 
-| الشركة المصنعة | الطراز  | الواجهة | تعليقات                                        |
+| <span data-ttu-id="56b98-651">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-651">Manufacturer</span></span> | <span data-ttu-id="56b98-652">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-652">Model</span></span>  | <span data-ttu-id="56b98-653">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-653">Interface</span></span> | <span data-ttu-id="56b98-654">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-654">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | يتطلب تخصيص موصل المدفوعات‬ |
+| <span data-ttu-id="56b98-655">VeriFone</span><span class="sxs-lookup"><span data-stu-id="56b98-655">VeriFone</span></span>     | <span data-ttu-id="56b98-656">1000SE</span><span class="sxs-lookup"><span data-stu-id="56b98-656">1000SE</span></span> | <span data-ttu-id="56b98-657">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-657">OPOS</span></span>      | <span data-ttu-id="56b98-658">يتطلب تخصيص موصل المدفوعات‬</span><span class="sxs-lookup"><span data-stu-id="56b98-658">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>وحدة الدفع الطرفية 
+#### <a name="payment-terminal"></a><span data-ttu-id="56b98-659">وحدة الدفع الطرفية </span><span class="sxs-lookup"><span data-stu-id="56b98-659">Payment terminal</span></span>
 
-| الشركة المصنعة | الطراز | الواجهة | تعليقات                                                                       |
+| <span data-ttu-id="56b98-660">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-660">Manufacturer</span></span> | <span data-ttu-id="56b98-661">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-661">Model</span></span> | <span data-ttu-id="56b98-662">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-662">Interface</span></span> | <span data-ttu-id="56b98-663">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-663">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | مخصص    | يتطلب تخصيص موصل المدفوعات‬                                |
-| VeriFone     | MX925 | مخصص    | يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB |
-| VeriFone     | MX915 | مخصص    | يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB |
+| <span data-ttu-id="56b98-664">Equinox</span><span class="sxs-lookup"><span data-stu-id="56b98-664">Equinox</span></span>      | <span data-ttu-id="56b98-665">L5300</span><span class="sxs-lookup"><span data-stu-id="56b98-665">L5300</span></span> | <span data-ttu-id="56b98-666">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-666">Custom</span></span>    | <span data-ttu-id="56b98-667">يتطلب تخصيص موصل المدفوعات‬</span><span class="sxs-lookup"><span data-stu-id="56b98-667">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="56b98-668">VeriFone</span><span class="sxs-lookup"><span data-stu-id="56b98-668">VeriFone</span></span>     | <span data-ttu-id="56b98-669">MX925</span><span class="sxs-lookup"><span data-stu-id="56b98-669">MX925</span></span> | <span data-ttu-id="56b98-670">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-670">Custom</span></span>    | <span data-ttu-id="56b98-671">يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB</span><span class="sxs-lookup"><span data-stu-id="56b98-671">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="56b98-672">VeriFone</span><span class="sxs-lookup"><span data-stu-id="56b98-672">VeriFone</span></span>     | <span data-ttu-id="56b98-673">MX915</span><span class="sxs-lookup"><span data-stu-id="56b98-673">MX915</span></span> | <span data-ttu-id="56b98-674">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-674">Custom</span></span>    | <span data-ttu-id="56b98-675">يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB</span><span class="sxs-lookup"><span data-stu-id="56b98-675">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>درج الأوراق النقدية
+#### <a name="cash-drawer"></a><span data-ttu-id="56b98-676">درج الأوراق النقدية</span><span class="sxs-lookup"><span data-stu-id="56b98-676">Cash drawer</span></span>
 
-| الشركة المصنعة | الطراز     | الواجهة | تعليقات                |
+| <span data-ttu-id="56b98-677">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-677">Manufacturer</span></span> | <span data-ttu-id="56b98-678">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-678">Model</span></span>     | <span data-ttu-id="56b98-679">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-679">Interface</span></span> | <span data-ttu-id="56b98-680">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-680">Comments</span></span>                |
 |--------------|-----------|-----------|-------------------------|
-| Star         | mPOP      | OPOS      | متصل عبر Bluetooth |
-| APG          | Atwood    | مخصص    | متصل عبر الشبكة   |
-| Star         | SMD2-1317 | OPOS      |                         |
-| HP           | QT457AA   | OPOS      |                         |
+| <span data-ttu-id="56b98-681">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-681">Star</span></span>         | <span data-ttu-id="56b98-682">mPOP</span><span class="sxs-lookup"><span data-stu-id="56b98-682">mPOP</span></span>      | <span data-ttu-id="56b98-683">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-683">OPOS</span></span>      | <span data-ttu-id="56b98-684">متصل عبر Bluetooth</span><span class="sxs-lookup"><span data-stu-id="56b98-684">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="56b98-685">APG</span><span class="sxs-lookup"><span data-stu-id="56b98-685">APG</span></span>          | <span data-ttu-id="56b98-686">Atwood</span><span class="sxs-lookup"><span data-stu-id="56b98-686">Atwood</span></span>    | <span data-ttu-id="56b98-687">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-687">Custom</span></span>    | <span data-ttu-id="56b98-688">متصل عبر الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-688">Connected via network</span></span>   |
+| <span data-ttu-id="56b98-689">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-689">Star</span></span>         | <span data-ttu-id="56b98-690">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="56b98-690">SMD2-1317</span></span> | <span data-ttu-id="56b98-691">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-691">OPOS</span></span>      |                         |
+| <span data-ttu-id="56b98-692">HP</span><span class="sxs-lookup"><span data-stu-id="56b98-692">HP</span></span>           | <span data-ttu-id="56b98-693">QT457AA</span><span class="sxs-lookup"><span data-stu-id="56b98-693">QT457AA</span></span>   | <span data-ttu-id="56b98-694">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-694">OPOS</span></span>      |                         |
 
-#### <a name="line-display"></a>شاشة عرض سطرية
+#### <a name="line-display"></a><span data-ttu-id="56b98-695">شاشة عرض سطرية</span><span class="sxs-lookup"><span data-stu-id="56b98-695">Line display</span></span>
 
-| الشركة المصنعة  | الطراز   | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-696">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-696">Manufacturer</span></span>  | <span data-ttu-id="56b98-697">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-697">Model</span></span>   | <span data-ttu-id="56b98-698">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-698">Interface</span></span> | <span data-ttu-id="56b98-699">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-699">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integrated | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="56b98-700">HP integrated</span><span class="sxs-lookup"><span data-stu-id="56b98-700">HP integrated</span></span> | <span data-ttu-id="56b98-701">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="56b98-701">G6U79AA</span></span> | <span data-ttu-id="56b98-702">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-702">OPOS</span></span>      |          |
+| <span data-ttu-id="56b98-703">Epson</span><span class="sxs-lookup"><span data-stu-id="56b98-703">Epson</span></span>         | <span data-ttu-id="56b98-704">M58DC</span><span class="sxs-lookup"><span data-stu-id="56b98-704">M58DC</span></span>   | <span data-ttu-id="56b98-705">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-705">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>التقاط التوقيع
+#### <a name="signature-capture"></a><span data-ttu-id="56b98-706">التقاط التوقيع</span><span class="sxs-lookup"><span data-stu-id="56b98-706">Signature capture</span></span>
 
-| الشركة المصنعة | الطراز  | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-707">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-707">Manufacturer</span></span> | <span data-ttu-id="56b98-708">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-708">Model</span></span>  | <span data-ttu-id="56b98-709">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-709">Interface</span></span> | <span data-ttu-id="56b98-710">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-710">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="56b98-711">Scriptel</span><span class="sxs-lookup"><span data-stu-id="56b98-711">Scriptel</span></span>     | <span data-ttu-id="56b98-712">ST1550</span><span class="sxs-lookup"><span data-stu-id="56b98-712">ST1550</span></span> | <span data-ttu-id="56b98-713">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-713">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>المقياس
+#### <a name="scale"></a><span data-ttu-id="56b98-714">المقياس</span><span class="sxs-lookup"><span data-stu-id="56b98-714">Scale</span></span>
 
-| الشركة المصنعة | الطراز         | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-715">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-715">Manufacturer</span></span> | <span data-ttu-id="56b98-716">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-716">Model</span></span>         | <span data-ttu-id="56b98-717">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-717">Interface</span></span> | <span data-ttu-id="56b98-718">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-718">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="56b98-719">Datalogic</span><span class="sxs-lookup"><span data-stu-id="56b98-719">Datalogic</span></span>    | <span data-ttu-id="56b98-720">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="56b98-720">Magellan 8400</span></span> | <span data-ttu-id="56b98-721">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-721">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="56b98-722">MSR</span><span class="sxs-lookup"><span data-stu-id="56b98-722">MSR</span></span>
 
-| الشركة المصنعة | الطراز       | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-723">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-723">Manufacturer</span></span> | <span data-ttu-id="56b98-724">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-724">Model</span></span>       | <span data-ttu-id="56b98-725">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-725">Interface</span></span> | <span data-ttu-id="56b98-726">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-726">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="56b98-727">Magtek</span><span class="sxs-lookup"><span data-stu-id="56b98-727">Magtek</span></span>       | <span data-ttu-id="56b98-728">21073075</span><span class="sxs-lookup"><span data-stu-id="56b98-728">21073075</span></span>    | <span data-ttu-id="56b98-729">UWP</span><span class="sxs-lookup"><span data-stu-id="56b98-729">UWP</span></span>       |          |
+| <span data-ttu-id="56b98-730">Magtek</span><span class="sxs-lookup"><span data-stu-id="56b98-730">Magtek</span></span>       | <span data-ttu-id="56b98-731">21073062</span><span class="sxs-lookup"><span data-stu-id="56b98-731">21073062</span></span>    | <span data-ttu-id="56b98-732">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-732">OPOS</span></span>      |          |
+| <span data-ttu-id="56b98-733">HP</span><span class="sxs-lookup"><span data-stu-id="56b98-733">HP</span></span>           | <span data-ttu-id="56b98-734">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="56b98-734">IDRA-334133</span></span> | <span data-ttu-id="56b98-735">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-735">OPOS</span></span>      |          |
 
-### <a name="dedicated-iis-hardware-station"></a>محطة أجهزة IIS مخصصة
+### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="56b98-736">محطة أجهزة IIS مخصصة</span><span class="sxs-lookup"><span data-stu-id="56b98-736">Dedicated IIS hardware station</span></span>
 
-تم اختبار الأجهزة الطرفية التالية باستخدام محطة أجهزة IIS مخصصة (غير مشتركة) مع نقطة بيع حديثة لنظام التشغيل Windows ونقطة بيع المجموعة.
+<span data-ttu-id="56b98-737">تم اختبار الأجهزة الطرفية التالية باستخدام محطة أجهزة IIS مخصصة (غير مشتركة) مع نقطة بيع حديثة لنظام التشغيل Windows ونقطة بيع المجموعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-737">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
 
-#### <a name="printer"></a>الطابعة
+#### <a name="printer"></a><span data-ttu-id="56b98-738">الطابعة</span><span class="sxs-lookup"><span data-stu-id="56b98-738">Printer</span></span>
 
-| الشركة المصنعة | الطراز    | الواجهة | تعليقات                  |
+| <span data-ttu-id="56b98-739">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-739">Manufacturer</span></span> | <span data-ttu-id="56b98-740">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-740">Model</span></span>    | <span data-ttu-id="56b98-741">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-741">Interface</span></span> | <span data-ttu-id="56b98-742">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-742">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | مخصص    | متصل عبر الشبكة     |
-| Star         | TSP100   | OPOS      | يتطلب برامج تشغيل TSP650II |
-| HP           | F7M67AA  | OPOS      | USB مزود بالطاقة               |
+| <span data-ttu-id="56b98-743">Epson</span><span class="sxs-lookup"><span data-stu-id="56b98-743">Epson</span></span>        | <span data-ttu-id="56b98-744">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="56b98-744">Tm-T88IV</span></span> | <span data-ttu-id="56b98-745">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-745">OPOS</span></span>      |                           |
+| <span data-ttu-id="56b98-746">Epson</span><span class="sxs-lookup"><span data-stu-id="56b98-746">Epson</span></span>        | <span data-ttu-id="56b98-747">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="56b98-747">TM-T88V</span></span>  | <span data-ttu-id="56b98-748">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-748">OPOS</span></span>      |                           |
+| <span data-ttu-id="56b98-749">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-749">Star</span></span>         | <span data-ttu-id="56b98-750">TSP650II</span><span class="sxs-lookup"><span data-stu-id="56b98-750">TSP650II</span></span> | <span data-ttu-id="56b98-751">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-751">OPOS</span></span>      |                           |
+| <span data-ttu-id="56b98-752">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-752">Star</span></span>         | <span data-ttu-id="56b98-753">TSP650II</span><span class="sxs-lookup"><span data-stu-id="56b98-753">TSP650II</span></span> | <span data-ttu-id="56b98-754">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-754">Custom</span></span>    | <span data-ttu-id="56b98-755">متصل عبر الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-755">Connected via network</span></span>     |
+| <span data-ttu-id="56b98-756">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-756">Star</span></span>         | <span data-ttu-id="56b98-757">TSP100</span><span class="sxs-lookup"><span data-stu-id="56b98-757">TSP100</span></span>   | <span data-ttu-id="56b98-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-758">OPOS</span></span>      | <span data-ttu-id="56b98-759">يتطلب برامج تشغيل TSP650II</span><span class="sxs-lookup"><span data-stu-id="56b98-759">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="56b98-760">HP</span><span class="sxs-lookup"><span data-stu-id="56b98-760">HP</span></span>           | <span data-ttu-id="56b98-761">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="56b98-761">F7M67AA</span></span>  | <span data-ttu-id="56b98-762">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-762">OPOS</span></span>      | <span data-ttu-id="56b98-763">USB مزود بالطاقة</span><span class="sxs-lookup"><span data-stu-id="56b98-763">Powered USB</span></span>               |
 
-#### <a name="bar-code-scanner"></a>الماسح الضوئي للرمز الشريطي
+#### <a name="bar-code-scanner"></a><span data-ttu-id="56b98-764">الماسح الضوئي للرمز الشريطي</span><span class="sxs-lookup"><span data-stu-id="56b98-764">Bar code scanner</span></span>
 
-| الشركة المصنعة  | الطراز   | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-765">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-765">Manufacturer</span></span>  | <span data-ttu-id="56b98-766">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-766">Model</span></span>   | <span data-ttu-id="56b98-767">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-767">Interface</span></span> | <span data-ttu-id="56b98-768">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-768">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Symbol        | LS2208  | OPOS      |          |
-| HP Integrated | E1L07AA | OPOS      |          |
+| <span data-ttu-id="56b98-769">Motorola</span><span class="sxs-lookup"><span data-stu-id="56b98-769">Motorola</span></span>      | <span data-ttu-id="56b98-770">DS9208</span><span class="sxs-lookup"><span data-stu-id="56b98-770">DS9208</span></span>  | <span data-ttu-id="56b98-771">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-771">OPOS</span></span>      |          |
+| <span data-ttu-id="56b98-772">Symbol</span><span class="sxs-lookup"><span data-stu-id="56b98-772">Symbol</span></span>        | <span data-ttu-id="56b98-773">LS2208</span><span class="sxs-lookup"><span data-stu-id="56b98-773">LS2208</span></span>  | <span data-ttu-id="56b98-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-774">OPOS</span></span>      |          |
+| <span data-ttu-id="56b98-775">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="56b98-775">HP Integrated</span></span> | <span data-ttu-id="56b98-776">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="56b98-776">E1L07AA</span></span> | <span data-ttu-id="56b98-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-777">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>لوحة PIN
+#### <a name="pin-pad"></a><span data-ttu-id="56b98-778">لوحة PIN</span><span class="sxs-lookup"><span data-stu-id="56b98-778">PIN pad</span></span>
 
-| الشركة المصنعة | الطراز  | الواجهة | تعليقات                                        |
+| <span data-ttu-id="56b98-779">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-779">Manufacturer</span></span> | <span data-ttu-id="56b98-780">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-780">Model</span></span>  | <span data-ttu-id="56b98-781">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-781">Interface</span></span> | <span data-ttu-id="56b98-782">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-782">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | يتطلب تخصيص موصل المدفوعات‬ |
+| <span data-ttu-id="56b98-783">VeriFone</span><span class="sxs-lookup"><span data-stu-id="56b98-783">VeriFone</span></span>     | <span data-ttu-id="56b98-784">1000SE</span><span class="sxs-lookup"><span data-stu-id="56b98-784">1000SE</span></span> | <span data-ttu-id="56b98-785">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-785">OPOS</span></span>      | <span data-ttu-id="56b98-786">يتطلب تخصيص موصل المدفوعات‬</span><span class="sxs-lookup"><span data-stu-id="56b98-786">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>وحدة الدفع الطرفية 
+#### <a name="payment-terminal"></a><span data-ttu-id="56b98-787">وحدة الدفع الطرفية </span><span class="sxs-lookup"><span data-stu-id="56b98-787">Payment terminal</span></span>
 
-| الشركة المصنعة | الطراز | الواجهة | تعليقات                                                                       |
+| <span data-ttu-id="56b98-788">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-788">Manufacturer</span></span> | <span data-ttu-id="56b98-789">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-789">Model</span></span> | <span data-ttu-id="56b98-790">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-790">Interface</span></span> | <span data-ttu-id="56b98-791">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-791">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | مخصص    | يتطلب تخصيص موصل المدفوعات‬                                |
-| VeriFone     | MX925 | مخصص    | يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB |
-| VeriFone     | MX915 | مخصص    | يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB |
+| <span data-ttu-id="56b98-792">Equinox</span><span class="sxs-lookup"><span data-stu-id="56b98-792">Equinox</span></span>      | <span data-ttu-id="56b98-793">L5300</span><span class="sxs-lookup"><span data-stu-id="56b98-793">L5300</span></span> | <span data-ttu-id="56b98-794">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-794">Custom</span></span>    | <span data-ttu-id="56b98-795">يتطلب تخصيص موصل المدفوعات‬</span><span class="sxs-lookup"><span data-stu-id="56b98-795">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="56b98-796">VeriFone</span><span class="sxs-lookup"><span data-stu-id="56b98-796">VeriFone</span></span>     | <span data-ttu-id="56b98-797">MX925</span><span class="sxs-lookup"><span data-stu-id="56b98-797">MX925</span></span> | <span data-ttu-id="56b98-798">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-798">Custom</span></span>    | <span data-ttu-id="56b98-799">يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB</span><span class="sxs-lookup"><span data-stu-id="56b98-799">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="56b98-800">VeriFone</span><span class="sxs-lookup"><span data-stu-id="56b98-800">VeriFone</span></span>     | <span data-ttu-id="56b98-801">MX915</span><span class="sxs-lookup"><span data-stu-id="56b98-801">MX915</span></span> | <span data-ttu-id="56b98-802">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-802">Custom</span></span>    | <span data-ttu-id="56b98-803">يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB</span><span class="sxs-lookup"><span data-stu-id="56b98-803">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>درج الأوراق النقدية
+#### <a name="cash-drawer"></a><span data-ttu-id="56b98-804">درج الأوراق النقدية</span><span class="sxs-lookup"><span data-stu-id="56b98-804">Cash drawer</span></span>
 
-| الشركة المصنعة | الطراز     | الواجهة | تعليقات              |
+| <span data-ttu-id="56b98-805">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-805">Manufacturer</span></span> | <span data-ttu-id="56b98-806">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-806">Model</span></span>     | <span data-ttu-id="56b98-807">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-807">Interface</span></span> | <span data-ttu-id="56b98-808">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-808">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | مخصص    | متصل عبر الشبكة |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="56b98-809">APG</span><span class="sxs-lookup"><span data-stu-id="56b98-809">APG</span></span>          | <span data-ttu-id="56b98-810">Atwood</span><span class="sxs-lookup"><span data-stu-id="56b98-810">Atwood</span></span>    | <span data-ttu-id="56b98-811">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-811">Custom</span></span>    | <span data-ttu-id="56b98-812">متصل عبر الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-812">Connected via network</span></span> |
+| <span data-ttu-id="56b98-813">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-813">Star</span></span>         | <span data-ttu-id="56b98-814">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="56b98-814">SMD2-1317</span></span> | <span data-ttu-id="56b98-815">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-815">OPOS</span></span>      |                       |
+| <span data-ttu-id="56b98-816">HP</span><span class="sxs-lookup"><span data-stu-id="56b98-816">HP</span></span>           | <span data-ttu-id="56b98-817">QT457AA</span><span class="sxs-lookup"><span data-stu-id="56b98-817">QT457AA</span></span>   | <span data-ttu-id="56b98-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-818">OPOS</span></span>      |                       |
 
-#### <a name="line-display"></a>شاشة عرض سطرية
+#### <a name="line-display"></a><span data-ttu-id="56b98-819">شاشة عرض سطرية</span><span class="sxs-lookup"><span data-stu-id="56b98-819">Line display</span></span>
 
-| الشركة المصنعة  | الطراز   | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-820">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-820">Manufacturer</span></span>  | <span data-ttu-id="56b98-821">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-821">Model</span></span>   | <span data-ttu-id="56b98-822">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-822">Interface</span></span> | <span data-ttu-id="56b98-823">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-823">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integrated | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="56b98-824">HP integrated</span><span class="sxs-lookup"><span data-stu-id="56b98-824">HP integrated</span></span> | <span data-ttu-id="56b98-825">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="56b98-825">G6U79AA</span></span> | <span data-ttu-id="56b98-826">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-826">OPOS</span></span>      |          |
+| <span data-ttu-id="56b98-827">Epson</span><span class="sxs-lookup"><span data-stu-id="56b98-827">Epson</span></span>         | <span data-ttu-id="56b98-828">M58DC</span><span class="sxs-lookup"><span data-stu-id="56b98-828">M58DC</span></span>   | <span data-ttu-id="56b98-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-829">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>التقاط التوقيع
+#### <a name="signature-capture"></a><span data-ttu-id="56b98-830">التقاط التوقيع</span><span class="sxs-lookup"><span data-stu-id="56b98-830">Signature capture</span></span>
 
-| الشركة المصنعة | الطراز  | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-831">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-831">Manufacturer</span></span> | <span data-ttu-id="56b98-832">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-832">Model</span></span>  | <span data-ttu-id="56b98-833">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-833">Interface</span></span> | <span data-ttu-id="56b98-834">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-834">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="56b98-835">Scriptel</span><span class="sxs-lookup"><span data-stu-id="56b98-835">Scriptel</span></span>     | <span data-ttu-id="56b98-836">ST1550</span><span class="sxs-lookup"><span data-stu-id="56b98-836">ST1550</span></span> | <span data-ttu-id="56b98-837">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-837">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>المقياس
+#### <a name="scale"></a><span data-ttu-id="56b98-838">المقياس</span><span class="sxs-lookup"><span data-stu-id="56b98-838">Scale</span></span>
 
-| الشركة المصنعة | الطراز         | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-839">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-839">Manufacturer</span></span> | <span data-ttu-id="56b98-840">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-840">Model</span></span>         | <span data-ttu-id="56b98-841">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-841">Interface</span></span> | <span data-ttu-id="56b98-842">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-842">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="56b98-843">Datalogic</span><span class="sxs-lookup"><span data-stu-id="56b98-843">Datalogic</span></span>    | <span data-ttu-id="56b98-844">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="56b98-844">Magellan 8400</span></span> | <span data-ttu-id="56b98-845">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-845">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="56b98-846">MSR</span><span class="sxs-lookup"><span data-stu-id="56b98-846">MSR</span></span>
 
-| الشركة المصنعة | الطراز       | الواجهة | تعليقات |
+| <span data-ttu-id="56b98-847">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-847">Manufacturer</span></span> | <span data-ttu-id="56b98-848">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-848">Model</span></span>       | <span data-ttu-id="56b98-849">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-849">Interface</span></span> | <span data-ttu-id="56b98-850">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-850">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="56b98-851">Magtek</span><span class="sxs-lookup"><span data-stu-id="56b98-851">Magtek</span></span>       | <span data-ttu-id="56b98-852">21073075</span><span class="sxs-lookup"><span data-stu-id="56b98-852">21073075</span></span>    | <span data-ttu-id="56b98-853">UWP</span><span class="sxs-lookup"><span data-stu-id="56b98-853">UWP</span></span>       |          |
+| <span data-ttu-id="56b98-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="56b98-854">Magtek</span></span>       | <span data-ttu-id="56b98-855">21073062</span><span class="sxs-lookup"><span data-stu-id="56b98-855">21073062</span></span>    | <span data-ttu-id="56b98-856">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-856">OPOS</span></span>      |          |
+| <span data-ttu-id="56b98-857">HP</span><span class="sxs-lookup"><span data-stu-id="56b98-857">HP</span></span>           | <span data-ttu-id="56b98-858">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="56b98-858">IDRA-334133</span></span> | <span data-ttu-id="56b98-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-859">OPOS</span></span>      |          |
 
-### <a name="shared-iis-hardware-station"></a>محطة أجهزة IIS المشتركة
+### <a name="shared-iis-hardware-station"></a><span data-ttu-id="56b98-860">محطة أجهزة IIS المشتركة</span><span class="sxs-lookup"><span data-stu-id="56b98-860">Shared IIS hardware station</span></span>
 
-تم اختبار الأجهزة الطرفية التالية باستخدام محطة أجهزة IIS مشتركة مع نقطة بيع حديثة لنظام التشغيل Windows ونقطة بيع المجموعة. **ملاحظة:** الأجهزة الوحيدة المعتمدة هي الطابعة ووحدة الدفع الطرفية ودرج الأوراق النقدية.
+<span data-ttu-id="56b98-861">تم اختبار الأجهزة الطرفية التالية باستخدام محطة أجهزة IIS مشتركة مع نقطة بيع حديثة لنظام التشغيل Windows ونقطة بيع المجموعة.</span><span class="sxs-lookup"><span data-stu-id="56b98-861">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="56b98-862">**ملاحظة:** الأجهزة الوحيدة المعتمدة هي الطابعة ووحدة الدفع الطرفية ودرج الأوراق النقدية.</span><span class="sxs-lookup"><span data-stu-id="56b98-862">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
 
-#### <a name="printer"></a>الطابعة
+#### <a name="printer"></a><span data-ttu-id="56b98-863">الطابعة</span><span class="sxs-lookup"><span data-stu-id="56b98-863">Printer</span></span>
 
-| الشركة المصنعة | الطراز    | الواجهة | تعليقات                  |
+| <span data-ttu-id="56b98-864">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-864">Manufacturer</span></span> | <span data-ttu-id="56b98-865">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-865">Model</span></span>    | <span data-ttu-id="56b98-866">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-866">Interface</span></span> | <span data-ttu-id="56b98-867">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-867">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | مخصص    | متصل عبر الشبكة     |
-| Star         | TSP100   | OPOS      | يتطلب برامج تشغيل TSP650II |
-| HP           | F7M67AA  | OPOS      | USB مزود بالطاقة               |
+| <span data-ttu-id="56b98-868">Epson</span><span class="sxs-lookup"><span data-stu-id="56b98-868">Epson</span></span>        | <span data-ttu-id="56b98-869">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="56b98-869">Tm-T88IV</span></span> | <span data-ttu-id="56b98-870">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-870">OPOS</span></span>      |                           |
+| <span data-ttu-id="56b98-871">Epson</span><span class="sxs-lookup"><span data-stu-id="56b98-871">Epson</span></span>        | <span data-ttu-id="56b98-872">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="56b98-872">TM-T88V</span></span>  | <span data-ttu-id="56b98-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-873">OPOS</span></span>      |                           |
+| <span data-ttu-id="56b98-874">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-874">Star</span></span>         | <span data-ttu-id="56b98-875">TSP650II</span><span class="sxs-lookup"><span data-stu-id="56b98-875">TSP650II</span></span> | <span data-ttu-id="56b98-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-876">OPOS</span></span>      |                           |
+| <span data-ttu-id="56b98-877">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-877">Star</span></span>         | <span data-ttu-id="56b98-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="56b98-878">TSP650II</span></span> | <span data-ttu-id="56b98-879">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-879">Custom</span></span>    | <span data-ttu-id="56b98-880">متصل عبر الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-880">Connected via network</span></span>     |
+| <span data-ttu-id="56b98-881">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-881">Star</span></span>         | <span data-ttu-id="56b98-882">TSP100</span><span class="sxs-lookup"><span data-stu-id="56b98-882">TSP100</span></span>   | <span data-ttu-id="56b98-883">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-883">OPOS</span></span>      | <span data-ttu-id="56b98-884">يتطلب برامج تشغيل TSP650II</span><span class="sxs-lookup"><span data-stu-id="56b98-884">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="56b98-885">HP</span><span class="sxs-lookup"><span data-stu-id="56b98-885">HP</span></span>           | <span data-ttu-id="56b98-886">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="56b98-886">F7M67AA</span></span>  | <span data-ttu-id="56b98-887">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-887">OPOS</span></span>      | <span data-ttu-id="56b98-888">USB مزود بالطاقة</span><span class="sxs-lookup"><span data-stu-id="56b98-888">Powered USB</span></span>               |
 
-#### <a name="payment-terminal"></a>وحدة الدفع الطرفية 
+#### <a name="payment-terminal"></a><span data-ttu-id="56b98-889">وحدة الدفع الطرفية </span><span class="sxs-lookup"><span data-stu-id="56b98-889">Payment terminal</span></span>
 
-| الشركة المصنعة | الطراز | الواجهة | تعليقات                                                                       |
+| <span data-ttu-id="56b98-890">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-890">Manufacturer</span></span> | <span data-ttu-id="56b98-891">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-891">Model</span></span> | <span data-ttu-id="56b98-892">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-892">Interface</span></span> | <span data-ttu-id="56b98-893">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-893">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | مخصص    | يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB |
-| VeriFone     | MX915 | مخصص    | يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB |
+| <span data-ttu-id="56b98-894">VeriFone</span><span class="sxs-lookup"><span data-stu-id="56b98-894">VeriFone</span></span>     | <span data-ttu-id="56b98-895">MX925</span><span class="sxs-lookup"><span data-stu-id="56b98-895">MX925</span></span> | <span data-ttu-id="56b98-896">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-896">Custom</span></span>    | <span data-ttu-id="56b98-897">يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB</span><span class="sxs-lookup"><span data-stu-id="56b98-897">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="56b98-898">VeriFone</span><span class="sxs-lookup"><span data-stu-id="56b98-898">VeriFone</span></span>     | <span data-ttu-id="56b98-899">MX915</span><span class="sxs-lookup"><span data-stu-id="56b98-899">MX915</span></span> | <span data-ttu-id="56b98-900">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-900">Custom</span></span>    | <span data-ttu-id="56b98-901">يتطلب تخصيص موصل المدفوعات‬؛ متصل عبر الشبكة وUSB</span><span class="sxs-lookup"><span data-stu-id="56b98-901">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>درج الأوراق النقدية
+#### <a name="cash-drawer"></a><span data-ttu-id="56b98-902">درج الأوراق النقدية</span><span class="sxs-lookup"><span data-stu-id="56b98-902">Cash drawer</span></span>
 
-| الشركة المصنعة | الطراز     | الواجهة | تعليقات              |
+| <span data-ttu-id="56b98-903">الشركة المصنعة</span><span class="sxs-lookup"><span data-stu-id="56b98-903">Manufacturer</span></span> | <span data-ttu-id="56b98-904">الطراز</span><span class="sxs-lookup"><span data-stu-id="56b98-904">Model</span></span>     | <span data-ttu-id="56b98-905">الواجهة</span><span class="sxs-lookup"><span data-stu-id="56b98-905">Interface</span></span> | <span data-ttu-id="56b98-906">تعليقات</span><span class="sxs-lookup"><span data-stu-id="56b98-906">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | مخصص    | متصل عبر الشبكة |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="56b98-907">APG</span><span class="sxs-lookup"><span data-stu-id="56b98-907">APG</span></span>          | <span data-ttu-id="56b98-908">Atwood</span><span class="sxs-lookup"><span data-stu-id="56b98-908">Atwood</span></span>    | <span data-ttu-id="56b98-909">مخصص</span><span class="sxs-lookup"><span data-stu-id="56b98-909">Custom</span></span>    | <span data-ttu-id="56b98-910">متصل عبر الشبكة</span><span class="sxs-lookup"><span data-stu-id="56b98-910">Connected via network</span></span> |
+| <span data-ttu-id="56b98-911">Star</span><span class="sxs-lookup"><span data-stu-id="56b98-911">Star</span></span>         | <span data-ttu-id="56b98-912">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="56b98-912">SMD2-1317</span></span> | <span data-ttu-id="56b98-913">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-913">OPOS</span></span>      |                       |
+| <span data-ttu-id="56b98-914">HP</span><span class="sxs-lookup"><span data-stu-id="56b98-914">HP</span></span>           | <span data-ttu-id="56b98-915">QT457AA</span><span class="sxs-lookup"><span data-stu-id="56b98-915">QT457AA</span></span>   | <span data-ttu-id="56b98-916">OPOS</span><span class="sxs-lookup"><span data-stu-id="56b98-916">OPOS</span></span>      |                       |
 
-## <a name="troubleshooting"></a>استكشاف الأخطاء وإصلاحها
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>باستطاعة نقطة البيع الحديثة الكشف عن محطة الأجهزة في قائمة التحديد، ولكن يتعذر عليها إتمام الاقتران
+## <a name="troubleshooting"></a><span data-ttu-id="56b98-917">استكشاف الأخطاء وإصلاحها</span><span class="sxs-lookup"><span data-stu-id="56b98-917">Troubleshooting</span></span>
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="56b98-918">باستطاعة نقطة البيع الحديثة الكشف عن محطة الأجهزة في قائمة التحديد، ولكن يتعذر عليها إتمام الاقتران</span><span class="sxs-lookup"><span data-stu-id="56b98-918">Modern POS can detect the hardware station in its list for selection, but it can’t complete the pairing</span></span>
 
-**الحل:** التحقق من القائمة التالية لنقاط الفشل المحتملة:
+<span data-ttu-id="56b98-919">**الحل:** التحقق من القائمة التالية لنقاط الفشل المحتملة:</span><span class="sxs-lookup"><span data-stu-id="56b98-919">**Solution:** Verify the following list of potential failure points:</span></span>
 
--   يثق الكمبيوتر الذي يقوم بتشغيل نقطة البيع الحديثة بالشهادة التي يتم استخدامها على الكمبيوتر الذي يقوم بتشغيل محطة الأجهزة.
-    -   للتحقق من هذا الإعداد في مستعرض ويب، انتقل إلى عنوان URL التالي: https://&lt;اسم الكمبيوتر&gt;:&lt;رقم المنفذ&gt;/HardwareStation/ping.
-    -   يستخدم عنوان URL هذا إجراء ping للتأكد من أنه يمكن الوصول إلى الكمبيوتر، ويشير المستعرض إلى ما إذا كانت الشهادة موثوقة. (على سبيل المثال، في Internet Explorer، تظهر أيقونة قفل في شريط العنوان. عند النقر فوق هذه الأيقونة، يتحقق Internet Explorer مما إذا كانت الشهادة موثوقة حاليًا. يمكنك تثبيت الشهادة على الكمبيوتر المحلي عن طريق عرض تفاصيل الشهادة التي تظهر.)
--   على الكمبيوتر الذي يقوم بتشغيل محطة الأجهزة، يتم فتح المنفذ الذي سيتم استخدامه بواسطة محطة الأجهزة في جدار الحماية.
--   قامت محطة الأجهزة بتثبيت معلومات حساب التاجر بشكل صحيح عبر أداة تثبيت معلومات التاجر التي يتم تشغيلها في نهاية مثبت محطة الأجهزة.
+-   <span data-ttu-id="56b98-920">يثق الكمبيوتر الذي يقوم بتشغيل نقطة البيع الحديثة بالشهادة التي يتم استخدامها على الكمبيوتر الذي يقوم بتشغيل محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-920">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
+    -   <span data-ttu-id="56b98-921">للتحقق من هذا الإعداد في مستعرض ويب، انتقل إلى عنوان URL التالي: https://&lt;اسم الكمبيوتر&gt;:&lt;رقم المنفذ&gt;/HardwareStation/ping.</span><span class="sxs-lookup"><span data-stu-id="56b98-921">To verify this setup, in a web browser, go to the following URL: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.</span></span>
+    -   <span data-ttu-id="56b98-922">يستخدم عنوان URL هذا إجراء ping للتأكد من أنه يمكن الوصول إلى الكمبيوتر، ويشير المستعرض إلى ما إذا كانت الشهادة موثوقة.</span><span class="sxs-lookup"><span data-stu-id="56b98-922">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="56b98-923">(على سبيل المثال، في Internet Explorer، تظهر أيقونة قفل في شريط العنوان.</span><span class="sxs-lookup"><span data-stu-id="56b98-923">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="56b98-924">عند النقر فوق هذه الأيقونة، يتحقق Internet Explorer مما إذا كانت الشهادة موثوقة حاليًا.</span><span class="sxs-lookup"><span data-stu-id="56b98-924">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="56b98-925">يمكنك تثبيت الشهادة على الكمبيوتر المحلي عن طريق عرض تفاصيل الشهادة التي تظهر.)</span><span class="sxs-lookup"><span data-stu-id="56b98-925">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
+-   <span data-ttu-id="56b98-926">على الكمبيوتر الذي يقوم بتشغيل محطة الأجهزة، يتم فتح المنفذ الذي سيتم استخدامه بواسطة محطة الأجهزة في جدار الحماية.</span><span class="sxs-lookup"><span data-stu-id="56b98-926">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
+-   <span data-ttu-id="56b98-927">قامت محطة الأجهزة بتثبيت معلومات حساب التاجر بشكل صحيح عبر أداة تثبيت معلومات التاجر التي يتم تشغيلها في نهاية مثبت محطة الأجهزة.</span><span class="sxs-lookup"><span data-stu-id="56b98-927">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>يتعذر على نقطة البيع الحديثة الكشف عن محطة الأجهزة في قائمة التحديد
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="56b98-928">يتعذر على نقطة البيع الحديثة الكشف عن محطة الأجهزة في قائمة التحديد</span><span class="sxs-lookup"><span data-stu-id="56b98-928">Modern POS can’t detect the hardware station in its list for selection</span></span>
 
-**الحل:** باستطاعة أي واحد من العوامل التالية أن يتسبب في حدوث هذه المشكلة:
+<span data-ttu-id="56b98-929">**الحل:** باستطاعة أي واحد من العوامل التالية أن يتسبب في حدوث هذه المشكلة:</span><span class="sxs-lookup"><span data-stu-id="56b98-929">**Solution:** Either of the following factors can cause this issue:</span></span>
 
--   لم يتم إعداد محطة الأجهزة بشكل صحيح في المقر الرئيسي. استخدم الخطوات التي وردت سابقًا في هذا الموضوع للتأكد من إدخال ملف تعريف محطة الأجهزة ومحطة الأجهزة بشكل صحيح.
--   لم يتم تشغيل الوظائف لتحديث تكوين القناة. في هذه الحالة، يمكنك تشغيل الوظيفة 1070 لتكوين القناة.
+-   <span data-ttu-id="56b98-930">لم يتم إعداد محطة الأجهزة بشكل صحيح في المقر الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="56b98-930">The hardware station hasn’t been set up correctly in headquarters.</span></span> <span data-ttu-id="56b98-931">استخدم الخطوات التي وردت سابقًا في هذا الموضوع للتأكد من إدخال ملف تعريف محطة الأجهزة ومحطة الأجهزة بشكل صحيح.</span><span class="sxs-lookup"><span data-stu-id="56b98-931">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
+-   <span data-ttu-id="56b98-932">لم يتم تشغيل الوظائف لتحديث تكوين القناة.</span><span class="sxs-lookup"><span data-stu-id="56b98-932">The jobs haven’t been run to update the channel configuration.</span></span> <span data-ttu-id="56b98-933">في هذه الحالة، يمكنك تشغيل الوظيفة 1070 لتكوين القناة.</span><span class="sxs-lookup"><span data-stu-id="56b98-933">In this case, run the 1070 job for channel configuration.</span></span>
 
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>لا تعكس نقطة البيع الحديثة الإعدادات الجديدة درج الأوراق النقدية
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="56b98-934">لا تعكس نقطة البيع الحديثة الإعدادات الجديدة درج الأوراق النقدية</span><span class="sxs-lookup"><span data-stu-id="56b98-934">Modern POS doesn't reflect new cash drawer settings</span></span>
 
-**الحل:** إغلاق الدفعة الحالية.. لا يتم تحديث التغييرات على درج الأوراق النقدية في نقطة البيع الحديثة حتى يتم إغلاق الدفعة الحالية.
+<span data-ttu-id="56b98-935">**الحل:** إغلاق الدفعة الحالية..</span><span class="sxs-lookup"><span data-stu-id="56b98-935">**Solution:** Close the current batch.</span></span> <span data-ttu-id="56b98-936">لا يتم تحديث التغييرات على درج الأوراق النقدية في نقطة البيع الحديثة حتى يتم إغلاق الدفعة الحالية.</span><span class="sxs-lookup"><span data-stu-id="56b98-936">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
 
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>نقطة البيع الحديثة تبلغ عن وجود مشكلة في جهاز طرفي للبيع بالتجزئة
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="56b98-937">نقطة البيع الحديثة تبلغ عن وجود مشكلة في جهاز طرفي للبيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="56b98-937">Modern POS is reporting an issue with a retail peripheral</span></span>
 
-**الحل:** فيما يلي بعض الأسباب الشائعة لهذه المشكلة:
+<span data-ttu-id="56b98-938">**الحل:** فيما يلي بعض الأسباب الشائعة لهذه المشكلة:</span><span class="sxs-lookup"><span data-stu-id="56b98-938">**Solution:** Here are some typical causes of this issue:</span></span>
 
--   تأكد من إغلاق الأدوات المساعدة الأخرى لتكوين برنامج تشغيل الجهاز. إذا كانت هذه الأدوات المساعدة مفتوحة، فقد تمنع نقطة البيع الحديثة أو محطة الأجهزة من المطالبة بالجهاز.
--   إذا كان الجهاز الطرفي للبيع بالتجزئة مشتركًا مع عدة أجهزة تابعة لنقطة البيع، فتأكد من أنه ينتمي إلى إحدى الفئات التالية:
-    -   درج الأوراق النقدية
-    -   طابعة الإيصالات
-    -   وحدة الدفع الطرفية 
+-   <span data-ttu-id="56b98-939">تأكد من إغلاق الأدوات المساعدة الأخرى لتكوين برنامج تشغيل الجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-939">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="56b98-940">إذا كانت هذه الأدوات المساعدة مفتوحة، فقد تمنع نقطة البيع الحديثة أو محطة الأجهزة من المطالبة بالجهاز.</span><span class="sxs-lookup"><span data-stu-id="56b98-940">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
+-   <span data-ttu-id="56b98-941">إذا كان الجهاز الطرفي للبيع بالتجزئة مشتركًا مع عدة أجهزة تابعة لنقطة البيع، فتأكد من أنه ينتمي إلى إحدى الفئات التالية:</span><span class="sxs-lookup"><span data-stu-id="56b98-941">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
+    -   <span data-ttu-id="56b98-942">درج الأوراق النقدية</span><span class="sxs-lookup"><span data-stu-id="56b98-942">Cash drawer</span></span>
+    -   <span data-ttu-id="56b98-943">طابعة الإيصالات</span><span class="sxs-lookup"><span data-stu-id="56b98-943">Receipt printer</span></span>
+    -   <span data-ttu-id="56b98-944">وحدة الدفع الطرفية </span><span class="sxs-lookup"><span data-stu-id="56b98-944">Payment terminal</span></span>
 
-    في حال عدم انتماء الجهاز الطرفي إلى أي من هذه الفئات، فهذا يعني أنه لم يتم تصميم محطة الأجهزة لتمكين الجهاز الطرفي من أن يكون مشتركًا بين عدة أجهزة تابعة لنقطة البيع.
--   في بعض الأحيان، تتسبب برامج تشغيل الأجهزة في توقف كائنات التحكم العامة (CCO) عن العمل. إذا تم تثبيت أحد الأجهزة مؤخرًا، ولكنه لا يعمل بشكل صحيح أو لاحظت وجود مشكلات أخرى، فيمكن حل المشكلة غالبًا بإعادة تثبيت كائنات التحكم العامة (CCO). لتنزيل كائنات التحكم العامة (CCO)، يمكنك زيارة <http://monroecs.com/oposccos_current.htm>.
--   إذا كنت تدخل تغييرات متكررة على الأجهزة الطرفية أثناء الاختبار أو استكشاف الأخطاء وإصلاحها، قد تحتاج إلى إعادة تعيين IIS بدلاً من انتظار ذاكرة التخزين المؤقت لكي تقوم بتحديث نفسها. لإعادة تعيين IIS، اتبع الخطوات التالية:
-    1.  من قائمة **ابدأ**، اكتب **CMD**.
-    2.  في نتائج البحث، انقر بزر الماوس الأيمن فوق **موجه الأوامر**، ثم انقر فوق **تشغيل كمسؤول**.
-    3.  في نافذة **موجه الأوامر**، اكتب **iisreset/restart** ثم اضغط Enter.
-    4.  بعد إعادة تشغيل IIS، قم بإعادة تشغيل نقطة البيع الحديثة.
--   بينما تقوم بإدخال تغييرات متكررة على الأجهزة الطرفية، وإذا كنت تبدأ أيضًا تشغيل عميل نقطة وتخرج منها بشكل متكرر، فإن عملية dllhost من جلسة عمل نقطة بيع سابقة قد تتداخل مع جلسة العمل الحالية. في هذه الحالة، قد لا يكون الجهاز قابلاً للاستخدام يتم إغلاق مضيف مكتبة الارتباط الحيوي (DLL) الذي يدير جلسة العمل السابقة. لإغلاق مضيف DLL، اتبع الخطوات التالية:
-    1.  من قائمة **ابدأ**، اكتب **إدارة المهام**.
-    2.  في نتائج البحث، انقر فوق **"إدارة المهام"**.
-    3.  في إدارة المهام، على علامة التبويب **تفاصيل**، انقر فوق رأس العمود الذي يسمى **الاسم** لفرز الجدول أبجديًا حسب الاسم.
-    4.  قم بالتمرير لأسفل حتى تجد dllhost.exe.
-    5.  حدد كل مضيف DLL، ثم انقر فوق **إنهاء المهمة**.
-    6.  بعد إغلاق مضيفي DLL، أعد تشغيل نقطة البيع الحديثة.
+    <span data-ttu-id="56b98-945">في حال عدم انتماء الجهاز الطرفي إلى أي من هذه الفئات، فهذا يعني أنه لم يتم تصميم محطة الأجهزة لتمكين الجهاز الطرفي من أن يكون مشتركًا بين عدة أجهزة تابعة لنقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="56b98-945">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
+-   <span data-ttu-id="56b98-946">في بعض الأحيان، تتسبب برامج تشغيل الأجهزة في توقف كائنات التحكم العامة (CCO) عن العمل.</span><span class="sxs-lookup"><span data-stu-id="56b98-946">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="56b98-947">إذا تم تثبيت أحد الأجهزة مؤخرًا، ولكنه لا يعمل بشكل صحيح أو لاحظت وجود مشكلات أخرى، فيمكن حل المشكلة غالبًا بإعادة تثبيت كائنات التحكم العامة (CCO).</span><span class="sxs-lookup"><span data-stu-id="56b98-947">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="56b98-948">لتنزيل كائنات التحكم العامة (CCO)، يمكنك زيارة <http://monroecs.com/oposccos_current.htm>.</span><span class="sxs-lookup"><span data-stu-id="56b98-948">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
+-   <span data-ttu-id="56b98-949">إذا كنت تدخل تغييرات متكررة على الأجهزة الطرفية أثناء الاختبار أو استكشاف الأخطاء وإصلاحها، قد تحتاج إلى إعادة تعيين IIS بدلاً من انتظار ذاكرة التخزين المؤقت لكي تقوم بتحديث نفسها.</span><span class="sxs-lookup"><span data-stu-id="56b98-949">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="56b98-950">لإعادة تعيين IIS، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="56b98-950">To reset IIS, follow these steps:</span></span>
+    1.  <span data-ttu-id="56b98-951">من قائمة **ابدأ**، اكتب **CMD**.</span><span class="sxs-lookup"><span data-stu-id="56b98-951">From the **Start** menu, type **CMD**.</span></span>
+    2.  <span data-ttu-id="56b98-952">في نتائج البحث، انقر بزر الماوس الأيمن فوق **موجه الأوامر**، ثم انقر فوق **تشغيل كمسؤول**.</span><span class="sxs-lookup"><span data-stu-id="56b98-952">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
+    3.  <span data-ttu-id="56b98-953">في نافذة **موجه الأوامر**، اكتب **iisreset/restart** ثم اضغط Enter.</span><span class="sxs-lookup"><span data-stu-id="56b98-953">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
+    4.  <span data-ttu-id="56b98-954">بعد إعادة تشغيل IIS، قم بإعادة تشغيل نقطة البيع الحديثة.</span><span class="sxs-lookup"><span data-stu-id="56b98-954">After IIS has restarted, restart Modern POS.</span></span>
+-   <span data-ttu-id="56b98-955">بينما تقوم بإدخال تغييرات متكررة على الأجهزة الطرفية، وإذا كنت تبدأ أيضًا تشغيل عميل نقطة وتخرج منها بشكل متكرر، فإن عملية dllhost من جلسة عمل نقطة بيع سابقة قد تتداخل مع جلسة العمل الحالية.</span><span class="sxs-lookup"><span data-stu-id="56b98-955">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="56b98-956">في هذه الحالة، قد لا يكون الجهاز قابلاً للاستخدام يتم إغلاق مضيف مكتبة الارتباط الحيوي (DLL) الذي يدير جلسة العمل السابقة.</span><span class="sxs-lookup"><span data-stu-id="56b98-956">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="56b98-957">لإغلاق مضيف DLL، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="56b98-957">To close the DLL host, follow these steps:</span></span>
+    1.  <span data-ttu-id="56b98-958">من قائمة **ابدأ**، اكتب **إدارة المهام**.</span><span class="sxs-lookup"><span data-stu-id="56b98-958">From the **Start** menu, type **Task manager**.</span></span>
+    2.  <span data-ttu-id="56b98-959">في نتائج البحث، انقر فوق **"إدارة المهام"**.</span><span class="sxs-lookup"><span data-stu-id="56b98-959">In the search results, click **Task manager**.</span></span>
+    3.  <span data-ttu-id="56b98-960">في إدارة المهام، على علامة التبويب **تفاصيل**، انقر فوق رأس العمود الذي يسمى **الاسم** لفرز الجدول أبجديًا حسب الاسم.</span><span class="sxs-lookup"><span data-stu-id="56b98-960">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
+    4.  <span data-ttu-id="56b98-961">قم بالتمرير لأسفل حتى تجد dllhost.exe.</span><span class="sxs-lookup"><span data-stu-id="56b98-961">Scroll down until you find dllhost.exe.</span></span>
+    5.  <span data-ttu-id="56b98-962">حدد كل مضيف DLL، ثم انقر فوق **إنهاء المهمة**.</span><span class="sxs-lookup"><span data-stu-id="56b98-962">Select each DLL host, and then click **End task**.</span></span>
+    6.  <span data-ttu-id="56b98-963">بعد إغلاق مضيفي DLL، أعد تشغيل نقطة البيع الحديثة.</span><span class="sxs-lookup"><span data-stu-id="56b98-963">After the DLL hosts have been closed, restart Modern POS.</span></span>
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="see-also"></a><span data-ttu-id="56b98-964">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="56b98-964">See also</span></span>
 --------
 
-[محاكي الأجهزة الطرفية للبيع بالتجزئة](dev-itpro/retail-peripheral-simulator.md)
+[<span data-ttu-id="56b98-965">محاكي الأجهزة الطرفية للبيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="56b98-965">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
 
 
 

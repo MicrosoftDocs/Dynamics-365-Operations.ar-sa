@@ -16,56 +16,56 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7c38debf005cf14176a5184c489242e914c1ff4c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ebad4ec9ec6242978a26007a64416ae1b2af5c28
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-assign-advanced-rule-structures"></a>إنشاء بُنى القواعد المتقدمة وتعيينها
+# <a name="create-and-assign-advanced-rule-structures"></a><span data-ttu-id="337d5-103">إنشاء بُنى القواعد المتقدمة وتعيينها</span><span class="sxs-lookup"><span data-stu-id="337d5-103">Create and assign advanced rule structures</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح دليل المهام هذا خطوات إنشاء بنية قاعدة متقدمة وتعيينها لبنية حساب. يستخدم هذا الدليل شركة بيانات العرض التوضيحي USMF.
+<span data-ttu-id="337d5-104">يوضح دليل المهام هذا خطوات إنشاء بنية قاعدة متقدمة وتعيينها لبنية حساب.</span><span class="sxs-lookup"><span data-stu-id="337d5-104">This task guide steps through creating and assigning an advanced rule structure to an account structure.</span></span> <span data-ttu-id="337d5-105">يستخدم هذا الدليل شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="337d5-105">This guide uses the USMF demo company.</span></span>
 
 
-## <a name="create-an-advanced-rule-structure"></a>إنشاء بنية قاعدة متقدمة
-1. انتقل إلى دفتر الأستاذ العام > دليل الحسابات > البني > بنى القواعد المتقدمة.
-2. انقر فوق "جديد" لفتح مربع حوار الإسقاط‬.
-3. في الحقل "بنية القاعدة المتقدمة"، اكتب اسماً لوصف بنية القاعدة.
-4. في الحقل "الوصف"، اكتب قيمة لوصف البنية.
-5. انقر فوق موافق.
-6. انقر فوق "إضافة مقطع".
-7. في قائمة المقاطع، حدد بُعدًا ماليًا.
-    * على سبيل المثال، "تخزين".  
-8. انقر فوق "إضافة مقطع".
-9. في القائمة، انقر فوق الارتباط الخاص ببنية القاعدة المتقدمة لعرضها.
-10. انقر فوق تنشيط.
-11. انقر فوق تنشيط.
+## <a name="create-an-advanced-rule-structure"></a><span data-ttu-id="337d5-106">إنشاء بنية قاعدة متقدمة</span><span class="sxs-lookup"><span data-stu-id="337d5-106">Create an advanced rule structure</span></span>
+1. <span data-ttu-id="337d5-107">انتقل إلى دفتر الأستاذ العام > دليل الحسابات > البني > بنى القواعد المتقدمة.</span><span class="sxs-lookup"><span data-stu-id="337d5-107">Go to General ledger > Chart of accounts > Structures > Advanced rule structures.</span></span>
+2. <span data-ttu-id="337d5-108">انقر فوق "جديد" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="337d5-108">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="337d5-109">في الحقل "بنية القاعدة المتقدمة"، اكتب اسماً لوصف بنية القاعدة.</span><span class="sxs-lookup"><span data-stu-id="337d5-109">In the Advanced rule structure field, type a name to descritbe the rule structure.</span></span>
+4. <span data-ttu-id="337d5-110">في الحقل "الوصف"، اكتب قيمة لوصف البنية.</span><span class="sxs-lookup"><span data-stu-id="337d5-110">In the Description field, type a value to describe the structure.</span></span>
+5. <span data-ttu-id="337d5-111">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="337d5-111">Click OK.</span></span>
+6. <span data-ttu-id="337d5-112">انقر فوق "إضافة مقطع".</span><span class="sxs-lookup"><span data-stu-id="337d5-112">Click Add segment.</span></span>
+7. <span data-ttu-id="337d5-113">في قائمة المقاطع، حدد بُعدًا ماليًا.</span><span class="sxs-lookup"><span data-stu-id="337d5-113">In the list of segments, select a financial dimension.</span></span>
+    * <span data-ttu-id="337d5-114">على سبيل المثال، "تخزين".</span><span class="sxs-lookup"><span data-stu-id="337d5-114">For example, Store.</span></span>  
+8. <span data-ttu-id="337d5-115">انقر فوق "إضافة مقطع".</span><span class="sxs-lookup"><span data-stu-id="337d5-115">Click Add segment.</span></span>
+9. <span data-ttu-id="337d5-116">في القائمة، انقر فوق الارتباط الخاص ببنية القاعدة المتقدمة لعرضها.</span><span class="sxs-lookup"><span data-stu-id="337d5-116">In the list, click the link of the advanced rule structure to view it.</span></span>
+10. <span data-ttu-id="337d5-117">انقر فوق تنشيط.</span><span class="sxs-lookup"><span data-stu-id="337d5-117">Click Activate.</span></span>
+11. <span data-ttu-id="337d5-118">انقر فوق تنشيط.</span><span class="sxs-lookup"><span data-stu-id="337d5-118">Click Activate.</span></span>
 
-## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a>قم بتطبيق بنية قاعدة متقدمة على بنية حساب.
-1. وقم بغلق النموذج.
-2. قم بإغلاق الصفحة.
-3. انتقل إلى دفتر الأستاذ العام > دليل الحسابات > البنى > تكوين بنيات الحسابات.
-4. في القائمة، ابحث عن بنية الحساب التي تريد تطبيق القاعدة المتقدمة عليها وحددها.
-5. انقر فوق اسم بنية الحساب لفتحها.
-6. انقر فوق "تحرير".
-    * ويمكنك أيضًا النقر فوق "القواعد المتقدمة" وسيُطلب منك وضع بنية الحساب في الوضع "مسودة".  
-7. انقر فوق "القواعد المتقدمة".
-8. انقر فوق "جديد" لفتح مربع حوار الإسقاط‬.
-9. في الحقل "القاعدة المتقدمة"، اكتب قيمة.
-10. في حقل "الاسم"، اكتب قيمة.
-11. انقر فوق إنشاء.
-12. انقر فوق "إضافة معايير جديدة".
-13. في الحقل "الموقع"، حدد الحساب الرئيسي أو بُعدًا ماليًا.
-14. في الحقل "العامل"، حدد أحد الخيارات، مثل "بين" و"يتضمن".
-15. في حقل "القيمة"، اكتب قيمة.
-16. في الحقل "خلال"، اكتب قيمة.
-17. انقر فوق "إضافة" لفتح مربع حوار الإسقاط‬.
-18. في القائمة، ابحث عن بنية القاعدة المتقدمة التي تريد استخدامها عند موافقة المعايير التي يتم إدخالها.
-19. وانقر فوق إضافة.
-20. قم بإغلاق الصفحة.
-21. انقر فوق تنشيط.
-22. انقر فوق تنشيط.
+## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a><span data-ttu-id="337d5-119">قم بتطبيق بنية قاعدة متقدمة على بنية حساب.</span><span class="sxs-lookup"><span data-stu-id="337d5-119">Apply an advanced rule structure to an account structure</span></span>
+1. <span data-ttu-id="337d5-120">وقم بغلق النموذج.</span><span class="sxs-lookup"><span data-stu-id="337d5-120">Close the form.</span></span>
+2. <span data-ttu-id="337d5-121">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="337d5-121">Close the page.</span></span>
+3. <span data-ttu-id="337d5-122">انتقل إلى دفتر الأستاذ العام > دليل الحسابات > البنى > تكوين بنيات الحسابات.</span><span class="sxs-lookup"><span data-stu-id="337d5-122">Go to General ledger > Chart of accounts > Structures > Configure account structures.</span></span>
+4. <span data-ttu-id="337d5-123">في القائمة، ابحث عن بنية الحساب التي تريد تطبيق القاعدة المتقدمة عليها وحددها.</span><span class="sxs-lookup"><span data-stu-id="337d5-123">In the list, find and select the account structure you want to apply the advanced rule to.</span></span>
+5. <span data-ttu-id="337d5-124">انقر فوق اسم بنية الحساب لفتحها.</span><span class="sxs-lookup"><span data-stu-id="337d5-124">Click the name of the account structure to open it.</span></span>
+6. <span data-ttu-id="337d5-125">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="337d5-125">Click Edit.</span></span>
+    * <span data-ttu-id="337d5-126">ويمكنك أيضًا النقر فوق "القواعد المتقدمة" وسيُطلب منك وضع بنية الحساب في الوضع "مسودة".</span><span class="sxs-lookup"><span data-stu-id="337d5-126">You can also click Advanced rules and you will be prompted to put the account structure in Draft mode.</span></span>  
+7. <span data-ttu-id="337d5-127">انقر فوق "القواعد المتقدمة".</span><span class="sxs-lookup"><span data-stu-id="337d5-127">Click Advanced rules.</span></span>
+8. <span data-ttu-id="337d5-128">انقر فوق "جديد" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="337d5-128">Click New to open the drop dialog.</span></span>
+9. <span data-ttu-id="337d5-129">في الحقل "القاعدة المتقدمة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="337d5-129">In the Advanced rule field, type a value.</span></span>
+10. <span data-ttu-id="337d5-130">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="337d5-130">In the Name field, type a value.</span></span>
+11. <span data-ttu-id="337d5-131">انقر فوق إنشاء.</span><span class="sxs-lookup"><span data-stu-id="337d5-131">Click Create.</span></span>
+12. <span data-ttu-id="337d5-132">انقر فوق "إضافة معايير جديدة".</span><span class="sxs-lookup"><span data-stu-id="337d5-132">Click Add new criteria.</span></span>
+13. <span data-ttu-id="337d5-133">في الحقل "الموقع"، حدد الحساب الرئيسي أو بُعدًا ماليًا.</span><span class="sxs-lookup"><span data-stu-id="337d5-133">In the Where field, select main account or a financial dimension.</span></span>
+14. <span data-ttu-id="337d5-134">في الحقل "العامل"، حدد أحد الخيارات، مثل "بين" و"يتضمن".</span><span class="sxs-lookup"><span data-stu-id="337d5-134">In the Operator field, select an option, such as is between and includes.</span></span>
+15. <span data-ttu-id="337d5-135">في حقل "القيمة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="337d5-135">In the Value field, type a value.</span></span>
+16. <span data-ttu-id="337d5-136">في الحقل "خلال"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="337d5-136">In the through field, type a value.</span></span>
+17. <span data-ttu-id="337d5-137">انقر فوق "إضافة" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="337d5-137">Click Add to open the drop dialog.</span></span>
+18. <span data-ttu-id="337d5-138">في القائمة، ابحث عن بنية القاعدة المتقدمة التي تريد استخدامها عند موافقة المعايير التي يتم إدخالها.</span><span class="sxs-lookup"><span data-stu-id="337d5-138">In the list, find the advanced rule structure you want to use when the criteria you entered is met.</span></span>
+19. <span data-ttu-id="337d5-139">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="337d5-139">Click Add.</span></span>
+20. <span data-ttu-id="337d5-140">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="337d5-140">Close the page.</span></span>
+21. <span data-ttu-id="337d5-141">انقر فوق تنشيط.</span><span class="sxs-lookup"><span data-stu-id="337d5-141">Click Activate.</span></span>
+22. <span data-ttu-id="337d5-142">انقر فوق تنشيط.</span><span class="sxs-lookup"><span data-stu-id="337d5-142">Click Activate.</span></span>
 
 

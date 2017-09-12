@@ -17,40 +17,40 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: fedd815cddfea4e00ed61ec6e176b633468c8fb2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b67965b6c8641b5d91ab3c5b0a7a7fd28a07cba6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-short-picking-item-reallocation"></a>إعداد إعادة توزيع الأصناف للانتقاء القصير
+# <a name="set-up-short-picking-item-reallocation"></a><span data-ttu-id="74174-103">إعداد إعادة توزيع الأصناف للانتقاء القصير</span><span class="sxs-lookup"><span data-stu-id="74174-103">Set up short picking item reallocation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيفية تمكين العاملين في المستودع من العثور بسرعة على مواقع بديلة في حال عدم وجود مخزون كافٍ في الموقع الذي تم توجيههم إليه. من الممكن استخدام عملية إعادة توزيع تلقائي، تستخدم توجيهات الموقع لاسترداد السلع إذا كانت متوفرة في موقع آخر. بدلاً من ذلك، عند استخدام إعادة التوزيع اليدوي، يتم عرض قائمة بالمواقع مع الكمية المتوفرة على الجهاز المحمول، مما يسمح لعامل المستودع باختيار الموقع لاستخدام المخزون منه. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF. يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
+<span data-ttu-id="74174-104">يوضح هذا الإجراء كيفية تمكين العاملين في المستودع من العثور بسرعة على مواقع بديلة في حال عدم وجود مخزون كافٍ في الموقع الذي تم توجيههم إليه.</span><span class="sxs-lookup"><span data-stu-id="74174-104">This procedure shows you how to enable warehouse workers to quickly find alternative locations if there isn’t sufficient inventory at the location they’ve been directed to.</span></span> <span data-ttu-id="74174-105">من الممكن استخدام عملية إعادة توزيع تلقائي، تستخدم توجيهات الموقع لاسترداد السلع إذا كانت متوفرة في موقع آخر.</span><span class="sxs-lookup"><span data-stu-id="74174-105">It’s possible to use an automatic re-allocation process, which uses location directives to retrieve the goods if they’re available at another location.</span></span> <span data-ttu-id="74174-106">بدلاً من ذلك، عند استخدام إعادة التوزيع اليدوي، يتم عرض قائمة بالمواقع مع الكمية المتوفرة على الجهاز المحمول، مما يسمح لعامل المستودع باختيار الموقع لاستخدام المخزون منه.</span><span class="sxs-lookup"><span data-stu-id="74174-106">Alternatively, when manual re-allocation is used, a list of the locations with the available quantity is shown on the mobile device, allowing the warehouse worker to choose which location to use inventory from.</span></span> <span data-ttu-id="74174-107">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="74174-107">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="74174-108">يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.</span><span class="sxs-lookup"><span data-stu-id="74174-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="set-up-work-exceptions"></a>إعداد استثناءات العمل
-1. انتقل إلى إدارة المستودعات > الإعداد > العمل > استثناءات العمل.
-2. انقر فوق "جديد".
-    * من الممكن تعريف عدة استثناءات عمل بواسطة سياسات إعادة توزيع أصناف مختلفة لتمكين العامل في المستودع من اختيار واحد بالاستناد إلى احتياجات الشحن التي يقوم بمعالجتها.  
-3. في الحقل "كود استثناء العمل‬"، اكتب قيمة.
-    * قم بإعطاء استثناء العمل عنوانًا للإشارة إلى المهمة التي يتم استخدامه من أجلها. على سبيل المثال، دليل الانتقاء القصير.  
-4. في وصف الحقل، اكتب قيمة.
-5. في الحقل "نوع الاستثناء"، حدد "انتقاء قصير".
-6. حدد خانة الاختيار "تعديل المخزون".
-    * يعني هذا الخيار أن تسوية المخزون ستتم بشكل تلقائي على 0 في موقع الانتقاء القصير.  
-7. في حقل "كود نوع التسوية الافتراضي‬"، أدخل قيمة أو حددها.
-    * على سبيل المثال، في USMF، يمكنك تحديد "Remove Res Adj Out".  
-8. في الحقل "إعادة توزيع الصنف‬"، حدد "يدوي".
-    * إذا قمت بتحديد "يدوي"، أو "تلقائي ويدوي"، يجب تمكين عامل المستودع لاستخدام إعادة التوزيع اليدوي.  
+## <a name="set-up-work-exceptions"></a><span data-ttu-id="74174-109">إعداد استثناءات العمل</span><span class="sxs-lookup"><span data-stu-id="74174-109">Set up work exceptions</span></span>
+1. <span data-ttu-id="74174-110">انتقل إلى إدارة المستودعات > الإعداد > العمل > استثناءات العمل.</span><span class="sxs-lookup"><span data-stu-id="74174-110">Go to Warehouse management > Setup > Work > Work exceptions.</span></span>
+2. <span data-ttu-id="74174-111">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="74174-111">Click New.</span></span>
+    * <span data-ttu-id="74174-112">من الممكن تعريف عدة استثناءات عمل بواسطة سياسات إعادة توزيع أصناف مختلفة لتمكين العامل في المستودع من اختيار واحد بالاستناد إلى احتياجات الشحن التي يقوم بمعالجتها.</span><span class="sxs-lookup"><span data-stu-id="74174-112">It’s possible to define several work exceptions with different item reallocation policies to enable the warehouse worker to choose one based on the needs of the shipment that they are processing.</span></span>  
+3. <span data-ttu-id="74174-113">في الحقل "كود استثناء العمل‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="74174-113">In the Work exception code field, type a value.</span></span>
+    * <span data-ttu-id="74174-114">قم بإعطاء استثناء العمل عنوانًا للإشارة إلى المهمة التي يتم استخدامه من أجلها.</span><span class="sxs-lookup"><span data-stu-id="74174-114">Give the work exception a title to indicate what it’s used for.</span></span> <span data-ttu-id="74174-115">على سبيل المثال، دليل الانتقاء القصير.</span><span class="sxs-lookup"><span data-stu-id="74174-115">For example, Short picking manual.</span></span>  
+4. <span data-ttu-id="74174-116">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="74174-116">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="74174-117">في الحقل "نوع الاستثناء"، حدد "انتقاء قصير".</span><span class="sxs-lookup"><span data-stu-id="74174-117">In the Exception type field, select 'Short pick'.</span></span>
+6. <span data-ttu-id="74174-118">حدد خانة الاختيار "تعديل المخزون".</span><span class="sxs-lookup"><span data-stu-id="74174-118">Select the Adjust inventory check box.</span></span>
+    * <span data-ttu-id="74174-119">يعني هذا الخيار أن تسوية المخزون ستتم بشكل تلقائي على 0 في موقع الانتقاء القصير.</span><span class="sxs-lookup"><span data-stu-id="74174-119">This option means that inventory will automatically be adjusted to 0 at the short picked location.</span></span>  
+7. <span data-ttu-id="74174-120">في حقل "كود نوع التسوية الافتراضي‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="74174-120">In the Default adjustment type code field, enter or select a value.</span></span>
+    * <span data-ttu-id="74174-121">على سبيل المثال، في USMF، يمكنك تحديد "Remove Res Adj Out".</span><span class="sxs-lookup"><span data-stu-id="74174-121">For example, in USMF you can select 'Remove Res Adj Out'.</span></span>  
+8. <span data-ttu-id="74174-122">في الحقل "إعادة توزيع الصنف‬"، حدد "يدوي".</span><span class="sxs-lookup"><span data-stu-id="74174-122">In the Item reallocation field, select 'Manual'.</span></span>
+    * <span data-ttu-id="74174-123">إذا قمت بتحديد "يدوي"، أو "تلقائي ويدوي"، يجب تمكين عامل المستودع لاستخدام إعادة التوزيع اليدوي.</span><span class="sxs-lookup"><span data-stu-id="74174-123">If you select Manual, or Automatic and Manual, the warehouse worker needs to be enabled to use manual reallocation.</span></span>  
 
-## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>إعداد عامل لاستخدام إعادة التوزيع الأصناف يدويًا
-1. قم بإغلاق الصفحة.
-2. انتقل إلى إدارة المستودعات > الإعداد > العامل.
-3. انقر فوق "تحرير".
-4. في القائمة، حدد العامل 24.
-5. قم بتوسيع مقطع "العمل".
-6. حدد "نعم" في حقل "‏‫السماح بإعادة توزيع الأصناف يدويًا‬".
+## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a><span data-ttu-id="74174-124">إعداد عامل لاستخدام إعادة التوزيع الأصناف يدويًا</span><span class="sxs-lookup"><span data-stu-id="74174-124">Set up a worker to use manual item reallocation</span></span>
+1. <span data-ttu-id="74174-125">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="74174-125">Close the page.</span></span>
+2. <span data-ttu-id="74174-126">انتقل إلى إدارة المستودعات > الإعداد > العامل.</span><span class="sxs-lookup"><span data-stu-id="74174-126">Go to Warehouse management > Setup > Worker.</span></span>
+3. <span data-ttu-id="74174-127">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="74174-127">Click Edit.</span></span>
+4. <span data-ttu-id="74174-128">في القائمة، حدد العامل 24.</span><span class="sxs-lookup"><span data-stu-id="74174-128">In the list, select worker 24.</span></span>
+5. <span data-ttu-id="74174-129">قم بتوسيع مقطع "العمل".</span><span class="sxs-lookup"><span data-stu-id="74174-129">Expand the Work section.</span></span>
+6. <span data-ttu-id="74174-130">حدد "نعم" في حقل "‏‫السماح بإعادة توزيع الأصناف يدويًا‬".</span><span class="sxs-lookup"><span data-stu-id="74174-130">Select Yes in the Allow manual item reallocation field.</span></span>
 
 

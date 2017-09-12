@@ -16,26 +16,26 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a4d6e960e7d94ddf2059b1ad6ceb8afebafd790d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: fa02b4fb6f309e55d0c74e477952e928ad8dfb12
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="search-for-vendors"></a>البحث عن الموردين
+# <a name="search-for-vendors"></a><span data-ttu-id="f7308-103">البحث عن الموردين</span><span class="sxs-lookup"><span data-stu-id="f7308-103">Search for vendors</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-تعلَّم كيفية البحث عن الموردين حسب معايير محددة. يوضح هذا المثال لك كيفية البحث عن الموردين المعتمدين لفئة معينة من التدبير والحصول على عناوينهم الرئيسية في بلد معين. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التقديمي USMF، أو في البيانات الخاصة بك. عادة ما يتم تنفيذ هذه المهمة بواسطة موظف تدبير محترف.
+<span data-ttu-id="f7308-104">تعلَّم كيفية البحث عن الموردين حسب معايير محددة.</span><span class="sxs-lookup"><span data-stu-id="f7308-104">Learn how to search for vendors based on specific criteria.</span></span> <span data-ttu-id="f7308-105">يوضح هذا المثال لك كيفية البحث عن الموردين المعتمدين لفئة معينة من التدبير والحصول على عناوينهم الرئيسية في بلد معين.</span><span class="sxs-lookup"><span data-stu-id="f7308-105">This example shows you how to search for vendors that are approved for a particular procurement category and have their primary address in a specific country.</span></span> <span data-ttu-id="f7308-106">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التقديمي USMF، أو في البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="f7308-106">You can run this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="f7308-107">عادة ما يتم تنفيذ هذه المهمة بواسطة موظف تدبير محترف.</span><span class="sxs-lookup"><span data-stu-id="f7308-107">This task would usually be carried out by a procurement professional.</span></span>
 
-1. انتقل إلى التدبير والتوريد > الموردون > البحث عن الموردين.
-2. انقر فوق رمز الجمع لفتح صفحة تحديد فئة التدبير.  
-3. في الشجرة، حدد "فئات التدبير للشركة لأجهزة الشركة/المكتب".
-    * إذا كنت تنفذ هذا الإجراء كدليل مهمة، فقد تضطر إلى النقر فوق الزر "إلغاء التأمين" قبل أن تتمكن من تحديد العقدة الصحيحة. إذا كنت لا تستخدم USMF، فحدد إحدى الفئات المتوفرة لديك.  
-4. وانقر فوق إضافة.
-    * من الممكن تحديد أكثر من فئة واحدة هنا. إذا قمت بذلك، ستحصل في نتيجة البحث على جميع الموردين الذين تم اعتمادهم لفئة واحدة على الأقل.  
-5. انقر فوق "موافق".
-6. في الحقل "البلد/المنطقة"، اكتب قيمة.
-7. انقر فوق "موافق".
+1. <span data-ttu-id="f7308-108">انتقل إلى التدبير والتوريد > الموردون > البحث عن الموردين.</span><span class="sxs-lookup"><span data-stu-id="f7308-108">Go to Procurement and sourcing > Vendors > Vendor search.</span></span>
+2. <span data-ttu-id="f7308-109">انقر فوق رمز الجمع لفتح صفحة تحديد فئة التدبير.</span><span class="sxs-lookup"><span data-stu-id="f7308-109">Click on the Plus icon to open the Procurement category selection page.</span></span>  
+3. <span data-ttu-id="f7308-110">في الشجرة، حدد "فئات التدبير للشركة لأجهزة الشركة/المكتب".</span><span class="sxs-lookup"><span data-stu-id="f7308-110">In the tree, select 'CORP PROCUREMENT CATEGORIES\OFFICE MACHINES'.</span></span>
+    * <span data-ttu-id="f7308-111">إذا كنت تنفذ هذا الإجراء كدليل مهمة، فقد تضطر إلى النقر فوق الزر "إلغاء التأمين" قبل أن تتمكن من تحديد العقدة الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="f7308-111">If you're running this procedure as a task guide, you may have to click the Unlock button before you can select the correct node.</span></span> <span data-ttu-id="f7308-112">إذا كنت لا تستخدم USMF، فحدد إحدى الفئات المتوفرة لديك.</span><span class="sxs-lookup"><span data-stu-id="f7308-112">If you're not using USMF, select one of the categories that you have.</span></span>  
+4. <span data-ttu-id="f7308-113">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="f7308-113">Click Add.</span></span>
+    * <span data-ttu-id="f7308-114">من الممكن تحديد أكثر من فئة واحدة هنا.</span><span class="sxs-lookup"><span data-stu-id="f7308-114">It’s possible to select more than one category here.</span></span> <span data-ttu-id="f7308-115">إذا قمت بذلك، ستحصل في نتيجة البحث على جميع الموردين الذين تم اعتمادهم لفئة واحدة على الأقل.</span><span class="sxs-lookup"><span data-stu-id="f7308-115">If you do so, the search will find all the vendors that are approved for at least one of the categories.</span></span>  
+5. <span data-ttu-id="f7308-116">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="f7308-116">Click OK.</span></span>
+6. <span data-ttu-id="f7308-117">في الحقل "البلد/المنطقة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="f7308-117">In the Country/region field, type a value.</span></span>
+7. <span data-ttu-id="f7308-118">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="f7308-118">Click OK.</span></span>
 
 

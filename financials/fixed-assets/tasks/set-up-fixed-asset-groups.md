@@ -16,29 +16,29 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 55b419ff39bcbb2930d40424c3eb9060b29f9126
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c44ce1219c0fc860d621aa32c8eec7c5d640fa03
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-fixed-asset-groups"></a>إعداد مجموعات الأصول الثابتة
+# <a name="set-up-fixed-asset-groups"></a><span data-ttu-id="d6cec-103">إعداد مجموعات الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="d6cec-103">Set up fixed asset groups</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيفية إنشاء مجموعة أصول ثابتة جديدة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
+<span data-ttu-id="d6cec-104">يوضح هذا الإجراء كيفية إنشاء مجموعة أصول ثابتة جديدة.</span><span class="sxs-lookup"><span data-stu-id="d6cec-104">This procedure shows how to create a new fixed asset group.</span></span> <span data-ttu-id="d6cec-105">إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.</span><span class="sxs-lookup"><span data-stu-id="d6cec-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
 
-1. انتقل إلى الأصول الثابتة > إعداد > مجموعات الأصول الثابتة‬.
-2. انقر فوق "جديد".
-3. في حقل "مجموعة الأصول الثابتة"، اكتب قيمة.
-4. في حقل "الاسم"، اكتب قيمة.
-    * ستبطل إعدادات "الترقيم التلقائي للأصول الثابتة" و"كود التسلسل الرقمي"‬ لمجموعة الأصول الثابتة إعدادات محددات الأصول الثابتة. يمكنك تغييرها هنا إذا كانت الأصول في مجموعة الأصول الثابتة هذه بترقيم مختلف من مجموعات أخرى.  
-5. انقر فوق "الدفاتر".
-6. في الحقل "الدفتر"، أدخل قيمة أو حددها.
-    * تم تعيين الحقل "حساب الإهلاك‬" إلى "نعم"، وبالتالي سيتم تضمين دفتر الأصول في مقترحات الإهلاك. إذا تم تعيين "حساب الإهلاك" إلى "لا"، فلن يتم إهلاك الأصل بشكل تلقائي.  
-7. عيّن مدة خدمة الأصل بالسنوات.
-    * لاحظ أنه يتم حساب قيمة الحقل "فترات الإهلاك" بعد تعيين مدة الخدمة.  
-8. في الحقل "قواعد الإهلاك‬‬"، حدد خيارًا.
-9. قم بإغلاق الصفحة.
+1. <span data-ttu-id="d6cec-106">انتقل إلى الأصول الثابتة > إعداد > مجموعات الأصول الثابتة‬.</span><span class="sxs-lookup"><span data-stu-id="d6cec-106">Go to Fixed assets > Setup > Fixed asset groups.</span></span>
+2. <span data-ttu-id="d6cec-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="d6cec-107">Click New.</span></span>
+3. <span data-ttu-id="d6cec-108">في حقل "مجموعة الأصول الثابتة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="d6cec-108">In the Fixed asset group field, type a value.</span></span>
+4. <span data-ttu-id="d6cec-109">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="d6cec-109">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="d6cec-110">ستبطل إعدادات "الترقيم التلقائي للأصول الثابتة" و"كود التسلسل الرقمي"‬ لمجموعة الأصول الثابتة إعدادات محددات الأصول الثابتة.</span><span class="sxs-lookup"><span data-stu-id="d6cec-110">Autonumber fixed assets and Number sequence code on the Fixed asset group will override the settings on the Fixed assets parameters.</span></span> <span data-ttu-id="d6cec-111">يمكنك تغييرها هنا إذا كانت الأصول في مجموعة الأصول الثابتة هذه بترقيم مختلف من مجموعات أخرى.</span><span class="sxs-lookup"><span data-stu-id="d6cec-111">You can change it here if the assets in this fixed asset group will have different numbering from other groups.</span></span>  
+5. <span data-ttu-id="d6cec-112">انقر فوق "الدفاتر".</span><span class="sxs-lookup"><span data-stu-id="d6cec-112">Click Books.</span></span>
+6. <span data-ttu-id="d6cec-113">في الحقل "الدفتر"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="d6cec-113">In the Book field, enter or select a value.</span></span>
+    * <span data-ttu-id="d6cec-114">تم تعيين الحقل "حساب الإهلاك‬" إلى "نعم"، وبالتالي سيتم تضمين دفتر الأصول في مقترحات الإهلاك.</span><span class="sxs-lookup"><span data-stu-id="d6cec-114">The Calculate depreciation field is set to Yes, so the asset book will be included in depreciation proposals.</span></span> <span data-ttu-id="d6cec-115">إذا تم تعيين "حساب الإهلاك" إلى "لا"، فلن يتم إهلاك الأصل بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="d6cec-115">If Calculate depreciation is set to No, the asset will not be automatically depreciated.</span></span>  
+7. <span data-ttu-id="d6cec-116">عيّن مدة خدمة الأصل بالسنوات.</span><span class="sxs-lookup"><span data-stu-id="d6cec-116">Set the Service life of the asset, in years.</span></span>
+    * <span data-ttu-id="d6cec-117">لاحظ أنه يتم حساب قيمة الحقل "فترات الإهلاك" بعد تعيين مدة الخدمة.</span><span class="sxs-lookup"><span data-stu-id="d6cec-117">Note that the Depreciation periods field value is calculated after setting the Service life.</span></span>  
+8. <span data-ttu-id="d6cec-118">في الحقل "قواعد الإهلاك‬‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="d6cec-118">In the Depreciation convention field, select an option.</span></span>
+9. <span data-ttu-id="d6cec-119">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d6cec-119">Close the page.</span></span>
 
 

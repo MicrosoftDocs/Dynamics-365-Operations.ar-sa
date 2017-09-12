@@ -19,33 +19,33 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e6d88503972850f6163aba6b45547a111f44abab
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 8859359f70132e9116e6a2d534a0f5f1d0bfeb80
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="process-allocations"></a>توزيعات العمليات
+# <a name="process-allocations"></a><span data-ttu-id="59051-105">توزيعات العمليات</span><span class="sxs-lookup"><span data-stu-id="59051-105">Process allocations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-توفر هذه المقالة معلومات حول عمليات التخصيص والخيارات الخاصة بمعالجتها في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition وكيف يمكن استخدامها في تخطيط الموازنة. تستخدم عمليات التخصيص لتوزيع مبالغ عبر مجموعات متعددة من حسابات دفتر الأستاذ. وهي تساعد على ضمان تحميل النفقات أو الإيرادات للكائن الصحيح في المحاسبة.
+<span data-ttu-id="59051-106">توفر هذه المقالة معلومات حول عمليات التخصيص والخيارات الخاصة بمعالجتها في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition وكيف يمكن استخدامها في تخطيط الموازنة.</span><span class="sxs-lookup"><span data-stu-id="59051-106">This article provides information about allocations, the options for processing them in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, and how they can be used in budget planning.</span></span> <span data-ttu-id="59051-107">تستخدم عمليات التخصيص لتوزيع مبالغ عبر مجموعات متعددة من حسابات دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="59051-107">Allocations are used to distribute amounts across multiple ledger account combinations.</span></span> <span data-ttu-id="59051-108">وهي تساعد على ضمان تحميل النفقات أو الإيرادات للكائن الصحيح في المحاسبة.</span><span class="sxs-lookup"><span data-stu-id="59051-108">They help guarantee that expenses or revenue is charged to the correct object in accounting.</span></span>
 
-يوفر Microsoft Dynamics 365 for Finance and Operations القدرات التالية لدعم هذه العملية:
+<span data-ttu-id="59051-109">يوفر Microsoft Dynamics 365 for Finance and Operations القدرات التالية لدعم هذه العملية:</span><span class="sxs-lookup"><span data-stu-id="59051-109">Microsoft Dynamics 365 for Finance and Operations provides the following capabilities to support this process:</span></span>
 
--   قم يدويًا بتوزيع مبالغ الحركات باستخدام إجراء التقسيم في التوزيعات المحاسبية، أو عن طريق تطبيق القوالب الافتراضية للأبعاد المالية على مستند. ولمزيد من المعلومات، راجع [التوزيعات المحاسبية.](../accounts-payable/accounting-distributions.md)
--   قم تلقائيًا بتوزيع مبالغ الحركات استناداً إلى مدة التوزيع المحددة في حساب رئيسي فردي. وسيتم إنشاء إدخالات حساب التوزيع لكل دفتر يومية استناداً إلى حساب دفتر أستاذ الوجهة والنسبة المئوية حيث يفي إدخال المحاسبة بالمعايير المحددة باعتبارها حساب دفتر الأستاذ المصدر.
--   قم تلقائيًا بتوزيع أرصدة دفتر الأستاذ أو المبالغ الثابتة استناداً إلى قواعد توزيع دفتر الأستاذ. تتم معالجة قواعد توزيع دفتر الأستاذ على أساس دوري باستخدام دفاتر يومية التوزيع. 
+-   <span data-ttu-id="59051-110">قم يدويًا بتوزيع مبالغ الحركات باستخدام إجراء التقسيم في التوزيعات المحاسبية، أو عن طريق تطبيق القوالب الافتراضية للأبعاد المالية على مستند.</span><span class="sxs-lookup"><span data-stu-id="59051-110">Manually allocate transaction amounts by using the Split action in accounting distributions, or by applying financial dimension default templates to a document.</span></span> <span data-ttu-id="59051-111">ولمزيد من المعلومات، راجع [التوزيعات المحاسبية.](../accounts-payable/accounting-distributions.md)</span><span class="sxs-lookup"><span data-stu-id="59051-111">For more information, see [Accounting distributions.](../accounts-payable/accounting-distributions.md)</span></span>
+-   <span data-ttu-id="59051-112">قم تلقائيًا بتوزيع مبالغ الحركات استناداً إلى مدة التوزيع المحددة في حساب رئيسي فردي.</span><span class="sxs-lookup"><span data-stu-id="59051-112">Automatically allocate transactions amounts based on allocation terms defined on individual main account.</span></span> <span data-ttu-id="59051-113">وسيتم إنشاء إدخالات حساب التوزيع لكل دفتر يومية استناداً إلى حساب دفتر أستاذ الوجهة والنسبة المئوية حيث يفي إدخال المحاسبة بالمعايير المحددة باعتبارها حساب دفتر الأستاذ المصدر.</span><span class="sxs-lookup"><span data-stu-id="59051-113">Allocation account entries will be generated for each journal based on the percentage and destination ledger account whenever an accounting entry meets the criteria defined as the source ledger account.</span></span>
+-   <span data-ttu-id="59051-114">قم تلقائيًا بتوزيع أرصدة دفتر الأستاذ أو المبالغ الثابتة استناداً إلى قواعد توزيع دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="59051-114">Automatically allocate ledger balances or fixed amounts based on ledger allocation rules.</span></span> <span data-ttu-id="59051-115">تتم معالجة قواعد توزيع دفتر الأستاذ على أساس دوري باستخدام دفاتر يومية التوزيع.</span><span class="sxs-lookup"><span data-stu-id="59051-115">The ledger allocation rules are processed on a periodic basis using allocation journals.</span></span> 
 
-###  <a name="allocations-in-budget-planning"></a>التوزيعات في تخطيط الموازنة
+###  <a name="allocations-in-budget-planning"></a><span data-ttu-id="59051-116">التوزيعات في تخطيط الموازنة</span><span class="sxs-lookup"><span data-stu-id="59051-116">Allocations in budget planning</span></span>
 
-يمكن استخدام قواعد توزيع دفتر الأستاذ لخطط الموازنة. عند استخدام قواعد توزيع دفتر الأستاذ في تخطيط الموازنة، تعمل قواعد التوزيع بنفس الطريقة المتبعة في دفتر الأستاذ، ولكن تأتي البيانات المصدر والبيانات الوجهة من خطة الموازنة. يمكنك تحديد قواعد توزيع دفتر الأستاذ لاستخدامها بخطط الموازنة يدويًا. بدلاً من ذلك، يمكنك استخدام جدول توزيع يتم تشغيله كجزء من عملية سير العمل.
+<span data-ttu-id="59051-117">يمكن استخدام قواعد توزيع دفتر الأستاذ لخطط الموازنة.</span><span class="sxs-lookup"><span data-stu-id="59051-117">Ledger allocation rules can be used for budget plans.</span></span> <span data-ttu-id="59051-118">عند استخدام قواعد توزيع دفتر الأستاذ في تخطيط الموازنة، تعمل قواعد التوزيع بنفس الطريقة المتبعة في دفتر الأستاذ، ولكن تأتي البيانات المصدر والبيانات الوجهة من خطة الموازنة.</span><span class="sxs-lookup"><span data-stu-id="59051-118">When you use ledger allocation rules in budget planning, the allocation rules work the same way they would in the ledger, but the source data and destination data comes from the budget plan.</span></span> <span data-ttu-id="59051-119">يمكنك تحديد قواعد توزيع دفتر الأستاذ لاستخدامها بخطط الموازنة يدويًا.</span><span class="sxs-lookup"><span data-stu-id="59051-119">You can manually select ledger allocation rules to use for budget plans.</span></span> <span data-ttu-id="59051-120">بدلاً من ذلك، يمكنك استخدام جدول توزيع يتم تشغيله كجزء من عملية سير العمل.</span><span class="sxs-lookup"><span data-stu-id="59051-120">Alternatively, you can use an allocation schedule that runs as part of a workflow process.</span></span>
 
 > [!NOTE]
-> يمكنك استخدام قواعد توزيع دفتر الأستاذ بين الشركات الشقيقة لتخطيط الموازنة.
+> <span data-ttu-id="59051-121">يمكنك استخدام قواعد توزيع دفتر الأستاذ بين الشركات الشقيقة لتخطيط الموازنة.</span><span class="sxs-lookup"><span data-stu-id="59051-121">You can’t use intercompany ledger allocation rules for budget planning.</span></span>
 
 
 

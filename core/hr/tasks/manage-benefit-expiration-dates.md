@@ -16,35 +16,35 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: de850085611c60b67c1b5c765d9cb69087718e3f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e40fca0d03d76b6aed118f3fbb59a6893f8da94b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-benefit-expiration-dates"></a>إدارة تواريخ انتهاء صلاحية الميزة
+# <a name="manage-benefit-expiration-dates"></a><span data-ttu-id="403f2-103">إدارة تواريخ انتهاء صلاحية الميزة</span><span class="sxs-lookup"><span data-stu-id="403f2-103">Manage benefit expiration dates</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيف يمكنك إنهاء أو تمديد صلاحية إحدى الميزات، وإدارة تواريخ التسجيل للعاملين المسجلين للحصول على ميزة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+<span data-ttu-id="403f2-104">يوضح هذا الإجراء كيف يمكنك إنهاء أو تمديد صلاحية إحدى الميزات، وإدارة تواريخ التسجيل للعاملين المسجلين للحصول على ميزة.</span><span class="sxs-lookup"><span data-stu-id="403f2-104">This procedure shows how you can expire or extend a benefit, and manage the enrollment dates of workers that are enrolled in the benefit.</span></span> <span data-ttu-id="403f2-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="403f2-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="benefit-expiration-dates"></a>تواريخ انتهاء صلاحية الميزة
-1. انتقل إلى الموارد البشرية > الميزات‬ > الميزات‬.
-2. قم بتوسيع مربع الحقائق "العمال المسجلين‬".
-3. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-4. في جزء الإجراءات، انقر فوق "ميزة".
-5. ‏‫انقر فوق "إنهاء أو تمديد صلاحية ميزات‬".
-6. في الحقل "تاريخ انتهاء صلاحية ميزة جديدة‬"، أدخل تاريخًا ووقتًا.
-7. انقر فوق "انتهاء الصلاحية‬".
-8. في جزء الإجراءات، انقر فوق "ميزة".
-9. انقر فوق "‏‫نتائج التمديد أو انتهاء صلاحية الميزات‬".
-10. في القائمة، قم بوضع علامة للصف المحدد.
-11. في القائمة، انقر فوق الارتباط "العمال المتأثرون‬".
-12. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-13. انقر لمتابعة الارتباط في الحقل "رقم الموظف‬".
-14. قم بتوسيع مقطع "المعلومات الشخصية".
-15. انقر فوق "الميزات".
-16. في القائمة، ابحث عن الميزة وحدد السجل. لاحظ تاريخ انتهاء التغطية الجديد.
+## <a name="benefit-expiration-dates"></a><span data-ttu-id="403f2-106">تواريخ انتهاء صلاحية الميزة</span><span class="sxs-lookup"><span data-stu-id="403f2-106">Benefit expiration dates</span></span>
+1. <span data-ttu-id="403f2-107">انتقل إلى الموارد البشرية > الميزات‬ > الميزات‬.</span><span class="sxs-lookup"><span data-stu-id="403f2-107">Go to Human resources > Benefits > Benefits.</span></span>
+2. <span data-ttu-id="403f2-108">قم بتوسيع مربع الحقائق "العمال المسجلين‬".</span><span class="sxs-lookup"><span data-stu-id="403f2-108">Expand the Enrolled workers FactBox.</span></span>
+3. <span data-ttu-id="403f2-109">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="403f2-109">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="403f2-110">في جزء الإجراءات، انقر فوق "ميزة".</span><span class="sxs-lookup"><span data-stu-id="403f2-110">On the Action Pane, click Benefit.</span></span>
+5. <span data-ttu-id="403f2-111">‏‫انقر فوق "إنهاء أو تمديد صلاحية ميزات‬".</span><span class="sxs-lookup"><span data-stu-id="403f2-111">Click Expire or extend benefits.</span></span>
+6. <span data-ttu-id="403f2-112">في الحقل "تاريخ انتهاء صلاحية ميزة جديدة‬"، أدخل تاريخًا ووقتًا.</span><span class="sxs-lookup"><span data-stu-id="403f2-112">In the New benefit expiration date field, enter a date and time.</span></span>
+7. <span data-ttu-id="403f2-113">انقر فوق "انتهاء الصلاحية‬".</span><span class="sxs-lookup"><span data-stu-id="403f2-113">Click Expire.</span></span>
+8. <span data-ttu-id="403f2-114">في جزء الإجراءات، انقر فوق "ميزة".</span><span class="sxs-lookup"><span data-stu-id="403f2-114">On the Action Pane, click Benefit.</span></span>
+9. <span data-ttu-id="403f2-115">انقر فوق "‏‫نتائج التمديد أو انتهاء صلاحية الميزات‬".</span><span class="sxs-lookup"><span data-stu-id="403f2-115">Click Benefit expiration and extension results.</span></span>
+10. <span data-ttu-id="403f2-116">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="403f2-116">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="403f2-117">في القائمة، انقر فوق الارتباط "العمال المتأثرون‬".</span><span class="sxs-lookup"><span data-stu-id="403f2-117">In the list, click the Workers affected link.</span></span>
+12. <span data-ttu-id="403f2-118">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="403f2-118">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="403f2-119">انقر لمتابعة الارتباط في الحقل "رقم الموظف‬".</span><span class="sxs-lookup"><span data-stu-id="403f2-119">Click to follow the link in the Personnel number field.</span></span>
+14. <span data-ttu-id="403f2-120">قم بتوسيع مقطع "المعلومات الشخصية".</span><span class="sxs-lookup"><span data-stu-id="403f2-120">Expand the Personal information section.</span></span>
+15. <span data-ttu-id="403f2-121">انقر فوق "الميزات".</span><span class="sxs-lookup"><span data-stu-id="403f2-121">Click Benefits.</span></span>
+16. <span data-ttu-id="403f2-122">في القائمة، ابحث عن الميزة وحدد السجل.</span><span class="sxs-lookup"><span data-stu-id="403f2-122">In the list, find the benefit and select the record.</span></span> <span data-ttu-id="403f2-123">لاحظ تاريخ انتهاء التغطية الجديد.</span><span class="sxs-lookup"><span data-stu-id="403f2-123">Note the new coverage end date.</span></span>
 
 

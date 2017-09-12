@@ -16,65 +16,65 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 43ac3aecd9290e496fc8dd237c0d09b60638f442
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 11fee0b2358e6a2b84c221f8eb06e32c888e5f44
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-electronic-signatures"></a>إعداد التوقيعات الإلكترونية
+# <a name="set-up-electronic-signatures"></a><span data-ttu-id="a250e-103">إعداد التوقيعات الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="a250e-103">Set up electronic signatures</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-استخدم هذا الإجراء لإعداد التواقيع الإلكترونية. ويؤكد التوقيع الإلكتروني هوية الشخص الذي يكون على وشك البدء في عملية حساب أو الموافقة عليها. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي DAT.
+<span data-ttu-id="a250e-104">استخدم هذا الإجراء لإعداد التواقيع الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="a250e-104">Use this procedure to set up electronic signatures.</span></span> <span data-ttu-id="a250e-105">ويؤكد التوقيع الإلكتروني هوية الشخص الذي يكون على وشك البدء في عملية حساب أو الموافقة عليها.</span><span class="sxs-lookup"><span data-stu-id="a250e-105">An electronic signature confirms the identity of a person who is about to start or approve a computing process.</span></span> <span data-ttu-id="a250e-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي DAT.</span><span class="sxs-lookup"><span data-stu-id="a250e-106">The demo data company used to create this procedure is DAT.</span></span>
 
 
-## <a name="enable-the-electronic-signature-configuration-key"></a>تمكين مفتاح تكوين التوقيع الإلكتروني
-1. انتقل إلى إدارة النظام > الإعداد > تكوين الترخيص.
-2. في الشجرة، قم بتوسيع ''الإدارة".
-    * تحقق من تحديد خانة الاختيار "التوقيع الإلكتروني".  
-    * إذا لم يتم تحديد خانة الاختيار" التوقيع الإلكتروني"، يجب تمكين وضع الصيانة. يمكن تمكين وضع الصيانة في هذه البيئة عن طريق تشغيل وظيفة الصيانة من Lifecycle Services أو باستخدام أداة Deployment.Setup محليًا.  
-3. قم بإغلاق الصفحة.
+## <a name="enable-the-electronic-signature-configuration-key"></a><span data-ttu-id="a250e-107">تمكين مفتاح تكوين التوقيع الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="a250e-107">Enable the Electronic signature configuration key</span></span>
+1. <span data-ttu-id="a250e-108">انتقل إلى إدارة النظام > الإعداد > تكوين الترخيص.</span><span class="sxs-lookup"><span data-stu-id="a250e-108">Go to System administration > Setup > License configuration.</span></span>
+2. <span data-ttu-id="a250e-109">في الشجرة، قم بتوسيع ''الإدارة".</span><span class="sxs-lookup"><span data-stu-id="a250e-109">In the tree, expand 'Administration'.</span></span>
+    * <span data-ttu-id="a250e-110">تحقق من تحديد خانة الاختيار "التوقيع الإلكتروني".</span><span class="sxs-lookup"><span data-stu-id="a250e-110">Verify that the Electronic signature check box is selected.</span></span>  
+    * <span data-ttu-id="a250e-111">إذا لم يتم تحديد خانة الاختيار" التوقيع الإلكتروني"، يجب تمكين وضع الصيانة.</span><span class="sxs-lookup"><span data-stu-id="a250e-111">If the Electronic signature check box is not selected, you must enable maintenance mode.</span></span> <span data-ttu-id="a250e-112">يمكن تمكين وضع الصيانة في هذه البيئة عن طريق تشغيل وظيفة الصيانة من Lifecycle Services أو باستخدام أداة Deployment.Setup محليًا.</span><span class="sxs-lookup"><span data-stu-id="a250e-112">Maintenance mode can be enabled in this environment by running a maintenance job from Lifecycle Services, or by using the Deployment.Setup tool locally.</span></span>  
+3. <span data-ttu-id="a250e-113">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="a250e-113">Close the page.</span></span>
 
-## <a name="set-up-electronic-signature-parameters"></a>إعداد محددات التوقيع الإلكتروني
-1. انتقل إلى إدارة المؤسسة > الإعداد > التوقيع الإلكتروني > معلمات التوقيع الإلكتروني.
-2. انقر فوق "تحرير".
-3. في الحقل "إشعار"، اكتب قيمة.
-    * أدخل الإشعار الذي سيتلقاه الموقعون عندما يكون التوقيع مطلوبًا. يمكنك إدخال أي نص. عادةً ما يقوم هذا النص بإخبار المستخدم بالمقصود بتوقيع مستند إلكترونيًا.  
-    * إذا أردت إدخال نص الإشعار بلغات إضافية، فانقر فوق الزر "الترجمات".  
-4. انقر فوق "حفظ".
-5. قم بإغلاق الصفحة.
+## <a name="set-up-electronic-signature-parameters"></a><span data-ttu-id="a250e-114">إعداد محددات التوقيع الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="a250e-114">Set up electronic signature parameters</span></span>
+1. <span data-ttu-id="a250e-115">انتقل إلى إدارة المؤسسة > الإعداد > التوقيع الإلكتروني > معلمات التوقيع الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="a250e-115">Go to Organization administration > Setup > Electronic signature > Electronic signature parameters.</span></span>
+2. <span data-ttu-id="a250e-116">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="a250e-116">Click Edit.</span></span>
+3. <span data-ttu-id="a250e-117">في الحقل "إشعار"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a250e-117">In the Notice field, type a value.</span></span>
+    * <span data-ttu-id="a250e-118">أدخل الإشعار الذي سيتلقاه الموقعون عندما يكون التوقيع مطلوبًا.</span><span class="sxs-lookup"><span data-stu-id="a250e-118">Enter the notice that signers will receive when a signature is requested.</span></span> <span data-ttu-id="a250e-119">يمكنك إدخال أي نص.</span><span class="sxs-lookup"><span data-stu-id="a250e-119">You can enter any text.</span></span> <span data-ttu-id="a250e-120">عادةً ما يقوم هذا النص بإخبار المستخدم بالمقصود بتوقيع مستند إلكترونيًا.</span><span class="sxs-lookup"><span data-stu-id="a250e-120">Typically, this text tells the user what it means to sign a document electronically.</span></span>  
+    * <span data-ttu-id="a250e-121">إذا أردت إدخال نص الإشعار بلغات إضافية، فانقر فوق الزر "الترجمات".</span><span class="sxs-lookup"><span data-stu-id="a250e-121">If you want to enter the Notice text in additional languages, click the Translations button.</span></span>  
+4. <span data-ttu-id="a250e-122">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a250e-122">Click Save.</span></span>
+5. <span data-ttu-id="a250e-123">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="a250e-123">Close the page.</span></span>
 
-## <a name="set-up-reason-codes-for-electronic-signatures"></a>إعداد أكواد الأسباب للتوقيعات الإلكترونية
-1. انتقل إلى إدارة المؤسسة > الإعداد > التوقيع الإلكتروني > رموز أسباب التوقيع الإلكتروني.
-2. انقر فوق "جديد".
-    * يجب عليك إعداد أكواد سبب قبل استخدام التوقيعات الإلكترونية. يعد كود السبب الصالح مطلوبًا عند توقيع مستند.     يقوم الموقع بتحديد كود سبب لتوضيح الغرض من التوقيع الإلكتروني. على سبيل المثال، يمكن استخدام كود السبب للغشارة إلى الاعتماد القانوني.  
-3. في الحقل "رمز السبب"، اكتب قيمة.
-4. في وصف الحقل، اكتب قيمة.
-    * أدخل رموز الأسباب الإضافية، إذا لزم الأمر.  
-5. انقر فوق "حفظ".
-6. قم بإغلاق الصفحة.
+## <a name="set-up-reason-codes-for-electronic-signatures"></a><span data-ttu-id="a250e-124">إعداد أكواد الأسباب للتوقيعات الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="a250e-124">Set up reason codes for electronic signatures</span></span>
+1. <span data-ttu-id="a250e-125">انتقل إلى إدارة المؤسسة > الإعداد > التوقيع الإلكتروني > رموز أسباب التوقيع الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="a250e-125">Go to Organization administration > Setup > Electronic signature > Electronic signature reason codes.</span></span>
+2. <span data-ttu-id="a250e-126">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a250e-126">Click New.</span></span>
+    * <span data-ttu-id="a250e-127">يجب عليك إعداد أكواد سبب قبل استخدام التوقيعات الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="a250e-127">You must set up reason codes before using electronic signatures.</span></span> <span data-ttu-id="a250e-128">يعد كود السبب الصالح مطلوبًا عند توقيع مستند.</span><span class="sxs-lookup"><span data-stu-id="a250e-128">A valid reason code is required when signing a document.</span></span>     <span data-ttu-id="a250e-129">يقوم الموقع بتحديد كود سبب لتوضيح الغرض من التوقيع الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="a250e-129">A signer selects a reason code to indicate the purpose of an electronic signature.</span></span> <span data-ttu-id="a250e-130">على سبيل المثال، يمكن استخدام كود السبب للغشارة إلى الاعتماد القانوني.</span><span class="sxs-lookup"><span data-stu-id="a250e-130">For example, a reason code could be used to indicate legal approval.</span></span>  
+3. <span data-ttu-id="a250e-131">في الحقل "رمز السبب"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a250e-131">In the Reason code field, type a value.</span></span>
+4. <span data-ttu-id="a250e-132">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a250e-132">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="a250e-133">أدخل رموز الأسباب الإضافية، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="a250e-133">Enter additional reason codes, if needed.</span></span>  
+5. <span data-ttu-id="a250e-134">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a250e-134">Click Save.</span></span>
+6. <span data-ttu-id="a250e-135">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="a250e-135">Close the page.</span></span>
 
-## <a name="require-electronic-signatures-for-existing-processes"></a>طلب تواقيع إلكترونية لعمليات موجودة
-1. انتقل إلى إدارة المؤسسة > الإعداد > التوقيع الإلكتروني > متطلبات التوقيع الإلكتروني.
-2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * حدد عملية تتطلب تواقيع إلكترونية.  
-3. قم بتحديد خانة الاختيار "التوقيع" أو إلغاء تحديدها.
-    * كرر هذه الخطوات لكل عملية تتطلب التواقيع الإلكترونية.  
-4. انقر فوق "حفظ".
+## <a name="require-electronic-signatures-for-existing-processes"></a><span data-ttu-id="a250e-136">طلب تواقيع إلكترونية لعمليات موجودة</span><span class="sxs-lookup"><span data-stu-id="a250e-136">Require electronic signatures for existing processes</span></span>
+1. <span data-ttu-id="a250e-137">انتقل إلى إدارة المؤسسة > الإعداد > التوقيع الإلكتروني > متطلبات التوقيع الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="a250e-137">Go to Organization administration > Setup > Electronic signature > Electronic signature requirements.</span></span>
+2. <span data-ttu-id="a250e-138">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="a250e-138">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a250e-139">حدد عملية تتطلب تواقيع إلكترونية.</span><span class="sxs-lookup"><span data-stu-id="a250e-139">Select a process that requires electronic signatures.</span></span>  
+3. <span data-ttu-id="a250e-140">قم بتحديد خانة الاختيار "التوقيع" أو إلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="a250e-140">Select or clear the Signature required check box.</span></span>
+    * <span data-ttu-id="a250e-141">كرر هذه الخطوات لكل عملية تتطلب التواقيع الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="a250e-141">Repeat these steps for each process that requires electronic signatures.</span></span>  
+4. <span data-ttu-id="a250e-142">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a250e-142">Click Save.</span></span>
 
-## <a name="create-a-custom-requirement-for-electronic-signatures"></a>إنشاء متطلب مخصص للتواقيع الإلكترونية
-1. انقر فوق "جديد".
-2. قم بتحديد خانة الاختيار "التوقيع" أو إلغاء تحديدها.
-3. في الحقل "الاسم" أدخل اسمًا للعملية التي تتطلب تواقيع إلكترونية.
-4. في الحقل "الجدول"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-5. في القائمة، ابحث عن الجدول المخزنة فيه البيانات التي يجب توقيعها وحدده.
-6. في القائمة، انقر فوق الارتباط في الصف المحدد.
-7. في الحقل "اسم الحقل"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-8. في القائمة، ابحث عن الحقل في الجدول المراد رصده وحدده.
-9. في القائمة، انقر فوق الارتباط في الصف المحدد.
-    * حدد الوقت الذي يكون فيه التوقيع مطلوبًا.     حدد دائمًا إذا كان التوقيع مطلوبًا عند تغيير البيانات في الحقل.     حدد فقط إذا كان التوقيع مطلوبًا فقط بموجب شروط معينة.‬ إذا حددت "فقط"، فيجب عليك أن تحدد أيضًا أحد الخيارات التالية: "عند إدراج سجل" أو "عند تحديث سجل" أو "عند حذف سجل".‬  
-10. انقر فوق "حفظ".
-11. قم بإغلاق الصفحة.
+## <a name="create-a-custom-requirement-for-electronic-signatures"></a><span data-ttu-id="a250e-143">إنشاء متطلب مخصص للتواقيع الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="a250e-143">Create a custom requirement for electronic signatures</span></span>
+1. <span data-ttu-id="a250e-144">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a250e-144">Click New.</span></span>
+2. <span data-ttu-id="a250e-145">قم بتحديد خانة الاختيار "التوقيع" أو إلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="a250e-145">Select or clear the Signature required check box.</span></span>
+3. <span data-ttu-id="a250e-146">في الحقل "الاسم" أدخل اسمًا للعملية التي تتطلب تواقيع إلكترونية.</span><span class="sxs-lookup"><span data-stu-id="a250e-146">In the Name field, enter a name for the process that requires electronic signatures.</span></span>
+4. <span data-ttu-id="a250e-147">في الحقل "الجدول"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="a250e-147">In the Table name field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="a250e-148">في القائمة، ابحث عن الجدول المخزنة فيه البيانات التي يجب توقيعها وحدده.</span><span class="sxs-lookup"><span data-stu-id="a250e-148">In the list, find and select the table where the data that must be signed is stored.</span></span>
+6. <span data-ttu-id="a250e-149">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a250e-149">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="a250e-150">في الحقل "اسم الحقل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="a250e-150">In the Field name field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="a250e-151">في القائمة، ابحث عن الحقل في الجدول المراد رصده وحدده.</span><span class="sxs-lookup"><span data-stu-id="a250e-151">In the list, find and select the field in the table that you want to monitor.</span></span>
+9. <span data-ttu-id="a250e-152">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a250e-152">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="a250e-153">حدد الوقت الذي يكون فيه التوقيع مطلوبًا.</span><span class="sxs-lookup"><span data-stu-id="a250e-153">Specify when a signature is required.</span></span>     <span data-ttu-id="a250e-154">حدد دائمًا إذا كان التوقيع مطلوبًا عند تغيير البيانات في الحقل.</span><span class="sxs-lookup"><span data-stu-id="a250e-154">Select Always if a signature is required when the data in the field changes.</span></span>     <span data-ttu-id="a250e-155">حدد فقط إذا كان التوقيع مطلوبًا فقط بموجب شروط معينة.‬</span><span class="sxs-lookup"><span data-stu-id="a250e-155">Select Only if a signature is required only under certain conditions.</span></span> <span data-ttu-id="a250e-156">إذا حددت "فقط"، فيجب عليك أن تحدد أيضًا أحد الخيارات التالية: "عند إدراج سجل" أو "عند تحديث سجل" أو "عند حذف سجل".‬</span><span class="sxs-lookup"><span data-stu-id="a250e-156">If you select Only, you must also select one of the following options: When a record is inserted, When a record is updated, or When a record is deleted.</span></span>  
+10. <span data-ttu-id="a250e-157">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a250e-157">Click Save.</span></span>
+11. <span data-ttu-id="a250e-158">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="a250e-158">Close the page.</span></span>
 
 

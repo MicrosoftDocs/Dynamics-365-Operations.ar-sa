@@ -19,60 +19,60 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 0b7e5ed451497aea1c2ce798af2b717705538d47
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e29aea4509dd323c295b02f289fbcfa46fab3392
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>إعداد وظائف تسجيل الدخول الموسعة لنقطة بيع المجموعة و‏‫نقطة بيع حديثة (MPOS)‬.
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a><span data-ttu-id="9b7d0-103">إعداد وظائف تسجيل الدخول الموسعة لنقطة بيع المجموعة و‏‫نقطة بيع حديثة (MPOS)‬.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-103">Set up extended logon functionality for Cloud POS and MPOS</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لنقاط بيع المجموعة ونقاط البيع الحديثة للبيع بالتجزئة (MPOS).
+<span data-ttu-id="9b7d0-104">يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لنقاط بيع المجموعة ونقاط البيع الحديثة للبيع بالتجزئة (MPOS).</span><span class="sxs-lookup"><span data-stu-id="9b7d0-104">This topic covers your options for setting up extended logon for Cloud POS and Retail Modern POS (MPOS).</span></span>
 
-<a name="setting-up-extended-logon"></a>إعداد تسجيل الدخول الموسع
+<a name="setting-up-extended-logon"></a><span data-ttu-id="9b7d0-105">إعداد تسجيل الدخول الموسع</span><span class="sxs-lookup"><span data-stu-id="9b7d0-105">Setting up extended logon</span></span>
 =========================
 
-يمكنك العثور على إعداد أقنعة الرمز الشريطي في **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع‬** &gt; **ملفات تعريف نقطة البيع‬** &gt; **ملفات تعريف الوظائف**. تتضمن علامة التبويب السريعة **الوظائف** الخيارات التالية المتعلقة بتسجيل دخول موسع.
+<span data-ttu-id="9b7d0-106">يمكنك العثور على إعداد أقنعة الرمز الشريطي في **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع‬** &gt; **ملفات تعريف نقطة البيع‬** &gt; **ملفات تعريف الوظائف**.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-106">You can find the setup for bar code masks at **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Functionality profiles**.</span></span> <span data-ttu-id="9b7d0-107">تتضمن علامة التبويب السريعة **الوظائف** الخيارات التالية المتعلقة بتسجيل دخول موسع.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-107">The **Functions** FastTab includes the following options that are related to extended logon.</span></span>
 
-### <a name="staff-bar-code-logon"></a>تسجيل دخول الكود الشريطي للفريق
+### <a name="staff-bar-code-logon"></a><span data-ttu-id="9b7d0-108">تسجيل دخول الكود الشريطي للفريق</span><span class="sxs-lookup"><span data-stu-id="9b7d0-108">Staff bar code logon</span></span>
 
-عند تمكين خيار **تسجيل دخول الرمز الشريطي للموظفين**، يستطيع العاملون الذين لديهم تسجيل دخول موسع معين إلى بيانات اعتماد نقطة البيع (POS) تسجيل الدخول باستخدام رمز شريطي.
+<span data-ttu-id="9b7d0-109">عند تمكين خيار **تسجيل دخول الرمز الشريطي للموظفين**، يستطيع العاملون الذين لديهم تسجيل دخول موسع معين إلى بيانات اعتماد نقطة البيع (POS) تسجيل الدخول باستخدام رمز شريطي.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-109">When the **Staff bar code logon** option is enabled, workers who have an extended logon assigned to their point of sale (POS) credentials can log on by using a bar code.</span></span>
 
-### <a name="staff-bar-code-logon-requires-password"></a>يتطلب تسجيل دخول الكود الشريطي للفريق وجود كلمة مرور
+### <a name="staff-bar-code-logon-requires-password"></a><span data-ttu-id="9b7d0-110">يتطلب تسجيل دخول الكود الشريطي للفريق وجود كلمة مرور</span><span class="sxs-lookup"><span data-stu-id="9b7d0-110">Staff bar code logon requires password</span></span>
 
-عندما يتم تمكين خيار **يتطلب تسجيل دخول الرمز الشريطي للموظفين كلمة مرور**، يحدد تسجيل دخول الرمز الشريطي للموظفين العامل الذي يتم تعيينه لتسجيل دخول موسع يتم تقديمه فقط. لا يزال يجب على العمال إدخال كلمة المرور عند تمكين هذا الخيار.
+<span data-ttu-id="9b7d0-111">عندما يتم تمكين خيار **يتطلب تسجيل دخول الرمز الشريطي للموظفين كلمة مرور**، يحدد تسجيل دخول الرمز الشريطي للموظفين العامل الذي يتم تعيينه لتسجيل دخول موسع يتم تقديمه فقط.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-111">When the **Staff bar code logon requires password** option is enabled, the staff bar code logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="9b7d0-112">لا يزال يجب على العمال إدخال كلمة المرور عند تمكين هذا الخيار.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-112">Workers must still enter their password when this option is enabled.</span></span>
 
-### <a name="staff-card-logon"></a>تسجيل دخول بطاقة الفريق
+### <a name="staff-card-logon"></a><span data-ttu-id="9b7d0-113">تسجيل دخول بطاقة الفريق</span><span class="sxs-lookup"><span data-stu-id="9b7d0-113">Staff card logon</span></span>
 
-عند تمكين خيار **تسجيل دخول بطاقة الموظفين**، يستطيع العاملون الذين لديهم تسجيل دخول موسع معين إلى بيانات اعتماد نقطة البيع تسجيل الدخول باستخدام شريط مغناطيسي.
+<span data-ttu-id="9b7d0-114">عند تمكين خيار **تسجيل دخول بطاقة الموظفين**، يستطيع العاملون الذين لديهم تسجيل دخول موسع معين إلى بيانات اعتماد نقطة البيع تسجيل الدخول باستخدام شريط مغناطيسي.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-114">When the **Staff card logon** option is enabled, workers who have an extended logon assigned to their POS credentials can log on by using a magnetic stripe.</span></span>
 
-### <a name="staff-card-logon-requires-password"></a>يتطلب تسجيل دخول بطاقة الفريق وجود كلمة مرور
+### <a name="staff-card-logon-requires-password"></a><span data-ttu-id="9b7d0-115">يتطلب تسجيل دخول بطاقة الفريق وجود كلمة مرور</span><span class="sxs-lookup"><span data-stu-id="9b7d0-115">Staff card logon requires password</span></span>
 
-عندما يتم تمكين خيار **يتطلب تسجيل دخول بطاقة الموظفين كلمة مرور**، يحدد تسجيل بطاقة الموظفين العامل الذي يتم تعيينه لتسجيل دخول موسع يتم تقديمه فقط. لا يزال يجب على العمال إدخال كلمة المرور عند تمكين هذا الخيار.
+<span data-ttu-id="9b7d0-116">عندما يتم تمكين خيار **يتطلب تسجيل دخول بطاقة الموظفين كلمة مرور**، يحدد تسجيل بطاقة الموظفين العامل الذي يتم تعيينه لتسجيل دخول موسع يتم تقديمه فقط.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-116">When the **Staff card logon requires password** option is enabled, the staff card logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="9b7d0-117">لا يزال يجب على العمال إدخال كلمة المرور عند تمكين هذا الخيار.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-117">Workers must still enter their password when this option is enabled.</span></span>
 
-<a name="assigning-an-extended-logon"></a>تعيين تسجيل دخول موسع
+<a name="assigning-an-extended-logon"></a><span data-ttu-id="9b7d0-118">تعيين تسجيل دخول موسع</span><span class="sxs-lookup"><span data-stu-id="9b7d0-118">Assigning an extended logon</span></span>
 ===========================
 
-بشكل افتراضي، يستطيع المديرون فقط تعيين تسجيل الدخول الموسع للعاملين. ‏‫لتعيين تسجيل الدخول الموسع، انتقل إلى **‬‏‫تسجيل دخول موسع** ‬‏‫في نقطة البيع.  ثم ابحث عن عامل عن طريق إدخال معرف المشغل الخاص به أو بها في حقل البحث.‬ حدد العامل، ثم انقر فوق **تعيين**. في الصفحة التالية، اسحب تسجيل الدخول الموسع أو امسحه لتعيين العامل. إذا تمت قراءة السحب أو المسح بنجاح، يصبح الزر **موافق**متوفرًا. انقر فوق **موافق** لحفظ تسجيل الدخول الموسع لهذا العامل.
+<span data-ttu-id="9b7d0-119">بشكل افتراضي، يستطيع المديرون فقط تعيين تسجيل الدخول الموسع للعاملين.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-119">By default, only managers can assign extended logon to workers.</span></span> <span data-ttu-id="9b7d0-120">‏‫لتعيين تسجيل الدخول الموسع، انتقل إلى **‬‏‫تسجيل دخول موسع** ‬‏‫في نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-120">To assign extended logon, go to **Extended log on** in POS.</span></span> <span data-ttu-id="9b7d0-121"> ثم ابحث عن عامل عن طريق إدخال معرف المشغل الخاص به أو بها في حقل البحث.‬</span><span class="sxs-lookup"><span data-stu-id="9b7d0-121">Then search for a worker by entering his or her operator ID in the search field.</span></span> <span data-ttu-id="9b7d0-122">حدد العامل، ثم انقر فوق **تعيين**.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-122">Select the worker, and then click **Assign**.</span></span> <span data-ttu-id="9b7d0-123">في الصفحة التالية، اسحب تسجيل الدخول الموسع أو امسحه لتعيين العامل.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-123">On the next page, swipe or scan the extended logon to assign to the worker.</span></span> <span data-ttu-id="9b7d0-124">إذا تمت قراءة السحب أو المسح بنجاح، يصبح الزر **موافق**متوفرًا.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-124">If the swipe or scan is successfully read, the **OK** button becomes available.</span></span> <span data-ttu-id="9b7d0-125">انقر فوق **موافق** لحفظ تسجيل الدخول الموسع لهذا العامل.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-125">Click **OK** to save the extended logon for that worker.</span></span>
 
-<a name="deleting-an-extended-logon"></a>حذف تسجيل دخول موسع
+<a name="deleting-an-extended-logon"></a><span data-ttu-id="9b7d0-126">حذف تسجيل دخول موسع</span><span class="sxs-lookup"><span data-stu-id="9b7d0-126">Deleting an extended logon</span></span>
 ==========================
 
-لحذف تسجيل الدخول الموسع الذي يتم تعيينه لعامل، ابحث عن العامل باستخدام عملية **تسجيل الدخول الموسع**. حدد العامل، ثم انقر فوق **إلغاء التعيين**. تتم إزالة كافة بيانات اعتماد تسجيل الدخول الموسع التي تقترن بهذا العامل.
+<span data-ttu-id="9b7d0-127">لحذف تسجيل الدخول الموسع الذي يتم تعيينه لعامل، ابحث عن العامل باستخدام عملية **تسجيل الدخول الموسع**.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-127">To delete the extended logon that is assigned to a worker, search for the worker by using the **Extended log on** operation.</span></span> <span data-ttu-id="9b7d0-128">حدد العامل، ثم انقر فوق **إلغاء التعيين**.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-128">Select the worker, and then click **Unassign**.</span></span> <span data-ttu-id="9b7d0-129">تتم إزالة كافة بيانات اعتماد تسجيل الدخول الموسع التي تقترن بهذا العامل.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-129">All extended logon credentials that are associated with that worker are removed.</span></span>
 
-<a name="extending-extended-logon"></a>توسيع تسجيل الدخول الموسع
+<a name="extending-extended-logon"></a><span data-ttu-id="9b7d0-130">توسيع تسجيل الدخول الموسع</span><span class="sxs-lookup"><span data-stu-id="9b7d0-130">Extending extended logon</span></span>
 ========================
 
-يمكن توسيع خدمة تسجيل الدخول لدعم أجهزة تسجيل الدخول الموسع الإضافي، مثل ماسحات الكمبيوتر الكفي. لمزيد من المعلومات، راجع وثائق قابلية التوسعة لنقطة البيع.
+<span data-ttu-id="9b7d0-131">يمكن توسيع خدمة تسجيل الدخول لدعم أجهزة تسجيل الدخول الموسع الإضافي، مثل ماسحات الكمبيوتر الكفي.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-131">The logon service can be extended to support additional extended logon devices, such as palm scanners.</span></span> <span data-ttu-id="9b7d0-132">لمزيد من المعلومات، راجع وثائق قابلية التوسعة لنقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-132">For more information, see the POS extensibility documentation.</span></span>
 
-<a name="using-extended-logon"></a>استخدام تسجيل الدخول الموسع
+<a name="using-extended-logon"></a><span data-ttu-id="9b7d0-133">استخدام تسجيل الدخول الموسع</span><span class="sxs-lookup"><span data-stu-id="9b7d0-133">Using extended logon</span></span>
 ====================
 
-عندما يتم تكوين تسجيل الدخول الموسع، وقام عامل بتعيين الرمز الشريطي أو الشريط المغناطيسي، يجب على العامل أن يقوم بتمرير البطاقة أو مسحها بينما يتم عرض صفحة تسجيل دخول نقطة البيع. إذا كانت كلمة مرور مطلوبة أيضًا قبل إمكانية متابعة تسجيل الدخول، فإنه تتم مطالبة العامل بإدخال كلمة المرور الخاصة به.
+<span data-ttu-id="9b7d0-134">عندما يتم تكوين تسجيل الدخول الموسع، وقام عامل بتعيين الرمز الشريطي أو الشريط المغناطيسي، يجب على العامل أن يقوم بتمرير البطاقة أو مسحها بينما يتم عرض صفحة تسجيل دخول نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="9b7d0-135">إذا كانت كلمة مرور مطلوبة أيضًا قبل إمكانية متابعة تسجيل الدخول، فإنه تتم مطالبة العامل بإدخال كلمة المرور الخاصة به.</span><span class="sxs-lookup"><span data-stu-id="9b7d0-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
 
 
 

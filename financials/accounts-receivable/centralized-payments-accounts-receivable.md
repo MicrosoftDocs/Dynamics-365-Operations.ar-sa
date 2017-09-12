@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c5a09eedd1dd12b7f5343953b16f9f0b210213d7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6327d9cab1651d22cd411f718f6e3a2f8733e13e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-receivable"></a>المدفوعات المركزية للحسابات المدينة
+# <a name="centralized-payments-for-accounts-receivable"></a><span data-ttu-id="64548-105">المدفوعات المركزية للحسابات المدينة</span><span class="sxs-lookup"><span data-stu-id="64548-105">Centralized payments for Accounts receivable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني واحد يعالج جميع المدفوعات. ولذلك، لا يلزم إدخال نفس الحركة في العديد من الكيانات القانونية. توفر هذه المقالة أمثلة تعرض كيفية معالجة الترحيل للمدفوعات المركزية في سيناريوهات مختلفة.
+<span data-ttu-id="64548-106">يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني واحد يعالج جميع المدفوعات.</span><span class="sxs-lookup"><span data-stu-id="64548-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="64548-107">ولذلك، لا يلزم إدخال نفس الحركة في العديد من الكيانات القانونية.</span><span class="sxs-lookup"><span data-stu-id="64548-107">Therefore, the same transaction doesn't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="64548-108">توفر هذه المقالة أمثلة تعرض كيفية معالجة الترحيل للمدفوعات المركزية في سيناريوهات مختلفة.</span><span class="sxs-lookup"><span data-stu-id="64548-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني يقوم بمعالجة جميع المدفوعات. ولذلك، لا يلزم إدخال نفس الحركة في العديد من الكيانات القانونية. بالإضافة إلى ذلك، توفر المؤسسة الوقت، لأن يتم تبسيط العمليات الخاصة بمقترحات الدفع، والتسويات، وتحرير الحركات المفتوحة والمغلقة للمدفوعات المركزية. 
+<span data-ttu-id="64548-109">يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني يقوم بمعالجة جميع المدفوعات.</span><span class="sxs-lookup"><span data-stu-id="64548-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="64548-110">ولذلك، لا يلزم إدخال نفس الحركة في العديد من الكيانات القانونية.</span><span class="sxs-lookup"><span data-stu-id="64548-110">Therefore, the same transaction doesn't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="64548-111">بالإضافة إلى ذلك، توفر المؤسسة الوقت، لأن يتم تبسيط العمليات الخاصة بمقترحات الدفع، والتسويات، وتحرير الحركات المفتوحة والمغلقة للمدفوعات المركزية.</span><span class="sxs-lookup"><span data-stu-id="64548-111">Additionally, the organization saves time, because the processes for payment proposals, settlements, and editing open and closed transactions for centralized payments are streamlined.</span></span> 
 
-في المؤسسات التي تستخدم المدفوعات المركزية، هناك العديد من الكيانات القانونية للعمليات، و‏‫يقوم كل كيان قانوني عامل بإدارة معلومات الفواتير مستحقة التحصيل الخاصة به.‬ ويتم تلقي المدفوعات لجميع الكيانات القانونية العاملة بواسطة كيان قانوني واحد يُعرف باسم الكيان القانوني الخاص بالدفع.‬ وخلال عملية التسوية، يتم إنشاء العمليات مستحق حتى ومستحق من القابلة للتطبيق. ويمكن تحديد الكيان القانوني داخل المؤسسة الذي يتلقى حركات الربح المحقق والخسارة المحققة وكيفية معالجة حركات الخصم النقدي المتعلقة بدفعة مركزية. 
+<span data-ttu-id="64548-112">في المؤسسات التي تستخدم المدفوعات المركزية، هناك العديد من الكيانات القانونية للعمليات، و‏‫يقوم كل كيان قانوني عامل بإدارة معلومات الفواتير مستحقة التحصيل الخاصة به.‬</span><span class="sxs-lookup"><span data-stu-id="64548-112">In a centralized payment organization, there are many legal entities for operations, and each operating legal entity manages its own invoices receivable information.</span></span> <span data-ttu-id="64548-113">ويتم تلقي المدفوعات لجميع الكيانات القانونية العاملة بواسطة كيان قانوني واحد يُعرف باسم الكيان القانوني الخاص بالدفع.‬</span><span class="sxs-lookup"><span data-stu-id="64548-113">Payments for all the operating legal entities are received by a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="64548-114">وخلال عملية التسوية، يتم إنشاء العمليات مستحق حتى ومستحق من القابلة للتطبيق.</span><span class="sxs-lookup"><span data-stu-id="64548-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="64548-115">ويمكن تحديد الكيان القانوني داخل المؤسسة الذي يتلقى حركات الربح المحقق والخسارة المحققة وكيفية معالجة حركات الخصم النقدي المتعلقة بدفعة مركزية.</span><span class="sxs-lookup"><span data-stu-id="64548-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a centralized payment are handled.</span></span> 
 
-توضح الأمثلة التالية كيفية معالجة الترحيل في العديد من السيناريوهات. ويتم تطبيق التكوين التالي في كل هذه الأمثلة:
+<span data-ttu-id="64548-116">توضح الأمثلة التالية كيفية معالجة الترحيل في العديد من السيناريوهات.</span><span class="sxs-lookup"><span data-stu-id="64548-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="64548-117">ويتم تطبيق التكوين التالي في كل هذه الأمثلة:</span><span class="sxs-lookup"><span data-stu-id="64548-117">The following configuration is assumed for all these examples:</span></span>
 
--   الكيانات القانونية هي شركة الاتحاد للتصنيع، وشركة الاتحاد الشرقية للتصنيع، وشركة الاتحاد الغربية للتصنيع. ويتم إدخال مدفوعات العميل في شركة الاتحاد للتصنيع.
--   ويتم تعيين حقل **ترحيل الخصم النقدي** في صفحة **المحاسبة بين الشركات الشقيقة** إلى **الكيان القانوني للفاتورة**.
--   ويتم تعيين حقل **ترحيل ربح أو خسارة سعر صرف العملة‬** في صفحة **المحاسبة بين الشركات الشقيقة** إلى **الكيان القانوني للدفع**.
--   ويتم إعداد شركة الرباط التجارية كعميل في كل كيان قانوني. ويتم تحديد العملاء من مختلف الكيانات القانونية باعتبارهم نفس العميل، لأنهم يشتركون في نفس معرف دفتر العناوين العمومي.
+-   <span data-ttu-id="64548-118">الكيانات القانونية هي شركة الاتحاد للتصنيع، وشركة الاتحاد الشرقية للتصنيع، وشركة الاتحاد الغربية للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="64548-119">ويتم إدخال مدفوعات العميل في شركة الاتحاد للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-119">Customer payments are entered into Fabrikam.</span></span>
+-   <span data-ttu-id="64548-120">ويتم تعيين حقل **ترحيل الخصم النقدي** في صفحة **المحاسبة بين الشركات الشقيقة** إلى **الكيان القانوني للفاتورة**.</span><span class="sxs-lookup"><span data-stu-id="64548-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="64548-121">ويتم تعيين حقل **ترحيل ربح أو خسارة سعر صرف العملة‬** في صفحة **المحاسبة بين الشركات الشقيقة** إلى **الكيان القانوني للدفع**.</span><span class="sxs-lookup"><span data-stu-id="64548-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="64548-122">ويتم إعداد شركة الرباط التجارية كعميل في كل كيان قانوني.</span><span class="sxs-lookup"><span data-stu-id="64548-122">Customer Northwind Traders is set up as a customer in each legal entity.</span></span> <span data-ttu-id="64548-123">ويتم تحديد العملاء من مختلف الكيانات القانونية باعتبارهم نفس العميل، لأنهم يشتركون في نفس معرف دفتر العناوين العمومي.</span><span class="sxs-lookup"><span data-stu-id="64548-123">The customers from the various legal entities are identified as the same customer because they share the same global address book ID.</span></span>
 
-| معرف دفتر العناوين | حساب العميل | الاسم              | كيان قانوني  |
+| <span data-ttu-id="64548-124">معرف دفتر العناوين</span><span class="sxs-lookup"><span data-stu-id="64548-124">Address book ID</span></span> | <span data-ttu-id="64548-125">حساب العميل</span><span class="sxs-lookup"><span data-stu-id="64548-125">Customer account</span></span> | <span data-ttu-id="64548-126">الاسم</span><span class="sxs-lookup"><span data-stu-id="64548-126">Name</span></span>              | <span data-ttu-id="64548-127">كيان قانوني</span><span class="sxs-lookup"><span data-stu-id="64548-127">Legal entity</span></span>  |
 |-----------------|------------------|-------------------|---------------|
-| 4050            | 4000             | شركة الرباط التجارية | شركة الاتحاد للتصنيع      |
-| 4050            | 4000             | شركة الرباط التجارية | شركة الاتحاد الشرقية للتصنيع |
-| 4050            | 10000            | شركة الرباط التجارية | شركة الاتحاد الغربية للتصنيع |
+| <span data-ttu-id="64548-128">4050</span><span class="sxs-lookup"><span data-stu-id="64548-128">4050</span></span>            | <span data-ttu-id="64548-129">4000</span><span class="sxs-lookup"><span data-stu-id="64548-129">4000</span></span>             | <span data-ttu-id="64548-130">شركة الرباط التجارية</span><span class="sxs-lookup"><span data-stu-id="64548-130">Northwind Traders</span></span> | <span data-ttu-id="64548-131">شركة الاتحاد للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-131">Fabrikam</span></span>      |
+| <span data-ttu-id="64548-132">4050</span><span class="sxs-lookup"><span data-stu-id="64548-132">4050</span></span>            | <span data-ttu-id="64548-133">4000</span><span class="sxs-lookup"><span data-stu-id="64548-133">4000</span></span>             | <span data-ttu-id="64548-134">شركة الرباط التجارية</span><span class="sxs-lookup"><span data-stu-id="64548-134">Northwind Traders</span></span> | <span data-ttu-id="64548-135">شركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-135">Fabrikam East</span></span> |
+| <span data-ttu-id="64548-136">4050</span><span class="sxs-lookup"><span data-stu-id="64548-136">4050</span></span>            | <span data-ttu-id="64548-137">10000</span><span class="sxs-lookup"><span data-stu-id="64548-137">10000</span></span>            | <span data-ttu-id="64548-138">شركة الرباط التجارية</span><span class="sxs-lookup"><span data-stu-id="64548-138">Northwind Traders</span></span> | <span data-ttu-id="64548-139">شركة الاتحاد الغربية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-139">Fabrikam West</span></span> |
 
-## <a name="example-1-customer-payment-of-invoice-from-another-legal-entity"></a>المثال 1: دفع عميل لفاتورة من كيان قانوني آخر
-تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 600.00 لحساب العميل 4000 بشركة الاتحاد للتصنيع، شركة الرباط التجارية. وتتم تسوية الدفعة بفاتورة مفتوحة لحساب العميل 4000 في شركة الاتحاد الشرقية للتصنيع.
+## <a name="example-1-customer-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="64548-140">المثال 1: دفع عميل لفاتورة من كيان قانوني آخر</span><span class="sxs-lookup"><span data-stu-id="64548-140">Example 1: Customer payment of invoice from another legal entity</span></span>
+<span data-ttu-id="64548-141">تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 600.00 لحساب العميل 4000 بشركة الاتحاد للتصنيع، شركة الرباط التجارية.</span><span class="sxs-lookup"><span data-stu-id="64548-141">Fabrikam receives a payment of 600.00 for Fabrikam customer account 4000, Northwind Traders.</span></span> <span data-ttu-id="64548-142">وتتم تسوية الدفعة بفاتورة مفتوحة لحساب العميل 4000 في شركة الاتحاد الشرقية للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-142">The payment is settled with an open invoice for customer account 4000 in Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-customer-4000"></a>يتم ترحيل الفاتورة في شركة الاتحاد الشرقية للتصنيع للعميل 4000
+### <a name="invoice-is-posted-in-fabrikam-east-for-customer-4000"></a><span data-ttu-id="64548-143">يتم ترحيل الفاتورة في شركة الاتحاد الشرقية للتصنيع للعميل 4000</span><span class="sxs-lookup"><span data-stu-id="64548-143">Invoice is posted in Fabrikam East for customer 4000</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-144">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-144">Account</span></span>                             | <span data-ttu-id="64548-145">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-145">Debit amount</span></span> | <span data-ttu-id="64548-146">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-146">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) | 600.00       |               |
-| المبيعات (شركة الاتحاد الشرقية للتصنيع)               |              | 600.00        |
+| <span data-ttu-id="64548-147">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-147">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="64548-148">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-148">600.00</span></span>       |               |
+| <span data-ttu-id="64548-149">المبيعات (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-149">Sales (Fabrikam East)</span></span>               |              | <span data-ttu-id="64548-150">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-150">600.00</span></span>        |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a>استلام الدفعة وترحيلها في شركة الاتحاد للتصنيع للعميل 4000
+### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a><span data-ttu-id="64548-151">استلام الدفعة وترحيلها في شركة الاتحاد للتصنيع للعميل 4000</span><span class="sxs-lookup"><span data-stu-id="64548-151">Payment is received and posted in Fabrikam for customer 4000</span></span>
 
-| الحساب                        | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-152">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-152">Account</span></span>                        | <span data-ttu-id="64548-153">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-153">Debit amount</span></span> | <span data-ttu-id="64548-154">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-154">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| المبلغ النقدي (شركة الاتحاد للتصنيع)                | 600.00       |               |
-| الحسابات المدينة (شركة الاتحاد للتصنيع) |              | 600.00        |
+| <span data-ttu-id="64548-155">المبلغ النقدي (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-155">Cash (Fabrikam)</span></span>                | <span data-ttu-id="64548-156">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-156">600.00</span></span>       |               |
+| <span data-ttu-id="64548-157">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-157">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="64548-158">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-158">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>تمت تسوية دفعة لشركة الاتحاد للتصنيع بموجب فاتورة شركة الاتحاد الشرقية للتصنيع
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="64548-159">تمت تسوية دفعة لشركة الاتحاد للتصنيع بموجب فاتورة شركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-159">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**ترحيل شركة الاتحاد للتصنيع**
+<span data-ttu-id="64548-160">**ترحيل شركة الاتحاد للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-160">**Fabrikam posting**</span></span>
 
-| الحساب                         | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-161">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-161">Account</span></span>                         | <span data-ttu-id="64548-162">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-162">Debit amount</span></span> | <span data-ttu-id="64548-163">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-163">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد للتصنيع)  | 600.00       |               |
-| مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع) |              | 600.00        |
+| <span data-ttu-id="64548-164">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-164">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="64548-165">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-165">600.00</span></span>       |               |
+| <span data-ttu-id="64548-166">مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-166">Due to Fabrikam East (Fabrikam)</span></span> |              | <span data-ttu-id="64548-167">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-167">600.00</span></span>        |
 
-**ترحيل شركة الاتحاد الشرقية للتصنيع**
+<span data-ttu-id="64548-168">**ترحيل شركة الاتحاد الشرقية للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-168">**Fabrikam East posting**</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-169">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-169">Account</span></span>                             | <span data-ttu-id="64548-170">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-170">Debit amount</span></span> | <span data-ttu-id="64548-171">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-171">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)   | 600.00       |               |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) |              | 600.00        |
+| <span data-ttu-id="64548-172">مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-172">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="64548-173">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-173">600.00</span></span>       |               |
+| <span data-ttu-id="64548-174">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-174">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="64548-175">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-175">600.00</span></span>        |
 
-## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>مثال 2: دفع العميل لفاتورة من كيان قانوني أخرى بخصم نقدي
-تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 580.00 للعميل 4000 بشركة الاتحاد للتصنيع، شركة الرباط التجارية. تمتلك شركة الاتحاد الشرقية للتصنيع فاتورة مفتوحة للعميل 4000. وتشمل الفاتورة خصمًا نقديًا يبلغ 20.00. وتتم تسوية الدفع باستخدام الفواتير المفتوحة لشركة الاتحاد الشرقية للتصنيع. ويتم ترحيل الخصم النقدي إلى الكيان القانوني للفاتورة، وهو شركة الاتحاد الشرقية للتصنيع.
+## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="64548-176">مثال 2: دفع العميل لفاتورة من كيان قانوني أخرى بخصم نقدي</span><span class="sxs-lookup"><span data-stu-id="64548-176">Example 2: Customer payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="64548-177">تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 580.00 للعميل 4000 بشركة الاتحاد للتصنيع، شركة الرباط التجارية.</span><span class="sxs-lookup"><span data-stu-id="64548-177">Fabrikam receives a payment of 580.00 for Fabrikam customer 4000, Northwind Traders.</span></span> <span data-ttu-id="64548-178">تمتلك شركة الاتحاد الشرقية للتصنيع فاتورة مفتوحة للعميل 4000.</span><span class="sxs-lookup"><span data-stu-id="64548-178">Fabrikam East has an open invoice for customer 4000.</span></span> <span data-ttu-id="64548-179">وتشمل الفاتورة خصمًا نقديًا يبلغ 20.00.</span><span class="sxs-lookup"><span data-stu-id="64548-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="64548-180">وتتم تسوية الدفع باستخدام الفواتير المفتوحة لشركة الاتحاد الشرقية للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-180">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="64548-181">ويتم ترحيل الخصم النقدي إلى الكيان القانوني للفاتورة، وهو شركة الاتحاد الشرقية للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-181">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>ترحيل الفاتورة في شركة الاتحاد الشرقية للتصنيع للعميل 4000 بشركة الاتحاد الشرقية للتصنيع
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a><span data-ttu-id="64548-182">ترحيل الفاتورة في شركة الاتحاد الشرقية للتصنيع للعميل 4000 بشركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-182">Invoice is posted in Fabrikam East for Fabrikam East customer 4000</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-183">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-183">Account</span></span>                             | <span data-ttu-id="64548-184">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-184">Debit amount</span></span> | <span data-ttu-id="64548-185">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-185">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) | 600.00       |               |
-| المبيعات (شركة الاتحاد الشرقية للتصنيع)               |              | 600.00        |
+| <span data-ttu-id="64548-186">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-186">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="64548-187">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-187">600.00</span></span>       |               |
+| <span data-ttu-id="64548-188">المبيعات (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-188">Sales (Fabrikam East)</span></span>               |              | <span data-ttu-id="64548-189">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-189">600.00</span></span>        |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>استلام الدفعة وترحيلها في شركة الاتحاد للتصنيع للعميل 4000 بشركة الاتحاد للتصنيع
+### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a><span data-ttu-id="64548-190">استلام الدفعة وترحيلها في شركة الاتحاد للتصنيع للعميل 4000 بشركة الاتحاد للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-190">Payment is received and posted in Fabrikam for Fabrikam customer 4000</span></span>
 
-| الحساب                        | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-191">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-191">Account</span></span>                        | <span data-ttu-id="64548-192">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-192">Debit amount</span></span> | <span data-ttu-id="64548-193">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-193">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| المبلغ النقدي (شركة الاتحاد للتصنيع)                | 600.00       |               |
-| الحسابات المدينة (شركة الاتحاد للتصنيع) |              | 600.00        |
+| <span data-ttu-id="64548-194">المبلغ النقدي (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-194">Cash (Fabrikam)</span></span>                | <span data-ttu-id="64548-195">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-195">600.00</span></span>       |               |
+| <span data-ttu-id="64548-196">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-196">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="64548-197">600.00</span><span class="sxs-lookup"><span data-stu-id="64548-197">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>تمت تسوية دفعة لشركة الاتحاد للتصنيع بموجب فاتورة شركة الاتحاد الشرقية للتصنيع
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="64548-198">تمت تسوية دفعة لشركة الاتحاد للتصنيع بموجب فاتورة شركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-198">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**ترحيل شركة الاتحاد للتصنيع**
+<span data-ttu-id="64548-199">**ترحيل شركة الاتحاد للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-199">**Fabrikam posting**</span></span>
 
-| الحساب                         | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-200">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-200">Account</span></span>                         | <span data-ttu-id="64548-201">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-201">Debit amount</span></span> | <span data-ttu-id="64548-202">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-202">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد للتصنيع)  | 580.00       |               |
-| مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع) |              | 580.00        |
+| <span data-ttu-id="64548-203">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-203">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="64548-204">580.00</span><span class="sxs-lookup"><span data-stu-id="64548-204">580.00</span></span>       |               |
+| <span data-ttu-id="64548-205">مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-205">Due to Fabrikam East (Fabrikam)</span></span> |              | <span data-ttu-id="64548-206">580.00</span><span class="sxs-lookup"><span data-stu-id="64548-206">580.00</span></span>        |
 
-**ترحيل شركة الاتحاد الشرقية للتصنيع**
+<span data-ttu-id="64548-207">**ترحيل شركة الاتحاد الشرقية للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-207">**Fabrikam East posting**</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-208">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-208">Account</span></span>                             | <span data-ttu-id="64548-209">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-209">Debit amount</span></span> | <span data-ttu-id="64548-210">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-210">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)   | 580.00       |               |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) |              | 580.00        |
-| الخصم النقدي (شركة الاتحاد الشرقية للتصنيع)       | 20.00        |               |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) |              | 20.00         |
+| <span data-ttu-id="64548-211">مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-211">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="64548-212">580.00</span><span class="sxs-lookup"><span data-stu-id="64548-212">580.00</span></span>       |               |
+| <span data-ttu-id="64548-213">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-213">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="64548-214">580.00</span><span class="sxs-lookup"><span data-stu-id="64548-214">580.00</span></span>        |
+| <span data-ttu-id="64548-215">الخصم النقدي (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-215">Cash discount (Fabrikam East)</span></span>       | <span data-ttu-id="64548-216">20.00</span><span class="sxs-lookup"><span data-stu-id="64548-216">20.00</span></span>        |               |
+| <span data-ttu-id="64548-217">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-217">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="64548-218">20.00</span><span class="sxs-lookup"><span data-stu-id="64548-218">20.00</span></span>         |
 
-## <a name="example-3-customer-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-gain"></a>مثال 3: دفع العميل لفاتورة من كيان قانوني آخر بربح محقق بفارق سعر الصرف
-تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 600.00 يورو للعميل 4000 بشركة الاتحاد للتصنيع، وهو شركة الرباط التجارية. وتتم تسوية الدفع بفاتورة مفتوحة لحساب العميل 4000 في شركة الاتحاد الشرقية للتصنيع. كما يتم إنشاء حركة ربح صرف العملة أثناء عملية التسوية.
+## <a name="example-3-customer-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-gain"></a><span data-ttu-id="64548-219">مثال 3: دفع العميل لفاتورة من كيان قانوني آخر بربح محقق بفارق سعر الصرف</span><span class="sxs-lookup"><span data-stu-id="64548-219">Example 3: Customer payment of invoice from another legal entity with realized exchange rate gain</span></span>
+<span data-ttu-id="64548-220">تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 600.00 يورو للعميل 4000 بشركة الاتحاد للتصنيع، وهو شركة الرباط التجارية.</span><span class="sxs-lookup"><span data-stu-id="64548-220">Fabrikam receives a payment of 600.00 euros (EUR) for Fabrikam customer 4000, Northwind Traders.</span></span> <span data-ttu-id="64548-221">وتتم تسوية الدفع بفاتورة مفتوحة لحساب العميل 4000 في شركة الاتحاد الشرقية للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-221">The payment is settled with an open invoice for customer 4000 in Fabrikam East.</span></span> <span data-ttu-id="64548-222">كما يتم إنشاء حركة ربح صرف العملة أثناء عملية التسوية.</span><span class="sxs-lookup"><span data-stu-id="64548-222">A currency exchange gain transaction is generated during the settlement process.</span></span>
 
--   سعر صرف اليورو مقابل الدولار الأمريكي اعتبارًا من تاريخ الفاتورة: 1.2062
--   سعر صرف اليورو مقابل اليورو اعتبارًا من تاريخ الدفع: 1.2277
+-   <span data-ttu-id="64548-223">سعر صرف اليورو مقابل الدولار الأمريكي اعتبارًا من تاريخ الفاتورة: 1.2062</span><span class="sxs-lookup"><span data-stu-id="64548-223">Exchange rate for EUR to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="64548-224">سعر صرف اليورو مقابل اليورو اعتبارًا من تاريخ الدفع: 1.2277</span><span class="sxs-lookup"><span data-stu-id="64548-224">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>ترحيل الفاتورة في شركة الاتحاد الشرقية للتصنيع للعميل 4000 بشركة الاتحاد الشرقية للتصنيع
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a><span data-ttu-id="64548-225">ترحيل الفاتورة في شركة الاتحاد الشرقية للتصنيع للعميل 4000 بشركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-225">Invoice is posted in Fabrikam East for Fabrikam East customer 4000</span></span>
 
-| الحساب                             | المبلغ المدين            | المبلغ الدائن           |
+| <span data-ttu-id="64548-226">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-226">Account</span></span>                             | <span data-ttu-id="64548-227">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-227">Debit amount</span></span>            | <span data-ttu-id="64548-228">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-228">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) | 600.00 ريالاً سعوديًا / 723.72 جنيهًا مصريًا |                         |
-| المبيعات (شركة الاتحاد الشرقية للتصنيع)               |                         | 600.00 ريالاً سعوديًا / 723.72 جنيهًا مصريًا |
+| <span data-ttu-id="64548-229">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-229">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="64548-230">600.00 ريالاً سعوديًا / 723.72 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-230">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="64548-231">المبيعات (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-231">Sales (Fabrikam East)</span></span>               |                         | <span data-ttu-id="64548-232">600.00 ريالاً سعوديًا / 723.72 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-232">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>استلام الدفعة وترحيلها في شركة الاتحاد للتصنيع للعميل 4000 بشركة الاتحاد للتصنيع
+### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a><span data-ttu-id="64548-233">استلام الدفعة وترحيلها في شركة الاتحاد للتصنيع للعميل 4000 بشركة الاتحاد للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-233">Payment is received and posted in Fabrikam for Fabrikam customer 4000</span></span>
 
-| الحساب                        | المبلغ المدين            | المبلغ الدائن           |
+| <span data-ttu-id="64548-234">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-234">Account</span></span>                        | <span data-ttu-id="64548-235">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-235">Debit amount</span></span>            | <span data-ttu-id="64548-236">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-236">Credit amount</span></span>           |
 |--------------------------------|-------------------------|-------------------------|
-| المبلغ النقدي (شركة الاتحاد للتصنيع)                | 600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا |                         |
-| الحسابات المدينة (شركة الاتحاد للتصنيع) |                         | 600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا |
+| <span data-ttu-id="64548-237">المبلغ النقدي (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-237">Cash (Fabrikam)</span></span>                | <span data-ttu-id="64548-238">600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-238">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="64548-239">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-239">Accounts receivable (Fabrikam)</span></span> |                         | <span data-ttu-id="64548-240">600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-240">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>تمت تسوية دفعة لشركة الاتحاد للتصنيع بموجب فاتورة شركة الاتحاد الشرقية للتصنيع
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="64548-241">تمت تسوية دفعة لشركة الاتحاد للتصنيع بموجب فاتورة شركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-241">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**ترحيل شركة الاتحاد للتصنيع**
+<span data-ttu-id="64548-242">**ترحيل شركة الاتحاد للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-242">**Fabrikam posting**</span></span>
 
-| الحساب                         | المبلغ المدين            | المبلغ الدائن           |
+| <span data-ttu-id="64548-243">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-243">Account</span></span>                         | <span data-ttu-id="64548-244">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-244">Debit amount</span></span>            | <span data-ttu-id="64548-245">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-245">Credit amount</span></span>           |
 |---------------------------------|-------------------------|-------------------------|
-| الحسابات المدينة (شركة الاتحاد للتصنيع)  | 600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا |                         |
-| مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع) |                         | 600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا |
-| مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع) | 0.00 ريالاً سعوديًا / 12.90 جنيهًا مصريًا    |                         |
-| المكاسب المحققة (شركة الاتحاد للتصنيع)        |                         | 0.00 ريالاً سعوديًا / 12.90 جنيهًا مصريًا    |
+| <span data-ttu-id="64548-246">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-246">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="64548-247">600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-247">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="64548-248">مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-248">Due to Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="64548-249">600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-249">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="64548-250">مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-250">Due to Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="64548-251">0.00 ريالاً سعوديًا / 12.90 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-251">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="64548-252">المكاسب المحققة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-252">Realized gain (Fabrikam)</span></span>        |                         | <span data-ttu-id="64548-253">0.00 ريالاً سعوديًا / 12.90 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-253">0.00 EUR / 12.90 USD</span></span>    |
 
-**ترحيل شركة الاتحاد الشرقية للتصنيع**
+<span data-ttu-id="64548-254">**ترحيل شركة الاتحاد الشرقية للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-254">**Fabrikam East posting**</span></span>
 
-| الحساب                             | المبلغ المدين            | المبلغ الدائن           |
+| <span data-ttu-id="64548-255">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-255">Account</span></span>                             | <span data-ttu-id="64548-256">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-256">Debit amount</span></span>            | <span data-ttu-id="64548-257">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-257">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)   | 600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا |                         |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) |                         | 600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) | 0.00 ريالاً سعوديًا / 12.90 جنيهًا مصريًا    |                         |
-| مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)   |                         | 0.00 ريالاً سعوديًا / 12.90 جنيهًا مصريًا    |
+| <span data-ttu-id="64548-258">مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-258">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="64548-259">600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-259">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="64548-260">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-260">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="64548-261">600.00 ريالاً سعوديًا / 736.62 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-261">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="64548-262">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-262">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="64548-263">0.00 ريالاً سعوديًا / 12.90 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-263">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="64548-264">مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-264">Due from Fabrikam (Fabrikam East)</span></span>   |                         | <span data-ttu-id="64548-265">0.00 ريالاً سعوديًا / 12.90 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-265">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-gain"></a>مثال 4: دفعة من العميل بفاتورة من كيان قانوني آخر بخصم نقدي وربح محقق بفارق سعر الصرف
-تقوم شركة الاتحاد للتصنيع بترحيل دفعة للعميل 4000 بشركة الاتحاد للتصنيع، شركة الرباط التجارية، بفاتورة مفتوحة في شركة الاتحاد الشرقية للتصنيع. تشمل الفاتورة خصمًا نقديًا كما يتم إنشاء حركة ضريبة مبيعات. وتتم تسوية الدفعة بفاتورة مفتوحة لشركة الاتحاد الشرقية للتصنيع. كما يتم إنشاء حركة ربح صرف العملة أثناء عملية التسوية. ويتم ترحيل الخصم النقدي إلى الكيان القانوني للفاتورة (شركة الاتحاد الشرقية للتصنيع)، كما يتم ترحيل ربح سعر صرف العملة إلى الكيان القانوني للدفع (شركة الاتحاد للتصنيع).
+## <a name="example-4-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-gain"></a><span data-ttu-id="64548-266">مثال 4: دفعة من العميل بفاتورة من كيان قانوني آخر بخصم نقدي وربح محقق بفارق سعر الصرف</span><span class="sxs-lookup"><span data-stu-id="64548-266">Example 4: Customer payment of invoice from another legal entity with cash discount and realized exchange rate gain</span></span>
+<span data-ttu-id="64548-267">تقوم شركة الاتحاد للتصنيع بترحيل دفعة للعميل 4000 بشركة الاتحاد للتصنيع، شركة الرباط التجارية، بفاتورة مفتوحة في شركة الاتحاد الشرقية للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-267">Fabrikam posts a payment for Fabrikam customer 4000, Northwind Traders, for an open invoice in Fabrikam East.</span></span> <span data-ttu-id="64548-268">تشمل الفاتورة خصمًا نقديًا كما يتم إنشاء حركة ضريبة مبيعات.</span><span class="sxs-lookup"><span data-stu-id="64548-268">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="64548-269">وتتم تسوية الدفعة بفاتورة مفتوحة لشركة الاتحاد الشرقية للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-269">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="64548-270">كما يتم إنشاء حركة ربح صرف العملة أثناء عملية التسوية.</span><span class="sxs-lookup"><span data-stu-id="64548-270">A currency exchange gain transaction is generated during the settlement process.</span></span> <span data-ttu-id="64548-271">ويتم ترحيل الخصم النقدي إلى الكيان القانوني للفاتورة (شركة الاتحاد الشرقية للتصنيع)، كما يتم ترحيل ربح سعر صرف العملة إلى الكيان القانوني للدفع (شركة الاتحاد للتصنيع).</span><span class="sxs-lookup"><span data-stu-id="64548-271">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange gain is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   سعر صرف اليورو مقابل الدولار الأمريكي اعتبارًا من تاريخ الفاتورة: 1.2062
--   سعر صرف اليورو مقابل اليورو اعتبارًا من تاريخ الدفع: 1.2277
+-   <span data-ttu-id="64548-272">سعر صرف اليورو مقابل الدولار الأمريكي اعتبارًا من تاريخ الفاتورة: 1.2062</span><span class="sxs-lookup"><span data-stu-id="64548-272">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="64548-273">سعر صرف اليورو مقابل اليورو اعتبارًا من تاريخ الدفع: 1.2277</span><span class="sxs-lookup"><span data-stu-id="64548-273">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="free-text-invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-customer-4000"></a>يتم ترحيل فاتورة النص الحر كما يتم إنشاء حركة ضرائب في شركة الاتحاد الشرقية للتصنيع للعميل 4000
+### <a name="free-text-invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-customer-4000"></a><span data-ttu-id="64548-274">يتم ترحيل فاتورة النص الحر كما يتم إنشاء حركة ضرائب في شركة الاتحاد الشرقية للتصنيع للعميل 4000</span><span class="sxs-lookup"><span data-stu-id="64548-274">Free text invoice is posted and a tax transaction is generated in Fabrikam East for customer 4000</span></span>
 
-| الحساب                             | المبلغ المدين            | المبلغ الدائن           |
+| <span data-ttu-id="64548-275">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-275">Account</span></span>                             | <span data-ttu-id="64548-276">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-276">Debit amount</span></span>            | <span data-ttu-id="64548-277">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-277">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) | 638.22 ريالاً سعوديًا / 769.82 جنيهًا مصريًا |                         |
-| المبيعات (شركة الاتحاد الشرقية للتصنيع)               |                         | 600.00 ريالاً سعوديًا / 723.72 جنيهًا مصريًا |
-| ضريبة المبيعات (شركة الاتحاد الشرقية للتصنيع)           |                         | 38.22 ريالاً سعوديًا / 46.10 جنيهًا مصريًا   |
+| <span data-ttu-id="64548-278">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-278">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="64548-279">638.22 ريالاً سعوديًا / 769.82 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-279">638.22 EUR / 769.82 USD</span></span> |                         |
+| <span data-ttu-id="64548-280">المبيعات (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-280">Sales (Fabrikam East)</span></span>               |                         | <span data-ttu-id="64548-281">600.00 ريالاً سعوديًا / 723.72 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-281">600.00 EUR / 723.72 USD</span></span> |
+| <span data-ttu-id="64548-282">ضريبة المبيعات (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-282">Sales tax (Fabrikam East)</span></span>           |                         | <span data-ttu-id="64548-283">38.22 ريالاً سعوديًا / 46.10 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-283">38.22 EUR / 46.10 USD</span></span>   |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a>استلام الدفعة وترحيلها في شركة الاتحاد للتصنيع للعميل 4000
+### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a><span data-ttu-id="64548-284">استلام الدفعة وترحيلها في شركة الاتحاد للتصنيع للعميل 4000</span><span class="sxs-lookup"><span data-stu-id="64548-284">Payment is received and posted in Fabrikam for customer 4000</span></span>
 
-| الحساب                        | المبلغ المدين            | المبلغ الدائن           |
+| <span data-ttu-id="64548-285">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-285">Account</span></span>                        | <span data-ttu-id="64548-286">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-286">Debit amount</span></span>            | <span data-ttu-id="64548-287">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-287">Credit amount</span></span>           |
 |--------------------------------|-------------------------|-------------------------|
-| المبلغ النقدي (شركة الاتحاد للتصنيع)                | 626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا |                         |
-| الحسابات المدينة (شركة الاتحاد للتصنيع) |                         | 626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا |
+| <span data-ttu-id="64548-288">المبلغ النقدي (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-288">Cash (Fabrikam)</span></span>                | <span data-ttu-id="64548-289">626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-289">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="64548-290">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-290">Accounts receivable (Fabrikam)</span></span> |                         | <span data-ttu-id="64548-291">626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-291">626.22 EUR / 768.81 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>تمت تسوية دفعة لشركة الاتحاد للتصنيع بموجب فاتورة شركة الاتحاد الشرقية للتصنيع
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="64548-292">تمت تسوية دفعة لشركة الاتحاد للتصنيع بموجب فاتورة شركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-292">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**ترحيل شركة الاتحاد للتصنيع**
+<span data-ttu-id="64548-293">**ترحيل شركة الاتحاد للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-293">**Fabrikam posting**</span></span>
 
-| الحساب                         | المبلغ المدين            | المبلغ الدائن           |
+| <span data-ttu-id="64548-294">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-294">Account</span></span>                         | <span data-ttu-id="64548-295">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-295">Debit amount</span></span>            | <span data-ttu-id="64548-296">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-296">Credit amount</span></span>           |
 |---------------------------------|-------------------------|-------------------------|
-| الحسابات المدينة (شركة الاتحاد للتصنيع)  | 626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا |                         |
-| مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع) |                         | 626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا |
-| مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع) | 0.00 ريالاً سعوديًا / 13.46 جنيهًا مصريًا    |                         |
-| المكاسب المحققة (شركة الاتحاد للتصنيع)        |                         | 0.00 ريالاً سعوديًا / 13.46 جنيهًا مصريًا    |
+| <span data-ttu-id="64548-297">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-297">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="64548-298">626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-298">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="64548-299">مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-299">Due to Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="64548-300">626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-300">626.22 EUR / 768.81 USD</span></span> |
+| <span data-ttu-id="64548-301">مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-301">Due to Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="64548-302">0.00 ريالاً سعوديًا / 13.46 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-302">0.00 EUR / 13.46 USD</span></span>    |                         |
+| <span data-ttu-id="64548-303">المكاسب المحققة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-303">Realized gain (Fabrikam)</span></span>        |                         | <span data-ttu-id="64548-304">0.00 ريالاً سعوديًا / 13.46 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-304">0.00 EUR / 13.46 USD</span></span>    |
 
-**ترحيل شركة الاتحاد الشرقية للتصنيع**
+<span data-ttu-id="64548-305">**ترحيل شركة الاتحاد الشرقية للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-305">**Fabrikam East posting**</span></span>
 
-| الحساب                             | المبلغ المدين            | المبلغ الدائن           |
+| <span data-ttu-id="64548-306">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-306">Account</span></span>                             | <span data-ttu-id="64548-307">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-307">Debit amount</span></span>            | <span data-ttu-id="64548-308">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-308">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)   | 626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا |                         |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) |                         | 626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع  | 0.00 ريالاً سعوديًا / 13.46 جنيهًا مصريًا    |                         |
-| مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)   |                         | 0.00 ريالاً سعوديًا / 13.46 جنيهًا مصريًا    |
-| الخصم النقدي (شركة الاتحاد الشرقية للتصنيع)       | 12.00 ريالاً سعوديًا / 14.47 جنيهًا مصريًا   |                         |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) |                         | 12.00 ريالاً سعوديًا / 14.47 جنيهًا مصريًا   |
+| <span data-ttu-id="64548-309">مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-309">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="64548-310">626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-310">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="64548-311">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-311">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="64548-312">626.22 ريالاً سعوديًا / 768.81 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-312">626.22 EUR / 768.81 USD</span></span> |
+| <span data-ttu-id="64548-313">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-313">Accounts receivable (Fabrikam East</span></span>  | <span data-ttu-id="64548-314">0.00 ريالاً سعوديًا / 13.46 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-314">0.00 EUR / 13.46 USD</span></span>    |                         |
+| <span data-ttu-id="64548-315">مستحق من شركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-315">Due from Fabrikam (Fabrikam East)</span></span>   |                         | <span data-ttu-id="64548-316">0.00 ريالاً سعوديًا / 13.46 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-316">0.00 EUR / 13.46 USD</span></span>    |
+| <span data-ttu-id="64548-317">الخصم النقدي (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-317">Cash discount (Fabrikam East)</span></span>       | <span data-ttu-id="64548-318">12.00 ريالاً سعوديًا / 14.47 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-318">12.00 EUR / 14.47 USD</span></span>   |                         |
+| <span data-ttu-id="64548-319">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-319">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="64548-320">12.00 ريالاً سعوديًا / 14.47 جنيهًا مصريًا</span><span class="sxs-lookup"><span data-stu-id="64548-320">12.00 EUR / 14.47 USD</span></span>   |
 
-## <a name="example-5-customer-credit-note-with-primary-payment"></a>مثال 5: إشعار دائن لعميل بعملية دفع أولية
-تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 75.00 من العميل 4000، شركة الرباط التجارية. وتتم تسوية الدفعة بفاتورة مفتوحة للعميل 1000 بشركة الاتحاد الغربية للتصنيع وإشعار دائن مفتوح للعميل 4000 بشركة الاتحاد الشرقية للتصنيع. ويتم تحديد عملية الدفع كعملية دفع أولية في صفحة **تسوية الحركات**.
+## <a name="example-5-customer-credit-note-with-primary-payment"></a><span data-ttu-id="64548-321">مثال 5: إشعار دائن لعميل بعملية دفع أولية</span><span class="sxs-lookup"><span data-stu-id="64548-321">Example 5: Customer credit note with primary payment</span></span>
+<span data-ttu-id="64548-322">تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 75.00 من العميل 4000، شركة الرباط التجارية.</span><span class="sxs-lookup"><span data-stu-id="64548-322">Fabrikam receives a payment of 75.00 from customer 4000, Northwind Traders.</span></span> <span data-ttu-id="64548-323">وتتم تسوية الدفعة بفاتورة مفتوحة للعميل 1000 بشركة الاتحاد الغربية للتصنيع وإشعار دائن مفتوح للعميل 4000 بشركة الاتحاد الشرقية للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-323">The payment is settled with an open invoice for Fabrikam West customer 10000 and an open credit note for Fabrikam East customer 4000.</span></span> <span data-ttu-id="64548-324">ويتم تحديد عملية الدفع كعملية دفع أولية في صفحة **تسوية الحركات**.</span><span class="sxs-lookup"><span data-stu-id="64548-324">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>يتم ترحيل الفاتورة إلى شركة الاتحاد الغربية للتصنيع للعميل 10000
+### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a><span data-ttu-id="64548-325">يتم ترحيل الفاتورة إلى شركة الاتحاد الغربية للتصنيع للعميل 10000</span><span class="sxs-lookup"><span data-stu-id="64548-325">Invoice is posted to Fabrikam West for customer 10000</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-326">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-326">Account</span></span>                             | <span data-ttu-id="64548-327">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-327">Debit amount</span></span> | <span data-ttu-id="64548-328">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-328">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد الغربية للتصنيع) | 100.00       |               |
-| المبيعات (شركة الاتحاد الغربية للتصنيع)               |              | 100.00        |
+| <span data-ttu-id="64548-329">الحسابات المدينة (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-329">Accounts receivable (Fabrikam West)</span></span> | <span data-ttu-id="64548-330">100.00</span><span class="sxs-lookup"><span data-stu-id="64548-330">100.00</span></span>       |               |
+| <span data-ttu-id="64548-331">المبيعات (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-331">Sales (Fabrikam West)</span></span>               |              | <span data-ttu-id="64548-332">100.00</span><span class="sxs-lookup"><span data-stu-id="64548-332">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a>يتم ترحيل إشعار دائن لشركة الاتحاد الشرقية للتصنيع للعميل 4000
+### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a><span data-ttu-id="64548-333">يتم ترحيل إشعار دائن لشركة الاتحاد الشرقية للتصنيع للعميل 4000</span><span class="sxs-lookup"><span data-stu-id="64548-333">Credit note is posted to Fabrikam East for customer 4000</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-334">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-334">Account</span></span>                             | <span data-ttu-id="64548-335">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-335">Debit amount</span></span> | <span data-ttu-id="64548-336">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-336">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| مرتجعات المبيعات (شركة الاتحاد الشرقية للتصنيع)       | 25.00        |               |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) |              | 25.00         |
+| <span data-ttu-id="64548-337">مرتجعات المبيعات (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-337">Sales returns (Fabrikam East)</span></span>       | <span data-ttu-id="64548-338">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-338">25.00</span></span>        |               |
+| <span data-ttu-id="64548-339">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-339">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="64548-340">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-340">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a>يتم ترحيل الدفعة إلى شركة الاتحاد للتصنيع للعميل 4000
+### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a><span data-ttu-id="64548-341">يتم ترحيل الدفعة إلى شركة الاتحاد للتصنيع للعميل 4000</span><span class="sxs-lookup"><span data-stu-id="64548-341">Payment is posted to Fabrikam for customer 4000</span></span>
 
-| الحساب                        | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-342">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-342">Account</span></span>                        | <span data-ttu-id="64548-343">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-343">Debit amount</span></span> | <span data-ttu-id="64548-344">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-344">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| المبلغ النقدي (شركة الاتحاد للتصنيع)                | 75.00        |               |
-| الحسابات المدينة (شركة الاتحاد للتصنيع) |              | 75.00         |
+| <span data-ttu-id="64548-345">المبلغ النقدي (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-345">Cash (Fabrikam)</span></span>                | <span data-ttu-id="64548-346">75.00</span><span class="sxs-lookup"><span data-stu-id="64548-346">75.00</span></span>        |               |
+| <span data-ttu-id="64548-347">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-347">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="64548-348">75.00</span><span class="sxs-lookup"><span data-stu-id="64548-348">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>تتم تسوية دفعة شركة الاتحاد للتصنيع بفاتورة شركة الاتحاد الغربية للتصنيع والإشعار الدائن لشركة الاتحاد الشرقية للتصنيع
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="64548-349">تتم تسوية دفعة شركة الاتحاد للتصنيع بفاتورة شركة الاتحاد الغربية للتصنيع والإشعار الدائن لشركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-349">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**ترحيل شركة الاتحاد للتصنيع**
+<span data-ttu-id="64548-350">**ترحيل شركة الاتحاد للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-350">**Fabrikam posting**</span></span>
 
-| الحساب                           | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-351">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-351">Account</span></span>                           | <span data-ttu-id="64548-352">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-352">Debit amount</span></span> | <span data-ttu-id="64548-353">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-353">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| مستحق من شركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع) | 25.00        |               |
-| الحسابات المدينة (شركة الاتحاد للتصنيع)    |              | 25.00         |
-| الحسابات المدينة (شركة الاتحاد للتصنيع)    | 100.00       |               |
-| مستحق لشركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)   |              | 100.00        |
+| <span data-ttu-id="64548-354">مستحق من شركة الاتحاد الشرقية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-354">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="64548-355">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-355">25.00</span></span>        |               |
+| <span data-ttu-id="64548-356">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-356">Accounts receivable (Fabrikam)</span></span>    |              | <span data-ttu-id="64548-357">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-357">25.00</span></span>         |
+| <span data-ttu-id="64548-358">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-358">Accounts receivable (Fabrikam)</span></span>    | <span data-ttu-id="64548-359">100.00</span><span class="sxs-lookup"><span data-stu-id="64548-359">100.00</span></span>       |               |
+| <span data-ttu-id="64548-360">مستحق لشركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-360">Due to Fabrikam West (Fabrikam)</span></span>   |              | <span data-ttu-id="64548-361">100.00</span><span class="sxs-lookup"><span data-stu-id="64548-361">100.00</span></span>        |
 
-**ترحيل شركة الاتحاد الشرقية للتصنيع**
+<span data-ttu-id="64548-362">**ترحيل شركة الاتحاد الشرقية للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-362">**Fabrikam East posting**</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-363">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-363">Account</span></span>                             | <span data-ttu-id="64548-364">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-364">Debit amount</span></span> | <span data-ttu-id="64548-365">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-365">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) | 25.00        |               |
-| مستحق لشركة الاتحاد للتصنيع (شركة الاتحاد الشرقية للتصنيع)     |              | 25.00         |
+| <span data-ttu-id="64548-366">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-366">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="64548-367">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-367">25.00</span></span>        |               |
+| <span data-ttu-id="64548-368">مستحق لشركة الاتحاد للتصنيع (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-368">Due to Fabrikam (Fabrikam East)</span></span>     |              | <span data-ttu-id="64548-369">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-369">25.00</span></span>         |
 
-**ترحيل شركة الاتحاد الغربية للتصنيع**
+<span data-ttu-id="64548-370">**ترحيل شركة الاتحاد الغربية للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-370">**Fabrikam West posting**</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-371">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-371">Account</span></span>                             | <span data-ttu-id="64548-372">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-372">Debit amount</span></span> | <span data-ttu-id="64548-373">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-373">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| مستحق من شركة الاتحاد للتصنيع (شركة الاتحاد الغربية للتصنيع)   | 100.00       |               |
-| الحسابات المدينة (شركة الاتحاد الغربية للتصنيع) |              | 100.00        |
+| <span data-ttu-id="64548-374">مستحق من شركة الاتحاد للتصنيع (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-374">Due from Fabrikam (Fabrikam West)</span></span>   | <span data-ttu-id="64548-375">100.00</span><span class="sxs-lookup"><span data-stu-id="64548-375">100.00</span></span>       |               |
+| <span data-ttu-id="64548-376">الحسابات المدينة (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-376">Accounts receivable (Fabrikam West)</span></span> |              | <span data-ttu-id="64548-377">100.00</span><span class="sxs-lookup"><span data-stu-id="64548-377">100.00</span></span>        |
 
-## <a name="example-6-customer-credit-note-without-primary-payment"></a>مثال 6: إشعار دائن للعميل بدون عملية دفع أولية
-تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 75.00 من العميل 4000، شركة الرباط التجارية. وتتم تسوية الدفعة بفاتورة مفتوحة للعميل 1000 بشركة الاتحاد الغربية للتصنيع وإشعار دائن مفتوح للعميل 4000 بشركة الاتحاد الشرقية للتصنيع. ولا يتم تحديد عملية الدفع كعملية دفع أولية في صفحة **تسوية الحركات**.
+## <a name="example-6-customer-credit-note-without-primary-payment"></a><span data-ttu-id="64548-378">مثال 6: إشعار دائن للعميل بدون عملية دفع أولية</span><span class="sxs-lookup"><span data-stu-id="64548-378">Example 6: Customer credit note without primary payment</span></span>
+<span data-ttu-id="64548-379">تتلقى شركة الاتحاد للتصنيع دفعة تبلغ 75.00 من العميل 4000، شركة الرباط التجارية.</span><span class="sxs-lookup"><span data-stu-id="64548-379">Fabrikam receives a payment of 75.00 from customer 4000, Northwind Traders.</span></span> <span data-ttu-id="64548-380">وتتم تسوية الدفعة بفاتورة مفتوحة للعميل 1000 بشركة الاتحاد الغربية للتصنيع وإشعار دائن مفتوح للعميل 4000 بشركة الاتحاد الشرقية للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="64548-380">The payment is settled with an open invoice for Fabrikam West customer 10000 and an open credit note for Fabrikam East customer 4000.</span></span> <span data-ttu-id="64548-381">ولا يتم تحديد عملية الدفع كعملية دفع أولية في صفحة **تسوية الحركات**.</span><span class="sxs-lookup"><span data-stu-id="64548-381">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>يتم ترحيل الفاتورة إلى شركة الاتحاد الغربية للتصنيع للعميل 10000
+### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a><span data-ttu-id="64548-382">يتم ترحيل الفاتورة إلى شركة الاتحاد الغربية للتصنيع للعميل 10000</span><span class="sxs-lookup"><span data-stu-id="64548-382">Invoice is posted to Fabrikam West for customer 10000</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-383">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-383">Account</span></span>                             | <span data-ttu-id="64548-384">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-384">Debit amount</span></span> | <span data-ttu-id="64548-385">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-385">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد الغربية للتصنيع) | 100.00       |               |
-| المبيعات (شركة الاتحاد الغربية للتصنيع)               |              | 100.00        |
+| <span data-ttu-id="64548-386">الحسابات المدينة (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-386">Accounts receivable (Fabrikam West)</span></span> | <span data-ttu-id="64548-387">100.00</span><span class="sxs-lookup"><span data-stu-id="64548-387">100.00</span></span>       |               |
+| <span data-ttu-id="64548-388">المبيعات (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-388">Sales (Fabrikam West)</span></span>               |              | <span data-ttu-id="64548-389">100.00</span><span class="sxs-lookup"><span data-stu-id="64548-389">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a>يتم ترحيل إشعار دائن لشركة الاتحاد الشرقية للتصنيع للعميل 4000
+### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a><span data-ttu-id="64548-390">يتم ترحيل إشعار دائن لشركة الاتحاد الشرقية للتصنيع للعميل 4000</span><span class="sxs-lookup"><span data-stu-id="64548-390">Credit note is posted to Fabrikam East for customer 4000</span></span>
 
-| الحساب                             | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-391">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-391">Account</span></span>                             | <span data-ttu-id="64548-392">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-392">Debit amount</span></span> | <span data-ttu-id="64548-393">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-393">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| مرتجعات المبيعات (شركة الاتحاد الشرقية للتصنيع)       | 25.00        |               |
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) |              | 25.00         |
+| <span data-ttu-id="64548-394">مرتجعات المبيعات (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-394">Sales returns (Fabrikam East)</span></span>       | <span data-ttu-id="64548-395">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-395">25.00</span></span>        |               |
+| <span data-ttu-id="64548-396">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-396">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="64548-397">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-397">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a>يتم ترحيل الدفعة إلى شركة الاتحاد للتصنيع للعميل 4000
+### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a><span data-ttu-id="64548-398">يتم ترحيل الدفعة إلى شركة الاتحاد للتصنيع للعميل 4000</span><span class="sxs-lookup"><span data-stu-id="64548-398">Payment is posted to Fabrikam for customer 4000</span></span>
 
-| الحساب                        | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-399">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-399">Account</span></span>                        | <span data-ttu-id="64548-400">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-400">Debit amount</span></span> | <span data-ttu-id="64548-401">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-401">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| المبلغ النقدي (شركة الاتحاد للتصنيع)                | 75.00        |               |
-| الحسابات المدينة (شركة الاتحاد للتصنيع) |              | 75.00         |
+| <span data-ttu-id="64548-402">المبلغ النقدي (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-402">Cash (Fabrikam)</span></span>                | <span data-ttu-id="64548-403">75.00</span><span class="sxs-lookup"><span data-stu-id="64548-403">75.00</span></span>        |               |
+| <span data-ttu-id="64548-404">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-404">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="64548-405">75.00</span><span class="sxs-lookup"><span data-stu-id="64548-405">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>تتم تسوية دفعة شركة الاتحاد للتصنيع بفاتورة شركة الاتحاد الغربية للتصنيع والإشعار الدائن لشركة الاتحاد الشرقية للتصنيع
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="64548-406">تتم تسوية دفعة شركة الاتحاد للتصنيع بفاتورة شركة الاتحاد الغربية للتصنيع والإشعار الدائن لشركة الاتحاد الشرقية للتصنيع</span><span class="sxs-lookup"><span data-stu-id="64548-406">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**ترحيل شركة الاتحاد للتصنيع**
+<span data-ttu-id="64548-407">**ترحيل شركة الاتحاد للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-407">**Fabrikam posting**</span></span>
 
-| الحساب                         | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-408">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-408">Account</span></span>                         | <span data-ttu-id="64548-409">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-409">Debit amount</span></span> | <span data-ttu-id="64548-410">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-410">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد للتصنيع)  | 75.00        |               |
-| مستحق لشركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع) |              | 75.00         |
+| <span data-ttu-id="64548-411">الحسابات المدينة (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-411">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="64548-412">75.00</span><span class="sxs-lookup"><span data-stu-id="64548-412">75.00</span></span>        |               |
+| <span data-ttu-id="64548-413">مستحق لشركة الاتحاد الغربية للتصنيع (شركة الاتحاد للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-413">Due to Fabrikam West (Fabrikam)</span></span> |              | <span data-ttu-id="64548-414">75.00</span><span class="sxs-lookup"><span data-stu-id="64548-414">75.00</span></span>         |
 
-**ترحيل شركة الاتحاد الشرقية للتصنيع**
+<span data-ttu-id="64548-415">**ترحيل شركة الاتحاد الشرقية للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-415">**Fabrikam East posting**</span></span>
 
-| الحساب                              | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-416">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-416">Account</span></span>                              | <span data-ttu-id="64548-417">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-417">Debit amount</span></span> | <span data-ttu-id="64548-418">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-418">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)  | 25.00        |               |
-| مستحق لشركة الاتحاد الغربية للتصنيع (شركة الاتحاد الشرقية للتصنيع) |              | 25.00         |
+| <span data-ttu-id="64548-419">الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-419">Accounts receivable (Fabrikam East)</span></span>  | <span data-ttu-id="64548-420">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-420">25.00</span></span>        |               |
+| <span data-ttu-id="64548-421">مستحق لشركة الاتحاد الغربية للتصنيع (شركة الاتحاد الشرقية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-421">Due to Fabrikam West (Fabrikam East)</span></span> |              | <span data-ttu-id="64548-422">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-422">25.00</span></span>         |
 
-**ترحيل شركة الاتحاد الغربية للتصنيع**
+<span data-ttu-id="64548-423">**ترحيل شركة الاتحاد الغربية للتصنيع**</span><span class="sxs-lookup"><span data-stu-id="64548-423">**Fabrikam West posting**</span></span>
 
-| الحساب                                | المبلغ المدين | المبلغ الدائن |
+| <span data-ttu-id="64548-424">الحساب</span><span class="sxs-lookup"><span data-stu-id="64548-424">Account</span></span>                                | <span data-ttu-id="64548-425">المبلغ المدين</span><span class="sxs-lookup"><span data-stu-id="64548-425">Debit amount</span></span> | <span data-ttu-id="64548-426">المبلغ الدائن</span><span class="sxs-lookup"><span data-stu-id="64548-426">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| مستحق من شركة الاتحاد للتصنيع (شركة الاتحاد الغربية للتصنيع)      | 75.00        |               |
-| الحسابات المدينة (شركة الاتحاد الغربية للتصنيع)    |              | 75.00         |
-| مستحق من شركة الاتحاد الشرقية للتصنيع (شركة الاتحاد الغربية للتصنيع) | 25.00        |               |
-| الحسابات المدينة (شركة الاتحاد الغربية للتصنيع)    |              | 25.00         |
+| <span data-ttu-id="64548-427">مستحق من شركة الاتحاد للتصنيع (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-427">Due from Fabrikam (Fabrikam West)</span></span>      | <span data-ttu-id="64548-428">75.00</span><span class="sxs-lookup"><span data-stu-id="64548-428">75.00</span></span>        |               |
+| <span data-ttu-id="64548-429">الحسابات المدينة (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-429">Accounts receivable (Fabrikam West)</span></span>    |              | <span data-ttu-id="64548-430">75.00</span><span class="sxs-lookup"><span data-stu-id="64548-430">75.00</span></span>         |
+| <span data-ttu-id="64548-431">مستحق من شركة الاتحاد الشرقية للتصنيع (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-431">Due from Fabrikam East (Fabrikam West)</span></span> | <span data-ttu-id="64548-432">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-432">25.00</span></span>        |               |
+| <span data-ttu-id="64548-433">الحسابات المدينة (شركة الاتحاد الغربية للتصنيع)</span><span class="sxs-lookup"><span data-stu-id="64548-433">Accounts receivable (Fabrikam West)</span></span>    |              | <span data-ttu-id="64548-434">25.00</span><span class="sxs-lookup"><span data-stu-id="64548-434">25.00</span></span>         |
 
 
 

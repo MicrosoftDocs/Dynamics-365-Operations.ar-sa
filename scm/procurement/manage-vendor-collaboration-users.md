@@ -19,79 +19,79 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ec7ed3a81d296e9bef4d26f1756b73883d560cb5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7dd5a1d9da4b648f07e87ad7921ac10ea92bb460
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="manage-vendor-collaboration-users"></a>إدارة مستخدمي تعاون المورد‬
+# <a name="manage-vendor-collaboration-users"></a><span data-ttu-id="4b187-103">إدارة مستخدمي تعاون المورد‬</span><span class="sxs-lookup"><span data-stu-id="4b187-103">Manage vendor collaboration users</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-يصف هذا الموضوع كيف يمكنك طلب توفير مستخدمين جدد لتعاون الموردين، وكيفية إضافة جهات اتصال جديدة لتعاون الموردين. 
+<span data-ttu-id="4b187-104">يصف هذا الموضوع كيف يمكنك طلب توفير مستخدمين جدد لتعاون الموردين، وكيفية إضافة جهات اتصال جديدة لتعاون الموردين.</span><span class="sxs-lookup"><span data-stu-id="4b187-104">This topic describes how you can request the provisioning of new vendor collaboration users, and how to add new vendor collaboration contacts.</span></span> 
 
-تعرض واجهة تعاون المورد في Microsoft Dynamics 365 for Finance and Operations معلومات حول أوامر الشراء والفواتير وشحن مخزون للموردين الخارجيين. يمكنك إنشاء جهات اتصال جديدة لتعاون المورد وطلب توفير مستخدمين جدد إذا كنت تعمل كمورد خارجي لديه دور الأمان **مسؤول المورد (خارجي)** أو أذونات مماثلة. ويمكنك أيضًا تنفيذ هذه المهام إذا كنت تعمل كأحد أخصائيي التدبير‬. في هذا الموضوع، يشير هذا الدور إلى أخصائي التدبير‬ الذين يعمل داخل الشركة التي تملك مثيل Finance and Operations. ‏‫لمزيد من المعلومات حول كيفية استخدام تعاون المورد إذا كنت موردًا خارجيًا، راجع [المورد مع العملاء](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+<span data-ttu-id="4b187-105">تعرض واجهة تعاون المورد في Microsoft Dynamics 365 for Finance and Operations معلومات حول أوامر الشراء والفواتير وشحن مخزون للموردين الخارجيين.</span><span class="sxs-lookup"><span data-stu-id="4b187-105">The vendor collaboration interface in Microsoft Dynamics 365 for Finance and Operations exposes information about purchase orders, invoices, and consignment stock to external vendors.</span></span> <span data-ttu-id="4b187-106">يمكنك إنشاء جهات اتصال جديدة لتعاون المورد وطلب توفير مستخدمين جدد إذا كنت تعمل كمورد خارجي لديه دور الأمان **مسؤول المورد (خارجي)** أو أذونات مماثلة.</span><span class="sxs-lookup"><span data-stu-id="4b187-106">You can create new vendor collaboration contacts and request that new users are provisioned if you're working as an external vendor with the **Vendor admin (external)** security role, or similar permissions.</span></span> <span data-ttu-id="4b187-107">ويمكنك أيضًا تنفيذ هذه المهام إذا كنت تعمل كأحد أخصائيي التدبير‬.</span><span class="sxs-lookup"><span data-stu-id="4b187-107">You can also perform these tasks if you're working as a procurement professional.</span></span> <span data-ttu-id="4b187-108">في هذا الموضوع، يشير هذا الدور إلى أخصائي التدبير‬ الذين يعمل داخل الشركة التي تملك مثيل Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4b187-108">In this topic, this role refers to a procurement professional who is working within the company that owns the instance of Finance and Operations.</span></span> <span data-ttu-id="4b187-109">‏‫لمزيد من المعلومات حول كيفية استخدام تعاون المورد إذا كنت موردًا خارجيًا، راجع [المورد مع العملاء](vendor-collaboration-work-customers-dynamics-365-operations.md).</span><span class="sxs-lookup"><span data-stu-id="4b187-109">For more information about how to use vendor collaboration if you're an external vendor, see [Vendor with customers](vendor-collaboration-work-customers-dynamics-365-operations.md).</span></span>  
 
-لمزيد من المعلومات حول كيفية استخدام تعاون المورد إذا كنت أخصائي تدبير، راجع [‬‏‫تعاون المورد مع الموردين الخارجيين‬‏‫](vendor-collaboration-work-external-vendors.md).
+<span data-ttu-id="4b187-110">لمزيد من المعلومات حول كيفية استخدام تعاون المورد إذا كنت أخصائي تدبير، راجع [‬‏‫تعاون المورد مع الموردين الخارجيين‬‏‫](vendor-collaboration-work-external-vendors.md).</span><span class="sxs-lookup"><span data-stu-id="4b187-110">For more information about how to use vendor collaboration if you're a procurement professional, see [Vendor collaboration to with external vendors](vendor-collaboration-work-external-vendors.md).</span></span>
 
-## <a name="add-new-vendor-collaboration-contacts"></a>إضافة جهات اتصال جديدة لتعاون المورد
-إذا كنت تريد منح حق الوصول إلى تعاون المورد، فيجب إضافته أولاً إضافته كجهة اتصال لتعاون المورد. قد تحتاج أيضًا إلى إضافة جهات اتصال للموظفين الموجودين في الشركة الذين لن يستخدموا تعاون المورد. على سبيل المثال، قد يكون هؤلاء نقطة اتصال لأنواع أخرى من المعلومات المتعلقة بالتدبير. تتم إضافة جهات الاتصال الجديدة على صفحة **‎كافة جهات الاتصال**، والتي يتم الوصول إليها من **تعاون المورد** &gt; قائمة **جهات الاتصال**. لإضافة جهة اتصال جديدة
+## <a name="add-new-vendor-collaboration-contacts"></a><span data-ttu-id="4b187-111">إضافة جهات اتصال جديدة لتعاون المورد</span><span class="sxs-lookup"><span data-stu-id="4b187-111">Add new vendor collaboration contacts</span></span>
+<span data-ttu-id="4b187-112">إذا كنت تريد منح حق الوصول إلى تعاون المورد، فيجب إضافته أولاً إضافته كجهة اتصال لتعاون المورد.</span><span class="sxs-lookup"><span data-stu-id="4b187-112">If you want someone to have access to vendor collaboration they first have to be added as a vendor collaboration contact.</span></span> <span data-ttu-id="4b187-113">قد تحتاج أيضًا إلى إضافة جهات اتصال للموظفين الموجودين في الشركة الذين لن يستخدموا تعاون المورد.</span><span class="sxs-lookup"><span data-stu-id="4b187-113">You may also want to add contacts for employees in your company who won't use vendor collaboration.</span></span> <span data-ttu-id="4b187-114">على سبيل المثال، قد يكون هؤلاء نقطة اتصال لأنواع أخرى من المعلومات المتعلقة بالتدبير.</span><span class="sxs-lookup"><span data-stu-id="4b187-114">For example, they could be the point of contact for other kinds of procurement information.</span></span> <span data-ttu-id="4b187-115">تتم إضافة جهات الاتصال الجديدة على صفحة **‎كافة جهات الاتصال**، والتي يتم الوصول إليها من **تعاون المورد** &gt; قائمة **جهات الاتصال**.</span><span class="sxs-lookup"><span data-stu-id="4b187-115">New contacts are added on the **All contacts** page, which is accessed from the **Vendor collaboration** &gt; **Contacts** menu.</span></span> <span data-ttu-id="4b187-116">لإضافة جهة اتصال جديدة</span><span class="sxs-lookup"><span data-stu-id="4b187-116">To add a new contact:</span></span>
 
-1.  انقر فوق **جديد.**
-2.  أدخل تفاصيل الشخص الذي تعتبره جهة اتصال.
-3.  اختر الكيان القانوني الذي يمثله هذا الشخص في شركتك، والكيان القانوني الذي سيعمل معه في الشركة التي سوف يتعاون معها. يمكنك القيام بذلك عن طريق تحديد الزوج **الكيان القانوني في شركتي**/**الكيان القانوني في شركة العميل‎‏**.
-4.  انقر فوق **إنشاء.**
+1.  <span data-ttu-id="4b187-117">انقر فوق **جديد.**</span><span class="sxs-lookup"><span data-stu-id="4b187-117">Click **New.**</span></span>
+2.  <span data-ttu-id="4b187-118">أدخل تفاصيل الشخص الذي تعتبره جهة اتصال.</span><span class="sxs-lookup"><span data-stu-id="4b187-118">Enter the contact person details.</span></span>
+3.  <span data-ttu-id="4b187-119">اختر الكيان القانوني الذي يمثله هذا الشخص في شركتك، والكيان القانوني الذي سيعمل معه في الشركة التي سوف يتعاون معها.</span><span class="sxs-lookup"><span data-stu-id="4b187-119">Choose which legal entity they're representing in your company, and which legal entity they'll work with in the company that they'll collaborate with.</span></span> <span data-ttu-id="4b187-120">يمكنك القيام بذلك عن طريق تحديد الزوج **الكيان القانوني في شركتي**/**الكيان القانوني في شركة العميل‎‏**.</span><span class="sxs-lookup"><span data-stu-id="4b187-120">You do this by selecting a **Legal entity in my company**/**Legal entity in customer company** pair.</span></span>
+4.  <span data-ttu-id="4b187-121">انقر فوق **إنشاء.**</span><span class="sxs-lookup"><span data-stu-id="4b187-121">Click **Create.**</span></span>
 
-إذا أردت حذف جهة اتصال، فمن الممكن فقط حذف تلك التي قمت بإنشائها.
+<span data-ttu-id="4b187-122">إذا أردت حذف جهة اتصال، فمن الممكن فقط حذف تلك التي قمت بإنشائها.</span><span class="sxs-lookup"><span data-stu-id="4b187-122">If you want to delete a contact, it's only possible to delete the ones that you've created.</span></span>
 
-## <a name="vendor-collaboration-user-requests"></a>طلبات مستخدم تعاون المورد
-يمكن رفع طلبات مستخدم تعاون المورد من قِبل أخصائي تدبير أو مسؤول مورد خارجي.
+## <a name="vendor-collaboration-user-requests"></a><span data-ttu-id="4b187-123">طلبات مستخدم تعاون المورد</span><span class="sxs-lookup"><span data-stu-id="4b187-123">Vendor collaboration user requests</span></span>
+<span data-ttu-id="4b187-124">يمكن رفع طلبات مستخدم تعاون المورد من قِبل أخصائي تدبير أو مسؤول مورد خارجي.</span><span class="sxs-lookup"><span data-stu-id="4b187-124">Vendor collaboration user requests can be raised by a procurement professional, or by an external vendor administrator.</span></span>
 
--   إذا كنت موردًا خارجيًا، فيمكنك إرسال الطلبات من صفحة **كافة جهات الاتصال** ضمن الوحدة النمطية **تعاون المورد**.
--   إذا كنت أخصائي تدبير، فيمكنك إرسال الطلبات من صفحة **عرض جهات الاتصال**. لإجراء ذلك، في سجل المورد، في مقطع **الإعداد‏‎** في جزء الإجراءات، حدد **جهات الاتصال** &gt; **عرض جهات الاتصال**.
+-   <span data-ttu-id="4b187-125">إذا كنت موردًا خارجيًا، فيمكنك إرسال الطلبات من صفحة **كافة جهات الاتصال** ضمن الوحدة النمطية **تعاون المورد**.</span><span class="sxs-lookup"><span data-stu-id="4b187-125">If you're an external vendor, you submit requests from the **All contacts** page within the **Vendor collaboration** module.</span></span>
+-   <span data-ttu-id="4b187-126">إذا كنت أخصائي تدبير، فيمكنك إرسال الطلبات من صفحة **عرض جهات الاتصال**.</span><span class="sxs-lookup"><span data-stu-id="4b187-126">If you're a procurement professional, you submit requests from the **View contacts** page.</span></span> <span data-ttu-id="4b187-127">لإجراء ذلك، في سجل المورد، في مقطع **الإعداد‏‎** في جزء الإجراءات، حدد **جهات الاتصال** &gt; **عرض جهات الاتصال**.</span><span class="sxs-lookup"><span data-stu-id="4b187-127">To do this, on the vendor record, in the **Setup** section in the Action pane, select **Contacts** &gt; **View contacts**.</span></span>
 
-يمكنك تقديم طلب توفير مستخدم أو إلغاء تنشيط مستخدم أو تعديل أدوار الأمان. إذا كنت مسؤول مورد خارجي، فيجب أن تكون مسجلاً كشخص يعتبر جهة اتصال لحسابات المورد التي تريد تقديم طلبات مستخدم لها، ويجب أن يتوفر لديك حق الوصول إلى واجهة تعاون المورد لحسابات المورد هذه.  
+<span data-ttu-id="4b187-128">يمكنك تقديم طلب توفير مستخدم أو إلغاء تنشيط مستخدم أو تعديل أدوار الأمان.</span><span class="sxs-lookup"><span data-stu-id="4b187-128">You can make a request to provision a user, to inactivate a user, or to modify security roles.</span></span> <span data-ttu-id="4b187-129">إذا كنت مسؤول مورد خارجي، فيجب أن تكون مسجلاً كشخص يعتبر جهة اتصال لحسابات المورد التي تريد تقديم طلبات مستخدم لها، ويجب أن يتوفر لديك حق الوصول إلى واجهة تعاون المورد لحسابات المورد هذه.</span><span class="sxs-lookup"><span data-stu-id="4b187-129">If you're an external vendor administrator, you must be registered as a contact person for the vendor accounts that you want to make user requests for, and you must have access to the vendor collaboration interface for those vendor accounts.</span></span>  
 
-يُضاف الطلب عند إرساله إلى قائمة **طلبات مستخدم تعاون المورد‬** في الوحدة النمطية **تعاون المورد**، وإلى قائمة **طلب مستخدم تعاون المورد‬** في الوحدة النمطية **التدبير وتحديد الموارد** (يتعذر على المستخدمين الخارجيين الوصول إلى الوحدة النمطية "التدبير وتحديد الموارد").
+<span data-ttu-id="4b187-130">يُضاف الطلب عند إرساله إلى قائمة **طلبات مستخدم تعاون المورد‬** في الوحدة النمطية **تعاون المورد**، وإلى قائمة **طلب مستخدم تعاون المورد‬** في الوحدة النمطية **التدبير وتحديد الموارد** (يتعذر على المستخدمين الخارجيين الوصول إلى الوحدة النمطية "التدبير وتحديد الموارد").</span><span class="sxs-lookup"><span data-stu-id="4b187-130">When a request is submitted it is added to the **Vendor collaboration user requests** list in the **Vendor collaboration** module, and to the **Vendor collaboration user request** list in the **Procurement and sourcing** module (the Procurement and sourcing module is not accessible to external users).</span></span>
 
-### <a name="provision-a-user"></a>توفير مستخدم
+### <a name="provision-a-user"></a><span data-ttu-id="4b187-131">توفير مستخدم</span><span class="sxs-lookup"><span data-stu-id="4b187-131">Provision a user</span></span>
 
-قبل أن تتمكن من طلب توفير مستخدم جديد، يجب إعداد ذلك الشخص كجهة اتصال لحساب مورد واحد أو أكثر. لإنشاء طلب لمستخدم تعاون مورد جديد:
+<span data-ttu-id="4b187-132">قبل أن تتمكن من طلب توفير مستخدم جديد، يجب إعداد ذلك الشخص كجهة اتصال لحساب مورد واحد أو أكثر.</span><span class="sxs-lookup"><span data-stu-id="4b187-132">Before you can request that a new user is provisioned, that person must be set up as a contact for one or more vendor accounts.</span></span> <span data-ttu-id="4b187-133">لإنشاء طلب لمستخدم تعاون مورد جديد:</span><span class="sxs-lookup"><span data-stu-id="4b187-133">To create a request for a new vendor collaboration user:</span></span>
 
-1.  في صفحة **كافة جهات الاتصال**، انقر فوق **توفير مستخدم مورد**.
-2.  أدخل عنوان بريد إلكتروني للمستخدم. سيتم استخدام هذا العنوان من قبل المستخدم لتسجيل الدخول إلى Finance and Operations. إذا كان عنوان البريد الإلكتروني ينتمي إلى مجال مسجل كمستأجر مع Microsoft Azure، فيجب أن يكون عنوان البريد الإلكتروني هذا حسابًا موجودًا في Azure Active Directory (ADD) لكي تكتمل عملية التوفير بنجاح. أما في حال عدم انتماء عنوان البريد الإلكتروني إلى مجال مسجّل مع Microsoft Azure، فسيتم إنشاء حساب ADD كجزء من عملية التوفير وسيتلقى المستخدم الجديد دعوة بالبريد. لا يمكن استخدام عناوين البريد الإلكتروني للمستهلك التي تتضمن مجالات مثل @hotmail.com أو @gmail.com أو @comcast.net لتسجيل مستخدم Finance and Operations.
-3.  عيّن الخيار **السماح بالوصول إلى تعاون المورد‬‬** إلى **نعم** لجميع الكيانات القانونية التي يحتاج المستخدم للوصول إلى.
-4.  في المقطع **تعيين أدوار المستخدم**، حدد خانة الاختيار **بتعيين** لأدوار الأمان التي يجب أن تكون لدى المستخدم الجديد.
-5.  انقر فوق **تقديم**.
+1.  <span data-ttu-id="4b187-134">في صفحة **كافة جهات الاتصال**، انقر فوق **توفير مستخدم مورد**.</span><span class="sxs-lookup"><span data-stu-id="4b187-134">On the **All contacts** page, click **Provision vendor user**.</span></span>
+2.  <span data-ttu-id="4b187-135">أدخل عنوان بريد إلكتروني للمستخدم.</span><span class="sxs-lookup"><span data-stu-id="4b187-135">Enter an email address for the user.</span></span> <span data-ttu-id="4b187-136">سيتم استخدام هذا العنوان من قبل المستخدم لتسجيل الدخول إلى Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4b187-136">This address will be used by the user to log onto Finance and Operations.</span></span> <span data-ttu-id="4b187-137">إذا كان عنوان البريد الإلكتروني ينتمي إلى مجال مسجل كمستأجر مع Microsoft Azure، فيجب أن يكون عنوان البريد الإلكتروني هذا حسابًا موجودًا في Azure Active Directory (ADD) لكي تكتمل عملية التوفير بنجاح.</span><span class="sxs-lookup"><span data-stu-id="4b187-137">If the email address belongs to a domain registered as a tenant with Microsoft Azure, then the email address has to be an existing Azure Active Directory (ADD) account in order for the provisioning process to complete successfully.</span></span> <span data-ttu-id="4b187-138">أما في حال عدم انتماء عنوان البريد الإلكتروني إلى مجال مسجّل مع Microsoft Azure، فسيتم إنشاء حساب ADD كجزء من عملية التوفير وسيتلقى المستخدم الجديد دعوة بالبريد.</span><span class="sxs-lookup"><span data-stu-id="4b187-138">If the email address does not belong to a domain registered with Microsoft Azure, an ADD account will be created as part of the provisioning process and the new user will receive an invitation mail.</span></span> <span data-ttu-id="4b187-139">لا يمكن استخدام عناوين البريد الإلكتروني للمستهلك التي تتضمن مجالات مثل @hotmail.com أو @gmail.com أو @comcast.net لتسجيل مستخدم Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4b187-139">Consumer email addresses with domains such as @hotmail.com, @gmail.com, or @comcast.net cannot be used to register a Finance and Operations user.</span></span>
+3.  <span data-ttu-id="4b187-140">عيّن الخيار **السماح بالوصول إلى تعاون المورد‬‬** إلى **نعم** لجميع الكيانات القانونية التي يحتاج المستخدم للوصول إلى.</span><span class="sxs-lookup"><span data-stu-id="4b187-140">Set the **Vendor collaboration access allowed** option to **Yes** for all the legal entities that the user needs access to.</span></span>
+4.  <span data-ttu-id="4b187-141">في المقطع **تعيين أدوار المستخدم**، حدد خانة الاختيار **بتعيين** لأدوار الأمان التي يجب أن تكون لدى المستخدم الجديد.</span><span class="sxs-lookup"><span data-stu-id="4b187-141">In the **Assign user roles** section, select the **Assign** check box for the security roles that the new user should have.</span></span>
+5.  <span data-ttu-id="4b187-142">انقر فوق **تقديم**.</span><span class="sxs-lookup"><span data-stu-id="4b187-142">Click **Submit**.</span></span>
 
-عند إرسال طلب مستخدم مورد، يتم تعيين الحقل **السماح بالوصول إلى تعاون المورد** إلى **نعم** لحساب المورد المحدد ويبدأ تشغيل سير عمل طلب المستخدم. كجزء من سير العمل، يتم إنشاء مستخدم جديد في Finance and Operations، ويتم تعيين أدوار الأمان. علاوةً على ذلك، يتم تنشيط خدمة Azure B2B التي تبدأ التفاعل مع مدخل Azure وتقوم بإقران حساب AAD جديد أو موجود بحساب مستخدم Finance and Operations.
+<span data-ttu-id="4b187-143">عند إرسال طلب مستخدم مورد، يتم تعيين الحقل **السماح بالوصول إلى تعاون المورد** إلى **نعم** لحساب المورد المحدد ويبدأ تشغيل سير عمل طلب المستخدم.</span><span class="sxs-lookup"><span data-stu-id="4b187-143">When the vendor user request is submitted, the **Vendor collaboration access allowed** field is set to **Yes** for the selected vendor account and a user request workflow is started.</span></span> <span data-ttu-id="4b187-144">كجزء من سير العمل، يتم إنشاء مستخدم جديد في Finance and Operations، ويتم تعيين أدوار الأمان.</span><span class="sxs-lookup"><span data-stu-id="4b187-144">As part of the workflow, a new user is created in Finance and Operations, and security roles are assigned.</span></span> <span data-ttu-id="4b187-145">علاوةً على ذلك، يتم تنشيط خدمة Azure B2B التي تبدأ التفاعل مع مدخل Azure وتقوم بإقران حساب AAD جديد أو موجود بحساب مستخدم Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4b187-145">In addition, an Azure B2B service is activated which initiates interaction with Azure portal and associates a new or existing AAD account with the Finance and Operations user account.</span></span>
 
-### <a name="inactivate-a-user"></a>إلغاء تنشيط مستخدم
+### <a name="inactivate-a-user"></a><span data-ttu-id="4b187-146">إلغاء تنشيط مستخدم</span><span class="sxs-lookup"><span data-stu-id="4b187-146">Inactivate a user</span></span>
 
-هناك طريقتان لإزالة الوصول إلى تعاون المورد لمستخدم:
+<span data-ttu-id="4b187-147">هناك طريقتان لإزالة الوصول إلى تعاون المورد لمستخدم:</span><span class="sxs-lookup"><span data-stu-id="4b187-147">There are two ways to remove access to vendor collaboration for a user:</span></span>
 
--   في صفحة **جهات الاتصال** للمورد، قم بتعيين الخيار **السماح بالوصول إلى تعاون المورد** إلى **لا** لجهة الاتصال. يمكن إجراء ذلك بشكل فردي لكل كيان قانوني يكون الشخص جهة اتصال له. يمكن استخدام هذا الخيار فقط من قِبل أخصائي التدبير.
--   قم إلغاء تنشيط حساب المستخدم بالكامل، عن طريق إرسال طلب **إلغاء تنشيط مستخدم مورّد‬**.
+-   <span data-ttu-id="4b187-148">في صفحة **جهات الاتصال** للمورد، قم بتعيين الخيار **السماح بالوصول إلى تعاون المورد** إلى **لا** لجهة الاتصال.</span><span class="sxs-lookup"><span data-stu-id="4b187-148">On the **Contacts** page for the vendor, set the **Vendor collaboration access allowed** option to **No** for the contact.</span></span> <span data-ttu-id="4b187-149">يمكن إجراء ذلك بشكل فردي لكل كيان قانوني يكون الشخص جهة اتصال له.</span><span class="sxs-lookup"><span data-stu-id="4b187-149">This can be done individually per legal entity that the person is a contact for.</span></span> <span data-ttu-id="4b187-150">يمكن استخدام هذا الخيار فقط من قِبل أخصائي التدبير.</span><span class="sxs-lookup"><span data-stu-id="4b187-150">This option can only be used by procurement professionals.</span></span>
+-   <span data-ttu-id="4b187-151">قم إلغاء تنشيط حساب المستخدم بالكامل، عن طريق إرسال طلب **إلغاء تنشيط مستخدم مورّد‬**.</span><span class="sxs-lookup"><span data-stu-id="4b187-151">Inactivate the entire user account, by submitting an **Inactivate vendor user** request.</span></span>
 
-لطلب إلغاء تنشيط مستخدم:
+<span data-ttu-id="4b187-152">لطلب إلغاء تنشيط مستخدم:</span><span class="sxs-lookup"><span data-stu-id="4b187-152">To request that a user is inactivated:</span></span>
 
-1.  في صفحة **كافة جهات الاتصال**، انقر فوق **‎إلغاء تنشيط** **مستخدم مورّد**.
-2.  اكتب تعليقًا في الحقل **مبررات الأعمال**.
-3.  انقر فوق **تقديم**.
+1.  <span data-ttu-id="4b187-153">في صفحة **كافة جهات الاتصال**، انقر فوق **‎إلغاء تنشيط** **مستخدم مورّد**.</span><span class="sxs-lookup"><span data-stu-id="4b187-153">On the **All contacts** page, click **Inactivate** **vendor user**.</span></span>
+2.  <span data-ttu-id="4b187-154">اكتب تعليقًا في الحقل **مبررات الأعمال**.</span><span class="sxs-lookup"><span data-stu-id="4b187-154">Write a comment in the **Business justification** field.</span></span>
+3.  <span data-ttu-id="4b187-155">انقر فوق **تقديم**.</span><span class="sxs-lookup"><span data-stu-id="4b187-155">Click **Submit**.</span></span>
 
-### <a name="modify-security-roles"></a>تعديل أدوار الأمان
+### <a name="modify-security-roles"></a><span data-ttu-id="4b187-156">تعديل أدوار الأمان</span><span class="sxs-lookup"><span data-stu-id="4b187-156">Modify security roles</span></span>
 
-تعد صفحة **الاحتفاظ بأدوار المستخدمين المورّدين** هي نفسها الصفحة **توفير مستخدم مورد** باستثناء أنه يمكن تحرير قائمة أدوار الأمان.  
+<span data-ttu-id="4b187-157">تعد صفحة **الاحتفاظ بأدوار المستخدمين المورّدين** هي نفسها الصفحة **توفير مستخدم مورد** باستثناء أنه يمكن تحرير قائمة أدوار الأمان.</span><span class="sxs-lookup"><span data-stu-id="4b187-157">The **Maintain vendor user roles** page is the same as the **Provision vendor user** page except that the list of security roles can be edited.</span></span>  
 
-لطلب تعديل أدوار الأمان لمستخدم:
+<span data-ttu-id="4b187-158">لطلب تعديل أدوار الأمان لمستخدم:</span><span class="sxs-lookup"><span data-stu-id="4b187-158">To request that the security roles are modified for a user:</span></span>
 
-1.  في صفحة **كافة جهات الاتصال**، انقر فوق **الاحتفاظ** **بأدوار المستخدمين المورّدين**.
-2.  اكتب تعليقًا في الحقل **مبررات الأعمال**.
-3.  في المقطع **الاحتفاظ بأدوار المستخدمين**، حدد أدوار الأمان التي تريد تعيينها أو قم بإلغاء تحديد تلك التي تريد إزالتها.
-4.  انقر فوق **تقديم‏‎**.
+1.  <span data-ttu-id="4b187-159">في صفحة **كافة جهات الاتصال**، انقر فوق **الاحتفاظ** **بأدوار المستخدمين المورّدين**.</span><span class="sxs-lookup"><span data-stu-id="4b187-159">On the **All contacts** page, click **Maintain** **vendor user roles**.</span></span>
+2.  <span data-ttu-id="4b187-160">اكتب تعليقًا في الحقل **مبررات الأعمال**.</span><span class="sxs-lookup"><span data-stu-id="4b187-160">Write a comment in the **Business justification** field.</span></span>
+3.  <span data-ttu-id="4b187-161">في المقطع **الاحتفاظ بأدوار المستخدمين**، حدد أدوار الأمان التي تريد تعيينها أو قم بإلغاء تحديد تلك التي تريد إزالتها.</span><span class="sxs-lookup"><span data-stu-id="4b187-161">In the **Maintain user roles** section, select the security roles that you want to assign, or clear the ones that you want to remove.</span></span>
+4.  <span data-ttu-id="4b187-162">انقر فوق **تقديم‏‎**.</span><span class="sxs-lookup"><span data-stu-id="4b187-162">Click **Submit**.</span></span>
 
 
 

@@ -17,44 +17,44 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 1c367ebcd57fc2dd534587aa96349e48756c1bb6
+ms.sourcegitcommit: a5fa86bace459d694ab0a2ec289e11b0e4420932
+ms.openlocfilehash: 184f38347e2525f3efef9b0d55003a94a75380d4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>تسجيل أصناف لصنف ممكَّن للتخزين الأساسي باستخدام دفتر يومية وصول الصنف
+# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="e06cc-103">تسجيل أصناف لصنف ممكَّن للتخزين الأساسي باستخدام دفتر يومية وصول الصنف</span><span class="sxs-lookup"><span data-stu-id="e06cc-103">Register items for a basic warehousing enabled item using an item arrival journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيفية تسجيل الأصناف باستخدام دفتر يومية وصول الصنف عند استخدام "التخزين الأساسي" في الوحدة النمطية لإدارة المخزون. يتم ذلك عادة عن طريق موظف الاستقبال. يمكنك تشغيل هذا الإجراء في شركة بيانات العرض التوضيحي USMF مع قيم الأمثلة الموضحة.  إذا كنت لا تستخدم USMF، فتحتاج للحصول على أمر شراء مؤكد مع بند أمر شراء مفتوح قبل بدء هذا الدليل. يجب أن يكون الصنف في البند مخزّنًا، ويجب ألا يستخدم متغيرات المنتج وألا تكون له أبعاد تعقب. ويجب إقران الصنف بمجموعة أبعاد تخزين، حيث يكون الموقع والمستودع نشطين.
+<span data-ttu-id="e06cc-104">يوضح هذا الإجراء كيفية تسجيل الأصناف باستخدام دفتر يومية وصول الصنف عند استخدام "التخزين الأساسي" في الوحدة النمطية لإدارة المخزون.</span><span class="sxs-lookup"><span data-stu-id="e06cc-104">This procedure shows you how to register items using the item arrival journal when you are using “basic warehousing” in the Inventory management module.</span></span> <span data-ttu-id="e06cc-105">يتم ذلك عادة عن طريق موظف الاستقبال.</span><span class="sxs-lookup"><span data-stu-id="e06cc-105">This would usually be done by a receiving clerk.</span></span> <span data-ttu-id="e06cc-106">يمكنك تشغيل هذا الإجراء في شركة بيانات العرض التوضيحي USMF مع قيم الأمثلة الموضحة.</span><span class="sxs-lookup"><span data-stu-id="e06cc-106">You can run this procedure in demo data company USMF with the example values that are shown.</span></span>  <span data-ttu-id="e06cc-107">إذا كنت لا تستخدم USMF، فتحتاج للحصول على أمر شراء مؤكد مع بند أمر شراء مفتوح قبل بدء هذا الدليل.</span><span class="sxs-lookup"><span data-stu-id="e06cc-107">If you are not using USMF, you need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="e06cc-108">يجب أن يكون الصنف في البند مخزّنًا، ويجب ألا يستخدم متغيرات المنتج وألا تكون له أبعاد تعقب.</span><span class="sxs-lookup"><span data-stu-id="e06cc-108">The item on the line must be stocked, and it must not use product variants, and must not have tracking dimensions.</span></span> <span data-ttu-id="e06cc-109">ويجب إقران الصنف بمجموعة أبعاد تخزين، حيث يكون الموقع والمستودع نشطين.</span><span class="sxs-lookup"><span data-stu-id="e06cc-109">And the item needs to be associated with a storage dimension group, where site and warehouse are active.</span></span>
 
 
-## <a name="create-item-arrival-journal-header"></a>إنشاء رأس دفتر يومية وصول الصنف
-1. انتقل إلى إدارة المخزون > إدخالات دفتر اليومية > وصول الصنف > وصول الصنف.
-2. انقر فوق "جديد".
-3. في حقل "الاسم"، اكتب قيمة.
-    * إذا كنت تستخدم USMF، فيمكنك كتابة WHS. أما إذا كنت تستخدم بيانات أخرى، فيجب أن تتوفر الخصائص التالية في دفتر اليومية الذي تختار اسمه: يجب تعيين "موقع انتقاء الشيك" إلى "لا" ويجب تعيين "إدارة العزل‬" إلى "لا".  
-4. في الحقل "إيصال التعبئة"، اكتب قيمة.
-    * هذا هو معرف إيصال التعبئة من إيصال التعبئة الصادر عن المورّد. أضف رقمًا فريدًا.  
-5. في حقل "الرقم"، حدد أمر الشراء.
-6. انقر فوق "موافق".
+## <a name="create-item-arrival-journal-header"></a><span data-ttu-id="e06cc-110">إنشاء رأس دفتر يومية وصول الصنف</span><span class="sxs-lookup"><span data-stu-id="e06cc-110">Create item arrival journal header</span></span>
+1. <span data-ttu-id="e06cc-111">انتقل إلى إدارة المخزون > إدخالات دفتر اليومية > وصول الصنف > وصول الصنف.</span><span class="sxs-lookup"><span data-stu-id="e06cc-111">Go to Inventory management > Journal entries > Item arrival > Item arrival.</span></span>
+2. <span data-ttu-id="e06cc-112">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="e06cc-112">Click New.</span></span>
+3. <span data-ttu-id="e06cc-113">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e06cc-113">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="e06cc-114">إذا كنت تستخدم USMF، فيمكنك كتابة WHS.</span><span class="sxs-lookup"><span data-stu-id="e06cc-114">If you are using USMF, you can type WHS.</span></span> <span data-ttu-id="e06cc-115">أما إذا كنت تستخدم بيانات أخرى، فيجب أن تتوفر الخصائص التالية في دفتر اليومية الذي تختار اسمه: يجب تعيين "موقع انتقاء الشيك" إلى "لا" ويجب تعيين "إدارة العزل‬" إلى "لا".</span><span class="sxs-lookup"><span data-stu-id="e06cc-115">If you’re using other data, the journal whose name you choose has to have the following properties: cheque picking location must be set to No, and Quarantine management must be set to No.</span></span>  
+4. <span data-ttu-id="e06cc-116">في الحقل "إيصال التعبئة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e06cc-116">In the Packing slip field, type a value.</span></span>
+    * <span data-ttu-id="e06cc-117">هذا هو معرف إيصال التعبئة من إيصال التعبئة الصادر عن المورّد.</span><span class="sxs-lookup"><span data-stu-id="e06cc-117">This is the packing slip ID from the packing slip issued by the vendor.</span></span> <span data-ttu-id="e06cc-118">أضف رقمًا فريدًا.</span><span class="sxs-lookup"><span data-stu-id="e06cc-118">Add a unique number.</span></span>  
+5. <span data-ttu-id="e06cc-119">في حقل "الرقم"، حدد أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="e06cc-119">In the Number field, In the Number field, select the purchase order..</span></span>
+6. <span data-ttu-id="e06cc-120">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="e06cc-120">Click OK.</span></span>
 
-## <a name="add-lines-to-item-arrival-journal"></a>إضافة بنود إلى دفتر يومية وصول الصنف
-1. انقر فوق "الوظائف".
-2. انقر فوق "إنشاء بنود".
-    * يمكن إدخال البنود يدويًا في دفتر اليومية هذا أو إنشاؤها تلقائيًا. سوف يظهر لك هذا كيفية إنشاء البنود تلقائيًا.  
-3. حدد خانة الاختيار "تهيئة الكمية‬" أو قم بإلغاء تحديدها.
-    * سيؤدي ذلك إلى تهيئة الكمية الموجودة في بنود دفتر اليومية مع الكمية غير المسجلة من بند أمر الشراء.  
-4. انقر فوق "موافق".
+## <a name="add-lines-to-item-arrival-journal"></a><span data-ttu-id="e06cc-121">إضافة بنود إلى دفتر يومية وصول الصنف</span><span class="sxs-lookup"><span data-stu-id="e06cc-121">Add lines to item arrival journal</span></span>
+1. <span data-ttu-id="e06cc-122">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="e06cc-122">Click Functions.</span></span>
+2. <span data-ttu-id="e06cc-123">انقر فوق "إنشاء بنود".</span><span class="sxs-lookup"><span data-stu-id="e06cc-123">Click Create lines.</span></span>
+    * <span data-ttu-id="e06cc-124">يمكن إدخال البنود يدويًا في دفتر اليومية هذا أو إنشاؤها تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="e06cc-124">The lines can be entered manually into this journal or created automatically.</span></span> <span data-ttu-id="e06cc-125">سوف يظهر لك هذا كيفية إنشاء البنود تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="e06cc-125">This will show you how to create this automatically.</span></span>  
+3. <span data-ttu-id="e06cc-126">حدد خانة الاختيار "تهيئة الكمية‬" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="e06cc-126">Check or uncheck the Initialize quantity checkbox.</span></span>
+    * <span data-ttu-id="e06cc-127">سيؤدي ذلك إلى تهيئة الكمية الموجودة في بنود دفتر اليومية مع الكمية غير المسجلة من بند أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="e06cc-127">This will initialize the quantity on the journal lines with the quantity not registered from the purchase order line.</span></span>  
+4. <span data-ttu-id="e06cc-128">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="e06cc-128">Click OK.</span></span>
 
-## <a name="post-the-journal"></a>ترحيل دفتر اليومية
-1. انقر فوق "ترحيل".
-2. انقر فوق "موافق".
+## <a name="post-the-journal"></a><span data-ttu-id="e06cc-129">ترحيل دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="e06cc-129">Post the journal</span></span>
+1. <span data-ttu-id="e06cc-130">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="e06cc-130">Click Post.</span></span>
+2. <span data-ttu-id="e06cc-131">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="e06cc-131">Click OK.</span></span>
 
-## <a name="generate-the-product-receipt"></a>إنشاء إيصال استلام المنتجات
-1. انقر فوق "الوظائف".
-2. انقر فوق "إيصال استلام المنتجات".
-3. انقر فوق "موافق".
+## <a name="generate-the-product-receipt"></a><span data-ttu-id="e06cc-132">إنشاء إيصال استلام المنتجات</span><span class="sxs-lookup"><span data-stu-id="e06cc-132">Generate the product receipt</span></span>
+1. <span data-ttu-id="e06cc-133">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="e06cc-133">Click Functions.</span></span>
+2. <span data-ttu-id="e06cc-134">انقر فوق "إيصال استلام المنتجات".</span><span class="sxs-lookup"><span data-stu-id="e06cc-134">Click Product receipt.</span></span>
+3. <span data-ttu-id="e06cc-135">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="e06cc-135">Click OK.</span></span>
 
 

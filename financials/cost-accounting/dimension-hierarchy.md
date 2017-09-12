@@ -17,321 +17,321 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-hierarchy"></a>التدرج الهرمي للأبعاد
+# <a name="dimension-hierarchy"></a><span data-ttu-id="2470f-104">التدرج الهرمي للأبعاد</span><span class="sxs-lookup"><span data-stu-id="2470f-104">Dimension hierarchy</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات حول التدرجات الهرمية للأبعاد. يمكنك استخدام التدرج الهرمي لتعريف هيكل التقارير وسياسات التكلفة، وإعداد الأمان في محاسبة التكاليف.  
+<span data-ttu-id="2470f-105">يوفر هذا الموضوع معلومات حول التدرجات الهرمية للأبعاد.</span><span class="sxs-lookup"><span data-stu-id="2470f-105">This topic provides information about dimension hierarchies.</span></span> <span data-ttu-id="2470f-106">يمكنك استخدام التدرج الهرمي لتعريف هيكل التقارير وسياسات التكلفة، وإعداد الأمان في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="2470f-106">You use a dimension hierarchy to define the reporting structure, cost policies, and security setup in Cost accounting.</span></span>  
 
-## <a name="overview"></a>نظرة عامة
+## <a name="overview"></a><span data-ttu-id="2470f-107">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="2470f-107">Overview</span></span>
 
-تُستخدم التدرجات الهرمية للأبعاد في مواضع متعددة في محاسبة التكاليف. يُتيح لك التدرج الهرمي للأبعاد تحديد المعلومات التالية:
+<span data-ttu-id="2470f-108">تُستخدم التدرجات الهرمية للأبعاد في مواضع متعددة في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="2470f-108">Dimension hierarchies are used in various places in Cost accounting.</span></span> <span data-ttu-id="2470f-109">يُتيح لك التدرج الهرمي للأبعاد تحديد المعلومات التالية:</span><span class="sxs-lookup"><span data-stu-id="2470f-109">A dimension hierarchy lets you define the following information:</span></span>
 
--  هيكل التقارير الذي يتناسب مع متطلبات المؤسسة
--  سياسات التكاليف
--  إعداد الأمان
+-  <span data-ttu-id="2470f-110">هيكل التقارير الذي يتناسب مع متطلبات المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-110">The reporting structure that fits into the organization's requirements</span></span>
+-  <span data-ttu-id="2470f-111">سياسات التكاليف</span><span class="sxs-lookup"><span data-stu-id="2470f-111">Cost policies</span></span>
+-  <span data-ttu-id="2470f-112">إعداد الأمان</span><span class="sxs-lookup"><span data-stu-id="2470f-112">The security setup</span></span>
 
-فيما يلي مثال عن التدرجي الهرمي للأبعاد.
+<span data-ttu-id="2470f-113">فيما يلي مثال عن التدرجي الهرمي للأبعاد.</span><span class="sxs-lookup"><span data-stu-id="2470f-113">Here is an example of a dimension hierarchy.</span></span>
 
 ![مثال لتدرجي هرمي لبعد](./media/dimension-hierarchy.png)
 
-يمكن إنشاء التدرج الهرمي للأبعاد للأنواع التالية من الأبعاد:
+<span data-ttu-id="2470f-115">يمكن إنشاء التدرج الهرمي للأبعاد للأنواع التالية من الأبعاد:</span><span class="sxs-lookup"><span data-stu-id="2470f-115">A dimension hierarchy can be created for the following types of dimensions:</span></span>
 
--  أبعاد عنصر التكلفة
--  أبعاد كائن التكاليف
--  الأبعاد الإحصائية
+-  <span data-ttu-id="2470f-116">أبعاد عنصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-116">Cost element dimensions</span></span>
+-  <span data-ttu-id="2470f-117">أبعاد كائن التكاليف</span><span class="sxs-lookup"><span data-stu-id="2470f-117">Cost object dimensions</span></span>
+-  <span data-ttu-id="2470f-118">الأبعاد الإحصائية</span><span class="sxs-lookup"><span data-stu-id="2470f-118">Statistical dimensions</span></span>
 
 > [!NOTE]
-> - يمكنك إنشاء العديد من التدرجات الهرمية للأبعاد لنفس البعد في حالة طلب منظورات مختلفة.
-> - يمكن ربط التدرج الهرمي للبعد ببعد واحد فقط.
-> - يمكن أن يكون للتدرج الهرمي للأبعاد مستويات غير محدودة في بنيتها. تكون كافة المستويات متوفرة في مساحة عمل **مراقبة التكلفة**. عند استخدام Microsoft Excel أو Microsoft Power BI لأغراض إعداد التقارير، يتم تصدير فقط الخمسة عشر (15) مستوى الأولي من التدرج الهرمي للأبعاد. يوجد هذا القيد لأن كل من Excel وPower BI يتطلب مخطط ثابت.
-> - التدرج الهرمي للبعد لا يحتوي على تاريخ سريان. لذلك، يُحفظ أي تغيير في التدرج الهرمي للأبعاد في السجل على الفور، ولا يمكنك مقارنة تاريخ الأفضلية والتاريخ بعده.
+> - <span data-ttu-id="2470f-119">يمكنك إنشاء العديد من التدرجات الهرمية للأبعاد لنفس البعد في حالة طلب منظورات مختلفة.</span><span class="sxs-lookup"><span data-stu-id="2470f-119">You can create multiple dimension hierarchies for the same dimension if different perspectives are required.</span></span>
+> - <span data-ttu-id="2470f-120">يمكن ربط التدرج الهرمي للبعد ببعد واحد فقط.</span><span class="sxs-lookup"><span data-stu-id="2470f-120">A dimension hierarchy can be associated with only one dimension.</span></span>
+> - <span data-ttu-id="2470f-121">يمكن أن يكون للتدرج الهرمي للأبعاد مستويات غير محدودة في بنيتها.</span><span class="sxs-lookup"><span data-stu-id="2470f-121">A dimension hierarchy can have unlimited levels in its structure.</span></span> <span data-ttu-id="2470f-122">تكون كافة المستويات متوفرة في مساحة عمل **مراقبة التكلفة**.</span><span class="sxs-lookup"><span data-stu-id="2470f-122">All the levels will be available in the **Cost control** workspace.</span></span> <span data-ttu-id="2470f-123">عند استخدام Microsoft Excel أو Microsoft Power BI لأغراض إعداد التقارير، يتم تصدير فقط الخمسة عشر (15) مستوى الأولي من التدرج الهرمي للأبعاد.</span><span class="sxs-lookup"><span data-stu-id="2470f-123">When you use Microsoft Excel or Microsoft Power BI for reporting purposes, only the first 15 levels of the dimension hierarchy are exported.</span></span> <span data-ttu-id="2470f-124">يوجد هذا القيد لأن كل من Excel وPower BI يتطلب مخطط ثابت.</span><span class="sxs-lookup"><span data-stu-id="2470f-124">This limitation exists because both Excel and Power BI require a fixed schema.</span></span>
+> - <span data-ttu-id="2470f-125">التدرج الهرمي للبعد لا يحتوي على تاريخ سريان.</span><span class="sxs-lookup"><span data-stu-id="2470f-125">A dimension hierarchy isn't date-effective.</span></span> <span data-ttu-id="2470f-126">لذلك، يُحفظ أي تغيير في التدرج الهرمي للأبعاد في السجل على الفور، ولا يمكنك مقارنة تاريخ الأفضلية والتاريخ بعده.</span><span class="sxs-lookup"><span data-stu-id="2470f-126">Therefore, any change to a dimension hierarchy is immediately saved to the record, and you can't compare the before date and after date.</span></span>
 
-## <a name="dimension-hierarchy-type"></a>نوع التدرج الهرمي للبُعد
+## <a name="dimension-hierarchy-type"></a><span data-ttu-id="2470f-127">نوع التدرج الهرمي للبُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-127">Dimension hierarchy type</span></span>
 
-عند إنشاء تدرج هرمي جديد لبعد، يجب عليك تحديد نوع التدرج الهرمي. انتقل إلى **محاسبة التكاليف** > **الأبعاد** > **التدرجات الهرمية للأبعاد**. انقر فوق **جديد**، وحدد نوع التدرج الهرمي للبعد. يمكنك تحديد إما **التدرج الهرمي لفئة البعد** أو **التدرج الهرمي لتصنيف البعد**.
+<span data-ttu-id="2470f-128">عند إنشاء تدرج هرمي جديد لبعد، يجب عليك تحديد نوع التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="2470f-128">When you create a new dimension hierarchy, you must select a hierarchy type.</span></span> <span data-ttu-id="2470f-129">انتقل إلى **محاسبة التكاليف** > **الأبعاد** > **التدرجات الهرمية للأبعاد**.</span><span class="sxs-lookup"><span data-stu-id="2470f-129">Go to **Cost accounting** > **Dimensions** > **Dimension hierarchies**.</span></span> <span data-ttu-id="2470f-130">انقر فوق **جديد**، وحدد نوع التدرج الهرمي للبعد.</span><span class="sxs-lookup"><span data-stu-id="2470f-130">Click **New**, and select a dimension hierarchy type.</span></span> <span data-ttu-id="2470f-131">يمكنك تحديد إما **التدرج الهرمي لفئة البعد** أو **التدرج الهرمي لتصنيف البعد**.</span><span class="sxs-lookup"><span data-stu-id="2470f-131">You can select either **Dimension categorization hierarchy** or **Dimension classification hierarchy**.</span></span>
 
-### <a name="dimension-categorization-hierarchy"></a>التدرج الهرمي لتصنيف الأبعاد
+### <a name="dimension-categorization-hierarchy"></a><span data-ttu-id="2470f-132">التدرج الهرمي لتصنيف الأبعاد</span><span class="sxs-lookup"><span data-stu-id="2470f-132">Dimension categorization hierarchy</span></span>
 
-يُستخدم نوع **التدرج الهرمي لفئة البعد** لأغراض إعداد التقارير. إنها تدعم أبعاد عناصر التكلفة فقط. عند تحديد هذا النوع، يتم تطبيق القواعد التالية:
+<span data-ttu-id="2470f-133">يُستخدم نوع **التدرج الهرمي لفئة البعد** لأغراض إعداد التقارير.</span><span class="sxs-lookup"><span data-stu-id="2470f-133">The **Dimension categorization hierarchy** type is used for reporting purposes.</span></span> <span data-ttu-id="2470f-134">إنها تدعم أبعاد عناصر التكلفة فقط.</span><span class="sxs-lookup"><span data-stu-id="2470f-134">It supports only the cost element dimensions.</span></span> <span data-ttu-id="2470f-135">عند تحديد هذا النوع، يتم تطبيق القواعد التالية:</span><span class="sxs-lookup"><span data-stu-id="2470f-135">When you select this type, the following rules apply:</span></span>
 
--  يمكن أن يرتبط عضو البُعد ببنية التدرج الهرمي لأكثر من مرة.
--  يمكنك وضع عضو بُعد عنصر التكلفة في العقد المختلفة الموجودة عن طريق تعيين سلوك التكلفة للعقدة الطرفية.
+-  <span data-ttu-id="2470f-136">يمكن أن يرتبط عضو البُعد ببنية التدرج الهرمي لأكثر من مرة.</span><span class="sxs-lookup"><span data-stu-id="2470f-136">A dimension member can be associated more than one time in the hierarchy structure.</span></span>
+-  <span data-ttu-id="2470f-137">يمكنك وضع عضو بُعد عنصر التكلفة في العقد المختلفة الموجودة عن طريق تعيين سلوك التكلفة للعقدة الطرفية.</span><span class="sxs-lookup"><span data-stu-id="2470f-137">You can put a cost element dimension member in different nodes by assigning a cost behavior to the leaf node.</span></span>
 
-### <a name="dimension-classification-hierarchy"></a>التدرج الهرمي لتصنيف الأبعاد
+### <a name="dimension-classification-hierarchy"></a><span data-ttu-id="2470f-138">التدرج الهرمي لتصنيف الأبعاد</span><span class="sxs-lookup"><span data-stu-id="2470f-138">Dimension classification hierarchy</span></span>
 
-يُستخدم نوع **‏‫التدرج الهرمي لتصنيف البعد** لتحديد القواعد ولأغراض إعداد التقارير. إنها تدعم كافة الأبعاد، مثل كائنات التكلفة وعناصر التكلفة والأبعاد الإحصائية. عند تحديد هذا النوع، يمكن أن يرتبط عضو البُعد ببنية التدرج الهرمي لمرة واحدة فقط.
+<span data-ttu-id="2470f-139">يُستخدم نوع **‏‫التدرج الهرمي لتصنيف البعد** لتحديد القواعد ولأغراض إعداد التقارير.</span><span class="sxs-lookup"><span data-stu-id="2470f-139">The **Dimension classification hierarchy** type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="2470f-140">إنها تدعم كافة الأبعاد، مثل كائنات التكلفة وعناصر التكلفة والأبعاد الإحصائية.</span><span class="sxs-lookup"><span data-stu-id="2470f-140">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span> <span data-ttu-id="2470f-141">عند تحديد هذا النوع، يمكن أن يرتبط عضو البُعد ببنية التدرج الهرمي لمرة واحدة فقط.</span><span class="sxs-lookup"><span data-stu-id="2470f-141">When you select this type, a dimension member can be associated only one time in the hierarchy structure.</span></span>
 
-## <a name="create-and-maintain-a-dimension-hierarchy"></a>إنشاء التدرج الهرمي للأبعاد وصيانتها
+## <a name="create-and-maintain-a-dimension-hierarchy"></a><span data-ttu-id="2470f-142">إنشاء التدرج الهرمي للأبعاد وصيانتها</span><span class="sxs-lookup"><span data-stu-id="2470f-142">Create and maintain a dimension hierarchy</span></span>
 
-يتم إنشاء التدرج الهرمي كبنية شجرية تحتوي على علاقات بالعقدة والعقدة الطرفية.
+<span data-ttu-id="2470f-143">يتم إنشاء التدرج الهرمي كبنية شجرية تحتوي على علاقات بالعقدة والعقدة الطرفية.</span><span class="sxs-lookup"><span data-stu-id="2470f-143">A dimension hierarchy is created as a tree structure that has node and leaf node relationships.</span></span>
 
--  تحتوي العقدة على :_n_ من العُقد الفرعية.
--  لا يمكن أن تحتوي العقدة على عُقد فرعية وعُقد طرفية معينة إليها.
--  يمكن تعيين عقده طرفية في أقل مستوى في التدرج الهرمي فقط.
+-  <span data-ttu-id="2470f-144">تحتوي العقدة على :_n_ من العُقد الفرعية.</span><span class="sxs-lookup"><span data-stu-id="2470f-144">A node can have 1:_n_ subnodes.</span></span>
+-  <span data-ttu-id="2470f-145">لا يمكن أن تحتوي العقدة على عُقد فرعية وعُقد طرفية معينة إليها.</span><span class="sxs-lookup"><span data-stu-id="2470f-145">A node can’t have both subnodes and leaf nodes assigned to it.</span></span>
+-  <span data-ttu-id="2470f-146">يمكن تعيين عقده طرفية في أقل مستوى في التدرج الهرمي فقط.</span><span class="sxs-lookup"><span data-stu-id="2470f-146">A leaf node can be assigned only at the lowest level in the hierarchy.</span></span>
 
-### <a name="example"></a>مثال
+### <a name="example"></a><span data-ttu-id="2470f-147">مثال</span><span class="sxs-lookup"><span data-stu-id="2470f-147">Example</span></span>
 
-تحتوي الشركة الصغيرة على هيكل المؤسسة التالي، حيث يندرج القسمان "الموارد البشرية" و"المالية" أسفل الإدارة، ويندرج القسمان "التجميع" و"التعبئة" أسفل الإنتاج.
+<span data-ttu-id="2470f-148">تحتوي الشركة الصغيرة على هيكل المؤسسة التالي، حيث يندرج القسمان "الموارد البشرية" و"المالية" أسفل الإدارة، ويندرج القسمان "التجميع" و"التعبئة" أسفل الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="2470f-148">A small company has the following organization structure, where Finance and Human resources are departments under Admin, and Assembly and Packaging are departments under Production.</span></span>
 
 ![مثال على هيكل المؤسسة](./media/dimension-hierarchy-org.png)
 
-يمثل بعد كائن التكلفة كافة مراكز التكلفة في المؤسسة.
+<span data-ttu-id="2470f-150">يمثل بعد كائن التكلفة كافة مراكز التكلفة في المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="2470f-150">A cost object dimension represents all the cost centers in the organization.</span></span>
 
-- بُعد كائن التكلفة
-    - مراكز تكلفة
+- <span data-ttu-id="2470f-151">بُعد كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-151">Cost object dimension</span></span>
+    - <span data-ttu-id="2470f-152">مراكز تكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-152">Cost centers</span></span>
 
-يمكن إعداد بُعد كائن التكلفة الذي يمثل كافة مراكز التكلفة كما هو موضح هنا.
+<span data-ttu-id="2470f-153">يمكن إعداد بُعد كائن التكلفة الذي يمثل كافة مراكز التكلفة كما هو موضح هنا.</span><span class="sxs-lookup"><span data-stu-id="2470f-153">The cost object dimension that represents all the cost centers can be set up as shown here.</span></span>
 
-| مراكز تكلفة | ‏‏الوصف |
+| <span data-ttu-id="2470f-154">مراكز تكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-154">Cost centers</span></span> | <span data-ttu-id="2470f-155">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="2470f-155">Description</span></span> |
 |--------------|-------------|
-| CC001        | الموارد البشرية          |
-| CC002        | المالية     |
-| CC003        | ضريبة         |
-| CC007        | الحسابات المدينة/الحسابات الدائنة       |
-| CC005        | التجميع    |
-| CC006        | التعبئة   |
+| <span data-ttu-id="2470f-156">CC001</span><span class="sxs-lookup"><span data-stu-id="2470f-156">CC001</span></span>        | <span data-ttu-id="2470f-157">الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="2470f-157">HR</span></span>          |
+| <span data-ttu-id="2470f-158">CC002</span><span class="sxs-lookup"><span data-stu-id="2470f-158">CC002</span></span>        | <span data-ttu-id="2470f-159">المالية</span><span class="sxs-lookup"><span data-stu-id="2470f-159">Finance</span></span>     |
+| <span data-ttu-id="2470f-160">CC003</span><span class="sxs-lookup"><span data-stu-id="2470f-160">CC003</span></span>        | <span data-ttu-id="2470f-161">ضريبة</span><span class="sxs-lookup"><span data-stu-id="2470f-161">Tax</span></span>         |
+| <span data-ttu-id="2470f-162">CC007</span><span class="sxs-lookup"><span data-stu-id="2470f-162">CC007</span></span>        | <span data-ttu-id="2470f-163">الحسابات المدينة/الحسابات الدائنة</span><span class="sxs-lookup"><span data-stu-id="2470f-163">AR/AP</span></span>       |
+| <span data-ttu-id="2470f-164">CC005</span><span class="sxs-lookup"><span data-stu-id="2470f-164">CC005</span></span>        | <span data-ttu-id="2470f-165">التجميع</span><span class="sxs-lookup"><span data-stu-id="2470f-165">Assembly</span></span>    |
+| <span data-ttu-id="2470f-166">CC006</span><span class="sxs-lookup"><span data-stu-id="2470f-166">CC006</span></span>        | <span data-ttu-id="2470f-167">التعبئة</span><span class="sxs-lookup"><span data-stu-id="2470f-167">Packaging</span></span>   |
 
-يمثل بُعد كائن التكلفة كافة عناصر التكلفة في المؤسسة.
+<span data-ttu-id="2470f-168">يمثل بُعد كائن التكلفة كافة عناصر التكلفة في المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="2470f-168">A cost element dimension represents all the cost elements in the organization.</span></span>
 
-- بُعد عنصر التكلفة
-    - عناصر التكلفة
+- <span data-ttu-id="2470f-169">بُعد عنصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-169">Cost element dimension</span></span>
+    - <span data-ttu-id="2470f-170">عناصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-170">Cost elements</span></span>
 
-يمكن إعداد بُعد عنصر التكلفة الذي يمثل كافة عناصر التكلفة كما هو موضح هنا.
+<span data-ttu-id="2470f-171">يمكن إعداد بُعد عنصر التكلفة الذي يمثل كافة عناصر التكلفة كما هو موضح هنا.</span><span class="sxs-lookup"><span data-stu-id="2470f-171">The cost element dimension that represents all the cost elements can be set up as shown here.</span></span>
 
-| عناصر التكلفة | ‏‏الوصف |
+| <span data-ttu-id="2470f-172">عناصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-172">Cost elements</span></span> | <span data-ttu-id="2470f-173">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="2470f-173">Description</span></span> |
 |---------------|-------------|
-| 10001         | الكهرباء |
-| 10010         | التنظيف    |
-| 10011         | التسخين     |
-| 40001         | تكلفة البضائع المبيعة        |
+| <span data-ttu-id="2470f-174">10001</span><span class="sxs-lookup"><span data-stu-id="2470f-174">10001</span></span>         | <span data-ttu-id="2470f-175">الكهرباء</span><span class="sxs-lookup"><span data-stu-id="2470f-175">Electricity</span></span> |
+| <span data-ttu-id="2470f-176">10010</span><span class="sxs-lookup"><span data-stu-id="2470f-176">10010</span></span>         | <span data-ttu-id="2470f-177">التنظيف</span><span class="sxs-lookup"><span data-stu-id="2470f-177">Cleaning</span></span>    |
+| <span data-ttu-id="2470f-178">10011</span><span class="sxs-lookup"><span data-stu-id="2470f-178">10011</span></span>         | <span data-ttu-id="2470f-179">التسخين</span><span class="sxs-lookup"><span data-stu-id="2470f-179">Heating</span></span>     |
+| <span data-ttu-id="2470f-180">40001</span><span class="sxs-lookup"><span data-stu-id="2470f-180">40001</span></span>         | <span data-ttu-id="2470f-181">تكلفة البضائع المبيعة</span><span class="sxs-lookup"><span data-stu-id="2470f-181">COGS</span></span>        |
 
-يمكنك إعداد التدرج الهرمي للبُعد الذي يفي بمتطلبات إعداد التقارير التنظيمية كما هو موضح هنا.
+<span data-ttu-id="2470f-182">يمكنك إعداد التدرج الهرمي للبُعد الذي يفي بمتطلبات إعداد التقارير التنظيمية كما هو موضح هنا.</span><span class="sxs-lookup"><span data-stu-id="2470f-182">A dimension hierarchy that meets the organizational reporting requirements can be set up as shown here.</span></span>
 
-**تفاصيل التدرج الهرمي للبعد**
+<span data-ttu-id="2470f-183">**تفاصيل التدرج الهرمي للبعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-183">**Dimension hierarchy details**</span></span>
 
-| اسم التدرج الهرمي للبُعد | البعد    | اسم نوع التدرج الهرمي للبُعد      | التدرج الهرمي لقائمة الوصول |
+| <span data-ttu-id="2470f-184">اسم التدرج الهرمي للبُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-184">Dimension hierarchy name</span></span> | <span data-ttu-id="2470f-185">البعد</span><span class="sxs-lookup"><span data-stu-id="2470f-185">Dimension</span></span>    | <span data-ttu-id="2470f-186">اسم نوع التدرج الهرمي للبُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-186">Dimension hierarchy type name</span></span>      | <span data-ttu-id="2470f-187">التدرج الهرمي لقائمة الوصول</span><span class="sxs-lookup"><span data-stu-id="2470f-187">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| المؤسسة             | مراكز تكلفة | التدرج الهرمي لتصنيف الأبعاد | لا                    |
+| <span data-ttu-id="2470f-188">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-188">Organization</span></span>             | <span data-ttu-id="2470f-189">مراكز تكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-189">Cost centers</span></span> | <span data-ttu-id="2470f-190">التدرج الهرمي لتصنيف الأبعاد</span><span class="sxs-lookup"><span data-stu-id="2470f-190">Dimension classification hierarchy</span></span> | <span data-ttu-id="2470f-191">لا</span><span class="sxs-lookup"><span data-stu-id="2470f-191">No</span></span>                    |
 
-يمكنك إعداد التدرج الهرمي للأبعاد للتقرير كما هو موضح هنا.
+<span data-ttu-id="2470f-192">يمكنك إعداد التدرج الهرمي للأبعاد للتقرير كما هو موضح هنا.</span><span class="sxs-lookup"><span data-stu-id="2470f-192">The dimension hierarchy for reporting can be set up as shown here.</span></span>
 
-|                   | نطاقات أعضاء البُعد   |                         |
+|                   | <span data-ttu-id="2470f-193">نطاقات أعضاء البُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-193">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **العُقد**         | **من عضو البعد** | **إلى عضو البعد** |
-| المؤسسة      |                           |                         |
-| &nbsp;&nbsp;المسؤول         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;المالية   | CC002                     | CC003                   |
-|                   | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;الموارد البشرية        | CC001                     | CC001                   |
-| &nbsp;&nbsp;الإنتاج    |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;التعبئة | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;التجميع  | CC006                     | CC006                   |
+| <span data-ttu-id="2470f-194">**العُقد**</span><span class="sxs-lookup"><span data-stu-id="2470f-194">**Nodes**</span></span>         | <span data-ttu-id="2470f-195">**من عضو البعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-195">**From dimension member**</span></span> | <span data-ttu-id="2470f-196">**إلى عضو البعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-196">**To dimension member**</span></span> |
+| <span data-ttu-id="2470f-197">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-197">Organization</span></span>      |                           |                         |
+| <span data-ttu-id="2470f-198">&nbsp;&nbsp;المسؤول</span><span class="sxs-lookup"><span data-stu-id="2470f-198">&nbsp;&nbsp;Admin</span></span>         |                           |                         |
+|<span data-ttu-id="2470f-199">&nbsp;&nbsp;&nbsp;&nbsp;المالية</span><span class="sxs-lookup"><span data-stu-id="2470f-199">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="2470f-200">CC002</span><span class="sxs-lookup"><span data-stu-id="2470f-200">CC002</span></span>                     | <span data-ttu-id="2470f-201">CC003</span><span class="sxs-lookup"><span data-stu-id="2470f-201">CC003</span></span>                   |
+|                   | <span data-ttu-id="2470f-202">CC007</span><span class="sxs-lookup"><span data-stu-id="2470f-202">CC007</span></span>                     | <span data-ttu-id="2470f-203">CC007</span><span class="sxs-lookup"><span data-stu-id="2470f-203">CC007</span></span>                   |
+| <span data-ttu-id="2470f-204">&nbsp;&nbsp;&nbsp;&nbsp;الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="2470f-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="2470f-205">CC001</span><span class="sxs-lookup"><span data-stu-id="2470f-205">CC001</span></span>                     | <span data-ttu-id="2470f-206">CC001</span><span class="sxs-lookup"><span data-stu-id="2470f-206">CC001</span></span>                   |
+| <span data-ttu-id="2470f-207">&nbsp;&nbsp;الإنتاج</span><span class="sxs-lookup"><span data-stu-id="2470f-207">&nbsp;&nbsp;Production</span></span>    |                           |                         |
+| <span data-ttu-id="2470f-208">&nbsp;&nbsp;&nbsp;&nbsp;التعبئة</span><span class="sxs-lookup"><span data-stu-id="2470f-208">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="2470f-209">CC005</span><span class="sxs-lookup"><span data-stu-id="2470f-209">CC005</span></span>                     | <span data-ttu-id="2470f-210">CC005</span><span class="sxs-lookup"><span data-stu-id="2470f-210">CC005</span></span>                   |
+| <span data-ttu-id="2470f-211">&nbsp;&nbsp;&nbsp;&nbsp;التجميع</span><span class="sxs-lookup"><span data-stu-id="2470f-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="2470f-212">CC006</span><span class="sxs-lookup"><span data-stu-id="2470f-212">CC006</span></span>                     | <span data-ttu-id="2470f-213">CC006</span><span class="sxs-lookup"><span data-stu-id="2470f-213">CC006</span></span>                   |
 
-يمكنك إعداد التدرج الهرمي للبُعد الذي يفي بمتطلبات السياسة كما هو موضح هنا.
+<span data-ttu-id="2470f-214">يمكنك إعداد التدرج الهرمي للبُعد الذي يفي بمتطلبات السياسة كما هو موضح هنا.</span><span class="sxs-lookup"><span data-stu-id="2470f-214">A dimension hierarchy that meets the policy requirement can be set up as shown here.</span></span>
 
-**تفاصيل التدرج الهرمي للبعد**
+<span data-ttu-id="2470f-215">**تفاصيل التدرج الهرمي للبعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-215">**Dimension hierarchy details**</span></span>
 
-| اسم التدرج الهرمي للبُعد | البعد     | اسم نوع التدرج الهرمي للبُعد      |
+| <span data-ttu-id="2470f-216">اسم التدرج الهرمي للبُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-216">Dimension hierarchy name</span></span> | <span data-ttu-id="2470f-217">البعد</span><span class="sxs-lookup"><span data-stu-id="2470f-217">Dimension</span></span>     | <span data-ttu-id="2470f-218">اسم نوع التدرج الهرمي للبُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-218">Dimension hierarchy type name</span></span>      |
 |--------------------------|---------------|------------------------------------|
-| سلوك التكلفة            | عناصر التكلفة | التدرج الهرمي لتصنيف الأبعاد |
+| <span data-ttu-id="2470f-219">سلوك التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-219">Cost behavior</span></span>            | <span data-ttu-id="2470f-220">عناصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-220">Cost elements</span></span> | <span data-ttu-id="2470f-221">التدرج الهرمي لتصنيف الأبعاد</span><span class="sxs-lookup"><span data-stu-id="2470f-221">Dimension classification hierarchy</span></span> |
 
-يمكنك إعداد التدرج الهرمي للبُعد الخاص بالسياسة كما هو موضح هنا.
+<span data-ttu-id="2470f-222">يمكنك إعداد التدرج الهرمي للبُعد الخاص بالسياسة كما هو موضح هنا.</span><span class="sxs-lookup"><span data-stu-id="2470f-222">The dimension hierarchy for the policy can be set up as shown here.</span></span>
 
-|                   | نطاقات أعضاء البُعد   |                         |
+|                   | <span data-ttu-id="2470f-223">نطاقات أعضاء البُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-223">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **العُقد**         | **من عضو البعد** | **إلى عضو البعد** |
-| سلوك التكلفة     |                           |                         |
-| &nbsp;&nbsp;تكلفة ثابتة    | 10001                     | 10011                   |
-|&nbsp;&nbsp;تكلفة متغيرة | 40001                     | 40010                   |
+| <span data-ttu-id="2470f-224">**العُقد**</span><span class="sxs-lookup"><span data-stu-id="2470f-224">**Nodes**</span></span>         | <span data-ttu-id="2470f-225">**من عضو البعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-225">**From dimension member**</span></span> | <span data-ttu-id="2470f-226">**إلى عضو البعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-226">**To dimension member**</span></span> |
+| <span data-ttu-id="2470f-227">سلوك التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-227">Cost behavior</span></span>     |                           |                         |
+| <span data-ttu-id="2470f-228">&nbsp;&nbsp;تكلفة ثابتة</span><span class="sxs-lookup"><span data-stu-id="2470f-228">&nbsp;&nbsp;Fixed cost</span></span>    | <span data-ttu-id="2470f-229">10001</span><span class="sxs-lookup"><span data-stu-id="2470f-229">10001</span></span>                     | <span data-ttu-id="2470f-230">10011</span><span class="sxs-lookup"><span data-stu-id="2470f-230">10011</span></span>                   |
+|<span data-ttu-id="2470f-231">&nbsp;&nbsp;تكلفة متغيرة</span><span class="sxs-lookup"><span data-stu-id="2470f-231">&nbsp;&nbsp;Variable cost</span></span> | <span data-ttu-id="2470f-232">40001</span><span class="sxs-lookup"><span data-stu-id="2470f-232">40001</span></span>                     | <span data-ttu-id="2470f-233">40010</span><span class="sxs-lookup"><span data-stu-id="2470f-233">40010</span></span>                   |
 
 > [!NOTE]
-> أسفل **نطاقات عضو البُعد**، يمكن أن تحتوي العقدة 1:_n_ على نطاقات عضو البُعد. يمكنك إدراج معرفات عضو البُعد غير الموجودة كأعضاء بُعد. يجعل هذا الأسلوب التدرج الهرمي يتسم بالمرونة للمستقبل.  
+> <span data-ttu-id="2470f-234">أسفل **نطاقات عضو البُعد**، يمكن أن تحتوي العقدة 1:_n_ على نطاقات عضو البُعد.</span><span class="sxs-lookup"><span data-stu-id="2470f-234">Under **Dimension member ranges**, a node can contain 1:_n_ dimension member ranges.</span></span> <span data-ttu-id="2470f-235">يمكنك إدراج معرفات عضو البُعد غير الموجودة كأعضاء بُعد.</span><span class="sxs-lookup"><span data-stu-id="2470f-235">You can insert dimension member IDs that don’t yet exist as dimension members.</span></span> <span data-ttu-id="2470f-236">يجعل هذا الأسلوب التدرج الهرمي يتسم بالمرونة للمستقبل.</span><span class="sxs-lookup"><span data-stu-id="2470f-236">This approach makes the hierarchy resilient for the future.</span></span>  
 
-### <a name="copy-a-hierarchy"></a>نسخ تدرج هرمي
+### <a name="copy-a-hierarchy"></a><span data-ttu-id="2470f-237">نسخ تدرج هرمي</span><span class="sxs-lookup"><span data-stu-id="2470f-237">Copy a hierarchy</span></span>
 
-يمكنك نسخ التدرج الهرمي الحالي للبُعد الحالي كنقطة بداية للتدرج الهرمي الجديد للبُعد. قد يكون هذا الأسلوب مفيداً إذا كنت تريد مقارنة التدرج الهرمي السابق للأبعاد بالتدرج الهرمي الجديد للأبعاد.
+<span data-ttu-id="2470f-238">يمكنك نسخ التدرج الهرمي الحالي للبُعد الحالي كنقطة بداية للتدرج الهرمي الجديد للبُعد.</span><span class="sxs-lookup"><span data-stu-id="2470f-238">You can copy a current dimension hierarchy as the starting point for a new dimension hierarchy.</span></span> <span data-ttu-id="2470f-239">قد يكون هذا الأسلوب مفيداً إذا كنت تريد مقارنة التدرج الهرمي السابق للأبعاد بالتدرج الهرمي الجديد للأبعاد.</span><span class="sxs-lookup"><span data-stu-id="2470f-239">This approach can be useful if you want to compare the previous dimension hierarchy to the new dimension hierarchy.</span></span>
 
-### <a name="rearrange-nodes-in-a-hierarchy"></a>إعادة ترتيب العُقد في تدرج هرمي
+### <a name="rearrange-nodes-in-a-hierarchy"></a><span data-ttu-id="2470f-240">إعادة ترتيب العُقد في تدرج هرمي</span><span class="sxs-lookup"><span data-stu-id="2470f-240">Rearrange nodes in a hierarchy</span></span>
 
-يمكنك نقل عقده ما لأعلى أو لأسفل ضمن مستواها الحالي في الهيكل. وبهذه الطريقة، يمكنك إعادة ترتيب العقد لإعداد التقارير في مساحة عمل **مراقبة التكلفة**.
+<span data-ttu-id="2470f-241">يمكنك نقل عقده ما لأعلى أو لأسفل ضمن مستواها الحالي في الهيكل.</span><span class="sxs-lookup"><span data-stu-id="2470f-241">You can move a node up and down within its current level in the structure.</span></span> <span data-ttu-id="2470f-242">وبهذه الطريقة، يمكنك إعادة ترتيب العقد لإعداد التقارير في مساحة عمل **مراقبة التكلفة**.</span><span class="sxs-lookup"><span data-stu-id="2470f-242">In this way, you can rearrange the order of nodes for reporting in the **Cost control** workspace.</span></span>
 
-يمكنك نقل عقده ما إلى موقع جديد في التدرج الهرمي من خلال تحديد العقدة الهدف. توجد طريقتان لنقل العقدة:
+<span data-ttu-id="2470f-243">يمكنك نقل عقده ما إلى موقع جديد في التدرج الهرمي من خلال تحديد العقدة الهدف.</span><span class="sxs-lookup"><span data-stu-id="2470f-243">You move a node to a new location in the hierarchy by selecting the target node.</span></span> <span data-ttu-id="2470f-244">توجد طريقتان لنقل العقدة:</span><span class="sxs-lookup"><span data-stu-id="2470f-244">There are two ways to move a node:</span></span>
 
-- **نقل لأسفل** – نقل العقدة المحددة من موضعها الحالي في التدرج الهرمي، وإدراجها **أسفل** العقدة الهدف المحددة.
-- **نقل بعد** – نقل العقدة المحددة من موضعها الحالي في التدرج الهرمي، وإدراجها **بعد** العقدة الهدف المحددة.
+- <span data-ttu-id="2470f-245">**نقل لأسفل** – نقل العقدة المحددة من موضعها الحالي في التدرج الهرمي، وإدراجها **أسفل** العقدة الهدف المحددة.</span><span class="sxs-lookup"><span data-stu-id="2470f-245">**Move below** – Move the selected node from its current position in the hierarchy, and insert it **under** the selected target node.</span></span>
+- <span data-ttu-id="2470f-246">**نقل بعد** – نقل العقدة المحددة من موضعها الحالي في التدرج الهرمي، وإدراجها **بعد** العقدة الهدف المحددة.</span><span class="sxs-lookup"><span data-stu-id="2470f-246">**Move after** – Move the selected node from its current position in the hierarchy, and insert it **after** the selected target node at its level of the hierarchy.</span></span>
 
 > [!NOTE] 
-> لا يتم الاحتفاظ بترتيب أمر العقد عندما تقوم بتصدير البيانات إلى Excel أو Power BI، نظراً لاستخدام هذه الأدوات أمر فرز أبجدي رقمي بشكل افتراضي. يجب إعادة ترتيب الأمر يدوياً .
+> <span data-ttu-id="2470f-247">لا يتم الاحتفاظ بترتيب أمر العقد عندما تقوم بتصدير البيانات إلى Excel أو Power BI، نظراً لاستخدام هذه الأدوات أمر فرز أبجدي رقمي بشكل افتراضي.</span><span class="sxs-lookup"><span data-stu-id="2470f-247">The order of the nodes isn't maintained when you export data to Excel or Power BI, because those tools use an alphanumeric sort order by default.</span></span> <span data-ttu-id="2470f-248">يجب إعادة ترتيب الأمر يدوياً .</span><span class="sxs-lookup"><span data-stu-id="2470f-248">You should manually rearrange the order.</span></span>
 
-## <a name="define-dimension-hierarchies-for-reporting"></a>تحديد التدرجات الهرمية للأبعاد للتقرير
+## <a name="define-dimension-hierarchies-for-reporting"></a><span data-ttu-id="2470f-249">تحديد التدرجات الهرمية للأبعاد للتقرير</span><span class="sxs-lookup"><span data-stu-id="2470f-249">Define dimension hierarchies for reporting</span></span>
 
-تُعتبر التدرجات الهرمية للأبعاد من الأهمية بمكان بالنسبة للتقارير. أنها تسمح لك بتعريف الهيكل المحدد التي تناسب المؤسسة الفردية. تتيح التجميعات التي يتم إجراؤها على مستوى عقده التدرج الهرمي للأبعاد للمساهمين على أي مستوى للمؤسسة رؤية البيانات الموجودة على أي مستوى.
+<span data-ttu-id="2470f-250">تُعتبر التدرجات الهرمية للأبعاد من الأهمية بمكان بالنسبة للتقارير.</span><span class="sxs-lookup"><span data-stu-id="2470f-250">Dimension hierarchies are important for reporting.</span></span> <span data-ttu-id="2470f-251">أنها تسمح لك بتعريف الهيكل المحدد التي تناسب المؤسسة الفردية.</span><span class="sxs-lookup"><span data-stu-id="2470f-251">They let you define the specific structure that fits into the individual organization.</span></span> <span data-ttu-id="2470f-252">تتيح التجميعات التي يتم إجراؤها على مستوى عقده التدرج الهرمي للأبعاد للمساهمين على أي مستوى للمؤسسة رؤية البيانات الموجودة على أي مستوى.</span><span class="sxs-lookup"><span data-stu-id="2470f-252">The aggregations that are done at the node level of the dimension hierarchy let stakeholders at any level of the organization see data at any level.</span></span>
 
-تتوفر التدرجات الهرمية للأبعاد في أدوات التقارير التالية. يساعد هذا الأسلوب على ضمان التناسق في هيكل التقارير.
+<span data-ttu-id="2470f-253">تتوفر التدرجات الهرمية للأبعاد في أدوات التقارير التالية.</span><span class="sxs-lookup"><span data-stu-id="2470f-253">Dimension hierarchies are available in the following reporting tools.</span></span> <span data-ttu-id="2470f-254">يساعد هذا الأسلوب على ضمان التناسق في هيكل التقارير.</span><span class="sxs-lookup"><span data-stu-id="2470f-254">This approach helps guarantee consistency in the reporting structure.</span></span>
 
-- مساحة عمل **مراقب التكلفة** (العميل):
+- <span data-ttu-id="2470f-255">مساحة عمل **مراقب التكلفة** (العميل):</span><span class="sxs-lookup"><span data-stu-id="2470f-255">**Cost control** workspace (Client):</span></span>
 
-    - التحكم بواسطة التكوين.
+    - <span data-ttu-id="2470f-256">التحكم بواسطة التكوين.</span><span class="sxs-lookup"><span data-stu-id="2470f-256">Controlled by configuration.</span></span>
 
-- مساحة عمل **مراقبة التكلفة** (تطبيق الهاتف الجوال):
+- <span data-ttu-id="2470f-257">مساحة عمل **مراقبة التكلفة** (تطبيق الهاتف الجوال):</span><span class="sxs-lookup"><span data-stu-id="2470f-257">**Cost control** workspace (Mobile application):</span></span>
 
-    - التحكم بواسطة التكوين.
+    - <span data-ttu-id="2470f-258">التحكم بواسطة التكوين.</span><span class="sxs-lookup"><span data-stu-id="2470f-258">Controlled by configuration.</span></span>
 
-- Excel
+- <span data-ttu-id="2470f-259">Excel</span><span class="sxs-lookup"><span data-stu-id="2470f-259">Excel</span></span>
 
-    - يوفر إمكانية تحديد التدرجات الهرمية للأبعاد المحددة وفقًا لتعريف التصدير:
+    - <span data-ttu-id="2470f-260">يوفر إمكانية تحديد التدرجات الهرمية للأبعاد المحددة وفقًا لتعريف التصدير:</span><span class="sxs-lookup"><span data-stu-id="2470f-260">Provides the option to select specific dimension hierarchies per export definition:</span></span>
 
-        - التدرج الهرمي لبُعد عنصر تكلفة واحد (إلزامي)
-        - التدرج الهرمي لكائن تكلفة واحد (اختياري)
-        - التدرج الهرمي لبعد إحصائي واحد (اختياري)
+        - <span data-ttu-id="2470f-261">التدرج الهرمي لبُعد عنصر تكلفة واحد (إلزامي)</span><span class="sxs-lookup"><span data-stu-id="2470f-261">One cost element dimension hierarchy (mandatory)</span></span>
+        - <span data-ttu-id="2470f-262">التدرج الهرمي لكائن تكلفة واحد (اختياري)</span><span class="sxs-lookup"><span data-stu-id="2470f-262">One cost object dimension hierarchy (optional)</span></span>
+        - <span data-ttu-id="2470f-263">التدرج الهرمي لبعد إحصائي واحد (اختياري)</span><span class="sxs-lookup"><span data-stu-id="2470f-263">One statistical dimension hierarchy (optional)</span></span>
 
-- :Power BI
+- <span data-ttu-id="2470f-264">:Power BI</span><span class="sxs-lookup"><span data-stu-id="2470f-264">Power BI:</span></span>
 
-    - جميع التدرجات الهرمية للأبعاد متاحة.
+    - <span data-ttu-id="2470f-265">جميع التدرجات الهرمية للأبعاد متاحة.</span><span class="sxs-lookup"><span data-stu-id="2470f-265">All dimension hierarchies are available.</span></span>
     
-إذا قمت بإنشاء التقارير باستخدام Excel أو Power BI، يتم تصدير المستويات 15 الأولى فقط من التدرجات الهرمية للأبعاد. يوجد هذا القيد لأن كل من Excel وPower BI يتطلب مخطط ثابت. إذا كان التدرج الهرمي يحتوي على أكثر من 15 مستوى، فلن يتم تصدير المستويات الإضافية. يحتوي جدول النتيجة الموحدة على سجل لكل عضو بعد في التدرج الهرمي. لذلك، يتم إجراء عملية تجميع تلقائي. يساعد هذا السلوك في ضمان أن الأرصدة في أي مستوى من المستويات 15 المتاحة في التدرج الهرمي لا تزال صحيحة.
+<span data-ttu-id="2470f-266">إذا قمت بإنشاء التقارير باستخدام Excel أو Power BI، يتم تصدير المستويات 15 الأولى فقط من التدرجات الهرمية للأبعاد.</span><span class="sxs-lookup"><span data-stu-id="2470f-266">If you create reports by using Excel or Power BI, only the first 15 levels of the dimension hierarchies are exported.</span></span> <span data-ttu-id="2470f-267">يوجد هذا القيد لأن كل من Excel وPower BI يتطلب مخطط ثابت.</span><span class="sxs-lookup"><span data-stu-id="2470f-267">This limitation exists because a fixed schema is required in Excel and Power BI.</span></span> <span data-ttu-id="2470f-268">إذا كان التدرج الهرمي يحتوي على أكثر من 15 مستوى، فلن يتم تصدير المستويات الإضافية.</span><span class="sxs-lookup"><span data-stu-id="2470f-268">If a hierarchy has more than 15 levels, the additional levels won't be exported.</span></span> <span data-ttu-id="2470f-269">يحتوي جدول النتيجة الموحدة على سجل لكل عضو بعد في التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="2470f-269">The normalized table contains a record for each dimension member in the hierarchy.</span></span> <span data-ttu-id="2470f-270">لذلك، يتم إجراء عملية تجميع تلقائي.</span><span class="sxs-lookup"><span data-stu-id="2470f-270">Therefore, automated aggregation occurs.</span></span> <span data-ttu-id="2470f-271">يساعد هذا السلوك في ضمان أن الأرصدة في أي مستوى من المستويات 15 المتاحة في التدرج الهرمي لا تزال صحيحة.</span><span class="sxs-lookup"><span data-stu-id="2470f-271">This behavior helps guarantee that the balances at any of the 15 available levels in the hierarchy are still correct.</span></span>
 
-يوضح المثال التالي كيف يبدو التدرج الهرمي للبعد في هيكل التقارير.
+<span data-ttu-id="2470f-272">يوضح المثال التالي كيف يبدو التدرج الهرمي للبعد في هيكل التقارير.</span><span class="sxs-lookup"><span data-stu-id="2470f-272">The following example shows what a dimension hierarchy might look like in the reporting structure.</span></span>
 
-| التدرج الهرمي لبُعد كائن التكلفة - المستوى 1 | التدرج الهرمي لبُعد كائن التكلفة - المستوى 2 | التدرج الهرمي لبُعد كائن التكلفة - المستوى 3 | التدرج الهرمي لبُعد كائن التكلفة - المستوى 4 | التدرج الهرمي لبُعد كائن التكلفة - المستوى 15 |
+| <span data-ttu-id="2470f-273">التدرج الهرمي لبُعد كائن التكلفة - المستوى 1</span><span class="sxs-lookup"><span data-stu-id="2470f-273">Cost object dimension hierarchy – Level 1</span></span> | <span data-ttu-id="2470f-274">التدرج الهرمي لبُعد كائن التكلفة - المستوى 2</span><span class="sxs-lookup"><span data-stu-id="2470f-274">Cost object dimension hierarchy – Level 2</span></span> | <span data-ttu-id="2470f-275">التدرج الهرمي لبُعد كائن التكلفة - المستوى 3</span><span class="sxs-lookup"><span data-stu-id="2470f-275">Cost object dimension hierarchy – Level 3</span></span> | <span data-ttu-id="2470f-276">التدرج الهرمي لبُعد كائن التكلفة - المستوى 4</span><span class="sxs-lookup"><span data-stu-id="2470f-276">Cost object dimension hierarchy – Level 4</span></span> | <span data-ttu-id="2470f-277">التدرج الهرمي لبُعد كائن التكلفة - المستوى 15</span><span class="sxs-lookup"><span data-stu-id="2470f-277">Cost object dimension hierarchy – Level 15</span></span> |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| المؤسسة                              | المسؤول                                     | المالية                                   | CC002                                     |                                            |
-| المؤسسة                              | المسؤول                                     | المالية                                   | CC003                                     |                                            |
-| المؤسسة                              | المسؤول                                     | المالية                                   | CC007                                     |                                            |
-| المؤسسة                              | المسؤول                                     | الموارد البشرية                                        | CC001                                     |                                            |
-| المؤسسة                              | الإنتاج                                | التعبئة                                 | CC005                                     |                                            |
-| المؤسسة                              | الإنتاج                                | التجميع                                  | CC006                                     |                                            |
+| <span data-ttu-id="2470f-278">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-278">Organization</span></span>                              | <span data-ttu-id="2470f-279">المسؤول</span><span class="sxs-lookup"><span data-stu-id="2470f-279">Admin</span></span>                                     | <span data-ttu-id="2470f-280">المالية</span><span class="sxs-lookup"><span data-stu-id="2470f-280">Finance</span></span>                                   | <span data-ttu-id="2470f-281">CC002</span><span class="sxs-lookup"><span data-stu-id="2470f-281">CC002</span></span>                                     |                                            |
+| <span data-ttu-id="2470f-282">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-282">Organization</span></span>                              | <span data-ttu-id="2470f-283">المسؤول</span><span class="sxs-lookup"><span data-stu-id="2470f-283">Admin</span></span>                                     | <span data-ttu-id="2470f-284">المالية</span><span class="sxs-lookup"><span data-stu-id="2470f-284">Finance</span></span>                                   | <span data-ttu-id="2470f-285">CC003</span><span class="sxs-lookup"><span data-stu-id="2470f-285">CC003</span></span>                                     |                                            |
+| <span data-ttu-id="2470f-286">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-286">Organization</span></span>                              | <span data-ttu-id="2470f-287">المسؤول</span><span class="sxs-lookup"><span data-stu-id="2470f-287">Admin</span></span>                                     | <span data-ttu-id="2470f-288">المالية</span><span class="sxs-lookup"><span data-stu-id="2470f-288">Finance</span></span>                                   | <span data-ttu-id="2470f-289">CC007</span><span class="sxs-lookup"><span data-stu-id="2470f-289">CC007</span></span>                                     |                                            |
+| <span data-ttu-id="2470f-290">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-290">Organization</span></span>                              | <span data-ttu-id="2470f-291">المسؤول</span><span class="sxs-lookup"><span data-stu-id="2470f-291">Admin</span></span>                                     | <span data-ttu-id="2470f-292">الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="2470f-292">HR</span></span>                                        | <span data-ttu-id="2470f-293">CC001</span><span class="sxs-lookup"><span data-stu-id="2470f-293">CC001</span></span>                                     |                                            |
+| <span data-ttu-id="2470f-294">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-294">Organization</span></span>                              | <span data-ttu-id="2470f-295">الإنتاج</span><span class="sxs-lookup"><span data-stu-id="2470f-295">Production</span></span>                                | <span data-ttu-id="2470f-296">التعبئة</span><span class="sxs-lookup"><span data-stu-id="2470f-296">Packaging</span></span>                                 | <span data-ttu-id="2470f-297">CC005</span><span class="sxs-lookup"><span data-stu-id="2470f-297">CC005</span></span>                                     |                                            |
+| <span data-ttu-id="2470f-298">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-298">Organization</span></span>                              | <span data-ttu-id="2470f-299">الإنتاج</span><span class="sxs-lookup"><span data-stu-id="2470f-299">Production</span></span>                                | <span data-ttu-id="2470f-300">التجميع</span><span class="sxs-lookup"><span data-stu-id="2470f-300">Assembly</span></span>                                  | <span data-ttu-id="2470f-301">CC006</span><span class="sxs-lookup"><span data-stu-id="2470f-301">CC006</span></span>                                     |                                            |
 
-### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>تحديث التدرجات الهرمية للأبعاد المستخدمة لإعداد التقارير 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a><span data-ttu-id="2470f-302">تحديث التدرجات الهرمية للأبعاد المستخدمة لإعداد التقارير</span><span class="sxs-lookup"><span data-stu-id="2470f-302">Update the dimension hierarchies that are used for reporting</span></span> 
 
-مع مرور الوقت، سوف يتعين تحديث التدرجات الهرمية للأبعاد المستخدمة في أدوات التقارير المشار إليها مسبقاً. يمكنك تحديث التدرجات الهرمية للأبعاد عن طريق تحديث العميل.
+<span data-ttu-id="2470f-303">مع مرور الوقت، سوف يتعين تحديث التدرجات الهرمية للأبعاد المستخدمة في أدوات التقارير المشار إليها مسبقاً.</span><span class="sxs-lookup"><span data-stu-id="2470f-303">Over time, the dimension hierarchies that are used in the previously mentioned reporting tools will have to be updated.</span></span> <span data-ttu-id="2470f-304">يمكنك تحديث التدرجات الهرمية للأبعاد عن طريق تحديث العميل.</span><span class="sxs-lookup"><span data-stu-id="2470f-304">You can update dimension hierarchies by refreshing the client.</span></span>
 
-- مساحة عمل **مراقبة التكلفة** (العميل)
-- مساحة عمل **مراقبة التكلفة** (تطبيق الهاتف الجوال)
+- <span data-ttu-id="2470f-305">مساحة عمل **مراقبة التكلفة** (العميل)</span><span class="sxs-lookup"><span data-stu-id="2470f-305">**Cost control** workspace (Client)</span></span>
+- <span data-ttu-id="2470f-306">مساحة عمل **مراقبة التكلفة** (تطبيق الهاتف الجوال)</span><span class="sxs-lookup"><span data-stu-id="2470f-306">**Cost control** workspace (Mobile application)</span></span>
 
-يتم انتقاء تحديثات للتدرجات الهرمية للأبعاد كل 24 ساعة بواسطة وظيفة مسبقة مخزنة مؤقتاً. بعد تحديث البيانات التي تم تصديرها، تتوفر التدرجات الهرمية المُحدثة في الأدوات التالية:
+<span data-ttu-id="2470f-307">يتم انتقاء تحديثات للتدرجات الهرمية للأبعاد كل 24 ساعة بواسطة وظيفة مسبقة مخزنة مؤقتاً.</span><span class="sxs-lookup"><span data-stu-id="2470f-307">Updates to dimension hierarchies are picked up every 24 hours by a pre-cached job.</span></span> <span data-ttu-id="2470f-308">بعد تحديث البيانات التي تم تصديرها، تتوفر التدرجات الهرمية المُحدثة في الأدوات التالية:</span><span class="sxs-lookup"><span data-stu-id="2470f-308">After the exported data is updated, the updated dimension hierarchies are available in the following tools:</span></span>
 
-- Excel
-- Power BI
+- <span data-ttu-id="2470f-309">Excel</span><span class="sxs-lookup"><span data-stu-id="2470f-309">Excel</span></span>
+- <span data-ttu-id="2470f-310">Power BI</span><span class="sxs-lookup"><span data-stu-id="2470f-310">Power BI</span></span>
 
 > [!NOTE] 
-> لتشغيل تحديث ذاكرة التخزين المؤقت للتسلسل الهرمي للبعد يدويًا، يمكنك إنشاء تصدير جديد إلى Excel للتسلسل الهرمي للبعد أو التسلسلات الهرمية التي يجب تحديثها.
+> <span data-ttu-id="2470f-311">لتشغيل تحديث ذاكرة التخزين المؤقت للتسلسل الهرمي للبعد يدويًا، يمكنك إنشاء تصدير جديد إلى Excel للتسلسل الهرمي للبعد أو التسلسلات الهرمية التي يجب تحديثها.</span><span class="sxs-lookup"><span data-stu-id="2470f-311">To manually trigger an update of the dimension hierarchy cache, you can create a new export to Excel for the dimension hierarchy or hierarchies that must be updated.</span></span>
 
-## <a name="define-dimension-hierarchies-for-cost-policies"></a>تحديد التدرجات الهرمية للأبعاد لسياسات التكلفة
+## <a name="define-dimension-hierarchies-for-cost-policies"></a><span data-ttu-id="2470f-312">تحديد التدرجات الهرمية للأبعاد لسياسات التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-312">Define dimension hierarchies for cost policies</span></span>
 
-تتكون محاسبة التكاليف من سياسات متعددة حيث يتم تحديد قواعد مفصلة. يجب عليك تحديد تدرج هرمي لبُعد واحد أو أكثر للسياسات التالية:
+<span data-ttu-id="2470f-313">تتكون محاسبة التكاليف من سياسات متعددة حيث يتم تحديد قواعد مفصلة.</span><span class="sxs-lookup"><span data-stu-id="2470f-313">Cost accounting consists of multiple policies where detailed rules are defined.</span></span> <span data-ttu-id="2470f-314">يجب عليك تحديد تدرج هرمي لبُعد واحد أو أكثر للسياسات التالية:</span><span class="sxs-lookup"><span data-stu-id="2470f-314">You must define one or more dimension hierarchies for the following policies:</span></span>
 
-- سلوك التكلفة
-- توزيع التكلفة
-- توزيع التكلفة
-- زيادة التكلفة
+- <span data-ttu-id="2470f-315">سلوك التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-315">Cost behavior</span></span>
+- <span data-ttu-id="2470f-316">توزيع التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-316">Cost distribution</span></span>
+- <span data-ttu-id="2470f-317">توزيع التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-317">Cost allocation</span></span>
+- <span data-ttu-id="2470f-318">زيادة التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-318">Cost rollup</span></span>
 
-تسهل عليك التدرجات الهرمية للأبعاد إنشاء القواعد. لتجنب الحاجة إلى إنشاء قواعد لكل عضو بعد، يمكنك الاستفادة من التجميعات الخاصة بأعضاء البعد التي يتم توفيرها من خلال مستويات التدرج الهرمي للبعد. إذا كان لديك قواعد متداخلة، يجب عليك تعريف قواعد محددة يضعها النظام في الاعتبار عندما يقوم بحساب المصروفات الزائدة.
+<span data-ttu-id="2470f-319">تسهل عليك التدرجات الهرمية للأبعاد إنشاء القواعد.</span><span class="sxs-lookup"><span data-stu-id="2470f-319">Dimension hierarchies make it easy to create rules.</span></span> <span data-ttu-id="2470f-320">لتجنب الحاجة إلى إنشاء قواعد لكل عضو بعد، يمكنك الاستفادة من التجميعات الخاصة بأعضاء البعد التي يتم توفيرها من خلال مستويات التدرج الهرمي للبعد.</span><span class="sxs-lookup"><span data-stu-id="2470f-320">To avoid having to create rules for every dimension member, you can take advantage of the aggregations of dimension members that are provided by dimension hierarchy levels.</span></span> <span data-ttu-id="2470f-321">إذا كان لديك قواعد متداخلة، يجب عليك تعريف قواعد محددة يضعها النظام في الاعتبار عندما يقوم بحساب المصروفات الزائدة.</span><span class="sxs-lookup"><span data-stu-id="2470f-321">If you have overlapping rules, you must define specific rules that the system will consider when it does the overhead calculation.</span></span>
 
-### <a name="example-define-a-cost-behavior-policy"></a>على سبيل المثال: تعريف سياسة سلوك التكلفة
+### <a name="example-define-a-cost-behavior-policy"></a><span data-ttu-id="2470f-322">على سبيل المثال: تعريف سياسة سلوك التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-322">Example: Define a cost behavior policy</span></span>
 
-يتم إنشاء سياسة سلوك تكلفة جديد، ويتم تعيين التدرجات الهرمية المناسبة للأبعاد للسياسة، كما هو موضح هنا.
+<span data-ttu-id="2470f-323">يتم إنشاء سياسة سلوك تكلفة جديد، ويتم تعيين التدرجات الهرمية المناسبة للأبعاد للسياسة، كما هو موضح هنا.</span><span class="sxs-lookup"><span data-stu-id="2470f-323">A new cost behavior policy is created, and appropriate dimension hierarchies are assigned to the policy, as shown here.</span></span>
 
-**سياسة سلوك التكاليف**
+<span data-ttu-id="2470f-324">**سياسة سلوك التكاليف**</span><span class="sxs-lookup"><span data-stu-id="2470f-324">**Cost behavior policy**</span></span>
 
-| اسم السياسة   | تدرج بُعد عنصر التكلفة | تدرج بُعد كائن التكلفة | عملة المحاسبة |
+| <span data-ttu-id="2470f-325">اسم السياسة</span><span class="sxs-lookup"><span data-stu-id="2470f-325">Policy name</span></span>   | <span data-ttu-id="2470f-326">تدرج بُعد عنصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-326">Cost element dimension hierarchy</span></span> | <span data-ttu-id="2470f-327">تدرج بُعد كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-327">Cost object dimension hierarchy</span></span> | <span data-ttu-id="2470f-328">عملة المحاسبة</span><span class="sxs-lookup"><span data-stu-id="2470f-328">Accounting currency</span></span> |
 |---------------|----------------------------------|---------------------------------|---------------------|
-| سلوك التكلفة | سلوك التكلفة                    | المؤسسة                    | دولار أمريكي                 |
+| <span data-ttu-id="2470f-329">سلوك التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-329">Cost behavior</span></span> | <span data-ttu-id="2470f-330">سلوك التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-330">Cost behavior</span></span>                    | <span data-ttu-id="2470f-331">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-331">Organization</span></span>                    | <span data-ttu-id="2470f-332">دولار أمريكي</span><span class="sxs-lookup"><span data-stu-id="2470f-332">USD</span></span>                 |
 
-**القواعد**
+<span data-ttu-id="2470f-333">**القواعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-333">**Rules**</span></span>
 
-| عقدة التدرج الهرمي لبُعد عنصر التكلفة | عقدة التدرج الهرمي لبُعد كائن التكلفة | نسبة مئوية ثابتة | مبلغ ثابت | صالح من | صالح حتى |
+| <span data-ttu-id="2470f-334">عقدة التدرج الهرمي لبُعد عنصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-334">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="2470f-335">عقدة التدرج الهرمي لبُعد كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-335">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="2470f-336">نسبة مئوية ثابتة</span><span class="sxs-lookup"><span data-stu-id="2470f-336">Fixed percentage</span></span> | <span data-ttu-id="2470f-337">مبلغ ثابت</span><span class="sxs-lookup"><span data-stu-id="2470f-337">Fixed amount</span></span> | <span data-ttu-id="2470f-338">صالح من</span><span class="sxs-lookup"><span data-stu-id="2470f-338">Valid from</span></span> | <span data-ttu-id="2470f-339">صالح حتى</span><span class="sxs-lookup"><span data-stu-id="2470f-339">Valid to</span></span> |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
-| تكلفة ثابتة                            | المؤسسة                         | 100.00           | 0.00         | 1/1/2017   | أبدًا    |
-| 10001                                 | المؤسسة                         | 0.00             | 150.00       | 1/1/2017   | أبدًا    |
-| 10001 (\*)                             | المالية                              |                  | 50.00        | 1/1/2017   | أبدًا    |
-| سلوك التكلفة أو التكلفة المتغيرة (\*\*)   | المؤسسة                         | 0.00             | 0.00         | 1/1/2017   | أبدًا    |
+| <span data-ttu-id="2470f-340">تكلفة ثابتة</span><span class="sxs-lookup"><span data-stu-id="2470f-340">Fixed cost</span></span>                            | <span data-ttu-id="2470f-341">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-341">Organization</span></span>                         | <span data-ttu-id="2470f-342">100.00</span><span class="sxs-lookup"><span data-stu-id="2470f-342">100.00</span></span>           | <span data-ttu-id="2470f-343">0.00</span><span class="sxs-lookup"><span data-stu-id="2470f-343">0.00</span></span>         | <span data-ttu-id="2470f-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="2470f-344">1/1/2017</span></span>   | <span data-ttu-id="2470f-345">أبدًا</span><span class="sxs-lookup"><span data-stu-id="2470f-345">Never</span></span>    |
+| <span data-ttu-id="2470f-346">10001</span><span class="sxs-lookup"><span data-stu-id="2470f-346">10001</span></span>                                 | <span data-ttu-id="2470f-347">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-347">Organization</span></span>                         | <span data-ttu-id="2470f-348">0.00</span><span class="sxs-lookup"><span data-stu-id="2470f-348">0.00</span></span>             | <span data-ttu-id="2470f-349">150.00</span><span class="sxs-lookup"><span data-stu-id="2470f-349">150.00</span></span>       | <span data-ttu-id="2470f-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="2470f-350">1/1/2017</span></span>   | <span data-ttu-id="2470f-351">أبدًا</span><span class="sxs-lookup"><span data-stu-id="2470f-351">Never</span></span>    |
+| <span data-ttu-id="2470f-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="2470f-352">10001 (\*)</span></span>                             | <span data-ttu-id="2470f-353">المالية</span><span class="sxs-lookup"><span data-stu-id="2470f-353">Finance</span></span>                              |                  | <span data-ttu-id="2470f-354">50.00</span><span class="sxs-lookup"><span data-stu-id="2470f-354">50.00</span></span>        | <span data-ttu-id="2470f-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="2470f-355">1/1/2017</span></span>   | <span data-ttu-id="2470f-356">أبدًا</span><span class="sxs-lookup"><span data-stu-id="2470f-356">Never</span></span>    |
+| <span data-ttu-id="2470f-357">سلوك التكلفة أو التكلفة المتغيرة (\*\*)</span><span class="sxs-lookup"><span data-stu-id="2470f-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="2470f-358">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-358">Organization</span></span>                         | <span data-ttu-id="2470f-359">0.00</span><span class="sxs-lookup"><span data-stu-id="2470f-359">0.00</span></span>             | <span data-ttu-id="2470f-360">0.00</span><span class="sxs-lookup"><span data-stu-id="2470f-360">0.00</span></span>         | <span data-ttu-id="2470f-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="2470f-361">1/1/2017</span></span>   | <span data-ttu-id="2470f-362">أبدًا</span><span class="sxs-lookup"><span data-stu-id="2470f-362">Never</span></span>    |
 
-\* عقدة التكلفة المتغيرة غير مطلوبة. إذا لم يتم تصنيف التكلفة كتكلفة ثابتة، فمن ثم يجب أن تكون تكلفة متغيرة.
+<span data-ttu-id="2470f-363">\* عقدة التكلفة المتغيرة غير مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="2470f-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="2470f-364">إذا لم يتم تصنيف التكلفة كتكلفة ثابتة، فمن ثم يجب أن تكون تكلفة متغيرة.</span><span class="sxs-lookup"><span data-stu-id="2470f-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
-\*\* يتم إنشاء قاعدة مفصلة لمجموعة أعضاء عنصر التكلفة 10001 وكافة أعضاء كائن التكلفة التي يتم تجميعها تحت مستوى التدرج الهرمي المالي (CC002، CC003، CC007).
+<span data-ttu-id="2470f-365">\*\* يتم إنشاء قاعدة مفصلة لمجموعة أعضاء عنصر التكلفة 10001 وكافة أعضاء كائن التكلفة التي يتم تجميعها تحت مستوى التدرج الهرمي المالي (CC002، CC003، CC007).</span><span class="sxs-lookup"><span data-stu-id="2470f-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
-توضح القواعد السابقة المرونة التي توفرها التدرجات الهرمية. عن طريق تحديد قواعد عالية المستوى، يمكنك المساعدة في تقليل عملية الصيانة. يمكنك بعد ذلك تحديد القواعد المفصلة لتتناسب مع أحد أهداف العمل المحددة.
+<span data-ttu-id="2470f-366">توضح القواعد السابقة المرونة التي توفرها التدرجات الهرمية.</span><span class="sxs-lookup"><span data-stu-id="2470f-366">The preceding rules show the flexibility that dimension hierarchies provide.</span></span> <span data-ttu-id="2470f-367">عن طريق تحديد قواعد عالية المستوى، يمكنك المساعدة في تقليل عملية الصيانة.</span><span class="sxs-lookup"><span data-stu-id="2470f-367">By defining high-level rules, you can help minimize maintenance.</span></span> <span data-ttu-id="2470f-368">يمكنك بعد ذلك تحديد القواعد المفصلة لتتناسب مع أحد أهداف العمل المحددة.</span><span class="sxs-lookup"><span data-stu-id="2470f-368">You can then define detailed rules to fit into a specific business objective.</span></span>
 
-إذا تم تحديث التدرجات الهرمية للأبعاد المستخدمة في القواعد، فسوف يقوم النظام تلقائيًا بإحضارها إلى الأمام.
+<span data-ttu-id="2470f-369">إذا تم تحديث التدرجات الهرمية للأبعاد المستخدمة في القواعد، فسوف يقوم النظام تلقائيًا بإحضارها إلى الأمام.</span><span class="sxs-lookup"><span data-stu-id="2470f-369">If the dimension hierarchies that are used in rules are updated, the system automatically brings the updates forward.</span></span>
 
-إذا كان مستوى النقاوة في القواعد لم يعد مطلوباً، يمكن أن تكون القاعدة منتهية الصلاحية.
+<span data-ttu-id="2470f-370">إذا كان مستوى النقاوة في القواعد لم يعد مطلوباً، يمكن أن تكون القاعدة منتهية الصلاحية.</span><span class="sxs-lookup"><span data-stu-id="2470f-370">If a level of granularity in the rules is no longer required, the rule can be expired.</span></span>
 
-على سبيل المثال، لم تعد قاعدة سلوك تكلفة محدد لعقدة التدرج الهرمي لبعد كائن التكلفة المالي مطلوبة. في هذه الحالة، انقر فوق **قاعدة منتهية الصلاحية** لإنهاء صلاحية القاعدة.
+<span data-ttu-id="2470f-371">على سبيل المثال، لم تعد قاعدة سلوك تكلفة محدد لعقدة التدرج الهرمي لبعد كائن التكلفة المالي مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="2470f-371">For example, a specific cost behavior rule for the Finance cost object dimension hierarchy node is no longer required.</span></span> <span data-ttu-id="2470f-372">في هذه الحالة، انقر فوق **قاعدة منتهية الصلاحية** لإنهاء صلاحية القاعدة.</span><span class="sxs-lookup"><span data-stu-id="2470f-372">In this case, click **Expire rule** to expire the rule.</span></span>
 
-| عقدة التدرج الهرمي لبُعد عنصر التكلفة | عقدة التدرج الهرمي لبُعد كائن التكلفة | نسبة مئوية ثابتة | مبلغ ثابت | صالح من | صالح حتى  |
+| <span data-ttu-id="2470f-373">عقدة التدرج الهرمي لبُعد عنصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-373">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="2470f-374">عقدة التدرج الهرمي لبُعد كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-374">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="2470f-375">نسبة مئوية ثابتة</span><span class="sxs-lookup"><span data-stu-id="2470f-375">Fixed percentage</span></span> | <span data-ttu-id="2470f-376">مبلغ ثابت</span><span class="sxs-lookup"><span data-stu-id="2470f-376">Fixed amount</span></span> | <span data-ttu-id="2470f-377">صالح من</span><span class="sxs-lookup"><span data-stu-id="2470f-377">Valid from</span></span> | <span data-ttu-id="2470f-378">صالح حتى</span><span class="sxs-lookup"><span data-stu-id="2470f-378">Valid to</span></span>  |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|-----------|
-| تكلفة ثابتة                            | المؤسسة                         | 100,00           | 0.00         | 1/1/2017   | أبدًا     |
-| 10001                                 | المؤسسة                         | 0.00             | 150,00       | 1/1/2017   | أبدًا     |
-| 10001                                 | المالية                              |                  | 50,00        | 1/1/2017   | 20/1/2017 |
-| سلوك التكلفة أو التكلفة المتغيرة        | المؤسسة                         | 0.00             | 0.00         | 1/1/2017   | أبدًا     |
+| <span data-ttu-id="2470f-379">تكلفة ثابتة</span><span class="sxs-lookup"><span data-stu-id="2470f-379">Fixed cost</span></span>                            | <span data-ttu-id="2470f-380">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-380">Organization</span></span>                         | <span data-ttu-id="2470f-381">100,00</span><span class="sxs-lookup"><span data-stu-id="2470f-381">100,00</span></span>           | <span data-ttu-id="2470f-382">0.00</span><span class="sxs-lookup"><span data-stu-id="2470f-382">0,00</span></span>         | <span data-ttu-id="2470f-383">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="2470f-383">1/1/2017</span></span>   | <span data-ttu-id="2470f-384">أبدًا</span><span class="sxs-lookup"><span data-stu-id="2470f-384">Never</span></span>     |
+| <span data-ttu-id="2470f-385">10001</span><span class="sxs-lookup"><span data-stu-id="2470f-385">10001</span></span>                                 | <span data-ttu-id="2470f-386">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-386">Organization</span></span>                         | <span data-ttu-id="2470f-387">0.00</span><span class="sxs-lookup"><span data-stu-id="2470f-387">0,00</span></span>             | <span data-ttu-id="2470f-388">150,00</span><span class="sxs-lookup"><span data-stu-id="2470f-388">150,00</span></span>       | <span data-ttu-id="2470f-389">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="2470f-389">1/1/2017</span></span>   | <span data-ttu-id="2470f-390">أبدًا</span><span class="sxs-lookup"><span data-stu-id="2470f-390">Never</span></span>     |
+| <span data-ttu-id="2470f-391">10001</span><span class="sxs-lookup"><span data-stu-id="2470f-391">10001</span></span>                                 | <span data-ttu-id="2470f-392">المالية</span><span class="sxs-lookup"><span data-stu-id="2470f-392">Finance</span></span>                              |                  | <span data-ttu-id="2470f-393">50,00</span><span class="sxs-lookup"><span data-stu-id="2470f-393">50,00</span></span>        | <span data-ttu-id="2470f-394">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="2470f-394">1/1/2017</span></span>   | <span data-ttu-id="2470f-395">20/1/2017</span><span class="sxs-lookup"><span data-stu-id="2470f-395">20/1/2017</span></span> |
+| <span data-ttu-id="2470f-396">سلوك التكلفة أو التكلفة المتغيرة</span><span class="sxs-lookup"><span data-stu-id="2470f-396">Cost behavior or Variable cost</span></span>        | <span data-ttu-id="2470f-397">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-397">Organization</span></span>                         | <span data-ttu-id="2470f-398">0.00</span><span class="sxs-lookup"><span data-stu-id="2470f-398">0,00</span></span>             | <span data-ttu-id="2470f-399">0.00</span><span class="sxs-lookup"><span data-stu-id="2470f-399">0,00</span></span>         | <span data-ttu-id="2470f-400">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="2470f-400">1/1/2017</span></span>   | <span data-ttu-id="2470f-401">أبدًا</span><span class="sxs-lookup"><span data-stu-id="2470f-401">Never</span></span>     |
 
-لن تراعي أي حسابات للمصروفات الزائدة يتم تشغيلها بعد 20 يناير 2017 هذه القاعدة.
+<span data-ttu-id="2470f-402">لن تراعي أي حسابات للمصروفات الزائدة يتم تشغيلها بعد 20 يناير 2017 هذه القاعدة.</span><span class="sxs-lookup"><span data-stu-id="2470f-402">Any overhead calculation that is run after January 20, 2017, no longer considers this rule.</span></span>
 
 > [!NOTE] 
-> الحقلان **صالح من** و **صالح حتى** ساريان من حيث التاريخ ومن حيث التوقيت. يمكنك إنهاء صلاحية القاعدة وتشغيل حساب مصروفات زائدة جديد في نفس اليوم.
+> <span data-ttu-id="2470f-403">الحقلان **صالح من** و **صالح حتى** ساريان من حيث التاريخ ومن حيث التوقيت.</span><span class="sxs-lookup"><span data-stu-id="2470f-403">The **Valid from** and **Valid to** fields are date-effective and time-effective.</span></span> <span data-ttu-id="2470f-404">يمكنك إنهاء صلاحية القاعدة وتشغيل حساب مصروفات زائدة جديد في نفس اليوم.</span><span class="sxs-lookup"><span data-stu-id="2470f-404">You can expire the rule and run a new overhead calculation on the same day.</span></span>
 
-## <a name="define-dimension-hierarchies-for-security-setup"></a>تحديد التدرجات الهرمية للأبعاد لإعداد الأمان
+## <a name="define-dimension-hierarchies-for-security-setup"></a><span data-ttu-id="2470f-405">تحديد التدرجات الهرمية للأبعاد لإعداد الأمان</span><span class="sxs-lookup"><span data-stu-id="2470f-405">Define dimension hierarchies for security setup</span></span>
 
-يتعين إتاحة بيانات محاسبة التكاليف لجميع المديرين المسؤولين عن وحدة التقارير. في مصطلحات محاسبة التكاليف، تتمثل وحدة التقارير ككائن تكلفة أو كمجموعة من كائنات التكلفة.
+<span data-ttu-id="2470f-406">يتعين إتاحة بيانات محاسبة التكاليف لجميع المديرين المسؤولين عن وحدة التقارير.</span><span class="sxs-lookup"><span data-stu-id="2470f-406">Cost accounting data should be made available to all managers who are responsible for a reporting unit.</span></span> <span data-ttu-id="2470f-407">في مصطلحات محاسبة التكاليف، تتمثل وحدة التقارير ككائن تكلفة أو كمجموعة من كائنات التكلفة.</span><span class="sxs-lookup"><span data-stu-id="2470f-407">In Cost accounting terminology, a reporting unit is represented as a cost object or a set of cost objects.</span></span>
 
-وبشكل محتمل، ستتمكن جميع المديرين من الوصول إلى بيانات أعمال غاية في الأهمية مثل الإيرادات والأرباح. لذلك، من المهم تعيين إعداد الأمان، بحيث يمكن للمديرين فقط رؤية البيانات ذات الصلة بهم. للمساعدة في التحكم في حماية البيانات، يمكنك تحديد التدرجات الهرمية للأبعاد.
+<span data-ttu-id="2470f-408">وبشكل محتمل، ستتمكن جميع المديرين من الوصول إلى بيانات أعمال غاية في الأهمية مثل الإيرادات والأرباح.</span><span class="sxs-lookup"><span data-stu-id="2470f-408">Potentially, all managers will be able to access highly sensitive business data, such revenues and margins.</span></span> <span data-ttu-id="2470f-409">لذلك، من المهم تعيين إعداد الأمان، بحيث يمكن للمديرين فقط رؤية البيانات ذات الصلة بهم.</span><span class="sxs-lookup"><span data-stu-id="2470f-409">Therefore, it's important that you set up security, so that managers see only the data that is relevant to them.</span></span> <span data-ttu-id="2470f-410">للمساعدة في التحكم في حماية البيانات، يمكنك تحديد التدرجات الهرمية للأبعاد.</span><span class="sxs-lookup"><span data-stu-id="2470f-410">To help control data security, you define dimension hierarchies.</span></span>
 
-- ينطبق استخدام التدرجات الهرمية للأبعاد فقط عندما تكون قيمة البعد المحدد في مرجع التدرج الهرمي للبعد هي بعد كائن التكلفة.
-- يمكنك تمكين التدرج الهرمي لبعد واحد فقط لكل بعد كائن تكلفة في التدرج الهرمي لقائمة الوصول.
+- <span data-ttu-id="2470f-411">ينطبق استخدام التدرجات الهرمية للأبعاد فقط عندما تكون قيمة البعد المحدد في مرجع التدرج الهرمي للبعد هي بعد كائن التكلفة.</span><span class="sxs-lookup"><span data-stu-id="2470f-411">The use of dimension hierarchies applies only when the dimension value that is selected in the dimension hierarchy reference is a cost object dimension.</span></span>
+- <span data-ttu-id="2470f-412">يمكنك تمكين التدرج الهرمي لبعد واحد فقط لكل بعد كائن تكلفة في التدرج الهرمي لقائمة الوصول.</span><span class="sxs-lookup"><span data-stu-id="2470f-412">Only one dimension hierarchy can be enabled per cost object dimension in the access list hierarchy.</span></span>
 
-**تفاصيل التدرج الهرمي للبعد**
+<span data-ttu-id="2470f-413">**تفاصيل التدرج الهرمي للبعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-413">**Dimension hierarchy details**</span></span>
 
-| اسم التدرج الهرمي للبُعد | البعد    | اسم نوع التدرج الهرمي للبُعد      | التدرج الهرمي لقائمة الوصول |
+| <span data-ttu-id="2470f-414">اسم التدرج الهرمي للبُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-414">Dimension hierarchy name</span></span> | <span data-ttu-id="2470f-415">البعد</span><span class="sxs-lookup"><span data-stu-id="2470f-415">Dimension</span></span>    | <span data-ttu-id="2470f-416">اسم نوع التدرج الهرمي للبُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-416">Dimension hierarchy type name</span></span>      | <span data-ttu-id="2470f-417">التدرج الهرمي لقائمة الوصول</span><span class="sxs-lookup"><span data-stu-id="2470f-417">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| المؤسسة             | مراكز تكلفة | التدرج الهرمي لتصنيف الأبعاد | **نعم**               |
+| <span data-ttu-id="2470f-418">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-418">Organization</span></span>             | <span data-ttu-id="2470f-419">مراكز تكلفة</span><span class="sxs-lookup"><span data-stu-id="2470f-419">Cost centers</span></span> | <span data-ttu-id="2470f-420">التدرج الهرمي لتصنيف الأبعاد</span><span class="sxs-lookup"><span data-stu-id="2470f-420">Dimension classification hierarchy</span></span> | <span data-ttu-id="2470f-421">**نعم**</span><span class="sxs-lookup"><span data-stu-id="2470f-421">**Yes**</span></span>               |
 
-تتوافر علامة تبويب سريعة جديدة لـ **المستخدمين** في مصمم التدرج الهرمي. ومن هنا، يمكنك إدراج مُعرف مستخدم واحد أو أكثر في كل عقدة في التدرج الهرمي.
+<span data-ttu-id="2470f-422">تتوافر علامة تبويب سريعة جديدة لـ **المستخدمين** في مصمم التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="2470f-422">A new **Users** FastTab is available in the hierarchy designer.</span></span> <span data-ttu-id="2470f-423">ومن هنا، يمكنك إدراج مُعرف مستخدم واحد أو أكثر في كل عقدة في التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="2470f-423">Here, you can insert one or more user IDs at each node in the hierarchy.</span></span>
 
-|                 | المستخدمون            | نطاقات أعضاء البُعد   |                         |
+|                 | <span data-ttu-id="2470f-424">المستخدمون</span><span class="sxs-lookup"><span data-stu-id="2470f-424">Users</span></span>            | <span data-ttu-id="2470f-425">نطاقات أعضاء البُعد</span><span class="sxs-lookup"><span data-stu-id="2470f-425">Dimension member ranges</span></span>   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
-| **العُقد**       | **معرف المستخدم**      | **من عضو البعد** | **إلى عضو البُعد** |
-| المؤسسة    | بنجامين، كلير |                           |                         |
-| &nbsp;&nbsp;المسؤول         | أبريل            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;المالية   | أليسيا           | CC002                     | CC003                   |
-|                 |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;الموارد البشرية        | أرني            | CC001                     | CC001                   |
-| &nbsp;&nbsp;الإنتاج    | ديفيد            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;التعبئة | الين            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;التجميع  | كريس            | CC006                     | CC006                   |
+| <span data-ttu-id="2470f-426">**العُقد**</span><span class="sxs-lookup"><span data-stu-id="2470f-426">**Nodes**</span></span>       | <span data-ttu-id="2470f-427">**معرف المستخدم**</span><span class="sxs-lookup"><span data-stu-id="2470f-427">**User ID**</span></span>      | <span data-ttu-id="2470f-428">**من عضو البعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-428">**From dimension member**</span></span> | <span data-ttu-id="2470f-429">**إلى عضو البُعد**</span><span class="sxs-lookup"><span data-stu-id="2470f-429">**To dimension member**</span></span> |
+| <span data-ttu-id="2470f-430">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="2470f-430">Organization</span></span>    | <span data-ttu-id="2470f-431">بنجامين، كلير</span><span class="sxs-lookup"><span data-stu-id="2470f-431">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="2470f-432">&nbsp;&nbsp;المسؤول</span><span class="sxs-lookup"><span data-stu-id="2470f-432">&nbsp;&nbsp;Admin</span></span>         | <span data-ttu-id="2470f-433">أبريل</span><span class="sxs-lookup"><span data-stu-id="2470f-433">April</span></span>            |                           |                         |
+| <span data-ttu-id="2470f-434">&nbsp;&nbsp;&nbsp;&nbsp;المالية</span><span class="sxs-lookup"><span data-stu-id="2470f-434">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="2470f-435">أليسيا</span><span class="sxs-lookup"><span data-stu-id="2470f-435">Alicia</span></span>           | <span data-ttu-id="2470f-436">CC002</span><span class="sxs-lookup"><span data-stu-id="2470f-436">CC002</span></span>                     | <span data-ttu-id="2470f-437">CC003</span><span class="sxs-lookup"><span data-stu-id="2470f-437">CC003</span></span>                   |
+|                 |                  | <span data-ttu-id="2470f-438">CC007</span><span class="sxs-lookup"><span data-stu-id="2470f-438">CC007</span></span>                     | <span data-ttu-id="2470f-439">CC007</span><span class="sxs-lookup"><span data-stu-id="2470f-439">CC007</span></span>                   |
+| <span data-ttu-id="2470f-440">&nbsp;&nbsp;&nbsp;&nbsp;الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="2470f-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="2470f-441">أرني</span><span class="sxs-lookup"><span data-stu-id="2470f-441">Arnie</span></span>            | <span data-ttu-id="2470f-442">CC001</span><span class="sxs-lookup"><span data-stu-id="2470f-442">CC001</span></span>                     | <span data-ttu-id="2470f-443">CC001</span><span class="sxs-lookup"><span data-stu-id="2470f-443">CC001</span></span>                   |
+| <span data-ttu-id="2470f-444">&nbsp;&nbsp;الإنتاج</span><span class="sxs-lookup"><span data-stu-id="2470f-444">&nbsp;&nbsp;Production</span></span>    | <span data-ttu-id="2470f-445">ديفيد</span><span class="sxs-lookup"><span data-stu-id="2470f-445">David</span></span>            |                           |                         |
+| <span data-ttu-id="2470f-446">&nbsp;&nbsp;&nbsp;&nbsp;التعبئة</span><span class="sxs-lookup"><span data-stu-id="2470f-446">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="2470f-447">الين</span><span class="sxs-lookup"><span data-stu-id="2470f-447">Ellen</span></span>            | <span data-ttu-id="2470f-448">CC005</span><span class="sxs-lookup"><span data-stu-id="2470f-448">CC005</span></span>                     | <span data-ttu-id="2470f-449">CC005</span><span class="sxs-lookup"><span data-stu-id="2470f-449">CC005</span></span>                   |
+| <span data-ttu-id="2470f-450">&nbsp;&nbsp;&nbsp;&nbsp;التجميع</span><span class="sxs-lookup"><span data-stu-id="2470f-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="2470f-451">كريس</span><span class="sxs-lookup"><span data-stu-id="2470f-451">Chris</span></span>            | <span data-ttu-id="2470f-452">CC006</span><span class="sxs-lookup"><span data-stu-id="2470f-452">CC006</span></span>                     | <span data-ttu-id="2470f-453">CC006</span><span class="sxs-lookup"><span data-stu-id="2470f-453">CC006</span></span>                   |
 
 > [!NOTE] 
-> ينبغي تعيين محاسبي التكلفة إلى أعلى مستوى من التسلسل الهرمي، حتى يتمكنوا من رؤية جميع الإدخالات في محاسبة التكاليف.
+> <span data-ttu-id="2470f-454">ينبغي تعيين محاسبي التكلفة إلى أعلى مستوى من التسلسل الهرمي، حتى يتمكنوا من رؤية جميع الإدخالات في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="2470f-454">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-لتمكين التدرج الهرمي لقائمة الوصول وإعدادات الأمان الخاصة بها، انتقل إلى **محاسبة التكاليف** > **إعداد** > **المحددات** > **عام**. قم بتحديد مُحدد **تمكين عرض الوصول لأعضاء بعد كائن التكلفة**.
+<span data-ttu-id="2470f-455">لتمكين التدرج الهرمي لقائمة الوصول وإعدادات الأمان الخاصة بها، انتقل إلى **محاسبة التكاليف** > **إعداد** > **المحددات** > **عام**.</span><span class="sxs-lookup"><span data-stu-id="2470f-455">To enable the access list hierarchy and its security settings, go to **Cost accounting** > **Setup** > **Parameters** > **General**.</span></span> <span data-ttu-id="2470f-456">قم بتحديد مُحدد **تمكين عرض الوصول لأعضاء بعد كائن التكلفة**.</span><span class="sxs-lookup"><span data-stu-id="2470f-456">Select the **Enable view access for cost object dimension members** parameter.</span></span>
 
-يتم استخدام الإعدادات الخاصة بالتدرج الهرمي لقائمة الوصول للتحكم في البيانات التي يتم عرضها في المناطق التالية:
+<span data-ttu-id="2470f-457">يتم استخدام الإعدادات الخاصة بالتدرج الهرمي لقائمة الوصول للتحكم في البيانات التي يتم عرضها في المناطق التالية:</span><span class="sxs-lookup"><span data-stu-id="2470f-457">The settings for the access list hierarchy are used to control the data that is shown in the following areas:</span></span>
 
-- مساحة عمل **مراقب التكلفة** (العميل):
+- <span data-ttu-id="2470f-458">مساحة عمل **مراقب التكلفة** (العميل):</span><span class="sxs-lookup"><span data-stu-id="2470f-458">**Cost control** workspace (Client):</span></span>
 
-    - البيانات الموجودة في النماذج المستخدمة للتصفح في السيناريوهات
+    - <span data-ttu-id="2470f-459">البيانات الموجودة في النماذج المستخدمة للتصفح في السيناريوهات</span><span class="sxs-lookup"><span data-stu-id="2470f-459">Data in forms that are used to drill through scenarios</span></span>
 
-- مساحة عمل **مراقبة التكلفة** (تطبيق الهاتف الجوال):
+- <span data-ttu-id="2470f-460">مساحة عمل **مراقبة التكلفة** (تطبيق الهاتف الجوال):</span><span class="sxs-lookup"><span data-stu-id="2470f-460">**Cost control** workspace (Mobile application):</span></span>
 
-    - الأرصدة في بطاقات
+    - <span data-ttu-id="2470f-461">الأرصدة في بطاقات</span><span class="sxs-lookup"><span data-stu-id="2470f-461">Balances in cards</span></span>
 
-- :Power BI
+- <span data-ttu-id="2470f-462">:Power BI</span><span class="sxs-lookup"><span data-stu-id="2470f-462">Power BI:</span></span>
 
-    - البيانات المعروضة في الرسوم المرئية لـ Power BI
-    - بيانات الرسوم المرئية لـ Power BI المضمنة في Microsoft Dynamics 365 for Finance and Operations، عميل Enterprise edition
+    - <span data-ttu-id="2470f-463">البيانات المعروضة في الرسوم المرئية لـ Power BI</span><span class="sxs-lookup"><span data-stu-id="2470f-463">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="2470f-464">بيانات الرسوم المرئية لـ Power BI المضمنة في Microsoft Dynamics 365 for Finance and Operations، عميل Enterprise edition</span><span class="sxs-lookup"><span data-stu-id="2470f-464">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span></span>
 
 > [!NOTE] 
-> - قبل أن يؤثر التدرج الهرمي لقائمة الوصول على البيانات في Power BI، يجب أن يتم إقران التدرج الهرمي لقائمة الوصول والأمان على مستوى الصف في Power BI. للحصول على مزيد من المعلومات، راجع [إعداد الأمان لحزمة محتوى محاسبة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
-> - لا يساعد التدرج الهرمي لقائمة الوصول في تأمين تصدير البيانات إلى Excel. لذلك، يجب استخدام أداة التقارير تلك فقط من خلال المحاسبين والمديرين الذين يجب أن يكون لديهم حق الوصول الكامل لاستعراض البيانات.
+> - <span data-ttu-id="2470f-465">قبل أن يؤثر التدرج الهرمي لقائمة الوصول على البيانات في Power BI، يجب أن يتم إقران التدرج الهرمي لقائمة الوصول والأمان على مستوى الصف في Power BI.</span><span class="sxs-lookup"><span data-stu-id="2470f-465">Before the access list hierarchy can affect data in Power BI, access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="2470f-466">للحصول على مزيد من المعلومات، راجع [إعداد الأمان لحزمة محتوى محاسبة التكاليف](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span><span class="sxs-lookup"><span data-stu-id="2470f-466">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="2470f-467">لا يساعد التدرج الهرمي لقائمة الوصول في تأمين تصدير البيانات إلى Excel.</span><span class="sxs-lookup"><span data-stu-id="2470f-467">The access list hierarchy doesn't help secure the export of data to Excel.</span></span> <span data-ttu-id="2470f-468">لذلك، يجب استخدام أداة التقارير تلك فقط من خلال المحاسبين والمديرين الذين يجب أن يكون لديهم حق الوصول الكامل لاستعراض البيانات.</span><span class="sxs-lookup"><span data-stu-id="2470f-468">Therefore, that reporting tool should be used only by cost accountants and managers who must have full access to view the data.</span></span>
 

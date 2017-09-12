@@ -16,120 +16,120 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d6f9fc973ae9b36f6d78228d2e8ed4a2684c4875
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 121f00efea6aee8d9df45d67f8f252bbf6b97176
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="use-computations-to-make-the-output-for-counting-and-summing-for-electronic-reporting-er"></a>استخدام العمليات الحسابية لإجراء الإخراج للعد والجمع للتقارير الإلكترونية (ER)
+# <a name="use-computations-to-make-the-output-for-counting-and-summing-for-electronic-reporting-er"></a><span data-ttu-id="cdbd0-103">استخدام العمليات الحسابية لإجراء الإخراج للعد والجمع للتقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="cdbd0-103">Use computations to make the output for counting and summing for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لتنفيذ عمليات الجرد والتجميع بالاستناد إلى البيانات الخاصة بالمخرجات النصية المُنشأة بالفعل. يمكن تنفيذ هذه الخطوات في أي شركة.
+<span data-ttu-id="cdbd0-104">تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لتنفيذ عمليات الجرد والتجميع بالاستناد إلى البيانات الخاصة بالمخرجات النصية المُنشأة بالفعل.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="cdbd0-105">يمكن تنفيذ هذه الخطوات في أي شركة.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-105">These steps can be performed in any company.</span></span>
 
-لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "التقارير الإلكترونية - تكوين التنسيق لتنفيذ عمليات الجرد والتجميع‬ (الجزء 2: العمليات الحسابية)".
+<span data-ttu-id="cdbd0-106">لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "التقارير الإلكترونية - تكوين التنسيق لتنفيذ عمليات الجرد والتجميع‬ (الجزء 2: العمليات الحسابية)".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 2: Configure computations)” procedure.</span></span>
 
-يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
+<span data-ttu-id="cdbd0-107">يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="configure-this-report-to-use-counting-and-summing-info"></a>تكوين هذا التقرير لاستخدام معلومات الجرد والتجميع
-1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
-2. انقر فوق "تكوينات إعداد التقارير‬".
-3. في الشجرة، قم بتوسيع "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي".
-4. في الشجرة، قم بتوسيع "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي‬\نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (DE)"
-5. في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي‬\نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (DE)\Intrastat (DE) مع الجرد والتجميع".
-6. انقر فوق المصمم.
-7. انقر فوق علامة التبويب "التعيين".
-8. انقر فوق "إضافة جذر" لفتح مربع حوار الإسقاط‬.
-    * أضف مصدر بيانات جديدًا للحصول على قائمة الكتل المحفوظة.  
-9. في الشجرة، حدد "الدوال/المحسوب".
-10. في حقل "الاسم"، اكتب "$BlocksList".
-    * $BlocksList  
-11. انقر فوق "تحرير المعادلة".
-12. في الشجرة، حدد "وظائف تجميع البيانات\COLLECTEDLIST".
-13. انقر فوق "إضافة دالة".
-14. انقر فوق "إضافة مصدر بيانات".
-15. في حقل "المعادلة"، أدخل 'COLLECTEDLIST('$BlockName', '.
-    * COLLECTEDLIST('$BlockName',  
-16. في حقل "المعادلة"، أدخل 'COLLECTEDLIST('$BlockName', "*")'.
-    * COLLECTEDLIST('$BlockName', "*")  
-17. انقر فوق "حفظ".
-    * يعني النمط "*" أنه سيتم تضمين جميع الكتل لهذا السجل في القائمة.  
-18. قم بإغلاق الصفحة.
-19. انقر فوق "موافق".
-20. انقر فوق علامة التبويب "تنسيق".
-21. في الشجرة، حدد "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات".
-22. انقر فوق "إضافة" لفتح مربع حوار الإسقاط‬.
-23. في الشجرة، حدد "النص\التسلسل".
-24. في الحقل "الاسم"، اكتب "الإجماليات بكتل‬‬".‬
-    * الإجماليات بكتل‬  
-25. في الحقل "أحرف خاصة‬"، حدد "سطر جديد - Windows (CR LF)".
-26. انقر فوق موافق.
-27. في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات\الإجماليات بكتل‬‬".
-28. انقر فوق "إضافة" لفتح مربع حوار الإسقاط‬.
-29. في الشجرة، حدد "Text\String".
-30. في حقل "الاسم"، اكتب "كود الكتلة".
-    * كود الكتلة  
-31. انقر فوق "موافق".
-32. انقر فوق "إضافة سلسلة".
-33. في الحقل "الاسم"، اكتب "تعداد البنود‬".
-    * تعداد البنود  
-34. انقر فوق "موافق".
-35. انقر فوق "إضافة سلسلة".
-36. في الحقل "الاسم"، اكتب "المبلغ الإجمالي".
-    * المبلغ الإجمالي  
-37. انقر فوق "موافق".
-38. انقر فوق علامة التبويب "التعيين".
-39. في الشجرة، حدد "$BlocksList".
-40. انقر فوق "ربط".
-    * أنشئ بند تلخيص لكل كتلة محفوظة.  
-41. انقر فوق علامة التبويب "تنسيق".
-42. في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات\الإجماليات بكتل‬‬\كود الكتلة".
-43. انقر فوق علامة التبويب "التعيين".
-44. انقر فوق "تحرير المعادلة".
-45. في حقل "المعادلة"، أدخل '"معرف الكتلة: " & '.
-    * "معرف الكتلة: " &  
-46. في الشجرة، قم بتوسيع "$BlocksList".
-47. في الشجرة، حدد "$BlocksList\Value".
-48. انقر فوق "إضافة مصدر بيانات".
-49. انقر فوق "حفظ".
-50. قم بإغلاق الصفحة.
-51. انقر فوق علامة التبويب "تنسيق".
-52. في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات\الإجماليات بكتل‬‬\تعداد البنود".
-53. انقر فوق علامة التبويب "التعيين".
-54. انقر فوق "تحرير المعادلة".
-    * أنشئ مخرجات لعدد البنود لكل كتلة واردة في هذا التقرير.  
-55. في حقل "المعادلة"، أدخل '"عدد البنود في هذه الكتلة: " & '.
-    * "عدد البنود في هذه الكتلة: " &  
-56. في حقل "المعادلة"، أدخل '"عدد البنود في هذه الكتلة: " & TEXT('.
-    * "عدد البنود في هذه الكتلة: " & TEXT(  
-57. في الشجرة، حدد "وظائف تجميع البيانات\COUNTIFS".
-58. انقر فوق "إضافة دالة".
-59. انقر فوق "إضافة مصدر بيانات".
-60. في حقل "المعادلة"، أدخل '"عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '.
-    * "عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName',  
-61. في الشجرة، قم بتوسيع "$BlocksList".
-62. في الشجرة، حدد "$BlocksList\Value".
-63. انقر فوق "إضافة مصدر بيانات".
-64. في حقل "المعادلة"، أدخل '"عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.
-    * "عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,  
-65. في الشجرة، حدد "$RecName".
-66. انقر فوق "إضافة مصدر بيانات".
-67. في حقل "المعادلة، أدخل '"عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "*"))'.
-    * "عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "*"))  
-68. انقر فوق "حفظ".
-69. قم بإغلاق الصفحة.
-70. انقر فوق علامة التبويب "تنسيق".
-71. في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات\الإجماليات بكتل‬‬\المبلغ الإجمالي".
-72. انقر فوق علامة التبويب "التعيين".
-73. انقر فوق "تحرير المعادلة".
-    * أنشئ مخرجات ستكون إجمالي المبلغ المفوتر لكل كتلة واردة في هذا التقرير.  
-74. في حقل "المعادلة"، أدخل '"مجموع المبلغ المفوتر: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))'.
-    * "مجموع المبلغ المفوتر: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))  
-75. انقر فوق "حفظ".
-76. قم بإغلاق الصفحة.
-77. انقر فوق "حفظ".
-78. قم بإغلاق الصفحة.
+## <a name="configure-this-report-to-use-counting-and-summing-info"></a><span data-ttu-id="cdbd0-108">تكوين هذا التقرير لاستخدام معلومات الجرد والتجميع</span><span class="sxs-lookup"><span data-stu-id="cdbd0-108">Configure this report to use counting and summing info</span></span>
+1. <span data-ttu-id="cdbd0-109">انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="cdbd0-110">انقر فوق "تكوينات إعداد التقارير‬".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="cdbd0-111">في الشجرة، قم بتوسيع "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="cdbd0-112">في الشجرة، قم بتوسيع "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي‬\نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (DE)"</span><span class="sxs-lookup"><span data-stu-id="cdbd0-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+5. <span data-ttu-id="cdbd0-113">في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي‬\نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (DE)\Intrastat (DE) مع الجرد والتجميع".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+6. <span data-ttu-id="cdbd0-114">انقر فوق المصمم.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-114">Click Designer.</span></span>
+7. <span data-ttu-id="cdbd0-115">انقر فوق علامة التبويب "التعيين".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-115">Click the Mapping tab.</span></span>
+8. <span data-ttu-id="cdbd0-116">انقر فوق "إضافة جذر" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-116">Click Add root to open the drop dialog.</span></span>
+    * <span data-ttu-id="cdbd0-117">أضف مصدر بيانات جديدًا للحصول على قائمة الكتل المحفوظة.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-117">Add a new data source to get the list of memorized blocks.</span></span>  
+9. <span data-ttu-id="cdbd0-118">في الشجرة، حدد "الدوال/المحسوب".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-118">In the tree, select 'Functions\Calculated field'.</span></span>
+10. <span data-ttu-id="cdbd0-119">في حقل "الاسم"، اكتب "$BlocksList".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-119">In the Name field, type '$BlocksList'.</span></span>
+    * <span data-ttu-id="cdbd0-120">$BlocksList</span><span class="sxs-lookup"><span data-stu-id="cdbd0-120">$BlocksList</span></span>  
+11. <span data-ttu-id="cdbd0-121">انقر فوق "تحرير المعادلة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-121">Click Edit formula.</span></span>
+12. <span data-ttu-id="cdbd0-122">في الشجرة، حدد "وظائف تجميع البيانات\COLLECTEDLIST".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-122">In the tree, select 'Data collection functions\COLLECTEDLIST'.</span></span>
+13. <span data-ttu-id="cdbd0-123">انقر فوق "إضافة دالة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-123">Click Add function.</span></span>
+14. <span data-ttu-id="cdbd0-124">انقر فوق "إضافة مصدر بيانات".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-124">Click Add data source.</span></span>
+15. <span data-ttu-id="cdbd0-125">في حقل "المعادلة"، أدخل 'COLLECTEDLIST('$BlockName', '.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-125">In the Formula field, enter 'COLLECTEDLIST('$BlockName', '.</span></span>
+    * <span data-ttu-id="cdbd0-126">COLLECTEDLIST('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="cdbd0-126">COLLECTEDLIST('$BlockName',</span></span>  
+16. <span data-ttu-id="cdbd0-127">في حقل "المعادلة"، أدخل 'COLLECTEDLIST('$BlockName', "*")'.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-127">In the Formula field, enter 'COLLECTEDLIST('$BlockName', "*")'.</span></span>
+    * <span data-ttu-id="cdbd0-128">COLLECTEDLIST('$BlockName', "*")</span><span class="sxs-lookup"><span data-stu-id="cdbd0-128">COLLECTEDLIST('$BlockName', "*")</span></span>  
+17. <span data-ttu-id="cdbd0-129">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-129">Click Save.</span></span>
+    * <span data-ttu-id="cdbd0-130">يعني النمط "*" أنه سيتم تضمين جميع الكتل لهذا السجل في القائمة.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-130">The pattern “*” means that all blocks will be included to the list for this record.</span></span>  
+18. <span data-ttu-id="cdbd0-131">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-131">Close the page.</span></span>
+19. <span data-ttu-id="cdbd0-132">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-132">Click OK.</span></span>
+20. <span data-ttu-id="cdbd0-133">انقر فوق علامة التبويب "تنسيق".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-133">Click the Format tab.</span></span>
+21. <span data-ttu-id="cdbd0-134">في الشجرة، حدد "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-134">In the tree, select 'Intrastat\Data'.</span></span>
+22. <span data-ttu-id="cdbd0-135">انقر فوق "إضافة" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-135">Click Add to open the drop dialog.</span></span>
+23. <span data-ttu-id="cdbd0-136">في الشجرة، حدد "النص\التسلسل".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-136">In the tree, select 'Text\Sequence'.</span></span>
+24. <span data-ttu-id="cdbd0-137">في الحقل "الاسم"، اكتب "الإجماليات بكتل‬‬".‬</span><span class="sxs-lookup"><span data-stu-id="cdbd0-137">In the Name field, type 'Totals by blocks'.</span></span>
+    * <span data-ttu-id="cdbd0-138">الإجماليات بكتل‬</span><span class="sxs-lookup"><span data-stu-id="cdbd0-138">Totals by blocks</span></span>  
+25. <span data-ttu-id="cdbd0-139">في الحقل "أحرف خاصة‬"، حدد "سطر جديد - Windows (CR LF)".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-139">In the Special characters field, select 'New line - Windows (CR LF)'.</span></span>
+26. <span data-ttu-id="cdbd0-140">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-140">Click OK.</span></span>
+27. <span data-ttu-id="cdbd0-141">في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات\الإجماليات بكتل‬‬".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-141">In the tree, select 'Intrastat\Data\Totals by blocks'.</span></span>
+28. <span data-ttu-id="cdbd0-142">انقر فوق "إضافة" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-142">Click Add to open the drop dialog.</span></span>
+29. <span data-ttu-id="cdbd0-143">في الشجرة، حدد "Text\String".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-143">In the tree, select 'Text\String'.</span></span>
+30. <span data-ttu-id="cdbd0-144">في حقل "الاسم"، اكتب "كود الكتلة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-144">In the Name field, type 'Block code'.</span></span>
+    * <span data-ttu-id="cdbd0-145">كود الكتلة</span><span class="sxs-lookup"><span data-stu-id="cdbd0-145">Block code</span></span>  
+31. <span data-ttu-id="cdbd0-146">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-146">Click OK.</span></span>
+32. <span data-ttu-id="cdbd0-147">انقر فوق "إضافة سلسلة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-147">Click Add String.</span></span>
+33. <span data-ttu-id="cdbd0-148">في الحقل "الاسم"، اكتب "تعداد البنود‬".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-148">In the Name field, type 'Lines counting'.</span></span>
+    * <span data-ttu-id="cdbd0-149">تعداد البنود</span><span class="sxs-lookup"><span data-stu-id="cdbd0-149">Lines counting</span></span>  
+34. <span data-ttu-id="cdbd0-150">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-150">Click OK.</span></span>
+35. <span data-ttu-id="cdbd0-151">انقر فوق "إضافة سلسلة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-151">Click Add String.</span></span>
+36. <span data-ttu-id="cdbd0-152">في الحقل "الاسم"، اكتب "المبلغ الإجمالي".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-152">In the Name field, type 'Total amount'.</span></span>
+    * <span data-ttu-id="cdbd0-153">المبلغ الإجمالي</span><span class="sxs-lookup"><span data-stu-id="cdbd0-153">Total amount</span></span>  
+37. <span data-ttu-id="cdbd0-154">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-154">Click OK.</span></span>
+38. <span data-ttu-id="cdbd0-155">انقر فوق علامة التبويب "التعيين".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-155">Click the Mapping tab.</span></span>
+39. <span data-ttu-id="cdbd0-156">في الشجرة، حدد "$BlocksList".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-156">In the tree, select '$BlocksList'.</span></span>
+40. <span data-ttu-id="cdbd0-157">انقر فوق "ربط".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-157">Click Bind.</span></span>
+    * <span data-ttu-id="cdbd0-158">أنشئ بند تلخيص لكل كتلة محفوظة.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-158">Create a summary line for each memorized block.</span></span>  
+41. <span data-ttu-id="cdbd0-159">انقر فوق علامة التبويب "تنسيق".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-159">Click the Format tab.</span></span>
+42. <span data-ttu-id="cdbd0-160">في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات\الإجماليات بكتل‬‬\كود الكتلة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-160">In the tree, select 'Intrastat\Data\Totals by blocks\Block code'.</span></span>
+43. <span data-ttu-id="cdbd0-161">انقر فوق علامة التبويب "التعيين".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-161">Click the Mapping tab.</span></span>
+44. <span data-ttu-id="cdbd0-162">انقر فوق "تحرير المعادلة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-162">Click Edit formula.</span></span>
+45. <span data-ttu-id="cdbd0-163">في حقل "المعادلة"، أدخل '"معرف الكتلة: " & '.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-163">In the Formula field, enter '"Block id: " & '.</span></span>
+    * <span data-ttu-id="cdbd0-164">"معرف الكتلة: " &</span><span class="sxs-lookup"><span data-stu-id="cdbd0-164">"Block id: " &</span></span>  
+46. <span data-ttu-id="cdbd0-165">في الشجرة، قم بتوسيع "$BlocksList".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-165">In the tree, expand '$BlocksList'.</span></span>
+47. <span data-ttu-id="cdbd0-166">في الشجرة، حدد "$BlocksList\Value".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-166">In the tree, select '$BlocksList\Value'.</span></span>
+48. <span data-ttu-id="cdbd0-167">انقر فوق "إضافة مصدر بيانات".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-167">Click Add data source.</span></span>
+49. <span data-ttu-id="cdbd0-168">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-168">Click Save.</span></span>
+50. <span data-ttu-id="cdbd0-169">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-169">Close the page.</span></span>
+51. <span data-ttu-id="cdbd0-170">انقر فوق علامة التبويب "تنسيق".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-170">Click the Format tab.</span></span>
+52. <span data-ttu-id="cdbd0-171">في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات\الإجماليات بكتل‬‬\تعداد البنود".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-171">In the tree, select 'Intrastat\Data\Totals by blocks\Lines counting'.</span></span>
+53. <span data-ttu-id="cdbd0-172">انقر فوق علامة التبويب "التعيين".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-172">Click the Mapping tab.</span></span>
+54. <span data-ttu-id="cdbd0-173">انقر فوق "تحرير المعادلة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-173">Click Edit formula.</span></span>
+    * <span data-ttu-id="cdbd0-174">أنشئ مخرجات لعدد البنود لكل كتلة واردة في هذا التقرير.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-174">Create output for the number of lines for each block presented in this report.</span></span>  
+55. <span data-ttu-id="cdbd0-175">في حقل "المعادلة"، أدخل '"عدد البنود في هذه الكتلة: " & '.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-175">In the Formula field, enter '"Number of lines in this block: " & '.</span></span>
+    * <span data-ttu-id="cdbd0-176">"عدد البنود في هذه الكتلة: " &</span><span class="sxs-lookup"><span data-stu-id="cdbd0-176">"Number of lines in this block: " &</span></span>  
+56. <span data-ttu-id="cdbd0-177">في حقل "المعادلة"، أدخل '"عدد البنود في هذه الكتلة: " & TEXT('.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-177">In the Formula field, enter '"Number of lines in this block: " & TEXT('.</span></span>
+    * <span data-ttu-id="cdbd0-178">"عدد البنود في هذه الكتلة: " & TEXT(</span><span class="sxs-lookup"><span data-stu-id="cdbd0-178">"Number of lines in this block: " & TEXT(</span></span>  
+57. <span data-ttu-id="cdbd0-179">في الشجرة، حدد "وظائف تجميع البيانات\COUNTIFS".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-179">In the tree, select 'Data collection functions\COUNTIFS'.</span></span>
+58. <span data-ttu-id="cdbd0-180">انقر فوق "إضافة دالة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-180">Click Add function.</span></span>
+59. <span data-ttu-id="cdbd0-181">انقر فوق "إضافة مصدر بيانات".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-181">Click Add data source.</span></span>
+60. <span data-ttu-id="cdbd0-182">في حقل "المعادلة"، أدخل '"عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-182">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span></span>
+    * <span data-ttu-id="cdbd0-183">"عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="cdbd0-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span></span>  
+61. <span data-ttu-id="cdbd0-184">في الشجرة، قم بتوسيع "$BlocksList".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-184">In the tree, expand '$BlocksList'.</span></span>
+62. <span data-ttu-id="cdbd0-185">في الشجرة، حدد "$BlocksList\Value".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-185">In the tree, select '$BlocksList\Value'.</span></span>
+63. <span data-ttu-id="cdbd0-186">انقر فوق "إضافة مصدر بيانات".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-186">Click Add data source.</span></span>
+64. <span data-ttu-id="cdbd0-187">في حقل "المعادلة"، أدخل '"عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-187">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span></span>
+    * <span data-ttu-id="cdbd0-188">"عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span><span class="sxs-lookup"><span data-stu-id="cdbd0-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span></span>  
+65. <span data-ttu-id="cdbd0-189">في الشجرة، حدد "$RecName".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-189">In the tree, select '$RecName'.</span></span>
+66. <span data-ttu-id="cdbd0-190">انقر فوق "إضافة مصدر بيانات".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-190">Click Add data source.</span></span>
+67. <span data-ttu-id="cdbd0-191">في حقل "المعادلة، أدخل '"عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "*"))'.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-191">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "*"))'.</span></span>
+    * <span data-ttu-id="cdbd0-192">"عدد البنود في هذه الكتلة: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "*"))</span><span class="sxs-lookup"><span data-stu-id="cdbd0-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "*"))</span></span>  
+68. <span data-ttu-id="cdbd0-193">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-193">Click Save.</span></span>
+69. <span data-ttu-id="cdbd0-194">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-194">Close the page.</span></span>
+70. <span data-ttu-id="cdbd0-195">انقر فوق علامة التبويب "تنسيق".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-195">Click the Format tab.</span></span>
+71. <span data-ttu-id="cdbd0-196">في الشجرة، حدد "نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي\البيانات\الإجماليات بكتل‬‬\المبلغ الإجمالي".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-196">In the tree, select 'Intrastat\Data\Totals by blocks\Total amount'.</span></span>
+72. <span data-ttu-id="cdbd0-197">انقر فوق علامة التبويب "التعيين".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-197">Click the Mapping tab.</span></span>
+73. <span data-ttu-id="cdbd0-198">انقر فوق "تحرير المعادلة".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-198">Click Edit formula.</span></span>
+    * <span data-ttu-id="cdbd0-199">أنشئ مخرجات ستكون إجمالي المبلغ المفوتر لكل كتلة واردة في هذا التقرير.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-199">Create output that will be the total of the invoiced amount for each block presented in this report.</span></span>  
+74. <span data-ttu-id="cdbd0-200">في حقل "المعادلة"، أدخل '"مجموع المبلغ المفوتر: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))'.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-200">In the Formula field, enter '"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))'.</span></span>
+    * <span data-ttu-id="cdbd0-201">"مجموع المبلغ المفوتر: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))</span><span class="sxs-lookup"><span data-stu-id="cdbd0-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))</span></span>  
+75. <span data-ttu-id="cdbd0-202">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-202">Click Save.</span></span>
+76. <span data-ttu-id="cdbd0-203">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-203">Close the page.</span></span>
+77. <span data-ttu-id="cdbd0-204">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="cdbd0-204">Click Save.</span></span>
+78. <span data-ttu-id="cdbd0-205">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="cdbd0-205">Close the page.</span></span>
 
 

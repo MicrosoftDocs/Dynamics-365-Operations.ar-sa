@@ -18,246 +18,246 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: fc36d399759b6321995f9bd827849c8a0bced090
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="project-resourcing"></a>تعيين موارد المشروع
+# <a name="project-resourcing"></a><span data-ttu-id="efd3c-103">تعيين موارد المشروع</span><span class="sxs-lookup"><span data-stu-id="efd3c-103">Project resourcing</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-يوفر هذا الموضوع معلومات حول تعيين موارد المشروع‬.
+<span data-ttu-id="efd3c-104">يوفر هذا الموضوع معلومات حول تعيين موارد المشروع‬.</span><span class="sxs-lookup"><span data-stu-id="efd3c-104">This topic provides information about project resourcing.</span></span>
 
-إن أحد التحديات التي يواجهها مدراء المشاريع ومدراء الموارد أثناء مرحلة تخطيط المشروع هو عملية تخصيص الموارد، حيث يتعيّن عليهم تحديد وحجز المورد المناسب للعمل على مشروع. في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تسمح لك قدرات تعيين الموارد للعمل على المشاريع بتعريف الأدوار التي تتم معاملتها على أنها موارد مؤقتة يمكن حجزها لمشاركة معينة أو جزء من مشاركة. يسمح هذا النوع من تعيين الموارد لمدراء المشاريع ومدراء الموارد بإتمام المهام التالية:
+<span data-ttu-id="efd3c-105">إن أحد التحديات التي يواجهها مدراء المشاريع ومدراء الموارد أثناء مرحلة تخطيط المشروع هو عملية تخصيص الموارد، حيث يتعيّن عليهم تحديد وحجز المورد المناسب للعمل على مشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-105">One challenge for project managers and resource managers during the project planning stage is resource allocation, where they must determine and reserve the correct resource to work on a project.</span></span> <span data-ttu-id="efd3c-106">في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تسمح لك قدرات تعيين الموارد للعمل على المشاريع بتعريف الأدوار التي تتم معاملتها على أنها موارد مؤقتة يمكن حجزها لمشاركة معينة أو جزء من مشاركة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-106">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, resourcing capabilities for projects let you define roles that are treated as temporary resources that can be reserved for a specific engagement, or part of an engagement.</span></span> <span data-ttu-id="efd3c-107">يسمح هذا النوع من تعيين الموارد لمدراء المشاريع ومدراء الموارد بإتمام المهام التالية:</span><span class="sxs-lookup"><span data-stu-id="efd3c-107">This type of resourcing lets project managers and resource managers complete the following tasks:</span></span>
 
--   تعريف دور له الكفاءات اللازمة لتسهيل عملية مطابقة موارد.
--   استخدام أدوار لتعريف جدولة مشاركة أولية استنادًا إلى الموارد المحجوزة.
--   تقدير التكاليف وتحديد ميزانية أولية، استنادًا إلى الأدوار والموارد المعينة لمشروع.
--   استخدام أدوار لتقدير عدد حجز الموارد المطلوبة لكل مشاركة.
--   تقدير عدد الموارد المطلوبة لدورة الحياة الكاملة للمشروع.
--   إنشاء مسودة لهيكل تنظيم عمل (WBS) باستخدام تعيينات الموارد الأولية.
+-   <span data-ttu-id="efd3c-108">تعريف دور له الكفاءات اللازمة لتسهيل عملية مطابقة موارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-108">Define a role that has the required competencies to make it easy to match resources.</span></span>
+-   <span data-ttu-id="efd3c-109">استخدام أدوار لتعريف جدولة مشاركة أولية استنادًا إلى الموارد المحجوزة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-109">Use roles to define an initial engagement schedule that is based on reserved resources.</span></span>
+-   <span data-ttu-id="efd3c-110">تقدير التكاليف وتحديد ميزانية أولية، استنادًا إلى الأدوار والموارد المعينة لمشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-110">Estimate costs and determine an initial budget, based on assigned roles and resources for a project.</span></span>
+-   <span data-ttu-id="efd3c-111">استخدام أدوار لتقدير عدد حجز الموارد المطلوبة لكل مشاركة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-111">Use roles to estimate the number of resource reservations that are required for each engagement.</span></span>
+-   <span data-ttu-id="efd3c-112">تقدير عدد الموارد المطلوبة لدورة الحياة الكاملة للمشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-112">Estimate the number of resources that are required for the entire life cycle of a project.</span></span>
+-   <span data-ttu-id="efd3c-113">إنشاء مسودة لهيكل تنظيم عمل (WBS) باستخدام تعيينات الموارد الأولية.</span><span class="sxs-lookup"><span data-stu-id="efd3c-113">Draft a work breakdown structure (WBS) by using the initial resource assignments.</span></span>
 
-[![دورة حياة المشروع](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg) 
+<span data-ttu-id="efd3c-114">[![دورة حياة المشروع](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span><span class="sxs-lookup"><span data-stu-id="efd3c-114">[![Project life cycle](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span></span> 
 
-مع متابعة عملية تخطيط المشروع، يمكن استبدال الموارد التي تم التخطيط لها بموارد موظفة. بإمكان مدير المشروع أيضًا العودة وتحديث عمليات حجز الموارد خلال أي مرحلة من مراحل المشروع.
+<span data-ttu-id="efd3c-115">مع متابعة عملية تخطيط المشروع، يمكن استبدال الموارد التي تم التخطيط لها بموارد موظفة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-115">As project planning proceeds, planned resources can be replaced with staffed resources.</span></span> <span data-ttu-id="efd3c-116">بإمكان مدير المشروع أيضًا العودة وتحديث عمليات حجز الموارد خلال أي مرحلة من مراحل المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-116">The project manager can also go back and update the resourcing reservations during any of the project stages.</span></span>
 
-## <a name="set-up-project-resources"></a>إعداد موارد المشروع
-يجب إعداد تقويم وربطه بموظف أو عامل. يستخدم التقويم لجدولة المشروع ووقت عمل الموارد التي تم حجزها للمشروع. وأثناء إعداد التقويم، بإمكان مدراء المشاريع تنفيذ تسوية الموارد كجزء من تحسين الموارد. استنادًا إلى جدول التقويم، يمكن وضع قيود على الموارد. يمكنك إعداد تقويم على صفحة **تقويمات**. 
+## <a name="set-up-project-resources"></a><span data-ttu-id="efd3c-117">إعداد موارد المشروع</span><span class="sxs-lookup"><span data-stu-id="efd3c-117">Set up project resources</span></span>
+<span data-ttu-id="efd3c-118">يجب إعداد تقويم وربطه بموظف أو عامل.</span><span class="sxs-lookup"><span data-stu-id="efd3c-118">You must set up a calendar and associate it with an employee or a worker.</span></span> <span data-ttu-id="efd3c-119">يستخدم التقويم لجدولة المشروع ووقت عمل الموارد التي تم حجزها للمشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-119">The calendar is used to schedule the project and the working time of the resources that are reserved for the project.</span></span> <span data-ttu-id="efd3c-120">وأثناء إعداد التقويم، بإمكان مدراء المشاريع تنفيذ تسوية الموارد كجزء من تحسين الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-120">During calendar setup, project managers can perform resource leveling as part of resource optimization.</span></span> <span data-ttu-id="efd3c-121">استنادًا إلى جدول التقويم، يمكن وضع قيود على الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-121">Based on the calendar schedule, restrictions can be placed on resources.</span></span> <span data-ttu-id="efd3c-122">يمكنك إعداد تقويم على صفحة **تقويمات**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-122">You can set up a calendar on the **Calendars** page.</span></span> 
 
-عند إعداد عامل كمورد مشروع، يمكنك الاختيار من بين العاملين الموظفين في الشركة التي تقوم بإعداد الموارد لها، أو يمكنك اختيار العاملين من شركات آخر داخل مؤسستك. وتُعد موارد بين الشركات الشقيقة. تشرح الإجراءات التالية كيفية إعداد عامل كمورد مشروع داخل شركتك، وكيفية إعداد مورد مشروع بين الشركات الشقيقة.
+<span data-ttu-id="efd3c-123">عند إعداد عامل كمورد مشروع، يمكنك الاختيار من بين العاملين الموظفين في الشركة التي تقوم بإعداد الموارد لها، أو يمكنك اختيار العاملين من شركات آخر داخل مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="efd3c-123">When you set up a worker as a project resource, you can select from workers that work in the company for which you are setting up resources or, you can select workers from other companies within your organization.</span></span> <span data-ttu-id="efd3c-124">وتُعد موارد بين الشركات الشقيقة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-124">These are intercompany resources.</span></span> <span data-ttu-id="efd3c-125">تشرح الإجراءات التالية كيفية إعداد عامل كمورد مشروع داخل شركتك، وكيفية إعداد مورد مشروع بين الشركات الشقيقة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-125">The following procedures explain how to set up a worker as a project resource within your company and how to set up an intercompany project resource.</span></span>
 
-### <a name="set-up-a-worker-as-a-project-resource"></a>إعداد عامل كمورد مشروع
+### <a name="set-up-a-worker-as-a-project-resource"></a><span data-ttu-id="efd3c-126">إعداد عامل كمورد مشروع</span><span class="sxs-lookup"><span data-stu-id="efd3c-126">Set up a worker as a project resource</span></span>
 
-1.  في صفحة **العاملون**، في قائمة **العاملون**، حدد العامل الذي تضيفه كمورد مشروع وافتح سجل العامل.
-2.  في جزء الإجراءات، انقر فوق **مشروع** &gt; **إعداد** &gt; **إعداد المشروع**.
-3.  حدد التقويم، ثم قم بإغلاق الصفحة.
+1.  <span data-ttu-id="efd3c-127">في صفحة **العاملون**، في قائمة **العاملون**، حدد العامل الذي تضيفه كمورد مشروع وافتح سجل العامل.</span><span class="sxs-lookup"><span data-stu-id="efd3c-127">On the **Workers** page, in the **Workers** list, select the worker that you're adding as a project resource, and open the worker record.</span></span>
+2.  <span data-ttu-id="efd3c-128">في جزء الإجراءات، انقر فوق **مشروع** &gt; **إعداد** &gt; **إعداد المشروع**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-128">On the Action Pane, click **Project** &gt; **Setup** &gt; **Project setup**.</span></span>
+3.  <span data-ttu-id="efd3c-129">حدد التقويم، ثم قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-129">Select a calendar, and then close the page.</span></span>
 
-يمكنك أيضًا تحديد مشاريع افتراضية لأحد الموارد كنوع من التعيين المسبق. يمكن استخدام التعيينات المسبقة عندما يكون مدير الموارد أو مدير المشروع على علم مسبق بالمشاريع التي سيعمل عليها المورد. يمكن أيضًا إنشاء التعيينات المسبقة بالاستناد إلى طلب الجهة الراعية للمشروع أو العميل. لتعيين مشروع بشكل مسبق، في صفحة **تعيين المشاريع**، على علامة تبويب **المشاريع**، في قائمة **المشاريع المتبقية**، حدد المشروع المناسب.
+<span data-ttu-id="efd3c-130">يمكنك أيضًا تحديد مشاريع افتراضية لأحد الموارد كنوع من التعيين المسبق.</span><span class="sxs-lookup"><span data-stu-id="efd3c-130">You can also specify default projects for a resource as a type of pre-assignment.</span></span> <span data-ttu-id="efd3c-131">يمكن استخدام التعيينات المسبقة عندما يكون مدير الموارد أو مدير المشروع على علم مسبق بالمشاريع التي سيعمل عليها المورد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-131">Pre-assignments can be used when the resource manager or project manager knows which projects the resource will be working on in advance.</span></span> <span data-ttu-id="efd3c-132">يمكن أيضًا إنشاء التعيينات المسبقة بالاستناد إلى طلب الجهة الراعية للمشروع أو العميل.</span><span class="sxs-lookup"><span data-stu-id="efd3c-132">Pre-assignments can also be based on the request of a project sponsor or customer.</span></span> <span data-ttu-id="efd3c-133">لتعيين مشروع بشكل مسبق، في صفحة **تعيين المشاريع**، على علامة تبويب **المشاريع**، في قائمة **المشاريع المتبقية**، حدد المشروع المناسب.</span><span class="sxs-lookup"><span data-stu-id="efd3c-133">To pre-assign a project, on the **Assign projects** page, on the **Projects** tab, in the **Remaining projects** list, select the appropriate project.</span></span>
 
-### <a name="set-up-an-intercompany-resource"></a>إعداد مورد بين الشركات الشقيقة
+### <a name="set-up-an-intercompany-resource"></a><span data-ttu-id="efd3c-134">إعداد مورد بين الشركات الشقيقة</span><span class="sxs-lookup"><span data-stu-id="efd3c-134">Set up an intercompany resource</span></span>
 
-عندما تقوم بإعداد عامل كمورد بين الشركات الشقيقة، يجب عليك إتمام الإعداد في الشركة المُقرضة والشركة المقترضة. 
+<span data-ttu-id="efd3c-135">عندما تقوم بإعداد عامل كمورد بين الشركات الشقيقة، يجب عليك إتمام الإعداد في الشركة المُقرضة والشركة المقترضة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-135">When you set up a worker as an intercompany resource, you must complete the setup in the lending company and the borrowing company.</span></span> 
 
-**في شركة الإقراض:**
+<span data-ttu-id="efd3c-136">**في شركة الإقراض:**</span><span class="sxs-lookup"><span data-stu-id="efd3c-136">**In the lending company:**</span></span>
 
-1.  في Finance and Operations، تحقق من أن الشركة المُقرضة تم تحديدها، ثم أكمل الإجراء أعلاه، "إعداد عامل كمورد مشروع".
-2.  انتقل إلى * * دفتر الأستاذ العام* *&gt; * * إعداد الترحيل * *&gt; **المحاسبة بين الشركات الشقيقة**. انقر فوق **جديد**.
-3.  في حقل * * مُعرف الكيان القانوني * *، حدد الشركة المُقرضة. قم بملء الحقول المتبقية على النحو المناسب، ثم انقر فوق **حفظ**.
-4.  انتقل إلى **إدارة المشروع والمحاسبة **&gt; **الإعداد **&gt; **الأسعار ** &gt; **سعر التحويل**.** **
-5.  في نموذج * * سعر التحويل * *، انقر فوق **جديد**، وفي حقل * * الكيان القانوني المُقرض * *، حدد الشركة المناسبة.
-6.  إذا كنت تريد إقراض الشركة المقترضة المورد الذي قمت بإنشاءه في بداية هذا القسم، في جقل **المورد** ، حدد اسم المورد الذي قمت بإنشائه. إذا كنت تريد إتاحة جميع الموارد في الشركة للشركة المُقترض، اترك حقل * * المورد * * فارغاً.
-7.  انتقل إلى * * مشروع المحاسبة وإدارة * *&gt; * * إعداد * *&gt; **إدارة المشاريع ومعلمات المحاسبة**، وفي علامة تبويب * * بين الشركات الشقيقة * *، قم بتعيين حقل * * تمكين الجداول الزمنية وجدولة الموارد بين الشركات الشقيقة * * إلى **نعم**.
+1.  <span data-ttu-id="efd3c-137">في Finance and Operations، تحقق من أن الشركة المُقرضة تم تحديدها، ثم أكمل الإجراء أعلاه، "إعداد عامل كمورد مشروع".</span><span class="sxs-lookup"><span data-stu-id="efd3c-137">In Finance and Operations, verify that the lending company is selected, and then complete the procedure above, "Set up a worker as a project resource."</span></span>
+2.  <span data-ttu-id="efd3c-138">انتقل إلى * * دفتر الأستاذ العام* *&gt; * * إعداد الترحيل * *&gt; **المحاسبة بين الشركات الشقيقة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-138">Go to **General ledger **&gt; **Posting setup **&gt; **Intercompany accounting**.</span></span> <span data-ttu-id="efd3c-139">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-139">Click **New**.</span></span>
+3.  <span data-ttu-id="efd3c-140">في حقل * * مُعرف الكيان القانوني * *، حدد الشركة المُقرضة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-140">In the **Legal entity ID **field, select the lending company.</span></span> <span data-ttu-id="efd3c-141">قم بملء الحقول المتبقية على النحو المناسب، ثم انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-141">Fill in the remaining fields as appropriate, and then click **Save**.</span></span>
+4.  <span data-ttu-id="efd3c-142">انتقل إلى **إدارة المشروع والمحاسبة **&gt; **الإعداد **&gt; **الأسعار ** &gt; **سعر التحويل**.**</span><span class="sxs-lookup"><span data-stu-id="efd3c-142">Go the **Project management and accounting **&gt; **Setup **&gt; **Prices ** &gt; **Transfer price**.**</span></span> **
+5.  <span data-ttu-id="efd3c-143">في نموذج * * سعر التحويل * *، انقر فوق **جديد**، وفي حقل * * الكيان القانوني المُقرض * *، حدد الشركة المناسبة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-143">On the **Transfer price **form, click **New**, and in the **Borrowing legal entity **field, select the appropriate company.</span></span>
+6.  <span data-ttu-id="efd3c-144">إذا كنت تريد إقراض الشركة المقترضة المورد الذي قمت بإنشاءه في بداية هذا القسم، في جقل **المورد** ، حدد اسم المورد الذي قمت بإنشائه.</span><span class="sxs-lookup"><span data-stu-id="efd3c-144">If you want to only loan the borrowing company the resource that you created at the beginning of this section, in the **Resource** field, select the name of the resource that you created.</span></span> <span data-ttu-id="efd3c-145">إذا كنت تريد إتاحة جميع الموارد في الشركة للشركة المُقترض، اترك حقل * * المورد * * فارغاً.</span><span class="sxs-lookup"><span data-stu-id="efd3c-145">If you want to make all resources in the company available to the borrowing company, leave the **Resource **field blank.</span></span>
+7.  <span data-ttu-id="efd3c-146">انتقل إلى * * مشروع المحاسبة وإدارة * *&gt; * * إعداد * *&gt; **إدارة المشاريع ومعلمات المحاسبة**، وفي علامة تبويب * * بين الشركات الشقيقة * *، قم بتعيين حقل * * تمكين الجداول الزمنية وجدولة الموارد بين الشركات الشقيقة * * إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-146">Go to **Project management and accounting **&gt; **Setup **&gt; **Project management and accounting parameters**, and on the **Intercompany **tab, set the **Enable intercompany resource scheduling and timesheets **field to **Yes**.</span></span>
 
-**في الشركة المُقترضة:**
+<span data-ttu-id="efd3c-147">**في الشركة المُقترضة:**</span><span class="sxs-lookup"><span data-stu-id="efd3c-147">**In the borrowing company:**</span></span>
 
-1.  انتقل إلى **إدارة المشروع والمحاسبة** &gt; **موارد المشروع** &gt; **قائمة الموارد**.
-2.  في عامل تصفية البحث، أدخل اسم المورد الذي أنشأته في الإجراء السابق لشركة الإقراض للتحقق من تضمين الاسم في قائمة الموارد لشركة الاقتراض.
+1.  <span data-ttu-id="efd3c-148">انتقل إلى **إدارة المشروع والمحاسبة** &gt; **موارد المشروع** &gt; **قائمة الموارد**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-148">Go to **Project management and accounting** &gt; **Project resources** &gt; **Resources list**.</span></span>
+2.  <span data-ttu-id="efd3c-149">في عامل تصفية البحث، أدخل اسم المورد الذي أنشأته في الإجراء السابق لشركة الإقراض للتحقق من تضمين الاسم في قائمة الموارد لشركة الاقتراض.</span><span class="sxs-lookup"><span data-stu-id="efd3c-149">In the search filter, enter the name of the resource that you created in the previous procedure for the lending company to verify that the name is included in the resource list for the borrowing company.</span></span>
 
-## <a name="manage-resource-competencies"></a>إدارة اختصاصات الموارد
-تُعد اختصاصات الموارد جزءًا أساسيًا من عملية إدارة الموارد. يمكن استخدام الاختصاصات كأساس لتحديد الموارد التي تتميز بموازنة صحيحة ما بين المهارات والتعليم والشهادات وخبرة العمل على المشروع. يجب إعداد هذه المعلومات لكل مورد وتحديثها بانتظام. وبهذه الطريقة، يمكنك الاستفادة من القدرات إلى الحد الأقصى عند مطابقة اختصاصات موارد معينة أثناء تعيين موارد المشروع. [![أمثلة عن المهارات والشهادات والتعليم وخبرة العمل على المشروع](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg) 
+## <a name="manage-resource-competencies"></a><span data-ttu-id="efd3c-150">إدارة اختصاصات الموارد</span><span class="sxs-lookup"><span data-stu-id="efd3c-150">Manage resource competencies</span></span>
+<span data-ttu-id="efd3c-151">تُعد اختصاصات الموارد جزءًا أساسيًا من عملية إدارة الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-151">Resource competencies are an essential part of resource management.</span></span> <span data-ttu-id="efd3c-152">يمكن استخدام الاختصاصات كأساس لتحديد الموارد التي تتميز بموازنة صحيحة ما بين المهارات والتعليم والشهادات وخبرة العمل على المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-152">Competencies can be used as a baseline to determine resources that have the correct balance of skills, education, certification, and project experience.</span></span> <span data-ttu-id="efd3c-153">يجب إعداد هذه المعلومات لكل مورد وتحديثها بانتظام.</span><span class="sxs-lookup"><span data-stu-id="efd3c-153">You should set up this information for each resource and update it on a regular basis.</span></span> <span data-ttu-id="efd3c-154">وبهذه الطريقة، يمكنك الاستفادة من القدرات إلى الحد الأقصى عند مطابقة اختصاصات موارد معينة أثناء تعيين موارد المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-154">In this way, you can maximize capabilities when specific resource competencies are matched during project resource assignment.</span></span> <span data-ttu-id="efd3c-155">[![أمثلة عن المهارات والشهادات والتعليم وخبرة العمل على المشروع](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)</span><span class="sxs-lookup"><span data-stu-id="efd3c-155">[![Examples of skills, certifications, education, and project experience](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)</span></span> 
 
-يشرح الإجراء التالي كيفية إعداد بعض الاختصاصات لأحد موارد. 
+<span data-ttu-id="efd3c-156">يشرح الإجراء التالي كيفية إعداد بعض الاختصاصات لأحد موارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-156">The following procedures explain how to set up some of the competencies for a resource.</span></span> 
 
-لإعداد الاختصاصات لأحد العاملين، يمكنك استخدام إما صفحة قائمة **العاملون** في الموارد البشرية أو صفحة قائمة **الموارد** في المحاسبة وإدارة المشروع. للإجراءات التالية، سوف تستخدم صفحة قائمة **العاملون** في الموارد البشرية.
+<span data-ttu-id="efd3c-157">لإعداد الاختصاصات لأحد العاملين، يمكنك استخدام إما صفحة قائمة **العاملون** في الموارد البشرية أو صفحة قائمة **الموارد** في المحاسبة وإدارة المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-157">To set up competencies for a worker, you can use either the **Workers** list page in Human resources or the **Resources** list page in Project management and accounting.</span></span> <span data-ttu-id="efd3c-158">للإجراءات التالية، سوف تستخدم صفحة قائمة **العاملون** في الموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="efd3c-158">For the following procedures, the **Workers** list page in Human resources is used.</span></span>
 
-### <a name="set-up-competencies-certificates"></a>إعداد الاختصاصات: الشهادات
+### <a name="set-up-competencies-certificates"></a><span data-ttu-id="efd3c-159">إعداد الاختصاصات: الشهادات</span><span class="sxs-lookup"><span data-stu-id="efd3c-159">Set up competencies: Certificates</span></span>
 
-1.  في صفحة قائمة **العاملون**، حدد بند العامل الذي تريد إضافة معلومات الشهادة له.
-2.  في جزء الإجراءات، في علامة تبويب **العامل** في مجموعة **الاختصاصات‬**، انقر فوق **الشهادات**.
-3.  انقر فوق **جديد**.
-4.  في حقل **نوع الشهادة**، حدد **PMP**.
-5.  في حقل **تاريخ البدء**، حدد **10/1/2015**.
-6.  انقر فوق **حفظ** ثم قم بإغلاق الصفحة.
+1.  <span data-ttu-id="efd3c-160">في صفحة قائمة **العاملون**، حدد بند العامل الذي تريد إضافة معلومات الشهادة له.</span><span class="sxs-lookup"><span data-stu-id="efd3c-160">On the **Workers** list page, select the line of the worker that you're adding certificate information for.</span></span>
+2.  <span data-ttu-id="efd3c-161">في جزء الإجراءات، في علامة تبويب **العامل** في مجموعة **الاختصاصات‬**، انقر فوق **الشهادات**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-161">On the Action Pane, on the **Worker** tab, in the **Competencies** group, click **Certificates**.</span></span>
+3.  <span data-ttu-id="efd3c-162">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-162">Click **New**.</span></span>
+4.  <span data-ttu-id="efd3c-163">في حقل **نوع الشهادة**، حدد **PMP**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-163">In the **Certificate type** field, select **PMP**.</span></span>
+5.  <span data-ttu-id="efd3c-164">في حقل **تاريخ البدء**، حدد **10/1/2015**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-164">In the **Start date** field, select **10/1/2015**.</span></span>
+6.  <span data-ttu-id="efd3c-165">انقر فوق **حفظ** ثم قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-165">Click **Save**, and then close the page.</span></span>
 
-### <a name="set-up-competencies-skills"></a>إعداد الاختصاصات: المهارات
+### <a name="set-up-competencies-skills"></a><span data-ttu-id="efd3c-166">إعداد الاختصاصات: المهارات</span><span class="sxs-lookup"><span data-stu-id="efd3c-166">Set up competencies: Skills</span></span>
 
-1.  في صفحة قائمة **العاملون**، تأكد من أن العامل الذي استخدمته في الإجراء السابق لا يزال محددًا. بعد ذلك، في جزء الإجراءات، في علامة تبويب **العامل** في مجموعة **الاختصاصات‬**، انقر فوق **المهارات**.
-2.  انقر فوق **جديد**.
-3.  في حقل **المهارة**، حدد **إدارة المشروع‬**.
-4.  في حقل **المستوى**، حدد **5 خبير**.
-5.  في حقل **تاريخ المستوى‬**، حدد **1/14/2014**.
-6.  في حقل **سنوات الخبرة**، أدخل **10**.
-7.  انقر فوق **حفظ** ثم قم بإغلاق الصفحة.
+1.  <span data-ttu-id="efd3c-167">في صفحة قائمة **العاملون**، تأكد من أن العامل الذي استخدمته في الإجراء السابق لا يزال محددًا.</span><span class="sxs-lookup"><span data-stu-id="efd3c-167">On the **Workers** list page, make sure that the worker that you used in the previous procedure is still selected.</span></span> <span data-ttu-id="efd3c-168">بعد ذلك، في جزء الإجراءات، في علامة تبويب **العامل** في مجموعة **الاختصاصات‬**، انقر فوق **المهارات**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-168">Then, on the Action Pane, on the **Worker** tab, in the **Competencies** group, click **Skills**.</span></span>
+2.  <span data-ttu-id="efd3c-169">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-169">Click **New**.</span></span>
+3.  <span data-ttu-id="efd3c-170">في حقل **المهارة**، حدد **إدارة المشروع‬**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-170">In the **Skill** field, select **Project management**.</span></span>
+4.  <span data-ttu-id="efd3c-171">في حقل **المستوى**، حدد **5 خبير**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-171">In the **Level** field, select **5 Expert**.</span></span>
+5.  <span data-ttu-id="efd3c-172">في حقل **تاريخ المستوى‬**، حدد **1/14/2014**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-172">In the **Level date** field, select **1-/14/2014**.</span></span>
+6.  <span data-ttu-id="efd3c-173">في حقل **سنوات الخبرة**، أدخل **10**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-173">In the **Years of experience** field, enter **10**.</span></span>
+7.  <span data-ttu-id="efd3c-174">انقر فوق **حفظ** ثم قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-174">Click **Save**, and then close the page.</span></span>
 
-## <a name="create-a-new-project"></a>إنشاء مشروع جديد
-1.  انقر فوق **إدارة المشروع والمحاسبة** &gt; **مساحات العمل** &gt; **إدارة المشروع**.
-2.  انقر فوق **مشروع جديد**، ثم أدخل القيم التالية:
-    -   **نوع المشروع:** الوقت والمواد‬
-    -   **اسم المشروع:** المرحلة 2 من ترقية XYZ
-    -   **مجموعة المشروع** - TM\_WIP
-    -   **معرف عقد المشروع**  - 00000002
-3.  انقر فوق **إنشاء مشروع**.
+## <a name="create-a-new-project"></a><span data-ttu-id="efd3c-175">إنشاء مشروع جديد</span><span class="sxs-lookup"><span data-stu-id="efd3c-175">Create a new project</span></span>
+1.  <span data-ttu-id="efd3c-176">انقر فوق **إدارة المشروع والمحاسبة** &gt; **مساحات العمل** &gt; **إدارة المشروع**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-176">Click **Project management and accounting** &gt; **Workspaces** &gt; **Project management**.</span></span>
+2.  <span data-ttu-id="efd3c-177">انقر فوق **مشروع جديد**، ثم أدخل القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="efd3c-177">Click **New project**, and enter the following values:</span></span>
+    -   <span data-ttu-id="efd3c-178">**نوع المشروع:** الوقت والمواد‬</span><span class="sxs-lookup"><span data-stu-id="efd3c-178">**Project type** - Time and material</span></span>
+    -   <span data-ttu-id="efd3c-179">**اسم المشروع:** المرحلة 2 من ترقية XYZ</span><span class="sxs-lookup"><span data-stu-id="efd3c-179">**Project name** - XYZ Upgrade Phase 2</span></span>
+    -   <span data-ttu-id="efd3c-180">**مجموعة المشروع** - TM\_WIP</span><span class="sxs-lookup"><span data-stu-id="efd3c-180">**Project group** - TM\_WIP</span></span>
+    -   <span data-ttu-id="efd3c-181">**معرف عقد المشروع**  - 00000002</span><span class="sxs-lookup"><span data-stu-id="efd3c-181">**Project contract ID**  - 00000002</span></span>
+3.  <span data-ttu-id="efd3c-182">انقر فوق **إنشاء مشروع**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-182">Click **Create project**.</span></span>
 
-### <a name="assign-a-resource-to-a-project"></a>تعيين مورد لمشروع
+### <a name="assign-a-resource-to-a-project"></a><span data-ttu-id="efd3c-183">تعيين مورد لمشروع</span><span class="sxs-lookup"><span data-stu-id="efd3c-183">Assign a resource to a project</span></span>
 
-1.  انقر فوق **الموارد البشرية** &gt; **العاملون** &gt; **العاملون**.
-2.  في قائمة **العاملون**، حدد سجل العامل الذي سبق لك إعداد الاختصاصات له، وافتح سجل العامل.
-3.  في جزء الإجراءات، على علامة تبويب **المشروع**، في المجموعة **إعداد**، انقر فوق **تعيين المشاريع**.
-4.  في صفحة **تعيينات مشاريع التحقق من صحة المورد‬**، انقر فوق علامة تبويب **المشاريع**.
-5.  في صفحة **أضف المشروع إلى مشروعات محددة**، قم بإجراء التصفية على المشروع، المرحلة 2 من ترقية XYZ.
-6.  في جزء **المشاريع المتبقية**، حدد مشروعًا، وثم انقر فوق السهم لإضافته إلى جزء **المشاريع المحددة**.
-7.  قم بإغلاق الصفحة.
+1.  <span data-ttu-id="efd3c-184">انقر فوق **الموارد البشرية** &gt; **العاملون** &gt; **العاملون**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-184">Click **Human resources** &gt; **Workers** &gt; **Workers**.</span></span>
+2.  <span data-ttu-id="efd3c-185">في قائمة **العاملون**، حدد سجل العامل الذي سبق لك إعداد الاختصاصات له، وافتح سجل العامل.</span><span class="sxs-lookup"><span data-stu-id="efd3c-185">In the **Workers** list, select the record for the worker that you previously set up competencies for, and open the worker record.</span></span>
+3.  <span data-ttu-id="efd3c-186">في جزء الإجراءات، على علامة تبويب **المشروع**، في المجموعة **إعداد**، انقر فوق **تعيين المشاريع**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-186">On the Action Pane, on the **Project** tab, in the **Setup** group, click **Assign projects**.</span></span>
+4.  <span data-ttu-id="efd3c-187">في صفحة **تعيينات مشاريع التحقق من صحة المورد‬**، انقر فوق علامة تبويب **المشاريع**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-187">On the **Resource validation project assignments** page, click the **Projects** tab.</span></span>
+5.  <span data-ttu-id="efd3c-188">في صفحة **أضف المشروع إلى مشروعات محددة**، قم بإجراء التصفية على المشروع، المرحلة 2 من ترقية XYZ.</span><span class="sxs-lookup"><span data-stu-id="efd3c-188">In the **Add the project to selected projects**, filter on the project, XYZ Upgrade Phase 2</span></span>
+6.  <span data-ttu-id="efd3c-189">في جزء **المشاريع المتبقية**، حدد مشروعًا، وثم انقر فوق السهم لإضافته إلى جزء **المشاريع المحددة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-189">In the **Remaining projects** pane, select a project, and then click the arrow to add it to the **Selected projects** pane.</span></span>
+7.  <span data-ttu-id="efd3c-190">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-190">Close the page.</span></span>
 
-إذا لزم الأمر، يمكنك أيضًا تعيين فئات لأحد الموارد. نوع الفئة هو تكلفة أو إيراد. يتحدد ذلك من قِبل مؤسستك. إذا لم يكن هناك أي فئات معينة للمورد، فسوف يبحث Finance and Operations عن الفئة الافتراضية على أسعار الساعة للتكلفة والإيراد.
+<span data-ttu-id="efd3c-191">إذا لزم الأمر، يمكنك أيضًا تعيين فئات لأحد الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-191">If needed, you can also assign categories for a resource.</span></span> <span data-ttu-id="efd3c-192">نوع الفئة هو تكلفة أو إيراد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-192">The category type is either Cost or Revenue.</span></span> <span data-ttu-id="efd3c-193">يتحدد ذلك من قِبل مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="efd3c-193">This is determined by your organization.</span></span> <span data-ttu-id="efd3c-194">إذا لم يكن هناك أي فئات معينة للمورد، فسوف يبحث Finance and Operations عن الفئة الافتراضية على أسعار الساعة للتكلفة والإيراد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-194">If there are no assigned categories for the resource, Finance and Operations will look up the default category on hour prices for cost and revenue.</span></span>
 
-### <a name="set-up-project-resource-and-role-characteristics"></a>عداد موارد المشروع وخصائص الأدوار‬
+### <a name="set-up-project-resource-and-role-characteristics"></a><span data-ttu-id="efd3c-195">عداد موارد المشروع وخصائص الأدوار‬</span><span class="sxs-lookup"><span data-stu-id="efd3c-195">Set up project resource and role characteristics</span></span>
 
-بإمكان مدير المشروع استخدام وظيفة تعيين موارد المشروع لإنشاء الأدوار المطلوبة للمشروع. يمكن استخدام الأدوار إذا كانت الموارد المؤكدة ما زالت غير معروفة عند حجز الموارد. يمكن عكس الأدوار بشكل مؤقت كموارد مخططة، بحيث تتمكن من متابعة مراحل تخطيط المشروع. 
+<span data-ttu-id="efd3c-196">بإمكان مدير المشروع استخدام وظيفة تعيين موارد المشروع لإنشاء الأدوار المطلوبة للمشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-196">A project manager can use the project resourcing functionality to create the roles that are required for the project.</span></span> <span data-ttu-id="efd3c-197">يمكن استخدام الأدوار إذا كانت الموارد المؤكدة ما زالت غير معروفة عند حجز الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-197">Roles can be used when confirmed resources are still unknown when reserving resources.</span></span> <span data-ttu-id="efd3c-198">يمكن عكس الأدوار بشكل مؤقت كموارد مخططة، بحيث تتمكن من متابعة مراحل تخطيط المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-198">Roles can be temporarily reserved as planned resources, so that you can continue the project planning stages.</span></span> 
 
-[![مثال لدور](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+<span data-ttu-id="efd3c-199">[![مثال لدور](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg)</span><span class="sxs-lookup"><span data-stu-id="efd3c-199">[![Example of a role](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg)</span></span> 
 
-**السيناريو:** تم توظيف Contoso لإكمال مشروع وقت ومواد له ميثاق مشروع معتمد. ما زال مدير المشروع المبتدئ يعمل على إكمال نطاق المشروع. ويعمل مدير الموارد حاليًا على تعريف الموارد المحددة التي سيتم حجزها للعمل في المشروع الجديد. أحد الأدوار الذي طلبته الجهة الراعية للمشروع، بسبب الطبيعة الحساسة لهذا المشروع، هو مدير مشروع أول. يتعيّن على مدير الموارد الحصول على المورد الجديد، ثم يقوم بتعريف الدور في النظام، إذا ما احتاج مدير المشروع المبتدئ إلى معلومات حول المورد أثناء تخطيط المشروع. 
+<span data-ttu-id="efd3c-200">**السيناريو:** تم توظيف Contoso لإكمال مشروع وقت ومواد له ميثاق مشروع معتمد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-200">**Scenario:** Contoso was hired to complete a Time and material project that has an approved project charter.</span></span> <span data-ttu-id="efd3c-201">ما زال مدير المشروع المبتدئ يعمل على إكمال نطاق المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-201">The junior project manager is still completing the scope of the project.</span></span> <span data-ttu-id="efd3c-202">ويعمل مدير الموارد حاليًا على تعريف الموارد المحددة التي سيتم حجزها للعمل في المشروع الجديد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-202">The resource manager is currently identifying specific resources that will be reserved to work on the new project.</span></span> <span data-ttu-id="efd3c-203">أحد الأدوار الذي طلبته الجهة الراعية للمشروع، بسبب الطبيعة الحساسة لهذا المشروع، هو مدير مشروع أول.</span><span class="sxs-lookup"><span data-stu-id="efd3c-203">One of the roles that the project sponsor requested, because of the critical nature of the project, is the Senior project manager.</span></span> <span data-ttu-id="efd3c-204">يتعيّن على مدير الموارد الحصول على المورد الجديد، ثم يقوم بتعريف الدور في النظام، إذا ما احتاج مدير المشروع المبتدئ إلى معلومات حول المورد أثناء تخطيط المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-204">The resource manager must acquire the new resource and define the role in the system in case the junior project manager requires the resource information during the project planning.</span></span> 
 
-تظهر الخطوات التالية كيف يمكن لمدير الموارد إعداد دور مدير المشروع الأول وربط خصائص المورد به. في وقت لاحق، يمكن استخدام الدور للبحث عن الموارد المتاحة التي تطابق اختصاصات المورد المطلوبة.
+<span data-ttu-id="efd3c-205">تظهر الخطوات التالية كيف يمكن لمدير الموارد إعداد دور مدير المشروع الأول وربط خصائص المورد به.</span><span class="sxs-lookup"><span data-stu-id="efd3c-205">The following steps show how the resource manager can set up the Senior project manager role and associate resource characteristics with it.</span></span> <span data-ttu-id="efd3c-206">في وقت لاحق، يمكن استخدام الدور للبحث عن الموارد المتاحة التي تطابق اختصاصات المورد المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-206">Later, the role can be used to search for available resources that match the required resource competencies.</span></span>
 
-1.  انقر فوق **إدارة المشروع‬ والمحاسبة** &gt; **إعداد** &gt; **الموارد** &gt; **إعداد الأدوار**.
-2.  انقر فوق **جديد**، ثم أدخل القيم التالية:
-    -   **معرف الدور:**- مدير مشروع أول
-    -   **الوصف:** -مدير مشروع أول
-3.  انقر فوق **إنشاء**.
-4.  حدد دور **مدير المشاريع القيادي**، ومن ثم انقر فوق **تكوين الخصائص**.
-5.  في حقل **نوع الخاصية**، حدد **المهارة‬**.
-6.  في حقل **الخصائص المتوفرة**، أدخل المهارة التي تبحث عنها.
-7.  في حقل **نوع الخاصية**، حدد **الشهادة**.
-8.  في حقل **الخصائص المتوفرة**، أدخل نوع الشهادة التي تبحث عنها.
-9.  انقر فوق **موافق** وأغلق الصفحة.
+1.  <span data-ttu-id="efd3c-207">انقر فوق **إدارة المشروع‬ والمحاسبة** &gt; **إعداد** &gt; **الموارد** &gt; **إعداد الأدوار**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-207">Click **Project management and accounting** &gt; **Setup** &gt; **Resources** &gt; **Setup roles**.</span></span>
+2.  <span data-ttu-id="efd3c-208">انقر فوق **جديد**، ثم أدخل القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="efd3c-208">Click **New**, and enter the following values:</span></span>
+    -   <span data-ttu-id="efd3c-209">**معرف الدور:**- مدير مشروع أول</span><span class="sxs-lookup"><span data-stu-id="efd3c-209">**Role ID** - Senior Project Manager</span></span>
+    -   <span data-ttu-id="efd3c-210">**الوصف:** -مدير مشروع أول</span><span class="sxs-lookup"><span data-stu-id="efd3c-210">**Description** - Senior Project Manager</span></span>
+3.  <span data-ttu-id="efd3c-211">انقر فوق **إنشاء**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-211">Click **Create**.</span></span>
+4.  <span data-ttu-id="efd3c-212">حدد دور **مدير المشاريع القيادي**، ومن ثم انقر فوق **تكوين الخصائص**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-212">Select the **Senior Project Manager** role, and then click **Configure characteristics**.</span></span>
+5.  <span data-ttu-id="efd3c-213">في حقل **نوع الخاصية**، حدد **المهارة‬**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-213">In the **Characteristics type** field, select **Skill**.</span></span>
+6.  <span data-ttu-id="efd3c-214">في حقل **الخصائص المتوفرة**، أدخل المهارة التي تبحث عنها.</span><span class="sxs-lookup"><span data-stu-id="efd3c-214">In the **Available characteristics** field, enter the skill that you're searching for.</span></span>
+7.  <span data-ttu-id="efd3c-215">في حقل **نوع الخاصية**، حدد **الشهادة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-215">In the **Characteristic type** field, select **Certificate**.</span></span>
+8.  <span data-ttu-id="efd3c-216">في حقل **الخصائص المتوفرة**، أدخل نوع الشهادة التي تبحث عنها.</span><span class="sxs-lookup"><span data-stu-id="efd3c-216">In the **Available characteristics** field, enter the certificate type to search for.</span></span>
+9.  <span data-ttu-id="efd3c-217">انقر فوق **موافق** وأغلق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-217">Click **OK**, and close the page.</span></span>
 
-### <a name="assign-a-project-resource-to-a-project"></a>تعيين مورد مشروع لمشروع
+### <a name="assign-a-project-resource-to-a-project"></a><span data-ttu-id="efd3c-218">تعيين مورد مشروع لمشروع</span><span class="sxs-lookup"><span data-stu-id="efd3c-218">Assign a project resource to a project</span></span>
 
-1.  انقر فوق **إدارة المشروع والمحاسبة** &gt; **عام** &gt; **المشاريع** &gt; **كل المشروعات**، وافتح **المرحلة 2 من ترقية XYZ** المشروع.
-2.  على علامة التبويب **فريق المشروع وجدولته**، انقر فوق **إضافة**.
-3.  في حقل **الدور**، حدد **عضو الفريق**.
-4.  انقر فوق **حجز من التقويم**.
-5.  في صفحة **توفر الموارد**، انقر فوق **عرض الإعدادات**.
-6.  في صفحة **ضبط إعدادات العرض**، أدخل القيم التالية:
-    -   **طريقة عرض تنسيق نطاق التاريخ:** -اليوم
-    -   **عرض أوصاف التوافر:**- نعم
-    -   **عرض القدرة المتبقية:**- نعم
-7.  في قائمة الموارد، حدد موردًا.
-8.  انقر فوق **حجز العمالة** &gt; **قدرة كاملة**.
-9.  قم بإغلاق الصفحة.
+1.  <span data-ttu-id="efd3c-219">انقر فوق **إدارة المشروع والمحاسبة** &gt; **عام** &gt; **المشاريع** &gt; **كل المشروعات**، وافتح **المرحلة 2 من ترقية XYZ** المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-219">Click **Project management and accounting** &gt; **Common** &gt; **Projects** &gt; **All projects**, and open the **XYZ Upgrade Phase 2** project.</span></span>
+2.  <span data-ttu-id="efd3c-220">على علامة التبويب **فريق المشروع وجدولته**، انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-220">On the **Project team and scheduling** tab, click **Add**.</span></span>
+3.  <span data-ttu-id="efd3c-221">في حقل **الدور**، حدد **عضو الفريق**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-221">In the **Role** field, select **Team member**.</span></span>
+4.  <span data-ttu-id="efd3c-222">انقر فوق **حجز من التقويم**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-222">Click **Book from calendar**.</span></span>
+5.  <span data-ttu-id="efd3c-223">في صفحة **توفر الموارد**، انقر فوق **عرض الإعدادات**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-223">On the **Resource availability** page, click **View settings**.</span></span>
+6.  <span data-ttu-id="efd3c-224">في صفحة **ضبط إعدادات العرض**، أدخل القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="efd3c-224">On the **Adjust view settings** page, enter the following values:</span></span>
+    -   <span data-ttu-id="efd3c-225">**طريقة عرض تنسيق نطاق التاريخ:** -اليوم</span><span class="sxs-lookup"><span data-stu-id="efd3c-225">**Format for date range view** - Day</span></span>
+    -   <span data-ttu-id="efd3c-226">**عرض أوصاف التوافر:**- نعم</span><span class="sxs-lookup"><span data-stu-id="efd3c-226">**Display availability descriptions** - Yes</span></span>
+    -   <span data-ttu-id="efd3c-227">**عرض القدرة المتبقية:**- نعم</span><span class="sxs-lookup"><span data-stu-id="efd3c-227">**Display remaining capacity** - Yes</span></span>
+7.  <span data-ttu-id="efd3c-228">في قائمة الموارد، حدد موردًا.</span><span class="sxs-lookup"><span data-stu-id="efd3c-228">In the list of resources, select a resource.</span></span>
+8.  <span data-ttu-id="efd3c-229">انقر فوق **حجز العمالة** &gt; **قدرة كاملة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-229">Click **Hard book** &gt; **Full capacity**.</span></span>
+9.  <span data-ttu-id="efd3c-230">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-230">Close the page.</span></span>
 
-### <a name="assign-a-resource-to-a-default-role"></a>تعيين مورد إلى دور افتراضي
+### <a name="assign-a-resource-to-a-default-role"></a><span data-ttu-id="efd3c-231">تعيين مورد إلى دور افتراضي</span><span class="sxs-lookup"><span data-stu-id="efd3c-231">Assign a resource to a default role</span></span>
 
-لمساعدة مدراء المشاريع أو الموارد، يمكنك التنقل لأسفل على الموارد التي يمكن حجزها لمشروع. يمكنك إقران دور افتراضي مع مورد موجود أو مورد تم الحصول عليه مؤخرًا. على سبيل المثال، عندما تم التعاقد مع دانيال، كان لديه الخبرة والمهارات اللازمة لملء دور محلل الأعمال. عيّن مدير الموارد هذا الدور كدور دانيال الافتراضي. لذلك، إضافة إدارة الموارد دانيال إلى مجموعة من محللي الأعمال المتاحين للعمل على المشاريع. 
+<span data-ttu-id="efd3c-232">لمساعدة مدراء المشاريع أو الموارد، يمكنك التنقل لأسفل على الموارد التي يمكن حجزها لمشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-232">To help project or resource managers, you can drill down further on the resources that can be reserved for a project.</span></span> <span data-ttu-id="efd3c-233">يمكنك إقران دور افتراضي مع مورد موجود أو مورد تم الحصول عليه مؤخرًا.</span><span class="sxs-lookup"><span data-stu-id="efd3c-233">You can associate a default role with an existing resource or a newly acquired resource.</span></span> <span data-ttu-id="efd3c-234">على سبيل المثال، عندما تم التعاقد مع دانيال، كان لديه الخبرة والمهارات اللازمة لملء دور محلل الأعمال.</span><span class="sxs-lookup"><span data-stu-id="efd3c-234">For example, when Daniel was hired, he had the experience and skills to fill the Business analyst role.</span></span> <span data-ttu-id="efd3c-235">عيّن مدير الموارد هذا الدور كدور دانيال الافتراضي.</span><span class="sxs-lookup"><span data-stu-id="efd3c-235">The resource manager assigned this role as Daniel's default role.</span></span> <span data-ttu-id="efd3c-236">لذلك، إضافة إدارة الموارد دانيال إلى مجموعة من محللي الأعمال المتاحين للعمل على المشاريع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-236">Therefore, the resource manager added Daniel to a pool of business analysts who are available to work on projects.</span></span> 
 
-أثناء حجز المورد، بإمكان مدراء المشاريع تصفية موارد الدور المتاحة للعمل على المشاريع. وبإمكانهم استخدام هذه المعلومات كمعيار وحيد عند تنفيذ تحليل قرار متعدد المعايير أثناء تنفيذ المورد. ويمكنهم أيضًا إضافة خصائص الموارد الأخرى إلى عامل التصفية للبحث عن الموارد التي تتمتع بمهارات وتعليم وخبرات معينة للعمل على مشروع محدد. 
+<span data-ttu-id="efd3c-237">أثناء حجز المورد، بإمكان مدراء المشاريع تصفية موارد الدور المتاحة للعمل على المشاريع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-237">During resource reservation, project managers can filter the role resources that are available to work on projects.</span></span> <span data-ttu-id="efd3c-238">وبإمكانهم استخدام هذه المعلومات كمعيار وحيد عند تنفيذ تحليل قرار متعدد المعايير أثناء تنفيذ المورد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-238">They can use this information as one criterion when they perform multi-criteria decision analysis during resource fulfillment.</span></span> <span data-ttu-id="efd3c-239">ويمكنهم أيضًا إضافة خصائص الموارد الأخرى إلى عامل التصفية للبحث عن الموارد التي تتمتع بمهارات وتعليم وخبرات معينة للعمل على مشروع محدد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-239">They can also add other resource characteristics to the filter to search for resources that have specific skills, education, and experience for a given project.</span></span> 
 
-**السيناريو:** بدأ العمل على مشروع تمت الموافقة عليه، وتم حجز دور مدير المشروع القيادي كمورد مقرر في مرحلة تخطيط المشروع. اكتسب الآن مدير الموارد موردًا لتنفيذ دور مدير المشروع القيادي.
+<span data-ttu-id="efd3c-240">**السيناريو:** بدأ العمل على مشروع تمت الموافقة عليه، وتم حجز دور مدير المشروع القيادي كمورد مقرر في مرحلة تخطيط المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-240">**Scenario:** An approved project has started, and the Senior project manager role was reserved as a planned resource during the project planning stage.</span></span> <span data-ttu-id="efd3c-241">اكتسب الآن مدير الموارد موردًا لتنفيذ دور مدير المشروع القيادي.</span><span class="sxs-lookup"><span data-stu-id="efd3c-241">The resource manager has now acquired a resource to fulfill the Senior project manager role.</span></span>
 
-1.  انقر فوق **إدارة المشروع والمحاسبة** &gt; **موارد المشروع** &gt; **قائمة الموارد**.
-2.  في قائمة **الموارد**، حدد **عادل حجار**.
-3.  انقر فوق **مورد المشروع** &gt; **احتفاظ** &gt; **دور المورد.**.
-4.  انقر فوق **جديد**، ثم أدخل القيم التالية:
-    -   **فعال‬:** (التاريخ الحالي)
-    -   **انتهاء الصلاحية:**- أبدًا
-    -   **الدور:** - مدير مشروع أول
-5.  انقر فوق **حفظ** ثم قم بإغلاق الصفحة.
-6.  على علامة تبويب **الاختصاصات**، أضف المهارة **ProjectMgmt** والشهادة **‎PMP**.
+1.  <span data-ttu-id="efd3c-242">انقر فوق **إدارة المشروع والمحاسبة** &gt; **موارد المشروع** &gt; **قائمة الموارد**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-242">Click **Project management and accounting** &gt; **Project resources** &gt; **Resources list**.</span></span>
+2.  <span data-ttu-id="efd3c-243">في قائمة **الموارد**، حدد **عادل حجار**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-243">In the **Resource** list, select **Daniel Goldschmidt**.</span></span>
+3.  <span data-ttu-id="efd3c-244">انقر فوق **مورد المشروع** &gt; **احتفاظ** &gt; **دور المورد.**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-244">Click **Project resource** &gt; **Maintain** &gt; **Resource role**.</span></span>
+4.  <span data-ttu-id="efd3c-245">انقر فوق **جديد**، ثم أدخل القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="efd3c-245">Click **New**, and enter the following values:</span></span>
+    -   <span data-ttu-id="efd3c-246">**فعال‬:** (التاريخ الحالي)</span><span class="sxs-lookup"><span data-stu-id="efd3c-246">**Effective** - (The current date)</span></span>
+    -   <span data-ttu-id="efd3c-247">**انتهاء الصلاحية:**- أبدًا</span><span class="sxs-lookup"><span data-stu-id="efd3c-247">**Expiration** - Never</span></span>
+    -   <span data-ttu-id="efd3c-248">**الدور:** - مدير مشروع أول</span><span class="sxs-lookup"><span data-stu-id="efd3c-248">**Role** - Senior Project Manager</span></span>
+5.  <span data-ttu-id="efd3c-249">انقر فوق **حفظ** ثم قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-249">Click **Save**, and then close the page.</span></span>
+6.  <span data-ttu-id="efd3c-250">على علامة تبويب **الاختصاصات**، أضف المهارة **ProjectMgmt** والشهادة **‎PMP**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-250">On the **Competencies** tab, add the **ProjectMgmt** skill and the **PMP** certificate.</span></span>
 
-## <a name="set-up-role-based-pricing"></a>إعداد التسعير المستند إلى الدور
-يمكن إعداد كافة أسعار التكلفة والمبيعات والتحويل للأدوار.
+## <a name="set-up-role-based-pricing"></a><span data-ttu-id="efd3c-251">إعداد التسعير المستند إلى الدور</span><span class="sxs-lookup"><span data-stu-id="efd3c-251">Set up role-based pricing</span></span>
+<span data-ttu-id="efd3c-252">يمكن إعداد كافة أسعار التكلفة والمبيعات والتحويل للأدوار.</span><span class="sxs-lookup"><span data-stu-id="efd3c-252">All cost, sales, and transfer prices can be set up for roles.</span></span>
 
-1.  انقر فوق **دارة المشروع‬ والمحاسبة** &gt; **إعداد** &gt; **الأسعار** &gt; **سعر المبيعات (الساعة)**.
-2.  انفر فوق **جديد**.
-3.  أدخل تاريخ سريان.
-4.  في عمود **الدور**، حدد دورًا.
-5.  في عمود **التسعير**، أدخل سعرًا لدور المورد المحدد.
+1.  <span data-ttu-id="efd3c-253">انقر فوق **دارة المشروع‬ والمحاسبة** &gt; **إعداد** &gt; **الأسعار** &gt; **سعر المبيعات (الساعة)**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-253">Click **Project management and accounting** &gt; **Setup** &gt; **Prices** &gt; **Sales price (hour)**.</span></span>
+2.  <span data-ttu-id="efd3c-254">انفر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-254">Click **New**.</span></span>
+3.  <span data-ttu-id="efd3c-255">أدخل تاريخ سريان.</span><span class="sxs-lookup"><span data-stu-id="efd3c-255">Enter an effective date.</span></span>
+4.  <span data-ttu-id="efd3c-256">في عمود **الدور**، حدد دورًا.</span><span class="sxs-lookup"><span data-stu-id="efd3c-256">In the **Role** column, select a role.</span></span>
+5.  <span data-ttu-id="efd3c-257">في عمود **التسعير**، أدخل سعرًا لدور المورد المحدد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-257">In the **Pricing** column, enter a price for the selected resource role.</span></span>
 
-## <a name="form-a-project-team"></a>نموذج فريق عمل المشروع
-لاستخدام الأدوار التي تم إعدادها في السابق في مشروع، يجب على مدير مشروع إقران الأدوار بالمشروع. يمكن تعيين أدوار متعددة لأحد المشاريع، ويقوم Finance and Operations بتسمية هذه الأدوار تلقائيًا أثناء الحجز لمنع الالتباس. على سبيل المثال، إذا كان مدير المشروع يحتاج إلى ثلاثة مهندسي برامج، فسيتم إنشاء ثلاثة أدوار لمهندسي البرامج تلقائيًا وتكون تسمياتها مهندس برامج 1، ومهندس برامج 2 ومهندس برامج 3. إذا تم تعيين خصائص دور الدور مسبقًا، فسيتم تطبيقها كعامل تصفية أثناء عمليات البحث عن مورد. ويمكن إضافة خصائص إضافية كما هو مطلوب لتنقية البحث. 
+## <a name="form-a-project-team"></a><span data-ttu-id="efd3c-258">نموذج فريق عمل المشروع</span><span class="sxs-lookup"><span data-stu-id="efd3c-258">Form a project team</span></span>
+<span data-ttu-id="efd3c-259">لاستخدام الأدوار التي تم إعدادها في السابق في مشروع، يجب على مدير مشروع إقران الأدوار بالمشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-259">To use the roles that were previously set up in a project, a project manager must associate the roles with the project.</span></span> <span data-ttu-id="efd3c-260">يمكن تعيين أدوار متعددة لأحد المشاريع، ويقوم Finance and Operations بتسمية هذه الأدوار تلقائيًا أثناء الحجز لمنع الالتباس.</span><span class="sxs-lookup"><span data-stu-id="efd3c-260">Multiple roles can be assigned for a project, and Finance and Operations automatically labels these roles during reservation to prevent confusion.</span></span> <span data-ttu-id="efd3c-261">على سبيل المثال، إذا كان مدير المشروع يحتاج إلى ثلاثة مهندسي برامج، فسيتم إنشاء ثلاثة أدوار لمهندسي البرامج تلقائيًا وتكون تسمياتها مهندس برامج 1، ومهندس برامج 2 ومهندس برامج 3.</span><span class="sxs-lookup"><span data-stu-id="efd3c-261">For example, if the project manager requires three software engineers, three Software engineer roles that have software engineer 1, software engineer 2, and software engineer 3 as their labels are automatically generated.</span></span> <span data-ttu-id="efd3c-262">إذا تم تعيين خصائص دور الدور مسبقًا، فسيتم تطبيقها كعامل تصفية أثناء عمليات البحث عن مورد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-262">If role characteristics were previously set for the role, they are applied as a filter during searches for a resource.</span></span> <span data-ttu-id="efd3c-263">ويمكن إضافة خصائص إضافية كما هو مطلوب لتنقية البحث.</span><span class="sxs-lookup"><span data-stu-id="efd3c-263">Additional characteristics can be added as required to further refine the search.</span></span> 
 
-يمكن أيضًا تخصيص إعدادات العرض لإعطاء رؤية أفضل للموارد المتاحة. هناك خيارات لإظهار التوفر بالساعة واليوم والأسبوع والشهر وربع السنة والسنة. هناك أيضًا خيار يسمح بإظهار القدرات المتوفرة والمتبقية على الموارد. ويُعد هذا الخيار مفيدًا لإدارة الوقت عندما تقوم تعمل على تقدير الوقت المتاح للأنشطة أو توافر الموارد. 
+<span data-ttu-id="efd3c-264">يمكن أيضًا تخصيص إعدادات العرض لإعطاء رؤية أفضل للموارد المتاحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-264">View settings can also be customized to give a better view of resource availability.</span></span> <span data-ttu-id="efd3c-265">هناك خيارات لإظهار التوفر بالساعة واليوم والأسبوع والشهر وربع السنة والسنة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-265">There are options to show hourly, daily, weekly, monthly, quarterly, and annual availability.</span></span> <span data-ttu-id="efd3c-266">هناك أيضًا خيار يسمح بإظهار القدرات المتوفرة والمتبقية على الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-266">There is also an option to show available and remaining capacity on resources.</span></span> <span data-ttu-id="efd3c-267">ويُعد هذا الخيار مفيدًا لإدارة الوقت عندما تقوم تعمل على تقدير الوقت المتاح للأنشطة أو توافر الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-267">This option is useful for time management when you're estimating available time for activities or resource availability.</span></span> 
 
-بإمكان مدير المشروع تحديد دور في الصفحة ثم، وفي حال وجود مورد متاح يتلاءم مع المتطلبات، حدد حجز هذا المورد لتنفيذ الدور. تجدر الإشارة بأن لا حاجة إلى حجز الموارد في هذا الوقت أثناء مرحلة التخطيط. عندما تقوم بإنشاء هيكل تنظيم العمل، يمكنك استبدال الأدوار بالموارد الموظفة للمشروع. وإذا تم استبدال الأدوار بموارد موظفة في هيكل تنظيم العمل، فإن إعداد المورد سيحدّث قائمة وجدولة فريق المشروع تلقائيًا. 
+<span data-ttu-id="efd3c-268">بإمكان مدير المشروع تحديد دور في الصفحة ثم، وفي حال وجود مورد متاح يتلاءم مع المتطلبات، حدد حجز هذا المورد لتنفيذ الدور.</span><span class="sxs-lookup"><span data-stu-id="efd3c-268">The project manager can select a role on the page and then, if there is an available resource that fits the requirement, select to reserve a resource to fill the role.</span></span> <span data-ttu-id="efd3c-269">تجدر الإشارة بأن لا حاجة إلى حجز الموارد في هذا الوقت أثناء مرحلة التخطيط.</span><span class="sxs-lookup"><span data-stu-id="efd3c-269">Note that the resources don't have to be reserved at this point during the planning stage.</span></span> <span data-ttu-id="efd3c-270">عندما تقوم بإنشاء هيكل تنظيم العمل، يمكنك استبدال الأدوار بالموارد الموظفة للمشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-270">When you create a WBS, you can replace roles with staffed resources for the project.</span></span> <span data-ttu-id="efd3c-271">وإذا تم استبدال الأدوار بموارد موظفة في هيكل تنظيم العمل، فإن إعداد المورد سيحدّث قائمة وجدولة فريق المشروع تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="efd3c-271">If roles are replaced with staffed resources in the WBS, the resource setup automatically updates the project team listing and scheduling.</span></span> 
 
-[![قائمة فريق المشروع التي تتضمن الأدوار والموارد الفعلية](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+<span data-ttu-id="efd3c-272">[![قائمة فريق المشروع التي تتضمن الأدوار والموارد الفعلية](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span><span class="sxs-lookup"><span data-stu-id="efd3c-272">[![Project team listing that includes both roles and actual resources](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span></span> 
 
-تتوفر لدى مدير المشروع العديد من الخيارات لحجز مورد لمشروع، مثل **القدرة المتبقية** و**قدرة كاملة**, **النسبة المئوية للقدرة** و**تحديد الساعات**. يمكن إلغاء خيارات الحجز هذه في أي وقت إذا تغيّرت تعيينات الموارد. هناك نوعان معتمدان من أنواع الحجز:
+<span data-ttu-id="efd3c-273">تتوفر لدى مدير المشروع العديد من الخيارات لحجز مورد لمشروع، مثل **القدرة المتبقية** و**قدرة كاملة**, **النسبة المئوية للقدرة** و**تحديد الساعات**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-273">The project manager has various options for booking a resource for a project, such as **Remaining capacity**, **Full capacity**, **Capacity percentage**, and **Specify hours**.</span></span> <span data-ttu-id="efd3c-274">يمكن إلغاء خيارات الحجز هذه في أي وقت إذا تغيّرت تعيينات الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-274">These booking options can be canceled at any time if resource assignments change.</span></span> <span data-ttu-id="efd3c-275">هناك نوعان معتمدان من أنواع الحجز:</span><span class="sxs-lookup"><span data-stu-id="efd3c-275">Two types of booking are supported:</span></span>
 
--   **حجز العمالة المحدد** – تمت الموافقة على حجز المورد وتم التأكيد على العمل للمشاركة لمدة محددة.
--   **حجز العمالة المبدئي** – تم تعيين عمليات حجز المورد بشكل مبدئي للعمل على المشاركة للمدة المحددة.
+-   <span data-ttu-id="efd3c-276">**حجز العمالة المحدد** – تمت الموافقة على حجز المورد وتم التأكيد على العمل للمشاركة لمدة محددة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-276">**Hard Book** – The resource reservation was approved and confirmed to work on the engagement for the specified duration.</span></span>
+-   <span data-ttu-id="efd3c-277">**حجز العمالة المبدئي** – تم تعيين عمليات حجز المورد بشكل مبدئي للعمل على المشاركة للمدة المحددة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-277">**Soft book** – The resource reservations was tentatively set to work on the engagement for the specified duration.</span></span>
 
-يشرح الإجراء التالي كيفية إنشاء فريق المشروع.
+<span data-ttu-id="efd3c-278">يشرح الإجراء التالي كيفية إنشاء فريق المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-278">The following procedure explains how to create a project team.</span></span>
 
-### <a name="create-a-project-team"></a>إنشاء فريق المشروع
+### <a name="create-a-project-team"></a><span data-ttu-id="efd3c-279">إنشاء فريق المشروع</span><span class="sxs-lookup"><span data-stu-id="efd3c-279">Create a project team</span></span>
 
-1.  في صفحة قائمة **كافة المشاريع**، حدد مشروعًا ثم انقر فوق **تحرير**.
-2.  على علامة التبويب **فريق المشروع وجدولته‬**، في الحقل **تاريخ انتهاء الجدول**، أدخل تاريخ بدء الجدول الإضافة إلى شهر واحد. على سبيل المثال، إذا كان تاريخ بدء الجدول هو 24 يونيو 2017 (24/06/2017)، فأدخل **24/07/2017**.
-3.  وانقر فوق **إضافة**.
-4.  في الجزء **إضافة أدوار إلى المشروع**، في حقل **الدور**، حدد **مدير مشروع أول**.
-5.  انقر فوق **الاختصاصات المطلوبة**.
-6.  في صفحة **اختيار الخصائص**، يتم تحديد الخصائص التي قمت بتعيينها في السابق لدور مدير المشروع الأول بشكل افتراضي. وانقر فوق **موافق**.
-7.  في الصفحة **إضافة أدوار إلى المشروع**، في الحقل **عدد الموارد**، أدخل **1**.
-8.  في حقل **الموارد**، يعرض البحث كافة الموارد التي لديها الاختصاصات المطلوبة‬. حدد **عادل حجار‬‏‫**، ثم انقر فوق **إنشاء**.
-9.  في صفحة **المشروع**، انقر فوق **إضافة**.
-10. في الجزء **إضافة أدوار إلى المشروع**، في حقل **الدور**، حدد **عضو فريق‬**. في الحقل **عدد الموارد**، أدخل **5**.
-11. انقر فوق **إنشاء**.
-12. في صفحة **المشاريع**، انقر فوق **تنفيذ المورد**.
+1.  <span data-ttu-id="efd3c-280">في صفحة قائمة **كافة المشاريع**، حدد مشروعًا ثم انقر فوق **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-280">On the **All projects** list page, select a project, and then click **Edit**.</span></span>
+2.  <span data-ttu-id="efd3c-281">على علامة التبويب **فريق المشروع وجدولته‬**، في الحقل **تاريخ انتهاء الجدول**، أدخل تاريخ بدء الجدول الإضافة إلى شهر واحد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-281">On the **Project team and scheduling** tab, in the **Schedule end date** field, enter the schedule start date plus one month.</span></span> <span data-ttu-id="efd3c-282">على سبيل المثال، إذا كان تاريخ بدء الجدول هو 24 يونيو 2017 (24/06/2017)، فأدخل **24/07/2017**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-282">For example, if the schedule start date is June 24, 2017 (24/06/2017), enter **24/07/2017**.</span></span>
+3.  <span data-ttu-id="efd3c-283">وانقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-283">Click **Add**.</span></span>
+4.  <span data-ttu-id="efd3c-284">في الجزء **إضافة أدوار إلى المشروع**، في حقل **الدور**، حدد **مدير مشروع أول**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-284">In the **Add roles to the project** pane, in the **Role** field, select **Senior Project Manager**.</span></span>
+5.  <span data-ttu-id="efd3c-285">انقر فوق **الاختصاصات المطلوبة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-285">Click **Required competencies**.</span></span>
+6.  <span data-ttu-id="efd3c-286">في صفحة **اختيار الخصائص**، يتم تحديد الخصائص التي قمت بتعيينها في السابق لدور مدير المشروع الأول بشكل افتراضي.</span><span class="sxs-lookup"><span data-stu-id="efd3c-286">On the **Choose characteristics** page, the characteristics that you previously set for the Senior project manager role are selected by default.</span></span> <span data-ttu-id="efd3c-287">وانقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-287">Click **OK**.</span></span>
+7.  <span data-ttu-id="efd3c-288">في الصفحة **إضافة أدوار إلى المشروع**، في الحقل **عدد الموارد**، أدخل **1**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-288">On the **Add roles to project** page, in the **Number of resources** field, enter **1**.</span></span>
+8.  <span data-ttu-id="efd3c-289">في حقل **الموارد**، يعرض البحث كافة الموارد التي لديها الاختصاصات المطلوبة‬.</span><span class="sxs-lookup"><span data-stu-id="efd3c-289">In the **Resource** field, the lookup shows all resources that have the required competencies.</span></span> <span data-ttu-id="efd3c-290">حدد **عادل حجار‬‏‫**، ثم انقر فوق **إنشاء**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-290">Select **Daniel Goldschmidt**, and then click **Create**.</span></span>
+9.  <span data-ttu-id="efd3c-291">في صفحة **المشروع**، انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-291">On the **Project** page, click **Add**.</span></span>
+10. <span data-ttu-id="efd3c-292">في الجزء **إضافة أدوار إلى المشروع**، في حقل **الدور**، حدد **عضو فريق‬**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-292">In the **Add roles to the project** pane, in the **Role** field, select **Team member**.</span></span> <span data-ttu-id="efd3c-293">في الحقل **عدد الموارد**، أدخل **5**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-293">In the **Number of resources** field, enter **5**.</span></span>
+11. <span data-ttu-id="efd3c-294">انقر فوق **إنشاء**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-294">Click **Create**.</span></span>
+12. <span data-ttu-id="efd3c-295">في صفحة **المشاريع**، انقر فوق **تنفيذ المورد**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-295">On the **Projects** page, click **Fulfill resource**.</span></span>
 
-## <a name="resource-capacity-synchronization"></a>مزامنة قدرة الموارد‬
-تساعد عمليات مزامنة الموارد على ضمان انتشار معلومات التقويم والتقويم الأساسي في جدولة موارد المشروع. إذا تغيّر التقويم، فإن العمليات تجري التحديثات المطلوبة على جدولة موارد المشروع. وتساعد العمليات أيضًا على تحسين الأداء، نظرًا لمزامنة معلومات مورد التقويم بشكل مسبق، بحيث تحدث عمليات تحديث معلومات جدولة المورد بسرعة أكبر. نحن نوصي بجدولة العمليات كدفعة بدلاً من جدولتها كل واحدة على حدة. وإلا، فهناك خطر بأن ينسى أحدهم التواريخ الضمنية عند حدوث آخر عملية مزامنة للمعلومات. إذا لم يتم استخدام التواريخ الضمنية، فقد تحدث ثغرات أثناء مزامنة التاريخ.
+## <a name="resource-capacity-synchronization"></a><span data-ttu-id="efd3c-296">مزامنة قدرة الموارد‬</span><span class="sxs-lookup"><span data-stu-id="efd3c-296">Resource capacity synchronization</span></span>
+<span data-ttu-id="efd3c-297">تساعد عمليات مزامنة الموارد على ضمان انتشار معلومات التقويم والتقويم الأساسي في جدولة موارد المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-297">The processes for resource synchronization helps guarantee that the calendar and base calendar information trickles down into project resource scheduling.</span></span> <span data-ttu-id="efd3c-298">إذا تغيّر التقويم، فإن العمليات تجري التحديثات المطلوبة على جدولة موارد المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-298">If the calendar is changed, the processes make the required updates to the scheduling of project resources.</span></span> <span data-ttu-id="efd3c-299">وتساعد العمليات أيضًا على تحسين الأداء، نظرًا لمزامنة معلومات مورد التقويم بشكل مسبق، بحيث تحدث عمليات تحديث معلومات جدولة المورد بسرعة أكبر.</span><span class="sxs-lookup"><span data-stu-id="efd3c-299">The processes also help improve performance, because the calendar’s resource information is synchronized in advance, so that updates to resource scheduling information occur more quickly.</span></span> <span data-ttu-id="efd3c-300">نحن نوصي بجدولة العمليات كدفعة بدلاً من جدولتها كل واحدة على حدة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-300">We recommend that you schedule the processes as a batch instead of one at a time.</span></span> <span data-ttu-id="efd3c-301">وإلا، فهناك خطر بأن ينسى أحدهم التواريخ الضمنية عند حدوث آخر عملية مزامنة للمعلومات.</span><span class="sxs-lookup"><span data-stu-id="efd3c-301">Otherwise, there is a risk that someone will forget the inclusive dates when the information was last synchronized.</span></span> <span data-ttu-id="efd3c-302">إذا لم يتم استخدام التواريخ الضمنية، فقد تحدث ثغرات أثناء مزامنة التاريخ.</span><span class="sxs-lookup"><span data-stu-id="efd3c-302">If inclusive dates aren't used, gaps can occur during date synchronization.</span></span>
 
 ### <a name="calendar-synchronizationmediaprojectresourcing04-1024x471jpg"></a>![مزامنة التقويم](./media/projectresourcing04-1024x471.jpg)
 
-**مزامنة عمليات تجميع قدرة المورد**
+<span data-ttu-id="efd3c-304">**مزامنة عمليات تجميع قدرة المورد**</span><span class="sxs-lookup"><span data-stu-id="efd3c-304">**Synchronize resource capacity roll-ups**</span></span>
 
-تم تصميم عملية المزامنة لمزامنة كافة معلومات تقويم المورد. تتضمن هذه المعلومات معلومات التقويم الأساسي حول أي تغييرات تحصل في جدول قدرة تقويم مورد المشروع. إذا تمت إضافة موارد جديدة في المشروع، فإن المزامنة تساعد على ضمان توفر معلومات التقويم المحدثة. يمكن إجراء هذه المزامنة في أي وقت. 
+<span data-ttu-id="efd3c-305">تم تصميم عملية المزامنة لمزامنة كافة معلومات تقويم المورد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-305">The synchronization process is designed to synchronize all resource calendar information.</span></span> <span data-ttu-id="efd3c-306">تتضمن هذه المعلومات معلومات التقويم الأساسي حول أي تغييرات تحصل في جدول قدرة تقويم مورد المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-306">This information includes base calendar information about any changes to the project’s Resource calendar capacity table.</span></span> <span data-ttu-id="efd3c-307">إذا تمت إضافة موارد جديدة في المشروع، فإن المزامنة تساعد على ضمان توفر معلومات التقويم المحدثة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-307">If new resources are added in the project, synchronization helps ensure that the updated calendar information is available.</span></span> <span data-ttu-id="efd3c-308">يمكن إجراء هذه المزامنة في أي وقت.</span><span class="sxs-lookup"><span data-stu-id="efd3c-308">This synchronization can be done at any time.</span></span> 
 
-إننا نوصي باستخدام دفعة. تتوفر الخيارات في مزامنة عمليات حجز القدرة الإنتاجية.
+<span data-ttu-id="efd3c-309">إننا نوصي باستخدام دفعة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-309">We recommend that you use a batch.</span></span> <span data-ttu-id="efd3c-310">تتوفر الخيارات في مزامنة عمليات حجز القدرة الإنتاجية.</span><span class="sxs-lookup"><span data-stu-id="efd3c-310">The options are available in synchronizing capacity reservations.</span></span>
 
--   انقر فوق **إدارة المشروع‬ والمحاسبة‬** &gt; **دوري** &gt; **مزامنة القدرة** &gt; **مزامنة عمليات تجميع قدرة المورد‬.**.
+-   <span data-ttu-id="efd3c-311">انقر فوق **إدارة المشروع‬ والمحاسبة‬** &gt; **دوري** &gt; **مزامنة القدرة** &gt; **مزامنة عمليات تجميع قدرة المورد‬.**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-311">Click **Project management and accounting** &gt; **Periodic** &gt; **Capacity synchronization** &gt; **Synchronize resources capacity roll-ups**.</span></span>
 
-| الخيار | ‏‏الوصف                                                                                                                                                                                          |
+| <span data-ttu-id="efd3c-312">الخيار</span><span class="sxs-lookup"><span data-stu-id="efd3c-312">Option</span></span> | <span data-ttu-id="efd3c-313">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="efd3c-313">Description</span></span>                                                                                                                                                                                          |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| نعم    | مزامنة كافة بيانات الموارد مع معلومات التقويم والتقويم الأساسي، واستبدال كافة المعلومات في تقويم قدرة مورد المشروع.                                                  |
-| لا     | مزامنة بيانات الموارد، استنادًا إلى كود الفاصل الزمني وتاريخي البدء والانتهاء المحددين. هذا الخيار لا يزيل البيانات الموجودة، وهو يحدّث المعلومات فقط للموارد المضافة مؤخرًا. |
+| <span data-ttu-id="efd3c-314">نعم</span><span class="sxs-lookup"><span data-stu-id="efd3c-314">Yes</span></span>    | <span data-ttu-id="efd3c-315">مزامنة كافة بيانات الموارد مع معلومات التقويم والتقويم الأساسي، واستبدال كافة المعلومات في تقويم قدرة مورد المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-315">Synchronize all resource data with calendar and base calendar information, and replace all information in the project's resource capacity calendar.</span></span>                                                  |
+| <span data-ttu-id="efd3c-316">لا</span><span class="sxs-lookup"><span data-stu-id="efd3c-316">No</span></span>     | <span data-ttu-id="efd3c-317">مزامنة بيانات الموارد، استنادًا إلى كود الفاصل الزمني وتاريخي البدء والانتهاء المحددين.</span><span class="sxs-lookup"><span data-stu-id="efd3c-317">Synchronize resource data, based on the date interval code, and the specified start and end dates.</span></span> <span data-ttu-id="efd3c-318">هذا الخيار لا يزيل البيانات الموجودة، وهو يحدّث المعلومات فقط للموارد المضافة مؤخرًا.</span><span class="sxs-lookup"><span data-stu-id="efd3c-318">This option doesn't remove existing data, and updates information only for newly added resources.</span></span> |
 
-[![عملية المزامنة](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+<span data-ttu-id="efd3c-319">[![عملية المزامنة](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)</span><span class="sxs-lookup"><span data-stu-id="efd3c-319">[![Synchronization process](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)</span></span>
 
-## <a name="set-up-roles-on-wbs-templates"></a>إعداد الأدوار على قوالب هيكل تنظيم العمل
-بإمكان مدراء المشاريع إعداد قوالب هيكل تنظيم العمل التي يمكنهم تطبيقها عند إنشاء هيكل تنظيم العمل للمشاريع الجديدة. بإمكان مدراء المشاريع إضافة الأدوار عند إنشاء قالب. استخدم الإجراء التالي لتعيين دور لقالب هيكل تنظيم العمل. ** **
+## <a name="set-up-roles-on-wbs-templates"></a><span data-ttu-id="efd3c-320">إعداد الأدوار على قوالب هيكل تنظيم العمل</span><span class="sxs-lookup"><span data-stu-id="efd3c-320">Set up roles on WBS templates</span></span>
+<span data-ttu-id="efd3c-321">بإمكان مدراء المشاريع إعداد قوالب هيكل تنظيم العمل التي يمكنهم تطبيقها عند إنشاء هيكل تنظيم العمل للمشاريع الجديدة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-321">Project managers can set up WBS templates that they can apply when they create a WBS for new projects.</span></span> <span data-ttu-id="efd3c-322">بإمكان مدراء المشاريع إضافة الأدوار عند إنشاء قالب.</span><span class="sxs-lookup"><span data-stu-id="efd3c-322">Project managers can add roles when they create a template.</span></span> <span data-ttu-id="efd3c-323">استخدم الإجراء التالي لتعيين دور لقالب هيكل تنظيم العمل. ** **</span><span class="sxs-lookup"><span data-stu-id="efd3c-323">Use the following procedure to assign a role to a WBS template.** **</span></span>
 
-1.  انقر فوق **إدارة المشروع‬ والمحاسبة** &gt; **إعداد** &gt; **المشاريع** &gt; **قوالب هيكل تنظيم العمل.**.
-2.  انقر فوق **تفاصيل** لقالب هيكل تنظيم عمل محدد.
-3.  حدد مهمة في القائمة، ثم في حقل **الدور**، حدد دورًا لتعيينه للمهمة.
+1.  <span data-ttu-id="efd3c-324">انقر فوق **إدارة المشروع‬ والمحاسبة** &gt; **إعداد** &gt; **المشاريع** &gt; **قوالب هيكل تنظيم العمل.**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-324">Click **Project management and accounting** &gt; **Setup** &gt; **Projects** &gt; **Work breakdown structure templates**.</span></span>
+2.  <span data-ttu-id="efd3c-325">انقر فوق **تفاصيل** لقالب هيكل تنظيم عمل محدد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-325">Click **Details** for a selected WBS template.</span></span>
+3.  <span data-ttu-id="efd3c-326">حدد مهمة في القائمة، ثم في حقل **الدور**، حدد دورًا لتعيينه للمهمة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-326">Select a task in the list, and then, in the **Role** field, select a role to assign to the task.</span></span>
 
-### <a name="work-with-a-wbs"></a>العمل باستخدام قالب تنظيم العمل
+### <a name="work-with-a-wbs"></a><span data-ttu-id="efd3c-327">العمل باستخدام قالب تنظيم العمل</span><span class="sxs-lookup"><span data-stu-id="efd3c-327">Work with a WBS</span></span>
 
-يمكنك إنشاء هيكل تنظيم عمل جديد أو نسخ هيكل تنظيم عمل من قالب هيكل تنظيم عمل موجود. بإمكان مدير المشروع أن يدير الموارد بسهولة عن طريق تعيين أدوار لمهام جديدة في هيكل تنظيم العمل. ويمكن استبدال الأدوار بعد الحصول على مورد، أو بعد التعرف على مورد مؤكد للعمل على المهمة. تتيح هذه المرونة لمدارء المشاريع تنفيذ المهام التالية:
+<span data-ttu-id="efd3c-328">يمكنك إنشاء هيكل تنظيم عمل جديد أو نسخ هيكل تنظيم عمل من قالب هيكل تنظيم عمل موجود.</span><span class="sxs-lookup"><span data-stu-id="efd3c-328">You can create a new WBS, or you can copy a WBS from an existing WBS template.</span></span> <span data-ttu-id="efd3c-329">بإمكان مدير المشروع أن يدير الموارد بسهولة عن طريق تعيين أدوار لمهام جديدة في هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="efd3c-329">A project manager can easily manage the resources by assigning roles to new tasks on the WBS.</span></span> <span data-ttu-id="efd3c-330">ويمكن استبدال الأدوار بعد الحصول على مورد، أو بعد التعرف على مورد مؤكد للعمل على المهمة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-330">Roles can be replaced after a resource is acquired, or after a confirmed resource to work on the task is identified.</span></span> <span data-ttu-id="efd3c-331">تتيح هذه المرونة لمدارء المشاريع تنفيذ المهام التالية:</span><span class="sxs-lookup"><span data-stu-id="efd3c-331">This flexibility lets project managers perform the following tasks:</span></span>
 
--   تحديد عدد الموارد المطلوبة لحزم عمل هيكل تنظيم العمل.
--   تقدير تكاليف المشروع.
--   تحديد موازنة أولية.
--   تقدير مدة النشاط، استنادًا إلى الأدوار والموارد.
--   تطوير بعض الخطط لإدارة المشروع، استنادًا إلى المعلومات المتوفرة في المشروع.
+-   <span data-ttu-id="efd3c-332">تحديد عدد الموارد المطلوبة لحزم عمل هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="efd3c-332">Identify the number of resources that are required for WBS work packages.</span></span>
+-   <span data-ttu-id="efd3c-333">تقدير تكاليف المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-333">Estimate project costs.</span></span>
+-   <span data-ttu-id="efd3c-334">تحديد موازنة أولية.</span><span class="sxs-lookup"><span data-stu-id="efd3c-334">Determine a preliminary budget.</span></span>
+-   <span data-ttu-id="efd3c-335">تقدير مدة النشاط، استنادًا إلى الأدوار والموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-335">Estimate activity duration, based on roles and resources.</span></span>
+-   <span data-ttu-id="efd3c-336">تطوير بعض الخطط لإدارة المشروع، استنادًا إلى المعلومات المتوفرة في المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-336">Develop some project management plans, based on the available project information.</span></span>
 
-لقد أضيفت خيارات إضافية في هيكل تنظيم العمل لتحسين استخدام وظيفة إدارة الموارد.
+<span data-ttu-id="efd3c-337">لقد أضيفت خيارات إضافية في هيكل تنظيم العمل لتحسين استخدام وظيفة إدارة الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-337">Additional options have been added in the WBS to better use the resourcing functionality.</span></span>
 
 <table>
 <colgroup>
@@ -266,95 +266,95 @@ ms.lasthandoff: 06/13/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>خيار</th>
-<th>الوصف</th>
+<th><span data-ttu-id="efd3c-338">خيار</span><span class="sxs-lookup"><span data-stu-id="efd3c-338">Option</span></span></th>
+<th><span data-ttu-id="efd3c-339">الوصف</span><span class="sxs-lookup"><span data-stu-id="efd3c-339">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>مهام المورد</td>
-<td>عرض الموارد المعينة والتواريخ وعدد الساعات ونوع الحجز للمهام على هيكل تنظيم العمل.</td>
+<td><span data-ttu-id="efd3c-340">مهام المورد</span><span class="sxs-lookup"><span data-stu-id="efd3c-340">Resource assignments</span></span></td>
+<td><span data-ttu-id="efd3c-341">عرض الموارد المعينة والتواريخ وعدد الساعات ونوع الحجز للمهام على هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="efd3c-341">View the assigned resources, dates, number of hours, and booking type for tasks on the WBS.</span></span></td>
 </tr>
 <tr class="even">
-<td>إنشاء تلقائي للفريق</td>
-<td>إضافة الموارد المخططة تلقائيًا عن طريق استخدام الأدوار المرتبطة بمهمة. يقترح Finance and Operations تلقائيًا الموارد المخططة باستخدام تحليل القرار متعدد المعايير استنادًا إلى الأدوار. بعد تعيين الأدوار والجهد (ساعات) للمهام في هيكل تنظيم العمل، وبعد إصدار الهيكل، انقر فوق <strong>إنشاء تلقائي للفريق</strong>. يُضاف العدد المطلوب من الموارد المخططة إلى هيكل تنظيم العمل وعلامة التبويب <strong>فريق المشروع وجدولته‬</strong>.</td>
+<td><span data-ttu-id="efd3c-342">إنشاء تلقائي للفريق</span><span class="sxs-lookup"><span data-stu-id="efd3c-342">Auto generate team</span></span></td>
+<td><span data-ttu-id="efd3c-343">إضافة الموارد المخططة تلقائيًا عن طريق استخدام الأدوار المرتبطة بمهمة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-343">Automatically add planned resources by using roles that are associated with a task.</span></span> <span data-ttu-id="efd3c-344">يقترح Finance and Operations تلقائيًا الموارد المخططة باستخدام تحليل القرار متعدد المعايير استنادًا إلى الأدوار.</span><span class="sxs-lookup"><span data-stu-id="efd3c-344">Finance and Operations automatically suggests planned resources by using multi-criteria decision analysis that is based on roles.</span></span> <span data-ttu-id="efd3c-345">بعد تعيين الأدوار والجهد (ساعات) للمهام في هيكل تنظيم العمل، وبعد إصدار الهيكل، انقر فوق <strong>إنشاء تلقائي للفريق</strong>.</span><span class="sxs-lookup"><span data-stu-id="efd3c-345">After the roles and effort (hours) have been set for the tasks in a WBS, and the structure has been released, click <strong>Auto generate team</strong>.</span></span> <span data-ttu-id="efd3c-346">يُضاف العدد المطلوب من الموارد المخططة إلى هيكل تنظيم العمل وعلامة التبويب <strong>فريق المشروع وجدولته‬</strong>.</span><span class="sxs-lookup"><span data-stu-id="efd3c-346">The required number of planned resources is added to the WBS and the <strong>Project and team scheduling</strong> tab.</span></span></td>
 </tr>
 <tr class="odd">
-<td>المورد (القائمة المنسدلة)</td>
-<td>في صفحة <strong>تشغيل تعيين الموارد‬</strong>، يمكنك تحديد الموارد التي تريد حجزها بشكل محدد أو مبدئي، استنادًا إلى المدة المحددة. يمكنك ضبط إعدادات العرض للاطلاع على مدة الأنشطة المتعلقة بالموارد وتعيينها. ويمكنك تحديد وتعيين الموارد على مستوى حزمة العمل باستخدام الخيارات التالية:
+<td><span data-ttu-id="efd3c-347">المورد (القائمة المنسدلة)</span><span class="sxs-lookup"><span data-stu-id="efd3c-347">Resource (drop-down list)</span></span></td>
+<td><span data-ttu-id="efd3c-348">في صفحة <strong>تشغيل تعيين الموارد‬</strong>، يمكنك تحديد الموارد التي تريد حجزها بشكل محدد أو مبدئي، استنادًا إلى المدة المحددة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-348">On the <strong>Launch resource assignment </strong>page, you can select resources to hard-book or soft-book, based on the specified duration.</span></span> <span data-ttu-id="efd3c-349">يمكنك ضبط إعدادات العرض للاطلاع على مدة الأنشطة المتعلقة بالموارد وتعيينها.</span><span class="sxs-lookup"><span data-stu-id="efd3c-349">You can adjust the view settings to see and set the duration of resource activities.</span></span> <span data-ttu-id="efd3c-350">ويمكنك تحديد وتعيين الموارد على مستوى حزمة العمل باستخدام الخيارات التالية:</span><span class="sxs-lookup"><span data-stu-id="efd3c-350">You can select and assign resources at the work package level by using the following options:</span></span>
 <ul>
-<li><strong>قبول</strong> – تأكيد التغييرات التي تم إدخالها على المورد الذي تم تعيينه لمهمة.</li>
-<li><strong>إلغاء</strong> – إلغاء التغييرات التي تم إدخالها على المورد الذي تم تعيينه لمهمة.</li>
-<li><strong>تعيين تلقائياً</strong> -يُحدد هذا الخيار الموارد الموظفة المتاحة مع دور مطابق للمهمة المحددة.</li>
+<li><span data-ttu-id="efd3c-351"><strong>قبول</strong> – تأكيد التغييرات التي تم إدخالها على المورد الذي تم تعيينه لمهمة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-351"><strong>Accept</strong> – Confirm changes to the resource that is assigned to a task.</span></span></li>
+<li><span data-ttu-id="efd3c-352"><strong>إلغاء</strong> – إلغاء التغييرات التي تم إدخالها على المورد الذي تم تعيينه لمهمة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-352"><strong>Cancel</strong> – Cancel changes to the resource that is assigned to a task.</span></span></li>
+<li><span data-ttu-id="efd3c-353"><strong>تعيين تلقائياً</strong> -يُحدد هذا الخيار الموارد الموظفة المتاحة مع دور مطابق للمهمة المحددة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-353"><strong>Assign automatically</strong> – This option selects an available staffed resource with a matching role to the selected task.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-1.  انقر فوق **إدارة المشروع‬ والمحاسبة‬** &gt; **المشاريع** &gt; **كافة المشاريع**.
-2.  في القائمة، حدد المشروع **المرحلة 2 من ترقية XYZ**.
-3.  انقر فوق **الخطة** &gt; **الأنشطة** &gt; **هيكل تنظيم العمل**.
-4.  انقر فوق **جديد** لإضافة أنشطة المستوى الأول التالية إلى هيكل تنظيم العمل:
-    -   البدء
-    -   التخطيط
-    -   قيد التنفيذ
-    -   الرصد والمراقبة
-    -   إقفال
+1.  <span data-ttu-id="efd3c-354">انقر فوق **إدارة المشروع‬ والمحاسبة‬** &gt; **المشاريع** &gt; **كافة المشاريع**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-354">Click **Project management and accounting** &gt; **Projects** &gt; **All projects**.</span></span>
+2.  <span data-ttu-id="efd3c-355">في القائمة، حدد المشروع **المرحلة 2 من ترقية XYZ**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-355">In the list, select the **XYZ Upgrade Phase 2** project.</span></span>
+3.  <span data-ttu-id="efd3c-356">انقر فوق **الخطة** &gt; **الأنشطة** &gt; **هيكل تنظيم العمل**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-356">Click **Plan** &gt; **Activities** &gt; **Work breakdown structure**.</span></span>
+4.  <span data-ttu-id="efd3c-357">انقر فوق **جديد** لإضافة أنشطة المستوى الأول التالية إلى هيكل تنظيم العمل:</span><span class="sxs-lookup"><span data-stu-id="efd3c-357">Click **New** to add the following level-one activities to the WBS:</span></span>
+    -   <span data-ttu-id="efd3c-358">البدء</span><span class="sxs-lookup"><span data-stu-id="efd3c-358">Initiating</span></span>
+    -   <span data-ttu-id="efd3c-359">التخطيط</span><span class="sxs-lookup"><span data-stu-id="efd3c-359">Planning</span></span>
+    -   <span data-ttu-id="efd3c-360">قيد التنفيذ</span><span class="sxs-lookup"><span data-stu-id="efd3c-360">Executing</span></span>
+    -   <span data-ttu-id="efd3c-361">الرصد والمراقبة</span><span class="sxs-lookup"><span data-stu-id="efd3c-361">Monitoring and Control</span></span>
+    -   <span data-ttu-id="efd3c-362">إقفال</span><span class="sxs-lookup"><span data-stu-id="efd3c-362">Close</span></span>
 
-5.  عيّن التواريخ والجهد (ساعات)، كما يظهر في لقطة الشاشة التالية..[![تعيين التواريخ والجهد](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
-6.  حدد سطر المهمة **بدء**، ثم في حقل **الدور**، حدد **مدير مشروع أول**.
-7.  انقر فوق **نشر**.
-8.  على السطر نفسه، في حقل **المورد**، حدد **عادل حجار**.
-9.  انقر فوق **قبول**.
-10. حدد سطر المهمة **التخطيط**، ثم في حقل **الدور**، حدد **محلل أعمال**.
-11. انقر فوق **نشر**، ثم انقر فوق **إنشاء تلقائي للفريق**.
-12. في مربع الحوار الذي يظهر، انقر فوق **نعم**.
-13. في حقل **المورد**، تحقق من أن القيمة هي **محلل أعمال 1**.
-14. للمورد **محلل أعمال 1**، افتح البحث، وانقر فوق **تشغيل نموذج تعيين الموارد‬**.
-15. حدد عاملاً للمهمة.
-16. انقر فوق **تعيين مبدئي** &gt; **قدرة كاملة**.
-17. انقر فوق **حفظ** ثم قم بإغلاق الصفحة. 
+5.  <span data-ttu-id="efd3c-363">عيّن التواريخ والجهد (ساعات)، كما يظهر في لقطة الشاشة التالية..[![تعيين التواريخ والجهد](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span><span class="sxs-lookup"><span data-stu-id="efd3c-363">Set the dates and effort (hours), as shown in the following screenshot.[![Setting the dates and effort](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span></span>
+6.  <span data-ttu-id="efd3c-364">حدد سطر المهمة **بدء**، ثم في حقل **الدور**، حدد **مدير مشروع أول**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-364">Select the **Initiating** task line, and then, in the **Role** field, select **Senior Project Manager**.</span></span>
+7.  <span data-ttu-id="efd3c-365">انقر فوق **نشر**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-365">Click **Publish**.</span></span>
+8.  <span data-ttu-id="efd3c-366">على السطر نفسه، في حقل **المورد**، حدد **عادل حجار**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-366">On the same line, in the **Resource** field, select **Daniel Goldschmidt**.</span></span>
+9.  <span data-ttu-id="efd3c-367">انقر فوق **قبول**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-367">Click **Accept**.</span></span>
+10. <span data-ttu-id="efd3c-368">حدد سطر المهمة **التخطيط**، ثم في حقل **الدور**، حدد **محلل أعمال**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-368">Select the **Planning** task line, and then, in the **Role** field, select **Business analyst**.</span></span>
+11. <span data-ttu-id="efd3c-369">انقر فوق **نشر**، ثم انقر فوق **إنشاء تلقائي للفريق**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-369">Click **Publish**, and then click **Auto generate team**.</span></span>
+12. <span data-ttu-id="efd3c-370">في مربع الحوار الذي يظهر، انقر فوق **نعم**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-370">In the dialog box that appears, click **Yes**.</span></span>
+13. <span data-ttu-id="efd3c-371">في حقل **المورد**، تحقق من أن القيمة هي **محلل أعمال 1**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-371">In the **Resource** field, verify that the value is **Business analyst 1**.</span></span>
+14. <span data-ttu-id="efd3c-372">للمورد **محلل أعمال 1**، افتح البحث، وانقر فوق **تشغيل نموذج تعيين الموارد‬**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-372">For the **Business analyst 1** resource, open the lookup, and click **Launch resource assignments form**.</span></span>
+15. <span data-ttu-id="efd3c-373">حدد عاملاً للمهمة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-373">Select a worker for the task.</span></span>
+16. <span data-ttu-id="efd3c-374">انقر فوق **تعيين مبدئي** &gt; **قدرة كاملة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-374">Click **Soft assign** &gt; **Full capacity**.</span></span>
+17. <span data-ttu-id="efd3c-375">انقر فوق **حفظ** ثم قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-375">Click **Save**, and close the page.</span></span> 
 
 > [!NOTE] 
-> لن تتلقى تحذيرًا بأن المورد المحدد أصبح الآن 2، نظرًا لبقاء عدد الموارد عند 1.
-18. في صفحة **هيكل تنظيم العمل**، تحقق من صحة تعيين المورد على هيكل تنظيم العمل، ثم انقر فوق **حفظ**.
+> <span data-ttu-id="efd3c-376">لن تتلقى تحذيرًا بأن المورد المحدد أصبح الآن 2، نظرًا لبقاء عدد الموارد عند 1.</span><span class="sxs-lookup"><span data-stu-id="efd3c-376">You don't receive a warning that the specified resource is now 2, because the number of resources remains at 1.</span></span>
+18. <span data-ttu-id="efd3c-377">في صفحة **هيكل تنظيم العمل**، تحقق من صحة تعيين المورد على هيكل تنظيم العمل، ثم انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-377">On the **Work breakdown structure** page, validate the resource assignment on the WBS, and then click **Save**.</span></span>
 
-## <a name="resource-fulfillment-for-planned-resources"></a>تنفيذ الموارد للموارد المخططة
-بإمكان مدير المشروع أن يخطط لأدوار الموارد المطلوبة للمشروع. سوف يرى مدير الموارد هذه الموارد المخططة كطلبات في صفحة **تنفيذ المورد‬** ويمكنه تعيين الموارد الفعلية.
+## <a name="resource-fulfillment-for-planned-resources"></a><span data-ttu-id="efd3c-378">تنفيذ الموارد للموارد المخططة</span><span class="sxs-lookup"><span data-stu-id="efd3c-378">Resource fulfillment for planned resources</span></span>
+<span data-ttu-id="efd3c-379">بإمكان مدير المشروع أن يخطط لأدوار الموارد المطلوبة للمشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-379">A project manager can plan required resource roles for a project.</span></span> <span data-ttu-id="efd3c-380">سوف يرى مدير الموارد هذه الموارد المخططة كطلبات في صفحة **تنفيذ المورد‬** ويمكنه تعيين الموارد الفعلية.</span><span class="sxs-lookup"><span data-stu-id="efd3c-380">The resource manager will see these planned resources as requests on the **Resource fulfillment** page and can assign actual resources.</span></span>
 
-1.  انقر فوق **إدارة المشروع‬ والمحاسبة‬** &gt; **المشاريع** &gt; **كافة المشاريع**.
-2.  في القائمة، حدد المشروع **المرحلة 2 من ترقية XYZ**.
-3.  انقر فوق **المشروع**.
-4.  انقر فوق **تحرير**.
-5.  في علامة التبويب **فريق المشروع وجدولته**، انقر فوق **إضافة**.
-6.  في مربع الحوار **إضافة أدوار**، حدد الدور **مطور برامج**.
-7.  انقر فوق **إنشاء**.
-8.  قم بإغلاق صفحة المشروع.
-9.  انقر فوق **إدارة المشروع والمحاسبة** &gt; **موارد المشروع** &gt; **تنفيذ المورد**.
-10. حدد **مطور برامج 1** للمشروع **المرحلة 2 من مشروع ترقية XYZ**.
-11. حدد عاملاً، ثم انقر فوق **تعيين**.
-12. تأكد من إزالة سطر **مطور برامج 1** للمشروع **المرحلة 2 من مشروع ترقية XYZ**.
-13. على علامة التبويب **فريق المشروع وجدولته**، للمشروع **المرحلة 2 من ترقية XYZ**، تأكد من إضافة العامل الذي قمت بتحديده في الخطوة 11 على أنه **مطور برامج**.
+1.  <span data-ttu-id="efd3c-381">انقر فوق **إدارة المشروع‬ والمحاسبة‬** &gt; **المشاريع** &gt; **كافة المشاريع**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-381">Click **Project management and accounting** &gt; **Projects** &gt; **All projects**.</span></span>
+2.  <span data-ttu-id="efd3c-382">في القائمة، حدد المشروع **المرحلة 2 من ترقية XYZ**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-382">In the list, select the **XYZ Upgrade Phase 2** project.</span></span>
+3.  <span data-ttu-id="efd3c-383">انقر فوق **المشروع**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-383">Click **Project**.</span></span>
+4.  <span data-ttu-id="efd3c-384">انقر فوق **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-384">Click **Edit**.</span></span>
+5.  <span data-ttu-id="efd3c-385">في علامة التبويب **فريق المشروع وجدولته**، انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-385">On the **Project team and scheduling** tab,** **click **Add**.</span></span>
+6.  <span data-ttu-id="efd3c-386">في مربع الحوار **إضافة أدوار**، حدد الدور **مطور برامج**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-386">In the **Add roles** dialog box, select the **Software developer** role.</span></span>
+7.  <span data-ttu-id="efd3c-387">انقر فوق **إنشاء**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-387">Click **Create**.</span></span>
+8.  <span data-ttu-id="efd3c-388">قم بإغلاق صفحة المشروع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-388">Close the project page.</span></span>
+9.  <span data-ttu-id="efd3c-389">انقر فوق **إدارة المشروع والمحاسبة** &gt; **موارد المشروع** &gt; **تنفيذ المورد**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-389">Click **Project management and accounting** &gt; **Project resources** &gt; **Resource fulfillment**.</span></span>
+10. <span data-ttu-id="efd3c-390">حدد **مطور برامج 1** للمشروع **المرحلة 2 من مشروع ترقية XYZ**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-390">Select **Software developer 1** for the **XYZ Upgrade project Phase 2** project.</span></span>
+11. <span data-ttu-id="efd3c-391">حدد عاملاً، ثم انقر فوق **تعيين**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-391">Select a worker, and then click **Assign**.</span></span>
+12. <span data-ttu-id="efd3c-392">تأكد من إزالة سطر **مطور برامج 1** للمشروع **المرحلة 2 من مشروع ترقية XYZ**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-392">Verify that the line for **Software developer 1** has been removed for the **XYZ Upgrade project Phase 2** project.</span></span>
+13. <span data-ttu-id="efd3c-393">على علامة التبويب **فريق المشروع وجدولته**، للمشروع **المرحلة 2 من ترقية XYZ**، تأكد من إضافة العامل الذي قمت بتحديده في الخطوة 11 على أنه **مطور برامج**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-393">On the **Project team and scheduling** tab, for the **XYZ Upgrade Phase 2** project, verify that the worker that you selected in step 11 has been added as **Software developer**.</span></span>
 
-## <a name="requests-for-project-resources"></a>الطلبات لموارد المشروع
-تدعم وظيفة جدولة مورد المشروع فقط مديري المواد فيما يتعلق بتوزيع الموارد الموظفة على المشاركات أو المشاريع. لتمكين هذه الوظيفة، أكمل المهام التالية، أو تحقق من أنه قد تم الانتهاء منها.
+## <a name="requests-for-project-resources"></a><span data-ttu-id="efd3c-394">الطلبات لموارد المشروع</span><span class="sxs-lookup"><span data-stu-id="efd3c-394">Requests for project resources</span></span>
+<span data-ttu-id="efd3c-395">تدعم وظيفة جدولة مورد المشروع فقط مديري المواد فيما يتعلق بتوزيع الموارد الموظفة على المشاركات أو المشاريع.</span><span class="sxs-lookup"><span data-stu-id="efd3c-395">The project resource scheduling functionality only supports resource managers to distribute staffed resources on engagements or projects.</span></span> <span data-ttu-id="efd3c-396">لتمكين هذه الوظيفة، أكمل المهام التالية، أو تحقق من أنه قد تم الانتهاء منها.</span><span class="sxs-lookup"><span data-stu-id="efd3c-396">To enable this functionality, complete the following tasks, or verify that they have been completed.</span></span>
 
--   إعداد التسلسلات الرقمية.
--   إعداد عمليات سير العمل الخاصة بإدارة المشروع والمحاسبة.
--   تمكين سير عمل طلب المورد.
+-   <span data-ttu-id="efd3c-397">إعداد التسلسلات الرقمية.</span><span class="sxs-lookup"><span data-stu-id="efd3c-397">Set up number sequences.</span></span>
+-   <span data-ttu-id="efd3c-398">إعداد عمليات سير العمل الخاصة بإدارة المشروع والمحاسبة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-398">Set up project management and accounting workflows.</span></span>
+-   <span data-ttu-id="efd3c-399">تمكين سير عمل طلب المورد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-399">Enable resource request workflow.</span></span>
 
-بعد أن تقوم بالتحقق أو إكمال المهام أعلاه، يمكنك إكمال المهام التالية حسب الحاجة.
+<span data-ttu-id="efd3c-400">بعد أن تقوم بالتحقق أو إكمال المهام أعلاه، يمكنك إكمال المهام التالية حسب الحاجة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-400">After you have either verified or completed the tasks above, you can complete the following tasks as needed.</span></span>
 
--   إنشاء طلب مورد من مورد الحجز المبدئي للعمالة الموظفة.
--   مراقبة طلبات المورد
--   تحقيق طلبات الموارد.
--   طلب مورد موظف من WBS.
--   حجز الموارد لمشروع دون طلب مورد موظف.
+-   <span data-ttu-id="efd3c-401">إنشاء طلب مورد من مورد الحجز المبدئي للعمالة الموظفة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-401">Create a resource request from a soft-booked staffed resource.</span></span>
+-   <span data-ttu-id="efd3c-402">مراقبة طلبات المورد</span><span class="sxs-lookup"><span data-stu-id="efd3c-402">Monitor resource requests.</span></span>
+-   <span data-ttu-id="efd3c-403">تحقيق طلبات الموارد.</span><span class="sxs-lookup"><span data-stu-id="efd3c-403">Fulfill resource requests.</span></span>
+-   <span data-ttu-id="efd3c-404">طلب مورد موظف من WBS.</span><span class="sxs-lookup"><span data-stu-id="efd3c-404">Request a staffed resource from WBS.</span></span>
+-   <span data-ttu-id="efd3c-405">حجز الموارد لمشروع دون طلب مورد موظف.</span><span class="sxs-lookup"><span data-stu-id="efd3c-405">Book resources to a project without a request for a staffed resource.</span></span>
 
-## <a name="monitor-project-teams"></a>فرق المشروع
-1.  انقر فوق **إدارة المشروع‬ والمحاسبة‬** &gt; **المشاريع** &gt; **كافة المشاريع**.
-2.  في قائمة المشاريع، انقر فوق ارتباط **معرف المشروع** للمشروع **المرحلة 2 من ترقية XYZ**.
-3.  على علامة التبويب السريعة **فريق المشروع وجدولته‬**، تأكد من إدراج موارد المشروع بطريقة صحيحة.
+## <a name="monitor-project-teams"></a><span data-ttu-id="efd3c-406">فرق المشروع</span><span class="sxs-lookup"><span data-stu-id="efd3c-406">Monitor project teams</span></span>
+1.  <span data-ttu-id="efd3c-407">انقر فوق **إدارة المشروع‬ والمحاسبة‬** &gt; **المشاريع** &gt; **كافة المشاريع**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-407">Click **Project management and accounting** &gt; **Projects** &gt; **All projects**.</span></span>
+2.  <span data-ttu-id="efd3c-408">في قائمة المشاريع، انقر فوق ارتباط **معرف المشروع** للمشروع **المرحلة 2 من ترقية XYZ**.</span><span class="sxs-lookup"><span data-stu-id="efd3c-408">In the list of projects, click the **Project ID** link for the **XYZ Upgrade Phase 2** project.</span></span>
+3.  <span data-ttu-id="efd3c-409">على علامة التبويب السريعة **فريق المشروع وجدولته‬**، تأكد من إدراج موارد المشروع بطريقة صحيحة.</span><span class="sxs-lookup"><span data-stu-id="efd3c-409">On the **Project team and scheduling** FastTab, verify that the project resources that are listed are correct.</span></span>
 
 
 

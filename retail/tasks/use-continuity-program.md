@@ -17,48 +17,48 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: bd584bbb49ea83c4debf11ad0169c346ef0f9637
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5d3b5690bfbd10b77e784d35d0c4f4518de58333
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="use-a-continuity-program"></a> استخدام برنامج استمرارية
+# <a name="use-a-continuity-program"></a><span data-ttu-id="bab28-103"> استخدام برنامج استمرارية</span><span class="sxs-lookup"><span data-stu-id="bab28-103">Use a continuity program</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-يتناول هذا الإجراء بيع برنامج استمرارية ومعالجة أوامر المبيعات ذات الصلة. لإكمال هذا الإجراء، يجب إعداد المستخدم كمستخدم مركز اتصال. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
+<span data-ttu-id="bab28-104">يتناول هذا الإجراء بيع برنامج استمرارية ومعالجة أوامر المبيعات ذات الصلة.</span><span class="sxs-lookup"><span data-stu-id="bab28-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="bab28-105">لإكمال هذا الإجراء، يجب إعداد المستخدم كمستخدم مركز اتصال.</span><span class="sxs-lookup"><span data-stu-id="bab28-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="bab28-106">يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.</span><span class="sxs-lookup"><span data-stu-id="bab28-106">This procedure uses the USRT demo data company.</span></span>
 
-1. انتقل إلى البيع بالتجزئة والتجارة > العملاء > خدمة العملاء.
-2. في حقل "نص البحث"، اكتب "كارين"، ثم اضغط المفتاح Tab.
-    * يجب أن ينبثق مربع حوار البحث المتقدم. إذا لم ينبثق، فانقر فوق "بحث" إلى يسار هذا الحقل.  
-3. في القائمة، قم بوضع علامة للصف المحدد.
-    * يجب ظهور صف واحد فقط يعرض كارين بيرغ‬. حدد الصف بالنقر فوق عمود علامة اختيار في أقصى يمين الشبكة.  
-4. انقر فوق تحديد.
-5. انقر فوق أمر مبيعات جديد.
-    * من المستحسن تسجيل رقم أمر المبيعات. ستحتاجه إليه لاحقًا في هذا الإجراء.  
-6. في حقل "رقم الصنف البحث"، اكتب "88000"، ثم اضغط المفتاح Tab.
-    * هذا صنف استمرارية في بيانات العرض التوضيحي USRT.‬  
-7. انقر فوق "مكتمل".
-8. في الحقل "أسلوب الدفع‬"، أدخل "Visa‬".
-9. انقر فوق "‏‫إضافة بطاقة الائتمان‬".
-    * أدخل معلومات بطاقة الائتمان المطلوبة على هذه الصفحة.  
-10. انقر فوق "موافق".
-11. قم بتوسيع قسم الدفع.
-    * لإرسال أمر مركز اتصال، يجب إدخال المدفوعات للأمر.  
-12. انقر فوق "موافق".
-13. انقر فوق تقديم.
-    * انتهيت من إنشاء أمر استمرارية جديد. وبعد ذلك، عليك تشغيل عمليتين دُفعيتين يتم استخدامهما لمعالجة أوامر الاستمرارية.  
-14. قم بإغلاق الصفحة.
-15. انتقل إلى البيع بالتجزئة والتجارة > الاستمرارية > معالجة مدفوعات الاستمرارية.
-16. في حقل "صنف الاستمرارية"، اكتب "88000"، ثم اضغط المفتاح Tab.
-17. انقر فوق "موافق".
-18. انتقل إلى البيع بالتجزئة والتجارة > الاستمرارية > إنشاء أوامر فرعية للاستمرارية‬.
-    * ستقوم هذه العملية بإنشاء أوامر مبيعات جديدة استنادًا إلى إعدادات برامج الاستمرارية.  
-19. في حقل "صنف الاستمرارية"، اكتب "88000"، ثم اضغط المفتاح Tab.
-    * الصنف "88000'" عبارة عن صنف استمرارية في بيانات العرض التوضيحي USRT.‬  
-20. في الحقل "أمر المبيعات"، أدخل قيمة أو حددها.
-    * أدخل رقم أمر المبيعات الذي قمت بتسجيله سابقًا في الإجراء. سيؤدي ذلك إلى إبقاء وقت المعالجة بالحد الأدنى لهذا الإجراء. الحقل "أمر المبيعات" اختياري--ستتمكن من معالجة كافة الأوامر في أي برنامج واحد.  
-21. انقر فوق "موافق".
+1. <span data-ttu-id="bab28-107">انتقل إلى البيع بالتجزئة والتجارة > العملاء > خدمة العملاء.</span><span class="sxs-lookup"><span data-stu-id="bab28-107">Go to Retail and commerce > Customers > Customer service.</span></span>
+2. <span data-ttu-id="bab28-108">في حقل "نص البحث"، اكتب "كارين"، ثم اضغط المفتاح Tab.</span><span class="sxs-lookup"><span data-stu-id="bab28-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
+    * <span data-ttu-id="bab28-109">يجب أن ينبثق مربع حوار البحث المتقدم.</span><span class="sxs-lookup"><span data-stu-id="bab28-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="bab28-110">إذا لم ينبثق، فانقر فوق "بحث" إلى يسار هذا الحقل.</span><span class="sxs-lookup"><span data-stu-id="bab28-110">If it doesn't, click Search to the right of this field.</span></span>  
+3. <span data-ttu-id="bab28-111">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="bab28-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="bab28-112">يجب ظهور صف واحد فقط يعرض كارين بيرغ‬.</span><span class="sxs-lookup"><span data-stu-id="bab28-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="bab28-113">حدد الصف بالنقر فوق عمود علامة اختيار في أقصى يمين الشبكة.</span><span class="sxs-lookup"><span data-stu-id="bab28-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
+4. <span data-ttu-id="bab28-114">انقر فوق تحديد.</span><span class="sxs-lookup"><span data-stu-id="bab28-114">Click Select.</span></span>
+5. <span data-ttu-id="bab28-115">انقر فوق أمر مبيعات جديد.</span><span class="sxs-lookup"><span data-stu-id="bab28-115">Click New sales order.</span></span>
+    * <span data-ttu-id="bab28-116">من المستحسن تسجيل رقم أمر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="bab28-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="bab28-117">ستحتاجه إليه لاحقًا في هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="bab28-117">You'll need it later in this procedure.</span></span>  
+6. <span data-ttu-id="bab28-118">في حقل "رقم الصنف البحث"، اكتب "88000"، ثم اضغط المفتاح Tab.</span><span class="sxs-lookup"><span data-stu-id="bab28-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="bab28-119">هذا صنف استمرارية في بيانات العرض التوضيحي USRT.‬</span><span class="sxs-lookup"><span data-stu-id="bab28-119">This is a continuity item in the USRT demo data.</span></span>  
+7. <span data-ttu-id="bab28-120">انقر فوق "مكتمل".</span><span class="sxs-lookup"><span data-stu-id="bab28-120">Click Complete.</span></span>
+8. <span data-ttu-id="bab28-121">في الحقل "أسلوب الدفع‬"، أدخل "Visa‬".</span><span class="sxs-lookup"><span data-stu-id="bab28-121">In the Payment method field, enter 'Visa'.</span></span>
+9. <span data-ttu-id="bab28-122">انقر فوق "‏‫إضافة بطاقة الائتمان‬".</span><span class="sxs-lookup"><span data-stu-id="bab28-122">Click Add credit card.</span></span>
+    * <span data-ttu-id="bab28-123">أدخل معلومات بطاقة الائتمان المطلوبة على هذه الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bab28-123">Enter the required credit card information on this page.</span></span>  
+10. <span data-ttu-id="bab28-124">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="bab28-124">Click OK.</span></span>
+11. <span data-ttu-id="bab28-125">قم بتوسيع قسم الدفع.</span><span class="sxs-lookup"><span data-stu-id="bab28-125">Expand the Payment section.</span></span>
+    * <span data-ttu-id="bab28-126">لإرسال أمر مركز اتصال، يجب إدخال المدفوعات للأمر.</span><span class="sxs-lookup"><span data-stu-id="bab28-126">To submit a call center order, payments have to be entered for the order.</span></span>  
+12. <span data-ttu-id="bab28-127">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="bab28-127">Click OK.</span></span>
+13. <span data-ttu-id="bab28-128">انقر فوق تقديم.</span><span class="sxs-lookup"><span data-stu-id="bab28-128">Click Submit.</span></span>
+    * <span data-ttu-id="bab28-129">انتهيت من إنشاء أمر استمرارية جديد.</span><span class="sxs-lookup"><span data-stu-id="bab28-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="bab28-130">وبعد ذلك، عليك تشغيل عمليتين دُفعيتين يتم استخدامهما لمعالجة أوامر الاستمرارية.</span><span class="sxs-lookup"><span data-stu-id="bab28-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
+14. <span data-ttu-id="bab28-131">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bab28-131">Close the page.</span></span>
+15. <span data-ttu-id="bab28-132">انتقل إلى البيع بالتجزئة والتجارة > الاستمرارية > معالجة مدفوعات الاستمرارية.</span><span class="sxs-lookup"><span data-stu-id="bab28-132">Go to Retail and commerce > Continuity > Process continuity payments.</span></span>
+16. <span data-ttu-id="bab28-133">في حقل "صنف الاستمرارية"، اكتب "88000"، ثم اضغط المفتاح Tab.</span><span class="sxs-lookup"><span data-stu-id="bab28-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+17. <span data-ttu-id="bab28-134">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="bab28-134">Click OK.</span></span>
+18. <span data-ttu-id="bab28-135">انتقل إلى البيع بالتجزئة والتجارة > الاستمرارية > إنشاء أوامر فرعية للاستمرارية‬.</span><span class="sxs-lookup"><span data-stu-id="bab28-135">Go to Retail and commerce > Continuity > Create continuity child orders.</span></span>
+    * <span data-ttu-id="bab28-136">ستقوم هذه العملية بإنشاء أوامر مبيعات جديدة استنادًا إلى إعدادات برامج الاستمرارية.</span><span class="sxs-lookup"><span data-stu-id="bab28-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
+19. <span data-ttu-id="bab28-137">في حقل "صنف الاستمرارية"، اكتب "88000"، ثم اضغط المفتاح Tab.</span><span class="sxs-lookup"><span data-stu-id="bab28-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="bab28-138">الصنف "88000'" عبارة عن صنف استمرارية في بيانات العرض التوضيحي USRT.‬</span><span class="sxs-lookup"><span data-stu-id="bab28-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
+20. <span data-ttu-id="bab28-139">في الحقل "أمر المبيعات"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="bab28-139">In the Sales order field, enter or select a value.</span></span>
+    * <span data-ttu-id="bab28-140">أدخل رقم أمر المبيعات الذي قمت بتسجيله سابقًا في الإجراء.</span><span class="sxs-lookup"><span data-stu-id="bab28-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="bab28-141">سيؤدي ذلك إلى إبقاء وقت المعالجة بالحد الأدنى لهذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="bab28-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="bab28-142">الحقل "أمر المبيعات" اختياري--ستتمكن من معالجة كافة الأوامر في أي برنامج واحد.</span><span class="sxs-lookup"><span data-stu-id="bab28-142">The Sales order field field is optional--you could process all orders for any one program.</span></span>  
+21. <span data-ttu-id="bab28-143">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="bab28-143">Click OK.</span></span>
 
 

@@ -15,75 +15,75 @@ ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
 ms.author: tjvass
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a3a12080efcb138365c26981abd51222c51663ff
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 5620a91ff9f300bed782170307a295ab79fc5b2e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="workflow-elements"></a>عناصر سير العمل
+# <a name="workflow-elements"></a><span data-ttu-id="d062b-103">عناصر سير العمل</span><span class="sxs-lookup"><span data-stu-id="d062b-103">Workflow elements</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة العناصر المختلفة التي تشكّل سير عمل.
+<span data-ttu-id="d062b-104">توضح هذه المقالة العناصر المختلفة التي تشكّل سير عمل.</span><span class="sxs-lookup"><span data-stu-id="d062b-104">This article describes the various elements that make up a workflow.</span></span>
 
-يتألف سير العمل من عناصر. توضح الأقسام التالية كل نوع عنصر.
+<span data-ttu-id="d062b-105">يتألف سير العمل من عناصر.</span><span class="sxs-lookup"><span data-stu-id="d062b-105">A workflow consists of elements.</span></span> <span data-ttu-id="d062b-106">توضح الأقسام التالية كل نوع عنصر.</span><span class="sxs-lookup"><span data-stu-id="d062b-106">The sections that follow describe each type of element.</span></span>
 
-## <a name="tasks"></a>مهام
-تعتبر *المهمة* وحدة عمل يجب إجراؤها. يمكن إضافة نوعين من المهام لسير عمل: المهام اليدوية والمهام التلقائية.
+## <a name="tasks"></a><span data-ttu-id="d062b-107">مهام</span><span class="sxs-lookup"><span data-stu-id="d062b-107">Tasks</span></span>
+<span data-ttu-id="d062b-108">تعتبر *المهمة* وحدة عمل يجب إجراؤها.</span><span class="sxs-lookup"><span data-stu-id="d062b-108">A *task* is a unit of work that must be performed.</span></span> <span data-ttu-id="d062b-109">يمكن إضافة نوعين من المهام لسير عمل: المهام اليدوية والمهام التلقائية.</span><span class="sxs-lookup"><span data-stu-id="d062b-109">Two types of tasks can be added to a workflow: manual tasks and automated tasks.</span></span>
 
-### <a name="manual-task"></a>المهمة اليدوية
+### <a name="manual-task"></a><span data-ttu-id="d062b-110">المهمة اليدوية</span><span class="sxs-lookup"><span data-stu-id="d062b-110">Manual task</span></span>
 
-تعتبر *المهمة اليدوية* وحدة عمل يجب إجراؤها بواسطة المستخدم. على سبيل المثال، قد يشتمل سير عمل تقرير المصروفات على مهام يدوية تتطلب من المستخدمين المعينين إكمال الإجراءات التالية:
+<span data-ttu-id="d062b-111">تعتبر *المهمة اليدوية* وحدة عمل يجب إجراؤها بواسطة المستخدم.</span><span class="sxs-lookup"><span data-stu-id="d062b-111">A *manual task* is a unit of work that must be performed by a user.</span></span> <span data-ttu-id="d062b-112">على سبيل المثال، قد يشتمل سير عمل تقرير المصروفات على مهام يدوية تتطلب من المستخدمين المعينين إكمال الإجراءات التالية:</span><span class="sxs-lookup"><span data-stu-id="d062b-112">For example, an expense report workflow can have manual tasks that require the assigned users to complete the following actions:</span></span>
 
--   مراجعة الإيصالات التي تم إرسالها إلى جانب تقرير مصروفات.
--   الاتصال بمدير موظف.
+-   <span data-ttu-id="d062b-113">مراجعة الإيصالات التي تم إرسالها إلى جانب تقرير مصروفات.</span><span class="sxs-lookup"><span data-stu-id="d062b-113">Review the receipts that are submitted together with an expense report.</span></span>
+-   <span data-ttu-id="d062b-114">الاتصال بمدير موظف.</span><span class="sxs-lookup"><span data-stu-id="d062b-114">Call an employee's manager.</span></span>
 
-### <a name="automated-task"></a>مهمة مؤتمتة
+### <a name="automated-task"></a><span data-ttu-id="d062b-115">مهمة مؤتمتة</span><span class="sxs-lookup"><span data-stu-id="d062b-115">Automated task</span></span>
 
-تعتبر *المهمة التلقائية* وحدة عمل يجب إجراؤها بواسطة النظام. لا يلزم أي تفاعل بشري. على سبيل المثال، قد يشتمل سير عمل أمر المبيعات على مهام تلقائية تتطلب من النظام إكمال الإجراءات التالية:
+<span data-ttu-id="d062b-116">تعتبر *المهمة التلقائية* وحدة عمل يجب إجراؤها بواسطة النظام.</span><span class="sxs-lookup"><span data-stu-id="d062b-116">An *automated task* is a unit of work that must be performed by the system.</span></span> <span data-ttu-id="d062b-117">لا يلزم أي تفاعل بشري.</span><span class="sxs-lookup"><span data-stu-id="d062b-117">No human interaction is required.</span></span> <span data-ttu-id="d062b-118">على سبيل المثال، قد يشتمل سير عمل أمر المبيعات على مهام تلقائية تتطلب من النظام إكمال الإجراءات التالية:</span><span class="sxs-lookup"><span data-stu-id="d062b-118">For example, a sales order workflow can have automated tasks that require the system to complete the following actions:</span></span>
 
--   تنفيذ فحص ائتمان.
--   أنشئ سجل عميل للعميل، إذا لم يكن السجل موجودًا بالفعل.
+-   <span data-ttu-id="d062b-119">تنفيذ فحص ائتمان.</span><span class="sxs-lookup"><span data-stu-id="d062b-119">Perform a credit check.</span></span>
+-   <span data-ttu-id="d062b-120">أنشئ سجل عميل للعميل، إذا لم يكن السجل موجودًا بالفعل.</span><span class="sxs-lookup"><span data-stu-id="d062b-120">Create a customer record for the customer, if a record doesn't already exist.</span></span>
 
-## <a name="approval-processes"></a>عمليات الاعتماد
-تعتبر *عملية الاعتماد* عملية تتألف من خطوات منفصلة. في كل خطوة من خطوات الاعتماد، يمكن للمستخدم تنفيذ الإجراءات التالية:
+## <a name="approval-processes"></a><span data-ttu-id="d062b-121">عمليات الاعتماد</span><span class="sxs-lookup"><span data-stu-id="d062b-121">Approval processes</span></span>
+<span data-ttu-id="d062b-122">تعتبر *عملية الاعتماد* عملية تتألف من خطوات منفصلة.</span><span class="sxs-lookup"><span data-stu-id="d062b-122">An *approval process* is a process that consists of separate steps.</span></span> <span data-ttu-id="d062b-123">في كل خطوة من خطوات الاعتماد، يمكن للمستخدم تنفيذ الإجراءات التالية:</span><span class="sxs-lookup"><span data-stu-id="d062b-123">At each approval step, the user can perform the following actions:</span></span>
 
--   اعتماد المستند.
--   رفض المستند.
--   طلب تغيير في المستند.
--   تعيين المستند إلى مستخدم آخر للاعتماد.
+-   <span data-ttu-id="d062b-124">اعتماد المستند.</span><span class="sxs-lookup"><span data-stu-id="d062b-124">Approve the document.</span></span>
+-   <span data-ttu-id="d062b-125">رفض المستند.</span><span class="sxs-lookup"><span data-stu-id="d062b-125">Reject the document.</span></span>
+-   <span data-ttu-id="d062b-126">طلب تغيير في المستند.</span><span class="sxs-lookup"><span data-stu-id="d062b-126">Request a change to the document.</span></span>
+-   <span data-ttu-id="d062b-127">تعيين المستند إلى مستخدم آخر للاعتماد.</span><span class="sxs-lookup"><span data-stu-id="d062b-127">Assign the document to another user for approval.</span></span>
 
-## <a name="lineitem-workflow-elements"></a>عناصر سير عمل عنصر البند
-يمكن إنشاء سير عمل لمعالجة المستندات أو عناصر البنود الموجودة في مستند. على سبيل المثال، لقد قمت بإنشاء سير عمل اعتماد للجداول الزمنية. ‏‫(سنشير إلى سير العمل هذا بصفته *سير عمل المستند*.) يمكنك إضافة *‬‏‫سير العمل عنصر الصنف* إلى سير عمل المستند هذا.‬ وعند تشغيل صنف البند، يتم إرسال كل صنف بند في المستند للمعالجة. قد تحتاج إلى معالجة كافة أصناف البند بنفس بند سير عمل صنف البند، أو قد تحتاج إلى معالجة كل صنف بند بواسطة سير عمل صنف بند مختلف. تخيل أن موظف قام بتقديم جدول زمني يشبه الشكل التالي. ![سير العمل مع عناصر البند](./media/workflow_lineitemworkflow.gif) في هذا السيناريو، قد تحتاج إلى إنشاء عمليات سير عمل عنصر البند التالي:
+## <a name="lineitem-workflow-elements"></a><span data-ttu-id="d062b-128">عناصر سير عمل عنصر البند</span><span class="sxs-lookup"><span data-stu-id="d062b-128">Lineitem workflow elements</span></span>
+<span data-ttu-id="d062b-129">يمكن إنشاء سير عمل لمعالجة المستندات أو عناصر البنود الموجودة في مستند.</span><span class="sxs-lookup"><span data-stu-id="d062b-129">A workflow can be created to process either documents or the line items on a document.</span></span> <span data-ttu-id="d062b-130">على سبيل المثال، لقد قمت بإنشاء سير عمل اعتماد للجداول الزمنية.</span><span class="sxs-lookup"><span data-stu-id="d062b-130">For example, you've created an approval workflow for timesheets.</span></span> <span data-ttu-id="d062b-131">‏‫(سنشير إلى سير العمل هذا بصفته *سير عمل المستند*.) يمكنك إضافة *‬‏‫سير العمل عنصر الصنف* إلى سير عمل المستند هذا.‬</span><span class="sxs-lookup"><span data-stu-id="d062b-131">(We will refer to this workflow as the *document workflow*.) You can add a *line-item workflow* element to that document workflow.</span></span> <span data-ttu-id="d062b-132">وعند تشغيل صنف البند، يتم إرسال كل صنف بند في المستند للمعالجة.</span><span class="sxs-lookup"><span data-stu-id="d062b-132">When the line-item element is run, each line item on the document is submitted for processing.</span></span> <span data-ttu-id="d062b-133">قد تحتاج إلى معالجة كافة أصناف البند بنفس بند سير عمل صنف البند، أو قد تحتاج إلى معالجة كل صنف بند بواسطة سير عمل صنف بند مختلف.</span><span class="sxs-lookup"><span data-stu-id="d062b-133">You might want all the line items to be processed by the same line-item workflow, or you might want each line item to be processed by a different line-item workflow.</span></span> <span data-ttu-id="d062b-134">تخيل أن موظف قام بتقديم جدول زمني يشبه الشكل التالي.</span><span class="sxs-lookup"><span data-stu-id="d062b-134">Imagine that an employee has submitted a timesheet that resembles the following figure.</span></span> <span data-ttu-id="d062b-135">![سير العمل مع عناصر البند](./media/workflow_lineitemworkflow.gif) في هذا السيناريو، قد تحتاج إلى إنشاء عمليات سير عمل عنصر البند التالي:</span><span class="sxs-lookup"><span data-stu-id="d062b-135">![Workflow with line items](./media/workflow_lineitemworkflow.gif) In this scenario, you might want to create the following line-item workflows:</span></span>
 
--   **سير عمل عنصر البند 1** – يتم استخدام سير العمل هذا لمعالجة عناصر البند حيث يكون معرف المشروع هو 1111.
--   **سير عمل عنصر البند 2** – يتم استخدام سير العمل هذا لمعالجة عناصر البند حيث يكون معرف المشروع هو 2222.
--   **سير عمل عنصر البند 3** – يتم استخدام سير العمل هذا لمعالجة عناصر البند حيث يكون معرف المشروع هو 3333.
+-   <span data-ttu-id="d062b-136">**سير عمل عنصر البند 1** – يتم استخدام سير العمل هذا لمعالجة عناصر البند حيث يكون معرف المشروع هو 1111.</span><span class="sxs-lookup"><span data-stu-id="d062b-136">**Line-item workflow 1** – This workflow is used to process line items where the project ID is 1111.</span></span>
+-   <span data-ttu-id="d062b-137">**سير عمل عنصر البند 2** – يتم استخدام سير العمل هذا لمعالجة عناصر البند حيث يكون معرف المشروع هو 2222.</span><span class="sxs-lookup"><span data-stu-id="d062b-137">**Line-item workflow 2** – This workflow is used to process line items where the project ID is 2222.</span></span>
+-   <span data-ttu-id="d062b-138">**سير عمل عنصر البند 3** – يتم استخدام سير العمل هذا لمعالجة عناصر البند حيث يكون معرف المشروع هو 3333.</span><span class="sxs-lookup"><span data-stu-id="d062b-138">**Line-item workflow 3** – This workflow is used to process line items where the project ID is 3333.</span></span>
 
-## <a name="flowcontrol-elements"></a>عناصر التحكم في التدفق
-تتيح لك العناصر التالية تصميم مهام سير العمل التي لها فروع بديلة أو فروع يتم تشغيلها في نفس الوقت.
+## <a name="flowcontrol-elements"></a><span data-ttu-id="d062b-139">عناصر التحكم في التدفق</span><span class="sxs-lookup"><span data-stu-id="d062b-139">Flowcontrol elements</span></span>
+<span data-ttu-id="d062b-140">تتيح لك العناصر التالية تصميم مهام سير العمل التي لها فروع بديلة أو فروع يتم تشغيلها في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="d062b-140">The following elements let you design workflows that have alternate branches or branches that run at the same time.</span></span>
 
-### <a name="manual-decision"></a>قرار يدوي
+### <a name="manual-decision"></a><span data-ttu-id="d062b-141">قرار يدوي</span><span class="sxs-lookup"><span data-stu-id="d062b-141">Manual decision</span></span>
 
-*القرار اليدوي* هو نقطة ينقسم عندها سير العمل إلى فرعين. يجب على المستخدم اتخاذ قرار، ويحدد هذا القرار أي فرع يتم استخدامه لمعالجة المستند الذي تم إرساله.
+<span data-ttu-id="d062b-142">*القرار اليدوي* هو نقطة ينقسم عندها سير العمل إلى فرعين.</span><span class="sxs-lookup"><span data-stu-id="d062b-142">A *manual decision* is a point where a workflow divides into two branches.</span></span> <span data-ttu-id="d062b-143">يجب على المستخدم اتخاذ قرار، ويحدد هذا القرار أي فرع يتم استخدامه لمعالجة المستند الذي تم إرساله.</span><span class="sxs-lookup"><span data-stu-id="d062b-143">A user must make a decision, and this decision determines which branch is used to process the document that was submitted.</span></span>
 
-### <a name="conditional-decision"></a>قرار مشروط
+### <a name="conditional-decision"></a><span data-ttu-id="d062b-144">قرار مشروط</span><span class="sxs-lookup"><span data-stu-id="d062b-144">Conditional decision</span></span>
 
-*القرار المشروط* هو نقطة ينقسم عندها سير العمل إلى فرعين. ومع ذلك، يقرر النظام أي فرع يتم استخدامه لمعالجة المستند الذي تم إرساله. ولاتخاذ هذا القرار، يقوم النظام بتقييم المستند لتحديد ما إذا كان يستوفي الشروط المحددة أم لا.
+<span data-ttu-id="d062b-145">*القرار المشروط* هو نقطة ينقسم عندها سير العمل إلى فرعين.</span><span class="sxs-lookup"><span data-stu-id="d062b-145">A *conditional decision* is also a point where a workflow divides into two branches.</span></span> <span data-ttu-id="d062b-146">ومع ذلك، يقرر النظام أي فرع يتم استخدامه لمعالجة المستند الذي تم إرساله.</span><span class="sxs-lookup"><span data-stu-id="d062b-146">However, the system decides which branch is used to process the document that was submitted.</span></span> <span data-ttu-id="d062b-147">ولاتخاذ هذا القرار، يقوم النظام بتقييم المستند لتحديد ما إذا كان يستوفي الشروط المحددة أم لا.</span><span class="sxs-lookup"><span data-stu-id="d062b-147">To make this decision, the system evaluates the document to determine whether it meets specified conditions.</span></span>
 
-### <a name="parallel-activity"></a>نشاط موازٍ
+### <a name="parallel-activity"></a><span data-ttu-id="d062b-148">نشاط موازٍ</span><span class="sxs-lookup"><span data-stu-id="d062b-148">Parallel activity</span></span>
 
-*النشاط الموازي* هو عنصر سير عمل يشمل فرعي سير عمل أو أكثر يتم تشغيلهم في نفس الوقت.
+<span data-ttu-id="d062b-149">*النشاط الموازي* هو عنصر سير عمل يشمل فرعي سير عمل أو أكثر يتم تشغيلهم في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="d062b-149">A *parallel activity* is a workflow element that includes two or more workflow branches that run at the same time.</span></span>
 
-### <a name="subworkflow"></a>سير العمل الفرعي
+### <a name="subworkflow"></a><span data-ttu-id="d062b-150">سير العمل الفرعي</span><span class="sxs-lookup"><span data-stu-id="d062b-150">Subworkflow</span></span>
 
-*سير العمل الفرعي* هو سير عمل يتم تشغيله داخل سياق سير عمل آخر.
+<span data-ttu-id="d062b-151">*سير العمل الفرعي* هو سير عمل يتم تشغيله داخل سياق سير عمل آخر.</span><span class="sxs-lookup"><span data-stu-id="d062b-151">A *subworkflow* is a workflow that runs in the context of another workflow.</span></span>
 
 
 

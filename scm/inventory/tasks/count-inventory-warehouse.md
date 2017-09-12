@@ -1,4 +1,4 @@
---- 
+---
 title: "جرد المخزون في مستودع"
 description: "يوضح لك هذا الإجراء عملية إنشاء دفتر يومية جرد مخزون وترحيله لجرد صنف معين بأحد المواقع في المستودع."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,56 +17,55 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 1d2ecf1cd80e05b59f206fb5f684d6a86fa5733e
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: fa72cb0d651f5e60797fa41f6e2b2cf1891730b5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="count-inventory-in-a-warehouse"></a>جرد المخزون في مستودع
+# <a name="count-inventory-in-a-warehouse"></a><span data-ttu-id="328ad-103">جرد المخزون في مستودع</span><span class="sxs-lookup"><span data-stu-id="328ad-103">Count inventory in a warehouse</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح لك هذا الإجراء عملية إنشاء دفتر يومية جرد مخزون وترحيله لجرد صنف معين بأحد المواقع في المستودع. وينطبق الإجراء على وظيفة "التخزين الأساسي"، المتوفرة في الوحدة النمطية "إدارة المخزون"، وليس على وظيفة التخزين المتوفرة في الوحدة النمطية "إدارة المستودع". يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك. إذا كنت تستخدم البيانات الخاصة بك، فتأكد من إعداد المنتجات والمواقع، وتأكد أنك قد أنشأت اسم دفتر يومية لدفاتر يومية الجرد. يتم تنفيذ جرد المخزون عادة بواسطة موظف مستودع.
+<span data-ttu-id="328ad-104">يوضح لك هذا الإجراء عملية إنشاء دفتر يومية جرد مخزون وترحيله لجرد صنف معين بأحد المواقع في المستودع.</span><span class="sxs-lookup"><span data-stu-id="328ad-104">This procedure walks you through the process of creating and posting an inventory counting journal in order to count a specific item at a location in the warehouse.</span></span> <span data-ttu-id="328ad-105">وينطبق الإجراء على وظيفة "التخزين الأساسي"، المتوفرة في الوحدة النمطية "إدارة المخزون"، وليس على وظيفة التخزين المتوفرة في الوحدة النمطية "إدارة المستودع".</span><span class="sxs-lookup"><span data-stu-id="328ad-105">The procedure applies to “basic warehousing” functionality, available in the Inventory management module, not to the warehousing functionality that’s available in the Warehouse management module.</span></span> <span data-ttu-id="328ad-106">يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="328ad-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="328ad-107">إذا كنت تستخدم البيانات الخاصة بك، فتأكد من إعداد المنتجات والمواقع، وتأكد أنك قد أنشأت اسم دفتر يومية لدفاتر يومية الجرد.</span><span class="sxs-lookup"><span data-stu-id="328ad-107">If you’re using your own data, make sure that you have products and locations set up, and that you’ve created an inventory journal name for counting journals.</span></span> <span data-ttu-id="328ad-108">يتم تنفيذ جرد المخزون عادة بواسطة موظف مستودع.</span><span class="sxs-lookup"><span data-stu-id="328ad-108">Inventory counting is normally carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-counting-journal"></a>إنشاء دفتر يومية جرد مخزون
-1. انتقل إلى إدارة المخزون > إدخالات دفتر اليومية > جرد الصنف > الجرد.
-2. انقر فوق "جديد".
-3. في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-4. في القائمة، انقر فوق اسم دفتر يومية جرد المخزون الذي تريد استخدامه.
-    * سيتم ملء بعض الحقول الأخرى حسب إعداد اسم دفتر يومية جرد المخزون الذي تحدده.  
-5. في الحقل "العامل"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-6. في القائمة، حدد العامل الذي تريد استخدامه.
-7. انقر فوق تحديد.
-8. انقر فوق "موافق".
+## <a name="create-an-inventory-counting-journal"></a><span data-ttu-id="328ad-109">إنشاء دفتر يومية جرد مخزون</span><span class="sxs-lookup"><span data-stu-id="328ad-109">Create an inventory counting journal</span></span>
+1. <span data-ttu-id="328ad-110">انتقل إلى إدارة المخزون > إدخالات دفتر اليومية > جرد الصنف > الجرد.</span><span class="sxs-lookup"><span data-stu-id="328ad-110">Go to Inventory management > Journal entries > Item counting > Counting.</span></span>
+2. <span data-ttu-id="328ad-111">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="328ad-111">Click New.</span></span>
+3. <span data-ttu-id="328ad-112">في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="328ad-112">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="328ad-113">في القائمة، انقر فوق اسم دفتر يومية جرد المخزون الذي تريد استخدامه.</span><span class="sxs-lookup"><span data-stu-id="328ad-113">In the list, click on the inventory counting journal name you want to use</span></span>
+    * <span data-ttu-id="328ad-114">سيتم ملء بعض الحقول الأخرى حسب إعداد اسم دفتر يومية جرد المخزون الذي تحدده.</span><span class="sxs-lookup"><span data-stu-id="328ad-114">Some other fields will be populated based on the setup of the inventory counting journal name that you select.</span></span>  
+5. <span data-ttu-id="328ad-115">في الحقل "العامل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="328ad-115">In the Worker field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="328ad-116">في القائمة، حدد العامل الذي تريد استخدامه.</span><span class="sxs-lookup"><span data-stu-id="328ad-116">In the list, select the worker you want to use.</span></span>
+7. <span data-ttu-id="328ad-117">انقر فوق تحديد.</span><span class="sxs-lookup"><span data-stu-id="328ad-117">Click Select.</span></span>
+8. <span data-ttu-id="328ad-118">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="328ad-118">Click OK.</span></span>
 
-## <a name="create-journal-lines"></a>إنشاء بنود دفتر اليومية
-1. انقر فوق "جديد".
-2. في الحقل "رقم الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-3. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فحدد "A0001".  
-4. في الحقل "الموقع"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-5. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فحدد "الموقع 2".  
-6. في الحقل "المستودع"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-7. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فحدد "المستودع 24".  
-8. في الحقل "الموقع"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-9. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فحدد "مجمع-001".  
-10. في الحقل "تم جرده"، أدخل رقمًا.
-    * إذا أدخلتَ عددًا محسوبًا يختلف عن العدد الذي يظهر في الحقل "الكمية المتاحة"، سيتم تحديث الحقل "الكمية" لإظهار التباين.  
-11. انقر فوق "حفظ".
+## <a name="create-journal-lines"></a><span data-ttu-id="328ad-119">إنشاء بنود دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="328ad-119">Create journal lines</span></span>
+1. <span data-ttu-id="328ad-120">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="328ad-120">Click New.</span></span>
+2. <span data-ttu-id="328ad-121">في الحقل "رقم الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="328ad-121">In the Item number field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="328ad-122">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="328ad-122">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="328ad-123">إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فحدد "A0001".</span><span class="sxs-lookup"><span data-stu-id="328ad-123">If you are using demo data company USMF, select 'A0001'.</span></span>  
+4. <span data-ttu-id="328ad-124">في الحقل "الموقع"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="328ad-124">In the Site field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="328ad-125">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="328ad-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="328ad-126">إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فحدد "الموقع 2".</span><span class="sxs-lookup"><span data-stu-id="328ad-126">If you are using demo data company USMF, select site '2'.</span></span>  
+6. <span data-ttu-id="328ad-127">في الحقل "المستودع"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="328ad-127">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="328ad-128">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="328ad-128">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="328ad-129">إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فحدد "المستودع 24".</span><span class="sxs-lookup"><span data-stu-id="328ad-129">If you are using demo data company USMF, select warehouse '24'.</span></span>  
+8. <span data-ttu-id="328ad-130">في الحقل "الموقع"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="328ad-130">In the Location field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="328ad-131">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="328ad-131">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="328ad-132">إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فحدد "مجمع-001".</span><span class="sxs-lookup"><span data-stu-id="328ad-132">If you are using demo data company USMF, select location 'BULK-001'</span></span>  
+10. <span data-ttu-id="328ad-133">في الحقل "تم جرده"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="328ad-133">In the Counted field, enter a number.</span></span>
+    * <span data-ttu-id="328ad-134">إذا أدخلتَ عددًا محسوبًا يختلف عن العدد الذي يظهر في الحقل "الكمية المتاحة"، سيتم تحديث الحقل "الكمية" لإظهار التباين.</span><span class="sxs-lookup"><span data-stu-id="328ad-134">If you enter a counted number that’s different to the number shown in the On-hand field, the Quantity field is updated to show the discrepancy.</span></span>  
+11. <span data-ttu-id="328ad-135">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="328ad-135">Click Save.</span></span>
 
-## <a name="post-the-inventory-counting-journal"></a>ترحيل دفتر يومية جرد المخزون
-1. انقر فوق "ترحيل".
-    * عند ترحيل دفتر يومية جرد مخزون، إذا كان المبلغ المحسوب يختلف عن المبلغ الذي تم الإعلام عنه في الحقل "الكمية المتاحة"، سيتم ترحيل استلام مخزون أو إصداره وتغيير مستوى المخزون وقيمته وإنشاء حركات دفتر الأستاذ.  
-2. انقر فوق "موافق".
+## <a name="post-the-inventory-counting-journal"></a><span data-ttu-id="328ad-136">ترحيل دفتر يومية جرد المخزون</span><span class="sxs-lookup"><span data-stu-id="328ad-136">Post the inventory counting journal</span></span>
+1. <span data-ttu-id="328ad-137">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="328ad-137">Click Post.</span></span>
+    * <span data-ttu-id="328ad-138">عند ترحيل دفتر يومية جرد مخزون، إذا كان المبلغ المحسوب يختلف عن المبلغ الذي تم الإعلام عنه في الحقل "الكمية المتاحة"، سيتم ترحيل استلام مخزون أو إصداره وتغيير مستوى المخزون وقيمته وإنشاء حركات دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="328ad-138">When you post an inventory counting journal, if the counted amount differs from amount that’s reported in the On-hand field an inventory receipt or issue is posted, the inventory level and value are changed, and ledger transactions are generated.</span></span>  
+2. <span data-ttu-id="328ad-139">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="328ad-139">Click OK.</span></span>
 
-## <a name="view-inventory-transactions"></a>عرض حركات المخزون
-1. انقر فوق المخزون.
-2. انقر فوق "الحركات".
-    * هنا يمكنك أن ترى أي حركات ذات صلة سيتم إنشاؤها عند ترحيل دفتر يومية جرد المخزون الخاص بك.   
-
+## <a name="view-inventory-transactions"></a><span data-ttu-id="328ad-140">عرض حركات المخزون</span><span class="sxs-lookup"><span data-stu-id="328ad-140">View inventory transactions</span></span>
+1. <span data-ttu-id="328ad-141">انقر فوق المخزون.</span><span class="sxs-lookup"><span data-stu-id="328ad-141">Click Inventory.</span></span>
+2. <span data-ttu-id="328ad-142">انقر فوق "الحركات".</span><span class="sxs-lookup"><span data-stu-id="328ad-142">Click Transactions.</span></span>
+    * <span data-ttu-id="328ad-143">هنا يمكنك أن ترى أي حركات ذات صلة سيتم إنشاؤها عند ترحيل دفتر يومية جرد المخزون الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="328ad-143">Here you can see any related transactions that will be created when you post your inventory counting journal.</span></span>   
 

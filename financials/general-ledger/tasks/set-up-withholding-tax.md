@@ -16,38 +16,38 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: fa540720cdf1689393093e52ee37fdd74ff6c8e1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: dc4c0745235052cb4145bc7083fef1a88c8bb5c9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-withholding-tax"></a>إعداد ضريبة الخصم
+# <a name="set-up-withholding-tax"></a><span data-ttu-id="82398-103">إعداد ضريبة الخصم</span><span class="sxs-lookup"><span data-stu-id="82398-103">Set up withholding tax</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ضريبة الخصم هي ضريبة يتم احتسابها على المورّدين، والتي لا تقوم بإنشا حركات ضرائب المبيعات. ضريبة الخصم التي يتم حسابها على مدفوعات المورّد يعد التزامًا مستحقًا. وبالتالي تُعد حسابات الميزانية العمومية وحسابات الالتزامات المستحقة حسابات صالحة لترحيل ضريبة الخصم. يوضح دليل المهام هذا كيفية إعداد ضريبة الخصم.
+<span data-ttu-id="82398-104">ضريبة الخصم هي ضريبة يتم احتسابها على المورّدين، والتي لا تقوم بإنشا حركات ضرائب المبيعات.</span><span class="sxs-lookup"><span data-stu-id="82398-104">Withholding tax is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="82398-105">ضريبة الخصم التي يتم حسابها على مدفوعات المورّد يعد التزامًا مستحقًا.</span><span class="sxs-lookup"><span data-stu-id="82398-105">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="82398-106">وبالتالي تُعد حسابات الميزانية العمومية وحسابات الالتزامات المستحقة حسابات صالحة لترحيل ضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="82398-106">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="82398-107">يوضح دليل المهام هذا كيفية إعداد ضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="82398-107">This task guide demonstrates how to set up withholding tax.</span></span>
 
-1. انتقل إلى الضريبة > الضرائب غير المباشرة > ضريبة الخصم > أكواد ضريبة الخصم.
-2. انقر فوق "جديد".
-3. في الحقل "كود ضريبة الخصم"، اكتب قيمة.
-4. في الحقل "اسم ضريبة الخصم"، أدخل اسمًا لكود ضريبة الخصم.
-5. في حقل "الحساب الرئيسي"، حدد الحساب الرئيسي لترحيل الخضوع لضريبة الخصم.
-6. انقر فوق "حفظ".
-7. انقر فوق "القيم‬".
-8. في القائمة، قم بوضع علامة للصف المحدد.
-9. في حقل "القيمة"، أدخل النسبة المئوية المستخدمة لاحتساب ضريبة الخصم.
-10. انقر فوق "حفظ".
-11. قم بإغلاق الصفحة.
-12. انقر فوق "حفظ".
-13. قم بإغلاق الصفحة.
-14. انتقل إلى الضريبة > الضرائب غير المباشرة > ضريبة الخصم‬ > مجموعات ضرائب الخصم‬.
-15. انقر فوق "جديد".
-16. في الحقل "مجموعة ضرائب الخصم"، أدخل معرف مجموعة ضرائب الخصم.
-17. في الحقل "الوصف"، أدخل اسم مجموعة ضرائب الخصم.
-18. في القائمة، قم بوضع علامة للصف المحدد.
-19. في الحقل "كود ضريبة الخصم"، حدد كود ضريبة الخصم.
-20. في القائمة، انقر فوق الارتباط في الصف المحدد.
-21. انقر فوق "حفظ".
+1. <span data-ttu-id="82398-108">انتقل إلى الضريبة > الضرائب غير المباشرة > ضريبة الخصم > أكواد ضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="82398-108">Go to Tax > Indirect taxes > Withholding tax > Withholding tax codes.</span></span>
+2. <span data-ttu-id="82398-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="82398-109">Click New.</span></span>
+3. <span data-ttu-id="82398-110">في الحقل "كود ضريبة الخصم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="82398-110">In the Withholding tax code field, type a value.</span></span>
+4. <span data-ttu-id="82398-111">في الحقل "اسم ضريبة الخصم"، أدخل اسمًا لكود ضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="82398-111">In the Withholding tax name field, enter the name of the withholding tax code.</span></span>
+5. <span data-ttu-id="82398-112">في حقل "الحساب الرئيسي"، حدد الحساب الرئيسي لترحيل الخضوع لضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="82398-112">In the Main account field, select the main account for posting the withholding tax liability.</span></span>
+6. <span data-ttu-id="82398-113">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="82398-113">Click Save.</span></span>
+7. <span data-ttu-id="82398-114">انقر فوق "القيم‬".</span><span class="sxs-lookup"><span data-stu-id="82398-114">Click Values.</span></span>
+8. <span data-ttu-id="82398-115">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="82398-115">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="82398-116">في حقل "القيمة"، أدخل النسبة المئوية المستخدمة لاحتساب ضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="82398-116">In the Value field, enter a percentage used for the calculation of the withholding tax.</span></span>
+10. <span data-ttu-id="82398-117">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="82398-117">Click Save.</span></span>
+11. <span data-ttu-id="82398-118">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="82398-118">Close the page.</span></span>
+12. <span data-ttu-id="82398-119">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="82398-119">Click Save.</span></span>
+13. <span data-ttu-id="82398-120">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="82398-120">Close the page.</span></span>
+14. <span data-ttu-id="82398-121">انتقل إلى الضريبة > الضرائب غير المباشرة > ضريبة الخصم‬ > مجموعات ضرائب الخصم‬.</span><span class="sxs-lookup"><span data-stu-id="82398-121">Go to Tax > Indirect taxes > Withholding tax > Withholding tax groups.</span></span>
+15. <span data-ttu-id="82398-122">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="82398-122">Click New.</span></span>
+16. <span data-ttu-id="82398-123">في الحقل "مجموعة ضرائب الخصم"، أدخل معرف مجموعة ضرائب الخصم.</span><span class="sxs-lookup"><span data-stu-id="82398-123">In the Withholding tax group field, enter the identifier of the withholding tax group.</span></span>
+17. <span data-ttu-id="82398-124">في الحقل "الوصف"، أدخل اسم مجموعة ضرائب الخصم.</span><span class="sxs-lookup"><span data-stu-id="82398-124">In the Description field, enter the name of the withholding tax group.</span></span>
+18. <span data-ttu-id="82398-125">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="82398-125">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="82398-126">في الحقل "كود ضريبة الخصم"، حدد كود ضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="82398-126">In the Withholding tax code field, select the withholding tax code.</span></span>
+20. <span data-ttu-id="82398-127">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="82398-127">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="82398-128">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="82398-128">Click Save.</span></span>
 
 

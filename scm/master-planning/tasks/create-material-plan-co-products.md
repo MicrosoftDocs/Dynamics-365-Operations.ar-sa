@@ -16,55 +16,55 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4eb36b0de53f40f882950628d55d6ac08ac5fdde
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c8805ca02525ae001fbd5e10ad9405fe60c7473e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-material-plan-for-co-products"></a>إنشاء خطة مادية للمنتجات المساعدة
+# <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="a2872-103">إنشاء خطة مادية للمنتجات المساعدة</span><span class="sxs-lookup"><span data-stu-id="a2872-103">Create a material plan for co-products</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يعمل مخطط الإنتاج على التخطيط للمتطلبات المادية للأصناف التي تعتبر منتجات مساعدة للمعادلة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USP2.
+<span data-ttu-id="a2872-104">يعمل مخطط الإنتاج على التخطيط للمتطلبات المادية للأصناف التي تعتبر منتجات مساعدة للمعادلة.</span><span class="sxs-lookup"><span data-stu-id="a2872-104">The production planner plans the material requirements for items that are formula co-products.</span></span> <span data-ttu-id="a2872-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USP2.</span><span class="sxs-lookup"><span data-stu-id="a2872-105">The demo data company used to create this procedure is USP2.</span></span>
 
 
-## <a name="create-requirement-for-a-co-product"></a>إنشاء متطلبات منتج مساعد
-1. انتقل إلى لوحة المعلومات الافتراضية.
-2. انقر فوق "الاستعلام عن أمر المبيعات ومعالجته‬".
-3. انقر فوق جديد.
-4. انقر فوق "أمر المبيعات".
-5. في الحقل "حساب العميل"، اكتب قيمة.
-    * على سبيل المثال: US-001  
-6. انقر فوق "موافق".
-7. في الحقل "رقم الصنف" اكتب قيمة.
-    * على سبيل المثال: P6003  
-8. في حقل الكمية، أدخل رقمًا.
-    * على سبيل المثال: 50000  
-9. انقر فوق "حفظ".
+## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="a2872-106">إنشاء متطلبات منتج مساعد</span><span class="sxs-lookup"><span data-stu-id="a2872-106">Create requirement for a co-product</span></span>
+1. <span data-ttu-id="a2872-107">انتقل إلى لوحة المعلومات الافتراضية.</span><span class="sxs-lookup"><span data-stu-id="a2872-107">Go to Default dashboard.</span></span>
+2. <span data-ttu-id="a2872-108">انقر فوق "الاستعلام عن أمر المبيعات ومعالجته‬".</span><span class="sxs-lookup"><span data-stu-id="a2872-108">Click Sales order processing and inquiry.</span></span>
+3. <span data-ttu-id="a2872-109">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="a2872-109">Click New.</span></span>
+4. <span data-ttu-id="a2872-110">انقر فوق "أمر المبيعات".</span><span class="sxs-lookup"><span data-stu-id="a2872-110">Click Sales order.</span></span>
+5. <span data-ttu-id="a2872-111">في الحقل "حساب العميل"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a2872-111">In the Customer account field, type a value.</span></span>
+    * <span data-ttu-id="a2872-112">على سبيل المثال: US-001</span><span class="sxs-lookup"><span data-stu-id="a2872-112">Example: US-001</span></span>  
+6. <span data-ttu-id="a2872-113">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="a2872-113">Click OK.</span></span>
+7. <span data-ttu-id="a2872-114">في الحقل "رقم الصنف" اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a2872-114">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="a2872-115">على سبيل المثال: P6003</span><span class="sxs-lookup"><span data-stu-id="a2872-115">Example: P6003</span></span>  
+8. <span data-ttu-id="a2872-116">في حقل الكمية، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="a2872-116">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="a2872-117">على سبيل المثال: 50000</span><span class="sxs-lookup"><span data-stu-id="a2872-117">Example: 50000</span></span>  
+9. <span data-ttu-id="a2872-118">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a2872-118">Click Save.</span></span>
 
-## <a name="create-a-material-plan-for-co-products"></a>إنشاء خطة مادية للمنتجات المساعدة
-1. انقر فوق "التخطيط الرئيسي‬".
-2. في الحقل "الخطة"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-3. في القائمة، انقر فوق الارتباط في الصف المحدد.
-    * على سبيل المثال: MasterPlan  
-4. انقر فوق "تشغيل".
-5. قم بتوسيع المقطع "السجلات المطلوب تضمينها‬‬" أو طيّه.
-6. انقر فوق "عامل التصفية".
-7. في القائمة، حدد الصف للحقل = رقم الصنف.
-8. في الحقل "المعايير"، اكتب قيمة.
-    * على سبيل المثال: P6003  
-9. انقر فوق "موافق".
-10. انقر فوق "موافق".
-11. انقر فوق "الأوامر المخططة".
-12. استخدم عامل التصفية السريع للبحث عن السجلات. على سبيل المثال، قم بإجراء التصفية على الحقل "رقم الصنف" باستخدام القيمة "P6000".
-    * قم بإجراء التصفية حسب بند المعادلة الذي لديه منتج مساعد للصنف الذي أنشأت أمر المبيعات له.  
-13. في القائمة، قم بوضع علامة للصف المحدد.
-    * حدد أي واحد من الصفوف التي أرجعها عامل التصفية.  
-14. في القائمة، انقر فوق الارتباط في الصف المحدد.
-15. قم بتوسيع المقطع "تثبيت السعر" أو طيه.
-16. في القائمة، انقر فوق الارتباط في الصف المحدد.
-    * يتم تثبيت الأمر المخطط لأمر المبيعات الخاص بالمنتج المساعد.  
-17. قم بإغلاق الصفحة.
+## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="a2872-119">إنشاء خطة مادية للمنتجات المساعدة</span><span class="sxs-lookup"><span data-stu-id="a2872-119">Create a material plan for co-products</span></span>
+1. <span data-ttu-id="a2872-120">انقر فوق "التخطيط الرئيسي‬".</span><span class="sxs-lookup"><span data-stu-id="a2872-120">Click Master planning.</span></span>
+2. <span data-ttu-id="a2872-121">في الحقل "الخطة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="a2872-121">In the Plan field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="a2872-122">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a2872-122">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="a2872-123">على سبيل المثال: MasterPlan</span><span class="sxs-lookup"><span data-stu-id="a2872-123">Example: MasterPlan</span></span>  
+4. <span data-ttu-id="a2872-124">انقر فوق "تشغيل".</span><span class="sxs-lookup"><span data-stu-id="a2872-124">Click Run.</span></span>
+5. <span data-ttu-id="a2872-125">قم بتوسيع المقطع "السجلات المطلوب تضمينها‬‬" أو طيّه.</span><span class="sxs-lookup"><span data-stu-id="a2872-125">Expand or collapse the Records to include section.</span></span>
+6. <span data-ttu-id="a2872-126">انقر فوق "عامل التصفية".</span><span class="sxs-lookup"><span data-stu-id="a2872-126">Click Filter.</span></span>
+7. <span data-ttu-id="a2872-127">في القائمة، حدد الصف للحقل = رقم الصنف.</span><span class="sxs-lookup"><span data-stu-id="a2872-127">In the list, select the row for Field = Item number.</span></span>
+8. <span data-ttu-id="a2872-128">في الحقل "المعايير"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a2872-128">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="a2872-129">على سبيل المثال: P6003</span><span class="sxs-lookup"><span data-stu-id="a2872-129">Example: P6003</span></span>  
+9. <span data-ttu-id="a2872-130">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="a2872-130">Click OK.</span></span>
+10. <span data-ttu-id="a2872-131">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="a2872-131">Click OK.</span></span>
+11. <span data-ttu-id="a2872-132">انقر فوق "الأوامر المخططة".</span><span class="sxs-lookup"><span data-stu-id="a2872-132">Click Planned orders.</span></span>
+12. <span data-ttu-id="a2872-133">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="a2872-133">Use the Quick Filter to find records.</span></span> <span data-ttu-id="a2872-134">على سبيل المثال، قم بإجراء التصفية على الحقل "رقم الصنف" باستخدام القيمة "P6000".</span><span class="sxs-lookup"><span data-stu-id="a2872-134">For example, filter on the Item number field with a value of 'P6000'.</span></span>
+    * <span data-ttu-id="a2872-135">قم بإجراء التصفية حسب بند المعادلة الذي لديه منتج مساعد للصنف الذي أنشأت أمر المبيعات له.</span><span class="sxs-lookup"><span data-stu-id="a2872-135">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
+13. <span data-ttu-id="a2872-136">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a2872-136">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="a2872-137">حدد أي واحد من الصفوف التي أرجعها عامل التصفية.</span><span class="sxs-lookup"><span data-stu-id="a2872-137">Select any of the rows returned by the filter.</span></span>  
+14. <span data-ttu-id="a2872-138">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a2872-138">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="a2872-139">قم بتوسيع المقطع "تثبيت السعر" أو طيه.</span><span class="sxs-lookup"><span data-stu-id="a2872-139">Expand or collapse the Pegging section.</span></span>
+16. <span data-ttu-id="a2872-140">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a2872-140">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="a2872-141">يتم تثبيت الأمر المخطط لأمر المبيعات الخاص بالمنتج المساعد.</span><span class="sxs-lookup"><span data-stu-id="a2872-141">The planned order is pegged to the sales order for the co-product.</span></span>  
+17. <span data-ttu-id="a2872-142">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="a2872-142">Close the page.</span></span>
 
 

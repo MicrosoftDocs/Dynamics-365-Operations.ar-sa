@@ -17,81 +17,81 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4c2456fffd9a010728154749b35c58db13f142bb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>إعداد توجيه موقع لتخزين أمر الشراء
+# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="610c8-103">إعداد توجيه موقع لتخزين أمر الشراء</span><span class="sxs-lookup"><span data-stu-id="610c8-103">Set up a location directive for purchase order put-away</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح لك هذا الإجراء كيفية إعداد موجه موقع بسيط. ينشئ المثال المعروض توجيه موقع سيتم استخدامه لتحديد مكان وضع الأصناف التي تم استلامها لأمر شراء. يمكنك تشغيل دليل المهام هذا مع البيانات المذكورة باستخدام شركة بيانات العرض التوضيحي USMF. الشروط المسبقة: تحتاج لإنشاء رمز إرجاع. في هذا الإجراء نستخدم رمز إرجاع يُسمى "إعادة تسمية". إذا كنت تقوم بإنشاء توجيه موقع في البيانات الخاصة بك، فستحتاج إلى إعداد إدارة المستودعات المتقدمة للمستودع والأصناف.  هذا الإجراء مخصص لمدير المستودعات.
+<span data-ttu-id="610c8-104">يوضح لك هذا الإجراء كيفية إعداد موجه موقع بسيط.</span><span class="sxs-lookup"><span data-stu-id="610c8-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="610c8-105">ينشئ المثال المعروض توجيه موقع سيتم استخدامه لتحديد مكان وضع الأصناف التي تم استلامها لأمر شراء.</span><span class="sxs-lookup"><span data-stu-id="610c8-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="610c8-106">يمكنك تشغيل دليل المهام هذا مع البيانات المذكورة باستخدام شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="610c8-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="610c8-107">الشروط المسبقة: تحتاج لإنشاء رمز إرجاع.</span><span class="sxs-lookup"><span data-stu-id="610c8-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="610c8-108">في هذا الإجراء نستخدم رمز إرجاع يُسمى "إعادة تسمية".</span><span class="sxs-lookup"><span data-stu-id="610c8-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="610c8-109">إذا كنت تقوم بإنشاء توجيه موقع في البيانات الخاصة بك، فستحتاج إلى إعداد إدارة المستودعات المتقدمة للمستودع والأصناف.</span><span class="sxs-lookup"><span data-stu-id="610c8-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="610c8-110">هذا الإجراء مخصص لمدير المستودعات.</span><span class="sxs-lookup"><span data-stu-id="610c8-110">This procedure is intended for the warehouse manager.</span></span>
 
-1. انتقل إلى إدارة المستودعات > إعداد > توجيهات الموقع‬.
-2. في الحقل "نوع أمر العمل"، حدد "أوامر الشراء".
+1. <span data-ttu-id="610c8-111">انتقل إلى إدارة المستودعات > إعداد > توجيهات الموقع‬.</span><span class="sxs-lookup"><span data-stu-id="610c8-111">Go to Warehouse management > Setup > Location directives.</span></span>
+2. <span data-ttu-id="610c8-112">في الحقل "نوع أمر العمل"، حدد "أوامر الشراء".</span><span class="sxs-lookup"><span data-stu-id="610c8-112">In the Work order type field, select 'Purchase orders'.</span></span>
 
-## <a name="create-a-location-directive-header"></a>إنشاء رأس توجيه موقع
-1. انقر فوق "جديد".
-2. في الحقل "الرقم التسلسلي"، أدخل رقمًا.
-    * هذا هو التسلسل الذي تتم به معالجة توجيه الموقع لنوع العمل المحدد. يمكنك أيضا تعديل التسلسل، إذا لزم الأمر.  
-3. في حقل "الاسم"، اكتب قيمة.
-    * هذا هو المعرف الفريد لهذا التوجيه.  
-4. في الحقل "نوع العمل"، حدد "تم وضعه".
-    * حدد نوع العمل المطلوب تنفيذه. بالنسبة للتوجيه الذي يكون نوع أمر العمل به هو أمر الشراء، ستكون القيمة "تم وضعه" هي القيمة المدعومة فقط.  
-5. في الحقل "الموقع"، اكتب قيمة.
-6. في الحقل "المستودع"، اكتب قيمة.
-    * اترك رمز التوجيه فارغًا.  تُستخدم رموز التوجيهات لربط بند أمر عمل من النوع "تم وضعه" بتوجيه محدد. بالنسبة لأوامر الشراء، يتم حل موقع آخر بند أمر عمل من النوع "تم وضعه" قبل تحديد قالب العمل. ولذلك لا يمكن ربط البند الأخير من قالب عمل بتوجيه محدد.   
-7. في الحقل "رمز الإرجاع"، اكتب قيمة.
-    * يقيد رمز الإرجاع استخدام توجيه الموقع، بحيث لا يُستخدم توجيه الموقع إلا إذا أدخل عامل المستودع هذه القيمة المحددة أثناء تسجيل الصنف باستخدام جهاز محمول.  
-8. انقر فوق "حفظ".
+## <a name="create-a-location-directive-header"></a><span data-ttu-id="610c8-113">إنشاء رأس توجيه موقع</span><span class="sxs-lookup"><span data-stu-id="610c8-113">Create a location directive header</span></span>
+1. <span data-ttu-id="610c8-114">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="610c8-114">Click New.</span></span>
+2. <span data-ttu-id="610c8-115">في الحقل "الرقم التسلسلي"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="610c8-115">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="610c8-116">هذا هو التسلسل الذي تتم به معالجة توجيه الموقع لنوع العمل المحدد.</span><span class="sxs-lookup"><span data-stu-id="610c8-116">This is the sequence in which the location directive is processed for the selected work type.</span></span> <span data-ttu-id="610c8-117">يمكنك أيضا تعديل التسلسل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="610c8-117">You can also modify the sequence, if needed.</span></span>  
+3. <span data-ttu-id="610c8-118">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="610c8-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="610c8-119">هذا هو المعرف الفريد لهذا التوجيه.</span><span class="sxs-lookup"><span data-stu-id="610c8-119">This is the unique identifier for this directive.</span></span>  
+4. <span data-ttu-id="610c8-120">في الحقل "نوع العمل"، حدد "تم وضعه".</span><span class="sxs-lookup"><span data-stu-id="610c8-120">In the Work type field, select 'Put'.</span></span>
+    * <span data-ttu-id="610c8-121">حدد نوع العمل المطلوب تنفيذه.</span><span class="sxs-lookup"><span data-stu-id="610c8-121">Select the type of work to be performed.</span></span> <span data-ttu-id="610c8-122">بالنسبة للتوجيه الذي يكون نوع أمر العمل به هو أمر الشراء، ستكون القيمة "تم وضعه" هي القيمة المدعومة فقط.</span><span class="sxs-lookup"><span data-stu-id="610c8-122">For directive with work order type Purchase order, Put is the only supported value.</span></span>  
+5. <span data-ttu-id="610c8-123">في الحقل "الموقع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="610c8-123">In the Site field, type a value.</span></span>
+6. <span data-ttu-id="610c8-124">في الحقل "المستودع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="610c8-124">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="610c8-125">اترك رمز التوجيه فارغًا.</span><span class="sxs-lookup"><span data-stu-id="610c8-125">Leave the Directive code blank.</span></span>  <span data-ttu-id="610c8-126">تُستخدم رموز التوجيهات لربط بند أمر عمل من النوع "تم وضعه" بتوجيه محدد.</span><span class="sxs-lookup"><span data-stu-id="610c8-126">Directive codes are used to link a work order line of type Put to a specific directive.</span></span> <span data-ttu-id="610c8-127">بالنسبة لأوامر الشراء، يتم حل موقع آخر بند أمر عمل من النوع "تم وضعه" قبل تحديد قالب العمل.</span><span class="sxs-lookup"><span data-stu-id="610c8-127">For purchase orders, the location of the last work order line of type Put is resolved before the work template is determined.</span></span> <span data-ttu-id="610c8-128">ولذلك لا يمكن ربط البند الأخير من قالب عمل بتوجيه محدد.</span><span class="sxs-lookup"><span data-stu-id="610c8-128">Therefore it is not possible to connect the last line of a work template to a specific directive.</span></span>   
+7. <span data-ttu-id="610c8-129">في الحقل "رمز الإرجاع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="610c8-129">In the Disposition code field, type a value.</span></span>
+    * <span data-ttu-id="610c8-130">يقيد رمز الإرجاع استخدام توجيه الموقع، بحيث لا يُستخدم توجيه الموقع إلا إذا أدخل عامل المستودع هذه القيمة المحددة أثناء تسجيل الصنف باستخدام جهاز محمول.</span><span class="sxs-lookup"><span data-stu-id="610c8-130">The Disposition code limits the use of the location directive, so the location directive is only used if the warehouse worker enters this specific value during registration of the item using a mobile device.</span></span>  
+8. <span data-ttu-id="610c8-131">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="610c8-131">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive"></a>قم بتحرير الاستعلام للتوجيه
-1. انقر فوق "تحرير استعلام".
-    * يقتصر استخدام هذا التوجيه بالفعل على استخدامه للأصناف المسجلة في المستودع الذي قمت بتحديده، ومع رمز الإرجاع الذي قمت بتحديده. ويمكنك إضافة قيود أخرى باستخدام الاستعلام.  
-2. انقر فوق "موافق".
+## <a name="edit-the-query-for-directive"></a><span data-ttu-id="610c8-132">قم بتحرير الاستعلام للتوجيه</span><span class="sxs-lookup"><span data-stu-id="610c8-132">Edit the query for directive</span></span>
+1. <span data-ttu-id="610c8-133">انقر فوق "تحرير استعلام".</span><span class="sxs-lookup"><span data-stu-id="610c8-133">Click Edit query.</span></span>
+    * <span data-ttu-id="610c8-134">يقتصر استخدام هذا التوجيه بالفعل على استخدامه للأصناف المسجلة في المستودع الذي قمت بتحديده، ومع رمز الإرجاع الذي قمت بتحديده.</span><span class="sxs-lookup"><span data-stu-id="610c8-134">The use of this directive is already limited to be used for items registered in the warehouse that you specified, and with the disposition code that you specified.</span></span> <span data-ttu-id="610c8-135">ويمكنك إضافة قيود أخرى باستخدام الاستعلام.</span><span class="sxs-lookup"><span data-stu-id="610c8-135">You can add other constraints using the query.</span></span>  
+2. <span data-ttu-id="610c8-136">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="610c8-136">Click OK.</span></span>
 
-## <a name="add-directive-lines"></a>إضافة بنود توجيه
-1. انقر فوق "جديد".
-    * هذا هو التسلسل الذي تتم به معالجة بنود توجيهات الموقع لنوع العمل المحدد. يمكنك أيضا تعديل التسلسل، إذا لزم الأمر.  
-2. في الحقل "من الكمية"، أدخل رقمًا.
-    * وهذه أقل كمية يصلح لها بند التوجيه هذا.  
-3. في الحقل "إلى الكمية"، أدخل رقمًا.
-4. في الحقل "الوحدة"، اكتب قيمة.
-    * الوحدة التي يتم التعبير بها عن "من الكمية و"إلى الكمية". إذا تركتَ هذا الحقل فارغًا، سيتم استخدام وحدة المخزون "من الصنف".  
-5. في الحقل "تحديد موقع الكمية"، حدد خيارًا.
-    * بلا، أو كمية لوحة الترخيص: الكمية المسجلة على كل لوحة ترخيص. الكمية الموحدة: الكمية بأكملها التي تم تسجيلها. الكمية المتبقية: الكمية التي سيتم تسجيلها من بند أمر الشراء. الكمية المتوقعة: إجمالي الكمية المحددة في بند أمر الشراء.  
-6. حدد خانة اختيار "التقييد حسب الوحدة" أو قم بإلغاء تحديدها.
-    * إذا حددت هذا الخيار، وحددتَ الوحدة في الصفحة "التقييد حسب الوحدة"، فلن يتاح وضع أصناف في الموقع خلاف الأصناف ذات وحدة القياس هذه. على سبيل المثال، إذا كانت وحدة القياس هي البالتات، فلن يُمكن وضع أصناف في الموقع المحدد خلاف الأصناف التي تم قياسها بالبالتات.  
-7. حدد خانة الاختيار "المساح بالتقسيم" أو قم بإلغاء تحديدها.
-    * ويتيح هذا للتوجيه تقسيم الكمية عبر مواقع متعددة.  
-8. انقر فوق "حفظ".
+## <a name="add-directive-lines"></a><span data-ttu-id="610c8-137">إضافة بنود توجيه</span><span class="sxs-lookup"><span data-stu-id="610c8-137">Add directive lines</span></span>
+1. <span data-ttu-id="610c8-138">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="610c8-138">Click New.</span></span>
+    * <span data-ttu-id="610c8-139">هذا هو التسلسل الذي تتم به معالجة بنود توجيهات الموقع لنوع العمل المحدد.</span><span class="sxs-lookup"><span data-stu-id="610c8-139">This is the sequence in which the location directive lines are processed for the selected work type.</span></span> <span data-ttu-id="610c8-140">يمكنك أيضا تعديل التسلسل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="610c8-140">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="610c8-141">في الحقل "من الكمية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="610c8-141">In the From quantity field, enter a number.</span></span>
+    * <span data-ttu-id="610c8-142">وهذه أقل كمية يصلح لها بند التوجيه هذا.</span><span class="sxs-lookup"><span data-stu-id="610c8-142">This is the lowest quantity that this directive line is valid for.</span></span>  
+3. <span data-ttu-id="610c8-143">في الحقل "إلى الكمية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="610c8-143">In the To quantity field, enter a number.</span></span>
+4. <span data-ttu-id="610c8-144">في الحقل "الوحدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="610c8-144">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="610c8-145">الوحدة التي يتم التعبير بها عن "من الكمية و"إلى الكمية".</span><span class="sxs-lookup"><span data-stu-id="610c8-145">The unit the From quantity and To quantity is expressed in.</span></span> <span data-ttu-id="610c8-146">إذا تركتَ هذا الحقل فارغًا، سيتم استخدام وحدة المخزون "من الصنف".</span><span class="sxs-lookup"><span data-stu-id="610c8-146">If you leave this field blank the inventory unit from the item is used.</span></span>  
+5. <span data-ttu-id="610c8-147">في الحقل "تحديد موقع الكمية"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="610c8-147">In the Locate quantity field, select an option.</span></span>
+    * <span data-ttu-id="610c8-148">بلا، أو كمية لوحة الترخيص: الكمية المسجلة على كل لوحة ترخيص.</span><span class="sxs-lookup"><span data-stu-id="610c8-148">None, or licence plate quantity: The quantity registered on each licence plate.</span></span> <span data-ttu-id="610c8-149">الكمية الموحدة: الكمية بأكملها التي تم تسجيلها.</span><span class="sxs-lookup"><span data-stu-id="610c8-149">Unitized quantity: The entire quantity that’s been registered.</span></span> <span data-ttu-id="610c8-150">الكمية المتبقية: الكمية التي سيتم تسجيلها من بند أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="610c8-150">Remaining quantity: The quantity that is yet to be registered from the purchase order line.</span></span> <span data-ttu-id="610c8-151">الكمية المتوقعة: إجمالي الكمية المحددة في بند أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="610c8-151">Expected quantity: The total quantity that is specified on the purchase order line.</span></span>  
+6. <span data-ttu-id="610c8-152">حدد خانة اختيار "التقييد حسب الوحدة" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="610c8-152">Check or uncheck the Restrict by unit checkbox.</span></span>
+    * <span data-ttu-id="610c8-153">إذا حددت هذا الخيار، وحددتَ الوحدة في الصفحة "التقييد حسب الوحدة"، فلن يتاح وضع أصناف في الموقع خلاف الأصناف ذات وحدة القياس هذه.</span><span class="sxs-lookup"><span data-stu-id="610c8-153">If you select this option, and specify the unit on the Restrict by unit page, only items with that unit of measurement can be put into the location.</span></span> <span data-ttu-id="610c8-154">على سبيل المثال، إذا كانت وحدة القياس هي البالتات، فلن يُمكن وضع أصناف في الموقع المحدد خلاف الأصناف التي تم قياسها بالبالتات.</span><span class="sxs-lookup"><span data-stu-id="610c8-154">For example, if the unit of measurement is PL (pallets), only items in pallets can be put into the specified location.</span></span>  
+7. <span data-ttu-id="610c8-155">حدد خانة الاختيار "المساح بالتقسيم" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="610c8-155">Check or uncheck the Allow split checkbox.</span></span>
+    * <span data-ttu-id="610c8-156">ويتيح هذا للتوجيه تقسيم الكمية عبر مواقع متعددة.</span><span class="sxs-lookup"><span data-stu-id="610c8-156">This allows the directive to split the quantity across multiple locations.</span></span>  
+8. <span data-ttu-id="610c8-157">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="610c8-157">Click Save.</span></span>
 
-## <a name="restrict-the-directive-line-to-a-specific-unit"></a>تقييد بند التوجيه على وحدة خاصة
-1. انقر فوق "التقييد حسب الوحدة".
-    * لا يتوفر هذا الزر إلا عندما الضغط على Save (حفظ) بعد تحديد خانة الاختيار "تقييد حسب الوحدة".  
-2. في الحقل "الوحدة"، اكتب قيمة.
-3. قم بإغلاق الصفحة.
+## <a name="restrict-the-directive-line-to-a-specific-unit"></a><span data-ttu-id="610c8-158">تقييد بند التوجيه على وحدة خاصة</span><span class="sxs-lookup"><span data-stu-id="610c8-158">Restrict the directive line to a specific unit</span></span>
+1. <span data-ttu-id="610c8-159">انقر فوق "التقييد حسب الوحدة".</span><span class="sxs-lookup"><span data-stu-id="610c8-159">Click Restrict by unit.</span></span>
+    * <span data-ttu-id="610c8-160">لا يتوفر هذا الزر إلا عندما الضغط على Save (حفظ) بعد تحديد خانة الاختيار "تقييد حسب الوحدة".</span><span class="sxs-lookup"><span data-stu-id="610c8-160">This button is only available when you press Save after you have selected the Restrict by unit check box.</span></span>  
+2. <span data-ttu-id="610c8-161">في الحقل "الوحدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="610c8-161">In the Unit field, type a value.</span></span>
+3. <span data-ttu-id="610c8-162">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="610c8-162">Close the page.</span></span>
 
-## <a name="add-a-location-directive-action-line"></a>إضافة بند إجراء توجيه موقع
-1. انقر فوق "جديد".
-    * هذا هو التسلسل الذي تتم به معالجة بنود إجراءات توجيهات الموقع لنوع العمل المحدد. يمكنك أيضا تعديل التسلسل، إذا لزم الأمر.  
-2. في حقل "الاسم"، اكتب قيمة.
-    * هذ هو المعرف الفريد لإجراء التوجيه هذا.  
-3. في الحقل "استخدام موقع ثابت"، حدد خيارًا.
-    * المواقع الثابتة وغير الثابتة: تصلح جميع المواقع غير الثابتة بالإضافة للمواقع الثابتة الخاصة بالمنتج، ضمن النطاق المحدد في الاستعلام.  موقع المنتج الثابت فقط: تصلح المواقع الثابتة للمنتج، وتشترك جميع متغيرات المنتج في نفس المجموعة من المواقع الثابتة. الموقع الثابت فقط لمتغيرات المنتج: تصلح المواقع الثابتة المحددة لكل متغير منتج فقط.  
-4. في الحقل "الإستراتيجية"، حدد خيارًا.
-    * تدعم أوامر العمل من نوع الدعم أمر الشراء الإستراتيجيات التالية: بلا: يُوضع الصنف في الموقع الأول الذي تم العثور عليه. تجميع: يُوضع الصنف في موقع تتوفر به أصناف مماثلة بالفعل. موقع فارغ بلا عمل وارد: يُوضع الصنف في الموقع الأول الفارغ الذي تم العثور عليها. يعتبر الموقع فارغًا إذا لم يوجد به مخزون فعلي وعند عدم وجود عمل وارد متوقع.  
-5. انقر فوق "حفظ".
+## <a name="add-a-location-directive-action-line"></a><span data-ttu-id="610c8-163">إضافة بند إجراء توجيه موقع</span><span class="sxs-lookup"><span data-stu-id="610c8-163">Add a location directive action line</span></span>
+1. <span data-ttu-id="610c8-164">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="610c8-164">Click New.</span></span>
+    * <span data-ttu-id="610c8-165">هذا هو التسلسل الذي تتم به معالجة بنود إجراءات توجيهات الموقع لنوع العمل المحدد.</span><span class="sxs-lookup"><span data-stu-id="610c8-165">This is the sequence in which the location directive action lines are processed for the selected work type.</span></span> <span data-ttu-id="610c8-166">يمكنك أيضا تعديل التسلسل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="610c8-166">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="610c8-167">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="610c8-167">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="610c8-168">هذ هو المعرف الفريد لإجراء التوجيه هذا.</span><span class="sxs-lookup"><span data-stu-id="610c8-168">This is the unique identifier for this directive action.</span></span>  
+3. <span data-ttu-id="610c8-169">في الحقل "استخدام موقع ثابت"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="610c8-169">In the Fixed location usage field, select an option.</span></span>
+    * <span data-ttu-id="610c8-170">المواقع الثابتة وغير الثابتة: تصلح جميع المواقع غير الثابتة بالإضافة للمواقع الثابتة الخاصة بالمنتج، ضمن النطاق المحدد في الاستعلام.</span><span class="sxs-lookup"><span data-stu-id="610c8-170">Fixed and non-fixed locations: All non-fixed locations are valid as well as the product’s own fixed location, within the range specified in the query.</span></span>  <span data-ttu-id="610c8-171">موقع المنتج الثابت فقط: تصلح المواقع الثابتة للمنتج، وتشترك جميع متغيرات المنتج في نفس المجموعة من المواقع الثابتة.</span><span class="sxs-lookup"><span data-stu-id="610c8-171">Only fixed location for the product: Fixed locations for the product are valid, and all product variants share the same set of fixed locations.</span></span> <span data-ttu-id="610c8-172">الموقع الثابت فقط لمتغيرات المنتج: تصلح المواقع الثابتة المحددة لكل متغير منتج فقط.</span><span class="sxs-lookup"><span data-stu-id="610c8-172">Only fixed location for the product variants: Only fixed locations specified for each product variant are valid.</span></span>  
+4. <span data-ttu-id="610c8-173">في الحقل "الإستراتيجية"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="610c8-173">In the Strategy field, select an option.</span></span>
+    * <span data-ttu-id="610c8-174">تدعم أوامر العمل من نوع الدعم أمر الشراء الإستراتيجيات التالية: بلا: يُوضع الصنف في الموقع الأول الذي تم العثور عليه.</span><span class="sxs-lookup"><span data-stu-id="610c8-174">Work orders of type Purchase order support the following strategies: None: the item is placed at the first location that’s found.</span></span> <span data-ttu-id="610c8-175">تجميع: يُوضع الصنف في موقع تتوفر به أصناف مماثلة بالفعل.</span><span class="sxs-lookup"><span data-stu-id="610c8-175">Consolidate: The item is placed in a location where similar items are already available.</span></span> <span data-ttu-id="610c8-176">موقع فارغ بلا عمل وارد: يُوضع الصنف في الموقع الأول الفارغ الذي تم العثور عليها.</span><span class="sxs-lookup"><span data-stu-id="610c8-176">Empty location with no incoming work: the item is placed in the first empty location that’s found.</span></span> <span data-ttu-id="610c8-177">يعتبر الموقع فارغًا إذا لم يوجد به مخزون فعلي وعند عدم وجود عمل وارد متوقع.</span><span class="sxs-lookup"><span data-stu-id="610c8-177">A location is considered to be empty if it has no physical inventory and no expected incoming work.</span></span>  
+5. <span data-ttu-id="610c8-178">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="610c8-178">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive-action-line"></a>تحرير الاستعلام لبند إجراء التوجيه
-1. انقر فوق "تحرير استعلام".
-2. وانقر فوق إضافة.
-3. في الحقل "الحقل"، اكتب "معرف ملف تعريف الموقع".
-    * في هذا المثال، سوف نقيد المواقع المحتملة باستخدام معرف ملف تعريف موقع.  
-4. في الحقل "المعايير"، اكتب قيمة.
-5. انقر فوق "موافق".
-    * يمكنك الاستمرار في إضافة بنود التوجيهات وإجراءات التوجيهات حتى تتم تغطية جميع السيناريوهات المحتملة في المستودع.  
+## <a name="edit-the-query-for-directive-action-line"></a><span data-ttu-id="610c8-179">تحرير الاستعلام لبند إجراء التوجيه</span><span class="sxs-lookup"><span data-stu-id="610c8-179">Edit the query for directive action line</span></span>
+1. <span data-ttu-id="610c8-180">انقر فوق "تحرير استعلام".</span><span class="sxs-lookup"><span data-stu-id="610c8-180">Click Edit query.</span></span>
+2. <span data-ttu-id="610c8-181">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="610c8-181">Click Add.</span></span>
+3. <span data-ttu-id="610c8-182">في الحقل "الحقل"، اكتب "معرف ملف تعريف الموقع".</span><span class="sxs-lookup"><span data-stu-id="610c8-182">In the Field field, type 'location profile ID'.</span></span>
+    * <span data-ttu-id="610c8-183">في هذا المثال، سوف نقيد المواقع المحتملة باستخدام معرف ملف تعريف موقع.</span><span class="sxs-lookup"><span data-stu-id="610c8-183">In this example, we’ll restrict the possible locations using a location profile ID.</span></span>  
+4. <span data-ttu-id="610c8-184">في الحقل "المعايير"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="610c8-184">In the Criteria field, type a value.</span></span>
+5. <span data-ttu-id="610c8-185">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="610c8-185">Click OK.</span></span>
+    * <span data-ttu-id="610c8-186">يمكنك الاستمرار في إضافة بنود التوجيهات وإجراءات التوجيهات حتى تتم تغطية جميع السيناريوهات المحتملة في المستودع.</span><span class="sxs-lookup"><span data-stu-id="610c8-186">You can continue to add directive lines and directive actions until you have covered all the possible scenarios in your warehouse.</span></span>  
 
 

@@ -15,53 +15,53 @@ ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 672697254c1bf06e193a51c5c7c83c467a220ce8
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 0fb86cd4264d5420c479e14f7eed41e480c88b63
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>الاستيراد المتقدم للتسوية البنكية MT940 - ترقية كيان بيانات مركب
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="53d71-103">الاستيراد المتقدم للتسوية البنكية MT940 - ترقية كيان بيانات مركب</span><span class="sxs-lookup"><span data-stu-id="53d71-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-يجب إضافة رقم تسلسلي إلى كيان استيراد كشف الحساب البنكي لدعم تنسيق MT940. 
+<span data-ttu-id="53d71-104">يجب إضافة رقم تسلسلي إلى كيان استيراد كشف الحساب البنكي لدعم تنسيق MT940.</span><span class="sxs-lookup"><span data-stu-id="53d71-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
 
-استخدم الخطوات التالية لإضافة كيان استيراد كشف الحساب البنكي لدعم التنسيق MT940.
+<span data-ttu-id="53d71-105">استخدم الخطوات التالية لإضافة كيان استيراد كشف الحساب البنكي لدعم التنسيق MT940.</span><span class="sxs-lookup"><span data-stu-id="53d71-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
 
-1.  تجميع ومزامنة ما يلي:
-    -   الكيان المركب\\BankStatementImportEntity
-    -   الكيان\\BankStatementBalanceEntity
-    -   الكيان\\BankStatementDocumentEntity
-    -   الكيان\\BankStatementEntity
-    -   الكيان\\BankStatementLineEntity
-    -   الجداول\\BankStatementStaging
+1.  <span data-ttu-id="53d71-106">تجميع ومزامنة ما يلي:</span><span class="sxs-lookup"><span data-stu-id="53d71-106">Compile and synchronize the following:</span></span>
+    -   <span data-ttu-id="53d71-107">الكيان المركب\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="53d71-107">Composite Entity\\BankStatementImportEntity</span></span>
+    -   <span data-ttu-id="53d71-108">الكيان\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="53d71-108">Entity\\BankStatementBalanceEntity</span></span>
+    -   <span data-ttu-id="53d71-109">الكيان\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="53d71-109">Entity\\BankStatementDocumentEntity</span></span>
+    -   <span data-ttu-id="53d71-110">الكيان\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="53d71-110">Entity\\BankStatementEntity</span></span>
+    -   <span data-ttu-id="53d71-111">الكيان\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="53d71-111">Entity\\BankStatementLineEntity</span></span>
+    -   <span data-ttu-id="53d71-112">الجداول\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="53d71-112">Tables\\BankStatementStaging</span></span>
 
-2.  إدارة البيانات\\مشاريع البيانات.
-    1.  تحميل مشروع (مشاريع) استيراد MT940
-        1.  تغيير XSLT.
-            -   انقر فوق **عرض الخريط**.
-            -   انقر فوق **عرض الخريطة** على مستند كشف الحساب البنكي.
-            -   انقر فوق **التحويلات**
-            -   احذف الملف BankReconiliation-to-Composite.xslt.
-            -   أضف إصدار BankReconiliation-to-Composite.xsl الجديد.
+2.  <span data-ttu-id="53d71-113">إدارة البيانات\\مشاريع البيانات.</span><span class="sxs-lookup"><span data-stu-id="53d71-113">Data management\\data projects.</span></span>
+    1.  <span data-ttu-id="53d71-114">تحميل مشروع (مشاريع) استيراد MT940</span><span class="sxs-lookup"><span data-stu-id="53d71-114">Load MT940 import project(s)</span></span>
+        1.  <span data-ttu-id="53d71-115">تغيير XSLT.</span><span class="sxs-lookup"><span data-stu-id="53d71-115">Change XSLT.</span></span>
+            -   <span data-ttu-id="53d71-116">انقر فوق **عرض الخريط**.</span><span class="sxs-lookup"><span data-stu-id="53d71-116">Click **View map**.</span></span>
+            -   <span data-ttu-id="53d71-117">انقر فوق **عرض الخريطة** على مستند كشف الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="53d71-117">Click **View map** on the bank statement document.</span></span>
+            -   <span data-ttu-id="53d71-118">انقر فوق **التحويلات**</span><span class="sxs-lookup"><span data-stu-id="53d71-118">Click **Transformations**</span></span>
+            -   <span data-ttu-id="53d71-119">احذف الملف BankReconiliation-to-Composite.xslt.</span><span class="sxs-lookup"><span data-stu-id="53d71-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
+            -   <span data-ttu-id="53d71-120">أضف إصدار BankReconiliation-to-Composite.xsl الجديد.</span><span class="sxs-lookup"><span data-stu-id="53d71-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
 
-        2.  عرض **الرقم التسلسلي‬** على تخطيط **بيانات المصدر‬**.
-            1.  تنسيق بيانات المصدر = عنصر XML.
-            2.  اسم الكيان = كشوف الحسابات البنكية.
-            3.  تحميل ملف البيانات = إصدار SampleBankCompositeEntity.xml الجديد.
-            4.  انقر فوق **نعم** للكتابة فوق الملف الموجود.
-            5.  انقر فوق **نعم** لإنشاء تعيين جديد.
-            6.  تأكد من تعيين**SequenceNumber**.
-                -   انقر فوق **عرض الخريطة** على كيان كشف الحساب.
-                -   تأكد من تعيين **SequenceNumber** من المصدر إلى التشغيل المرحلي‬.
+        2.  <span data-ttu-id="53d71-121">عرض **الرقم التسلسلي‬** على تخطيط **بيانات المصدر‬**.</span><span class="sxs-lookup"><span data-stu-id="53d71-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
+            1.  <span data-ttu-id="53d71-122">تنسيق بيانات المصدر = عنصر XML.</span><span class="sxs-lookup"><span data-stu-id="53d71-122">Source data format = XML-Element.</span></span>
+            2.  <span data-ttu-id="53d71-123">اسم الكيان = كشوف الحسابات البنكية.</span><span class="sxs-lookup"><span data-stu-id="53d71-123">Entity name = Bank statements.</span></span>
+            3.  <span data-ttu-id="53d71-124">تحميل ملف البيانات = إصدار SampleBankCompositeEntity.xml الجديد.</span><span class="sxs-lookup"><span data-stu-id="53d71-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
+            4.  <span data-ttu-id="53d71-125">انقر فوق **نعم** للكتابة فوق الملف الموجود.</span><span class="sxs-lookup"><span data-stu-id="53d71-125">Click **Yes** to overwrite the existing file.</span></span>
+            5.  <span data-ttu-id="53d71-126">انقر فوق **نعم** لإنشاء تعيين جديد.</span><span class="sxs-lookup"><span data-stu-id="53d71-126">Click **Yes** to generate a new mapping.</span></span>
+            6.  <span data-ttu-id="53d71-127">تأكد من تعيين**SequenceNumber**.</span><span class="sxs-lookup"><span data-stu-id="53d71-127">Verify that S**equenceNumber** is mapped.</span></span>
+                -   <span data-ttu-id="53d71-128">انقر فوق **عرض الخريطة** على كيان كشف الحساب.</span><span class="sxs-lookup"><span data-stu-id="53d71-128">Click **View Map** on the statement entity.</span></span>
+                -   <span data-ttu-id="53d71-129">تأكد من تعيين **SequenceNumber** من المصدر إلى التشغيل المرحلي‬.</span><span class="sxs-lookup"><span data-stu-id="53d71-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
 
-3.  استيراد كشف الحساب الجديد.
+3.  <span data-ttu-id="53d71-130">استيراد كشف الحساب الجديد.</span><span class="sxs-lookup"><span data-stu-id="53d71-130">Import the new statement.</span></span>
 
 
 

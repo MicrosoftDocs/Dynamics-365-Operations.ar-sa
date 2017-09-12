@@ -16,51 +16,51 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6567bc969d003abc9fcf21886cc202cc85db6a14
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 055fe129b9fc9cf50e1d9e1a5b4cb77285f20c92
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-journal-entry-using-a-template"></a>إنشاء إدخال دفتر يومية باستخدام قالب
+# <a name="create-a-journal-entry-using-a-template"></a><span data-ttu-id="3cd70-103">إنشاء إدخال دفتر يومية باستخدام قالب</span><span class="sxs-lookup"><span data-stu-id="3cd70-103">Create a journal entry using a template</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يمكن حفظ إيصالات دفاتر اليومية المرحلة كقوالب إيصالات وتطبيقها في إيصال دفتر يومية جديد. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
+<span data-ttu-id="3cd70-104">يمكن حفظ إيصالات دفاتر اليومية المرحلة كقوالب إيصالات وتطبيقها في إيصال دفتر يومية جديد.</span><span class="sxs-lookup"><span data-stu-id="3cd70-104">Posted journal vouchers can be saved as Voucher templates and applied in a new journal voucher.</span></span> <span data-ttu-id="3cd70-105">يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="3cd70-105">This procedure uses the USMF demo company.</span></span>
 
-1. دفتر الأستاذ العام > إدخالات دفتر اليومية > دفاتر اليومية العامة. انقر فوق "جديد".
-    * يبدأ هذا الإجراء بإنشاء إيصال دفتر يومية وترحيله، ولكن يمكن حفظ أي إيصال دفتر يومية تم ترحيله سابقًا كقالب.  
-2. في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-3. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-4. في القائمة، انقر فوق الارتباط في الصف المحدد.
-5. انقر فوق البنود.
-6. أدخل حسابًا لنوع الحساب.
-7. في وصف الحقل، اكتب قيمة.
-8. أدخل مبلغًا في الحقل "مدين".
-9. انقر فوق جديد.
-10. أدخل حسابًا مختلفًا لنوع الحساب.
-11. في وصف الحقل، اكتب قيمة.
-12. أدخل مبلغًا في الحقل "مدين".
-13. انقر فوق جديد.
-14. في حقل "الحساب"، حدد القيم المطلوبة.
-15. في حقل "الوصف"، اكتب قيمة.
-16. إدخال مبلغًا في الحقل "دائن" لترصيد الإيصال.
-17. انقر فوق "ترحيل".
-18. انقر فوق "الوظائف".
-19. حدد "حفظ قالب الإيصال‬".
-20. يفترض هذا الإجراء نوع قالب النسبة المئوية. انقر فوق "موافق".
-    * • النسبة: يتم تحويل المبالغ في الإيصال إلى عوامل نسبة مئوية، مما يسمح بتطبيق أي مبلغ عند تحديد قالب الإيصال.  • المبلغ: سيتم تخزين المبالغ الفعلية وتطبيقها.  
-21. انقر فوق "دفاتر اليومية العامة".
-22. انقر فوق "جديد".
-23. في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-24. في القائمة، انقر فوق الارتباط في الصف المحدد.
-25. انقر فوق البنود.
-26. انقر فوق "الوظائف".
-27. انقر فوق "تحديد قالب الإيصال".
-28. ابحث عن القالب الذي قمت بإنشائه سابقًا. انقر فوق "موافق".
-    * قد تحتاج إلى النقر فوق "الخطوة السابقة" ثم تحديد القالب الصحيح في حالة وجود قوالب أخرى.  
-29. في الحقل "المبلغ"، أدخل المبلغ ليتم تطبيقه على الإيصال.
-    * يظهر حقل المبلغ فقط إذا كان قالب الإيصال من النوع "نسبة".  
-30. انقر فوق "موافق".
+1. <span data-ttu-id="3cd70-106">دفتر الأستاذ العام > إدخالات دفتر اليومية > دفاتر اليومية العامة.</span><span class="sxs-lookup"><span data-stu-id="3cd70-106">General ledger > Journal entries > General journals.</span></span> <span data-ttu-id="3cd70-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3cd70-107">Click New.</span></span>
+    * <span data-ttu-id="3cd70-108">يبدأ هذا الإجراء بإنشاء إيصال دفتر يومية وترحيله، ولكن يمكن حفظ أي إيصال دفتر يومية تم ترحيله سابقًا كقالب.</span><span class="sxs-lookup"><span data-stu-id="3cd70-108">This procedure starts by creating and posting a journal voucher, but any previously posted journal voucher can be saved as a template.</span></span>  
+2. <span data-ttu-id="3cd70-109">في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="3cd70-109">In the Name field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="3cd70-110">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="3cd70-110">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="3cd70-111">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3cd70-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="3cd70-112">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="3cd70-112">Click Lines.</span></span>
+6. <span data-ttu-id="3cd70-113">أدخل حسابًا لنوع الحساب.</span><span class="sxs-lookup"><span data-stu-id="3cd70-113">Enter an account for the Account type.</span></span>
+7. <span data-ttu-id="3cd70-114">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3cd70-114">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="3cd70-115">أدخل مبلغًا في الحقل "مدين".</span><span class="sxs-lookup"><span data-stu-id="3cd70-115">Enter an amount in the Debit field.</span></span>
+9. <span data-ttu-id="3cd70-116">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="3cd70-116">Click New.</span></span>
+10. <span data-ttu-id="3cd70-117">أدخل حسابًا مختلفًا لنوع الحساب.</span><span class="sxs-lookup"><span data-stu-id="3cd70-117">Enter a different account for the Account type.</span></span>
+11. <span data-ttu-id="3cd70-118">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3cd70-118">In the Description field, type a value.</span></span>
+12. <span data-ttu-id="3cd70-119">أدخل مبلغًا في الحقل "مدين".</span><span class="sxs-lookup"><span data-stu-id="3cd70-119">Enter an amount in the Debit field.</span></span>
+13. <span data-ttu-id="3cd70-120">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="3cd70-120">Click New.</span></span>
+14. <span data-ttu-id="3cd70-121">في حقل "الحساب"، حدد القيم المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="3cd70-121">In the Account field, specify the desired values.</span></span>
+15. <span data-ttu-id="3cd70-122">في حقل "الوصف"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3cd70-122">In the Description field, type a value.</span></span>
+16. <span data-ttu-id="3cd70-123">إدخال مبلغًا في الحقل "دائن" لترصيد الإيصال.</span><span class="sxs-lookup"><span data-stu-id="3cd70-123">Enter an amount in the Credit field to balance the voucher.</span></span>
+17. <span data-ttu-id="3cd70-124">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="3cd70-124">Click Post.</span></span>
+18. <span data-ttu-id="3cd70-125">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="3cd70-125">Click Functions.</span></span>
+19. <span data-ttu-id="3cd70-126">حدد "حفظ قالب الإيصال‬".</span><span class="sxs-lookup"><span data-stu-id="3cd70-126">Click Save voucher template.</span></span>
+20. <span data-ttu-id="3cd70-127">يفترض هذا الإجراء نوع قالب النسبة المئوية.</span><span class="sxs-lookup"><span data-stu-id="3cd70-127">This procedure assumes a Percent Template type.</span></span> <span data-ttu-id="3cd70-128">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="3cd70-128">Click OK.</span></span>
+    * <span data-ttu-id="3cd70-129">• النسبة: يتم تحويل المبالغ في الإيصال إلى عوامل نسبة مئوية، مما يسمح بتطبيق أي مبلغ عند تحديد قالب الإيصال.</span><span class="sxs-lookup"><span data-stu-id="3cd70-129">• Percent: The amounts in the voucher are converted into percentage factors, which allows any amount to be applied when the Voucher template is selected.</span></span>  <span data-ttu-id="3cd70-130">• المبلغ: سيتم تخزين المبالغ الفعلية وتطبيقها.</span><span class="sxs-lookup"><span data-stu-id="3cd70-130">• Amount: The actual amounts will be stored and applied.</span></span>  
+21. <span data-ttu-id="3cd70-131">انقر فوق "دفاتر اليومية العامة".</span><span class="sxs-lookup"><span data-stu-id="3cd70-131">Click General journals.</span></span>
+22. <span data-ttu-id="3cd70-132">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3cd70-132">Click New.</span></span>
+23. <span data-ttu-id="3cd70-133">في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="3cd70-133">In the Name field, click the drop-down button to open the lookup.</span></span>
+24. <span data-ttu-id="3cd70-134">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3cd70-134">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="3cd70-135">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="3cd70-135">Click Lines.</span></span>
+26. <span data-ttu-id="3cd70-136">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="3cd70-136">Click Functions.</span></span>
+27. <span data-ttu-id="3cd70-137">انقر فوق "تحديد قالب الإيصال".</span><span class="sxs-lookup"><span data-stu-id="3cd70-137">Click Select voucher template.</span></span>
+28. <span data-ttu-id="3cd70-138">ابحث عن القالب الذي قمت بإنشائه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="3cd70-138">Find the template that you created earlier.</span></span> <span data-ttu-id="3cd70-139">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="3cd70-139">Click OK.</span></span>
+    * <span data-ttu-id="3cd70-140">قد تحتاج إلى النقر فوق "الخطوة السابقة" ثم تحديد القالب الصحيح في حالة وجود قوالب أخرى.</span><span class="sxs-lookup"><span data-stu-id="3cd70-140">You may need to click Previous step and then select the correct template if other templates exist.</span></span>  
+29. <span data-ttu-id="3cd70-141">في الحقل "المبلغ"، أدخل المبلغ ليتم تطبيقه على الإيصال.</span><span class="sxs-lookup"><span data-stu-id="3cd70-141">In the Amount field, enter the amount to be applied to the voucher.</span></span>
+    * <span data-ttu-id="3cd70-142">يظهر حقل المبلغ فقط إذا كان قالب الإيصال من النوع "نسبة".</span><span class="sxs-lookup"><span data-stu-id="3cd70-142">The amount field is only displayed if the voucher template is of type Percent.</span></span>  
+30. <span data-ttu-id="3cd70-143">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="3cd70-143">Click OK.</span></span>
 
 

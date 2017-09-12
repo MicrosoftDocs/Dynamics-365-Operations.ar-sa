@@ -16,32 +16,32 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e19022ee497148a90bbbf96d10c1c024cb02cdbf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 928fe98c089ec907a5b59864f902910f51ce1fd1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-validate-journals"></a>إنشاء دفاتر اليومية والتحقق من صحتها
+# <a name="create-and-validate-journals"></a><span data-ttu-id="56f57-103">إنشاء دفاتر اليومية والتحقق من صحتها</span><span class="sxs-lookup"><span data-stu-id="56f57-103">Create and validate journals</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ينشئ دليل المهام هذا دفاتر اليومية وبنود دفاتر اليومية ويتحقق من صحتها. وتستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.  
+<span data-ttu-id="56f57-104">ينشئ دليل المهام هذا دفاتر اليومية وبنود دفاتر اليومية ويتحقق من صحتها.</span><span class="sxs-lookup"><span data-stu-id="56f57-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="56f57-105">وتستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="56f57-105">This tasks uses the USMF demo company.</span></span>  
 
 
 
-1. انتقل إلى دفتر الأستاذ العام > إدخالات دفتر اليومية > دفاتر اليومية العامة‬.
-2. انقر فوق "جديد".
-3. في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-4. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-5. انقر فوق البنود.
-6. في الحقل "الحساب" أدخل حسابًا مناسبًا يعتمد على نوع الحساب.
-7. في حقل "الوصف"، اكتب قيمة.
-8. أدخل مبلغًا للحساب يكون إما مدينًا أو دائنًا. يفترض دليل المهام هذا مبلغًا مدينًا.
-9. في الحقل "الحساب المقابل"، أدخل حسابًا مناسبًا يعتمد على نوع الحساب المقابل.
-10. انقر فوق "التحقق من الصحة‬".
-11. انقر فوق "التحقق من الصحة‬".
-12. انقر فوق "ترحيل".
-13. انقر فوق "الإيصال".
+1. <span data-ttu-id="56f57-106">انتقل إلى دفتر الأستاذ العام > إدخالات دفتر اليومية > دفاتر اليومية العامة‬.</span><span class="sxs-lookup"><span data-stu-id="56f57-106">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="56f57-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="56f57-107">Click New.</span></span>
+3. <span data-ttu-id="56f57-108">في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="56f57-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="56f57-109">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="56f57-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="56f57-110">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="56f57-110">Click Lines.</span></span>
+6. <span data-ttu-id="56f57-111">في الحقل "الحساب" أدخل حسابًا مناسبًا يعتمد على نوع الحساب.</span><span class="sxs-lookup"><span data-stu-id="56f57-111">In the Account field enter an appropriate account based on the Account type.</span></span>
+7. <span data-ttu-id="56f57-112">في حقل "الوصف"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="56f57-112">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="56f57-113">أدخل مبلغًا للحساب يكون إما مدينًا أو دائنًا.</span><span class="sxs-lookup"><span data-stu-id="56f57-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="56f57-114">يفترض دليل المهام هذا مبلغًا مدينًا.</span><span class="sxs-lookup"><span data-stu-id="56f57-114">This task guide is assuming a debit amount.</span></span>
+9. <span data-ttu-id="56f57-115">في الحقل "الحساب المقابل"، أدخل حسابًا مناسبًا يعتمد على نوع الحساب المقابل.</span><span class="sxs-lookup"><span data-stu-id="56f57-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
+10. <span data-ttu-id="56f57-116">انقر فوق "التحقق من الصحة‬".</span><span class="sxs-lookup"><span data-stu-id="56f57-116">Click Validate.</span></span>
+11. <span data-ttu-id="56f57-117">انقر فوق "التحقق من الصحة‬".</span><span class="sxs-lookup"><span data-stu-id="56f57-117">Click Validate.</span></span>
+12. <span data-ttu-id="56f57-118">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="56f57-118">Click Post.</span></span>
+13. <span data-ttu-id="56f57-119">انقر فوق "الإيصال".</span><span class="sxs-lookup"><span data-stu-id="56f57-119">Click Voucher.</span></span>
 
 

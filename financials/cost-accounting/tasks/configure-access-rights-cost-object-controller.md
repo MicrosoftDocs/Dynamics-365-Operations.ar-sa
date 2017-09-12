@@ -16,57 +16,57 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9c5f79b7d9d62b29f21f2ddd1f6507ff82b381cc
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b0647e1ec55d23607d07f38105e42af498ad1174
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-access-rights-for-a-cost-object-controller"></a>تكوين حقوق الوصول لمراقب كائن التكلفة
+# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="952c8-103">تكوين حقوق الوصول لمراقب كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="952c8-103">Configure access rights for a cost object controller</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-استخدم هذا الإجراء لتكوين حقوق الوصول لمراقب كائن التكلفة. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.
+<span data-ttu-id="952c8-104">استخدم هذا الإجراء لتكوين حقوق الوصول لمراقب كائن التكلفة.</span><span class="sxs-lookup"><span data-stu-id="952c8-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="952c8-105">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.</span><span class="sxs-lookup"><span data-stu-id="952c8-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="assign-the-cost-object-controller-role"></a>تعيين دور مراقب كائن التكلفة
-1. انتقل إلى إدارة النظام > المستخدمين > المستخدمين.
-2. استخدم عامل التصفية السريع للبحث عن السجلات. على سبيل المثال، قم بإجراء التصفية بالحقل "اسم المستخدم" باستخدام القيمة "أليسيا".
-3. في القائمة، انقر فوق الارتباط في الصف المحدد.
-4. انقر فوق "تعيين الأدوار".
-5. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-6. انقر فوق "موافق".
+## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="952c8-106">تعيين دور مراقب كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="952c8-106">Assign the cost object controller role</span></span>
+1. <span data-ttu-id="952c8-107">انتقل إلى إدارة النظام > المستخدمين > المستخدمين.</span><span class="sxs-lookup"><span data-stu-id="952c8-107">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="952c8-108">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="952c8-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="952c8-109">على سبيل المثال، قم بإجراء التصفية بالحقل "اسم المستخدم" باستخدام القيمة "أليسيا".</span><span class="sxs-lookup"><span data-stu-id="952c8-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
+3. <span data-ttu-id="952c8-110">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="952c8-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="952c8-111">انقر فوق "تعيين الأدوار".</span><span class="sxs-lookup"><span data-stu-id="952c8-111">Click Assign roles.</span></span>
+5. <span data-ttu-id="952c8-112">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="952c8-112">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="952c8-113">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="952c8-113">Click OK.</span></span>
 
-## <a name="enable-access-list-security"></a>تمكين أمان قائمة الوصول
-1. انتقل إلى محاسبة التكاليف > الأبعاد > التدرجات الهرمية للأبعاد‬.
-2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * حدد "المؤسسة".  
-3. انقر فوق "تحرير".
-4. حدد "نعم" في حقل "التدرج الهرمي لقائمة الوصول".
-5. انقر فوق "عرض التدرج الهرمي".
+## <a name="enable-access-list-security"></a><span data-ttu-id="952c8-114">تمكين أمان قائمة الوصول</span><span class="sxs-lookup"><span data-stu-id="952c8-114">Enable access list security</span></span>
+1. <span data-ttu-id="952c8-115">انتقل إلى محاسبة التكاليف > الأبعاد > التدرجات الهرمية للأبعاد‬.</span><span class="sxs-lookup"><span data-stu-id="952c8-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="952c8-116">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="952c8-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="952c8-117">حدد "المؤسسة".</span><span class="sxs-lookup"><span data-stu-id="952c8-117">Select Organization.</span></span>  
+3. <span data-ttu-id="952c8-118">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="952c8-118">Click Edit.</span></span>
+4. <span data-ttu-id="952c8-119">حدد "نعم" في حقل "التدرج الهرمي لقائمة الوصول".</span><span class="sxs-lookup"><span data-stu-id="952c8-119">Select Yes in the Access list hierarchy field.</span></span>
+5. <span data-ttu-id="952c8-120">انقر فوق "عرض التدرج الهرمي".</span><span class="sxs-lookup"><span data-stu-id="952c8-120">Click View hierarchy.</span></span>
 
-## <a name="assign-access-rights-to-user"></a>تعيين حقوق الوصول للمستخدم
-1. انقر فوق "جديد".
-2. في القائمة، قم بوضع علامة للصف المحدد.
-3. في حقل "معرّف المستخدم"، أدخل قيمة أو حددها.
-    * حدد "المسؤول".  
-4. في الشجرة، حدد "المؤسسة\CEO\CFO\FIM".
-5. انقر فوق "جديد".
-6. في القائمة، قم بوضع علامة للصف المحدد.
-7. في حقل "معرّف المستخدم"، أدخل قيمة أو حددها.
-    * حدد "أليسيا".  
-8. انقر فوق "حفظ".
+## <a name="assign-access-rights-to-user"></a><span data-ttu-id="952c8-121">تعيين حقوق الوصول للمستخدم</span><span class="sxs-lookup"><span data-stu-id="952c8-121">Assign access rights to user</span></span>
+1. <span data-ttu-id="952c8-122">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="952c8-122">Click New.</span></span>
+2. <span data-ttu-id="952c8-123">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="952c8-123">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="952c8-124">في حقل "معرّف المستخدم"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="952c8-124">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="952c8-125">حدد "المسؤول".</span><span class="sxs-lookup"><span data-stu-id="952c8-125">Select Admin.</span></span>  
+4. <span data-ttu-id="952c8-126">في الشجرة، حدد "المؤسسة\CEO\CFO\FIM".</span><span class="sxs-lookup"><span data-stu-id="952c8-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
+5. <span data-ttu-id="952c8-127">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="952c8-127">Click New.</span></span>
+6. <span data-ttu-id="952c8-128">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="952c8-128">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="952c8-129">في حقل "معرّف المستخدم"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="952c8-129">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="952c8-130">حدد "أليسيا".</span><span class="sxs-lookup"><span data-stu-id="952c8-130">Select Alicia.</span></span>  
+8. <span data-ttu-id="952c8-131">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="952c8-131">Click Save.</span></span>
 
-## <a name="enable-access-rights-in-cost-accounting"></a>تمكين حقوق الوصول في محاسبة التكاليف
-1. انتقل إلى محاسبة التكاليف > الإعداد > المعلمات.
-2. انقر فوق علامة التبويب "عام".
-3. حدد "نعم" في الحقل "تمكين عرض الوصول لأعضاء بُعد كائن التكلفة‬".
-4. انقر فوق "حفظ".
-5. قم بإغلاق الصفحة.
-6. انتقل إلى محاسبة التكاليف > الإعداد > تكوين مساحة عمل مراقبة التكلفة.
-7. انقر فوق "تحرير".
-8. حدد "نعم" في الحقل "منشور".
-    * إذا قمت بتعيين هذا الخيار إلى "نعم"، سيتمكن المستخدم الذين تم تعيين أحد الأدوار الأربعة التالية له من مشاهدة التقارير في مساحة عمل التحكم في التكلفة‬: مدير محاسبة التكاليف ومحاسب التكاليف وموظف محاسبة التكاليف ومراقب كائن التكلفة‬. إذا حددت "لا"، فسيتمكن فقط المستخدم الذين تم تعيين أحد الأدوار التالية له من مشاهدة التقارير‬: مدير محاسبة التكاليف ومحاسب التكاليف وموظف محاسبة التكاليف ومراقب كائن التكلفة‬.    
-9. انقر فوق "حفظ".
+## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="952c8-132">تمكين حقوق الوصول في محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="952c8-132">Enable access rights in Cost accounting</span></span>
+1. <span data-ttu-id="952c8-133">انتقل إلى محاسبة التكاليف > الإعداد > المعلمات.</span><span class="sxs-lookup"><span data-stu-id="952c8-133">Go to Cost accounting > Setup > Parameters.</span></span>
+2. <span data-ttu-id="952c8-134">انقر فوق علامة التبويب "عام".</span><span class="sxs-lookup"><span data-stu-id="952c8-134">Click the General tab.</span></span>
+3. <span data-ttu-id="952c8-135">حدد "نعم" في الحقل "تمكين عرض الوصول لأعضاء بُعد كائن التكلفة‬".</span><span class="sxs-lookup"><span data-stu-id="952c8-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
+4. <span data-ttu-id="952c8-136">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="952c8-136">Click Save.</span></span>
+5. <span data-ttu-id="952c8-137">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="952c8-137">Close the page.</span></span>
+6. <span data-ttu-id="952c8-138">انتقل إلى محاسبة التكاليف > الإعداد > تكوين مساحة عمل مراقبة التكلفة.</span><span class="sxs-lookup"><span data-stu-id="952c8-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+7. <span data-ttu-id="952c8-139">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="952c8-139">Click Edit.</span></span>
+8. <span data-ttu-id="952c8-140">حدد "نعم" في الحقل "منشور".</span><span class="sxs-lookup"><span data-stu-id="952c8-140">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="952c8-141">إذا قمت بتعيين هذا الخيار إلى "نعم"، سيتمكن المستخدم الذين تم تعيين أحد الأدوار الأربعة التالية له من مشاهدة التقارير في مساحة عمل التحكم في التكلفة‬: مدير محاسبة التكاليف ومحاسب التكاليف وموظف محاسبة التكاليف ومراقب كائن التكلفة‬.</span><span class="sxs-lookup"><span data-stu-id="952c8-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="952c8-142">إذا حددت "لا"، فسيتمكن فقط المستخدم الذين تم تعيين أحد الأدوار التالية له من مشاهدة التقارير‬: مدير محاسبة التكاليف ومحاسب التكاليف وموظف محاسبة التكاليف ومراقب كائن التكلفة‬.</span><span class="sxs-lookup"><span data-stu-id="952c8-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
+9. <span data-ttu-id="952c8-143">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="952c8-143">Click Save.</span></span>
 
 

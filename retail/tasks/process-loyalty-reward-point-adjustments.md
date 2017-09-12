@@ -23,30 +23,30 @@ ms.contentlocale: ar-sa
 ms.lasthandoff: 07/28/2017
 
 ---
-# <a name="process-loyalty-reward-point-adjustments"></a> معالجة تسويات نقاط مكافأة الولاء
+# <a name="process-loyalty-reward-point-adjustments"></a><span data-ttu-id="28196-103"> معالجة تسويات نقاط مكافأة الولاء</span><span class="sxs-lookup"><span data-stu-id="28196-103">Process loyalty reward point adjustments</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيفية البحث عن معلومات بطاقة الولاء وضبط نقاط مكافأة للولاء. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT.‬ تم إعداد هذه المهمة لدور مدير عمليات Retail أو دور مدير Customer service.
+<span data-ttu-id="28196-104">يوضح هذا الإجراء كيفية البحث عن معلومات بطاقة الولاء وضبط نقاط مكافأة للولاء.</span><span class="sxs-lookup"><span data-stu-id="28196-104">This procedure demonstrates how to look up loyalty card information and adjust loyalty reward points.</span></span> <span data-ttu-id="28196-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT.‬</span><span class="sxs-lookup"><span data-stu-id="28196-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="28196-106">تم إعداد هذه المهمة لدور مدير عمليات Retail أو دور مدير Customer service.</span><span class="sxs-lookup"><span data-stu-id="28196-106">This task is intended for the Retail operations manager role or a Customer service manager role.</span></span>
 
-1. انتقل إلى بطاقات الولاء.
-2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-3. في القائمة، انقر فوق الارتباط في الصف المحدد.
-4. انقر فوق ‏‫حركات البطاقة.
-    * في هذه الصفحة، يمكنك عرض كافة حركات الولاء لبطاقة الولاء المحددة.  
-5. قم بإغلاق الصفحة.
-6. انقر فوق تسويات البطاقة.
-7. انقر فوق "جديد".
-8. في حقل "‏‫نقطة المكافأة‬"، أدخل قيمة أو حددها.
-9. في حقل "‏‫المبلغ أو الكمية"، أدخل رقمًا.
-    * يمكنك إضافة أو حذف نقاط من بطاقة الولاء باستخدام المبالغ الموجبة أو السالبة.  
-10. في حقل "‏‫برنامج الولاء‬"، أدخل قيمة أو حددها.
-11. في الحقل "التعليق"، اكتب قيمة.
-12. انقر فوق "ترحيل التسوية".
-13. انقر فوق نعم.
-14. قم بإغلاق الصفحة.
-    * عادة في هذه المرحلة، ستقوم بتحديث الصفحة لرؤية نتيجة تسوية نقاط المكافأة في علامة التبويب "‏‫ملخص نقاط المكافآت‬". ولكن إذا كنت تستخدم هذا كدليل مهمة، فلا تقم بالتحديث الآن لأنه إذا قمت بذلك، فسيتم إيقاف دليل المهمة.  
-15. انقر فوق ‏‫حركات البطاقة.
-16. قم بإغلاق الصفحة.
+1. <span data-ttu-id="28196-107">انتقل إلى بطاقات الولاء.</span><span class="sxs-lookup"><span data-stu-id="28196-107">Go to Loyalty cards.</span></span>
+2. <span data-ttu-id="28196-108">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="28196-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="28196-109">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="28196-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="28196-110">انقر فوق ‏‫حركات البطاقة.</span><span class="sxs-lookup"><span data-stu-id="28196-110">Click Card transactions.</span></span>
+    * <span data-ttu-id="28196-111">في هذه الصفحة، يمكنك عرض كافة حركات الولاء لبطاقة الولاء المحددة.</span><span class="sxs-lookup"><span data-stu-id="28196-111">On this page you can view all loyalty transactions for the selected loyalty card.</span></span>  
+5. <span data-ttu-id="28196-112">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="28196-112">Close the page.</span></span>
+6. <span data-ttu-id="28196-113">انقر فوق تسويات البطاقة.</span><span class="sxs-lookup"><span data-stu-id="28196-113">Click Card adjustments.</span></span>
+7. <span data-ttu-id="28196-114">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="28196-114">Click New.</span></span>
+8. <span data-ttu-id="28196-115">في حقل "‏‫نقطة المكافأة‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="28196-115">In the Reward point field, enter or select a value.</span></span>
+9. <span data-ttu-id="28196-116">في حقل "‏‫المبلغ أو الكمية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="28196-116">In the Amount or quantity field, enter a number.</span></span>
+    * <span data-ttu-id="28196-117">يمكنك إضافة أو حذف نقاط من بطاقة الولاء باستخدام المبالغ الموجبة أو السالبة.</span><span class="sxs-lookup"><span data-stu-id="28196-117">You can add or remove points from the loyalty card by using positive or negative amounts.</span></span>  
+10. <span data-ttu-id="28196-118">في حقل "‏‫برنامج الولاء‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="28196-118">In the Loyalty program field, enter or select a value.</span></span>
+11. <span data-ttu-id="28196-119">في الحقل "التعليق"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="28196-119">In the Comment field, type a value.</span></span>
+12. <span data-ttu-id="28196-120">انقر فوق "ترحيل التسوية".</span><span class="sxs-lookup"><span data-stu-id="28196-120">Click Post adjustment.</span></span>
+13. <span data-ttu-id="28196-121">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="28196-121">Click Yes.</span></span>
+14. <span data-ttu-id="28196-122">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="28196-122">Close the page.</span></span>
+    * <span data-ttu-id="28196-123">عادة في هذه المرحلة، ستقوم بتحديث الصفحة لرؤية نتيجة تسوية نقاط المكافأة في علامة التبويب "‏‫ملخص نقاط المكافآت‬".</span><span class="sxs-lookup"><span data-stu-id="28196-123">Normally at this point you'd refresh the page to see the result of the reward points adjustment in the Reward point summary tab.</span></span> <span data-ttu-id="28196-124">ولكن إذا كنت تستخدم هذا كدليل مهمة، فلا تقم بالتحديث الآن لأنه إذا قمت بذلك، فسيتم إيقاف دليل المهمة.</span><span class="sxs-lookup"><span data-stu-id="28196-124">But if you are running this as a task guide, don't refresh now because if you do, the task guide will stop.</span></span>  
+15. <span data-ttu-id="28196-125">انقر فوق ‏‫حركات البطاقة.</span><span class="sxs-lookup"><span data-stu-id="28196-125">Click Card transactions.</span></span>
+16. <span data-ttu-id="28196-126">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="28196-126">Close the page.</span></span>
 
 

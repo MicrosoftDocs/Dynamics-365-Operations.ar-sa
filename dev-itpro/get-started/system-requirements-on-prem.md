@@ -25,228 +25,228 @@ ms.lasthandoff: 08/04/2017
 
 ---
 
-# <a name="system-requirements-for-on-premises-deployments"></a>متطلبات النظام لعمليات النشر المحلي
+# <a name="system-requirements-for-on-premises-deployments"></a><span data-ttu-id="ad8d7-103">متطلبات النظام لعمليات النشر المحلي</span><span class="sxs-lookup"><span data-stu-id="ad8d7-103">System requirements for on-premises deployments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-يسرد هذا الموضوع متطلبات النظام للإصدار الحالي من Microsoft Dynamics 365 for Finance and Operations, Enterprise edition لعمليات النشر في السحابة وفي الموقع المحلي. قبل تثبيت Finance and Operations، عندما تكون هذه الخطوة ملائمة، تحقق من أن النظام الذي تستخدمه يستوفي الحد الأدنى من متطلبات الشبكة والأجهزة والبرامج أو يتجاوزه.
+<span data-ttu-id="ad8d7-104">يسرد هذا الموضوع متطلبات النظام للإصدار الحالي من Microsoft Dynamics 365 for Finance and Operations, Enterprise edition لعمليات النشر في السحابة وفي الموقع المحلي.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-104">This topic lists the system requirements for the current version of Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, for on-premises deployments.</span></span> <span data-ttu-id="ad8d7-105">قبل تثبيت Finance and Operations، عندما تكون هذه الخطوة ملائمة، تحقق من أن النظام الذي تستخدمه يستوفي الحد الأدنى من متطلبات الشبكة والأجهزة والبرامج أو يتجاوزه.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-105">Before you install Finance and Operations, when this step is appropriate, verify that the system that you're working with meets or exceeds the minimum network, hardware, and software requirements.</span></span>
 
-## <a name="network-requirements"></a>متطلبات الشبكة
-باستطاعة Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (محلي) العمل على شبكات الاتصال التي تستخدم الإصدار الرابع من بروتوكول الإنترنت (IPv4) أو الإصدار السادس من بروتوكول الإنترنت (IPv6). خذ بعين الاعتبار بيئة الشبكة عندما تضع خطة للنظام، واتبع الإرشادات التالية.
+## <a name="network-requirements"></a><span data-ttu-id="ad8d7-106">متطلبات الشبكة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-106">Network requirements</span></span>
+<span data-ttu-id="ad8d7-107">باستطاعة Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (محلي) العمل على شبكات الاتصال التي تستخدم الإصدار الرابع من بروتوكول الإنترنت (IPv4) أو الإصدار السادس من بروتوكول الإنترنت (IPv6).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-107">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) can work on networks that use Internet Protocol Version 4 (IPv4) or Internet Protocol Version 6 (IPv6).</span></span> <span data-ttu-id="ad8d7-108">خذ بعين الاعتبار بيئة الشبكة عندما تضع خطة للنظام، واتبع الإرشادات التالية.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-108">Consider the network environment when you plan your system, and use the following guidelines.</span></span>
 
-### <a name="network-response-time"></a>وقت استجابة الشبكة
-يسرد الجدول التالي الحد الأدنى لمتطلبات الشبكة للاتصال بين مستعرض الويب وخادم كائن التطبيق (AOS)، وللاتصال بين AOS وقاعدة البيانات في نظام محلي.
+### <a name="network-response-time"></a><span data-ttu-id="ad8d7-109">وقت استجابة الشبكة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-109">Network response time</span></span>
+<span data-ttu-id="ad8d7-110">يسرد الجدول التالي الحد الأدنى لمتطلبات الشبكة للاتصال بين مستعرض الويب وخادم كائن التطبيق (AOS)، وللاتصال بين AOS وقاعدة البيانات في نظام محلي.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-110">The following table lists the minimum network requirements for the connection between the web browser and Application Object Server (AOS), and for the connection between AOS and the database in an on-premises system.</span></span>
 
-| القيمة     | مستعرض ويب إلى AOS                      | AOS إلى قاعدة بيانات |
+| <span data-ttu-id="ad8d7-111">القيمة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-111">Value</span></span>     | <span data-ttu-id="ad8d7-112">مستعرض ويب إلى AOS</span><span class="sxs-lookup"><span data-stu-id="ad8d7-112">Web browser to AOS</span></span>                      | <span data-ttu-id="ad8d7-113">AOS إلى قاعدة بيانات</span><span class="sxs-lookup"><span data-stu-id="ad8d7-113">AOS to database</span></span> |
 |-----------|-----------------------------------------|------------------------------------------------------------------------------------------|
-| عرض النطاق الترددي | 50 كيلوبايت في الثانية (KBps) لكل مستخدم | 100 ميغابايت في الثانية (MBps) |
-| زمن الوصول   | أقل من 250-300 مللي ثانية     | أقل من 1 مللي ثانية (شبكة الاتصال المحلية [LAN] فقط). يجب أن يتواجد كل من AOS وقاعدة البيانات في موقع مشترك. |
+| <span data-ttu-id="ad8d7-114">عرض النطاق الترددي</span><span class="sxs-lookup"><span data-stu-id="ad8d7-114">Bandwidth</span></span> | <span data-ttu-id="ad8d7-115">50 كيلوبايت في الثانية (KBps) لكل مستخدم</span><span class="sxs-lookup"><span data-stu-id="ad8d7-115">50 kilobytes per second (KBps) per user</span></span> | <span data-ttu-id="ad8d7-116">100 ميغابايت في الثانية (MBps)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-116">100 megabytes per second (MBps)</span></span> |
+| <span data-ttu-id="ad8d7-117">زمن الوصول</span><span class="sxs-lookup"><span data-stu-id="ad8d7-117">Latency</span></span>   | <span data-ttu-id="ad8d7-118">أقل من 250-300 مللي ثانية</span><span class="sxs-lookup"><span data-stu-id="ad8d7-118">Less than 250–300 milliseconds (ms)</span></span>     | <span data-ttu-id="ad8d7-119">أقل من 1 مللي ثانية (شبكة الاتصال المحلية [LAN] فقط).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-119">Less than 1 ms (local area network [LAN] only).</span></span> <span data-ttu-id="ad8d7-120">يجب أن يتواجد كل من AOS وقاعدة البيانات في موقع مشترك.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-120">AOS and the database must be co-located.</span></span> |
 
-- تم تصميم Finance and Operations (محلي) للشبكات التي لديها زمن وصول من 250-300 ملي ثانية أو أقل. زمن الوصول هذا هو زمن الوصول من عميل المستعرض إلى مركز البيانات الذي يستضيف Finance and Operations.
-- تتوقف متطلبات عرض النطاق الترددي لـ Finance and Operations (محلي) على السيناريو الخاص بك. تتطلب السيناريوهات النموذجية عرض نطاق ترددي مقداره أكثر من 50 كيلوبايت في الثانية (KBps) بين المستعرض وخادم Finance and Operations. ولكننا نوصي بعرض نطاق ترددي أعلى، بالنسبة للسيناريوهات التي لها متطلبات حمولة عالية، مثل السيناريوهات التي تشتمل على مساحات عمل أو تخصيص مكثف. يتوقف المقدار المحدد من عرض النطاق الترددي على الاستخدام.
+- <span data-ttu-id="ad8d7-121">تم تصميم Finance and Operations (محلي) للشبكات التي لديها زمن وصول من 250-300 ملي ثانية أو أقل.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-121">Finance and Operations (on-premises) is designed for networks that have a latency of 250–300 milliseconds (ms) or less.</span></span> <span data-ttu-id="ad8d7-122">زمن الوصول هذا هو زمن الوصول من عميل المستعرض إلى مركز البيانات الذي يستضيف Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-122">This latency is the latency from a browser client to the datacenter that hosts Finance and Operations.</span></span>
+- <span data-ttu-id="ad8d7-123">تتوقف متطلبات عرض النطاق الترددي لـ Finance and Operations (محلي) على السيناريو الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-123">Bandwidth requirements for Finance and Operations (on-premises) depend on your scenario.</span></span> <span data-ttu-id="ad8d7-124">تتطلب السيناريوهات النموذجية عرض نطاق ترددي مقداره أكثر من 50 كيلوبايت في الثانية (KBps) بين المستعرض وخادم Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-124">Typical scenarios require a bandwidth of more than 50 KBps between the browser and the Finance and Operations server.</span></span> <span data-ttu-id="ad8d7-125">ولكننا نوصي بعرض نطاق ترددي أعلى، بالنسبة للسيناريوهات التي لها متطلبات حمولة عالية، مثل السيناريوهات التي تشتمل على مساحات عمل أو تخصيص مكثف.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-125">However, we recommend higher bandwidth for scenarios that have high payload requirements, such as scenarios that involve workspaces or extensive customization.</span></span> <span data-ttu-id="ad8d7-126">يتوقف المقدار المحدد من عرض النطاق الترددي على الاستخدام.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-126">The specific amount of bandwidth depends on use.</span></span>
 
-لا يتم اعتماد عمليات النشر حيث يوجد AOS وقاعدة بيانات Microsoft SQL Server في مراكز بيانات مختلفة. يجب أن يتواجد كل من AOS وقاعدة بيانات SQL Server في موقع مشترك. 
+<span data-ttu-id="ad8d7-127">لا يتم اعتماد عمليات النشر حيث يوجد AOS وقاعدة بيانات Microsoft SQL Server في مراكز بيانات مختلفة.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-127">Deployments where AOS and the Microsoft SQL Server database are in different datacenters aren't supported.</span></span> <span data-ttu-id="ad8d7-128">يجب أن يتواجد كل من AOS وقاعدة بيانات SQL Server في موقع مشترك.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-128">AOS and the SQL Server database must be co-located.</span></span> 
 
-بشكل عام، تم تحسين Finance and Operations لتقليل الجولات من المستعرض إلى الخادم والعكس. يعتبر عدد الجولات من عميل مستعرض إلى مركز البيانات إما صفرًا أو جولة واحدة لكل تفاعل من تفاعلات المستخدم، ويتم ضغط الحمولة.
+<span data-ttu-id="ad8d7-129">بشكل عام، تم تحسين Finance and Operations لتقليل الجولات من المستعرض إلى الخادم والعكس.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-129">In general, Finance and Operations is optimized to reduce browser-to-server round trips.</span></span> <span data-ttu-id="ad8d7-130">يعتبر عدد الجولات من عميل مستعرض إلى مركز البيانات إما صفرًا أو جولة واحدة لكل تفاعل من تفاعلات المستخدم، ويتم ضغط الحمولة.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-130">The number of round trips from a browser client to the datacenter is either zero or one for each user interaction, and the payload is compressed.</span></span>
 
 > [!WARNING]
-> لا تقم بحساب متطلبات عرض النطاق الترددي من موقع عميل من خلال ضرب عدد المستخدمين في متطلبات الحد الأدنى لعرض النطاق الترددي. يُصعب للغاية حساب الاستخدام المستزامن لموقع ما. نوصي باستخدام محاكاة واقعية في مقابل بيئة Finance and Operations غير منتجة كأفضل مقياس للأداء لحالتك المعينة. 
+> <span data-ttu-id="ad8d7-131">لا تقم بحساب متطلبات عرض النطاق الترددي من موقع عميل من خلال ضرب عدد المستخدمين في متطلبات الحد الأدنى لعرض النطاق الترددي.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-131">Don't calculate bandwidth requirements from a client location by multiplying the number of users by the minimum bandwidth requirements.</span></span> <span data-ttu-id="ad8d7-132">يُصعب للغاية حساب الاستخدام المستزامن لموقع ما.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-132">The concurrent usage of a given location is very difficult to calculate.</span></span> <span data-ttu-id="ad8d7-133">نوصي باستخدام محاكاة واقعية في مقابل بيئة Finance and Operations غير منتجة كأفضل مقياس للأداء لحالتك المعينة.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-133">We recommend that you use a real-life simulation against a non-production environment of Finance and Operations as the best gauge of performance for your specific case.</span></span> 
 
-### <a name="lan-environments"></a>بيئات الشبكة المحلية (LAN)
-في بيئات الشبكة المحلية (LAN)، لا حاجة إلى Microsoft Remote Desktop في Microsoft Windows Server للاتصال بتطبيق Finance and Operations. ومع ذلك، قد يكون سطح المكتب البعيد ضروريًا لعمليات الصيانة على الأجهزة الظاهرية (VM) الي تشكل عمليات النشر على الخادم.
+### <a name="lan-environments"></a><span data-ttu-id="ad8d7-134">بيئات الشبكة المحلية (LAN)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-134">LAN environments</span></span>
+<span data-ttu-id="ad8d7-135">في بيئات الشبكة المحلية (LAN)، لا حاجة إلى Microsoft Remote Desktop في Microsoft Windows Server للاتصال بتطبيق Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-135">In LAN environments, Microsoft Remote Desktop in Microsoft Windows Server isn't required in order to connect to Finance and Operations.</span></span> <span data-ttu-id="ad8d7-136">ومع ذلك، قد يكون سطح المكتب البعيد ضروريًا لعمليات الصيانة على الأجهزة الظاهرية (VM) الي تشكل عمليات النشر على الخادم.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-136">However, Remote Desktop might be required for servicing operations on the virtual machines (VMs) that make up the server deployments.</span></span>
 
-### <a name="wan-environments"></a>بيئات الشبكة الواسعة (WAN)
-في بيئات الشبكة الواسعة (WAN)، لا حاجة إلى سطح المكتب البعيد في Windows Server للاتصال بتطبيق Finance and Operations.
+### <a name="wan-environments"></a><span data-ttu-id="ad8d7-137">بيئات الشبكة الواسعة (WAN)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-137">WAN environments</span></span>
+<span data-ttu-id="ad8d7-138">في بيئات الشبكة الواسعة (WAN)، لا حاجة إلى سطح المكتب البعيد في Windows Server للاتصال بتطبيق Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-138">In wide area network (WAN) environments, Remote Desktop in Windows Server isn't required in order to connect to Finance and Operations.</span></span>
 
-### <a name="internet-connectivity-requirements"></a>متطلبات اتصال الإنترنت
-لا يحتاج Finance and Operations (محلي) إلى اتصال الإنترنت من محطات عمل المستخدمين. ومع ذلك، لن تكون بعض الميزات متوفرة في حال عدم وجود اتصال الإنترنت.
+### <a name="internet-connectivity-requirements"></a><span data-ttu-id="ad8d7-139">متطلبات اتصال الإنترنت</span><span class="sxs-lookup"><span data-stu-id="ad8d7-139">Internet connectivity requirements</span></span>
+<span data-ttu-id="ad8d7-140">لا يحتاج Finance and Operations (محلي) إلى اتصال الإنترنت من محطات عمل المستخدمين.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-140">Finance and Operations (on-premises) doesn't require internet connectivity from user workstations.</span></span> <span data-ttu-id="ad8d7-141">ومع ذلك، لن تكون بعض الميزات متوفرة في حال عدم وجود اتصال الإنترنت.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-141">However, some features won't be available if there is no internet connectivity.</span></span>
 
 |                    |   |
 |--------------------|---|
-| **عميل المستعرض** | يعتبر سيناريو الإنترانت من دون اتصال الإنترنت بمثابة نقطة تصميم لخيار النشر المحلي. لن تتوفر بعض الميزات التي تتطلب خدمات سحابية، مثل التعليمات ومكتبات دلائل المهام في Microsoft Dynamics Lifecycle Services (LCS). |
-| **الخادم**         | يجب أن يكون كل من AOS أو مستوى Microsoft Azure Service Fabric قادرًا على التواصل مع LCS. لا يحتاج العميل القائم على المستعرض المحلي إلى الوصول إلى الإنترنت. |
-| **بيانات تتبع الاستخدام**      | قد يتم فقدان بيانات تتبع الاستخدام في حال تعرض الاتصال لحالات مقاطعة طويلة. لا تتأثر حالات المقاطعة التي يتعرض لها الاتصال بـ LCS على الأداء الوظيفي للتطبيق المحلي. |
-| **LCS**            | الاتصال بـ LCS مطلوب لعمليات النشر ونشر التعليمات البرمجية ونشر عمليات الصيانة. |
+| <span data-ttu-id="ad8d7-142">**عميل المستعرض**</span><span class="sxs-lookup"><span data-stu-id="ad8d7-142">**Browser client**</span></span> | <span data-ttu-id="ad8d7-143">يعتبر سيناريو الإنترانت من دون اتصال الإنترنت بمثابة نقطة تصميم لخيار النشر المحلي.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-143">An intranet scenario without internet connectivity is a design point for the on-premises deployment option.</span></span> <span data-ttu-id="ad8d7-144">لن تتوفر بعض الميزات التي تتطلب خدمات سحابية، مثل التعليمات ومكتبات دلائل المهام في Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-144">Some features that require cloud services won't be available, such as Help and Task guide libraries in Microsoft Dynamics Lifecycle Services (LCS).</span></span> |
+| <span data-ttu-id="ad8d7-145">**الخادم**</span><span class="sxs-lookup"><span data-stu-id="ad8d7-145">**Server**</span></span>         | <span data-ttu-id="ad8d7-146">يجب أن يكون كل من AOS أو مستوى Microsoft Azure Service Fabric قادرًا على التواصل مع LCS.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-146">The AOS or Microsoft Azure Service Fabric tier must be able to communicate with LCS.</span></span> <span data-ttu-id="ad8d7-147">لا يحتاج العميل القائم على المستعرض المحلي إلى الوصول إلى الإنترنت.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-147">The on-premises browser-based client doesn't require internet access.</span></span> |
+| <span data-ttu-id="ad8d7-148">**بيانات تتبع الاستخدام**</span><span class="sxs-lookup"><span data-stu-id="ad8d7-148">**Telemetry**</span></span>      | <span data-ttu-id="ad8d7-149">قد يتم فقدان بيانات تتبع الاستخدام في حال تعرض الاتصال لحالات مقاطعة طويلة.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-149">Telemetry data might be lost if there are long interruptions in connectivity.</span></span> <span data-ttu-id="ad8d7-150">لا تتأثر حالات المقاطعة التي يتعرض لها الاتصال بـ LCS على الأداء الوظيفي للتطبيق المحلي.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-150">Interruptions in connectivity to LCS don't affect the on-premises application functionality.</span></span> |
+| <span data-ttu-id="ad8d7-151">**LCS**</span><span class="sxs-lookup"><span data-stu-id="ad8d7-151">**LCS**</span></span>            | <span data-ttu-id="ad8d7-152">الاتصال بـ LCS مطلوب لعمليات النشر ونشر التعليمات البرمجية ونشر عمليات الصيانة.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-152">Connectivity to LCS is required for deployment, code deployment, and servicing operations.</span></span> |
 
-## <a name="telemetry-data-transfer-to-the-cloud"></a>نقل بيانات تتبع الاستخدام إلى السحابة
-يتم تخزين معظم بيانات تتبع الاستخدام محليًا ويمكن الوصول إليها باستخدام "عارض الأحداث" في Microsoft Windows. يتم تحويل مجموعة فرعية صغيرة من بيانات تتبع الاستخدام إلى تدفق بيانات تتبع الاستخدام من Microsoft في السحابة لعمليات التشخيص. لا تشكل بيانات العملاء والبيانات القابلة للتعريف بواسطة المستخدم جزءًا من بيانات تتبع الاستخدام المرسلة إلى Microsoft. يتم إرسال أسماء الأجهزة الظاهرية إلى Microsoft للمساعدة في إدارة البيئة وعمليات التشخيص من مدخل LCS.
+## <a name="telemetry-data-transfer-to-the-cloud"></a><span data-ttu-id="ad8d7-153">نقل بيانات تتبع الاستخدام إلى السحابة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-153">Telemetry data transfer to the cloud</span></span>
+<span data-ttu-id="ad8d7-154">يتم تخزين معظم بيانات تتبع الاستخدام محليًا ويمكن الوصول إليها باستخدام "عارض الأحداث" في Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-154">Most telemetry data is stored locally and can be accessed by using Event Viewer in Microsoft Windows.</span></span> <span data-ttu-id="ad8d7-155">يتم تحويل مجموعة فرعية صغيرة من بيانات تتبع الاستخدام إلى تدفق بيانات تتبع الاستخدام من Microsoft في السحابة لعمليات التشخيص.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-155">A small subset of telemetry events is transferred to the Microsoft telemetry pipeline in the cloud for diagnostics.</span></span> <span data-ttu-id="ad8d7-156">لا تشكل بيانات العملاء والبيانات القابلة للتعريف بواسطة المستخدم جزءًا من بيانات تتبع الاستخدام المرسلة إلى Microsoft.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-156">Customer data and user-identifiable data aren't part of the telemetry data that is sent to Microsoft.</span></span> <span data-ttu-id="ad8d7-157">يتم إرسال أسماء الأجهزة الظاهرية إلى Microsoft للمساعدة في إدارة البيئة وعمليات التشخيص من مدخل LCS.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-157">VM names are sent to Microsoft to help with environment management and diagnostics from the LCS portal.</span></span>
 
-## <a name="domain-requirements"></a>متطلبات المجال
-خذ بعين الاعتبار متطلبات المجال التالية عند تثبيت Finance and Operations (محلي):
+## <a name="domain-requirements"></a><span data-ttu-id="ad8d7-158">متطلبات المجال</span><span class="sxs-lookup"><span data-stu-id="ad8d7-158">Domain requirements</span></span>
+<span data-ttu-id="ad8d7-159">خذ بعين الاعتبار متطلبات المجال التالية عند تثبيت Finance and Operations (محلي):</span><span class="sxs-lookup"><span data-stu-id="ad8d7-159">Consider the following domain requirements when you install Finance and Operations (on-premises):</span></span>
 
-- يجب أن تنتمي الأجهزة الظاهرية التي تستضيف Finance and Operations (محلي) إلى مجال Active Directory. يتم تكوين خدمات دليل Active Directory (AD DS) في الوضع الأصلي.
-- يجب أن يتوفر لدى الأجهزة الظاهرين التي تقوم بتشغيل مكونات Finance and Operations (محلي) حق الوصول إلى بعضها البعض. يتم تكوين هذا الوصول في AD DS. 
-- يجب أن تكون وحدة التحكم بالمجال Microsoft Windows Server 2012 R2 أو إصدار أحدث، ويجب أن يكون المستوى الوظيفي للمجال 2012 R2 أو أكبر
+- <span data-ttu-id="ad8d7-160">يجب أن تنتمي الأجهزة الظاهرية التي تستضيف Finance and Operations (محلي) إلى مجال Active Directory.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-160">VMs that host Finance and Operations (on-premises) components must belong to an Active Directory domain.</span></span> <span data-ttu-id="ad8d7-161">يتم تكوين خدمات دليل Active Directory (AD DS) في الوضع الأصلي.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-161">Active Directory Domain Services (AD DS) must be configured in native mode.</span></span>
+- <span data-ttu-id="ad8d7-162">يجب أن يتوفر لدى الأجهزة الظاهرين التي تقوم بتشغيل مكونات Finance and Operations (محلي) حق الوصول إلى بعضها البعض.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-162">VMs that run Finance and Operations (on-premises) components must have access to each other.</span></span> <span data-ttu-id="ad8d7-163">يتم تكوين هذا الوصول في AD DS.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-163">This access is configured in AD DS.</span></span> 
+- <span data-ttu-id="ad8d7-164">يجب أن تكون وحدة التحكم بالمجال Microsoft Windows Server 2012 R2 أو إصدار أحدث، ويجب أن يكون المستوى الوظيفي للمجال 2012 R2 أو أكبر</span><span class="sxs-lookup"><span data-stu-id="ad8d7-164">The domain controller must be Microsoft Windows Server 2012 R2 or later, and the domain functional level must be 2012 R2 or more.</span></span>
 
-## <a name="hardware-requirements"></a>متطلبات الأجهزة
-يصف هذا القسم الأجهزة المطلوبة لتشغيل Finance and Operations (محلي).
+## <a name="hardware-requirements"></a><span data-ttu-id="ad8d7-165">متطلبات الأجهزة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-165">Hardware requirements</span></span>
+<span data-ttu-id="ad8d7-166">يصف هذا القسم الأجهزة المطلوبة لتشغيل Finance and Operations (محلي).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-166">This section describes the hardware that is required in order to run Finance and Operations (on-premises).</span></span>
 
-تختلف المتطلبات الفعلية للأجهزة، استنادًا إلى تكوين النظام وتكوين البيانات والتطبيقات والميزات التي قررت استخدامها. فيما يلي بعض العوامل التي يمكنها التأثير على الخيار الخاص بالأجهزة المناسبة لتطبيق Finance and Operations (محلي):
+<span data-ttu-id="ad8d7-167">تختلف المتطلبات الفعلية للأجهزة، استنادًا إلى تكوين النظام وتكوين البيانات والتطبيقات والميزات التي قررت استخدامها.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-167">The actual hardware requirements vary, based on the system configuration, the data composition, and the applications and features that you decide to use.</span></span> <span data-ttu-id="ad8d7-168">فيما يلي بعض العوامل التي يمكنها التأثير على الخيار الخاص بالأجهزة المناسبة لتطبيق Finance and Operations (محلي):</span><span class="sxs-lookup"><span data-stu-id="ad8d7-168">Here are some of the factors that can affect the choice of appropriate hardware for Finance and Operations (on-premises):</span></span>
 
-- عدد الحركات بالساعة
-- عدد المستخدمين المتزامنين
+- <span data-ttu-id="ad8d7-169">عدد الحركات بالساعة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-169">The number of transactions per hour</span></span>
+- <span data-ttu-id="ad8d7-170">عدد المستخدمين المتزامنين</span><span class="sxs-lookup"><span data-stu-id="ad8d7-170">The number of concurrent users</span></span>
 
-## <a name="minimum-infrastructure-requirements"></a>الحد الأدنى لمتطلبات البنية الأساسية
-يستخدم Finance and Operations (محلي) Service Fabric لاستضافة خدمات كل من AOS والدُفعات وإدارة البيانات وأداة تقارير الإدارة ومنسق البيئة. لا تتم استضافة Microsoft SQL Server Reporting Services (SSRS) في نظام مجموعة Service Fabric.
+## <a name="minimum-infrastructure-requirements"></a><span data-ttu-id="ad8d7-171">الحد الأدنى لمتطلبات البنية الأساسية</span><span class="sxs-lookup"><span data-stu-id="ad8d7-171">Minimum infrastructure requirements</span></span>
+<span data-ttu-id="ad8d7-172">يستخدم Finance and Operations (محلي) Service Fabric لاستضافة خدمات كل من AOS والدُفعات وإدارة البيانات وأداة تقارير الإدارة ومنسق البيئة.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-172">Finance and Operations (on-premises) uses Service Fabric to host the AOS, Batch, Data management, Management reporter, and Environment orchestrator services.</span></span> <span data-ttu-id="ad8d7-173">لا تتم استضافة Microsoft SQL Server Reporting Services (SSRS) في نظام مجموعة Service Fabric.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-173">Microsoft SQL Server Reporting Services (SSRS) aren't hosted in the Service Fabric cluster.</span></span>
 
-يجب أن يتوفر لدى SQL Server إعداد HADRON ذي التوافر العالي الذي يتضمن عقدتين على الأقل لاستخدام الإنتاج.
+<span data-ttu-id="ad8d7-174">يجب أن يتوفر لدى SQL Server إعداد HADRON ذي التوافر العالي الذي يتضمن عقدتين على الأقل لاستخدام الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-174">SQL Server must have a high-availability HADRON setup that has at least two nodes for production use.</span></span>
 
-يظهر الشكل التالي الحد الأدنى الموصى به لعدد العقد في نظام مجموعة Service Fabric.
+<span data-ttu-id="ad8d7-175">يظهر الشكل التالي الحد الأدنى الموصى به لعدد العقد في نظام مجموعة Service Fabric.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-175">The following illustration shows the minimum number of nodes that is recommended for your Service Fabric cluster.</span></span>
 
-[![عدد العقد الموصى به لنظام مجموعة Service Fabric](./media/system-reqs-on-premises-01.png)](./media/system-reqs-on-premises-01.png) 
+<span data-ttu-id="ad8d7-176">[![عدد العقد الموصى به لنظام مجموعة Service Fabric](./media/system-reqs-on-premises-01.png)](./media/system-reqs-on-premises-01.png)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-176">[![Recommended number of nodes for the Service Fabric cluster](./media/system-reqs-on-premises-01.png)](./media/system-reqs-on-premises-01.png)</span></span> 
 
-## <a name="processor-and-ram-requirements"></a>متطلبات المعالج وذاكرة الوصول العشوائي (RAM)
-تسرد الجداول التالية عدد المعالجات ومقدار ذاكرة الوصول العشوائي (RAM) المطلوبة لكل من الأدوار المطلوبة لتشغيل خيار النشر هذا. للحصول على مزيد من المعلومات، راجع التوصية المتعلقة بالحد الأدنى من المتطلبات لنظام المجموعة المستقل Service Fabric، [تخطيط وإعداد عملية نشر نظام المجموعة المستقل Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+## <a name="processor-and-ram-requirements"></a><span data-ttu-id="ad8d7-177">متطلبات المعالج وذاكرة الوصول العشوائي (RAM)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-177">Processor and RAM requirements</span></span>
+<span data-ttu-id="ad8d7-178">تسرد الجداول التالية عدد المعالجات ومقدار ذاكرة الوصول العشوائي (RAM) المطلوبة لكل من الأدوار المطلوبة لتشغيل خيار النشر هذا.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-178">The following tables list the number of processors and the amount of random-access memory (RAM) that are required for each role that is required in order to run this deployment option.</span></span> <span data-ttu-id="ad8d7-179">للحصول على مزيد من المعلومات، راجع التوصية المتعلقة بالحد الأدنى من المتطلبات لنظام المجموعة المستقل Service Fabric، [تخطيط وإعداد عملية نشر نظام المجموعة المستقل Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-179">For more information, see the recommended minimum requirements for a Service Fabric standalone cluster in [Plan and prepare your Service Fabric cluster](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).</span></span>
 
 > [!NOTE]
-> إذا تم تثبيت برامج Microsoft أخرى على نفس الكمبيوتر، فيجب أن يلتزم النظام أيضًا بمتطلبات الأجهزة لذلك البرنامج. في حال تثبيت تطبيقات خادم أخرى على الكمبيوتر نفسه حيث AOS، من المستحسن تقييد تطبيقات الخادم هذه بغيغابايت واحد من ذاكرة الوصول العشوائي (RAM).
+> <span data-ttu-id="ad8d7-180">إذا تم تثبيت برامج Microsoft أخرى على نفس الكمبيوتر، فيجب أن يلتزم النظام أيضًا بمتطلبات الأجهزة لذلك البرنامج.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-180">If other Microsoft software is installed on the same computer, the system must also comply with the hardware requirements for that software.</span></span> <span data-ttu-id="ad8d7-181">في حال تثبيت تطبيقات خادم أخرى على الكمبيوتر نفسه حيث AOS، من المستحسن تقييد تطبيقات الخادم هذه بغيغابايت واحد من ذاكرة الوصول العشوائي (RAM).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-181">If other server applications are installed on the same computer as AOS, we recommend that you limit those server applications 1 gigabyte (GB) of RAM.</span></span>
 
-**تغيير الحجم حسب الدور ونوع الطبولوجيا**
+<span data-ttu-id="ad8d7-182">**تغيير الحجم حسب الدور ونوع الطبولوجيا**</span><span class="sxs-lookup"><span data-stu-id="ad8d7-182">**Sizing by role and topology type**</span></span>
 
-| الطبولوجيا‏‎   | الدور (نوع العقدة)              | مراكز المعالج الموصى بها | حجم الذاكرة المستحسن (GB) |
+| <span data-ttu-id="ad8d7-183">الطبولوجيا‏‎</span><span class="sxs-lookup"><span data-stu-id="ad8d7-183">Topology</span></span>   | <span data-ttu-id="ad8d7-184">الدور (نوع العقدة)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-184">Role (node type)</span></span>              | <span data-ttu-id="ad8d7-185">مراكز المعالج الموصى بها</span><span class="sxs-lookup"><span data-stu-id="ad8d7-185">Recommended processor cores</span></span> | <span data-ttu-id="ad8d7-186">حجم الذاكرة المستحسن (GB)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-186">Recommended memory (GB)</span></span> |
 |------------|-------------------------------|-----------------------------|-------------------------|
-| الإنتاج | AOS، إدارة البيانات، الدُفعة   | 8                           | 24                      |
-|            | أداة تقارير الإدارة           | 4                           | 16                      |
-|            | خدمات تقارير SQL Server | 4                           | 16                      |
-|            | المنسق                  | 4                           | 16                      |
-| وضع الحماية‬    | AOS، إدارة البيانات، الدُفعة   | 4                           | 24                      |
-|            | أداة تقارير الإدارة           | 4                           | 16                      |
-|            | خدمات تقارير SQL Server | 4                           | 16                      |
-|            | المنسق                  | 4                           | 16                      |
+| <span data-ttu-id="ad8d7-187">الإنتاج</span><span class="sxs-lookup"><span data-stu-id="ad8d7-187">Production</span></span> | <span data-ttu-id="ad8d7-188">AOS، إدارة البيانات، الدُفعة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-188">AOS, Data management, Batch</span></span>   | <span data-ttu-id="ad8d7-189">8</span><span class="sxs-lookup"><span data-stu-id="ad8d7-189">8</span></span>                           | <span data-ttu-id="ad8d7-190">24</span><span class="sxs-lookup"><span data-stu-id="ad8d7-190">24</span></span>                      |
+|            | <span data-ttu-id="ad8d7-191">أداة تقارير الإدارة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-191">Management Reporter</span></span>           | <span data-ttu-id="ad8d7-192">4</span><span class="sxs-lookup"><span data-stu-id="ad8d7-192">4</span></span>                           | <span data-ttu-id="ad8d7-193">16</span><span class="sxs-lookup"><span data-stu-id="ad8d7-193">16</span></span>                      |
+|            | <span data-ttu-id="ad8d7-194">خدمات تقارير SQL Server</span><span class="sxs-lookup"><span data-stu-id="ad8d7-194">SQL Server Reporting Services</span></span> | <span data-ttu-id="ad8d7-195">4</span><span class="sxs-lookup"><span data-stu-id="ad8d7-195">4</span></span>                           | <span data-ttu-id="ad8d7-196">16</span><span class="sxs-lookup"><span data-stu-id="ad8d7-196">16</span></span>                      |
+|            | <span data-ttu-id="ad8d7-197">المنسق</span><span class="sxs-lookup"><span data-stu-id="ad8d7-197">Orchestrator</span></span>                  | <span data-ttu-id="ad8d7-198">4</span><span class="sxs-lookup"><span data-stu-id="ad8d7-198">4</span></span>                           | <span data-ttu-id="ad8d7-199">16</span><span class="sxs-lookup"><span data-stu-id="ad8d7-199">16</span></span>                      |
+| <span data-ttu-id="ad8d7-200">وضع الحماية‬</span><span class="sxs-lookup"><span data-stu-id="ad8d7-200">Sandbox</span></span>    | <span data-ttu-id="ad8d7-201">AOS، إدارة البيانات، الدُفعة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-201">AOS, Data management, Batch</span></span>   | <span data-ttu-id="ad8d7-202">4</span><span class="sxs-lookup"><span data-stu-id="ad8d7-202">4</span></span>                           | <span data-ttu-id="ad8d7-203">24</span><span class="sxs-lookup"><span data-stu-id="ad8d7-203">24</span></span>                      |
+|            | <span data-ttu-id="ad8d7-204">أداة تقارير الإدارة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-204">Management Reporter</span></span>           | <span data-ttu-id="ad8d7-205">4</span><span class="sxs-lookup"><span data-stu-id="ad8d7-205">4</span></span>                           | <span data-ttu-id="ad8d7-206">16</span><span class="sxs-lookup"><span data-stu-id="ad8d7-206">16</span></span>                      |
+|            | <span data-ttu-id="ad8d7-207">خدمات تقارير SQL Server</span><span class="sxs-lookup"><span data-stu-id="ad8d7-207">SQL Server Reporting Services</span></span> | <span data-ttu-id="ad8d7-208">4</span><span class="sxs-lookup"><span data-stu-id="ad8d7-208">4</span></span>                           | <span data-ttu-id="ad8d7-209">16</span><span class="sxs-lookup"><span data-stu-id="ad8d7-209">16</span></span>                      |
+|            | <span data-ttu-id="ad8d7-210">المنسق</span><span class="sxs-lookup"><span data-stu-id="ad8d7-210">Orchestrator</span></span>                  | <span data-ttu-id="ad8d7-211">4</span><span class="sxs-lookup"><span data-stu-id="ad8d7-211">4</span></span>                           | <span data-ttu-id="ad8d7-212">16</span><span class="sxs-lookup"><span data-stu-id="ad8d7-212">16</span></span>                      |
 
-**تقديرات تغيير الحجم الأدنى للإنتاج ونشر وضع الحماية\***
+<span data-ttu-id="ad8d7-213">**تقديرات تغيير الحجم الأدنى للإنتاج ونشر وضع الحماية\***</span><span class="sxs-lookup"><span data-stu-id="ad8d7-213">**Minimum sizing estimates for production and sandbox deployments\***</span></span>
 
-| الطبولوجيا‏‎                                        | الدور                          | عدد المثيلات |
+| <span data-ttu-id="ad8d7-214">الطبولوجيا‏‎</span><span class="sxs-lookup"><span data-stu-id="ad8d7-214">Topology</span></span>                                        | <span data-ttu-id="ad8d7-215">الدور</span><span class="sxs-lookup"><span data-stu-id="ad8d7-215">Role</span></span>                          | <span data-ttu-id="ad8d7-216">عدد المثيلات</span><span class="sxs-lookup"><span data-stu-id="ad8d7-216">Number of instances</span></span> |
 |-------------------------------------------------|-------------------------------|---------------------|
-| الإنتاج                                      | AOS (إدارة البيانات، الدُفعة)  | 3                   |
-|                                                 | أداة تقارير الإدارة           | 2                   |
-|                                                 | خدمات تقارير SQL Server | 1                   |
-|                                                 | المنسق\*\*              | 3                   |
-| وضع الحماية‬                                         | AOS، إدارة البيانات، الدُفعة   | 2                   |
-|                                                 | أداة تقارير الإدارة           | 1                   |
-|                                                 | خدمات تقارير SQL Server | 1                   |
-|                                                 | المنسق                  | 3                   |
-| *طبولوجيا ملخص الإنتاج ووضع الحماية* |                               | *16*                |
+| <span data-ttu-id="ad8d7-217">الإنتاج</span><span class="sxs-lookup"><span data-stu-id="ad8d7-217">Production</span></span>                                      | <span data-ttu-id="ad8d7-218">AOS (إدارة البيانات، الدُفعة)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-218">AOS (Data management, Batch)</span></span>  | <span data-ttu-id="ad8d7-219">3</span><span class="sxs-lookup"><span data-stu-id="ad8d7-219">3</span></span>                   |
+|                                                 | <span data-ttu-id="ad8d7-220">أداة تقارير الإدارة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-220">Management Reporter</span></span>           | <span data-ttu-id="ad8d7-221">2</span><span class="sxs-lookup"><span data-stu-id="ad8d7-221">2</span></span>                   |
+|                                                 | <span data-ttu-id="ad8d7-222">خدمات تقارير SQL Server</span><span class="sxs-lookup"><span data-stu-id="ad8d7-222">SQL Server Reporting Services</span></span> | <span data-ttu-id="ad8d7-223">1</span><span class="sxs-lookup"><span data-stu-id="ad8d7-223">1</span></span>                   |
+|                                                 | <span data-ttu-id="ad8d7-224">المنسق\*\*</span><span class="sxs-lookup"><span data-stu-id="ad8d7-224">Orchestrator\*\*</span></span>              | <span data-ttu-id="ad8d7-225">3</span><span class="sxs-lookup"><span data-stu-id="ad8d7-225">3</span></span>                   |
+| <span data-ttu-id="ad8d7-226">وضع الحماية‬</span><span class="sxs-lookup"><span data-stu-id="ad8d7-226">Sandbox</span></span>                                         | <span data-ttu-id="ad8d7-227">AOS، إدارة البيانات، الدُفعة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-227">AOS, Data management, Batch</span></span>   | <span data-ttu-id="ad8d7-228">2</span><span class="sxs-lookup"><span data-stu-id="ad8d7-228">2</span></span>                   |
+|                                                 | <span data-ttu-id="ad8d7-229">أداة تقارير الإدارة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-229">Management Reporter</span></span>           | <span data-ttu-id="ad8d7-230">1</span><span class="sxs-lookup"><span data-stu-id="ad8d7-230">1</span></span>                   |
+|                                                 | <span data-ttu-id="ad8d7-231">خدمات تقارير SQL Server</span><span class="sxs-lookup"><span data-stu-id="ad8d7-231">SQL Server Reporting Services</span></span> | <span data-ttu-id="ad8d7-232">1</span><span class="sxs-lookup"><span data-stu-id="ad8d7-232">1</span></span>                   |
+|                                                 | <span data-ttu-id="ad8d7-233">المنسق</span><span class="sxs-lookup"><span data-stu-id="ad8d7-233">Orchestrator</span></span>                  | <span data-ttu-id="ad8d7-234">3</span><span class="sxs-lookup"><span data-stu-id="ad8d7-234">3</span></span>                   |
+| <span data-ttu-id="ad8d7-235">*طبولوجيا ملخص الإنتاج ووضع الحماية*</span><span class="sxs-lookup"><span data-stu-id="ad8d7-235">*Summary for production and sandbox topologies*</span></span> |                               | <span data-ttu-id="ad8d7-236">*16*</span><span class="sxs-lookup"><span data-stu-id="ad8d7-236">*16*</span></span>                |
 
-\* يتم التحقق من صحة الأرقام في هذا الجدول بواسطة عملاء المعاينة وقد يتم ضبطها استنادًا إلى ملاحظات هؤلاء العملاء.
+<span data-ttu-id="ad8d7-237">\* يتم التحقق من صحة الأرقام في هذا الجدول بواسطة عملاء المعاينة وقد يتم ضبطها استنادًا إلى ملاحظات هؤلاء العملاء.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-237">\* The numbers in this table are being validated by our preview customers and might be adjusted based on the feedback from those customers.</span></span>
 
-\*\* تم تعيين المنسق كنوع عقدة أساسي، وسيتم استخدامه أيضًا لتشغيل خدمات Service Fabric أيضًا.
+<span data-ttu-id="ad8d7-238">\*\* تم تعيين المنسق كنوع عقدة أساسي، وسيتم استخدامه أيضًا لتشغيل خدمات Service Fabric أيضًا.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-238">\*\* Orchestrator is designated as the primary node type and will also be used to run the Service Fabric services.</span></span>
 
-**تقديرات SQL Server الخلفي وAD DS الأولية**
+<span data-ttu-id="ad8d7-239">**تقديرات SQL Server الخلفي وAD DS الأولية**</span><span class="sxs-lookup"><span data-stu-id="ad8d7-239">**Initial estimates for the back-end SQL Server and AD DS**</span></span>
 
 <table>
 <thead>
 <tr>
 <th></th>
-<th>الدور</th>
-<th>الأجهزة الظاهرية/المثيلات</th>
-<th>المراكز</th>
-<th>إجمالي المراكز</th>
-<th>الذاكرة لكل مثيل</th>
-<th>إجمالي الذاكرة (غيغابايت)</th>
+<th><span data-ttu-id="ad8d7-240">الدور</span><span class="sxs-lookup"><span data-stu-id="ad8d7-240">Role</span></span></th>
+<th><span data-ttu-id="ad8d7-241">الأجهزة الظاهرية/المثيلات</span><span class="sxs-lookup"><span data-stu-id="ad8d7-241">VMs/instances</span></span></th>
+<th><span data-ttu-id="ad8d7-242">المراكز</span><span class="sxs-lookup"><span data-stu-id="ad8d7-242">Cores</span></span></th>
+<th><span data-ttu-id="ad8d7-243">إجمالي المراكز</span><span class="sxs-lookup"><span data-stu-id="ad8d7-243">Total cores</span></span></th>
+<th><span data-ttu-id="ad8d7-244">الذاكرة لكل مثيل</span><span class="sxs-lookup"><span data-stu-id="ad8d7-244">Memory per instance (GB)</span></span></th>
+<th><span data-ttu-id="ad8d7-245">إجمالي الذاكرة (غيغابايت)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-245">Total memory (GB)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="3"><strong>البنية الأساسية المشتركة</strong></td>
-<td>SQL Server*</td>
-<td>2</td>
-<td>8</td>
-<td>16</td>
-<td>32</td>
-<td>64</td>
+<td rowspan="3"><span data-ttu-id="ad8d7-246"><strong>البنية الأساسية المشتركة</strong></span><span class="sxs-lookup"><span data-stu-id="ad8d7-246"><strong>Shared infrastructure</strong></span></span></td>
+<td><span data-ttu-id="ad8d7-247">SQL Server*</span><span class="sxs-lookup"><span data-stu-id="ad8d7-247">SQL Server*</span></span></td>
+<td><span data-ttu-id="ad8d7-248">2</span><span class="sxs-lookup"><span data-stu-id="ad8d7-248">2</span></span></td>
+<td><span data-ttu-id="ad8d7-249">8</span><span class="sxs-lookup"><span data-stu-id="ad8d7-249">8</span></span></td>
+<td><span data-ttu-id="ad8d7-250">16</span><span class="sxs-lookup"><span data-stu-id="ad8d7-250">16</span></span></td>
+<td><span data-ttu-id="ad8d7-251">32</span><span class="sxs-lookup"><span data-stu-id="ad8d7-251">32</span></span></td>
+<td><span data-ttu-id="ad8d7-252">64</span><span class="sxs-lookup"><span data-stu-id="ad8d7-252">64</span></span></td>
 </tr>
 <tr>
-<td>خادم الملفات/شبكة منطقة التخزين/مساحة تخزين عالية التوافر</td>
-<td colspan="5"><p>يجب أن تستند مساحة التخزين الخلفية على محركات الأقراص ذات الحالة الصلبة على شبكة منطقة التخزين (SAN) في وقت التشغيل.</p>
-<p>يستند الحجم وإنتاجية عمليات الإدخال الإخراج في الثانية (IOPS) إلى حجم حمل العمل.</p></td>
+<td><span data-ttu-id="ad8d7-253">خادم الملفات/شبكة منطقة التخزين/مساحة تخزين عالية التوافر</span><span class="sxs-lookup"><span data-stu-id="ad8d7-253">File server/Storage area network/Highly available storage</span></span></td>
+<td colspan="5"><p><span data-ttu-id="ad8d7-254">يجب أن تستند مساحة التخزين الخلفية على محركات الأقراص ذات الحالة الصلبة على شبكة منطقة التخزين (SAN) في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-254">The back-end storage must be based on solid-state drives (SSDs) on a runtime storage area network (SAN).</span></span></p>
+<p><span data-ttu-id="ad8d7-255">يستند الحجم وإنتاجية عمليات الإدخال الإخراج في الثانية (IOPS) إلى حجم حمل العمل.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-255">Size and input/output operations per second (IOPS) throughput is based on the size of the workload.</span></span></p></td>
 </tr>
 <tr>
-<td>Active Directory</td>
-<td>3</td>
-<td>4</td>
-<td>12</td>
-<td>16</td>
-<td>48</td>
+<td><span data-ttu-id="ad8d7-256">Active Directory</span><span class="sxs-lookup"><span data-stu-id="ad8d7-256">Active Directory</span></span></td>
+<td><span data-ttu-id="ad8d7-257">3</span><span class="sxs-lookup"><span data-stu-id="ad8d7-257">3</span></span></td>
+<td><span data-ttu-id="ad8d7-258">4</span><span class="sxs-lookup"><span data-stu-id="ad8d7-258">4</span></span></td>
+<td><span data-ttu-id="ad8d7-259">12</span><span class="sxs-lookup"><span data-stu-id="ad8d7-259">12</span></span></td>
+<td><span data-ttu-id="ad8d7-260">16</span><span class="sxs-lookup"><span data-stu-id="ad8d7-260">16</span></span></td>
+<td><span data-ttu-id="ad8d7-261">48</span><span class="sxs-lookup"><span data-stu-id="ad8d7-261">48</span></span></td>
 </tr>
 <tr>
-<td><em>ملخص البنية الأساسية المشتركة</em></td>
+<td><span data-ttu-id="ad8d7-262"><em>ملخص البنية الأساسية المشتركة</em></span><span class="sxs-lookup"><span data-stu-id="ad8d7-262"><em>Summary for shared infrastructure</em></span></span></td>
 <td></td>
-<td><em>5</em></td>
+<td><span data-ttu-id="ad8d7-263"><em>5</em></span><span class="sxs-lookup"><span data-stu-id="ad8d7-263"><em>5</em></span></span></td>
 <td></td>
-<td><em>28</em></td>
+<td><span data-ttu-id="ad8d7-264"><em>28</em></span><span class="sxs-lookup"><span data-stu-id="ad8d7-264"><em>28</em></span></span></td>
 <td></td>
-<td><em>112</em></td>
+<td><span data-ttu-id="ad8d7-265"><em>112</em></span><span class="sxs-lookup"><span data-stu-id="ad8d7-265"><em>112</em></span></span></td>
 </tr>
 </tbody>
 </table>
 
-\*تتوقف أحجام SQL Server إلى حد بعيد على أحمال العمل. للحصول على مزيد من المعلومات، راجع [ضبط حجم الأجهزة للبيئات المحلية](hardware-sizing-on-premises-environments.md).
+<span data-ttu-id="ad8d7-266">\*تتوقف أحجام SQL Server إلى حد بعيد على أحمال العمل.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-266">\* SQL Server sizes are highly dependent on workloads.</span></span> <span data-ttu-id="ad8d7-267">للحصول على مزيد من المعلومات، راجع [ضبط حجم الأجهزة للبيئات المحلية](hardware-sizing-on-premises-environments.md).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-267">For more information, see [Hardware sizing for on-premises environments](hardware-sizing-on-premises-environments.md).</span></span>
 
-## <a name="storage"></a>مساحة التخزين
+## <a name="storage"></a><span data-ttu-id="ad8d7-268">مساحة التخزين</span><span class="sxs-lookup"><span data-stu-id="ad8d7-268">Storage</span></span>
 
-- **AOS** – يستخدم Finance and Operations (محلي) مشاركة Server Message Block (SMB) 3.0 لتخزين البيانات غير المهيكلة. للحصول على مزيد من المعلومات، راجع [مساحات التخزين المباشرة في Windows Server 2016](/windows-server/storage/storage-spaces/storage-spaces-direct-overview).
-- **SQL** – الخياران التاليان قابلان للتطبيق:
+- <span data-ttu-id="ad8d7-269">**AOS** – يستخدم Finance and Operations (محلي) مشاركة Server Message Block (SMB) 3.0 لتخزين البيانات غير المهيكلة.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-269">**AOS** – Finance and Operations (on-premises) uses a Server Message Block (SMB) 3.0 share to store unstructured data.</span></span> <span data-ttu-id="ad8d7-270">للحصول على مزيد من المعلومات، راجع [مساحات التخزين المباشرة في Windows Server 2016](/windows-server/storage/storage-spaces/storage-spaces-direct-overview).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-270">For more information, see [Storage Spaces Direct in Windows Server 2016](/windows-server/storage/storage-spaces/storage-spaces-direct-overview).</span></span>
+- <span data-ttu-id="ad8d7-271">**SQL** – الخياران التاليان قابلان للتطبيق:</span><span class="sxs-lookup"><span data-stu-id="ad8d7-271">**SQL** – The following options are viable:</span></span>
 
-    - إعداد SSD عالي التوافر
-    - شبكة منطقة تخزين (SAN) محسن لإنتاجية معالجة الحركات عبر الإنترنت (OLTP)
-    - مساحة تخزين متصلة بشكل مباشر (DAS) عالية الأداء 
+    - <span data-ttu-id="ad8d7-272">إعداد SSD عالي التوافر</span><span class="sxs-lookup"><span data-stu-id="ad8d7-272">A highly available SSD setup</span></span>
+    - <span data-ttu-id="ad8d7-273">شبكة منطقة تخزين (SAN) محسن لإنتاجية معالجة الحركات عبر الإنترنت (OLTP)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-273">A SAN that is optimized for online transaction processing (OLTP) throughputs</span></span>
+    - <span data-ttu-id="ad8d7-274">مساحة تخزين متصلة بشكل مباشر (DAS) عالية الأداء</span><span class="sxs-lookup"><span data-stu-id="ad8d7-274">High-performance direct-attached storage (DAS)</span></span> 
 
-- **عمليات الإدخال/الإخراج في الثانية لكل من SQL Server وإدارة البيانات** - يجب أن تتضمن مساحة التخزين لكل من إدارة البيانات وSQL Server على 2,000 عملية إدخال/إخراج في الثانية على الأقل. تتوقف عمليات الإدخال/الإخراج في الثانية للإنتاج على العديد من العوامل. للحصول على مزيد من المعلومات، راجع [ضبط حجم الأجهزة للبيئات المحلية](hardware-sizing-on-premises-environments.md).
-- **عمليات الإدخال/الإخراج في الثانية للأجهزة الظاهرية** -يجب أن يكون لكل جهاز ظاهري 100 عملية إدخال/إخراج في الثانية للكتابة.
+- <span data-ttu-id="ad8d7-275">**عمليات الإدخال/الإخراج في الثانية لكل من SQL Server وإدارة البيانات** - يجب أن تتضمن مساحة التخزين لكل من إدارة البيانات وSQL Server على 2,000 عملية إدخال/إخراج في الثانية على الأقل.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-275">**SQL Server and data management IOPS** – The storage for both data management and SQL Server should have at least 2,000 IOPS.</span></span> <span data-ttu-id="ad8d7-276">تتوقف عمليات الإدخال/الإخراج في الثانية للإنتاج على العديد من العوامل.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-276">Production IOPS depends on many factors.</span></span> <span data-ttu-id="ad8d7-277">للحصول على مزيد من المعلومات، راجع [ضبط حجم الأجهزة للبيئات المحلية](hardware-sizing-on-premises-environments.md).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-277">For more information, see [Hardware sizing for on-premises environments](hardware-sizing-on-premises-environments.md).</span></span>
+- <span data-ttu-id="ad8d7-278">**عمليات الإدخال/الإخراج في الثانية للأجهزة الظاهرية** -يجب أن يكون لكل جهاز ظاهري 100 عملية إدخال/إخراج في الثانية للكتابة.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-278">**VM IOPS** – Each VM should have at least 100 write IOPS.</span></span>
 
-## <a name="virtual-host-requirements"></a>متطلبات الأجهزة المضيفة الظاهرية
-عند إعداد الأجهزة المضيفة الظاهرية لبيئة Finance and Operations (محلي)، راجع الإرشادات في [تخطيط وإعداد نظام مجموعة Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation) و[وصف نظام مجموعة Service Fabric](/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description). يجب أن يتضمن كل جهاز مضيف ظاهري العدد الكافي من المراكز للبنية الأساسية التي يجري ضبط حجمها من أجله. تعتبر الإعدادات المتقدمة المتعددة ممكنة، حيث يقيم SQL Server على الجهاز الفعلي ولكن كل شيء آخر تحوّل إلى افتراضي. إذا تحوّل SQL Server إلى افتراضي، فيجب أن يكون النظام الفرعي للقرص عبارة عن SAN سريعة أو شيء مكافئ لها. في جميع الحالات، تأكد من أن الإعداد الأساسي للمضيف ظاهري عالي التوافر ومتكرر. في جميع الحالات، عند استخدام المحاكاة الافتراضية، يجب عدم أخذ لقطات للأجهزة الظاهرية.
+## <a name="virtual-host-requirements"></a><span data-ttu-id="ad8d7-279">متطلبات الأجهزة المضيفة الظاهرية</span><span class="sxs-lookup"><span data-stu-id="ad8d7-279">Virtual host requirements</span></span>
+<span data-ttu-id="ad8d7-280">عند إعداد الأجهزة المضيفة الظاهرية لبيئة Finance and Operations (محلي)، راجع الإرشادات في [تخطيط وإعداد نظام مجموعة Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation) و[وصف نظام مجموعة Service Fabric](/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-280">When you set up the virtual hosts for a Finance and Operations (on-premises) environment, see the guidelines in [Plan and prepare your Service Fabric cluster](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation) and [Describing a service fabric cluster](/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description).</span></span> <span data-ttu-id="ad8d7-281">يجب أن يتضمن كل جهاز مضيف ظاهري العدد الكافي من المراكز للبنية الأساسية التي يجري ضبط حجمها من أجله.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-281">Each virtual host should have enough cores for the infrastructure that is being sized.</span></span> <span data-ttu-id="ad8d7-282">تعتبر الإعدادات المتقدمة المتعددة ممكنة، حيث يقيم SQL Server على الجهاز الفعلي ولكن كل شيء آخر تحوّل إلى افتراضي.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-282">Multiple advanced configurations are possible, where SQL Server resides on physical hardware but everything else is virtualized.</span></span> <span data-ttu-id="ad8d7-283">إذا تحوّل SQL Server إلى افتراضي، فيجب أن يكون النظام الفرعي للقرص عبارة عن SAN سريعة أو شيء مكافئ لها.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-283">If SQL Server is virtualized, the disk subsystem should be a fast SAN or the equivalent.</span></span> <span data-ttu-id="ad8d7-284">في جميع الحالات، تأكد من أن الإعداد الأساسي للمضيف ظاهري عالي التوافر ومتكرر.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-284">In all cases, make sure that the basic setup of the virtual host is highly available and redundant.</span></span> <span data-ttu-id="ad8d7-285">في جميع الحالات، عند استخدام المحاكاة الافتراضية، يجب عدم أخذ لقطات للأجهزة الظاهرية.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-285">In all cases, when virtualization is used, no VM snapshots should be taken.</span></span>
 
-## <a name="software-requirements-for-all-server-computers"></a>متطلبات البرامج لكافة أجهزة كمبيوتر الخادم
-يجب أن تكون البرامج التالية موجودة على الكمبيوتر قبل تثبيت أي من مكونات Finance and Operations (محلي):
+## <a name="software-requirements-for-all-server-computers"></a><span data-ttu-id="ad8d7-286">متطلبات البرامج لكافة أجهزة كمبيوتر الخادم</span><span class="sxs-lookup"><span data-stu-id="ad8d7-286">Software requirements for all server computers</span></span>
+<span data-ttu-id="ad8d7-287">يجب أن تكون البرامج التالية موجودة على الكمبيوتر قبل تثبيت أي من مكونات Finance and Operations (محلي):</span><span class="sxs-lookup"><span data-stu-id="ad8d7-287">The following software must be present on a computer before any Finance and Operations (on-premises) components can be installed:</span></span>
 
-- الإصدار 4.5.1 Microsoft .NET Framework أو إصدار لاحق
-- Service Fabric
+- <span data-ttu-id="ad8d7-288">الإصدار 4.5.1 Microsoft .NET Framework أو إصدار لاحق</span><span class="sxs-lookup"><span data-stu-id="ad8d7-288">The Microsoft .NET Framework version 4.5.1 or later</span></span>
+- <span data-ttu-id="ad8d7-289">Service Fabric</span><span class="sxs-lookup"><span data-stu-id="ad8d7-289">Service Fabric</span></span>
 
-لمزيد من المعلومات، راجع [تخطيط وإعداد نظام مجموعة Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+<span data-ttu-id="ad8d7-290">لمزيد من المعلومات، راجع [تخطيط وإعداد نظام مجموعة Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-290">For more information, see [Plan and prepare your Service Fabric cluster](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).</span></span>
 
-## <a name="supported-server-operating-systems"></a>أنظمة تشغيل الخادم المعتمدة
-يسرد الجدول التالي أنظمة تشغيل الخادم المعتمدة لمكونات Finance and Operations.
+## <a name="supported-server-operating-systems"></a><span data-ttu-id="ad8d7-291">أنظمة تشغيل الخادم المعتمدة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-291">Supported server operating systems</span></span>
+<span data-ttu-id="ad8d7-292">يسرد الجدول التالي أنظمة تشغيل الخادم المعتمدة لمكونات Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-292">The following table lists the server operating systems that are supported for Finance and Operations components.</span></span>
 
-| نظام التشغيل                                     | ملاحظات |
+| <span data-ttu-id="ad8d7-293">نظام التشغيل</span><span class="sxs-lookup"><span data-stu-id="ad8d7-293">Operating system</span></span>                                     | <span data-ttu-id="ad8d7-294">ملاحظات</span><span class="sxs-lookup"><span data-stu-id="ad8d7-294">Notes</span></span> |
 |------------------------------------------------------|-------|
-| Microsoft Windows Server 2016 Datacenter أو Standard | تتعلق هذه المتطلبات بقاعدة البيانات ونظام مجموعة Service Fabric الذي يستضيف AOS. |
+| <span data-ttu-id="ad8d7-295">Microsoft Windows Server 2016 Datacenter أو Standard</span><span class="sxs-lookup"><span data-stu-id="ad8d7-295">Microsoft Windows Server 2016 Datacenter or Standard</span></span> | <span data-ttu-id="ad8d7-296">تتعلق هذه المتطلبات بقاعدة البيانات ونظام مجموعة Service Fabric الذي يستضيف AOS.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-296">These requirements are for the database and the Service Fabric cluster that hosts AOS.</span></span> |
 
-## <a name="software-requirements-for-database-servers"></a>متطلبات البرامج لخوادم قاعدة البيانات
+## <a name="software-requirements-for-database-servers"></a><span data-ttu-id="ad8d7-297">متطلبات البرامج لخوادم قاعدة البيانات</span><span class="sxs-lookup"><span data-stu-id="ad8d7-297">Software requirements for database servers</span></span>
 
-- يتم دعم إصدارات 64 بت فقط من SQL Server 2016.
-- في بيئة إنتاج، من المستحسن أن تقوم بتثبيت آخر تحديث تراكمي (CU) لإصدار SQL Server الذي تستخدمه.
-- يدعم Finance and Operations (محلي) ترتيبات Unicode التي لا تتحسس حالة الأحرف وتتحسس علامات التمييز وكانا ولا تتحسس العرض. يجب أن يكون الترتيب مطابقًا لإعدادات Windows المحلية لأجهزة الكمبيوتر التي تقوم بتشغيل مثيلات AOS. إذا كنت تقوم بإعداد عملية تثبيت جديدة، فمن المستحسن أن تحدد ترتيب Windows بدلاً من ترتيب SQL Server. للحصول على مزيد من المعلومات حول كيفية تحديد ترتيب لقاعدة بيانات SQL Server، راجع [وثائق SQL Server](/sql/sql-server/sql-server-technical-documentation).
+- <span data-ttu-id="ad8d7-298">يتم دعم إصدارات 64 بت فقط من SQL Server 2016.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-298">Only 64-bit versions of SQL Server 2016 are supported.</span></span>
+- <span data-ttu-id="ad8d7-299">في بيئة إنتاج، من المستحسن أن تقوم بتثبيت آخر تحديث تراكمي (CU) لإصدار SQL Server الذي تستخدمه.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-299">In a production environment, we recommend that you install the latest cumulative update (CU) for the version of SQL Server that you’re using.</span></span>
+- <span data-ttu-id="ad8d7-300">يدعم Finance and Operations (محلي) ترتيبات Unicode التي لا تتحسس حالة الأحرف وتتحسس علامات التمييز وكانا ولا تتحسس العرض.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-300">Finance and Operations (on-premises) supports Unicode collations that are case-insensitive, accent-sensitive, kana-sensitive, and width-insensitive.</span></span> <span data-ttu-id="ad8d7-301">يجب أن يكون الترتيب مطابقًا لإعدادات Windows المحلية لأجهزة الكمبيوتر التي تقوم بتشغيل مثيلات AOS.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-301">The collation must match the Windows locale of the computers that are running AOS instances.</span></span> <span data-ttu-id="ad8d7-302">إذا كنت تقوم بإعداد عملية تثبيت جديدة، فمن المستحسن أن تحدد ترتيب Windows بدلاً من ترتيب SQL Server.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-302">If you’re setting up a new installation, we recommend that you select a Windows collation instead of a SQL Server collation.</span></span> <span data-ttu-id="ad8d7-303">للحصول على مزيد من المعلومات حول كيفية تحديد ترتيب لقاعدة بيانات SQL Server، راجع [وثائق SQL Server](/sql/sql-server/sql-server-technical-documentation).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-303">For more information about how to select a collation for a SQL Server database, see the [SQL Server documentation](/sql/sql-server/sql-server-technical-documentation).</span></span>
 
-يسرد الجدول التالي إصدارات SQL Server المعتمدة لقواعد بيانات Finance and Operations. للحصول على مزيد من المعلومات، راجع الحد الأدنى من متطلبات الأجهزة في [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2016).
+<span data-ttu-id="ad8d7-304">يسرد الجدول التالي إصدارات SQL Server المعتمدة لقواعد بيانات Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-304">The following table lists the SQL Server versions that are supported for the Finance and Operations databases.</span></span> <span data-ttu-id="ad8d7-305">للحصول على مزيد من المعلومات، راجع الحد الأدنى من متطلبات الأجهزة في [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2016).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-305">For more information, see the minimum hardware requirements for [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2016).</span></span>
 
-| الطلب                                                      | ملاحظات |
+| <span data-ttu-id="ad8d7-306">الطلب</span><span class="sxs-lookup"><span data-stu-id="ad8d7-306">Requirement</span></span>                                                      | <span data-ttu-id="ad8d7-307">ملاحظات</span><span class="sxs-lookup"><span data-stu-id="ad8d7-307">Notes</span></span> |
 |------------------------------------------------------------------|-------|
-| Microsoft SQL Server 2016 Standard Edition أو Enterprise Edition | بالنسبة إلى متطلبات الأجهزة لـ SQL Server 2016، راجع [متطلبات الأجهزة والبرامج لتثبيت SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server). |
+| <span data-ttu-id="ad8d7-308">Microsoft SQL Server 2016 Standard Edition أو Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="ad8d7-308">Microsoft SQL Server 2016 Standard Edition or Enterprise Edition</span></span> | <span data-ttu-id="ad8d7-309">بالنسبة إلى متطلبات الأجهزة لـ SQL Server 2016، راجع [متطلبات الأجهزة والبرامج لتثبيت SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-309">For the hardware requirements for SQL Server 2016, see [Hardware and Software Requirements for Installing SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).</span></span> |
 
-## <a name="software-requirements-for-client-computers"></a>متطلبات البرامج لأجهزة كمبيوتر العميل
-يمكن تشغيل تطبيق الويب Finance and Operations على أي جهاز يتضمن مستعرض ويب يتوافق مع HTML 5.0. فيما يلي بعض مجموعات الجهاز/المستعرض المعينة التي أقرتها Microsoft:
+## <a name="software-requirements-for-client-computers"></a><span data-ttu-id="ad8d7-310">متطلبات البرامج لأجهزة كمبيوتر العميل</span><span class="sxs-lookup"><span data-stu-id="ad8d7-310">Software requirements for client computers</span></span>
+<span data-ttu-id="ad8d7-311">يمكن تشغيل تطبيق الويب Finance and Operations على أي جهاز يتضمن مستعرض ويب يتوافق مع HTML 5.0.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-311">The Finance and Operations web application can run on any device that has an HTML 5.0–compliant web browser.</span></span> <span data-ttu-id="ad8d7-312">فيما يلي بعض مجموعات الجهاز/المستعرض المعينة التي أقرتها Microsoft:</span><span class="sxs-lookup"><span data-stu-id="ad8d7-312">Here are some of the specific device/browser combinations that Microsoft has confirmed:</span></span>
 
-- Microsoft Edge (أحدث إصدار تمت إتاحته للجمهور) على Windows 10
-- Internet Explorer 11 على Windows 10 أو Windows 8.1 أو Windows 7
-- Google Chrome (أحدث إصدار تمت إتاحته) على Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو Google Nexus 10 tablet
-- Apple Safari (أحدث إصدار تمت إتاحته) على Mac OS X 10.10 ‏(Yosemite)‏ أو 10.11 (El Capitan)‏ أو 10.12 (Sierra) أو Apple iPad
+- <span data-ttu-id="ad8d7-313">Microsoft Edge (أحدث إصدار تمت إتاحته للجمهور) على Windows 10</span><span class="sxs-lookup"><span data-stu-id="ad8d7-313">Microsoft Edge (latest publicly available version) on Windows 10</span></span>
+- <span data-ttu-id="ad8d7-314">Internet Explorer 11 على Windows 10 أو Windows 8.1 أو Windows 7</span><span class="sxs-lookup"><span data-stu-id="ad8d7-314">Internet Explorer 11 on Windows 10, Windows 8.1, or Windows 7</span></span>
+- <span data-ttu-id="ad8d7-315">Google Chrome (أحدث إصدار تمت إتاحته) على Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو Google Nexus 10 tablet</span><span class="sxs-lookup"><span data-stu-id="ad8d7-315">Google Chrome (latest publicly available version) on Windows 10, Windows 8.1, Windows 8, Windows 7, or Google Nexus 10 tablet</span></span>
+- <span data-ttu-id="ad8d7-316">Apple Safari (أحدث إصدار تمت إتاحته) على Mac OS X 10.10 ‏(Yosemite)‏ أو 10.11 (El Capitan)‏ أو 10.12 (Sierra) أو Apple iPad</span><span class="sxs-lookup"><span data-stu-id="ad8d7-316">Apple Safari (latest publicly available version) on Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) or 10.12 (Sierra), or Apple iPad</span></span>
 
-## <a name="software-requirements-for-active-directory-federation-services"></a>متطلبات البرامج لخدمات الأمان المشترك لـ Active Directory 
-خدمات الأمان المشترك لـ Active directory (AD FS) في نظام Windows Server 2016 مطلوبة
+## <a name="software-requirements-for-active-directory-federation-services"></a><span data-ttu-id="ad8d7-317">متطلبات البرامج لخدمات الأمان المشترك لـ Active Directory</span><span class="sxs-lookup"><span data-stu-id="ad8d7-317">Software requirements for Active Directory Federation Services</span></span> 
+<span data-ttu-id="ad8d7-318">خدمات الأمان المشترك لـ Active directory (AD FS) في نظام Windows Server 2016 مطلوبة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-318">Active Directory Federation Services (AD FS) on Windows Server 2016 is required.</span></span>
 
-يجب أن تكون وحدة التحكم بالمجال Windows Server 2012 R2 أو إصدار أحدث، ويجب أن يكون المستوى الوظيفي للمجال 2012 R2 أو أكبر لمزيد من المعلومات حول المستويات الوظيفية للمجال، راجع الصفحات التالية:
+<span data-ttu-id="ad8d7-319">يجب أن تكون وحدة التحكم بالمجال Windows Server 2012 R2 أو إصدار أحدث، ويجب أن يكون المستوى الوظيفي للمجال 2012 R2 أو أكبر</span><span class="sxs-lookup"><span data-stu-id="ad8d7-319">The domain controller must be Windows Server 2012 R2 or later, and the domain functional level must be 2012 R2 or more.</span></span> <span data-ttu-id="ad8d7-320">لمزيد من المعلومات حول المستويات الوظيفية للمجال، راجع الصفحات التالية:</span><span class="sxs-lookup"><span data-stu-id="ad8d7-320">For more information about domain functional levels, see the following pages:</span></span>
 
-- [ما هي المستويات الوظيفية لـ Active Directory](https://technet.microsoft.com/en-us/library/cc787290(v=ws.10).aspx)
-- [التعرف على المستويات الوظيفية لخدمات مجال Active Directory](https://technet.microsoft.com/en-us/library/understanding-active-directory-functional-levels(v=ws.10).aspx)
+- <span data-ttu-id="ad8d7-321">[ما هي المستويات الوظيفية لـ Active Directory](https://technet.microsoft.com/en-us/library/cc787290(v=ws.10).aspx)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-321">[What Are Active Directory Functional Levels](https://technet.microsoft.com/en-us/library/cc787290(v=ws.10).aspx)</span></span>
+- <span data-ttu-id="ad8d7-322">[التعرف على المستويات الوظيفية لخدمات مجال Active Directory](https://technet.microsoft.com/en-us/library/understanding-active-directory-functional-levels(v=ws.10).aspx)</span><span class="sxs-lookup"><span data-stu-id="ad8d7-322">[Understanding Active Directory Domain Services Functional Levels](https://technet.microsoft.com/en-us/library/understanding-active-directory-functional-levels(v=ws.10).aspx)</span></span>
 
-## <a name="supported-microsoft-office-applications"></a>تطبيقات Microsoft Office المعتمدة
-يتم اعتماد تطبيقات Microsoft Office التالية أثناء عمليات نشر Finance and Operations في السحابة وفي الموقع المحلي:
+## <a name="supported-microsoft-office-applications"></a><span data-ttu-id="ad8d7-323">تطبيقات Microsoft Office المعتمدة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-323">Supported Microsoft Office applications</span></span>
+<span data-ttu-id="ad8d7-324">يتم اعتماد تطبيقات Microsoft Office التالية أثناء عمليات نشر Finance and Operations في السحابة وفي الموقع المحلي:</span><span class="sxs-lookup"><span data-stu-id="ad8d7-324">The following Microsoft Office applications are supported in the cloud and on-premises deployments of Finance and Operations:</span></span>
 
--   لتشغيل الوظائف الإضافية لـ Microsoft Excel و Word، يجب أن يكون لديك Microsoft Office 2016 لـ Windows أو Mac مثبتًا. للحصول على مزيد من المعلومات حول متطلبات الإصدار، راجع [استكشاف وإصلاح مشاكل تكامل Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
--   لعرض المستندات التي تم إنشاؤها بواسطة التصدير إلى وظائف Word أو التصدير إلى Excel، يجب عليك تثبيت Microsoft Office 2007 أو الإصدار الأحدث.
+-   <span data-ttu-id="ad8d7-325">لتشغيل الوظائف الإضافية لـ Microsoft Excel و Word، يجب أن يكون لديك Microsoft Office 2016 لـ Windows أو Mac مثبتًا.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-325">To run the Microsoft Excel and Microsoft Word add-ins, you must have Microsoft Office 2016 for Windows or Mac installed.</span></span> <span data-ttu-id="ad8d7-326">للحصول على مزيد من المعلومات حول متطلبات الإصدار، راجع [استكشاف وإصلاح مشاكل تكامل Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).</span><span class="sxs-lookup"><span data-stu-id="ad8d7-326">For more information about version requirements, see [Office integration troubleshooting](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).</span></span>
+-   <span data-ttu-id="ad8d7-327">لعرض المستندات التي تم إنشاؤها بواسطة التصدير إلى وظائف Word أو التصدير إلى Excel، يجب عليك تثبيت Microsoft Office 2007 أو الإصدار الأحدث.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-327">To view documents that are generated by the Export to Excel or Export to Word functionality, you must have Microsoft Office 2007 or later installed.</span></span>
  
-## <a name="hardware-and-software-requirements-for-retail-components"></a>متطلبات الأجهزة والبرامج لمكونات البيع بالتجزئة
-في الوقت الحالي، لا يتضمن Finance and Operations (محلي) مكونات Retail.
+## <a name="hardware-and-software-requirements-for-retail-components"></a><span data-ttu-id="ad8d7-328">متطلبات الأجهزة والبرامج لمكونات البيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="ad8d7-328">Hardware and software requirements for Retail components</span></span>
+<span data-ttu-id="ad8d7-329">في الوقت الحالي، لا يتضمن Finance and Operations (محلي) مكونات Retail.</span><span class="sxs-lookup"><span data-stu-id="ad8d7-329">Currently, Finance and Operations (on-premises) doesn't include the Retail components.</span></span>
 

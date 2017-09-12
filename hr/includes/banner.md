@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> ينطبق هذا الموضوع على Dynamics 365 for Talent، وDynamics 365 for Finance and Operations، إصدار Enterprise edition، وDynamics 365 for Retail. 
+> <span data-ttu-id="a0794-101">ينطبق هذا الموضوع على Dynamics 365 for Talent، وDynamics 365 for Finance and Operations، إصدار Enterprise edition، وDynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="a0794-101">This topic applies to Dynamics 365 for Talent, Dynamics 365 for Finance and Operations, Enterprise edition, and Dynamics 365 for Retail.</span></span> 

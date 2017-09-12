@@ -16,49 +16,49 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ed23bcfed4e256ecc16264a181161c7119cd9bb3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2e9f393acaa47d485a583b99ace459474f30be6a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-and-generate-accounts-receivable-aging-information"></a>إعداد وإنشاء معلومات تقادم الحسابات المدينة
+# <a name="set-up-and-generate-accounts-receivable-aging-information"></a><span data-ttu-id="da9e6-103">إعداد وإنشاء معلومات تقادم الحسابات المدينة</span><span class="sxs-lookup"><span data-stu-id="da9e6-103">Set up and generate accounts receivable aging information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-سوف يساعدك هذا الدليل في إعداد تعريف فترة تقادم، وأرصدة العميل القديمة‬، وعرض الأرصدة في قائمة الأرصدة المتقادم‬ة وصفحة التحصيلات‬. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.
+<span data-ttu-id="da9e6-104">سوف يساعدك هذا الدليل في إعداد تعريف فترة تقادم، وأرصدة العميل القديمة‬، وعرض الأرصدة في قائمة الأرصدة المتقادم‬ة وصفحة التحصيلات‬.</span><span class="sxs-lookup"><span data-stu-id="da9e6-104">This guide will help you set up an aging period definition, age customer balances, and view balances in the Aged balance list and the Collections page.</span></span> <span data-ttu-id="da9e6-105">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="da9e6-105">This recording uses the USMF demo company.</span></span>
 
 
-## <a name="create-an-aging-period-definition"></a>إنشاء تعريف فترة تقادم
-1. انتقل إلى التحصيلات والائتمان‬ > إعداد > تعريفات فترة التقادم‬.
-2. انقر فوق "جديد".
-3. في الحقل "تعريف فترة التقادم"، اكتب قيمة.
-4. في حقل "الوصف"، اكتب قيمة.
-5. انقر فوق "الإضافة بالأسفل‬" لإدراج فترة تقادم جديدة.
-6. في الحقل "الفترة"، أدخل الوصف لإظهار تقارير التقادم.
-7. في حقل "الوحدة"، أدخل رقمًا.
-8. في الحقل "الفاصل الزمني‬"، حدد خيارًا.
-    * تطابق فترة دفتر الأستاذ فترة تقويم دفتر الأستاذ. يحدد اليوم والأسبوع والشهر وربع السنة والسنوات حجم الفاصل الزمني حسب نوع التاريخ. يؤدي تحديد الخيار "غير محدد‬" إلى تحديد كافة الحركات قبل الفترة السابقة أو بعدها، استنادًا إلى ما إذا كانت الفترة هي الأولى أو الأخيرة.  
-9. في الحقل "مؤشر فترة التقادم"، حدد خيارًا.
-10. حدد الفترة في أعلى الشبكة. حدّث الوصف لوصف الفترة الأقدم في تعريف فترة التقادم
-11. في الحقل "الفترة"، أدخل الوصف الجديد لفترة التقادم.
-12. قم بإغلاق الصفحة.
+## <a name="create-an-aging-period-definition"></a><span data-ttu-id="da9e6-106">إنشاء تعريف فترة تقادم</span><span class="sxs-lookup"><span data-stu-id="da9e6-106">Create an aging period definition</span></span>
+1. <span data-ttu-id="da9e6-107">انتقل إلى التحصيلات والائتمان‬ > إعداد > تعريفات فترة التقادم‬.</span><span class="sxs-lookup"><span data-stu-id="da9e6-107">Go to Credit and collections > Setup > Aging period definitions.</span></span>
+2. <span data-ttu-id="da9e6-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="da9e6-108">Click New.</span></span>
+3. <span data-ttu-id="da9e6-109">في الحقل "تعريف فترة التقادم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-109">In the Aging period definition field, type a value.</span></span>
+4. <span data-ttu-id="da9e6-110">في حقل "الوصف"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="da9e6-111">انقر فوق "الإضافة بالأسفل‬" لإدراج فترة تقادم جديدة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-111">Click Add below to insert a new aging period.</span></span>
+6. <span data-ttu-id="da9e6-112">في الحقل "الفترة"، أدخل الوصف لإظهار تقارير التقادم.</span><span class="sxs-lookup"><span data-stu-id="da9e6-112">In the Period field, enter the description to show on aging reports.</span></span>
+7. <span data-ttu-id="da9e6-113">في حقل "الوحدة"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="da9e6-113">In the Unit field, enter a number.</span></span>
+8. <span data-ttu-id="da9e6-114">في الحقل "الفاصل الزمني‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="da9e6-114">In the Interval field, select an option.</span></span>
+    * <span data-ttu-id="da9e6-115">تطابق فترة دفتر الأستاذ فترة تقويم دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="da9e6-115">Ledger period matches the period to your ledger calendar.</span></span> <span data-ttu-id="da9e6-116">يحدد اليوم والأسبوع والشهر وربع السنة والسنوات حجم الفاصل الزمني حسب نوع التاريخ.</span><span class="sxs-lookup"><span data-stu-id="da9e6-116">Day, week, month, quarter and years define the size of the interval by date type.</span></span> <span data-ttu-id="da9e6-117">يؤدي تحديد الخيار "غير محدد‬" إلى تحديد كافة الحركات قبل الفترة السابقة أو بعدها، استنادًا إلى ما إذا كانت الفترة هي الأولى أو الأخيرة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-117">Unlimited selects all transactions before or after the previous period, depending on whether it is the first or last period.</span></span>  
+9. <span data-ttu-id="da9e6-118">في الحقل "مؤشر فترة التقادم"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="da9e6-118">In the Aging indicator field, select an option.</span></span>
+10. <span data-ttu-id="da9e6-119">حدد الفترة في أعلى الشبكة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-119">Select the period at the top of the grid.</span></span> <span data-ttu-id="da9e6-120">حدّث الوصف لوصف الفترة الأقدم في تعريف فترة التقادم</span><span class="sxs-lookup"><span data-stu-id="da9e6-120">Update the description to describe the oldest period in the aging period definition</span></span>
+11. <span data-ttu-id="da9e6-121">في الحقل "الفترة"، أدخل الوصف الجديد لفترة التقادم.</span><span class="sxs-lookup"><span data-stu-id="da9e6-121">In the Period field, enter the new description of the aging period.</span></span>
+12. <span data-ttu-id="da9e6-122">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-122">Close the page.</span></span>
 
-## <a name="age-the-balances"></a>تقادم الأرصدة
-1. انتقل إلى التحصيلات والائتمان‬ > المهام الدورية > أرصدة العميل القديمة‬.
-2. في حقل "تعريف فترة التقادم"، حدد تعريف فترة التقادم الذي قمت بإنشائه.
-    * يمكنك إنشاء لقطة نشطة واحدة لكل تعريف فترة تقادم.  
-    * تتم معالجة كافة العملاء بشكل افتراضي. يمكنك استخدام هذا التحديد لحساب مجموعة تحصيلات واحدة للعملاء.  
-    * حدد التاريخ من الحركة التي ستستخدمها للتقادم.  
-    * حدد تاريخ "بدءًا من‬" للتقادم. التاريخ الافتراضي هو اليوم، ولكن إذا قمت بتغيير هذا الحقل إلى تاريخ "محدد"، فستكون قادرًا على اختيار التاريخ الذي تريده. لمعالجة الدُفعة، استخدم تاريخ اليوم.  
-3. وسّع المقطع "الشركة". يمكنك تحديد الشركات التي سيتم تضمينها في اللقطة. تم تحديد الشركة الحالية بشكل افتراضي.
-4. انقر فوق "موافق" لبدء اللقطة. سوف يستغرق الأمر بعض الوقت، لذا انتظر حتى اختفاء المنزلق‬ وتحقق من وجود رسالة في مركز الرسائل.
+## <a name="age-the-balances"></a><span data-ttu-id="da9e6-123">تقادم الأرصدة</span><span class="sxs-lookup"><span data-stu-id="da9e6-123">Age the balances</span></span>
+1. <span data-ttu-id="da9e6-124">انتقل إلى التحصيلات والائتمان‬ > المهام الدورية > أرصدة العميل القديمة‬.</span><span class="sxs-lookup"><span data-stu-id="da9e6-124">Go to Credit and collections > Periodic tasks > Age customer balances.</span></span>
+2. <span data-ttu-id="da9e6-125">في حقل "تعريف فترة التقادم"، حدد تعريف فترة التقادم الذي قمت بإنشائه.</span><span class="sxs-lookup"><span data-stu-id="da9e6-125">In the Aging period definition field, select the aging period definition that you created.</span></span>
+    * <span data-ttu-id="da9e6-126">يمكنك إنشاء لقطة نشطة واحدة لكل تعريف فترة تقادم.</span><span class="sxs-lookup"><span data-stu-id="da9e6-126">You can have one active snapshot for each aging period definition.</span></span>  
+    * <span data-ttu-id="da9e6-127">تتم معالجة كافة العملاء بشكل افتراضي.</span><span class="sxs-lookup"><span data-stu-id="da9e6-127">All customers are processed by default.</span></span> <span data-ttu-id="da9e6-128">يمكنك استخدام هذا التحديد لحساب مجموعة تحصيلات واحدة للعملاء.</span><span class="sxs-lookup"><span data-stu-id="da9e6-128">You can use this selection to calculate a single collections pool of customers.</span></span>  
+    * <span data-ttu-id="da9e6-129">حدد التاريخ من الحركة التي ستستخدمها للتقادم.</span><span class="sxs-lookup"><span data-stu-id="da9e6-129">Select the date from the transaction that you will use for the aging.</span></span>  
+    * <span data-ttu-id="da9e6-130">حدد تاريخ "بدءًا من‬" للتقادم.</span><span class="sxs-lookup"><span data-stu-id="da9e6-130">Select an "as of" date for aging.</span></span> <span data-ttu-id="da9e6-131">التاريخ الافتراضي هو اليوم، ولكن إذا قمت بتغيير هذا الحقل إلى تاريخ "محدد"، فستكون قادرًا على اختيار التاريخ الذي تريده.</span><span class="sxs-lookup"><span data-stu-id="da9e6-131">The default is today but, if you change this field to Selected date, you will be able to pick the date that you want.</span></span> <span data-ttu-id="da9e6-132">لمعالجة الدُفعة، استخدم تاريخ اليوم.</span><span class="sxs-lookup"><span data-stu-id="da9e6-132">For batch processing, use Today's date.</span></span>  
+3. <span data-ttu-id="da9e6-133">وسّع المقطع "الشركة".</span><span class="sxs-lookup"><span data-stu-id="da9e6-133">Expand the Company range.</span></span> <span data-ttu-id="da9e6-134">يمكنك تحديد الشركات التي سيتم تضمينها في اللقطة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-134">You can select the companies that will be included in the snapshot.</span></span> <span data-ttu-id="da9e6-135">تم تحديد الشركة الحالية بشكل افتراضي.</span><span class="sxs-lookup"><span data-stu-id="da9e6-135">The current company is selected by default.</span></span>
+4. <span data-ttu-id="da9e6-136">انقر فوق "موافق" لبدء اللقطة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-136">Click Ok to process the snapshot.</span></span> <span data-ttu-id="da9e6-137">سوف يستغرق الأمر بعض الوقت، لذا انتظر حتى اختفاء المنزلق‬ وتحقق من وجود رسالة في مركز الرسائل.</span><span class="sxs-lookup"><span data-stu-id="da9e6-137">It will take some time so wait for the slider to disappear and check the message center for a message.</span></span>
 
-## <a name="view-the-balances-on-the-aged-balances-list-and-on-the-collection-page"></a>عرض الأرصدة في قائمة الأرصدة القديمة وصفحة التحصيلات
-1. انتقل إلى التحصيلات والائتمان > التحصيلات > الأرصدة المتقادمة.
-    * تعرض صفحة القائمة أرصدة العميل. تعرض أيقونة التقادم فترة التقادم للحركة الأقدم.  
-2. حدد عميلاً له رصيد.
-3. وسّع منطقة مربع "حقائق التقادم" لعرض الأرصدة المتقادمة.
-    * يؤخذ تعريف فترة التقادم لمربع الحقائق من تعريف فترة التقادم الافتراضية المحددة في المحددات. يمكنك تغيير ذلك باستخدام القائمة "تحصيل‬".  
+## <a name="view-the-balances-on-the-aged-balances-list-and-on-the-collection-page"></a><span data-ttu-id="da9e6-138">عرض الأرصدة في قائمة الأرصدة القديمة وصفحة التحصيلات</span><span class="sxs-lookup"><span data-stu-id="da9e6-138">View the balances on the Aged balances list and on the Collection page</span></span>
+1. <span data-ttu-id="da9e6-139">انتقل إلى التحصيلات والائتمان > التحصيلات > الأرصدة المتقادمة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-139">Go to Credit and collections > Collections > Aged balances.</span></span>
+    * <span data-ttu-id="da9e6-140">تعرض صفحة القائمة أرصدة العميل.</span><span class="sxs-lookup"><span data-stu-id="da9e6-140">The list page shows the balances for the customer.</span></span> <span data-ttu-id="da9e6-141">تعرض أيقونة التقادم فترة التقادم للحركة الأقدم.</span><span class="sxs-lookup"><span data-stu-id="da9e6-141">The aging icon shows the aging period for the oldest transaction.</span></span>  
+2. <span data-ttu-id="da9e6-142">حدد عميلاً له رصيد.</span><span class="sxs-lookup"><span data-stu-id="da9e6-142">Select a customer with a balance.</span></span>
+3. <span data-ttu-id="da9e6-143">وسّع منطقة مربع "حقائق التقادم" لعرض الأرصدة المتقادمة.</span><span class="sxs-lookup"><span data-stu-id="da9e6-143">Expand the Aging fact box area to view the aged balances.</span></span>
+    * <span data-ttu-id="da9e6-144">يؤخذ تعريف فترة التقادم لمربع الحقائق من تعريف فترة التقادم الافتراضية المحددة في المحددات.</span><span class="sxs-lookup"><span data-stu-id="da9e6-144">The aging period definition for the fact box is taken from the default aging period definition specified in the parameters.</span></span> <span data-ttu-id="da9e6-145">يمكنك تغيير ذلك باستخدام القائمة "تحصيل‬".</span><span class="sxs-lookup"><span data-stu-id="da9e6-145">You can change it using the Collect menu.</span></span>  
 
 

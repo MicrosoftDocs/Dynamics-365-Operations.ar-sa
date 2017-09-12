@@ -16,32 +16,32 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 52d502a53deb6defa619af4ca8cdc3158e086bae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="import-iso20022-credit-transfer-configuration"></a>استيراد تكوين تحويل الائتمان ISO20022
+# <a name="import-iso20022-credit-transfer-configuration"></a><span data-ttu-id="bedb8-103">استيراد تكوين تحويل الائتمان ISO20022</span><span class="sxs-lookup"><span data-stu-id="bedb8-103">Import ISO20022 credit transfer configuration</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيفية استيراد تكوين التقارير الإلكترونية لمدفوعات المورّد.‬ يتم استخدام تنسيق تحويل الائتمان الألماني ISO 20022 كمثال. يمكنك استخدام هذا الإجراء لتنسيقات التقارير الإلكترونية الأخرى المتوفرة. 
+<span data-ttu-id="bedb8-104">يوضح هذا الإجراء كيفية استيراد تكوين التقارير الإلكترونية لمدفوعات المورّد.‬</span><span class="sxs-lookup"><span data-stu-id="bedb8-104">This procedure shows how to import a vendor payment electronic reporting configuration.</span></span> <span data-ttu-id="bedb8-105">يتم استخدام تنسيق تحويل الائتمان الألماني ISO 20022 كمثال.</span><span class="sxs-lookup"><span data-stu-id="bedb8-105">The German ISO 20022 credit transfer format is used as an example.</span></span> <span data-ttu-id="bedb8-106">يمكنك استخدام هذا الإجراء لتنسيقات التقارير الإلكترونية الأخرى المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="bedb8-106">This procedure can be used for other available electronic reporting format.</span></span> 
 
-تم إنشاء هذه المهمة باستخدام شركة بيانات العرض التوضيحي DEMF، ولكن يمكنك استخدام أي من شركات بيانات العرض التوضيحي لإكمال هذه المهمة.
+<span data-ttu-id="bedb8-107">تم إنشاء هذه المهمة باستخدام شركة بيانات العرض التوضيحي DEMF، ولكن يمكنك استخدام أي من شركات بيانات العرض التوضيحي لإكمال هذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="bedb8-107">This task was created using the demo data company DEMF but you can use any demo data company to complete this task.</span></span>
 
-هذه هي المهمة الأولى من ضمن خمس مهام، هدفها أن تعمل معًا على توضيح عملية معالجة مدفوعات المورّد باستخدام تكوينات التقارير الإلكترونية. يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
+<span data-ttu-id="bedb8-108">هذه هي المهمة الأولى من ضمن خمس مهام، هدفها أن تعمل معًا على توضيح عملية معالجة مدفوعات المورّد باستخدام تكوينات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="bedb8-108">This is the first of five tasks, that together illustrate the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="bedb8-109">يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.</span><span class="sxs-lookup"><span data-stu-id="bedb8-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
-2. في قائمة "موفرو التكوين‬" المتوفرون، حدد Microsoft.
-3. انقر فوق "تعيين كنشط".
-4. انقر فوق "المستودعات".
-5. انقر فوق "فتح".
-6. انقر فوق "إظهار عوامل التصفية".
-7. طبّق عوامل التصفية التالية: أدخل قيمة عامل التصفية "تحويل الائتمان ISO20022 (DE)" في حقل "اسم التكوين" باستخدام مشغل عامل التصفية "يبدأ بـ".
-    * أو، يمكنك العثور على التكوين في القائمة، وتحديده، ثم نقله إلى مهمة الاستيراد.  
-8. انقر فوق "استيراد".
-    * إذا لم يتوفر الزر "استيراد"، فهذا يعني أن التكوين قد تم استيراده.  
-9. انقر فوق نعم.
+1. <span data-ttu-id="bedb8-110">انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.</span><span class="sxs-lookup"><span data-stu-id="bedb8-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="bedb8-111">في قائمة "موفرو التكوين‬" المتوفرون، حدد Microsoft.</span><span class="sxs-lookup"><span data-stu-id="bedb8-111">In the list of available configuration providers, select Microsoft.</span></span>
+3. <span data-ttu-id="bedb8-112">انقر فوق "تعيين كنشط".</span><span class="sxs-lookup"><span data-stu-id="bedb8-112">Click Set active.</span></span>
+4. <span data-ttu-id="bedb8-113">انقر فوق "المستودعات".</span><span class="sxs-lookup"><span data-stu-id="bedb8-113">Click Repositories.</span></span>
+5. <span data-ttu-id="bedb8-114">انقر فوق "فتح".</span><span class="sxs-lookup"><span data-stu-id="bedb8-114">Click Open.</span></span>
+6. <span data-ttu-id="bedb8-115">انقر فوق "إظهار عوامل التصفية".</span><span class="sxs-lookup"><span data-stu-id="bedb8-115">Click Show filters.</span></span>
+7. <span data-ttu-id="bedb8-116">طبّق عوامل التصفية التالية: أدخل قيمة عامل التصفية "تحويل الائتمان ISO20022 (DE)" في حقل "اسم التكوين" باستخدام مشغل عامل التصفية "يبدأ بـ".</span><span class="sxs-lookup"><span data-stu-id="bedb8-116">Apply the following filters: Enter a filter value of "ISO20022 Credit transfer (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="bedb8-117">أو، يمكنك العثور على التكوين في القائمة، وتحديده، ثم نقله إلى مهمة الاستيراد.</span><span class="sxs-lookup"><span data-stu-id="bedb8-117">Alternatively, you can find the configuration in the list, select it, and then move it to the Import task.</span></span>  
+8. <span data-ttu-id="bedb8-118">انقر فوق "استيراد".</span><span class="sxs-lookup"><span data-stu-id="bedb8-118">Click Import.</span></span>
+    * <span data-ttu-id="bedb8-119">إذا لم يتوفر الزر "استيراد"، فهذا يعني أن التكوين قد تم استيراده.</span><span class="sxs-lookup"><span data-stu-id="bedb8-119">If the Import button is not available, it means that the configuration has  already been imported.</span></span>  
+9. <span data-ttu-id="bedb8-120">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="bedb8-120">Click Yes.</span></span>
 
 

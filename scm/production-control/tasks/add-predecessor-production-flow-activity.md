@@ -17,38 +17,38 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: c1afd6a5c2eb5235a42fc9aeea0c8aed6d33e0c9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 352c601e9de00d08bf994807d445fe91c8278557
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="add-a-predecessor-to-a-production-flow-activity"></a>إضافة مهمة سابقة إلى نشاط تدفق الإنتاج
+# <a name="add-a-predecessor-to-a-production-flow-activity"></a><span data-ttu-id="0102c-103">إضافة مهمة سابقة إلى نشاط تدفق الإنتاج</span><span class="sxs-lookup"><span data-stu-id="0102c-103">Add a predecessor to a production flow activity</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-في إصدار تدفق الإنتاج، يجب أن تكون كافة الأنشطة متسلسلة. بإمكان نشاط واحد أن يتضمن عدة مهام سابقة أو لاحقة. 
+<span data-ttu-id="0102c-104">في إصدار تدفق الإنتاج، يجب أن تكون كافة الأنشطة متسلسلة.</span><span class="sxs-lookup"><span data-stu-id="0102c-104">In a production flow version, all activities must be sequenced.</span></span> <span data-ttu-id="0102c-105">بإمكان نشاط واحد أن يتضمن عدة مهام سابقة أو لاحقة.</span><span class="sxs-lookup"><span data-stu-id="0102c-105">An activity can have one or multiple predecessors or successors.</span></span> 
 
-يوضح هذا الإجراء كيفية إقران مهمة سابقة بنشاط. 
+<span data-ttu-id="0102c-106">يوضح هذا الإجراء كيفية إقران مهمة سابقة بنشاط.</span><span class="sxs-lookup"><span data-stu-id="0102c-106">This procedure shows how to associate a predecessor to an activity.</span></span> 
 
-لتنفيذ هذه المهمة، إنك تحتاج إلى تدفق إنتاج لديه إصدار "مسودة" مع نشاطين على الأقل يمكن توصيلهما. 
+<span data-ttu-id="0102c-107">لتنفيذ هذه المهمة، إنك تحتاج إلى تدفق إنتاج لديه إصدار "مسودة" مع نشاطين على الأقل يمكن توصيلهما.</span><span class="sxs-lookup"><span data-stu-id="0102c-107">To perform this task, you need a production flow that has the Draft version with at least two activities that can be connected.</span></span> 
 
-لمعرفة المزيد، اقرأ المستند التقنين "تدفقات الإنتاج والأنشطة في lean manufacturing".
+<span data-ttu-id="0102c-108">لمعرفة المزيد، اقرأ المستند التقنين "تدفقات الإنتاج والأنشطة في lean manufacturing".</span><span class="sxs-lookup"><span data-stu-id="0102c-108">To learn more, read the white paper "Production flows and activities in lean manufacturing."</span></span>
 
 
-## <a name="find-the-production-flow-and-version"></a>البحث عن تدفق الإنتاج والإصدار
-1. انتقل إلى عنصر التحكم بالإنتاج > الإعداد > تدفق الإنتاج محدود الفاقد > تدفقات الإنتاج.
-2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-3. في القائمة، انقر فوق الارتباط في الصف المحدد.
-4. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-5. انقر فوق "الأنشطة".
+## <a name="find-the-production-flow-and-version"></a><span data-ttu-id="0102c-109">البحث عن تدفق الإنتاج والإصدار</span><span class="sxs-lookup"><span data-stu-id="0102c-109">Find the production flow and version</span></span>
+1. <span data-ttu-id="0102c-110">انتقل إلى عنصر التحكم بالإنتاج > الإعداد > تدفق الإنتاج محدود الفاقد > تدفقات الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="0102c-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="0102c-111">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="0102c-111">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="0102c-112">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="0102c-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="0102c-113">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="0102c-113">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="0102c-114">انقر فوق "الأنشطة".</span><span class="sxs-lookup"><span data-stu-id="0102c-114">Click Activities.</span></span>
 
-## <a name="select-an-activity-and-add-a-predecessor"></a>تحديد نشاط وإضافة عنصر سابق
-1. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-2. انقر فوق "إضافة عنصر سابق".
-3. في حقل "النشاط"، أدخل قيمة أو حددها.
-4. في الحقل "نسبة زمن الدورة"، أدخل رقمًا.
-    * نسبة زمن الدورة الافتراضية لعلاقة نشاط هي 1. هذا يفترض أن تشغيل النشاطين يتم بنفس الوتيرة أو الوقت اللازم لإنتاج وحدة من المنتج. إذا تم تنفيذ المهمة السابقة بوتيرة أسرع (مستوى أدنى للوقت اللازم لإنتاج وحدة من المنتج)، فيجب أن تكون النسبة أقل من 1، وإذا تم تنفيذ المهمة السابقة بوتيرة أبطأ (مستوى أعلى للوقت اللازم لإنتاج وحدة من المنتج)، فإن نسبة زمن الدورة ستكون أكبر من 1.  
-5. انقر فوق "موافق".
+## <a name="select-an-activity-and-add-a-predecessor"></a><span data-ttu-id="0102c-115">تحديد نشاط وإضافة عنصر سابق</span><span class="sxs-lookup"><span data-stu-id="0102c-115">Select an activity and add a predecessor</span></span>
+1. <span data-ttu-id="0102c-116">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="0102c-116">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="0102c-117">انقر فوق "إضافة عنصر سابق".</span><span class="sxs-lookup"><span data-stu-id="0102c-117">Click Add predecessor.</span></span>
+3. <span data-ttu-id="0102c-118">في حقل "النشاط"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="0102c-118">In the Activity field, enter or select a value.</span></span>
+4. <span data-ttu-id="0102c-119">في الحقل "نسبة زمن الدورة"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="0102c-119">In the Cycle time ratio field, enter a number.</span></span>
+    * <span data-ttu-id="0102c-120">نسبة زمن الدورة الافتراضية لعلاقة نشاط هي 1.</span><span class="sxs-lookup"><span data-stu-id="0102c-120">The default cycle time ratio of an activity relation is 1.</span></span> <span data-ttu-id="0102c-121">هذا يفترض أن تشغيل النشاطين يتم بنفس الوتيرة أو الوقت اللازم لإنتاج وحدة من المنتج.</span><span class="sxs-lookup"><span data-stu-id="0102c-121">This assumes that both activities run at the same pace or takt time.</span></span> <span data-ttu-id="0102c-122">إذا تم تنفيذ المهمة السابقة بوتيرة أسرع (مستوى أدنى للوقت اللازم لإنتاج وحدة من المنتج)، فيجب أن تكون النسبة أقل من 1، وإذا تم تنفيذ المهمة السابقة بوتيرة أبطأ (مستوى أعلى للوقت اللازم لإنتاج وحدة من المنتج)، فإن نسبة زمن الدورة ستكون أكبر من 1.</span><span class="sxs-lookup"><span data-stu-id="0102c-122">If the predecessor runs at a higher pace (lower takt time), the ratio should be lower than 1, if the predecessor runs at a slower pace (higher takt time) the cycle time ratio is greater than 1.</span></span>  
+5. <span data-ttu-id="0102c-123">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="0102c-123">Click OK.</span></span>
 
 

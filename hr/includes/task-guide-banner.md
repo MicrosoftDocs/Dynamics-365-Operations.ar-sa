@@ -1,2 +1,2 @@
 > [!NOTE]
-> لنا نقبل بإدخال عمليات تحرير على هذا الموضوع، نظراً لأنه يتم إنشاؤه من عملية تجارية في Lifecycle Services.
+> <span data-ttu-id="54234-101">لنا نقبل بإدخال عمليات تحرير على هذا الموضوع، نظراً لأنه يتم إنشاؤه من عملية تجارية في Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="54234-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>

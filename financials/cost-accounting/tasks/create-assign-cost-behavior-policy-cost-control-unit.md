@@ -16,73 +16,73 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4190fde8c587475f34e5e3fdf6e2d32d59a26022
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 392cb83ceb8612a2e73cc54bb2d8d40c62a6b7b6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>إنشاء وتعيين سياسة سلوك التكلفة إلى وحدة التحكم في التكلفة
+# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="a2783-103">إنشاء وتعيين سياسة سلوك التكلفة إلى وحدة التحكم في التكلفة</span><span class="sxs-lookup"><span data-stu-id="a2783-103">Create and assign a cost behavior policy to a cost control unit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يُعتبر سلوك التكلفة بمثابة تصنيف للتكاليف كثابتة أو متغيرة. يجب أن يتم تعيين سياسة وقواعد مناظرة إلى وحدة التحكم بالتكاليف لكي تصبح السياسة سارية. استخدم هذا الإجراء لإنشاء سياسة ثم تعيين السياسة إلى وحدة التحكم بالتكاليف.
+<span data-ttu-id="a2783-104">يُعتبر سلوك التكلفة بمثابة تصنيف للتكاليف كثابتة أو متغيرة.</span><span class="sxs-lookup"><span data-stu-id="a2783-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="a2783-105">يجب أن يتم تعيين سياسة وقواعد مناظرة إلى وحدة التحكم بالتكاليف لكي تصبح السياسة سارية.</span><span class="sxs-lookup"><span data-stu-id="a2783-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="a2783-106">استخدم هذا الإجراء لإنشاء سياسة ثم تعيين السياسة إلى وحدة التحكم بالتكاليف.</span><span class="sxs-lookup"><span data-stu-id="a2783-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
 
 
-## <a name="create-a-cost-behavior-hierarchy"></a>إنشاء تدرج هرمي لسلوك التكلفة
-1. انتقل إلى محاسبة التكاليف > الأبعاد > التدرجات الهرمية للأبعاد‬.
-2. انقر فوق "جديد".
-3. انقر فوق "إنشاء".
-4. في الحقل "اسم التدرج الهرمي للبعد"، اكتب '"التدرج الهرمي لسلوك التكلفة".
-5. في حقل "البعد"، أدخل أو حدد قيمة.
-    * حدد "عناصر التكلفة".  
-6. انقر فوق "حفظ".
-7. انقر فوق "عرض التدرج الهرمي".
-8. انقر فوق "جديد".
-9. في الحقل "اسم العقدة"، اكتب قيمة.
-    * أدخل "تكلفة ثابتة".  
-10. في الشجرة، حدد "التدرج الهرمي لسلوك التكلفة".
-11. انقر فوق "جديد".
-12. في الحقل "اسم العقدة"، اكتب قيمة.
-    * أدخل "تكلفة متغيرة".  
-13. انقر فوق "حفظ".
-14. في الشجرة، حدد "التدرج الهرمي لسلوك التكلفة\تكلفة ثابتة".
-15. انقر فوق "جديد".
-16. في القائمة، قم بوضع علامة للصف المحدد.
-17. في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.
-    * باستطاعة مجموعة أعضاء البعد أن تحتوي على ثغرات، ولكن يتعذر على الأعضاء التداخل.  
-18. في الحقل "إلى عضو البُعد‬"، أدخل قيمة أو حددها.
-    * باستطاعة مجموعة أعضاء البعد أن تحتوي على ثغرات، ولكن يتعذر على الأعضاء التداخل.  
-19. في الشجرة، حدد "التدرج الهرمي لسلوك التكلفة\تكلفة متغيرة".
-20. انقر فوق "جديد".
-21. في القائمة، قم بوضع علامة للصف المحدد.
-22. في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.
-    * باستطاعة مجموعة أعضاء البعد أن تحتوي على ثغرات، ولكن يتعذر على الأعضاء التداخل.  
-23. في الحقل "إلى عضو البُعد‬"، أدخل قيمة أو حددها.
-    * باستطاعة مجموعة أعضاء البعد أن تحتوي على ثغرات، ولكن يتعذر على الأعضاء التداخل.  
-24. انقر فوق "حفظ".
+## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="a2783-107">إنشاء تدرج هرمي لسلوك التكلفة</span><span class="sxs-lookup"><span data-stu-id="a2783-107">Create a cost behavior hierarchy</span></span>
+1. <span data-ttu-id="a2783-108">انتقل إلى محاسبة التكاليف > الأبعاد > التدرجات الهرمية للأبعاد‬.</span><span class="sxs-lookup"><span data-stu-id="a2783-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="a2783-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a2783-109">Click New.</span></span>
+3. <span data-ttu-id="a2783-110">انقر فوق "إنشاء".</span><span class="sxs-lookup"><span data-stu-id="a2783-110">Click Create.</span></span>
+4. <span data-ttu-id="a2783-111">في الحقل "اسم التدرج الهرمي للبعد"، اكتب '"التدرج الهرمي لسلوك التكلفة".</span><span class="sxs-lookup"><span data-stu-id="a2783-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
+5. <span data-ttu-id="a2783-112">في حقل "البعد"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="a2783-112">In the Dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2783-113">حدد "عناصر التكلفة".</span><span class="sxs-lookup"><span data-stu-id="a2783-113">Select Cost elements.</span></span>  
+6. <span data-ttu-id="a2783-114">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a2783-114">Click Save.</span></span>
+7. <span data-ttu-id="a2783-115">انقر فوق "عرض التدرج الهرمي".</span><span class="sxs-lookup"><span data-stu-id="a2783-115">Click View hierarchy.</span></span>
+8. <span data-ttu-id="a2783-116">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a2783-116">Click New.</span></span>
+9. <span data-ttu-id="a2783-117">في الحقل "اسم العقدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a2783-117">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="a2783-118">أدخل "تكلفة ثابتة".</span><span class="sxs-lookup"><span data-stu-id="a2783-118">Enter Fixed cost.</span></span>  
+10. <span data-ttu-id="a2783-119">في الشجرة، حدد "التدرج الهرمي لسلوك التكلفة".</span><span class="sxs-lookup"><span data-stu-id="a2783-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
+11. <span data-ttu-id="a2783-120">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a2783-120">Click New.</span></span>
+12. <span data-ttu-id="a2783-121">في الحقل "اسم العقدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a2783-121">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="a2783-122">أدخل "تكلفة متغيرة".</span><span class="sxs-lookup"><span data-stu-id="a2783-122">Enter Variable cost.</span></span>  
+13. <span data-ttu-id="a2783-123">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a2783-123">Click Save.</span></span>
+14. <span data-ttu-id="a2783-124">في الشجرة، حدد "التدرج الهرمي لسلوك التكلفة\تكلفة ثابتة".</span><span class="sxs-lookup"><span data-stu-id="a2783-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
+15. <span data-ttu-id="a2783-125">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a2783-125">Click New.</span></span>
+16. <span data-ttu-id="a2783-126">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a2783-126">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="a2783-127">في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a2783-127">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2783-128">باستطاعة مجموعة أعضاء البعد أن تحتوي على ثغرات، ولكن يتعذر على الأعضاء التداخل.</span><span class="sxs-lookup"><span data-stu-id="a2783-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+18. <span data-ttu-id="a2783-129">في الحقل "إلى عضو البُعد‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a2783-129">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2783-130">باستطاعة مجموعة أعضاء البعد أن تحتوي على ثغرات، ولكن يتعذر على الأعضاء التداخل.</span><span class="sxs-lookup"><span data-stu-id="a2783-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+19. <span data-ttu-id="a2783-131">في الشجرة، حدد "التدرج الهرمي لسلوك التكلفة\تكلفة متغيرة".</span><span class="sxs-lookup"><span data-stu-id="a2783-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
+20. <span data-ttu-id="a2783-132">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a2783-132">Click New.</span></span>
+21. <span data-ttu-id="a2783-133">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a2783-133">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="a2783-134">في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a2783-134">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2783-135">باستطاعة مجموعة أعضاء البعد أن تحتوي على ثغرات، ولكن يتعذر على الأعضاء التداخل.</span><span class="sxs-lookup"><span data-stu-id="a2783-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+23. <span data-ttu-id="a2783-136">في الحقل "إلى عضو البُعد‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a2783-136">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2783-137">باستطاعة مجموعة أعضاء البعد أن تحتوي على ثغرات، ولكن يتعذر على الأعضاء التداخل.</span><span class="sxs-lookup"><span data-stu-id="a2783-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+24. <span data-ttu-id="a2783-138">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a2783-138">Click Save.</span></span>
 
-## <a name="create-the-policy-and-rules"></a>إنشاء السياسة والقواعد
-1. انتقل إلى محاسبة التكاليف > السياسات > سياسات سلوك التكلفة‬.
-2. انقر فوق "جديد".
-3. في الحقل "اسم السياسة"، اكتب قيمة.
-4. في الحقل "تدرج بُعد عنصر التكلفة‬‬"، أدخل قيمة أو حددها.
-    * حدد التدرج الهرمي للسياسة الذي أنشأته للتوّ.  
-5. في الحقل "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.
-    * حدد "المؤسسة".  
-6. انقر فوق "حفظ".
-7. انقر فوق "جديد".
-8. في القائمة، قم بوضع علامة للصف المحدد.
-9. في الحقل "عقدة التدرج الهرمي لبُعد عنصر التكلفة‬‬‬"، أدخل قيمة أو حددها.
-    * قم بتوسيع التدرج الهرمي لتحديد تكلفة متغيرة.  
-10. في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.
-    * بشكل افتراضي، النسبة المئوية المتغيرة هي 100 بالمائة.  
-11. انقر فوق "تعيينات السياسة" لوحدة التحكم بالتكاليف.
-12. انقر فوق "جديد".
-13. في القائمة، قم بوضع علامة للصف المحدد.
-14. أدخل تاريخًا في الحقل "صالح بدءًا من تاريخ المحاسبة‬‬".
-    * للقواعد تاريخ سريان وباستطاعة المستخدم أو النظام إنهاء تاريخ صلاحية قاعدة إذا تم إنشاء إصدار أحدث.  
-15. في الحقل "وحدة التحكم بالتكاليف‬"، أدخل قيمة أو حددها.
-16. انقر فوق "حفظ".
+## <a name="create-the-policy-and-rules"></a><span data-ttu-id="a2783-139">إنشاء السياسة والقواعد</span><span class="sxs-lookup"><span data-stu-id="a2783-139">Create the policy and rules</span></span>
+1. <span data-ttu-id="a2783-140">انتقل إلى محاسبة التكاليف > السياسات > سياسات سلوك التكلفة‬.</span><span class="sxs-lookup"><span data-stu-id="a2783-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
+2. <span data-ttu-id="a2783-141">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a2783-141">Click New.</span></span>
+3. <span data-ttu-id="a2783-142">في الحقل "اسم السياسة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a2783-142">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="a2783-143">في الحقل "تدرج بُعد عنصر التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a2783-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2783-144">حدد التدرج الهرمي للسياسة الذي أنشأته للتوّ.</span><span class="sxs-lookup"><span data-stu-id="a2783-144">Select the policy hierarchy that you just created.</span></span>  
+5. <span data-ttu-id="a2783-145">في الحقل "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a2783-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2783-146">حدد "المؤسسة".</span><span class="sxs-lookup"><span data-stu-id="a2783-146">Select Organization.</span></span>  
+6. <span data-ttu-id="a2783-147">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a2783-147">Click Save.</span></span>
+7. <span data-ttu-id="a2783-148">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a2783-148">Click New.</span></span>
+8. <span data-ttu-id="a2783-149">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a2783-149">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="a2783-150">في الحقل "عقدة التدرج الهرمي لبُعد عنصر التكلفة‬‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a2783-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2783-151">قم بتوسيع التدرج الهرمي لتحديد تكلفة متغيرة.</span><span class="sxs-lookup"><span data-stu-id="a2783-151">Expand the hierarchy to select Variable cost.</span></span>  
+10. <span data-ttu-id="a2783-152">في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a2783-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="a2783-153">بشكل افتراضي، النسبة المئوية المتغيرة هي 100 بالمائة.</span><span class="sxs-lookup"><span data-stu-id="a2783-153">By default, the variable percentage is 100 percent.</span></span>  
+11. <span data-ttu-id="a2783-154">انقر فوق "تعيينات السياسة" لوحدة التحكم بالتكاليف.</span><span class="sxs-lookup"><span data-stu-id="a2783-154">Click Policy assignments for cost control unit.</span></span>
+12. <span data-ttu-id="a2783-155">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a2783-155">Click New.</span></span>
+13. <span data-ttu-id="a2783-156">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a2783-156">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="a2783-157">أدخل تاريخًا في الحقل "صالح بدءًا من تاريخ المحاسبة‬‬".</span><span class="sxs-lookup"><span data-stu-id="a2783-157">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="a2783-158">للقواعد تاريخ سريان وباستطاعة المستخدم أو النظام إنهاء تاريخ صلاحية قاعدة إذا تم إنشاء إصدار أحدث.</span><span class="sxs-lookup"><span data-stu-id="a2783-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
+15. <span data-ttu-id="a2783-159">في الحقل "وحدة التحكم بالتكاليف‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a2783-159">In the Cost control unit field, enter or select a value.</span></span>
+16. <span data-ttu-id="a2783-160">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a2783-160">Click Save.</span></span>
 
 

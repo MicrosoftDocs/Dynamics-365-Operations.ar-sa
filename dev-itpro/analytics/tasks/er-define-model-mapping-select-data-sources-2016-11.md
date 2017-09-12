@@ -16,145 +16,145 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9a7d8c4335ab29174fe4e4f3d6c4a771c23c746d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 512e24b5d0e20f00890e2a9abfe45b660a913913
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a>تحديد تعيين النموذج وتحديد مصادر البيانات للتقارير الإلكترونية (ER)
+# <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a><span data-ttu-id="365b0-103">تحديد تعيين النموذج وتحديد مصادر البيانات للتقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="365b0-103">Define model mapping and select data sources for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تحديد مصادر البيانات لنموذج بيانات التقارير الإلكترونية. سيتم ربط مصادر البيانات بالمكونات الفردية لنموذج البيانات المحدد في مرحلة التصميم وسيتم نشر بيانات الأعمال إلى نموذج البيانات المشار إليه في مرحلة التشغيل. في هذا المثال، ستحدد مصادر البيانات لنموذج بيانات موجود تم إنشاؤه لشركة عينة، .Litware, Inc. ولإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء نموذج بيانات جديد".
+<span data-ttu-id="365b0-104">تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تحديد مصادر البيانات لنموذج بيانات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="365b0-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can select data sources for an Electronic reporting (ER) data model.</span></span> <span data-ttu-id="365b0-105">سيتم ربط مصادر البيانات بالمكونات الفردية لنموذج البيانات المحدد في مرحلة التصميم وسيتم نشر بيانات الأعمال إلى نموذج البيانات المشار إليه في مرحلة التشغيل.</span><span class="sxs-lookup"><span data-stu-id="365b0-105">The data sources will be bound to individual components of the selected data model at design time and populate business data to that data model at run-time.</span></span> <span data-ttu-id="365b0-106">في هذا المثال، ستحدد مصادر البيانات لنموذج بيانات موجود تم إنشاؤه لشركة عينة، .Litware, Inc. ولإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء نموذج بيانات جديد".</span><span class="sxs-lookup"><span data-stu-id="365b0-106">In this example, you will select data sources for an existing data model that has been created for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the “Create a new data model” procedure.</span></span>
 
 
-## <a name="open-the-electronic-reporting-configurations-tree"></a>فتح شجرة تكوينات التقارير الإلكترونية
-1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
-2. انقر فوق "تكوينات إعداد التقارير‬".
+## <a name="open-the-electronic-reporting-configurations-tree"></a><span data-ttu-id="365b0-107">فتح شجرة تكوينات التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="365b0-107">Open the Electronic Reporting configurations tree</span></span>
+1. <span data-ttu-id="365b0-108">انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.</span><span class="sxs-lookup"><span data-stu-id="365b0-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="365b0-109">انقر فوق "تكوينات إعداد التقارير‬".</span><span class="sxs-lookup"><span data-stu-id="365b0-109">Click Reporting configurations.</span></span>
 
-## <a name="insert-a-new-model-mapping"></a>إدراج تعيين طراز جديد
-1. في الشجرة، حدد "المدفوعات (نموذج مبسط)".
-2. انقر فوق المصمم.
-3. انقر فوق "تعيين النموذج لمصدر البيانات".
-4. انقر فوق "جديد".
-    * سيؤدي ذلك إلى إنشاء سجل جديد سيعين نموذج البيانات إلى مصادر البيانات. في هذا المثال، ستعيِّنُ نموذج البيانات إلى مصادر البيانات لنوع الدفع المطلوب: تحويل الائتمان.     ومن الممكن تصميم أكثر من عملية تعيين واحدة لنموذج بيانات معين. على سبيل المثال، يمكنك إنشاء تعيين لأنواع مختلفة من المدفوعات، مثل الدين المباشر أو التحويلات الدائنة. في هذا المثال، ستقوم بإنشاء تعيين للتحويلات الدائنة.  
-5. في الحقل "الاسم"، اكتب "تعيين CT".
-    * تعيين CT  
-6. في حقل الوصف، اكتب "تعيين نموذج الدفع CT".
-    * ***تعيين نموذج الدفع  
-7. في حقل التعريف، اكتب 'CustomerCreditTransferInitiation'.
-    * CustomerCreditTransferInitiation  
-8. حل تغييرات التعريف.
-9. انقر فوق "حفظ".
+## <a name="insert-a-new-model-mapping"></a><span data-ttu-id="365b0-110">إدراج تعيين طراز جديد</span><span class="sxs-lookup"><span data-stu-id="365b0-110">Insert a new model mapping</span></span>
+1. <span data-ttu-id="365b0-111">في الشجرة، حدد "المدفوعات (نموذج مبسط)".</span><span class="sxs-lookup"><span data-stu-id="365b0-111">In the tree, select 'Payments (simplified model)'.</span></span>
+2. <span data-ttu-id="365b0-112">انقر فوق المصمم.</span><span class="sxs-lookup"><span data-stu-id="365b0-112">Click Designer.</span></span>
+3. <span data-ttu-id="365b0-113">انقر فوق "تعيين النموذج لمصدر البيانات".</span><span class="sxs-lookup"><span data-stu-id="365b0-113">Click Map model to datasource.</span></span>
+4. <span data-ttu-id="365b0-114">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="365b0-114">Click New.</span></span>
+    * <span data-ttu-id="365b0-115">سيؤدي ذلك إلى إنشاء سجل جديد سيعين نموذج البيانات إلى مصادر البيانات.</span><span class="sxs-lookup"><span data-stu-id="365b0-115">This will create a new record that will map the data model to data sources.</span></span> <span data-ttu-id="365b0-116">في هذا المثال، ستعيِّنُ نموذج البيانات إلى مصادر البيانات لنوع الدفع المطلوب: تحويل الائتمان.</span><span class="sxs-lookup"><span data-stu-id="365b0-116">In this example, you will map the data model to data sources for the desired payment type: credit transfer.</span></span>     <span data-ttu-id="365b0-117">ومن الممكن تصميم أكثر من عملية تعيين واحدة لنموذج بيانات معين.</span><span class="sxs-lookup"><span data-stu-id="365b0-117">It is possible to design more than one mapping for a particular data model.</span></span> <span data-ttu-id="365b0-118">على سبيل المثال، يمكنك إنشاء تعيين لأنواع مختلفة من المدفوعات، مثل الدين المباشر أو التحويلات الدائنة.</span><span class="sxs-lookup"><span data-stu-id="365b0-118">For example, you could create a mapping for the different types of payments, such as for direct debit or for credit transfers.</span></span> <span data-ttu-id="365b0-119">في هذا المثال، ستقوم بإنشاء تعيين للتحويلات الدائنة.</span><span class="sxs-lookup"><span data-stu-id="365b0-119">In this example, you will create a mapping for credit transfers.</span></span>  
+5. <span data-ttu-id="365b0-120">في الحقل "الاسم"، اكتب "تعيين CT".</span><span class="sxs-lookup"><span data-stu-id="365b0-120">In the Name field, type 'CT mapping'.</span></span>
+    * <span data-ttu-id="365b0-121">تعيين CT</span><span class="sxs-lookup"><span data-stu-id="365b0-121">CT mapping</span></span>  
+6. <span data-ttu-id="365b0-122">في حقل الوصف، اكتب "تعيين نموذج الدفع CT".</span><span class="sxs-lookup"><span data-stu-id="365b0-122">In the Description field, type 'Payment model mapping CT'.</span></span>
+    * <span data-ttu-id="365b0-123">***تعيين نموذج الدفع</span><span class="sxs-lookup"><span data-stu-id="365b0-123">Payment model mapping CT</span></span>  
+7. <span data-ttu-id="365b0-124">في حقل التعريف، اكتب 'CustomerCreditTransferInitiation'.</span><span class="sxs-lookup"><span data-stu-id="365b0-124">In the Definition field, type 'CustomerCreditTransferInitiation'.</span></span>
+    * <span data-ttu-id="365b0-125">CustomerCreditTransferInitiation</span><span class="sxs-lookup"><span data-stu-id="365b0-125">CustomerCreditTransferInitiation</span></span>  
+8. <span data-ttu-id="365b0-126">حل تغييرات التعريف.</span><span class="sxs-lookup"><span data-stu-id="365b0-126">ResolveChanges the Definition.</span></span>
+9. <span data-ttu-id="365b0-127">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="365b0-127">Click Save.</span></span>
 
-## <a name="define-required-data-sources-for-the-current-model-mapping"></a>تحديد مصادر البيانات المطلوبة لتعيين النموذج الحالي
-1. انقر فوق المصمم.
-2. في الشجرة، حدد "Dynamics 365 for Operations\سجلات جدول".
-3. انقر فوق "إضافة جذر".
-    * أدخل مصدر هذه البيانات للوصول إلى حركات الدفع.  
-4. في الحقل "الاسم"، اكتب "الحركات".
-    * الحركات  
-5. في الحقل "التسمية"، أدخل "الحركات".
-    * الحركات  
-6. في الحقل "التعليمات"، أدخل "بنود دفتر يومية دفتر الأستاذ".
-    * بنود دفتر يومية دفتر الأستاذ  
-7. حدد "نعم" في حقل "طلب الاستعلام".
-    * حدد "نعم".  
-8. في الحقل "الجدول"، اكتب 'LedgerJournalTrans".
-    * LedgerJournalTrans  
-9. انقر فوق "موافق".
-    * حدد الجدول LedgerJournalTrans كمصدر بيانات لنموذج البيانات الحالي.  
-10. في الشجرة، حدد "الدوال/المحسوب".
-11. وانقر فوق إضافة.
-    * انقر فوق "إضافة" لإضافة حقل محسوب جديد.  
-12. في الحقل "الاسم"، اكتب "$EndToEndID".
-    * $EndToEndID  
-13. انقر فوق "تحرير المعادلة".
-14. في الشجرة، حدد "سلسلة/تسلسل".
-15. انقر فوق "إضافة دالة".
-16. في الشجرة، قم بتوسيع "الحركات".
-17. في الشجرة، حدد "الحركات/الإيصال".
-18. انقر فوق "إضافة مصدر بيانات".
-19. في حقل الصيغة، أدخل 'CONCATENATE(Transactions.Voucher, "-", '.
-    * النوع [، "-"،] في نهاية المعادلة.  
-20. في الشجرة، حدد "السلسلة/النص".
-21. انقر فوق "إضافة دالة".
-22. في الشجرة، حدد 'Transactions\Record-ID(RecId)'.
-23. انقر فوق "إضافة مصدر بيانات".
-24. في حقل الصيغة، أدخل 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.
-    * النوع [))] في نهاية المعادلة.  
-25. انقر فوق "حفظ".
-    * تأكد من أنه لم يتم اكتشاف أية أخطاء للمعادلة التي تم إنشاؤها. راجع علامة التبويب "أخطاء" أسفل عنصر التحكم في محرر المعادلة.  
-26. قم بإغلاق الصفحة.
-27. انقر فوق "موافق".
-    * أضف الحقل المحسوب إلى مصدر البيانات هذا.  
-28. وانقر فوق إضافة.
-    * انقر فوق "إضافة" لإضافة حقل محسوب جديد.  
-29. في الحقل "الاسم"، اكتب "$Amount".
-    * $Amount  
-30. انقر فوق "تحرير المعادلة".
-31. في الشجرة، قم بتوسيع "الحركات".
-32. في الشجرة، حدد "Transactions\Debit(AmountCurDebit)".
-33. انقر فوق "إضافة مصدر بيانات".
-34. في حقل الصيغة، أدخل 'Transactions.AmountCurDebit - '.
-    * النوع [ - ] في نهاية المعادلة.  
-35. في الشجرة، حدد "الحركات/Credit(AmountCurCredit)".
-36. انقر فوق "إضافة مصدر بيانات".
-37. انقر فوق "حفظ".
-38. قم بإغلاق الصفحة.
-39. انقر فوق "موافق".
-    * سيؤدي هذا إلى إضافة حقل $Amount المحسوب إلى مصدر البيانات المحدد لنموذج البيانات الحالي.  
-40. في الشجرة، حدد "الحركات\$المبلغ".
-41. في الشجرة، قم بتوسيع "الحركات".
-42. في الشجرة، قم بتوسيع أو طي "الحركات\$المبلغ".
-43. في الشجرة، قم بتوسيع أو طي 'الحركات'.
-44. في الشجرة، حدد "Dynamics 365 for Operations\سجلات جدول".
-45. انقر فوق "إضافة جذر".
-    * أدخل مصدر البيانات هذا للوصول إلى تفاصيل الحساب البنكي للشركة.  
-46. في الحقل "الاسم"، اكتب "BankAccount".
-    * BankAccount  
-47. في الحقل "التسمية"، أدخل "Bank Account".
-    * الحساب البنكي  
-48. في الحقل "العليمات"، أدخل "حساب البنك".
-    * الحساب البنكي  
-49. حدد "نعم" في حقل "طلب الاستعلام".
-    * حدد "نعم".  
-50. في الحقل "الجدول"، اكتب "BankAccountTable".
-    * BankAccountTable  
-51. انقر فوق "موافق".
-    * حدد الجدول BankAccountTable كمصدر بيانات لنموذج البيانات الحالي.  
-52. انقر فوق "إضافة جذر".
-    * أدخل مصدر البيانات هذا للوصول إلى متطلبات الشركة.  
-53. في الحقل "الاسم"، اكتب "الشركة".
-    * الشركة  
-54. في الحقل "التسمية"، اكتب قيمة.
-    * معلومات الشركة  
-55. في الحقل "التعليمات"، أدخل "معلومات الشركة".
-    * معلومات الشركة  
-56. حدد "نعم" في حقل "طلب الاستعلام".
-    * حدد "نعم".  
-57. في الحقل "الجدول"، اكتب "CompanyInfo".
-    * CompanyInfo  
-58. انقر فوق "موافق".
-    * حدد الجدول CompanyInfo كمصدر بيانات لنموذج البيانات الحالي.  
-59. في الشجرة، حدد "الدوال/المحسوب".
-60. انقر فوق "إضافة جذر".
-    * أدرج حقلاً محسوبًا كمصدر بيانات جديد.  
-61. في الحقل "الاسم، اكتب "ProcessingDateTime".‬
-    * ProcessingDateTime  
-62. في الحقل "التسمية"، أدخل "تاريخ المعالجة ووقتها".
-    * تاريخ المعالجة ووقتها  
-63. انقر فوق "تحرير المعادلة".
-64. في الشجرة، حدد "التاريخ/الوقت\SESSIONNOW".
-65. انقر فوق "إضافة دالة".
-66. انقر فوق "حفظ".
-67. قم بإغلاق الصفحة.
-68. انقر فوق "موافق".
-    * أضف الحقل المحسوب ProcessingDateTime ***كمصدر بيانات لنموذج البيانات الحالي.  
-69. انقر فوق "حفظ".
-70. قم بإغلاق الصفحة.
-71. قم بإغلاق الصفحة.
-72. قم بإغلاق الصفحة.
+## <a name="define-required-data-sources-for-the-current-model-mapping"></a><span data-ttu-id="365b0-128">تحديد مصادر البيانات المطلوبة لتعيين النموذج الحالي</span><span class="sxs-lookup"><span data-stu-id="365b0-128">Define required data sources for the current model mapping</span></span>
+1. <span data-ttu-id="365b0-129">انقر فوق المصمم.</span><span class="sxs-lookup"><span data-stu-id="365b0-129">Click Designer.</span></span>
+2. <span data-ttu-id="365b0-130">في الشجرة، حدد "Dynamics 365 for Operations\سجلات جدول".</span><span class="sxs-lookup"><span data-stu-id="365b0-130">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+3. <span data-ttu-id="365b0-131">انقر فوق "إضافة جذر".</span><span class="sxs-lookup"><span data-stu-id="365b0-131">Click Add root.</span></span>
+    * <span data-ttu-id="365b0-132">أدخل مصدر هذه البيانات للوصول إلى حركات الدفع.</span><span class="sxs-lookup"><span data-stu-id="365b0-132">Enter this data source to access payment transactions.</span></span>  
+4. <span data-ttu-id="365b0-133">في الحقل "الاسم"، اكتب "الحركات".</span><span class="sxs-lookup"><span data-stu-id="365b0-133">In the Name field, type 'Transactions'.</span></span>
+    * <span data-ttu-id="365b0-134">الحركات</span><span class="sxs-lookup"><span data-stu-id="365b0-134">Transactions</span></span>  
+5. <span data-ttu-id="365b0-135">في الحقل "التسمية"، أدخل "الحركات".</span><span class="sxs-lookup"><span data-stu-id="365b0-135">In the Label field, enter 'Transactions'.</span></span>
+    * <span data-ttu-id="365b0-136">الحركات</span><span class="sxs-lookup"><span data-stu-id="365b0-136">Transactions</span></span>  
+6. <span data-ttu-id="365b0-137">في الحقل "التعليمات"، أدخل "بنود دفتر يومية دفتر الأستاذ".</span><span class="sxs-lookup"><span data-stu-id="365b0-137">In the Help field, enter 'Ledger journal lines'.</span></span>
+    * <span data-ttu-id="365b0-138">بنود دفتر يومية دفتر الأستاذ</span><span class="sxs-lookup"><span data-stu-id="365b0-138">Ledger journal lines</span></span>  
+7. <span data-ttu-id="365b0-139">حدد "نعم" في حقل "طلب الاستعلام".</span><span class="sxs-lookup"><span data-stu-id="365b0-139">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="365b0-140">حدد "نعم".</span><span class="sxs-lookup"><span data-stu-id="365b0-140">Select Yes.</span></span>  
+8. <span data-ttu-id="365b0-141">في الحقل "الجدول"، اكتب 'LedgerJournalTrans".</span><span class="sxs-lookup"><span data-stu-id="365b0-141">In the Table field, type 'LedgerJournalTrans'.</span></span>
+    * <span data-ttu-id="365b0-142">LedgerJournalTrans</span><span class="sxs-lookup"><span data-stu-id="365b0-142">LedgerJournalTrans</span></span>  
+9. <span data-ttu-id="365b0-143">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="365b0-143">Click OK.</span></span>
+    * <span data-ttu-id="365b0-144">حدد الجدول LedgerJournalTrans كمصدر بيانات لنموذج البيانات الحالي.</span><span class="sxs-lookup"><span data-stu-id="365b0-144">Select the LedgerJournalTrans table as a data source for the current data model.</span></span>  
+10. <span data-ttu-id="365b0-145">في الشجرة، حدد "الدوال/المحسوب".</span><span class="sxs-lookup"><span data-stu-id="365b0-145">In the tree, select 'Functions\Calculated field'.</span></span>
+11. <span data-ttu-id="365b0-146">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="365b0-146">Click Add.</span></span>
+    * <span data-ttu-id="365b0-147">انقر فوق "إضافة" لإضافة حقل محسوب جديد.</span><span class="sxs-lookup"><span data-stu-id="365b0-147">Click Add to add a new calculated field.</span></span>  
+12. <span data-ttu-id="365b0-148">في الحقل "الاسم"، اكتب "$EndToEndID".</span><span class="sxs-lookup"><span data-stu-id="365b0-148">In the Name field, type '$EndToEndID'.</span></span>
+    * <span data-ttu-id="365b0-149">$EndToEndID</span><span class="sxs-lookup"><span data-stu-id="365b0-149">$EndToEndID</span></span>  
+13. <span data-ttu-id="365b0-150">انقر فوق "تحرير المعادلة".</span><span class="sxs-lookup"><span data-stu-id="365b0-150">Click Edit formula.</span></span>
+14. <span data-ttu-id="365b0-151">في الشجرة، حدد "سلسلة/تسلسل".</span><span class="sxs-lookup"><span data-stu-id="365b0-151">In the tree, select 'String\CONCATENATE'.</span></span>
+15. <span data-ttu-id="365b0-152">انقر فوق "إضافة دالة".</span><span class="sxs-lookup"><span data-stu-id="365b0-152">Click Add function.</span></span>
+16. <span data-ttu-id="365b0-153">في الشجرة، قم بتوسيع "الحركات".</span><span class="sxs-lookup"><span data-stu-id="365b0-153">In the tree, expand 'Transactions'.</span></span>
+17. <span data-ttu-id="365b0-154">في الشجرة، حدد "الحركات/الإيصال".</span><span class="sxs-lookup"><span data-stu-id="365b0-154">In the tree, select 'Transactions\Voucher'.</span></span>
+18. <span data-ttu-id="365b0-155">انقر فوق "إضافة مصدر بيانات".</span><span class="sxs-lookup"><span data-stu-id="365b0-155">Click Add data source.</span></span>
+19. <span data-ttu-id="365b0-156">في حقل الصيغة، أدخل 'CONCATENATE(Transactions.Voucher, "-", '.</span><span class="sxs-lookup"><span data-stu-id="365b0-156">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", '.</span></span>
+    * <span data-ttu-id="365b0-157">النوع [، "-"،] في نهاية المعادلة.</span><span class="sxs-lookup"><span data-stu-id="365b0-157">Type [ , “-“, ] at the end of the formula.</span></span>  
+20. <span data-ttu-id="365b0-158">في الشجرة، حدد "السلسلة/النص".</span><span class="sxs-lookup"><span data-stu-id="365b0-158">In the tree, select 'String\TEXT'.</span></span>
+21. <span data-ttu-id="365b0-159">انقر فوق "إضافة دالة".</span><span class="sxs-lookup"><span data-stu-id="365b0-159">Click Add function.</span></span>
+22. <span data-ttu-id="365b0-160">في الشجرة، حدد 'Transactions\Record-ID(RecId)'.</span><span class="sxs-lookup"><span data-stu-id="365b0-160">In the tree, select 'Transactions\Record-ID(RecId)'.</span></span>
+23. <span data-ttu-id="365b0-161">انقر فوق "إضافة مصدر بيانات".</span><span class="sxs-lookup"><span data-stu-id="365b0-161">Click Add data source.</span></span>
+24. <span data-ttu-id="365b0-162">في حقل الصيغة، أدخل 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.</span><span class="sxs-lookup"><span data-stu-id="365b0-162">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.</span></span>
+    * <span data-ttu-id="365b0-163">النوع [))] في نهاية المعادلة.</span><span class="sxs-lookup"><span data-stu-id="365b0-163">Type [))] at the end of the formula.</span></span>  
+25. <span data-ttu-id="365b0-164">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="365b0-164">Click Save.</span></span>
+    * <span data-ttu-id="365b0-165">تأكد من أنه لم يتم اكتشاف أية أخطاء للمعادلة التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="365b0-165">Make sure that no errors have been discovered for the created formula.</span></span> <span data-ttu-id="365b0-166">راجع علامة التبويب "أخطاء" أسفل عنصر التحكم في محرر المعادلة.</span><span class="sxs-lookup"><span data-stu-id="365b0-166">See the ERRORS tab below the formula editor control.</span></span>  
+26. <span data-ttu-id="365b0-167">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="365b0-167">Close the page.</span></span>
+27. <span data-ttu-id="365b0-168">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="365b0-168">Click OK.</span></span>
+    * <span data-ttu-id="365b0-169">أضف الحقل المحسوب إلى مصدر البيانات هذا.</span><span class="sxs-lookup"><span data-stu-id="365b0-169">Add the calculated field to this data source.</span></span>  
+28. <span data-ttu-id="365b0-170">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="365b0-170">Click Add.</span></span>
+    * <span data-ttu-id="365b0-171">انقر فوق "إضافة" لإضافة حقل محسوب جديد.</span><span class="sxs-lookup"><span data-stu-id="365b0-171">Click Add to add a new calculated field.</span></span>  
+29. <span data-ttu-id="365b0-172">في الحقل "الاسم"، اكتب "$Amount".</span><span class="sxs-lookup"><span data-stu-id="365b0-172">In the Name field, type '$Amount'.</span></span>
+    * <span data-ttu-id="365b0-173">$Amount</span><span class="sxs-lookup"><span data-stu-id="365b0-173">$Amount</span></span>  
+30. <span data-ttu-id="365b0-174">انقر فوق "تحرير المعادلة".</span><span class="sxs-lookup"><span data-stu-id="365b0-174">Click Edit formula.</span></span>
+31. <span data-ttu-id="365b0-175">في الشجرة، قم بتوسيع "الحركات".</span><span class="sxs-lookup"><span data-stu-id="365b0-175">In the tree, expand 'Transactions'.</span></span>
+32. <span data-ttu-id="365b0-176">في الشجرة، حدد "Transactions\Debit(AmountCurDebit)".</span><span class="sxs-lookup"><span data-stu-id="365b0-176">In the tree, select 'Transactions\Debit(AmountCurDebit)'.</span></span>
+33. <span data-ttu-id="365b0-177">انقر فوق "إضافة مصدر بيانات".</span><span class="sxs-lookup"><span data-stu-id="365b0-177">Click Add data source.</span></span>
+34. <span data-ttu-id="365b0-178">في حقل الصيغة، أدخل 'Transactions.AmountCurDebit - '.</span><span class="sxs-lookup"><span data-stu-id="365b0-178">In the Formula field, enter 'Transactions.AmountCurDebit - '.</span></span>
+    * <span data-ttu-id="365b0-179">النوع [ - ] في نهاية المعادلة.</span><span class="sxs-lookup"><span data-stu-id="365b0-179">Type [ - ] at the end of the formula.</span></span>  
+35. <span data-ttu-id="365b0-180">في الشجرة، حدد "الحركات/Credit(AmountCurCredit)".</span><span class="sxs-lookup"><span data-stu-id="365b0-180">In the tree, select 'Transactions\Credit(AmountCurCredit)'.</span></span>
+36. <span data-ttu-id="365b0-181">انقر فوق "إضافة مصدر بيانات".</span><span class="sxs-lookup"><span data-stu-id="365b0-181">Click Add data source.</span></span>
+37. <span data-ttu-id="365b0-182">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="365b0-182">Click Save.</span></span>
+38. <span data-ttu-id="365b0-183">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="365b0-183">Close the page.</span></span>
+39. <span data-ttu-id="365b0-184">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="365b0-184">Click OK.</span></span>
+    * <span data-ttu-id="365b0-185">سيؤدي هذا إلى إضافة حقل $Amount المحسوب إلى مصدر البيانات المحدد لنموذج البيانات الحالي.</span><span class="sxs-lookup"><span data-stu-id="365b0-185">This will add the $Amount calculated field to the selected data source for the current data model.</span></span>  
+40. <span data-ttu-id="365b0-186">في الشجرة، حدد "الحركات\$المبلغ".</span><span class="sxs-lookup"><span data-stu-id="365b0-186">In the tree, select 'Transactions\$Amount'.</span></span>
+41. <span data-ttu-id="365b0-187">في الشجرة، قم بتوسيع "الحركات".</span><span class="sxs-lookup"><span data-stu-id="365b0-187">In the tree, expand 'Transactions'.</span></span>
+42. <span data-ttu-id="365b0-188">في الشجرة، قم بتوسيع أو طي "الحركات\$المبلغ".</span><span class="sxs-lookup"><span data-stu-id="365b0-188">In the tree, expand or collapse 'Transactions\$Amount'.</span></span>
+43. <span data-ttu-id="365b0-189">في الشجرة، قم بتوسيع أو طي 'الحركات'.</span><span class="sxs-lookup"><span data-stu-id="365b0-189">In the tree, expand or collapse 'Transactions'.</span></span>
+44. <span data-ttu-id="365b0-190">في الشجرة، حدد "Dynamics 365 for Operations\سجلات جدول".</span><span class="sxs-lookup"><span data-stu-id="365b0-190">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+45. <span data-ttu-id="365b0-191">انقر فوق "إضافة جذر".</span><span class="sxs-lookup"><span data-stu-id="365b0-191">Click Add root.</span></span>
+    * <span data-ttu-id="365b0-192">أدخل مصدر البيانات هذا للوصول إلى تفاصيل الحساب البنكي للشركة.</span><span class="sxs-lookup"><span data-stu-id="365b0-192">Enter this data source to access the company’s bank account details.</span></span>  
+46. <span data-ttu-id="365b0-193">في الحقل "الاسم"، اكتب "BankAccount".</span><span class="sxs-lookup"><span data-stu-id="365b0-193">In the Name field, type 'BankAccount'.</span></span>
+    * <span data-ttu-id="365b0-194">BankAccount</span><span class="sxs-lookup"><span data-stu-id="365b0-194">BankAccount</span></span>  
+47. <span data-ttu-id="365b0-195">في الحقل "التسمية"، أدخل "Bank Account".</span><span class="sxs-lookup"><span data-stu-id="365b0-195">In the Label field, enter 'Bank Account'.</span></span>
+    * <span data-ttu-id="365b0-196">الحساب البنكي</span><span class="sxs-lookup"><span data-stu-id="365b0-196">Bank Account</span></span>  
+48. <span data-ttu-id="365b0-197">في الحقل "العليمات"، أدخل "حساب البنك".</span><span class="sxs-lookup"><span data-stu-id="365b0-197">In the Help field, enter 'Bank Account'.</span></span>
+    * <span data-ttu-id="365b0-198">الحساب البنكي</span><span class="sxs-lookup"><span data-stu-id="365b0-198">Bank Account</span></span>  
+49. <span data-ttu-id="365b0-199">حدد "نعم" في حقل "طلب الاستعلام".</span><span class="sxs-lookup"><span data-stu-id="365b0-199">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="365b0-200">حدد "نعم".</span><span class="sxs-lookup"><span data-stu-id="365b0-200">Select Yes.</span></span>  
+50. <span data-ttu-id="365b0-201">في الحقل "الجدول"، اكتب "BankAccountTable".</span><span class="sxs-lookup"><span data-stu-id="365b0-201">In the Table field, type 'BankAccountTable'.</span></span>
+    * <span data-ttu-id="365b0-202">BankAccountTable</span><span class="sxs-lookup"><span data-stu-id="365b0-202">BankAccountTable</span></span>  
+51. <span data-ttu-id="365b0-203">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="365b0-203">Click OK.</span></span>
+    * <span data-ttu-id="365b0-204">حدد الجدول BankAccountTable كمصدر بيانات لنموذج البيانات الحالي.</span><span class="sxs-lookup"><span data-stu-id="365b0-204">Select the BankAccountTable table as a data source for the current data model.</span></span>  
+52. <span data-ttu-id="365b0-205">انقر فوق "إضافة جذر".</span><span class="sxs-lookup"><span data-stu-id="365b0-205">Click Add root.</span></span>
+    * <span data-ttu-id="365b0-206">أدخل مصدر البيانات هذا للوصول إلى متطلبات الشركة.</span><span class="sxs-lookup"><span data-stu-id="365b0-206">Enter this data source to access the company’s requisites.</span></span>  
+53. <span data-ttu-id="365b0-207">في الحقل "الاسم"، اكتب "الشركة".</span><span class="sxs-lookup"><span data-stu-id="365b0-207">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="365b0-208">الشركة</span><span class="sxs-lookup"><span data-stu-id="365b0-208">Company</span></span>  
+54. <span data-ttu-id="365b0-209">في الحقل "التسمية"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="365b0-209">In the Label field, type a value.</span></span>
+    * <span data-ttu-id="365b0-210">معلومات الشركة</span><span class="sxs-lookup"><span data-stu-id="365b0-210">Company information</span></span>  
+55. <span data-ttu-id="365b0-211">في الحقل "التعليمات"، أدخل "معلومات الشركة".</span><span class="sxs-lookup"><span data-stu-id="365b0-211">In the Help field, enter 'Company information'.</span></span>
+    * <span data-ttu-id="365b0-212">معلومات الشركة</span><span class="sxs-lookup"><span data-stu-id="365b0-212">Company information</span></span>  
+56. <span data-ttu-id="365b0-213">حدد "نعم" في حقل "طلب الاستعلام".</span><span class="sxs-lookup"><span data-stu-id="365b0-213">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="365b0-214">حدد "نعم".</span><span class="sxs-lookup"><span data-stu-id="365b0-214">Select Yes.</span></span>  
+57. <span data-ttu-id="365b0-215">في الحقل "الجدول"، اكتب "CompanyInfo".</span><span class="sxs-lookup"><span data-stu-id="365b0-215">In the Table field, type 'CompanyInfo'.</span></span>
+    * <span data-ttu-id="365b0-216">CompanyInfo</span><span class="sxs-lookup"><span data-stu-id="365b0-216">CompanyInfo</span></span>  
+58. <span data-ttu-id="365b0-217">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="365b0-217">Click OK.</span></span>
+    * <span data-ttu-id="365b0-218">حدد الجدول CompanyInfo كمصدر بيانات لنموذج البيانات الحالي.</span><span class="sxs-lookup"><span data-stu-id="365b0-218">Select the CompanyInfo table as a data source for the current data model.</span></span>  
+59. <span data-ttu-id="365b0-219">في الشجرة، حدد "الدوال/المحسوب".</span><span class="sxs-lookup"><span data-stu-id="365b0-219">In the tree, select 'Functions\Calculated field'.</span></span>
+60. <span data-ttu-id="365b0-220">انقر فوق "إضافة جذر".</span><span class="sxs-lookup"><span data-stu-id="365b0-220">Click Add root.</span></span>
+    * <span data-ttu-id="365b0-221">أدرج حقلاً محسوبًا كمصدر بيانات جديد.</span><span class="sxs-lookup"><span data-stu-id="365b0-221">Insert a calculated field as a new data source.</span></span>  
+61. <span data-ttu-id="365b0-222">في الحقل "الاسم، اكتب "ProcessingDateTime".‬</span><span class="sxs-lookup"><span data-stu-id="365b0-222">In the Name field, type 'ProcessingDateTime'.</span></span>
+    * <span data-ttu-id="365b0-223">ProcessingDateTime</span><span class="sxs-lookup"><span data-stu-id="365b0-223">ProcessingDateTime</span></span>  
+62. <span data-ttu-id="365b0-224">في الحقل "التسمية"، أدخل "تاريخ المعالجة ووقتها".</span><span class="sxs-lookup"><span data-stu-id="365b0-224">In the Label field, enter 'Processing date & time'.</span></span>
+    * <span data-ttu-id="365b0-225">تاريخ المعالجة ووقتها</span><span class="sxs-lookup"><span data-stu-id="365b0-225">Processing date & time</span></span>  
+63. <span data-ttu-id="365b0-226">انقر فوق "تحرير المعادلة".</span><span class="sxs-lookup"><span data-stu-id="365b0-226">Click Edit formula.</span></span>
+64. <span data-ttu-id="365b0-227">في الشجرة، حدد "التاريخ/الوقت\SESSIONNOW".</span><span class="sxs-lookup"><span data-stu-id="365b0-227">In the tree, select 'Date/time\SESSIONNOW'.</span></span>
+65. <span data-ttu-id="365b0-228">انقر فوق "إضافة دالة".</span><span class="sxs-lookup"><span data-stu-id="365b0-228">Click Add function.</span></span>
+66. <span data-ttu-id="365b0-229">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="365b0-229">Click Save.</span></span>
+67. <span data-ttu-id="365b0-230">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="365b0-230">Close the page.</span></span>
+68. <span data-ttu-id="365b0-231">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="365b0-231">Click OK.</span></span>
+    * <span data-ttu-id="365b0-232">أضف الحقل المحسوب ProcessingDateTime ***كمصدر بيانات لنموذج البيانات الحالي.</span><span class="sxs-lookup"><span data-stu-id="365b0-232">Add the ProcessingDateTime calculated field as a data source for the current data model.</span></span>  
+69. <span data-ttu-id="365b0-233">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="365b0-233">Click Save.</span></span>
+70. <span data-ttu-id="365b0-234">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="365b0-234">Close the page.</span></span>
+71. <span data-ttu-id="365b0-235">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="365b0-235">Close the page.</span></span>
+72. <span data-ttu-id="365b0-236">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="365b0-236">Close the page.</span></span>
 
 

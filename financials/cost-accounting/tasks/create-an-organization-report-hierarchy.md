@@ -16,83 +16,83 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 72a055f15defc28db4917a680ae3a1f46c5e5b8b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f593c59660abcf5b0d5771ddd9daced6ec5fbfb4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-organization-report-hierarchy"></a>إنشاء تدرج هرمي لتقارير المنظمة
+# <a name="create-an-organization-report-hierarchy"></a><span data-ttu-id="9c624-103">إنشاء تدرج هرمي لتقارير المنظمة</span><span class="sxs-lookup"><span data-stu-id="9c624-103">Create an organization report hierarchy</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-استخدم هذا الإجراء لإنشاء تدرج هرمي للتقرير لإعداد تقارير المؤسسة. الغرض من هذا التسجيل هو إرشادك عبر التدرج الهرمي للأبعاد لكي تتمكن من المتابعة حتى يتم إنشاء بنية تقارير المؤسسة بأكملها. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.
+<span data-ttu-id="9c624-104">استخدم هذا الإجراء لإنشاء تدرج هرمي للتقرير لإعداد تقارير المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="9c624-104">Use this procedure to create a report hierarchy for organization reporting.</span></span> <span data-ttu-id="9c624-105">الغرض من هذا التسجيل هو إرشادك عبر التدرج الهرمي للأبعاد لكي تتمكن من المتابعة حتى يتم إنشاء بنية تقارير المؤسسة بأكملها.</span><span class="sxs-lookup"><span data-stu-id="9c624-105">The purpose of this recording is to guide you through the dimension hierarchy so that you can continue until the whole organization reporting structure is created.</span></span> <span data-ttu-id="9c624-106">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.</span><span class="sxs-lookup"><span data-stu-id="9c624-106">This recording uses the USP2 demo data company.</span></span>
 
-1. انتقل إلى محاسبة التكاليف > الأبعاد > التدرجات الهرمية للأبعاد‬.
-2. انقر فوق "جديد".
-3. في الحقل HierarchyTypeComboBox، حدد "التدرج الهرمي لتصنيف الأبعاد‬".
-    * حدد التدرج الهرمي لتصنيف الأبعاد‬. يُستخدم نوع ‏‫التدرج الهرمي لتصنيف البعد لتحديد القواعد ولأغراض إعداد التقارير. إنها تدعم كافة الأبعاد، مثل كائنات التكلفة وعناصر التكلفة والأبعاد الإحصائية.  
-4. انقر فوق "إنشاء".
-5. في حقل "‏‫اسم التدرج الهرمي للبُعد‬‬"، اكتب "مؤسسة USP2".
-6. في حقل "البعد"، أدخل أو حدد قيمة.
-    * حدد مراكز التكلفة.  
-7. انقر فوق "حفظ".
-8. انقر فوق "عرض التدرج الهرمي".
-9. انقر فوق "جديد".
-10. في الحقل "اسم العقدة"، اكتب "CEO".
-11. انقر فوق "حفظ".
-12. انقر فوق "جديد".
-13. في الحقل "اسم العقدة"، اكتب "مراكز تكلفة CEO".
-14. انقر فوق "حفظ".
-15. انقر فوق "جديد".
-16. في الحقل "اسم العقدة"، اكتب "المنطقة الشرقية".
-17. انقر فوق "حفظ".
-18. انقر فوق "جديد".
-19. في القائمة، قم بوضع علامة للصف المحدد.
-20. في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.
-    * حدد عضو البُعد المطابق للعقدة.  
-21. انقر فوق "حفظ".
-22. في الشجرة، حدد "مؤسسة USP2\CEO\مراكز تكلفة CEO".
-23. انقر فوق "جديد".
-24. في الحقل "اسم العقدة"، اكتب "المنطقة الغربية".
-25. انقر فوق "حفظ".
-26. انقر فوق "جديد".
-27. في القائمة، قم بوضع علامة للصف المحدد.
-28. في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.
-    * حدد عضو البُعد المطابق للعقدة.  
-29. انقر فوق "حفظ".
-30. في الشجرة، حدد "مؤسسة USP2\CEO'.
-31. انقر فوق "جديد".
-32. في الحقل "اسم العقدة"، اكتب "مراكز تكلفة CFO".
-33. انقر فوق "حفظ".
-34. انقر فوق "جديد".
-35. في الحقل "اسم العقدة"، اكتب "حملة ترويجية".
-36. في الحقل "اسم العقدة"، اكتب "حملة ترويجية".
-37. انقر فوق "حفظ".
-38. انقر فوق "جديد".
-39. في القائمة، قم بوضع علامة للصف المحدد.
-40. في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.
-    * حدد عضو البُعد المطابق للعقدة.  
-41. انقر فوق "حفظ".
-42. في الشجرة، حدد "مؤسسة USP2\CEO\مراكز تكلفة CFO".
-43. انقر فوق "جديد".
-44. في الحقل "اسم العقدة"، اكتب "معارض تجارية".
-45. انقر فوق "حفظ".
-46. انقر فوق "جديد".
-47. في القائمة، قم بوضع علامة للصف المحدد.
-48. في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.
-    * حدد عضو البُعد المطابق للعقدة.  
-49. انقر فوق "حفظ".
-50. في الشجرة، حدد "مؤسسة USP2\CEO'.
-51. في الحقل "اسم العقدة"، اكتب "مراكز تكلفة CIO".
-52. انقر فوق "حفظ".
-53. انقر فوق "جديد".
-54. في الحقل "اسم العقدة"، اكتب "مراكز اتصال".
-55. انقر فوق "حفظ".
-56. انقر فوق "جديد".
-57. في القائمة، قم بوضع علامة للصف المحدد.
-58. في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.
-    * حدد عضو البُعد المطابق للعقدة.  
-59. انقر فوق "حفظ".
+1. <span data-ttu-id="9c624-107">انتقل إلى محاسبة التكاليف > الأبعاد > التدرجات الهرمية للأبعاد‬.</span><span class="sxs-lookup"><span data-stu-id="9c624-107">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="9c624-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-108">Click New.</span></span>
+3. <span data-ttu-id="9c624-109">في الحقل HierarchyTypeComboBox، حدد "التدرج الهرمي لتصنيف الأبعاد‬".</span><span class="sxs-lookup"><span data-stu-id="9c624-109">In the HierarchyTypeComboBox field, select 'Dimension classification hierarchy'.</span></span>
+    * <span data-ttu-id="9c624-110">حدد التدرج الهرمي لتصنيف الأبعاد‬.</span><span class="sxs-lookup"><span data-stu-id="9c624-110">Select Dimension classification hierarchy.</span></span> <span data-ttu-id="9c624-111">يُستخدم نوع ‏‫التدرج الهرمي لتصنيف البعد لتحديد القواعد ولأغراض إعداد التقارير.</span><span class="sxs-lookup"><span data-stu-id="9c624-111">The Dimension classification hierarchy type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="9c624-112">إنها تدعم كافة الأبعاد، مثل كائنات التكلفة وعناصر التكلفة والأبعاد الإحصائية.</span><span class="sxs-lookup"><span data-stu-id="9c624-112">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span>  
+4. <span data-ttu-id="9c624-113">انقر فوق "إنشاء".</span><span class="sxs-lookup"><span data-stu-id="9c624-113">Click Create.</span></span>
+5. <span data-ttu-id="9c624-114">في حقل "‏‫اسم التدرج الهرمي للبُعد‬‬"، اكتب "مؤسسة USP2".</span><span class="sxs-lookup"><span data-stu-id="9c624-114">In the Dimension hierarchy name field, type 'Oganization USP2'.</span></span>
+6. <span data-ttu-id="9c624-115">في حقل "البعد"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="9c624-115">In the Dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="9c624-116">حدد مراكز التكلفة.</span><span class="sxs-lookup"><span data-stu-id="9c624-116">Select Cost centers.</span></span>  
+7. <span data-ttu-id="9c624-117">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-117">Click Save.</span></span>
+8. <span data-ttu-id="9c624-118">انقر فوق "عرض التدرج الهرمي".</span><span class="sxs-lookup"><span data-stu-id="9c624-118">Click View hierarchy.</span></span>
+9. <span data-ttu-id="9c624-119">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-119">Click New.</span></span>
+10. <span data-ttu-id="9c624-120">في الحقل "اسم العقدة"، اكتب "CEO".</span><span class="sxs-lookup"><span data-stu-id="9c624-120">In the Node name field, type 'CEO'.</span></span>
+11. <span data-ttu-id="9c624-121">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-121">Click Save.</span></span>
+12. <span data-ttu-id="9c624-122">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-122">Click New.</span></span>
+13. <span data-ttu-id="9c624-123">في الحقل "اسم العقدة"، اكتب "مراكز تكلفة CEO".</span><span class="sxs-lookup"><span data-stu-id="9c624-123">In the Node name field, type 'CEO cost centers'.</span></span>
+14. <span data-ttu-id="9c624-124">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-124">Click Save.</span></span>
+15. <span data-ttu-id="9c624-125">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-125">Click New.</span></span>
+16. <span data-ttu-id="9c624-126">في الحقل "اسم العقدة"، اكتب "المنطقة الشرقية".</span><span class="sxs-lookup"><span data-stu-id="9c624-126">In the Node name field, type 'Region East'.</span></span>
+17. <span data-ttu-id="9c624-127">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-127">Click Save.</span></span>
+18. <span data-ttu-id="9c624-128">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-128">Click New.</span></span>
+19. <span data-ttu-id="9c624-129">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="9c624-129">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="9c624-130">في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="9c624-130">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="9c624-131">حدد عضو البُعد المطابق للعقدة.</span><span class="sxs-lookup"><span data-stu-id="9c624-131">Select the dimension member that corresponds to the node.</span></span>  
+21. <span data-ttu-id="9c624-132">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-132">Click Save.</span></span>
+22. <span data-ttu-id="9c624-133">في الشجرة، حدد "مؤسسة USP2\CEO\مراكز تكلفة CEO".</span><span class="sxs-lookup"><span data-stu-id="9c624-133">In the tree, select 'Oganization USP2\CEO\CEO cost centers'.</span></span>
+23. <span data-ttu-id="9c624-134">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-134">Click New.</span></span>
+24. <span data-ttu-id="9c624-135">في الحقل "اسم العقدة"، اكتب "المنطقة الغربية".</span><span class="sxs-lookup"><span data-stu-id="9c624-135">In the Node name field, type 'Region West'.</span></span>
+25. <span data-ttu-id="9c624-136">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-136">Click Save.</span></span>
+26. <span data-ttu-id="9c624-137">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-137">Click New.</span></span>
+27. <span data-ttu-id="9c624-138">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="9c624-138">In the list, mark the selected row.</span></span>
+28. <span data-ttu-id="9c624-139">في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="9c624-139">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="9c624-140">حدد عضو البُعد المطابق للعقدة.</span><span class="sxs-lookup"><span data-stu-id="9c624-140">Select the dimension member that corresponds to the node.</span></span>  
+29. <span data-ttu-id="9c624-141">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-141">Click Save.</span></span>
+30. <span data-ttu-id="9c624-142">في الشجرة، حدد "مؤسسة USP2\CEO'.</span><span class="sxs-lookup"><span data-stu-id="9c624-142">In the tree, select 'Oganization USP2\CEO'.</span></span>
+31. <span data-ttu-id="9c624-143">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-143">Click New.</span></span>
+32. <span data-ttu-id="9c624-144">في الحقل "اسم العقدة"، اكتب "مراكز تكلفة CFO".</span><span class="sxs-lookup"><span data-stu-id="9c624-144">In the Node name field, type 'CFO cost centers'.</span></span>
+33. <span data-ttu-id="9c624-145">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-145">Click Save.</span></span>
+34. <span data-ttu-id="9c624-146">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-146">Click New.</span></span>
+35. <span data-ttu-id="9c624-147">في الحقل "اسم العقدة"، اكتب "حملة ترويجية".</span><span class="sxs-lookup"><span data-stu-id="9c624-147">In the Node name field, type 'Marketing campa'.</span></span>
+36. <span data-ttu-id="9c624-148">في الحقل "اسم العقدة"، اكتب "حملة ترويجية".</span><span class="sxs-lookup"><span data-stu-id="9c624-148">In the Node name field, type 'Marketing campaign'.</span></span>
+37. <span data-ttu-id="9c624-149">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-149">Click Save.</span></span>
+38. <span data-ttu-id="9c624-150">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-150">Click New.</span></span>
+39. <span data-ttu-id="9c624-151">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="9c624-151">In the list, mark the selected row.</span></span>
+40. <span data-ttu-id="9c624-152">في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="9c624-152">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="9c624-153">حدد عضو البُعد المطابق للعقدة.</span><span class="sxs-lookup"><span data-stu-id="9c624-153">Select the dimension member that corresponds to the node.</span></span>  
+41. <span data-ttu-id="9c624-154">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-154">Click Save.</span></span>
+42. <span data-ttu-id="9c624-155">في الشجرة، حدد "مؤسسة USP2\CEO\مراكز تكلفة CFO".</span><span class="sxs-lookup"><span data-stu-id="9c624-155">In the tree, select 'Oganization USP2\CEO\CFO cost centers'.</span></span>
+43. <span data-ttu-id="9c624-156">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-156">Click New.</span></span>
+44. <span data-ttu-id="9c624-157">في الحقل "اسم العقدة"، اكتب "معارض تجارية".</span><span class="sxs-lookup"><span data-stu-id="9c624-157">In the Node name field, type 'Trade shows'.</span></span>
+45. <span data-ttu-id="9c624-158">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-158">Click Save.</span></span>
+46. <span data-ttu-id="9c624-159">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-159">Click New.</span></span>
+47. <span data-ttu-id="9c624-160">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="9c624-160">In the list, mark the selected row.</span></span>
+48. <span data-ttu-id="9c624-161">في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="9c624-161">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="9c624-162">حدد عضو البُعد المطابق للعقدة.</span><span class="sxs-lookup"><span data-stu-id="9c624-162">Select the dimension member that corresponds to the node.</span></span>  
+49. <span data-ttu-id="9c624-163">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-163">Click Save.</span></span>
+50. <span data-ttu-id="9c624-164">في الشجرة، حدد "مؤسسة USP2\CEO'.</span><span class="sxs-lookup"><span data-stu-id="9c624-164">In the tree, select 'Oganization USP2\CEO'.</span></span>
+51. <span data-ttu-id="9c624-165">في الحقل "اسم العقدة"، اكتب "مراكز تكلفة CIO".</span><span class="sxs-lookup"><span data-stu-id="9c624-165">In the Node name field, type 'CIO cost centers'.</span></span>
+52. <span data-ttu-id="9c624-166">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-166">Click Save.</span></span>
+53. <span data-ttu-id="9c624-167">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-167">Click New.</span></span>
+54. <span data-ttu-id="9c624-168">في الحقل "اسم العقدة"، اكتب "مراكز اتصال".</span><span class="sxs-lookup"><span data-stu-id="9c624-168">In the Node name field, type 'Call centers'.</span></span>
+55. <span data-ttu-id="9c624-169">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-169">Click Save.</span></span>
+56. <span data-ttu-id="9c624-170">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9c624-170">Click New.</span></span>
+57. <span data-ttu-id="9c624-171">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="9c624-171">In the list, mark the selected row.</span></span>
+58. <span data-ttu-id="9c624-172">في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="9c624-172">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="9c624-173">حدد عضو البُعد المطابق للعقدة.</span><span class="sxs-lookup"><span data-stu-id="9c624-173">Select the dimension member that corresponds to the node.</span></span>  
+59. <span data-ttu-id="9c624-174">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9c624-174">Click Save.</span></span>
 
 

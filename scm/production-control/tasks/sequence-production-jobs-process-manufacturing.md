@@ -16,58 +16,58 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f37b561188cf9c6d90c25e395ba30aa979136590
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a25a4575ca1600b07b2dac5949c8775bcd162650
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="sequence-production-jobs-for-process-manufacturing"></a>تسلسل وظائف الإنتاج للتصنيع التحويلي
+# <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="ad6c3-103">تسلسل وظائف الإنتاج للتصنيع التحويلي</span><span class="sxs-lookup"><span data-stu-id="ad6c3-103">Sequence production jobs for process manufacturing</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يستخدم هذا الإجراء منتجات الطلاء كمثال لإظهار كيفية تسلسل الأوامر المخططة وفقًا لأولوية اللون وحجم الحزمة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USPI. هذا الإجراء مخصص لمخطط الإنتاج‬.
+<span data-ttu-id="ad6c3-104">يستخدم هذا الإجراء منتجات الطلاء كمثال لإظهار كيفية تسلسل الأوامر المخططة وفقًا لأولوية اللون وحجم الحزمة.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-104">This procedure uses paint products as an example to show how to sequence planned orders according to the priority of color and package size.</span></span> <span data-ttu-id="ad6c3-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USPI.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-105">The demo data company used to create this procedure is USPI.</span></span> <span data-ttu-id="ad6c3-106">هذا الإجراء مخصص لمخطط الإنتاج‬.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-106">This procedure is intended for the production planner.</span></span>
 
 
-## <a name="run-master-planning-for-uspi"></a>قم بتشغيل التخطيط الرئيسي لـ USPI
-1. انتقل إلى التخطيط الرئيسي > التخطيط الرئيسي > تشغيل > التخطيط الرئيسي.
-2. في الحقل "الخطة الرئيسية‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-3. في القائمة، انقر فوق الارتباط في الصف المحدد.
-    * حدد المخطط الرئيسي.  
-4. انقر فوق "موافق".
-    * وهذا يبدأ "المخطط الرئيسي"، بما في ذلك عملية التسلسل. قد تستغرق هذه العملية بضع دقائق.  
+## <a name="run-master-planning-for-uspi"></a><span data-ttu-id="ad6c3-107">قم بتشغيل التخطيط الرئيسي لـ USPI</span><span class="sxs-lookup"><span data-stu-id="ad6c3-107">Run master planning for USPI</span></span>
+1. <span data-ttu-id="ad6c3-108">انتقل إلى التخطيط الرئيسي > التخطيط الرئيسي > تشغيل > التخطيط الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-108">Go to Master planning > Master planning > Run > Master planning.</span></span>
+2. <span data-ttu-id="ad6c3-109">في الحقل "الخطة الرئيسية‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-109">In the Master plan field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="ad6c3-110">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-110">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="ad6c3-111">حدد المخطط الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-111">Select MasterPlan.</span></span>  
+4. <span data-ttu-id="ad6c3-112">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="ad6c3-112">Click OK.</span></span>
+    * <span data-ttu-id="ad6c3-113">وهذا يبدأ "المخطط الرئيسي"، بما في ذلك عملية التسلسل.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-113">This starts Master Planning, including the sequence process.</span></span> <span data-ttu-id="ad6c3-114">قد تستغرق هذه العملية بضع دقائق.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-114">This process can take a few minutes.</span></span>  
 
-## <a name="view-planned-orders-for-the-paint-products"></a>عرض الطلبات المخططة لمنتجات الطلاء
-1. انتقل إلى التخطيط الرئيسي > التخطيط الرئيسي > الطلبات المخططة.
-2. قم بتوسيع مربع حقائق تفاصيل الصنف.
-3. قم بتوسيع مربع حقائق التفاصيل الجدول.
-4. في الحقل "الخطة"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-5. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * حدد المخطط الرئيسي.  
-6. في القائمة، انقر فوق الارتباط في الصف المحدد.
-7. استخدام عامل التصفية السريع لتصفية حقل رقم الصنف باستخدام القيمة "P300".
-    * قم بإلغاء التأمين للتمرير إلى اليمين لعرض تاريخ الطلب وتاريخ التسليم. لاحظ أن هذه العناصر لها تاريخ طلب اليوم وتواريخ تسليم للطلبات المخططة غير متسلسلة بعد أولوية اللون وحجم الحزمة، كما هو موضح في اسم المنتج. يمكنك المرور فوق رقم صنف لرؤية اسم المنتج والأولوية.  
+## <a name="view-planned-orders-for-the-paint-products"></a><span data-ttu-id="ad6c3-115">عرض الطلبات المخططة لمنتجات الطلاء</span><span class="sxs-lookup"><span data-stu-id="ad6c3-115">View planned orders for the paint products</span></span>
+1. <span data-ttu-id="ad6c3-116">انتقل إلى التخطيط الرئيسي > التخطيط الرئيسي > الطلبات المخططة.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-116">Go to Master planning > Master planning > Planned orders.</span></span>
+2. <span data-ttu-id="ad6c3-117">قم بتوسيع مربع حقائق تفاصيل الصنف.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-117">Expand the Item details FactBox.</span></span>
+3. <span data-ttu-id="ad6c3-118">قم بتوسيع مربع حقائق التفاصيل الجدول.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-118">Expand the Schedule details FactBox.</span></span>
+4. <span data-ttu-id="ad6c3-119">في الحقل "الخطة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-119">In the Plan field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="ad6c3-120">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ad6c3-121">حدد المخطط الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-121">Select MasterPlan.</span></span>  
+6. <span data-ttu-id="ad6c3-122">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-122">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="ad6c3-123">استخدام عامل التصفية السريع لتصفية حقل رقم الصنف باستخدام القيمة "P300".</span><span class="sxs-lookup"><span data-stu-id="ad6c3-123">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
+    * <span data-ttu-id="ad6c3-124">قم بإلغاء التأمين للتمرير إلى اليمين لعرض تاريخ الطلب وتاريخ التسليم.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-124">Unlock to scroll to the right to see the order date and delivery date.</span></span> <span data-ttu-id="ad6c3-125">لاحظ أن هذه العناصر لها تاريخ طلب اليوم وتواريخ تسليم للطلبات المخططة غير متسلسلة بعد أولوية اللون وحجم الحزمة، كما هو موضح في اسم المنتج.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-125">Notice that these items have an order date of Today and the delivery dates for the planned orders are not sequenced after the priority of color and package size, as shown in the product name.</span></span> <span data-ttu-id="ad6c3-126">يمكنك المرور فوق رقم صنف لرؤية اسم المنتج والأولوية.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-126">You can hover over an item number to see the product name and priority.</span></span>  
 
-## <a name="sequence-planned-orders-for-paint"></a>تسلسل الطلبات المخططة للطلاء
-1. قم بإغلاق الصفحة.
-2. انتقل إلى التخطيط الرئيسي > التخطيط الرئيسي > الطلبات المخططة المتسلسلة.
-3. قم بتوسيع مربع حقائق تفاصيل الصنف.
-4. قم بتوسيع مربع حقائق التفاصيل الجدول.
-    * ملاحظة: هنا ترى التاريخ/وقت البدء للطلبات المخططة مسلسلة وفقًا للون وحجم الحزمة خلال فترة زمنية مقدرها 28 يومًا. يتم تعريف هذه الفترات برقم في الحملة الميدانية. يعمل نموذج أمر مخطط مسلسل كنموذج طلب مخطط نموذجي، ويمكن لمخطط الإنتاج تأكيد الطلبات المخططة هنا.  
-5. ضع علامة على كل الصفوف.
-6. انقر فوق "قبول".
-    * سيعمل هذا على تحديث الأوامر المخططة بإجراء التسلسل المحدد للمؤجل أو المتقدم.  
+## <a name="sequence-planned-orders-for-paint"></a><span data-ttu-id="ad6c3-127">تسلسل الطلبات المخططة للطلاء</span><span class="sxs-lookup"><span data-stu-id="ad6c3-127">Sequence planned orders for paint</span></span>
+1. <span data-ttu-id="ad6c3-128">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-128">Close the page.</span></span>
+2. <span data-ttu-id="ad6c3-129">انتقل إلى التخطيط الرئيسي > التخطيط الرئيسي > الطلبات المخططة المتسلسلة.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-129">Go to Master planning > Master planning > Sequenced planned orders.</span></span>
+3. <span data-ttu-id="ad6c3-130">قم بتوسيع مربع حقائق تفاصيل الصنف.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-130">Expand the Item details FactBox.</span></span>
+4. <span data-ttu-id="ad6c3-131">قم بتوسيع مربع حقائق التفاصيل الجدول.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-131">Expand the Schedule details FactBox.</span></span>
+    * <span data-ttu-id="ad6c3-132">ملاحظة: هنا ترى التاريخ/وقت البدء للطلبات المخططة مسلسلة وفقًا للون وحجم الحزمة خلال فترة زمنية مقدرها 28 يومًا.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-132">Note: Here you see that the Start date/time for the planned orders are sequenced according to color and package size within a bucket period of 28 days.</span></span> <span data-ttu-id="ad6c3-133">يتم تعريف هذه الفترات برقم في الحملة الميدانية.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-133">These periods are defined by a number in the field Campaign.</span></span> <span data-ttu-id="ad6c3-134">يعمل نموذج أمر مخطط مسلسل كنموذج طلب مخطط نموذجي، ويمكن لمخطط الإنتاج تأكيد الطلبات المخططة هنا.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-134">The sequenced planned order form acts like the typical planned order form, and the production planner can firm the planned orders here.</span></span>  
+5. <span data-ttu-id="ad6c3-135">ضع علامة على كل الصفوف.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-135">Mark all rows.</span></span>
+6. <span data-ttu-id="ad6c3-136">انقر فوق "قبول".</span><span class="sxs-lookup"><span data-stu-id="ad6c3-136">Click Accept.</span></span>
+    * <span data-ttu-id="ad6c3-137">سيعمل هذا على تحديث الأوامر المخططة بإجراء التسلسل المحدد للمؤجل أو المتقدم.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-137">This will update the planned orders with the selected sequence action of either Postpone or Advance.</span></span>  
 
-## <a name="verify-the-sequence-of-the-planned-orders"></a>تحقق من تسلسل الأوامر المخططة
-1. قم بإغلاق الصفحة.
-2. انتقل إلى التخطيط الرئيسي > التخطيط الرئيسي > الطلبات المخططة.
-3. قم بتوسيع مربع حقائق تفاصيل الصنف.
-4. قم بتوسيع مربع حقائق التفاصيل الجدول.
-5. في الحقل "الخطة"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-6. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * حدد المخطط الرئيسي.  
-7. في القائمة، انقر فوق الارتباط في الصف المحدد.
-8. استخدام عامل التصفية السريع لتصفية حقل رقم الصنف باستخدام القيمة "P300".
-    * لاحظ أن تسلسل الطلبات الآن متسلسلة وفقًا لأولوية اللون والحجم وبدء الطلبات المخططة في تاريخ الطلب الأحدث وتاريخ التسليم. تحقق من عمود تاريخ الطلب أو تاريخ البدء في مربع حقائق تفاصيل الجدول.  
+## <a name="verify-the-sequence-of-the-planned-orders"></a><span data-ttu-id="ad6c3-138">تحقق من تسلسل الأوامر المخططة</span><span class="sxs-lookup"><span data-stu-id="ad6c3-138">Verify the sequence of the planned orders</span></span>
+1. <span data-ttu-id="ad6c3-139">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-139">Close the page.</span></span>
+2. <span data-ttu-id="ad6c3-140">انتقل إلى التخطيط الرئيسي > التخطيط الرئيسي > الطلبات المخططة.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-140">Go to Master planning > Master planning > Planned orders.</span></span>
+3. <span data-ttu-id="ad6c3-141">قم بتوسيع مربع حقائق تفاصيل الصنف.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-141">Expand the Item details FactBox.</span></span>
+4. <span data-ttu-id="ad6c3-142">قم بتوسيع مربع حقائق التفاصيل الجدول.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-142">Expand the Schedule details FactBox.</span></span>
+5. <span data-ttu-id="ad6c3-143">في الحقل "الخطة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-143">In the Plan field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="ad6c3-144">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ad6c3-145">حدد المخطط الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-145">Select MasterPlan.</span></span>  
+7. <span data-ttu-id="ad6c3-146">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-146">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="ad6c3-147">استخدام عامل التصفية السريع لتصفية حقل رقم الصنف باستخدام القيمة "P300".</span><span class="sxs-lookup"><span data-stu-id="ad6c3-147">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
+    * <span data-ttu-id="ad6c3-148">لاحظ أن تسلسل الطلبات الآن متسلسلة وفقًا لأولوية اللون والحجم وبدء الطلبات المخططة في تاريخ الطلب الأحدث وتاريخ التسليم.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-148">Notice that the orders now are sequenced according to the priority of color and size and the planned orders start at the earliest order date and delivery date.</span></span> <span data-ttu-id="ad6c3-149">تحقق من عمود تاريخ الطلب أو تاريخ البدء في مربع حقائق تفاصيل الجدول.</span><span class="sxs-lookup"><span data-stu-id="ad6c3-149">Validate the Order date column or the Start date in the Schedule details FactBbox.</span></span>  
 
 

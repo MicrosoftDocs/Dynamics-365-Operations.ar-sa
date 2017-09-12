@@ -16,45 +16,45 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3d2f17d7841275e18a32382c5644253f3f4fe2eb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 10d34d0b2eca95034d1f67931ff72a035be9a6b8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-worker-accommodations"></a>إدارة توصيات العامل
+# <a name="manage-worker-accommodations"></a><span data-ttu-id="53d63-103">إدارة توصيات العامل</span><span class="sxs-lookup"><span data-stu-id="53d63-103">Manage worker accommodations</span></span>
 
 [!include[task guide banner](../../../includes/task-guide-banner.md)]
 
-ينقلك هذا الإجراء عبر الخطوات المتعلقة بإعداد أنواع الإقامة في بيئة العمل، مثل الكراسي المريحة أو الاستراحات الدورية. كما يوضح كيفية تعيين أنواع الإقامة للعام، وقبول نوع الإقامة أو رفضه. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+<span data-ttu-id="53d63-104">ينقلك هذا الإجراء عبر الخطوات المتعلقة بإعداد أنواع الإقامة في بيئة العمل، مثل الكراسي المريحة أو الاستراحات الدورية.</span><span class="sxs-lookup"><span data-stu-id="53d63-104">This procedure walks through the steps for setting up work environment accommodation types, such as ergonomic chairs or periodic breaks.</span></span> <span data-ttu-id="53d63-105">كما يوضح كيفية تعيين أنواع الإقامة للعام، وقبول نوع الإقامة أو رفضه.</span><span class="sxs-lookup"><span data-stu-id="53d63-105">It also shows how to assign these accommodation types to a worker, and either approve or deny the accommodation type.</span></span> <span data-ttu-id="53d63-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="53d63-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="setup-accommodations"></a>إعداد التسهيلات
-1. انتقل إلى الموارد البشرية > إعداد > أنواع الإقامة.
-2. انقر فوق "جديد".
-3. في الحقل "نوع الإقامة"، أدخل اسمًا لنوع الإقامة. على سبيل المثال: لوحة المفاتيح.
-4. في حقل "الوصف"، أدخل وصفًا للإقامة. على سبيل المثال: لوحة مفاتيح مريحة.
-5. في الحقل "ملاحظة"، أدخل أي معلومات تساعد على توضيح الإقامة.
-6. انقر فوق "حفظ".
-7. قم بإغلاق الصفحة.
+## <a name="setup-accommodations"></a><span data-ttu-id="53d63-107">إعداد التسهيلات</span><span class="sxs-lookup"><span data-stu-id="53d63-107">Setup accommodations</span></span>
+1. <span data-ttu-id="53d63-108">انتقل إلى الموارد البشرية > إعداد > أنواع الإقامة.</span><span class="sxs-lookup"><span data-stu-id="53d63-108">Go to Human resources > Setup > Accommodation types.</span></span>
+2. <span data-ttu-id="53d63-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="53d63-109">Click New.</span></span>
+3. <span data-ttu-id="53d63-110">في الحقل "نوع الإقامة"، أدخل اسمًا لنوع الإقامة.</span><span class="sxs-lookup"><span data-stu-id="53d63-110">In the Accommodation type field, enter a name for the accommodation.</span></span> <span data-ttu-id="53d63-111">على سبيل المثال: لوحة المفاتيح.</span><span class="sxs-lookup"><span data-stu-id="53d63-111">Example: Keyboard.</span></span>
+4. <span data-ttu-id="53d63-112">في حقل "الوصف"، أدخل وصفًا للإقامة.</span><span class="sxs-lookup"><span data-stu-id="53d63-112">In the Description field, enter a description for the accommodation.</span></span> <span data-ttu-id="53d63-113">على سبيل المثال: لوحة مفاتيح مريحة.</span><span class="sxs-lookup"><span data-stu-id="53d63-113">Example: Ergonomic Keyboard.</span></span>
+5. <span data-ttu-id="53d63-114">في الحقل "ملاحظة"، أدخل أي معلومات تساعد على توضيح الإقامة.</span><span class="sxs-lookup"><span data-stu-id="53d63-114">In the Note field, enter any information that helps to clarify the accommodation.</span></span>
+6. <span data-ttu-id="53d63-115">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="53d63-115">Click Save.</span></span>
+7. <span data-ttu-id="53d63-116">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="53d63-116">Close the page.</span></span>
 
-## <a name="assign-accommodations"></a>تعيين التسهيلات
-1. انتقل إلى الموارد البشرية > العاملون > الموظفون.
-2. حدد موظفًا من القائمة.
-3. انقر فوق اسم الموظف لعرض تفاصيل حول الموظف الذي قام بطلب الإقامة.
-4. وسّع علامة التبويب السريعة "المعلومات الشخصية".
-5. انقر فوق "التسهيلات".
-6. انقر فوق جديد.
-7. في الحقل "نوع الإقامة"، أدخل الإقامة الملائمة. على سبيل المثال: لوحة المفاتيح
-8. في الحقل "مهمة الوظيفة‬"، حدد مهمة العمل التي تحتاج إلى الإقامة.
-9. قم بتعيين الحالة المناسبة في الحقل "الحالة". على سبيل المثال: معقولة
-    * تتوفر الحالات التالية. تشير الحالة "مطلوب‬" إلى إنشاء الإقامة ولكن من دون مراجعتها. تشير الحالة "معقول" إلى أن الإقامة المعقولة وسيتم منحها. تشير الحالة "صعوبة غير مستحقة‬" إلى أن الإقامة ستضع أعباء غير معقولة على صاحب العمل، وتم رفضها. في هذا المثال، تم اعتماد الطلب على الفور لأن طلب الإقامة كان بسيطًا.  
-10. في الحقل "مقبول‬"، حدد الشخص الذي وافق على طلب الإقامة.
-11. انقر فوق تحديد.
-12. في الحقل "تاريخ مقبول"، أدخل تاريخ ووقت قبول طلب الإقامة.
-13. وسّع المقطع "ملاحظة".
-14. في الحقل "مالي‬"، أدخل أية معلومات أو تكاليف الموارد التي تساعد على توضيح أثر الإقامة.
-    * إذا تم رفض الإقامة، فيمكن استخدام الحقل "رد" لتوضيح سبب رفض الطلب.  
-15. انقر فوق "حفظ".
+## <a name="assign-accommodations"></a><span data-ttu-id="53d63-117">تعيين التسهيلات</span><span class="sxs-lookup"><span data-stu-id="53d63-117">Assign accommodations</span></span>
+1. <span data-ttu-id="53d63-118">انتقل إلى الموارد البشرية > العاملون > الموظفون.</span><span class="sxs-lookup"><span data-stu-id="53d63-118">Go to Human resources > Workers > Employees.</span></span>
+2. <span data-ttu-id="53d63-119">حدد موظفًا من القائمة.</span><span class="sxs-lookup"><span data-stu-id="53d63-119">From the list, select an employee.</span></span>
+3. <span data-ttu-id="53d63-120">انقر فوق اسم الموظف لعرض تفاصيل حول الموظف الذي قام بطلب الإقامة.</span><span class="sxs-lookup"><span data-stu-id="53d63-120">Click the employee's name to view details about the employee who is requesting the accommodation.</span></span>
+4. <span data-ttu-id="53d63-121">وسّع علامة التبويب السريعة "المعلومات الشخصية".</span><span class="sxs-lookup"><span data-stu-id="53d63-121">Expand the Personal information FastTab.</span></span>
+5. <span data-ttu-id="53d63-122">انقر فوق "التسهيلات".</span><span class="sxs-lookup"><span data-stu-id="53d63-122">Click Accommodations.</span></span>
+6. <span data-ttu-id="53d63-123">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="53d63-123">Click New.</span></span>
+7. <span data-ttu-id="53d63-124">في الحقل "نوع الإقامة"، أدخل الإقامة الملائمة.</span><span class="sxs-lookup"><span data-stu-id="53d63-124">In the Accommodation type field, select the appropriate accommodation.</span></span> <span data-ttu-id="53d63-125">على سبيل المثال: لوحة المفاتيح</span><span class="sxs-lookup"><span data-stu-id="53d63-125">Example: Keyboard</span></span>
+8. <span data-ttu-id="53d63-126">في الحقل "مهمة الوظيفة‬"، حدد مهمة العمل التي تحتاج إلى الإقامة.</span><span class="sxs-lookup"><span data-stu-id="53d63-126">In the Job task field, enter the work task that requires the accommodation.</span></span>
+9. <span data-ttu-id="53d63-127">قم بتعيين الحالة المناسبة في الحقل "الحالة".</span><span class="sxs-lookup"><span data-stu-id="53d63-127">In the Status field, enter the appropriate status.</span></span> <span data-ttu-id="53d63-128">على سبيل المثال: معقولة</span><span class="sxs-lookup"><span data-stu-id="53d63-128">Example: Reasonable</span></span>
+    * <span data-ttu-id="53d63-129">تتوفر الحالات التالية.</span><span class="sxs-lookup"><span data-stu-id="53d63-129">The following statuses are available.</span></span> <span data-ttu-id="53d63-130">تشير الحالة "مطلوب‬" إلى إنشاء الإقامة ولكن من دون مراجعتها.</span><span class="sxs-lookup"><span data-stu-id="53d63-130">Requested indicates that the accommodation has been created but not yet reviewed.</span></span> <span data-ttu-id="53d63-131">تشير الحالة "معقول" إلى أن الإقامة المعقولة وسيتم منحها.</span><span class="sxs-lookup"><span data-stu-id="53d63-131">Reasonable indicates that the accommodation is reasonable and will be granted.</span></span> <span data-ttu-id="53d63-132">تشير الحالة "صعوبة غير مستحقة‬" إلى أن الإقامة ستضع أعباء غير معقولة على صاحب العمل، وتم رفضها.</span><span class="sxs-lookup"><span data-stu-id="53d63-132">Undue hardship indicates that the accommodation will place an unreasonable burden on the employer, and has been denied.</span></span> <span data-ttu-id="53d63-133">في هذا المثال، تم اعتماد الطلب على الفور لأن طلب الإقامة كان بسيطًا.</span><span class="sxs-lookup"><span data-stu-id="53d63-133">In this example, the request was approved immediately because the accommodation request was minimal.</span></span>  
+10. <span data-ttu-id="53d63-134">في الحقل "مقبول‬"، حدد الشخص الذي وافق على طلب الإقامة.</span><span class="sxs-lookup"><span data-stu-id="53d63-134">In the Accepted field, select the person who accepted the accommodation request.</span></span>
+11. <span data-ttu-id="53d63-135">انقر فوق تحديد.</span><span class="sxs-lookup"><span data-stu-id="53d63-135">Click Select.</span></span>
+12. <span data-ttu-id="53d63-136">في الحقل "تاريخ مقبول"، أدخل تاريخ ووقت قبول طلب الإقامة.</span><span class="sxs-lookup"><span data-stu-id="53d63-136">In the Accepted date field, enter the date and time when the accommodation request was accepted.</span></span>
+13. <span data-ttu-id="53d63-137">وسّع المقطع "ملاحظة".</span><span class="sxs-lookup"><span data-stu-id="53d63-137">Expand the Note section.</span></span>
+14. <span data-ttu-id="53d63-138">في الحقل "مالي‬"، أدخل أية معلومات أو تكاليف الموارد التي تساعد على توضيح أثر الإقامة.</span><span class="sxs-lookup"><span data-stu-id="53d63-138">In the Financial field, enter any information or resource costs that helps to clarify the impact of the accommodation.</span></span>
+    * <span data-ttu-id="53d63-139">إذا تم رفض الإقامة، فيمكن استخدام الحقل "رد" لتوضيح سبب رفض الطلب.</span><span class="sxs-lookup"><span data-stu-id="53d63-139">If the accommodation has been denied, the Reply field can be used to indicate why a request was denied.</span></span>  
+15. <span data-ttu-id="53d63-140">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="53d63-140">Click Save.</span></span>
 
 

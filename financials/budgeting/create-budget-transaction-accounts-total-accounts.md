@@ -19,33 +19,33 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 89ddb0f246eb1d874ff0f2b5305f30355905c45e
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: fd6dc5173fd37f0257c98c1a41f3e6ce40b5b680
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>إنشاء موازنة من حسابات الحركات والحسابات الإجمالية
+# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a><span data-ttu-id="44d6d-104">إنشاء موازنة من حسابات الحركات والحسابات الإجمالية</span><span class="sxs-lookup"><span data-stu-id="44d6d-104">Create a budget from transaction accounts and total accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-توفر هذه المقالة نظرة عامة على عملية إنشاء موازنات بالاستناد إلى الحسابات الإجمالية. وهي تشرح أيضًا كيفية تشغيل رقابة الموازنة للحسابات الإجمالية، إذا كانت رقابة الموازنة مطلوبة.
+<span data-ttu-id="44d6d-105">توفر هذه المقالة نظرة عامة على عملية إنشاء موازنات بالاستناد إلى الحسابات الإجمالية.</span><span class="sxs-lookup"><span data-stu-id="44d6d-105">This article provides an overview of the process for creating budgets based on total accounts.</span></span> <span data-ttu-id="44d6d-106">وهي تشرح أيضًا كيفية تشغيل رقابة الموازنة للحسابات الإجمالية، إذا كانت رقابة الموازنة مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="44d6d-106">It also explains how to turn on budget control for total accounts, if budget control is required.</span></span>
 
-تسمح كلُّ من خطة الموازنة ووثائق إدخال سجل الموازنة بإعداد الموازنة في الحسابات التي لها نوع حساب الرئيسي **إجمالي**. ويمكن ترحيل القيم الفعلية إلى حركات الحسابات الرئيسية فقط. 
+<span data-ttu-id="44d6d-107">تسمح كلُّ من خطة الموازنة ووثائق إدخال سجل الموازنة بإعداد الموازنة في الحسابات التي لها نوع حساب الرئيسي **إجمالي**.</span><span class="sxs-lookup"><span data-stu-id="44d6d-107">Both budget plan and budget register entry documents allow for budgeting on main accounts that have a main account type of **Total**.</span></span> <span data-ttu-id="44d6d-108">ويمكن ترحيل القيم الفعلية إلى حركات الحسابات الرئيسية فقط.</span><span class="sxs-lookup"><span data-stu-id="44d6d-108">Actuals can be posted only to transactional main accounts.</span></span> 
 
-وبالنسبة للعملية الدورية **إنشاء خطة الموازنة من دفتر الأستاذ العام**، في علامة التبويب **مصدر**، يمكنك تحديد نوع الحساب الرئيسي **إجمالي** كمعيار. وفي هذه الحالة، سيتم تضمين كل حساب رئيسي إجمالي في خطة الموازنة الهدف، وسيساوي المبلغ المبلغ الإجمالي لمجموعة الحسابات الرئيسية المحددة. 
+<span data-ttu-id="44d6d-109">وبالنسبة للعملية الدورية **إنشاء خطة الموازنة من دفتر الأستاذ العام**، في علامة التبويب **مصدر**، يمكنك تحديد نوع الحساب الرئيسي **إجمالي** كمعيار.</span><span class="sxs-lookup"><span data-stu-id="44d6d-109">For the **Generate budget plan from General ledger** periodic process, on the **Source** tab, you can specify the **Total** main account type as a criterion.</span></span> <span data-ttu-id="44d6d-110">وفي هذه الحالة، سيتم تضمين كل حساب رئيسي إجمالي في خطة الموازنة الهدف، وسيساوي المبلغ المبلغ الإجمالي لمجموعة الحسابات الرئيسية المحددة.</span><span class="sxs-lookup"><span data-stu-id="44d6d-110">In this case, each total main account will be included in the target budget plan, and the amount will equal the total amount of the range of selected main accounts.</span></span> 
 
-ويمكنك تنشيط رقابة الموازنة للحسابات الرئيسية من النوع **إجمالي**. ويتم اعتماد هذه الوظيفة من خلال استخدام مجموعات الموازنة. بالنسبة لكل حساب رئيسي إجمالي، يجب إنشاء الموازنة التي ينبغي مراقبتها لمجموعة موازنة في صفحة **تكوين رقابة الموازنة **. ويجب أن تتضمن المعايير التي تحددها الحساب الرئيسي الإجمالي ونطاق الحسابات‬.‬ ولتسريع عملية إنشاء مجموعات الموازنة، يمكنك الاستفادة من وحدة بيانات مجموعات رقابة الموازنة. 
+<span data-ttu-id="44d6d-111">ويمكنك تنشيط رقابة الموازنة للحسابات الرئيسية من النوع **إجمالي**.</span><span class="sxs-lookup"><span data-stu-id="44d6d-111">You can activate budget control for main accounts of the **Total** type.</span></span> <span data-ttu-id="44d6d-112">ويتم اعتماد هذه الوظيفة من خلال استخدام مجموعات الموازنة.</span><span class="sxs-lookup"><span data-stu-id="44d6d-112">This functionality is supported through the use of budget groups.</span></span> <span data-ttu-id="44d6d-113">بالنسبة لكل حساب رئيسي إجمالي، يجب إنشاء الموازنة التي ينبغي مراقبتها لمجموعة موازنة في صفحة **تكوين رقابة الموازنة **.</span><span class="sxs-lookup"><span data-stu-id="44d6d-113">For each total main account, the budget that should be controlled for a budget group must be created on the **Budget control configuration **page.</span></span> <span data-ttu-id="44d6d-114">ويجب أن تتضمن المعايير التي تحددها الحساب الرئيسي الإجمالي ونطاق الحسابات‬.‬</span><span class="sxs-lookup"><span data-stu-id="44d6d-114">The criteria that you specify must include the total main account and the range of accounts.</span></span> <span data-ttu-id="44d6d-115">ولتسريع عملية إنشاء مجموعات الموازنة، يمكنك الاستفادة من وحدة بيانات مجموعات رقابة الموازنة.</span><span class="sxs-lookup"><span data-stu-id="44d6d-115">To speed up the process of creating budget groups, you can take advantage of the Budget control groups data entity.</span></span> 
 
-عند استخدام موازنة في عمليات الإبلاغ، على سبيل المثال، في قائمة مالية، فإن مجموع الموازنة للحساب الإجمالي يتكون من المبالغ التالية:
+<span data-ttu-id="44d6d-116">عند استخدام موازنة في عمليات الإبلاغ، على سبيل المثال، في قائمة مالية، فإن مجموع الموازنة للحساب الإجمالي يتكون من المبالغ التالية:</span><span class="sxs-lookup"><span data-stu-id="44d6d-116">When a budget is used in reporting, such as on a financial statement, the budget sum for the total account consists of the following amounts:</span></span>
 
--   الموازنات التي تم إنشاؤها من كل حساب لدفتر أستاذ الحركات خلال فترة الحساب الإجمالي.
--   مبلغ الموازنة الذي تم إدخاله مباشرة على الحساب الإجمالي.
+-   <span data-ttu-id="44d6d-117">الموازنات التي تم إنشاؤها من كل حساب لدفتر أستاذ الحركات خلال فترة الحساب الإجمالي.</span><span class="sxs-lookup"><span data-stu-id="44d6d-117">The budgets that are created from each transaction ledger account in the interval of the total account.</span></span>
+-   <span data-ttu-id="44d6d-118">مبلغ الموازنة الذي تم إدخاله مباشرة على الحساب الإجمالي.</span><span class="sxs-lookup"><span data-stu-id="44d6d-118">The budget amount that is entered directly on the total account.</span></span>
 
-وبالتالي، يمكنك إنشاء موازنات منفصلة لمعظم حسابات الحركات المهمة في فترة الحساب الإجمالي، ثم إضافة مبلغ الموازنة المتوفر إلى الحساب الإجمالي.
+<span data-ttu-id="44d6d-119">وبالتالي، يمكنك إنشاء موازنات منفصلة لمعظم حسابات الحركات المهمة في فترة الحساب الإجمالي، ثم إضافة مبلغ الموازنة المتوفر إلى الحساب الإجمالي.</span><span class="sxs-lookup"><span data-stu-id="44d6d-119">Therefore, you can create separate budgets for the most significant transaction accounts in the interval of the total account, and then add the available budget amount to the total account.</span></span>
 
 
 

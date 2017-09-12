@@ -16,43 +16,43 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 0f09d688aebceff55b21b1a27c6c9beba47b1484
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7c05c7613ee0d37d6bdfcb42f4e9611629d215bd
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="benefit-eligibility-process"></a>عملية استحقاق الميزات
+# <a name="benefit-eligibility-process"></a><span data-ttu-id="1f41d-103">عملية استحقاق الميزات</span><span class="sxs-lookup"><span data-stu-id="1f41d-103">Benefit eligibility process</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيف تعمل عملية استحقاق المزايا. عند اكتمال العملية، يمكنك عرض النتائج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+<span data-ttu-id="1f41d-104">يوضح هذا الإجراء كيف تعمل عملية استحقاق المزايا.</span><span class="sxs-lookup"><span data-stu-id="1f41d-104">This procedure hows the benefit eligibility process works.</span></span> <span data-ttu-id="1f41d-105">عند اكتمال العملية، يمكنك عرض النتائج.</span><span class="sxs-lookup"><span data-stu-id="1f41d-105">When the process is complete you can view the results.</span></span> <span data-ttu-id="1f41d-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="1f41d-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. انتقل إلى الموارد البشرية > الميزات‬ > الميزات‬.
-2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-3. في القائمة، انقر فوق الارتباط في الصف المحدد.
-4. انقر فوق "تحرير".
-5. في حقل الأهلية، حدد "على أساس القاعدة".
-6. في حقل نوع القاعدة، حدد قاعدة سياسة المزايا التي ترغب في تطبيقها على المزايا.
-7. في جزء الإجراءات، انقر فوق "ميزة".
-8. انقر فوق "إنشاء ‏‫حدث استحقاق" لفتح مربع حوار الإسقاط‬.
-9. في حقل "الحدث"، اكتب قيمة.
-10. في حقل "الوصف"، اكتب قيمة.
-11. في حقل "نوع الحدث"، حدد "‏‫تسجيل مفتوح‬".
-12. في الحقل "بداية التغطية"، أدخل تاريخًا ووقتًا.
-13. في حقل "‏‫تاريخ بدء فترة التسجيل‬‬"، أدخل التاريخ والوقت.
-14. في حقل "‏‫الأيام المتبقية للتسجيل"، أدخل رقمًا.
-15. انقر فوق "إنشاء حدث".
-16. انقر فوق "إضافة" ‏‫في علامة التبويب السريعة "العاملون".
-17. في حقل "عرض حسب النوع"، حدد "الموظفون".
-18. في حقل "عرض حسب الكيان القانوني"، حدد "الكيان القانوني الحالي".
-19. في القائمة، قم بوضع علامة أو إلغاء علامة كل الصفوف.
-20. انقر فوق "موافق".
-21. انقر فوق "معالجة".
-22. انقر فوق "موافق".
-23. قم بتحديث الصفحة.
-24. انقر فوق "إظهار النتائج".
-25. فتح عامل تصفية عمود الحالة.
-26. فرز من A إلى Z
+1. <span data-ttu-id="1f41d-107">انتقل إلى الموارد البشرية > الميزات‬ > الميزات‬.</span><span class="sxs-lookup"><span data-stu-id="1f41d-107">Go to Human resources > Benefits > Benefits.</span></span>
+2. <span data-ttu-id="1f41d-108">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="1f41d-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="1f41d-109">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="1f41d-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="1f41d-110">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="1f41d-110">Click Edit.</span></span>
+5. <span data-ttu-id="1f41d-111">في حقل الأهلية، حدد "على أساس القاعدة".</span><span class="sxs-lookup"><span data-stu-id="1f41d-111">In the Eligibility field, select 'Rule based'.</span></span>
+6. <span data-ttu-id="1f41d-112">في حقل نوع القاعدة، حدد قاعدة سياسة المزايا التي ترغب في تطبيقها على المزايا.</span><span class="sxs-lookup"><span data-stu-id="1f41d-112">In the Rule type field, select the benefit policy rule you would like applied to the benefit.</span></span>
+7. <span data-ttu-id="1f41d-113">في جزء الإجراءات، انقر فوق "ميزة".</span><span class="sxs-lookup"><span data-stu-id="1f41d-113">On the Action Pane, click Benefit.</span></span>
+8. <span data-ttu-id="1f41d-114">انقر فوق "إنشاء ‏‫حدث استحقاق" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="1f41d-114">Click Create eligibility event to open the drop dialog.</span></span>
+9. <span data-ttu-id="1f41d-115">في حقل "الحدث"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="1f41d-115">In the Event field, type a value.</span></span>
+10. <span data-ttu-id="1f41d-116">في حقل "الوصف"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="1f41d-116">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="1f41d-117">في حقل "نوع الحدث"، حدد "‏‫تسجيل مفتوح‬".</span><span class="sxs-lookup"><span data-stu-id="1f41d-117">In the Event type field, select 'Open enrollment'.</span></span>
+12. <span data-ttu-id="1f41d-118">في الحقل "بداية التغطية"، أدخل تاريخًا ووقتًا.</span><span class="sxs-lookup"><span data-stu-id="1f41d-118">In the Coverage start date field, enter a date and time.</span></span>
+13. <span data-ttu-id="1f41d-119">في حقل "‏‫تاريخ بدء فترة التسجيل‬‬"، أدخل التاريخ والوقت.</span><span class="sxs-lookup"><span data-stu-id="1f41d-119">In the Enrollment period start date field, enter a date and time.</span></span>
+14. <span data-ttu-id="1f41d-120">في حقل "‏‫الأيام المتبقية للتسجيل"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="1f41d-120">In the Days to enroll field, enter a number.</span></span>
+15. <span data-ttu-id="1f41d-121">انقر فوق "إنشاء حدث".</span><span class="sxs-lookup"><span data-stu-id="1f41d-121">Click Create event.</span></span>
+16. <span data-ttu-id="1f41d-122">انقر فوق "إضافة" ‏‫في علامة التبويب السريعة "العاملون".</span><span class="sxs-lookup"><span data-stu-id="1f41d-122">Click Add in the Workers FastTab.</span></span>
+17. <span data-ttu-id="1f41d-123">في حقل "عرض حسب النوع"، حدد "الموظفون".</span><span class="sxs-lookup"><span data-stu-id="1f41d-123">In the Show by type field, select 'Employees'.</span></span>
+18. <span data-ttu-id="1f41d-124">في حقل "عرض حسب الكيان القانوني"، حدد "الكيان القانوني الحالي".</span><span class="sxs-lookup"><span data-stu-id="1f41d-124">In the Show by legal entity field, select 'Current legal entity'.</span></span>
+19. <span data-ttu-id="1f41d-125">في القائمة، قم بوضع علامة أو إلغاء علامة كل الصفوف.</span><span class="sxs-lookup"><span data-stu-id="1f41d-125">In the list, mark or unmark all rows.</span></span>
+20. <span data-ttu-id="1f41d-126">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="1f41d-126">Click OK.</span></span>
+21. <span data-ttu-id="1f41d-127">انقر فوق "معالجة".</span><span class="sxs-lookup"><span data-stu-id="1f41d-127">Click Process.</span></span>
+22. <span data-ttu-id="1f41d-128">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="1f41d-128">Click OK.</span></span>
+23. <span data-ttu-id="1f41d-129">قم بتحديث الصفحة.</span><span class="sxs-lookup"><span data-stu-id="1f41d-129">Refresh the page.</span></span>
+24. <span data-ttu-id="1f41d-130">انقر فوق "إظهار النتائج".</span><span class="sxs-lookup"><span data-stu-id="1f41d-130">Click Show results.</span></span>
+25. <span data-ttu-id="1f41d-131">فتح عامل تصفية عمود الحالة.</span><span class="sxs-lookup"><span data-stu-id="1f41d-131">Open Status column filter.</span></span>
+26. <span data-ttu-id="1f41d-132">فرز من A إلى Z</span><span class="sxs-lookup"><span data-stu-id="1f41d-132">Sort A to Z</span></span>
 
 

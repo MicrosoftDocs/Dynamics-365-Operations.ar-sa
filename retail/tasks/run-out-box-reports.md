@@ -17,53 +17,53 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: e948525d4c7873fdc5101136ee37cd117268f4dd
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9ba616550120e273429e348ea9cddf7c9e8baee4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-and-run-out-of-box-reports"></a> إنشاء وتشغيل من التقارير الجاهزة
+# <a name="generate-and-run-out-of-box-reports"></a><span data-ttu-id="2e2c6-103"> إنشاء وتشغيل من التقارير الجاهزة</span><span class="sxs-lookup"><span data-stu-id="2e2c6-103">Generate and run out-of-box reports</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-استخدم دليل المهام هذا لتشغيل التقارير الجاهزة‬ في المقر الرئيسي من مساحات عمل مختلفة واستعلامات وتقارير المبيعات ضمن "التجارة والبيع بالتجزئة".
+<span data-ttu-id="2e2c6-104">استخدم دليل المهام هذا لتشغيل التقارير الجاهزة‬ في المقر الرئيسي من مساحات عمل مختلفة واستعلامات وتقارير المبيعات ضمن "التجارة والبيع بالتجزئة".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-104">Use this task guide to run out of box reports in headquarters from different workspaces and Inquiries & Sales reports located under Retail & Commerce.</span></span>
 
 
 
-شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا التسجيل هي USRT. ويُعد هذا السجل مخصصًا لدور ‏‫مسؤول النظام‬.
+<span data-ttu-id="2e2c6-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا التسجيل هي USRT.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-105">The demo data company used to create this recording is USRT.</span></span> <span data-ttu-id="2e2c6-106">ويُعد هذا السجل مخصصًا لدور ‏‫مسؤول النظام‬.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-106">This recording is intended for the System administrator role.</span></span>
 
 
-## <a name="launch-reports-from-workspaces"></a>إصدار التقارير من مساحات العمل
-1. انتقل إلى البيع بالتجزئة والتجارة > المنتجات والفئات > إدارة الفئات والمنتجات.
-2. ‏‫انقر فوق السهم لتوسيع قسم "التقارير" أو طيه.
-3. انقر فوق تقرير أهم المنتجات.
-4. في الحقل "من تاريخ"، أدخل تاريخًا.
-5. في الحقل "إلى تاريخ"، أدخل تاريخًا.
-6. في حقل "القناة"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-7. في الشجرة، حدد "Contoso Retail\Contoso Retail USA\Central\Houston".
-    * يوضح ذلك التدرج الهرمي الافتراضي لمؤسسات البيع بالتجزئة لأغراض إعداد ‏‫تقارير البيع بالتجزئة‬.   انتقل إلى ‏‫إدارة المؤسسة > المؤسسات >‬ ‏‫أغراض التدرج الهرمي للمؤسسات‬ واختر ‏‫"تقارير البيع بالتجزئة"‬، وضمن ‏‫"التدرجات الهرمية المعينة"‬، حدد ‏‫اسم التدرج الهرمي الذي سيتم تحديد العمود الافتراضي له.      كجزء من بيانات العرض التوضيحي‬ (المستخدمة لتسجيل هذه المهمة) ستلاحظ أن "متاجر البيع بالتجزئة حسب المنطقة" هو التدرج الهرمي الافتراضي للمؤسسات لأغراض إعداد ‏‫تقارير البيع بالتجزئة.     
-8. انقر فوق "موافق".
-9. في حقل "عرض"، حدد خيارًا.
-10. في حقل "بواسطة"، حدد خيارًا.
-11. انقر فوق "موافق".
+## <a name="launch-reports-from-workspaces"></a><span data-ttu-id="2e2c6-107">إصدار التقارير من مساحات العمل</span><span class="sxs-lookup"><span data-stu-id="2e2c6-107">Launch reports from workspaces</span></span>
+1. <span data-ttu-id="2e2c6-108">انتقل إلى البيع بالتجزئة والتجارة > المنتجات والفئات > إدارة الفئات والمنتجات.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-108">Go to Retail and commerce > Products and categories > Category and product management.</span></span>
+2. <span data-ttu-id="2e2c6-109">‏‫انقر فوق السهم لتوسيع قسم "التقارير" أو طيه.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-109">Click the arrow to expand or collapse the Reports section.</span></span>
+3. <span data-ttu-id="2e2c6-110">انقر فوق تقرير أهم المنتجات.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-110">Click Top products report.</span></span>
+4. <span data-ttu-id="2e2c6-111">في الحقل "من تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-111">In the From date field, enter a date.</span></span>
+5. <span data-ttu-id="2e2c6-112">في الحقل "إلى تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-112">In the To date field, enter a date.</span></span>
+6. <span data-ttu-id="2e2c6-113">في حقل "القناة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-113">In the Channel field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="2e2c6-114">في الشجرة، حدد "Contoso Retail\Contoso Retail USA\Central\Houston".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-114">In the tree, select 'Contoso Retail\Contoso Retail USA\Central\Houston'.</span></span>
+    * <span data-ttu-id="2e2c6-115">يوضح ذلك التدرج الهرمي الافتراضي لمؤسسات البيع بالتجزئة لأغراض إعداد ‏‫تقارير البيع بالتجزئة‬.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-115">This shows the default retail organization hierarchy for Retail reporting purpose.</span></span>   <span data-ttu-id="2e2c6-116">انتقل إلى ‏‫إدارة المؤسسة > المؤسسات >‬ ‏‫أغراض التدرج الهرمي للمؤسسات‬ واختر ‏‫"تقارير البيع بالتجزئة"‬، وضمن ‏‫"التدرجات الهرمية المعينة"‬، حدد ‏‫اسم التدرج الهرمي الذي سيتم تحديد العمود الافتراضي له.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-116">Go to Organization administration >Organizations >Organization hierarchy purposes and choose Retail reporting and under Assigned hierarchies, check the hierarchy name for which Default column is checked.</span></span>      <span data-ttu-id="2e2c6-117">كجزء من بيانات العرض التوضيحي‬ (المستخدمة لتسجيل هذه المهمة) ستلاحظ أن "متاجر البيع بالتجزئة حسب المنطقة" هو التدرج الهرمي الافتراضي للمؤسسات لأغراض إعداد ‏‫تقارير البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-117">As part of demo data (used for this task recording) you would notice, Retail Stores by Region, is the default organization hierarchy for the Retail reporting purpose.</span></span>     
+8. <span data-ttu-id="2e2c6-118">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-118">Click OK.</span></span>
+9. <span data-ttu-id="2e2c6-119">في حقل "عرض"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-119">In the View field, select an option.</span></span>
+10. <span data-ttu-id="2e2c6-120">في حقل "بواسطة"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-120">In the By field, select an option.</span></span>
+11. <span data-ttu-id="2e2c6-121">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-121">Click OK.</span></span>
 
-## <a name="launch-reports-from-the-inquiries-and-sales-reports-located-under-retail--commerce-app-link"></a>ابدأ تشغيل التقارير من الاستعلامات وتقارير المبيعات تحت ارتباط تطبيق "البيع بالتجزئة والتجارة".
-1. انتقل إلى البيع بالتجزئة والتجارة > ‏‫الاستعلامات والتقارير‬ > تقارير المبيعات > ‏‫تقرير مبيعات الفئة‬.
-2. في الحقل "من تاريخ"، أدخل تاريخًا.
-3. في الحقل "إلى تاريخ"، أدخل تاريخًا.
-4. في حقل "القناة"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-5. في الشجرة، حدد "Contoso Retail\Contoso Retail USA\West\Seattle".
-    * يوضح ذلك التدرج الهرمي الافتراضي لمؤسسات البيع بالتجزئة لأغراض إعداد ‏‫تقارير البيع بالتجزئة‬.   انتقل إلى ‏‫إدارة المؤسسة > المؤسسات >‬ ‏‫أغراض التدرج الهرمي للمؤسسات‬ واختر ‏‫"تقارير البيع بالتجزئة"‬، وضمن ‏‫"التدرجات الهرمية المعينة"‬، حدد ‏‫اسم التدرج الهرمي الذي سيتم تحديد العمود الافتراضي له.      كجزء من بيانات العرض التوضيحي‬ (المستخدمة لتسجيل هذه المهمة) ستلاحظ أن "متاجر البيع بالتجزئة حسب المنطقة" هو التدرج الهرمي الافتراضي للمؤسسات لأغراض إعداد ‏‫تقارير البيع بالتجزئة.     
-6. انقر فوق "موافق".
-7. انقر فوق "موافق".
+## <a name="launch-reports-from-the-inquiries-and-sales-reports-located-under-retail--commerce-app-link"></a><span data-ttu-id="2e2c6-122">ابدأ تشغيل التقارير من الاستعلامات وتقارير المبيعات تحت ارتباط تطبيق "البيع بالتجزئة والتجارة".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-122">Launch reports from the inquiries and sales reports located under Retail & Commerce app link.</span></span>
+1. <span data-ttu-id="2e2c6-123">انتقل إلى البيع بالتجزئة والتجارة > ‏‫الاستعلامات والتقارير‬ > تقارير المبيعات > ‏‫تقرير مبيعات الفئة‬.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-123">Go to Retail and commerce > Inquiries and reports > Sales reports > Category sales report.</span></span>
+2. <span data-ttu-id="2e2c6-124">في الحقل "من تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-124">In the From date field, enter a date.</span></span>
+3. <span data-ttu-id="2e2c6-125">في الحقل "إلى تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-125">In the To date field, enter a date.</span></span>
+4. <span data-ttu-id="2e2c6-126">في حقل "القناة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-126">In the Channel field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="2e2c6-127">في الشجرة، حدد "Contoso Retail\Contoso Retail USA\West\Seattle".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-127">In the tree, select 'Contoso Retail\Contoso Retail USA\West\Seattle'.</span></span>
+    * <span data-ttu-id="2e2c6-128">يوضح ذلك التدرج الهرمي الافتراضي لمؤسسات البيع بالتجزئة لأغراض إعداد ‏‫تقارير البيع بالتجزئة‬.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-128">This shows the default retail organization hierarchy for Retail reporting purpose.</span></span>   <span data-ttu-id="2e2c6-129">انتقل إلى ‏‫إدارة المؤسسة > المؤسسات >‬ ‏‫أغراض التدرج الهرمي للمؤسسات‬ واختر ‏‫"تقارير البيع بالتجزئة"‬، وضمن ‏‫"التدرجات الهرمية المعينة"‬، حدد ‏‫اسم التدرج الهرمي الذي سيتم تحديد العمود الافتراضي له.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-129">Go to Organization administration >Organizations >Organization hierarchy purposes and choose Retail reporting and under Assigned hierarchies, check the hierarchy name for which Default column is checked.</span></span>      <span data-ttu-id="2e2c6-130">كجزء من بيانات العرض التوضيحي‬ (المستخدمة لتسجيل هذه المهمة) ستلاحظ أن "متاجر البيع بالتجزئة حسب المنطقة" هو التدرج الهرمي الافتراضي للمؤسسات لأغراض إعداد ‏‫تقارير البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-130">As part of demo data (used for this task recording) you would notice, Retail Stores by Region, is the default organization hierarchy for the Retail reporting purpose.</span></span>     
+6. <span data-ttu-id="2e2c6-131">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-131">Click OK.</span></span>
+7. <span data-ttu-id="2e2c6-132">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-132">Click OK.</span></span>
 
-## <a name="export-an-hq-reports"></a>تصدير تقارير HQ
-1. انتقل إلى البيع بالتجزئة والتجارة > ‏‫الاستعلامات والتقارير‬ > تقارير المبيعات > ‏‫تقرير مبيعات المؤسسة‬.
-2. في الحقل "من تاريخ"، أدخل تاريخًا.
-3. في الحقل "إلى تاريخ"، أدخل تاريخًا.
-4. انقر فوق "موافق".
-5. انقر فوق "تصدير".
-6. انقر فوق "ملف PDF‬".
+## <a name="export-an-hq-reports"></a><span data-ttu-id="2e2c6-133">تصدير تقارير HQ</span><span class="sxs-lookup"><span data-stu-id="2e2c6-133">Export an HQ reports</span></span>
+1. <span data-ttu-id="2e2c6-134">انتقل إلى البيع بالتجزئة والتجارة > ‏‫الاستعلامات والتقارير‬ > تقارير المبيعات > ‏‫تقرير مبيعات المؤسسة‬.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-134">Go to Retail and commerce > Inquiries and reports > Sales reports > Organization sales report.</span></span>
+2. <span data-ttu-id="2e2c6-135">في الحقل "من تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-135">In the From date field, enter a date.</span></span>
+3. <span data-ttu-id="2e2c6-136">في الحقل "إلى تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="2e2c6-136">In the To date field, enter a date.</span></span>
+4. <span data-ttu-id="2e2c6-137">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-137">Click OK.</span></span>
+5. <span data-ttu-id="2e2c6-138">انقر فوق "تصدير".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-138">Click Export.</span></span>
+6. <span data-ttu-id="2e2c6-139">انقر فوق "ملف PDF‬".</span><span class="sxs-lookup"><span data-stu-id="2e2c6-139">Click PDF.</span></span>
 
 

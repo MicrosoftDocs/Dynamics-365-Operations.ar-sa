@@ -16,32 +16,32 @@ ms.custom: 193583
 ms.assetid: 1ad0c1cb-4346-4042-a59b-923115fac03e
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f3010daa41f54cf026d46b1b7648a277651173da
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: b274ff572d2be9a71b91d533023b95be98591e4f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="create-a-bill-of-lading"></a>إنشاء بوليصة شحن
+# <a name="create-a-bill-of-lading"></a><span data-ttu-id="e70f7-103">إنشاء بوليصة شحن</span><span class="sxs-lookup"><span data-stu-id="e70f7-103">Create a bill of lading</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-يصف هذا الموضوع كيفية إنشاء بوليصة شحن عند استخدام عمليات إدارة المستودعات.  
+<span data-ttu-id="e70f7-104">يصف هذا الموضوع كيفية إنشاء بوليصة شحن عند استخدام عمليات إدارة المستودعات.</span><span class="sxs-lookup"><span data-stu-id="e70f7-104">This topic describes how to create a bill of lading when using warehouse management processes.</span></span>  
 
-إن بوليصة الشحن عبارة عن وثيقة قانونية بين الشركة التي تقوم بشحن الأصناف والناقل. تصحب هذه الوثيقة الأصناف المشحونة، وتعمل بمثابة إيصال الشحن عندما يتم تسليم الأصناف في الوجهة. إذا كنت تستخدم إدارة المستودعات، فهناك طريقتان لإنشاء بوليصة الشحن:
+<span data-ttu-id="e70f7-105">إن بوليصة الشحن عبارة عن وثيقة قانونية بين الشركة التي تقوم بشحن الأصناف والناقل.</span><span class="sxs-lookup"><span data-stu-id="e70f7-105">A bill of lading is a legal document between the company that ships the items and the carrier.</span></span> <span data-ttu-id="e70f7-106">تصحب هذه الوثيقة الأصناف المشحونة، وتعمل بمثابة إيصال الشحن عندما يتم تسليم الأصناف في الوجهة.</span><span class="sxs-lookup"><span data-stu-id="e70f7-106">The document accompanies the shipped items, and it serves as a receipt of shipment when the items are delivered at the destination.</span></span> <span data-ttu-id="e70f7-107">إذا كنت تستخدم إدارة المستودعات، فهناك طريقتان لإنشاء بوليصة الشحن:</span><span class="sxs-lookup"><span data-stu-id="e70f7-107">If you're using warehouse management, there are two ways to generate a bill of lading:</span></span>
 
-  -   إنشاء التقرير يدويًا، باستخدام صفحة **بوليصة الشحن**.
-  -   إنشاء التقرير من **منضدة عمل تخطيط الحِمل‬**.
+  -   <span data-ttu-id="e70f7-108">إنشاء التقرير يدويًا، باستخدام صفحة **بوليصة الشحن**.</span><span class="sxs-lookup"><span data-stu-id="e70f7-108">Create the report manually, using the **Bill of lading** page.</span></span>
+  -   <span data-ttu-id="e70f7-109">إنشاء التقرير من **منضدة عمل تخطيط الحِمل‬**.</span><span class="sxs-lookup"><span data-stu-id="e70f7-109">Generate the report from the **Load planning workbench**.</span></span>
 
-إذا قمت بإنشاء بوليصة الشحن من **منضدة عمل تخطيط الحِمل‬**، فيجب أن تكون حالة الحِمل‬‏‎ **مشحون‬.** ‏‫إذا كان هناك أكثر من شحنة في الحِمل‬‏‎، فسيتم إنشاء بوليصة شحن لكل شحنة. بعد إنشاء بوليصة الشحن، يمكنك إجراء تغييرات عليها في صفحة **بوليصة الشحن**.
+<span data-ttu-id="e70f7-110">إذا قمت بإنشاء بوليصة الشحن من **منضدة عمل تخطيط الحِمل‬**، فيجب أن تكون حالة الحِمل‬‏‎ **مشحون‬.**</span><span class="sxs-lookup"><span data-stu-id="e70f7-110">If you generate the bill of lading from the **Load planning workbench**, the load status must be **Shipped.**</span></span> <span data-ttu-id="e70f7-111">‏‫إذا كان هناك أكثر من شحنة في الحِمل‬‏‎، فسيتم إنشاء بوليصة شحن لكل شحنة.</span><span class="sxs-lookup"><span data-stu-id="e70f7-111">If there's more than one shipment in the load, a bill of lading is created for each shipment.</span></span> <span data-ttu-id="e70f7-112">بعد إنشاء بوليصة الشحن، يمكنك إجراء تغييرات عليها في صفحة **بوليصة الشحن**.</span><span class="sxs-lookup"><span data-stu-id="e70f7-112">After a bill of lading has been created you can make changes to it on the **Bill of lading** page.</span></span>
 
-## <a name="master-bill-of-lading"></a>بوليصة الشحن الرئيسية
-عند وجود أكثر من شحنة واحد في الحمل، يمكنك إنشاء بوليصة شحن رئيسية. تتضمن بوليصة الشحن هذه نفس التخطيط والمعلومات كما في بوليصة الشحن العادية، ولكنها تحتوي على المحتوى الملخص لجميع الشحنات. إذا تم تعيين الخيار **إنشاء بوليصة شحن رئيسية عند وجود أكثر من شحن واحد على حمل عمل‬** إلى **نعم** في صفحة **محددات إدارة النقل**، فسيتم إنشاء بوليصة شحن رئيسية تلقائيًا إذا أنشأت بوليصة شحن من **منضدة عمل تخطيط الحِمل‬**، وهناك أكثر من شحنة واحدة. يمكنك أيضًا الحصول على قائمة بوالص الشحن‬ بالنقر فوق **المعلومات ذات الصلة** &gt; **بوليصة الشحن**. إذا كنت تقوم بإنشاء بوالص الشحن يدويًا، فيمكنك إنشاء بوليصة شحن رئيسية في صفحة **بوليصة الشحن**.
+## <a name="master-bill-of-lading"></a><span data-ttu-id="e70f7-113">بوليصة الشحن الرئيسية</span><span class="sxs-lookup"><span data-stu-id="e70f7-113">Master bill of lading</span></span>
+<span data-ttu-id="e70f7-114">عند وجود أكثر من شحنة واحد في الحمل، يمكنك إنشاء بوليصة شحن رئيسية.</span><span class="sxs-lookup"><span data-stu-id="e70f7-114">If there's more than one shipment in the load, you can generate a master bill of lading.</span></span> <span data-ttu-id="e70f7-115">تتضمن بوليصة الشحن هذه نفس التخطيط والمعلومات كما في بوليصة الشحن العادية، ولكنها تحتوي على المحتوى الملخص لجميع الشحنات.</span><span class="sxs-lookup"><span data-stu-id="e70f7-115">This has the same layout and information as a bill of lading, but contains the summarized content for all the shipments.</span></span> <span data-ttu-id="e70f7-116">إذا تم تعيين الخيار **إنشاء بوليصة شحن رئيسية عند وجود أكثر من شحن واحد على حمل عمل‬** إلى **نعم** في صفحة **محددات إدارة النقل**، فسيتم إنشاء بوليصة شحن رئيسية تلقائيًا إذا أنشأت بوليصة شحن من **منضدة عمل تخطيط الحِمل‬**، وهناك أكثر من شحنة واحدة.</span><span class="sxs-lookup"><span data-stu-id="e70f7-116">If the **Create a master bill of lading when there's more than one shipment on a load** option is set to **Yes** on the **Transportation management parameters** page, a master bill of lading is automatically generated if you create a bill of lading from the **Load planning workbench**, and there's more than one shipment.</span></span> <span data-ttu-id="e70f7-117">يمكنك أيضًا الحصول على قائمة بوالص الشحن‬ بالنقر فوق **المعلومات ذات الصلة** &gt; **بوليصة الشحن**.</span><span class="sxs-lookup"><span data-stu-id="e70f7-117">You can also get a list of the bills of lading by clicking **Related information** &gt; **Bill of lading**.</span></span> <span data-ttu-id="e70f7-118">إذا كنت تقوم بإنشاء بوالص الشحن يدويًا، فيمكنك إنشاء بوليصة شحن رئيسية في صفحة **بوليصة الشحن**.</span><span class="sxs-lookup"><span data-stu-id="e70f7-118">If you're creating bills of lading manually, you can create a master bill of lading on the **Bill of lading** page.</span></span>
 
 
 

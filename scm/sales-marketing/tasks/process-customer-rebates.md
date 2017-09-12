@@ -16,71 +16,71 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: fb5053ac5c5f9218b95d14baf4ea78f7a40479ff
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-and-process-customer-rebates"></a>إنشاء ومعالجة خصومات العملاء
+# <a name="generate-and-process-customer-rebates"></a><span data-ttu-id="8d83e-103">إنشاء ومعالجة خصومات العملاء</span><span class="sxs-lookup"><span data-stu-id="8d83e-103">Generate and process customer rebates</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيفية معالجة خصومات العميل بدءًا من إنشاء المطالبة إلى نقطة تمريرها كاستحقاقات للحسابات المدينة. وهو يتناول مثالاً محدداً لشرح كيفية تأثير الظروف المختلفة في بنود الخصم على المبالغ النهائية التي ستضاف إلى العميل. ستحتاج إلى استخدام شركة بيانات العرض التقديمي USMF، وتنفيذ المهام التالية قبل تشغيل الدليل: (1) انتقل إلى صفحة معلمات الحسابات المدينة، وقم بتوسيع علامة التبويب "الأسعار" ثم علامة التبويب "تفاصيل السعر" وتحقق من تعيين الخيار "تمكين تفاصيل السعر" على "نعم". (2) انتقل إلى صفحة اتفاقيات الخصم وحدد اتفاقية خصم العميل: USMF-000001. إذا لم يتم تعيين الحقل "حالة الموافقة على سير العمل" على "معتمد"، فستحتاج إلى النقر فوق "التحقق" في جزء الإجراءات لاعتماده.
+<span data-ttu-id="8d83e-104">يوضح هذا الإجراء كيفية معالجة خصومات العميل بدءًا من إنشاء المطالبة إلى نقطة تمريرها كاستحقاقات للحسابات المدينة.</span><span class="sxs-lookup"><span data-stu-id="8d83e-104">This procedure demonstrates how to process customer rebates from claim generation to the point of passing them as accruals to Accounts receivable.</span></span> <span data-ttu-id="8d83e-105">وهو يتناول مثالاً محدداً لشرح كيفية تأثير الظروف المختلفة في بنود الخصم على المبالغ النهائية التي ستضاف إلى العميل.</span><span class="sxs-lookup"><span data-stu-id="8d83e-105">It walks you through a specific example to explain how the various conditions on the rebate lines affect the final amounts that will be credited to the customer.</span></span> <span data-ttu-id="8d83e-106">ستحتاج إلى استخدام شركة بيانات العرض التقديمي USMF، وتنفيذ المهام التالية قبل تشغيل الدليل: (1) انتقل إلى صفحة معلمات الحسابات المدينة، وقم بتوسيع علامة التبويب "الأسعار" ثم علامة التبويب "تفاصيل السعر" وتحقق من تعيين الخيار "تمكين تفاصيل السعر" على "نعم".</span><span class="sxs-lookup"><span data-stu-id="8d83e-106">You need to use the USMF demo data company, and carry out the following tasks before you start the guide: (1) Go to the Accounts receivable parameters page, and expand the Prices tab and then the Price details tab, and check that the Enable price details option is set to Yes.</span></span> <span data-ttu-id="8d83e-107">(2) انتقل إلى صفحة اتفاقيات الخصم وحدد اتفاقية خصم العميل: USMF-000001.</span><span class="sxs-lookup"><span data-stu-id="8d83e-107">(2) Go to the Rebate agreements page and select the customer rebate agreement: USMF-000001.</span></span> <span data-ttu-id="8d83e-108">إذا لم يتم تعيين الحقل "حالة الموافقة على سير العمل" على "معتمد"، فستحتاج إلى النقر فوق "التحقق" في جزء الإجراءات لاعتماده.</span><span class="sxs-lookup"><span data-stu-id="8d83e-108">If the Workflow approval status field is not set to Approved, you need click Validation on the Action pane to approve it.</span></span>
 
 
-## <a name="review-a-customer-rebate-agreement"></a>مراجعة اتفاقية خصم للعميل
-1. انتقل للمبيعات والتسويق > خصومات العميل > اتفاقيات الخصم.
-    * تتناول الخطوات القليلة التالية شروط الاتفاقية USMF-000001. وهذا يسهل فهم كيفية حساب قيم ائتمان العميل لاحقاً في الإجراء.  
-    * تخصص الاتفاقية لعميل واحد، وهو العميل الولايات المتحدة-009 في هذا المثال.  
-    * يتم منح الخصومات للعميل عند قيامه بشراء منتج معين. في هذه الحالة، يحدد رقم الصنف T0020 للمنتج.   
-    * من المقرر تجميع أداء المبيعات، الذي يتم تقدير مبالغ الخصم مقابله، للعميل على أساس أسبوعي.  
-    * يتم إعداد "السعر مأخوذ من" على "إجمالي"، وهو ما يعني عدم تقليص مبلغ مبيعات ذلك البند، الذي يُقدر الطلب على أساسه، بخصم البند.  
-    * يعرض الحقل "نوع فاصل البند" طريقة حساب الخصومات. في هذه الحالة، يتم تعيين هدف المبيعات الذي تُقدر الخصومات على أساسه على "الكمية".   
-    * تحدد بنود الاتفاقية نوع مبلغ الخصم وقيمة الخصم الفعلية والعتبات. في هذا المثال، سيتأهل العميل لخصم قيمته 20 دولارًا أمريكيًا لكل وحدة بيع، إذا تراوحت مشترياته الأسبوعية من المنتج ضمن 1 إلى 50 وحدة؛ وإذا كان الخصم قيمته 40 دولارًا أمريكيًا للوحدة التي يتم بيعها، في حالة قيامه بشراء أكثر من 50 وحدة.  
-2. قم بإغلاق الصفحة.
+## <a name="review-a-customer-rebate-agreement"></a><span data-ttu-id="8d83e-109">مراجعة اتفاقية خصم للعميل</span><span class="sxs-lookup"><span data-stu-id="8d83e-109">Review a customer rebate agreement</span></span>
+1. <span data-ttu-id="8d83e-110">انتقل للمبيعات والتسويق > خصومات العميل > اتفاقيات الخصم.</span><span class="sxs-lookup"><span data-stu-id="8d83e-110">Go to Sales and marketing > Customer rebates > Rebate agreements.</span></span>
+    * <span data-ttu-id="8d83e-111">تتناول الخطوات القليلة التالية شروط الاتفاقية USMF-000001.</span><span class="sxs-lookup"><span data-stu-id="8d83e-111">The next few steps look at the conditions of agreement USMF-000001.</span></span> <span data-ttu-id="8d83e-112">وهذا يسهل فهم كيفية حساب قيم ائتمان العميل لاحقاً في الإجراء.</span><span class="sxs-lookup"><span data-stu-id="8d83e-112">This makes it easier to understand how the customer credit values are calculated later in the procedure.</span></span>  
+    * <span data-ttu-id="8d83e-113">تخصص الاتفاقية لعميل واحد، وهو العميل الولايات المتحدة-009 في هذا المثال.</span><span class="sxs-lookup"><span data-stu-id="8d83e-113">The agreement is for an individual customer, in this example customer US-009.</span></span>  
+    * <span data-ttu-id="8d83e-114">يتم منح الخصومات للعميل عند قيامه بشراء منتج معين.</span><span class="sxs-lookup"><span data-stu-id="8d83e-114">Rebates are given to the customer when they purchase a specific product.</span></span> <span data-ttu-id="8d83e-115">في هذه الحالة، يحدد رقم الصنف T0020 للمنتج.</span><span class="sxs-lookup"><span data-stu-id="8d83e-115">In this case, the product has item number T0020.</span></span>   
+    * <span data-ttu-id="8d83e-116">من المقرر تجميع أداء المبيعات، الذي يتم تقدير مبالغ الخصم مقابله، للعميل على أساس أسبوعي.</span><span class="sxs-lookup"><span data-stu-id="8d83e-116">The customer's sales performance, against which the rebate amounts are estimated, is to be accumulated on a weekly basis.</span></span>  
+    * <span data-ttu-id="8d83e-117">يتم إعداد "السعر مأخوذ من" على "إجمالي"، وهو ما يعني عدم تقليص مبلغ مبيعات ذلك البند، الذي يُقدر الطلب على أساسه، بخصم البند.</span><span class="sxs-lookup"><span data-stu-id="8d83e-117">The setting for “Price taken from” is Gross, which means that line's sales amount on which basis the claim is estimated is not reduced by the line discount.</span></span>  
+    * <span data-ttu-id="8d83e-118">يعرض الحقل "نوع فاصل البند" طريقة حساب الخصومات.</span><span class="sxs-lookup"><span data-stu-id="8d83e-118">The Rebate line break type field shows the method for calculating rebates.</span></span> <span data-ttu-id="8d83e-119">في هذه الحالة، يتم تعيين هدف المبيعات الذي تُقدر الخصومات على أساسه على "الكمية".</span><span class="sxs-lookup"><span data-stu-id="8d83e-119">In this case, the sales target against which the rebates are to be estimated is set to Quantity.</span></span>   
+    * <span data-ttu-id="8d83e-120">تحدد بنود الاتفاقية نوع مبلغ الخصم وقيمة الخصم الفعلية والعتبات.</span><span class="sxs-lookup"><span data-stu-id="8d83e-120">The agreement's lines specify the rebate amount type, the actual rebate value, and the thresholds.</span></span> <span data-ttu-id="8d83e-121">في هذا المثال، سيتأهل العميل لخصم قيمته 20 دولارًا أمريكيًا لكل وحدة بيع، إذا تراوحت مشترياته الأسبوعية من المنتج ضمن 1 إلى 50 وحدة؛ وإذا كان الخصم قيمته 40 دولارًا أمريكيًا للوحدة التي يتم بيعها، في حالة قيامه بشراء أكثر من 50 وحدة.</span><span class="sxs-lookup"><span data-stu-id="8d83e-121">In this example, the customer will qualify for a rebate of 20 USD per unit sold, if their weekly purchases of the product fall within 1 to 50 units; and a rebate of 40 USD per unit sold, if they purchase above 50 units.</span></span>  
+2. <span data-ttu-id="8d83e-122">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="8d83e-122">Close the page.</span></span>
 
-## <a name="generate-rebate-claims"></a>إنشاء مطالبات الخصم
-1. انتقل إلى المبيعات والتسويق > أوامر المبيعات > كافة أوامر المبيعات.
-2. انقر فوق "جديد".
-    * لمحاكاة الطريقة التي قد يتم بها إنشاء مطالبات الخصم، تكون المهمة التالية هي إنشاء أمر مبيعات، حيث سيؤهل المنتج والكمية العميل المعني لخصم ما.  
-3. في الحقل "حساب العميل"، أدخل قيمة أو حددها.
-4. انقر فوق "موافق".
-5. في الحقل "رقم الصنف"، أدخل قيمة أو حددها.
-6. تعيين الكمية إلى "40".
-7. انقر فوق بند أمر المبيعات.
-8. انقر فوق "تفاصيل السعر"
-    * إذا لم تشاهد هذا الخيار، فلأنك لم تقم بتعيين الخيار "تمكين تفاصيل السعر" على "نعم" قبل تشغيل الدليل.  
-9. قم بتوسيع القسم "الخصومات".
-    * تسرد علامة التبويب "الخصومات" جميع اتفاقيات الخصم التي يمكن تطبيقها على بند الأمر الحالي وتظهر مبلغ الخصم المقدر. لاحظ أن المبالغ المعروضة لا تمثل سوى إشارات لمطالبات الخصم المستقبلية المتوقعة. وقد تكون مبالغ الخصم الفعلية مختلفة اعتماداً على: إجمالي حجم المبيعات الذي حققه العميل بموجب اتفاقية خصم دورية وما إذا كان العميل قد أرجع جميع الكميات الجزئية وما إذا كان قد تم فوترة أمر المبيعات القابل للتطبيق.  
-10. قم بإغلاق الصفحة.
-11. انقر فوق "إضافة بند".
-12. في الحقل "رقم الصنف"، أدخل قيمة أو حددها.
-13. تعيين الكمية إلى "60".
-14. انقر فوق "حفظ".
-15. في جزء "الإجراءات"، انقر فوق "فاتورة".
-16. انقر فوق "فاتورة".
-17. وسّع مقطع "المحددات".
-18. في الحقل "الكمية"، حدد "الكل".
-19. انقر فوق "موافق".
-20. انقر فوق "موافق".
+## <a name="generate-rebate-claims"></a><span data-ttu-id="8d83e-123">إنشاء مطالبات الخصم</span><span class="sxs-lookup"><span data-stu-id="8d83e-123">Generate rebate claims</span></span>
+1. <span data-ttu-id="8d83e-124">انتقل إلى المبيعات والتسويق > أوامر المبيعات > كافة أوامر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="8d83e-124">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="8d83e-125">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="8d83e-125">Click New.</span></span>
+    * <span data-ttu-id="8d83e-126">لمحاكاة الطريقة التي قد يتم بها إنشاء مطالبات الخصم، تكون المهمة التالية هي إنشاء أمر مبيعات، حيث سيؤهل المنتج والكمية العميل المعني لخصم ما.</span><span class="sxs-lookup"><span data-stu-id="8d83e-126">To mimic the way in which rebate claims would be generated, the next task is to create a sales order, where the product and quantity will qualify the customer in question for a rebate.</span></span>  
+3. <span data-ttu-id="8d83e-127">في الحقل "حساب العميل"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="8d83e-127">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="8d83e-128">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="8d83e-128">Click OK.</span></span>
+5. <span data-ttu-id="8d83e-129">في الحقل "رقم الصنف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="8d83e-129">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="8d83e-130">تعيين الكمية إلى "40".</span><span class="sxs-lookup"><span data-stu-id="8d83e-130">Set Quantity to '40'.</span></span>
+7. <span data-ttu-id="8d83e-131">انقر فوق بند أمر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="8d83e-131">Click Sales order line.</span></span>
+8. <span data-ttu-id="8d83e-132">انقر فوق "تفاصيل السعر"</span><span class="sxs-lookup"><span data-stu-id="8d83e-132">Click Price details.</span></span>
+    * <span data-ttu-id="8d83e-133">إذا لم تشاهد هذا الخيار، فلأنك لم تقم بتعيين الخيار "تمكين تفاصيل السعر" على "نعم" قبل تشغيل الدليل.</span><span class="sxs-lookup"><span data-stu-id="8d83e-133">If you don’t see this option, it’s because you didn’t set the Enable price details option to Yes before you started the guide.</span></span>  
+9. <span data-ttu-id="8d83e-134">قم بتوسيع القسم "الخصومات".</span><span class="sxs-lookup"><span data-stu-id="8d83e-134">Expand the Rebates section.</span></span>
+    * <span data-ttu-id="8d83e-135">تسرد علامة التبويب "الخصومات" جميع اتفاقيات الخصم التي يمكن تطبيقها على بند الأمر الحالي وتظهر مبلغ الخصم المقدر.</span><span class="sxs-lookup"><span data-stu-id="8d83e-135">The Rebates tab lists all the rebate agreements that are applicable to the current order line and shows the estimated rebate amount.</span></span> <span data-ttu-id="8d83e-136">لاحظ أن المبالغ المعروضة لا تمثل سوى إشارات لمطالبات الخصم المستقبلية المتوقعة.</span><span class="sxs-lookup"><span data-stu-id="8d83e-136">Note that the displayed amounts are only indications of what future rebate claims may be.</span></span> <span data-ttu-id="8d83e-137">وقد تكون مبالغ الخصم الفعلية مختلفة اعتماداً على: إجمالي حجم المبيعات الذي حققه العميل بموجب اتفاقية خصم دورية وما إذا كان العميل قد أرجع جميع الكميات الجزئية وما إذا كان قد تم فوترة أمر المبيعات القابل للتطبيق.</span><span class="sxs-lookup"><span data-stu-id="8d83e-137">The actual rebate amounts may be different depending on: the total sales volume achieved by the customer under a periodic rebate agreement; whether the customer had returned all or partial quantities; and whether the applicable sales order was invoiced.</span></span>  
+10. <span data-ttu-id="8d83e-138">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="8d83e-138">Close the page.</span></span>
+11. <span data-ttu-id="8d83e-139">انقر فوق "إضافة بند".</span><span class="sxs-lookup"><span data-stu-id="8d83e-139">Click Add line.</span></span>
+12. <span data-ttu-id="8d83e-140">في الحقل "رقم الصنف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="8d83e-140">In the Item number field, enter or select a value.</span></span>
+13. <span data-ttu-id="8d83e-141">تعيين الكمية إلى "60".</span><span class="sxs-lookup"><span data-stu-id="8d83e-141">Set Quantity to '60'.</span></span>
+14. <span data-ttu-id="8d83e-142">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="8d83e-142">Click Save.</span></span>
+15. <span data-ttu-id="8d83e-143">في جزء "الإجراءات"، انقر فوق "فاتورة".</span><span class="sxs-lookup"><span data-stu-id="8d83e-143">On the Action Pane, click Invoice.</span></span>
+16. <span data-ttu-id="8d83e-144">انقر فوق "فاتورة".</span><span class="sxs-lookup"><span data-stu-id="8d83e-144">Click Invoice.</span></span>
+17. <span data-ttu-id="8d83e-145">وسّع مقطع "المحددات".</span><span class="sxs-lookup"><span data-stu-id="8d83e-145">Expand the Parameters section.</span></span>
+18. <span data-ttu-id="8d83e-146">في الحقل "الكمية"، حدد "الكل".</span><span class="sxs-lookup"><span data-stu-id="8d83e-146">In the Quantity field, select 'All'.</span></span>
+19. <span data-ttu-id="8d83e-147">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="8d83e-147">Click OK.</span></span>
+20. <span data-ttu-id="8d83e-148">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="8d83e-148">Click OK.</span></span>
 
-## <a name="process-rebate-claims"></a>مطالبات الخصم للمورد
-1. انتقل للمبيعات والتسويق > خصومات العميل > الخصومات.
-    * تعمل صفحة الخصومات كمنضدة عمل يمكنك من خلالها مراجعة مطالبات الخصم وقبولها ومعالجتها. ستعالجُ الآن المطالبات التي أُنشئت نتيجة لفوترة أمر مبيعات للعميل الولايات المتحدة-009، الذي يمثل موضوع اتفاقية الخصم USMF-000001.   
-    * ويمثل البند الأول مطالبة خصم لمبلغ 800 دولار أمريكي تعتمد على مبيعات 40 وحدة من المنتج T0020، المحسوبة على معدل 20 دولاراً أمريكيًا لكل وحدة. وهذا يطابق شروط فاصل الكمية الأول في اتفاقية الخصم.  
-    * المطالبة الثانية هي لخصم 2400 دولار أمريكي تعتمد على مبيعات 60 وحدة من المنتج T0020، تم حسابها على معدل 40 دولاراً أمريكيًا لكل وحدة، وفقا لفاصل الكمية الثاني في الاتفاقية.  
-    * توجد كلتا المطالبتين في الحالة "المطلوب حسابه". وهذا يعني أنهما مرتبطتان باتفاقية تتعقب أداء المبيعات للعميل على أساس دوري وأنه يجب إعادة حسابهما ليمثلا إجمالي حجم المبيعات خلال الفترة المعنية.   
-2. انقر فوق "تجميع".
-3. في الحقل "العميل"، أدخل قيمة أو حددها.
-4. في الحقل "تاريخ البدء"، حدد تاريخ اليوم.
-5. انقر فوق "موافق".
-    * ونتيجة لتشغيل دالة التجميع، تم ضبط مبلغ المطالبة المقدر الآن ليفسر حقيقة أن حجم المبيعات الإجمالي للعميل في الفترة المعنية يكون أكبر مقارنة بحجمها عند إنشاء الخصم الأول. وبشكل أكثر تحديداً، نظرًا لأن إجمالي الكمية التي تم شراؤها وصل إلى 100 وحدة، سيتأهل العميل الآن لخصم 40 دولاراً أمريكياً لكل وحدة (وفقا لفاصل الكمية الثاني في هذه الاتفاقية)، أو 400 دولارًا أمريكيًا كمبلغ الخصم الإجمالي. يتم تسجيل الفرق في شكل "ضبط" مطالبة جديدة لمبلغ 800 دولارًا أمريكيًا إضافية. يتم الآن تعيين حالة مطالبات الخصم التي تم تضمينها في تحديث التجميع على "محسوب".   
-6. في القائمة، ضع علامة تمييز أمام جميع الصفوف.
-7. انقر فوق "‏‫موافقة".
-8. انقر فوق "معالجة".
-9. في الحقل "العميل"، أدخل قيمة أو حددها.
-10. انقر فوق "موافق".
-    * تظهر رسالة أنه تمت معالجة الخصم بنجاح وتم تغيير حالة المطالبات إلى "تمييز". وهذا يعني أنه نتيجة لترحيل دفتر يومية تراكم خصم: أ) تم نقلت المطالبات الآن إلى رصيد عميل مؤقتة كخصومات؛ وب) حساب الاستحقاق الخصم) تمت إضافة تراكم الخصوم لتمثيل الالتزام المستقبلي تجاه العميل؛ وج) تم خصم حساب مصروفات الخصم في ضوء بالتكلفة المتكبدة فيما يتعلق بالمبيعات.   
+## <a name="process-rebate-claims"></a><span data-ttu-id="8d83e-149">مطالبات الخصم للمورد</span><span class="sxs-lookup"><span data-stu-id="8d83e-149">Process rebate claims</span></span>
+1. <span data-ttu-id="8d83e-150">انتقل للمبيعات والتسويق > خصومات العميل > الخصومات.</span><span class="sxs-lookup"><span data-stu-id="8d83e-150">Go to Sales and marketing > Customer rebates > Rebates.</span></span>
+    * <span data-ttu-id="8d83e-151">تعمل صفحة الخصومات كمنضدة عمل يمكنك من خلالها مراجعة مطالبات الخصم وقبولها ومعالجتها.</span><span class="sxs-lookup"><span data-stu-id="8d83e-151">The Rebates page acts a workbench in which you can review, approve, and process rebate claims.</span></span> <span data-ttu-id="8d83e-152">ستعالجُ الآن المطالبات التي أُنشئت نتيجة لفوترة أمر مبيعات للعميل الولايات المتحدة-009، الذي يمثل موضوع اتفاقية الخصم USMF-000001.</span><span class="sxs-lookup"><span data-stu-id="8d83e-152">You’ll now process the claims that were created as a result of invoicing a sales order for customer US-009, who is the subject of the rebate agreement USMF-000001.</span></span>   
+    * <span data-ttu-id="8d83e-153">ويمثل البند الأول مطالبة خصم لمبلغ 800 دولار أمريكي تعتمد على مبيعات 40 وحدة من المنتج T0020، المحسوبة على معدل 20 دولاراً أمريكيًا لكل وحدة.</span><span class="sxs-lookup"><span data-stu-id="8d83e-153">The first line represents a rebate claim for 800 USD, which is based on the sales of 40 units of product T0020, calculated at 20 USD per unit.</span></span> <span data-ttu-id="8d83e-154">وهذا يطابق شروط فاصل الكمية الأول في اتفاقية الخصم.</span><span class="sxs-lookup"><span data-stu-id="8d83e-154">This matches the conditions of the first quantity break in the rebate agreement.</span></span>  
+    * <span data-ttu-id="8d83e-155">المطالبة الثانية هي لخصم 2400 دولار أمريكي تعتمد على مبيعات 60 وحدة من المنتج T0020، تم حسابها على معدل 40 دولاراً أمريكيًا لكل وحدة، وفقا لفاصل الكمية الثاني في الاتفاقية.</span><span class="sxs-lookup"><span data-stu-id="8d83e-155">The second claim is for 2,400 USD, which is based on the sales of 60 units of product T0020, calculated at 40 USD per unit, as per the second quantity break in the agreement.</span></span>  
+    * <span data-ttu-id="8d83e-156">توجد كلتا المطالبتين في الحالة "المطلوب حسابه".</span><span class="sxs-lookup"><span data-stu-id="8d83e-156">Both claims are in the “To be calculated” state.</span></span> <span data-ttu-id="8d83e-157">وهذا يعني أنهما مرتبطتان باتفاقية تتعقب أداء المبيعات للعميل على أساس دوري وأنه يجب إعادة حسابهما ليمثلا إجمالي حجم المبيعات خلال الفترة المعنية.</span><span class="sxs-lookup"><span data-stu-id="8d83e-157">This means that they are associated with an agreement that tracks the customer's sales performance on periodic basis and that they have to be re-calculated to account for the total sales volume within the respective period.</span></span>   
+2. <span data-ttu-id="8d83e-158">انقر فوق "تجميع".</span><span class="sxs-lookup"><span data-stu-id="8d83e-158">Click Cumulate.</span></span>
+3. <span data-ttu-id="8d83e-159">في الحقل "العميل"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="8d83e-159">In the Customer field, enter or select a value.</span></span>
+4. <span data-ttu-id="8d83e-160">في الحقل "تاريخ البدء"، حدد تاريخ اليوم.</span><span class="sxs-lookup"><span data-stu-id="8d83e-160">In the Start date field, select today's date.</span></span>
+5. <span data-ttu-id="8d83e-161">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="8d83e-161">Click OK.</span></span>
+    * <span data-ttu-id="8d83e-162">ونتيجة لتشغيل دالة التجميع، تم ضبط مبلغ المطالبة المقدر الآن ليفسر حقيقة أن حجم المبيعات الإجمالي للعميل في الفترة المعنية يكون أكبر مقارنة بحجمها عند إنشاء الخصم الأول.</span><span class="sxs-lookup"><span data-stu-id="8d83e-162">As a result of running the Cumulate function, the estimated claim amount has now been adjusted to account for the fact that the customer's total sales volume in the relevant period is higher than when the first rebate was generated.</span></span> <span data-ttu-id="8d83e-163">وبشكل أكثر تحديداً، نظرًا لأن إجمالي الكمية التي تم شراؤها وصل إلى 100 وحدة، سيتأهل العميل الآن لخصم 40 دولاراً أمريكياً لكل وحدة (وفقا لفاصل الكمية الثاني في هذه الاتفاقية)، أو 400 دولارًا أمريكيًا كمبلغ الخصم الإجمالي.</span><span class="sxs-lookup"><span data-stu-id="8d83e-163">More specifically, because the total purchased quantity has reached 100 units, the customer now qualifies for 40 USD per unit (as per the agreement's second quantity break), or 400 USD of total rebate amount.</span></span> <span data-ttu-id="8d83e-164">يتم تسجيل الفرق في شكل "ضبط" مطالبة جديدة لمبلغ 800 دولارًا أمريكيًا إضافية.</span><span class="sxs-lookup"><span data-stu-id="8d83e-164">The difference is recorded as a new claim "adjustment" for the additional 800 USD.</span></span> <span data-ttu-id="8d83e-165">يتم الآن تعيين حالة مطالبات الخصم التي تم تضمينها في تحديث التجميع على "محسوب".</span><span class="sxs-lookup"><span data-stu-id="8d83e-165">The status of the rebate claims that were included in the Cumulate update are now set to Calculated.</span></span>   
+6. <span data-ttu-id="8d83e-166">في القائمة، ضع علامة تمييز أمام جميع الصفوف.</span><span class="sxs-lookup"><span data-stu-id="8d83e-166">In the list, mark all rows.</span></span>
+7. <span data-ttu-id="8d83e-167">انقر فوق "‏‫موافقة".</span><span class="sxs-lookup"><span data-stu-id="8d83e-167">Click Approve.</span></span>
+8. <span data-ttu-id="8d83e-168">انقر فوق "معالجة".</span><span class="sxs-lookup"><span data-stu-id="8d83e-168">Click Process.</span></span>
+9. <span data-ttu-id="8d83e-169">في الحقل "العميل"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="8d83e-169">In the Customer field, enter or select a value.</span></span>
+10. <span data-ttu-id="8d83e-170">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="8d83e-170">Click OK.</span></span>
+    * <span data-ttu-id="8d83e-171">تظهر رسالة أنه تمت معالجة الخصم بنجاح وتم تغيير حالة المطالبات إلى "تمييز".</span><span class="sxs-lookup"><span data-stu-id="8d83e-171">A message shows that the rebate was processed successfully, and the status of the claims has been changed to Mark.</span></span> <span data-ttu-id="8d83e-172">وهذا يعني أنه نتيجة لترحيل دفتر يومية تراكم خصم: أ) تم نقلت المطالبات الآن إلى رصيد عميل مؤقتة كخصومات؛ وب) حساب الاستحقاق الخصم) تمت إضافة تراكم الخصوم لتمثيل الالتزام المستقبلي تجاه العميل؛ وج) تم خصم حساب مصروفات الخصم في ضوء بالتكلفة المتكبدة فيما يتعلق بالمبيعات.</span><span class="sxs-lookup"><span data-stu-id="8d83e-172">This means that as a result of a Rebate accrual journal being posted: a) the claims have now been transferred to the temporary customer balance as deductions; b) the Rebate accrual account has been credited to represent the future liability towards the customer; and c) the Rebate expense account has been debited, in recognition of the cost incurred in connection with the sales.</span></span>   
 
 

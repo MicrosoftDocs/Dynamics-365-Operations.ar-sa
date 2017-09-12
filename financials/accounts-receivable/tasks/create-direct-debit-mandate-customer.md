@@ -16,77 +16,77 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e1ac289c261922f013b679eecfb054390b8aef73
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d01c7c19925a3c7064ab3f845b92b610b162066c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-direct-debit-mandate-for-a-customer"></a>إنشاء تفويض خصم مباشر لعميل
+# <a name="create-a-direct-debit-mandate-for-a-customer"></a><span data-ttu-id="7f7ed-103">إنشاء تفويض خصم مباشر لعميل</span><span class="sxs-lookup"><span data-stu-id="7f7ed-103">Create a direct debit mandate for a customer</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-توضح هذه المهمة كيفية إنشاء تفويض خصم مباشر واستخدامه في الفاتورة.
+<span data-ttu-id="7f7ed-104">توضح هذه المهمة كيفية إنشاء تفويض خصم مباشر واستخدامه في الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-104">This task guide demonstrates how to create a direct debit mandate and use it on an invoice.</span></span>
 
 
-## <a name="create-a-bank-account"></a>إنشاء حساب بنكي
-1. انتقل إلى الحسابات المدينة > العملاء > كافة العملاء‬.
-2. على سبيل المثال، حدد US-001
-3. في جزء الإجراءات، انقر فوق "العميل".
-4. انتقل إلى "الحسابات البنكية".
-5. انقر فوق "جديد".
-6. في الحقل "الحساب البنكي"، اكتب قيمة.
-7. في حقل "الاسم"، اكتب قيمة.
-8. في الحقل "IBAN‬"، اكتب قيمة.
-9. في الحقل "العملة"، اكتب قيمة.
-10. انقر فوق "حفظ".
-11. قم بإغلاق الصفحة.
-12. انتقل إلى إدارة النقد والبنوك > الحسابات البنكية > الحسابات البنكية.
-13. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-14. في القائمة، انقر فوق الارتباط في الصف المحدد.
-15. انقر فوق "تحرير".
-16. ‏‫قم بتوسيع المقطع "تعريف إضافي".
-17. في حقل "‏‫معرف الدين المباشر‬"، اكتب قيمة.
-18. في الحقل "IBAN‬"، اكتب قيمة.
-19. قم بإغلاق الصفحة.
-20. قم بإغلاق الصفحة.
+## <a name="create-a-bank-account"></a><span data-ttu-id="7f7ed-105">إنشاء حساب بنكي</span><span class="sxs-lookup"><span data-stu-id="7f7ed-105">Create a bank account</span></span>
+1. <span data-ttu-id="7f7ed-106">انتقل إلى الحسابات المدينة > العملاء > كافة العملاء‬.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-106">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="7f7ed-107">على سبيل المثال، حدد US-001</span><span class="sxs-lookup"><span data-stu-id="7f7ed-107">For example, select US-001</span></span>
+3. <span data-ttu-id="7f7ed-108">في جزء الإجراءات، انقر فوق "العميل".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-108">On the Action Pane, click Customer.</span></span>
+4. <span data-ttu-id="7f7ed-109">انتقل إلى "الحسابات البنكية".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-109">Click Bank accounts.</span></span>
+5. <span data-ttu-id="7f7ed-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-110">Click New.</span></span>
+6. <span data-ttu-id="7f7ed-111">في الحقل "الحساب البنكي"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-111">In the Bank account field, type a value.</span></span>
+7. <span data-ttu-id="7f7ed-112">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-112">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="7f7ed-113">في الحقل "IBAN‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-113">In the IBAN field, type a value.</span></span>
+9. <span data-ttu-id="7f7ed-114">في الحقل "العملة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-114">In the Currency field, type a value.</span></span>
+10. <span data-ttu-id="7f7ed-115">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-115">Click Save.</span></span>
+11. <span data-ttu-id="7f7ed-116">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-116">Close the page.</span></span>
+12. <span data-ttu-id="7f7ed-117">انتقل إلى إدارة النقد والبنوك > الحسابات البنكية > الحسابات البنكية.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-117">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
+13. <span data-ttu-id="7f7ed-118">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-118">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="7f7ed-119">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-119">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="7f7ed-120">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-120">Click Edit.</span></span>
+16. <span data-ttu-id="7f7ed-121">‏‫قم بتوسيع المقطع "تعريف إضافي".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-121">Expand the Additional identification section.</span></span>
+17. <span data-ttu-id="7f7ed-122">في حقل "‏‫معرف الدين المباشر‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-122">In the Direct debit ID field, type a value.</span></span>
+18. <span data-ttu-id="7f7ed-123">في الحقل "IBAN‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-123">In the IBAN field, type a value.</span></span>
+19. <span data-ttu-id="7f7ed-124">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-124">Close the page.</span></span>
+20. <span data-ttu-id="7f7ed-125">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-125">Close the page.</span></span>
 
-## <a name="define-the-electronic-payment-method"></a>تحديد طريقة الدفع الإلكترونية
-1. انتقل إلى الحسابات المدينة > إعداد الدفعات > طرق الدفع.
-2. انقر فوق "جديد".
-3. في الحقل "طريقة الدفع"، اكتب قيمة.
-4. في وصف الحقل، اكتب قيمة.
-5. يجب أن يكون الدفع الإلكتروني نوع الدفع لطريقة دفع تفويض الخصم المباشر.
-6. حدد "نعم" في الحقل "مطلوب تفويض‬".
-7. قم بإغلاق الصفحة.
+## <a name="define-the-electronic-payment-method"></a><span data-ttu-id="7f7ed-126">تحديد طريقة الدفع الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="7f7ed-126">Define the electronic payment method</span></span>
+1. <span data-ttu-id="7f7ed-127">انتقل إلى الحسابات المدينة > إعداد الدفعات > طرق الدفع.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-127">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
+2. <span data-ttu-id="7f7ed-128">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-128">Click New.</span></span>
+3. <span data-ttu-id="7f7ed-129">في الحقل "طريقة الدفع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-129">In the Method of payment field, type a value.</span></span>
+4. <span data-ttu-id="7f7ed-130">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-130">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="7f7ed-131">يجب أن يكون الدفع الإلكتروني نوع الدفع لطريقة دفع تفويض الخصم المباشر.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-131">The payment type for a direct debit mandate method of payment must be Electronic payment.</span></span>
+6. <span data-ttu-id="7f7ed-132">حدد "نعم" في الحقل "مطلوب تفويض‬".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-132">Select Yes in the Require mandate field.</span></span>
+7. <span data-ttu-id="7f7ed-133">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-133">Close the page.</span></span>
 
-## <a name="add-a-direct-debit-mandate-to-a-customer"></a>إضافة تفويض خصم مباشر إلى عميل
-1. انتقل إلى الحسابات المدينة > العملاء > كافة العملاء‬.
-2. على سبيل المثال، حدد US-001
-3. انقر فوق "تحرير".
-4. وسّع المقطع "القيم الافتراضية للدفع‬".
-5. في الحقل "أسلوب الدفع"، أدخل قيمة أو حددها.
-6. وسّع المقطع "القيم الافتراضية للدفع‬".
-7. وسّع المقطع "تفويضات الخصم المباشر‬".
-8. وانقر فوق إضافة.
-9. في الحقل "الحساب البنكي‬‬"، أدخل قيمة أو حددها.
-10. في الحقل "‏‫الحساب البنكي للدائن‬‬‬‬"، أدخل قيمة أو حددها.
-11. أدخل عدد الدفعات التي تتوقع معالجتها لهذا التفويض.
-12. انقر فوق "موافق".
-13. انقر فوق طباعة.
-14. انقر فوق "تقرير التفويض".
-15. قم بإغلاق الصفحة.
-16. انقر فوق "تحرير".
-17. في الحقل "تاريخ التوقيع"، أدخل تاريخًا.
-18. انقر فوق نعم.
-19. أدخل موقع توقيع التفويض.
-20. انقر فوق "موافق".
-21. قم بإغلاق الصفحة.
+## <a name="add-a-direct-debit-mandate-to-a-customer"></a><span data-ttu-id="7f7ed-134">إضافة تفويض خصم مباشر إلى عميل</span><span class="sxs-lookup"><span data-stu-id="7f7ed-134">Add a direct debit mandate to a customer.</span></span>
+1. <span data-ttu-id="7f7ed-135">انتقل إلى الحسابات المدينة > العملاء > كافة العملاء‬.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-135">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="7f7ed-136">على سبيل المثال، حدد US-001</span><span class="sxs-lookup"><span data-stu-id="7f7ed-136">For example, select US-001</span></span>
+3. <span data-ttu-id="7f7ed-137">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-137">Click Edit.</span></span>
+4. <span data-ttu-id="7f7ed-138">وسّع المقطع "القيم الافتراضية للدفع‬".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-138">Expand the Payment defaults section.</span></span>
+5. <span data-ttu-id="7f7ed-139">في الحقل "أسلوب الدفع"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-139">In the Method of payment field, enter or select a value.</span></span>
+6. <span data-ttu-id="7f7ed-140">وسّع المقطع "القيم الافتراضية للدفع‬".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-140">Expand the Payment defaults section.</span></span>
+7. <span data-ttu-id="7f7ed-141">وسّع المقطع "تفويضات الخصم المباشر‬".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-141">Expand the Direct debit mandates section.</span></span>
+8. <span data-ttu-id="7f7ed-142">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-142">Click Add.</span></span>
+9. <span data-ttu-id="7f7ed-143">في الحقل "الحساب البنكي‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-143">In the Bank account field, enter or select a value.</span></span>
+10. <span data-ttu-id="7f7ed-144">في الحقل "‏‫الحساب البنكي للدائن‬‬‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-144">In the Creditor bank account field, enter or select a value.</span></span>
+11. <span data-ttu-id="7f7ed-145">أدخل عدد الدفعات التي تتوقع معالجتها لهذا التفويض.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-145">Enter the number of payments that you expect to process for this mandate.</span></span>
+12. <span data-ttu-id="7f7ed-146">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-146">Click OK.</span></span>
+13. <span data-ttu-id="7f7ed-147">انقر فوق طباعة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-147">Click Print.</span></span>
+14. <span data-ttu-id="7f7ed-148">انقر فوق "تقرير التفويض".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-148">Click Mandate report.</span></span>
+15. <span data-ttu-id="7f7ed-149">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-149">Close the page.</span></span>
+16. <span data-ttu-id="7f7ed-150">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-150">Click Edit.</span></span>
+17. <span data-ttu-id="7f7ed-151">في الحقل "تاريخ التوقيع"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-151">In the Signature date field, enter a date.</span></span>
+18. <span data-ttu-id="7f7ed-152">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-152">Click Yes.</span></span>
+19. <span data-ttu-id="7f7ed-153">أدخل موقع توقيع التفويض.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-153">Enter the location where the mandate was signed.</span></span>
+20. <span data-ttu-id="7f7ed-154">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-154">Click OK.</span></span>
+21. <span data-ttu-id="7f7ed-155">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-155">Close the page.</span></span>
 
-## <a name="create-a-free-text-invoice-with-mandate"></a>إنشاء فاتورة نص حر مع تفويض
-1. انتقل إلى الحسابات المدينة > الفواتير > جميع الفواتير بنص حر‬.
-2. انقر فوق "جديد".
-3. حدد العميل الذي تريد إضافة التفويض إليه.
-4. في الحقل "معرف الأمر الرسمي للخصم المباشر"، أدخل قيمة أو حددها.
+## <a name="create-a-free-text-invoice-with-mandate"></a><span data-ttu-id="7f7ed-156">إنشاء فاتورة نص حر مع تفويض</span><span class="sxs-lookup"><span data-stu-id="7f7ed-156">Create a free text invoice with mandate</span></span>
+1. <span data-ttu-id="7f7ed-157">انتقل إلى الحسابات المدينة > الفواتير > جميع الفواتير بنص حر‬.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-157">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
+2. <span data-ttu-id="7f7ed-158">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="7f7ed-158">Click New.</span></span>
+3. <span data-ttu-id="7f7ed-159">حدد العميل الذي تريد إضافة التفويض إليه.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-159">Select the customer that you added the mandate to.</span></span>
+4. <span data-ttu-id="7f7ed-160">في الحقل "معرف الأمر الرسمي للخصم المباشر"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="7f7ed-160">In the Direct debit mandate ID field, enter or select a value.</span></span>
 
 

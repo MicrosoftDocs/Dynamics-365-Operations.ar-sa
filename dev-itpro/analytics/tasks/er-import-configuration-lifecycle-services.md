@@ -16,57 +16,57 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ab453d3ee44e206aea148de8dc3b428dc5056576
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0ea1e70f94e4b81919512127578d5927b36db56f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="import-a-configuration-from-lifecycle-services-for-electronic-reporting-er"></a>استيراد تكوين من Lifecycle Services للتقارير الإلكترونية (ER)
+# <a name="import-a-configuration-from-lifecycle-services-for-electronic-reporting-er"></a><span data-ttu-id="232e9-103">استيراد تكوين من Lifecycle Services للتقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="232e9-103">Import a configuration from Lifecycle Services for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-تشرح الخطوات التالية كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية استيراد إصدار جديد من تكوين التقارير الإلكترونية من Microsoft Lifecycle Services (LCS).
+<span data-ttu-id="232e9-104">تشرح الخطوات التالية كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية استيراد إصدار جديد من تكوين التقارير الإلكترونية من Microsoft Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="232e9-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can import a new version of an Electronic reporting (ER) configuration from Microsoft Lifecycle Services (LCS).</span></span>
 
-في هذا المثال، ستقوم بتحديد الإصدار المطلوب من تكوين التقارير الإلكترونية واستيراده إلى الشركة النموذجية Litware, Inc. يمكن تنفيذ هذه الخطوات في أي شركة نظرًا لمشاركة تكوينات التقارير الإلكترونية بين الشركات. لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "تحميل تكوين التقارير الإلكترونية داخل Lifecycle Services". يتم أيضًا الوصول إلى LCS المطلوب لإكمال هذه الخطوات.
+<span data-ttu-id="232e9-105">في هذا المثال، ستقوم بتحديد الإصدار المطلوب من تكوين التقارير الإلكترونية واستيراده إلى الشركة النموذجية Litware, Inc. يمكن تنفيذ هذه الخطوات في أي شركة نظرًا لمشاركة تكوينات التقارير الإلكترونية بين الشركات.</span><span class="sxs-lookup"><span data-stu-id="232e9-105">In this example, you will select the desired version of the ER configuration and import it for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="232e9-106">لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "تحميل تكوين التقارير الإلكترونية داخل Lifecycle Services".</span><span class="sxs-lookup"><span data-stu-id="232e9-106">To complete these steps, you must first complete the steps in the “Upload an ER configuration into Lifecycle Services” procedure.</span></span> <span data-ttu-id="232e9-107">يتم أيضًا الوصول إلى LCS المطلوب لإكمال هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="232e9-107">Access to LCS is also required for completion of these steps.</span></span>
 
-1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
-2. انقر فوق "التكوينات".
+1. <span data-ttu-id="232e9-108">انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.</span><span class="sxs-lookup"><span data-stu-id="232e9-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="232e9-109">انقر فوق "التكوينات".</span><span class="sxs-lookup"><span data-stu-id="232e9-109">Click Configurations.</span></span>
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a>حذف الإصدار المشترك من تكوين نموذج البيانات
-1. في الشجرة، حدد "تكوين نموذج مبسط".
-    * تم إنشاء الإصدار الأول لتكوين طراز بيانات العينة ونشرها على LCS أثناء الإجراء "تحميل تكوين التقرير الإلكتروني داخل Life Services". في هذا الإجراء، يمكنك حذف هذا الإصدار لتكوين التقارير الإلكترونية. سيتم استيراد هذا الإصدار من تكوين عينة نموذج البيانات في وقت لاحق من LCS.  
-2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * حدد إصدار هذا التكوين الذي يكون في الحالة "مشتركة". تشير هذه الحالة إلى أن التكوين تم نشره على LCS.  
-3. انقر فوق "تغيير الحالة".
-4. انقر فوق "إيقاف".
-    * قم بتغيير حالة الإصدار المحدد من "مشترك" إلى "إيقاف" لجعله متوفرًا للحذف.  
-5. انقر فوق "موافق".
-6. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * حدد إصدار هذا التكوين الذي يحتوي على حالة "إيقاف".  
-7. انقر فوق حذف.
-8. انقر فوق نعم.
-    * لاحظ أن إصدار المسودة 2 من تكوين نموذج البيانات المحدد هو الإصدار الوحيد المتوفر.  
-9. قم بإغلاق الصفحة.
+## <a name="delete-a-shared-version-of-data-model-configuration"></a><span data-ttu-id="232e9-110">حذف الإصدار المشترك من تكوين نموذج البيانات</span><span class="sxs-lookup"><span data-stu-id="232e9-110">Delete a shared version of data model configuration</span></span>
+1. <span data-ttu-id="232e9-111">في الشجرة، حدد "تكوين نموذج مبسط".</span><span class="sxs-lookup"><span data-stu-id="232e9-111">In the tree, select 'Sample model configuration'.</span></span>
+    * <span data-ttu-id="232e9-112">تم إنشاء الإصدار الأول لتكوين طراز بيانات العينة ونشرها على LCS أثناء الإجراء "تحميل تكوين التقرير الإلكتروني داخل Life Services".</span><span class="sxs-lookup"><span data-stu-id="232e9-112">The first version of a sample data model configuration has been created and published to LCS during the “Upload an ER configuration into Lifecycle Services” procedure.</span></span> <span data-ttu-id="232e9-113">في هذا الإجراء، يمكنك حذف هذا الإصدار لتكوين التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="232e9-113">In this procedure, you will delete this version of the ER configuration.</span></span> <span data-ttu-id="232e9-114">سيتم استيراد هذا الإصدار من تكوين عينة نموذج البيانات في وقت لاحق من LCS.</span><span class="sxs-lookup"><span data-stu-id="232e9-114">This version of a sample data model configuration will be imported later from LCS.</span></span>  
+2. <span data-ttu-id="232e9-115">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="232e9-115">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="232e9-116">حدد إصدار هذا التكوين الذي يكون في الحالة "مشتركة".</span><span class="sxs-lookup"><span data-stu-id="232e9-116">Select the version of this configuration that is in the ‘Shared’ status.</span></span> <span data-ttu-id="232e9-117">تشير هذه الحالة إلى أن التكوين تم نشره على LCS.</span><span class="sxs-lookup"><span data-stu-id="232e9-117">This status indicates that the configuration has been published to LCS.</span></span>  
+3. <span data-ttu-id="232e9-118">انقر فوق "تغيير الحالة".</span><span class="sxs-lookup"><span data-stu-id="232e9-118">Click Change status.</span></span>
+4. <span data-ttu-id="232e9-119">انقر فوق "إيقاف".</span><span class="sxs-lookup"><span data-stu-id="232e9-119">Click Discontinue.</span></span>
+    * <span data-ttu-id="232e9-120">قم بتغيير حالة الإصدار المحدد من "مشترك" إلى "إيقاف" لجعله متوفرًا للحذف.</span><span class="sxs-lookup"><span data-stu-id="232e9-120">Change the status of the selected version from ‘Shared’ to ‘Discontinued’ to make it available for deletion.</span></span>  
+5. <span data-ttu-id="232e9-121">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="232e9-121">Click OK.</span></span>
+6. <span data-ttu-id="232e9-122">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="232e9-122">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="232e9-123">حدد إصدار هذا التكوين الذي يحتوي على حالة "إيقاف".</span><span class="sxs-lookup"><span data-stu-id="232e9-123">Select the version of this configuration that has a status of ‘Discontinued’.</span></span>  
+7. <span data-ttu-id="232e9-124">انقر فوق حذف.</span><span class="sxs-lookup"><span data-stu-id="232e9-124">Click Delete.</span></span>
+8. <span data-ttu-id="232e9-125">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="232e9-125">Click Yes.</span></span>
+    * <span data-ttu-id="232e9-126">لاحظ أن إصدار المسودة 2 من تكوين نموذج البيانات المحدد هو الإصدار الوحيد المتوفر.</span><span class="sxs-lookup"><span data-stu-id="232e9-126">Note that the only draft version 2 of the selected data model configuration is available.</span></span>  
+9. <span data-ttu-id="232e9-127">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="232e9-127">Close the page.</span></span>
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a>استيراد الإصدار المشترك لتكوين نموذج البيانات من LCS
-1. في القائمة، قم بوضع علامة للصف المحدد.
-    * افتح قائمة بالمستودعات لموفر تكوين شركة ‘Litware, Inc.’ موفر التكوين.  
-2. انقر فوق "المستودعات".
-3. انقر فوق "فتح".
-    * حدد مستودع LCS وافتحه.  
-4. في القائمة، قم بوضع علامة للصف المحدد.
-    * حدد الإصدار الأول "لتكوين نموذج العينة" في قائمة الإصدارات.  
-5. انقر فوق "استيراد".
-6. انقر فوق نعم.
-    * قم بتأكيد استيراد الإصدار المحدد من LCS.  
-    * لاحظ أن رسالة المعلومات (أعلى النموذج) تؤكد على نجاح استيراد الإصدار المحدد.  
-7. قم بإغلاق الصفحة.
-8. قم بإغلاق الصفحة.
-9. انقر فوق "التكوينات".
-10. في الشجرة، حدد "تكوين نموذج مبسط".
-11. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * حدد إصدار هذا التكوين الذي يحتوي على حالة "مشترك".  
-    * لاحظ الإصدار المشترك 1 من تكوين نموذج البيانات المحدد متوفر هو أيضًا.  
+## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a><span data-ttu-id="232e9-128">استيراد الإصدار المشترك لتكوين نموذج البيانات من LCS</span><span class="sxs-lookup"><span data-stu-id="232e9-128">Import a shared version of data model configuration from LCS</span></span>
+1. <span data-ttu-id="232e9-129">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="232e9-129">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="232e9-130">افتح قائمة بالمستودعات لموفر تكوين شركة ‘Litware, Inc.’</span><span class="sxs-lookup"><span data-stu-id="232e9-130">Open the list of repositories for the ‘Litware, Inc.’</span></span> <span data-ttu-id="232e9-131">موفر التكوين.</span><span class="sxs-lookup"><span data-stu-id="232e9-131">configuration provider.</span></span>  
+2. <span data-ttu-id="232e9-132">انقر فوق "المستودعات".</span><span class="sxs-lookup"><span data-stu-id="232e9-132">Click Repositories.</span></span>
+3. <span data-ttu-id="232e9-133">انقر فوق "فتح".</span><span class="sxs-lookup"><span data-stu-id="232e9-133">Click Open.</span></span>
+    * <span data-ttu-id="232e9-134">حدد مستودع LCS وافتحه.</span><span class="sxs-lookup"><span data-stu-id="232e9-134">Select the LCS repository and open it.</span></span>  
+4. <span data-ttu-id="232e9-135">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="232e9-135">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="232e9-136">حدد الإصدار الأول "لتكوين نموذج العينة" في قائمة الإصدارات.</span><span class="sxs-lookup"><span data-stu-id="232e9-136">Select the first version of the 'Sample model configuration' in the versions list.</span></span>  
+5. <span data-ttu-id="232e9-137">انقر فوق "استيراد".</span><span class="sxs-lookup"><span data-stu-id="232e9-137">Click Import.</span></span>
+6. <span data-ttu-id="232e9-138">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="232e9-138">Click Yes.</span></span>
+    * <span data-ttu-id="232e9-139">قم بتأكيد استيراد الإصدار المحدد من LCS.</span><span class="sxs-lookup"><span data-stu-id="232e9-139">Confirm the import of the selected version from LCS .</span></span>  
+    * <span data-ttu-id="232e9-140">لاحظ أن رسالة المعلومات (أعلى النموذج) تؤكد على نجاح استيراد الإصدار المحدد.</span><span class="sxs-lookup"><span data-stu-id="232e9-140">Note that the information message (above the form) confirms the successful completion of the import of the selected version.</span></span>  
+7. <span data-ttu-id="232e9-141">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="232e9-141">Close the page.</span></span>
+8. <span data-ttu-id="232e9-142">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="232e9-142">Close the page.</span></span>
+9. <span data-ttu-id="232e9-143">انقر فوق "التكوينات".</span><span class="sxs-lookup"><span data-stu-id="232e9-143">Click Configurations.</span></span>
+10. <span data-ttu-id="232e9-144">في الشجرة، حدد "تكوين نموذج مبسط".</span><span class="sxs-lookup"><span data-stu-id="232e9-144">In the tree, select 'Sample model configuration'.</span></span>
+11. <span data-ttu-id="232e9-145">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="232e9-145">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="232e9-146">حدد إصدار هذا التكوين الذي يحتوي على حالة "مشترك".</span><span class="sxs-lookup"><span data-stu-id="232e9-146">Select the version of this configuration that has a status of ‘Shared’.</span></span>  
+    * <span data-ttu-id="232e9-147">لاحظ الإصدار المشترك 1 من تكوين نموذج البيانات المحدد متوفر هو أيضًا.</span><span class="sxs-lookup"><span data-stu-id="232e9-147">Note that the shared version 1 of the selected data model configuration is available now as well.</span></span>  
 
 

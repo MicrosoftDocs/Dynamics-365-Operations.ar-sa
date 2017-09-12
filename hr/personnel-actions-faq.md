@@ -19,79 +19,79 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c17441b70a75f032c900c9360da6c0730cf89ba
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 0f88229d56a405211818e043a693991e64c16e5e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="personnel-actions-faq"></a>إجراءات العاملين [الأسئلة المتداولة]
-يحتوي هذا الموضوع على إجابات للأسئلة التي قد تحتاجها إذا كانت مؤسستك تستخدم إجراءات شؤون الموظفين. الإجراءات المتعلقة بالموظفين هي الخطوات الإضافية التي يجب إكمالها عند تنفيذ بعض المهام المتعلقة بالموظفين. أمثلة على المهام التي قد تتطلب إجراءات العاملين عند إنشاء مناصب جديدة أو تعديل قيم المناصب الموجودة، أو توظيف العمال الجدد، أو نقل العمال، أو تغيير تعويض العامل، أو تغيير تعيينات المناصب، أو إنهاء توظيف العمال.
+# <a name="personnel-actions-faq"></a><span data-ttu-id="2793d-104">إجراءات العاملين [الأسئلة المتداولة]</span><span class="sxs-lookup"><span data-stu-id="2793d-104">Personnel actions [FAQ]</span></span>
+<span data-ttu-id="2793d-105">يحتوي هذا الموضوع على إجابات للأسئلة التي قد تحتاجها إذا كانت مؤسستك تستخدم إجراءات شؤون الموظفين.</span><span class="sxs-lookup"><span data-stu-id="2793d-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="2793d-106">الإجراءات المتعلقة بالموظفين هي الخطوات الإضافية التي يجب إكمالها عند تنفيذ بعض المهام المتعلقة بالموظفين.</span><span class="sxs-lookup"><span data-stu-id="2793d-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="2793d-107">أمثلة على المهام التي قد تتطلب إجراءات العاملين عند إنشاء مناصب جديدة أو تعديل قيم المناصب الموجودة، أو توظيف العمال الجدد، أو نقل العمال، أو تغيير تعويض العامل، أو تغيير تعيينات المناصب، أو إنهاء توظيف العمال.</span><span class="sxs-lookup"><span data-stu-id="2793d-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
-**ملاحظة:** تتوفر إجراءات العاملين فقط إذا تم تحديد مفتاح تكوين إجراءات العاملين. 
+<span data-ttu-id="2793d-108">**ملاحظة:** تتوفر إجراءات العاملين فقط إذا تم تحديد مفتاح تكوين إجراءات العاملين.</span><span class="sxs-lookup"><span data-stu-id="2793d-108">**Note:** Personnel actions are available only if the Personnel actions configuration key is selected.</span></span> 
 
-## <a name="how-can-i-tell-if-my-organization-requires-personnel-actions"></a>كيف يمكنني معرفة إذا كانت المؤسسة تتطلب إجراءات شؤون الموظفين؟
-إجراءات الموظفين مطلوبة من المؤسسة الخاصة بك إذا تمت مطالبتك بتحديد إجراء الموظفين عند إنشاء مناصب جديدة أو تغيير المناصب القائمة، أو توظيف العمال الجدد، أو نقل العمال، أو تغيير تعويض العامل، أو تغيير تعيينات المناصب، أو إنهاء توظيف العمال، أو إدخال أجازة للعاملين. 
+## <a name="how-can-i-tell-if-my-organization-requires-personnel-actions"></a><span data-ttu-id="2793d-109">كيف يمكنني معرفة إذا كانت المؤسسة تتطلب إجراءات شؤون الموظفين؟</span><span class="sxs-lookup"><span data-stu-id="2793d-109">How can I tell if my organization requires personnel actions?</span></span>
+<span data-ttu-id="2793d-110">إجراءات الموظفين مطلوبة من المؤسسة الخاصة بك إذا تمت مطالبتك بتحديد إجراء الموظفين عند إنشاء مناصب جديدة أو تغيير المناصب القائمة، أو توظيف العمال الجدد، أو نقل العمال، أو تغيير تعويض العامل، أو تغيير تعيينات المناصب، أو إنهاء توظيف العمال، أو إدخال أجازة للعاملين.</span><span class="sxs-lookup"><span data-stu-id="2793d-110">Personnel actions are required by your organization if you are asked to select a personnel action when you create new positions, change existing positions, hire new workers, transfer workers, change worker compensation, change position assignments, terminate workers, or enter leave for workers.</span></span> 
 
-## <a name="what-is-the-difference-between-a-position-action-and-a-worker-action"></a>ما هو الفرق بين إجراء منصب وإجراء عامل؟
-هناك نوعان من إجراءات الموظفين.
+## <a name="what-is-the-difference-between-a-position-action-and-a-worker-action"></a><span data-ttu-id="2793d-111">ما هو الفرق بين إجراء منصب وإجراء عامل؟</span><span class="sxs-lookup"><span data-stu-id="2793d-111">What is the difference between a position action and a worker action?</span></span>
+<span data-ttu-id="2793d-112">هناك نوعان من إجراءات الموظفين.</span><span class="sxs-lookup"><span data-stu-id="2793d-112">There are two types of personnel actions:</span></span>
 
-- إجراء المنصب – يتم تنفيذ إجراء المنصب على مناصب قائمة أو مناصب جديدة على سبيل المثال، قد يكون إجراء منصب مطلوب إذا قمت بتغيير قيمة في منصب موجود أو إذا قمت بإنشاء منصب موسمي جديد. للحصول على معلومات تفصيلية حول كيفية استخدام إجراءات المناصب، راجع المهام الرئيسية: مناصب العاملين الموجودة‬ أو المهام الرئيسية: مناصب العاملين الجديدة.
+- <span data-ttu-id="2793d-113">إجراء المنصب – يتم تنفيذ إجراء المنصب على مناصب قائمة أو مناصب جديدة</span><span class="sxs-lookup"><span data-stu-id="2793d-113">Position action – A position action is performed on existing positions or new positions.</span></span> <span data-ttu-id="2793d-114">على سبيل المثال، قد يكون إجراء منصب مطلوب إذا قمت بتغيير قيمة في منصب موجود أو إذا قمت بإنشاء منصب موسمي جديد.</span><span class="sxs-lookup"><span data-stu-id="2793d-114">For example, a position action might be required if you change a value on an existing position or if you create a new seasonal position.</span></span> <span data-ttu-id="2793d-115">للحصول على معلومات تفصيلية حول كيفية استخدام إجراءات المناصب، راجع المهام الرئيسية: مناصب العاملين الموجودة‬ أو المهام الرئيسية: مناصب العاملين الجديدة.</span><span class="sxs-lookup"><span data-stu-id="2793d-115">For detailed information about how to use position actions, see Key tasks: Existing worker positions or Key tasks: New worker positions.</span></span>
 
-- إجراء العامل – يتم تنفيذ إجراء العامل على الموظفين الحاليين أو الموظفين الجدد. على سبيل المثال، قد يكون إجراء عامل مطلوب عند توظيف موظف جديد أو عند ترقية موظف موجود. للحصول على معلومات تفصيلية حول كيفية استخدام إجراءات العاملين، راجع تعيين إجراءات العاملين إلى عاملين.
+- <span data-ttu-id="2793d-116">إجراء العامل – يتم تنفيذ إجراء العامل على الموظفين الحاليين أو الموظفين الجدد.</span><span class="sxs-lookup"><span data-stu-id="2793d-116">Worker action – A worker action is performed on existing employees or new employees.</span></span> <span data-ttu-id="2793d-117">على سبيل المثال، قد يكون إجراء عامل مطلوب عند توظيف موظف جديد أو عند ترقية موظف موجود.</span><span class="sxs-lookup"><span data-stu-id="2793d-117">For example, a worker action might be required when a new employee is hired or an existing employee is promoted.</span></span> <span data-ttu-id="2793d-118">للحصول على معلومات تفصيلية حول كيفية استخدام إجراءات العاملين، راجع تعيين إجراءات العاملين إلى عاملين.</span><span class="sxs-lookup"><span data-stu-id="2793d-118">For detailed information about how to use worker actions, see Assign personnel actions to workers.</span></span>
 
-## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>ماذا تعني حالات إجراءات الموظفين؟
-قد تتضمن إجراءات العاملين الحالات التالية:
+## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a><span data-ttu-id="2793d-119">ماذا تعني حالات إجراءات الموظفين؟</span><span class="sxs-lookup"><span data-stu-id="2793d-119">What do the statuses of the personnel actions mean?</span></span>
+<span data-ttu-id="2793d-120">قد تتضمن إجراءات العاملين الحالات التالية:</span><span class="sxs-lookup"><span data-stu-id="2793d-120">Personnel actions can have the following statuses:</span></span>
 
-- **مسودة** – إذا تم استخدام سير العمل، فهذا يعني عدم إرسال الإجراء. إذا لم يتم استخدام سير العمل، لم يتم إكمال الإجراء.
-- **قيد المراجعة** – تم إرسال إجراء العاملين إلى سير العمل، ولكن لم يتم إكمال سير العمل.
-- **‏‫في انتظار الموافقة‬** – اكتمل سير العمل، ولكن التغييرات لا تزال قيد المعالجة. ملغى – تم إلغاء سير العمل أو تم استدعاء إجراء العاملين. مرفوض - تم رفض طلب الإجراء من قبل المعتمد.
-- **معالجة الإجراء‬** – تمت الموافقة على طلب الإجراء وتجري معالجة التغييرات.
-- **اكتمال سير العمل**  – اكتمل سير العمل، وتمت معالجة التغييرات. فشل - فشل سير العمل نظرًا لكون المعلومات قديمة. انقر فوق "إعادة تنشيط" لعرض أحدث المعلومات والمتابعة.
-- **مكتمل** – تمت عملية إنشاء المنصب أو تعديله بنجاح، أو تمت عملية توظيف الموظف أو نقله أو إنهاء خدماته، أو تغيير تعويضاته بنجاح. خطأ - حدثت مشكلة أخرى غير مشكلة المعلومات القديمة. افتح سجل رسالة إجراءات العاملين لتحديد سبب الخطأ.
-- **مرفوض** – تم رفض طلب الإجراء من قبل المعتمد.
+- <span data-ttu-id="2793d-121">**مسودة** – إذا تم استخدام سير العمل، فهذا يعني عدم إرسال الإجراء.</span><span class="sxs-lookup"><span data-stu-id="2793d-121">**Draft** – If workflow is used, the action hasn’t been submitted.</span></span> <span data-ttu-id="2793d-122">إذا لم يتم استخدام سير العمل، لم يتم إكمال الإجراء.</span><span class="sxs-lookup"><span data-stu-id="2793d-122">If workflow isn’t used, the action hasn’t been completed.</span></span>
+- <span data-ttu-id="2793d-123">**قيد المراجعة** – تم إرسال إجراء العاملين إلى سير العمل، ولكن لم يتم إكمال سير العمل.</span><span class="sxs-lookup"><span data-stu-id="2793d-123">**In review** – The personnel action has been submitted to workflow, but the workflow is not completed.</span></span>
+- <span data-ttu-id="2793d-124">**‏‫في انتظار الموافقة‬** – اكتمل سير العمل، ولكن التغييرات لا تزال قيد المعالجة.</span><span class="sxs-lookup"><span data-stu-id="2793d-124">**Approved waiting** – The workflow is completed, but the changes are still in process.</span></span> <span data-ttu-id="2793d-125">ملغى – تم إلغاء سير العمل أو تم استدعاء إجراء العاملين.</span><span class="sxs-lookup"><span data-stu-id="2793d-125">Canceled – The workflow was canceled or the personnel action was recalled.</span></span> <span data-ttu-id="2793d-126">مرفوض - تم رفض طلب الإجراء من قبل المعتمد.</span><span class="sxs-lookup"><span data-stu-id="2793d-126">Rejected – The action request was rejected by the approver.</span></span>
+- <span data-ttu-id="2793d-127">**معالجة الإجراء‬** – تمت الموافقة على طلب الإجراء وتجري معالجة التغييرات.</span><span class="sxs-lookup"><span data-stu-id="2793d-127">**Processing action** – The action request has been approved and the changes are being processed.</span></span>
+- <span data-ttu-id="2793d-128">**اكتمال سير العمل**  – اكتمل سير العمل، وتمت معالجة التغييرات.</span><span class="sxs-lookup"><span data-stu-id="2793d-128">**Workflow complete**  – The workflow is completed and the changes have been processed.</span></span> <span data-ttu-id="2793d-129">فشل - فشل سير العمل نظرًا لكون المعلومات قديمة.</span><span class="sxs-lookup"><span data-stu-id="2793d-129">Failed – The workflow failed because the information is out of date.</span></span> <span data-ttu-id="2793d-130">انقر فوق "إعادة تنشيط" لعرض أحدث المعلومات والمتابعة.</span><span class="sxs-lookup"><span data-stu-id="2793d-130">Click Reactivate to display the latest information and continue.</span></span>
+- <span data-ttu-id="2793d-131">**مكتمل** – تمت عملية إنشاء المنصب أو تعديله بنجاح، أو تمت عملية توظيف الموظف أو نقله أو إنهاء خدماته، أو تغيير تعويضاته بنجاح.</span><span class="sxs-lookup"><span data-stu-id="2793d-131">**Completed** – The position was successfully created or modified, or the employee was successfully hired, transferred, or terminated, or had their compensation changed.</span></span> <span data-ttu-id="2793d-132">خطأ - حدثت مشكلة أخرى غير مشكلة المعلومات القديمة.</span><span class="sxs-lookup"><span data-stu-id="2793d-132">Error – A problem occurred other than information being out of date.</span></span> <span data-ttu-id="2793d-133">افتح سجل رسالة إجراءات العاملين لتحديد سبب الخطأ.</span><span class="sxs-lookup"><span data-stu-id="2793d-133">Open the Personnel actions message log to determine the cause of the error.</span></span>
+- <span data-ttu-id="2793d-134">**مرفوض** – تم رفض طلب الإجراء من قبل المعتمد.</span><span class="sxs-lookup"><span data-stu-id="2793d-134">**Denied** – The action request was denied by the approver.</span></span>
 
-## <a name="can-i-delete-a-personnel-action"></a>هل يمكن حذف إجراء الموظفين؟
-نعم، يمكنك حذف إجراءات العاملين ذات الحالة **مسودة** أو **خطأ** أو **فشل** أو **ملغى**.
+## <a name="can-i-delete-a-personnel-action"></a><span data-ttu-id="2793d-135">هل يمكن حذف إجراء الموظفين؟</span><span class="sxs-lookup"><span data-stu-id="2793d-135">Can I delete a personnel action?</span></span>
+<span data-ttu-id="2793d-136">نعم، يمكنك حذف إجراءات العاملين ذات الحالة **مسودة** أو **خطأ** أو **فشل** أو **ملغى**.</span><span class="sxs-lookup"><span data-stu-id="2793d-136">Yes, you can delete personnel actions that have a status of **Draft**, **Error**, **Failed**, or **Canceled**.</span></span>
 
-## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>ما هي أسرع طريقة للتحقق من حالة طلب إجراء موظفين؟
-افتح أي من صفحات قوائم إجراء الموظفين وحدد إجراء الموظفين.
+## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a><span data-ttu-id="2793d-137">ما هي أسرع طريقة للتحقق من حالة طلب إجراء موظفين؟</span><span class="sxs-lookup"><span data-stu-id="2793d-137">What is the fastest way to check the status of a personnel action request?</span></span>
+<span data-ttu-id="2793d-138">افتح أي من صفحات قوائم إجراء الموظفين وحدد إجراء الموظفين.</span><span class="sxs-lookup"><span data-stu-id="2793d-138">Open any of the personnel action list pages and select a personnel action.</span></span>
 
-## <a name="what-should-i-do-if-a-personnel-action-request-fails"></a>ماذا ينبغي أن أفعل إذا فشل طلب إجراء الموظفين؟
-إذا فشل طلب إجراء الموظفين، اتبع هذه الخطوات لحل الخطأ وإعادة إرسال الطلب:
+## <a name="what-should-i-do-if-a-personnel-action-request-fails"></a><span data-ttu-id="2793d-139">ماذا ينبغي أن أفعل إذا فشل طلب إجراء الموظفين؟</span><span class="sxs-lookup"><span data-stu-id="2793d-139">What should I do if a personnel action request fails?</span></span>
+<span data-ttu-id="2793d-140">إذا فشل طلب إجراء الموظفين، اتبع هذه الخطوات لحل الخطأ وإعادة إرسال الطلب:</span><span class="sxs-lookup"><span data-stu-id="2793d-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
-> 1. في **جزء الإجراءات**، انقر فوق زر **نص الخطأ** لعرض نص الرسالة التي تصف المشكلة.
+> 1. <span data-ttu-id="2793d-141">في **جزء الإجراءات**، انقر فوق زر **نص الخطأ** لعرض نص الرسالة التي تصف المشكلة.</span><span class="sxs-lookup"><span data-stu-id="2793d-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
 
-> 2. في **جزء الإجراءات**، انقر فوق **إعادة تنشيط** لتحميل أحدث المعلومات وتعيين حالة إجراء العاملين مرة أخرى إلى **مسودة**.
+> 2. <span data-ttu-id="2793d-142">في **جزء الإجراءات**، انقر فوق **إعادة تنشيط** لتحميل أحدث المعلومات وتعيين حالة إجراء العاملين مرة أخرى إلى **مسودة**.</span><span class="sxs-lookup"><span data-stu-id="2793d-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
 
-> 3. اعمل على حل الخطأ، ثم انقر فوق **مكتمل** أو **إرسال**.
+> 3. <span data-ttu-id="2793d-143">اعمل على حل الخطأ، ثم انقر فوق **مكتمل** أو **إرسال**.</span><span class="sxs-lookup"><span data-stu-id="2793d-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
-## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>ماذا يحدث لإجراء الموظفين الذي يستخدم سير العمل عندما يتم إكمال الموافقة النهائية؟
-إذا كان هناك أية أخطاء، يصبح إجراء الموظفين للقراءة فقط. (يمكنك عرض المحفوظات في صفحة القائمة **كل إجراءات العامل**، ولكن لا يمكن تغيير إجراء العامل.) عندما تكون حالة إجراء العاملين **مكتمل**، فهذا يعني أن سجل المنصب أو العامل قد تم تحديثه بالفعل. لعرض التغييرات التي تم تنفيذها، افتح صفحة قائمة **المناصب** أو **العاملين**.
+## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="2793d-144">ماذا يحدث لإجراء الموظفين الذي يستخدم سير العمل عندما يتم إكمال الموافقة النهائية؟</span><span class="sxs-lookup"><span data-stu-id="2793d-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>
+<span data-ttu-id="2793d-145">إذا كان هناك أية أخطاء، يصبح إجراء الموظفين للقراءة فقط.</span><span class="sxs-lookup"><span data-stu-id="2793d-145">If there are no errors, the personnel action becomes read-only.</span></span> <span data-ttu-id="2793d-146">(يمكنك عرض المحفوظات في صفحة القائمة **كل إجراءات العامل**، ولكن لا يمكن تغيير إجراء العامل.) عندما تكون حالة إجراء العاملين **مكتمل**، فهذا يعني أن سجل المنصب أو العامل قد تم تحديثه بالفعل.</span><span class="sxs-lookup"><span data-stu-id="2793d-146">(You can view the history on the **All worker actions** list page, but you can’t change the personnel action.) When the status of a personnel action is **Completed**, the position or worker record has already been updated.</span></span> <span data-ttu-id="2793d-147">لعرض التغييرات التي تم تنفيذها، افتح صفحة قائمة **المناصب** أو **العاملين**.</span><span class="sxs-lookup"><span data-stu-id="2793d-147">To view the changes that were performed, open the **Positions** or **Workers** list page.</span></span>
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>لماذا تظهر رسالة الخطأ التالية عند إدخال قيمة غير صفرية في حقل معدل الدفع؟ "القيمة خارج النطاق الصالح لها - يجب أن تكون بين ‬‏‫0.00‬‏‫ و0.00‬”
-تتلقى هذه الرسالة لأن حقل "المستوى" في نموذج "الوظيفة" يكون فارغًا للوظيفة المرتبطة بالمنصب المحدد.
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a><span data-ttu-id="2793d-148">لماذا تظهر رسالة الخطأ التالية عند إدخال قيمة غير صفرية في حقل معدل الدفع؟</span><span class="sxs-lookup"><span data-stu-id="2793d-148">Why do I receive the following error when I enter a non-zero value in the Pay rate field?</span></span> <span data-ttu-id="2793d-149">"القيمة خارج النطاق الصالح لها - يجب أن تكون بين ‬‏‫0.00‬‏‫ و0.00‬”</span><span class="sxs-lookup"><span data-stu-id="2793d-149">“The value is out of its valid range – it much be between 0.00 and 0.00”</span></span>
+<span data-ttu-id="2793d-150">تتلقى هذه الرسالة لأن حقل "المستوى" في نموذج "الوظيفة" يكون فارغًا للوظيفة المرتبطة بالمنصب المحدد.</span><span class="sxs-lookup"><span data-stu-id="2793d-150">You receive this message because the Level field in the Job form is blank for the job that is associated with the selected position.</span></span>
 
-لحل هذا الخطأ، اتبع الخطوات التالية:
+<span data-ttu-id="2793d-151">لحل هذا الخطأ، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="2793d-151">To resolve this error, follow these steps:</span></span>
 
-> 1. في النموذج "تعيينات منصب العامل‬"، انقر فوق حقل "المنصب".  
-> 2. انقر فوق قيمة حقل الوظيفة لفتح صفحة الوظيفة.
-> 3. في جزء الإجراءات، انقر فوق "تحرير".
-> 4. انقر فوق علامة تبويب "التعويض".
-> 5. حدد مستوى في حقل "المستوى".
-> 6. قم بإغلاق صفحة "الوظيفة".
-> 7. قم بإغلاق صفحة "المنصب".
-> 8. عد إلى علامة التبويب "التعويض" على صفحة "العامل"، وحدد "التعويض الثابت".  حدد "جديد" وقم بإدخال منصب للموظف في الحقل "المنصب:.  أدخل قيمة في حقل "الخطة"، ثم أدخل تعويض الموظف في الحقل "معدل الدفع".
+> 1. <span data-ttu-id="2793d-152">في النموذج "تعيينات منصب العامل‬"، انقر فوق حقل "المنصب".</span><span class="sxs-lookup"><span data-stu-id="2793d-152">On the Worker position assignments form, click on Position field.</span></span>  
+> 2. <span data-ttu-id="2793d-153">انقر فوق قيمة حقل الوظيفة لفتح صفحة الوظيفة.</span><span class="sxs-lookup"><span data-stu-id="2793d-153">Click the Job field value to open the Job page.</span></span>
+> 3. <span data-ttu-id="2793d-154">في جزء الإجراءات، انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="2793d-154">On the Action pane, click Edit.</span></span>
+> 4. <span data-ttu-id="2793d-155">انقر فوق علامة تبويب "التعويض".</span><span class="sxs-lookup"><span data-stu-id="2793d-155">Click the Compensation tab.</span></span>
+> 5. <span data-ttu-id="2793d-156">حدد مستوى في حقل "المستوى".</span><span class="sxs-lookup"><span data-stu-id="2793d-156">In the Level field, select a level.</span></span>
+> 6. <span data-ttu-id="2793d-157">قم بإغلاق صفحة "الوظيفة".</span><span class="sxs-lookup"><span data-stu-id="2793d-157">Close the Job page.</span></span>
+> 7. <span data-ttu-id="2793d-158">قم بإغلاق صفحة "المنصب".</span><span class="sxs-lookup"><span data-stu-id="2793d-158">Close the Position page.</span></span>
+> 8. <span data-ttu-id="2793d-159">عد إلى علامة التبويب "التعويض" على صفحة "العامل"، وحدد "التعويض الثابت".</span><span class="sxs-lookup"><span data-stu-id="2793d-159">Return to the Compensation tab on the Worker page, select Fixed compensation.</span></span>  <span data-ttu-id="2793d-160">حدد "جديد" وقم بإدخال منصب للموظف في الحقل "المنصب:.</span><span class="sxs-lookup"><span data-stu-id="2793d-160">Select New and enter the employee’s position in the Position field.</span></span>  <span data-ttu-id="2793d-161">أدخل قيمة في حقل "الخطة"، ثم أدخل تعويض الموظف في الحقل "معدل الدفع".</span><span class="sxs-lookup"><span data-stu-id="2793d-161">Enter a value in the Plan field, and then enter the employee’s compensation in the Pay rate field.</span></span>
 
-## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>لماذا يتعذر تغيير تاريخ السريان في رأس نموذج إجراء العامل؟
-لا يمكنك تغيير تاريخ السريان لأنه يتم ملء الحقل بالتاريخ الأكثر منطقية لنوع الإجراء.
+## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a><span data-ttu-id="2793d-162">لماذا يتعذر تغيير تاريخ السريان في رأس نموذج إجراء العامل؟</span><span class="sxs-lookup"><span data-stu-id="2793d-162">Why can’t I change the effective date in the header of the Worker action form?</span></span>
+<span data-ttu-id="2793d-163">لا يمكنك تغيير تاريخ السريان لأنه يتم ملء الحقل بالتاريخ الأكثر منطقية لنوع الإجراء.</span><span class="sxs-lookup"><span data-stu-id="2793d-163">You can’t change the effective date because the field is populated with the most logical date for the action type.</span></span>
 
-على سبيل المثال:
+<span data-ttu-id="2793d-164">على سبيل المثال:</span><span class="sxs-lookup"><span data-stu-id="2793d-164">For example:</span></span>
 
-- تاريخ السريان في رأس الإجراء **إنهاء خدمة عامل‬** هو التاريخ الذي أدخلته في الحقل **تاريخ إنهاء الخدمة**.
-- تاريخ السريان في رأس الإجراء **توظيف عامل‬‬** هو التاريخ الذي أدخلته في الحقل **تاريخ بداية التوظيف‬**.
-- تاريخ السريان في رأس الإجراء **نقل عامل‬‬** هو التاريخ الذي أدخلته في الحقل **تاريخ بداية التعيين‬** للعامل.
+- <span data-ttu-id="2793d-165">تاريخ السريان في رأس الإجراء **إنهاء خدمة عامل‬** هو التاريخ الذي أدخلته في الحقل **تاريخ إنهاء الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="2793d-165">The effective date in the header of a **Terminate a worker** action is the date you entered in the **Termination date** field.</span></span>
+- <span data-ttu-id="2793d-166">تاريخ السريان في رأس الإجراء **توظيف عامل‬‬** هو التاريخ الذي أدخلته في الحقل **تاريخ بداية التوظيف‬**.</span><span class="sxs-lookup"><span data-stu-id="2793d-166">The effective date of a **Hire a worker** action is the date that you entered in the **Employment start date** field.</span></span>
+- <span data-ttu-id="2793d-167">تاريخ السريان في رأس الإجراء **نقل عامل‬‬** هو التاريخ الذي أدخلته في الحقل **تاريخ بداية التعيين‬** للعامل.</span><span class="sxs-lookup"><span data-stu-id="2793d-167">The effective date of a **Transfer a worker** action is the date that you entered in the **Assignment start date** field for the worker.</span></span>
 
 

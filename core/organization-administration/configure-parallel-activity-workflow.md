@@ -15,41 +15,41 @@ ms.custom: 195753
 ms.assetid: 6d0656df-b5af-4001-96e6-6f0fcc44d022
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4c2f98803164d5c761d2089152c077cfb9e83c43
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 5473327c0665c9183746eb8125c7a368fbedc21e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>تكوين نشاط موازٍ في سير عمل
+# <a name="configure-a-parallel-activity-in-a-workflow"></a><span data-ttu-id="d67f2-103">تكوين نشاط موازٍ في سير عمل</span><span class="sxs-lookup"><span data-stu-id="d67f2-103">Configure a parallel activity in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-لتكوين نشاط موازٍ، أكمل الإجراءات التالية في محرر سير العمل.
+<span data-ttu-id="d67f2-104">لتكوين نشاط موازٍ، أكمل الإجراءات التالية في محرر سير العمل.</span><span class="sxs-lookup"><span data-stu-id="d67f2-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
 
-يتكون النشاط الموازي من فروع سير العمل التي يتم تشغيلها في نفس الوقت.
+<span data-ttu-id="d67f2-105">يتكون النشاط الموازي من فروع سير العمل التي يتم تشغيلها في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="d67f2-105">A parallel activity consists of workflow branches that run at the same time.</span></span>
 
-## <a name="name-a-parallel-activity"></a>تسمية نشاط موازٍ
-اتبع الخطوات التالية لإدخال اسم للنشاط الموازي.
-1.  انقر بالزر الأيمن فوق النشاط الموازي، ثم انقر فوق **خصائص** لفتح النموذج **خصائص**.
-2.  في الجزء الأيمن، انقر فوق **الإعدادات الأساسية‬**.
-3.  في حقل **الاسم**، أدخل اسمًا فريدًا للنشاط الموازي.
-4.  انقر فوق **إغلاق**.
+## <a name="name-a-parallel-activity"></a><span data-ttu-id="d67f2-106">تسمية نشاط موازٍ</span><span class="sxs-lookup"><span data-stu-id="d67f2-106">Name a parallel activity</span></span>
+<span data-ttu-id="d67f2-107">اتبع الخطوات التالية لإدخال اسم للنشاط الموازي.</span><span class="sxs-lookup"><span data-stu-id="d67f2-107">Follow these steps to enter a name for a parallel activity.</span></span>
+1.  <span data-ttu-id="d67f2-108">انقر بالزر الأيمن فوق النشاط الموازي، ثم انقر فوق **خصائص** لفتح النموذج **خصائص**.</span><span class="sxs-lookup"><span data-stu-id="d67f2-108">Right-click the parallel activity, and then click **Properties** to open the **Properties** form.</span></span>
+2.  <span data-ttu-id="d67f2-109">في الجزء الأيمن، انقر فوق **الإعدادات الأساسية‬**.</span><span class="sxs-lookup"><span data-stu-id="d67f2-109">In the left pane, click **Basic Settings**.</span></span>
+3.  <span data-ttu-id="d67f2-110">في حقل **الاسم**، أدخل اسمًا فريدًا للنشاط الموازي.</span><span class="sxs-lookup"><span data-stu-id="d67f2-110">In the **Name** field, enter a unique name for the parallel activity.</span></span>
+4.  <span data-ttu-id="d67f2-111">انقر فوق **إغلاق**.</span><span class="sxs-lookup"><span data-stu-id="d67f2-111">Click **Close**.</span></span>
 
-## <a name="configure-the-branches-of-a-parallel-activity"></a>تكوين فروع النشاط الموازي
-اتبع هذه الخطوات لإضافة وتكوين فروع هذا النشاط الموازي.
-1.  انقر نقرًا مزدوجًا فوق النشاط الموازي لعرض فروع النشاط الموازي.
-2.  لإضافة فرع، اسحب عنصر **الفرع** من ناحية **عناصر سير العمل** إلى نقطة إدراج على لوحة الرسم. يظهر الرسم التوضيحية التالي نقطة إدراج.![نقطة الإدراج](./media/workflow_insertionpoint.gif)
-    | **ملاحظة**                                                                                                         |
+## <a name="configure-the-branches-of-a-parallel-activity"></a><span data-ttu-id="d67f2-112">تكوين فروع النشاط الموازي</span><span class="sxs-lookup"><span data-stu-id="d67f2-112">Configure the branches of a parallel activity</span></span>
+<span data-ttu-id="d67f2-113">اتبع هذه الخطوات لإضافة وتكوين فروع هذا النشاط الموازي.</span><span class="sxs-lookup"><span data-stu-id="d67f2-113">Follow these steps to add and configure the branches of this parallel activity.</span></span>
+1.  <span data-ttu-id="d67f2-114">انقر نقرًا مزدوجًا فوق النشاط الموازي لعرض فروع النشاط الموازي.</span><span class="sxs-lookup"><span data-stu-id="d67f2-114">Double-click the parallel activity to display the branches of the parallel activity.</span></span>
+2.  <span data-ttu-id="d67f2-115">لإضافة فرع، اسحب عنصر **الفرع** من ناحية **عناصر سير العمل** إلى نقطة إدراج على لوحة الرسم.</span><span class="sxs-lookup"><span data-stu-id="d67f2-115">To add a branch, drag the **Branch** element from the **Workflow elements** area to an insertion point on the canvas.</span></span> <span data-ttu-id="d67f2-116">يظهر الرسم التوضيحية التالي نقطة إدراج.![نقطة الإدراج](./media/workflow_insertionpoint.gif)</span><span class="sxs-lookup"><span data-stu-id="d67f2-116">The following figure shows an insertion point.![Insertion point](./media/workflow_insertionpoint.gif)</span></span>
+    | <span data-ttu-id="d67f2-117">**ملاحظة**</span><span class="sxs-lookup"><span data-stu-id="d67f2-117">**Note**</span></span>                                                                                                         |
     |------------------------------------------------------------------------------------------------------------------|
-    | ليس لترتيب الفروع أي أهمية لأن جميع فروع النشاط الموازي تعمل في الوقت نفسه. |
+    | <span data-ttu-id="d67f2-118">ليس لترتيب الفروع أي أهمية لأن جميع فروع النشاط الموازي تعمل في الوقت نفسه.</span><span class="sxs-lookup"><span data-stu-id="d67f2-118">The order of the branches is not important because all the branches of a parallel activity run at the same time.</span></span> |
 
-3.  لتكوين كل فرع، راجع [تكوين فرع موازٍ](configure-parallel-branch-workflow.md).
+3.  <span data-ttu-id="d67f2-119">لتكوين كل فرع، راجع [تكوين فرع موازٍ](configure-parallel-branch-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="d67f2-119">To configure each branch, see [Configure a parallel branch](configure-parallel-branch-workflow.md).</span></span>
 
 
 

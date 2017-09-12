@@ -16,34 +16,34 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 26f667f51efd30bcc86242fce79226d356d99847
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2e269ef7b33b4d7e171d284d68d28c825c2fe86c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="modify-a-demand-forecast-manually"></a>تعديل التنبؤ بالطلب يدوياً
+# <a name="modify-a-demand-forecast-manually"></a><span data-ttu-id="d4ebb-103">تعديل التنبؤ بالطلب يدوياً</span><span class="sxs-lookup"><span data-stu-id="d4ebb-103">Modify a demand forecast manually</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيفية تعديل التنبؤ لصنف ما. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا التسجيل مخصص لمخطط الإنتاج‬. 
+<span data-ttu-id="d4ebb-104">يوضح هذا الإجراء كيفية تعديل التنبؤ لصنف ما.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-104">This procedure shows how to modify the forecast for an item.</span></span> <span data-ttu-id="d4ebb-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d4ebb-106">هذا التسجيل مخصص لمخطط الإنتاج‬.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-106">This recording is intended for the production planner.</span></span> 
 
 
-## <a name="modify-the-forecast-for-an-item"></a>تعديل التنبؤ لصنف
-1. انتقل إلى إدارة معلومات المنتج > المنتجات > المنتجات الصادرة.
-2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * حدد الصنف الذي تريد تعديل التنبؤ الخاص به. على سبيل المثال، يمكنك تحديد الصنف D0001.  
-3. في جزء "الإجراءات"، انقر فوق "خطة".
-4. انقر فوق "التنبؤ بالطلب".
-5. في القائمة، قم بوضع علامة للصف المحدد.
-    * إذا كانت هناك أي بنود تنبؤ، فيتم إنشاء بند جديد عن طريق النقر فوق "جديد" على شريط التطبيق.  
-6. في الحقل "كمية المبيعات"، أدخل رقمًا.
-    * يمثل هذا الرقم الكمية المتوقعة للصنف.  
-7. انقر فوق "حفظ".
+## <a name="modify-the-forecast-for-an-item"></a><span data-ttu-id="d4ebb-107">تعديل التنبؤ لصنف</span><span class="sxs-lookup"><span data-stu-id="d4ebb-107">Modify the forecast for an item</span></span>
+1. <span data-ttu-id="d4ebb-108">انتقل إلى إدارة معلومات المنتج > المنتجات > المنتجات الصادرة.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-108">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="d4ebb-109">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="d4ebb-110">حدد الصنف الذي تريد تعديل التنبؤ الخاص به.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-110">Select the item for which you want to modify the forecast.</span></span> <span data-ttu-id="d4ebb-111">على سبيل المثال، يمكنك تحديد الصنف D0001.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-111">For example, you can select item D0001.</span></span>  
+3. <span data-ttu-id="d4ebb-112">في جزء "الإجراءات"، انقر فوق "خطة".</span><span class="sxs-lookup"><span data-stu-id="d4ebb-112">On the Action Pane, click Plan.</span></span>
+4. <span data-ttu-id="d4ebb-113">انقر فوق "التنبؤ بالطلب".</span><span class="sxs-lookup"><span data-stu-id="d4ebb-113">Click Demand forecast.</span></span>
+5. <span data-ttu-id="d4ebb-114">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-114">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="d4ebb-115">إذا كانت هناك أي بنود تنبؤ، فيتم إنشاء بند جديد عن طريق</span><span class="sxs-lookup"><span data-stu-id="d4ebb-115">If there are no forecast lines, create a new line by  .</span></span> <span data-ttu-id="d4ebb-116">النقر فوق "جديد" على شريط التطبيق.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-116">clicking New on the app bar.</span></span>  
+6. <span data-ttu-id="d4ebb-117">في الحقل "كمية المبيعات"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-117">In the Sales quantity field, enter a number.</span></span>
+    * <span data-ttu-id="d4ebb-118">يمثل هذا الرقم الكمية المتوقعة للصنف.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-118">This number represents the forecasted quantity for the item.</span></span>  
+7. <span data-ttu-id="d4ebb-119">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="d4ebb-119">Click Save.</span></span>
 
-## <a name="modify-the-forecast-in-excel"></a>تعديل التنبؤ في Excel
-1. انقر فوق "فتح في Microsoft Office".
-2. انقر فوق "تحرير التنبؤ بالطلب" في Excel.
-    * في Excel، يمكنك إضافة بنود التنبؤ بالطلب وحذفها وتحريرها. إذا لم تتمكن من رؤية البيانات في Excel، فستحتاج إلى تسجيل الدخول إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition مع تمكين خيار "الاستمرار في تسجيل الدخول" وتحتاج إلى الثقة بتطبيق اتصال بيانات.  
+## <a name="modify-the-forecast-in-excel"></a><span data-ttu-id="d4ebb-120">تعديل التنبؤ في Excel</span><span class="sxs-lookup"><span data-stu-id="d4ebb-120">Modify the forecast in Excel</span></span>
+1. <span data-ttu-id="d4ebb-121">انقر فوق "فتح في Microsoft Office".</span><span class="sxs-lookup"><span data-stu-id="d4ebb-121">Click Open in Microsoft Office.</span></span>
+2. <span data-ttu-id="d4ebb-122">انقر فوق "تحرير التنبؤ بالطلب" في Excel.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-122">Click Edit Demand forecast in Excel.</span></span>
+    * <span data-ttu-id="d4ebb-123">في Excel، يمكنك إضافة بنود التنبؤ بالطلب وحذفها وتحريرها.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-123">In Excel, you can add, delete and edit demand forecast lines.</span></span> <span data-ttu-id="d4ebb-124">إذا لم تتمكن من رؤية البيانات في Excel، فستحتاج إلى تسجيل الدخول إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition مع تمكين خيار "الاستمرار في تسجيل الدخول" وتحتاج إلى الثقة بتطبيق اتصال بيانات.</span><span class="sxs-lookup"><span data-stu-id="d4ebb-124">If you are not able to see the data in Excel, you need to sign in to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition with the "Keep me signed in" option enabled and you need to trust the data connection app.</span></span>  
 
 

@@ -16,58 +16,58 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7a1e0a4dcf12c921e1c92fbeb3e68dd167c1b75d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ffc58d2afe73fa2290e4e73a058d47ffd64b8d54
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="approve-vendors-for-specific-products"></a>اعتماد موردين لمنتجات محددة
+# <a name="approve-vendors-for-specific-products"></a><span data-ttu-id="5d690-103">اعتماد موردين لمنتجات محددة</span><span class="sxs-lookup"><span data-stu-id="5d690-103">Approve vendors for specific products</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيفية اعتماد الموردين لمنتجات محددة. يسمح لك بالتحكم في الموردين الذين يمكن استخدامهم عند إضافة المنتج إلى أمر شراء. يمكنك استخدام هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة. وعادة ما تُنفذ هذه المهمة عن طريق مدير شراء.
+<span data-ttu-id="5d690-104">يوضح هذا الإجراء كيفية اعتماد الموردين لمنتجات محددة.</span><span class="sxs-lookup"><span data-stu-id="5d690-104">This procedure shows you how to approve vendors for specific products.</span></span> <span data-ttu-id="5d690-105">يسمح لك بالتحكم في الموردين الذين يمكن استخدامهم عند إضافة المنتج إلى أمر شراء.</span><span class="sxs-lookup"><span data-stu-id="5d690-105">This allows you to control which vendors can be used when the product is added to a purchase order.</span></span> <span data-ttu-id="5d690-106">يمكنك استخدام هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="5d690-106">You can use this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="5d690-107">وعادة ما تُنفذ هذه المهمة عن طريق مدير شراء.</span><span class="sxs-lookup"><span data-stu-id="5d690-107">This task would typically be carried out by a Purchasing manager.</span></span>
 
-1. انتقل إلى إدارة معلومات المنتج > المنتجات > المنتجات الصادرة.
-2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-3. في القائمة، انقر فوق الارتباط في الصف المحدد.
-4. توسيع القسم "الشراء".
-    * في حالة وجود مورد رئيسي معروض في حقل المورد، فإنك تحتاج إلى إضافة هذا المورد كمورد معتمد بالخطوات التالية. دون ملاحظة عن رقم المورد، في حالة ظهور أحدهم.  
-5. في جزء الإجراءات، انقر فوق "شراء".
-6. انقر فوق إعداد.
-7. وانقر فوق إضافة.
-8. في الحقل "مورد"، أدخل قيمة أو حددها.
-    * حدد المورد المعتمد. يجب أن يكون بند واحد من البنود على الأقل المورد الأساسي إذا كان هناك واحدًا في سجل المنتج. إذا قمت بتدوين ملاحظة برقم المورد في وقت سابق، حدده هنا.  
-9. في الحقل "تاريخ انتهاء الصلاحية"، أدخل تاريخًا.
-    * اختر تاريخًا بعد بضعة أشهر قادمة.  
-10. وانقر فوق إضافة.
-11. في الحقل "مورد"، أدخل قيمة أو حددها.
-12. في الحقل "تاريخ انتهاء الصلاحية"، أدخل تاريخًا.
-    * اختر تاريخًا يختلف عن تاريخ انتهاء الصلاحية السابق.  
-13. قم بإغلاق الصفحة.
-14. انقر فوق المورِّدين المعتمَدين.
-15. في الحقل "تاريخ انتهاء الصلاحية"، أدخل تاريخًا.
-    * هذا التاريخ بمثابة عامل تصفية لذلك فإنه يمكنك رؤية من هم الموردين المعتمدين، حتى تاريخ معين.  
-16. قم بإغلاق الصفحة.
-17. انقر فوق الفترة الفعالة.
-18. في الحقل إظهار صلاحية الموردين المنتهية صلاحيتهم حسب"، أدخل تاريخًا.
-    * يمكنك استخدام هذه الصفحة لتحديد الموردين حيث ستنتهي حالة الموافقة بعد تاريخ معين.  
-19. قم بإغلاق الصفحة.
-20. انقر فوق "تحرير".
-21. في الحقل "أسلوب التحقق من المورد المعتمد"، حدد خيارًا.
-    * يسمح لك هذا الحقل بتحديد السياسة لما ينبغي أن يحدث إذا تمت إضافة المنتج إلى بند أمر الشراء حيث لا يكون المورد مورد معتمد.  
-22. انقر فوق "حفظ".
-23. قم بإغلاق الصفحة.
-24. قم بإغلاق الصفحة.
-25. انتقل إلى التدبير وتحديد الموار > الموردون > علاقات المورد/الصنف‬ > قائمة المورِّدين المعتمدَين حسب الصنف.
-    * تقدم لك هذه الصفحة نظرة عامة حول كافة المنتجات والموردين المعتمدين.  
-26. قم بإغلاق الصفحة.
-27. انتقل إلى ‏‫التدبير والتوريد > الموردون > جميع الموردين.
-    * يمكنك أيضًا البدء من مورد ثم الانتقال إلى قائمة المنتجات المعتمدة لحساب المورد هذا.  
-28. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-29. في جزء الإجراءات، انقر فوق التدبير.
-30. انقر فوق قائمة المورِّد المعتمد حسب المورِّد.
-31. قم بإغلاق الصفحة.
-32. قم بإغلاق الصفحة.
+1. <span data-ttu-id="5d690-108">انتقل إلى إدارة معلومات المنتج > المنتجات > المنتجات الصادرة.</span><span class="sxs-lookup"><span data-stu-id="5d690-108">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="5d690-109">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="5d690-109">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="5d690-110">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="5d690-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="5d690-111">توسيع القسم "الشراء".</span><span class="sxs-lookup"><span data-stu-id="5d690-111">Expand the Purchase section.</span></span>
+    * <span data-ttu-id="5d690-112">في حالة وجود مورد رئيسي معروض في حقل المورد، فإنك تحتاج إلى إضافة هذا المورد كمورد معتمد بالخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="5d690-112">If there is a primary vendor shown in the Vendor field, then you need to add this vendor as an approved vendor in the following steps.</span></span> <span data-ttu-id="5d690-113">دون ملاحظة عن رقم المورد، في حالة ظهور أحدهم.</span><span class="sxs-lookup"><span data-stu-id="5d690-113">Make a note of the vendor number, if one is shown.</span></span>  
+5. <span data-ttu-id="5d690-114">في جزء الإجراءات، انقر فوق "شراء".</span><span class="sxs-lookup"><span data-stu-id="5d690-114">On the Action Pane, click Purchase.</span></span>
+6. <span data-ttu-id="5d690-115">انقر فوق إعداد.</span><span class="sxs-lookup"><span data-stu-id="5d690-115">Click Setup.</span></span>
+7. <span data-ttu-id="5d690-116">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="5d690-116">Click Add.</span></span>
+8. <span data-ttu-id="5d690-117">في الحقل "مورد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="5d690-117">In the Vendor field, enter or select a value.</span></span>
+    * <span data-ttu-id="5d690-118">حدد المورد المعتمد.</span><span class="sxs-lookup"><span data-stu-id="5d690-118">Select the approved vendor.</span></span> <span data-ttu-id="5d690-119">يجب أن يكون بند واحد من البنود على الأقل المورد الأساسي إذا كان هناك واحدًا في سجل المنتج.</span><span class="sxs-lookup"><span data-stu-id="5d690-119">At least one of the lines has to be the primary vendor if there was one in the product record.</span></span> <span data-ttu-id="5d690-120">إذا قمت بتدوين ملاحظة برقم المورد في وقت سابق، حدده هنا.</span><span class="sxs-lookup"><span data-stu-id="5d690-120">If you made a note of the vendor number earlier, select it here.</span></span>  
+9. <span data-ttu-id="5d690-121">في الحقل "تاريخ انتهاء الصلاحية"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="5d690-121">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="5d690-122">اختر تاريخًا بعد بضعة أشهر قادمة.</span><span class="sxs-lookup"><span data-stu-id="5d690-122">Choose a date a that is a few months ahead.</span></span>  
+10. <span data-ttu-id="5d690-123">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="5d690-123">Click Add.</span></span>
+11. <span data-ttu-id="5d690-124">في الحقل "مورد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="5d690-124">In the Vendor field, enter or select a value.</span></span>
+12. <span data-ttu-id="5d690-125">في الحقل "تاريخ انتهاء الصلاحية"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="5d690-125">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="5d690-126">اختر تاريخًا يختلف عن تاريخ انتهاء الصلاحية السابق.</span><span class="sxs-lookup"><span data-stu-id="5d690-126">Choose a date that is different than the previous expiration date.</span></span>  
+13. <span data-ttu-id="5d690-127">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="5d690-127">Close the page.</span></span>
+14. <span data-ttu-id="5d690-128">انقر فوق المورِّدين المعتمَدين.</span><span class="sxs-lookup"><span data-stu-id="5d690-128">Click Approved vendors.</span></span>
+15. <span data-ttu-id="5d690-129">في الحقل "تاريخ انتهاء الصلاحية"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="5d690-129">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="5d690-130">هذا التاريخ بمثابة عامل تصفية لذلك فإنه يمكنك رؤية من هم الموردين المعتمدين، حتى تاريخ معين.</span><span class="sxs-lookup"><span data-stu-id="5d690-130">This date acts as a filter so you can see who the approved vendors are, up to a certain date.</span></span>  
+16. <span data-ttu-id="5d690-131">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="5d690-131">Close the page.</span></span>
+17. <span data-ttu-id="5d690-132">انقر فوق الفترة الفعالة.</span><span class="sxs-lookup"><span data-stu-id="5d690-132">Click Effective period.</span></span>
+18. <span data-ttu-id="5d690-133">في الحقل إظهار صلاحية الموردين المنتهية صلاحيتهم حسب"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="5d690-133">In the Show vendors expired by field, enter a date.</span></span>
+    * <span data-ttu-id="5d690-134">يمكنك استخدام هذه الصفحة لتحديد الموردين حيث ستنتهي حالة الموافقة بعد تاريخ معين.</span><span class="sxs-lookup"><span data-stu-id="5d690-134">You can use this page to identify vendors where the approval status will expire after a certain date.</span></span>  
+19. <span data-ttu-id="5d690-135">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="5d690-135">Close the page.</span></span>
+20. <span data-ttu-id="5d690-136">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="5d690-136">Click Edit.</span></span>
+21. <span data-ttu-id="5d690-137">في الحقل "أسلوب التحقق من المورد المعتمد"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="5d690-137">In the Approved vendor check method field, select an option.</span></span>
+    * <span data-ttu-id="5d690-138">يسمح لك هذا الحقل بتحديد السياسة لما ينبغي أن يحدث إذا تمت إضافة المنتج إلى بند أمر الشراء حيث لا يكون المورد مورد معتمد.</span><span class="sxs-lookup"><span data-stu-id="5d690-138">This field allows you to select the policy for what should happen if the product is added to a purchase order line where the vendor is not an approved vendor.</span></span>  
+22. <span data-ttu-id="5d690-139">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="5d690-139">Click Save.</span></span>
+23. <span data-ttu-id="5d690-140">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="5d690-140">Close the page.</span></span>
+24. <span data-ttu-id="5d690-141">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="5d690-141">Close the page.</span></span>
+25. <span data-ttu-id="5d690-142">انتقل إلى التدبير وتحديد الموار > الموردون > علاقات المورد/الصنف‬ > قائمة المورِّدين المعتمدَين حسب الصنف.</span><span class="sxs-lookup"><span data-stu-id="5d690-142">Go to Procurement and sourcing > Vendors > Vendor/item relations > Approved vendor list by item.</span></span>
+    * <span data-ttu-id="5d690-143">تقدم لك هذه الصفحة نظرة عامة حول كافة المنتجات والموردين المعتمدين.</span><span class="sxs-lookup"><span data-stu-id="5d690-143">This page gives you an overview of all products and the approved vendors.</span></span>  
+26. <span data-ttu-id="5d690-144">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="5d690-144">Close the page.</span></span>
+27. <span data-ttu-id="5d690-145">انتقل إلى ‏‫التدبير والتوريد > الموردون > جميع الموردين.</span><span class="sxs-lookup"><span data-stu-id="5d690-145">Go to Procurement and sourcing > Vendors > All vendors.</span></span>
+    * <span data-ttu-id="5d690-146">يمكنك أيضًا البدء من مورد ثم الانتقال إلى قائمة المنتجات المعتمدة لحساب المورد هذا.</span><span class="sxs-lookup"><span data-stu-id="5d690-146">You can also start from a vendor and then go to the list of approved products for that vendor account.</span></span>  
+28. <span data-ttu-id="5d690-147">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="5d690-147">In the list, find and select the desired record.</span></span>
+29. <span data-ttu-id="5d690-148">في جزء الإجراءات، انقر فوق التدبير.</span><span class="sxs-lookup"><span data-stu-id="5d690-148">On the Action Pane, click Procurement.</span></span>
+30. <span data-ttu-id="5d690-149">انقر فوق قائمة المورِّد المعتمد حسب المورِّد.</span><span class="sxs-lookup"><span data-stu-id="5d690-149">Click Approved vendor list by vendor.</span></span>
+31. <span data-ttu-id="5d690-150">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="5d690-150">Close the page.</span></span>
+32. <span data-ttu-id="5d690-151">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="5d690-151">Close the page.</span></span>
 
 

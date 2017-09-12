@@ -17,58 +17,58 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: ff397d850cb40112bf1c862e230b577e6f8a4a99
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1c5a9bdd0e9eb77308030fb7bea2fa6e438019f1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-channel-attributes"></a> تحديد سمات القناة
+# <a name="define-channel-attributes"></a><span data-ttu-id="d1e79-103"> تحديد سمات القناة</span><span class="sxs-lookup"><span data-stu-id="d1e79-103">Define channel attributes</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-قم بتحسين القناة بإضافة القناة وسمات المنتج. يجب إضافة القناة إلى التدرج الهرمي الافتراضي للمؤسسات قبل أن تتمكن من تحديد السمات.
+<span data-ttu-id="d1e79-104">قم بتحسين القناة بإضافة القناة وسمات المنتج.</span><span class="sxs-lookup"><span data-stu-id="d1e79-104">Enrich the channel by adding channel and product attributes.</span></span> <span data-ttu-id="d1e79-105">يجب إضافة القناة إلى التدرج الهرمي الافتراضي للمؤسسات قبل أن تتمكن من تحديد السمات.</span><span class="sxs-lookup"><span data-stu-id="d1e79-105">You must add the channel to the organization default hierarchy before you can define the attributes.</span></span>
 
 
-## <a name="define-channel-product-attribute"></a>حدد سمة منتج القناة.
-1. انتقل إلى البيع بالتجزئة والتجارة > إعداد القناة > فئات القنوات وسمات المنتج.
-2. في الشجرة، حدد "Contoso Retail\Fashion\Houston".
-3. انقر فوق "تحرير".
-4. في حقل "‏‫التدرج الهرمي للفئات‬"، أدخل قيمة أو حددها.
-    * سيتم استخدام التدرج الهرمي للتنقل من أجل التنقل في المنتج داخل القنوات.  
-5. قم بتوسيع قسم مجموعة السمات.
-6. وانقر فوق إضافة.
-    * ستظهر مجموعة السمات في تفاصيل المنتج وستساعد أيضًا عند استخدام عامل تصفية المنتج.  
-7. في الحقل "الاسم"، أدخل قيمة أو حددها.
-8. انقر فوق عرض السمات.
-9. قم بتوسيع القسم "السمات".
-10. وانقر فوق إضافة.
-11. في القائمة، قم بوضع علامة للصف المحدد.
-12. انقر فوق AddBtn.
-13. انقر فوق "موافق".
-14. انقر فوق "حفظ".
-15. قم بإغلاق الصفحة.
-16. قم بتوسيع قسم "المنتجات".
-17. وانقر فوق إضافة.
-18. في القائمة، قم بوضع علامة للصف المحدد.
-19. وانقر فوق إضافة.
-    * وبنفس الطريقة يمكنك إضافة عدة منتجات.  
-20. انقر فوق "موافق".
-21. انقر فوق السمات.
-22. قم بتوسيع قسم وسائل القنوات.
-23. انقر فوق "تحرير".
-24. في حقل "القناة"، حدد خيارًا.
-25. حدد خانة الاختيار "افتراضي".
-26. انقر فوق موافق.
-27. قم بتوسيع قسم ‏‫سمات منتجات القناة‬.
-28. في حقل "‏‫العلامة التجارية‬"، اكتب قيمة.
-    * وبنفس الطريقة يمكنك تعيين السمات الأخرى.  
-29. انقر فوق "حفظ".
-30. قم بإغلاق الصفحة.
-31. انقر فوق "حفظ".
-32. انقر فوق تحديثات نشر القناة.
-    * بعد النشر، ستكون البيانات جاهزة للمزامنة مع جداول القنوات. إذا لم تنشرها، فلن تتم مزامنة البيانات المُعدلة مع جداول القنوات.  
-33. انقر فوق "موافق".
-34. انقر فوق "حفظ".
+## <a name="define-channel-product-attribute"></a><span data-ttu-id="d1e79-106">حدد سمة منتج القناة.</span><span class="sxs-lookup"><span data-stu-id="d1e79-106">Define channel product attribute.</span></span>
+1. <span data-ttu-id="d1e79-107">انتقل إلى البيع بالتجزئة والتجارة > إعداد القناة > فئات القنوات وسمات المنتج.</span><span class="sxs-lookup"><span data-stu-id="d1e79-107">Go to Retail and commerce > Channel setup > Channel categories and product attributes.</span></span>
+2. <span data-ttu-id="d1e79-108">في الشجرة، حدد "Contoso Retail\Fashion\Houston".</span><span class="sxs-lookup"><span data-stu-id="d1e79-108">In the tree, select 'Contoso Retail\Fashion\Houston'.</span></span>
+3. <span data-ttu-id="d1e79-109">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="d1e79-109">Click Edit.</span></span>
+4. <span data-ttu-id="d1e79-110">في حقل "‏‫التدرج الهرمي للفئات‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="d1e79-110">In the Category hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="d1e79-111">سيتم استخدام التدرج الهرمي للتنقل من أجل التنقل في المنتج داخل القنوات.</span><span class="sxs-lookup"><span data-stu-id="d1e79-111">The navigation hierarchy will be used for navigating the product inside your channels.</span></span>  
+5. <span data-ttu-id="d1e79-112">قم بتوسيع قسم مجموعة السمات.</span><span class="sxs-lookup"><span data-stu-id="d1e79-112">Expand the Attribute group section.</span></span>
+6. <span data-ttu-id="d1e79-113">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="d1e79-113">Click Add.</span></span>
+    * <span data-ttu-id="d1e79-114">ستظهر مجموعة السمات في تفاصيل المنتج وستساعد أيضًا عند استخدام عامل تصفية المنتج.</span><span class="sxs-lookup"><span data-stu-id="d1e79-114">The attribute group will be shown in the product details and also will help when using the product filter.</span></span>  
+7. <span data-ttu-id="d1e79-115">في الحقل "الاسم"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="d1e79-115">In the Name field, enter or select a value.</span></span>
+8. <span data-ttu-id="d1e79-116">انقر فوق عرض السمات.</span><span class="sxs-lookup"><span data-stu-id="d1e79-116">Click View attributes.</span></span>
+9. <span data-ttu-id="d1e79-117">قم بتوسيع القسم "السمات".</span><span class="sxs-lookup"><span data-stu-id="d1e79-117">Expand the Attributes section.</span></span>
+10. <span data-ttu-id="d1e79-118">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="d1e79-118">Click Add.</span></span>
+11. <span data-ttu-id="d1e79-119">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="d1e79-119">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="d1e79-120">انقر فوق AddBtn.</span><span class="sxs-lookup"><span data-stu-id="d1e79-120">Click AddBtn.</span></span>
+13. <span data-ttu-id="d1e79-121">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="d1e79-121">Click OK.</span></span>
+14. <span data-ttu-id="d1e79-122">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="d1e79-122">Click Save.</span></span>
+15. <span data-ttu-id="d1e79-123">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d1e79-123">Close the page.</span></span>
+16. <span data-ttu-id="d1e79-124">قم بتوسيع قسم "المنتجات".</span><span class="sxs-lookup"><span data-stu-id="d1e79-124">Expand the Products section.</span></span>
+17. <span data-ttu-id="d1e79-125">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="d1e79-125">Click Add.</span></span>
+18. <span data-ttu-id="d1e79-126">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="d1e79-126">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="d1e79-127">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="d1e79-127">Click Add.</span></span>
+    * <span data-ttu-id="d1e79-128">وبنفس الطريقة يمكنك إضافة عدة منتجات.</span><span class="sxs-lookup"><span data-stu-id="d1e79-128">Similarly you can add multiple products.</span></span>  
+20. <span data-ttu-id="d1e79-129">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="d1e79-129">Click OK.</span></span>
+21. <span data-ttu-id="d1e79-130">انقر فوق السمات.</span><span class="sxs-lookup"><span data-stu-id="d1e79-130">Click Attributes.</span></span>
+22. <span data-ttu-id="d1e79-131">قم بتوسيع قسم وسائل القنوات.</span><span class="sxs-lookup"><span data-stu-id="d1e79-131">Expand the Channel media section.</span></span>
+23. <span data-ttu-id="d1e79-132">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="d1e79-132">Click Edit.</span></span>
+24. <span data-ttu-id="d1e79-133">في حقل "القناة"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="d1e79-133">In the Channel field, select an option.</span></span>
+25. <span data-ttu-id="d1e79-134">حدد خانة الاختيار "افتراضي".</span><span class="sxs-lookup"><span data-stu-id="d1e79-134">Select the Default check box.</span></span>
+26. <span data-ttu-id="d1e79-135">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="d1e79-135">Click OK.</span></span>
+27. <span data-ttu-id="d1e79-136">قم بتوسيع قسم ‏‫سمات منتجات القناة‬.</span><span class="sxs-lookup"><span data-stu-id="d1e79-136">Expand the Channel product attributes section.</span></span>
+28. <span data-ttu-id="d1e79-137">في حقل "‏‫العلامة التجارية‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="d1e79-137">In the Brand field, type a value.</span></span>
+    * <span data-ttu-id="d1e79-138">وبنفس الطريقة يمكنك تعيين السمات الأخرى.</span><span class="sxs-lookup"><span data-stu-id="d1e79-138">Similarly you can set the other attributes.</span></span>  
+29. <span data-ttu-id="d1e79-139">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="d1e79-139">Click Save.</span></span>
+30. <span data-ttu-id="d1e79-140">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d1e79-140">Close the page.</span></span>
+31. <span data-ttu-id="d1e79-141">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="d1e79-141">Click Save.</span></span>
+32. <span data-ttu-id="d1e79-142">انقر فوق تحديثات نشر القناة.</span><span class="sxs-lookup"><span data-stu-id="d1e79-142">Click Publish channel updates.</span></span>
+    * <span data-ttu-id="d1e79-143">بعد النشر، ستكون البيانات جاهزة للمزامنة مع جداول القنوات.</span><span class="sxs-lookup"><span data-stu-id="d1e79-143">After publish the data will be ready for sync with the channel tables.</span></span> <span data-ttu-id="d1e79-144">إذا لم تنشرها، فلن تتم مزامنة البيانات المُعدلة مع جداول القنوات.</span><span class="sxs-lookup"><span data-stu-id="d1e79-144">If you didn't publish the modified data will not be synced with the channel tables.</span></span>  
+33. <span data-ttu-id="d1e79-145">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="d1e79-145">Click OK.</span></span>
+34. <span data-ttu-id="d1e79-146">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="d1e79-146">Click Save.</span></span>
 
 

@@ -17,26 +17,26 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a84a8679844d4e2dd44e7694cd50ff8d66a011e0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e80f7f006d29ee6de6953b8c9d47b3beddd42992
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-cost-object-balance"></a>عرض رصيد كائن التكلفة
+# <a name="view-cost-object-balance"></a><span data-ttu-id="9bcf0-103">عرض رصيد كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="9bcf0-103">View cost object balance</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لمراقب التكاليف‬.
+<span data-ttu-id="9bcf0-104">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="9bcf0-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9bcf0-105">هذا الإجراء مخصص لمراقب التكاليف‬.</span><span class="sxs-lookup"><span data-stu-id="9bcf0-105">This procedure is intended for the cost controller.</span></span>
 
-1. انقر فوق "إدارة التكلفة"
-2. انقر فوق "المنتجات التي تم إصدارها".
-3. استخدم عامل التصفية السريع للتصفية على الحقل "رقم الصنف" بالقيمة "m0004".
-4. في جزء الإجراءات، انقر فوق "إدارة التكاليف‬".
-5. انقر فوق "كائنات التكلفة".
-6. انقر فوق "الكمية الفعلية".
-7. انقر فوق "عرض الأبعاد".
-8. قم بإلغاء تحديد خانة الاختيار "الموقع".
-9. انقر فوق "موافق".
+1. <span data-ttu-id="9bcf0-106">انقر فوق "إدارة التكلفة"</span><span class="sxs-lookup"><span data-stu-id="9bcf0-106">Click Cost administration.</span></span>
+2. <span data-ttu-id="9bcf0-107">انقر فوق "المنتجات التي تم إصدارها".</span><span class="sxs-lookup"><span data-stu-id="9bcf0-107">Click Released products.</span></span>
+3. <span data-ttu-id="9bcf0-108">استخدم عامل التصفية السريع للتصفية على الحقل "رقم الصنف" بالقيمة "m0004".</span><span class="sxs-lookup"><span data-stu-id="9bcf0-108">Use the Quick Filter to filter on the Item number field with a value of 'm0004'.</span></span>
+4. <span data-ttu-id="9bcf0-109">في جزء الإجراءات، انقر فوق "إدارة التكاليف‬".</span><span class="sxs-lookup"><span data-stu-id="9bcf0-109">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="9bcf0-110">انقر فوق "كائنات التكلفة".</span><span class="sxs-lookup"><span data-stu-id="9bcf0-110">Click Cost objects.</span></span>
+6. <span data-ttu-id="9bcf0-111">انقر فوق "الكمية الفعلية".</span><span class="sxs-lookup"><span data-stu-id="9bcf0-111">Click Physical quantity.</span></span>
+7. <span data-ttu-id="9bcf0-112">انقر فوق "عرض الأبعاد".</span><span class="sxs-lookup"><span data-stu-id="9bcf0-112">Click Dimensions display.</span></span>
+8. <span data-ttu-id="9bcf0-113">قم بإلغاء تحديد خانة الاختيار "الموقع".</span><span class="sxs-lookup"><span data-stu-id="9bcf0-113">Clear the Location check box.</span></span>
+9. <span data-ttu-id="9bcf0-114">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="9bcf0-114">Click OK.</span></span>
 
 

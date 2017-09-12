@@ -14,49 +14,49 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: d2db0431a3f749cbdaf35cc5108851f1e116bc96
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4b8d320a6faae24fb3d8c6d3952e3263b97f52c1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>نقل المخزون مع العمل المقترن في إدارة المستودعات
+# <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a><span data-ttu-id="5eed0-103">نقل المخزون مع العمل المقترن في إدارة المستودعات</span><span class="sxs-lookup"><span data-stu-id="5eed0-103">Movement of inventory with associated work in Warehouse management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-باستخدام نقل المخزون، يمكنك أن تحدد العاملين في المستودع الذين يتم السماح لهم بنقل المخزون المحجوز. من شأن ذلك أن يوفر مرونة في المستودعات المنظمة حيث يمكنك تحديد عدم السماح لعامل باختيار موقع انتقاء جديد لعمل الانتقاء الذي أنشأه. ويسمح أيضًا لمدير المستودع بمراقبة القدرات التي ينبغي أن تكون لدى بعض العاملين ذوي خبرات أقل.
+<span data-ttu-id="5eed0-104">باستخدام نقل المخزون، يمكنك أن تحدد العاملين في المستودع الذين يتم السماح لهم بنقل المخزون المحجوز.</span><span class="sxs-lookup"><span data-stu-id="5eed0-104">Using movement of inventory, you can decide which warehouse workers are allowed to move reserved inventory.</span></span> <span data-ttu-id="5eed0-105">من شأن ذلك أن يوفر مرونة في المستودعات المنظمة حيث يمكنك تحديد عدم السماح لعامل باختيار موقع انتقاء جديد لعمل الانتقاء الذي أنشأه.</span><span class="sxs-lookup"><span data-stu-id="5eed0-105">This provides a flexibility in regulated warehouses where you can decide to not allow a worker to choose a new pick location for pick work that is already created.</span></span> <span data-ttu-id="5eed0-106">ويسمح أيضًا لمدير المستودع بمراقبة القدرات التي ينبغي أن تكون لدى بعض العاملين ذوي خبرات أقل.</span><span class="sxs-lookup"><span data-stu-id="5eed0-106">It also allows a warehouse manager to control which capabilities some less experienced workers should have.</span></span>
 
-قد تكون المرونة في إدارة العمليات اليومية للعاملين في المستودعات مفيدة في سيناريوهات كتلك التي تلي:
+<span data-ttu-id="5eed0-107">قد تكون المرونة في إدارة العمليات اليومية للعاملين في المستودعات مفيدة في سيناريوهات كتلك التي تلي:</span><span class="sxs-lookup"><span data-stu-id="5eed0-107">The flexibility to manage the daily operations of warehouse workers can be useful in scenarios such as these:</span></span>
 
-## <a name="scenario-1"></a>السيناريو 1
-شركة لديها مساحة استلام صغيرة نسبيًا، وهي مزدحمة بالبالتات والصناديق المخزنة فيها. من المتوقع وصول شحنة كبيرة في اليوم الحالي، لذلك يقرر موظف الاستلام‬ تحرير منطقة الاستلام عن طريق نقل بعض البالتات‬ إلى منطقة إعداد داخلية ثانوية.
+## <a name="scenario-1"></a><span data-ttu-id="5eed0-108">السيناريو 1</span><span class="sxs-lookup"><span data-stu-id="5eed0-108">Scenario 1</span></span>
+<span data-ttu-id="5eed0-109">شركة لديها مساحة استلام صغيرة نسبيًا، وهي مزدحمة بالبالتات والصناديق المخزنة فيها.</span><span class="sxs-lookup"><span data-stu-id="5eed0-109">A company has a relatively small receiving area, and it’s congested with pallets and boxes awaiting put away.</span></span> <span data-ttu-id="5eed0-110">من المتوقع وصول شحنة كبيرة في اليوم الحالي، لذلك يقرر موظف الاستلام‬ تحرير منطقة الاستلام عن طريق نقل بعض البالتات‬ إلى منطقة إعداد داخلية ثانوية.</span><span class="sxs-lookup"><span data-stu-id="5eed0-110">A large shipment is expected on the current day, so the receiving clerk decides to clear up the receiving area by moving some of the pallets to a secondary inbound staging area.</span></span>
 
-## <a name="scenario-2"></a>السيناريو 2
-يلاحظ عامل مستودع من ذوي الخبرة فرصة في مستودع ما لتجميع العناصر في مكان واحد بدلاً من تقسيمها عبر 3 مواقع مجاورة يحتوي كل واحد منها على كمية صغيرة. يريد العامل تجميع الكمية عن طريق نقل العناصر من كل واحد من هذه المواقع إلى الموقع نفسه وإلى لوحة الترخيص نفسها.
+## <a name="scenario-2"></a><span data-ttu-id="5eed0-111">السيناريو 2</span><span class="sxs-lookup"><span data-stu-id="5eed0-111">Scenario 2</span></span>
+<span data-ttu-id="5eed0-112">يلاحظ عامل مستودع من ذوي الخبرة فرصة في مستودع ما لتجميع العناصر في مكان واحد بدلاً من تقسيمها عبر 3 مواقع مجاورة يحتوي كل واحد منها على كمية صغيرة.</span><span class="sxs-lookup"><span data-stu-id="5eed0-112">An experienced warehouse worker notices an opportunity in a warehouse to consolidate items in one location instead of having them divided across 3 nearby locations with little quantity on each.</span></span> <span data-ttu-id="5eed0-113">يريد العامل تجميع الكمية عن طريق نقل العناصر من كل واحد من هذه المواقع إلى الموقع نفسه وإلى لوحة الترخيص نفسها.</span><span class="sxs-lookup"><span data-stu-id="5eed0-113">The worker wants to consolidate the quantity by moving items from each of these locations into the same location and onto the same license plate.</span></span>
 
-## <a name="scenario-3"></a>السيناريو 3
-هناك بالتة تنتظر الشحن في موقع إعداد، مثل STAGE01، القريب من BAYDOOR01. ومع ذلك، ونظرًا لتغيير الخطط تم جدولة وصول الشاحنة إلى BAYDOOR04. موظف الشحن يدرك ذلك ويريد التأكد من أن الشاحنة لن تنتظر تحميلها من STAGE01. يقرر موظف الشحن نقل الأصناف في هذه الشحنة من STAGE01 إلى STAGE04، الأقرب إلى الوجهة الجديدة.
+## <a name="scenario-3"></a><span data-ttu-id="5eed0-114">السيناريو 3</span><span class="sxs-lookup"><span data-stu-id="5eed0-114">Scenario 3</span></span>
+<span data-ttu-id="5eed0-115">هناك بالتة تنتظر الشحن في موقع إعداد، مثل STAGE01، القريب من BAYDOOR01.</span><span class="sxs-lookup"><span data-stu-id="5eed0-115">A pallet is awaiting shipment in a staging location, such as STAGE01, which is near BAYDOOR01.</span></span> <span data-ttu-id="5eed0-116">ومع ذلك، ونظرًا لتغيير الخطط تم جدولة وصول الشاحنة إلى BAYDOOR04.</span><span class="sxs-lookup"><span data-stu-id="5eed0-116">However, due to a change of plans the truck is scheduled to arrive at BAYDOOR04.</span></span> <span data-ttu-id="5eed0-117">موظف الشحن يدرك ذلك ويريد التأكد من أن الشاحنة لن تنتظر تحميلها من STAGE01.</span><span class="sxs-lookup"><span data-stu-id="5eed0-117">The shipping clerk is aware of this and needs to ensure that the truck does not have to wait to be loaded from STAGE01.</span></span> <span data-ttu-id="5eed0-118">يقرر موظف الشحن نقل الأصناف في هذه الشحنة من STAGE01 إلى STAGE04، الأقرب إلى الوجهة الجديدة.</span><span class="sxs-lookup"><span data-stu-id="5eed0-118">The shipping clerk decides to move the items in that shipment from STAGE01 to STAGE04, which is closer to the new destination.</span></span>
 
-### <a name="current-limitations"></a>القيود الحالية
+### <a name="current-limitations"></a><span data-ttu-id="5eed0-119">القيود الحالية</span><span class="sxs-lookup"><span data-stu-id="5eed0-119">Current limitations</span></span>
 
-تقتصر عمليات حجز العمل التي يمكنك نقلها على أمر المبيعات وإصدار أمر التحويل واستلام أمر التحويل وأمر الشراء وعمل التزويد.
+<span data-ttu-id="5eed0-120">تقتصر عمليات حجز العمل التي يمكنك نقلها على أمر المبيعات وإصدار أمر التحويل واستلام أمر التحويل وأمر الشراء وعمل التزويد.</span><span class="sxs-lookup"><span data-stu-id="5eed0-120">The work reservations that you can move are limited to Sales order, Transfer order issue, Transfer order receipt, Purchase order, and Replenishment work.</span></span>
 
-يتم تقييد نقل الأصناف لمنع تقسيم بنود العمل. وهذا يعني أنه إذا كان لديك بند عمل من 100 قطعة للصنف A من الموقع Loc1، فلن تتمكن من نقل 30 قطعة فقط للصنف A من هناك إلى موقع آخر. قد يؤدي هذا إلى تقسيم بند العمل موجود إلى 30 و70، لأن المواقع باتت الآن مختلفة.
+<span data-ttu-id="5eed0-121">يتم تقييد نقل الأصناف لمنع تقسيم بنود العمل.</span><span class="sxs-lookup"><span data-stu-id="5eed0-121">Moving items is restricted to prevent splitting of work lines.</span></span> <span data-ttu-id="5eed0-122">وهذا يعني أنه إذا كان لديك بند عمل من 100 قطعة للصنف A من الموقع Loc1، فلن تتمكن من نقل 30 قطعة فقط للصنف A من هناك إلى موقع آخر.</span><span class="sxs-lookup"><span data-stu-id="5eed0-122">This means that if you have a work line for 100 pcs of item A from location Loc1, you won’t be able to move only 30 pcs of item A from there to another location.</span></span> <span data-ttu-id="5eed0-123">قد يؤدي هذا إلى تقسيم بند العمل موجود إلى 30 و70، لأن المواقع باتت الآن مختلفة.</span><span class="sxs-lookup"><span data-stu-id="5eed0-123">This would lead to a split of the existing work line to 30 and 70, because the locations are now different.</span></span>
 
-بالنسبة إلى سيناريوهات الإعداد، حيث تم تعيين لوحة الترخيص التي تنقل الأصناف منها أو لوحة الترخيص التي تنقل الأصناف إليها كلوحة الترخيص الهدف‬ لأمر عمل، يسمح فقط بنقل لوحة الترخيص بكاملها لكي لا يتم تقسيم لوحة الترخيص الهدف.
-في الوقت الحالي، يتم دعم الحركة المخصصة فقط. وهذا يعني أنك لن تتمكن من نقل المخزون المحجوز من خلال عملية النقل بواسطة عناصر قائمة الجهاز المحمول للقالب.
+<span data-ttu-id="5eed0-124">بالنسبة إلى سيناريوهات الإعداد، حيث تم تعيين لوحة الترخيص التي تنقل الأصناف منها أو لوحة الترخيص التي تنقل الأصناف إليها كلوحة الترخيص الهدف‬ لأمر عمل، يسمح فقط بنقل لوحة الترخيص بكاملها لكي لا يتم تقسيم لوحة الترخيص الهدف.</span><span class="sxs-lookup"><span data-stu-id="5eed0-124">For staging scenarios, where the license plate you move the goods from or the license plate you move the goods to, are set as a Target LP for a work order, only movement of the entire LP is allowed, so as not to break up the Target LP.</span></span>
+<span data-ttu-id="5eed0-125">في الوقت الحالي، يتم دعم الحركة المخصصة فقط.</span><span class="sxs-lookup"><span data-stu-id="5eed0-125">Only the ad hoc movement is currently supported.</span></span> <span data-ttu-id="5eed0-126">وهذا يعني أنك لن تتمكن من نقل المخزون المحجوز من خلال عملية النقل بواسطة عناصر قائمة الجهاز المحمول للقالب.</span><span class="sxs-lookup"><span data-stu-id="5eed0-126">That means that you will not be able to move reserved inventory through the movement by template mobile device menu items.</span></span>
 
-### <a name="set-up-the-permission-to-move-reserved-inventory-for-individual-workers"></a>إعداد الإذن لنقل المخزون المحجوز لعاملين فرديين
+### <a name="set-up-the-permission-to-move-reserved-inventory-for-individual-workers"></a><span data-ttu-id="5eed0-127">إعداد الإذن لنقل المخزون المحجوز لعاملين فرديين</span><span class="sxs-lookup"><span data-stu-id="5eed0-127">Set up the permission to move reserved inventory for individual workers</span></span>
 
-بالنسبة إلى العامل الذي من المفترض أن يسمح له بنقل المخزون المحجوز، حدد خانة الاختيار **السماح بنقل المخزون مع العمل المقترن‬** ضمن **إدارة المستودعات** > **الإعداد** > **العامل**.  
+<span data-ttu-id="5eed0-128">بالنسبة إلى العامل الذي من المفترض أن يسمح له بنقل المخزون المحجوز، حدد خانة الاختيار **السماح بنقل المخزون مع العمل المقترن‬** ضمن **إدارة المستودعات** > **الإعداد** > **العامل**.</span><span class="sxs-lookup"><span data-stu-id="5eed0-128">For the worker who should be allowed to move reserved inventory, select the **Allow movement of inventory with work associated** check box under **Warehouse management** > **Setup** > **Worker**.</span></span>  
 
-### <a name="backported"></a>الحمل العكسي
+### <a name="backported"></a><span data-ttu-id="5eed0-129">الحمل العكسي</span><span class="sxs-lookup"><span data-stu-id="5eed0-129">Backported</span></span>
 
-تم أيضًا إجراء تحميل عكسي لهذه الميزة إلى Microsoft Dynamics AX 2012 R3 وسيتكون متوفرة كجزء من CU12.
-يمكن أيضًا تنزيلها بشكل فردي من خلال رقم قاعدة المعارف 3192548. 
+<span data-ttu-id="5eed0-130">تم أيضًا إجراء تحميل عكسي لهذه الميزة إلى Microsoft Dynamics AX 2012 R3 وسيتكون متوفرة كجزء من CU12.</span><span class="sxs-lookup"><span data-stu-id="5eed0-130">This feature has also been back-ported to Microsoft Dynamics AX 2012 R3 and will be available as part of CU12.</span></span>
+<span data-ttu-id="5eed0-131">يمكن أيضًا تنزيلها بشكل فردي من خلال رقم قاعدة المعارف 3192548.</span><span class="sxs-lookup"><span data-stu-id="5eed0-131">It can also be downloaded individually through KB number 3192548.</span></span> 
 
 

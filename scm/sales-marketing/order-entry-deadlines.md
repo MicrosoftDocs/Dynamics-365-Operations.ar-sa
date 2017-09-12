@@ -16,98 +16,98 @@ ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9cabce5400216ee0214eb6d56f0d32d746b260f
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 9e9d1912abf9a356542ce2c317fa717bc991dbf9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="order-entry-deadlines"></a>المواعيد النهائية لإدخال الأوامر
+# <a name="order-entry-deadlines"></a><span data-ttu-id="df565-104">المواعيد النهائية لإدخال الأوامر</span><span class="sxs-lookup"><span data-stu-id="df565-104">Order entry deadlines</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-توفر هذه المقالة معلومات حول المواعيد النهائية لإدخال أمر. الموعد نهائي لإدخال أمر هو الانقطاع الذي يحدد ما إذا كان يتم التعامل مع طلب عميل (وتنفيذه) كما لو تم تلقيه في اليوم الحالي أو في اليوم التالي.
+<span data-ttu-id="df565-105">توفر هذه المقالة معلومات حول المواعيد النهائية لإدخال أمر.</span><span class="sxs-lookup"><span data-stu-id="df565-105">This article provides information about order entry deadlines.</span></span> <span data-ttu-id="df565-106">الموعد نهائي لإدخال أمر هو الانقطاع الذي يحدد ما إذا كان يتم التعامل مع طلب عميل (وتنفيذه) كما لو تم تلقيه في اليوم الحالي أو في اليوم التالي.</span><span class="sxs-lookup"><span data-stu-id="df565-106">An order entry deadline is a cut-off time that determines whether a customer order is treated (and fulfilled) as if it was received on the current day or the next day.</span></span>
 
-في العديد من الشركات، يتم التعامل مع أوامر المبيعات فقط التي تم استلامها قبل وقت محدد من اليوم على أنه قد تم استلامها في هذا اليوم. ويتم التعامل مع أي أوامر تم تلقيها بعد ذلك الوقت كما لو أنه تم تلقيها في يوم العمل التالي. ويُعرف وقت التوقف للأوامر هذا بالموعد النهائي لإدخال الأمر.  
+<span data-ttu-id="df565-107">في العديد من الشركات، يتم التعامل مع أوامر المبيعات فقط التي تم استلامها قبل وقت محدد من اليوم على أنه قد تم استلامها في هذا اليوم.</span><span class="sxs-lookup"><span data-stu-id="df565-107">In many companies, only sales orders that are received before a certain time of day are treated as if they were received on that day.</span></span> <span data-ttu-id="df565-108">ويتم التعامل مع أي أوامر تم تلقيها بعد ذلك الوقت كما لو أنه تم تلقيها في يوم العمل التالي.</span><span class="sxs-lookup"><span data-stu-id="df565-108">Any orders that are received after that time are treated as if they are received on the next business day.</span></span> <span data-ttu-id="df565-109">ويُعرف وقت التوقف للأوامر هذا بالموعد النهائي لإدخال الأمر.</span><span class="sxs-lookup"><span data-stu-id="df565-109">This cut-off time for orders is known as the order entry deadline.</span></span>  
 
-يتم استخدام المواعيد النهائية لإدخال الأوامر كإدخال لأمر متفق عليه. ولذلك، فهي تساعد في إدارة توقعات العملاء بشأن عمليات تسليم الأوامر. على سبيل المثال، يمكن للعملاء مشاهدة أنه إذا كانوا يقدمون أمرًا لك قبل وقت محدد، فستلتزم بشحن البضائع في نفس اليوم. ‏‫ومع ذلك، إذا لم يكن لديهم هذا الموعد النهائي، فإنهم يتوقعون الشحنة فقط في يوم العمل التالي. وتقوم بتعيين المواعيد النهائية لإدخال الأمر على أساس قدرات المستودع والجداول الزمنية لشركة الشحن.‬  
+<span data-ttu-id="df565-110">يتم استخدام المواعيد النهائية لإدخال الأوامر كإدخال لأمر متفق عليه.</span><span class="sxs-lookup"><span data-stu-id="df565-110">Order entry deadlines are used as input for order promising.</span></span> <span data-ttu-id="df565-111">ولذلك، فهي تساعد في إدارة توقعات العملاء بشأن عمليات تسليم الأوامر.</span><span class="sxs-lookup"><span data-stu-id="df565-111">Therefore, they help you manage customer expectations about order deliveries.</span></span> <span data-ttu-id="df565-112">على سبيل المثال، يمكن للعملاء مشاهدة أنه إذا كانوا يقدمون أمرًا لك قبل وقت محدد، فستلتزم بشحن البضائع في نفس اليوم.</span><span class="sxs-lookup"><span data-stu-id="df565-112">For example, customers can see that, if they place an order with you before a specific time, you will commit to shipping the goods on the same day.</span></span> <span data-ttu-id="df565-113">‏‫ومع ذلك، إذا لم يكن لديهم هذا الموعد النهائي، فإنهم يتوقعون الشحنة فقط في يوم العمل التالي.</span><span class="sxs-lookup"><span data-stu-id="df565-113">However, if they miss that deadline, they can expect the shipment only on the next business day.</span></span> <span data-ttu-id="df565-114">وتقوم بتعيين المواعيد النهائية لإدخال الأمر على أساس قدرات المستودع والجداول الزمنية لشركة الشحن.‬</span><span class="sxs-lookup"><span data-stu-id="df565-114">You set order entry deadlines based on your warehouse capabilities and shipping carrier schedules.</span></span>  
 
-وفي صفحة **المواعيد النهائية لإدخال الأوامر‬**، تقوم بإعداد أوقات المواعيد النهائية لإدخال الأوامر لجميع أيام الأسبوع. وإذا تم استلام الأوامر بعد الأوقات المحددةن فإنه يتم التعامل معها كما لو أنه تم تلقيها في اليوم التالي. وبشكل افتراضي، يتم ضبط هذه الأوقات على 23:59 (أي قبل دقيقة واحدة من منتصف الليل الذي يعبر عن انتهاء هذا اليوم). يمكن تغيير الأوقات الافتراضية حتى تتزامن مع أوقات المواعيد النهائية لعمليات الشحن أو الاستلام الفعلية.  
+<span data-ttu-id="df565-115">وفي صفحة **المواعيد النهائية لإدخال الأوامر‬**، تقوم بإعداد أوقات المواعيد النهائية لإدخال الأوامر لجميع أيام الأسبوع.</span><span class="sxs-lookup"><span data-stu-id="df565-115">On the **Order entry deadlines** page, you set up order entry deadline times for all the days of the week.</span></span> <span data-ttu-id="df565-116">وإذا تم استلام الأوامر بعد الأوقات المحددةن فإنه يتم التعامل معها كما لو أنه تم تلقيها في اليوم التالي.</span><span class="sxs-lookup"><span data-stu-id="df565-116">If orders are received after the specified times, they are treated as if they are received on the next day.</span></span> <span data-ttu-id="df565-117">وبشكل افتراضي، يتم ضبط هذه الأوقات على 23:59 (أي قبل دقيقة واحدة من منتصف الليل الذي يعبر عن انتهاء هذا اليوم).</span><span class="sxs-lookup"><span data-stu-id="df565-117">By default, these times are set to 23:59 (that is, one minute before midnight at the end of the relevant day).</span></span> <span data-ttu-id="df565-118">يمكن تغيير الأوقات الافتراضية حتى تتزامن مع أوقات المواعيد النهائية لعمليات الشحن أو الاستلام الفعلية.</span><span class="sxs-lookup"><span data-stu-id="df565-118">You can change the default times so that they coincide with actual ship or receipt deadline times.</span></span>  
 
-يمكنك تحديد المواعيد النهائية لإدخال الأوامر لمجموعة معينة من العملاء. على سبيل المثال، قد تحتاج إلى مجموعة محددة من العملاء لترتيب المواعيد النهائية لإدخال الأوامر أحدث من تلك الخاصة بالعملاء الآخرين. وفي هذه الحالة، يمكنك أولاً تحديد مجموعات المواعيد النهائية لإدخال الأوامر في صفحة **مجموعات المواعيد النهائية لإدخال الأوامر**. وتقوم فيما بعد بتعيين المجموعات إلى العملاء في صفحة **العملاء**.  
+<span data-ttu-id="df565-119">يمكنك تحديد المواعيد النهائية لإدخال الأوامر لمجموعة معينة من العملاء.</span><span class="sxs-lookup"><span data-stu-id="df565-119">You can define order entry deadlines for a specific group of customers.</span></span> <span data-ttu-id="df565-120">على سبيل المثال، قد تحتاج إلى مجموعة محددة من العملاء لترتيب المواعيد النهائية لإدخال الأوامر أحدث من تلك الخاصة بالعملاء الآخرين.</span><span class="sxs-lookup"><span data-stu-id="df565-120">For example, you might want a specific group of customers to have order entry deadlines that are later than those of other customers.</span></span> <span data-ttu-id="df565-121">وفي هذه الحالة، يمكنك أولاً تحديد مجموعات المواعيد النهائية لإدخال الأوامر في صفحة **مجموعات المواعيد النهائية لإدخال الأوامر**.</span><span class="sxs-lookup"><span data-stu-id="df565-121">In this case, you first define groups for order entry deadlines on the **Order entry deadline groups** page.</span></span> <span data-ttu-id="df565-122">وتقوم فيما بعد بتعيين المجموعات إلى العملاء في صفحة **العملاء**.</span><span class="sxs-lookup"><span data-stu-id="df565-122">You then assign the groups to customers on the **Customers** page.</span></span>  
 
-إذا كانت الشركة تتكون من عدة مواقع، فإنه يمكن إعداد المواعيد النهائية لإدخال الأوامر لكل موقع. إذا كانت المواقع تقع في مناطق زمنية مختلفة، فإن المواعيد النهائية لإدخال الأوامر يتم إعدادها في المنطقة الزمنية لكل موقع. وعلى الرغم من ذلك، فإنه عند العمل مع أوامر المبيعات وعروض أسعار المبيعات، فإن الموعد النهائي لإدخال الأوامر يتحول إلى المنطقة الزمنية في صفحة **مواعيد الشحن والاستلام المتاحة**.  
+<span data-ttu-id="df565-123">إذا كانت الشركة تتكون من عدة مواقع، فإنه يمكن إعداد المواعيد النهائية لإدخال الأوامر لكل موقع.</span><span class="sxs-lookup"><span data-stu-id="df565-123">If your company consists of several sites, you can set up order entry deadlines for each site.</span></span> <span data-ttu-id="df565-124">إذا كانت المواقع تقع في مناطق زمنية مختلفة، فإن المواعيد النهائية لإدخال الأوامر يتم إعدادها في المنطقة الزمنية لكل موقع.</span><span class="sxs-lookup"><span data-stu-id="df565-124">If the sites are located in different time zones, the order entry deadlines are set up in each site's time zone.</span></span> <span data-ttu-id="df565-125">وعلى الرغم من ذلك، فإنه عند العمل مع أوامر المبيعات وعروض أسعار المبيعات، فإن الموعد النهائي لإدخال الأوامر يتحول إلى المنطقة الزمنية في صفحة **مواعيد الشحن والاستلام المتاحة**.</span><span class="sxs-lookup"><span data-stu-id="df565-125">However, when you work with sales orders and sales quotations, the order entry deadline is converted to your time zone on the **Available ship and receipt dates** page.</span></span>  
 
-وفي صفحة **تنشيط مجموعات المواعيد النهائية لإدخال الأوامر**، يمكنك تحديد مجموعات المواقع ومجموعات المواعيد النهائية لإدخال الأوامر المسموح بها.
+<span data-ttu-id="df565-126">وفي صفحة **تنشيط مجموعات المواعيد النهائية لإدخال الأوامر**، يمكنك تحديد مجموعات المواقع ومجموعات المواعيد النهائية لإدخال الأوامر المسموح بها.</span><span class="sxs-lookup"><span data-stu-id="df565-126">On the **Activate order entry deadline combinations** page, you define the combinations of sites and order entry deadline groups that are allowed.</span></span>
 
-## <a name="example-order-entry-deadline"></a>مثال: الموعد النهائي لإدخال الأمر
-تم تعيين الموعد النهائي لإدخال الأمر في أيام الثلاثاء إلى 16:00. وفي يوم ثلاثاء معين، في الساعة 17:00، تحاول تعيين التاريخ الحالي كتاريخ للشحن. ‏‫(لاحظ أنه لا توجد مهلة زمنية لهذا المثال).‬ إذا تم تحديد خانة الاختيار **التحكم في تاريخ التسليم**، تتلقى تحذيرًا ينص على أن التاريخ غير صحيح. ويظهر هذا التحذير في صفحة **تواريخ الشحن والاستلام المتاحة**، حيث يمكنك تحديد تواريخ بديلة.
+## <a name="example-order-entry-deadline"></a><span data-ttu-id="df565-127">مثال: الموعد النهائي لإدخال الأمر</span><span class="sxs-lookup"><span data-stu-id="df565-127">Example: Order entry deadline</span></span>
+<span data-ttu-id="df565-128">تم تعيين الموعد النهائي لإدخال الأمر في أيام الثلاثاء إلى 16:00.</span><span class="sxs-lookup"><span data-stu-id="df565-128">The order entry deadline on Tuesdays has been set to 16:00.</span></span> <span data-ttu-id="df565-129">وفي يوم ثلاثاء معين، في الساعة 17:00، تحاول تعيين التاريخ الحالي كتاريخ للشحن.</span><span class="sxs-lookup"><span data-stu-id="df565-129">On a particular Tuesday, at 17:00, you try to set the current date as the ship date.</span></span> <span data-ttu-id="df565-130">‏‫(لاحظ أنه لا توجد مهلة زمنية لهذا المثال).‬ إذا تم تحديد خانة الاختيار **التحكم في تاريخ التسليم**، تتلقى تحذيرًا ينص على أن التاريخ غير صحيح.</span><span class="sxs-lookup"><span data-stu-id="df565-130">(Note that there is no lead time for this example.) If the **Delivery date control** check box is selected, you receive a warning that states that the date isn't valid.</span></span> <span data-ttu-id="df565-131">ويظهر هذا التحذير في صفحة **تواريخ الشحن والاستلام المتاحة**، حيث يمكنك تحديد تواريخ بديلة.</span><span class="sxs-lookup"><span data-stu-id="df565-131">This warning appears on the **Available ship and receipt dates** page, where you can then select alternative dates.</span></span>
 
-## <a name="example-different-order-entry-deadlines-per-site"></a>مثال: المواعيد النهائية المختلف لإدخال الأوامر لكل موقع
-تتألف شركتك من موقعين. توجد المواقع في مناطق زمنية مختلفة، كما هو موضح في الجدول التالي.
+## <a name="example-different-order-entry-deadlines-per-site"></a><span data-ttu-id="df565-132">مثال: المواعيد النهائية المختلف لإدخال الأوامر لكل موقع</span><span class="sxs-lookup"><span data-stu-id="df565-132">Example: Different order entry deadlines per site</span></span>
+<span data-ttu-id="df565-133">تتألف شركتك من موقعين.</span><span class="sxs-lookup"><span data-stu-id="df565-133">Your company consists of two sites.</span></span> <span data-ttu-id="df565-134">توجد المواقع في مناطق زمنية مختلفة، كما هو موضح في الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="df565-134">The sites are located in different time zones, as shown in the following table.</span></span>
 
-| الموقع أ                      | الموقع ب                      |
+| <span data-ttu-id="df565-135">الموقع أ</span><span class="sxs-lookup"><span data-stu-id="df565-135">Site A</span></span>                      | <span data-ttu-id="df565-136">الموقع ب</span><span class="sxs-lookup"><span data-stu-id="df565-136">Site B</span></span>                      |
 |-----------------------------|-----------------------------|
-| كاليفورنيا                  | فلوريدا                     |
-| PST (التوقيت الرسمي الباسيفيكي) | EST (التوقيت الرسمي الشرقي) |
+| <span data-ttu-id="df565-137">كاليفورنيا</span><span class="sxs-lookup"><span data-stu-id="df565-137">California</span></span>                  | <span data-ttu-id="df565-138">فلوريدا</span><span class="sxs-lookup"><span data-stu-id="df565-138">Florida</span></span>                     |
+| <span data-ttu-id="df565-139">PST (التوقيت الرسمي الباسيفيكي)</span><span class="sxs-lookup"><span data-stu-id="df565-139">PST (Pacific Standard Time)</span></span> | <span data-ttu-id="df565-140">EST (التوقيت الرسمي الشرقي)</span><span class="sxs-lookup"><span data-stu-id="df565-140">EST (Eastern Standard Time)</span></span> |
 
-تم تحديد المواعيد النهائية لإدخال الأوامر التالية بواسطة الموقعين أ وب.
+<span data-ttu-id="df565-141">تم تحديد المواعيد النهائية لإدخال الأوامر التالية بواسطة الموقعين أ وب.</span><span class="sxs-lookup"><span data-stu-id="df565-141">Sites A and B have defined the following order entry deadlines.</span></span>
 
-| يوم من الأسبوع             | أ: المواعيد النهائية لإدخال الأوامر (PST) | ب: المواعيد النهائية لإدخال الأوامر (EST) |
+| <span data-ttu-id="df565-142">يوم من الأسبوع</span><span class="sxs-lookup"><span data-stu-id="df565-142">Day of the week</span></span>             | <span data-ttu-id="df565-143">أ: المواعيد النهائية لإدخال الأوامر (PST)</span><span class="sxs-lookup"><span data-stu-id="df565-143">A: Order entry deadlines (PST)</span></span> | <span data-ttu-id="df565-144">ب: المواعيد النهائية لإدخال الأوامر (EST)</span><span class="sxs-lookup"><span data-stu-id="df565-144">B: Order entry deadlines (EST)</span></span> |
 |-----------------------------|--------------------------------|--------------------------------|
-| الاثنين                      | 13:00                          | 00:14                          |
-| الثلاثاء                     | 13:00                          | 00:14                          |
-| الأربعاء                   | 13:00                          | 00:14                          |
-| الخميس                    | 13:00                          | 00:14                          |
-| الجمعة                      | 13:00                          | 00:14                          |
+| <span data-ttu-id="df565-145">الاثنين</span><span class="sxs-lookup"><span data-stu-id="df565-145">Monday</span></span>                      | <span data-ttu-id="df565-146">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-146">13:00</span></span>                          | <span data-ttu-id="df565-147">00:14</span><span class="sxs-lookup"><span data-stu-id="df565-147">14:00</span></span>                          |
+| <span data-ttu-id="df565-148">الثلاثاء</span><span class="sxs-lookup"><span data-stu-id="df565-148">Tuesday</span></span>                     | <span data-ttu-id="df565-149">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-149">13:00</span></span>                          | <span data-ttu-id="df565-150">00:14</span><span class="sxs-lookup"><span data-stu-id="df565-150">14:00</span></span>                          |
+| <span data-ttu-id="df565-151">الأربعاء</span><span class="sxs-lookup"><span data-stu-id="df565-151">Wednesday</span></span>                   | <span data-ttu-id="df565-152">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-152">13:00</span></span>                          | <span data-ttu-id="df565-153">00:14</span><span class="sxs-lookup"><span data-stu-id="df565-153">14:00</span></span>                          |
+| <span data-ttu-id="df565-154">الخميس</span><span class="sxs-lookup"><span data-stu-id="df565-154">Thursday</span></span>                    | <span data-ttu-id="df565-155">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-155">13:00</span></span>                          | <span data-ttu-id="df565-156">00:14</span><span class="sxs-lookup"><span data-stu-id="df565-156">14:00</span></span>                          |
+| <span data-ttu-id="df565-157">الجمعة</span><span class="sxs-lookup"><span data-stu-id="df565-157">Friday</span></span>                      | <span data-ttu-id="df565-158">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-158">13:00</span></span>                          | <span data-ttu-id="df565-159">00:14</span><span class="sxs-lookup"><span data-stu-id="df565-159">14:00</span></span>                          |
 
-أنت معالج الأمر وتوجد في يوتاه التي تتبع المنطقة الزمنية MST (التوقيت الجبلي الرسمي). إن هذا يعني أنه طالما قمت بإدخال الأوامر في الموقع أ قبل الساعة 14:00 بتوقيت MST وفي الموقع ب قبل الساعة 12:00 بتوقيت MST، فإنه يتم بذلك تلبية المواعيد النهائية لإدخال الأوامر لكلا الموقعين.  
+<span data-ttu-id="df565-160">أنت معالج الأمر وتوجد في يوتاه التي تتبع المنطقة الزمنية MST (التوقيت الجبلي الرسمي).</span><span class="sxs-lookup"><span data-stu-id="df565-160">You're an order processor in Utah, where the time zone is MST (Mountain Standard Time).</span></span> <span data-ttu-id="df565-161">إن هذا يعني أنه طالما قمت بإدخال الأوامر في الموقع أ قبل الساعة 14:00 بتوقيت MST وفي الموقع ب قبل الساعة 12:00 بتوقيت MST، فإنه يتم بذلك تلبية المواعيد النهائية لإدخال الأوامر لكلا الموقعين.</span><span class="sxs-lookup"><span data-stu-id="df565-161">Therefore, provided that you place orders with site A before 14:00 MST and place orders with site B before 12:00 MST, you meet the order entry deadlines for both sites.</span></span>  
 
-يوضح الجدول التالي كيفية تحويل المواعيد النهائية لإدخال الأوامر للموقعين أ وب إلى التوقيت MST.
+<span data-ttu-id="df565-162">يوضح الجدول التالي كيفية تحويل المواعيد النهائية لإدخال الأوامر للموقعين أ وب إلى التوقيت MST.</span><span class="sxs-lookup"><span data-stu-id="df565-162">The following table shows how the order entry deadlines for sites A and B are converted to MST time.</span></span>
 
-| الموقع أ: PST         | الموقع أ: MST        | الموقع ب: EST           | الموقع ب: MST        |
+| <span data-ttu-id="df565-163">الموقع أ: PST</span><span class="sxs-lookup"><span data-stu-id="df565-163">Site A: PST</span></span>         | <span data-ttu-id="df565-164">الموقع أ: MST</span><span class="sxs-lookup"><span data-stu-id="df565-164">Site A: MST</span></span>        | <span data-ttu-id="df565-165">الموقع ب: EST</span><span class="sxs-lookup"><span data-stu-id="df565-165">Site B: EST</span></span>           | <span data-ttu-id="df565-166">الموقع ب: MST</span><span class="sxs-lookup"><span data-stu-id="df565-166">Site B: MST</span></span>        |
 |---------------------|--------------------|-----------------------|--------------------|
-| 13:00               | 00:14              | 00:14                 | 12:00              |
+| <span data-ttu-id="df565-167">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-167">13:00</span></span>               | <span data-ttu-id="df565-168">00:14</span><span class="sxs-lookup"><span data-stu-id="df565-168">14:00</span></span>              | <span data-ttu-id="df565-169">00:14</span><span class="sxs-lookup"><span data-stu-id="df565-169">14:00</span></span>                 | <span data-ttu-id="df565-170">12:00</span><span class="sxs-lookup"><span data-stu-id="df565-170">12:00</span></span>              |
 
-**ملاحظة:** إذا كان تعديل التوقيت الصيفي قيد التفعيل، فإنه يتم تعديل المواعيد النهائية لإدخال الأوامر وفقًا لذلك.
+<span data-ttu-id="df565-171">**ملاحظة:** إذا كان تعديل التوقيت الصيفي قيد التفعيل، فإنه يتم تعديل المواعيد النهائية لإدخال الأوامر وفقًا لذلك.</span><span class="sxs-lookup"><span data-stu-id="df565-171">**Note:** If adjustment for daylight saving time is in effect, the order entry deadlines are adjusted accordingly.</span></span>
 
-## <a name="example-same-order-entry-deadline-per-site"></a>مثال: الموعد النهائي نفسه لإدخال الأوامر لكل موقع
-تتألف شركتك من موقعين. توجد المواقع في مناطق زمنية مختلفة، كما هو موضح في الجدول التالي.
+## <a name="example-same-order-entry-deadline-per-site"></a><span data-ttu-id="df565-172">مثال: الموعد النهائي نفسه لإدخال الأوامر لكل موقع</span><span class="sxs-lookup"><span data-stu-id="df565-172">Example: Same order entry deadline per site</span></span>
+<span data-ttu-id="df565-173">تتألف شركتك من موقعين.</span><span class="sxs-lookup"><span data-stu-id="df565-173">Your company consists of two sites.</span></span> <span data-ttu-id="df565-174">توجد المواقع في مناطق زمنية مختلفة، كما هو موضح في الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="df565-174">The sites are located in different time zones, as shown in the following table.</span></span>
 
-| الموقع أ                      | الموقع ب                      |
+| <span data-ttu-id="df565-175">الموقع أ</span><span class="sxs-lookup"><span data-stu-id="df565-175">Site A</span></span>                      | <span data-ttu-id="df565-176">الموقع ب</span><span class="sxs-lookup"><span data-stu-id="df565-176">Site B</span></span>                      |
 |-----------------------------|-----------------------------|
-| كاليفورنيا                  | فلوريدا                     |
-| PST (التوقيت الرسمي الباسيفيكي) | EST (التوقيت الرسمي الشرقي) |
+| <span data-ttu-id="df565-177">كاليفورنيا</span><span class="sxs-lookup"><span data-stu-id="df565-177">California</span></span>                  | <span data-ttu-id="df565-178">فلوريدا</span><span class="sxs-lookup"><span data-stu-id="df565-178">Florida</span></span>                     |
+| <span data-ttu-id="df565-179">PST (التوقيت الرسمي الباسيفيكي)</span><span class="sxs-lookup"><span data-stu-id="df565-179">PST (Pacific Standard Time)</span></span> | <span data-ttu-id="df565-180">EST (التوقيت الرسمي الشرقي)</span><span class="sxs-lookup"><span data-stu-id="df565-180">EST (Eastern Standard Time)</span></span> |
 
-تم تحديد المواعيد النهائية لإدخال الأوامر التالية بواسطة الموقعين أ وب.
+<span data-ttu-id="df565-181">تم تحديد المواعيد النهائية لإدخال الأوامر التالية بواسطة الموقعين أ وب.</span><span class="sxs-lookup"><span data-stu-id="df565-181">Sites A and B have defined the following order entry deadlines.</span></span>
 
-| يوم من الأسبوع | PST وEST |
+| <span data-ttu-id="df565-182">يوم من الأسبوع</span><span class="sxs-lookup"><span data-stu-id="df565-182">Day of the week</span></span> | <span data-ttu-id="df565-183">PST وEST</span><span class="sxs-lookup"><span data-stu-id="df565-183">PST and EST</span></span> |
 |-----------------|-------------|
-| الاثنين          | 13:00       |
-| الثلاثاء         | 13:00       |
-| الأربعاء       | 13:00       |
-| الخميس        | 13:00       |
-| الجمعة          | 13:00       |
+| <span data-ttu-id="df565-184">الاثنين</span><span class="sxs-lookup"><span data-stu-id="df565-184">Monday</span></span>          | <span data-ttu-id="df565-185">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-185">13:00</span></span>       |
+| <span data-ttu-id="df565-186">الثلاثاء</span><span class="sxs-lookup"><span data-stu-id="df565-186">Tuesday</span></span>         | <span data-ttu-id="df565-187">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-187">13:00</span></span>       |
+| <span data-ttu-id="df565-188">الأربعاء</span><span class="sxs-lookup"><span data-stu-id="df565-188">Wednesday</span></span>       | <span data-ttu-id="df565-189">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-189">13:00</span></span>       |
+| <span data-ttu-id="df565-190">الخميس</span><span class="sxs-lookup"><span data-stu-id="df565-190">Thursday</span></span>        | <span data-ttu-id="df565-191">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-191">13:00</span></span>       |
+| <span data-ttu-id="df565-192">الجمعة</span><span class="sxs-lookup"><span data-stu-id="df565-192">Friday</span></span>          | <span data-ttu-id="df565-193">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-193">13:00</span></span>       |
 
-أنت معالج الأمر وتوجد في يوتاه التي تتبع المنطقة الزمنية MST (التوقيت الجبلي الرسمي). إن هذا يعني أنه طالما قمت بإدخال الأوامر في الموقع أ قبل الساعة 14:00 بتوقيت MST وفي الموقع ب قبل الساعة 11:00 بتوقيت MST، فإنه يتم بذلك تلبية المواعيد النهائية لإدخال الأوامر لكلا الموقعين. 
+<span data-ttu-id="df565-194">أنت معالج الأمر وتوجد في يوتاه التي تتبع المنطقة الزمنية MST (التوقيت الجبلي الرسمي).</span><span class="sxs-lookup"><span data-stu-id="df565-194">You're an order processor in Utah, where the time zone is MST.</span></span> <span data-ttu-id="df565-195">إن هذا يعني أنه طالما قمت بإدخال الأوامر في الموقع أ قبل الساعة 14:00 بتوقيت MST وفي الموقع ب قبل الساعة 11:00 بتوقيت MST، فإنه يتم بذلك تلبية المواعيد النهائية لإدخال الأوامر لكلا الموقعين.</span><span class="sxs-lookup"><span data-stu-id="df565-195">Therefore, provided that you place orders with site A before 14:00 MST and place orders with site B before 11:00 MST, you meet the order entry deadlines for both sites.</span></span> 
 
-يوضح الجدول التالي كيفية تحويل المواعيد النهائية لإدخال الأوامر للموقعين أ وب إلى التوقيت MST.
+<span data-ttu-id="df565-196">يوضح الجدول التالي كيفية تحويل المواعيد النهائية لإدخال الأوامر للموقعين أ وب إلى التوقيت MST.</span><span class="sxs-lookup"><span data-stu-id="df565-196">The following table shows how the order entry deadlines for sites A and B are converted to MST time.</span></span>
 
-| الموقع أ: PST         | الموقع أ: MST        | الموقع ب: EST           | الموقع ب: MST        |
+| <span data-ttu-id="df565-197">الموقع أ: PST</span><span class="sxs-lookup"><span data-stu-id="df565-197">Site A: PST</span></span>         | <span data-ttu-id="df565-198">الموقع أ: MST</span><span class="sxs-lookup"><span data-stu-id="df565-198">Site A: MST</span></span>        | <span data-ttu-id="df565-199">الموقع ب: EST</span><span class="sxs-lookup"><span data-stu-id="df565-199">Site B: EST</span></span>           | <span data-ttu-id="df565-200">الموقع ب: MST</span><span class="sxs-lookup"><span data-stu-id="df565-200">Site B: MST</span></span>        |
 |---------------------|--------------------|-----------------------|--------------------|
-| 13:00               | 00:14              | 13:00                 | 11:00              |
+| <span data-ttu-id="df565-201">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-201">13:00</span></span>               | <span data-ttu-id="df565-202">00:14</span><span class="sxs-lookup"><span data-stu-id="df565-202">14:00</span></span>              | <span data-ttu-id="df565-203">13:00</span><span class="sxs-lookup"><span data-stu-id="df565-203">13:00</span></span>                 | <span data-ttu-id="df565-204">11:00</span><span class="sxs-lookup"><span data-stu-id="df565-204">11:00</span></span>              |
 
-**ملاحظة:** إذا كان تعديل التوقيت الصيفي قيد التفعيل، فإنه يتم تعديل المواعيد النهائية لإدخال الأوامر وفقًا لذلك.
+<span data-ttu-id="df565-205">**ملاحظة:** إذا كان تعديل التوقيت الصيفي قيد التفعيل، فإنه يتم تعديل المواعيد النهائية لإدخال الأوامر وفقًا لذلك.</span><span class="sxs-lookup"><span data-stu-id="df565-205">**Note:** If adjustment for daylight saving time is in effect, the order entry deadlines are adjusted accordingly.</span></span>
 
-<a name="see-also"></a>راجع أيضًا
+<a name="see-also"></a><span data-ttu-id="df565-206">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="df565-206">See also</span></span>
 --------
 
-[جداول التسليم](delivery-schedules.md)
+[<span data-ttu-id="df565-207">جداول التسليم</span><span class="sxs-lookup"><span data-stu-id="df565-207">Delivery schedules</span></span>](delivery-schedules.md)
 
 
 

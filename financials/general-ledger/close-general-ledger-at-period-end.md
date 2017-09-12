@@ -18,40 +18,40 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: bcf58b0ca995883bc466eec66a3d75c73c0be79e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 16acadf0b814ff5863873280cd8d6e6ddbdcffc8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="close-the-general-ledger-at-period-end"></a>إقفال دفتر الأستاذ العام في نهاية الفترة
+# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="e117c-103">إقفال دفتر الأستاذ العام في نهاية الفترة</span><span class="sxs-lookup"><span data-stu-id="e117c-103">Close the general ledger at period end</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-يوضح هذا الموضوع المهام التي يتم إكمالها عادةً عند تنفيذ إقفال فترة لدفتر الأستاذ العام. 
+<span data-ttu-id="e117c-104">يوضح هذا الموضوع المهام التي يتم إكمالها عادةً عند تنفيذ إقفال فترة لدفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="e117c-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
 
-في دفتر الأستاذ العام، يمكنك إكمال إجراءات الإقفال لفترة أو سنة. وتقوم عمليات الإقفال بإعداد النظام لفترة جديدة. لإعداد النظام لسنة جديدة، يجب تشغيل عملية إقفال نهاية السنة. تمتلك كل مؤسسة عمليات وخطوات مختلفة تنفذها في نهاية الفترة. وفيما يلي بعض الخطوات الاختيارية لانتهاء الفترة:‬
+<span data-ttu-id="e117c-105">في دفتر الأستاذ العام، يمكنك إكمال إجراءات الإقفال لفترة أو سنة.</span><span class="sxs-lookup"><span data-stu-id="e117c-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="e117c-106">وتقوم عمليات الإقفال بإعداد النظام لفترة جديدة.</span><span class="sxs-lookup"><span data-stu-id="e117c-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="e117c-107">لإعداد النظام لسنة جديدة، يجب تشغيل عملية إقفال نهاية السنة.</span><span class="sxs-lookup"><span data-stu-id="e117c-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="e117c-108">تمتلك كل مؤسسة عمليات وخطوات مختلفة تنفذها في نهاية الفترة.</span><span class="sxs-lookup"><span data-stu-id="e117c-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="e117c-109">وفيما يلي بعض الخطوات الاختيارية لانتهاء الفترة:‬</span><span class="sxs-lookup"><span data-stu-id="e117c-109">Here are some optional steps for period ends:</span></span>
 
--   أكمل كافة المهام لكافة الوحدات الأخرى، مثل الحسابات المدينة، والحسابات الدائنة، والمخزون.
--   التحقق من ترحيل كافة دفاتر اليومية.
--   تشغيل إعادة تقييم العملة الأجنبية لإنشاء أية مبالغ أرباح أو خسارة غير محققة.
--   تسوية الحركات لكل حساب دفتر أستاذ.
--   معالجة أي توزيعات مطلوبة.
--   ترحيل تسويات نهاية الفترة يدوياً.
--   تسجيل دفتر يومية الحركات ومراجعة تقرير **دفتر يومية دفتر الأستاذ**.
--   تنفيذ تجميع باستخدام شركة تجميع أو إعداد التقارير المالية.
--   إنشاء القوائم المالية نهاية الفترة باستخدام إعداد التقارير المالية.
--   قم بتعيين فترات دفتر الأستاذ إلى **قيد الانتظار**، بحيث لا يحدث أي ترحيل آخر. كما يمكنك تقييد فترة لمجموعة مستخدمين محددة أثناء حدوث أنشطة نهاية الفترة، للتحكم بشكل أفضل. ليست بفكرة جيدة أن يتم تعيين الفترات الزمنية إلى **‏‫تم الإقفال بشكل دائم‬**، لأنه لا يمكنك إعادة فتح فترة تم إقفالها.
+-   <span data-ttu-id="e117c-110">أكمل كافة المهام لكافة الوحدات الأخرى، مثل الحسابات المدينة، والحسابات الدائنة، والمخزون.</span><span class="sxs-lookup"><span data-stu-id="e117c-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
+-   <span data-ttu-id="e117c-111">التحقق من ترحيل كافة دفاتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="e117c-111">Verify that all journals are posted.</span></span>
+-   <span data-ttu-id="e117c-112">تشغيل إعادة تقييم العملة الأجنبية لإنشاء أية مبالغ أرباح أو خسارة غير محققة.</span><span class="sxs-lookup"><span data-stu-id="e117c-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
+-   <span data-ttu-id="e117c-113">تسوية الحركات لكل حساب دفتر أستاذ.</span><span class="sxs-lookup"><span data-stu-id="e117c-113">Settle transactions for each ledger account.</span></span>
+-   <span data-ttu-id="e117c-114">معالجة أي توزيعات مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="e117c-114">Process any required allocations.</span></span>
+-   <span data-ttu-id="e117c-115">ترحيل تسويات نهاية الفترة يدوياً.</span><span class="sxs-lookup"><span data-stu-id="e117c-115">Manually post period-end adjustments.</span></span>
+-   <span data-ttu-id="e117c-116">تسجيل دفتر يومية الحركات ومراجعة تقرير **دفتر يومية دفتر الأستاذ**.</span><span class="sxs-lookup"><span data-stu-id="e117c-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
+-   <span data-ttu-id="e117c-117">تنفيذ تجميع باستخدام شركة تجميع أو إعداد التقارير المالية.</span><span class="sxs-lookup"><span data-stu-id="e117c-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
+-   <span data-ttu-id="e117c-118">إنشاء القوائم المالية نهاية الفترة باستخدام إعداد التقارير المالية.</span><span class="sxs-lookup"><span data-stu-id="e117c-118">Generate period-end financial statements by using Financial reporting.</span></span>
+-   <span data-ttu-id="e117c-119">قم بتعيين فترات دفتر الأستاذ إلى **قيد الانتظار**، بحيث لا يحدث أي ترحيل آخر.</span><span class="sxs-lookup"><span data-stu-id="e117c-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="e117c-120">كما يمكنك تقييد فترة لمجموعة مستخدمين محددة أثناء حدوث أنشطة نهاية الفترة، للتحكم بشكل أفضل.</span><span class="sxs-lookup"><span data-stu-id="e117c-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="e117c-121">ليست بفكرة جيدة أن يتم تعيين الفترات الزمنية إلى **‏‫تم الإقفال بشكل دائم‬**، لأنه لا يمكنك إعادة فتح فترة تم إقفالها.</span><span class="sxs-lookup"><span data-stu-id="e117c-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
 
-يمكن استخدام مساحة عمل إقفال الفترة المالية لتنظيم المهام المطلوبة لمختلف عمليات انتهاء الفترة ولتتبعها. 
+<span data-ttu-id="e117c-122">يمكن استخدام مساحة عمل إقفال الفترة المالية لتنظيم المهام المطلوبة لمختلف عمليات انتهاء الفترة ولتتبعها.</span><span class="sxs-lookup"><span data-stu-id="e117c-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
 
 
-لمزيد من المعلومات، راجع المواضيع التالية:
-- [مساحة عمل إقفال الفترة المالية](financial-period-close-workspace.md) 
-- [إقفال نهاية السنة](Year-end-close.md)  
-- [إقفال شامل للفترة المالية](tasks/mass-financial-period-close.md)
+<span data-ttu-id="e117c-123">لمزيد من المعلومات، راجع المواضيع التالية:</span><span class="sxs-lookup"><span data-stu-id="e117c-123">For more information, see the following topics for more information:</span></span>
+- [<span data-ttu-id="e117c-124">مساحة عمل إقفال الفترة المالية</span><span class="sxs-lookup"><span data-stu-id="e117c-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
+- [<span data-ttu-id="e117c-125">إقفال نهاية السنة</span><span class="sxs-lookup"><span data-stu-id="e117c-125">Year end close</span></span>](Year-end-close.md)  
+- [<span data-ttu-id="e117c-126">إقفال شامل للفترة المالية</span><span class="sxs-lookup"><span data-stu-id="e117c-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
 
 
 

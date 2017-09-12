@@ -19,39 +19,39 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
-ms.openlocfilehash: b36e75a5f527b41d50cc73e28a0b4e7e5df67e5c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: da750645612c2a0a7650edfd933d707618d9f9ce
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="customer-posting-profiles"></a>ملفات تعريف ترحيل العميل
+# <a name="customer-posting-profiles"></a><span data-ttu-id="05c45-103">ملفات تعريف ترحيل العميل</span><span class="sxs-lookup"><span data-stu-id="05c45-103">Customer posting profiles</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-تتحكم ملفات تعريف ترحيل العميل‬ في ترحيل حركات العميل إلى دفتر الأستاذ العام.
+<span data-ttu-id="05c45-104">تتحكم ملفات تعريف ترحيل العميل‬ في ترحيل حركات العميل إلى دفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="05c45-104">Customer posting profiles control the posting of customer transactions to the general ledger.</span></span>
 
-<a name="customer-posting-profiles"></a>ملفات تعريف ترحيل العميل
+<a name="customer-posting-profiles"></a><span data-ttu-id="05c45-105">ملفات تعريف ترحيل العميل</span><span class="sxs-lookup"><span data-stu-id="05c45-105">Customer posting profiles</span></span>
 -------------------------
 
-تمكنك ملفات تعريف ترحيل العميل من تعيين حسابات دفتر الأستاذ العام وإعدادات الوثيقة لكافة العملاء أو مجموعة من العملاء أو عميل واحد. سيتم استخدام هذه الإعدادات عند إنشاء أوامر المبيعات، وفواتير النص الحر، والمدفوعات النقدية، وخطابات التحصيل، وإشعارات الفائدة. وفي بعض الحركات، يمكنك تحديد ملف تعريف ترحيل يختلف عن إعداد ملفات تعريف الترحيل للحركات بهذه الصفحة وله الأسبقية عليه. 
+<span data-ttu-id="05c45-106">تمكنك ملفات تعريف ترحيل العميل من تعيين حسابات دفتر الأستاذ العام وإعدادات الوثيقة لكافة العملاء أو مجموعة من العملاء أو عميل واحد.</span><span class="sxs-lookup"><span data-stu-id="05c45-106">Customer posting profiles enable you to assign general ledger accounts and document settings to all customers, a group of customers or a single customer.</span></span> <span data-ttu-id="05c45-107">سيتم استخدام هذه الإعدادات عند إنشاء أوامر المبيعات، وفواتير النص الحر، والمدفوعات النقدية، وخطابات التحصيل، وإشعارات الفائدة.</span><span class="sxs-lookup"><span data-stu-id="05c45-107">These settings will be used when you create sales orders, free text invoices, cash payments, collection letters, and interest notes.</span></span> <span data-ttu-id="05c45-108">وفي بعض الحركات، يمكنك تحديد ملف تعريف ترحيل يختلف عن إعداد ملفات تعريف الترحيل للحركات بهذه الصفحة وله الأسبقية عليه.</span><span class="sxs-lookup"><span data-stu-id="05c45-108">For some transactions, you can select a posting profile that differs from and takes precedence over the posting profiles that are set up for transactions in this page.</span></span> 
 
-ويتم تحديد ملف تعريف الترحيل الافتراضي في علامة التبويب السريعة دفتر الأستاذ وضريبة المبيعات في صفحة معلمات الحسابات المدينة. ويتم بعد ذلك تضمين ملف تعريف الترحيل الافتراضي تلقائياً في رأس المستندات الجديدة، حيث يمكنك تغييره إلى ملف تعريف ترحيل مختلف، إذا لزم الأمر.
+<span data-ttu-id="05c45-109">ويتم تحديد ملف تعريف الترحيل الافتراضي في علامة التبويب السريعة دفتر الأستاذ وضريبة المبيعات في صفحة معلمات الحسابات المدينة.</span><span class="sxs-lookup"><span data-stu-id="05c45-109">The default posting profile is defined in the Ledger and Sales Tax fasttab on the Accounts receivable parameters page.</span></span> <span data-ttu-id="05c45-110">ويتم بعد ذلك تضمين ملف تعريف الترحيل الافتراضي تلقائياً في رأس المستندات الجديدة، حيث يمكنك تغييره إلى ملف تعريف ترحيل مختلف، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="05c45-110">The default posting profile is then included automatically on the header of new documents where you can change it to a different posting profile if needed.</span></span>
 
-كما يمكنك إقران تعريفات الترحيل بأنواع ترحيل الحركة في صفحة تعريفات ترحيل الحركة. وتتحكم تعريفات الترحيل في ترحيل حركات العميل إلى إلى دفتر الأستاذ العام بدلاً من ملفات تعريف الترحيل.
+<span data-ttu-id="05c45-111">كما يمكنك إقران تعريفات الترحيل بأنواع ترحيل الحركة في صفحة تعريفات ترحيل الحركة.</span><span class="sxs-lookup"><span data-stu-id="05c45-111">You can also associate posting definitions with transaction posting types in the Transaction posting definitions page.</span></span> <span data-ttu-id="05c45-112">وتتحكم تعريفات الترحيل في ترحيل حركات العميل إلى إلى دفتر الأستاذ العام بدلاً من ملفات تعريف الترحيل.</span><span class="sxs-lookup"><span data-stu-id="05c45-112">Posting definitions control the posting of customer transactions to the general ledger instead of posting profiles.</span></span>
 
-## <a name="creating-a-posting-profile"></a>إنشاء ملف تعريف ترحيل
-تتيح تحديد حسابات دفتر الأستاذ المستخدمة في ترحيل الحركات التي تستخدم ملف تعريف الترحيل المحدد. حدد كود حساب ورقم حساب أو مجموعة، كلما أمكن، لملف تعريف الترحيل المحدد. في عملية الترحيل، يتم تحديد موقع ملف التعريف الأكثر ملاءمةً لكل حركة من خلال البحث عن كود الحساب أو رقم الحساب أو مجموعة الحساب والرقم الأكثر تحديدًا بالأولوية التالية:
+## <a name="creating-a-posting-profile"></a><span data-ttu-id="05c45-113">إنشاء ملف تعريف ترحيل</span><span class="sxs-lookup"><span data-stu-id="05c45-113">Creating a posting profile</span></span>
+<span data-ttu-id="05c45-114">تتيح تحديد حسابات دفتر الأستاذ المستخدمة في ترحيل الحركات التي تستخدم ملف تعريف الترحيل المحدد.</span><span class="sxs-lookup"><span data-stu-id="05c45-114">Specify the ledger accounts that are used in the posting of transactions that use the selected posting profile.</span></span> <span data-ttu-id="05c45-115">حدد كود حساب ورقم حساب أو مجموعة، كلما أمكن، لملف تعريف الترحيل المحدد.</span><span class="sxs-lookup"><span data-stu-id="05c45-115">Select an account code and, whenever possible, an account or group number for the selected posting profile.</span></span> <span data-ttu-id="05c45-116">في عملية الترحيل، يتم تحديد موقع ملف التعريف الأكثر ملاءمةً لكل حركة من خلال البحث عن كود الحساب أو رقم الحساب أو مجموعة الحساب والرقم الأكثر تحديدًا بالأولوية التالية:</span><span class="sxs-lookup"><span data-stu-id="05c45-116">In the posting process, the most appropriate posting profile for each transaction is located by searching for the most specific account code, account number, or group and number combination in the following priority:</span></span>
 
-| قيمة حقل **كود الحساب** | قيمة حقل **رقم الحساب/المجموعة**            | أولوية البحث |
+| <span data-ttu-id="05c45-117">قيمة حقل **كود الحساب**</span><span class="sxs-lookup"><span data-stu-id="05c45-117">**Account code** field value</span></span> | <span data-ttu-id="05c45-118">قيمة حقل **رقم الحساب/المجموعة**</span><span class="sxs-lookup"><span data-stu-id="05c45-118">**Account/Group number** field value</span></span>            | <span data-ttu-id="05c45-119">أولوية البحث</span><span class="sxs-lookup"><span data-stu-id="05c45-119">Search priority</span></span> |
 |------------------------------|-------------------------------------------------|-----------------|
-| **الجدول**                    | حساب العميل المحدد                       | 1               |
-| **مجموعة**                    | مجموعة العملاء التي تم تعيينها للعميل | 2               |
-| **الكل**                      | فارغ                                           | 3               |
+| <span data-ttu-id="05c45-120">**الجدول**</span><span class="sxs-lookup"><span data-stu-id="05c45-120">**Table**</span></span>                    | <span data-ttu-id="05c45-121">حساب العميل المحدد</span><span class="sxs-lookup"><span data-stu-id="05c45-121">Specific customer account</span></span>                       | <span data-ttu-id="05c45-122">1</span><span class="sxs-lookup"><span data-stu-id="05c45-122">1</span></span>               |
+| <span data-ttu-id="05c45-123">**مجموعة**</span><span class="sxs-lookup"><span data-stu-id="05c45-123">**Group**</span></span>                    | <span data-ttu-id="05c45-124">مجموعة العملاء التي تم تعيينها للعميل</span><span class="sxs-lookup"><span data-stu-id="05c45-124">Customer group that is assigned to the customer</span></span> | <span data-ttu-id="05c45-125">2</span><span class="sxs-lookup"><span data-stu-id="05c45-125">2</span></span>               |
+| <span data-ttu-id="05c45-126">**الكل**</span><span class="sxs-lookup"><span data-stu-id="05c45-126">**All**</span></span>                      | <span data-ttu-id="05c45-127">فارغ</span><span class="sxs-lookup"><span data-stu-id="05c45-127">Blank</span></span>                                           | <span data-ttu-id="05c45-128">3</span><span class="sxs-lookup"><span data-stu-id="05c45-128">3</span></span>               |
 
-إذا كنت ترغب في حصول حركات العميل على نفس ملف تعريف الترحيل، فقم بإعداد ملف تعريف ترحيل واحد فقط مع الكل في حقل كود الحساب. وحدد القيم التالية لإعداد ملف تعريف الترحيل الخاص بك:
+<span data-ttu-id="05c45-129">إذا كنت ترغب في حصول حركات العميل على نفس ملف تعريف الترحيل، فقم بإعداد ملف تعريف ترحيل واحد فقط مع الكل في حقل كود الحساب.</span><span class="sxs-lookup"><span data-stu-id="05c45-129">If you want all customer transactions to have the same posting profile, set up only one posting profile with All in the Account code field.</span></span> <span data-ttu-id="05c45-130">وحدد القيم التالية لإعداد ملف تعريف الترحيل الخاص بك:</span><span class="sxs-lookup"><span data-stu-id="05c45-130">Specify the following values to set up your posting profile:</span></span>
 
 <table>
 <colgroup>
@@ -60,90 +60,90 @@ ms.lasthandoff: 08/09/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>الحقل</th>
-<th>الوصف</th>
+<th><span data-ttu-id="05c45-131">الحقل</span><span class="sxs-lookup"><span data-stu-id="05c45-131">Field</span></span></th>
+<th><span data-ttu-id="05c45-132">الوصف</span><span class="sxs-lookup"><span data-stu-id="05c45-132">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>ملف تعريف الترحيل</strong></td>
-<td>أدخل كودًا لملف تعريف الترحيل. على سبيل المثال، يمكن إنشاء ملفي تعريف ترحيل للحصول على حساب واحد لأرصدة العميل بالعملة الوطنية وحساب آخر لأرصدة العميل بالعملة الأجنبية. ويمكن أن تطلق على أحدهما اسم "وطني" والآخر "أجنبي".</td>
+<td><span data-ttu-id="05c45-133"><strong>ملف تعريف الترحيل</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-133"><strong>Posting profile</strong></span></span></td>
+<td><span data-ttu-id="05c45-134">أدخل كودًا لملف تعريف الترحيل.</span><span class="sxs-lookup"><span data-stu-id="05c45-134">Enter a code for the posting profile.</span></span> <span data-ttu-id="05c45-135">على سبيل المثال، يمكن إنشاء ملفي تعريف ترحيل للحصول على حساب واحد لأرصدة العميل بالعملة الوطنية وحساب آخر لأرصدة العميل بالعملة الأجنبية.</span><span class="sxs-lookup"><span data-stu-id="05c45-135">For example, you could create two posting profiles to obtain one account for customer balances in the national currency and another for customer balances in a foreign currency.</span></span> <span data-ttu-id="05c45-136">ويمكن أن تطلق على أحدهما اسم "وطني" والآخر "أجنبي".</span><span class="sxs-lookup"><span data-stu-id="05c45-136">You could call one account National and the other Foreign.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>الوصف</strong></td>
-<td>يتيح إدخال وصف لملف تعريف الترحيل. هذا يُستخدم فقط لتحسين تحديد ملف تعريف الترحيل عند عرضه في هذه الصفحة.</td>
+<td><span data-ttu-id="05c45-137"><strong>الوصف</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-137"><strong>Description</strong></span></span></td>
+<td><span data-ttu-id="05c45-138">يتيح إدخال وصف لملف تعريف الترحيل.</span><span class="sxs-lookup"><span data-stu-id="05c45-138">Enter a description of the posting profile.</span></span> <span data-ttu-id="05c45-139">هذا يُستخدم فقط لتحسين تحديد ملف تعريف الترحيل عند عرضه في هذه الصفحة.</span><span class="sxs-lookup"><span data-stu-id="05c45-139">This is only used to better identify the posting profile when you view it in this page.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>كود الحساب</strong></td>
-<td>حدد ما إذا كان ملف تعريف الترحيل ينطبق على عميل واحد أو مجموعة عملاء أو جميع العملاء أم لا:
+<td><span data-ttu-id="05c45-140"><strong>كود الحساب</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-140"><strong>Account code</strong></span></span></td>
+<td><span data-ttu-id="05c45-141">حدد ما إذا كان ملف تعريف الترحيل ينطبق على عميل واحد أو مجموعة عملاء أو جميع العملاء أم لا:</span><span class="sxs-lookup"><span data-stu-id="05c45-141">Specify whether the posting profile applies to a single customer, a group of customers, or all customers:</span></span>
 <ul>
-<li><strong>الجدول</strong> – ينطبق ملف تعريف الترحيل على عميل واحد. حدد حساب العميل في حقل رقم الحساب/المجموعة.</li>
-<li><strong>المجموعة</strong> – ينطبق ملف تعريف الترحيل على مجموعة عملاء. حدد مجموعة العملاء في حقل رقم الحساب/المجموعة.</li>
-<li><strong>الكل</strong> – ينطبق ملف تعريف الترحيل على كافة العملاء. اترك حقل رقم الحساب/المجموعة فارغًا.</li>
+<li><span data-ttu-id="05c45-142"><strong>الجدول</strong> – ينطبق ملف تعريف الترحيل على عميل واحد.</span><span class="sxs-lookup"><span data-stu-id="05c45-142"><strong>Table</strong> – The posting profile applies to a single customer.</span></span> <span data-ttu-id="05c45-143">حدد حساب العميل في حقل رقم الحساب/المجموعة.</span><span class="sxs-lookup"><span data-stu-id="05c45-143">Select the customer account in the Account/Group number field.</span></span></li>
+<li><span data-ttu-id="05c45-144"><strong>المجموعة</strong> – ينطبق ملف تعريف الترحيل على مجموعة عملاء.</span><span class="sxs-lookup"><span data-stu-id="05c45-144"><strong>Group</strong> – The posting profile applies to a customer group.</span></span> <span data-ttu-id="05c45-145">حدد مجموعة العملاء في حقل رقم الحساب/المجموعة.</span><span class="sxs-lookup"><span data-stu-id="05c45-145">Select the customer group in the Account/Group number field.</span></span></li>
+<li><span data-ttu-id="05c45-146"><strong>الكل</strong> – ينطبق ملف تعريف الترحيل على كافة العملاء.</span><span class="sxs-lookup"><span data-stu-id="05c45-146"><strong>All</strong> – The posting profile applies to all customers.</span></span> <span data-ttu-id="05c45-147">اترك حقل رقم الحساب/المجموعة فارغًا.</span><span class="sxs-lookup"><span data-stu-id="05c45-147">Leave the Account/Group number field blank.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>رقم الحساب/المجموعة</strong></td>
-<td>في حالة تحديد الجدول في حقل كود الحساب، حدد رقم حساب العميل المرتبط بملف تعريف الترحيل. وإذا قمت بتحديد مجموعة، فقم بتحديد مجموعة العملاء. وفي حالة تحديد الكل، اترك الحقل فارغًا.</td>
+<td><span data-ttu-id="05c45-148"><strong>رقم الحساب/المجموعة</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-148"><strong>Account/Group number</strong></span></span></td>
+<td><span data-ttu-id="05c45-149">في حالة تحديد الجدول في حقل كود الحساب، حدد رقم حساب العميل المرتبط بملف تعريف الترحيل.</span><span class="sxs-lookup"><span data-stu-id="05c45-149">If Table is selected in the Account code field, select the account number of the customer who is associated with the posting profile.</span></span> <span data-ttu-id="05c45-150">وإذا قمت بتحديد مجموعة، فقم بتحديد مجموعة العملاء.</span><span class="sxs-lookup"><span data-stu-id="05c45-150">If Group is selected, select the customer group.</span></span> <span data-ttu-id="05c45-151">وفي حالة تحديد الكل، اترك الحقل فارغًا.</span><span class="sxs-lookup"><span data-stu-id="05c45-151">If All is selected, leave this field blank.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>حساب ملخص</strong></td>
-<td>حدد حساب دفتر الأستاذ الذي سيتم استخدامه كحساب العميل الملخص للعملاء المرتبطين بملف تعريف الترحيل.</td>
+<td><span data-ttu-id="05c45-152"><strong>حساب ملخص</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-152"><strong>Summary account</strong></span></span></td>
+<td><span data-ttu-id="05c45-153">حدد حساب دفتر الأستاذ الذي سيتم استخدامه كحساب العميل الملخص للعملاء المرتبطين بملف تعريف الترحيل.</span><span class="sxs-lookup"><span data-stu-id="05c45-153">Select the ledger account that will be used as the customer summary account for the customers who are associated with the posting profile.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>تسوية الحساب</strong></td>
-<td>حدد حساب دفتر الأستاذ الخاص بالسيولة المستخدم لتنبؤات التدفقات النقدية. سيظهر هذا الحقل فقط إذا تم تمكين تنبؤات التدفقات النقدية.</td>
+<td><span data-ttu-id="05c45-154"><strong>تسوية الحساب</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-154"><strong>Settle account</strong></span></span></td>
+<td><span data-ttu-id="05c45-155">حدد حساب دفتر الأستاذ الخاص بالسيولة المستخدم لتنبؤات التدفقات النقدية.</span><span class="sxs-lookup"><span data-stu-id="05c45-155">Select the liquidity ledger account that is used for cash flow forecasts.</span></span> <span data-ttu-id="05c45-156">سيظهر هذا الحقل فقط إذا تم تمكين تنبؤات التدفقات النقدية.</span><span class="sxs-lookup"><span data-stu-id="05c45-156">This field will only appear if cash flow forecasts are enabled.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>الدفعات المقدمة لضريبة المبيعات</strong></td>
-<td>حدد حساب لضريبة المبيعات للمدفوعات التي يتم استلامها مقدمًا.
+<td><span data-ttu-id="05c45-157"><strong>الدفعات المقدمة لضريبة المبيعات</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-157"><strong>Sales tax prepayments</strong></span></span></td>
+<td><span data-ttu-id="05c45-158">حدد حساب لضريبة المبيعات للمدفوعات التي يتم استلامها مقدمًا.</span><span class="sxs-lookup"><span data-stu-id="05c45-158">Select the account for sales tax for payments that are received in advance.</span></span>
 <div class="alert">
 <table>
 <thead>
 <tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="ملاحظة" alt="Note" id="alert_note" class="cl_IC101471" /><strong>ملاحظة</strong></th>
+<th><span data-ttu-id="05c45-159"><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="ملاحظة</span><span class="sxs-lookup"><span data-stu-id="05c45-159"><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Note</span></span>" alt="Note" id="alert_note" class="cl_IC101471" /><span data-ttu-id="05c45-160"><strong>ملاحظة</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-160"><strong>Note</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>استخدم صفحة معلمات الحسابات المدينة لتحديد ملف تعريف الترحيل المطلوب استخدامه عند وضع علامة على دفعة كدفعة مقدمة.</td>
+<td><span data-ttu-id="05c45-161">استخدم صفحة معلمات الحسابات المدينة لتحديد ملف تعريف الترحيل المطلوب استخدامه عند وضع علامة على دفعة كدفعة مقدمة.</span><span class="sxs-lookup"><span data-stu-id="05c45-161">Use the Accounts receivable parameters page to specify the posting profile to use when a payment is marked as a prepayment.</span></span></td>
 </tr>
 </tbody>
 </table>
 </div></td>
 </tr>
 <tr class="even">
-<td><strong>التزامات حساب الخصم</strong></td>
-<td>حدد حساب دفتر الأستاذ الخاص بالتزامات الخصم.</td>
+<td><span data-ttu-id="05c45-162"><strong>التزامات حساب الخصم</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-162"><strong>Liabilities for discount account</strong></span></span></td>
+<td><span data-ttu-id="05c45-163">حدد حساب دفتر الأستاذ الخاص بالتزامات الخصم.</span><span class="sxs-lookup"><span data-stu-id="05c45-163">Select the ledger account for liabilities of discount.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>تسلسل خطاب التحصيل</strong></td>
-<td>حدد معرف تسلسل خطابات التحصيل لاستخدامه للعملاء الذين تم تعيين ملف تعريف الترحيل لهم.</td>
+<td><span data-ttu-id="05c45-164"><strong>تسلسل خطاب التحصيل</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-164"><strong>Collection letter sequence</strong></span></span></td>
+<td><span data-ttu-id="05c45-165">حدد معرف تسلسل خطابات التحصيل لاستخدامه للعملاء الذين تم تعيين ملف تعريف الترحيل لهم.</span><span class="sxs-lookup"><span data-stu-id="05c45-165">Select the identifier of the collection letter sequence to use for customers to whom the posting profile is assigned.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>كود الفائدة</strong></td>
-<td>حدد كود الفائدة لاستخدامه لحساب الفائدة للعملاء الذين تم تعيين ملف تعريف الترحيل لهم.</td>
+<td><span data-ttu-id="05c45-166"><strong>كود الفائدة</strong></span><span class="sxs-lookup"><span data-stu-id="05c45-166"><strong>Interest code</strong></span></span></td>
+<td><span data-ttu-id="05c45-167">حدد كود الفائدة لاستخدامه لحساب الفائدة للعملاء الذين تم تعيين ملف تعريف الترحيل لهم.</span><span class="sxs-lookup"><span data-stu-id="05c45-167">Select the interest code to use for the calculation of interest for customers to whom the posting profile is assigned.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 ### 
 
-### <a name="table-restrictions"></a>**تقييدات الجداول**
+### <a name="table-restrictions"></a><span data-ttu-id="05c45-168">**تقييدات الجداول**</span><span class="sxs-lookup"><span data-stu-id="05c45-168">**Table restrictions**</span></span>
 
-في اللحركات التي تحتوي على ملف تعريف الترحيل المحدد، حدد ما إذا كان ستتم تسوية الحركات تلقائياً، وسيتم حساب الفائدة، وسيتم إصدار خطابات التحصيل. كما يمكنك تحديد الحساب الذي يُستخدم عند إغلاق الحركات المشتملة على ملف تعريف الترحيل المحدد.
+<span data-ttu-id="05c45-169">في اللحركات التي تحتوي على ملف تعريف الترحيل المحدد، حدد ما إذا كان ستتم تسوية الحركات تلقائياً، وسيتم حساب الفائدة، وسيتم إصدار خطابات التحصيل.</span><span class="sxs-lookup"><span data-stu-id="05c45-169">For transactions that have the selected posting profile, specify whether transactions will be settled automatically, interest will be calculated, and collection letters will be issued.</span></span> <span data-ttu-id="05c45-170">كما يمكنك تحديد الحساب الذي يُستخدم عند إغلاق الحركات المشتملة على ملف تعريف الترحيل المحدد.</span><span class="sxs-lookup"><span data-stu-id="05c45-170">You can also select the account that is used when transactions that have the selected posting profile are closed.</span></span>
 
-وحدد القيم التالية لإعداد ملف تعريف الترحيل الخاص بك:
+<span data-ttu-id="05c45-171">وحدد القيم التالية لإعداد ملف تعريف الترحيل الخاص بك:</span><span class="sxs-lookup"><span data-stu-id="05c45-171">Specify the following values to set up your posting profile:</span></span>
 
-| الحقل                 | الوصف                                                                                                                                                                                                                                        |
+| <span data-ttu-id="05c45-172">الحقل</span><span class="sxs-lookup"><span data-stu-id="05c45-172">Field</span></span>                 | <span data-ttu-id="05c45-173">الوصف</span><span class="sxs-lookup"><span data-stu-id="05c45-173">Description</span></span>                                                                                                                                                                                                                                        |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **التسوية**        | حدد هذا التبديل لتمكين التسوية التلقائية للحركات التي تتضمن ملف تعريف الترحيل هذا. وإذا تم مسح هذا التبديل، يجب يدوياً تسوية الحركات باستخدام صفحة تسوية الحركات المفتوحة أو صفحة إدخال مدفوعات العميل. |
-| **الفائدة**          | حدد هذا التبديل إذا كان يجب حساب الفائدة في الأرصدة المعلقة لحسابات العملاء التي تستخدم ملف التعريف هذا. وفي حالة إلغاء تحديد هذا التبديل، فلن يتم حساب الفائدة لهؤلاء العملاء.                                           |
-| **خطاب التحصيل** | حدد هذا التبديل إذا كان يجب إنشاء هطابات التحصيل لحسابات العملاء التي تستخدم ملف التعريف هذا. وفي حالة إلغاء تحديد هذا التبديل، لن يتم إنشاء خطابات التحصيل لهؤلاء العملاء.                                                 |
-| **إغلاق**             | حدد ملف تعريف ترحيل للتغيير إليه عند إغلاق الحركات بملف تعريف الترحيل هذا. ويتم اعتبار الحركة مغلقة عند تسويتها بالكامل.                                                                           |
+| <span data-ttu-id="05c45-174">**التسوية**</span><span class="sxs-lookup"><span data-stu-id="05c45-174">**Settlement**</span></span>        | <span data-ttu-id="05c45-175">حدد هذا التبديل لتمكين التسوية التلقائية للحركات التي تتضمن ملف تعريف الترحيل هذا.</span><span class="sxs-lookup"><span data-stu-id="05c45-175">Select this toggle to enable automatic settlement of transactions that have this posting profile.</span></span> <span data-ttu-id="05c45-176">وإذا تم مسح هذا التبديل، يجب يدوياً تسوية الحركات باستخدام صفحة تسوية الحركات المفتوحة أو صفحة إدخال مدفوعات العميل.</span><span class="sxs-lookup"><span data-stu-id="05c45-176">If this toggle is cleared, you must manually settle transactions by using the Settle open transactions page or the Enter customer payments page.</span></span> |
+| <span data-ttu-id="05c45-177">**الفائدة**</span><span class="sxs-lookup"><span data-stu-id="05c45-177">**Interest**</span></span>          | <span data-ttu-id="05c45-178">حدد هذا التبديل إذا كان يجب حساب الفائدة في الأرصدة المعلقة لحسابات العملاء التي تستخدم ملف التعريف هذا.</span><span class="sxs-lookup"><span data-stu-id="05c45-178">Select this toggle if interest should be calculated on outstanding balances for customer accounts that use this profile.</span></span> <span data-ttu-id="05c45-179">وفي حالة إلغاء تحديد هذا التبديل، فلن يتم حساب الفائدة لهؤلاء العملاء.</span><span class="sxs-lookup"><span data-stu-id="05c45-179">If this toggle is cleared, interest will not be calculated for these customers.</span></span>                                           |
+| <span data-ttu-id="05c45-180">**خطاب التحصيل**</span><span class="sxs-lookup"><span data-stu-id="05c45-180">**Collection letter**</span></span> | <span data-ttu-id="05c45-181">حدد هذا التبديل إذا كان يجب إنشاء هطابات التحصيل لحسابات العملاء التي تستخدم ملف التعريف هذا.</span><span class="sxs-lookup"><span data-stu-id="05c45-181">Select this toggle if collection letters should be generated for customer accounts that use this profile.</span></span> <span data-ttu-id="05c45-182">وفي حالة إلغاء تحديد هذا التبديل، لن يتم إنشاء خطابات التحصيل لهؤلاء العملاء.</span><span class="sxs-lookup"><span data-stu-id="05c45-182">If this toggle is cleared, collection letters will not be generated for these customers.</span></span>                                                 |
+| <span data-ttu-id="05c45-183">**إغلاق**</span><span class="sxs-lookup"><span data-stu-id="05c45-183">**Close**</span></span>             | <span data-ttu-id="05c45-184">حدد ملف تعريف ترحيل للتغيير إليه عند إغلاق الحركات بملف تعريف الترحيل هذا.</span><span class="sxs-lookup"><span data-stu-id="05c45-184">Select a posting profile to change to when transactions that have this posting profile are closed.</span></span> <span data-ttu-id="05c45-185">ويتم اعتبار الحركة مغلقة عند تسويتها بالكامل.</span><span class="sxs-lookup"><span data-stu-id="05c45-185">A transaction is regarded as closed when it has been settled in full.</span></span>                                                                           |
 
 
 
-للحصول على مزيد من المعلومات، راجع [نظرة عامة على دفع العميل‬](../cash-bank-management/tasks/customer-payment-overview.md).
+<span data-ttu-id="05c45-186">للحصول على مزيد من المعلومات، راجع [نظرة عامة على دفع العميل‬](../cash-bank-management/tasks/customer-payment-overview.md).</span><span class="sxs-lookup"><span data-stu-id="05c45-186">For more information, see [Customer payment overview](../cash-bank-management/tasks/customer-payment-overview.md).</span></span>
 
 

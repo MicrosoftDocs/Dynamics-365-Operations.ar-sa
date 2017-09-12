@@ -17,49 +17,49 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 10fc776641d0c7bc2576be13a4116281ac3a3768
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c8e7bfbf6b51aca9cf8a7f800ac7db22c0330d00
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-credit-card-processing"></a> تكوين معالجة بطاقة الائتمان
+# <a name="configure-credit-card-processing"></a><span data-ttu-id="514f3-103"> تكوين معالجة بطاقة الائتمان</span><span class="sxs-lookup"><span data-stu-id="514f3-103">Configure credit card processing</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-يتناول هذا الإجراء كيفية عرض قائمة بممولي خدمات الدفع وكيفية تكوين حساب مدفوعات للحسابات المدينة. يستخدم هذا الإجراء شركة USRT في بيانات العرض التوضيحي‬ وهو مخصص للمسؤولين ومتخصصي تكنولوجيا المعلومات.
+<span data-ttu-id="514f3-104">يتناول هذا الإجراء كيفية عرض قائمة بممولي خدمات الدفع وكيفية تكوين حساب مدفوعات للحسابات المدينة.</span><span class="sxs-lookup"><span data-stu-id="514f3-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="514f3-105">يستخدم هذا الإجراء شركة USRT في بيانات العرض التوضيحي‬ وهو مخصص للمسؤولين ومتخصصي تكنولوجيا المعلومات.</span><span class="sxs-lookup"><span data-stu-id="514f3-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
 
 
-## <a name="view-a-list-of-payment-providers"></a>عرض قائمة بممولي خدمات الدفع
-1. انتقل إلى الحسابات المدينة > إعداد المدفوعات‬ > ‏‫خدمات الدفع‬.
-2. انقر فوق عرض الممولين المتوفرين.
+## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="514f3-106">عرض قائمة بممولي خدمات الدفع</span><span class="sxs-lookup"><span data-stu-id="514f3-106">View a list of payment providers</span></span>
+1. <span data-ttu-id="514f3-107">انتقل إلى الحسابات المدينة > إعداد المدفوعات‬ > ‏‫خدمات الدفع‬.</span><span class="sxs-lookup"><span data-stu-id="514f3-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
+2. <span data-ttu-id="514f3-108">انقر فوق عرض الممولين المتوفرين.</span><span class="sxs-lookup"><span data-stu-id="514f3-108">Click View available providers.</span></span>
 
-## <a name="configure-payment-account"></a>تكوين حساب المدفوعات
-1. انقر فوق "جديد".
-2. في حقل "خدمة الدفع"، اكتب قيمة.
-3. في حقل "‏‫موصل المدفوعات‬"، حدد خيارًا.
-4. قم بتبديل التوسيع لقسم "‏‫حساب خدمة الدفع".
-5. في حقل "‏‫البيئة:"، اكتب "PROD".
-6. انقر فوق أنواع بطاقات الائتمان.
-7. في حقل "‏‫دفتر يومية المدفوعات‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-8. في القائمة، انقر فوق الارتباط في الصف المحدد.
-9. وانقر فوق إضافة.
-10. في الحقل "العملة"، اكتب قيمة.
-11. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-12. في حقل "‏‫دفتر يومية المدفوعات‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-13. في القائمة، انقر فوق الارتباط في الصف المحدد.
-14. وانقر فوق إضافة.
-15. في الحقل "العملة"، اكتب قيمة.
-16. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * يمكنك تكرار هذه الخطوات للعديد من أنواع البطاقات التي تحتاجها.  
-17. في حقل "‏‫دفتر يومية المدفوعات‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-18. في القائمة، انقر فوق الارتباط في الصف المحدد.
-19. وانقر فوق إضافة.
-20. في الحقل "العملة"، اكتب قيمة.
-21. انقر فوق "حفظ".
-22. قم بإغلاق الصفحة.
-23. انقر فوق "التحقق من الصحة‬".
-24. انقر فوق المعالج الافتراضي لخانة الاختيار بطاقات الائتمان الجديدة.
-25. انقر فوق "حفظ".
+## <a name="configure-payment-account"></a><span data-ttu-id="514f3-109">تكوين حساب المدفوعات</span><span class="sxs-lookup"><span data-stu-id="514f3-109">Configure payment account</span></span>
+1. <span data-ttu-id="514f3-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="514f3-110">Click New.</span></span>
+2. <span data-ttu-id="514f3-111">في حقل "خدمة الدفع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="514f3-111">In the Payment service field, type a value.</span></span>
+3. <span data-ttu-id="514f3-112">في حقل "‏‫موصل المدفوعات‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="514f3-112">In the Payment connector field, select an option.</span></span>
+4. <span data-ttu-id="514f3-113">قم بتبديل التوسيع لقسم "‏‫حساب خدمة الدفع".</span><span class="sxs-lookup"><span data-stu-id="514f3-113">Toggle the expansion of the Payment service account section.</span></span>
+5. <span data-ttu-id="514f3-114">في حقل "‏‫البيئة:"، اكتب "PROD".</span><span class="sxs-lookup"><span data-stu-id="514f3-114">In the Environment: field, type 'PROD'.</span></span>
+6. <span data-ttu-id="514f3-115">انقر فوق أنواع بطاقات الائتمان.</span><span class="sxs-lookup"><span data-stu-id="514f3-115">Click Credit card types.</span></span>
+7. <span data-ttu-id="514f3-116">في حقل "‏‫دفتر يومية المدفوعات‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="514f3-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="514f3-117">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="514f3-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="514f3-118">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="514f3-118">Click Add.</span></span>
+10. <span data-ttu-id="514f3-119">في الحقل "العملة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="514f3-119">In the Currency field, type a value.</span></span>
+11. <span data-ttu-id="514f3-120">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="514f3-120">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="514f3-121">في حقل "‏‫دفتر يومية المدفوعات‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="514f3-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="514f3-122">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="514f3-122">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="514f3-123">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="514f3-123">Click Add.</span></span>
+15. <span data-ttu-id="514f3-124">في الحقل "العملة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="514f3-124">In the Currency field, type a value.</span></span>
+16. <span data-ttu-id="514f3-125">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="514f3-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="514f3-126">يمكنك تكرار هذه الخطوات للعديد من أنواع البطاقات التي تحتاجها.</span><span class="sxs-lookup"><span data-stu-id="514f3-126">You can repeat these steps for as many card types as you need.</span></span>  
+17. <span data-ttu-id="514f3-127">في حقل "‏‫دفتر يومية المدفوعات‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="514f3-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+18. <span data-ttu-id="514f3-128">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="514f3-128">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="514f3-129">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="514f3-129">Click Add.</span></span>
+20. <span data-ttu-id="514f3-130">في الحقل "العملة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="514f3-130">In the Currency field, type a value.</span></span>
+21. <span data-ttu-id="514f3-131">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="514f3-131">Click Save.</span></span>
+22. <span data-ttu-id="514f3-132">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="514f3-132">Close the page.</span></span>
+23. <span data-ttu-id="514f3-133">انقر فوق "التحقق من الصحة‬".</span><span class="sxs-lookup"><span data-stu-id="514f3-133">Click Validate.</span></span>
+24. <span data-ttu-id="514f3-134">انقر فوق المعالج الافتراضي لخانة الاختيار بطاقات الائتمان الجديدة.</span><span class="sxs-lookup"><span data-stu-id="514f3-134">Click the Default processor for new credit cards checkbox.</span></span>
+25. <span data-ttu-id="514f3-135">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="514f3-135">Click Save.</span></span>
 
 

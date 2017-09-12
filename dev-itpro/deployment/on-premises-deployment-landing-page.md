@@ -24,34 +24,34 @@ ms.contentlocale: ar-sa
 ms.lasthandoff: 08/04/2017
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>الصفحة المقصودة لعملية النشر المحلي
+# <a name="on-premises-deployment-landing-page"></a><span data-ttu-id="d41bb-103">الصفحة المقصودة لعملية النشر المحلي</span><span class="sxs-lookup"><span data-stu-id="d41bb-103">On-premises deployment landing page</span></span>
 
-يمكنك نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (محلي). عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة. يوفر هذا الموضوع ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.
+<span data-ttu-id="d41bb-104">يمكنك نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (محلي).</span><span class="sxs-lookup"><span data-stu-id="d41bb-104">You can deploy Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises).</span></span> <span data-ttu-id="d41bb-105">عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة.</span><span class="sxs-lookup"><span data-stu-id="d41bb-105">When you choose an on-premises deployment type, the system requirements, hardware sizing, and functionality differ from a cloud deployment.</span></span> <span data-ttu-id="d41bb-106">يوفر هذا الموضوع ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.</span><span class="sxs-lookup"><span data-stu-id="d41bb-106">This topic provides links to content that contains information specific to on-premises deployments.</span></span>
 
-**ملاحظة:** يتم حاليًا إعادة تسمية Dynamics 365 for Operations (محلي). سوى ترى Dynamics 365 for Operations (محلي) مشارًا إليه خلال الاتصالات ودلائل الترخيص. الاسم في المنتج الذي سوف تراه عند نشر المنتج هو 365 Dynamics 365 for Finance and Operations, Enterprise edition. ويشير هذان الاسمان إلى المنتج نفسه.
+<span data-ttu-id="d41bb-107">**ملاحظة:** يتم حاليًا إعادة تسمية Dynamics 365 for Operations (محلي).</span><span class="sxs-lookup"><span data-stu-id="d41bb-107">**Note:** Dynamics 365 for Operations (on-premises) is currently being renamed.</span></span> <span data-ttu-id="d41bb-108">سوى ترى Dynamics 365 for Operations (محلي) مشارًا إليه خلال الاتصالات ودلائل الترخيص.</span><span class="sxs-lookup"><span data-stu-id="d41bb-108">You will see Dynamics 365 for Operations (on-premises) referenced throughout communications and licensing guides.</span></span> <span data-ttu-id="d41bb-109">الاسم في المنتج الذي سوف تراه عند نشر المنتج هو 365 Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="d41bb-109">The in-product name that you will see when deploying the product is Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="d41bb-110">ويشير هذان الاسمان إلى المنتج نفسه.</span><span class="sxs-lookup"><span data-stu-id="d41bb-110">Both of these names refer to the same product.</span></span>
 
-## <a name="get-started"></a>بدء الاستخدام
-- [نظرة عامة على Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](on-premises-overview.md)
-- [متطلبات النظام لعمليات النشر المحلي](../get-started/system-requirements-on-prem.md)
-- [ضبط حجم الأجهزة للبيئات المحلية](../get-started/hardware-sizing-on-premises-environments.md)
-- [نهج دورة الحياة وللخدمة على الإنترنت والبرنامج المحلي](../migration-upgrade/versions-update-policy.md)
-- [شراء Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](../get-started/purchase-on-premises.md)
+## <a name="get-started"></a><span data-ttu-id="d41bb-111">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="d41bb-111">Get started</span></span>
+- [<span data-ttu-id="d41bb-112">نظرة عامة على Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)</span><span class="sxs-lookup"><span data-stu-id="d41bb-112">Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) overview</span></span>](on-premises-overview.md)
+- [<span data-ttu-id="d41bb-113">متطلبات النظام لعمليات النشر المحلي</span><span class="sxs-lookup"><span data-stu-id="d41bb-113">System requirements for on-premises deployments</span></span>](../get-started/system-requirements-on-prem.md)
+- [<span data-ttu-id="d41bb-114">ضبط حجم الأجهزة للبيئات المحلية</span><span class="sxs-lookup"><span data-stu-id="d41bb-114">Hardware sizing for on-premises environments</span></span>](../get-started/hardware-sizing-on-premises-environments.md)
+- [<span data-ttu-id="d41bb-115">نهج دورة الحياة وللخدمة على الإنترنت والبرنامج المحلي</span><span class="sxs-lookup"><span data-stu-id="d41bb-115">Online service and on-premises software lifecycle policy</span></span>](../migration-upgrade/versions-update-policy.md)
+- [<span data-ttu-id="d41bb-116">شراء Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)</span><span class="sxs-lookup"><span data-stu-id="d41bb-116">Purchase Dynamics 365 for Finance and Operations, Enterprise edition (on-premises)</span></span>](../get-started/purchase-on-premises.md)
 
-## <a name="onboard"></a>الإعداد
-- [إنشاء مشروع محلي في Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [إعداد بيئات محلية ونشرها](setup-deploy-on-premises-environments.md)
-- [تكوين خدمات SQL Server Reporting Services للنشر المحلي](../analytics/configure-ssrs-on-premises.md)
-- [تطوير النماذج المخصصة للبيئات المحلية ونشرها](develop-deploy-custom-models-on-premises.md)
+## <a name="onboard"></a><span data-ttu-id="d41bb-117">الإعداد</span><span class="sxs-lookup"><span data-stu-id="d41bb-117">Onboard</span></span>
+- [<span data-ttu-id="d41bb-118">إنشاء مشروع محلي في Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="d41bb-118">Create an on-premises project in Lifecycle Services</span></span>](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
+- [<span data-ttu-id="d41bb-119">إعداد بيئات محلية ونشرها</span><span class="sxs-lookup"><span data-stu-id="d41bb-119">Set up and deploy on-premises environments</span></span>](setup-deploy-on-premises-environments.md)
+- [<span data-ttu-id="d41bb-120">تكوين خدمات SQL Server Reporting Services للنشر المحلي</span><span class="sxs-lookup"><span data-stu-id="d41bb-120">Configure SQL Server Reporting Services for an on-premises deployment</span></span>](../analytics/configure-ssrs-on-premises.md)
+- [<span data-ttu-id="d41bb-121">تطوير النماذج المخصصة للبيئات المحلية ونشرها</span><span class="sxs-lookup"><span data-stu-id="d41bb-121">Develop and deploy custom models to on-premises environments</span></span>](develop-deploy-custom-models-on-premises.md)
 
-## <a name="work-in-your-on-premises-deployment"></a>العمل في عملية النشر المحلي
-- [تكوين إدارة المستندات](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
-- [استيراد تكوينات إعداد التقارير الإلكترونية](../analytics/electronic-reporting-import-ger-configurations.md)
-- [إمكانات إنشاء مستند، والنشر، والطباعة في عمليات النشر المحلي](../analytics/printing-capabilities-on-premises.md)
-- [إعداد الدعم الفني](../lifecycle-services/support-experience.md)
-- [استكشاف أخطاء اتصال إنترنت العميل وإصلاحها](../user-interface/client-disconnected.md)
+## <a name="work-in-your-on-premises-deployment"></a><span data-ttu-id="d41bb-122">العمل في عملية النشر المحلي</span><span class="sxs-lookup"><span data-stu-id="d41bb-122">Work in your on-premises deployment</span></span>
+- [<span data-ttu-id="d41bb-123">تكوين إدارة المستندات</span><span class="sxs-lookup"><span data-stu-id="d41bb-123">Configure document management</span></span>](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
+- [<span data-ttu-id="d41bb-124">استيراد تكوينات إعداد التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="d41bb-124">Import Electronic reporting configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
+- [<span data-ttu-id="d41bb-125">إمكانات إنشاء مستند، والنشر، والطباعة في عمليات النشر المحلي</span><span class="sxs-lookup"><span data-stu-id="d41bb-125">Document generation, publishing, and printing capabilities in on-premises deployments</span></span>](../analytics/printing-capabilities-on-premises.md)
+- [<span data-ttu-id="d41bb-126">إعداد الدعم الفني</span><span class="sxs-lookup"><span data-stu-id="d41bb-126">Set up technical support</span></span>](../lifecycle-services/support-experience.md)
+- [<span data-ttu-id="d41bb-127">استكشاف أخطاء اتصال إنترنت العميل وإصلاحها</span><span class="sxs-lookup"><span data-stu-id="d41bb-127">Client Internet connection troubleshooting</span></span>](../user-interface/client-disconnected.md)
 
-## <a name="other-resources"></a>موارد أخرى
-- [ميزات لم يتم تنفيذها في عمليات النشر المحلية](../get-started/features-not-implemented-on-prem.md)
-- [الميزات المهملة](../migration-upgrade/deprecated-features.md)
+## <a name="other-resources"></a><span data-ttu-id="d41bb-128">موارد أخرى</span><span class="sxs-lookup"><span data-stu-id="d41bb-128">Other resources</span></span>
+- [<span data-ttu-id="d41bb-129">ميزات لم يتم تنفيذها في عمليات النشر المحلية</span><span class="sxs-lookup"><span data-stu-id="d41bb-129">Features not implemented in on-premises deployments</span></span>](../get-started/features-not-implemented-on-prem.md)
+- [<span data-ttu-id="d41bb-130">الميزات المهملة</span><span class="sxs-lookup"><span data-stu-id="d41bb-130">Deprecated features</span></span>](../migration-upgrade/deprecated-features.md)
  
 

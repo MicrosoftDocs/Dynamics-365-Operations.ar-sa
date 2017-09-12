@@ -16,55 +16,55 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 83ea19e11596374c3e3ceb051db0b483f4b58583
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4f2f1f1206f3cb3534ef93923d4945bb63814514
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="close-the-fiscal-year"></a>إقفال السنة المالية
+# <a name="close-the-fiscal-year"></a><span data-ttu-id="0f876-103">إقفال السنة المالية</span><span class="sxs-lookup"><span data-stu-id="0f876-103">Close the fiscal year</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ينقلك هذا الإجراء عبر عملية إقفال نهاية السنة التي تحول الأرصدة إلى سنة مالية جديدة.
+<span data-ttu-id="0f876-104">ينقلك هذا الإجراء عبر عملية إقفال نهاية السنة التي تحول الأرصدة إلى سنة مالية جديدة.</span><span class="sxs-lookup"><span data-stu-id="0f876-104">This procedure steps through the year end close process that transfers balances to a new fiscal year.</span></span>
 
 
-## <a name="validate-year-end-close-parameters"></a>التحقق من صحة محددات إقفال نهاية السنة
-1. انتقل إلى دفتر الأستاذ العام > إعداد دفتر الأستاذ‬ > معلمات دفتر الأستاذ العام.
-2. قم بتوسيع مقطع "إقفال نهاية السنة".
-3. حدد "نعم" أو "لا" للخيار "حذف حركات الإقفال السنوية أثناء التحويل‬".
-    * إذا تم بالفعل إقفال السنة المالية ويجري تشغيل إقفال نهاية السنة مرة أخرى، فإن هذا الإعداد يُعد مهمًا. إذا تم تعيين الخيار إلى "نعم"، فسيتم حذف الإيصال الخاص بإقفال نهاية السنة الماضية، وسيتم إنشاء إيصال جديد لكل الأرصدة الأولية للحسابات. أما إذا تم تعيينه إلى "لا"، فإن الإيصال السابق سوف يبقى وسيتم إنشاء إيصال جديد فقط لتسوية الإدخالات التي تم ترحيلها بعد إقفال نهاية السنة الماضية.  
-4. حدد "نعم" أو "لا" للخيار "إنشاء حركات إقفال أثناء التحويل‬‬".
-    * إذا تم تعيين الخيار إلى "نعم"، فسيتم إنشاء حركتين. يتم إنشاء إيصال واحد في السنة المالية الجاري إقفالها لكي تصبح أرصدة حسابات دفتر الأستاذ للأرباح والخسائر بقيمة صفر، ويتم إنشاء إيصال ثانٍ في السنة المالية التالية للأرصدة الأولية. أما إذا تم تعيين الخيار إلى "لا"، فسيتم إنشاء إيصال واحد في السنة المالية التالية للأرصدة الأولية.  
-5. حدد "نعم" أو "لا" لتعيين حالة السنة المالية إلى "تم الإقفال بشكل دائم‬".
-    * إذا تم تعيين الخيار إلى "نعم"، فسيتم تعيين حالة السنة المالية إلى "تم الإقفال بشكل دائم‬".  ونظرًا لتعذر إعادة فتح سنة مقفلة بشكل دائم، فمن المستحسن تعيين هذا الخيار إلى "لا".  
-6. حدد "نعم" أو "لا" لتعيين ما إذا كان يجب إدخال رقم إيصال أثناء عملية إقفال نهاية السنة.
-    * إذا تم تعيين هذا الخيار إلى "نعم"، فيجب إدخال رقم إيصال يدويًا أثناء عملية إقفال نهاية السنة. لا يستخدم تسلسل الرقمي لإنشاء رقم الإيصال هذا. من المستحسن تعيين هذا الخيار إلى "نعم".  
-7. قم بإغلاق الصفحة.
-8. انتقل إلى دفتر الأستاذ العام > إقفال الفترة > إقفال نهاية السنة.
-9. انقر فوق "جديد" لإنشاء قالب إقفال نهاية السنة.
-    * يمكن إنشاء قالب لمجموعة من الكيانات القانونية لتشغيل إقفال نهاية السنة لها. يمكنك إعادة استخدام هذا القالب سنة بعد سنة.  
-10. في الحقل "اسم المجموعة"، أدخل اسمًا لقالب إقفال نهاية السنة.
-11. حدد السنة المالية التي سيتم إنشاء القالب لها.
-    * يمكن تجميع معًا فقط الكيانات القانونية التي تستخدم السنة المالية نفسها في قالب إقفال نهاية السنة. وهذا لأن تنفيذ إقفال نهاية السنة يتم عن طريق تحديد سنة مالية، وليس تاريخ.  
-12. استخدام الاختصار لحفظ سجل.
-13. انقر فوق "إضافة" لتحديد الكيانات القانونية لهذا القالب.
-    * يمكن إضافة الكيانات القانونية إما بتحديد الكيانات القانونية أو بتحديد تدرج هرمي تنظيمي.  ستُضاف فقط الكيانات القانونية مع التدرج الهرمي التنظيمي حيث تم تحديد تقويم السنة المالية نفسها.  
-14. حدد الكيانات القانونية أو التدرج الهرمي التنظيمي.
-15. انقر فوق "موافق".
-16. حدد ما إذا كان سيتم تحويل الأبعاد المالية إلى السنة المالية التالية.
-    * من المستحسن تعيين هذا الخيار إلى "نعم" لحسابات الميزانية العمومية.  من شأن هذا الأمر أن يؤدي إلى المحافظة على الأبعاد المالية على الحركات التي تم ترحيلها عند إنشاء الأرصدة الأولية لحسابات الميزانية العمومية.  لحسابات الأرباح والخسائر، يمكنك اختيار المحافظة على الأبعاد المالية (‏‫إغلاق الكل‬) عندما يتم نقل الأرصدة إلى الأرباح المحتجزة‬ أو يمكنك اختيار استبدال الأبعاد المالية بقيمة بُعد مختلفة (إغلاق واحد‬). إذا اخترت "إغلاق واحد"، فيمكنك تحديد قيمة بعد محددة لكل بعد أو حتى اختيار ترك القيمة فارغة.  
-17. انقر فوق "حفظ".
-18. ابدأ إقفال نهاية السنة باختيار "‏‫إجراء الإقفال المالي‬" في جزء الإجراءات.
-    * سيتم تشغيل إقفال نهاية السنة للقالب المحدد.  
-19. حدد كل الكيانات القانونية أو مجموعة فرعية لها من القالب لتشغيل إقفال نهاية السنة لها.
-    * عند تشغيل إقفال نهاية السنة للمرة الأولى، وللحصول على الأرصدة الأولية، قد تختار معظم المؤسسات تشغيل إقفال نهاية السنة لجميع الكيانات القانونية داخل القالب. إذا تمت تسوية الإدخالات بعد ذلك، فقد تختار تشغيل إقفال نهاية السنة فقط للكيانات القانونية التي تتضمن تسوية.  
-20. انقر فوق "موافق".
-21. حدد السنة المالية لتشغيل إقفال نهاية السنة لها.
-22. في حقل "الإيصال"، اكتب قيمة.
-    * من المستحسن تضمين السنة المالية في رقم الإيصال، لتسهيل العثور على إيصال إقفال نهاية السنة المنشأ.  
-23. يتم تشغيل إقفال نهاية السنة بشكل افتراضي في الوضع الدفعي.
-    * من المستحسن تشغيل العمليات طويلة الأمد في الوضع الدفعي. هذه هي عادة إحدى هذه العمليات، ولهذا السبب فإن الإعداد الافتراضي هو استخدام الوضع الدفعي.  
-24. انقر فوق "موافق".
+## <a name="validate-year-end-close-parameters"></a><span data-ttu-id="0f876-105">التحقق من صحة محددات إقفال نهاية السنة</span><span class="sxs-lookup"><span data-stu-id="0f876-105">Validate year-end close parameters</span></span>
+1. <span data-ttu-id="0f876-106">انتقل إلى دفتر الأستاذ العام > إعداد دفتر الأستاذ‬ > معلمات دفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="0f876-106">Go to General ledger > Ledger setup > General ledger parameters.</span></span>
+2. <span data-ttu-id="0f876-107">قم بتوسيع مقطع "إقفال نهاية السنة".</span><span class="sxs-lookup"><span data-stu-id="0f876-107">Expand the Fiscal year close section.</span></span>
+3. <span data-ttu-id="0f876-108">حدد "نعم" أو "لا" للخيار "حذف حركات الإقفال السنوية أثناء التحويل‬".</span><span class="sxs-lookup"><span data-stu-id="0f876-108">Select Yes or No for the option Delete close-of-year transactions during transfer.</span></span>
+    * <span data-ttu-id="0f876-109">إذا تم بالفعل إقفال السنة المالية ويجري تشغيل إقفال نهاية السنة مرة أخرى، فإن هذا الإعداد يُعد مهمًا.</span><span class="sxs-lookup"><span data-stu-id="0f876-109">If the fiscal year has already been closed and the year-end close is being run again, this setting is important.</span></span> <span data-ttu-id="0f876-110">إذا تم تعيين الخيار إلى "نعم"، فسيتم حذف الإيصال الخاص بإقفال نهاية السنة الماضية، وسيتم إنشاء إيصال جديد لكل الأرصدة الأولية للحسابات.</span><span class="sxs-lookup"><span data-stu-id="0f876-110">If set to Yes, the voucher for the previous year-end close will be deleted, and a new voucher will be created for all accounts beginning balances.</span></span> <span data-ttu-id="0f876-111">أما إذا تم تعيينه إلى "لا"، فإن الإيصال السابق سوف يبقى وسيتم إنشاء إيصال جديد فقط لتسوية الإدخالات التي تم ترحيلها بعد إقفال نهاية السنة الماضية.</span><span class="sxs-lookup"><span data-stu-id="0f876-111">If set to No, the previous voucher will remain and a new voucher will only be created for adjusting entries that were posted after the last year-end close.</span></span>  
+4. <span data-ttu-id="0f876-112">حدد "نعم" أو "لا" للخيار "إنشاء حركات إقفال أثناء التحويل‬‬".</span><span class="sxs-lookup"><span data-stu-id="0f876-112">Select Yes or No for whether to Create closing transactions during transfer.</span></span>
+    * <span data-ttu-id="0f876-113">إذا تم تعيين الخيار إلى "نعم"، فسيتم إنشاء حركتين.</span><span class="sxs-lookup"><span data-stu-id="0f876-113">If set to Yes, two transactions are created.</span></span> <span data-ttu-id="0f876-114">يتم إنشاء إيصال واحد في السنة المالية الجاري إقفالها لكي تصبح أرصدة حسابات دفتر الأستاذ للأرباح والخسائر بقيمة صفر، ويتم إنشاء إيصال ثانٍ في السنة المالية التالية للأرصدة الأولية.</span><span class="sxs-lookup"><span data-stu-id="0f876-114">One voucher is created in the fiscal year being closed to bring the balances of the P&L ledger accounts down to zero and a second voucher is created in the next fiscal year for the beginning balances.</span></span> <span data-ttu-id="0f876-115">أما إذا تم تعيين الخيار إلى "لا"، فسيتم إنشاء إيصال واحد في السنة المالية التالية للأرصدة الأولية.</span><span class="sxs-lookup"><span data-stu-id="0f876-115">If set to No, a single voucher is created in the next fiscal year for the beginning balances.</span></span>  
+5. <span data-ttu-id="0f876-116">حدد "نعم" أو "لا" لتعيين حالة السنة المالية إلى "تم الإقفال بشكل دائم‬".</span><span class="sxs-lookup"><span data-stu-id="0f876-116">Select Yes or No for whether to Set fiscal year status to permanently closed.</span></span>
+    * <span data-ttu-id="0f876-117">إذا تم تعيين الخيار إلى "نعم"، فسيتم تعيين حالة السنة المالية إلى "تم الإقفال بشكل دائم‬".</span><span class="sxs-lookup"><span data-stu-id="0f876-117">If set to Yes, the fiscal year status will be set to Permanently closed.</span></span>  <span data-ttu-id="0f876-118">ونظرًا لتعذر إعادة فتح سنة مقفلة بشكل دائم، فمن المستحسن تعيين هذا الخيار إلى "لا".</span><span class="sxs-lookup"><span data-stu-id="0f876-118">Because a permanently closed year cannot be reopened, it would be a best practice to set this option to No.</span></span>  
+6. <span data-ttu-id="0f876-119">حدد "نعم" أو "لا" لتعيين ما إذا كان يجب إدخال رقم إيصال أثناء عملية إقفال نهاية السنة.</span><span class="sxs-lookup"><span data-stu-id="0f876-119">Select Yes or No for whether a Voucher number must be filled in during the year end close.</span></span>
+    * <span data-ttu-id="0f876-120">إذا تم تعيين هذا الخيار إلى "نعم"، فيجب إدخال رقم إيصال يدويًا أثناء عملية إقفال نهاية السنة.</span><span class="sxs-lookup"><span data-stu-id="0f876-120">If set to Yes, a voucher number must be manually entered during the year end close process.</span></span> <span data-ttu-id="0f876-121">لا يستخدم تسلسل الرقمي لإنشاء رقم الإيصال هذا.</span><span class="sxs-lookup"><span data-stu-id="0f876-121">A number sequence is not used to generate this voucher number.</span></span> <span data-ttu-id="0f876-122">من المستحسن تعيين هذا الخيار إلى "نعم".</span><span class="sxs-lookup"><span data-stu-id="0f876-122">It's a best practice to set this to Yes.</span></span>  
+7. <span data-ttu-id="0f876-123">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="0f876-123">Close the page.</span></span>
+8. <span data-ttu-id="0f876-124">انتقل إلى دفتر الأستاذ العام > إقفال الفترة > إقفال نهاية السنة.</span><span class="sxs-lookup"><span data-stu-id="0f876-124">Go to General ledger > Period close > Year end close.</span></span>
+9. <span data-ttu-id="0f876-125">انقر فوق "جديد" لإنشاء قالب إقفال نهاية السنة.</span><span class="sxs-lookup"><span data-stu-id="0f876-125">Click New to create a year-end close template.</span></span>
+    * <span data-ttu-id="0f876-126">يمكن إنشاء قالب لمجموعة من الكيانات القانونية لتشغيل إقفال نهاية السنة لها.</span><span class="sxs-lookup"><span data-stu-id="0f876-126">A template can be created for a group of legal entities for which to run the year-end close.</span></span> <span data-ttu-id="0f876-127">يمكنك إعادة استخدام هذا القالب سنة بعد سنة.</span><span class="sxs-lookup"><span data-stu-id="0f876-127">This template can be reused year after year.</span></span>  
+10. <span data-ttu-id="0f876-128">في الحقل "اسم المجموعة"، أدخل اسمًا لقالب إقفال نهاية السنة.</span><span class="sxs-lookup"><span data-stu-id="0f876-128">In the Group name field, Enter a year-end close template name..</span></span>
+11. <span data-ttu-id="0f876-129">حدد السنة المالية التي سيتم إنشاء القالب لها.</span><span class="sxs-lookup"><span data-stu-id="0f876-129">Select the fiscal year for which the template will be created.</span></span>
+    * <span data-ttu-id="0f876-130">يمكن تجميع معًا فقط الكيانات القانونية التي تستخدم السنة المالية نفسها في قالب إقفال نهاية السنة.</span><span class="sxs-lookup"><span data-stu-id="0f876-130">Only legal entities which use the same fiscal year can be grouped together in the year-end close template.</span></span> <span data-ttu-id="0f876-131">وهذا لأن تنفيذ إقفال نهاية السنة يتم عن طريق تحديد سنة مالية، وليس تاريخ.</span><span class="sxs-lookup"><span data-stu-id="0f876-131">This is because the year end close is done by selecting a fiscal year, not a date.</span></span>  
+12. <span data-ttu-id="0f876-132">استخدام الاختصار لحفظ سجل.</span><span class="sxs-lookup"><span data-stu-id="0f876-132">Use the shortcut for saving a record.</span></span>
+13. <span data-ttu-id="0f876-133">انقر فوق "إضافة" لتحديد الكيانات القانونية لهذا القالب.</span><span class="sxs-lookup"><span data-stu-id="0f876-133">Click Add to select the legal entities for this template.</span></span>
+    * <span data-ttu-id="0f876-134">يمكن إضافة الكيانات القانونية إما بتحديد الكيانات القانونية أو بتحديد تدرج هرمي تنظيمي.</span><span class="sxs-lookup"><span data-stu-id="0f876-134">Legal entities can be added by either selecting the legal entities or by selecting an organizational hierarchy.</span></span>  <span data-ttu-id="0f876-135">ستُضاف فقط الكيانات القانونية مع التدرج الهرمي التنظيمي حيث تم تحديد تقويم السنة المالية نفسها.</span><span class="sxs-lookup"><span data-stu-id="0f876-135">Only legal entities with the organizational hierarchy with the same fiscal calendar selected will be added.</span></span>  
+14. <span data-ttu-id="0f876-136">حدد الكيانات القانونية أو التدرج الهرمي التنظيمي.</span><span class="sxs-lookup"><span data-stu-id="0f876-136">Select either the legal entities or the organizational hierarchy.</span></span>
+15. <span data-ttu-id="0f876-137">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="0f876-137">Click OK.</span></span>
+16. <span data-ttu-id="0f876-138">حدد ما إذا كان سيتم تحويل الأبعاد المالية إلى السنة المالية التالية.</span><span class="sxs-lookup"><span data-stu-id="0f876-138">Select whether the financial dimensions will transfer to the next fiscal year.</span></span>
+    * <span data-ttu-id="0f876-139">من المستحسن تعيين هذا الخيار إلى "نعم" لحسابات الميزانية العمومية.</span><span class="sxs-lookup"><span data-stu-id="0f876-139">It's a best practice to set this option to Yes for Balance sheet accounts.</span></span>  <span data-ttu-id="0f876-140">من شأن هذا الأمر أن يؤدي إلى المحافظة على الأبعاد المالية على الحركات التي تم ترحيلها عند إنشاء الأرصدة الأولية لحسابات الميزانية العمومية.</span><span class="sxs-lookup"><span data-stu-id="0f876-140">This will maintain the financial dimensions on posted transactions when creating the beginning balances for the balance sheet accounts.</span></span>  <span data-ttu-id="0f876-141">لحسابات الأرباح والخسائر، يمكنك اختيار المحافظة على الأبعاد المالية (‏‫إغلاق الكل‬) عندما يتم نقل الأرصدة إلى الأرباح المحتجزة‬ أو يمكنك اختيار استبدال الأبعاد المالية بقيمة بُعد مختلفة (إغلاق واحد‬).</span><span class="sxs-lookup"><span data-stu-id="0f876-141">For profit and loss accounts, you can select to maintain the financial dimensions (Close all) when the balances are moved to Retained earnings or you can select to have the financial dimensions replaced with a different dimension value (Close single).</span></span> <span data-ttu-id="0f876-142">إذا اخترت "إغلاق واحد"، فيمكنك تحديد قيمة بعد محددة لكل بعد أو حتى اختيار ترك القيمة فارغة.</span><span class="sxs-lookup"><span data-stu-id="0f876-142">If you choose Close single, you can define a specific dimension value for each dimension or even choose to leave it blank.</span></span>  
+17. <span data-ttu-id="0f876-143">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="0f876-143">Click Save.</span></span>
+18. <span data-ttu-id="0f876-144">ابدأ إقفال نهاية السنة باختيار "‏‫إجراء الإقفال المالي‬" في جزء الإجراءات.</span><span class="sxs-lookup"><span data-stu-id="0f876-144">Start the year-end close by choosing Run fiscal close on the Action Pane.</span></span>
+    * <span data-ttu-id="0f876-145">سيتم تشغيل إقفال نهاية السنة للقالب المحدد.</span><span class="sxs-lookup"><span data-stu-id="0f876-145">The year-end close will be run for the selected template.</span></span>  
+19. <span data-ttu-id="0f876-146">حدد كل الكيانات القانونية أو مجموعة فرعية لها من القالب لتشغيل إقفال نهاية السنة لها.</span><span class="sxs-lookup"><span data-stu-id="0f876-146">Select all or a subset of legal entities from the template for which to run the year-end close.</span></span>
+    * <span data-ttu-id="0f876-147">عند تشغيل إقفال نهاية السنة للمرة الأولى، وللحصول على الأرصدة الأولية، قد تختار معظم المؤسسات تشغيل إقفال نهاية السنة لجميع الكيانات القانونية داخل القالب.</span><span class="sxs-lookup"><span data-stu-id="0f876-147">When first running the year-end close, to get beginning balances most organizations may choose to run the year-end close for all legal entities within the template.</span></span> <span data-ttu-id="0f876-148">إذا تمت تسوية الإدخالات بعد ذلك، فقد تختار تشغيل إقفال نهاية السنة فقط للكيانات القانونية التي تتضمن تسوية.</span><span class="sxs-lookup"><span data-stu-id="0f876-148">If adjusting entries are made after that, you may choose to run the year-end close for only the legal entities that have adjustments.</span></span>  
+20. <span data-ttu-id="0f876-149">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="0f876-149">Click OK.</span></span>
+21. <span data-ttu-id="0f876-150">حدد السنة المالية لتشغيل إقفال نهاية السنة لها.</span><span class="sxs-lookup"><span data-stu-id="0f876-150">Select the fiscal year for which to run the year-end close.</span></span>
+22. <span data-ttu-id="0f876-151">في حقل "الإيصال"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="0f876-151">In the Voucher field, type a value.</span></span>
+    * <span data-ttu-id="0f876-152">من المستحسن تضمين السنة المالية في رقم الإيصال، لتسهيل العثور على إيصال إقفال نهاية السنة المنشأ.</span><span class="sxs-lookup"><span data-stu-id="0f876-152">It's a best practice to include the fiscal year in the voucher number, to make it easier to find the year-end close voucher that is created.</span></span>  
+23. <span data-ttu-id="0f876-153">يتم تشغيل إقفال نهاية السنة بشكل افتراضي في الوضع الدفعي.</span><span class="sxs-lookup"><span data-stu-id="0f876-153">The year-end close defaults to run in batch.</span></span>
+    * <span data-ttu-id="0f876-154">من المستحسن تشغيل العمليات طويلة الأمد في الوضع الدفعي.</span><span class="sxs-lookup"><span data-stu-id="0f876-154">It's a best practice for long-running processes to run in batch mode.</span></span> <span data-ttu-id="0f876-155">هذه هي عادة إحدى هذه العمليات، ولهذا السبب فإن الإعداد الافتراضي هو استخدام الوضع الدفعي.</span><span class="sxs-lookup"><span data-stu-id="0f876-155">This is typically one of those processes, which is why the default is to use batch mode.</span></span>  
+24. <span data-ttu-id="0f876-156">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="0f876-156">Click OK.</span></span>
 
 

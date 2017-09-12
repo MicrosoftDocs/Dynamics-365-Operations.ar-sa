@@ -16,29 +16,29 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 55cd78ab21085330685ea654b9c408152900362e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 298dc0fbed97a66c85508669b15025d0ad2b176b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-submit-vat-report"></a>إنشاء تقرير ضريبة القيمة المضافة وإرساله
+# <a name="create-and-submit-vat-report"></a><span data-ttu-id="f345a-103">إنشاء تقرير ضريبة القيمة المضافة وإرساله</span><span class="sxs-lookup"><span data-stu-id="f345a-103">Create and submit VAT report</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يرشدك هذا الإجراء عبر عملية إنشاء تقرير ضريبة القيمة المضافة وإرساله إلى السلطات الألمانية.
+<span data-ttu-id="f345a-104">يرشدك هذا الإجراء عبر عملية إنشاء تقرير ضريبة القيمة المضافة وإرساله إلى السلطات الألمانية.</span><span class="sxs-lookup"><span data-stu-id="f345a-104">This procedure walks you through creating and submitting the VAT report to German authority.</span></span>
 
-تم إنشاء هذا الإجراء باستخدام شركة بيانات العرض التوضيحي DEMF. 
+<span data-ttu-id="f345a-105">تم إنشاء هذا الإجراء باستخدام شركة بيانات العرض التوضيحي DEMF.</span><span class="sxs-lookup"><span data-stu-id="f345a-105">This procedure was created using the demo data company DEMF.</span></span> 
 
-وتتوفر هذه الوظيفة للكيانات القانونية التي يوجد عنوانها الرئيسي في ألمانيا.
+<span data-ttu-id="f345a-106">وتتوفر هذه الوظيفة للكيانات القانونية التي يوجد عنوانها الرئيسي في ألمانيا.</span><span class="sxs-lookup"><span data-stu-id="f345a-106">This functionality is available for legal entities whose primary address is in Germany.</span></span>
 
 
 
-1. انتقل إلى الضريبة > إقرارات‬ > ضريبة المبيعات > الإبلاغ بضريبة المبيعات لفترة التسوية‬.
-2. في الحقل "فترة التسوية"، أدخل قيمة أو حددها.
-3. في الحقل "من تاريخ"، أدخل تاريخًا.
-4. انقر فوق موافق.
-5. حدد "نعم" في الحقل "إنشاء مستند ضريبة إلكترونية‬".
-6. انقر فوق "موافق".
+1. <span data-ttu-id="f345a-107">انتقل إلى الضريبة > إقرارات‬ > ضريبة المبيعات > الإبلاغ بضريبة المبيعات لفترة التسوية‬.</span><span class="sxs-lookup"><span data-stu-id="f345a-107">Go to Tax > Declarations > Sales tax > Report sales tax for settlement period.</span></span>
+2. <span data-ttu-id="f345a-108">في الحقل "فترة التسوية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="f345a-108">In the Settlement period field, enter or select a value.</span></span>
+3. <span data-ttu-id="f345a-109">في الحقل "من تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="f345a-109">In the From date field, enter a date.</span></span>
+4. <span data-ttu-id="f345a-110">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="f345a-110">Click OK.</span></span>
+5. <span data-ttu-id="f345a-111">حدد "نعم" في الحقل "إنشاء مستند ضريبة إلكترونية‬".</span><span class="sxs-lookup"><span data-stu-id="f345a-111">Select Yes in the Create electronic tax document field.</span></span>
+6. <span data-ttu-id="f345a-112">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="f345a-112">Click OK.</span></span>
 
 

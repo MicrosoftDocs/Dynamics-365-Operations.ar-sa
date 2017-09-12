@@ -16,304 +16,304 @@ ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3372a985b3cdfde81150f38f5f8af91324cee71d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="work-breakdown-structures"></a>هياكل تنظيم العمل
+# <a name="work-breakdown-structures"></a><span data-ttu-id="53c8c-104">هياكل تنظيم العمل</span><span class="sxs-lookup"><span data-stu-id="53c8c-104">Work breakdown structures</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-إن هيكل تنظيم العمل (WBS) عبارة عن وصف للعمل الذي سيتم إنجازه لمشروع. إنها تدرج هرمي للمهام التي تمثل فهم فريق المشروع لتكوين العمل، وحجم، وتكلفة، ومدة كل مكون أو مهمة. تشتمل WBS على ثلاثة أغراض رئيسية:
+<span data-ttu-id="53c8c-105">إن هيكل تنظيم العمل (WBS) عبارة عن وصف للعمل الذي سيتم إنجازه لمشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-105">A work breakdown structure (WBS) is a description of the work that will be done for a project.</span></span> <span data-ttu-id="53c8c-106">إنها تدرج هرمي للمهام التي تمثل فهم فريق المشروع لتكوين العمل، وحجم، وتكلفة، ومدة كل مكون أو مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-106">It’s a hierarchy of tasks that represents the project team’s understanding of the composition of work, and of the size, cost, and duration of each component or task.</span></span> <span data-ttu-id="53c8c-107">تشتمل WBS على ثلاثة أغراض رئيسية:</span><span class="sxs-lookup"><span data-stu-id="53c8c-107">A WBS has three major purposes:</span></span>
 
--   وصف تنظيم أو تأليف العمل في مهام.
--   جدولة عمل المشروع.
--   تقدير تكلفة كل مهمة.
+-   <span data-ttu-id="53c8c-108">وصف تنظيم أو تأليف العمل في مهام.</span><span class="sxs-lookup"><span data-stu-id="53c8c-108">Describe the breakdown or composition of work in tasks.</span></span>
+-   <span data-ttu-id="53c8c-109">جدولة عمل المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-109">Schedule the project work.</span></span>
+-   <span data-ttu-id="53c8c-110">تقدير تكلفة كل مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-110">Estimate the cost of each task.</span></span>
 
-تعتمد درجة التفصيل في WBS على مستوى الدقة المطلوبة في التقديرات ومستوى التعقب المطلوب مقابل تلك التقديرات. وغالبًا ما تتطلب المشاريع التي تشتمل على تفاوت منخفضة جداً للتعثرات في جدول أو تكلفة  WBS أكثر تفصيلاً وتعقب بعناية لتقدم العمل والتكلفة في مقابل WBS. وهذا النوع من المشاريع شائع في صناعات الهندسة والبناء. 
+<span data-ttu-id="53c8c-111">تعتمد درجة التفصيل في WBS على مستوى الدقة المطلوبة في التقديرات ومستوى التعقب المطلوب مقابل تلك التقديرات.</span><span class="sxs-lookup"><span data-stu-id="53c8c-111">The degree of detail in a WBS depends on the level of accuracy that is required in estimates and the level of tracking that is required against those estimates.</span></span> <span data-ttu-id="53c8c-112">وغالبًا ما تتطلب المشاريع التي تشتمل على تفاوت منخفضة جداً للتعثرات في جدول أو تكلفة  WBS أكثر تفصيلاً وتعقب بعناية لتقدم العمل والتكلفة في مقابل WBS.</span><span class="sxs-lookup"><span data-stu-id="53c8c-112">Projects that have very low tolerance for slippages in schedule or cost usually require a more detailed WBS, and diligent tracking of work progress and cost against the WBS.</span></span> <span data-ttu-id="53c8c-113">وهذا النوع من المشاريع شائع في صناعات الهندسة والبناء.</span><span class="sxs-lookup"><span data-stu-id="53c8c-113">This kind of project is common in the construction and engineering industries.</span></span> 
 
-وفي المقابل، تميل إلى أن تكون المشاريع في صناعات مثل الوسائط والإعلانات والبرامج والبنية التحتية لتكنولوجيا المعلومات من نوع واحد، وتتناسب الإنتاجية مع خبرة واختصاص الشخص الذي يقوم بتنفيذ المهمة. ولذلك، تستخدم هذه الصناعات WBS للحصول على تقريب حجم المشروع، وعدم تتبع التقدم المحرز في هذا المشروع بالتفصيل. 
+<span data-ttu-id="53c8c-114">وفي المقابل، تميل إلى أن تكون المشاريع في صناعات مثل الوسائط والإعلانات والبرامج والبنية التحتية لتكنولوجيا المعلومات من نوع واحد، وتتناسب الإنتاجية مع خبرة واختصاص الشخص الذي يقوم بتنفيذ المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-114">By contrast, projects in industries such as media and advertising, software, and IT infrastructure tend to be one of a kind, and productivity is relative to the experience and competency of the individual who is performing the task.</span></span> <span data-ttu-id="53c8c-115">ولذلك، تستخدم هذه الصناعات WBS للحصول على تقريب حجم المشروع، وعدم تتبع التقدم المحرز في هذا المشروع بالتفصيل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-115">Therefore, these industries use a WBS to get an approximation of the size of a project, not to track the progress of that project in detail.</span></span> 
 
-وإنشاء هيكل تنظيم العمل عبارة عن عملية مكثفة وعادةً ما تتم لفترة طويلة، وتتطلب التعاون والمعلومات الواردة من مجموعة متنوعة من الأشخاص. يصف هذا الموضوع كيفية استخدام تحسينات WBS في Microsoft Dynamics 365 for Finance and Operations لتلبية متطلبات التعقب والتقديرات.
+<span data-ttu-id="53c8c-116">وإنشاء هيكل تنظيم العمل عبارة عن عملية مكثفة وعادةً ما تتم لفترة طويلة، وتتطلب التعاون والمعلومات الواردة من مجموعة متنوعة من الأشخاص.</span><span class="sxs-lookup"><span data-stu-id="53c8c-116">Building a WBS is an intensive process that is usually done over a long period, and that requires collaboration and information from a wide variety of people.</span></span> <span data-ttu-id="53c8c-117">يصف هذا الموضوع كيفية استخدام تحسينات WBS في Microsoft Dynamics 365 for Finance and Operations لتلبية متطلبات التعقب والتقديرات.</span><span class="sxs-lookup"><span data-stu-id="53c8c-117">This topic describes how you can use WBS enhancements in Microsoft Dynamics 365 for Finance and Operations to meet your requirements for estimates and tracking.</span></span>
 
-## <a name="prerequisites-for-creating-a-wbs"></a>المتطلبات الأساسية لإنشاء WBS
-لإنشاء WBS، يجب أن تكون قادراً على إنشاء جدول عمل وتقدير تكلفة العمل.
+## <a name="prerequisites-for-creating-a-wbs"></a><span data-ttu-id="53c8c-118">المتطلبات الأساسية لإنشاء WBS</span><span class="sxs-lookup"><span data-stu-id="53c8c-118">Prerequisites for creating a WBS</span></span>
+<span data-ttu-id="53c8c-119">لإنشاء WBS، يجب أن تكون قادراً على إنشاء جدول عمل وتقدير تكلفة العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-119">To create a WBS, you must be able to create a work schedule and estimate the cost of work.</span></span>
 
-### <a name="prerequisites-for-creating-a-work-schedule"></a>المتطلبات الأساسية لإنشاء جدول العمل
+### <a name="prerequisites-for-creating-a-work-schedule"></a><span data-ttu-id="53c8c-120">المتطلبات الأساسية لإنشاء جدول العمل</span><span class="sxs-lookup"><span data-stu-id="53c8c-120">Prerequisites for creating a work schedule</span></span>
 
-لاستخدام إمكانيات الجدولة الكاملة لميزات WBS، أكمل الإعداد التالي:
+<span data-ttu-id="53c8c-121">لاستخدام إمكانيات الجدولة الكاملة لميزات WBS، أكمل الإعداد التالي:</span><span class="sxs-lookup"><span data-stu-id="53c8c-121">To use the full scheduling capabilities of the WBS features, complete the following setup:</span></span>
 
-1.  قم بإعداد تقويم مشروع وتقويم افتراضي:
-    1.  انقر فوق **محاسبة وإدارة المشروع** &gt; **الإعداد** &gt; **الجدولة**. في حقل **تقويم العمل الافتراضي** ، حدد تقويمًا افتراضيًا. سيكون هذا تقويم العمل الافتراضي لأي مشروع جديد يتم إنشاؤه.
-    2.  يمكنك تغيير التقويم الافتراضي لمشروع محدد. انقر فوق صفحة تفاصيل المشروع، ثم، في لعامة التبويب السريعة **جدولة وفريق المشروع**، قم بتحديث حقل **تقويم الجدولة** بتحديد تقويم آخر.
+1.  <span data-ttu-id="53c8c-122">قم بإعداد تقويم مشروع وتقويم افتراضي:</span><span class="sxs-lookup"><span data-stu-id="53c8c-122">Set up a default calendar and a project calendar:</span></span>
+    1.  <span data-ttu-id="53c8c-123">انقر فوق **محاسبة وإدارة المشروع** &gt; **الإعداد** &gt; **الجدولة**.</span><span class="sxs-lookup"><span data-stu-id="53c8c-123">Click **Project management and accounting** &gt; **Setup** &gt; **Scheduling**.</span></span> <span data-ttu-id="53c8c-124">في حقل **تقويم العمل الافتراضي** ، حدد تقويمًا افتراضيًا.</span><span class="sxs-lookup"><span data-stu-id="53c8c-124">In the **Default working calendar** field, specify a default calendar.</span></span> <span data-ttu-id="53c8c-125">سيكون هذا تقويم العمل الافتراضي لأي مشروع جديد يتم إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="53c8c-125">This will be the default working calendar for any new project that is created.</span></span>
+    2.  <span data-ttu-id="53c8c-126">يمكنك تغيير التقويم الافتراضي لمشروع محدد.</span><span class="sxs-lookup"><span data-stu-id="53c8c-126">You can change the default calendar for a specific project.</span></span> <span data-ttu-id="53c8c-127">انقر فوق صفحة تفاصيل المشروع، ثم، في لعامة التبويب السريعة **جدولة وفريق المشروع**، قم بتحديث حقل **تقويم الجدولة** بتحديد تقويم آخر.</span><span class="sxs-lookup"><span data-stu-id="53c8c-127">Click the project’s details page, and then, on the **Project team and scheduling** FastTab, update the **Scheduling calendar** field by selecting another calendar.</span></span>
 
-2.  إعداد أيام العمل وساعات العمل القياسية. سيتم استخدام التقويم الذي تقوم بتعيينه كتقويم عمل للمشروع في هيكل تنظيم العمل لتحديد المعلومات التالية:
+2.  <span data-ttu-id="53c8c-128">إعداد أيام العمل وساعات العمل القياسية.</span><span class="sxs-lookup"><span data-stu-id="53c8c-128">Set up standard working days and working hours.</span></span> <span data-ttu-id="53c8c-129">سيتم استخدام التقويم الذي تقوم بتعيينه كتقويم عمل للمشروع في هيكل تنظيم العمل لتحديد المعلومات التالية:</span><span class="sxs-lookup"><span data-stu-id="53c8c-129">The calendar that you set as the working calendar for your project will be used in the WBS to determine the following information:</span></span>
 
--   أيام العمل وأيام العطل
--   عدد ساعات العمل في اليوم
+-   <span data-ttu-id="53c8c-130">أيام العمل وأيام العطل</span><span class="sxs-lookup"><span data-stu-id="53c8c-130">Working days and holidays</span></span>
+-   <span data-ttu-id="53c8c-131">عدد ساعات العمل في اليوم</span><span class="sxs-lookup"><span data-stu-id="53c8c-131">The number of working hours in a day</span></span>
 
-لإعداد أيام العمل وساعات العمل لوضع جدول زمني، أو لإنشاء تقويم جديد، انقر فوق **إدارة المؤسسة** &gt; **عام** &gt; **‎تقويمات**.
+<span data-ttu-id="53c8c-132">لإعداد أيام العمل وساعات العمل لوضع جدول زمني، أو لإنشاء تقويم جديد، انقر فوق **إدارة المؤسسة** &gt; **عام** &gt; **‎تقويمات**.</span><span class="sxs-lookup"><span data-stu-id="53c8c-132">To set up the working days and working hours for a calendar, or to create a new calendar, click **Organization administration** &gt; **Common** &gt; **Calendars**.</span></span>
 
-### <a name="prerequisites-for-estimating-the-cost-of-work"></a>المتطلبات المسبقة لتقدير تكلفة العمل
+### <a name="prerequisites-for-estimating-the-cost-of-work"></a><span data-ttu-id="53c8c-133">المتطلبات المسبقة لتقدير تكلفة العمل</span><span class="sxs-lookup"><span data-stu-id="53c8c-133">Prerequisites for estimating the cost of work</span></span>
 
-لاستخدام إمكانيات التكلفة الكاملة في هيكل تنظيم العمل، يجب عليك إعداد التكاليف وأسعار المبيعات للعاملين، وفئات العمالة، والرسوم، والمصروفات، والأصناف.
+<span data-ttu-id="53c8c-134">لاستخدام إمكانيات التكلفة الكاملة في هيكل تنظيم العمل، يجب عليك إعداد التكاليف وأسعار المبيعات للعاملين، وفئات العمالة، والرسوم، والمصروفات، والأصناف.</span><span class="sxs-lookup"><span data-stu-id="53c8c-134">To use the full cost estimation capabilities of the WBS, you should set up the costs and sales prices for workers, categories of labor, expenses, and fees, and items.</span></span>
 
--   لإعداد التكلفة وسعر المبيعات الخاص بالعمالة والمصروفات وفئات الرسوم، انقر فوق **محاسبة وإدارة المشروع** &gt; **‎الإعداد** &gt; **الأسعار**.
--   لإعداد التكلفة وسعر المبيعات للأصناف، استخدم صفحة **الاتفاقيات التجارية** لكل صنف في صفحة قوائم **المنتجات التي تم إصدارها** في إدارة معلومات المنتج.
+-   <span data-ttu-id="53c8c-135">لإعداد التكلفة وسعر المبيعات الخاص بالعمالة والمصروفات وفئات الرسوم، انقر فوق **محاسبة وإدارة المشروع** &gt; **‎الإعداد** &gt; **الأسعار**.</span><span class="sxs-lookup"><span data-stu-id="53c8c-135">To set up the cost and sales price of labor, expense, and fee categories, click **Project management and accounting** &gt; **Setup** &gt; **Prices**.</span></span>
+-   <span data-ttu-id="53c8c-136">لإعداد التكلفة وسعر المبيعات للأصناف، استخدم صفحة **الاتفاقيات التجارية** لكل صنف في صفحة قوائم **المنتجات التي تم إصدارها** في إدارة معلومات المنتج.</span><span class="sxs-lookup"><span data-stu-id="53c8c-136">To set up the cost and sales price of items, use the **Trade agreements** page for each item on the **Released products** list page in Product information management.</span></span>
 
-## <a name="creating-a-wbs"></a>إنشاء WBS
-يشمل إنشاء هيكل تنظيم العمل ثلاثة أنشطة:
+## <a name="creating-a-wbs"></a><span data-ttu-id="53c8c-137">إنشاء WBS</span><span class="sxs-lookup"><span data-stu-id="53c8c-137">Creating a WBS</span></span>
+<span data-ttu-id="53c8c-138">يشمل إنشاء هيكل تنظيم العمل ثلاثة أنشطة:</span><span class="sxs-lookup"><span data-stu-id="53c8c-138">Creating a WBS involves three activities:</span></span>
 
-1.  **تجزئة العمل** – إنشاء تقسيم الأعمال إلى أجزاء أو مهام يمكن إدارتها.
-2.  **جدول العمل** – تقدير الوقت المطلوب لإكمال مهمة وتعيين التبعيات الداخلية للمهام وتحديد تواريخ البدء والانتهاء للمهام.
-3.  **تقدير التكلفة** -تقدير التكاليف لكل مهمة.
+1.  <span data-ttu-id="53c8c-139">**تجزئة العمل** – إنشاء تقسيم الأعمال إلى أجزاء أو مهام يمكن إدارتها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-139">**Work decomposition** – Create a breakdown of work into manageable chunks or tasks.</span></span>
+2.  <span data-ttu-id="53c8c-140">**جدول العمل** – تقدير الوقت المطلوب لإكمال مهمة وتعيين التبعيات الداخلية للمهام وتحديد تواريخ البدء والانتهاء للمهام.</span><span class="sxs-lookup"><span data-stu-id="53c8c-140">**Work schedule** – Estimate the time that is required to complete a task, set task interdependencies, and select the start and end dates for tasks.</span></span>
+3.  <span data-ttu-id="53c8c-141">**تقدير التكلفة** -تقدير التكاليف لكل مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-141">**Cost estimation** – Estimate costs for each task.</span></span>
 
-تناقش المقاطع التالية مدى المساعدة التي تقدمها قدرات WBS لكل نشاط من هذه الأنشطة.
+<span data-ttu-id="53c8c-142">تناقش المقاطع التالية مدى المساعدة التي تقدمها قدرات WBS لكل نشاط من هذه الأنشطة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-142">The following sections discuss how the WBS capabilities can help with each of these activities.</span></span>
 
-### <a name="work-decomposition"></a>تجزئة العمل
+### <a name="work-decomposition"></a><span data-ttu-id="53c8c-143">تجزئة العمل</span><span class="sxs-lookup"><span data-stu-id="53c8c-143">Work decomposition</span></span>
 
-إنشاء تقسيم أو تجزئة العمل عادةً ما تكون الخطوة الأولى في عملية إنشاء WBS. وتدعم وظيفة WBS البنيات الأساسية التالية لتقسيم وتجزئة العمل. 
+<span data-ttu-id="53c8c-144">إنشاء تقسيم أو تجزئة العمل عادةً ما تكون الخطوة الأولى في عملية إنشاء WBS.</span><span class="sxs-lookup"><span data-stu-id="53c8c-144">Creating a breakdown or decomposition of work is usually the first step in the process of creating a WBS.</span></span> <span data-ttu-id="53c8c-145">وتدعم وظيفة WBS البنيات الأساسية التالية لتقسيم وتجزئة العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-145">The WBS functionality supports the following basic constructs for work breakdown or decomposition.</span></span> 
 
-**المهمة الجذر للمشروع** المهمة الجذر للمشروع هي المهمة الموجزة على المستوى الأعلى لمشروع. يتم إنشاء كافة مهام المشروع ضمنها. ويتم تعيين اسم المهمة الجذر دائماً إلى اسم المشروع. ويلخص جهد وتواريخ ومدة العقدة الجذر قيم المهام ضمن المهمة الجذر. لا يمكنك تعديل خصائص عقدة الجذر أو حذفها.
+<span data-ttu-id="53c8c-146">**المهمة الجذر للمشروع** المهمة الجذر للمشروع هي المهمة الموجزة على المستوى الأعلى لمشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-146">**Project root task** The project root task is the top-level summary task for a project.</span></span> <span data-ttu-id="53c8c-147">يتم إنشاء كافة مهام المشروع ضمنها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-147">All other project tasks are created beneath it.</span></span> <span data-ttu-id="53c8c-148">ويتم تعيين اسم المهمة الجذر دائماً إلى اسم المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-148">The name of the root task is always set to the project name.</span></span> <span data-ttu-id="53c8c-149">ويلخص جهد وتواريخ ومدة العقدة الجذر قيم المهام ضمن المهمة الجذر.</span><span class="sxs-lookup"><span data-stu-id="53c8c-149">The effort, dates, and duration of the root node summarize the values for the tasks beneath the root task.</span></span> <span data-ttu-id="53c8c-150">لا يمكنك تعديل خصائص عقدة الجذر أو حذفها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-150">You can’t modify the properties of the root node or delete it.</span></span>
 
-**مهام الحاوية أو الملخص** مهمة الموجزة هي مهمة تشتمل على مهام فرعية أو المهام مكونة ضمنها. ولا تتضمن المهمة الموجزة أي جهود عمل أو تكلفة خاصة به. وبدلاً من ذلك، جهود العمل وتكلفة المهمة الموجزة هي مجموع جهود العمل وتكاليف المهام المكونة لها. ويتم استخدام أقرب تاريخ بدء للمهام المكونة كتاريخ بدء للمهمة الموجزة، ويُستخدم أحدث تاريخ انتهاء للمهام المكونة كتاريخ انتهاء. ويمكنك تعديل اسم المهمة الموجزة، ولكن لا يمكنك تعديل خصائص الجدولة للجهد والتواريخ والمدة. وإذا قمت بحذف مهمة موجزة، يمكنك أيضًا حذف كافة المهام المكونة لها. 
+<span data-ttu-id="53c8c-151">**مهام الحاوية أو الملخص** مهمة الموجزة هي مهمة تشتمل على مهام فرعية أو المهام مكونة ضمنها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-151">**Summary or container tasks** A summary task is a task that has sub-tasks or constituent tasks beneath it.</span></span> <span data-ttu-id="53c8c-152">ولا تتضمن المهمة الموجزة أي جهود عمل أو تكلفة خاصة به.</span><span class="sxs-lookup"><span data-stu-id="53c8c-152">A summary task doesn’t have any work effort or cost of its own.</span></span> <span data-ttu-id="53c8c-153">وبدلاً من ذلك، جهود العمل وتكلفة المهمة الموجزة هي مجموع جهود العمل وتكاليف المهام المكونة لها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-153">Instead, the work effort and cost of a summary task are the sum of the work effort and cost of its constituent tasks.</span></span> <span data-ttu-id="53c8c-154">ويتم استخدام أقرب تاريخ بدء للمهام المكونة كتاريخ بدء للمهمة الموجزة، ويُستخدم أحدث تاريخ انتهاء للمهام المكونة كتاريخ انتهاء.</span><span class="sxs-lookup"><span data-stu-id="53c8c-154">The earliest start date of the constituent tasks is used as the start date of the summary task, and the latest end date of the constituent tasks is used as the end date.</span></span> <span data-ttu-id="53c8c-155">ويمكنك تعديل اسم المهمة الموجزة، ولكن لا يمكنك تعديل خصائص الجدولة للجهد والتواريخ والمدة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-155">You can modify the name of a summary task, but you can’t modify the scheduling properties for effort, dates, and duration.</span></span> <span data-ttu-id="53c8c-156">وإذا قمت بحذف مهمة موجزة، يمكنك أيضًا حذف كافة المهام المكونة لها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-156">If you delete a summary task, you also delete all its constituent tasks.</span></span> 
 
-**مهام العقدة الطرفية** تمثل مهمة العقدة الطرفية حزمة العمل الأكثر تفصيلاً في المشروع. وتشتمل العقدة الطرفية على الحهد المقدر، وعدد الموارد المخطط، وتاريخ البدء والانتهاء المخطط، والمدة. 
+<span data-ttu-id="53c8c-157">**مهام العقدة الطرفية** تمثل مهمة العقدة الطرفية حزمة العمل الأكثر تفصيلاً في المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-157">**Leaf node tasks** A leaf node task represents the most granular work package on the project.</span></span> <span data-ttu-id="53c8c-158">وتشتمل العقدة الطرفية على الحهد المقدر، وعدد الموارد المخطط، وتاريخ البدء والانتهاء المخطط، والمدة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-158">A leaf node has an estimated effort, a planned number of resources, a planned start date and end date, and duration.</span></span> 
 
-ويمكنك إكمال عمليات التدرج الهرمي التالية لتمكين إنشاء تدرج هرمي العمل أو تجزئة المشروع. 
+<span data-ttu-id="53c8c-159">ويمكنك إكمال عمليات التدرج الهرمي التالية لتمكين إنشاء تدرج هرمي العمل أو تجزئة المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-159">You can complete the following hierarchy operations to enable the creation of a work hierarchy or decomposition for a project.</span></span> 
 
-**المهمة الجديدة** يتم تلقائياً إضافة أي مهمة جديدة تقوم بإنشائها ضمن العقدة الجذر، ويتم تلقائياً تعيين رقم WBS للمهمة. ويمثل رقم WBS مستوى المهمة في التدرج الهرمي. وبالنسبة للمهام في المستوى الأول ضمن المهمة الجذر للمشروع، يتم استخدام نظام ترقيم 1، و2، و3، وهكذا. وبالنسبة للمهام ضمن المستوى الأول، يتم استخدام نظام الترقيم 1.1، و1.2، و1.3، وهكذا. وبالنسبة لكل مستوى يُضاف ضمن مستوى سابق، تتم إضافة سلسلة منقطة من الأرقام. 
+<span data-ttu-id="53c8c-160">**المهمة الجديدة** يتم تلقائياً إضافة أي مهمة جديدة تقوم بإنشائها ضمن العقدة الجذر، ويتم تلقائياً تعيين رقم WBS للمهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-160">**New task** Any new task that you create is automatically added under the root node, and a WBS number is automatically assigned to the task.</span></span> <span data-ttu-id="53c8c-161">ويمثل رقم WBS مستوى المهمة في التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="53c8c-161">The WBS number represents the task’s level in the hierarchy.</span></span> <span data-ttu-id="53c8c-162">وبالنسبة للمهام في المستوى الأول ضمن المهمة الجذر للمشروع، يتم استخدام نظام ترقيم 1، و2، و3، وهكذا.</span><span class="sxs-lookup"><span data-stu-id="53c8c-162">For tasks in the first level under the project root task, a numbering scheme of 1, 2, 3, and so on is used.</span></span> <span data-ttu-id="53c8c-163">وبالنسبة للمهام ضمن المستوى الأول، يتم استخدام نظام الترقيم 1.1، و1.2، و1.3، وهكذا.</span><span class="sxs-lookup"><span data-stu-id="53c8c-163">For tasks that are under the first level, a numbering scheme of 1.1, 1.2, 1.3, and so on is used.</span></span> <span data-ttu-id="53c8c-164">وبالنسبة لكل مستوى يُضاف ضمن مستوى سابق، تتم إضافة سلسلة منقطة من الأرقام.</span><span class="sxs-lookup"><span data-stu-id="53c8c-164">For each level that is added under a previous level, a new dotted series of numbers is added.</span></span> 
 
-وحاليًا، لا يمكنك تخصيص ترقيم WBS. 
+<span data-ttu-id="53c8c-165">وحاليًا، لا يمكنك تخصيص ترقيم WBS.</span><span class="sxs-lookup"><span data-stu-id="53c8c-165">Currently, you can’t customize the WBS numbering.</span></span> 
 
-**تقليل مستوى المهمة** عند تقليل مستوى مهمة، تصبح تابعة للمهمة التي تسبقها. ويتم حساب رقم WBS للمهمة الجديدة التابعة تلقائياً بناءً على رقم WBS للأصل الجديد. والمهمة الأصلية هي الآن مهمة ملخص أو حاوية، ولذلك تصبح ملخصاً للمهام المكونة لها. 
-
-> [!NOTE] 
-> عند قيامك بتقليل مستوى المهام ضمن مهمة كانت عقدة طرفية قبل عملية المسافة البادئة، تفقد المهمة الموجزة التي تم إنشاؤها حديثا التواريخ والجهد وعدد الموارد الخاصة بها. وتستخدم الآن ملخصاً للقيم المهام المكونة الجديدة. 
-
-**تحريك المهمة إلى مستوى أعلى** عند تحريك مهمة إلى مستوى أعلى، لا تُعد مهمة مكونة في الأصل الخاص بها. وتتم إعادة حساب رقم WBS هذه المهمة تلقائياً ليعكس المستوى الجديد للمهمة في التسلسل الهرمي. وتتم إعادة حساب الجهد، والتكلفة، والتواريخ لمهمة الأصل السابقة للمهمة لاستبعاد تلك المهمة. 
-
-**تحريك لأعلى وتحريك لأسفل** عند النقر فوق **تحريك لأعلى** و**تحريك لأسفل**، يمكنك تغيير موضع المهمة ضمن التسلسل الهرمي للأصل الخاص بها. لا يؤثر موضع مهمة على جهد أو تكلفة أو تواريخ أو مدة المهمة. ومع ذلك، تتم إعادة حساب رقم WBS للمهمة تلقائياً ليعكس الموضع الجديد للمهمة.
-
-### <a name="schedule-estimation"></a>تقدير الجدولة
-
-تقدير الجدولة هو عادةً الخطوة الثانية في إنشاء هيكل تنظيم العمل. وكممارسة مثلى، يجب إكمال تقدير الجدولة بعد إنشاء المهام. تشتمل صفحة **هيكل تنظيم العمل** في Finance and Operations على قسمين. ويتم استخدام الجزء العلوي بغرض تقدير الجدولة، ويتضمن الجزء السفلي علامة التبويب **التكاليف والإيرادات المقدرة** التي يمكن استخدامها لتقدير التكلفة. 
-**تبعيات المهام** في WBS، يمكنك إنشاء علاقة سابقة بين المهام. وعند تعيين المهام السابقة لمهمة، لا يمكن بدء تلك المهمة إلا بعد إكمال كافة المهام السابقة الخاصة به. ويتم تلقائياً تعيين تاريخ البدء المخطط للمهمة لآخر تاريخ لكافة المهام السابقة. 
-
-**مهام الجدولة في Microsoft Dynamics 365 for Finance and Operations** تحدد العوامل التالية جدولة مهام العقدة الطرفية:
-
--   العناصر السابقة
--   الجهد
--   عدد الموارد
--   تاريخا البدء والانتهاء
-
-يتم تعيين تاريخ البدء لمهمة العقدة الطرفية التي لا تشتمل على مهام سابقة تلقائياً إلى تاريخ بدء جدولة المشروع. ويتم حساب مدة مهمة العقدة الطرفية دائماً بعدد أيام العمل بين تاريخي البدء والانتهاء الخاصين بها. 
-
-****قواعد الجدولة**** عندما يتم تشغيل مساعدة الجدولة التلقائية، يتم تطبيق القواعد التالية على جدولة المهام لمهام العقدة الطرفية:
-
--   يجب أن تكون تواريخ البدء والانتهاء لمهمة أيام عمل، وفقًا لتقويم جدولة المشروع.
--   ويتم تلقائياً تعيين تاريخ بدء مهمة تشتمل على مهام سابق لها إلى آخر تاريخ نهاية لكافة المهام السابقة لها.
--   يتم حساب جهد المهمة تلقائياً كما يلي:
-
-عدد الأشخاص × المدة × عدد الساعات في يوم عمل قياسي في تقويم المشروع. 
-
-في بعض الحالات، قد تحتاج إلى الخروج عن هذه القواعد. ويمكنك إيقاف الجدولة التلقائية لمنع Finance and Operations من تعيين أو تصحيح أية خصائص لمهام العقدة الطرفية تلقائيًا. وعند إدخال معلومات لمهمة تؤدي إلى مخالفة لأيٍّ من قواعد الجدولة، يتم عرض رمز خطأ جدولة للمهمة. وإذا كنت لا تريد جدولة الأخطاء لعرضها، فانقر فوق **يتم عرض أخطاء الجدولة** لإيقاف تشغيل الميزة. 
+<span data-ttu-id="53c8c-166">**تقليل مستوى المهمة** عند تقليل مستوى مهمة، تصبح تابعة للمهمة التي تسبقها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-166">**Indent task** When you indent a task, it becomes a child of the task that precedes it.</span></span> <span data-ttu-id="53c8c-167">ويتم حساب رقم WBS للمهمة الجديدة التابعة تلقائياً بناءً على رقم WBS للأصل الجديد.</span><span class="sxs-lookup"><span data-stu-id="53c8c-167">The WBS number of the new child task is automatically recalculated based on the WBS number of its new parent.</span></span> <span data-ttu-id="53c8c-168">والمهمة الأصلية هي الآن مهمة ملخص أو حاوية، ولذلك تصبح ملخصاً للمهام المكونة لها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-168">The parent task is now a summary or container task, and therefore becomes a roll-up of its constituent tasks.</span></span> 
 
 > [!NOTE] 
-> يستمر حساب القيم الخاصة بمهمة ملخص أو حاوية باعتبارها مجموع قيم المهام المكونة، بغض النظر عن تشغيل مساعدة الجدولة التلقائية أو إيقاف تشغيلها. 
+> <span data-ttu-id="53c8c-169">عند قيامك بتقليل مستوى المهام ضمن مهمة كانت عقدة طرفية قبل عملية المسافة البادئة، تفقد المهمة الموجزة التي تم إنشاؤها حديثا التواريخ والجهد وعدد الموارد الخاصة بها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-169">When you indent tasks under a task that was a leaf node before the indent operation, the newly created summary task loses its own dates, effort, and number of resources.</span></span> <span data-ttu-id="53c8c-170">وتستخدم الآن ملخصاً للقيم المهام المكونة الجديدة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-170">It now uses a summary of the values of its new constituent tasks.</span></span> 
 
-**إصلاح أخطاء الجدولة** عند تشغيل مساعدة الجدولة التلقائية، من غير المحتمل أن تحدث أخطاء جدولة. ومع ذلك، إذا قمت بإيقاف تشغيل مساعدة الجدولة التلقائية وقم بتشغيلها مرة أخرى في وقت لاحق، قد تظهر رموز خطأ في هيكل تنظيم العمل. 
+<span data-ttu-id="53c8c-171">**تحريك المهمة إلى مستوى أعلى** عند تحريك مهمة إلى مستوى أعلى، لا تُعد مهمة مكونة في الأصل الخاص بها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-171">**Outdent task** When you outdent a task, it’s no longer a constituent task of its parent.</span></span> <span data-ttu-id="53c8c-172">وتتم إعادة حساب رقم WBS هذه المهمة تلقائياً ليعكس المستوى الجديد للمهمة في التسلسل الهرمي.</span><span class="sxs-lookup"><span data-stu-id="53c8c-172">The WBS number of this task is automatically recalculated to reflect the task’s new level in the hierarchy.</span></span> <span data-ttu-id="53c8c-173">وتتم إعادة حساب الجهد، والتكلفة، والتواريخ لمهمة الأصل السابقة للمهمة لاستبعاد تلك المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-173">The effort, cost, and dates of the task’s previous parent task are recalculated to exclude that task.</span></span> 
 
-**إصلاح أخطاء الجدولة حسب المهمة** عند النقر المزدوج فوق رمز خطأ جدولة لمهمة معينة، يعرض مربع حوار كافة أخطاء الجدولة لهذه المهمة. يمكنك أن تقرر أخطاء الجدولة لإصلاحها للمهمة. 
+<span data-ttu-id="53c8c-174">**تحريك لأعلى وتحريك لأسفل** عند النقر فوق **تحريك لأعلى** و**تحريك لأسفل**، يمكنك تغيير موضع المهمة ضمن التسلسل الهرمي للأصل الخاص بها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-174">**Move up and Move down** When you click **Move up** and **Move down**, you change the position of a task within its parent’s hierarchy.</span></span> <span data-ttu-id="53c8c-175">لا يؤثر موضع مهمة على جهد أو تكلفة أو تواريخ أو مدة المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-175">The position of a task doesn’t affect the task’s effort, cost, dates, or duration.</span></span> <span data-ttu-id="53c8c-176">ومع ذلك، تتم إعادة حساب رقم WBS للمهمة تلقائياً ليعكس الموضع الجديد للمهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-176">However, the WBS number of the task is automatically recalculated to reflect the task’s new position.</span></span>
 
-**إصلاح كافة أخطاء الجدولة** إذا أردت من Finance and Operations إصلاح كافة أخطاء الجدولة في هيكل تنظيم العمل، في "جزء الإجراءات"، انقر فوق **إصلاح كافة تعارضات الجدولة**. 
+### <a name="schedule-estimation"></a><span data-ttu-id="53c8c-177">تقدير الجدولة</span><span class="sxs-lookup"><span data-stu-id="53c8c-177">Schedule estimation</span></span>
 
-> [!NOTE] 
-> يمكن أن تسبب هذه الميزة تعديلات كبيرة على هيكل تنظيم العمل. يتم تصحيح الأخطاء بالترتيب التالي:
+<span data-ttu-id="53c8c-178">تقدير الجدولة هو عادةً الخطوة الثانية في إنشاء هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-178">Schedule estimation is usually the second step in creating a WBS.</span></span> <span data-ttu-id="53c8c-179">وكممارسة مثلى، يجب إكمال تقدير الجدولة بعد إنشاء المهام.</span><span class="sxs-lookup"><span data-stu-id="53c8c-179">As a best practice, you should complete schedule estimation after you create the tasks.</span></span> <span data-ttu-id="53c8c-180">تشتمل صفحة **هيكل تنظيم العمل** في Finance and Operations على قسمين.</span><span class="sxs-lookup"><span data-stu-id="53c8c-180">The **Work breakdown structure** page in Finance and Operations has two sections.</span></span> <span data-ttu-id="53c8c-181">ويتم استخدام الجزء العلوي بغرض تقدير الجدولة، ويتضمن الجزء السفلي علامة التبويب **التكاليف والإيرادات المقدرة** التي يمكن استخدامها لتقدير التكلفة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-181">The upper pane is intended for schedule estimation, and the lower pane includes an **Estimated costs and revenues** tab that you can use for cost estimation.</span></span> 
+<span data-ttu-id="53c8c-182">**تبعيات المهام** في WBS، يمكنك إنشاء علاقة سابقة بين المهام.</span><span class="sxs-lookup"><span data-stu-id="53c8c-182">**Task dependencies** In a WBS, you can create a predecessor relationship between tasks.</span></span> <span data-ttu-id="53c8c-183">وعند تعيين المهام السابقة لمهمة، لا يمكن بدء تلك المهمة إلا بعد إكمال كافة المهام السابقة الخاصة به.</span><span class="sxs-lookup"><span data-stu-id="53c8c-183">When you assign predecessor tasks to a task, that task can start only after all its predecessor tasks have been completed.</span></span> <span data-ttu-id="53c8c-184">ويتم تلقائياً تعيين تاريخ البدء المخطط للمهمة لآخر تاريخ لكافة المهام السابقة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-184">The planned start date of the task is automatically set to the latest date of all its predecessors.</span></span> 
 
-1.  يتم تعديل الجهد المقدر في كافة المهام حيث إنها تساوي القدرة المحددة في تقويم المشروع.
-2.  ويتم تعديل تاريخ بدء كل مهمة بحيث تبدأ المهمة بعد اكتمال حميع المهام السابقة لها.
-3.  تم تعديل تاريخ بدء كل مهمة لإزالة الثغرات في تواريخ بدء المهام السابقة.
+<span data-ttu-id="53c8c-185">**مهام الجدولة في Microsoft Dynamics 365 for Finance and Operations** تحدد العوامل التالية جدولة مهام العقدة الطرفية:</span><span class="sxs-lookup"><span data-stu-id="53c8c-185">**Task scheduling in Microsoft Dynamics 365 for Finance and Operations** The following factors determine the scheduling of leaf node tasks:</span></span>
 
-### <a name="cost-estimation"></a>تقدير التكلفة
+-   <span data-ttu-id="53c8c-186">العناصر السابقة</span><span class="sxs-lookup"><span data-stu-id="53c8c-186">Predecessors</span></span>
+-   <span data-ttu-id="53c8c-187">الجهد</span><span class="sxs-lookup"><span data-stu-id="53c8c-187">Effort</span></span>
+-   <span data-ttu-id="53c8c-188">عدد الموارد</span><span class="sxs-lookup"><span data-stu-id="53c8c-188">The number of resources</span></span>
+-   <span data-ttu-id="53c8c-189">تاريخا البدء والانتهاء</span><span class="sxs-lookup"><span data-stu-id="53c8c-189">Start and end dates</span></span>
 
-كما ذُكر سابقًا في هذا المستند، يمكنك إدخال تقدير التكلفة لكل مهمة عقدة طرفية باستخدام علامة التبويب **التكاليف والإيرادات المقدرة** في الجزء السفلي من صفحة **هيكل تنظيم العمل**. 
+<span data-ttu-id="53c8c-190">يتم تعيين تاريخ البدء لمهمة العقدة الطرفية التي لا تشتمل على مهام سابقة تلقائياً إلى تاريخ بدء جدولة المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-190">The start date of a leaf node task that doesn’t have predecessors is automatically set to the project’s scheduling start date.</span></span> <span data-ttu-id="53c8c-191">ويتم حساب مدة مهمة العقدة الطرفية دائماً بعدد أيام العمل بين تاريخي البدء والانتهاء الخاصين بها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-191">The duration of a leaf node task is always calculated as the number of working days between its start and end dates.</span></span> 
 
-> [!NOTE] 
-> لا يمكنك تعديل تقدير التكلفة لمهمة ملخص أو حاوية. يساوي تقدير التكلفة لكل مهمة ملخص مجموع تقدير التكلفة لمهام العقدة الطرفية الخاصة بها. يتم حساب التكلفة الإجمالية المقدرة لكل مهمة كمجموع مبالغ التكلفة المقدرة لأنواع الحركات التالية:
+<span data-ttu-id="53c8c-192">****قواعد الجدولة**** عندما يتم تشغيل مساعدة الجدولة التلقائية، يتم تطبيق القواعد التالية على جدولة المهام لمهام العقدة الطرفية:</span><span class="sxs-lookup"><span data-stu-id="53c8c-192">****Scheduling rules**** When automatic scheduling assistance is turned on, the following rules apply to task scheduling for leaf node tasks:</span></span>
 
--   عمالة
--   الصنف أو المادة
--   المصروفات
+-   <span data-ttu-id="53c8c-193">يجب أن تكون تواريخ البدء والانتهاء لمهمة أيام عمل، وفقًا لتقويم جدولة المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-193">The start and end dates of a task must be working days, according to the project’s scheduling calendar.</span></span>
+-   <span data-ttu-id="53c8c-194">ويتم تلقائياً تعيين تاريخ بدء مهمة تشتمل على مهام سابق لها إلى آخر تاريخ نهاية لكافة المهام السابقة لها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-194">The start date of a task that has predecessors is automatically set to the latest end date of its predecessors.</span></span>
+-   <span data-ttu-id="53c8c-195">يتم حساب جهد المهمة تلقائياً كما يلي:</span><span class="sxs-lookup"><span data-stu-id="53c8c-195">The effort for a task is automatically calculated as follows:</span></span>
 
-يتم استخدام نوع حركة **الرسوم** لتقدير الدخل القائم على الرسوم. ولا ينطوي نوع الحركة هذا على مكون تكلفة، وبالتالي لا تتم مراعاة ذلك عند تقدير التكاليف. 
+<span data-ttu-id="53c8c-196">عدد الأشخاص × المدة × عدد الساعات في يوم عمل قياسي في تقويم المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-196">Number of people × Duration × Number of hours in a standard working day in the project calendar.</span></span> 
 
-ويتم استخدام نوع الحركة **على الحساب** لتسجيل قيمة المبيعات المتعاقد عليه في نوع القيمة الثابتة للمشروع. ولا تتم مراعاة هذا النوع من الحركة أيضًا عندما يتم تقدير التكاليف. 
-
-وعندما تقوم بتقدير التكاليف للمواد والعمالة والمصروفات لكل مهمة، يجب أن تقوم بتعيين فئة مشروع للتكلفة المقدرة. 
-
-**تكاليف العمالة المقدرة** بالنسبة لكل مهمة عقدة طرفية، تقوم بتعيين جهد عمل بالساعات وفئة افتراضية. ولذلك، عند إعداد جدولة لمهمة، يُضاف تقدير تكلفة العمالة لهذه المهمة تلقائياً في الفئة الافتراضية للعمالة. ويتم عرض تقدير التكلفة هذا في علامة التبويب **التكاليف والإيرادات المقدرة** في شبكة **تفاصيل البند** لهذه المهمة. وإذا كنت تحتاج إلى مزيد من تقديرات تكاليف العمالة، يمكنك إضافتها في علامة التبويب هذه. وإذا قمت بزيادة أو إنقاص الساعات في تقدير تكلفة العمالة، فإنه تتم تلقائياً إعادة حساب الجدول الزمني للمهمة. 
-
-**تقدير تكاليف المواد والمصروفات** كما تتيح علامة التبويب **التكاليف والإيرادات المقدرة** لك إمكانية تقدير تكاليف المواد والمصروفات لمهمة، إذا كنت تحتاج إلى تقديرات. 
-
-وتعتمد التكلفة وسعر المبيعات لكل بند تقرير المصروفات والعمالية الإعداد المحدد لكل فئة في جداول التسعير في **محاسبة وإدارة المشروع** &gt; **‎الإعداد** &gt; **التسعير**. وبالنسبة للأصناف، تتم إضافة التكلفة وسعر المبيعات افتراضيًا من اتفاقيات التجارة أو الصنف في صفحة قائمة **المنتجات الصادرة** في إدارة معلومات المنتج.
-
-## <a name="tracking-progress-on-the-wbs"></a>تتبع التقدم المحرز في هيكل تنظيم العمل
-تتعقب بعض الصناعات تقدم المشروع مقابل WBS في مستوى مرغوب جداً، بينما تتعقب الصناعات الأخرى التقدم المحرز على مستوى أعلى لهيكل تنظيم العمل. يصف هذا القسم كيفية استخدام تعقب WBS لمتطلبات المشروع. 
-
-يحتوي Finance and Operations على ثلاث طرق عرض لهيكل تنظيم العمل لمشروع: عرض التخطيط، وعرض تعقب الجهد، وعرض تعقب التكلفة.
-
-### <a name="planning-view"></a>عرض التخطيط
-
-تعرض طريقة عرض التخطيط التقدير الأساسي أو المخطط لمعلومات التكاليف والجدول. وعلى الرغم من عدم وجود أي ميزات لتعقب الإصدار وخط الأساس لهيكل تنظم عمل مشروع، فإنه يتم استخدام القيم الموجودة في طريقة العرض هذه لعرض الإصدار الأساسي. ويصف قسما تقدير الجدولة وتقدير التكاليف في هذا الموضوع طريقة العرض هذه وكيفية استخدامها لإنشاء هيكل تنظيم العمل.
-
-### <a name="effort-tracking-view"></a>طريقة عرض تعقب الجهد
-
-تعرض طريقة عرض تعقب الجهد تقدم المهام في هيكل تنظيم العمل. وتقارن ساعات الجهد التراكمية الفعلية لمهمة بساعات الجهد المخططة. توفر المعادلات التالية القيم في طريقة عرض تعقب الجهد:
-
--   النسبة المئوية للتقدم = الجهد الفعلي حتى الآن ÷ الجهد المخطط للمهمة
--   الجهد المتبقي (يُعرف أيضًا بالتقدير حتى الاكتمال \[ETC\]) = الجهد المخطط – الجهد الفعلي حتى تاريخه
--   التقدير عند الاكتمال (EAC) = الجهد المتبقي + الجهد الفعلي حتى الآن
--   فرق الجهد المتوقع‬ = الجهد المخطط – EAC
-
-تعرض طريقة عرض تعقب الجهد فرق الجهد للمهمة، استناداً إلى ما إذا كان التقدير عند الاكتمال أكثر أو أقل من الجهد المخطط:
-
--   إذا كان التقدير حتى الاكتمال أكثر من الجهد المخطط، يُتوقع من المهمة استغراق وقت أطول مما هو مخطط له أصلاً وتكون متأخرة عن موعدها.
--   إذا كان التقدير حتى الاكتمال أقل من الجهد المخطط، يُتوقع من المهمة استغراق وقت أقل مما هو مخطط له أصلاً وتكون متقدمة عن موعدها.
-
-**إعادة توقع جهد مدير المشروع** في بعض الأحيان، سيلزم مدير المشروع أو شخص آخر يقوم بتعقب تقدم المشروع مراجعة التقديرات الأصلية في مهمة. وقد تتحرك المهمة بشكل أسرع أو أبطأ مما كان متوقعًا لأسباب مختلفة. على سبيل المثال، تم تقليص النطاق أو أن العاملين لديهم خبرة أقل مما كان مخططًا له أصلاً. والتوقعات هي إدراك مدير المشروع للتقديرات، استناداً إلى الحالة الحالية لمشروع. وبشكل عام، يجب عليك عدم تغيير الأرقام الأساسية، لأن أساس المشروع يقدم وثيقة منشورة جيدًا لتقدير التكلفة والجدولة لمشروع يج على جميع أصحاب المصلحة في المشروع الموافقة عليها. 
-
-هناك طريقتان يستطيع بها مديرا المشاريع تعديل الجهد في المهام:
-
--   تعديل الجهد المتبقي الذي تم تعيينه لتحديث الجهد المتبقي الفعلي في المهمة تلقائيًا.
--   تعديل النسبة المئوية للتقدم الذي يتم تعيينه تلقائيًا لتحديث التقدم الحقيقي في المهمة.
-
-يؤدي كلا النهجين إلى إعادة حساب التقدير حتى الاكتمال والتقدير عند الاكتمال للمهمة، والنسبة المئوية للتقدم، وفرق جهد المتوقع في المهمة. كما تتم إعادة حساب التقدير حتى الاكتمال والتقدير عند الاكتمال والنسبة المئوية للتقدم في مهام الملخص، ويتم تحديث فرق الجهد المتوقع الخاصة بها. 
-
-**تعديل الجهد في مهام الملخص** يمكنك تعديل الجهد في مهام الملخص أو الحاوية. بغض النظر عن ما إذا كنت تقوم بتعديل هذه القيم باستخدام الجهد المتبقي أو النسبة المئوية للتقدم في مهام الملخص، وتحدث العمليات الحسابية تلقائياً في الترتيب التالي:
-
-1.  يتم حساب التقدير حتى الاكتمال والتقدير عند الاكتمال والنسبة المئوية للتقدم في المهمة.
-2.  يتم توزيع التقدير عند الاكتمال على المهام التابعة بنفس نسبة مبلغ التقدير عند الاكتمال الأصلي.
-3.  يتم حساب التقدير عند الاكتمال الجديد في كل مهمة عقدة طرفية جديدة.
-4.  تتم إعادة حساب الجهد المتبقي والنسبة المئوية للتقدم لكافة المهام التابعة المتأثرة، استناداً قيمة التقدير عند الاكتمال الجديدة. كما تتم إعادة حساب فرق الجهد للمهام.
-5.  كما تتم إعادة حساب التقدير عند الاكتمال لمهام الملخص من العقد الطرفية.
-
-انقر فوق **توسيع إلى مستوى** في طريقة عرض تعقب الجهد لتعيين المستوى الذي يجب فيه تعقب والاحتفاظ بهيكل تنظيم العمل الخاص بك. يتم توسيع هيكل تنظيم العمل تلقائياً إلى هذا المستوى في طريقة عرض تعقب الجهد عندما تقوم بفتحها.
-
-### <a name="cost-tracking-view"></a>طريقة عرض تعقب التكلفة
-
-تعرض طريقة عرض تعقب التكلفة تعقب استهلاك التكلفة لإحدى مهام. وفي طريقة العرض هذه، تتم مقارنة التكلفة الفعلية التي أُنفقت مقابل مهمة حتى تاريخه بالتكلفة المخططة للمهمة. توفر المعادلات التالية القيم في طريقة عرض تعقب التكلفة:
-
--   النسبة المئوية للتكلفة المستهلكة = التكلفة الفعلية حتى تاريخه ÷ التكلفة المخططة للمهمة
--   تكلفة الإكمال‬ (CTC) = التكلفة المخططة - التكلفة الفعلية حتى تاريخه
--   التقدير عند الاكتمال (EAC) = تكلفة الإكمال + التكلفة الفعلية حتى تاريخه
--   فرق التكلفة المتوقع = التكلفة المخططة – التقدير عند الاكتمال
-
-تعرض طريقة عرض تعقب التكلفة فرق الجهد للمهمة، استناداً إلى ما إذا كان التقدير عند الاكتمال أكثر أو أقل من التكلفة المخططة:
-
--   إذا كان التقدير عند الاكتمال أكثر من التكلفة المخططة، يُتوقع من المهمة استخدام أموال أكثر مما هو مخطط له أصلاً وتكون زائدة عن الموازنة.
--   إذا كان التقدير عند الاكتمال أقل من التكلفة المخططة، يُتوقع من المهمة استخدام أموال أقل مما هو مخطط له أصلاً وتكون ناقصة عن الموازنة.
-
-**إعادة توقع التكلفة لمدير المشروع** يجب على مديري المشاريع استخدام تكلفة الإكمال لتنقيح تقدير التكلفة الأصلية في مهمة. يمكن لمدير المشروع تعديل قيمة تكلفة الإكمال إلى التكلفة المطلوبة لإكمال المهمة. وإذا قمت بتعديل قيمة تكلفة الإكمال، فإنه تتم إعادة حساب تكلفة الإكمال والتقدير عند الاكتمال للمهمة والنسبة المئوية للتكلفة المستهلكة وفرق التكلفة المتوقع في مهمة. كما تتم إعادة حساب التقدير حتى الاكتمال والتقدير عند الاكتمال والنسبة المئوية للتكلفة المستهلكة في مهام الملخص، ويتم تحديث فرق التكلفة المتوقع الخاصة بها. 
+<span data-ttu-id="53c8c-197">في بعض الحالات، قد تحتاج إلى الخروج عن هذه القواعد.</span><span class="sxs-lookup"><span data-stu-id="53c8c-197">In some cases, you might want to deviate from these rules.</span></span> <span data-ttu-id="53c8c-198">ويمكنك إيقاف الجدولة التلقائية لمنع Finance and Operations من تعيين أو تصحيح أية خصائص لمهام العقدة الطرفية تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="53c8c-198">You can turn off automatic scheduling to prevent Finance and Operations from automatically setting or correcting any properties of leaf node tasks.</span></span> <span data-ttu-id="53c8c-199">وعند إدخال معلومات لمهمة تؤدي إلى مخالفة لأيٍّ من قواعد الجدولة، يتم عرض رمز خطأ جدولة للمهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-199">When you enter information for a task that causes a violation of any scheduling rules, a scheduling error icon is shown for the task.</span></span> <span data-ttu-id="53c8c-200">وإذا كنت لا تريد جدولة الأخطاء لعرضها، فانقر فوق **يتم عرض أخطاء الجدولة** لإيقاف تشغيل الميزة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-200">If you don’t want scheduling errors to be displayed, click **Scheduling errors are shown** to turn off the feature.</span></span> 
 
 > [!NOTE] 
-> عندما تراجع جهدًا لمهمة هيكل تنظيم العمل في طريقة عرض تعقب الجهد، تتم إعادة حساب كل من تكلفة الإكمال والتقدير عند الاكتمال للمهمة والنسبة المئوية للتكاليف المستهلكة، وفرق التكلفة المتوقع في طريقة عرض تعقب التكلفة. ومع ذلك، لا تؤثر المراجعات في القيم الموجودة في طريقة عرض تعقب الجهد، نظراً لأنه لا تتم مراجعة التكلفة حسب نوع الحركة (العمالة أو المادة أو المصروفات) أو فئة المشروع. 
+> <span data-ttu-id="53c8c-201">يستمر حساب القيم الخاصة بمهمة ملخص أو حاوية باعتبارها مجموع قيم المهام المكونة، بغض النظر عن تشغيل مساعدة الجدولة التلقائية أو إيقاف تشغيلها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-201">The values for a summary or container task continue to be calculated as the sum of the values of the constituent tasks, regardless of whether automatic scheduling assistance is turned on or off.</span></span> 
 
-**مراجعة التوقع للتكاليف في مهام الملخص** يمكنك مراجعة التكاليف في مهام الملخص، وتتم العمليات الحسابية تلقائياً بالترتيب التالي:
+<span data-ttu-id="53c8c-202">**إصلاح أخطاء الجدولة** عند تشغيل مساعدة الجدولة التلقائية، من غير المحتمل أن تحدث أخطاء جدولة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-202">**Fixing scheduling errors** When automatic scheduling assistance is turned on, scheduling errors aren’t likely to occur.</span></span> <span data-ttu-id="53c8c-203">ومع ذلك، إذا قمت بإيقاف تشغيل مساعدة الجدولة التلقائية وقم بتشغيلها مرة أخرى في وقت لاحق، قد تظهر رموز خطأ في هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-203">However, if you turn off automatic scheduling assistance and then turn it back on later, scheduling error icons might appear in the WBS.</span></span> 
 
-1.  تتم إعادة حساب التقدير عند الاكتمال وتكلفة الإكمال والنسبة المئوية للتكاليف المستهلكة في المهمة.
-2.  يتم توزيع التقدير عند الاكتمال على المهام التابعة بنفس نسبة مبلغ التقدير عند الاكتمال في المهام.
-3.  يتم حساب التقدير الجديد عند الاكتمال لكل مهمة.
-4.  تتم إعادة حساب CTS ونسبة التكلفة المستهلكة للمهام الفرعية المتأثرة، استناداً إلى قيمة التقدير عند الاكتمال. كما تتم إعادة حساب فرق التكلفة للمهام.
-5.  تتم إعادة حساب التقدير عند الاكتمال لكافة مهام الملخص استناداً إلى هذا التغيير.
+<span data-ttu-id="53c8c-204">**إصلاح أخطاء الجدولة حسب المهمة** عند النقر المزدوج فوق رمز خطأ جدولة لمهمة معينة، يعرض مربع حوار كافة أخطاء الجدولة لهذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-204">**Fixing scheduling errors by task** When you double-click the schedule error icon for a specific task, a dialog box displays all the scheduling errors for that task.</span></span> <span data-ttu-id="53c8c-205">يمكنك أن تقرر أخطاء الجدولة لإصلاحها للمهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-205">You can decide which scheduling errors to fix for the task.</span></span> 
 
-انقر فوق **توسيع إلى مستوى** في طريقة عرض تعقب التكلفة لتعيين المستوى الذي يجب فيه تعقب والاحتفاظ بهيكل تنظيم العمل الخاص بك. يتم توسيع هيكل تنظيم العمل تلقائياً إلى هذا المستوى في طريقة عرض تعقب التكلفة عندما تقوم بفتحها.
-
-### <a name="earned-value-management"></a>إدارة القيمة المكتسبة
-
-يمكنك استخدام طريقة القيمة المكتسبة (EVM) لتعقب تقدم المشروع. ويمكنك عرض قياسات القيمة المكتسبة في مركز أدوار مدير المشروع. ويعرض مكون مخطط القيمة المكتسبة القيم الموزعة على الوقت للقيمة المخططة والتكلفة الفعلية. ويتم عرض القيمة المكتسبة اعتبارًا من التاريخ الحالي كنقطة. البيانات الموزعة على الوقت للقيمة المكتسبة غير متوفرة حاليًا. 
-
-ويتم عرض المرحلة الزمنية في مخطط القيمة المكتسبة حسب الأسبوع أو الشهر. ويصف هذا القسم ثلاثة أركان لطريقة القيمة المكتسبة: القيمة المخططة، والقيمة المكتسبة، والتكلفة الفعلية. 
-
-**القيمة المخططة** تذكر نظرية طريقة القيمة المكتسبة أن رسم القيمة المخططة يمثل المعدل الذي يعتزم به فريق المشروع كسب قيمة في المشروع. 
-
-ويستخدم Finance and Operations قاعدة الكسب 0:100 عندما يرسم القيمة المخططة. وعملاً بهذه المادة، يتم ترحيل قيمة المهمة إلى المهمة اعتبارًا من تاريخ انتهائها. لا يتم ترحيل أية قيمة حتى اكتمال المهمة بنسبة 100 بالمائة. 
-
-وفي محاسبة وإدارة المشروع، يمكنك إدخال تاريخ انتهاء العقد الطرفية والتكلفة المخططة لها. وعندما يتم عرض الرسم البياني للقيمة المخططة حسب الأسبوع، يتم تلخيص القيمة المخططة حسب الأسبوع لكافة مهام العقد الطرفية طوال مدة المشروع. 
-
-**القيمة المكتسبة** تذكر نظرية طريقة القيمة المكتسبة أن رسم القيمة المكتسبة يمثل المعدل الذي يعتزم به فريق المشروع كسب قيمة بالفعل في المشروع. 
-
-ويستخدم Finance and Operations قاعدة الكسب 0:100 عندما يرسم القيمة المكتسبة. وعملاً بهذه المادة، يتم ترحيل قيمة المهمة إلى المهمة اعتبارًا من تاريخ انتهائها. لا يتم ترحيل أية قيمة حتى اكتمال المهمة بنسبة 100 بالمائة. 
-
-وعند حساب القيمة المكتسبة، تتم مراعاة نسبة التقدم لكل مهمة. وضمن قاعدة الكسب 0:100، لا تتم مراعاة سوى المهام التي تم إكمالها في فترة محددة لحساب القيمة المكتسبة اعتبارًا من نهاية تلك الفترة. ويتم حساب القيمة المكتسبة في المشروع لكافة المهام التي تم إكمالها عند إنشاء الرسم البياني. 
+<span data-ttu-id="53c8c-206">**إصلاح كافة أخطاء الجدولة** إذا أردت من Finance and Operations إصلاح كافة أخطاء الجدولة في هيكل تنظيم العمل، في "جزء الإجراءات"، انقر فوق **إصلاح كافة تعارضات الجدولة**.</span><span class="sxs-lookup"><span data-stu-id="53c8c-206">**Fixing all scheduling errors** If you want Finance and Operations to fix all scheduling errors in the WBS, on the Action Pane, click **Fix all scheduling discrepancies**.</span></span> 
 
 > [!NOTE] 
-> حاليًا، لا يشتمل النظام لتعقب هيكل تنظيم العمل على هياكل بيانات لتخزين النسب المئوية التاريخية للتقدم في كل مهمة. ولذلك، يمكن الإبلاغ عن القيمة المكتسبة فقط اعتبارًا من وقت معالجة المكعب. وقم بمعالجة معالجة المكعب بشكل دوري لتحديث بيانات القيمة المكتسبة التي يتم عرضها في مركز الأدوار. 
+> <span data-ttu-id="53c8c-207">يمكن أن تسبب هذه الميزة تعديلات كبيرة على هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-207">This feature can cause significant modifications to the WBS.</span></span> <span data-ttu-id="53c8c-208">يتم تصحيح الأخطاء بالترتيب التالي:</span><span class="sxs-lookup"><span data-stu-id="53c8c-208">Errors are corrected in the following order:</span></span>
 
-**التكلفة الفعلية** تذكر نظرية طريقة القيمة المكتسبة أن رسم التكلفة الفعلية يمثل معدل يتم عنده إنفاق المال في المشروع. 
+1.  <span data-ttu-id="53c8c-209">يتم تعديل الجهد المقدر في كافة المهام حيث إنها تساوي القدرة المحددة في تقويم المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-209">The estimated effort on all tasks is modified so that it’s equal to the capacity that is defined in the project calendar.</span></span>
+2.  <span data-ttu-id="53c8c-210">ويتم تعديل تاريخ بدء كل مهمة بحيث تبدأ المهمة بعد اكتمال حميع المهام السابقة لها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-210">The start date of each task is modified so that the task starts after all its predecessor tasks are completed.</span></span>
+3.  <span data-ttu-id="53c8c-211">تم تعديل تاريخ بدء كل مهمة لإزالة الثغرات في تواريخ بدء المهام السابقة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-211">The start date of each task is modified to remove gaps in the start dates of predecessor tasks.</span></span>
 
-ويتم استخدام الحركات التي تم ترحيلها إلى مشروع لرسم بند التكلفة الفعلية. ويتم تلخيص التكاليف حسب التاريخ. ويتمفيما بعد استخدام هذه البيانات لإنشاء رسم بياني للتكاليف الفعلية حسب الأسبوع أو الشهر في المخطط القيمة المكتسبة.
+### <a name="cost-estimation"></a><span data-ttu-id="53c8c-212">تقدير التكلفة</span><span class="sxs-lookup"><span data-stu-id="53c8c-212">Cost estimation</span></span>
 
-### <a name="how-to-use-the-concepts-of-planned-value-earned-value-and-actual-cost"></a>كيفية استخدام مفاهيم القيمة المخططة والقيمة المكتسبة والتكلفة الفعلية
+<span data-ttu-id="53c8c-213">كما ذُكر سابقًا في هذا المستند، يمكنك إدخال تقدير التكلفة لكل مهمة عقدة طرفية باستخدام علامة التبويب **التكاليف والإيرادات المقدرة** في الجزء السفلي من صفحة **هيكل تنظيم العمل**.</span><span class="sxs-lookup"><span data-stu-id="53c8c-213">As was mentioned earlier in this document, you enter the cost estimation for each leaf node task by using the **Estimated costs and revenues** tab in the lower pane of the **Work breakdown structure** page.</span></span> 
 
-**فرق الجدولة** أثناء التخطيط، تقوم بإنشاء تنبؤ للعمل في جدول زمني. ولذلك، القيمة المخططة هي المعدل الذي يعتقد به مخططو المشروع أن العمل سينتهي في المشروع. وبعد أن يصبح المشروع قيد التقدم، يكتمل العمل، ويكسب المشروع قيمة. وبمقارنة القيمة المخططة بالقيمة المكتسبة، يمكنك عرض مدى تقدم العمل في مشروع. وتُسمى نتيجة هذه المقارنة بفرق الجدولة. 
+> [!NOTE] 
+> <span data-ttu-id="53c8c-214">لا يمكنك تعديل تقدير التكلفة لمهمة ملخص أو حاوية.</span><span class="sxs-lookup"><span data-stu-id="53c8c-214">You can’t modify the cost estimation for a summary or container task.</span></span> <span data-ttu-id="53c8c-215">يساوي تقدير التكلفة لكل مهمة ملخص مجموع تقدير التكلفة لمهام العقدة الطرفية الخاصة بها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-215">The cost estimation for a summary task is equal to the sum of the cost estimation of its leaf node tasks.</span></span> <span data-ttu-id="53c8c-216">يتم حساب التكلفة الإجمالية المقدرة لكل مهمة كمجموع مبالغ التكلفة المقدرة لأنواع الحركات التالية:</span><span class="sxs-lookup"><span data-stu-id="53c8c-216">The estimated total cost for each task is calculated as the sum of the estimated cost amounts for the following transaction types:</span></span>
 
-وإذا كانت القيمة المخططة لفترة أكبر من القيمة المكتسبة، فإن مقدار العمل الذي تم إنجازه في مشروع يكون أقل مما كان مخططًا له. ولذلك، يكون المشروع متأخراً عن موعده. ولأن القيمة المخططة والقيمة المكتسبة يتم التعبير عنها بمبالغ نقدية، يتم إعطاء قيمة نقدية للمدة الانتقالية في المشروع أيضًا. 
+-   <span data-ttu-id="53c8c-217">عمالة</span><span class="sxs-lookup"><span data-stu-id="53c8c-217">Labor</span></span>
+-   <span data-ttu-id="53c8c-218">الصنف أو المادة</span><span class="sxs-lookup"><span data-stu-id="53c8c-218">Item or material</span></span>
+-   <span data-ttu-id="53c8c-219">المصروفات</span><span class="sxs-lookup"><span data-stu-id="53c8c-219">Expenses</span></span>
 
-وإذا كانت القيمة المخططة لفترة أقل من القيمة المكتسبة، فإن مقدار العمل الذي تم إنجازه في مشروع يكون أكبر مما كان مخططًا له. ولذلك، يكون المشروع متقدمًا عن موعده. كما يتم إعطاء قيمة نقدية لوقت الإنتاج هذا.
+<span data-ttu-id="53c8c-220">يتم استخدام نوع حركة **الرسوم** لتقدير الدخل القائم على الرسوم.</span><span class="sxs-lookup"><span data-stu-id="53c8c-220">A **Fee** transaction type is used to estimate fee-based revenue.</span></span> <span data-ttu-id="53c8c-221">ولا ينطوي نوع الحركة هذا على مكون تكلفة، وبالتالي لا تتم مراعاة ذلك عند تقدير التكاليف.</span><span class="sxs-lookup"><span data-stu-id="53c8c-221">This transaction type doesn’t have a cost component and therefore isn’t considered when costs are estimated.</span></span> 
 
-**فرق التكلفة** لأن القيمة المكتسبة تستخدم سعر التكلفة المضاعف، تشير القيمة المكتسبة إلى تكلفة العمل الذي يتم إنجازه في مشروع. وأثناء تقدم مشروع، يوفر سجل الحركات سجل أموال يتم إنفاقها فعلياً على ذلك المشروع. وبمقارنة القيمة المكتسبة بالتكلفة الفعلية، يمكنك عرض مبلغ المال الذي يتم إنفاقه مقابل القيمة التي يتم كسبها. وتُسمى نتيجة هذه المقارنة بفرق التكلفة. 
+<span data-ttu-id="53c8c-222">ويتم استخدام نوع الحركة **على الحساب** لتسجيل قيمة المبيعات المتعاقد عليه في نوع القيمة الثابتة للمشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-222">An **On-account** transaction type is used to recording the contracted sales value in a fixed-value type of project.</span></span> <span data-ttu-id="53c8c-223">ولا تتم مراعاة هذا النوع من الحركة أيضًا عندما يتم تقدير التكاليف.</span><span class="sxs-lookup"><span data-stu-id="53c8c-223">This transaction type also isn’t considered when costs are estimated.</span></span> 
 
-وإذا كانت التكلفة الفعلية التي يتم إنفاقها لفترة أكبر من القيمة المكتسبة، يتم إنفاق أموال أكثر مما تم اكتسابه. ولذلك، يشتمل المشروع على مبالغ زائدة على الموازنة. 
+<span data-ttu-id="53c8c-224">وعندما تقوم بتقدير التكاليف للمواد والعمالة والمصروفات لكل مهمة، يجب أن تقوم بتعيين فئة مشروع للتكلفة المقدرة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-224">When you estimate costs for labor, material, and expenses for each task, you must assign a project category to the estimated cost.</span></span> 
 
-وإذا كانت التكلفة الفعلية التي يتم إنفاقها لفترة أقل من القيمة المكتسبة، فإنه يتم كسب أموال أكثر مما يتم إنفاقه. ولذلك، يشتمل المشروع على مبالغ ناقصة عن الموازنة.
+<span data-ttu-id="53c8c-225">**تكاليف العمالة المقدرة** بالنسبة لكل مهمة عقدة طرفية، تقوم بتعيين جهد عمل بالساعات وفئة افتراضية.</span><span class="sxs-lookup"><span data-stu-id="53c8c-225">**Estimating labor costs** For each leaf node task, you assign a work effort in hours and a default category.</span></span> <span data-ttu-id="53c8c-226">ولذلك، عند إعداد جدولة لمهمة، يُضاف تقدير تكلفة العمالة لهذه المهمة تلقائياً في الفئة الافتراضية للعمالة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-226">Therefore, when you set up a schedule for a task, the labor cost estimate for that task is automatically added in the default category for labor.</span></span> <span data-ttu-id="53c8c-227">ويتم عرض تقدير التكلفة هذا في علامة التبويب **التكاليف والإيرادات المقدرة** في شبكة **تفاصيل البند** لهذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-227">This cost estimate is displayed on the **Estimated costs and revenue** tab in the **Line details** grid for that task.</span></span> <span data-ttu-id="53c8c-228">وإذا كنت تحتاج إلى مزيد من تقديرات تكاليف العمالة، يمكنك إضافتها في علامة التبويب هذه.</span><span class="sxs-lookup"><span data-stu-id="53c8c-228">If you require more labor cost estimates, you can add them on this tab.</span></span> <span data-ttu-id="53c8c-229">وإذا قمت بزيادة أو إنقاص الساعات في تقدير تكلفة العمالة، فإنه تتم تلقائياً إعادة حساب الجدول الزمني للمهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-229">If you increase or decrease hours on the labor cost estimate, the schedule for the task is automatically recalculated.</span></span> 
 
-## <a name="wbs-templates"></a>قوالب WBS
-‏‫يمكنك استخدام وظيفة قوالب هيكل تنظيم العمل لإنشاء قوالب موحدة للمشاريع.‬ وإذا كانت المشاريع التي تقدمها شركتك تشتمل على كثير من العمل القابل للتكرار، يجب عليك مراعاة إنشاء قالب هيكل تنظيم العمل. 
+<span data-ttu-id="53c8c-230">**تقدير تكاليف المواد والمصروفات** كما تتيح علامة التبويب **التكاليف والإيرادات المقدرة** لك إمكانية تقدير تكاليف المواد والمصروفات لمهمة، إذا كنت تحتاج إلى تقديرات.</span><span class="sxs-lookup"><span data-stu-id="53c8c-230">**Estimating expense and material costs** The **Estimated costs and revenue** tab also lets you estimate expense and material costs for a task, if you require estimates.</span></span> 
 
-يمكنك إنشاء قالب هيكل تنظيم عمل من هيكل تنظيم عمل مشروع موجود، بحيث يمكن إعادة استخدام المعرفة وأفضل الممارسات التي حصلت عليها أثناء التخطيط لذلك المشروع في مشاريع مماثلة في المستقبل. ومع ذلك، في بعض الأحيان، قد لا يعقل حفظ هيكل تنظيم العمل الكامل كقالب. ولذلك، يمكنك أيضًا إنشاء قوالب من أجزاء من هيكل تنظيم العمل لمشروع.
+<span data-ttu-id="53c8c-231">وتعتمد التكلفة وسعر المبيعات لكل بند تقرير المصروفات والعمالية الإعداد المحدد لكل فئة في جداول التسعير في **محاسبة وإدارة المشروع** &gt; **‎الإعداد** &gt; **التسعير**.</span><span class="sxs-lookup"><span data-stu-id="53c8c-231">The cost and sales price for each labor or expense estimate line are based on the setup that is defined for each category in the pricing tables at **Project management and accounting** &gt; **Setup** &gt; **Pricing**.</span></span> <span data-ttu-id="53c8c-232">وبالنسبة للأصناف، تتم إضافة التكلفة وسعر المبيعات افتراضيًا من اتفاقيات التجارة أو الصنف في صفحة قائمة **المنتجات الصادرة** في إدارة معلومات المنتج.</span><span class="sxs-lookup"><span data-stu-id="53c8c-232">For items, cost and sales price are added by default from the item or trade agreements on the **Released products** list page in Product information management.</span></span>
 
-### <a name="saving-a-projects-wbs-as-a-template"></a>حفظ هيكل تنظيم العمل للمشروع كقالب
+## <a name="tracking-progress-on-the-wbs"></a><span data-ttu-id="53c8c-233">تتبع التقدم المحرز في هيكل تنظيم العمل</span><span class="sxs-lookup"><span data-stu-id="53c8c-233">Tracking progress on the WBS</span></span>
+<span data-ttu-id="53c8c-234">تتعقب بعض الصناعات تقدم المشروع مقابل WBS في مستوى مرغوب جداً، بينما تتعقب الصناعات الأخرى التقدم المحرز على مستوى أعلى لهيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-234">Some industries track the progress of a project against a WBS at a very granular level, whereas others track progress at a higher level of the WBS.</span></span> <span data-ttu-id="53c8c-235">يصف هذا القسم كيفية استخدام تعقب WBS لمتطلبات المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-235">This section describes how you can use WBS tracking for your project requirements.</span></span> 
 
-بعد إنشاء قالب، يمكنك استيراده إلى هيكل تنظيم عمل مشروع جديد في إطار العقدة الجذر أو ضمن أي مهمة في هيكل تنظيم عمل المشروع.
+<span data-ttu-id="53c8c-236">يحتوي Finance and Operations على ثلاث طرق عرض لهيكل تنظيم العمل لمشروع: عرض التخطيط، وعرض تعقب الجهد، وعرض تعقب التكلفة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-236">Finance and Operations has three views for the WBS of a project: the Planning view, Effort tracking view, and Cost tracking view.</span></span>
 
-### <a name="importing-a-wbs-template-into-a-projects-wbs"></a>استيراد قالب هيكل تنظيم العمل إلى هيكل تنظيم عمل المشروع
+### <a name="planning-view"></a><span data-ttu-id="53c8c-237">عرض التخطيط</span><span class="sxs-lookup"><span data-stu-id="53c8c-237">Planning view</span></span>
 
-عندما تقوم باستيراد المهام، يتم تنظيم المهام في القالب بناءً على تاريخ البدء للمهمة التي تم استيرادها ضمنها. وأثناء عملية الاستيراد، يتم استخدام العلاقات السابقة في مهام القوالب لحساب تواريخ البدء للمهام المستوردة. ويتم استخدام تقويم العمل القياسي لمشروع الوجهة لحساب تواريخ انتهاء المهام المستوردة، بحيث يتم الاحتفاظ بأيام العمل وساعات العمل القياسية التي تم تحديدها في تقويم عمل المشروع الحالي. 
+<span data-ttu-id="53c8c-238">تعرض طريقة عرض التخطيط التقدير الأساسي أو المخطط لمعلومات التكاليف والجدول.</span><span class="sxs-lookup"><span data-stu-id="53c8c-238">The Planning view displays the planned or baseline estimate of the schedule and cost information.</span></span> <span data-ttu-id="53c8c-239">وعلى الرغم من عدم وجود أي ميزات لتعقب الإصدار وخط الأساس لهيكل تنظم عمل مشروع، فإنه يتم استخدام القيم الموجودة في طريقة العرض هذه لعرض الإصدار الأساسي.</span><span class="sxs-lookup"><span data-stu-id="53c8c-239">Although there are no features for tracking the version and baseline for a project WBS, the values in this view are intended to represent the baseline version.</span></span> <span data-ttu-id="53c8c-240">ويصف قسما تقدير الجدولة وتقدير التكاليف في هذا الموضوع طريقة العرض هذه وكيفية استخدامها لإنشاء هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-240">The Schedule estimation and Cost estimation sections of this topic describe this view and how it’s used to create a WBS.</span></span>
 
-يتم استخدام مبالغ التكلفة وأسعار المبيعات على بنود التقدير لضمان أن تشتمل الأسعار الخاصة بالمشروع أو عقد المشروع على تواريخ صالحة.
+### <a name="effort-tracking-view"></a><span data-ttu-id="53c8c-241">طريقة عرض تعقب الجهد</span><span class="sxs-lookup"><span data-stu-id="53c8c-241">Effort tracking view</span></span>
 
-### <a name="differences-between-a-projects-wbs-and-a-wbs-template"></a>الاختلافات بين هيكل تنظيم عمل المشروع وقالب هيكل تنظيم العمل
+<span data-ttu-id="53c8c-242">تعرض طريقة عرض تعقب الجهد تقدم المهام في هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-242">The Effort tracking view displays the tracking of progress for tasks in the WBS.</span></span> <span data-ttu-id="53c8c-243">وتقارن ساعات الجهد التراكمية الفعلية لمهمة بساعات الجهد المخططة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-243">It compares the accumulated actual effort hours for a task to the planned effort hours.</span></span> <span data-ttu-id="53c8c-244">توفر المعادلات التالية القيم في طريقة عرض تعقب الجهد:</span><span class="sxs-lookup"><span data-stu-id="53c8c-244">The following formulas provide the values in the Effort tracking view:</span></span>
 
--   لا تشتمل المهام في قوالب هيكل تنظيم العمل على تواريخ البدء وتواريخ الانتهاء.
+-   <span data-ttu-id="53c8c-245">النسبة المئوية للتقدم = الجهد الفعلي حتى الآن ÷ الجهد المخطط للمهمة</span><span class="sxs-lookup"><span data-stu-id="53c8c-245">Progress percentage = Actual effort to date ÷ Planned effort for the task</span></span>
+-   <span data-ttu-id="53c8c-246">الجهد المتبقي (يُعرف أيضًا بالتقدير حتى الاكتمال \[ETC\]) = الجهد المخطط – الجهد الفعلي حتى تاريخه</span><span class="sxs-lookup"><span data-stu-id="53c8c-246">Remaining effort (also known as Estimate-to-complete \[ETC\]) = Planned effort – Actual effort to date</span></span>
+-   <span data-ttu-id="53c8c-247">التقدير عند الاكتمال (EAC) = الجهد المتبقي + الجهد الفعلي حتى الآن</span><span class="sxs-lookup"><span data-stu-id="53c8c-247">Estimate at complete (EAC) = Remaining effort + Actual effort to date</span></span>
+-   <span data-ttu-id="53c8c-248">فرق الجهد المتوقع‬ = الجهد المخطط – EAC</span><span class="sxs-lookup"><span data-stu-id="53c8c-248">Projected effort variance = Planned effort – EAC</span></span>
 
-لم يتم تعيين أيام العمل وأيام غير العمل لقوالب هيكل تنظيم العمل.
+<span data-ttu-id="53c8c-249">تعرض طريقة عرض تعقب الجهد فرق الجهد للمهمة، استناداً إلى ما إذا كان التقدير عند الاكتمال أكثر أو أقل من الجهد المخطط:</span><span class="sxs-lookup"><span data-stu-id="53c8c-249">The Effort tracking view displays a projection of the effort variance for the task, based on whether EAC is more or less than the planned effort:</span></span>
 
--   تستخدم قوالب هيكل تنظيم العمل دائماً تقويم الجدولة الذي تم إعداده كتقويم افتراضي لكافة المشاريع.
+-   <span data-ttu-id="53c8c-250">إذا كان التقدير حتى الاكتمال أكثر من الجهد المخطط، يُتوقع من المهمة استغراق وقت أطول مما هو مخطط له أصلاً وتكون متأخرة عن موعدها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-250">If EAC is more than the planned effort, the task is projected to take more time than originally planned and is behind schedule.</span></span>
+-   <span data-ttu-id="53c8c-251">إذا كان التقدير حتى الاكتمال أقل من الجهد المخطط، يُتوقع من المهمة استغراق وقت أقل مما هو مخطط له أصلاً وتكون متقدمة عن موعدها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-251">If EAC is less than the planned effort, the task is projected to take less time than originally planned and is ahead of schedule.</span></span>
 
-يتم استخدام جدولة التقويم الافتراضي فقط لمعرفة الساعات في يوم العمل القياسي.
+<span data-ttu-id="53c8c-252">**إعادة توقع جهد مدير المشروع** في بعض الأحيان، سيلزم مدير المشروع أو شخص آخر يقوم بتعقب تقدم المشروع مراجعة التقديرات الأصلية في مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-252">**Project manager’s re-projection of effort** Occasionally, the project manager or another persona that is tracking the progress of a project will have to revise the original estimates on a task.</span></span> <span data-ttu-id="53c8c-253">وقد تتحرك المهمة بشكل أسرع أو أبطأ مما كان متوقعًا لأسباب مختلفة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-253">The task might be moving faster or slower than originally anticipated for various reasons.</span></span> <span data-ttu-id="53c8c-254">على سبيل المثال، تم تقليص النطاق أو أن العاملين لديهم خبرة أقل مما كان مخططًا له أصلاً.</span><span class="sxs-lookup"><span data-stu-id="53c8c-254">For example, the scope has been reduced, or workers have less experience than originally planned.</span></span> <span data-ttu-id="53c8c-255">والتوقعات هي إدراك مدير المشروع للتقديرات، استناداً إلى الحالة الحالية لمشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-255">Projections are a project manager’s perception of estimates, based on the current status on a project.</span></span> <span data-ttu-id="53c8c-256">وبشكل عام، يجب عليك عدم تغيير الأرقام الأساسية، لأن أساس المشروع يقدم وثيقة منشورة جيدًا لتقدير التكلفة والجدولة لمشروع يج على جميع أصحاب المصلحة في المشروع الموافقة عليها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-256">In general, you should not change the baseline numbers, because a project baseline represents a well-published document for the project’s schedule and cost estimate that all stakeholders on the project have agreed to.</span></span> 
 
--   لا يتم نسخ العلاقات السابقة إلى قالب هيكل تنظيم العمل.
+<span data-ttu-id="53c8c-257">هناك طريقتان يستطيع بها مديرا المشاريع تعديل الجهد في المهام:</span><span class="sxs-lookup"><span data-stu-id="53c8c-257">There are two ways that project managers can modify the effort on tasks:</span></span>
 
-لأن قوالب هيكل تنظيم العمل لا تشتمل على تواريخ، لا يُتطلب وجود منطق تاريخ البدء المستند إلى تاريخ انتهاء مهمة سابقة.
+-   <span data-ttu-id="53c8c-258">تعديل الجهد المتبقي الذي تم تعيينه لتحديث الجهد المتبقي الفعلي في المهمة تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="53c8c-258">Modify the remaining effort that is automatically set to update the actual remaining effort on the task.</span></span>
+-   <span data-ttu-id="53c8c-259">تعديل النسبة المئوية للتقدم الذي يتم تعيينه تلقائيًا لتحديث التقدم الحقيقي في المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-259">Modify the progress percentage that is automatically set to update the true progress on the task.</span></span>
 
--   يتم إنشاء بند تقدير تكلفة عمالة تلقائياً عندما يتم إنشاء مهمة في قالب هيكل تنظيم العمل. يتم نسخ سعر المبيعات ومبلغ التكلفة من العامل المحدد.
+<span data-ttu-id="53c8c-260">يؤدي كلا النهجين إلى إعادة حساب التقدير حتى الاكتمال والتقدير عند الاكتمال للمهمة، والنسبة المئوية للتقدم، وفرق جهد المتوقع في المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-260">Both of these approaches cause a recalculation of the task’s ETC, EAC, and progress percentage, and the projected effort variance on the task.</span></span> <span data-ttu-id="53c8c-261">كما تتم إعادة حساب التقدير حتى الاكتمال والتقدير عند الاكتمال والنسبة المئوية للتقدم في مهام الملخص، ويتم تحديث فرق الجهد المتوقع الخاصة بها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-261">The EAC, ETC, and progress percentage on summary tasks are also recalculated, and their projected effort variance is updated.</span></span> 
 
-يمكن إنشاء تكاليف المصروفات والأصناف يدوياً، تمامًا كما هو الحال في هيكل تنظيم عمل المشروع.
+<span data-ttu-id="53c8c-262">**تعديل الجهد في مهام الملخص** يمكنك تعديل الجهد في مهام الملخص أو الحاوية.</span><span class="sxs-lookup"><span data-stu-id="53c8c-262">**Modified effort on summary tasks** You can modify the effort on summary or container tasks.</span></span> <span data-ttu-id="53c8c-263">بغض النظر عن ما إذا كنت تقوم بتعديل هذه القيم باستخدام الجهد المتبقي أو النسبة المئوية للتقدم في مهام الملخص، وتحدث العمليات الحسابية تلقائياً في الترتيب التالي:</span><span class="sxs-lookup"><span data-stu-id="53c8c-263">Regardless of whether you modify these values by using the remaining effort or the progress percentage on the summary tasks, the calculations occur automatically in the following order:</span></span>
 
--   يتم عرض أخطاء الجدولة عند وجود انحرافات عن المعادلة التالية:
+1.  <span data-ttu-id="53c8c-264">يتم حساب التقدير حتى الاكتمال والتقدير عند الاكتمال والنسبة المئوية للتقدم في المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-264">The EAC, ETC, and progress percentage on the task are calculated.</span></span>
+2.  <span data-ttu-id="53c8c-265">يتم توزيع التقدير عند الاكتمال على المهام التابعة بنفس نسبة مبلغ التقدير عند الاكتمال الأصلي.</span><span class="sxs-lookup"><span data-stu-id="53c8c-265">The new EAC is distributed to the child tasks in the same proportion as the original EAC amount.</span></span>
+3.  <span data-ttu-id="53c8c-266">يتم حساب التقدير عند الاكتمال الجديد في كل مهمة عقدة طرفية جديدة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-266">The new EAC on each leaf node task is calculated.</span></span>
+4.  <span data-ttu-id="53c8c-267">تتم إعادة حساب الجهد المتبقي والنسبة المئوية للتقدم لكافة المهام التابعة المتأثرة، استناداً قيمة التقدير عند الاكتمال الجديدة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-267">The remaining effort and progress percentage are recalculated for all the affected child tasks, based on the new EAC value.</span></span> <span data-ttu-id="53c8c-268">كما تتم إعادة حساب فرق الجهد للمهام.</span><span class="sxs-lookup"><span data-stu-id="53c8c-268">The effort variance of the tasks is also recalculated.</span></span>
+5.  <span data-ttu-id="53c8c-269">كما تتم إعادة حساب التقدير عند الاكتمال لمهام الملخص من العقد الطرفية.</span><span class="sxs-lookup"><span data-stu-id="53c8c-269">The EAC of the summary tasks is also recalculated from the leaf nodes.</span></span>
 
-الجهد = عدد الموارد × المدة × عدد الساعات في يوم عمل قياسي 
+<span data-ttu-id="53c8c-270">انقر فوق **توسيع إلى مستوى** في طريقة عرض تعقب الجهد لتعيين المستوى الذي يجب فيه تعقب والاحتفاظ بهيكل تنظيم العمل الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="53c8c-270">Click **Expand to level** in the Effort tracking view to set the level at which to track and maintain your WBS.</span></span> <span data-ttu-id="53c8c-271">يتم توسيع هيكل تنظيم العمل تلقائياً إلى هذا المستوى في طريقة عرض تعقب الجهد عندما تقوم بفتحها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-271">The WBS is automatically expanded to that level in the Effort tracking view whenever you open it.</span></span>
 
-يمكنك تصحيح كافة أخطاء الجدولة في الوقت نفسه بالنقر فوق **إصلاح كافة أخطاء جدولة**. 
+### <a name="cost-tracking-view"></a><span data-ttu-id="53c8c-272">طريقة عرض تعقب التكلفة</span><span class="sxs-lookup"><span data-stu-id="53c8c-272">Cost tracking view</span></span>
 
-وبدلاً من ذلك، يمكنك تصحيح أخطاء الجدولة كل على حدة بواسطة النقر فوق رمز تحذير لكل مهمة.
+<span data-ttu-id="53c8c-273">تعرض طريقة عرض تعقب التكلفة تعقب استهلاك التكلفة لإحدى مهام.</span><span class="sxs-lookup"><span data-stu-id="53c8c-273">The Cost tracking view displays the tracking of cost consumption for a task.</span></span> <span data-ttu-id="53c8c-274">وفي طريقة العرض هذه، تتم مقارنة التكلفة الفعلية التي أُنفقت مقابل مهمة حتى تاريخه بالتكلفة المخططة للمهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-274">In this view, the actual cost that has been spent against a task to date is compared to the planned cost for the task.</span></span> <span data-ttu-id="53c8c-275">توفر المعادلات التالية القيم في طريقة عرض تعقب التكلفة:</span><span class="sxs-lookup"><span data-stu-id="53c8c-275">The following formulas provide the values in the Cost tracking view:</span></span>
+
+-   <span data-ttu-id="53c8c-276">النسبة المئوية للتكلفة المستهلكة = التكلفة الفعلية حتى تاريخه ÷ التكلفة المخططة للمهمة</span><span class="sxs-lookup"><span data-stu-id="53c8c-276">Percentage of cost consumed = Actual cost to date ÷ Planned cost for the task</span></span>
+-   <span data-ttu-id="53c8c-277">تكلفة الإكمال‬ (CTC) = التكلفة المخططة - التكلفة الفعلية حتى تاريخه</span><span class="sxs-lookup"><span data-stu-id="53c8c-277">Cost to complete (CTC) = Planned cost – Actual cost to date</span></span>
+-   <span data-ttu-id="53c8c-278">التقدير عند الاكتمال (EAC) = تكلفة الإكمال + التكلفة الفعلية حتى تاريخه</span><span class="sxs-lookup"><span data-stu-id="53c8c-278">Estimate at complete (EAC) = CTC + Actual cost to date</span></span>
+-   <span data-ttu-id="53c8c-279">فرق التكلفة المتوقع = التكلفة المخططة – التقدير عند الاكتمال</span><span class="sxs-lookup"><span data-stu-id="53c8c-279">Projected cost variance = Planned cost – EAC</span></span>
+
+<span data-ttu-id="53c8c-280">تعرض طريقة عرض تعقب التكلفة فرق الجهد للمهمة، استناداً إلى ما إذا كان التقدير عند الاكتمال أكثر أو أقل من التكلفة المخططة:</span><span class="sxs-lookup"><span data-stu-id="53c8c-280">The Cost tracking view displays a projection of the cost variance for the task, based on whether EAC is more or less than the planned cost:</span></span>
+
+-   <span data-ttu-id="53c8c-281">إذا كان التقدير عند الاكتمال أكثر من التكلفة المخططة، يُتوقع من المهمة استخدام أموال أكثر مما هو مخطط له أصلاً وتكون زائدة عن الموازنة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-281">If EAC is more than the planned cost, the task is projected to use more money than originally planned and is over budget.</span></span>
+-   <span data-ttu-id="53c8c-282">إذا كان التقدير عند الاكتمال أقل من التكلفة المخططة، يُتوقع من المهمة استخدام أموال أقل مما هو مخطط له أصلاً وتكون ناقصة عن الموازنة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-282">If EAC is less than the planned cost, the task is projected to use less money than originally planned and is under budget.</span></span>
+
+<span data-ttu-id="53c8c-283">**إعادة توقع التكلفة لمدير المشروع** يجب على مديري المشاريع استخدام تكلفة الإكمال لتنقيح تقدير التكلفة الأصلية في مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-283">**Project manager’s re-projection of cost** Project managers must use CTC to revise the original cost estimate on a task.</span></span> <span data-ttu-id="53c8c-284">يمكن لمدير المشروع تعديل قيمة تكلفة الإكمال إلى التكلفة المطلوبة لإكمال المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-284">The project manager can modify the CTC value to the cost that is required to complete the task.</span></span> <span data-ttu-id="53c8c-285">وإذا قمت بتعديل قيمة تكلفة الإكمال، فإنه تتم إعادة حساب تكلفة الإكمال والتقدير عند الاكتمال للمهمة والنسبة المئوية للتكلفة المستهلكة وفرق التكلفة المتوقع في مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-285">If you modify the CTC value, the task’s CTC, EAC, and percentage of cost consumed, and the projected cost variance on a task, are recalculated.</span></span> <span data-ttu-id="53c8c-286">كما تتم إعادة حساب التقدير حتى الاكتمال والتقدير عند الاكتمال والنسبة المئوية للتكلفة المستهلكة في مهام الملخص، ويتم تحديث فرق التكلفة المتوقع الخاصة بها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-286">The EAC, ETC, and percentage of cost consumed on the summary tasks are also recalculated, and their projected cost variance is updated.</span></span> 
+
+> [!NOTE] 
+> <span data-ttu-id="53c8c-287">عندما تراجع جهدًا لمهمة هيكل تنظيم العمل في طريقة عرض تعقب الجهد، تتم إعادة حساب كل من تكلفة الإكمال والتقدير عند الاكتمال للمهمة والنسبة المئوية للتكاليف المستهلكة، وفرق التكلفة المتوقع في طريقة عرض تعقب التكلفة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-287">When you revise effort for a WBS task in the Effort tracking view, the task’s CTC, EAC, percentage of cost consumed, and projected cost variance are all recalculated in the Cost tracking view.</span></span> <span data-ttu-id="53c8c-288">ومع ذلك، لا تؤثر المراجعات في القيم الموجودة في طريقة عرض تعقب الجهد، نظراً لأنه لا تتم مراجعة التكلفة حسب نوع الحركة (العمالة أو المادة أو المصروفات) أو فئة المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-288">However, cost revisions don’t affect the values in the Effort tracking view, because the cost by transaction type (labor, material, or expense) or project category isn’t revised.</span></span> 
+
+<span data-ttu-id="53c8c-289">**مراجعة التوقع للتكاليف في مهام الملخص** يمكنك مراجعة التكاليف في مهام الملخص، وتتم العمليات الحسابية تلقائياً بالترتيب التالي:</span><span class="sxs-lookup"><span data-stu-id="53c8c-289">**Projection revision for costs on summary tasks** You can revise costs on summary tasks, and the calculations occur automatically in the following order:</span></span>
+
+1.  <span data-ttu-id="53c8c-290">تتم إعادة حساب التقدير عند الاكتمال وتكلفة الإكمال والنسبة المئوية للتكاليف المستهلكة في المهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-290">The EAC, CTC, and percentage of cost consumed on the task are recalculated.</span></span>
+2.  <span data-ttu-id="53c8c-291">يتم توزيع التقدير عند الاكتمال على المهام التابعة بنفس نسبة مبلغ التقدير عند الاكتمال في المهام.</span><span class="sxs-lookup"><span data-stu-id="53c8c-291">The new EAC is distributed to the child tasks in the same proportion as the original EAC on the tasks.</span></span>
+3.  <span data-ttu-id="53c8c-292">يتم حساب التقدير الجديد عند الاكتمال لكل مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-292">The new EAC for each task is calculated.</span></span>
+4.  <span data-ttu-id="53c8c-293">تتم إعادة حساب CTS ونسبة التكلفة المستهلكة للمهام الفرعية المتأثرة، استناداً إلى قيمة التقدير عند الاكتمال.</span><span class="sxs-lookup"><span data-stu-id="53c8c-293">The CTS and percentage of cost consumed are recalculated for the affected child tasks, based on the EAC value.</span></span> <span data-ttu-id="53c8c-294">كما تتم إعادة حساب فرق التكلفة للمهام.</span><span class="sxs-lookup"><span data-stu-id="53c8c-294">The cost variance of the tasks is also recalculated.</span></span>
+5.  <span data-ttu-id="53c8c-295">تتم إعادة حساب التقدير عند الاكتمال لكافة مهام الملخص استناداً إلى هذا التغيير.</span><span class="sxs-lookup"><span data-stu-id="53c8c-295">The EAC for all the summary tasks is recalculated based on this change.</span></span>
+
+<span data-ttu-id="53c8c-296">انقر فوق **توسيع إلى مستوى** في طريقة عرض تعقب التكلفة لتعيين المستوى الذي يجب فيه تعقب والاحتفاظ بهيكل تنظيم العمل الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="53c8c-296">Click **Expand to level** in the Cost tracking view to set the level at which to track and maintain your WBS.</span></span> <span data-ttu-id="53c8c-297">يتم توسيع هيكل تنظيم العمل تلقائياً إلى هذا المستوى في طريقة عرض تعقب التكلفة عندما تقوم بفتحها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-297">The WBS is expanded to that level in the Cost tracking view whenever you open it.</span></span>
+
+### <a name="earned-value-management"></a><span data-ttu-id="53c8c-298">إدارة القيمة المكتسبة</span><span class="sxs-lookup"><span data-stu-id="53c8c-298">Earned value management</span></span>
+
+<span data-ttu-id="53c8c-299">يمكنك استخدام طريقة القيمة المكتسبة (EVM) لتعقب تقدم المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-299">You can use the earned value method (EVM) to track the progress of a project.</span></span> <span data-ttu-id="53c8c-300">ويمكنك عرض قياسات القيمة المكتسبة في مركز أدوار مدير المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-300">You can view earned value metrics on the project manager’s Role Center.</span></span> <span data-ttu-id="53c8c-301">ويعرض مكون مخطط القيمة المكتسبة القيم الموزعة على الوقت للقيمة المخططة والتكلفة الفعلية.</span><span class="sxs-lookup"><span data-stu-id="53c8c-301">The earned value chart component shows the time-phased values of planned value and actual cost.</span></span> <span data-ttu-id="53c8c-302">ويتم عرض القيمة المكتسبة اعتبارًا من التاريخ الحالي كنقطة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-302">Earned value as of the current date is shown as a point.</span></span> <span data-ttu-id="53c8c-303">البيانات الموزعة على الوقت للقيمة المكتسبة غير متوفرة حاليًا.</span><span class="sxs-lookup"><span data-stu-id="53c8c-303">Time-phased data for earned value isn’t currently available.</span></span> 
+
+<span data-ttu-id="53c8c-304">ويتم عرض المرحلة الزمنية في مخطط القيمة المكتسبة حسب الأسبوع أو الشهر.</span><span class="sxs-lookup"><span data-stu-id="53c8c-304">The time phase on the earned value chart is displayed by week or by month.</span></span> <span data-ttu-id="53c8c-305">ويصف هذا القسم ثلاثة أركان لطريقة القيمة المكتسبة: القيمة المخططة، والقيمة المكتسبة، والتكلفة الفعلية.</span><span class="sxs-lookup"><span data-stu-id="53c8c-305">This section describes the three pillars of EVM: planned value, earned value, and actual cost.</span></span> 
+
+<span data-ttu-id="53c8c-306">**القيمة المخططة** تذكر نظرية طريقة القيمة المكتسبة أن رسم القيمة المخططة يمثل المعدل الذي يعتزم به فريق المشروع كسب قيمة في المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-306">**Planned value** EVM theory states that the planned value plot represents the rate at which the project’s team planned to earn value on the project.</span></span> 
+
+<span data-ttu-id="53c8c-307">ويستخدم Finance and Operations قاعدة الكسب 0:100 عندما يرسم القيمة المخططة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-307">Finance and Operations uses the 0:100 earning rule when it plots planned value.</span></span> <span data-ttu-id="53c8c-308">وعملاً بهذه المادة، يتم ترحيل قيمة المهمة إلى المهمة اعتبارًا من تاريخ انتهائها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-308">Under this rule, the value of the task is posted to the task as of its end date.</span></span> <span data-ttu-id="53c8c-309">لا يتم ترحيل أية قيمة حتى اكتمال المهمة بنسبة 100 بالمائة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-309">No value is posted until the task is 100 percent completed.</span></span> 
+
+<span data-ttu-id="53c8c-310">وفي محاسبة وإدارة المشروع، يمكنك إدخال تاريخ انتهاء العقد الطرفية والتكلفة المخططة لها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-310">In Project management and accounting, you enter the end date of the leaf nodes and the planned cost for it.</span></span> <span data-ttu-id="53c8c-311">وعندما يتم عرض الرسم البياني للقيمة المخططة حسب الأسبوع، يتم تلخيص القيمة المخططة حسب الأسبوع لكافة مهام العقد الطرفية طوال مدة المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-311">When the graph of planned value is displayed by week, planned value is summarized by week for all leaf node tasks for the duration of the project.</span></span> 
+
+<span data-ttu-id="53c8c-312">**القيمة المكتسبة** تذكر نظرية طريقة القيمة المكتسبة أن رسم القيمة المكتسبة يمثل المعدل الذي يعتزم به فريق المشروع كسب قيمة بالفعل في المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-312">**Earned value** EVM theory states that the earned value plot represents the rate at which the project’s team is actually earning value on the project.</span></span> 
+
+<span data-ttu-id="53c8c-313">ويستخدم Finance and Operations قاعدة الكسب 0:100 عندما يرسم القيمة المكتسبة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-313">Finance and Operations uses the 0:100 earning rule when its plots earned value.</span></span> <span data-ttu-id="53c8c-314">وعملاً بهذه المادة، يتم ترحيل قيمة المهمة إلى المهمة اعتبارًا من تاريخ انتهائها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-314">Under this rule, the value of the task is posted to the task as of its end date.</span></span> <span data-ttu-id="53c8c-315">لا يتم ترحيل أية قيمة حتى اكتمال المهمة بنسبة 100 بالمائة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-315">No value is posted until the task is 100 percent completed.</span></span> 
+
+<span data-ttu-id="53c8c-316">وعند حساب القيمة المكتسبة، تتم مراعاة نسبة التقدم لكل مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-316">When earned value is calculated, the progress percentage of each task is considered.</span></span> <span data-ttu-id="53c8c-317">وضمن قاعدة الكسب 0:100، لا تتم مراعاة سوى المهام التي تم إكمالها في فترة محددة لحساب القيمة المكتسبة اعتبارًا من نهاية تلك الفترة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-317">Under the 0:100 earning rule, only tasks that are completed in a given period are considered for the calculation of earned value as of the end of that period.</span></span> <span data-ttu-id="53c8c-318">ويتم حساب القيمة المكتسبة في المشروع لكافة المهام التي تم إكمالها عند إنشاء الرسم البياني.</span><span class="sxs-lookup"><span data-stu-id="53c8c-318">Earned value on the project is calculated for all tasks that have been completed when the graph is created.</span></span> 
+
+> [!NOTE] 
+> <span data-ttu-id="53c8c-319">حاليًا، لا يشتمل النظام لتعقب هيكل تنظيم العمل على هياكل بيانات لتخزين النسب المئوية التاريخية للتقدم في كل مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-319">Currently, the system  for WBS tracking doesn’t have data structures to store historic progress percentages on each task.</span></span> <span data-ttu-id="53c8c-320">ولذلك، يمكن الإبلاغ عن القيمة المكتسبة فقط اعتبارًا من وقت معالجة المكعب.</span><span class="sxs-lookup"><span data-stu-id="53c8c-320">Therefore, earned value can be reported only as of the time that the cube is processed.</span></span> <span data-ttu-id="53c8c-321">وقم بمعالجة معالجة المكعب بشكل دوري لتحديث بيانات القيمة المكتسبة التي يتم عرضها في مركز الأدوار.</span><span class="sxs-lookup"><span data-stu-id="53c8c-321">Process the cube regularly to update the earned value data that is shown on the Role Center.</span></span> 
+
+<span data-ttu-id="53c8c-322">**التكلفة الفعلية** تذكر نظرية طريقة القيمة المكتسبة أن رسم التكلفة الفعلية يمثل معدل يتم عنده إنفاق المال في المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-322">**Actual cost** EVM theory states that the actual cost plot represents the rate at which money is being spent on the project.</span></span> 
+
+<span data-ttu-id="53c8c-323">ويتم استخدام الحركات التي تم ترحيلها إلى مشروع لرسم بند التكلفة الفعلية.</span><span class="sxs-lookup"><span data-stu-id="53c8c-323">Transactions that are posted to a project are used to plot the actual cost line.</span></span> <span data-ttu-id="53c8c-324">ويتم تلخيص التكاليف حسب التاريخ.</span><span class="sxs-lookup"><span data-stu-id="53c8c-324">The costs are summarized by date.</span></span> <span data-ttu-id="53c8c-325">ويتمفيما بعد استخدام هذه البيانات لإنشاء رسم بياني للتكاليف الفعلية حسب الأسبوع أو الشهر في المخطط القيمة المكتسبة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-325">This data is then used to graph the actual costs by week or by month on the earned value chart.</span></span>
+
+### <a name="how-to-use-the-concepts-of-planned-value-earned-value-and-actual-cost"></a><span data-ttu-id="53c8c-326">كيفية استخدام مفاهيم القيمة المخططة والقيمة المكتسبة والتكلفة الفعلية</span><span class="sxs-lookup"><span data-stu-id="53c8c-326">How to use the concepts of planned value, earned value, and actual cost</span></span>
+
+<span data-ttu-id="53c8c-327">**فرق الجدولة** أثناء التخطيط، تقوم بإنشاء تنبؤ للعمل في جدول زمني.</span><span class="sxs-lookup"><span data-stu-id="53c8c-327">**Schedule variance** During planning, you create a forecast for work on a timeline.</span></span> <span data-ttu-id="53c8c-328">ولذلك، القيمة المخططة هي المعدل الذي يعتقد به مخططو المشروع أن العمل سينتهي في المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-328">Therefore, planned value is the rate at which project planners thought work would be completed on the project.</span></span> <span data-ttu-id="53c8c-329">وبعد أن يصبح المشروع قيد التقدم، يكتمل العمل، ويكسب المشروع قيمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-329">After a project is in progress, work is completed, and the project earns value.</span></span> <span data-ttu-id="53c8c-330">وبمقارنة القيمة المخططة بالقيمة المكتسبة، يمكنك عرض مدى تقدم العمل في مشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-330">By comparing planned value to earned value, you can view how work on a project is progressing.</span></span> <span data-ttu-id="53c8c-331">وتُسمى نتيجة هذه المقارنة بفرق الجدولة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-331">The result of this comparison is called schedule variance.</span></span> 
+
+<span data-ttu-id="53c8c-332">وإذا كانت القيمة المخططة لفترة أكبر من القيمة المكتسبة، فإن مقدار العمل الذي تم إنجازه في مشروع يكون أقل مما كان مخططًا له.</span><span class="sxs-lookup"><span data-stu-id="53c8c-332">If the planned value for a period is more than the earned value, the amount of work that has been done on a project is less than what was planned.</span></span> <span data-ttu-id="53c8c-333">ولذلك، يكون المشروع متأخراً عن موعده.</span><span class="sxs-lookup"><span data-stu-id="53c8c-333">Therefore, the project is behind schedule.</span></span> <span data-ttu-id="53c8c-334">ولأن القيمة المخططة والقيمة المكتسبة يتم التعبير عنها بمبالغ نقدية، يتم إعطاء قيمة نقدية للمدة الانتقالية في المشروع أيضًا.</span><span class="sxs-lookup"><span data-stu-id="53c8c-334">Because planned value and earned value are expressed in monetary terms, the lag time on the project is also given a monetary value.</span></span> 
+
+<span data-ttu-id="53c8c-335">وإذا كانت القيمة المخططة لفترة أقل من القيمة المكتسبة، فإن مقدار العمل الذي تم إنجازه في مشروع يكون أكبر مما كان مخططًا له.</span><span class="sxs-lookup"><span data-stu-id="53c8c-335">If the planned value for a period is less than the earned value, the amount of work that has been done on a project is more than what was planned.</span></span> <span data-ttu-id="53c8c-336">ولذلك، يكون المشروع متقدمًا عن موعده.</span><span class="sxs-lookup"><span data-stu-id="53c8c-336">Therefore, the project is ahead of schedule.</span></span> <span data-ttu-id="53c8c-337">كما يتم إعطاء قيمة نقدية لوقت الإنتاج هذا.</span><span class="sxs-lookup"><span data-stu-id="53c8c-337">This lead time is also given a monetary value.</span></span>
+
+<span data-ttu-id="53c8c-338">**فرق التكلفة** لأن القيمة المكتسبة تستخدم سعر التكلفة المضاعف، تشير القيمة المكتسبة إلى تكلفة العمل الذي يتم إنجازه في مشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-338">**Cost variance** Because earned value uses the cost price as the multiplier, earned value indicates the cost of the work that is done on a project.</span></span> <span data-ttu-id="53c8c-339">وأثناء تقدم مشروع، يوفر سجل الحركات سجل أموال يتم إنفاقها فعلياً على ذلك المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-339">As a project progresses, the transaction log provides a record of money that is actually spent on that project.</span></span> <span data-ttu-id="53c8c-340">وبمقارنة القيمة المكتسبة بالتكلفة الفعلية، يمكنك عرض مبلغ المال الذي يتم إنفاقه مقابل القيمة التي يتم كسبها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-340">By comparing earned value to actual cost, you can view the amount of money that is being spent versus the value that is earned.</span></span> <span data-ttu-id="53c8c-341">وتُسمى نتيجة هذه المقارنة بفرق التكلفة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-341">The result of this comparison is called cost variance.</span></span> 
+
+<span data-ttu-id="53c8c-342">وإذا كانت التكلفة الفعلية التي يتم إنفاقها لفترة أكبر من القيمة المكتسبة، يتم إنفاق أموال أكثر مما تم اكتسابه.</span><span class="sxs-lookup"><span data-stu-id="53c8c-342">If the actual cost that is spent for a period is more than the earned value, more money was spent than earned.</span></span> <span data-ttu-id="53c8c-343">ولذلك، يشتمل المشروع على مبالغ زائدة على الموازنة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-343">Therefore, the project is over budget.</span></span> 
+
+<span data-ttu-id="53c8c-344">وإذا كانت التكلفة الفعلية التي يتم إنفاقها لفترة أقل من القيمة المكتسبة، فإنه يتم كسب أموال أكثر مما يتم إنفاقه.</span><span class="sxs-lookup"><span data-stu-id="53c8c-344">If the actual cost that is spent for a period is less than the earned value, more money was earned than spent.</span></span> <span data-ttu-id="53c8c-345">ولذلك، يشتمل المشروع على مبالغ ناقصة عن الموازنة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-345">Therefore, the project is under budget.</span></span>
+
+## <a name="wbs-templates"></a><span data-ttu-id="53c8c-346">قوالب WBS</span><span class="sxs-lookup"><span data-stu-id="53c8c-346">WBS templates</span></span>
+<span data-ttu-id="53c8c-347">‏‫يمكنك استخدام وظيفة قوالب هيكل تنظيم العمل لإنشاء قوالب موحدة للمشاريع.‬</span><span class="sxs-lookup"><span data-stu-id="53c8c-347">You can use the WBS templates functionality to create standard templates for projects.</span></span> <span data-ttu-id="53c8c-348">وإذا كانت المشاريع التي تقدمها شركتك تشتمل على كثير من العمل القابل للتكرار، يجب عليك مراعاة إنشاء قالب هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-348">If the projects that your company offers involve a lot of repeatable work, you should consider creating a WBS template.</span></span> 
+
+<span data-ttu-id="53c8c-349">يمكنك إنشاء قالب هيكل تنظيم عمل من هيكل تنظيم عمل مشروع موجود، بحيث يمكن إعادة استخدام المعرفة وأفضل الممارسات التي حصلت عليها أثناء التخطيط لذلك المشروع في مشاريع مماثلة في المستقبل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-349">You can create a WBS template from the WBS of an existing project, so that knowledge and best practices that you gathered during the planning of that project can be reused on similar projects in the future.</span></span> <span data-ttu-id="53c8c-350">ومع ذلك، في بعض الأحيان، قد لا يعقل حفظ هيكل تنظيم العمل الكامل كقالب.</span><span class="sxs-lookup"><span data-stu-id="53c8c-350">However, sometimes, it might not make sense to save the whole WBS as a template.</span></span> <span data-ttu-id="53c8c-351">ولذلك، يمكنك أيضًا إنشاء قوالب من أجزاء من هيكل تنظيم العمل لمشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-351">Therefore, you can also create templates from parts of the WBS for a project.</span></span>
+
+### <a name="saving-a-projects-wbs-as-a-template"></a><span data-ttu-id="53c8c-352">حفظ هيكل تنظيم العمل للمشروع كقالب</span><span class="sxs-lookup"><span data-stu-id="53c8c-352">Saving a project’s WBS as a template</span></span>
+
+<span data-ttu-id="53c8c-353">بعد إنشاء قالب، يمكنك استيراده إلى هيكل تنظيم عمل مشروع جديد في إطار العقدة الجذر أو ضمن أي مهمة في هيكل تنظيم عمل المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-353">After you create a template, you can import it into a new project’s WBS under the root node, or under any task in the project’s WBS.</span></span>
+
+### <a name="importing-a-wbs-template-into-a-projects-wbs"></a><span data-ttu-id="53c8c-354">استيراد قالب هيكل تنظيم العمل إلى هيكل تنظيم عمل المشروع</span><span class="sxs-lookup"><span data-stu-id="53c8c-354">Importing a WBS template into a project’s WBS</span></span>
+
+<span data-ttu-id="53c8c-355">عندما تقوم باستيراد المهام، يتم تنظيم المهام في القالب بناءً على تاريخ البدء للمهمة التي تم استيرادها ضمنها.</span><span class="sxs-lookup"><span data-stu-id="53c8c-355">When you import tasks, the tasks in the template are organized based on the start date of the task that they are imported under.</span></span> <span data-ttu-id="53c8c-356">وأثناء عملية الاستيراد، يتم استخدام العلاقات السابقة في مهام القوالب لحساب تواريخ البدء للمهام المستوردة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-356">During import, predecessor relationships on the template tasks are used to compute the start dates for the imported tasks.</span></span> <span data-ttu-id="53c8c-357">ويتم استخدام تقويم العمل القياسي لمشروع الوجهة لحساب تواريخ انتهاء المهام المستوردة، بحيث يتم الاحتفاظ بأيام العمل وساعات العمل القياسية التي تم تحديدها في تقويم عمل المشروع الحالي.</span><span class="sxs-lookup"><span data-stu-id="53c8c-357">The destination project’s standard work calendar is applied to compute the end dates of the imported tasks, so that working days and standard working hours that are defined in the current project’s work calendar are retained.</span></span> 
+
+<span data-ttu-id="53c8c-358">يتم استخدام مبالغ التكلفة وأسعار المبيعات على بنود التقدير لضمان أن تشتمل الأسعار الخاصة بالمشروع أو عقد المشروع على تواريخ صالحة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-358">Cost amounts and sales prices on the estimate lines are applied to guarantee that prices that are specific to the project or project contract have valid dates.</span></span>
+
+### <a name="differences-between-a-projects-wbs-and-a-wbs-template"></a><span data-ttu-id="53c8c-359">الاختلافات بين هيكل تنظيم عمل المشروع وقالب هيكل تنظيم العمل</span><span class="sxs-lookup"><span data-stu-id="53c8c-359">Differences between a project’s WBS and a WBS template</span></span>
+
+-   <span data-ttu-id="53c8c-360">لا تشتمل المهام في قوالب هيكل تنظيم العمل على تواريخ البدء وتواريخ الانتهاء.</span><span class="sxs-lookup"><span data-stu-id="53c8c-360">The tasks in WBS templates don’t have start dates and end dates.</span></span>
+
+<span data-ttu-id="53c8c-361">لم يتم تعيين أيام العمل وأيام غير العمل لقوالب هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-361">The working and non-working days aren’t set for WBS templates.</span></span>
+
+-   <span data-ttu-id="53c8c-362">تستخدم قوالب هيكل تنظيم العمل دائماً تقويم الجدولة الذي تم إعداده كتقويم افتراضي لكافة المشاريع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-362">WBS templates always use the scheduling calendar that is set up as the default calendar for all projects.</span></span>
+
+<span data-ttu-id="53c8c-363">يتم استخدام جدولة التقويم الافتراضي فقط لمعرفة الساعات في يوم العمل القياسي.</span><span class="sxs-lookup"><span data-stu-id="53c8c-363">The default scheduling calendar is used only to find out hours in a standard working day.</span></span>
+
+-   <span data-ttu-id="53c8c-364">لا يتم نسخ العلاقات السابقة إلى قالب هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-364">Predecessor relationships aren’t copied to a WBS template.</span></span>
+
+<span data-ttu-id="53c8c-365">لأن قوالب هيكل تنظيم العمل لا تشتمل على تواريخ، لا يُتطلب وجود منطق تاريخ البدء المستند إلى تاريخ انتهاء مهمة سابقة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-365">Because WBS templates don’t have dates, the start date logic that is based on a predecessor’s end date isn’t required.</span></span>
+
+-   <span data-ttu-id="53c8c-366">يتم إنشاء بند تقدير تكلفة عمالة تلقائياً عندما يتم إنشاء مهمة في قالب هيكل تنظيم العمل.</span><span class="sxs-lookup"><span data-stu-id="53c8c-366">A labor cost estimate line is automatically created when a task is created in a WBS template.</span></span> <span data-ttu-id="53c8c-367">يتم نسخ سعر المبيعات ومبلغ التكلفة من العامل المحدد.</span><span class="sxs-lookup"><span data-stu-id="53c8c-367">The sales price and cost amount are copied from the selected worker.</span></span>
+
+<span data-ttu-id="53c8c-368">يمكن إنشاء تكاليف المصروفات والأصناف يدوياً، تمامًا كما هو الحال في هيكل تنظيم عمل المشروع.</span><span class="sxs-lookup"><span data-stu-id="53c8c-368">Expense and item costs can be created manually, just as they can on a project’s WBS.</span></span>
+
+-   <span data-ttu-id="53c8c-369">يتم عرض أخطاء الجدولة عند وجود انحرافات عن المعادلة التالية:</span><span class="sxs-lookup"><span data-stu-id="53c8c-369">Scheduling errors are displayed when there are deviations from the following formula:</span></span>
+
+<span data-ttu-id="53c8c-370">الجهد = عدد الموارد × المدة × عدد الساعات في يوم عمل قياسي</span><span class="sxs-lookup"><span data-stu-id="53c8c-370">Effort = Number of resources × Duration × Number of hours in a standard working day</span></span> 
+
+<span data-ttu-id="53c8c-371">يمكنك تصحيح كافة أخطاء الجدولة في الوقت نفسه بالنقر فوق **إصلاح كافة أخطاء جدولة**.</span><span class="sxs-lookup"><span data-stu-id="53c8c-371">You can correct all scheduling errors at the same time by clicking **Fix all scheduling errors**.</span></span> 
+
+<span data-ttu-id="53c8c-372">وبدلاً من ذلك، يمكنك تصحيح أخطاء الجدولة كل على حدة بواسطة النقر فوق رمز تحذير لكل مهمة.</span><span class="sxs-lookup"><span data-stu-id="53c8c-372">Alternatively, you can correct scheduling errors individually by clicking the warning icon for each task.</span></span>
 
 
 

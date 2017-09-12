@@ -17,7 +17,7 @@ ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -27,139 +27,139 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="cost-accounting-terminology"></a>مصطلحات محاسبة التكاليف
+# <a name="cost-accounting-terminology"></a><span data-ttu-id="655d1-103">مصطلحات محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="655d1-103">Cost accounting terminology</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-يعرّف هذا الموضوع المصطلحات الأساسية المستخدمة في محاسبة التكاليف.
+<span data-ttu-id="655d1-104">يعرّف هذا الموضوع المصطلحات الأساسية المستخدمة في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
-**محاسبة التكاليف**
+<span data-ttu-id="655d1-105">**محاسبة التكاليف**</span><span class="sxs-lookup"><span data-stu-id="655d1-105">**Cost accounting**</span></span>
 
-تسمح لك محاسبة التكاليف بتجميع بيانات من مصادر مختلفة، مثل دفتر الأستاذ العام ودفاتر الأستاذ الفرعية والميزانيات والمعلومات الإحصائية. ويمكنك عندئذٍ تحليل بيانات التكلفة وتلخيصها وتقييمها، لتمكين الإدارة من اتخاذ أفضل القرارات الممكنة لتحديثات السعر والميزانيات ومراقبة التكاليف وهكذا. يتم التعامل مع البيانات المصدر المستخدمة لتحليل التكاليف بشكل مستقل في محاسبة التكاليف. ونتيجة لذلك، لا تؤثر التحديثات في محاسبة التكاليف على البيانات المصدر. ومع ذلك، عندما تقوم بتجميع بيانات التكلفة من مصادر مختلفة، وخاصة عند استيراد الحسابات الرئيسية من دفتر الأستاذ العام في Dynamics 365 for Finance and Operations, Enterprise edition كعناصر تكلفة، هناك تكرار للبيانات، نظرًا لوجود البيانات نفسها في كل من دفتر الأستاذ العام ومحاسبة التكاليف. هذا التكرار مطلوب، لأنك تستخدم الإدارة المالية لإعداد التقارير الخارجية ومحاسبة التكاليف لإعداد التقارير الداخلية.
+<span data-ttu-id="655d1-106">تسمح لك محاسبة التكاليف بتجميع بيانات من مصادر مختلفة، مثل دفتر الأستاذ العام ودفاتر الأستاذ الفرعية والميزانيات والمعلومات الإحصائية.</span><span class="sxs-lookup"><span data-stu-id="655d1-106">Cost accounting lets you collect data from various sources, such as the general ledger, sub-ledgers, budgets, and statistical information.</span></span> <span data-ttu-id="655d1-107">ويمكنك عندئذٍ تحليل بيانات التكلفة وتلخيصها وتقييمها، لتمكين الإدارة من اتخاذ أفضل القرارات الممكنة لتحديثات السعر والميزانيات ومراقبة التكاليف وهكذا.</span><span class="sxs-lookup"><span data-stu-id="655d1-107">You can then analyze, summarize, and evaluate cost data, so that management can make the best possible decisions for price updates, budgets, cost control, and so on.</span></span> <span data-ttu-id="655d1-108">يتم التعامل مع البيانات المصدر المستخدمة لتحليل التكاليف بشكل مستقل في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-108">The source data that is used for cost analysis is treated independently in Cost accounting.</span></span> <span data-ttu-id="655d1-109">ونتيجة لذلك، لا تؤثر التحديثات في محاسبة التكاليف على البيانات المصدر.</span><span class="sxs-lookup"><span data-stu-id="655d1-109">Therefore, updates in Cost accounting don’t affect the source data.</span></span> <span data-ttu-id="655d1-110">ومع ذلك، عندما تقوم بتجميع بيانات التكلفة من مصادر مختلفة، وخاصة عند استيراد الحسابات الرئيسية من دفتر الأستاذ العام في Dynamics 365 for Finance and Operations, Enterprise edition كعناصر تكلفة، هناك تكرار للبيانات، نظرًا لوجود البيانات نفسها في كل من دفتر الأستاذ العام ومحاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-110">However, when you collect cost data from various sources, and especially when you import the main accounts from General ledger in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition as cost elements, there is data redundancy, because the same data exists in both General ledger and Cost accounting.</span></span> <span data-ttu-id="655d1-111">هذا التكرار مطلوب، لأنك تستخدم الإدارة المالية لإعداد التقارير الخارجية ومحاسبة التكاليف لإعداد التقارير الداخلية.</span><span class="sxs-lookup"><span data-stu-id="655d1-111">This redundancy is required, because you use financial management for external reporting and Cost accounting for internal reporting.</span></span>
 
-**دفتر أستاذ محاسبة التكاليف**
+<span data-ttu-id="655d1-112">**دفتر أستاذ محاسبة التكاليف**</span><span class="sxs-lookup"><span data-stu-id="655d1-112">**Cost accounting ledger**</span></span>
 
-دفتر أستاذ محاسبة التكاليف هو إطار عمل تخصصي يحدد كيفية إدخال العمليات والقيم والكميات وتقديمها لناحية معينة في محاسبة التكاليف. يحدد دفتر أستاذ محاسبة التكاليف العمليات والقواعد لقياس التكاليف على كائنات التكلفة. وهو يعالج حركات التكلفة ويدير المستندات التي تسجل التغييرات في القيم والكميات التي تنتجها حركات التكلفة.
+<span data-ttu-id="655d1-113">دفتر أستاذ محاسبة التكاليف هو إطار عمل تخصصي يحدد كيفية إدخال العمليات والقيم والكميات وتقديمها لناحية معينة في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-113">The cost accounting ledger is a specialized framework that determines how processes, values, and quantities are entered and presented for a particular area in Cost accounting.</span></span> <span data-ttu-id="655d1-114">يحدد دفتر أستاذ محاسبة التكاليف العمليات والقواعد لقياس التكاليف على كائنات التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-114">The cost accounting ledger defines processes and rules for measuring costs on cost objects.</span></span> <span data-ttu-id="655d1-115">وهو يعالج حركات التكلفة ويدير المستندات التي تسجل التغييرات في القيم والكميات التي تنتجها حركات التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-115">It handles cost transactions, and manages documents that record the changes in values and quantities that cost transactions produce.</span></span>
 
-**إدخال التكلفة**
+<span data-ttu-id="655d1-116">**إدخال التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-116">**Cost entry**</span></span>
 
-إدخالات التكلفة هي نتيجة لعملة تحويل عبر موصلات البيانات من إدخالات دفتر الأستاذ العام و التكلفة‬ وإدخالات التكلفة المرحلة في دفاتر يومية التكلفة.
+<span data-ttu-id="655d1-117">إدخالات التكلفة هي نتيجة لعملة تحويل عبر موصلات البيانات من إدخالات دفتر الأستاذ العام و التكلفة‬ وإدخالات التكلفة المرحلة في دفاتر يومية التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-117">Cost entries are the result of a transfer via data connectors from general ledger entries, cost allocations, and posted cost entries in cost journals.</span></span>
 
-**كائن التكلفة**
+<span data-ttu-id="655d1-118">**كائن التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-118">**Cost object**</span></span>
 
-إن كائنات التكلفة هي أي نوع من أنواع الكائنات التي يتم تخصيص التكاليف لها. وفيما يلي بعض كائنات التكلفة النموذجية:
+<span data-ttu-id="655d1-119">إن كائنات التكلفة هي أي نوع من أنواع الكائنات التي يتم تخصيص التكاليف لها.</span><span class="sxs-lookup"><span data-stu-id="655d1-119">Cost objects are any type of object that costs are allocated to.</span></span> <span data-ttu-id="655d1-120">وفيما يلي بعض كائنات التكلفة النموذجية:</span><span class="sxs-lookup"><span data-stu-id="655d1-120">Here are some typical cost objects:</span></span>
 
--   المنتجات
--   المشاريع
--   الموارد
--   الأقسام
--   مراكز تكلفة
--   المناطق الجغرافية
+-   <span data-ttu-id="655d1-121">المنتجات</span><span class="sxs-lookup"><span data-stu-id="655d1-121">Products</span></span>
+-   <span data-ttu-id="655d1-122">المشاريع</span><span class="sxs-lookup"><span data-stu-id="655d1-122">Projects</span></span>
+-   <span data-ttu-id="655d1-123">الموارد</span><span class="sxs-lookup"><span data-stu-id="655d1-123">Resources</span></span>
+-   <span data-ttu-id="655d1-124">الأقسام</span><span class="sxs-lookup"><span data-stu-id="655d1-124">Departments</span></span>
+-   <span data-ttu-id="655d1-125">مراكز تكلفة</span><span class="sxs-lookup"><span data-stu-id="655d1-125">Cost centers</span></span>
+-   <span data-ttu-id="655d1-126">المناطق الجغرافية</span><span class="sxs-lookup"><span data-stu-id="655d1-126">Geographic regions</span></span>
 
-تستخدم الإدارة كائنات التكلفة لتحديد التكاليف، بل أيضًا لتعزيز تحليل الربحية.
+<span data-ttu-id="655d1-127">تستخدم الإدارة كائنات التكلفة لتحديد التكاليف، بل أيضًا لتعزيز تحليل الربحية.</span><span class="sxs-lookup"><span data-stu-id="655d1-127">Management uses cost objects to quantify costs, but also to drive profitability analysis.</span></span>
 
-**عنصر التكلفة**
+<span data-ttu-id="655d1-128">**عنصر التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-128">**Cost element**</span></span>
 
-تستخدم عناصر التكلفة كوظيفة لتعقب المكان الذي تتدفق التكاليف إليه وتصنيفه. هناك نوعان من عناصر التكلفة: التكاليف الأساسية والتكاليف الثانوية. **‏‫التكاليف الأساسية** تمثل عناصر التكلفة الأساسية تدفق التكاليف من المحاسبة المالية إلى محاسبة التكاليف. تتطابق بنية عنصر التكلفة مع بنية حساب الأرباح والخسائر في دفتر الأستاذ العام، حيث يمكن أن يتطابق عنصر تكلفة مع حساب رئيسي. من غير الضروري أن تتمثل كافة الحسابات الرئيسية كعناصر تكلفة، وهذا يتوقف على متطلبات العمل. فيما يلي بعض الأمثلة عن عناصر التكلفة الأساسية:
+<span data-ttu-id="655d1-129">تستخدم عناصر التكلفة كوظيفة لتعقب المكان الذي تتدفق التكاليف إليه وتصنيفه.</span><span class="sxs-lookup"><span data-stu-id="655d1-129">Cost elements are used as a function to track and categorize where costs flow to.</span></span> <span data-ttu-id="655d1-130">هناك نوعان من عناصر التكلفة: التكاليف الأساسية والتكاليف الثانوية.</span><span class="sxs-lookup"><span data-stu-id="655d1-130">There are two types of cost elements: primary costs and secondary costs.</span></span> <span data-ttu-id="655d1-131">**‏‫التكاليف الأساسية** تمثل عناصر التكلفة الأساسية تدفق التكاليف من المحاسبة المالية إلى محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-131">**Primary costs** The primary cost elements represent the flow of costs from financial accounting to cost accounting.</span></span> <span data-ttu-id="655d1-132">تتطابق بنية عنصر التكلفة مع بنية حساب الأرباح والخسائر في دفتر الأستاذ العام، حيث يمكن أن يتطابق عنصر تكلفة مع حساب رئيسي.</span><span class="sxs-lookup"><span data-stu-id="655d1-132">The cost element structure corresponds to the profit and loss account structure in the general ledger, where a cost element can correspond to a main account.</span></span> <span data-ttu-id="655d1-133">من غير الضروري أن تتمثل كافة الحسابات الرئيسية كعناصر تكلفة، وهذا يتوقف على متطلبات العمل.</span><span class="sxs-lookup"><span data-stu-id="655d1-133">Not all main accounts must be represented as cost elements, depending on business requirements.</span></span> <span data-ttu-id="655d1-134">فيما يلي بعض الأمثلة عن عناصر التكلفة الأساسية:</span><span class="sxs-lookup"><span data-stu-id="655d1-134">Here are some examples of primary cost elements:</span></span>
 
--   تكلفة البضائع المبيعة (COG)
--   التكاليف المادية غير المباشرة
--   تكاليف الموظفين
--   تكاليف الطاقة
+-   <span data-ttu-id="655d1-135">تكلفة البضائع المبيعة (COG)</span><span class="sxs-lookup"><span data-stu-id="655d1-135">Costs of goods sold (COGs)</span></span>
+-   <span data-ttu-id="655d1-136">التكاليف المادية غير المباشرة</span><span class="sxs-lookup"><span data-stu-id="655d1-136">Indirect material costs</span></span>
+-   <span data-ttu-id="655d1-137">تكاليف الموظفين</span><span class="sxs-lookup"><span data-stu-id="655d1-137">Personnel costs</span></span>
+-   <span data-ttu-id="655d1-138">تكاليف الطاقة</span><span class="sxs-lookup"><span data-stu-id="655d1-138">Energy costs</span></span>
 
-**عنصر التكلفة الفرعية** 
+<span data-ttu-id="655d1-139">**عنصر التكلفة الفرعية**</span><span class="sxs-lookup"><span data-stu-id="655d1-139">**Secondary cost element**</span></span> 
 
-تمثل عناصر التكلفة الثانوية التدفق الداخلي للتكاليف، إذ يتم إنشاء هذه التكاليف واستخدامها فقط في محاسبة التكاليف. تساعد عناصر التكلفة الثانوية على ضمان إمكانية تتبع مصدر التكاليف. يتم استخدام عناصر التكلفة هذه في عمليات توزيع التكلفة وحسابات النفقات العامة. فيما يلي بعض الأمثلة عن عناصر التكلفة الثانوية:
+<span data-ttu-id="655d1-140">تمثل عناصر التكلفة الثانوية التدفق الداخلي للتكاليف، إذ يتم إنشاء هذه التكاليف واستخدامها فقط في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-140">The secondary cost elements represent the internal flow of costs, because these costs are created and used only in Cost accounting.</span></span> <span data-ttu-id="655d1-141">تساعد عناصر التكلفة الثانوية على ضمان إمكانية تتبع مصدر التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-141">Secondary cost elements help guarantee that the source of costs can be traced.</span></span> <span data-ttu-id="655d1-142">يتم استخدام عناصر التكلفة هذه في عمليات توزيع التكلفة وحسابات النفقات العامة.</span><span class="sxs-lookup"><span data-stu-id="655d1-142">These cost elements are used in cost allocations and overhead calculations.</span></span> <span data-ttu-id="655d1-143">فيما يلي بعض الأمثلة عن عناصر التكلفة الثانوية:</span><span class="sxs-lookup"><span data-stu-id="655d1-143">Here are some examples of secondary cost elements:</span></span>
 
--   تكاليف الإنتاج
--   نفقات الإنتاج والمواد والتسويق
+-   <span data-ttu-id="655d1-144">تكاليف الإنتاج</span><span class="sxs-lookup"><span data-stu-id="655d1-144">Production costs</span></span>
+-   <span data-ttu-id="655d1-145">نفقات الإنتاج والمواد والتسويق</span><span class="sxs-lookup"><span data-stu-id="655d1-145">Production, material, and marketing overheads</span></span>
 
-**وحدة مراقبة التكاليف**
+<span data-ttu-id="655d1-146">**وحدة مراقبة التكاليف**</span><span class="sxs-lookup"><span data-stu-id="655d1-146">**Cost control unit**</span></span>
 
-تمثل وحدة مراقبة التكاليف بنية التكلفة. يجب أن تكون مقترنة بإبعاد كائن التكلفة في دفتر أستاذ محاسبة التكاليف.
+<span data-ttu-id="655d1-147">تمثل وحدة مراقبة التكاليف بنية التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-147">A cost control unit represents the cost structure.</span></span> <span data-ttu-id="655d1-148">يجب أن تكون مقترنة بإبعاد كائن التكلفة في دفتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-148">It must be associated with cost object dimensions in a cost accounting ledger.</span></span>
 
-**الإصدار**
+<span data-ttu-id="655d1-149">**الإصدار**</span><span class="sxs-lookup"><span data-stu-id="655d1-149">**Version**</span></span>
 
-يتم استخدام الإصدارات لمحاكاة نتائج مختلفة وعرضها ومقارنتها. بشكل افتراضي، يتم عرض كافة التكاليف الفعلية في إصدار أساسي واحد يعرف باسم *الفعلي*. للميزانيات والحسابات، يمكنك استخدام العدد الذي تريده من الإصدارات. على سبيل المثال، يمكنك استيراد بيانات الموازنة إلى إصدار أصلية ثم مراجعة الموازنة في إصدار مراجع. بالنسبة إلى العمليات الحسابية، يمكنك إنشاء إصدارات متعددة. في هذه الإصدارات مختلفة، يمكنك إنشاء حسابات باستخدام قواعد حساب مختلفة ستطبق على توزيع التكلفة.
+<span data-ttu-id="655d1-150">يتم استخدام الإصدارات لمحاكاة نتائج مختلفة وعرضها ومقارنتها.</span><span class="sxs-lookup"><span data-stu-id="655d1-150">Versions are used to simulate, view, and compare various outcomes.</span></span> <span data-ttu-id="655d1-151">بشكل افتراضي، يتم عرض كافة التكاليف الفعلية في إصدار أساسي واحد يعرف باسم *الفعلي*.</span><span class="sxs-lookup"><span data-stu-id="655d1-151">By default, all actual costs are viewed in one base version that is known as *actual*.</span></span> <span data-ttu-id="655d1-152">للميزانيات والحسابات، يمكنك استخدام العدد الذي تريده من الإصدارات.</span><span class="sxs-lookup"><span data-stu-id="655d1-152">For budgets and calculations, you can work with as many versions as you require.</span></span> <span data-ttu-id="655d1-153">على سبيل المثال، يمكنك استيراد بيانات الموازنة إلى إصدار أصلية ثم مراجعة الموازنة في إصدار مراجع.</span><span class="sxs-lookup"><span data-stu-id="655d1-153">For example, you can import budget data into an original version and then revise the budget in a revised version.</span></span> <span data-ttu-id="655d1-154">بالنسبة إلى العمليات الحسابية، يمكنك إنشاء إصدارات متعددة.</span><span class="sxs-lookup"><span data-stu-id="655d1-154">For calculations, you can create multiple versions.</span></span> <span data-ttu-id="655d1-155">في هذه الإصدارات مختلفة، يمكنك إنشاء حسابات باستخدام قواعد حساب مختلفة ستطبق على توزيع التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-155">In these various versions, you can then create calculations by using different calculation rules that will be applied for cost allocation.</span></span>
 
-**كشف الحساب**
+<span data-ttu-id="655d1-156">**كشف الحساب**</span><span class="sxs-lookup"><span data-stu-id="655d1-156">**Statement**</span></span>
 
-كشوف الحسابات هي طرق عرض للمدراء المسؤولين عن التحكم في التكاليف. يتم تعريف الكشوف بوحدة تحكم تكلفة، وهي تعطي لمحة سريعة حول التكاليف الفعلية وتلك المدرجة في الموازنة، وحتى عن الانحرافات وإصدارات الحسابات. للمساعدة في ضمان رؤية المدراء فقط البيانات التي تقع ضمن نطاق مسؤوليتهم، تخضع البيانات التي تظهر في الكشوف لقواعد الوصول.
+<span data-ttu-id="655d1-157">كشوف الحسابات هي طرق عرض للمدراء المسؤولين عن التحكم في التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-157">Statements are views for the managers who are responsible for controlling costs.</span></span> <span data-ttu-id="655d1-158">يتم تعريف الكشوف بوحدة تحكم تكلفة، وهي تعطي لمحة سريعة حول التكاليف الفعلية وتلك المدرجة في الموازنة، وحتى عن الانحرافات وإصدارات الحسابات.</span><span class="sxs-lookup"><span data-stu-id="655d1-158">Statements are defined by a cost controller, and they give a quick overview of actual and budgeted costs, and even deviations and calculation versions.</span></span> <span data-ttu-id="655d1-159">للمساعدة في ضمان رؤية المدراء فقط البيانات التي تقع ضمن نطاق مسؤوليتهم، تخضع البيانات التي تظهر في الكشوف لقواعد الوصول.</span><span class="sxs-lookup"><span data-stu-id="655d1-159">To help guarantee that managers view only data that they are accountable for, data that appears in the statements is subject to access rules.</span></span>
 
-**موصل البيانات**
+<span data-ttu-id="655d1-160">**موصل البيانات**</span><span class="sxs-lookup"><span data-stu-id="655d1-160">**Data connector**</span></span>
 
-يمكن استيراد البيانات إلى محاسبة التكاليف من أنظمة خارجية عن طريق موصلات البيانات. على سبيل المثال، يمكنك استيراد بنية الحساب والأبعاد وإدخالات دفتر الأستاذ العام وإدخالات الموازنة. ويمكنك استخدام موصلات البيانات التي تم تكوينها مسبقًا أو روابط مخصصة لاستيراد البيانات وإنشاء اتصالات البيانات.
+<span data-ttu-id="655d1-161">يمكن استيراد البيانات إلى محاسبة التكاليف من أنظمة خارجية عن طريق موصلات البيانات.</span><span class="sxs-lookup"><span data-stu-id="655d1-161">Data can be imported into Cost accounting from external systems via data connectors.</span></span> <span data-ttu-id="655d1-162">على سبيل المثال، يمكنك استيراد بنية الحساب والأبعاد وإدخالات دفتر الأستاذ العام وإدخالات الموازنة.</span><span class="sxs-lookup"><span data-stu-id="655d1-162">For example, you can import account structures, dimensions, general ledger entries, and budget entries.</span></span> <span data-ttu-id="655d1-163">ويمكنك استخدام موصلات البيانات التي تم تكوينها مسبقًا أو روابط مخصصة لاستيراد البيانات وإنشاء اتصالات البيانات.</span><span class="sxs-lookup"><span data-stu-id="655d1-163">You can use preconfigured data connectors or custom connectors to import data and create data connections.</span></span>
 
-**تصنيف التكلفة**
+<span data-ttu-id="655d1-164">**تصنيف التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-164">**Cost classification**</span></span>
 
-يقوم تصنيف التكلفة بجمع التكاليف وفقًا لخصائصها المشتركة. على سبيل المثال، يمكن تجميع التكاليف حسب العناصر والتتبع والسلوك.
+<span data-ttu-id="655d1-165">يقوم تصنيف التكلفة بجمع التكاليف وفقًا لخصائصها المشتركة.</span><span class="sxs-lookup"><span data-stu-id="655d1-165">Cost classification groups costs according to their shared characteristics.</span></span> <span data-ttu-id="655d1-166">على سبيل المثال، يمكن تجميع التكاليف حسب العناصر والتتبع والسلوك.</span><span class="sxs-lookup"><span data-stu-id="655d1-166">For example, costs can be grouped by elements, traceability, and behavior.</span></span>
 
--   **حسب العناصر** – المواد والعمالة والمصروفات.
--   **حسب التتبع** – التكاليف المباشرة وغير المباشرة. يتم تعيين التكاليف المباشرة إلى كائنات التكلفة بشكل مباشر. أما التكاليف غير المباشرة فلا يمكن تتعبها مباشرة إلى كائنات تكلفة. ويتم تخصيص التكاليف غير المباشرة لكائنات التكلفة.
--   **حسب السلوك** – الثابت والمتغير وشبه المتغير.
+-   <span data-ttu-id="655d1-167">**حسب العناصر** – المواد والعمالة والمصروفات.</span><span class="sxs-lookup"><span data-stu-id="655d1-167">**By elements** – Materials, labor, and expenses.</span></span>
+-   <span data-ttu-id="655d1-168">**حسب التتبع** – التكاليف المباشرة وغير المباشرة.</span><span class="sxs-lookup"><span data-stu-id="655d1-168">**By traceability** – Direct costs and indirect costs.</span></span> <span data-ttu-id="655d1-169">يتم تعيين التكاليف المباشرة إلى كائنات التكلفة بشكل مباشر.</span><span class="sxs-lookup"><span data-stu-id="655d1-169">Direct costs are assigned directly to cost objects.</span></span> <span data-ttu-id="655d1-170">أما التكاليف غير المباشرة فلا يمكن تتعبها مباشرة إلى كائنات تكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-170">Indirect costs aren't directly traceable to cost objects.</span></span> <span data-ttu-id="655d1-171">ويتم تخصيص التكاليف غير المباشرة لكائنات التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-171">Indirect costs are allocated to cost objects.</span></span>
+-   <span data-ttu-id="655d1-172">**حسب السلوك** – الثابت والمتغير وشبه المتغير.</span><span class="sxs-lookup"><span data-stu-id="655d1-172">**By behavior** – Fixed, variable, and semi-variable.</span></span>
 
-**سلوك التكلفة**
+<span data-ttu-id="655d1-173">**سلوك التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-173">**Cost behavior**</span></span>
 
-يصنف سلوك التكلفة التكاليف حسب سلوكها فيما يتعلق بالتغييرات في الأنشطة التجارية الرئيسية. لمراقبة التكاليف بشكل فعال، يتعين على الإدارة فهم سلوك التكلفة. هناك ثلاثة أنواع من نمط سلوك التكلفة: الثابت والمتغير وشبه المتغير.
+<span data-ttu-id="655d1-174">يصنف سلوك التكلفة التكاليف حسب سلوكها فيما يتعلق بالتغييرات في الأنشطة التجارية الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="655d1-174">Cost behavior classifies costs according to their behavior in relation to changes in key business activities.</span></span> <span data-ttu-id="655d1-175">لمراقبة التكاليف بشكل فعال، يتعين على الإدارة فهم سلوك التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-175">To control costs effectively, management must understand the cost behavior.</span></span> <span data-ttu-id="655d1-176">هناك ثلاثة أنواع من نمط سلوك التكلفة: الثابت والمتغير وشبه المتغير.</span><span class="sxs-lookup"><span data-stu-id="655d1-176">There are three types of cost behavior pattern: fixed, variable, and semi-variable.</span></span>
 
-- **التكلفة الثابتة** - التكلفة الثابتة هي تكلفة لا تتغير على المدى القصير، بغض النظر عن التغييرات في مستوى النشاط. على سبيل المثال، بإمكان التكلفة الثابتة أن تكون عبارة عن مصروفات تشغيل أساسية لشركة ما، مثل الإيجار، لن تتأثر حتى عند ازدياد مستوى النشاط أو انخفاضه.
+- <span data-ttu-id="655d1-177">**التكلفة الثابتة** - التكلفة الثابتة هي تكلفة لا تتغير على المدى القصير، بغض النظر عن التغييرات في مستوى النشاط.</span><span class="sxs-lookup"><span data-stu-id="655d1-177">**Fixed cost** - A fixed cost is a cost that doesn't vary in the short term, regardless of changes in activity level.</span></span> <span data-ttu-id="655d1-178">على سبيل المثال، بإمكان التكلفة الثابتة أن تكون عبارة عن مصروفات تشغيل أساسية لشركة ما، مثل الإيجار، لن تتأثر حتى عند ازدياد مستوى النشاط أو انخفاضه.</span><span class="sxs-lookup"><span data-stu-id="655d1-178">For example, a fixed cost can be a basic operating expense of a business, such as rent, that won't be affected even if the activity level increases or decreases.</span></span>
 
-- **التكلفة المتغيرة‬** - تتغير التكلفة المتغيرة عند حدوث تغييرات في مستوى النشاط. على سبيل المثال، ترتبط تكلفة مواد مباشرة محددة بكل منتج يتم بيعه. بقدر ما يزيد عدد المنتجات المباعة، تزداد تكاليف المواد المباشرة.
+- <span data-ttu-id="655d1-179">**التكلفة المتغيرة‬** - تتغير التكلفة المتغيرة عند حدوث تغييرات في مستوى النشاط.</span><span class="sxs-lookup"><span data-stu-id="655d1-179">**Variable cost** - A variable cost changes according to changes in activity level.</span></span> <span data-ttu-id="655d1-180">على سبيل المثال، ترتبط تكلفة مواد مباشرة محددة بكل منتج يتم بيعه.</span><span class="sxs-lookup"><span data-stu-id="655d1-180">For example, a specific direct materials cost is associated with each product that is sold.</span></span> <span data-ttu-id="655d1-181">بقدر ما يزيد عدد المنتجات المباعة، تزداد تكاليف المواد المباشرة.</span><span class="sxs-lookup"><span data-stu-id="655d1-181">The more products that are sold, the more direct materials costs there are.</span></span>
 
-- **التكلفة شبه المتغيرة‬** - التكاليف شبه المتغيرة هي تكاليف ثابتة جزئيًا ومتغيرة جزئيًا. على سبيل المثال، تتضمن تكلفة الوصول إلى الإنترنت رسم وصول شهري قياسي ورسم استخدام النطاق الترددي الواسع. يُعد رسم الوصول الشهري القياسي تكلفة ثابتة، في حين يُعد رسم استخدام النطاق الترددي الواسع تكلفة متغيرة.
+- <span data-ttu-id="655d1-182">**التكلفة شبه المتغيرة‬** - التكاليف شبه المتغيرة هي تكاليف ثابتة جزئيًا ومتغيرة جزئيًا.</span><span class="sxs-lookup"><span data-stu-id="655d1-182">**Semi-variable cost** - Semi-variable costs are partly fixed and partly variable costs.</span></span> <span data-ttu-id="655d1-183">على سبيل المثال، تتضمن تكلفة الوصول إلى الإنترنت رسم وصول شهري قياسي ورسم استخدام النطاق الترددي الواسع.</span><span class="sxs-lookup"><span data-stu-id="655d1-183">For example, an Internet access fee includes a standard monthly access fee and a broadband usage fee.</span></span> <span data-ttu-id="655d1-184">يُعد رسم الوصول الشهري القياسي تكلفة ثابتة، في حين يُعد رسم استخدام النطاق الترددي الواسع تكلفة متغيرة.</span><span class="sxs-lookup"><span data-stu-id="655d1-184">The standard monthly access fee is a fixed cost, whereas the broadband usage fee is a variable cost.</span></span>
 
-**تكلفة المصاريف الإضافية**
+<span data-ttu-id="655d1-185">**تكلفة المصاريف الإضافية**</span><span class="sxs-lookup"><span data-stu-id="655d1-185">**Overhead cost**</span></span>
 
-تشير تكاليف المصاريف الإضافية إلى النفقات الجارية لتشغيل شركة. إنها التكاليف التي لا يمكن ربطها مباشرة بأنشطة أعمال معينة. فيما يلي بعض الأمثلة على تكاليف المصاريف الإضافية:
+<span data-ttu-id="655d1-186">تشير تكاليف المصاريف الإضافية إلى النفقات الجارية لتشغيل شركة.</span><span class="sxs-lookup"><span data-stu-id="655d1-186">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="655d1-187">إنها التكاليف التي لا يمكن ربطها مباشرة بأنشطة أعمال معينة.</span><span class="sxs-lookup"><span data-stu-id="655d1-187">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="655d1-188">فيما يلي بعض الأمثلة على تكاليف المصاريف الإضافية:</span><span class="sxs-lookup"><span data-stu-id="655d1-188">Here are some examples of overhead costs:</span></span>
 
--   رسوم المحاسبة
--   عمليات الإهلاك
--   التأمين
--   الفائدة
--   الرسوم القانونية
--   الضرائب
--   تكاليف المرافق
+-   <span data-ttu-id="655d1-189">رسوم المحاسبة</span><span class="sxs-lookup"><span data-stu-id="655d1-189">Accounting fees</span></span>
+-   <span data-ttu-id="655d1-190">عمليات الإهلاك</span><span class="sxs-lookup"><span data-stu-id="655d1-190">Depreciations</span></span>
+-   <span data-ttu-id="655d1-191">التأمين</span><span class="sxs-lookup"><span data-stu-id="655d1-191">Insurance</span></span>
+-   <span data-ttu-id="655d1-192">الفائدة</span><span class="sxs-lookup"><span data-stu-id="655d1-192">Interest</span></span>
+-   <span data-ttu-id="655d1-193">الرسوم القانونية</span><span class="sxs-lookup"><span data-stu-id="655d1-193">Legal fees</span></span>
+-   <span data-ttu-id="655d1-194">الضرائب</span><span class="sxs-lookup"><span data-stu-id="655d1-194">Taxes</span></span>
+-   <span data-ttu-id="655d1-195">تكاليف المرافق</span><span class="sxs-lookup"><span data-stu-id="655d1-195">Utilities costs</span></span>
 
-**توزيع التكلفة**
+<span data-ttu-id="655d1-196">**توزيع التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-196">**Cost distribution**</span></span>
 
-يتم استخدام توزيع التكلفة لإعادة توزيع التكلفة من كائن تكلفة واحد إلى كائن تكلفة واحد أو أكثر عن طريق تطبيق أساس توزيع ذي صلة. هناك اختلاف بين توزيع التكلفة وتخصيص التكلفة، حيث يحدث توزيع التكلفة دائمًا على مستوى عنصر التكلفة الأساسية‬‏‫ للتكلفة الأصلية.
+<span data-ttu-id="655d1-197">يتم استخدام توزيع التكلفة لإعادة توزيع التكلفة من كائن تكلفة واحد إلى كائن تكلفة واحد أو أكثر عن طريق تطبيق أساس توزيع ذي صلة.</span><span class="sxs-lookup"><span data-stu-id="655d1-197">Cost distribution is used to redistribute cost from one cost object to one or more other cost objects by applying a relevant allocation base.</span></span> <span data-ttu-id="655d1-198">هناك اختلاف بين توزيع التكلفة وتخصيص التكلفة، حيث يحدث توزيع التكلفة دائمًا على مستوى عنصر التكلفة الأساسية‬‏‫ للتكلفة الأصلية.</span><span class="sxs-lookup"><span data-stu-id="655d1-198">Cost distribution and cost allocation differ in that cost distribution always occurs at the level of the primary cost element of the original cost.</span></span>
 
-**تخصيص التكلفة**
+<span data-ttu-id="655d1-199">**تخصيص التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-199">**Cost allocation**</span></span>
 
-يُستخدم التخصيص لتخصيص رصيد كائن التكلفة إلى كائنات تكلفة أخرى عن طريق تطبيق أساس التوزيع. يدعم تطبيق Finance and Operations طريقة التوزيع المتبادل. في أسلوب التخصيص المتبادل، يتم التعرّف بشكل كامل على الخدمات المتبادلة التي تتبادلها كائنات التكلفة المساعدة. يحدد النظام بشكل تلقائي الترتيب الصحيح لتنفيذ عمليات التخصيص فيه. يتم تخصيص الرصيد الخاص بكائن التكلفة بواسطة أساس توزيع فردي. يتم دعم عمليات التخصيص عبر أبعاد كائنات التكلفة وأعضائها. يتم التحكم بترتيب التخصيص بواسطة وحدة التحكم في التكلفة.
+<span data-ttu-id="655d1-200">يُستخدم التخصيص لتخصيص رصيد كائن التكلفة إلى كائنات تكلفة أخرى عن طريق تطبيق أساس التوزيع.</span><span class="sxs-lookup"><span data-stu-id="655d1-200">Allocation is used to allocate the balance of a cost object to other cost objects by applying an allocation base.</span></span> <span data-ttu-id="655d1-201">يدعم تطبيق Finance and Operations طريقة التوزيع المتبادل.</span><span class="sxs-lookup"><span data-stu-id="655d1-201">Finance and Operations supports the reciprocal allocation method.</span></span> <span data-ttu-id="655d1-202">في أسلوب التخصيص المتبادل، يتم التعرّف بشكل كامل على الخدمات المتبادلة التي تتبادلها كائنات التكلفة المساعدة.</span><span class="sxs-lookup"><span data-stu-id="655d1-202">In the reciprocal allocation method, the mutual services that auxiliary cost objects exchange are fully recognized.</span></span> <span data-ttu-id="655d1-203">يحدد النظام بشكل تلقائي الترتيب الصحيح لتنفيذ عمليات التخصيص فيه.</span><span class="sxs-lookup"><span data-stu-id="655d1-203">The system automatically determines the correct order to perform the allocations in.</span></span> <span data-ttu-id="655d1-204">يتم تخصيص الرصيد الخاص بكائن التكلفة بواسطة أساس توزيع فردي.</span><span class="sxs-lookup"><span data-stu-id="655d1-204">The balance of a cost object is allocated by a single allocation base.</span></span> <span data-ttu-id="655d1-205">يتم دعم عمليات التخصيص عبر أبعاد كائنات التكلفة وأعضائها.</span><span class="sxs-lookup"><span data-stu-id="655d1-205">Allocations across cost objects dimensions and their respective members are supported.</span></span> <span data-ttu-id="655d1-206">يتم التحكم بترتيب التخصيص بواسطة وحدة التحكم في التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-206">The allocation order is controlled by the cost control unit.</span></span>
 
-**سياسة توزيع التكلفة**
+<span data-ttu-id="655d1-207">**سياسة توزيع التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-207">**Cost allocation policy**</span></span>
 
-تحدد سياسة توزيع التكلفة المبالغ والكميات التي يجب توزيع. وتتضمن قواعد التوزيع قواعد مصدر التوزيع، التي تحدد التكاليف التي تم توزيعها، وقواعد أهداف التوزيع، التي تحدد أين يتم توزيع التكاليف. على سبيل المثال، تُعد كافة تكاليف خدمات المرافق مصدر توزيع يمكن توزيعه لمختلف الإدارات في مؤسسة (أي، أهداف التوزيع).
+<span data-ttu-id="655d1-208">تحدد سياسة توزيع التكلفة المبالغ والكميات التي يجب توزيع.</span><span class="sxs-lookup"><span data-stu-id="655d1-208">A cost allocation policy defines the amounts and quantities that must be allocated.</span></span> <span data-ttu-id="655d1-209">وتتضمن قواعد التوزيع قواعد مصدر التوزيع، التي تحدد التكاليف التي تم توزيعها، وقواعد أهداف التوزيع، التي تحدد أين يتم توزيع التكاليف.</span><span class="sxs-lookup"><span data-stu-id="655d1-209">Allocation rules include allocation source rules, which determine the costs that are allocated, and allocation targets rules, which determine where the costs are allocated.</span></span> <span data-ttu-id="655d1-210">على سبيل المثال، تُعد كافة تكاليف خدمات المرافق مصدر توزيع يمكن توزيعه لمختلف الإدارات في مؤسسة (أي، أهداف التوزيع).</span><span class="sxs-lookup"><span data-stu-id="655d1-210">For example, all costs for facility services are an allocation source that can be allocated to various departments in an organization (that is, to allocation targets).</span></span>
 
-**أساس التوزيع**
+<span data-ttu-id="655d1-211">**أساس التوزيع**</span><span class="sxs-lookup"><span data-stu-id="655d1-211">**Allocation base**</span></span>
 
-تُعد قاعدة التوزيع الأساس الذي يمكن استخدامه لقياس وتقدير حجم الأنشطة، مثل ساعات استخدام الجهاز، أو مقدار الطاقة المستهلكة في الساعة، أو ساعات العمالة المباشرة التي تم إنفاقها أو المساحة المشغولة بالقدم المربع. ويتم استخدامها لتوزيع التكاليف على كائن تكلفة واحد أو أكثر.
+<span data-ttu-id="655d1-212">تُعد قاعدة التوزيع الأساس الذي يمكن استخدامه لقياس وتقدير حجم الأنشطة، مثل ساعات استخدام الجهاز، أو مقدار الطاقة المستهلكة في الساعة، أو ساعات العمالة المباشرة التي تم إنفاقها أو المساحة المشغولة بالقدم المربع.</span><span class="sxs-lookup"><span data-stu-id="655d1-212">The allocation base is the basis that can be used to measure and quantify activities, such as machine hours that are used, kilowatt hours that are consumed, direct labor hours that are spent, or square footage that is occupied.</span></span> <span data-ttu-id="655d1-213">ويتم استخدامها لتوزيع التكاليف على كائن تكلفة واحد أو أكثر.</span><span class="sxs-lookup"><span data-stu-id="655d1-213">It's used to allocate costs to one or more cost objects.</span></span>
 
-**قاعدة التوزيع**
+<span data-ttu-id="655d1-214">**قاعدة التوزيع**</span><span class="sxs-lookup"><span data-stu-id="655d1-214">**Allocation principle**</span></span>
 
-يقضي أحد مبادئ التوزيع بتوزيع التكلفة حسب معدل لتكلفة. يمكنك أن تختار توزيع التكاليف باستخدام معدل الفترة الفعلي أو معدل قديم. يساعد التوزيع الذي يستخدم الأسلوب المتبادل على ضمان تحديد قاعدة التوزيع من خلال سلسلة من المعادلات المتزامنة قبل إجراء التوزيع باستخدام معدل الفترة الفعلي.
+<span data-ttu-id="655d1-215">يقضي أحد مبادئ التوزيع بتوزيع التكلفة حسب معدل لتكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-215">One of the allocation principles is to allocate cost by cost rate.</span></span> <span data-ttu-id="655d1-216">يمكنك أن تختار توزيع التكاليف باستخدام معدل الفترة الفعلي أو معدل قديم.</span><span class="sxs-lookup"><span data-stu-id="655d1-216">You can choose to allocate costs by using the actual period rate or a historical rate.</span></span> <span data-ttu-id="655d1-217">يساعد التوزيع الذي يستخدم الأسلوب المتبادل على ضمان تحديد قاعدة التوزيع من خلال سلسلة من المعادلات المتزامنة قبل إجراء التوزيع باستخدام معدل الفترة الفعلي.</span><span class="sxs-lookup"><span data-stu-id="655d1-217">Allocation that uses the reciprocal method helps guarantee that the allocation base is determined by a series of simultaneous equations before allocation is done by using the actual period rate.</span></span>
 
-**تجميع التكلفة**
+<span data-ttu-id="655d1-218">**تجميع التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-218">**Cost roll-up**</span></span>
 
-الغرض من تجميع التكلفة هو تضمين كافة التكاليف لكائن تكلفة معين. يكون مستوى تجميع معرفًا من قبل المستخدم. باستخدام تجميع التكلفة، يمكنك تجميع عناصر التكلفة التي يجب توزيعها من كائن تكلفة إلى آخر. في الحالات التي لا يتم فيها استخدام تجميع التكلفة، يتم توزيع كل عنصر تكلفة من كائن تكلفة إلى آخر.
+<span data-ttu-id="655d1-219">الغرض من تجميع التكلفة هو تضمين كافة التكاليف لكائن تكلفة معين.</span><span class="sxs-lookup"><span data-stu-id="655d1-219">The purpose of cost roll-up is to include all costs for a given cost object.</span></span> <span data-ttu-id="655d1-220">يكون مستوى تجميع معرفًا من قبل المستخدم.</span><span class="sxs-lookup"><span data-stu-id="655d1-220">The level of aggregation is user-defined.</span></span> <span data-ttu-id="655d1-221">باستخدام تجميع التكلفة، يمكنك تجميع عناصر التكلفة التي يجب توزيعها من كائن تكلفة إلى آخر.</span><span class="sxs-lookup"><span data-stu-id="655d1-221">By using cost roll-up, you can aggregate elements of costs that must be allocated from one cost object to another.</span></span> <span data-ttu-id="655d1-222">في الحالات التي لا يتم فيها استخدام تجميع التكلفة، يتم توزيع كل عنصر تكلفة من كائن تكلفة إلى آخر.</span><span class="sxs-lookup"><span data-stu-id="655d1-222">When cost roll-up isn't used, every single element of costs is allocated from one cost object to another.</span></span>
 
-**سياسة معدل التكلفة**
+<span data-ttu-id="655d1-223">**سياسة معدل التكلفة**</span><span class="sxs-lookup"><span data-stu-id="655d1-223">**Cost rate policy**</span></span>
 
-يتم استخدام معدل التكلفة لحساب السعر لكل كائن تكلفة. لفهم عناصر السعر، يمكنك تعريف سياسات معدل التكلفة. هناك نوعان لمعدل التكلفة: معدل التكلفة القديم ومعدل التكلفة المخطط. معدل التكلفة القديم هو معدل محسوب يتم استخدامه كمضاعف لقاعدة توزيع كائن التكلفة. يتم حساب المعدل استنادًا إلى توزيعات التكلفة في الفترة السابقة. أما المعدل المخطط فهو معدل معرّف من قبل المستخدم.
+<span data-ttu-id="655d1-224">يتم استخدام معدل التكلفة لحساب السعر لكل كائن تكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-224">The cost rate is used to calculate price per cost object.</span></span> <span data-ttu-id="655d1-225">لفهم عناصر السعر، يمكنك تعريف سياسات معدل التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-225">To understand the elements of the price, you define cost rate policies.</span></span> <span data-ttu-id="655d1-226">هناك نوعان لمعدل التكلفة: معدل التكلفة القديم ومعدل التكلفة المخطط.</span><span class="sxs-lookup"><span data-stu-id="655d1-226">There are two types of cost rate: historical cost rate and planned cost rate.</span></span> <span data-ttu-id="655d1-227">معدل التكلفة القديم هو معدل محسوب يتم استخدامه كمضاعف لقاعدة توزيع كائن التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-227">A historical cost rate is a calculated rate that is used as a multiplier for the allocation base of a cost object.</span></span> <span data-ttu-id="655d1-228">يتم حساب المعدل استنادًا إلى توزيعات التكلفة في الفترة السابقة.</span><span class="sxs-lookup"><span data-stu-id="655d1-228">The rate is calculated based on the cost allocations in the previous period.</span></span> <span data-ttu-id="655d1-229">أما المعدل المخطط فهو معدل معرّف من قبل المستخدم.</span><span class="sxs-lookup"><span data-stu-id="655d1-229">A planned rate is a user-defined rate.</span></span>
 
-**التدرج الهرمي للأبعاد**
+<span data-ttu-id="655d1-230">**التدرج الهرمي للأبعاد**</span><span class="sxs-lookup"><span data-stu-id="655d1-230">**Dimensional hierarchy**</span></span>
 
-يتم استخدام التدرجات الهرمية للأبعاد كهيكل لإعداد التقارير عند تعريف قواعد التوزيع، ومعدل التكلفة، وتجميع التكلفة وعرض الكشوف أو البيانات في Microsoft Excel، وتعريف الوصول إلى البيانات المجمعة. هناك تدرجان هرميان للأبعاد: التدرج الهرمي للجدولة والتدرج الهرمي للتصنيف. يتم تعريف التدرج الهرمي للجدولة استنادًا إلى عناصر التكلفة، بينما يتم تعريف التدرج الهرمي للتصنيف استنادًا إلى كائنات التكلفة.
+<span data-ttu-id="655d1-231">يتم استخدام التدرجات الهرمية للأبعاد كهيكل لإعداد التقارير عند تعريف قواعد التوزيع، ومعدل التكلفة، وتجميع التكلفة وعرض الكشوف أو البيانات في Microsoft Excel، وتعريف الوصول إلى البيانات المجمعة.</span><span class="sxs-lookup"><span data-stu-id="655d1-231">Dimension hierarchies are used as reporting structures when you define rules for allocation, cost rate, and cost roll-up, view statements or data in Microsoft Excel, and define access to the aggregated data.</span></span> <span data-ttu-id="655d1-232">هناك تدرجان هرميان للأبعاد: التدرج الهرمي للجدولة والتدرج الهرمي للتصنيف.</span><span class="sxs-lookup"><span data-stu-id="655d1-232">There are two dimension hierarchies: categorization hierarchy and classification hierarchy.</span></span> <span data-ttu-id="655d1-233">يتم تعريف التدرج الهرمي للجدولة استنادًا إلى عناصر التكلفة، بينما يتم تعريف التدرج الهرمي للتصنيف استنادًا إلى كائنات التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-233">A categorization hierarchy is defined based on cost elements, whereas a classification hierarchy is defined based on cost objects.</span></span>
 
-**البُعد الإحصائي**
+<span data-ttu-id="655d1-234">**البُعد الإحصائي**</span><span class="sxs-lookup"><span data-stu-id="655d1-234">**Statistical dimension**</span></span>
 
-البُعد الإحصائي هو تعبير عن عدد أو مجموع لكائن يمكن استخدامه كأساس لعمليات التوزيع أو حسابات معدل التكلفة. ويتم إنشاء هذا البُعد يدويًا أو يتم استيراده من الأنظمة المصدر. تتضمن الأمثلة عن الأبعاد الإحصائية عدد الموظفين أو عدد البرامج المرخصة لكل جهاز أو استهلاك الطاقة لكل جهاز أو الأمتار المربعة لمركز تكلفة.
+<span data-ttu-id="655d1-235">البُعد الإحصائي هو تعبير عن عدد أو مجموع لكائن يمكن استخدامه كأساس لعمليات التوزيع أو حسابات معدل التكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-235">A statistical dimension is the expression of a count or sum of an object that can be used as the basis for allocations or cost rate calculations.</span></span> <span data-ttu-id="655d1-236">ويتم إنشاء هذا البُعد يدويًا أو يتم استيراده من الأنظمة المصدر.</span><span class="sxs-lookup"><span data-stu-id="655d1-236">It's either created manually or imported from source systems.</span></span> <span data-ttu-id="655d1-237">تتضمن الأمثلة عن الأبعاد الإحصائية عدد الموظفين أو عدد البرامج المرخصة لكل جهاز أو استهلاك الطاقة لكل جهاز أو الأمتار المربعة لمركز تكلفة.</span><span class="sxs-lookup"><span data-stu-id="655d1-237">Examples of statistical dimensions include the number of employees, the count of licensed software on each device, power consumption of each machine, or square meters for a cost center.</span></span>
 
-**الإدخال الإحصائي**
+<span data-ttu-id="655d1-238">**الإدخال الإحصائي**</span><span class="sxs-lookup"><span data-stu-id="655d1-238">**Statistical entry**</span></span>
 
-تتضمن الإدخالات الإحصائية المجموع المسجل أو قيمة العدد لبُعد إحصائي معين. يُشار أيضًا إلى المجموع المسجل أو قيمة العدد بالمقدار.
+<span data-ttu-id="655d1-239">تتضمن الإدخالات الإحصائية المجموع المسجل أو قيمة العدد لبُعد إحصائي معين.</span><span class="sxs-lookup"><span data-stu-id="655d1-239">Statistical entries hold the recorded sum or count value for a given statistical dimension.</span></span> <span data-ttu-id="655d1-240">يُشار أيضًا إلى المجموع المسجل أو قيمة العدد بالمقدار.</span><span class="sxs-lookup"><span data-stu-id="655d1-240">The recorded sum or count value is also referred to as the magnitude.</span></span>
 
 
 

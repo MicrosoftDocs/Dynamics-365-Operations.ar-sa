@@ -20,37 +20,37 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d45cc1e69696fbc22078d0f1cd7f089fd322b440
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 04f61141497570577520fe9146fbd1464f31062e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="master-planning-and-multisite-functionality"></a>التخطيط الرئيسي ووظائف المواقع المتعددة
+# <a name="master-planning-and-multisite-functionality"></a><span data-ttu-id="1d1d1-103">التخطيط الرئيسي ووظائف المواقع المتعددة</span><span class="sxs-lookup"><span data-stu-id="1d1d1-103">Master planning and multisite functionality</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-يأخذ التخطيط الرئيسي إعدادات أبعاد مخزون المستودع والموقع في الاعتبار. 
+<span data-ttu-id="1d1d1-104">يأخذ التخطيط الرئيسي إعدادات أبعاد مخزون المستودع والموقع في الاعتبار.</span><span class="sxs-lookup"><span data-stu-id="1d1d1-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
 
-بُعد الموقع إلزامي ويمكنك تعيين بُعد المستودع بحيث يكون إلزاميًا.
+<span data-ttu-id="1d1d1-105">بُعد الموقع إلزامي ويمكنك تعيين بُعد المستودع بحيث يكون إلزاميًا.</span><span class="sxs-lookup"><span data-stu-id="1d1d1-105">The site dimension is mandatory, and you can set the warehouse dimension to be mandatory.</span></span>
 
-وعندما يكون البعد إلزاميًا، يجب إدخال قيمة البعد على كافة حركات المخزون. ولذلك، وخلال التخطيط الرئيسي، يكون الموقع والمستودع للطلب الأولي معروفين. ويكون بعد الموقع كذلك متوافقًا حتى لا تتغير قيمة الموقع أثناء عملية تحديد إجمالي المكونات المطلوبة للطلب منخفض المستوى.
+<span data-ttu-id="1d1d1-106">وعندما يكون البعد إلزاميًا، يجب إدخال قيمة البعد على كافة حركات المخزون.</span><span class="sxs-lookup"><span data-stu-id="1d1d1-106">When a dimension is mandatory, a dimension value must be entered on all inventory transactions.</span></span> <span data-ttu-id="1d1d1-107">ولذلك، وخلال التخطيط الرئيسي، يكون الموقع والمستودع للطلب الأولي معروفين.</span><span class="sxs-lookup"><span data-stu-id="1d1d1-107">Therefore, during master planning, the site and the warehouse for the initial demand are known.</span></span> <span data-ttu-id="1d1d1-108">ويكون بعد الموقع كذلك متوافقًا حتى لا تتغير قيمة الموقع أثناء عملية تحديد إجمالي المكونات المطلوبة للطلب منخفض المستوى.</span><span class="sxs-lookup"><span data-stu-id="1d1d1-108">The site dimension is also consistent so that during the explosion of lower-level demand, the site value does not change.</span></span>
 
-وعندما لا يتم تعيين المستودع ليكون إلزاميًا، قد لا يُعرف من الطلب الأولي. ويجب أن يحدد محرك التخطيط المستودع الذي سيستخدمه بناءً على الإعدادات المحددة للصنف، والمستودعات الفردية، وكذلك تفاصيل بند الأمر.
+<span data-ttu-id="1d1d1-109">وعندما لا يتم تعيين المستودع ليكون إلزاميًا، قد لا يُعرف من الطلب الأولي.</span><span class="sxs-lookup"><span data-stu-id="1d1d1-109">When the warehouse is not set to mandatory, it may not be known from the initial demand.</span></span> <span data-ttu-id="1d1d1-110">ويجب أن يحدد محرك التخطيط المستودع الذي سيستخدمه بناءً على الإعدادات المحددة للصنف، والمستودعات الفردية، وكذلك تفاصيل بند الأمر.</span><span class="sxs-lookup"><span data-stu-id="1d1d1-110">The planning engine must determine which warehouse to use based on the settings that are defined for the item, individual warehouses, and the details of the order line.</span></span>
 
-تصف المواضيع التالية كيفية عمل محرك التخطيط، عند تحديد إعدادات مختلفة، لتحديد المستودع الذي سيتم استخدامه.
+<span data-ttu-id="1d1d1-111">تصف المواضيع التالية كيفية عمل محرك التخطيط، عند تحديد إعدادات مختلفة، لتحديد المستودع الذي سيتم استخدامه.</span><span class="sxs-lookup"><span data-stu-id="1d1d1-111">The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.</span></span>
 
-[التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع إلزامي](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="1d1d1-112">التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع إلزامي</span><span class="sxs-lookup"><span data-stu-id="1d1d1-112">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع إلزامي](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="1d1d1-113">التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع إلزامي</span><span class="sxs-lookup"><span data-stu-id="1d1d1-113">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع غير إلزامي](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="1d1d1-114">التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع غير إلزامي</span><span class="sxs-lookup"><span data-stu-id="1d1d1-114">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[التخطيط الرئيسي - تغطية الموقع، المستودع غير إلزامي](master-plan-site-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="1d1d1-115">التخطيط الرئيسي - تغطية الموقع، المستودع غير إلزامي</span><span class="sxs-lookup"><span data-stu-id="1d1d1-115">Master planning - site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[التخطيط الرئيسي - كيفية تحديد إصدار قائمة مكونات الصنف](master-plan-bom-version-determined.md)
+[<span data-ttu-id="1d1d1-116">التخطيط الرئيسي - كيفية تحديد إصدار قائمة مكونات الصنف</span><span class="sxs-lookup"><span data-stu-id="1d1d1-116">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

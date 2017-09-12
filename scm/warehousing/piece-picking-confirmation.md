@@ -14,39 +14,39 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: c5340f4dacd743600ef955c8d5228d1e2d2d2fa9
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 62b637b81a522c353067248deea79cfbf98518e9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="piece-picking-confirmation"></a>تأكيد انتقاء الأجزاء
+# <a name="piece-picking-confirmation"></a><span data-ttu-id="00e43-103">تأكيد انتقاء الأجزاء</span><span class="sxs-lookup"><span data-stu-id="00e43-103">Piece picking confirmation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-يسمح لك انتقاء الأجزاء بتأكيد كل جزء من المخزون من خلال الانتقاء أو الجرد على جهاز محمول. بالنسبة إلى عمليات الانتقاء، يمكنك تأكيد كمية العمل التي ستتم معالجتها وصولاً إلى الكمية المحددة في العمل المراد انتقاؤه. بالنسبة إلى الجرد، يمكنك فحص المخزون الذي تجري جردًا له وتعقب المبلغ الإجمالي.
+<span data-ttu-id="00e43-104">يسمح لك انتقاء الأجزاء بتأكيد كل جزء من المخزون من خلال الانتقاء أو الجرد على جهاز محمول.</span><span class="sxs-lookup"><span data-stu-id="00e43-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="00e43-105">بالنسبة إلى عمليات الانتقاء، يمكنك تأكيد كمية العمل التي ستتم معالجتها وصولاً إلى الكمية المحددة في العمل المراد انتقاؤه.</span><span class="sxs-lookup"><span data-stu-id="00e43-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="00e43-106">بالنسبة إلى الجرد، يمكنك فحص المخزون الذي تجري جردًا له وتعقب المبلغ الإجمالي.</span><span class="sxs-lookup"><span data-stu-id="00e43-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
-عند تمكين انتقاء الأجزاء، يتم تحديد تأكيد المنتجات تلقائيًا. بالنسبة إلى عمليات الانتقاء من نوع العمل، يتم تمكين حد أقصى من عدد الأجزاء. سيسمح لك ذلك بتعيين حد أقصى لعدد الأجزاء التي يجب تأكيدها أثناء عملية العمل. تستند الكمية القصوى إلى وحدة العمل الحالية التي تتم معالجتها. لا يسمح نوع عمل الجرد بحد أقصى.
+<span data-ttu-id="00e43-107">عند تمكين انتقاء الأجزاء، يتم تحديد تأكيد المنتجات تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="00e43-107">When you enable piece picking, product confirmation is automatically selected.</span></span> <span data-ttu-id="00e43-108">بالنسبة إلى عمليات الانتقاء من نوع العمل، يتم تمكين حد أقصى من عدد الأجزاء.</span><span class="sxs-lookup"><span data-stu-id="00e43-108">For work-type picks, a maximum number of pieces is enabled.</span></span> <span data-ttu-id="00e43-109">سيسمح لك ذلك بتعيين حد أقصى لعدد الأجزاء التي يجب تأكيدها أثناء عملية العمل.</span><span class="sxs-lookup"><span data-stu-id="00e43-109">This allows you to set a maximum to the number of pieces that must be confirmed during the work process.</span></span> <span data-ttu-id="00e43-110">تستند الكمية القصوى إلى وحدة العمل الحالية التي تتم معالجتها.</span><span class="sxs-lookup"><span data-stu-id="00e43-110">The maximum quantity is based on the current work unit that is being processed.</span></span> <span data-ttu-id="00e43-111">لا يسمح نوع عمل الجرد بحد أقصى.</span><span class="sxs-lookup"><span data-stu-id="00e43-111">The counting work type does not allow a maximum.</span></span>
 
-يمكنك أيضًا استخدام الكمية ووحدة القياس المقترنة بكود شريطي تم مسحه. سيصلح هذا الأسلوب للتدفقات المستلمة أو الواردة بما في ذلك استلام لوحة الترخيص المختلطة وصنف أمر الشراء وصنف أمر التحويل وصنف حمل العمل. ويصلح أيضًا لانتقاء الأجزاء حيث سيؤدي مسح الكود الشريطي إلى إضافة الكمية إلى العدد الإجمالي للأجزاء المؤكدة من خلال التحويل بين وحدة القياس على الكود الشريطي ووحدة العمل. عند حساب وحدة قياس الكود الشريطي، إذا تأكد أن الكمية مسموحة للجرد في مجموعة التسلسلات، ستتم إضافة الكمية إلى العدد الإجمالي.
+<span data-ttu-id="00e43-112">يمكنك أيضًا استخدام الكمية ووحدة القياس المقترنة بكود شريطي تم مسحه.</span><span class="sxs-lookup"><span data-stu-id="00e43-112">You can also use the quantity and unit of measure (UOM) that is associated with a scanned bar code.</span></span> <span data-ttu-id="00e43-113">سيصلح هذا الأسلوب للتدفقات المستلمة أو الواردة بما في ذلك استلام لوحة الترخيص المختلطة وصنف أمر الشراء وصنف أمر التحويل وصنف حمل العمل.</span><span class="sxs-lookup"><span data-stu-id="00e43-113">This will work for receiving on inbound flows including mixed license plate receiving, purchase order item, transfer order item, and load item.</span></span> <span data-ttu-id="00e43-114">ويصلح أيضًا لانتقاء الأجزاء حيث سيؤدي مسح الكود الشريطي إلى إضافة الكمية إلى العدد الإجمالي للأجزاء المؤكدة من خلال التحويل بين وحدة القياس على الكود الشريطي ووحدة العمل.</span><span class="sxs-lookup"><span data-stu-id="00e43-114">It also works for piece picking where scanning the bar code will add the quantity to the total number of confirmed pieces converting between the UOM on the bar code and the work unit.</span></span> <span data-ttu-id="00e43-115">عند حساب وحدة قياس الكود الشريطي، إذا تأكد أن الكمية مسموحة للجرد في مجموعة التسلسلات، ستتم إضافة الكمية إلى العدد الإجمالي.</span><span class="sxs-lookup"><span data-stu-id="00e43-115">If, when counting the UOM on the bar code, it is confirmed that the quantity is allowed for counting on the sequence group, the quantity will be added to the total count.</span></span>
 
-## <a name="where-it-applies"></a>أين يتم التطبيق
+## <a name="where-it-applies"></a><span data-ttu-id="00e43-116">أين يتم التطبيق</span><span class="sxs-lookup"><span data-stu-id="00e43-116">Where it applies</span></span>
 
-يصلح انتقاء الأجزاء لكل أعمال الجرد وللانتقال الأولي لأي نوع عمل. لا ينطبق انتقاء الأجزاء إذا كان الصنف خاضعًا لتحكم الأرقام المسلسلة أو إذا كان عبارة عن إنتاج أو انتقاء كانبان‬ من موقع لوحة ترخيص وإذا تم تعيين الصنف إلى تشغيل مرحلي.
+<span data-ttu-id="00e43-117">يصلح انتقاء الأجزاء لكل أعمال الجرد وللانتقال الأولي لأي نوع عمل.</span><span class="sxs-lookup"><span data-stu-id="00e43-117">Piece picking works for all counting work and for the initial pick for any type of work.</span></span> <span data-ttu-id="00e43-118">لا ينطبق انتقاء الأجزاء إذا كان الصنف خاضعًا لتحكم الأرقام المسلسلة أو إذا كان عبارة عن إنتاج أو انتقاء كانبان‬ من موقع لوحة ترخيص وإذا تم تعيين الصنف إلى تشغيل مرحلي.</span><span class="sxs-lookup"><span data-stu-id="00e43-118">Piece picking does not apply if the item is controlled by serial numbers or if it is a production or kanban pick from a license plate (LP) location and the item is set to staging.</span></span>
 
-## <a name="set-up-piece-picking"></a>إعداد انتقاء الأجزاء
+## <a name="set-up-piece-picking"></a><span data-ttu-id="00e43-119">إعداد انتقاء الأجزاء</span><span class="sxs-lookup"><span data-stu-id="00e43-119">Set up piece picking</span></span>
 
-1.  في عنصر قائمة جهاز محمول، قم بفتح نموذج الإعداد من تأكيد العمل: إدارة المستودعات‬ > **إدارة المستودعات‬** > **الإعداد** > **جهاز محمول** > **عناصر قائمة الجهاز المحمول**. 
-2. من عنصر قائمة الجهاز المحمول، قم بفتح إعداد تأكيد العمل.
+1.  <span data-ttu-id="00e43-120">في عنصر قائمة جهاز محمول، قم بفتح نموذج الإعداد من تأكيد العمل: إدارة المستودعات‬ > **إدارة المستودعات‬** > **الإعداد** > **جهاز محمول** > **عناصر قائمة الجهاز المحمول**.</span><span class="sxs-lookup"><span data-stu-id="00e43-120">On a mobile device menu item, open the setup form for work confirmation: Warehouse management > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span> 
+2. <span data-ttu-id="00e43-121">من عنصر قائمة الجهاز المحمول، قم بفتح إعداد تأكيد العمل.</span><span class="sxs-lookup"><span data-stu-id="00e43-121">From the mobile device menu item, open Work confirmation setup.</span></span>
 
-تصبح الخيارات التالية متوفرة للاختيار منها عندما يكون نوع العمل انتقاء أو جرد.
+<span data-ttu-id="00e43-122">تصبح الخيارات التالية متوفرة للاختيار منها عندما يكون نوع العمل انتقاء أو جرد.</span><span class="sxs-lookup"><span data-stu-id="00e43-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| الخيار        | ‏‏الوصف   | 
+| <span data-ttu-id="00e43-123">الخيار</span><span class="sxs-lookup"><span data-stu-id="00e43-123">Option</span></span>        | <span data-ttu-id="00e43-124">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="00e43-124">Description</span></span>   | 
 | ------------- | ------------- |
-| تأكيد انتقاء الأجزاء   | أنواع العمل المتوفرة للانتقاء والجرد. يتم تحديد تأكيد المنتج تلقائيًا. يسمح لك بتأكيد كل جزء من المخزون من الهاتف المحمول. | 
-| أقصى عدد للأجزاء     | متوفر لعمل الانتقاء إذا تم تمكين تأكيد انتقاء الأجزاء. تعيين حد لعدد الأجزاء التي يجب عليك تأكيدها. |  
+| <span data-ttu-id="00e43-125">تأكيد انتقاء الأجزاء</span><span class="sxs-lookup"><span data-stu-id="00e43-125">Piece picking confirmation</span></span>   | <span data-ttu-id="00e43-126">أنواع العمل المتوفرة للانتقاء والجرد.</span><span class="sxs-lookup"><span data-stu-id="00e43-126">Available for pick and counting work types.</span></span> <span data-ttu-id="00e43-127">يتم تحديد تأكيد المنتج تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="00e43-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="00e43-128">يسمح لك بتأكيد كل جزء من المخزون من الهاتف المحمول.</span><span class="sxs-lookup"><span data-stu-id="00e43-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
+| <span data-ttu-id="00e43-129">أقصى عدد للأجزاء</span><span class="sxs-lookup"><span data-stu-id="00e43-129">Maximum number of pieces</span></span>     | <span data-ttu-id="00e43-130">متوفر لعمل الانتقاء إذا تم تمكين تأكيد انتقاء الأجزاء.</span><span class="sxs-lookup"><span data-stu-id="00e43-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="00e43-131">تعيين حد لعدد الأجزاء التي يجب عليك تأكيدها.</span><span class="sxs-lookup"><span data-stu-id="00e43-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
 

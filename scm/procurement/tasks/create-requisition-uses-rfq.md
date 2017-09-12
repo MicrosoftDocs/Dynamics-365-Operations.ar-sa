@@ -16,91 +16,91 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 14eed7982041b7af7dad5453b10f07f063ba1855
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d97ccd15031b2f7398486eee4a716ecef5e9dafd
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-requisition-that-uses-an-rfq"></a>إنشاء طلب يستخدم طلب عرض أسعار
+# <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="69a45-103">إنشاء طلب يستخدم طلب عرض أسعار</span><span class="sxs-lookup"><span data-stu-id="69a45-103">Create a requisition that uses an RFQ</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الدليل كيفية إضافة معلومات السعر والمورّد إلى طلب شراء من عملية طلب عرض الأسعار. يمكن استخدام المثال المعروض في هذا الدليل في شركة بيانات العرض التوضيحي USMF، ويجب أن تسجل دخولك كمسؤول لإكمال كافة الخطوات. يقوم أخصائيو التدبير عادةً بتنفيذ المهام الموجودة في هذا الدليل.
+<span data-ttu-id="69a45-104">يوضح هذا الدليل كيفية إضافة معلومات السعر والمورّد إلى طلب شراء من عملية طلب عرض الأسعار.</span><span class="sxs-lookup"><span data-stu-id="69a45-104">This guide shows how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="69a45-105">يمكن استخدام المثال المعروض في هذا الدليل في شركة بيانات العرض التوضيحي USMF، ويجب أن تسجل دخولك كمسؤول لإكمال كافة الخطوات.</span><span class="sxs-lookup"><span data-stu-id="69a45-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="69a45-106">يقوم أخصائيو التدبير عادةً بتنفيذ المهام الموجودة في هذا الدليل.</span><span class="sxs-lookup"><span data-stu-id="69a45-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
 
 
-## <a name="create-a-requisition"></a>إنشاء طلب
-1. انتقل إلى التدبير والتوريد > طلبات الشراء > طلبات الشراء التي أعددتُها.
-2. انقر فوق "جديد".
-3. في حقل "الاسم"، اكتب قيمة.
-4. في الحقل "تاريخ الطلب، أدخل تاريخاً.
-5. في الحقل "تاريخ المحاسبة" أدخل تاريخاً.
-6. انقر فوق موافق.
-7. في الحقل "السبب"، أدخل قيمة أو حددها.
-8. انقر فوق "إضافة بند".
-9. في حقل "فئة التدبير"، حدد فئة في الشجرة، ثم انقر فوق موافق.
-10. في الحقل "اسم المنتج"، اكتب قيمة.
-11. في حقل الكمية، أدخل رقمًا.
-12. في الحقل "وحدة"، أدخل قيمة أو حددها.
-13. انقر فوق "حفظ".
-14. انقر فوق "سير العمل" لفتح مربع حوار الإسقاط‬.
-15. انقر فوق تقديم.
-16. قم بإغلاق الصفحة.
-17. انقر فوق تقديم.
+## <a name="create-a-requisition"></a><span data-ttu-id="69a45-107">إنشاء طلب</span><span class="sxs-lookup"><span data-stu-id="69a45-107">Create a requisition</span></span>
+1. <span data-ttu-id="69a45-108">انتقل إلى التدبير والتوريد > طلبات الشراء > طلبات الشراء التي أعددتُها.</span><span class="sxs-lookup"><span data-stu-id="69a45-108">Go to Procurement and sourcing > Purchase requisitions > Purchase requisitions prepared by me.</span></span>
+2. <span data-ttu-id="69a45-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="69a45-109">Click New.</span></span>
+3. <span data-ttu-id="69a45-110">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="69a45-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="69a45-111">في الحقل "تاريخ الطلب، أدخل تاريخاً.</span><span class="sxs-lookup"><span data-stu-id="69a45-111">In the Requested date field, enter a date.</span></span>
+5. <span data-ttu-id="69a45-112">في الحقل "تاريخ المحاسبة" أدخل تاريخاً.</span><span class="sxs-lookup"><span data-stu-id="69a45-112">In the Accounting date field, enter a date.</span></span>
+6. <span data-ttu-id="69a45-113">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="69a45-113">Click OK.</span></span>
+7. <span data-ttu-id="69a45-114">في الحقل "السبب"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="69a45-114">In the Reason field, enter or select a value.</span></span>
+8. <span data-ttu-id="69a45-115">انقر فوق "إضافة بند".</span><span class="sxs-lookup"><span data-stu-id="69a45-115">Click Add line.</span></span>
+9. <span data-ttu-id="69a45-116">في حقل "فئة التدبير"، حدد فئة في الشجرة، ثم انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="69a45-116">In the Procurement category field, select a category in the tree, and then click OK.</span></span>
+10. <span data-ttu-id="69a45-117">في الحقل "اسم المنتج"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="69a45-117">In the Product name field, type a value.</span></span>
+11. <span data-ttu-id="69a45-118">في حقل الكمية، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="69a45-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="69a45-119">في الحقل "وحدة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="69a45-119">In the Unit field, enter or select a value.</span></span>
+13. <span data-ttu-id="69a45-120">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="69a45-120">Click Save.</span></span>
+14. <span data-ttu-id="69a45-121">انقر فوق "سير العمل" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="69a45-121">Click Workflow to open the drop dialog.</span></span>
+15. <span data-ttu-id="69a45-122">انقر فوق تقديم.</span><span class="sxs-lookup"><span data-stu-id="69a45-122">Click Submit.</span></span>
+16. <span data-ttu-id="69a45-123">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="69a45-123">Close the page.</span></span>
+17. <span data-ttu-id="69a45-124">انقر فوق تقديم.</span><span class="sxs-lookup"><span data-stu-id="69a45-124">Click Submit.</span></span>
 
-## <a name="reassign-a-workflow-task"></a>إعادة تعيين مهمة سير عمل
-    * تتعلق المهمة التالية بإنشاء طلب عرض أسعار الحصول على عطاءات من مورّدي المنتج. في بيانات العرض التوضيحي USMF، يتم إعداد سير عمل الطلب بواسطة قاعدة بحيث إذا لم يتم تحديد أي مورّد، أو إذا كان سعر الوحدة 0 لبند ما، يتم تعيين مهمة إلى عامل معين لإنشاء طلب عرض الأسعار. لمتابعة هذا الدليل، تحتاج إلى إعادة تعيين هذه المهمة إلى مستخدم آخر (أنت). يمكنك القيام بذلك فقط إذا سجلت دخولك كمسؤول.  
-1. انقر فوق "سير العمل" لفتح مربع حوار الإسقاط‬.
-2. انقر فوق "عرض السجل".
-3. قم بتحديث الصفحة.
-4. قم بتوسيع المقطع "تعقب التفاصيل‬".
-5. في الشجرة، حدد "البند الذي يبدأ بـ "تم تنشيط سير عمل عنصر البند في"".
-6. انقر فوق "عرض تفاصيل سير العمل".
-7. قم بتوسيع مقطع "عناصر العمل".
-8. انقر فوق "إعادة تعيين".
-9. في حقل "المستخدم"، حدد "المسؤول".
-10. انقر فوق "إعادة تعيين".
-11. قم بإغلاق الصفحة.
-12. قم بإغلاق الصفحة.
+## <a name="reassign-a-workflow-task"></a><span data-ttu-id="69a45-125">إعادة تعيين مهمة سير عمل</span><span class="sxs-lookup"><span data-stu-id="69a45-125">Reassign a workflow task</span></span>
+    * <span data-ttu-id="69a45-126">تتعلق المهمة التالية بإنشاء طلب عرض أسعار الحصول على عطاءات من مورّدي المنتج.</span><span class="sxs-lookup"><span data-stu-id="69a45-126">The next task is to create an RFQ to get bids from vendors for the product.</span></span> <span data-ttu-id="69a45-127">في بيانات العرض التوضيحي USMF، يتم إعداد سير عمل الطلب بواسطة قاعدة بحيث إذا لم يتم تحديد أي مورّد، أو إذا كان سعر الوحدة 0 لبند ما، يتم تعيين مهمة إلى عامل معين لإنشاء طلب عرض الأسعار.</span><span class="sxs-lookup"><span data-stu-id="69a45-127">In USMF demo data, the requisition workflow is set up with a rule so that if a vendor is not selected, or the unit price is 0 for a line, a task is assigned to a specific worker to create an RFQ.</span></span> <span data-ttu-id="69a45-128">لمتابعة هذا الدليل، تحتاج إلى إعادة تعيين هذه المهمة إلى مستخدم آخر (أنت).</span><span class="sxs-lookup"><span data-stu-id="69a45-128">To continue with this guide, you need to re-assign that task to another user (yourself).</span></span> <span data-ttu-id="69a45-129">يمكنك القيام بذلك فقط إذا سجلت دخولك كمسؤول.</span><span class="sxs-lookup"><span data-stu-id="69a45-129">You can only do this if you are logged in as an Admin.</span></span>  
+1. <span data-ttu-id="69a45-130">انقر فوق "سير العمل" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="69a45-130">Click Workflow to open the drop dialog.</span></span>
+2. <span data-ttu-id="69a45-131">انقر فوق "عرض السجل".</span><span class="sxs-lookup"><span data-stu-id="69a45-131">Click View history.</span></span>
+3. <span data-ttu-id="69a45-132">قم بتحديث الصفحة.</span><span class="sxs-lookup"><span data-stu-id="69a45-132">Refresh the page.</span></span>
+4. <span data-ttu-id="69a45-133">قم بتوسيع المقطع "تعقب التفاصيل‬".</span><span class="sxs-lookup"><span data-stu-id="69a45-133">Expand the Tracking details section.</span></span>
+5. <span data-ttu-id="69a45-134">في الشجرة، حدد "البند الذي يبدأ بـ "تم تنشيط سير عمل عنصر البند في"".</span><span class="sxs-lookup"><span data-stu-id="69a45-134">In the tree, select 'the line that starts with “Line workflow activated on”'.</span></span>
+6. <span data-ttu-id="69a45-135">انقر فوق "عرض تفاصيل سير العمل".</span><span class="sxs-lookup"><span data-stu-id="69a45-135">Click View workflow details.</span></span>
+7. <span data-ttu-id="69a45-136">قم بتوسيع مقطع "عناصر العمل".</span><span class="sxs-lookup"><span data-stu-id="69a45-136">Expand the Work items section.</span></span>
+8. <span data-ttu-id="69a45-137">انقر فوق "إعادة تعيين".</span><span class="sxs-lookup"><span data-stu-id="69a45-137">Click Reassign.</span></span>
+9. <span data-ttu-id="69a45-138">في حقل "المستخدم"، حدد "المسؤول".</span><span class="sxs-lookup"><span data-stu-id="69a45-138">In the User field, select Admin.</span></span>
+10. <span data-ttu-id="69a45-139">انقر فوق "إعادة تعيين".</span><span class="sxs-lookup"><span data-stu-id="69a45-139">Click Reassign.</span></span>
+11. <span data-ttu-id="69a45-140">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="69a45-140">Close the page.</span></span>
+12. <span data-ttu-id="69a45-141">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="69a45-141">Close the page.</span></span>
 
-## <a name="create-an-rfq"></a>إنشاء طلب عرض أسعار (RFQ)
-1. قم بتحديث الصفحة.
-2. انقر فوق "طلب عرض أسعار".
-3. في حقل "الكيان القانوني للشراء"، حدد USMF.
-    * يجب تحديد الكيان القانوني نفسه الموجود على بند الطلب.  
-4. في القائمة، قم بوضع علامة للصف المحدد.
-    * إذا كان لديك عدة بنود على طلب الشراء، فحدد كل البنود التي تريد إضافتها إلى طلب عرض الأسعار.  
-5. انقر فوق "موافق".
-6. قم بتحديث الصفحة.
-7. افتح مربع الحقائق، ثم قم بتوسيع مقطع "المستندات المرتبطة".
-    * من المحتمل أن يكون مربع الحقائق مفتوحًا بشكل مسبق. ابحث عن الأيقونة ذات سهم عليها، إلى يسار أزرار تبديل البنود/الرأس. إذا كان السهم يؤشر إلى اليمين، فهذا يعني أن مربع الحقائق مفتوح بالفعل. أما إذا كان السهم يؤشر إلى اليسار، فانقر فوقه لفتح مربع الحقائق.  
-8. انقر فوق الارتباط الموجود في حقل "طلب عرض أسعار" لفتح طلب عرض الأسعار الذي تم إنشاؤه للتوّ.
-9. انقر فوق "الرأس".
-10. وانقر فوق إضافة.
-11. في الحقل "حساب المورد"، أدخل قيمة أو حددها.
-12. وانقر فوق إضافة.
-13. في الحقل "حساب المورد"، أدخل قيمة أو حددها.
-14. انقر فوق "إرسال".
-15. انقر فوق "موافق".
-16. انقر فوق إدخال رد.
-17. في جزء الإجراءات، انقر فوق رد.
-18. انقر فوق نسخ بيانات للرد.
-    * يؤدي ذلك إلى نسخ بيانات، مثل الكمية والتواريخ، من طلب عرض الأسعار إلى الرد.  
-19. في حقل "سعر الوحدة"، أدخل رقمًا.
-    * هذا هو السعر الذي تلقيته من المورّد. قد تحتاج أيضًا إلى إدخال معلومات إضافية من المورّد.  
-20. انقر فوق "قبول".
-21. انقر فوق "موافق".
+## <a name="create-an-rfq"></a><span data-ttu-id="69a45-142">إنشاء طلب عرض أسعار (RFQ)</span><span class="sxs-lookup"><span data-stu-id="69a45-142">Create an RFQ</span></span>
+1. <span data-ttu-id="69a45-143">قم بتحديث الصفحة.</span><span class="sxs-lookup"><span data-stu-id="69a45-143">Refresh the page.</span></span>
+2. <span data-ttu-id="69a45-144">انقر فوق "طلب عرض أسعار".</span><span class="sxs-lookup"><span data-stu-id="69a45-144">Click Request for quotation.</span></span>
+3. <span data-ttu-id="69a45-145">في حقل "الكيان القانوني للشراء"، حدد USMF.</span><span class="sxs-lookup"><span data-stu-id="69a45-145">In the Buying legal entity field, select USMF.</span></span>
+    * <span data-ttu-id="69a45-146">يجب تحديد الكيان القانوني نفسه الموجود على بند الطلب.</span><span class="sxs-lookup"><span data-stu-id="69a45-146">You must select the same legal entity that’s on the requisition line.</span></span>  
+4. <span data-ttu-id="69a45-147">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="69a45-147">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="69a45-148">إذا كان لديك عدة بنود على طلب الشراء، فحدد كل البنود التي تريد إضافتها إلى طلب عرض الأسعار.</span><span class="sxs-lookup"><span data-stu-id="69a45-148">If you had multiple lines on your purchase requisition, select all the lines that you want to add to the RFQ.</span></span>  
+5. <span data-ttu-id="69a45-149">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="69a45-149">Click OK.</span></span>
+6. <span data-ttu-id="69a45-150">قم بتحديث الصفحة.</span><span class="sxs-lookup"><span data-stu-id="69a45-150">Refresh the page.</span></span>
+7. <span data-ttu-id="69a45-151">افتح مربع الحقائق، ثم قم بتوسيع مقطع "المستندات المرتبطة".</span><span class="sxs-lookup"><span data-stu-id="69a45-151">Open the FactBox and then expand the Related documents section.</span></span>
+    * <span data-ttu-id="69a45-152">من المحتمل أن يكون مربع الحقائق مفتوحًا بشكل مسبق.</span><span class="sxs-lookup"><span data-stu-id="69a45-152">You may already have the FactBox open.</span></span> <span data-ttu-id="69a45-153">ابحث عن الأيقونة ذات سهم عليها، إلى يسار أزرار تبديل البنود/الرأس.</span><span class="sxs-lookup"><span data-stu-id="69a45-153">Look for the icon with an arrow on it, to the right of the Lines/Header toggle buttons.</span></span> <span data-ttu-id="69a45-154">إذا كان السهم يؤشر إلى اليمين، فهذا يعني أن مربع الحقائق مفتوح بالفعل.</span><span class="sxs-lookup"><span data-stu-id="69a45-154">If the arrow is pointing to the right, the FactBox is already open.</span></span> <span data-ttu-id="69a45-155">أما إذا كان السهم يؤشر إلى اليسار، فانقر فوقه لفتح مربع الحقائق.</span><span class="sxs-lookup"><span data-stu-id="69a45-155">If the arrow points to the left, click it to open the FactBox.</span></span>  
+8. <span data-ttu-id="69a45-156">انقر فوق الارتباط الموجود في حقل "طلب عرض أسعار" لفتح طلب عرض الأسعار الذي تم إنشاؤه للتوّ.</span><span class="sxs-lookup"><span data-stu-id="69a45-156">Click the link in the Request for quotation field to open the RFQ that was just created.</span></span>
+9. <span data-ttu-id="69a45-157">انقر فوق "الرأس".</span><span class="sxs-lookup"><span data-stu-id="69a45-157">Click Header.</span></span>
+10. <span data-ttu-id="69a45-158">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="69a45-158">Click Add.</span></span>
+11. <span data-ttu-id="69a45-159">في الحقل "حساب المورد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="69a45-159">In the Vendor account field, enter or select a value.</span></span>
+12. <span data-ttu-id="69a45-160">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="69a45-160">Click Add.</span></span>
+13. <span data-ttu-id="69a45-161">في الحقل "حساب المورد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="69a45-161">In the Vendor account field, enter or select a value.</span></span>
+14. <span data-ttu-id="69a45-162">انقر فوق "إرسال".</span><span class="sxs-lookup"><span data-stu-id="69a45-162">Click Send.</span></span>
+15. <span data-ttu-id="69a45-163">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="69a45-163">Click OK.</span></span>
+16. <span data-ttu-id="69a45-164">انقر فوق إدخال رد.</span><span class="sxs-lookup"><span data-stu-id="69a45-164">Click Enter reply.</span></span>
+17. <span data-ttu-id="69a45-165">في جزء الإجراءات، انقر فوق رد.</span><span class="sxs-lookup"><span data-stu-id="69a45-165">On the Action Pane, click Reply.</span></span>
+18. <span data-ttu-id="69a45-166">انقر فوق نسخ بيانات للرد.</span><span class="sxs-lookup"><span data-stu-id="69a45-166">Click Copy data to reply.</span></span>
+    * <span data-ttu-id="69a45-167">يؤدي ذلك إلى نسخ بيانات، مثل الكمية والتواريخ، من طلب عرض الأسعار إلى الرد.</span><span class="sxs-lookup"><span data-stu-id="69a45-167">This copies data, such as the quantity and dates, from the RFQ to the reply .</span></span>  
+19. <span data-ttu-id="69a45-168">في حقل "سعر الوحدة"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="69a45-168">In the Unit price field, enter a number.</span></span>
+    * <span data-ttu-id="69a45-169">هذا هو السعر الذي تلقيته من المورّد.</span><span class="sxs-lookup"><span data-stu-id="69a45-169">This is the price that you’ve received from the vendor.</span></span> <span data-ttu-id="69a45-170">قد تحتاج أيضًا إلى إدخال معلومات إضافية من المورّد.</span><span class="sxs-lookup"><span data-stu-id="69a45-170">You might also want to enter additional information from the vendor.</span></span>  
+20. <span data-ttu-id="69a45-171">انقر فوق "قبول".</span><span class="sxs-lookup"><span data-stu-id="69a45-171">Click Accept.</span></span>
+21. <span data-ttu-id="69a45-172">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="69a45-172">Click OK.</span></span>
 
-## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a>التأكد من تحويل المورّد والسعر إلى الطلب
-1. قم بإغلاق الصفحة.
-2. انقر فوق البنود.
-3. انقر فوق "معلومات ذات صلة".
-4. انقر فوق "طلب شراء".
-5. حدد البند الذي تم تحويله إلى طلب عرض الأسعار (RFQ).
-    * تأكد من نسخ السعر والمورّد إلى الطلب.  
-6. انقر فوق "سير العمل" لفتح مربع حوار الإسقاط‬.
-7. انقر فوق "مكتمل".
-8. قم بإغلاق الصفحة.
-9. انقر فوق "مكتمل".
+## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a><span data-ttu-id="69a45-173">التأكد من تحويل المورّد والسعر إلى الطلب</span><span class="sxs-lookup"><span data-stu-id="69a45-173">Verify that vendor and price have been transferred to the requisition</span></span>
+1. <span data-ttu-id="69a45-174">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="69a45-174">Close the page.</span></span>
+2. <span data-ttu-id="69a45-175">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="69a45-175">Click Lines.</span></span>
+3. <span data-ttu-id="69a45-176">انقر فوق "معلومات ذات صلة".</span><span class="sxs-lookup"><span data-stu-id="69a45-176">Click Related information.</span></span>
+4. <span data-ttu-id="69a45-177">انقر فوق "طلب شراء".</span><span class="sxs-lookup"><span data-stu-id="69a45-177">Click Purchase requisition.</span></span>
+5. <span data-ttu-id="69a45-178">حدد البند الذي تم تحويله إلى طلب عرض الأسعار (RFQ).</span><span class="sxs-lookup"><span data-stu-id="69a45-178">Select the line that was transferred to the RFQ.</span></span>
+    * <span data-ttu-id="69a45-179">تأكد من نسخ السعر والمورّد إلى الطلب.</span><span class="sxs-lookup"><span data-stu-id="69a45-179">Verify that the price and vendor have been copied to the requisition.</span></span>  
+6. <span data-ttu-id="69a45-180">انقر فوق "سير العمل" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="69a45-180">Click Workflow to open the drop dialog.</span></span>
+7. <span data-ttu-id="69a45-181">انقر فوق "مكتمل".</span><span class="sxs-lookup"><span data-stu-id="69a45-181">Click Complete.</span></span>
+8. <span data-ttu-id="69a45-182">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="69a45-182">Close the page.</span></span>
+9. <span data-ttu-id="69a45-183">انقر فوق "مكتمل".</span><span class="sxs-lookup"><span data-stu-id="69a45-183">Click Complete.</span></span>
 
 

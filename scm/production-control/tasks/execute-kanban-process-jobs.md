@@ -17,43 +17,43 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 50b5048a5f9277c47444fa69d2c8cc8e36ba7dcd
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="execute-kanban-process-jobs"></a>تنفيذ وظائف عملية كانبان
+# <a name="execute-kanban-process-jobs"></a><span data-ttu-id="781d0-103">تنفيذ وظائف عملية كانبان</span><span class="sxs-lookup"><span data-stu-id="781d0-103">Execute kanban process jobs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-يركز هذا الإجراء على تنفيذ وظائف عملية كانبان. الوظيفة الأولى مكتملة بالكمية المتوقعة ولا تحتوي على أخطاء. الوظيفة الثانية مكتملة مع وجود أخطاء. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لعامل تشغيل الجهاز.
+<span data-ttu-id="781d0-104">يركز هذا الإجراء على تنفيذ وظائف عملية كانبان.</span><span class="sxs-lookup"><span data-stu-id="781d0-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="781d0-105">الوظيفة الأولى مكتملة بالكمية المتوقعة ولا تحتوي على أخطاء.</span><span class="sxs-lookup"><span data-stu-id="781d0-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="781d0-106">الوظيفة الثانية مكتملة مع وجود أخطاء.</span><span class="sxs-lookup"><span data-stu-id="781d0-106">The second job is completed with errors.</span></span> <span data-ttu-id="781d0-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="781d0-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="781d0-108">هذا الإجراء مخصص لعامل تشغيل الجهاز.</span><span class="sxs-lookup"><span data-stu-id="781d0-108">This procedure is intended for the machine operator.</span></span>
 
 
-## <a name="select-a-kanban-job"></a>تحديد وظيفة كانبان
-1. انتقل إلى التحكم بالإنتاج‬ > كانبان > لوحة كانبان لوظائف المعالجة‬.
-2. في الحقل "خلية العمل"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-3. انقر فوق الصف الذي يحتوي على مجموعة الموارد 1250. وهذا يعمل على تصفية قائمة الوظائف لعرض الوظائف الموجودة في خلية العمل 1250 فقط.
-    * ضع علامة على الصف الذي يحتوي على حالة المهمة المخططة.  
+## <a name="select-a-kanban-job"></a><span data-ttu-id="781d0-109">تحديد وظيفة كانبان</span><span class="sxs-lookup"><span data-stu-id="781d0-109">Select a kanban job</span></span>
+1. <span data-ttu-id="781d0-110">انتقل إلى التحكم بالإنتاج‬ > كانبان > لوحة كانبان لوظائف المعالجة‬.</span><span class="sxs-lookup"><span data-stu-id="781d0-110">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="781d0-111">في الحقل "خلية العمل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="781d0-111">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="781d0-112">انقر فوق الصف الذي يحتوي على مجموعة الموارد 1250.</span><span class="sxs-lookup"><span data-stu-id="781d0-112">Click the row with resource group 1250.</span></span> <span data-ttu-id="781d0-113">وهذا يعمل على تصفية قائمة الوظائف لعرض الوظائف الموجودة في خلية العمل 1250 فقط.</span><span class="sxs-lookup"><span data-stu-id="781d0-113">This filters the Jobs list to display only the jobs for work cell 1250.</span></span>
+    * <span data-ttu-id="781d0-114">ضع علامة على الصف الذي يحتوي على حالة المهمة المخططة.</span><span class="sxs-lookup"><span data-stu-id="781d0-114">Mark the row that has the Planned job status.</span></span>  
 
-## <a name="complete-a-job-with-expected-quantity"></a>إكمال مهمة بالكمية المتوقعة
-1. قم بتوسيع أو طي قسم التفاصيل.
-    * يعرض هذا المقطع معلومات هامة حول رقم البطاقة ورقم الصنف والكمية المطلوبة واسم النشاط.  
-2. قم بتوسيع قسم تعليمات الإنتاج أو طيه.
-    * يعرض هذا المقطع إرشادات الإنتاج للنشاط. يمكن أن تكون التعليمات عبارة عن نص وصور ورسومات ومستندات أخرى.  
-3. انقر فوق "بدء".
-    * حدد وظيفة غير مكتملة. استخدم أيقونات الحالة في حقل حالة الوظيفة لعرض حالة المهمة.      
-4. انقر فوق "مكتمل".
-    * يتم إكمال الوظيفة بالجودة المتوقعة.  
+## <a name="complete-a-job-with-expected-quantity"></a><span data-ttu-id="781d0-115">إكمال مهمة بالكمية المتوقعة</span><span class="sxs-lookup"><span data-stu-id="781d0-115">Complete a job with expected quantity</span></span>
+1. <span data-ttu-id="781d0-116">قم بتوسيع أو طي قسم التفاصيل.</span><span class="sxs-lookup"><span data-stu-id="781d0-116">Expand or collapse the Details section.</span></span>
+    * <span data-ttu-id="781d0-117">يعرض هذا المقطع معلومات هامة حول رقم البطاقة ورقم الصنف والكمية المطلوبة واسم النشاط.</span><span class="sxs-lookup"><span data-stu-id="781d0-117">This section displays important information about card number, item number, quantity ordered, and activity name.</span></span>  
+2. <span data-ttu-id="781d0-118">قم بتوسيع قسم تعليمات الإنتاج أو طيه.</span><span class="sxs-lookup"><span data-stu-id="781d0-118">Expand or collapse the Production instructions section.</span></span>
+    * <span data-ttu-id="781d0-119">يعرض هذا المقطع إرشادات الإنتاج للنشاط.</span><span class="sxs-lookup"><span data-stu-id="781d0-119">This section displays production instructions for the activity.</span></span> <span data-ttu-id="781d0-120">يمكن أن تكون التعليمات عبارة عن نص وصور ورسومات ومستندات أخرى.</span><span class="sxs-lookup"><span data-stu-id="781d0-120">The instructions can be text, pictures, drawings, and other documents.</span></span>  
+3. <span data-ttu-id="781d0-121">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="781d0-121">Click Start.</span></span>
+    * <span data-ttu-id="781d0-122">حدد وظيفة غير مكتملة.</span><span class="sxs-lookup"><span data-stu-id="781d0-122">Select a job that is not completed.</span></span> <span data-ttu-id="781d0-123">استخدم أيقونات الحالة في حقل حالة الوظيفة لعرض حالة المهمة.</span><span class="sxs-lookup"><span data-stu-id="781d0-123">Use status icons in the Job status field to view job status.</span></span>      
+4. <span data-ttu-id="781d0-124">انقر فوق "مكتمل".</span><span class="sxs-lookup"><span data-stu-id="781d0-124">Click Complete.</span></span>
+    * <span data-ttu-id="781d0-125">يتم إكمال الوظيفة بالجودة المتوقعة.</span><span class="sxs-lookup"><span data-stu-id="781d0-125">The job is completed with the expected quality.</span></span>  
 
-## <a name="complete-a-job-with-errors"></a>إكمال وظيفة تحتوي على أخطاء
-1. انقر فوق "بدء".
-    * عند اكتمال وظيفة ما، فإنه يتم تحديد الوظيفة التالية في القائمة تلقائيًا. هذا بسبب أنك لا تحتاج إلى تحديد وظيفة قبل النقر فوق "ابدأ".  
-2. في جزء "الإجراءات"، انقر فوق "تصنيع".
-3. انقر فوق اكتمال (التفاصيل).
-4. في القائمة، قم بوضع علامة للصف المحدد.
-5. في الحقل "كمية الخطأ"، أدخل رقمًا.
-6. في الحقل "كمية البضائع"، أدخل رقمًا.
-7. انقر فوق "موافق".
+## <a name="complete-a-job-with-errors"></a><span data-ttu-id="781d0-126">إكمال وظيفة تحتوي على أخطاء</span><span class="sxs-lookup"><span data-stu-id="781d0-126">Complete a job with errors</span></span>
+1. <span data-ttu-id="781d0-127">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="781d0-127">Click Start.</span></span>
+    * <span data-ttu-id="781d0-128">عند اكتمال وظيفة ما، فإنه يتم تحديد الوظيفة التالية في القائمة تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="781d0-128">When a job is completed, the next job on the list is selected automatically.</span></span> <span data-ttu-id="781d0-129">هذا بسبب أنك لا تحتاج إلى تحديد وظيفة قبل النقر فوق "ابدأ".</span><span class="sxs-lookup"><span data-stu-id="781d0-129">This is why you don't need to select a job before you click Start.</span></span>  
+2. <span data-ttu-id="781d0-130">في جزء "الإجراءات"، انقر فوق "تصنيع".</span><span class="sxs-lookup"><span data-stu-id="781d0-130">On the Action Pane, click Manufacture.</span></span>
+3. <span data-ttu-id="781d0-131">انقر فوق اكتمال (التفاصيل).</span><span class="sxs-lookup"><span data-stu-id="781d0-131">Click Complete (details).</span></span>
+4. <span data-ttu-id="781d0-132">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="781d0-132">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="781d0-133">في الحقل "كمية الخطأ"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="781d0-133">In the Error quantity field, enter a number.</span></span>
+6. <span data-ttu-id="781d0-134">في الحقل "كمية البضائع"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="781d0-134">In the Good quantity field, enter a number.</span></span>
+7. <span data-ttu-id="781d0-135">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="781d0-135">Click OK.</span></span>
 
 

@@ -17,52 +17,52 @@ ms.assetid: b4625d10-c852-4fda-b718-79df458de0d4
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9ae0bbb641d7517d33ad087faec231cb0bda3f78
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 172bb55358c20ba80b1c32b05f1ae8e6aff8901f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="production-order-cost-estimation"></a>تقدير تكلفة أمر الإنتاج
+# <a name="production-order-cost-estimation"></a><span data-ttu-id="f5d5d-104">تقدير تكلفة أمر الإنتاج</span><span class="sxs-lookup"><span data-stu-id="f5d5d-104">Production order cost estimation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-توفر هذه المقالة معلومات حول تقدير تكلفة الإنتاج. يزودك تقدير تكلفة الإنتاج بتكاليف المواد المرتقبة واستهلاك القدرة لإنتاج صنف في كمية أمر الإنتاج المخطط. 
+<span data-ttu-id="f5d5d-105">توفر هذه المقالة معلومات حول تقدير تكلفة الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-105">This article provides information about production cost estimation.</span></span> <span data-ttu-id="f5d5d-106">يزودك تقدير تكلفة الإنتاج بتكاليف المواد المرتقبة واستهلاك القدرة لإنتاج صنف في كمية أمر الإنتاج المخطط.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-106">Production cost estimation provides the projected material and capacity consumption costs of producing an item in the planned production order quantity.</span></span> 
 
-بعد إنشاء أمر إنتاج، يجب تقدير تكاليف الإنتاج. ويهدف ذلك إلى تقدير استهلاك الأصناف والمسارات فيما يتعلق بعملية الإنتاج، إذ يتم استخدام هذه التقديرات كأساس لعمليات الجدولة والإنتاج التالية.
+<span data-ttu-id="f5d5d-107">بعد إنشاء أمر إنتاج، يجب تقدير تكاليف الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-107">After you create a production order, you must estimate production costs.</span></span> <span data-ttu-id="f5d5d-108">ويهدف ذلك إلى تقدير استهلاك الأصناف والمسارات فيما يتعلق بعملية الإنتاج، إذ يتم استخدام هذه التقديرات كأساس لعمليات الجدولة والإنتاج التالية.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-108">The purpose is to estimate item and route consumption for the production process, because these estimates are used as the basis for subsequent scheduling and production processes.</span></span>
 
-## <a name="production-cost-estimation"></a>تقدير تكلفة الإنتاج
-تستند تقديرات تكاليف الإنتاج إلى المعلومات التالية:
+## <a name="production-cost-estimation"></a><span data-ttu-id="f5d5d-109">تقدير تكلفة الإنتاج</span><span class="sxs-lookup"><span data-stu-id="f5d5d-109">Production cost estimation</span></span>
+<span data-ttu-id="f5d5d-110">تستند تقديرات تكاليف الإنتاج إلى المعلومات التالية:</span><span class="sxs-lookup"><span data-stu-id="f5d5d-110">Estimates of production costs are based on the following information:</span></span>
 
--   كمية أمر الإنتاج
--   المكونات على قائمة مكونات الصنف الخاصة بالإنتاج
--   عمليات التوجيه في مسار الإنتاج.
--   التكاليف غير المباشرة التي تنطبق على المكونات والعمليات
--   بيانات التكلفة النشطة اعتبارًا من تاريخ الحساب
+-   <span data-ttu-id="f5d5d-111">كمية أمر الإنتاج</span><span class="sxs-lookup"><span data-stu-id="f5d5d-111">The quantity on the production order</span></span>
+-   <span data-ttu-id="f5d5d-112">المكونات على قائمة مكونات الصنف الخاصة بالإنتاج</span><span class="sxs-lookup"><span data-stu-id="f5d5d-112">The components on the production bills of materials (BOMs)</span></span>
+-   <span data-ttu-id="f5d5d-113">عمليات التوجيه في مسار الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-113">The routing operations in the production route</span></span>
+-   <span data-ttu-id="f5d5d-114">التكاليف غير المباشرة التي تنطبق على المكونات والعمليات</span><span class="sxs-lookup"><span data-stu-id="f5d5d-114">The indirect costs that apply to the components and operations</span></span>
+-   <span data-ttu-id="f5d5d-115">بيانات التكلفة النشطة اعتبارًا من تاريخ الحساب</span><span class="sxs-lookup"><span data-stu-id="f5d5d-115">The active cost data as of the calculation date</span></span>
 
-في حال وجود صنف بند وهمي في قائمة مكونات الصنف الخاصة بالإنتاج، تقوم الحسابات بعكس مكونات الصنف الوهمي وعمليات مساره. يمكنك استخدام مهمة التقدير لإعادة حساب التكاليف التقديرية بحيث تعكس المعلومات المحدّثة. على سبيل المثال، قد تكون المعلومات المحدّثة تغييرات في كمية أمر الإنتاج، أو المكونات في قائمة مكونات الصنف الخاصة بالإنتاج، أو عمليات التوجيه في مسار الإنتاج، أو التكاليف غير المباشرة التي تنطبق على هذه المكونات والعمليات، أو بيانات التكلفة النشطة اعتبارًا من تاريخ إعادة الحساب. وتقترح أيضًا حسابات التكلفة التقديرية سعرًا لمبيعات صنف الإنتاج استنادًا إلى منهج التكلفة إضافة إلى زيادة السعر. بإمكان حسابات التكلفة التقديرية أن تنطبق بشكل اختياري على أوامر مرجعية تعكس أوامر إنتاج أخرى ترتبط بأمر الإنتاج.
+<span data-ttu-id="f5d5d-116">في حال وجود صنف بند وهمي في قائمة مكونات الصنف الخاصة بالإنتاج، تقوم الحسابات بعكس مكونات الصنف الوهمي وعمليات مساره.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-116">If there is a phantom line item on the production BOMs, the calculations reflect the phantom’s components and route operations.</span></span> <span data-ttu-id="f5d5d-117">يمكنك استخدام مهمة التقدير لإعادة حساب التكاليف التقديرية بحيث تعكس المعلومات المحدّثة.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-117">You can use the estimation task to recalculate estimated costs so that they reflect updated information.</span></span> <span data-ttu-id="f5d5d-118">على سبيل المثال، قد تكون المعلومات المحدّثة تغييرات في كمية أمر الإنتاج، أو المكونات في قائمة مكونات الصنف الخاصة بالإنتاج، أو عمليات التوجيه في مسار الإنتاج، أو التكاليف غير المباشرة التي تنطبق على هذه المكونات والعمليات، أو بيانات التكلفة النشطة اعتبارًا من تاريخ إعادة الحساب.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-118">For example, the updated information might be changes to the quantity on the production order, the components on the production BOMs, the routing operations in the production route, the indirect costs that apply to these components and operations, or the active cost data as of the recalculation date.</span></span> <span data-ttu-id="f5d5d-119">وتقترح أيضًا حسابات التكلفة التقديرية سعرًا لمبيعات صنف الإنتاج استنادًا إلى منهج التكلفة إضافة إلى زيادة السعر.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-119">The calculations of estimated cost also suggest a sales price for the production item, based on a cost-plus-markup approach.</span></span> <span data-ttu-id="f5d5d-120">بإمكان حسابات التكلفة التقديرية أن تنطبق بشكل اختياري على أوامر مرجعية تعكس أوامر إنتاج أخرى ترتبط بأمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-120">The calculations of estimated cost can optionally apply to reference orders that reflect other production orders that are linked to the production order.</span></span>
 
-## <a name="view-the-estimated-costs"></a>اعرض التكاليف التقديرية
-بعد تشغيل التقدير، يمكنك عرض النتائج في صفحة **حساب السعر**. يحسب التقدير القيم التالية:
+## <a name="view-the-estimated-costs"></a><span data-ttu-id="f5d5d-121">اعرض التكاليف التقديرية</span><span class="sxs-lookup"><span data-stu-id="f5d5d-121">View the estimated costs</span></span>
+<span data-ttu-id="f5d5d-122">بعد تشغيل التقدير، يمكنك عرض النتائج في صفحة **حساب السعر**.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-122">After you run estimation, you can view the results on the **Price calculation** page.</span></span> <span data-ttu-id="f5d5d-123">يحسب التقدير القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="f5d5d-123">The estimation calculates the following values:</span></span>
 
--   **تكلفة الإنتاج** - تكلفة الإنتاج هي البند الأول في التقدير. حيث توضح التكلفة الكاملة لتشغيل أمر الإنتاج وسعر إجمالي المبيعات للإنتاج. وهي مجموع كافة بنود التكلفة في التقدير.
--   **تكاليف المسارات أو الموارد** – تكاليف المسارات أو الموارد هي تكاليف عمليات الإنتاج. وهي تشمل تكلفة عناصر مثل وقت الإعداد ووقت التشغيل والنفقات العامة.
--   **تكاليف المواد** - تكاليف المواد هي تكاليف وأسعار قائمة مكونات الصنف اللازمة لإنتاج الصنف. وقد تم إنشاء هذه التكاليف في السابق وإدخالها في النظام.
+-   <span data-ttu-id="f5d5d-124">**تكلفة الإنتاج** - تكلفة الإنتاج هي البند الأول في التقدير.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-124">**Production cost** – The production cost is the top line of the estimate.</span></span> <span data-ttu-id="f5d5d-125">حيث توضح التكلفة الكاملة لتشغيل أمر الإنتاج وسعر إجمالي المبيعات للإنتاج.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-125">It shows the complete cost of running the production order and the total sales price for the production.</span></span> <span data-ttu-id="f5d5d-126">وهي مجموع كافة بنود التكلفة في التقدير.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-126">It's the sum of all the cost lines on the estimate.</span></span>
+-   <span data-ttu-id="f5d5d-127">**تكاليف المسارات أو الموارد** – تكاليف المسارات أو الموارد هي تكاليف عمليات الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-127">**Route or resource costs** – Route or resource costs are the costs for the production operations.</span></span> <span data-ttu-id="f5d5d-128">وهي تشمل تكلفة عناصر مثل وقت الإعداد ووقت التشغيل والنفقات العامة.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-128">They include the cost of elements such as setup time, run time, and overhead.</span></span>
+-   <span data-ttu-id="f5d5d-129">**تكاليف المواد** - تكاليف المواد هي تكاليف وأسعار قائمة مكونات الصنف اللازمة لإنتاج الصنف.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-129">**Material costs** – Material costs are the costs and prices of the BOM components that are required in order to produce the item.</span></span> <span data-ttu-id="f5d5d-130">وقد تم إنشاء هذه التكاليف في السابق وإدخالها في النظام.</span><span class="sxs-lookup"><span data-stu-id="f5d5d-130">These costs have previously been established and entered into the system.</span></span>
 
-## <a name="other-uses-of-cost-estimation"></a>استخدامات أخرى لتقدير التكلفة
-يوفر أيضًا تقدير التكلفة المعلومات التالية:
+## <a name="other-uses-of-cost-estimation"></a><span data-ttu-id="f5d5d-131">استخدامات أخرى لتقدير التكلفة</span><span class="sxs-lookup"><span data-stu-id="f5d5d-131">Other uses of cost estimation</span></span>
+<span data-ttu-id="f5d5d-132">يوفر أيضًا تقدير التكلفة المعلومات التالية:</span><span class="sxs-lookup"><span data-stu-id="f5d5d-132">A cost estimate also provides the following information:</span></span>
 
--   عروض أسعار ذات معنى
--   تقديرات لربحية الأمر
--   تقديرات لاستخدام المواد الخام
--   مقارنات بين معلومات التكلفة من عمليات إنتاج سابقة
--   معلومات الميزانية والتنبؤ
--   تقديرات لحجم الإنتاج اللازم للحفاظ على تكلفة معينة
+-   <span data-ttu-id="f5d5d-133">عروض أسعار ذات معنى</span><span class="sxs-lookup"><span data-stu-id="f5d5d-133">Meaningful price quotations</span></span>
+-   <span data-ttu-id="f5d5d-134">تقديرات لربحية الأمر</span><span class="sxs-lookup"><span data-stu-id="f5d5d-134">Estimates of the profitability of the order</span></span>
+-   <span data-ttu-id="f5d5d-135">تقديرات لاستخدام المواد الخام</span><span class="sxs-lookup"><span data-stu-id="f5d5d-135">Estimates of raw material usage</span></span>
+-   <span data-ttu-id="f5d5d-136">مقارنات بين معلومات التكلفة من عمليات إنتاج سابقة</span><span class="sxs-lookup"><span data-stu-id="f5d5d-136">Comparisons of cost information from previous productions</span></span>
+-   <span data-ttu-id="f5d5d-137">معلومات الميزانية والتنبؤ</span><span class="sxs-lookup"><span data-stu-id="f5d5d-137">Budget and forecasting information</span></span>
+-   <span data-ttu-id="f5d5d-138">تقديرات لحجم الإنتاج اللازم للحفاظ على تكلفة معينة</span><span class="sxs-lookup"><span data-stu-id="f5d5d-138">Estimates of the production size that is required in order to maintain a particular cost</span></span>
 
 
 

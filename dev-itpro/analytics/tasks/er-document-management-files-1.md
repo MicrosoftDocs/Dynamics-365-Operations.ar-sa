@@ -16,55 +16,55 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: cc0909f99be9aad1b6bec22d4ed10381e0484a41
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 96195003c209c56c7ea4cbfec2f3543eb68453ff
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="prepare-data-model-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>إعداد نموذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات تنسيق للتقارير الإلكترونية (ER)
+# <a name="prepare-data-model-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a><span data-ttu-id="2bfab-103">إعداد نموذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات تنسيق للتقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="2bfab-103">Prepare data model to use Document Management files in format outputs for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لاستخدام ملفات إدارة المستندات (مرفقات) في مخرجات التقارير الإلكترونية. يمكن تنفيذ هذه الخطوات في أي شركة.
+<span data-ttu-id="2bfab-104">تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لاستخدام ملفات إدارة المستندات (مرفقات) في مخرجات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="2bfab-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="2bfab-105">يمكن تنفيذ هذه الخطوات في أي شركة.</span><span class="sxs-lookup"><span data-stu-id="2bfab-105">These steps can be performed in any company.</span></span>
 
-لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء موفر تكوين ووضع علامة عليه على أنه نشط".
+<span data-ttu-id="2bfab-106">لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء موفر تكوين ووضع علامة عليه على أنه نشط".</span><span class="sxs-lookup"><span data-stu-id="2bfab-106">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>
 
-يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
+<span data-ttu-id="2bfab-107">يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.</span><span class="sxs-lookup"><span data-stu-id="2bfab-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>الوصول إلى قائمة التكوينات التي توفرها Microsoft
-1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
-    * تأكد من أن موفر 'Litware, Inc.' متوفر ومن وضع علامة عليه كنشط.  
-2. حدد الموفر 'Litware, Inc.' .
-3. انقر فوق "المستودعات".
-    * إذا كان مخزن من نوع "موارد العمليات" موجودًا بالفعل، فيمكنك تجاوز الخطوات المتبقية في المهمة الفرعية الحالية.  
-4. انقر فوق "إضافة" لفتح مربع حوار الإسقاط‬.
-5. في الحقل "نوع مستودع التكوين"، أدخل "موارد العمليات".
-6. انقر فوق إنشاء مستودع.
-7. انقر فوق "موافق".
+## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="2bfab-108">الوصول إلى قائمة التكوينات التي توفرها Microsoft</span><span class="sxs-lookup"><span data-stu-id="2bfab-108">Get access to the list of configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="2bfab-109">انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.</span><span class="sxs-lookup"><span data-stu-id="2bfab-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="2bfab-110">تأكد من أن موفر 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="2bfab-110">Make sure that the 'Litware, Inc.'</span></span> <span data-ttu-id="2bfab-111">متوفر ومن وضع علامة عليه كنشط.</span><span class="sxs-lookup"><span data-stu-id="2bfab-111">provider is available and marked as active.</span></span>  
+2. <span data-ttu-id="2bfab-112">حدد الموفر 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="2bfab-112">Select the 'Litware, Inc.'</span></span> <span data-ttu-id="2bfab-113">.</span><span class="sxs-lookup"><span data-stu-id="2bfab-113">provider.</span></span>
+3. <span data-ttu-id="2bfab-114">انقر فوق "المستودعات".</span><span class="sxs-lookup"><span data-stu-id="2bfab-114">Click Repositories.</span></span>
+    * <span data-ttu-id="2bfab-115">إذا كان مخزن من نوع "موارد العمليات" موجودًا بالفعل، فيمكنك تجاوز الخطوات المتبقية في المهمة الفرعية الحالية.</span><span class="sxs-lookup"><span data-stu-id="2bfab-115">If a repository of the 'Operations resources' type already exists, skip the remaining steps of the current sub-task.</span></span>  
+4. <span data-ttu-id="2bfab-116">انقر فوق "إضافة" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="2bfab-116">Click Add to open the drop dialog.</span></span>
+5. <span data-ttu-id="2bfab-117">في الحقل "نوع مستودع التكوين"، أدخل "موارد العمليات".</span><span class="sxs-lookup"><span data-stu-id="2bfab-117">In the Configuration repository type field, enter 'Operations resources'.</span></span>
+6. <span data-ttu-id="2bfab-118">انقر فوق إنشاء مستودع.</span><span class="sxs-lookup"><span data-stu-id="2bfab-118">Click Create repository.</span></span>
+7. <span data-ttu-id="2bfab-119">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="2bfab-119">Click OK.</span></span>
 
-## <a name="get-the-customer-invoice-model-configurations-provided-by-microsoft"></a>الحصول على تكوينات نموذج فاتورة العميل التي توفرها Microsoft
-1. انقر فوق "إظهار عوامل التصفية".
-2. طبّق عوامل التصفية التالية: أدخل قيمة عامل التصفية "موارد العمليات" في حقل "الاسم" باستخدام عامل التصفية "يبدأ بـ"‬‏‫؛ أدخل قيمة عامل التصفية "" في حقل "الوصف" باستخدام عامل التصفية "يبدأ بـ".
-3. انقر فوق "إظهار عوامل التصفية".
-4. انقر فوق "فتح".
-5. في الشجرة، حدد "نموذج فاتورة العميل".
-    * حدد تكوين النموذج "نموذج فاتورة العميل" لاستيراده.  
-6. انقر فوق "استيراد".
-    * انقر فوق "استيراد" للإصدار 1 من التكوين المحدد.  
-7. انقر فوق نعم.
-8. قم بإغلاق الصفحة.
-9. قم بإغلاق الصفحة.
-10. انقر فوق "تكوينات إعداد التقارير‬".
-11. في الشجرة، حدد "نموذج فاتورة العميل".
+## <a name="get-the-customer-invoice-model-configurations-provided-by-microsoft"></a><span data-ttu-id="2bfab-120">الحصول على تكوينات نموذج فاتورة العميل التي توفرها Microsoft</span><span class="sxs-lookup"><span data-stu-id="2bfab-120">Get the Customer invoice model configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="2bfab-121">انقر فوق "إظهار عوامل التصفية".</span><span class="sxs-lookup"><span data-stu-id="2bfab-121">Click Show filters.</span></span>
+2. <span data-ttu-id="2bfab-122">طبّق عوامل التصفية التالية: أدخل قيمة عامل التصفية "موارد العمليات" في حقل "الاسم" باستخدام عامل التصفية "يبدأ بـ"‬‏‫؛ أدخل قيمة عامل التصفية "" في حقل "الوصف" باستخدام عامل التصفية "يبدأ بـ".</span><span class="sxs-lookup"><span data-stu-id="2bfab-122">Apply the following filters: Enter a filter value of "Operations resources" on the "Name" field using the "begins with" filter operator; Enter a filter value of "" on the "Description" field using the "begins with" filter operator</span></span>
+3. <span data-ttu-id="2bfab-123">انقر فوق "إظهار عوامل التصفية".</span><span class="sxs-lookup"><span data-stu-id="2bfab-123">Click Show filters.</span></span>
+4. <span data-ttu-id="2bfab-124">انقر فوق "فتح".</span><span class="sxs-lookup"><span data-stu-id="2bfab-124">Click Open.</span></span>
+5. <span data-ttu-id="2bfab-125">في الشجرة، حدد "نموذج فاتورة العميل".</span><span class="sxs-lookup"><span data-stu-id="2bfab-125">In the tree, select 'Customer invoice model'.</span></span>
+    * <span data-ttu-id="2bfab-126">حدد تكوين النموذج "نموذج فاتورة العميل" لاستيراده.</span><span class="sxs-lookup"><span data-stu-id="2bfab-126">Select the model configuration 'Customer invoice model' to import it.</span></span>  
+6. <span data-ttu-id="2bfab-127">انقر فوق "استيراد".</span><span class="sxs-lookup"><span data-stu-id="2bfab-127">Click Import.</span></span>
+    * <span data-ttu-id="2bfab-128">انقر فوق "استيراد" للإصدار 1 من التكوين المحدد.</span><span class="sxs-lookup"><span data-stu-id="2bfab-128">Click Import for version 1 of the selected configuration.</span></span>  
+7. <span data-ttu-id="2bfab-129">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="2bfab-129">Click Yes.</span></span>
+8. <span data-ttu-id="2bfab-130">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="2bfab-130">Close the page.</span></span>
+9. <span data-ttu-id="2bfab-131">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="2bfab-131">Close the page.</span></span>
+10. <span data-ttu-id="2bfab-132">انقر فوق "تكوينات إعداد التقارير‬".</span><span class="sxs-lookup"><span data-stu-id="2bfab-132">Click Reporting configurations.</span></span>
+11. <span data-ttu-id="2bfab-133">في الشجرة، حدد "نموذج فاتورة العميل".</span><span class="sxs-lookup"><span data-stu-id="2bfab-133">In the tree, select 'Customer invoice model'.</span></span>
 
-## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a>أنشئ النموذج المشتق لدعم الوصول إلى ملفات "إدارة المستندات".
-    * ستقوم بإنشاء تكوين خاص بك لنموذج فاتورة العميل يكون مشتقًا من التكوين الذي توفره Microsoft. سوف تستخدم هذا التكوين لتطبيق الوصول إلى ملفات "إدارة المستندات" وجعله متوفرًا للمستندات الإلكترونية التي ستقوم بإنشائها استنادًا إلى هذا النموذج.  
-1. انقر فوق "إنشاء تكوين" لفتح مربع حوار الإسقاط‬.
-2. في الحقل "جديد"، أدخل "مشتق من اسم: نموذج فاتورة العميل، Microsoft".
-3. في الحقل "الاسم، اكتب "نموذج فاتورة العميل (مخصص)".
-    * نموذج فاتورة العميل (مخصص)  
-4. وانقر فوق إنشاء تكوين.
+## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a><span data-ttu-id="2bfab-134">أنشئ النموذج المشتق لدعم الوصول إلى ملفات "إدارة المستندات".</span><span class="sxs-lookup"><span data-stu-id="2bfab-134">Create the derived model to support access to the Document Management files.</span></span>
+    * <span data-ttu-id="2bfab-135">ستقوم بإنشاء تكوين خاص بك لنموذج فاتورة العميل يكون مشتقًا من التكوين الذي توفره Microsoft.</span><span class="sxs-lookup"><span data-stu-id="2bfab-135">You will create our own configuration of the Customer invoice model deriving it from the configuration provided by Microsoft.</span></span> <span data-ttu-id="2bfab-136">سوف تستخدم هذا التكوين لتطبيق الوصول إلى ملفات "إدارة المستندات" وجعله متوفرًا للمستندات الإلكترونية التي ستقوم بإنشائها استنادًا إلى هذا النموذج.</span><span class="sxs-lookup"><span data-stu-id="2bfab-136">You will use this configuration to implement access to the Document Management files and make them available for electronic documents that you will create based on this model.</span></span>  
+1. <span data-ttu-id="2bfab-137">انقر فوق "إنشاء تكوين" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="2bfab-137">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="2bfab-138">في الحقل "جديد"، أدخل "مشتق من اسم: نموذج فاتورة العميل، Microsoft".</span><span class="sxs-lookup"><span data-stu-id="2bfab-138">In the New field, enter 'Derive from Name: Customer invoice model, Microsoft'.</span></span>
+3. <span data-ttu-id="2bfab-139">في الحقل "الاسم، اكتب "نموذج فاتورة العميل (مخصص)".</span><span class="sxs-lookup"><span data-stu-id="2bfab-139">In the Name field, type 'Customer invoice model (custom)'.</span></span>
+    * <span data-ttu-id="2bfab-140">نموذج فاتورة العميل (مخصص)</span><span class="sxs-lookup"><span data-stu-id="2bfab-140">Customer invoice model (custom)</span></span>  
+4. <span data-ttu-id="2bfab-141">وانقر فوق إنشاء تكوين.</span><span class="sxs-lookup"><span data-stu-id="2bfab-141">Click Create configuration.</span></span>
 
 
