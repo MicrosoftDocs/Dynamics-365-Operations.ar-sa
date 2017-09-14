@@ -1,7 +1,7 @@
 --- 
 title: "إنشاء أمر مبيعات لمنتج قابل للتكوين"
 description: "يوضح هذا الإجراء كيفية تطبيق قالب تكوين على منتج في أمر مبيعات."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 10/12/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
