@@ -1,6 +1,6 @@
 # [التطوير والإدارة لـ Dynamics 365 for Finance and Operations](index.md)
 # [متطلبات النظام لعمليات نشر المجموعة](../fin-and-ops/get-started/system-requirements.md)
-# [متطلبات النظام لعمليات النشر المحلي](../fin-and-ops/get-started/system-requirements-on-prem.md)
+# [متطلبات النظام لعمليات التوزيع المحلي](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [بيانات العرض التوضيحي](../fin-and-ops/get-started/demo-data.md)
 
 
@@ -154,7 +154,7 @@
 ## دعم اختبار في Visual Studio
 ### [الاختبارات وعمليات التحقق](perf-test/testing-validation.md)
 ### [اختبار المشروعات في Visual Studio](perf-test/testing-support.md)
-### [النشر باستخدام البناء المستمر والتنفيذ التلقائي للاختبار](perf-test/continuous-build-test-automation.md)
+### [التوزيع باستخدام البناء المستمر والتنفيذ التلقائي للاختبار](perf-test/continuous-build-test-automation.md)
 ## التواريخ
 ### [سريان التاريخ](dev-tools/date-effectivity.md)
 ## الترخيص
@@ -403,7 +403,7 @@
 ## [إنشاء محرك إدارة نقل جديد](../supply-chain/transportation/create-new-transportation-management-engine.md)
 
 
-# النشر
+# التوزيع
 ## [نشر بيئة عرض توضيحي](deployment/deploy-demo-environment.md)
 
 ## النشر عبر الشبكة السحابية
@@ -450,6 +450,7 @@
 ### [تكوين تعيين Visual Studio Team Services أثناء ترحيل الكود](migration-upgrade/configure-vso-solution.md)
 ### [تقسيم النماذج](dev-tools/model-split.md)
 ### [استخدام التفويضات لحل التبعيات بين النماذج](migration-upgrade/delegates-migration.md)
+
 
 ## الترقية إلى تحديث جديد
 ### [عملية النقل إلى التحديث الأخير](migration-upgrade/upgrade-latest-update.md)
@@ -508,13 +509,15 @@
 ## [استخدم مخططات الأنشطة](lifecycle-services/using-activity-diagrams.md)
 ## [مزامنة مكتبة BPM مع Visual Studio Team Services ‏(VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
 ## [مخططات انسيابية لأداة تكوين عمليات الأعمال](lifecycle-services/flowcharts-business-process-modeler.md)
-## [تحميل عمليات أعمال مخصصة](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
-## [المراقبة والتشخيص ](lifecycle-services/monitoring-diagnostics.md)
+## [تحميل إجراءات العمل المخصصة](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
+## [المراقبة والتشخيصات ](lifecycle-services/monitoring-diagnostics.md)
 ## [مكتبة الأصول](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 - نظرة عامة على خدمة الترجمة](lifecycle-services/translation-service-overview.md)
+### [دليل مستخدم خدمة الترجمة في Microsoft Dynamics 365 ](lifecycle-services/use-translation-service.md)
 
 ## ميزات Dynamics AX 2012 Lifecycle Services
-### النشر
-#### [بيئات مستضافة على الشبكة السحابية](lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md)
+### التوزيع
+#### [البيئات المستضافة على السحابة](lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md)
 #### [نسخ تكوين](lifecycle-services/copy-configuration-lcs.md)
 #### [تخطيط نشر Dynamics AX 2012 R3 على Azure](lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md)
 #### [نشر Dynamics AX 2012 R3 على Azure](lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs.md)
@@ -593,7 +596,7 @@
 ## [تصدير نسخة من قاعدة بيانات لاستعادتها لاحقًا](database/copy-operations-database.md)
 
 # الدعم
-## [الحصول على دعم لـ Dynamics 365 for Finance and Operations، الإصدار Enterprise وLifecycle Services](lifecycle-services/lcs-support.md)
+## [الحصول على دعم لـ Dynamics 365 for Finance and Operations،‏ Enterprise edition وLifecycle Services](lifecycle-services/lcs-support.md)
 ## [تسجيل بطاقة دعم رئيسي](lifecycle-services/premier-support.md)
 ## [إرسال طلب إلى فريق هندسة خدمات Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
 ## [الحصول على دعم تقني لـ Dynamics 365 for Finance and Operations، الإصدار Enterprise](lifecycle-services/support-experience.md) 
