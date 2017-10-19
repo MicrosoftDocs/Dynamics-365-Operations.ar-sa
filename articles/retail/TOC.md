@@ -1,5 +1,8 @@
 # [مرحبًا بك في Dynamics 365 for Retail](index.md)
 
+# بدء الاستخدام
+## [الجديد أو التغيير](get-started/whats-new.md)
+
 # المدفوعات
 ## [طرق الدفع](payment-methods.md)
 ## [إعداد وتفويض والتقاط بطاقة الائتمان](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -29,7 +32,7 @@
 ## [خيارات الدفع](work-with-payments.md)
 
 # إعداد القنوات وإدارتها
-## [تهيئة بيانات إضافة قاعدة بيانات في بيئة البيع بالتجزئة](enable-configure-retail-functionality.md)
+## [تهيئة بيانات إضافة قاعدة بيانات في بيئة Retail](enable-configure-retail-functionality.md)
 ## [تحديد قنوات البيع بالتجزئة](define-maintain-retail-channels.md)
 ## [نظرة عامة على المتجر على الإنترنت](online-stores.md)
 ## [تكوين وتثبيت محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md)
@@ -160,7 +163,7 @@
 # [تطوير البيع بالتجزئة والإدارة](dev-itpro/dev-retail-home-page.md)
 
 ## هندسة
-### [مكونات Microsoft Dynamics 365 for Finance and Operations، الإصدار Enterprise - البيع بالتجزئة](retail-components.md)
+### [مكونات Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition- البيع بالتجزئة](retail-components.md)
 ### [هندسة خادم التجزئة](dev-itpro/retail-server-architecture.md)
 ### [اتصالات قناة التجزئة](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [هندسة MPOS](dev-itpro/retail-modern-pos-architecture.md)
@@ -173,9 +176,10 @@
 ### [تكوين وتثبيت Retail Modern POS](retail-modern-pos-device-activation.md)
 #### [إدارة حسابات البيع بالتجزئة والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
 #### [تنشيط جهاز Retail POS](dev-itpro/retail-device-activation.md)
-#### [retail Cloud POS آمنة](dev-itpro/secure-retail-cloud-pos.md)
+#### [Retail Cloud POS آمنة](dev-itpro/secure-retail-cloud-pos.md)
 ### [تكوين وتثبيت Retail Hardware Station](retail-hardware-station-configuration-installation.md)
-### [أحداث مكونات البيع بالتجزئة لأدوات التشخيص واستكشاف الأخطاء وإصلاحها](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
+### [التوزيع الجماعي لمكونات الخدمة الذاتية لـ Retail](dev-itpro/retail-mass-deployment.md)
+### [أحداث مكونات Retail لأدوات التشخيص واستكشاف الأخطاء وإصلاحها](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [تطبيق حزمة قابلة للنشر](../dev-itpro/deployment/apply-deployable-package-system.md)
 
 ## دعم الترقية و N-1
