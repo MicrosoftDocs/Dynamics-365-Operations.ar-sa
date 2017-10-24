@@ -16,13 +16,13 @@ ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 01955aefb27bd18809b35fd025c9dd1b8eb70520
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 035c5d15e5508c78dd66a349defd534bfecc96bb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 06/20/2017
 لمزيد من المعلومات حول السياسات، راجع [سياسات الشراء](../procurement/purchase-policies.md).
 
 - للبحث عن الكتالوجات الخارجية لفئات تدبير محددة، أدخل النص في حقل البحث عن الكتالوج.
-- لإضافة المنتجات من الكتالوج الخارجي لمورد على موقع ويب الخاص بالمورد، انقر فوق الكتالوج الخارجي. ثم قم بإضافة المنتجات إلى عربة التسوق، مع التسديد وتسجيل الخروج. سيتم تحويل بنود عربة التسوق إلى Microsoft Dynamics 365.
+- لإضافة المنتجات من الكتالوج الخارجي لمورد على موقع ويب الخاص بالمورد، انقر فوق الكتالوج الخارجي. ثم أضف المنتجات إلى سلة التسوق، وسجل خروجك مع السداد. سيتم تحويل بنود سلة التسوق إلى Microsoft Dynamics 365.
 
 إذا كان هناك العديد من الخيارات لفئات التدبير، حدد فئة التدبير الصحيحة قبل إضافة البنود إلى الطلب.
 بعد أن تتم إضافة بنود إلى الطلب، يمكنك إضافة المزيد من البنود دون استخدام الكتالوجات الخارجية. بدلاً من ذلك، يمكنك الاستمرار في استخدام الكتالوجات الخارجية لإضافة البنود.

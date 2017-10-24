@@ -16,13 +16,13 @@ ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb5c39a65ea59acda05b0828f84bfaea4ad75062
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 06/13/2017
 يُعد مصدر البيانات الأساسي لـ CostAggregatedCostStatementEntryEntity هو جدول CostStatementCache. يُدار هذا الجدول من خلال إطار عمل ذاكرة التخزين المؤقت لمجموعة البيانات. وبشكل افتراضي، يتم تحديث الجدول كل 24 ساعة، ولكنك يمكنك تحديثه يدويًا في تكوين ذاكرة التخزين المؤقت للبيانات. ثم يمكنك القيام بالتحديث اليدوي في مساحة العمل **إدارة التكلفة** أو **تحليل التكلفة**. بعد تشغيل تحديث CostStatementCache، يجب عليك تحديث اتصال OData على Power BI.com لرؤية البيانات المُحدثة على الموقع. تتعلق قياسات الفرق (الشراء والإنتاج) في محتوى Power BI هذا فقط بالأصناف المُقيّمة من خلال أسلوب مخزون التكلفة المعياري. يتم حساب الفرق في الإنتاج بالفرق بين التكلفة النشطة والتكلفة المحققة. يتم حساب فرق الإنتاج عندما تكون حالة أمر الإنتاج مُعيَنة على **تم الإنهاء**. لمزيد من المعلومات حول أنواع فروق الإنتاج، وكيفية حساب كل نوع، راجع [حول تحليل نسب الفرق لأوامر الإنتاج المكتملة](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-يتوفر محتوي Power BI لـ **إدارة التكلفة** من PowerBI.com. لمزيد من المعلومات حول كيفية الاتصال وتحميل بيانات Microsoft Dynamics 365 for Finance and Operations الخاصة بك، راجع [الوصول إلى محتوى Power BI من PowerBI.com](power-bi-home-page.md).
+يتوفر محتوى Power BI **إدارة التكلفة** من PowerBI.com. لمزيد من المعلومات حول كيفية توصيل وتحميل بيانات Microsoft Dynamics 365 for Finance and Operations، راجع [الوصول إلى محتوى Power BI من PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>المقاييس المُدرجة في محتوى Power BI
 يشمل المحتوى مجموعة من صفحات التقرير. تتكون كل صفحة من مجموعة من المقاييس المصورة مرئيًا مثل المخططات، والتجانبات والجداول. يوفر الجدول التالي نظرة عامة حول مجموعة الرسوم المرئية في محتوى Power BI لـ **إدارة التكلفة**.

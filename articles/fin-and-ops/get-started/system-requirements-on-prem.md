@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 721c5851cd399398a8dcec5ae110b97a4f17ae0a
+ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
+ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/04/2017
 
 ---
 
@@ -87,7 +87,7 @@ ms.lasthandoff: 08/04/2017
 - عدد المستخدمين المتزامنين
 
 ## <a name="minimum-infrastructure-requirements"></a>الحد الأدنى لمتطلبات البنية الأساسية
-يستخدم Finance and Operations (محلي) Service Fabric لاستضافة خدمات كل من AOS والدُفعات وإدارة البيانات وأداة تقارير الإدارة ومنسق البيئة. لا تتم استضافة Microsoft SQL Server Reporting Services (SSRS) في نظام مجموعة Service Fabric.
+يستخدم Finance and Operations (محلي) Service Fabric لاستضافة خدمات كل من AOS والدُفعات وإدارة البيانات وأداة تقارير الإدارة ومنسق البيئة. 
 
 يجب أن يتوفر لدى SQL Server إعداد HADRON ذي التوافر العالي الذي يتضمن عقدتين على الأقل لاستخدام الإنتاج.
 
@@ -225,6 +225,12 @@ ms.lasthandoff: 08/04/2017
 |------------------------------------------------------------------|-------|
 | Microsoft SQL Server 2016 Standard Edition أو Enterprise Edition | بالنسبة إلى متطلبات الأجهزة لـ SQL Server 2016، راجع [متطلبات الأجهزة والبرامج لتثبيت SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server). |
 
+## <a name="software-requirements-for-application-object-server-aos"></a>متطلبات البرامج لخادم كائنات التطبيق (AOS) 
+- SQL Server Integation Services (SSIS)
+
+## <a name="software-requirements-for-reporting-server-bi"></a>المتطلبات البرمجية المطلوبة لإعداد تقارير الخادم (BI)
+- SQL Server Reporting Services (SSRS)
+
 ## <a name="software-requirements-for-client-computers"></a>متطلبات البرامج لأجهزة كمبيوتر العميل
 يمكن تشغيل تطبيق الويب Finance and Operations على أي جهاز يتضمن مستعرض ويب يتوافق مع HTML 5.0. فيما يلي بعض مجموعات الجهاز/المستعرض المعينة التي أقرتها Microsoft:
 
@@ -244,7 +250,7 @@ ms.lasthandoff: 08/04/2017
 ## <a name="supported-microsoft-office-applications"></a>تطبيقات Microsoft Office المعتمدة
 يتم اعتماد تطبيقات Microsoft Office التالية أثناء عمليات نشر Finance and Operations في السحابة وفي الموقع المحلي:
 
--   لتشغيل الوظائف الإضافية لـ Microsoft Excel و Word، يجب أن يكون لديك Microsoft Office 2016 لـ Windows أو Mac مثبتًا. للحصول على مزيد من المعلومات حول متطلبات الإصدار، راجع [استكشاف وإصلاح مشاكل تكامل Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   لتشغيل الوظائف الإضافية لـ Microsoft Excel و Word، يجب أن يكون لديك Microsoft Office 2016 لـ Windows أو Mac مثبتًا. للحصول على مزيد من المعلومات حول متطلبات الإصدار، راجع [استكشاف وإصلاح مشاكل تكامل Office](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   لعرض المستندات التي تم إنشاؤها بواسطة التصدير إلى وظائف Word أو التصدير إلى Excel، يجب عليك تثبيت Microsoft Office 2007 أو الإصدار الأحدث.
  
 ## <a name="hardware-and-software-requirements-for-retail-components"></a>متطلبات الأجهزة والبرامج لمكونات البيع بالتجزئة
