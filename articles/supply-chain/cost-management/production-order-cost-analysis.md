@@ -1,7 +1,7 @@
 ---
 title: "تحليل تكلفة أمر الإنتاج"
 description: "توفر هذه المقالة معلومات حول تحليل التكاليف الذي يمكنك القيام به لأوامر الإنتاج الحالية والمكتملة. يمكنك تحليل التكاليف المقدرة والتكاليف الفعلية باستخدام صفحة حساب السعر أو تقرير تقديرات التكلفة والتكاليف‬. يمكنك عرض معلومات حول التكاليف المقدرة والفعلية (والكمية) لكل صنف مكون وعملية توجيه وتكلفة غير مباشرة."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: ded5da04-f787-49f7-b5e5-75c2a2b92930
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1905749fa8db33b960d082d1e22f11206b400eb0
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 7aab1da9c35a2a35e7c759fad57e6daec0d15643
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "كائنات التكلفة"
 description: "توفر هذه المقالة معلومات حول كائنات التكاليف وتشرح كيفية تراكم التكاليف والكميات. كائن التكلفة هو كيان تتراكم له التكاليف والكميات. وبإمكان كائن التكلفة أن يكون عبارة عن منتج أو متغيرات منتج، كمتغيرات النمط واللون."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 823d3edd106925339607d01fbf5f1921b85ff244
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 2549ace837fcdfb9f927e6b486b6a94566bcbbd2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,8 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 توفر هذه المقالة معلومات حول كائنات التكاليف وتشرح كيفية تراكم التكاليف والكميات. كائن التكلفة هو كيان تتراكم له التكاليف والكميات. وبإمكان كائن التكلفة أن يكون عبارة عن منتج أو متغيرات منتج، كمتغيرات النمط واللون.  
 
-<a name="cost-objects"></a>كائنات التكلفة
-------------
+## <a name="cost-objects"></a>كائنات التكلفة
 
 تسرد صفحة **كائنات التكلفة** كافة كائنات التكلفة التي تم تسجيلها في منتج. ويتم تحديد كائنات التكلفة حسب البيانات من المصادر التالية:
 
@@ -68,7 +67,7 @@ ms.lasthandoff: 06/13/2017
     -   الكمية التي تم ترحيلها
 -   حقل **متوسط تكلفة الوحدة** عبارة عن حقل محسوب. ويتم حساب القيمة بقسمة قيمة **القيمة** على قيمة **الكمية**.
 
-**ملاحظة:** لا تؤثر معلمة **تضمين القيمة الفعلية **في الحسابات السابقة.
+**ملاحظة:** لا تؤثر معلمة **تضمين القيمة الفعلية** في الحسابات السابقة.
 
 <a name="see-also"></a>راجع أيضًا
 --------
@@ -79,7 +78,7 @@ ms.lasthandoff: 06/13/2017
 
 [مجموعة أبعاد التعقب](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[ما الجديد أو التغيير](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
+[ما الجديد أو التغيير](../../fin-and-ops/get-started/whats-new-changed.md)
 
 [إدخالات التكلفة](cost-entries.md)
 

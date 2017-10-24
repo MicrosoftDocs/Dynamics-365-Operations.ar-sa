@@ -16,13 +16,13 @@ ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: aaacf596f2ea1107a53647d779e9d2b6c37ab530
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 07/27/2017
     -   دفتر المحاسبة: VM 1، طبقة الترحيل الحالية
     -   الدفتر للأغراض الضريبية‬: VM 2، طبقة ترحيل الضريبة
 
-2.  في VM 1، انقر فوق علامة التبويب "الدفاتر المشتقة". حدد VM 2 في حقل "الدفتر"، و"الاستحواذ" في حقل "نوع الحركة".
+2.  في نموذج القيمة VM 1، انقر فوق علامة تبويب "الدفاتر المشتقة". حدد نموذج القيمة VM 2 في حقل "الدفتر‬"، وحدد "الاستحواذ‬" في حقل "نوع الحركة".
 
 يمكن عندئذٍ إرفاق الدفاتر بأصول ثابتة معينة. 
 
