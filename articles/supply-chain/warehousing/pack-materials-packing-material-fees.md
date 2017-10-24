@@ -1,0 +1,71 @@
+---
+title: "مواد ورسوم التعبئة"
+description: "يتم دفع رسوم مواد التعبئة على فترات زمنية محددة إلى شركة إعادة التدوير. يتم دفع مبلغ، حسب وحدة الوزن، لكل مادة تتكون منها وحدة التعبئة. ويتم حساب رسوم مواد التعبئة وإعداد تقارير بها، ولكن لا يتم ترحيل أي من حركات دفتر الأستاذ وذلك لعدم اعتبار هذه الرسوم بمثابة ضرائب لا بد من دفعها إلى هيئة الضرائب."
+author: MarkusFogelberg
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
+audience: Application User
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.custom: 2194
+ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
+ms.search.region: Global
+ms.search.industry: Distribution
+ms.author: mafoge
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5d7cd7b3d60e9c265a766695b53d8d27ee2a8d0a
+ms.contentlocale: ar-sa
+ms.lasthandoff: 09/29/2017
+
+---
+
+# <a name="packing-materials-and-fees"></a><span data-ttu-id="52de8-105">مواد ورسوم التعبئة</span><span class="sxs-lookup"><span data-stu-id="52de8-105">Packing materials and fees</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+
+<span data-ttu-id="52de8-106">يتم دفع رسوم مواد التعبئة على فترات زمنية محددة إلى شركة إعادة التدوير.</span><span class="sxs-lookup"><span data-stu-id="52de8-106">Packing material fees are paid to a recycling company at certain intervals.</span></span> <span data-ttu-id="52de8-107">يتم دفع مبلغ، حسب وحدة الوزن، لكل مادة تتكون منها وحدة التعبئة.</span><span class="sxs-lookup"><span data-stu-id="52de8-107">An amount is paid, per unit of weight, for each material that a packing unit consists of.</span></span> <span data-ttu-id="52de8-108">ويتم حساب رسوم مواد التعبئة وإعداد تقارير بها، ولكن لا يتم ترحيل أي من حركات دفتر الأستاذ وذلك لعدم اعتبار هذه الرسوم بمثابة ضرائب لا بد من دفعها إلى هيئة الضرائب.</span><span class="sxs-lookup"><span data-stu-id="52de8-108">Packing material fees are calculated and reported, but no ledger transactions are posted because the fees are not regarded as taxes to be paid to an authority.</span></span>
+
+<span data-ttu-id="52de8-109">يتم حساب أوزان ورسوم مواد التعبئة لكل من بنود أوامر المبيعات والشراء.</span><span class="sxs-lookup"><span data-stu-id="52de8-109">Packing material weights and fees are calculated for sales order lines and for purchase order lines.</span></span>
+
+<span data-ttu-id="52de8-110">ويمكنك تحديد وحدة تعبئة واحدة أو أكثر لصنف لمجموعة تعبئة لأصناف أو لجميع الأصناف.</span><span class="sxs-lookup"><span data-stu-id="52de8-110">You can define one or more packing units for an item, for a packing group of items, or for all items.</span></span> <span data-ttu-id="52de8-111">تتكون وحدة التعبئة من مواد التعبئة المختلفة وأوزانها بالإضافة إلى عدد الأصناف المرفقة في وحدة التعبئة.</span><span class="sxs-lookup"><span data-stu-id="52de8-111">A packing unit consists of the packing materials, their weights, and the number of items that are included in the packing unit.</span></span> <span data-ttu-id="52de8-112">ويتم تعيين كود مواد تعبئة لكل نوع من مواد التعبئة المواد يتم تحديده.</span><span class="sxs-lookup"><span data-stu-id="52de8-112">A packing material code is assigned to each type of packing material that is defined.</span></span> <span data-ttu-id="52de8-113">واستناداً إلى كود مواد التعبئة، يمكنك تحديد سعر لفترة زمنية محددة.</span><span class="sxs-lookup"><span data-stu-id="52de8-113">Based on the packing material code, you can specify a price for a specified period.</span></span> <span data-ttu-id="52de8-114">يتم حساب رسوم مواد التعبئة استناداً إلى هذه المعلومات.</span><span class="sxs-lookup"><span data-stu-id="52de8-114">The packing material fee is calculated based on this information.</span></span>
+
+| <span data-ttu-id="52de8-115">**ملاحظة**</span><span class="sxs-lookup"><span data-stu-id="52de8-115">**Note**</span></span>                                                                                                                                             |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="52de8-116">حتى في حالة عدم قيام الشركة بدفع رسوم مواد التعبئة، فإنه يمكن استخدام الوظيفة لحساب الإحصائيات المتعلقة بأوزان مواد التعبئة.</span><span class="sxs-lookup"><span data-stu-id="52de8-116">Even if your company does not pay packing material fees, you can use the functionality to calculate statistics for the weights of packing materials.</span></span> |
+
+## <a name="setup-requirements-for-packing-material-fees"></a><span data-ttu-id="52de8-117"> إعداد متطلبات لرسوم مواد التعبئة</span><span class="sxs-lookup"><span data-stu-id="52de8-117">Setup requirements for packing material fees</span></span>
+<span data-ttu-id="52de8-118">قبل القيام بحساب أوزان أو رسوم مواد التعبئة، أو كليهما، يجب إنشاء البيانات الأساسية التالية:</span><span class="sxs-lookup"><span data-stu-id="52de8-118">Before you calculate packing material weights or packing material fees, or both, you must create the following base data:</span></span>
+
+-   <span data-ttu-id="52de8-119">مجموعات التعبئة - إنشاء مجموعات تعبئة لتعيينها إلى الأصناف.</span><span class="sxs-lookup"><span data-stu-id="52de8-119">Packing groups – Create packing groups to assign to items.</span></span>
+-   <span data-ttu-id="52de8-120">أكواد مواد التعبئة – إنشاء أكواد مواد تعبئة لكل نوع من مواد التعبئة تم تحديده.</span><span class="sxs-lookup"><span data-stu-id="52de8-120">Packing material codes – Create packing material codes for each type of packing material that is defined.</span></span>
+-   <span data-ttu-id="52de8-121">وحدات التعئة - تحديد وحدة تعبئة لصنف أو لمجموعة تعبئة أو لجميع الأصناف.</span><span class="sxs-lookup"><span data-stu-id="52de8-121">Packing units – Specify a packing unit for an item, for a packing group, or for all items.</span></span> <span data-ttu-id="52de8-122">ولكل وحدة تعبئة، حدد أي مواد تعبئة لتضمينها وتعيين الأوزان، وفي حقل معامل وحدة التعبئة، أدخل معامِل التحويل من وحدة المخزون.</span><span class="sxs-lookup"><span data-stu-id="52de8-122">For each packing unit, define which packing materials to include, assign weights, and, in the Packing unit factor field, enter the conversion factor from the inventory unit.</span></span>
+-   <span data-ttu-id="52de8-123">رسوم مواد التعبئة - تحديد رسوم مواد التعبئة لكل كود مواد تعبئة.</span><span class="sxs-lookup"><span data-stu-id="52de8-123">Packing material fees – Specify packing material fees per packing material code.</span></span> <span data-ttu-id="52de8-124">ولكل نوع من المواد، حدد فترة الصلاحية والسعر لكل صنف والعملة والوحدة.</span><span class="sxs-lookup"><span data-stu-id="52de8-124">For each type of material, define the period of validity, the price per material, the currency, and the unit.</span></span>
+
+## <a name="packing-units-on-sales-order-lines"></a><span data-ttu-id="52de8-125">وحدات التعبئة في بنود أوامر المبيعات</span><span class="sxs-lookup"><span data-stu-id="52de8-125">Packing units on sales order lines</span></span>
+<span data-ttu-id="52de8-126">عند إنشاء بند لأمر توريد، يقوم النظام بالتحقق لمعرفة ما إذا كان تم تحديد وحدات تعبئة للصنف.</span><span class="sxs-lookup"><span data-stu-id="52de8-126">When you create a sales order line, the system checks to see whether packing units are specified for the item.</span></span> <span data-ttu-id="52de8-127">وفي حالة تحديد وحدات التعبئة، يقوم النظام بتحديث بند أمر التوريد بوحدة التعبئة التي تم تحديدها وكمية وحدة التعبئة.</span><span class="sxs-lookup"><span data-stu-id="52de8-127">If packing units are specified, the system updates the sales order line with the specified packing unit and the packing unit quantity.</span></span> <span data-ttu-id="52de8-128">وتستند كمية وحدة التعبئة إلى الكمية التي تم طلبها مقسومة على عدد الأصناف الموجودة في وحدة التعبئة المحددة.</span><span class="sxs-lookup"><span data-stu-id="52de8-128">The packing unit quantity is based on the ordered quantity divided by the number of items in the selected packing unit.</span></span> <span data-ttu-id="52de8-129">أما في حالة عدم تحديد وحدة تعبئة، فإنه يمكن إدخال وحدة تعبئة وكمية وحدة تعبئة يدويًا في بند أمر التوريد.</span><span class="sxs-lookup"><span data-stu-id="52de8-129">If a packing unit has not been specified, you can manually enter a packing unit and a packing unit quantity on the sales order line.</span></span> <span data-ttu-id="52de8-130">كما يمكنك تغيير وحدة التعبئة وكمية وحدة التعبئة عند ترحيل بند أمر التوريد.</span><span class="sxs-lookup"><span data-stu-id="52de8-130">You can also change the packing unit and the packing unit quantity when you post the sales order line.</span></span> <span data-ttu-id="52de8-131">يكون هذا الأمر مناسبًا في حالة تسليم أو فوترة بند أمر المبيعات بشكل جزئي.</span><span class="sxs-lookup"><span data-stu-id="52de8-131">This is relevant if the sales order line is only partly delivered or partly invoiced.</span></span> <span data-ttu-id="52de8-132">وعند قيامك بفوترة أمر المبيعات، يتم إنشاء حركات مواد التعبئة.</span><span class="sxs-lookup"><span data-stu-id="52de8-132">When you invoice the sales order, packing material transactions are created.</span></span> <span data-ttu-id="52de8-133">وتحتوي حركات مواد التعبئة على أوزان مواد التعبئة لبند المبيعات.</span><span class="sxs-lookup"><span data-stu-id="52de8-133">Packing material transactions contain the weights of the packing materials for the sales line.</span></span> <span data-ttu-id="52de8-134">كما يمكنك تعديل الحركات بعد فوترتها، ثم إنشاء حركات جديدة.</span><span class="sxs-lookup"><span data-stu-id="52de8-134">You can also modify the transactions after you invoice them, and then create new transactions.</span></span>
+
+## <a name="packing-units-on-purchase-order-lines"></a><span data-ttu-id="52de8-135">وحدات التعبئة في بنود أوامر الشراء</span><span class="sxs-lookup"><span data-stu-id="52de8-135">Packing units on purchase order lines</span></span>
+<span data-ttu-id="52de8-136">لا يتم إنشاء حركات تعبئة مواد لبند أمر الشراء بواسطة النظام.</span><span class="sxs-lookup"><span data-stu-id="52de8-136">Packing material transactions for a purchase order line are not created by the system.</span></span> <span data-ttu-id="52de8-137">ويمكنك إنشاء حركات بنود أمر الشراء المفوترة يدويًا في صفحة **حركات مواد التعبئة**.</span><span class="sxs-lookup"><span data-stu-id="52de8-137">You create transactions for invoiced purchase order lines manually in the **Packing material transactions** page.</span></span>
+
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a><span data-ttu-id="52de8-138">إعداد أرقام ترخيص رسوم ومواد التعبئة للعميل</span><span class="sxs-lookup"><span data-stu-id="52de8-138">Set up customer packagingmaterialfee license numbers</span></span>
+<span data-ttu-id="52de8-139">إذا دفع العملاء رسوم مادة التعبئة، فحدد أرقام ترخيص مادة التعبئة للعميل في صفحة **العملاء**.</span><span class="sxs-lookup"><span data-stu-id="52de8-139">If the customers pay the packaging material fees, specify the customers' packaging-material-fee license numbers in the **Customers** page.</span></span> <span data-ttu-id="52de8-140">وإذا تم تعيين رقم الترخيص للعميل، فسيتم حساب رسوم مادة التعبئة تلقائيًا عند فوترة أوامر التوريد.</span><span class="sxs-lookup"><span data-stu-id="52de8-140">When a license number has been assigned to a customer, the packaging material fees are calculated automatically when sales orders are invoiced.</span></span> <span data-ttu-id="52de8-141">وبعد الفوترة، يتم إلغاء تحديد خانة اختيار **حساب الرسم** في صفحة **حركات مواد التعبئة**، لأنه لا يلزمك حساب وطباعة تقرير.</span><span class="sxs-lookup"><span data-stu-id="52de8-141">After invoicing, the **Calculate fee** check box is cleared in the **Packing material transactions** page, because you do not have to calculate and print a report.</span></span> <span data-ttu-id="52de8-142">يمكنك طباعة أوزان مادة التعبئة على الفاتورة وإعلام العملاء بأنهم يدفعون الرسوم.</span><span class="sxs-lookup"><span data-stu-id="52de8-142">You can print the packaging material weights on the invoice, and inform the customers that they pay the fees.</span></span> 
+
+<span data-ttu-id="52de8-143">إذا دفعت شركتك رسوم مادة التعبئة، فلا تقم بتحديد أرقام الترخيص للعميل.</span><span class="sxs-lookup"><span data-stu-id="52de8-143">If your company pays the packaging material fees, do not specify the customer license numbers.</span></span> <span data-ttu-id="52de8-144">وبعد الفوترة، يتم تحديد خانة الاختيار **حساب الرسوم** في صفحة **حركات مواد التعبئة**.</span><span class="sxs-lookup"><span data-stu-id="52de8-144">After invoicing, the **Calculate fee** check box is selected in the **Packing material transactions** page.</span></span> <span data-ttu-id="52de8-145">ويشير هذا إلى أنه يتم حساب الرسوم عند إنشاء تقرير.</span><span class="sxs-lookup"><span data-stu-id="52de8-145">This indicates that the fees are calculated when a report is created.</span></span> <span data-ttu-id="52de8-146">ويمكنك طباعة الأوزان على الفاتورة والإشارة إلى أن شركتك هي التي تقوم بدفع الرسوم.</span><span class="sxs-lookup"><span data-stu-id="52de8-146">You can print the weights on the invoice, and indicate that your company pays the fees.</span></span>
+
+## <a name="print-packaging-material-weights-on-invoices"></a><span data-ttu-id="52de8-147">طباعة أوزان مادة التعبئة على الفواتير</span><span class="sxs-lookup"><span data-stu-id="52de8-147">Print packaging material weights on invoices</span></span>
+<span data-ttu-id="52de8-148">يمكنك طباعة أوزان مادة التعبئة في الفاتورة والإشارة إلى من سيقوم بدفع رسوم مادة التعبئة في الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="52de8-148">You can print the packaging material weights on the invoice, and indicate who pays the packaging material fees.</span></span> <span data-ttu-id="52de8-149">يتم تلخيص الأوزان حسب كود التعبئة.</span><span class="sxs-lookup"><span data-stu-id="52de8-149">The weights are summarized by packaging code.</span></span>
+ 
+
+
+
+
+

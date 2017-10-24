@@ -18,37 +18,36 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 33150777222faa97af7488c59ab13cb0fb9e8e2c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-overview"></a><span data-ttu-id="746ce-104">نظرة عامة على التسوية البنكية المتقدمة</span><span class="sxs-lookup"><span data-stu-id="746ce-104">Advanced bank reconciliation overview</span></span>
+# <a name="advanced-bank-reconciliation-overview"></a><span data-ttu-id="d685e-104">نظرة عامة على التسوية البنكية المتقدمة</span><span class="sxs-lookup"><span data-stu-id="d685e-104">Advanced bank reconciliation overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="746ce-105">تشرح هذه المقالة تدفق عملية التسويات البنكية المتقدمة.</span><span class="sxs-lookup"><span data-stu-id="746ce-105">This article describes the flow for the advanced bank reconciliation process.</span></span> <span data-ttu-id="746ce-106">تسمح ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية التي يمكن تسويتها تلقائيًا من داخل الحركات البنكية.</span><span class="sxs-lookup"><span data-stu-id="746ce-106">The advanced bank reconciliation feature lets you import bank statements that can be automatically reconciled from within bank transactions.</span></span>
+<span data-ttu-id="d685e-105">تشرح هذه المقالة تدفق عملية التسويات البنكية المتقدمة.</span><span class="sxs-lookup"><span data-stu-id="d685e-105">This article describes the flow for the advanced bank reconciliation process.</span></span> <span data-ttu-id="d685e-106">تسمح ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية التي يمكن تسويتها تلقائيًا من داخل الحركات البنكية.</span><span class="sxs-lookup"><span data-stu-id="d685e-106">The advanced bank reconciliation feature lets you import bank statements that can be automatically reconciled from within bank transactions.</span></span>
 
-<span data-ttu-id="746ce-107">تتيح لك ميزة تسوية البنكية المتقدمة استيراد كشوف الحسابات البنكية.</span><span class="sxs-lookup"><span data-stu-id="746ce-107">The advanced bank reconciliation feature lets you import bank statements.</span></span> <span data-ttu-id="746ce-108">ويمكن بعد ذلك تسوية كشف الحساب البنكي المستورد تلقائياً من داخل الحركات البنكية.</span><span class="sxs-lookup"><span data-stu-id="746ce-108">The imported bank statement can then be automatically reconciled from within bank transactions.</span></span> <span data-ttu-id="746ce-109">فيما يلي الخطوات في تدفق التسوية البنكية المتقدمة.</span><span class="sxs-lookup"><span data-stu-id="746ce-109">Here are the steps in the advanced bank reconciliation flow.</span></span>
+<span data-ttu-id="d685e-107">تتيح لك ميزة تسوية البنكية المتقدمة استيراد كشوف الحسابات البنكية.</span><span class="sxs-lookup"><span data-stu-id="d685e-107">The advanced bank reconciliation feature lets you import bank statements.</span></span> <span data-ttu-id="d685e-108">ويمكن بعد ذلك تسوية كشف الحساب البنكي المستورد تلقائياً من داخل الحركات البنكية.</span><span class="sxs-lookup"><span data-stu-id="d685e-108">The imported bank statement can then be automatically reconciled from within bank transactions.</span></span> <span data-ttu-id="d685e-109">فيما يلي الخطوات في تدفق التسوية البنكية المتقدمة.</span><span class="sxs-lookup"><span data-stu-id="d685e-109">Here are the steps in the advanced bank reconciliation flow.</span></span>
 
-1.  <span data-ttu-id="746ce-110">إعداد استيراد كشف الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="746ce-110">Set up a bank statement import.</span></span>
-    -   <span data-ttu-id="746ce-111">استيراد كشوف الحسابات البنكية من خلال إطار كيان البيانات.</span><span class="sxs-lookup"><span data-stu-id="746ce-111">Import bank statements through the data entity framework.</span></span>
-    -   <span data-ttu-id="746ce-112">هناك ثلاثة تنسيقات نموذجية لكشف البنك مضمنة في: ISO20022، وBAI2، وMT940.</span><span class="sxs-lookup"><span data-stu-id="746ce-112">Three typical bank statement formats are built in: ISO20022, BAI2, and MT940.</span></span>
-    -   <span data-ttu-id="746ce-113">يمكن توسيع الوظائف لأي تنسيق.</span><span class="sxs-lookup"><span data-stu-id="746ce-113">The functionality can be extended to any format.</span></span>
+1.  <span data-ttu-id="d685e-110">إعداد استيراد كشف الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="d685e-110">Set up a bank statement import.</span></span>
+    -   <span data-ttu-id="d685e-111">استيراد كشوف الحسابات البنكية من خلال إطار كيان البيانات.</span><span class="sxs-lookup"><span data-stu-id="d685e-111">Import bank statements through the data entity framework.</span></span>
+    -   <span data-ttu-id="d685e-112">هناك ثلاثة تنسيقات نموذجية لكشف البنك مضمنة في: ISO20022، وBAI2، وMT940.</span><span class="sxs-lookup"><span data-stu-id="d685e-112">Three typical bank statement formats are built in: ISO20022, BAI2, and MT940.</span></span>
+    -   <span data-ttu-id="d685e-113">يمكن توسيع الوظائف لأي تنسيق.</span><span class="sxs-lookup"><span data-stu-id="d685e-113">The functionality can be extended to any format.</span></span>
 
-2.  <span data-ttu-id="746ce-114">قم بإعداد تسلسل رقمي لاستخدامه للتسوية البنكية المتقدمة، وحدد قواعد مطابقة التسوية البنكية.</span><span class="sxs-lookup"><span data-stu-id="746ce-114">Set up a number sequence to use for advanced bank reconciliation, and define the bank reconciliation matching rules.</span></span>
-    -   <span data-ttu-id="746ce-115">قاعدة مطابقة التسوية هي مجموعة من المعايير المستخدمة لتصفية بنود كشف الحساب البنكي وبنود الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition أثناء عملية التسوية.</span><span class="sxs-lookup"><span data-stu-id="746ce-115">A reconciliation matching rule is a set of criteria that are used to filter bank statement lines and Microsoft Dynamics 365 for Finance and Operations, Enterprise edition bank transaction lines during the reconciliation process.</span></span> <span data-ttu-id="746ce-116">واستنادًا إلى ممارسة العمل الخاصة بك، يمكنك إعداد أكثر من قاعدة مطابقة لتحسين عملية التسوية وإجرائها تلقائيًا.‬</span><span class="sxs-lookup"><span data-stu-id="746ce-116">Depending on your business practice, you can set up more than one matching rule to automate and optimize your reconciliation process.</span></span>
+2.  <span data-ttu-id="d685e-114">قم بإعداد تسلسل رقمي لاستخدامه للتسوية البنكية المتقدمة، وحدد قواعد مطابقة التسوية البنكية.</span><span class="sxs-lookup"><span data-stu-id="d685e-114">Set up a number sequence to use for advanced bank reconciliation, and define the bank reconciliation matching rules.</span></span>
+    -   <span data-ttu-id="d685e-115">قاعدة مطابقة التسوية هي مجموعة من المعايير المستخدمة لتصفية بنود كشف الحساب البنكي وبنود الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition أثناء عملية التسوية.</span><span class="sxs-lookup"><span data-stu-id="d685e-115">A reconciliation matching rule is a set of criteria that are used to filter bank statement lines and Microsoft Dynamics 365 for Finance and Operations, Enterprise edition bank transaction lines during the reconciliation process.</span></span> <span data-ttu-id="d685e-116">واستنادًا إلى ممارسة العمل الخاصة بك، يمكنك إعداد أكثر من قاعدة مطابقة لتحسين عملية التسوية وإجرائها تلقائيًا.‬</span><span class="sxs-lookup"><span data-stu-id="d685e-116">Depending on your business practice, you can set up more than one matching rule to automate and optimize your reconciliation process.</span></span>
 
-3.  <span data-ttu-id="746ce-117">تسوية الكشوف البنكية مع الحركات البنكية في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="746ce-117">Reconcile bank statements with Finance and Operations bank transactions.</span></span>
-    -   <span data-ttu-id="746ce-118">قم بإنشاء دفاتر يومية التسوية ومطابقتها تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="746ce-118">Perform automatic matching and creation of reconciliation journals.</span></span>
-    -   <span data-ttu-id="746ce-119">اعرض الكشوف البنكية والحركات البنكية في Finance and Operations جنبًا إلى جنب.</span><span class="sxs-lookup"><span data-stu-id="746ce-119">View bank statements and Finance and Operations bank transactions side by side.</span></span>
-    -   <span data-ttu-id="746ce-120">وقم بترحيل الحركات البنكية في Finance and Operations تلقائياً إذا كانت تظهر في كشف بنكي ولكن لا تظهر في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="746ce-120">Automatically post Finance and Operations bank transactions if they appear on a bank statement but don't appear in Finance and Operations.</span></span>
-    -   <span data-ttu-id="746ce-121">إنشاء كشف تسوية.</span><span class="sxs-lookup"><span data-stu-id="746ce-121">Generate a reconciliation statement.</span></span>
+3.  <span data-ttu-id="d685e-117">تسوية الكشوف البنكية مع الحركات البنكية في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="d685e-117">Reconcile bank statements with Finance and Operations bank transactions.</span></span>
+    -   <span data-ttu-id="d685e-118">قم بإنشاء دفاتر يومية التسوية ومطابقتها تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="d685e-118">Perform automatic matching and creation of reconciliation journals.</span></span>
+    -   <span data-ttu-id="d685e-119">اعرض الكشوف البنكية والحركات البنكية في Finance and Operations جنبًا إلى جنب.</span><span class="sxs-lookup"><span data-stu-id="d685e-119">View bank statements and Finance and Operations bank transactions side by side.</span></span>
+    -   <span data-ttu-id="d685e-120">وقم بترحيل الحركات البنكية في Finance and Operations تلقائياً إذا كانت تظهر في كشف بنكي ولكن لا تظهر في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="d685e-120">Automatically post Finance and Operations bank transactions if they appear on a bank statement but don't appear in Finance and Operations.</span></span>
+    -   <span data-ttu-id="d685e-121">إنشاء كشف تسوية.</span><span class="sxs-lookup"><span data-stu-id="d685e-121">Generate a reconciliation statement.</span></span>
 
 
 

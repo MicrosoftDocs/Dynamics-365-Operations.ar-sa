@@ -16,96 +16,96 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 14f56c30753da9458d66a46da8935305619fd0b8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="define-coverage-rules-for-items"></a><span data-ttu-id="b2ba4-103">تحديد قواعد تغطية للأصناف</span><span class="sxs-lookup"><span data-stu-id="b2ba4-103">Define coverage rules for items</span></span>
+# <a name="define-coverage-rules-for-items"></a><span data-ttu-id="3d509-103">تحديد قواعد تغطية للأصناف</span><span class="sxs-lookup"><span data-stu-id="3d509-103">Define coverage rules for items</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b2ba4-104">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b2ba4-105">يوضح هذا الإجراء كيفية إنشاء قواعد التغطية وتجاوز إعدادات التغطية لصنف معين.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-105">This procedure shows how to create coverage rules and override coverage settings for a specific item.</span></span> <span data-ttu-id="b2ba4-106">كما يوضح كيفية تعيين إعدادات المخزون الافتراضية.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-106">It also shows how to specify default inventory settings.</span></span>
+<span data-ttu-id="3d509-104">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="3d509-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="3d509-105">يوضح هذا الإجراء كيفية إنشاء قواعد التغطية وتجاوز إعدادات التغطية لصنف معين.</span><span class="sxs-lookup"><span data-stu-id="3d509-105">This procedure shows how to create coverage rules and override coverage settings for a specific item.</span></span> <span data-ttu-id="3d509-106">كما يوضح كيفية تعيين إعدادات المخزون الافتراضية.</span><span class="sxs-lookup"><span data-stu-id="3d509-106">It also shows how to specify default inventory settings.</span></span>
 
 
-## <a name="create-a-coverage-group"></a><span data-ttu-id="b2ba4-107">إنشاء مجموعة تغطية</span><span class="sxs-lookup"><span data-stu-id="b2ba4-107">Create a coverage group</span></span>
-1. <span data-ttu-id="b2ba4-108">انتقل إلى مجموعات التغطية.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-108">Go to Coverage groups.</span></span>
-2. <span data-ttu-id="b2ba4-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-109">Click New.</span></span>
-3. <span data-ttu-id="b2ba4-110">في الحقل "مجموعة التغطية"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-110">In the Coverage group field, type a value.</span></span>
-4. <span data-ttu-id="b2ba4-111">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="b2ba4-112">في الحقل "التقويم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-112">In the Calendar field, type a value.</span></span>
-    * <span data-ttu-id="b2ba4-113">اختر التقويم الذي يستخدمه التخطيط الرئيسي لإنشاء اقتراحات التزويد للعناصر في هذه المجموعة.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-113">Choose the calendar that master planning uses to create replenishment suggestions for items in this group.</span></span>  
-6. <span data-ttu-id="b2ba4-114">في الحقل "كود التغطية‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-114">In the Coverage code field, select an option.</span></span>
-    * <span data-ttu-id="b2ba4-115">حدد "متطلب" لهذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-115">Select Requirement for this procedure.</span></span>  
-7. <span data-ttu-id="b2ba4-116">في الحقل "الحد الزمني للتغطية (بالأيام)‬"، أدخل "90".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-116">In the Coverage time fence (days) field, enter '90'.</span></span>
-    * <span data-ttu-id="b2ba4-117">للعناصر الموجودة في هذه المجموعة، سوف ينشئ التخطيط الرئيسي اقتراحات التزويد لغاية 90 يومًا في المستقبل.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-117">For items in this group, master planning will create replenishment suggestions for up to 90 days in the future.</span></span>  
-8. <span data-ttu-id="b2ba4-118">في الحقل "الأيام السالبة‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-118">In the Negative days field, enter '1'.</span></span>
-9. <span data-ttu-id="b2ba4-119">في الحقل "الأيام الموجبة‬‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-119">In the Positive days field, enter '1'.</span></span>
-10. <span data-ttu-id="b2ba4-120">قم بتوسيع أو طي القسم الآخر.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-120">Expand or collapse the Other section.</span></span>
-11. <span data-ttu-id="b2ba4-121">في الحقل "استلام الهامش المضاف إلى تاريخ المتطلبات‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-121">In the Receipt margin added to requirement date field, enter '1'.</span></span>
-    * <span data-ttu-id="b2ba4-122">على سبيل المثال، إذا تم تعيين هامش الاستلام على يوم واحد وتمت جدولة بند أمر شراء لاستلامه في 15 مايو، فسيحسب التخطيط الرئيسي تاريخ الاستلام المعدل باعتباره 16 مايو.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-122">For example, if the receipt margin is set to 1 day, and a purchase order line is scheduled for receipt on May 15, master planning calculates the adjusted receipt date as May 16.</span></span>  
-12. <span data-ttu-id="b2ba4-123">في الحقل "إصدار الهامش المقتطع من تاريخ المتطلبات‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-123">In the Issue margin deducted from requirement date field, enter '1'.</span></span>
-    * <span data-ttu-id="b2ba4-124">على سبيل المثال، إذا تم تعيين حد الأمان‬ على يوم واحد وتمت جدولة بند أمر مبيعات للتسليم في 15 مايو، فستحسب الجدولة الرئيسية تاريخ التسليم المعدل باعتباره 14 مايو.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-124">For example, if the safety margin is set to 1 day, and a sales order line is scheduled for delivery on May 15, master scheduling calculates the adjusted delivery date as May 14.</span></span>  
-13. <span data-ttu-id="b2ba4-125">في الحقل "تمت إضافة ‏‫هامش حد الطلب‬ إلى وقت إنتاج الصنف‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-125">In the Reorder margin added to item lead time field, enter '1'.</span></span>
-14. <span data-ttu-id="b2ba4-126">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-126">Click Save.</span></span>
+## <a name="create-a-coverage-group"></a><span data-ttu-id="3d509-107">إنشاء مجموعة تغطية</span><span class="sxs-lookup"><span data-stu-id="3d509-107">Create a coverage group</span></span>
+1. <span data-ttu-id="3d509-108">انتقل إلى مجموعات التغطية.</span><span class="sxs-lookup"><span data-stu-id="3d509-108">Go to Coverage groups.</span></span>
+2. <span data-ttu-id="3d509-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3d509-109">Click New.</span></span>
+3. <span data-ttu-id="3d509-110">في الحقل "مجموعة التغطية"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3d509-110">In the Coverage group field, type a value.</span></span>
+4. <span data-ttu-id="3d509-111">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3d509-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="3d509-112">في الحقل "التقويم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3d509-112">In the Calendar field, type a value.</span></span>
+    * <span data-ttu-id="3d509-113">اختر التقويم الذي يستخدمه التخطيط الرئيسي لإنشاء اقتراحات التزويد للعناصر في هذه المجموعة.</span><span class="sxs-lookup"><span data-stu-id="3d509-113">Choose the calendar that master planning uses to create replenishment suggestions for items in this group.</span></span>  
+6. <span data-ttu-id="3d509-114">في الحقل "كود التغطية‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="3d509-114">In the Coverage code field, select an option.</span></span>
+    * <span data-ttu-id="3d509-115">حدد "متطلب" لهذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="3d509-115">Select Requirement for this procedure.</span></span>  
+7. <span data-ttu-id="3d509-116">في الحقل "الحد الزمني للتغطية (بالأيام)‬"، أدخل "90".</span><span class="sxs-lookup"><span data-stu-id="3d509-116">In the Coverage time fence (days) field, enter '90'.</span></span>
+    * <span data-ttu-id="3d509-117">للعناصر الموجودة في هذه المجموعة، سوف ينشئ التخطيط الرئيسي اقتراحات التزويد لغاية 90 يومًا في المستقبل.</span><span class="sxs-lookup"><span data-stu-id="3d509-117">For items in this group, master planning will create replenishment suggestions for up to 90 days in the future.</span></span>  
+8. <span data-ttu-id="3d509-118">في الحقل "الأيام السالبة‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="3d509-118">In the Negative days field, enter '1'.</span></span>
+9. <span data-ttu-id="3d509-119">في الحقل "الأيام الموجبة‬‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="3d509-119">In the Positive days field, enter '1'.</span></span>
+10. <span data-ttu-id="3d509-120">قم بتوسيع أو طي القسم الآخر.</span><span class="sxs-lookup"><span data-stu-id="3d509-120">Expand or collapse the Other section.</span></span>
+11. <span data-ttu-id="3d509-121">في الحقل "استلام الهامش المضاف إلى تاريخ المتطلبات‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="3d509-121">In the Receipt margin added to requirement date field, enter '1'.</span></span>
+    * <span data-ttu-id="3d509-122">على سبيل المثال، إذا تم تعيين هامش الاستلام على يوم واحد وتمت جدولة بند أمر شراء لاستلامه في 15 مايو، فسيحسب التخطيط الرئيسي تاريخ الاستلام المعدل باعتباره 16 مايو.</span><span class="sxs-lookup"><span data-stu-id="3d509-122">For example, if the receipt margin is set to 1 day, and a purchase order line is scheduled for receipt on May 15, master planning calculates the adjusted receipt date as May 16.</span></span>  
+12. <span data-ttu-id="3d509-123">في الحقل "إصدار الهامش المقتطع من تاريخ المتطلبات‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="3d509-123">In the Issue margin deducted from requirement date field, enter '1'.</span></span>
+    * <span data-ttu-id="3d509-124">على سبيل المثال، إذا تم تعيين حد الأمان‬ على يوم واحد وتمت جدولة بند أمر مبيعات للتسليم في 15 مايو، فستحسب الجدولة الرئيسية تاريخ التسليم المعدل باعتباره 14 مايو.</span><span class="sxs-lookup"><span data-stu-id="3d509-124">For example, if the safety margin is set to 1 day, and a sales order line is scheduled for delivery on May 15, master scheduling calculates the adjusted delivery date as May 14.</span></span>  
+13. <span data-ttu-id="3d509-125">في الحقل "تمت إضافة ‏‫هامش حد الطلب‬ إلى وقت إنتاج الصنف‬"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="3d509-125">In the Reorder margin added to item lead time field, enter '1'.</span></span>
+14. <span data-ttu-id="3d509-126">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3d509-126">Click Save.</span></span>
 
-## <a name="create-a-new-product"></a><span data-ttu-id="b2ba4-127">إنشاء منتج جديد</span><span class="sxs-lookup"><span data-stu-id="b2ba4-127">Create a new product</span></span>
-1. <span data-ttu-id="b2ba4-128">انتقل إلى "المنتجات الصادرة‬".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-128">Go to Released products.</span></span>
-2. <span data-ttu-id="b2ba4-129">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-129">Click New.</span></span>
-3. <span data-ttu-id="b2ba4-130">في الحقل "رقم المنتج"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-130">In the Product number field, type a value.</span></span>
-4. <span data-ttu-id="b2ba4-131">في الحقل "اسم المنتج"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-131">In the Product name field, type a value.</span></span>
-5. <span data-ttu-id="b2ba4-132">في الحقل "مجموعة نماذج الصنف‬‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-132">In the Item model group field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="b2ba4-133">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-133">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="b2ba4-134">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-134">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="b2ba4-135">في الحقل "مجموعة الأصناف‬‬‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-135">In the Item group field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="b2ba4-136">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-136">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="b2ba4-137">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-137">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="b2ba4-138">في الحقل "مجموعة أبعاد التخزين‬‬‬‬‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-138">In the Storage dimension group field, click the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="b2ba4-139">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-139">In the list, find and select the desired record.</span></span>
-13. <span data-ttu-id="b2ba4-140">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-140">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="b2ba4-141">في الحقل "مجموعة أبعاد التعقب‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-141">In the Tracking dimension group field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="b2ba4-142">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-142">In the list, find and select the desired record.</span></span>
-16. <span data-ttu-id="b2ba4-143">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-143">In the list, click the link in the selected row.</span></span>
-17. <span data-ttu-id="b2ba4-144">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-144">Click OK.</span></span>
+## <a name="create-a-new-product"></a><span data-ttu-id="3d509-127">إنشاء منتج جديد</span><span class="sxs-lookup"><span data-stu-id="3d509-127">Create a new product</span></span>
+1. <span data-ttu-id="3d509-128">انتقل إلى "المنتجات الصادرة‬".</span><span class="sxs-lookup"><span data-stu-id="3d509-128">Go to Released products.</span></span>
+2. <span data-ttu-id="3d509-129">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3d509-129">Click New.</span></span>
+3. <span data-ttu-id="3d509-130">في الحقل "رقم المنتج"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3d509-130">In the Product number field, type a value.</span></span>
+4. <span data-ttu-id="3d509-131">في الحقل "اسم المنتج"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3d509-131">In the Product name field, type a value.</span></span>
+5. <span data-ttu-id="3d509-132">في الحقل "مجموعة نماذج الصنف‬‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="3d509-132">In the Item model group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="3d509-133">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="3d509-133">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="3d509-134">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3d509-134">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="3d509-135">في الحقل "مجموعة الأصناف‬‬‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="3d509-135">In the Item group field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="3d509-136">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="3d509-136">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="3d509-137">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3d509-137">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="3d509-138">في الحقل "مجموعة أبعاد التخزين‬‬‬‬‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="3d509-138">In the Storage dimension group field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="3d509-139">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="3d509-139">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="3d509-140">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3d509-140">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="3d509-141">في الحقل "مجموعة أبعاد التعقب‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="3d509-141">In the Tracking dimension group field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="3d509-142">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="3d509-142">In the list, find and select the desired record.</span></span>
+16. <span data-ttu-id="3d509-143">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3d509-143">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="3d509-144">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="3d509-144">Click OK.</span></span>
 
-## <a name="setup-default-order-settings"></a><span data-ttu-id="b2ba4-145">إعداد إعدادات الأوامر الافتراضية</span><span class="sxs-lookup"><span data-stu-id="b2ba4-145">Setup default order settings</span></span>
-1. <span data-ttu-id="b2ba4-146">في جزء "الإجراءات"، انقر فوق "خطة".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-146">On the Action Pane, click Plan.</span></span>
-2. <span data-ttu-id="b2ba4-147">انقر فوق "إعدادات الأوامر الافتراضية".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-147">Click Default order settings.</span></span>
-3. <span data-ttu-id="b2ba4-148">في الحقل "موقع المشتريات"، اكتب الموقع المستخدم كافتراضي عند إنشاء أوامر الشراء.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-148">In the Purchase site field, type the site used as default when purchase orders are created.</span></span>
-4. <span data-ttu-id="b2ba4-149">في الحقل "موقع المخزون‬"، اكتب الموقع الذي سيتم تخزين الصنف فيه.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-149">In the Inventory site field, type the site where the item is stored.</span></span>
-5. <span data-ttu-id="b2ba4-150">قم بتوسيع أو طي قسم المخزون.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-150">Expand or collapse the Inventory section.</span></span>
-6. <span data-ttu-id="b2ba4-151">عيّن الخيار "متعدد" إلى "10".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-151">Set Multiple to '10'.</span></span>
-7. <span data-ttu-id="b2ba4-152">عيّن الحد الأدنى</span><span class="sxs-lookup"><span data-stu-id="b2ba4-152">Set Min.</span></span> <span data-ttu-id="b2ba4-153">لكمية الطلب إلى "10".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-153">order quantity to '10'.</span></span>
-8. <span data-ttu-id="b2ba4-154">عيّن الحد الأقصى</span><span class="sxs-lookup"><span data-stu-id="b2ba4-154">Set Max.</span></span> <span data-ttu-id="b2ba4-155">لكمية الطلب إلى "100".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-155">order quantity to '100'.</span></span>
-9. <span data-ttu-id="b2ba4-156">عيّن "كمية الطلب القياسية‬" إلى "10".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-156">Set Standard order quantity to '10'.</span></span>
-10. <span data-ttu-id="b2ba4-157">في الحقل "الحد الأدنى لوقت إنتاج المشتريات‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-157">In the Purchase lead time field, enter a number.</span></span>
-11. <span data-ttu-id="b2ba4-158">حدد خانة الاختيار أيام العمل أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-158">Select or clear the Working days check box.</span></span>
-12. <span data-ttu-id="b2ba4-159">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-159">Click Save.</span></span>
-13. <span data-ttu-id="b2ba4-160">في الحقل "نوع الأمر الافتراضي"، حدد "أمر شراء".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-160">In the Default order type field select 'Purchase order'.</span></span>
-14. <span data-ttu-id="b2ba4-161">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-161">Click Save.</span></span>
-15. <span data-ttu-id="b2ba4-162">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-162">Close the page.</span></span>
-    * <span data-ttu-id="b2ba4-163">قم بإغلاق صفحة ‏‫"إعدادات الأوامر الافتراضية".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-163">Close the Default order settings page.</span></span>  
+## <a name="setup-default-order-settings"></a><span data-ttu-id="3d509-145">إعداد إعدادات الأوامر الافتراضية</span><span class="sxs-lookup"><span data-stu-id="3d509-145">Setup default order settings</span></span>
+1. <span data-ttu-id="3d509-146">في جزء "الإجراءات"، انقر فوق "خطة".</span><span class="sxs-lookup"><span data-stu-id="3d509-146">On the Action Pane, click Plan.</span></span>
+2. <span data-ttu-id="3d509-147">انقر فوق "إعدادات الأوامر الافتراضية".</span><span class="sxs-lookup"><span data-stu-id="3d509-147">Click Default order settings.</span></span>
+3. <span data-ttu-id="3d509-148">في الحقل "موقع المشتريات"، اكتب الموقع المستخدم كافتراضي عند إنشاء أوامر الشراء.</span><span class="sxs-lookup"><span data-stu-id="3d509-148">In the Purchase site field, type the site used as default when purchase orders are created.</span></span>
+4. <span data-ttu-id="3d509-149">في الحقل "موقع المخزون‬"، اكتب الموقع الذي سيتم تخزين الصنف فيه.</span><span class="sxs-lookup"><span data-stu-id="3d509-149">In the Inventory site field, type the site where the item is stored.</span></span>
+5. <span data-ttu-id="3d509-150">قم بتوسيع أو طي قسم المخزون.</span><span class="sxs-lookup"><span data-stu-id="3d509-150">Expand or collapse the Inventory section.</span></span>
+6. <span data-ttu-id="3d509-151">عيّن الخيار "متعدد" إلى "10".</span><span class="sxs-lookup"><span data-stu-id="3d509-151">Set Multiple to '10'.</span></span>
+7. <span data-ttu-id="3d509-152">عيّن الحد الأدنى</span><span class="sxs-lookup"><span data-stu-id="3d509-152">Set Min.</span></span> <span data-ttu-id="3d509-153">لكمية الطلب إلى "10".</span><span class="sxs-lookup"><span data-stu-id="3d509-153">order quantity to '10'.</span></span>
+8. <span data-ttu-id="3d509-154">عيّن الحد الأقصى</span><span class="sxs-lookup"><span data-stu-id="3d509-154">Set Max.</span></span> <span data-ttu-id="3d509-155">لكمية الطلب إلى "100".</span><span class="sxs-lookup"><span data-stu-id="3d509-155">order quantity to '100'.</span></span>
+9. <span data-ttu-id="3d509-156">عيّن "كمية الطلب القياسية‬" إلى "10".</span><span class="sxs-lookup"><span data-stu-id="3d509-156">Set Standard order quantity to '10'.</span></span>
+10. <span data-ttu-id="3d509-157">في الحقل "الحد الأدنى لوقت إنتاج المشتريات‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="3d509-157">In the Purchase lead time field, enter a number.</span></span>
+11. <span data-ttu-id="3d509-158">حدد خانة الاختيار أيام العمل أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="3d509-158">Select or clear the Working days check box.</span></span>
+12. <span data-ttu-id="3d509-159">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3d509-159">Click Save.</span></span>
+13. <span data-ttu-id="3d509-160">في الحقل "نوع الأمر الافتراضي"، حدد "أمر شراء".</span><span class="sxs-lookup"><span data-stu-id="3d509-160">In the Default order type field select 'Purchase order'.</span></span>
+14. <span data-ttu-id="3d509-161">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3d509-161">Click Save.</span></span>
+15. <span data-ttu-id="3d509-162">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="3d509-162">Close the page.</span></span>
+    * <span data-ttu-id="3d509-163">قم بإغلاق صفحة ‏‫"إعدادات الأوامر الافتراضية".</span><span class="sxs-lookup"><span data-stu-id="3d509-163">Close the Default order settings page.</span></span>  
 
-## <a name="add-an-item-to-a-coverage-group"></a><span data-ttu-id="b2ba4-164">إضافة صنف إلى مجموعة تغطية</span><span class="sxs-lookup"><span data-stu-id="b2ba4-164">Add an item to a coverage group</span></span>
-1. <span data-ttu-id="b2ba4-165">قم بتوسيع أو طي قسم الخطة.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-165">Expand or collapse the Plan section.</span></span>
-2. <span data-ttu-id="b2ba4-166">في الحقل "مجموعة التغطية"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-166">In the Coverage group field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="b2ba4-167">في القائمة، ابحث عن مجموعة التغطية التي أنشأتها.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-167">In the list, find the Coverage group you have created.</span></span>
-4. <span data-ttu-id="b2ba4-168">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-168">In the list, click the link in the selected row.</span></span>
+## <a name="add-an-item-to-a-coverage-group"></a><span data-ttu-id="3d509-164">إضافة صنف إلى مجموعة تغطية</span><span class="sxs-lookup"><span data-stu-id="3d509-164">Add an item to a coverage group</span></span>
+1. <span data-ttu-id="3d509-165">قم بتوسيع أو طي قسم الخطة.</span><span class="sxs-lookup"><span data-stu-id="3d509-165">Expand or collapse the Plan section.</span></span>
+2. <span data-ttu-id="3d509-166">في الحقل "مجموعة التغطية"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="3d509-166">In the Coverage group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="3d509-167">في القائمة، ابحث عن مجموعة التغطية التي أنشأتها.</span><span class="sxs-lookup"><span data-stu-id="3d509-167">In the list, find the Coverage group you have created.</span></span>
+4. <span data-ttu-id="3d509-168">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3d509-168">In the list, click the link in the selected row.</span></span>
 
-## <a name="create-item-coverage-rules"></a><span data-ttu-id="b2ba4-169">إنشاء قواعد تغطية الصنف</span><span class="sxs-lookup"><span data-stu-id="b2ba4-169">Create item coverage rules</span></span>
-1. <span data-ttu-id="b2ba4-170">في جزء "الإجراءات"، انقر فوق "خطة".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-170">On the Action Pane, click Plan.</span></span>
-2. <span data-ttu-id="b2ba4-171">انقر فوق "تغطية الصنف‬".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-171">Click Item coverage.</span></span>
-3. <span data-ttu-id="b2ba4-172">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-172">Click New.</span></span>
-4. <span data-ttu-id="b2ba4-173">انقر فوق علامة التبويب "عام".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-173">Click the General tab.</span></span>
-5. <span data-ttu-id="b2ba4-174">حدد المربع برأس "تجاوز إعدادات مجموعة التغطية‬".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-174">Check the box on the header of Override coverage group settings.</span></span>
-6. <span data-ttu-id="b2ba4-175">في الحقل "الحد الزمني للتغطية (بالأيام)‬"، أدخل "60".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-175">In the Coverage time fence (days) field, enter '60'.</span></span>
-    * <span data-ttu-id="b2ba4-176">على الرغم من أن التخطيط لمتطلبات الأصناف الموجودة في مجموعة التغطية يتم قبل 90 يومًا، سيتم التخطيط لهذا البند قبل 60 يومًا.</span><span class="sxs-lookup"><span data-stu-id="b2ba4-176">Although items in coverage group Requiremen are planned 90 days ahead, this item will be planned 60 days ahead.</span></span>  
-7. <span data-ttu-id="b2ba4-177">في الحقل "الأيام السالبة‬"، أدخل "2".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-177">In the Negative days field, enter '2'.</span></span>
-8. <span data-ttu-id="b2ba4-178">في الحقل "الأيام الموجبة‬‬"، أدخل "2".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-178">In the Positive days field, enter '2'.</span></span>
-9. <span data-ttu-id="b2ba4-179">انقر فوق علامة التبويب "الحد الأدنى لوقت الإنتاج‬".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-179">Click the Lead time tab.</span></span>
-10. <span data-ttu-id="b2ba4-180">حدد المربع برأس "الشراء".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-180">Check the box on the header of Purchase.</span></span>
-11. <span data-ttu-id="b2ba4-181">في الحقل "وقت الشراء‬"، أدخل "5".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-181">In the Purchase time field, enter '5'.</span></span>
-12. <span data-ttu-id="b2ba4-182">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="b2ba4-182">Click Save.</span></span>
+## <a name="create-item-coverage-rules"></a><span data-ttu-id="3d509-169">إنشاء قواعد تغطية الصنف</span><span class="sxs-lookup"><span data-stu-id="3d509-169">Create item coverage rules</span></span>
+1. <span data-ttu-id="3d509-170">في جزء "الإجراءات"، انقر فوق "خطة".</span><span class="sxs-lookup"><span data-stu-id="3d509-170">On the Action Pane, click Plan.</span></span>
+2. <span data-ttu-id="3d509-171">انقر فوق "تغطية الصنف‬".</span><span class="sxs-lookup"><span data-stu-id="3d509-171">Click Item coverage.</span></span>
+3. <span data-ttu-id="3d509-172">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3d509-172">Click New.</span></span>
+4. <span data-ttu-id="3d509-173">انقر فوق علامة التبويب "عام".</span><span class="sxs-lookup"><span data-stu-id="3d509-173">Click the General tab.</span></span>
+5. <span data-ttu-id="3d509-174">حدد المربع برأس "تجاوز إعدادات مجموعة التغطية‬".</span><span class="sxs-lookup"><span data-stu-id="3d509-174">Check the box on the header of Override coverage group settings.</span></span>
+6. <span data-ttu-id="3d509-175">في الحقل "الحد الزمني للتغطية (بالأيام)‬"، أدخل "60".</span><span class="sxs-lookup"><span data-stu-id="3d509-175">In the Coverage time fence (days) field, enter '60'.</span></span>
+    * <span data-ttu-id="3d509-176">على الرغم من أن التخطيط لمتطلبات الأصناف الموجودة في مجموعة التغطية يتم قبل 90 يومًا، سيتم التخطيط لهذا البند قبل 60 يومًا.</span><span class="sxs-lookup"><span data-stu-id="3d509-176">Although items in coverage group Requiremen are planned 90 days ahead, this item will be planned 60 days ahead.</span></span>  
+7. <span data-ttu-id="3d509-177">في الحقل "الأيام السالبة‬"، أدخل "2".</span><span class="sxs-lookup"><span data-stu-id="3d509-177">In the Negative days field, enter '2'.</span></span>
+8. <span data-ttu-id="3d509-178">في الحقل "الأيام الموجبة‬‬"، أدخل "2".</span><span class="sxs-lookup"><span data-stu-id="3d509-178">In the Positive days field, enter '2'.</span></span>
+9. <span data-ttu-id="3d509-179">انقر فوق علامة التبويب "الحد الأدنى لوقت الإنتاج‬".</span><span class="sxs-lookup"><span data-stu-id="3d509-179">Click the Lead time tab.</span></span>
+10. <span data-ttu-id="3d509-180">حدد المربع برأس "الشراء".</span><span class="sxs-lookup"><span data-stu-id="3d509-180">Check the box on the header of Purchase.</span></span>
+11. <span data-ttu-id="3d509-181">في الحقل "وقت الشراء‬"، أدخل "5".</span><span class="sxs-lookup"><span data-stu-id="3d509-181">In the Purchase time field, enter '5'.</span></span>
+12. <span data-ttu-id="3d509-182">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3d509-182">Click Save.</span></span>
 
 

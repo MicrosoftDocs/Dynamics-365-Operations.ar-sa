@@ -1,0 +1,54 @@
+---
+title: "محتوى Power BI - نظرة عامة على المدير المالي"
+description: "يقدم هذا الموضوع وصفًا لمحتوى Microsoft Power BI - نظرة عامة على المدير المالي."
+author: kweekley
+manager: AnnBe
+ms.date: 06/16/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application user, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: dfc5b5f1ced098a445762653f98c672eb896a104
+ms.contentlocale: ar-sa
+ms.lasthandoff: 09/29/2017
+
+---
+
+# <a name="cfo-overview-power-bi-content"></a><span data-ttu-id="9d6aa-103">محتوى Power BI - نظرة عامة على المدير المالي</span><span class="sxs-lookup"><span data-stu-id="9d6aa-103">CFO overview Power BI content</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+
+<span data-ttu-id="9d6aa-104">يقدم هذا الموضوع وصفًا لمحتوى Microsoft Power BI **نظرة عامة على المدير المالي**.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-104">This topic describes the **CFO overview** Microsoft Power BI content.</span></span> 
+
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="9d6aa-105">الوصول إلى محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="9d6aa-105">Accessing the Power BI content</span></span>
+
+<span data-ttu-id="9d6aa-106">إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017)، فستظهر التقارير الخاصة بمحتوى Power BI **نظرة عامة على المدير المالي** في مساحة عمل **نظرة عامة على المدير المالي**.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-106">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017), reports from the **CFO overview** Power BI content are shown in the **CFO overview** workspace.</span></span>
+
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="9d6aa-107">التقارير المضمنة في محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="9d6aa-107">Reports that are included in the Power BI content</span></span>
+<span data-ttu-id="9d6aa-108">يعتبر محتوى Power BI **نظرة عامة على المدير المالي** هو مجموعة من التقارير التي تتناول محتوى Power BI، إلى جانب بعض الأرصدة الفعلية وأرصدة الموازنة من دفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-108">The **CFO overview** Power BI content is a composite of reports from various other Power BI content, together with some actual and budget balances from General ledger.</span></span> <span data-ttu-id="9d6aa-109">لذلك، يوفر محتوى Power BI للمدير المالي نظرة عامة على المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-109">Therefore, this Power BI content gives the chief financial officer (CFO) an overview of the organization.</span></span>
+
+<span data-ttu-id="9d6aa-110">يوضح الجدول التالي محتوى Power BI المنسوخة منها التقارير، والتقارير المُقدمة في مساحة عمل **نظرة عامة على المدير المالي**.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-110">The following table shows the Power BI content that the reports are copied from and the reports that are provided in the **CFO overview** workspace.</span></span> <span data-ttu-id="9d6aa-111">يتم توفير ارتباطات للوثائق الخاصة بمحتوى Power BI المتعدد.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-111">Links are provided to the documentation for the various Power BI content.</span></span>
+
+| <span data-ttu-id="9d6aa-112">محتوى Power BI المُضمن</span><span class="sxs-lookup"><span data-stu-id="9d6aa-112">Power BI content that is included</span></span>     | <span data-ttu-id="9d6aa-113">التقارير</span><span class="sxs-lookup"><span data-stu-id="9d6aa-113">Reports</span></span> |
+|---------------------------------------|---------|
+| [<span data-ttu-id="9d6aa-114">الأداء المالي</span><span class="sxs-lookup"><span data-stu-id="9d6aa-114">Financial performance</span></span>](financial-performance-power-bi-content-pack.md) | <ul><li><span data-ttu-id="9d6aa-115">الإيراد</span><span class="sxs-lookup"><span data-stu-id="9d6aa-115">Revenue</span></span></li><li><span data-ttu-id="9d6aa-116">المصروفات</span><span class="sxs-lookup"><span data-stu-id="9d6aa-116">Expenses</span></span></li><li><span data-ttu-id="9d6aa-117">صافي الدخل</span><span class="sxs-lookup"><span data-stu-id="9d6aa-117">Net income</span></span></li><li><span data-ttu-id="9d6aa-118">إجمالي هامش الربح</span><span class="sxs-lookup"><span data-stu-id="9d6aa-118">Gross margin</span></span></li><li><span data-ttu-id="9d6aa-119">النسبة الجارية</span><span class="sxs-lookup"><span data-stu-id="9d6aa-119">Current ratio</span></span></li><li><span data-ttu-id="9d6aa-120">إجمالي الحسابات الدائنة</span><span class="sxs-lookup"><span data-stu-id="9d6aa-120">Total accounts payable</span></span></li><li><span data-ttu-id="9d6aa-121">إجمالي الحسابات المدينة</span><span class="sxs-lookup"><span data-stu-id="9d6aa-121">Total accounts receivable</span></span></li><li><span data-ttu-id="9d6aa-122">المصاريف حسب فئة الحساب</span><span class="sxs-lookup"><span data-stu-id="9d6aa-122">Expenses by account category</span></span></li><li><span data-ttu-id="9d6aa-123">المصروفات- ‏‫القيمة الفعلية مقابل الموازنة</span><span class="sxs-lookup"><span data-stu-id="9d6aa-123">Expenses - Actual vs budget</span></span></li><li><span data-ttu-id="9d6aa-124">الإيراد- ‏‫القيمة الفعلية مقابل الموازنة</span><span class="sxs-lookup"><span data-stu-id="9d6aa-124">Revenue - Actual vs budget</span></span></li></ul> |
+| [<span data-ttu-id="9d6aa-125">نظرة عامة على النقد</span><span class="sxs-lookup"><span data-stu-id="9d6aa-125">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md) | <ul><li><span data-ttu-id="9d6aa-126">تقدير التدفقات النقدية</span><span class="sxs-lookup"><span data-stu-id="9d6aa-126">Cash flow forecast</span></span></li><li><span data-ttu-id="9d6aa-127">رصيد حساب البنك</span><span class="sxs-lookup"><span data-stu-id="9d6aa-127">Bank account balance</span></span></li><li><span data-ttu-id="9d6aa-128">الرصيد حسب العملة</span><span class="sxs-lookup"><span data-stu-id="9d6aa-128">Balance by currency</span></span></li></ul> |
+| [<span data-ttu-id="9d6aa-129">الربحية والمبيعات</span><span class="sxs-lookup"><span data-stu-id="9d6aa-129">Sales and profitability</span></span>](sales-profitability-performance-content-pack.md) | <ul><li><span data-ttu-id="9d6aa-130">الإيراد حسب المنطقة</span><span class="sxs-lookup"><span data-stu-id="9d6aa-130">Revenue by region</span></span></li><li><span data-ttu-id="9d6aa-131">أفضل 10 عملاء حسب الإيراد</span><span class="sxs-lookup"><span data-stu-id="9d6aa-131">Top 10 customers by revenue</span></span></li><li><span data-ttu-id="9d6aa-132">أفضل 10 منتجات حسب الإيراد</span><span class="sxs-lookup"><span data-stu-id="9d6aa-132">Top 10 products by revenue</span></span></li></ul> |
+| [<span data-ttu-id="9d6aa-133">إدارة التحصيلات والائتمان</span><span class="sxs-lookup"><span data-stu-id="9d6aa-133">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li><span data-ttu-id="9d6aa-134">العميل الذي تجاوز تاريخ الاستحقاق</span><span class="sxs-lookup"><span data-stu-id="9d6aa-134">Customer past due</span></span></li><li><span data-ttu-id="9d6aa-135">الحد الائتماني الزائد للعملاء</span><span class="sxs-lookup"><span data-stu-id="9d6aa-135">Customers over credit limit</span></span></li><li><span data-ttu-id="9d6aa-136">الأرصدة القديمة</span><span class="sxs-lookup"><span data-stu-id="9d6aa-136">Aged balances</span></span></li></ul> |
+| [<span data-ttu-id="9d6aa-137">تحليل الإنفاق على الشراء</span><span class="sxs-lookup"><span data-stu-id="9d6aa-137">Purchase spend analysis</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li><span data-ttu-id="9d6aa-138">عمليات الشراء حسب الشهر/اليوم</span><span class="sxs-lookup"><span data-stu-id="9d6aa-138">Purchases by month/day</span></span></li><li><span data-ttu-id="9d6aa-139">أهم 10 موردين بحسب المشتريات</span><span class="sxs-lookup"><span data-stu-id="9d6aa-139">Top 10 vendors by purchases</span></span></li><li><span data-ttu-id="9d6aa-140">أهم 10 منتجات بحسب المشتريات</span><span class="sxs-lookup"><span data-stu-id="9d6aa-140">Top 10 products by purchases</span></span></li></ul> |
+
+## <a name="extending-the-power-bi-content"></a><span data-ttu-id="9d6aa-141">توسيع محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="9d6aa-141">Extending the Power BI content</span></span>
+<span data-ttu-id="9d6aa-142">باستخدام حزم المحتوى المتاحة في Microsoft Dynamics Lifecycle Services (LCS)، يمكنك تقديم تحليلات رائعة للأشخاص الذين لم يقوموا بتسجيل الدخول إلى Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-142">By using the content packs that are available in Microsoft Dynamics Lifecycle Services (LCS), you can provide great analytics to people who don't sign in to Microsoft Dynamics 365.</span></span> <span data-ttu-id="9d6aa-143">يمكنك تعديل حزم المحتوى هذه بحيث تتضمن تقارير أخرى أو رسوم مرئية، ثم قم بنشر حزم المحتوى لمستأجر Power BI.com الخاص بك لتحليلها.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-143">You can modify these content packs so that they include other reports or visuals, and then publish the content packs to your Power BI.com tenant for analysis.</span></span>
+
+<span data-ttu-id="9d6aa-144">يمكنك العثور على محتوى Power BI **نظرة عامة على المدير المالي** في مكتبة الأصول المشتركة في LCS.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-144">You can find the **CFO overview** Power BI content in the Shared assets library in LCS.</span></span> <span data-ttu-id="9d6aa-145">للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md).</span><span class="sxs-lookup"><span data-stu-id="9d6aa-145">For more information about how to download the content and implement it in your organization, see [Power BI content in LCS from Microsoft and your partners](power-bi-content-microsoft-partners.md).</span></span> <span data-ttu-id="9d6aa-146">لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.</span><span class="sxs-lookup"><span data-stu-id="9d6aa-146">To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.</span></span>
+

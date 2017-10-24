@@ -16,40 +16,40 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 646606237f593d24792a0ae072948f2e12782283
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="cf0a7-103">إنشاء أمر مبيعات لمنتج قابل للتكوين</span><span class="sxs-lookup"><span data-stu-id="cf0a7-103">Create a sales order for a configurable product</span></span>
+# <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="b6683-103">إنشاء أمر مبيعات لمنتج قابل للتكوين</span><span class="sxs-lookup"><span data-stu-id="b6683-103">Create a sales order for a configurable product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cf0a7-104">يوضح هذا الإجراء كيفية تطبيق قالب تكوين على منتج في أمر مبيعات.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-104">This procedure shows how to apply a configuration template to a product on a sales order.</span></span> <span data-ttu-id="cf0a7-105">يستخدم هذا المثال نموذج مكبر الصوت المتطور D0006 في شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-105">This example uses the D0006 speaker model in the USMF demo data company.</span></span> <span data-ttu-id="cf0a7-106">يستخدم معالج أمر المبيعات عادةً هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-106">Typically, a sales order processor uses this procedure.</span></span>
+<span data-ttu-id="b6683-104">يوضح هذا الإجراء كيفية تطبيق قالب تكوين على منتج في أمر مبيعات.</span><span class="sxs-lookup"><span data-stu-id="b6683-104">This procedure shows how to apply a configuration template to a product on a sales order.</span></span> <span data-ttu-id="b6683-105">يستخدم هذا المثال نموذج مكبر الصوت المتطور D0006 في شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="b6683-105">This example uses the D0006 speaker model in the USMF demo data company.</span></span> <span data-ttu-id="b6683-106">يستخدم معالج أمر المبيعات عادةً هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="b6683-106">Typically, a sales order processor uses this procedure.</span></span>
 
 
-## <a name="create-a-sales-order"></a><span data-ttu-id="cf0a7-107">إنشاء أمر مبيعات</span><span class="sxs-lookup"><span data-stu-id="cf0a7-107">Create a sales order</span></span>
-1. <span data-ttu-id="cf0a7-108">انقر فوق "الاستعلام عن أمر المبيعات ومعالجته‬".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-108">Click Sales order processing and inquiry.</span></span>
-2. <span data-ttu-id="cf0a7-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-109">Click New.</span></span>
-3. <span data-ttu-id="cf0a7-110">انقر فوق "أمر المبيعات".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-110">Click Sales order.</span></span>
-4. <span data-ttu-id="cf0a7-111">في حقل "حساب العميل"، حدد US-001.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-111">In the Customer account field, select US-001.</span></span> 
-5. <span data-ttu-id="cf0a7-112">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-112">Click OK.</span></span>
-6. <span data-ttu-id="cf0a7-113">في حقل "رقم الصنف"، حدد D0006.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-113">In the Item number field, select D0006.</span></span>
-    * <span data-ttu-id="cf0a7-114">لتنفيذ هذه المهمة، يجب تحديد منتج قابل للتكوين.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-114">For this task, you must select a configurable product.</span></span>  
-7. <span data-ttu-id="cf0a7-115">انقر فوق "المنتج والتوريد".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-115">Click Product and supply.</span></span>
-8. <span data-ttu-id="cf0a7-116">انقر فوق تكوين البند.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-116">Click Configure line.</span></span>
-    * <span data-ttu-id="cf0a7-117">لاحظ أن السعر قد تغيّر، استنادًا إلى التكوين الذي تم تحديده، وأن الحقل "تضمين الكبل" أصبح الآن معينًا إلى True.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-117">Note that the price has changed, based on the configuration that was selected, and that the Include cable field is now set to True.</span></span>  
-    * <span data-ttu-id="cf0a7-118">لاحظ أنه تم تحديد السعر الافتراضي والإعدادات للكبل.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-118">Note the default price and the settings that are selected for the cable.</span></span>  
-9. <span data-ttu-id="cf0a7-119">انقر فوق تحميل القالب.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-119">Click Load template.</span></span>
-    * <span data-ttu-id="cf0a7-120">يوضح هذا المثال كيفية تطبيق قالب لتحديد تكوين معرّف مسبقًا.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-120">This example shows how you can apply a template to select a predefined configuration.</span></span> <span data-ttu-id="cf0a7-121">إذا كنت تستخدم هذا الإجراء كدليل مهمة وأردت رؤية قيم السمات الأخرى المتوفرة، فيجب النقر فوق الزر "إلغاء التأمين".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-121">If you’re using this procedure as a task guide and want to see the other attribute values that are available, you must click the Unlock button.</span></span>  
-10. <span data-ttu-id="cf0a7-122">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-122">Click OK.</span></span>
-11. <span data-ttu-id="cf0a7-123">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-123">Click OK.</span></span>
-12. <span data-ttu-id="cf0a7-124">قم بتوسيع قسم "تفاصيل البند".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-124">Expand the Line details section.</span></span>
-13. <span data-ttu-id="cf0a7-125">انقر فوق علامة التبويب "المنتج".</span><span class="sxs-lookup"><span data-stu-id="cf0a7-125">Click the Product tab.</span></span>
-    * <span data-ttu-id="cf0a7-126">تم الآن إدراج تكوين الصنف ضمن أبعاد المنتج.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-126">The configuration of the item is now listed under the product dimensions.</span></span>  
-14. <span data-ttu-id="cf0a7-127">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="cf0a7-127">Close the page.</span></span>
+## <a name="create-a-sales-order"></a><span data-ttu-id="b6683-107">إنشاء أمر مبيعات</span><span class="sxs-lookup"><span data-stu-id="b6683-107">Create a sales order</span></span>
+1. <span data-ttu-id="b6683-108">انقر فوق "الاستعلام عن أمر المبيعات ومعالجته‬".</span><span class="sxs-lookup"><span data-stu-id="b6683-108">Click Sales order processing and inquiry.</span></span>
+2. <span data-ttu-id="b6683-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="b6683-109">Click New.</span></span>
+3. <span data-ttu-id="b6683-110">انقر فوق "أمر المبيعات".</span><span class="sxs-lookup"><span data-stu-id="b6683-110">Click Sales order.</span></span>
+4. <span data-ttu-id="b6683-111">في حقل "حساب العميل"، حدد US-001.</span><span class="sxs-lookup"><span data-stu-id="b6683-111">In the Customer account field, select US-001.</span></span> 
+5. <span data-ttu-id="b6683-112">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="b6683-112">Click OK.</span></span>
+6. <span data-ttu-id="b6683-113">في حقل "رقم الصنف"، حدد D0006.</span><span class="sxs-lookup"><span data-stu-id="b6683-113">In the Item number field, select D0006.</span></span>
+    * <span data-ttu-id="b6683-114">لتنفيذ هذه المهمة، يجب تحديد منتج قابل للتكوين.</span><span class="sxs-lookup"><span data-stu-id="b6683-114">For this task, you must select a configurable product.</span></span>  
+7. <span data-ttu-id="b6683-115">انقر فوق "المنتج والتوريد".</span><span class="sxs-lookup"><span data-stu-id="b6683-115">Click Product and supply.</span></span>
+8. <span data-ttu-id="b6683-116">انقر فوق تكوين البند.</span><span class="sxs-lookup"><span data-stu-id="b6683-116">Click Configure line.</span></span>
+    * <span data-ttu-id="b6683-117">لاحظ أن السعر قد تغيّر، استنادًا إلى التكوين الذي تم تحديده، وأن الحقل "تضمين الكبل" أصبح الآن معينًا إلى True.</span><span class="sxs-lookup"><span data-stu-id="b6683-117">Note that the price has changed, based on the configuration that was selected, and that the Include cable field is now set to True.</span></span>  
+    * <span data-ttu-id="b6683-118">لاحظ أنه تم تحديد السعر الافتراضي والإعدادات للكبل.</span><span class="sxs-lookup"><span data-stu-id="b6683-118">Note the default price and the settings that are selected for the cable.</span></span>  
+9. <span data-ttu-id="b6683-119">انقر فوق تحميل القالب.</span><span class="sxs-lookup"><span data-stu-id="b6683-119">Click Load template.</span></span>
+    * <span data-ttu-id="b6683-120">يوضح هذا المثال كيفية تطبيق قالب لتحديد تكوين معرّف مسبقًا.</span><span class="sxs-lookup"><span data-stu-id="b6683-120">This example shows how you can apply a template to select a predefined configuration.</span></span> <span data-ttu-id="b6683-121">إذا كنت تستخدم هذا الإجراء كدليل مهمة وأردت رؤية قيم السمات الأخرى المتوفرة، فيجب النقر فوق الزر "إلغاء التأمين".</span><span class="sxs-lookup"><span data-stu-id="b6683-121">If you’re using this procedure as a task guide and want to see the other attribute values that are available, you must click the Unlock button.</span></span>  
+10. <span data-ttu-id="b6683-122">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="b6683-122">Click OK.</span></span>
+11. <span data-ttu-id="b6683-123">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="b6683-123">Click OK.</span></span>
+12. <span data-ttu-id="b6683-124">قم بتوسيع قسم "تفاصيل البند".</span><span class="sxs-lookup"><span data-stu-id="b6683-124">Expand the Line details section.</span></span>
+13. <span data-ttu-id="b6683-125">انقر فوق علامة التبويب "المنتج".</span><span class="sxs-lookup"><span data-stu-id="b6683-125">Click the Product tab.</span></span>
+    * <span data-ttu-id="b6683-126">تم الآن إدراج تكوين الصنف ضمن أبعاد المنتج.</span><span class="sxs-lookup"><span data-stu-id="b6683-126">The configuration of the item is now listed under the product dimensions.</span></span>  
+14. <span data-ttu-id="b6683-127">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="b6683-127">Close the page.</span></span>
 
-## <a name="select-the-product-configuration"></a><span data-ttu-id="cf0a7-128">تحديد تكوين المنتج</span><span class="sxs-lookup"><span data-stu-id="cf0a7-128">Select the product configuration</span></span>
+## <a name="select-the-product-configuration"></a><span data-ttu-id="b6683-128">تحديد تكوين المنتج</span><span class="sxs-lookup"><span data-stu-id="b6683-128">Select the product configuration</span></span>
 
 

@@ -16,59 +16,59 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 6bb7a5133e9412f4ed6fb74f0d3ee595c07a0c4b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="manage-unit-of-measure"></a><span data-ttu-id="c746b-103">إدارة وحدة القياس</span><span class="sxs-lookup"><span data-stu-id="c746b-103">Manage unit of measure</span></span>
+# <a name="manage-unit-of-measure"></a><span data-ttu-id="3af35-103">إدارة وحدة القياس</span><span class="sxs-lookup"><span data-stu-id="3af35-103">Manage unit of measure</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c746b-104">يوضح هذا الإجراء كيفية تحديد وحدة قياس وتقديم ترجمات للوحدة ووصفها وتعريف قواعد التحويل للوحدات ذات الصلة.</span><span class="sxs-lookup"><span data-stu-id="c746b-104">This procedure shows how to define a unit of measure, provide translations for the unit and it's description, and define conversion rules for related units.</span></span> <span data-ttu-id="c746b-105">يمكنك استعراض هذا الإجراء باستخدام بيانات العرض التوضيحي أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="c746b-105">You can walk through this procedure using demo data, or using your own data.</span></span>
+<span data-ttu-id="3af35-104">يوضح هذا الإجراء كيفية تحديد وحدة قياس وتقديم ترجمات للوحدة ووصفها وتعريف قواعد التحويل للوحدات ذات الصلة.</span><span class="sxs-lookup"><span data-stu-id="3af35-104">This procedure shows how to define a unit of measure, provide translations for the unit and it's description, and define conversion rules for related units.</span></span> <span data-ttu-id="3af35-105">يمكنك استعراض هذا الإجراء باستخدام بيانات العرض التوضيحي أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="3af35-105">You can walk through this procedure using demo data, or using your own data.</span></span>
 
-1. <span data-ttu-id="c746b-106">انتقل إلى "صيانة المنتج الذي تم إصداره‬".</span><span class="sxs-lookup"><span data-stu-id="c746b-106">Go to Released product maintenance.</span></span>
-2. <span data-ttu-id="c746b-107">انقر فوق "الوحدات".</span><span class="sxs-lookup"><span data-stu-id="c746b-107">Click Units.</span></span>
+1. <span data-ttu-id="3af35-106">انتقل إلى "صيانة المنتج الذي تم إصداره‬".</span><span class="sxs-lookup"><span data-stu-id="3af35-106">Go to Released product maintenance.</span></span>
+2. <span data-ttu-id="3af35-107">انقر فوق "الوحدات".</span><span class="sxs-lookup"><span data-stu-id="3af35-107">Click Units.</span></span>
 
-## <a name="create-a-unit-of-measure"></a><span data-ttu-id="c746b-108">إنشاء وحدة قياس</span><span class="sxs-lookup"><span data-stu-id="c746b-108">Create a unit of measure</span></span>
-1. <span data-ttu-id="c746b-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="c746b-109">Click New.</span></span>
-2. <span data-ttu-id="c746b-110">في الحقل "الوحدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="c746b-110">In the Unit field, type a value.</span></span>
-    * <span data-ttu-id="c746b-111">أدخل المعرف أو الرمز لاستخدامه عند الإشارة إلى وحدة القياس.</span><span class="sxs-lookup"><span data-stu-id="c746b-111">Enter the ID or symbol to use when referring to the unit of measure.</span></span>  
-3. <span data-ttu-id="c746b-112">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="c746b-112">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="c746b-113">أدخل اسمًا وصفيًا لوحدة القياس في لغة النظام.</span><span class="sxs-lookup"><span data-stu-id="c746b-113">Enter a descriptive name for the unit of measure in the system language.</span></span>  
-4. <span data-ttu-id="c746b-114">في الحقل "فئة الوحدة"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="c746b-114">In the Unit class field, select an option.</span></span>
-    * <span data-ttu-id="c746b-115">تحدد فئة الوحدة التجمع المنطقي، كالمنطقة أو الكتلة أو الكمية، الذي تشكل وحدة القياس جزءًا منه.</span><span class="sxs-lookup"><span data-stu-id="c746b-115">The unit class defines what logical grouping, such as area, mass, or quantity, the unit of measure is part of.</span></span>  
-5. <span data-ttu-id="c746b-116">في حقل "الدقة العشرية‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="c746b-116">In the Decimal precision field, enter a number.</span></span>
-    * <span data-ttu-id="c746b-117">حدد عدد المنازل العشرية التي يجب تقريب وحدة القياس المحولة إليها عند اكتمال عملية حسابية لوحدة القياس.</span><span class="sxs-lookup"><span data-stu-id="c746b-117">Specify the number of decimals that the converted unit of measure must be rounded to when a calculation is completed for the unit of measure.</span></span>  
-6. <span data-ttu-id="c746b-118">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="c746b-118">Click Save.</span></span>
+## <a name="create-a-unit-of-measure"></a><span data-ttu-id="3af35-108">إنشاء وحدة قياس</span><span class="sxs-lookup"><span data-stu-id="3af35-108">Create a unit of measure</span></span>
+1. <span data-ttu-id="3af35-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3af35-109">Click New.</span></span>
+2. <span data-ttu-id="3af35-110">في الحقل "الوحدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3af35-110">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="3af35-111">أدخل المعرف أو الرمز لاستخدامه عند الإشارة إلى وحدة القياس.</span><span class="sxs-lookup"><span data-stu-id="3af35-111">Enter the ID or symbol to use when referring to the unit of measure.</span></span>  
+3. <span data-ttu-id="3af35-112">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3af35-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="3af35-113">أدخل اسمًا وصفيًا لوحدة القياس في لغة النظام.</span><span class="sxs-lookup"><span data-stu-id="3af35-113">Enter a descriptive name for the unit of measure in the system language.</span></span>  
+4. <span data-ttu-id="3af35-114">في الحقل "فئة الوحدة"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="3af35-114">In the Unit class field, select an option.</span></span>
+    * <span data-ttu-id="3af35-115">تحدد فئة الوحدة التجمع المنطقي، كالمنطقة أو الكتلة أو الكمية، الذي تشكل وحدة القياس جزءًا منه.</span><span class="sxs-lookup"><span data-stu-id="3af35-115">The unit class defines what logical grouping, such as area, mass, or quantity, the unit of measure is part of.</span></span>  
+5. <span data-ttu-id="3af35-116">في حقل "الدقة العشرية‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="3af35-116">In the Decimal precision field, enter a number.</span></span>
+    * <span data-ttu-id="3af35-117">حدد عدد المنازل العشرية التي يجب تقريب وحدة القياس المحولة إليها عند اكتمال عملية حسابية لوحدة القياس.</span><span class="sxs-lookup"><span data-stu-id="3af35-117">Specify the number of decimals that the converted unit of measure must be rounded to when a calculation is completed for the unit of measure.</span></span>  
+6. <span data-ttu-id="3af35-118">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3af35-118">Click Save.</span></span>
 
-## <a name="define-unit-translations"></a><span data-ttu-id="c746b-119">تعريف ترجمات الوحدة</span><span class="sxs-lookup"><span data-stu-id="c746b-119">Define unit translations</span></span>
-1. <span data-ttu-id="c746b-120">انقر فوق "نصوص الوحدات".</span><span class="sxs-lookup"><span data-stu-id="c746b-120">Click Unit texts.</span></span>
-2. <span data-ttu-id="c746b-121">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="c746b-121">Click New.</span></span>
-    * <span data-ttu-id="c746b-122">استخدم نص الوحدة لإنشاء ترجمة للمعرف أو رمز يمثل وحدة القياس لاستخدامها في المستندات الخارجية بلغات خاصة بالعميل أو المورّد.</span><span class="sxs-lookup"><span data-stu-id="c746b-122">Use unit text to create a translation of the ID or a symbol representing the unit of measure for use on external documents in customer- or vendor-specific languages.</span></span>  
-3. <span data-ttu-id="c746b-123">في الحقل "اللغة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="c746b-123">In the Language field, enter or select a value.</span></span>
-4. <span data-ttu-id="c746b-124">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="c746b-124">In the Text field, type a value.</span></span>
-5. <span data-ttu-id="c746b-125">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="c746b-125">Click Save.</span></span>
-6. <span data-ttu-id="c746b-126">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="c746b-126">Close the page.</span></span>
-7. <span data-ttu-id="c746b-127">انقر فوق "أوصاف الوحدات المترجمة‬".</span><span class="sxs-lookup"><span data-stu-id="c746b-127">Click Translated unit descriptions.</span></span>
-8. <span data-ttu-id="c746b-128">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="c746b-128">Click New.</span></span>
-    * <span data-ttu-id="c746b-129">حدد أوصافًا خاصة باللغة لوحدة القياس.</span><span class="sxs-lookup"><span data-stu-id="c746b-129">Define language-specific descriptions for the unit of measure.</span></span>  
-9. <span data-ttu-id="c746b-130">في الحقل "اللغة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="c746b-130">In the Language field, enter or select a value.</span></span>
-10. <span data-ttu-id="c746b-131">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="c746b-131">In the Description field, type a value.</span></span>
-11. <span data-ttu-id="c746b-132">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="c746b-132">Click Save.</span></span>
-12. <span data-ttu-id="c746b-133">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="c746b-133">Close the page.</span></span>
+## <a name="define-unit-translations"></a><span data-ttu-id="3af35-119">تعريف ترجمات الوحدة</span><span class="sxs-lookup"><span data-stu-id="3af35-119">Define unit translations</span></span>
+1. <span data-ttu-id="3af35-120">انقر فوق "نصوص الوحدات".</span><span class="sxs-lookup"><span data-stu-id="3af35-120">Click Unit texts.</span></span>
+2. <span data-ttu-id="3af35-121">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3af35-121">Click New.</span></span>
+    * <span data-ttu-id="3af35-122">استخدم نص الوحدة لإنشاء ترجمة للمعرف أو رمز يمثل وحدة القياس لاستخدامها في المستندات الخارجية بلغات خاصة بالعميل أو المورّد.</span><span class="sxs-lookup"><span data-stu-id="3af35-122">Use unit text to create a translation of the ID or a symbol representing the unit of measure for use on external documents in customer- or vendor-specific languages.</span></span>  
+3. <span data-ttu-id="3af35-123">في الحقل "اللغة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3af35-123">In the Language field, enter or select a value.</span></span>
+4. <span data-ttu-id="3af35-124">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3af35-124">In the Text field, type a value.</span></span>
+5. <span data-ttu-id="3af35-125">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3af35-125">Click Save.</span></span>
+6. <span data-ttu-id="3af35-126">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="3af35-126">Close the page.</span></span>
+7. <span data-ttu-id="3af35-127">انقر فوق "أوصاف الوحدات المترجمة‬".</span><span class="sxs-lookup"><span data-stu-id="3af35-127">Click Translated unit descriptions.</span></span>
+8. <span data-ttu-id="3af35-128">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3af35-128">Click New.</span></span>
+    * <span data-ttu-id="3af35-129">حدد أوصافًا خاصة باللغة لوحدة القياس.</span><span class="sxs-lookup"><span data-stu-id="3af35-129">Define language-specific descriptions for the unit of measure.</span></span>  
+9. <span data-ttu-id="3af35-130">في الحقل "اللغة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3af35-130">In the Language field, enter or select a value.</span></span>
+10. <span data-ttu-id="3af35-131">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3af35-131">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="3af35-132">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3af35-132">Click Save.</span></span>
+12. <span data-ttu-id="3af35-133">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="3af35-133">Close the page.</span></span>
 
-## <a name="define-unit-conversion-rules"></a><span data-ttu-id="c746b-134">تعريف قواعد تحويل الوحدة</span><span class="sxs-lookup"><span data-stu-id="c746b-134">Define unit conversion rules</span></span>
-1. <span data-ttu-id="c746b-135">انقر فوق "تحويلات الوحدات".</span><span class="sxs-lookup"><span data-stu-id="c746b-135">Click Unit conversions.</span></span>
-    * <span data-ttu-id="c746b-136">قم بتعريف قواعد لتحويل وحدة القياس إلى وحدات قياس أخرى في فئة الوحدة المحددة ومنها.</span><span class="sxs-lookup"><span data-stu-id="c746b-136">Define rules for converting the unit of measure to and from other units of measure in the selected unit class.</span></span>  
-2. <span data-ttu-id="c746b-137">انقر فوق "جديد" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="c746b-137">Click New to open the drop dialog.</span></span>
-3. <span data-ttu-id="c746b-138">في الحقل "المعامل‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="c746b-138">In the Factor field, enter a number.</span></span>
-    * <span data-ttu-id="c746b-139">معامل التحويل بين وحدة "من" ووحدة "إلى".</span><span class="sxs-lookup"><span data-stu-id="c746b-139">Conversion factor between the From unit and the To unit.</span></span> <span data-ttu-id="c746b-140">على سبيل المثال، عامل التحويل من السنتيمتر إلى المتر هو 100 نظرًا لوجود 100 سنتيمتر بالمتر الواحد.</span><span class="sxs-lookup"><span data-stu-id="c746b-140">For example, the conversion factor from centimeter to meter is 100 because there are 100 centimeters in one meter.</span></span>  
-4. <span data-ttu-id="c746b-141">في الحقل "إلى وحدة‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="c746b-141">In the To unit field, enter or select a value.</span></span>
-5. <span data-ttu-id="c746b-142">في الحقل "التقريب‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="c746b-142">In the Rounding field, select an option.</span></span>
-    * <span data-ttu-id="c746b-143">حدد كيفية تقريب القيمة المحوّلة.</span><span class="sxs-lookup"><span data-stu-id="c746b-143">Define how the converted value should be rounded.</span></span>  
-6. <span data-ttu-id="c746b-144">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="c746b-144">Click OK.</span></span>
-7. <span data-ttu-id="c746b-145">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="c746b-145">Close the page.</span></span>
+## <a name="define-unit-conversion-rules"></a><span data-ttu-id="3af35-134">تعريف قواعد تحويل الوحدة</span><span class="sxs-lookup"><span data-stu-id="3af35-134">Define unit conversion rules</span></span>
+1. <span data-ttu-id="3af35-135">انقر فوق "تحويلات الوحدات".</span><span class="sxs-lookup"><span data-stu-id="3af35-135">Click Unit conversions.</span></span>
+    * <span data-ttu-id="3af35-136">قم بتعريف قواعد لتحويل وحدة القياس إلى وحدات قياس أخرى في فئة الوحدة المحددة ومنها.</span><span class="sxs-lookup"><span data-stu-id="3af35-136">Define rules for converting the unit of measure to and from other units of measure in the selected unit class.</span></span>  
+2. <span data-ttu-id="3af35-137">انقر فوق "جديد" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="3af35-137">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="3af35-138">في الحقل "المعامل‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="3af35-138">In the Factor field, enter a number.</span></span>
+    * <span data-ttu-id="3af35-139">معامل التحويل بين وحدة "من" ووحدة "إلى".</span><span class="sxs-lookup"><span data-stu-id="3af35-139">Conversion factor between the From unit and the To unit.</span></span> <span data-ttu-id="3af35-140">على سبيل المثال، عامل التحويل من السنتيمتر إلى المتر هو 100 نظرًا لوجود 100 سنتيمتر بالمتر الواحد.</span><span class="sxs-lookup"><span data-stu-id="3af35-140">For example, the conversion factor from centimeter to meter is 100 because there are 100 centimeters in one meter.</span></span>  
+4. <span data-ttu-id="3af35-141">في الحقل "إلى وحدة‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3af35-141">In the To unit field, enter or select a value.</span></span>
+5. <span data-ttu-id="3af35-142">في الحقل "التقريب‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="3af35-142">In the Rounding field, select an option.</span></span>
+    * <span data-ttu-id="3af35-143">حدد كيفية تقريب القيمة المحوّلة.</span><span class="sxs-lookup"><span data-stu-id="3af35-143">Define how the converted value should be rounded.</span></span>  
+6. <span data-ttu-id="3af35-144">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="3af35-144">Click OK.</span></span>
+7. <span data-ttu-id="3af35-145">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="3af35-145">Close the page.</span></span>
 
 
