@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c36795a071cc72721558bfa8984ecf1f47501c91
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 06/09/2017
 -   [إنشاء أمر شراء](purchase-order-creation.md)
 -   [الموافقة على أمر الشراء وتأكيده](purchase-order-approval-confirmation.md)
 -   [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
--   [نظرة عامة على فواتير المورّدين](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+-   [نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>أنواع أوامر الشراء
 ‏‫هناك ثلاثة أنواع من أوامر الشراء. عندما تنشئ أمر شراء، يتعين عليك تحديد النوع.‬ يمكنك إعداد نوع أمر افتراضي للأوامر الجديدة في صفحة **محددات تحديد الموارد والتدبير‬**.
@@ -92,7 +92,7 @@ ms.lasthandoff: 06/09/2017
 
 [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
 
-[نظرة عامة على فواتير المورّدين](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

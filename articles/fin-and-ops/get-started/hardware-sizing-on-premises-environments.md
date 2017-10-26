@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>ضبط حجم الأجهزة للبيئات المحلية
-قبل أن تبدأ عملية ضبط حجم الأجهزة والبنية الأساسية لبيئة محلية، عليك الاطلاع على [متطلبات النظام](../get-started/system-requirements.md) و[إرشادات الإعداد والنشر](../deployment/setup-deploy-on-premises-environments.md) لتكوين فهم ثابت للبنية الأساسية. 
+قبل أن تبدأ عملية ضبط حجم الأجهزة والبنية الأساسية لبيئة محلية، عليك الاطلاع على [متطلبات النظام](system-requirements.md) و[إرشادات الإعداد والنشر](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) لتكوين فهم ثابت للبنية الأساسية. 
 
   **ملاحظة:** يُرجى إيلاء اهتمام بالغ بأفضل الممارسات لإعداد النظام للحصول على الأداء الأمثل. 
 
@@ -89,7 +89,7 @@ ms.lasthandoff: 07/27/2017
 نوصي دائمًا باستخدام SQL Server في نظام مجموعة أو إعداد نسخ مطابق. يجب أن تتضمن عقدة SQL الثانية عدد المراكز نفسه كما في العقدة الأساسية. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>خدمات الأمان المشترك لـ Active Directory (AD FS)
-بالنسبة إلى ضبط حجم AD FS، راجع [وثائق القدرة الإنتاجية لخادم AD FS](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+بالنسبة إلى ضبط حجم AD FS، راجع [وثائق القدرة الإنتاجية لخادم AD FS](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 يتوفر [جدول بيانات ضبط الحجم](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) لتخطيط عدد المثيلات في عملية النشر.
 

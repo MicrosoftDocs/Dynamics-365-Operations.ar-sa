@@ -17,10 +17,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
-ms.openlocfilehash: 49f7a8f69729002812e78de757ae889266327ff4
+ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
+ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,38 +47,38 @@ ms.lasthandoff: 08/02/2017
 
 أثناء العمل مع الموارد البشرية، سوف تقرر كيفية بناء المؤسسة، واستخدام عناصر مثل الإدارات والوظائف والمناصب. هذه من بين العناصر الأساسية التي ستقوم بتكوينها في الموارد البشرية. يتم تعيين أفراد الموظفين للمناصب المرتبطة بالوظائف.
 
--   [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](/dynamics365/unified-operations/talent/departments-jobs-positions)
--   [إعداد معلمات الموارد البشرية الخاصة بالشركة](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters)
--   [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](/dynamics365/unified-operations/talent/set-up-hr-parameters-across-legal-entities) 
+-   [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](../../talent/departments-jobs-positions.md)
+-   [إعداد معلمات الموارد البشرية الخاصة بالشركة](../../talent/set-up-company-specific-hr-parameters.md)
+-   [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](../../talent/set-up-hr-parameters-across-legal-entities.md) 
 
 ## <a name="recruit-hire-and-motivate-employees"></a>تعيين الموظفين وتوظيفهم وتحفيزهم
 
 تقوم مشاريع التعيين بإدارة المحتوى المستخدم في الإعلانات عن مناصب متوفرة، ويمكنها أن تساعدك على إدارة الطلبات المقدمة لشغل الوظائف الشاغرة. ويمكنك استخدامها لتتبع الاستجابات لإعلانات الوظائف الخاصة بمشروع تعيين محدد أو مقدمي طلبات محددين، وتحديث حالة المناصب المتوفرة. يمكنك أيضًا توظيف مقدمي طلبات فردية أو إدارة "مشاريع التوظيف الجماعي" التي تسهل توظيف عدة عاملين، على سبيل المثال، لتلبية احتياجات العمل الموسمية.
 
--   [إدارة عملية التعيين](/dynamics365/unified-operations/talent/manage-recruiting-process)
--   [مشاريع التوظيف الجماعي](/dynamics365/unified-operations/talent/mass-hire-projects) 
+-   [إدارة عملية التعيين](manage-recruiting-process.md)
+-   [مشاريع التوظيف الجماعي](mass-hire-projects.md) 
 
 بعد الانتهاء من عملية التوظيف، يمكنك إعداد خطط تسمح لك بإدارة التعويض بطريقة فعالة ومنصفة، بالإضافة إلى إدارة عناصر، مثل أجهزة الكمبيوتر والهواتف، التي تقوم مؤسستك بإعارتها للموظفين. يمكنك إنشاء خطط التعويض الثابتة والمتغيرة، بالإضافة إلى تحديد قواعد تطبيق خطة التعويض للوفاء بالمعايير الخاصة بتلك الخطة.
 
--   [خطط التعويض](/dynamics365/unified-operations/talent/compensation-plans)
--   [إنشاء خطط التعويض الثابتة](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
--   [إنشاء خطط التعويض المتغيرة](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+-   [خطط التعويض](../../talent/compensation-plans.md)
+-   [إنشاء خطط التعويض الثابتة](../../talent/create-fixed-compensation-plans.md)
+-   [إنشاء خطط التعويض المتغيرة](../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>تطوير الموظفين وتدريبهم
 
 لمساعدة موظفيك على تحقيق أهدافهم الوظيفية أثناء تلبية احتياجات أعمال مهمة، يمكنك إعداد الأهداف، وإنشاء مراجعات الأداء وتعقب التعليقات لمساعدة الموظفين على تطوير المهارات المطلوبة، أو يمكنك أيضًا إعداد المعلمين، وأنواع الدورات التدريبية، والدورات التدريبية، وأوصاف الدورات التدريبية، وجداول الأعمال، والمسارات، والجلسات قبل تعيين معلم لدورة تدريبية، أو تسجيل شخص لدورة تدريبية. يحب وجود المعلمين بالفعل كعمال أو مقدمي طلبات أو كجهات اتصال.
 
--   [إدارة الأداء](/dynamics365/unified-operations/talent/performance-management-overview)
--   [محاذاة احتياجات العمل ومهارات العاملين](/dynamics365/unified-operations/talent/skills)
--   [إدارة التدريب خلال الدورات التدريبية](/dynamics365/unified-operations/talent/courses)
+-   [إدارة الأداء](../../talent/performance-management-overview.md)
+-   [محاذاة احتياجات العمل ومهارات العاملين](../../talent/skills.md)
+-   [إدارة التدريب خلال الدورات التدريبية](../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>إنشاء المزايا والحفاظ عليها
 
 بالإضافة إلى تعويض الموظفين بواسطة الأجور والمرتبات والمكافآت، يمكنك تطوير برامج المزايا مثل التأمين الصحي وخطط التقاعد. ويمكنك أيضًا إدارة مزايا مثل برامج القروض، حيث تقوم شركتك بإعارة بعض العناصر، مثل أجهزة الكمبيوتر والهواتف، لموظفيها.
 
--   [إدارة برنامج ميزة](/dynamics365/unified-operations/talent/manage-benefit-program)
--   [سياسات استحقاق الميزات](/dynamics365/unified-operations/talent/benefit-eligibility-policies)
--   [إدارة الأصناف المقرضة للعاملين](/dynamics365/unified-operations/talent/loan-items)
+-   [إدارة برنامج ميزة](../../talent/manage-benefit-program.md)
+-   [سياسات استحقاق الميزات](../../talent/benefit-eligibility-policies.md)
+-   [إدارة الأصناف المقرضة للعاملين](../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>الحفاظ على السلامة والامتثال في أماكن العمل
 
@@ -92,10 +92,10 @@ ms.lasthandoff: 08/02/2017
 
 يمكنك تصميم الاستبيانات وإدارتها لجمع معلومات يمكن استخدامها لمجموعة من الأهداف. تسمح لك ميزة الاستبيانات بتصميم الاستبيانات وإنشائها. عندما يصبح الاستبيان جاهزًا، يمكنك توزيعه على نطاق واسع أو على مجموعة مستجيبين محددة لإكماله. وبعد أن يوفر المستجيبون إجاباتهم، يمكنك مراجعة النتائج وتحليلها.
 
--   [الاستبيانات](/dynamics365/unified-operations/talent/questionnaires)
--   [تصميم استبيان](/dynamics365/unified-operations/talent/design-questionnaires)
--   [توزيع وإكمال استبيان](/dynamics365/unified-operations/talent/distribute-questionnaires)
--   [عرض وتقييم نتائج الاستبيان](/dynamics365/unified-operations/talent/evaluate-questionnaire-results)
+-   [الاستبيانات](../../talent/questionnaires.md)
+-   [تصميم استبيان](../../talent/design-questionnaires.md)
+-   [توزيع وإكمال استبيان](../../talent/distribute-questionnaires.md)
+-   [عرض وتقييم نتائج الاستبيان](../../talent/evaluate-questionnaire-results.md)
 
 
 
