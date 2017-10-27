@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6119f1c85b68e6ed5dce01a266c4e681dfc4cd30
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 يصف هذا الموضوع كيفية استخدام تعاون المورد في Finance and Operations للتعامل مع أوامر الشراء ولمراقبة مخزون الشحن.
 
-يصف هذا الموضوع كيفية استخدام تعاون المورد للتعامل مع العملاء في Microsoft Finance and Operations. ‏‫ويتضمن هذا الموضوع معلومات حول كيفية مراقبة أوامر الشراء والاستجابة لها، وكيفية مراقبة مخزون الشحن. من الممكن أيضًا استخدام تعاون المورد للتعامل مع الفواتير.‬ لمزيد من المعلومات، راجع [مساحة عمل فوترة تعاون المورد](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+يصف هذا الموضوع كيفية استخدام تعاون المورد للتعامل مع العملاء في Microsoft Finance and Operations. ‏‫ويتضمن هذا الموضوع معلومات حول كيفية مراقبة أوامر الشراء والاستجابة لها، وكيفية مراقبة مخزون الشحن. من الممكن أيضًا استخدام تعاون المورد للتعامل مع الفواتير.‬ لمزيد من المعلومات، راجع [مساحة عمل فوترة تعاون المورد](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 ## <a name="working-with-purchase-orders"></a>التعامل مع أوامر الشراء
 تمكّنك لك مساحة عمل **تأكيد أمر الشراء** من الاستجابة لأوامر الشراء التي تم إرسالها إليك للمراجعة. وهي تمكّنك أيضًا من عرض معلومات حول أوامر الشراء التي تنتظر إجراءات العميل، وأوامر الشراء التي تم تأكيدها، ولكنها ما زالت مفتوحة. هناك ثلاث قوائم في مساحة عمل **تأكيد أمر الشراء**:

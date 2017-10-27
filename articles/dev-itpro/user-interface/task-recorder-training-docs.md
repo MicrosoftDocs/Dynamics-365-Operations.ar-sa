@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ ms.lasthandoff: 08/09/2017
 11. قم باختيار الطريقة التي تريد بها حفظ تسجيل المهمة.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>تضمين تسجيلات المهام الخاصة بك في جزء التعليمات
-لإظهار تسجيلات المهام المخصصة الخاصة بك في جزء "التعليمات" بحيث يمكنك تشغيلها كأدلة مهام أو عرضها كنص، يجب عليك حفظ تسجيلات المهام الخاصة بك إلى مكتبة BPM، ثم قم بتحديث معلمات نظام التعليمات للإشارة إلى مكتبة BPM. لمزيد من المعلومات، راجع [الاتصال بنظام التعليمات‬.](../get-started/help-connect.md)
+لإظهار تسجيلات المهام المخصصة الخاصة بك في جزء "التعليمات" بحيث يمكنك تشغيلها كأدلة مهام أو عرضها كنص، يجب عليك حفظ تسجيلات المهام الخاصة بك إلى مكتبة BPM، ثم قم بتحديث معلمات نظام التعليمات للإشارة إلى مكتبة BPM. لمزيد من المعلومات، راجع [الاتصال بنظام التعليمات‬.](../../fin-and-ops/get-started/help-connect.md)
 
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[نظرة عامة على التعليمات](..\get-started\help-overview.md)
+[نظرة عامة على التعليمات](../../fin-and-ops/get-started/help-overview.md)
 
-[تعليمات الاتصال](..\get-started\help-connect.md)
+[تعليمات الاتصال](../../fin-and-ops/get-started/help-connect.md)
 
 [مسجل المهام](task-recorder.md)
 

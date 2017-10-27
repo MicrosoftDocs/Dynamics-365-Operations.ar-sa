@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 08/04/2017
 للعثور على أحدث إصدار لكل مستعرض ويب، انتقل إلى موقع ويب الشركة المصنعة للبرنامج. 
 
 > [!NOTE]
-> -   يجب عليك تثبيت ملحق Chrome التجريبي لتمكين مسجل المهام من أخذ صور للقطات الشاشة وتضمينها في مستندات Microsoft Word الناشئة. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   يجب عليك تثبيت ملحق Chrome التجريبي لتمكين مسجل المهام من أخذ صور للقطات الشاشة وتضمينها في مستندات Microsoft Word الناشئة. <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   تم بدء تشغيل محرر سير العمل كتطبيق ClickOnce. تدعم Microsoft Edge و Internet Explorer فقط (على الإصدارات المعتمدة من Microsoft Windows) تطبيقات ClickOnce. يتطلب تطبيق ClickOnce محرر سير العمل نظام تشغيل متوافق 64 بت.
 > -   بدء تشغيل مصمم التقرير للتقارير المالية كتطبيق ClickOnce. يحتاج هذا إلى نظام تشغيل متوافق 64 بت. إذا كنت تستخدم Chrome، فيجب تثبيت ملحق ClickOnce لتنزيل عميل مصمم التقارير. إذا كنت تستخدم Chrome مع وضع التخفي، فتأكد من تمكين الملحق ClickOnce لوضع التخفي أيضًا.
 > -   لمعاينة ملفات PDF، ننصح باستخدام مستعرضات مثل Microsoft Edge (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Google Chrome (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو الكمبيوتر اللوحي Google Nexus 10.
@@ -70,7 +70,7 @@ ms.lasthandoff: 08/04/2017
 ## <a name="supported-microsoft-office-applications"></a>تطبيقات Microsoft Office المعتمدة
 يتم اعتماد تطبيقات Microsoft Office التالية أثناء عمليات نشر Finance and Operations في السحابة وفي الموقع المحلي:
 
--   لتثبيت الوظائف الإضافية لـ Microsoft Excel و Word، يجب أن يكون لديك Microsoft Office 2016 لـ Windows أو Mac مثبتًا. للحصول على مزيد من المعلومات حول متطلبات الإصدار، راجع [استكشاف وإصلاح مشاكل تكامل Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   لتثبيت الوظائف الإضافية لـ Microsoft Excel و Word، يجب أن يكون لديك Microsoft Office 2016 لـ Windows أو Mac مثبتًا. للحصول على مزيد من المعلومات حول متطلبات الإصدار، راجع [استكشاف وإصلاح مشاكل تكامل Office](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   لعرض المستندات التي تم إنشاؤها بواسطة التصدير إلى وظائف Word أو التصدير إلى Excel، يجب عليك تثبيت Microsoft Office 2007 أو الإصدار الأحدث.
 
 ## <a name="retail-modern-pos-requirements"></a>متطلبات نقطة بيع حديثة
@@ -153,10 +153,10 @@ ms.lasthandoff: 08/04/2017
 -   10 غيغابايت على الأقل من المساحة الحرة (يمكن لقاعدة بيانات القناة أن تتطلب قدر أكبر من المساحة.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>متطلبات للتطوير في الأجهزة الظاهرية المحلية
-للحصول على معلومات حول متطلبات التطوير على الأجهزة الظاهرية المحلية (الأجهزة الظاهرية)، راجع [تشغيل الأجهزة الظاهرية محليًا](../dev-tools/access-instances.md).
+للحصول على معلومات حول متطلبات التطوير على الأجهزة الظاهرية المحلية (الأجهزة الظاهرية)، راجع [تشغيل الأجهزة الظاهرية محليًا](../../dev-itpro/dev-tools/access-instances.md).
 
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[الحصول على نسخة تقييم لـ Dynamics 365 for Finance and Operations, Enterprise edition](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[الحصول على نسخة تقييم لـ Dynamics 365 for Finance and Operations, Enterprise edition](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 

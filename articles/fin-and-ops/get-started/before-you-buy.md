@@ -14,13 +14,13 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 21761
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 831550256176df6fa8542b9985eba1b9b1282fcb
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 07/27/2017
 
 ## <a name="step-two-choose-a-deployment-option"></a>الخطوة الثانية: انتقاء خيار النشر
 يمكنك الآن نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition في السحابة أو في الموقع المحلي. تقدم عمليات النشر في السحابة خدمة ERP التي تديرها Microsoft بشكل كامل قبل Microsoft، بينما يتم نشر عمليات النشر المحلي محليًا داخل مركز بيانات العميل.
-للحصول على مزيد من المعلومات، راجع: [خيارات النشر](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type) 
+للحصول على مزيد من المعلومات، راجع: [خيارات النشر](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>الخطوة الثالثة: شراء اشتراك وإدارته
 لاستكشاف خيارات الاشتراك، انتقل إلى صفحة تسعير [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). تحتوي هذه الصفحة على عدة خطط مختلفة لملاءمة احتياجات مؤسستك.
@@ -60,7 +60,7 @@ ms.lasthandoff: 07/27/2017
 باستطاعة موفر الحلول السحابية من Microsoft أن يعمل معك كثب للتعرف على احتياجات عملك أو مؤسستك. [استخدام مدخل مركز شريك Microsoft للعثور على شريك يناسب احتياجاتك](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>الشراء من خلال شريك Dynamics (محلي)
-يجب أن تعمل مع شريك لشراء Finance and Operations في الموقع المحلي. لمزيد من المعلومات، راجع [شراء Dynamics 365 for Finance and Operations, Enterprise edition (محلي)](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises)
+يجب أن تعمل مع شريك لشراء Finance and Operations في الموقع المحلي. لمزيد من المعلومات، راجع [شراء Dynamics 365 for Finance and Operations, Enterprise edition (محلي)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>انتقاء خيار الدعم
 توفر Microsoft دعمًا وخدمات وموارد مرنة ورائدة في المجال تمكّن المستخدمين من معالجة المشاكل التقنية بسرعة وزيادة عائد الاستثمار في Dynamics 365. اختر خطة تفي بمتطلبات عملك على أفضل وجه. 

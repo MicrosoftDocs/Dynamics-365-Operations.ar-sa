@@ -16,13 +16,13 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
+ms.translationtype: HT
+ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
+ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 06/13/2017
 
 لا تتضمن كل الصفحات أوصاف الحقول. إننا نريد فقط توفير أوصاف للحقول الكثيرة التعقيدات، وليس لتلك التي يكون فيها استخدام الحقل واضحًا. وبالتالي، هناك بعض الصفحات حيث لا تتوفر أوصاف الحقول، وهناك صفحات أخرى فيها بعض الأوصاف القليلة، بينما تتضمن بعض الصفحات المعقدة الكثير من هذه الأوصاف، ومنها عدد كبير من صفحات المحددات. 
 
-إذا كان لديك حق الوصول إلى بيئة التطوير في Finance and Operations، فيمكنك إضافة أوصاف حقول جديدة وتخصيص الأوصاف الموجودة. على سبيل المثال، يمكنك إضافة معلومات خاصة بالشركة إلى وصف الحقل. لمزيد من المعلومات، راجع [تعليمات تخصيص الحقل](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
+إذا كان لديك حق الوصول إلى بيئة التطوير في Finance and Operations، فيمكنك إضافة أوصاف حقول جديدة وتخصيص الأوصاف الموجودة. على سبيل المثال، يمكنك إضافة معلومات خاصة بالشركة إلى وصف الحقل. لمزيد من المعلومات، راجع [تعليمات تخصيص الحقل](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>الاطلاع على أوصاف الحقول في واجهة المستخدم
 يمكنك عرض أوصاف الحقول عن طريق المرور بالماوس فوق حقل. إذا لم يتوفر أي وصف، فسترى اسم الحقل عند تمرير الماوس فوق الحقل. (ملاحظة: في Dynamics AX 7.0 (فبراير 2016)، يمكن عرض أوصاف الحقول فقط في صفحة **أوصاف الحقول**.) ‏‫يبين الرسم التوضيحي التالي وصف الحقل الذي يظهر عند تمرير الماوس فوق الحقل **تأمين الأصناف أثناء الجرد**. 
@@ -101,7 +101,7 @@ ms.lasthandoff: 06/13/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[تعليمات تخصيص الحقل](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+[تعليمات تخصيص الحقل](../../dev-itpro/user-interface/customize-field-help.md)
 
 
 

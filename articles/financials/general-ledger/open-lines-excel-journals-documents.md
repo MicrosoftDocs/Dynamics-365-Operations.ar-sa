@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1fed8d162a37736883365fa765a059e5beff06be
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: a4f9e2c5203881f3faeebe4d33e72c7b3bcaa591
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 06/13/2017
 
 عند نشر البنود، يتم التحقق من صحتها للتأكد من امتثالها للقواعد التي تم إعدادها في دفاتر اليومية المالية. بعد نشر البنود، يمكن للمستخدمين تحرير أو ترحيل الإيصالات من Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
 
-لإضافة أبعاد مالية إلى قالب، يلزم إجراء تغييرات إضافية. للحصول على مزيد من المعلومات، انظر [إضافة الأبعاد إلى قالب Microsoft Excel](/dynamics365/unified-operations/dev-itpro/financial/add-dimensions-excel-templates). بعد إضافة أبعاد إلى الكيان، فإنها تتوفر في مصمم Excel ويمكن إضافتها إلى القالب.
+لإضافة أبعاد مالية إلى قالب، يلزم إجراء تغييرات إضافية. للحصول على مزيد من المعلومات، انظر [إضافة الأبعاد إلى قالب Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). بعد إضافة أبعاد إلى الكيان، فإنها تتوفر في مصمم Excel ويمكن إضافتها إلى القالب.
 
 
 

@@ -19,10 +19,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 069af29012f75aa1a15ba9df86fe1fc9e04eaf41
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 07/27/2017
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>التوقيعات الإلكترونية في Dynamics 365 for Finance and Operations
 في Finance and Operations، يمكنك استخدام التوقيعات الإلكترونية لعمليات الأعمال المهمة. لدى بعض العمليات قدرات توقيع إلكتروني مضمنة. كما يمكنك إنشاء متطلبات التوقيع المخصص لأي جدول وحقل قاعدة بيانات. 
 
-تتميز التواقيع الإلكترونية بوظائف التوقيع الرقمي المضمنة. يجب على كل مستخدم يوقع على المستندات الحصول على شهادة تشفير صالحة. وعند التوقيع على مستند، يتم التحقق من المفتاح الخاص المقترن بالشهادة. ويقوم Finance and Operations بتسجيل معلومات التوقيع الإلكتروني في سجل لتوفير سجل مراجعة. لإعداد التواقيع الإلكترونية، راجع [إعداد التواقيع الإلكترونية (دليل المهام)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
+تتميز التواقيع الإلكترونية بوظائف التوقيع الرقمي المضمنة. يجب على كل مستخدم يوقع على المستندات الحصول على شهادة تشفير صالحة. وعند التوقيع على مستند، يتم التحقق من المفتاح الخاص المقترن بالشهادة. ويقوم Finance and Operations بتسجيل معلومات التوقيع الإلكتروني في سجل لتوفير سجل مراجعة. لإعداد التواقيع الإلكترونية، راجع [إعداد التواقيع الإلكترونية (دليل المهام)](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>المستخدمون الذين يتطلبون الوصول إلى التوقيعات الإلكترونية
 عادة ما يتطلب ثلاثة أنواع من المستخدمين وصولاً آمنًا إلى التوقيعات الإلكترونية: مسؤولو التوقيعات الإلكترونية والموقعون ومراجعو التوقيعات الإلكترونية.

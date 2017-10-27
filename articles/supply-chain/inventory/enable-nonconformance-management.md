@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7a6f7c12ab5fe5e67ffb844c1dbc6cd688ecd4d5
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: ba518bc1b2e0811d07ed2811e8e1da4812d02899
 ms.contentlocale: ar-sa
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -51,9 +51,9 @@ ms.lasthandoff: 07/27/2017
 <a name="see-also"></a>راجع أيضًا
 --------
 
-[إنشاء ومعالجه عدم المطابقة (دليل المهام)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-process-non-conformance)
+[إنشاء ومعالجه عدم المطابقة (دليل المهام)](tasks/create-process-non-conformance.md)
 
 [عمليات إدارة الجودة](quality-management-processes.md)
 
-[متطلبات الإعداد الأساسية لإدارة عدم المطابقة (دليل المهام)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-prerequisites-nonconformance-management)
+[متطلبات الإعداد الأساسية لإدارة عدم المطابقة (دليل المهام)](tasks/set-up-prerequisites-nonconformance-management.md)
 
