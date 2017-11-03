@@ -1,7 +1,7 @@
 ---
 title: "تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI"
 description: "يشرح هذا الموضوع كيفية استخدام تكوين التقارير الإلكترونية لترتيب نقل البيانات من مثيل Finance and Operations إلى خدمات Power BI. يستخدم هذا الموضوع، كمثال، حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي كبيانات عمل يجب نقلها. تستخدم الرسوم المرئية في Power BI هذه البيانات لحركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لتقديم طريقة عرض لتحليل أنشطة الاستيراد/التصدير في الشركة على تقرير Power BI."
-author: kfend
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
