@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b53f95a55e66f7df4f7b3b85dd0dee2047019439
-ms.openlocfilehash: f0f601b2cf66daf0d7d3175bc78938e13aa6cd19
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 35b574e24e721e80ca1469878697aba4c1699dff
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 إن Microsoft Dynamics 365 for Retail هو حل شامل للبيع بالتجزئة يوفر التجارة الموحدة عبر جميع القنوات. إنه يشتمل على المبيعات، وإمكانية التنقل، والمعلومات، والإنتاجية لمساعدة تجار التجزئة والعمال على تحقيق المزيد بطريقة السحابة أولاً، الجهاز المحمول أولاً. يوفر Retail دعمًا شاملاً لتشغيل مجموعة كبيرة من إجراءات العمل، مثل إمكانات إدارة القنوات، وترويج البضائع، والمخزون. كما أنه يوفر خبرات عملاء غامرة عبر جميع نقاط الاتصال.
 
 > [!NOTE] 
-> ينطبق هذا الموضوع على Dynamics 365 for Retail، وDynamics 365 for Finance and Operations، إصدار Enterprise، وDynamics 365 for Retail. قد تظهر نفس الوظيفة في جميع المنتجات الثلاثة. كنتيجة لذلك، في المواضيع المرتبطة بشكل أساسي بـ Retail، سيكون اسم المنتج Microsoft Dynamics 365 for Retail؛ في المواضيع المرتبطة بشكل أساسي بالمنتج الأساسي (Finance and Operations)، سيكون اسم المنتج Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise؛ في المواضيع المرتبطة بشكل أساسي للموارد البشرية، سيكون اسم المنتج Dynamics 365 for Talent. 
+> ثمة ارتباط وثيق بين Dynamics 365 for Retail وDynamics 365 for Finance and Operations, Enterprise edition وDynamics 365 for Talent. قد تظهر نفس الوظيفة في جميع المنتجات الثلاثة. ونتيجة لذلك، في المواضيع المرتبطة بشكل أساسي بـ Retail، سيكون اسم المنتج Microsoft Dynamics 365 for Retail؛ في المواضيع المرتبطة بشكل أساسي بالمنتج الأساسي (Finance and Operations)، سيكون اسم المنتج Microsoft Dynamics 365 for Finance and Operations, Enterprise edition؛ في المواضيع المرتبطة بشكل أساسي بالموارد البشرية، سيكون اسم المنتج Dynamics 365 for Talent. 
 
 في الجزء الأيمن، حدد منطقة ميزة لمعرفة مزيد من المعلومات حولها.
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 09/29/2017
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 ### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
-انتقل إلى [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
+انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
 
 ### <a name="blogs"></a>المدونات
 يمكنك العثور على الآراء واﻷخبار والمعلومات الأخرى حول Retail والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).

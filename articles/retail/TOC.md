@@ -2,6 +2,11 @@
 
 # بدء الاستخدام
 ## [الجديد أو التغيير](get-started/whats-new.md)
+## [قبل شراء Dynamics 365 for Retail](get-started/before-you-buy.md)
+## [التسجيل للاشتراك في المعاينة](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [نشر بيئة عرض توضيحي](../dev-itpro/deployment/deploy-demo-environment.md)
+## [خيارات النشر](dev-itpro/choose-deployment.md)
+
 
 # المدفوعات
 ## [طرق الدفع](payment-methods.md)
@@ -36,9 +41,11 @@
 ## [تحديد قنوات البيع بالتجزئة](define-maintain-retail-channels.md)
 ## [نظرة عامة على المتجر على الإنترنت](online-stores.md)
 ## [تكوين وتثبيت محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md)
-## [وقت البيع بالتجزئة والحضور](retail-time-attendance.md)
+## [وقت وحضور Retail](retail-time-attendance.md)
 
-# نقطة البيع الحديثة (MPOS) ونطقة بيع المجموعة
+# نقطة البيع الحديثة (MPOS) ونقطة بيع المجموعة
+## [عمليات نقطة البيع (POS)](POS-operations.md)
+## [تخطيطات شاشة بيانات العرض التوضيحي في MPOS/CPOS](demo-data.md)
 ## الأجهزة الطرفية للأجهزة
 ### [نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة](retail-peripherals-overview.md)
 ### [الأجهزة الطرفية لأجهزة نقطة البيع الخاضعة لاختبارات Microsoft](microsoft-tested-pos-hardware-peripherals.md)
@@ -59,11 +66,12 @@
 ### [نظرة عامة على أوامر العملاء](customer-orders-overview.md)
 ### [أوامر العملاء المختلطة](hybrid-customer-orders.md)
 ## شركاء المبيعات
-### [تعقب العمولات في نقطة البيع باستخدام مجموعات المبيعات](pos-sales-groups-track-commissions.md)
+### [تعقب العمولات في نقطة البيع (POS) باستخدام مجموعات المبيعات](pos-sales-groups-track-commissions.md)
+## [شحن أمر شراء من متجر آخر](charge-send.md)
 ## تنشيط الجهاز
-### [تكوين نقطة البيع الحديثة وتثبيتها](retail-modern-pos-device-activation.md)
-### [إعداد تسجيل الدخول الموسع لنقطة بيع المجموعة و‏‫نقطة البيع الحديثة](extended-logon.md)
-### [إدارة حسابات البيع بالتجزئة والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
+### [تكوين نقطة البيع الحديثة (MPOS‎) وتثبيتها](retail-modern-pos-device-activation.md)
+### [إعداد تسجيل الدخول الموسع لنقطة بيع المجموعة و‏‫نقطة البيع الحديثة (MPOS)](extended-logon.md)
+### [إدارة حسابات Retail والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
 ## إيصالات الاستلام
 ### [إعداد قوالب إيصالات الاستلام](receipt-templates-printing.md) 
 ### [إرسال إيصالات الاستلام عبر البريد الإلكتروني من نقطة بيع حديثة](email-receipts.md)
@@ -110,8 +118,8 @@
 ## [تاريخ المتوسط المرجح](../supply-chain/cost-management/weighted-average-date.md)
 ## [المتوسط المرجح مع القيمة الفعلية ووضع العلامات](../supply-chain/cost-management/weighted-average-physical-value-marking.md)
 ## [أوامر إدخال مخزن العزل](../supply-chain/inventory/quarantine-orders.md)
-## [تشغيل متوسط سعر التكلفة](../supply-chain/cost-management/running-average-cost-price.md)
-## [تتبع متوسط تكلفة التشغيل لكل بُعد مخزون](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
+## [المتوسط المتحرك لسعر التكلفة](../supply-chain/cost-management/running-average-cost-price.md)
+## [تتبع المتوسط المتحرك للتكلفة لكل بُعد مخزون](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 # الموارد البشرية
 ## [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](../talent/departments-jobs-positions.md)
@@ -171,10 +179,10 @@
 ### [محتوى Power BI لأداء قناة البيع بالتجزئة](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## النشر والإصلاحات العاجلة
-### [تكوين وتثبيت Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [نظام متجر البيع بالتجزئة، قبل أن تبدأ](dev-itpro/retail-store-system-begin.md)
+### [نظرة عامة على وحدة قياس متجر البيع بالتجزئة](dev-itpro/retail-store-system-begin.md)
+#### [تكوين وتثبيت وحدة قياس متجر البيع بالتجزئة‬](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [تكوين وتثبيت Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [إدارة حسابات البيع بالتجزئة والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
+#### [إدارة حسابات Retail والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
 #### [تنشيط جهاز Retail POS](dev-itpro/retail-device-activation.md)
 #### [Retail Cloud POS آمنة](dev-itpro/secure-retail-cloud-pos.md)
 ### [تكوين وتثبيت Retail Hardware Station](retail-hardware-station-configuration-installation.md)
@@ -187,17 +195,19 @@
 ### [تثبيت مكونات N-1](dev-itpro/n-1-installation-configuration.md)
 
 ## تكوين البيئة
+### [إضافة ارتباطات إلى الشروط القانونية وبيان الخصوصية في مؤسستك](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [إدارة خرائط Bing](dev-itpro/manage-bing-maps.md)
 
-## القابلية للتوسعة
+## قابلية التوسعة
 ### نقطة البيع
 #### [تخطيط شاشة Retail POS](pos-screen-layouts.md)
 ##### [تثبيت مصمم تخطيط POS](install-pos-layout-designer.md)
 #### [تكوين MPOS لوضع العمل دون اتصال](dev-itpro/retail-modern-pos-offline.md)
 #### [قابلية التوسعة لمشغل MPOS وPOS السحابي](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [إضافة عنصر تحكم مخصص إلى طريقة عرض نقطة البيع](dev-itpro/pos-custom-control.md)
-#### [الرقم الداخلي لدفع نقطة البيع](dev-itpro/pos-payment-extension.md)
-### [إنشاء تجربة البيع بالتجزئة](dev-itpro/create-retail-experience-app.md)
+#### [إضافة عنصر تحكم مخصص إلى طريقة عرض نقطة البيع (POS)](dev-itpro/pos-custom-control.md)
+#### [ملحق دفع نقطة البيع (POS)](dev-itpro/pos-payment-extension.md)
+#### [دعم بطاقة الهدايا الخارجية](dev-itpro/gift-card.md)
+### [إنشاء تطبيق تجربة Retail](dev-itpro/create-retail-experience-app.md)
 ### [نظرة عامة على Hardware Station وقابلية التوسعة](dev-itpro/hardware-station-extensibility.md)
 
 ### خادم البيع بالتجزئة
@@ -230,10 +240,16 @@
 ### [نماذج قابلة للتوسعة لـ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [آلات تسجيل المدفوعات النقدية الخاصة بالسويد](localizations/emea-swe-cash-registers.md)
 ### [عينة لتكامل Retail POS مع وحدات التحكم بالسويد](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+### [آلات تسجيل المدفوعات النقدية الخاصة بالنرويج‎](localizations/emea-nor-cash-registers.md)
+### [إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنرويج](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [حزمة Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [أمثلة Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [عينات Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [ملحقات قاعدة بيانات القناة (DB)](dev-itpro/channel-db-extensions.md)
-### [القابلية لتوسعة CDX](dev-itpro/cdx-extensibility.md)
+### [قابلية توسعة CDX](dev-itpro/cdx-extensibility.md)
+### [سمات الأوامر](dev-itpro/order-attributes.md)
+### [سمات العميل](dev-itpro/customer-attributes.md)
+### [Retail Typescript ووكيل C#](dev-itpro/typescript-proxy-retail-pos.md)
+
 
 ## وقت التشغيل التجاري
 ### [ملحق الولاء](dev-itpro/retail-sdk/loyalty-extension-sample.md)

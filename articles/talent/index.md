@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 358f5bf6194f5dd3f1639425e6633aa1a855bdc1
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 449643cc34e67388210e0b4e9d04d615d2420610
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-يعمل Microsoft Dynamics 365 for Talent على تبسيط العديد من المهام الروتينية المتعلقة بحفظ السجلات وعلى أتمتة عدد من العمليات المتعلقة بتعيين الموظفين في مؤسستك.‬ وتشمل هذه العمليات استبقاء الموظفين وإدارة الميزات والتدريب ومراجعات الأداء وإدارة التغييرات.‬ وهو يوفر أيضًا إطار عمل لموظفي الموارد البشرية لإدارة مجالات الرقابة.
+يعمل Microsoft Dynamics 365 for Talent على تبسيط العديد من المهام الروتينية المتعلقة بحفظ السجلات وعلى أتمتة عدد من العمليات المتعلقة بتعيين الموظفين في مؤسستك. تشمل هذه العمليات استبقاء الموظفين وإدارة الميزات والتدريب ومراجعات الأداء وإدارة التغييرات. وهو يوفر أيضًا إطار عمل لموظفي الموارد البشرية لإدارة مجالات الرقابة.
 
 يُمكنك استخدام Talent لاستكمال المهام التالية:
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/29/2017
 + إعداد الدورات التدريبية التي تتضمن جداول الأعمال والجلسات والمسارات وتقديمها وتحليلها.
 
 > [!NOTE] 
-> إن Dynamics 365 for Talent مرتبط ارتباطًا وثيقًا بالموارد البشرية في Dynamics 365 for Finance and Operations، إصدار Enterprise. قد تظهر نفس الوظيفة في كلا المنتجين. وكنتيجة لذلك، في المواضيع المتعلقة بالموارد البشرية بشكل أساسي، سيكون اسم المنتج هو Dynamics 365 for Finance and Operations، إصدار Enterprise؛ في المواضيع المتعلقة بـ Talent بشكل أساسي، سيكون اسم المنتج هو Dynamics 365 for Talent.‬ قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
+> ثمة ارتباط وثيق بين Dynamics 365 for Talent والموارد البشرية في Dynamics 365 for Finance and Operations, Enterprise edition. قد تظهر نفس الوظيفة في كلا المنتجين. وكنتيجة لذلك، في المواضيع المتعلقة بالموارد البشرية بشكل أساسي، سيكون اسم المنتج هو Dynamics 365 for Finance and Operations, Enterprise edition؛ في المواضيع المتعلقة بـ Talent بشكل أساسي، سيكون اسم المنتج هو Dynamics 365 for Talent.‬ قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>وضع استراتيجية لإدارة الموارد البشرية
 ---------------------------------------------------------

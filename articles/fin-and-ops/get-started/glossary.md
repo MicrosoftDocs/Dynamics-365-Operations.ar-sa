@@ -1,6 +1,6 @@
 ---
 title: "مصطلحات Finance and Operations"
-description: "‏‫تعرّف هذه المصطلحات والمفاهيم الأساسية في Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise."
+description: "‏‫تعرّف هذه المصطلحات والمفاهيم الأساسية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: tonyafehr
 manager: AnnBe
 ms.date: 07/25/2017
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 04f47b838bb5ca0d22f36855c3a969d4c38430de
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: faf9355218f39e3ded194cbe3726a76b04aa9dbf
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-‏‫تعرّف هذه المصطلحات والمفاهيم الأساسية في Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise. 
+‏‫تعرّف هذه المصطلحات والمفاهيم الأساسية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
 
 ### <a name="a"></a>**أ**
 
@@ -260,7 +260,7 @@ ms.lasthandoff: 09/29/2017
 
 مفهوم Lean يتم استخدامه لتأسيس دورة إنتاج متكررة بصفة منتظمة.
 
-###### <a name="extension"></a>**الرقم الداخلي**
+###### <a name="extension"></a>**ملحق**
 
 تخصيص تطبيق عن طريق إضافة وظيفة لكود موجود.
 
