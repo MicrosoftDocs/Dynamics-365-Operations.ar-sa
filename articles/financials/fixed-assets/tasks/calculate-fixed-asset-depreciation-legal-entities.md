@@ -1,9 +1,9 @@
 --- 
 title: "حساب إهلاك الأصول الثابتة عبر الكيانات القانونية"
-description: "استخدم هذا الإجراء لتغيير مجموعة الأصول الثابتة التي تم تعيين أصل ثابت لها."
+description: "يوضح هذا الإجراء كيفية إعداد عملية الإهلاك للعديد من الكيانات القانونية‬ وكيفية تشغيلها."
 author: saraschi2
 manager: AnnBe
-ms.date: 10/11/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,27 +16,40 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 91f3f4a625d5d4b47bbe9d4e2d0ca0ed8da9dcd6
+ms.sourcegitcommit: d804480167414cd038f8229db312dc9c52d131f8
+ms.openlocfilehash: 4c45da124136b7fecb916d2ff9098c8ffeff6cb1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
-# <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a><span data-ttu-id="82322-103">حساب إهلاك الأصول الثابتة عبر الكيانات القانونية</span><span class="sxs-lookup"><span data-stu-id="82322-103">Calculate fixed asset depreciation across legal entities</span></span>
+# <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a><span data-ttu-id="3a0a1-103">حساب إهلاك الأصول الثابتة عبر الكيانات القانونية</span><span class="sxs-lookup"><span data-stu-id="3a0a1-103">Calculate fixed asset depreciation across legal entities</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="82322-104">استخدم هذا الإجراء لتغيير مجموعة الأصول الثابتة التي تم تعيين أصل ثابت لها.</span><span class="sxs-lookup"><span data-stu-id="82322-104">Use this procedure to change the fixed asset group that a fixed asset is assigned to.</span></span> <span data-ttu-id="82322-105">يجب تعيين الأصول الثابتة إلى مجموعة الأصول الثابتة الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="82322-105">Fixed assets should be assigned to the correct fixed asset group.</span></span> <span data-ttu-id="82322-106">يتم استخدام مجموعة الأصول الثابتة عند إنشاء الاستعلامات والتقارير، وإعداد الأصول الثابتة الجديدة، ودمج دفاتر الأستاذ وترحيل حركات الأصول الثابتة لحسابات دفتر الأستاذ المناسبة.</span><span class="sxs-lookup"><span data-stu-id="82322-106">The fixed asset group is used when you create inquiries and reports, set up new fixed assets, and integrate ledgers and post fixed asset transactions to the appropriate ledger accounts.</span></span>
+<span data-ttu-id="3a0a1-104">يمكن تشغيل إهلاك الأصول الثابتة عبر الكيانات القانونية في خطوة واحدة.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-104">Fixed asset depreciation can be run across legal entities in a single step.</span></span> <span data-ttu-id="3a0a1-105">يوضح هذا الإجراء كيفية إعداد العملية للعديد من الكيانات القانونية‬ وكيفية تشغيلها.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-105">This procedure shows you to how set up and run the process for multiple legal entities.</span></span> <span data-ttu-id="3a0a1-106">يستخدم دور المحاسب.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-106">It uses the accountant role.</span></span>  
 
-<span data-ttu-id="82322-107">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="82322-107">This recording uses the USMF demo company.</span></span>
+<span data-ttu-id="3a0a1-107">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-107">This recording uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="82322-108">انتقل إلى الأصول الثابتة > الأصول الثابتة > الأصول الثابتة.</span><span class="sxs-lookup"><span data-stu-id="82322-108">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
-2. <span data-ttu-id="82322-109">حدد الأصل الثابت الذي تريد تغيير مجموعة الأصول الثابتة له.</span><span class="sxs-lookup"><span data-stu-id="82322-109">Select the fixed asset to change the fixed asset group for.</span></span>
-3. <span data-ttu-id="82322-110">انقر فوق "تغيير مجموعة الأصول الثابتة".</span><span class="sxs-lookup"><span data-stu-id="82322-110">Click Change fixed asset group.</span></span>
-4. <span data-ttu-id="82322-111">في الحقل "مجموعة جديدة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="82322-111">In the New group field, enter or select a value.</span></span>
-5. <span data-ttu-id="82322-112">عيّن خيار "رقم الأصل الثابت الجديد" إلى "نعم" لتعيين رقم أصل ثابت إلى الأصل الثابت المحدد.</span><span class="sxs-lookup"><span data-stu-id="82322-112">Set the New fixed asset number option to Yes to assign a fixed asset number to the selected fixed asset.</span></span>
-    * <span data-ttu-id="82322-113">يصبح حقل "رقم الأصل الثابت‬" متوفرًا عند تعيين الخيار "رقم الأصل الثابت الجديد‬" إلى "نعم".</span><span class="sxs-lookup"><span data-stu-id="82322-113">The Fixed asset number field becomes available when the New fixed asset number option is set to Yes.</span></span>   <span data-ttu-id="82322-114">وفي حالة إعداد ترقيم تلقائي للأصول الثابتة، يعرض هذا الحقل رقم الأصل الثابت المتوفر التالي.</span><span class="sxs-lookup"><span data-stu-id="82322-114">If automatic numbering is set up for fixed assets, this field shows the next available fixed asset number.</span></span> <span data-ttu-id="82322-115">ويمكنك تغيير الرقم.</span><span class="sxs-lookup"><span data-stu-id="82322-115">You can change the number.</span></span>   <span data-ttu-id="82322-116">في حالة إعداد الترقيم اليدوي للأصول الثابتة، يكون هذا الحقل فارغًا ويجب إدخال رقم الأصل الثابت الجديد.</span><span class="sxs-lookup"><span data-stu-id="82322-116">If manual numbering is set up for fixed assets, this field is blank, and you must enter the new fixed asset number.</span></span>  
-6. <span data-ttu-id="82322-117">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="82322-117">Click OK.</span></span>
-7. <span data-ttu-id="82322-118">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="82322-118">Click Yes.</span></span>
 
+<span data-ttu-id="3a0a1-108">مهمة فرعية، الخطوات (16): إعداد دفاتر يومية تشغيل الإهلاك عبر الشركة.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-108">Steps (16) Sub-task: Set up cross company depreciation run journals.</span></span> 
+
+1. <span data-ttu-id="3a0a1-109">أولاً، يجب إعداد دفاتر اليومية المقرر استخدامها في تشغيل الإهلاك عبر الشركة في كل كيان قانوني.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-109">First, you must set up the journals to be used in the cross company depreciation run in each legal entity.</span></span> <span data-ttu-id="3a0a1-110">انتقل إلى الأصول الثابتة > إعداد > معلمات الأصول الثابتة.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-110">Go to Fixed assets > Setup > Fixed assets parameters.</span></span> 
+2. <span data-ttu-id="3a0a1-111">قم بتوسيع قسم عروض الأصول الثابتة‬.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-111">Expand the Fixed asset proposals section.</span></span> 
+3. <span data-ttu-id="3a0a1-112">أنشئ سجلاً باسم دفتر اليومية المقرر استخدامه لكل طبقة ترحيل في الكيان القانوني.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-112">Create a record with the journal name to be used for each posting layer in the legal entity.</span></span> <span data-ttu-id="3a0a1-113">إذا لم تكن الدفاتر تقوم بالترحيل إلى دفتر الأستاذ العام، فيجب عندئذ تحديد طبقة الترحيل "بلا" مع دفتر اليومية المقترن.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-113">If books do not post to the general ledger, then the None posting layer should be selected with the associated journal.</span></span> <span data-ttu-id="3a0a1-114">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-114">Click Add.</span></span> 
+4. <span data-ttu-id="3a0a1-115">في الحقل "طبقة الترحيل"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-115">In the Posting layer field, enter or select a value.</span></span> 
+5. <span data-ttu-id="3a0a1-116">في الحقل "اسم دفتر اليومية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-116">In the Journal name field, enter or select a value.</span></span> 
+6. <span data-ttu-id="3a0a1-117">قم بتكرار إعداد دفتر اليومية في صفحة معلمات الأصول الثابتة في كل كيان قانوني.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-117">Repeat the journal setup on the Fixed asset parameters page in each legal entity.</span></span> 
+
+<span data-ttu-id="3a0a1-118">مهمة فرعية: حساب الإهلاك</span><span class="sxs-lookup"><span data-stu-id="3a0a1-118">Sub-task: Calculate depreciation</span></span>
+
+1. <span data-ttu-id="3a0a1-119">استخدم صفحة إنشاء عرض إهلاك لبدء تشغيل إهلاك عبر الكيانات القانونية.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-119">Use the Create depreciation proposal page to start your depreciation run across legal entities.</span></span> <span data-ttu-id="3a0a1-120">انتقل إلى الأصول الثابتة > إدخالات دفتر اليومية‬ > إنشاء مقترح الإهلاك‬‬.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-120">Go to Fixed assets > Journal entries > Create depreciation proposal.</span></span> 
+2. <span data-ttu-id="3a0a1-121">في الحقل "طبقة الترحيل"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-121">In the Posting layer field, enter or select a value.</span></span> 
+3. <span data-ttu-id="3a0a1-122">سيتم تعيين اسم دفتر اليومية افتراضيًا من معلمات الأصول الثابتة.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-122">The journal name will default from the Fixed asset parameters.</span></span> <span data-ttu-id="3a0a1-123">ويمكن تغييره من هنا للكيان القانوني الحالي.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-123">It can be changed here for the current legal entity.</span></span> 
+4. <span data-ttu-id="3a0a1-124">في الحقل "إلى تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-124">In the To date field, enter a date.</span></span> 
+5. <span data-ttu-id="3a0a1-125">حدد الكيانات القانونية المقرر تضمينها في تشغيل الإهلاك.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-125">Select the legal entities to be included in the depreciation run.</span></span> <span data-ttu-id="3a0a1-126">لن يظهر في القائمة غير الكيانات القانونية ذات دفاتر اليومية التي تم إعدادها لعروض الأصول الثابتة في صفحة معلمات الأصول الثابتة.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-126">Only legal entities with journals set up for Fixed asset proposals on the Fixed asset parameters page will be shown in the list.</span></span> 
+6. <span data-ttu-id="3a0a1-127">في حالة التمكين، سيقوم خيار ترحيل دفاتر اليومية بترحيل دفاتر يومية الإهلاك تلقائيًا عند إنشائها.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-127">When enabled, the Post journals option will automatically post the depreciation journals when they are created.</span></span> <span data-ttu-id="3a0a1-128">في حالة عدم التحديد، سيتم إنشاء دفاتر اليومية، ولكن لن يتم ترحيلها، بحيث تتمكن من مراجعة التفاصيل قبل الترحيل.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-128">When not selected, the journals will be created, but not posted, so you can review the details before posting.</span></span> <span data-ttu-id="3a0a1-129">حدد نعم في الحقل ترحيل دفاتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-129">Select Yes in the Post journals field.</span></span> 
+7. <span data-ttu-id="3a0a1-130">تتضمن حقول التصفية جميع الأصول الثابتة والمجموعات والدفاتر الخاصة بالكيانات القانونية المحددة لتشغيل الإهلاك هذا.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-130">Filtering fields include all fixed assets, groups, and books for the legal entities selected for this depreciation run.</span></span> 
+8. <span data-ttu-id="3a0a1-131">يتم تمكين خيار معالجة الدُفعة بشكل افتراضي.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-131">The Batch processing option is enabled by default.</span></span> <span data-ttu-id="3a0a1-132">عند تمكين هذا الخيار، سيتم تشغيل إنشاء دفتر يومية الإهلاك وترحيله في الخلفية.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-132">When this option is enabled, the depreciation journal creation and posting will run in the background.</span></span> 
+9. <span data-ttu-id="3a0a1-133">انقر فوق "إنشاء دفتر اليومية".</span><span class="sxs-lookup"><span data-stu-id="3a0a1-133">Click Create journal.</span></span> 
+10. <span data-ttu-id="3a0a1-134">يمكنك عرض دفاتر يومية الإهلاك التي تم إنشاؤها في الكيانات القانونية الخاصة.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-134">You must view the depreciation journals created in the respective legal entities.</span></span> <span data-ttu-id="3a0a1-135">انتقل إلى الأصول الثابتة > إدخالات دفتر اليومية‬ > دفتر يومية الأصول الثابتة‬.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-135">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
 

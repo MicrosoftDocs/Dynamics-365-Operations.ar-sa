@@ -26,70 +26,70 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="b948d-103">أساليب الإهلاك والقواعد</span><span class="sxs-lookup"><span data-stu-id="b948d-103">Depreciation methods and conventions</span></span>
+# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="647d2-103">أساليب الإهلاك والقواعد</span><span class="sxs-lookup"><span data-stu-id="647d2-103">Depreciation methods and conventions</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="b948d-104">توفر هذه المقالة نظرة عامة حول قواعد الإهلاك وطرق الإهلاك التي يدعمها Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="b948d-104">This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>
+<span data-ttu-id="647d2-104">توفر هذه المقالة نظرة عامة حول قواعد الإهلاك وطرق الإهلاك التي يدعمها Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="647d2-104">This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>
 
-<span data-ttu-id="b948d-105">يُمكنك تحديد أساليب وقواعد إهلاك متعددة.</span><span class="sxs-lookup"><span data-stu-id="b948d-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="b948d-106">تهدف هذه الطرق إلى تخصيص القيمة الممكن إهلاكها للأصل الثابت إلى فترات مالية.</span><span class="sxs-lookup"><span data-stu-id="b948d-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="b948d-107">والقيمة الممكن إهلاكها للأصل الثابت هي عبارة عن سعر الامتلاك الذي يتم خصم قيمة الخردة منه، إن وُجدت.</span><span class="sxs-lookup"><span data-stu-id="b948d-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
+<span data-ttu-id="647d2-105">يُمكنك تحديد أساليب وقواعد إهلاك متعددة.</span><span class="sxs-lookup"><span data-stu-id="647d2-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="647d2-106">تهدف هذه الطرق إلى تخصيص القيمة الممكن إهلاكها للأصل الثابت إلى فترات مالية.</span><span class="sxs-lookup"><span data-stu-id="647d2-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="647d2-107">والقيمة الممكن إهلاكها للأصل الثابت هي عبارة عن سعر الامتلاك الذي يتم خصم قيمة الخردة منه، إن وُجدت.</span><span class="sxs-lookup"><span data-stu-id="647d2-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
 
-<span data-ttu-id="b948d-108">إذا كنت تستخدم قواعد الإهلاك وقمت بتعديل تاريخ تشغيل آخر إهلاك لأحد الأصول، والذي يؤدي إلى تخطي بعض عمليات الإهلاك، فقد يزيد إهلاك العام الأخير أو يقل عما هو مُتوقع.</span><span class="sxs-lookup"><span data-stu-id="b948d-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="b948d-109">ويتم تعديل الإهلاك بعدد فترات الإهلاك التي تأثرت بتعديل آخر تاريخ لتشغيل الإهلاك.</span><span class="sxs-lookup"><span data-stu-id="b948d-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
+<span data-ttu-id="647d2-108">إذا كنت تستخدم قواعد الإهلاك وقمت بتعديل تاريخ تشغيل آخر إهلاك لأحد الأصول، والذي يؤدي إلى تخطي بعض عمليات الإهلاك، فقد يزيد إهلاك العام الأخير أو يقل عما هو مُتوقع.</span><span class="sxs-lookup"><span data-stu-id="647d2-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="647d2-109">ويتم تعديل الإهلاك بعدد فترات الإهلاك التي تأثرت بتعديل آخر تاريخ لتشغيل الإهلاك.</span><span class="sxs-lookup"><span data-stu-id="647d2-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
 
-<span data-ttu-id="b948d-110">على سبيل المثال، إذا كنت تستخدم قاعدة الإهلاك نصف السنوية على مدار ثلاث سنوات، فسيقع الإهلاك عادةً على مدار 3 سنوات ونصف.</span><span class="sxs-lookup"><span data-stu-id="b948d-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="b948d-111">وإذا قمت بتغيير آخر تاريخ لتشغيل الإهلاك خلال مدة 3 سنوات ونصف، فسيخرج العام الأخير للإهلاك عن عدد الفترات المتأثرة.</span><span class="sxs-lookup"><span data-stu-id="b948d-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="b948d-112">وفي حالة تقديم التاريخ بثلاثة أشهر، فسيشتمل العام الأخير على تسعة أشهر تستحق الإهلاك، في حين أنه يكون هناك عادةً ستة أشهر تستحق الإهلاك.</span><span class="sxs-lookup"><span data-stu-id="b948d-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
+<span data-ttu-id="647d2-110">على سبيل المثال، إذا كنت تستخدم قاعدة الإهلاك نصف السنوية على مدار ثلاث سنوات، فسيقع الإهلاك عادةً على مدار 3 سنوات ونصف.</span><span class="sxs-lookup"><span data-stu-id="647d2-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="647d2-111">وإذا قمت بتغيير آخر تاريخ لتشغيل الإهلاك خلال مدة 3 سنوات ونصف، فسيخرج العام الأخير للإهلاك عن عدد الفترات المتأثرة.</span><span class="sxs-lookup"><span data-stu-id="647d2-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="647d2-112">وفي حالة تقديم التاريخ بثلاثة أشهر، فسيشتمل العام الأخير على تسعة أشهر تستحق الإهلاك، في حين أنه يكون هناك عادةً ستة أشهر تستحق الإهلاك.</span><span class="sxs-lookup"><span data-stu-id="647d2-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
 
-<span data-ttu-id="b948d-113">ويُمكنك الاختيار من بين قواعد الإهلاك التالية.</span><span class="sxs-lookup"><span data-stu-id="b948d-113">You can select from the following depreciation conventions.</span></span>
+<span data-ttu-id="647d2-113">ويُمكنك الاختيار من بين قواعد الإهلاك التالية.</span><span class="sxs-lookup"><span data-stu-id="647d2-113">You can select from the following depreciation conventions.</span></span>
 
 
--   <span data-ttu-id="b948d-114">نصف السنة</span><span class="sxs-lookup"><span data-stu-id="b948d-114">Half year</span></span>
--   <span data-ttu-id="b948d-115">شهر كامل</span><span class="sxs-lookup"><span data-stu-id="b948d-115">Full month</span></span>
--   <span data-ttu-id="b948d-116">منتصف الربع</span><span class="sxs-lookup"><span data-stu-id="b948d-116">Mid quarter</span></span>
--   <span data-ttu-id="b948d-117">منتصف الشهر (أول الشهر)</span><span class="sxs-lookup"><span data-stu-id="b948d-117">Mid month (1st of month)</span></span>
--   <span data-ttu-id="b948d-118">منتصف الشهر(الخامس عشر من الشهر)</span><span class="sxs-lookup"><span data-stu-id="b948d-118">Mid month (15th of month)</span></span>
--   <span data-ttu-id="b948d-119">نصف السنة (بداية السنة)</span><span class="sxs-lookup"><span data-stu-id="b948d-119">Half year (start of year)</span></span>
--   <span data-ttu-id="b948d-120">نصف سنة (السنة التالية)</span><span class="sxs-lookup"><span data-stu-id="b948d-120">Half year (next year)</span></span>
+-   <span data-ttu-id="647d2-114">نصف السنة</span><span class="sxs-lookup"><span data-stu-id="647d2-114">Half year</span></span>
+-   <span data-ttu-id="647d2-115">شهر كامل</span><span class="sxs-lookup"><span data-stu-id="647d2-115">Full month</span></span>
+-   <span data-ttu-id="647d2-116">منتصف الربع</span><span class="sxs-lookup"><span data-stu-id="647d2-116">Mid quarter</span></span>
+-   <span data-ttu-id="647d2-117">منتصف الشهر (أول الشهر)</span><span class="sxs-lookup"><span data-stu-id="647d2-117">Mid month (1st of month)</span></span>
+-   <span data-ttu-id="647d2-118">منتصف الشهر(الخامس عشر من الشهر)</span><span class="sxs-lookup"><span data-stu-id="647d2-118">Mid month (15th of month)</span></span>
+-   <span data-ttu-id="647d2-119">نصف السنة (بداية السنة)</span><span class="sxs-lookup"><span data-stu-id="647d2-119">Half year (start of year)</span></span>
+-   <span data-ttu-id="647d2-120">نصف سنة (السنة التالية)</span><span class="sxs-lookup"><span data-stu-id="647d2-120">Half year (next year)</span></span>
 
-<span data-ttu-id="b948d-121">يمكنك التحديد من طرق الإهلاك التالية.</span><span class="sxs-lookup"><span data-stu-id="b948d-121">You can select from the following depreciation methods.</span></span>
--   <span data-ttu-id="b948d-122">مدة خدمة القسط الثابت</span><span class="sxs-lookup"><span data-stu-id="b948d-122">Straight line service life</span></span>
--   <span data-ttu-id="b948d-123">تقليل الرصيد</span><span class="sxs-lookup"><span data-stu-id="b948d-123">Reducing balance</span></span>
--   <span data-ttu-id="b948d-124">يدوي</span><span class="sxs-lookup"><span data-stu-id="b948d-124">Manual</span></span>
--   <span data-ttu-id="b948d-125">المعامل</span><span class="sxs-lookup"><span data-stu-id="b948d-125">Factor</span></span>
--   <span data-ttu-id="b948d-126">الاستهلاك</span><span class="sxs-lookup"><span data-stu-id="b948d-126">Consumption</span></span>
--   <span data-ttu-id="b948d-127">المتبقي من مدة خدمة القسط الثابت</span><span class="sxs-lookup"><span data-stu-id="b948d-127">Straight line life remaining</span></span>
--   <span data-ttu-id="b948d-128">تقليل الرصيد بنسبة 200%</span><span class="sxs-lookup"><span data-stu-id="b948d-128">200% reducing balance</span></span>
--   <span data-ttu-id="b948d-129">تقليل الرصيد بنسبة 175%</span><span class="sxs-lookup"><span data-stu-id="b948d-129">175% reducing balance</span></span>
--   <span data-ttu-id="b948d-130">تقليل الرصيد بنسبة 150%</span><span class="sxs-lookup"><span data-stu-id="b948d-130">150% reducing balance</span></span>
--   <span data-ttu-id="b948d-131">تقليل الرصيد بنسبة 125%</span><span class="sxs-lookup"><span data-stu-id="b948d-131">125% reducing balance</span></span>
+<span data-ttu-id="647d2-121">يمكنك التحديد من طرق الإهلاك التالية.</span><span class="sxs-lookup"><span data-stu-id="647d2-121">You can select from the following depreciation methods.</span></span>
+-   <span data-ttu-id="647d2-122">مدة خدمة القسط الثابت</span><span class="sxs-lookup"><span data-stu-id="647d2-122">Straight line service life</span></span>
+-   <span data-ttu-id="647d2-123">تقليل الرصيد</span><span class="sxs-lookup"><span data-stu-id="647d2-123">Reducing balance</span></span>
+-   <span data-ttu-id="647d2-124">يدوي</span><span class="sxs-lookup"><span data-stu-id="647d2-124">Manual</span></span>
+-   <span data-ttu-id="647d2-125">المعامل</span><span class="sxs-lookup"><span data-stu-id="647d2-125">Factor</span></span>
+-   <span data-ttu-id="647d2-126">الاستهلاك</span><span class="sxs-lookup"><span data-stu-id="647d2-126">Consumption</span></span>
+-   <span data-ttu-id="647d2-127">المتبقي من مدة خدمة القسط الثابت</span><span class="sxs-lookup"><span data-stu-id="647d2-127">Straight line life remaining</span></span>
+-   <span data-ttu-id="647d2-128">تقليل الرصيد بنسبة 200%</span><span class="sxs-lookup"><span data-stu-id="647d2-128">200% reducing balance</span></span>
+-   <span data-ttu-id="647d2-129">تقليل الرصيد بنسبة 175%</span><span class="sxs-lookup"><span data-stu-id="647d2-129">175% reducing balance</span></span>
+-   <span data-ttu-id="647d2-130">تقليل الرصيد بنسبة 150%</span><span class="sxs-lookup"><span data-stu-id="647d2-130">150% reducing balance</span></span>
+-   <span data-ttu-id="647d2-131">تقليل الرصيد بنسبة 125%</span><span class="sxs-lookup"><span data-stu-id="647d2-131">125% reducing balance</span></span>
 
  
 
 
 
-<a name="see-also"></a><span data-ttu-id="b948d-132">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="b948d-132">See also</span></span>
+<a name="see-also"></a><span data-ttu-id="647d2-132">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="647d2-132">See also</span></span>
 --------
 
-[<span data-ttu-id="b948d-133">إهلاك الأصول الثابتة‬</span><span class="sxs-lookup"><span data-stu-id="b948d-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
+[<span data-ttu-id="647d2-133">إهلاك الأصول الثابتة‬</span><span class="sxs-lookup"><span data-stu-id="647d2-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
 
-[<span data-ttu-id="b948d-134">إهلاك مدة خدمة القسط الثابت</span><span class="sxs-lookup"><span data-stu-id="b948d-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
+[<span data-ttu-id="647d2-134">إهلاك مدة خدمة القسط الثابت</span><span class="sxs-lookup"><span data-stu-id="647d2-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
 
-[<span data-ttu-id="b948d-135">إهلاك القسط المتناقص</span><span class="sxs-lookup"><span data-stu-id="b948d-135">Reducing balance depreciation</span></span>](reduce-balance-depreciation.md)
+[<span data-ttu-id="647d2-135">إهلاك القسط المتناقص</span><span class="sxs-lookup"><span data-stu-id="647d2-135">Reducing balance depreciation</span></span>](reduce-balance-depreciation.md)
 
-[<span data-ttu-id="b948d-136">الإهلاك اليدوي</span><span class="sxs-lookup"><span data-stu-id="b948d-136">Manual depreciation</span></span>](manual-depreciation.md)
+[<span data-ttu-id="647d2-136">الإهلاك اليدوي</span><span class="sxs-lookup"><span data-stu-id="647d2-136">Manual depreciation</span></span>](manual-depreciation.md)
 
-[<span data-ttu-id="b948d-137">إهلاك العامل</span><span class="sxs-lookup"><span data-stu-id="b948d-137">Factor depreciation</span></span>](factor-depreciation.md)
+[<span data-ttu-id="647d2-137">إهلاك العامل</span><span class="sxs-lookup"><span data-stu-id="647d2-137">Factor depreciation</span></span>](factor-depreciation.md)
 
-[<span data-ttu-id="b948d-138">إهلاك الاستهلاك</span><span class="sxs-lookup"><span data-stu-id="b948d-138">Consumption depreciation</span></span>](consumption-depreciation.md)
+[<span data-ttu-id="647d2-138">إهلاك الاستهلاك</span><span class="sxs-lookup"><span data-stu-id="647d2-138">Consumption depreciation</span></span>](consumption-depreciation.md)
 
-[<span data-ttu-id="b948d-139">إهلاك المتبقي من مدة خدمة القسط الثابت</span><span class="sxs-lookup"><span data-stu-id="b948d-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
+[<span data-ttu-id="647d2-139">إهلاك المتبقي من مدة خدمة القسط الثابت</span><span class="sxs-lookup"><span data-stu-id="647d2-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
 
-[<span data-ttu-id="b948d-140">إهلاك الرصيد المتناقص بنسبة 125 بالمائة</span><span class="sxs-lookup"><span data-stu-id="b948d-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="647d2-140">إهلاك الرصيد المتناقص بنسبة 125 بالمائة</span><span class="sxs-lookup"><span data-stu-id="647d2-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="b948d-141">إهلاك الرصيد المتناقص بنسبة 150 بالمائة</span><span class="sxs-lookup"><span data-stu-id="b948d-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="647d2-141">إهلاك الرصيد المتناقص بنسبة 150 بالمائة</span><span class="sxs-lookup"><span data-stu-id="647d2-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="b948d-142">إهلاك الرصيد المتناقص بنسبة 175 بالمائة</span><span class="sxs-lookup"><span data-stu-id="b948d-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="647d2-142">إهلاك الرصيد المتناقص بنسبة 175 بالمائة</span><span class="sxs-lookup"><span data-stu-id="647d2-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="b948d-143">إهلاك الرصيد المتناقص بنسبة 200 بالمائة</span><span class="sxs-lookup"><span data-stu-id="b948d-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="647d2-143">إهلاك الرصيد المتناقص بنسبة 200 بالمائة</span><span class="sxs-lookup"><span data-stu-id="647d2-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
 
 
 

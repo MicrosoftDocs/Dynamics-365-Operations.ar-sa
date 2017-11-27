@@ -26,26 +26,26 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="analyze-store-performance"></a><span data-ttu-id="cf364-103">تحليل أداء المتجر</span><span class="sxs-lookup"><span data-stu-id="cf364-103">Analyze store performance</span></span>
+# <a name="analyze-store-performance"></a><span data-ttu-id="945b3-103">تحليل أداء المتجر</span><span class="sxs-lookup"><span data-stu-id="945b3-103">Analyze store performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-<span data-ttu-id="cf364-104">تشرح هذه المقالة كيفية استخدام التحليلات في الذاكرة وفي الوقت الحقيقي للوصول إلى معلومات حول أداء المتجر واستكشافها واكتسابها استنادًا إلى بيانات Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="cf364-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
+<span data-ttu-id="945b3-104">تشرح هذه المقالة كيفية استخدام التحليلات في الذاكرة وفي الوقت الحقيقي للوصول إلى معلومات حول أداء المتجر واستكشافها واكتسابها استنادًا إلى بيانات Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="945b3-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
 
-<span data-ttu-id="cf364-105">كجزء من Dynamics 365 for Retail، يستطيع المستخدمون دراسة أداء المتجر في الوقت الحقيقي على مختلف مستويات التدرج الهرمي للمؤسسات خلال فترة محددة عن طريق فتح تقرير **ملخص القناة** الجاهز من أي من المواقع التالية:</span><span class="sxs-lookup"><span data-stu-id="cf364-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
+<span data-ttu-id="945b3-105">كجزء من Dynamics 365 for Retail، يستطيع المستخدمون دراسة أداء المتجر في الوقت الحقيقي على مختلف مستويات التدرج الهرمي للمؤسسات خلال فترة محددة عن طريق فتح تقرير **ملخص القناة** الجاهز من أي من المواقع التالية:</span><span class="sxs-lookup"><span data-stu-id="945b3-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
 
--   <span data-ttu-id="cf364-106">مساحة عمل**إدارة متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير ملخص القناة‬**</span><span class="sxs-lookup"><span data-stu-id="cf364-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
--   <span data-ttu-id="cf364-107">مساحة عمل**ماليات متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **ماليات متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير ملخص القناة‬**</span><span class="sxs-lookup"><span data-stu-id="cf364-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
--   <span data-ttu-id="cf364-108">قسم**الاستعلامات والتقارير** &gt; **البيع بالتجزئة** &gt; **الاستعلامات والتقارير** &gt; **تقارير المبيعات** &gt; **تقرير ملخص القناة**</span><span class="sxs-lookup"><span data-stu-id="cf364-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="945b3-106">مساحة عمل**إدارة متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير ملخص القناة‬**</span><span class="sxs-lookup"><span data-stu-id="945b3-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="945b3-107">مساحة عمل**ماليات متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **ماليات متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير ملخص القناة‬**</span><span class="sxs-lookup"><span data-stu-id="945b3-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="945b3-108">قسم**الاستعلامات والتقارير** &gt; **البيع بالتجزئة** &gt; **الاستعلامات والتقارير** &gt; **تقارير المبيعات** &gt; **تقرير ملخص القناة**</span><span class="sxs-lookup"><span data-stu-id="945b3-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
 
-<span data-ttu-id="cf364-109">يقدم هذا التقرير لقطةالملخصات التالية كجزء من أداء المتجر.</span><span class="sxs-lookup"><span data-stu-id="cf364-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
+<span data-ttu-id="945b3-109">يقدم هذا التقرير لقطةالملخصات التالية كجزء من أداء المتجر.</span><span class="sxs-lookup"><span data-stu-id="945b3-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
 
--   <span data-ttu-id="cf364-110">ملخص إجمالي المبيعات</span><span class="sxs-lookup"><span data-stu-id="cf364-110">Gross sales summary</span></span>
--   <span data-ttu-id="cf364-111">ملخص نوع طريقة الدفع</span><span class="sxs-lookup"><span data-stu-id="cf364-111">Tender type summary</span></span>
--   <span data-ttu-id="cf364-112">الملخص الضريبي</span><span class="sxs-lookup"><span data-stu-id="cf364-112">Tax summary</span></span>
--   <span data-ttu-id="cf364-113">ملخص تجاوزات السعر</span><span class="sxs-lookup"><span data-stu-id="cf364-113">Price overrides summary</span></span>
--   <span data-ttu-id="cf364-114">ملخص الخصومات</span><span class="sxs-lookup"><span data-stu-id="cf364-114">Discounts summary</span></span>
+-   <span data-ttu-id="945b3-110">ملخص إجمالي المبيعات</span><span class="sxs-lookup"><span data-stu-id="945b3-110">Gross sales summary</span></span>
+-   <span data-ttu-id="945b3-111">ملخص نوع طريقة الدفع</span><span class="sxs-lookup"><span data-stu-id="945b3-111">Tender type summary</span></span>
+-   <span data-ttu-id="945b3-112">الملخص الضريبي</span><span class="sxs-lookup"><span data-stu-id="945b3-112">Tax summary</span></span>
+-   <span data-ttu-id="945b3-113">ملخص تجاوزات السعر</span><span class="sxs-lookup"><span data-stu-id="945b3-113">Price overrides summary</span></span>
+-   <span data-ttu-id="945b3-114">ملخص الخصومات</span><span class="sxs-lookup"><span data-stu-id="945b3-114">Discounts summary</span></span>
 
 
 
