@@ -1,10 +1,9 @@
 # [مرحبًا بك في Dynamics 365 for Talent](index.md)
 
-# بدء الاستخدام
+# [بدء الاستخدام](talent-get-started.md)
 ## [متطلبات النظام وسياسة التحديث](talent-versions-update-policy.md)
 
-# تطوير إستراتيجية الموارد البشرية
-## [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](departments-jobs-positions.md)
+# [تطوير إستراتيجية الموارد البشرية](departments-jobs-positions.md)
 ## [إعداد مكونات الوظائف](create-job.md)
 ## [إنشاء قسم وربطه بالتدرج الهرمي للأقسام](create-department-add-department-hierarchy.md)
 ## [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](set-up-hr-parameters-across-legal-entities.md)
@@ -25,16 +24,14 @@
 
 # تطوير الموظفين وتدريبهم
 ## [نظرة عامة حول إدارة الأداء](performance-management-overview.md)
-## [محاذاة احتياجات العمل مع مهارات العاملين](skills.md)
+## [مواءمة احتياجات العمل مع مهارات العاملين](skills.md)
 ## [إعداد الدورات التدريبية](courses.md)
 
-# إنشاء المزايا والحفاظ عليها
-## [إدارة برنامج ميزات](manage-benefit-program.md)
-## [سياسات استحقاق الميزات](benefit-eligibility-policies.md)
-## [إدارة الأصناف المقرضة للعاملين](loan-items.md)
+# [إنشاء المزايا والحفاظ عليها](manage-benefit-program.md)
+# [سياسات استحقاق الميزات](benefit-eligibility-policies.md)
+## [إدارة الأصناف المعارة للعاملين](loan-items.md)
 
-# جمع المعلومات باستخدام الاستبيانات
-## [الاستبيانات](questionnaires.md)
+# [جمع المعلومات باستخدام الاستبيانات](questionnaires.md)
 ## [تصميم استبيان](design-questionnaires.md)
 ## [توزيع وإكمال استبيان](distribute-questionnaires.md)
 ## [تقييم نتائج الاستبيان](evaluate-questionnaire-results.md)

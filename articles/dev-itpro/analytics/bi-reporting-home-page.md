@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 9d9d6fe03c876097aedc501422b88d2f3e70f1d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 09/29/2017
 - [إدارة دورة حياة تكوين إعداد التقارير الإلكتروني](general-electronic-reporting-manage-configuration-lifecycle.md)
 - [إنشاء تكوين إعداد تقارير إلكتروني](electronic-reporting-configuration.md)
 
-## <a name="financial-reporting"></a>إعداد التقارير المالية
+## <a name="financial-reporting"></a>التقارير المالية
 يتم توفير التقارير المالية القياسية التي تستخدم فئات الحسابات الافتراضية الرئيسية في Finance and Operations. يمكنك استخدام مصمم التقارير لإنشاء أو تعديل القوائم المالية التقليدية، مثل كشوف الدخل والميزانيات العمومية. يمكنك بعد ذلك مشاركة النتائج مع أعضاء آخرين في مؤسستك. تشمل أمثلة إعداد التقارير المالية الميزانيات العمومية والتدفق النقدي وملخص ميزان المراجعة‬ كل عام.
 
 [![مثال لإعداد التقارير المالية](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
@@ -91,7 +91,7 @@ ms.lasthandoff: 09/29/2017
 - [تقرير كيانات البيانات التجميعية](aggregate-data-entities-report.md)
 - [تقرير القياسات المجمعة](aggregate-measurements-report.md)
 - [تقرير كيانات البيانات](../data-entities/data-entities-report.md)
-- [تقرير مؤشرات الأداء الأساسية (KPIs)](key-performance-indicators-report.md)
+- [تقرير مؤشرات الأداء الرئيسية (KPI)](key-performance-indicators-report.md)
 - [تقرير أكواد التراخيص ومفاتيح التكوين](../sysadmin/license-codes-configuration-keys-report.md)
 - [تقرير خدمات إعداد تقارير SQL Server](SSRS-report.md)
 - [تقرير أنواع سير العمل](../../fin-and-ops/organization-administration/workflow-types-report.md)

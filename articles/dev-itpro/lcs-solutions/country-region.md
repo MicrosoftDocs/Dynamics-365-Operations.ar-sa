@@ -3,24 +3,24 @@ title: "الترجمة والميزات التنظيمية"
 description: "يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الوظائف الخاصة بالبلد/المنطقة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الحلول والتحديثات والإنذارات والوظائف الخاصة بالبلد/المنطقة. 
 
 ## <a name="developing-localized-solutions"></a>تطوير حلول مترجمة
-توفر الموارد التالية توجيهات ومعلومات يمكن أن تساعد المطورين ومورِّدي البرامج الذين يُنشئون التخصيصات الخاصة بالبلد/المنطقة أو يُنشئون حلا لدولة لا تدعمها Microsoft.
+توفر الموارد التالية توجيهات ومعلومات باستطاعتها أن تساعد المطورين ومورِّدي البرامج المستقلين (ISV) الذين يعملون على إنشاء تخصيصات خاصة ببلد/منطقة أو على إنشاء حل لبلد لا تدعمه Microsoft.
 -   [نماذج الترجمة المنفصلة](separate-localization-models.md)
 -   [تطبيق سياق البلد/المنطقة](apply-country-context.md)
 -   [الشهادات التنظيمية](regulatory-certifications.md)
@@ -65,7 +65,7 @@ ms.lasthandoff: 09/29/2017
 -   [تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [استيراد تكوينات إعداد التقارير الإلكترونية](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [تكوين إعداد التقارير الإلكترونية لسحب البيانات إلى Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [إنشاء مستندات إلكترونية وتحديث بيانات التطبيق باستخدام أداة إعداد التقارير الإلكتروني](../analytics/generate-electronic-documents-update-application-data.md)
+-   [إنشاء مستندات إلكترونية وتحديث بيانات التطبيق باستخدام أداة إعداد التقارير الإلكترونية](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>دلائل المهام
 تتوافر دلائل المهام من جزء تعليمات في المنتج وتوفر معاينة إرشادية للعمليات التجارية الرئيسية. ويمكنك فتح دليل المهام وقراءة خطوات عملية تجارية أو يمكنك تشغيل دليل المهام لمعاينة عملية تجارية وإدخال البيانات.
@@ -123,7 +123,7 @@ ms.lasthandoff: 09/29/2017
 -   [الضرائب](../../financials/localizations/latam-bra-calculate-taxes.md)
 
 ### <a name="china"></a>الصين
--   [مقارنة قوائم مكونات الصنف](../../financials/localizations/apac-chn-bom-comparison.md)
+-   [مقارنة قائمة مكونات الصنف (BOM)](../../financials/localizations/apac-chn-bom-comparison.md)
 -   [الإيصالات الصينية](../../financials/localizations/apac-chn-vouchers.md)
 -   [تكوين تكامل الضريبة](../../financials/localizations/apac-chn-tax-integration.md)
     -   [الأسئلة الشائعة حول فواتير عملاء ضريبة القيمة المضافة](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)

@@ -1,16 +1,16 @@
 ---
 title: "الصفحة الرئيسية لإدارة سلسة التوريد"
-description: "تشير هذه الصفحة إلى الموارد التي ستساعدك في استخدام Dynamics 365 for Finance and Operations - إدارة سلسلة التوريد بفعالية أكبر."
+description: "يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 07/20/2017
+ms.date: 11/02/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 6cef449562ba75b03b10b4fe27a436ecff3a6691
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-تشير هذه الصفحة إلى الموارد التي ستساعدك في استخدام Dynamics 365 for Finance and Operations - إدارة سلسلة التوريد بفعالية أكبر. 
+يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
 
 ## <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
-انتقل إلى <a href="https://roadmap.dynamics.com/">خارطة طريق Dynamics 365</a> لمعرفة الميزات الجديدة التي تم إصدارها وما الميزات الجديدة قيد التطوير. 
+انتقل إلى <a href="https://roadmap.dynamics.com/">خارطة طريق Dynamics 365</a> للتعرّف على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
 
 ## <a name="core-concepts-and-tasks"></a>المفاهيم الأساسية والمهام
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/29/2017
 
 - [محاسبة التكاليف](../financials/cost-accounting/cost-accounting-home-page.md)
 - [إدارة التكلفة](cost-management/costing-sheets.md)  
-- [إدارة المخزون](inventory/consignment.md)
+- [إدارة المخزون](inventory/inventory-home-page.md)
 - [التخطيط الرئيسي](master-planning/introduction-demand-forecasting.md)
 - [التدبير وتحديد الموارد](procurement/procurement-sourcing-overview.md)
 - [إدارة معلومات المنتج](pim/product-information.md)
@@ -83,7 +83,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="white-papers"></a>المستندات التقنية
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">المختبرات المتاحة لمحاسبة التكاليف</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">‏‫حساب قائمة مكونات الصنف ‏‫باستخدام كشف التكاليف‬‏‫‬‬</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">‏‫حساب قائمة مكونات الصنف (BOM) ‏‫باستخدام كشف التكاليف‬‏‫‬‬</a>
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">إمكانية التنقل في المستودع التي يتم تسهيلها بواسطة ‏‏Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition‏</a>
 
 ## <a name="elearning-courses"></a>دورات التعليم الإلكتروني

@@ -1,6 +1,6 @@
 # [التطوير والإدارة لـ Dynamics 365 for Finance and Operations](index.md)
 # [متطلبات النظام لعمليات نشر المجموعة](../fin-and-ops/get-started/system-requirements.md)
-# [متطلبات النظام لعمليات التوزيع المحلي](../fin-and-ops/get-started/system-requirements-on-prem.md)
+# [متطلبات النظام لعمليات النشر المحلية](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [بيانات العرض التوضيحي](../fin-and-ops/get-started/demo-data.md)
 
 
@@ -28,7 +28,7 @@
 ### [استيراد وتصدير نموذج](dev-tools/models-export-import.md)
 ### [البحث عن بيانات التعريف في Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [النماذج](dev-tools/models.md)
-### [المشروعات في Dynamics 365 for Finance and Operations، الإصدار Enterprise](dev-tools/projects.md)
+### [المشروعات في Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
 ### [أدوات الوظائف الإضافية لبرنامج Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث](dev-tools/lock-models.md)
 ### [تحديث أدوات تطوير Visual Studio](dev-tools/update-development-tools.md)
@@ -52,59 +52,56 @@
 #### [تحديد بيانات X++ والمعالجة](dev-ref/xpp-data-query.md)
 #### [وحدات ماكرو X++](dev-ref/xpp-macros.md)
 #### [فئات سمات X++](dev-ref/xpp-attribute-classes.md)
-#### [مقارنة X++ وC\#](dev-ref/xpp-cs-comparison.md)
+#### [مقارنة X++ وC\# comparison](dev-ref/xpp-cs-comparison.md)
 #### [بناء جملة X++](dev-ref/xpp-syntax.md)
-## وظائف وقت التحويل
+## [واجهة API والفئة ومرجع الجدول](dev-ref/api-reference.md)
 ### [وظائف وقت التحويل X++](dev-ref/xpp-compile-time-functions.md)
-## وظائف وقت التشغيل
-### [وظائف وقت تشغيل عمل X++](dev-ref/xpp-business-run-time-functions.md)
-### [حاوية X++ووظائف وقت التشغيل](dev-ref/xpp-container-run-time-functions.md)
-### [تحويل X++ووظائف وقت التشغيل](dev-ref/xpp-conversion-run-time-functions.md)
-### [وظائف وقت تشغيل تاريخ X++](dev-ref/xpp-date-run-time-functions.md)
-### [وظائف وقت تشغيل رياضي لـ X++](dev-ref/xpp-math-run-time-functions.md)
-### [وظائف وقت تشغيل انعكاس X++](dev-ref/xpp-reflection-run-time-functions.md)
 ### [وظائف وقت التشغيل X++](dev-ref/xpp-run-time-functions.md)
-### [وظائف وقت تشغيل جلسة X++](dev-ref/xpp-session-run-time-functions.md)
-### [وظائف وقت تشغيل سلسلة X++](dev-ref/xpp-string-run-time-functions.md)
-## جداول النظام
+#### [وظائف وقت تشغيل العمل X++](dev-ref/xpp-business-run-time-functions.md)
+#### [حاوية X++ووظائف وقت التشغيل](dev-ref/xpp-container-run-time-functions.md)
+#### [تحويل X++ووظائف وقت التشغيل](dev-ref/xpp-conversion-run-time-functions.md)
+#### [وظائف وقت تشغيل تاريخ X++](dev-ref/xpp-date-run-time-functions.md)
+#### [وظائف وقت تشغيل رياضي لـ X++](dev-ref/xpp-math-run-time-functions.md)
+#### [وظائف وقت تشغيل انعكاس X++](dev-ref/xpp-reflection-run-time-functions.md)
+#### [وظائف وقت تشغيل جلسة X++](dev-ref/xpp-session-run-time-functions.md)
+#### [وظائف وقت تشغيل سلسلة X++](dev-ref/xpp-string-run-time-functions.md)
 ### [جداول النظام](dev-ref/system-tables.md)
-## فئات النظام
-### [واجهة API والفئة ومرجع الجدول](dev-ref/api-reference.md)
-### [فئات A](dev-ref/a-classes.md)
-### [فئات B](dev-ref/b-classes.md)
-### [فئات C](dev-ref/c-classes.md)
-### [فئات D](dev-ref/d-classes.md)
-### [فئات E](dev-ref/e-classes.md)
-### [فئات F: FieldBinding إلى FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
-### [فئات F: FormBuildButtonControl إلى FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
-### [فئات F: FormBuildFilterPaneControl إلى FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
-### [فئات F: FormBuildReferenceControl إلى FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
-### [فئات F: FormChangeTracker إلى FormControlEventArgs](dev-ref/formchangetracker-classes.md)
-### [فئات F: FormDataObject إلى FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
-### [فئات F: FormFastTabSummarySeparator إلى FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
-### [فئات F: FormGroupControl إلى FormIntControl](dev-ref/formgroupcontrol-classes.md)
-### [فئات F: FormListBoxControl إلى FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
-### [فئات F: FormObject إلى FormRealControl](dev-ref/formobject-classes.md)
-### [فئات F: FormReferenceControl إلى FormStringControl](dev-ref/formreferencecontrol-classes.md)
-### [فئات F: FormTabControl إلى FormWindowControl](dev-ref/formtabcontrol-classes.md)
-### [فئات G](dev-ref/g-classes.md)
-### [فئات H](dev-ref/h-classes.md)
-### [فئات I](dev-ref/i-classes.md)
-### [فئات J](dev-ref/j-classes.md)
-### [فئات K](dev-ref/k-classes.md)
-### [فئات L](dev-ref/l-classes.md)
-### [فئات M](dev-ref/m-classes.md)
-### [فئات N](dev-ref/n-classes.md)
-### [فئات O](dev-ref/o-classes.md)
-### [فئات P](dev-ref/p-classes.md)
-### [فئات Q](dev-ref/q-classes.md)
-### [فئات R](dev-ref/r-classes.md)
-### [فئات S](dev-ref/s-classes.md)
-### [فئات T](dev-ref/t-classes.md)
-### [فئات U](dev-ref/u-classes.md)
-### [فئات V](dev-ref/v-classes.md)
-### [فئات W](dev-ref/w-classes.md)
-### [فئات X](dev-ref/x-classes.md)
+### فئات النظام
+#### [فئات A](dev-ref/a-classes.md)
+#### [فئات B](dev-ref/b-classes.md)
+#### [فئات C](dev-ref/c-classes.md)
+#### [فئات D](dev-ref/d-classes.md)
+#### [فئات E](dev-ref/e-classes.md)
+#### [فئات F: FieldBinding إلى FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
+#### [فئات F: FormBuildButtonControl إلى FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
+#### [فئات F: FormBuildFilterPaneControl إلى FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
+#### [فئات F: FormBuildReferenceControl إلى FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
+#### [فئات F: FormChangeTracker إلى FormControlEventArgs](dev-ref/formchangetracker-classes.md)
+#### [فئات F: FormDataObject إلى FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
+#### [فئات F: FormFastTabSummarySeparator إلى FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
+#### [فئات F: FormGroupControl إلى FormIntControl](dev-ref/formgroupcontrol-classes.md)
+#### [فئات F: FormListBoxControl إلى FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
+#### [فئات F: FormObject إلى FormRealControl](dev-ref/formobject-classes.md)
+#### [فئات F: FormReferenceControl إلى FormStringControl](dev-ref/formreferencecontrol-classes.md)
+#### [فئات F: FormTabControl إلى FormWindowControl](dev-ref/formtabcontrol-classes.md)
+#### [فئات G](dev-ref/g-classes.md)
+#### [فئات H](dev-ref/h-classes.md)
+#### [فئات I](dev-ref/i-classes.md)
+#### [فئات J](dev-ref/j-classes.md)
+#### [فئات K](dev-ref/k-classes.md)
+#### [فئات L](dev-ref/l-classes.md)
+#### [فئات M](dev-ref/m-classes.md)
+#### [فئات N](dev-ref/n-classes.md)
+#### [فئات O](dev-ref/o-classes.md)
+#### [فئات P](dev-ref/p-classes.md)
+#### [فئات Q](dev-ref/q-classes.md)
+#### [فئات R](dev-ref/r-classes.md)
+#### [فئات S](dev-ref/s-classes.md)
+#### [فئات T](dev-ref/t-classes.md)
+#### [فئات U](dev-ref/u-classes.md)
+#### [فئات V](dev-ref/v-classes.md)
+#### [فئات W](dev-ref/w-classes.md)
+#### [فئات X](dev-ref/x-classes.md)
 
 ## [الصفحة الرئيسية للقابلية للتوسعة](extensibility/extensibility-home-page.md)
 ### مقدمة وبدء الاستخدام
@@ -140,13 +137,10 @@
 #### [تغيير تسمية](extensibility/change-label.md)
 #### [توسيع نطاق التسلسل الرقمي](extensibility/extend-number-sequence-scope.md)
 
-## [الصفحة الرئيسية للتسليم المستمر](dev-tools/continuous-delivery-home-page.md)
-### [الأسئلة الشائعة للتطوير والتسليم المستمر](dev-tools/continuous-delivery-faq.md)
-### [استثناء حزم الاختبار من إخراج البناء](dev-tools/exclude-test-packages.md)
-### [إدارة نماذج الجهات الخارجية وحزم وقت التشغيل باستخدام التحكم بالمصادر](dev-tools/manage-runtime-packages.md)
-### [نماذج الإصدار في البناء التلقائي](dev-tools/version-models-build.md)
 
-## الصفحة الرئيسية للأداء
+
+
+## الأداء
 ### [أخذ عينة تتبع باستخدام محلل التتبع](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK واختبار متعدد المستخدمين مع Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
 ### [تشخيص المشاكل وتحليل مشكلات الأداء باستخدام محلل التتبع](perf-test/trace-parser.md)
@@ -154,11 +148,9 @@
 ## دعم اختبار في Visual Studio
 ### [الاختبارات وعمليات التحقق](perf-test/testing-validation.md)
 ### [اختبار المشروعات في Visual Studio](perf-test/testing-support.md)
-### [التوزيع باستخدام البناء المستمر والتنفيذ التلقائي للاختبار](perf-test/continuous-build-test-automation.md)
-## التواريخ
-### [سريان التاريخ](dev-tools/date-effectivity.md)
-## الترخيص
-### [ترخيص ISV](dev-tools/isv-licensing.md)
+### [النشر باستخدام البناء المستمر والتنفيذ التلقائي للاختبار](perf-test/continuous-build-test-automation.md)
+## [سريان التاريخ](dev-tools/date-effectivity.md)
+## [ترخيص ISV](dev-tools/isv-licensing.md)
 
 # [تطوير واجهة المستخدم](user-interface/user-interface-development-home-page.md)
 ## البرامج التعليمية
@@ -167,8 +159,8 @@
 ### [إنشاء التنقل](user-interface/build-navigation.md)
 ### [إنشاء مساحة عمل](user-interface/build-workspace.md)
 ## النماذج
-### [التنقل في Dynamics 365 for Finance and Operations، الإصدار Enterprise](user-interface/page-navigation.md)
-### [التخطيط في Dynamics 365 for Finance and Operations، الإصدار Enterprise](user-interface/page-layout.md)
+### [التنقل في Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
+### [التخطيط في Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
 ### [خط الرمز](user-interface/symbol-font.md)
 ### [اختبار النماذج باستخدام أنماط مخصصة](user-interface/testing-forms-custom-patterns.md)
 ### [إنشاء واستخدام ارتباطات عميقة](user-interface/create-deep-links.md)
@@ -192,7 +184,7 @@
 ### [ألوان الخطوط والخلفية لعناصر تحكم الإدخال والجدول والشبكة](user-interface/specify-color-font-background-controls.md)
 ### [دعم اللغة من اليمين إلى اليسار ونص ثنائي الاتجاه](user-interface/bidirectional-support.md)
 ### [إنشاء أكواد للإطارات المتجانبة لمساحة العمل](user-interface/create-icons-workspace-tiles.md)
-### [عناصر تحكم موسعة - واجهات برمجة تطبيقات JavaScript عامة](user-interface/public-javascript-apis.md)
+### [عناصر تحكم موسعة - واجهات JavaScript API عامة](user-interface/public-javascript-apis.md)
 ### [قائمة اختيار عنصر التحكم](user-interface/control-checklist.md)
 ## رسائل
 ### [شريط منزلق ومربع الرسالة](user-interface/slider-messagebox.md)
@@ -273,10 +265,10 @@
 ### [ترجمة مساحات العمل على الخادم](mobile-apps/platform/scenarios/localize-workspaces-on-server.md)
 ### [جعل حقل إلزاميًا باستخدام فئات مساحات العمل](mobile-apps/platform/scenarios/make-field-mandatory.md)
 ## مرجع التطوير من جانب الخادم
-### [التطوير من جانب الخادم (واجهات برمجة تطبيقات X‏‏++ لمساحة العمل)](mobile-apps/platform/mobile-workspace-server-apis.md)
+### [التطوير من جانب الخادم (واجهات X++ API لمساحة العمل)](mobile-apps/platform/mobile-workspace-server-apis.md)
 ## مرجع التطوير من جانب العميل
-### [نظرة عامة على واجهات برمجة تطبيقات التصميم من جانب العميل](mobile-apps/platform/scenarios/client-api-design-overview.md)
-### [واجهات برمجة تطبيقات العميل](mobile-apps/platform/client-apis/client-apis-reference.md)
+### [نظرة عامة على واجهات API التصميم من جانب العميل](mobile-apps/platform/scenarios/client-api-design-overview.md)
+### [واجهات API للعميل](mobile-apps/platform/client-apis/client-apis-reference.md)
 #### [تعداد PageState](mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md)
 #### [الوحدة النمطية للتطبيق](mobile-apps/platform/client-apis/modules/services-application.md)
 #### [وحدة التأجيل](mobile-apps/platform/client-apis/modules/defer.md)
@@ -359,6 +351,104 @@
 #### [نوع ValueDesign](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [نوع ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
+# تكامل البيانات
+## [أنماط التكامل](data-entities/integration-overview.md)
+
+## واجهات API لتكامل البيانات
+### [واجهة (API) لحزمة إدارة البيانات](data-entities/data-management-api.md)
+### [نقاط نهاية الخدمات](data-entities/services-home-page.md)
+#### [استكشاف أخطاء مصادقة الخدمة](data-entities/troubleshoot-service-authentication.md)
+### [OData](data-entities/odata.md)
+### [الخدمات المخصصة](data-entities/custom-services.md)
+### [عمليات تكامل متكررة](data-entities/recurring-integrations.md)
+
+## التطوير للتكامل
+### [تكامل البيانات باستخدام كيانات البيانات](data-entities/data-management-integration-data-entity.md)
+#### [تطوير أحد الكيانات لترحيل البيانات](data-entities/develop-entity-for-data-migration.md)
+#### [تطوير كيانات البيانات المركبة](data-entities/develop-composite-data-entities.md)
+#### [‏‫تكوين مشاركة البيانات المالية عبر الشركة‬](data-entities/tasks/configure-financial-cross-company-data-sharing.md)
+#### [إنشاء قالب سجل لتسهيل إدخال البيانات](data-entities/tasks/create-record-template-facilitate-data-entry.md)
+#### [استخدام قالب سجل لإنشاء سجل جديد](data-entities/tasks/use-record-template-new-record.md)
+
+### [تكامل البيانات باستخدام Common Data Service](data-entities/data-integration-cds.md) 
+#### [تكوين سيناريو العميل المتوقع إلى النقدية](../supply-chain/sales-marketing/prospect-to-cash.md)
+##### [مزامنة المنتجات من Finance and Operations للمنتجات في Sales‎](../supply-chain/sales-marketing/products-template-mapping.md)
+##### [مزامنة الحسابات من Sales للعملاء في Finance and Operations‎](../supply-chain/sales-marketing/accounts-template-mapping.md)
+##### [مزامنة جهات الاتصال من Sales لجهات الاتصال في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping.md)
+##### [مزامنة رؤوس وبنود عرض أسعار المبيعات‬ من Sales إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+##### [مزامنة رؤوس وبنود أوامر المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+##### [مزامنة رؤوس وبنود فواتير المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+
+### [استخدام خدمات ويب الخارجية](data-entities/consume-external-web-service.md)
+
+
+# [إدارة البيانات](data-entities/data-entities-data-packages.md)
+
+## [كيانات البيانات](data-entities/data-entities.md)
+
+### [مشاريع بيانات التكوين](data-entities/configuration-data-projects.md)
+### [حزم بيانات التكوين](data-entities/configuration-data-packages.md)
+### [نسخ بيانات التكوين بين الشركات](data-entities/copy-configuration.md)
+### [قوالب بيانات التكوين](data-entities/configuration-data-templates.md)
+### [تعقب التغييرات لكيان](data-entities/entity-change-track.md)
+
+## كيانات البيانات القياسية
+### [تقرير كيانات البيانات](data-entities/data-entities-report.md)
+### [كيانات البيانات: الحسابات الدائنة والضرائب](data-entities/data-entities-accounts-payable-taxes.md)
+### [كيانات البيانات: الحسابات المدينة](data-entities/data-entities-accounts-receivable.md)
+### [كيانات البيانات: البنك](data-entities/data-entities-bank.md)
+### [كيانات البيانات: أرصدة البداية](data-entities/data-entities-beginning-balances.md)
+### [كيانات البيانات: تخطيط الموازنة](data-entities/data-entities-budget-plan.md)
+### [كيانات البيانات: إعداد الموازنة](data-entities/data-entities-budgeting.md)
+### [كيانات البيانات: التكلفة](data-entities/data-entities-costing.md)
+### [كيانات البيانات: إدارة المصروفات](data-entities/data-entities-expense-management.md)
+### [كيانات البيانات: الأصول الثابتة](data-entities/data-entities-fixed-assets.md)
+### [كيانات البيانات: دفتر الأستاذ العام](data-entities/data-entities-general-ledger.md)
+### [كيانات البيانات: دفتر عناوين عمومي](data-entities/data-entities-global-address-book.md)
+### [كيانات البيانات: الموارد البشرية](data-entities/data-entities-human-resources.md)
+### [كيانات البيانات: إدارة المخزون](data-entities/data-entities-inventory-management.md)
+### [كيانات البيانات: التخطيط الرئيسي](data-entities/data-entities-master-plan.md)
+### [كيانات البيانات: التدبير والتوريد](data-entities/data-entities-procurement-sourcing.md)
+### [كيانات البيانات: إدارة معلومات المنتج](data-entities/data-entities-product-information-management.md)
+### [كيانات البيانات: التحكم في الإنتاج](data-entities/data-entities-production-control.md)
+### [كيانات البيانات: محاسبة المشروع](data-entities/data-entities-project-accounting.md)
+### [كيانات البيانات: القطاع العام](data-entities/data-entities-public-sector.md)
+### [كيانات البيانات: البيع بالتجزئة](data-entities/data-entities-retail.md)
+### [كيانات البيانات: المبيعات وتنفيذ التسويق](data-entities/data-entities-sales-marketing.md)
+### [كيانات البيانات: المبيعات وتسويق ما قبل البيع](data-entities/data-entities-sales-marketing-pre-sales.md)
+### [كيانات البيانات: إدارة النظام](data-entities/data-entities-system-administration.md)
+### [كيانات البيانات: سير العمل](data-entities/data-entities-workflow.md)
+
+## [استيراد البيانات وتصدير المهام](data-entities/data-import-export-job.md)
+
+### [أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام](data-entities/tips-tricks-import-general-journal-entity.md)
+
+## التطوير لكيانات البيانات
+### [إنشاء كيانات بيانات جديدة](data-entities/build-consuming-data-entities.md)
+### [خصائص كيان البيانات](data-entities/behavioral-properties-data-entities.md)
+### [إنشاء حساب الأعمدة والحقول الظاهرية](data-entities/data-entity-computed-columns-virtual-fields.md)
+### [السلوك عبر الشركة](data-entities/cross-company-behavior.md)
+### [معالجة رموز البلدان/المناطق](data-entities/countryregion-codes-configuration-keys.md)
+### [أنماط التوريث](data-entities/support-super-type-sub-type.md)
+### [قواعد معالج كيان البيانات](data-entities/data-entity-wizard-rules.md)
+### [خصائص بيانات التعريف](data-entities/behavioral-properties-data-entities.md)
+### [عمليات التحقق من الصحة والإعدادات الافتراضية والحقول غير المعينة](data-entities/validations-defaults-unmapped-fields.md)
+### [كيانات الأمان والبيانات](data-entities/security-data-entities.md)
+
+## [إحضار قاعدة بياناتك الخاصة](analytics/export-entities-to-your-own-database.md)
+
+# [الصفحة الرئيسية للتسليم المستمر](dev-tools/continuous-delivery-home-page.md)
+## [الأسئلة الشائعة للتطوير والتسليم المستمر](dev-tools/continuous-delivery-faq.md)
+## [استثناء حزم الاختبار من إخراج البناء](dev-tools/exclude-test-packages.md)
+## [إدارة نماذج الجهات الخارجية وحزم وقت التشغيل باستخدام التحكم بالمصادر](dev-tools/manage-runtime-packages.md)
+## [نماذج الإصدار في البناء التلقائي](dev-tools/version-models-build.md)
+
+
 # إصدار حلول باستخدام Lifecycle Services
 ## [تطوير وإصدار](lcs-solutions/lcs-solutions-app-source.md)
 ## [تجهيز ونشر](lcs-solutions/marketing-content-lcs-solutions.md)
@@ -377,9 +467,7 @@
 ### [نماذج الترجمة المنفصلة](lcs-solutions/separate-localization-models.md)
 ### [إرسال تنبيه تنظيمي](lcs-solutions/submit-localization-alerts.md)
 
-
-
-# تطوير الأمور المالية
+# [تطوير الأمور المالية](financial/financial-dev-home-page.md)
 ## [الأبعاد](financial/dimensions.md)
 ## [إضافة أبعاد إلى أحد قوالب Excel](financial/dimensions-overview.md)
 ## [دعم مربع حوار تحكم إدخال البعد](financial/dimension-entry-control-dialog-support.md)
@@ -403,12 +491,12 @@
 ## [إنشاء محرك إدارة نقل جديد](../supply-chain/transportation/create-new-transportation-management-engine.md)
 
 
-# التوزيع
+# النشر
 ## [نشر بيئة عرض توضيحي](deployment/deploy-demo-environment.md)
 
 ## النشر عبر الشبكة السحابية
 ### [إلحاق مدير موارد Azure](deployment/arm-onboarding.md)
-### [Azure ExpressRoute وDynamics 365 for Finance and Operations، الإصدار Enterprise](deployment/expressroute.md)
+### [Azure ExpressRoute وDynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [النشر المحلي](deployment/on-premises-deployment-landing-page.md)
 ### [نظرة عامة على التطبيقات المحلية](deployment/on-premises-overview.md)
@@ -416,6 +504,7 @@
 ### [إنشاء مشروع محلي](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [إعداد بيئات محلية ونشرها](deployment/setup-deploy-on-premises-environments.md)
 ### [تطوير النماذج المخصصة للبيئات المحلية ونشرها](deployment/develop-deploy-custom-models-on-premises.md)
+### [تطبيق التحديثات على عملية نشر على جهاز محلي](deployment/apply-updates-on-premises.md)
 
 ## نشر كود مخصص
 ### [إنشاء حزمة قابلة للنشر](deployment/create-apply-deployable-package.md)
@@ -426,11 +515,11 @@
 # [الترقية والترحيل](migration-upgrade/upgrade-home-page.md)
 ## [ترقية من AX 2012 إلى Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [تحليل - استخدام أداة محلل الترقية لوضع خطة للترقية](migration-upgrade/upgrade-analyzer-tool.md)
-### [تحليل - استخدام خدمة ترقية الكود لتقدير الجهد لترقية الرموز](migration-upgrade/analyze-code-upgrade.md)
-### [تحليل - نشر بيئة وضع الحماية](migration-upgrade/analysis-sandbox.md)
+### [تحليل - استخدام خدمة ترقية الكود لتقدير جهد ترقية الكود](migration-upgrade/analyze-code-upgrade.md)
+### [تحليل - نشر بيئة الاختبار المعزولة](migration-upgrade/analysis-sandbox.md)
 ### [ترقية - ترقية البيانات في بيئة تطوير](migration-upgrade/data-upgrade-2012.md)
 ### [ترقية - مهام ترقية بيانات AX 2012](migration-upgrade/prepare-data-upgrade.md)
-### [ترقية - ترقية البيانات في بيئة وضع الحماية](migration-upgrade/upgrade-data-sandbox.md)
+### [ترقية - ترقية البيانات في بيئة الاختبار المعزولة](migration-upgrade/upgrade-data-sandbox.md)
 ### [التحقق من الصحة - اختبار مرحلي](migration-upgrade/upgrade-cutover-testing.md)
 ### [التحقق من الصحة - المهام التي يجب إنجازها بعد الترقية](migration-upgrade/app-validation-process.md)
 ### [التحقق من الصحة - اختبار وظيفي](migration-upgrade/upgrade-functional-validation.md)
@@ -445,7 +534,7 @@
 #### [ترحيل مبيعات تمت ترقيتها إلى مخزن الكيانات](migration-upgrade/migrate-upgraded-cube-entity-store.md)
 #### [ترقية تخطيط الموازنة](migration-upgrade/upgrade-budget-planning.md)
 
-## ترحيل الكود والترقية
+## [ترحيل الكود والترقية](migration-upgrade/code-migration-home-page.md)
 ### [الإعداد لترحيل الكود](migration-upgrade/prepare-migration.md)
 ### [تكوين تعيين Visual Studio Team Services أثناء ترحيل الكود](migration-upgrade/configure-vso-solution.md)
 ### [تقسيم النماذج](dev-tools/model-split.md)
@@ -457,7 +546,7 @@
 ### [نهج دورة حياة](migration-upgrade/versions-update-policy.md)
 ### [الترقية إلى تحديث النظام الأساسي الأخير](migration-upgrade/upgrade-latest-platform-update.md)
 ### [ترقية النظام الأساسي لـ Dynamics إلى إصدار أغسطس 2016](migration-upgrade/update-platform-each-release.md)
-### [ترقية بيئة وضع الحماية](migration-upgrade/upgrade-sandbox-environment.md)
+### [ترقية بيئة الاختبار المعزولة](migration-upgrade/upgrade-sandbox-environment.md)
 ### [ترقية البيانات في بيئة تطوير أو بيئة عرض توضيحي](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [ترقية أدوات التطوير](dev-tools/update-development-tools.md)
 
@@ -476,6 +565,7 @@
 ## [تقرير أكواد التراخيص ومفاتيح التكوين](sysadmin/license-codes-configuration-keys-report.md)
 ## [مشاركة البيانات عبر الشركة](sysadmin/cross-company-data-sharing.md)
 ## [وضع الصيانة](sysadmin/maintenance-mode.md)
+## [حسابات النظام المكونة مسبقًا](sysadmin/pre-configured-system-accounts.md)
 ## [أمان يستند إلى الدور](sysadmin/role-based-security.md)
 ### [هندسة الأمان](sysadmin/security-architecture.md)
 ### [تقارير الأمان](sysadmin/security-reports.md)
@@ -496,10 +586,11 @@
 ### [ما الجديد](lifecycle-services/whats-new-lcs.md)
 ### [مشكلات معروفة](lifecycle-services/known-issues.md)
 ## [دليل مستخدم Dynamics Lifecycle Services](lifecycle-services/lcs-user-guide.md)
+## [أداة تقدير الاشتراك](lifecycle-services/subscription-estimator.md)
 ## [تكوين الأمان](lifecycle-services/configure-lcs-security.md)
 ## [بحث عن المشاكل](lifecycle-services/issue-search-lcs.md)
 ## [مدير التكوين](lifecycle-services/configuration-manager-lcs.md)
-### [إعداد مدير التكوين ](lifecycle-services/set-up-configuration-manager-lcs.md)
+### [إعداد مدير التكوين](lifecycle-services/set-up-configuration-manager-lcs.md)
 ## [تكوين خدمة ترقية الكود](lifecycle-services/configure-execute-code-upgrade.md)
 ## [إنشاء منهجية ](lifecycle-services/create-methodology.md)
 ## [أداة تكوين عمليات الأعمال](lifecycle-services/bpm-overview.md)
@@ -509,14 +600,15 @@
 ## [استخدم مخططات الأنشطة](lifecycle-services/using-activity-diagrams.md)
 ## [مزامنة مكتبة BPM مع Visual Studio Team Services ‏(VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
 ## [مخططات انسيابية لأداة تكوين عمليات الأعمال](lifecycle-services/flowcharts-business-process-modeler.md)
-## [تحميل إجراءات العمل المخصصة](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
+## [تحميل عمليات الأعمال المخصصة](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [المراقبة والتشخيصات ](lifecycle-services/monitoring-diagnostics.md)
+## [تعقب عمليات تسجيل دخول المستخدم](lifecycle-services/user-logins.md)
 ## [مكتبة الأصول](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - نظرة عامة على خدمة الترجمة](lifecycle-services/translation-service-overview.md)
-### [دليل مستخدم خدمة الترجمة في Microsoft Dynamics 365 ](lifecycle-services/use-translation-service.md)
+### [دليل مستخدم خدمة الترجمة في Microsoft Dynamics 365  ](lifecycle-services/use-translation-service.md)
 
 ## ميزات Dynamics AX 2012 Lifecycle Services
-### التوزيع
+### النشر
 #### [البيئات المستضافة على السحابة](lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md)
 #### [نسخ تكوين](lifecycle-services/copy-configuration-lcs.md)
 #### [تخطيط نشر Dynamics AX 2012 R3 على Azure](lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md)
@@ -594,12 +686,13 @@
 ## [نسخ قاعدة بيانات من خادم SQL إلى بيئة قاعدة بيانات SQL Azure للإنتاج](database/copy-database-from-sql-server-to-azure-sql.md)
 ## [استعادة قاعدة بيانات في بيئة غير إنتاجية](database/request-point-in-time-restore.md)
 ## [تصدير نسخة من قاعدة بيانات لاستعادتها لاحقًا](database/copy-operations-database.md)
+## [طلب تحديث قاعدة بيانات بيئة الاختبار المعزولة](database/database-refresh.md)
 
 # الدعم
 ## [الحصول على دعم لـ Dynamics 365 for Finance and Operations،‏ Enterprise edition وLifecycle Services](lifecycle-services/lcs-support.md)
 ## [تسجيل بطاقة دعم رئيسي](lifecycle-services/premier-support.md)
 ## [إرسال طلب إلى فريق هندسة خدمات Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [الحصول على دعم تقني لـ Dynamics 365 for Finance and Operations، الإصدار Enterprise](lifecycle-services/support-experience.md) 
+## [إعداد الدعم التقني لـ Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
 ## [الأسئلة الشائعة حول إطار الصيانة المخطط لها](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [عمليات سحابية والخدمة](lifecycle-services/cloud-operations-servicing.md)
 ## [إدارة خبرات دعم Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

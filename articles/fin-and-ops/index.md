@@ -3,7 +3,7 @@ title: "وثائق Microsoft Dynamics 365 for Finance and Operations،‏ Enterp
 description: "وثائق Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition."
 author: margoc
 manager: AnnBe
-ms.date: 09/29/2017
+ms.date: 11/13/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb040b28078e5072fdb695e7b39e82557219addc
-ms.openlocfilehash: ca1658a9dc7594168476298132274b2c5910b012
+ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
+ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 11/13/2017
 
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>مقدمة إلى Microsoft Dynamics 365 for Finance and Operations
 [!include[banner](includes/banner.md)]
 
-تعرف إلى كيفية إنشاء عمل Dynamics 365 for Finance and Operations،‏ Enterprise edition لأعمالك، وذلك عن طريق استخدام الموارد التالية للبحث عن محتوى متميز للمستخدمين النهائيين والمطورين ومحترفي تكنولوجيا المعلومات. 
+اعرف كيف يمكنك أن تجعل Microsoft Dynamics 365 for Finance and Operations, Enterprise edition صالحًا لأعمالك، وذلك عن طريق استخدام الموارد التالية للبحث عن محتوى متميز للمستخدمين النهائيين والمطورين ومحترفي تكنولوجيا المعلومات. 
 
 كما ينطبق معظم هذا المحتوى على المنتجات ذات الصلة: Microsoft Dynamics 365 for Retail وMicrosoft Dynamics 365 for Talent. 
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 10/10/2017
 
 <h3><a href="../supply-chain/index.md">إدارة سلسلة التوريد</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">إدارة التكلفة</a></p>
-<p><a href="../supply-chain/inventory/inventory-locations.md">إدارة المخزون</a></p>
+<p><a href="../supply-chain/inventory/inventory-home-page.md">إدارة المخزون</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">التخطيط الرئيسي</a></p>
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">التدبير وتحديد الموارد</a></p>
 <p><a href="../supply-chain/pim/product-information.md">إدارة معلومات المنتج</a></p>
@@ -82,23 +82,26 @@ ms.lasthandoff: 10/10/2017
 <p><a href="../dev-itpro/analytics/analytics.md">التحليلات</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">مستندات الأعمال</a></p>
 <p><a href="../dev-itpro/analytics/financial-reporting-intro.md">التقارير المالية</a></p>
-<p><a href="../dev-itpro/analytics/general-electronic-reporting.md">إعداد التقارير التنظيمية</a></p>
+<p><a href="../dev-itpro/analytics/general-electronic-reporting.md">التقارير التنظيمية</a></p>
 
 
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">التطوير</h3>
-<p><a href="../dev-itpro/extensibility/extensibility-home-page.md">القابلية للتوسعة</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">إدارة البيانات وتكاملها</a></p>
-<p><a href="../dev-itpro/office-integration/office-integration.md">تكامل المكتب</a></p>
+<p><a href="../dev-itpro/extensibility/extensibility-home-page.md">قابلية التوسعة</a></p>
+
+<p><a href="../dev-itpro/data-entities/integration-overview.md">تكامل البيانات</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">إدارة البيانات</a></p>
+
+<p><a href="../dev-itpro/office-integration/office-integration.md">تكامل Office</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">التسليم المستمر</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">النظام الأساسي للأجهزة المحمولة</a></p>
 <p><a href="get-started/demo-data.md">بيانات العرض التوضيحي</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">الإدارة</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">التوزيع</a></p>
+<p><a href="../dev-itpro/deployment/choose-deployment-type.md">النشر</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">الترقية</a></p>
-<p><a href="../dev-itpro/dev-tools/developer-home-page.md#service-environments">الخدمة</a></p>
-<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity.md">إدارة البيانات</a></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">الخدمة</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">إطار عمل إدارة البيانات</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">إدارة المؤسسة</a></p>
 </td>
