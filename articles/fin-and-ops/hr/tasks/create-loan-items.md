@@ -3,7 +3,7 @@ title: "إنشاء أصناف قرض"
 description: "إن أصناف القرض هي السجلات التي تساعدك على تعقب العناصر الفعلية، مثل الهواتف أو أجهزة الكمبيوتر، التي تقوم شركتك بإعارتها للعاملين."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cef1f9b2e3d202d7eea3a967fa8a6c371c6ac3a5
+ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
+ms.openlocfilehash: aa5824a7a56136b6d09860f2ff493359dbeab9f9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="create-loan-items"></a>إنشاء أصناف قرض
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/29/2017
 11. في الحقل "‏‫قيمة البداية‬"، أدخل رقمًا.
 12. في الحقل "الفاصل الزمني"، أدخل رقمًا.
 13. في الحقل "التنسيق"، اكتب قيمة.
-    * على سبيل المثال، إذا كان رقم البدء لصنف القرص هو 10، فأدخل رمزي الأرقام (##) في الحقل "تنسيق".  
+    * على سبيل المثال، إذا كان رقم البدء لصنف القرض هو 10، فأدخل رمزي أرقام في الحقل "تنسيق".  
 14. انقر فوق "موافق".
 15. قم بتحديث الصفحة.
 

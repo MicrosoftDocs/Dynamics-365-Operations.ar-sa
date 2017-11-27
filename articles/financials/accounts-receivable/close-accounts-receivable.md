@@ -1,16 +1,16 @@
 ---
-title: "إغلاق الحسابات المدينة"
-description: 
+title: "إقفال الحسابات المدينة"
+description: "يسرد الموضوع التالي الصفحات التي تدعم إقفال العملية التجارية للحسابات المدينة."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 59372
 ms.assetid: c18d83e5-4adb-422a-91be-82a665d8288b
 ms.search.region: Global
@@ -18,32 +18,32 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2b2e827df0c679855af9624f8a2fb36cb23f359a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8532b778c89c972a833ac9ffe28243f15f01426c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="close-accounts-receivable"></a>إغلاق الحسابات المدينة
+# <a name="close-accounts-receivable"></a>إقفال الحسابات المدينة
 
 [!include[banner](../includes/banner.md)]
 
 
 
 
-تسرد الجداول التالية الصفحات التي تدعم إغلاق العملية التجارية للحسابات المدينة.
+يسرد الجدول التالي الصفحات التي تدعم إقفال العملية التجارية للحسابات المدينة.
 
 > [!NOTE] 
 > لفتح بعض الصفحات الواردة في الجدول التالي، يجب أن تدخل معلومات أو إعدادات المعلمات المحددة.
 
 **مهمة مكوِّن العملية التجارية**                   
 
-إغلاق الفترات في دفتر الأستاذ العام
+إقفال الفترات في دفتر الأستاذ العام
 
 | اسم الصفحة                            | استخدام                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
-|وظيفة دفعية                             | عرض وظائف الدُفعة أو إنشاؤها. قد لا تكتمل وظائف الدُفعة، وتريد التأكد من اكتمال الترحيل بالكامل.                                                                                                               |
+|وظيفة دفعية                             | تُستخدم في عرض وظائف المجموعة أو إنشائها. قد لا تكتمل وظائف الدُفعة، وتريد التأكد من اكتمال الترحيل بالكامل.                                                                                                               |
 |تأكيد أمر المبيعات                   | تحديث أوامر المبيعات.                                                                       |
 |إعادة تقييم العملة الأجنبية          | إنشاء الحركات التي تقوم بتحديث قيمة حركات العميل المفتوحة بالعملات الأجنبية.                                                                                                                         |
 | دفتر اليومية                              | ترحيل الفواتير والمدفوعات والسندات الإذنية.                                             |

@@ -1,9 +1,9 @@
 ---
 title: "كود nomenclature لأرقام وأسماء متغيرات المنتج"
-description: "يصف هذا الموضوع كيف يمكنك إعداد nomenclature رقم المنتج لاستبدال التنسيق الثابت [رقم أصل المنتج - التكوين - الحجم - اللون - النمط]. يتميز كود nomenclature الجديد بتنسيق مستهدف يتضمن رقم أصل المنتج وأبعاد المنتج النشطة ومحددات النص التي تختارها. يمكنك أيضًا إنشاء كود nomenclature لأسماء المنتجات. أخيرًا، يمكنك إنشاء كود nomenclature لتحديد التكوينات التي يتم إنشاؤها بواسطة مكون منتج يستند إلى القيد. باستطاعة أكواد nomenclature هذه أن تحتوي على سمات تختارها أنت."
+description: "يصف هذا الموضوع كيف يمكنك إعداد nomenclature رقم المنتج لاستبدال التنسيق الثابت [رقم أصل المنتج - التكوين - الحجم - اللون - النمط]."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 09/29/2017
 
 في هذه الحالة، سيكون رقم متغير المنتج للقميص الأحمر الصغير من نوع بولو: ، TS1234-Red-Small-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>كود nomenclature للتكوينات المستنِدة إلى قيد
+## <a name="nomenclature-of-constraint-based-configurations"></a>كود nomenclature للتكوينات المستنِد إلى قيد
 ‏‫بالنسبة إلى التكوينات المستندة إلى قيد، يمكنك إنشاء nomenclature مخصص لبُعد المنتج - التكوين‬. يمكنك تحديد الأجزاء التالية في صفحة **كود nomenclature للمنتج‬**:
 
 -   قيمة التسلسل الرقمي
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/29/2017
 
 في هذه الحالة، سيكون WoodAAA78 معرف التكوين لمواد خشبية يبلغ طولها 78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>كود nomenclature للتكوينات المستندة إلى بُعد
+## <a name="nomenclature-of-dimension-based-configurations"></a>كود nomenclature للتكوينات المستندة إلى بُعد
 ‏‫بالنسبة إلى التكوينات المستندة إلى بُعد، يمكنك إنشاء nomenclature مخصص لبُعد المنتج - التكوين‬. يمكنك تحديد الأجزاء التالية في صفحة **كود nomenclature للمنتج‬**:
 
 -   قيمة التسلسل الرقمي

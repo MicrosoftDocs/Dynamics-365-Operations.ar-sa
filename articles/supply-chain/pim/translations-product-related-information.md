@@ -3,7 +3,7 @@ title: "الأسئلة المتداولة حول الترجمات المتعلق
 description: "يوضح هذا الموضوع كيفية إدارة ترجمات المنتجات وقيم أبعاد المنتج وسمات المنتج."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 2c58e3e2f60c00d8d834c1d80b347e2e7087809d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="where-can-i-view-the-translated-information"></a>أين يمكنني عرض المعلومات المترجمة؟
 يمكنك عرض ترجمات المعلومات المتعلقة بالمنتج في أي مستند مصدر خارجي، مثل فواتير التي تستخدم لغة التي تتوفر فيها الترجمات.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>كيف يمكنني إنشاء ترجمات للمعلومات المتعلقة بالمنتج؟
+## <a name="how-do-i-create-translations-for-product-related-information"></a>كيف يمكنني إنشاء ترجمات للمعلومات المتعلقة بالمنتج؟
 لإنشاء ترجمات للمنتج، اتبع الخطوات التالية:
 1.  انقر فوق **إدارة معلومات المنتج** &gt; **عام** &gt; **المنتجات الصادرة**.
 2.  حدد منتجًا، وفي جزء الإجراءات‬، في مجموعة **اللغات**، انقر فوق **‎الترجمات**.
@@ -124,7 +124,7 @@ ms.lasthandoff: 09/29/2017
 1.  اتبع الخطوات المذكورة في الإجراء السابق لإنشاء مجموعة قيم الأبعاد لفتح صفحة  **بنود مجموعة الحجم** أو **بنود مجموعة اللون** أو **بنود مجموعة النمط**.
 2.  انقر فوق **ترجمة النص**. في صفحة **ترجمة النص**، في المجموعة **النص المترجم**، أدخل الترجمات في حقلي **‎الاسم** و**الوصف**.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>متى يمكن إدارة ترجمات المعلومات المتعلقة بالمنتج؟
+## <a name="when-can-translations-of-product-related-information-be-managed"></a>متى يمكن إدارة ترجمات المعلومات المتعلقة بالمنتج؟
 يمكن إدارة ترجمات المعلومات المتعلقة بالمنتج في أي وقت. عند تحديث الترجمات لقيمة بُعد مقترنًا بمنتج، يتم تحديث معلومات المنتج، بغض النظر عن ما إذا كان المنتج يشتمل على حركات.
 
 

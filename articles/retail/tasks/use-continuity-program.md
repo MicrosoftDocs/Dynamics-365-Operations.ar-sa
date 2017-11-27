@@ -3,7 +3,7 @@ title: " استخدام برنامج استمرارية"
 description: "يتناول هذا الإجراء بيع برنامج استمرارية ومعالجة أوامر المبيعات ذات الصلة."
 author: scott-tucker
 manager: AnnBe
-ms.date: 10/26/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d3b5690bfbd10b77e784d35d0c4f4518de58333
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: e94d9ded5cefc731e28af6898004419a00e0c189
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="use-a-continuity-program"></a> استخدام برنامج استمرارية
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/29/2017
 19. في حقل "صنف الاستمرارية"، اكتب "88000"، ثم اضغط المفتاح Tab.
     * الصنف "88000'" عبارة عن صنف استمرارية في بيانات العرض التوضيحي USRT.‬  
 20. في الحقل "أمر المبيعات"، أدخل قيمة أو حددها.
-    * أدخل رقم أمر المبيعات الذي قمت بتسجيله سابقًا في الإجراء. سيؤدي ذلك إلى إبقاء وقت المعالجة بالحد الأدنى لهذا الإجراء. الحقل "أمر المبيعات" اختياري--ستتمكن من معالجة كافة الأوامر في أي برنامج واحد.  
+    * أدخل رقم أمر المبيعات الذي قمت بتسجيله سابقًا في الإجراء. سيؤدي ذلك إلى إبقاء وقت المعالجة بالحد الأدنى لهذا الإجراء. الحقل "أمر المبيعات" اختياري--يمكنك معالجة جميع الأوامر لأي برنامج واحد.  
 21. انقر فوق "موافق".
 
 

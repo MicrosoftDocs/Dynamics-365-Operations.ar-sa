@@ -1,9 +1,9 @@
 ---
 title: "القيام بتسويات يدوية في التنبؤ الأساسي"
-description: "يشرح هذا المقال كيف يمكن إجراء التسويات اليدوية على تنبؤ خط أساسي وعرض تفاصيل التنبؤ."
+description: "يشرح هذا الموضوع كيف يمكن إجراء التسويات اليدوية على تنبؤ خط أساسي وعرض تفاصيل التنبؤ."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 218374cdb6b5588648422d97c04fb60f26e47ac7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-يشرح هذا المقال كيف يمكن إجراء التسويات اليدوية على تنبؤ خط أساسي وعرض تفاصيل التنبؤ. 
+يشرح هذا الموضوع كيف يمكن إجراء التسويات اليدوية على تنبؤ خط أساسي وعرض تفاصيل التنبؤ. 
 
 قبل القيام بتسويات يدوية، من المهم أن تفهم بعض المفاهيم على صفحات مختلفة.
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/29/2017
 -   تمثل الأعمدة اللاحقة الفترات الزمنية للتنبؤ الذي تم إنشاؤه. يُعد رأس صفحة كل عمود هو أول تاريخ للفترة الزمنية للتنبؤ الذي يوضح العمود.
 -   تمثل القيم الموجودة في الخلايا التنبؤ لصنف واحد ومفتاح توزيع الصنف وهكذا، للفترة الزمنية للتنبؤ المحدد.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>تجميع التنبؤ وإزالة تجميعه
+## <a name="forecast-aggregation-and-de-aggregation"></a>تجميع التنبؤ وإزالة تجميعه
 يظهر العنوان الفرعي للصفحة مستوى تجميع التنبؤ. 
 
 على سبيل المثال، إذا كان العنوان الفرعي للصفحة هو **الشركة / الموقع / مفتاح التوزيع / رقم الصنف / اللون / الحجم / التكوين / نمط**، لا يوجد تجميع تنبؤ ويظهر التنبؤ على مستوى العنصر وأبعاده. لتغيير التجميع، استخدم صفحة**تغيير أبعاد التنبؤ**، التي يمكنك فتحها من قائمة التطبيق. 

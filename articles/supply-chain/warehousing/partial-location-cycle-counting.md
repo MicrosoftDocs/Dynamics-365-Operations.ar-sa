@@ -3,7 +3,7 @@ title: "الجرد الدوري الجزئي للمواقع"
 description: "تقوم خطط الجرد الدوري‬ بإرشاد عمليات الجرد الفعلية. يمكنك أن تطلب جرد منتجات ومتغيرات منتجات معينة فقط بدلاً من المخزون الفعلي‬ بكامله في أحد المواقع."
 author: perlynne
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 626b2f9f35b94124168adb7bb09c75a086d38a97
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/29/2017
 
 1.  يتم إنشاء قالب عمل جديد للجرد الدوري. يُستخدم الخيار **فواصل بنود العمل‬** لتجميع بنود عمل الجرد حسب رقم الصنف. وبالتالي، سيتضمن عمل الجرد الدوري الذي تم إنشاؤه بنودًا لكل رقم صنف. يمكنك أيضًا تجميع البنود حسب رقم متغير المنتج.
 2.  يتم إنشاء خطة جرد دوري جديدة تشير إلى قالب العمل الذي تم إنشاؤه حديثًا. تتضمن خطة الجرد الدوري كافة المواقع في المستودع 61 (استعلام **تحديد المواقع**) التي تتضمن مخزون رقم الصنف A0001. يتحدد اختيار منتجات معينة في المقطع **اختيارات المنتجات لخطة الجرد الدوري‬**.
-3.  يمكنك اختيار المنتجات لخطط الجرد الدوري عن طريق تعيين حقل **المواقع الفارغة‬** إلى **استبعاد الفارغ‬**. عندما تتم معالجة خطة الجرد الدوري، يتم إنشاء عمل جرد دوري جزئي لرقم صنف A0001. يمكن تنفيذ عملية الجرد الفعلي باستخدام عنصر قائمة جهاز محمول للجرد الدوري الموجه.
+3.  يمكنك اختيار المنتجات لخطط الجرد الدوري عن طريق تعيين حقل **‬‏‫المواقع الفارغة** إلى **‬‏‫استبعاد الفارغ**. عندما تتم معالجة خطة الجرد الدوري، يتم إنشاء عمل جرد دوري جزئي لرقم صنف A0001.‬ يمكن تنفيذ عملية الجرد الفعلي باستخدام عنصر قائمة جهاز محمول للجرد الدوري الموجه.
 
 
 

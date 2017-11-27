@@ -1,16 +1,16 @@
 ---
-title: "نظرة عامة حول التعليمات"
-description: "توفر هذه المقالة نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations وهي تشرح أيضًا كيفية توفير التدريب والوثائق المخصصة لمؤسستك."
+title: "نظرة عامة على التعليمات"
+description: "يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations وهي تشرح أيضًا كيفية توفير التدريب والوثائق المخصصة لمؤسستك."
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>نظرة عامة حول التعليمات
+# <a name="help-system-overview"></a>نظرة عامة على نظام التعليمات
 
 [!include[banner](../includes/banner.md)]
 
-توفر هذه المقالة نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations وهي تشرح أيضًا كيفية توفير التدريب والوثائق المخصصة لمؤسستك. 
+يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations وهي تشرح أيضًا كيفية توفير التدريب والوثائق المخصصة لمؤسستك. 
 
 > [!NOTE] 
 > ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations, Enterprise edition؛ وDynamics 365 for Retail؛ وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
@@ -69,16 +69,17 @@ ms.lasthandoff: 09/29/2017
 
 يمكنك أيضًا العثور على المحتوى التابع لنا باستخدام أي محرك بحث. من أجل الحصول على أفضل النتائج، ننصحك باستخدام البحث في الموقع، مثل "مصطلح البحث" site:docs.microsoft.com dynamics 365.  
 
-![بحث في الموقع](./media/site-search-1.png)
-
-![نتائج البحث في الموقع](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>جدول محتويات docs.microsoft.com
-تشارك جميع المنتجات جدول محتويات واحدًا في موقع docs، مما يسمح للعملاء برؤية سياق الموضوع حيث هم. ويسمح لك أيضًا باستخدام عنصر تحكم التصفية للعثور على المواضيع التي تبحث عنها.
+تشارك جميع المنتجات Finance and Operations، وRetail، وTalent جدول محتويات واحدًا في موقع docs، مما يسمح للعملاء برؤية سياق الموضوع حيث هم. ويسمح لك أيضًا باستخدام عنصر تحكم التصفية أعلى جدول المحتويات للعثور على المواضيع التي تبحث عنها.
 
-### <a name="how-can-i-contribute"></a>كيف يمكنني المساهمة؟ 
+### <a name="follow-a-topic"></a>متابعة أحد الموضوعات
+لمتابعة أحد الموضوعات، انقر فوق الزر +متابعة أسفل مربع التعليق. ستحتاج إلى تسجيل الدخول لمتابعة الموضوع. راجع [‏‫أرسل لنا تعليق](#leave-us-a-comment) للحصول على التفاصيل.  
 
-أرسل لنا تعليقك! 
+### <a name="give-feedback"></a>تقديم الملاحظات 
+إننا نُقدِّر ملاحظات العملاء فعلاً. يمكنك إما التعليق أو اقتراح تغييرات على المحتوى من خلال GitHub.
+
+##### <a name="leave-us-a-comment"></a>أرسل لنا تعليق 
+إذا كانت لديك ملاحظات أو أسئلة حول أحد الموضوعات، فأرسل لنا تعليق في أسفل الصفحة.  
 
 1 انقر فوق **التعليقات** للوصول إلى التعليقات الموجودة في أسفل الصفحة.
 
@@ -96,6 +97,19 @@ ms.lasthandoff: 09/29/2017
 إلى اليسار، أدخل عنوان بريد إلكتروني وكلمة مرور جديدة لإنشاء حساب جديد للموقع. 
 
 ![خيارات تسجيل الدخول](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>اقتراح تغيير أو المساهمة بالمحتوى من خلال GitHub
+لاقتراح تغيير، يلزم أن يكون لديك حساب في GitHub، وأن يتم التوقيع على اتفاقية ترخيص المساهم.  بعد قيامك بإرسال طلب سحب، سنراجع تغييراتك المقترحة. إذا لزم الأمر، سنناقشها داخليًا، وبعد ذلك سنعاود الاتصال بك.  
+
+للبدء، انقر فوق زر (القلم الرصاص) **تحرير** على الموضوع أو انتقل إلى مستودعنا على https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+
+لمزيد من المعلومات، يرجى الرجوع إلى دليل المساهم: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+
+
+> [!NOTE]
+> لا نقبل في الوقت الحالي غير المساهمات في مستودعاتنا باللغة الإنجليزية.  
+> لا نقبل المشكلات التي يتم الإبلاغ عنها من خلال GitHub -- احرص على استخدام طلب سحب لاقتراحات المحتوى. تتم معالجة الملاحظات على المنتجات والميزات بشكل أفضل من خلال مدخل أفكار Dynamics 365:‏ https://ideas.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>دلائل المهام
@@ -196,9 +210,4 @@ ms.lasthandoff: 09/29/2017
 [أدلة مهام جديدة أو محدثة (أغسطس 2016)](new-updated-task-guides-available-august-2016.md)
 [أدلة مهام جديدة أو محدثة (مايو 2016)](new-updated-task-guides-available-may-2016.md)
 [أدلة مهام جديدة أو محدثة (فبراير 2016)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

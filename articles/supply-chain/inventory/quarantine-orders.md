@@ -1,9 +1,9 @@
 ---
-title: "أوامر إدخال مخزن الفحص"
-description: "توضح هذه المقالة كيفية استخدام أوامر إدخال مخزن الفحص لحظر المخزون."
+title: "أوامر إدخال مخزن العزل"
+description: "يوضح هذا الموضوع كيفية استخدام أوامر إدخال مخزن الفحص لحظر المخزون."
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -19,23 +19,23 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17dde4a4e3380beb98eeb71c719fb898b40a94f7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 515f14e72137f7299093cc6e75cb8e6eec2893fb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="quarantine-orders"></a>أوامر إدخال مخزن الفحص
+# <a name="quarantine-orders"></a>أوامر إدخال مخزن العزل
 
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة كيفية استخدام أوامر إدخال مخزن الفحص لحظر المخزون.
+يوضح هذا الموضوع كيفية استخدام أوامر إدخال مخزن الفحص لحظر المخزون.
 
 يمكن استخدام أوامر إدخال مخزن الفحص لحظر المخزون. ‏‫على سبيل المثال، قد تحتاج إلى فحص الأصناف لأسباب تتعلق بالجودة. يتم تحويل المخزون الذي تم عزله إلى مستودع فحص. **ملاحظة:** إذا كنت تستخدم عمليات إدارة المستودعات المتقدمة (في إدارة المستودعات)، فإن معالجة أوامر إدخال مخزن الفحص تُستخدم فقط لأوامر المبيعات المرتجعة.
 
-## <a name="quarantine-onhand-inventory-items"></a>أصناف المخزون المتوفرة في مخزن الفحص
+## <a name="quarantine-on-hand-inventory-items"></a>أصناف المخزون المتوفرة في مخزن الفحص
 عند قيامك بإدخال الأصناف في مخزن الفحص، يمكنك إنشاء أوامر إدخال مخزن الفحص يدويًا أو إعداد النظام لإنشاء هذه الأوامر تلقائيًا أثناء المعالجة الداخلية. لإنشاء أوامر إدخال مخزن الفحص تلقائيًا، حدد الخيار **إدارة الفحص** على علامة التبويب **سياسات المخزون‬** في صفحة **مجموعات نموذج الصنف**. يجب أيضًا تحديد مستودع فحص افتراضي في حقل **مخزون الفحص** للمستودعات التي تتلقى الأصناف. عند تسجيل المخزون الفعلي في أمر شراء أو أمر إنتاج، يتم نقل العناصر التي تم عزلها إلى مخزون الفحص بشكل تلقائي في Microsoft Dynamics 365 for Finance and Operations. تحدث هذه الحركة لأن أمر إدخال مخزن الفحص تغيّر إلى **مبدوء‬**. عندما تنشئ أوامر إدخال مخزن الفحص يدويًا، لا حاجة إلى إعداد الصنف لإدارة الفحص في مجموعة نماذج الأصناف المقترنة. فيما يتعلق بهذه العملية، يجب تحديد المخزون الفعلي الذي يجب فحصه ومستودع الفحص الذي يجب استخدامه. يمكنك استخدام أوامر إدخال مخزن الفحص للمساعدة في التخطيط للعملية.
 
 ## <a name="quarantine-order-statuses"></a>حالات أوامر الفحص

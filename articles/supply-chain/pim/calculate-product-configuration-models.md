@@ -1,9 +1,9 @@
 ---
 title: "‬‏‫الأسئلة المتداولة حول حسابات نماذج تكوين المنتجات"
-description: "‏‫يوضح هذا المقال حسابات نماذج تكوين المنتج وكيفية استخدام الحسابات مع قيود."
+description: "‏‫يوضح هذا الموضوع حسابات نماذج تكوين المنتج وكيفية استخدام الحسابات مع قيود."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-‏‫يوضح هذا المقال حسابات نماذج تكوين المنتج وكيفية استخدام الحسابات مع قيود.
+‏‫يوضح هذا الموضوع حسابات نماذج تكوين المنتج وكيفية استخدام الحسابات مع قيود.
 
 يمكن استخدام حسابات للعمليات الحسابية أو المنطقية. وهي تكمل قيود التعبير في نماذج تكوين المنتج. ويمكنك تحديد العمليات الحسابية في صفحة **‏‫تفاصيل نموذج تكوين منتج مستند إلى قيد**، ثم إنشاء تعبيرات للحسابات في محرر التعبير. لمزيد من المعلومات، راجع "إنشاء العمليات الحسابية".
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>هل يمكنك استبدال القيمة التي يتم حسابها للسمة الهدف؟
 يمكنك استبدال القيمة التي يتم حسابها للسمة الهدف إلا إذا تم تعيين السمة الهدف إلى مخفي أو للقراءة فقط.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>كيف يمكنني تعيين سمة هدف كمخفي أو للقراءة فقط؟
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>كيف يمكنني تعيين سمة هدف كمخفي أو للقراءة فقط؟
 لتعيين سمة كمخفي أو للقراءة فقط، اتبع الخطوات التالية.
 
 1.  انقر فوق **إدارة معلومات المنتج** &gt; **عامة** &gt; **نماذج تكوين المنتجات**.

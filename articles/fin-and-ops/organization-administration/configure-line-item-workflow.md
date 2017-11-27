@@ -3,14 +3,14 @@ title: "تكوين سير عمل لعنصر بند"
 description: "يشرح هذا الموضوع كيفية تكوين عنصر سير عمل لعنصر بند."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 195833
 ms.assetid: 3237347e-71d5-4569-bc9a-0d0fc9410b78
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d888bf4285a27369b197ed66e5975cc806c640d3
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: d30d6aeda6be7bc81763c0b3f20c568d3fc81526
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 لتكوين عنصر سير عمل لعنصر بند في محرر سير العمل، انقر بزر الماوس الأيمن فوق العنصر، وثم انقر فوق **خصائص** لفتح الصفحة **خصائص**. ثم استخدم الإجراءات التالية لتكوين خصائص عنصر سير عمل لعنصر بند.
 
-## <a name="name-the-lineitem-workflow-element"></a>تسمية عنصر سير عمل لعنصر بند
+## <a name="name-the-line-item-workflow-element"></a>تسمية عنصر سير عمل لعنصر بند
 اتبع الخطوات التالية لإدخال اسم لعنصر سير عمل لعنصر بند.
 
 1.  في الجزء الأيمن، انقر فوق **الإعدادات الأساسية‬**.

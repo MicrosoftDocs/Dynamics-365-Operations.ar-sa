@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c4c900d7599b0dc09e97e6a62d5b43971a8c3e33
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6b2346c635fd16fce99c2813856e0fc9b5b03a44
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -38,12 +38,11 @@ ms.lasthandoff: 09/29/2017
 ## <a name="quick-links"></a>ارتباطات سريعة
 |      |   |
 |------|---|
-|  [بدء الاستخدام](terms-cost-accounting.md)    | [تكوين النظام المصدر](../general-ledger/financial-dimensions.md)  |
-|  [إنشاء الأبعاد واستيراد أعضاء الأبعاد](cost-elements.md)    |[إنشاء التدرج الهرمي للأبعاد](dimension-hierarchy.md)   |
-|  [إنشاء إعداد أساسي](./tasks/define-cost-control-units.md)    |  [تحديد أساس توزيع](allocation-bases.md) |
-|    [تحديد السياسات](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md)  | [مصدر البيانات وموفر البيانات](./tasks/manage-data-source-cost-accounting-ledger.md)  |
-| [معالجة مصدر البيانات](./tasks/process-trace-source-data.md)     | [عملية حساب المصروفات الزائدة](overhead-calculation.md)  |
-|   [التحليل وإعداد التقارير](cost-control-workspace.md)   |   |
+|  [تكوين الكيانات الأساسية (التعليم الإلكتروني)](https://mbspartner.microsoft.com/Home) (يتطلب حساب CustomerSource)  |[إنشاء أبعاد](cost-elements.md)  |
+|  [إنشاء التدرج الهرمي للأبعاد](dimension-hierarchy.md)  |[إنشاء إعداد أساسي](./tasks/define-cost-control-units.md)| 
+| [تحديد أساس توزيع](allocation-bases.md)|[تحديد السياسات](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [مصدر البيانات وموفر البيانات](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [مصدر البيانات وموفر البيانات](./tasks/process-trace-source-data.md)     | 
+|[عملية حساب المصروفات الزائدة](overhead-calculation.md)  | [التحليل وإعداد التقارير](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>مقاطع فيديو لبدء الاستخدام<br/>
 

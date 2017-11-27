@@ -1,27 +1,27 @@
 ---
 title: "عناصر سير العمل"
-description: "توضح هذه المقالة العناصر المختلفة التي تشكّل سير عمل."
+description: "يوضح هذا الموضوع العناصر المختلفة التي تشكّل سير عمل."
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة العناصر المختلفة التي تشكّل سير عمل.
+يوضح هذا الموضوع العناصر المختلفة التي تشكّل سير عمل.
 
 يتألف سير العمل من عناصر. توضح الأقسام التالية كل نوع عنصر.
 
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/29/2017
 -   طلب تغيير في المستند.
 -   تعيين المستند إلى مستخدم آخر للاعتماد.
 
-## <a name="lineitem-workflow-elements"></a>عناصر سير عمل عنصر البند
+## <a name="line-item-workflow-elements"></a>عناصر سير عمل عنصر البند
 يمكن إنشاء سير عمل لمعالجة المستندات أو عناصر البنود الموجودة في مستند. على سبيل المثال، لقد قمت بإنشاء سير عمل اعتماد للجداول الزمنية. ‏‫(سنشير إلى سير العمل هذا بصفته *سير عمل المستند*.) يمكنك إضافة *‬‏‫سير العمل عنصر الصنف* إلى سير عمل المستند هذا.‬ وعند تشغيل صنف البند، يتم إرسال كل صنف بند في المستند للمعالجة. قد تحتاج إلى معالجة كافة أصناف البند بنفس بند سير عمل صنف البند، أو قد تحتاج إلى معالجة كل صنف بند بواسطة سير عمل صنف بند مختلف. تخيل أن موظف قام بتقديم جدول زمني يشبه الشكل التالي.
 
 ![سير العمل مع عناصر البند](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/29/2017
 -   **سير عمل عنصر البند 2** – يتم استخدام سير العمل هذا لمعالجة عناصر البند حيث يكون معرف المشروع هو 2222.
 -   **سير عمل عنصر البند 3** – يتم استخدام سير العمل هذا لمعالجة عناصر البند حيث يكون معرف المشروع هو 3333.
 
-## <a name="flowcontrol-elements"></a>عناصر التحكم في التدفق
+## <a name="flow-control-elements"></a>عناصر التحكم في التدفق
 تتيح لك العناصر التالية تصميم مهام سير العمل التي لها فروع بديلة أو فروع يتم تشغيلها في نفس الوقت.
 
 ### <a name="manual-decision"></a>قرار يدوي

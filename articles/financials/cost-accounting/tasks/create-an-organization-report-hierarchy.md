@@ -3,7 +3,7 @@ title: "إنشاء تدرج هرمي لتقارير المنظمة"
 description: "استخدم هذا الإجراء لإنشاء تدرج هرمي للتقرير لإعداد تقارير المؤسسة."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/28/2017
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f593c59660abcf5b0d5771ddd9daced6ec5fbfb4
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="create-an-organization-report-hierarchy"></a>إنشاء تدرج هرمي لتقارير المنظمة
@@ -74,7 +74,7 @@ ms.lasthandoff: 09/29/2017
 40. في الحقل "من عضو البُعد‬"، أدخل قيمة أو حددها.
     * حدد عضو البُعد المطابق للعقدة.  
 41. انقر فوق "حفظ".
-42. في الشجرة، حدد "مؤسسة USP2\CEO\مراكز تكلفة CFO".
+42. في الشجرة، حدد "مؤسسة USP2‏\CEO\مراكز تكلفة CFO".
 43. انقر فوق "جديد".
 44. في الحقل "اسم العقدة"، اكتب "معارض تجارية".
 45. انقر فوق "حفظ".

@@ -3,7 +3,7 @@ title: "إعداد التدرج الهرمي لفئات التدبير"
 description: "يوضح هذا الإجراء كيفية إنشاء عقد جديد في تدرج هرمي لفئات التدبير وكيفية تكوين فئة تدبير لاستخدامها في عملية تدبير."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>إعداد التدرج الهرمي لفئات التدبير
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 
 ## <a name="add-a-new-procurement-category"></a>أضف فئة تدبير جديدة.
-1. انتقل إلى التدبير والتوريد > .. > فئات التدبير.
+1. انتقل إلى التدبير والتوريد > فئات التدبير.
 2. انقر فوق "تحرير التدرج الهرمي للفئات".
     * يتم عرض التدرج الهرمي الحالي لفئات التدبير في الجانب الأيسر من الصفحة. أنت على وشك تعديل هرم فئات التدبير:  
 3. انقر فوق "عقدة فئة جديدة"
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/29/2017
 7. انقر فوق "حفظ".
 
 ## <a name="add-products-to-your-new-procurement-category"></a>إضافة منتجات إلى فئة التدبير الجديدة
-1. انتقل إلى التدبير والتوريد > .. > فئات التدبير.
+1. انتقل إلى التدبير والتوريد > فئات التدبير.
     * حدد العقدة التي أضفتها للتو. إذا كنت تنفذ هذا الإجراء كدليل مهمة، فقد تحتاج إلى إلغاء تأمين دليل المهمة لتحديد العقدة.  
 2. قم بتبديل توسيع القسم "المنتجات".
 3. انقر فوق" إضافة" لربط المنتجات بفئة التدبير.
