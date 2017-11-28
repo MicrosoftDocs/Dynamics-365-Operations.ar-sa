@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>تصميم تكوين لإنشاء تقارير بتنسيق Microsoft Word للتقارير الإلكترونية (ER)
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/29/2017
 
 لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات الموضحة في دليل المهمة "إنشاء تكوين التقارير الإلكترونية لإنشاء التقارير بتنسيق OPENXML‬". بشكل مسبق، يجب أيضًا تنزيل وحفظ القوالب التالية محليًا للتقرير النموذجي:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[قالب تقرير الدفع](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[القالب المضمن لتقرير الدفع](https://go.microsoft.com/fwlink/?linkid=862266)
 
 يتم استخدام هذا الإجراء لميزة تمت إضافتها في Microsoft Dynamics 365 for Operations، الإصدار 1611.
 
@@ -49,7 +49,7 @@ http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBou
 ## <a name="replace-the-excel-template-with-the-word-template"></a>استبدال قالب Excel بقالب Word
     * في الوقت الحالي، يتم استخدام مستند Excel كقالب لإنشاء المخرجات بتنسيق OPENXML. سوف نستورد قالب التقرير بتنسيق Word.  
 1. انقر فوق "المرفقات".
-    * استبدل قالب Excel الموجود بقالب Word الذي قمت بتنزيله في وقت سابق، SampleVendPaymDocReport.docx. لاحظ أن هذا القالب يحتوي فقط على تخطيط المستند الذي نرغب في إنشائه كمخرجات تقارير إلكترونية.  
+    * استبدل قالب Excel الموجود بقالب Word الذي قمت بتنزيله في وقت سابق، قالب تقرير الدفع. لاحظ أن هذا القالب يحتوي فقط على تخطيط المستند الذي نرغب في إنشائه كمخرجات تقارير إلكترونية.  
 2. انقر فوق حذف.
 3. انقر فوق نعم.
 4. انقر فوق "جديد".

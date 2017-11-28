@@ -3,7 +3,7 @@ title: "تسجيل شيك بتاريخ لاحق لمورد وترحيله"
 description: "يمكنك تسجيل تفاصيل شيك بتاريخ لاحق قبل أن تقوم بإصدار الشيك لمورد، وذلك باستخدام ‏‫إيصال دفتر اليومية."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/31/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: dd1c9d29d34e51a479d4df4086e97269f71f7448
+ms.sourcegitcommit: 632b04848cdb6d71e7e7dbd6c6bc710d0577950a
+ms.openlocfilehash: 776121532c42fde8b1c3e29b4af0bf833952c0cd
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/31/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>تسجيل شيك بتاريخ لاحق لمورد وترحيله
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 ويتمثل دور دلائل المهام هذه في أمين الخزانة. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
-1. انتقل إلى الحسابات الدائنة > المدفوعات > دفتر يومية المدفوعات‬‬
+1. انتقل إلى الحسابات الدائنة > المدفوعات‬ > دفتر يومية المدفوعات‬‬
 2. انقر فوق "جديد".
 3. في حقل "الاسم"، اكتب "VendPay".
 4. انقر فوق البنود.

@@ -3,7 +3,7 @@ title: "مواد ورسوم التعبئة"
 description: "يتم دفع رسوم مواد التعبئة على فترات زمنية محددة إلى شركة إعادة التدوير. يتم دفع مبلغ، حسب وحدة الوزن، لكل مادة تتكون منها وحدة التعبئة. ويتم حساب رسوم مواد التعبئة وإعداد تقارير بها، ولكن لا يتم ترحيل أي من حركات دفتر الأستاذ وذلك لعدم اعتبار هذه الرسوم بمثابة ضرائب لا بد من دفعها إلى هيئة الضرائب."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d7cd7b3d60e9c265a766695b53d8d27ee2a8d0a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="packing-units-on-purchase-order-lines"></a>وحدات التعبئة في بنود أوامر الشراء
 لا يتم إنشاء حركات تعبئة مواد لبند أمر الشراء بواسطة النظام. ويمكنك إنشاء حركات بنود أمر الشراء المفوترة يدويًا في صفحة **حركات مواد التعبئة**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>إعداد أرقام ترخيص رسوم ومواد التعبئة للعميل
+## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>إعداد أرقام ترخيص رسوم مادة التعبئة للعميل
 إذا دفع العملاء رسوم مادة التعبئة، فحدد أرقام ترخيص مادة التعبئة للعميل في صفحة **العملاء**. وإذا تم تعيين رقم الترخيص للعميل، فسيتم حساب رسوم مادة التعبئة تلقائيًا عند فوترة أوامر التوريد. وبعد الفوترة، يتم إلغاء تحديد خانة اختيار **حساب الرسم** في صفحة **حركات مواد التعبئة**، لأنه لا يلزمك حساب وطباعة تقرير. يمكنك طباعة أوزان مادة التعبئة على الفاتورة وإعلام العملاء بأنهم يدفعون الرسوم. 
 
 إذا دفعت شركتك رسوم مادة التعبئة، فلا تقم بتحديد أرقام الترخيص للعميل. وبعد الفوترة، يتم تحديد خانة الاختيار **حساب الرسوم** في صفحة **حركات مواد التعبئة**. ويشير هذا إلى أنه يتم حساب الرسوم عند إنشاء تقرير. ويمكنك طباعة الأوزان على الفاتورة والإشارة إلى أن شركتك هي التي تقوم بدفع الرسوم.

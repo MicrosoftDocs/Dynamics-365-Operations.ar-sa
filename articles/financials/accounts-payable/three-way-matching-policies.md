@@ -1,9 +1,9 @@
 ---
 title: "سياسات المطابقة الثلاثية"
-description: "توفر هذه المقالة أمثلة عن المطابقة الثلاثية."
+description: "يوفر هذا الموضوع أمثلة عن المطابقة الثلاثية."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bc53df6b994c0d2e490e8823a53478f2ad04e163
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-توفر هذه المقالة أمثلة عن المطابقة الثلاثية.
+يوفر هذا الموضوع أمثلة عن المطابقة الثلاثية.
 
 <a name="example-three-way-matching-for-items"></a>على سبيل المثال: المطابقة الثلاثية للأصناف
 -------------------------------------
@@ -65,7 +65,7 @@ ms.lasthandoff: 09/29/2017
 1.  يتلقى سامي، وهو أحد العاملين في قسم الاستلام في شركة الاتحاد للتصنيع، الكمية الإجمالية للأجهزة التي يتم شحنها من شركة "التعمير". ويقوم بإدخال كمية 5 في إيصال استلام منتجات. ولأنه تم استلام أمر الشراء بالكامل، تتغير حالة أمر الشراء إلى "مستلم".
 2.  تقوم فوزية، وهي منسق الحسابات الدائنة في شركة الاتحاد للتصنيع، بإدخال والتحقق من صحة الفواتير التي قدمتها شركة "التعمير". وتتحقق من صحة المعلومات التالية:
     -   بالنسبة للأصناف التي تتطلب المطابقة ثلاثية الاتجاهات، تتطابق الكمية الموجودة في بند الفاتورة مع الكمية التي تم استلامها. وتتم الإشارة إلى الكمية المستلمة في إيصال استلام المنتج المطابق للفاتورة.
-    -   وبالنسبة للأصناف التي تتطلب مطابقة ثنائية أو ثلاثية الاتجاهات، توجد الأسعار في بند الفاتورة في نطاق التفاوتات التي تم تحديدها في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. ويتضمن هذا الأنواع التالية من مطابقة الأسعار:
+    -   بالنسبة للأصناف التي تتطلب مطابقة ثنائية أو ثلاثية الاتجاهات، توجد الأسعار في بند الفاتورة في نطاق التفاوتات التي تم تحديدها في Microsoft Dynamics 365 for Finance and Operations، إصدار المؤسسات Enterprise. ويتضمن هذا الأنواع التالية من مطابقة الأسعار:
         -   مطابقة سعر الوحدة صافي - يتطابق صافي سعر الوحدة في بند الفاتورة مع صافي سعر الوحدة في بند أمر الشراء، ضمن نسبة التفاوت. وفي هذا المثال، يبلغ صافي تفاوت سعر الوحدة +8%.
         -   مطابقة إجماليات الأسعار - يتطابق صافي المبلغ في بند الفاتورة مع صافي المبلغ في في بند أمر الشراء، ضمن نسبة التفاوت، المبلغ أو النسبة المئوية والمبلغ. وفي هذا المثال، تبلغ إجماليات الأسعار المطابقة للتفاوت +15%.
 

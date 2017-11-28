@@ -1,9 +1,9 @@
 ---
 title: "تخطيط الوضع المختلط - دمج التوريد المنفصل وتوريد العمليات والتوريد محدود الفاقد"
-description: "توفر هذه المقالة معلومات حول تخطيط الوضع المختلط. في تخطيط الوضع المختلط، يمكنك تصميم سلسلة التوريد استنادًا إلى تدفق المواد. يتأكد Microsoft Dynamics 365 for Finance and Operations من أن تدفق المواد يتبع نماذجك بغض النظر عن سياسة التوريد المحددة (كانبان أو أوامر الإنتاج أو أوامر الشراء أو الأوامر الدفعية أو أوامر التحويل)."
+description: "يوفر هذا الموضوع معلومات حول تخطيط الوضع المختلط."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-توفر هذه المقالة معلومات حول تخطيط الوضع المختلط. في تخطيط الوضع المختلط، يمكنك تصميم سلسلة التوريد استنادًا إلى تدفق المواد. يتأكد Microsoft Dynamics 365 for Finance and Operations من أن تدفق المواد يتبع نماذجك بغض النظر عن سياسة التوريد المحددة (كانبان أو أوامر الإنتاج أو أوامر الشراء أو الأوامر الدفعية أو أوامر التحويل). 
+يوفر هذا الموضوع معلومات حول تخطيط الوضع المختلط. في تخطيط الوضع المختلط، يمكنك تصميم سلسلة التوريد استنادًا إلى تدفق المواد. يتأكد Microsoft Dynamics 365 for Finance and Operations من أن تدفق المواد يتبع نماذجك بغض النظر عن سياسة التوريد المحددة (كانبان أو أوامر الإنتاج أو أوامر الشراء أو الأوامر الدفعية أو أوامر التحويل). 
 
 يمكنك تحديد الاستراتيجية الكلية لتوريد منتج، بغض النظر عن بنية المنتج.  
 
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/29/2017
 
 يوجد نفس المنطق لتوفير لجميع أنواع سياسات التوريد الأخرى. ولذلك، يستند تخطيط المواد طويل الأجل إلى نفس المنطق الذي تتوقع تشغيله باستخدام الأوامر الفعلية بعد الموافقة على الإنتاج والتوريد.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>سياسة التوريد عبر توزيع المواد - استهلاك الموارد في قائمة مكونات الصنف
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>سياسة التوريد عبر توزيع المواد - استهلاك الموارد في قائمة مكونات الصنف
 يعتبر استهلاك الموارد من الوظائف الهامة. ويعمل استهلاك الموارد على تمكين مستودع على تمكين تحديد مستودع لانتقاء المواد بشكل حيوي، استناداً إلى سياسة التوريد (نوع الأمر)، ويؤدي إلى تسهيل حفظ قاعدة البيانات.  
 
 ويتطلب استهلاك الموارد تعيين المستودع الذي يتم انتقاء المواد منه استناداً إلى الطريقة التي تم بها توريد المنتج. وبعبارة أخرى، في وقت التشغيل، يبحث النظام عن الموارد التي ينبغي أن تُستخدم لتصنيع. وبناءً على تلك الموارد، يبحث النظام فيما بعد عن مستودع الانتقاء.  

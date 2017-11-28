@@ -3,7 +3,7 @@ title: "الائتمان والتحصيلات في الحسابات المدين
 description: "تُدار المعلومات المتعلقة بتحصيلات الحسابات المدينة في طريقة عرض مركزية واحدة باستخدام صفحة التحصيلات في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. بإمكان مدراء الائتمانات والتحصيلات استخدام طريقة العرض المركزية هذه لإدارة التحصيلات. وبإمكان وكلاء التحصيلات بدء عملية التحصيل من قوائم العملاء التي يتم إنشاؤها باستخدام معايير التحصيل المعرفة مسبقًا أو من صفحة العملاء."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62f659d6e4529adce10e6eb2699dfc84a7329143
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 09/29/2017
 -   حالات التحصيلات – تعرض الأعمدة في صفحة القوائم معلومات للحالات التي تحتوي على فئة حالة باستخدام نوع حالة التحصيلات.
 
 > [!NOTE]
-> ويجب إنشاء لقطة تأخر قبل أن يمكنك عرض المعلومات في صفحات القوائم هذه. ويتم عرض المعلومات فقط للعملاء الذين تم إنشاء لقطة تأخر لهم. السجلات التي يتم عرضها في صفحة قائمة يمكن تصفيتها بالإضافة إلى ذلك، كما يلي:
+> ويجب إنشاء لقطة تأخر قبل أن يمكنك عرض المعلومات في صفحات القوائم هذه. لا يتم عرض المعلومات إلا للعملاء الذين تم إنشاء لقطة تأخر لهم. يمكن إضافةً إلى ذلك تصفية السجلات التي تظهر في صفحة القائمة، كما يلي:
 <li>بشكل افتراضي، يصل مستخدم Finance and Operations إلى كافة العملاء الذين لديهم لقطة تأخر.</li>
 <li>في حالة وجود أوعية العملاء، يجب إعداد مستخدم كوكيل تحصيلات لاستخدام التأوعية لتصفية المعلومات الموجودة في صفحات قوائم التحصيلات. وتقتصر المعلومات على العملاء الموجودين في وعاء العملاء المحدد.</li>
 <li>إذا تم تعيين مستخدم كوكيل تحصيلات، تتوفر فقط الأوعية التي تم تحديدها لوكيل التحصيلات هذا في صفحة القائمة. في حالة تحديد "‏‫تبديل السماح للوكيل بعرض كافة أوعية العملاء‬" في صفحة وكيل التحصيلات الخاصة بوكيل التحصيلات، تتوفر كافة الأوعية لهذا الوكيل.</li>

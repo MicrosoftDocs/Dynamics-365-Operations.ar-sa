@@ -3,14 +3,14 @@ title: "تعاون المورد مع موردين خارجيين"
 description: "يصف هذا الموضوع كيف يستطيع وكلاء الشراء التعاون مع الموردين الخارجيين لتبادل المعلومات حول أوامر الشراء ومخزون الشحن."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
-ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,6 +33,8 @@ ms.lasthandoff: 10/05/2017
 يصف هذا الموضوع كيف يستطيع وكلاء الشراء التعاون مع الموردين الخارجيين لتبادل المعلومات حول أوامر الشراء ومخزون الشحن.
 
 تستهدف الوحدة النمطية **تعاون المورد** الموردين ممن ليس لديهم تكامل التبادل الإلكتروني للبيانات (EDI) مع Microsoft Dynamics 365 for Finance and Operations. إنه تسمح للموردين بالعمل مع معلومات أوامر الشراء والفواتير ومخزون الشحن. يصف هذا الموضوع كيف يمكنك التعاون مع الموردين الخارجيين الذين يستخدمون واجهة تعاون المورد للعمل مع أوامر الشراء ومخزون الشحن. ويصف أيضًا كيفية تمكين مورد معين من استخدام واجهة تعاون المورد، وكيفية تعريف المعلومات التي ستظهر لكافة الموردين، عند استجابتهم لأمر شراء. لمزيد من المعلومات حول الأمور التي يمكن للموردين الخارجيين القيام بها في واجهة تعاون المورد، راجع [تعاون المورد مع العملاء](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+
+تنطبق المعلومات الواردة في هذا الموضوع حول تعاون المورّد‬ على الإصدار الحالي من Dynamics 365 for Finance and Operations. في إصداري فبراير 2016 ومايو 2016 من Microsoft Dynamics AX، تتعاون مع الموردين باستخدام الوحدة النمطية لمدخل المورّد. لمزيد من المعلومات حول الوحدة النمطية لمدخل المورد، راجع [التعاون مع الموردين باستخدام مدخل المورد على الإنترنت](collaborate-vendors-vendor-portal.md).
 
 لمزيد من المعلومات حول كيفية استخدام الموردين واجهة تعاون الموردين في عمليات الفوترة، راجع [مساحة عمل فوترة تعاون المورد](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). لمزيد من المعلومات حول كيفية توفير مستخدمين جدد لتعاون المورد، راجع [إدارة مستخدمي تعاون المورد](manage-vendor-collaboration-users.md).
 

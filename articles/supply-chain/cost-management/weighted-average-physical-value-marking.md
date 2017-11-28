@@ -1,9 +1,9 @@
 ---
 title: "المتوسط المرجح مع القيمة الفعلية ووضع العلامات"
-description: 
+description: "المتوسط المرجح هو نموذج مخزون يستند إلى قاعدة المتوسط المرجح، حيث يتم تقييم إصدارات المخزون وفقًا لمتوسط قيمة الأصناف المستلمة في المخزون أثناء فترة إقفال المخزون، علاوة على أي مخزون فعلي من الفترة السابقة."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
-
+المتوسط المرجح هو نموذج مخزون يستند إلى قاعدة المتوسط المرجح، حيث يتم تقييم إصدارات المخزون وفقًا لمتوسط قيمة الأصناف المستلمة في المخزون أثناء فترة إقفال المخزون، علاوة على أي مخزون فعلي من الفترة السابقة.
 
 عند تشغيل إقفال المخزون، تتم تسوية كافة الإيصالات مقابل إصدار ظاهري يتضمن إجمالي الكمية المستلمة والقيمة. ويكون للإصدار الظاهري إيصالاً ظاهريًا تتم تسوية الإصدارات منه. في هذه الطريقة، تحصل كافة الإصدارات على نفس متوسط التكلفة. يظهر الإصدار الظاهري والإيصال الظاهري كتحويل ظاهري يُسمى "تحويل إقفال مخزون المتوسط المرجح".
 

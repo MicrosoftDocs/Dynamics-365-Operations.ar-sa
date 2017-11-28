@@ -1,9 +1,9 @@
 ---
-title: "استخدام دفعة عميل لتسوية فواتير متعددة تمتد عبر عدة فترات خصم"
-description: "توضح هذه المقالة كيفية دفع فواتير متعددة عندما تتأهل كل فاتورة للحصول على خصم نقدي. تقوم السيناريوهات في هذه المقالة بتسليط الضوء على اختلاف الخصومات النقدية التي يتم أخذها باختلاف الوقت الذي يتم فيه تسديد الدفع."
+title: "استخدام دفعة عميل واحدة لتسوية فواتير متعددة تمتد عبر عدة فترات خصم"
+description: "يوضح هذا الموضوع كيفية دفع فواتير متعددة عندما تتأهل كل فاتورة للحصول على خصم نقدي. تقوم السيناريوهات في هذه المقالة بتسليط الضوء على اختلاف الخصومات النقدية التي يتم أخذها باختلاف الوقت الذي يتم فيه تسديد الدفع."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
@@ -19,21 +19,21 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5b6f3da6885d5e156ec1fde0609b1b35aa77b6c0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>استخدام دفعة عميل لتسوية فواتير متعددة تمتد عبر عدة فترات خصم
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>استخدام دفعة عميل واحدة لتسوية فواتير متعددة تمتد عبر عدة فترات خصم
 
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة كيفية دفع فواتير متعددة عندما تتأهل كل فاتورة للحصول على خصم نقدي. تقوم السيناريوهات في هذه المقالة بتسليط الضوء على اختلاف الخصومات النقدية التي يتم أخذها باختلاف الوقت الذي يتم فيه تسديد الدفع.
+يوضح هذا الموضوع كيفية دفع فواتير متعددة عندما تتأهل كل فاتورة للحصول على خصم نقدي. تقوم السيناريوهات في هذه المقالة بتسليط الضوء على اختلاف الخصومات النقدية التي يتم أخذها باختلاف الوقت الذي يتم فيه تسديد الدفع.
 
-‏‫شركة الاتحاد للتصنيع تبيع السلع للعميل 4032. تقدم هذه الشركة خصمًا نقديًا بنسبة 1 في المائة، إذا تم دفع الفاتورة في غضون 14 يومًا.‬ كما تقدم شركة الاتحاد للتصنيع الخصومات النقدية في دفعات جزئية. توجد معلمات التسوية في صفحة **معلمات الحسابات المدينة**.
+‏‫شركة الاتحاد للتصنيع تبيع السلع للعميل 4032. تقدم هذه الشركة خصمًا نقديًا بنسبة 1 في المائة، إذا تم دفع الفاتورة في غضون 14 يومًا.‬ كما تقدم شركة الاتحاد للتصنيع الخصومات النقدية في دفعات جزئية. وتوجد معلمات التسوية في صفحة **معلمات الحسابات المدينة**.
 
 ## <a name="invoices"></a>الفواتير
 لدى العملاء 4032 ثلاث فواتير بإجمالي 3000.00:

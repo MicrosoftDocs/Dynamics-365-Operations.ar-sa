@@ -1,9 +1,8 @@
 ---
 title: "نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة"
-description: "يشرح هذا الموضوع المفاهيم المرتبطة بالأجهزة الطرفية للبيع بالتجزئة. فهو يصف الطرق المختلفة التي يمكن من خلال توصيل الأجهزة الطرفية بنقطة البيع (POS) والمكونات التي تكون مسؤولة عن إدارة الاتصال بنقطة البيع."
-author: rubencdelgado
+description: "يشرح هذا الموضوع المفاهيم المرتبطة بالأجهزة الطرفية للبيع بالتجزئة."
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,10 +17,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -575,7 +574,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="peripheral-simulator"></a>محاكي الأجهزة الطرفية للبيع بالتجزئة
 للحصول على معلومات، راجع [محاكي الأجهزة الطرفية‬ للبيع بالتجزئة](dev-itpro/retail-peripheral-simulator.md).
 
-## <a name="microsofttested-peripheral-devices"></a>الأجهزة الطرفية التي خضعت لاختبارات Microsoft
+## <a name="microsoft-tested-peripheral-devices"></a>الأجهزة الطرفية التي خضعت لاختبارات Microsoft
 ### <a name="ipc-built-in-hardware-station"></a>‏‫محطة أجهزة IPC (مضمنة)‬
 
 تم اختبار الأجهزة الطرفية التالية باستخدام محطة أجهزة IPC المضمنة في نقطة البيع الحديثة لنظام التشغيل Windows.

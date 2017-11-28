@@ -1,9 +1,9 @@
 ---
 title: "نظرة عامة على طلب الشراء"
-description: "توضح هذه المقالة سير عمل طلب الشراء ومختلف حالات طلب الشراء."
+description: "يوضح هذا الموضوع سير عمل طلب الشراء والحالات المختلفة التي يمكن أن يكون بها طلب شراء."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-توضح هذه المقالة سير عمل طلب الشراء ومختلف حالات طلب الشراء.
+يوضح هذا الموضوع سير عمل طلب الشراء والحالات المختلفة التي يمكن أن يكون بها طلب شراء.
 
 استنادًا إلى إعداد مؤسستك، يمكنك إنشاء طلبات شراء للمنتجات التي تستخدمها مؤسستك. ويعتبر طلب الشراء مستندًا داخليًا حيث يخول قسم الشراء ليقوم بشراء الأصناف أو الخدمات.  
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 09/29/2017
 <thead>
 <tr class="header">
 <th>حالة طلب الشراء</th>
-<th>حالة سطر طلب الشراء</th>
+<th>حالة بند طلب الشراء</th>
 <th>الوصف</th>
 </tr>
 </thead>
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/29/2017
 <tr class="odd">
 <td>المسودة</td>
 <td>المسودة</td>
-<td>تم إنشاء طلب الشراء وبند طلب الشراء، ولكن لم يتم إرساله للمراجعة. يمكن تعديل طلبات الشراء وبنود طلب الشراء التي بحالة <strong>مسودة</strong>. كما أن طلب الشراء أو بند طلب الشراء يكون بحالة <strong>مسودة</strong> إذا تم استدعاؤه ولكن لم تتم إعادة إرساله للمراجعة. <strong>ملاحظة:</strong> يمكنك إرسال أو استدعاء طلب شراء على مستوى المستند. ومع ذلك، لا يمكن إرسال أو استدعاء بند طلب شراء واحد.</td>
+<td>تم إنشاء طلب الشراء وبند طلب الشراء، ولكن لم يتم إرساله للمراجعة. يمكن تعديل طلبات الشراء وبنود طلبات الشراء التي بالحالة <strong>مسودة</strong>. تكون طلبات الشراء وبنود طلبات الشراء بالحالة <strong>مسودة</strong> إذا تم استدعاؤها ولكن لم تتم إعادة إرسالها للمراجعة. <strong>ملاحظة:</strong> يمكنك إرسال أو استدعاء طلب شراء على مستوى المستند. ومع ذلك، لا يمكن إرسال أو استدعاء بند طلب شراء واحد.</td>
 </tr>
 <tr class="even">
 <td>قيد المراجعة</td>
@@ -111,7 +111,7 @@ ms.lasthandoff: 09/29/2017
 <tr class="odd">
 <td>ملغى</td>
 <td>ملغى</td>
-<td>تم إلغاء طلب الشراء وكافة بنود طلبات الشراء.<strong>ملاحظة:</strong> إذا لم تعد تحتاج إلى صنف موجود في بند طلب شراء، يجب عليك إلغاء بند طلب الشراء في حالة الموافقة عليه مسبقاً. يمكن إلغاء بنود طلبات الشراء فقط التي تم اعتمادها. إذا كانت أية بنود طلب شراء قيد المراجعة، فسيكون طلب الشراء بحالة <strong>قيد المراجعة</strong>. وفي هذه الحالة، يمكنك استعادة طلب الشراء وحذف بند طلب الشراء المناسب.</td>
+<td>تم إلغاء طلب الشراء وجميع بنود طلب الشراء. <strong>ملاحظة:</strong> إذا لم تعد تحتاج إلى صنف موجود في بند طلب شراء، يجب عليك إلغاء بند طلب الشراء في حالة الموافقة عليه مسبقاً. يمكن إلغاء بنود طلبات الشراء فقط التي تم اعتمادها. إذا كانت أية بنود طلب شراء قيد المراجعة، فسيكون طلب الشراء بحالة <strong>قيد المراجعة</strong>. وفي هذه الحالة، يمكنك استعادة طلب الشراء وحذف بند طلب الشراء المناسب.</td>
 </tr>
 <tr class="even">
 <td>‏‏مغلق</td>

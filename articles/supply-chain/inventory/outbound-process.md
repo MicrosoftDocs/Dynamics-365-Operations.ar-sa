@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 10/04/2017
 
 [![الخيار إنهاء أمر مخزني للمخرجات](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-في بعض الأحيان، لا يمكن انتقاء بعض العناصر الموجودة في المخزون كجزء من عملية معالجة قائمة انتقاء. على سبيل المثال، قد تحدث هذه الحالة إذا قام عامل مستودع بتقليل الكميات في بنود الانتقاء وقام بمعالجة قائمة الانتقاء. إذا تم تعيين الخيار **إنهاء أمر مخزني للمخرجات‬** إلى **نعم**، فسيتم الإبلاغ عن الكميات المتبقية غير المنتقاة لإعادتها إلى مستوى الأمر. إذا تم تعيين الخيار إلى **لا**، فسيتم الاحتفاظ بالكميات المتبقية غير المنتقاة ككمية أمر مخرجات مفتوح. في هذه الحالة، تبقى الكميات صادرة إلى المستودع ويجب إضافتها إلى قائمة انتقاء جديدة كجزء من وظيفة **فتح أوامر المخرجات**.
+عندما يقلل عامل المستودع كميات قائمة الانتقاء، ستتم إزالة كميات أوامر المخزون المقابلة من الشحنة. عندما يتم تحديث قائمة الانتقاء عند نقطة زمنية ما، يتم تحديث الكميات المتبقية مرة أخرى في الأمر إذا كان الخيار **‏‫إنهاء أمر مخزني للمخرجات‬** مُعينًا إلى **نعم**. إذا كان الخيار **‏‫إنهاء أمر مخزني للمخرجات‬** معينًا إلى **لا**، يتم الاحتفاظ بالكميات المتبقية ككمية أمر مخرجات مفتوح ويجب إضافتها إلى قائمة انتقاء جديدة كجزء من الوظيفة **فتح أوامر المخرجات**. 
 
 [![الأمر "فتح أوامر المخرجات" في قائمة "الوظائف"](./media/open-output-order.png)](./media/open-output-order.png)
 

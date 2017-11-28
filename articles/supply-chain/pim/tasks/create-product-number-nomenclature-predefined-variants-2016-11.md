@@ -3,7 +3,7 @@ title: "إنشاء رقم منتج متغيرات المنتج المعرفة م
 description: "يوضح هذا الدليل كيفية إعداد nomenclature لرقم المنتج لمتغيرات منتجات معرّفة مسبقًا، وكيف يمكنك تعيينها إلى مجموعة أبعاد المنتجات المناسبة."
 author: BibiSp
 manager: AnnBe
-ms.date: 09/26/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6294e4608b31c37aa713e3a7a2028b409b5a8366
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c423aab341ddad9383c4c95b9dbb63c9875c99ef
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-product-number-for-predefined-product-variants"></a>إنشاء رقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 1. انقر فوق "تعريف نموذج متغير المنتج"ز
 2. انقر فوق "كود nomenclature للمنتج‬".
 3. انقر فوق "جديد".
-4. في الحقل "الاسم"، أدخل اسم nomenclature يساعد على تحديد مجموعة أبعاد المنتجات الهدف، على سبيل المثال، ColorSize...
+4. في حقل "الاسم"، أدخل اسم كود nomenclature الذي يساعد على تحديد مجموعة أبعاد المنتجات الهدف، على سبيل المثال، ColorSize.
 5. في وصف الحقل، اكتب قيمة.
 6. وانقر فوق إضافة.
 7. انقر فوق "رقم أصل المنتج".

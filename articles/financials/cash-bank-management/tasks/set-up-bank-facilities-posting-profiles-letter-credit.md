@@ -3,7 +3,7 @@ title: "إعداد ملفات تعريف الترحيل والتسهيلات ا�
 description: "يوضح هذا الإجراء إنشاء تسهيلات بنك وترحيل ملف التعريف المطلوب لمعالجة خطابات الاعتماد."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/27/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 43422627f8529768ab9377c04568da531d6565c6
+ms.sourcegitcommit: 18ad27eb673745d09569f6a49c8bc66132550f35
+ms.openlocfilehash: 9ad19534091bdbd8924f90174b720d818b9ed778
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/27/2017
 
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>إعداد ملفات تعريف الترحيل والتسهيلات البنكية لخطاب الاعتماد
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 يوضح هذا الإجراء إنشاء تسهيلات بنك وترحيل ملف التعريف المطلوب لمعالجة خطابات الاعتماد. 
 
-تستخدم هذه المهمة شركة العرض التجريبي "USMF".
+تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
 
 

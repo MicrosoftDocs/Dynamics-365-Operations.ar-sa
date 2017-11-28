@@ -1,7 +1,7 @@
 ---
 title: "مصمم المعادلة في التقارير الإلكترونية"
-description: "يشرح هذا الموضوع كيفية استخدام مصمم المعادلة في التقارير الإلكترونية. عندما تصمم تنسيقًا لمستند إلكتروني معين في التقارير الإلكترونية، يمكنك استخدام معادلات مماثلة لمعادلات Microsoft Excel لتحويل البيانات لتلبية متطلبات تنفيذ وتنسيق هذا المستند. هناك أنواع مختلفة من الدالات المعتمدة- النص والتاريخ والوقت ومنطق الرياضيات والمعلومات وتحويل أنواع البيانات وغير ذلك (دالات خاصة بمجال الأعمال)."
-author: kfend
+description: "يشرح هذا الموضوع كيفية استخدام مصمم المعادلة في التقارير الإلكترونية."
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 37c860599ad555846d11711e9f3cfb29c599131e
-ms.openlocfilehash: 7704b0545f4264be1f844ed6ad9e4b44df0c4ef8
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 58bef33642d83def841eaa8334ea6f942063e0b3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>مصمم المعادلة في التقارير الإلكترونية
+# <a name="formula-designer-in-electronic-reporting"></a>مصمم المعادلات في التقارير الإلكترونية
 
 [!include[banner](../includes/banner.md)]
 
@@ -593,11 +593,12 @@ ms.lasthandoff: 10/05/2017
 <td>GETENUMVALUEBYNAME (مسار مصدر بيانات تعداد، نص تسمية قيمة تعداد)</td>
 <td>تُرجع قيمة مصدر بيانات تعداد محدد بالنص المحدد لتسمية التعداد هذه.</td>
 <td>يوضح المثال التالي التعداد ReportDirection المقدم في نموذج بيانات. لاحظ أنه يتم تحديد التسميات لقيم التعداد.
-<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> تبين الأمثلة التالية:
+<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>  
+<p>تبين الأمثلة التالية:</p>
 <ul><li>إدراج تعداد النموذج <strong>ReportDirection</strong> في تقرير كمصدر بيانات <strong>$Direction</strong></li>
 <li>تصميم تعبير التقرير الإلكتروني <strong>$IsArrivals</strong> لاستخدام تعداد نموذج كمحددة لهذه الدالة. قيمة هذا التعبير هي <strong>TRUE</strong>.
-
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></li></ul></td>
+</li></ul>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
 </tr>
 </tbody>
 </table>

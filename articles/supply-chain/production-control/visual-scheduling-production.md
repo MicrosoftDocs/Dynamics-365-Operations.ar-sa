@@ -3,7 +3,7 @@ title: "مخطط \"جانت\" لجدولة الوظائف"
 description: "باستطاعة مخططي الإنتاج التحكم في خطط الإنتاج وتحسينها باستخدام مخططات جانت."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/29/2017
 -   الوظائف من أوامر الإنتاج المخططة.
 -   أنشطة المشروع المجدولة الوظائف من نوع التنبؤات بالساعات.
 
-يمكن فتح مخطط جانت في طريقتي عرض مختلفتين، **نظرة عامة على الأوامر** و**نظرة عامة على الموارد**[.](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true)في **النظرة العامة على الأوامر**، يتم تجميع الأنشطة تحت أوامر الإنتاج. يمكن أن يكون ذلك مفيدًا، على سبيل المثال، إذا كنت ترغب في الاحتفاظ بنظرة عامة حول جميع الوظائف التي تنتمي إلى نفس الأوامر. في **طريقة عرض الموارد**، يتم تجميع كافة الوظائف تحت الموارد الفردية. قد يكون هذا العرض مفيدًا عند تحسين الخطة على مستوى المورد، على سبيل المثال، جهاز أو مجموعة من الأجهزة. تُظهر مخططات جانت في الرسوم التوضيحية أدناه **طريقة عرض الأوامر** و**طريقة عرض الموارد** مع هذه العناصر الأساسية:
+‏‫يمكن فتح مخطط جانت في طريقتي عرض مختلفتين، **نظرة عامة على الأوامر** و**‬‏‫نظرة عامة على الموارد**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). في **النظرة العامة على الأوامر**، يتم تجميع الأنشطة تحت أوامر الإنتاج. يمكن أن يكون ذلك مفيدًا، على سبيل المثال، إذا كنت ترغب في الاحتفاظ بنظرة عامة حول جميع الوظائف التي تنتمي إلى نفس الأوامر. في **طريقة عرض الموارد**، يتم تجميع كافة الوظائف تحت الموارد الفردية. قد يكون هذا العرض مفيدًا عند تحسين الخطة على مستوى المورد، على سبيل المثال، جهاز أو مجموعة من الأجهزة. تُظهر مخططات جانت في الرسوم التوضيحية أدناه **طريقة عرض الأوامر** و**طريقة عرض الموارد** مع هذه العناصر الأساسية:
 
 1.  نشاط مخطط جانت
 2.  أيقونة النقص في المواد
@@ -156,5 +156,7 @@ ms.lasthandoff: 09/29/2017
 | **أوامر الإنتاج للإصدار‬** (تفتح من مساحة عمل **إدارة طابق الإنتاج**) | تفتح صفحة "أوامر الإنتاج للإصدار‬" من مساحة عمل **إدارة طابق الإنتاج‬**. تعرض هذه الصفحة أوامر الإنتاج والأوامر الدفعية المجدولة في انتظار إصدارها. في هذه الصفحة يمكنك فتح مخطط جانت لأوامر إنتاج محددة.                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>راجع أيضًا  
 [الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدفعية (فيديو)](https://youtu.be/BtbuShkGj4I)
+
+[الجدولة الظاهرية للإنتاج (برنامج نصي للعرض التوضيحي)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 
