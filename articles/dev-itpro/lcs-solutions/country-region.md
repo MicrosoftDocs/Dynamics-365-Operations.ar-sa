@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: 9322b970eea9ab5ac01ae8461285b4dbcc1624a3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -223,6 +223,7 @@ ms.lasthandoff: 11/03/2017
 -   [تفاصيل كشوف حساب ضريبة القيمة المضافة](../../financials/localizations/emea-ita-vat-statements-details.md)
 -   [تاريخ الاختصاص للحركات](../../financials/localizations/emea-ita-competence-date.md)
 -   [الإهلاك اليدوي للأصول الثابتة](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+-   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
 -   [التحقق من صحة تاريخ إيصال التعبئة على الفواتير لإيطاليا](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 -   [دفاتر ضريبة المبيعات الإيطالية](../../financials/localizations/emea-ita-fiscal-books.md)
 -   [الدفعة المقسمة للفواتير الصادرة للإدارة العامة](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)

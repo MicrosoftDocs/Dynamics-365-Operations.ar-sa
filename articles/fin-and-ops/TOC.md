@@ -10,9 +10,10 @@
 ##### [متطلبات النظام لعمليات نشر المجموعة](get-started/system-requirements.md)
 ##### [النشر المحلي](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
 ##### [متطلبات النظام لعمليات النشر المحلي](get-started/system-requirements-on-prem.md)
+##### [التخزين في المستودع لعمليات النشر المحلي](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### شراء Finance and Operations
-##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
+##### [Microsoft FastTrack لـ Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
 ##### [شراء Finance and Operations (محلي)](get-started/purchase-on-premises.md)
 
 ### [ما الجديد أو التغيير](get-started/whats-new-changed.md)
@@ -20,8 +21,9 @@
 #### [ميزات AX 2012 المؤجلة](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [الميزات التي لم يتم تنفيذها في عمليات النشر المحلية](get-started/features-not-implemented-on-prem.md)
 #### [سياسة دورة الحياة](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [update 11 للنظام الأساسي (أكتوبر 2017)](get-started/whats-new-platform-update-11.md)
-#### [update 10 للنظام الأساسي (أغسطس 2017)](get-started/whats-new-platform-update-10.md)
+#### [Platform update 12 (نوفمبر 2017)](get-started/whats-new-platform-update-12.md)
+#### [Platform update 11 (أكتوبر 2017)](get-started/whats-new-platform-update-11.md)
+#### [Platform update 10 (أغسطس 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations،‏ Enterprise edition (يوليو 2017)](get-started/whats-new-application-July-2017-update.md)
 #### [تحديث النظام الأساسي 9 (يوليو 2017)](get-started/whats-new-platform-update-9.md)
 #### [تحديث النظام الأساسي 8 (يونيو 2017)](get-started/whats-new-platform-update-8.md)
@@ -42,6 +44,7 @@
 ##### [دلائل مهام فبراير 2016](get-started/new-task-guides-available-february-2016.md)
 
 ### استكشاف واجهة المستخدم
+#### [ميزات إمكانية وصول ذوي الاحتياجات الخاصة](get-started/accessibility-features.md)
 #### [الأسئلة المتداولة حول واجهة مستخدم عميل](get-started/client-faq.md)
 #### [البحث عن إجراء](get-started/action-search.md)
 #### [التصفية المتقدمة وبنية الاستعلام](get-started/advanced-filtering-query-options.md)
@@ -56,9 +59,9 @@
 #### [تعيين منطقة زمنية مفضلة لمستخدم](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [فهم Lifecycle Services](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### الحصول على التعليمات والدعم
+### قراءة الوثائق وتشغيلها
 #### [نظرة عامة على التعليمات](get-started/help-overview.md)
-#### [تعليمات الاتصال](get-started/help-connect.md)
+#### [الاتصال بالتعليمات](get-started/help-connect.md)
 #### [عرض أوصاف الحقول وتصديرها](get-started/view-export-field-descriptions.md)
 #### دلائل المهام ومسجل المهام
 ##### [مسجل المهام](../dev-itpro/user-interface/task-recorder.md)
@@ -152,17 +155,21 @@
 
 #### [تكامل البيانات باستخدام Common Data Service](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [تكوين سيناريو العميل المتوقع إلى النقدية](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [مزامنة المنتجات من Finance and Operations للمنتجات في Sales‎](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [مزامنة الحسابات من Sales للعملاء في Finance and Operations‎](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [مزامنة جهات الاتصال من Sales لجهات الاتصال في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [مزامنة رؤوس وبنود عرض أسعار المبيعات‬ من Sales إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [مزامنة رؤوس وبنود أوامر المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [مزامنة رؤوس وبنود فواتير المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [المحافظة على الحسابات في Sales ومزامنتها مباشرة من Sales إلى Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [المحافظة على المنتجات في Finance and Operations ومزامنتها مباشرةً إلى Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [‬‏‫المحافظة على جهات الاتصال في Sales ومزامنتها مباشرةً إلى جهات الاتصال أو العملاء في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [مزامنة عرض أسعار المبيعات‬ مباشرةً من Sales إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [مزامنة عروض أسعار المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [مزامنة فاتورة المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [المحافظة على الحسابات في Sales ومزامنتها إلى Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [المحافظة على جهات الاتصال في Sales ومزامنتها إلى Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [المحافظة على المنتجات في Finance and Operations ومزامنتها إلى Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [إنشاء عروض أسعار المبيعات في Sales ومزامنتها إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [إنشاء أومر المبيعات في Finance and Operations ومزامنتها إلى Sales‎](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [إنشاء فواتير المبيعات في Finance and Operations ومزامنتها إلى Sales‎](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+
+
 
 #### [استخدام خدمات ويب الخارجية](../dev-itpro/data-entities/consume-external-web-service.md)
 
@@ -894,6 +901,7 @@
 ##### [تقرير القائمة السوداء](../financials/localizations/emea-ita-black-list-report.md)
 ##### [تاريخ الاختصاص](../financials/localizations/emea-ita-competence-date.md)
 ##### [إهلاك الأصول الثابتة](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [التحقق من صحة تاريخ إيصال التعبئة على الفواتير](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [دفاتر ضريبة المبيعات](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [الدفعة المقسمة للفواتير الصادرة للإدارة العامة](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1347,7 +1355,29 @@
 ### [تتبع المتوسط المتحرك للتكلفة لكل بُعد مخزون](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## التخطيط الرئيسي
+## [التخطيط الرئيسي](../supply-chain/master-planning/master-planning-home-page.md)
+### [خطة رئيسية](../supply-chain/master-planning/master-plans.md)
+#### [إعدادات التغطية](../supply-chain/master-planning/coverage-settings.md)
+#### [تحديد قواعد تغطية للأصناف (دليل المهام)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [إنشاء خطة مقيدة (دليل المهام)](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [إنشاء خطة مادية للمنتجات المساعدة (دليل المهام)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [الاحتفاظ بالأوامر المخططة](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [التعامل مع حالات التأخير](../supply-chain/master-planning/delays.md)
+#### [تتبع تحديد إجمالي المكونات المطلوبة‬](../supply-chain/master-planning/trace-explosion.md)
+#### [رسائل الإجراءات](../supply-chain/master-planning/action-messages.md)
+#### [مراقبة تشغيل التخطيط الرئيسي (دليل المهام)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [إنشاء جدول لموقع (دليل المهام)](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [إنشاء خطة لموقع (دليل المهام)](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [الخطط الرئيسية ووظائف المواقع المتعددة](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [خطة لتغطية الموقع، المستودع إلزامي](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [خطة لتغطية الموقع، المستودع غير إلزامي](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [خطة لتغطية الموقع والمستودع، المستودع إلزامي](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [خطة لتغطية الموقع والمستودع، المستودع غير إلزامي](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [تحديد إصدار قائمة مكونات الصنف (BOM)](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [تحديد إجمالي المكونات المطلوبة‬ لإصدار قائمة مكونات الصنف (BOM)](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [إنشاء خطة بين شركات شقيقة (دليل المهام)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [عرض الطلب الصادر المخطط بين الشركات الشقيقة (دليل المهام)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [التعاون مع عملاء سلسلة التوريد الداخلية (دليل المهام)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [التنبؤ بالطلب](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [إعداد تنبؤ بالطلب](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [استيراد البيانات التاريخية‬ للتنبؤات بالطلب](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [مفاتيح الخفض](../supply-chain/master-planning/reduction-keys.md)
 #### [إنشاء تنبؤ أساسي (دليل المهام)](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [تعديل التنبؤ بالطلب يدويًا (دليل المهام)](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [خطة رئيسية](../supply-chain/master-planning/master-plans.md)
-#### [إعدادات التغطية](../supply-chain/master-planning/coverage-settings.md)
-#### [الاحتفاظ بالأوامر المخططة](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [التأخيرات](../supply-chain/master-planning/delays.md)
-#### [رسائل الإجراءات](../supply-chain/master-planning/action-messages.md)
-#### [تتبع تحديد إجمالي المكونات المطلوبة‬](../supply-chain/master-planning/trace-explosion.md)
-#### [الخطط الرئيسية ووظائف المواقع المتعددة](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [خطة لتغطية الموقع، المستودع إلزامي](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [خطة لتغطية الموقع، المستودع غير إلزامي](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [خطة لتغطية الموقع والمستودع، المستودع إلزامي](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [خطة لتغطية الموقع والمستودع، المستودع غير إلزامي](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [تحديد إصدار قائمة مكونات الصنف (BOM)](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [تحديد إجمالي المكونات المطلوبة‬ لإصدار قائمة مكونات الصنف (BOM)](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [مراقبة تشغيل التخطيط الرئيسي (دليل المهام)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [تحديد قواعد تغطية للأصناف (دليل المهام)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [إنشاء خطة لموقع (دليل المهام)](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [إنشاء جدول لموقع (دليل المهام)](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [إنشاء خطة مقيدة (دليل المهام)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [إنشاء خطة بين شركات شقيقة (دليل المهام)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [إنشاء خطة مادية للمنتجات المساعدة (دليل المهام)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [إظهار الطلب الصادر المخطط بين الشركات الشقيقة (دليل المهام)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [التعاون مع عملاء سلسلة التوريد الداخلية (دليل المهام)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [تطبيق الجوال](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1851,9 +1858,9 @@
 #### [إعداد إعادة توزيع الأصناف للانتقاء القصير](../supply-chain/warehousing/tasks/set-up-short-picking-item-reallocation.md)
 #### [إعداد سياسات عمل المستودع ](../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md)
 #### [إعداد قالب عمل لأوامر الشراء](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
-#### [تخطيط الأحمال والشحنات باستخدام أداة تخطيط الأعمال](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
+#### [تخطيط الأحمال والشحنات باستخدام أداة تخطيط الحِمل](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [التطوير والإدارة](../dev-itpro/toc.md)
+# [التطوير والإدارة لـ Finance and Operations](../dev-itpro/toc.md)
 
 # [Dynamics 365 for Retail](../retail/toc.md)
 
