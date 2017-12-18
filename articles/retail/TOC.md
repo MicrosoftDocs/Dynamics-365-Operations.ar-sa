@@ -180,11 +180,11 @@
 
 ## النشر والإصلاحات العاجلة
 ### [نظرة عامة على وحدة قياس متجر البيع بالتجزئة](dev-itpro/retail-store-system-begin.md)
-#### [تكوين وتثبيت وحدة قياس متجر البيع بالتجزئة‬](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [تكوين وتثبيت وحدة قياس متجر البيع بالتجزئة‬](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [تكوين وتثبيت Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [إدارة حسابات Retail والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
-#### [تنشيط جهاز Retail POS](dev-itpro/retail-device-activation.md)
-#### [Retail Cloud POS آمنة](dev-itpro/secure-retail-cloud-pos.md)
+### [إدارة حسابات Retail والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
+### [تنشيط جهاز Retail POS](dev-itpro/retail-device-activation.md)
+### [Retail Cloud POS آمنة](dev-itpro/secure-retail-cloud-pos.md)
 ### [تكوين وتثبيت Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ### [التوزيع الجماعي لمكونات الخدمة الذاتية لـ Retail](dev-itpro/retail-mass-deployment.md)
 ### [أحداث مكونات Retail لأدوات التشخيص واستكشاف الأخطاء وإصلاحها](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,50 +194,54 @@
 ### [نظرة عامة على الترقية ودعم N-1](dev-itpro/overview-upgrade-n-minus1.md)
 ### [تثبيت مكونات N-1](dev-itpro/n-1-installation-configuration.md)
 
+## إرشادات التطبيق
+### [إرشادات تطبيق إدارة الأجهزة](implementation-considerations-devices.md)
+
 ## تكوين البيئة
 ### [إضافة ارتباطات إلى الشروط القانونية وبيان الخصوصية في مؤسستك](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [إدارة خرائط Bing](dev-itpro/manage-bing-maps.md)
 
-## قابلية التوسعة
-### نقطة البيع
-#### [تخطيط شاشة Retail POS](pos-screen-layouts.md)
-##### [تثبيت مصمم تخطيط POS](install-pos-layout-designer.md)
-#### [تكوين MPOS لوضع العمل دون اتصال](dev-itpro/retail-modern-pos-offline.md)
-#### [قابلية التوسعة لمشغل MPOS وPOS السحابي](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [إضافة عنصر تحكم مخصص إلى طريقة عرض نقطة البيع (POS)](dev-itpro/pos-custom-control.md)
-#### [ملحق دفع نقطة البيع (POS)](dev-itpro/pos-payment-extension.md)
-#### [دعم بطاقة الهدايا الخارجية](dev-itpro/gift-card.md)
+## قابلية توسعة نقطة البيع
+### [تخطيط شاشة Retail POS](pos-screen-layouts.md)
+### [تثبيت مصمم تخطيط POS](install-pos-layout-designer.md)
+### [تكوين MPOS لوضع العمل دون اتصال](dev-itpro/retail-modern-pos-offline.md)
+### [قابلية التوسعة لمشغل MPOS وPOS السحابي](dev-itpro/modern-pos-trigger-extensibility.md)
+### [إضافة عنصر تحكم مخصص إلى طريقة عرض نقطة البيع (POS)](dev-itpro/pos-custom-control.md)
+### [ملحق دفع نقطة البيع (POS)](dev-itpro/pos-payment-extension.md)
+### [دعم بطاقة الهدايا الخارجية](dev-itpro/gift-card.md)
 ### [إنشاء تطبيق تجربة Retail](dev-itpro/create-retail-experience-app.md)
 ### [نظرة عامة على Hardware Station وقابلية التوسعة](dev-itpro/hardware-station-extensibility.md)
 
-### خادم البيع بالتجزئة
-#### [توسيع وحدة تحكم Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
-#### [وحدات تحكم API للويب وOData](dev-itpro/odata-controllers-api.md)
-#### [عميل خادم البيع بالتجزئة وواجهات API للمستهلك](dev-itpro/retail-server-customer-consumer-api.md)
-#### [توسيع بيانات التعريف](dev-itpro/extend-metadata.md)
-#### [توسيع وقت التشغيل التجاري لدعم وضع عدم الاتصال لنقطة البيع](dev-itpro/call-crt-service-offline.md)
-### وقت التشغيل التجاري
-#### [نظرة عامة حول وقت التشغيل التجاري](dev-itpro/commerce-runtime-overview.md)
-#### [وقت التشغيل التجاري وقابلية توسعة "خادم البيع بالتجزئة" ](dev-itpro/commerce-runtime-extensibility.md)
-#### [إضافة بيانات تفضيلات العميل لقاعدة بيانات القناة](dev-itpro/add-customer-preference-channel.md)
-#### [إضافة خصائص إلى أمر المبيعات](dev-itpro/add-properties-sales-order.md)
-#### [قابلية توسعة وقت التشغيل التجاري والمشغلات](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [مثال المشغل: حظر حركة](dev-itpro/trigger-example-blocking-transaction.md)
-#### [مثال المشغل: سياسة الإرجاع](dev-itpro/trigger-example-return-policy.md)
-### تجارة إلكترونية
-#### [تكوين متجر عبر الإنترنت](dev-itpro/configure-online-store.md)
-#### [تكوين موفري المصادقة](dev-itpro/configure-authentication-providers.md)
-#### [النظام الأساسي للتجارة الإلكترونية](dev-itpro/ecommerce-platform.md)
-#### [النظام الأساسي للتجارة الإلكترونية SDK](dev-itpro/ecommerce-platform-sdk.md)
-### موصل المدفوعات
-#### [تنفيذ موصل المدفوعات وجهاز الدفع (مستند تقني)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [نشر موصل المدفوعات](dev-itpro/deploy-payment-connector.md)
-#### [إنشاء Windows installer لموصل المدفوعات](dev-itpro/create-windows-installer-payment-connector.md)
+## قابلية توسعة خادم Retail
+### [توسيع وحدة تحكم Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
+### [وحدات تحكم API للويب وOData](dev-itpro/odata-controllers-api.md)
+### [عميل خادم البيع بالتجزئة وواجهات API للمستهلك](dev-itpro/retail-server-customer-consumer-api.md)
+### [توسيع بيانات التعريف](dev-itpro/extend-metadata.md)
+### [توسيع وقت التشغيل التجاري لدعم وضع عدم الاتصال لنقطة البيع](dev-itpro/call-crt-service-offline.md)
 
-## Retail SDK
-### [نظرة عامة حول Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
+## قابلية توسعة وقت التشغيل التجاري
+### [نظرة عامة حول وقت التشغيل التجاري](dev-itpro/commerce-runtime-overview.md)
+### [وقت التشغيل التجاري وقابلية توسعة خادم Retail‬ ](dev-itpro/commerce-runtime-extensibility.md)
+### [إضافة بيانات تفضيلات العميل لقاعدة بيانات القناة](dev-itpro/add-customer-preference-channel.md)
+### [إضافة خصائص إلى أمر المبيعات](dev-itpro/add-properties-sales-order.md)
+### [قابلية توسعة وقت التشغيل التجاري والمشغلات](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [مثال المشغل: حظر حركة](dev-itpro/trigger-example-blocking-transaction.md)
+### [مثال المشغل: سياسة الإرجاع](dev-itpro/trigger-example-return-policy.md)
+
+## قابلية توسعة التجارة الإلكترونية
+### [تكوين متجر عبر الإنترنت](dev-itpro/configure-online-store.md)
+### [تكوين موفري المصادقة](dev-itpro/configure-authentication-providers.md)
+### [النظام الأساسي للتجارة الإلكترونية](dev-itpro/ecommerce-platform.md)
+### [SDK النظام الأساسي للتجارة الإلكترونية](dev-itpro/ecommerce-platform-sdk.md)
+
+## قابلية توسعة موصل المدفوعات
+### [تنفيذ موصل المدفوعات وجهاز الدفع (مستند تقني)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [نشر موصل المدفوعات](dev-itpro/deploy-payment-connector.md)
+### [إنشاء Windows installer لموصل المدفوعات](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [تكامل Retail SDK مع نظام البناء المستمر](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [نماذج قابلة للتوسعة لـ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+### [نماذج قابلية التوسعة لـ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [آلات تسجيل المدفوعات النقدية الخاصة بالسويد](localizations/emea-swe-cash-registers.md)
 ### [عينة لتكامل Retail POS مع وحدات التحكم بالسويد](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 ### [آلات تسجيل المدفوعات النقدية الخاصة بالنرويج‎](localizations/emea-nor-cash-registers.md)
@@ -249,7 +253,13 @@
 ### [سمات الأوامر](dev-itpro/order-attributes.md)
 ### [سمات العميل](dev-itpro/customer-attributes.md)
 ### [Retail Typescript ووكيل C#](dev-itpro/typescript-proxy-retail-pos.md)
-
+### [تشغيل نماذج Retail POS](dev-itpro/pos-run-samples.md)
+### [توسيع طرق عرض نقاط البيع الموجودة لإضافة أعمدة مخصصة وأزرار أشرطة التطبيق](dev-itpro/pos-view-extension.md)
+### [إضافة عناصر تحكم مخصصة إلى صفحات حركات Retail Modern POS](dev-itpro/pos-custom-transaction.md)
+### [إضافة أعمدة مخصصة إلى شبكة حركة نقطة البيع (POS)](dev-itpro/pos-custom-transaction-column.md)
+### [استدعاء API أو عملية لنقطة البيع (POS) من ملحق نقطة البيع](dev-itpro/pos-api-extension.md)
+### [توسيع طرق عرض نقاط البيع الموجودة لإضافة أعمدة مخصصة وأزرار أشرطة التطبيق](dev-itpro/pos-view-extension.md)
+### [مشغلات Retail Modern POS والطباعة](dev-itpro/pos-trigger-printing.md)
 
 ## وقت التشغيل التجاري
 ### [ملحق الولاء](dev-itpro/retail-sdk/loyalty-extension-sample.md)

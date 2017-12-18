@@ -2,8 +2,10 @@
 
 # [بدء الاستخدام](talent-get-started.md)
 ## [متطلبات النظام وسياسة التحديث](talent-versions-update-policy.md)
+## [توفير Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [توسيع الأداء الوظيفي لتطبيق Talent](extend-talent-functionality.md)
 
-# [تطوير إستراتيجية الموارد البشرية](departments-jobs-positions.md)
+# [تطوير استراتيجية الموارد البشرية](departments-jobs-positions.md)
 ## [إعداد مكونات الوظائف](create-job.md)
 ## [إنشاء قسم وربطه بالتدرج الهرمي للأقسام](create-department-add-department-hierarchy.md)
 ## [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](set-up-hr-parameters-across-legal-entities.md)
