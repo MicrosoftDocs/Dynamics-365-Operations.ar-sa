@@ -122,8 +122,9 @@
 #### [إضافة قيمة تعداد](extensibility/add-enum-value.md)
 #### [تعديل نوع البيانات الملحقة](extensibility/modify-edt.md) 
 #### [تسجيل فئة فرعية لطرق المصنع](extensibility/register-subclass-factory-methods.md)
-#### [الرد بـ EventHandlerResult](extensibility/respond-event-handler-result.md)
+#### [الاستجابة بواسطة EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [توسيع فئة RunBase](extensibility/extend-runbase-class.md)
+#### [استخدام المفوضين لتخصيص بدء تشغيل التطبيق](extensibility/startup-customizations.md)
 #### [تعديل حقل موجود في جدول](extensibility/modify-existing-field.md)
 #### [إضافة حقل جديد إلى جدول موجود](extensibility/add-field-extension.md)
 #### [إضافة فهرس إلى جدول موجود](extensibility/add-index.md)
@@ -505,10 +506,12 @@
 ### [إعداد بيئات محلية ونشرها](deployment/setup-deploy-on-premises-environments.md)
 ### [تطوير النماذج المخصصة للبيئات المحلية ونشرها](deployment/develop-deploy-custom-models-on-premises.md)
 ### [تطبيق التحديثات على عملية نشر على جهاز محلي](deployment/apply-updates-on-premises.md)
+### [إعادة النشر على عملية نشر محلي](deployment/redeploy-on-prem.md)
+### [استكشاف الأخطاء وإصلاحها في Dynamics 365 for Finance and Operations, Enterprise edition (محلي)](deployment/troubleshoot-on-prem.md)
 
 ## نشر كود مخصص
 ### [إنشاء حزمة قابلة للنشر](deployment/create-apply-deployable-package.md)
-### [تطبيق حزمة قابلة للنشر](deployment/apply-deployable-package-system.md)
+### [تطبيق التحديثات على بيئة السحابة](deployment/apply-deployable-package-system.md)
 ### [تثبيت حزمة قابلة للنشر](deployment/install-deployable-package.md)
 ### [استكشاف مشكلات تطبيق الحزمة وإصلاحها](deployment/deployable-package-troubleshooting.md)
 
@@ -543,12 +546,14 @@
 
 ## الترقية إلى تحديث جديد
 ### [عملية النقل إلى التحديث الأخير](migration-upgrade/upgrade-latest-update.md)
-### [نهج دورة حياة](migration-upgrade/versions-update-policy.md)
-### [الترقية إلى تحديث النظام الأساسي الأخير](migration-upgrade/upgrade-latest-platform-update.md)
+### [سياسة دورة حياة](migration-upgrade/versions-update-policy.md)
+### [تطبيق التحديث الأخير للنظام الأساسي على بيئتك](migration-upgrade/upgrade-latest-platform-update.md)
 ### [ترقية النظام الأساسي لـ Dynamics إلى إصدار أغسطس 2016](migration-upgrade/update-platform-each-release.md)
 ### [ترقية بيئة الاختبار المعزولة](migration-upgrade/upgrade-sandbox-environment.md)
 ### [ترقية البيانات في بيئة تطوير أو بيئة عرض توضيحي](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [ترقية أدوات التطوير](dev-tools/update-development-tools.md)
+### [تطبيق التحديثات على عملية نشر على جهاز محلي](deployment/apply-updates-on-premises.md)
+### [إعادة النشر على عملية نشر محلي](deployment/redeploy-on-prem.md)
 
 ## الإصلاحات العاجلة والخدمة
 ### [تنزيل الإصلاحات العاجلة من Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [مشاركة البيانات عبر الشركة](sysadmin/cross-company-data-sharing.md)
 ## [وضع الصيانة](sysadmin/maintenance-mode.md)
 ## [حسابات النظام المكونة مسبقًا](sysadmin/pre-configured-system-accounts.md)
+## [تصدير مستخدمي B2B إلى Azure AD](sysadmin/implement-b2b.md)
 ## [أمان يستند إلى الدور](sysadmin/role-based-security.md)
 ### [هندسة الأمان](sysadmin/security-architecture.md)
 ### [تقارير الأمان](sysadmin/security-reports.md)
