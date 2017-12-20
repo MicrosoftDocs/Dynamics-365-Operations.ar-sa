@@ -3,7 +3,7 @@ title: "مساحة العمل المحمولة لأوامر المبيعات"
 description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة \"أوامر المبيعات‬\". تسمح لك مساحة العمل هذه بالبقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9d591b80f7bb4e8e1eccaa2bbaa93e833b31b6e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 6a613d8b2ea1503b70efad7b14fb340faad0f62e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -84,8 +84,8 @@ ms.lasthandoff: 11/03/2017
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 تختلف المتطلبات الأساسية، بناءً على إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017) 
-إذا تم نشر Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017) لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **أوامر المبيعات**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
+إذا تم نشر Dynamics 365 for Finance and Operations, Enterprise Edition لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **أوامر المبيعات**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث
 إذا تم نشر الإصدار 1611 من Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 

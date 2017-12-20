@@ -3,7 +3,7 @@ title: "مقارنة السحابة والميزة المحلية"
 description: "يُظهر الموضوع الميزات المعتمدة في السحابة وفي الموقع المحلي."
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ ms.lasthandoff: 11/06/2017
 | | التكامل مع PowerBI.com| نعم | لا |
 | | مساحات العمل التحليلية | نعم | لا |
 | | عملية الأعمال الذكية: نصائح| نعم | لا |
+| | تأليف تقارير Power BI في OData باستخدام سطح مكتب Power BI أو أدوات Excel PowerQuery | نعم | لا |
+| | خدمات تقارير SQL Server‬ تدعم تغيير الحجم  | نعم | لا |
+| | يتم نقل بيانات تتبع الاستخدام إلى السحابة | نعم | لا |
 | إدارة المخزون| | نعم | نعم |
 | Lifecycle Services| | نعم | نعم |
 | | العمليات التجارية القابلة للتكوين | نعم | لا |
@@ -86,7 +89,7 @@ ms.lasthandoff: 11/06/2017
 | إدارة النقل| | نعم | نعم |
 | تعاون المورد| | نعم | نعم|
 | إدارة المستودعات| | نعم | نعم |
-| | تطبيق الجهاز المحمول للمستودع| نعم | لا |
+| | تطبيق الجهاز المحمول للمستودع| نعم | نعم |
 | | تقارير Power BI للمستودعات| نعم | لا |
 | عميل الويب | | نعم | نعم |
 | | مسجل المهام- حفظ أو تحميل تسجيلات المهام من مكتبة BPM| نعم | لا |
@@ -103,6 +106,7 @@ ms.lasthandoff: 11/06/2017
 | توافق النظام الأساسي  || نعم | نعم |
 | الخدمة | | نعم | نعم |
 | | بيئات الخدمة | نعم | لا |
+| Trace Parser وPerfTimer | | نعم | لا |
 | ترقية | | نعم | نعم |
 | | ترقية | نعم | لا |
 | | الترقية ودعم الإصدارات السابقة | نعم | لا |
@@ -121,6 +125,8 @@ ms.lasthandoff: 11/06/2017
 |---|---|---|---|
 | كل مناطق Talent | كل ميزات Talent | نعم | لا |
 
+## <a name="see-also"></a>راجع أيضًا
 
+- [ميزات لم يتم تنفيذها في عمليات النشر المحلية](features-not-implemented-on-prem.md)
 
 

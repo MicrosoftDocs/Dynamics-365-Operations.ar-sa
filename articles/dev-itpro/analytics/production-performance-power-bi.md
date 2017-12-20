@@ -3,7 +3,7 @@ title: "محتوى Power BI أداء الإنتاج"
 description: "يوضح هذا الموضوع ما هو مضمن في محتوى Power BI أداء الإنتاج. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: baa0343713e8f75e1c9637a903b9008db0968fd4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/03/2017
 يتضمن محتوى Power Bi **أداء الإنتاج** البيانات التي تنشأ من أوامر الإنتاج والأوامر الدفعية. لا تتضمن التقارير البيانات المرتبطة بعمليات إنتاج كانبان.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017)، فسيظهر محتوى Power BI **أداء الإنتاج** في صفحة **أداء الإنتاج** (**التحكم بالإنتاج‬** > **الاستعلامات والتقارير** > **تحليل أداء الإنتاج** > **أداء الإنتاج**). 
+يتم عرض محتوى Power BI **أداء الإنتاج** في صفحة **أداء الإنتاج** (**التحكم في الإنتاج** > **الاستعلامات والتقارير** > **تحليل أداء الإنتاج** > **أداء الإنتاج**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>المقاييس المُدرجة في محتوى Power BI
 

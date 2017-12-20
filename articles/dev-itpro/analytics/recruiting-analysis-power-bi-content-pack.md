@@ -3,7 +3,7 @@ title: "محتوى Power BI للتوظيف"
 description: "يصف هذا الموضوع محتوى Power BI \"التوظيف\" فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 42d7b94e655799596f478e7592a17437b336099e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 22138ab34243aa5f8c74f785ce3aaf68b27b9622
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 يصف هذا الموضوع محتوى Microsoft Power BI **التوظيف**. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition، (يوليو 2017)، سوف يظهر محتوى Power BI **التوظيف** في مساحة العمل **إدارة التوظيف**. 
+يتم عرض محتوى Power BI **التوظيف** في مساحة عمل **إدارة التوظيف**. 
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>التقارير والرسوم المرئية في مساحة العمل "إدارة التوظيف"
 تحتوي مساحة عمل **إدارة التوظيف** على علامة تبويب **التحليلات**. وتحتوي علامة التبويب هذه على محتوى Power BI المضمن للتوظيف.‬ يتكون المحتوى من علامة تبويب نظرة عامة وعلامات تبويب إضافية تحتوي على التفاصيل. يصف الجدول التالي التقارير على كل علامة تبويب.

@@ -3,7 +3,7 @@ title: "مساحة العمل المحمولة الموافقات على الف�
 description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة \"الموافقات على الفواتير‬‬\". توفر مساحة العمل المحمولة قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد."
 author: abruer
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: af673f076f684500b6ca84d04c01f7f773d65cd6
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 03179fdfd23e26250af92eb70d2ede710bd7007f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/03/2017
 </thead>
 <tbody>
 <tr class="odd">
-<td>يجب نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition، (يوليو 2017) في مؤسستك.</td>
+<td>يجب نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition في مؤسستك.</td>
 <td>مسؤول النظام</td>
 <td>راجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>.
 </td>

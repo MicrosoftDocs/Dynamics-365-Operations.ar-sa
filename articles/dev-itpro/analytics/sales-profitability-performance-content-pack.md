@@ -3,7 +3,7 @@ title: "محتوى Power BI لأداء المبيعات والربحية"
 description: "يوضح هذا الموضوع ما هو مدرج في محتوى Power BI \"أداء الربحية والمبيعات\". فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/03/2017
 -   ربحية العميل (حسب الإيرادات مقابل إجمالي هامش الربح)
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017،) فسيظهر محتوى Power BI **أداء الربحية والمبيعات** في صفحة **أداء الربحية والمبيعات** (**المبيعات والتسويق‬** > **الاستعلامات والتقارير** > **تحليل أداء المبيعات** > **أداء الربحية والمبيعات**). 
+يتم عرض محتوى Power BI **أداء المبيعات والربحية** في صفحة **أداء المبيعات والربحية** (**المبيعات والتسويق** > **الاستعلامات والتقارير** > **تحليل أداء المبيعات** > **المبيعات وأداء الربحية**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>المقاييس المُدرجة في محتوى Power BI
 يتضمن محتوى Power BI **أداء الربحية والمبيعات** تقريرًا يتكون من مجموعة من المقاييس. هذه المقاييس مرئية مثل المخططات والتجانبات والجداول. يوفر الجدول التالي نظرة عامة حول مجموعة الرسوم المرئية في المحتوى.
