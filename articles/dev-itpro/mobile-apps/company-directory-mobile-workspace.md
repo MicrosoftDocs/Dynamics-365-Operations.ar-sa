@@ -16,79 +16,79 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 73062587a2cfed3af212f618df48a26df574ee87
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 0bbb17cd5053c68d9108ca9771e2f24611ba1995
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
-# <a name="company-directory-mobile-workspace"></a><span data-ttu-id="3873b-103">مساحة العمل المحمولة "دليل الشركة"</span><span class="sxs-lookup"><span data-stu-id="3873b-103">Company directory mobile workspace</span></span>
+# <a name="company-directory-mobile-workspace"></a><span data-ttu-id="f0de9-103">مساحة العمل المحمولة "دليل الشركة"</span><span class="sxs-lookup"><span data-stu-id="f0de9-103">Company directory mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="3873b-104">يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **دليل الشركة**.</span><span class="sxs-lookup"><span data-stu-id="3873b-104">This topic provides information about the **Company directory** mobile workspace.</span></span> <span data-ttu-id="3873b-105">تسمح مساحة العمل هذه للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.</span><span class="sxs-lookup"><span data-stu-id="3873b-105">This workspace lets users view and contact other employees in their organization.</span></span>
+<span data-ttu-id="f0de9-104">يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **دليل الشركة**.</span><span class="sxs-lookup"><span data-stu-id="f0de9-104">This topic provides information about the **Company directory** mobile workspace.</span></span> <span data-ttu-id="f0de9-105">تسمح مساحة العمل هذه للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.</span><span class="sxs-lookup"><span data-stu-id="f0de9-105">This workspace lets users view and contact other employees in their organization.</span></span>
 
-<span data-ttu-id="3873b-106">يمكن استخدام مساحة العمل المحمولة هذه باستخدام تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="3873b-106">This mobile workspace can be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
+<span data-ttu-id="f0de9-106">يمكن استخدام مساحة العمل المحمولة هذه باستخدام تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="f0de9-106">This mobile workspace can be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="3873b-107">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="3873b-107">Overview</span></span>
-<span data-ttu-id="3873b-108">تسمح مساحة العمل المحمولة **دليل الشركة** للمستخدمين بتنفيذ هذه المهام:</span><span class="sxs-lookup"><span data-stu-id="3873b-108">The **Company directory** mobile workspace lets users perform these tasks:</span></span>
+## <a name="overview"></a><span data-ttu-id="f0de9-107">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="f0de9-107">Overview</span></span>
+<span data-ttu-id="f0de9-108">تسمح مساحة العمل المحمولة **دليل الشركة** للمستخدمين بتنفيذ هذه المهام:</span><span class="sxs-lookup"><span data-stu-id="f0de9-108">The **Company directory** mobile workspace lets users perform these tasks:</span></span>
 
-- <span data-ttu-id="3873b-109">عرض قائمة بالموظفين في المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="3873b-109">View a list of employees in the organization.</span></span>
-- <span data-ttu-id="3873b-110">البحث عن الموظفين في المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="3873b-110">Search for employees in the organization.</span></span>
-- <span data-ttu-id="3873b-111">عرض معلومات الاتصال للموظفين.</span><span class="sxs-lookup"><span data-stu-id="3873b-111">View contact information for employees.</span></span>
-- <span data-ttu-id="3873b-112">الاتصال بالموظفين من معلومات ملف التعريف.</span><span class="sxs-lookup"><span data-stu-id="3873b-112">Contact employees from the profile information.</span></span>
+- <span data-ttu-id="f0de9-109">عرض قائمة بالموظفين في المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="f0de9-109">View a list of employees in the organization.</span></span>
+- <span data-ttu-id="f0de9-110">البحث عن الموظفين في المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="f0de9-110">Search for employees in the organization.</span></span>
+- <span data-ttu-id="f0de9-111">عرض معلومات الاتصال للموظفين.</span><span class="sxs-lookup"><span data-stu-id="f0de9-111">View contact information for employees.</span></span>
+- <span data-ttu-id="f0de9-112">الاتصال بالموظفين من معلومات ملف التعريف.</span><span class="sxs-lookup"><span data-stu-id="f0de9-112">Contact employees from the profile information.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="3873b-113">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="3873b-113">Prerequisites</span></span>
-<span data-ttu-id="3873b-114">قبل أن تتمكن من استخدام مساحة العمل المحمولة هذه، يجب عليك تلبية المتطلبات الأساسية التالية.</span><span class="sxs-lookup"><span data-stu-id="3873b-114">Before you can use this mobile workspace, the following prerequisites must be met.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="f0de9-113">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="f0de9-113">Prerequisites</span></span>
+<span data-ttu-id="f0de9-114">قبل أن تتمكن من استخدام مساحة العمل المحمولة هذه، يجب عليك تلبية المتطلبات الأساسية التالية.</span><span class="sxs-lookup"><span data-stu-id="f0de9-114">Before you can use this mobile workspace, the following prerequisites must be met.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3873b-115">المتطلب الأساسي</span><span class="sxs-lookup"><span data-stu-id="3873b-115">Prerequisite</span></span></th>
-<th><span data-ttu-id="3873b-116">الدور</span><span class="sxs-lookup"><span data-stu-id="3873b-116">Role</span></span></th>
-<th><span data-ttu-id="3873b-117">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="3873b-117">Description</span></span></th>
+<th><span data-ttu-id="f0de9-115">المتطلب الأساسي</span><span class="sxs-lookup"><span data-stu-id="f0de9-115">Prerequisite</span></span></th>
+<th><span data-ttu-id="f0de9-116">الدور</span><span class="sxs-lookup"><span data-stu-id="f0de9-116">Role</span></span></th>
+<th><span data-ttu-id="f0de9-117">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="f0de9-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="3873b-118">يجب أن يتم نشر أحد المنتجات التالية في مؤسستك:</span><span class="sxs-lookup"><span data-stu-id="3873b-118">One of the following products must be deployed in your organization:</span></span>
-<ul><li><span data-ttu-id="3873b-119">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017)</span><span class="sxs-lookup"><span data-stu-id="3873b-119">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017)</span></span></li>
-<li><span data-ttu-id="3873b-120">Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="3873b-120">Microsoft Dynamics 365 for Talent</span></span></li>
+<td><span data-ttu-id="f0de9-118">يجب أن يتم نشر أحد المنتجات التالية في مؤسستك:</span><span class="sxs-lookup"><span data-stu-id="f0de9-118">One of the following products must be deployed in your organization:</span></span>
+<ul><li><span data-ttu-id="f0de9-119">Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</span><span class="sxs-lookup"><span data-stu-id="f0de9-119">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span></span></li>
+<li><span data-ttu-id="f0de9-120">Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="f0de9-120">Microsoft Dynamics 365 for Talent</span></span></li>
 </ul>
 </td>
-<td><span data-ttu-id="3873b-121">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="3873b-121">System administrator</span></span></td>
-<td><span data-ttu-id="3873b-122">إذا لم يكن لديك Finance and Operations منشور بالفعل في مؤسستك، راجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>.</span><span class="sxs-lookup"><span data-stu-id="3873b-122">If you don't already have Finance and Operations deployed in your organization, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span> <span data-ttu-id="3873b-123">إذا لم يكن لديك Talent منشورًا بالفعل في مؤسستك، فمن ثم يمكن لمسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://www.microsoft.com/en-us/dynamics365/talent">صفحة ويب Talent</a>.</span><span class="sxs-lookup"><span data-stu-id="3873b-123">If you don't already have Talent deployed in your organization, the system administrator can access a trial version from the <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent webpage</a>.</span></span>
+<td><span data-ttu-id="f0de9-121">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="f0de9-121">System administrator</span></span></td>
+<td><span data-ttu-id="f0de9-122">إذا لم يكن لديك Finance and Operations منشور بالفعل في مؤسستك، راجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>.</span><span class="sxs-lookup"><span data-stu-id="f0de9-122">If you don't already have Finance and Operations deployed in your organization, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span> <span data-ttu-id="f0de9-123">إذا لم يكن لديك Talent منشورًا بالفعل في مؤسستك، فمن ثم يمكن لمسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://www.microsoft.com/en-us/dynamics365/talent">صفحة ويب Talent</a>.</span><span class="sxs-lookup"><span data-stu-id="f0de9-123">If you don't already have Talent deployed in your organization, the system administrator can access a trial version from the <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent webpage</a>.</span></span>
 </td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="3873b-124">يجب نشر مساحة العمل المحمولة <strong>دليل الشركة</strong>.</span><span class="sxs-lookup"><span data-stu-id="3873b-124">The <strong>Company directory</strong> mobile workspace must be published.</span></span></td>
-<td><span data-ttu-id="3873b-125">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="3873b-125">System administrator</span></span></td>
-<td><span data-ttu-id="3873b-126">راجع <a href="publish-mobile-workspace.md">نشر مساحة عمل محمولة</a></span><span class="sxs-lookup"><span data-stu-id="3873b-126">See <a href="publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
+<td><span data-ttu-id="f0de9-124">يجب نشر مساحة العمل المحمولة <strong>دليل الشركة</strong>.</span><span class="sxs-lookup"><span data-stu-id="f0de9-124">The <strong>Company directory</strong> mobile workspace must be published.</span></span></td>
+<td><span data-ttu-id="f0de9-125">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="f0de9-125">System administrator</span></span></td>
+<td><span data-ttu-id="f0de9-126">راجع <a href="publish-mobile-workspace.md">نشر مساحة عمل محمولة</a></span><span class="sxs-lookup"><span data-stu-id="f0de9-126">See <a href="publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="3873b-127">تحميل وتثبيت تطبيق الجوال</span><span class="sxs-lookup"><span data-stu-id="3873b-127">Download and install the mobile app</span></span>
-<span data-ttu-id="3873b-128">تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:</span><span class="sxs-lookup"><span data-stu-id="3873b-128">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="f0de9-127">تحميل وتثبيت تطبيق الجوال</span><span class="sxs-lookup"><span data-stu-id="f0de9-127">Download and install the mobile app</span></span>
+<span data-ttu-id="f0de9-128">تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:</span><span class="sxs-lookup"><span data-stu-id="f0de9-128">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [<span data-ttu-id="3873b-129">لهواتف Android</span><span class="sxs-lookup"><span data-stu-id="3873b-129">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
--   [<span data-ttu-id="3873b-130">لهواتف iPhone</span><span class="sxs-lookup"><span data-stu-id="3873b-130">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="f0de9-129">لهواتف Android</span><span class="sxs-lookup"><span data-stu-id="f0de9-129">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="f0de9-130">لهواتف iPhone</span><span class="sxs-lookup"><span data-stu-id="f0de9-130">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="3873b-131">تسجيل الدخول إلى تطبيق الهاتف الجوال</span><span class="sxs-lookup"><span data-stu-id="3873b-131">Sign in to the mobile app</span></span>
-1.  <span data-ttu-id="3873b-132">ابدأ تشغيل التطبيق على جهازك المحمول.</span><span class="sxs-lookup"><span data-stu-id="3873b-132">Start the app on your mobile device.</span></span>
-2.  <span data-ttu-id="3873b-133">أدخل عنوان URL لـ Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="3873b-133">Enter your Microsoft Dynamics 365 URL.</span></span>
-3.  <span data-ttu-id="3873b-134">في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="3873b-134">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="3873b-135">أدخل بيانات اعتمادك.</span><span class="sxs-lookup"><span data-stu-id="3873b-135">Enter your credentials.</span></span>
-4.  <span data-ttu-id="3873b-136">بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك.</span><span class="sxs-lookup"><span data-stu-id="3873b-136">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="3873b-137">تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.</span><span class="sxs-lookup"><span data-stu-id="3873b-137">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="f0de9-131">تسجيل الدخول إلى تطبيق الهاتف الجوال</span><span class="sxs-lookup"><span data-stu-id="f0de9-131">Sign in to the mobile app</span></span>
+1.  <span data-ttu-id="f0de9-132">ابدأ تشغيل التطبيق على جهازك المحمول.</span><span class="sxs-lookup"><span data-stu-id="f0de9-132">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="f0de9-133">أدخل عنوان URL لـ Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="f0de9-133">Enter your Microsoft Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="f0de9-134">في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="f0de9-134">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="f0de9-135">أدخل بيانات اعتمادك.</span><span class="sxs-lookup"><span data-stu-id="f0de9-135">Enter your credentials.</span></span>
+4.  <span data-ttu-id="f0de9-136">بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك.</span><span class="sxs-lookup"><span data-stu-id="f0de9-136">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="f0de9-137">تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.</span><span class="sxs-lookup"><span data-stu-id="f0de9-137">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-<span data-ttu-id="3873b-138">[![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="3873b-138">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
+<span data-ttu-id="f0de9-138">[![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="f0de9-138">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="3873b-139">عرض دليل الشركة باستخدام مساحة العمل المحمولة</span><span class="sxs-lookup"><span data-stu-id="3873b-139">View the company directory by using the mobile workspace</span></span>
-1.  <span data-ttu-id="3873b-140">في تطبيق المحمول، حدد مساحة العمل **دليل الشركة**.</span><span class="sxs-lookup"><span data-stu-id="3873b-140">In the mobile app, select the **Company directory** workspace.</span></span> <span data-ttu-id="3873b-141">يتم عرض قائمة بالموظفين.</span><span class="sxs-lookup"><span data-stu-id="3873b-141">A list of employees is shown.</span></span>
-3.  <span data-ttu-id="3873b-142">حدد موظفًا.</span><span class="sxs-lookup"><span data-stu-id="3873b-142">Select an employee.</span></span> <span data-ttu-id="3873b-143">تظهر صفحة **ملف تعريف الموظف**.</span><span class="sxs-lookup"><span data-stu-id="3873b-143">The **Employee profile** page appears.</span></span> <span data-ttu-id="3873b-144">تتضمن المعلومات الموجودة في هذه الصفحة اسم الموظف الأول، والاسم الأخير، والمسمى الوظيفي، والقسم.</span><span class="sxs-lookup"><span data-stu-id="3873b-144">The information on this page includes the employee's first name, last name, title, and department.</span></span>
+## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="f0de9-139">عرض دليل الشركة باستخدام مساحة العمل المحمولة</span><span class="sxs-lookup"><span data-stu-id="f0de9-139">View the company directory by using the mobile workspace</span></span>
+1.  <span data-ttu-id="f0de9-140">في تطبيق المحمول، حدد مساحة العمل **دليل الشركة**.</span><span class="sxs-lookup"><span data-stu-id="f0de9-140">In the mobile app, select the **Company directory** workspace.</span></span> <span data-ttu-id="f0de9-141">يتم عرض قائمة بالموظفين.</span><span class="sxs-lookup"><span data-stu-id="f0de9-141">A list of employees is shown.</span></span>
+3.  <span data-ttu-id="f0de9-142">حدد موظفًا.</span><span class="sxs-lookup"><span data-stu-id="f0de9-142">Select an employee.</span></span> <span data-ttu-id="f0de9-143">تظهر صفحة **ملف تعريف الموظف**.</span><span class="sxs-lookup"><span data-stu-id="f0de9-143">The **Employee profile** page appears.</span></span> <span data-ttu-id="f0de9-144">تتضمن المعلومات الموجودة في هذه الصفحة اسم الموظف الأول، والاسم الأخير، والمسمى الوظيفي، والقسم.</span><span class="sxs-lookup"><span data-stu-id="f0de9-144">The information on this page includes the employee's first name, last name, title, and department.</span></span>
 
-## <a name="search-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="3873b-145">البحث في دليل الشركة باستخدام مساحة العمل المحمولة</span><span class="sxs-lookup"><span data-stu-id="3873b-145">Search the company directory by using the mobile workspace</span></span>
-1.  <span data-ttu-id="3873b-146">في تطبيق المحمول، حدد مساحة العمل **دليل الشركة**.</span><span class="sxs-lookup"><span data-stu-id="3873b-146">In the mobile app, select the **Company directory** workspace.</span></span>
-2.  <span data-ttu-id="3873b-147">في حقل **البحث**، أدخل اسم الموظف الأول، أو الاسم الأخير، أو المسمى الوظيفي، أو القسم لبدء البحث.</span><span class="sxs-lookup"><span data-stu-id="3873b-147">In the **Search** field, enter an employee's first name, last name, title, or department to start the search.</span></span>
-3.  <span data-ttu-id="3873b-148">حدد موظفًا.</span><span class="sxs-lookup"><span data-stu-id="3873b-148">Select an employee.</span></span> <span data-ttu-id="3873b-149">تظهر صفحة **ملف تعريف الموظف**.</span><span class="sxs-lookup"><span data-stu-id="3873b-149">The **Employee profile** page appears.</span></span> <span data-ttu-id="3873b-150">تتضمن المعلومات الموجودة في هذه الصفحة اسم الموظف الأول، والاسم الأخير، والمسمى الوظيفي، والقسم.</span><span class="sxs-lookup"><span data-stu-id="3873b-150">The information on this page includes the employee's first name, last name, title, and department.</span></span>
+## <a name="search-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="f0de9-145">البحث في دليل الشركة باستخدام مساحة العمل المحمولة</span><span class="sxs-lookup"><span data-stu-id="f0de9-145">Search the company directory by using the mobile workspace</span></span>
+1.  <span data-ttu-id="f0de9-146">في تطبيق المحمول، حدد مساحة العمل **دليل الشركة**.</span><span class="sxs-lookup"><span data-stu-id="f0de9-146">In the mobile app, select the **Company directory** workspace.</span></span>
+2.  <span data-ttu-id="f0de9-147">في حقل **البحث**، أدخل اسم الموظف الأول، أو الاسم الأخير، أو المسمى الوظيفي، أو القسم لبدء البحث.</span><span class="sxs-lookup"><span data-stu-id="f0de9-147">In the **Search** field, enter an employee's first name, last name, title, or department to start the search.</span></span>
+3.  <span data-ttu-id="f0de9-148">حدد موظفًا.</span><span class="sxs-lookup"><span data-stu-id="f0de9-148">Select an employee.</span></span> <span data-ttu-id="f0de9-149">تظهر صفحة **ملف تعريف الموظف**.</span><span class="sxs-lookup"><span data-stu-id="f0de9-149">The **Employee profile** page appears.</span></span> <span data-ttu-id="f0de9-150">تتضمن المعلومات الموجودة في هذه الصفحة اسم الموظف الأول، والاسم الأخير، والمسمى الوظيفي، والقسم.</span><span class="sxs-lookup"><span data-stu-id="f0de9-150">The information on this page includes the employee's first name, last name, title, and department.</span></span>
 

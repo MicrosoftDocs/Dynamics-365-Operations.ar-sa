@@ -1,0 +1,83 @@
+---
+title: "توفير Microsoft Dynamics 365 for Talent"
+description: "يوضح لك هذا الموضوع عملية توفير بيئة جديدة لـ Microsoft Dynamics 365 for Talent."
+author: rschloma
+manager: AnnBe
+ms.date: 11/20/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: Talent
+audience: Application User
+ms.reviewer: rschloma
+ms.search.scope: Talent
+ms.custom: 17271
+ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
+ms.search.region: Global
+ms.author: rschloma
+ms.search.validFrom: 2017-11-20
+ms.dyn365.ops.version: Talent July 2017 update
+ms.translationtype: HT
+ms.sourcegitcommit: 6ffb97b53f522cfe8ccd8e89df854cbc557e4f1f
+ms.openlocfilehash: fadc373b2c1c06987f22d4d9c20a9ab07b0c85d5
+ms.contentlocale: ar-sa
+ms.lasthandoff: 11/20/2017
+
+---
+# <a name="provision-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="3a39f-103">توفير Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="3a39f-103">Provision Microsoft Dynamics 365 for Talent</span></span>
+<span data-ttu-id="3a39f-104">يوضح لك هذا الموضوع عملية توفير بيئة جديدة لـ Microsoft Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="3a39f-104">This topic walks you through the process of provisioning a new environment for Microsoft Dynamics 365 for Talent.</span></span> <span data-ttu-id="3a39f-105">يفترض هذا الموضوع أنك قمت بشراء Talent من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP).</span><span class="sxs-lookup"><span data-stu-id="3a39f-105">This topic assumes that you've purchased Talent through a Cloud Solution Provider (CSP) or enterprise architecture (EA) agreement.</span></span> <span data-ttu-id="3a39f-106">إذا كان لديك ترخيص Microsoft Dynamics 365 يشمل خطة خدمة Talent، ولا يمكنك إتمام الخطوات المذكورة في هذا الموضوع، فاتصل بالدعم.</span><span class="sxs-lookup"><span data-stu-id="3a39f-106">If you have an existing Microsoft Dynamics 365 license that already includes the Talent service plan, and you can't complete the steps in this topic, contact Support.</span></span>
+
+<span data-ttu-id="3a39f-107">للبدء، يجب على المسؤول العمومي تسجيل الدخول إلى [Microsoft Dynamics Lifecycle Services](http://lcs.dynamics.com) (LCS) وإنشاء مشروع Talent جديدة.</span><span class="sxs-lookup"><span data-stu-id="3a39f-107">To begin, the global administrator should sign in to [Microsoft Dynamics Lifecycle Services](http://lcs.dynamics.com) (LCS) and create a new Talent project.</span></span> <span data-ttu-id="3a39f-108">ما لم يكن إصدار ترخيص يمنعك من توفير Talent، فلا يلزم طلب مساعدة من الدعم أو ممثلي هندسة خدمة Dynamics (DSE).</span><span class="sxs-lookup"><span data-stu-id="3a39f-108">Unless a licensing issue prevents you from provisioning Talent, assistance from Support or Dynamics Service Engineering (DSE) representatives isn't required.</span></span>
+
+## <a name="create-an-lcs-project"></a><span data-ttu-id="3a39f-109">إنشاء مشروع LCS</span><span class="sxs-lookup"><span data-stu-id="3a39f-109">Create an LCS project</span></span>
+<span data-ttu-id="3a39f-110">لاستخدام LCS لإدارة بيئات Talent، يجب أولاً إنشاء مشروع LCS.</span><span class="sxs-lookup"><span data-stu-id="3a39f-110">To use LCS to manage your Talent environments, you must first create an LCS project.</span></span>
+
+1. <span data-ttu-id="3a39f-111">قم بتسجيل الدخول إلى [LCS](https://lcs.dynamics.com/Logon/Index) باستخدام الحساب الذي استخدمته للاشتراك في Talent.</span><span class="sxs-lookup"><span data-stu-id="3a39f-111">Sign in to [LCS](https://lcs.dynamics.com/Logon/Index) by using the account that you used to subscribe to Talent.</span></span>
+2. <span data-ttu-id="3a39f-112">حدد علامة زائد (**+**) لإنشاء مشروع.</span><span class="sxs-lookup"><span data-stu-id="3a39f-112">Select the plus sign (**+**) to create a project.</span></span>
+3. <span data-ttu-id="3a39f-113">حدد **Microsoft Dynamics 365 for Talent** بوصفه اسم المنتج وإصدار المنتج.</span><span class="sxs-lookup"><span data-stu-id="3a39f-113">Select **Microsoft Dynamics 365 for Talent** as the product name and product version.</span></span>
+4. <span data-ttu-id="3a39f-114">حدد منهجية **Dynamics 365 for Talent**.</span><span class="sxs-lookup"><span data-stu-id="3a39f-114">Select the **Dynamics 365 for Talent** methodology.</span></span>
+5. <span data-ttu-id="3a39f-115">حدد **إنشاء**.</span><span class="sxs-lookup"><span data-stu-id="3a39f-115">Select **Create**.</span></span>
+
+<span data-ttu-id="3a39f-116">لمزيد من المعلومات حول كيفية الشروع في العمل مع Talent، راجع منهجية **Talent** التي قمت بإنشائها في المشروع الجديد الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="3a39f-116">For information about how to get started with Talent, see the **Talent** methodology that you created in your new project.</span></span> <span data-ttu-id="3a39f-117">بعد الانتهاء من إنشاء المشروع، أكمل الإجراء التالي لتوفير بيئة Talent الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="3a39f-117">After you've finished creating the project, complete the following procedure to provision your Talent environment.</span></span>
+
+## <a name="provision-a-talent-project"></a><span data-ttu-id="3a39f-118">توفير مشروع Talent</span><span class="sxs-lookup"><span data-stu-id="3a39f-118">Provision a Talent project</span></span>
+<span data-ttu-id="3a39f-119">بعد إنشاء مشروع LCS، يمكنك توفير Talent في بيئة.</span><span class="sxs-lookup"><span data-stu-id="3a39f-119">After you've created an LCS project, you can provision Talent into an environment.</span></span>
+
+1. <span data-ttu-id="3a39f-120">في مشروع LCS، حدد تجانب **"إدارة تطبيق Talent**.</span><span class="sxs-lookup"><span data-stu-id="3a39f-120">In your LCS project, select the **Talent App Management** tile.</span></span>
+2. <span data-ttu-id="3a39f-121">يتم توفير Talent دوماً في بيئة Microsoft PowerApps، لتمكين تكامل PowerApps وقابليته للتوسع.</span><span class="sxs-lookup"><span data-stu-id="3a39f-121">Talent is always provisioned into a Microsoft PowerApps environment, to enable PowerApps integration and extensibility.</span></span> <span data-ttu-id="3a39f-122">إذا لم يكن لديك بيئة PowerApps، فاتبع الخطوات الموجودة في قسم "إنشاء بيئة PowerApps جديدة (عند اللزوم)" في هذا الموضوع قبل المتابعة.</span><span class="sxs-lookup"><span data-stu-id="3a39f-122">If you don't already have a PowerApps environment, follow the steps in the "Create a new PowerApps environment (if required)" section of this topic before you continue.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="3a39f-123">لعرض البيئات الموجودة أو إنشاء بيئات جديدة، يجب تعيين مسؤول المستأجرين الذي يوفر Talent لترخيص PowerApps P2.</span><span class="sxs-lookup"><span data-stu-id="3a39f-123">To view existing environments or create new environments, the tenant admin who provisions Talent must be assigned to the PowerApps P2 license.</span></span> <span data-ttu-id="3a39f-124">إذا لم يكن لدى مؤسستك ترخيص PowerApps P2، يمكنك الحصول على واحد من موفر حلول المجموعة (CSP) أو من [صفحة أسعار PowerApps](https://powerapps.microsoft.com/en-us/pricing/).</span><span class="sxs-lookup"><span data-stu-id="3a39f-124">If your organization doesn't have a PowerApps P2 license, you can get one from your CSP or from the [PowerApps pricing page](https://powerapps.microsoft.com/en-us/pricing/).</span></span>
+
+3. <span data-ttu-id="3a39f-125">حدد **إضافة**، ثم حدد البيئة المراد توفير Talent فيها.</span><span class="sxs-lookup"><span data-stu-id="3a39f-125">Select **Add**, and then select the environment to provision Talent into.</span></span>
+4. <span data-ttu-id="3a39f-126">حدد **نعم** للموافقة على الشروط وبدء النشر.</span><span class="sxs-lookup"><span data-stu-id="3a39f-126">Select **Yes** to agree to the terms and begin deployment.</span></span>
+
+    <span data-ttu-id="3a39f-127">تظهر بيئتك الجديدة في قائمة البيئات في جزء التنقل على الجانب الأيسر.</span><span class="sxs-lookup"><span data-stu-id="3a39f-127">Your new environment appears in the list of environments in the navigation pane on the left.</span></span> <span data-ttu-id="3a39f-128">ومع ذلك، لا يمكنك البدء في استخدام البيئة حتى يتم تحديث حالة النشر إلى **تم النشر**.</span><span class="sxs-lookup"><span data-stu-id="3a39f-128">However, you can't start to use the environment until the deployment status is updated to **Deployed**.</span></span> <span data-ttu-id="3a39f-129">تستغرق هذه العملية عادةً دقائق معدودة.</span><span class="sxs-lookup"><span data-stu-id="3a39f-129">This process typically takes just a few minutes.</span></span> <span data-ttu-id="3a39f-130">إذا فشل التوفير، فيجب الاتصال بالدعم.</span><span class="sxs-lookup"><span data-stu-id="3a39f-130">If provisioning fails, you must contact Support.</span></span>
+
+6. <span data-ttu-id="3a39f-131">حدد **بتسجيل الدخول إلى Talent** لاستخدام بيئتك الجديدة.</span><span class="sxs-lookup"><span data-stu-id="3a39f-131">Select **Log on to Talent** to use your new environment.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="3a39f-132">إذا لم تكن قد وافقت على المتطلبات النهائية بعد، فيمكنك نشر مثيل اختبار Talent في المشروع.</span><span class="sxs-lookup"><span data-stu-id="3a39f-132">If you haven't yet signed off on the final requirements, you can deploy a test instance of Talent in the project.</span></span> <span data-ttu-id="3a39f-133">يمكنك بعد ذلك استخدام هذا المثيل لاختبار الحل الخاص بك قبل إبداء الموافقة.</span><span class="sxs-lookup"><span data-stu-id="3a39f-133">You can then use this instance to test your solution until you sign off.</span></span> <span data-ttu-id="3a39f-134">إذا كنت تستخدم بيئتك الجديدة للاختبار، فيجب تكرار هذا الإجراء لإنشاء بيئة إنتاج.</span><span class="sxs-lookup"><span data-stu-id="3a39f-134">If you use your new environment for testing, you must repeat this procedure to create a production environment.</span></span>
+
+## <a name="create-a-new-powerapps-environment-if-required"></a><span data-ttu-id="3a39f-135">إنشاء بيئة PowerApps جديدة (عند اللزوم)</span><span class="sxs-lookup"><span data-stu-id="3a39f-135">Create a new PowerApps environment (if required)</span></span>
+1. <span data-ttu-id="3a39f-136">حدد **إدارة بيئات** في LCS.</span><span class="sxs-lookup"><span data-stu-id="3a39f-136">Select **Manage Environments** in LCS.</span></span> <span data-ttu-id="3a39f-137">تم الانتقال بك إلى [مركز إدارة PowerApps](https://preview.admin.powerapps.com/environments)، حيث يمكنك عرض البيئات الموجودة وإنشاء بيئات جديد.</span><span class="sxs-lookup"><span data-stu-id="3a39f-137">You're taken to the [PowerApps Admin Center](https://preview.admin.powerapps.com/environments), where you can view existing environments and create new environments.</span></span>
+2. <span data-ttu-id="3a39f-138">حدد الزر (**+**) **بيئة جديدة**.</span><span class="sxs-lookup"><span data-stu-id="3a39f-138">Select the (**+**) **New environment** button.</span></span>
+3. <span data-ttu-id="3a39f-139">أدخل اسماً فريداً للبيئة، وحدد الموقع الذي ترغب في النشر إليه.</span><span class="sxs-lookup"><span data-stu-id="3a39f-139">Enter a unique name for the environment, and select the location to deploy to.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="3a39f-140">تطبيق Talent غير متوفر في جميع المناطق.</span><span class="sxs-lookup"><span data-stu-id="3a39f-140">Talent isn't available in all regions.</span></span> <span data-ttu-id="3a39f-141">ولذلك، يجب عليك التحقق من التوافر قبل تحديد مكان للبيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="3a39f-141">Therefore, be sure to check for availability before you select the location for your environment.</span></span>
+
+4. <span data-ttu-id="3a39f-142">عندما يتم سؤالك عما إذا كنت ترغب في إنشاء قاعدة بيانات، حدد **إنشاء قاعدة بيانات** لإنشاء قاعدة بيانات Common Data Service (CDS) التي يجب أن تستضيف جزءًا من بيانات Talent.</span><span class="sxs-lookup"><span data-stu-id="3a39f-142">When you're asked whether you want to create a database, select **Create database** to create the Common Data Service (CDS) database that must host part of your Talent data.</span></span> <span data-ttu-id="3a39f-143">من خلال إنشاء قاعدة بيانات، يمكنك أيضًا دمج تطبيقات PowerApps مع Talent.</span><span class="sxs-lookup"><span data-stu-id="3a39f-143">By creating a database, you can also integrate PowerApps applications with Talent.</span></span>
+5. <span data-ttu-id="3a39f-144">يتم الاستفسار منك عن مستوى الوصول الذي تريد استخدامه لقاعدة البيانات.</span><span class="sxs-lookup"><span data-stu-id="3a39f-144">You're asked about the access level that you want to use for the database.</span></span> <span data-ttu-id="3a39f-145">نحن نوصي بتحديد **تقييد الوصول**، لأن هذا الخيار يمنع مستخدمي Talent من الوصول مباشرةً إلى البيانات الهامة باستخدام تطبيق PowerApps.</span><span class="sxs-lookup"><span data-stu-id="3a39f-145">We recommend that you select **Restrict access**, because this option prevents Talent users from directly accessing sensitive data by using a PowerApps application.</span></span>
+6. <span data-ttu-id="3a39f-146">تشتمل قاعدة بيانات PowerApps التي تم إنشاؤها على بيانات عرض توضيحي.</span><span class="sxs-lookup"><span data-stu-id="3a39f-146">The CDS database that is created contains demo data.</span></span> <span data-ttu-id="3a39f-147">بيانات العرض التوضيحي هذه مفيدة، لأنه يمكنك استخدام شركة بيانات العرض التوضيحي للاختبار أو لإنشاء تسجيلات المهام أو دلائل المهام.</span><span class="sxs-lookup"><span data-stu-id="3a39f-147">This demo data is useful, because you can use the demo data company for testing, or to create task recordings or task guides.</span></span> <span data-ttu-id="3a39f-148">ومع ذلك، يتضيف بيانات العرض التوضيحي موظفين غير نشطين وعناوين وهمية، من بين معلومات أخرى، إلى بيئة الإنتاج الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="3a39f-148">However, the demo data adds inactive employees and fictitious addresses, among other information, to your production environment.</span></span> <span data-ttu-id="3a39f-149">لإزالة بيانات العرض التوضيحي، اتبع الخطوات التالية بعد الانتهاء من إنشاء قاعدة بيانات CDS:</span><span class="sxs-lookup"><span data-stu-id="3a39f-149">To remove the demo data, follow these steps after you've finished creating the CDS database:</span></span>
+
+    > [!IMPORTANT]
+    > <span data-ttu-id="3a39f-150">إذا قمت مسبقاً بإنشاء قاعدة بيانات CDS وإدخال أي بيانات الإنتاج اخاصة بشركتك فيها، فانتبه إلى أن هذه الخطوات تعمل على إزالة **كل** البيانات الموجودة في قاعدة البيانات المحددة، حتى بيانات الإنتاج الخاصة بشركتك.</span><span class="sxs-lookup"><span data-stu-id="3a39f-150">If you previously created a CDS database and entered any of your company's production data into it, be aware that these steps remove **all** the data in the selected database, even your company's production data.</span></span>
+
+    1. <span data-ttu-id="3a39f-151">قم بتسجيل الدخول إلى [PowerApps](https://preview.web.powerapps.com/home)، وانتقل إلى البيئة التي قمت بإنشائها في الخطوة 2.</span><span class="sxs-lookup"><span data-stu-id="3a39f-151">Sign in to [PowerApps](https://preview.web.powerapps.com/home), and go to the environment that you created in step 2.</span></span>
+    2. <span data-ttu-id="3a39f-152">حدد **الكيانات**.</span><span class="sxs-lookup"><span data-stu-id="3a39f-152">Select **Entities**.</span></span> <span data-ttu-id="3a39f-153">على الجانب الأيمن من الصفحة، حدد زر علامة الحذف (**...**)، ثم حدد **مسح كل البيانات**.</span><span class="sxs-lookup"><span data-stu-id="3a39f-153">On the right side of the page, select the ellipse (**…**) button, and then select **Clear all data**.</span></span>
+    3. <span data-ttu-id="3a39f-154">حدد **حذف البيانات** لتأكيد رغبتك في إزالة البيانات.</span><span class="sxs-lookup"><span data-stu-id="3a39f-154">Select **Delete data** to confirm that you want to remove the data.</span></span> <span data-ttu-id="3a39f-155">يؤدي هذا الإجراء إلى إزالة كافة بيانات العرض التوضيحي المضمنة في CDS بشكل افتراضي.</span><span class="sxs-lookup"><span data-stu-id="3a39f-155">This action removes all the demo data that is included in the CDS by default.</span></span> <span data-ttu-id="3a39f-156">كما أنه يزيل أي بيانات أخرى تم إدخالها في قاعدة البيانات المحددة.</span><span class="sxs-lookup"><span data-stu-id="3a39f-156">It also removes any other data that has been entered in the selected database.</span></span>
+
+<span data-ttu-id="3a39f-157">يمكنك الآن استخدام بيئتك الجديدة.</span><span class="sxs-lookup"><span data-stu-id="3a39f-157">You can now use your new environment.</span></span>
+
