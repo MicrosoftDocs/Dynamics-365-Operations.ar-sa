@@ -3,7 +3,7 @@ title: "محتوى Power BI - تطوير الموظفين"
 description: "يصف هذا الموضوع محتوى Power BI - تطوير الموظفين. فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6a1125d56239f4370d6219a93988d50d402045e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 
-إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017)، فيمكنك العثور على حزمة محتوى **تطوير الموظفين** في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS) . للمزيد من المعلومات حول كيفية تنزيل حزمة المحتوى وتوصيله ببياناتك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md).
+يمكنك العثور على حزمة محتوى **تطوير الموظفين** في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services ‏(LCS). للمزيد من المعلومات حول كيفية تنزيل حزمة المحتوى وتوصيله ببياناتك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
 تحتوي التقارير المضمنة في محتوى Power BI **تطوير الموظفين** على كل من المخططات والجداول التي تحتوي على معلومات إضافية. يصف الجدول التالي التقارير.

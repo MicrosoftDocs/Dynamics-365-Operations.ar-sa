@@ -3,7 +3,7 @@ title: "محتوى Power BI"
 description: "يسرد هذا الموضوع محتوى Power BI المتوفر ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عنه."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ffae237693ebf0b0feedf7c60230590d95eed3d4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ae19b4afa9e36800988b790398e46d8861ba432d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 11/03/2017
 
 يسرد هذا الموضوع محتوى Microsoft Power BI المتوفر ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عنه.
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>محتوى Power BI لتطبيق Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017)
-إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017)، فسيتوفر محتوى Power BI التالي:
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>محتوى Power BI لتطبيق Dynamics 365 for Finance and Operations, Enterprise Edition
+إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition، فسيتوفر محتوى Power BI التالي:
 
 - [محتوى Power BI القيمة الفعلية مقابل الموازنة](ledger-budgets-power-bi.md)
 - [محتوى Power BI - الميزات](benefits-power-bi.md)

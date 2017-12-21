@@ -1,6 +1,6 @@
 ---
 title: "مزامنة أوامر المبيعات مباشرةً بين Finance and Operations وSales"
-description: "يناقش الموضوع القوالب والمهام الأساسية التي يتم استخدامها لإجراء مزامنة ثنائية الاتجاه لرؤوس وبنود أوامر المبيعات مباشرةً بين Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً بين Microsoft Dynamics 365 for Sales وMicrosoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-يناقش الموضوع القوالب والمهام الأساسية التي يتم استخدامها لإجراء مزامنة ثنائية الاتجاه لرؤوس وبنود أوامر المبيعات مباشرةً بين Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً بين Microsoft Dynamics 365 for Sales وMicrosoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 
 للوصول إلى القوالب المتوفرة، افتح [مركز إدارة PowerApps](https://preview.admin.powerapps.com/dataintegration). حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
-يتم استخدام القوالب والمهام الأساسية التالية لإجراء مزامنة ثنائية الاتجاه لرؤوس وبنود أوامر المبيعات مباشرةً بين Sales وFinance and Operations:
+يتم استخدام القوالب والمهام الأساسية التالية لتشغيل مزامنة أوامر المبيعات مباشرةً بين Sales وFinance and Operations:
 
 - **أسماء القوالب في تكامل البيانات:** 
 

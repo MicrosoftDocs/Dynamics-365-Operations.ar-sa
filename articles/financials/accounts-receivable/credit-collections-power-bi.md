@@ -3,7 +3,7 @@ title: "محتوى Power BI - إدارة التحصيلات والائتمان"
 description: "يوضح هذا الموضوع ما هو مدرج في محتوي Power BI - إدارة التحصيلات والائتمان. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f08df6cb8549e87e123b10c5a771ae1c60ff39c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 536ebae3ec44954aba314a966c9b0d2dabef45d1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 بشكل افتراضي، يتم عرض بيانات الائتمان والتحصيلات للشركة الحالية. لمشاهدة البيانات في كافة أنحاء الشركات، قم بتعيين واجب **CustCollectionsBICrossCompany** للدور.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017)، فسيظهر محتوى Power BI **إدارة الائتمان والتحصيلات** في مساحة العمل **ائتمان العميل والتحصيلات**.
+يتم عرض محتوى Power BI **إدارة التحصيلات والائتمان** في مساحة العمل **تحصيلات وائتمان العميل**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
 

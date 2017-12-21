@@ -3,7 +3,7 @@ title: "محتوى Power BI - نظرة عامة على النقد"
 description: "يصف هذا الموضوع محتوى Power BI - نظرة عامة على النقد. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fdcd3083f475967ec2e5f94dad850a1bf98c864a
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 
-إذا كنت تستخدم Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017)، فسيتم عرض تقارير من محتوى Power BI **نظرة عامة على النقد** في مساحتي عمل **نظرة عامة على النقد** و**إدارة البنوك**.
+يتم عرض تقارير من محتوى Power BI **نظرة عامة على النقدية** في مساحتي العمل **نظرة عامة على النقدية** و**إدارة البنك**.
 
 لعرض تقارير تقدير التدفقات النقدية، يجب أولاً تشغيل عملية حساب التقدير باستخدام وظيفة **حساب تقديرات التدفقات النقدية** من منطقة إدارة النقد والبنوك.  يجب إكمال هذه العملية لكل شركة مضمنة في التقدير.  بعد ذلك، يجب تحديث القياس المجمع LedgerCovLiquidityMeasurement في صفحة the **مخزن الكيانات**.  
 
