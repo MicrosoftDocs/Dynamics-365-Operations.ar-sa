@@ -3,7 +3,7 @@ title: "إدارة المشاريع ومحاسبتها"
 description: "يمكن استخدام وظيفة إدارة المشاريع والمحاسبة في صناعات متعددة لتوفير خدمة أو إنتاج منتج أو تحقيق نتيجة."
 author: KimANelson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
