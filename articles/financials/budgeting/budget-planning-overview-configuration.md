@@ -3,7 +3,7 @@ title: "نظرة عامة على تخطيط الموازنة."
 description: "‏‫تقدم هذه المقالة تخطيط الموازنة، كما تحتوي على معلومات تساعدك في تكوين تخطيط الموازنة وإعداد عمليات تخطيط الموازنة."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

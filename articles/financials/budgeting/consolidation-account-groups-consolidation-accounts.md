@@ -3,7 +3,7 @@ title: "مجموعات حسابات توحيد وحسابات توحيد إضا�
 description: "‏‫يقدم هذا الموضوع معلومات حول مجموعات حسابات التوحيد وحسابات التوحيد الإضافية ويشرح كيفية استخدامها في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
