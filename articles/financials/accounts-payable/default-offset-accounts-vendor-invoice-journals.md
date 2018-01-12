@@ -3,7 +3,7 @@ title: "الحسابات المقابلة الافتراضية لدفاتر يو
 description: "سيساعدك هذا الموضوع في تحديد مكان تعيين الحسابات الافتراضية لدفاتر يومية الفاتورة."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
