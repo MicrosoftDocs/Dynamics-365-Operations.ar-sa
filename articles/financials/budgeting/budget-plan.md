@@ -3,7 +3,7 @@ title: "تخطيط الموازنة"
 description: "يتمثل الهدف من هذا المعمل في تقديم عرض إرشادي لتحديثات وظائف Microsoft Dynamics 365 for Finance and Operations, Enterprise edition في مجال تخطيط الموازنة. الغرض من هذا المعمل هو توضيح مثال تكوين سريع لوحدة تخطيط الموازنة وإظهار كيف يمكن إنجاز تخطيط الموازنة باستخدام هذا التكوين.  سيركز هذا المعمل على وجه التحديد على العمليات التجارية أو مهام العمل التالية: - إنشاء التدرج الهرمي التنظيمي لتخطيط الموازنة وتكوين أمان المستخدم - تعريف سيناريوهات خطة الموازنة وأعمدة خطة الموازنة وتخطيطات وقوالب Excel - إنشاء عملية تخطيط الموازنة وتنشيطها - إنشاء مستند خطة الموازنة بسحب القيم الفعلية من دفتر الأستاذ العام - استخدام التوزيعات لضبط بيانات مستند خطة الموازنة - تحرير بيانات مستند خطة الموازنة في Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 8d1174599e383f96a9eaa7a9235664079079906c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 

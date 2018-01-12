@@ -3,7 +3,7 @@ title: "قوالب التخطيط للموازنة لـ Excel"
 description: "يوضح هذا الموضوع كيفية إنشاء قوالب Microsoft Excel التي يمكن استخدامها مع خطط الموازنة."
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 747e57b11c13f71c672d43531255751ff273f57c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -92,7 +92,7 @@ ms.lasthandoff: 11/03/2017
 > [!NOTE] 
 > <span data-ttu-id="6da49-154">لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**.</span><span class="sxs-lookup"><span data-stu-id="6da49-154">To define the formula, create the formula in the spreadsheet, and then copy it to the **Design** window.</span></span> <span data-ttu-id="6da49-155">عادة ما يتم تسمية جدول العمليات المرتبطة لـ Finance and Operations باسم "AXTable1"</span><span class="sxs-lookup"><span data-stu-id="6da49-155">A Finance and Operations bound table will typically be named "AXTable1".</span></span> <span data-ttu-id="6da49-156">على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].</span><span class="sxs-lookup"><span data-stu-id="6da49-156">For example, to summarize Request Q1 : Request Q4 columns in the spreadsheet, the formula = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].</span></span>
 
-<span data-ttu-id="6da49-157">كرر هذه الخطوات لإدراج عمود **تسوية**.</span><span class="sxs-lookup"><span data-stu-id="6da49-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="6da49-158">استخدم المعادلة= AxTable1\[طلب إجمالي\]\*$I$1 لهذا العمود.</span><span class="sxs-lookup"><span data-stu-id="6da49-158">Use formula = AxTable1\[Total request\]\*$I$1 for this column.</span></span> <span data-ttu-id="6da49-159">وسوف تأخذ هذه القيمة في الخلية 1 ومضاعفة القيم في عمود **الطلب الإجمالي** لحساب مبالغ التسوية.</span><span class="sxs-lookup"><span data-stu-id="6da49-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
+<span data-ttu-id="6da49-157">كرر هذه الخطوات لإدراج عمود **تسوية**.</span><span class="sxs-lookup"><span data-stu-id="6da49-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="6da49-158">استخدم المعادلة= AxTable1\[طلب إجمالي\]\\*$I$1 لهذا العمود.</span><span class="sxs-lookup"><span data-stu-id="6da49-158">Use formula = AxTable1\[Total request\]\\*$I$1 for this column.</span></span> <span data-ttu-id="6da49-159">وسوف تأخذ هذه القيمة في الخلية 1 ومضاعفة القيم في عمود **الطلب الإجمالي** لحساب مبالغ التسوية.</span><span class="sxs-lookup"><span data-stu-id="6da49-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
 
 <span data-ttu-id="6da49-160">قم بحفظ ملف Excel وإغلاقه.</span><span class="sxs-lookup"><span data-stu-id="6da49-160">Save and close the Excel file.</span></span> <span data-ttu-id="6da49-161">قم بالرجوع إلى Finance and Operations، وفي **تخطيطات**، انقر فوق **قالب &gt; تحميل** لتحميل قالب Excel المحفوظ ليتم استخدامه لخطة الموازنة.</span><span class="sxs-lookup"><span data-stu-id="6da49-161">Return to Finance and Operations, and in **Layouts**, click **Template &gt; Upload** to upload the saved Excel template to be used for the budget plan.</span></span> 
 
