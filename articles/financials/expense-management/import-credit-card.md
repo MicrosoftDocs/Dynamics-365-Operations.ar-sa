@@ -3,14 +3,14 @@ title: "استيراد حركات بطاقات الائتمان وصيانتها
 description: "يشرح هذا الموضوع كيفية استيراد حركات بطاقات الائتمان ذات الصلة بالمصروفات وصيانتها. يمكن إعداد هذه الحركات بحيث يتم استيرادها تلقائيًا على جدول متكرر، أو يمكن استيرادها يدويًا كما تقتضي الحاجة."
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global

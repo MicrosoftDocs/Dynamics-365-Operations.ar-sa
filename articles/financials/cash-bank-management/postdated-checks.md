@@ -3,7 +3,7 @@ title: "الشيكات التي تم تأخير تاريخها"
 description: "توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
