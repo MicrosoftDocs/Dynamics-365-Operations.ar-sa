@@ -1,7 +1,7 @@
 ---
 title: "محاكاة السعر"
 description: "توفر هذه المقالة معلومات حول محاكاة السعر لعروض الأسعار. تساعدك محاكاة السعر على تقييم تأثير الخصومات‬ على سعر المبيعات المستقبلي أثناء معالجة عرض الأسعار قبل أن تلتزم بسعر معين."
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
