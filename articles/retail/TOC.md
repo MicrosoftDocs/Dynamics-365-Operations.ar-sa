@@ -1,7 +1,7 @@
 # [مرحبًا بك في Dynamics 365 for Retail](index.md)
 
 # بدء الاستخدام
-## [الجديد أو التغيير](get-started/whats-new.md)
+## [الجديد أو المتغير](get-started/whats-new.md)
 ## [قبل شراء Dynamics 365 for Retail](get-started/before-you-buy.md)
 ## [التسجيل للاشتراك في المعاينة](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
 ## [نشر بيئة عرض توضيحي](../dev-itpro/deployment/deploy-demo-environment.md)
@@ -43,7 +43,8 @@
 ## [تكوين وتثبيت محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md)
 ## [وقت وحضور Retail](retail-time-attendance.md)
 
-# نقطة البيع الحديثة (MPOS) ونقطة بيع المجموعة
+# نقطة البيع الحديثة (MPOS) وCloud POS
+## [الاختيار بين Modern POS وCloud POS](MPOS-or-CPOS.md)
 ## [عمليات نقطة البيع (POS)](POS-operations.md)
 ## [تخطيطات شاشة بيانات العرض التوضيحي في MPOS/CPOS](demo-data.md)
 ## الأجهزة الطرفية للأجهزة
@@ -70,12 +71,17 @@
 ## [شحن أمر شراء من متجر آخر](charge-send.md)
 ## تنشيط الجهاز
 ### [تكوين نقطة البيع الحديثة (MPOS‎) وتثبيتها](retail-modern-pos-device-activation.md)
-### [إعداد تسجيل الدخول الموسع لنقطة بيع المجموعة و‏‫نقطة البيع الحديثة (MPOS)](extended-logon.md)
+### [إعداد تسجيل الدخول الموسع إلى Cloud POS وMPOS‎](extended-logon.md)
 ### [إدارة حسابات Retail والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
 ## إيصالات الاستلام
 ### [إعداد قوالب إيصالات الاستلام](receipt-templates-printing.md) 
 ### [إرسال إيصالات الاستلام عبر البريد الإلكتروني من نقطة بيع حديثة](email-receipts.md)
 ## [مسجل المهام ونظام التعليمات في نقطة البيع](task-recorder-retail-pos.md)
+
+# تنفيذ الأمر
+## [نظرة عامة على تنفيذ أوامر المتجر](Order-fulfillment-overview.md)
+## [إعداد التنفيذ في المتجر](Order-fulfillment-POS-setup.md)
+## [تمكين الإخطارات في نقطة البيع](Notifications-POS.md)
 
 # الرصد والتحليل
 ## [رصد أداء المبيعات والهامش](monitor-sales-margin-performance.md)
@@ -171,7 +177,7 @@
 # [تطوير البيع بالتجزئة والإدارة](dev-itpro/dev-retail-home-page.md)
 
 ## هندسة
-### [مكونات Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition- البيع بالتجزئة](retail-components.md)
+### [مكونات Microsoft Dynamics 365 for Finance and Operations, Enterprise edition - Retail](retail-components.md)
 ### [هندسة خادم التجزئة](dev-itpro/retail-server-architecture.md)
 ### [اتصالات قناة التجزئة](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [هندسة MPOS](dev-itpro/retail-modern-pos-architecture.md)
@@ -205,7 +211,7 @@
 ### [تخطيط شاشة Retail POS](pos-screen-layouts.md)
 ### [تثبيت مصمم تخطيط POS](install-pos-layout-designer.md)
 ### [تكوين MPOS لوضع العمل دون اتصال](dev-itpro/retail-modern-pos-offline.md)
-### [قابلية التوسعة لمشغل MPOS وPOS السحابي](dev-itpro/modern-pos-trigger-extensibility.md)
+### [قابلية التوسعة لمشغل MPOS وCloud POS](dev-itpro/modern-pos-trigger-extensibility.md)
 ### [إضافة عنصر تحكم مخصص إلى طريقة عرض نقطة البيع (POS)](dev-itpro/pos-custom-control.md)
 ### [ملحق دفع نقطة البيع (POS)](dev-itpro/pos-payment-extension.md)
 ### [دعم بطاقة الهدايا الخارجية](dev-itpro/gift-card.md)
@@ -258,8 +264,10 @@
 ### [إضافة عناصر تحكم مخصصة إلى صفحات حركات Retail Modern POS](dev-itpro/pos-custom-transaction.md)
 ### [إضافة أعمدة مخصصة إلى شبكة حركة نقطة البيع (POS)](dev-itpro/pos-custom-transaction-column.md)
 ### [استدعاء API أو عملية لنقطة البيع (POS) من ملحق نقطة البيع](dev-itpro/pos-api-extension.md)
-### [توسيع طرق عرض نقاط البيع الموجودة لإضافة أعمدة مخصصة وأزرار أشرطة التطبيق](dev-itpro/pos-view-extension.md)
 ### [مشغلات Retail Modern POS والطباعة](dev-itpro/pos-trigger-printing.md)
+### [إضافة عنصر تحكم مخصص إلى طريقة عرض تستند إلى مصمم تخطيط غير تخطيط الشاشة لـ Retail Modern POS](dev-itpro/pos-control-non-screen.md)
+### [إنشاء وكيل Retail لنقطة البيع والتجارة الإلكترونية](dev-itpro/pos-generate-retail-proxy.md)
+### [خطوات التكوين لمطوري Retail العاملين على مربعات التطوير المستضافة على السحابة](dev-itpro/cloud-dev-box.md)
 
 ## وقت التشغيل التجاري
 ### [ملحق الولاء](dev-itpro/retail-sdk/loyalty-extension-sample.md)

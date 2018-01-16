@@ -2,6 +2,7 @@
 # [متطلبات النظام لعمليات نشر المجموعة](../fin-and-ops/get-started/system-requirements.md)
 # [متطلبات النظام لعمليات النشر المحلية](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [بيانات العرض التوضيحي](../fin-and-ops/get-started/demo-data.md)
+## [إنشاء بيانات العرض التوضيحي باستخدام الحزم](data-entities/generate-demo-data-packages.md)
 
 
 # [التطوير والتخصيص باستخدام Visual Studio](dev-tools/developer-home-page.md)
@@ -160,8 +161,8 @@
 ### [إنشاء التنقل](user-interface/build-navigation.md)
 ### [إنشاء مساحة عمل](user-interface/build-workspace.md)
 ## النماذج
-### [التنقل في Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
-### [التخطيط في Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
+### [التنقل في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
+### [التخطيط في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
 ### [خط الرمز](user-interface/symbol-font.md)
 ### [اختبار النماذج باستخدام أنماط مخصصة](user-interface/testing-forms-custom-patterns.md)
 ### [إنشاء واستخدام ارتباطات عميقة](user-interface/create-deep-links.md)
@@ -358,10 +359,11 @@
 ## واجهات API لتكامل البيانات
 ### [واجهة (API) لحزمة إدارة البيانات](data-entities/data-management-api.md)
 ### [نقاط نهاية الخدمات](data-entities/services-home-page.md)
-#### [استكشاف أخطاء مصادقة الخدمة](data-entities/troubleshoot-service-authentication.md)
+#### [استكشاف أخطاء مصادقة الخدمة وإصلاحها](data-entities/troubleshoot-service-authentication.md)
 ### [OData](data-entities/odata.md)
 ### [الخدمات المخصصة](data-entities/custom-services.md)
 ### [عمليات تكامل متكررة](data-entities/recurring-integrations.md)
+### [استخدم الأدوات المساعدة لاختبار خدمات جهات خارجية مع الخدمات](data-entities/third-party-service-test.md)
 
 ## التطوير للتكامل
 ### [تكامل البيانات باستخدام كيانات البيانات](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [حزم بيانات التكوين](data-entities/configuration-data-packages.md)
 ### [نسخ بيانات التكوين بين الشركات](data-entities/copy-configuration.md)
 ### [قوالب بيانات التكوين](data-entities/configuration-data-templates.md)
+### [قوالب بيانات مع أوراق عمل متعددة](data-entities/excel-template-multiple.md)
 ### [تعقب التغييرات لكيان](data-entities/entity-change-track.md)
 
 ## كيانات البيانات القياسية
@@ -497,16 +500,19 @@
 
 ## النشر عبر الشبكة السحابية
 ### [إلحاق مدير موارد Azure](deployment/arm-onboarding.md)
-### [Azure ExpressRoute وDynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute وMicrosoft Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [النشر المحلي](deployment/on-premises-deployment-landing-page.md)
 ### [نظرة عامة على التطبيقات المحلية](deployment/on-premises-overview.md)
+### [التخطيط لعمليات النشر المحلي](deployment/plan-onprem-deployment.md)
 ### [تغيير حجم الأجهزة](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [إنشاء مشروع محلي](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [إعداد بيئات محلية ونشرها](deployment/setup-deploy-on-premises-environments.md)
 ### [تطوير النماذج المخصصة للبيئات المحلية ونشرها](deployment/develop-deploy-custom-models-on-premises.md)
 ### [تطبيق التحديثات على عملية نشر على جهاز محلي](deployment/apply-updates-on-premises.md)
 ### [إعادة النشر على عملية نشر محلي](deployment/redeploy-on-prem.md)
+### [تحديث الوكيل المحلي](lifecycle-services/update-local-agent.md)
+### [إعادة تكوين بيئتك](lifecycle-services/reconfigure-environment.md)
 ### [استكشاف الأخطاء وإصلاحها في Dynamics 365 for Finance and Operations, Enterprise edition (محلي)](deployment/troubleshoot-on-prem.md)
 
 ## نشر كود مخصص
@@ -695,7 +701,7 @@
 ## [طلب تحديث قاعدة بيانات بيئة الاختبار المعزولة](database/database-refresh.md)
 
 # الدعم
-## [الحصول على دعم لـ Dynamics 365 for Finance and Operations،‏ Enterprise edition وLifecycle Services](lifecycle-services/lcs-support.md)
+## [الحصول على الدعم لـ Dynamics 365 for Finance and Operations, Enterprise edition وLifecycle Services](lifecycle-services/lcs-support.md)
 ## [تسجيل بطاقة دعم رئيسي](lifecycle-services/premier-support.md)
 ## [إرسال طلب إلى فريق هندسة خدمات Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
 ## [إعداد الدعم التقني لـ Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
