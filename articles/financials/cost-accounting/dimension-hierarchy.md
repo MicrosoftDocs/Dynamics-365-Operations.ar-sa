@@ -16,14 +16,14 @@ ms.custom:
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: YuyuScheller
+ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: d55e9a520b1f895d130f24834626429e19b4b939
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -255,10 +255,10 @@ ms.lasthandoff: 11/03/2017
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
 | <span data-ttu-id="7c1a2-340">تكلفة ثابتة</span><span class="sxs-lookup"><span data-stu-id="7c1a2-340">Fixed cost</span></span>                            | <span data-ttu-id="7c1a2-341">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="7c1a2-341">Organization</span></span>                         | <span data-ttu-id="7c1a2-342">100.00</span><span class="sxs-lookup"><span data-stu-id="7c1a2-342">100.00</span></span>           | <span data-ttu-id="7c1a2-343">0.00</span><span class="sxs-lookup"><span data-stu-id="7c1a2-343">0.00</span></span>         | <span data-ttu-id="7c1a2-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="7c1a2-344">1/1/2017</span></span>   | <span data-ttu-id="7c1a2-345">أبدًا</span><span class="sxs-lookup"><span data-stu-id="7c1a2-345">Never</span></span>    |
 | <span data-ttu-id="7c1a2-346">10001</span><span class="sxs-lookup"><span data-stu-id="7c1a2-346">10001</span></span>                                 | <span data-ttu-id="7c1a2-347">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="7c1a2-347">Organization</span></span>                         | <span data-ttu-id="7c1a2-348">0.00</span><span class="sxs-lookup"><span data-stu-id="7c1a2-348">0.00</span></span>             | <span data-ttu-id="7c1a2-349">150.00</span><span class="sxs-lookup"><span data-stu-id="7c1a2-349">150.00</span></span>       | <span data-ttu-id="7c1a2-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="7c1a2-350">1/1/2017</span></span>   | <span data-ttu-id="7c1a2-351">أبدًا</span><span class="sxs-lookup"><span data-stu-id="7c1a2-351">Never</span></span>    |
-| <span data-ttu-id="7c1a2-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="7c1a2-352">10001 (\*)</span></span>                             | <span data-ttu-id="7c1a2-353">المالية</span><span class="sxs-lookup"><span data-stu-id="7c1a2-353">Finance</span></span>                              |                  | <span data-ttu-id="7c1a2-354">50.00</span><span class="sxs-lookup"><span data-stu-id="7c1a2-354">50.00</span></span>        | <span data-ttu-id="7c1a2-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="7c1a2-355">1/1/2017</span></span>   | <span data-ttu-id="7c1a2-356">أبدًا</span><span class="sxs-lookup"><span data-stu-id="7c1a2-356">Never</span></span>    |
+| <span data-ttu-id="7c1a2-352">10001 (\\*)</span><span class="sxs-lookup"><span data-stu-id="7c1a2-352">10001 (\\*)</span></span>                             | <span data-ttu-id="7c1a2-353">المالية</span><span class="sxs-lookup"><span data-stu-id="7c1a2-353">Finance</span></span>                              |                  | <span data-ttu-id="7c1a2-354">50.00</span><span class="sxs-lookup"><span data-stu-id="7c1a2-354">50.00</span></span>        | <span data-ttu-id="7c1a2-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="7c1a2-355">1/1/2017</span></span>   | <span data-ttu-id="7c1a2-356">أبدًا</span><span class="sxs-lookup"><span data-stu-id="7c1a2-356">Never</span></span>    |
 | <span data-ttu-id="7c1a2-357">سلوك التكلفة أو التكلفة المتغيرة (\*\*)</span><span class="sxs-lookup"><span data-stu-id="7c1a2-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="7c1a2-358">المؤسسة</span><span class="sxs-lookup"><span data-stu-id="7c1a2-358">Organization</span></span>                         | <span data-ttu-id="7c1a2-359">0.00</span><span class="sxs-lookup"><span data-stu-id="7c1a2-359">0.00</span></span>             | <span data-ttu-id="7c1a2-360">0.00</span><span class="sxs-lookup"><span data-stu-id="7c1a2-360">0.00</span></span>         | <span data-ttu-id="7c1a2-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="7c1a2-361">1/1/2017</span></span>   | <span data-ttu-id="7c1a2-362">أبدًا</span><span class="sxs-lookup"><span data-stu-id="7c1a2-362">Never</span></span>    |
 
-<span data-ttu-id="7c1a2-363">\* عقدة التكلفة المتغيرة غير مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="7c1a2-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="7c1a2-364">إذا لم يتم تصنيف التكلفة كتكلفة ثابتة، فمن ثم يجب أن تكون تكلفة متغيرة.</span><span class="sxs-lookup"><span data-stu-id="7c1a2-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
+<span data-ttu-id="7c1a2-363">\\* عقدة التكلفة المتغيرة غير مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="7c1a2-363">\\* The variable cost node isn't required.</span></span> <span data-ttu-id="7c1a2-364">إذا لم يتم تصنيف التكلفة كتكلفة ثابتة، فمن ثم يجب أن تكون تكلفة متغيرة.</span><span class="sxs-lookup"><span data-stu-id="7c1a2-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
 <span data-ttu-id="7c1a2-365">\*\* يتم إنشاء قاعدة مفصلة لمجموعة أعضاء عنصر التكلفة 10001 وكافة أعضاء كائن التكلفة التي يتم تجميعها تحت مستوى التدرج الهرمي المالي (CC002، CC003، CC007).</span><span class="sxs-lookup"><span data-stu-id="7c1a2-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
