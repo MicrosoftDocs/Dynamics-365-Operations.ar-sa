@@ -1,9 +1,9 @@
 ---
 title: "محتوى Power BI - الأداء المالي"
-description: "يصف هذا الموضوع محتوى Power BI \"الأداء المالي\". إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى."
+description: "يصف هذا الموضوع محتوى Power BI \"الأداء المالي\"."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 يصف هذا الموضوع محتوى Microsoft Power BI **الأداء المالي**. إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى.
-
-## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-
-يمكنك الوصول إلى محتوى Power BI **الأداء المالي** من Microsoft Dynamics Lifecycle Services (LCS) ومن PowerBI.com.
-
-### <a name="available-from-lcs"></a>متاح من LCS
-يدعم محتوى Power Bi **الأداء المالي** المتوفر من LCS الإصدارات التالية:
-
-- Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise edition
-- الإصدار 1611 من Microsoft Dynamics 365 for Operations 
-
-يمكنك العثور على محتوى Power BI في مكتبة الأصول المشتركة في LCS. لمزيد من المعلومات حول كيفية تنزيل حزمة المحتوى وتطبيقها في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
-
-### <a name="available-from-powerbicom"></a>متوفر من PowerBI.com
-يدعم محتوى Power BI **الأداء المالي** المتوفر من PowerBI.com الإصدارين 7.0 و7.0.1 من Microsoft Dynamics AX. لمزيد من المعلومات حول كيفية الاتصال وتحميل بيانات Dynamics AX، راجع [الوصول إلى محتوى Power BI من PowerBI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>إعداد الحساب الرئيسي
 لأن المؤسسات تريد أن تظهر التزاماتها ومبالغ الإيراد كمبالغ موجبة في التقارير، يُعد إعداد الحسابات الرئيسية أمرًا بالغ الأهمية. بالنسبة لهذه الحسابات الرئيسية لتظهر كمبالغ موجبه، يجب تعيين نوع الحساب الرئيسي على **الالتزام** أو **الإيراد**. عند استخدام أنواع الحسابات هذه، سوف يقوم الإبلاغ من خلال Power BI بعكس العلامات، وإظهار المبالغ كمبالغ موجبة.
@@ -101,5 +86,5 @@ ms.lasthandoff: 12/01/2017
 - دفاتر الأستاذ
 - ChartofAccounts
 
-استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. تُستخدم القياسات المحسوبة لإنشاء مؤشرات الأداء الرئيسية والتقارير المستخدمة في المحتوى. بشكل افتراضي، يحضر المحتوى بيانات للسنوات الثلاث الماضية وسنة واحدة مستقبلية. لتضمين عمليات حسابية إضافية على لوحة المعلومات والتقارير، يمكنك تعديل [مصنف Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). هذا المصنف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء المحتوى. بعد الانتهاء من إجراء التعديلات، يمكنك إنشاء حزمة المحتوى التنظيمية ولوحة المعلومات التي تحتوي على المعلومات التي قمت بإضافتها.
+استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. تُستخدم القياسات المحسوبة لإنشاء مؤشرات الأداء الرئيسية والتقارير المستخدمة في المحتوى. بشكل افتراضي، يحضر المحتوى بيانات للسنوات الثلاث الماضية وسنة واحدة مستقبلية. لتضمين عمليات حسابية إضافية على لوحة المعلومات والتقارير، يمكنك تعديل [مصنف Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). هذا المصنف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء المحتوى. 
 

@@ -3,7 +3,7 @@ title: "محتوى Power BI أداء الإنتاج"
 description: "يوضح هذا الموضوع ما هو مضمن في محتوى Power BI أداء الإنتاج. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ ms.lasthandoff: 12/01/2017
 | اتجاه العيوب حسب المورد                  | معدل العيوب (جزء في المليون) حسب الكمية التي تمت معالجتها | |
 | نسب الفرق في عملية الإنتاج لتكلفة أمر العمل | <ul><li>نسب الفرق في عملية الإنتاج حسب التاريخ ونوع مجموعة التكلفة</li><li>نسب الفرق في عملية الإنتاج حسب الموقع ونوع مجموعة التكلفة</li><li>أهم 10 منتجات ذات نسب فرق في الإنتاج غير ملائمة</li><li>أهم 10 نسب فرق في الإنتاج غير ملائمة حسب المورد</li></ul> | <ul><li>التكلفة المحققة</li><li>نسبة الفرق في تسعير الإنتاج</li><li>نسبة الفرق في الإنتاج %</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>توسيع محتوى Power BI
-باستخدام حزم المحتوى المتاحة في Microsoft Dynamics Lifecycle Services (LCS)، يمكنك تقديم تحليلات رائعة للأشخاص الذين لم يقوموا بتسجيل الدخول إلى Microsoft Dynamics 365. يمكنك تعديل حزم المحتوى هذه بحيث تتضمن تقارير أخرى أو رسوم مرئية، ثم قم بنشر حزم المحتوى لمستأجر Power BI.com الخاص بك لتحليلها.
-
-يمكنك العثور على محتوى Power BI **أداء الإنتاج** في مكتبة الأصول المشتركة في LCS. للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
-
-احرص على تنزيل محتوى **أداء الإنتاج** الذي ينطبق على إصدار Dynamics 365 الذي تستخدمه.
-
-> [!NOTE]
-> إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations، فإن KB 4011327 عبارة عن مطلب أساسي لمحتوى Power BI هذا. بعد تسجيل الدخول إلى LCS، يمكنك الوصول إلى KB من خلال هذا الرابط: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 
@@ -139,12 +130,5 @@ ms.lasthandoff: 12/01/2017
 | الموارد                 | معرف المورد واسم المورد ونوع المورد ومجموعة الموارد |
 | المنتجات                  | رقم المنتج واسم المنتج ومعرف الصنف ومجموعة الأصناف         |
 
-## <a name="additional-resources"></a>الموارد الإضافية
 
-فيما يلي بعض الارتباطات المفيدة المتعلقة بالكيانات وإنشاء محتوى Power BI:
-
-- [كيانات البيانات](../data-entities/data-entities.md)
-- [إنشاء حزم المحتوى التنظيمية](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [تصميم البيانات باستخدام Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [إضافة إطارات Power BI المتجانبة إلى مساحات العمل](configure-power-bi-integration.md)
 

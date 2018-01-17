@@ -1,9 +1,9 @@
 ---
 title: "محتوى Power BI لإدارة التكلفة"
-description: "يوضح هذا الموضوع ما هو مدرج في محتوى Power BI لإدارة التكاليف. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى."
+description: "يوضح هذا الموضوع ما هو مدرج في محتوى Power BI لإدارة التكاليف."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-يوضح هذا الموضوع ما هو مدرج في محتوى Power BI لإدارة التكاليف. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى.
+يوضح هذا الموضوع ما هو مدرج في محتوى Power BI لإدارة التكاليف. 
 
 # <a name="overview"></a>نظرة عامة
 
@@ -51,8 +51,6 @@ ms.lasthandoff: 11/03/2017
 
 يُعد مصدر البيانات الأساسي لـ CostAggregatedCostStatementEntryEntity هو جدول CostStatementCache. يُدار هذا الجدول من خلال إطار عمل ذاكرة التخزين المؤقت لمجموعة البيانات. وبشكل افتراضي، يتم تحديث الجدول كل 24 ساعة، ولكنك يمكنك تحديثه يدويًا في تكوين ذاكرة التخزين المؤقت للبيانات. ثم يمكنك القيام بالتحديث اليدوي في مساحة العمل **إدارة التكلفة** أو **تحليل التكلفة**. بعد تشغيل تحديث CostStatementCache، يجب عليك تحديث اتصال OData على Power BI.com لرؤية البيانات المُحدثة على الموقع. تتعلق قياسات الفرق (الشراء والإنتاج) في محتوى Power BI هذا فقط بالأصناف المُقيّمة من خلال أسلوب مخزون التكلفة المعياري. يتم حساب الفرق في الإنتاج بالفرق بين التكلفة النشطة والتكلفة المحققة. يتم حساب فرق الإنتاج عندما تكون حالة أمر الإنتاج مُعيَنة على **تم الإنهاء**. لمزيد من المعلومات حول أنواع فروق الإنتاج، وكيفية حساب كل نوع، راجع [حول تحليل نسب الفرق لأوامر الإنتاج المكتملة](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-يتوفر محتوى Power BI **إدارة التكلفة** من PowerBI.com. لمزيد من المعلومات حول كيفية توصيل وتحميل بيانات Microsoft Dynamics 365 for Finance and Operations، راجع [الوصول إلى محتوى Power BI من PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>المقاييس المُدرجة في محتوى Power BI
 يشمل المحتوى مجموعة من صفحات التقرير. تتكون كل صفحة من مجموعة من المقاييس المصورة مرئيًا مثل المخططات، والتجانبات والجداول. يوفر الجدول التالي نظرة عامة حول مجموعة الرسوم المرئية في محتوى Power BI لـ **إدارة التكلفة**.
@@ -136,13 +134,6 @@ ms.lasthandoff: 11/03/2017
 | دفاتر الأستاذ          | العملة، الاسم، الوصف                  |
 | المواقع            | المُعرف، الاسم، البلد، المدينة                      |
 
-## <a name="additional-resources"></a>الموارد الإضافية
-فيما يلي بعض الارتباطات المفيدة المتعلقة بالكيانات وإنشاء محتوى Power BI:
-
--   [كيانات البيانات](..\data-entities\data-entities.md)
--   [إنشاء حزم المحتوى التنظيمية](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [تصميم البيانات باستخدام Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [إضافة إطارات Power BI المتجانبة إلى مساحات العمل](configure-power-bi-integration.md)
 
 
 

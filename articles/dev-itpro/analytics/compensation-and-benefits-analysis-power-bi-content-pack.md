@@ -1,9 +1,9 @@
 ---
 title: "محتوى تعويض وميزات Power BI"
-description: "يوضح هذا الموضوع محتوى تعويض وميزات Power BI في Finance and Operations. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في حزمة المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى."
+description: "يوضح هذا الموضوع محتوى تعويض وميزات Power BI في Finance and Operations."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f403416921d2eede9d0071a13af09e1103f91692
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 510064a462258b2a632eaa2a5ffd341950775b89
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,12 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-يوضح هذا الموضوع محتوى تعويض وميزات Power BI في Finance and Operations. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في حزمة المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى.
-
-<a name="accessing-the-content-pack"></a>الوصول إلى حزمة المحتوى
---------------------------
-
-يمكنك العثور على حزمة محتوى التعويض والميزات في مكتبة الأصل المشترك في Microsoft Dynamics Lifecycle Services. لمزيد من المعلومات حول كيفية تحميل حزمة المحتوى وربطها ببيانات Microsoft Dynamics 365 for Finance and Operations، راجع [محتوى Power BI في LCS من Microsoft والشركاء](power-bi-content-microsoft-partners.md).
+يوضح هذا الموضوع محتوى تعويض وميزات Power BI في Finance and Operations. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>التقارير المضمنة في حزمة المحتوى
 بعد أن تقوم بربط حزمة المحتوى ببيانات Finance and Operations، يعرض التقرير بيانات المؤسسة. إذا لم يسبق لك استخدام Microsoft Power BI، فيمكنك معرفة المزيد حول هذا التطبيق على [صفحة التعليم الموجّه لـ Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). تحتوي التقارير المضمنة في حزمة المحتوى على كل من المخططات والجداول التي تحتوي على معلومات إضافية. يصف الجدول التالي التقارير.
@@ -75,15 +70,7 @@ ms.lasthandoff: 11/03/2017
 | القوى العاملة\_WorkerTitle            | المسمى الوظيفي وتاريخ الأقدمية                                                                                   | القوى العاملة\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
 | Workorce\_WorkerTrend             | الوقت الإضافي للعمال، وعدد الأشخاص، والشركة، والمنصب                                                        | القوى العاملة\_‬‏‫القوى العاملة بالشركة\_تعويض القوى العاملة\_GeographicLocation Workforce\_‬‏‫أداء القوى العاملة‬‏‫\_WorkerName Workforce\_ReportsToWorkerName Workforce\_CalendarOffset Workforces\_تاريخ القوى العاملة‬‏\_WorkerTitle Workforce\_‬‏‫التوزيع الجغرافي للقوى العاملة\_توظيف القوى العاملة\_وظائف القوى العاملة\_WorkerBenefit                     |
 
-استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. ثم استخدمت القياسات المحسوبة لإنشاء مؤشرات الأداء الرئيسية والتقارير المستخدمة في حزمة المحتوى. إذا كنت تريد تضمين حسابات إضافية في تقاريرك ولوحة المعلومات، يمكنك تحميل وتعديل CompensationandBenefits.pbix من LCS. هذا الملف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء حزمة المحتوى. بعد إجراء التعديلات، يمكنك إنشاء حزمة المحتوى التنظيمية ولوحة المعلومات التي تحتوي على المعلومات التي قمت بإضافتها.
 
-## <a name="additional-resources"></a>الموارد الإضافية
-فيما يلي بعض الارتباطات المفيدة المتعلقة بالكيانات وإنشاء محتوى Power BI:
-
--   [كيانات البيانات](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [إنشاء حزم المحتوى التنظيمية](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [تصميم البيانات باستخدام Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [إضافة إطارات Power BI المتجانبة إلى مساحات العمل](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
 
 
 

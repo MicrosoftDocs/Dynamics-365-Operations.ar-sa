@@ -3,7 +3,7 @@ title: "محتوى Power BI لأداء المستودع"
 description: "يوضح هذا الموضوع ما هو مدرج في محتوى Power BI لأداء المستودع. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى."
 author: Mirzaab
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: e5a900000286b5f076c377f7b1a9a260cc40621a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +76,6 @@ ms.lasthandoff: 12/01/2017
 | أداء الشحن        | الشحن حسب المنتج                       | النسبة المئوية التي تم شحنها في وقت مبكر أو في الوقت المحدد أو في وقت متأخر حسب الصنف أو مجموعة الأصناف.                                                                                                                                                                                                                                                                                                                                   |
 | أداء الشحن        | الشحن بواسطة العميل                      | النسبة المئوية التي تم شحنها في وقت مبكر أو في الوقت المحدد أو في وقت متأخر حسب العميل أو مجموعة العملاء.                                                                                                                                                                                                                                                                                                                           |
 | أداء الشحن        | الشحن حسب الموقع/المستودع              | النسبة المئوية التي تم شحنها في وقت مبكر أو في الوقت المحدد أو في وقت متأخر حسب الموقع أو المستودع.                                                                                                                                                                                                                                                                                                                                    |
-## <a name="extending-the-power-bi-content"></a>توسيع محتوى Power BI
-باستخدام حزم المحتوى المتاحة في Microsoft Dynamics Lifecycle Services (LCS)، يمكنك تقديم تحليلات رائعة للأشخاص الذين لم يقوموا بتسجيل الدخول إلى Microsoft Dynamics 365. يمكنك تعديل حزم المحتوى هذه بحيث تتضمن تقارير أخرى أو رسوم مرئية، ثم قم بنشر حزم المحتوى لمستأجر Power BI.com الخاص بك لتحليلها. 
-
-يمكنك العثور على محتوى Power BI **أداء المستودع** في مكتبة الأصول المشتركة في LCS. للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
-
-احرص على تنزيل محتوى **أداء المستودع** الذي ينطبق على إصدار Dynamics 365 الذي تستخدمه.
-
-> [!NOTE]
-> إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations، فإن KB 4011327 عبارة عن مطلب أساسي لمحتوى Power BI هذا. بعد تسجيل الدخول إلى LCS، يمكنك الوصول إلى KB من خلال هذا الرابط: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-calculations"></a>فهم نموذج البيانات وعمليات الحساب
 تُستخدم البيانات التالية لملء صفحات التقارير في محتوى Power BI **أداء المستودع**. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات لخادم Microsoft SQL تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع متجر الكيان](power-bi-integration-entity-store.md). 

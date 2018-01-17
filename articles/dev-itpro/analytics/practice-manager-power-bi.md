@@ -3,7 +3,7 @@ title: "محتوى Power BI لإدارة الممارسات"
 description: "يوضح هذا الموضوع العناصر المضمنة في محتوى Power BI لإدارة الممارسات. وهو يوضح كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: KimANelson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 836997f9f5b146ff48252c3f06153791ec1aabed
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -39,7 +39,9 @@ ms.lasthandoff: 12/01/2017
 يتم عرض كافة المبالغ الموجودة في المحتوى بعملة النظام. يمكنك تعيين عملة النظام في صفحة **محددات النظام**.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
+
 يتم عرض محتوى Power BI **مدير الممارسة** في مساحة عمل **إدارة المشاريع**.
+
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
 
@@ -47,7 +49,7 @@ ms.lasthandoff: 12/01/2017
 
 | صفحة التقرير       | المقاييس |
 |-------------------|---------|
-| نظرة عامة على المشروعات | <ul><li>إنشاء مشاريع</li><li>المشاريع المقدرة</li><li>المشاريع قيد التنفيذ</li><li>عدد المشاريع حسب المرحلة</li><li>عدد المشاريع حسب المدينة</li><li>الإيراد الفعلي حسب العميل</li><li>إجمالي هامش الربح في الموازنة حسب المشروع</li><li>نظرة عام على إدارة القيمة المكتسبة</li></ul> |
+| نظرة عامة على المشروعات | <ul><li>إنشاء مشاريع</li><li>المشاريع المقدرة</li><li>المشاريع قيد التنفيذ</li><li>الإيراد الفعلي حسب العميل</li><li>إجمالي هامش الربح في الموازنة حسب المشروع</li><li>نظرة عام على إدارة القيمة المكتسبة</li></ul> |
 | التكلفة              | <ul><li>التكلفة الفعلية في مقابل تكلفة الموازنة بالشهر</li><li>التكلفة الفعلية في مقابل تكلفة الموازنة بالسنة</li><li>التكلفة الفعلية في مقابل تكلفة الموازنة حسب الفئة</li><li>التكلفة الفعلية حسب نوع الحركة</li></ul> |
 | الإيراد           | <ul><li>الإيراد الفعلي بالشهر</li><li>الإيراد الفعلي حسب الرمز البريدي</li><li>الإيراد الفعلي في مقابل إيراد الموازنة حسب الفئة</li><li>الإيراد الفعلي حسب مجال العميل</li></ul> |
 | EVM               | مؤشر أداء التكلفة والجدول حسب المشروع |
@@ -55,74 +57,67 @@ ms.lasthandoff: 12/01/2017
 
 يمكنك تصفية المخططات والإطارات المتجانبة الموجودة على كافة هذه التقارير وتثبيتها بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). يمكنك أيضًا استخدام وظيفة تصدير البيانات الأساسية لتصدير البيانات الأساسية التي تم تلخيصها في المرئيات.
 
-## <a name="extending-the-power-bi-content"></a>توسيع محتوى Power BI
-باستخدام حزم المحتوى المتاحة في Microsoft Dynamics Lifecycle Services (LCS)، يمكنك تقديم تحليلات رائعة للأشخاص الذين لم يقوموا بتسجيل الدخول إلى Microsoft Dynamics 365. يمكنك تعديل حزم المحتوى هذه بحيث تتضمن تقارير أخرى أو رسوم مرئية، ثم يمكنك نشرها إلى مستأجر Power BI.com لتحليلها. 
-
-يمكنك العثور على محتوى Power BI **إدارة الممارسات** في مكتبة الأصول المشتركة في LCS. للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
-
-احرص على تنزيل محتوى **إدارة الممارسات** الذي ينطبق على إصدار Dynamics 365 الذي تستخدمه.
-
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 
 تُستخدم البيانات التالية لملء صفحات التقارير في محتوى Power BI **إدارة الممارسات**. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات لخادم Microsoft SQL تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع متجر الكيان](power-bi-integration-entity-store.md).
 
 تصف الأقسام التالية القياسات التجميعية‬ التي يتم استخدامها في كل كيان.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>الكيان: ProjectAccountingCube_ActualHourUtilization
+### <a name="entity-projectaccountingcubeactualhourutilization"></a>الكيان: ProjectAccountingCube\_ActualHourUtilization
 **مصدر البيانات:** ProjEmplTrans
 
-| القياسات التجميعية الرئيسية      | الحقل                              | ‏‏الوصف | 
+| القياسات التجميعية الرئيسية      | الحقل                              | ‏‏الوصف |
 |--------------------------------|------------------------------------|-------------|
 | الساعات الفعلية المستخدمة القابلة للفوترة | المجموع(ActualUtilizationBillableRate) | إجمالي الساعات المستخدمة الفعلية القابلة للفوترة. |
 | الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة   | المجموع(ActualBurdenBillableRate)      | إجمالي معدل القيمة الفعلية غير المحسوبة على العميل. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>الكيان: ProjectAccountingCube_Actuals
+### <a name="entity-projectaccountingcubeactuals"></a>الكيان: ProjectAccountingCube\_Actuals
 **مصدر البيانات:** ProjTransPosting
 
-| القياسات التجميعية الرئيسية | الحقل              | ‏‏الوصف | 
+| القياسات التجميعية الرئيسية | الحقل              | ‏‏الوصف |
 |---------------------------|--------------------|-------------|
-| الإيراد الفعلي            | المجموع(ActualRevenue) | إجمالي الإيرادات المرحلة لكل الحركات. |   
+| الإيراد الفعلي            | المجموع(ActualRevenue) | إجمالي الإيرادات المرحلة لكل الحركات. |
 | التكلفة الفعلية               | المجموع(ActualCost)    | إجمالي التكلفة المرحلة لكافة أنواع الحركات. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>الكيان: ProjectAccountingCube_Customer
+### <a name="entity-projectaccountingcubecustomer"></a>الكيان: ProjectAccountingCube\_Customer
 **مصدر البيانات:** CustTable
 
-| القياسات التجميعية الرئيسية | الحقل                                            | ‏‏الوصف | 
-|---------------------------|--------------------------------------------------|-------------|
-| عدد المشاريع        | COUNTA(ProjectAccountingCube_Projects[PROJECTS]) | عدد المشاريع المتوفرة |
+| القياسات التجميعية الرئيسية | الحقل                                             | ‏‏الوصف |
+|---------------------------|---------------------------------------------------|-------------|
+| عدد المشاريع        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | عدد المشاريع المتوفرة |
 
 
-### <a name="entity-projectaccountingcubeforecasts"></a>الكيان: ProjectAccountingCube_Forecasts
+### <a name="entity-projectaccountingcubeforecasts"></a>الكيان: ProjectAccountingCube\_Forecasts
 **مصدر البيانات:** ProjTransBudget
 
-| القياسات التجميعية الرئيسية | الحقل                  | ‏‏الوصف | 
+| القياسات التجميعية الرئيسية | الحقل                  | ‏‏الوصف |
 |---------------------------|------------------------|-------------|
 | تكلفة الموازنة               | المجموع(BudgetCost)        | إجمالي التكلفة المتوقعة‬ لكافة أنواع الحركات. |
-| إيرادات الموازنة            | المجموع(BudgetRevenue)     | إجمالي الإيراد المتوقع المستحق/المفوتر.  |
+| إيرادات الموازنة            | المجموع(BudgetRevenue)     | إجمالي الإيراد المتوقع المستحق/المفوتر. |
 | إجمالي هامش ربح الموازنة       | المجموع(BudgetGrossMargin) | الفرق بين مجموع إجمالي الإيراد المتوقع ومجموع إجمالي التكلفة المتوقعة. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>الكيان: ProjectAccountingCube_ProjectPlanCostsView
+### <a name="entity-projectaccountingcubeprojectplancostsview"></a>الكيان: ProjectAccountingCube\_ProjectPlanCostsView
 **مصدر البيانات:** Project
 
-| القياسات التجميعية الرئيسية | الحقل                    | ‏‏الوصف | 
+| القياسات التجميعية الرئيسية | الحقل                    | ‏‏الوصف |
 |---------------------------|--------------------------|-------------|
 | التكلفة المخططة              | المجموع(SumOfTotalCostPrice) | إجمالي سعر التكلفة في تقديرات كافة أنواع حركات المشروع مع المهام المخططة. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>الكيان: ProjectAccountingCube_Projects
+### <a name="entity-projectaccountingcubeprojects"></a>الكيان: ProjectAccountingCube\_Projects
 **مصدر البيانات:** Project
 
-| القياسات التجميعية الرئيسية    | الحقل | ‏‏الوصف | 
+| القياسات التجميعية الرئيسية    | الحقل | ‏‏الوصف |
 |------------------------------|-------|-------------|
-| مؤشر أداء التكلفة       | ProjectAccountingCube_Projects[القيمة المكتسبة] / ProjectAccountingCube_Projects[إجمالي التكلفة الفعلية للمهام المكتملة] | حساب إجمالي القيمة المكتسبة مقسومًا على إجمالي التكلفة الفعلية. |
-| مؤشر أداء الجدول   | ProjectAccountingCube_Projects[القيمة المكتسبة] / ProjectAccountingCube_Projects[إجمالي التكلفة المخططة‬ للمهام المكتملة] | حساب إجمالي القيمة المكتسبة مقسومًا على إجمالي التكلفة المخططة. |
-| النسبة المئوية للعمل المكتمل | النسبة المئوية للعمل المكتمل = ProjectAccountingCube_Projects[إجمالي التكلفة الفعلية للمهام المكتملة] / (ProjectAccountingCube_Projects[إجمالي التكلفة الفعلية للمهام المكتملة] + ProjectAccountingCube_Projects[إجمالي التكلفة المخططة للمشروع] - ProjectAccountingCube_Projects[إجمالي التكلفة المخططة‬ للمهام المكتملة]) | إجمالي النسبة المئوية للعمل المكتمل استنادًا إلى إجمالي التكلفة الفعلية للمهام المكتملة والتكلفة المخططة للمشروع. |
-| نسبة الساعات الفعلية القابلة للفوترة  | ProjectAccountingCube_Projects[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع] / (ProjectAccountingCube_Projects[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع] + ProjectAccountingCube_Projects[إجمالي الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة للمشروع]) | إجمالي الساعات الفعلية القابلة للفوترة، استنادًا إلى عدد الساعات المستخدمة والساعات المحسوبة على العميل. |
-| القيمة المكتسبة                 | ProjectAccountingCube_Projects[إجمالي التكلفة المخططة للمشروع] * ProjectAccountingCube_Projects[النسبة المئوية للعمل المكتمل] | إجمالي التكلفة المخططة مضروبًا في النسبة المئوية للعمل المكتمل. |
+| مؤشر أداء التكلفة       | ProjectAccountingCube\_Projects[القيمة المكتسبة] ÷ ProjectAccountingCube\_Projects[إجمالي التكلفة الفعلية للمهام المكتملة] | حساب إجمالي القيمة المكتسبة مقسومًا على إجمالي التكلفة الفعلية. |
+| مؤشر أداء الجدول   | ProjectAccountingCube\_Projects[القيمة المكتسبة] ÷ ProjectAccountingCube\_[إجمالي التكلفة المخططة للمهام المكتملة] | حساب إجمالي القيمة المكتسبة مقسومًا على إجمالي التكلفة المخططة. |
+| النسبة المئوية للعمل المكتمل | النسبة المئوية للعمل المكتمل = ProjectAccountingCube\_Projects[إجمالي التكلفة الفعلية للمهام المكتملة] ÷ (ProjectAccountingCube\_Projects[إجمالي التكلفة الفعلية للمهام المكتملة] + ProjectAccountingCube\_Projects[إجمالي التكلفة المخططة للمشروع] – ProjectAccountingCube\_Projects[إجمالي التكلفة المخططة للمهام المكتملة]) | إجمالي النسبة المئوية للعمل المكتمل استنادًا إلى إجمالي التكلفة الفعلية للمهام المكتملة والتكلفة المخططة للمشروع. |
+| نسبة الساعات الفعلية القابلة للفوترة  | ProjectAccountingCube\_Projects[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع] ÷ (ProjectAccountingCube\_Projects[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع] + ProjectAccountingCube\_Projects[إجمالي الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة]) | إجمالي الساعات الفعلية القابلة للفوترة، استنادًا إلى عدد الساعات المستخدمة والساعات المحسوبة على العميل. |
+| القيمة المكتسبة                 | ProjectAccountingCube\_Projects[إجمالي التكلفة المخططة للمشروع] × ProjectAccountingCube\_Projects[النسبة المئوية للعمل المكتمل] | إجمالي التكلفة المخططة مضروبًا في النسبة المئوية للعمل المكتمل. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>الكيان: ProjectAccountingCube_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>الكيان: ProjectAccountingCube\_TotalEstimatedCosts 
 **مصدر البيانات:** ProjTable
 
-| القياسات التجميعية الرئيسية       | الحقل               | ‏‏الوصف | 
+| القياسات التجميعية الرئيسية       | الحقل               | ‏‏الوصف |
 |---------------------------------|---------------------|-------------|
 | التكلفة المخططة للنشاط المكتمل | المجموع(TotalCostPrice) | إجمالي سعر التكلفة في تقديرات كافة أنواع حركات المشروع مع المهام المكتملة. |
 
