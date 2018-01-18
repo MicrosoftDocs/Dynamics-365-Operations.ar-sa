@@ -3,11 +3,12 @@ title: "تقدير التدفقات النقدية"
 description: "يوفر هذا الموضوع نظرة عامة حول عملية تقدير التدفقات النقدية. وهو يوضح أيضًا كيف يتكامل تقدير التدفقات النقدية مع الوحدات النمطية الأخرى في النظام."
 author: saraschi
 manager: AnnBe
-ms.date: 05/15/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

@@ -3,11 +3,12 @@ title: "نظرة عامة على رقابة الموازنة‬"
 description: "توفر هذه المقالة مقدمة إلى رقابة الموازنة وتوفر معلومات لمساعدتك في تكوين رقابة الموازنة في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition لكي تتمكن من إدارة الموارد المالية."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

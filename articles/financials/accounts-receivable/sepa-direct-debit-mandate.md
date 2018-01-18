@@ -3,11 +3,12 @@ title: "إعداد تفويض الخصم المباشر عن طريق سيبا�
 description: "يتيح الخصم المباشر لمنطقة دفع يورو واحدة (SEPA) جمع أموال من الحساب البنكي للعميل، شريطة منح أمر رسمي مُوقَع من العميل إلى الدائن."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

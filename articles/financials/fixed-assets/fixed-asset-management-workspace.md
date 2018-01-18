@@ -3,11 +3,12 @@ title: "مساحة عمل إدارة الأصول الثابتة"
 description: "يوفر هذا الموضوع معلومات حول مساحة عمل إدارة الأصول الثابتة. تعرض مساحة العمل هذه المعلومات المرتبطة بالأصول الثابتة التي تم إدخالها في النظام. وهي تتضمن طريقة عرض ملخصة وطريقة عرض التحليلات."
 author: saraschi
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

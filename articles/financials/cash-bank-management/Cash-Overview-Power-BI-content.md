@@ -3,23 +3,24 @@ title: "محتوى Power BI - نظرة عامة على النقد"
 description: "يصف هذا الموضوع محتوى Power BI - نظرة عامة على النقد. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: saraschi2
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -53,10 +54,6 @@ ms.lasthandoff: 12/01/2017
 | التنبؤ بالعملة                     | <ul><li>أرصدة العملة المتوقعة</li><li>ملخص العملة اليومي</li><li>تفاصيل التنبؤ</li></ul> |
 | الأرصدة البنكية                         | <ul><li>الرصيد البنكي الإجمالي بعمله النظام</li><li>الرصيد حسب الكيان القانوني</li><li>رصيد اليوم الفعلي في مقابل الرصيد المتوقع بعملة الحساب البنكي</li><li>الرصيد حسب الحساب البنكي</li><li>الرصيد حسب العملة</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>توسيع محتوى Power BI
-يمكنك تقديم تحليلات رائعة لأولئك الذين لا يسجلون الدخول إلى Dynamics 365 باستخدام حزم المحتوى المتوفرة في Lifecycle Services (LCS). يمكنك تعديل حزم المحتوى هذه لتشمل تقارير أخرى أو رسوم مرئية، ثم نشرها على مستأجر Power BI.com الخاص بك لتحليلها. 
-
-يمكنك العثور على محتوى Power BI **نظرة على النقد** في مكتبة الأصول المشتركة في LCS. للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 
@@ -72,6 +69,5 @@ ms.lasthandoff: 12/01/2017
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | ملخص حركات التدفقات النقدية الداخلية والخارجية، والرصيد باستخدام عملة النظام لجميع الشركات |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | صافي مبلغ الحركة المُلخص، ورصيد العملات باستخدام عملة الحركة |
 
-استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. ثم استخدمت هذه القياسات المحسوبة لحساب المخططات والتقارير المستخدمة في محتوى Power BI **نظرة عامة على النقد**. لتضمين حسابات إضافية في تقاريرك ولوحة المعلومات، يمكنك تحميل وتعديل ملف Power BI من LCS. هذا الملف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء المحتوى. بعد إجراء التعديلات، يمكنك إنشاء المحتوى التنظيمي ولوحات المعلومات التي تحتوي على المعلومات التي قمت بإضافتها.
 
 

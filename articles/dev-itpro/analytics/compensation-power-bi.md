@@ -3,11 +3,12 @@ title: "محتوى Power BI \"التعويض\""
 description: "يصف هذا الموضوع محتوى Power BI \"التعويض\". فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent, Core
@@ -16,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 7143a2750d284080609c884ce15bc2b2e8943394
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 01841a2da44bfeebc8f8656229c406bd350cb6e5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -47,13 +48,6 @@ ms.lasthandoff: 12/01/2017
 
 يمكنك تصفية المخططات والتجانبات في هذه التقارير، وتثبيت المخططات والتجانبات بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-## <a name="extending-the-power-bi-content"></a>توسيع محتوى Power BI
-إذا كنت تستخدم Microsoft Dynamics 365 for Operations version 1611 أو Finance and Operations, Enterprise Edition (يوليو 2017)، فيمكنك العثور على محتوى Power BI **التعويض** في مكتبة الأصول المشتركة في LCS.. للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
-
-احرص على تنزيل محتوى Power BI **التعويض** الذي ينطبق على إصدار Microsoft Dynamics 365 الذي تستخدمه.
-
->[!NOTE]
->تنطبق ملفات .pbix المتوافرة في Lifecycle Services على Finance and Operations فقط.
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 تستخدم البيانات التالية لملء التقارير في محتوى Power BI **التعويض**. يوضح هذا الجدول الكيانات التي استند عليها المحتوى.
@@ -81,5 +75,5 @@ ms.lasthandoff: 12/01/2017
 | المسمى الوظيفي للموظف           | المسمى الوظيفي وتاريخ الأقدمية                                                                                   | الموظف الحالي، الموظف الذي تم إنهاء خدمته، اتجاه الموظف |
 | اتجاه الموظف           | الوقت الإضافي للعمال، وعدد الأشخاص، والشركة، والمنصب                                                        | الشركة، التعويض، الموقع الجغرافي، اسم الموظف، تقارير إلى، مقاصة التقويم، التاريخ، المسمى الوظيفي للموظف، التوزيع الجغرافي، التوظيف، الوظيفة، الميزات |
 
-استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. ثم استخدمت القياسات المحسوبة لإنشاء مؤشرات الأداء الرئيسية والتقارير المستخدمة في المحتوى. إذا كنت تريد تضمين حسابات إضافية في تقاريرك ولوحة المعلومات، يمكنك تحميل وتعديل ملف .pbix من LCS. هذا الملف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء المحتوى. بعد إجراء التعديلات، يمكنك إنشاء حزمة المحتوى التنظيمية ولوحة المعلومات التي تحتوي على المعلومات التي قمت بإضافتها.
+
 

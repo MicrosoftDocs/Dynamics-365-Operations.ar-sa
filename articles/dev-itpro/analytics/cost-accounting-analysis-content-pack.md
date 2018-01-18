@@ -3,7 +3,7 @@ title: "محتوى Power BI - تحليل محاسبة التكاليف"
 description: "يوضح هذا الموضوع ما هو مدرج في محتوى Power BI لتحليل محاسب التكاليف. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d2966954ccb9df03227edab1fe7c471ddd20f32
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2d0fb4de84838f1778625d977bdd2ceeaac61f8c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 11/03/2017
 من خلال تحديد مستوى الوصول الأمن في محاسبة التكاليف والجمع بينها وبين الأمان على مستوى الصف في Power BI، يمكنك منح كافة ملاك كائنات التكلفة صلاحية الوصول إلى محتوى Power BI لـ **تحليل محاسبة التكاليف**. ثم، تتم تصفية كافة البيانات في الرسوم المرئية بناءً على مستوى الوصول الذي يتم التحكم فيه في محاسبة التكاليف. لمزيد من المعلومات حول مستوى الوصول الآمن، والمستوى الآمن على مستوى الصف، راجع [إعداد الأمان لمحتوى محاسبة التكاليف لـ Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-يمكنك العثور على محتوى Power BI لـ **تحليل محاسبة التكاليف** في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services. للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
+يمكنك العثور على محتوى Power BI لـ **تحليل محاسبة التكاليف** في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services. للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
 
 احرص على تنزيل محتوى **تحليل محاسبة التكاليف** الذي ينطبق على إصدار Microsoft Dynamics 365 الذي تستخدمه.
 

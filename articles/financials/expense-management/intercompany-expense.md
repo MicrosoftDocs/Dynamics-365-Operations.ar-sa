@@ -3,16 +3,17 @@ title: "المصروفات المشتركة بين الشركات الشقيقة
 description: "قد يقوم عامل تم توظيفه بواسطة كيان قانوني في مؤسسة بتنفيذ عمل لكيان قانوني آخر في المؤسسة نفسها. في هذه الحالة، يمكنك استخدام ميزة المصروفات بين الشركات الشقيقة لتعيين مصروفات العامل إلى الكيان القانوني الذي تم تنفيذ العمل له."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi2
+ms.author: saraschi
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd

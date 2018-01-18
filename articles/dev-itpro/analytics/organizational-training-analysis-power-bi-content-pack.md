@@ -1,9 +1,9 @@
 ---
 title: "محتوى Power BI للتدريب التنظيمي"
-description: "يشرح هذا الموضوع Finance and Operations - محتوى Power BI للتدريب التنظيمي. ويوضح كيفية الوصول إلى حزمة المحتوى، ويصف نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى."
+description: "يشرح هذا الموضوع Finance and Operations - محتوى Power BI للتدريب التنظيمي."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18d7fa3580a9debf617ebeb042670f7f1be8fad6
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 1e26785b658815fcc5026d73e4d8cfe39bd246c3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,12 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-يشرح هذا الموضوع Finance and Operations - محتوى Power BI للتدريب التنظيمي. ويوضح كيفية الوصول إلى حزمة المحتوى، ويصف نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى.
-
-<a name="accessing-the-content-pack"></a>الوصول إلى حزمة المحتوى
---------------------------
-
-يمكنك العثور على حزمة محتوى التدريب التنظيمي في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services. لمزيد من المعلومات حول كيفية تحميل حزمة المحتوى وربطها ببيانات Microsoft Dynamics 365 for Finance and Operations، راجع [محتوى Power BI في LCS من Microsoft والشركاء](power-bi-content-microsoft-partners.md).
+يشرح هذا الموضوع Finance and Operations - محتوى Power BI للتدريب التنظيمي. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>التقارير المضمنة في حزمة المحتوى
 بعد أن تقوم بربط حزمة المحتوى ببيانات Finance and Operations، يعرض التقرير بيانات المؤسسة. إذا لم يسبق لك استخدام Microsoft Power BI، فيمكنك معرفة المزيد حول هذا التطبيق على [صفحة التعليم الموجّه لـ Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). تحتوي التقارير المضمنة في حزمة المحتوى على كل من المخططات والجداول التي تحتوي على معلومات إضافية. يصف الجدول التالي التقارير.
@@ -65,16 +60,6 @@ ms.lasthandoff: 11/03/2017
 | Training\_Position        | المنصب، والمسمى الوظيفي، ومكافئ الدوام الكامل‬                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
 | Training\_WorkerName      | الاسم الأول والاسم الأخير والاسم بالكامل                             | Training\_CourseAttendees                                                                                                                                                                          |
 | Training\_WorkerTitle     | المسمى الوظيفي وتاريخ الأقدمية                                         | Training\_CourseAttendees                                                                                                                                                                          |
-
-استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. ثم استخدمت القياسات المحسوبة لإنشاء مؤشرات الأداء الرئيسية والتقارير المستخدمة في حزمة المحتوى. إذا كنت تريد تضمين حسابات إضافية في تقاريرك ولوحة المعلومات، يمكنك تحميل وتعديل ملف Training.pbix من LCS.  هذا الملف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء حزمة المحتوى. بعد إجراء التعديلات، يمكنك إنشاء حزمة المحتوى التنظيمية ولوحة المعلومات التي تحتوي على المعلومات التي قمت بإضافتها.
-
-## <a name="additional-resources"></a>الموارد الإضافية
-فيما يلي بعض الارتباطات المفيدة المتعلقة بالكيانات وإنشاء محتوى Power BI:
-
--   [كيانات البيانات](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [إنشاء حزم المحتوى التنظيمية](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [تصميم البيانات باستخدام Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [إضافة إطارات Power BI المتجانبة إلى مساحات العمل](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
 
 
 

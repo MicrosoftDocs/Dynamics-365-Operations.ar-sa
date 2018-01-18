@@ -1,7 +1,7 @@
 ---
 title: "تسجيل الأرقام المسلسلة في عملية المبيعات"
 description: "يشرح هذا الموضوع كيف يمكنك تسجيل الأرقام المسلسلة على إيصالات التعبئة أو الفواتير أثناء عملية المبيعات. تُعد هذه الوظيفة مفيدة إذا أرادت الشركة تسجيل الأرقام المسلسلة لأغراض الخدمة والضمان، ولكنها ليست بحاجة إلى الاحتفاظ بالأرقام المسلسلة في المخزون من الاستلام وحتى الإصدار."
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: sorenand
+ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

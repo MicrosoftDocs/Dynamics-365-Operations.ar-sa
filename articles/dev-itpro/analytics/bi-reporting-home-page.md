@@ -1,9 +1,9 @@
 ---
 title: "المعلومات"
-description: "يوجهك هذا الموضوع إلى الموارد التي يمكنك اتباعها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition."
+description: "يوجهك هذا الموضوع إلى الموارد التي يمكنك اتباعها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
-يوجهك هذا الموضوع إلى الموارد التي يمكنك اتباعها لمعرفة المزيد حول المعلومات المهنية (BI) وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition.
+يوجهك هذا الموضوع إلى الموارد التي يمكنك اتباعها لمعرفة المزيد حول المعلومات المهنية (BI) وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 ## <a name="get-started"></a>بدء الاستخدام
 - [الوصول إلى المعلومات وإعداد التقارير](information-access-reporting.md)
@@ -47,9 +47,8 @@ ms.lasthandoff: 11/03/2017
 
  - [Power BI المضمن في مساحات العمل](embed-power-bi-workspaces.md)
  - [تكامل Power BI Embedded](power-bi-embedded-integration.md)
- - [إضافة التحليلات إلى مساحات العمل باستخدام Power BI المدمج](add-analytics-tab-workspaces.md)
- - [نشر التطبيقات التحليلية على Power BI](publish-apps-powerbi.md)
- - [المساعدة في تأمين مساحات عمل تحليلية والتقارير باستخدام Power BI المدمج](secure-analytical-workspaces.md)
+ - [إضافة التحليلات إلى مساحات العمل باستخدام Power BI Embedded](add-analytics-tab-workspaces.md)
+ - [المساعدة في حماية مساحات العمل والتقارير التحليلية باستخدام Power BI Embedded](secure-analytical-workspaces.md)
  - [محتوى Power BI لـ Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>مستندات الأعمال والطباعة
@@ -59,7 +58,7 @@ ms.lasthandoff: 11/03/2017
 
 لمعرفة المزيد، راجع المواضيع التالية:
 
-- [نظرة عامة على خدمات إعداد تقارير المستندات](document-reporting-services.md)
+- [نظرة عامة على Document Reporting Services](document-reporting-services.md)
 - [الطباعة في تطبيقات Finance and Operations](print-documents.md)
 - [تثبيت "وكيل توجيه المستند" لتمكين أجهزة الطابعات على الشبكة](install-document-routing-agent.md)
 
@@ -88,11 +87,8 @@ ms.lasthandoff: 11/03/2017
 ## <a name="technical-reference-reports"></a>تقارير المرجع التقني
 توفر التقارير التالية معلومات مرجعية حول الكائنات الموجودة في Finance and Operations:
 
-- [تقرير كيانات البيانات التجميعية](aggregate-data-entities-report.md)
-- [تقرير القياسات المجمعة](aggregate-measurements-report.md)
 - [تقرير كيانات البيانات](../data-entities/data-entities-report.md)
-- [تقرير مؤشرات الأداء الرئيسية (KPI)](key-performance-indicators-report.md)
 - [تقرير أكواد التراخيص ومفاتيح التكوين](../sysadmin/license-codes-configuration-keys-report.md)
-- [تقرير خدمات إعداد تقارير SQL Server](SSRS-report.md)
+- [تقرير SQL Server Reporting Services](SSRS-report.md)
 - [تقرير أنواع سير العمل](../../fin-and-ops/organization-administration/workflow-types-report.md)
 

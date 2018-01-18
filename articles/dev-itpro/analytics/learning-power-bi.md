@@ -1,9 +1,9 @@
 ---
 title: "محتوى Power BI \"التعلم\""
-description: "يصف هذا الموضوع محتوى Power BI \"التعلم‬‏‫\" فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
+description: "يصف هذا الموضوع محتوى Power BI \"التعلم‬‏‫\""
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bb4a2d6d725f79fe3f095a37b8a37d47339a7966
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e5a78812aabaa5c835fe23787a9cbb57d1a7770e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-يصف هذا الموضوع محتوى Microsoft Power BI **التعلم**. إنه يشرح كيفية الوصول إلى المحتوى، ويصف نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
-
-## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-
-يمكنك العثور على محتوى Power BI **التعلم** في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services ‏(LCS). للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
+يصف هذا الموضوع محتوى Microsoft Power BI **التعلم**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
 
@@ -69,5 +65,5 @@ ms.lasthandoff: 12/01/2017
 | اسم الموظف    | الاسم الأول والاسم الأخير والاسم بالكامل                             | حضور الدورة التدريبية |
 | المسمى الوظيفي للموظف   | المسمى الوظيفي وتاريخ الأقدمية                                         | حضور الدورة التدريبية |
 
-استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. ثم استخدمت القياسات المحسوبة لإنشاء مؤشرات الأداء الرئيسية والتقارير المستخدمة في المحتوى. إذا كنت تريد تضمين حسابات إضافية في تقاريرك ولوحة المعلومات، يمكنك تحميل وتعديل ملف .pbix من LCS. هذا الملف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء المحتوى. بعد إجراء التعديلات، يمكنك إنشاء حزمة المحتوى التنظيمية ولوحة المعلومات التي تحتوي على المعلومات التي قمت بإضافتها.
+
 

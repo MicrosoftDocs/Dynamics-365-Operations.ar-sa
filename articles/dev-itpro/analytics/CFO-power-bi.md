@@ -3,7 +3,7 @@ title: "محتوى Power BI - نظرة عامة على المدير المالي
 description: "يقدم هذا الموضوع وصفًا لمحتوى Microsoft Power BI - نظرة عامة على المدير المالي."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: fd3696321598267a2acd3ad61f533641c2cc2e77
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -47,8 +47,5 @@ ms.lasthandoff: 12/01/2017
 | [إدارة التحصيلات والائتمان](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>العميل الذي تجاوز تاريخ الاستحقاق</li><li>الحد الائتماني الزائد للعملاء</li><li>الأرصدة القديمة</li></ul> |
 | [تحليل الإنفاق على الشراء](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>عمليات الشراء حسب الشهر/اليوم</li><li>أهم 10 موردين بحسب المشتريات</li><li>أهم 10 منتجات بحسب المشتريات</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>توسيع محتوى Power BI
-باستخدام حزم المحتوى المتاحة في Microsoft Dynamics Lifecycle Services (LCS)، يمكنك تقديم تحليلات رائعة للأشخاص الذين لم يقوموا بتسجيل الدخول إلى Microsoft Dynamics 365. يمكنك تعديل حزم المحتوى هذه بحيث تتضمن تقارير أخرى أو رسوم مرئية، ثم قم بنشر حزم المحتوى لمستأجر Power BI.com الخاص بك لتحليلها.
 
-يمكنك العثور على محتوى Power BI **نظرة عامة على المدير المالي** في مكتبة الأصول المشتركة في LCS. للمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft والشركاء‬‏‫](power-bi-content-microsoft-partners.md). لمشاهدة عرض توضيحي يعرض كيفية تطبيق محتوى Power BI، راجع [محتوى Power BI من Microsoft والشركاء في Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)Office Mix.
 
