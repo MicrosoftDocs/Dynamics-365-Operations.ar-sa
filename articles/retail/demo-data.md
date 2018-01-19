@@ -10,7 +10,8 @@ ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailTillLayout
 audience: Application user
-ms.search.scope: Operations, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
@@ -19,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 61a1eeba0e44a2600157f2e5c3f2de042c786d91
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 747c0cfa36e1220342307ae665e69e02eabd3cce
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -96,13 +97,13 @@ ms.lasthandoff: 01/17/2018
 
 | <span data-ttu-id="1da61-173">نوع التخطيط</span><span class="sxs-lookup"><span data-stu-id="1da61-173">Layout type</span></span> | <span data-ttu-id="1da61-174">الدقة</span><span class="sxs-lookup"><span data-stu-id="1da61-174">Resolution</span></span> | <span data-ttu-id="1da61-175">نسبة العرض إلى الارتفاع</span><span class="sxs-lookup"><span data-stu-id="1da61-175">Aspect ratio</span></span> | <span data-ttu-id="1da61-176">العرض الهدف</span><span class="sxs-lookup"><span data-stu-id="1da61-176">Target display</span></span>          |
 |-------------|------------|--------------|-------------------------|
-| <span data-ttu-id="1da61-177">صغيرة الحجم\\*</span><span class="sxs-lookup"><span data-stu-id="1da61-177">Compact\\*</span></span>   | <span data-ttu-id="1da61-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="1da61-178">480 × 853</span></span>  | <span data-ttu-id="1da61-179">16:9</span><span class="sxs-lookup"><span data-stu-id="1da61-179">16:9</span></span>         | <span data-ttu-id="1da61-180">الهواتف</span><span class="sxs-lookup"><span data-stu-id="1da61-180">Phones</span></span>                  |
+| <span data-ttu-id="1da61-177">صغيرة الحجم\*</span><span class="sxs-lookup"><span data-stu-id="1da61-177">Compact\*</span></span>   | <span data-ttu-id="1da61-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="1da61-178">480 × 853</span></span>  | <span data-ttu-id="1da61-179">16:9</span><span class="sxs-lookup"><span data-stu-id="1da61-179">16:9</span></span>         | <span data-ttu-id="1da61-180">الهواتف</span><span class="sxs-lookup"><span data-stu-id="1da61-180">Phones</span></span>                  |
 | <span data-ttu-id="1da61-181">كبيرة الحجم</span><span class="sxs-lookup"><span data-stu-id="1da61-181">Full</span></span>        | <span data-ttu-id="1da61-182">1024 × 768</span><span class="sxs-lookup"><span data-stu-id="1da61-182">1024 × 768</span></span> | <span data-ttu-id="1da61-183">4:3</span><span class="sxs-lookup"><span data-stu-id="1da61-183">4:3</span></span>          | <span data-ttu-id="1da61-184">أجهزة الكمبيوتر اللوحية</span><span class="sxs-lookup"><span data-stu-id="1da61-184">Tablets</span></span>                 |
-| <span data-ttu-id="1da61-185">كبيرة الحجم\\*</span><span class="sxs-lookup"><span data-stu-id="1da61-185">Full\\*</span></span>      | <span data-ttu-id="1da61-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="1da61-186">1280 × 720</span></span> | <span data-ttu-id="1da61-187">16:9</span><span class="sxs-lookup"><span data-stu-id="1da61-187">16:9</span></span>         | <span data-ttu-id="1da61-188">أجهزة الكمبيوتر اللوحية</span><span class="sxs-lookup"><span data-stu-id="1da61-188">Tablets</span></span>                 |
+| <span data-ttu-id="1da61-185">كبيرة الحجم\*</span><span class="sxs-lookup"><span data-stu-id="1da61-185">Full\*</span></span>      | <span data-ttu-id="1da61-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="1da61-186">1280 × 720</span></span> | <span data-ttu-id="1da61-187">16:9</span><span class="sxs-lookup"><span data-stu-id="1da61-187">16:9</span></span>         | <span data-ttu-id="1da61-188">أجهزة الكمبيوتر اللوحية</span><span class="sxs-lookup"><span data-stu-id="1da61-188">Tablets</span></span>                 |
 | <span data-ttu-id="1da61-189">كبيرة الحجم</span><span class="sxs-lookup"><span data-stu-id="1da61-189">Full</span></span>        | <span data-ttu-id="1da61-190">1366 × 768</span><span class="sxs-lookup"><span data-stu-id="1da61-190">1366 × 768</span></span> | <span data-ttu-id="1da61-191">16:9</span><span class="sxs-lookup"><span data-stu-id="1da61-191">16:9</span></span>         | <span data-ttu-id="1da61-192">‏‫أجهزة الكمبيوتر اللوحية، الشاشات الكبيرة</span><span class="sxs-lookup"><span data-stu-id="1da61-192">Tablets, larger screens</span></span> |
 | <span data-ttu-id="1da61-193">كبيرة الحجم</span><span class="sxs-lookup"><span data-stu-id="1da61-193">Full</span></span>        | <span data-ttu-id="1da61-194">1440 × 960</span><span class="sxs-lookup"><span data-stu-id="1da61-194">1440 × 960</span></span> | <span data-ttu-id="1da61-195">3:2</span><span class="sxs-lookup"><span data-stu-id="1da61-195">3:2</span></span>          | <span data-ttu-id="1da61-196">‏‫أجهزة الكمبيوتر اللوحية، الشاشات الكبيرة</span><span class="sxs-lookup"><span data-stu-id="1da61-196">Tablets, larger screens</span></span> |
 
-<span data-ttu-id="1da61-197">\\* لا تتوفر أحجام التخطيطات الإضافية هذه إلا في تخطيطات شركة المنتجات التجارية وشركة الاتحاد للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="1da61-197">\\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
+<span data-ttu-id="1da61-197">\* لا تتوفر أحجام التخطيطات الإضافية هذه إلا في تخطيطات شركة المنتجات التجارية وشركة الاتحاد للتصنيع.</span><span class="sxs-lookup"><span data-stu-id="1da61-197">\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
 
 
 >[!TIP]
