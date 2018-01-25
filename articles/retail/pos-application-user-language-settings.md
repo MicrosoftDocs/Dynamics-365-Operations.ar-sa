@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dacc072ab5c070010d86302fa08a3066125b23a6
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: b49450a7deab94c62e173f730007bc40de23b267
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="835d2-104">يصف هذا الموضوع كيفية تغيير إعدادات اللغة في نقطة بيع التجزئة الحديثة (MPOS) و نقاط بيع المجموعة.</span><span class="sxs-lookup"><span data-stu-id="835d2-104">This topic describes how to change language settings in Retail Modern POS (MPOS) and Cloud POS.</span></span>
 
-<a name="overview"></a><span data-ttu-id="835d2-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="835d2-105">Overview</span></span>
-========
-
+## <a name="overview"></a><span data-ttu-id="835d2-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="835d2-105">Overview</span></span>
 <span data-ttu-id="835d2-106">‏‫تدعم ‏‫نقطة البيع الحديثة للبيع بالتجزئة (MPOS) ونقطة بيع المجموعة البيئات التي يمكن أن تختلف بها إعدادات اللغة والتحويلات بين المتجر وإعدادات المستخدم.</span><span class="sxs-lookup"><span data-stu-id="835d2-106">Retail Modern POS (MPOS) and Cloud POS support environments where language settings and translations can vary between the store and user settings.</span></span> <span data-ttu-id="835d2-107">على سبيل المثال، يمكن أن يكون المتجر موجوداً في منطقة حيث تكون اللغة الإنجليزية الأكثر شيوعًا للعملاء، ولكن بعض العاملين يفضلون استخدام التطبيق بالترجمات الفرنسية.‬</span><span class="sxs-lookup"><span data-stu-id="835d2-107">For example, the store could be located in a region where English is most common for their customers, but some workers prefer to use the application with French translations.</span></span>
 
 ## <a name="data-language"></a><span data-ttu-id="835d2-108">لغة البيانات</span><span class="sxs-lookup"><span data-stu-id="835d2-108">Data language</span></span>

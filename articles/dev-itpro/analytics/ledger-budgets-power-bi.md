@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="50132-105">يصف هذا الموضوع محتوى Microsoft Power BI **القيمة الفعلية مقابل الموازنة‬**.</span><span class="sxs-lookup"><span data-stu-id="50132-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="50132-106">فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.</span><span class="sxs-lookup"><span data-stu-id="50132-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a><span data-ttu-id="50132-107">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="50132-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="50132-107">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="50132-107">Overview</span></span>
 
 <span data-ttu-id="50132-108">تم إنشاء محتوى Power BI **القيمة الفعلية مقابل الموازنة** للأفراد المسؤولين عن مراقبة القيمة الفعلية في مقابل أداء الموازنة في مؤسستهم.</span><span class="sxs-lookup"><span data-stu-id="50132-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="50132-109">يوفر محتوى Power BI **القيمة الفعلية مقابل الموازنة** إمكانية رؤية تباينات الموازنة.</span><span class="sxs-lookup"><span data-stu-id="50132-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="50132-110">يمكنك تحليل الموازنة للسنة الحالية حسب فئة الحساب أو كود الموازنة أو الحساب الرئيسي أو أوصاف الحساب الرئيسي أو الفترة المالية للحصول على فهم أفضل لسبب التباينات.</span><span class="sxs-lookup"><span data-stu-id="50132-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="50132-111">الوصول إلى محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="50132-111">Accessing the Power BI content</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="50132-111">الوصول إلى محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="50132-111">Accessing the Power BI content</span></span>
 <span data-ttu-id="50132-112">يتم عرض تقارير من محتوى Power BI **الفعلي مقابل الموازنة** في مساحتي عمل **موازنة دفتر الأستاذ والتنبؤات** و**المدير المالي**.</span><span class="sxs-lookup"><span data-stu-id="50132-112">Reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="50132-113">التقارير المضمنة في محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="50132-113">Reports that are included in the Power BI content</span></span>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="50132-113">التقارير المضمنة في محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="50132-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="50132-114">يوفر الجدول التالي تفاصيل حول المقاييس التي يتم العثور عليها في كل صفحة من صفحات التقرير في محتوى Power BI **القيمة الفعلية مقابل الموازنة‬**.</span><span class="sxs-lookup"><span data-stu-id="50132-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
 | <span data-ttu-id="50132-115">تقرير</span><span class="sxs-lookup"><span data-stu-id="50132-115">Report</span></span>                      | <span data-ttu-id="50132-116">المقاييس</span><span class="sxs-lookup"><span data-stu-id="50132-116">Metrics</span></span> |
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="50132-129">صافي الدخل</span><span class="sxs-lookup"><span data-stu-id="50132-129">Net income</span></span>                  | <ul><li><span data-ttu-id="50132-130">صافي الدخل هذه السنة</span><span class="sxs-lookup"><span data-stu-id="50132-130">Net income this year</span></span></li><li><span data-ttu-id="50132-131">هدف لصافي الدخل استنادًا إلى الموازنة</span><span class="sxs-lookup"><span data-stu-id="50132-131">Goal for net income based on budget</span></span> </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="50132-132">فهم نموذج البيانات والكيانات</span><span class="sxs-lookup"><span data-stu-id="50132-132">Understanding the data model and entities</span></span>
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="50132-132">فهم نموذج البيانات والكيانات</span><span class="sxs-lookup"><span data-stu-id="50132-132">Understanding the data model and entities</span></span>
 
 | <span data-ttu-id="50132-133">الكيان</span><span class="sxs-lookup"><span data-stu-id="50132-133">Entity</span></span>                    | <span data-ttu-id="50132-134">المحتويات</span><span class="sxs-lookup"><span data-stu-id="50132-134">Contents</span></span> |
 |---------------------------|----------|
