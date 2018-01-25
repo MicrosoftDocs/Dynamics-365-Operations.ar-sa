@@ -98,7 +98,7 @@ ms.lasthandoff: 12/01/2017
 </tbody>
 </table>
 
-#<a name="see-also"></a>راجع أيضًا
+## <a name="see-also"></a>راجع أيضًا
 [إنشاء تقرير مالي](generate-financial-report.md)
 
 

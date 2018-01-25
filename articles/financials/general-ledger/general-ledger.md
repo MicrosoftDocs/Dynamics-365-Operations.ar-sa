@@ -43,7 +43,7 @@ ms.lasthandoff: 11/03/2017
 
 [![العملية التجارية](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>ضريبة المبيعات
+## <a name="sales-tax"></a>ضريبة المبيعات
 تقوم كافة الشركات بجمع الضرائب ودفعها للعديد من هيئات الضرائب. تختلف القواعد والمعدلات حسب البلد/المنطقة، والدولة، والمقاطعة، والمدينة.
 وبالإضافة إلى ذلك، يجب تحديث القواعد دورياً عند تغيير هيئات الضرائب لمتطلباتها. وتتضمن أكواد ضريبة المبيعات المعلومات الأساسية المطلوبة حول الكم الذي يجب جمعه ودفعه لهيئات الضرائب. عند إعداد أكواد ضريبة المبيعات، يمكنك تحديد المبالغ أو النسب المئوية التي يجب تجميعها. يمكنك أيضا تعريف الأساليب المختلفة التي يتم من خلالها تطبيق هذه المبالغ أو النسب المئوية على مبالغ الحركة. وتوفر المواضيع الموجودة في هذا القسم معلومات حول كيفية إعداد أكواد ضريبة المبيعات للطرق والمعدلات التي تتطلبها هيئات الضرائب الخاصة بك.
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 11/03/2017
  - [دفعات ضريبة المبيعات وقواعد التقريب](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>الموارد الإضافية
+## <a name="additional-resources"></a>الموارد الإضافية
 
-#### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
+### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
 انتقل إلى [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
 
-#### <a name="blogs"></a>المدونات
+### <a name="blogs"></a>المدونات
 
 يمكنك العثور على الآراء واﻷخبار والمعلومات الأخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
@@ -66,10 +66,10 @@ ms.lasthandoff: 11/03/2017
 
 تزود [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) شركاء Microsoft Dynamics بمورد واحد يمكنهم فيه معرفة الجديد والشائع في MBS Operations.
 
-#### <a name="task-guides"></a>دلائل المهام
+### <a name="task-guides"></a>دلائل المهام
 تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
 
-#### <a name="videos"></a>مقاطع الفيديو
+### <a name="videos"></a>مقاطع الفيديو
 
 اسحب ملفات الفيديو‬ التي تشرح الطريقة‬ والمتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
