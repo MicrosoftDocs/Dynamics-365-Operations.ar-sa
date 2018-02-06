@@ -1,4 +1,4 @@
---- 
+---
 title: "إنهاء أمر إنتاج"
 description: "يوضح هذا الإجراء كيفية إنهاء أمر إنتاج."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 1. في جزء الإجراءات، انقر فوق "إدارة التكاليف‬".
 2. انقر فوق "عرض مقارنة التكلفة".
     * بعد إنهاء أمر الإنتاج، يمكنك مقارنة سعر التكلفة المقدر مقابل سعر التكلفة المحقق للحصول على نظرة عامة حول نسب الفرق في الإنتاج.  
-
 

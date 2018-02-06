@@ -1,4 +1,4 @@
---- 
+---
 title: "جدولة أمر إنتاج"
 description: "يوضح هذا الإجراء كيفية جدولة أمر إنتاج."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * تعرض صفحة القدرة الإنتاجية القدرة المخزنة من خلال جدولة الوظائف والعدد الإجمالي للساعات المحجوزة حاليًا للمورد وعدد الساعات التي لا تزال متاحة لجدولة وظيفة للمورد.  
 6. قم بإغلاق الصفحة.
 7. قم بإغلاق الصفحة.
-
 

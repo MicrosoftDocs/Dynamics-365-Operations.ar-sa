@@ -1,4 +1,4 @@
---- 
+---
 title: "بدء أمر الإنتاج"
 description: "يوضح هذا الإجراء كيفية بدء أوامر الإنتاج بحالة العمل."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. انقر فوق "ترحيل".
 8. انقر فوق "موافق".
     * في دفتر يومية بطاقة المسار، يتم تسجيل الوقت المستغرق في العمليات الفردية. ويمكنك أيضا الإبلاغ عن كمية البضائع والأخطاء.  
-
 

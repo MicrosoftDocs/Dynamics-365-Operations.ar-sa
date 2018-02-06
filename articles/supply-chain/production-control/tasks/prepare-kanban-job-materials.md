@@ -1,4 +1,4 @@
---- 
+---
 title: "إعداد وظيفة كانبان عملية عندما تتوفر المواد لخلية العمل"
 description: "تركز هذه المهمة على إعداد وظيفة كانبان عملية عندما تكو جميع المواد متوفرة لخلية العمل."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/29/2017
     * إذا تم تحديد وظائف متعددة، فستعرض قائمة الانتقاء مجموع كافة الأصناف المطلوبة للوظائف المحددة.  
 6. انقر فوق "تحضير‬".
     * تم الآن إكمال عملية التحضير. تشير خانة الاختيار المحددة لكافة الصفوف في قائمة الانتقاء إلى أن حالة التوريد هي "تم الانتقاء".  
-
 
