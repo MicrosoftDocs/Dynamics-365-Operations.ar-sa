@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d56f861dbbf579e44fcd3fc4d8b45c24029acecc
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: f9de2f79c68fead5ede714ff05bba97118874aad
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="10751-103">تكوين عامل باستخدام جهاز وظيفة محمول</span><span class="sxs-lookup"><span data-stu-id="10751-103">Configure a worker using the mobile job device</span></span>
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 5. <span data-ttu-id="10751-140">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="10751-140">Click Edit.</span></span>
 6. <span data-ttu-id="10751-141">في حقل وحدة الإنتاج، يمكنك تعيين عامل التصفية الافتراضي للعامل.</span><span class="sxs-lookup"><span data-stu-id="10751-141">In the Production unit field, you can set the default filter for the worker.</span></span> <span data-ttu-id="10751-142">وهذا يضمن أن لا يتم عرض إلا وظائف الإنتاج لوحدة الإنتاج المحددة عند قيام العامل بتسجيل الدخول إلى الجهاز.</span><span class="sxs-lookup"><span data-stu-id="10751-142">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span>
 7. <span data-ttu-id="10751-143">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="10751-143">Close the page.</span></span>
-
 
