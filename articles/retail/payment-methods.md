@@ -1,7 +1,7 @@
 ---
 title: "طرق الدفع"
 description: "يجب أن يتم تكوين كل نوع دفع يقبله بائع التجزئة عند إعداد النظام. تصف هذه المقالة أنواع الدفع التي يمكنك إعدادها وتصف عملية إعدادها."
-author: MargoC
+author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

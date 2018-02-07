@@ -1,7 +1,7 @@
 --- 
 title: "إصدار منتج/أصل منتج إلى كيانات قانونية"
 description: "يتناول هذا الإجراء كيفية إصدار منتج أو أصل المنتج في واحد أو أكثر من الكيانات القانونية."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

@@ -1,6 +1,7 @@
 ---
 title: "نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة"
 description: "يشرح هذا الموضوع المفاهيم المرتبطة بالأجهزة الطرفية للبيع بالتجزئة."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
