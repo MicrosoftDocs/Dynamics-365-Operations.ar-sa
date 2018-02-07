@@ -1,7 +1,7 @@
 ---
 title: "مكونات التقرير المالي"
 description: "توضح هذه المقالة كيفية استخدام مكونات أو كتل إنشاء تعريفات التقرير في إعداد التقارير المالية. تتضمن كتل الإنشاء هذه تعريفات الصفوف وتعريفات الأعمدة وتعريفات شجرة التقارير. توضح هذه المقالة كيفية تنظيم كتل الإنشاء وتأمينها وكيفية العمل مع مجموعات كتل الإنشاء."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 85431f12f8870d6133388ae4706b3b0c8c48be62
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 
