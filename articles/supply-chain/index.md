@@ -3,7 +3,7 @@ title: "الصفحة الرئيسية لإدارة سلسة التوريد"
 description: "يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,18 +52,20 @@ ms.lasthandoff: 12/01/2017
 
 ## <a name="videos"></a>مقاطع الفيديو
 
-### <a name="get-started"></a>بدء الاستخدام  
+تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ديسمبر2017).
 
-مقاطع الفيديو القصيرة هذه ستساعدك في بدء استخدام الميزات الجديدة المزودة في Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition (يوليو 2017).
+-  [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg) 
+-  [مرشد تحسين الأداء](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (يوليو 2017).
 
 -  [بدء الاستخدام في ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
 -  [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
 -  [استخدام Excel لتحليل التكلفة](https://youtu.be/-HKHYdClvx8)
 -  [الموافقة على أوامر الشراء على جهاز محمول](https://youtu.be/gZ-gOlJe7H8)
--  [الجدولة الظاهرية باستخدام مخطط Gantt لأوامر الإنتاج والدفعات](https://youtu.be/BtbuShkGj4I)
+-  [الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدُفعية](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>تسجيلات المؤتمر التقني
-تناقش معظم هذه التسجيلات وظائف المنتج في الإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي. 
+تناقش تسجيلات المؤتمرات التقنية هذه وظائف المنتج في الإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">مكون المنتج في Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها</a>

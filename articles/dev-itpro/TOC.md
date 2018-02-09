@@ -113,7 +113,8 @@
 #### [تخصيص عناصر النموذج باستخدام الملحقات (‏‫البرنامج التعليمي)](extensibility/customize-model-elements-extensions.md)
 #### [تخصيص: تراكب الطبقات والملحقات](extensibility/customization-overlayering-extensions.md)
 ### الجديد
-#### [تغييرات القابلية للتوسعة في يوليو 2017](extensibility/changes-july-2017.md)
+#### [تغييرات قابلية للتوسعة في يوليو 2017](extensibility/changes-july-2017.md)
+#### [تغييرات قابلية التوسعة فيDynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
 ### الأساسيات‬
 #### [تخصيصات متداخلة](extensibility/intrusive-customizations.md)
 #### [ملحقات الفئة](extensibility/class-extensions.md)
@@ -138,12 +139,17 @@
 #### [تعديل خصائص التحكم في النموذج](extensibility/modify-control-properties.md)
 #### [تغيير تسمية](extensibility/change-label.md)
 #### [توسيع نطاق التسلسل الرقمي](extensibility/extend-number-sequence-scope.md)
+#### [إضافة بُعد مخزون جديد](extensibility/inventory-dimensions.md)
+#### [تغييرات في قابلية توسعة الأسعار والخصومات](extensibility/pricing-app73.md)
+#### [ملحق مخطط الجدول](extensibility/map-extensions.md)
+#### [توسيع مخططات الجداول المستخدمة كواجهات](extensibility/maps-as-interfaces.md)
+#### [توسيع مخططات الجداول المستخدمة لتعيين الإصدار](extensibility/maps-with-versioning.md)
 
 
 
 
 ## الأداء
-### [أخذ عينة تتبع باستخدام محلل التتبع](perf-test/trace-trace-tutorial.md)
+### [أخذ عينة تتبع باستخدام Trace parser](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK واختبار متعدد المستخدمين مع Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
 ### [تشخيص المشاكل وتحليل مشكلات الأداء باستخدام محلل التتبع](perf-test/trace-parser.md)
 ### [مؤقت الأداء](perf-test/performance-timer.md)
@@ -523,16 +529,16 @@
 
 # [الترقية والترحيل](migration-upgrade/upgrade-home-page.md)
 ## [ترقية من AX 2012 إلى Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [تحليل - استخدام أداة محلل الترقية لوضع خطة للترقية](migration-upgrade/upgrade-analyzer-tool.md)
-### [تحليل - استخدام خدمة ترقية الكود لتقدير جهد ترقية الكود](migration-upgrade/analyze-code-upgrade.md)
-### [تحليل - نشر بيئة الاختبار المعزولة](migration-upgrade/analysis-sandbox.md)
-### [ترقية - ترقية البيانات في بيئة تطوير](migration-upgrade/data-upgrade-2012.md)
-### [ترقية - مهام ترقية بيانات AX 2012](migration-upgrade/prepare-data-upgrade.md)
-### [ترقية - ترقية البيانات في بيئة الاختبار المعزولة](migration-upgrade/upgrade-data-sandbox.md)
-### [التحقق من الصحة - اختبار مرحلي](migration-upgrade/upgrade-cutover-testing.md)
-### [التحقق من الصحة - المهام التي يجب إنجازها بعد الترقية](migration-upgrade/app-validation-process.md)
-### [التحقق من الصحة - اختبار وظيفي](migration-upgrade/upgrade-functional-validation.md)
-### [التحقق من الصحة- التحضير للعرض المباشر](migration-upgrade/upgrade-go-live-prep.md)
+### [ترقية AX 2012 - استخدام أداة محلل الترقية لوضع خطة للترقية](migration-upgrade/upgrade-analyzer-tool.md)
+### [ترقية AX 2012 – استخدام خدمة ترقية الكود لتقدير الجهد](migration-upgrade/analyze-code-upgrade.md)
+### [ترقية AX 2012 - نشر بيئة اختبار معزولة](migration-upgrade/analysis-sandbox.md)
+### [ترقية AX 2012 - ترقية البيانات في بيئة تطوير](migration-upgrade/data-upgrade-2012.md)
+### [ترقية AX 2012 - مهام ترقية AX 2012](migration-upgrade/prepare-data-upgrade.md)
+### [ترقية AX 2012 - ترقية البيانات في بيئة اختبار معزولة](migration-upgrade/upgrade-data-sandbox.md)
+### [ترقية AX 2012- اختبار مرحلي](migration-upgrade/upgrade-cutover-testing.md)
+### [ترقية AX 2012 - المهام التي يجب إكمالها بعد الترقية](migration-upgrade/app-validation-process.md)
+### [ترقية AX 2012 - نجاح الاختبار الوظيفي](migration-upgrade/upgrade-functional-validation.md)
+### [ترقية AX 2012 - التحضير للعرض المباشر](migration-upgrade/upgrade-go-live-prep.md)
 
 
 ### التغييرات التي تؤثر على الترقية من AX 2012
@@ -589,7 +595,9 @@
 
 ## [معالجة الدُفعات‬](sysadmin/batch-processing-overview.md)
 ### [نظرة عامة على خادم الدفعات](sysadmin/batch-server-overview.md)
-### [إنشاء مهمة دُفعة](sysadmin/tasks/create-batch-job.md)
+### [إنشاء وظيفة دفعية](sysadmin/tasks/create-batch-job.md)
+
+## [إنشاء قواعد لمرشد تحسين الأداء](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [نظرة عامة على Lifecycle Services](lifecycle-services/lcs.md)
