@@ -1,7 +1,7 @@
 ---
 title: "تقدير التدفقات النقدية"
 description: "يوفر هذا الموضوع نظرة عامة حول عملية تقدير التدفقات النقدية. وهو يوضح أيضًا كيف يتكامل تقدير التدفقات النقدية مع الوحدات النمطية الأخرى في النظام."
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -13,7 +13,7 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sarasch
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT

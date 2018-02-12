@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application user, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > يتم دعم هذه الميزة في Dynamics 365 for Finance and Operations (الإصدار 7.2 والإصدارات اللاحقة).
 
-# <a name="introduction"></a>مقدمة
+## <a name="introduction"></a>مقدمة
 يوضح هذا الموضوع كيفية تضمين تقرير Microsoft Power BI في علامة تبويب **التحليلات** في مساحة عمل. بالنسبة إلى المثال الذي تم تقديمه هنا، سنقوم بتوسيع مساحة عمل **إدارة الحجز** في تطبيق إدارة الأسطول لتضمين مساحة عمل تحليلية على علامة تبويب **التحليلات**.
 
-# <a name="prerequisites"></a>المتطلبات الأساسية
+## <a name="prerequisites"></a>المتطلبات الأساسية
 + الوصول إلى بيئة مطور تقوم بتشغيل تحديث النظام الأساسي 8 أو الإصدارات الأحدث.
 + تقرير تحليلي (ملف pbix.) تم إنشاؤه باستخدام Microsoft Power BI Desktop"، وله نموذج بيانات مصدره قاعدة بيانات مخزن الكيانات.
 
-# <a name="overview"></a>نظرة عامة
+## <a name="overview"></a>نظرة عامة
 سواء قمت بتوسيع مساحة عمل تطبيق موجودة أو بتقديم مساحة عمل جديدة خاصة بك، يمكنك استخدام طرق العرض التحليلية المضمنة لتقديم عروض ثاقبة وتفاعلية لبيانات عملك. تتكون عملية إضافة علامة تبويب مساحة عمل تحليلية من أربع خطوات.
 
 1. إضافة ملف pbix. كمورد Dynamics 365.
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > للحصول على مزيد من المعلومات حول كيفية إنشاء تقارير تحليلية، راجع [بدء استخدام Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). تعتبر هذه الصفحة مصدرًا رائعًا للحصول على معلومات دقيقة من شأنها مساعدتك في إنشاء حلول تتعلق بإعداد تقارير تحليلية مقنعة.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>إضافة ملف pbix. كمورد
+## <a name="add-a-pbix-file-as-a-resource"></a>إضافة ملف pbix. كمورد
 قبل أن تبدأ، يجب إنشاء تقرير Power BI الذي ستقوم بتضمينه في مساحة العمل أو الحصول عليه. للحصول على مزيد من المعلومات حول كيفية إنشاء تقارير تحليلية، راجع [بدء استخدام Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 اتبع هذه الخطوات لإضافة ملف pbix. كمنتج لمشروع Visual Studio.
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/06/2017
   
 والآن بعد أن قمت بإضافة ملف pbix. كمورد Dynamics 365، يمكنك تضمين التقارير في مساحات العمل وإضافة الارتباطات المباشرة باستخدام عناصر القائمة.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>إضافة عنصر تحكم علامة تبويب إلى مساحة عمل التطبيق
+## <a name="add-a-tab-control-to-an-application-workspace"></a>إضافة عنصر تحكم علامة تبويب إلى مساحة عمل التطبيق
 في هذا المثال، سنقوم بتوسيع مساحة عمل **إدارة الحجز** في نموذج إدارة الأسطول عن طريق إضافة علامة تبويب **التحليلات** إلى تعريف النموذج **FMClerkWorkspace**.
  
 يبين الرسم التوضيحي التالي الشكل الذي يتخذه النموذج **FMClerkWorkspace‎** في المصمم في Microsoft Visual Studio.
@@ -105,7 +105,7 @@ ms.lasthandoff: 11/06/2017
  
 لقد أتممت الآن مهمة توسيع تعريف نموذج التطبيق. للحصول على مزيد من المعلومات حول كيفية استخدام الملحقات لإجراء التخصيصات، راجع  [التخصيص: تراكب الطبقات والملحقات](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>إضافة منطق تسلسل العمل X++ لتضمين عنصر تحكم العارض
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>إضافة منطق تسلسل العمل X++ لتضمين عنصر تحكم العارض
 اتبع هذه الخطوات لإضافة منطق تسلسل العمل الذي يقوم بتهيئة عنصر تحكم العارض المضمن في مساحة عمل **إدارة الحجز**.
 
 1. افتح مصمم النماذج **FMClerkWorkspace** لتوسيع تعريف التصميم.
@@ -151,12 +151,12 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > يمكنك الوصول إلى طريقة العرض التشغيلية الموجودة باستخدام علامات تبويب مساحة العمل تحت عنوان الصفحة.
 
-# <a name="reference"></a>المرجع
+## <a name="reference"></a>المرجع
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>أسلوب PBIReportHelper.initializeReportControl
+### <a name="pbireporthelperinitializereportcontrol-method"></a>أسلوب PBIReportHelper.initializeReportControl
 يوفر هذا المقطع معلومات حول فئة المساعد التي تُستخدم لتضمين تقرير Power BI (مورد pbix.) في عنصر تحكم مجموعة النماذج.
 
-### <a name="syntax"></a>بناء الجملة
+#### <a name="syntax"></a>بناء الجملة
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>المحددات
+#### <a name="parameters"></a>المحددات
 
 | الاسم | ‏‏الوصف |
 |---|---|

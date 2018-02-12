@@ -1,4 +1,4 @@
---- 
+---
 title: "تمكين عملية المرتبات للوقت والحضور"
 description: "يوضح هذا الإجراء كيفية تمكين عملية مرتبات الوقت والحضور‬."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 6. وسّع مقطع "التسجيل الزمني‬".
 7. انقر فوق "تحرير".
 8. في الحقل "اتفاقية الدفع"، أدخل قيمة أو حددها.
-
 

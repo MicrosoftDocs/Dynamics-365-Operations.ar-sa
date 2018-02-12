@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 توضح هذه المقالة المعلومات المطلوبة لكل خلية في تعريف الصف في تقرير مالي وتشرح كيفية إدخال تلك المعلومات. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>حدد كود صف في تعريف صف
+## <a name="specify-a-row-code-in-a-row-definition"></a>حدد كود صف في تعريف صف
 
 في تعريفات الصفوف أو الأرقام أو التسميات في خلية **كود الصف**، حدد كل بند في تعريف الصف. يمكنك تحديد كود الصف للإشارة إلى بيانات في عمليات حسابية أو إجماليات.
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 11/03/2017
 4.  حدد المجموعة المراد حذفها، ثم انقر فوق **حذف**. انقر فوق **نعم** لحذف مجموعة قيم الأبعاد بشكل دائم.
 
 
-<a name="see-also"></a>راجع أيضًا
---------
+## <a name="see-also"></a>راجع أيضًا
 
 [التقارير المالية](financial-reporting-intro.md)
 

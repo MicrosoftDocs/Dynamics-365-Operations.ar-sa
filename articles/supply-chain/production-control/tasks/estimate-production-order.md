@@ -1,4 +1,4 @@
---- 
+---
 title: "تقدير أمر إنتاج"
 description: "يمكنك تشغيل هذا الإجراء باستخدام شركة بيانات العرض التوضيحي USMF أو البيانات الخاصة بك."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 1. في جزء الإجراءات، انقر فوق "إدارة التكاليف‬".
 2. انقر فوق "عرض تفاصيل الحساب"ز
     * تعرض هذه الصفحة تصنيف التكاليف. على سبيل المثال، يمكنك عرض إجمالي سعر التكلفة لكل وحدة لمنتج نهائي في الصف الأول. تحتوي الصفوف التالية على التكاليف وفقا لقائمة مكونات الصنف ومسار الإنتاج والتكاليف غير المباشرة.  
-
 

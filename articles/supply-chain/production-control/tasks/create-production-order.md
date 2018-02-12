@@ -1,4 +1,4 @@
---- 
+---
 title: "إنشاء أمر إنتاج"
 description: "يوضح هذا الإجراء كيفية إنشاء أمر إنتاج."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/29/2017
     * يؤثر تغيير وقت المعالجة على استهلاك المسار المقدر وتكلفة أمر الإنتاج.  
 6. انقر فوق "حفظ".
 7. قم بإغلاق الصفحة.
-
 

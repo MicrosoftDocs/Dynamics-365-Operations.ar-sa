@@ -1,7 +1,7 @@
 ---
 title: "دمج دُفعات المخزون"
 description: "توفر هذه المقالة معلومات حول كيفية دمج دُفعتي مخزون أو أكثر في دُفعة مدمجة."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

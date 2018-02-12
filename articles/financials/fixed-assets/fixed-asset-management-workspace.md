@@ -1,7 +1,7 @@
 ---
 title: "مساحة عمل إدارة الأصول الثابتة"
 description: "يوفر هذا الموضوع معلومات حول مساحة عمل إدارة الأصول الثابتة. تعرض مساحة العمل هذه المعلومات المرتبطة بالأصول الثابتة التي تم إدخالها في النظام. وهي تتضمن طريقة عرض ملخصة وطريقة عرض التحليلات."
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,7 +14,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
