@@ -1,16 +1,17 @@
 ---
 title: "نظرة عامة على إدارة الإجازات والغياب"
-description: "يوفر هذا الموضوع نظرة عامة على وحدة إدارة الإجازات والغياب. تقدم هذه الوحدة إطار عمل مرنًا لتعريف عملية إدارة الغياب. يمكن إنشاء خطط الإجازات والغياب لتحديد كيفية استحقاق إجازات الموظفين أو كيفية منح الموظفين إجازة."
+description: "يوفر هذا الموضوع نظرة عامة على وحدة إدارة الإجازات والغياب."
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-talent
+ms.service: dynamics-365-talent
 ms.technology: 
+ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations
+ms.search.scope: Core, Operations, Talent
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
@@ -18,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 601681c64f5fa70aa99ab5179525d02b2c05ed2e
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: b0081ba5f1cbd63f03334af792c3d82c4f103f41
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a>نظرة عامة على إدارة الإجازات والغياب

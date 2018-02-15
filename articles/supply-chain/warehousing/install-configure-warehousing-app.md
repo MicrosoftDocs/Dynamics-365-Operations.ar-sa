@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4b3d068ddbf6f0b28c97618f5fa10fa486f3af51
+ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
+ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/15/2018
 
 ---
 
@@ -31,6 +31,9 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+
+> [!NOTE]
+> يوضح هذا الموضوع كيفية تكوين التخزين لعمليات توزيع المجموعة. إذا كنت تبحث عن كيفية تكوين التخزين لعمليات التوزيع المحلي، فيُرجى مراجعة [التخزين لعمليات التوزيع المحلية](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
 
 يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين
 
@@ -43,32 +46,29 @@ ms.lasthandoff: 11/03/2017
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4 و5.0 و6.0                                                                                                                                                               |
 | Windows ‏(UWP)               | Windows 10 (كل الإصدارات)                                                                                                                                                   |
-| Finance and Operations | الإصدار 1611 من Microsoft Finance and Operations <br>-أو - <br>الإصدار 7.0/7.0.1 من Microsoft Dynamics AX وتحديث النظام الأساسي لـ Dynamics AX 2 مع الإصلاح العاجل KB 3210014 |
+| Finance and Operations | Microsoft Dynamics 365 for Operations، الإصدار 1611 <br>-أو - <br>الإصدار 7.0/7.0.1 من Microsoft Dynamics AX وتحديث النظام الأساسي لـ Dynamics AX 2 مع الإصلاح العاجل KB 3210014 |
 
 ## <a name="get-the-app"></a>الحصول على التطبيق
--   Windows (UWP): [Finance and Operations - التخزين على متجر Windows](https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   Android:
+-   Windows ‏(UWP)
+     - [Finance and Operations - التخزين في متجر Windows](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+-   Android
     - [Finance and Operations - التخزين على Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
     - [Finance and Operations - التخزين على Zebra App Gallery](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
 
-## <a name="create-a-web-service-application-in-active-directory"></a>إنشاء تطبيق خدمة ويب في Active Directory
+## <a name="create-a-web-service-application-in-azure-active-directory"></a>إنشاء تطبيق خدمة ويب في Azure Active Directory
 لتمكين التطبيق من التفاعل مع خادم Finance and Operations معين، يجب عليك تسجيل تطبيق خدمة ويب في Azure Active Directory لمستأجر Finance and Operations. لأسباب تتعلق بالأمان، نوصي بإنشاء تطبيق خدمة ويب لكل جهاز تستخدمه. لإنشاء تطبيق خدمة ويب في Azure Active Directory (Azure AD)، أكمل الخطوات التالية:
 
-1.  في مستعرض ويب، انتقل إلى <https://manage.windowsazure.com>.
+1.  في مستعرض ويب، انتقل إلى <https://portal.azure.com>.
 2.  أدخل اسم المستخدم وكلمة المرور لمستخدم له حق الوصول إلى اشتراك Azure.
-3.  في مدخل Azure Portal، في جزء التنقل الأيمن، انقر فوق **Active Directory**.[](./media/wh-01-active-directory-example.png)[![wh-01-active-directory-example](./media/wh-01-active-directory-example.png)](./media/wh-01-active-directory-example.png)
-4.  في الشبكة، حدد مثيل Active Directory الذي سيتم استخدامه من قِبل Finance and Operations.
-5.  على شريط الأدوات العلوي، انقر فوق **التطبيقات**. [![wh-02-active-directory-applications](./media/wh-02-active-directory-applications-1024x197.png)](./media/wh-02-active-directory-applications.png)
-6.  في الجزء السفلي، انقر فوق **إضافة**. يبدأ تشغيل معالج **إضافة تطبيق**.
-7.  أدخل اسمًا للتطبيق وحدد **تطبيق ويب و/أو web API**. [![wh-03-active-directory-add-application](./media/wh-03-active-directory-add-application.png)](./media/wh-03-active-directory-add-application.png)
-8.  أدخل عنوان URL لتسجيل الدخول، وهو عنوان URL لتطبيق ويب. عنوان URL هذا هو نفسه عنوان URL للنشر، ولكن مع إضافة oauth في نهايته. أدخل URI لمعرف تطبيق، هذه القيمة إلزامية، لكنها غير مطلوبة من أجل المصادقة. تأكد من أن URI معرف التطبيق هذا عبارة عن URI وهمي مثل https://contosooperations/wmapp، لأن URL الخاص بعملية النشر قد يتسبب في حدوث مشكلات في تسجيل الدخول في تطبيقات AAD أخرى، مثل وظيفة Excel الإضافية. [![WH-04-AD-add-properties3](./media/WH-04-AD-add-properties3.png)](./media/WH-04-AD-add-properties3.png)
-9.  انتقل إلى علامة التبويب **تكوين**. [![wh-05-ad-configure-app](./media/wh-05-ad-configure-app.png)](./media/wh-05-ad-configure-app.png)
-10. قم بالتمرير لأسفل حتى تشاهد المقطع **أذونات لتطبيقات أخرى**. انقر فوق **إضافة تطبيق**. [![wh-06-ad-app-add-permissions](./media/wh-06-ad-app-add-permissions.png)](./media/wh-06-ad-app-add-permissions.png)
-11. حدد **Microsoft Dynamics ERP** في القائمة. انقر فوق الزر **اكتمال التحقق** في الركن العلوي الأيسر من الصفحة. [![wh-07-ad-select-permissions](./media/wh-07-ad-select-permissions.png)](./media/wh-07-ad-select-permissions.png)
-12. في **"أذونات المفوضين"**، حدد كافة خانات الاختيار. انقر فوق **حفظ**. [![wh-08-ad-delegate-permissions](./media/wh-08-ad-delegate-permissions.png)](./media/wh-08-ad-delegate-permissions.png)
-13. سجّل ملاحظة حول المعلومات التالية:
-    -   **معرف العميل** -أثناء التمرير لأعلى على الصفحة، سترى **"معرف العميل"**.
-    -   **المفتاح** - في مقطع **المفاتيح**، أنشئ مفتاحًا بتحديد المدة، وانسخ المفتاح. سيُشار إلى هذا المفتاح لاحقًا على أنه **سر العميل**.
+3.  في مدخل Azure، في جزء التنقل الأيمن، انقر فوق **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+4.  تأكد من أن مثيل Active Directory هو المثيل الذي يتم استخدامه بواسطة Finance and Operations.
+5.  في القائمة، انقر فوق **عمليات تسجيل التطبيق**. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+6.  في الجزء العلوي، انقر فوق **تسجيل تطبيق جديد**. يبدأ تشغيل معالج **إضافة تطبيق**.
+7.  أدخل اسمًا للتطبيق وحدد **تطبيق ويب/web API**. أدخل عنوان URL لتسجيل الدخول، وهو عنوان URL لتطبيق ويب. عنوان URL هذا هو نفسه عنوان URL للنشر، ولكن مع إضافة oauth في نهايته. انقر فوق **إنشاء**. [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+8.  حدد التطبيق الجديدة في القائمة. [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+9.  تذكر **"معرف تطبيق"**، أنك ستحتاجه فيما بعد. ستتم الإشارة إلى **معرف التطبيق** لاحقًا باعتباره **معرف العميل**.
+10. انقر فوق **مفاتيح** في **جزء الإعدادات**. أنشئ مفتاحًا عن طريق إدخال وصف مفتاح وفترة زمنية في قسم **كلمات المرور**. 
+11. انقر فوق **حفظ** وانسخ المفتاح. سيُشار إلى هذا المفتاح لاحقًا على أنه **سر العميل**. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>إنشاء وتكوين حساب مستخدم في Finance and Operations
 لتمكين Finance and Operations لاستخدام تطبيق Azure AD، تحتاج إلى إكمال خطوات التكوين التالية:
@@ -90,8 +90,8 @@ ms.lasthandoff: 11/03/2017
 1.  في التطبيق، انتقل إلى **إعدادات الاتصال**.
 2.  انقر فوق حقل **وضع العرض التوضيحي**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
 3.  أدخل المعلومات التالية: 
-    + **معرف عميل Azure Active Directory** - يتم الحصول على معرف العميل في الخطوة 13 "إنشاء تطبيق خدمة ويب في Active Directory". 
-    + **سر عميل Azure Active Directory** - يتم الحصول على سر العميل في الخطوة 13 "إنشاء تطبيق خدمة ويب في Active Directory". 
+    + **معرف عميل Azure Active Directory** - يتم الحصول على معرف العميل في الخطوة 9 "إنشاء تطبيق خدمة ويب في Active Directory". 
+    + **سر عميل Azure Active Directory** - يتم الحصول على سر العميل في الخطوة 11 "إنشاء تطبيق خدمة ويب في Active Directory". 
     + **مورد Azure Active Directory** - يمثّل مورد Azure Active Directory عنوان URL الجذر لـ Finance and Operations. **ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
     + **مستأجر Azure Active Directory** - مستأجر Azure Active Directory المستخدم مع خادم Finance and Operations server: https://login.windows.net/your-AD-tenant-ID. على سبيل المثال: https://login.windows.net/contosooperations.onmicrosoft.com.
     <br>**ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
@@ -102,15 +102,11 @@ ms.lasthandoff: 11/03/2017
 عند فقدان جهاز أو تعرضه للاختراق، يجب إزالة حق الوصول إلى Finance and Operations للجهاز. تصف الخطوات التالية العملية الموصى بها لإزالة حق الوصول.
 
 1.  في Finance and Operations، انتقل إلى **إدارة النظام** &gt; **الإعداد** &gt; **تطبيقات Azure Active Directory**.
-2.  احذف السطر الذي يتوافق مع الجهاز الذي تريد إزالة حق الوصول الممنوح له. دوّن **"معرف العميل"** المستخدم للجهاز الذي تمت إزالته.
-3.  سجل دخولك إلى مدخل Azure التقليدي في <https://manage.windowsazure.com>.
-4.  انقر فوق أيقونة **Active Directory** في القائمة اليمنى، ثم انقر فوق الدليل المطلوب.
-5.  في القائمة العلوية، انقر فوق **التطبيقات**، ثم انقر فوق التطبيق الذي تريد تكوينه. سوف تظهر صفحة **"البدء السريع"** مع إمكانية تسجيل دخول أحادي ومعلومات تكوين أخرى.
-6.  انقر فوق علامة التبويب **تكوين**، وقم بالتمرير لأسفل وتأكد من أن **"معرف العميل"** للتطبيق هو نفسها كما في الخطوة 2 في هذا القسم.
-7.  انقر فوق الزر **حذف** في شريط الأدوات.
+2.  احذف السطر الذي يتوافق مع الجهاز الذي تريد إزالة حق الوصول الممنوح له. تذكر **معرف العميل** المستخدم للجهاز الذي تمت إزالته، أنك ستحتاجه فيما بعد.
+3.  سجل الدخول إلى مدخل Azure على <https://portal.azure.com>.
+4.  انقر فوق رمز **Active Directory** في القائمة اليسرى، وتأكد من أنك في الدليل الصحيح.
+5.  في القائمة، انقر فوق **عمليات تسجيل التطبيقات**، ثم انقر فوق التطبيق الذي تريد تكوينه. ستظهر صفحة **الإعدادات** مع معلومات التكوين.
+6.  تأكد من أن **معرف العميل** هو نفسه كما هو موضح في الخطوة 2 في هذا القسم.
+7.  انقر فوق الزر **حذف** في الجزء العلوي.
 8.  انقر فوق **نعم** في رسالة التأكيد.
-
-
-
-
 

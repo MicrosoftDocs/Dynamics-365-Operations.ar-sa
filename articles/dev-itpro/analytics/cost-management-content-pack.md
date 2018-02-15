@@ -3,7 +3,7 @@ title: "محتوى Power BI لإدارة التكلفة"
 description: "يوضح هذا الموضوع ما هو مدرج في محتوى Power BI لإدارة التكاليف."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 12/19/2017
 
 [!include[banner](../includes/banner.md)]
 
+> [ملاحظة] تم إهلاك حزمة المحتوى هذه كما هو موثق في [تم نشر حزم محتوى Power BI على PowerBI.com‬](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+
 
 يوضح هذا الموضوع ما هو مدرج في محتوى Power BI لإدارة التكاليف. 
-
-# <a name="overview"></a>نظرة عامة
 
 صُمم محتوى Microsoft Power BI لـ **إدارة التكاليف** لمحاسبي المخزون أو الأفراد العاملين في المؤسسة المسؤولين عن المخزون. يوفر محتوى Power BI لـ **لإدارة التكاليف** رؤية إدارية داخل المخزون ومخزون الأعمال تحت التنفيذ، وكيفية تدفق التكلفة من خلالهم عن طريق الأجور الإضافية لفئة. يمكن استخدام المعلومات أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
 

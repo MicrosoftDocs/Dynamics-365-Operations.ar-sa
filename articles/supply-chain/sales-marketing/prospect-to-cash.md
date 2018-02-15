@@ -3,12 +3,12 @@ title: "العميل المتوقع إلى النقدية"
 description: "يوفر هذاالموضوع نظرة عامة حول العميل المتوقع إلى النقدية بين Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition وMicrosoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: 
 ms.author: crytt
-ms.dyn365.ops.intro: July 2017 update
+ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: f169b0ee20a7ca0c8d05c8bdcf2c04d411722f01
-ms.openlocfilehash: ff166f89d13acbc3aefcbdb39f485881c81cb42c
+ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
+ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,16 +31,20 @@ ms.lasthandoff: 12/21/2017
 
 [!include[banner](../includes/banner.md)]
 
-يوفر العميل المتوقع إلى النقدية مزامنة مباشرة بين Dynamics 365 for Finance and Operations, Enterprise Edition و Dynamics 365 for Sales. تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Finance and Operations وSales. بينما تتدفق البيانات بين Finance and Operations وSales، يمكنك تنفيذ أنشطة المبيعات والتسويق في Sales والتعامل مع تنفيذ الأوامر باستخدام إدارة المخزون في Finance and Operations.
+يوفر العميل المتوقع إلى النقدية مزامنة مباشرة بين Dynamics 365 for Finance and Operations, Enterprise Edition و Dynamics 365 for Sales. تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Finance and Operations وSales. بينما تتدفق البيانات بين Finance and Operations وSales، يمكنك تنفيذ أنشطة المبيعات والتسويق في Sales والتعامل مع تنفيذ الأوامر باستخدام إدارة المخزون في Finance and Operations. 
+
+لمزيد من المعلومات حول العميل المتوقع لتكامل النقدية، شاهد هذا الفيديو القصير على YouTube:
+
+> [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
 
 في الإصدار الحالي، يوفر العميل المتوقع للنقدية الأنواع التالية من المزامنة المباشرة:
 
 - [المحافظة على الحسابات في Sales ومزامنتها مباشرة من Sales إلى Finance and Operations.](accounts-template-mapping-direct.md)
 - [المحافظة على المنتجات في Finance and Operations ومزامنتها مباشرةً إلى Sales](products-template-mapping-direct.md)
 - [‬‏‫المحافظة على جهات الاتصال في Sales ومزامنتها مباشرةً إلى جهات الاتصال أو العملاء في Finance and Operations‎](contacts-template-mapping-direct.md)
-- [مزامنة عرض أسعار المبيعات‬ مباشرةً من Sales إلى Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [مزامنة عرض أسعار المبيعات‬ مباشرةً من Sales إلى Finance and Operations (الإصدار المعلق للقالب)](sales-quotation-template-mapping-sales-fin.md)
 - [مزامنة عروض أسعار المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](sales-order-template-mapping-direct.md)
-- [مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎](sales-order-template-mapping-direct-two-ways.md)
+- [مزامنة أوامر المبيعات‬ مباشرةً بين Sales وFinance and Operations‎ (إصدار المعلق للقالب)](sales-order-template-mapping-direct-two-ways.md)
 - [مزامنة فاتورة المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](sales-invoice-template-mapping-direct.md)
 
 في الإصدارات السابقة، يوفر العميل المتوقع للنقدية الأنواع التالية من المزامنة غير المباشرة:
@@ -50,15 +54,19 @@ ms.lasthandoff: 12/21/2017
 - [المحافظة على المنتجات في Finance and Operations ومزامنتها إلى Sales](products-template-mapping.md)
 - [إنشاء عروض أسعار المبيعات في Sales ومزامنتها إلى Finance and Operations](sales-quotation-template-mapping.md)
 - [إنشاء أومر المبيعات في Finance and Operations ومزامنتها إلى Sales‎](sales-order-template-mapping.md)
-- [إنشاء فواتير المبيعات في Finance and Operations ومزامنتها إلى Sales](sales-invoice-template-mapping.md)
+- [إنشاء فواتير المبيعات في Finance and Operations ومزامنتها إلى Sales‎](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>متطلبات النظام لـ Finance and Operations
 
-لاستخدام حل العميل المتوقع للنقدية، يجب تثبيت المكونات التالية:
+يتم دعم العميل المتوقع لتكامل النقدية في الإصدارات التالية:
+
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition 7.3 (ديسمبر 2017)
+
+- Dynamics 365 for Finance and Operations،‏ Enterprise edition (ديسمبر 2017) - إصدار التطبيق 7.3.11971.56116 مع تحديث النظام الأساسي 12 (7.0.4709.41129)
 
 ### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise edition (يوليو 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017) مع تحديث النظام الأساسي 8 (إصدار التطبيق 7.2.11792.56024 مع إصدار النظام الأساسي 7.0.4565.16212)
+- Dynamics 365 for Finance and Operations،‏ Enterprise Edition (يوليو 2017) - مع تحديث النظام الأساسي 8 (إصدار التطبيق 7.2.11792.56024 مع إصدار النظام الأساسي 7.0.4565.16212).
 - الإصلاحات التالية مطلوبة:
 
     - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – يُمكّن هذا الإصلاح العاجل مزامنة أوامر المبيعات من Sales إلى Finance and Operations من خلال ميزة تكامل البيانات. كما يوفر العديد من التحسينات الأخرى.
@@ -68,7 +76,7 @@ ms.lasthandoff: 12/21/2017
     > [!NOTE]
     > تحتاج فقط إلى تثبيت KB4045570 لأن التثبيت يتضمن التغييرات من الإصلاحات الأخرى. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations إصدار 1611 (نوفمبر 2016) 
+### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations إصدار 1611 (نوفمبر 2016)
 
 - Dynamics 365 for Finance and Operations، إصدار 1611 (نوفمبر 2016) مع تحديث النظام الأساسي 8 أو إصدار أحدث
 
@@ -106,4 +114,6 @@ ms.lasthandoff: 12/21/2017
     2. حدد **إظهار الخيارات المتقدمة**.
     3. لإجراء تثبيت سريع، حدد منطقة. إذا حددت **لا أعرف**، فسيبحث النظام عن جميع المناطقن وستستغرق عملية التثبيت وقتًا أطول.
     4. أدخل اسم مستخدم وكلمة مرور مستخدم مسؤول لديه حقوق التثبيت.
+
+
 

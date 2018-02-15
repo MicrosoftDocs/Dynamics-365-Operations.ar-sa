@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 211442c7bd0d3079a5eb4f6d01944c0eddf533af
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 11/03/2017
 
 [![إنشاء وجهة الملف](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**ملاحظة:** يمكنك إنشاء وجهة ملف واحد لكل مكون مخرجات من التنسيق نفسه، مثل مجلد أو ملف تم تحديده في حقل **اسم الملف**. ويمكنك عندئذٍ تمكين الوجهات الفردية وتعطيلها لوجهة الملف في مربع الحوار **إعدادات الوجهة‬**. يُستخدم الزر **إعدادات** الزر للتحكم في كافة الوجهات لوجهة ملف محدد. في مربع الحوار **إعدادات الوجهة**، يمكنك التحكم في كل وجهة على حدة بإعداد الخيار **ممكّن‬** لها.
+> ![ملاحظة] يمكنك إنشاء وجهة ملف واحد لكل مكون مخرجات من التنسيق نفسه، مثل مجلد أو ملف تم تحديده في حقل **اسم الملف**. ويمكنك عندئذٍ تمكين الوجهات الفردية وتعطيلها لوجهة الملف في مربع الحوار **إعدادات الوجهة‬**. يُستخدم الزر **إعدادات** الزر للتحكم في كافة الوجهات لوجهة ملف محدد. في مربع الحوار **إعدادات الوجهة**، يمكنك التحكم في كل وجهة على حدة بإعداد الخيار **ممكّن‬** لها.
 
 [![مربع حوار إعدادات الوجهة](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -129,9 +129,9 @@ ms.lasthandoff: 11/03/2017
 | ERDeveloper                         | مطور التقارير الإلكترونية             | ERFormatDestinationConfigure        | تكوين وجهة ‏‫تنسيق التقارير الإلكترونية‬                |
 | ERFunctionalConsultant              | مستشار وظائف التقارير الإلكترونية | ERFormatDestinationConfigure        | تكوين وجهة ‏‫تنسيق التقارير الإلكترونية‬                |
 | PaymAccountsPayablePaymentsClerk    | موظف مدفوعات الحسابات الدائنة            | ERFormatDestinationRuntimeConfigure | تكوين وجهة ‏‫تنسيق التقارير الإلكترونية‬ أثناء وقت التشغيل |
-| PaymAccountsReceivablePaymentsClerk | موظف مدفوعات الحسابات المدينة         | ERFormatDestinationRuntimeConfigure | تكوين وجهة ‏‫تنسيق التقارير الإلكترونية‬ أثناء وقت التشغيل |
+| PaymAccountsReceivablePaymentsClerk | موظف مدفوعات الحسابات المدينة         | ERFormatDestinationRuntimeConfigure | تكوين وجهة ‏‫تنسيق إعداد التقارير الإلكترونية‬ أثناء وقت التشغيل |
 
-**ملاحظة:** يتم استخدام امتيازين في الواجبات السابقة. هذان الامتيازان لهما الأسماء نفسها للواجبات المناظرة: **ERFormatDestinationConfigure** و**ERFormatDestinationRuntimeConfigure**.
+> ![ملاحظة] يتم استخدام امتيازين في الواجبات السابقة. هذان الامتيازان لهما الأسماء نفسها للواجبات المناظرة: **ERFormatDestinationConfigure** و**ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>الأسئلة المتداولة
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>لقد قمت باستيراد تكوينات الإلكترونية، وأراها فقط على صفحة تكوينات التقارير الإلكترونية. ولكن لماذا لا يمكنني رؤيتها في صفحة وجهات التقارير الإلكترونية؟
@@ -154,7 +154,7 @@ ms.lasthandoff: 11/03/2017
 
 الشرط الأساسي هو أن يكون التنسيق متوفرًا في تكوينات التقارير الإلكترونية. إذا كان لديك تنسيق خاص بك، فافتح صفحة **وجهة التقارير الإلكترونية**، وأنشئ مرجعًا جديدًا إلى هذا التكوين. بعد ذلك، يجب أن يكون لديك أربع وجهات للملفات، واحدة لكل مكون مخرجات. أنشئ وجهة الملف الأول مع إعطائها اسم مثل **Folder**، وحدد اسم ملف يمثل مجلدًا في تكوينك. ثم انقر فوق **إعدادات**، وتأكد من أنه قد تم تعطيل كافة الوجهات. بالنسبة إلى وجهة الملف هذه، لن يتم إنشاء المجلد. بشكل افتراضي، وبسبب تبعيات التدرج الهرمي بين الملفات والمجلدات الأصلية، سوف تتصرف الملفات بنفس الطريقة. بعبارات أخرى، لن يتم إرسالها إلى أي مكان. لتجاوز هذا السلوك الافتراضي، يجب عليك إنشاء ثلاث وجهات ملفات إضافية، وجهة لكل ملف. في إعدادات الوجهة لكل ملف، يجب تمكين الوجهة التي يجب إرسال الملف إليها.
 
-# <a name="see-also"></a>راجع أيضًا
+## <a name="see-also"></a>راجع أيضًا
 
 [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 

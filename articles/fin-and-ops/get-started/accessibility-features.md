@@ -1,9 +1,9 @@
 ---
 title: "ميزات إمكانية الوصول"
-description: "يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة. على سبيل المثال، هناك ميزات للأشخاص الذين يستخدمون تقنيات مساعدة مرئية، مثل Windows Narrator."
+description: "يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات متعددة على استخدام Dynamics 365 for Finance and Operations، وEnterprise edition، وDynamics 365 for Retail، وDynamics 365 for Talent."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 11/16/2017
+ms.date: 01/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,16 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 158caf6c05515069b58121a72df1b7fe16bae236
-ms.openlocfilehash: bd71d2dee7ff7984f2088a64e9943b2541c88451
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 42b4f670dee95c073ce8dcca16afef83bbf78ff8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
-# <a name="accessibility-features"></a>ميزات إمكانية الوصول
+# <a name="accessibility-features"></a>ميزات إمكانية وصول ذوي الاحتياجات الخاصة
 
-يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة. على سبيل المثال، هناك ميزات للأشخاص الذين يستخدمون تقنيات مساعدة مرئية، مثل Microsoft Windows Narrator.
+يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات متعددة على استخدام Dynamics 365 for Finance and Operations، وEnterprise edition، وDynamics 365 for Retail، وDynamics 365 for Talent. على سبيل المثال، هناك ميزات للأشخاص الذين يستخدمون تقنيات مساعدة مرئية، مثل Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator والوصول إلى لوحة المفاتيح فقط
 
