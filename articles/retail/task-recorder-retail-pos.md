@@ -20,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
-ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
+ms.sourcegitcommit: 867c9952eb323a4c0566ec98c1a871041c0fd400
+ms.openlocfilehash: da749dec273be2afd8b6d24f4139746cebf5d741
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/01/2018
 
 ---
 
@@ -102,7 +102,7 @@ ms.lasthandoff: 12/14/2017
 باستطاعة مسجل المهام التقاط لقطات الشاشة‬ لواجهة مستخدم نقطة البيع الحديثة للبيع بالتجزئة بينما تقوم بتسجيل عملية تجارية. لتشغيل ميزة التقاط لقطات الشاشة‬، عيّن الخيار **التقاط لقطات الشاشة‬** إلى **نعم**، ثم قم بالتسجيل. بمجرد اكتمال التسجيل، انقر فوق **إيقاف** وقم بتنزيل مستند Word. سوف يحتوي المستند على الخطوات بلقطات الشاشة ذات الصلة.
 
 #### <a name="note"></a>عملة ورقية
-> وظيفة التقاط لقطات الشاشة‬ غير مدعومة في ‏‫نقطة بيع حديثة‬.
+> وظيفة التقاط لقطات الشاشة‬ غير مدعومة في نقطة بيع المجموعة‬.
 
 ### <a name="start-task-and-end-task"></a>بدء المهمة وإنهاء المهمة
 

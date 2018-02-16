@@ -3,7 +3,7 @@ title: "محتوى Power BI - الأداء المالي"
 description: "يصف هذا الموضوع محتوى Power BI \"الأداء المالي\"."
 author: kweekley
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,18 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 53d0654608e99aa85a5911d76397fbc7fadbf26e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>محتوى Power BI - الأداء المالي
 
 [!include[banner](../includes/banner.md)]
+
+> [ملاحظة] تم إهلاك حزمة المحتوى هذه كما هو موثق في [تم نشر حزم محتوى Power BI على PowerBI.com‬](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 يصف هذا الموضوع محتوى Microsoft Power BI **الأداء المالي**. إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى.
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
-ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -74,6 +75,11 @@ ms.lasthandoff: 11/11/2017
 
 ### <a name="follow-a-topic"></a>متابعة أحد الموضوعات
 لمتابعة أحد الموضوعات، انقر فوق الزر +متابعة أسفل مربع التعليق. ستحتاج إلى تسجيل الدخول لمتابعة الموضوع. راجع [‏‫أرسل لنا تعليق](#leave-us-a-comment) للحصول على التفاصيل.  
+
+### <a name="use-an-rss-feed"></a>استخدام موجز RSS
+للاشتراك في موجز RSS لجميع التحديثات لمحتوى "عمليات الموحدة"، استخدم الارتباط التالي من أحد المستعرضات التي تدعم مواجز RSS، مثل Internet Explorer أو إدارة موجز RSS: 
+
+[موجز RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>تقديم الملاحظات 
 إننا نُقدِّر ملاحظات العملاء فعلاً. يمكنك إما التعليق أو اقتراح تغييرات على المحتوى من خلال GitHub.
@@ -206,7 +212,7 @@ ms.lasthandoff: 11/11/2017
 
 [إنشاء الوثائق أو التدريب باستخدام تسجيلات المهام](../../dev-itpro/user-interface/task-recorder.md)
 
-[‎أدلة مهام جديدة أو محدثة (نوفمبر 2016))](new-task-guides-november-2016.md)
+[‎أدلة مهام جديدة أو محدثة (نوفمبر 2016)](new-task-guides-november-2016.md)
 [أدلة مهام جديدة أو محدثة (أغسطس 2016)](new-updated-task-guides-available-august-2016.md)
 [أدلة مهام جديدة أو محدثة (مايو 2016)](new-updated-task-guides-available-may-2016.md)
 [أدلة مهام جديدة أو محدثة (فبراير 2016)](new-task-guides-available-february-2016.md)

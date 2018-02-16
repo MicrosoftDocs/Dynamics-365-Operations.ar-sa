@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -104,7 +105,7 @@ ms.lasthandoff: 12/19/2017
 | متأخر               | 'أمر إنتاج'[إعلان الاكتمال] = TRUE && 'أمر إنتاج'[قيمة التأخير] = 1 |
 | مبكر                 | 'أمر إنتاج'[إعلان الاكتمال] = TRUE && 'أمر إنتاج'[أيام التأخير] \< 0 |
 | كامل               | 'أمر إنتاج'[كمية البضائع] \>= 'أمر إنتاج'[الكمية المجدولة] |
-| إعلان الاكتمال                | 'أمر إنتاج'[قيمة حالة الإنتاج] = 5 \|\| 'أمر إنتاج'[قيمة حالة الإنتاج] = 7 |
+| إعلان الاكتمال                | "أمر الإنتاج" [قيمة حالة الإنتاج] = 5 \|\| "أمر الإنتاج" [قيمة حالة الإنتاج] = 7 |
 | متأخر وكامل           | COUNTROWS(FILTER('أمر إنتاج', 'أمر إنتاج'[كامل] = TRUE && 'أمر إنتاج'[مؤجل] = TRUE)) |
 | متأخر \#                  | COUNTROWS(FILTER('أمر إنتاج', 'أمر إنتاج'[متأخر] = TRUE)) |
 | متأخر %                   | IFERROR( IF('أمر إنتاج'[متأخر \#] \<\> 0, 'أمر إنتاج'[متأخر \#], IF('أمر إنتاج'[إجمالي الأوامر] = 0, BLANK(), 0)) / 'أمر إنتاج'[إجمالي الأوامر], BLANK()) |

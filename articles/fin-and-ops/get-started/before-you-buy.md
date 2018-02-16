@@ -1,7 +1,7 @@
 ---
 title: "قبل الشراء"
 description: "إرشادات خطوة بخطوة لاستخدامها عند التفكير في شراء Dynamics 365 for Finance and Operations, Enterprise edition."
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="step-two-choose-a-deployment-option"></a>الخطوة الثانية: انتقاء خيار النشر
 يمكنك الآن نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition في السحابة أو في الموقع المحلي. تقدم عمليات النشر في السحابة خدمة ERP التي تديرها Microsoft بشكل كامل قبل Microsoft، بينما يتم نشر عمليات النشر المحلي محليًا داخل مركز بيانات العميل.
-للحصول على مزيد من المعلومات، راجع: [خيارات النشر](../../dev-itpro/deployment/choose-deployment-type.md) 
+
+يجب اتباع بعض الاعتبارات التالية عندما تختار محلي كخيار توزيع:
+- الاحتياجات التنظيمية واحتياجات التوافق غير متوفرة في [شهادات المجموعات](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- يُتطلب القيام بعملية أعمال غير متصلة باتصال إنترنت متقطع للوصول إلى Microsoft Dynamics Lifecycle Services‏‏ (LCS) لإدارة دورة حياة التطبيقات
+- [ميزات لا يتم تنفيذها حاليًا في عمليات التوزيع المحلي](features-not-implemented-on-prem.md)
+- [الحد الأدنى لمتطلبات البنية الأساسية](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> عمليات التوزيع المحلي لـ Microsoft Dynamics 365 for Finance and Operations،‏‏ Enterprise edition غير مدعومة على أي بنية أساسية للمجموعة العامة، بما في ذلك Azure. 
+
+للحصول على مزيد من المعلومات، راجع [خيارات التوزيع](../../dev-itpro/deployment/choose-deployment-type.md).
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>الخطوة الثالثة: شراء اشتراك وإدارته
 لاستكشاف خيارات الاشتراك، انتقل إلى صفحة تسعير [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). تحتوي هذه الصفحة على عدة خطط مختلفة لملاءمة احتياجات مؤسستك.
