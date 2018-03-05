@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>ضبط حجم الأجهزة للبيئات المحلية
+
+[!include[banner](../includes/banner.md)]
+
 قبل أن تبدأ عملية ضبط حجم الأجهزة والبنية الأساسية لبيئة محلية، عليك الاطلاع على [متطلبات النظام](system-requirements.md) و[إرشادات الإعداد والنشر](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) لتكوين فهم ثابت للبنية الأساسية. 
 
   **ملاحظة:** يُرجى إيلاء اهتمام بالغ بأفضل الممارسات لإعداد النظام للحصول على الأداء الأمثل. 
