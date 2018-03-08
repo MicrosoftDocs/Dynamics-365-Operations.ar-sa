@@ -18,13 +18,16 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 978870d36f6019845fd62c267ac66ca7c45d34a1
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 1994edc5d6c932be3a285f9bb328a05504c90f07
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 # <a name="generate-affordable-care-act-reports"></a><span data-ttu-id="30fad-103">إنشاء تقارير قانون الرعاية ميسورة التكلفة</span><span class="sxs-lookup"><span data-stu-id="30fad-103">Generate Affordable Care Act reports</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="30fad-104">تتوفر الوظيفة لمساعدة أصحاب الأعمال الذين يحتاجون إلى تعقب المعلومات التي يتم التبليغ عنها على النماذج 1095-B و1095-C لدعم جزء **Employer Mandate** من قانون الرعاية ميسورة التكلفة‬. لاحظ أن هذه الوظيفة ممكنة فقط بالنسبة للكيانات القانونية في الولايات المتحدة.‬</span><span class="sxs-lookup"><span data-stu-id="30fad-104">Functionality is available to assist employers that need to track the information reported on forms 1095-B and 1095-C in support of the **Employer Mandate** portion of the Affordable Care Act. Note this functionality is only enabled for legal entities in the United States.</span></span>
 
 ## <a name="getting-started"></a><span data-ttu-id="30fad-105">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="30fad-105">Getting started</span></span>

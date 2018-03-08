@@ -20,14 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 867c9952eb323a4c0566ec98c1a871041c0fd400
-ms.openlocfilehash: da749dec273be2afd8b6d24f4139746cebf5d741
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 12aa71843fa8b22eb7ae688ed3600168760d90da
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="task-recorder-and-help-for-pos"></a><span data-ttu-id="79995-103">مسجل المهام ونظام التعليمات في نقطة البيع</span><span class="sxs-lookup"><span data-stu-id="79995-103">Task recorder and Help for POS</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="79995-104">يصف هذا الموضوع كيفية استخدام مسجل المهام في نقطة بيع التجزئة الحديثة ونقطة بيع المجموعة.</span><span class="sxs-lookup"><span data-stu-id="79995-104">This topic describes how to use Task recorder in Retail Modern POS and Cloud POS.</span></span>
 

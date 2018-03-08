@@ -18,14 +18,17 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 21782c2906bb887290cfb1f08bea1734081d5c13
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="process-compensation"></a><span data-ttu-id="60ee1-103">معالجة التعويضات</span><span class="sxs-lookup"><span data-stu-id="60ee1-103">Process compensation</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="60ee1-104">تسمح لك معالجة التعويضات بحساب مبالغ التعويضات الأساسية الجديدة للموظفين استنادًا إلى تعديل الملكيات وأهداف الزيادة في الأهلية‬ والأداء.</span><span class="sxs-lookup"><span data-stu-id="60ee1-104">Compensation processing allows you to calculate new base compensation amounts for your employees based on equity adjustments, merit increase targets, and performance.</span></span> <span data-ttu-id="60ee1-105">يتناول هذا الموضوع التدفق الأساسي لمعالجة التعويضات لخطط التعويضات الثابتة من دون أخذ أداء الموظف في الاعتبار.</span><span class="sxs-lookup"><span data-stu-id="60ee1-105">This topic covers the basic flow of compensation processing for fixed compensation plans without factoring an employee's performance.</span></span>
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a><span data-ttu-id="60ee1-106">تخطيط مبالغ وموازنات التعويضات الجديدة</span><span class="sxs-lookup"><span data-stu-id="60ee1-106">Plan the new compensation amounts and budgets</span></span>

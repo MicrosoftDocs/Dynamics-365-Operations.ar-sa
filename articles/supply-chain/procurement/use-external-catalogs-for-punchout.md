@@ -19,14 +19,17 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: f755c1e46d5111282bfffdf751fe98beaa081a51
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 76d0c911bdddbc5a34644dc96ec13dd8fd53a338
 ms.contentlocale: ar-sa
 ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a><span data-ttu-id="354be-103">استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut</span><span class="sxs-lookup"><span data-stu-id="354be-103">Use external catalogs for PunchOut eProcurement</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="354be-104">باستخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut، لست بحاجة إلى الاحتفاظ بمعلومات حول منتجات للموردين في بياناتك الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="354be-104">By using external catalogs for PunchOut e-procurement, you don't have to maintain information about your vendors' products in your own master data.</span></span> <span data-ttu-id="354be-105">بدلاً من ذلك، يتم تحويل عربة التسوق في موقع ويب للمورد إلى بنود طلب تحتوي على معلومات صحيحة عن المنتجات.</span><span class="sxs-lookup"><span data-stu-id="354be-105">Instead, the shopping cart on a vendor's website is converted to requisition lines that have the correct product information.</span></span> 
 
 <span data-ttu-id="354be-106">يجب تجنب الاحتفاظ بأوصاف وأسعار منتجات الموردين في أصل منتجاتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="354be-106">You should avoid maintaining the descriptions and prices of your vendors’ products in your own product master data.</span></span> <span data-ttu-id="354be-107">بدلاً من ذلك استخدم الكتالوجات الخارجية للتدبير الإلكتروني PunchOut</span><span class="sxs-lookup"><span data-stu-id="354be-107">Instead, use external catalogs for PunchOut e-procurement.</span></span> <span data-ttu-id="354be-108">وبعد ذلك، عندما يقوم الموظفون بإنشاء طلبات، يمكنهم "الدخول" إلى موقع كتالوج خارجي لمورد (بمعنى آخر، يغادرون نظامك وينتقلون إلى موقع المورد).</span><span class="sxs-lookup"><span data-stu-id="354be-108">Then, when employees create requisitions, they can “punch out” to a vendor’s external catalog site (in other words, they leave your system and go to the vendor’s site).</span></span> <span data-ttu-id="354be-109">يمكن تحويل المنتجات التي تمت إضافتها إلى عربة التسوق في موقع ويب الخاص بالمورد إلى بنود طلب.</span><span class="sxs-lookup"><span data-stu-id="354be-109">The products that are added to the shopping cart on the vendor’s website can then be converted to requisition lines.</span></span> <span data-ttu-id="354be-110">وبالتالي، يمكنك الحصول على معلومات صحيحة عن المنتج: معرف المنتج والاسم والسعر وهكذا.</span><span class="sxs-lookup"><span data-stu-id="354be-110">Therefore, you get the correct product information: product ID, name, price, and so on.</span></span>

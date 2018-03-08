@@ -17,14 +17,16 @@ ms.author: tbisaacs
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bb0b97c7728f76d84b85fb5cfa209a0d3b2df3de
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 54caf2648766053ec5a662f48bd50a1ec9b8911a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="create-an-engaging-onboarding-experience"></a><span data-ttu-id="cf1fa-103">إنشاء تجربة إعداد تفاعلية</span><span class="sxs-lookup"><span data-stu-id="cf1fa-103">Create an engaging onboarding experience</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="cf1fa-104">من شأن إعداد الموظفين الجدد بطريقة جيدة أن يساعدهم على أداء عمالهم بطريقة تتسم بمزيد من الفاعلية إلى جانب اكتساب حس الانتماء إلى في دورهم الجديد.</span><span class="sxs-lookup"><span data-stu-id="cf1fa-104">When done effectively, onboarding helps new employees perform more effectively while also gaining a sense of belonging in their new role.</span></span> <span data-ttu-id="cf1fa-105">من شأن إعداد الموظفين الجدد أن يساعدهم على فهم دورهم الجديد بشكل أسرع وأدق، وسيحصلون على فوائد تتيح لهم تأسيس العلاقات التي يمكنها مساعدتهم على تحقيق النجاح.</span><span class="sxs-lookup"><span data-stu-id="cf1fa-105">Onboarding can help new employees understand their new role more quickly and accurately than they would have otherwise, and they get a head start on establishing relationships that can help them succeed.</span></span> <span data-ttu-id="cf1fa-106">بدلاً من ذلك، قد تؤدي تجربة إعداد الموظفين غير الفعالة إلى تساؤل هؤلاء حول صوابية قرارهم في الانضمام إلى مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="cf1fa-106">Alternatively, an ineffective onboarding experience might leave employees questioning their decision to join your organization.</span></span> <span data-ttu-id="cf1fa-107">بحسب دراسة أجرتها شركة Gartner في عام 2014، تبين أن ثلث المستجيبين تقريبًا والذين بلغ عددهم 1,005 أشخاص الذين غادروا وظيفتهم في غضون الأشهر الستة الأولى، قاموا بذلك لأن الإرشادات التي أعطيت لهم من قبل القيادة لم تكن واضحة أو لأن التدريب لم يكن فعالاً أو لأنهم لم يتمكنوا من تأسيس علاقة فعالة في بيئتهم الجديدة.</span><span class="sxs-lookup"><span data-stu-id="cf1fa-107">A study conducted by Gartner in 2014 found that nearly one third of the 1,005 respondents who quit a job within the first six months, did so because the guidelines they were given by their leadership weren't clear, their training wasn't effective, or because they didn't establish effective relationships in their new environment.</span></span>
 
