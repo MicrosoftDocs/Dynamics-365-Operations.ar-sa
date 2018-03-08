@@ -29,6 +29,8 @@ ms.lasthandoff: 02/01/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>مسجل المهام ونظام التعليمات في نقطة البيع
 
+[!include[banner](includes/banner.md)]
+
 يصف هذا الموضوع كيفية استخدام مسجل المهام في نقطة بيع التجزئة الحديثة ونقطة بيع المجموعة.
 
 <a name="overview"></a>نظرة عامة

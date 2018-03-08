@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>تسجيل استهلاك المواد باستخدام جهاز محمول
+
+[!include[banner](../includes/banner.md)]
+
 يصف هذا الموضوع سير عمل يمكّن تسجيل استهلاك المواد الخام في الإنتاج باستخدام جهاز محمول باليد.
 
 <a name="introduction"></a>مقدمة
