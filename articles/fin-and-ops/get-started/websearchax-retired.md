@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>تم إيقاف WebSearchAX
 
+[!include[banner](../includes/banner.md)]
+
 لقد اضطررنا إلى إيقاف عمل صفحة WebSearchAX. نوصيك باستخدام البحث في الموقع من محرك البحث المفضل لاستبدالها.  على سبيل المثال: 
 
 site:technet.microsoft.com dynamics ax 2012 "مصطلح البحث"

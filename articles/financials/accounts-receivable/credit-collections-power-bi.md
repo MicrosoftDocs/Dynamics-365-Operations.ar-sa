@@ -26,6 +26,8 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="credit-and-collections-management-power-bi-content"></a>محتوى Power BI - إدارة التحصيلات والائتمان
 
+[!include[banner](../includes/banner.md)]
+
 يوضح هذا الموضوع ما هو مدرج في محتوى Power BI **إدارة التحصيلات والائتمان**. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة

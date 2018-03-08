@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>مقارنة السحابة والميزة المحلية
 
+[!include[banner](../includes/banner.md)]
+
 يظهر هذا الموضوع ما إذا كانت كل ميزة متوفرة في هذه المنتجات:
 
 + Dynamics 365 for Finance and Operations, Enterprise Edition (السحابة)

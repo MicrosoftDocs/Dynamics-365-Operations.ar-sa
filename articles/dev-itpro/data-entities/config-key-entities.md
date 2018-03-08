@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>مفاتيح التكوين وكيانات البيانات
+
+[!include[banner](../includes/banner.md)]
+
 قبل استخدام كيانات البيانات لاستيراد أو تصدير البيانات، ننصح بأن تحدد أولاً تأثير مفاتيح التكوين على كيانات البيانات التي تخطط لاستخدامها. 
 
 لمزيد من المعلومات حول مفاتيح التكوين في Finance and Operations، راجع [تقرير أكواد التراخيص ومفاتيح التكوين](../sysadmin/license-codes-configuration-keys-report.md).

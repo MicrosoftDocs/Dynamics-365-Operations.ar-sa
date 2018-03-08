@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut
+
+[!include[banner](../includes/banner.md)]
+
 باستخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut، لست بحاجة إلى الاحتفاظ بمعلومات حول منتجات للموردين في بياناتك الرئيسية. بدلاً من ذلك، يتم تحويل عربة التسوق في موقع ويب للمورد إلى بنود طلب تحتوي على معلومات صحيحة عن المنتجات. 
 
 يجب تجنب الاحتفاظ بأوصاف وأسعار منتجات الموردين في أصل منتجاتك الخاصة. بدلاً من ذلك استخدم الكتالوجات الخارجية للتدبير الإلكتروني PunchOut وبعد ذلك، عندما يقوم الموظفون بإنشاء طلبات، يمكنهم "الدخول" إلى موقع كتالوج خارجي لمورد (بمعنى آخر، يغادرون نظامك وينتقلون إلى موقع المورد). يمكن تحويل المنتجات التي تمت إضافتها إلى عربة التسوق في موقع ويب الخاص بالمورد إلى بنود طلب. وبالتالي، يمكنك الحصول على معلومات صحيحة عن المنتج: معرف المنتج والاسم والسعر وهكذا.
