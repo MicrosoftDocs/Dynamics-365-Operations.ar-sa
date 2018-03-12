@@ -122,7 +122,7 @@
 ## [تاريخ ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](../supply-chain/cost-management/lifo-date-physical-value-marking.md)
 ## [ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](../supply-chain/cost-management/lifo-physical-value-marking.md)
 ## [تاريخ المتوسط المرجح](../supply-chain/cost-management/weighted-average-date.md)
-## [المتوسط المرجح مع القيمة الفعلية ووضع العلامات](../supply-chain/cost-management/weighted-average-physical-value-marking.md)
+## [المتوسط المرجح مع القيمة الفعلية والتمييز](../supply-chain/cost-management/weighted-average-physical-value-marking.md)
 ## [أوامر إدخال مخزن العزل](../supply-chain/inventory/quarantine-orders.md)
 ## [المتوسط المتحرك لسعر التكلفة](../supply-chain/cost-management/running-average-cost-price.md)
 ## [تتبع المتوسط المتحرك للتكلفة لكل بُعد مخزون](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
@@ -183,6 +183,7 @@
 ### [هندسة MPOS](dev-itpro/retail-modern-pos-architecture.md)
 ### [هندسة نشر متجر البيع بالتجزئة على الإنترنت](dev-itpro/retail-online-store-publishing-architecture.md)
 ### [محتوى Power BI لأداء قناة البيع بالتجزئة](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [شهادة معايير أمان بيانات تطبيق الدفع (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
 
 ## النشر والإصلاحات العاجلة
 ### [نظرة عامة على وحدة قياس متجر البيع بالتجزئة](dev-itpro/retail-store-system-begin.md)
