@@ -9,7 +9,7 @@
 ## [مكدس التطبيق وبنية الخادم](dev-tools/application-stack-server-architecture.md)
 ## [الحصول على نسخة تقييم](dev-tools/get-evaluation-copy.md)
 ## [التسجيل للاشتراك](dev-tools/sign-up-preview-subscription.md)
-## [الوصول إلى المثيلات](dev-tools/access-instances.md)
+## [نشر بيئة تطوير والوصول إليها](dev-tools/access-instances.md)
 ## [متطلبات نظام التطوير](dev-tools/development-system-requirements.md)
 ## تطبيق نموذجي لإدارة الأساطيل
 ### [تطبيق نموذجي لإدارة الأساطيل](dev-tools/fleet-management-sample.md)
@@ -355,12 +355,12 @@
 #### [نوع PartDesign](mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md)
 #### [نوع PartMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md)
 #### [نوع Row](mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md)
-#### [نوع Value](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md)
+#### [نوع القيمة](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md)
 #### [نوع ValueDesign](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [نوع ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # تكامل البيانات
-## [أنماط التكامل](data-entities/integration-overview.md)
+## [اختيار استراتيجية تكامل (استيراد/تصدير) البيانات](data-entities/integration-overview.md)
 
 ## واجهات API لتكامل البيانات
 ### [واجهة (API) لحزمة إدارة البيانات](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [تكامل البيانات باستخدام Common Data Service](data-entities/data-integration-cds.md) 
 #### [تكوين سيناريو العميل المتوقع إلى النقدية](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [مزامنة المنتجات من Finance and Operations للمنتجات في Sales‎](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [مزامنة الحسابات من Sales للعملاء في Finance and Operations‎](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [مزامنة جهات الاتصال من Sales لجهات الاتصال في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [مزامنة رؤوس وبنود عرض أسعار المبيعات‬ من Sales إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [مزامنة رؤوس وبنود أوامر المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [مزامنة رؤوس وبنود فواتير المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [مزامنة المنتجات من Finance and Operations للمنتجات في Sales‎](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [مزامنة الحسابات من Sales للعملاء في Finance and Operations‎](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [مزامنة جهات الاتصال من Sales لجهات الاتصال في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [مزامنة رؤوس وبنود عرض أسعار المبيعات‬ من Sales إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [مزامنة رؤوس وبنود أوامر المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [مزامنة رؤوس وبنود فواتير المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,8 +452,10 @@
 
 ## [إحضار قاعدة بياناتك الخاصة](analytics/export-entities-to-your-own-database.md)
 
+## [موارد للاستجابة لطلب بيانات القانون العام لحماية البيانات (GDPR)](gdpr/gdpr-home-page.md)
+
 # [الصفحة الرئيسية للتسليم المستمر](dev-tools/continuous-delivery-home-page.md)
-## [الأسئلة الشائعة للتطوير والتسليم المستمر](dev-tools/continuous-delivery-faq.md)
+## [الأسئلة المتداولة حول التطوير والتسليم المستمر](dev-tools/continuous-delivery-faq.md)
 ## [استثناء حزم الاختبار من إخراج البناء](dev-tools/exclude-test-packages.md)
 ## [إدارة نماذج الجهات الخارجية وحزم وقت التشغيل باستخدام التحكم بالمصادر](dev-tools/manage-runtime-packages.md)
 ## [نماذج الإصدار في البناء التلقائي](dev-tools/version-models-build.md)
@@ -504,7 +506,7 @@
 # النشر
 ## [نشر بيئة عرض توضيحي](deployment/deploy-demo-environment.md)
 
-## النشر عبر الشبكة السحابية
+## النشر عبر السحابة
 ### [إلحاق مدير موارد Azure](deployment/arm-onboarding.md)
 ### [Azure ExpressRoute وMicrosoft Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
@@ -515,7 +517,8 @@
 ### [إنشاء مشروع محلي](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [إعداد بيئات محلية ونشرها](deployment/setup-deploy-on-premises-environments.md)
 ### [تطوير النماذج المخصصة للبيئات المحلية ونشرها](deployment/develop-deploy-custom-models-on-premises.md)
-### [تطبيق التحديثات على عملية نشر على جهاز محلي](deployment/apply-updates-on-premises.md)
+### [تكوين الوكيل العكسي لبيئتك المحلية](deployment/onprem-reverseproxy.md)
+### [تطبيق التحديثات على عملية نشر محلي](deployment/apply-updates-on-premises.md)
 ### [إعادة النشر على عملية نشر محلي](deployment/redeploy-on-prem.md)
 ### [تحديث الوكيل المحلي](lifecycle-services/update-local-agent.md)
 ### [إعادة تكوين بيئتك](lifecycle-services/reconfigure-environment.md)
@@ -527,8 +530,8 @@
 ### [تثبيت حزمة قابلة للنشر](deployment/install-deployable-package.md)
 ### [استكشاف مشكلات تطبيق الحزمة وإصلاحها](deployment/deployable-package-troubleshooting.md)
 
-# [الترقية والترحيل](migration-upgrade/upgrade-home-page.md)
-## [ترقية من AX 2012 إلى Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
+# [الترقيات والتحديثات والإصلاحات العاجلة](migration-upgrade/upgrade-home-page.md)
+## [الترقية من AX 2012 إلى Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [ترقية AX 2012 - استخدام أداة محلل الترقية لوضع خطة للترقية](migration-upgrade/upgrade-analyzer-tool.md)
 ### [ترقية AX 2012 – استخدام خدمة ترقية الكود لتقدير الجهد](migration-upgrade/analyze-code-upgrade.md)
 ### [ترقية AX 2012 - نشر بيئة اختبار معزولة](migration-upgrade/analysis-sandbox.md)
@@ -555,22 +558,25 @@
 ### [تقسيم النماذج](dev-tools/model-split.md)
 ### [استخدام التفويضات لحل التبعيات بين النماذج](migration-upgrade/delegates-migration.md)
 
-
-## الترقية إلى تحديث جديد
+## الترقية إلى تحديث جديد (السحابة)
 ### [عملية النقل إلى التحديث الأخير](migration-upgrade/upgrade-latest-update.md)
-### [سياسة دورة حياة](migration-upgrade/versions-update-policy.md)
+### [سياسة دورة الحياة](migration-upgrade/versions-update-policy.md)
 ### [تطبيق التحديث الأخير للنظام الأساسي على بيئتك](migration-upgrade/upgrade-latest-platform-update.md)
 ### [ترقية النظام الأساسي لـ Dynamics إلى إصدار أغسطس 2016](migration-upgrade/update-platform-each-release.md)
 ### [ترقية بيئة الاختبار المعزولة](migration-upgrade/upgrade-sandbox-environment.md)
-### [ترقية البيانات في بيئة تطوير أو بيئة عرض توضيحي](migration-upgrade/upgrade-data-to-latest-update.md)
-### [ترقية أدوات التطوير](dev-tools/update-development-tools.md)
-### [تطبيق التحديثات على عملية نشر على جهاز محلي](deployment/apply-updates-on-premises.md)
+### [ترقية البيانات في بيئات التطوير أو العرض التوضيحي](migration-upgrade/upgrade-data-to-latest-update.md)
+### [تحديث أدوات التطوير](dev-tools/update-development-tools.md)
+
+## الترقية إلى تحديث جديد (محلي)
+### [تطبيق التحديثات على عملية نشر محلي](deployment/apply-updates-on-premises.md)
 ### [إعادة النشر على عملية نشر محلي](deployment/redeploy-on-prem.md)
 
-## الإصلاحات العاجلة والخدمة
+## الإصلاحات العاجلة
 ### [تنزيل الإصلاحات العاجلة من Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
+### [تطبيق التحديثات على بيئة السحابة](deployment/apply-deployable-package-system.md)
 ### [تثبيت إصلاح عاجل لبيانات التعريف](migration-upgrade/install-metadata-hotfix-package.md)
-### [خدمات تقارير التصحيح في بيئة one-box](migration-upgrade/patch-reporting-service-environment.md)
+### [تصحيح خدمات إعداد التقارير في بيئة one-box](migration-upgrade/patch-reporting-service-environment.md)
+### [تحديث أدوات تطوير Visual Studio](dev-tools/update-development-tools.md)
 
 ## عمليات الإهلاك
 ### [واجهات API القديمة](migration-upgrade/deprecated-apis.md)

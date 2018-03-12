@@ -1,7 +1,7 @@
 ---
 title: "المسارات والعمليات"
 description: "يقدم هذا الموضوع معلومات حول المسارات والعمليات."
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

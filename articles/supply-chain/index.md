@@ -1,9 +1,9 @@
 ---
 title: "الصفحة الرئيسية لإدارة سلسة التوريد"
-description: "يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "توفر هذه الصفحة قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 01/22/2018
 حدد منطقة ميزة لمعرفة المزيد حول هذا الموضوع.
 
 - [محاسبة التكاليف](../financials/cost-accounting/cost-accounting-home-page.md)
-- [إدارة التكلفة](cost-management/costing-sheets.md)  
+- [إدارة التكلفة](cost-management/cost-management-home-page.md)  
 - [إدارة المخزون](inventory/inventory-home-page.md)
 - [التخطيط الرئيسي](master-planning/master-planning-home-page.md)
 - [التدبير وتحديد الموارد](procurement/procurement-sourcing-overview.md)
@@ -56,6 +56,7 @@ ms.lasthandoff: 01/22/2018
 
 -  [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg) 
 -  [مرشد تحسين الأداء](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [استخدام قالب المستودع لنسخ التكوين](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (يوليو 2017).
 
@@ -67,17 +68,36 @@ ms.lasthandoff: 01/22/2018
 
 تناقش تسجيلات المؤتمرات التقنية هذه وظائف المنتج في الإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي. 
 
--  <a href="https://youtu.be/zotrj3SbCl4">مكون المنتج في Microsoft Dynamics AX</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها</a>
--  <a href="https://youtu.be/RLXybx20B5o">التعليمات! تخطيط متطلبات المواد بطيء!</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">معالجة إشعارات ASN الواردة في إدارة المستودعات</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">الاستفادة بأفضل صورة من نظام إدارة المستودعات</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">إدارة المستودعات إصدار R3 المتقدم -معالجة الوارد و‏‫الحد الأدنى/الحد الأقصى لعملية التزويد‬</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">إدارة المستودعات إصدار R3 المتقدم -يوم من الحياة، ومعالجة الصادر وتزويد الطلب</a>
--  <a href="https://youtu.be/5w1MngVchBA">التسميات في إدارة مستودعات Microsoft Dynamics AX 2012 R3 الجديد</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: إدارة المستودعات - يوم في حياة التصنيع التحويلي</a>
--  <a href="https://youtu.be/y1jrd3A_k70">عمليات وأنشطة التعاقد من الباطن في التصنيع</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">إدارة النقل (TMS) في Microsoft Dynamics AX الجديد</a>
+**إدارة التكلفة**
+
+-  [نظرة عامة على إدارة التكلفة](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**التخطيط الرئيسي**
+
+-  [توسيع وظيفة التنبؤ بالطلب](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها](https://youtu.be/7v8BPmEs9Dg)
+-  [التعليمات! تخطيط متطلبات المواد (MRP) بطيء!](https://youtu.be/RLXybx20B5o)
+
+**إدارة معلومات المنتج**
+
+-  [مكون المنتج في Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**إدارة المستودعات** 
+
+-  [معالجة إشعارات ASN الواردة في إدارة المستودعات](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [الاستفادة إلى أقصى حد من نظام إدارة المستودعات](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [إدارة المستودعات المتقدمة R3 - معالجة الوارد و‏‫الحد الأدنى/الحد الأقصى لعملية التزويد‬](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [إدارة المستودعات المتقدمة R3 - يوم من الحياة، ومعالجة الصادر وتزويد الطلب](https://youtu.be/Og0gLlVp7jA)
+-  [التسميات في إدارة مستودعات Microsoft Dynamics AX 2012 R3 الجديد](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: إدارة المستودعات المتقدمة - يوم في حياة التصنيع التحويلي](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**التحكم بالإنتاج**
+
+-  [عمليات وأنشطة التعاقد من الباطن في التصنيع](https://youtu.be/y1jrd3A_k70)
+
+**إدارة النقل**
+
+-  [إدارة النقل (TMS) في Microsoft Dynamics AX الجديد](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>المدونات
 هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد ضمن <a href="https://blogs.msdn.microsoft.com/axmfg/">مدونة فريق بحث وتطوير Dynamics AX Manufacturing</a> و<a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX</a>. وقد تمت كتابة معظم هذه المنشورات للإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي. 

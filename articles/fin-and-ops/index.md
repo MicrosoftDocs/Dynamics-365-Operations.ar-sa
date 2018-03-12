@@ -3,7 +3,7 @@ title: "وثائق Microsoft Dynamics 365 for Finance and Operations،‏ Enterp
 description: "وثائق Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition."
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -42,13 +42,17 @@ ms.lasthandoff: 11/13/2017
 <td>
 <h3><a href="get-started/before-you-buy.md">قبل الشراء</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">التسجيل للاشتراك في المعاينة</a></p>
- <p><a href="../dev-itpro/deployment/choose-deployment-type.md">اختيار خيار توزيع</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-  <p><a href="get-started/purchase-on-premises.md">شراء Finance and Operations (محلي)</a></p>
+ <p><a href="../dev-itpro/deployment/choose-deployment-type.md">اختيار خيار نشر</a></p>
+ <p><a href="get-started/purchase-on-premises.md">شراء Finance and Operations (محلي)</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">دورة حياة التطبيق</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">إعداد مشروع</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">الإعداد للعرض المباشر</a></p>
+  
 <h3><a href="../financials/index.md">الإدارة المالية</a></h3>
-<p><a href="../financials/accounts-payable/accounts-payable.md">حسابات دائنة</a></p>
-<p><a href="../financials/accounts-receivable/accounts-receivable.md">حسابات مدينة</a></p>
+<p><a href="../financials/accounts-payable/accounts-payable.md">الحسابات الدائنة</a></p>
+<p><a href="../financials/accounts-receivable/accounts-receivable.md">الحسابات المدينة</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">إعداد الموازنة</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">إدارة النقد والبنوك</a></p>
 <p><a href="../financials/general-ledger/audit-policy-rules.md">توافق</a></p>
@@ -99,7 +103,8 @@ ms.lasthandoff: 11/13/2017
 <p><a href="get-started/demo-data.md">بيانات العرض التوضيحي</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">الإدارة</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">النشر</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">النشر عبر السحابة</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">النشر المحلي</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">الترقية</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">الخدمة</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">إطار عمل إدارة البيانات</a></p>
