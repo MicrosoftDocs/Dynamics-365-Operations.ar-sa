@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ ms.lasthandoff: 01/23/2018
 -   [طرق إهلاك الأصول الثابتة](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [نقل أصل ثابت إلى المخزون](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [الأصول الثابتة ذات التكلفة المنخفضة](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>الهند
+
+- [الأصول الثابتة](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [تحويل عناصر رأس المال إلى الأصل الثابت](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [إرفاق تقويم يستند إلى الأيام بدفتر أصول ثابتة](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [إعداد المعلمات لحساب الإهلاك](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [إعداد إهلاك مجموعة أصول لدفاتر الإهلاك](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [إنشاء مجموعة نماذج المخزون لعناصر رأس المال](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [حساب إهلاك ورديات العمل للأصول الثابتة في الهند](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [تحديد نوع وردية العمل‬ والمجال للدفاتر وإرفاقه بالأصل الثابت](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [نظرة عامة على محرك الضريبة](../../financials/general-ledger/tax-engine.md)
+    - [تكامل محرك الضريبة](../../financials/general-ledger/tax-engine-integration.md)
+    - [الأسئلة المتداولة حول حدود الضريبة](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [توسيع محرك الضريبة](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>إيطاليا
 

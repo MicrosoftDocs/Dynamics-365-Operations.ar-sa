@@ -26,6 +26,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>تكوين خدمات SQL Server Reporting Services للنشر المحلي
 
+[!include[banner](../includes/banner.md)]
+
 استخدم الخطوات الواردة في هذا الموضوع لتكوين SQL Server Reporting Services (SSRS) لعملية نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (محلي).
 
 1. افتح تطبيق إدارة تكوين خدمات التقارير.
