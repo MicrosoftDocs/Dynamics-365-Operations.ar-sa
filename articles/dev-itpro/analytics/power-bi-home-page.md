@@ -3,7 +3,7 @@ title: "محتوى Power BI"
 description: "يسرد هذا الموضوع محتوى Power BI المتوفر ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عنه."
 author: sericks007
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
-ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -42,6 +42,7 @@ ms.lasthandoff: 02/02/2018
 - [محتوى Power BI لتحليل محاسبة التكاليف](cost-accounting-analysis-content-pack.md) 
 - [محتوى Power BI - إدارة التحصيلات والائتمان](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [محتوى Power BI - تطوير الموظفين](employee-development-PBI.md) 
+- [محتوى Power BI المعلومات المالية](financial-insights.md)
 - [محتوى Power BI - الأداء المالي](financial-performance-power-bi-content-pack.md)
 - [محتوى Power BI - ‏‫إدارة الأصول الثابتة‬](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [محتوى Power BI - ‏‫التعلم‬](learning-power-bi.md)
@@ -73,6 +74,9 @@ ms.lasthandoff: 02/02/2018
 
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>محتوى Power BI لـ Microsoft Dynamics AX
 إذا كنت تستخدم الإصدار Microsoft Dynamics AX 7.0 أو Microsoft Dynamics AX 7.0.1، يتوفر المحتوى التالي:
+
+> [!Note]
+> تم إهلاك حزم المحتوى هذه كما هو موثق في [حزم محتوى Power BI المنشورة في PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 - [محتوى Power BI لإدارة التكلفة](cost-management-content-pack.md)    
 - [محتوى Power BI - الأداء المالي](financial-performance-power-bi-content-pack.md)

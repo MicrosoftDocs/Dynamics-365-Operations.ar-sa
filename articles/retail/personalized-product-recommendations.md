@@ -3,7 +3,7 @@ title: "نظرة عامة على توصيات المنتجات المخصصة"
 description: "يحتوي هذا الموضوع على معلومات حول توصيات منتج Dynamics 365 for Retail التي يمكن عرضها على جهاز نقطة البيع."
 author: ashishmsft
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 942d6225a46b108ea39d3b8e4376b644c128ae6d
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: ce91f675082a34bd5a1e88be7a7af6884dc47add
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/14/2017
 
 
 > [!NOTE]
-> تتوفر هذه الميزة حاليًا في مخططات نشر بيئة وضع الحماية والإنتاج (توافر عالٍ). 
+> إننا نعمل على إزالة الإصدار الحالي من خدمة توصيات المنتجات، إذا سنعيد تصميم هذه الميزة من خلال خوارزمية أفضل وقدرات أحدث موجهة نحو البيع بالتجزئة. للحصول على مزيد من المعلومات راجع [الميزات المهلكة أو التي تمت إزالتها‬](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). 
 
 في Dynamics 365 for Retail، يمكن عرض توصيات المنتج على جهاز نقطة البيع. وتُعد التوصيات هي الأصناف التي قد يكون عميلك مهتم بها بناءً على محفوظات الشراء الخاصة بهم، والأصناف الموجودة في قائمة الأمنيات الخاصة بهم، والأصناف التي قام العملاء الآخرين بشرائها عبر الإنترنت والمتاجر التقليدية. لتجار التجزئة مع الكتالوجات الكبيرة، تساعد التوصيات العميل في اكتشاف المنتج. من خلال عرض منتجات تستهدف اهتمامات العملاء والعادات الشرائية، يمكن لتوصيات المنتج مساعدة تجار التجزئة في عمليات البيع الإضافي والبيع التكميلي، ويمكنها تحسين آلية الاحتفاظ بالعملاء. في Dynamics 365 for Retail، يتم تشغيل توصيات المنتج من خلال الخدمات الإدراكية والتعلم الآلي من Microsoft Azure.
 
