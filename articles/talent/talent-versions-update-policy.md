@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7bcc8464d34c35423e86c963c6b493fc09db4472
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/03/2017
 > * تم بدء تشغيل محرر سير العمل كتطبيق ClickOnce. تدعم Microsoft Edge و Internet Explorer فقط (على الإصدارات المعتمدة من Microsoft Windows) تطبيقات ClickOnce. يتطلب تطبيق ClickOnce محرر سير العمل نظام تشغيل متوافق 64 بت.
 > * لمعاينة ملفات PDF، ننصح باستخدام المستعرضات الحديثة مثل Microsoft Edge (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Google Chrome (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو الكمبيوتر اللوحي Google Nexus 10.
 متطلبات الشبكة
-> * تم تصميم Dynamics 365 for Talent للشبكات ذات زمن وصول من 250-300 مللي ثانية أو أقل. هذا هو زمن الوصول من عميل مستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Dynamics 365 for Talent. نوصي بأن تقوم باختبار زمن وصول الشبكة في [www.azurespeed.com] (http://www.azurespeed.com "Azure Latency Test").
+> * تم تصميم Dynamics 365 for Talent للشبكات ذات زمن وصول من 250-300 مللي ثانية أو أقل. هذا هو زمن الوصول من عميل مستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Dynamics 365 for Talent. نوصي باختبار زمن وصول الشبكة على [www.azurespeed.com] (http://www.azurespeed.com "اختار زمن وصول Azure").
 > * تتوقف متطلبات عرض النطاق الترددي لـ Dynamics 365 for Talent على السيناريو لديك. تتطلب السيناريوهات الأكثر شيوعاً عرض نطاق ترددي لأكثر من 50 كيلو بايت في الثانية (KBps).
 
 > [!WARNING]
@@ -56,12 +56,12 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="supported-microsoft-office-applications"></a>تطبيقات Microsoft Office المعتمدة
 
-*   لتثبيت الوظائف الإضافية لـ Microsoft Excel و Word، يجب أن يكون لديك Microsoft Office 2016 لـ Windows أو Mac مثبتًا. للحصول على مزيد من التفاصيل حول متطلبات الإصدار، راجع [استكشاف وإصلاح مشاكل تكامل Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md "استكشاف وإصلاح مشاكل تكامل Office").
+*   لتثبيت الوظائف الإضافية لـ Microsoft Excel و Word، يجب أن يكون لديك Microsoft Office 2016 لـ Windows أو Mac مثبتًا. للحصول على مزيد من التفاصيل حول متطلبات الإصدار، راجع [استكشاف أخطاء تكامل Office‏ وإصلاحها] (../dev-itpro/office-integration/office-integration-troubleshooting.md "استكشاف أخطاء تكامل Office‏ وإصلاحها").
 *   لعرض المستندات التي تم إنشاؤها بواسطة التصدير إلى وظائف Word أو التصدير إلى Excel، يجب عليك تثبيت Microsoft Office 2007 أو الإصدار الأحدث.
 
 ## <a name="update-policy"></a>سياسة التحديث
 
 تتم خدمة Microsoft Dynamics 365 for Talent على أنه عرض سحابة. يتم تحديث Dynamics 365 for Talent بشكل مستمر، ويتم تطبيق التحديثات تلقائيًا بواسطة Microsoft.
 
-يتم إصدار التحديثات في وتيرة منتظمة، وستخضع جميع البيئات لعمليات التحديث.  يتم دعم Dynamics 365 for Talent تماشيًا مع [سياسة Microsoft Support Lifecycle] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle")، التي توفر إرشادات متناسقة ومتوقعة لتوافر دعم المنتج.
+يتم إصدار التحديثات في وتيرة منتظمة، وستخضع جميع البيئات لعمليات التحديث.  يتم دعم Dynamics 365 for Talent تماشيًا مع [سياسة دورة حياة دعم Microsoft] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "دورة حياة دعم Microsoft")، التي توفر إرشادات متناسقة ومتوقعة لتوفر دعم المنتج.
 

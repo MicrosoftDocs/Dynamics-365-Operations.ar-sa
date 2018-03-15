@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> يوضح هذا الموضوع كيفية تكوين التخزين لعمليات توزيع المجموعة. إذا كنت تبحث عن كيفية تكوين التخزين لعمليات التوزيع المحلي، فيُرجى مراجعة [التخزين لعمليات التوزيع المحلية](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> يوضح هذا الموضوع كيفية تكوين التخزين لعمليات توزيع المجموعة. إذا كنت تبحث عن كيفية تكوين التخزين لعمليات التوزيع المحلي، فيُرجى مراجعة [التخزين لعمليات التوزيع المحلية](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين
 
@@ -44,7 +46,7 @@ ms.lasthandoff: 01/15/2018
 
 | النظام الأساسي                    | ‏‏الإصدار                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4 و5.0 و6.0                                                                                                                                                               |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows ‏(UWP)               | Windows 10 (كل الإصدارات)                                                                                                                                                   |
 | Finance and Operations | Microsoft Dynamics 365 for Operations، الإصدار 1611 <br>-أو - <br>الإصدار 7.0/7.0.1 من Microsoft Dynamics AX وتحديث النظام الأساسي لـ Dynamics AX 2 مع الإصلاح العاجل KB 3210014 |
 
@@ -93,7 +95,7 @@ ms.lasthandoff: 01/15/2018
     + **معرف عميل Azure Active Directory** - يتم الحصول على معرف العميل في الخطوة 9 "إنشاء تطبيق خدمة ويب في Active Directory". 
     + **سر عميل Azure Active Directory** - يتم الحصول على سر العميل في الخطوة 11 "إنشاء تطبيق خدمة ويب في Active Directory". 
     + **مورد Azure Active Directory** - يمثّل مورد Azure Active Directory عنوان URL الجذر لـ Finance and Operations. **ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
-    + **مستأجر Azure Active Directory** - مستأجر Azure Active Directory المستخدم مع خادم Finance and Operations server: https://login.windows.net/your-AD-tenant-ID. على سبيل المثال: https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **مستأجر Azure Active Directory** - مستأجر دليل Azure AD المستخدم مع خادم Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. على سبيل المثال: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
     + **الشركة** -أدخل الكيان القانوني في Finance and Operations الذي تريد أن يتصل به التطبيق. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  حدد زر **السابق** في الزاوية العلوية اليمنى من التطبيق. سيتصل الآن التطبيق بخادم Finance and Operations وستظهر شاشة تسجيل الدخول لعامل المستودع. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
@@ -103,7 +105,7 @@ ms.lasthandoff: 01/15/2018
 
 1.  في Finance and Operations، انتقل إلى **إدارة النظام** &gt; **الإعداد** &gt; **تطبيقات Azure Active Directory**.
 2.  احذف السطر الذي يتوافق مع الجهاز الذي تريد إزالة حق الوصول الممنوح له. تذكر **معرف العميل** المستخدم للجهاز الذي تمت إزالته، أنك ستحتاجه فيما بعد.
-3.  سجل الدخول إلى مدخل Azure على <https://portal.azure.com>.
+3.  سجل الدخول إلى مدخل Azure على العنوان <https://portal.azure.com>.
 4.  انقر فوق رمز **Active Directory** في القائمة اليسرى، وتأكد من أنك في الدليل الصحيح.
 5.  في القائمة، انقر فوق **عمليات تسجيل التطبيقات**، ثم انقر فوق التطبيق الذي تريد تكوينه. ستظهر صفحة **الإعدادات** مع معلومات التكوين.
 6.  تأكد من أن **معرف العميل** هو نفسه كما هو موضح في الخطوة 2 في هذا القسم.

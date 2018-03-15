@@ -1,5 +1,5 @@
 ---
-title: "عمليات POS"
+title: "عمليات نقطة البيع، أثناء الاتصال وعدم الاتصال"
 description: "يوفر هذا الموضوع تفاصيل حول عمليات نقطة البيع (POS) في Microsoft Dynamics 365 for Retail. ويحدد المكان في التطبيق حيث يمكن استدعاء العمليات، وما إذا كانت متوفرة في الوضع \"غير متصل\".‬"
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
-# <a name="pos-operations"></a>عمليات POS
+# <a name="pos-operations-online-and-offline"></a>عمليات نقطة البيع، أثناء الاتصال وعدم الاتصال
+
+[!include[banner](includes/banner.md)]
+
 تعتبر معظم الإجراءات التي يتخذها المستخدم في النقطة البيع (POS) من العمليات. ويتم تكوين العمليات وإدارتها في مكتب Microsoft Dynamics 365 for Retail الخلفي. يمكن إضافة العديد من العمليات إلى الأزرار في شريط الأوامر لنقطة البيع. بعد ذلك، يتمكن المستخدمون من تحديد الأزرار لاستدعاء العمليات والقيام بوظيفتها. تكون العمليات الأخرى جزءًا من تطبيق نقطة البيع الأساسي، ويتم استدعاؤها إما من الأزرار التي تظهر على الشاشة أو كجزء من عمليات سير العمل أو عمليات أخرى.
 
 يوفر الجدول التالي تفاصيل حول العمليات المتوفرة في ‏‫نقطة البيع الحديثة للبيع بالتجزئة ونقطة بيع المجموعة لـ Dynamics 365 for Retail. يحدد الجدول أيضًا المكان في التطبيق حيث يمكن استدعاء العمليات، وما إذا كانت متوفرة عندما تكون نقطة البيع في الوضع "غير متصل".‬

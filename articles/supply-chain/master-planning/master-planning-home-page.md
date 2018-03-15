@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a24f75bf7e27702505d8a61ae3db83d03fe4a933
-ms.openlocfilehash: a2e91cd2b72ffed78669fe3cc83b141db6f26aa2
+ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
+ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -80,6 +80,10 @@ ms.lasthandoff: 11/29/2017
 ### <a name="webinars"></a>الندوات عبر الإنترنت
 [استخدام التعلم الآلي من Azure للتنبؤ بالطلب](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)
 
+### <a name="tech-conference-recordings"></a>تسجيلات المؤتمر التقني
+-  [توسيع وظيفة التنبؤ بالطلب](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها](https://youtu.be/7v8BPmEs9Dg)
+-  [التعليمات! تخطيط متطلبات المواد بطيء!](https://youtu.be/RLXybx20B5o)
 
 
 

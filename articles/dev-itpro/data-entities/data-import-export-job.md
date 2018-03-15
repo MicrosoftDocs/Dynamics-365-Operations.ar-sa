@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
+ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
+ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -50,6 +50,9 @@ ms.lasthandoff: 01/19/2018
 6. نظف الجداول المرحلية.
 
 توفر المقاطع المتبقية من هذا الموضوع تفاصيل إضافية حول كل خطوة من خطوات العملية.
+
+> [!NOTE]
+> لكي يتم تحديث نموذج استيراد/تصدير البيانات للاطلاع على التقدم الأخير الذي حصل، استخدم أيقونة تحديث النموذج. من غير المستحسن إجراء التحديث على مستوى المستعرض لأنه سوف يقاطع أي وظائف استيراد/تصدير لا يتم تشغيلها على دُفعات.
 
 ## <a name="create-an-import-or-export-job"></a>إنشاء وظيفة استيراد أو تصدير
 يمكن تشغيل وظيفة استيراد البيانات أو تصديرها مرة واحدة أو مرات كثيرة.

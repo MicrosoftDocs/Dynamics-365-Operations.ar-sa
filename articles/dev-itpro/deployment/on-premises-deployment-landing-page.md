@@ -3,14 +3,14 @@ title: "عمليات النشر المحلي"
 description: "يوفر هذا الموضوع معلومات وارتباطات إلى محتوى يتعلق بعمليات النشر المحلي."
 author: kfend
 manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core
+ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>الصفحة المقصودة لعملية النشر المحلي
@@ -31,6 +31,7 @@ ms.lasthandoff: 12/20/2017
 يمكنك نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (محلي). عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة. يوفر هذا الموضوع ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.
 
 ## <a name="get-started"></a>بدء الاستخدام
+- [ما الجديد أو المتغير في عمليات النشر المحلي لتطبيق Dynamics 365 for Finance and Operations, Enterprise edition 7.2 مع تحديث النظام الأساسي 12 (مارس 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
 - [نظرة عامة على Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](on-premises-overview.md)
 - [التخطيط لعمليات النشر المحلي الخاصة بك](plan-onprem-deployment.md)
 - [متطلبات النظام لعمليات النشر المحلي](../../fin-and-ops/get-started/system-requirements-on-prem.md)
@@ -50,6 +51,7 @@ ms.lasthandoff: 12/20/2017
 - [تكوين إدارة المستندات](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [استيراد تكوينات إعداد التقارير الإلكترونية](../analytics/electronic-reporting-import-ger-configurations.md)
 - [إمكانات إنشاء مستند، والنشر، والطباعة في عمليات النشر المحلي](../analytics/printing-capabilities-on-premises.md)
+- [تكوين الوكيل العكسي لبيئتك المحلية](onprem-reverseproxy.md)
 - [إعداد الدعم الفني](../lifecycle-services/support-experience.md)
 - [استكشاف أخطاء اتصال إنترنت العميل وإصلاحها](../user-interface/client-disconnected.md)
 - [تطبيق التحديثات على عملية نشر على جهاز محلي](apply-updates-on-premises.md)

@@ -3,7 +3,7 @@ title: "مقارنة السحابة والميزة المحلية"
 description: "يُظهر الموضوع الميزات المعتمدة في السحابة وفي الموقع المحلي."
 author: robinarh
 manager: AnnBe
-ms.date: 11/29/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
-ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
+ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
+ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -49,8 +49,9 @@ ms.lasthandoff: 12/01/2017
 | | حزمة محتوى إدارة التكلفة‬‏‫ لـ Power BI | نعم | لا |
 | إدارة البيانات وتكاملها| | نعم | نعم |
 | | ملحق يعتمد على التكوين| نعم | لا |
-| | تصدير البيانات إلى مستودع بياناتك| نعم | لا |
+| | تصدير البيانات إلى مستودع بياناتك| نعم | نعم |
 | | تمكين تصدير التحديثات التزايدية إلى كيان بيانات | نعم | لا |
+| | عمليات تكامل متكررة                 |نعم | لا|
 | إدارة المستندات| | نعم| نعم |
 | الإدارة المالية|  | نعم | نعم |
 | تعليمات| | نعم | لا |

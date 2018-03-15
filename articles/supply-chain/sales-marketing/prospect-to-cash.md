@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ ms.lasthandoff: 01/25/2018
 - [مزامنة عروض أسعار المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](sales-order-template-mapping-direct.md)
 - [مزامنة أوامر المبيعات‬ مباشرةً بين Sales وFinance and Operations‎ (إصدار المعلق للقالب)](sales-order-template-mapping-direct-two-ways.md)
 - [مزامنة فاتورة المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](sales-invoice-template-mapping-direct.md)
-
-في الإصدارات السابقة، يوفر العميل المتوقع للنقدية الأنواع التالية من المزامنة غير المباشرة:
-
-- [المحافظة على الحسابات في Sales ومزامنتها إلى Finance and Operations.](accounts-template-mapping.md)
-- [المحافظة على جهات الاتصال في Sales ومزامنتها إلى Finance and Operations](contacts-template-mapping.md)
-- [المحافظة على المنتجات في Finance and Operations ومزامنتها إلى Sales](products-template-mapping.md)
-- [إنشاء عروض أسعار المبيعات في Sales ومزامنتها إلى Finance and Operations](sales-quotation-template-mapping.md)
-- [إنشاء أومر المبيعات في Finance and Operations ومزامنتها إلى Sales‎](sales-order-template-mapping.md)
-- [إنشاء فواتير المبيعات في Finance and Operations ومزامنتها إلى Sales‎](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>متطلبات النظام لـ Finance and Operations
 
@@ -87,7 +78,7 @@ ms.lasthandoff: 01/25/2018
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - مطلوب دعم تكامل العميل المتوقع للنقدية من خلال كيانات بيانات.
     
     > [!NOTE]
-    > بعد تثبيت الإصلاحات العاجلة، يجب عليك بدء تشغيل وظيفة الدُفعة التالية من نموذج **SalesPopulateProspectToCash**. يتم إخفاء هذا النموذج لأنك لا تحتاج إليه إلا مرة واحدة. للوصول إلى النموذج، قم بتسجيل الدخول إلى البيئة وقم بإضافة التالي إلى عنوان URL التالي في عنوان المستعرض الخاص بك: &mi=action:SalesPopulateProspectToCash, for example, https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. عند فتح النموذج، انقر فوق موافق. سوف يقوم هذا بتعبئة حقل **LineCreationSequnceNumber** في **SalesLine**، و **SalesQuotationLine**، وجداول **CustInvoiceTrans** بالقيم الفريدة، وسوف يتم تحديث قائمة المنتجات. ويُعد هذا مطلوبًا للعميل المتوقع لتكامل النقدية للعمل.
+    > بعد تثبيت الإصلاحات العاجلة، يجب عليك بدء تشغيل وظيفة الدُفعة التالية من نموذج **SalesPopulateProspectToCash**. يتم إخفاء هذا النموذج لأنك لا تحتاج إليه إلا مرة واحدة. للوصول إلى النموذج، سجّل دخولك إلى البيئة وأضف التالي إلى URL في عنوان المستعرض: &mi=action:SalesPopulateProspectToCash, for example, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. عند فتح النموذج، انقر فوق موافق. سوف يقوم هذا بتعبئة حقل **LineCreationSequnceNumber** في **SalesLine**، و **SalesQuotationLine**، وجداول **CustInvoiceTrans** بالقيم الفريدة، وسوف يتم تحديث قائمة المنتجات. ويُعد هذا مطلوبًا للعميل المتوقع لتكامل النقدية للعمل.
 
 
 ## <a name="system-requirements-for-sales"></a>متطلبات النظام لـ Sales
@@ -96,12 +87,6 @@ ms.lasthandoff: 01/25/2018
 
 - Dynamics 365 for Sales الإصدار 1612 (8.2.1.207) (DB 8.2.1.207) عبر الإنترنت
 - حل العميل المتوقع للنقدية لتطبيق Dynamics 365 for Sales، الإصدار 1.15.0.0 (إصدار 15) 
-
-   > [!NOTE]
-   >
-   > القوالب في الإصدار 1.0.0.0 و1.0.0.1 مدعومة في حل العميل المتوقع للنقدية لتطبيق Dynamics 365 for Sales، إصدار 1.14.1.0
-   >
-   > القوالب في الإصدار 2.0.0.0 و1.0.0.1 مدعومة في حل العميل المتوقع للنقدية لتطبيق Dynamics 365 for Sales، إصدار 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>تثبيت حل العميل المتوقع إلى النقدية في Sales
 
