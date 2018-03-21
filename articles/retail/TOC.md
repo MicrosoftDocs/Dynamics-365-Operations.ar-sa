@@ -39,8 +39,9 @@
 # إعداد القنوات وإدارتها
 ## [تهيئة بيانات إضافة قاعدة بيانات في بيئة Retail](enable-configure-retail-functionality.md)
 ## [تحديد قنوات البيع بالتجزئة](define-maintain-retail-channels.md)
+## [إدارة المجموعات المنوعة](assortments.md)
 ## [نظرة عامة على المتجر على الإنترنت](online-stores.md)
-## [تكوين وتثبيت محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md)
+## [تكوين وتثبيت Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [وقت وحضور Retail](retail-time-attendance.md)
 
 # نقطة البيع الحديثة (MPOS) وCloud POS
@@ -53,10 +54,11 @@
 ### [محاكي الأجهزة الطرفية للبيع بالتجزئة](dev-itpro/retail-peripheral-simulator.md)
 ### [تحديد عملاء القنوات، والسجلات، ومحطات الأجهزة والاحتفاظ بها](define-maintain-channel-clients-registers-hw-stations.md)
 ## تخطيط الشاشة
-### [تكوين تخطيطات الشاشة لنقطة البيع](pos-screen-layouts.md)
+### [تكوين تخطيطات شاشة POS](pos-screen-layouts.md)
 ### [تثبيت مصمم تخطيط Retail POS](install-pos-layout-designer.md)
+### [اختيار إعدادات الإخطارات](Notifications-POS.md)
 ### [تطبيق نقطة البيع وإعدادات لغة المستخدم](pos-application-user-language-settings.md)
-### [إعداد صور لنقطة البيع الحديثة](set-up-manage-images-retail-mpos.md)
+### [إعداد صور لنقطة البيع MPOS](set-up-manage-images-retail-mpos.md)
 ## [نظرة عامة على أكواد المعلومات](info-codes-retail.md) 
 ## توصيات المنتجات
 ### [نظرة عامة على توصيات المنتجات المخصصة](personalized-product-recommendations.md)
@@ -100,6 +102,7 @@
 # المنتجات وترويج السلع
 ## [نظرة عامة على معلومات المنتجات](../supply-chain/pim/product-information.md)
 ## [التدرجات الهرمية للبيع بالتجزئة](retail-hierarchies.md)
+## [نظرة عامة على السمات ومجموعات السمات](attribute-attributegroups-lifecycle.md)
 ## [إنشاء وإدارة السمات](create-manage-attributes.md)
 ## [إعداد منتجات البيع بالتجزئة](set-up-retail-products.md)
 ## [أبعاد المنتجات](../supply-chain/pim/product-dimensions.md)
@@ -130,6 +133,16 @@
 # الموارد البشرية
 ## [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](../talent/departments-jobs-positions.md)
 ## [إعداد مكونات وظيفة](../talent/create-job.md)
+
+# الترجمة والميزات التنظيمية
+## الهند
+### [تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية الخاصة بالهند](localizations/apac-ind-cash-registers.md)
+### [إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالهند](localizations/apac-ind-loc-deployment-guidelines.md)
+## النرويج
+### [آلات تسجيل المدفوعات النقدية الخاصة بالنرويج‎](localizations/emea-nor-cash-registers.md)
+### [إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنرويج](localizations/emea-nor-loc-deployment-guidelines.md)
+## السويد
+### [آلات تسجيل المدفوعات النقدية الخاصة بالسويد](localizations/emea-swe-cash-registers.md)
 
 # مهام Retail
 ## [إنشاء منتج](../supply-chain/pim/tasks/create-product.md)
@@ -249,10 +262,6 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [تكامل Retail SDK مع نظام البناء المستمر](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [نماذج قابلية التوسعة لـ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [آلات تسجيل المدفوعات النقدية الخاصة بالسويد](localizations/emea-swe-cash-registers.md)
-### [عينة لتكامل Retail POS مع وحدات التحكم بالسويد](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [آلات تسجيل المدفوعات النقدية الخاصة بالنرويج‎](localizations/emea-nor-cash-registers.md)
-### [إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنرويج](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [حزمة Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [عينات Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [ملحقات قاعدة بيانات القناة (DB)](dev-itpro/channel-db-extensions.md)
