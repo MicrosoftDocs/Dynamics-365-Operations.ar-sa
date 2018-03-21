@@ -20,9 +20,10 @@
 #### [الميزات التي تمت إزالتها أو إهمالها](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [ميزات AX 2012 المؤجلة](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [الميزات التي لم يتم تنفيذها في عمليات النشر المحلية](get-started/features-not-implemented-on-prem.md)
-#### [الإصدارات ونهج دورة حياة](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [الإصدارات ونهج دورة الحياة](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [عمليات النشر المحلي (مارس 2018)](get-started/whats-new-LBD-PU12-App72.md)
 #### [Platform update 13 (يناير 2018)](get-started/whats-new-platform-update-13.md)
-#### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12 (نوفمبر 2017)](get-started/whats-new-platform-update-12.md)
 #### [تحديث Platform رقم 11 (أكتوبر 2017)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (أغسطس 2017)](get-started/whats-new-platform-update-10.md)
@@ -134,10 +135,10 @@
 ### [حزمة محتوى إدارة التكلفة في Power BI](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## تكامل البيانات
-### [أنماط التكامل](../dev-itpro/data-entities/integration-overview.md)
+### [اختيار استراتيجية تكامل (استيراد/تصدير) البيانات](../dev-itpro/data-entities/integration-overview.md)
 
 ### واجهات API لتكامل البيانات
-#### [واجهة API لحزمة إدارة البيانات](../dev-itpro/data-entities/data-management-api.md)
+#### [واجهة (API) لحزمة إدارة البيانات](../dev-itpro/data-entities/data-management-api.md)
 #### [نقاط نهاية الخدمات](../dev-itpro/data-entities/services-home-page.md)
 ##### [استكشاف أخطاء مصادقة الخدمة](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
 #### [OData](../dev-itpro/data-entities/odata.md)
@@ -157,10 +158,9 @@
 ###### [المحافظة على الحسابات في Sales ومزامنتها مباشرة من Sales إلى Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [المحافظة على المنتجات في Finance and Operations ومزامنتها مباشرةً إلى Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [‬‏‫المحافظة على جهات الاتصال في Sales ومزامنتها مباشرةً إلى جهات الاتصال أو العملاء في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [مزامنة عرض أسعار المبيعات‬ مباشرةً من Sales إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [مزامنة عروض أسعار المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [مزامنة فاتورة المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [المحافظة على عروض أسعار المبيعات في Sales ومزامنتها مباشرة إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [المحافظة على أوامر المبيعات في Finance and Operations ومزامنتها مباشرة إلى Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [المحافظة على فاتورة المبيعات في Finance and Operations ومزامنتها مباشرة إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [استخدام خدمات ويب الخارجية](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,11 +473,17 @@
 #### [توزيعات تقرير مصروفات](../financials/expense-management/expense-report-distributions.md)
 #### [المصروفات المشتركة بين الشركات الشقيقة](../financials/expense-management/intercompany-expense.md)
 #### [سياسات المصروفات](../financials/expense-management/travel-expense-policies.md)
-
+#### [عرض تقرير مصروفات](../financials/expense-management/view-expense-report.md)
+#### [ترحيل تقرير مصروفات](../financials/expense-management/post-expense.md)
+#### [تقارير المصروفات والعديد من مانحي القبول](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [استرداد ضريبة القيمة المضافة في إدارة المصروفات](../financials/expense-management/VAT-expense-report.md)
+#### [قواعد المصروف اليومي](../financials/expense-management/per-diem.md)
+#### [طلبات السفر](../financials/expense-management/travel-req.md)
+#### [المصروفات الشخصية على تقرير المصروفات](../financials/expense-management/personal-expenses.md)
 
 ### [إعداد الموازنة](../financials/budgeting/budgeting-overview.md)
 #### [نظرة عامة على تخطيط الموازنة ](../financials/budgeting/budget-planning-overview-configuration.md)
-#### [نظرة عامة على التحكم في الموازنة ](../financials/budgeting/budget-control-overview-configuration.md)
+#### [نظرة عامة على رقابة الموازنة ](../financials/budgeting/budget-control-overview-configuration.md)
 #### [نظرة عامة على إعداد الموازنة ](../financials/budgeting/basic-budgeting-overview-configuration.md)
 #### [التنبؤ بالمنصب](../financials/budgeting/position-forecasting.md)
 #### [مستندات تبرير تخطيط الموازنة](../financials/budgeting/budget-planning-justification-docs.md)
@@ -631,6 +637,8 @@
 ##### [تكامل محرك الضريبة](../financials/general-ledger/tax-engine-integration.md)
 ##### [الأسئلة المتداولة حول حدود الضريبة](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [توسيع محرك الضريبة](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية](../retail/localizations/apac-ind-cash-registers.md)
+##### [إرشادات النشر لآلات تسجيل المدفوعات النقدية](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### اليابان
 ##### [الحصول على أصل ثابت والمطالبة بمنح الإعانة الحكومية](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [تنسيقات الدفع الخاصة بالعملاء والموردين](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [دفع العميل استنادًا إلى معرّف الدفع](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [تنسيق ملف استيراد صافي القيم](../financials/localizations/emea-nor-nets-import-format.md)
-##### [بيان ضريبة القيمة المضافة](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [بيان ضريبة القيمة المضافة](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [آلات تسجيل المدفوعات النقدية](../retail/localizations/emea-nor-cash-registers.md)
+##### [إرشادات النشر لآلات تسجيل المدفوعات النقدية](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### بولندا
 ##### [حساب خصومات البند من سعر الوحدة](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [ملاحظات التصحيح](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### السويد
 ##### [استيراد تنسيقات الدفع](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [آلات تسجيل المدفوعات النقدية](../retail/localizations/emea-swe-cash-registers.md)
 #### سويسرا
 ##### [استيراد دفعات العملاء في ESR](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### المملكة المتحدة
@@ -1644,6 +1656,7 @@
 ##### [موارد العمليات](../supply-chain/production-control/operations-resources.md)
 ##### [قدرات الموارد](../supply-chain/production-control/resource-capabilities.md)
 ##### [مواصفات التشغيلة](../supply-chain/production-control/batch-attributes.md)
+##### [موازنة الدفعات](../supply-chain/production-control/batch-balancing.md)
 ##### [نسخ معادلة (دليل المهام)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [إنشاء معادلة عن طريق النسخ من معادلة موجودة (دليل المهام)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [نسخ المنتجات المساعدة من إصدار معادلة موجودة (دليل المهام)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,7 +1821,8 @@
 #### [وحدة القياس وسياسات المخزون](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [محتوى Power BI للمستودعات](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [مجموعات النظام على قائمة عمل مفتوحة](../supply-chain/warehousing/system-group-on-open-work-list.md)
-#### [دعم الرمز الشريطي للأجهزة المحمولة](../supply-chain/warehousing/mobile-barcode-support.md)
+#### [مسح الأكواد الشريطية باستخدام الكاميرا في Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
+#### [دعم الكود الشريطي للأجهزة المحمولة](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [سياسات عمل المستودع](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [نقل المخزون مع العمل المقترن في إدارة المستودعات](../supply-chain/warehousing/move-inventory-associated-work.md)
 #### [إدارة عمال المستودعات](../supply-chain/warehousing/manage-warehouse-workers.md)
@@ -1818,6 +1832,7 @@
 #### [استلام لوحة ترخيص مختلطة](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [تكوين عرض المجموعات القديمة داخل المستودع على جهاز محمول](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [انتقاء الدُفعة الأقدم على جهاز محمول](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [مسح الأكواد الشريطية باستخدام الكاميرا في Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [تأكيد انتقاء الأجزاء](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [تأكيد المنتج لانتقاء نظام المجموعة](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [إصدار دُفعة أوامر التحويل المحجوزة جزئيًا](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
