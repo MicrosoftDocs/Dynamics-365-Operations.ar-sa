@@ -3,7 +3,7 @@ title: "عمليات النشر المحلي"
 description: "يوفر هذا الموضوع معلومات وارتباطات إلى محتوى يتعلق بعمليات النشر المحلي."
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>الصفحة المقصودة لعملية النشر المحلي
+# <a name="on-premises-deployment-home-page"></a>الصفحة الرئيسية لعملية النشر المحلي
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,14 +36,14 @@ ms.lasthandoff: 03/05/2018
 - [التخطيط لعمليات النشر المحلي الخاصة بك](plan-onprem-deployment.md)
 - [متطلبات النظام لعمليات النشر المحلي](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [ضبط حجم الأجهزة للبيئات المحلية](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [نهج دورة الحياة وللخدمة على الإنترنت والبرنامج المحلي](../migration-upgrade/versions-update-policy.md)
 - [شراء Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [مقارنة السحابة والميزة المحلية](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>الإعداد
 - [إنشاء مشروع محلي في Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [إعداد بيئات محلية ونشرها](setup-deploy-on-premises-environments.md)
-- [قم بتثبيت أجهزة طابعات الشبكات في البيئات المحلية](../analytics/install-network-printer-onprem.md)
+- [إعداد ونشر بيئات محلية (تحديث النظام الأساسي رقم 2)](setup-deploy-on-premises-pu12.md)
+- [إعداد ونشر بيئات محلية (تحديث النظام الأساسي رقم 8 و11)](setup-deploy-on-premises-pu8-pu11.md)
+- [تثبيت أجهزة طابعات الشبكة في البيئات المحلية](../analytics/install-network-printer-onprem.md)
 - [تكوين خدمات SQL Server Reporting Services للنشر المحلي](../analytics/configure-ssrs-on-premises.md)
 - [تطوير النماذج المخصصة للبيئات المحلية ونشرها](develop-deploy-custom-models-on-premises.md)
 

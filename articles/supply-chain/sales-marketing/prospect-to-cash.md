@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
+ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
+ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -42,9 +42,8 @@ ms.lasthandoff: 02/23/2018
 - [المحافظة على الحسابات في Sales ومزامنتها مباشرة من Sales إلى Finance and Operations.](accounts-template-mapping-direct.md)
 - [المحافظة على المنتجات في Finance and Operations ومزامنتها مباشرةً إلى Sales](products-template-mapping-direct.md)
 - [‬‏‫المحافظة على جهات الاتصال في Sales ومزامنتها مباشرةً إلى جهات الاتصال أو العملاء في Finance and Operations‎](contacts-template-mapping-direct.md)
-- [مزامنة عرض أسعار المبيعات‬ مباشرةً من Sales إلى Finance and Operations (الإصدار المعلق للقالب)](sales-quotation-template-mapping-sales-fin.md)
-- [مزامنة عروض أسعار المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](sales-order-template-mapping-direct.md)
-- [مزامنة أوامر المبيعات‬ مباشرةً بين Sales وFinance and Operations‎ (إصدار المعلق للقالب)](sales-order-template-mapping-direct-two-ways.md)
+- [مزامنة عرض أسعار المبيعات‬ مباشرةً من Sales إلى Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎](sales-order-template-mapping-direct-two-ways.md)
 - [مزامنة فاتورة المبيعات‬ مباشرةً من Finance and Operations إلى Sales‎](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>متطلبات النظام لـ Finance and Operations
@@ -85,7 +84,7 @@ ms.lasthandoff: 02/23/2018
 
 لاستخدام حل العميل المتوقع للنقدية، يجب تثبيت المكونات التالية:
 
-- Dynamics 365 for Sales الإصدار 1612 (8.2.1.207) (DB 8.2.1.207) عبر الإنترنت
+- Dynamics 365 for Sales الإصدار 1612 (8.2.1.207) (DB 8.2.1.207) عبر الإنترنت أو إصدار لاحق
 - حل العميل المتوقع للنقدية لتطبيق Dynamics 365 for Sales، الإصدار 1.15.0.0 (إصدار 15) 
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>تثبيت حل العميل المتوقع إلى النقدية في Sales

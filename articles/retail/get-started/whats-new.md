@@ -17,14 +17,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: c72742368916ecfa3c545f374f293641c03be108
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 008f1acec62c1fc6d423dd7629d3f92f758be5e8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>الميزات الجديدة أو المتغيرة في Dynamics 365 for Retail
+
+[!include[banner](../../includes/banner.md)]
 
 تشير هذه الصفحة إلى موارد بإمكانها مساعدتك في التعرف على التغيرات والميزات الجديدة الموجودة في الإصدارات الأحدث من Microsoft Dynamics 365 for Retail.
 
@@ -32,6 +34,7 @@ ms.lasthandoff: 02/27/2018
 
 |الإصدار | رقم الإنشاء | التوفر | تعرف على المزيد |
 |--------|--------------|--------------|------------|
+|Dynamics 365 for Retail 7.3.1 | 7.3.21971.64032 | 2018 مارس | 1. انتقل إلى [خارطة طريق Dynamics 365](https://roadmap.dynamics.com/).<br><br>2. انقر فوق علامة التبويب **ما الجديد**.<br><br>3. انقر فوق خانة الاختيار **Dynamics 365 for Retail**.<br><br>4. ابحث عن الميزات **الصادرة مع Dynamics 365 for Retail 7.3.1**. |
 |Dynamics 365 for Retail 7.3 | 7.3.21971.64028 | 2018 فبراير | 1. انتقل إلى [خارطة طريق Dynamics 365](https://roadmap.dynamics.com/).<br><br>2. انقر فوق علامة التبويب **ما الجديد**.<br><br>3. انقر فوق خانة الاختيار **Dynamics 365 for Retail**.<br><br>4. ابحث عن الميزات **الصادرة مع Dynamics 365 for Retail 7.3**. |
 |تحديث التطبيق 5 | 7.2.21792.64093 | 2018 فبراير | 1. انتقل إلى [خارطة طريق Dynamics 365](https://roadmap.dynamics.com/).<br><br>2. انقر فوق علامة التبويب **ما الجديد**.<br><br>3. انقر فوق خانة الاختيار **Dynamics 365 for Retail**.<br><br>4. ابحث عن الميزات **الصادرة مع تحديث التطبيق 5**. |
 |تحديث التطبيق 4 | 7.2.21792.64070 | 2017 أكتوبر | 1. انتقل إلى [خارطة طريق Dynamics 365](https://roadmap.dynamics.com/).<br><br>2. انقر فوق علامة التبويب **ما الجديد**.<br><br>3. انقر فوق خانة الاختيار **Dynamics 365 for Retail**.<br><br>4. ابحث عن الميزات **الصادرة مع تحديث التطبيق 4**. |
