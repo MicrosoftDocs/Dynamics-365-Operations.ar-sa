@@ -3,7 +3,7 @@ title: "مزامنة أوامر المبيعات مباشرةً بين Finance a
 description: "يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً بين Microsoft Dynamics 365 for Sales وMicrosoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
+ms.sourcegitcommit: 0928f9c0af52c2e19f0669841e433423ae9db467
+ms.openlocfilehash: 09c5cd14c5948818878d3f830639abc166d7072e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -132,6 +132,7 @@ ms.lasthandoff: 11/20/2017
 
     انتقل إلى **الإعدادات** &gt; **الأمان** &gt; **الفرق**، حدد الفريق المناسب، وحدد **إدارة الأدوار**، ثم حدد دورًا يملك الأذونات المطلوبة على سبيل المثال، **مسؤول النظام**.
 
+- للتأكد من صحة حساب الخصومات في كل من Sales وFinance and Operations، يجب تعيين **طريقة حساب الخصم** إلى **صنف البند**.
 - انتقل إلى **الإعدادات** &gt; **الإدارة** &gt; **إعدادات النظام** &gt; **Sales**‎، وتأكد من أنه يتم استخدام الإعدادات التالية:
 
     - يكون الخيار **‬‏‫استخدام حساب أسعار النظام** معينًا إلى **نعم**.

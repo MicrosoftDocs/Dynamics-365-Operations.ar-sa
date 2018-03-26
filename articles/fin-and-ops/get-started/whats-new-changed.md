@@ -3,7 +3,7 @@ title: "ما الجديد أو التغيير"
 description: "تشير هذه الصفحة إلى مواضيع بإمكانها مساعدتك في التعرف على الميزات الجديدة الموجودة في الإصدارات الأحدث من Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -34,6 +34,8 @@ ms.lasthandoff: 01/23/2018
 
 للحصول على معلومات حول كيفية الترقية إلى الإصدار الأخير، راجع [عملية الترقية إلى التحديث الأخير‬](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
+
+[!include[release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>إصدارات التطبيق
 
