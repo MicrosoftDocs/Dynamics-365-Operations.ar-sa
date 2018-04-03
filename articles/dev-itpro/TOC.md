@@ -1,7 +1,7 @@
 # [التطوير والإدارة لـ Dynamics 365 for Finance and Operations](index.md)
-# [متطلبات النظام لعمليات نشر المجموعة](../fin-and-ops/get-started/system-requirements.md)
-# [متطلبات النظام لعمليات النشر المحلية](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [بيانات العرض التوضيحي](../fin-and-ops/get-started/demo-data.md)
+# [متطلبات النظام لعمليات نشر المجموعة](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [متطلبات النظام لعمليات النشر المحلي](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [بيانات العرض التوضيحي](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [إنشاء بيانات العرض التوضيحي باستخدام الحزم](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [استيراد وتصدير نموذج](dev-tools/models-export-import.md)
 ### [البحث عن بيانات التعريف في Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [النماذج](dev-tools/models.md)
-### [المشروعات في Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
+### [المشاريع في Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [أدوات الوظائف الإضافية لبرنامج Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث](dev-tools/lock-models.md)
 ### [تحديث أدوات تطوير Visual Studio](dev-tools/update-development-tools.md)
@@ -113,8 +113,8 @@
 #### [تخصيص عناصر النموذج باستخدام الملحقات (‏‫البرنامج التعليمي)](extensibility/customize-model-elements-extensions.md)
 #### [تخصيص: تراكب الطبقات والملحقات](extensibility/customization-overlayering-extensions.md)
 ### الجديد
-#### [تغييرات قابلية للتوسعة في يوليو 2017](extensibility/changes-july-2017.md)
-#### [تغييرات قابلية التوسعة فيDynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
+#### [تغييرات قابلية التوسعة في يوليو 2017](extensibility/changes-july-2017.md)
+#### [إصدار تغييرات قابلية التوسعة 7.3](extensibility/extensibility-changes-73.md)
 ### الأساسيات‬
 #### [تخصيصات متداخلة](extensibility/intrusive-customizations.md)
 #### [ملحقات الفئة](extensibility/class-extensions.md)
@@ -168,8 +168,8 @@
 ### [إنشاء التنقل](user-interface/build-navigation.md)
 ### [إنشاء مساحة عمل](user-interface/build-workspace.md)
 ## النماذج
-### [التنقل في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
-### [التخطيط في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
+### [التنقل في Dynamics 365 for Finance and Operations](user-interface/page-navigation.md)
+### [التخطيط في Dynamics 365 for Finance and Operations](user-interface/page-layout.md)
 ### [خط الرمز](user-interface/symbol-font.md)
 ### [اختبار النماذج باستخدام أنماط مخصصة](user-interface/testing-forms-custom-patterns.md)
 ### [إنشاء واستخدام ارتباطات عميقة](user-interface/create-deep-links.md)
@@ -489,12 +489,12 @@
 
 ## النشر عبر السحابة
 ### [إلحاق مدير موارد Azure](deployment/arm-onboarding.md)
-### [Azure ExpressRoute وMicrosoft Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute and Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [النشر المحلي](deployment/on-premises-deployment-landing-page.md)
 ### [نظرة عامة على التطبيقات المحلية](deployment/on-premises-overview.md)
 ### [التخطيط لعمليات النشر المحلي](deployment/plan-onprem-deployment.md)
-### [تغيير حجم الأجهزة](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [تغيير حجم الأجهزة](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [إنشاء مشروع محلي](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [إعداد بيئات محلية ونشرها](deployment/setup-deploy-on-premises-environments.md)
 #### [نشر بيئات محلية باستخدام Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [تحديث الوكيل المحلي](lifecycle-services/update-local-agent.md)
 ### [إعادة تكوين بيئتك](lifecycle-services/reconfigure-environment.md)
 ### [اتصال إنترنت العميل](user-interface/client-disconnected.md)
-### [استكشاف الأخطاء وإصلاحها في Dynamics 365 for Finance and Operations, Enterprise edition (محلي)](deployment/troubleshoot-on-prem.md)
+### [استكشاف الأخطاء وإصلاحها في Dynamics 365 for Finance and Operations (محلي)](deployment/troubleshoot-on-prem.md)
 
 ## نشر كود مخصص
 ### [إنشاء حزمة قابلة للنشر](deployment/create-apply-deployable-package.md)
@@ -527,7 +527,7 @@
 ### [ترقية AX 2012 - المهام التي يجب إكمالها بعد الترقية](migration-upgrade/app-validation-process.md)
 ### [ترقية AX 2012 - نجاح الاختبار الوظيفي](migration-upgrade/upgrade-functional-validation.md)
 ### [ترقية AX 2012 - التحضير للعرض المباشر](migration-upgrade/upgrade-go-live-prep.md)
-
+### [ترقية AX 2012 - العرض المباشر](migration-upgrade/2012-upgrade-cutover.md)
 
 ### التغييرات التي تؤثر على الترقية من AX 2012
 #### [ترقية إيصال فردي وإعادة تقييم العملة ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
@@ -588,7 +588,9 @@
 ### [نظرة عامة على خادم الدفعات](sysadmin/batch-server-overview.md)
 ### [إنشاء وظيفة دفعية](sysadmin/tasks/create-batch-job.md)
 
-## [إنشاء قواعد لمرشد تحسين الأداء](sysadmin/optimization-advisor.md)
+##  [نظرة عامة حول مرشد التحسين](sysadmin/optimization-advisor-overview.md)
+### [إنشاء قواعد لمرشد التحسين](sysadmin/create-rules-optimization-advisor.md)
+
 
 # Lifecycle Services
 ## [نظرة عامة على Lifecycle Services](lifecycle-services/lcs.md)
@@ -701,10 +703,10 @@
 ## [طلب تحديث قاعدة بيانات بيئة الاختبار المعزولة](database/database-refresh.md)
 
 # الدعم
-## [الحصول على الدعم لـ Dynamics 365 for Finance and Operations, Enterprise edition وLifecycle Services](lifecycle-services/lcs-support.md)
+## [الحصول على الدعم لـ Dynamics 365 for Finance and Operations وLifecycle Services](lifecycle-services/lcs-support.md)
 ## [تسجيل بطاقة دعم رئيسي](lifecycle-services/premier-support.md)
 ## [إرسال طلب إلى فريق هندسة خدمات Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [إعداد الدعم التقني لـ Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
+## [إعداد الدعم التقني لـ Dynamics 365 for Finance and Operations](lifecycle-services/support-experience.md) 
 ## [الأسئلة الشائعة حول إطار الصيانة المخطط لها](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [عمليات سحابية والخدمة](lifecycle-services/cloud-operations-servicing.md)
 ## [إدارة خبرات دعم Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

@@ -3,8 +3,8 @@
 # بدء الاستخدام
 ## [الجديد أو المتغير](get-started/whats-new.md)
 ## [قبل شراء Dynamics 365 for Retail](get-started/before-you-buy.md)
-## [التسجيل للاشتراك في المعاينة](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [نشر بيئة عرض توضيحي](../dev-itpro/deployment/deploy-demo-environment.md)
+## [التسجيل للاشتراك في المعاينة](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [نشر بيئة عرض توضيحي](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [خيارات النشر](dev-itpro/choose-deployment.md)
 
 
@@ -44,10 +44,11 @@
 ## [تكوين وتثبيت Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [وقت وحضور Retail](retail-time-attendance.md)
 
-# نقطة البيع الحديثة (MPOS) وCloud POS
+# Modern Point of Sale ‏(MPOS) وCloud POS
 ## [الاختيار بين Modern POS وCloud POS](MPOS-or-CPOS.md)
-## [عمليات نقطة البيع (POS)](POS-operations.md)
+## [عمليات نقطة البيع، أثناء الاتصال وعدم الاتصال](pos-operations.md)
 ## [تخطيطات شاشة بيانات العرض التوضيحي في MPOS/CPOS](demo-data.md)
+## [نظرة عامة على البحث عن المنتجات والعملاء في نقطة البيع](POS-search-improvements.md)
 ## الأجهزة الطرفية للأجهزة
 ### [نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة](retail-peripherals-overview.md)
 ### [الأجهزة الطرفية لأجهزة نقطة البيع الخاضعة لاختبارات Microsoft](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +61,7 @@
 ### [تطبيق نقطة البيع وإعدادات لغة المستخدم](pos-application-user-language-settings.md)
 ### [إعداد صور لنقطة البيع MPOS](set-up-manage-images-retail-mpos.md)
 ## [نظرة عامة على أكواد المعلومات](info-codes-retail.md) 
+## [تحسينات نقطة البيع للمنتجات المتسلسلة](serialized-inventory.md)
 ## توصيات المنتجات
 ### [نظرة عامة على توصيات المنتجات المخصصة](personalized-product-recommendations.md)
 ### [إضافة عنصر تحكم في التوصيات على جهاز نقطة البيع](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [تعديلات الأسعار والخصومات](price-adjustments-discounts.md)
 ## [تحديد المجموعة المثلى من الخصومات المتداخلة](optimal-combination-overlapping-discounts.md)
 ## [تحديد الخصومات الخاصة بالقناة](define-channel-specific-discounts.md)
+## [منع الخصومات لمنتجات البيع بالتجزئة](prevent-discounts.md)
 ## [إنشاء القسائم لمبيعات البيع بالتجزئة](retail-coupons.md)
 
 # المنتجات وترويج السلع
@@ -105,6 +108,7 @@
 ## [نظرة عامة على السمات ومجموعات السمات](attribute-attributegroups-lifecycle.md)
 ## [إنشاء وإدارة السمات](create-manage-attributes.md)
 ## [إعداد منتجات البيع بالتجزئة](set-up-retail-products.md)
+## [إدارة المنتجات والفئات المحسَّنة](category-management-product-creation.md)
 ## [أبعاد المنتجات](../supply-chain/pim/product-dimensions.md)
 ## [إعداد الأكواد الشريطية](set-up-bar-codes.md)
 ## [إعداد أقنعة الأكواد الشريطية](set-up-bar-code-masks.md)
@@ -190,17 +194,18 @@
 # [تطوير البيع بالتجزئة والإدارة](dev-itpro/dev-retail-home-page.md)
 
 ## هندسة
-### [مكونات Microsoft Dynamics 365 for Finance and Operations, Enterprise edition - Retail](retail-components.md)
-### [هندسة خادم التجزئة](dev-itpro/retail-server-architecture.md)
+### [مكونات Microsoft Dynamics 365 for Finance and Operations - Retail](retail-components.md)
+### [هندسة Retail Server](dev-itpro/retail-server-architecture.md)
 ### [اتصالات قناة التجزئة](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [هندسة MPOS](dev-itpro/retail-modern-pos-architecture.md)
 ### [هندسة نشر متجر البيع بالتجزئة على الإنترنت](dev-itpro/retail-online-store-publishing-architecture.md)
-### [محتوى Power BI لأداء قناة البيع بالتجزئة](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [محتوى Power BI لأداء قناة البيع بالتجزئة](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [شهادة معايير أمان بيانات تطبيق الدفع (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
+### [إمكانات البيع بالتجزئة المتوفرة في عمليات النشر المحلي](retail-onprem.md)
 
 ## النشر والإصلاحات العاجلة
-### [نظرة عامة على وحدة قياس متجر البيع بالتجزئة](dev-itpro/retail-store-system-begin.md)
-### [تكوين وتثبيت وحدة قياس متجر البيع بالتجزئة‬](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [نظرة عامة على Retail Store Scale Unit](dev-itpro/retail-store-system-begin.md)
+### [تكوين وتثبيت Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [تكوين وتثبيت Retail Modern POS](retail-modern-pos-device-activation.md)
 ### [إدارة حسابات Retail والأجهزة من المقر الرئيسي](set-up-activation-accounts-validate-devices-hq.md)
 ### [تنشيط جهاز Retail POS](dev-itpro/retail-device-activation.md)
@@ -208,7 +213,7 @@
 ### [تكوين وتثبيت Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ### [التوزيع الجماعي لمكونات الخدمة الذاتية لـ Retail](dev-itpro/retail-mass-deployment.md)
 ### [أحداث مكونات Retail لأدوات التشخيص واستكشاف الأخطاء وإصلاحها](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [تطبيق حزمة قابلة للنشر](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [تطبيق حزمة قابلة للنشر](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## دعم الترقية و N-1
 ### [نظرة عامة على الترقية ودعم N-1](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [إرشادات تطبيق إدارة الأجهزة](implementation-considerations-devices.md)
 
 ## تكوين البيئة
-### [إضافة ارتباطات إلى الشروط القانونية وبيان الخصوصية في مؤسستك](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [إضافة ارتباطات للشروط القانونية الخاصة بمؤسستك وبيان الخصوصية](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [إدارة خرائط Bing](dev-itpro/manage-bing-maps.md)
 
 ## قابلية توسعة نقطة البيع
@@ -232,16 +237,16 @@
 ### [إنشاء تطبيق تجربة Retail](dev-itpro/create-retail-experience-app.md)
 ### [نظرة عامة على Hardware Station وقابلية التوسعة](dev-itpro/hardware-station-extensibility.md)
 
-## قابلية توسعة خادم Retail
+## قابلية توسعة Retail Server
 ### [توسيع وحدة تحكم Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
 ### [وحدات تحكم API للويب وOData](dev-itpro/odata-controllers-api.md)
-### [عميل خادم البيع بالتجزئة وواجهات API للمستهلك](dev-itpro/retail-server-customer-consumer-api.md)
+### [عميل Retail Server وواجهات API للمستهلك](dev-itpro/retail-server-customer-consumer-api.md)
 ### [توسيع بيانات التعريف](dev-itpro/extend-metadata.md)
 ### [توسيع وقت التشغيل التجاري لدعم وضع عدم الاتصال لنقطة البيع](dev-itpro/call-crt-service-offline.md)
 
 ## قابلية توسعة وقت التشغيل التجاري
 ### [نظرة عامة حول وقت التشغيل التجاري](dev-itpro/commerce-runtime-overview.md)
-### [وقت التشغيل التجاري وقابلية توسعة خادم Retail‬ ](dev-itpro/commerce-runtime-extensibility.md)
+### [وقت التشغيل التجاري وقابلية توسعة Retail Server ](dev-itpro/commerce-runtime-extensibility.md)
 ### [إضافة بيانات تفضيلات العميل لقاعدة بيانات القناة](dev-itpro/add-customer-preference-channel.md)
 ### [إضافة خصائص إلى أمر المبيعات](dev-itpro/add-properties-sales-order.md)
 ### [قابلية توسعة وقت التشغيل التجاري والمشغلات](dev-itpro/commerce-runtime-extensibility-trigger.md)
