@@ -3,9 +3,11 @@
 # [بدء الاستخدام](talent-get-started.md)
 ## [متطلبات النظام وسياسة التحديث](talent-versions-update-policy.md)
 ## [توفير Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [إزالة بيئة Talent](remove-test-environment.md)
+## [توفير التطبيقات النمطية لـ Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [توسيع الأداء الوظيفي لتطبيق Talent](extend-talent-functionality.md)
 
-# [تطوير استراتيجية الموارد البشرية](departments-jobs-positions.md)
+# [تطوير استراتيجية موارد بشرية](departments-jobs-positions.md)
 ## [إعداد مكونات الوظائف](create-job.md)
 ## [إنشاء قسم وربطه بالتدرج الهرمي للأقسام](create-department-add-department-hierarchy.md)
 ## [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](set-up-hr-parameters-across-legal-entities.md)
@@ -39,5 +41,5 @@
 ## [تقييم نتائج الاستبيان](evaluate-questionnaire-results.md)
 
 # السلامة والامتثال في أماكن العمل (الولايات المتحدة)
-## [التحقق من صحة نموذج التوظيف I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [التوافق مع قانون الأمريكيين المعوقين](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [التحقق من صحة نموذج التوظيف I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [التوافق مع قانون الأمريكيين المعوقين](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)
