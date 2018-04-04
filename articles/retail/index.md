@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/07/2018
 إن Microsoft Dynamics 365 for Retail هو حل شامل للبيع بالتجزئة يوفر التجارة الموحدة عبر جميع القنوات. إنه يشتمل على المبيعات، وإمكانية التنقل، والمعلومات، والإنتاجية لمساعدة تجار التجزئة والعمال على تحقيق المزيد بطريقة السحابة أولاً، الجهاز المحمول أولاً. يوفر Retail دعمًا شاملاً لتشغيل مجموعة كبيرة من إجراءات العمل، مثل إمكانات إدارة القنوات، وترويج البضائع، والمخزون. كما أنه يوفر خبرات عملاء غامرة عبر جميع نقاط الاتصال.
 
 > [!NOTE] 
-> ثمة ارتباط وثيق بين Dynamics 365 for Retail وDynamics 365 for Finance and Operations, Enterprise edition وDynamics 365 for Talent. قد تظهر نفس الوظيفة في جميع المنتجات الثلاثة. ونتيجة لذلك، في المواضيع المرتبطة بشكل أساسي بـ Retail، سيكون اسم المنتج Microsoft Dynamics 365 for Retail؛ في المواضيع المرتبطة بشكل أساسي بالمنتج الأساسي (Finance and Operations)، سيكون اسم المنتج Microsoft Dynamics 365 for Finance and Operations, Enterprise edition؛ في المواضيع المرتبطة بشكل أساسي بالموارد البشرية، سيكون اسم المنتج Dynamics 365 for Talent. 
+> ثمة ارتباط وثيق بين Dynamics 365 for Retail وDynamics 365 for Finance and Operations وDynamics 365 for Talent. قد تظهر نفس الوظيفة في جميع المنتجات الثلاثة. ونتيجة لذلك، في المواضيع المرتبطة بشكل أساسي بـ Retail، سيكون اسم المنتج Microsoft Dynamics 365 for Retail؛ في المواضيع المرتبطة بشكل أساسي بالمنتج الأساسي (Finance and Operations)، سيكون اسم المنتج Microsoft Dynamics 365 for Finance and Operations؛ في المواضيع المرتبطة بشكل أساسي بالموارد البشرية، سيكون اسم المنتج Dynamics 365 for Talent. 
 
 في الجزء الأيمن، حدد منطقة ميزة لمعرفة مزيد من المعلومات حولها.
 
