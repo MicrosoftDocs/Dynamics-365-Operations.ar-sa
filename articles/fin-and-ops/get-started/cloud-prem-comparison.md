@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
-ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 03/05/2018
 
 يظهر هذا الموضوع ما إذا كانت كل ميزة متوفرة في هذه المنتجات:
 
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (السحابة)
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (محلي)
++ Dynamics 365 for Finance and Operations (سحابة)
++ Dynamics 365 for Finance and Operations (محلي)
 
 تسرد الجداول التالية مناطق المنتجات. يتم إدراج الدعم في السحابة وفي الموقع المحلي للميزات بكاملها. عندما تختلف ميزات معينة عن المجال ككل، يتم إدراج الميزات على سطر منفصل في عمود "الميزة".
 

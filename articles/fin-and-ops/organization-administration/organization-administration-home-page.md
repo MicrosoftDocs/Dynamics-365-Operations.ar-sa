@@ -1,6 +1,6 @@
 ---
 title: "الصفحة الرئيسية لإدارة المؤسسة"
-description: "يشير هذا الموضوع إلى الموارد التي ستساعدك في استخدام Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition في مؤسستك."
+description: "يشير هذا الموضوع إلى الموارد التي ستساعدك في استخدام Microsoft Dynamics 365 for Finance and Operations في مؤسستك."
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-يشير هذا الموضوع إلى المحتوى الذي سيساعد المستخدمين والمسؤولين المحترفين على تكوين Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. سوف يساعدهم هذا المحتوى على تكوين النظام لكي يعمل بطريقة سلسة وفعالة لمؤسستك وأعمالك.
+يشير هذا الموضوع إلى المحتوى الذي سيساعد المستخدمين والمسؤولين المحترفين على تكوين Microsoft Dynamics 365 for Finance and Operations. سوف يساعدهم هذا المحتوى على تكوين النظام لكي يعمل بطريقة سلسة وفعالة لمؤسستك وأعمالك.
 
 معظم المحتويات المسرودة هنا تنطبق على الميزات في الوحدة النمطية **الإدارة التنظيمية**. ومع ذلك، هناك مهام قليلة، مثل إنشاء واستخدام قالب سجل، يمكن تنفيذها في أي وحدة نمطية لمساعدة مؤسستك على العمل بكفاءة أكثر. 
 

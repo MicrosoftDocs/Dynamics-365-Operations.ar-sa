@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b2514b6ff7500863a312ee378be008a7dcfb7438
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>بدء استخدام Microsoft Dynamics 365 for Talent
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/07/2018
 في Dynamics 365 for Talent، من السهل تعديل واجهة المستخدم وتعيين الخيارات التي تجعل البرنامج أكثر سهولة في تلبية احتياجاتك. يتضمن هذا الموضوع ارتباطات موصلة للمواضيع التي توفر معلومات حول كيفية تهيئة واجهة المستخدم حسب التفضيلات الخاصة بك. يتضمن الموضوع أيضًا ارتباطات موصلة للمعلومات التي يمكن أن تساعدك في البحث عن المعلومات في النظام بكفاءة ودقة. 
 
 > [!NOTE] 
-> ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations, Enterprise edition؛ وDynamics 365 for Retail؛ وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
+> ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
 
 ### <a name="personalizing-talent"></a>إضفاء طابع شخصي على المواهب 
 توضح المواضيع التالية كيفية إعداد العديد من الميزات في Dynamics 365 for Talent التي تسهل لك إتمام عملك في الوقت مناسب. 

@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-لإنشاء وإدارة وظائف استيراد البيانات وتصديرها في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition، يمكنك استخدام مساحة العمل **إدارة البيانات**. بشكل افتراضي، تنشئ عملية استيراد البيانات وتصديرها جدولاً مرحليًا لكل كيان في قاعدة البيانات الهدف. تسمح لك الجداول المرحلية بالتحقق من البيانات أو تنظيمها أو تحويلها قبل قبل أن تقوم بنقلها.
+لإنشاء وإدارة وظائف استيراد البيانات وتصديرها في Microsoft Dynamics 365 for Finance and Operations، يمكنك استخدام مساحة العمل **إدارة البيانات**. بشكل افتراضي، تنشئ عملية استيراد البيانات وتصديرها جدولاً مرحليًا لكل كيان في قاعدة البيانات الهدف. تسمح لك الجداول المرحلية بالتحقق من البيانات أو تنظيمها أو تحويلها قبل قبل أن تقوم بنقلها.
 
 > [!NOTE]
 > يفترض هذا الموضوع أنك على دراية بـ [كيانات البيانات](data-entities.md).
@@ -66,7 +66,7 @@ ms.lasthandoff: 02/13/2018
 ### <a name="set-the-data-format-for-the-job"></a>تعيين تنسيق البيانات للوظيفة
 عندما تقوم بتحديد كيان ما، يجب تحديد تنسيق البيانات التي سيتم تصديرها أو استيرادها. يمكنك تحديد التنسيقات باستخدام اللوحة **إعداد مصادر البيانات**. تبدأ مؤسسات كثيرة من التنسيقات التي تم تضمينها بشكل افتراضي في مجموعة بيانات العرض التوضيحي. في ما يلي قائمة ببعض هذه التنسيقات:
 
-- AX (للبيانات التي يجب استيرادها أو تصديرها بالتنسيق نفسه المستخدم لبرنامج Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition)
+- AX (للبيانات التي يجب استيرادها أو تصديرها بالتنسيق نفسه المستخدم لبرنامج Microsoft Dynamics 365 for Finance and Operations)
 - ColonSeparated
 - CSV
 - Excel

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: c5aefc44adc24f9d216f9470e4307a3723690173
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ee951d7f3f04e641f7bed767a2eebd1c180eb9f3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>تشغيل تقرير يستخدم الأبعاد المالية كمصدر بيانات للتقارير الإلكترونية (ER)
@@ -44,6 +44,6 @@ ms.lasthandoff: 11/02/2017
 9. في الحقل "المعايير، اكتب ''00057".
 10. انقر فوق "موافق".
 11. انقر فوق "موافق".
-    * اعمل على مراجعة المخرجات المنشأة. لاحظ أنه بالنسبة إلى كل حركة من الدُفعة المحددة، يتم تقديم الأبعاد المالية من مجموعة الأبعاد المناظرة. شغّل هذا التقرير وحدد أبعادًا مختلفة لمعرفة ما إذا كان التقرير لا يعتمد على عدد الأبعاد المحددة أو عدد الأبعاد التي تم تكوينها لهذا المثيل من Dynamics 365 for Finance and Operations, Enterprise edition.  
+    * اعمل على مراجعة المخرجات المنشأة. لاحظ أنه بالنسبة إلى كل حركة من الدُفعة المحددة، يتم تقديم الأبعاد المالية من مجموعة الأبعاد المناظرة. شغّل هذا التقرير وحدد أبعادًا مختلفة لمعرفة ما إذا كان التقرير لا يعتمد على عدد الأبعاد المحددة أو عدد الأبعاد التي تم تكوينها لهذا المثيل من Dynamics 365 for Finance and Operations.  
 
 

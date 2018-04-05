@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a72963f755f8eddb19b8526d2938eff039ab7df2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/17/2018
 التخطيط والاحتفاظ بجدول مشروع يمكن أن يكون معقدًا، لأن مديرو المشاريع بحاجة إلى استخدام الأدوات التي تساعدهم في إدارة هذه المهمة. يوفر التكامل مع عميل Microsoft Project الدعم لفتح وإدارة هيكل تنظيم عمل مشروع. يستطيع مدير المشروع نشر أي تغييرات مرة أخرى إلى هيكل تنظيم عمل مشروع Finance and Operations.
 
 > [!NOTE]
-> إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition، تحديث يوليو، فيجب عليك تثبيت قاعدة المعارف 4054797 و4055884:
+> إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations، تحديث يوليو، فيجب عليك تثبيت قاعدة المعارف 4054797 و4055884:
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>تكوين الأداة الإضافية لعميل Microsoft Project
 لتمكين التكامل مع عميل Microsoft Project، يلزم تثبيت الأداة الإضافية لـ Microsoft Dynamics 365 في تطبيق Microsoft Project لعميل المستخدم. يتم ذلك عن طريق فتح **مساحة عمل إدارة المشروع**.

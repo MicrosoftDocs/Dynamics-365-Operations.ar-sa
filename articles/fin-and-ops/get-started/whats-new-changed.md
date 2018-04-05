@@ -3,7 +3,7 @@ title: "ما الجديد أو التغيير"
 description: "تشير هذه الصفحة إلى مواضيع بإمكانها مساعدتك في التعرف على الميزات الجديدة الموجودة في الإصدارات الأحدث من Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ ms.lasthandoff: 01/23/2018
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
-<td>update 13 للنظام الأساسي</td>
-<td>7.0.4764</td>
-<td>يناير 2018 (عبارة عن جزء من إصدار مستهدف متوفر فقط للمستخدمين الذين اختاروا الاشتراك في برنامج فوائد التحديث التلقائي المستمر (CAAP).)</td>
-<td><a href="whats-new-platform-update-13.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition، الإصدار 13 من تحديث النظام الأساسي (يناير 2018)</a></td><tbody>
+<td>update 15 للنظام الأساسي</td>
+<td>7.0.4839</td>
+<td>مارس 2018 (عبارة عن جزء من إصدار مستهدف متوفر فقط للمستخدمين الذين اختاروا الاشتراك في برنامج فوائد التحديث التلقائي المستمر (CAAP).)</td>
+<td><a href="whats-new-platform-update-15.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition، الإصدار 15 من تحديث النظام الأساسي (مارس 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
 <td>update 12 للنظام الأساسي</td>

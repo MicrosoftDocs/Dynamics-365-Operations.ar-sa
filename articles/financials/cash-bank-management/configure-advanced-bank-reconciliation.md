@@ -1,6 +1,6 @@
 ---
 title: "عملية إعداد التسوية البنكية المتقدمة"
-description: "تسمح لك التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition بشكل تلقائي.  ستشرح هذه المقالة إعداد عمليات التسوية."
+description: "تسمح لك التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع حركات Microsoft Dynamics 365 for Finance and Operations البنكية بشكل تلقائي.  ستشرح هذه المقالة إعداد عمليات التسوية."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aec219f545e880407b9a7d62b2dda4a607ac6bdd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-تسمح لك التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition بشكل تلقائي.  ستشرح هذه المقالة إعداد عمليات التسوية.  
+تسمح لك التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع حركات Microsoft Dynamics 365 for Finance and Operations البنكية بشكل تلقائي.  ستشرح هذه المقالة إعداد عمليات التسوية.  
 
 يوجد عدد من القطع التي يجب إعدادها قبل استخدام وظيفة التسوية المصرفية المتقدمة. لمزيد من المعلومات حول إعداد استيراد كشف حساب بنكي، راجع [إعداد عملية استيراد كشف حساب بنكي](set-up-advanced-bank-reconciliation-import-process.md).  ويُفصل أدناه متطلبات إعداد عملية التسوية.
 

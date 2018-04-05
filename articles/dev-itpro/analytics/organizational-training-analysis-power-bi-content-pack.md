@@ -1,5 +1,5 @@
 ---
-title: "محتوى Power BI للتدريب التنظيمي"
+title: "محتوى Power BI للتدريب المؤسسي"
 description: "يشرح هذا الموضوع Finance and Operations - محتوى Power BI للتدريب التنظيمي."
 author: jcart1106
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 1e26785b658815fcc5026d73e4d8cfe39bd246c3
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 18567a3241fce02e17df368f544e545fad93e1d9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="organizational-training-power-bi-content"></a>محتوى Power BI للتدريب التنظيمي
+# <a name="organizational-training-power-bi-content"></a>محتوى Power BI للتدريب المؤسسي
 
 [!include[banner](../includes/banner.md)]
 

@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 84d5f60cdce4cd667c408d17d9892d7079947f58
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/07/2018
 
 يوفر هذا الموضوع معلومات عامة حول الاستبيانات وارتباطات لمزيد من المعلومات التفصيلية. والاستبيان هو مجموعة من الأسئلة المستخدمة لجمع المعلومات للأغراض المختلفة. ويمكنك تصميم استبيانات وإنشاؤها وتوزيعها وإكمالها وتحليل نتائجها. 
 
-يمكنك تخصيص استبيان لملاءمة متطلباتك الخاصة باستخدام الميزات المختلفة التي تتوفر في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. فيما يلي بعض الأمثلة على كيفية استخدام الاستبيانات:
+يمكنك تخصيص استبيان لملاءمة الاحتياجات المحددة الخاصة بك باستخدام الميزات المختلفة التي تتوفر في Microsoft Dynamics 365 for Finance and Operations. فيما يلي بعض الأمثلة على كيفية استخدام الاستبيانات:
 
 -   اختبار المهارات الاحترافية للموظفين ومقدمي الطلبات.
 -   تقييم ما إذا كان المشاركونن في الدورة التدريبية تعلموا مواد تدريبية.

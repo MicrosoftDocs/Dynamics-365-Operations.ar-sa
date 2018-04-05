@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -156,7 +156,7 @@ ms.lasthandoff: 11/03/2017
 |&nbsp;&nbsp;تكلفة متغيرة | 40001                     | 40010                   |
 
 > [!NOTE]
-> أسفل **نطاقات عضو البُعد**، يمكن أن تحتوي العقدة 1:_n_ على نطاقات عضو البُعد. يمكنك إدراج معرفات عضو البُعد غير الموجودة كأعضاء بُعد. يجعل هذا الأسلوب التدرج الهرمي يتسم بالمرونة للمستقبل.  
+> أسفل **نطاقات عضو البُعد**, يمكن أن تحتوي العقدة 1:_n_ على نطاقات عضو البُعد. يمكنك إدراج معرفات عضو البُعد غير الموجودة كأعضاء بُعد. يجعل هذا الأسلوب التدرج الهرمي يتسم بالمرونة للمستقبل.  
 
 ### <a name="copy-a-hierarchy"></a>نسخ تدرج هرمي
 
@@ -329,7 +329,7 @@ ms.lasthandoff: 11/03/2017
 - :Power BI
 
     - البيانات المعروضة في الرسوم المرئية لـ Power BI
-    - بيانات الرسوم المرئية لـ Power BI المضمنة في Microsoft Dynamics 365 for Finance and Operations، عميل Enterprise edition
+    - بيانات الرسوم المرئية لـ Power BI المضمنة في عميل Microsoft Dynamics 365 for Finance and Operations
 
 > [!NOTE] 
 > - قبل أن يؤثر التدرج الهرمي لقائمة الوصول على البيانات في Power BI، يجب أن يتم إقران التدرج الهرمي لقائمة الوصول والأمان على مستوى الصف في Power BI. للحصول على مزيد من المعلومات، راجع [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

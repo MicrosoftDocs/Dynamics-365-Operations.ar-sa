@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ef108fb7be65b91c531db750018f00f7fdd67da1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 02/07/2018
 
 ## <a name="distribution-export-and-import-of-product-data"></a>توزيع بيانات المنتج وتصديرها واستيرادها
 
-يمكنك إنشاء تعريف المنتج في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. ويمكن أيضًا استيراده من إدارة دورة حياة المنتج (PLM) أو إدارة بيانات المنتج (PDM) أو أنظمة إدارة معلومات المنتج (PIM). عند استخدام أكثر من مثيل واحد من Finance and Operations، يتم استخدام مثيل عادةً كأصل بيانات المنتج لكل المثيلات الأخرى. هناك مجموعة كبيرة من كيانات البيانات التي تدعم هذا المنتج، وهي تمكّن تصدير واستيراد بيانات تعريف المنتج من مثيل إلى آخر.
+يمكنك إنشاء تعريف المنتج في Microsoft Dynamics 365 for Finance and Operations. ويمكن أيضًا استيراده من إدارة دورة حياة المنتج (PLM) أو إدارة بيانات المنتج (PDM) أو أنظمة إدارة معلومات المنتج (PIM). عند استخدام أكثر من مثيل واحد من Finance and Operations، يتم استخدام مثيل عادةً كأصل بيانات المنتج لكل المثيلات الأخرى. هناك مجموعة كبيرة من كيانات البيانات التي تدعم هذا المنتج، وهي تمكّن تصدير واستيراد بيانات تعريف المنتج من مثيل إلى آخر.
 
 لدعم توزيع بيانات المنتج على عدد كبير من المثيلات، يسمح لك Finance and Operations باستخدام Common Data Service. يمكن تصدير تعريفات المنتج من مثيل Finance and Operations إلى Common Data Service. ثم يمكن استخدام تعريفات المنتج لتزويد تطبيقات الأعمال الأخرى، مثل Microsoft Dynamics 365 for Sales، ببيانات المنتج.
 

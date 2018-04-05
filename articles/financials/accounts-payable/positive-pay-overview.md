@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 70e0249ccf317a5a59afd97899187ee58409de22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 13a7a842e7b4522b508a34fdf86bb3bf58a0845f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 12/14/2017
 
 لكل حساب بنكي تريد إنشاء معلومات دفع إيجابي له، يجب تعيين تنسيق الدفع الإيجابي. بعد إنشاء الدفعات، يمكنك إنشاء ملف دفع إيجابي لكيان قانوني واحد وحساب بنكي واحد. أو، يمكنك إنشاء ملفات الدفع الإيجابي لعدة كيانات قانونية وحسابات بنكية في الوقت نفسه. 
 
-بعد اتمام دفع كل الشيكات المدرجة في ملف الدفع الإيجابي، ستتلقى رقم تأكيد من البنك. يمكنك عندئذٍ تأكيد ملف الدفع الإيجابي في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
+بعد اتمام دفع كل الشيكات المدرجة في ملف الدفع الإيجابي، ستتلقى رقم تأكيد من البنك. يمكنك عندئذٍ تأكيد ملف الدفع الإيجابي في Microsoft Dynamics 365 for Finance and Operations. 
 
 إذا لزم تغيير ملف دفع إيجابي، فيمكنك إعادة استدعائه. بعد ذلك، ولكل شيك في ملف الدفع الإيجابي، يُعاد تعيين الحقل الذي يشير إلى ما إذا تم تضمين الشيك في ملف دفع إيجابي.
 

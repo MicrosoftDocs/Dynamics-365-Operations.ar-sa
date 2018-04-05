@@ -1,6 +1,6 @@
 --- 
 title: "تعيين نموذج بيانات إلى مصادر بيانات محددة للتقارير الإلكترونية (ER)"
-description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين نموذج بيانات تقارير إلكترونية إلى مصادر بيانات Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين نموذج بيانات تقارير إلكترونية إلى مصادر بيانات Dynamics 365 for Finance and Operations, Enterprise edition (نوفمبر 2016)."
 author: NickSelin
 manager: AnnBe
 ms.date: 01/16/2017
@@ -16,17 +16,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96974d7c1597db4ac31168be40cecbc7e12d6edd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>تعيين نموذج بيانات إلى مصادر بيانات محددة للتقارير الإلكترونية (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين نموذج بيانات تقارير إلكترونية إلى مصادر بيانات Dynamics 365 for Finance and Operations, Enterprise edition. سيتم استخدام تعيين هذا المخطط لاحقاً كمصدر بيانات في تنسيق تكوين سيتم استخدامه لإدارة مستندات الدفع الإلكتروني. في هذا المثال، تقوم بتعيين نموذج بيانات لشركة عينة، وهي .Litware, Inc لمصادر البيانات. ولإكمال هذه الخطوات، عليك أولاً إكمال الخطوات المضمنة في الإجراء "تحديد مصادر البيانات لتعيين النموذج".
+تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين نموذج بيانات تقارير إلكترونية إلى مصادر بيانات Dynamics 365 for Finance and Operations. سيتم استخدام تعيين هذا المخطط لاحقاً كمصدر بيانات في تنسيق تكوين سيتم استخدامه لإدارة مستندات الدفع الإلكتروني. في هذا المثال، تقوم بتعيين نموذج بيانات لشركة عينة، وهي .Litware, Inc لمصادر البيانات. ولإكمال هذه الخطوات، عليك أولاً إكمال الخطوات المضمنة في الإجراء "تحديد مصادر البيانات لتعيين النموذج".
 
 
 ## <a name="open-er-configurations-tree"></a>فتح شجرة تكوينات التقرير الإلكتروني

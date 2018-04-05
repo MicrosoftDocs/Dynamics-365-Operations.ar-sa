@@ -1,6 +1,6 @@
 ---
 title: "مزامنة المنتجات مباشرةً من Finance and Operations للمنتجات في Sales‎"
-description: "يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة المنتجات من Microsoft Dynamics 365 for Finance and Operations, Enterprise edition إلى Microsoft Dynamics 365 for Sales."
+description: "يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة منتجات من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,21 +20,21 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: def88c291538e3ef278c51e4b87462782e222de2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>مزامنة المنتجات مباشرةً من Finance and Operations للمنتجات في Sales‎
+# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE]
 > قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل بيانات Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration).
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة المنتجات مباشرةً من Microsoft Dynamics 365 for Finance and Operations, Enterprise edition إلى Microsoft Dynamics 365 for Sales.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة منتجات مباشرةً من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>تدفق البيانات في حل العميل المتوقع إلى النقدية
 

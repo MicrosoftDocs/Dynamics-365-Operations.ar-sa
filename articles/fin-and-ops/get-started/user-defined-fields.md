@@ -3,7 +3,7 @@ title: "الحقول المخصصة"
 description: "يوضح هذا الموضوع الكيفية التي يتيح بها لبعض المستخدمين Dynamics 365 for Finance and Operations إمكانية إنشاء حقول مخصصة لتكييف التطبيق لتلبية أعمالهم."
 author: jasongre
 manager: AnnBe
-ms.date: 01/19/2018
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -14,13 +14,13 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2017-12-31
+ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: ad59346f88b7a5984e16418e2aade7ccaedf180b
-ms.openlocfilehash: 142c66c189d6401cfb3db128e45fea6c071e99bf
+ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
+ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,7 +30,9 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/pre-release.md)] 
 
-بينما يوفر Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition مجموعة شاملة من الحقول المبتكرة لإدارة مجموعة كبيرة من عمليات الأعمال، في بعض الأحيان تكون هناك حاجة لإحدى الشركات لتعقب المعلومات الإضافية في النظام. لتلبية هذه الحاجة، يتيح لك Finance and Operations إمكانية إنشاء حقول مخصصة لتكييف التطبيق ليناسب عملك، بشرط أن يكون لديك أذونات لهذه الميزة.
+بينما يوفر Microsoft Dynamics 365 for Finance and Operations مجموعة شاملة من الحقول المبتكرة لإدارة مجموعة كبيرة من عمليات الأعمال، في بعض الأحيان تكون هناك حاجة لإحدى الشركات لتعقب المعلومات الإضافية في النظام. لتلبية هذه الحاجة، يتيح لك Finance and Operations إمكانية إنشاء حقول مخصصة لتكييف التطبيق ليناسب عملك، بشرط أن يكون لديك أذونات لهذه الميزة. 
+
+تتوفر القدرة على إضافة حقول مخصصة في تحديث النظام الأساسي 13 والإصدارات الأحدث.
 
 يوضح هذا الفيديو مدى سهولة إضافة حقل مخصص إلى صفحة.
 

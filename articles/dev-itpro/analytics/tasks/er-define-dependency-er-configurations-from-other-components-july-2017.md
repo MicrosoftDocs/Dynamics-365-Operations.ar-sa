@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: ar-sa
-ms.lasthandoff: 10/24/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>تحديد تبعية التكوينات من المكونات الأخرى لإعداد التقارير الإلكتروني (ER)
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/24/2017
 
 لإتمام هذه الخطوات، يجب عليك أولاً إكمال الخطوات الموجودة في دليل المهام، "التقارير الإلكترونية - إدارة تكوينات تعيينات النموذج‬"، ويجب أن يكون لديك حق الوصول إلى Microsoft Dynamics Lifecycle Services (LCS).
 
-يظهر هذا الإجراء كيفية تصميم تكوين التقارير الإلكترونية وتحديد تبعيته بالنسبة إلى مكونات البرامج الأخرى، بحيث يمكنك المساعدة في ضمان تنزيل التكوين بشكل صحيح إلى إصدار معين من Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. في هذا المثال، ستقوم بإنشاء تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية Litware, Inc. 
+يظهر هذا الإجراء كيفية تصميم تكوين التقارير الإلكترونية وتحديد تبعيته بالنسبة إلى مكونات البرامج الأخرى، بحيث يمكنك المساعدة في ضمان تنزيل التكوين بشكل صحيح إلى إصدار معين من Microsoft Dynamics 365 for Finance and Operations. في هذا المثال، ستقوم بإنشاء تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية Litware, Inc. 
 
 تم تخصيص هذا الإجراء للمستخدمين الذين تم تعيين دور مسؤول النظام أو مطور التقارير الإلكترونية لهم. يمكن تنفيذ الخطوات في أي شركة، نظرًا لمشاركة تكوينات التقارير الإلكترونية بين الشركات. 
 
