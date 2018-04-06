@@ -1,6 +1,6 @@
 ---
 title: "تسوية كشوف الحسابات البنكية باستخدام التسوية البنكية المتقدمة"
-description: "تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition بشكل تلقائي. يشرح هذا الموضوع عملية التسوية."
+description: "تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations بشكل تلقائي. يشرح هذا الموضوع عملية التسوية."
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b6c1b89256ab4b258f2901e47009a0eed573bd53
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition بشكل تلقائي. يشرح هذا الموضوع عملية التسوية.  
+تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations بشكل تلقائي. يشرح هذا الموضوع عملية التسوية.  
 
 <a name="import-an-electronic-bank-statement"></a>استيراد كشف حساب بنكي إلكتروني
 -----------------------------------

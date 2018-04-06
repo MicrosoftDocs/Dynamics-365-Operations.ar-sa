@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: d366ae53f4a9d8e676c3bc19e0450baa254cb716
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,13 +36,13 @@ ms.lasthandoff: 03/07/2018
 ## <a name="overview"></a>نظرة عامة 
 تمر أوامر الشراء التي تحتاج إلى موافقة على سير عمل الموافقة. باستطاعة سير العمل أن يتضمن خطوات مختلفة تتطلب قيام شخص أو أكثر باتخاذ الإجراءات اللازمة. على سبيل المثال، قد يتعين على شخص ما إكمال مهمة أو الموافقة على أمر الشراء. 
 
-تسمح لك مساحة العمل المحمولة **الموافقة على أمر الشراء** بعرض أوامر الشراء والاستجابة لها بسهولة من جهازك المحمول. وتسمح لك أيضًا مساحة العمل هذه باتخاذ إجراءات سير العمل نفيها التي يمكنك اتخاذها من Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، عميل ويب.
+تسمح لك مساحة العمل المحمولة **الموافقة على أمر الشراء** بعرض أوامر الشراء والاستجابة لها بسهولة من جهازك المحمول. وتسمح لك أيضًا مساحة العمل هذه باتخاذ إجراءات سير العمل نفيها التي يمكنك اتخاذها من Microsoft Dynamics 365 for Finance and Operations، عميل ويب.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 تختلف المتطلبات الأساسية، بالاستناد إلى إصدار Finance and Operations الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-إذا تم نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations 
+إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث
 إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 

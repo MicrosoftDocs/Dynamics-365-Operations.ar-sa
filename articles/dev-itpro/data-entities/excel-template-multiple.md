@@ -1,6 +1,6 @@
 ---
 title: "استيراد البيانات من قوالب كيان البيانات Excel باستخدام أوراق عمل متعددة"
-description: "يوضح هذا الموضوع كيفية استيراد البيانات باستخدام قوالب كيان البيانات Excel إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "يوضح هذا الموضوع كيفية استيراد البيانات باستخدام قوالب كيان البيانات Excel إلى Microsoft Dynamics 365 for Finance and Operations."
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-تدعم إدارة البيانات في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition قوالب Microsoft التي تستند إلى Excel لكيانات البيانات. يمكن أن تحتوي هذه القوالب على ورقة عمل واحدة أو أكثر. تستخدم عادة قوالب أوراق العمل المتعددة عندما يكون ذلك مناسبًا لإدارة البيانات في ملف واحد واستيرادها في كيانات بيانات متعددة. على سبيل المثال ستكون المواقع والمستودعات.
+تدعم إدارة البيانات في Microsoft Dynamics 365 for Finance and Operations قوالب Microsoft التي تستند إلى Excel لكيانات البيانات. يمكن أن تحتوي هذه القوالب على ورقة عمل واحدة أو أكثر. تستخدم عادة قوالب أوراق العمل المتعددة عندما يكون ذلك مناسبًا لإدارة البيانات في ملف واحد واستيرادها في كيانات بيانات متعددة. على سبيل المثال ستكون المواقع والمستودعات.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>تحميل ملف في المرة الواحدة وتعيينه إلى كافة الكيانات
 دعنا نأخذ مثالًا عندما يكون هناك ملف Excel واحد مع أوراق عمل تسمى**المواقع** و **المستودعات**. لإعداد مشروع استيراد البيانات، يجب عليك إضافة كيان البيانات الأول، **المواقع** ثم تحميل الملف. ستكون قادراً على تحديد **المواقع** كورقة عمل يتم استخدامها لهذا الكيان.

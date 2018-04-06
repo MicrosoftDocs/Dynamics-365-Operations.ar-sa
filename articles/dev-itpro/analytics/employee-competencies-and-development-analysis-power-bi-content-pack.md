@@ -1,5 +1,5 @@
 ---
-title: "محتوى اختصاصات الموظفين وتطوير Power BI"
+title: "محتوى Power BI لكفاءات الموظفين وتطويرهم"
 description: "يوضح هذا الموضوع محتوى اختصاصات الموظفين وتطوير Power BI في Finance and Operations."
 author: jcart1106
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="employee-competencies-and-development-power-bi-content"></a>محتوى اختصاصات الموظفين وتطوير Power BI
+# <a name="employee-competencies-and-development-power-bi-content"></a>محتوى Power BI لكفاءات الموظفين وتطويرهم
 
 [!include[banner](../includes/banner.md)]
 

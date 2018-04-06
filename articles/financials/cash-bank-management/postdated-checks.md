@@ -1,6 +1,6 @@
 ---
 title: "الشيكات التي تم تأخير تاريخها"
-description: "توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد."
+description: "توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Microsoft Dynamics 365 for Finance and Operations. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: afa181830fb822c85dedbc8009fec903d1b98479
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد.
+توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Microsoft Dynamics 365 for Finance and Operations. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد.
 
 يدعم Microsoft Dynamics 365 for Finance and Operations دورة الإدارة الكاملة للشيكات بتاريخ لاحق في كلٍّ من الحسابات المدينة والحسابات الدائنة، كما هو موضح في الجدول التالي.
 <table>

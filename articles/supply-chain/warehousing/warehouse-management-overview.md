@@ -17,17 +17,17 @@ ms.author: bis
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 43167cc36398d3f7f8d639187f67fad1bae8082f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="warehouse-management"></a>إدارة المستودعات
 
 [!include[banner](../includes/banner.md)]
 
-تسمح لك الوحدة النمطية لإدارة المستودعات في Dynamics 365 for Finance and Operations, Enterprise Edition بإدارة عمليات المستودع في شركات التصنيع والتوزيع وشركات البيع بالتجزئة. تحتوي هذه الميزة على نطاق واسع من الميزات لدعم منشأة المستودع على المستوى الأمثل، في أي وقت. تتكامل إدارة المستودعات بشكل تام مع العمليات التجارية الأخرى في Finance and Operations مثل النقل والتصنيع ومراقبة الجودة والشراء والتحويل والمبيعات والمرتجعات.
+تسمح لك الوحدة النمطية لإدارة المستودعات في Dynamics 365 for Finance and Operations بإدارة عمليات المستودع في شركات التصنيع والتوزيع وشركات البيع بالتجزئة. تحتوي هذه الميزة على نطاق واسع من الميزات لدعم منشأة المستودع على المستوى الأمثل، في أي وقت. تتكامل إدارة المستودعات بشكل تام مع العمليات التجارية الأخرى في Finance and Operations مثل النقل والتصنيع ومراقبة الجودة والشراء والتحويل والمبيعات والمرتجعات.
 
 ## <a name="get-started"></a>بدء الاستخدام
 للشروع في العمل مع إدارة المستودعات، يجب عليك إكمال عملية إعداد محددات المستودعات العامة لدعم العمليات التجارية لشركتك.

@@ -19,10 +19,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 99eece7b31034065694f8875c72eb2360088ec23
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,8 +32,8 @@ ms.lasthandoff: 02/23/2018
 
 يسرد هذا الموضوع محتوى Microsoft Power BI المتوفر ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عنه.
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>محتوى Power BI لتطبيق Dynamics 365 for Finance and Operations, Enterprise Edition
-إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition، فسيتوفر محتوى Power BI التالي:
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>محتوى Power BI لـ Dynamics 365 for Finance and Operations
+إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations، فسيتوفر محتوى Power BI التالي:
 
 - [محتوى Power BI القيمة الفعلية مقابل الموازنة](ledger-budgets-power-bi.md)
 - [محتوى Power BI - الميزات](benefits-power-bi.md)

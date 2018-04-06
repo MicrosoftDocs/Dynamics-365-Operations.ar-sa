@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations وهي تشرح أيضًا كيفية توفير التدريب والوثائق المخصصة لمؤسستك. 
 
 > [!NOTE] 
-> ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations, Enterprise edition؛ وDynamics 365 for Retail؛ وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
+> ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
 
 تشارك المنتجات التالية نظام التعليمات:
-- Dynamics 365 for Finance and Operations، الإصدار Enterprise
+- Dynamics 365 for Finance and Operations
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -108,14 +108,14 @@ ms.lasthandoff: 03/09/2018
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>اقتراح تغيير أو المساهمة بالمحتوى من خلال GitHub
 لاقتراح تغيير، يلزم أن يكون لديك حساب في GitHub، وأن يتم التوقيع على اتفاقية ترخيص المساهم.  بعد قيامك بإرسال طلب سحب، سنراجع تغييراتك المقترحة. إذا لزم الأمر، سنناقشها داخليًا، وبعد ذلك سنعاود الاتصال بك.  
 
-للبدء، انقر فوق زر (القلم الرصاص) **تحرير** على الموضوع أو انتقل إلى مستودعنا على https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+للشروع في العمل، انقر فوق الزر **تحرير** (القلم الرصاص) في الموضوع أو انتقل إلى المستودع الخاص بنا في https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
 
-لمزيد من المعلومات، يرجى الرجوع إلى دليل المساهم: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+لمزيد من المعلومات، الرجاء الرجوع إلى دليل المساهم الخاصة بنا: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
 
 
 > [!NOTE]
 > لا نقبل في الوقت الحالي غير المساهمات في مستودعاتنا باللغة الإنجليزية.  
-> لا نقبل المشكلات التي يتم الإبلاغ عنها من خلال GitHub -- احرص على استخدام طلب سحب لاقتراحات المحتوى. تتم معالجة الملاحظات على المنتجات والميزات بشكل أفضل من خلال مدخل أفكار Dynamics 365:‏ https://experience.dynamics.com/ideas/. 
+> لا نقبل المشكلات التي يتم الإبلاغ عنها من خلال GitHub -- احرص على استخدام طلب سحب لاقتراحات المحتوى. تتم معالجة الملاحظات على المنتجات والميزات بشكل أفضل من خلال مدخل أفكار Dynamics 365: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>دلائل المهام

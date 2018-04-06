@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
-ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-Enterprise editionEnterprise editionيوضح هذا الموضوع الميزات التي تمت إزالتها أو أصبحت مهلكة من Dynamics 365 for Finance and Operations, Enterprise edition.
+يوضح هذا الموضوع الميزات التي تمت إزالتها أو أصبحت مهلكة من Dynamics 365 for Finance and Operations.
 
 - لم تعد ميزة *تمت الإزالة* متوفرة في المنتج.
 - لا توجد ميزة *المهملة* في التطوير النشط وقد يتم إزالتها في تحديثات مستقبلية.

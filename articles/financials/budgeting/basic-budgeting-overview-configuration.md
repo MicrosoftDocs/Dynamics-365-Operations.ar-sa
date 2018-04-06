@@ -1,6 +1,6 @@
 ---
 title: "نظرة عامة على إعداد الموازنة"
-description: "ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations, Enterprise edition أو تحميلها من برنامج تابع لجهة خارجية."
+description: "ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Finance and Operations من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations أو تحميلها من برنامج تابع لجهة خارجية."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8e8b3a7e801e98929c4ba1b9fefe341abd91dbd4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations أو تحميلها من برنامج تابع لجهة خارجية.
+ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Finance and Operations من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations أو تحميلها من برنامج تابع لجهة خارجية.
 
 <a name="overview"></a>نظرة عامة
 --------

@@ -1,6 +1,6 @@
 ---
 title: "اختصارات لوحة المفاتيح"
-description: "تنطبق مفاتيح الاختصار التالية عبر Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "تنطبق مفاتيح الاختصار التالية عبر Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-تنطبق مفاتيح الاختصار التالية عبر Dynamics 365 for Finance and Operations, Enterprise Edition. 
+تنطبق مفاتيح الاختصار التالية عبر Dynamics 365 for Finance and Operations. 
 
 **ملاحظة:** مفاتيح الاختصار الموضحة هنا تشير إلى تخطيط لوحة مفاتيح في الولايات المتحدة. قد لا تتوافق المفاتيح الموجودة في تخطيطات لوحات المفاتيح الأخرى تمامًا مع المفاتيح الموجودة على لوحة مفاتيح الولايات المتحدة.
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 12/14/2017
 | فتح جزء مربع حقائق (أو نقل التركيز إلى جزء مربع الحقائق إذا كان مفتوحاً بالفعل) | Alt+M,B أو Ctrl+F2                        |
 | إغلاق جزء مربع الحقائق (مع التركيز في جزء مربع الحقائق)                         | Esc                                       |
 | الانتقال إلى مربع الحقائق التالي/السابق (مع التركيز في جزء مربع الحقائق)              | Alt+Shift+سهل لأسفل / Alt+Shift+سهم لأعلى |
-| الانتقال إلى مربع الحقائق &lt;n&gt; (مع التركيز في جزء مربع الحقائق)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| الانتقال إلى مربع الحقائق &lt;n&gt;th (مع التركيز في جزء مربع الحقائق)                | Alt+&lt;n&gt; (&lt;n&gt; =‏ 1-9)           |
 | توسيع مربع حقائق (مع التركيز على رأس مربع الحقائق)                             | Space أو Enter                            |
 | طي مربع الحقائق الحالي                                                    | Alt+0                                     |
 
@@ -115,11 +115,11 @@ ms.lasthandoff: 12/14/2017
 | **للقيام بهذا الإجراء**                                      | **ضغط**                                    |
 | الانتقال إلى الحقل التالي/السابق                     | Tab / Shift+Tab                              |
 | الانتقال إلى علامة التبويب التالية/السابقة                       | Alt+Shift+سهم لليمين / Alt+Shift+سهم لليسار |
-| الانتقال إلى علامة التبويب &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| الانتقال إلى علامة التبويب &lt;n&gt;th                          | Alt+Shift+&lt;n&gt; (&lt;n&gt; =‏ 1-9)        |
 | الانتقال إلى علامة التبويب السريع التالية/السابقة                   | Alt+Shift+سهل لأسفل / Alt+Shift+سهم لأعلى    |
-| الانتقال إلى علامة التبويب السريعة &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| الانتقال إلى علامة التبويب السريع  &lt;n&gt;th                      | Alt+&lt;n&gt; (&lt;n&gt; =‏ 1-9)              |
 | الانتقال إلى الريشة التالية/السابقة (علامة تبويب عمودية)      | Alt+Shift+سهم لليمين / Alt+Shift+سهم لليسار |
-| الانتقال إلى الريشة &lt;n&gt;رقم (علامة تبويب عمودية)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| الانتقال إلى الريشة &lt;رقم&gt; (علامة تبويب عمودية)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; =‏ 1-9)        |
 | توسيع علامة تبويب سريع (مع التركيز على رأس علامة التبويب السريع) | Space أو Enter                               |
 | طي علامة تبويب السريع الحالية                        | Alt+0                                        |
 | التبديل إلى طريقة عرض الشبكة                                 | Ctrl+Shift+G                                 |

@@ -18,25 +18,25 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
-ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fa43f6683d43dfb62e8dc2c194ff2b82fe629fe3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="on-premises-deployment-home-page"></a>الصفحة الرئيسية لعملية النشر المحلي
 
 [!include[banner](../includes/banner.md)]
 
-يمكنك نشر Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (محلي). عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة. يوفر هذا الموضوع ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.
+يمكنك نشر Microsoft Dynamics 365 for Finance and Operations (محلي). عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة. يوفر هذا الموضوع ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.
 
 ## <a name="get-started"></a>بدء الاستخدام
 - [ما الجديد أو المتغير في عمليات النشر المحلي لتطبيق Dynamics 365 for Finance and Operations, Enterprise edition 7.2 مع تحديث النظام الأساسي 12 (مارس 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [نظرة عامة على Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](on-premises-overview.md)
-- [التخطيط لعمليات النشر المحلي الخاصة بك](plan-onprem-deployment.md)
+- [نظرة عامة على Dynamics 365 for Finance and Operations (محلي)](on-premises-overview.md)
+- [التخطيط لعمليات النشر المحلي](plan-onprem-deployment.md)
 - [متطلبات النظام لعمليات النشر المحلي](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [ضبط حجم الأجهزة للبيئات المحلية](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [شراء Dynamics 365 for Finance and Operations، الإصدار Enterprise (المحلي)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [شراء Dynamics 365 for Finance and Operations (محلي)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [مقارنة السحابة والميزة المحلية](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>الإعداد
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/15/2018
 - [إعادة النشر على عملية نشر محلي](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>موارد أخرى
-- [استكشاف الأخطاء وإصلاحها في Dynamics 365 for Finance and Operations, Enterprise edition (محلي)](troubleshoot-on-prem.md)
+- [استكشاف الأخطاء وإصلاحها في Dynamics 365 for Finance and Operations (محلي)](troubleshoot-on-prem.md)
 - [ميزات لم يتم تنفيذها في عمليات النشر المحلية](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [الميزات المهملة](../migration-upgrade/deprecated-features.md)
 - [سياسة دورة حياة البرامج وقائمة الإصدارات](../migration-upgrade/versions-update-policy.md)

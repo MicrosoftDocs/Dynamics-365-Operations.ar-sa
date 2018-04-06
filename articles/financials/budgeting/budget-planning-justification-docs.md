@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b033f6197e61a6030e12081a9e4f1d820bac458f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 
 1.  انقر فوق **التصميم** في وظيفة Office الإضافية لـ Microsoft Dynamics بعد أن قمت بتسجيل الدخول.
 2.  بالنسبة لمعلومات العنوان، استخدم زر **إضافة حقول**.
-3.  قم بتحديد مصدر بيانات الكيان لـ BudgetPlanJustification، ثم انقر فوق **التالي**. **ملاحظة:** هذا الكيان مطلوب لأي مستند تبرير. يمكن استخدام الكيانات الأخرى، ولكن سفيشل التحميل للرجوع إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition إذا لم يتم تضمين هذا الكيان.
+3.  قم بتحديد مصدر بيانات الكيان لـ BudgetPlanJustification، ثم انقر فوق **التالي**. **ملاحظة:** هذا الكيان مطلوب لأي مستند تبرير. يمكن استخدام الكيانات الأخرى، ولكن سفيشل التحميل للرجوع إلى Microsoft Dynamics 365 for Finance and Operations إذا لم يتم تضمين هذا الكيان.
 4.  إضافة تسميات وقيم BudgetPlanName وBudgetPlanPreparer وResponsibilityCenter وDocumentNumber في مستند Word. **ملاحظة:** يمكنك استخدام التسميات المخصصة لك بدلاً من التسميات القياسية، إذا لزم الأمر.
 5.  انقر فوق **تم** لإكمال قسم العنوان.
 6.  بالنسبة لتفاصيل مستوى بنود مبالغ خطة الموازنة، انقر فوق **إضافة جدول**.

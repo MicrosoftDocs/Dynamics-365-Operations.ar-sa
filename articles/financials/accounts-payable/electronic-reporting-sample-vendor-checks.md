@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9abea228cdaae84ca2b9aada9f36bbe79c1dc6b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 يجب عليك دائمًا الانتقال إلى مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS) وعرض قائمة بأحدث الملفات المتوفرة التي تحتوي على نوع أصل **تكوين GER**. يتضمن القسم التالي، "ما الذي يجب عليّ إعداده؟، ارتباطًا إلى الموضوع الذي يشرح كيفية إنشاء مستودع LCS، بحيث تتمكن من مراجعة التكوينات المتوفرة واستيراد تكوينات محددة.
 
-يتضمن Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، تنسيق نموذج يوجد فيه الشيك في الأعلى، ويليه قسمين للحوالات. ويتضمن أيضًا عينة تنسيق يكون فيها الشيك في الوسط بين قسمي الحوالة. تتوافق عينات التنسيقات هذه مع تنسيقات شيكات أعمال Deluxe.
+يتضمن Microsoft Dynamics 365 for Finance and Operations عينة تنسيق يوجد فيه الشيك في الأعلى، ويليه قسمين للحوالات. ويتضمن أيضًا عينة تنسيق يكون فيها الشيك في الوسط بين قسمي الحوالة. تتوافق عينات التنسيقات هذه مع تنسيقات شيكات أعمال Deluxe.
 
 ## <a name="what-do-i-have-to-set-up"></a>ما الذي يجب عليَّ إعداده؟
 
