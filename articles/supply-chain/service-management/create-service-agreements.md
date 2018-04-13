@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreements"></a>إنشاء اتفاقيات خدمات
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية استخدام الميزات الموجودة في إدارة الخدمة وإدارة المشروع والوحدات النمطية المحاسبية لإنشاء اتفاقيات الخدمة.
 

@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>مساحة عمل التحقق من صحة البيانات
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على **مساحة عمل قائمة التحقق من صحة البيانات‬** والتكوين المقترن بها.
 

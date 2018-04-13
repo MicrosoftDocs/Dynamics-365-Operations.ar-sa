@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-control-overview"></a>نظرة عامة على التحكم في الموازنة 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة مقدمة إلى رقابة الموازنة وتوفر معلومات لمساعدتك في تكوين رقابة الموازنة في Microsoft Dynamics 365 for Finance and Operations لكي تتمكن من إدارة الموارد المالية.
 

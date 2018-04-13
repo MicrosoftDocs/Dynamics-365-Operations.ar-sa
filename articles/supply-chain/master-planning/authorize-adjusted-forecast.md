@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="authorize-an-adjusted-forecast"></a>‏‫تخويل ‏‫التنبؤ الذي تمت تسويته
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يجب عدم تخويل كافة بيانات التنبؤ على الفور. يشرح هذا المقال كيف يمكنك تحديد الفترة التي يتم فيها التخويل لتنبؤ. وهو يوضح أيضًا كيفية تخويل التنبؤ لشركات بعينها ونماذج التنبؤ.
 

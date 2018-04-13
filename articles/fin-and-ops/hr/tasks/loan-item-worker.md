@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="loan-items-to-a-worker"></a>أصناف القرض لعامل
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إقراض صنف لعامل وتسجيل العامل الذي يرجع الصنف. بإمكان العاملين أيضًا طلب أصناف القرض عبر صفحات الخدمة الذاتية للموظف. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

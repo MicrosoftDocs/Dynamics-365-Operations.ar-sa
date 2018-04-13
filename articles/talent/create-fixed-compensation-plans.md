@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-fixed-compensation-plans"></a>إنشاء خطط التعويض الثابت
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 يشير التعويض الثابت إلى الأجر أو الراتب الإجمالي المنتظم للموظف. يوضح هذا الموضوع المكونات التي يجب إعدادها قبل أن تتمكن من إنشاء خطة التعويض الثابت وتسجيل الموظفين.
 

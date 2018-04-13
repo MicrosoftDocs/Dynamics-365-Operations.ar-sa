@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="warehouse-configuration"></a>تكوين المستودع
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية تكوين مستودع. ويشتمل على معلومات حول كيفية تكوين تخطيط المستودع وعمليات المستودع.
 

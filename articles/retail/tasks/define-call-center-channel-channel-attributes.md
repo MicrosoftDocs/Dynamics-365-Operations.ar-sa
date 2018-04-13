@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a> تحديد قناة مركز الاتصال وسمات القناة
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 ينقلك هذا الإجراء عبر إنشاء قناة جديدة للبيع بالتجزئة وتحديد سمات القناة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT.‬ هذا الإجراء مخصص لدور تكنولوجيا معلومات Retail‬.
 

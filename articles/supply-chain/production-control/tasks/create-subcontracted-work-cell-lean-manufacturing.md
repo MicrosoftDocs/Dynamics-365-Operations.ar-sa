@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>إنشاء خلية عمل متعاقد عليها من الباطن لـ lean manufacturing
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 لتصميم نموذج متعاقد عليه من الباطن لـ lean manufacturing، يجب عليك إنشاء خلية عمل مرتبطة بالمورّد الذي وفر العمل. ترتبط خلية عمل متعاقد عليه من الباطن بالمورّد من خلال ربط مورد بنوع المورّد. إذا قمت بتشغيل هذا التسجيل في شركة العرض التوضيحي USMF، فيمكنك تحديد معرّف حساب المورّد 1002 والموقع 1.
 

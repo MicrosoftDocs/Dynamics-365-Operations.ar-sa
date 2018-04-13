@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>إنشاء موازنة من حسابات الحركات والحسابات الإجمالية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على عملية إنشاء موازنات بالاستناد إلى الحسابات الإجمالية. وهي تشرح أيضًا كيفية تشغيل رقابة الموازنة للحسابات الإجمالية، إذا كانت رقابة الموازنة مطلوبة.
 

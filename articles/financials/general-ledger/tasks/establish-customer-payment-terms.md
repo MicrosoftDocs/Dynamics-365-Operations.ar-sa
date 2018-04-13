@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-payment-terms"></a>‏‫وضع شروط دفع العميل‬
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يعرّف هذا الإجراء إعداد خصم نقدي وتاريخ استحقاق. يستخدم دليل المهمة هذا شركة بيانات العرض التوضيحي USMF.
 

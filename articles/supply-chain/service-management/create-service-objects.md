@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="create-service-objects"></a>إنشاء كائنات خدمة  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
    
 كائنات الخدمة هي منتجات العميل وأصوله التي يمكن تنفيذ خدمة لها. 
 

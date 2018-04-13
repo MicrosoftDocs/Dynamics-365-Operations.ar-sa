@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deliver-an-employee-benefits-program"></a>تقديم برنامج ميزات الموظفين
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ستعرض لك هذه المهمة كيفية إنشاء عناصر الفائدة التي سيتم استخدامها عند إنشاء ميزة جديدة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬ هذه المهمة مخصصة لمدير التعويضات والميزات.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a> تحديد أنظمة الولاء
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء كيفية تحديد نظام الولاء. أنظمة الولاء هي قواعد كسب واستبدال المكافأة الخاصة ببرنامج ولاء. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

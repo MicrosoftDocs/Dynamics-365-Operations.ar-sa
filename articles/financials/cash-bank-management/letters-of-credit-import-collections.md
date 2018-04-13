@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>خطابات الاعتماد وتحصيلات الاستيراد
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات عامة حول مجموعات الاستيراد وخطابات الاعتماد. يُستخدم هذان النوعان من المستندات البنكية بشكل شائع لشراء وبيع السلع عبر الحدود الدولية.
 

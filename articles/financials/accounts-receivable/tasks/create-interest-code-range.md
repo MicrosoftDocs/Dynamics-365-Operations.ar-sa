@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-interest-code-with-a-range"></a>إنشاء رمز فائدة مع نطاق
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يمكن إعداد رموز الفائدة لحساب مبالغ الفائدة المختلفة استنادًا إلى نطاق القيم. يوضح لك هذا الإجراء كيفية إضافة رمز فائدة وإضافة نطاق إليه.
 

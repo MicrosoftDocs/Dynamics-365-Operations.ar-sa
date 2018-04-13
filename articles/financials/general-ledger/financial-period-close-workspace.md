@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-period-close-workspace"></a>مساحة عمل إقفال الفترة المالية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على مساحة عمل إقفال الفترة المالية‬ والتكوين المقترن بها.
 

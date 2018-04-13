@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>تكوين الحسابات الدائنة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تصف هذه المقالة الصفحات التي تستخدمها لإعداد الوظائف الأساسية والاختيارية للحسابات الدائنة في Microsoft Dynamics 365 for Finance and Operations. وتصف أيضًا خطوات الإعداد التي يجب إكمالها قبل بدء إعداد الحسابات الدائنة.
 

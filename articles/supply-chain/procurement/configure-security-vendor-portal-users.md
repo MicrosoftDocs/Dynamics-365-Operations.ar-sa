@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="vendor-portal-user-security"></a>أمان مستخدم مدخل المورّد على الإنترنت‬
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفية إعداد الأمان للمورّدين الخارجيين الذين يستخدمون مدخل المورّد. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016.
 

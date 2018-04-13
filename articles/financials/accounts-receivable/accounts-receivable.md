@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>الصفحة الرئيسية للحسابات المدينة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 استخدم حسابات مدينة لتعقب فواتير العملاء والمدفوعات الواردة. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>تسجيل برنامج تسجيل دخول وتسجيل خروج السائق لموعد
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يُظهر هذا الإجراء كيفية تسجيل دخول السائق وكيفية تسجيل خروج السائق. ينفذ هذا الإجراء عادةً منسق النقل. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF. قبل البدء، يجب أن إعداد موعد لحمولة. لإنشاء موعد، يمكنك تشغيل الإجراء "إعداد موعد لحمولة" كشرط مسبق.
 

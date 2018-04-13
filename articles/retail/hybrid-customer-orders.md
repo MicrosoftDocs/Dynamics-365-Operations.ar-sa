@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="hybrid-customer-orders"></a>أوامر العملاء المختلطة
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 أمر العميل المختلط هو أمر واحد يحتوي على المنتجات التي يمكن تلبيتها من المتجر للعميل، بالإضافة إلى المنتجات التي سيتم انتقاؤها أو شحنها لاحقاً.
 

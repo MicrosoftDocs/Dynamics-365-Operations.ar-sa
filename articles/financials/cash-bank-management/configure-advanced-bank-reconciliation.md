@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advanced-bank-reconciliation-setup-process"></a>عملية إعداد التسوية البنكية المتقدمة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تسمح لك التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع حركات Microsoft Dynamics 365 for Finance and Operations البنكية بشكل تلقائي.  ستشرح هذه المقالة إعداد عمليات التسوية.  
 

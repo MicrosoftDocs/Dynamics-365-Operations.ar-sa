@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-goal"></a>إنشاء هدف
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يمكنك إنشاء الأهداف وإضافة الأنشطة إلى الأهداف، وتتبع القياسات وربط الأهداف بمراجعة. تم إنشاء هذا الإجراء باستخدام شركة بيانات العرض التوضيحي USMF. يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>تكوين حقوق الوصول لمراقب كائن التكلفة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 استخدم هذا الإجراء لتكوين حقوق الوصول لمراقب كائن التكلفة. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.
 

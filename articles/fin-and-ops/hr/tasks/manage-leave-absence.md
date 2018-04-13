@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-leave-of-absence"></a>إدارة إجازات الغياب
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ينقلك هذا الإجراء عبر عملية إنشاء سجلات إجازة الموظف. يمكنك تعقب وقت الإجازة لأسباب تشمل الأنشطة الطبية أو التعليمية أو الأبوية. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

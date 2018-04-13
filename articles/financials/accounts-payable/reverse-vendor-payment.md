@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-a-vendor-payment"></a>إلغاء دفعة مورد
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة الاختلافات بين عكس الدفع وحذفه وإلغائه ورفضه. وهي تشرح أيضًا الأسلوبين المتعلقين بعكس شيك المورّد. 
 

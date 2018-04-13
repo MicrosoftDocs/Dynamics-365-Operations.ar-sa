@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>حظر المخزون
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة حول حظر المخزون، الذي يشكل جزءًا من عملية فحص الجودة في Microsoft Dynamics 365 for Finance and Operations. يمكنك استخدام حظر المخزون لمنع معالجة الأصناف أو استهلاكها.
 

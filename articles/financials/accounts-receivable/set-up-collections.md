@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>إعداد الائتمان وعمليات التحصيل
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية إعداد وظيفة المجموعات.
 
@@ -97,9 +96,9 @@ ms.lasthandoff: 11/03/2017
 لمزيد من المعلومات، راجع الموضوعات التالية:
 
  - [إنشاء تسلسل خطاب تحصيل](tasks/create-collection-letter-sequence.md)
- 
+
  - [معالجة خطابات التحصيل](tasks/process-collection-letters.md)
- 
+
  - [مراجعة معلومات التحصيلات](tasks/review-collections-information.md)
 
 

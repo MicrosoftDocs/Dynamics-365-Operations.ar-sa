@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>تعليقات الأمر
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 يصف هذا الموضوع تعليقات الأوامر باستخدام Dynamics 365 for Retail.
 

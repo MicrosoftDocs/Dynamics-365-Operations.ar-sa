@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="distribute-and-complete-a-questionnaire"></a>وتوزيع وإكمال استبيان
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية توزيع الاستبيانات التي تقوم بتصميمها، بحيث تكون متوفرة لشخص أو مجموعة الأشخاص الذين سيقومون بإكمالها. 
 

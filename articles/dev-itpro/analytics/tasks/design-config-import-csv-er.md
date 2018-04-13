@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>تصميم تكوين لاستيراد البيانات من ملف خارجي بتنسيق CSV (التقارير الإلكترونية)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 استخدم هذا الإجراء لتصميم تكوينات التقارير الإلكترونية لاستيراد البيانات إلى تطبيق Dynamics 365 for Finance and Operations من ملف خارجي بتنسيق CSV. في هذا الإجراء، سوف تنشئ تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية Litware, Inc. لإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات الموجودة في الإجراء "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط"‬. 
 

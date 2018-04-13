@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>تكوين عامل باستخدام جهاز وظيفة محمول
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية تعيين الأدوار الصحيحة لحساب المستخدم للعامل، ثم قم بتمكين العامل للقيام بتسجيلات حالة العمل.
 

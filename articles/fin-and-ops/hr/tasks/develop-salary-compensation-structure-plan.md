@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>تطوير خطط وبنية المرتب/التعويض
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ينقلك دليل المهمة هذا عبر عملية إنشاء خطة تعويض ثابت وتمكين الموظفين من التسجيل بالخطة من خلال قواعد الأهلية. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF، والمهمة مخصصة لمدراء التعويضات والميزات‬.
 

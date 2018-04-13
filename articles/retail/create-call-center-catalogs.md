@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-call-center-catalog"></a>إنشاء كتالوج مركز الاتصالات
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على عملية إنشاء كتالوج‬ لمركز اتصالات. 
 

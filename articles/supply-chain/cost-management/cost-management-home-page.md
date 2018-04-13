@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>الصفحة الرئيسية لإدارة التكلفة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [تسمح لك إدارة التكلفة (فيديو)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) بالتعامل مع تقييم وحساب المواد الخام والسلع شبه النهائية والسلع النهائية وأصول العمل قيد التقدم‬. إنها عملية تحديد وإدارة وإعداد تقارير حول [محاسبة المخزون](cost-object.md) و[محاسبة التصنيع](bom-calculations.md).
 

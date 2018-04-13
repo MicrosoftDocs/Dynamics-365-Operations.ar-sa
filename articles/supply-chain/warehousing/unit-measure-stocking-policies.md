@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>وحدة القياس وسياسات المخزون
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية استخدام الوحدات الافتراضية وتسلسلات الوحدات وتحويلات الوحدات في عمليات المستودع.
 

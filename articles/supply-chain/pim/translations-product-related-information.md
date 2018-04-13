@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>الأسئلة المتداولة حول الترجمات المتعلقة بالمنتج
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إدارة ترجمات المنتجات وقيم أبعاد المنتج وسمات المنتج. 
 
@@ -95,8 +94,7 @@ ms.lasthandoff: 02/07/2018
 <tbody>
 <tr class="odd">
 <td>لتعيين اللغة المفضلة للعميل، اتبع الخطوات التالية:
-<ol>  
-<li>انقر فوق <strong>المبيعات والتسويق</strong> &gt; <strong>Common</strong> &gt; <strong>العملاء</strong> &gt; <strong>كل</strong> <strong>العملاء</strong>.</li>
+<ol><br/><li>انقر فوق <strong>المبيعات والتسويق</strong> &gt; <strong>Common</strong> &gt; <strong>العملاء</strong> &gt; <strong>كل</strong> <strong>العملاء</strong>.</li>
 <li>انقر نقرًا مزدوجًا فوق عميل لفتح صفحة <strong>العملاء</strong>. على علامة التبويب <strong>عام</strong>، في حقل <strong>اللغة</strong>، حدد <strong>اللغة</strong>.</li>
 </ol></td>
 </tr>

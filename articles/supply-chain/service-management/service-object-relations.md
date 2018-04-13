@@ -28,9 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-relations"></a>علاقات كائنات الخدمة 
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يمكنك إنشاء علاقات كائنات الخدمة بين كائن خدمة واتفاقية خدمة أو أمر خدمة. عند قيامك بإنشاء علاقة، ستقوم بإرفاق كائن الخدمة باتفاقية الخدمة أو أمر الخدمة.
 

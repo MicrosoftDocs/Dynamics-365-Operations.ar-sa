@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>تغيير تاريخ جلسة العمل
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 بشكل افتراضي، يتم استخدام التاريخ الحالي عند إدخال المستندات المصدر أو إدخالات دفتر اليومية وترحيلها. يمكن تغيير التاريخ المستخدم لجلسة عملك الحالية. استخدم هذه الميزة لتغيير تاريخ إدخالات دفتر اليومية أو المستندات المصدر، عند الضرورة.
 

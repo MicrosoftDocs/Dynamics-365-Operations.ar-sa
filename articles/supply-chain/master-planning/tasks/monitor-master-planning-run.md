@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>مراقبة تشغيل التخطيط الرئيسي
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يريد مخطط الإنتاج معرفة ما إذا كان تشغيل تخطيط أساسي قيد التقدم. استخدم شركة بيانات العرض التوضيحي USMF لإكمال هذا الإجراء.
 

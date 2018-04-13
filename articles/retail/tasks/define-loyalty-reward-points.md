@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-reward-points"></a> تحديد نقاط مكافآت الولاء
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء تحديد نقاط مكافآت الولاء. ينبغي إعداد نقاط مكافآت الولاء قبل إعداد برنامج الولاء. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

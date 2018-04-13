@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a> تحديد سمات القناة
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 قم بتحسين القناة بإضافة القناة وسمات المنتج. يجب إضافة القناة إلى التدرج الهرمي الافتراضي للمؤسسات قبل أن تتمكن من تحديد السمات.
 

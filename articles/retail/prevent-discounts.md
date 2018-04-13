@@ -29,7 +29,7 @@ ms.lasthandoff: 10/23/2017
 
 # <a name="prevent-discounts-for-retail-products"></a>منع الخصومات لمنتجات البيع بالتجزئة
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 هناك أسباب مختلفة تكمن خلف رغبة تجار التجزئة في منع تطبيق الخصومات على بعض المنتجات، سواء من عرض ترويجي أو أثناء عملية البيع في نقطة البيع.
 

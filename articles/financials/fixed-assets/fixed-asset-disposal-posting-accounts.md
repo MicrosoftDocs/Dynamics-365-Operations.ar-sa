@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>حسابات ترحيل التخلص من الأصول الثابتة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إعداد حسابات ترحيل دفتر الأستاذ العام للتخلص من الأصول.
 

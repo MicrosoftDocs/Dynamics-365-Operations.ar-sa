@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>تسوية دفع جزئي لمورد قبل تاريخ الخصم بدفعة نهائية بعد تاريخ الخصم
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 ترشدك هذه المقالة من خلال سيناريو حيث يتم تسديد دفعات جزئية متعددة، بعضها ضمن فترة الخصم النقدي والبعض الآخر خارج فترة الخصم النقدي.
 

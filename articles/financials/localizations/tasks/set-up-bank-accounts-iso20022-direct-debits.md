@@ -24,7 +24,7 @@ ms.lasthandoff: 10/31/2017
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>إعداد العملاء والحسابات البنكية للعملاء للديون المباشرة ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تنقلك هذه المهمة عبر عملية إعداد حساب بنكي للعميل وتفويض خصم مباشر للعميل وهما مطلوبان لإنشاء ملف دفع العميل مثل الدين المباشر ISO20022. بحسب تنسيقات دفع العميل التي تم إعدادها، فإن بعض المعلومات الإضافية، التي لم يتم تناولها في هذا الإجراء، قد تكون مطلوبة لعميل أو حساب بنكي للعميل. 
 

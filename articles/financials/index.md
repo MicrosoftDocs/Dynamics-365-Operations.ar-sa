@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-management-home-page"></a>الصفحة الرئيسية للإدارة المالية
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات الإدارة المالية في Microsoft Dynamics 365 for Finance and Operations. 
 

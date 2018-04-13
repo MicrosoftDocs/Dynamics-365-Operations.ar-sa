@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>إنشاء معادلة بالنسخ من معادلة موجودة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء معادلة جديدة بسرعة عن طريق النسخ من معادلة موجودة. يمكنك استخدام شركات بيانات العرض التوضيحي USMF أو USP2 أو USPI لإنشاء هذا الإجراء.
 

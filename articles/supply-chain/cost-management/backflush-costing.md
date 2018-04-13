@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>تحديد تكاليف الإصدار التلقائي
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع مفهوم تحديد تكاليف الإصدار التلقائي المستخدم من أجل Lean manufacturing. 
 

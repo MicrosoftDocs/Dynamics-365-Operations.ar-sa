@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>تكوين فوترة المشروع بين الشركات الشقيقة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد فوترة المشروع بين شركتين في مؤسستك. تستخدم هذه المهمة مجموعة بيانات USSI.
 

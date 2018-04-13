@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>إضافة نشاط موجود إلى إصدار تدفق الإنتاج
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 عند إنشاء إصدارات جديدة من تدفقات الإنتاج، يمكنك أن تختار إضافة أنشطة تم إنشاؤها للإصدارات القديمة إلى الإصدار الجديد. يوضح هذا الإجراء كيفية إنشاء إصدار جديد لتدفق إنتاج موجود، دون نسخ الأنشطة. في الخطوة التالية، يُضاف نشاط موجود إلى الإصدار الجديد. 
 

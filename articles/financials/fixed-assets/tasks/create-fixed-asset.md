@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-asset"></a>إنشاء أصل ثابت
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يستخدم دليل المهمة هذا شركة بيانات العرض التوضيحي USMF.  سوف ينشئ أصلاً ثابتًا جديدًا باستخدام صفحة قائمة الأصول الثابتة.
 

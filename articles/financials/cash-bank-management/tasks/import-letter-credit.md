@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-a-letter-of-credit"></a>استيراد خطاب اعتماد
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء عملية استيراد خطاب اعتماد. يجب إعداد ما يلي قبل إتمام هذا الإجراء: التسهيلات البنكية وملفات تعريف الترحيل واتفاقية التسهيلات البنكية والتفاصيل البنكية للمورد.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>تحديد سياسات المراجعة للمستندات المصدر
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد وتشغيل قواعد سياسة التدقيق. يستخدم المثال تقارير المصروفات مع نوع مصروفات الفندق. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF. يحتوي دور المراجع يحتوي على الأذونات الصحيحة لتنفيذ هذه المهام.
 

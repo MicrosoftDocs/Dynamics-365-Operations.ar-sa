@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidation-and-elimination-overview"></a>نظرة عامة على التجميع والاستبعاد
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات عامة حول عملية التوحيد والاستبعاد. وتتضمن أيضًا إجابات على بعض الأسئلة المتداولة.
 

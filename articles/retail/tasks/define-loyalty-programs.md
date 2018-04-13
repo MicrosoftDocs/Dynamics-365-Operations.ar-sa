@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a> تحديد برامج الولاء
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد برنامج ولاء بطبقتين ولاء. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

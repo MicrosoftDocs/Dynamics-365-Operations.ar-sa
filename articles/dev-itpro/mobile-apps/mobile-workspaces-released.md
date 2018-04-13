@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>مساحات العمل المحمولة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يسرد هذا الموضوع مساحات العمل المحمولة المتوفرة للاستخدام مع تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة.
 

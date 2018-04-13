@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="set-up-a-product-configuration-model"></a>إعداد نموذج تكوين المنتج
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة الخطوات اللازمة لإعداد نموذج تكوين المنتج وإنشائه.
 

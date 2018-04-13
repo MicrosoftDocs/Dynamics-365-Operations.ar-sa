@@ -24,7 +24,7 @@ ms.lasthandoff: 02/08/2018
 ---
 # <a name="find-obsolete-product-variants"></a>البحث عن متغيرات المنتجات القديمة 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية البحث عن المنتجات القديمة الصادرة أو متغيرات المنتجات، وكيفية إقران حالة دورة حياة منتج بالمنتجات القديمة. المتطلبات الأساسية: يجب تحديد حالة دورة حياة منتج واحدة على الأقل تكون غير نشطة للتخطيط قبل أن تتمكن من قراءة دليل المهام هذا.
 

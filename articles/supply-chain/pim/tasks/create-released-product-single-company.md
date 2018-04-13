@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>إنشاء منتج تم إصداره لشركة واحدة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ينقلك هذا الإجراء عبر عملية إنشاء منتج واحد تم إصداره في سياق وحدة قانونية واحدة. بعد إنشاء المنتج الذي تم إصداره، سيكون متوفرًا على الفور في هذه الوحدة فقط. يمكنك التنقل عبر هذا الإجراء في شركة بيانات العرض التوضيحي USMF. عادة ما يتم تنفيذ هذه المهمة من قبل مصمم منتجات.
 

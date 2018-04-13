@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-production-orders-as-finished"></a>‏‫الإبلاغ عن أوامر الإنتاج كمنتهية‬
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يعتبر الإبلاغ عن الانتهاء مرحلة من مراحل الإنتاج. في هذه المرحلة، يتم الإبلاغ عن منتج منته ويتم نقله من أمر الإنتاج إلى المخزون.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>تكوين التكاليف المعيارية للعمالة والمصروفات
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد التكاليف القياسية للعمالة والمصروفات لمشروع. تستخدم هذه المهمة مجموعة بيانات USSI.
 

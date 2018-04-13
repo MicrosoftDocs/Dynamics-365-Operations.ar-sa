@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-store-inventory"></a>إدارة مخزون المتجر
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 توضح هذه المقالة أنواع المستندات التي يمكنك استخدامها لإدارة المخزون.
 

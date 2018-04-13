@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>أرصدة حساب دفتر الأستاذ العام
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة طريقتين لعرض أرصدة حساب دفتر الأستاذ العام: صفحة قائمة ميزان المراجعة والتقارير المالية. وهي تتناول أيضًا كيفية تحديث أرصدة مجموعة الأبعاد‬.
 

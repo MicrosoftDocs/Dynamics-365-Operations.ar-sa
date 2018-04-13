@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>توظيف موظف موجود من خلال التوظيف
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 في بعض الأحيان، يمكن شغل مناصب مفتوحة بواسطة مرشحين عاملين في مؤسستك. يوضح هذا الإجراء الخطوات لتوظيف موظف موجود من خلال عملية التعيين. في هذا الإجراء، تم إعداد مشروع تعيين، وقدم موظف موجود استمارة تقديم لمشروع التعيين. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

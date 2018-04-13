@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>مشاريع التوظيف الجماعي
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تسمح مشاريع التوظيف الجماعي لأخصائي الموارد البشرية بإنشاء مناصب متعددة وتوظيف عدد من العاملين في تلك المناصب بطريقة فعالة.
 
@@ -94,7 +93,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
- 
+
 
 
 

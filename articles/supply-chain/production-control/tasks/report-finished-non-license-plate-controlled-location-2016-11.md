@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a>الإبلاغ عن الانتهاء إلى موقع يتم التحكم فيه بواسطة لوحة  
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يبين دليل المهام هذا مثالاً للإبلاغ كمنته إلى موقع غير خاضع للتحكم بواسطة لوحة الترخيص. تُعد سياسة العمل القابلة للتطبيق المتطلب الأساسي لهذه المهمة. أظهر دليل المهمة السابقة إعداد سياسة العمل. يتطلب دليل المهام هذا تطبيق Dynamics AX 7.0.1 أو أحدث.
 

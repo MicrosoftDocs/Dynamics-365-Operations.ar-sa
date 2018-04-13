@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="reclassify-fixed-assets"></a>إعادة تصنيف الأصول الثابتة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 لإعادة تصنيف أصل ثابت، يتعين عليك تحويله إلى مجموعة أصول ثابتة جديدة، أو تعيين رقم أصل ثابت جديد له في نفس المجموعة. 
 

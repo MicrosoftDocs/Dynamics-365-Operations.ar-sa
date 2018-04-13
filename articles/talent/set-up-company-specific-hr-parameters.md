@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-company-specific-hr-parameters"></a>إعداد معلمات الموارد البشرية الخاصة بالشركة
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 تتم مشاركة إعدادات بعض محددات الموارد البشرية بين الشركات، بينما تكون إعدادات المحددات الأخرى خاصة بكل شركة. توضح هذه المقالة كيفية إعداد محددات الموارد البشرية الخاصة بكل شركة.
 

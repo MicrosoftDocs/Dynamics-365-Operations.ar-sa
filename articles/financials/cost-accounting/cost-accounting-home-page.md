@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>خريطة التعلم 
 
@@ -37,6 +37,7 @@ ms.lasthandoff: 11/03/2017
 [![خريطة التعلم لمحاسبة التكاليف](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>ارتباطات سريعة
+
 |      |   |
 |------|---|
 |  [تكوين الكيانات الأساسية (التعليم الإلكتروني)](https://mbspartner.microsoft.com/Home) (يتطلب حساب CustomerSource)  |[إنشاء أبعاد](cost-elements.md)  |

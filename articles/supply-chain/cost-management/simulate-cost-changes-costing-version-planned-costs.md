@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>محاكاة تغييرات التكاليف باستخدام إصدار تكاليف للتكاليف المخططة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفي مكنك محاكاة تأثيرات تغييرات التكاليف على التكاليف المحسوبة لصنف مصنّع باستخدام إصدار تكاليف منفصل للتكاليف المخططة.
 

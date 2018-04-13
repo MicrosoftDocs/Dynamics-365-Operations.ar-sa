@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-continuity-program-for-a-call-center"></a>قم بإعداد برنامج استمرارية لمركز اتصالات
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 تصف هذه المقالة كيفية إعداد ‏‫برنامج الاستمرارية لمركز الاتصال.
 

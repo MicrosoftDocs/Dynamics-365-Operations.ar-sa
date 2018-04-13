@@ -25,8 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>محتوى Power BI - نظرة عامة على المدير المالي
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)] 
 
 يقدم هذا الموضوع وصفًا لمحتوى Microsoft Power BI **نظرة عامة على المدير المالي**. ينطبق محتوى Power BI على أولئك الذين يستخدمون الإصدار 7.2 من Microsoft Dynamics 365 for Finance and Operations. إذا كنت تستخدم الإصدار 7.3 أو إصدار أحدث، فيُرجى الرجوع إلى [المعلومات المالية](financial-insights.md).
 

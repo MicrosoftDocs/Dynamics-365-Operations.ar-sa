@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>إنشاء جدول تسليم
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يُوضح هذا الإجراء كيفية إنشاء جدول تسليم لأمر مبيعات. يتم استخدام جدول التسليم عندما يتم طلب كمية في أمر أو عرض أسعار بحيث يتم التسليم بواسطة شحنات متعددة. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.
 

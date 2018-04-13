@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>إنشاء أمر شراء مع جدول تسليم
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يُوضح هذا الإجراء كيفية إنشاء جدول تسليم لأمر شراء. يتم استخدام جدول التسليم عندما يتم طلب كمية في أمر أو دفتر يومية بحيث يتم تسليمها بواسطة شحنات متعددة. يمكن استخدام المثال المعروض في هذا الدليل في شركة بيانات العرض التوضيحي USMF. يقوم عادةً وكيل الشراء بتنفيذ هذا الإجراء.
 

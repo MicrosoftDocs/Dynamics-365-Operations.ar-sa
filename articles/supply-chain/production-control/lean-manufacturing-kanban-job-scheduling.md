@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>جدولة وظائف كانبان لخدمات lean manufacturing‬
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول التحكم المرئي في جدولة وظائف كانبان ومختلف طرق جدولة وظائف كانبان.  
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>تسوية حركات المشروع
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح دليل المهام هذا كيفية تسوية حركة في مشروع. مع ذلك، يمكنك تسوية حركات المشروع كل حركة على حدة، أو التحديد من القائمة التي تحوي جميع حركات المشروع. يتم تنفيذ هذه المهمة عادةً بواسطة مشرف المشروع. يستخدم دليل المهام هذا مجموعة بيانات USSI.
 

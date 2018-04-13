@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="credit-and-collections-management-power-bi-content"></a>محتوى Power BI - إدارة التحصيلات والائتمان
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع ما هو مدرج في محتوى Power BI **إدارة التحصيلات والائتمان**. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
@@ -69,22 +69,24 @@ ms.lasthandoff: 03/07/2018
 
 تُستخدم البيانات التالية لملء صفحات التقارير في محتوى Power BI **إدارة الائتمان والتحصيلات**. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات لخادم Microsoft SQL تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع متجر الكيان](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
-| الكيان                                      | القياسات التجميعية الرئيسية           | مصدر البيانات                                 | الحقل                                                      | ‏‏الوصف |
-|---------------------------------------------|--------------------------------------|---------------------------------------------|------------------------------------------------------------|-------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities ،AveragecClosedTime  | smmActivities                               | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) | عدد الأنشطة المتوقعة ومتوسط الوقت لإغلاق تلك الأنشطة. |
-| CustCollectionsBIActivitiesOpen             | ActivityNumber                       | smmActivities                               | Count(ActivityNumber)                                      | عدد الأنشطة المفتوحة. |
-| CustCollectionsBIAgedBalances               | AgedBalances                         | CustCollectionsBIAgedBalancesView           | Sum(SystemCurrencyBalance)                                 | مبلغ الأرصدة القديمة. |
-| CustCollectionsBIBalancesDue                | SystemCurrencyAmount                 | CustCollectionsBIBalanceDueView             | Sum(SystemCurrencyAmount)                                  | المبالغ المتأخرة. |
-| CustCollectionsBICaseAverageCloseTIme       | NumOfCases ،CaseAverageClosedTime    | CustCollectionsCaseDetail                   | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) | عدد الحالات المتوقعة ومتوسط الوقت لإغلاق تلك الحالات. |
-| CustCollectionsBICasesOpen                  | CaseId                               | CustCollectionsCaseDetail                   | Count(CaseId)                                              | عدد الحالات المفتوحة. |
-| CustCollectionsBICollectionLetter           | CollectionLetterNum                  | CustCollectionLetterJour                    | Count(CollectionLetterNum)                                 | عدد خطابات التحصيل المفتوحة. |
-| CustCollectionsBICollectionLetterAmount     | CollectionLetterAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | رصيد خطابات التحصيل المرحلة. |
-| CustCollectionsBICollectionStatus           | CollectionStatusAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | رصيد الحركات مع حالة التحصيل. |
-| CustCollectionsBICredit                     | CreditExposed، AmountOverCreditLimit | CustCollectionsBICreditView                 | Sum(CreditExposed), Sum(AmountOverCreditLimit)             | مبلغ تعرض الائتمان ومبالغ العملاء الذين تجاوزوا الحد الائتماني الخاص بهم. |
-| CustCollectionsBICustOnHold                 | موقوف                              | CustCollectionsBICustTable                  | Count(Blocked)                                             | عدد العملاء قيد الانتظار. |
-| CustCollectionsBIDSO                        | DSO30                                | CustCollectionsBIDSOView                    | AverageOfChildren(DSO30)                                   | أيام تحصيل المبيعات لـ 30 يومًا. |
-| CustCollectionsBIExpectedPayment            | ExpectedPayment                      | CustCollectionsBIExpectedPaymentView        | Sum(SystemCurrencyAmounts)                                 | مجموع المدفوعات المتوقعة خلال العام التالي. |
-| CustCollectionsBIInterestNote               | InterestNote                         | CustInterestJour                            | Count(InterestNote)                                        | عدد إشعارات الفائدة التي تم إنشاؤها. |
-| CustCollectionsBISalesOnHold                | SalesId                              | SalesTable                                  | Count(SalesId)                                             | عدد إجمالي أوامر المبيعات قيد الانتظار. |
-| CustCollectionsBIWriteOff                   | WriteOffAmount                       | CustCollectionsBIWriteOffView               | Sum(SystemCurrencyAmount)                                  | مجموع الحركات التي تم شطبها. |
+
+|                   الكيان                    |      القياسات التجميعية الرئيسية      |             مصدر البيانات              |                           الحقل                            |                                    ‏‏الوصف                                     |
+|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
+| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities ،AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     عدد الأنشطة المتوقعة ومتوسط الوقت لإغلاق تلك الأنشطة.     |
+|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           عدد الأنشطة المفتوحة.                            |
+|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             مبلغ الأرصدة القديمة.                              |
+|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           المبالغ المتأخرة.                            |
+|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases ،CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        عدد الحالات المتوقعة ومتوسط الوقت لإغلاق تلك الحالات.        |
+|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              عدد الحالات المفتوحة.                              |
+|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       عدد خطابات التحصيل المفتوحة.                        |
+|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     رصيد خطابات التحصيل المرحلة.                      |
+|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                رصيد الحركات مع حالة التحصيل.                 |
+|           CustCollectionsBICredit           | CreditExposed، AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | مبلغ تعرض الائتمان ومبالغ العملاء الذين تجاوزوا الحد الائتماني الخاص بهم. |
+|         CustCollectionsBICustOnHold         |               موقوف                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     عدد العملاء قيد الانتظار.                      |
+|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        أيام تحصيل المبيعات لـ 30 يومًا.                         |
+|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 مجموع المدفوعات المتوقعة خلال العام التالي.                 |
+|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                عدد إشعارات الفائدة التي تم إنشاؤها.                |
+|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 عدد إجمالي أوامر المبيعات قيد الانتظار.                 |
+|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                مجموع الحركات التي تم شطبها.                 |
+
 

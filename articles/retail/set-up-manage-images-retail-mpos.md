@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>إعداد وإدارة الصور لنقطة البيع بالتجزئة الحديثة
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 توضح هذه المقالة الخطوات التي تتضمنها عملية إعداد وإدارة الصور لمختلف الكيانات التي تظهر في نقطة البيع الحديثة للبيع بالتجزئة (MPOS).
 
@@ -141,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 6.  عندما تكون نقطة البيع الحديثة في وضع الاتصال، قم بتشغيل وظيفة الكتالوج في HQ، للتأكد من أنه يتم إرسال البيانات مرة واحدة على الأقل إلى قاعدة البيانات دون اتصال.
 7.  ضع نقطة بيع حديثة في وضع دون اتصال. يجب أن ترى الصورة التي قمت بتحميلها للحصول على منتج معين في HQ. [![offline1](./media/offline1.png)](./media/offline1.png)
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>إعداد صور الكتالوج والفئة والموظف والعميل لتظهر في وضع دون اتصال لنقطة بيع حديثة
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>إنشاء موازنة أولية للقطاع العام
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يمكنك إنشاء إدخالات سجل موازنة أولية لقيم البعد ونموذج موازنة محدد. وبعد الموافقة على الموازنة الفعلية، يمكنك إنشاء إدخالات سجل الموازنة الأصلية. تم إنشاء هذا الإجراء باستخدام شركة بيانات العرض التوضيحي PSUS في قسم القطاع العام.
 

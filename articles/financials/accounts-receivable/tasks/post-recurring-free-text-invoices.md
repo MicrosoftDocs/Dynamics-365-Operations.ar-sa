@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>إنشاء وترحيل فواتير النص الحر المكررة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يتم استخدام الفواتير المتكررة لفوترة العملاء بشكل منتظم لنفس المبلغ. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF. التسجيل مخصص للشخص المسؤول عن إدارة فواتير الحسابات المدينة ومعالجتها.
 

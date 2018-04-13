@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>إعداد وإنشاء معلومات تقادم الحسابات المدينة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 سوف يساعدك هذا الدليل في إعداد تعريف فترة تقادم، وأرصدة العميل القديمة‬، وعرض الأرصدة في قائمة الأرصدة المتقادم‬ة وصفحة التحصيلات‬. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.
 

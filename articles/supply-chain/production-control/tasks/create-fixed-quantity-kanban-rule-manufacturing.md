@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>إنشاء قاعدة كانبان الكمية الثابتة للتصنيع
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يركز هذا الإجراء على الإعداد المطلوب لإنشاء قاعدة كانبان تصنيع ثابتة لبدء أنشطة التحويل وفي خلية عمل وفي البيئة محدودة الفاقد. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لمهندس العمليات أو مدير تدفق القيم عند تحضيرهم لإنتاج منتج جديد أو معدل.
 

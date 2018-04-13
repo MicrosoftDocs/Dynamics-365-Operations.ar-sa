@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-codes"></a>إعداد الأكواد الشريطية
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ‏‫توضح هذه المقالة كيفية استخدام الأكواد الشريطية في Microsoft Dynamics 365 for Retail.
 

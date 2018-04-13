@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>تكوين إدارة المصروفات
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل تكوين إدارة المصروفات في Microsoft Dynamics 365 for Finance and Operations. في إدارة المصروفات، يمكنك تخزين معلومات حول طرق الدفع وطلبات السفر وتقارير المصروفات والسياسات، وغير ذلك.
 

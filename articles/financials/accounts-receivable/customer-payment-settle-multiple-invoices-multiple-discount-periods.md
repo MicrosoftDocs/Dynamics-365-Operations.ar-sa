@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>استخدام دفعة عميل واحدة لتسوية فواتير متعددة تمتد عبر عدة فترات خصم
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية دفع فواتير متعددة عندما تتأهل كل فاتورة للحصول على خصم نقدي. تقوم السيناريوهات في هذه المقالة بتسليط الضوء على اختلاف الخصومات النقدية التي يتم أخذها باختلاف الوقت الذي يتم فيه تسديد الدفع.
 

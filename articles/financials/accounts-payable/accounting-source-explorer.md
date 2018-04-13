@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="accounting-source-explorer"></a>مستكشف مصدر المحاسبة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول مستكشف مصدر المحاسبة، الذي يمكنك استخدامه لإجراء تحليل مفصل للمعلومات المصدر خلف الإدخالات المحاسبية‬ في دفتر الأستاذ العام.
 

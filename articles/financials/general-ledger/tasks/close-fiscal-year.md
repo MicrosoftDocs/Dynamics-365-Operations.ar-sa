@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="close-the-fiscal-year"></a>إقفال السنة المالية
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ينقلك هذا الإجراء عبر عملية إقفال نهاية السنة التي تحول الأرصدة إلى سنة مالية جديدة.
 

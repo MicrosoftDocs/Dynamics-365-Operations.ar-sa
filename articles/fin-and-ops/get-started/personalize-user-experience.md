@@ -28,8 +28,7 @@ ms.lasthandoff: 11/20/2017
 
 # <a name="personalize-the-user-experience"></a>تخصيص تجربة المستخدم
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيف يمكنك تخصيص Microsoft Dynamics 365 for Finance and Operations.
 

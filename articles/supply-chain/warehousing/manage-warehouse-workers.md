@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>إدارة عمال المستودعات
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة الطريقة التي يمكنك من خلالها استخدام Microsoft Dynamics 365 for Finance and Operations للمساعدة في مراقبة ورصد العمل الذي يقوم به الموظفون في مستودعاتك.
 

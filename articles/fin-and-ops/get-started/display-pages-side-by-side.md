@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>عرض الصفحات بجوار بعضها باستخدام الأيقونة "فتح في نافذة جديدة"
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفية عرض الصفحات جنبًا إلى جنب في Microsoft Dynamics 365 for Finance and Operations.
 

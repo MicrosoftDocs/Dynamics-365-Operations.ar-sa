@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> تكوين ملف تعريف الوظائف لمندوب مبيعات
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية تكوين إعدادات ملف تعريف الوظائف في المخزن التي تنطبق على مندوبي المبيعات. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

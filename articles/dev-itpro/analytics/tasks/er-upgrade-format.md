@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>ترقية التنسيق من خلال تبني إصدار أساسي جديد من ذلك التنسيق للتقارير الإلكترونية (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية الحفاظ على تكوين تنسيق التقارير الإلكترونية (ER). يوضح هذا الإجراء كيف يمكن إنشاء إصدار مخصص لتنسيق استنادًا إلى التنسيق المستلم من موفر التكوين (CP). وهو يوضح أيضًا كيفية اعتماد إصدار أساسي جديد لهذا التنسيق.
 

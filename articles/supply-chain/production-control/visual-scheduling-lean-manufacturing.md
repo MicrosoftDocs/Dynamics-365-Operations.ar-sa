@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>جدولة ظاهرية لـ Lean manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول لوحة جدولة كانبان، التي يستطيع مخطط الإنتاج استخدامها لمراقبة خطة الإنتاج وتحسينها لوظائف كانبان.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>إعداد وإنشاء ملفات تعريف الإهلاك
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تحدد ملفات تعريف الإهلاك نوع الإهلاك ومدى تكراره لأصل ما.   يستخدم هذا التسجيل شركة العرض التوضيحي USMF ودور المحاسب.
 

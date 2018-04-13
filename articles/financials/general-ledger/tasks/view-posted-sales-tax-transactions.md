@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>عرض حركات ضرائب مبيعات مُرَّحلة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يمكنك عرض حركات ضريبة المبيعات المرحّلة من صفحات مختلفة تبعًا لما تحتاج إلى عرضه. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 

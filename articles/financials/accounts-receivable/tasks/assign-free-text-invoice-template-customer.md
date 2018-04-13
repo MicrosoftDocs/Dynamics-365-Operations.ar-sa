@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>‏‫تعيين قالب فاتورة ذات نص حر إلى عميل
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 توضح هذه المهمة كيفية تعيين قالب فاتورة نص حر إلى عميل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF وهي مخصصة للمستخدم المسؤول عن إدارة فواتير الحسابات المدينة ومعالجتها.
 

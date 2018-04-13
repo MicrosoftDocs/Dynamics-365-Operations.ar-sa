@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-card-setup-authorization-and-capture"></a>إعداد وتفويض وتسجيل بطاقة الائتمان
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 تقدم هذه المقالة نظرة عامة على تفويض بطاقة الائتمان في Microsoft Dynamics 365 for Finance and Operations. وهي تتضمن معلومات حول كيفية إعداد خدمة دفع وإضافة بطاقة ائتمان إلى أمر مبيعات وإلغاء تخويل.
 

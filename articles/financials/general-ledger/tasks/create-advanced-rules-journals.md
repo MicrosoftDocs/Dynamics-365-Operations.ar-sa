@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>إنشاء قواعد متقدمة لدفاتر اليومية
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء إنشاء قواعد متقدمة لدفاتر اليومية. ويشمل هذا إعداد قيود التحكم في دفتر اليومية وترحيل المستخدم. ويستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>تخطيط الوضع المختلط - دمج التوريد المنفصل وتوريد العمليات والتوريد محدود الفاقد
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول تخطيط الوضع المختلط. في تخطيط الوضع المختلط، يمكنك تصميم سلسلة التوريد استنادًا إلى تدفق المواد. يتأكد Microsoft Dynamics 365 for Finance and Operations من أن تدفق المواد يتبع نماذجك بغض النظر عن سياسة التوريد المحددة (كانبان أو أوامر الإنتاج أو أوامر الشراء أو الأوامر الدفعية أو أوامر التحويل). 
 

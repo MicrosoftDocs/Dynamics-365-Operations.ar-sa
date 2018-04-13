@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>الصفحة الرئيسية للأصول الثابتة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 الأصول الثابتة هي أصناف لها قيمة، مثل المباني والمركبات والأراضي والمعدات، التي يمتلكها أحد الأفراد أو إحدى المؤسسات. 
 

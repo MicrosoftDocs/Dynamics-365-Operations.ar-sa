@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>تحديد قواعد وسياسات استحقاق الفائدة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 سيظهر هذا التسجيل كيفية إنشاء قواعد وسياسات استحقاق الميزات، ثم تعيين قواعد للميزات.  
 

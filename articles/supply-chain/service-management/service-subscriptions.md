@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>اشتراكات الخدمة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 تستند الاشتراكات إلى مشروع وقت ومواد. يمكنك إنشاء الاشتراكات من مشروع أو من صفحة **اشتراكات الخدمة** أو باستخدام مجموعة اشتراكات الخدمة.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-main-account"></a>إنشاء حساب رئيسي
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح دليل المهام هذا خطوات إضافة حساب رئيسي إلى دليل حسابات موجود. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.  
 

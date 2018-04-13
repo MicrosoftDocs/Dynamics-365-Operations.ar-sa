@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> تصميم العلاقات بين الوحدات التنظيمية
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 ينقلك هذا الإجراء عبر عملية تصميم العلاقة بين الوحدات التنظيمية. يجب عليك إنشاء غرض مؤسسة جديد قبل تحديد العلاقة، أو يمكنك استخدام غرض المؤسسة الموجود. شركة بيانات العرض التوضيحي التي تم استخدامها لإكمال هذا الإجراء هي USRT. وهذه المهمة مخصصة لدور المسؤول.
 

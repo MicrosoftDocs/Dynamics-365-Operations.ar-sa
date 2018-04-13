@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>إدارة المجموعات المنوعة
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>نظرة عامة
 يوفر Microsoft Dynamics 365 for Retail *عمليات الفرز* التي تتيح لك إدارة توفر المنتجات عبر القنوات. تحدد عمليات الفرز المنتجات التي تتوفر في متاجر مُعينة وخلال فترة زمنية معينة.

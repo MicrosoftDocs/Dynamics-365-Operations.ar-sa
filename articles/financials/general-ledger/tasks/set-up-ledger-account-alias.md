@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>إعداد اسم مستعار لحساب دفتر الأستاذ‬
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء اسم مستعار لحساب يوفر اختصارًا لإدخال رقم حساب. يستخدم هذا الحساب شركة بيانات العرض التوضيحي USMF.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="position-budgeting-troubleshooting"></a>اكتشاف مشكلات إعداد موازنة المنصب‬ وإصلاحها
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة أجوبة على الأسئلة التي قد تواجهك عند تكوين موازنة المنصب‬. وهو يتناول الأسئلة المتداولة حول كيفية إنشاء عناصر تكلفة الموازنة ومجموعات التعويض وشبكات التعويض. 
 

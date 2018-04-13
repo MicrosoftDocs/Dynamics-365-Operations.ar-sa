@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-boms-as-finished"></a>الإبلاغ عن قوائم مكونات الصنف‬ كمنتهية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول الإبلاغ عن قوائم مكونات الصنف‬ كمنتهية.
 

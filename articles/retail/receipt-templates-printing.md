@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="receipt-templates-and-printing"></a>قوالب الإيصالات والطباعة
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 تصف هذه المقالة كيفية تعديل تخطيطات النماذج للتحكم في كيفية طباعة الإيصالات والفواتير والمستندات الأخرى. يتضمن Microsoft Dynamics 365 for Retail مصمم تخطيط النموذج الذي يمكنك استخدامه لإنشاء مختلف أنواع تخطيطات النماذج وتعديلها بسهولة.
 

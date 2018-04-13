@@ -29,7 +29,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>كود nomenclature لأرقام وأسماء متغيرات المنتج
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيف يمكنك إعداد nomenclature رقم المنتج لاستبدال التنسيق الثابت [رقم أصل المنتج - التكوين - الحجم - اللون - النمط]. يتميز كود nomenclature الجديد بتنسيق مستهدف يتضمن رقم أصل المنتج وأبعاد المنتج النشطة ومحددات النص التي تختارها. يمكنك أيضًا إنشاء كود nomenclature لأسماء المنتجات. أخيرًا، يمكنك إنشاء كود nomenclature لتحديد التكوينات التي يتم إنشاؤها بواسطة مكون منتج يستند إلى القيد. باستطاعة أكواد nomenclature هذه أن تحتوي على سمات تختارها أنت.
 

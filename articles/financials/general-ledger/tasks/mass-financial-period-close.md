@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="mass-financial-period-close"></a>إقفال شامل للفترة المالية
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يظهر هذا الإجراء كيفية وضع فترة قيد الاحتجاز أو إقفال فترة بشكل دائم على أكثر من كيان قانوني واحد في مرة الواحدة. وبالإضافة إلى ذلك، سوف تظهر المهمة كيفية تقييد الترحيل لمجموعة مستخدمين إلى وحدات نمطية معينة.
 

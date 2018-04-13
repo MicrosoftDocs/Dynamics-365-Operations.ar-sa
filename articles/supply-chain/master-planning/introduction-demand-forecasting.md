@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="demand-forecasting-overview"></a>نظرة عامة على التنبؤ بالطلب‬
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يتم استخدام التنبؤ بالطلب للتنبؤ بطلب غير معال من أوامر المبيعات وطلب معال عند أي نقطة اتصال لأوامر العملاء. توفر قواعد خفض التنبؤ بالطلب المحسن حلاً مثاليًا للتخصيص الشامل.
 

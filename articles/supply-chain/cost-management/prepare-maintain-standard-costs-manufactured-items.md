@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع خطوات الإعداد للحفاظ على التكاليف للأصناف المصنعة. تختلف الخطوات الخاصة بالأصناف المصنعة اختلافًا طفيفًا عن الخطوات الخاصة بالأصناف التي تم شراؤها.
 

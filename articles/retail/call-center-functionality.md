@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>وظيفة مركز الاتصال
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على وظائف مبيعات مركز الاتصال في Microsoft Dynamics 365 for Retail.
 

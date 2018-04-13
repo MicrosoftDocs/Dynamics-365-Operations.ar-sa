@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions"></a>التوزيعات المحاسبية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول التوزيعات المحاسبية وتصف الخيارات المتاحة لمعالجتها. يتم استخدام التوزيعات المحاسبية لتوزيع مبالغ نقدية لمستند مصدر إلى حسابات دفتر أستاذ محددة. 
 

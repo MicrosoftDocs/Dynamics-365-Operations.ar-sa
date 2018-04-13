@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>حسابات ترحيل الاستحواذ على الأصول الثابتة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية إعداد حسابات ترحيل دفتر الأستاذ العام للاستحواذ على الأصول.
 

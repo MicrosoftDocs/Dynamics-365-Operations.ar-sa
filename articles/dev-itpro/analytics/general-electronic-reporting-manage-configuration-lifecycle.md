@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>إدارة دورة حياة تكوين التقارير الإلكترونية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إدارة دورة حياة تكوينات التقارير الإلكترونية لحل Finance and Operations.
 

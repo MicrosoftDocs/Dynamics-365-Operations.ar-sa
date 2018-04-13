@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="derived-books"></a>الدفاتر المشتقة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على وظيفة الدفاتر المشتقة.
 
