@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b48accdc7aaaa65b4c620777546b20056038905b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d3e841f30f133644d0c6e1f0b0e9e990934a78db
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-bank-reconciliation-matching-rules"></a><span data-ttu-id="a4b04-104">إعداد قواعد مطابقة التسوية البنكية</span><span class="sxs-lookup"><span data-stu-id="a4b04-104">Set up bank reconciliation matching rules</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a4b04-105">تشرح هذه المقالة كيفية إعداد قواعد مطابقة التسوية ومجموعات قواعد مطابقة التسوية لمساعدة عملية التسوية البنكية.</span><span class="sxs-lookup"><span data-stu-id="a4b04-105">This topic explains how to set up reconciliation matching rules and reconciliation matching rule sets to help with the bank reconciliation process.</span></span> <span data-ttu-id="a4b04-106">قواعد مطابقة التسوية هي مجموعة من المعايير المستخدمة لتصفية بنود كشف الحساب البنكي وبنود المستند البنكي أثناء عملية التسوية.</span><span class="sxs-lookup"><span data-stu-id="a4b04-106">Reconciliation matching rules are a set of criteria that are used to filter bank statement lines and bank document lines during the reconciliation process.</span></span>
 
@@ -50,7 +49,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="a4b04-122">**مسح بنود كشف الحساب المعكوسة**</span><span class="sxs-lookup"><span data-stu-id="a4b04-122">**Clear reversal statement lines**</span></span> | <span data-ttu-id="a4b04-123">قم بإنشاء معايير لتحديد كيف ينبغي إزالة بنود كشف الحساب المعكوس‬ من صفحة **ورقة عمل التسوية البنكية** عند تشغيل قاعدة المطابقة.</span><span class="sxs-lookup"><span data-stu-id="a4b04-123">Create criteria to specify how reversal statement lines should be removed from the **Bank reconciliation worksheet** page when the matching rule is run.</span></span> <span data-ttu-id="a4b04-124">ويتم استخدام هذا الخيار عندما يقوم البنك بارتكاب خطأ، ويكون هناك بندين لكشوف بنكية مدرجة في الكشف البنكي المستورد، وتجب تسوية البنود.</span><span class="sxs-lookup"><span data-stu-id="a4b04-124">This option is used when a bank error causes two bank statement lines to be listed in the imported bank statement, and the lines must be reconciled.</span></span> | <span data-ttu-id="a4b04-125">**الخطوة 1**:**البحث عن بنود كشف الإلغاء**– إضافة معايير التحديد لتحديد بنود كشف الحساب البنكي المعكوس.</span><span class="sxs-lookup"><span data-stu-id="a4b04-125">**Step 1**: **Find reversal statement lines** – Add selection criteria to select reversal bank statement lines.</span></span> <span data-ttu-id="a4b04-126">على سبيل المثال، لتحديد الشيكات فقط، حدد **كود الحركة البنكية** في حقل الحقل، وحدد علامة زائد (+) في حقل **عامل التشغيل**، ثم أدخل **الشيكات** في حقل القيمة.</span><span class="sxs-lookup"><span data-stu-id="a4b04-126">For example, to select only checks, select the **Bank transaction code** in the Field field, select the plus sign (+) in the **Operator** field, and then enter **Checks** in the Value field.</span></span> <span data-ttu-id="a4b04-127">**الخطوة 2: البحث عن بنود كشف الحساب الأصلي**‎ - يمكنك إضافة معايير تحديد لمطابقة بنود المستند البنكي ببنود كشف الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="a4b04-127">**Step 2: Find original statement lines** – You can add selection criteria to match bank document lines to bank statement lines.</span></span> <span data-ttu-id="a4b04-128">**الخطوة 3: البحث عن الحركات البنكية في Finance and Operations**– يمكنك إضافة معايير تحديد لمطابقة الحركات البنكية في Finance and Operations ببنود كشف الحساب البنكي.</span><span class="sxs-lookup"><span data-stu-id="a4b04-128">**Step 3: Find Finance and Operations bank transactions **– You can add selection criteria to match Finance and Operations bank transactions to bank statement lines.</span></span> |
 | <span data-ttu-id="a4b04-129">**وضع علامة على الحركات الجديدة**</span><span class="sxs-lookup"><span data-stu-id="a4b04-129">**Mark new transactions**</span></span>          | <span data-ttu-id="a4b04-130">قم بإنشاء معايير لتحديد الكيفية التي ينبغي بها وضع علامات على الحركات الجديدة في صفحة **ورقة عمل التسوية البنكية** عند تشغيل قاعدة المطابقة.</span><span class="sxs-lookup"><span data-stu-id="a4b04-130">Create criteria to specify how new transactions should be marked on the **Bank reconciliation workshee**t page when the matching rule is run.</span></span>                                                                                                                                                                 | <span data-ttu-id="a4b04-131">**الخطوة 1: البحث عن بنود الكشف**– إضافة حقول تحديد لتحديد بنود كشف الحساب البنكي التي ينبغي تحديدها من صفحة **ورقة عمل التسوية البنكية**.</span><span class="sxs-lookup"><span data-stu-id="a4b04-131">**Step 1: Find statement lines** – Add selection fields to specify which bank statement lines should be selected from the **Bank reconciliation worksheet** page.</span></span> <span data-ttu-id="a4b04-132">**الخطوة 2: البحث عن Finance and Operations**– يمكنك إضافة معايير التحديد للبحث عن بنود المستند البنكي.</span><span class="sxs-lookup"><span data-stu-id="a4b04-132">**Step 2: Find Finance and Operations **– You can add selection criteria to search bank document lines.</span></span> <span data-ttu-id="a4b04-133">إذا لم يتم العثور على أي مستند بنكي، سيتم وضع علامة على بند الكشف باعتباره حركة جديدة.</span><span class="sxs-lookup"><span data-stu-id="a4b04-133">If no bank document is found, a statement line will be marked as a new transaction.</span></span>                                                                                                                                                                                                                                             |
 
- 
+
 
 
 

@@ -19,17 +19,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 662a649f20fa4e22d83d22b651ec8bcdd69f8028
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="import-currency-exchange-rates"></a><span data-ttu-id="edeb1-105">استيراد أسعار صرف العملات</span><span class="sxs-lookup"><span data-stu-id="edeb1-105">Import currency exchange rates</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="edeb1-106">إذا تلقى كيان قانوني فواتير بعملات أجنبية، فمن الضروري تحويل العملات الأجنبية إلى العملة المحلية.</span><span class="sxs-lookup"><span data-stu-id="edeb1-106">If a legal entity has received invoices in foreign currencies, it’s necessary to convert the foreign currency into the local currency.</span></span> <span data-ttu-id="edeb1-107">وهذا يعني أنه يلزم معرفة آخر تحديث لأسعار صرف العملات المختلفة حتى تاريخه.</span><span class="sxs-lookup"><span data-stu-id="edeb1-107">This means that up-to-date exchange rates for different currencies are required.</span></span> <span data-ttu-id="edeb1-108">يوفر هذا الموضوع نظرة عامة حول الإعدادات المطلوبة وطرق المعالجة لاستيراد معدلات مرجع سعر الصرف الأجنبي المنشورة عبر الإنترنت من خلال موفري أسعار الصرف مثل البنك المركزي الأوروبي وبنك روسيا الاتحادية المركزي.</span><span class="sxs-lookup"><span data-stu-id="edeb1-108">This topic provides an overview of the required settings and processing for importing foreign exchange reference rates published over the Internet by the exchange rate providers, such as the European Central Bank and the Central Bank of Russia.</span></span>
 

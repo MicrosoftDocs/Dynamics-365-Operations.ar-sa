@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c2b3a66443394f5bfbe51b6685513281025d68fd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 713e02b6537da0d72b34e796d81ad32a6cb74bc3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-purchasing-policies"></a><span data-ttu-id="4592a-103">إنشاء مناهج الشراء</span><span class="sxs-lookup"><span data-stu-id="4592a-103">Create purchasing policies</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4592a-104">يوضح هذا الإجراء كيفية إنشاء سياسات شراء لتتماشى مع عملياتك التجارية الخاصة بالشراء.</span><span class="sxs-lookup"><span data-stu-id="4592a-104">This procedure shows you how to create purchasing policies to align with your business processes for purchasing.</span></span> <span data-ttu-id="4592a-105">قبل أن تتمكن من إنشاء سياسات الشراء، يجب أن تقوم بإعداد محددات سياسة الشراء.</span><span class="sxs-lookup"><span data-stu-id="4592a-105">Before you can create purchasing policies, you must set up the purchasing policy parameters.</span></span> <span data-ttu-id="4592a-106">من الممكن إنشاء سياسة شراء وتعديلها وإيقافها، ولكن لا يمكنك حذف سياسة شراء.</span><span class="sxs-lookup"><span data-stu-id="4592a-106">It’s possible to create, modify, and retire a purchasing policy, but you can’t delete a purchasing policy.</span></span> <span data-ttu-id="4592a-107">يقوم مدير المشتريات عادةً بتنفيذ هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="4592a-107">This procedure would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="4592a-108">يمكنك استخدام هذا الإجراء في شركة بيانات العرض التقديمي USMF، أو في البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="4592a-108">You can use this procedure in demo data company USMF or on your own data.</span></span>
 

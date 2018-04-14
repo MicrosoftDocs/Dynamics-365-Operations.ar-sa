@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fe0be9164a285ce3884d1f35e99bdad80eb8b581
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="13782-104">أسس التوزيع</span><span class="sxs-lookup"><span data-stu-id="13782-104">Allocation bases</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="13782-105">يمثل أساس التخصيص ذلك الأساس الذي تقوم محاسبة التكاليف بتخصيص التكاليف الإضافية على أساسه.</span><span class="sxs-lookup"><span data-stu-id="13782-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="13782-106">يمكن أن يكون أساس التخصيص كمية، مثل ساعات الأجهزة المستخدمة، أو ساعات الكيلووات (كيلووات) التي يتم استهلاكها، أو القدم المربع الذي يتم شغله.</span><span class="sxs-lookup"><span data-stu-id="13782-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="13782-107">غالبًا ما تستخدم أسس التوزيع لتعيين التكاليف الإضافية إلى المخزون الذي يتم إنتاجه.</span><span class="sxs-lookup"><span data-stu-id="13782-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="13782-108">على سبيل المثال، يخصص قسم تكنولوجيا المعلومات نفقاته وفقًا لعدد أجهزة الكمبيوتر التي يستخدمها كل قسم.</span><span class="sxs-lookup"><span data-stu-id="13782-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
@@ -424,9 +424,11 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="13782-775">وفيما يلي مثالًا على قاعدة توزيع التكلفة إذا ما تم تعيين أساس توزيع معادلة كهرباء ثابتة كأساس توزيع فيها.</span><span class="sxs-lookup"><span data-stu-id="13782-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| <span data-ttu-id="13782-776">كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="13782-776">Cost object</span></span> |  <span data-ttu-id="13782-777">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="13782-777">Description</span></span>  | <span data-ttu-id="13782-778">المقدار</span><span class="sxs-lookup"><span data-stu-id="13782-778">Magnitude</span></span> | <span data-ttu-id="13782-779">عامل التوزيع</span><span class="sxs-lookup"><span data-stu-id="13782-779">Allocation factor</span></span>                |
-|-------------|----|-----------|----------------------------------|
-| <span data-ttu-id="13782-780">CC001</span><span class="sxs-lookup"><span data-stu-id="13782-780">CC001</span></span>       | <span data-ttu-id="13782-781">الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="13782-781">HR</span></span> | <span data-ttu-id="13782-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="13782-782">1,837.50</span></span>  | <span data-ttu-id="13782-783">(1,837.50 ÷ 18,162.50) × المبلغ</span><span class="sxs-lookup"><span data-stu-id="13782-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="13782-784">CC002</span><span class="sxs-lookup"><span data-stu-id="13782-784">CC002</span></span>       | <span data-ttu-id="13782-785">FI</span><span class="sxs-lookup"><span data-stu-id="13782-785">FI</span></span> | <span data-ttu-id="13782-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="13782-786">3,075.00</span></span>  | <span data-ttu-id="13782-787">(3,075.00 ÷ 18,162.50) × المبلغ</span><span class="sxs-lookup"><span data-stu-id="13782-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="13782-788">CC003</span><span class="sxs-lookup"><span data-stu-id="13782-788">CC003</span></span>       | <span data-ttu-id="13782-789">تكنولوجيا المعلومات</span><span class="sxs-lookup"><span data-stu-id="13782-789">IT</span></span> | <span data-ttu-id="13782-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="13782-790">13,250.00</span></span> | <span data-ttu-id="13782-791">(13,250.00 ÷ 18,162.50) × المبلغ</span><span class="sxs-lookup"><span data-stu-id="13782-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
+| <span data-ttu-id="13782-776">كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="13782-776">Cost object</span></span> | <span data-ttu-id="13782-777">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="13782-777">Description</span></span> | <span data-ttu-id="13782-778">المقدار</span><span class="sxs-lookup"><span data-stu-id="13782-778">Magnitude</span></span> |        <span data-ttu-id="13782-779">عامل التوزيع</span><span class="sxs-lookup"><span data-stu-id="13782-779">Allocation factor</span></span>         |
+|-------------|-------------|-----------|----------------------------------|
+|    <span data-ttu-id="13782-780">CC001</span><span class="sxs-lookup"><span data-stu-id="13782-780">CC001</span></span>    |     <span data-ttu-id="13782-781">الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="13782-781">HR</span></span>      | <span data-ttu-id="13782-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="13782-782">1,837.50</span></span>  | <span data-ttu-id="13782-783">(1,837.50 ÷ 18,162.50) × المبلغ</span><span class="sxs-lookup"><span data-stu-id="13782-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="13782-784">CC002</span><span class="sxs-lookup"><span data-stu-id="13782-784">CC002</span></span>    |     <span data-ttu-id="13782-785">FI</span><span class="sxs-lookup"><span data-stu-id="13782-785">FI</span></span>      | <span data-ttu-id="13782-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="13782-786">3,075.00</span></span>  | <span data-ttu-id="13782-787">(3,075.00 ÷ 18,162.50) × المبلغ</span><span class="sxs-lookup"><span data-stu-id="13782-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="13782-788">CC003</span><span class="sxs-lookup"><span data-stu-id="13782-788">CC003</span></span>    |     <span data-ttu-id="13782-789">تكنولوجيا المعلومات</span><span class="sxs-lookup"><span data-stu-id="13782-789">IT</span></span>      | <span data-ttu-id="13782-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="13782-790">13,250.00</span></span> | <span data-ttu-id="13782-791">(13,250.00 ÷ 18,162.50) × المبلغ</span><span class="sxs-lookup"><span data-stu-id="13782-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
 

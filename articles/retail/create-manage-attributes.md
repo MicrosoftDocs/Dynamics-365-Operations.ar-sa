@@ -20,17 +20,16 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2066f6c9dd71144a330e00a71f02dfc21dd930bc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dccb702c072b7fae41f5200783a9c95eb8c54988
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-and-manage-attributes"></a><span data-ttu-id="c3283-104">إنشاء وإدارة السمات</span><span class="sxs-lookup"><span data-stu-id="c3283-104">Create and manage attributes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="c3283-105">تصف هذه المقالة السمات في Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="c3283-105">This article describes attributes in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="c3283-106">تمكّنك السمات من وصف منتج والصفات المميزة له من خلال الحقول المحددة من قِبل المستخدم.</span><span class="sxs-lookup"><span data-stu-id="c3283-106">Attributes let you describe a product and its characteristics through user-defined fields.</span></span>
 
@@ -58,7 +57,7 @@ ms.lasthandoff: 01/17/2018
 
 ## <a name="attribute-type"></a><span data-ttu-id="c3283-173">نوع السمة</span><span class="sxs-lookup"><span data-stu-id="c3283-173">Attribute type</span></span>
   <span data-ttu-id="c3283-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span><span class="sxs-lookup"><span data-stu-id="c3283-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span></span> 
-  
+
 <span data-ttu-id="c3283-175">تستند السمات إلى أنواع السمات.</span><span class="sxs-lookup"><span data-stu-id="c3283-175">Attributes are based on attribute types.</span></span> <span data-ttu-id="c3283-176">تحدد أنواع السمات نوع البيانات التي يمكن إدخالها لسمة محددة.</span><span class="sxs-lookup"><span data-stu-id="c3283-176">Attribute types identify the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="c3283-177">يدعم Microsoft Dynamics 365 for Retail حاليًا أنواع السمات التالية:</span><span class="sxs-lookup"><span data-stu-id="c3283-177">Currently, Microsoft Dynamics 365 for Retail supports the following attribute types:</span></span>
 
 -   <span data-ttu-id="c3283-178">**العملة** – يدعم نوع السمة هذا قيم العملات.</span><span class="sxs-lookup"><span data-stu-id="c3283-178">**Currency** – This attribute type supports currency values.</span></span> <span data-ttu-id="c3283-179">يمكن أن تكون محدودة (أي، يمكنها دعم مجموعة قيم)، أو يمكن تركها مفتوحة.</span><span class="sxs-lookup"><span data-stu-id="c3283-179">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>

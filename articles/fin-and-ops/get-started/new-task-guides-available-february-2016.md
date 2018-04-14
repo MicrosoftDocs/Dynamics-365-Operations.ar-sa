@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="fa5ed-104">دلائل المهام الجديدة (فبراير 2016)</span><span class="sxs-lookup"><span data-stu-id="fa5ed-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fa5ed-105">‏‫يذكر هذا الموضوع دلائل المهام التي تم إصدارها لمكتبات Microsoft BPM اعتبارًا من فبراير عام 2016.</span><span class="sxs-lookup"><span data-stu-id="fa5ed-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="fa5ed-106">تتضمن المكتبات التي تم نشرها المكتبة الموحدة APQC (فبراير 2016) لتطبيق Microsoft Dynamics AX ومكتبة بدء الاستخدام (فبراير 2016).‬</span><span class="sxs-lookup"><span data-stu-id="fa5ed-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-124">إعداد التحقق من صحة مطابقة فاتورة الحسابات الدائنة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="fa5ed-125">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-125">Global</span></span>             |
 | <span data-ttu-id="fa5ed-126">إعداد سياسات فواتير المورِّدين</span><span class="sxs-lookup"><span data-stu-id="fa5ed-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="fa5ed-127">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="fa5ed-128">الحسابات المدينة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-153">مراجعة معلومات التحصيلات</span><span class="sxs-lookup"><span data-stu-id="fa5ed-153">Review collections information</span></span>                              | <span data-ttu-id="fa5ed-154">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-154">Global</span></span>             |
 | <span data-ttu-id="fa5ed-155">إعداد وإنشاء معلومات تقادم الحسابات المدينة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="fa5ed-156">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="fa5ed-157">إدارة النقد والبنوك</span><span class="sxs-lookup"><span data-stu-id="fa5ed-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-196">تسوية شيك بتاريخ لاحق من عميل</span><span class="sxs-lookup"><span data-stu-id="fa5ed-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="fa5ed-197">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-197">Global</span></span>             |
 | <span data-ttu-id="fa5ed-198">نظرة عامة على دفع المورّد</span><span class="sxs-lookup"><span data-stu-id="fa5ed-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="fa5ed-199">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="fa5ed-200">التوافق</span><span class="sxs-lookup"><span data-stu-id="fa5ed-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-201">**بند BPM**</span><span class="sxs-lookup"><span data-stu-id="fa5ed-201">**BPM Line**</span></span>                               | <span data-ttu-id="fa5ed-202">**البلد/المنطقة**</span><span class="sxs-lookup"><span data-stu-id="fa5ed-202">**Country/Region**</span></span> |
 | <span data-ttu-id="fa5ed-203">تحديد سياسات المراجعة للمستندات المصدر</span><span class="sxs-lookup"><span data-stu-id="fa5ed-203">Define audit policies for source documents</span></span> | <span data-ttu-id="fa5ed-204">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="fa5ed-205">إدارة التكلفة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-214">عرض حالة الأعمال تحت التنفيذ‬ الحالية لأمر إنتاج</span><span class="sxs-lookup"><span data-stu-id="fa5ed-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="fa5ed-215">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-215">Global</span></span>             |
 | <span data-ttu-id="fa5ed-216">عرض بيان المخزون ومؤشرات الأداء الرئيسية حسب كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="fa5ed-217">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="fa5ed-218">وظيفة البلد/المنطقة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-485">GB-00009 إنشاء إشعار ائتمان على خصم التسوية</span><span class="sxs-lookup"><span data-stu-id="fa5ed-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="fa5ed-486">المملكة المتحدة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="fa5ed-487">GB-00009 إعداد معلمات لإشعار الائتمان على خصم الدفع الفوري</span><span class="sxs-lookup"><span data-stu-id="fa5ed-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="fa5ed-488">المملكة المتحدة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="fa5ed-489">وضع رؤية وإستراتيجية</span><span class="sxs-lookup"><span data-stu-id="fa5ed-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-498">طرح سؤال يتوقف على الإجابة على السؤال السابق (أسئلة مشروطة)</span><span class="sxs-lookup"><span data-stu-id="fa5ed-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="fa5ed-499">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-499">Global</span></span>             |
 | <span data-ttu-id="fa5ed-500">تسجيل استبيان استناداً إلى النسبة المئوية</span><span class="sxs-lookup"><span data-stu-id="fa5ed-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="fa5ed-501">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="fa5ed-502">إعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="fa5ed-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-511">نموذج بيانات خريطة الإبلاغ الإلكتروني لمصادر البيانات المحددة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="fa5ed-512">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-512">Global</span></span>             |
 | <span data-ttu-id="fa5ed-513">موفر خدمة تحديد التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="fa5ed-513">ER Select service provider</span></span>                      | <span data-ttu-id="fa5ed-514">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="fa5ed-515">إدارة المصروفات</span><span class="sxs-lookup"><span data-stu-id="fa5ed-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-516">**بند BPM**</span><span class="sxs-lookup"><span data-stu-id="fa5ed-516">**BPM Line**</span></span>                 | <span data-ttu-id="fa5ed-517">**البلد/المنطقة**</span><span class="sxs-lookup"><span data-stu-id="fa5ed-517">**Country/Region**</span></span> |
 | <span data-ttu-id="fa5ed-518">تكوين إدارة المصروفات</span><span class="sxs-lookup"><span data-stu-id="fa5ed-518">Configure expense management</span></span> | <span data-ttu-id="fa5ed-519">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="fa5ed-520">الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-549">تقسيم أصل ثابت</span><span class="sxs-lookup"><span data-stu-id="fa5ed-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="fa5ed-550">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-550">Global</span></span>             |
 | <span data-ttu-id="fa5ed-551">تحويل أصل ثابت</span><span class="sxs-lookup"><span data-stu-id="fa5ed-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="fa5ed-552">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="fa5ed-553">دفتر الأستاذ العام</span><span class="sxs-lookup"><span data-stu-id="fa5ed-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-602">عرض إدخالات دفاتر اليومية أو الحركات</span><span class="sxs-lookup"><span data-stu-id="fa5ed-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="fa5ed-603">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-603">Global</span></span>             |
 | <span data-ttu-id="fa5ed-604">عرض الإيصال ذي الصلة بين الشركات الشقيقة من دفتر يومية</span><span class="sxs-lookup"><span data-stu-id="fa5ed-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="fa5ed-605">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="fa5ed-606">إدارة رؤوس الأموال البشرية</span><span class="sxs-lookup"><span data-stu-id="fa5ed-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-677">إعداد سياسات استحقاق المزايا</span><span class="sxs-lookup"><span data-stu-id="fa5ed-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="fa5ed-678">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-678">Global</span></span>             |
 | <span data-ttu-id="fa5ed-679">إعداد أنواع المستندات i9</span><span class="sxs-lookup"><span data-stu-id="fa5ed-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="fa5ed-680">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="fa5ed-681">إدارة المخزون</span><span class="sxs-lookup"><span data-stu-id="fa5ed-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-712">تعقب صنف أو مادة خام</span><span class="sxs-lookup"><span data-stu-id="fa5ed-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="fa5ed-713">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-713">Global</span></span>             |
 | <span data-ttu-id="fa5ed-714">تحويل المخزون الفعلي داخل المستودع</span><span class="sxs-lookup"><span data-stu-id="fa5ed-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="fa5ed-715">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="fa5ed-716">التصنيع</span><span class="sxs-lookup"><span data-stu-id="fa5ed-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-803">نقل المواد بوظائف كانبان</span><span class="sxs-lookup"><span data-stu-id="fa5ed-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="fa5ed-804">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-804">Global</span></span>             |
 | <span data-ttu-id="fa5ed-805">التحقق من صحة تدفق الإنتاج والإصدار</span><span class="sxs-lookup"><span data-stu-id="fa5ed-805">Validate production flow and version</span></span>                          | <span data-ttu-id="fa5ed-806">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="fa5ed-807">التخطيط الرئيسي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-816">تحديد قدرة المورد والمواد المهمة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="fa5ed-817">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-817">Global</span></span>             |
 | <span data-ttu-id="fa5ed-818">تعديل التنبؤ بالطلب يدوياً</span><span class="sxs-lookup"><span data-stu-id="fa5ed-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="fa5ed-819">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="fa5ed-820">إدارة المؤسسة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-831">إعداد تواقيع إلكترونية</span><span class="sxs-lookup"><span data-stu-id="fa5ed-831">Set up electronic signatures</span></span>              | <span data-ttu-id="fa5ed-832">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-832">Global</span></span>             |
 | <span data-ttu-id="fa5ed-833">إعداد التسلسلات الرقمية باستخدام معالج</span><span class="sxs-lookup"><span data-stu-id="fa5ed-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="fa5ed-834">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="fa5ed-835">التخطيط</span><span class="sxs-lookup"><span data-stu-id="fa5ed-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-836">**بند BPM**</span><span class="sxs-lookup"><span data-stu-id="fa5ed-836">**BPM Line**</span></span>           | <span data-ttu-id="fa5ed-837">**البلد/المنطقة**</span><span class="sxs-lookup"><span data-stu-id="fa5ed-837">**Country/Region**</span></span> |
 | <span data-ttu-id="fa5ed-838">تحديد التوفر</span><span class="sxs-lookup"><span data-stu-id="fa5ed-838">Determine availability</span></span> | <span data-ttu-id="fa5ed-839">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="fa5ed-840">التدبير وتحديد الموارد</span><span class="sxs-lookup"><span data-stu-id="fa5ed-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-853">البحث عن الموردين</span><span class="sxs-lookup"><span data-stu-id="fa5ed-853">Search for vendors</span></span>                                               | <span data-ttu-id="fa5ed-854">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-854">Global</span></span>             |
 | <span data-ttu-id="fa5ed-855">إعداد تدرج هرمي لفئات التدبير</span><span class="sxs-lookup"><span data-stu-id="fa5ed-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="fa5ed-856">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="fa5ed-857">معلومات المنتج وتكوينه</span><span class="sxs-lookup"><span data-stu-id="fa5ed-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-892">إصدار ..\‏‫الأبعاد-المالية\أصل المنتج المستنِد إلى البُعد</span><span class="sxs-lookup"><span data-stu-id="fa5ed-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="fa5ed-893">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-893">Global</span></span>             |
 | <span data-ttu-id="fa5ed-894">نقل البيانات لنماذج المنتجات</span><span class="sxs-lookup"><span data-stu-id="fa5ed-894">Transfer data for product models</span></span>                      | <span data-ttu-id="fa5ed-895">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="fa5ed-896">القطاع العام</span><span class="sxs-lookup"><span data-stu-id="fa5ed-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-931">إعداد صندوق للقطاع العام</span><span class="sxs-lookup"><span data-stu-id="fa5ed-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="fa5ed-932">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-932">Global</span></span>             |
 | <span data-ttu-id="fa5ed-933">إعداد تصنيفات اتفاقية الشراء للقطاع العام</span><span class="sxs-lookup"><span data-stu-id="fa5ed-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="fa5ed-934">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="fa5ed-935">البيع بالتجزئة والتجارة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-1002">تعديلات سعر البيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="fa5ed-1003">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1003">Global</span></span>             |
 | <span data-ttu-id="fa5ed-1004">تخزين تكوينات لبيانات البيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="fa5ed-1005">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="fa5ed-1006">ال‏‏مبيعات</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-1035">شحن الأوامر كعمليات تسليم مباشرة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="fa5ed-1036">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1036">Global</span></span>             |
 | <span data-ttu-id="fa5ed-1037">شحن أوامر المبيعات دون تخزين</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="fa5ed-1038">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="fa5ed-1039">ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-1060">إعداد ضريبة الخصم</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="fa5ed-1061">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1061">Global</span></span>             |
 | <span data-ttu-id="fa5ed-1062">عرض حركات ضرائب مبيعات مُرَّحلة</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="fa5ed-1063">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="fa5ed-1064">الأمان</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-1069">تحديد وحل التعارضات في الفصل بين المهام</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="fa5ed-1070">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1070">Global</span></span>             |
 | <span data-ttu-id="fa5ed-1071">إعداد الفصل بين المهام</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="fa5ed-1072">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="fa5ed-1073">المستودعات والنقل</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="fa5ed-1106">إعداد شركات الشحن</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="fa5ed-1107">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1107">Global</span></span>             |
 | <span data-ttu-id="fa5ed-1108">استخدام منضدة تخطيط الحِمل لتخطيط الأحمال والشحنات</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="fa5ed-1109">عمومي</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="fa5ed-1110">دلائل المهام في مكتبة بدء الاستخدام (فبراير 2016)</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="fa5ed-1111">**بند BPM**</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="fa5ed-1112">**البلد/المنطقة**</span><span class="sxs-lookup"><span data-stu-id="fa5ed-1112">**Country/Region**</span></span> |

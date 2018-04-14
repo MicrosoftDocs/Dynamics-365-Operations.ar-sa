@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8b597f417fc144b90aa6469ebe1b9961dc968c15
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-templates-for-excel"></a><span data-ttu-id="67018-103">قوالب التخطيط للموازنة لـ Excel</span><span class="sxs-lookup"><span data-stu-id="67018-103">Budget planning templates for Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="67018-104">يوضح هذا الموضوع كيفية إنشاء قوالب Microsoft Excel التي يمكن استخدامها مع خطط الموازنة.</span><span class="sxs-lookup"><span data-stu-id="67018-104">This topic describes how to create Microsoft Excel templates that can be used with budget plans.</span></span>
 
@@ -42,11 +41,11 @@ ms.lasthandoff: 03/26/2018
 1. <span data-ttu-id="67018-112">افتح **قائمة خطط الموازنة** (**الموازنة** &gt; **خطط الموازنة**).</span><span class="sxs-lookup"><span data-stu-id="67018-112">Open the **Budget plans list** (**Budgeting** &gt; **Budget plans**).</span></span> 
 2. <span data-ttu-id="67018-113">انقر فوق **جديد** لإنشاء مستند خطة موازنة جديد.</span><span class="sxs-lookup"><span data-stu-id="67018-113">Click **New** to create a new budget plan document.</span></span> 
 
-  <span data-ttu-id="67018-114">[![قائمة خطط الموازنة](./media/bpt11-1024x552.png)](./media/bpt11.png)</span><span class="sxs-lookup"><span data-stu-id="67018-114">[![Budget plans list](./media/bpt11-1024x552.png)](./media/bpt11.png)</span></span> 
+   <span data-ttu-id="67018-114">[![قائمة خطط الموازنة](./media/bpt11-1024x552.png)](./media/bpt11.png)</span><span class="sxs-lookup"><span data-stu-id="67018-114">[![Budget plans list](./media/bpt11-1024x552.png)](./media/bpt11.png)</span></span> 
 
 3. <span data-ttu-id="67018-115">استخدم خيار سطر **إضافة** لإضافة السطور.</span><span class="sxs-lookup"><span data-stu-id="67018-115">Use the **Add** line option to add lines.</span></span> <span data-ttu-id="67018-116">انقر فوق **تخطيطات** لعرض تكوين تخطيط مستند خطة الموازنة.</span><span class="sxs-lookup"><span data-stu-id="67018-116">Click **Layouts** to view the budget plan document layout configuration.</span></span> 
 
-  <span data-ttu-id="67018-117">[![إضافة خطط الموازنة](./media/bpt2-1024x274.png)](./media/bpt2.png)</span><span class="sxs-lookup"><span data-stu-id="67018-117">[![Budget plans add](./media/bpt2-1024x274.png)](./media/bpt2.png)</span></span> 
+   <span data-ttu-id="67018-117">[![إضافة خطط الموازنة](./media/bpt2-1024x274.png)](./media/bpt2.png)</span><span class="sxs-lookup"><span data-stu-id="67018-117">[![Budget plans add](./media/bpt2-1024x274.png)](./media/bpt2.png)</span></span> 
 
 <span data-ttu-id="67018-118">يمكنك مراجعة تكوين التخطيط وتعديله وفقًا لما هو مطلوب.</span><span class="sxs-lookup"><span data-stu-id="67018-118">You can review the layout configuration and adjust it as needed.</span></span> 
 1. <span data-ttu-id="67018-119">انتقل إلى **قالب** &gt; **إنشاء** لإنشاء ملف Excel لهذا التخطيط.</span><span class="sxs-lookup"><span data-stu-id="67018-119">Go to **Template** &gt; **Generate** to create an Excel file for this layout.</span></span> 

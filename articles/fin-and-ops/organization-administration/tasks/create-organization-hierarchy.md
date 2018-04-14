@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 2aea56a549131745b2636392561176bf0f87097c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2deec5470eef68f18042bb789e3760189caffdeb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-an-organization-hierarchy"></a><span data-ttu-id="928c3-103">إنشاء تدرج هرمي للمؤسسات.</span><span class="sxs-lookup"><span data-stu-id="928c3-103">Create an organization hierarchy</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="928c3-104">استخدم الإجراء التالي لإنشاء تدرج هرمي للمؤسسات.</span><span class="sxs-lookup"><span data-stu-id="928c3-104">Use the following procedure to create an organizational hierarchy.</span></span> <span data-ttu-id="928c3-105">يمكنك استخدام التدرجات الهرمية المؤسسية لعرض العمل الخاص بك وإنشاء التقارير الخاصة به من منظورات متعددة.</span><span class="sxs-lookup"><span data-stu-id="928c3-105">You can use organizational hierarchies to view and report on your business from various perspectives.</span></span> <span data-ttu-id="928c3-106">على سبيل المثال، يمكنك إعداد تدرج هرمي للتقارير الضريبية أو القانونية.</span><span class="sxs-lookup"><span data-stu-id="928c3-106">For example, you can set up one hierarchy for tax, legal, or statutory reporting.</span></span> <span data-ttu-id="928c3-107">ثم يمكنك إعداد تدرج هرمي آخر لإنشاء تقارير خاصة بالمعلومات المالية غير المطلوبة قانونيًا، ولكنها مستخدمة من أجل الإنشاء الداخلي للتقارير.</span><span class="sxs-lookup"><span data-stu-id="928c3-107">You can then set up another hierarchy to report financial information that is not legally required, but that is used for internal reporting.</span></span> 
 

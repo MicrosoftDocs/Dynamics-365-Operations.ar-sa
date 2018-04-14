@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 51eb4288f5b6c732755007c1dcd8c4db090ccc0a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c606ea957c5d6347d275cb9f29a6ac12c00a0137
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="7c83c-103">توسيع وظائف Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="7c83c-103">Extend the functionality of Microsoft Dynamics 365 for Talent</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="7c83c-104">إذا قمت بإنشاء أي Microsoft PowerApps، فإنه يمكنك بدء تشغيل تلك التطبيقات من الارتباطات الموجودة في Microsoft Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="7c83c-104">If you’ve created any Microsoft PowerApps, you can start those applications from links within Microsoft Dynamics 365 for Talent.</span></span> <span data-ttu-id="7c83c-105">لإعداد وصول إلى التطبيقات الخاصة بك، ستحتاج إلى إعداد بعض المعلومات في Talent في صفحة تكوين يمكنك فتحها من مساحة عمل **إدارة النظام**.</span><span class="sxs-lookup"><span data-stu-id="7c83c-105">To set up access to your applications, you’ll need to set up some information in Talent on a configuration page that you can open from the **System administration** workspace.</span></span>
 
@@ -38,10 +38,10 @@ ms.lasthandoff: 03/07/2018
 > - <span data-ttu-id="7c83c-110">اسم وصفي أو معرف لكل تطبيق PowerApps.</span><span class="sxs-lookup"><span data-stu-id="7c83c-110">A descriptive name or identifier for each PowerApps application.</span></span>
 > - <span data-ttu-id="7c83c-111">معرف فريد (GUID) لكل تطبيق تضيفه إلى صفحة Talent.</span><span class="sxs-lookup"><span data-stu-id="7c83c-111">A unique identifier (GUID) for each application that you add to a Talent page.</span></span> <span data-ttu-id="7c83c-112">معرف التطبيق متوفر على موقع PowerApps، [powerapps.com](http://powerapps.com/).</span><span class="sxs-lookup"><span data-stu-id="7c83c-112">The app ID is available on the PowerApps site, [powerapps.com](http://powerapps.com/).</span></span> 
 > - <span data-ttu-id="7c83c-113">الصفحة التي يستطيع المستخدمون منها فتح تطبيق أو تقرير.</span><span class="sxs-lookup"><span data-stu-id="7c83c-113">The page from which users can open an application or report.</span></span> <span data-ttu-id="7c83c-114">لا تدعم جميع صفحات Talent تطبيقات PowerApps المضمنة وتقارير Power BI.</span><span class="sxs-lookup"><span data-stu-id="7c83c-114">Not all Talent pages support embedded PowerApps and Power BI reports.</span></span> 
-
- > [!NOTE]
- >  <span data-ttu-id="7c83c-115">أدخل الاسم الداخلي للصفحة بدلاً من اسم العرض الذي يظهر في أعلى الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7c83c-115">Enter the internal name of the page, rather than the display name that appears at the top of the page.</span></span> <span data-ttu-id="7c83c-116">للعثور على الاسم الداخلي، افتح الصفحة التي تحتاج إلى اسمها الداخلي، وانقر نقرًا مزدوجًا فوق أي مكان على الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7c83c-116">To find the internal name, open the page that you need the internal name of, and right-click anywhere on the page.</span></span> <span data-ttu-id="7c83c-117">عند فتح القائمة، قم بالتمرير فوق عنصر **معلومات النموذج**.</span><span class="sxs-lookup"><span data-stu-id="7c83c-117">When the menu opens, hover over the **Form information** item.</span></span> <span data-ttu-id="7c83c-118">يتم عرض اسم النموذج الداخلي بجوار عنصر **معلومات النموذج** في القائمة.</span><span class="sxs-lookup"><span data-stu-id="7c83c-118">The internal form name is displayed next to the **Form information** item in the menu.</span></span>
- 
+> 
+> [!NOTE]
+>  <span data-ttu-id="7c83c-115">أدخل الاسم الداخلي للصفحة بدلاً من اسم العرض الذي يظهر في أعلى الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7c83c-115">Enter the internal name of the page, rather than the display name that appears at the top of the page.</span></span> <span data-ttu-id="7c83c-116">للعثور على الاسم الداخلي، افتح الصفحة التي تحتاج إلى اسمها الداخلي، وانقر نقرًا مزدوجًا فوق أي مكان على الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7c83c-116">To find the internal name, open the page that you need the internal name of, and right-click anywhere on the page.</span></span> <span data-ttu-id="7c83c-117">عند فتح القائمة، قم بالتمرير فوق عنصر **معلومات النموذج**.</span><span class="sxs-lookup"><span data-stu-id="7c83c-117">When the menu opens, hover over the **Form information** item.</span></span> <span data-ttu-id="7c83c-118">يتم عرض اسم النموذج الداخلي بجوار عنصر **معلومات النموذج** في القائمة.</span><span class="sxs-lookup"><span data-stu-id="7c83c-118">The internal form name is displayed next to the **Form information** item in the menu.</span></span>
+> 
 > - <span data-ttu-id="7c83c-119">حدد عنصر تحكم النموذج الذي يمكن للتطبيق استرداد بيانات السياق منه.</span><span class="sxs-lookup"><span data-stu-id="7c83c-119">Specify the form control from which the application can retrieve context data.</span></span> <span data-ttu-id="7c83c-120">على سبيل المثال، قد يستخدم تطبيق بيانات حول عامل.</span><span class="sxs-lookup"><span data-stu-id="7c83c-120">For example, an application might use data about a worker.</span></span> <span data-ttu-id="7c83c-121">إذا قمت بإدخال صفحة **العامل** في حقل **السياق**، فسيتم فتح صفحة **العامل** عند بدء تشغيل التطبيق.</span><span class="sxs-lookup"><span data-stu-id="7c83c-121">If you enter the **Worker** page in the **Context** field, the **Worker** page will open when you start the application.</span></span> <span data-ttu-id="7c83c-122">إدخال في **حقل السياق** اختياري.</span><span class="sxs-lookup"><span data-stu-id="7c83c-122">An entry in the **Context field** is optional.</span></span> 
 > - <span data-ttu-id="7c83c-123">قم بتعيين حجم مربع الحوار الذي سيتم تشغيل تطبيق PowerApps عليه.</span><span class="sxs-lookup"><span data-stu-id="7c83c-123">Set the size of the dialog box on which the PowerApps application will run.</span></span> <span data-ttu-id="7c83c-124">تم تعيين مربعات الحوار كـ "صغيرة" أو "كبيرة" لتحسين واجهة عند قيامك بتشغيل تطبيق على هاتف أو جهاز أكبر، على التوالي.</span><span class="sxs-lookup"><span data-stu-id="7c83c-124">The dialog boxes are designated as “small” or “large” to optimize the user interface when your application for running on a phone or a larger device, respectively.</span></span> 
 

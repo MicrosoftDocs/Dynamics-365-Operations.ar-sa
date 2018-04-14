@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: e04bbbf7d9861e05267b822099da46664e421bcf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5a7767433750a0f76fa234ebdba91991d3b8e947
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-benefit-expiration-dates"></a><span data-ttu-id="98773-103">إدارة تواريخ انتهاء صلاحية الميزة</span><span class="sxs-lookup"><span data-stu-id="98773-103">Manage benefit expiration dates</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="98773-104">يوضح هذا الإجراء كيف يمكنك إنهاء أو تمديد صلاحية إحدى الميزات، وإدارة تواريخ التسجيل للعاملين المسجلين للحصول على ميزة.</span><span class="sxs-lookup"><span data-stu-id="98773-104">This procedure shows how you can expire or extend a benefit, and manage the enrollment dates of workers that are enrolled in the benefit.</span></span> <span data-ttu-id="98773-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="98773-105">The demo data company used to create this procedure is USMF.</span></span>
 

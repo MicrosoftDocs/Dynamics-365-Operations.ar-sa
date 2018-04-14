@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9149378047fc22efbd401b7af86df07c1403e4f5
-ms.openlocfilehash: cfe920b2ef493ab3ae36a9557001086ed99c3e4e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ae6f2358cb8e7d1f093f9fcbf60b0957e9e6a629
 ms.contentlocale: ar-sa
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a><span data-ttu-id="22b77-103">إنشاء والحصول على الأصول من الحسابات الدائنة</span><span class="sxs-lookup"><span data-stu-id="22b77-103">Create and acquire assets from accounts payable</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="22b77-104">سينقلك دليل المهمة هذا عبر عملية إنشاء أصل ثابت والاستحواذ عليه بواسطة عملية الشراء.</span><span class="sxs-lookup"><span data-stu-id="22b77-104">This task guide will walk through creation and acquisition of a fixed asset with the purchasing process.</span></span> <span data-ttu-id="22b77-105">إنه يستخدم دور المحاسب وموظفي الحسابات الدائنة وشركة العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="22b77-105">It uses the Accountant and Accounts payable clerks and the demo company USMF.</span></span>
 

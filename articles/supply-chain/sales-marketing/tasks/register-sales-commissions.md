@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 5535f1627526b97ddc9ca2c210db4e332782d656
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d21f9047dcea0af59c24339ebb57e8eabe3950d4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-sales-commissions"></a><span data-ttu-id="65c8b-103">تسجيل عمولات المبيعات</span><span class="sxs-lookup"><span data-stu-id="65c8b-103">Register sales commissions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="65c8b-104">يوضح هذا الإجراء كيفية حساب عمولات المبيعات وتسجيلها.</span><span class="sxs-lookup"><span data-stu-id="65c8b-104">This procedure shows you how sales commissions are calculated and registered.</span></span> <span data-ttu-id="65c8b-105">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="65c8b-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="65c8b-106">قبل تشغيل هذا الدليل، قم بتشغيل الدليل المُسمى "إعداد قواعد عمولات المبيعات" للتأكد من وجود توفر إعداد حساب العمولات الضروري بالكامل.</span><span class="sxs-lookup"><span data-stu-id="65c8b-106">Before starting this guide, run the guide called "Set up sales commission rules" to make sure that you have all the necessary commission calculation setup.</span></span>
 

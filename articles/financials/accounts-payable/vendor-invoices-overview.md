@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 3d02b2ee0ee748546158bce1094d2b343afef7c5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 82370fffe9c296ef77f3b15929a9028bcac77677
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-invoices-overview"></a><span data-ttu-id="60620-105">نظرة عامة على فواتير الموردين</span><span class="sxs-lookup"><span data-stu-id="60620-105">Vendor invoices overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="60620-106">توفر هذه المقالة معلومات عامة حول فواتير المورد.</span><span class="sxs-lookup"><span data-stu-id="60620-106">This article provides general information about vendor invoices.</span></span> <span data-ttu-id="60620-107">فواتير المورد هي طلبات دفع للمنتجات والخدمات التي تم تلقيها.</span><span class="sxs-lookup"><span data-stu-id="60620-107">Vendor invoices are requests for payment for products and services that were received.</span></span> <span data-ttu-id="60620-108">بإمكان فواتير المورد أن تمثل فاتورة في مقابل خدمات مستمرة، أو يمكنها أن تستند إلى أوامر شراء لأصناف وخدمات معينة.</span><span class="sxs-lookup"><span data-stu-id="60620-108">Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</span></span> 
 
@@ -87,11 +86,11 @@ ms.lasthandoff: 01/17/2018
  - [<span data-ttu-id="60620-170">إعداد سياسات فواتير المورِّدين</span><span class="sxs-lookup"><span data-stu-id="60620-170">Set up vendor invoice policies</span></span>](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [<span data-ttu-id="60620-171">بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام فاتورة المورد</span><span class="sxs-lookup"><span data-stu-id="60620-171">Key invoice data into accounts payable using a vendor invoice</span></span>](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [<span data-ttu-id="60620-172">بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام ‏‫دفتر يومية الموافقة</span><span class="sxs-lookup"><span data-stu-id="60620-172">Key invoice data into accounts payable using an approval journal</span></span>](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [<span data-ttu-id="60620-173">بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام ‏‫وعاء الفواتير‬</span><span class="sxs-lookup"><span data-stu-id="60620-173">Key invoice data into the AP system using invoice pool</span></span>](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [<span data-ttu-id="60620-174">تسجيل فاتورة مورّد في دفتر يومية الفواتير</span><span class="sxs-lookup"><span data-stu-id="60620-174">Record a vendor invoice in the invoice journal</span></span>](tasks/record-vendor-invoice-invoice-journal.md)
 
 

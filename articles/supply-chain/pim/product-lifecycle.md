@@ -20,24 +20,23 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="28627-103">حالة دورة حياة المنتج</span><span class="sxs-lookup"><span data-stu-id="28627-103">Product lifecycle state</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="28627-104">توثق حالة دورة حياة منتج، حالة دورة حياة المنتج الذي تم إصداره أو متغير المنتج.</span><span class="sxs-lookup"><span data-stu-id="28627-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="28627-105">تُحدد حالات دورة حياة المنتج بواسطة المستخدم، وعادةً ما تُحدد من خلال مدير المنتج أو مدير مدير البيانات الرئيسية للمنتج.</span><span class="sxs-lookup"><span data-stu-id="28627-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="28627-106">قد تتأثر عمليات أعمال مُحددة، مثل التخطيط الرئيسي، بحالة دورة حياة محددة.</span><span class="sxs-lookup"><span data-stu-id="28627-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
- 
+
 <span data-ttu-id="28627-107">يمكن إقران منتج مُصدر أو متغير المنتج بحالة دورة حياة منتج والتي يتم فيها توثيق حالة دورة حياة منتج محدد أو المتغير الخاص بحالة المنتج حاليًا.</span><span class="sxs-lookup"><span data-stu-id="28627-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="28627-108">يمكنك تحديد أي عدد من حالات دورة حياة المنتج عن طريق تعيين اسم حالة ووصف.</span><span class="sxs-lookup"><span data-stu-id="28627-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="28627-109">يمكنك تحديد حالة دورة حياة واحدة كحالة افتراضية للمنتجات المُصدرة حديثًا.</span><span class="sxs-lookup"><span data-stu-id="28627-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="28627-110">تكتسب متغيرات المنتجات المُصدرة حالة دورة حياة المنتج من أصل المنتج المُصدر عند إنشائها.</span><span class="sxs-lookup"><span data-stu-id="28627-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="28627-111">عند تغيير حالة دورة حياة منتج على أصل المنتج المٌصدر، يمكن اختيار تحديث جميع المتغيرات الحالية التي لها نفس الحالة الأصلية.</span><span class="sxs-lookup"><span data-stu-id="28627-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
 
 ## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="28627-112">إنشاء حلة دورة حياة منتج جديد</span><span class="sxs-lookup"><span data-stu-id="28627-112">Create a new product lifecycle state</span></span> 
- 
+
 - <span data-ttu-id="28627-113">لإنشاء حالة دورة حياة منتج جديد، قم بتشغيل أو قراءة دليل المهام **إنشاء حالة دورة حياة منتج جديد**.</span><span class="sxs-lookup"><span data-stu-id="28627-113">To create a new product lifecycle state, play or read the task guide **Create a new product lifecycle state**.</span></span> 
 
 -  <span data-ttu-id="28627-114">لإنشاء حالة دورة حياة منتج افتراضية، قم بتشغيل أو قراءة دليل المهام **إنشاء حالة دورة حياة منتج افتراضية**.</span><span class="sxs-lookup"><span data-stu-id="28627-114">To create a default product lifecycle state, play or read the task guide **Create a default product lifecycle state**.</span></span>   
@@ -73,7 +72,7 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > <span data-ttu-id="28627-134">لأسباب تتعلق بالتنفيذ، فإنه يوصي وبشدة إقران جميع المنتجات القديمة المُصدرة أو متغيرات المنتج، وبخاصة عند التعامل مع متغيرات تكوين منتج غير قابلة لإعادة الاستخدام، بحالة دورة حياة المنتج الذي تم إلغاء تنشيط التخطيط الرئيسي لها.</span><span class="sxs-lookup"><span data-stu-id="28627-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
- 
+
 ## <a name="default-migration-import-and-export"></a><span data-ttu-id="28627-135">ترحيل البيانات الافتراضي واستيرادها وتصديرها</span><span class="sxs-lookup"><span data-stu-id="28627-135">Default migration, import, and export</span></span> 
 
 <span data-ttu-id="28627-136">حالات دورة حياة المنتج غير مدعومة من قبل كيانات البيانات، ولا يمكن تعيين حالة دورة حياة إلى حالة متغيرة من خلال كيانات بيانات المنتجات المُصدرة.</span><span class="sxs-lookup"><span data-stu-id="28627-136">The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the released product data entities.</span></span>
@@ -81,18 +80,18 @@ ms.lasthandoff: 02/08/2018
 -  <span data-ttu-id="28627-137">عند الترحيل من إصدارات سابقة، سوف تكون جميع حالة دورة حياة جميع المنتجات ومتغيرات المنتج فارغة.</span><span class="sxs-lookup"><span data-stu-id="28627-137">On migration from previous releases, the lifecycle state of all products and product variants will be blank.</span></span>  
 -  <span data-ttu-id="28627-138">عند استيراد منتجات مُصدرة من خلال كيان بيانات، فسوف تطبق حالة دورة الحياة الافتراضية عند إنشائها.</span><span class="sxs-lookup"><span data-stu-id="28627-138">When importing released products through a data entity, the default lifecycle state will be applied on creation.</span></span>  
 -  <span data-ttu-id="28627-139">عند استيراد متغيرات منتجات تم إصدارها من خلال كيان البيانات، فسوف يتم استيراد حالة دورة حياة المنتج لأصل المنتجات الذي تم إصدارها.</span><span class="sxs-lookup"><span data-stu-id="28627-139">When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.</span></span>   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="28627-140">البحث عن المنتجات القديمة ومتغيرات المنتجات</span><span class="sxs-lookup"><span data-stu-id="28627-140">Find obsolete products and products variants</span></span> 
- 
+
 <span data-ttu-id="28627-141">يمكنك تشغيل تحليل محاكاة للبحث عن المنتجات القديمة المُصدرة أو متغيرات المنتجات، ثم قم بتحديث حالة دورة حياة المنتج الخاصة بهذه المنتجات.</span><span class="sxs-lookup"><span data-stu-id="28627-141">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="28627-142">للبحث عن المنتجات القديمة، قم بتشغيل وقراءة دليل المهام **البحث عن متغيرات المنتجات القديمة وتعيين حالة دورة حياة منتج**.</span><span class="sxs-lookup"><span data-stu-id="28627-142">To find obsolete products, play and read the task guide **Find obsolete product variants and assign a product lifecycle state**.</span></span> <span data-ttu-id="28627-143">يوضح دليل المهام هذا كيفية البحث عن المنتجات القديمة المُصدرة أو متغيرات المنتج، وكيفية إقرانها بحالة دورة حياة منتج بالمنتجات القديمة.</span><span class="sxs-lookup"><span data-stu-id="28627-143">This task guide shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="28627-144">ويوضح أيضًا كيفية عرض نتائج المحاكاة، وتقييم كيف إقران العديد من المنتجات ومتغيرات المنتجات بحالة دورة حياة منتج جديد عند تشغيل التحديث بدون محاكاة.</span><span class="sxs-lookup"><span data-stu-id="28627-144">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
- 
+
 <span data-ttu-id="28627-145">من خلال تشغيل التحليل في وضع محاكاة، سوف يتم عرض المنتجات وتغيرات المنتجات المُحددة كمنتجات قديمة في نموذج محدد، بحيث تسهل مراجعتها.</span><span class="sxs-lookup"><span data-stu-id="28627-145">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="28627-146">تبحث التحليلات عن الحركات وأصل المنتج المحدد لتحديد المنتجات التي ليس عليها طلب خلال فترة زمنية متغيرة وليس لها أصل منتج قد يؤدي إلى الطلب.</span><span class="sxs-lookup"><span data-stu-id="28627-146">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="28627-147">يمكن استبعاد المنتجات الجديدة الصادرة في غضون فترة زمنية متغيرة من التحليل.</span><span class="sxs-lookup"><span data-stu-id="28627-147">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="28627-148">عندما تعرض محاكاة التحليل نتيجة متوقعة، يمكن للمستخدم تشغيل التحليل وتعيين حالة دورة حياة منتج جديد لجميع المنتجات التي حددها التحليل على أنها قديمة.</span><span class="sxs-lookup"><span data-stu-id="28627-148">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
- 
+
 > [!NOTE]
 > <span data-ttu-id="28627-149">لاحظ أن كافة التحليلات والتحديثات يجب أن تتم في نفس الكيان القانوني.</span><span class="sxs-lookup"><span data-stu-id="28627-149">Note that all analysis and updates must be done within the same legal entity.</span></span>  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="28627-150">المعايير اللازم تحديدها وتحديث المنتجات الصادرة أو متغيرات المنتجات.</span><span class="sxs-lookup"><span data-stu-id="28627-150">Criteria to select and update released products or product variants</span></span> 
- 
+
 <span data-ttu-id="28627-151">استخدم المعيار التالي لتحديد وتحديث المنتجات الصادرة ومتغيرات المنتجات:</span><span class="sxs-lookup"><span data-stu-id="28627-151">Use the following criteria to select and update the released products and product variants:</span></span> 
 
 -    <span data-ttu-id="28627-152">يجب أن تختلف حالة دورة حياة المنتج للمنت أو متغير المنتج عن الحالة الجديدة المرغوبة.</span><span class="sxs-lookup"><span data-stu-id="28627-152">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span> 

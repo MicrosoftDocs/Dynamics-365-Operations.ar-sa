@@ -17,17 +17,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f1b4cca51e713e795e8efbf380a0b5948b97acc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f63459c7ee301fbc40d987372b3e85d25e75cb93
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="zakat-reporting"></a><span data-ttu-id="348a8-103">الإبلاغ عن الزكاة</span><span class="sxs-lookup"><span data-stu-id="348a8-103">Zakat reporting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="348a8-104">الأشخاص المسلمون الذين تتجاوز إيراداتهم السنوية مستوى يسمى النصاب، ملزمون قانونًا بدفع 2.5% من إيراداتهم إلى الحكومة على شكل زكاة.</span><span class="sxs-lookup"><span data-stu-id="348a8-104">People of the Islamic faith whose annual earnings exceed a level called Nisab are legally obligated to pay 2.5 percent of their earnings to the government as Zakat.</span></span>
 

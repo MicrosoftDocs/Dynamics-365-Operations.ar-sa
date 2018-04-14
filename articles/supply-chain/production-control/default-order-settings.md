@@ -20,19 +20,18 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 06760d84cf5152f24e374cf3fb1bbea5564bbb42
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a><span data-ttu-id="f31d8-103">إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات</span><span class="sxs-lookup"><span data-stu-id="f31d8-103">Default order settings for dimensions and product variants</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="f31d8-104">تحدد إعدادات الأوامر الافتراضية في Microsoft Dynamics 365 for Finance and Operations الموقع والمستودع حيث تؤخذ الأصناف أو حيث يتم تخزينها، والحد الأدنى من الكميات وحدها الأقصى ومضاعفاتها والكميات القياسية التي سيتم استخدامها للتجارة أو إدارة المخزون وزمن وصول البضاعة وعلامة الإيقاف وأسلوب التعهد بالأمر‬.</span><span class="sxs-lookup"><span data-stu-id="f31d8-104">Default order settings in Microsoft Dynamics 365 for Finance and Operations define the site and warehouse where items will be sourced from or stored, the minimum, maximum, multiple and standard quantities that will be used for trading or inventory management, the lead times, the stop flag, and the order promising method.</span></span> <span data-ttu-id="f31d8-105">يتم استخدام إعدادات الأوامر الافتراضية عند إنشاء أوامر الشراء وأوامر المبيعات وأوامر التحويل ودفاتر يومية المخزون، وبواسطة التخطيط الرئيسي لإنشاء الأوامر المخططة.</span><span class="sxs-lookup"><span data-stu-id="f31d8-105">Default order settings are used when creating purchase orders, sales orders, transfer orders, inventory journals, and by master planning for generating planned orders.</span></span> <span data-ttu-id="f31d8-106">بإمكان إعدادات الأوامر الافتراضية أن تكون خاصة بالأصناف أو المواقع أو بمتغير المنتج أو بُعد المنتج.</span><span class="sxs-lookup"><span data-stu-id="f31d8-106">Default order settings can be item specific, site specific, product variant specific, or product dimension specific.</span></span>
 

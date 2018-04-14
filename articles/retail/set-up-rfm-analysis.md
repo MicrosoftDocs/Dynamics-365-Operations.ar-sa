@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="9c6d6-103">إعداد تحليل RFM</span><span class="sxs-lookup"><span data-stu-id="9c6d6-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="9c6d6-104">يشرح هذا الموضوع كيفية إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/17/2018
     - <span data-ttu-id="9c6d6-126">إذا كان من الضروري لكل قسم مجموع نقاط RFM أن يحتوي على عدد مساوٍ من العملاء، حدد خانة الاختيار **‏‫توزيع متعادل** .</span><span class="sxs-lookup"><span data-stu-id="9c6d6-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="9c6d6-127">حدد خانة الاختيار **‏‫إضافة درجات‬** لتجميع مجموع النقاط الثلاثة.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="9c6d6-128">على سبيل المثال، يعطي ذلك الأمر للعميل مجموع نقاط RFM من 13 بدلاً من 535.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="9c6d6-129">حدد خانة الاختيار **حفظ السجل** لطلب النظام بحفظ البيانات الإحصائية للعملاء بحيث يمكن استخدام البيانات لحساب مجموع نقاط RFM.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="9c6d6-130">في علامة التبويب السريعة **الحداثة**، قم بما يلي:</span><span class="sxs-lookup"><span data-stu-id="9c6d6-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="9c6d6-131">بالحقل **أقسام‬**، أدخل عدد الأقسام أو المجموعات التي سيتم استخدامها لحساب مجموع نقاط مدى قرب عمليات شراء العملاء.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="9c6d6-132">على سبيل المثال، إذا كان لديك 100 عميل، يعني قسم مكون من 5 عملاء أن هناك 20 عميلاً لكل مجموع نقاط.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="9c6d6-133">‏‫يحصل العملاء العشرون الذين أجروا عمليات شراء مؤخرًا على مجموع نقاط مكون من 5.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="9c6d6-134">ويحصل العملاء العشرون التاليون على مجموع نقاط مكون من 4، وهكذا.‬</span><span class="sxs-lookup"><span data-stu-id="9c6d6-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="9c6d6-135">إذا كان لديك 50 عميلاً، يحصل 10 عملاء منهم على مجموع نقاط مكون من 5 لمدى قرب عملية الشراء، ويحصل 10 آخرين على مجموع نقاط مكون من 4 لمدى قرب عملية الشراء، وهكذا.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="9c6d6-136">في الحقل **الأولوية‬**، حدد مقدار الوزن المُعطى لمعلمة مدى القرب فيما يتعلق بمعلمات أخرى عند حساب مجموع نقاط RFM لعميل.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="9c6d6-137">على سبيل المثال، قد تضع قيمة لمجموع نقاط مدى القرب أكبر من مجموع نقاط المبلغ النقدي.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="9c6d6-138">في الحقل **‏‫المضاعف‬**، أدخل القيمة التي تريد ضرب مجموع نقاط مدى القرب بها.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="9c6d6-139">إذا لم تقم بإدخال قيمة، لن يتم ضرب مجموع النقاط.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="9c6d6-140">في الحقل **الفترة**، حدد الفترة الزمنية التي يتم حساب مجموع نقاط مدى القرب بها.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="9c6d6-141">على سبيل المثال، حسب الأسبوع أو الشهر.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="9c6d6-142">في علامة التبويب السريعة **التكرار**، قم بما يلي:</span><span class="sxs-lookup"><span data-stu-id="9c6d6-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="9c6d6-143">بالحقل **أقسام‬**، أدخل عدد الأقسام أو المجموعات التي سيتم استخدامها لحساب مجموع نقاط تكرار عمليات شراء العملاء.‬</span><span class="sxs-lookup"><span data-stu-id="9c6d6-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="9c6d6-144">في الحقل **الأولوية‬**، حدد مقدار الوزن المُعطى لمعلمة التكرار فيما يتعلق بمعلمات أخرى عند حساب مجموع نقاط RFM لعميل.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="9c6d6-145">في الحقل **‏‫المضاعف‬**، أدخل القيمة التي تريد ضرب مجموع نقاط التكرار بها.‬</span><span class="sxs-lookup"><span data-stu-id="9c6d6-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="9c6d6-146">إذا لم تقم بإدخال قيمة، لن يتم ضرب مجموع النقاط.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="9c6d6-147">في علامة التبويب السريعة **‏‫مبلغ نقدي‬**، قم بما يلي:</span><span class="sxs-lookup"><span data-stu-id="9c6d6-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="9c6d6-148">بالحقل **أقسام‬**، أدخل عدد الأقسام أو المجموعات التي سيتم استخدامها لحساب مجموع نقاط المبلغ النقدي لعمليات شراء العملاء.‬</span><span class="sxs-lookup"><span data-stu-id="9c6d6-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="9c6d6-149">في الحقل **الأولوية‬**، حدد مقدار الوزن المُعطى لمعلمة المبلغ النقدي فيما يتعلق بمعلمات أخرى عند حساب مجموع نقاط RFM لعميل.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="9c6d6-150">في الحقل **‏‫المضاعف‬**، أدخل القيمة التي تريد ضرب مجموع نقاط المبلغ النقدي بها.‬‬</span><span class="sxs-lookup"><span data-stu-id="9c6d6-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="9c6d6-151">إذا لم تقم بإدخال قيمة، لن يتم ضرب مجموع النقاط.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="9c6d6-152">في الحقل **إجمالي/صافي‬** حدد ما إذا كان يجب حساب مجموع نقاط المبلغ النقدي للعميل باستخدام الإجمالي أو صافي مبلغ الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="9c6d6-153">إذا كان يجب طرح مبالغ مرتجعات العميل من حساب إجمالي الفاتورة للعميل، حدد خانة الاختيار **‏‫عائدات الخصم‬**.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="9c6d6-154">عرض نقاط RFM للعميل</span><span class="sxs-lookup"><span data-stu-id="9c6d6-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="9c6d6-155">استخدم هذا الإجراء لعرض نقاط RFM للعميل.</span><span class="sxs-lookup"><span data-stu-id="9c6d6-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

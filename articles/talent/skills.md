@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: edcb01c177a3e43cea7f0b7936a4129d27314016
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="694b2-104">محاذاة مهارات القوة العاملة مع احتياجات العمل</span><span class="sxs-lookup"><span data-stu-id="694b2-104">Align workforce skills with business needs</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="694b2-105">يمكنك تعقب المهارات التي يمتلكها العاملون أو مقدمو الطلبات، أو أشخاص جهات الاتصال للاضطلاع على أدوارهم بفعالية.</span><span class="sxs-lookup"><span data-stu-id="694b2-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="694b2-106">يمكنك أيضًا تحديد المهارات المطلوبة لمهمة معينة.</span><span class="sxs-lookup"><span data-stu-id="694b2-106">You can also specify the skills that are required for a specific job.</span></span>
 
@@ -55,8 +54,8 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="694b2-133">‏‫تتيح لك ملفات تعريف تعيين المهارات إمكانية البحث عن الموظفين أو المرشحين الحاليين ذوي المؤهلات التي تتوافق مباشرةً مع احتياجات العمل.</span><span class="sxs-lookup"><span data-stu-id="694b2-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="694b2-134">على سبيل المثال، يمكنك إنشاء ملف تعريف تعيين مهارات لمنصب شاغر في المؤسسة الخاصة بك.‬</span><span class="sxs-lookup"><span data-stu-id="694b2-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="694b2-135">وبإنشاء ملف تعريف لوظيفة معينة ونسخ المهارات، والتعليم، وشهادات من تلك الوظيفة إلى ملف التعريف، يمكنك بسرعة البحث عن العمال ومقدمي الطلبات وأشخاص جهات الاتصال الذين يلبون معيار واحد أو أكثر من المعايير التي تم إدخالها في ملف التعريف ويعرضون قائمة بالمرشحين الذين لديهم مهارات أكثر اتفاقًا مع المهارات المطلوبة للوظيفة.</span><span class="sxs-lookup"><span data-stu-id="694b2-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
 
-><span data-ttu-id="694b2-136">**ملاحظة** يمكن فقط عرض العاملين ومقدمي الطلبات وجهات الاتصال المدرجين في عمليات بحث تعيين المهارة في قائمة نتائج تعيين المهارة أو تضمينهم في ملف تعريف مهارة.</span><span class="sxs-lookup"><span data-stu-id="694b2-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="694b2-137">ولتضمين عامل أو مقدم طلب أو شخص جهة الاتصال في عمليات البحث عن تعيين المهارات، قم بتعيين تحديد **تضمين في تعيين المهارات** إلى "نعم" في الصفحات التالية:</span><span class="sxs-lookup"><span data-stu-id="694b2-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-
+> <span data-ttu-id="694b2-136">**ملاحظة** يمكن فقط عرض العاملين ومقدمي الطلبات وجهات الاتصال المدرجين في عمليات بحث تعيين المهارة في قائمة نتائج تعيين المهارة أو تضمينهم في ملف تعريف مهارة.</span><span class="sxs-lookup"><span data-stu-id="694b2-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="694b2-137">ولتضمين عامل أو مقدم طلب أو شخص جهة الاتصال في عمليات البحث عن تعيين المهارات، قم بتعيين تحديد **تضمين في تعيين المهارات** إلى "نعم" في الصفحات التالية:</span><span class="sxs-lookup"><span data-stu-id="694b2-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
+> 
 > + <span data-ttu-id="694b2-138">العامل</span><span class="sxs-lookup"><span data-stu-id="694b2-138">Worker</span></span>
 > + <span data-ttu-id="694b2-139">موظف</span><span class="sxs-lookup"><span data-stu-id="694b2-139">Employee</span></span>
 > + <span data-ttu-id="694b2-140">مقدم الطلب</span><span class="sxs-lookup"><span data-stu-id="694b2-140">Applicant</span></span>

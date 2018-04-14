@@ -18,17 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6587189fe2a366caebd0dbaf34487d578815bb94
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a><span data-ttu-id="a7d15-103">تكوين إعداد التقارير الإلكترونية لسحب البيانات إلى Power BI</span><span class="sxs-lookup"><span data-stu-id="a7d15-103">Configure Electronic reporting to pull data into Power BI</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a7d15-104">يشرح هذا الموضوع كيفية استخدام تكوين التقارير الإلكترونية لترتيب نقل البيانات من مثيل Finance and Operations إلى خدمات Power BI.</span><span class="sxs-lookup"><span data-stu-id="a7d15-104">This topic explains how you can use your Electronic reporting (ER) configuration to arrange the transfer of data from your instance of Finance and Operations to Power BI services.</span></span> <span data-ttu-id="a7d15-105">يستخدم هذا الموضوع، كمثال، حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي كبيانات عمل يجب نقلها.</span><span class="sxs-lookup"><span data-stu-id="a7d15-105">As an example, this topic uses Intrastat transactions as business data that must be transferred.</span></span> <span data-ttu-id="a7d15-106">تستخدم الرسوم المرئية في Power BI هذه البيانات لحركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لتقديم طريقة عرض لتحليل أنشطة الاستيراد/التصدير في الشركة على تقرير Power BI.</span><span class="sxs-lookup"><span data-stu-id="a7d15-106">The Power BI map visualization uses this Intrastat transaction data to present a view for analysis of company import/export activities on the Power BI report.</span></span>
 
@@ -118,9 +117,9 @@ ms.lasthandoff: 02/23/2018
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a><span data-ttu-id="a7d15-217">إنشاء تقرير Power BI باستخدام مجموعة البيانات الجديدة</span><span class="sxs-lookup"><span data-stu-id="a7d15-217">Create a Power BI report by using the new dataset</span></span>
 1. <span data-ttu-id="a7d15-218">انقر فوق مجموعة بيانات Power BI **تفاصيل الاستيراد والتصدير** التي قمت بإنشائها.</span><span class="sxs-lookup"><span data-stu-id="a7d15-218">Click the **Import and export details** Power BI dataset that you created.</span></span> 
 2. <span data-ttu-id="a7d15-219">قم بتكوين الرسوم المرئية.</span><span class="sxs-lookup"><span data-stu-id="a7d15-219">Configure the visualization.</span></span> <span data-ttu-id="a7d15-220">على سبيل المثال، حدد الرسم المرئي **خريطة معبأة**، ثم قم بتكوينه كما يلي:</span><span class="sxs-lookup"><span data-stu-id="a7d15-220">For example, select the **Filled map** visualization, and configure it as follows:</span></span>
- -   <span data-ttu-id="a7d15-221">قم بتعيين حقل مجموعة البيانات **CountryOrigin** إلى حقل **الموقع** للرسوم المرئية على الخريطة.</span><span class="sxs-lookup"><span data-stu-id="a7d15-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
- -   <span data-ttu-id="a7d15-222">قم بتعيين حقل مجموعة البيانات **المبلغ** إلى حقل **إشباع الألوان** للرسوم المرئية على الخريطة.</span><span class="sxs-lookup"><span data-stu-id="a7d15-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
- -   <span data-ttu-id="a7d15-223">أضف حقلي مجموعة البيانات **النشاط** و**السنة** إلى مجموعة حقول **عوامل التصفية** للرسوم المرئية على الخريطة.</span><span class="sxs-lookup"><span data-stu-id="a7d15-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
+   -   <span data-ttu-id="a7d15-221">قم بتعيين حقل مجموعة البيانات **CountryOrigin** إلى حقل **الموقع** للرسوم المرئية على الخريطة.</span><span class="sxs-lookup"><span data-stu-id="a7d15-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
+   -   <span data-ttu-id="a7d15-222">قم بتعيين حقل مجموعة البيانات **المبلغ** إلى حقل **إشباع الألوان** للرسوم المرئية على الخريطة.</span><span class="sxs-lookup"><span data-stu-id="a7d15-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
+   -   <span data-ttu-id="a7d15-223">أضف حقلي مجموعة البيانات **النشاط** و**السنة** إلى مجموعة حقول **عوامل التصفية** للرسوم المرئية على الخريطة.</span><span class="sxs-lookup"><span data-stu-id="a7d15-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
 
 3. <span data-ttu-id="a7d15-224">احفظ تقرير Power BI بصيغة **تقرير تفاصيل الاستيراد والتصدير**.</span><span class="sxs-lookup"><span data-stu-id="a7d15-224">Save the Power BI report as **Import and export details report**.</span></span> <span data-ttu-id="a7d15-225">[![‬‏‫تقرير تفاصيل الاستيراد والتصدير](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) لاحظ أن الخريطة تعرض فقط البلدان/المناطق المذكورة في ملف Excel (النمسا وسويسرا في هذا المثال).</span><span class="sxs-lookup"><span data-stu-id="a7d15-225">[![Import and export details report](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Note that the map shows the countries/regions that are mentioned in the Excel file (Austria and Switzerland in this example).</span></span> <span data-ttu-id="a7d15-226">يتم تلوين هذه البلدان/المناطق لإظهار نسبة المبالغ المفوترة لكل واحد منها.</span><span class="sxs-lookup"><span data-stu-id="a7d15-226">These countries/regions are colored to show the proportion of invoiced amounts for each.</span></span> 
 4. <span data-ttu-id="a7d15-227">قم بتحديث قائمة حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي.</span><span class="sxs-lookup"><span data-stu-id="a7d15-227">Update the list of Intrastat transactions.</span></span> <span data-ttu-id="a7d15-228">تُضاف حركة التصدير التي نشأت من إيطاليا.</span><span class="sxs-lookup"><span data-stu-id="a7d15-228">The export transaction that originated from Italy is added.</span></span> <span data-ttu-id="a7d15-229">[![قائمة حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span><span class="sxs-lookup"><span data-stu-id="a7d15-229">[![Intrastat transactions list](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span></span> 

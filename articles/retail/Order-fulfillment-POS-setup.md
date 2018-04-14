@@ -18,17 +18,17 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: ccff6533257379c0305f7414dd36e17d1c323c21
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cc6494ea8bbf7e80790e885bb56e914f2caebcba
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 
 # <a name="set-up-order-fulfillment-for-stores"></a><span data-ttu-id="f7204-103">إعداد تنفيذ أمر للمتاجر</span><span class="sxs-lookup"><span data-stu-id="f7204-103">Set up order fulfillment for stores</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a><span data-ttu-id="f7204-104">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="f7204-104">Overview</span></span>
 <span data-ttu-id="f7204-105">يرغب العديد من بائعي التجزئة في تحسين خاصية تنفيذ الأمر عن طريق تمكين المتاجر لملء الأوامر.</span><span class="sxs-lookup"><span data-stu-id="f7204-105">Many retailers would like to optimize order fulfillment by enabling stores to fill orders.</span></span> <span data-ttu-id="f7204-106">يمكن أن تساعد خاصية تنفيذ الأمر على مستوى المخزن في تسهيل سيناريوهات التكدس لمتجر محدد، أو قد تكون مطلوبة من وجهة لوجيستية في الحالات التي يكون للمخزن فيها سعة إضافية أو يقع من مسافة شحن أقرب للعميل.</span><span class="sxs-lookup"><span data-stu-id="f7204-106">Order fulfillment at the store level can help to ease overstock scenarios for a specific store, or may be needed from a logistical standpoint in cases where a store has extra capacity or is located within closer shipping distance to the customer.</span></span> <span data-ttu-id="f7204-107">لمعالجة هذه الحاجة، تتوافر عملية تنفيذ أمر موحدة في نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="f7204-107">To address this need, a unified order fulfillment operation is available at the point of sale.</span></span>

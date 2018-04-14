@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 07940b4eb0d6c0e455e79f437c8f3bbf5921612d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-project-timesheets"></a><span data-ttu-id="5588a-103">إدخال الجداول الزمنية للمشروع‬</span><span class="sxs-lookup"><span data-stu-id="5588a-103">Enter project timesheets</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5588a-104">يمكنك هذا الإجراء من إنشاء جدول زمني باستخدام نموذج جدول زمني فارغ.</span><span class="sxs-lookup"><span data-stu-id="5588a-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="5588a-105">ويمكن أن يستند الجدول الزمني الجديد على معلومات من جدول زمني سابق، أو من مشروع وتعيينات أنشطة في صفحة "‏‫المفضلة‬".</span><span class="sxs-lookup"><span data-stu-id="5588a-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favorites page.</span></span> <span data-ttu-id="5588a-106">وبشكل افتراضي، تعرض صفحة قائمة "كل الجداول الزمنية" كل جداولك الزمنية الخاصة بالفترة الحالية.</span><span class="sxs-lookup"><span data-stu-id="5588a-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="5588a-107">يمكنك استخدام القائمة المنسدلة لحقل "إظهار" في صفحة الجداول الزمنية لتصفية قائمة الجداول الزمنية حسب الفترة الزمنية أو المشروع، أو لعرض الجداول الزمنية التي تم إنشاؤها باسم العمال الآخرين.</span><span class="sxs-lookup"><span data-stu-id="5588a-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="5588a-108">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USSI.</span><span class="sxs-lookup"><span data-stu-id="5588a-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="5588a-109">لبدء هذا الإجراء، انتقل إلى إدارة المشاريع والمحاسبة > الجداول الزمنية > الجداول الزمنية الخاصة بي</span><span class="sxs-lookup"><span data-stu-id="5588a-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 

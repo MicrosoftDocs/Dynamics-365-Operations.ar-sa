@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 692a867eae15ac02f7042c69b9dde4f1fcbd0d54
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="schedule-kanban-jobs"></a><span data-ttu-id="951a0-103">جدولة وظائف كانبان</span><span class="sxs-lookup"><span data-stu-id="951a0-103">Schedule kanban jobs</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="951a0-104">يركز هذا الإجراء على جدولة وظائف كانبان للمعالجة لخلية عمل معينة.</span><span class="sxs-lookup"><span data-stu-id="951a0-104">This procedure focuses on scheduling process kanban jobs for a specific work cell.</span></span> <span data-ttu-id="951a0-105">يُعد الإجراء "إعداد وظيفة كانبان للمعالجة عندما لا تتوفر المواد" شرطًا أساسيًا لإنشاء هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="951a0-105">The procedure "Prepare a process kanban job when materials are not available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="951a0-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="951a0-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="951a0-107">هذه المهمة مخصصة للمشرف على صالة الإنتاج‬ ومخطط الإنتاج‬ اللذين يعملان مع كانبان.</span><span class="sxs-lookup"><span data-stu-id="951a0-107">This task is intended for the shop floor supervisor and production planner working with kanbans.</span></span>
 

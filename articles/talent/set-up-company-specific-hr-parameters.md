@@ -19,17 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 1ec4fec633b1c697193758cf9f0e80ff46098008
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e19c0eb8f28f16ba827d5218a96ee21c976aacb7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-company-specific-hr-parameters"></a><span data-ttu-id="7d586-104">إعداد معلمات الموارد البشرية الخاصة بالشركة</span><span class="sxs-lookup"><span data-stu-id="7d586-104">Set up company-specific HR parameters</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="7d586-105">تتم مشاركة إعدادات بعض محددات الموارد البشرية بين الشركات، بينما تكون إعدادات المحددات الأخرى خاصة بكل شركة.</span><span class="sxs-lookup"><span data-stu-id="7d586-105">The settings of some Human resources (HR) parameters are shared across companies, whereas the settings of other parameters are company-specific.</span></span> <span data-ttu-id="7d586-106">توضح هذه المقالة كيفية إعداد محددات الموارد البشرية الخاصة بكل شركة.</span><span class="sxs-lookup"><span data-stu-id="7d586-106">This article explains how to set up company-specific HR parameters.</span></span>
 

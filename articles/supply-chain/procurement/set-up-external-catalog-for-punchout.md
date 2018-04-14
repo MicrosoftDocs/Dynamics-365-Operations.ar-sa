@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fec3811b6c0e3f740e68618a403281628c5eb468
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a><span data-ttu-id="86f22-103">إعداد كتالوج خارجي للتدبير الإلكتروني للبطاقات المثقبة</span><span class="sxs-lookup"><span data-stu-id="86f22-103">Set up an external catalog for PunchOut eProcurement</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="86f22-104">باستخدام كتالوج خارجي، يمكنك أن تتأكد من أن معلومات المنتجات والأسعار التي تقوم فيما بعد بمعالجتها في Dynamics 365 for Finance and Operations لشهر يوليو 2017 هي معلومات دقيقة ومحدثة.</span><span class="sxs-lookup"><span data-stu-id="86f22-104">By using the external catalog, you can ensure that the product and price information that you subsequently process in Dynamics 365 for Finance and Operations July 2017 is accurate and up to date.</span></span> <span data-ttu-id="86f22-105">ويمكن عندئذٍ الموافقة على الطلب وتحويله إلى أمر شراء ويمكن تقدير أمر لدى المورّد.</span><span class="sxs-lookup"><span data-stu-id="86f22-105">The requisition can then be approved and converted to a purchase order and an order can be placed at the vendor.</span></span>
 

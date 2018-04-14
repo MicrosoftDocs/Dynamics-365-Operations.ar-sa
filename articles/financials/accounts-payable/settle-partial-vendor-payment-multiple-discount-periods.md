@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d88630a62cfdebf0daf19d3bb6af7fcc6e877876
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 605f681a21b769189770d85e4ec938b6708c01b1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a><span data-ttu-id="5f385-103">تسوية دفعة جزئية لمورد تحتوي على عدة فترات خصم</span><span class="sxs-lookup"><span data-stu-id="5f385-103">Settle a partial vendor payment that has multiple discount periods</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5f385-104">ترشدك هذه المقالة عبر سيناريو حيث يتم تسديد دفعات جزئية متعددة إلى مورّد يقدم خصومات نقدية متعددة.</span><span class="sxs-lookup"><span data-stu-id="5f385-104">This article walks you through a scenario where multiple partial payments are made to a vendor that offers multiple cash discounts.</span></span> 
 

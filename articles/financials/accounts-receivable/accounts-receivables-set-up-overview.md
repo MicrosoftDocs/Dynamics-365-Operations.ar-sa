@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 43c8d0db28fb0a845c4520b279f16d7c20c6da88
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a><span data-ttu-id="9bda8-103">تكوين الحسابات المدينة والائتمان والتحصيلات</span><span class="sxs-lookup"><span data-stu-id="9bda8-103">Configure Accounts receivables and Credit and collections</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9bda8-104">تكوين الحسابات المدينة وعمليات التحصيل والائتمان‬ لتعقب الفواتير والمدفوعات الواردة من العملاء.</span><span class="sxs-lookup"><span data-stu-id="9bda8-104">Configure Accounts receivable and Credit and Collections to track invoices and incoming payments from customers.</span></span>
 
@@ -107,7 +106,7 @@ ms.lasthandoff: 11/14/2017
 |                                                      | <span data-ttu-id="9bda8-251">معلومات NSF.</span><span class="sxs-lookup"><span data-stu-id="9bda8-251">NSF information.</span></span>                     | <span data-ttu-id="9bda8-252">قم بإعداد معلومات NSF في الحساب البنكي الذي سيتم استخدامه عند تمييز دفعة كحركة NSF في صفحة التحصيلات.</span><span class="sxs-lookup"><span data-stu-id="9bda8-252">Set up NSF information on the bank account that will be used when a payment is marked as an NSF transaction on the Collections page.</span></span>                                                                                                                                              |
 |                                                      | <span data-ttu-id="9bda8-253">معلومات مندوب المبيعات</span><span class="sxs-lookup"><span data-stu-id="9bda8-253">Salesperson information</span></span>              | <span data-ttu-id="9bda8-254">قم بإعداد عنوان البريد الإلكتروني لمندوبي المبيعات.</span><span class="sxs-lookup"><span data-stu-id="9bda8-254">Set up the email address for salespersons.</span></span> <span data-ttu-id="9bda8-255">ستظهر هذه العناوين في صفحة التوكيلات، ويمكنك استخدامها لإرسال البريد الإلكتروني إلى مندوب مبيعات من تلك الصفحة.</span><span class="sxs-lookup"><span data-stu-id="9bda8-255">These addresses will appear on the Collections page and you can use them to send email to a salesperson from that page.</span></span>                                                                                                                |
 
- 
+
 <span data-ttu-id="9bda8-256">لمزيد من المعلومات، راجع [عمليات التحصيل والائتمان في الحسابات المدينة](collections-credit-accounts-receivable.md).</span><span class="sxs-lookup"><span data-stu-id="9bda8-256">For more information, see [Credit and collections in Accounts receivable](collections-credit-accounts-receivable.md).</span></span>
 
 

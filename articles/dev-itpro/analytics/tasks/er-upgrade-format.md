@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cfc68c1d0810cbc296b35c09176dde2c948a50d0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a2c593b53b9cac9024f565458c6b7d0e19ecdde5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a><span data-ttu-id="339dc-103">ترقية التنسيق من خلال تبني إصدار أساسي جديد من ذلك التنسيق للتقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="339dc-103">Upgrade your format by adopting of new base version of that format for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="339dc-104">تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية الحفاظ على تكوين تنسيق التقارير الإلكترونية (ER).</span><span class="sxs-lookup"><span data-stu-id="339dc-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="339dc-105">يوضح هذا الإجراء كيف يمكن إنشاء إصدار مخصص لتنسيق استنادًا إلى التنسيق المستلم من موفر التكوين (CP).</span><span class="sxs-lookup"><span data-stu-id="339dc-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="339dc-106">وهو يوضح أيضًا كيفية اعتماد إصدار أساسي جديد لهذا التنسيق.</span><span class="sxs-lookup"><span data-stu-id="339dc-106">It also explains how to adopt a new, base version of that format.</span></span>
 

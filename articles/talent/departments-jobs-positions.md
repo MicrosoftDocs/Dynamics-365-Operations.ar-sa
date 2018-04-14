@@ -19,19 +19,18 @@ ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5799db0354e0e2bb766284ef2d87e8da9a956958
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6a2730fc8436d40db511216a3f4aa6e1a9317945
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a><span data-ttu-id="2ee05-104">تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب</span><span class="sxs-lookup"><span data-stu-id="2ee05-104">Organize your workforce using departments, jobs, and positions</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="2ee05-105">تُعد الأقسام والوظائف والمناصب العناصر التنظيمية التي يتم الاحتفاظ بها ضمن الموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="2ee05-105">Departments, jobs, and positions are organizational elements that are maintained within Human resources.</span></span> <span data-ttu-id="2ee05-106">يصف هذا الموضوع معلومات تصورية حول هذه العناصر.</span><span class="sxs-lookup"><span data-stu-id="2ee05-106">This topic describes conceptual information about these elements.</span></span> 
 
@@ -48,7 +47,7 @@ ms.lasthandoff: 02/07/2018
 |<span data-ttu-id="2ee05-129">**الموارد البشرية**</span><span class="sxs-lookup"><span data-stu-id="2ee05-129">**Human resources**</span></span>|<span data-ttu-id="2ee05-130">مدير الموارد البشرية (غرب)</span><span class="sxs-lookup"><span data-stu-id="2ee05-130">HR manager (West)</span></span>|<span data-ttu-id="2ee05-131">مدير الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="2ee05-131">HR manager</span></span>|
 |<span data-ttu-id="2ee05-132">**الموارد البشرية**</span><span class="sxs-lookup"><span data-stu-id="2ee05-132">**Human resources**</span></span>|<span data-ttu-id="2ee05-133">مدير الموارد البشرية (المركزي)</span><span class="sxs-lookup"><span data-stu-id="2ee05-133">HR manager (Central)</span></span>|<span data-ttu-id="2ee05-134">مدير الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="2ee05-134">HR manager</span></span>|
 
- 
+
  <a name="departments"></a><span data-ttu-id="2ee05-135">الأقسام</span><span class="sxs-lookup"><span data-stu-id="2ee05-135">Departments</span></span>
 ------------
 

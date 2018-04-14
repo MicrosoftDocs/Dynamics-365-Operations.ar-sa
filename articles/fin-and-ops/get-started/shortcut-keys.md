@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="5041d-103">اختصارات لوحة المفاتيح</span><span class="sxs-lookup"><span data-stu-id="5041d-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5041d-104">تنطبق مفاتيح الاختصار التالية عبر Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5041d-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="5041d-111">اختصارات الإجراء</span><span class="sxs-lookup"><span data-stu-id="5041d-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="5041d-112">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-112">**To do this**</span></span>                                    | <span data-ttu-id="5041d-113">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-134">عرض الاختصارات المتوفرة حاليًا</span><span class="sxs-lookup"><span data-stu-id="5041d-134">View currently available shortcuts</span></span>                | <span data-ttu-id="5041d-135">Alt+Shift+K</span><span class="sxs-lookup"><span data-stu-id="5041d-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="5041d-136">اختصارات منتقي التاريخ</span><span class="sxs-lookup"><span data-stu-id="5041d-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="5041d-137">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-137">**To do this**</span></span>                        | <span data-ttu-id="5041d-138">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-153">اختيار أبدًا (أو أقصى تاريخ)</span><span class="sxs-lookup"><span data-stu-id="5041d-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="5041d-154">ص</span><span class="sxs-lookup"><span data-stu-id="5041d-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="5041d-155">اختصارات مربع الحقائق</span><span class="sxs-lookup"><span data-stu-id="5041d-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="5041d-156">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-156">**To do this**</span></span>                                                                  | <span data-ttu-id="5041d-157">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-168">طي مربع الحقائق الحالي</span><span class="sxs-lookup"><span data-stu-id="5041d-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="5041d-169">Alt+0</span><span class="sxs-lookup"><span data-stu-id="5041d-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="5041d-170">اختصارات التصفية</span><span class="sxs-lookup"><span data-stu-id="5041d-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="5041d-171">**للقيام بذلك**</span><span class="sxs-lookup"><span data-stu-id="5041d-171">**To do this**</span></span>                     | <span data-ttu-id="5041d-172">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-181">فتح تصفية/فرز متقدم</span><span class="sxs-lookup"><span data-stu-id="5041d-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="5041d-182">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="5041d-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="5041d-183">اختصارات النموذج</span><span class="sxs-lookup"><span data-stu-id="5041d-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="5041d-184">**للقيام بذلك**</span><span class="sxs-lookup"><span data-stu-id="5041d-184">**To do this**</span></span>                                      | <span data-ttu-id="5041d-185">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-216">إغلاق النموذج مع تجاهل أي تغييرات غير محفوظة</span><span class="sxs-lookup"><span data-stu-id="5041d-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="5041d-217">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="5041d-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="5041d-218">اختصارات التنقل في النموذج</span><span class="sxs-lookup"><span data-stu-id="5041d-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="5041d-219">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-219">**To do this**</span></span>                                      | <span data-ttu-id="5041d-220">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-245">التبديل إلى طريقة عرض السطور</span><span class="sxs-lookup"><span data-stu-id="5041d-245">Switch to lines view</span></span>                                | <span data-ttu-id="5041d-246">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="5041d-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="5041d-247">اختصارات الشبكة</span><span class="sxs-lookup"><span data-stu-id="5041d-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="5041d-248">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="5041d-249">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-283">فتح تصفية الشبكة للعمود الحالي (الذي يركز في صف الرأس)</span><span class="sxs-lookup"><span data-stu-id="5041d-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="5041d-284">إدخال</span><span class="sxs-lookup"><span data-stu-id="5041d-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="5041d-285">اختصارات التحكم في الإدخال</span><span class="sxs-lookup"><span data-stu-id="5041d-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="5041d-286">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-286">**To do this**</span></span>                                                               | <span data-ttu-id="5041d-287">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-306">تبديل التركيز بين ناحية النص وشريط الأدوات في عنصر تحكم محرر HTML</span><span class="sxs-lookup"><span data-stu-id="5041d-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="5041d-307">F6</span><span class="sxs-lookup"><span data-stu-id="5041d-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="5041d-308">اختصارات المراسلة</span><span class="sxs-lookup"><span data-stu-id="5041d-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="5041d-309">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-309">**To do this**</span></span>           | <span data-ttu-id="5041d-310">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-313">الانتقال إلى شريط الرسائل</span><span class="sxs-lookup"><span data-stu-id="5041d-313">Go to the Message Bar</span></span>    | <span data-ttu-id="5041d-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="5041d-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="5041d-315">اختصارات التنقل</span><span class="sxs-lookup"><span data-stu-id="5041d-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="5041d-316">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-316">**To do this**</span></span>                                                                | <span data-ttu-id="5041d-317">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-348">الانتقال إلى جزء مربع حقائق (وقد يشمل ذلك فتحه)</span><span class="sxs-lookup"><span data-stu-id="5041d-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="5041d-349">Alt+M,B أو Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="5041d-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="5041d-350">اختصارات التخصيص</span><span class="sxs-lookup"><span data-stu-id="5041d-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="5041d-351">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="5041d-352">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="5041d-397">الخروج من وضع التخصيص (عند العمل في وضع التخصيص)</span><span class="sxs-lookup"><span data-stu-id="5041d-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="5041d-398">Esc</span><span class="sxs-lookup"><span data-stu-id="5041d-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="5041d-399">اختصارات الإدخال المقسمة</span><span class="sxs-lookup"><span data-stu-id="5041d-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="5041d-400">**للقيام بهذا الإجراء**</span><span class="sxs-lookup"><span data-stu-id="5041d-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="5041d-401">**ضغط**</span><span class="sxs-lookup"><span data-stu-id="5041d-401">**Press**</span></span>                        |

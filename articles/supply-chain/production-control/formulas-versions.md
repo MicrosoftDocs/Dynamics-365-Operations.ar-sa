@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cb9d1389dc2b1d71b9b18f755bbddc8e799f7ef
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 27097eccd3d3c2db03b62b27d793c3410afe276b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formulas-and-formula-versions"></a><span data-ttu-id="77142-105">التركيبات وإصدارتها</span><span class="sxs-lookup"><span data-stu-id="77142-105">Formulas and formula versions</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="77142-106">تحدد التركيبة المواد والمكونات ونتائج عملية معينة في عملية التصنيع.</span><span class="sxs-lookup"><span data-stu-id="77142-106">A formula defines the materials, ingredients, and outcomes of a specific process in process manufacturing.</span></span> <span data-ttu-id="77142-107">تحدد التركيبة، جنبًا إلى جنب مع المسار المطابق، العملية بكاملها في عملية التصنيع.</span><span class="sxs-lookup"><span data-stu-id="77142-107">Together with the corresponding route, the formula defines the whole process in process manufacturing.</span></span> <span data-ttu-id="77142-108">يتم استخدام التركيبات لتخطيط وإنتاج المنتجات في عملية التصنيع.</span><span class="sxs-lookup"><span data-stu-id="77142-108">Formulas are used to plan and produce products in process manufacturing.</span></span>
 

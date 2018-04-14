@@ -20,17 +20,16 @@ ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 9c96ac705d03cbeb495e4859b3b132a1d1c571ed
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c094bfa07275c14ba63cae5404156ce72c52d0b5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a><span data-ttu-id="2349f-104">تحديد المجموعة المثالية للخصومات المتداخلة</span><span class="sxs-lookup"><span data-stu-id="2349f-104">Determine the optimal combination of overlapping discounts</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="2349f-105">عندما تتداخل الخصومات، يجب عليك تحديد مجموعة الخصومات المتداخلة التي ستنتج أقل إجمالي حركة أو أعلى إجمالي خصم.</span><span class="sxs-lookup"><span data-stu-id="2349f-105">When discounts overlap, you must determine the combination of overlapping discounts that will produce the lowest transaction total or the highest total discount.</span></span> <span data-ttu-id="2349f-106">عندما يتغير مبلغ الخصم وفقًا لسعر المنتجات المشتراة، كما في حالة خصم البيع بالتجزئة العام "اشترِ قطعة واحصل على خصم من 1 X بالمئة" (BOGO)، تصبح هذه العملية مشكلة تحسين توافقي.</span><span class="sxs-lookup"><span data-stu-id="2349f-106">When the discount amount varies according to the price of the products that are purchased, such as in the common “Buy 1, get 1 X percent off” (BOGO) retail discount, this process becomes an issue of combinatorial optimization.</span></span>
 

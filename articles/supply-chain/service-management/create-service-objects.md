@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: 406198196a3da2583002b747f177fcc44c4fdba1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8c425fc66ef8ca761d734c403d36605cc172cee3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-service-objects"></a><span data-ttu-id="40c31-103">إنشاء كائنات خدمة</span><span class="sxs-lookup"><span data-stu-id="40c31-103">Create service objects</span></span>  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
    
 <span data-ttu-id="40c31-104">كائنات الخدمة هي منتجات العميل وأصوله التي يمكن تنفيذ خدمة لها.</span><span class="sxs-lookup"><span data-stu-id="40c31-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> 
 

@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="62cc3-103">مصطلحات محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="62cc3-103">Cost accounting terminology</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="62cc3-104">يعرّف هذا الموضوع المصطلحات الأساسية المستخدمة في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="62cc3-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  <span data-ttu-id="62cc3-241">الجمع</span><span class="sxs-lookup"><span data-stu-id="62cc3-241">Addition</span></span> |
 |  <span data-ttu-id="62cc3-242">-</span><span class="sxs-lookup"><span data-stu-id="62cc3-242">–</span></span> |  <span data-ttu-id="62cc3-243">الطرح</span><span class="sxs-lookup"><span data-stu-id="62cc3-243">Subtraction</span></span> |
 | *  | <span data-ttu-id="62cc3-244">الضرب</span><span class="sxs-lookup"><span data-stu-id="62cc3-244">Multiplication</span></span>  |
-    
+
 <span data-ttu-id="62cc3-245">العبارات التقليدية IF غير مدعومة.</span><span class="sxs-lookup"><span data-stu-id="62cc3-245">Traditional IF statements are not supported.</span></span> <span data-ttu-id="62cc3-246">ومع ذلك، يمكنك إنشاء العبارات والتحقق مما إذا كانت صحيحة.</span><span class="sxs-lookup"><span data-stu-id="62cc3-246">However, you can create statements and validate whether they are true.</span></span>
 
 |  <span data-ttu-id="62cc3-247">**التحقق من صحة كشف الحساب**</span><span class="sxs-lookup"><span data-stu-id="62cc3-247">**Statement  Validation**</span></span> | <span data-ttu-id="62cc3-248">**النتيجة**</span><span class="sxs-lookup"><span data-stu-id="62cc3-248">**Result**</span></span>  |
 |---|---|
 |  <span data-ttu-id="62cc3-249">a > b</span><span class="sxs-lookup"><span data-stu-id="62cc3-249">a > b</span></span>| <span data-ttu-id="62cc3-250">صحيح</span><span class="sxs-lookup"><span data-stu-id="62cc3-250">True</span></span>  |
 |  <span data-ttu-id="62cc3-251">a > b</span><span class="sxs-lookup"><span data-stu-id="62cc3-251">a > b</span></span> |  <span data-ttu-id="62cc3-252">خطأ</span><span class="sxs-lookup"><span data-stu-id="62cc3-252">False</span></span> |
-    
+
 <span data-ttu-id="62cc3-253">**تكلفة المصاريف الإضافية**</span><span class="sxs-lookup"><span data-stu-id="62cc3-253">**Overhead cost**</span></span>
 
 <span data-ttu-id="62cc3-254">تشير تكاليف المصاريف الإضافية إلى النفقات الجارية لتشغيل شركة.</span><span class="sxs-lookup"><span data-stu-id="62cc3-254">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="62cc3-255">إنها التكاليف التي لا يمكن ربطها مباشرة بأنشطة أعمال معينة.</span><span class="sxs-lookup"><span data-stu-id="62cc3-255">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="62cc3-256">فيما يلي بعض الأمثلة على تكاليف المصاريف الإضافية:</span><span class="sxs-lookup"><span data-stu-id="62cc3-256">Here are some examples of overhead costs:</span></span>

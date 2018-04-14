@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 5bcd02e08a4ce5b601615b39bf95362cf92d3fec
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93e8f97dbd3f60be72793c04eb729623321016f8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-alerts"></a><span data-ttu-id="8f41a-103">إنشاء تنبيهات</span><span class="sxs-lookup"><span data-stu-id="8f41a-103">Create alerts</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a><span data-ttu-id="8f41a-104">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="8f41a-104">Getting started</span></span>
 <span data-ttu-id="8f41a-105">قبل إعداد قاعدة تنبيه، قرر متى وفي أي مواقف تحتاج فيها إلى تلقي التنبيهات.</span><span class="sxs-lookup"><span data-stu-id="8f41a-105">Before you set up an alert rule, decide when or in what situations you want to receive alerts.</span></span> <span data-ttu-id="8f41a-106">عندما تعرف الحدث الذي تريد إعلامك به، في Microsoft Dynamics 365 for Finance and Operations، ابحث عن الصحة التي توجد فيها البيانات التي تؤدي إلى ظهور هذا الحدث.</span><span class="sxs-lookup"><span data-stu-id="8f41a-106">When you know which event you want to be notified about, in Microsoft Dynamics 365 for Finance and Operations find the page where the data that causes that event appears.</span></span> <span data-ttu-id="8f41a-107">يمكن أن يكون الحدث تاريخًا يتم بلوغه أو تغييرًا محددًا يحدث.</span><span class="sxs-lookup"><span data-stu-id="8f41a-107">The event can be a date that arrives or a specific change that occurs.</span></span> <span data-ttu-id="8f41a-108">لذلك، يجب البحث عن الصفحة التي يتم فيها تحديد التاريخ، أو الحقل الذي تظهر فيها هذه التغييرات أو السجل الجديد الذي تم إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="8f41a-108">Therefore, you must find the page where the date is specified, or where the field that changes or the new record that is created appears.</span></span> <span data-ttu-id="8f41a-109">بعد أن تتوفر لديك هذه المعلومات، يمكنك إنشاء قاعدة التنبيه.</span><span class="sxs-lookup"><span data-stu-id="8f41a-109">After you have this information, you can create the alert rule.</span></span>

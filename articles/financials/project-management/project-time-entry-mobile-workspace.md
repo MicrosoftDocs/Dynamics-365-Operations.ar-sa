@@ -19,16 +19,16 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eb1d4a85c0e522d05c8566ce491ea946a656b35e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-time-entry-mobile-workspace"></a><span data-ttu-id="7ae9e-104">مساحة عمل محمولة لإدخال وقت المشروع</span><span class="sxs-lookup"><span data-stu-id="7ae9e-104">Project time entry mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7ae9e-105">يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **إدخال وقت المشروع**.</span><span class="sxs-lookup"><span data-stu-id="7ae9e-105">This topic provides information about the **Project time entry** mobile workspace.</span></span> <span data-ttu-id="7ae9e-106">تسمح مساحة العمل هذه للمستخدمين بإدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازهم المحمول.</span><span class="sxs-lookup"><span data-stu-id="7ae9e-106">This workspace lets users enter and save time against a project by using their mobile device.</span></span>
 

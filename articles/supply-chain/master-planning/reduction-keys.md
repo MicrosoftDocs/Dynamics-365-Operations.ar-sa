@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 506ca3aac7ad271ca7472f3b74627e94d97a74ee
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ca65d3c12abd64bef23954b45f73af1bf62f9f3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reduction-keys"></a><span data-ttu-id="f84eb-105">مفاتيح الخفض</span><span class="sxs-lookup"><span data-stu-id="f84eb-105">Reduction keys</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f84eb-106">توفر هذه المقالات أمثلة تعرض كيفية إعداد طريقة الخفض.</span><span class="sxs-lookup"><span data-stu-id="f84eb-106">This articles provides examples that show how to set up a reduction key.</span></span> <span data-ttu-id="f84eb-107">وهي تتضمن معلومات حول مختلف إعدادات طريقة الخفض ونتائج كل إعداد.</span><span class="sxs-lookup"><span data-stu-id="f84eb-107">It includes information about the various reduction key settings and the results of each.</span></span> <span data-ttu-id="f84eb-108">يمكنك استخدام طريقة الخفض لتعريف كيفية خفض متطلبات التنبؤ.</span><span class="sxs-lookup"><span data-stu-id="f84eb-108">You can use a reduction key to define how to reduce forecast requirements.</span></span>
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="f84eb-110">يوضح هذا المثال إلى أي مدى تقلل طريقة خفض من متطلبات التنبؤ بالطلب وفقًا للنسب المئوية والفترات الزمنية التي تم تحديدها باستخدام طريقة الخفض.</span><span class="sxs-lookup"><span data-stu-id="f84eb-110">This example shows how a reduction key reduces demand forecast requirements according to the percentages and periods that are defined by the reduction key.</span></span>
 
-1.  <span data-ttu-id="f84eb-111">في صفحة **طرق الخفض**، قم بإعداد البنود التالية.</span><span class="sxs-lookup"><span data-stu-id="f84eb-111">On the **Reduction keys** page, set up the following lines.</span></span>
-    | <span data-ttu-id="f84eb-112">الباقي</span><span class="sxs-lookup"><span data-stu-id="f84eb-112">Change</span></span> | <span data-ttu-id="f84eb-113">الوحدة</span><span class="sxs-lookup"><span data-stu-id="f84eb-113">Unit</span></span>  | <span data-ttu-id="f84eb-114">النسبة</span><span class="sxs-lookup"><span data-stu-id="f84eb-114">Percent</span></span> |
-    |--------|-------|---------|
-    | <span data-ttu-id="f84eb-115">1</span><span class="sxs-lookup"><span data-stu-id="f84eb-115">1</span></span>      | <span data-ttu-id="f84eb-116">شهر</span><span class="sxs-lookup"><span data-stu-id="f84eb-116">Month</span></span> | <span data-ttu-id="f84eb-117">100</span><span class="sxs-lookup"><span data-stu-id="f84eb-117">100</span></span>     |
-    | <span data-ttu-id="f84eb-118">2</span><span class="sxs-lookup"><span data-stu-id="f84eb-118">2</span></span>      | <span data-ttu-id="f84eb-119">شهر</span><span class="sxs-lookup"><span data-stu-id="f84eb-119">Month</span></span> | <span data-ttu-id="f84eb-120">75</span><span class="sxs-lookup"><span data-stu-id="f84eb-120">75</span></span>      |
-    | <span data-ttu-id="f84eb-121">3</span><span class="sxs-lookup"><span data-stu-id="f84eb-121">3</span></span>      | <span data-ttu-id="f84eb-122">شهر</span><span class="sxs-lookup"><span data-stu-id="f84eb-122">Month</span></span> | <span data-ttu-id="f84eb-123">50</span><span class="sxs-lookup"><span data-stu-id="f84eb-123">50</span></span>      |
-    | <span data-ttu-id="f84eb-124">4</span><span class="sxs-lookup"><span data-stu-id="f84eb-124">4</span></span>      | <span data-ttu-id="f84eb-125">شهر</span><span class="sxs-lookup"><span data-stu-id="f84eb-125">Month</span></span> | <span data-ttu-id="f84eb-126">25</span><span class="sxs-lookup"><span data-stu-id="f84eb-126">25</span></span>      |
+1. <span data-ttu-id="f84eb-111">في صفحة **طرق الخفض**، قم بإعداد البنود التالية.</span><span class="sxs-lookup"><span data-stu-id="f84eb-111">On the **Reduction keys** page, set up the following lines.</span></span>
 
-2.  <span data-ttu-id="f84eb-127">ربط طريقة الخفض بمجموعة تغطية الصنف.</span><span class="sxs-lookup"><span data-stu-id="f84eb-127">Link the reduction key to the item's coverage group.</span></span>
-3.  <span data-ttu-id="f84eb-128">في صفحة **الخطط الرئيسية** ، في حقل **قاعدة الخفض** حدد **النسبة المئوية - طريقة الخفض**.</span><span class="sxs-lookup"><span data-stu-id="f84eb-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
-4.  <span data-ttu-id="f84eb-129">نشاء تنبؤ بطلب بمقدار 1,000 قطعة لكل شهر.</span><span class="sxs-lookup"><span data-stu-id="f84eb-129">Create a demand forecast of 1,000 pieces per month.</span></span>
+   | <span data-ttu-id="f84eb-112">الباقي</span><span class="sxs-lookup"><span data-stu-id="f84eb-112">Change</span></span> | <span data-ttu-id="f84eb-113">الوحدة</span><span class="sxs-lookup"><span data-stu-id="f84eb-113">Unit</span></span>  | <span data-ttu-id="f84eb-114">النسبة</span><span class="sxs-lookup"><span data-stu-id="f84eb-114">Percent</span></span> |
+   |--------|-------|---------|
+   |   <span data-ttu-id="f84eb-115">1</span><span class="sxs-lookup"><span data-stu-id="f84eb-115">1</span></span>    | <span data-ttu-id="f84eb-116">شهر</span><span class="sxs-lookup"><span data-stu-id="f84eb-116">Month</span></span> |   <span data-ttu-id="f84eb-117">100</span><span class="sxs-lookup"><span data-stu-id="f84eb-117">100</span></span>   |
+   |   <span data-ttu-id="f84eb-118">2</span><span class="sxs-lookup"><span data-stu-id="f84eb-118">2</span></span>    | <span data-ttu-id="f84eb-119">شهر</span><span class="sxs-lookup"><span data-stu-id="f84eb-119">Month</span></span> |   <span data-ttu-id="f84eb-120">75</span><span class="sxs-lookup"><span data-stu-id="f84eb-120">75</span></span>    |
+   |   <span data-ttu-id="f84eb-121">3</span><span class="sxs-lookup"><span data-stu-id="f84eb-121">3</span></span>    | <span data-ttu-id="f84eb-122">شهر</span><span class="sxs-lookup"><span data-stu-id="f84eb-122">Month</span></span> |   <span data-ttu-id="f84eb-123">50</span><span class="sxs-lookup"><span data-stu-id="f84eb-123">50</span></span>    |
+   |   <span data-ttu-id="f84eb-124">4</span><span class="sxs-lookup"><span data-stu-id="f84eb-124">4</span></span>    | <span data-ttu-id="f84eb-125">شهر</span><span class="sxs-lookup"><span data-stu-id="f84eb-125">Month</span></span> |   <span data-ttu-id="f84eb-126">25</span><span class="sxs-lookup"><span data-stu-id="f84eb-126">25</span></span>    |
+
+
+2. <span data-ttu-id="f84eb-127">ربط طريقة الخفض بمجموعة تغطية الصنف.</span><span class="sxs-lookup"><span data-stu-id="f84eb-127">Link the reduction key to the item's coverage group.</span></span>
+3. <span data-ttu-id="f84eb-128">في صفحة **الخطط الرئيسية** ، في حقل **قاعدة الخفض** حدد **النسبة المئوية - طريقة الخفض**.</span><span class="sxs-lookup"><span data-stu-id="f84eb-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
+4. <span data-ttu-id="f84eb-129">نشاء تنبؤ بطلب بمقدار 1,000 قطعة لكل شهر.</span><span class="sxs-lookup"><span data-stu-id="f84eb-129">Create a demand forecast of 1,000 pieces per month.</span></span>
 
 <span data-ttu-id="f84eb-130">إذا قمت بتشغيل جدولة التنبؤ في 1 يناير، يتم استهلاك متطلبات التنبؤ بالطلب وفقًا للنسب المئوية التي تقوم بإعدادها في صفحة **طرق الخفض**.</span><span class="sxs-lookup"><span data-stu-id="f84eb-130">If you run forecast scheduling on January 1, the demand forecast requirements are consumed according to the percentages that you set up on the **Reduction keys** page.</span></span> <span data-ttu-id="f84eb-131">يتم تحويل كميات المتطلبات التالية إلى الخطة الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="f84eb-131">The following requirement quantities are transferred to the master plan.</span></span>
 
@@ -88,20 +89,21 @@ ms.lasthandoff: 11/03/2017
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a><span data-ttu-id="f84eb-171">مثال 3: الحركات - قاعدة خفض التنبؤ بالفترة الديناميكية</span><span class="sxs-lookup"><span data-stu-id="f84eb-171">Example 3: Transactions  dynamic period forecast reduction principle</span></span>
 <span data-ttu-id="f84eb-172">في معظم الحالات، يتم إعداد الأنظمة بحيث تقلل الحركات من التنبؤ بالطلب خلال فترات تنبؤ محددة: الأسابيع، والشهور، وهكذا.</span><span class="sxs-lookup"><span data-stu-id="f84eb-172">In most cases, systems are set up so that transactions reduce demand forecast within specific forecast periods: weeks, months, and so on.</span></span> <span data-ttu-id="f84eb-173">ويتم تحديد هذه الفترات في طريقة الخفض.</span><span class="sxs-lookup"><span data-stu-id="f84eb-173">These periods are defined in the reduction key.</span></span> <span data-ttu-id="f84eb-174">ومع ذلك، قد*يعني* الوقت بين بندي التنؤ بالطلب فترة كذلك.</span><span class="sxs-lookup"><span data-stu-id="f84eb-174">However, the time between two demand forecast lines can also *imply* a period.</span></span>
 
-1.  <span data-ttu-id="f84eb-175">إنشاء طلب تنبؤ للتواريخ والكميات التالية.</span><span class="sxs-lookup"><span data-stu-id="f84eb-175">Create a demand forecast for the following dates and quantities.</span></span>
-    | <span data-ttu-id="f84eb-176">التاريخ</span><span class="sxs-lookup"><span data-stu-id="f84eb-176">Date</span></span>       | <span data-ttu-id="f84eb-177">التنبؤ بالطلب</span><span class="sxs-lookup"><span data-stu-id="f84eb-177">Demand forecast</span></span> |
-    |------------|-----------------|
-    | <span data-ttu-id="f84eb-178">1 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-178">January 1</span></span>  | <span data-ttu-id="f84eb-179">1,000</span><span class="sxs-lookup"><span data-stu-id="f84eb-179">1,000</span></span>           |
-    | <span data-ttu-id="f84eb-180">5 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-180">January 5</span></span>  | <span data-ttu-id="f84eb-181">500</span><span class="sxs-lookup"><span data-stu-id="f84eb-181">500</span></span>             |
-    | <span data-ttu-id="f84eb-182">12 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-182">January 12</span></span> | <span data-ttu-id="f84eb-183">1,000</span><span class="sxs-lookup"><span data-stu-id="f84eb-183">1,000</span></span>           |
+1. <span data-ttu-id="f84eb-175">إنشاء طلب تنبؤ للتواريخ والكميات التالية.</span><span class="sxs-lookup"><span data-stu-id="f84eb-175">Create a demand forecast for the following dates and quantities.</span></span>
 
-    <span data-ttu-id="f84eb-184">في هذا التنبؤ، لا توجد فترة زمنية واضحة بين تواريخ التنبؤ: هناك فترة أربعة أيام بين التاريخين الأول والثاني، وهناك فترة سبعة أيام بين التاريخ الثاني والثالث.</span><span class="sxs-lookup"><span data-stu-id="f84eb-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="f84eb-185">هذه النطاقات المختلفة هي الفترات الحيوية.</span><span class="sxs-lookup"><span data-stu-id="f84eb-185">These various spans are the dynamic periods.</span></span>
-2.  <span data-ttu-id="f84eb-186">قم بإنشاء بنود أمر مبيعات على النحو التالي.</span><span class="sxs-lookup"><span data-stu-id="f84eb-186">Create sales order lines as follows.</span></span>
-    | <span data-ttu-id="f84eb-187">التاريخ</span><span class="sxs-lookup"><span data-stu-id="f84eb-187">Date</span></span>                             | <span data-ttu-id="f84eb-188">كمية أمر المبيعات</span><span class="sxs-lookup"><span data-stu-id="f84eb-188">Sales order quantity</span></span> |
-    |----------------------------------|----------------------|
-    | <span data-ttu-id="f84eb-189">15 كانون الأول/ديسمبر في السنة السابقة</span><span class="sxs-lookup"><span data-stu-id="f84eb-189">December 15 in the previous year</span></span> | <span data-ttu-id="f84eb-190">500</span><span class="sxs-lookup"><span data-stu-id="f84eb-190">500</span></span>                  |
-    | <span data-ttu-id="f84eb-191">3 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-191">January 3</span></span>                        | <span data-ttu-id="f84eb-192">100</span><span class="sxs-lookup"><span data-stu-id="f84eb-192">100</span></span>                  |
-    | <span data-ttu-id="f84eb-193">10 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-193">January 10</span></span>                       | <span data-ttu-id="f84eb-194">200</span><span class="sxs-lookup"><span data-stu-id="f84eb-194">200</span></span>                  |
+   | <span data-ttu-id="f84eb-176">التاريخ</span><span class="sxs-lookup"><span data-stu-id="f84eb-176">Date</span></span>       | <span data-ttu-id="f84eb-177">التنبؤ بالطلب</span><span class="sxs-lookup"><span data-stu-id="f84eb-177">Demand forecast</span></span> |
+   |------------|-----------------|
+   | <span data-ttu-id="f84eb-178">1 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-178">January 1</span></span>  | <span data-ttu-id="f84eb-179">1,000</span><span class="sxs-lookup"><span data-stu-id="f84eb-179">1,000</span></span>           |
+   | <span data-ttu-id="f84eb-180">5 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-180">January 5</span></span>  | <span data-ttu-id="f84eb-181">500</span><span class="sxs-lookup"><span data-stu-id="f84eb-181">500</span></span>             |
+   | <span data-ttu-id="f84eb-182">12 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-182">January 12</span></span> | <span data-ttu-id="f84eb-183">1,000</span><span class="sxs-lookup"><span data-stu-id="f84eb-183">1,000</span></span>           |
+
+   <span data-ttu-id="f84eb-184">في هذا التنبؤ، لا توجد فترة زمنية واضحة بين تواريخ التنبؤ: هناك فترة أربعة أيام بين التاريخين الأول والثاني، وهناك فترة سبعة أيام بين التاريخ الثاني والثالث.</span><span class="sxs-lookup"><span data-stu-id="f84eb-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="f84eb-185">هذه النطاقات المختلفة هي الفترات الحيوية.</span><span class="sxs-lookup"><span data-stu-id="f84eb-185">These various spans are the dynamic periods.</span></span>
+2. <span data-ttu-id="f84eb-186">قم بإنشاء بنود أمر مبيعات على النحو التالي.</span><span class="sxs-lookup"><span data-stu-id="f84eb-186">Create sales order lines as follows.</span></span>
+   | <span data-ttu-id="f84eb-187">التاريخ</span><span class="sxs-lookup"><span data-stu-id="f84eb-187">Date</span></span>                             | <span data-ttu-id="f84eb-188">كمية أمر المبيعات</span><span class="sxs-lookup"><span data-stu-id="f84eb-188">Sales order quantity</span></span> |
+   |----------------------------------|----------------------|
+   | <span data-ttu-id="f84eb-189">15 كانون الأول/ديسمبر في السنة السابقة</span><span class="sxs-lookup"><span data-stu-id="f84eb-189">December 15 in the previous year</span></span> | <span data-ttu-id="f84eb-190">500</span><span class="sxs-lookup"><span data-stu-id="f84eb-190">500</span></span>                  |
+   | <span data-ttu-id="f84eb-191">3 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-191">January 3</span></span>                        | <span data-ttu-id="f84eb-192">100</span><span class="sxs-lookup"><span data-stu-id="f84eb-192">100</span></span>                  |
+   | <span data-ttu-id="f84eb-193">10 يناير</span><span class="sxs-lookup"><span data-stu-id="f84eb-193">January 10</span></span>                       | <span data-ttu-id="f84eb-194">200</span><span class="sxs-lookup"><span data-stu-id="f84eb-194">200</span></span>                  |
 
 <span data-ttu-id="f84eb-195">سيتم تقليل التنبؤ كما يلي:</span><span class="sxs-lookup"><span data-stu-id="f84eb-195">The forecast will be reduced as follows:</span></span>
 

@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c10fa829e5b696c951d041f11e3475d200b7751b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="execute-kanban-process-jobs"></a><span data-ttu-id="6ef62-103">تنفيذ وظائف عملية كانبان</span><span class="sxs-lookup"><span data-stu-id="6ef62-103">Execute kanban process jobs</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6ef62-104">يركز هذا الإجراء على تنفيذ وظائف عملية كانبان.</span><span class="sxs-lookup"><span data-stu-id="6ef62-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="6ef62-105">الوظيفة الأولى مكتملة بالكمية المتوقعة ولا تحتوي على أخطاء.</span><span class="sxs-lookup"><span data-stu-id="6ef62-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="6ef62-106">الوظيفة الثانية مكتملة مع وجود أخطاء.</span><span class="sxs-lookup"><span data-stu-id="6ef62-106">The second job is completed with errors.</span></span> <span data-ttu-id="6ef62-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="6ef62-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6ef62-108">هذا الإجراء مخصص لعامل تشغيل الجهاز.</span><span class="sxs-lookup"><span data-stu-id="6ef62-108">This procedure is intended for the machine operator.</span></span>
 

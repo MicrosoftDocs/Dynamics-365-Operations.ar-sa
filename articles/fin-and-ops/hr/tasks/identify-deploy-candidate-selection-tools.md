@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0d7fbc5f9b928a43870899836ead4f8adbc1a56
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="aa122-103">تحديد أدوات اختيار المرشحين ونشرها</span><span class="sxs-lookup"><span data-stu-id="aa122-103">Identify and deploy candidate selection tools</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aa122-104">قد يكون البحث عن مجموعة مؤهلة تضم مرشحين لملء الوظائف الشاغرة صعبًا، لا سيما عندما يتطلب أحد المراكز مجموعة فريدة من المهارات.</span><span class="sxs-lookup"><span data-stu-id="aa122-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="aa122-105">ومع ذلك، من المحتمل أن يكون قد تم توظيف مرشحين لديهم المهارات المطلوبة في مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="aa122-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="aa122-106">يمكنك البحث عن مجموعة مهارات معينة بين الموظفين الموجودين أو مقدمي الطلبات الجدد.</span><span class="sxs-lookup"><span data-stu-id="aa122-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="aa122-107">يسمح هذا الأمر لمسؤول التعيين بجمع مقدمي الطلبات الذين تقدموا بطلبات ملء منصب مفتوح الآن أو في السابق وفحص مقدمي الطلبات هؤلاء، أو بالبحث عن المرشحين المحتملين من مجموعة موظفيهم الموجودة.</span><span class="sxs-lookup"><span data-stu-id="aa122-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="aa122-108">استخدم تسجيل هذه المهام لمعرفة كيف تساعد وظيفة تعيين المهارة في العثور على الشخص المناسب لمنصب مفتوح.</span><span class="sxs-lookup"><span data-stu-id="aa122-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="aa122-109">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="aa122-109">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: cc3aae061038202ec4f314654d9149c31e2575bb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c0975cf36d87125b8184a7be8a6a8696eef2d3e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="post-an-expense-report"></a><span data-ttu-id="1e8a1-103">ترحيل تقرير مصروفات</span><span class="sxs-lookup"><span data-stu-id="1e8a1-103">Post an expense report</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1e8a1-104">بعد اعتماد تقرير المصروفات وتحويله إلى دفتر اليومية العام، ويمكن ترحيله إلى دفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="1e8a1-104">After an expense report has been approved and transferred to the general journal, it can be posted to the general ledger.</span></span> <span data-ttu-id="1e8a1-105">عندما تقوم بترحيل تقرير مصروفات، يتم تعريف المصروفات المؤهلة لاسترداد ضريبة القيمة المضافة (VAT).</span><span class="sxs-lookup"><span data-stu-id="1e8a1-105">When you post an expense report, expenses that are eligible for recovery of value-added tax (VAT) are identified.</span></span> <span data-ttu-id="1e8a1-106">يتم تعيين مهمة التحقق من صحة مدفوعات ضريبة القيمة المضافة واستردادها إلى الموظف المسؤول عن التحقق من صحة تقرير المصروفات.</span><span class="sxs-lookup"><span data-stu-id="1e8a1-106">The task of verifying and recovering VAT payments is assigned to the employee who is responsible for verifying the expense report.</span></span>
 

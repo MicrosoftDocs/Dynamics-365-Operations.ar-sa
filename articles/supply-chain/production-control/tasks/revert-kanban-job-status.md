@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d359232da5f3087b1e6baed182a20da09aeff7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2bcc83c0a422ed1480f2ed41460fd710bc51ff3d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="revert-kanban-job-status"></a><span data-ttu-id="2f909-103">عكس حالة وظيفة الكانبان</span><span class="sxs-lookup"><span data-stu-id="2f909-103">Revert kanban job status</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2f909-104">يركز هذا الإجراء على عكس حالة وظيفة كانبان غير الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="2f909-104">This procedure focuses on reverting an incorrect kanban job status.</span></span> <span data-ttu-id="2f909-105">ويكون هذا مفيدًا في حالة قيام مشغل الجهاز بتحديث الوظيفة الخاطئة، أو تعيين الحالة الخاطئة عن طريق الخطأ.</span><span class="sxs-lookup"><span data-stu-id="2f909-105">This is useful in case the machine operator updates the wrong job, or sets the wrong status by mistake.</span></span> <span data-ttu-id="2f909-106">وفي هذا الإجراء، يتم تسجيل وظيفة كانبان كما تم إعدادها عن طريق الخطأ، ويتم عكس الحالة.</span><span class="sxs-lookup"><span data-stu-id="2f909-106">In this procedure, a kanban job is registered as prepared by mistake, and the status is reverted.</span></span> <span data-ttu-id="2f909-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="2f909-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="2f909-108">ويُعد هذا الإجراء مخصصًا إلى مشرف المتجر أو عامل تشغيل الجهاز الذي يعمل في شركة lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="2f909-108">This procedure is intended for the shop supervisor or machine operator working in a lean manufacturing company.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="17a27-104">محتوى Power BI لأداء المبيعات والربحية</span><span class="sxs-lookup"><span data-stu-id="17a27-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="17a27-105">يوضح هذا الموضوع ما هو مدرج في محتوى Microsoft Power BI **أداء الربحية والمبيعات**.</span><span class="sxs-lookup"><span data-stu-id="17a27-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="17a27-106">فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى.</span><span class="sxs-lookup"><span data-stu-id="17a27-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="17a27-140">الإيراد حسب المنتج</span><span class="sxs-lookup"><span data-stu-id="17a27-140">Revenue by product</span></span>     | <span data-ttu-id="17a27-141">الإيراد وإجمالي الربح حسب فئة المبيعات</span><span class="sxs-lookup"><span data-stu-id="17a27-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="17a27-142">إجمالي \# عدد المنتجات</span><span class="sxs-lookup"><span data-stu-id="17a27-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="17a27-143">أفضل 10 منتجات حسب الإيراد</span><span class="sxs-lookup"><span data-stu-id="17a27-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="17a27-144">إجمالي عدد المنتجات النشطة والنسبة المئوية للإجمالي</span><span class="sxs-lookup"><span data-stu-id="17a27-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="17a27-145">إجمالي الإيراد حسب فئة المبيعات</span><span class="sxs-lookup"><span data-stu-id="17a27-145">Total revenue by sales category</span></span>            | <span data-ttu-id="17a27-146">رقم محاسبة المنتجات لـ 80% من الإيراد</span><span class="sxs-lookup"><span data-stu-id="17a27-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="17a27-147">الإيراد حسب الفترة\\*</span><span class="sxs-lookup"><span data-stu-id="17a27-147">Revenue by period\\*</span></span>    | <span data-ttu-id="17a27-148">الإيراد حسب الشهر</span><span class="sxs-lookup"><span data-stu-id="17a27-148">Revenue by month</span></span>                           | <span data-ttu-id="17a27-149">النسبة المئوية السنوية لنمو الإيراد</span><span class="sxs-lookup"><span data-stu-id="17a27-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="17a27-147">الإيراد حسب الفترة\*</span><span class="sxs-lookup"><span data-stu-id="17a27-147">Revenue by period\*</span></span>    | <span data-ttu-id="17a27-148">الإيراد حسب الشهر</span><span class="sxs-lookup"><span data-stu-id="17a27-148">Revenue by month</span></span>                           | <span data-ttu-id="17a27-149">النسبة المئوية السنوية لنمو الإيراد</span><span class="sxs-lookup"><span data-stu-id="17a27-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="17a27-150">نسبة فرق الإيراد اللاحق، النسبة المئوية السنوية</span><span class="sxs-lookup"><span data-stu-id="17a27-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="17a27-151">النسبة المئوية السنوية لنمو الإيراد %</span><span class="sxs-lookup"><span data-stu-id="17a27-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="17a27-152">إجمالي نسبة فرق المبيعات حسب منطقة العميل</span><span class="sxs-lookup"><span data-stu-id="17a27-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="17a27-153">الإيراد حسب الموقع</span><span class="sxs-lookup"><span data-stu-id="17a27-153">Revenue by location</span></span>    | <span data-ttu-id="17a27-154">إيرادات المبيعات حسب المدينة</span><span class="sxs-lookup"><span data-stu-id="17a27-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="17a27-162">أفضل 15 عميل حسب إجمالي هامش الربح</span><span class="sxs-lookup"><span data-stu-id="17a27-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="17a27-163">إجمالي الربح حسب الشهر، النسبة المئوية السنوية</span><span class="sxs-lookup"><span data-stu-id="17a27-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="17a27-164">\\* الإيراد في هذا العام وفي العام الماضي، والنمو حسب فئة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="17a27-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="17a27-164">\* الإيراد في هذا العام وفي العام الماضي، والنمو حسب فئة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="17a27-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="17a27-165">فهم نموذج البيانات والكيانات</span><span class="sxs-lookup"><span data-stu-id="17a27-165">Understanding the data model and entities</span></span>

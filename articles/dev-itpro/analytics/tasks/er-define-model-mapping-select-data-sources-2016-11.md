@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 512e24b5d0e20f00890e2a9abfe45b660a913913
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e04ff56da694b9c72a72b0a7f130433f34241e78
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a><span data-ttu-id="246a8-103">تحديد تعيين النموذج وتحديد مصادر البيانات للتقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="246a8-103">Define model mapping and select data sources for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="246a8-104">تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تحديد مصادر البيانات لنموذج بيانات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="246a8-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can select data sources for an Electronic reporting (ER) data model.</span></span> <span data-ttu-id="246a8-105">سيتم ربط مصادر البيانات بالمكونات الفردية لنموذج البيانات المحدد في مرحلة التصميم وسيتم نشر بيانات الأعمال إلى نموذج البيانات المشار إليه في مرحلة التشغيل.</span><span class="sxs-lookup"><span data-stu-id="246a8-105">The data sources will be bound to individual components of the selected data model at design time and populate business data to that data model at run-time.</span></span> <span data-ttu-id="246a8-106">في هذا المثال، ستحدد مصادر البيانات لنموذج بيانات موجود تم إنشاؤه لشركة عينة، .Litware, Inc. ولإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء نموذج بيانات جديد".</span><span class="sxs-lookup"><span data-stu-id="246a8-106">In this example, you will select data sources for an existing data model that has been created for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the “Create a new data model” procedure.</span></span>
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/29/2017
 5. <span data-ttu-id="246a8-120">في الحقل "الاسم"، اكتب "تعيين CT".</span><span class="sxs-lookup"><span data-stu-id="246a8-120">In the Name field, type 'CT mapping'.</span></span>
     * <span data-ttu-id="246a8-121">تعيين CT</span><span class="sxs-lookup"><span data-stu-id="246a8-121">CT mapping</span></span>  
 6. <span data-ttu-id="246a8-122">في حقل الوصف، اكتب "تعيين نموذج الدفع CT".</span><span class="sxs-lookup"><span data-stu-id="246a8-122">In the Description field, type 'Payment model mapping CT'.</span></span>
-    * <span data-ttu-id="246a8-123">***تعيين نموذج الدفع</span><span class="sxs-lookup"><span data-stu-id="246a8-123">Payment model mapping CT</span></span>  
+    * <span data-ttu-id="246a8-123">\*\*\*تعيين نموذج الدفع</span><span class="sxs-lookup"><span data-stu-id="246a8-123">Payment model mapping CT</span></span>  
 7. <span data-ttu-id="246a8-124">في حقل التعريف، اكتب 'CustomerCreditTransferInitiation'.</span><span class="sxs-lookup"><span data-stu-id="246a8-124">In the Definition field, type 'CustomerCreditTransferInitiation'.</span></span>
     * <span data-ttu-id="246a8-125">CustomerCreditTransferInitiation</span><span class="sxs-lookup"><span data-stu-id="246a8-125">CustomerCreditTransferInitiation</span></span>  
 8. <span data-ttu-id="246a8-126">حل تغييرات التعريف.</span><span class="sxs-lookup"><span data-stu-id="246a8-126">ResolveChanges the Definition.</span></span>
@@ -151,7 +151,7 @@ ms.lasthandoff: 09/29/2017
 66. <span data-ttu-id="246a8-229">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="246a8-229">Click Save.</span></span>
 67. <span data-ttu-id="246a8-230">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="246a8-230">Close the page.</span></span>
 68. <span data-ttu-id="246a8-231">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="246a8-231">Click OK.</span></span>
-    * <span data-ttu-id="246a8-232">أضف الحقل المحسوب ProcessingDateTime ***كمصدر بيانات لنموذج البيانات الحالي.</span><span class="sxs-lookup"><span data-stu-id="246a8-232">Add the ProcessingDateTime calculated field as a data source for the current data model.</span></span>  
+    * <span data-ttu-id="246a8-232">أضف الحقل المحسوب ProcessingDateTime \*\*\*كمصدر بيانات لنموذج البيانات الحالي.</span><span class="sxs-lookup"><span data-stu-id="246a8-232">Add the ProcessingDateTime calculated field as a data source for the current data model.</span></span>  
 69. <span data-ttu-id="246a8-233">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="246a8-233">Click Save.</span></span>
 70. <span data-ttu-id="246a8-234">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="246a8-234">Close the page.</span></span>
 71. <span data-ttu-id="246a8-235">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="246a8-235">Close the page.</span></span>

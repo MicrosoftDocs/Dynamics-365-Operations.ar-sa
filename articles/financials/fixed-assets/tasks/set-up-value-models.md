@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a29cae6cdcd03903359a3a468243c6ad03c7adc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2c72dc4aa235df27d9afd0bbb591aa570e160bb2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-books"></a><span data-ttu-id="9cfd7-103">إعداد الدفاتر</span><span class="sxs-lookup"><span data-stu-id="9cfd7-103">Set up books</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9cfd7-104">يوضح هذا الإجراء كيفية إنشاء دفتر أصول ثابتة جديد وإقرانه بمجموعة أصول ثابتة.</span><span class="sxs-lookup"><span data-stu-id="9cfd7-104">This procedure shows you to how create a new fixed asset book and associate it with a fixed asset group.</span></span> <span data-ttu-id="9cfd7-105">إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.</span><span class="sxs-lookup"><span data-stu-id="9cfd7-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 

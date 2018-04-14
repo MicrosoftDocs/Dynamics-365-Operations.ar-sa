@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: ddceadb797af98f85670df72a335b2714fe2f01e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 380be3831929124e2e290d3d01721aca90c4c7cb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="retail-statements"></a><span data-ttu-id="b2b54-103">كشوف حساب البيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="b2b54-103">Retail statements</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="b2b54-104">في Microsoft Dynamics 365 for Retail، يتم استخدام عملية ترحيل كشف الحساب لحساب الحركات التي تحدث في نقطة بيع المجموعة (POS) أو نقطة البيع الحديثة (MPOS).</span><span class="sxs-lookup"><span data-stu-id="b2b54-104">In Microsoft Dynamics 365 for Retail, the statement posting process is used to account for the transactions that occur in Cloud point of sale (POS) or Modern POS (MPOS).</span></span> <span data-ttu-id="b2b54-105">تستخدم عملية ترحيل كشف الحساب جدول توزيع لاستخراج مجموعة من حركات نقاط البيع إلى عميل المقر الرئيسي (HQ).</span><span class="sxs-lookup"><span data-stu-id="b2b54-105">The statement posting process uses the distribution schedule to pull a set of POS transactions into the headquarters (HQ) client.</span></span> <span data-ttu-id="b2b54-106">تُستخدم المعلمات التي تم تعريفها في الصفحتين **معلمات البيع بالتجزئة‬** و**المتاجر** لتحديد الحركات المستخرجة لكشوف حساب فردية.</span><span class="sxs-lookup"><span data-stu-id="b2b54-106">The parameters that are defined on the **Retail parameters** and **Stores** pages are used to select the transactions that are pulled into individual statements.</span></span>  
 

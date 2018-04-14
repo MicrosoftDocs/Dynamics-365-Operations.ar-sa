@@ -20,17 +20,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f68400bf10b6235decc7ac5cb82e58b369c7c0c7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 34039b298e8994e50a7c06ef034698e8c1264389
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="define-channel-specific-discounts"></a><span data-ttu-id="16c30-104">تحديد الخصومات الخاصة بالقناة</span><span class="sxs-lookup"><span data-stu-id="16c30-104">Define channel-specific discounts</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="16c30-105">يعيّن تجار البيع بالتجزئة في أغلب الأحيان خصومات مختلفة في قنوات مختلفة.</span><span class="sxs-lookup"><span data-stu-id="16c30-105">Retailers often set different discounts in different channels.</span></span> <span data-ttu-id="16c30-106">يستعرض هذا الموضوع المفاهيم التي تحتاج إلى معرفتها لإنشاء خصم لقناة محددة.</span><span class="sxs-lookup"><span data-stu-id="16c30-106">This topic reviews the concepts you need to know to create a discount for a specific channel.</span></span> 
 
@@ -61,7 +60,7 @@ ms.lasthandoff: 11/03/2017
 4.  <span data-ttu-id="16c30-133">بعد إنشاء خصم **العودة إلى المدرسة** الجديد، يجب عليك النقر فوق **مجموعات الأسعار** في الجزء العلوي من صفحة **الخصم**.</span><span class="sxs-lookup"><span data-stu-id="16c30-133">After you create the new **Back-to-School** discount, you need to click **Price groups** on the top of the **Discount** page.</span></span> <span data-ttu-id="16c30-134">سيتم فتح صفحة **مجموعات أسعار الخصومات**.</span><span class="sxs-lookup"><span data-stu-id="16c30-134">The **Discount price groups** page will open.</span></span> <span data-ttu-id="16c30-135">وبعد ذلك، انقر فوق **جديد**، وحدد مجموعة الأسعار **هيوستن-بي جي**.</span><span class="sxs-lookup"><span data-stu-id="16c30-135">Next, click **New** and select the **Houston-PG** price group.</span></span>
 5.  <span data-ttu-id="16c30-136">يمكنك الآن تمكين الخصم ودفعه للقناة.</span><span class="sxs-lookup"><span data-stu-id="16c30-136">Now you can enable the discount and push it to the channel.</span></span>
 
- 
+
 
 <a name="see-also"></a><span data-ttu-id="16c30-137">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="16c30-137">See also</span></span>
 --------

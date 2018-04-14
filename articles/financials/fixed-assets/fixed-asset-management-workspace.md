@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b07f9d971dc152e9168b9867e70c59481325284
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-asset-management-workspace"></a><span data-ttu-id="48eda-105">مساحة عمل إدارة الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="48eda-105">Fixed asset management workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="48eda-106">تعرض مساحة عمل **إدارة الأصول الثابتة** المعلومات المرتبطة بالأصول الثابتة التي تم إدخالها في النظام.</span><span class="sxs-lookup"><span data-stu-id="48eda-106">The **Fixed asset management** workspace shows information that is related to fixed assets that are entered in the system.</span></span> <span data-ttu-id="48eda-107">تتضمن مساحة العمل هذه طريقة عرض ملخصة وطريقة عرض التحليلات.‬</span><span class="sxs-lookup"><span data-stu-id="48eda-107">This workspace includes a summary view and an analytics view.</span></span> <span data-ttu-id="48eda-108">تعرض علامة التبويب **عملي‬** لوحات ملخصة وتفاصيل الأصول الثابتة، ومعلومات ذات صلة حول الأصول الثابتة في الشركة الحالية.</span><span class="sxs-lookup"><span data-stu-id="48eda-108">The **My work** tab shows summary tiles, fixed asset details, and related information about fixed assets in the current company.</span></span> <span data-ttu-id="48eda-109">يمكنك أيضًا إضافة التحليلات إلى قسم تحليلات Power BI مباشرة في مساحة العمل.</span><span class="sxs-lookup"><span data-stu-id="48eda-109">You can also add analytics to the Power BI analytics section directly in the workspace.</span></span> <span data-ttu-id="48eda-110">تستخدم علامة التبويب **التحليلات - جميع الشركات‬** قدرات Microsoft Power BI لعرض المرئيات المرتبطة بالأصول الثابتة في كافة الشركات.</span><span class="sxs-lookup"><span data-stu-id="48eda-110">The **Analytics – all companies** tab uses capabilities of Microsoft Power BI to show visuals that are related to fixed assets in all companies.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3aa8cd2c0be56875904158f041cf120c466d9e9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16e2eb864f092ef221374e3d26b2d04a93be4de4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="2a13d-103">تثبيت السعر محدود الفاقد من أوامر المبيعات</span><span class="sxs-lookup"><span data-stu-id="2a13d-103">Lean pegging from sales orders</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2a13d-104">يركز هذا الإجراء على التحقق من صحة شجرة تثبيت السعر من سطر المبيعات حيثما يتم إنتاج الصنف بحلول كانبان.</span><span class="sxs-lookup"><span data-stu-id="2a13d-104">This procedure focuses on validating the pegging tree from a sales line where the item is produced with kanbans.</span></span> <span data-ttu-id="2a13d-105">بعد التحقق من صحة شجرة تثبيت السعر، يتم تخطيط كافة وظائف كانبان.</span><span class="sxs-lookup"><span data-stu-id="2a13d-105">After validating the pegging tree, all the kanban jobs are planned.</span></span> <span data-ttu-id="2a13d-106">وهذا مفيد لسيناريوهات الطلبات حيث يحتاج متلقي الطلب إلى التأكد من أنه يمكن بدء الإنتاج على الفور.</span><span class="sxs-lookup"><span data-stu-id="2a13d-106">This is useful for order scenarios where the order taker needs to ensure that production can start right away.</span></span> <span data-ttu-id="2a13d-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="2a13d-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="2a13d-108">ويُعد هذا الإجراء مخصصًا لمتلقي الطلب المتقدم في شركة lean.</span><span class="sxs-lookup"><span data-stu-id="2a13d-108">This procedure is intended for the advanced order taker working in a lean company.</span></span>
 

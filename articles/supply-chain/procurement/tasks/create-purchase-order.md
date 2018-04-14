@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 165f29ceaabe4d09785e5f1edfe57db525264c15
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-order"></a><span data-ttu-id="3a504-103">إنشاء أمر شراء</span><span class="sxs-lookup"><span data-stu-id="3a504-103">Create a purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3a504-104">يوضح هذا الإجراء كيفية إنشاء أمر الشراء يدويًا.</span><span class="sxs-lookup"><span data-stu-id="3a504-104">This procedure shows you how to create a purchase order manually.</span></span> <span data-ttu-id="3a504-105">إن الأمر أكثر نموذجية لأوامر الشراء ليتم إنشائها تلقائيًا كنتيجة للتخطيط الأساسي والتسليم المباشر والعمليات الأخرى.</span><span class="sxs-lookup"><span data-stu-id="3a504-105">It’s more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes.</span></span> <span data-ttu-id="3a504-106">وعادة ما يتم إنشاء أوامر الشراء عن طريق وكيل شراء.</span><span class="sxs-lookup"><span data-stu-id="3a504-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="3a504-107">يمكن استخدام المثال المعروض هنا في شركة بيانات العرض التوضيحي USMf باستخدام القيم المقترحة في ملاحظات على الخطوات المختلفة.</span><span class="sxs-lookup"><span data-stu-id="3a504-107">The example shown here can be used in the USMF demo data company using the values that are suggested in the notes for various steps.</span></span>
 

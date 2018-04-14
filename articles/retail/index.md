@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dce403032c239053159fd3e79f3dab013b620eaf
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a><span data-ttu-id="ae705-103">مرحبًا بك في Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="ae705-103">Welcome to Dynamics 365 for Retail</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="ae705-104">إن Microsoft Dynamics 365 for Retail هو حل شامل للبيع بالتجزئة يوفر التجارة الموحدة عبر جميع القنوات.</span><span class="sxs-lookup"><span data-stu-id="ae705-104">Microsoft Dynamics 365 for Retail is an end-to-end retail solution that delivers unified commerce across all channels.</span></span> <span data-ttu-id="ae705-105">إنه يشتمل على المبيعات، وإمكانية التنقل، والمعلومات، والإنتاجية لمساعدة تجار التجزئة والعمال على تحقيق المزيد بطريقة السحابة أولاً، الجهاز المحمول أولاً.</span><span class="sxs-lookup"><span data-stu-id="ae705-105">It encompasses sales, mobility, intelligence, and productivity to help retailers and workers achieve more in a cloud-first, mobile-first manner.</span></span> <span data-ttu-id="ae705-106">يوفر Retail دعمًا شاملاً لتشغيل مجموعة كبيرة من إجراءات العمل، مثل إمكانات إدارة القنوات، وترويج البضائع، والمخزون.</span><span class="sxs-lookup"><span data-stu-id="ae705-106">Retail offers comprehensive support to operate a wide range of business processes, such as merchandising, inventory, and channel management capabilities.</span></span> <span data-ttu-id="ae705-107">كما أنه يوفر خبرات عملاء غامرة عبر جميع نقاط الاتصال.</span><span class="sxs-lookup"><span data-stu-id="ae705-107">It also provides immersive customer experiences across all touchpoints.</span></span>
 

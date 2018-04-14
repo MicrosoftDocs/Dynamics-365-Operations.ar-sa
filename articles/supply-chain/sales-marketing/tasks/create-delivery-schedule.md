@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 956edeac33f8531ecebef64301f2318333000429
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 13add634e275a0156c2c0f87d1fec80385d62fea
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-delivery-schedule"></a><span data-ttu-id="fd956-103">إنشاء جدول تسليم</span><span class="sxs-lookup"><span data-stu-id="fd956-103">Create a delivery schedule</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fd956-104">يُوضح هذا الإجراء كيفية إنشاء جدول تسليم لأمر مبيعات.</span><span class="sxs-lookup"><span data-stu-id="fd956-104">This procedure demonstrates how to create a delivery schedule for a sales order.</span></span> <span data-ttu-id="fd956-105">يتم استخدام جدول التسليم عندما يتم طلب كمية في أمر أو عرض أسعار بحيث يتم التسليم بواسطة شحنات متعددة.</span><span class="sxs-lookup"><span data-stu-id="fd956-105">A delivery schedule is used when a quantity on an order or a quotation is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="fd956-106">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="fd956-106">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: 4d591eec163cfe2952f37b93e634eae676860889
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 30bff74da8399ddc15f2bc84e83887c8b5e60570
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="e9def-103">إعداد الحد الأدنى والحد الأقصى لعملية التزويد</span><span class="sxs-lookup"><span data-stu-id="e9def-103">Set up a min-max replenishment process</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e9def-104">يوضح هذا الإجراء كيفية إعداد عملية تزويد جديدة تستخدم استراتيجية الحد الأدنى/الحد الأقصى لعملية التزويد.</span><span class="sxs-lookup"><span data-stu-id="e9def-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="e9def-105">عندما يصبح المخزون أقل من الحد الأدنى، سيتم إنشاء العمل لتزويد الموقع.</span><span class="sxs-lookup"><span data-stu-id="e9def-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="e9def-106">يوضح الإجراء أيضًا كيفية استخدام مواقع انتقاء ثابتة للسماح بإعادة التخزين إذا كان المخزون أقل من مستوى الحد الأدنى، وكيفية تمكين عملية التزويد للتشغيل بانتظام باستخدام وظيفة مجموعة.</span><span class="sxs-lookup"><span data-stu-id="e9def-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="e9def-107">وعادة ما تُنفذ هذه المهام عن طريق مدير مستودع.</span><span class="sxs-lookup"><span data-stu-id="e9def-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="e9def-108">يمكنك تشغيل هذا الإجراء في شركة بيانات العرض التوضيحي USMF باستخدام قيم المثال في الملاحظات أو يمكن تشغيله على البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="e9def-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="e9def-109">إذا كنت تستخدم البيانات الخاصة بك، فتأكد من حصولك على مستودع يتم تمكينه لعمليات إدارة المستودع.</span><span class="sxs-lookup"><span data-stu-id="e9def-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 
@@ -120,7 +120,7 @@ ms.lasthandoff: 11/02/2017
     * <span data-ttu-id="e9def-206">هذا هو المكان حيث يتم تحديد المنتجات التي ينبغي تزويدها.</span><span class="sxs-lookup"><span data-stu-id="e9def-206">This is the place to define which products should be replenished.</span></span> <span data-ttu-id="e9def-207">إذا تم تحديد الخيار "مواقع الانتقاء الثابتة"، فإنك تحتاج أيضًا إلى تحديد المواقع في هذا الاستعلام.</span><span class="sxs-lookup"><span data-stu-id="e9def-207">If the Fixed picking locations option is selected, you also need to define the locations in this query.</span></span> <span data-ttu-id="e9def-208">تتوافر الاستعلامات الخاصة بمتغير بالإضافة إلى الاستعلامات الخاصة بالمنتج.</span><span class="sxs-lookup"><span data-stu-id="e9def-208">Variant-specific queries are available as well product-specific queries.</span></span>  
 18. <span data-ttu-id="e9def-209">حدد صف الأصناف.</span><span class="sxs-lookup"><span data-stu-id="e9def-209">Select the Items row.</span></span>
 19. <span data-ttu-id="e9def-210">في الحقل "المعايير"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e9def-210">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="e9def-211">حدد الأصناف التي يجب تزويدها في المواقع الثابتة.</span><span class="sxs-lookup"><span data-stu-id="e9def-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="e9def-212">على سبيل المثال، اكتب أ* لتحديد كل أرقام الأصناف التي تبدأ بحرف أ.</span><span class="sxs-lookup"><span data-stu-id="e9def-212">For example, type A* to select all item numbers beginning with A.</span></span>  
+    * <span data-ttu-id="e9def-211">حدد الأصناف التي يجب تزويدها في المواقع الثابتة.</span><span class="sxs-lookup"><span data-stu-id="e9def-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="e9def-212">على سبيل المثال، اكتب أ\* لتحديد كل أرقام الأصناف التي تبدأ بحرف أ.</span><span class="sxs-lookup"><span data-stu-id="e9def-212">For example, type A\* to select all item numbers beginning with A.</span></span>  
 20. <span data-ttu-id="e9def-213">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e9def-213">Click Add.</span></span>
     * <span data-ttu-id="e9def-214">أضف كيان الموقع (إلا إذا كان موجودًا بالفعل) حتى تكون قادرًا على تقييد عمل التزويد إلى مواقع انتقاء ثابتة داخل منطقة معينة من المستودع.</span><span class="sxs-lookup"><span data-stu-id="e9def-214">Add the Location entity (unless it already exists) to be able to restrict the replenishment work to the fixed picking locations within a specific area of the warehouse.</span></span>  
 21. <span data-ttu-id="e9def-215">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e9def-215">In the list, mark the selected row.</span></span>

@@ -18,14 +18,14 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: 530082a23163cf348bcbb133175e3af963d55f2b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8f9d287f5d2134d26296c1302a9c18505c426db3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="ec64e-103">تأكيد المنتج لانتقاء نظام المجموعة</span><span class="sxs-lookup"><span data-stu-id="ec64e-103">Product confirmation for cluster picking</span></span>
 <span data-ttu-id="ec64e-104">يسمح لك انتقاء نظام المجموعة بانتقاء الأصناف لأوامر متعددة في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="ec64e-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="ec64e-105">عند تطبيق انتقاء نظام المجموعة، يُعد تأكيد الصنف أمرًا هامًا للتحقق من الأصناف التي تمت إضافتها إلى نظم المجموعات.</span><span class="sxs-lookup"><span data-stu-id="ec64e-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="ec64e-106">يمكنك التحقق من الأصناف في انتقاء نظام المجموعة خلال عملية انتقاء نظام المجموعة.</span><span class="sxs-lookup"><span data-stu-id="ec64e-106">You can verify items in cluster picking during the cluster picking process.</span></span>
@@ -37,7 +37,8 @@ ms.lasthandoff: 02/13/2018
 1.  <span data-ttu-id="ec64e-111">في عنصر قائمة جهاز محمول، قم بفتح نموذج إعداد لتأكيد العمل: **إدارة المستودعات** > **إدارة المستودعات** > **الإعداد** > **جهاز محمول** > **عناصر قائمة الجهاز المحمول**.</span><span class="sxs-lookup"><span data-stu-id="ec64e-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
 2.  <span data-ttu-id="ec64e-112">من عنصر قائمة الجهاز المحمول، قم بفتح **إعداد تأكيد العمل**.</span><span class="sxs-lookup"><span data-stu-id="ec64e-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-| <span data-ttu-id="ec64e-113">الخيار</span><span class="sxs-lookup"><span data-stu-id="ec64e-113">Option</span></span>        | <span data-ttu-id="ec64e-114">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="ec64e-114">Description</span></span>   | 
-| ------------- | ------------- |
-|<span data-ttu-id="ec64e-115">تأكيد المنتج</span><span class="sxs-lookup"><span data-stu-id="ec64e-115">Product confirmation</span></span> | <span data-ttu-id="ec64e-116">يسمح لك بالتحقق من كل جزء من المخزون من خلال الهاتف المحمول عند مسحه ضوئيًا.</span><span class="sxs-lookup"><span data-stu-id="ec64e-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span>|
+|        <span data-ttu-id="ec64e-113">الخيار</span><span class="sxs-lookup"><span data-stu-id="ec64e-113">Option</span></span>        |                                    <span data-ttu-id="ec64e-114">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="ec64e-114">Description</span></span>                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| <span data-ttu-id="ec64e-115">تأكيد المنتج</span><span class="sxs-lookup"><span data-stu-id="ec64e-115">Product confirmation</span></span> | <span data-ttu-id="ec64e-116">يسمح لك بالتحقق من كل جزء من المخزون من خلال الهاتف المحمول عند مسحه ضوئيًا.</span><span class="sxs-lookup"><span data-stu-id="ec64e-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
+
 

@@ -19,15 +19,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: fca7fb75b965886c2ebc06b12940434f2ffc2543
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eb0a37acebb61c7f4f06724bf0234211072f1e98
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a><span data-ttu-id="51538-103">تعديل تنسيق إعداد التقارير الإلكتروني من خلال إعادة تطبيق قالب Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="51538-103">Modify an Electronic reporting format by reapplying a Microsoft Excel template</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="51538-104">يتم استخدام أداة إعداد التقارير الإلكترونية (ER) لإنشاء مستندات الأعمال بتنسيق إلكتروني.</span><span class="sxs-lookup"><span data-stu-id="51538-104">The Electronic reporting (ER) tool is used to generate business documents in an electronic format.</span></span> <span data-ttu-id="51538-105">لإنشاء مستند عمل، يجب إنشاء تنسيق ER، وبعد ذلك استخدم مصمم ER لتحديد تخطيط مستند الأعمال وتحديد البيانات التي يجب تضمينها به.</span><span class="sxs-lookup"><span data-stu-id="51538-105">To generate a business document, you must create an ER format, and then use the ER designer to define the layout of the business document and specify the data that should be included in it.</span></span> <span data-ttu-id="51538-106">يمكنك بعد ذلك تشغيل تنسيق ER لإنشاء مستند الأعمال.</span><span class="sxs-lookup"><span data-stu-id="51538-106">You can then run the ER format to generate the business document.</span></span>
 

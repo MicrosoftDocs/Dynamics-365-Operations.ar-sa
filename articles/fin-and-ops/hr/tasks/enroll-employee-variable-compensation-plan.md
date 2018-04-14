@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: e3bc57dd15ff9af0c3fccedd01f8c4d3064effc1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 58895bfd2ef5ec5e8f6f1500158376b9140775d7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a><span data-ttu-id="3a69c-103">تسجيل موظف في خطة التعويض المتغيرة</span><span class="sxs-lookup"><span data-stu-id="3a69c-103">Enroll an employee in a variable compensation plan</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3a69c-104">بإمكان مدير التعويضات والميزات‬ تسجيل الموظفين في خطط التعويض المتغيرة لحساب المكافآت النقدية وغير النقدية للموظفين.</span><span class="sxs-lookup"><span data-stu-id="3a69c-104">The Compensation and Benefits manager can enroll employees in variable compensation plans to calculate cash and non-cash awards for employees.</span></span> <span data-ttu-id="3a69c-105">يفترض هذا الإجراء أنه قد تم إنشاء خطة تعويض متغيرة مع تعيين الحقل "تمكين التسجيل" إلى "نعم"، وأنه قد تم إنشاء قواعد الأهلية لخطة التعويض المتغيرة هذه.</span><span class="sxs-lookup"><span data-stu-id="3a69c-105">This procedure assumes that a variable compensation plan has been created with the Enable enrolment field set to Yes, and that eligibility rules have been created for that variable compensation plan.</span></span> <span data-ttu-id="3a69c-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="3a69c-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="3a69c-107">لبدء هذا الإجراء، انتقل إلى الموارد البشرية > العاملون‬ > الموظفون > التعويض > تسجيل الخطة المتغيرة</span><span class="sxs-lookup"><span data-stu-id="3a69c-107">To begin this procedure, go to Human resources > Workers > Employees > Compensation > Variable plan enrolment</span></span>
 

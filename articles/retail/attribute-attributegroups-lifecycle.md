@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="9a04c-102">السمات ومجموعات السمات والاقترانات الخاصة بهم مع كيانات Retail مختلفة في Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="9a04c-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="9a04c-103">توفر*السمات* طريقة لتقديم وصف إضافي لأحد المنتجات والصفات المميزة له من خلال حقول معرفة من قبل المستخدم (مثل **حجم الذاكرة**، و**سعة القرص الثابت**، و**هل يتوافق المنتج مع نجمة الطاقة**، وهكذا).</span><span class="sxs-lookup"><span data-stu-id="9a04c-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="9a04c-104">في Microsoft Dynamics 365 for Finance and Operations، يمكن إقران السمات مع كيانات Retail مختلفة، مثل فئات المنتجات وقنوات البيع بالتجزئة، ويمكن تعيين قيم افتراضية لها.</span><span class="sxs-lookup"><span data-stu-id="9a04c-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="9a04c-105">ثم ترث المنتجات السمات والقيم الافتراضية عند إقرانها بفئات المنتجات أو قنوات البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="9a04c-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="9a04c-106">يمكن تجاوز القيم الافتراضية على مستوى المنتج الفردي، على مستوى قنوات البيع بالتجزئة أو في كتالوج البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="9a04c-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="9a04c-307">على علامة التبويب السريعة**منتجات**، حدد المنتج المطلوب، ثم حدد **سمات** فوق شبكة المنتج.</span><span class="sxs-lookup"><span data-stu-id="9a04c-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="9a04c-308">في علامات التبويب السريعة التالية، قم بتحديث قيم السمات المطلوبة:</span><span class="sxs-lookup"><span data-stu-id="9a04c-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="9a04c-309">وسائط المنتجات المشتركة</span><span class="sxs-lookup"><span data-stu-id="9a04c-309">Shared product media</span></span>
-    - <span data-ttu-id="9a04c-310">سمات المنتجات المشتركة</span><span class="sxs-lookup"><span data-stu-id="9a04c-310">Shared product attributes</span></span>
-    - <span data-ttu-id="9a04c-311">وسائط القنوات</span><span class="sxs-lookup"><span data-stu-id="9a04c-311">Channel media</span></span>
-    - <span data-ttu-id="9a04c-312">سمات منتج القناة</span><span class="sxs-lookup"><span data-stu-id="9a04c-312">Channel product attributes</span></span>
+   - <span data-ttu-id="9a04c-309">وسائط المنتجات المشتركة</span><span class="sxs-lookup"><span data-stu-id="9a04c-309">Shared product media</span></span>
+   - <span data-ttu-id="9a04c-310">سمات المنتجات المشتركة</span><span class="sxs-lookup"><span data-stu-id="9a04c-310">Shared product attributes</span></span>
+   - <span data-ttu-id="9a04c-311">وسائط القنوات</span><span class="sxs-lookup"><span data-stu-id="9a04c-311">Channel media</span></span>
+   - <span data-ttu-id="9a04c-312">سمات منتج القناة</span><span class="sxs-lookup"><span data-stu-id="9a04c-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="9a04c-313">إذا تم إنشاء مشاركة وسائط المنتج ومشاركة سمات المنتج في Finance and Operations، فمن ثم تنطبق على جميع منتجات البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="9a04c-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="9a04c-313">إذا تم إنشاء مشاركة وسائط المنتج ومشاركة سمات المنتج في Finance and Operations، فمن ثم تنطبق على جميع منتجات البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="9a04c-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![مجموعات سمات منتجات الكتالوج](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="9a04c-321">في علامات التبويب السريعة التالية، قم بتحديث قيم السمات المطلوبة:</span><span class="sxs-lookup"><span data-stu-id="9a04c-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="9a04c-322">وسائط المنتجات المشتركة</span><span class="sxs-lookup"><span data-stu-id="9a04c-322">Shared product media</span></span>
-    - <span data-ttu-id="9a04c-323">سمات المنتجات المشتركة</span><span class="sxs-lookup"><span data-stu-id="9a04c-323">Shared product attributes</span></span>
-    - <span data-ttu-id="9a04c-324">وسائط القنوات</span><span class="sxs-lookup"><span data-stu-id="9a04c-324">Channel media</span></span>
-    - <span data-ttu-id="9a04c-325">سمات منتج القناة</span><span class="sxs-lookup"><span data-stu-id="9a04c-325">Channel product attributes</span></span>
+   - <span data-ttu-id="9a04c-322">وسائط المنتجات المشتركة</span><span class="sxs-lookup"><span data-stu-id="9a04c-322">Shared product media</span></span>
+   - <span data-ttu-id="9a04c-323">سمات المنتجات المشتركة</span><span class="sxs-lookup"><span data-stu-id="9a04c-323">Shared product attributes</span></span>
+   - <span data-ttu-id="9a04c-324">وسائط القنوات</span><span class="sxs-lookup"><span data-stu-id="9a04c-324">Channel media</span></span>
+   - <span data-ttu-id="9a04c-325">سمات منتج القناة</span><span class="sxs-lookup"><span data-stu-id="9a04c-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="9a04c-326">إذا تم إنشاء مشاركة وسائط المنتج ومشاركة سمات المنتج في Finance and Operations، فمن ثم تنطبق على جميع منتجات البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="9a04c-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="9a04c-326">إذا تم إنشاء مشاركة وسائط المنتج ومشاركة سمات المنتج في Finance and Operations، فمن ثم تنطبق على جميع منتجات البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="9a04c-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

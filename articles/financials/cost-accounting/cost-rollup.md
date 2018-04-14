@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: bce608594e2eb0e7769e7dfa2e254e29385000b6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90a947d4564c8ad97b415b556986c3f815674aa4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a><span data-ttu-id="6ac32-103">سياسة زيادة التكلفة وحساب المصروفات الزائدة</span><span class="sxs-lookup"><span data-stu-id="6ac32-103">Cost rollup policy and overhead calculation</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6ac32-104">تسمح لك محاسبة التكاليف بالحصول على نظرة أعمق عن كيفية ارتباط تدفق التكلفة بالمنتجات والخدمات التي يتم تسليمها داخل مؤسسة.</span><span class="sxs-lookup"><span data-stu-id="6ac32-104">Cost accounting lets you gain insight into how the cost flow relates to the products and services that are delivered within an organization.</span></span> <span data-ttu-id="6ac32-105">للاطلاع على شفافية التكلفة، من المهم للغاية تحقيق توزيع التكلفة بين كائنات التكلفة بناء على أساس توزيع مناسب.</span><span class="sxs-lookup"><span data-stu-id="6ac32-105">To see the cost transparency, it's crucial to achieve cost allocation between cost objects based on an appropriate allocation basis.</span></span> <span data-ttu-id="6ac32-106">بشكل افتراضي، يتحقق توزيع التكلفة لعنصر التكلفة الأساسي الذي يُعد أمرًا مطلوباً في بعض الحالات، ولكن بعض تبعاته يجب أخذها بعين الاعتبار.</span><span class="sxs-lookup"><span data-stu-id="6ac32-106">By default, the cost allocation is achieved for the primary cost element, which is desired in some situations, but it has a few implications that should be considered.</span></span>
 

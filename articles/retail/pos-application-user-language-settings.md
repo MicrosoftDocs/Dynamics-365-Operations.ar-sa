@@ -20,17 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: b49450a7deab94c62e173f730007bc40de23b267
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8c265332b132f51e948fff9e6feffee94c38ff07
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pos-application-and-user-language-settings"></a><span data-ttu-id="835d2-103">تطبيق نقطة البيع وإعدادات اللغة المستخدمة</span><span class="sxs-lookup"><span data-stu-id="835d2-103">POS application and user language settings</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="835d2-104">يصف هذا الموضوع كيفية تغيير إعدادات اللغة في نقطة بيع التجزئة الحديثة (MPOS) و نقاط بيع المجموعة.</span><span class="sxs-lookup"><span data-stu-id="835d2-104">This topic describes how to change language settings in Retail Modern POS (MPOS) and Cloud POS.</span></span>
 

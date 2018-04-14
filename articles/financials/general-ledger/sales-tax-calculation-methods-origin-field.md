@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c1e1a588e07b9f60880dcf1c34139c5c1ceba35
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a><span data-ttu-id="09250-103">طرق حساب ضريبة المبيعات في حقل الأصل</span><span class="sxs-lookup"><span data-stu-id="09250-103">Sales tax calculation methods in the Origin field</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="09250-104">توضح هذه المقالة الخيارات في حقل الأصل في صفحة أكواد ضريبة المبيعات وكيف يتم حساب ضريبة المبيعات استنادًا إلى الخيار المحدد لكود ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="09250-104">This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.</span></span>
 
@@ -53,11 +52,12 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="09250-122">ضريبة المبيعات = 25%، باستخدام النسبة المئوية لطريقة حساب المبلغ الإجمالي</span><span class="sxs-lookup"><span data-stu-id="09250-122">SALESTAX = 25%, using the Percentage of gross amount calculation method</span></span>
 
 <span data-ttu-id="09250-123">إذا كان المبلغ الصافي يساوي 10.00، فعندئذٍ الرسم الجمركي 1 يساوي 1.00 (10.00 x‏ 10%) والرسم الجمركي 2 = 2.00 (10.00 x‏ 20%).</span><span class="sxs-lookup"><span data-stu-id="09250-123">If the net amount is 10.00, then DUTY 1 is 1.00 (10.00 x 10%) and DUTY 2 = 2.00 (10.00 x 20%).</span></span> <span data-ttu-id="09250-124">المبالغ ستكون كما يلي: المبلغ الإجمالي: صافي المبلغ + مبلغ الرسم الجمركي 1 + مبلغ الرسم الجمركي 2 (10.00 + 1.00 + 2.00) = 13.00 ضريبة المبيعات = 13.00 × 25% = 3.25 إجمالي الرسوم الجمركية وضريبة المبيعات: 1.00 + 2.00 + 3.25 = 6.25 المبلغ الإجمالي: 10.00 + 6.25 = 16.25</span><span class="sxs-lookup"><span data-stu-id="09250-124">The amounts would be as follows: Gross amount: Net amount + DUTY 1 amount + DUTY 2 amount (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 Total DUTIES and SALESTAX: 1.00 + 2.00 + 3.25 = 6.25 Total amount: 10.00 + 6.25 = 16.25</span></span>
+
 | <span data-ttu-id="09250-125">**ملاحظة**</span><span class="sxs-lookup"><span data-stu-id="09250-125">**Note**</span></span>                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="09250-126">كود ضريبة واحدة فقط بالأصل = يمكن استخدام النسبة المئوية لإجمالي المبلغ لحركة.</span><span class="sxs-lookup"><span data-stu-id="09250-126">Only one tax code with Origin = Percentage of gross amount can be used for a transaction.</span></span> <span data-ttu-id="09250-127">وإذا تم تحديد أكثر من كود ضريبة واحدة لحركة، فسيتم عرض خطأ يفيد بأنه لا يمكن حساب ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="09250-127">If more than one such tax code is determined for a transaction an error will be displayed that sales tax cannot be calculated.</span></span> |
 
- 
+
 <a name="percentage-of-sales-tax"></a><span data-ttu-id="09250-128">النسبة المئوية لضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="09250-128">Percentage of sales tax</span></span>
 -----------------------
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="09250-136">ضريبة المبيعات = 25%، باستخدام النسبة المئوية لطريقة حساب المبلغ الإجمالي</span><span class="sxs-lookup"><span data-stu-id="09250-136">SALESTAX = 25%, using the Percentage of gross amount method</span></span>
 
 <span data-ttu-id="09250-137">المبلغ الصافي: الرسم الجمركي 1 بمبلغ 10.00: 10.00 x‏ 10% = الرسم الجمركي 2: 1.00 × 20% = 0.20 القيمة الإجمالية: 10.00 + 1.00 + 0.20 = 11.20 ضريبة المبيعات: 11.20 x‏ 25% = 2.80 الرسوم الإجمالية وضريبة المبيعات: 1.00 + 0.20 + 2.80 = 4.00 المبلغ الإجمالي: 10.00 + 4.00 = 14.00</span><span class="sxs-lookup"><span data-stu-id="09250-137">Net amount: 10.00 DUTY 1: 10.00 x 10% = 1.00 DUTY 2: 1.00 x 20% = 0.20 Gross amount: 10.00 + 1.00 + 0.20 = 11.20 SALESTAX: 11.20 x 25% = 2.80 Total DUTIES and SALESTAX: 1.00 + 0.20 + 2.80 = 4.00 Total amount: 10.00 + 4.00 = 14.00</span></span>
+
 | <span data-ttu-id="09250-138">**ملاحظة**</span><span class="sxs-lookup"><span data-stu-id="09250-138">**Note**</span></span>                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="09250-139">ضريبة متعددة المستويات في عمليات حساب الضرائب غير ممكنة.</span><span class="sxs-lookup"><span data-stu-id="09250-139">Multilevel tax on tax calculations are not possible.</span></span> <span data-ttu-id="09250-140">زلا يمكن حساب ضريبة استناداً إلى ضريبة يتم حسابها بالفعل استناداً إلى ضريبة أخرى.</span><span class="sxs-lookup"><span data-stu-id="09250-140">A tax cannot be calculated based on a tax which already is calculated based on another tax.</span></span> <span data-ttu-id="09250-141">ويمكن حساب ضريبة بمستوى واحدة في أكواد الضريبة في حركة.</span><span class="sxs-lookup"><span data-stu-id="09250-141">Multiple single level tax on tax codes can be calculated on a transaction.</span></span> |
@@ -79,6 +80,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="example"></a><span data-ttu-id="09250-146">مثال</span><span class="sxs-lookup"><span data-stu-id="09250-146">Example</span></span>
 
 <span data-ttu-id="09250-147">يتم إعداد كود ضريبة المبيعات على النحو التالي: 1.20 دولار أمريكي للوحدة = يتم حساب مربع في 25 مربعًا لبند فاتورة المبيعات لصنف وهي عبارة عن ضريبة مبيعات على النحو التالي 25 × 1.20 = 30.00</span><span class="sxs-lookup"><span data-stu-id="09250-147">Sales tax code is set up as: USD 1.20 per unit = box On a sales invoice line 25 boxes of an item are sold Sales tax is calculated as 25 x 1.20 = 30.00</span></span>
+
 | <span data-ttu-id="09250-148">**ملاحظة**</span><span class="sxs-lookup"><span data-stu-id="09250-148">**Note**</span></span>                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="09250-149">إذا تم إدخال الحركة في وحدة مختلفة عن الوحدة المحددة في كود ضريبة المبيعات، فإنه يتم تحويلها تلقائياً استناداً إلى تحويلات الوحدات التي يتم إعدادها في صفحة تحويلات الوحدات.</span><span class="sxs-lookup"><span data-stu-id="09250-149">If the transaction is entered in different unit than the unit specified on the sales tax code, it is converted automatically based on the unit conversions that are set up in the Unit conversions page.</span></span> |

@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 3b6f70a1a16f18cf3fc6c2f246854e876363eebf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec30fc5e4d3289264da0e40dc981c597c04f4c15
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-leave-of-absence"></a><span data-ttu-id="3052e-103">إدارة إجازات الغياب</span><span class="sxs-lookup"><span data-stu-id="3052e-103">Manage leave of absence</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3052e-104">ينقلك هذا الإجراء عبر عملية إنشاء سجلات إجازة الموظف.</span><span class="sxs-lookup"><span data-stu-id="3052e-104">This procedure walks through the creation of employee leave records.</span></span> <span data-ttu-id="3052e-105">يمكنك تعقب وقت الإجازة لأسباب تشمل الأنشطة الطبية أو التعليمية أو الأبوية.</span><span class="sxs-lookup"><span data-stu-id="3052e-105">You can track leave time for reasons that include medical, educational, or parental activities.</span></span> <span data-ttu-id="3052e-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="3052e-106">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9e003f953c05facd5516e2bfa6d1c83ba6381c15
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5839962a5a3be5d7836c74fc8476ceafa414d48c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a><span data-ttu-id="1e772-103">إعداد الأذونات لطلب المنتجات بالنيابة عن شخص آخر</span><span class="sxs-lookup"><span data-stu-id="1e772-103">Set up permissions for ordering products on behalf of someone else</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1e772-104">يوضح هذا الإجراء كيفية منح العاملين الإذن الذي يسمح لهم بإعداد طلبات شراء نيابة عن عاملين آخرين.</span><span class="sxs-lookup"><span data-stu-id="1e772-104">This procedure shows how to grant workers permission to prepare purchase requisitions on behalf of other workers.</span></span> <span data-ttu-id="1e772-105">بمعنى آخر، بإمكان "معد" طلب شراء إنشاء طلب من أجل "طالب" آخر.</span><span class="sxs-lookup"><span data-stu-id="1e772-105">In other words, a purchase requisition “preparer” can create a requisition for another “requester.”</span></span> <span data-ttu-id="1e772-106">يبين الإجراء أيضًا كيفية منح أذونات لأحد العاملين لطلب أصناف وخدمات في كيانات قانونية أو وحدات تشغيل مختلفة.</span><span class="sxs-lookup"><span data-stu-id="1e772-106">The procedure also shows how to grant a worker permission to order items and services in different legal entities or operating units.</span></span> <span data-ttu-id="1e772-107">يقوم مدير المشتريات عادةً بتنفيذ هذه المهام.</span><span class="sxs-lookup"><span data-stu-id="1e772-107">Typically, these tasks are performed by a purchasing manager.</span></span> <span data-ttu-id="1e772-108">يمكنك استخدام هذا الإجراء إما على بيانات خاصة بشركة بيانات العرض التوضيحي USMF أو على بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="1e772-108">You can use this procedure either on data for the USMF demo company or on your own data.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dcafcb067717a1d0ca6f45a57628fe001d1074f2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d21a4aa035b55385c8b0ced3bfe91c7aaf064267
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="7c6cb-103">تسجيل برنامج تسجيل دخول وتسجيل خروج السائق لموعد</span><span class="sxs-lookup"><span data-stu-id="7c6cb-103">Register driver check-in and check-out for an appointment</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7c6cb-104">يُظهر هذا الإجراء كيفية تسجيل دخول السائق وكيفية تسجيل خروج السائق. ينفذ هذا الإجراء عادةً منسق النقل.</span><span class="sxs-lookup"><span data-stu-id="7c6cb-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="7c6cb-105">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="7c6cb-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="7c6cb-106">قبل البدء، يجب أن إعداد موعد لحمولة.</span><span class="sxs-lookup"><span data-stu-id="7c6cb-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="7c6cb-107">لإنشاء موعد، يمكنك تشغيل الإجراء "إعداد موعد لحمولة" كشرط مسبق.</span><span class="sxs-lookup"><span data-stu-id="7c6cb-107">To create an appointment, you can run the “Set up an appointment for a load” procedure as a prerequisite.</span></span>
 

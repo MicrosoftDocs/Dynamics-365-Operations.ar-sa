@@ -17,16 +17,16 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 74a27761c065e475fa7c10c5812f0307df9f570e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7af390ceaff145849a06cfece8a662d4cba0e86d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pos-improvements-for-serialized-products"></a><span data-ttu-id="6f86b-103">تحسينات نقطة البيع للمنتجات المتسلسلة</span><span class="sxs-lookup"><span data-stu-id="6f86b-103">POS improvements for serialized products</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a><span data-ttu-id="6f86b-104">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="6f86b-104">Overview</span></span> 
 <span data-ttu-id="6f86b-105">استنادًا إلى الإعدادات في إدارة البيع بالتجزئة، يمكن تصنيف المنتجات كمتسلسلة أو غير متسلسلة.</span><span class="sxs-lookup"><span data-stu-id="6f86b-105">Based on the settings in Retail headquarters, products can be classified as either serialized or non-serialized.</span></span> <span data-ttu-id="6f86b-106">عندما تكون المنتجات متسلسلة، يتم تعيين رقم فريد لكل صنف، حيث يساعد هذا الرقم على تعقب الضمانات وتتبع الأصناف وتأكيد الملكية.</span><span class="sxs-lookup"><span data-stu-id="6f86b-106">When products are serialized, each item can be assigned a unique number that helps track warranties, trace items, and confirm ownership.</span></span> <span data-ttu-id="6f86b-107">على الرغم من أن القدرة على توفير أرقام تسلسلية للمنتجات المتسلسلة كانت موجودة في نقطة البيع الحديثة ونقطة بيع المجموعة‬ (POS)، إلا أن هناك تحسينات أضيفت التحسينات لمساعدة موظفي الكاشير على توفير الوقت وزيادة إنتاجيتهم.</span><span class="sxs-lookup"><span data-stu-id="6f86b-107">Although, the ability to provide serial numbers for serialized products existed in our Modern/Cloud Point of Sale (POS), some improvements have been added to help cashiers save time and be more productive.</span></span>  

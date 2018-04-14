@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a83a3325c80eb6fc1a19371a6115413ca9b82185
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="time-and-attendance-registration"></a><span data-ttu-id="4a2cd-104">تسجيل الوقت والحضور</span><span class="sxs-lookup"><span data-stu-id="4a2cd-104">Time and attendance registration</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4a2cd-105">بإمكان عمال تسجيل الوقت إدخال أنواع مختلفة من تسجيلات الوقت، على سبيل المثال، بدء العمل وانتهاء العمل وتسجيل الأنشطة غير المباشرة وتسجيل الغياب.</span><span class="sxs-lookup"><span data-stu-id="4a2cd-105">Time registration workers can enter different types of time registrations, for example, clock in, clock out, register indirect activities, and absence registration.</span></span> <span data-ttu-id="4a2cd-106">يوضح هذا الموضوع التسجيلات وحسابها والموافقة عليها واستخدام سير العمل لإضافة البنية والموافقة التلقائية على عملية الموافقة على الجداول الزمنية.</span><span class="sxs-lookup"><span data-stu-id="4a2cd-106">This topic describes registrations, their calculation, approval, and the use of workflow to add structure and automated approval to the process of approving timesheets.</span></span> 
 
@@ -95,7 +94,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="4a2cd-168">إجمالي أيام الوقت والحضور</span><span class="sxs-lookup"><span data-stu-id="4a2cd-168">Time and attendance days total</span></span>            | <span data-ttu-id="4a2cd-169">يقوم سير العمل بالتحقق من صحة التسجيلات مقابل العدد المتوقع من ساعات العمل لهذا اليوم مثلاً.</span><span class="sxs-lookup"><span data-stu-id="4a2cd-169">The workflow validates registrations against, for example, the expected number of work hours for the day.</span></span> |                                                                                                                                                                                                                                                       |
 | <span data-ttu-id="4a2cd-170">تسجيل دفتر يومية الوقت والحضور</span><span class="sxs-lookup"><span data-stu-id="4a2cd-170">Time and attendance journal registration.</span></span> | <span data-ttu-id="4a2cd-171">يقوم سير العمل بالتحقق من صحة كل نوع تسجيل لتاريخ التسجيل.</span><span class="sxs-lookup"><span data-stu-id="4a2cd-171">The workflow validates each registration type for the date of the registration.</span></span>                           | <span data-ttu-id="4a2cd-172">الوقت والحضور • الحضور • الانصراف • الغياب • فترة الراحة • كود التحويل • المشروع • نشاط المشروع وظائف إنتاج الأنشطة غير المباشرة • قائمة الانتظار قبل • الإعداد • العملية • التداخل • النقل • قائمة الانتظار بعد • بدء المساعدة • إيقاف المساعدة</span><span class="sxs-lookup"><span data-stu-id="4a2cd-172">Time and attendance • Clock-in • Clock-out • Absence • Break • Switch code • Project • Project activity • Indirect activity Production jobs • Queue before • Setup • Process • Overlap • Transport • Queue after • Start assistance • Stop assistance</span></span> |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a><span data-ttu-id="4a2cd-173">تحويل التسجيلات المعتمدة</span><span class="sxs-lookup"><span data-stu-id="4a2cd-173">Transferring approved registrations</span></span>
 <span data-ttu-id="4a2cd-174">بعد اعتماد التسجيلات، يمكن نقلها إلى وظيفة رواتب دورية.</span><span class="sxs-lookup"><span data-stu-id="4a2cd-174">After approval of the registrations you can transfer them to a periodic payroll job.</span></span> <span data-ttu-id="4a2cd-175">ويتم ترحيل تسجيل محول لنشاط أو مهمة تتصل، على سبيل المثال، بأمر إنتاج أو مشروع.</span><span class="sxs-lookup"><span data-stu-id="4a2cd-175">A transferred registration is posted to an activity or job that it relates to, for example, a production order or a project.</span></span> <span data-ttu-id="4a2cd-176">يتم إنشاء حركات الرواتب لكل عامل بناءً على التسجيلات.</span><span class="sxs-lookup"><span data-stu-id="4a2cd-176">Payroll transactions are generated for each worker based on the registrations.</span></span>  

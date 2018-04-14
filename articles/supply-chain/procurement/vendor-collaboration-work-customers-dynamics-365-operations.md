@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fa6adbc4179d7f7599fcb2f89eb88ed3277936bc
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-customers"></a><span data-ttu-id="8c769-103">تعاون المورد مع العملاء</span><span class="sxs-lookup"><span data-stu-id="8c769-103">Vendor collaboration with customers</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8c769-104">يصف هذا الموضوع كيفية استخدام تعاون المورد للتعامل مع العملاء في Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8c769-104">This topic describes how you can use vendor collaboration to work with customers in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="8c769-105">يستطيع الموردون إكمال سلسلة من العمليات التجارية من مساحات العمل التالية:</span><span class="sxs-lookup"><span data-stu-id="8c769-105">Vendors can complete a series of business processes from the following workspaces:</span></span>
 

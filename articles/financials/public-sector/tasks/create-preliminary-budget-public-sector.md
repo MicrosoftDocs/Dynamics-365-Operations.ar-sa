@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a2c2dab44d771a7e7b662c808912940eed7473c5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16b6510e4bc9e844e4bdda372733507937c27315
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a><span data-ttu-id="690a0-103">إنشاء موازنة أولية للقطاع العام</span><span class="sxs-lookup"><span data-stu-id="690a0-103">Create a preliminary budget for public sector</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="690a0-104">يمكنك إنشاء إدخالات سجل موازنة أولية لقيم البعد ونموذج موازنة محدد.</span><span class="sxs-lookup"><span data-stu-id="690a0-104">You can create preliminary budget register entries for a specific budget model and dimension values.</span></span> <span data-ttu-id="690a0-105">وبعد الموافقة على الموازنة الفعلية، يمكنك إنشاء إدخالات سجل الموازنة الأصلية.</span><span class="sxs-lookup"><span data-stu-id="690a0-105">After the actual budget is approved, you can create original budget register entries.</span></span> <span data-ttu-id="690a0-106">تم إنشاء هذا الإجراء باستخدام شركة بيانات العرض التوضيحي PSUS في قسم القطاع العام.</span><span class="sxs-lookup"><span data-stu-id="690a0-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ff2357d5266c45be2f403e463c72089d73db21b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 829a0bbb1b5ab01728c096872b0ada27cfc570c9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-vendor-account"></a><span data-ttu-id="35c49-103">إنشاء حساب مورد</span><span class="sxs-lookup"><span data-stu-id="35c49-103">Create a vendor account</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="35c49-104">يوضح هذا الإجراء كيفية إنشاء حساب مورد، وإضافة عنوان ومعلومات الاتصال.</span><span class="sxs-lookup"><span data-stu-id="35c49-104">This procedure shows how to create a vendor account, and add an address and contact information.</span></span> <span data-ttu-id="35c49-105">ولا يوضح الإجراء كيفية ملء جميع الحقول لأغراض المشتريات والأغراض المالية.</span><span class="sxs-lookup"><span data-stu-id="35c49-105">The procedure does not show how to populate all fields for purchasing and financial purposes.</span></span> <span data-ttu-id="35c49-106">للتعرف على مزيد من المعلومات حول هذه الحقول، الرجاء قراءة أوصاف الحقول.</span><span class="sxs-lookup"><span data-stu-id="35c49-106">To learn more about those fields, please read the field descriptions.</span></span> <span data-ttu-id="35c49-107">يمكنك استخدام هذا الإجراء في شركة بيانات العرض التقديمي USMF، أو في البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="35c49-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="35c49-108">يتم إنشاء حسابات الموردين عادة بواسطة عاملين محترفين أو عاملي الحسابات المدينة.</span><span class="sxs-lookup"><span data-stu-id="35c49-108">Vendor accounts are typically created by a procurement professional or accounts receivable personnel.</span></span>
 

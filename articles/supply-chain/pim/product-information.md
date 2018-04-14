@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 981effde3f5e99035bcd790ee8d98cc6acf550fb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-information-overview"></a><span data-ttu-id="279a8-104">نظرة عامة على معلومات المنتجات</span><span class="sxs-lookup"><span data-stu-id="279a8-104">Product information overview</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="279a8-105">يوفر هذا الموضوع معلومات حول إدارة معلومات المنتج.</span><span class="sxs-lookup"><span data-stu-id="279a8-105">This topic provides information about product information management.</span></span> <span data-ttu-id="279a8-106">تعمل إدارة معلومات المنتج مع تعريف منتج مشترك وتصنيفه ومعرّفاته عبر كافة الكيانات القانونية، وكذلك التكوينات الخاصة بمنتج، لاحتوائها في العمليات التجارية.</span><span class="sxs-lookup"><span data-stu-id="279a8-106">Product information management works with a shared product definition, categorization, and identifiers across all legal entities, and also specific configurations of a product, to fit into the business processes.</span></span> 
 

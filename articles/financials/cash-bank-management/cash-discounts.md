@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 52e6003dfddc398c19055405bf936195febe0737
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-discounts"></a><span data-ttu-id="79f24-104">الخصومات النقدية</span><span class="sxs-lookup"><span data-stu-id="79f24-104">Cash discounts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="79f24-105">يتم إعداد الخصومات النقدية وتتم مشاركتها لكل من الحسابات الدائنة والحسابات المدينة.</span><span class="sxs-lookup"><span data-stu-id="79f24-105">Cash discounts are setup and shared for Accounts payable and Accounts receivable.</span></span>  <span data-ttu-id="79f24-106">يمكن تعريف الخصم النقدي المتوفر على فاتورة العميل أو فاتورة المورّد، وسيتم أخذه إذا تم دفع الفاتورة في غضون تاريخ الخصم النقدي.</span><span class="sxs-lookup"><span data-stu-id="79f24-106">The cash discount available can be defined on the customer invoice or vendor invoice, and will be taken if the invoice is paid within the cash discount date.</span></span> 
 
@@ -65,6 +64,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="79f24-135">1 مارس = 80</span><span class="sxs-lookup"><span data-stu-id="79f24-135">March 1 = 80</span></span>
 
 <span data-ttu-id="79f24-136">‏‫يتم ترحيل فاتورة بمبلغ 1000 دولار أمريكي بشروط خصم نقدي 20D2% في 15 شباط/فبراير.</span><span class="sxs-lookup"><span data-stu-id="79f24-136">An invoice for 1000 USD with cash discount terms of 20D2% is posted on February 15.</span></span> <span data-ttu-id="79f24-137">ومبلغ عملة المحاسبة للفاتورة يبلغ 1100 يورو.‬</span><span class="sxs-lookup"><span data-stu-id="79f24-137">The accounting currency amount of the invoice is 1100 EUR.</span></span> <span data-ttu-id="79f24-138">تتم تسوية دفعة بمبلغ 980 دولاراً بالفاتورة في 1 مارس.</span><span class="sxs-lookup"><span data-stu-id="79f24-138">A payment for 980 USD is settled with the invoice on March 1.</span></span> <span data-ttu-id="79f24-139">ومبلغ الخصم النقدي يساوي 20 دولاراً أمريكياً.‬</span><span class="sxs-lookup"><span data-stu-id="79f24-139">The cash discount amount is 20 USD.</span></span> <span data-ttu-id="79f24-140">مبلغ عملة المحاسبة للدفع هو 784 يورو.</span><span class="sxs-lookup"><span data-stu-id="79f24-140">The accounting currency amount of the payment is 784 EUR.</span></span> <span data-ttu-id="79f24-141">يتم حساب مبلغ عملة المحاسبة للخصم النقدي باستخدام سعر الصرف اعتبارًا من 1 آذار/مارس: 20 \* 80‏ / 100 = 16 يورو.</span><span class="sxs-lookup"><span data-stu-id="79f24-141">The accounting currency amount of the cash discount is calculated by using the exchange rate as of March 1: 20 \* 80 / 100 = 16 EUR.</span></span>
+
 | <span data-ttu-id="79f24-142">**ملاحظة**</span><span class="sxs-lookup"><span data-stu-id="79f24-142">**Note**</span></span>                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="79f24-143">إذا تم تحديد خيار حساب الخصومات النقدية للمدفوعات الجزئية في صفحتي معلمات الحسابات المدينة أو معلمات الحسابات الدائنة، فإنه يتم استخدام سعر الصرف المعمول به في تاريخ استخدام كل دفعة جزئية.</span><span class="sxs-lookup"><span data-stu-id="79f24-143">If the Calculate cash discounts for partial payments option is selected in the Accounts receivable parameters or Accounts payable parameters pages, the exchange rate that is in effect on the date of each partial payment is used.</span></span> |

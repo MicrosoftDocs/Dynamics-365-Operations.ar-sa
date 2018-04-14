@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: afe9d397872b9328b59f4036049ab53b3bba2aec
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 009f2760cdd98d9158209f2265e5423df75e8e73
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a><span data-ttu-id="a470c-103">تكوين الوجهات ‏‫للتقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="a470c-103">Configure destinations for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a470c-104">يوضح هذا الإجراء كيفية الإعداد واستخدام وجهات مختلفة لمكونات إخراج التقارير الإلكترونية (ER)، مثل مجلد أو ملف.</span><span class="sxs-lookup"><span data-stu-id="a470c-104">This procedure demonstrates how to set up and use different destinations for Electronic reporting (ER) output components, such as a folder or a file.</span></span> <span data-ttu-id="a470c-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي DEMF.</span><span class="sxs-lookup"><span data-stu-id="a470c-105">The demo data company used to create this procedure is DEMF.</span></span> <span data-ttu-id="a470c-106">تُعد ألمانيا بلد/منطقة العنوان الأساسي للكيان القانوني، على الرغم من ذلك، يمكنك استخدام أي كيان قانوني لهذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="a470c-106">Germany is the country\region of the legal entity’s primary address, however you can use any legal entity for this procedure.</span></span> 
 

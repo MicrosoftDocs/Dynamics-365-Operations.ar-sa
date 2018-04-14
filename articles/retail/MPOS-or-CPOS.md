@@ -19,16 +19,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7eb15f9f73f4773d98160e1b0ec5ce74c159cdea
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c8d63ab3dcde9c206f1c0ddd0185109a3298f5a4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a><span data-ttu-id="88d41-104">الاختيار بين نقطة البيع الحديثة ونقطة بيع المجموعة</span><span class="sxs-lookup"><span data-stu-id="88d41-104">Choose between Modern POS and Cloud POS</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="88d41-105">يوفر هذا الموضوع للمنفذين خلفية إضافية وتلميحات وإرشادات للعوامل التي يجب عليهم وضعها في الاعتبار عندما ينشرون Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="88d41-105">This topic gives implementers additional background, tips, and guidance for factors that they should consider when they deploy Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="88d41-106">ومن خلال مراجعة واتباع هذا الدليل كجزء من عملية النشر، يستطيع المنفذون تجنب المشكلات التي قد تؤثر على أداء المستخدم أو رضاه.</span><span class="sxs-lookup"><span data-stu-id="88d41-106">By reviewing and following this guidance as part of the deployment process, implementers can avoid issues that might affect user satisfaction or performance.</span></span>
 
@@ -92,8 +92,8 @@ ms.lasthandoff: 02/07/2018
 
     <span data-ttu-id="88d41-178">إذا لم يكن الاتصال بالنسبة لأحد الأجهزة يمكن الاعتماد عليه ويتسم بالمرونة بدرجة كبيرة، أو إذا لم تكن مدة معينة من وقت التعطل عن العمل مقبولة لبائع التجزئة، فإننا نوصي بأحد الخيارات التالية:</span><span class="sxs-lookup"><span data-stu-id="88d41-178">Unless the connectivity for a given device is very dependable and resilient, or unless a certain amount of downtime is acceptable to the retailer, we recommend one of the following options:</span></span>
 
-    - <span data-ttu-id="88d41-179">استخدام نقطة البيع الحديثة في نظام التشغيل Windows، وتمكين وضع دون الاتصال.</span><span class="sxs-lookup"><span data-stu-id="88d41-179">Use MPOS in Windows, and enable offline mode.</span></span>
-    - <span data-ttu-id="88d41-180">نشر وحدة قياس متجر البيع بالتجزئة‬ محلية.</span><span class="sxs-lookup"><span data-stu-id="88d41-180">Deploy an on-premises RSSU.</span></span>
+  - <span data-ttu-id="88d41-179">استخدام نقطة البيع الحديثة في نظام التشغيل Windows، وتمكين وضع دون الاتصال.</span><span class="sxs-lookup"><span data-stu-id="88d41-179">Use MPOS in Windows, and enable offline mode.</span></span>
+  - <span data-ttu-id="88d41-180">نشر وحدة قياس متجر البيع بالتجزئة‬ محلية.</span><span class="sxs-lookup"><span data-stu-id="88d41-180">Deploy an on-premises RSSU.</span></span>
 
     <span data-ttu-id="88d41-181">هذان الخيارين غير متبادلين بشكل حصري.</span><span class="sxs-lookup"><span data-stu-id="88d41-181">These two options aren't mutually exclusive.</span></span> <span data-ttu-id="88d41-182">بالنسة إلى المخطط الأكثر موثوقية، يستطيع بائعو التجزئة نشر وحدة قياس محلية لمتجر البيع بالتجزئة‬ لتقليل الاعتماد على الاتصال بالإنترنت أو توافر Azure، كما يمكنهم نشر سجلات نقطة البيع حيث تم تمكين وضع دون الاتصال، في حالة وجود أي مشكلة في الشبكة أو الخادم المحلي.</span><span class="sxs-lookup"><span data-stu-id="88d41-182">For the most reliable topology, retailers can deploy a local RSSU to reduce the dependency on internet connectivity or Azure availability, and they can also deploy POS registers where offline mode is enabled if there is an issue with the local server or network.</span></span>
 

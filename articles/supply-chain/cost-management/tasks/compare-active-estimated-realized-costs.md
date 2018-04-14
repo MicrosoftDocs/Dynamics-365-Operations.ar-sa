@@ -17,15 +17,15 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1429229096e8aa06bab982f07d0281bbbd5f7861
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c705c4e411909cee2996049b519f1055c413eaf2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="f7d0c-103">مقارنة التكاليف النشطة والمقدرة والمحققة في أمر إنتاج</span><span class="sxs-lookup"><span data-stu-id="f7d0c-103">Compare active, estimated, and realized costs on a production order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f7d0c-104">يوضح هذا الإجراء كيفية عرض أسباب فرق الإنتاج المرتفع في أمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="f7d0c-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="f7d0c-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="f7d0c-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f7d0c-106">هذا الإجراء مخصص لمراقب التكاليف‬.</span><span class="sxs-lookup"><span data-stu-id="f7d0c-106">This procedure is intended for the cost controller.</span></span>
 

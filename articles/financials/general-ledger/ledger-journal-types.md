@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60c7d291760ee5b8e597dbb42e10436279efd0c5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="ledger-journal-types"></a><span data-ttu-id="86d1c-104">أنواع دفاتر يومية دفتر الأستاذ</span><span class="sxs-lookup"><span data-stu-id="86d1c-104">Ledger journal types</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="86d1c-105">تصف هذه المقالة أنواع دفاتر اليومية التي يمكنك تعيينها لدفاتر اليومية المالية.</span><span class="sxs-lookup"><span data-stu-id="86d1c-105">This article describes the journal types that you can set up for financial journals.</span></span> <span data-ttu-id="86d1c-106">استخدم صفحة **أسماء دفاتر اليومية** لإعداد دفاتر اليومية التي يمكنك استخدامها في Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="86d1c-106">Use the **Journal names** page to set up journals that you can use throughout Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

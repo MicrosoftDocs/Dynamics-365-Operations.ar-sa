@@ -19,17 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="f1807-103">نظرة عامة على التدبير والتوريد</span><span class="sxs-lookup"><span data-stu-id="f1807-103">Procurement and sourcing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f1807-104">تقدم هذه المقالة نظرة عامة على الوظائف المتوفرة في الوحدة النمطية التدبير وتحديد الموارد‬.</span><span class="sxs-lookup"><span data-stu-id="f1807-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 <span data-ttu-id="f1807-108">قد تنشأ حاجة إلى منتجات أو الخدمات من *الطلبات*، على سبيل المثال، عندما يحتاج أحد الموظفين إلى منتج.</span><span class="sxs-lookup"><span data-stu-id="f1807-108">The need for products or services may arise from *requisitions*, for example, when an employee requires a product.</span></span> <span data-ttu-id="f1807-109">يمكن إعداد *كتالوجات المنتجات* لتوجيه اختيار المنتجات المتوفرة للتحديد من بينها، أو يمكن إجراء الطلبات لمنتجات لم تتوفر حتى الآن في كتالوج، مما يسمح لقسم المشتريات بمراعاة الكيفية التي يتم بها توريد المنتج.</span><span class="sxs-lookup"><span data-stu-id="f1807-109">*Product catalogs* can be set up to guide the selection of available products to select from, or requests can be made for products that are not yet made available in a catalog, allowing the purchasing department to consider how the product can be supplied.</span></span>  
 
 <span data-ttu-id="f1807-110">يمكن استخدام *حدود الإنفاق* لتقييد طلب الإنفاق، ويضيف *سير عمل الشراء* خيار طلب القبول قبل أن يتم الطلب.</span><span class="sxs-lookup"><span data-stu-id="f1807-110">*Spending limits* can be used to constrain requisition spending, and the *purchasing workflow* adds the option of requiring approval before ordering happen.</span></span> <span data-ttu-id="f1807-111">من الممكن أيضٍا تحديد توزيع أموال الموازنة، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="f1807-111">It's also possible to specify budget fund allocation, if required.</span></span>  
-  
+
 <span data-ttu-id="f1807-112">ويحدد قسم التدبير الموردين للخدمات والمنتجات المطلوبة، ويمكن أن ينطوي هذا على *طلب عرض أسعار* يتم إرساله إلى عدة موردين محتملين.</span><span class="sxs-lookup"><span data-stu-id="f1807-112">The procurement department identifies suppliers for required products and services, and this can involve a *request for quotation* being sent out to multiple potential suppliers.</span></span> <span data-ttu-id="f1807-113">ومن الممكن مشاركة مواصفات المنتج التي يتم طلبها ويمكن للموردين المحتملين عرضها لمعرفة إذا كان يمكنهم تسليم منتج يتوافق معها.</span><span class="sxs-lookup"><span data-stu-id="f1807-113">It's possible to share the specifications of the product that's being requested and potential vendors can view these to see if they can deliver a product that conforms with them.</span></span> <span data-ttu-id="f1807-114">ويقوم الموردون بإرجاع عطاءاتهم التي تتم مراجعتها فيما بعد من قِبل إدارة التدبير قبل قيامهم بتحديد المورد الذي يريدون تدبير المنتجات منه.</span><span class="sxs-lookup"><span data-stu-id="f1807-114">Vendors return their bids which are then reviewed by the procurement department before they select the supplier that they want to procure from.</span></span>  
 
 <span data-ttu-id="f1807-115">وتتضمن أوامر الشراء خياراً لإرسال *استعلام الشراء* للمورد كبديل لطلب عملية عرض أسعار أكثر شمولاً.</span><span class="sxs-lookup"><span data-stu-id="f1807-115">Purchase orders include an option to send out a *purchase inquiry* to the vendor as an alternative to a more comprehensive request for quotation process.</span></span> <span data-ttu-id="f1807-116">ويمكن استخدام استعلام الشراء للمساعدة في إنشاء مصطلحات مثل الأسعار والخصومات وتاريخ التسليم للأمر.</span><span class="sxs-lookup"><span data-stu-id="f1807-116">The purchase inquiry can be used to help establish terms like prices, discounts, and delivery date for the order.</span></span> <span data-ttu-id="f1807-117">إذا تم إعداد الموردين لاستخدام مدخل **المورد**، يتم تعطيل وظيفة الاستعلام عن الشراء.</span><span class="sxs-lookup"><span data-stu-id="f1807-117">If vendors are set up to use the **Vendor** portal, purchase inquiry functionality is disabled.</span></span> <span data-ttu-id="f1807-118">وبدلاً من مشاركة الأمر على مدخل **الموردين**، وعند إرسال *طلب تأكيد*، يمكن للمورد تأكيد الأمر مباشرةً.</span><span class="sxs-lookup"><span data-stu-id="f1807-118">Instead the order is shared on the **Vendor** portal, and when a *confirmation request* is sent the vendor can directly confirm the order.</span></span>  

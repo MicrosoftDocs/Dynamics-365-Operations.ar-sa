@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: e9b22a6f846607e8afc5d4f01c685f1364b1c01d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9089b9ad773890424a6f73107a26a35a32e988ae
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-request-configurations"></a><span data-ttu-id="ca33f-103">تكوينات طلب المورّد</span><span class="sxs-lookup"><span data-stu-id="ca33f-103">Vendor request configurations</span></span>
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ca33f-104">لإكمال طلب مورد، يجب على جهة اتصال المورد إكمال معالج تسجيل المورد المتوقع.</span><span class="sxs-lookup"><span data-stu-id="ca33f-104">To complete a vendor request, a vendor contact person must complete the prospective vendor registration wizard.</span></span>
 
@@ -39,12 +39,12 @@ ms.lasthandoff: 02/08/2018
 
 <span data-ttu-id="ca33f-111">يتعذر تحديد البلد/المناطق للتكوين الافتراضي، وبالتالي لا يمكن تغيير قسم **البلاد/المناطق**.</span><span class="sxs-lookup"><span data-stu-id="ca33f-111">It is not possible to select country/regions for the default configuration, so the **Countries/regions** section cannot be changed.</span></span>
 
-1.  <span data-ttu-id="ca33f-112">انقر فوق **‬‏‫التدبير وتحديد الموارد‬‏‫** > **الإعداد** > **الموردون**، ثم انقر فوق **تكوينات طلب المورد**.</span><span class="sxs-lookup"><span data-stu-id="ca33f-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
-2.  <span data-ttu-id="ca33f-113">انقر فوق علامة التبويب **الحقول** لتعيين حالة الحقول المسرودة.</span><span class="sxs-lookup"><span data-stu-id="ca33f-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
--   <span data-ttu-id="ca33f-114">مخفي (غير مرئي)</span><span class="sxs-lookup"><span data-stu-id="ca33f-114">Hidden (Not visible)</span></span>
--   <span data-ttu-id="ca33f-115">معروض (مرئي لكن ليس إلزامياً)</span><span class="sxs-lookup"><span data-stu-id="ca33f-115">Displayed (Visible but not mandatory)</span></span>
--   <span data-ttu-id="ca33f-116">مطلوب (مرئي وإلزامي)</span><span class="sxs-lookup"><span data-stu-id="ca33f-116">Required (Visible and mandatory)</span></span>
-3.  <span data-ttu-id="ca33f-117">انقر فوق علامة التبويب **المحتوى** لتحديد إذا كان سيتم عرض النص في المعالج، وإذا كان سيقر مستخدم المورد المتوقع بالموافقة على هذا قبل الانتقال إلى الخطوة التالية في المعالج.</span><span class="sxs-lookup"><span data-stu-id="ca33f-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="ca33f-118">ستتم المطالبة بالإقرار بأي بنود وشروط يجب أن يقبلها المستخدم للمتابعة.</span><span class="sxs-lookup"><span data-stu-id="ca33f-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
+1. <span data-ttu-id="ca33f-112">انقر فوق **‬‏‫التدبير وتحديد الموارد‬‏‫** > **الإعداد** > **الموردون**، ثم انقر فوق **تكوينات طلب المورد**.</span><span class="sxs-lookup"><span data-stu-id="ca33f-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
+2. <span data-ttu-id="ca33f-113">انقر فوق علامة التبويب **الحقول** لتعيين حالة الحقول المسرودة.</span><span class="sxs-lookup"><span data-stu-id="ca33f-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
+3. <span data-ttu-id="ca33f-114">مخفي (غير مرئي)</span><span class="sxs-lookup"><span data-stu-id="ca33f-114">Hidden (Not visible)</span></span>
+4. <span data-ttu-id="ca33f-115">معروض (مرئي لكن ليس إلزامياً)</span><span class="sxs-lookup"><span data-stu-id="ca33f-115">Displayed (Visible but not mandatory)</span></span>
+5. <span data-ttu-id="ca33f-116">مطلوب (مرئي وإلزامي)</span><span class="sxs-lookup"><span data-stu-id="ca33f-116">Required (Visible and mandatory)</span></span>
+6. <span data-ttu-id="ca33f-117">انقر فوق علامة التبويب **المحتوى** لتحديد إذا كان سيتم عرض النص في المعالج، وإذا كان سيقر مستخدم المورد المتوقع بالموافقة على هذا قبل الانتقال إلى الخطوة التالية في المعالج.</span><span class="sxs-lookup"><span data-stu-id="ca33f-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="ca33f-118">ستتم المطالبة بالإقرار بأي بنود وشروط يجب أن يقبلها المستخدم للمتابعة.</span><span class="sxs-lookup"><span data-stu-id="ca33f-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
 
 <span data-ttu-id="ca33f-119">يمكنك أيضا إدخال رسالة تأكيد ستظهر عند الانتهاء من المعالج، ويمكنك إضافة استبيان أو أكثر.</span><span class="sxs-lookup"><span data-stu-id="ca33f-119">You can also enter a confirmation message that will be displayed when the wizard is finalized, and you can add one or more questionnaires.</span></span>
 

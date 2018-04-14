@@ -16,17 +16,16 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 01233890603f6f199b7a815eb91d1d5a7f2ae53e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ccb18a677e5d43fc0fab7646d575b13e22f47e13
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cfo-overview-power-bi-content"></a><span data-ttu-id="57f28-103">محتوى Power BI - نظرة عامة على المدير المالي</span><span class="sxs-lookup"><span data-stu-id="57f28-103">CFO overview Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)] 
 
 <span data-ttu-id="57f28-104">يقدم هذا الموضوع وصفًا لمحتوى Microsoft Power BI **نظرة عامة على المدير المالي**.</span><span class="sxs-lookup"><span data-stu-id="57f28-104">This topic describes the **CFO overview** Microsoft Power BI content.</span></span> <span data-ttu-id="57f28-105">ينطبق محتوى Power BI على أولئك الذين يستخدمون الإصدار 7.2 من Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="57f28-105">This Power BI content applies to those using Microsoft Dynamics 365 for Finance and Operations version 7.2.</span></span> <span data-ttu-id="57f28-106">إذا كنت تستخدم الإصدار 7.3 أو إصدار أحدث، فيُرجى الرجوع إلى [المعلومات المالية](financial-insights.md).</span><span class="sxs-lookup"><span data-stu-id="57f28-106">If you are using version 7.3 or later, please refer to [Financial Insights](financial-insights.md).</span></span>
 

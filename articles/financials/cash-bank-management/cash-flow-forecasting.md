@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c85cc9e5760f86489e1b2a27198e8c9cce25eda6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-flow-forecasting"></a><span data-ttu-id="06e78-104">تقدير التدفقات النقدية</span><span class="sxs-lookup"><span data-stu-id="06e78-104">Cash flow forecasting</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="06e78-105">يمكنك استخدام أداة تقدير التدفقات النقدية لتحليل التدفقات النقدية المقبلة ومتطلبات العملة، بحيث تتمكن من تقدير الاحتياجات النقدية المستقبلية للشركة.</span><span class="sxs-lookup"><span data-stu-id="06e78-105">You can use the cash flow forecasting tools to analyze upcoming cash flow and currency requirements, so that you can estimate the company's future need for cash.</span></span> <span data-ttu-id="06e78-106">للحصول على تقدير للتدفق النقدي، يجب عليك إكمال المهام التالية:</span><span class="sxs-lookup"><span data-stu-id="06e78-106">To obtain a forecast of the cash flow, you must complete the following tasks:</span></span>
 

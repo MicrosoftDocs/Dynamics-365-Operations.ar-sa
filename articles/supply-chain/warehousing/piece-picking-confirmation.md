@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b1868851d22f41d3278cd9574a48bdf062185012
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="3b72d-103">تأكيد انتقاء الأجزاء</span><span class="sxs-lookup"><span data-stu-id="3b72d-103">Piece picking confirmation</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3b72d-104">يسمح لك انتقاء الأجزاء بتأكيد كل جزء من المخزون من خلال الانتقاء أو الجرد على جهاز محمول.</span><span class="sxs-lookup"><span data-stu-id="3b72d-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="3b72d-105">بالنسبة إلى عمليات الانتقاء، يمكنك تأكيد كمية العمل التي ستتم معالجتها وصولاً إلى الكمية المحددة في العمل المراد انتقاؤه.</span><span class="sxs-lookup"><span data-stu-id="3b72d-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="3b72d-106">بالنسبة إلى الجرد، يمكنك فحص المخزون الذي تجري جردًا له وتعقب المبلغ الإجمالي.</span><span class="sxs-lookup"><span data-stu-id="3b72d-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
@@ -46,8 +46,10 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="3b72d-122">تصبح الخيارات التالية متوفرة للاختيار منها عندما يكون نوع العمل انتقاء أو جرد.</span><span class="sxs-lookup"><span data-stu-id="3b72d-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| <span data-ttu-id="3b72d-123">الخيار</span><span class="sxs-lookup"><span data-stu-id="3b72d-123">Option</span></span>        | <span data-ttu-id="3b72d-124">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="3b72d-124">Description</span></span>   | 
-| ------------- | ------------- |
-| <span data-ttu-id="3b72d-125">تأكيد انتقاء الأجزاء</span><span class="sxs-lookup"><span data-stu-id="3b72d-125">Piece picking confirmation</span></span>   | <span data-ttu-id="3b72d-126">أنواع العمل المتوفرة للانتقاء والجرد.</span><span class="sxs-lookup"><span data-stu-id="3b72d-126">Available for pick and counting work types.</span></span> <span data-ttu-id="3b72d-127">يتم تحديد تأكيد المنتج تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="3b72d-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="3b72d-128">يسمح لك بتأكيد كل جزء من المخزون من الهاتف المحمول.</span><span class="sxs-lookup"><span data-stu-id="3b72d-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
-| <span data-ttu-id="3b72d-129">أقصى عدد للأجزاء</span><span class="sxs-lookup"><span data-stu-id="3b72d-129">Maximum number of pieces</span></span>     | <span data-ttu-id="3b72d-130">متوفر لعمل الانتقاء إذا تم تمكين تأكيد انتقاء الأجزاء.</span><span class="sxs-lookup"><span data-stu-id="3b72d-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="3b72d-131">تعيين حد لعدد الأجزاء التي يجب عليك تأكيدها.</span><span class="sxs-lookup"><span data-stu-id="3b72d-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
+
+|           <span data-ttu-id="3b72d-123">الخيار</span><span class="sxs-lookup"><span data-stu-id="3b72d-123">Option</span></span>           |                                                                            <span data-ttu-id="3b72d-124">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="3b72d-124">Description</span></span>                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="3b72d-125">تأكيد انتقاء الأجزاء</span><span class="sxs-lookup"><span data-stu-id="3b72d-125">Piece picking confirmation</span></span> | <span data-ttu-id="3b72d-126">أنواع العمل المتوفرة للانتقاء والجرد.</span><span class="sxs-lookup"><span data-stu-id="3b72d-126">Available for pick and counting work types.</span></span> <span data-ttu-id="3b72d-127">يتم تحديد تأكيد المنتج تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="3b72d-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="3b72d-128">يسمح لك بتأكيد كل جزء من المخزون من الهاتف المحمول.</span><span class="sxs-lookup"><span data-stu-id="3b72d-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> |
+|  <span data-ttu-id="3b72d-129">أقصى عدد للأجزاء</span><span class="sxs-lookup"><span data-stu-id="3b72d-129">Maximum number of pieces</span></span>  |                   <span data-ttu-id="3b72d-130">متوفر لعمل الانتقاء إذا تم تمكين تأكيد انتقاء الأجزاء.</span><span class="sxs-lookup"><span data-stu-id="3b72d-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="3b72d-131">تعيين حد لعدد الأجزاء التي يجب عليك تأكيدها.</span><span class="sxs-lookup"><span data-stu-id="3b72d-131">Sets a limit to the number of pieces that you must confirm.</span></span>                   |
+
 

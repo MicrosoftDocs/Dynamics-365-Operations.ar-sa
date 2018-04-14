@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: a98e58b26432ee01e62d60f81a768f14568e34e4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0ad0869907b23ce5e0b44e3e9ecee3f2cd34ede
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="ship-sales-orders-without-warehousing"></a><span data-ttu-id="11ff7-103">شحن أوامر المبيعات دون تخزين</span><span class="sxs-lookup"><span data-stu-id="11ff7-103">Ship sales orders without warehousing</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="11ff7-104">يوضح هذا الدليل كيفية تحديث أمر مبيعات عند شحن المنتجات إلى العميل.</span><span class="sxs-lookup"><span data-stu-id="11ff7-104">This guide demonstrates how to update a sales order when products are shipped to the customer.</span></span> <span data-ttu-id="11ff7-105">وينطبق الدليل على تدفق التنفيذ الذي لا يتم إعداده لإدارة المستودعات (ليس المستودع الأساسية أو المتقدم)، ولذلك لا يتطلب تسجيل انتقاء المنتجات قبل الشحن.</span><span class="sxs-lookup"><span data-stu-id="11ff7-105">The guide is applicable to the fulfillment flow that is not set up for warehouse management (neither basic or advanced warehousing), and therefore does not require product picking to be registered before shipment.</span></span> <span data-ttu-id="11ff7-106">يمكنك تنفيذ هذا الإجراء في البيانات الخاصة بك أو في شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="11ff7-106">You can run this procedure on your own data or in demo data company USMF.</span></span> <span data-ttu-id="11ff7-107">في الحالتين، قبل أن تبدأ هذه المهمة، أنشئ أمر مبيعات لمنتج مسجل في المخزون كميته أكبر من 1.</span><span class="sxs-lookup"><span data-stu-id="11ff7-107">In both cases, before you start this task, create a sales order for an inventoried product with a quantity of greater than 1.</span></span> <span data-ttu-id="11ff7-108">لتجنب حدوث خطأ في الترحيل، يجب عليك أن تتأكد من أن كمية المنتج الفعلية في الموقع والمستودع التي حددتها في الأمر تغطي كمية الأمر.</span><span class="sxs-lookup"><span data-stu-id="11ff7-108">To avoid a posting error, you need to check that the product's on-hand quantity in the site and warehouse that you’ve selected on the order covers the order quantity.</span></span>
 

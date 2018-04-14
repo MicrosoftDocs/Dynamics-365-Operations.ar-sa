@@ -19,16 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 4963cc5fb94097ef831813e7732961821c20ad25
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 37f3b1b4d362bd8b40977648b4aa4387011eea08
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a><span data-ttu-id="4549e-104">محتوى Power BI لتحليل إنفاق الشراء</span><span class="sxs-lookup"><span data-stu-id="4549e-104">Purchase spend analysis Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4549e-105">يوضح هذا الموضوع ما هو مدرج في محتوى Power BI **تحليل الإنفاق على الشراء‬**.</span><span class="sxs-lookup"><span data-stu-id="4549e-105">This topic describes what is included in the **Purchase spend analysis** Microsoft Power BI content.</span></span> <span data-ttu-id="4549e-106">فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى.</span><span class="sxs-lookup"><span data-stu-id="4549e-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -131,7 +131,7 @@ ms.lasthandoff: 01/17/2018
 </tbody>
 </table>
 
-<span data-ttu-id="4549e-160">\\* الشراء في العام الماضي وهذا العام، والنمو حسب فئة التدبير</span><span class="sxs-lookup"><span data-stu-id="4549e-160">\\* Purchase this year and last year, and growth by procurement category</span></span>
+<span data-ttu-id="4549e-160">\* الشراء في العام الماضي وهذا العام، والنمو حسب فئة التدبير</span><span class="sxs-lookup"><span data-stu-id="4549e-160">\* Purchase this year and last year, and growth by procurement category</span></span>
 
 ## <a name="data-model-and-entities"></a><span data-ttu-id="4549e-161">نموذج البيانات والكيانات</span><span class="sxs-lookup"><span data-stu-id="4549e-161">Data model and entities</span></span>
 <span data-ttu-id="4549e-162">تُستخدم البيانات التالية لملء صفحات التقارير في محتوى Power BI **تحليل الإنفاق على الشراء**.</span><span class="sxs-lookup"><span data-stu-id="4549e-162">The following data is used to fill the report pages in the **Purchase spend analysis** Power BI content.</span></span> <span data-ttu-id="4549e-163">يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات.</span><span class="sxs-lookup"><span data-stu-id="4549e-163">This data is represented as aggregate measurements that are staged in the Entity store.</span></span> <span data-ttu-id="4549e-164">مخزن الكيانات هو قاعدة بيانات لخادم Microsoft SQL تم تحسينها للتحليلات.</span><span class="sxs-lookup"><span data-stu-id="4549e-164">The Entity store is a Microsoft SQL Server database that is optimized for analytics.</span></span> <span data-ttu-id="4549e-165">لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع متجر الكيان](power-bi-integration-entity-store.md).</span><span class="sxs-lookup"><span data-stu-id="4549e-165">For more information, see [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span>

@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b06a5385d7c33ddcfe6bfabbfda6a1f7fa99aada
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 84e4a714b1233a0fb4ebb04757ba12a5d14d6f44
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-sepa-direct-debit-mandate"></a><span data-ttu-id="3f3e3-103">إعداد تفويض الخصم المباشر عن طريق سيبا‬</span><span class="sxs-lookup"><span data-stu-id="3f3e3-103">Set up SEPA direct debit mandate</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3f3e3-104">يتيح الخصم المباشر لمنطقة دفع يورو واحدة (SEPA) جمع أموال من الحساب البنكي للعميل، شريطة منح أمر رسمي مُوقَع من العميل إلى الدائن.</span><span class="sxs-lookup"><span data-stu-id="3f3e3-104">A Single Euro Payment Area (SEPA) direct debit lets a creditor collect funds from a customer's bank account, provided that the customer has granted a signed mandate to the creditor.</span></span> <span data-ttu-id="3f3e3-105">ويوقع العميل أمرًا رسميًا يأذن فيه للدائن بجمع الدفع ويوجه بنك العميل لدفع التحصيل.</span><span class="sxs-lookup"><span data-stu-id="3f3e3-105">The mandate that the customer signs authorizes the creditor to collect a payment and instructs the customer's bank to pay the collection.</span></span> <span data-ttu-id="3f3e3-106">تم تنظيم هذا الموضوع لعرض عملية إعداد الأوامر الرسمية لخصم سيبا المباشر.‬</span><span class="sxs-lookup"><span data-stu-id="3f3e3-106">This topic is organized to show the process for setting up SEPA direct debit mandates.</span></span>
 

@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="222b5-104">نشر المستندات وبنود دفتر اليومية من Excel</span><span class="sxs-lookup"><span data-stu-id="222b5-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="222b5-105">‏‫يشرح هذا الموضوع كيفية إدخال ونشر بنود لدفاتر اليومية العامة من Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="222b5-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="222b5-106">كما يتضمن معلومات حول القوالب المتعددة التي يمكنك استخدامها، اعتماداً على نوع الحركات التي تقوم بإدخالها.</span><span class="sxs-lookup"><span data-stu-id="222b5-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="222b5-107">يمكن للمستخدمين إدخال ونشر بنود دفاتر اليومية المالية من Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="222b5-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="222b5-108">بعد أن يقوم مستخدم بإنشاء دفتر يومية، يعرض الزر **‬‏‫فتح البنود في Excel** القوالب المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="222b5-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="222b5-109">يتم تصميم القوالب لدعم سيناريوهات محددة، لكن لا يتم دعم كل مجموعة من أنواع الحسابات في دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="222b5-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="222b5-110">يعرض الجدول التالي القوالب المتوفرة وأنواع الحسابات التي تدعمها.</span><span class="sxs-lookup"><span data-stu-id="222b5-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="222b5-111">**القالب**</span><span class="sxs-lookup"><span data-stu-id="222b5-111">**Template**</span></span>             | <span data-ttu-id="222b5-112">**أنواع الحسابات المعتمدة**</span><span class="sxs-lookup"><span data-stu-id="222b5-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="222b5-113">**كيفية الوصول إلى القالب**</span><span class="sxs-lookup"><span data-stu-id="222b5-113">**How to access the template**</span></span>                                                          |

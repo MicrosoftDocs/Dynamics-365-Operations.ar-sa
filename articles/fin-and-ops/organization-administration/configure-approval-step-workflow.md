@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c142534e9e5b5f154f478889d13540dc3d47ad18
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-an-approval-step-in-a-workflow"></a><span data-ttu-id="66e2a-103">تكوين خطوة اعتماد في سير عمل</span><span class="sxs-lookup"><span data-stu-id="66e2a-103">Configure an approval step in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="66e2a-104">يوضح هذا الموضوع كيفية تكوين خصائص خطوة اعتماد.</span><span class="sxs-lookup"><span data-stu-id="66e2a-104">This topic explains how to configure the properties of an approval step.</span></span>
 
@@ -145,9 +144,9 @@ ms.lasthandoff: 11/03/2017
     <span data-ttu-id="66e2a-192">إذا لم يتخذ المستخدم أي إجراء بشأن المستند في الوقت المحدد، فسيتم اعتبار المستند متأخرًا.‬</span><span class="sxs-lookup"><span data-stu-id="66e2a-192">If the user doesn't take action on the document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="66e2a-193">يتم تصعيد المستند المتأخر، استنادًا إلى الخيارات التي تحددها في ناحية **التصعيد** في الصفحة.</span><span class="sxs-lookup"><span data-stu-id="66e2a-193">A document that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
 4.  <span data-ttu-id="66e2a-194">إذا قمت بتعيين خطوة الاعتماد لعدة مستخدمين أو مجموعة مستخدمين، على علامة التبويب **سياسة الإكمال**، حدد أحد الخيارات التالية:</span><span class="sxs-lookup"><span data-stu-id="66e2a-194">If you assigned the approval step to multiple users or a group of users, on the **Completion policy** tab, select one of the following options:</span></span>
     -   <span data-ttu-id="66e2a-195">**معتمد واحد** – سيتم تحديد الإجراء المطبَّق على المستند من قِبل أول شخص مستجيب.</span><span class="sxs-lookup"><span data-stu-id="66e2a-195">**Single approver** – The action that is applied to the document is determined by the first person who responds.</span></span> <span data-ttu-id="66e2a-196">على سبيل المثال، قام سامي بتقديم تقرير مصروفات بمبلغ 15,000 دولار.</span><span class="sxs-lookup"><span data-stu-id="66e2a-196">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="66e2a-197">تم تعيين تقرير المصروفات حاليًا لكل من سمر وهبة وهاني.</span><span class="sxs-lookup"><span data-stu-id="66e2a-197">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="66e2a-198">فإذا كانت سمر أول شخص يستجيب للمستند، فسيتم تطبيق الإجراء الذي تتخذه على المستند.</span><span class="sxs-lookup"><span data-stu-id="66e2a-198">If Sue is the first person who responds to the document, the action that she takes is applied to the document.</span></span> <span data-ttu-id="66e2a-199">أما إذا قامت سمر برفض المستند، فسيتم رفضه وإرجاعه إلى سامي.</span><span class="sxs-lookup"><span data-stu-id="66e2a-199">If Sue rejects the document, it's rejected and sent back to Sam.</span></span> <span data-ttu-id="66e2a-200">وبعد أن تعتمد سمر المستند، يتم إرساله إلى أمل لاعتماده.</span><span class="sxs-lookup"><span data-stu-id="66e2a-200">If Sue approves the document, it's sent to Ann for approval.</span></span> 
-    
+
     ![سير عمل لديه عملية اعتماد](./media/workflow_multipleusersinstep.gif)
-    
+
     -   <span data-ttu-id="66e2a-202">**أغلبية المعتمدين‬** – سيتم تحديد الإجراء المطبَّق على المستند عند استجابة أغلبية المعتمدين.</span><span class="sxs-lookup"><span data-stu-id="66e2a-202">**Majority of approvers** – The action that is applied to the document is determined when most of the approvers respond.</span></span> <span data-ttu-id="66e2a-203">على سبيل المثال، قام سامي بتقديم تقرير مصروفات بمبلغ 15,000 دولار.</span><span class="sxs-lookup"><span data-stu-id="66e2a-203">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="66e2a-204">تم تعيين تقرير المصروفات حاليًا لكل من سمر وهبة وهاني.</span><span class="sxs-lookup"><span data-stu-id="66e2a-204">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="66e2a-205">إذا كان كل من سمر وهبة أول شخصين مستجيبين، فسيتم تطبيق الإجراء المتخذ من قِبلهما على المستند.</span><span class="sxs-lookup"><span data-stu-id="66e2a-205">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document.</span></span>
         -   <span data-ttu-id="66e2a-206">إذا تم اعتماد المستند من قِبل سمر ولكن هبة رفضته، فسيتم رفض المستند وإرجاعه إلى سامي.</span><span class="sxs-lookup"><span data-stu-id="66e2a-206">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
         -   <span data-ttu-id="66e2a-207">إذا تم اعتماد المستند من قِبل كل من سمر وهبة، فسيتم إرساله إلى أمل لاعتماده.</span><span class="sxs-lookup"><span data-stu-id="66e2a-207">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>

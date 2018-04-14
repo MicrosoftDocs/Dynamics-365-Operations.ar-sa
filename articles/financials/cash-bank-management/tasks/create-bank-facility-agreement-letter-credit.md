@@ -16,15 +16,15 @@ ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ac3394a40bff3aaee6a76448633e4f36c4049612
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 36ad4d552297020a92206674f4fbf12203ecf84c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="34ea3-103">إنشاء اتفاقية تسهيلات مصرفية لخطاب الاعتماد</span><span class="sxs-lookup"><span data-stu-id="34ea3-103">Create a bank facility agreement for a letter of credit</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="34ea3-104">تنقلك هذه المهمة عبر عملية إنشاء اتفاقية التسهيلات البنكية‬ لمعالجة خطاب اعتماد.</span><span class="sxs-lookup"><span data-stu-id="34ea3-104">This task walks through the creating a Bank facility agreement to process a Letter of credit.</span></span> <span data-ttu-id="34ea3-105">ستحتاج إلى إعداد التسهيلات البنكية وملفات تعريف الترحيل قبل هذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="34ea3-105">You will want to set up bank facilities and posting profiles before this task.</span></span>  <span data-ttu-id="34ea3-106">تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="34ea3-106">This task uses the demo company 'USMF'.</span></span>  
 

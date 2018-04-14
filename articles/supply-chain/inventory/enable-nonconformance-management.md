@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f25026679f1e37f8c041de9ef240581cf9423a01
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0156d9cbe8bcd19825fa7fb96a84d675ba99709f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="nonconformance-management"></a><span data-ttu-id="bec7b-104">إدارة عدم المطابقة</span><span class="sxs-lookup"><span data-stu-id="bec7b-104">Nonconformance management</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bec7b-105">توضح هذه المقالة الإعداد الأساسي المطلوب لاستخدام حالات عدم المطابقة.</span><span class="sxs-lookup"><span data-stu-id="bec7b-105">This article describes the basic setup that is required in order to use nonconformances.</span></span> <span data-ttu-id="bec7b-106">ستحتاج إلى إجراء إعداد إضافي إذا كنت تريد استخدام أوامر الجودة.</span><span class="sxs-lookup"><span data-stu-id="bec7b-106">Additional setup is required if you want to use quality orders.</span></span>
 

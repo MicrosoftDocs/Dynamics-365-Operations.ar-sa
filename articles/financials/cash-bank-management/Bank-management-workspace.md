@@ -17,15 +17,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 68fe68ba92495eb089e9b38cfbd42eba05b7dc47
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="a4068-106">مساحة عمل إدارة البنك</span><span class="sxs-lookup"><span data-stu-id="a4068-106">Bank management workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a4068-107">توضح مساحة عمل **إدارة البنك** المعلومات المرتبطة بالحسابات البنكية للشركة.</span><span class="sxs-lookup"><span data-stu-id="a4068-107">The **Bank management** workspace shows information that is related to company bank accounts.</span></span> <span data-ttu-id="a4068-108">تتضمن مساحة العمل هذه عرض **ملخص** وصفحة **تحليلات**.</span><span class="sxs-lookup"><span data-stu-id="a4068-108">This workspace includes a **Summary** view and an **Analytics** page.</span></span> <span data-ttu-id="a4068-109">توضح طريقة عرض **الملخص** لوحات الملخص، ومعلومات الحساب البنكي، ومخطط الرصيد والمعلومات ذات الصلة.</span><span class="sxs-lookup"><span data-stu-id="a4068-109">The **Summary** view shows summary tiles, bank account information, a balance chart, and related information.</span></span> <span data-ttu-id="a4068-110">تستخدم صفحة **التحليلات** إمكانيات Microsoft Power BI لعرض المرئيات ذات الصلة بأرصدة الحسابات البنكية.</span><span class="sxs-lookup"><span data-stu-id="a4068-110">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to bank account balances.</span></span>
 

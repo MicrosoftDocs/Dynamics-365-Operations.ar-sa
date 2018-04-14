@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a7dba99c08d4dfc6afd1047130cea51b6bdab1d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8a91074fb6d8bca223d9b143763b2be580a08cd4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-a-recruiting-process"></a><span data-ttu-id="1ac84-103">إدارة عملية التعيين</span><span class="sxs-lookup"><span data-stu-id="1ac84-103">Manage a recruiting process</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1ac84-104">يوضح هذا الموضوع مفهوم يمكن للمُعينين استخدامه لتعقب خطوات عملية تعيين، بما في ذلك الجهود الرامية إلى الإعلان عن مناصب شاغرة وتوظيف مقدمي الطلبات، وتعقب مقدم الطلب ومعلومات مقدم الطلب، وإجراء المقابلات مع مقدمي الطلبات، وتحديد واحد أو أكثر من المرشحين لشغل المناصب الشاغرة في المؤسسة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="1ac84-104">This topic describes a concept that recruiters can use to track the steps in a recruiting process, including efforts to advertise open positions and recruit applicants, tracking applicant and application information, interviewing applicants, and selecting one or more candidates to fill the open positions in your organization.</span></span>
 
