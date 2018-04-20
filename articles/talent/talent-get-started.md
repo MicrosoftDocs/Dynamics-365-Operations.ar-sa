@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
+ms.sourcegitcommit: 3662bb1a20fbdd3769b94247ac071a7cfd7e04f1
+ms.openlocfilehash: 94c07d18de06a75ad86d69d7c06a78e446f0b506
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/20/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="82a9c-103">بدء استخدام Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="82a9c-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 > [!NOTE] 
 > <span data-ttu-id="82a9c-107">ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="82a9c-107">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="82a9c-108">قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها.</span><span class="sxs-lookup"><span data-stu-id="82a9c-108">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="82a9c-109">ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="82a9c-109">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="82a9c-110">قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.</span><span class="sxs-lookup"><span data-stu-id="82a9c-110">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-### <a name="personalizing-talent"></a><span data-ttu-id="82a9c-111">إضفاء طابع شخصي على المواهب</span><span class="sxs-lookup"><span data-stu-id="82a9c-111">Personalizing Talent</span></span> 
+## <a name="personalizing-talent"></a><span data-ttu-id="82a9c-111">إضفاء طابع شخصي على المواهب</span><span class="sxs-lookup"><span data-stu-id="82a9c-111">Personalizing Talent</span></span> 
 <span data-ttu-id="82a9c-112">توضح المواضيع التالية كيفية إعداد العديد من الميزات في Dynamics 365 for Talent التي تسهل لك إتمام عملك في الوقت مناسب.</span><span class="sxs-lookup"><span data-stu-id="82a9c-112">The following topics show how to set up many features in Dynamics 365 for Talent that make it easier for you to get your work done in a timely manner.</span></span> 
 
 -   <span data-ttu-id="82a9c-113">[إضفاء الطابع الشخصي على تجربة المستخدم](../fin-and-ops/get-started/personalize-user-experience.md) -يشرح هذا الموضوع الطرق المختلفة التي يمكن من خلالها إضفاء الطابع الشخصي على الموهبة وتهيئة أجزاء من المنتج لتلائم مجموعة التفضيلات الخاصة بك بشكل أفضل.</span><span class="sxs-lookup"><span data-stu-id="82a9c-113">[Personalize the user experience](../fin-and-ops/get-started/personalize-user-experience.md) - This topic explains the different ways in which you can personalize Talent and adapt parts of the product to more closely suite your preferences.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 -   <span data-ttu-id="82a9c-117">[اختصارات لوحة المفاتيح](../fin-and-ops/get-started/shortcut-keys.md) -يسرد هذا الموضوع اختصارات لوحة المفاتيح المستخدمة لتخطيط لوحة المفاتيح بالولايات المتحدة الأمريكية.</span><span class="sxs-lookup"><span data-stu-id="82a9c-117">[Keyboard shortcuts](../fin-and-ops/get-started/shortcut-keys.md) - This topic lists keyboard shortcuts for the United States keyboard layout.</span></span> 
 
-### <a name="accessing-information"></a><span data-ttu-id="82a9c-118">الوصول للمعلومات</span><span class="sxs-lookup"><span data-stu-id="82a9c-118">Accessing information</span></span>
+## <a name="accessing-information"></a><span data-ttu-id="82a9c-118">الوصول للمعلومات</span><span class="sxs-lookup"><span data-stu-id="82a9c-118">Accessing information</span></span>
 <span data-ttu-id="82a9c-119">توضح الموضوعات التالية كيفية استخدام عمليات البحث، وميزات البحث والتصفية، للبحث عن المعلومات بسرعة.</span><span class="sxs-lookup"><span data-stu-id="82a9c-119">The following topics explain how to use lookups, and the search and filtering features, to find information quickly.</span></span> 
 
 -   <span data-ttu-id="82a9c-120">[استخدام عمليات البحث للبحث عن المعلومات](../fin-and-ops/get-started/use-lookups-to-find-information.md) -يوضح هذا الموضوع كيفية قيام عمليات البحث بالمساعدة في العثور على القيمة الصحيحة أو المطلوبة بسرعة.</span><span class="sxs-lookup"><span data-stu-id="82a9c-120">[Use lookups to find information](../fin-and-ops/get-started/use-lookups-to-find-information.md) - This topic shows how lookups can help you quickly find the correct or desired value.</span></span> <span data-ttu-id="82a9c-121">يصف الموضوع كيفية عمل عمليات البحث ويتضمن تلميحات للمساعدة في تحسين استخدامك لها.</span><span class="sxs-lookup"><span data-stu-id="82a9c-121">The topic describes how lookups work and includes tips to help you optimize your use of them.</span></span>
