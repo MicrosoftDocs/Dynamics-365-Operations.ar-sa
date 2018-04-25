@@ -3,12 +3,12 @@ title: "الصفحة الرئيسية لإدارة التكلفة"
 description: "تسمح لك إدارة التكلفة بالتعامل مع تقييم وحساب المواد الخام والسلع شبه النهائية والسلع النهائية وأصول العمل قيد التقدم‬."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
