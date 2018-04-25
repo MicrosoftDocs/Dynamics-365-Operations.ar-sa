@@ -3,7 +3,7 @@
 # [بدء الاستخدام](talent-get-started.md)
 ## [متطلبات النظام وسياسة التحديث](talent-versions-update-policy.md)
 ## [توفير Microsoft Dynamics 365 for Talent](provisioning-talent.md)
-## [إزالة بيئة Talent](remove-test-environment.md)
+## [إزالة بيئة Talent](remove-talent-environment.md)
 ## [توفير التطبيقات النمطية لـ Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [توسيع الأداء الوظيفي لتطبيق Talent](extend-talent-functionality.md)
 
@@ -13,6 +13,7 @@
 ## [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](set-up-hr-parameters-across-legal-entities.md)
 ## [إعداد معلمات الموارد البشرية الخاصة بالشركة](set-up-company-specific-hr-parameters.md)
 ## [الأسئلة الشائعة حول إجراءات العاملين](personnel-actions-faq.md)
+## [صياغة العمليات التجارية](formalize-business-processes.md)
 ## [استخدام سير العمل لإدارة المعلومات الخاصة بالموظف](workflow-manage-employee-information.md)
 ## [نظرة عامة على الإجازة والغياب](leave-absence-overview.md)
 

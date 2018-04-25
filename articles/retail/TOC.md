@@ -31,7 +31,7 @@
 ## [كتالوجات مركز الاتصال](call-center-catalogs.md)
 ## [إنشاء كتالوج مركز اتصال](create-call-center-catalogs.md)
 ## [إعداد تنبيهات الاحتيال](set-up-fraud-alerts.md)
-## [إعداد خيارات معالجة الأوامر](set-up-order-processing-options.md)
+## [إعداد مركز اتصال](set-up-order-processing-options.md)
 ## [إعداد برنامج استمرارية لمركز اتصال](set-up-continuity-program.md)
 ## [تعليقات الأوامر](work-with-order-holds.md)
 ## [خيارات الدفع](work-with-payments.md)
@@ -47,8 +47,9 @@
 # Modern Point of Sale ‏(MPOS) وCloud POS
 ## [الاختيار بين Modern POS وCloud POS](MPOS-or-CPOS.md)
 ## [عمليات نقطة البيع، أثناء الاتصال وعدم الاتصال](pos-operations.md)
-## [تخطيطات شاشة بيانات العرض التوضيحي في MPOS/CPOS](demo-data.md)
+## [‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة (MPOS)/نقطة بيع المجموعة‬ (CPOS)](demo-data.md)
 ## [نظرة عامة على البحث عن المنتجات والعملاء في نقطة البيع](POS-search-improvements.md)
+## [البحث في المخزون في نقطة البيع](product-variants-POS.md)
 ## الأجهزة الطرفية للأجهزة
 ### [نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة](retail-peripherals-overview.md)
 ### [الأجهزة الطرفية لأجهزة نقطة البيع الخاضعة لاختبارات Microsoft](microsoft-tested-pos-hardware-peripherals.md)
@@ -96,6 +97,7 @@
 ## [إعداد تحليل RFM](set-up-rfm-analysis.md)
 
 # الخصومات وتعديلات الأسعار
+## [إدارة سعر مبيعات البيع بالتجزئة](price-management.md)
 ## [تعديلات الأسعار والخصومات](price-adjustments-discounts.md)
 ## [تحديد المجموعة المثلى من الخصومات المتداخلة](optimal-combination-overlapping-discounts.md)
 ## [تحديد الخصومات الخاصة بالقناة](define-channel-specific-discounts.md)
@@ -138,17 +140,21 @@
 ## [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](../talent/departments-jobs-positions.md)
 ## [إعداد مكونات وظيفة](../talent/create-job.md)
 
-# الترجمة والميزات التنظيمية
+# ميزات الترجمة والميزات التنظيمية
+## فرنسا
+### [آلات تسجيل المدفوعات النقدية الخاصة بفرنسا‎](localizations/emea-fra-cash-registers.md)
+### [إرشادات النشر لآلات تسجيل المدفوعات النقدية في فرنسا](localizations/emea-fra-deployment.md)
 ## الهند
-### [تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية الخاصة بالهند](localizations/apac-ind-cash-registers.md)
-### [إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالهند](localizations/apac-ind-loc-deployment-guidelines.md)
+### [تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية](localizations/apac-ind-cash-registers.md)
+### [إرشادات النشر لآلات تسجيل المدفوعات النقدية في الهند](localizations/apac-ind-loc-deployment-guidelines.md)
 ## النرويج
 ### [آلات تسجيل المدفوعات النقدية الخاصة بالنرويج‎](localizations/emea-nor-cash-registers.md)
-### [إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنرويج](localizations/emea-nor-loc-deployment-guidelines.md)
+### [إرشادات النشر لآلات تسجيل المدفوعات النقدية في النرويج](localizations/emea-nor-loc-deployment-guidelines.md)
 ## السويد
 ### [آلات تسجيل المدفوعات النقدية الخاصة بالسويد](localizations/emea-swe-cash-registers.md)
+### [عينة لتكامل Retail POS مع وحدات التحكم](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
-# مهام Retail
+# مهام البيع بالتجزئة
 ## [إنشاء منتج](../supply-chain/pim/tasks/create-product.md)
 ## [تكوين المنتجات المرتبطة](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [إصدار منتج/أصل منتج إلى كيانات قانونية](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -257,19 +263,21 @@
 ### [تكوين متجر عبر الإنترنت](dev-itpro/configure-online-store.md)
 ### [تكوين موفري المصادقة](dev-itpro/configure-authentication-providers.md)
 ### [النظام الأساسي للتجارة الإلكترونية](dev-itpro/ecommerce-platform.md)
-### [SDK النظام الأساسي للتجارة الإلكترونية](dev-itpro/ecommerce-platform-sdk.md)
+### [SDK النظام الأساسي للتجارة الإلكتروني](dev-itpro/ecommerce-platform-sdk.md)
 
 ## قابلية توسعة موصل المدفوعات
+### [تكامل الدفع مع الوحدة الطرفية للدفع](dev-itpro/end-to-end-payment-extension.md)
 ### [تنفيذ موصل المدفوعات وجهاز الدفع (مستند تقني)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [نشر موصل المدفوعات](dev-itpro/deploy-payment-connector.md)
 ### [إنشاء Windows installer لموصل المدفوعات](dev-itpro/create-windows-installer-payment-connector.md)
 
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [تكامل Retail SDK مع نظام البناء المستمر](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [نماذج قابلية التوسعة لـ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+### [نماذج قابلة للتوسعة لـ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [حزمة Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [عينات Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
-### [ملحقات قاعدة بيانات القناة (DB)](dev-itpro/channel-db-extensions.md)
+### [أمثلة Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [نقاط الامتداد لإيصالات التعبئة](dev-itpro/extensions-shipping-carrier-integration.md)
+### [ملحقات قاعدة بيانات القنوات](dev-itpro/channel-db-extensions.md)
 ### [قابلية توسعة CDX](dev-itpro/cdx-extensibility.md)
 ### [سمات الأوامر](dev-itpro/order-attributes.md)
 ### [سمات العميل](dev-itpro/customer-attributes.md)

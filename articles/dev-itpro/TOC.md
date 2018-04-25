@@ -113,9 +113,10 @@
 #### [تخصيص عناصر النموذج باستخدام الملحقات (‏‫البرنامج التعليمي)](extensibility/customize-model-elements-extensions.md)
 #### [تخصيص: تراكب الطبقات والملحقات](extensibility/customization-overlayering-extensions.md)
 ### الجديد
-#### [تغييرات قابلية التوسعة في يوليو 2017](extensibility/changes-july-2017.md)
+#### [تغييرات قابلية للتوسعة في يوليو 2017](extensibility/changes-july-2017.md)
 #### [إصدار تغييرات قابلية التوسعة 7.3](extensibility/extensibility-changes-73.md)
-### الأساسيات‬
+#### [إصدار تغييرات قابلية التوسعة 8.0](extensibility/changes-80.md)
+### القواعد الأساسية
 #### [تخصيصات متداخلة](extensibility/intrusive-customizations.md)
 #### [ملحقات الفئة](extensibility/class-extensions.md)
 #### [ملحق الفئة: التفاف الأسلوب وسلسلة الأمر](extensibility/method-wrapping-coc.md)
@@ -382,17 +383,18 @@
 
 ### [تكامل البيانات باستخدام Common Data Service](data-entities/data-integration-cds.md) 
 #### [تكوين سيناريو العميل المتوقع إلى النقدية](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [مزامنة المنتجات من Finance and Operations للمنتجات في Sales‎](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [مزامنة الحسابات من Sales للعملاء في Finance and Operations‎](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [مزامنة جهات الاتصال من Sales لجهات الاتصال في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [مزامنة رؤوس وبنود عرض أسعار المبيعات‬ من Sales إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [مزامنة رؤوس وبنود أوامر المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [مزامنة رؤوس وبنود فواتير المبيعات من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [تكوين التكامل مع Field Service](../supply-chain/sales-marketing/field-service.md)
+##### [مزامنة المنتجات في Finance and Operations إلى المنتجات في Field Service](../supply-chain/sales-marketing/field-service-product.md)
+##### [مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [استخدام خدمات ويب الخارجية](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [قوالب بيانات التكوين](data-entities/configuration-data-templates.md)
 ### [قوالب بيانات مع أوراق عمل متعددة](data-entities/excel-template-multiple.md)
 ### [تعقب التغييرات لكيان](data-entities/entity-change-track.md)
+
 ### [البحث عن معلومات حول كيانات البيانات القياسية](data-entities/data-entities-report.md)
+
 
 ## [وظائف استيراد البيانات وتصديرها](data-entities/data-import-export-job.md)
 
@@ -423,17 +427,22 @@
 ### [قواعد معالج كيان البيانات](data-entities/data-entity-wizard-rules.md)
 ### [خصائص بيانات التعريف](data-entities/behavioral-properties-data-entities.md)
 ### [عمليات التحقق من الصحة والإعدادات الافتراضية والحقول غير المعينة](data-entities/validations-defaults-unmapped-fields.md)
-### [كيانات الأمان والبيانات](data-entities/security-data-entities.md)
+### [كيانات البيانات والأمان‬](data-entities/security-data-entities.md)
 
 ## [إحضار قاعدة بياناتك الخاصة](analytics/export-entities-to-your-own-database.md)
 
+
+## [أتمتة مهمة البيانات](data-entities/data-task-automation.md)
+
 ## [موارد للاستجابة لطلب بيانات القانون العام لحماية البيانات (GDPR)](gdpr/gdpr-home-page.md)
 ### [دليل إلى القانون العام لحماية البيانات (GDPR) لتطبيق Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [تصنيفات الأصول](gdpr/gdpr-asset-classification-values.md)
 ### [استخدام تقرير البحث عن شخص](gdpr/gdpr-person-search-report.md)
 ### [توسيع تقرير البحث عن شخص](gdpr/gdpr-extend-person-search-report.md)
 ### [إدارة الوصول إلى البيانات الحساسة](gdpr/gdpr-auditing-sensitive-data.md)
 ### [الاستجابة لطلب بيانات شخصية باستخدام Talent](gdpr/respond-dsr-request-talent.md)
 ### [الاستجابة لطلب بيانات شخصية باستخدام Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
+
 
 # [الصفحة الرئيسية للتسليم المستمر](dev-tools/continuous-delivery-home-page.md)
 ## [الأسئلة المتداولة حول التطوير والتسليم المستمر](dev-tools/continuous-delivery-faq.md)
@@ -530,7 +539,8 @@
 ### [ترقية AX 2012 - العرض المباشر](migration-upgrade/2012-upgrade-cutover.md)
 
 ### التغييرات التي تؤثر على الترقية من AX 2012
-#### [ترقية إيصال فردي وإعادة تقييم العملة ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+#### [يجب أن يكون محدد دليل الحسابات فريدًا](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [ترقية إيصال فردي وإعادة تقييم العملة](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [نموذج بيانات جدولة موارد المشروع](migration-upgrade/data-model-changes-resource-management.md)
 #### [تغييرات النظام الفرعي لسير العمل](migration-upgrade/workflow-subsystem.md)
 #### [لماذا انتقلنا من المكعبات إلى نماذج التجميع](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -569,6 +579,7 @@
 
 # [إدارة النظام](sysadmin/system-administration-home-page.md)
 ## [أسئلة شائعة حول تحديثات النظام الأساسي الشهرية](sysadmin/faq-platform-monthly-updates.md)
+## [الأسئلة المتداولة حول الأجهزة الظاهرية التي لا تسمح بوصول المسؤول](sysadmin/VMs-no-admin-access.md)
 ## [إضافة ارتباطات للشروط القانونية الخاصة بمؤسستك وبيان الخصوصية](sysadmin/legal-terms-privacy-statement.md)
 ## [تقرير أكواد التراخيص ومفاتيح التكوين](sysadmin/license-codes-configuration-keys-report.md)
 ## [مشاركة البيانات عبر الشركة](sysadmin/cross-company-data-sharing.md)
@@ -612,18 +623,21 @@
 ## [إكمال المهام في مكتبة BPM](lifecycle-services/complete-tasks-bpm.md)
 ## [استخدم مخططات الأنشطة](lifecycle-services/using-activity-diagrams.md)
 ## [مزامنة مكتبة BPM مع Visual Studio Team Services ‏(VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
+## [إنشاء مجموعة اختبارات قبول باستخدام دلائل المهام وBPM](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [مخططات انسيابية لأداة تكوين عمليات الأعمال](lifecycle-services/flowcharts-business-process-modeler.md)
-## [تحميل عمليات الأعمال المخصصة](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
+## [تحميل إجراءات العمل المخصصة](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [المراقبة والتشخيصات ](lifecycle-services/monitoring-diagnostics.md)
 ## [إعادة تشغيل الخدمات البيئية](lifecycle-services/restart-environment-services.md)
 ## [تعقب عمليات تسجيل دخول المستخدم](lifecycle-services/user-logins.md)
 ## [مكتبة الأصول](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - نظرة عامة على خدمة الترجمة](lifecycle-services/translation-service-overview.md)
 ### [دليل مستخدم خدمة الترجمة في Microsoft Dynamics 365  ](lifecycle-services/use-translation-service.md)
+### [خدمة الترجمة في Microsoft Dynamics 365 - ترجمة ملف الوثائق](lifecycle-services/use-translation-service-ua.md)
+### [خدمة الترجمة في Microsoft Dynamics 365 - ذاكرة الترجمة](lifecycle-services/use-translation-service-tm.md)
 
 ## ميزات Dynamics AX 2012 Lifecycle Services
 ### النشر
-#### [البيئات المستضافة على السحابة](lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md)
+#### [بيئات مستضافة على الشبكة السحابية](lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md)
 #### [نسخ تكوين](lifecycle-services/copy-configuration-lcs.md)
 #### [تخطيط نشر Dynamics AX 2012 R3 على Azure](lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md)
 #### [نشر Dynamics AX 2012 R3 على Azure](lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs.md)
