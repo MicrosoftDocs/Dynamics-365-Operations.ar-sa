@@ -3,7 +3,7 @@ title: "استخدام الوظيفة الإضافية لبرنامج Excel"
 description: "يشرح هذا الموضوع كيفية فتح بيانات الكيان في Microsoft Excel، ثم عرض وتحديث وتحرير البيانات باستخدام الوظيفة الإضافية Microsoft Dynamics Office لبرنامج Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/30/2017
+ms.date: 04/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,16 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-the-excel-add-in"></a>استخدام الوظيفة الإضافية لبرنامج Excel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية فتح بيانات الكيان في Microsoft Excel، ثم عرض وتحديث وتحرير البيانات باستخدام الوظيفة الإضافية Microsoft Dynamics Office لبرنامج Excel. لفتح بيانات الكيان، يمكنك البدء من Excel أو من Microsoft Dynamics 365 for Finance and Operations.
 
@@ -35,6 +35,11 @@ ms.lasthandoff: 03/26/2018
 
 > [!NOTE]
 > إذا تم تكوين مستأجر Microsoft Azure Active Directory ‏(Azure AD) لاستخدام خدمات الأمان المشترك لـ Active Directory‬ (أو AD FS)، فيجب التأكد من تطبيق تحديث مايو 2016 لـ Office، لتمكين وظيفة Excel الإضافية من تسجيل دخولك بشكل صحيح.
+
+لمزيد من المعلومات حول استخدام الأداة الإضافية لـ Excel، شاهد الفيديو القصير [إنشاء قالب Excel لأنماط العناوين والبنود في Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+
+> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
+
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>فتح بيانات الكيان في Excel عند بدء التشغيل من Finance and Operations
 1. على صفحة في Finance and Operations، حدد **فتح في Microsoft Office**.

@@ -1,6 +1,6 @@
 ---
 title: "إنشاء فاتورة عميل"
-description: "**فاتورة عميل لأمر مبيعات** هي فاتورة ترتبط بعملية بيع وتعطيها مؤسسة لعميل."
+description: "**فاتورة عميل لأمر المبيعات** هي فاتورة ترتبط بعملية بيع وتعطيها مؤسسة لعميل."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0e5605b65b6203a50ef2fef81d032a887da32bf9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a>إنشاء فاتورة عميل
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 **فاتورة عميل لأمر المبيعات** هي فاتورة ترتبط بعملية بيع وتعطيها مؤسسة لعميل. ويتم إنشاء هذا النوع من فاتورة العميل استنادًا إلى أمر المبيعات، الذي يتضمن بنود الأوامر وأرقام الأصناف. ويتم تحديد أرقام الأصناف وترحيلها في دفتر الأستاذ. ولا تتوفر إدخالات دفتر اليومية في دفتر الأستاذ الفرعي لفاتورة عميل لأمر مبيعات.‬ للحصول على مزيد من المعلومات، راجع [إنشاء فواتير أوامر المبيعات‬](tasks/create-sales-order-invoices.md).
 
@@ -98,7 +97,7 @@ ms.lasthandoff: 11/03/2017
 </ul></td>
 </tr>
 <tr class="even">
-<td>الترحيل</td>
+<td>ترحيل</td>
 <td><ul>
 <li>حدد هذا الخيار لتسجيل دفتر يومية أمر المبيعات.</li>
 <li>وقم بإلغاء تحديد هذا الخيار لطباعة أمر مبيعات مبدئي. <strong>ملاحظة:</strong> إذا قمت بعمل اتفاقية لجدول دفع، لا يظهر جدول الدفع في أمر المبيعات المبدئي. وتظهر جداول الدفع فقط في أوامر المبيعات الفعلية.</li>

@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>التصفية المتقدمة وبنية الاستعلام
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة خيارات التصفية والاستعلام التي تتوفر عند استخدام عامل التشغيل "تطابق" في مربع الحوار "عامل التصفية/الفرز المتقدم".
 
@@ -68,7 +67,7 @@ ms.lasthandoff: 11/03/2017
 <td><em>القيمة من</em>..<em>القيمة إلى</em> (نقطة مزدوجة)‬</td>
 <td>بين القيمتين اللتين تم الفصل بينهما بنقطتين مزدوجتين</td>
 <td>اكتب القيمة من، ثم نقطتين، ثم قيمة إلى.</td>
-<td><strong>1..10</strong> يتم البحث عن جميع القيم من 1 وحتى 10. ومع ذلك، في حقل السلسلة <strong>أ..ج</strong>، يتم البحث عن جميع القيم التي تبدأ بـ &quot;أ&quot; و&quot;ب&quot;، والقيم المساوية تمامًا لـ &quot;ج&quot;. على سبيل المثال، لن يبحث هذا الاستعلام عن &quot;جأ&quot;. للبحث عن جميع القيم بدءًا من &quot;أ*&quot; وحتى &quot;ج*&quot;، اكتب <strong>أ..د</strong>.</td>
+<td><strong>1..10</strong> يتم البحث عن جميع القيم من 1 وحتى 10. ومع ذلك، في حقل السلسلة <strong>أ..ج</strong>، يتم البحث عن جميع القيم التي تبدأ بـ &quot;أ&quot; و&quot;ب&quot;، والقيم المساوية تمامًا لـ &quot;ج&quot;. على سبيل المثال، لن يبحث هذا الاستعلام عن &quot;جأ&quot;. للبحث عن جميع القيم بدءًا من &quot;أ<em>&quot; وحتى &quot;ج</em>&quot;، اكتب <strong>أ..د</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>القيمة</em> (نقطة مزدوجة)</td>
@@ -97,20 +96,20 @@ ms.lasthandoff: 11/03/2017
 <tr class="even">
 <td><em>القيمة</em>* (العلامة النجمية)</td>
 <td>تبدأ من القيمة التي تم إدخالها</td>
-<td>اكتب قيمة البدء ثم علامة نجمية (<strong>*</strong>).</td>
-<td><strong>س*</strong> يتم البحث عن أية سلسلة تبدأ بـ &quot;س&quot;، مثل &quot;ستوكهولم&quot;، و&quot;سيدني&quot;، و&quot;سان فرانسيسكو&quot;.</td>
+<td>اكتب قيمة البدء ثم علامة نجمية (<strong><em></strong>).</td>
+<td><strong>س</em></strong> يتم البحث عن أي سلسلة تبدأ بـ &quot;س&quot;، مثل &quot;ستوكهولم&quot; و&quot;سيدني&quot; و&quot;سان فرانسيسكو&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>القيمة</em> (العلامة النجمية)</td>
+<td><em><em>القيمة</em> (العلامة النجمية)</td>
 <td>الانتهاء بالقيمة التي تم إدخالها</td>
 <td>اكتب علامة النجمة ثم قيمة الانتهاء.</td>
-<td><strong>*شرق</strong> يتم البحث عن أي سلسلة تنتهي بـ &quot;شرق&quot;، مثل &quot;شمال شرق&quot; و&quot;جنوب شرق&quot;.</td>
+<td><strong></em>شرق</strong> يتم البحث عن أي سلسلة تنتهي بـ &quot;شرق&quot;، مثل &quot;شمال شرق&quot; و&quot;جنوب شرق&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>القيمة</em>* (العلامة النجمية)</td>
+<td><em><em>القيمة</em></em> (العلامة النجمية)</td>
 <td>تحتوي على القيمة التي تم إدخالها</td>
 <td>اكتب علامة النجمة ثم القيمة ثم علامة نجمة أخرى.</td>
-<td><strong>*رق*</strong> يتم البحث عن أي سلسلة تحتوي على &quot;رق&quot;، مثل &quot;شمال شرق&quot; و&quot;جنوب شرق&quot;.</td>
+<td><strong><em>رق</em></strong> يتم البحث عن أي سلسلة تحتوي على &quot;رق&quot;، مثل &quot;شمال شرق&quot; و&quot;جنوب شرق&quot;.</td>
 </tr>
 <tr class="odd">
 <td>؟ (علامة استفهام)</td>
@@ -131,10 +130,10 @@ ms.lasthandoff: 11/03/2017
 <td><strong><span class="code">(مصدر البيانات.اسم الحقل != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>ث</td>
+<td>ا</td>
 <td>تاريخ اليوم</td>
 <td>اكتب <strong>T</strong>.</td>
-<td><strong>T</strong> تطابق تاريخ اليوم (today's date).</td>
+<td><strong>T</strong> تطابق تاريخ اليوم (today&#39;s).</td>
 </tr>
 <tr class="odd">
 <td>(methodName(parameters‏‏)‏) (طريقة <strong>SysQueryRangeUtil</strong> بين قوسين)</td>

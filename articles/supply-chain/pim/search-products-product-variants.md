@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 08715b4c31c42dfa23d72b1035a1e7cc737c13a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>البحث عن المنتجات ومتغيرات المنتجات أثناء إدخال الأمر
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 استخدم حقل <strong>رقم الصنف </strong> للبحث عن المنتجات ومتغيرات المنتجات عندما تقوم بإنشاء بند أمر مبيعات أو بند أمر شراء يدويًا.  يسمح لك ذلك بالعثور بسرعة على متغيرات المنتجات إذا توفرت لديك سلسلة التكوين أو أحد أبعاد المنتح فقط.
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 02/07/2018
 
 انتقل إلى **المبيعات والتسويق &gt; الإعداد &gt; البحث &gt; معايير البحث**. تسمح لك صفحة **معايير البحث** بتعريف المعايير الخاصة بالعملاء والعملاء المتوقعين والبحث عن المنتج. تأكد من تصفية الصفحة باستخدام معايير البحث عن المنتج. يمكنك القيام بذلك عن طريق التبديل إلى **المنتج** في قائمة الصفحة.  
 
-‏‫لإضافة رقم عرض المنتج إلى معايير البحث، انقر فوق **جديد** في قائمة الصفحة. سيؤدي ذلك إلى إضافة سجل جديد في شبكة **معايير البحث**. افتح عمود البحث **اسم الحقل** واختر **DisplayProductNumber**. لإضافة تكوين المنتج إلى معايير البحث، قم بإنشاء سجل جديد في شبكة **معايير البحث** واختر **configId** في عمود **اسم الحقل**. بطريقة ماثلة، قم بإنشاء سجل مع **اسم الحقل** **InventColorId** لبُعد اللون و**InventSizeId** لبُعد الحجم و**InventStyleId** لبُعد النمط.
+‏‫لإضافة رقم عرض المنتج إلى معايير البحث، انقر فوق <strong>جديد</strong> في قائمة الصفحة. سيؤدي ذلك إلى إضافة سجل جديد في شبكة <strong>معايير البحث</strong>. افتح عمود البحث <strong>اسم الحقل</strong> واختر <strong>DisplayProductNumber</strong>. لإضافة تكوين المنتج إلى معايير البحث، قم بإنشاء سجل جديد في <strong>شبكة** معايير البحث واختر configId**</strong> في عمود <strong>اسم الحقل</strong>. بطريقة ماثلة، قم بإنشاء سجل مع <strong>اسم الحقل</strong> <strong>InventColorId</strong> لبُعد اللون و<strong>InventSizeId</strong> لبُعد الحجم و<strong>InventStyleId</strong> لبُعد النمط.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>الخطوة 2: تعبئة جدول قاعدة البيانات المستخدمة للبحث عن المنتج
 

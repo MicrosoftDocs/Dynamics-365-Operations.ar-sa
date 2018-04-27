@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>إضافة إلى دفتر يومية أدائك وإرسال ثناء إلى أحد الأشخاص
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يحتوي دفتر يومية الأداء على المعلومات التي تتعلق بكيفية تحقيق أهدافك أو كيف كان مستوى الأداء لديك خلال فترة معينة. يمكنك أيضا الثناء على إجراءات زميل في العمل من دفتر اليومية. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/29/2017
 9. في الحقل "كلمات أساسية‬"، اكتب قيمة.
 10. انقر فوق "إضافة ارتباط خارجي".
 11. في حقل "الوصف"، اكتب "Envision".
-12. في حقل "عنوان الإنترنت"، اكتب 'https://www.microsoft.com/en/envision/default'.
+12. في حقل عنوان الإنترنت، اكتب "<https://www.microsoft.com/en/envision/default>".
 13. انقر فوق التسمية التوضيحية أسفل الزر "حفظ" المسماة "دفتر يومية الأداء" للعودة إلى الشبكة.
     * يمكنك إضافة دفتر اليومية المحدد أو دفاتر اليومية المحددة إلى هدف بحيث يظهر عند فتح الهدف. سيُضاف ارتباط في علامة التبويب السريعة "الارتباطات".‬ إذا أضفت دفتر يومية إلى هدف ثم أضفت الهدف إلى مراجعة، فسيظهر دفتر اليومية تلقائيًا على المراجعة.  
     * يمكنك إضافة دفتر اليومية المحدد أو دفاتر اليومية المحددة إلى مراجعة بحيث يظهر عند فتح المراجعة.    سيُضاف ارتباط في علامة التبويب السريعة "الارتباطات".  
