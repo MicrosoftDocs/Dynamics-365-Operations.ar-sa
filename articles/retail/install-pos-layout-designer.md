@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>تثبيت مصمم تخطيط Retail POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 يمكنك استخدام المصمم بنقرة واحدة لتصميم تخطيطات مختلفة لنقاط البيع التجزئة الحديثة (MPOS) ونقاط بيع المجموعة، في الوضع الأفقي أو في الوضع العمودي، للمتاجر وآلات تسجيل المدفوعات والصرافين والمدراء.
 

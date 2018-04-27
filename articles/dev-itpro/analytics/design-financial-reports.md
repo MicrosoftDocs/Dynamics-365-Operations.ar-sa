@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>عرض التقارير المالية وتصميمها
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تقدم هذه المقالة التمارين التي تشرح لك عرض التقارير المالية وإنشاءها لـ Microsoft Dynamics 365 for Finance and Operations. تتألف ميزة إعداد التقارير المالية من تجربة عرض داخل Finance and Operations ومصمم تقارير من نقرة واحدة يتيح لك إنشاء التقارير المالية وتحريرها.  
 

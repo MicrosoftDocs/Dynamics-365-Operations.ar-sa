@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 ترشدك هذه المقالة من خلال سيناريو حيث تم أخذ خصم نقدي على إشعار دائن عندما تضمنت الفاتورة الأصلية أيضًا خصمًا نقديًا. 
 

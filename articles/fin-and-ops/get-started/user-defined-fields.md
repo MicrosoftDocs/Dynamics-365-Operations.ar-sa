@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="custom-fields"></a>الحقول المخصصة
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 بينما يوفر Microsoft Dynamics 365 for Finance and Operations مجموعة شاملة من الحقول المبتكرة لإدارة مجموعة كبيرة من عمليات الأعمال، في بعض الأحيان تكون هناك حاجة لإحدى الشركات لتعقب المعلومات الإضافية في النظام. لتلبية هذه الحاجة، يتيح لك Finance and Operations إمكانية إنشاء حقول مخصصة لتكييف التطبيق ليناسب عملك، بشرط أن يكون لديك أذونات لهذه الميزة. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>نظرة عامة على فواتير الموردين
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات عامة حول فواتير المورد. فواتير المورد هي طلبات دفع للمنتجات والخدمات التي تم تلقيها. بإمكان فواتير المورد أن تمثل فاتورة في مقابل خدمات مستمرة، أو يمكنها أن تستند إلى أوامر شراء لأصناف وخدمات معينة. 
 
@@ -87,11 +86,11 @@ ms.lasthandoff: 12/14/2017
  - [إعداد سياسات فواتير المورِّدين](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام فاتورة المورد](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام ‏‫دفتر يومية الموافقة](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام ‏‫وعاء الفواتير‬](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [تسجيل فاتورة مورّد في دفتر يومية الفواتير](tasks/record-vendor-invoice-invoice-journal.md)
 
 

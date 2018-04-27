@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>إضافة قيد تعبير إلى نموذج تكوين منتج
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إضافة تعبير قيد جديد إلى نموذج تكوين منتج. ويُظهر كيفية إصدار أمر رسمي بوجوب يجب تطبيق حماية الزاوية على مكبر صوت إذا قام المستخدم بتحديد شبكة أمامية معدنية. يستخدم الإجراء المكون مكبر الصوت المتطور في شركة العرض التوضيحي USMF.
 

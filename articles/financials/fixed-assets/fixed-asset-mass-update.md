@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>تحديث شامل للأصول الثابتة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 في حالة استخدام الدفاتر، فإنه يمكن تغيير قواعد الإهلاك لمجموعات أصول تعد جزءًا من نفس الدفتر.
 

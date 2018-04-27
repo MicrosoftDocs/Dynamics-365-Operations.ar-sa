@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accruals-overview"></a>نظرة عامة على الاستحقاقات
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تصف هذه المقالة الاستحقاقات، وتوفر معلومات حول كيفية إعدادها وإنشاء الحركات.
 

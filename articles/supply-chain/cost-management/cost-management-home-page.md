@@ -3,12 +3,12 @@ title: "الصفحة الرئيسية لإدارة التكلفة"
 description: "تسمح لك إدارة التكلفة بالتعامل مع تقييم وحساب المواد الخام والسلع شبه النهائية والسلع النهائية وأصول العمل قيد التقدم‬."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>الصفحة الرئيسية لإدارة التكلفة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [تسمح لك إدارة التكلفة (فيديو)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) بالتعامل مع تقييم وحساب المواد الخام والسلع شبه النهائية والسلع النهائية وأصول العمل قيد التقدم‬. إنها عملية تحديد وإدارة وإعداد تقارير حول [محاسبة المخزون](cost-object.md) و[محاسبة التصنيع](bom-calculations.md).
 

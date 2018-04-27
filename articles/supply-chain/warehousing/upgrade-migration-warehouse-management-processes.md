@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>ترحيل إدارة المنتجات المستودعات من AX 2012 إلى Finance and Operations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة حول خيارات ترحيل إدارة المستودعات والمنتجات ضمن Microsoft Dynamics 365 for Finance and Operations.
 

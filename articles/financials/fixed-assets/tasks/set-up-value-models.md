@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-books"></a>إعداد الدفاتر
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء دفتر أصول ثابتة جديد وإقرانه بمجموعة أصول ثابتة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
 

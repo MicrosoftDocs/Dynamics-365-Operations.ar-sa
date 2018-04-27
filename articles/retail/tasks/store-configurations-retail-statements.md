@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="store-configurations-for-retail-statements"></a> تكوينات المتجر لحساب بيانات Retail
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء تكوينات لمتجر البيع بالتجزئة التي تؤثر على كيفية إنشاء كشوفات حساب البيع بالتجزئة وترحيلها. ويتم تناول الأبعاد المالية في متاجر البيع بالتجزئة في إجراء آخر. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

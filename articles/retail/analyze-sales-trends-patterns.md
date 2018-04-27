@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>تحليل أنماط واتجاهات المبيعات
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 يمكن دراسة اتجاهات وأنماط المبيعات في الوقت الحقيقي في Microsoft Dynamics 365 for Retail.
 

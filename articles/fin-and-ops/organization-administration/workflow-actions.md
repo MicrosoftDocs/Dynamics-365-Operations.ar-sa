@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="workflow-actions"></a>إجراءات سير العمل
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة الإجراءات التي يمكن أن يتخذها كل مشارك في عملية موافقة على سير عمل.
 

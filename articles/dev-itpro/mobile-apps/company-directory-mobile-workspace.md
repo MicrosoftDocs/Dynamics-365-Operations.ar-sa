@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 77dd52848819f11a0a03eb70eebbdacdad2d1852
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0b27c5c0ed2cd380819c5208c57fa2a3de1d5aaa
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="company-directory-mobile-workspace"></a>مساحة العمل المحمولة "دليل الشركة"
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **دليل الشركة**. تسمح مساحة العمل هذه للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.
 

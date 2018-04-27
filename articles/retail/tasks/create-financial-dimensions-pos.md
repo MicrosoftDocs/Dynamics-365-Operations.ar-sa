@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> إنشاء الأبعاد المالية لسجلات نقاط البيع وتكوين قيم الأبعاد في السجلات
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء إنشاء أبعاد مالية لسجلات نقطة البيع، ويوضح كيفية تكوين قيم الأبعاد المالية في السجلات. لا يتضمن هذا الإجراء خطوات أخرى ذات صلة، مثل إنشاء مجموعات الأبعاد وبُنى الحسابات. يمكن العثور على هذه المهام في مواضيع أخرى. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USRT.
 

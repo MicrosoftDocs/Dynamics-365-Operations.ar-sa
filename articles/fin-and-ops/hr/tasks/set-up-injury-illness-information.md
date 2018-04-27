@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 60f1c836400c2da39cfce7a5024075634a0b54e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: afb045ba29ef720e6b1ec03511dc812be4e4c2de
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a>إعداد معلومات الإصابة والمرض
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يحتاج أصحاب الأعمال إلى معرفة متى تتم إصابة موظفيهم بجروح أو أمراض ناتجة عن المخاطر في مكان العمل. يمكنك استخدام صفحة الإصابة والمرض لإعداد المعلومات التي تسهل الإبلاغ عن الإصابات أو الأمراض التي تحدث في مكان العمل. يمكنك إعداد أنواع الإصابات والأمراض، بما في ذلك أنواع العلاج والتكاليف والنتائج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

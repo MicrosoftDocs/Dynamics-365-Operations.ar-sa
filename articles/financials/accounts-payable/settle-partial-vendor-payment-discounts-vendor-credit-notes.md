@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>تسوية دفعة جزئية لمورد لديه خصومات في الإشعارات الدائنة للمورد
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 ترشدك هذه المقالة من خلال سيناريو حيث تتم تسوية إشعار دائن مقابل فاتورة.
 

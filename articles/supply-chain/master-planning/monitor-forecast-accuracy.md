@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-forecast-accuracy"></a>مراقبة دقة التنبؤ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة أنواع دقة التنبؤ الذي يقوم Microsoft Dynamics 365 for Finance and Operations بحسابه وتشرح كيف يمكنك عرض قيم الدقة.
 

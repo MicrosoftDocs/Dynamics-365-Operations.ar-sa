@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-process-overview"></a>نظرة عامة على عملية الإنتاج
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع نظرة عامة على عمليات الإنتاج.‬ وهي تصف مختلف مراحل أوامر الإنتاج والأوامر الدفعية وكانبان، اعتبارًا من عملية إنشاء الأمر وصولاً إلى إقفال الفترة المالية. 
 

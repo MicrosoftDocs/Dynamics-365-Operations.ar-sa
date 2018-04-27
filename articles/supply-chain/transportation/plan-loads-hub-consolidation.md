@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-loads-using-hub-consolidation"></a>تخطيط الأحمال باستخدام توحيد الموزِّعين
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تصف هذه المقالة ميزة توحيد الشحنات في الموزّع عند تسليم بضائع من مستودعات مختلفة إلى العميل نفسه، أو عند استلام بضائع من مورّدين متعددين في المستودع نفسه.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-scheduling"></a>جدولة العمليات
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع معلومات حول جدولة العمليات. يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن.
 

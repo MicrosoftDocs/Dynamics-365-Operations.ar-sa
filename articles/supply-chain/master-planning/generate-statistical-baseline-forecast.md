@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-a-statistical-baseline-forecast"></a>إنشاء التنبؤ الأساسي الإحصائي
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول المعلمات وعوامل التصفية التي يتم استخدامها في حساب التنبؤ بالطلب. 
 

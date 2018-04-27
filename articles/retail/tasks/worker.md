@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-a-worker"></a> تكوين عامل
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية تكوين عامل في مجال البيع بالتجزئة كمندوب مبيعات مؤهل للحصول على عمولة على المبيعات في نقطة البيع. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

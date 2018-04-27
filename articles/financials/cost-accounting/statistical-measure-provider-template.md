@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يتم استخدام البُعد الإحصائي وأعضاؤه لتسجيل الإدخالات غير النقدية في محاسبة التكاليف والتحكم فيها. يمكن استخدام أعضاء الأبعاد الإحصائية لغرضين:
 

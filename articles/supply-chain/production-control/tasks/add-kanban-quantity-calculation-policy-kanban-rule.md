@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>إضافة سياسة حساب كمية كانبان إلى قاعدة كانبان
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يركز هذا الإجراء على إنشاء سياسة حساب كمية كانبان وإضافتها إلى قاعدة كانبان لتحسين حجم كانبان وكمياته. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لمدير تدفق القيم. يُعد هذا الإجراء شرطًا مسبقًا لإنشاء الإجراء "حساب اقتراحات كمية كانبان‬". 
 

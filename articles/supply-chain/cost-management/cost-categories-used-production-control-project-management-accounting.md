@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>فئات التكلفة المستخدمة في التحكم بالإنتاج ومحاسبة إدارة المشروع
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يمكن تطبيق بعض أنواع الإنتاج على تقديرات وقت المشروع وإعداد التقارير. توفر هذه المقالة معلومات حول فئات التكلفة التي يجب تحديدها لأنواع عمل الإنتاج هذه لأغراض الإنتاج والمشروع.
 

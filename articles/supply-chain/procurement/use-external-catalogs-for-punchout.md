@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 باستخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut، لست بحاجة إلى الاحتفاظ بمعلومات حول منتجات للموردين في بياناتك الرئيسية. بدلاً من ذلك، يتم تحويل عربة التسوق في موقع ويب للمورد إلى بنود طلب تحتوي على معلومات صحيحة عن المنتجات. 
 

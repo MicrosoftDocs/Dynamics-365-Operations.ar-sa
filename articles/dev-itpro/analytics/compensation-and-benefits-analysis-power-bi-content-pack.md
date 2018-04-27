@@ -27,8 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>محتوى تعويض وميزات Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع محتوى تعويض وميزات Power BI في Finance and Operations. 
 

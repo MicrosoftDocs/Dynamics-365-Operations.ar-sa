@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>تكوين تخطيطات الشاشة لنقطة البيع
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول تخطيطات الشاشة لتجارب نقاط البيع في Microsoft Dynamics 365 for Retail.
 

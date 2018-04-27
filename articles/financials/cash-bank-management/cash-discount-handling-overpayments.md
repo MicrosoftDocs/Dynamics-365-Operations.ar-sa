@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>معالجة الخصومات النقدية لحالات الدفع بالزيادة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة سيناريوهات توضح كيفية معالجة الدفع عندما يأخذ العميل خصمًا نقديًا ولكنه يدفع أيضًا مبلغًا زائدًا. 
 

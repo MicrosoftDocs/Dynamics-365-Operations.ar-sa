@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="define-and-maintain-retail-channels"></a>تحديد والاحتفاظ بقنوات البيع بالتجزئة
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 يوفر هذا الموضوع نظرة عامة على عملية إعداد المتاجر التقليدية، والتي يشار إليها كمتاجر البيع بالتجزئة في Microsoft Dynamics 365 for Retail. وهي تتضمن معلومات حول المهام التي يجب إكمالها قبل إعداد متجر البيع بالتجزئة وبعده.
 

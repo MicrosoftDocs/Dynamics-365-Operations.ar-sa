@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>إضافة التحليلات إلى مساحات العمل باستخدام Power BI المدمج
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > يتم دعم هذه الميزة في Dynamics 365 for Finance and Operations (الإصدار 7.2 والإصدارات اللاحقة).
@@ -50,7 +50,7 @@ ms.lasthandoff: 11/06/2017
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>إضافة ملف pbix. كمورد
 قبل أن تبدأ، يجب إنشاء تقرير Power BI الذي ستقوم بتضمينه في مساحة العمل أو الحصول عليه. للحصول على مزيد من المعلومات حول كيفية إنشاء تقارير تحليلية، راجع [بدء استخدام Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 اتبع هذه الخطوات لإضافة ملف pbix. كمنتج لمشروع Visual Studio.
 
 1. أنشئ مشروعًا جديدً في النموذج المناسب.
@@ -63,12 +63,12 @@ ms.lasthandoff: 11/06/2017
 5. ابحث عن ملف pbix. الذي يحتوي على تعريف التقرير التحليلي، ثم انقر فوق **فتح**.
 
     ![حدد مربع حوار "ملف المورد"](media/analytical-workspace-select-resource.png)
-  
+
 والآن بعد أن قمت بإضافة ملف pbix. كمورد Dynamics 365، يمكنك تضمين التقارير في مساحات العمل وإضافة الارتباطات المباشرة باستخدام عناصر القائمة.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>إضافة عنصر تحكم علامة تبويب إلى مساحة عمل التطبيق
 في هذا المثال، سنقوم بتوسيع مساحة عمل **إدارة الحجز** في نموذج إدارة الأسطول عن طريق إضافة علامة تبويب **التحليلات** إلى تعريف النموذج **FMClerkWorkspace**.
- 
+
 يبين الرسم التوضيحي التالي الشكل الذي يتخذه النموذج **FMClerkWorkspace‎** في المصمم في Microsoft Visual Studio.
 
 ![نموذج FMClerkWorkspace قبل التغييرات](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ ms.lasthandoff: 11/06/2017
 16. انقر بزر الماوس الأيمن، ثم حدد **إزالة النقش**.
 17. انقر بزر الماوس الأيمن مرة أخرى، ثم حدد **إضافة نمط** > **مساحة عمل مبوبة**.
 18. نفّذ عملية إنشاء للتحقق من التغييرات التي أجريتها.
- 
+
 يبين الرسم التوضيحي التالي الشكل الذي يتخذه التصميم بعد تطبيق هذه التغييرات.
 
 ![FMClerkWorkspace بعد التغييرات](media/analytical-workspace-definition-after.png)
 
 والآن بعد أن قمت بإضافة عناصر تحكم النموذج التي سيتم استخدامها لتضمين تقرير مساحة العمل، يجب تحديد حجم عنصر التحكم الأصل بحيث يستوعب التخطيط. بشكل افتراضي، سوف تظهر في التقرير الصفحة **"جزء عوامل تصفية"** والصحفة **علامة التبويب**. ومع ذلك، يمكنك تغيير كيفية ظهور عناصر التحكم هذه بما يتناسب مع المستخدم المستهدف للتقرير.
- 
+
 > [!NOTE]
 > بالنسبة إلى مساحات العمل المضمنة، نوصي باستخدام الملحقات لإخفاء الصفحتين **"جزء عوامل تصفية"** و**علامة التبويب**، لتوفير التناسق.
- 
+
 لقد أتممت الآن مهمة توسيع تعريف نموذج التطبيق. للحصول على مزيد من المعلومات حول كيفية استخدام الملحقات لإجراء التخصيصات، راجع  [التخصيص: تراكب الطبقات والملحقات](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>إضافة منطق تسلسل العمل X++ لتضمين عنصر تحكم العارض
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>المحددات
 
-| الاسم | ‏‏الوصف |
-|---|---|
-| resourceName | اسم مورد pbix. |
-| formGroupControl | عنصر تحكم مجموعة النماذج لتطبيق عنصر تحكم تقرير Power BI عليه. |
-| defaultPageName | اسم الصفحة الافتراضية |
-| showFilterPane | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء عامل التصفية (**true**) أو إخفاؤه (**false**). |
-| showNavPane | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء التنقل (**true**) أو إخفاؤه (**false**). |
-| defaultFilters | عوامل التصفية الافتراضية لتقرير Power BI. |
+|       الاسم       |                                                              ‏‏الوصف                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    اسم مورد pbix.                                                     |
+| formGroupControl |                                    عنصر تحكم مجموعة النماذج لتطبيق عنصر تحكم تقرير Power BI عليه.                                     |
+| defaultPageName  |                                                         اسم الصفحة الافتراضية                                                         |
+|  showFilterPane  |   قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء عامل التصفية (<strong>true</strong>) أو إخفاؤه (<strong>false</strong>).   |
+|   showNavPane    | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء التنقل (<strong>true</strong>) أو إخفاؤه (<strong>false</strong>). |
+|  defaultFilters  |                                              عوامل التصفية الافتراضية لتقرير Power BI.                                              |
+
 

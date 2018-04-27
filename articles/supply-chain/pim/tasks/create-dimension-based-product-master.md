@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-dimension-based-product-master"></a>إنشاء أصل منتج يستند إلى البعد
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء أصل منتج جديد باستخدام تقنية التكوين المستند إلى بُعد. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. وهذا هو الإجراء الأول من أصل ثمانية إجراءات الذي يوضح كيفية إنشاء مجموعات للتكوين المستند إلى بُعد.
 

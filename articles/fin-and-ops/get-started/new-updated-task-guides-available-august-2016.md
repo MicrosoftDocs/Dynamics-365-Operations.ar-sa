@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>دلائل المهام الجديدة أو المحدثة (أغسطس 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (أغسطس 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX. لم يتم إصدار مكتبة بدء استخدام جديدة.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>تحديد نماذج تدفق الإنتاج
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تصف نماذج تدفق الإنتاج تصف كيفية حساب خلايا عمل lean manufacturing والاحتفاظ بها. وبالتالي يُعد تحديد نموذج تدفق الإنتاج متطلبًا أساسيًا لتحديد خلايا العمل. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

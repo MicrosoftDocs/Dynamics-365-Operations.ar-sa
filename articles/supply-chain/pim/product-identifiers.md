@@ -29,7 +29,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="product-identifiers"></a>معرّفات المنتجات 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يشتمل هذا الموضوع على معلومات حول الأنواع المختلفة لمعرفات المنتجات ويوضح الكيفية التي يمكنك به إضافة معرفات المنتجات في بيانات المنتج.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>حساب وتعديل ضريبة المبيعات في فاتورة المورّد
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 إذا كان المستند المصدر الأصلي يعرض مبالغ ضريبة مختلفة كما تم حسابها، فيمكنك تعديل هذه المبالغ قبل الترحيل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي DEMF.
 

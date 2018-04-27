@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>إعداد منتجات البيع بالتجزئة
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ‏‫توضح هذه المقالة كيفية إعداد منتجات البيع بالتجزئة في Microsoft Dynamics 365 for Retail.
 

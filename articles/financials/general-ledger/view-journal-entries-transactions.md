@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>عرض الحركات وإدخالات دفاتر اليومية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة الطرق المختلفة التي يمكنك من خلالها عرض إدخالات وحركات دفتر اليومية. 
 
@@ -55,7 +54,7 @@ ms.lasthandoff: 11/03/2017
 -   **أصل الحركة** – يعرض تقرير الحركة هذا الحساب حسب دفتر اليومية والحركة والمحاسبة وعملة التقارير. كما يُظهر كل بند دفتر يومية تم استخدامه كمقاصة.
 
 
-##<a name="see-also"></a>راجع أيضًا
+## <a name="see-also"></a>راجع أيضًا
 - [أرصدة حساب دفتر الأستاذ العام](general-ledger-account-balances.md) 
 - [مستكشف مصدر المحاسبة](..\accounts-payable\accounting-source-explorer.md)
 - [التقارير المالية](financial-reporting-getting-started.md)

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>التقرير المالي لكشف الدخل
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة التقرير الافتراضي لكشوف الدخل. كما تصف العناصر الأساسية التي تقترن بهذا التقرير. 
 
@@ -60,7 +59,7 @@ ms.lasthandoff: 11/03/2017
     -   **FD** – البيانات المالية للفترة الحالية
     -   **FD** – البيانات المالية للسنة حتى تاريخه
 
- 
+
 
 <a name="see-also"></a>راجع أيضًا
 --------

@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="calculations-for-product-configuration-models-faq"></a>‬‏‫الأسئلة المتداولة حول حسابات نماذج تكوين المنتجات
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 ‏‫يوضح هذا الموضوع حسابات نماذج تكوين المنتج وكيفية استخدام الحسابات مع قيود.
 

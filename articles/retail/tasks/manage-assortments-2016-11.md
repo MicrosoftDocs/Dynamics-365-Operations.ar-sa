@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a> إدارة العمليات الفرز  
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء ونشر فرز منتجات جديدة، وهو يستخدم شركة بيانات العرض التوضيحي USRT.‬ يتطلب هذا الإجراء تطبيق Dynamics AX 7.0.1 أو إصدار لاحق، والنظام الأساسي Dynamics AX 7.1.  
 

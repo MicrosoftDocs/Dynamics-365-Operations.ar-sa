@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع نظرة عامة حول عملية إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام- الإعداد وتشغيل العملية وحساب العملية وكيفية عكس حركات إعادة التقييم، إذا لزم الأمر. 
 

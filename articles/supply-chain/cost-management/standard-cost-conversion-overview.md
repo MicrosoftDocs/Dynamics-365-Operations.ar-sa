@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>نظرة عامة حول تحويل التكاليف القياسية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على العملية لمساعدتك على إعداد وتشغيل تحويل تكلفة المعيارية. يجب إكمال الخطوات المذكورة بعد أن تستكمل المتطلبات الأساسية لتحويل تكلفة المعيارية. 
 

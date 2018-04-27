@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>واجهة أداة تصميم التقارير
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفية التنقل عبر مصمم التقارير وكيفية استخدام مختلف الخيارات لتلبية متطلباتك المحددة. 
 

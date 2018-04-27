@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>إنشاء اتفاقية تسهيلات مصرفية لخطاب الضمان
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تنشئ هذه المهمة اتفاقية تسهيلات بنكية لمعالجة خطاب ضمان. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF. 
 

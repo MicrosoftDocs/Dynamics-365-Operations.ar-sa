@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب المصروفات أو الضرائب أو التكاليف في فاتورة الموّرد. وسيكون لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية توزيع محاسبي واحد أو أكثر. 
 
@@ -231,7 +230,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a>توزيع الضرائب
 ------------------
 

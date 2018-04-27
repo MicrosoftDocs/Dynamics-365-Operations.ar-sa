@@ -28,7 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="set-up-fixed-assets"></a>إعداد الأصول الثابتة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة على إعداد وحدة **الأصول الثابتة**.
 

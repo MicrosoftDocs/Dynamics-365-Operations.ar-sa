@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-signature-overview"></a>نظرة عامة على التوقيعات الإلكترونية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على التوقيعات الإلكترونية وتصف كيفية استخدامها في Microsoft Dynamics 365 for Finance and Operations.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>إكمال الإعداد الأساسي لأصل منتج تم إصداره
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إكمال إعداد الحد الأدنى المطلوب قبل أن يمكن استخدام أصل المنتج في إصدارات قائمة مكونات الصنف.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-centralized-payments"></a>إعداد الدفعات المركزية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 ‏‫اتبع هذه الخطوات لإعداد معالجة المدفوعات في كيان قانوني واحد نيابة عن الكيانات القانونية الأخرى في مؤسستك. وقبل البدء، يجب إكمال الإعداد التالي:‬
 

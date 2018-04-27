@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-vendor-accounts"></a>إعداد حسابات المورد‬
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع أنواع المعلومات التي يجب أن تحددها عندما تقوم بإنشاء حساب مورّد جديد.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>إعداد عملية استيراد التسوية البنكية المتقدمة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations بشكل تلقائي. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية. 
 
@@ -57,7 +56,7 @@ ms.lasthandoff: 03/26/2018
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>إعداد استيراد كشوف الحسابات البنكية ISO20022
 أولاً، يجب عليك تعريف مجموعة معالجة تنسيق كشف الحساب البنكي لكشوف الحسابات البنكية ISO20022 باستخدام إطار عمل كيان البيانات.

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="overhead-calculation"></a>عملية حساب المصروفات الزائدة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع العمليات الأساسية لحساب المصروفات الزائدة وتخصيصها.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>إعداد كتالوج خارجي للتدبير الإلكتروني للبطاقات المثقبة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 باستخدام كتالوج خارجي، يمكنك أن تتأكد من أن معلومات المنتجات والأسعار التي تقوم فيما بعد بمعالجتها في Dynamics 365 for Finance and Operations لشهر يوليو 2017 هي معلومات دقيقة ومحدثة. ويمكن عندئذٍ الموافقة على الطلب وتحويله إلى أمر شراء ويمكن تقدير أمر لدى المورّد.
 

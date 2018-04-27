@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>إعداد المنتجات التي يمكن أن تكون منتجة أو مشتراة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يمكن توريد المنتجات بطرق مختلفة: يمكن إنتاجها (تصنيعها) أو تدبيرها (شراؤها). توضح هذه المقالة بعض النقاط النموذجية التي يجب أخذها في الاعتبار عند تكوين المنتجات لدعم استخدام مصادر متعددة. 
 

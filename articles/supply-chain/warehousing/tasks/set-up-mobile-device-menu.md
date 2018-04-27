@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد عنصر قائمة جهاز محمول. في هذا المثال، يتم استخدام عنصر القائمة لتنفيذ عمل من النوع "أمر الشراء". تحدد فئة العمل المرتبطة بعنصر القائمة العمل الصالح. ويمكنك استخدام هذا الدليل في شركة بيانات العرض التوضيحي USMF. يقوم مدير المستودع عادةً بتنفيذ هذا الإجراء.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="positive-pay-overview"></a>نظرة عامة على الدفع الإيجابي
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول الدفع الإيجابي الذي يُستخدم لإنشاء قائمة إلكترونية بالشيكات التي يمكن تقديمها إلى البنك. 
 

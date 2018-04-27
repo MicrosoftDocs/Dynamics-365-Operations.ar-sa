@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>تكوين خدمات SQL Server Reporting Services للنشر المحلي
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 استخدم الخطوات الواردة في هذا الموضوع لتكوين SQL Server Reporting Services (‏SSRS‏) لعملية نشر Microsoft Dynamics 365 for Finance and Operations (محلي).
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 03/26/2018
 
     [![علامة تبويب عنوان URL لمدخل الويب](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  بعد تكوين المدخل، سوف تتطابق علامة تبويب **مدخل الويب** مع الرسم التالي.
+   بعد تكوين المدخل، سوف تتطابق علامة تبويب **مدخل الويب** مع الرسم التالي.
     [![علامة تبويب مدخل الويب](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. انقر فوق عنوان URL للتقارير لعرض مدخل ويب لخدمات SQL Server Reporting Services. 
-9.  عندما تصبح في المدخل، أدخل مجلدًا جديدًا باسم **Dynamics**.
+9. عندما تصبح في المدخل، أدخل مجلدًا جديدًا باسم **Dynamics**.
 
-    [![مجلد dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![مجلد dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. في **إدارة تكوين خدمات التقارير**، انقر فوق علامة تبويب **إعدادات البريد الإلكتروني** وتأكد من تطابق الإعدادات مع الرسم التالي.‬
 
@@ -68,15 +68,15 @@ ms.lasthandoff: 03/26/2018
 
     [![علامة تبويب حساب التنفيذ‬](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  لا تغيّر الإعدادات الافتراضية في علامة تبويب **مفاتيح التشفير**. [![علامة تبويب مفاتيح التشفير](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    لا تغيّر الإعدادات الافتراضية في علامة تبويب **مفاتيح التشفير**. [![علامة تبويب مفاتيح التشفير](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. انقر فوق علامة التبويب **إعدادات الاشتراك‬** وتأكد من تطابق الإعدادات مع الرسم التالي.
 
     [![علامة تبويب إعدادات الاشتراك](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  لا تغيّر الإعدادات الافتراضية في علامة تبويب **عمليات نشر لتوسيع الاستخدام**. [![علامة تبويب عمليات نشر لتوسيع الاستخدام](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    لا تغيّر الإعدادات الافتراضية في علامة تبويب **عمليات نشر لتوسيع الاستخدام**. [![علامة تبويب عمليات نشر لتوسيع الاستخدام](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  لا تغيّر الإعدادات الافتراضية في علامة تبويب **تكامل Power BI**. [![علامة تبويب تكامل Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    لا تغيّر الإعدادات الافتراضية في علامة تبويب **تكامل Power BI**. [![علامة تبويب تكامل Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. انقر فوق **إنهاء** لإغلاق **إدارة تكوين خدمات التقارير**.
 

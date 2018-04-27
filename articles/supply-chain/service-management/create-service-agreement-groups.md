@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>إنشاء مجموعات اتفاقيات الخدمة 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 تُعد مجموعات اتفاقيات الخدمة مفيدةً لتصنيف اتفاقيات الخدمة وتصفيتها.
 

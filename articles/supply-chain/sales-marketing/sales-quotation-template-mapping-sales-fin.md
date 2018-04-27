@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>مزامنة رؤوس وبنود عرض أسعار المبيعات‬ مباشرةً من Sales إلى Finance and Operations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يناقش الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة رؤوس وبنود عروض أسعار المبيعات مباشرةً من Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations.
 

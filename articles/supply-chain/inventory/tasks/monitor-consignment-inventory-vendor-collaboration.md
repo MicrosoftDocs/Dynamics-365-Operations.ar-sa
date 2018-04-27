@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>مراقبة مخزون الشحن باستخدام تعاون المورّد
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية استخدام تعاون المورّد لعرض معلومات حول مستوى مخزون المنتج الذي قمت بوضعها في الشحن مع عميل. يمكنك أيضًا مراقبة استهلاك المخزون عند يأخذ العميل ملكية المخزون. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF. يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
 

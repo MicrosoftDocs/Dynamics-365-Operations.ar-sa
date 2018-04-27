@@ -26,8 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="zakat-reporting"></a>الإبلاغ عن الزكاة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 الأشخاص المسلمون الذين تتجاوز إيراداتهم السنوية مستوى يسمى النصاب، ملزمون قانونًا بدفع 2.5% من إيراداتهم إلى الحكومة على شكل زكاة.
 

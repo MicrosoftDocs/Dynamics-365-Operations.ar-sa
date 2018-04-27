@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>الصفحة الرئيسية للتخطيط الرئيسي
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 في أساسه، يتيح التخطيط الرئيسي للشركات إمكانية تحديد وموازنة الاحتياجات المستقبلية للمواد الخام والقدرة اللازمة لتلبية أهداف الشركة. يقيّم التخطيط الرئيسي ما يلي: 
 
@@ -58,6 +57,7 @@ ms.lasthandoff: 02/13/2018
 [![خريطة التعلم للتخطيط الرئيسي](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>ارتباطات سريعة
+
 |      |   |
 |------|---|
 |        [الخطط الرئيسية](master-plans.md)       |     [إنشاء خطة مقيدة](./tasks/constrained-plan.md)  |

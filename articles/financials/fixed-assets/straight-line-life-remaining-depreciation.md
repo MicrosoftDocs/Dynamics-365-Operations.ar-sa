@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>إهلاك المتبقي من مدة خدمة القسط الثابت
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تقدم هذه المقالة نظرة عامة على أسلوب إهلاك المتبقي من مدة خدمة القسط الثابت‬.
 

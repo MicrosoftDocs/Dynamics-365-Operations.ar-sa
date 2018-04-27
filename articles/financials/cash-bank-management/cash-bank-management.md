@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>الصفحة الرئيسية لإدارة البنك والنقد
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يمكنك استخدام إدارة البنك والنقد للاحتفاظ بالحسابات البنكية الخاصة بالكيان القانوني والمستندات المالية المقترنة بتلك الحسابات البنكية. 
 

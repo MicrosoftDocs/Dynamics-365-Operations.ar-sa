@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>إنشاء منتج نهائي (فبراير 2016 فقط)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تركز هذه المهمة على إنشاء منتج نهائي. إنها المهمة الأولى في سلسلة حسابات قائمة مكونات الصنف. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬
 

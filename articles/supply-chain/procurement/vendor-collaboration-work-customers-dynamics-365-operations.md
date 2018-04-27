@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-with-customers"></a>تعاون المورد مع العملاء
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيفية استخدام تعاون المورد للتعامل مع العملاء في Microsoft Dynamics 365 for Finance and Operations. يستطيع الموردون إكمال سلسلة من العمليات التجارية من مساحات العمل التالية:
 

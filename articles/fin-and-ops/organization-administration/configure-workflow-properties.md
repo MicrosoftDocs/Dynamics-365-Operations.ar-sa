@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="configure-workflow-properties"></a>تكوين خصائص سير العمل
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تكوين مختلف خصائص لسير العمل.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>إنشاء تفويض خصم مباشر لعميل
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 توضح هذه المهمة كيفية إنشاء تفويض خصم مباشر واستخدامه في الفاتورة.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="demand-forecasting-setup"></a>إعداد التنبؤ بالطلب
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع مهام الإعداد التي يجب تنفيذها لتجهيز التنبؤ بالطلب.  
 

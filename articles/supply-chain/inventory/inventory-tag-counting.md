@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-tag-counting"></a>جرد علامات المخزون
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 توفر هذه المقالة معلومات حول جرد العلامات‬، الذي تستخدمه لمقارنة المحتويات الفعلية للمستودع بالمخزون الفعلي.
 

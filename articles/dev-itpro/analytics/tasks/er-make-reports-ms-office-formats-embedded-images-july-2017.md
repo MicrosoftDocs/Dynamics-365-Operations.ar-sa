@@ -1,5 +1,5 @@
 --- 
-title: "تصميم التكوينات لإنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة لإعداد التقارير الإلكتروني (ER) (الجزء 1)"
+title: "تصميم التكوينات لإنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة"
 description: "توفر الخطوات الواردة في هذا الموضوع معلومات حول كيفية تصميم تكوينات التقارير الإلكترونية (ER) التي تُنشئ مستندات إلكترونية بتنسيقات Microsoft Office ‏(Excel‏‏ ‏وWord) تحتوي على صور مضمنة."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>تصميم التكوينات لإنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة لإعداد التقارير الإلكتروني (ER) (الجزء 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>تصميم التكوينات لإنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 لإكمال الخطوات الواردة في هذا الإجراء، أكمل أولاً الإجراء "التقارير الإلكترونية تُنشئ موفر تكوين وتضع علامة عليه على أنه نشط‬". يوضح هذا الإجراء كيفية تصميم تكوينات التقارير الإلكترونية (ER) لإنشاء مستند Microsoft Excel أو Word يحتوي على صور مضمنة. في هذا الإجراء، ستقوم بإنشاء تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية، Litware, Inc. يمكن إكمال هذه الخطوات باستخدام مجموعة بيانات USMF. تم إنشاء هذا الإجراء للمستخدمين الذين لديهم دور مسؤول النظام أو مطور التقارير الإلكترونية. قبل البدء، قم بتنزيل وحفظ الملفات الواردة ضمن موضوع التعليمات، [قم بتضمين الصور والأشكال في مستندات العمل التي تم إنشاؤها باستخدام أداة إعداد التقارير الإلكترونية](../electronic-reporting-embed-images-shapes.md). الملفات هي: Model for cheques.xml، وCheques printing format.xml، وCompany logo.png، وSignature image.png، وSignature image 2.png، وCheque template Word.docx.
 

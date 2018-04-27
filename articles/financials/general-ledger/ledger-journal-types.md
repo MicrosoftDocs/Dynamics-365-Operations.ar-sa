@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>أنواع دفاتر يومية دفتر الأستاذ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تصف هذه المقالة أنواع دفاتر اليومية التي يمكنك تعيينها لدفاتر اليومية المالية. استخدم صفحة **أسماء دفاتر اليومية** لإعداد دفاتر اليومية التي يمكنك استخدامها في Microsoft Dynamics 365 for Finance and Operations.
 

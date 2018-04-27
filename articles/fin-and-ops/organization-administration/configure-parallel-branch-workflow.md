@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>تكوين فرع موازٍ في سير عمل
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 لتكوين فرع موازٍ، أكمل الإجراءات التالية في محرر سير العمل.
 

@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="running-average-cost-price"></a>متوسط سعر التكلفة الحالي
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 تقوم عملية إغلاق المخزون بتسوية حركات الإصدار إلى حركات الإيصال وفقًا لأسلوب تقييم المخزون الذي تم تحديده في مجموعة نماذج الصنف. ومع ذلك، قبل تشغيل إغلاق المخزون، يقوم النظام بحساب متوسط سعر التكلفة الحالي الذي يُستخدم عادةً عند ترحيل حركات الإصدار.
 

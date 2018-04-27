@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-workflow-history"></a>عرض محفوظات سير العمل
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 استخدم هذه الخطوات لعرض حالة مستند تم إرساله إلى نظام سير العمل من أجل المعالجة والموافقة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

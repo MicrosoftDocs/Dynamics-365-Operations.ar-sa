@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>إعداد صنف قائمة الأجهزة المحمولة لتسجيل الأصناف المستلمة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تركز هذه المهمة على إعداد عنصر قائمة جهاز محمول. يتم استخدام عنصر القائمة هذا لتسجيل استلام الأصناف المطلوبة عن طريق أوامر الشراء. 
 

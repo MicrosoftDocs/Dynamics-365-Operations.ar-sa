@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>عرض بيان المخزون ومؤشرات الأداء الرئيسية حسب كائن التكلفة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لمراقب التكاليف‬.
 

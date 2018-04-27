@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a>محتوى Power BI - تطوير الموظفين
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع محتوي Microsoft Power BI **تطوير الموظفين**.
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 12/19/2017
 يمكنك تصفية المخططات والتجانبات في هذه التقارير، وتثبيت المخططات والتجانبات بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
+
 | الكيان                   | المحتويات                                                                                                   | العلاقات مع الكيانات الأخرى |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | مقاصة التقويم          | مقاصات التقويم إلى تقارير الشرائح                                                                          | مهمة المنصب السابق، اتجاه المنصب، اتجاه الموظف، موظفون تم إنهاء خدمتهم 

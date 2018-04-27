@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="dimension-based-product-configuration"></a>تكوين المنتج المستند إلى بُعد
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يمثل تكوين المنتج المستند إلى بُعد‬ حلاً بسيطًا لإنشاء متغيرات منتج متعددة من أصل منتج واحد وقائمة مكونات الصنف الخاصة به.
 

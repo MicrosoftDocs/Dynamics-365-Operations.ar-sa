@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>تحديد خلايا عمل lean manufacturing
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 خلية العمل عبارة عن شكل معين لمجموعات الموارد التي يمكن استخدامها في أنشطة عمليات lean manufacturing. يتم تحديد مواقع الإدخال والإخراج لخلايا العمل وتعريف القدرة استناداً إلى نموذج تدفق إنتاج. لمعرفة المزيد حول المفاهيم الأساسية لخلايا عمل lean manufacturing وحساب القدرات، انظر المستندات التقنية حول lean manufacturing. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-adjustments-and-discounts"></a>تعديلات الأسعار والخصومات
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 توفر هذه المقالة معلومات حول تعديلات الأسعار والخصومات في Microsoft Dynamics 365 for Retail.
 

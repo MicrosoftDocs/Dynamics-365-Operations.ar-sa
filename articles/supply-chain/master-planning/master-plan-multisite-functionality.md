@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-and-multisite-functionality"></a>التخطيط الرئيسي ووظائف المواقع المتعددة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يأخذ التخطيط الرئيسي إعدادات أبعاد مخزون المستودع والموقع في الاعتبار. 
 

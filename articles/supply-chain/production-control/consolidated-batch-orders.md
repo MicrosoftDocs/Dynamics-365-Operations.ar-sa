@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidated-batch-orders"></a>الأوامر الدفعية المجمعة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تصف هذه المقالة مفهوم الأوامر الدُفعية المجمعة.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accessibility-features"></a>ميزات إمكانية وصول ذوي الاحتياجات الخاصة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات متعددة على استخدام Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent. على سبيل المثال، هناك ميزات للأشخاص الذين يستخدمون تقنيات مساعدة مرئية، مثل Microsoft Windows Narrator.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="excel-templates-with-multiple-worksheets"></a>قوالب Excel باستخدام أوراق عمل متعددة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 تدعم إدارة البيانات في Microsoft Dynamics 365 for Finance and Operations قوالب Microsoft التي تستند إلى Excel لكيانات البيانات. يمكن أن تحتوي هذه القوالب على ورقة عمل واحدة أو أكثر. تستخدم عادة قوالب أوراق العمل المتعددة عندما يكون ذلك مناسبًا لإدارة البيانات في ملف واحد واستيرادها في كيانات بيانات متعددة. على سبيل المثال ستكون المواقع والمستودعات.
 

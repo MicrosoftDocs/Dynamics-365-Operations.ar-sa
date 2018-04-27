@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>إعداد ومعالجة الفواتير المتكررة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية إعداد ومعالجة الفواتير المتكررة. يمكنك استخدام الفواتير المتكررة إذا توجب عليك فوترة العملاء بنفس المبلغ على أساس منتظم.
 

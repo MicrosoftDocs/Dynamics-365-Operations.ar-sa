@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>التخطيط الرئيسي لتغطية الموقع، المستودع غير إلزامي
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيف يتم التخطيط لصنف تم تعيين بُعد الموقع له للتغطية.
 

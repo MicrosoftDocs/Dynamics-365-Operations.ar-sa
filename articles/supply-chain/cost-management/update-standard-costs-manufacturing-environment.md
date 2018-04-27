@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>تحديث التكاليف المعيارية في بيئة تصنيع
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة إرشادات حول كيفية تحديث التكاليف المعيارية في بيئة غير مصنعة. 
 

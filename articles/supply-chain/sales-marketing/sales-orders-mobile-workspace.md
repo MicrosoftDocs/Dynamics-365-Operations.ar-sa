@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-orders-mobile-workspace"></a>مساحة العمل المحمولة لأوامر المبيعات
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **أوامر المبيعات**. تسمح لك مساحة العمل هذه بالبقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان. 
 

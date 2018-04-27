@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>إعداد موعد لحمل عمل
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد وتخطيط مواعيد الرصيف‬ لحمولة ما. عادة ما يتم ذلك عن طريق منسق نقل. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.
 

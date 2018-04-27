@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Sales.
 

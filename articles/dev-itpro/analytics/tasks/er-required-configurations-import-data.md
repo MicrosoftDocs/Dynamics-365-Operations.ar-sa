@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي للتقارير الإلكترونية (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوينات تقارير إلكترونية لاستيراد البيانات إلى تطبيق Dynamics 365 for Finance and Operations من ملف خارجي. في هذا المثال، سوف تنشئ تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية Litware, Inc. لإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات الموجودة في دليل المهام "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط"‬. يمكن إتمام هذه الخطوات باستخدام مجموعة بيانات USMF. يجب أيضًا تنزيل الملفات التالية وحفظها محليًا باستخدام الارتباطات من الموضوع "نظرة عامة حول التقارير الإلكترونية‬‏‫" (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 

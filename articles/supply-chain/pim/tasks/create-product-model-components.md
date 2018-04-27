@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>إنشاء مكونات طراز منتج
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تستخدم نماذج تكوين المنتجات المستندة إلى القيود مكونات ككتل الإنشاء لتأسيس بنية نموذج المنتج. يجب إنشاء المكونات قبل أن يمكن إنشاء نموذج منتج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>الاتصال بنظام التعليمات
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع المكونات التي تشكّل نظام تعليمات Microsoft Dynamics 365 for Finance and Operations. ويقدم نظرة عامة حول كيفية توصيل هذه المكونات وملخصًا لكيفية إنشاء تعليمات مخصصة. 
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="connecting-the-help-system"></a>الاتصال بنظام التعليمات
 > [!NOTE]
 > علامة التبويب **دلائل المهام** غير متوفرة بعد في كل من Microsoft Dynamics 365 for Talent وMicrosoft Dynamics 365 for Retail. نحن نعمل حاليًا على تمكين هذه الوظيفة في إصدار مستقبلي. تبقى دلائل المهام في تجربة "بدء الاستخدام" في Talent متوفرة لتغطية الوظائف الأساسية. تتوفر أيضًا تعليمات إجرائية في الموقع docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) لكل من Retail وTalent.
- 
+
 
 من خلال استخدام صفحة **معلمات النظام**، يتصل مسؤولو النظام بأجزاء نظام التعليمات لتطبيقها. [![نموذج معلمات النظام مع إعدادات التعليمات](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) في صفحة **معلمات النظام**‎، اتبع الخطوات التالية:
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>تعيين ضريبة المبيعات والتجاوزات
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية تعيين مجموعات ضريبة المبيعات إلى قنوات البيع بالتجزئة. وينقلك هذا الإجراء أيضًا عبر عملية إنشاء تجاوز ضريبة مبيعات جديد وتعيينه إلى مجموعة تجاوز ضريبة مبيعات موجودة. يستخدم هذا الإجراء
 

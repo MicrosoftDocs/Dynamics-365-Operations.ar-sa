@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>إدخال كود GTIN لمنتج
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يتم تعيين أكواد GTIN بواسطة مؤسسة GS1. في هذا المثال، ستقوم بإدخال كود لرقم المنتج M0001 في بيانات العرض التوضيحي لشركة USMF.‬
 

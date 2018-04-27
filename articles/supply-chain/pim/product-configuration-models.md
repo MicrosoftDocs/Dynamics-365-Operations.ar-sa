@@ -19,17 +19,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 6772c1d7906db27333206ea2ecd5a0585c3eb939
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-configuration-models-overview"></a>نظرة عامة على نماذج تكوين المنتجات
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تصف هذه المقالة المصطلحات والمفاهيم المتعلقة بنماذج تكوين المنتجات. تسمح لك نماذج تكوين المنتجات بإنشاء بنية منتج عامة يمكن استخدامها لتكوين العديد من متغيرات المنتجات لمنتج واحد.
 

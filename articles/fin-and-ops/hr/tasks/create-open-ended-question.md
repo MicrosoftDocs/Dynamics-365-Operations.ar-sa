@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8b226fe4a6300cecfefdc8f4a5e3c0c82d6c625e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 317f361cbd7d63a1017cfa085afee80a5c67e0eb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-an-open-ended-question"></a>إنشاء سؤال ذي نهاية مفتوحة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تسمج الأسئلة ذات الإجابات المفتوحة للمستجيبين بتوفير استجابتهم الخاصة. يمكنك التحكم في ما إذا كانت هذه الاستجابة عبارة عن رقم أو رقم عشري أو تاريخ أو تعليق وغير ذلك. ينقلك هذا الإجراء عبر عملية إنشاء نوع معين من الأسئلة، الأسئلة ذات النهاية المفتوحة‬. لبدء هذا الإجراء، انتقل إلى الاستبيان > تصميم > الأسئلة‬. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

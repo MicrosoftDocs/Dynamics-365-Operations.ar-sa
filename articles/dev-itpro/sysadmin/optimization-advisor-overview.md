@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>نظرة عامة على مرشد تحسين الأداء
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيفية استخدام مرشد تحسين الأداء للمساعدة في ضمان التكوين الأمثل لـ Microsoft Dynamics 365 Finance and Operations.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a>‏‫تحويل مواد مع وظائف كانبان‬ (فبراير 2016 فقط)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يركز هذا الإجراء على تنفيذ مهمة كانبان للسحب لتحويل المواد. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لعامل المستودع.
 

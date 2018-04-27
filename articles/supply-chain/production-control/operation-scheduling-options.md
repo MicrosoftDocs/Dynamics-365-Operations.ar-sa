@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-scheduling-options"></a>خيارات جدولة العمليات
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع خيارات جدولة العمليات. يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن.
 

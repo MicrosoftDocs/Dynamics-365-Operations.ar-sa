@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-estimation"></a>تقدير تكلفة أمر الإنتاج
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول تقدير تكلفة الإنتاج. يزودك تقدير تكلفة الإنتاج بتكاليف المواد المرتقبة واستهلاك القدرة لإنتاج صنف في كمية أمر الإنتاج المخطط. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>إنشاء وتعيين سياسة سلوك التكلفة إلى وحدة التحكم في التكلفة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يُعتبر سلوك التكلفة بمثابة تصنيف للتكاليف كثابتة أو متغيرة. يجب أن يتم تعيين سياسة وقواعد مناظرة إلى وحدة التحكم بالتكاليف لكي تصبح السياسة سارية. استخدم هذا الإجراء لإنشاء سياسة ثم تعيين السياسة إلى وحدة التحكم بالتكاليف.
 

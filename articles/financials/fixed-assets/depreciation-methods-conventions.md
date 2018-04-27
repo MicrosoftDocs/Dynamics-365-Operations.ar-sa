@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>أساليب الإهلاك والقواعد
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة حول قواعد الإهلاك وطرق الإهلاك التي يدعمها Microsoft Dynamics 365 for Finance and Operations.
 
@@ -62,7 +61,7 @@ ms.lasthandoff: 03/26/2018
 -   تقليل الرصيد بنسبة 150%
 -   تقليل الرصيد بنسبة 125%
 
- 
+
 
 
 

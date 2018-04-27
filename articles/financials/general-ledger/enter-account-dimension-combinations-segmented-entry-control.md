@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>إدخال مجموعات الحسابات والأبعاد (عنصر تحكم في الإدخال المقسم)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية إدخال مجموعات الحسابات والأبعاد أو حسابات دفتر الأستاذ. يُشار في أغلب الأحيان إلى تجربة الإدخال بعنصر التحكم في الإدخال المقسم.
 
@@ -112,7 +111,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
- 
+
 
 
 

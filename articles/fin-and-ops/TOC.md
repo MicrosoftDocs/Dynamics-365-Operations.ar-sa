@@ -1,3 +1,4 @@
+
 # [Dynamics 365 for Finance and Operations](index.md)
 
 ## بدء الاستخدام
@@ -16,29 +17,31 @@
 #### شراء Finance and Operations
 ##### [شراء Finance and Operations (محلي)](get-started/purchase-on-premises.md)
 
-### [ما الجديد أو المتغير‬‏‫](get-started/whats-new-changed.md)
+### [الجديد أو المتغير](get-started/whats-new-changed.md)
+#### [سياسة دورة حياة البرامج والإصدارات على السحابة](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
+#### [سياسة دورة حياة البرامج والإصدارات المحلية](../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json)
 #### [الميزات التي تمت إزالتها أو إهمالها](../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json)
-#### [ميزات AX 2012 المؤجلة](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
-#### [الميزات التي لم يتم تنفيذها في عمليات النشر المحلية](get-started/features-not-implemented-on-prem.md)
-#### [تحديث النظام الأساسي 15 (مارس 2018)](get-started/whats-new-platform-update-15.md)
-#### [الإصدارات وسياسة دورة الحياة](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
-#### [عمليات النشر المحلي (مارس 2018)](get-started/whats-new-LBD-PU12-App72.md)
-#### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
-#### [تحديث النظام الأساسي رقم 12 (نوفمبر 2017)](get-started/whats-new-platform-update-12.md)
-#### [تحديث Platform رقم 11 (أكتوبر 2017)](get-started/whats-new-platform-update-11.md)
+#### [ميزات AX 2012 التي تم تأجيلها](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
+#### [الميزات غير المنفذة في عمليات النشر المحلية](get-started/features-not-implemented-on-prem.md)
+#### [Finance and Operations 8.0 (أبريل 2018)](get-started/whats-new-changed-8-0-April-2018.md)
+#### [Platform update 15 (مارس 2018)](get-started/whats-new-platform-update-15.md)
+#### [عمليات النشر المحلي لللإصدار 7.2 مع Platform update 12 (مارس 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Platform update 12 (نوفمبر 2017)](get-started/whats-new-platform-update-12.md)
+#### [Platform update 11 (أكتوبر 2017)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (أغسطس 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise edition (يوليو 2017)](get-started/whats-new-application-July-2017-update.md)
-#### [تحديث Platform رقم 9 (يوليو 2017)](get-started/whats-new-platform-update-9.md)
-#### [تحديث Platform رقم 8 (يونيو 2017)](get-started/whats-new-platform-update-8.md)
-#### [تحديث Platform رقم 7 (مايو 2017)](get-started/whats-new-platform-update-7.md)
-#### [تحديث Platform رقم 6 (أبريل 2017)](get-started/whats-new-platform-update-6.md)
-#### [تحديث Platform رقم 5 (مارس 2017)](get-started/whats-new-platform-update-5.md)
-#### [تحديث Platform رقم 4 (أبريل 2017)](get-started/whats-new-platform-update-4.md)
+#### [Platform update 9 (يوليو 2017)](get-started/whats-new-platform-update-9.md)
+#### [Platform update 8 (يونيو 2017)](get-started/whats-new-platform-update-8.md)
+#### [Platform update 7 (مايو 2017)](get-started/whats-new-platform-update-7.md)
+#### [Platform update 6 (أبريل 2017)](get-started/whats-new-platform-update-6.md)
+#### [Platform update 5 (مارس 2017)](get-started/whats-new-platform-update-5.md)
+#### [Platform update 4 (فبراير 2017)](get-started/whats-new-platform-update-4.md)
 #### [إصدار Operations 1611 (نوفمبر 2016)](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [تحديث Platform رقم 3 (نوفمبر 2016)](get-started/whats-new-platform-update-3.md)
-#### [تحديث Platform رقم 2 (أغسطس 2016)](get-started/whats-new-platform-update-2.md) 
+#### [Platform update 3 (نوفمبر 2016)](get-started/whats-new-platform-update-3.md)
+#### [Platform update 2 (أغسطس 2016)](get-started/whats-new-platform-update-2.md) 
 #### [تطبيق Dynamics AX الإصدار 7.0.1 (مايو 2016)](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [تحديث Platform رقم 1 (مايو 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [Platform update 1 (مايو 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [Dynamics AX 7.0 (فبراير 2016)](get-started/whats-new-changed-7-0-february-2016.md)
 #### دلائل المهام المحدثة
 ##### [دلائل مهام نوفمبر 2016](get-started/new-task-guides-november-2016.md)
@@ -162,6 +165,10 @@
 ###### [مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
 ###### [مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ###### [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+##### [تكوين التكامل مع Field Service](../supply-chain/sales-marketing/field-service.md)
+###### [مزامنة المنتجات في Finance and Operations إلى المنتجات في Field Service](../supply-chain/sales-marketing/field-service-product.md)
+###### [مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+###### [مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
 
 
 #### [استخدام خدمات ويب الخارجية](../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json)
@@ -195,9 +202,11 @@
 #### [قواعد معالج كيان البيانات](../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/fin-and-ops/toc.json)
 #### [خصائص بيانات التعريف](../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/fin-and-ops/toc.json)
 #### [عمليات التحقق من الصحة والإعدادات الافتراضية والحقول غير المعينة](../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/fin-and-ops/toc.json)
-#### [الأمان وكيانات البيانات](../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json)
+#### [كيانات البيانات والأمان‬](../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json)
 
 ### [إحضار قاعدة بياناتك الخاصة](../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json)
+
+### [أتمتة مهمة البيانات](../dev-itpro/data-entities/data-task-automation.md)
 
 ## [الإدارة المالية](../financials/index.md)
 
@@ -594,7 +603,7 @@
 ### [تعديل خلايا تعريف الصفوف](../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json)
 ### [إعادة تعيين متجر بيانات التقرير المالي بعد استعادة قاعدة بيانات](../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json)
 
-## [الترجمة والميزات التنظيمية](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
+## [ميزات الترجمة والميزات التنظيمية](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
 ### آسيا والمحيط الهادئ
 #### [أستراليا](../financials/localizations/australia.md)
 #### الصين
@@ -754,6 +763,7 @@
 #### [تنسيقات الملف لطرق الدفع](../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
 #### [تكامل الخدمة المالية (ESR)](../financials/localizations/emea-fiscal-service-integration.md)
 #### [التخلص من الأصول الثابتة لإستونيا وليتوانيا](../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+#### [إعادة تقييم العملة الأجنبية](../financials/localizations/emea-foreign-currency-revaluation.md)
 #### [إنشاء مستند تحويل لتحويل مخزون داخلي](../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md)
 #### [إنشاء إقرار "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي"](../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md)
 #### [إنشاء تقرير قائمة مبيعات الاتحاد الأوروبي](../financials/localizations/tasks/eur-00011-eu-sales-list-report.md)
@@ -805,21 +815,15 @@
 ##### [حركات سجل ضريبة القيمة المضافة لأوروبا الشرقية](../financials/localizations/emea-vat-register-transactions.md)
 ##### [إعداد تقارير ضريبة القيمة المضافة](../financials/localizations/emea-vat-reporting.md)
 ##### [إنشاء تقرير ضريبة القيمة المضافة وإرساله](../financials/localizations/tasks/create-submit-vat-report.md)
-#### [عرض الحركات عن التسوية](../financials/localizations/emea-transactions-settlement-form.md)
+#### [عرض الحركات عن التسوية‬‏‫](../financials/localizations/emea-transactions-settlement-form.md)
 
 #### [النمسا](../financials/localizations/austria.md)
 
-#### بلجيكا
-##### [كشف الحساب البنكي بتنسيق CODA](../financials/localizations/emea-bel-coda-bank-statement-import.md)
-##### [إنشاء حركات وتحويلها إلى BLWI](../financials/localizations/tasks/be-00011-create-transfer-blwi.md)
-##### [‏‏إقرار ضريبة Intervat](../financials/localizations/emea-bel-intervat-tax-declaration.md)
-##### [إعداد تقرير PRODCOM](../financials/localizations/emea-bel-prodcom-report.md)
-##### [تقارير التسوية](../financials/localizations/emea-bel-reconciliation-reports.md)
-##### [إعداد تقارير رصيد الدفع](../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md)
+#### [بلجيكا](../financials/localizations/belgium.md)
 
 #### [جمهورية التشيك](../financials/localizations/czech-republic.md)
 
-#### الدنمارك
+#### الدانمرك
 ##### [تعيين تنسيق إيصال دفع لحساب العميل](../financials/localizations/tasks/assign-payment-slip-format-customer-account.md)
 ##### [إنشاء وترحيل فاتورة عميل لعميل القطاع العام](../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md)
 ##### [إنشاء وترحيل فاتورة نص حر لعميل القطاع العام](../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md)
@@ -833,6 +837,7 @@
 ##### [إعداد تنسيق إيصال الدفع](../financials/localizations/tasks/set-up-payment-slip-format.md)
 
 #### إستونيا
+##### [طلبات المعلومات الشخصية](../financials/localizations/emea-est-personal-info.md)
 ##### [بيان ضريبة القيمة المضافة](../financials/localizations/emea-est-vat-statement-details.md)
 
 #### فرنسا
@@ -859,6 +864,9 @@
 ##### [إهلاك RB/SL](../financials/localizations/emea-fra-rbsl-depreciation.md)
 ##### [إعداد طريقة الدفع](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
 ##### [تحديث طريقة الدفع للعميل](../financials/localizations/tasks/fr-00004-update-method-payment-customer.md)
+##### Retail
+###### [آلات تسجيل المدفوعات النقدية](../retail/localizations/emea-fra-cash-registers.md)
+###### [إرشادات النشر لآلات تسجيل المدفوعات النقدية](../retail/localizations/emea-fra-deployment.md)
 
 #### ألمانيا
 ##### [إهلاك الاستحواذ الإضافي](../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
@@ -877,6 +885,7 @@
 ##### [طرق إهلاك الأصول الثابتة](../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)
 ##### [الأصول الثابتة ذات التكلفة المنخفضة](../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 ##### [نقل أصل ثابت إلى المخزون](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [مستندات استرداد الضرائب](../financials/localizations/emea-hun-tax-reimbursement-docs.md)
 
 #### أيسلندا
 ##### [إنشاء حساب مورد وإرفاق فئة إقرار الفاتورة](../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md)
@@ -891,6 +900,7 @@
 ##### [إهلاك الأصول الثابتة](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
 ##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [التحقق من صحة تاريخ إيصال التعبئة على الفواتير](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+##### [ترحيل وطباعة كشف تعبئة مع تفاصيل تسليم النقل](../financials/localizations/emea-ita-packing-slip.md)
 ##### [دفاتر ضريبة المبيعات](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [الدفعة المقسمة للفواتير الصادرة للإدارة العامة](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
 ##### [ضريبة الخصم](../financials/localizations/emea-ita-withholding-tax.md)
@@ -945,6 +955,7 @@
 ##### [دورات المبيعات والشراء](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### السويد
+##### [تصدير معلومات مالية للمراجعين في السويد](../financials/localizations/emea-swe-sie-standard-report.md)
 ##### [استيراد تنسيقات الدفع](../financials/localizations/emea-swe-payment-formats-import.md)
 ##### [آلات تسجيل المدفوعات النقدية](../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json)
 #### سويسرا
@@ -1219,6 +1230,7 @@
 #### [تكوين SSRS لنشر محلي](../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json)
 #### [طباعة](../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json)
 ##### [تثبيت "وكيل توجيه المستند" لتمكين أجهزة طابعات الشبكة](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
+##### [ترقية ‏‫وكيل توجيه المستند](../dev-itpro/analytics/upgrade-document-routing-agent.md)
 ##### [تثبيت أجهزة طابعات الشبكة في البيئات المحلية](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
 ##### [إمكانات إنشاء مستند، والنشر، والطباعة في عمليات النشر المحلي](../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json)
 ##### [تشغيل وكيل توجيه المستند كخدمة Windows](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json)
@@ -1234,6 +1246,7 @@
 
 ### [إعداد التقارير الإلكترونية](../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json)
 #### [تكوين إطار عمل إعداد التقارير الإلكتروني](../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json)
+#### [إنشاء تكوين](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
 ##### [إنشاء موفر تكوين وتمييزه كنشط لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [تصميم نموذج البيانات الخاص بالمجال لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [تحديد تعيين النموذج وتحديد مصادر البيانات لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json)
@@ -1247,49 +1260,47 @@
 #### [الوجهات](../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json)
 ##### [تكوين الوجهات ‏‫لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [تصميم تكوين لإنشاء التقارير بتنسيق Microsoft Word لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [تصميم تكوين لإنشاء التقارير بتنسيق OpenXML لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [تعديل تنسيق من خلال إعادة تطبيق قالب Microsoft Excel لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017.md?toc=/fin-and-ops/toc.json)
+#### [تصميم أحد التكوينات لإنشاء التقارير بتنسيق OpenXML لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [تعديل تنسيق إعداد التقارير الإلكتروني من خلال إعادة تطبيق قالب Microsoft Excel](../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json)
 #### [تحديد تعريف نموذج البيانات أثناء إنشاء تنسيق للتقارير الإلكترونية](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [تحديد تبعية التكوينات من المكونات الأخرى لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [تصميم نموذج بيانات لاستخدام الأبعاد المالية كمصدر بيانات لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
-##### [تعيين نماذج لاستخدام الأبعاد المالية كمصدر بيانات لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
-##### [تصميم تقرير لاستخدام الأبعاد المالية كمصدر بيانات لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
-##### [تشغيل تقرير يستخدم الأبعاد المالية كمصدر بيانات لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
-##### [إنشاء تنسيق للعد والجمع لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
-##### [تكوين عمليات حسابية للقيام بالعد والجمع لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
-##### [استخدام عمليات حسابية لإجراء الإخراج للعد والجمع لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
-##### [تشغيل التنسيق للقيام بالعد والجمع لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
-##### [تصميم تنسيق لاستخدام نطاقات قابلة للتوسيع أفقيًا لإضافة الأعمدة ديناميكيًا في تقارير Excel لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
-##### [تشغيل تنسيق يستخدم نطاقات قابلة للتوسيع أفقيًا لإضافة الأعمدة ديناميكيًا في تقارير Excel لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
-##### [إعداد نموذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التنسيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
-##### [توسيع نموذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التنسيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
-##### [إنشاء تنسيق لاستخدام ملفات إدارة المستندات في مخرجات التنسيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
-##### [تشغيل تنسيق لاستخدام ملفات إدارة المستندات في مخرجات التنسيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
-##### [تعديل وتشغيل تنسيق لاستخدام ملفات إدارة المستندات في مخرجات التنسيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
-##### [تصميم التكوينات لإنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة لإعداد التقارير الإلكتروني (ER) (الجزء 1) ](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [مراجعة التكوينات لإنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
-##### [إنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
+#### [تحديد تبعية التكوينات من المكونات الأخرى لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [تصميم نموذج بيانات لاستخدام الأبعاد المالية كمصدر بيانات](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
+##### [تعيين النماذج لاستخدام الأبعاد المالية كمصدر بيانات](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
+##### [تصميم تقرير لاستخدام الأبعاد المالية كمصدر بيانات](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
+##### [تشغيل تقرير يستخدم الأبعاد المالية كمصدر بيانات](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
+##### [إنشاء تنسيق للعد والجمع](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
+##### [تكوين عمليات حسابية للقيام بالعد والجمع](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
+##### [استخدام عمليات حسابية لإجراء الإخراج للعد والجمع](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
+##### [تشغيل التنسيق للقيام بالعد والجمع](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
+##### [تصميم تنسيق لاستخدام نطاقات قابلة للتوسيع أفقيًا لإضافة الأعمدة ديناميكيًا في تقارير Excel](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
+##### [تشغيل تنسيق يستخدم نطاقات قابلة للتوسيع أفقيًا لإضافة الأعمدة ديناميكيًا في تقارير Excel](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
+##### [إعداد نموذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التنسيق](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
+##### [توسيع نموذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التنسيق](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
+##### [إنشاء تنسيق لاستخدام ملفات إدارة المستندات في مخرجات التنسيق](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
+##### [تشغيل تنسيق لاستخدام ملفات إدارة المستندات في مخرجات التنسيق](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
+##### [تعديل وتشغيل تنسيق لاستخدام ملفات إدارة المستندات في مخرجات التنسيق](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
+##### [تصميم تكوينات لإنشاء تقارير بتنسيقات Microsoft Office مع صور مضمنة](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [مراجعة التكوينات لإنشاء تقارير بتنسيقات Microsoft Office مع صور مضمنة](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
+##### [إنشاء تقارير بتنسيقات Microsoft Office مع صور مضمنة](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
 #### [إنشاء مستندات إلكترونية وتحديث بيانات التطبيق باستخدام أداة إعداد التقارير الإلكترونية](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
-##### [استيراد التكوينات لإنشاء مستندات مع تحديث بيانات التطبيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
-##### [إنشاء مستندات مع تحديث بيانات التطبيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
-##### [تعديل نموذج والتعيين لإنشاء مستندات مع تحديث بيانات التطبيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
-##### [تعديل تنسيق لإنشاء مستندات مع تحديث بيانات التطبيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
-##### [إنشاء مستندات مع تحديث بيانات التطبيق لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
-#### [تضمين الأشكال والصور في مستندات العمل التي تم إنشاؤها باستخدام أداة إعداد تقارير الإلكترونية](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
-#### [تحميل تكوين إلى Lifecycle Services لإعداد التقارير الإلكترونية](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
-##### [استيراد أحد التكوينات من Lifecycle Services لإعداد التقارير الإلكترونية](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [استيراد تكوينات لإنشاء مستندات مع بيانات التطبيق](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
+##### [تصميم تكوينات لإنشاء مستندات مع بيانات التطبيق](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
+##### [تعديل النموذج والتعيين لإنشاء مستندات مع بيانات التطبيق](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
+##### [تعديل التنسيق لإنشاء مستندات مع بيانات التطبيق](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
+##### [إنشاء مستندات مع بيانات التطبيق](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
+#### [تضمين الأشكال والصور في مستندات الأعمال التي تم إنشاؤها باستخدام أداة إعداد تقارير الإلكترونية](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
 #### [إدارة دورة حياة التكوين](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
-#### [إنشاء تكوين](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
-#### [تنزيل التكوينات من Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
-#### [توسيع وظائف التقارير الإلكترونية](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
-##### [إدارة تكوينات تعيين النماذج لإعداد التقارير الإلكترونية](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي لإعداد التقارير الإلكترونية](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json)
-#### [استيراد تكوينات إعداد التقارير الإلكترونية](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
+##### [تحميل تكوين إلى Lifecycle Services لإعداد التقارير الإلكترونية](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [استيراد أحد التكوينات من Lifecycle Services لإعداد التقارير الإلكترونية](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [تنزيل التكوينات من Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
+##### [استيراد تكوينات إعداد التقارير الإلكترونية](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
+#### [إدارة تكوينات تعيين النماذج لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي لإعداد التقارير الإلكتروني](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json)
 #### [توزيع المستندات الواردة لتحديث بيانات التطبيق](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
 #### [توزيع المستندات الواردة بتنسيق CSV](../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json)
-
+##### [توسيع وظائف التقارير الإلكترونية](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
 ##### [التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3](../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json)
+
 
 ### الحلول التحليلية المضمنة
 #### [Power BI المضمن في مساحات العمل](../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json)
@@ -1451,8 +1462,9 @@
 #### [إعداد المورّد](../supply-chain/procurement/vendor-onboarding.md)
 #### [تعاون المورد مع موردين خارجيين](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [تعاون المورد مع العملاء](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
-#### [إعداد كتالوج خارجي لـ PunchOut eProcurement‬](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
-#### [استخدام الكتالوجات الخارجية لـ PunchOut eProcurement‬](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
+#### [استيراد كتالوجات المورِّد](../supply-chain/procurement/vendor-catalogs-import.md)
+#### [إعداد كتالوج خارجي لـ PunchOut eProcurement](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
+#### [استخدام الكتالوجات الخارجية لـ PunchOut eProcurement](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
 #### [مساحة العمل المحمولة "تعاون المورد"‬](../supply-chain/procurement/vendor-collaboration-mobile-workspace.md)
 
 ### مهام التدبير وتحديد الموارد
@@ -1598,14 +1610,16 @@
 ##### [استبدال المواد في التصنيع](../supply-chain/production-control/substitute-items-bom-lines.md)
 ##### [التسجيل لتنفيذ التصنيع](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [ملاحظات الإنتاج](../supply-chain/production-control/production-feedback.md)
-##### [تسجيل الوقت والحضور](../supply-chain/production-control/time-attendance-registrations.md)
-##### [تسجيل الغياب في الوقت والحضور](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 ##### [تمكين عملية المرتبات للوقت والحضور](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
 ##### [تكوين عامل باستخدام جهاز وظيفة محمول](../supply-chain/production-control/tasks/worker-mobile-job-device.md)
 #### إدارة الأمور المالية في الإنتاج
 ##### [تخصيص الوقت للوظائف في مجموعة وظائف‬](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [حساب استهلاك المواد](../supply-chain/production-control/consumption.md)
 ##### [ترحيل الإنتاج](../supply-chain/cost-management/production-posting.md)
+#### [تسجيل الوقت والحضور](../supply-chain/production-control/time-attendance-registrations.md)
+##### [الدفع وفقًا للتسجيلات](../supply-chain/production-control/pay-based-on-registrations.md)
+##### [تسجيل الغياب في الوقت والحضور](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [المجموعات المرنة](../supply-chain/production-control/time-attendance-flex-groups.md)
 
 ### Lean manufacturing 
 #### [نظرة عامة على Lean manufacturing](../supply-chain/production-control/lean-manufacturing-overview.md)
@@ -1836,6 +1850,7 @@
 #### [نقل المخزون مع العمل المقترن في إدارة المستودعات](../supply-chain/warehousing/move-inventory-associated-work.md)
 #### [إدارة عمال المستودعات](../supply-chain/warehousing/manage-warehouse-workers.md)
 ### الانتقاء والتعبئة
+#### [إعداد انتقاء نظام المجموعة](../supply-chain/warehousing/set-up-cluster-picking.md)
 #### [تأكيد لوحة الترخيص والدُفعة](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
 #### [إنشاء عنصر في قائمة الجهاز المحمول لدمج لوحة الترخيص](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [استلام لوحة ترخيص مختلطة](../supply-chain/warehousing/mixed-license-plate-receiving.md)
@@ -1843,10 +1858,11 @@
 #### [انتقاء الدُفعة الأقدم على جهاز محمول](../supply-chain/warehousing/pick-oldest-batch.md)
 #### [مسح الأكواد الشريطية باستخدام الكاميرا في Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [تأكيد انتقاء الأجزاء](../supply-chain/warehousing/piece-picking-confirmation.md)
-#### [تأكيد المنتج لانتقاء نظام المجموعة](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
+#### [شحن جزئي لحمل النقل](../supply-chain/warehousing/partial-shipping-of-transport-loads.md)
 #### [إصدار دُفعة أوامر التحويل المحجوزة جزئيًا](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
 #### [رسوم ومواد التعبئة](../supply-chain/warehousing/pack-materials-packing-material-fees.md)
 ### جرد المخزون
+#### [أكواد أسباب جرد المخزون](../supply-chain/warehousing/reason-codes-for-counting-journals.md)
 #### [حظر المخزون](../supply-chain/inventory/inventory-blocking.md)
 #### [الجرد الدوري](../supply-chain/warehousing/cycle-counting.md)
 #### [تحديد الجرد الدوري ](../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md)
@@ -1856,7 +1872,8 @@
 #### [موقع المخزون](../supply-chain/inventory/inventory-locations.md)
 #### [حالة المخزون](../supply-chain/inventory/inventory-statuses.md)
 #### [جرد علامات المخزون](../supply-chain/inventory/inventory-tag-counting.md)
-### [التزويد](../supply-chain/warehousing/replenishment.md)
+### [تزويد](../supply-chain/warehousing/replenishment.md)
+#### [التزويد الفوري](../supply-chain/warehousing/immediate-replenishment.md)
 #### [التزويد بحلول كانبان للسحب](../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md)
 ### [تثبيت وتكوين تطبيق المستودع ](../supply-chain/warehousing/install-configure-warehousing-app.md)
 #### [تكوين أسماء الحقول في تطبيق المستودع](../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md)

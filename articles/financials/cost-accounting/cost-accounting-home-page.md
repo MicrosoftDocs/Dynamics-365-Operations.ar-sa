@@ -3,12 +3,12 @@ title: "الصفحة الرئيسية لمحاسبة التكاليف‬‏‫"
 description: "يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة لمحاسبة التكاليف‬‏‫."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>خريطة التعلم 
 
@@ -37,6 +37,7 @@ ms.lasthandoff: 11/03/2017
 [![خريطة التعلم لمحاسبة التكاليف](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>ارتباطات سريعة
+
 |      |   |
 |------|---|
 |  [تكوين الكيانات الأساسية (التعليم الإلكتروني)](https://mbspartner.microsoft.com/Home) (يتطلب حساب CustomerSource)  |[إنشاء أبعاد](cost-elements.md)  |

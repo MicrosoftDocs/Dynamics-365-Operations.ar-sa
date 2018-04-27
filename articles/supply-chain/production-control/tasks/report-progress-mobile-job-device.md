@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>الإبلاغ عن مدى تقدم في جهاز وظيفة محمول
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 هذا الإجراء يوضح لك كيفية البدء والإبلاغ عن التقدم المحرز في وظيفة إنتاج في نموذج تسجيل جهاز الوظيفة.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>إعداد الأمان لمحتوى Power BI - تحليل محاسبة التكاليف
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يشرح هذا المقال كيفية نشر مستوى الوصول الآمن في محاسبة التكاليف إلى الأمان على مستوى الصف في Microsoft Power BI. تضمن هذه الوظيفة ألا يشاهد المستخدم سوى بيانات Power BI التي مُنح إمكانية الوصول لها.
 

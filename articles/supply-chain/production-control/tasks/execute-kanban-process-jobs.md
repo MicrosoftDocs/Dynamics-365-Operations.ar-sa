@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>تنفيذ وظائف عملية كانبان
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يركز هذا الإجراء على تنفيذ وظائف عملية كانبان. الوظيفة الأولى مكتملة بالكمية المتوقعة ولا تحتوي على أخطاء. الوظيفة الثانية مكتملة مع وجود أخطاء. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لعامل تشغيل الجهاز.
 

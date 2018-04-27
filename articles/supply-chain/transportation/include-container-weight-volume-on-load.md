@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="include-container-weight-and-volume-on-load"></a>تضمين وزن وحجم الحاوية على الحمولة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر وظيفة تضمين وزن وحجم الحاوية على الحمولة تمثيلًا واضحًا لإجمالي وزن وحجم الحاويات التي سيتم تحميلها.
 

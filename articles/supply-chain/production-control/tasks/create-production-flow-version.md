@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-production-flow-version"></a>إنشاء إصدار تدفق إنتاج
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يركز هذا الإجراء على إنشاء إصدار تدفق إنتاج جديد. بالنسبة لهذا الإجراء، يجب تعريف معلمات lean manufacturing للإنتاج ووحدات القياس للوقت الخاص بالفئة. كما تحتاج أيضا إلى تعريف تدفق قيم ومجموعة إنتاج. للتعرف على مزيد من المعلومات حول تدفقات الإنتاج والأنشطة المضمنة في lean manufacturing، ارجع للمستندات التقنية الخاصة بـlean manufacturing بالنسبة لـMicrosoft Dynamics AX. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

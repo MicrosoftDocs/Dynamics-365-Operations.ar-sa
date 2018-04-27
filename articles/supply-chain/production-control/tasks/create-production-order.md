@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="create-a-production-order"></a>إنشاء أمر إنتاج
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء أمر إنتاج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا هو الإجراء الأول من أصل سبعة إجراءات الذي يشرح دورة حياة أمر الإنتاج.
 

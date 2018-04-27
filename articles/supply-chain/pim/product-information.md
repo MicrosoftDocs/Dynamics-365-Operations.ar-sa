@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>نظرة عامة على معلومات المنتجات
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 يوفر هذا الموضوع معلومات حول إدارة معلومات المنتج. تعمل إدارة معلومات المنتج مع تعريف منتج مشترك وتصنيفه ومعرّفاته عبر كافة الكيانات القانونية، وكذلك التكوينات الخاصة بمنتج، لاحتوائها في العمليات التجارية. 
 

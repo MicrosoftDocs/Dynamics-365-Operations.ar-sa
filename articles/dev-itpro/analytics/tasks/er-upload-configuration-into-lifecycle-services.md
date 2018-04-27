@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a>تحميل تكوين إلى Lifecycle Services للتقارير الإلكترونية (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء تكوين التقارير الإلكترونية وتحميلها داخل Microsoft Lifecycle Services (LCS).
 

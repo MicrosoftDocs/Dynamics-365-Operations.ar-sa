@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>نظرة عامة على أمر الشراء
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 توفر هذه المقالة معلومات عامة حول أوامر الشراء بالإضافة إلى ارتباطات تؤدي إلى مقالات ذات صلة بمختلف المراحل التي يمر عبرها أمر الشراء.
 

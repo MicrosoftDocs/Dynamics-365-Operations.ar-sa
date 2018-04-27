@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>إيصال استلام المنتجات في مقابل أوامر الشراء
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 توضح هذه المقالة مختلف الخيارات المتعلقة بتسجيل المنتجات على أنها مُستلمة.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>إنشاء وإدارة السمات
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 تصف هذه المقالة السمات في Microsoft Dynamics 365 for Retail. تمكّنك السمات من وصف منتج والصفات المميزة له من خلال الحقول المحددة من قِبل المستخدم.
 
@@ -58,7 +57,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="attribute-type"></a>نوع السمة
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 تستند السمات إلى أنواع السمات. تحدد أنواع السمات نوع البيانات التي يمكن إدخالها لسمة محددة. يدعم Microsoft Dynamics 365 for Retail حاليًا أنواع السمات التالية:
 
 -   **العملة** – يدعم نوع السمة هذا قيم العملات. يمكن أن تكون محدودة (أي، يمكنها دعم مجموعة قيم)، أو يمكن تركها مفتوحة.

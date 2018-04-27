@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>تحديث التكاليف المعيارية في بيئة غير مصنعة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة إرشادات لتحديث التكاليف المعيارية في بيئة غير مصنعة.
 

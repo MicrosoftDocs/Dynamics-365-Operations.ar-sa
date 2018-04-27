@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>إنشاء طلب يستخدم طلب عرض أسعار
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الدليل كيفية إضافة معلومات السعر والمورّد إلى طلب شراء من عملية طلب عرض الأسعار. يمكن استخدام المثال المعروض في هذا الدليل في شركة بيانات العرض التوضيحي USMF، ويجب أن تسجل دخولك كمسؤول لإكمال كافة الخطوات. يقوم أخصائيو التدبير عادةً بتنفيذ المهام الموجودة في هذا الدليل.
 

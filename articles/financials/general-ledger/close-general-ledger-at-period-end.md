@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>إقفال دفتر الأستاذ العام في نهاية الفترة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع المهام التي يتم إكمالها عادةً عند تنفيذ إقفال فترة لدفتر الأستاذ العام. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-groups"></a>إعداد مجموعات الأصول الثابتة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء مجموعة أصول ثابتة جديدة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
 

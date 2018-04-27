@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
-ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>ما الجديد أو التغيير
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 تشير هذه الصفحة إلى مواضيع بإمكانها مساعدتك في التعرف على الميزات الجديدة الموجودة في الإصدارات الأحدث من Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 للحصول على معلومات حول كيفية الترقية إلى الإصدار الأخير، راجع [عملية الترقية إلى التحديث الأخير‬](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!include[release notes](../includes/release-notes.md)]
+[!INCLUDE [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>إصدارات التطبيق
 
@@ -61,6 +61,13 @@ ms.lasthandoff: 03/25/2018
 
 </tr>
 <tr class="even">
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.0</td>
+<td>8.0.30</td>
+<td>2018 أبريل</td>
+  <td><a href="whats-new-changed-8-0-April-2018.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations، إصدار 8.0 (أبريل 2018)</a></td>
+</tr>
 <td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
@@ -122,7 +129,7 @@ ms.lasthandoff: 03/25/2018
 <td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
 <td>update 15 للنظام الأساسي</td>
 <td>7.0.4839</td>
-<td>مارس 2018 (عبارة عن جزء من إصدار مستهدف متوفر فقط للمستخدمين الذين اختاروا الاشتراك في برنامج فوائد التحديث التلقائي المستمر (CAAP).)</td>
+<td>مارس 2018 (عبارة عن جزء من إصدار مستهدف متوفر فقط للمستخدمين الذين اختاروا الاشتراك في برنامج فوائد التحديث التلقائي المستمر (CAAP). تحديث النظام الأساسي 15 متوفر أيضًا في Dynamics 365 for Finance and Operations، الإصدار 8.0.)</td>
 <td><a href="whats-new-platform-update-15.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition، الإصدار 15 من تحديث النظام الأساسي (مارس 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>

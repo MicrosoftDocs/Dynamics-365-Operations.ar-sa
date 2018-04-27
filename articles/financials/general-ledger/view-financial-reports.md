@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="view-financial-reports"></a>عرض التقارير المالية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تصف هذه المقالة كيفية عرض التقارير المالية واستكشافها في Microsoft Dynamics 365 for Finance and Operations. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
 

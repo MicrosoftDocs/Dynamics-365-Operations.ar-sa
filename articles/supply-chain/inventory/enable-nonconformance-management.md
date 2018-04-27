@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="nonconformance-management"></a>إدارة عدم المطابقة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة الإعداد الأساسي المطلوب لاستخدام حالات عدم المطابقة. ستحتاج إلى إجراء إعداد إضافي إذا كنت تريد استخدام أوامر الجودة.
 

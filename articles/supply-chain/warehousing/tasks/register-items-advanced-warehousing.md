@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>تسجيل أصناف لصنف ممكَّن للتخزين المتقدم باستخدام دفتر يومية وصول الصنف
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية تسجيل الأصناف باستخدام دفتر يومية وصول الصنف عند استخدام عمليات إدارة المستودع المتقدمة. يتم ذلك عادة عن طريق موظف الاستقبال. 
 

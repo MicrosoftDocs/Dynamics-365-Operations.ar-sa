@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a> استخدام برنامج استمرارية
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء بيع برنامج استمرارية ومعالجة أوامر المبيعات ذات الصلة. لإكمال هذا الإجراء، يجب إعداد المستخدم كمستخدم مركز اتصال. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

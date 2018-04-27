@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-effects-with-reversals"></a>آثار الإهلاك مع عمليات الإلغاء
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تتناول هذه المقالة الآثار المحتملة لعكس حركة أصول ثابتة. 
 

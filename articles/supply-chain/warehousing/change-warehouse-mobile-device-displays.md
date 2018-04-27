@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>إعدادات عرض الجهاز المحمول للمستودع
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تصف هذه المقالة كيفية إعداد مظهر شاشة جهاز محمول، وكيفية تعيين مفاتيح الاختصار إلى عناصر تحكم مثل الأزرار. 
 

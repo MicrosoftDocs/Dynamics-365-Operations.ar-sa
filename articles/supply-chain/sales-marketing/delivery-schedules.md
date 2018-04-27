@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="delivery-schedules"></a>جداول التسليم
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تتيح لك جداول التسليم إمكانية تتبع كمية بند الأمر عند استخدام عمليات تسليم متعددة لأمر مبيعات أو عرض أسعار مبيعات أو أمر شراء واحد.
 

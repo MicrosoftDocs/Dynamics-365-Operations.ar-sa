@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quarantine-orders"></a>أوامر إدخال مخزن العزل
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية استخدام أوامر إدخال مخزن الفحص لحظر المخزون.
 

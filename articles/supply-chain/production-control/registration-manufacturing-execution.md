@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>تسجيل لتنفيذ التصنيع
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع المفاهيم والمصطلحات التي تحتاج إليها لفهم كيفية تكوين تنفيذ التصنيع‬ واستخدامه. 
 

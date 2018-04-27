@@ -24,7 +24,7 @@ ms.lasthandoff: 10/25/2017
 ---
 # <a name="create-a-product-master"></a>إنشاء أصل منتج
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 أنشئ أصل المنتج للمتغيرات المعرفة مسبقًا. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لمصمم المنتج.
 

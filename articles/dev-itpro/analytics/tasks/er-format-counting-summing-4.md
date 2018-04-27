@@ -1,5 +1,5 @@
 --- 
-title: "تشغيل التنسيق للقيام بالعد والجمع للتقارير الإلكترونية (ER)"
+title: "تشغيل التنسيق لتنفيذ عمليات الجرد والتجميع"
 description: "تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لتنفيذ عمليات الجرد والتجميع بالاستناد إلى البيانات الخاصة بالمخرجات النصية المُنشأة بالفعل."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9f5520dc4e1eddc2fc52a05e5dc386b982d8f5ad
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e3569e48bcc063b2423a60038732e8e53dbea2cb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="run-the-format-to-do-counting-and-summing-for-electronic-reporting-er"></a>تشغيل التنسيق للقيام بالعد والجمع للتقارير الإلكترونية (ER)
+# <a name="run-the-format-to-do-counting-and-summing"></a>تشغيل التنسيق لتنفيذ عمليات الجرد والتجميع
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لتنفيذ عمليات الجرد والتجميع بالاستناد إلى البيانات الخاصة بالمخرجات النصية المُنشأة بالفعل. يمكن تنفيذ هذه الخطوات في شركة DEMF.
 

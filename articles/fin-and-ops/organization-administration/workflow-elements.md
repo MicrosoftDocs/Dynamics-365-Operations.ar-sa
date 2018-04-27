@@ -27,8 +27,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="workflow-elements"></a>عناصر سير العمل
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع العناصر المختلفة التي تشكّل سير عمل.
 

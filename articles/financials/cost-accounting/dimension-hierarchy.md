@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="dimension-hierarchy"></a>التدرج الهرمي للأبعاد
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول التدرجات الهرمية للأبعاد. يمكنك استخدام التدرج الهرمي لتعريف هيكل التقارير وسياسات التكلفة، وإعداد الأمان في محاسبة التكاليف.  
 

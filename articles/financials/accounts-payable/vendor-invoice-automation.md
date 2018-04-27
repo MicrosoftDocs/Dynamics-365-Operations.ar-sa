@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="vendor-invoice-automation"></a>التنفيذ التلقائي لفاتورة المورّد
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع الميزات المتوفرة للتنفيذ التلقائي لفواتير المورّد من نهاية إلى نهاية، حتى الفواتير التي تحتوي على مرفقات.
 

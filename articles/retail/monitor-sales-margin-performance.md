@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>رصد أداء المبيعات والهامش
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 يمكن مراقبة أداء المبيعات والهامش في الوقت الحقيقي باستخدام Microsoft Dynamics 365 for Retail.
 

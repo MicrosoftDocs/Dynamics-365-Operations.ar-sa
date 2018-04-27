@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>مصمم المعادلات في التقارير الإلكترونية
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية استخدام مصمم المعادلة في التقارير الإلكترونية. عندما تصمم تنسيقًا لمستند إلكتروني معين في التقارير الإلكترونية، يمكنك استخدام معادلات لتحويل البيانات لتلبية متطلبات تنفيذ وتنسيق هذا المستند. تشبه هذه المعادلات المعادلات في Microsoft Excel. هناك أنواع مختلفة من الدالات المعتمدة في المعادلات: النص والتاريخ والوقت ومنطق الرياضيات والمعلومات وتحويل أنواع البيانات وغير ذلك (دالات خاصة بمجال الأعمال).
 
@@ -313,12 +313,12 @@ ms.lasthandoff: 03/26/2018
 <tr class="odd">
 <td>ORDERBY (قائمة [, تعبير 1، تعبير 2، …])</td>
 <td>إرجاع قائمة محددة بعد أن تم فرزها وفقًا للوسيطات المحددة. يمكن تعريف الوسيطات التالية كعبارات.</td>
-<td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، ترجع <strong>ORDERBY (Vendors, Vendors.'name()')</strong> قائمة مورّدين تم فرزها حسب الاسم بترتيب تصاعدي.</td>
+<td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، ترجع <strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> قائمة مورّدين تم فرزها حسب الاسم بترتيب تصاعدي.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (قائمة)</td>
 <td>إرجاع القائمة المحددة بترتيب فرز معكوس.</td>
-<td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، ترجع <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> قائمة مورّدين تم فرزها حسب الاسم بترتيب تنازلي.</td>
+<td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، ترجع <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> قائمة مورّدين تم فرزها حسب الاسم بترتيب تنازلي.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (قائمة، شرط)</td>
@@ -395,7 +395,9 @@ ms.lasthandoff: 03/26/2018
 <tr class="even">
 <td>STRINGJOIN (قائمة، اسم الحقل، محدد)</td>
 <td>إرجاع سلسلة تتألف من القيم المتصلة للحقل المحدد من القائمة المحددة. يتم فصل القيم بالمحدد المعين.</td>
-<td>إذا قمت بإدخال <strong>SPLIT(&quot;abc&quot; , 1)</strong> كمصدر بيانات (DS)، يقوم تعبير <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> بإرجاع <strong>&quot;a:b:c&quot;</strong>.</td>
+
+<td>إذا قمت بإدخال <strong>SPLIT(&quot;abc&quot; , 1)</strong> كمصدر بيانات (DS)، يقوم تعبير <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> بإرجاع <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (قائمة، قيمة الحد، مصدر الحد)</td>
@@ -416,7 +418,7 @@ ms.lasthandoff: 03/26/2018
 <tr class="even">
 <td>FILTER (قائمة، شرط)</td>
 <td>إرجاع القائمة المحددة بعد أن تم تعديل الاستعلام لتصفيته وفقًا للشرط المحدد. تختلف هذه الدالة عن الدالة <strong>WHERE</strong> لأنه يتم تطبيق الشرط المحدد على أي من مصادر بيانات التقارير الإلكترونية لنوع <strong>سجلات الجداول</strong> على مستوى قاعدة البيانات. يمكن تحديد القائمة والشرط باستخدام الجداول والعلاقات.</td>
-  <td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، تُرجع <strong>FILTER (Vendors, Vendors.VendGroup =&quot;40&quot;)</strong> قائمة المورّدين التي تنتمي إلى مجموعة الموردين 40. إذا تم تكوين <strong>المورد</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول <strong>VendTable</strong> يُرجع <strong>parmVendorBankGroup</strong> الذي تم تكوينه كمصدر بيانات القيمة الموجودة في نوع بيانات السلسلة، ويُرجع <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> قائمة بحسابات الموردين الذين ينتمون إلى مجموعة بنك محددة.</td>
+  <td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، تُرجع <strong>FILTER (Vendors, Vendors.VendGroup =&quot;40&quot;)</strong> قائمة المورّدين التي تنتمي إلى مجموعة الموردين 40. إذا تم تكوين <strong>المورد</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول <strong>VendTable</strong> يُرجع <strong>parmVendorBankGroup</strong> الذي تم تكوينه كمصدر بيانات القيمة الموجودة في نوع بيانات السلسلة، ويُرجع <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> قائمة بحسابات الموردين الذين ينتمون إلى مجموعة بنك محددة.</td>
 </tr>
 </tbody>
 </table>
@@ -553,7 +555,7 @@ ms.lasthandoff: 03/26/2018
 <li>التسمية SYS18389 لـ Finance and Operations، التي تتضمن النص التالي:
 <ul>
 <li><strong>للغة الإنجليزية- الولايات المتحدة:</strong> &quot;العميل %1 موقوف لـ %2.&quot;</li>
-<li><strong>للغة الألمانية:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>للغة الألمانية:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>هذه هي المعادلة التي يمكن تصميمها:</p>
@@ -561,7 +563,7 @@ ms.lasthandoff: 03/26/2018
 <p>إذا تمت معالجة تقرير العميل <strong>Litware Retail</strong> في 17 ديسمبر 2015 بالثقافة <strong>الإنجليزية-الولايات المتحدة</strong> واللغة <strong>الإنجليزية-الولايات المتحدة</strong> فإن هذه المعادلة سترجع النص التالي الذي يمكن تقديمه كرسالة استثناء للمستخدم:</p>
 <p>&quot;لا توجد عناصر لطباعتها‬. العميل Litware Retail موقوف للتاريخ 12/17/2015.&quot;</p>
 <p>إذا تمت معالجة التقرير نفسه لعميل<strong> Litware Retail</strong> في 17 ديسمبر 2015، بالثقافة <strong>الألمانية</strong> واللغة <strong>الألمانية</strong>، فإن هذه المعادلة ترجع النص التالي الذي يستخدم تنسيق تاريخ آخر:</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 يتم تطبيق بناء الجملة التالي في معادلات التقارير الإلكترونية للتسميات:
 <ul>

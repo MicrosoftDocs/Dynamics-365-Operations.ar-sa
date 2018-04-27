@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-resourcing"></a>تعيين موارد المشروع
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول تعيين موارد المشروع‬.
 

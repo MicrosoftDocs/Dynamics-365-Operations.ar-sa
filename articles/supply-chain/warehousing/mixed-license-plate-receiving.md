@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>استلام لوحة ترخيص مختلطة
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يسمح لك استلام لوحة ترخيص مختلطة بإنشاء لوحة ترخيص تتكون من العديد من الأصناف قبل أن تقوم بالتسجيل وإنشاء عمل تخزين. 
 

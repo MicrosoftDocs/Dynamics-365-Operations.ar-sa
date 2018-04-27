@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>مقارنة السحابة والميزة المحلية
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يظهر هذا الموضوع ما إذا كانت كل ميزة متوفرة في هذه المنتجات:
 
@@ -50,10 +50,10 @@ ms.lasthandoff: 03/26/2018
 | إدارة البيانات وتكاملها| | نعم | نعم |
 | | ملحق يعتمد على التكوين| نعم | لا |
 | | تصدير البيانات إلى مستودع بياناتك| نعم | نعم |
-| | تمكين تصدير التحديثات التزايدية إلى كيان بيانات | نعم | لا |
-| | عمليات تكامل متكررة                 |نعم | لا|
-| إدارة المستندات| | نعم| نعم |
-| الإدارة المالية|  | نعم | نعم |
+| | تمكين تصدير التحديثات التزايدية إلى كيان بيانات | ‏‏نعم | لا |
+| | عمليات تكامل البيانات                 |‏‏نعم | ‏‏نعم|
+| إدارة المستندات| | ‏‏نعم| ‏‏نعم |
+| الإدارة المالية|  | ‏‏نعم | ‏‏نعم |
 | تعليمات| | نعم | لا |
 | الموارد البشرية | | نعم | نعم |
 | المعلومات| | نعم | نعم |

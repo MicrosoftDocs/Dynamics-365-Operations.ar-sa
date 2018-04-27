@@ -1,5 +1,5 @@
 --- 
-title: "إنشاء تقارير بتنسيقات Microsoft Office مع صور مضمنة للتقارير الإلكترونية (ER)"
+title: "إنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة"
 description: "تشرح الخطوات التالية كيف يمكن لمستخدم يؤدي دور \"مسؤول النظام\" أو \"مطور التقارير الإلكترونية\" تصميم تكوينات تقارير إلكترونية لإنشاء مستندات إلكترونية بتنسيقات MS office (مستندات Excel وWord) تحتوي على صور مضمنة."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4fa27996e59164126f7900edf4a509ca9273e7c1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e2ab89857f4bf4844123508837c8faa504bc8839
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a>إنشاء تقارير بتنسيقات Microsoft Office مع صور مضمنة للتقارير الإلكترونية (ER)
+# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images"></a>إنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 تشرح الخطوات التالية كيف يمكن لمستخدم يؤدي دور "مسؤول النظام" أو "مطور التقارير الإلكترونية" تصميم تكوينات تقارير إلكترونية لإنشاء مستندات إلكترونية بتنسيقات MS office (مستندات Excel وWord) تحتوي على صور مضمنة.
 

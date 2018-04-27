@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>إعداد المتطلبات الأساسية للإدارة
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 استخدم هذا الإجراء لتمكين عمليات إدارة عدم المطابقة. يصف عدم المطابقة إجراءًا أو صنفًا به مشكلة في الجودة، حيث تتضمن المعلومات الوصفية مصدر المشكلة ونوعها. ويستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF. عادة ما يتم تنفيذ هذا الإجراء بواسطة مدير جودة.
 

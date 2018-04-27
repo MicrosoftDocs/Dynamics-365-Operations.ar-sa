@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
-ms.openlocfilehash: aa5824a7a56136b6d09860f2ff493359dbeab9f9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 429b33366ab9ab705a0f31cb9659f58b41689152
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-loan-items"></a>إنشاء أصناف قرض
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 إن أصناف القرض هي السجلات التي تساعدك على تعقب العناصر الفعلية، مثل الهواتف أو أجهزة الكمبيوتر، التي تقوم شركتك بإعارتها للعاملين. يجب أن يكون لكل عنصر فعلي صنف قرض مناظر. يجب أن يصف كل سجل من سجلات أصناف القرض ما الذي يتم إقراضه والشخص المسؤول عن القرض وعدد الأيام التي يمكن إقراض الصنف فيها. يمكنك إنشاء أصناف قرض متعددة، مثل المفاتيح أو بطاقات الدخول أو الزي الموحد، في نفس الوقت. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

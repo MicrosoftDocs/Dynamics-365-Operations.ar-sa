@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="help-system-overview"></a>نظرة عامة على نظام التعليمات
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations وهي تشرح أيضًا كيفية توفير التدريب والوثائق المخصصة لمؤسستك. 
 

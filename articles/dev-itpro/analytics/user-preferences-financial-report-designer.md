@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cabaf8a579fcd9722e409630038167afb07ffc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>تفضيلات المستخدم في مصمم التقارير المالية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يشرح هذا المقال كيفية تعيين تفضيلات المستخدم لتخصيص تفاعلات المستخدم في مصمم التقارير المالية والتحكم في تجربة تسجيل الدخول الأولى. يمكنك أيضًا التحكم في كيفية عرض التقارير الفردية ومكتبة التقارير ومواقع الملفات الافتراضية. 
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 <td>حدد ما إذا كنت تريد تلقي رسالة تحذير عند إنهاء التطبيق. تساعد هذه الرسالة على ضمان عدم إنهاء البرنامج عن غير قصد.</td>
 </tr>
 <tr class="odd">
-<td>تطبيق تسطير الخلية في رؤوس الأعمدة تلقائياً</td>
+<td>تطبيق تسطير الخلايا تلقائيًا في رؤوس الأعمدة</td>
 <td>حدد إن كنت تريد إدراج تسطير في خلية رأس عمود جديد.</td>
 </tr>
 <tr class="even">

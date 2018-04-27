@@ -26,7 +26,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="cash-overview-power-bi-content"></a>محتوى Power BI - نظرة عامة على النقد
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع**نظرة عامة على النقد** محتوى Microsoft Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 

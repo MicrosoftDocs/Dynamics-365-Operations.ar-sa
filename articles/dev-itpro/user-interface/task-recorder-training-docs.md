@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>إنشاء الوثائق أو التدريب باستخدام تسجيلات المهام
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يشرح هذا المقال ما هو مسجل المهام ودلائل المهام‬، وكيفية إنشاء تسجيلات المهام، وكيفية تخصيص دلائل مهام‬ Microsoft وتضمينها في نظام التعليمات الخاص بك.
 

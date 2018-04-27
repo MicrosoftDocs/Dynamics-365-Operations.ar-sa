@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>إعداد تسوية الشحن التلقائية
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد البيانات لتسوية الشحن التلقائية. عادة ما يتم تنفيذ هذه العملية عن طريق مدير المستودع. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.
 

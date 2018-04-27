@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="set-up-service-intervals"></a>إعداد الفواصل الزمنية لخدمة  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 تشير فترة الخدمة إلى تكرار إنشاء بنود أمر الخدمة من أجل بنود اتفاقية الخدمة عند قيامك بإنشاء أوامر الخدمة.
 

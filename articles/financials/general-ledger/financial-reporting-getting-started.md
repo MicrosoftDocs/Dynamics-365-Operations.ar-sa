@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>التقارير المالية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية استخدام إمكانيات إعداد التقارير المالية ومكان الوصول إلى التقارير المالية في Microsoft Dynamics 365 for Finance and Operations. كما يتضمن وصفاً للتقارير المالية الافتراضية التي يتم توفيرها.
 

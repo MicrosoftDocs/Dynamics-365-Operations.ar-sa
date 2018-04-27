@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>التقارير المالية للميزانية العمومية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة التقارير الافتراضية للميزانيات العمومية. كما تصف العناصر الأساسية التي تقترن بهذه التقارير. 
 
@@ -71,7 +70,7 @@ ms.lasthandoff: 11/03/2017
     -   **DESC** – الوصف من كل تعريف صف
     -   **FD** – البيانات المالية للسنة حتى تاريخه للسنة الحالية
 
- 
+
 
 <a name="see-also"></a>راجع أيضًا
 --------

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>إنشاء قائمة مكونات الصنف لأصل منتج يستند إلى البعد
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 لتنفيذ هذا الإجراء، ينبغي عليك إكمال الأدلة 4 السابقة في هذا التسلسل من التسجيلات الثمانية. تعمل التسجيلات الأربعة الأولى على إعداد البيانات المطلوبة لإكمال هذا الإجراء. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. عادة ما تتم معالجة هذه المهمة بواسطة مصمم المنتج.
 

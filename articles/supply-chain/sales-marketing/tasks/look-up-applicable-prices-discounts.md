@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>البحث عن الأسعار والخصومات السارية
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية البحث عن السعر و/أو الخصم لمنتج صالح لعميل معين حاليًا، دون إنشاء أمر مبيعات. ويوضح الإجراء مثالاً محددًا، وأنت بحاجة إلى متابعة المثال باستخدام شركة العرض التقديمي USMF لتحديد القيم الضرورية.
 

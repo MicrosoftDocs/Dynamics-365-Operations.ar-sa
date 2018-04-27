@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-app-field-names-in-warehousing-app"></a>تكوين أسماء حقول حقول التطبيق في تطبيق التخزين
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تحديد وتكوين أسماء حقول تطبيق المخزن والأولويات في Finance and Operations. 
 

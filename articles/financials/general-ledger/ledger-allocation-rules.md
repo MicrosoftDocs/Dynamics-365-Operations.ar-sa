@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="ledger-allocation-rules"></a>قواعد توزيع دفتر الأستاذ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول قواعد توزيع دفتر الأستاذ. وهذ تصف المكونات المختلفة لقواعد التوزيع هذه وأساليب التوزيع التي يمكن استخدامها لها.
 

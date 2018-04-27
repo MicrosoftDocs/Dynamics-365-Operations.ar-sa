@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="year-end-close"></a>إقفال نهاية السنة
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يصف هذا الموضوع الإعداد والخطوات المطلوبة لتشغيل عملية إقفال نهاية السنة في دفتر الأستاذ العام. 
 

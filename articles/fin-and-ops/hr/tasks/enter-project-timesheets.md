@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 17195b28ebe828423b4e5bb862f5c2e9884471ce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-project-timesheets"></a>إدخال الجداول الزمنية للمشروع‬
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يمكنك هذا الإجراء من إنشاء جدول زمني باستخدام نموذج جدول زمني فارغ. ويمكن أن يستند الجدول الزمني الجديد على معلومات من جدول زمني سابق، أو من مشروع وتعيينات أنشطة في صفحة "‏‫المفضلة‬". وبشكل افتراضي، تعرض صفحة قائمة "كل الجداول الزمنية" كل جداولك الزمنية الخاصة بالفترة الحالية. يمكنك استخدام القائمة المنسدلة لحقل "إظهار" في صفحة الجداول الزمنية لتصفية قائمة الجداول الزمنية حسب الفترة الزمنية أو المشروع، أو لعرض الجداول الزمنية التي تم إنشاؤها باسم العمال الآخرين. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USSI. لبدء هذا الإجراء، انتقل إلى إدارة المشاريع والمحاسبة > الجداول الزمنية > الجداول الزمنية الخاصة بي
 

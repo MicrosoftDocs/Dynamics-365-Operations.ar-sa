@@ -1,9 +1,9 @@
 ---
-title: "الترجمة والميزات التنظيمية"
+title: "ميزات الترجمة والميزات التنظيمية"
 description: "يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الوظائف الخاصة بالبلد/المنطقة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="localization-and-regulatory-features"></a>الترجمة والميزات التنظيمية
+# <a name="localization-and-regulatory-features"></a>ميزات الترجمة والميزات التنظيمية
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يتضمن Microsoft Dynamics 365 for Finance and Operations وظائف للبلد/المناطق الموثقة في [دليل توافر المنتج الدولي](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
 
@@ -53,10 +52,10 @@ ms.lasthandoff: 02/08/2018
 -   [المراقبة التنظيمية والإبلاغ عن التحديثات التنظيمية](regulatory-watch-communication.md)
 -   [إبلاغ Microsoft عن تنبيهات لوائح البلد/المنطقة وتعقب حالة الميزات التنظيمية](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>خارطة طريق Dynamics 365
-توفر [خارطة طريق Dynamics 365](https://roadmap.dynamics.com/) لقطة لما نعمل فيه. استخدم خارطة الطريق هذه لمعرفة ما يتم توفيره بشكل عام وما هو قيد التطوير. جميع التواريخ والميزات قيد التطوير أساسية، وتعتمد على التوقعات الحالية، وعرضه للتغيير دون إشعار.
+### <a name="dynamics-365-release-notes"></a>ملاحظات إصدار Dynamics 365
+توفر [ملاحظات إصدار Dynamics 365 (تنزيل ملف PDF)](https://aka.ms/businessappsreleasenotes) وصفًا للقدرات الجديدة والمحسنة في تطبيقات أعمال Dynamics 365 والأنظمة الأساسية للتطبيق. 
 
-## <a name="electronic-reporting"></a>إعداد التقارير الإلكتروني
+## <a name="electronic-reporting"></a>إعداد التقارير الإلكترونية
 تتيح لك أداة إعداد التقارير الإلكترونية (ER) إمكانية تكوين تنسيقات المستندات الإلكترونية وفقًا للمتطلبات القانونية لمختلف البلدان/المناطق. يتيح لك إعداد التقارير الإلكترونية إدارة هذه التنسيقات خلال دورة حياتها. لمزيد من المعلومات، راجع أحد المواضيع التالية:
 -   [نظرة عامة على إعداد التقارير الإلكترونية](../analytics/general-electronic-reporting.md)
 -   [إدارة دورة حياة تكوين التقارير الإلكترونية](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
@@ -79,25 +78,9 @@ ms.lasthandoff: 02/08/2018
 ## <a name="countryregion-specific-help-topics"></a>مواضيع التعليمات الخاصة بالبلدان/المناطق
 تسرد الأقسام التالية الموارد حسب البلد/المنطقة.
 
-### <a name="australia"></a>أستراليا
-
--   [تنسيقات ملفات البنك](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [بيان النشاط التجاري ](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [إهلاك وعاء منخفض القيمة](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>النمسا
-
-- [إهلاك نصف السنة](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [رسوم مواد التعبئة](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [رسوم المشتريات](../../financials/localizations/emea-aut-purchase-duties.md)
-- [بيان ضريبة القيمة المضافة](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>بلجيكا
-
--   [كشف الحساب البنكي بتنسيق CODA](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [‏‏إقرار ضريبة Intervat](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [إعداد تقرير PRODCOM](../../financials/localizations/emea-bel-prodcom-report.md)
--   [تقارير التسوية](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[أستراليا](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[النمسا](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[بلجيكا](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>البرازيل
 
@@ -134,22 +117,9 @@ ms.lasthandoff: 02/08/2018
 -   [ترحيل الحسابات الرئيسية للمخزون حسب الموقع](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [عرض المبالغ المدينة والدائنة لحسابات دفتر الأستاذ](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>جمهورية التشيك
-
--   [الخصم النقدي على إشعار دائن](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [تقريب الإهلاك](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [إهلاك نصف السنة على التصرف في الأصول الثابتة لجمهورية التشيك](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [تعليق الإهلاك (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [طرق إهلاك الأصول الثابتة لجمهورية التشيك](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [ترحيل الاستحواذ المسبق لأصل ثابت](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [بيان ضريبة القيمة المضافة لجمهورية التشيك](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [إعداد تقرير عن ضريبة المبيعات ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [تقسيم الفترات في دفاتر اليومية الدورية](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [إعداد الموقِّعين لنماذج الطباعة](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [تحديث طريقة عرض المبالغ في التقارير والمستندات](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[جمهورية التشيك](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>إستونيا
-
 -   [تفاصيل كشف حساب ضريبة القيمة المضافة لإستونيا](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [التخلص من الأصول الثابتة](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -280,7 +250,7 @@ ms.lasthandoff: 02/08/2018
 -   [تقرير إعلان تسوية التضخم](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [تقرير إقرار العمليات مع الموردين](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [الفواتير الإلكترونية (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>ماليزيا
 
 -   [الضريبة على البضائع والخدمات (GST)](../../financials/localizations/apac-mys-gst.md)

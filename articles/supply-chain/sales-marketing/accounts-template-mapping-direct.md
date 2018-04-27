@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل بيانات Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration).

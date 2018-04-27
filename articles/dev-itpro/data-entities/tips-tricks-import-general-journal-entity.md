@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>أفضل ممارسات استيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع تلميحات حول استيراد البيانات إلى دفتر اليومية العام باستخدام كيان دفتر اليومية العام.  
 

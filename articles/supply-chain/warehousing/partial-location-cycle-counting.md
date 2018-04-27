@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="partial-location-cycle-counting"></a>الجرد الدوري الجزئي للمواقع
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تقوم خطط الجرد الدوري‬ بإرشاد عمليات الجرد الفعلية. يمكنك أن تطلب جرد منتجات ومتغيرات منتجات معينة فقط بدلاً من المخزون الفعلي‬ بكامله في أحد المواقع.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>تصنيف منتج استخدام التدرجات الهرمية للفئات
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 استخدم التدرجات الهرمية للفئات لتصنيف المنتجات للتصدير أو التدبير أو المبيعات أو أغراض أخرى. عادة ما يتم تنفيذ هذه المهمة من قبل مدير المنتج. يستخدم المثال رقم المنتج M0009 في بيانات العرض التوضيحي لشركة USMF.‬
 

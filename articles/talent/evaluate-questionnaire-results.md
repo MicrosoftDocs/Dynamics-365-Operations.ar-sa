@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>عرض وتقييم نتائج الاستبيان
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية عرض وتقييم نتائج الاستبيانات التي يقوم المستجيبون بإكمالها. 
 

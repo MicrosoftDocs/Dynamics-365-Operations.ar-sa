@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="visibility-into-material-exceptions"></a>رؤية في استثناءات المواد
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 في مساحة عمل **إدارة طابق الإنتاج**، تعطيك ثلاثة تجانبات رؤية أفضل لاستثناءت المواد الخام لأوامر الانتاج وأوامر الدفعات:
 

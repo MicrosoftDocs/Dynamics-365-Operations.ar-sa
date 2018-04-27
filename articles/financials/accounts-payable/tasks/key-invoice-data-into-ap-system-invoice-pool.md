@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام ‏‫وعاء الفواتير‬
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 سيعرض لك دليل المهام هذا كيفية استخدام سجل الفواتير لإنشاء الفواتير.  بعد ذلك، استخدم وعاء الفواتير لمطابقة الفاتورة مع أمر شراء ووضع الصيغة النهائية للمصروفات في صفحة فاتورة المورّد.
 

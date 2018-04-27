@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-submit-vat-report"></a>إنشاء تقرير ضريبة القيمة المضافة وإرساله
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يرشدك هذا الإجراء عبر عملية إنشاء تقرير ضريبة القيمة المضافة وإرساله إلى السلطات الألمانية.
 

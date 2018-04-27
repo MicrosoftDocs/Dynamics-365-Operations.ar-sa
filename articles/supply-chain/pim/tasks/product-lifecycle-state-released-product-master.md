@@ -24,7 +24,7 @@ ms.lasthandoff: 02/08/2018
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>تعيين حالة دورة حياة منتج لأصل منتج صادر
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يُظهر هذا الإجراء كيفية تعيين حالة دورة حياة منتج إلى أصل منتج صادر ومتغيراته. المتطلبات الأساسية: يجب أولاً تشغيل دليل المهام "إنشاء حالة دورة حياة منتج جديدة" للتأكد من أن لديك حالة دورة حياة منتج واحدة على الأقل تم إنشاؤها قبل تشغيل دليل المهام هذا.
 

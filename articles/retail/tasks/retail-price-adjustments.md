@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="retail-price-adjustments"></a> تعديلات سعر البيع بالتجزئة
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 سيتناول هذا الإجراء إنشاء تعديل سعر البيع بالتجزئة. ويمكن أن يقوم تعديل سعر البيع بالتجزئة بتعيين سعر بيع أحد الأصناف مباشرة، أو تعديل سعر بيعه الأساسي أو سعر البيع حسب الاتفاقية التجارية. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

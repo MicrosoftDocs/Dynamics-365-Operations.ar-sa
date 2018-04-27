@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="solver-strategy-for-product-configuration"></a>استراتيجية الحلول لتكوين المنتج
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية استخدام استراتيجية الحلول لتحسين أداء تكوين المنتج.
 

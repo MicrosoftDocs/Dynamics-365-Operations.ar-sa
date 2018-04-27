@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a>حساب قائمة مكونات الصنف باستخدام هيكل بمستوى واحد (فبراير 2016 فقط)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية حساب تكلفة المنتج النهائي باستخدام عملية تحديد إجمالي المكونات المطلوبة‬ أحادية المستوى يوجد أساسها في كشف التكاليف. إنها المهمة السادسة في سلسلة حسابات قائمة مكونات الصنف. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬
 

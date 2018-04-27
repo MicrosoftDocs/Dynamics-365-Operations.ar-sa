@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-and-generate-positive-pay-files"></a>إعداد ملفات الدفع الإيجابي وإنشاؤها
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية إعداد الدفع الإيجابي وإنشاء ملفات الدفع الإيجابي. 
 

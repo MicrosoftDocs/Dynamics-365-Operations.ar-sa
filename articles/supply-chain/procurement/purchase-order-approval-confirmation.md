@@ -28,9 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>الموافقة على أوامر الشراء وتأكيدها
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 توضح هذه المقالة الحالات التي تمر بها أوامر الشراء بعد إنشائها، وتأثير تمكين إدارة التغييرات في أوامر الشراء.
 

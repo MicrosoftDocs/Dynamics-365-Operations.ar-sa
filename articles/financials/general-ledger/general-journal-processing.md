@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="general-journal-processing"></a>معالجة دفتر اليومية العام
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 تصف هذه المقالة القدرات المتوفرة في Microsoft Dynamics 365 for Finance and Operations التي يمكنها المساعدة في جعل معالجة دفتر اليومية العام تتم بشكل أسهل، والتي يمكنها أيضًا المساعدة في ضمان تسجيل البيانات الصحيحة وعدم اختراق التحكم الداخلي.  
 

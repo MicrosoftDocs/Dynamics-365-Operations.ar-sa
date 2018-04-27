@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>تسجيل الأرقام المسلسلة في عملية المبيعات
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 يشرح هذا الموضوع كيف يمكنك تسجيل الأرقام المسلسلة على إيصالات التعبئة أو الفواتير أثناء عملية المبيعات. تُعد هذه الوظيفة مفيدة إذا أرادت الشركة تسجيل الأرقام المسلسلة لأغراض الخدمة والضمان، ولكنها ليست بحاجة إلى الاحتفاظ بالأرقام المسلسلة في المخزون من الاستلام وحتى الإصدار.
 
