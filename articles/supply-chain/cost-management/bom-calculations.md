@@ -3,12 +3,12 @@ title: "عمليات حساب قائمة مكونات الصنف"
 description: "تُعرف عمليات حساب زيادة التكلفة وسعر المبيعات بعمليات حساب قائمة مكونات الصنف (BOM)، ويمكنك أن تبدأها من صفحة عمليات الحساب. يوفر هذا الموضوع معلومات حول عمليات حساب قائمة مكونات الصنف (BOM)."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/10/2017
+ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
+ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
