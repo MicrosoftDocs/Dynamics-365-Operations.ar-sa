@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ac3c55ac56c800f6f4e8e593cce7fe0874d99a5d
+ms.sourcegitcommit: 69b9c5590e6f9311696bbbed2e63a6eeba2a90bf
+ms.openlocfilehash: 3f527911183a6e9b335f30d472ff57144e6a5aff
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/03/2018
 
 ---
 
@@ -57,8 +57,8 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="c885e-127">إذا كان تكرار ثاني للرد من مورد مطلوبًا، حدد **عودة** في صفحة **طلب عرض الأسعار**.</span><span class="sxs-lookup"><span data-stu-id="c885e-127">If a second iteration of a reply from a vendor is required, select **Return** on the **Request for quotation** page.</span></span> <span data-ttu-id="c885e-128">ويُنشئ إجراء العودة دفتر يومية جديد وسوف تتم طباعة التقرير وأرشفته وإرساله وفقًا لإعدادات الطباعة.</span><span class="sxs-lookup"><span data-stu-id="c885e-128">The Return action generates a new journal and a report that will be printed, archived, and sent according to your Printing settings.</span></span>
 
-[!NOTE]
-<span data-ttu-id="c885e-129">تم تغيير اسم صفحة **طلب عرض الأسعار**.</span><span class="sxs-lookup"><span data-stu-id="c885e-129">The name of the **Request for quotation** page has been changed.</span></span> <span data-ttu-id="c885e-130">في الإصدارات السابقة من Dynamics 365 for Finance and Operations، تسمى هذه الصفحة **الرد على طلبات عروض الأسعار**.</span><span class="sxs-lookup"><span data-stu-id="c885e-130">In earlier releases of Dynamics 365 for Finance and Operations, this page is called **Request for quotations reply**.</span></span>
+> [!NOTE]
+> <span data-ttu-id="c885e-129">تم تغيير اسم صفحة **طلب عرض الأسعار**.</span><span class="sxs-lookup"><span data-stu-id="c885e-129">The name of the **Request for quotation** page has been changed.</span></span> <span data-ttu-id="c885e-130">في الإصدارات السابقة من Dynamics 365 for Finance and Operations، تسمى هذه الصفحة **الرد على طلبات عروض الأسعار**.</span><span class="sxs-lookup"><span data-stu-id="c885e-130">In earlier releases of Dynamics 365 for Finance and Operations, this page is called **Request for quotations reply**.</span></span>
 
 <span data-ttu-id="c885e-131">وإذا قمت بإضافة معايير تسجيل نقاط إلى حالة طلب عرض الأسعار الخاص بك، فسيشمل RFQ لوحة تسجيل نقاط حيث يمكنك إدخال النقاط.</span><span class="sxs-lookup"><span data-stu-id="c885e-131">If you added scoring criteria to your RFQ case, the RFQ will have a scoring panel where you can enter the scores.</span></span> <span data-ttu-id="c885e-132">سوف تظهر النتائج النهائية على RFQ وعند مقارنة الردود على صفحة **مقارنة الردود**.</span><span class="sxs-lookup"><span data-stu-id="c885e-132">The total scores will appear on the RFQ and when you compare the replies on the **Compare replies** page.</span></span> <span data-ttu-id="c885e-133">في صفحة **مقارنة الردود**، يمكنك أيضًا مقارنة بيانات الرد أخرى، مثل أسعار البند وتاريخ التسليم والسعر الإجمالي.</span><span class="sxs-lookup"><span data-stu-id="c885e-133">On the **Compare replies** page, you can also compare other reply data, such as the line price, delivery date, and total price.</span></span>
 
@@ -126,8 +126,8 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="c885e-187">في صفحة **إعداد النموذج** في التدبير وتحديد الموارد، يمكنك تكوين مظهر مستندات RFQ المطبوعة أو المخزنة الخاصةبك.</span><span class="sxs-lookup"><span data-stu-id="c885e-187">On the **Form setup** page in Procurement and sourcing, you can configure the appearance of your printed or stored RFQ documents.</span></span>
 
-[!NOTE]
-<span data-ttu-id="c885e-188">لتكوين قطاع عام، يجب عليك استخدام عملية التعديل لتغيير RFQ الذي قمت بإرساله مسبقًا.</span><span class="sxs-lookup"><span data-stu-id="c885e-188">For a public-sector configuration, you must use the amendment process to change an RFQ that has already been sent.</span></span> <span data-ttu-id="c885e-189">عندما يتم إرسال RFQ، تكون الحقول مؤمنة.</span><span class="sxs-lookup"><span data-stu-id="c885e-189">When an RFQ is sent, fields are locked.</span></span>
+> [!NOTE]
+> <span data-ttu-id="c885e-188">لتكوين قطاع عام، يجب عليك استخدام عملية التعديل لتغيير RFQ الذي قمت بإرساله مسبقًا.</span><span class="sxs-lookup"><span data-stu-id="c885e-188">For a public-sector configuration, you must use the amendment process to change an RFQ that has already been sent.</span></span> <span data-ttu-id="c885e-189">عندما يتم إرسال RFQ، تكون الحقول مؤمنة.</span><span class="sxs-lookup"><span data-stu-id="c885e-189">When an RFQ is sent, fields are locked.</span></span>
 <span data-ttu-id="c885e-190">لذلك، لإجراء تغييرات على RFQ، يجب عليك تحديد **إنشاء** لبدء عملية التعديل، كما تم وصفه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="c885e-190">Therefore, to make changes to the RFQ, you must select **Create** to start the amendment process, as described earlier.</span></span> <span data-ttu-id="c885e-191">يتم التحكم في سلوك التأمين بواسطة خيار **تأمين RFQ‬ عند إرساله** في صفحة **محددات التدبير وتحديد الموارد‬**.</span><span class="sxs-lookup"><span data-stu-id="c885e-191">The locking behavior is controlled by the **Lock RFQ when they are sent** option on the **Procurement and sourcing parameters** page.</span></span> <span data-ttu-id="c885e-192">وبكل افتراضي، يتم تعيين هذه المعلمة إلى **نعم**، وبالنسبة إلى تكوين قطاع عام، لا يمكن تغيير الإعداد الافتراضي.</span><span class="sxs-lookup"><span data-stu-id="c885e-192">By default, this parameter is set to **Yes**, and for a public-sector configuration, the default setting can't be changed.</span></span> <span data-ttu-id="c885e-193">لذلك، على الرغم من أنه يمكن معالجة عملية التعديل يدويًا في تكوين قطاع غير عام، إلا أنه يجب استخدامه لتكوين القطاع العام.</span><span class="sxs-lookup"><span data-stu-id="c885e-193">Therefore, although the amendment process can be handled manually in a non-public-sector configuration, it must be used for a public-sector configuration.</span></span>
 
 <span data-ttu-id="c885e-194">عند إنشاء حالة RFQ من نوع أمر الشراء، وإضافة عنصر قائمة إلى RFQ، فإنه يتم إنشاء حركة مخزون بحالة الاستلام **إيصال استلام عرض الأسعار‬**.</span><span class="sxs-lookup"><span data-stu-id="c885e-194">When you create an RFQ case of the type Purchase order and add an inventory item to the RFQ, an inventory transaction is generated that has a receipt status of **Quotation receipt**.</span></span> <span data-ttu-id="c885e-195">وتُوضع بنود حالة RFQ بهذه الحالة فقط في الاعتبار عند استخدام خطة رئيسية لحساب التوريدات.</span><span class="sxs-lookup"><span data-stu-id="c885e-195">Only RFQ case lines that have this status are considered when you use a master plan to calculate supplies.</span></span> <span data-ttu-id="c885e-196">وإذا كنت تريد أن تتضمن خطة رئيسية بنود حالة RFQ كعملية استلام متوقع، فيجب عليك تكوين هذا السلوك في إعداد التخطيط الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="c885e-196">If you want the master plan to include RFQ case lines as an expected receipt, you must configure this behavior in the setup of master planning.</span></span>
