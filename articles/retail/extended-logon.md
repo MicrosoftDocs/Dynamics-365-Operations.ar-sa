@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>إعداد وظائف تسجيل الدخول الموسعة لنقطة بيع المجموعة و‏‫نقطة بيع حديثة (MPOS)‬.
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لنقاط بيع المجموعة ونقاط البيع الحديثة للبيع بالتجزئة (MPOS).
 

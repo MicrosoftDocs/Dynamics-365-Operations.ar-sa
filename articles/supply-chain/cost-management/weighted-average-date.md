@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>تاريخ المتوسط المرجح
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 تاريخ المتوسط المرجح هو نموذج مخزون يستند إلى قاعدة المتوسط المرجح. وبالنسبة لقاعدة المتوسط المرجح، يتم تقييم عمليات الإصدار من المخزون بمتوسط قيمة الأصناف التي تم استلامها في المخزون لكل يوم في فترة إقفال المخزون. 
 

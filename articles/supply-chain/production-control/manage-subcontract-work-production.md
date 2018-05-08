@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-subcontracting-work-in-production"></a>إدارة عمل التعاقد من الباطن في الإنتاج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفية إدارة عمليات التعاقد من الباطن في Microsoft Dynamics 365 for Finance and Operations. وبعبارات أخرى، تشرح كيف يدير المورّد عمليات الإنتاج التي تم تخصيصها لمورد ما.
 

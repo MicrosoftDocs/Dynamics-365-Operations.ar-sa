@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="parameter-configurations-for-retail-statements"></a> تكوينات المعلمة لبيانات البيع بالتجزئة
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء تكوينات لمعلمات البيع بالتجزئة التي تؤثر على كيفية إنشاء كشوفات حساب البيع بالتجزئة وترحيلها. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

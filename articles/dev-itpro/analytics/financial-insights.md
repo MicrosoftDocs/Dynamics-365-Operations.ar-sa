@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-insights"></a>المعلومات المالية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تستخدم **المعلومات المالية** Microsoft Power BI للجمع بين مؤشرات الأداء الأساسية (KPIs) المالية والمخططات والقوائم المالية. Power BI مضمن في Microsoft Dynamics 365 for Finance and Operations.
 تركيز **المعلومات المالية** هو التقارير التحليلية. تستطيع الشخصيات عبر إحدى المؤسسات العرض والبحث والفهم والعمل. 

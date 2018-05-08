@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>إنشاء اتفاقية تسهيلات مصرفية لخطاب الاعتماد
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 تنقلك هذه المهمة عبر عملية إنشاء اتفاقية التسهيلات البنكية‬ لمعالجة خطاب اعتماد. ستحتاج إلى إعداد التسهيلات البنكية وملفات تعريف الترحيل قبل هذه المهمة.  تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.  
 

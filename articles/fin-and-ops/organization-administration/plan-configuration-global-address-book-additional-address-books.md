@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a>التخطيط لتكوين دفتر العناوين العمومي ودفاتر العناوين الإضافية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل إعداد وتكوين دفتر العناوين العمومي وأي دفاتر عناوين إضافية في Microsoft Dynamics 365 for Finance and Operations. قد تتطلب منك بعض القرارات تأكيد القرارات التي تم اتخاذها لنواحٍ أخرى من المنتج، مثل التدرج الهرمي للمؤسسات.
 

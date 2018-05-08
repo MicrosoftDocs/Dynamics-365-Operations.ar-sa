@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-warehouse-work-policies"></a>إعداد سياسات عمل المستودع  
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 لا تشمل عمليات المستودع دائمًا عمل المستودع. بتحديد سياسة العمل، يمكنك منع إنشاء عمل لانتقاء المواد الخام ووضع البضائع المنتهية بعيدًا لمجموعة من المنتجات في مواقع محددة. تم استخدام شركة بيانات العرض التوضيحي USMF لإنشاء هذا التسجيل. يتطلب دليل المهام هذا تطبيق Dynamics AX 7.0.1 أو أحدث.
 

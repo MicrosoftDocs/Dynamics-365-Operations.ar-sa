@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>إعداد أقنعة الكود الشريطي
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية إعداد أحرف قناع الكود الشريطي، وأقنعة الكود الشريطي، وكيفية تعيين أقنعة الكود الشريطي للأكواد الشريطية.
 

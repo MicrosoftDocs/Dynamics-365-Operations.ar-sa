@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a>تكوين الوجهات ‏‫للتقارير الإلكترونية (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية الإعداد واستخدام وجهات مختلفة لمكونات إخراج التقارير الإلكترونية (ER)، مثل مجلد أو ملف. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي DEMF. تُعد ألمانيا بلد/منطقة العنوان الأساسي للكيان القانوني، على الرغم من ذلك، يمكنك استخدام أي كيان قانوني لهذا الإجراء. 
 

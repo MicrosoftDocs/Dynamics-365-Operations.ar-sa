@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="reason-codes-for-inventory-counting"></a>أكواد الأسباب لجرد المخزون
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تتيح لك أكواد الأسباب تحليل نتائج عملية الجرد وأي تناقضات تحدث أثناء العملية. يمكنك تحديد سبب القيام بالجرد، مثل بالتة مكسورة أو تعديل مخزون يستند إلى نماذج المخزون.
 

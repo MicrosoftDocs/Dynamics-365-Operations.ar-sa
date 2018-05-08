@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>تسجيل فاتورة مورّد في دفتر يومية الفواتير
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 سيظهر دليل المهمة هذا كيفية تسجيل فواتير المورّدين غير المقترنة بأوامر الشراء. تتضمن أمثلة هذا النوع من الفواتير مصروفات الإمدادات أو الخدمات.  يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.
 

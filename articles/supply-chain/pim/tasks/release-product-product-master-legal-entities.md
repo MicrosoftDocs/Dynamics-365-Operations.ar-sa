@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>إصدار منتج/أصل منتج إلى كيانات قانونية
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء كيفية إصدار منتج أو أصل المنتج في واحد أو أكثر من الكيانات القانونية. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT، والمهمة مخصصة لمدير البضائع و‏‫مصمم المنتج‬.
 

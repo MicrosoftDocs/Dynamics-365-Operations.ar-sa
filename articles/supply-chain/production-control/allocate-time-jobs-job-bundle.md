@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>تخصيص الوقت للوظائف في مجموعة الوظائف‬
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 في تنفيذ التصنيع، يمكنك تجميع الوظائف. يمكنك عندئذٍ بدء مهام متعددة في نفس الوقت في صفحة قائمة الوظائف.
 

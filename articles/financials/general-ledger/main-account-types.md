@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="main-account-types"></a>أنواع الحساب الرئيسي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تحدد أنواع الحسابات الرئيسية كيفية استخدام حساب رئيسي في دليل الحسابات.
 

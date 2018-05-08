@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>نظرة عامة على تخطيط الموازنة.
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ‏‫تقدم هذه المقالة تخطيط الموازنة، كما تحتوي على معلومات تساعدك في تكوين تخطيط الموازنة وإعداد عمليات تخطيط الموازنة.
 

@@ -28,9 +28,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-[!INCLUDE [retail name](includes/retail-name.md)]
+[!include [retail name](includes/retail-name.md)]
 
 تُعد الأقسام والوظائف والمناصب العناصر التنظيمية التي يتم الاحتفاظ بها ضمن الموارد البشرية. يصف هذا الموضوع معلومات تصورية حول هذه العناصر. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>دورة حياة أمر الدُفعة من الإنشاء حتى بدء التشغيل
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يأخذك هذا الإجراء من خلال الجزء الأول من دورة حياة أمر الدفعة.
 

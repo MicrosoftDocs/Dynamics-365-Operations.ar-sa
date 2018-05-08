@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>الاختيار بين نقطة البيع الحديثة ونقطة بيع المجموعة
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يوفر هذا الموضوع للمنفذين خلفية إضافية وتلميحات وإرشادات للعوامل التي يجب عليهم وضعها في الاعتبار عندما ينشرون Microsoft Dynamics 365 for Retail. ومن خلال مراجعة واتباع هذا الدليل كجزء من عملية النشر، يستطيع المنفذون تجنب المشكلات التي قد تؤثر على أداء المستخدم أو رضاه.
 

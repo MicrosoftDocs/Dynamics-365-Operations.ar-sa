@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>إنشاء خصائص جدولة أوقات العمل
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يتم استخدام خصائص جدولة وقت العمل لتصنيف الفواصل الزمنية لوقت العمل وتحديد الإعدادات التي يجب أن يأخذها المشغلون في الاعتبار. يوضح هذا الإجراء كيفية تعريف خاصية جدولة وقت العمل وقيم الخصائص المقترنة. يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.
 

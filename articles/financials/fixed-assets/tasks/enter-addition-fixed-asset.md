@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>إدخال إضافة إلى الأصول الثابتة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية زيادة إضافة إلى أصل ثابت موجود. غرض إضافات الأصول الثابتة هو تعقب إضافات الأصناف أو صيانة الأصل أو التحسينات التي تم إدخالها عليه، وهو إعلامي فقط. يجب إجراء أية تغييرات على قيمة الأصول الثابتة أو مدة خدمتها بشكل منفصل.   
 

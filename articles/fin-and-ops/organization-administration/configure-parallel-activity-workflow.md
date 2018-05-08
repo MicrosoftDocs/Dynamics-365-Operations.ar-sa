@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>تكوين نشاط موازٍ في سير عمل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 لتكوين نشاط موازٍ، أكمل الإجراءات التالية في محرر سير العمل.
 

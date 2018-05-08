@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>‏‫تسجيل الغياب في الوقت والحضور
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع مفاهيم الغياب ويشرح كيفية معالجة الغياب في الوقت والحضور.
 

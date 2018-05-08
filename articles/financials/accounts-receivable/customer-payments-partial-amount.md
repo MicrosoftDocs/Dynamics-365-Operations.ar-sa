@@ -28,7 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="customer-payments-for-a-partial-amount"></a>مدفوعات العميل لمبلغ جزئي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 في بعض الأحيان، قد يسدد العملاء دفعة أقل من مبلغ الفاتورة. توضح هذه المقالة مختلف الخيارات التي يتم استخدامها لمعالجة هذه الحالة. تتوقف الخيارات التي تتوفر لك على تكوين أعمالك ومتطلباتها.
 

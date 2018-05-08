@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>التنازل عن رسوم الفائدة أو إعادة المطالبة بها أو عكسها
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفية التنازل عن تكاليف الفائدة والرسوم وإعادة المطالبة بها وإلغائها.
 

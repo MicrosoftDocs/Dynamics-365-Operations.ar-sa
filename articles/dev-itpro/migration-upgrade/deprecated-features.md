@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="removed-or-deprecated-features"></a>الميزات المهلكة أو التي تمت إزالتها
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع الميزات التي تمت إزالتها أو أصبحت مهلكة من Dynamics 365 for Finance and Operations.
 

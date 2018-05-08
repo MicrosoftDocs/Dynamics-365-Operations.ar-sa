@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>إعداد المهام الإضافية
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد مهمة إضافية. عادة ما يتم ذلك عن طريق منسق نقل. قبل استخدام هذا الدليل تحتاج إلى تشغيل الدليل "إعداد مصاريف الموزع الإضافية والأصول الإضافية‬".
 

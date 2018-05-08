@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 من خلال تعيين أعضاء أبعاد عنصر تكلفة مختلفين إلى مجموعة مشتركة من أعضاء أبعاد عنصر تكلفة، ستقوم بدمج البيانات في تنسيق مشترك لأغراض التحليل.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>إنشاء دفاتر اليومية والتحقق من صحتها
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ينشئ دليل المهام هذا دفاتر اليومية وبنود دفاتر اليومية ويتحقق من صحتها. وتستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.  
 

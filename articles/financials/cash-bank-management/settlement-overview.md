@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview"></a>نظرة عامة على التسوية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات عامة حول عملية التسوية. فهي تصف أنواع الحركات التي يمكن تسويتها، متى وكيف يمكن تسوية الحركات، ونتائج عملية التسوية.
 

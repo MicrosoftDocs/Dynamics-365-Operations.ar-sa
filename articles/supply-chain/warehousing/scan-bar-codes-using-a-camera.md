@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>مسح الأكواد الشريطية باستخدام الكاميرا في Dynamics 365 for Finance and Operations – Warehousing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إعداد Dynamics 365 for Finance and Operations – Warehousing لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول. 
 

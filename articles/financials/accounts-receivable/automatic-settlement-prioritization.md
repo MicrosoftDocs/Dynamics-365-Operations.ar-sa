@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="automatic-settlement-and-prioritization"></a>التسوية التلقائية وترتيب الأولويات التلقائي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تسوية الحركات إذا اخترت التسوية التلقائية في صفحة محددات الحسابات المدينة‬. وهي توضح أيضًا كيفية استخدام التسوية التلقائية بالتزامن مع أولوية الدفع.
 

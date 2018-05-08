@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>الصفحة الرئيسية لعملية النشر المحلي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يمكنك نشر Microsoft Dynamics 365 for Finance and Operations (محلي). عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة. يوفر هذا الموضوع ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.
 

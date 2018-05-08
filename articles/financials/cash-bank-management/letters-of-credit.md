@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>خطابات الاعتماد
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 خطابات الاعتماد هي مستندات بنكية يتم استخدامها بشكل شائع لشراء وبيع السلع عبر الحدود الدولية. 
 

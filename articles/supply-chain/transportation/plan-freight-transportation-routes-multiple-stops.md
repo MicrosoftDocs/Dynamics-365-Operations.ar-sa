@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>تخطيط مسارات نقل الشحن ذات نقاط توقف متعددة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة العناصر المختلفة التي تستخدمها لتخطيط مسارات النقل في Microsoft Dynamics 365 for Finance and Operations.
 

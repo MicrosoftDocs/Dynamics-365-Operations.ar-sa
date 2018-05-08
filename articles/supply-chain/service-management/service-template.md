@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>قوالب الخدمة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يُمكنك تحديد اتفاقية خدمة كقالب ثم نسخ بنود القالب فيما بعد إلى اتفاقية خدمة أخرى أو إلى أمر خدمة.
 

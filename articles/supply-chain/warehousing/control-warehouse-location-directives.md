@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>مراقبة عمل المستودع باستخدام قوالب العمل والتوجيهات المتعلقة بالموقع
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية استخدام قوالب العمل وتوجيهات الموقع لتحديد كيف وأين يتم إجراء العمل في المستودع.
 

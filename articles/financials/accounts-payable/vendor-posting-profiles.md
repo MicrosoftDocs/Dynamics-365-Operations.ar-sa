@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-posting-profiles"></a>ملفات تعريف ترحيل المورد
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تتحكم ملفات تعريف ترحيل المورد‬ في ترحيل حركات المورِّدين إلى دفتر الأستاذ العام.
 

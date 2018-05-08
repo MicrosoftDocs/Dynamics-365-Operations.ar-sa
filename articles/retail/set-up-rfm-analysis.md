@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>إعداد تحليل RFM
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء.
 

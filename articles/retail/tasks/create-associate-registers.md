@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-registers"></a> إنشاء وربط سجلات
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء سجل نقطة البيع. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

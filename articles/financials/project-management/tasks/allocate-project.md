@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>توزيع ميزانية مشروع أو مراجعة الميزانية خلال الفترات
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  بعد إدخال موازنة المشروع أو مراجعة موازنة المشروع، وقبل إرسالها ليتم اعتمادها، يمكنك توزيع المبالغ على الفترات. إذا تم رفض الموازنة أو مراجعة الموازنة، يمكنك أيضًا توزيع المبالغ قبل إعادة إرسالها. 
 

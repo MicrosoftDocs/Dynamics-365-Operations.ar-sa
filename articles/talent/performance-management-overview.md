@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="performance-management-overview"></a>نظرة عامة حول إدارة الأداء
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 تتيح عملية إدارة الأداء للموظفين توثيق أدائهم ومناقشته مع مديرهم. ومن ثم، يمكن للمديرين تقديم تعليقات وتوجيهات للموظفين.  
 

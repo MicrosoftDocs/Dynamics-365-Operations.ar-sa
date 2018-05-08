@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="mobile-app-home-page"></a>الصفحة الرئيسية لتطبيق الأجهزة المحمولة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع تطبيق Microsoft Dynamics 365 for Unified Operations للأجهزة المحمولة ويوفر ارتباطات إلى موارد يمكن أن تساعدك في تطبيقه في مؤسستك.
 

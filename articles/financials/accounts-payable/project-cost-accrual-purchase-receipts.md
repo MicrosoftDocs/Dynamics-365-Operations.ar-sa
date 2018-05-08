@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-cost-accrual-on-purchase-receipts"></a>استحقاق تكلفة المشروع في إيصالات الشراء
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تعقب تكاليف المشروع المستحقة من إيصالات الشراء في Microsoft Dynamics 365 for Finance and Operations. 
 

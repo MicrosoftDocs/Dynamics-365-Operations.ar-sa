@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>مهام الخدمة  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 استخدم مهام الخدمة لوصف المهمة المراد إكمالها خلال أمر الخدمة.
 يستطيع كل من الفنيين والعملاء رؤية هذه المعلومات.

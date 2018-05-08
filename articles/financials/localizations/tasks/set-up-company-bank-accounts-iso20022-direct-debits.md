@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>إعداد الحسابات البنكية للشركة للديون المباشرة ISO20022
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 تنقلك هذه المهمة عبر عملية إعداد المعلومات المحددة الخاصة بالحساب البنكي للشركة والمطلوبة لإنشاء ملفات دفع العميل. يستخدم هذا الإجراء تنسيق الدين المباشر ISO 20022 كمثال. قد تتطلب تنسيقات أخرى معلومات إعداد إضافية، مثل "معرف الشركة" أو "كود الفرز".
 

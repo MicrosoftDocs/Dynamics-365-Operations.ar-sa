@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-fees"></a>‏‫تحديد رسوم دفع المورّد‬
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 إعداد رسوم مدفوعات المورّد. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 

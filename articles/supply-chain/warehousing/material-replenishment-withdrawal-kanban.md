@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="replenishment-with-withdrawal-kanbans"></a>التزويد بحلول كانبان للسحب
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيفية استخدام كانبان السحب لتزويد المواد لأنشطة التصنيع.
 

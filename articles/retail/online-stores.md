@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>نظرة عامة على المتجر على الإنترنت
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 توفر هذه المقالة معلومات حول متاجر البيع بالتجزئة عبر الإنترنت وكيفية إعدادها في Microsoft Dynamics 365 for Retail.
 

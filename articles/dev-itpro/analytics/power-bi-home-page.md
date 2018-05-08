@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 
 # <a name="power-bi-content"></a>محتوى Power BI
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يسرد هذا الموضوع محتوى Microsoft Power BI المتوفر ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عنه.
 

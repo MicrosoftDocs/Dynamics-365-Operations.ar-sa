@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 # <a name="reverse-charge-vat"></a>ضريبة القيمة المضافة للرسوم العكسية
 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 
 يشرح هذا الموضوع نهجًا عامًا لإعداد ضريبة القيمة المضافة (VAT) للرسوم العكسية للمملكة العربية السعودية والدول الأوروبية.

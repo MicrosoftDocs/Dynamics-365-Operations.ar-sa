@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a> إنشاء الأبعاد المالية لثنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء إنشاء بعد مالي لقنوات البيع بالتجزئة بقيم الأبعاد والخطوات لتكوين قيم الأبعاد المالية في متاجر البيع بالتجزئة. لا يتضمن الموضوع خطوات أخرى ذات صلة، مثل إنشاء مجموعات الأبعاد وبُنى الحسابات. ويستخدم هذا الإجراء شركة USRT في بيانات العرض التوضيحي.
 

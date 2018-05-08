@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-hierarchies"></a>التسلسلات الهرمية للبيع بالتجزئة
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 توضح هذه المقالة التدرجات الهرمية للبيع بالتجزئة في Microsoft Dynamics 365 for Retail.
 

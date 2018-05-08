@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>توزيع البضائع من أوامر الإنتاج لمساحات خارجية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيفية إدارة عملية مواد توزيع البضائع التي يتم الإبلاغ عنها كبضائع منتهية من خط الإنتاج إلى رصيف نقل الصادرات.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-on-hand-mobile-workspace"></a>مساحة العمل المحمولة للمخزون الفعلي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **المخزون الفعلي**. تساعدك مساحة العمل هذه في الحصول على معلومات دقيقة تتعلق بالمخزون المحجوز والمتوفر في أي وقت وفي أي مكان.‬
 

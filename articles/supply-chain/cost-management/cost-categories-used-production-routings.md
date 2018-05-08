@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>فئات التكلفة المستخدمة في عمليات توجيه الإنتاج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول فئات التكلفة التي يتم تطبيقها على بيئات التصنيع التي تستخدم التوجيه.
 

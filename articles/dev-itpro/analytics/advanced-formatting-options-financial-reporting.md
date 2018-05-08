@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>خيارات التنسيق المتقدمة في التقارير المالية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 عند إنشاء تقرير في التقارير المالية، تتوفر وظائف تنسيق إضافية، بما في ذلك عوامل التصفية للأبعاد، والقيود للأعمدة ووحدات إعداد التقارير‬ والصفوف غير القابلة للطباعة وعبارات IF/THEN/ELSE في العمليات الحسابية. 
 

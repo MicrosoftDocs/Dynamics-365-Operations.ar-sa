@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>الصفحة الرئيسية لإدارة المؤسسة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشير هذا الموضوع إلى المحتوى الذي سيساعد المستخدمين والمسؤولين المحترفين على تكوين Microsoft Dynamics 365 for Finance and Operations. سوف يساعدهم هذا المحتوى على تكوين النظام لكي يعمل بطريقة سلسة وفعالة لمؤسستك وأعمالك.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="warehouse-work-policies"></a>سياسات عمل المستودع
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تتحكم سياسات عمل المستودع في Microsoft Dynamics 365 for Finance and Operations فيما إذا كان عمل المستودع ينشأ نتيجة عمليات المستودع في التصنيع، استنادًا إلى نوع أمر العمل وموقع المخزون والمنتج.
 

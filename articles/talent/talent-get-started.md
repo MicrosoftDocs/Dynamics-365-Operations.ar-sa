@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>بدء استخدام Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 في Dynamics 365 for Talent، من السهل تعديل واجهة المستخدم وتعيين الخيارات التي تجعل البرنامج أكثر سهولة في تلبية احتياجاتك. يتضمن هذا الموضوع ارتباطات موصلة للمواضيع التي توفر معلومات حول كيفية تهيئة واجهة المستخدم حسب التفضيلات الخاصة بك. يتضمن الموضوع أيضًا ارتباطات موصلة للمعلومات التي يمكن أن تساعدك في البحث عن المعلومات في النظام بكفاءة ودقة. 
 

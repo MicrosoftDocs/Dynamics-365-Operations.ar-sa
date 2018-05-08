@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="chart-of-accounts-delimiter-must-be-unique"></a>يجب أن يكون محدد دليل الحسابات فريدًا
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 في Microsoft Dynamics AX 2012، يمكنك استخدام نفس المحدد لدليل الحسابات وقيم الأبعاد. في Dynamics 365 for Finance and Operations، لا يمكنك الحصول على نفس المحدد لدليل الحسابات وقيم الأبعاد. في حالة وجود محدد مكرر، يمكنك تغييره بعد الترقية. 
 

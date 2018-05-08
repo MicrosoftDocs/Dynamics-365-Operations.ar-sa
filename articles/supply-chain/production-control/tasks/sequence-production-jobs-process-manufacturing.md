@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>تسلسل وظائف الإنتاج للتصنيع التحويلي
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يستخدم هذا الإجراء منتجات الطلاء كمثال لإظهار كيفية تسلسل الأوامر المخططة وفقًا لأولوية اللون وحجم الحزمة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USPI. هذا الإجراء مخصص لمخطط الإنتاج‬.
 

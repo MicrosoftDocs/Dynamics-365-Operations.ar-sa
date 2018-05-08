@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>مساحة العمل المحمولة "دليل الشركة"
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **دليل الشركة**. تسمح مساحة العمل هذه للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.
 

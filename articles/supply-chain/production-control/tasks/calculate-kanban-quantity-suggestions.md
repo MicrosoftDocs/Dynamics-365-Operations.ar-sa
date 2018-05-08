@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>حساب اقتراحات كمية كانبان
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يركز هذا الإجراء على تحسين حجم وكميات كانبان لقاعدة كانبان معينة باستخدام حساب كمية كانبان. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لمدير تدفق القيم. من الضروري أن تكمل الإجراء: "إضافة سياسة حساب كمية كانبان جديدة إلى قاعدة كانبان".‬
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="payment-methods"></a>طرق الدفع
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يجب أن يتم تكوين كل نوع دفع يقبله بائع التجزئة عند إعداد النظام. تصف هذه المقالة أنواع الدفع التي يمكنك إعدادها وتصف عملية إعدادها.
 

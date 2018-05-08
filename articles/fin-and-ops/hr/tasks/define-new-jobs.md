@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-new-jobs"></a>تحديد الوظائف الجديدة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 تركز هذه المهمة على إنشاء وظيفة جديدة. وسيتم إكمالها باستخدام الإدخال اليدوي ونسخة من وظيفة القالب. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬ هذه المهمة مخصصة لأخصائي الموارد البشرية.
 

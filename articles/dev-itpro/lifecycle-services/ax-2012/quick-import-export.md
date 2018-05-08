@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>تشغيل ‏‫أداة تحويل بيانات الاختبار (بيتا) لـ Dynamics AX ‏(AX 2012)
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 الغرض من ميزة الاستيراد والتصدير السريع هو السماح لك بالاستيراد والتصدير من خلال تنفيذ عدد أقل من الخطوات.
 

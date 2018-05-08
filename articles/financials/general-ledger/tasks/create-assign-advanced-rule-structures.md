@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>إنشاء بُنى القواعد المتقدمة وتعيينها
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح دليل المهام هذا خطوات إنشاء بنية قاعدة متقدمة وتعيينها لبنية حساب. يستخدم هذا الدليل شركة بيانات العرض التوضيحي USMF.
 

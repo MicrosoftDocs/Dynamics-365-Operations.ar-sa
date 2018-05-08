@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="product-configuration-models-overview"></a>نظرة عامة على نماذج تكوين المنتجات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تصف هذه المقالة المصطلحات والمفاهيم المتعلقة بنماذج تكوين المنتجات. تسمح لك نماذج تكوين المنتجات بإنشاء بنية منتج عامة يمكن استخدامها لتكوين العديد من متغيرات المنتجات لمنتج واحد.
 

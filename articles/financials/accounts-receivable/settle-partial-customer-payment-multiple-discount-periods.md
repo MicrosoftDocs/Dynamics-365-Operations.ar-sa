@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>تسوية دفعة جزئية لعميل تحتوي على عدة فترات خصم
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا المقال كيفية تسوية مدفوعات العميل الجزئية عند وجود فترات خصم متعددة.
 

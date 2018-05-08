@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="create-alerts"></a>إنشاء تنبيهات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a>بدء الاستخدام
 قبل إعداد قاعدة تنبيه، قرر متى وفي أي مواقف تحتاج فيها إلى تلقي التنبيهات. عندما تعرف الحدث الذي تريد إعلامك به، في Microsoft Dynamics 365 for Finance and Operations، ابحث عن الصحة التي توجد فيها البيانات التي تؤدي إلى ظهور هذا الحدث. يمكن أن يكون الحدث تاريخًا يتم بلوغه أو تغييرًا محددًا يحدث. لذلك، يجب البحث عن الصفحة التي يتم فيها تحديد التاريخ، أو الحقل الذي تظهر فيها هذه التغييرات أو السجل الجديد الذي تم إنشاؤه. بعد أن تتوفر لديك هذه المعلومات، يمكنك إنشاء قاعدة التنبيه.

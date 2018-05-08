@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>تغيير اللافتة أو الشعار
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يسرد الإجراء التالي الخطوات التي يمكن لمسؤولي النظام استخدامها لتحديث صورة الشعار أو اللافتة التي يتم عرضها لكيان قانوني. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

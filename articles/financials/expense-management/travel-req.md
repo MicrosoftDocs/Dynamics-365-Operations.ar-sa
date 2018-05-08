@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>طلبات السفر
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يمثل *طلب السفر* مستند مصدر يسرد المصروفات التي سوف يتم تكبدها لغرض السفر. يُرسل طلب السفر للمراجعة، ثم يمكن استخدامه بعد ذلك للحصول على إذن بالنفقات.
 

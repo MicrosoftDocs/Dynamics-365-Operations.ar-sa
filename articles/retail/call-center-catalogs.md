@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>كتالوجات مركز الاتصال
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 توضح هذه المقالة الوظائف الخاصة بمركز الاتصال للكتالوجات في Microsoft Dynamics 365 for Retail.
 

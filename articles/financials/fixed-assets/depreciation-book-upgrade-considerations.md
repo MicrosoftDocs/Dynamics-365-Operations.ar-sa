@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>نظرة عامة حول ترقية دفتر الإهلاك
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك. في Microsoft Dynamics 365 for Operations (1611)، تم دمج وظيفة نموذج القيم ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر. يوفر هذا الموضوع بعض الأشياء الواجب مراعاتها عند إجراء الترقية. 
 
@@ -62,17 +62,17 @@ ms.lasthandoff: 11/03/2017
 توجد المحددات في بداية الفئة ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans class. 
 
 *// تحديد نهج مفضل لتوزيع الإيصالات* 
-*// صحيح,إذا أردت استخدام كود تسلسل رقمي موجود* 
-*// خطأ,إذا كنت تخطط لاستخدام التسلسل الرقمي المُعرّف من قبل النظام (افتراضي)* const boolean NumberSequenceUseExistingCode = false;  
+ *// صحيح,إذا أردت استخدام كود تسلسل رقمي موجود* 
+ *// خطأ,إذا كنت تخطط لاستخدام التسلسل الرقمي المُعرّف من قبل النظام (افتراضي)* const boolean NumberSequenceUseExistingCode = false;  
 
 *//إذا كنت تستخدم نهج التسلسل الرقمي المُعرف من قبل النظام، فعيّن محددات للتسلسل الرقمي..*
-*// سيتم إنشاء تسلسل رقمي جديد مع هذه المحددات.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// سيتم إنشاء تسلسل رقمي جديد مع هذه المحددات.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *//إذا كنت تستخدم نهج التسلسل الرقمي الموجود، فحدد كود التسلسل الرقمي الموجود.* 
-*//سينتقل توزيع الإيصالات من صف إلى آخر للتسلسلات الرقمية الموجودة.* const str NumberSequenceExistingCode = ''; *// حدد نطاق رمز التسلسل الرقمي الموجود* 
-*// صحيح, إذا كان التسلسل الرقمي المحدد مشتركًأ* 
-*// خطأ, إذا كان التسلسل الرقمي المحدد حسب الشركة* 
-*// سيتم استخدام التسلسل الرقمي الافتراضي المُعرّف من قبل النظام إذا لم يتم العثور على كود تسلسل رقمي مع النطاق المحدد.* const boolean NumberSequenceExistingIsShared = true; 
+ *//سينتقل توزيع الإيصالات من صف إلى آخر للتسلسلات الرقمية الموجودة.* const str NumberSequenceExistingCode = ''; *// حدد نطاق رمز التسلسل الرقمي الموجود* 
+ *// صحيح, إذا كان التسلسل الرقمي المحدد مشتركًأ* 
+ *// خطأ, إذا كان التسلسل الرقمي المحدد حسب الشركة* 
+ *// سيتم استخدام التسلسل الرقمي الافتراضي المُعرّف من قبل النظام إذا لم يتم العثور على كود تسلسل رقمي مع النطاق المحدد.* const boolean NumberSequenceExistingIsShared = true; 
 
 إعادة بناء المشروع الذي يحتوي على الفئة بعد تعديل الثوابت. 
 

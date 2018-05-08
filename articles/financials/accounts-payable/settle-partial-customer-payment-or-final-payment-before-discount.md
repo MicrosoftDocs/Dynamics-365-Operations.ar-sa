@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>تسوية دفعة جزئية لعميل وتسوية الدفعة النهائية بالكامل قبل تاريخ الخصم
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة السيناريوهات التي تظهر كيفية تسجيل مدفوعات جزئية للعميل وأخذ الخصومات النقدية خلال فترة الخصم النقدي.
 

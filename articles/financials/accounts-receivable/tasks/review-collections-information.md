@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>مراجعة معلومات التحصيلات
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يرشدك هذا الإجراء خلال كيفية مراجعة معلومات التحصيلات بالإضافة إلى خيارات الإعداد وحركات التحصيلات المختلفة. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
 

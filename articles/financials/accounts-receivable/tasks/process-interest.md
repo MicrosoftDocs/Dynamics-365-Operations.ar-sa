@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-interest"></a>فائدة العملية
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء إشعارات الفوائد وطباعتها وترحيلها. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 

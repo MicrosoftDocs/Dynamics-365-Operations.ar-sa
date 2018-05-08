@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-routes"></a>تحديد مسارات التكوين
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يركز هذا الإجراء على تحديد مسار تكوين يحدد التسلسل الذي سيتم عرض مجموعات التكوين به. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. وهذا هو الإجراء السادس من أصل ثمانية إجراءات الذي يوضح كيفية إنشاء مجموعات للتكوين مستند إلى بُعد.
 

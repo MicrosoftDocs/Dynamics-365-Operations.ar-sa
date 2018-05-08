@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="start-a-production-order"></a>بدء أمر الإنتاج
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية بدء أوامر الإنتاج بحالة العمل. يتم الإبلاغ عن استهلاك الوقت والمواد في هذه العملية. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا هو الإجراء الخامس من أصل سبعة إجراءات الذي يشرح دورة حياة أمر الإنتاج.
 

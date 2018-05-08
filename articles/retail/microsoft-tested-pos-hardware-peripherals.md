@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>‏‫الأجهزة الطرفية لنقطة البيع
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 باستطاعة نقطة البيع بالتجزئة الحديثة (POS) ونقطة بيع المجموعة استخدام مجموعة واسعة من الأجهزة الطرفية، مع واجهات وخيارات نشر متعددة لتحقيق سيناريوهات أعمال مختلفة لبائع التجزئة. 
 

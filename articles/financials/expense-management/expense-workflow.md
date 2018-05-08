@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>سير عمل المصروفات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يمكنك استخدام نظام سير العمل في Microsoft Dynamics 365 for Finance and Operations، لإعداد عملية مراجعة لتقارير المصروفات في إدارة المصروفات. يمكنك إعداد سير عمل يستخدم المعايير التالية لتحديد الجهة التي توافق على تقارير المصروفات:
 

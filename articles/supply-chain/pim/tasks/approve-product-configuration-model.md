@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>الموافقة على نموذج تكوين المنتج
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يتطلب تشغيل هذا الإجراء توفر نموذج تكوين منتج واحد على الأقل. يستخدم هذا الإجراء نموذج مكبر الصوت المتطور في شركة العرض التوضيحي USMF. لاحظ أن هذا النموذج قد تم اعتماده بالفعل، ولكن الإجراء يوضح لك العملية بالكامل.
 

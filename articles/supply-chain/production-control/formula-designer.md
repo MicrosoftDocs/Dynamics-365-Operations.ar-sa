@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="formula-designer"></a>مصمم المعادلة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا المقال كيفية استخدام مصمم المعادلة لتحليل وصيانة المعادلات في طريقة الشجرة.
 

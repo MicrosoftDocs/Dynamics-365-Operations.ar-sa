@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="common-sources-of-production-variances"></a>المصادر العامة لفروقات الإنتاج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة المصادر النموذجية المختلفة لكل نوع من أنواع الفرق في الإنتاج. 
 

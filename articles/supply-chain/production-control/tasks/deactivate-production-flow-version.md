@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deactivate-a-production-flow-version"></a>إلغاء تنشيط إصدار تدفق الإنتاج
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يمكنك إلغاء تنشيط إصدار تدفق الإنتاج عندما تنتفي الحاجة إليه. يجب استخدام هذا الخيار فقط إذا كانت كافة قواعد وأنشطة كانبان قد انتهت ولن يتم تنشيطها مرة أخرى. لاحظ أنه سيتم تحديث تاريخ انتهاء صلاحية كافة قواعد كانبان المتعلقة بإصدار تدفق الإنتاج هذا بالتاريخ والوقت الحاليين. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="work-breakdown-structures"></a>هياكل تنظيم العمل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 إن هيكل تنظيم العمل (WBS) عبارة عن وصف للعمل الذي سيتم إنجازه لمشروع. إنها تدرج هرمي للمهام التي تمثل فهم فريق المشروع لتكوين العمل، وحجم، وتكلفة، ومدة كل مكون أو مهمة. تشتمل WBS على ثلاثة أغراض رئيسية:
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>إنشاء تسلسل خطاب تحصيل
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 استخدم دليل المهمة هذا لإنشاء تسلسل خطاب تحصيل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 

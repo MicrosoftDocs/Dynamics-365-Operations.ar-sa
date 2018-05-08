@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>نموذج المخزون ما يرد أخيرًا يصرف أولاً‬ (LIFO) مع القيمة الفعلية والعلامات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 ما يرد أخيرًا يصرف أولاً (LIFO) هو نموذج مخزون يتم فيه صرف آخر عمليات الاستلام (الأحدث) أولاً. وتتم تسوية الإصدارات من المخزون مقابل آخر عمليات استلام في المخزون استنادًا إلى تاريخ العملية المخزنية. 
 

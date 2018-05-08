@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>قواعد إهلاك الأصول الثابتة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يتم استخدام قواعد الإهلاك لتحديد متى وكيف يتم حساب الإهلاك لكلٍّ من السنة التي يتم فيها امتلاك الأصل الثابت والسنة التي يت فيها التخلص من الأصل الثابت.
 

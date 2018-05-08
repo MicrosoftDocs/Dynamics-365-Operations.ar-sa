@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>دمج نموذج قيم الأصول الثابتة ودفتر الإهلاك
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك. في الإصدار (1611) من Microsoft Dynamics 365 for Operations، تم دمج وظيفة نموذج القيمة ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر.
 

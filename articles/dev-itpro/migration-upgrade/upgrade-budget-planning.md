@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>ترقية تخطيط الموازنة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 هناك اختلافات هامة في تخطيط الموازنة بين Microsoft Dynamics AX 2012 وMicrosoft Dynamics 365 for Finance and Operations. لم تتم ترقية بعض الميزات، وهي تتطلب بالتالي إعادة تكوين. هذا الموضوع يوضح ما يجب إعادة تكوينه ويصف أيضًا الميزات الجديدة التي يجب أخذها في الاعتبار بعد اكتمال الترقية.  
 

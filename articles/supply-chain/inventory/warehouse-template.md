@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>إعداد مستودع باستخدام قالب تكوين مستودع
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع طريقة إعداد مستودع باستخدام قالب تكوين مستودع. هناك العديد من قوالب التكوين المعرفة مسبقاً التي يمكنك استخدامها. لمزيد من المعلومات حول كيفية استخدام هذه القوالب، راجع [قوالب بيانات التكوين](../../dev-itpro/data-entities/configuration-data-templates.md).
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>إعداد وإدارة الصور لنقطة البيع بالتجزئة الحديثة
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 توضح هذه المقالة الخطوات التي تتضمنها عملية إعداد وإدارة الصور لمختلف الكيانات التي تظهر في نقطة البيع الحديثة للبيع بالتجزئة (MPOS).
 

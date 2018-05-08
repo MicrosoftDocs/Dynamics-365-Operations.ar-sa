@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>تكوين متجر عبر الإنترنت
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة ارتباطات لمواضيع سوف تساعدك مركزيًا في تكوين وإدارة متجر على الإنترنت.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>تخطيط الأحمال والشحنات باستخدام ‏‫منضدة عمل تخطيط الحِمل
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية استخدام منضدة تخطيط الحمل لإنشاء حمل لأمر مبيعات. كشرط مسبق، سنقوم بإنشاء أمر المبيعات أولاً. يمثل هذا الإجراء جزءًا من العمل اليومي لمنسق النقل. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

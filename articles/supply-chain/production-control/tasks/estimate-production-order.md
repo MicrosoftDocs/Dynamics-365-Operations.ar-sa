@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>تقدير أمر إنتاج
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يمكنك تشغيل هذا الإجراء باستخدام شركة بيانات العرض التوضيحي USMF أو البيانات الخاصة بك. وفي كلتا الحالتين، تحتاجُ إلى فتح أمر إنتاج يكون في الحالة "تم إنشاؤه". وهذا هو الإجراء الثاني من أصل سبعة إجراءات الذي سيشرح دورة حياة أمر الإنتاج.
 

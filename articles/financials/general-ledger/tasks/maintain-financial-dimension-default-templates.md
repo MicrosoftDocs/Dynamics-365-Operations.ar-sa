@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد القوالب الافتراضية للبُعد المالي. يمكن استخدام القوالب لتوزيع المبالغ بسرعة على المستندات المصدر.
 

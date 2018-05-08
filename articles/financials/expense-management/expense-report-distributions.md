@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>توزيعات تقرير مصروفات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  عندما تقوم بإدخال المصروفات في تقرير مصروفات، يمكنك توزيع المصروفات عبر عدة مشاريع أو كيانات قانونية أو حسابات في مؤسستك.
 

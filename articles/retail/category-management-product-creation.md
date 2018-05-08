@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manage-retail-product-categories-and-products"></a>إدارة منتجات وفئات منتج Retail
 
-[!INCLUDE [banner](./includes/banner.md)]
+[!include [banner](./includes/banner.md)]
 
 يصف هذا الموضوع طريقة محسنة لإدارة فئات منتجات Retail والمنتجات في Microsoft Dynamics 365 for Retail. تسمح التحسينات لمُدراء ترويج السلع بعرض بنية خصائص المنتجات المشتركة بين التدرج الهرمي لمنتج Retail وتفاصيل المنتجات المُصدرة.
 

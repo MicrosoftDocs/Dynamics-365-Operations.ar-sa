@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-home-page"></a>الصفحة الرئيسية لإعداد الموازنة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة على مكونات وظيفة إعداد الموازنة، وأدوات إعداد الموازنة، وإمكانات إعداد التقارير في Finance and Operations. 
 

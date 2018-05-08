@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>عقود المشروع
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تشتمل هذه المقالة على عقود المشاريع التي يمكنك إنشاؤها لمختلف أنواع المشاريع ومصادر التمويل وكيفية إدارة العقود وفوترة عملاء المشاريع في Microsoft Dynamics 365 for Finance and Operations، كما يقدم هذا الموضوع أمثلة لهذه العقود.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>تكوين عملية اعتماد في سير عمل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 استخدم الإجراء التالي لتكوين خصائص عملية الاعتماد.
 

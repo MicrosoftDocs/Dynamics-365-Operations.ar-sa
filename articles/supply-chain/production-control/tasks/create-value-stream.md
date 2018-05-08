@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>إنشاء تدفق قيم
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 تمثل تدفقات القيم وحدات تشغيل تقوم بتجميع تدفق إنتاج واحد أو تدفقات إنتاج متعددة. لتعريف تدفق إنتاج، يجب عليك تعريف تدفق قيم أولاً.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-time-entry-mobile-workspace"></a>مساحة عمل محمولة لإدخال وقت المشروع
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **إدخال وقت المشروع**. تسمح مساحة العمل هذه للمستخدمين بإدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازهم المحمول.
 

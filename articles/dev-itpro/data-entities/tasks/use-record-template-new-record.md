@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>استخدام قالب سجل لإنشاء سجل جديد
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية استخدام قالب سجل تم تعريفه سابقًا لإنشاء سجل جديد. لإكمال هذا الإجراء، يجب أولاً إكمال الإجراء "إنشاء قالب سجل لتسهيل إدخال البيانات‬".
 

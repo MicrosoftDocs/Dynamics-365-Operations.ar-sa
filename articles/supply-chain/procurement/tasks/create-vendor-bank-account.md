@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-bank-account"></a>إنشاء حساب بنكي للمورّد
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء حساب بنكي للمورّد. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.
 
