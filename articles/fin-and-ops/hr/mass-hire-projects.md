@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7f06a94bd4d1c201ff1095ec3ec770882be5416d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 17789f8f74826136aa5765cadd96a4929729323f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mass-hire-projects"></a><span data-ttu-id="88824-103">مشاريع التوظيف الجماعي</span><span class="sxs-lookup"><span data-stu-id="88824-103">Mass hire projects</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="88824-104">تسمح مشاريع التوظيف الجماعي لأخصائي الموارد البشرية بإنشاء مناصب متعددة وتوظيف عدد من العاملين في تلك المناصب بطريقة فعالة.</span><span class="sxs-lookup"><span data-stu-id="88824-104">Mass hire projects allow human resources specialists to create multiple positions and efficiently hire workers into those positions.</span></span>
 

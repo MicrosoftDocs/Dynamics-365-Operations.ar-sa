@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c94f731cbdd62d51a21a42e8fcc86c5711c0e965
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cedb3f382a07934dcec7e4efeb91e9b30ebef10c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="deliver-an-employee-benefits-program"></a><span data-ttu-id="af1c8-103">تقديم برنامج ميزات الموظفين</span><span class="sxs-lookup"><span data-stu-id="af1c8-103">Deliver an employee benefits program</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="af1c8-104">ستعرض لك هذه المهمة كيفية إنشاء عناصر الفائدة التي سيتم استخدامها عند إنشاء ميزة جديدة.</span><span class="sxs-lookup"><span data-stu-id="af1c8-104">This task will show you how to create benefit elements which will be used when creating a new benefit.</span></span> <span data-ttu-id="af1c8-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="af1c8-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="af1c8-106">هذه المهمة مخصصة لمدير التعويضات والميزات.</span><span class="sxs-lookup"><span data-stu-id="af1c8-106">This task is intended for a Compensation and Benefits manager.</span></span>
 

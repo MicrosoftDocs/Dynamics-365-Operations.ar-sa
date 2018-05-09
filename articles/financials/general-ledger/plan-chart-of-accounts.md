@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3f8d97fc42cde9053b0552fc1dfe8e6de0f5e03b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6106125af91f8bf9b3ffc3047578f6c6f60f0eb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="plan-your-chart-of-accounts"></a><span data-ttu-id="c604d-103">خطط دليل الحسابات الخاص بك</span><span class="sxs-lookup"><span data-stu-id="c604d-103">Plan your chart of accounts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c604d-104">يوفر هذا الموضوع معلومات ستساعدك في وضع تخطيط لدليل الحسابات في مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="c604d-104">This topic provides information that will help you plan the chart of accounts for your organization.</span></span>
 

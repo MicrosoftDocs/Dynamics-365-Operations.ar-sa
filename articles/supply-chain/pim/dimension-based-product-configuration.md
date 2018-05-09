@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b0e922d99c216cb99948ac4cdf80cdff59c45afb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18e53494b5cdb49c0bf7e8c311f17bfdbff78b0d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="dimension-based-product-configuration"></a><span data-ttu-id="f7f07-103">تكوين المنتج المستند إلى بُعد</span><span class="sxs-lookup"><span data-stu-id="f7f07-103">Dimension-based product configuration</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f7f07-104">يمثل تكوين المنتج المستند إلى بُعد‬ حلاً بسيطًا لإنشاء متغيرات منتج متعددة من أصل منتج واحد وقائمة مكونات الصنف الخاصة به.</span><span class="sxs-lookup"><span data-stu-id="f7f07-104">Dimension-based product configuration represents a simple solution for creating many product variants from a single product master and its bill of materials.</span></span>
 

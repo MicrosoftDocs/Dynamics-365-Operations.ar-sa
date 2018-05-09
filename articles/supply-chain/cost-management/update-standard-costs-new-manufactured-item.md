@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f60f7932ce79b23b1656d6947fcb321f9484869d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e2385a0edd4bb277fb425f05498fc138854f920c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a><span data-ttu-id="2bb6f-103">تحديث التكاليف المعيارية لصنف مصنّع جديد</span><span class="sxs-lookup"><span data-stu-id="2bb6f-103">Update standard costs for a new manufactured item</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2bb6f-104">توفر هذه المقالة إرشادات لتحديث التكاليف المعيارية لصنف مصنع جديد.</span><span class="sxs-lookup"><span data-stu-id="2bb6f-104">This article provides guidance for updating standard costs for a new manufactured item.</span></span> 
 

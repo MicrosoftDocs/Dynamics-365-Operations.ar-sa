@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b0bdabb9c2a4362c55251b67c491dd3779fd036
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 12df41f14973628063b11f20f7368f47b2ad3488
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-replacement-kanban-rule"></a><span data-ttu-id="4465a-103">إنشاء قاعدة كانبان للاستبدال‬</span><span class="sxs-lookup"><span data-stu-id="4465a-103">Create a replacement kanban rule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4465a-104">يركز هذا الإجراء على استبدال قاعدة كانبان موجودة بقاعدة كانبان جديدة في تاريخ محدد.</span><span class="sxs-lookup"><span data-stu-id="4465a-104">This procedure focuses on replacing an existing kanban rule with a new kanban rule on a specific date.</span></span> <span data-ttu-id="4465a-105">هذا مفيد عندما يلزم تنسيق التغييرات في تدفق الإنتاج أو قواعد التزويد وجدولتها.</span><span class="sxs-lookup"><span data-stu-id="4465a-105">This is useful when changes in the production flow or replenishment rules need to be coordinated and scheduled.</span></span> <span data-ttu-id="4465a-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="4465a-106">The demo data company used to create procedure is USMF.</span></span> <span data-ttu-id="4465a-107">هذا الإجراء مخصص لمهندس العمليات أو مدير تدفق القيم عند تحضيرهم لإنتاج تدفق عمل مغيَّر أو قاعدة تزويد جديدة.</span><span class="sxs-lookup"><span data-stu-id="4465a-107">This procedure is intended for the process engineer or the value stream manager when they prepare production for a changed production flow or a new replenishment rule.</span></span> <span data-ttu-id="4465a-108">تستبدل هذه المهمة قاعدة كانبان 000022 بقاعدة جديدة وتزيد الحد الأقصى للكمية من 48 إلى 100 للقاعدة الجديدة.</span><span class="sxs-lookup"><span data-stu-id="4465a-108">This task replaces kanban rule 000022 with a new rule and increases the maximum quantity from 48 to 100 for the new rule.</span></span>
 

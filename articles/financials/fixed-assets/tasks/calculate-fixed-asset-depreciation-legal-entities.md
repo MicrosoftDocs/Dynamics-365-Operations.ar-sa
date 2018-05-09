@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 662554b1b6bed63e5017aad3a292dad7a2f0bcea
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 77df61bd85d3c296e44d3a2cfb0fce8b16eaaf9f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a><span data-ttu-id="3a0a1-103">حساب إهلاك الأصول الثابتة عبر الكيانات القانونية</span><span class="sxs-lookup"><span data-stu-id="3a0a1-103">Calculate fixed asset depreciation across legal entities</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3a0a1-104">يمكن تشغيل إهلاك الأصول الثابتة عبر الكيانات القانونية في خطوة واحدة.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-104">Fixed asset depreciation can be run across legal entities in a single step.</span></span> <span data-ttu-id="3a0a1-105">يوضح هذا الإجراء كيفية إعداد العملية للعديد من الكيانات القانونية‬ وكيفية تشغيلها.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-105">This procedure shows you to how set up and run the process for multiple legal entities.</span></span> <span data-ttu-id="3a0a1-106">يستخدم دور المحاسب.</span><span class="sxs-lookup"><span data-stu-id="3a0a1-106">It uses the accountant role.</span></span>  
 

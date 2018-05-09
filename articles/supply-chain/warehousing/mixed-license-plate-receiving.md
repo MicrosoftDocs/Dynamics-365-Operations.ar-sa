@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 47587664c0c3ed553c724920168782a64fdaf9de
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0088290a05deb96f597c9f24209bb73a6e7918e9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mixed-license-plate-receiving"></a><span data-ttu-id="af3c2-103">استلام لوحة ترخيص مختلطة</span><span class="sxs-lookup"><span data-stu-id="af3c2-103">Mixed license plate receiving</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="af3c2-104">يسمح لك استلام لوحة ترخيص مختلطة بإنشاء لوحة ترخيص تتكون من العديد من الأصناف قبل أن تقوم بالتسجيل وإنشاء عمل تخزين.</span><span class="sxs-lookup"><span data-stu-id="af3c2-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
 

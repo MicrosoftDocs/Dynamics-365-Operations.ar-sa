@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 81f556dca0bfa17623bb1a0f1c712bfa5a4a2a9b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: abdae353a3393e21350864042aa317bc85c191b6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-products-that-can-be-produced-or-procured"></a><span data-ttu-id="5369a-104">إعداد المنتجات التي يمكن أن تكون منتجة أو مشتراة</span><span class="sxs-lookup"><span data-stu-id="5369a-104">Set up products that can be produced or procured</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5369a-105">يمكن توريد المنتجات بطرق مختلفة: يمكن إنتاجها (تصنيعها) أو تدبيرها (شراؤها).</span><span class="sxs-lookup"><span data-stu-id="5369a-105">Products can be sourced in various ways -  they can be produced (manufactured) or procured (purchased).</span></span> <span data-ttu-id="5369a-106">توضح هذه المقالة بعض النقاط النموذجية التي يجب أخذها في الاعتبار عند تكوين المنتجات لدعم استخدام مصادر متعددة.</span><span class="sxs-lookup"><span data-stu-id="5369a-106">This article describes some typical points to consider when you configure products to support multi-sourcing.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9f9888d04f4e2419de9d4a6857a81ae40f6f21a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 08a8f937f63b93ad15e489dbc53468af6e3827b4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="1848e-103"> إنشاء كشف حساب لمتجر بيع بالتجزئة وحسابه وترحيله</span><span class="sxs-lookup"><span data-stu-id="1848e-103">Create, calculate, and post a statement for a retail store</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1848e-104">يتناول هذا الإجراء الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر.</span><span class="sxs-lookup"><span data-stu-id="1848e-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="1848e-105">هناك أيضا وظائف دفعية والتي يمكن تكوينها لنفس المهام.</span><span class="sxs-lookup"><span data-stu-id="1848e-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="1848e-106">يمكن العثور على الخطوات لتكوين الوظائف الدفعية وتشغيلها في مواضيع أخرى.</span><span class="sxs-lookup"><span data-stu-id="1848e-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="1848e-107">ولإكمال هذا الإجراء، يجب أن يكون لديك حركات تم إكمالها في نقطة البيع ثم سحبها إلى Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="1848e-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="1848e-108">ويستخدم هذا التسجيل شركة USRT في بيانات العرض التوضيحي.</span><span class="sxs-lookup"><span data-stu-id="1848e-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="1848e-109">قد يشير هذا الإجراء إلى Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="1848e-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="1848e-110">تجدر الإشارة إلى أن Dynamics AX يسمى الآن Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="1848e-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 

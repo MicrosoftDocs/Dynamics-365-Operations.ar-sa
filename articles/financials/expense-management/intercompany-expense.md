@@ -19,16 +19,16 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 861230dd08de570c451c8495bad91f9a4aef3691
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dfd956826b847539cdfa84d93700dbf5ebfa465a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="intercompany-expenses"></a><span data-ttu-id="c530a-104">المصروفات المشتركة بين الشركات الشقيقة</span><span class="sxs-lookup"><span data-stu-id="c530a-104">Intercompany expenses</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c530a-105">قد يقوم عامل تم توظيفه بواسطة كيان قانوني في مؤسسة بتنفيذ عمل لكيان قانوني آخر في المؤسسة نفسها.</span><span class="sxs-lookup"><span data-stu-id="c530a-105">A worker who is employed by one legal entity in an organization might perform work for another legal entity in the same organization.</span></span> <span data-ttu-id="c530a-106">في هذه الحالة، يمكنك استخدام ميزة المصروفات بين الشركات الشقيقة لتعيين مصروفات العامل إلى الكيان القانوني الذي تم تنفيذ العمل له.</span><span class="sxs-lookup"><span data-stu-id="c530a-106">In this situation, you can use the intercompany expense feature to assign the worker’s expenses to the legal entity for which the work was performed.</span></span> <span data-ttu-id="c530a-107">يسمى الكيان القانوني الذي يوظف العامل الكيان القانوني المقرض.</span><span class="sxs-lookup"><span data-stu-id="c530a-107">The legal entity that employs the worker is called the loaning legal entity.</span></span> <span data-ttu-id="c530a-108">أما الكيان القانوني الذي يتكبد العامل مصروفات له فيسمى الكيان القانوني المقترض.</span><span class="sxs-lookup"><span data-stu-id="c530a-108">The legal entity for which the worker incurs expenses is called the borrowing legal entity.</span></span> 
 

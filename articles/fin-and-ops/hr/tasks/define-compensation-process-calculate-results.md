@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d32a6245b7fcbbccb319c1ff37ce7a843e1851d2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="34074-103">تحديد عملية التعويض وحساب النتائج</span><span class="sxs-lookup"><span data-stu-id="34074-103">Define compensation process and calculate results</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="34074-104">تستخدم عمليات التعويض لتحديد مبالغ التعويضات الجديدة والمكافآت للموظفين المسجلين في خطط التعويض الثابتة والمتغيرة.</span><span class="sxs-lookup"><span data-stu-id="34074-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="34074-105">يمكن تشغيل عمليات التعويض عدة مرات للقيام بتحليل "ماذا لو"، للتحقق من صحة كافة التغييرات والإعدادات.</span><span class="sxs-lookup"><span data-stu-id="34074-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="34074-106">يقوم هذا الإجراء بإنشاء عملية تعويض، وتشغيل العملية وعرض النتائج.</span><span class="sxs-lookup"><span data-stu-id="34074-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="34074-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="34074-107">The demo data company used to create this procedure is USMF.</span></span>
 

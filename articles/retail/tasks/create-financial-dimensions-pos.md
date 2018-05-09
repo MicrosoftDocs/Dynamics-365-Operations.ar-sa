@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 74f9f16ab3dfc6e41a720d73cd62583aebbdd84e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 33e0b1da5d16372b8a3c4cd153f451166af6003f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a><span data-ttu-id="b962d-103"> إنشاء الأبعاد المالية لسجلات نقاط البيع وتكوين قيم الأبعاد في السجلات</span><span class="sxs-lookup"><span data-stu-id="b962d-103">Create financial dimensions for POS registers and configure dimension values on registers</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b962d-104">يتناول هذا الإجراء إنشاء أبعاد مالية لسجلات نقطة البيع، ويوضح كيفية تكوين قيم الأبعاد المالية في السجلات.</span><span class="sxs-lookup"><span data-stu-id="b962d-104">This procedure walks through creating financial dimensions for point of sale (POS) registers, and demonstrates how to configure financial dimension values on registers.</span></span> <span data-ttu-id="b962d-105">لا يتضمن هذا الإجراء خطوات أخرى ذات صلة، مثل إنشاء مجموعات الأبعاد وبُنى الحسابات.</span><span class="sxs-lookup"><span data-stu-id="b962d-105">This procedure doesn’t include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="b962d-106">يمكن العثور على هذه المهام في مواضيع أخرى.</span><span class="sxs-lookup"><span data-stu-id="b962d-106">Those tasks can be found in other topics.</span></span> <span data-ttu-id="b962d-107">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USRT.</span><span class="sxs-lookup"><span data-stu-id="b962d-107">This recording uses USRT demo company.</span></span>
 

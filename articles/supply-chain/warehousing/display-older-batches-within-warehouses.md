@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4f2dc9221b72600c928db9fd306038725c7af305
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 27fbf57ba7114ca773f2a80de51b36b4e63c6dd6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a><span data-ttu-id="a8320-103">تكوين عرض المجموعات القديمة داخل المستودع على جهاز محمول</span><span class="sxs-lookup"><span data-stu-id="a8320-103">Configure Display older batches within warehouse on a mobile device</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a8320-104">يسمح لك تكوين **عرض المجموعات القديمة داخل المستودع** بعرض قائمة بالمواقع مع دُفعات أقدم من الموقع الحالي لخط العمل.</span><span class="sxs-lookup"><span data-stu-id="a8320-104">The **Display older batches within warehouse** configuration lets you display a list of locations with batches older than the current location of the work line.</span></span> <span data-ttu-id="a8320-105">تتضمن قائمة المواقع التي يتم عرضها معلومات حول الدُفعات الأقدم في الموقع مع تاريخ انتهاء الصلاحية والمخزون الفعلي لكل دُفعة.</span><span class="sxs-lookup"><span data-stu-id="a8320-105">The list of locations that are displayed includes information about the older batches in the location with the expiration date and the physical inventory of each batch.</span></span> <span data-ttu-id="a8320-106">يمكنك اختيار الانتقاء من موقع جديد أو متابعة الانتقاء من الموقع الحالي.</span><span class="sxs-lookup"><span data-stu-id="a8320-106">You can choose to pick from a new location or to continue picking from the current location.</span></span> 
 - <span data-ttu-id="a8320-107">انتقاء من موقع جديد- إذا قمت بتحديد موقع جديد للانتقاء منه، يتم تحديث خط العمل الحالي لاستخدام الموقع الجديد وسيستمر العمل كالمعتاد مع الموقع الجديد.</span><span class="sxs-lookup"><span data-stu-id="a8320-107">Pick from a new location - If you select a new location to pick from, the  current work line will be updated to use the new location and work will continue as usual with the new location.</span></span> <span data-ttu-id="a8320-108">لكي يكون الموقع الجديد صالحًا، يجب أن يتضمن الكمية المتوفرة الكافية لخط العمل بكامله.</span><span class="sxs-lookup"><span data-stu-id="a8320-108">For the new location to be valid, it must have enough available quantity for the whole work line.</span></span> <span data-ttu-id="a8320-109">في حالة عدم توفر الكمية المطلوبة، لن يتم تحديث خط العمل، وستظهر القائمة.</span><span class="sxs-lookup"><span data-stu-id="a8320-109">If the required quantity is not available, the work line will not be updated, and the list will display.</span></span> 

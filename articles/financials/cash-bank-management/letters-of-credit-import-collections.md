@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3bab4b9981f58c133e8c5ed693e6ed345248809d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: effaffe8b5fbfc79713501973ece49db0517e30d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="a4b5a-104">خطابات الاعتماد وتحصيلات الاستيراد</span><span class="sxs-lookup"><span data-stu-id="a4b5a-104">Letters of credit and import collections</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a4b5a-105">توفر هذه المقالة معلومات عامة حول مجموعات الاستيراد وخطابات الاعتماد.</span><span class="sxs-lookup"><span data-stu-id="a4b5a-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="a4b5a-106">يُستخدم هذان النوعان من المستندات البنكية بشكل شائع لشراء وبيع السلع عبر الحدود الدولية.</span><span class="sxs-lookup"><span data-stu-id="a4b5a-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 

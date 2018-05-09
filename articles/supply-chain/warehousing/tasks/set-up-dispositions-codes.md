@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e12a2ac565bb8a8383044bd76a97f01e0434c739
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dc014e499d5705b8ad72bc502969a6102d89ae36
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-dispositions-codes"></a><span data-ttu-id="bd2d9-103">إعداد أكواد الترتيب</span><span class="sxs-lookup"><span data-stu-id="bd2d9-103">Set up dispositions codes</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bd2d9-104">ويركز هذا الإجراء على إعداد رمز الإرجاع الذي يمكن استخدامه على جهاز محمول لعملية استلام أمر الإرجاع.</span><span class="sxs-lookup"><span data-stu-id="bd2d9-104">This procedure focuses on the setup of a disposition code that can be used on a mobile device for the return order receiving process.</span></span> <span data-ttu-id="bd2d9-105">تمثل رموز الإرجاع مجموعة من القواعد التي يمكن استخدامها عند استلام الأصناف.</span><span class="sxs-lookup"><span data-stu-id="bd2d9-105">Disposition codes are a collection of rules that can be used when items are received.</span></span> <span data-ttu-id="bd2d9-106">على سبيل المثال، عندما يستخدم مستخدم عمل جهازًا محمولاً لاستلام الأصناف التي تعرضت للتلف، يجب عليه فحص رمز الإرجاع للعناصر التالفة.</span><span class="sxs-lookup"><span data-stu-id="bd2d9-106">For example, when a work user uses a mobile device to receive items that were damaged, the user must scan a disposition code for damaged items.</span></span> <span data-ttu-id="bd2d9-107">ويمكن تحديد كل من حالة المخزون للبضائع المستلمة وقالب العمل وتوجيه الموقع من رمز الإرجاع الممسوح ضوئياً.</span><span class="sxs-lookup"><span data-stu-id="bd2d9-107">The inventory status of the goods received, the work template, and the location directive can be determined from the scanned disposition code.</span></span> <span data-ttu-id="bd2d9-108">بالنسبة لعملية استلام أمر الشراء وتقرير أمر الإنتاج بانتهاء العملية، يكون استخدام رمز إرجاع اختياريًا.</span><span class="sxs-lookup"><span data-stu-id="bd2d9-108">For the purchase order receiving process and the production order report as finished process, the use of a disposition code is optional.</span></span> <span data-ttu-id="bd2d9-109">وبالنسبة لعملية استلام إرجاع أمر المبيعات، إذا كانت الأصناف مسجلة باستخدام جهاز محمول، فإن استخدام كود الترتيب يكون إلزاميًا.</span><span class="sxs-lookup"><span data-stu-id="bd2d9-109">For the sales order return receiving process, if the items are registered using a mobile device, the use of disposition code is mandatory.</span></span>  <span data-ttu-id="bd2d9-110">تم إنشاء هذا الدليل باستخدام شركة بيانات العرض التقديمي USMF.</span><span class="sxs-lookup"><span data-stu-id="bd2d9-110">This guide was created using the demo data company USMF.</span></span> <span data-ttu-id="bd2d9-111">هذا الإجراء مخصص لمدير المستودعات.</span><span class="sxs-lookup"><span data-stu-id="bd2d9-111">This procedure is intended for the warehouse manager.</span></span> 
 

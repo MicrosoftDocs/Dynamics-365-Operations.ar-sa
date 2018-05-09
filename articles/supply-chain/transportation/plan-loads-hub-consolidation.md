@@ -20,16 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 159410e7c1f04ee9a057c7d9dc9a2527c522b85b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7d6cb9f6bdf6aef9f356cd5af46eb9ab680ff068
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="plan-loads-using-hub-consolidation"></a><span data-ttu-id="6d1f5-103">تخطيط الأحمال باستخدام توحيد الموزِّعين</span><span class="sxs-lookup"><span data-stu-id="6d1f5-103">Plan loads using hub consolidation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6d1f5-104">تصف هذه المقالة ميزة توحيد الشحنات في الموزّع عند تسليم بضائع من مستودعات مختلفة إلى العميل نفسه، أو عند استلام بضائع من مورّدين متعددين في المستودع نفسه.</span><span class="sxs-lookup"><span data-stu-id="6d1f5-104">This article describes the feature for consolidating shipments in a hub when you deliver goods from different warehouses to the same customer, or when you receive goods from multiple vendors in the same warehouse.</span></span>
 

@@ -19,15 +19,15 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 66e4be092a7728f061cb9b09157712ffcf37c923
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5568482424f5afca6773fa66ca43691bcd1e95e2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="9a0c4-103">نظرة عامة على إدارة الإجازات والغياب</span><span class="sxs-lookup"><span data-stu-id="9a0c4-103">Leave and absence management overview</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="9a0c4-104">تقدم وحدة **إدارة الإجازات والغياب** إطار عمل مرنًا لتعريف عملية إدارة الغياب.</span><span class="sxs-lookup"><span data-stu-id="9a0c4-104">The **Leave and absence management** module offers a flexible framework for defining the absence management process.</span></span> <span data-ttu-id="9a0c4-105">يمكن إنشاء خطط الإجازات والغياب لتحديد كيفية استحقاق إجازات الموظفين أو كيفية منح الموظفين إجازة.</span><span class="sxs-lookup"><span data-stu-id="9a0c4-105">Leave and absence plans can be created to determine how employees accrue or are granted time off.</span></span> <span data-ttu-id="9a0c4-106">بعد تسجيل الموظفين في خطة، يمكنهم إرسال طلبات الإجازة للحصول على موافقة المدراء.</span><span class="sxs-lookup"><span data-stu-id="9a0c4-106">After employees are enrolled in a plan, they can submit time-off requests for approval by managers.</span></span> <span data-ttu-id="9a0c4-107">يسمح تعقب الإجازات للمدراء من المستوى الأول ومدراء الموارد البشرية بمعرفة الموظفين الذين حصلوا على إجازة، والوقت المتبقي لعودتهم للعمل.‬</span><span class="sxs-lookup"><span data-stu-id="9a0c4-107">Leave tracking lets both first-level managers and Human Resources (HR) managers see who is taking time off and how much time off each employee still has.</span></span>  
 

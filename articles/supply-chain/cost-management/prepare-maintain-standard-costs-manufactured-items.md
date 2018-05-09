@@ -20,17 +20,17 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 40bcde0a43386cfd9e55d96e4a1cbc82b47e8494
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9846f66997090de0219f59b4ba33efa15694ce8d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a><span data-ttu-id="a306a-103">الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة</span><span class="sxs-lookup"><span data-stu-id="a306a-103">Prepare to maintain standard costs for manufactured items</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a306a-104">يوضح هذا الموضوع خطوات الإعداد للحفاظ على التكاليف للأصناف المصنعة.</span><span class="sxs-lookup"><span data-stu-id="a306a-104">This topic describes the steps for preparing to maintain costs for manufactured items.</span></span> <span data-ttu-id="a306a-105">تختلف الخطوات الخاصة بالأصناف المصنعة اختلافًا طفيفًا عن الخطوات الخاصة بالأصناف التي تم شراؤها.</span><span class="sxs-lookup"><span data-stu-id="a306a-105">The steps for manufactured items differ slightly from the steps for purchased items.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c035f73fb35c6390be3c665c2645b1fdc411650
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a><span data-ttu-id="978c8-103">تعاون المورد مع موردين خارجيين</span><span class="sxs-lookup"><span data-stu-id="978c8-103">Vendor collaboration with external vendors</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="978c8-104">تستهدف الوحدة النمطية **تعاون المورد** الموردين ممن ليس لديهم تكامل التبادل الإلكتروني للبيانات (EDI) مع Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="978c8-104">The **Vendor collaboration** module is targeted at vendors who don't have electronic data interchange (EDI) integration with Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="978c8-105">حيث تسمح للموردين بالعمل مع معلومات أوامر الشراء (PO) والفواتير ومخزون الشحن، وطلبات عروض الأسعار (RFQ) ويتيح لهم كذلك الوصول إلى أجزاء من البيانات الرئيسية للمورد.</span><span class="sxs-lookup"><span data-stu-id="978c8-105">It lets vendors work with purchase orders (POs), invoices, consignment inventory information, and requests for quotation (RFQs), and also lets them access parts of their vendor master data.</span></span> <span data-ttu-id="978c8-106">يشرح هذا الموضوع كيف يمكنك التعاون مع الموردين الخارجيين الذين يستخدمون واجهة تعاون المورد للعمل مع أوامر الشراء (PO) ومخزون الشحن (RFQ).</span><span class="sxs-lookup"><span data-stu-id="978c8-106">This topic explains how you can collaborate with external vendors who use the vendor collaboration interface to work with POs, RFQs, and consignment inventory.</span></span> <span data-ttu-id="978c8-107">ويشرح أيضًا كيفية تمكين مورد معين من استخدام واجهة تعاون المورد، وكيفية تعريف المعلومات التي ستظهر لكافة الموردين، عند استجابتهم لأمر شراء.</span><span class="sxs-lookup"><span data-stu-id="978c8-107">It also explains how to enable a specific vendor to use vendor collaboration, and how to define the information that all vendors see when they respond to a PO.</span></span>
 

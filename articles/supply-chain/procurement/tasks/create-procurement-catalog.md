@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 66c0f41e1c98cf84b6a0afff5ee55e7c15fecd2d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2bda068c71b768eb0caadfdbf8b4fe5620bd8eea
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-procurement-catalog"></a><span data-ttu-id="e4ea9-103">إنشاء كتالوج تدبير</span><span class="sxs-lookup"><span data-stu-id="e4ea9-103">Create a procurement catalog</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e4ea9-104">يوضح هذا الدليل كيفية إنشاء كتالوج التدبير.</span><span class="sxs-lookup"><span data-stu-id="e4ea9-104">This guide shows you how to create a procurement catalog.</span></span> <span data-ttu-id="e4ea9-105">يقوم أخصائي التدبير عادةً بتنفيذ هذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="e4ea9-105">This task would typically be carried out by a procurement professional.</span></span> <span data-ttu-id="e4ea9-106">ستتعلم أيضًا كيف يستخدم الموظفون الكتالوج عند إنشاء طلب.</span><span class="sxs-lookup"><span data-stu-id="e4ea9-106">You will also learn how employees can use the catalog when they create a requisition.</span></span> <span data-ttu-id="e4ea9-107">قبل إنشاء كتالوج، من الضروري وجود تدرج هرمي لفئات التدبير في النظام.</span><span class="sxs-lookup"><span data-stu-id="e4ea9-107">Before you can create a catalog, there must be a procurement category hierarchy in your system.</span></span> <span data-ttu-id="e4ea9-108">يتوارث الكتالوج الجديد التدرج الهرمي، إلى جانب جميع المنتجات الموجودة في التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="e4ea9-108">The hierarchy is inherited by the new catalog, along with all the products that are in the hierarchy.</span></span> <span data-ttu-id="e4ea9-109">يمكن استخدام هذا الدليل في شركة بيانات العرض التوضيحي USMF حيث يتوفر التدرج الهرمي لفئات التدبير، بالإضافة إلى الأمثلة المستخدمة في خطوات الإجراء.</span><span class="sxs-lookup"><span data-stu-id="e4ea9-109">You can use this guide in demo data company USMF where the procurement category hierarchy is available, as well as the examples used in the procedure steps.</span></span>
 

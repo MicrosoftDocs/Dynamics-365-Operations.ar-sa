@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 30bff74da8399ddc15f2bc84e83887c8b5e60570
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 09a5bbe7601248fd2635fda4a0d87973a6e1ceba
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="e9def-103">إعداد الحد الأدنى والحد الأقصى لعملية التزويد</span><span class="sxs-lookup"><span data-stu-id="e9def-103">Set up a min-max replenishment process</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e9def-104">يوضح هذا الإجراء كيفية إعداد عملية تزويد جديدة تستخدم استراتيجية الحد الأدنى/الحد الأقصى لعملية التزويد.</span><span class="sxs-lookup"><span data-stu-id="e9def-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="e9def-105">عندما يصبح المخزون أقل من الحد الأدنى، سيتم إنشاء العمل لتزويد الموقع.</span><span class="sxs-lookup"><span data-stu-id="e9def-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="e9def-106">يوضح الإجراء أيضًا كيفية استخدام مواقع انتقاء ثابتة للسماح بإعادة التخزين إذا كان المخزون أقل من مستوى الحد الأدنى، وكيفية تمكين عملية التزويد للتشغيل بانتظام باستخدام وظيفة مجموعة.</span><span class="sxs-lookup"><span data-stu-id="e9def-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="e9def-107">وعادة ما تُنفذ هذه المهام عن طريق مدير مستودع.</span><span class="sxs-lookup"><span data-stu-id="e9def-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="e9def-108">يمكنك تشغيل هذا الإجراء في شركة بيانات العرض التوضيحي USMF باستخدام قيم المثال في الملاحظات أو يمكن تشغيله على البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="e9def-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="e9def-109">إذا كنت تستخدم البيانات الخاصة بك، فتأكد من حصولك على مستودع يتم تمكينه لعمليات إدارة المستودع.</span><span class="sxs-lookup"><span data-stu-id="e9def-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 

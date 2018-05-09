@@ -18,14 +18,14 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8f9d287f5d2134d26296c1302a9c18505c426db3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 52b5362764d95ee3e82bbb5781aa9bc6e4586b0f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="ec64e-103">تأكيد المنتج لانتقاء نظام المجموعة</span><span class="sxs-lookup"><span data-stu-id="ec64e-103">Product confirmation for cluster picking</span></span>
 <span data-ttu-id="ec64e-104">يسمح لك انتقاء نظام المجموعة بانتقاء الأصناف لأوامر متعددة في نفس الوقت.</span><span class="sxs-lookup"><span data-stu-id="ec64e-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="ec64e-105">عند تطبيق انتقاء نظام المجموعة، يُعد تأكيد الصنف أمرًا هامًا للتحقق من الأصناف التي تمت إضافتها إلى نظم المجموعات.</span><span class="sxs-lookup"><span data-stu-id="ec64e-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="ec64e-106">يمكنك التحقق من الأصناف في انتقاء نظام المجموعة خلال عملية انتقاء نظام المجموعة.</span><span class="sxs-lookup"><span data-stu-id="ec64e-106">You can verify items in cluster picking during the cluster picking process.</span></span>

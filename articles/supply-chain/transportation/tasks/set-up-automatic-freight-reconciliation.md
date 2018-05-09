@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 69e2a11d3a8c51d11c4c53e76359e07be1ec5402
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8483ff0264ea04777c118b80cc6372b882655394
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a><span data-ttu-id="17a13-103">إعداد تسوية الشحن التلقائية</span><span class="sxs-lookup"><span data-stu-id="17a13-103">Set up automatic freight reconciliation</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="17a13-104">يوضح هذا الإجراء كيفية إعداد البيانات لتسوية الشحن التلقائية.</span><span class="sxs-lookup"><span data-stu-id="17a13-104">This procedure shows how to set up data for automatic freight reconciliation.</span></span> <span data-ttu-id="17a13-105">عادة ما يتم تنفيذ هذه العملية عن طريق مدير المستودع.</span><span class="sxs-lookup"><span data-stu-id="17a13-105">This is typically done by a warehouse manager.</span></span> <span data-ttu-id="17a13-106">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="17a13-106">You can use this procedure in demo data company USMF.</span></span>
 

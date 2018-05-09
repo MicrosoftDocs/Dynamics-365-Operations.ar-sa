@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5ea5b8bbc5c9f932179b48c1d6539c578f992254
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ab6abfd37e71cc52f929a33befb58154ad5b6d48
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="direct-deliveries"></a><span data-ttu-id="f1d1d-104">عمليات التسليم المباشرة</span><span class="sxs-lookup"><span data-stu-id="f1d1d-104">Direct deliveries</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f1d1d-105">يوفر هذا المقال معلومات حول عمليات التسليم المباشرة‬.</span><span class="sxs-lookup"><span data-stu-id="f1d1d-105">This article provides information about direct deliveries.</span></span> <span data-ttu-id="f1d1d-106">عمليات التسليم المباشرة‬ عبارة عن عمليات تسليم يتم إرسالها من المورّد إلى عمليك بشكل مباشر.</span><span class="sxs-lookup"><span data-stu-id="f1d1d-106">Direct deliveries are deliveries that are sent directly from the vendor to your customer.</span></span>
 

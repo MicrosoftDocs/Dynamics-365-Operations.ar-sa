@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d3de34eeef042cb3f283ee53579b199c6a4c9091
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="13782-104">أسس التوزيع</span><span class="sxs-lookup"><span data-stu-id="13782-104">Allocation bases</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="13782-105">يمثل أساس التخصيص ذلك الأساس الذي تقوم محاسبة التكاليف بتخصيص التكاليف الإضافية على أساسه.</span><span class="sxs-lookup"><span data-stu-id="13782-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="13782-106">يمكن أن يكون أساس التخصيص كمية، مثل ساعات الأجهزة المستخدمة، أو ساعات الكيلووات (كيلووات) التي يتم استهلاكها، أو القدم المربع الذي يتم شغله.</span><span class="sxs-lookup"><span data-stu-id="13782-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="13782-107">غالبًا ما تستخدم أسس التوزيع لتعيين التكاليف الإضافية إلى المخزون الذي يتم إنتاجه.</span><span class="sxs-lookup"><span data-stu-id="13782-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="13782-108">على سبيل المثال، يخصص قسم تكنولوجيا المعلومات نفقاته وفقًا لعدد أجهزة الكمبيوتر التي يستخدمها كل قسم.</span><span class="sxs-lookup"><span data-stu-id="13782-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 

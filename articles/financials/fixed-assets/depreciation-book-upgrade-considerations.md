@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dfba6a237548d962bd3677d20da3745f59638ede
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7093023713a81980010b8254708801b58bc68475
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="depreciation-book-upgrade-overview"></a><span data-ttu-id="a3c10-105">نظرة عامة حول ترقية دفتر الإهلاك</span><span class="sxs-lookup"><span data-stu-id="a3c10-105">Depreciation book upgrade overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a3c10-106">في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك.</span><span class="sxs-lookup"><span data-stu-id="a3c10-106">In previous releases, there were two valuation concepts for fixed assets -  value models and depreciation books.</span></span> <span data-ttu-id="a3c10-107">في Microsoft Dynamics 365 for Operations (1611)، تم دمج وظيفة نموذج القيم ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر.</span><span class="sxs-lookup"><span data-stu-id="a3c10-107">In Microsoft Dynamics 365 for Operations (1611), the value model functionality and depreciation book functionality have been merged into a single concept that is known as a book.</span></span> <span data-ttu-id="a3c10-108">يوفر هذا الموضوع بعض الأشياء الواجب مراعاتها عند إجراء الترقية.</span><span class="sxs-lookup"><span data-stu-id="a3c10-108">This topic provides some things to consider for the upgrade.</span></span> 
 
@@ -62,24 +62,24 @@ ms.lasthandoff: 04/13/2018
 <span data-ttu-id="a3c10-145">توجد المحددات في بداية الفئة ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans class.</span><span class="sxs-lookup"><span data-stu-id="a3c10-145">The parameters are located at the beginning of the ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans class.</span></span> 
 
 <span data-ttu-id="a3c10-146">*// تحديد نهج مفضل لتوزيع الإيصالات* 
-*// صحيح,إذا أردت استخدام كود تسلسل رقمي موجود* 
-*// خطأ,إذا كنت تخطط لاستخدام التسلسل الرقمي المُعرّف من قبل النظام (افتراضي)* const boolean NumberSequenceUseExistingCode = false;</span><span class="sxs-lookup"><span data-stu-id="a3c10-146">*// Specify a preferable approach of vouchers allocation* 
-*// true, if you want to use an existing number sequence code* 
-*// false, if you intend to use the system-defined number sequence (default)* const boolean NumberSequenceUseExistingCode = false;</span></span>  
+ *// صحيح,إذا أردت استخدام كود تسلسل رقمي موجود* 
+ *// خطأ,إذا كنت تخطط لاستخدام التسلسل الرقمي المُعرّف من قبل النظام (افتراضي)* const boolean NumberSequenceUseExistingCode = false;</span><span class="sxs-lookup"><span data-stu-id="a3c10-146">*// Specify a preferable approach of vouchers allocation* 
+ *// true, if you want to use an existing number sequence code* 
+ *// false, if you intend to use the system-defined number sequence (default)* const boolean NumberSequenceUseExistingCode = false;</span></span>  
 
 <span data-ttu-id="a3c10-147">*//إذا كنت تستخدم نهج التسلسل الرقمي المُعرف من قبل النظام، فعيّن محددات للتسلسل الرقمي..*
-*// سيتم إنشاء تسلسل رقمي جديد مع هذه المحددات.*</span><span class="sxs-lookup"><span data-stu-id="a3c10-147">*// If using the system-defined number sequence approach, specify the parameters for the number sequence.*
-*// A new number sequence will be created with these parameters.*</span></span> <span data-ttu-id="a3c10-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span><span class="sxs-lookup"><span data-stu-id="a3c10-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span></span>   
+ *// سيتم إنشاء تسلسل رقمي جديد مع هذه المحددات.*</span><span class="sxs-lookup"><span data-stu-id="a3c10-147">*// If using the system-defined number sequence approach, specify the parameters for the number sequence.*
+ *// A new number sequence will be created with these parameters.*</span></span> <span data-ttu-id="a3c10-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span><span class="sxs-lookup"><span data-stu-id="a3c10-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span></span>   
 
 <span data-ttu-id="a3c10-149">*//إذا كنت تستخدم نهج التسلسل الرقمي الموجود، فحدد كود التسلسل الرقمي الموجود.* 
-*//سينتقل توزيع الإيصالات من صف إلى آخر للتسلسلات الرقمية الموجودة.*</span><span class="sxs-lookup"><span data-stu-id="a3c10-149">*// If using the existing number sequence approach, specify the existing number sequence code.* 
-*// Voucher allocation will go row-by-row for existing number sequences.*</span></span> <span data-ttu-id="a3c10-150">const str NumberSequenceExistingCode = ''; *// حدد نطاق رمز التسلسل الرقمي الموجود* 
-*// صحيح, إذا كان التسلسل الرقمي المحدد مشتركًأ* 
-*// خطأ, إذا كان التسلسل الرقمي المحدد حسب الشركة* 
-*// سيتم استخدام التسلسل الرقمي الافتراضي المُعرّف من قبل النظام إذا لم يتم العثور على كود تسلسل رقمي مع النطاق المحدد.*</span><span class="sxs-lookup"><span data-stu-id="a3c10-150">const str NumberSequenceExistingCode = ''; *// Specify the scope of the existing number sequence code* 
-*// true, if the specified number sequence is shared* 
-*// false, if the specified number sequence is per-company* 
-*// The default system-defined number sequence will be used if a number sequence code with the specified scope is not found.*</span></span> <span data-ttu-id="a3c10-151">const boolean NumberSequenceExistingIsShared = true;</span><span class="sxs-lookup"><span data-stu-id="a3c10-151">const boolean NumberSequenceExistingIsShared = true;</span></span> 
+ *//سينتقل توزيع الإيصالات من صف إلى آخر للتسلسلات الرقمية الموجودة.*</span><span class="sxs-lookup"><span data-stu-id="a3c10-149">*// If using the existing number sequence approach, specify the existing number sequence code.* 
+ *// Voucher allocation will go row-by-row for existing number sequences.*</span></span> <span data-ttu-id="a3c10-150">const str NumberSequenceExistingCode = ''; *// حدد نطاق رمز التسلسل الرقمي الموجود* 
+ *// صحيح, إذا كان التسلسل الرقمي المحدد مشتركًأ* 
+ *// خطأ, إذا كان التسلسل الرقمي المحدد حسب الشركة* 
+ *// سيتم استخدام التسلسل الرقمي الافتراضي المُعرّف من قبل النظام إذا لم يتم العثور على كود تسلسل رقمي مع النطاق المحدد.*</span><span class="sxs-lookup"><span data-stu-id="a3c10-150">const str NumberSequenceExistingCode = ''; *// Specify the scope of the existing number sequence code* 
+ *// true, if the specified number sequence is shared* 
+ *// false, if the specified number sequence is per-company* 
+ *// The default system-defined number sequence will be used if a number sequence code with the specified scope is not found.*</span></span> <span data-ttu-id="a3c10-151">const boolean NumberSequenceExistingIsShared = true;</span><span class="sxs-lookup"><span data-stu-id="a3c10-151">const boolean NumberSequenceExistingIsShared = true;</span></span> 
 
 <span data-ttu-id="a3c10-152">إعادة بناء المشروع الذي يحتوي على الفئة بعد تعديل الثوابت.</span><span class="sxs-lookup"><span data-stu-id="a3c10-152">Rebuild the project that contains the class after the constants have been modified.</span></span> 
 

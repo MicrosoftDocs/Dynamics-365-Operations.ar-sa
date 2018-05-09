@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 32951ffe0f0ee49c668394eb006bbfba8d4d431d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d01ab455786b9288bc244a8645bc13a43b002146
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchasing-policies"></a><span data-ttu-id="9bfd9-105">نُهُج الشراء</span><span class="sxs-lookup"><span data-stu-id="9bfd9-105">Purchasing policies</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9bfd9-106">توفر هذه المقالة معلومات حول نُهج الشراء.</span><span class="sxs-lookup"><span data-stu-id="9bfd9-106">This article provides information about purchasing policies.</span></span> <span data-ttu-id="9bfd9-107">وتُعد نُهج الشراء بمثابة مجموعة من القواعد تتحكم بعملية الطلب.</span><span class="sxs-lookup"><span data-stu-id="9bfd9-107">A purchasing policy is a collection of rules that control the requisition process.</span></span> <span data-ttu-id="9bfd9-108">وتساعد نُهج الشراء مسؤولي التدبير في تنفيذ استراتيجية التدبير الخاصة بهم عن طريق إنشاء هيكل سياسة يتماشى مع متطلبات الشراء الاستراتيجية للمؤسسة.</span><span class="sxs-lookup"><span data-stu-id="9bfd9-108">Purchasing policies help procurement administrators implement their procurement strategy by creating a policy structure that is aligned with the organization’s strategic purchasing requirements.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d57f3138f5a456c85550baf1eb18b4f99733a3d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f05020dfde0b985faf3a6b9dc72f94a6d87e7968
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a><span data-ttu-id="1993e-103">تحويل عملات المحاسبة أو التقارير</span><span class="sxs-lookup"><span data-stu-id="1993e-103">Convert accounting or reporting currencies</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1993e-104">أمام الشركة التي يجب عليها تغيير عملة المحاسبة أو عملة التقارير خياران.</span><span class="sxs-lookup"><span data-stu-id="1993e-104">A company that must change its accounting currency or reporting currency has two options.</span></span> <span data-ttu-id="1993e-105">الخيار الأول هو إنشاء شركة جديدة والبدء من جديد.</span><span class="sxs-lookup"><span data-stu-id="1993e-105">The first option is to create a new company and start fresh.</span></span> <span data-ttu-id="1993e-106">الخيار الثاني هو تشغيل عملية تحويل عملة المحاسبة والتقارير.</span><span class="sxs-lookup"><span data-stu-id="1993e-106">The second option is to run the accounting and reporting currency conversion process.</span></span> <span data-ttu-id="1993e-107">هذه عملية تشغيل لفترة طويلة جداً تغير كل حركة في النظام.</span><span class="sxs-lookup"><span data-stu-id="1993e-107">This is a very long-running process that changes every transaction in the system.</span></span> <span data-ttu-id="1993e-108">مطلوب أيضًا بعض الإعداد قبل أن يمكن تشغيل العملية.</span><span class="sxs-lookup"><span data-stu-id="1993e-108">Some setup is also required before the process can be run.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5f795f8d3c31c9acdbddd94879dbd427145956c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3b70bdf110a1bcf27a73dea3f593c6f6a4cbf5ea
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="ec095-103">إنشاء قاعدة كانبان باستخدام حدث الحد الأدنى للمخزون</span><span class="sxs-lookup"><span data-stu-id="ec095-103">Create a kanban rule using a minimum stock event</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ec095-104">يركز هذا الإجراء على الإعداد المطلوب لإنشاء قاعدة كانبان باستخدام حدث مخزون الحد أدنى لضمان توفر منتج معين في موقع معين في كل الأوقات.</span><span class="sxs-lookup"><span data-stu-id="ec095-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="ec095-105">يتم إنشاء قاعدة كانبان لتحويل المواد إلى الموقع عندما ينخفض مستوى المخزون إلى أقل من 200 قطعة.</span><span class="sxs-lookup"><span data-stu-id="ec095-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="ec095-106">من خلال تشغيل معالجة حدث تثبيت السعر، يتم إنشاء كانبان المطلوب.</span><span class="sxs-lookup"><span data-stu-id="ec095-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="ec095-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="ec095-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="ec095-108">هذه المهمة مخصصة لمهندس العمليات أو مدير تدفق القيم عند قيامه بتحضير عملية إنتاج منتج جديد أو معدل في بيئة محدودة.</span><span class="sxs-lookup"><span data-stu-id="ec095-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 

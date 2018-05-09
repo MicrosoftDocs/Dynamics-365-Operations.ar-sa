@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3c5c8f8b01b1e48856b45e3c81df5671a1a36935
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2ba2412d81fa6b0a60ff18c9fe065882c864f01c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-sales-tax-authorities"></a><span data-ttu-id="739e1-103">إعداد هيئات ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="739e1-103">Set up sales tax authorities</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="739e1-104">إن هيئات ضريبة المبيعات‬ هي كيانات حيث يجب الإبلاغ عن ضريبة المبيعات المحصلة ودفعها.</span><span class="sxs-lookup"><span data-stu-id="739e1-104">Sales tax authorities are entities to which collected sales tax needs to be reported and paid.</span></span> <span data-ttu-id="739e1-105">يمكنك دفع ضرائب المبيعات للهيئة مباشرة أو من خلال حساب مورّد تقوم بإنشائه لهيئة ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="739e1-105">You can pay sales taxes to the authority directly or through a vendor account that you create for the sales tax authority.</span></span> <span data-ttu-id="739e1-106">إذا قمت بذلك، فيمكن للشركة استخدام طرق الدفع المعتادة الخاصة بها للدفع إلى هيئة ضريبة المبيعات في الوقت المناسب.</span><span class="sxs-lookup"><span data-stu-id="739e1-106">If you do this, the company can use its usual payment routines to pay the sales tax authority on time.</span></span> <span data-ttu-id="739e1-107">إذا لم تقم بإعداد هيئة الضرائب كمورّد، فيجب على الشخص الدفع يدويًا لهيئة الضرائب في تاريخ الاستحقاق المناسب.</span><span class="sxs-lookup"><span data-stu-id="739e1-107">If you do not set up the tax authority as a vendor, someone must prepare a manual payment to the tax authority on the appropriate due date.</span></span> <span data-ttu-id="739e1-108">تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="739e1-108">This task uses the USMF demo company.</span></span>
 

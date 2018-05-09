@@ -17,15 +17,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bd8110b4d525f3d67f3315b26e0f4bcbc510336b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 901920f52b589955001b29e6cbb0ea61f9193f3e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-working-time-templates"></a><span data-ttu-id="14dfd-103">إنشاء قوالب مواعيد العمل</span><span class="sxs-lookup"><span data-stu-id="14dfd-103">Create working time templates</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="14dfd-104">تعرف قوالب أوقات العمل ساعات العمل خلال أسبوع ويتم استخدامها لإنشاء أوقات العمل لفترة من الوقت.</span><span class="sxs-lookup"><span data-stu-id="14dfd-104">Working time templates define the working hours throughout a week and are used to generate working times for a period of time.</span></span> <span data-ttu-id="14dfd-105">يوضح هذا الإجراء كيفية تعريف قالب أوقات عمل باستخدام خصائص جدولة أوقات العمل لتصنيف الفواصل الزمنية لأوقات العمل.</span><span class="sxs-lookup"><span data-stu-id="14dfd-105">This procedure shows you how to define a working time template using working time scheduling properties for categorizing working time intervals.</span></span> <span data-ttu-id="14dfd-106">يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="14dfd-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 

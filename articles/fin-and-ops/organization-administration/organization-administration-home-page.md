@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 92c3487e7174497cd77e6685f5ed9ea2bc675d2a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d0f24fd57c98a6323b617a3e8b5d4a5a3710c33d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="organization-administration-home-page"></a><span data-ttu-id="083f9-103">الصفحة الرئيسية لإدارة المؤسسة</span><span class="sxs-lookup"><span data-stu-id="083f9-103">Organization administration home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="083f9-104">يشير هذا الموضوع إلى المحتوى الذي سيساعد المستخدمين والمسؤولين المحترفين على تكوين Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="083f9-104">This topic points to content that will help power users and administrators configure Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="083f9-105">سوف يساعدهم هذا المحتوى على تكوين النظام لكي يعمل بطريقة سلسة وفعالة لمؤسستك وأعمالك.</span><span class="sxs-lookup"><span data-stu-id="083f9-105">This content will help them configure the system to work smoothly and effectively for your organization and business.</span></span>
 

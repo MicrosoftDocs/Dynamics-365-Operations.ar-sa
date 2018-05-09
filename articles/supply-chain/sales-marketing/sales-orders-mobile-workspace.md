@@ -19,16 +19,16 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a02c435814e446c6ee5a25ed75e1359455b8f6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="67228-104">مساحة العمل المحمولة لأوامر المبيعات</span><span class="sxs-lookup"><span data-stu-id="67228-104">Sales orders mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="67228-105">يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **أوامر المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="67228-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="67228-106">تسمح لك مساحة العمل هذه بالبقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان.</span><span class="sxs-lookup"><span data-stu-id="67228-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 

@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 933875f56b0f47990cb1cb767f84b23b9c9710d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ff11cf7b23c48675b108d7d03d241fcec2cb792a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a><span data-ttu-id="c3db3-103">البحث في المخزون في نقطة البيع</span><span class="sxs-lookup"><span data-stu-id="c3db3-103">Inventory lookup in the Point of Sale</span></span> 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="c3db3-104">ويساعد البحث في المخزون في نقطة البيع (POS) بائعي التجزئة على تحقيق التفوق العملي في الوقت الحقيقي واكتساب رؤى عن طريق توصيل المتاجر ونقطة البيع ومكتب الدعم.</span><span class="sxs-lookup"><span data-stu-id="c3db3-104">Inventory lookup in the point of sale (POS) helps retailers achieve real-time operational excellence and gain insights by connecting stores, the POS, and the back office.</span></span> <span data-ttu-id="c3db3-105">توفر هذه الوظيفة عرضًا دقيقًا لمخزون المنتج في الوقت الحقيقي عبر المتاجر ومراكز التوزيع.</span><span class="sxs-lookup"><span data-stu-id="c3db3-105">This functionality provides an accurate real-time view of product inventory across stores and distribution centers.</span></span> <span data-ttu-id="c3db3-106">كما تساعد تجار التجزئة على تحقيق الفعاليات الإضافية ووفورات التكلفة عن طريق تحسين مستوى تخطيط المخزون في الوقت الحقيقي.</span><span class="sxs-lookup"><span data-stu-id="c3db3-106">It also helps retailers drive additional efficiencies and cost savings by improving inventory planning in real time.</span></span>
 

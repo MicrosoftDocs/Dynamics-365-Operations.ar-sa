@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 134642ff2eed988c137e7d0ecc8b0da77684f8c7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0d0e5c5d680fcbac5407883a1d6365a4f312dda9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-new-trade-agreement"></a><span data-ttu-id="f7e17-103">إنشاء اتفاقية تجارية جديدة</span><span class="sxs-lookup"><span data-stu-id="f7e17-103">Create a new trade agreement</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f7e17-104">يوضح لك هذا الإجراء كيفية إنشاء اتفاقية تجارة يتم فيها تسجيل منتج سعر جديد لمبيعات المنتجات اتفقتَ عليه مع عميل معين.</span><span class="sxs-lookup"><span data-stu-id="f7e17-104">This procedure shows you how to create a trade agreement where you register a new product sales price that you've agreed with a specific customer.</span></span> <span data-ttu-id="f7e17-105">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="f7e17-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="f7e17-106">إذا كنت تستخدم البيانات الخاصة بك، قبل أن تبدأ استخدام هذا الدليل فأنت بحاجة إلى أن تتأكد من وجود اسم لدفتر يومية اتفاقيات التجارة حيث يتم تعيين العلاقة الافتراضية إلى "السعر (مبيعات)".</span><span class="sxs-lookup"><span data-stu-id="f7e17-106">If you’re using your own data, before you start this guide you need to make sure that a Trade agreement journal name exists where the Default relation is set to “Price (sales)”.</span></span>
 

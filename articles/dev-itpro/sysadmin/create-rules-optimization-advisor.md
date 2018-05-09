@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 943239c7d57b4a438c405f1ad0551db29d7a8145
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e78427dacb0d2adfd0334115581d5a5a9cfd2921
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-rules-for-optimization-advisor"></a><span data-ttu-id="de7f4-103">إنشاء قواعد لمرشد تحسين الأداء</span><span class="sxs-lookup"><span data-stu-id="de7f4-103">Create rules for Optimization advisor</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="de7f4-104">يوضح هذا الموضوع كيفية إنشاء القواعد الجديدة لـ **مرشد تحسين الأداء**.</span><span class="sxs-lookup"><span data-stu-id="de7f4-104">This topic explains how to create new rules for **Optimization advisor**.</span></span> <span data-ttu-id="de7f4-105">على سبيل المثال، يمكنك إنشاء قاعدة جديدة لتحديد حالات طلبات عروض الأسعار‬ (RFQ) التي تشتمل على عنوان فارغ.</span><span class="sxs-lookup"><span data-stu-id="de7f4-105">For example, you can create a new rule that identifies which Request for Quotations (RFQ) cases have an empty title.</span></span> <span data-ttu-id="de7f4-106">استخدام العناوين في الحالات يجعل من السهل تحديدها والبحث عنها.</span><span class="sxs-lookup"><span data-stu-id="de7f4-106">Using titles on cases makes them easily identifiable and searchable.</span></span> <span data-ttu-id="de7f4-107">بينما هذا المثال بسيط جدًا، يوضح ما يمكن تحقيقه باستخدام قواعد تحسين الأداء.</span><span class="sxs-lookup"><span data-stu-id="de7f4-107">While quite simple, this example shows what can be achieved with optimization rules.</span></span> 
 

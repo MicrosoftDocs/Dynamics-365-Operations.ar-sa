@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ba4c7b8ca5da5956340046932cd097ef3c7f0278
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f6d560895e097c7b5a5b106c264f868cf9f98e04
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="lifo-date-with-physical-value-and-marking"></a><span data-ttu-id="999b1-106">تاريخ ما يرد أخيرًا يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز</span><span class="sxs-lookup"><span data-stu-id="999b1-106">LIFO Date with physical value and marking</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="999b1-107">تاريخ ما يرد أخيرًا يصرف أولاً‬ (تاريخ LIFO) هو نموذج مخزون مستند إلى مبدأ LIFO.</span><span class="sxs-lookup"><span data-stu-id="999b1-107">Last in, First out Date (LIFO Date) is an inventory model based on the LIFO principle.</span></span> <span data-ttu-id="999b1-108">وتتم تسوية الإصدارات من المخزون في مقابل عمليات الاستلام الأخيرة في المخزون، استنادًا إلى تاريخ حركة المخزون‬.</span><span class="sxs-lookup"><span data-stu-id="999b1-108">Issues from inventory are settled against the last receipts into inventory based on the date of the inventory transaction.</span></span> <span data-ttu-id="999b1-109">ومن خلال استخدام تاريخ LIFO، إذا لم يوجد أية عملية استلام قبل عملية الإصدار، فستتم تسوية عملية الإصدار مقابل أية عمليات استلام تحدث بعد تاريخ الإصدار.</span><span class="sxs-lookup"><span data-stu-id="999b1-109">By using LIFO Date, if there is no receipt before the issue, the issue is settled against any receipts that occur after the date of the issue.</span></span> <span data-ttu-id="999b1-110">وقد يتم تسوية عمليات إصدار عديدة في نفس التاريخ حسب ترتيب عملية الإصدار الأخيرة، وعملية الاستلام الأخيرة.</span><span class="sxs-lookup"><span data-stu-id="999b1-110">Several issues on the same date may be settled in the order of last issue, last receipt.</span></span> 
 

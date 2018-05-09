@@ -20,16 +20,16 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f6a0922ebd0d2436715f0d1a1cc5d99876427f1
-ms.openlocfilehash: 3449c24bb90478ee2ba3c042f551e1de8709e86c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ede2952cac4f4aba9e1a65ed790ea1ae7a264817
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-resources"></a><span data-ttu-id="f7886-104">موارد Operations</span><span class="sxs-lookup"><span data-stu-id="f7886-104">Operations resources</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f7886-105">تنفذ موارد العمليات أنشطة مشروع أو عملية إنتاج.</span><span class="sxs-lookup"><span data-stu-id="f7886-105">Operations resources perform the activities of a project or a production process.</span></span> <span data-ttu-id="f7886-106">ويمكن أن تكون من أنواع مختلفة، وبقدرات مختلفة.</span><span class="sxs-lookup"><span data-stu-id="f7886-106">They can be of different types, and can have different capabilities.</span></span> 
 

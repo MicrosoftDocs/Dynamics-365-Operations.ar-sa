@@ -19,16 +19,16 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b055ae09e87434f9e43c558e2a43d0467d70aaed
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b7807a3c09bbc236f7f88d8372b2fa3a73038f0b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a><span data-ttu-id="4f875-103">نظرة عامة على البحث عن المنتجات والعملاء في نقطة البيع</span><span class="sxs-lookup"><span data-stu-id="4f875-103">Overview of product and customer search in Point of Sale</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="4f875-104">توفر نقطة البيع الحديثة (MPOS) ونقطة بيع المجموعة‬ (CPOS) ميزة بحث سهلة الاستخدام للمنتجات والعملاء.</span><span class="sxs-lookup"><span data-stu-id="4f875-104">Modern Point of Sale (MPOS) and Cloud Point of Sale (CPOS) provide easy-to-use search functionality for products and customers.</span></span> <span data-ttu-id="4f875-105">نظرًا لأن شريط البحث يقع دومًا في الجزء العلوي من نافذتي MPOS وCPOS، يستطيع الموظفون البحث بسرعة عن المنتجات والعملاء.</span><span class="sxs-lookup"><span data-stu-id="4f875-105">Because the search bar is always present at the top of the MPOS and CPOS windows, employees can quickly search for products and customers.</span></span>
 

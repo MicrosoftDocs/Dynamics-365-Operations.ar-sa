@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 36c3f9f0afe91c2326bafcbdcc636ae4b3406b01
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9994b527bde6d27060dabc2d422d1ce9187a3fb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a><span data-ttu-id="a7b1b-104">ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز</span><span class="sxs-lookup"><span data-stu-id="a7b1b-104">FIFO with physical value and marking</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="a7b1b-105">تعتبر قاعدة "ما يدخل أولاً يخرج أولاً" (FIFO) إحدى نماذج المخزون التي يتم فيها إصدار عمليات الاستلام الأولى المكتسبة أولاً.</span><span class="sxs-lookup"><span data-stu-id="a7b1b-105">First in, First out (FIFO) is an inventory model in which the first acquired receipts are issued first.</span></span> <span data-ttu-id="a7b1b-106">تتم تسوية الإصدارات المحدّثة ماليًا من المخزون مقابل عمليات الاستلام التي تم تحديثها ماليًا أولاً إلى المخزون وذلك بالاستناد إلى التاريخ المالي لحركة المخزون.</span><span class="sxs-lookup"><span data-stu-id="a7b1b-106">Financially updated issues from inventory are settled against the first financially updated receipts into inventory, based on the financial date of the inventory transaction.</span></span> 
 

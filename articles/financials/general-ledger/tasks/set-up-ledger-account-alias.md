@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ed79751e3e5753319935838235f3ae8664c3338d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d7a281d2d03c3af312d01fd7a6940ee7720b878b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-ledger-account-alias"></a><span data-ttu-id="2c498-103">إعداد اسم مستعار لحساب دفتر الأستاذ‬</span><span class="sxs-lookup"><span data-stu-id="2c498-103">Set up a ledger account alias</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2c498-104">يوضح هذا الإجراء كيفية إنشاء اسم مستعار لحساب يوفر اختصارًا لإدخال رقم حساب.</span><span class="sxs-lookup"><span data-stu-id="2c498-104">This procedure shows how to create an account alias that provides a shortcut for entering an account number.</span></span> <span data-ttu-id="2c498-105">يستخدم هذا الحساب شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="2c498-105">This procedure users demo data company USMF.</span></span>
 

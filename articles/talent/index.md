@@ -18,16 +18,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b0694d74eb5502ac7f1632b4015f78b2341a77e1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 749cbbf53e67798e1a8cfcda645c029cf05de7ce
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="welcome-to-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="44e82-104">مرحبًا بك في Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="44e82-104">Welcome to Microsoft Dynamics 365 for Talent</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="44e82-105">يعمل Microsoft Dynamics 365 for Talent على تبسيط العديد من المهام الروتينية المتعلقة بحفظ السجلات وعلى أتمتة عدد من العمليات المتعلقة بتعيين الموظفين في مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="44e82-105">Microsoft Dynamics 365 for Talent streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="44e82-106">تشمل هذه العمليات استبقاء الموظفين وإدارة الميزات والتدريب ومراجعات الأداء وإدارة التغييرات.</span><span class="sxs-lookup"><span data-stu-id="44e82-106">These processes include employee retention, benefits administration, training, performance reviews, and change management.</span></span> <span data-ttu-id="44e82-107">وهو يوفر أيضًا إطار عمل لموظفي الموارد البشرية لإدارة مجالات الرقابة.</span><span class="sxs-lookup"><span data-stu-id="44e82-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span>
 

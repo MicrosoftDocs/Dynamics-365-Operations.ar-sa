@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e92b5cd4d903a68d30f7c25fd7e3df8989bb82d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: da8b6c4ec7643ffd84713b4098b4ff35ab95a6b4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="f7810-103">تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫ </span><span class="sxs-lookup"><span data-stu-id="f7810-103">Define partial location cycle counting process</span></span> 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f7810-104">عندما تستخدم خطط الجرد الدوري لإنشاء عمل الجرد، يمكنك إرشاد عمليات الجرد الفعلية عن طريق طلب إجراء عمليات جرد لمنتجات ومتغيرات منتجات معينة فقط بدلاً من جر كل المخزون الفعلي في الموقع.</span><span class="sxs-lookup"><span data-stu-id="f7810-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="f7810-105">من خلال تصفية منتجات معينة، يستطيع مدير المستودع تقليل مصروفات المراجعة والمساعدة في أخطاء الدمج وتوفير الوقت.</span><span class="sxs-lookup"><span data-stu-id="f7810-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="f7810-106">يقوم مدير المستودع عادةً بتنفيذ مهام الإعداد هذه.</span><span class="sxs-lookup"><span data-stu-id="f7810-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="f7810-107">يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو في بياناتك.</span><span class="sxs-lookup"><span data-stu-id="f7810-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 

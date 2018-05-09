@@ -19,16 +19,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dd09a0cb965b1a5e17c58cdfbe4a3b9bf2b0086d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-configuration-models-overview"></a><span data-ttu-id="d0b4c-104">نظرة عامة على نماذج تكوين المنتجات</span><span class="sxs-lookup"><span data-stu-id="d0b4c-104">Product configuration models overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d0b4c-105">تصف هذه المقالة المصطلحات والمفاهيم المتعلقة بنماذج تكوين المنتجات.</span><span class="sxs-lookup"><span data-stu-id="d0b4c-105">This article defines terms and concepts that are relevant to product configuration models.</span></span> <span data-ttu-id="d0b4c-106">تسمح لك نماذج تكوين المنتجات بإنشاء بنية منتج عامة يمكن استخدامها لتكوين العديد من متغيرات المنتجات لمنتج واحد.</span><span class="sxs-lookup"><span data-stu-id="d0b4c-106">Product configuration models let you build a generic product structure that can be used to configure many product variants for a single product.</span></span>
 

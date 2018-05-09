@@ -19,16 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d5d9f7ff6b4d3ea764717240f9736a81c1aee6c1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 53433b4def5101ac4ebd3184a1ecdf2ad04adcf6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="accounting-source-explorer"></a><span data-ttu-id="a3591-103">مستكشف مصدر المحاسبة</span><span class="sxs-lookup"><span data-stu-id="a3591-103">Accounting source explorer</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a3591-104">توفر هذه المقالة معلومات حول مستكشف مصدر المحاسبة، الذي يمكنك استخدامه لإجراء تحليل مفصل للمعلومات المصدر خلف الإدخالات المحاسبية‬ في دفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="a3591-104">This article provides information about Accounting source explorer, which you can use for detailed analysis of the source information behind general ledger accounting entries.</span></span>
 

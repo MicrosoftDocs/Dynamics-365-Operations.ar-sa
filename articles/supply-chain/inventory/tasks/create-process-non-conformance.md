@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adecf9b2ea29abaee378f1c02c64551c3aeede6d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e73295698a17b7500db40820dd9603855810ca3a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-process-a-conformance"></a><span data-ttu-id="3fb76-103">إنشاء ومعالجته توافق</span><span class="sxs-lookup"><span data-stu-id="3fb76-103">Create and process a conformance</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3fb76-104">استخدم هذا الإجراء لتنفيذ إدارة عدم المطابقة استناداً إلى أمر جودة موجود.</span><span class="sxs-lookup"><span data-stu-id="3fb76-104">Use this procedure to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="3fb76-105">يمكنك تشغيل هذا التسجيل في شركة العرض التوضيحي USMF ويمكنك استخدام القيم المقترحة.</span><span class="sxs-lookup"><span data-stu-id="3fb76-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="3fb76-106">عادة ما يتم تنفيذ هذا الإجراء بواسطة كاتب جودة.</span><span class="sxs-lookup"><span data-stu-id="3fb76-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="3fb76-107">كشرط مسبق، قم بتشغيل تسجيل المهمة "فحص جودة البضاعة".</span><span class="sxs-lookup"><span data-stu-id="3fb76-107">As a prerequisite, run the “Inspect the quality of goods” task recording.</span></span> <span data-ttu-id="3fb76-108">لمعالجة اعتماد عدم المطابقة، يجب أن تكون للمستخدم الذي يقوم بتشغيل تسجيل المهمة قيمة "اسم" معينة بصفحة "المستخدمين".</span><span class="sxs-lookup"><span data-stu-id="3fb76-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="3fb76-109">لاستخدام ملاحظات المستند، يجب أيضًا تنشيط "معالجة المستندات" للمستخدم في خيارات المستخدم.</span><span class="sxs-lookup"><span data-stu-id="3fb76-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
 

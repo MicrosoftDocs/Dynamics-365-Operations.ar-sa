@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6de8dbd33a02183ee8bafca720c3738e8eac44e8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fcf4ebcb8a9c27961e250177d4254f28aaefc883
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="e9dd8-103">إعداد فترات تسوية ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="e9dd8-103">Set up sales tax settlement periods</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e9dd8-104">تحتوي فترات تسوية ضرائب المبيعات على معلومات عن الفترات الزمنية التي يجب خلالها الإبلاغ عن الضرائب ودفعها.</span><span class="sxs-lookup"><span data-stu-id="e9dd8-104">Sales tax settlement periods contain information about the period intervals for which sales tax needs to be reported and paid.</span></span> <span data-ttu-id="e9dd8-105">يمكن تشغيل عملية التسوية لفترة تسوية وفترة تاريخ محددة.</span><span class="sxs-lookup"><span data-stu-id="e9dd8-105">A settlement process can be run for a settlement period for a specific date interval.</span></span> <span data-ttu-id="e9dd8-106">وستتم تسوية كافة أكواد الضرائب المقترنة بفترة التسوية.</span><span class="sxs-lookup"><span data-stu-id="e9dd8-106">All tax codes associated with the settlement period will be settled.</span></span> <span data-ttu-id="e9dd8-107">بالاستناد إلى إعداد هيئة ضريبة المبيعات ذات الصلة، يتم ترحيل الالتزام الضريبي إما إلى حساب مورّد أو حساب دفتر أستاذ عام.</span><span class="sxs-lookup"><span data-stu-id="e9dd8-107">Depending on the set up of the related Sales tax authority, the tax liability is posted either to a vendor or a General ledger account.</span></span>
 

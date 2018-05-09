@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 90deb42e8443d6d1ee7edbdfcedf4513c28a3bf1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1aca5e44c1d4f5eb7777cda1ef7683e9a5b1644
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a><span data-ttu-id="3665b-103">تحديد وحل التعارضات في الفصل بين المهام</span><span class="sxs-lookup"><span data-stu-id="3665b-103">Identify and resolve conflicts in segregation of duties</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3665b-104">يمكنك إعداد قواعد لفصل المهام التي يجب تنفيذها بواسطة مستخدمين مختلفين.</span><span class="sxs-lookup"><span data-stu-id="3665b-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="3665b-105">يسمى هذا المفهوم الفصل بين المهام.</span><span class="sxs-lookup"><span data-stu-id="3665b-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="3665b-106">عندما يخالف تعريف دور أمان أو تعيينات أدوار لأحد المستخدمين القواعد، سيتم تسجيل التعارض.</span><span class="sxs-lookup"><span data-stu-id="3665b-106">When the definition of a security role or the role assignments of a user violate the rules, the conflict is logged.</span></span> <span data-ttu-id="3665b-107">يجب حل جميع التعارضات بواسطة المسؤول.</span><span class="sxs-lookup"><span data-stu-id="3665b-107">All conflicts must be resolved by the administrator.</span></span> <span data-ttu-id="3665b-108">أكمل الإجراء التالي لتحديد التعارضات وحلها.</span><span class="sxs-lookup"><span data-stu-id="3665b-108">Complete the following procedure to identify and resolve conflicts.</span></span> <span data-ttu-id="3665b-109">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="3665b-109">The demo data company used to create this procedure is USMF.</span></span>
 

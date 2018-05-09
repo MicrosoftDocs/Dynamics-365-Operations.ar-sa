@@ -18,16 +18,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5fcf299cbf0a5e334ab4f30e19a563b586753dfe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 86de46818abc6ea653076c2a6f38c40bbaab18d8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a><span data-ttu-id="39307-104">إعداد الأمان لمحتوى Power BI - تحليل محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="39307-104">Set up security for the Cost accounting analysis Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="39307-105">يشرح هذا المقال كيفية نشر مستوى الوصول الآمن في محاسبة التكاليف إلى الأمان على مستوى الصف في Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="39307-105">This topic explains how you can propagate the access-level security in Cost accounting to row-level security in Microsoft Power BI.</span></span> <span data-ttu-id="39307-106">تضمن هذه الوظيفة ألا يشاهد المستخدم سوى بيانات Power BI التي مُنح إمكانية الوصول لها.</span><span class="sxs-lookup"><span data-stu-id="39307-106">This functionality helps guarantee that users see only Power BI data that they are granted access to.</span></span>
 

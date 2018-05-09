@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 162b6d660fb5ec8df79dc44b89dea87d877c6470
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1cecc57bbcac4a8b9d2bfc009499d567d2569c84
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a><span data-ttu-id="61950-103">إصدار قائمة مكونات الصنف وبنود المعادلة إلى المستودع</span><span class="sxs-lookup"><span data-stu-id="61950-103">Release BOM and formula lines to the warehouse</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="61950-104">يصف هذا الموضوع عملية إصدار المواد الخام لبنود قائمة مكونات الصنف وبنود المعادلة للمستودع.</span><span class="sxs-lookup"><span data-stu-id="61950-104">This topic describes the process for releasing raw material for bill of materials (BOM) lines and formula lines to the warehouse.</span></span> <span data-ttu-id="61950-105">عندما تقوم بإصدار قائمة مكونات الصنف أو بند المعادلة للمستودع، فسوف يقوم النظام أولًا بتحديد ما إذا كانت المواد متوفرة فعلًا في موقع إدخال إنتاج حالة العمل حيث سيتم استهلاك المادة لعملية الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="61950-105">When you release a BOM or formula line to the warehouse, the system first determines whether material is already available at the production input location on the shop floor where the material will be consumed for the production process.</span></span>
 
@@ -62,9 +62,9 @@ ms.lasthandoff: 04/13/2018
 
 ### <a name="batch-job-setup"></a><span data-ttu-id="61950-157">إعداد مهمة دّفعة</span><span class="sxs-lookup"><span data-stu-id="61950-157">Batch job setup</span></span>
 
-<span data-ttu-id="61950-158">في الاستعلام عن مهمة الدّفعة **الإصدار التلقائي لقائمة مكونات الصنف وبنود المعادلة**، يمكن تعيين معيار عمل تصفية لتحديد عدد الأيام قبل أن تقوم الوظيفة بالبحث عن البنود التي يوجد بها كميات غير مُصدرة.</span><span class="sxs-lookup"><span data-stu-id="61950-158">In the query for the **Automatic release of BOM and formula lines** batch job, you can set up a filter criterion to specify how many days ahead the job should look for lines that have unreleased quantities.</span></span> <span data-ttu-id="61950-159">في الاستعلام الخاص بالوظيفة، في حقل **تاريخ المادة الخام**، استخدم  وظيفة**(LessThanDate())** كمعيار لعامل التصفية.</span><span class="sxs-lookup"><span data-stu-id="61950-159">In the query for the job, in the **Raw material date** field, use the **(LessThanDate())** function as a filter criterion.</span></span>
+<span data-ttu-id="61950-158">في الاستعلام عن مهمة الدّفعة **الإصدار التلقائي لقائمة مكونات الصنف وبنود المعادلة**، يمكن تعيين معيار عمل تصفية لتحديد عدد الأيام قبل أن تقوم الوظيفة بالبحث عن البنود التي يوجد بها كميات غير مُصدرة.</span><span class="sxs-lookup"><span data-stu-id="61950-158">In the query for the **Automatic release of BOM and formula lines** batch job, you can set up a filter criterion to specify how many days ahead the job should look for lines that have unreleased quantities.</span></span> <span data-ttu-id="61950-159">في الاستعلام الخاص بالوظيفة، في حقل **تاريخ المادة الخام**، استخدم  وظيفة **(LessThanDate())** كمعيار لعامل التصفية.</span><span class="sxs-lookup"><span data-stu-id="61950-159">In the query for the job, in the **Raw material date** field, use the **(LessThanDate())** function as a filter criterion.</span></span>
 
-<span data-ttu-id="61950-160">يبين التوضيح التالي أمر الإنتاج الذي يوجد به وظيفتين، 10 و20، والتي تشمل التجميع والتعبئة لأمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="61950-160">The following illustration shows a production order that has two jobs, 10 and 20, that cover the assembly and packing for the production order.</span></span> <span data-ttu-id="61950-161">يتم إعداد كل وظيفة لاستهلاك كمية المواد.</span><span class="sxs-lookup"><span data-stu-id="61950-161">Each job is set up to consume a quantity of material.</span></span> <span data-ttu-id="61950-162">في هذا التوضيح، يكون الحد الزمني للإصدار المُشار إليه بالسهم الأخضر أسفل وقت الانتهاء مساويًا لعدد الأيام التي تم تحديدها في معيار **(LessThanDate())**.</span><span class="sxs-lookup"><span data-stu-id="61950-162">In this illustration, the release time fence that is indicated by the green arrow below the time line equals the number of days that has been specified in the **(LessThanDate())** criterion.</span></span> <span data-ttu-id="61950-163">على سبيل المثال، يُشير **(LessThanDate(2))**إلى أن الوظيفة يجب أن تقوم بالبحث عن الكميات غير المُصدرة في غضون حد زمني يومين فقط.</span><span class="sxs-lookup"><span data-stu-id="61950-163">For example, **(LessThanDate(2))** indicates that the job should look for unreleased quantities only within a time fence of two days.</span></span>
+<span data-ttu-id="61950-160">يبين التوضيح التالي أمر الإنتاج الذي يوجد به وظيفتين، 10 و20، والتي تشمل التجميع والتعبئة لأمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="61950-160">The following illustration shows a production order that has two jobs, 10 and 20, that cover the assembly and packing for the production order.</span></span> <span data-ttu-id="61950-161">يتم إعداد كل وظيفة لاستهلاك كمية المواد.</span><span class="sxs-lookup"><span data-stu-id="61950-161">Each job is set up to consume a quantity of material.</span></span> <span data-ttu-id="61950-162">في هذا التوضيح، يكون الحد الزمني للإصدار المُشار إليه بالسهم الأخضر أسفل وقت الانتهاء مساويًا لعدد الأيام التي تم تحديدها في معيار **(LessThanDate())**.</span><span class="sxs-lookup"><span data-stu-id="61950-162">In this illustration, the release time fence that is indicated by the green arrow below the time line equals the number of days that has been specified in the **(LessThanDate())** criterion.</span></span> <span data-ttu-id="61950-163">على سبيل المثال، يُشير **(LessThanDate(2))** إلى أن الوظيفة يجب أن تقوم بالبحث عن الكميات غير المُصدرة في غضون حد زمني يومين فقط.</span><span class="sxs-lookup"><span data-stu-id="61950-163">For example, **(LessThanDate(2))** indicates that the job should look for unreleased quantities only within a time fence of two days.</span></span>
 
 ![مثال لأمر إنتاج يحتوي على وظيفتين دفعيتين](media/bach-job-setup.PNG)
 

@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9da0adc848f334e5044c1629a403b6daac2dc639
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb8477eba19b536c77296f235fc93280b9982518
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a><span data-ttu-id="124cf-103">تصميم عمليات تكوين لتحليل المستندات الواردة لتحديثات بيانات التطبيق (التقارير الإلكترونية)</span><span class="sxs-lookup"><span data-stu-id="124cf-103">Design configurations to parse incoming documents for application data updates (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="124cf-104">يُظهر هذا الإجراء كيفية تصميم تكوينات التقارير الإلكترونية لتحليل مستند إلكتروني وارد.</span><span class="sxs-lookup"><span data-stu-id="124cf-104">This procedure shows how to design Electronic reporting (ER) configurations to parse an incoming electronic document.</span></span> <span data-ttu-id="124cf-105">في هذا الإجراء، سوف تستورد تكوينات التقارير الإلكترونية المطلوبة التي تم إنشاؤها للشركة النموذجية Litware, Inc.، ثم تستخدمها لتحليل المستندات الإلكترونية الواردة.</span><span class="sxs-lookup"><span data-stu-id="124cf-105">In this procedure, you will import the required ER configurations that have been created for the sample company, Litware, Inc. and use them for parsing incoming electronic documents.</span></span> <span data-ttu-id="124cf-106">لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬".</span><span class="sxs-lookup"><span data-stu-id="124cf-106">To complete the steps in this procedure, you must first complete the procedure, “ER Create a configuration provider and mark it as active.”</span></span>
 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 56691376b639e20751b24e25343d8c71c631ad66
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 255cb8f530b1906409c54dc446872802214482e8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="batch-attributes"></a><span data-ttu-id="c4d38-105">مواصفات التشغيلة</span><span class="sxs-lookup"><span data-stu-id="c4d38-105">Batch attributes</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c4d38-106">يوفر هذا الموضوع معلومات حول مواصفات التشغيلة.</span><span class="sxs-lookup"><span data-stu-id="c4d38-106">This topic provides information about batch attributes.</span></span> <span data-ttu-id="c4d38-107">مواصفات التشغيلة هي الصفات المميزة للمواد الخام والمنتجات التامة الصنع والتي تشكل مجموعات المخزون.</span><span class="sxs-lookup"><span data-stu-id="c4d38-107">Batch attributes are characteristics of raw materials and finished products that make up inventory batches.</span></span> <span data-ttu-id="c4d38-108">يوضح الموضوع أيضًا كيفية تعيين مواصفات التشغيلة، وكيف يمكنك البحث فيها عند حجز الدُفعات.</span><span class="sxs-lookup"><span data-stu-id="c4d38-108">The topic also explains how to assign batch attributes, and how you can search on them when you reserve batches.</span></span>
 

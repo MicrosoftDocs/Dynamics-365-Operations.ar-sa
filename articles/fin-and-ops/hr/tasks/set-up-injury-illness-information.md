@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: afb045ba29ef720e6b1ec03511dc812be4e4c2de
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9edc4c3f19d7498614211a539bfe685cb0efcdf6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="72b4f-103">إعداد معلومات الإصابة والمرض</span><span class="sxs-lookup"><span data-stu-id="72b4f-103">Set up injury and illness information</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="72b4f-104">يحتاج أصحاب الأعمال إلى معرفة متى تتم إصابة موظفيهم بجروح أو أمراض ناتجة عن المخاطر في مكان العمل.</span><span class="sxs-lookup"><span data-stu-id="72b4f-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="72b4f-105">يمكنك استخدام صفحة الإصابة والمرض لإعداد المعلومات التي تسهل الإبلاغ عن الإصابات أو الأمراض التي تحدث في مكان العمل.</span><span class="sxs-lookup"><span data-stu-id="72b4f-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="72b4f-106">يمكنك إعداد أنواع الإصابات والأمراض، بما في ذلك أنواع العلاج والتكاليف والنتائج.</span><span class="sxs-lookup"><span data-stu-id="72b4f-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="72b4f-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="72b4f-107">The demo data company used to create this procedure is USMF.</span></span>
 

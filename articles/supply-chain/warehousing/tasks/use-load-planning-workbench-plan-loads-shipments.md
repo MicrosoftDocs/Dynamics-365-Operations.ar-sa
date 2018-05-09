@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e948861920897cae7570984f97e3ff3893924a28
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3f08049ad8d670be808c3a51bb8735ac489eda94
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="2e108-103">تخطيط الأحمال والشحنات باستخدام ‏‫منضدة عمل تخطيط الحِمل</span><span class="sxs-lookup"><span data-stu-id="2e108-103">Plan loads and shipments using the Load planning workbench</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2e108-104">يوضح هذا الإجراء كيفية استخدام منضدة تخطيط الحمل لإنشاء حمل لأمر مبيعات.</span><span class="sxs-lookup"><span data-stu-id="2e108-104">This procedure shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="2e108-105">كشرط مسبق، سنقوم بإنشاء أمر المبيعات أولاً.</span><span class="sxs-lookup"><span data-stu-id="2e108-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="2e108-106">يمثل هذا الإجراء جزءًا من العمل اليومي لمنسق النقل.</span><span class="sxs-lookup"><span data-stu-id="2e108-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="2e108-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="2e108-107">The demo data company used to create this procedure is USMF.</span></span>
 

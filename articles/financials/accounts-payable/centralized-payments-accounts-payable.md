@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5ee2295c44a5b037b66c756cd91193a8ad09f1e6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bd40a0a95469300e51646f099db594fb92b2a53f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="b095d-105">المدفوعات المركزية للحسابات الدائنة</span><span class="sxs-lookup"><span data-stu-id="b095d-105">Centralized payments for Accounts payable</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b095d-106">يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني واحد يعالج جميع المدفوعات.</span><span class="sxs-lookup"><span data-stu-id="b095d-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="b095d-107">ولذلك، لا يلزم إدخال نفس المدفوعات في العديد من الكيانات القانونية.</span><span class="sxs-lookup"><span data-stu-id="b095d-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="b095d-108">توفر هذه المقالة أمثلة تعرض كيفية معالجة الترحيل للمدفوعات المركزية في سيناريوهات مختلفة.</span><span class="sxs-lookup"><span data-stu-id="b095d-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 

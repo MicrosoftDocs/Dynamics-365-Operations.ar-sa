@@ -19,16 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1f6dad98c2f025f2060f710ff66bae6deb372e63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8114eecbaf6b8ebbf289601809faf76a052347e5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="accounting-distributions"></a><span data-ttu-id="b721e-104">التوزيعات المحاسبية</span><span class="sxs-lookup"><span data-stu-id="b721e-104">Accounting distributions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b721e-105">توفر هذه المقالة معلومات حول التوزيعات المحاسبية وتصف الخيارات المتاحة لمعالجتها.</span><span class="sxs-lookup"><span data-stu-id="b721e-105">This article provides information about accounting distributions and describes the options that are available for processing them.</span></span> <span data-ttu-id="b721e-106">يتم استخدام التوزيعات المحاسبية لتوزيع مبالغ نقدية لمستند مصدر إلى حسابات دفتر أستاذ محددة.</span><span class="sxs-lookup"><span data-stu-id="b721e-106">Accounting distributions are used to allocate monetary amounts for a source document to specific ledger accounts.</span></span> 
 

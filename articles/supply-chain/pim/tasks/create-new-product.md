@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dc10459d3b15f274da964700d785549942c91a4a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 81224eb80ba5a66837fa3476c4cb799aa578cec3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-new-product"></a><span data-ttu-id="5e29c-103">إنشاء منتج جديد</span><span class="sxs-lookup"><span data-stu-id="5e29c-103">Create a new product</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5e29c-104">توضح هذه المهمة كيفية إنشاء منتج مشترك جديد.</span><span class="sxs-lookup"><span data-stu-id="5e29c-104">This task shows how to create a new shared product.</span></span> <span data-ttu-id="5e29c-105">عادة ما يتم تنفيذها عن طريق مصمم المنتج.</span><span class="sxs-lookup"><span data-stu-id="5e29c-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="5e29c-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="5e29c-106">The demo data company used to create this task is USMF.</span></span>
 

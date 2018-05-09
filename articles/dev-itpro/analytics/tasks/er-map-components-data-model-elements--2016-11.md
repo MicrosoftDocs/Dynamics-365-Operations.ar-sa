@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8b32b32a2cc8f7ac36e6c27ab17e550b5e3bd17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 921e00051e8d9647f16b1e29dfbda8821f28c7e5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a><span data-ttu-id="dab05-103">تعيين مكونات التنسيق الذي تم إنشاؤه لعناصر نموذج البيانات للتقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="dab05-103">Map components of the created format to data model elements for electronic reporting (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dab05-104">يوضح الإجراء التالي كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين عناصر نموذج بيانات إلى مكونات تكوين التقارير الإلكترونية المنشأ، والذي يحدد تنسيق المستندات الإلكترونية لمجال مدفوعات الأعمال‬.</span><span class="sxs-lookup"><span data-stu-id="dab05-104">The following procedure shows how a user in either the System administrator or Electronic reporting developer role can map data model elements to components of the created Electronic reporting (ER) configuration, which defines an electronic document format for the payments business domain.</span></span> <span data-ttu-id="dab05-105">سيتم استخدام التنسيق في وقت لاحق لإنشاء لإنشاء المستندات الإلكترونية لمعالجة المدفوعات</span><span class="sxs-lookup"><span data-stu-id="dab05-105">This format will be used later to generate electronic documents for processing payments.</span></span> <span data-ttu-id="dab05-106">في هذا المثال، ستقوم بإنشاء تكوين تنسيق لشركة نموذجية، وهي ‘Litware, Inc.’.</span><span class="sxs-lookup"><span data-stu-id="dab05-106">In this example, you will create a format configuration for the sample company, ‘Litware, Inc.’.</span></span> <span data-ttu-id="dab05-107">يمكن تنفيذ هذه الخطوات في أي شركة إذ يمكن مشاركة تكوينات التقارير الإلكترونية لكل الشركات.</span><span class="sxs-lookup"><span data-stu-id="dab05-107">These steps can be performed in any company as ER configurations are shared for all companies.</span></span> <span data-ttu-id="dab05-108">لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات الموضحة في دليل المهمة "إنشاء تكوين تنسيق‬".</span><span class="sxs-lookup"><span data-stu-id="dab05-108">To complete these steps, you must first complete the steps in the “Create a format configuration” task guide.</span></span>
 

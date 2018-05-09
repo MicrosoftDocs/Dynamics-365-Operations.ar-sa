@@ -17,16 +17,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e57389ac2882b011bf4ae98334db18a8f35846e2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c4309045abdac36376bc7ddb313475710a0fd02
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="credit-limits-for-customers"></a><span data-ttu-id="f6998-103">الحدود الائتمانية للعملاء</span><span class="sxs-lookup"><span data-stu-id="f6998-103">Credit limits for customers</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f6998-104">يسمح لك تعيي حد ائتماني تحديد الحد الأقصى للائتمان الذي يمكن تقديمه للعملاء.</span><span class="sxs-lookup"><span data-stu-id="f6998-104">Setting a credit limit lets you specify the maximum amount of credit to extend to your customers.</span></span> <span data-ttu-id="f6998-105">إذا تم تحديد حد ائتماني، فسيتم فحصه تلقائيًا عندما يحاول المستخدم تحديث مستند.</span><span class="sxs-lookup"><span data-stu-id="f6998-105">If a credit limit is specified, it is checked automatically when a user attempts to update a document.</span></span> <span data-ttu-id="f6998-106">وإذا تم تجاوز الحد الائتماني، فستظهر رسالة للمستخدم.</span><span class="sxs-lookup"><span data-stu-id="f6998-106">If the credit limit is exceeded, a message is displayed to the user.</span></span> <span data-ttu-id="f6998-107">توفر هذه المقالة نظرة عامة حول كيفية عمل الحدود الائتمانية بالإضافة إلى إجابات على الأسئلة التالية:</span><span class="sxs-lookup"><span data-stu-id="f6998-107">This article provides an overview of how credit limits work  and answers the following questions:</span></span>
 

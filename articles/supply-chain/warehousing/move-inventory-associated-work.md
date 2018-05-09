@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d81397ed30751f5b3dd7c46ffe6b27b8153c8f9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2889f04017bdd20be05174146ba88a24cbefacbb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a><span data-ttu-id="9a176-103">نقل المخزون مع العمل المقترن في إدارة المستودعات</span><span class="sxs-lookup"><span data-stu-id="9a176-103">Movement of inventory with associated work in Warehouse management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9a176-104">باستخدام نقل المخزون، يمكنك أن تحدد العاملين في المستودع الذين يتم السماح لهم بنقل المخزون المحجوز.</span><span class="sxs-lookup"><span data-stu-id="9a176-104">Using movement of inventory, you can decide which warehouse workers are allowed to move reserved inventory.</span></span> <span data-ttu-id="9a176-105">من شأن ذلك أن يوفر مرونة في المستودعات المنظمة حيث يمكنك تحديد عدم السماح لعامل باختيار موقع انتقاء جديد لعمل الانتقاء الذي أنشأه.</span><span class="sxs-lookup"><span data-stu-id="9a176-105">This provides a flexibility in regulated warehouses where you can decide to not allow a worker to choose a new pick location for pick work that is already created.</span></span> <span data-ttu-id="9a176-106">ويسمح أيضًا لمدير المستودع بمراقبة القدرات التي ينبغي أن تكون لدى بعض العاملين ذوي خبرات أقل.</span><span class="sxs-lookup"><span data-stu-id="9a176-106">It also allows a warehouse manager to control which capabilities some less experienced workers should have.</span></span>
 

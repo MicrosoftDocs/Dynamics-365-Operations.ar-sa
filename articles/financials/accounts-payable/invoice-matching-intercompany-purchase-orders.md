@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b900b19bba4b80558903847231941a6dd3df69bc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3c6dfac06f52d5c28a64680e342284451177dcee
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a><span data-ttu-id="8aede-104">مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة</span><span class="sxs-lookup"><span data-stu-id="8aede-104">Invoice matching and intercompany purchase orders</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8aede-105">قد يتم إعداد الكيان القانوني المشتري المعني بحركة تجارية بين شركات شقيقة لاستخدام مطابقة فواتير الحسابات الدائنة.</span><span class="sxs-lookup"><span data-stu-id="8aede-105">The purchasing legal entity that is involved in an intercompany trade transaction might be set up to use accounts payable invoice matching.</span></span> <span data-ttu-id="8aede-106">في هذه الحالة، يجب تلبية متطلبات الترحيل لكل من مطابقة فواتير الحركات التجارية بين الشركات الشقيقة ومطابقة فواتير الحسابات الدائنة قبل ترحيل فواتير المورّد المشتركة بين الشركات الشقيقة.</span><span class="sxs-lookup"><span data-stu-id="8aede-106">In this case, the posting requirements for both intercompany trade and accounts payable invoice matching must be met before intercompany vendor invoices can be posted.</span></span>
 

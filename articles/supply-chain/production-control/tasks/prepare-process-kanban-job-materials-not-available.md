@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2a6af3cfe452332d545a942361c60023a78e841e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 02d11b9fdb1db7e4c754a81b5e4c1d6e716b92a0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a><span data-ttu-id="9cc80-103">إعداد وظيفة كانبان عملية عندما لا تتوفر المواد لخلية العمل</span><span class="sxs-lookup"><span data-stu-id="9cc80-103">Prepare a process kanban job when materials are not available for the work cell</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9cc80-104">يركز هذا الإجراء على إعداد وظيفة كانبان للمعالجة عندما لا تتوفر بعض المواد لخلية العمل، ولذلك من الضروري انتقاء المواد من المستودع.</span><span class="sxs-lookup"><span data-stu-id="9cc80-104">This procedure focuses on preparing a process kanban job when some materials are not available for the work cell, therefore it's necessary to pick materials from the warehouse.</span></span> <span data-ttu-id="9cc80-105">يُعد الإجراء "إعداد وظيفة كانبان للمعالجة عندما تتوفر المواد‬" شرطًا أساسيًا لإنشاء هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="9cc80-105">The procedure "Prepare a process kanban job when materials are available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="9cc80-106">هذا الإجراء مخصص لعامل تشغيل الجهاز.</span><span class="sxs-lookup"><span data-stu-id="9cc80-106">This procedure is intended for the machine operator.</span></span> <span data-ttu-id="9cc80-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="9cc80-107">The demo data company used to create this procedure is USMF.</span></span>
 
