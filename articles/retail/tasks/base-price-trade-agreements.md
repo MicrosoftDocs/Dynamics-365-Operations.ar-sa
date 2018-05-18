@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="base-price-and-trade-agreements"></a> اتفاقيات الأسعار والتجارة الأساسية
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء إنشاء اتفاقيات تجارية على أسعار المبيعات الخاصة بالقناة. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-guarantee"></a>خطابات الضمان
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول خطابات الضمان. في خطاب الضمان، يوافق البنك على دفع مبلغ معين من المال إلى أحد الأشخاص إذا تعثر أحد عملاء البنك في تسديد دفع أو التزام لذلك الشخص. 
 

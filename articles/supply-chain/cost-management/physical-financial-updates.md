@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="physical-and-financial-updates"></a>التحديثات المادية والمالية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة على أنواع الحركات التي تؤدي إلى زيادة كميات المخزون أو تقليلها. 
 

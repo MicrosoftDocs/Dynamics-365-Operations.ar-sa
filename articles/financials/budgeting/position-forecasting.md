@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>التنبؤ بالمنصب
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 النفقات المتعلقة بالعمال كثيرًا ما تشكل نسبة كبيرة من التكاليف للمنظمة. يتيح لك منصب التنبؤ تخطيط تلك النفقات وتضمينها في تخطيط الميزانيات.
 

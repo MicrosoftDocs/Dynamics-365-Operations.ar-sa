@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>إعداد عملية استيراد التسوية البنكية المتقدمة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations بشكل تلقائي. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية. 
 

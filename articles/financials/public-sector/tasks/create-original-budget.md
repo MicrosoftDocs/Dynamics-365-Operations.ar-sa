@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a>إنشاء موازنة أصلية وإلغاء إدخالات الموازنة الأولية في القطاع العام
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 عند إنشاء إدخال موازنة أصلية واستخدام قيم البعد ونموذج الموازنة التي تتضمن مبالغ الموازنة الأولية، يمكن إلغاء مبالغ الموازنة الأولية. تم إنشاء هذا الإجراء باستخدام شركة بيانات العرض التوضيحي PSUS في قسم القطاع العام.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>إعداد قناة مركز اتصال
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يمكن لشركة تحديد قنوات مركز اتصال متعددة في Microsoft Dynamics 365 for Retail. يتم تكوين قنوات مركز الاتصال في **Retail**\>**قنوات**\>**مراكز الاتصال**\>**كافة مراكز الاتصال**، وهي محددة لكيان قانوني.
 

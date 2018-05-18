@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>تمكين عملية المرتبات للوقت والحضور
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية تمكين عملية مرتبات الوقت والحضور‬. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

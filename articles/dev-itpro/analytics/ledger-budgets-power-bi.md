@@ -26,7 +26,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="actual-vs-budget-power-bi-content"></a>محتوى Power BI القيمة الفعلية مقابل الموازنة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع محتوى Microsoft Power BI **القيمة الفعلية مقابل الموازنة‬**. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى. 
 

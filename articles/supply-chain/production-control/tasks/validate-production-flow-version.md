@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="validate-a-production-flow-and-version"></a>التحقق من صحة تدفق الإنتاج وإصداره
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء تدفق إنتاج جديد وإصدار أول لـlean manufacturing. المتطلبات الأساسية: يجب تحديد معلمات lean manufacturing ووحدات القياس للوقت الخاص بالفئة. وتحتاج إلى تحديد تدفق قيم ومجموعة إنتاج. ارجع إلى المستندات التقنية حول lean manufacturing للتعرف على مفاهيم تدفقات الإنتاج والأنشطة. يشير هذا الإجراء إلى الكيان القانوني USMF في بيانات العرض التوضيحي. ومع ذلك، مع افتراض أنه يتم تكوين الكيان القانوني لـlean manufacturing، يمكن استخدام كيانات قانونية أخرى.
 

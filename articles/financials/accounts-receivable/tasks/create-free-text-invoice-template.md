@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-free-text-invoice-template"></a>إنشاء قالب فاتورة نص حر
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF. التسجيل مخصص للمستخدم المسؤول عن إدارة فواتير الحسابات المدينة ومعالجتها.
 

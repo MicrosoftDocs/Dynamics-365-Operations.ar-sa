@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>تكوينات طلب المورّد
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 لإكمال طلب مورد، يجب على جهة اتصال المورد إكمال معالج تسجيل المورد المتوقع.
 

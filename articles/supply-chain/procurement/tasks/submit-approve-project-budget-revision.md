@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>إرسال واعتماد ‏‫مراجعات موازنة المشروع‬
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوفر هذا الإجراء معلومات حول مراجعة موازنة المشروع. يمكنك مراجعة موازنة المشروع لمرات كثيرة كما تقتضي الحاجة، ومع ذلك لا يمكنك رؤية مقدار مراجعة فردية إذا تمت مراجعة الميزانية أكثر من مرة. 
 

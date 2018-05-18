@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>موارد Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تنفذ موارد العمليات أنشطة مشروع أو عملية إنتاج. ويمكن أن تكون من أنواع مختلفة، وبقدرات مختلفة. 
 

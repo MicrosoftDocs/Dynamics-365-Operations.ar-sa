@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>الأسئلة المتداولة حول الترجمات المتعلقة بالمنتج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إدارة ترجمات المنتجات وقيم أبعاد المنتج وسمات المنتج. 
 

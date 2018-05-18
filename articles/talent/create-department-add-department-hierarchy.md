@@ -28,7 +28,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>إنشاء قسم وربطه بالتدرج الهرمي للأقسام
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي في المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر.
 

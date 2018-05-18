@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="three-way-matching-policies"></a>سياسات المطابقة الثلاثية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع أمثلة عن المطابقة الثلاثية.
 

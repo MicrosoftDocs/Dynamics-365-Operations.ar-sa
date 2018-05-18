@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a> إنشاء وربط جهاز
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء كيفية إنشاء جهاز جديد وإقرانه بسجل. من المفترض أن يتم إنشاء السجل بالفعل.  تستخدم هذه المهمة شركة USRT في بيانات العرض التوضيحي. تُعد هذه المهمة مخصصة لأدوار المسؤولين ومتخصصي تكنولوجيا المعلومات أو تكنولوجيا معلومات البيع بالتجزئة ومدير المتجر.
 

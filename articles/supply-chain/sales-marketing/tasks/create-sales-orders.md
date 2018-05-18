@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>إنشاء أوامر التوريد
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء أمر مبيعات. يمكنك تنفيذ الإجراء في شركة بيانات العرض التوضيحي USMF. يتم عادة إنشاء أوامر المبيعات بواسطة معالج أمر المبيعات. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>اختصارات لوحة المفاتيح
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تنطبق مفاتيح الاختصار التالية عبر Dynamics 365 for Finance and Operations. 
 

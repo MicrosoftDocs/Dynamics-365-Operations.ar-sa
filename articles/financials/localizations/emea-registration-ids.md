@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="registration-ids"></a>‏‫معرفات التسجيل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه الموضوعات معلومات حول إعداد واستخدام معرفات التسجيل.
 

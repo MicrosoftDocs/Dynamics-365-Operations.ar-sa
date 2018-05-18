@@ -26,9 +26,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="alerts-overview"></a>نظرة عامة على التنبيهات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>حول التنبيهات
 تنبيهات من نظام إعلام للأحداث الهامة في Microsoft Dynamics 365 for Finance and Operations. يمكنك استخدام التنبيهات للتعرف على الأحداث التي تريد تعقبها أثناء يوم العمل. يمكنك بسهولة إنشاء مجموعتك الخاصة من قواعد التنبيهات حتى يتم تنبيهك إلى عمليات التسليم المتأخرة أو الأوامر المحذوفة أو الأسعار التي تغيرت أو الأحداث الأخرى التي يجب أن تستجيب إليها.

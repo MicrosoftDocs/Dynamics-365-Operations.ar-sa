@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-objects"></a>كائنات الخدمة 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 كائنات الخدمة هي منتجات العميل وأصوله التي يمكن تنفيذ خدمة لها. ووفقًا لنوع الخدمة المقدمة، يمكن أن تكون الكائنات مادية أو معنوية:
 

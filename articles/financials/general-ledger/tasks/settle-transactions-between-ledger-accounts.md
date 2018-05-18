@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>تسوية الحركات بين حسابات دفتر الأستاذ
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية تسوية الحركات بين حسابات دفتر الأستاذ أو إلغاء إحدى تسويات دفتر الأستاذ. ويستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
 

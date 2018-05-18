@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-application-and-user-language-settings"></a>تطبيق نقطة البيع وإعدادات اللغة المستخدمة
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية تغيير إعدادات اللغة في نقطة بيع التجزئة الحديثة (MPOS) و نقاط بيع المجموعة.
 

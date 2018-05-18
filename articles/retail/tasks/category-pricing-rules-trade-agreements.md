@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> قواعد تسعير الفئات لإنشاء اتفاقيات التجارة
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء اتفاقيات تجارية على أسعار المبيعات باستخدام قاعدة تسعير الفئات. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT.‬ تم إعداد هذه المهمة لدور إدارة بضائع Retail.
 

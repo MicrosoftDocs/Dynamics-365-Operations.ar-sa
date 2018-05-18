@@ -28,7 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>تكوين الحسابات المدينة والائتمان والتحصيلات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تكوين الحسابات المدينة وعمليات التحصيل والائتمان‬ لتعقب الفواتير والمدفوعات الواردة من العملاء.
 

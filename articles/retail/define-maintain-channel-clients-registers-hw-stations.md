@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>تحديد عملاء القنوات، والسجلات، ومحطات الأجهزة والاحتفاظ بها
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع كيفية توصيل الأجهزة الطرفية بنقطة البيع بالتجزئة.
 

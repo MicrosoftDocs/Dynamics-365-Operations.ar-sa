@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>تكوين دفاتر العناوين
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 استخدم هذا الإجراء، والقرارات التي اتخذتها في تخطيط تكوين دفتر العناوين العمومي وموضوع دفاتر العناوين الإضافية، لإعداد دفاتر عناوين إضافية للمؤسسة الخاصة بك.
 

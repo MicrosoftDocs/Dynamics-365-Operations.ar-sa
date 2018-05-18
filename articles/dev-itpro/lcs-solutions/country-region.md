@@ -18,18 +18,18 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>ميزات الترجمة والميزات التنظيمية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-يتضمن Microsoft Dynamics 365 for Finance and Operations وظائف للبلد/المناطق الموثقة في [دليل توافر المنتج الدولي](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
+يتضمن Microsoft Dynamics 365 for Finance and Operations وظائف للبلد/المناطق الموثقة في [دليل توافر المنتج الدولي](http://download.microsoft.com/documents/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
 
 يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الحلول والتحديثات والإنذارات والوظائف الخاصة بالبلد/المنطقة. 
 
@@ -107,7 +107,7 @@ ms.lasthandoff: 04/13/2018
 -   [الضرائب](../../financials/localizations/latam-bra-calculate-taxes.md)
 
 ### <a name="china"></a>الصين
--   [مقارنة قائمة مكونات الصنف (BOM)](../../financials/localizations/apac-chn-bom-comparison.md)
+-   [مقارنة قائمة مكونات الصنف](../../financials/localizations/apac-chn-bom-comparison.md)
 -   [الإيصالات الصينية](../../financials/localizations/apac-chn-vouchers.md)
 -   [تكوين تكامل الضريبة](../../financials/localizations/apac-chn-tax-integration.md)
     -   [الأسئلة المتداولة حول فواتير عملاء ضريبة القيمة المضافة](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)

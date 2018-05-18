@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="release-production-orders"></a>إصدار أوامر الإنتاج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 أمر الإنتاج الذي تم إصداره هو أمر تم تخويله للإنتاج. يُستخدم المصطلح "تم الإصدار" لوصف حالة في دورة حياة أمر الإنتاج، حيث يُتاح أمر الإنتاج للتنفيذ في صالة الإنتاج ولعمليات المستودع. 
 

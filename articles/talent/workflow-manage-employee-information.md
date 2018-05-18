@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="use-workflows-to-manage-employee-information"></a>استخدم عمليات سير العمل لإدارة معلومات الموظف
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يشرح هذا الموضوع كيف يمكن استخدام إمكانات سير العمل للموارد البشرية لإدارة معلومات الموظف. على سبيل المثال، يمكنك إقران سير عمل مع موضع وتكوين سير عمل موافقة يتم تشغيله عندما يقوم الموظفون بتغيير سجلهم.
 

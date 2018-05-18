@@ -24,7 +24,7 @@ ms.lasthandoff: 10/04/2017
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>إنشاء والحصول على الأصول من الحسابات الدائنة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 سينقلك دليل المهمة هذا عبر عملية إنشاء أصل ثابت والاستحواذ عليه بواسطة عملية الشراء. إنه يستخدم دور المحاسب وموظفي الحسابات الدائنة وشركة العرض التوضيحي USMF.
 

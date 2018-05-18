@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="production-parameters-in-manufacturing-execution"></a>محددات الإنتاج في تنفيذ التصنيع
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول إعداد محددات الإنتاج في تنفيذ التصنيع.
 

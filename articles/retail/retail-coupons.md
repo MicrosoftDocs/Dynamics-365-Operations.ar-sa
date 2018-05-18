@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-coupons-for-retail-sales"></a>إنشاء قسائم البيع بالتجزئة
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>نظرة عامة على القسائم
 

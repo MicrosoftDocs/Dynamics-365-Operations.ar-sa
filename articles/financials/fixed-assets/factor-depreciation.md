@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="factor-depreciation"></a>إهلاك العامل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على أسلوب الإهلاك بالمعامل.
 

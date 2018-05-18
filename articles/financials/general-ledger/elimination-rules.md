@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="elimination-rules"></a>قواعد الاستبعاد
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع معلومات حول قواعد الاستبعاد، والخيارات المختلفة للتبليغ عن عمليات الاستبعاد.
 

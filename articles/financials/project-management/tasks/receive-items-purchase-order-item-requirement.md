@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>تلقي الأصناف على أمر شراء من طلبات الصنف
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية استلام الأصناف في أمر شراء من طلب الصنف.
 

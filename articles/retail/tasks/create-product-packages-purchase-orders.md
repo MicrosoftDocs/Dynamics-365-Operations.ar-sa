@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> إنشاء حزم المنتجات لأوامر الشراء
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء إنشاء حزمة منتجات واستخدامها على أمر شراء. سيتم استخدام أمر الشراء لإنشاء أمر لمجموعة من المنتجات محددة مسبقًا. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

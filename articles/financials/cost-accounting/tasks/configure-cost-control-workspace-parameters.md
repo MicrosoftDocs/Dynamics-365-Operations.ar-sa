@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>تكوين معلمات مساحة عمل مراقبة التكلفة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 استخدم هذا الإجراء لتكوين مساحة عمل التحكم في التكلفة لتمكين المدراء من مستويات مختلفة في المؤسسة من الحصول على نظرة أعمق على كائنات التكلفة، مثل مراكز التكلفة ومجموعات المنتجات. تم استخدام شركة العرض التوضيحي USP2 لإنشاء هذا التسجيل.
 

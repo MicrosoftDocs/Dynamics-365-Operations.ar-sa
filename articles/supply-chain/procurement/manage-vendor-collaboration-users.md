@@ -28,7 +28,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="manage-vendor-collaboration-users"></a>إدارة مستخدمي تعاون المورد‬
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيف يمكنك طلب توفير مستخدمين جدد لتعاون الموردين، وكيفية إضافة جهات اتصال جديدة لتعاون الموردين. 
 

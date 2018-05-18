@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="letter-of-guarantee-transaction"></a>حركة خطاب الضمان
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء عملية خطاب الضمان.
 

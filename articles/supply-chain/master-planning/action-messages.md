@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-messages"></a>رسائل الإجراءات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 رسالة الإجراء هي عبارة عن اقتراح منشأ بواسطة النظام بغرض تغيير أمر مخطط أو مؤكد موجود.
 

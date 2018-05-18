@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>تصميم التكوينات لإنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 لإكمال الخطوات الواردة في هذا الإجراء، أكمل أولاً الإجراء "التقارير الإلكترونية تُنشئ موفر تكوين وتضع علامة عليه على أنه نشط‬". يوضح هذا الإجراء كيفية تصميم تكوينات التقارير الإلكترونية (ER) لإنشاء مستند Microsoft Excel أو Word يحتوي على صور مضمنة. في هذا الإجراء، ستقوم بإنشاء تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية، Litware, Inc. يمكن إكمال هذه الخطوات باستخدام مجموعة بيانات USMF. تم إنشاء هذا الإجراء للمستخدمين الذين لديهم دور مسؤول النظام أو مطور التقارير الإلكترونية. قبل البدء، قم بتنزيل وحفظ الملفات الواردة ضمن موضوع التعليمات، [قم بتضمين الصور والأشكال في مستندات العمل التي تم إنشاؤها باستخدام أداة إعداد التقارير الإلكترونية](../electronic-reporting-embed-images-shapes.md). الملفات هي: Model for cheques.xml، وCheques printing format.xml، وCompany logo.png، وSignature image.png، وSignature image 2.png، وCheque template Word.docx.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="benefits-power-bi-content"></a>ميزات محتوى Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع محتوى **ميزات** Microsoft Power BI. يوضح هذا الموضوع كيفية الوصول إلى التقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى.
 

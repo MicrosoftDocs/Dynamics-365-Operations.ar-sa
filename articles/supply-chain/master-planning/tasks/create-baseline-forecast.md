@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="create-a-baseline-forecast"></a>إنشاء تنبؤ أساسي
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 بإمكان مخطط الإنتاج إنشاء تنبؤ أساسي عن طريق استخدام نماذج تنبؤ التسلسل الزمني أو نسخ الطلب التاريخي. يوضح هذا الإجراء كيفية نسخ الطلب التاريخي لإنشاء تنبؤ أساسي لكافة المنتجات باستخدام مفتاح توزيع صنف واحد. 
 

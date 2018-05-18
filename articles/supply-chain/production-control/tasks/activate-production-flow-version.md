@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="activate-a-production-flow-version"></a>تنشيط إصدار تدفق الإنتاج
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 قبل أن يصبح من الممكن إنشاء وظائف كانبان ومعالجة الأنشطة لإصدار تدفق الإنتاج، يجب تنشيط الإصدار. من المستحسن تنشيط الإصدار قبل انتهاء صلاحية تاريخ ووقت سريانه. لإكمال هذه المهمة، يجب أن يكون لديك إصدار تدفق إنتاج لديه الحالة "مسودة" لتنشيط الإصدار. 
 

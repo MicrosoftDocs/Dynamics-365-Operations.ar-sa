@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> تنفيذ الخدمة الذاتية لتنزيل محطة الأجهزة
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء كيفية تنزيل محطة أجهزة محددة مسبقًا. شركة بيانات العرض التوضيحي التي تم استخدامها لتنفيذ هذا الإجراء هي USRT. ويجب أن تكون قد أنشأت ملف تعريف محطة أجهزة جديدة ومحطة أجهزة قبل البدء في هذه المهمة.
 

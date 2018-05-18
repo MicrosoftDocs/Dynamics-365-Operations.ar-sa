@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-method-of-payment"></a>‏‫وضع طريقة دفع العميل‬
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 إنشاء طريقة دفع لمدفوعات العميل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 

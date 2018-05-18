@@ -28,7 +28,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="ship-an-order-from-a-different-store"></a>شحن أحد الأوامر من متجر آخر
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 مع ميزة إرسال شحنة في Dynamics 365 for Retail، يمكن إجراء أوامر العملاء من متجر وشحنها من متجر آخر. فأوامر العميل في نقطة البيع (POS) تدعم العديد من خيارات التنفيذ. تتضمن بعض أمثلة خيارات التنفيذ ما يلي:
 -   الاستلام من المتجر نفسه بتاريخ مختلف.

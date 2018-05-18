@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>إنشاء منتج
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء إنشاء منتج جديد في التدرج الهرمي لمنتج البيع بالتجزئة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT، وهذه المهمة مخصصة لمدير البضائع و‏‫مصمم المنتج‬.
 

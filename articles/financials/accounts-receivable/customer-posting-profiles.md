@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="customer-posting-profiles"></a>ملفات تعريف ترحيل العميل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تتحكم ملفات تعريف ترحيل العميل‬ في ترحيل حركات العميل إلى دفتر الأستاذ العام.
 

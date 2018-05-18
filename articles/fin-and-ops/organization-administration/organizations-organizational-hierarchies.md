@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="organizations-and-organizational-hierarchies"></a>المؤسسات والتدرجات الهرمية للمؤسسات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 المؤسسة هي عبارة عن مجموعة من الأشخاص يعملون معا لتنفيذ عملية تجارية أو تحقيق هدف. تمثل التدرجات الهرمية المؤسسية العلاقات بين المؤسسات التي تتألف منها أعمالك.
 

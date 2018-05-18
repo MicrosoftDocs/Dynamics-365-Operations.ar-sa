@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-performance-power-bi-content"></a>محتوى Power BI - الأداء المالي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!Note]
 > تم إهلاك حزمة المحتوى هذه كما هو موثق في [حزم محتوى Power BI المنشورة في PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).

@@ -27,7 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>إعادة حساب تكاليف الإحلال والقيم المؤمن بها لمجموعات الأصول الثابتة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة عملية تحديث تكاليف الإحلال والقيم المؤمن لها للأصول الثابتة.
 

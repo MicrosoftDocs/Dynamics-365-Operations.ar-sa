@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fifo-with-physical-value-and-marking"></a>ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 تعتبر قاعدة "ما يدخل أولاً يخرج أولاً" (FIFO) إحدى نماذج المخزون التي يتم فيها إصدار عمليات الاستلام الأولى المكتسبة أولاً. تتم تسوية الإصدارات المحدّثة ماليًا من المخزون مقابل عمليات الاستلام التي تم تحديثها ماليًا أولاً إلى المخزون وذلك بالاستناد إلى التاريخ المالي لحركة المخزون. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="audit-policy-violations-and-cases"></a>تدقيق انتهاكات السياسة والحالات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفية إنشاء حالات التدقيق من انتهاكات قواعد سياسة التدقيق. وتتضمن أيضًا معلومات حول مختلف الطرق التي تتبعها سياسة التدقيق لاستخدام نطاق تاريخ تحديد المستند.
 

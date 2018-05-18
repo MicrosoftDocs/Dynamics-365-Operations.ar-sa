@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounts-payable-invoice-matching"></a>مطابقة فاتورة الحسابات الدائنة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 مطابقة فاتورة الحسابات الدائنة هي عبارة عن عملية مطابقة فاتورة المورّد وأمر الشراء ومعلومات إيصال استلام المنتجات.
 

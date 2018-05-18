@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>توسيع وظائف Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 إذا قمت بإنشاء أي Microsoft PowerApps، فإنه يمكنك بدء تشغيل تلك التطبيقات من الارتباطات الموجودة في Microsoft Dynamics 365 for Talent. لإعداد وصول إلى التطبيقات الخاصة بك، ستحتاج إلى إعداد بعض المعلومات في Talent في صفحة تكوين يمكنك فتحها من مساحة عمل **إدارة النظام**.
 

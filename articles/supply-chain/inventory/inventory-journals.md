@@ -28,9 +28,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-journals"></a>دفاتر يومية المخزون
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 يوضح هذا الموضوع كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية.
 

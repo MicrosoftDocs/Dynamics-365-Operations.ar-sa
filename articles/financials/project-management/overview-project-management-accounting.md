@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>إدارة المشاريع ومحاسبتها
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يمكن استخدام وظيفة إدارة المشاريع والمحاسبة في صناعات متعددة لتوفير خدمة أو إنتاج منتج أو تحقيق نتيجة.  
 

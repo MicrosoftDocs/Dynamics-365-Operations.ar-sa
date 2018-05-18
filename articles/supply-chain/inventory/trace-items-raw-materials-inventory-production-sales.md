@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>تتبع الأصناف والمواد الخام في المخزون والإنتاج والمبيعات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية استخدام تتبع للصنف لتعريف مكان استخدام العناصر أو المواد الخام أو تستخدم أو ستستخدم في عمليات المبيعات والإنتاج.
 

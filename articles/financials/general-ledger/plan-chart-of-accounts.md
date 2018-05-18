@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="plan-your-chart-of-accounts"></a>خطط دليل الحسابات الخاص بك
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات ستساعدك في وضع تخطيط لدليل الحسابات في مؤسستك.
 

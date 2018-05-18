@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-groups"></a>تحديد مجموعات التكوين
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية تحديد مجموعات تكوين المنتج عن طريق إنشاء مجموعتين في شركة بيانات العرض التقديمي USMF. هذا هو الإجراء الرابع من أصل ثمانية إجراءات الذي يوضح كيفية إنشاء مجموعات للتكوين المستند إلى بُعد.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>تكوين المنتجات المرتبطة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء تكوين المنتجات المرتبطة. يستخدم هذا الإجراء بيانات العرض التوضيحي USRT، ويفترض أن كلا المنتجين تم إنشاؤهما وإصدارهما بالفعل.
 

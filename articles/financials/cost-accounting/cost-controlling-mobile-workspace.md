@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-controlling-mobile-workspace"></a>مساحة العمل المحمولة للتحكم في التكلفة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع معلومات حول مساحة العمل المحمولة **التحكم في التكلفة**. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان.
 

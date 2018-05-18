@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-a-fixed-asset-group"></a>تغيير مجموعة الأصول الثابتة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يجب تعيين الأصول الثابتة إلى مجموعة الأصول الثابتة الصحيحة. يتم استخدام مجموعة الأصول الثابتة عندما تقوم بما يلي:
 

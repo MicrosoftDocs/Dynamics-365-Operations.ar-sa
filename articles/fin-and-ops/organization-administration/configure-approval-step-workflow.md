@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>تكوين خطوة اعتماد في سير عمل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تكوين خصائص خطوة اعتماد.
 

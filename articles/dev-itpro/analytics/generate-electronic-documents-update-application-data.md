@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>إنشاء المستندات الإلكترونية وتحديث بيانات التطبيق باستخدام أداة إعداد التقارير الإلكترونية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يمكنك تصميم تنسيقات التقارير الإلكترونية التي يمكن استخدامها في تطبيق Finance and Operations لإنشاء مستندات إلكترونية صادرة. يمكنك أيضًا تصميم تنسيقات التقارير الإلكترونية التي تحلل المستندات الإلكترونية الواردة وتستخدم المحتوى في هذه المستندات لتحديث بيانات التطبيق. 
 

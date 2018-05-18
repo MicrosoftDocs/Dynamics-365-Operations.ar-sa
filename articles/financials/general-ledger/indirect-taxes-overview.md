@@ -28,9 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-tax-overview"></a>نظرة عامة على ضريبة المبيعات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 يوفر هذا الموضوع نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا.
 

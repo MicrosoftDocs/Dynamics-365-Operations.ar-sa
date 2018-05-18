@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>إنشاء مجموعات توحيد وحسابات توحيد إضافية
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء مجموعة حساب توحيد ثم إضافة حسابات إلى المجموعة. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
 

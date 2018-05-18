@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-standard-cost-updates"></a>إدارة تحديثات التكلفة القياسية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يمكن إدارة تحديثات بيانات التكلفة القياسية باستخدام نهجين مختلفين؛ النهج أحادي الإصدار أو النهج ثنائي الإصدار. 
 

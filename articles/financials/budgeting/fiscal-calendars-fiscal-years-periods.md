@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>التقويمات المالية، والسنوات المالية، والفترات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تتناول هذه المقالة التقويمات المالية والسنوات والفترات المالية وكيفية الاستفادة منها للكيانات القانونية والأصول الثابتة وإعداد الميزانية.
 

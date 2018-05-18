@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>مقارنة التكاليف النشطة والمقدرة والمحققة في أمر إنتاج
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية عرض أسباب فرق الإنتاج المرتفع في أمر الإنتاج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لمراقب التكاليف‬.
 

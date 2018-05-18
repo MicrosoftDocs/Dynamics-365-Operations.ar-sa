@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> معالجة تسويات نقاط مكافأة الولاء
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية البحث عن معلومات بطاقة الولاء وضبط نقاط مكافأة للولاء. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT.‬ تم إعداد هذه المهمة لدور مدير عمليات Retail أو دور مدير Customer service.
 

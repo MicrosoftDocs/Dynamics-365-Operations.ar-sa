@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-vendors-for-specific-products"></a>اعتماد موردين لمنتجات محددة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية اعتماد الموردين لمنتجات محددة. يسمح لك بالتحكم في الموردين الذين يمكن استخدامهم عند إضافة المنتج إلى أمر شراء. يمكنك استخدام هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة. وعادة ما تُنفذ هذه المهمة عن طريق مدير شراء.
 

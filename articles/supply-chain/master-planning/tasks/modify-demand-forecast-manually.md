@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="modify-a-demand-forecast-manually"></a>تعديل التنبؤ بالطلب يدوياً
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية تعديل التنبؤ لصنف ما. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا التسجيل مخصص لمخطط الإنتاج‬. 
 

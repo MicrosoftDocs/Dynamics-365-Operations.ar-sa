@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>نظرة عامة على البحث عن المنتجات والعملاء في نقطة البيع
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 توفر نقطة البيع الحديثة (MPOS) ونقطة بيع المجموعة‬ (CPOS) ميزة بحث سهلة الاستخدام للمنتجات والعملاء. نظرًا لأن شريط البحث يقع دومًا في الجزء العلوي من نافذتي MPOS وCPOS، يستطيع الموظفون البحث بسرعة عن المنتجات والعملاء.
 

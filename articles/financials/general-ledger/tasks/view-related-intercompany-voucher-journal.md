@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح إطار الإيصال ذات الصلة الإيصال من الشركة المقابلة عند ترحيل حركة بين شركات شقيقة من دفتر اليومية العام.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>إيصال واحد
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  ستتوفر هذه الوظيفة في الإصدار 8.0 من Dynamics 365 for Finance and Operations، الذي سيتوفر في إصدار الربيع '18.   

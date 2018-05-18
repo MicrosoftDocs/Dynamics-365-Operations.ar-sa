@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components"></a>تحديد تبعية التكوينات من المكونات الأخرى 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 لإتمام هذه الخطوات، يجب عليك أولاً إكمال الخطوات الموجودة في دليل المهام، "التقارير الإلكترونية - إدارة تكوينات تعيينات النموذج‬"، ويجب أن يكون لديك حق الوصول إلى Microsoft Dynamics Lifecycle Services (LCS).
 

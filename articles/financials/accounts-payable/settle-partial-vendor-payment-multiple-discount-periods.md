@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>تسوية دفعة جزئية لمورد تحتوي على عدة فترات خصم
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ترشدك هذه المقالة عبر سيناريو حيث يتم تسديد دفعات جزئية متعددة إلى مورّد يقدم خصومات نقدية متعددة. 
 

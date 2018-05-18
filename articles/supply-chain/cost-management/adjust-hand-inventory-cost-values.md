@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="adjust-on-hand-inventory-cost-values"></a>تعديل قيم تكلفة المخزون الفعلي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 استخدم صفحة تسوية المخزون الفعلي لتسوية قيمة التكلفة لكميات المخزون الفعلي بعد إجراء عملية إغلاق المخزون.
 

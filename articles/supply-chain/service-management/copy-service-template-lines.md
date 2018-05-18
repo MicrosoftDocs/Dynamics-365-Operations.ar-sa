@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>نسخ بنود قوالب خدمة 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يمكن نسخ معلومات القالب إما إلى اتفاقية خدمة أو إلى أمر خدمة.
 

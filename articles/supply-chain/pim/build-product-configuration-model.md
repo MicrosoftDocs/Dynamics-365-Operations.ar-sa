@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>إنشاء نموذج تكوين المنتج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تصبح الحاجة إلى تكوين المنتجات لتلبية متطلبات الخاصة القاعدة لا الاستثناء، في كلٍّ من العلاقات بين الشركات وبين الشركة والمستهلك.
 

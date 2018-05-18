@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-a-service-template-group"></a>إنشاء مجموعة قوالب خدمة  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يمكن استخدام مجموعات قوالب الخدمة لفرز وتصفية قوالب الخدمة.
 

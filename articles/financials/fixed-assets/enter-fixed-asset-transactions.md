@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-transaction-options"></a>خيارات حركات الأصول الثابتة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة الطرق المختلفة لإنشاء حركات الأصول الثابتة.
 

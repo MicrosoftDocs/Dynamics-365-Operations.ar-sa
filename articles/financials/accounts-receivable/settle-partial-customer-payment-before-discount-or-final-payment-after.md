@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>تسوية دفع جزئي لعميل قبل تاريخ الخصم بدفعة نهائية بعد تاريخ الخصم
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تتناول هذه المقالة تأثير تسوية مدفوعات الفواتير للعملاء. يركز السيناريو على التأثيرات في دفتر الأستاذ الفرعي، وليس دفتر الأستاذ العام.
 

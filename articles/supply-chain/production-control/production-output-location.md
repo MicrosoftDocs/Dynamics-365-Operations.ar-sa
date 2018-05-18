@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-output-location"></a>موقع إخراج الإنتاج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع التدرج الهرمي الذي يتم استخدامه لتحديد موقع إخراج الإنتاج.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="vendor-payment-overview"></a>نظرة عامة على دفع المورّد
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 سيوضح دليل المهام هذا لك مختلف الطرق المُستخدمة لإنشاء مدفوعات المورد، بما في ذلك كيفية استخدام مقترح دفع أو إدخال دفع فريد يدويًا. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
 

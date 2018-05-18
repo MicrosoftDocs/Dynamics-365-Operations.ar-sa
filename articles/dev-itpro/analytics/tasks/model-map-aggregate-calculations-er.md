@@ -24,7 +24,7 @@ ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>استخدام تكوين تعيين نموذج للحسابات المجمعة على مستوى قاعدة البيانات (التقارير الإلكترونية) 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوفر هذا الإجراء معلومات حول كيفية تصميم تكوين جديد لتعيين نموذج التقارير الإلكترونية، واستخدم وظائف التقارير الإلكترونية المدمجة لإجراء حسابات مجمعة فعالة. في هذا الإجراء، ستقوم بإنشاء تكوين للشركة النموذجية، Litware, Inc. 
 

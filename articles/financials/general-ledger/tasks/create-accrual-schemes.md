@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-accrual-schemes"></a>إنشاء أنظمة استحقاق
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح دليل المهام هذا خطوات إنشاء بنية نظام استحقاق. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 

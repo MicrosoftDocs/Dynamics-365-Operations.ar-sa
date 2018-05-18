@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-service-life-depreciation"></a>إهلاك مدة خدمة القسط الثابت
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تقدم هذه المقالة نظرة عامة على أسلوب إهلاك مدة خدمة القسط الثابت‬.
 

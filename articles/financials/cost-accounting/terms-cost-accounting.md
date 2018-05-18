@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>مصطلحات محاسبة التكاليف
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يعرّف هذا الموضوع المصطلحات الأساسية المستخدمة في محاسبة التكاليف.
 

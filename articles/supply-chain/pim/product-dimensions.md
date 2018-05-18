@@ -29,9 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>أبعاد المنتجات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
 هناك أربعة أبعاد للمنتج - اللون والتكوين والحجم والنمط. يمكنك دمج أبعاد المنتج في مجموعات أبعاد، وتعيين مجموعات الأبعاد إلى أصول المنتج. تحدد مجموعات أبعاد المنتجات كيفية تعريف متغيرات المنتج.
 

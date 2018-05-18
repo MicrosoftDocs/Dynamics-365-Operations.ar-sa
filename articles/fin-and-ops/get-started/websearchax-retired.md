@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>تم إيقاف WebSearchAX
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 لقد اضطررنا إلى إيقاف عمل صفحة WebSearchAX. نوصيك باستخدام البحث في الموقع من محرك البحث المفضل لاستبدالها.  على سبيل المثال: 
 

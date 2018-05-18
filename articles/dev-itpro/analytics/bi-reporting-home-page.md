@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>المعلومات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوجهك هذا الموضوع إلى الموارد التي يمكنك اتباعها لمعرفة المزيد حول المعلومات المهنية (BI) وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations.
 

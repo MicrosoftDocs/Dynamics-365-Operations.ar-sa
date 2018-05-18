@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>تقييم أداء المبيعات حسب المنتج
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يمكنك دراسة الربحية لأهم 10 منتجات باستخدام Microsoft Dynamics 365 for Retail. 
 

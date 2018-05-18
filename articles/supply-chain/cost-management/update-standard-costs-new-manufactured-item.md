@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>تحديث التكاليف المعيارية لصنف مصنّع جديد
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة إرشادات لتحديث التكاليف المعيارية لصنف مصنع جديد. 
 

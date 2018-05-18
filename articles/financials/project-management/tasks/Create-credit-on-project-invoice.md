@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>إنشاء إشعار دائن لفواتير مشروع
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 1. انتقل إلى إدارة المشاريع والمحاسبة > المشاريع > جميع المشاريع. 
 2. في القائمة، قم بالبحث عن السجل المطلوب وحدده. 

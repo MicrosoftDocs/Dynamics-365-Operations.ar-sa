@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>عمليات التسليم المباشرة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر هذا المقال معلومات حول عمليات التسليم المباشرة‬. عمليات التسليم المباشرة‬ عبارة عن عمليات تسليم يتم إرسالها من المورّد إلى عمليك بشكل مباشر.
 

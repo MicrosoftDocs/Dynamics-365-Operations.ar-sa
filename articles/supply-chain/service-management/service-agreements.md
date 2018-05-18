@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreements"></a>اتفاقيات الخدمة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تسمح لك اتفاقيات الخدمة بتحديد الموارد المستخدمة في زيارة خدمة عادية وكيفية فوترة هذه الموارد للعميل.
 

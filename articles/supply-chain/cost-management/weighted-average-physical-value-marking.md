@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>المتوسط المرجح مع القيمة الفعلية ووضع العلامات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 المتوسط المرجح هو نموذج مخزون يستند إلى قاعدة المتوسط المرجح، حيث يتم تقييم إصدارات المخزون وفقًا لمتوسط قيمة الأصناف المستلمة في المخزون أثناء فترة إقفال المخزون، علاوة على أي مخزون فعلي من الفترة السابقة.
 

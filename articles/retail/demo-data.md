@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة (MPOS)/نقطة بيع المجموعة‬ (CPOS)
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يقدم هذا الموضوع معلومات حول تخطيطات الشاشة المضمنة مع بيانات العرض التوضيحي المعينة لتجارب نقطة البيع (POS) في Microsoft Dynamics 365 for Retail.
 

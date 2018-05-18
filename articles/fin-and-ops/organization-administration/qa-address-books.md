@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="address-books-faq"></a>الأسئلة المتداولة حول دفاتر العناوين
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <a name="how-do-i-check-for-duplicate-records"></a>كيف يمكنني البحث عن السجلات المكررة؟
 -------------------------------------

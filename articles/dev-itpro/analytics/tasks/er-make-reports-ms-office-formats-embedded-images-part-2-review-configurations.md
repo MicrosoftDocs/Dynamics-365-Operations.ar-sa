@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>مراجعة التكوينات لإنشاء تقارير بتنسيقات Microsoft Office مع صور مضمنة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 لإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات المذكورة في دليل المهام "التقارير الإلكترونية - إنشاء تقارير بتنسيقات MS Office مع صور مضمنة (الجزء 1: إعداد المعلمات)‬".
 

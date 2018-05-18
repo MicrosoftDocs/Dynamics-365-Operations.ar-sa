@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manual-depreciation"></a>الإهلاك اليدوي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على أسلوب الإهلاك اليدوي.
 

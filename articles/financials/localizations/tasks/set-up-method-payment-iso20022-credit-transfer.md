@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>إعداد طريقة دفع لتحويل الائتمان ISO20022
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إعداد طريقة الدفع الخاصة بالمورّد لتحويل الائتمان ISO20022 أو أي نوع دفع آخر باستخدام التقارير الإلكترونية لإنشاء ملف. 
 

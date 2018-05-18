@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>انتقاء الدُفعة الأقدم‬ على جهاز محمول
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يمكنك الوصول إلى تكوين **انتقاء الدُفعة الأقدم‬** عن طريق قائمة جهاز محمول، وهو يسمح لك بتحذير العاملين في المستودع أو فرض عليهم انتقاء الدُفعة الأقدم‬ في موقعهم الحالي.  
 

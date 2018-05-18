@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>إنشاء أمر شراء تحكمه الموازنة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 استخدم هذا الإجراء لإنشاء أمر شراء يتم التحقق منه للموازنة المتوفرة. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.
 

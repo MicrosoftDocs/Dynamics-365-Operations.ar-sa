@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>بحث التنقل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية استخدام وظيفة البحث للتنقل في الصفحات في Microsoft Dynamics 365 for Finance and Operations.
 

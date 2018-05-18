@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>تكوين قرار شرطي في سير عمل‬
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 استخدم الإجراء التالي لتكوين خصائص قرار شرطي.
 

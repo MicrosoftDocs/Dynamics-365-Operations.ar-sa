@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>ترحيل حركات الأصول الثابتة إلى طبقات الترحيل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تقدم هذه المقالة نظرة عامة حول وظيفة طبقة الترحيل لحركات الأصول الثابتة.
 

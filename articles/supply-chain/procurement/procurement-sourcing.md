@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-and-sourcing-home-page"></a>الصفحة الرئيسية للتدبير وتحديد الموارد
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.
 

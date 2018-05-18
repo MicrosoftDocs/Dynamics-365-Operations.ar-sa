@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>عرض حالة الأعمال تحت التنفيذ‬ الحالية لأمر إنتاج
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية عرض بيان الأعمال تحت التنفيذ في أمر إنتاج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لمراقب التكاليف‬.
 

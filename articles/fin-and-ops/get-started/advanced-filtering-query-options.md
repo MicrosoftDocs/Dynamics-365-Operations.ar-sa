@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>التصفية المتقدمة وبنية الاستعلام
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة خيارات التصفية والاستعلام التي تتوفر عند استخدام عامل التشغيل "تطابق" في مربع الحوار "عامل التصفية/الفرز المتقدم".
 

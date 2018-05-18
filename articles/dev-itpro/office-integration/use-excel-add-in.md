@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="use-the-excel-add-in"></a>استخدام الوظيفة الإضافية لبرنامج Excel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية فتح بيانات الكيان في Microsoft Excel، ثم عرض وتحديث وتحرير البيانات باستخدام الوظيفة الإضافية Microsoft Dynamics Office لبرنامج Excel. لفتح بيانات الكيان، يمكنك البدء من Excel أو من Microsoft Dynamics 365 for Finance and Operations.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>متطلبات تحويل التكلفة المعيارية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يناقش هذا الموضوع المهام التي يجب إنجازها قبل تشغيل تحويل تكلفة معيارية. 
 

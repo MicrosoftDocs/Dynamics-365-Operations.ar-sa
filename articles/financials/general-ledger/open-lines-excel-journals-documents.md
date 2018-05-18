@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>نشر المستندات وبنود دفتر اليومية من Excel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ‏‫يشرح هذا الموضوع كيفية إدخال ونشر بنود لدفاتر اليومية العامة من Microsoft Excel. كما يتضمن معلومات حول القوالب المتعددة التي يمكنك استخدامها، اعتماداً على نوع الحركات التي تقوم بإدخالها.
 

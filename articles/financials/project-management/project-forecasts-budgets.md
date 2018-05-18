@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-forecasts-and-budgets"></a>تنبؤات وموازنات المشاريع
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر Microsoft Dynamics 365 for Finance and Operations طريقتين إدارة ومراقبة المشاريع: تنبؤات المشاريع وموازنات المشاريع. 
 

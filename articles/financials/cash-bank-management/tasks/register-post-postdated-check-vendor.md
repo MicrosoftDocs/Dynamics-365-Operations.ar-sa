@@ -24,7 +24,7 @@ ms.lasthandoff: 10/31/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>تسجيل شيك بتاريخ لاحق لمورد وترحيله
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يمكنك تسجيل تفاصيل شيك بتاريخ لاحق قبل أن تقوم بإصدار الشيك لمورد، وذلك باستخدام ‏‫إيصال دفتر اليومية. ويمكنك أيضا ترحيل الشيك الذي تم تأخير تاريخه وإنشاء الحركات المالية. قبل تسجيل شيك بتاريخ لاحق مستلم من العميل وترحيله، يجب إكمال المهمة التالية: 
 

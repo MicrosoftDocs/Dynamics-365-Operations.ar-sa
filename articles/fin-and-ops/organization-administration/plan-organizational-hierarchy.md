@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>تخطيط التدرج الهرمي للمؤسسات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 قبل إعداد المؤسسات والتدرجات الهرمية للمؤسسات في Microsoft Dynamics 365 for Finance and Operations، احرص على التخطيط لكيفية تصميم أعمالك. نموذج المؤسسة له تأثير كبير على تنفيذ Finance and Operations وعلى سير العمليات التجارية. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-element-dimensions"></a>أبعاد عنصر التكلفة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تعتبر أبعاد عنصر التكلفة أحد الركائز الأساسية في محاسبة التكاليف، ويتم استخدامها لتصنيف وتعقب الأماكن التي تتدفق التكاليف إليها. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-accounts-receivable"></a>إقفال الحسابات المدينة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يسرد الجدول التالي الصفحات التي تدعم إقفال العملية التجارية للحسابات المدينة.
 

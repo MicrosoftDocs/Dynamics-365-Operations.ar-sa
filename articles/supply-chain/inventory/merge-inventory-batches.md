@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="merge-inventory-batches"></a>دمج دُفعات المخزون
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول كيفية دمج دُفعتي مخزون أو أكثر في دُفعة مدمجة.
 

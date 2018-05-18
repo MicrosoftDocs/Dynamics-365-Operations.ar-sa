@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-consignment"></a>إعداد الشحن
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية تكوين عمليات مخزون الشحن الوارد.
 

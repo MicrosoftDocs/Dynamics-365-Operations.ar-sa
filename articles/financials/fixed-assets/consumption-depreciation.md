@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consumption-depreciation"></a>إهلاك الاستهلاك
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على أسلوب الاستهلاك للإهلاك.
 

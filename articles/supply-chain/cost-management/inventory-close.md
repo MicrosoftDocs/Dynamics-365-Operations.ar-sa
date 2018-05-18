@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-close"></a>إغلاق المخزون
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 كجزء من عملية تسوية حركات الإصدار بحركات الاستلام، يمكنك أيضًا اختيار تحديث دفتر الأستاذ العام ليعكس التعديلات التي تم إجراؤها.
 

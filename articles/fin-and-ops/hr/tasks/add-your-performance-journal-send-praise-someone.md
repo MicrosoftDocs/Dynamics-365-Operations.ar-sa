@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>إضافة إلى دفتر يومية أدائك وإرسال ثناء إلى أحد الأشخاص
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يحتوي دفتر يومية الأداء على المعلومات التي تتعلق بكيفية تحقيق أهدافك أو كيف كان مستوى الأداء لديك خلال فترة معينة. يمكنك أيضا الثناء على إجراءات زميل في العمل من دفتر اليومية. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
 

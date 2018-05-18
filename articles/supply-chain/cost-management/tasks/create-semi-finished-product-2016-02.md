@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-semi-finished-product-february-2016-only"></a>إنشاء منتج غير نهائي (فبراير 2016 فقط)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 تركز هذه المهمة على إنشاء منتج غير نهائي. إنها المهمة الثانية في سلسلة حسابات قائمة مكونات الصنف. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬
 

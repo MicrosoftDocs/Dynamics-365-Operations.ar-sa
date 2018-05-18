@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>حساب إهلاك الأصول الثابتة عبر الكيانات القانونية
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يمكن تشغيل إهلاك الأصول الثابتة عبر الكيانات القانونية في خطوة واحدة. يوضح هذا الإجراء كيفية إعداد العملية للعديد من الكيانات القانونية‬ وكيفية تشغيلها. يستخدم دور المحاسب.  
 

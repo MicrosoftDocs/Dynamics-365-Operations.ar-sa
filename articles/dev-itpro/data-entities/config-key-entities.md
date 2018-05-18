@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configuration-keys-and-data-entities"></a>مفاتيح التكوين وكيانات البيانات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 قبل استخدام كيانات البيانات لاستيراد أو تصدير البيانات، ننصح بأن تحدد أولاً تأثير مفاتيح التكوين على كيانات البيانات التي تخطط لاستخدامها. 
 

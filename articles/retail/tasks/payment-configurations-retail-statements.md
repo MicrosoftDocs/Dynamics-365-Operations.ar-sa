@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="payment-configurations-for-retail-statements"></a> تكوينات الدفع لكشوف حساب Retail
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء تكوينات لطرق الدفع في متاجر البيع بالتجزئة، والتي تؤثر على كيفية إنشاء كشوفات حساب البيع بالتجزئة وترحيلها.
 

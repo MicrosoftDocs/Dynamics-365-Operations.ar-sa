@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>إعداد مصاريف الموزع الإضافية والأصول الإضافية
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء سجل رئيسي إضافي‬ للموزع واستخدامه لإنشاء رسوم الموزِّع الإضافي‬. يستخدم هذا الإجراء مجموعة بيانات USMF. عادة ما يتم تنفيذ هذا الإعداد عن طريق منسق نقل.
 

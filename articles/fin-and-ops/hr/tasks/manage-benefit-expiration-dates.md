@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-benefit-expiration-dates"></a>إدارة تواريخ انتهاء صلاحية الميزة
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيف يمكنك إنهاء أو تمديد صلاحية إحدى الميزات، وإدارة تواريخ التسجيل للعاملين المسجلين للحصول على ميزة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

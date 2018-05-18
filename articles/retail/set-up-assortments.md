@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>إعداد عمليات الفرز
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 توضح هذه المقالة ماهية عملية الفرز وتشرح كيفية إعداد عمليات الفرز في Microsoft Dynamics 365 for Retail.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>نقل البيانات لنماذج المنتجات
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يتطلب تصدير البيانات لنموذج تكوين منتج توفر نموذج منتج واحد على الأقل. يستخدم هذا الإجراء نموذج مكبر الصوت المتطور في شركة العرض التوضيحي USMF لإظهار كيفية تصدير البيانات لهذا النموذج.
 

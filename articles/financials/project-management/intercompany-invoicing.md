@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>الفوترة بين الشركات الشقيقة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات وأمثلة حول الفوترة بين الشركات الشقيقة للمشاريع في Microsoft Dynamics 365 for Finance and Operations.
 

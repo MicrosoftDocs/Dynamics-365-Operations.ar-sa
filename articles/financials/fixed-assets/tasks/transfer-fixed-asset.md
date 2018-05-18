@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-a-fixed-asset"></a>تحويل أصل ثابت
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 سيقوم دليل المهمة هذا بتحويل المعلومات المالية لدفتر أصل ثابت من مجموعة أبعاد مالية إلى مجموعة أبعاد مالية جديدة.  إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
 

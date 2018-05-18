@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="activity-based-subcontracting"></a>التعاقد من الباطن المستند إلى النشاط
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع، بشكل مفصل، كيفية استخدام الأنشطة المتعاقد عليها من الباطن في تدفق الإنتاج من أجل lean manufacturing.
 

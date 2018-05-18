@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-pos-permission-groups"></a> إنشاء مجموعات أذونات نقطة البيع
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 سيظهر هذا الإجراء كيفية إنشاء مجموعة أذونات نقطة البيع. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT.‬ تم إعداد هذه المهمة لدور إدارة عمليات Retail.
 

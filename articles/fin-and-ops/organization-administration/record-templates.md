@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>قوالب السجل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تقدم هذه المقالة مفهوم قوالب السجلات وتشرح كيفية استخدامها لإنشاء سجلات تشارك المعلومات.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-statuses"></a>حالات المخزون
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية استخدام حالات المخزون لتصنيف المخزون وتعقبه.
 

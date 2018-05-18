@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>إنشاء تقويم وإنشاء أوقات عمل
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 وتصف التقويمات القدرة وأوقات العمل لموارد العمليات. سيساعدك هذا الإجراء في تعريف تقويم عمل استناداً لأحد قوالب أوقات العمل. يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.
 
