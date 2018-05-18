@@ -6,10 +6,11 @@
 ## [إزالة بيئة Talent](remove-talent-environment.md)
 ## [توفير التطبيقات النمطية لـ Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [توسيع الأداء الوظيفي لتطبيق Talent](extend-talent-functionality.md)
+## [الوصول إلى ميزات المعاينة في Dynamics 365 for Talent: Attract](access-preview-feature.md)
 
 # [تطوير استراتيجية موارد بشرية](departments-jobs-positions.md)
 ## [إعداد مكونات الوظائف](create-job.md)
-## [إنشاء قسم وربطه بالتدرج الهرمي للأقسام](create-department-add-department-hierarchy.md)
+## [إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام](create-department-add-department-hierarchy.md)
 ## [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](set-up-hr-parameters-across-legal-entities.md)
 ## [إعداد معلمات الموارد البشرية الخاصة بالشركة](set-up-company-specific-hr-parameters.md)
 ## [الأسئلة الشائعة حول إجراءات العاملين](personnel-actions-faq.md)

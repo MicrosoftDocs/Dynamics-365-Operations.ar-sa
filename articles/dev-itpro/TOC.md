@@ -10,7 +10,12 @@
 ## [الحصول على نسخة تقييم](dev-tools/get-evaluation-copy.md)
 ## [التسجيل للاشتراك](dev-tools/sign-up-preview-subscription.md)
 ## [نشر بيئة تطوير والوصول إليها](dev-tools/access-instances.md)
-## [متطلبات نظام التطوير](dev-tools/development-system-requirements.md)
+### [تكوين الجهاز الظاهري للمطور](dev-tools/configure-developer-vm.md)
+### [إنشاء مستخدم جديد على جهاز التطوير](dev-tools/enable-development-machine.md)
+### [الأجهزة الظاهرية للتطوير والإنشاء التي لا تسمح للمسؤول بالوصول إلى الأسئلة الشائعة](sysadmin/VMs-no-admin-access.md)
+### [إعادة تسمية بيئة محلية لتمكين الوصول إلى Visual Studio Team Services](migration-upgrade/vso-machine-renaming.md)
+### [متطلبات نظام التطوير](dev-tools/development-system-requirements.md)
+## [التحكم بالإصدار والبحث عن بيانات التعريف والتنقل](dev-tools/version-control-metadata-navigation.md)
 ## تطبيق نموذجي لإدارة الأساطيل
 ### [تطبيق نموذجي لإدارة الأساطيل](dev-tools/fleet-management-sample.md)
 ### [نظرة عامة حول التطبيق النموذجي لإدارة الأساطيل](dev-tools/introduction-fleet-management-sample.md)
@@ -22,7 +27,8 @@
 ### [بناء العمليات](dev-tools/build-operations.md)
 ### [محرر الأكواد](dev-tools/code-editor.md)
 ### [إنشاء نموذج وعناصر نموذج بيانات](dev-tools/create-data-model-elements.md)
-### [إنشاء مستخدم جديد على جهاز التطوير](dev-tools/enable-development-machine.md)
+#### [إرشادات التسمية](extensibility/NamingGuidelines.md)
+#### [إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث](dev-tools/lock-models.md)
 ### [تقرير تحليل التخصيص](dev-tools/customization-analysis-report.md)
 ### [وحدات تصميم العناصر](dev-tools/element-designers.md)
 ### [استخدام العنصر](dev-tools/element-usage.md)
@@ -31,9 +37,8 @@
 ### [النماذج](dev-tools/models.md)
 ### [المشاريع في Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [أدوات الوظائف الإضافية لبرنامج Visual Studio](dev-tools/developer-tools-add-ins.md)
-### [إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث](dev-tools/lock-models.md)
 ### [تحديث أدوات تطوير Visual Studio](dev-tools/update-development-tools.md)
-## لغة برمجة X++
+## لغة برمجة ++X
 ### [X++ وميزات مصحح الأخطاء ](dev-tools/new-x-debugger-features.md)
 ### [تصحيح أخطاء X++ على نسخة من قاعدة بيانات إنتاج](dev-tools/debug-x-issue-against-copy-of-production.md)
 ### [تصحيح كود X++](dev-tools/debug-xpp.md)
@@ -104,7 +109,7 @@
 #### [فئات W](dev-ref/w-classes.md)
 #### [فئات X](dev-ref/x-classes.md)
 
-## [الصفحة الرئيسية للقابلية للتوسعة](extensibility/extensibility-home-page.md)
+## [القابلية للتوسعة](extensibility/extensibility-home-page.md)
 ### مقدمة وبدء الاستخدام
 #### [خطط القابلية لتوسعة التطبيق](extensibility/extensibility-roadmap.md)
 #### [طلبات القابلية للتوسعة](extensibility/extensibility-requests.md) 
@@ -258,12 +263,12 @@
 ### [تخزين مؤقت للإطارات المتجانبة والقوائم لمساحات العمل](user-interface/tile-list-caching-workspaces.md)
 ## [مسجل المهام](user-interface/task-recorder.md)
 ### [مرجع سريع لمسجل المهام](user-interface/task-recorder-quick-reference.md)
-### [إنشاء وثائق أو التدريب على استخدام "مسجل المهام"](user-interface/task-recorder-training-docs.md)
+### ​[إنشاء وثائق أو التدريب على استخدام "مسجل المهام"](user-interface/task-recorder-training-docs.md)​
 
 # [النظام الأساسي للأجهزة المحمولة](mobile-apps/platform/mobile-platform-home-page.md)
-## بدء الاستخدام
-### [بدء الاستخدام](mobile-apps/platform/mobile-platform-getting-started.md)
+## [بدء الاستخدام](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [الهندسة](mobile-apps/platform/mobile-platform-architecture.md)
+### [نظرة عامة على أحداث منطق العمل](mobile-apps/platform/business-logic-events-overview.md)
 ### [إرشادات تصميم الصفحات](mobile-apps/platform/page-design-guidelines.md)
 ### [إرشادات تصميم الإجراءات](mobile-apps/platform/action-design-guidelines.md)
 ### [متطلبات تصميم النماذج](mobile-apps/platform/form-design-requirements.md)
@@ -409,15 +414,16 @@
 ### [قوالب بيانات التكوين](data-entities/configuration-data-templates.md)
 ### [قوالب بيانات مع أوراق عمل متعددة](data-entities/excel-template-multiple.md)
 ### [تعقب التغييرات لكيان](data-entities/entity-change-track.md)
-
+### [مفاتيح التكوين وكيانات البيانات](data-entities/config-key-entities.md)
 ### [البحث عن معلومات حول كيانات البيانات القياسية](data-entities/data-entities-report.md)
 
 
-## [وظائف استيراد البيانات وتصديرها](data-entities/data-import-export-job.md)
+## [استيراد البيانات وتصدير الوظائف](data-entities/data-import-export-job.md)
 
 ### [أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام](data-entities/tips-tricks-import-general-journal-entity.md)
 
 ## التطوير لكيانات البيانات
+### [مبادئ التصميم وأفضل الممارسات لكيانات البيانات](dev-tools/design-best-practices.md)
 ### [إنشاء كيانات بيانات جديدة](data-entities/build-consuming-data-entities.md)
 ### [خصائص كيان البيانات](data-entities/behavioral-properties-data-entities.md)
 ### [إنشاء حساب الأعمدة والحقول الظاهرية](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,6 +434,9 @@
 ### [خصائص بيانات التعريف](data-entities/behavioral-properties-data-entities.md)
 ### [عمليات التحقق من الصحة والإعدادات الافتراضية والحقول غير المعينة](data-entities/validations-defaults-unmapped-fields.md)
 ### [كيانات البيانات والأمان‬](data-entities/security-data-entities.md)
+### [إنشاء كيان للقراءة فقط يعرض الأبعاد المالية](financial/read-only-entity-financial.md)
+ 
+
 
 ## [إحضار قاعدة بياناتك الخاصة](analytics/export-entities-to-your-own-database.md)
 
@@ -435,7 +444,7 @@
 ## [أتمتة مهمة البيانات](data-entities/data-task-automation.md)
 
 ## [موارد للاستجابة لطلب بيانات القانون العام لحماية البيانات (GDPR)](gdpr/gdpr-home-page.md)
-### [دليل إلى القانون العام لحماية البيانات (GDPR) لتطبيق Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [دليل إلى القانون العام لحماية البيانات (GDPR) لتطبيق Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-guide.md)
 ### [تصنيفات الأصول](gdpr/gdpr-asset-classification-values.md)
 ### [استخدام تقرير البحث عن شخص](gdpr/gdpr-person-search-report.md)
 ### [توسيع تقرير البحث عن شخص](gdpr/gdpr-extend-person-search-report.md)
@@ -443,9 +452,10 @@
 ### [الاستجابة لطلب بيانات شخصية باستخدام Talent](gdpr/respond-dsr-request-talent.md)
 ### [الاستجابة لطلب بيانات شخصية باستخدام Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
 
+## [مساحة عمل التحقق من صحة البيانات](user-interface/data-validation-workspace.md)
 
-# [الصفحة الرئيسية للتسليم المستمر](dev-tools/continuous-delivery-home-page.md)
-## [الأسئلة المتداولة حول التطوير والتسليم المستمر](dev-tools/continuous-delivery-faq.md)
+# [التسليم المستمر](dev-tools/continuous-delivery-home-page.md)
+## [الأسئلة الشائعة حول التطوير والتسليم المستمر](dev-tools/continuous-delivery-faq.md)
 ## [استثناء حزم الاختبار من إخراج البناء](dev-tools/exclude-test-packages.md)
 ## [إدارة نماذج الجهات الخارجية وحزم وقت التشغيل باستخدام التحكم بالمصادر](dev-tools/manage-runtime-packages.md)
 ## [نماذج الإصدار في البناء التلقائي](dev-tools/version-models-build.md)
@@ -487,9 +497,10 @@
 ## [أساليب parm لعنصر تحكم إدخال مجزأ](financial/segmented-entry-control-parm-method-specification.md)
 ## [إضافة إمكانية البحث عن قيم الأبعاد المالية في قوالب Microsoft Excel](financial/add-dimensions-excel-templates.md)
 ## [إنشاء موفري أسعار الصرف](financial/create-exchange-rate-providers.md)
+## [إنشاء موفري أسعار الصرف في Microsoft Dynamics Finance and Operations، الإصدار 8.0](financial/create-exchange-rate-8.md)
 
 # تطوير سلسلة التوريد
-## [دليل تطوير جانت](user-interface/gantt-development-guide.md)
+## [دليل تطوير Gantt](user-interface/gantt-development-guide.md)
 ## [إنشاء محرك إدارة نقل جديد](../supply-chain/transportation/create-new-transportation-management-engine.md)
 
 
@@ -579,7 +590,6 @@
 
 # [إدارة النظام](sysadmin/system-administration-home-page.md)
 ## [أسئلة شائعة حول تحديثات النظام الأساسي الشهرية](sysadmin/faq-platform-monthly-updates.md)
-## [الأسئلة المتداولة حول الأجهزة الظاهرية التي لا تسمح بوصول المسؤول](sysadmin/VMs-no-admin-access.md)
 ## [إضافة ارتباطات للشروط القانونية الخاصة بمؤسستك وبيان الخصوصية](sysadmin/legal-terms-privacy-statement.md)
 ## [تقرير أكواد التراخيص ومفاتيح التكوين](sysadmin/license-codes-configuration-keys-report.md)
 ## [مشاركة البيانات عبر الشركة](sysadmin/cross-company-data-sharing.md)
