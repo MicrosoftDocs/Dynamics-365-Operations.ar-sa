@@ -3,7 +3,7 @@ title: "الصفحة الرئيسية لإدارة سلسة التوريد"
 description: "توفر هذه الصفحة قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/09/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
+ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
+ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
 # <a name="supply-chain-management-home-page"></a>الصفحة الرئيسية لإدارة سلسة التوريد
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations. 
 
@@ -47,12 +47,17 @@ ms.lasthandoff: 03/26/2018
 - [إدارة معلومات المنتج](pim/product-information.md)
 - [التحكم بالإنتاج](production-control/production-process-overview.md)
 - [المبيعات والتسويق](sales-marketing/overview-sales-marketing.md)
+- [إدارة الخدمة](service-management/service-management-home-page.md)
 - [إدارة النقل](transportation/transportation-management-overview.md)
 - [إدارة المستودعات](warehousing/warehouse-configuration.md)
 
 ## <a name="videos"></a>مقاطع الفيديو
 
-تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ديسمبر2017).
+تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations، الإصدار 8.0 (أبريل 2017).
+
+- [مزامنة أمر عمل بين Field Service وFinance and Operations](https://youtu.be/hAB4TDVMjxU)
+
+تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise Edition 7.3 (ديسمبر2017).
 
 -  [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg) 
 -  [مرشد تحسين الأداء](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
@@ -84,7 +89,7 @@ ms.lasthandoff: 03/26/2018
 
 **إدارة المستودعات** 
 
--  [معالجة إشعارات ASN الواردة في إدارة المستودعات](https://mix.office.com/watch/wpf78tr7rjuh)  
+<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
 -  [الاستفادة إلى أقصى حد من نظام إدارة المستودعات](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [إدارة المستودعات المتقدمة R3 - معالجة الوارد و‏‫الحد الأدنى/الحد الأقصى لعملية التزويد‬](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
 -  [إدارة المستودعات المتقدمة R3 - يوم من الحياة، ومعالجة الصادر وتزويد الطلب](https://youtu.be/Og0gLlVp7jA)

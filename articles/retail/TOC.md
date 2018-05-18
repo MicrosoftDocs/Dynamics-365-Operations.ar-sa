@@ -24,6 +24,7 @@
 # ضريبة المبيعات
 ## [نظرة عامة على ضريبة المبيعات](../financials/general-ledger/indirect-taxes-overview.md)
 ## [طرق حساب ضريبة المبيعات في حقل الأصل](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [تعيين ضريبة المبيعات والتجاوزات](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # مركز الاتصال
@@ -165,10 +166,11 @@
 ## [ تكوين توصيات المنتجات المدعومة بنظام التعلم الآلي](tasks/configure-machine-learning-product-recommendations.md)
 ## [ إنشاء وربط جهاز](tasks/create-associate-device.md)
 ## [ إنشاء وربط محطة أجهزة](tasks/create-associate-hardware-station.md)
-## [ إنشاء وربط سجلات](tasks/create-associate-registers.md)
-## [ إنشاء كشف حساب لمتجر بيع بالتجزئة وحسابه وترحيله](tasks/create-calculate-post-statement-retail-store.md)
-## [ إنشاء أوامر مركز الاتصال](tasks/create-call-center-orders.md)
-## [ إنشاء الأبعاد المالية لسجلات نقاط البيع وتكوين قيم الأبعاد في السجلات](tasks/create-financial-dimensions-pos.md)
+## [إنشاء وإقران سجلات](tasks/create-associate-registers.md)
+## [إنشاء كشف حساب لمتجر بيع بالتجزئة وحسابه وترحيله](tasks/create-calculate-post-statement-retail-store.md)
+## [تحسينات على ترحيل كشف الحساب](statement-posting-EOD.md)
+## [إنشاء أوامر مركز الاتصال](tasks/create-call-center-orders.md)
+## [إنشاء الأبعاد المالية لسجلات نقاط البيع وتكوين قيم الأبعاد في السجلات](tasks/create-financial-dimensions-pos.md)
 ## [ إنشاء الأبعاد المالية لثنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر](tasks/create-financial-dimensions-retail-channels.md)
 ## [ إنشاء قنوات على الإنترنت وتحديد سمات القناة](tasks/create-online-channel-define-channel-attributes.md)
 ## [ إنشاء مجموعات أذونات نقطة البيع](tasks/create-pos-permission-groups.md)
@@ -288,8 +290,7 @@
 ### [إضافة أعمدة مخصصة إلى شبكة حركة نقطة البيع (POS)](dev-itpro/pos-custom-transaction-column.md)
 ### [استدعاء API أو عملية لنقطة البيع (POS) من ملحق نقطة البيع](dev-itpro/pos-api-extension.md)
 ### [مشغلات Retail Modern POS والطباعة](dev-itpro/pos-trigger-printing.md)
-### [إضافة عنصر تحكم مخصص إلى طريقة عرض تستند إلى مصمم تخطيط غير تخطيط الشاشة لـ Retail Modern POS](dev-itpro/pos-control-non-screen.md)
-### [إنشاء وكيل Retail لنقطة البيع والتجارة الإلكترونية](dev-itpro/pos-generate-retail-proxy.md)
+### [إضافة عنصر تحكم مخصص إلى طريقة عرض المستند إلى مصمم غير شاشة Retail Modern POS](dev-itpro/pos-control-non-screen.md)
 ### [خطوات التكوين لمطوري Retail العاملين على مربعات التطوير المستضافة على السحابة](dev-itpro/cloud-dev-box.md)
 
 ## وقت التشغيل التجاري
