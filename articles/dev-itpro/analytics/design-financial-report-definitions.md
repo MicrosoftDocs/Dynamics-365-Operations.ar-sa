@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 58030df8db467f754ec93ecc3f41585b20f03893
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-definitions-in-financial-report-designer"></a>تعريفات التقارير في مصمم التقارير المالية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول تعريفات التقارير. إن تعريف التقرير عبارة عن مكون تقرير (أو كتلة إنشاء) يستخدم تعريف صف وتعريف عمود وتعريف شجرة تقارير اختياري لإنشاء تقرير. كما يوفر تعريف التقرير خيارات وإعدادات يمكنك استخدامها لتخصيص تقرير. 
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [التقارير المالية](financial-reporting-intro.md)

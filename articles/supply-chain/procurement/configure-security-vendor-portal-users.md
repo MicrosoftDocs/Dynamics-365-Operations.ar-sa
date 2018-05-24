@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f79f686720d615da6996f854a9e4cc18f840337f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5819d21a91ac2a7c91f19fd6d80fd7b983411545
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-portal-user-security"></a>أمان مستخدم مدخل المورّد على الإنترنت‬
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفية إعداد الأمان للمورّدين الخارجيين الذين يستخدمون مدخل المورّد. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016.
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 11/03/2017
 
 إذا كان نفس الشخص يتطلب الوصول إلى مدخل الموردين لعدة حسابات موردين (لمختلف الكيانات القانونية، على ما يُحتمل)، يجب إقران كل حساب من حسابات المستخدم الخاصة بهذا الشخص بنفس شخص جهة الاتصال المسجل. ويشتمل دور **المورد (خارجي)** على كافة القدرات الأساسية المطلوبة لاستخدام الوظيفة المتوفرة في مدخل المورد. يساعد هذا الإعداد على ضمان أن تكون واجهة المستخدم التي يشاهدها المستخدم الخارجي مركزةً على السيناريو المحدد فقط.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [تعاون المورد](collaborate-vendors-vendor-portal.md)

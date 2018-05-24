@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 1863814d6dd645da8602495858d024fbad2e7149
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -95,4 +95,16 @@ ms.lasthandoff: 04/11/2018
 تأكد من تحديث القيمة الافتراضية لحقل Finance and Operations **قيمة عرض الحساب الرئيسي** لمطابقة القيمة المطلوبة.
 
 قيمة القالب الافتراضية هي **401100**.
+
+## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
+
+تبين الأشكال التوضيحية التالية تعيين القالب في تكامل البيانات.
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>فواتير الاتفاقيات (Field Service لـ Fin and Ops): رؤوس الفواتير
+
+[![تعيين القالب في تكامل البيانات](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>فواتير الاتفاقيات (Field Service لـ Fin and Ops): بنود الفواتير
+
+[![تعيين القالب في تكامل البيانات](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 

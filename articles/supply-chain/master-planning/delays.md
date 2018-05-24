@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed0df1abbf4f70ea70046eff7b91a25fdd59016c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fed78a7eba16d286a81b1e9ad709142422298c91
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delays"></a>التأخيرات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول التواريخ المتأخرة في التخطيط الرئيسي. التاريخ المتأخر هو تاريخ استحقاق واقعي تتلقاه الحركة إذا كان أقرب تاريخ تنفيذ يحسبه التخطيط الرئيسي أحدث من التاريخ المطلوب.
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 11/03/2017
 
 **ملاحظة:** في الإصدارات السابقة، تُعرف التأخيرات المحسوبة بـ *رسائل العمليات الآجلة*، ويُعرف التاريخ المتأخر بـ *تاريخ العمليات الآجلة*، وتمت الإشارة إلى حركة متأخرة باعتبارها *حركة تم تعيينها للمستقبل*.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [إعدادات التغطية](coverage-settings.md)

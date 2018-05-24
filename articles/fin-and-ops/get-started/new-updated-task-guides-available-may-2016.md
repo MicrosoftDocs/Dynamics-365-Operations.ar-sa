@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>دلائل المهام الجديدة أو المحدثة (مايو 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ‏‫تسرد هذه المقالة دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (مايو 2016 -- كل اللغات) لتطبيق Microsoft Dynamics AX. لم يتم إصدار مكتبة بدء استخدام جديدة. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()دلائل المهام في المكتبة الموحدة APQC (مايو 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (مايو 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
 تحتوي المكتبة الموحدة APQC (مايو 2016) على دلائل المهام المخصصة للاستخدام مع تعليمات تحديث مايو 2016 لتطبيق Microsoft Dynamics AX وإصدار فبراير 2016 لتطبيق Microsoft Dynamics AX. تتوفر الإصدارات المترجمة من دلائل المهام التي تم إصدارها في المكتبة الموحدة APQC (فبراير 2016) في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md). <strong>ملاحظة:</strong> تشير العلامة النجمية (<strong>\</strong>*) إلى جانب عنوان بند أداة تكوين عمليات الأعمال إلى إنشاء دليل المهمة لعملية الأعمال هذه قد تم لتحديث مايو 2016 لتطبيق Dynamics AX، وهو غير معتمد في الإصدارات السابقة من Microsoft Dynamics AX.
@@ -186,7 +186,7 @@ ms.lasthandoff: 04/13/2018
 |                  إعداد قيود النقل لصنف                   |     عمومي     |
 |                <strong>\</strong>*إعداد سياسات عمل المستودع                 |     عمومي     |
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [دلائل المهام الجديدة (فبراير 2016)](new-task-guides-available-february-2016.md)

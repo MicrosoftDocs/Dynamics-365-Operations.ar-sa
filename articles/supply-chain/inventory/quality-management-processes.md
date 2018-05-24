@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>عمليات إدارة الجودة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول عملية إدارة الجودة للمنتجات غير المطابقة. ويوضح الكيفية التي يمكنك بها استخدام وظيفة مراقبة الجودة، وكيفية تحديد حالات عدم المطابقة والاحتفاظ بها، وكيفية معالجة التصحيحات.
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 11/03/2017
 
 وإنها لفكرة جيدة أن يتم تحديد نوع مستند فريد للتصحيحات باستخدام صفحة **نوع المستند**. ويمكنك فيما بعد استخدام صفحة **إعداد التقرير** لتحديد ما إذا كان يجب طباعة تعليقات لنوع المستند هذا في تقرير التصحيح. ويعرض تقرير التصحيح المطبوع معلومات حول حالة عدم التوافق والملاحظات ذات الصلة بعدم التوافق. كما يتضمن التقرير معلومات التصحيح، مثل نوع التشخيص، وملاحظات التصحيح المتعلقة.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [تمكين إدارة الجودة](enable-quality-management.md)

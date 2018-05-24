@@ -20,16 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="routes-and-operations"></a>المسارات والعمليات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع معلومات حول المسارات والعمليات. يعرّف المسار عملية إنتاج منتج أو متغير المنتج. وهو يصف كل خطوة (عملية) في عملية الإنتاج والترتيب الذي يجب اتباعه لتنفيذ هذه الخطوات. لكل خطوة، يعرّف المسار أيضًا موارد العمليات المطلوبة، ووقت الإعداد ووقت التشغيل المطلوبين، وكيفية حساب التكلفة.
 
@@ -230,12 +230,12 @@ ms.lasthandoff: 03/09/2018
 -   **دُفعة الموارد** -هذا الخيار هو أساسًا خيار **الدُفعة** نفسه. ومع ذلك، تتضمن العملية الحسابية حقل **قدرة الدُفعة** من مورد العمليات. ونتيجة لذلك، يعتمد الوقت على الموارد.
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [قوائم مكونات الصنف والمعادلات](bill-of-material-bom.md)
 
-[فئات التكلفة المستخدمة في عمليات توجيه الإنتاج](../cost-management/cost-categories-used-production-routings.md)
+[فئات التكاليف المستخدمة في توجيه الإنتاج](../cost-management/cost-categories-used-production-routings.md)
 
 [قدرات الموارد](resource-capabilities.md)
 

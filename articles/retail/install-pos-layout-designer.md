@@ -20,16 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8fdebf692bd3cd8500274cc73ca5b0591dba4140
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>تثبيت مصمم تخطيط Retail POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يمكنك استخدام المصمم بنقرة واحدة لتصميم تخطيطات مختلفة لنقاط البيع التجزئة الحديثة (MPOS) ونقاط بيع المجموعة، في الوضع الأفقي أو في الوضع العمودي، للمتاجر وآلات تسجيل المدفوعات والصرافين والمدراء.
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/03/2017
 
 **مشكلة معروفة:** لا يعمل المصمم بشكل صحيح في مستعرضات Google Chrome وMozilla Firefox. نحن نعمل على إصلاح هذه المشكلة.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [تكوين نقطة بيع حديثة للبيع بالتجزئة وتنزيلها وتثبيتها وتنشيطها](retail-modern-pos-device-activation.md)

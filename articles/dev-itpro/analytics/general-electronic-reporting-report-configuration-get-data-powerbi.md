@@ -18,16 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>تكوين إعداد التقارير الإلكترونية لسحب البيانات إلى Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية استخدام تكوين التقارير الإلكترونية لترتيب نقل البيانات من مثيل Finance and Operations إلى خدمات Power BI. يستخدم هذا الموضوع، كمثال، حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي كبيانات عمل يجب نقلها. تستخدم الرسوم المرئية في Power BI هذه البيانات لحركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لتقديم طريقة عرض لتحليل أنشطة الاستيراد/التصدير في الشركة على تقرير Power BI.
 
@@ -132,12 +132,12 @@ ms.lasthandoff: 02/23/2018
 2. حدد تقرير Power BI  **تفاصيل الاستيراد والتصدير** الذي قمت بإنشائه، لإظهار هذا التقرير كعنصر إجراء على الصفحة المحددة. 
 3. انقر فوق عنصر الإجراء لفتح صفحة Finance and Operations التي تعرض التقرير الذي قمت بتصميمه في Power BI. [![تقرير تفاصيل الاستيراد والتصدير](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[وجهات التقارير الإلكترونية‬](electronic-reporting-destinations.md)
+[وجهات إعداد التقارير الإلكترونية‬](electronic-reporting-destinations.md)
 
-[نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
+[نظرة عامة على إعداد التقارير الإلكتروني](general-electronic-reporting.md)
 
 
 

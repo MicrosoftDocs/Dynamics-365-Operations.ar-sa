@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7bb152334b3b06c86dff024d0e99aea9bb452deb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>مقارنة السحابة والميزة المحلية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يظهر هذا الموضوع ما إذا كانت كل ميزة متوفرة في هذه المنتجات:
 
@@ -126,9 +126,9 @@ ms.lasthandoff: 04/13/2018
 
 | المنطقة | الميزة | السحابة | محليًا|
 |---|---|---|---|
-| كل مناطق Talent | كل ميزات Talent | نعم | لا |
+| كل مناطق Talent | كل ميزات Talent | ‏‏نعم | لا |
 
-## <a name="see-also"></a>راجع أيضًا
+## <a name="additional-resources"></a>الموارد الإضافية
 
 - [ميزات لم يتم تنفيذها في عمليات النشر المحلية](features-not-implemented-on-prem.md)
 

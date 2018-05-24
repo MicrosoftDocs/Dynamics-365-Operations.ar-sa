@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 22264f0d82844e63bc7fc42705184c6ecc27e28d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-purchase-orders"></a>إنشاء أوامر شراء
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 تصف هذه المقالة العمليات والخيارات التي تتوفر لك عندما تنشئ أمر شراء يدويًا.
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 11/03/2017
 
 قد تضطر إلى تأخير إتمام أمر شراء. على سبيل المثال، قد تحتاج إلى الحصول على معلومات إضافية حول المنتجات أو الخدمات، أو قد تحتاج إلى الحصول على إذن الإنفاق. هناك عدة طرق لتعليق أمر الشراء. على سبيل المثال، يمكنك الانتظار ريثما يتم تأكيد الأمر. أو، في حالة استخدام سير عمل لإدارة تغيير، لا تقدم الأمر للموافقة عليه. إذا تعين عليك حظر كافة الأوامر لمورّد معين، يمكنك أيضًا وضع علامة **قيد الانتظار** على المورّد للمعالجة على أصل المورّد. وهناك أيضًا بعض الظروف التي قد تمنع معالجة الأمر. على سبيل المثال، قد يتم منع المعالجة إذا تم تجاوز حدود الائتمان أو إذا لم تتوفر أموال الموازنة المطلوبة.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [نظرة عامة على أمر الشراء](purchase-order-overview.md)

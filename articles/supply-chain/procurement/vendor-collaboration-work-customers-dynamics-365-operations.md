@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-customers"></a>تعاون المورد مع العملاء
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيفية استخدام تعاون المورد للتعامل مع العملاء في Microsoft Dynamics 365 for Finance and Operations. يستطيع الموردون إكمال سلسلة من العمليات التجارية من مساحات العمل التالية:
 
@@ -141,7 +141,7 @@ ms.lasthandoff: 03/26/2018
 
 المعلومات التي يمكن الوصول إليها هي اسم المورد، والعناوين، معلومات الاتصال، والأشخاص المسؤولين، ومعلومات الاتصال الخاصة بهم، وأرقام الهوية، وأرقام التسجيل الضريبي، وفئات التدبير التي يعتمدها المورد للبيع إلى العميل، و مزيد من المعلومات حول الشهادات.
 
-## <a name="see-also"></a>راجع أيضًا
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [إدارة مستخدمي تعاون المورد](manage-vendor-collaboration-users.md)
 

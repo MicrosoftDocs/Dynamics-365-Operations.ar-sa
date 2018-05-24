@@ -33,8 +33,6 @@ ms.lasthandoff: 04/13/2018
 
 لمزيد من المعلومات حول تضمين PowerApps، شاهد الفيديو القصير [كيفية تضمين PowerApps في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>إضافة PowerApp مضمن إلى صفحة
 ### <a name="overview"></a>نظرة عامة
 قبل تضمين PowerApp في عميل Finance and Operations، تحتاج أولاً للبحث عن أو بناء PowerApp بالمرئيات و/أو الوظيفة المطلوبة. لن نصف العملية التفصيلية لإنشاء PowerApp هنا. موضوع [مقدمة إلى PowerApps](https://docs.microsoft.com/en-us/powerapps/getting-started) عبارة عن نقطة بداية جيدة إذا كنت مستخدمًا جديدًا PowerApps.

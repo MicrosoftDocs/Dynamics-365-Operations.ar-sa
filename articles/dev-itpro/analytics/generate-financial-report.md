@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 73d1a3316db7589d114c70a4dbf847dc67aa077b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a>إنشاء تقرير مالي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع معلومات عامة حول إنشاء تقرير مالي. 
 
@@ -155,16 +155,16 @@ ms.lasthandoff: 12/01/2017
 | يستبعد كتلة الإنشاء المحددة  | Alt+X                      |
 | يستبعد تعريف الصف المحدد  | Ctrl+B                     |
 | يستبعد قيمة البُعد المحددة | Ctrl+D                     |
-| فتح تعريف التقرير المحدد  | Ctrl+R                     |
-| فتح تعريف الصف المحدد     | Ctrl+O                     |
+| يفتح تعريف التقرير المحدد  | Ctrl+R                     |
+| يفتح تعريف الصف المحدد     | Ctrl+O                     |
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [التقارير المالية](financial-reporting-intro.md)
 
-[واجهة أداة تصميم التقارير](report-designer-interface.md)
+[واجهة مصمم التقارير](report-designer-interface.md)
 
 
 

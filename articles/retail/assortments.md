@@ -3,27 +3,28 @@ title: "إدارة المجموعات المنوعة"
 description: "يوضح هذا الموضوع المفاهيم الأساسية لإدارة المجموعات المنوعة في Microsoft Dynamics 365 for Retail، ويوفر اعتبارات التنفيذ لمشروعك."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>إدارة المجموعات المنوعة
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>نظرة عامة
 يوفر Microsoft Dynamics 365 for Retail *عمليات الفرز* التي تتيح لك إدارة توفر المنتجات عبر القنوات. تحدد عمليات الفرز المنتجات التي تتوفر في متاجر مُعينة وخلال فترة زمنية معينة.
@@ -35,25 +36,25 @@ ms.lasthandoff: 03/12/2018
 ### <a name="basic-assortment-setup"></a>إعداد الفرز الأساسي
 في المثال التالي، يتم تكوين فرز فريد لكل متجر. في هذه الحالة، يتوفر فقط المنتج 1 في المتجر 1، ويتوافر فقط المنتج 2 في المتجر 2.
 
-![يتوافر كل منتج في متجر واحد](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "يتوافر كل منتج في متجر واحد")
+![يتوفر كل منتج في أحد المتاجر](./media/Managing-assortments-figure1.png)
 
 لإتاحة المنتج 2 في المخزن 1، يمكنك إضافة المنتج إلى الفرز 1.
 
-![تمت إضافة المنتج 2 إلى الفرز 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "تمت إضافة المنتج 2 إلى الفرز 1")
+![تمت إضافة المنتج 2 إلى الفرز 1](./media/Managing-assortments-figure2.png)
 
 بدلاً من ذلك، يمكنك إضافة المتجر 1 إلى الفرز 2.
 
-![تمت إضافة المتجر 1 إلى الفرز 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "تمت إضافة المتجر 1 إلى الفرز 2")
+![تمت إضافة المتجر 1 إلى الفرز 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>التدرجات الهرمية للمؤسسات
 في الحالات التي تشترك فيها عدة قنوات في نفس عمليات فرز المنتجات، يمكنك تكوين عمليات الفرز باستخدام التدرج الهرمي للمؤسسات لعمليات فرز Retail. عند إضافة العقد من هذا التدرج الهرمي، فسوف يتم تضمين جميع القنوات في تلك العقدة والعقد التابعة لها.
 
-![التدرج الهرمي للمؤسسات](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "التدرج الهرمي للمؤسسات")
+![التدرج الهرمي للمؤسسات](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>فئات المنتج
 وبشكل مماثل، على جانب المنتج، يمكنك تضمين مجموعات المنتجات باستخدام التدرجات الهرمية لفئات المنتج. يمكنك تكوين عمليات الفرز من خلال تضمين عقد تدرج هرمي للفئات واحدة أو أكثر. في هذه الحالة، سوف تتضمن عملية الفرز جميع المنتجات في عقد الفئة تلك والعقد التابعة لها.
 
-![فئات المنتجات](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "فئات المنتجات")
+![فئات المنتج](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>المنتجات أو الفئات المستثناة
 بالإضافة إلى تضمين المنتجات والفئات في عمليات الفرز، يمكنك استخدام خيار استثناء لتحديد منتجات معينة أو فئات يجب استثنائها من عمليات الفرز. في المثال التالي، تحتاج إلى تضمين جميع المنتجات في فئة معينة، فيما عدا المنتج 2. في هذه الحالة، لا يلزم تحديد فرز المنتجات حسب المنتج أو إنشاء عقد فئات إضافية. بدلاً من ذلك، يمكنك فقط تضمين الفئة مع استبعاد المنتج.
@@ -61,7 +62,7 @@ ms.lasthandoff: 03/12/2018
 > [!NOTE]
 > إذا كان أحد المنتجات مُدرج ومستبعد في واحدة أو أكثر من عمليات الفرز حسب التعريف، فسوف يعتبر المنتج مستبعد دائمًا.
 
-![منتج تم استبعاده](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "منتج تم استبعاده")
+![المنتج المستثنى](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>المنتجات العمومية والمُصدرة
 يتم تحديد عمليات الفرز على مستوى عمومي، ويمكن أن تحتوي على قنوات من كيانات قانونية متعددة. تتم أيضًا مشاركة المنتجات والفئات المُضمنة في عمليات الفرز عبر الكيانات القانونية. ومع ذلك، يجب إصدار منتج قبل بيعه فعليًا أو طلبه أو حسابه أو استلامه في القناة (على سبيل المثال، في نقطة البيع \[نقطة البيع\]). ولذلك، على الرغم من أنه يمكن لمتجرين في كيانات قانونية مختلففة مشاركة عملية فرز تحتوي على نفس المنتجات، فسوف تتوافر المنتجات فقط إذا تم إصدارها لهذه الكيانات القانونية.

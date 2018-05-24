@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: faccf695642d236dbf74a324ccecaf91f62638be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-receipt-against-purchase-orders"></a>إيصال استلام المنتجات في مقابل أوامر الشراء
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 توضح هذه المقالة مختلف الخيارات المتعلقة بتسجيل المنتجات على أنها مُستلمة.
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 11/03/2017
 
 يمكنك الوصول إلى هذه الصفحة من مجموعة إجراءات **الاستلام** في صفحة **أمر الشراء**. تتضمن المعلومات الموجودة في دفاتر اليومية تفاصيل حول الكميات والتواريخ والأبعاد.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [نظرة عامة على أمر الشراء](purchase-order-overview.md)

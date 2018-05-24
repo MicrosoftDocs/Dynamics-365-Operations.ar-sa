@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>مخطط "جانت" لجدولة الوظائف
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تم تصميم مخطط جانت لتمكين مخططي الإنتاج من التحكم في خطة الإنتاج وتحسينها. يساعد مخطط جانت على جعل تدفق العمليات شفافًا ويسهّل ضبط جدول الإنتاج مع أخذ نقص المواد أو الموارد في الاعتبار. من شأن ذلك أن يساعد المخططين على استخدام الموارد المتوفرة على أفضل وجه، وتقليل العمل قيد التقدم‬ وتحسين أوقات الإنتاجية لأوامر الإنتاج.
 
@@ -156,7 +156,7 @@ ms.lasthandoff: 04/13/2018
 |           <strong>الوظيفة لإكمالها</strong> (قائمة في مساحة العمل <strong>إدارة طابق الإنتاج‬</strong>)            |                                                                                               تُظهر مساحة عمل <strong>قائمة الوظائف لإكمالها في إدارة طابق الإنتاج‬</strong> الوظائف من أوامر الإنتاج والأوامر الدفعية قيد التقدم على الموارد المحددة في مساحة العمل. في عنصر قائمة <strong>مخطط جانت</strong>، يمكنك فتح مخطط جانت، حيث سيتم تحميل كافة الوظائف التي تم تحديدها في القائمة إلى المخطط.                                                                                               |
 | <strong>أوامر الإنتاج للإصدار‬</strong> (تفتح من مساحة عمل <strong>إدارة طابق الإنتاج</strong>) |                                                                                                                                         تفتح صفحة "أوامر الإنتاج للإصدار‬" من مساحة عمل <strong>إدارة طابق الإنتاج‬</strong>. تعرض هذه الصفحة أوامر الإنتاج والأوامر الدفعية المجدولة في انتظار إصدارها. في هذه الصفحة يمكنك فتح مخطط جانت لأوامر إنتاج محددة.                                                                                                                                          |
 
-## <a name="see-also"></a>راجع أيضًا  
+## <a name="additional-resources"></a>الموارد الإضافية  
 [الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدفعية (فيديو)](https://youtu.be/BtbuShkGj4I)
 
 [الجدولة الظاهرية للإنتاج (برنامج نصي للعرض التوضيحي)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

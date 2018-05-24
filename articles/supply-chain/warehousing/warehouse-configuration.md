@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-configuration"></a>تكوين المستودع
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية تكوين مستودع. ويشتمل على معلومات حول كيفية تكوين تخطيط المستودع وعمليات المستودع.
 
@@ -112,7 +112,7 @@ ms.lasthandoff: 03/26/2018
 
 ولتسهيل وتسريع عملية تحديد الإجراءات التي ترتبط بكل بند توجيه موقع، استخدم إحدى استراتيجيات المحددة مسبقاً. على سبيل المثال، يمكنك استخدام استراتيجية **الموقع الفارغ جون أي عمل وارد** للبحث عن مواقع فارغة في مستودع، أو يمكنك استخدام استراتيجية **حجز دفعة ما تنتهي صلاحيته أولاً يُصرف أولاً‬‬** لانتقاء المبيعات الصادرة.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (دليل المهام)](tasks/configure-locations-wms-enabled-warehouse.md)

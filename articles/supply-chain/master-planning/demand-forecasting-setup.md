@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>إعداد التنبؤ بالطلب
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع مهام الإعداد التي يجب تنفيذها لتجهيز التنبؤ بالطلب.  
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>‏‫إعدادات التنبؤ بطلب Finance and Operations لخدمة Machine Learning‬
 ‏‫لعرض المعلمات التي يمكن تكوينها لخدمة التنبؤ بطلب Finance and Operations، انتقل إلى **التخطيط الرئيسي** &gt; **الإعداد‬‏‫** &gt; **‬‏‫التنبؤ بالطلب** &gt; **معلمات خوارزمية التنبؤ**. تعرض صفحة **معلمات خوارزمية التنبؤ** القيم الافتراضية للمعلمات. يمكنك الكتابة فوق هذه المعلمات في صفحة ‬‏**‬‏‫معلمات التنبؤ بالطلب**. استخدم علامة التبويب **عام** للكتابة فوق المعلمات على الصعيد العالمي، أو استخدام علامة التبويب **مفاتيح توزيع الأصناف** إلى الكتابة فوق المعلمات لكل مفتاح توزيع صنف. تؤثر المعلمات التي يتم الكتابة فوقها لمفتاح توزيع الصنف على التنبؤ بالأصناف المرتبطة بمفتاح توزيع الصنف.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [مقدمة إلى التنبؤ بالطلب](introduction-demand-forecasting.md)

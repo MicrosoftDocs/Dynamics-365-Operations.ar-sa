@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 703070ae85f504cf204244b2197732dc6849abd6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-order-cost-analysis"></a>تحليل تكلفة أمر الإنتاج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول تحليل التكاليف الذي يمكنك القيام به لأوامر الإنتاج الحالية والمكتملة. يمكنك تحليل التكاليف المقدرة والتكاليف الفعلية باستخدام صفحة حساب السعر أو تقرير تقديرات التكلفة والتكاليف‬. يمكنك عرض معلومات حول التكاليف المقدرة والفعلية (والكمية) لكل صنف مكون وعملية توجيه وتكلفة غير مباشرة.
 
@@ -59,10 +59,10 @@ ms.lasthandoff: 11/03/2017
 -   **الأصناف المنتهية قيد التنفيذ‬**− يذكر هذا التقرير أوامر الإنتاج الحالية والحركات التي تم الإبلاغ عنها كمنتهية اعتبارًا من تاريخ حركة معينة.
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[المصادر العامة لفروقات الإنتاج](common-sources-of-production-variances.md)
+[المصادر الشائعة للفروق في الإنتاج](common-sources-of-production-variances.md)
 
 
 

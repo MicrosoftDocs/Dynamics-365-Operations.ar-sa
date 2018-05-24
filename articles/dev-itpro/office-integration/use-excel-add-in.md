@@ -38,9 +38,6 @@ ms.lasthandoff: 04/13/2018
 
 لمزيد من المعلومات حول استخدام الأداة الإضافية لـ Excel، شاهد الفيديو القصير [إنشاء قالب Excel لأنماط العناوين والبنود في Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>فتح بيانات الكيان في Excel عند بدء التشغيل من Finance and Operations
 1. على صفحة في Finance and Operations، حدد **فتح في Microsoft Office**.
 

@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 28037713a51a83f4b792adef8a26f02960fa6b07
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nonconformance-management"></a>إدارة عدم المطابقة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة الإعداد الأساسي المطلوب لاستخدام حالات عدم المطابقة. ستحتاج إلى إجراء إعداد إضافي إذا كنت تريد استخدام أوامر الجودة.
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 6.  قم بتحديد العمليات ذات الصلة التي سيتم تعيينها لحالات عدم المطابقة. استخدم صفحة **العمليات** لتحديد تصنيف العمل الذي قد يمكن تطبيقه لحالة عدم مطابقة معتمدة. وعند تعيين عملية ذات صلة بحالة عدم مطابقة، يمكنك أيضًا توفير المعلومات التفصيلية، مثل المعلومات المتعلقة بالمادة المقترنة، وساعات العمل، والمصاريف المتنوعة اللازمة لتنفيذ العملية. ويتم استخدام هذه المعلومات لاحتساب تكلفة مقدرة للعملية. وتُستخدم المعلومات المفصلة والتكاليف المقدرة كمرجع. كما تختلف العمليات ذات الصلة بالجودة عن تلك التي يمكن تعريفها لمسار الإنتاج.
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [إنشاء ومعالجه عدم المطابقة (دليل المهام)](tasks/create-process-non-conformance.md)

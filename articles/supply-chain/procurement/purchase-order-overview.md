@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ee9baefc95c24d23edca8438792c9648f77e1bdf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d01ef1c496c7c79795d9d740ee755e84434dfdf1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-order-overview"></a>نظرة عامة على أمر الشراء
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 توفر هذه المقالة معلومات عامة حول أوامر الشراء بالإضافة إلى ارتباطات تؤدي إلى مقالات ذات صلة بمختلف المراحل التي يمر عبرها أمر الشراء.
 
@@ -82,7 +82,7 @@ ms.lasthandoff: 11/03/2017
 -   **مؤكد** - يتم تعيين هذه الحالة بعد تأكيد الأمر. بشكل عام، هذه الحالة هي حالة الموافقة الأخيرة التي يتم تعيينها للأمر.
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [إنشاء أمر شراء](purchase-order-creation.md)

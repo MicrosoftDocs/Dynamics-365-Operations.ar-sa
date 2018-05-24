@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>جدولة العمليات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع معلومات حول جدولة العمليات. يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن.
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="finite-materials"></a>المواد المحدودة
 إذا كنت تستخدم مواد محدودة، فإن الجدولة تتوقف أيضًا على توفر المواد المطلوبة للإنتاج. إذا لم تتوفر مكونات كافية للإنتاج، فيمكن حدوث تأخير في الإنتاج. يمكنك إسناد الجدولة إلى استخدام المواد عن طريق تحديد المواد التي يجب أن تكون متوفرة للإنتاج. عند تحسينات القدرة الإنتاجية للموارد وتوفر المواد، يتم حساب الإنتاج وفقًا لهذه القيود. لا يمكن جدولة بدء أمر إنتاج إلا عندما تصبح القدرة الإنتاجية والمواد متوفرة في الوقت نفسه وبالكميات المطلوبة.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [خيارات جدولة العمليات](operation-scheduling-options.md)

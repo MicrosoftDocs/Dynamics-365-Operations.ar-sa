@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31308e64d4871a4d09540df16fdcd02cc83bd0be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f3905f364ea67eab226323fd3450ebed30e4735
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a>المواعيد النهائية لإدخال الأوامر
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول المواعيد النهائية لإدخال أمر. الموعد نهائي لإدخال أمر هو الانقطاع الذي يحدد ما إذا كان يتم التعامل مع طلب عميل (وتنفيذه) كما لو تم تلقيه في اليوم الحالي أو في اليوم التالي.
 
@@ -103,7 +103,7 @@ ms.lasthandoff: 11/03/2017
 
 **ملاحظة:** إذا كان تعديل التوقيت الصيفي قيد التفعيل، فإنه يتم تعديل المواعيد النهائية لإدخال الأوامر وفقًا لذلك.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [جداول التسليم](delivery-schedules.md)

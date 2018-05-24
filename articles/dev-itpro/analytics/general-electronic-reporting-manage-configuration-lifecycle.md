@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eecd53d181a086a5cf295f54f9fa72aa2960c272
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f3d6463ab07aaaf69a16aa0d59840cbe47427335
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>إدارة دورة حياة تكوين التقارير الإلكترونية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إدارة دورة حياة تكوينات التقارير الإلكترونية لحل Finance and Operations.
 
@@ -74,10 +74,10 @@ ms.lasthandoff: 11/03/2017
 
 يمكن تحميل تكوينات التقارير الإلكترونية التي تم تصميمها في بيئة التطوير إلى بيئة الاختبار لتقييم التكوين (تكامل العملية المناسب وصحة النتائج والأداء) وضمان الجودة مثل صحة حقوق الوصول المدفوعة بالأدوار والفصل بين المهام. يمكن استخدام الميزات التي تتيح تبادل تكوين التقارير الإلكترونية لهذا الغرض. وأخيراً، يمكن تحميل تكوينات التقارير الإلكترونية مثبتة الكفاءة إلى LCS، حيث يمكن مشاركتها مع المشتركين في الخدمة أو إلى بيئة الإنتاج للاستخدام الداخلي‬‏‫، كما يظهر في التوضيح التالي.‬ ![دورة حياة تكوين التقارير الإلكترونية](./media/ger-configuration-lifecycle.png)
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
+[نظرة عامة على إعداد التقارير الإلكتروني](general-electronic-reporting.md)
 
 
 

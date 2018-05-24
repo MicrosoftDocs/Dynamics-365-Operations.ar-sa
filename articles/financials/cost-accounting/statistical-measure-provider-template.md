@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يتم استخدام البُعد الإحصائي وأعضاؤه لتسجيل الإدخالات غير النقدية في محاسبة التكاليف والتحكم فيها. يمكن استخدام أعضاء الأبعاد الإحصائية لغرضين:
 
@@ -344,7 +344,7 @@ ms.lasthandoff: 03/26/2018
 | CC002       | FI | 4,100.00  | (4,100 ÷ 21,550) × المبلغ  |
 | CC003       | تكنولوجيا المعلومات | 15,000.00 | (15,000 ÷ 21,550) × المبلغ |
 
-## <a name="see-also"></a>راجع أيضًا
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [أسس التوزيع](allocation-bases.md)
 
