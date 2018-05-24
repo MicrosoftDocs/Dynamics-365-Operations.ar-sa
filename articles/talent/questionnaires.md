@@ -19,44 +19,44 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 200636577ec8b9be9822ef0fa26daa0121e61211
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="questionnaires"></a><span data-ttu-id="4e637-105">استبيانات</span><span class="sxs-lookup"><span data-stu-id="4e637-105">Questionnaires</span></span>
+# <a name="questionnaires"></a><span data-ttu-id="b83b5-105">استبيانات</span><span class="sxs-lookup"><span data-stu-id="b83b5-105">Questionnaires</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-<span data-ttu-id="4e637-106">يوفر هذا الموضوع معلومات عامة حول الاستبيانات وارتباطات لمزيد من المعلومات التفصيلية.</span><span class="sxs-lookup"><span data-stu-id="4e637-106">This topic provides general information about questionnaires, and links to more detailed information.</span></span> <span data-ttu-id="4e637-107">والاستبيان هو مجموعة من الأسئلة المستخدمة لجمع المعلومات للأغراض المختلفة.</span><span class="sxs-lookup"><span data-stu-id="4e637-107">A questionnaire is a set of questions that is used to collect information for various purposes.</span></span> <span data-ttu-id="4e637-108">ويمكنك تصميم استبيانات وإنشاؤها وتوزيعها وإكمالها وتحليل نتائجها.</span><span class="sxs-lookup"><span data-stu-id="4e637-108">You can design, create, distribute, and complete questionnaires, and then analyze the results.</span></span> 
+<span data-ttu-id="b83b5-106">يوفر هذا الموضوع معلومات عامة حول الاستبيانات وارتباطات لمزيد من المعلومات التفصيلية.</span><span class="sxs-lookup"><span data-stu-id="b83b5-106">This topic provides general information about questionnaires, and links to more detailed information.</span></span> <span data-ttu-id="b83b5-107">والاستبيان هو مجموعة من الأسئلة المستخدمة لجمع المعلومات للأغراض المختلفة.</span><span class="sxs-lookup"><span data-stu-id="b83b5-107">A questionnaire is a set of questions that is used to collect information for various purposes.</span></span> <span data-ttu-id="b83b5-108">ويمكنك تصميم استبيانات وإنشاؤها وتوزيعها وإكمالها وتحليل نتائجها.</span><span class="sxs-lookup"><span data-stu-id="b83b5-108">You can design, create, distribute, and complete questionnaires, and then analyze the results.</span></span> 
 
-<span data-ttu-id="4e637-109">يمكنك تخصيص استبيان لملاءمة الاحتياجات المحددة الخاصة بك باستخدام الميزات المختلفة التي تتوفر في Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4e637-109">You can customize a questionnaire to fit your specific requirements by using various features that are available in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="4e637-110">فيما يلي بعض الأمثلة على كيفية استخدام الاستبيانات:</span><span class="sxs-lookup"><span data-stu-id="4e637-110">Here are some examples of how questionnaires can be used:</span></span>
+<span data-ttu-id="b83b5-109">يمكنك تخصيص استبيان لملاءمة الاحتياجات المحددة الخاصة بك باستخدام الميزات المختلفة التي تتوفر في Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="b83b5-109">You can customize a questionnaire to fit your specific requirements by using various features that are available in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="b83b5-110">فيما يلي بعض الأمثلة على كيفية استخدام الاستبيانات:</span><span class="sxs-lookup"><span data-stu-id="b83b5-110">Here are some examples of how questionnaires can be used:</span></span>
 
--   <span data-ttu-id="4e637-111">اختبار المهارات الاحترافية للموظفين ومقدمي الطلبات.</span><span class="sxs-lookup"><span data-stu-id="4e637-111">Test the professional skills of employees and applicants.</span></span>
--   <span data-ttu-id="4e637-112">تقييم ما إذا كان المشاركونن في الدورة التدريبية تعلموا مواد تدريبية.</span><span class="sxs-lookup"><span data-stu-id="4e637-112">Evaluate whether course participants learned the course material.</span></span>
--   <span data-ttu-id="4e637-113">تقييم الدورة التدريبية (مثل المرافق والمحتوى والمعلم).</span><span class="sxs-lookup"><span data-stu-id="4e637-113">Evaluate a course (for example, the facilities, content, and instructor).</span></span>
--   <span data-ttu-id="4e637-114">استقصاء رضا الموظفين والعملاء.</span><span class="sxs-lookup"><span data-stu-id="4e637-114">Survey employee and customer satisfaction.</span></span>
--   <span data-ttu-id="4e637-115">تقييم أداء وظيفة الموظف.</span><span class="sxs-lookup"><span data-stu-id="4e637-115">Evaluate employee job performance.</span></span>
+-   <span data-ttu-id="b83b5-111">اختبار المهارات الاحترافية للموظفين ومقدمي الطلبات.</span><span class="sxs-lookup"><span data-stu-id="b83b5-111">Test the professional skills of employees and applicants.</span></span>
+-   <span data-ttu-id="b83b5-112">تقييم ما إذا كان المشاركونن في الدورة التدريبية تعلموا مواد تدريبية.</span><span class="sxs-lookup"><span data-stu-id="b83b5-112">Evaluate whether course participants learned the course material.</span></span>
+-   <span data-ttu-id="b83b5-113">تقييم الدورة التدريبية (مثل المرافق والمحتوى والمعلم).</span><span class="sxs-lookup"><span data-stu-id="b83b5-113">Evaluate a course (for example, the facilities, content, and instructor).</span></span>
+-   <span data-ttu-id="b83b5-114">استقصاء رضا الموظفين والعملاء.</span><span class="sxs-lookup"><span data-stu-id="b83b5-114">Survey employee and customer satisfaction.</span></span>
+-   <span data-ttu-id="b83b5-115">تقييم أداء وظيفة الموظف.</span><span class="sxs-lookup"><span data-stu-id="b83b5-115">Evaluate employee job performance.</span></span>
 
-<span data-ttu-id="4e637-116">يوفر الجدول التالي روابط إلى المعلومات المتعلقة بمهام الاستبيان الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="4e637-116">The following table provides links to information about the core questionnaire tasks.</span></span> <span data-ttu-id="4e637-117">انقر فوق الروابط لمزيد من المعلومات.</span><span class="sxs-lookup"><span data-stu-id="4e637-117">Click the links for more information.</span></span>
+<span data-ttu-id="b83b5-116">يوفر الجدول التالي روابط إلى المعلومات المتعلقة بمهام الاستبيان الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="b83b5-116">The following table provides links to information about the core questionnaire tasks.</span></span> <span data-ttu-id="b83b5-117">انقر فوق الروابط لمزيد من المعلومات.</span><span class="sxs-lookup"><span data-stu-id="b83b5-117">Click the links for more information.</span></span>
 
-| <span data-ttu-id="4e637-118">الموضوع</span><span class="sxs-lookup"><span data-stu-id="4e637-118">Topic</span></span>| <span data-ttu-id="4e637-119">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="4e637-119">Description</span></span>|
+| <span data-ttu-id="b83b5-118">الموضوع</span><span class="sxs-lookup"><span data-stu-id="b83b5-118">Topic</span></span>| <span data-ttu-id="b83b5-119">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="b83b5-119">Description</span></span>|
 |------|------------|
-| [<span data-ttu-id="4e637-120">تصميم استبيان</span><span class="sxs-lookup"><span data-stu-id="4e637-120">Design a questionnaire</span></span>](design-questionnaires.md)  | <span data-ttu-id="4e637-121">تقدم هذه المعلومات عن كيفية تصميم الاستبيان.</span><span class="sxs-lookup"><span data-stu-id="4e637-121">This article provides information about how to design a questionnaire.</span></span> <span data-ttu-id="4e637-122">تتضمن عملية التصميم إعداد المتطلبات المسبقة والإجابات والأسئلة ثم تجميعها في استبيان.</span><span class="sxs-lookup"><span data-stu-id="4e637-122">The design process involves setting up prerequisites, answers, and questions, and then combining them into a questionnaire.</span></span> |
-| [<span data-ttu-id="4e637-123">توزيع وإكمال استبيان</span><span class="sxs-lookup"><span data-stu-id="4e637-123">Distribute and complete a questionnaire</span></span>](distribute-questionnaires.md)  | <span data-ttu-id="4e637-124">توفر هذه المقالة معلومات حول كيفية توزيع استبيان على المستجيبين وإكمال الاستبيانات.</span><span class="sxs-lookup"><span data-stu-id="4e637-124">This article provides information about how to distribute a questionnaire to respondents and how to complete questionnaires.</span></span>                                                                       |
-| [<span data-ttu-id="4e637-125">عرض وتقييم نتائج استبيان</span><span class="sxs-lookup"><span data-stu-id="4e637-125">View and evaluate the results of a questionnaire</span></span>](evaluate-questionnaire-results.md) | <span data-ttu-id="4e637-126">تقدم هذه المقالة معلومات عن كيفية عرض وتقييم النتائج من الاستبيانات المكتملة.</span><span class="sxs-lookup"><span data-stu-id="4e637-126">This article provides information about how to view and evaluate the results from completed questionnaires.</span></span>                                                                                        |
+| [<span data-ttu-id="b83b5-120">تصميم استبيان</span><span class="sxs-lookup"><span data-stu-id="b83b5-120">Design a questionnaire</span></span>](design-questionnaires.md)  | <span data-ttu-id="b83b5-121">تقدم هذه المعلومات عن كيفية تصميم الاستبيان.</span><span class="sxs-lookup"><span data-stu-id="b83b5-121">This article provides information about how to design a questionnaire.</span></span> <span data-ttu-id="b83b5-122">تتضمن عملية التصميم إعداد المتطلبات المسبقة والإجابات والأسئلة ثم تجميعها في استبيان.</span><span class="sxs-lookup"><span data-stu-id="b83b5-122">The design process involves setting up prerequisites, answers, and questions, and then combining them into a questionnaire.</span></span> |
+| [<span data-ttu-id="b83b5-123">توزيع وإكمال استبيان</span><span class="sxs-lookup"><span data-stu-id="b83b5-123">Distribute and complete a questionnaire</span></span>](distribute-questionnaires.md)  | <span data-ttu-id="b83b5-124">توفر هذه المقالة معلومات حول كيفية توزيع استبيان على المستجيبين وإكمال الاستبيانات.</span><span class="sxs-lookup"><span data-stu-id="b83b5-124">This article provides information about how to distribute a questionnaire to respondents and how to complete questionnaires.</span></span>                                                                       |
+| [<span data-ttu-id="b83b5-125">عرض وتقييم نتائج استبيان</span><span class="sxs-lookup"><span data-stu-id="b83b5-125">View and evaluate the results of a questionnaire</span></span>](evaluate-questionnaire-results.md) | <span data-ttu-id="b83b5-126">تقدم هذه المقالة معلومات عن كيفية عرض وتقييم النتائج من الاستبيانات المكتملة.</span><span class="sxs-lookup"><span data-stu-id="b83b5-126">This article provides information about how to view and evaluate the results from completed questionnaires.</span></span>                                                                                        |
 
 
 
-<a name="see-also"></a><span data-ttu-id="4e637-127">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="4e637-127">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="b83b5-127">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="b83b5-127">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="4e637-128">تصميم الاستبيانات</span><span class="sxs-lookup"><span data-stu-id="4e637-128">Designing questionnaires</span></span>](design-questionnaires.md)
+[<span data-ttu-id="b83b5-128">تصميم الاستبيانات</span><span class="sxs-lookup"><span data-stu-id="b83b5-128">Designing questionnaires</span></span>](design-questionnaires.md)
 
-[<span data-ttu-id="4e637-129">توزيع وإكمال الاستبيانات</span><span class="sxs-lookup"><span data-stu-id="4e637-129">Distributing and completing questionnaires</span></span>](distribute-questionnaires.md)
+[<span data-ttu-id="b83b5-129">توزيع وإكمال الاستبيانات</span><span class="sxs-lookup"><span data-stu-id="b83b5-129">Distributing and completing questionnaires</span></span>](distribute-questionnaires.md)
 
-[<span data-ttu-id="4e637-130">عرض نتائج الاستبيان وتقييمها</span><span class="sxs-lookup"><span data-stu-id="4e637-130">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
+[<span data-ttu-id="b83b5-130">عرض نتائج الاستبيان وتقييمها</span><span class="sxs-lookup"><span data-stu-id="b83b5-130">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
 

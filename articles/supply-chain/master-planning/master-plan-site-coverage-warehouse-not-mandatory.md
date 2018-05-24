@@ -20,47 +20,47 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 12ea8abda8ea2d238d0416e7026cfe1b1c77b04e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0b97f5f9a9a1447027e55d6c6b30253506caff70
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a><span data-ttu-id="f433d-103">التخطيط الرئيسي لتغطية الموقع، المستودع غير إلزامي</span><span class="sxs-lookup"><span data-stu-id="f433d-103">Master planning for site coverage, warehouse not mandatory</span></span>
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a><span data-ttu-id="72c9f-103">التخطيط الرئيسي لتغطية الموقع، المستودع غير إلزامي</span><span class="sxs-lookup"><span data-stu-id="72c9f-103">Master planning for site coverage, warehouse not mandatory</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f433d-104">يصف هذا الموضوع كيف يتم التخطيط لصنف تم تعيين بُعد الموقع له للتغطية.</span><span class="sxs-lookup"><span data-stu-id="f433d-104">This topic describes how an item that has the site dimension set for coverage is planned.</span></span>
+<span data-ttu-id="72c9f-104">يصف هذا الموضوع كيف يتم التخطيط لصنف تم تعيين بُعد الموقع له للتغطية.</span><span class="sxs-lookup"><span data-stu-id="72c9f-104">This topic describes how an item that has the site dimension set for coverage is planned.</span></span>
 
-<span data-ttu-id="f433d-105">يتضمن سيناريو التخطيط الرئيسي هذا الشروط التالية:</span><span class="sxs-lookup"><span data-stu-id="f433d-105">This master planning scenario involves the following conditions:</span></span>
+<span data-ttu-id="72c9f-105">يتضمن سيناريو التخطيط الرئيسي هذا الشروط التالية:</span><span class="sxs-lookup"><span data-stu-id="72c9f-105">This master planning scenario involves the following conditions:</span></span>
 
--   <span data-ttu-id="f433d-106">تم تعيين بُعد الموقع إلى إلزامي، ويجب إدخاله في حركة الطلب.</span><span class="sxs-lookup"><span data-stu-id="f433d-106">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="f433d-107">عدم تعيين بُعد المستودع على إلزامي.</span><span class="sxs-lookup"><span data-stu-id="f433d-107">The warehouse dimension is not set to mandatory.</span></span> <span data-ttu-id="f433d-108">فقد يكون المستودع معروفًا، لكنه غير مستخدم في حساب التخططي الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="f433d-108">The warehouse may be known, but it is not used in the master planning calculation.</span></span>
--   <span data-ttu-id="f433d-109">تعيين بُعد الموقع لتخطيط التغطية.</span><span class="sxs-lookup"><span data-stu-id="f433d-109">The site dimension is set for coverage planning.</span></span>
--   <span data-ttu-id="f433d-110">عدم تعيين بُعد المستودع لتخطيط التغطية.</span><span class="sxs-lookup"><span data-stu-id="f433d-110">The warehouse dimension is not set for coverage planning.</span></span> <span data-ttu-id="f433d-111">ولذلك يتم تجميع العرض والطلب حسب الموقع، وربما حسب الأبعاد الأخرى المخططة في التغطية أيضا.</span><span class="sxs-lookup"><span data-stu-id="f433d-111">Therefore, supply and demand are aggregated by site and, perhaps, other coverage-planned dimensions also.</span></span>
+-   <span data-ttu-id="72c9f-106">تم تعيين بُعد الموقع إلى إلزامي، ويجب إدخاله في حركة الطلب.</span><span class="sxs-lookup"><span data-stu-id="72c9f-106">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="72c9f-107">عدم تعيين بُعد المستودع على إلزامي.</span><span class="sxs-lookup"><span data-stu-id="72c9f-107">The warehouse dimension is not set to mandatory.</span></span> <span data-ttu-id="72c9f-108">فقد يكون المستودع معروفًا، لكنه غير مستخدم في حساب التخططي الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="72c9f-108">The warehouse may be known, but it is not used in the master planning calculation.</span></span>
+-   <span data-ttu-id="72c9f-109">تعيين بُعد الموقع لتخطيط التغطية.</span><span class="sxs-lookup"><span data-stu-id="72c9f-109">The site dimension is set for coverage planning.</span></span>
+-   <span data-ttu-id="72c9f-110">عدم تعيين بُعد المستودع لتخطيط التغطية.</span><span class="sxs-lookup"><span data-stu-id="72c9f-110">The warehouse dimension is not set for coverage planning.</span></span> <span data-ttu-id="72c9f-111">ولذلك يتم تجميع العرض والطلب حسب الموقع، وربما حسب الأبعاد الأخرى المخططة في التغطية أيضا.</span><span class="sxs-lookup"><span data-stu-id="72c9f-111">Therefore, supply and demand are aggregated by site and, perhaps, other coverage-planned dimensions also.</span></span>
 
-<span data-ttu-id="f433d-112">يوضح الرسم التالي كيفية تقدم التخطيط الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="f433d-112">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="f433d-113">تكون المحددات المشار إليها في الرسم ومواقعها كما يلي:</span><span class="sxs-lookup"><span data-stu-id="f433d-113">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
--   <span data-ttu-id="f433d-114">تحديد تغطية الصنف.</span><span class="sxs-lookup"><span data-stu-id="f433d-114">Item coverage is defined for the item.</span></span> <span data-ttu-id="f433d-115">انقر فوق **إدارة معلومات المنتج &gt; المنتجات&gt; المنتجات الصادرة**.</span><span class="sxs-lookup"><span data-stu-id="f433d-115">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="f433d-116">حدد الصنف، ثم انقر فوق **خطة &gt; تغطية الصنف**.</span><span class="sxs-lookup"><span data-stu-id="f433d-116">Select the item, and then click **Plan &gt; Item coverage**.</span></span>
--   <span data-ttu-id="f433d-117">تحديد علاقات إعادة الملء للمستودع.</span><span class="sxs-lookup"><span data-stu-id="f433d-117">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="f433d-118">انقر فوق **إدارة المخزون &gt; الإعداد &gt; تصنيف المخزون &gt; المستودعات**.</span><span class="sxs-lookup"><span data-stu-id="f433d-118">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="f433d-119">وفي علامة التبويب **التخطيط الرئيسي**، راجع مجموعة حقل **المستودع الرئيسي**.</span><span class="sxs-lookup"><span data-stu-id="f433d-119">On the **Master planning** tab, see the **Main warehouse** field group.</span></span>
--   <span data-ttu-id="f433d-120">يتم تعيين نوع الأمر الافتراضي للإنتاج أو أمر الشراء أو كانبان.</span><span class="sxs-lookup"><span data-stu-id="f433d-120">The default order type is set to Production, Purchase order or Kanban.</span></span> <span data-ttu-id="f433d-121">انقر فوق **إدارة معلومات المنتج &gt; المنتجات&gt; المنتجات الصادرة**.</span><span class="sxs-lookup"><span data-stu-id="f433d-121">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="f433d-122">حدد الصنف، ثم انقر فوق **خطة &gt; إعدادات الأوامر الافتراضية**.</span><span class="sxs-lookup"><span data-stu-id="f433d-122">Select the item, and then click **Plan &gt; Default order settings**.</span></span> <span data-ttu-id="f433d-123">وفي نموذج **إعدادات الأوامر الافتراضية**، راجع حقل **نوع الأمر الافتراضي**.</span><span class="sxs-lookup"><span data-stu-id="f433d-123">In the **Default order settings** form, see the **Default order type** field.</span></span>
+<span data-ttu-id="72c9f-112">يوضح الرسم التالي كيفية تقدم التخطيط الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="72c9f-112">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="72c9f-113">تكون المحددات المشار إليها في الرسم ومواقعها كما يلي:</span><span class="sxs-lookup"><span data-stu-id="72c9f-113">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
+-   <span data-ttu-id="72c9f-114">تحديد تغطية الصنف.</span><span class="sxs-lookup"><span data-stu-id="72c9f-114">Item coverage is defined for the item.</span></span> <span data-ttu-id="72c9f-115">انقر فوق **إدارة معلومات المنتج &gt; المنتجات&gt; المنتجات الصادرة**.</span><span class="sxs-lookup"><span data-stu-id="72c9f-115">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="72c9f-116">حدد الصنف، ثم انقر فوق **خطة &gt; تغطية الصنف**.</span><span class="sxs-lookup"><span data-stu-id="72c9f-116">Select the item, and then click **Plan &gt; Item coverage**.</span></span>
+-   <span data-ttu-id="72c9f-117">تحديد علاقات إعادة الملء للمستودع.</span><span class="sxs-lookup"><span data-stu-id="72c9f-117">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="72c9f-118">انقر فوق **إدارة المخزون &gt; الإعداد &gt; تصنيف المخزون &gt; المستودعات**.</span><span class="sxs-lookup"><span data-stu-id="72c9f-118">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="72c9f-119">وفي علامة التبويب **التخطيط الرئيسي**، راجع مجموعة حقل **المستودع الرئيسي**.</span><span class="sxs-lookup"><span data-stu-id="72c9f-119">On the **Master planning** tab, see the **Main warehouse** field group.</span></span>
+-   <span data-ttu-id="72c9f-120">يتم تعيين نوع الأمر الافتراضي للإنتاج أو أمر الشراء أو كانبان.</span><span class="sxs-lookup"><span data-stu-id="72c9f-120">The default order type is set to Production, Purchase order or Kanban.</span></span> <span data-ttu-id="72c9f-121">انقر فوق **إدارة معلومات المنتج &gt; المنتجات&gt; المنتجات الصادرة**.</span><span class="sxs-lookup"><span data-stu-id="72c9f-121">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="72c9f-122">حدد الصنف، ثم انقر فوق **خطة &gt; إعدادات الأوامر الافتراضية**.</span><span class="sxs-lookup"><span data-stu-id="72c9f-122">Select the item, and then click **Plan &gt; Default order settings**.</span></span> <span data-ttu-id="72c9f-123">وفي نموذج **إعدادات الأوامر الافتراضية**، راجع حقل **نوع الأمر الافتراضي**.</span><span class="sxs-lookup"><span data-stu-id="72c9f-123">In the **Default order settings** form, see the **Default order type** field.</span></span>
 
 ![طلب مستودع تغطية الموقع ليس إلزاميًا    ](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
 
 
-<a name="see-also"></a><span data-ttu-id="f433d-125">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="f433d-125">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="72c9f-125">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="72c9f-125">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="f433d-126">التخطيط الرئيسي ووظائف المواقع المتعددة</span><span class="sxs-lookup"><span data-stu-id="f433d-126">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
+[<span data-ttu-id="72c9f-126">التخطيط الرئيسي ووظائف المواقع المتعددة</span><span class="sxs-lookup"><span data-stu-id="72c9f-126">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
-[<span data-ttu-id="f433d-127">التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع إلزامي</span><span class="sxs-lookup"><span data-stu-id="f433d-127">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="72c9f-127">التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع إلزامي</span><span class="sxs-lookup"><span data-stu-id="72c9f-127">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="f433d-128">التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع غير إلزامي</span><span class="sxs-lookup"><span data-stu-id="f433d-128">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="72c9f-128">التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع غير إلزامي</span><span class="sxs-lookup"><span data-stu-id="72c9f-128">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="f433d-129">التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع إلزامي</span><span class="sxs-lookup"><span data-stu-id="f433d-129">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="72c9f-129">التخطيط الرئيسي - تغطية الموقع والمستودع، المستودع إلزامي</span><span class="sxs-lookup"><span data-stu-id="72c9f-129">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="f433d-130">التخطيط الرئيسي - كيفية تحديد إصدار قائمة مكونات الصنف</span><span class="sxs-lookup"><span data-stu-id="f433d-130">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="72c9f-130">التخطيط الرئيسي - كيفية تحديد إصدار قائمة مكونات الصنف</span><span class="sxs-lookup"><span data-stu-id="72c9f-130">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 
