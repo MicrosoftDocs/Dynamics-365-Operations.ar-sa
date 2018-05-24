@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4da560ca3cce5a28edd2a00506f825d5d88ef0f3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cd5fc329877bbb1f8f4ec26191e66914da29d034
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>قيود الجدول المحددة بواسطة المستخدم أو المحددة بواسطة النظام
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة نوعي قيود الجدول للمكونات في نموذج تكوين منتج: القيود المحددة من قِبل المستخدم والقيود المحددة من قِبل النظام. تمثل قيود الجدول مقاييس مجموعات السمات المسموح بها، حيث يعرّف كل صف مجموعة واحدة من قيم السمات الممكنة.
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/07/2018
 
 ‏‫وقبل سريان مفعول قيد جدول على نموذج تكوين منتج، يجب تضمين قيد الجدول في قيد في أحد مكونات النموذج. والإجراء هو إنشاء قيد جديد، حدد نوع قيد الجدول، ثم حدد تعريف قيد الجدول المراد استخدامه.‬ وأخيراً، يجب تعيين كافة الحقول في قيد الجدول إلى السمات في نموذج تكوين المنتج.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [المفاهيم الأساسية في نماذج تكوين المنتجات](product-configuration-models.md)

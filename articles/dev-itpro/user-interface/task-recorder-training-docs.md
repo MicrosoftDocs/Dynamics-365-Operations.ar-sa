@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>إنشاء الوثائق أو التدريب باستخدام تسجيلات المهام
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا المقال ما هو مسجل المهام ودلائل المهام‬، وكيفية إنشاء تسجيلات المهام، وكيفية تخصيص دلائل مهام‬ Microsoft وتضمينها في نظام التعليمات الخاص بك.
 
@@ -118,7 +118,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>تضمين تسجيلات المهام الخاصة بك في جزء التعليمات
 لإظهار تسجيلات المهام المخصصة الخاصة بك في جزء "التعليمات" بحيث يمكنك تشغيلها كأدلة مهام أو عرضها كنص، يجب عليك حفظ تسجيلات المهام الخاصة بك إلى مكتبة BPM، ثم قم بتحديث معلمات نظام التعليمات للإشارة إلى مكتبة BPM. لمزيد من المعلومات، راجع [الاتصال بنظام التعليمات‬.](../../fin-and-ops/get-started/help-connect.md)
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [نظرة عامة على التعليمات](../../fin-and-ops/get-started/help-overview.md)

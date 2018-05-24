@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a>إنشاء خطط التعويض الثابت
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يشير التعويض الثابت إلى الأجر أو الراتب الإجمالي المنتظم للموظف. يوضح هذا الموضوع المكونات التي يجب إعدادها قبل أن تتمكن من إنشاء خطة التعويض الثابت وتسجيل الموظفين.
 
@@ -101,7 +101,7 @@ ms.lasthandoff: 04/13/2018
 
 ويتحقق النظام من وجود مبلغ التعويض المحدد لخطة تعويض من نوع الدرجة أو النطاق ضمن الحد الأدنى والحد الأقصى للنقاط المرجعية لمستوى التعويض المحدد في وظيفة الموظف. إذا كان مبلغ التعويض خارج النطاق المسموح به، فإنه يتم عرض رسالة تحذير أو رسالة خطأ، تبعاً لمستوى التفاوت الذي يتم تعيينه في خطة التعويض الثابت.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [خطط التعويض](compensation-plans.md)

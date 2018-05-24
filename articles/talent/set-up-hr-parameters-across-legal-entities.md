@@ -19,16 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2e73441a3f4190561d1d16db40ee1581267c8dfb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1241d8da101af094ac510819376908727f9bcf07
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-hr-parameters-across-legal-entities"></a>إعداد معلمات الموارد البشرية عبر الكيانات القانونية
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يجب إعداد محددات مشتركة للسجلات التي تتم مشاركتها عبر الشركات، مثل سجلات المناصب. توضح هذه المقالة كيفية إعداد محددات الموارد البشرية عبر الكيانات القانونية.
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 04/13/2018
 -   **أبدًا**– لا يمكنك تعيين عمال لمناصب جديدة عند إنشاء مناصب. إذا قمت بتحديد هذا الخيار، فيجب عليك فتح صفحة **المنصب** لكل منصب جديد عند توفره، ثم في علامة التبويب **عام**، أدخل تاريخ **متوفر للتعيين** لتمكين تعيين العامل.
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [إعداد معلمات الموارد البشرية الخاصة بالشركة](set-up-company-specific-hr-parameters.md)

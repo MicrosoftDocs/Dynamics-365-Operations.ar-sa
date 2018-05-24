@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>كود nomenclature لأرقام وأسماء متغيرات المنتج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيف يمكنك إعداد nomenclature رقم المنتج لاستبدال التنسيق الثابت [رقم أصل المنتج - التكوين - الحجم - اللون - النمط]. يتميز كود nomenclature الجديد بتنسيق مستهدف يتضمن رقم أصل المنتج وأبعاد المنتج النشطة ومحددات النص التي تختارها. يمكنك أيضًا إنشاء كود nomenclature لأسماء المنتجات. أخيرًا، يمكنك إنشاء كود nomenclature لتحديد التكوينات التي يتم إنشاؤها بواسطة مكون منتج يستند إلى القيد. باستطاعة أكواد nomenclature هذه أن تحتوي على سمات تختارها أنت.
 
@@ -192,10 +192,10 @@ ms.lasthandoff: 03/07/2018
 
 خلال تنفيذ خطوة من عملية التكوين، يقترح النظام قيمة تكوين وفقًا لكود nomenclature. في هذه الخطوة، يمكنك تغيير قيمة التكوين يدويًا. عندما تحفظ التكوين، يتحقق النظام مما إذا كانت قيمة التكوين فريدة. إذا لم تكن القيمة التي أدخلتها فريدة، فستتلقى رسالة خطأ. لحفظ التكوين، يجب إدخال قيمة تكوين فريدة.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[إنشاء كود nomenclature لرقم المنتج لمتغيرات المنتج المعرفة مسبقًا](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
+[إنشاء nomenclature لرقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [إنشاء كود nomenclature لرقم المنتج لمتغيرات المنتج المكوّنة](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 

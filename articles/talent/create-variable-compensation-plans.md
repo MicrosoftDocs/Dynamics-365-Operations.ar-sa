@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>إنشاء خطط التعويض المتغير
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يشكّل التعويض المتغير الدفع غير المنتظم للموظف، كالعلاوات أو المنح على شكل أسهم. توضح هذه المقالة المكونات التي يجب إعدادها قبل أن تتمكن من استخدام التعويض المتغير وتسجيل موظف في خطة تعويض متغير.
 
@@ -100,7 +100,7 @@ ms.lasthandoff: 04/13/2018
 
 تُستخدم **التجاوزات التنظيمية** لتكون أساسًا لمكافآة الموظف على أداء قسم واحد أو أكثر. ويجب أن يساوي إجمالي النسبة المئوية المخصصة عبر الأقسام 100 بالمائة. وتتم مراعاة الأداء الفردي للموظف أيضًا. ولا يتم استخدام هذه الإعدادات إلا في حالة تحديد **الدفع مقابل الأداء** عند تشغيل عملية التعويض.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [خطط التعويض](compensation-plans.md)

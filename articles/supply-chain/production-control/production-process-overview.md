@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>نظرة عامة على عملية الإنتاج
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع نظرة عامة على عمليات الإنتاج.‬ وهي تصف مختلف مراحل أوامر الإنتاج والأوامر الدفعية وكانبان، اعتبارًا من عملية إنشاء الأمر وصولاً إلى إقفال الفترة المالية. 
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 11/03/2017
 12. **إغلاق الفترة** -تتطلب بعض قواعد محاسبة التكاليف، مثل المتوسط الدوري، تحديد تكاليف الإصدار التلقائي أو ما يرد أولاً يصرف أولاً‬ (FIFO) أو ما يرد أخيرًا يصرف أولاً‬ (LIFO) الأنشطة الدورية لإغلاق المخزون أو الفترة المالية. وبشكل عام، يحاول النظام للإبلاغ عن استهلاك الموارد وجميع المواد، وكذلك تصحيحات المخزون والخردة، قبل إغلاق الفترات. ويتم هذا الإبلاغ عادةً باستخدام دفاتر يومية حركة المخزون أو دفاتر يومية التسوية. والهدف هو تقييم الأداء الاقتصادي لوحدات التشغيل لكل فترة. وفي بعض الحالات، عند استخدام أوامر الإنتاج طويلة الأجل والتي تشمل فترات الإبلاغ المالي، يتم استخدام دفاتر يومية الإنتاج للإبلاغ عن استهلاك الموارد ومستوى تقدم الإنتاج قبل نهاية الفترة.
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [ملاحظات الإنتاج](production-feedback.md)

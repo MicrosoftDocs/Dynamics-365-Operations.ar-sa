@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69766e1bf37955bfd4d7253c1b7881780d491d1c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 683d3de59a427df296bb0d3d644f0ec23b3a8e5e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-designer-interface"></a>واجهة أداة تصميم التقارير
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفية التنقل عبر مصمم التقارير وكيفية استخدام مختلف الخيارات لتلبية متطلباتك المحددة. 
 
@@ -220,11 +220,11 @@ ms.lasthandoff: 11/03/2017
 | [![زر تعريف العمود](./media/columnc130389.png)](./media/columnc130389.png)                 | إظهار تعريف العمود الذي تم تعيينه لتعريف التقرير النشط.                                                                                                 |
 | [![زر تعريف شجرة التقارير](./media/treec130389.png)](./media/treec130389.png)             | إظهار تعريف شجرة التقارير الذي تم تعيينه لتعريف التقرير النشط.                                                                                         |
 | [![زر عارض التقارير](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | بدء تشغيل عارض التقارير وعرض إصدار التقرير الأحدث للتقرير الذي تم إنشاؤه. يتوفر هذا الزر من تعريف تقرير إذا تم إنشاء تقرير واحد على الأقل. |
-| [![زر إنشاء التقرير](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | إنشاء تقرير من تعريف التقرير النشط. يتوفر هذا الزر من تعريف تقرير.                                                                      |
+| [![زر إنشاء التقرير](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | يتيح لك هذا الزر إمكانية إنشاء تقرير من خلال تعريف التقرير النشط. يتوفر هذا الزر من خلال تعريف التقرير.                                                                      |
 
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [التقارير المالية](financial-reporting-intro.md)

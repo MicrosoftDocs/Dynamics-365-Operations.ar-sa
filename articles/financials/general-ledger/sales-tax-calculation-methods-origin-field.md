@@ -19,18 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>طرق حساب ضريبة المبيعات في حقل الأصل
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 توضح هذه المقالة الخيارات في حقل الأصل في صفحة أكواد ضريبة المبيعات وكيف يتم حساب ضريبة المبيعات استنادًا إلى الخيار المحدد لكود ضريبة المبيعات.
 
@@ -107,8 +107,7 @@ ms.lasthandoff: 11/03/2017
 
 #### <a name="example-3"></a>المثال الثالث
 
-ضريبة المبيعات: الأصل = النسبة المئوية لصافي المبلغ. تم تحديد خيار "الحساب قبل ضريبة المبيعات‬" لحساب الرسم الجمركي. المبلغ الصافي: 10.00 الرسم الجمركي: 1 × 5.00 = 5.00 ضريبة المبيعات: (10.00 +
-5.00) × 25% = 3.75 إجمالي ضريبة المبيعات: 5.00 + 3.57 = 8.75 المبلغ الإجمالي: 10.00 + 8.75 = 18.75
+ضريبة المبيعات: الأصل = النسبة المئوية لصافي المبلغ. تم تحديد خيار "الحساب قبل ضريبة المبيعات‬" لحساب الرسم الجمركي. المبلغ الصافي: 10.00 الرسم الجمركي: 1 × 5.00 = 5.00 ضريبة المبيعات: (10.00 + 5.00) × 25% = 3.75 إجمالي ضريبة المبيعات: 5.00 + 3.57 = 8.75 المبلغ الإجمالي: 10.00 + 8.75 = 18.75
 
 #### <a name="example-4"></a>المثال الرابع
 
@@ -126,7 +125,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [تحديد معدلات ضريبة المبيعات استنادًا إلى حقلي "القاعدة الهامشية" و"أسلوب الحساب"](marginal-base-field.md)

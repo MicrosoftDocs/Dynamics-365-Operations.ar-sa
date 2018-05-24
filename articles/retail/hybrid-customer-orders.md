@@ -19,16 +19,16 @@ ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed5d403c1321e2573df38d60956e6f89282b3de8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 88d12641fa05953f7082158303237b7ba40c3fe2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="hybrid-customer-orders"></a>أوامر العملاء المختلطة
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 أمر العميل المختلط هو أمر واحد يحتوي على المنتجات التي يمكن تلبيتها من المتجر للعميل، بالإضافة إلى المنتجات التي سيتم انتقاؤها أو شحنها لاحقاً.
 
@@ -39,10 +39,10 @@ ms.lasthandoff: 11/03/2017
 
 إذا تم تحديد أحد بنود السلة وتم **تحديد الانتقاء** أو **تحديد الشحن** أو **تحديد التنفيذ**، فلن يتم تعيين غير بند السلة المحدد لطريقة التسليم هذه. في هذه الحالة، يستمر تدفق المراحل النهائية من العملية كالمعتاد. مع ذلك، إذا تم **تحديد الانتقاء** أو **تحديد الشحن** أو **تحديد التنفيذ** دون تحديد بند من السلة، فسيتم فتح صفحة جديدة تسرد كافة بنود السلة. في هذه الشاشة، يمكنك تحديد بنود متعددة دفعة واحدة لتعيين طريقة التسليم. عند استخدام هذه الطريقة لتحديد البنود، سيتم تجاوز أي طريقة تسليم سابقة تم تعيينها إلى البند.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[نظرة عامة حول أوامر العميل](customer-orders-overview.md)
+[نظرة عامة على أوامر العملاء](customer-orders-overview.md)
 
 
 

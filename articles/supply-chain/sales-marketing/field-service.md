@@ -3,7 +3,7 @@ title: "التكامل مع Microsoft Dynamics 365 for Field Service"
 description: "يوفر هذا الموضوع نظرة عامة على التكامل مع Microsoft Dynamics 365 for Field Service."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/10/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: d32a4e376770fc73c79b94924d5ae062d201d84a
-ms.openlocfilehash: a224962152e80293f6cf3425dea74d73a283e31a
+ms.sourcegitcommit: 03a932652cdd93b2a5917d0fca72809d1648b678
+ms.openlocfilehash: b1acf0b64914a3199fcf44f8377e32b26f0af99e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/12/2018
+ms.lasthandoff: 04/25/2018
 
 ---
 
@@ -44,6 +44,12 @@ ms.lasthandoff: 04/12/2018
 - [أوامر العمل في Field Service لأوامر المبيعات في Finance and Operations](field-service-work-order.md)
 - [الفواتير في Field Service لفواتير النص الحر في Finance and Operations](field-service-invoice.md)
 
+لمشاهدة مثال عن كيف يمكن مزامنة أمر عمل بين Field Service وFinance and Operations، شاهد فيديو YouTube القصير:
+
+> [!Video https://www.youtube.com/embed/hAB4TDVMjxU]
+
+[مزامنة أمر عمل بين Field Service and Finance وOperations (فيديو YouTube)](https://youtu.be/hAB4TDVMjxU)
+
 ## <a name="system-requirements-for-finance-and-operations"></a>متطلبات النظام لـ Finance and Operations
 يدعم تكامل Field Service الإصدارات التالية:
 
@@ -58,5 +64,5 @@ ms.lasthandoff: 04/12/2018
 
 - Dynamics 365 for Field Service، الإصدار 1612 (9.0.1.733) (DB 9.0.1.733) عبر الإنترنت أو إصدار أحدث.
 - حل العميل المتوقع إلى النقدية (P2C) لتطبيق Dynamics 365، الإصدار 1.15.0.1 أو إصدار أحدث. الحل متوفر للتنزيل من [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
-- حل تكامل Field Service، إصدار 1.0.0.0 أو إصدار أحدث. الحل متوفر للتنزيل من AppSource. **(في انتظار إصدار)**
+- حل تكامل Field Service، إصدار 1.0.0.0 أو إصدار أحدث. الحل متوفر للتنزيل من [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.p2cfieldserviceintegration).
 

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>عرض الحركات وإدخالات دفاتر اليومية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة الطرق المختلفة التي يمكنك من خلالها عرض إدخالات وحركات دفتر اليومية. 
 
@@ -54,9 +54,9 @@ ms.lasthandoff: 11/03/2017
 -   **أصل الحركة** – يعرض تقرير الحركة هذا الحساب حسب دفتر اليومية والحركة والمحاسبة وعملة التقارير. كما يُظهر كل بند دفتر يومية تم استخدامه كمقاصة.
 
 
-## <a name="see-also"></a>راجع أيضًا
+## <a name="additional-resources"></a>الموارد الإضافية
 - [أرصدة حساب دفتر الأستاذ العام](general-ledger-account-balances.md) 
-- [مستكشف مصدر المحاسبة](..\accounts-payable\accounting-source-explorer.md)
+- [مستكشف مصدر المحاسبة](../accounts-payable/accounting-source-explorer.md)
 - [التقارير المالية](financial-reporting-getting-started.md)
 - [عرض إدخالات دفتر اليومية](tasks/view-journal-entries-or-transactions.md)
 

@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>دلائل المهام الجديدة (فبراير 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ‏‫يذكر هذا الموضوع دلائل المهام التي تم إصدارها لمكتبات Microsoft BPM اعتبارًا من فبراير عام 2016.  تتضمن المكتبات التي تم نشرها المكتبة الموحدة APQC (فبراير 2016) لتطبيق Microsoft Dynamics AX ومكتبة بدء الاستخدام (فبراير 2016).‬
 
@@ -719,7 +719,7 @@ ms.lasthandoff: 11/03/2017
 
  
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [دلائل المهام الجديدة أو المحدثة (مايو 2016)](new-updated-task-guides-available-may-2016.md)

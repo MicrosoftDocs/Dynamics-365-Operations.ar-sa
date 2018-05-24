@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -38,8 +38,7 @@ ms.lasthandoff: 04/13/2018
 > [!Note]
 > ينطبق محتوى Power BI لـ **إدارة التكلفة** الموضح في هذا الموضوع على Dynamics 365 for Finance and Operations، الإصدار 8.0.
 > 
-> حزمة محتوى Power BI لـ **إدارة التكاليف**، التي تم نشرها في موقع PowerBI.com، تم إهلاكها. للحصول على مزيد من المعلومات حول ذلك الإهلاك، راجع [حزم محتوى Power BI المنشورة في PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
-
+> تم إهلاك حزمة محتوى Power BI لـ **إدارة التكاليف**، المتوفر في موقع AppSource. للحصول على مزيد من المعلومات حول ذلك الإهلاك، راجع [حزم محتوى Power BI المتوفرة على في AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 يوفر محتوى Power BI هذا تنسيقًا مصنفًا يساعدك على مراقبة أداء عمليات الجرد وتصور كيفية تدفق التكاليف خلالها. يمكنك الحصول على رؤى إدارية مثل نسبة معدل الدوران، وعدد الأيام التي يتوفر فيها المخزون، والدقة و"تصنيف ABC" بالمستوى المفضل لديك (الشركة أو الصنف أو مجموعة الأصناف أو الموقع). يمكن استخدام المعلومات التي تم توفيرها أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
 

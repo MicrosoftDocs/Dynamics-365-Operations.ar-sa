@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 91cc547becfbd0c0d675d87921aed92eb2ab570d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-overview"></a>نظرة عامة على إدارة الجودة
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية استخدام إدارة الجودة في تطبيق Microsoft Dynamics 365 for Finance and Operations للمساعدة في تحسين جودة المنتج ضمن سلسلة التوريد.
 
@@ -356,7 +356,7 @@ ms.lasthandoff: 04/13/2018
 
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [عمليات إدارة الجودة](quality-management-processes.md)

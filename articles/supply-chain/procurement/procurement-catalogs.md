@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f51fb41e19a47a9db02166de91b9e027154d6a7d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d667f2abbc7bd00d46f40178b9f6e9d21c6f79f3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-catalogs"></a>كتالوجات التدبير
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة، على مستوى عالٍ، كيف يمكن لمحترفي الشراء إعداد كتالوجات التدبير والمحافظة عليها تحدد كتالوجات التدبير الأصناف والخدمات التي يمكن لموظفي الشركة طلبها للاستخدام الداخلي.
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   **كلاهما** – إذا كان الكتالوج يتضمن فئات المنتجات التي تحتوي على تحديث افتراضي من نوع **ثابتة**، فإنه يجب تحديثه يدوياً عند تحديث هذه الفئات. إذا كان الكتالوج يتضمن فئات المنتجات التي تحتوي على تحديث افتراضي من نوع **ديناميكي**، يتم تحديثه تلقائياً كلما تم تغييره.
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [إعداد تدرج هرمي لفئات التدبير (دليل المهام)](tasks/set-up-procurement-category-hierarchy.md)

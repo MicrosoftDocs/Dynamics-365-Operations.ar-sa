@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-overview"></a>نظرة عامة على التنبؤ بالطلب‬
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يتم استخدام التنبؤ بالطلب للتنبؤ بطلب غير معال من أوامر المبيعات وطلب معال عند أي نقطة اتصال لأوامر العملاء. توفر قواعد خفض التنبؤ بالطلب المحسن حلاً مثاليًا للتخصيص الشامل.
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 02/13/2018
     -   يمكنك تنزيل تجارب التنبؤ بالطلب في Finance and Operations وتغييرها لتلبية متطلبات العمل ونشرها كخدمة ويب على Azure واستخدامها لإنشاء التنبؤات بالطلب. تتوفر التجارب للتنزيل إذا قمت بشراء اشتراك Finance and Operations لمخطط إنتاج كمستخدم على مستوى المؤسسة.
     -   يمكنك تنزيل أي من التجارب توقع الطلب المتوفرة حاليًا من [معرض التحليلات Cortana](https://gallery.cortanaanalytics.com/). في حين يتم تكامل تجارب التنبؤ بالطلب في Finance and Operations تلقائيًا مع Finance and Operations، يجب على العملاء والشركاء معالجة تكامل التجارب التي قاموا بتنزيلها من [معرض تحليلات Cortana](https://gallery.cortanaanalytics.com/). ومن ثمَّ، لا تكون التجارب من [معرض تحليلات Cortana](https://gallery.cortanaanalytics.com/) واضحة ومباشرة لاستخدامها كتجارب التنبؤ بالطلب في Finance and Operations. يجب عليك تعديل كود التجارب لتستخدم واجهة برمجة تطبيقات Finance and Operations.
     -   يمكنك إنشاء التجارب الخاصة بك في Microsoft Azure Machine Learning Studio ونشرها كخدمات على Azure واستخدامها لإنشاء التنبؤ بالطلب.
-    -   إذا كنت لا تحتاج إلى أداء عالي أو إذا كنت لا تحتاج إلى معالجة كمية كبيرة من البيانات، يمكنك استخدام Machine Learning free tier. نوصي بأن تبدأ من هذا المستوى، خاصة أثناء مرحلتي الاختبار والتنفيذ. إذا كنت تحتاج إلى مستوى أعلى من الأداء ومساحة تخزين إضافية، فإنه يمكنك استخدام Machine Learning standard tier. يتطلب هذا المستوى اشتراك Azure وينطوي على تكاليف إضافية. للحصول على تفاصيل حول تسعير Machine Learning، راجع <http://aka.ms/machine-learning-price-info>.
+    -   إذا كنت لا تحتاج إلى أداء عالي أو إذا كنت لا تحتاج إلى معالجة كمية كبيرة من البيانات، يمكنك استخدام Machine Learning free tier. نوصي بأن تبدأ من هذا المستوى، خاصة أثناء مرحلتي الاختبار والتنفيذ. إذا كنت تحتاج إلى مستوى أعلى من الأداء ومساحة تخزين إضافية، فإنه يمكنك استخدام Machine Learning standard tier. يتطلب هذا المستوى اشتراك Azure وينطوي على تكاليف إضافية. لمزيد من التفاصيل حول أسعار Machine Learning، راجع <http://aka.ms/machine-learning-price-info>.
 -   **خفض التنبؤ في أي نقطة اتصال** – يعتمد التنبؤ بالطلب في Forecast reduction at any decoupling point على هذه الوظيفة، التي تتيح لك التنبؤ بالطلب التابع والمستقل في أي نقطة اتصال.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>تدفق الأساسي في التنبؤ بالطلب
@@ -72,7 +72,7 @@ ms.lasthandoff: 02/13/2018
 ## <a name="limitations"></a>قيود
 التنبؤ بالطلب في Finance and Operations هو أداة تساعد العملاء في قطاع الصناعة على إنشاء عمليات التنبؤ. ‏‫ويوفر الوظائف الأساسية لحل التنبؤ بالطلب ويتم تصميمه حتى يمكن توسيعه بسهولة. قد لا يكون التنبؤ بالطلب الأفضل مناسبةً للعملاء في صناعات مثل البيع بالتجزئة أو الجملة أو التخزين أو النقل أو الخدمات المهنية الأخرى.‬
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [إعداد التنبؤ بالطلب](demand-forecasting-setup.md)

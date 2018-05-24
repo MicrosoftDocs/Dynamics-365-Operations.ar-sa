@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>تكوين تخطيطات الشاشة لنقطة البيع
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول تخطيطات الشاشة لتجارب نقاط البيع في Microsoft Dynamics 365 for Retail.
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/03/2017
 
 **المنتجات الموصى بها** -إذا تم تكوينه للبيئة، فسوف يعرض عنصر تحكم المنتجات الموصى بها اقتراحات المنتجات بناءً على التعلم الآلي. يتوفر عنصر تحكم المنتجات الموصى بها فقط للتخطيطات الكاملة في الإصدار 1611 من Dynamics 365 for Retail. **عنصر تحكم مخصص**-يعمل عنصر التحكم المخصص كعنصر نائب داخل تخطيط الشاشة ليسمح للمستخدمين بحجز مساحة للمحتوى المخصص. يتوفر عنصر تحكم مخصص للتخطيطات الكاملة فقط.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [تثبيت مصمم تخطيط Retail POS](install-pos-layout-designer.md)

@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>نظرة عامة على نظام التعليمات
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations وهي تشرح أيضًا كيفية توفير التدريب والوثائق المخصصة لمؤسستك. 
 
@@ -60,7 +60,7 @@ ms.lasthandoff: 03/26/2018
 
 -   **الوصول إلى أحدث محتوى**– يعطينا الموقع طريقة أسرع وأكثر مرونةً لإنشاء وتسليم وتحديث وثائق المنتج. ولذلك، فهو يساعد على ضمان إمكانية الوصول إلى أحدث المعلومات التقنية.
 -   **المحتوى الذي أعده خبراء**- يوفر الموقع مجموعة أوسع من وثائق المنتج يمكن أن تتعزز من قِبل أعضاء المجتمع داخل وخارج Microsoft.
--   **الوصول إلى أنواع مختلفة من المحتوى** – يتيح لك الموقع الوصول إلى أنواع مختلفة من المحتوى الخاصة بمنتج Finance and Operations، مثل العروض التقديمية لـ Microsoft Office Mix، ودلائل المهام، ومقاطع الفيديو والمواضيع.
+-   **الوصول إلى أنواع مختلفة من المحتوى** – يتيح لك الموقع الوصول إلى أنواع مختلفة من المحتوى الخاصة بمنتج Finance and Operations، مثل دلائل المهام، ومقاطع الفيديو والمواضيع.
 -   **المحتوى الذي يدعم عمليات الأعمال**– يتضمن الموقع محتوى يركز على عمليات الأعمال ويستفيد من أداة تكوين عمليات الأعمال (BPM) في Microsoft Dynamics AX Lifecycle Services ‏(LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>البحث على docs.microsoft.com
@@ -204,7 +204,7 @@ ms.lasthandoff: 03/26/2018
 
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 [نظام تعليمات Finance and Operations (ورقة حقائق قابلة للتنزيل)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

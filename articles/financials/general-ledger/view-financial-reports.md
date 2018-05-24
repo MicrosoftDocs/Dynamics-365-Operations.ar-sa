@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-financial-reports"></a>عرض التقارير المالية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تصف هذه المقالة كيفية عرض التقارير المالية واستكشافها في Microsoft Dynamics 365 for Finance and Operations. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
 
@@ -84,7 +84,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="export-a-financial-report"></a>تصدير تقرير مالي
 لتصدير تقرير مالي، في "جزء الإجراءات"، انقر فوق **تصدير**. تم تصدير التقرير إلى Microsoft Excel، ويطالبك المستعرض الخاص بك بفتح أو حفظ الملف الذي تم تصديره. يتم تطبيق إعدادات التصدير التي تم تحديدها في تصميم التقرير على التقرير الذي تم تصديره.    
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [التقارير المالية في Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)

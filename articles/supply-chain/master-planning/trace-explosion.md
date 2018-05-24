@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3891688542ac6d4f9afce026808c65992a592d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2642ced283d815ad671512cc5a17e531e9169f91
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="use-tracing-for-explosion"></a>استخدام التتبع لعملية تحديد إجمالي المكونات المطلوبة‬
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تشرح هذه المقالة كيفية استخدام التتبع لاستكشاف الأسباب الكامنة وراء نتائج إجمالي المكونات المطلوبة للأمر.
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/03/2017
 
 يمكنك عرض تفاصيل حول العمليات الآجلة والإجراءات الخاصة بأمر محدد. وفي صفحة **تحديد إجمالي المكونات المطلوبة‬**، تتوفر معلومات التتبع في علامة التبويب **شرح** في الجزء العلوي. يتم التتبع عند القيام بتحديد إجمالي المكونات المطلوبة لأمر. ولبدء التتبع للأمر، انقر فوق **تحديث**، ثم قم بتحديد خانة الاختيار **تمكين التتبع**. ويمكنك استخدام حقل **البحث عن نص** للبحث عن سجل المعلومات الخاصة. يتم تمييز نتائج البحث في الشجرة.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [الخطط الرئيسية](master-plans.md)

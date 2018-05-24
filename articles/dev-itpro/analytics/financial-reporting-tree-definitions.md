@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 78dd1b5e0a19690ffefdb03de495061ef51f2e16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ec1286f1f3fb75cefd40f3982ec62d5ed078299c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>تعريفات شجرة التقارير في التقارير المالية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول تعريفات شجرة التقارير. إن تعريف شجرة التقارير هو مكون تقرير أو كتلة إنشاء يساعد على تعريف بنية مؤسستك أو تدرجها الهرمي.
 
@@ -202,11 +202,11 @@ ms.lasthandoff: 04/13/2018
 
 [![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
-#### <a name="example-2"></a>مثال 2
+#### <a name="example-2"></a>مثال 1
 
 [![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
-# <a name="see-also"></a>راجع أيضًا
+# <a name="additional-resources"></a>الموارد الإضافية
 
 [التقارير المالية](financial-reporting-intro.md)
 

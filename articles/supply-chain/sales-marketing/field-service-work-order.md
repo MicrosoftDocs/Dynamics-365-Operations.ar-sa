@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -220,7 +220,7 @@ ms.lasthandoff: 04/11/2018
 
 ### <a name="setup-in-finance-and-operations"></a>الإعداد في Finance and Operations
 
-يتطلب تكامل أمر العمل إعداد أصل المبيعات. يتم استخدام أصل المبيعات للتمييز أوامر المبيعات في Finance and Operations التي تم إنشاؤها من أوامر العمل في Field Service. عندما يشتمل أمر مبيعات على أصل مبيعات من نوع **تكامل أمر العمل**، يظهر حقل **حالة أمر العمل الخارجي ** في عنوان أمر المبيعات. بالإضافة إلى ذلك، يساعد أصل المبيعات في ضمان تصفية أوامر المبيعات التي تم إنشاؤها من أوامر العمل في Field Service أثناء مزامنة أوامر المبيعات من Finance and Operations لـ Field Service.
+يتطلب تكامل أمر العمل إعداد أصل المبيعات. يتم استخدام أصل المبيعات للتمييز أوامر المبيعات في Finance and Operations التي تم إنشاؤها من أوامر العمل في Field Service. عندما يشتمل أمر مبيعات على أصل مبيعات من نوع **تكامل أمر العمل**، يظهر حقل **حالة أمر العمل الخارجي** في عنوان أمر المبيعات. بالإضافة إلى ذلك، يساعد أصل المبيعات في ضمان تصفية أوامر المبيعات التي تم إنشاؤها من أوامر العمل في Field Service أثناء مزامنة أوامر المبيعات من Finance and Operations لـ Field Service.
 
 1. انتقل إلى **المبيعات والتسويق** \> **الإعداد** \> **أوامر المبيعات** \> **أصل المبيعات**.
 2. حدد **جديد** لإنشاء أصل مبيعات جديد.
@@ -230,7 +230,47 @@ ms.lasthandoff: 04/11/2018
 6. قم بتعيين حقل **نوع أصل المبيعات** إلى **تكامل أمر العمل**.
 7. حدد **حفظ**.
 
-### <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 
-(قريبًا)
+### <a name="setup-in-data-integration"></a>إعداد تكامل البيانات
+
+تأكد من وجود **مفتاح تكامل** لـ **msdyn_workorders**
+1. اذهب إلى تكامل البيانات
+2. حدد علامة التبويب **مجموعة الاتصال**
+3. حدد مجموعة الاتصال المستخدمة لمزامنة أمر العمل
+4. حدد علامة التبويب **مفتاح التكامل**
+5. ابحث عن msdyn_workorders وتأكد أنه تمت إضافة المفتاح **msdyn_name (رقم أمر العمل)**. إذا كان غير معروض، فأضفه بالنقر فوق **إضافة مفتاح**، ثم انقر فوق **حفظ** في الجزء العلوي من الصفحة
+
+## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
+
+تبين الأشكال التوضيحية التالية تعيين القالب في تكامل البيانات.
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Fin and Ops): WorkOrderHeader
+
+عامل التصفية: (msdyn_systemstatus ne 690970005) و(msdyn_systemstatus ne 690970000) و(msdynce_hasexternallymaintainedproductsonly eq true)
+
+[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Fin and Ops): WorkOrderServiceLineEstimate
+
+عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و (msdyn_linestatus eq 690970000) و (msdynce_headersystemstatus ne 690970004)
+
+[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Fin and Ops): WorkOrderServiceLineUsed
+
+عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و((msdyn_linestatus eq 690970001) أو (msdynce_headersystemstatus eq 690970004))
+
+[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Fin and Ops): WorkOrderProductLineEstimate
+
+عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و (msdyn_linestatus eq 690970000) و(msdynce_headersystemstatus ne 690970004) و(msdyn_allocated eq true)
+
+[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Fin and Ops): WorkOrderProductLineUsed
+
+عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و((msdyn_linestatus eq 690970001) أو (msdynce_headersystemstatus eq 690970004) أو (msdyn_allocated ne true))
+
+[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 

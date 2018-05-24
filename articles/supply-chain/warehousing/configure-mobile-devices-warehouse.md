@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>إعداد الأجهزة المحمولة لعمل المستودع
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 تصف هذه المقالة كيفية تكوين عناصر القائمة التي يستخدمها العاملون في المستودع لإنجاز العمل على جهاز محمول.
 
@@ -407,10 +407,10 @@ ms.lasthandoff: 04/13/2018
 
 **ملاحظة:** يمكنك طلب تأكيد المنتج لأنواع عمل الانتقاء والوضع فقط.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[إعدادات عرض الجهاز المحمول للمستودع](change-warehouse-mobile-device-displays.md)
+[إعدادات عرض الأجهزة المحمولة للمستودع](change-warehouse-mobile-device-displays.md)
 
 [إعداد صنف قائمة الجهاز المحمول لإكمال عمل من النوع "أمر الشراء" (دليل المهام)](tasks/set-up-mobile-device-menu.md)
 

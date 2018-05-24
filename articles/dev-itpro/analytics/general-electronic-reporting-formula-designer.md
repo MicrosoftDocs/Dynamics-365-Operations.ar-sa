@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>مصمم المعادلات في التقارير الإلكترونية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية استخدام مصمم المعادلة في التقارير الإلكترونية. عندما تصمم تنسيقًا لمستند إلكتروني معين في التقارير الإلكترونية، يمكنك استخدام معادلات لتحويل البيانات لتلبية متطلبات تنفيذ وتنسيق هذا المستند. تشبه هذه المعادلات المعادلات في Microsoft Excel. هناك أنواع مختلفة من الدالات المعتمدة في المعادلات: النص والتاريخ والوقت ومنطق الرياضيات والمعلومات وتحويل أنواع البيانات وغير ذلك (دالات خاصة بمجال الأعمال).
 
@@ -647,7 +647,7 @@ ms.lasthandoff: 04/13/2018
 
 تسمح لك التقارير الإلكترونية بتوسيع قائمة الدالات التي يتم استخدامها في تعبيرات التقارير الإلكترونية. يُتطلب بذل بعض الجهود الهندسية. للحصول على معلومات مفصلة، راجع [توسيع قائمة دالات التقارير الإلكترونية](general-electronic-reporting-formulas-list-extension.md).
 
-## <a name="see-also"></a>راجع أيضًا
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 

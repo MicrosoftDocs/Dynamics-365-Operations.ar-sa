@@ -20,16 +20,16 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ce6774ede836eb29e6ef2cd8d4baa9efb931020c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="customer-orders-overview"></a>نظرة عامة حول أوامر العميل
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يقدم هذا الموضوع معلومات حول أوامر العميل في نقطة البيع الحديثة للبيع بالتجزئة الجديدة (MPOS). تُعرف أوامر العملاء أيضًا بالأوامر الخاصة. يشمل الموضوع مناقشة المحددات ذات الصلة وتدفقات الحركة.
 
@@ -95,7 +95,7 @@ ms.lasthandoff: 11/03/2017
 
 عند تعيين خيار **إنشاء أمر عميل في الوضع "غير متزامن"** على **نعم**، يتم إنشاء أوامر العملاء دائمًا في وضع "غير متزامن"، حتى لو كانت خدمة حركة البيع بالتجزئة متوفرة. إذا قمت بتعيين هذا الخيار إلى **لا**، يتم إنشاء أوامر العميل دائماً في وضع متزامن باستخدام خدمة حركة البيع بالتجزئة RTS. عند إنشاء أوامر العملاء في الوضع "غير متزامن"، يتم سحبها وإدراجها في Retail بسحب وظائف (P). يتم إنشاء أوامر التوريد المقابلة في Retail عندما يتم تشغيل **مزامنة الأوامر** سواءً يدوياً أو من خلال معالجة المجموعة.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [أوامر العملاء المختلطة](hybrid-customer-orders.md)

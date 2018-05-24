@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>إنشاء التنبؤ الأساسي الإحصائي
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة معلومات حول المعلمات وعوامل التصفية التي يتم استخدامها في حساب التنبؤ بالطلب. 
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/03/2017
 
 إذا لم يتم إنشاء التنبؤ لمجموعة كبيرة من الأصناف، ولكن، على سبيل المثال، بالنسبة لصنف واحد أو مفتاح توزيع الصنف في المرة الواحدة، فمن أجل الحصول على أداء أفضل، يمكنك تحديد خانة الاختيار **استخدم وضع الاستجابة المطلوبة** في علامة التبويب **‎التخطيط الرئيسي - الإعداد - التنبؤ بالطلب** - **معلمات التنبؤ بالطلب - Azure Machine Learning**.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [إعداد التنبؤ بالطلب](demand-forecasting-setup.md)

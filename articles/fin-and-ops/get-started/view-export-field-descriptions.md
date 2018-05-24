@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>عرض أوصاف الحقول وتصديرها
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية عرض أوصاف الحقول وكيفية استخدام صفحة أوصاف الحقل لتصدير الأوصاف.
 
@@ -97,7 +97,7 @@ ms.lasthandoff: 04/13/2018
 
 للحصول على المعلومات حول الطرق المختلفة للعثور على الصفحات، راجع القسم "البحث عن صفحة" لاحقًا في هذه المقالة. إذا كنت قد كتبت اسم الصفحة بدقة، فقد لا تظهر أوصاف الحقول إذا كان هناك أكثر من صفحة واحدة بنفس الاسم. انقر فوق السهم في الحقل **تحديد صفحة** لفتح قائمة تمت تصفيتها تتضمن الصفحات المتوفرة.
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [تعليمات تخصيص الحقل](../../dev-itpro/user-interface/customize-field-help.md)

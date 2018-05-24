@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>نظرة عامة حول تحويل التكاليف القياسية
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توفر هذه المقالة نظرة عامة على العملية لمساعدتك على إعداد وتشغيل تحويل تكلفة المعيارية. يجب إكمال الخطوات المذكورة بعد أن تستكمل المتطلبات الأساسية لتحويل تكلفة المعيارية. 
 
@@ -96,7 +96,7 @@ ms.lasthandoff: 11/03/2017
 -   حلل حركات المخزون التي تعود إلى تاريخ سابق. استخدم التقرير **قيمة المخزون** لعرض حركات المخزون التي تعود إلى تاريخ سابق والتي تم إدخالها بعد التحويل. يجب أن يتطابق "من تاريخ" و"إلى تاريخ" في التقرير مع تاريخ بدء المرحلة الانتقالية وتاريخ التحويل (ناقص يوم واحد). ينبغي أن تعكس معايير تحديد التقرير الأصناف التي تم تحويلها. ويعرض التقرير حركات المخزون التي تمت بالتكلفة المعيارية خلال الفترة الانتقالية.
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [متطلبات تحويل التكلفة المعيارية](prerequisites-standard-cost-conversion.md)

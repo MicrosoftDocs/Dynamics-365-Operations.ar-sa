@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2a957038bfad065361b46e85b8195214779cc2d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a>نظرة عامة على مرشد تحسين الأداء
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيفية استخدام مرشد تحسين الأداء للمساعدة في ضمان التكوين الأمثل لـ Microsoft Dynamics 365 Finance and Operations.
 
@@ -50,8 +50,6 @@ ms.lasthandoff: 03/26/2018
 عندما تقوم بإجراء في بعض فرص تحسين الأداء، يقوم النظام بحساب تأثير الفرصة فيما يتعلق بنسبة التخفيض في وقت التشغيل للعمليات التجارية. لسوء الحظ، هذه الميزة غير متوفرة لجميع فرص تحسين الأداء.
 
 لمزيد من المعلومات حول "مرشد تحسين الأداء"، شاهد الفيديو القصير [مرشد تحسين الأداء في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
-> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
 
 ## <a name="optimization-rules"></a>قواعد التحسين
 
@@ -93,7 +91,7 @@ ms.lasthandoff: 03/26/2018
 
 لإلغاء تنشيط تقييم قواعد معينة، حدد الفرصة التي تم إنشاؤها بواسطة القاعدة، ثم حدد **إلغاء تنشيط تحليل**.
 
-## <a name="see-also"></a>راجع أيضًا
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [إنشاء قواعد جديدة](./create-rules-optimization-advisor.md)
 

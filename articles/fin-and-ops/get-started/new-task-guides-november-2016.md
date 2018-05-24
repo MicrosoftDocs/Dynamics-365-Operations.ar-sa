@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3db07708df55c24108c66797885318486b2b1003
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7708c8e091ef561c1a4205a1424a51d51d05002f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-november-2016"></a>دليل مهام جديد أو محدث (نوفمبر 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يسرد هذا الموضوع دليل المهام الجديد أو المحدث الذي تم إصداره لمكتبة Microsost الموحدة APQC (نوفمبر 2016- جميع اللغات) لـ Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة.
 
@@ -587,7 +587,7 @@ ms.lasthandoff: 04/13/2018
 |                       إعداد تسوية الشحن التلقائية                       |     عمومي     |
 |              <strong>\</strong>*إعداد إعادة توزيع الأصناف للانتقاء القصير              |     عمومي     |
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [دلائل المهام الجديدة المتوفرة (فبراير 2016)](new-task-guides-available-february-2016.md)

@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a>دلائل المهام الجديدة أو المحدثة (أغسطس 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (أغسطس 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX. لم يتم إصدار مكتبة بدء استخدام جديدة.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()دلائل المهام في المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
 ---------------------------------------------------------------------------------------------------
 
 تحتوي المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) على دلائل المهام المخصصة للاستخدام مع تعليمات التحديث 2 للنظام الأساسي Microsoft Dynamics AX (أغسطس 2016) وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 لتطبيق Microsoft Dynamics AX. لمزيد من المعلومات حول هذه الإصدارات، راجع [ما هو الجديد أو المتغير](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md).
@@ -97,7 +97,7 @@ ms.lasthandoff: 11/06/2017
 
 
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [دلائل المهام الجديدة (فبراير 2016)](new-task-guides-available-february-2016.md)

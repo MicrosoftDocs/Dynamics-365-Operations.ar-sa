@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>التعاون مع المورّدين باستخدام مدخل المورِّد‬
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيف يمكن لوكلاء الشراء استخدام مدخل المورّد للتعاون مع المورّدين الخارجيين أثناء عملية تأكيد أمر الشراء. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016.
 
@@ -96,7 +96,7 @@ ms.lasthandoff: 04/13/2018
 |                           سترسل الإصدار الجديد من أمر الشراء إلى موقع المورّد.                            |                                                                                                                                                                    يتم تسجيل الإصدار الجديد في مدخل المورّد وتتغير الحالة إلى <strong>قيد المراجعة الخارجية‬</strong>.                                                                                                                                                                     |
 |                                يوافق المورّد على الإصدار الجديد من أمر الشراء.                                 |                                                                                                                                                     تتغير الحالة إلى <strong>مؤكد</strong>، إما تلقائياً أو عندما تتلقى الاستجابة من المورّد ثم تؤكد أمر الشراء.                                                                                                                                                     |
 
-<a name="see-also"></a>راجع أيضًا
+<a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [تكوين الأمان لمستخدمي تعاون المورِّد‬](configure-security-vendor-portal-users.md)

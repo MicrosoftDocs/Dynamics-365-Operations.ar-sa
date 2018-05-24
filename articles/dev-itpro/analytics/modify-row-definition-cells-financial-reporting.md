@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>تعديل خلايا تعريف الصف
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة المعلومات المطلوبة لكل خلية في تعريف الصف في تقرير مالي وتشرح كيفية إدخال تلك المعلومات. 
 
@@ -488,10 +488,10 @@ ms.lasthandoff: 04/13/2018
 1.  افتح تعريف الصف أو العمود أو الشجرة للتعديل في مصمم التقارير.
 2.  في القائمة **تحرير**، انقر فوق **إدارة مجموعات قيم الأبعاد**.
 3.  في مربع الحوار **إدارة مجموعات قيم الأبعاد**، في حقل **البعد** ، حدد نوع البعد.
-4.  حدد المجموعة المراد حذفها، ثم انقر فوق **حذف**. انقر فوق **نعم** لحذف مجموعة قيم الأبعاد بشكل دائم.
+4.  حدد المجموعة المطلوب حذفها ثم انقر فوق **حذف**. انقر فوق **نعم** لحذف مجموعة قيم الأبعاد نهائيًا.
 
 
-## <a name="see-also"></a>راجع أيضًا
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [التقارير المالية](financial-reporting-intro.md)
 
