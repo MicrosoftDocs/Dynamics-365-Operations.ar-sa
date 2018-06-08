@@ -3,7 +3,7 @@ title: "إنشاء تنبيهات"
 description: "يشمل هذا الموضوع معلومات حول التنبيهات ويوضح كيفية إنشاء قاعدة تنبيه بحيث يتم إعلامك بالأحداث مثل تاريخ يتم بلوغه أو تغييرًا محددًا يحدث."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,18 +17,16 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fbec520054ab41e3b2d92e422d1b5f5276d44e2c
+ms.sourcegitcommit: aa5eab6dbf2cc604239cac199817ead6bef6f3de
+ms.openlocfilehash: ee4e39b37da32507303ae53389c7a8bcee4ab4c7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
 
 ---
 
 # <a name="create-alerts"></a><span data-ttu-id="8f41a-103">إنشاء تنبيهات</span><span class="sxs-lookup"><span data-stu-id="8f41a-103">Create alerts</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a><span data-ttu-id="8f41a-104">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="8f41a-104">Getting started</span></span>
 <span data-ttu-id="8f41a-105">قبل إعداد قاعدة تنبيه، قرر متى وفي أي مواقف تحتاج فيها إلى تلقي التنبيهات.</span><span class="sxs-lookup"><span data-stu-id="8f41a-105">Before you set up an alert rule, decide when or in what situations you want to receive alerts.</span></span> <span data-ttu-id="8f41a-106">عندما تعرف الحدث الذي تريد إعلامك به، في Microsoft Dynamics 365 for Finance and Operations، ابحث عن الصحة التي توجد فيها البيانات التي تؤدي إلى ظهور هذا الحدث.</span><span class="sxs-lookup"><span data-stu-id="8f41a-106">When you know which event you want to be notified about, in Microsoft Dynamics 365 for Finance and Operations find the page where the data that causes that event appears.</span></span> <span data-ttu-id="8f41a-107">يمكن أن يكون الحدث تاريخًا يتم بلوغه أو تغييرًا محددًا يحدث.</span><span class="sxs-lookup"><span data-stu-id="8f41a-107">The event can be a date that arrives or a specific change that occurs.</span></span> <span data-ttu-id="8f41a-108">لذلك، يجب البحث عن الصفحة التي يتم فيها تحديد التاريخ، أو الحقل الذي تظهر فيها هذه التغييرات أو السجل الجديد الذي تم إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="8f41a-108">Therefore, you must find the page where the date is specified, or where the field that changes or the new record that is created appears.</span></span> <span data-ttu-id="8f41a-109">بعد أن تتوفر لديك هذه المعلومات، يمكنك إنشاء قاعدة التنبيه.</span><span class="sxs-lookup"><span data-stu-id="8f41a-109">After you have this information, you can create the alert rule.</span></span>
