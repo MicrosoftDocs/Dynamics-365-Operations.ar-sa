@@ -28,6 +28,7 @@ ms.lasthandoff: 05/08/2018
 
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>ترقية إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
 
+
 [!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع نظرة عامة حول عملية الترقية من Microsoft Dynamics AX 2012 R3، الذي يعمل بالوحدة النمطية WMSII، إلى Microsoft Dynamics 365 for Finance and Operations.
