@@ -1,9 +1,9 @@
 ---
-title: "محتوى Power BI"
-description: "يسرد هذا الموضوع محتوى Power BI المتوفر ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عنه."
+title: "حلول PowerBI.com"
+description: "يسرد هذا الموضوع حلول PowerBI.com المتوفرةن ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عن الحلول."
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 43675cdeaa8498e38e7ab030b935293d71035ea0
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a><span data-ttu-id="fb8ae-103">محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="fb8ae-103">Power BI content</span></span>
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a><span data-ttu-id="0b858-103">حلول PowerBI.com</span><span class="sxs-lookup"><span data-stu-id="0b858-103">PowerBI.com solutions</span></span>
+<span data-ttu-id="0b858-104">تتوفر حلول PowerBI.com التالية لبيئات Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="0b858-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span> 
 
-<span data-ttu-id="fb8ae-104">يسرد هذا الموضوع محتوى Microsoft Power BI المتوفر ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عنه.</span><span class="sxs-lookup"><span data-stu-id="fb8ae-104">This topic lists the Microsoft Power BI content that is available and points you to resources where you can learn more about it.</span></span>
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="0b858-105">حلول PowerBI.com المتوفرة من ‏‫Lifecycle Services ‏(LCS)‬</span><span class="sxs-lookup"><span data-stu-id="0b858-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="fb8ae-105">محتوى Power BI لـ Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="fb8ae-105">Power BI content for Dynamics 365 for Finance and Operations</span></span>
-<span data-ttu-id="fb8ae-106">إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations، فسيتوفر محتوى Power BI التالي:</span><span class="sxs-lookup"><span data-stu-id="fb8ae-106">If you're using Microsoft Dynamics 365 for Finance and Operations, the following Power BI content is available:</span></span>
-
-- [<span data-ttu-id="fb8ae-107">محتوى Power BI القيمة الفعلية مقابل الموازنة</span><span class="sxs-lookup"><span data-stu-id="fb8ae-107">Actual vs budget Power BI content</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="fb8ae-108">محتوى Power BI - الميزات</span><span class="sxs-lookup"><span data-stu-id="fb8ae-108">Benefits Power BI content</span></span>](benefits-power-bi.md)
-- [<span data-ttu-id="fb8ae-109">محتوى Power BI - نظرة عامة على النقد</span><span class="sxs-lookup"><span data-stu-id="fb8ae-109">Cash overview Power BI content</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="fb8ae-110">محتوى Power BI - نظرة عامة على المدير المالي</span><span class="sxs-lookup"><span data-stu-id="fb8ae-110">CFO overview Power BI content</span></span>](CFO-power-bi.md)
-- [<span data-ttu-id="fb8ae-111">محتوى Power BI - التعويض</span><span class="sxs-lookup"><span data-stu-id="fb8ae-111">Compensation Power BI content</span></span>](compensation-power-bi.md)
-- [<span data-ttu-id="fb8ae-112">محتوى Power BI لتحليل محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="fb8ae-112">Cost accounting analysis Power BI content</span></span>](cost-accounting-analysis-content-pack.md) 
-- [<span data-ttu-id="fb8ae-113">محتوى Power BI لإدارة التكلفة</span><span class="sxs-lookup"><span data-stu-id="fb8ae-113">Cost management Power BI content</span></span>](cost-management-content-pack.md)    
-- [<span data-ttu-id="fb8ae-114">محتوى Power BI - إدارة التحصيلات والائتمان</span><span class="sxs-lookup"><span data-stu-id="fb8ae-114">Credit and collections management Power BI content</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="fb8ae-115">محتوى Power BI - تطوير الموظفين</span><span class="sxs-lookup"><span data-stu-id="fb8ae-115">Employee development Power BI content</span></span>](employee-development-PBI.md) 
-- [<span data-ttu-id="fb8ae-116">محتوى Power BI المعلومات المالية</span><span class="sxs-lookup"><span data-stu-id="fb8ae-116">Financial insights Power BI content</span></span>](financial-insights.md)
-- [<span data-ttu-id="fb8ae-117">محتوى Power BI - الأداء المالي</span><span class="sxs-lookup"><span data-stu-id="fb8ae-117">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="fb8ae-118">محتوى Power BI - ‏‫إدارة الأصول الثابتة‬</span><span class="sxs-lookup"><span data-stu-id="fb8ae-118">Fixed asset management Power BI content</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="fb8ae-119">محتوى Power BI - ‏‫التعلم‬</span><span class="sxs-lookup"><span data-stu-id="fb8ae-119">Learning Power BI content</span></span>](learning-power-bi.md)
-- [<span data-ttu-id="fb8ae-120">محتوى Power BI - ‏‫إدارة الممارسات‬</span><span class="sxs-lookup"><span data-stu-id="fb8ae-120">Practice manager Power BI content</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="fb8ae-121">محتوى Power BI - ‏أداء الإنتاج</span><span class="sxs-lookup"><span data-stu-id="fb8ae-121">Production performance Power BI content</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="fb8ae-122">محتوى Power BI لتحليل الإنفاق على الشراء</span><span class="sxs-lookup"><span data-stu-id="fb8ae-122">Purchase spend analysis Power BI content</span></span>](purchase-content-pack-for-power-bi.md) 
-- [<span data-ttu-id="fb8ae-123">محتوى Power BI للتوظيف</span><span class="sxs-lookup"><span data-stu-id="fb8ae-123">Recruiting Power BI content</span></span>](recruiting-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="fb8ae-124">محتوى Power BI لأداء المبيعات والربحية</span><span class="sxs-lookup"><span data-stu-id="fb8ae-124">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="fb8ae-125">محتوى Power BI - ‏‫مدفوعات المورّد‬</span><span class="sxs-lookup"><span data-stu-id="fb8ae-125">Vendor payments Power BI content</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="fb8ae-126">محتوى Power BI لأداء المستودع</span><span class="sxs-lookup"><span data-stu-id="fb8ae-126">Warehouse performance Power BI content</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="fb8ae-127">محتوى Power BI لمقاييس القوى العاملة</span><span class="sxs-lookup"><span data-stu-id="fb8ae-127">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a><span data-ttu-id="fb8ae-128">محتوى Power BI للإصدار 1611 من Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="fb8ae-128">Power BI content for Dynamics 365 for Operations version 1611</span></span>
-<span data-ttu-id="fb8ae-129">إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations، يتوفر محتوى Power BI التالي:</span><span class="sxs-lookup"><span data-stu-id="fb8ae-129">If you're using Microsoft Dynamics 365 for Operations version 1611, the following Power BI content is available:</span></span>
-
-- [<span data-ttu-id="fb8ae-130">محتوى Power BI للتعويض والميزات</span><span class="sxs-lookup"><span data-stu-id="fb8ae-130">Compensation and benefits Power BI content</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [<span data-ttu-id="fb8ae-131">محتوى Power BI - تحليل محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="fb8ae-131">Cost accounting analysis Power BI content</span></span>](cost-accounting-analysis-content-pack.md) 
-- [<span data-ttu-id="fb8ae-132">محتوى Power BI - إدارة التحصيلات والائتمان</span><span class="sxs-lookup"><span data-stu-id="fb8ae-132">Credit and collections management Power BI content</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="fb8ae-133">محتوى Power BI لكفاءات الموظفين وتطويرهم</span><span class="sxs-lookup"><span data-stu-id="fb8ae-133">Employee competencies and development Power BI content</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="fb8ae-134">محتوى Power BI - الأداء المالي</span><span class="sxs-lookup"><span data-stu-id="fb8ae-134">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="fb8ae-135">محتوى Power BI للتدريب المؤسسي</span><span class="sxs-lookup"><span data-stu-id="fb8ae-135">Organizational training Power BI content</span></span>](organizational-training-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="fb8ae-136">محتوى Power BI - ‏‫إدارة الممارسات‬</span><span class="sxs-lookup"><span data-stu-id="fb8ae-136">Practice manager Power BI content</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="fb8ae-137">محتوى Power BI - ‏أداء الإنتاج</span><span class="sxs-lookup"><span data-stu-id="fb8ae-137">Production performance Power BI content</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="fb8ae-138">محتوى Power BI لتحليل الإنفاق على الشراء</span><span class="sxs-lookup"><span data-stu-id="fb8ae-138">Purchase spend analysis Power BI content</span></span>](purchase-content-pack-for-power-bi.md) 
-- [<span data-ttu-id="fb8ae-139">محتوى Power BI للتوظيف</span><span class="sxs-lookup"><span data-stu-id="fb8ae-139">Recruiting Power BI content</span></span>](recruiting-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="fb8ae-140">محتوى Power BI لأداء المبيعات والربحية</span><span class="sxs-lookup"><span data-stu-id="fb8ae-140">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="fb8ae-141">محتوى Power BI لأداء المستودع</span><span class="sxs-lookup"><span data-stu-id="fb8ae-141">Warehouse performance Power BI content</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="fb8ae-142">محتوى Power BI لمقاييس القوى العاملة</span><span class="sxs-lookup"><span data-stu-id="fb8ae-142">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a><span data-ttu-id="fb8ae-143">محتوى Power BI لـ Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="fb8ae-143">Power BI content for Microsoft Dynamics AX</span></span>
-<span data-ttu-id="fb8ae-144">إذا كنت تستخدم الإصدار Microsoft Dynamics AX 7.0 أو Microsoft Dynamics AX 7.0.1، يتوفر المحتوى التالي:</span><span class="sxs-lookup"><span data-stu-id="fb8ae-144">If you're using Microsoft Dynamics AX 7.0 or Microsoft Dynamics AX 7.0.1, the following Power BI content is available:</span></span>
+<span data-ttu-id="0b858-106">تتوفر حلول PowerBI.com التالية في مكتبة الأصول المشتركة في LCS.</span><span class="sxs-lookup"><span data-stu-id="0b858-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="0b858-107">راجع معلومات الإصدار في مكتبة الأصول المشتركة لتنزيل الإصدار الصحيح للبيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="0b858-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span> 
 
 > [!Note]
-> <span data-ttu-id="fb8ae-145">تم إهلاك حزم المحتوى هذه كما هو موثق في [حزم محتوى Power BI المنشورة في PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).</span><span class="sxs-lookup"><span data-stu-id="fb8ae-145">These content packs have been deprecated as documented in [Power BI content packs published to PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).</span></span>
+> <span data-ttu-id="0b858-108">تم تضمين معظم حلول PowerBI.com في القائمة التالية في مساحات عمل تحليلة في الإصدارات الحديثة لـ Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="0b858-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions of Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="0b858-109">يؤدي استخدام مساحات العمل التحليلة إلى تجنب الحاجة إلى تنزيل هذه الحلول من مكتبة الأصول المشتركة في LCS.</span><span class="sxs-lookup"><span data-stu-id="0b858-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="0b858-110">يُشير الموضوع الموجود في هذه القائمة إلى مكان تضمين حلول PowerBI.com في inance and Operations، حيثما كان ذلك ممكنًا.</span><span class="sxs-lookup"><span data-stu-id="0b858-110">The topics in this list indicate where these PowerBI.com solutions have been embedded in Finance and Operations, where applicable.</span></span> 
 
-- [<span data-ttu-id="fb8ae-146">محتوى Power BI لإدارة التكلفة</span><span class="sxs-lookup"><span data-stu-id="fb8ae-146">Cost management Power BI content</span></span>](cost-management-content-pack.md)    
-- [<span data-ttu-id="fb8ae-147">محتوى Power BI - الأداء المالي</span><span class="sxs-lookup"><span data-stu-id="fb8ae-147">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="fb8ae-148">محتوى Power BI أداء قناة البيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="fb8ae-148">Retail channel performance Power BI content</span></span>](retail-channel-performance-dashboard-power-bi-data.md) 
+- [<span data-ttu-id="0b858-111">الفعلي مقابل الموازنة</span><span class="sxs-lookup"><span data-stu-id="0b858-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="0b858-112">نظرة عامة على النقدية</span><span class="sxs-lookup"><span data-stu-id="0b858-112">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="0b858-113">التعويض والميزات</span><span class="sxs-lookup"><span data-stu-id="0b858-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [<span data-ttu-id="0b858-114">تحليل محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="0b858-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md) 
+- [<span data-ttu-id="0b858-115">إدارة التحصيلات والائتمان</span><span class="sxs-lookup"><span data-stu-id="0b858-115">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="0b858-116">اختصاصات الموظفين وتطويرهم</span><span class="sxs-lookup"><span data-stu-id="0b858-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [<span data-ttu-id="0b858-117">الأداء المالي</span><span class="sxs-lookup"><span data-stu-id="0b858-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="0b858-118">إدارة الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="0b858-118">Fixed asset management</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="0b858-119">التدريب المؤسسي</span><span class="sxs-lookup"><span data-stu-id="0b858-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md) 
+- [<span data-ttu-id="0b858-120">مدير الممارسة</span><span class="sxs-lookup"><span data-stu-id="0b858-120">Practice manager</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="0b858-121">أداء الإنتاج</span><span class="sxs-lookup"><span data-stu-id="0b858-121">Production performance</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="0b858-122">تحليل إنفاق الشراء</span><span class="sxs-lookup"><span data-stu-id="0b858-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md) 
+- [<span data-ttu-id="0b858-123">توظيف</span><span class="sxs-lookup"><span data-stu-id="0b858-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="0b858-124">أداء الربحية والمبيعات</span><span class="sxs-lookup"><span data-stu-id="0b858-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="0b858-125">مدفوعات المورد</span><span class="sxs-lookup"><span data-stu-id="0b858-125">Vendor payments</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="0b858-126">أداء المستودع</span><span class="sxs-lookup"><span data-stu-id="0b858-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="0b858-127">مقاييس القوى العاملة</span><span class="sxs-lookup"><span data-stu-id="0b858-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="0b858-128">حلول PowerBI.com المتوفرة من AppSource</span><span class="sxs-lookup"><span data-stu-id="0b858-128">PowerBI.com solutions available from AppSource</span></span>
 
+<span data-ttu-id="0b858-129">تتوفر حلول PowerBI.com من [Microsoft AppSource](https://appsource.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="0b858-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+
+> [!Note]
+> <span data-ttu-id="0b858-130">تم إهلاك هذه الحلول كما هو موثق في [حزم محتوى Power BI المتوفرة على AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="0b858-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+
+- <span data-ttu-id="0b858-131">إدارة التكلفة</span><span class="sxs-lookup"><span data-stu-id="0b858-131">Cost management</span></span>    
+- [<span data-ttu-id="0b858-132">الأداء المالي</span><span class="sxs-lookup"><span data-stu-id="0b858-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="0b858-133">أداء قناة البيع بالتجزئة </span><span class="sxs-lookup"><span data-stu-id="0b858-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md) 
 
