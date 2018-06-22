@@ -3,7 +3,7 @@ title: "ما الجديد أو التغيير"
 description: "تشير هذه الصفحة إلى مواضيع بإمكانها مساعدتك في التعرف على الميزات الجديدة الموجودة في الإصدارات الأحدث من Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 03/25/2018
+ms.date: 05/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f49c5157294f615b134c9ea0f00b93f70d59f527
+ms.sourcegitcommit: aa5eab6dbf2cc604239cac199817ead6bef6f3de
+ms.openlocfilehash: 8a6ea271270fd854110a8548ab92cc4ef975ad0a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
 
 ---
 
@@ -128,13 +128,13 @@ ms.lasthandoff: 05/08/2018
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
 <td>update 15 للنظام الأساسي</td>
-<td>7.0.4839</td>
-<td>تحديث النظام الأساسي 15 هو إصدار مستهدف، وهذا يعني أنه سيصبح متوفرًا لكافة المستخدمين من يونيو 2018.</td>
+<td>7.0.4841</td>
+<td>2018 مارس</td>
 <td><a href="whats-new-platform-update-15.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition، الإصدار 15 من تحديث النظام الأساسي (مارس 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
 <td>update 12 للنظام الأساسي</td>
-<td>7.0.4841</td>
+<td>7.0.4709</td>
 <td>نوفمبر 2017</td>
 <td><a href="whats-new-platform-update-12.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise Edition، الإصدار 12 من تحديث النظام الأساسي (نوفمبر 2017)</a></td>
 <tbody><tr class="odd">

@@ -3,7 +3,7 @@ title: "مصمم المعادلة في التقارير الإلكترونية"
 description: "يشرح هذا الموضوع كيفية استخدام مصمم المعادلة في التقارير الإلكترونية."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 04/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
+ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
+ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 
 ---
 
@@ -175,7 +175,7 @@ ms.lasthandoff: 05/08/2018
 
 #### <a name="references"></a>المراجع
 
-يمكن استخدام جميع مصادر البيانات في مكون التقارير الإلكترونية الحالي التي تتوفر أثناء تصميم تعبير كمراجع مسماة. (قد يكون مكون التقارير الإلكترونية الحالي نموذجًا أو تنسيقًا.) على سبيل المثال، يحتوي على نموذج بيانات التقارير الإلكترونية الحالي على مصدر بيانات **ReportingDate**، ويُرجع مصدر البيانات هذا قيمة نوع بيانات **التاريخ والوقت**. لتنسيق تلك القيمة في المستند الناشئ، يمكنك الإشارة إلى مصدر بيانات في التعبير كما يلي **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**
+يمكن استخدام جميع مصادر البيانات في مكون التقارير الإلكترونية الحالي التي تتوفر أثناء تصميم تعبير كمراجع مسماة. (قد يكون مكون التقارير الإلكترونية الحالي نموذجًا أو تنسيقًا.) على سبيل المثال، يحتوي على نموذج بيانات التقارير الإلكترونية الحالي على مصدر بيانات **ReportingDate**، ويُرجع مصدر البيانات هذا قيمة نوع بيانات **التاريخ والوقت**. لتنسيق هذه القيمة في المستند المنشأ بشكل صحيح، يمكنك الرجوع إلى مصدر البيانات في التعبير على شكل **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**.
 
 يجب أن تكون جميع الأحرف في اسم مصدر البيانات المرجعي والتي لا تمثل حرفًا أبجديًا مسبوقة بعلامة اقتباس مفردة ('). إذا كان اسم مصدر البيانات المرجعي يحتوي على رمز واحد على الأقل لا يمثل حرفًا من الحروف الأبجدية، فمن ثم يجب أن يضمن الاسم في علامة اقتباس مفردة. (على سبيل المثال، قد تكون هذه الرموز غير الأبجدية علامات ترقيم أو رموز مكتوبة أخرى.) فيما يلي بعض الأمثلة:
 
@@ -217,13 +217,13 @@ ms.lasthandoff: 05/08/2018
 | NULLDATE () | إرجاع قيمة تاريخ **فارغة**. | |
 | NULLDATETIME () | إرجاع قيمة وقت/تاريخ **فارغة**. | |
 | DATETIMEFORMAT (التاريخ والوقت، التنسيق) | تحويل قيمة التاريخ/الوقت المحددة إلى سلسلة بالتنسيق المحدد. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** ترجع المعادلة تاريخ خادم تطبيق Finance and Operations الحالي، وهو 24 ديسمبر 2015، على الشكل التالي **"24-12-2015‏‏‏‏"‏‏**، وفقًا للتنسيق المخصص المحدد. |
-| DATETIMEFORMAT (التاريخ والوقت، التنسيق، الثقافة) | تحويل قيمة التاريخ/الوقت المحددة إلى سلسلة بالتنسيق [والثقافة](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) المحددة.  (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | تُرجع المعادلة **DATETIMEFORMAT (NOW(), "d", "de")** تاريخ خادم تطبيق Finance and Operations الحالي، 24 ديسمبر 2015، على الشكل **"24.12.2015"**، وفقًا للثقافة الألمانية المحددة. |
+| DATETIMEFORMAT (التاريخ والوقت، التنسيق، الثقافة) | تحويل قيمة التاريخ/الوقت المحددة إلى سلسلة بالتنسيق [والثقافة](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) المحددة.  (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | تُرجع المعادلة **DATETIMEFORMAT (NOW(), "d", "de")** تاريخ خادم تطبيق Finance and Operations الحالي، 24 ديسمبر 2015، على الشكل **"24.12.2015"**، وفقًا للثقافة الألمانية المحددة. |
 | SESSIONTODAY () | تُرجع تاريخ جلسة عمل Finance and Operations الحالية كقيمة تاريخ. | |
 | SESSIONNOW () | تُرجع تاريخ ووقت جلسة عمل Finance and Operations الحالية كقيمة تاريخ/وقت. | |
 | DATEFORMAT (التاريخ، التنسيق) | إرجاع تمثيل السلسلة للتاريخ المحدد بالتنسيق المحدد. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** ترجع المعادلة تاريخ جلسة عمل Finance and Operations الحالية، وهو 24 ديسمبر 2015، على الشكل التالي **"24-12-2015‏‏‏‏"‏‏**، وفقًا للتنسيق المخصص المحدد. |
-| DATEFORMAT (التاريخ، التنسيق، الثقافة) | تحويل قيمة التاريخ المحددة إلى سلسلة بالتنسيق [والثقافة](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) المحددة. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** تُرحع جلسة عمل Finance and Operations الحالية، 24 ديسمبر 2015، على الشكل **"24.12.2015"**، وفقًا للثقافة الألمانية المحددة. |
+| DATEFORMAT (التاريخ، التنسيق، الثقافة) | تحويل قيمة التاريخ المحددة إلى سلسلة بالتنسيق [والثقافة](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) المحددة. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** تُرحع جلسة عمل Finance and Operations الحالية، 24 ديسمبر 2015، على الشكل **"24.12.2015"**، وفقًا للثقافة الألمانية المحددة. |
 | DAYOFYEAR (التاريخ) | إرجاع تمثيل عدد صحيح لعدد الأيام من 1 يناير إلى التاريخ المحدد. | تُرجع المعادلة **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** القيمة **61**. تُرجع المعادلة **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** القيمة **1**. |
-| أيام (تاريخ 1، تاريخ 2) | إرجاع عدد الأيام بين التاريخ المحدد الأول والتاريخ المحدد الثاني. إرجاع قيمة موجبة إذا كان التاريخ الأول لاحقًا للتاريخ الثاني أو إرجاع **0** (صفر) عند يساوي التاريخ الأول التاريخ الثاني أو إرجاع قيمة سالبة بدلاً من ذلك. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** تُرجع **-1**. |
+| أيام (تاريخ 1، تاريخ 2) | إرجاع عدد الأيام بين التاريخ المحدد الأول والتاريخ المحدد الثاني. إرجاع قيمة موجبة إذا كان التاريخ الأول لاحقًا للتاريخ الثاني أو إرجاع **0** (صفر) عند يساوي التاريخ الأول التاريخ الثاني أو إرجاع قيمة سالبة بدلاً عندما يكون التاريخ الأول سابقًا للتاريخ الثاني. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** تُرجع **-1**. |
 
 ### <a name="data-conversion-functions"></a>دالات تحويل البيانات
 
@@ -238,113 +238,125 @@ ms.lasthandoff: 05/08/2018
 ### <a name="list-functions"></a>دالات القائمة
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>الوظيفة</th>
 <th>الوصف</th>
 <th>مثال</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>SPLIT (إدخال، طول)</td>
 <td>تقسيم سلسلة الإدخال المحددة إلى سلاسل فرعية، لكل منها الطول المحدد. إرجاع النتيجة كقائمة جديدة.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> ترجع قائمة جديدة تتألف من سجلين لديهما الحقل  <strong>STRING</strong> . يحتوي الحقل في السجل الأول على النص <strong>&quot;abc&quot;</strong>، ويحتوي الحقل في السجل الثاني على النص <strong>&quot;d&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>SPLITLIST (قائمة، رقم)</td>
 <td>تقسيم القائمة المحددة إلى دُفعات تحتوي كل واحدة منها على العدد المحدد من السجلات. إرجاع النتيجة كقائمة جديدة من الدُفعات التي تحتوي على العناصر التالية:
 <ul>
 <li>الدُفعات كقوائم منتظمة (المكون <strong>قيمة</strong>)</li>
 <li>رقم الدُفعة الحالية (المكون <strong>BatchNumber</strong>)</li>
-</ul></td>
+</ul>
+</td>
 <td>في الرسم التوضيح التالي، يتم إنشاء مصدر بيانات <strong>الخطوط</strong> كقائمة سجلات من السجلات الثلاثة. يتم تقسيم هذه القائمة إلى دُفعات، يحتوي كل منها على ما يصل إلى سجلين.
 <p><a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
 <p>يبين الرسم التوضيحي التالي تخطيط التنسيق المصمم. في تخطيط التنسيق هذا، يتم إنشاء عمليات الربط إلى مصدر بيانات <strong>الخطوط</strong> لإنشاء إخراج بتنسيق XML. يقدم هذا الإخراج عقدًا فردية لكل دُفعة والسجلات التي فيها.</p>
 <p><a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a></p>
 <p>يعرض الرسم التوضيحي التالي النتيجة عند تشغيل التنسيق المصمم.</p>
-<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LIST (سجل 1 [، سجل 2، ...])</td>
 <td>إرجاع قائمة جديدة تم إنشاؤها من وسيطات محددة.</td>
 <td><strong>LIST (model.MainData, model.OtherData)</strong> ترجع سجلاً فارغًا، حيث تحتوي قائمة الحقول على كل الحقول من قائمة سجلات <strong>MainData</strong> و<strong>OtherData</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTJOIN (قائمة 1، قائمة 2، ...)</td>
 <td>إرجاع قائمة مرتبطة تم إنشاؤها من قوائم وسيطات محددة.</td>
 <td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> تُرجع قائمة السجلات الستة، حيث يحتوي حقل واحد من نوع البيانات <strong>STRING</strong> على أحرف فردية.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>ISEMPTY (قائمة)</td>
 <td>إرجاع <strong>TRUE</strong> إذا لم تتضمن القائمة المحددة أية عناصر. وإلا، يتم إرجاع <strong>FALSE</strong>.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>EMPTYLIST (قائمة)</td>
 <td>إرجاع قائمة فارغة باستخدام القائمة المحددة كمصدر لبنية القائمة.</td>
 <td><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> تُرجع قائمة فارغة جديدة لها نفس بنية القائمة المرتجعة بواسطة الدالة <strong>SPLIT</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>FIRST (قائمة)</td>
 <td>إرجاع السجل الأول من القائمة المحددة، إذا لم يكن هذا السجل فارغًا. وإلا، يتم طرح استثناء.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>FIRSTORNULL (قائمة)</td>
 <td>إرجاع السجل الأول من القائمة المحددة، إذا لم يكن هذا السجل فارغًا. وإلا يتم إرجاع سجل <strong>فارغ</strong>.</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIRSTITEM (قائمة)</td>
 <td>إرجاع قائمة تحتوي على العنصر الأول فقط من القائمة المحددة.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>ALLITEMS (مسار)</td>
-<td>إرجاع قائمة مدمجة جديدة تمثل كل العناصر التي تطابق المسار المحدد. يجب تحديد المسار كمسار مصدر بيانات صالح لعنصر مصدر بيانات لنوع بيانات قائمة السجلات. يجب أن تُظهر عناصر البيانات مثل سلسلة المسار والتاريخ خطأ في وقت التصميم في منشئ تعبير التقارير الإلكترونية.</td>
+<td>تعمل هذه الوظيفة كمجموعة في الذاكرة. إنها تقوم بإرجاع قائمة مسطحة تمثل كل العناصر التي تطابق المسار المحدد. يجب تحديد المسار كمسار مصدر بيانات صالح لعنصر مصدر بيانات لنوع بيانات قائمة السجلات. يجب أن تُظهر عناصر البيانات مثل سلسلة المسار والتاريخ خطأ في وقت التصميم في منشئ تعبير التقارير الإلكترونية.</td>
 <td>إذا أدخلت <strong>SPLIT(&quot;abcdef&quot; , 2)</strong> كمصدر بيانات (DS)، فسترجع <strong>COUNT( ALLITEMS (DS.Value))</strong> العدد <strong>3</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
+<td>ALLITEMSQUERY (مسار)</td>
+<td>تعمل هذه الوظيفة كاستعلام SQL مُنضم. إنها تقوم بإرجاع قائمة مسطحة تمثل كل العناصر التي تطابق المسار المحدد. يجب تحديد المسار المحدد كمسار مصدر بيانات صالح لعنصر مصدر بيانات لنوع بيانات قائمة السجلات، ويجب أن يتضمن علاقة واحدة على الأقل. يجب أن تُظهر عناصر البيانات مثل سلسلة المسار والتاريخ خطأ في وقت التصميم في منشئ تعبير التقارير الإلكترونية.</td>
+<td>تحديد مصادر البيانات التالية في تعيين نموذج:
+<ul>
+<li><strong>CustInv</strong> (<strong>نوع سجلات الجدول</strong>)، الذي يشير إلى جدول CustInvoiceTable</li> 
+<li><strong>FilteredInv</strong> (<strong>نوع الحقل المحسوب</strong>)، الذي يحتوي على التعبير <strong>عامل التصفية (CustInv, CustInv.InvoiceAccount = &quot;US-001&quot;)</strong></li>
+<li><strong>JourLines</strong> (<strong>نوع الحقل المحسوب</strong>)، الذي يحتوي على التعبير <strong>ALLITEMSQUERY (FilteredInv.'&lt;Relations'.CustInvoiceJour.'&lt;Relations'.CustInvoiceTrans)</strong></li>
+</ul>
+<p>عندما تقوم بتشغيل تعيين نموذج لطلب مصدر البيانات <strong>JourLines</strong>، فإنه يتم تشغيل عبارة SQL التالية:</p>
+حدد ... من بين CUSTINVOICETABLE T1 CROSS JOIN وCUSTINVOICEJOUR T2 وCROSS JOIN CUSTINVOICETRANS T3 حيث...
+</td>
+</tr>
+<tr>
 <td>ORDERBY (قائمة [, تعبير 1، تعبير 2، …])</td>
 <td>إرجاع قائمة محددة بعد أن تم فرزها وفقًا للوسيطات المحددة. يمكن تعريف الوسيطات التالية كعبارات.</td>
 <td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، ترجع <strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> قائمة مورّدين تم فرزها حسب الاسم بترتيب تصاعدي.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REVERSE (قائمة)</td>
 <td>إرجاع القائمة المحددة بترتيب فرز معكوس.</td>
 <td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، ترجع <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> قائمة مورّدين تم فرزها حسب الاسم بترتيب تنازلي.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>WHERE (قائمة، شرط)</td>
 <td>إرجاع قائمة محددة بعد أن تمت تصفيتها وفقًا للشرط المحدد. يتم تطبيق الشرط المحدد على القائمة في الذاكرة. بهذه الطريقة، تختلف دالة <strong>WHERE</strong> عن الدالة <strong>FILTER</strong>.</td>
 <td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable <strong>ترجع (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> قائمة المورّدين التي تنتمي إلى مجموعة الموردين 40.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>ENUMERATE (قائمة)</td>
 <td>إرجاع قائمة جديدة تتكون من السجلات التي تم تعدادها للقائمة المحددة، والتي تعرض العناصر التالية:
 <ul>
 <li>سجلات قائمة محددة كقوائم عادية (المكون<strong>قيمة</strong>)</li>
 <li>فهرس السجلات الحالية (المكون <strong>Number</strong>)</li>
-</ul></td>
+</ul>
+</td>
 <td>في الرسم التوضيحي التالي، يتم إنشاء مصدر البيانات <strong>Enumerated</strong> كقائمة تم تعدادها لسجلات المورّدين من مصدر البيانات <strong>Vendors</strong> الذي يشير إلى الجدول VendTable.
 <p><a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a></p>
 <p>يبين الرسم التوضيحي التالي التنسيق. في هذا التنسيق، يتم إنشاء عمليات ربط البيانات لإنشاء إخراج بتنسيق XML. يقدم هذا الإخراج موردين فرديين كعقد تم تعدادها.</p>
 <p><a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a></p>
 <p>يعرض الرسم التوضيحي التالي النتيجة عند تشغيل التنسيق المصمم.</p>
-<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>COUNT (قائمة)</td>
 <td>إرجاع عدد السجلات في القائمة المحددة، إذا لم تكن القائمة فارغة. وإلا، يتم إرجاع <strong>0</strong> (صفر)</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> ترجع <strong>2</strong>، لأن الدلة <strong>SPLIT</strong> تنشئ قائمة مكونة من سجلين.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTOFFIELDS (مسار)</td>
 <td>إرجاع قائمة سجلات تم إنشاؤها من وسيطة من أحد الأنواع التالية:
 <ul>
@@ -358,7 +370,8 @@ ms.lasthandoff: 05/08/2018
 <li>التسمية</li>
 <li>الوصف</li>
 </ul>
-في وقت التشغيل، يُرجع الحقلان <strong>التسمية</strong> و<strong>الوصف</strong> القيم المستندة إلى إعدادات لغة التنسيق.</td>
+في وقت التشغيل، يُرجع الحقلان <strong>التسمية</strong> و<strong>الوصف</strong> القيم المستندة إلى إعدادات لغة التنسيق.
+</td>
 <td>في الرسم التوضيحي التالي، يتم تقديم تعداد في نموذج بيانات.
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>يبين الرسم التوضيحي التالي هذه التفاصيل:</p>
@@ -372,10 +385,10 @@ ms.lasthandoff: 05/08/2018
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>يعرض الرسم التوضيحي التالي النتيجة عند تشغيل التنسيق المصمم.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>
-تتم تعبئة النص المترجم للتسميات والأوصاف في إخراج تنسيق التقارير الإلكترونية وفقًا لإعدادات اللغة التي تم تكوينها لعناصر تنسيق الملف والمجلد الأصلي.</blockquote></td>
+<blockquote>[!NOTE]<br>تتم تعبئة النص المترجم للتسميات والأوصاف في إخراج تنسيق التقارير الإلكترونية وفقًا لإعدادات اللغة التي تم تكوينها لعناصر تنسيق الملف والمجلد الأصلي.</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIELDS (المسار، اللغة)</td>
 <td>إرجاع قائمة سجلات تم إنشاؤها من وسيطة، مثل تعداد نموذج أو تعداد تنسيق أو حاوية. تتكون القائمة التي تم إنشاؤها من السجلات التي تحتوي على الحقول التالية:
 <ul>
@@ -384,26 +397,27 @@ ms.lasthandoff: 05/08/2018
 <li>الوصف</li>
 <li>مترجم</li>
 </ul>
-<p>في وقت التشغيل، يُرجع الحقلان <strong>التسمية</strong> و<strong>الوصف</strong> القيم المستندة إلى إعدادات لغة التنسيق واللغة المحددة. يشير الحقل <strong>مترجم</strong> إلى أنه تمت ترجمة حقل <strong>التسمية</strong> إلى اللغة المحددة.</td>
+في وقت التشغيل، يُرجع الحقلان <strong>التسمية</strong> و<strong>الوصف</strong> القيم المستندة إلى إعدادات لغة التنسيق واللغة المحددة. يشير الحقل <strong>مترجم</strong> إلى أنه تمت ترجمة حقل <strong>التسمية</strong> إلى اللغة المحددة.
+</td>
 <td>على سبيل المثال، يمكنك استخدام نوع مصدر بيانات <strong>الحقل المحسوب</strong> لتكوين مصدري البيانات <strong>enumType_de</strong> و<strong>enumType_deCH</strong> لتعداد نموذج بيانات <strong>enumType</strong>:
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-في هذه الحالة، يمكنك استخدام التعبير التالي للحصول على تسمية لقيمة التعداد بالألمانية السويسرية، في حالة توفر هذه الترجمة. في حالة عدم توفر ترجمة اللغة الألمانية السويسرية، تكون التسمية باللغة الألمانية: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
+في هذه الحالة، يمكنك استخدام التعبير التالي للحصول على تسمية لقيمة التعداد بالألمانية السويسرية، في حالة توفر هذه الترجمة. في حالة عدم توفر ترجمة اللغة الألمانية السويسرية، تكون التسمية باللغة الألمانية: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>STRINGJOIN (قائمة، اسم الحقل، محدد)</td>
 <td>إرجاع سلسلة تتألف من القيم المتصلة للحقل المحدد من القائمة المحددة. يتم فصل القيم بالمحدد المعين.</td>
-
-<td>إذا قمت بإدخال <strong>SPLIT(&quot;abc&quot; , 1)</strong> كمصدر بيانات (DS)، يقوم تعبير <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> بإرجاع <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
-
+<td>إذا قمت بإدخال <strong>SPLIT(&quot;abc&quot; , 1)</strong> كمصدر بيانات (DS)، يقوم تعبير <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> بإرجاع <strong>&quot;a-b-c&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>SPLITLISTBYLIMIT (قائمة، قيمة الحد، مصدر الحد)</td>
-<td>تقسيم القائمة المعينة إلى قائمة جديدة من القوائم الفرعية وإرجاع النتيجة في محتوى قائمة السجلات. تعين محددة قيمة الحد قيمة الحد لتقسيم القائمة الأصلية. وتعين محددة مصدر الحد الخطوة التي يزداد عندها المجموع إجمالي. لا يتم تطبيق الحد على صنف واحد من القائمة الأصلية عندما يقوم مصدر الحد بتجاوز الحد المعرّف.</td>
-<td>تعرض التوضيحات التالية تنسيقًا ومصادر البيانات التي يتم استخدامها له. 
+<td>تقسيم القائمة المعينة إلى قائمة جديدة من القوائم الفرعية وإرجاع النتيجة في محتوى قائمة السجلات. تعيين محددة<strong>قمية الحد</strong> قيمة الحد لتقسيم القائمة الأصلية. وتعين محددة <strong>مصدر الحد</strong> الخطوة التي يزداد عندها المجموع إجمالي. لا يتم تطبيق الحد على صنف واحد من القائمة الأصلية عندما يقوم مصدر الحد بتجاوز الحد المعرّف.</td>
+<td>يبين الرسم التوضيحي التالي التنسيق. 
 <p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
+<p>يبين الرسم التوضيحي التالي مصادر البيانات التي يتم استخدامها للتنسيق.</p>
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>يعرض الرسم التوضيحي التالي النتيجة عند تشغيل التنسيق. في هذه الحالة، الإخراج عبارة عن قائمة مسطحة بأصناف السلع.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
@@ -412,13 +426,13 @@ ms.lasthandoff: 05/08/2018
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>يعرض الرسم التوضيحي التالي النتيجة عند تشغيل التنسيق المعدَّل.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>
-لا يتم تطبيق الحد على الصنف الأخير من القائمة الأصلية لأن القيمة (11) لمصدر الحد (الوزن) تتجاوز الحد المُعرف (9). استخدم الدالة <strong>WHERE</strong> أو التعبير <strong>ممكّن</strong> لعنصر التنسيق المناظر لتجاهل (تخطي) القوائم الفرعية أثناء إنشاء التقرير (عند الحاجة).</blockquote></td>
+<blockquote>[!NOTE]<br>لا يتم تطبيق الحد على الصنف الأخير من القائمة الأصلية لأن القيمة (11) لمصدر الحد (الوزن) تتجاوز الحد المُعرف (9). استخدم الدالة <strong>WHERE</strong> أو التعبير <strong>ممكّن</strong> لعنصر التنسيق المناظر لتجاهل (تخطي) القوائم الفرعية أثناء إنشاء التقرير (عند الحاجة).</blockquote>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FILTER (قائمة، شرط)</td>
 <td>إرجاع القائمة المحددة بعد أن تم تعديل الاستعلام لتصفيته وفقًا للشرط المحدد. تختلف هذه الدالة عن الدالة <strong>WHERE</strong> لأنه يتم تطبيق الشرط المحدد على أي من مصادر بيانات التقارير الإلكترونية لنوع <strong>سجلات الجداول</strong> على مستوى قاعدة البيانات. يمكن تحديد القائمة والشرط باستخدام الجداول والعلاقات.</td>
-  <td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، تُرجع <strong>FILTER (Vendors, Vendors.VendGroup =&quot;40&quot;)</strong> قائمة المورّدين التي تنتمي إلى مجموعة الموردين 40. إذا تم تكوين <strong>المورد</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول <strong>VendTable</strong> يُرجع <strong>parmVendorBankGroup</strong> الذي تم تكوينه كمصدر بيانات القيمة الموجودة في نوع بيانات السلسلة، ويُرجع <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> قائمة بحسابات الموردين الذين ينتمون إلى مجموعة بنك محددة.</td>
+<td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، تُرجع <strong>FILTER (Vendors, Vendors.VendGroup =&quot;40&quot;)</strong> قائمة المورّدين التي تنتمي إلى مجموعة الموردين 40. إذا تم تكوين <strong>المورد</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول <strong>VendTable</strong> وإذا تم تكوين <strong>parmVendorBankGroup</strong> كمصدر بيانات القيمة الموجودة في نوع بيانات تقارير إلكترونية تُرجع نوع بيانات القيمة<strong>String</strong>، فإن<strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> تُرجع قائمة بحسابات الموردين الذين ينتمون إلى مجموعة بنك محددة.</td>
 </tr>
 </tbody>
 </table>
@@ -441,9 +455,9 @@ ms.lasthandoff: 05/08/2018
 | POWER (رقم، أس) | إرجاع نتيجة رفع الرقم الموجب المحدد إلى الأس المحدد. | **POWER (10, 2)** ترجع **100**. |
 | NUMBERVALUE (سلسلة، فاصل عشري، فاصل مجموعة أرقام) | تحويل السلسلة المحددة إلى رقم. يتم استخدام الفاصلة العشرية المحددة بين العدد الصحيح والأجزاء الكسرية لرقم عشري. يتم استخدام فاصل تجميع الأرقام المحدد كفاصل الآلاف. | **NUMBERVALUE("1 234,56", ",", " ")** ترجع القيمة **1234.56**. |
 | VALUE (سلسلة) | تحويل السلسلة المحددة إلى رقم. يتم اعتبار الفواصل وأحرف النقطة (.) كفواصل عشرية، ويتم استخدام الواصلة البادئة (-) كعلامة سالب. اطرح استثناءًا إذا كانت السلسلة المحددة تحتوي على أحرف غير رقمية أخرى. | **VALUE ("1 234,56")** تقوم بطرح استثناء. |
-| ROUND (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه إلى عدد المنازل العشرية المحدد:<ul><li>إذا كانت قيمة معلمة المنازل العشرية أكبر من 0 (صفر)، فيتم تقريب الرقم المحدد إلى عدد المنازل العشرية العديدة.</li><li>إذا كانت قيمة معلمة المنازل العشرية المحددة تساوي **0**، فيتم تقريب الرقم المحدد إلى أقرب عدد صحيح.</li><li>إذا كانت قيمة معلمة المنازل العشرية المحددة أقل من 0 (صفر)، فيتم تقريب الرقم المحدد إلى يسار الفاصلة العشرية.</li></ul> | **ROUND (1200.767, 2)** تقرّب إلى منزلتين عشريتين وترجع **1200.77**. **ROUND (1200.767, -3)** تقرّب إلى أقرب مضاعف من 1,000 وترجع **1000**. |
-| ROUNDDOWN (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه لأسفل إلى عدد المنازل العشرية المحدد.<blockquote>[!NOTE]<br>تعمل هذه الدالة مثل الدالة <strong>ROUND</strong>، إلا أنها تقرّب دائمًا الرقم المحدد لأسفل (في اتجاه الصفر).</blockquote> | **ROUNDDOWN (1200.767, 2)** تقرّب لأسفل إلى منزلتين عشريتين وترجع **1200.76**. **ROUNDDOWN (1700.767, -3)** تقرّب لأسفل إلى أقرب مضاعف من 1,000 وترجع **1000**. |
-| ROUNDUP (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه لأعلى إلى عدد المنازل العشرية المحدد.<blockquote>[!NOTE]<br>تعمل هذه الدالة مثل الدالة <strong>ROUND</strong>، إلا أنها تقرّب دائمًا الرقم المحدد لأعلى (بعيدًا عن الصفر).</blockquote> | **ROUNDUP (1200.763, 2)** تقرّب لأعلى إلى منزلتين عشريتين وترجع **1200.77**. **ROUNDUP (1200.767, -3)** تقرّب لأعلى إلى أقرب مضاعف من 1,000 وترجع **2000**. |
+| ROUND (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه إلى عدد المنازل العشرية المحدد:<ul><li>إذا كانت قيمة معلمة **المنازل العشرية** أكبر من 0 (صفر)، فيتم تقريب الرقم المحدد إلى عدد المنازل العشرية العديدة.</li><li>إذا كانت قيمة معلمة **المنازل العشرية** المحددة تساوي **0** (صفر) فيتم تقريب الرقم المحدد إلى أقرب عدد صحيح.</li><li>إذا كانت قيمة معلمة  **المنازل العشرية** المحددة أقل من 0 (صفر)، فيتم تقريب الرقم المحدد إلى يسار الفاصلة العشرية.</li></ul> | **ROUND (1200.767, 2)** تقرّب إلى منزلتين عشريتين وترجع **1200.77**. **ROUND (1200.767, -3)** تقرّب إلى أقرب مضاعف من 1,000 وترجع **1000**. |
+| ROUNDDOWN (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه لأسفل إلى عدد المنازل العشرية المحدد.<blockquote>[!NOTE]<br>تعمل هذه الدالة مثل الدالة **ROUND**، إلا أنها تقرّب دائمًا الرقم المحدد لأسفل (في اتجاه الصفر).</blockquote> | **ROUNDDOWN (1200.767, 2)** تقرّب لأسفل إلى منزلتين عشريتين وترجع **1200.76**. **ROUNDDOWN (1700.767, -3)** تقرّب لأسفل إلى أقرب مضاعف من 1,000 وترجع **1000**. |
+| ROUNDUP (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه لأعلى إلى عدد المنازل العشرية المحدد.<blockquote>[!NOTE]<br>تعمل هذه الدالة مثل الدالة **ROUND**، إلا أنها تقرّب دائمًا الرقم المحدد لأعلى (بعيدًا عن الصفر).</blockquote> | **ROUNDUP (1200.763, 2)** تقرّب لأعلى إلى منزلتين عشريتين وترجع **1200.77**. **ROUNDUP (1200.767, -3)** تقرّب لأعلى إلى أقرب مضاعف من 1,000 وترجع **2000**. |
 
 ### <a name="data-conversion-functions"></a>دالات تحويل البيانات
 
@@ -460,87 +474,80 @@ ms.lasthandoff: 05/08/2018
 
 | الوظيفة | ‏‏الوصف | مثال |
 |----------|-------------|---------|
-| NULLCONTAINER (قائمة) | إرجاع سجل **فارغ** له نفس بنية قائمة السجلات المحددة أو السجل المحدد.<blockquote>[!NOTE]<br>هذه الدالة قديمة. استخدم الدالة <strong>EMPTYRECORD</strong> بدلاً منها.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** ترجع سجلاً فارغًا جديدًا له نفس بنية القائمة المرتجعة بواسطة الدالة **SPLIT**. |
-| EMPTYRECORD (سجل) | إرجاع سجل **فارغ** له نفس بنية قائمة السجلات المحددة أو السجل المحدد.<blockquote>[!NOTE]<br>سجل <strong>فارغ</strong> عبارة عن سجل تحتوي فيه جميع الحقول على قيمة فارغة. قيمة فارغة هي <strong>0</strong> (صفر) للأرقام، سلسلة فارغة للسلاسل، وهكذا.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** ترجع سجلاً فارغًا جديدًا له نفس بنية القائمة المرتجعة بواسطة الدالة **SPLIT**. |
+| NULLCONTAINER (قائمة) | إرجاع سجل **فارغ** له نفس بنية قائمة السجلات المحددة أو السجل المحدد.<blockquote>[!NOTE]<br>هذه الدالة قديمة. استخدم الدالة **EMPTYRECORD** بدلاً منها.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** ترجع سجلاً فارغًا جديدًا له نفس بنية القائمة المرتجعة بواسطة الدالة **SPLIT**. |
+| EMPTYRECORD (سجل) | إرجاع سجل **فارغ** له نفس بنية قائمة السجلات المحددة أو السجل المحدد.<blockquote>[!NOTE]<br>سجل **فارغ** عبارة عن سجل تحتوي فيه جميع الحقول على قيمة فارغة. قيمة فارغة هي **0** (صفر) للأرقام، سلسلة فارغة للسلاسل، وهكذا.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** ترجع سجلاً فارغًا جديدًا له نفس بنية القائمة المرتجعة بواسطة الدالة **SPLIT**. |
 
 ### <a name="text-functions"></a>الدالات النصية
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>الدالة</th>
 <th>الوصف</th>
 <th>مثال</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>UPPER (سلسلة)</td>
 <td>إرجاع السلسلة المحددة بعد أن تم تحويلها إلى أحرف كبيرة.</td>
 <td><strong>UPPER(&quot;Sample&quot;)</strong> ترجع <strong>&quot;SAMPLE&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LOWER (سلسلة)</td>
 <td>إرجاع السلسلة المحددة بعد أن تم تحويلها إلى أحرف صغيرة.</td>
 <td><strong>LOWER (&quot;Sample&quot;)</strong> ترجع <strong>&quot;sample&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LEFT (سلسلة، عدد الأحرف)</td>
 <td>إرجاع عدد الأحرف المحدد من بداية السلسلة المحددة.</td>
 <td><strong>LEFT (&quot;Sample&quot;, 3)</strong> تُرجع <strong>&quot;Sam&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>RIGHT (سلسلة، عدد الأحرف)</td>
 <td>إرجاع عدد الأحرف المحدد من نهاية السلسلة المحددة.</td>
 <td><strong>RIGHT (&quot;Sample&quot;, 3)</strong> تُرجع <strong>&quot;ple&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MID (سلسلة، موضع البدء، عدد الأحرف)</td>
 <td>إرجاع عدد الأحرف المحدد من بداية السلسلة المحددة وحتى الموضع المحدد.</td>
 <td><strong>MID (&quot;Sample&quot;, 2, 3)</strong> تُرجع <strong>&quot;amp&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LEN (سلسلة)</td>
 <td>إرجاع عدد الأحرف في السلسلة المحددة.</td>
 <td><strong>LEN (&quot;Sample&quot;)</strong> تُرجع <strong>6</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CHAR (رقم)</td>
 <td>إرجاع سلسلة الأحرف المشار إليها بواسطة رقم Unicode المحدد.</td>
 <td><strong>CHAR (255)</strong> تُرجع <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>
-تتوقف السلسلة التي تُرجعها هذه الدالة على الترميز المحدد في عنصر تنسيق الملف الأصلي. للحصول على قائمة بالرموز المدعومة، راجع <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">فئة الترميز</a>.</blockquote>
+<blockquote>[!NOTE]<br>تتوقف السلسلة التي تُرجعها هذه الدالة على الترميز المحدد في عنصر تنسيق الملف الأصلي. للحصول على قائمة بالرموز المدعومة، راجع <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">فئة الترميز</a>.</blockquote>
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONCATENATE (سلسلة 1 [، سلسلة 2، …])</td>
 <td>إرجاع كافة السلاسل النصية المحددة بعد أن ضمها في سلسلة واحدة.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> تُرجع <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>
-كما يقوم التعبير <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> بإرجاع <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE]<br>كما يقوم التعبير <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> بإرجاع <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TRANSLATE (سلسلة، نمط، استبدال)</td>
 <td>إرجاع السلسلة المحددة بعد أن تم استبدال كافة حالات تواجد الأحرف في سلسلة النمط المحددة بالأحرف في الموضع المقابل من السلسلة البديلة المحددة.</td>
 <td><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> تستبدل النمط <strong>&quot;cd&quot;</strong> بالسلسلة  <strong>&quot;GH&quot;</strong> وترجع <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REPLACE (سلسلة، نمط، استبدال، علامة تعبير عادي)</td>
 <td>عندما تكون علامة التعبير العادي المحدد <strong>‎true</strong>، يتم إرجاع السلسلة المحددة بعد أن تم تعديلها عن طريق تطبيق التعبير العادي المحدد كوسيطة نمط لهذه الدالة. يتم استخدام هذا التعبير للبحث عن الأحرف التي يجب أن يتم استبدالها. تستخدم أحرف الوسيطة البديلة المحددة لاستبدال الأحرف التي يتم العثور عليها. عندما تكون علامة التعبير العادي المحدد <strong>false</strong>، تعمل هذه الدالة مثل الدالة <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> تطبق تعبيرًا عاديًا يقوم بإزالة كافة الرموز غير الرقمية، وترجع <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> تستبدل النمط <strong>&quot;cd&quot;</strong> بالسلسلة  <strong>&quot;GH&quot;</strong> وترجع <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TEXT (إدخال)</td>
 <td>تُرجع الإدخال المحدد بعد أن يتم تحويله إلى سلسلة نصية يتم تنسيقها وفقًا لإعدادات الخادم المحلية لمثيل Finance and Operations الحالي. بالنسبة إلى القيم من النوع <strong>الحقيقي</strong>، تتحدد سلسلة التحويل بمنزلتين عشريتين.</td>
 <td>إذا كانت إعدادات الخادم المحلية لمثيل Finance and Operations معرّفة على الشكل <strong>EN-US</strong>، تُرجع <strong>TEXT (NOW ())</strong> تاريخ جلسة عمل Finance and Operations الحالية، 17 ديسمبر 2015، على شكل سلسلة نصية <strong>&quot;12/17/2015 07:59:23 ص&quot;</strong>. <strong>TEXT (1/3)</strong> ترجع <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FORMAT (السلسلة 1، السلسلة 2[، السلسلة 3، ...])</td>
 <td>إرجاع السلسلة المحددة بعد أن تم تنسيقها باستبدال تواجد <strong>%N</strong> بالوسيطة <em>n</em>. الوسيطات عبارة عن سلاسل. إذا لم يتم توفير وسيطة لمعلمة، فسيتم إرجاع المعلمة على الشكل <strong>&quot;%N&quot;</strong> في السلسلة. بالنسبة إلى القيم من النوع <strong>الحقيقي</strong>، تتحدد سلسلة التحويل بمنزلتين عشريتين.</td>
 <td>في الرسم التوضيحي التالي، يرجع مصدر البيانات <strong>PaymentModel</strong> قائمة سجلات العملاء عبر المكون <strong>Customer</strong> وقيمة بيانات المعالجة عبر الحقل <strong>ProcessingDate</strong>.
@@ -563,37 +570,38 @@ ms.lasthandoff: 05/08/2018
 <p>إذا تمت معالجة تقرير العميل <strong>Litware Retail</strong> في 17 ديسمبر 2015 بالثقافة <strong>الإنجليزية-الولايات المتحدة</strong> واللغة <strong>الإنجليزية-الولايات المتحدة</strong> فإن هذه المعادلة سترجع النص التالي الذي يمكن تقديمه كرسالة استثناء للمستخدم:</p>
 <p>&quot;لا توجد عناصر لطباعتها‬. العميل Litware Retail موقوف للتاريخ 12/17/2015.&quot;</p>
 <p>إذا تمت معالجة التقرير نفسه لعميل<strong> Litware Retail</strong> في 17 ديسمبر 2015، بالثقافة <strong>الألمانية</strong> واللغة <strong>الألمانية</strong>، فإن هذه المعادلة ترجع النص التالي الذي يستخدم تنسيق تاريخ آخر:</p>
-<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>
-يتم تطبيق بناء الجملة التالي في معادلات التقارير الإلكترونية للتسميات:
+<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<blockquote>[!NOTE]<br>يتم تطبيق بناء الجملة التالي في معادلات التقارير الإلكترونية للتسميات:
 <ul>
 <li><strong>بالنسبة إلى التسميات من موارد Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>، حيث X هو معرف التسمية في شجرة مكونات البرنامج (AOT)</li>
 <li><strong>بالنسبة إلى التسميات المقيمة في تكوينات التقارير الإلكترونية:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>، حيث X هو معرف التسمية في تكوين التقارير الإلكترونية</li>
-</ul></blockquote></td>
+</ul>
+</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>NUMBERFORMAT (رقم، تنسيق)</td>
 <td>إرجاع تمثيل سلسلة للرقم المحدد بالتنسيق المحدد. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">القياسي</a> و <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">المخصص</a>.) يحدد السياق الذي تُشغل فيه الوظيفة الثقافة التي يتم استخدامها لتنسيق الأرقام.</td>
 <td>لثقافة EN-US، ترجع <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> النتيجة <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> ترجع <strong>&quot;10&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NUMERALSTOTEXT (رقم، لغة، عملة، طباعة علامة اسم العملة‬، منازل عشرية)</td>
-<td>إرجاع الرقم المحدد بعد أن تم نطقه (تحويله) إلى سلاسل نصية باللغة المحددة. كود اللغة اختياري. عند تحديده كسلسلة فارغة، يتم استخدام كود اللغة الخاص بسياق التشغيل بدلاً من ذلك. (يتم تحديد كود لغة سياق التشغيل لإنشاء مجلد أو ملف.) كود العملة اختياري أيضًا. عندما يتم تعريفه كسلسلة فارغة، يتم استخدام عملة الشركة.
-<blockquote>[!NOTE]<br>
-يتم تحليل علامة طباعة اسم العملة ومعلمات المنازل العشرية فقط لأكواد اللغات التالية: <strong>CS</strong>، و<strong>ET</strong>، و<strong>HU</strong>، و<strong>LT</strong>، و<strong>LV</strong>، و<strong>PL</strong>، و<strong>RU</strong>. بالإضافة إلى ذلك، يتم تحليل معلمة طباعة علامة اسم العملة فقط لشركات Finance and Operations، جيث يدعم سياق البلد أو المنطقة صرف أسماء العملات.</blockquote></td>
+<td>إرجاع الرقم المحدد بعد أن تم نطقه (تحويله سلاسل نصية) باللغة المحددة. كود اللغة اختياري. عند تحديده كسلسلة فارغة، يتم استخدام كود اللغة الخاص بسياق التشغيل بدلاً من ذلك. (يتم تحديد كود اللغة لسياق التشغيل لإنشاء مجلد أو ملف.) كود العملة اختياري أيضًا. عندما يتم تعريفه كسلسلة فارغة، يتم استخدام عملة الشركة.
+<blockquote>[!NOTE]<br>يتم تحيلي <strong>علامة طباعة اسم العملة</strong> ومعلمات <strong>المنازل العشرية</strong> فقط لأكواد اللغات التالية:<strong>CS</strong>، و<strong>ET</strong>، و<strong>HU</strong>، و<strong>LT</strong>، و<strong>LV</strong>، و<strong>PL</strong>، و<strong>RU</strong>. بالإضافة إلى ذلك، يتم تحليل <strong>معلمة طباعة علامة اسم العملة</strong> فقط لشركات Finance and Operations، جيث يدعم سياق البلد أو المنطقة صرف أسماء العملات.</blockquote>
+</td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> تُرجع <strong>&quot;ألف ومئتين وأربعة وثلاثون و56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> تُرجع <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> تُرجع <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PADLEFT (سلسلة، طول، أحرف التعبئة)</td>
 <td>إرجاع سلسلة البطول المحدد تمت فيه تعبئة بداية السلسلة المحددة بالأحرف المحددة.</td>
 <td><strong>PADLEFT (&quot;1234&quot;, 10, &quot;&nbsp;&quot;)</strong> تُرجع السلسلة النصية <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>TRIM (سلسلة)</td>
 <td>إرجاع سلسلة النص المحددة بعد أن تم اقتطاع المسافات البادئة والزائدة، وبعد أن تمت إزالة المسافات المتعددة بين الكلمات.</td>
 <td><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong> ترجع <strong>&quot;نصًا نموذجيًا&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GETENUMVALUEBYNAME (مسار مصدر بيانات تعداد، نص تسمية قيمة تعداد)</td>
 <td>إرجاع قيمة مصدر بيانات التعداد المحدد استنادًا بالنص المحدد لتسمية التعداد.</td>
 <td>في الرسم التوضيحي التالي، يتم تقديم تعداد <strong>ReportDirection</strong> في نموذج بيانات. لاحظ أنه يتم تحديد التسميات لقيم التعداد.
@@ -603,7 +611,24 @@ ms.lasthandoff: 05/08/2018
 <li>يتم إدراج تعداد نموذج <strong>ReportDirection</strong> في تقرير كمصدر بيانات، <strong>$Direction</strong></li>
 <li>تم تصميم تعبير تقرير إلكتروني، <strong>$IsArrivals</strong>، لاستخدام تعداد النموذج كمعلمة لهذه الدالة. قيمة هذا التعبير هي <strong>TRUE</strong>.</li>
 </ul>
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+</td>
+</tr>
+<tr>
+<td>GUIDVALUE (إدخال)</td>
+<td>قم بتحويل الإدخال المحدد لنوع بيانات <strong>السلسلة</strong> لعنصر بيانات نوع بيانات <strong>GUID</strong>.</td>
+<td>تحديد مصادر البيانات التالية في تعيين نموذج:
+<ul>
+<li><strong>myID</strong> (<strong>نوع حقل محسوب</strong>)، يحتوي على تعبير <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
+<li><strong>المستخدمون</strong> (<strong>نوع سجلاتالجدول</strong>)، الذي يشير إلى جدول UserInfo</li>
+</ul>
+عندما يتم تحديد مصادر البيانات، فإنه يمكنك استخدام تعبير مثل <strong>FILTER (Users, Users.objectId = myID)</strong> لتصفية الجدول UserInfo بواسطة حقل نوع البيانات <strong>objectId</strong> <strong>GUID</strong>.
+</td>
+</tr>
+<tr>
+<td>JSONVALUE (id، مسار)</td>
+<td>يتم الوصول إلى تحليل البيانات بتنسيق JavaScript Object Notation (JSON) بواسطة المسار المحدد لاستخراج قيمة عددية تعتمد على المعرف المحدد.</td>
+<td>يحتوي حقل مصدر البيانات <strong>$JsonField</strong> على البيانات التالية بتنسيق JSON: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. بالنسبة لمصدر البيانات هذا، يتم إرجاع القيمة </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> returns the value <strong>7.3.1234.1</strong> لنوع بيانات <strong>السلسلة</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -613,7 +638,7 @@ ms.lasthandoff: 05/08/2018
 | الوظيفة | الوصف | مثال |
 |----------|-------------|---------|
 | TEXT (إدخال) | تُرجع الإدخال المحدد بعد أن يتم تحويله إلى سلسلة نصية يتم تنسيقها وفقًا لإعدادات الخادم المحلية لمثيل Finance and Operations الحالي. بالنسبة إلى القيم من النوع **الحقيقي**، تتحدد سلسلة التحويل بمنزلتين عشريتين. | إذا كانت إعدادات الخادم المحلية لمثيل Finance and Operations معرّفة على الشكل **EN-US**, **TEXT (NOW ())** تُرجع جلسة عمل Finance and Operations الحالية، 17 ديسمبر 2015، على شكل السلسلة النصية **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** ترجع **"0.33"**. |
-| QRCODE (سلسلة) | إرجاع صورة الكود QR بالتنسيق الثنائي base64 للسلسلة المحددة. | **QRCODE ("نص نموذجي")** تُرجع **U2FtcGxlIHRleHQ=**. |
+| QRCODE (سلسلة) | إرجاع صورة كود استجابة سريع (كود QR) بالتنسيق الثنائي base64 للسلسلة المحددة. | **QRCODE ("نص نموذجي")** تُرجع **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>وظائف تجميع البيانات
 
@@ -631,11 +656,11 @@ ms.lasthandoff: 05/08/2018
 | الوظيفة | ‏‏الوصف | مثال |
 |----------|-------------|---------|
 | CONVERTCURRENCY (المبلغ، العملة المصدر، العملة الهدف، التاريخ، الشركة) | تحويل المبلغ المالي المحدد من العملة المصدر المحددة إلى العملة الهدف المحددة باستخدام إعدادات شركة Finance and Operations المحددة بالتاريخ المحدد. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** ترجع مكافئ اليورو الواحد بالدولار الأمريكي بتاريخ الجلسة الحالية، استنادًا إلى إعدادات شركة DEMF. |
-| ROUNDAMOUNT (رقم، منازل عشرية، قاعدة التقريب) | تقريب المبلغ المحدد وفقًا لقاعدة التقريب المحددة وعدد المنازل العشرية المحدد.<blockquote>[!NOTE]<br>يجب تحديد قاعدة التقريب كقيمة Finance and Operations للتعداد <strong>RoundOffType</strong>.</blockquote> | إذا تم تعيين المعلمة **model.RoundOff** إلى **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** تُرجع القيمة **1000.78**. إذا تم تعيين المعلمة **model.RoundOff** إلى **Normal** أو **Rounding-up**، فسترجع **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** القيمة **1000.79**. |
+| ROUNDAMOUNT (رقم، منازل عشرية، قاعدة التقريب) | تقريب المبلغ المحدد وفقًا لقاعدة التقريب المحددة وعدد المنازل العشرية المحدد.<blockquote>[!NOTE]<br>يجب تحديد قاعدة التقريب كقيمة Finance and Operations للتعداد **RoundOffType**.</blockquote> | إذا تم تعيين المعلمة **model.RoundOff** إلى **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** تُرجع القيمة **1000.78**. إذا تم تعيين المعلمة **model.RoundOff** إلى **Normal** أو **Rounding-up**، فسترجع **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** القيمة **1000.79**. |
 | CURCredRef (خانات رقمية) | إرجاع مرجع دائن، استنادًا إلى الخانات الرقمية في رقم الفاتورة المحددة. | **CURCredRef ("VEND-200002")** ترجع **"2200002"**. |
 | MOD\_97 (خانات رقمية) | إرجاع مرجع دائن كتعبير MOD97، استنادًا إلى الخانات الرقمية في رقم الفاتورة المحددة. | **MOD\_97 ("VEND-200002")** ترجع **"20000285"**. |
 | ISOCredRef (خانات رقمية) | إرجاع مرجع دائن المنظمة العالمية للمواصفات (ISO)، استنادًا إلى الخانات الرقمية والرموز الأبجدية في رقم الفاتورة المحددة.<blockquote>[!NOTE]<br>لإزالة الرموز من الحروف الأبجدية غير المتوافقة مع ISO، يجب ترجمة معلمة الإدخال قبل أن يتم تمريرها إلى هذه الدالة.</blockquote> | **ISOCredRef ("VEND-200002")** ترجع **"RF23VEND-200002"**. |
-| CN\_GBT\_AdditionalDimensionID (سلسلة، رقم) | الحصول على معرف البُعد المالي. يتم تمثيل الأبعاد في هذه السلسلة كمعرّفات مفصولة بفواصل. في هذه السلسلة، تحدد الأرقام كود تسلسل البُعد المطلوب. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** تُرجع **"CC"**. |
+| CN\_GBT\_AdditionalDimensionID (سلسلة، رقم) | الحصول على معرف البُعد المالي. في المعلمة **السلسلة**، يتم تمثيل الأبعاد كمعرفات مفصولة بفواصل. تحدد معلمة **العدد** كود التسلسل للبُعد المطلوب في السلسلة. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** تُرجع **"CC"**. |
 | GetCurrentCompany () | إرجاع التمثيل النصي لكود أحد الكيانات القانونية (الشركة) الذي يقوم مستخدم بتسجيل الدخول فيه حاليًا. | **GETCURRENTCOMPANY ()** تُرجع **USMF** لمستخدم سجل دخوله إلى شركة **Contoso Entertainment System USA** وهي شركة Finance and Operations. |
 | CH\_BANK\_MOD\_10 (خانات رقمية) | إرجاع مرجع دائن كتعبير MOD10، استنادًا إلى الخانات الرقمية في رقم الفاتورة المحددة. | **CH\_BANK\_MOD\_10 ("VEND-200002")** تُرجع **3**. |
 | FA\_SUM (كود الأصل الثابت، كود نموذج القيمة، تاريخ البدء، تاريخ الانتهاء) | إرجاع حاوية البيانات المُعدة لمبالغ الأصول الثابتة للفترة المحددة. | **FA\_SUM ("COMP-000001", "Current", Date1, Date2)** يُرجع حاوية البيانات المعدّة للأصل الثابت **"COMP-000001"** مع نموذج القيمةم **"الحالي"** لفترة من **التاريخ1** إلى **التاريخ2**. |

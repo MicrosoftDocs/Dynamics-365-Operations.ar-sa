@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
+ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
+ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/30/2018
 
 ---
 
@@ -162,6 +162,18 @@ ms.lasthandoff: 05/09/2018
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise edition يوليو 2017 مع تحديث النظام الأساسي 8
+
+### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>تحويل العملات لعملات المحاسبة والتقرير
+
+تم تقديم تحويل العملات لعملات الحاسبة والتقرير عندما تم تقديم اليورو.
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | الاستخدام المحدود وإضافة نسخة وظيفة الكيان القانوني كبديل.      |
+| **هل تم الاستبدال بميزة أخرى؟**   | لا، ولكن تمت إضافة نسخة الكيان القانوني وميزات التكوينات لتسهيل الانتقال إلى شركة قامت بتغيير المتطلبات الأساسية. |
+| **مناطق المنتجات المتأثرة**         | الإدارة المالية     |
+| **الحالة**                         | مهمل: لم يتم تعيين تاريخ إزالة لهذه الميزة.   |
+
 
 ### <a name="warehouse-mobile-devices-portal"></a>مدخل الأجهزة المحمولة للمستودع
 

@@ -3,7 +3,7 @@ title: "مقاطع فيديو لـ Dynamics 365 for Finance and Operations"
 description: "تسرد هذه الصفحة فيديوهات \"المساعدة\" والحديث التقني التي تم إنشاؤها لصالح Microsoft والمتعلقة بـ Dynamics 365 for Finance and Operations المتاحة على YouTube ومواقع أخرى."
 author: josaw1
 manager: AnnBe
-ms.date: 05/08/2018
+ms.date: 05/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1a7f95090f245af8a5520326954ce01747d71f17
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 7783671baa66b9c8ab0bb2626555d5ccbfaa1fe9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -81,6 +81,9 @@ ms.lasthandoff: 05/08/2018
 
 #### <a name="office-integration"></a>تكامل Office
 - [إنشاء قالب Excel لأنماط الرأس والنقوش في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+
+#### <a name="organization-administration"></a>إدارة المؤسسة
+- [إدارة المستندات](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
 #### <a name="procurement-and-sourcing"></a>التدبير والتوريد
 - [الموافقة على أوامر الشراء على جهاز محمول](https://youtu.be/gZ-gOlJe7H8)
