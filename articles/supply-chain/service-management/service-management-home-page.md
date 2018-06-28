@@ -1,28 +1,28 @@
 ---
 title: "إدارة الخدمة"
 description: "استخدم إدارة الخدمة لإنشاء اشتراكات الخدمة واتفاقيات الخدمة، والتعامل مع أوامر الخدمة واستفسارات العملاء، ولإدارة وتحليل تقديم الخدمات للعملاء."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: 236ab21b2d1c5a4e82270e5381d163e97437cb7f
+ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
+ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 05/09/2018
 
 4.  النفقات والرسوم المتعلقة بالخدمة أو الإصلاح
 
-يمكن للعملاء إرسال طلبات الخدمة عبر الإنترنت باستخدام مدخل الشركة على الإنترنت. يمكنك تلقي ومعالجة وإرسال هذه الطلبات. بعد إنشاء أمر خدمة، يمكنك استخدام مراحل الخدمة لرصد التقدم المحرز وتحديد القواعد التي تتحكم في الإجراءات التي تم تمكينها في كل مرحلة. عند اكتمال أمر خدمة، يمكنك تسجيل الخروج عن الأمر للتأكد من أنه كامل ثم ترحيل الأمر لبدء عملية الفوترة.
+يمكنك تلقي ومعالجة وإرسال طلبات الخدمة. بعد إنشاء أمر خدمة، يمكنك استخدام مراحل الخدمة لرصد التقدم المحرز وتحديد القواعد التي تتحكم في الإجراءات التي تم تمكينها في كل مرحلة. عند اكتمال أمر خدمة، يمكنك تسجيل الخروج عن الأمر للتأكد من أنه كامل ثم ترحيل الأمر لبدء عملية الفوترة.
 
 استخدام أدوات إعداد التقارير لمراقبة هوامش أمر الخدمة وحركات الاشتراك ووصف أعمال الطباعة وإيصالات العمل.
 
@@ -56,47 +56,19 @@ ms.lasthandoff: 05/09/2018
 
 ## <a name="service-management-at-a-glance"></a>إدارة خدمة في لمحة
 
-<table>
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>مهام مهمة</p></th>
-<th><p>النماذج الأولية</p></th>
-<th><p>تقارير شائعة</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>الوفاء باتفاقيات الخدمات</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa617823(v=ax.60)">اتفاقيات الخدمات (نموذج)</a></p></td>
-<td><p><strong>هامش أمر الخدمة</strong></p></td>
-</tr>
-<tr class="even">
-<td><p>التعامل مع استعلامات العميل</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa554361(v=ax.60)">أوامر الخدمة (نموذج)</a></p></td>
-<td><p><strong>وصف العمل</strong></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/hh242789(v=ax.60)">‏‏لوحة الإرسال (نموذج)</a></p></td>
-<td><p><strong>الحركة - الاشتراك</strong></p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>حركات رسوم الاشتراك</strong></p></td>
-</tr>
-</tbody>
-</table>
+|مهام مهمة           | الصفحات الأساسية                         |تقارير شائعة              |
+|--------------------------|---------------------------------------|-----------------------------|
+|الوفاء باتفاقيات الخدمات|اتفاقيات الخدمة                     |هامش أمر الخدمة         |
+|التعامل مع استعلامات العميل |أوامر الخدمة                         |وصف العمل             |
+|                          |لوحة الإرسال                         |الحركة - الاشتراك   |
+|                          |                                       |حركات رسوم الاشتراك|
 
 
 ## <a name="integration-of-service-management"></a>دمج إدارة خدمة
 
-يمكن أن تتكامل إداة الخدمات مع الوحدات النمطية التالية في Microsoft Dynamics 365 for Finance and Operations:
+إدارة خدمة يمكن أن تتكامل مع الوحدات النمطية التالية:
 
   - [المبيعات والتسويق](../sales-marketing/overview-sales-marketing.md)
-
   - [الموارد البشرية](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   

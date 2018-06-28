@@ -1,9 +1,9 @@
 ---
 title: Microsoft Dynamics 365 for Talent
 description: "يعمل Talent على تبسيط العديد من المهام الروتينية المتعلقة بحفظ السجلات وعلى أتمتة عدد من العمليات المتعلقة بتعيين الموظفين في مؤسستك. تشمل هذه العمليات استبقاء الموظفين وإدارة الميزات والتدريب ومراجعات الأداء وإدارة التغييرات."
-author: rschloma
+author: josaw
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 06/04/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
+ms.sourcegitcommit: bde68c9167e18cae6be4988865123d20274753c0
+ms.openlocfilehash: 9bc09a822f78b9792c2afdb0d297809edea7551a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/06/2018
 
 ---
 
@@ -42,6 +42,9 @@ ms.lasthandoff: 03/26/2018
 + مراجعة الأداء وتنفيذ أهداف العاملين.
 + إعداد الدورات التدريبية التي تتضمن جداول الأعمال والجلسات والمسارات وتقديمها وتحليلها.
 
+استكشف Dynamics 365 for Talent من خلال مشاهدة الفيديو [كيفية بدء استخدام Dynamics 365 for Talent.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+
+
 > [!NOTE] 
 > ثمة ارتباط وثيق بين Dynamics 365 for Talent والموارد البشرية في Dynamics 365 for Finance and Operations. قد تظهر نفس الوظيفة في كلا المنتجين. وكنتيجة لذلك، في المواضيع المتعلقة بالموارد البشرية بشكل أساسي، سيكون اسم المنتج هو Dynamics 365 for Finance and Operations؛ في المواضيع المتعلقة بـ Talent بشكل أساسي، سيكون اسم المنتج هو Dynamics 365 for Talent.‬ قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
 
@@ -55,10 +58,12 @@ ms.lasthandoff: 03/26/2018
 -   [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](set-up-hr-parameters-across-legal-entities.md) 
 -   [الأسئلة الشائعة حول إجراءات العاملين](personnel-actions-faq.md)
 -   [نظرة عامة على الإجازة والغياب](leave-absence-overview.md)
+-   [كيفية استخدام Dynamics 365 for Talent: الإجازة والغياب (فيديو)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [كيفية إدارة الموظفين في Dynamics 365 for Talent (فيديو)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
-## <a name="staffing-your-organization"></a>التعيين لمؤسستك
+## <a name="staffing-your-organization"></a>تعيين الموظفين لمؤسستك
 
-يشتمل Dynamics 365 for Talent على تطبيق "الجذب"، الذي يمكنه أن يساعك على تحديد وإجراء المقابلات مع وتعيين المرشحين من ذوي المهارات التي تحتاج إليها مؤسستك. أثناء تنقلك من التوظيف حتى التعيين، يمكن لتطبيق "الإعداد" أن يساعدك في إحضار موظف جديد إلى مؤسستك عن طريق تحديد التوقعات الدقيقة وتوفير المعلومات المطلوبة التي يحتاج إليها للشروع في العمل وتوصيله بالزملاء وإعداده للنجاح في دوره الجديد.  
+يشتمل Dynamics 365 for Talent على تطبيق Attract، الذي يمكنه أن يساعك على تحديد وإجراء المقابلات مع وتعيين المرشحين من ذوي المهارات التي تحتاج إليها مؤسستك. أثناء تنقلك من التوظيف حتى التعيين، يمكن لتطبيق "الإعداد" أن يساعدك في إحضار موظف جديد إلى مؤسستك عن طريق تحديد التوقعات الدقيقة وتوفير المعلومات المطلوبة التي يحتاج إليها للشروع في العمل وتوصيله بالزملاء وإعداده للنجاح في دوره الجديد.  
 
 - [نظرة عامة على الجذب](attract-overview.md)
 - [نظرة عامة على الإعداد](create-onboarding-experience.md)
@@ -69,16 +74,18 @@ ms.lasthandoff: 03/26/2018
 
 -   [خطط التعويض](compensation-plans.md)
 -   [تعويض العملية](process-compensation.md)
--   [إنشاء خطط التعويض الثابتة](create-fixed-compensation-plans.md)
--   [إنشاء خطط التعويض المتغيرة](create-variable-compensation-plans.md)
+-   [إنشاء خطط التعويض الثابت](create-fixed-compensation-plans.md)
+-   [إنشاء خطط التعويض المتغير](create-variable-compensation-plans.md)
+-   [كيفية إدارة التعويض في Dynamics 365 for Talent (فيديو)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>تطوير الموظفين وتدريبهم
 
-لمساعدة موظفيك على تحقيق أهدافهم الوظيفية أثناء تلبية احتياجات أعمال مهمة، يمكنك إعداد الأهداف، وإنشاء مراجعات الأداء وتعقب التعليقات لمساعدة الموظفين على تطوير المهارات المطلوبة، أو يمكنك أيضًا إعداد المعلمين، وأنواع الدورات التدريبية، والدورات التدريبية، وأوصاف الدورات التدريبية، وجداول الأعمال، والمسارات، والجلسات قبل تعيين معلم لدورة تدريبية، أو تسجيل شخص لدورة تدريبية. يحب وجود المعلمين بالفعل كعمال أو مقدمي طلبات أو كجهات اتصال.
+لمساعدة موظفيك على تحقيق أهدافهم الوظيفية أثناء تلبية احتياجات أعمال مهمة، يمكنك إعداد الأهداف، وإنشاء مراجعات الأداء وتعقب التعليقات. ولمساعدة الموظفين على تطوير المهارات المطلوبة، يمكنك أيضًا إعداد المعلمين، وأنواع الدورات التدريبية، والدورات التدريبية، وأوصاف الدورات التدريبية، وجداول الأعمال، والمسارات، والجلسات قبل تعيين معلم لدورة تدريبية، أو تسجيل شخص لدورة تدريبية. يحب وجود المعلمين بالفعل كعمال أو مقدمي طلبات أو كجهات اتصال.
 
 -   [إدارة الأداء](performance-management-overview.md)
--   [محاذاة احتياجات العمل ومهارات العاملين](skills.md)
+-   [مواءمة احتياجات العمل ومهارات العاملين](skills.md)
 -   [إدارة التدريب خلال الدورات التدريبية](courses.md)
+-   [كيفية إدارة تطوير الموظفين في Dynamics 365 for Talent (فيديو)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>إنشاء المزايا والحفاظ عليها
 
@@ -87,6 +94,7 @@ ms.lasthandoff: 03/26/2018
 -   [إدارة برنامج ميزة](manage-benefit-program.md)
 -   [سياسات استحقاق الميزات](benefit-eligibility-policies.md)
 -   [إدارة الأصناف المعارة للعاملين](loan-items.md)
+-   [كيفية إدارة مزايا الموظفين في Dynamics 365 for Talent (فيديو)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>الحفاظ على السلامة والامتثال في أماكن العمل
 

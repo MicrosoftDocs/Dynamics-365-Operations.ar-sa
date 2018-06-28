@@ -1,6 +1,6 @@
 ---
-title: "محتوى Power BI - الأداء المالي"
-description: "يصف هذا الموضوع محتوى Power BI \"الأداء المالي\"."
+title: "حل محتوى PowerBI.com للأداء المالي"
+description: "يصف هذا الموضوع حل PowerBI.com للأداء المالي."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>محتوى Power BI - الأداء المالي
+# <a name="financial-performance-powerbicom-solution"></a>حل محتوى PowerBI.com للأداء المالي
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> تم إهلاك حزمة المحتوى هذه كما هو موثق في [حزم محتوى Power BI المتوفرة على AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> تم إهلاك حل PowerBI.com هذه كما هو موثق في [حزم محتوى Power BI المتوفرة على AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-يصف هذا الموضوع محتوى Microsoft Power BI **الأداء المالي**. إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى.
+يصف هذا الموضوع حل PowerBI.com ** للأداء المالي**  إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء الحل.
 
 ## <a name="main-account-setup"></a>إعداد الحساب الرئيسي
 لأن المؤسسات تريد أن تظهر التزاماتها ومبالغ الإيراد كمبالغ موجبة في التقارير، يُعد إعداد الحسابات الرئيسية أمرًا بالغ الأهمية. بالنسبة لهذه الحسابات الرئيسية لتظهر كمبالغ موجبه، يجب تعيين نوع الحساب الرئيسي على **الالتزام** أو **الإيراد**. عند استخدام أنواع الحسابات هذه، سوف يقوم الإبلاغ من خلال Power BI بعكس العلامات، وإظهار المبالغ كمبالغ موجبة.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>لوحة المعلومات والتقارير المضمنة في محتوى Power BI
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>لوحة المعلومات والتقارير المضمنة في حل PowerBI.com
 تحتوي لوحة المعلومات على إطارات متجانبة ملخصة للبيانات تستند إلى التقارير الأساسية. ويحتوي كل إطار متجانب على معلومات ملخصة للسنة الحالية في كافة الشركات في مؤسسة. فيما يلي بعض التجانبات:
 
 - نقدي
@@ -74,7 +74,7 @@ ms.lasthandoff: 05/09/2018
 يمكنك تصفية المخططات والإطارات المتجانبة الموجودة على كافة هذه التقارير وتثبيتها بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
-تم استخدام الكيانات التالية كأساس لمحتوى Power BI **الأداء المالي**:
+تم استخدام الكيانات التالية كأساس لحل PowerBI.com **للأداء المالي**
 
 **كيانات البيانات المجمّعة**
 

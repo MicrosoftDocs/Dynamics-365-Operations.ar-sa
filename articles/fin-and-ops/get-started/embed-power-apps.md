@@ -3,7 +3,7 @@ title: "تضمين PowerApps"
 description: "يصف هذا الموضوع كيفية تضمين PowerApps في عميل Finance and Operations لزيادة الأداء الوظيفي للمنتج."
 author: jasongre
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -26,8 +26,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="embed-powerapps"></a>تضمين PowerApps
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 في تحديث النظام الأساسي 14، يدعم Microsoft Dynamics 365 for Finance and Operations التكامل مع Microsoft PowerApps، عبارة عن خدمة للمطورين والمستخدمين غير التقنيين لإنشاء تطبيقات العمل المخصص للأجهزة المحمولة وأجهزة الكمبيوتر اللوحية والويب دون كتابة تعليمة برمجية. ويمكن بعد ذلك تضمين PowerApps الذي طورته أو المؤسسة الخاصة بك أو النظام البيئي الأوسع في عميل Finance and Operations لزيادة الأداء الوظيفي للمنتج. على سبيل المثال، قد تقوم بإنشاء PowerApp لتكملة Finance and Operations بالمعلومات التي تم استردادها من نظام آخر. 
 

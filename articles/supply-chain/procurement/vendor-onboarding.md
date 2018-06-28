@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -49,8 +49,7 @@ ms.lasthandoff: 04/13/2018
 | مسؤول            | | | قم بإنشاء مستخدم في Finance and Operations وMicrosoft Azure. | | | |
 | الشخص المسؤول لدى المورد    | | | أرسل بريدًا إلكترونياً إلى الشخص المسؤول. | قم بتسجيل معلومات المورّد. | | |
 
-للاطلاع على عرض توضيحي سريع لعملية إعداد المورّد، شاهد هذا الفيديو القصير على YouTube: 
-> [!Video https://www.youtube.com/embed/0KUc3AGaTKk]
+للاطلاع على عرض توضيحي سريع لعملية إعداد المورد، شاهد هذا الفيديو القصير على YouTube: [تعيين مورد جديد في Dynamics 365 for Finance and Operations] (https://www.youtube.com/watch?v=0KUc3AGaTKk}.
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>استيراد طلب تسجيل المورّد المتوقع
 
