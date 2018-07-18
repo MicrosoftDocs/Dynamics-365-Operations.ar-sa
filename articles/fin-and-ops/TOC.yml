@@ -1653,6 +1653,7 @@
                 - name: إقفال نهاية السنة
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: الدنمارك
+              href: ../financials/localizations/denmark.md
               items:
                 - name: تعيين تنسيق إيصال دفع لحساب العميل
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1684,6 +1685,7 @@
                 - name: كشف ضريبة القيمة المضافة
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: فرنسا
+              href: ../financials/localizations/france.md
               items:
                 - name: القطاع العام
                   items:
@@ -1760,6 +1762,7 @@
                 - name: إعداد الإقرار الضريبي الإلكتروني
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: هنغاريا
+              href: ../financials/localizations/hungary.md
               items:
                 - name: حساب سعر الصرف
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1774,6 +1777,7 @@
                 - name: إقفال نهاية السنة
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: أيسلندا
+              href: ../financials/localizations/iceland.md
               items:
                 - name: إنشاء حساب مورد وإرفاق فئة إقرار الفاتورة
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1784,6 +1788,7 @@
                 - name: تحديث إقرارات فواتير الموردين وإنشاء التقرير
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: إيطاليا
+              href: ../financials/localizations/italy.md
               items:
                 - name: تفاصيل كشوف حساب ضريبة القيمة المضافة​
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1806,6 +1811,7 @@
                 - name: ضريبة الخصم
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: لاتفيا
+              href: ../financials/localizations/latvia.md
               items:
                 - name: محاسبة الأصول الثابتة​
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1818,6 +1824,7 @@
                 - name: تفاصيل كشف حساب ضريبة القيمة المضافة
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: لتوانيا
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: كشف إصلاح الأصول الثابتة
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1828,12 +1835,14 @@
                 - name: تفاصيل كشف حساب ضريبة القيمة المضافة
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: هولندا
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: إقرارات الضريبة الإلكترونية‬ (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: تكامل Semansys XBRL
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: النرويج
+              href: ../financials/localizations/norway.md
               items:
                 - name: تنسيقات الدفع الخاصة بالعملاء والموردين
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1848,6 +1857,7 @@
                 - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: بولندا
+              href: ../financials/localizations/poland.md
               items:
                 - name: حساب خصومات البند من سعر الوحدة​
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1870,6 +1880,7 @@
                 - name: كشف الأرصدة والدوران​
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: إسبانيا
+              href: ../financials/localizations/spain.md
               items:
                 - name: تطبيق الخصومات النقدية في الفاتورة​
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1898,6 +1909,7 @@
                 - name: الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: السويد
+              href: ../financials/localizations/sweden.md
               items:
                 - name: تصدير معلومات مالية للمراجعين في السويد
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1906,10 +1918,12 @@
                 - name: آلات تسجيل المدفوعات النقدية
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: سويسرا
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: استيراد دفعات العملاء في ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: المملكة المتحدة
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'نظام صناعة الإنشاء '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
