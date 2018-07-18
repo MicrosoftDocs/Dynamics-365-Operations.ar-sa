@@ -43,17 +43,17 @@ ms.lasthandoff: 06/25/2018
 
 استخدم الحسابات المدينة لتعقب فواتير العملاء والمدفوعات التي تلقيتها من العملاء. يمكنك إعداد مجموعات العملاء والعملاء وملفات تعريف الترحيل وإشعارات الفائدة وخطابات التحصيل والعمولات والمحددات المتعلقة بالعملاء والتكاليف وعمليات التسليم والوجهات والكمبيالات والأنواع الأخرى من معلومات الحسابات المدينة. 
 
-:::الصف::: :::العمود::: - [التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير النص الحر](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+:::row::: :::column::: - [التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير النص الحر](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [ملفات تعريف ترحيل العميل](customer-posting-profiles.md)
         - [إعداد بطاقة الائتمان وتفويضها والتقاطها](credit-card-authorizations.md)
         - [إنشاء فاتورة عميل](configure-customer-invoices.md)
         - [إعداد الفواتير المتكررة ومعالجتها](set-up-process-recurring-invoices.md)
-        - [تصحيح فاتورة نص حر](correct-free-text-invoice.md) :::نهاية العمود::: :::العمود::: - [إعداد الكمبيالات](set-up-bills-exchange.md)
+        - [تصحيح فاتورة نص حر](correct-free-text-invoice.md)‎ :::column-end::: :::column::: - [إعداد الكمبيالات](set-up-bills-exchange.md)
         - [إعداد معدلات الفائدة لكود فائدة‬](set-up-interest-rates-interest-code.md)
         - [التنازل عن رسوم الفائدة أو إعادة المطالبة بها أو عكسها‬](waive-reinstate-reverse-interest-fees.md)
         - [نظرة عامة على دين سيبا المباشر](sepa-direct-debit-overview.md)
         - [إعداد أمر رسمي لمدين سيبا مباشر](sepa-direct-debit-mandate.md)
-        - [إغلاق الحسابات المدينة](close-accounts-receivable.md) :::نهاية العمود::: :::نهاية الصف:::
+        - [إغلاق الحسابات المدينة](close-accounts-receivable.md)‎ :::column-end::: :::row-end:::
 
 
 ## <a name="set-up-credit-and-collections"></a>إعداد الائتمان والتحصيلات
@@ -70,13 +70,13 @@ ms.lasthandoff: 06/25/2018
 
 قم بقبول أنواع المدفوعات المختلفة من العملاء مثل الكمبيالات والنقدية والشيكات وبطاقات الائتمان والمدفوعات الإلكترونية. 
 
-:::الصف::: :::العمود::: - [استخدام دفعة عميل لتسوية عدة فواتير تشتمل على فترات خصم متعددة](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+:::row::: :::column::: - [استخدام دفعة عميل لتسوية عدة فواتير تشتمل على فترات خصم متعددة](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
         - [المدفوعات المركزية للحسابات المدينة](centralized-payments-accounts-receivable.md)
         - [تسوية دفعة جزئية لعميل والدفعة النهائية بالكامل قبل تاريخ الخصم](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [تسوية دفعة جزئية لعميل قبل تاريخ الخصم مع دفعة نهائية بعد تاريخ الخصم](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::نهاية العمود::: :::العمود::: - [تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة‬](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [تسوية دفعة جزئية لعميل قبل تاريخ الخصم مع دفعة نهائية بعد تاريخ الخصم](settle-partial-customer-payment-before-discount-or-final-payment-after.md)‎ :::column-end::: :::column::: - [تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة‬](settle-partial-customer-payment-discounts-credit-notes.md)
         - [تسوية دفعة جزئية لعميل تحتوي على عدة فترات خصم](settle-partial-customer-payment-multiple-discount-periods.md)
         - [تعويض العملاء](reimburse-customers.md)
-        - [دفعات العملاء لمبلغ جزئي](customer-payments-partial-amount.md) :::نهاية العمود::: :::نهاية الصف:::
+        - [دفعات العملاء لمبلغ جزئي](customer-payments-partial-amount.md) :::column-end::: :::row-end:::
 
 
 ### <a name="additional-resources"></a>الموارد الإضافية

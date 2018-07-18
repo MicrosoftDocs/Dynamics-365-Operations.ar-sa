@@ -33,16 +33,16 @@ ms.lasthandoff: 06/25/2018
 
 حدد منطقة ميزة لمعرفة المزيد حول هذا الموضوع.
 
-:::الصف::: :::العمود::: - [الحسابات الدائنة](accounts-payable/accounts-payable.md) 
+:::row::: :::column::: - [الحسابات الدائنة](accounts-payable/accounts-payable.md) 
         - [الحسابات المدينة](accounts-receivable/accounts-receivable.md)
         - [إعداد الموازنة](budgeting/budgeting-overview.md) 
         - [إدارة النقد والبنوك](cash-bank-management/cash-bank-management.md)
-        - [محاسبة التكاليف](cost-accounting/cost-accounting-home-page.md) :::نهاية العمود::: :::العمود::: - [إدارة المصاريف](expense-management/expense-management.md)
+        - [محاسبة التكاليف](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [إدارة المصاريف](expense-management/expense-management.md)
         - [التقارير المالية](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [الأصول الثابتة](fixed-assets/fixed-assets.md)
         - [دفتر الأستاذ العام](general-ledger/general-ledger.md) 
         - [إدارة المشروع](project-management/overview-project-management-accounting.md)
-        - [القطاع العام](public-sector/public-sector-functionality.md) :::نهاية العمود::: :::نهاية الصف:::
+        - [القطاع العام](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
 
 
 ## <a name="additional-resources"></a>الموارد الإضافية
