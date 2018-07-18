@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d1307729945494ee78c0ca6089b384d666fe5f20
+ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
+ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 07/10/2018
 
 ---
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 03/26/2018
 <p><a href="imp-lifecycle/prepare-go-live.md">الإعداد للعرض المباشر</a></p>
   
 <h3><a href="../financials/index.md">الإدارة المالية</a></h3>
-<p><a href="../financials/accounts-payable/accounts-payable.md">الحسابات الدائنة</a></p>
+<p><a href="../financials/accounts-payable/accounts-payable.md">حسابات دائنة</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">الحسابات المدينة</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">إعداد الموازنة</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">إدارة النقد والبنوك</a></p>
@@ -65,7 +65,7 @@ ms.lasthandoff: 03/26/2018
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">الميزات التنظيمية الإقليمية</a></p>
 
 <H3><a href="hr/hr-landing-page.md">الموارد البشرية</a></h3>
-<p><a href="../talent/manage-benefit-program.md">المزايا</a></p>
+<p><a href="../talent/manage-benefit-program.md">ميزات</a></p>
 <p><a href="../talent/performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
 <p><a href="../talent/questionnaires.md">الاستبيان</a></p>
 <p><a href="hr/manage-recruiting-process.md">التوظيف</a></p>
@@ -114,16 +114,16 @@ ms.lasthandoff: 03/26/2018
 </td>
 <td>
 <h3>المنتجات ذات الصلة</h3>
-<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
-<p><a href="../talent/manage-benefit-program.md">المزايا</a></p>
-<p><a href="../talent/performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
-<p><a href="../talent/questionnaires.md">الاستبيان</a></p>
-
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">مركز الاتصال</p>
 <p><a href="../retail/define-maintain-retail-channels.md">إعداد القنوات وإدارتها</p>
-<p><a href="../retail/retail-peripherals-overview.md">نقطة البيع الحديثة ونقطة بيع المجموعة</p>
+<p><a href="../retail/retail-peripherals-overview.md">MPOS وCloud POS</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">مطور وإدارة Retail</p>
+
+<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
+<p><a href="../talent/manage-benefit-program.md">ميزات</a></p>
+<p><a href="../talent/performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
+<p><a href="../talent/questionnaires.md">الاستبيان</a></p>
 
 </td>
 </tr>
