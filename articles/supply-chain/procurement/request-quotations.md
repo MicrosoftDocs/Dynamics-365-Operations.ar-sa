@@ -3,7 +3,7 @@ title: "طلبات عرض الأسعار(طلبات عرض الأسعار)"
 description: "يقدم هذا الموضوع نظرة عامة لطلبات عرض الأسعار. تصدر المؤسسات طلبات عروض الأسعار (RFQs) عند الرغبة في الحصول على عروض تنافسية من العديد من الشركات للأصناف أو الخدمات التي يجب على المؤسسة شراؤها."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ac3c55ac56c800f6f4e8e593cce7fe0874d99a5d
+ms.sourcegitcommit: 9b840f5511f6a0df0e9ce3db4be69a0ab4ec3261
+ms.openlocfilehash: 8d7b07027443d1ca3894ccb7ed7f3cf49a4dc3e3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 06/21/2018
 
 ---
 
@@ -100,7 +100,7 @@ ms.lasthandoff: 04/13/2018
 
 -   %اسم حالة RFQ%
 
--   %ExpiryDateTime%
+-   %تاريخ انتهاء الصلاحية%
 
 -   %التاريخ%
 

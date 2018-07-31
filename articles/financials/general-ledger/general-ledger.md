@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2177110dc16528de7eddedb0667faae553a36b12
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -54,9 +54,13 @@ ms.lasthandoff: 02/07/2018
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
+### <a name="whats-new"></a>الجديد
 
-انتقل إلى [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
+انتقل إلى [ملاحظات الإصدار](https://docs.microsoft.com/en-us/business-applications-release-notes/) لمعرفة الميزات الجديدة التي تم إصدارها. 
+
+### <a name="videos"></a>مقاطع الفيديو
+
+اسحب ملفات الفيديو‬ التي تشرح الطريقة‬ والمتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>المدونات
 
@@ -66,11 +70,8 @@ ms.lasthandoff: 02/07/2018
 
 تزود [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) شركاء Microsoft Dynamics بمورد واحد يمكنهم فيه معرفة الجديد والشائع في MBS Operations.
 
-### <a name="task-guides"></a>دلائل المهام
-تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+#### <a name="community-blogs"></a>مدونات المجتمعات
 
-### <a name="videos"></a>مقاطع الفيديو
-
-اسحب ملفات الفيديو‬ التي تشرح الطريقة‬ والمتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+- [ما الذي ينبغي عليك معرفته حول دفتر الأستاذ في Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
 
