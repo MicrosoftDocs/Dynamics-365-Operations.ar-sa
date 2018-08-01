@@ -410,151 +410,6 @@
     - name: الإدارة المالية
       href: ../financials/index.md
       items:
-        - name: دفتر الأستاذ العام
-          href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: الحسابات
-              items:
-                - name: نظرة عامة على الاستحقاقات
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: قواعد الاستبعاد
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: الحساب ومجموعات الأبعاد
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: دفاتر اليومية التي تمت موازنتها للمحاسبة بين الوحدات
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: تعريفات الترحيل
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: 'أمثلة عن تعريف الترحيل '
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: أرصدة حسابات دفتر الأستاذ العام
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: تحديد الأبعاد المالية
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: إنشاء بُنى الحساب‬
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: إنشاء أنظمة استحقاق
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: إنشاء مجموعات توحيد وحسابات توحيد إضافية
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: أنواع الحسابات الرئيسية
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: إنشاء حساب رئيسي
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: تخطيط دليل الحسابات
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: تسوية الحركات بين حسابات دفتر الأستاذ
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: إعداد اسم مستعار لحساب دفتر الأستاذ‬
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: إعداد فئات الحساب الرئيسي
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: مستكشف مصدر المحاسبة
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: التوزيعات المحاسبية
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: توزيعات العمليات
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: الأبعاد المالية
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: تحويل عملات المحاسبة أو التقارير
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: مجموعات حسابات التجميع والحسابات
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: نظرة عامة على التجميع والاستبعاد
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: التقاويم المالية، والسنوات المالية، والفترات
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: تكوين بنى الحسابات
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: دفاتر اليومية ودفاتر الأستاذ
-              items:
-                - name: معالجة دفتر اليومية العام
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: ترحيل دفاتر اليومية الدورية
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: ‏‫معالجة دفتر يومية توزيع دفتر الأستاذ‬
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: إعداد المحاسبة بين الشركات الشقيقة
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: قواعد توزيع دفتر الأستاذ
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: إنشاء قواعد متقدمة لدفاتر اليومية
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: إنشاء بُنى القواعد المتقدمة وتعيينها
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: أنواع دفاتر يومية دفتر الأستاذ
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: إنشاء دفاتر اليومية والتحقق من صحتها
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: عرض إدخالات الدفاتر اليومية أو الحركات
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: ‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: إنشاء إدخال دفتر يومية باستخدام قالب
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: إنشاء حركات استحقاق دفتر الأستاذ​
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: نشر بنود دفاتر اليومية والمستندات من Excel
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: عرض إدخالات دفاتر اليومية والحركات
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: إعادة تقييم العملة في شركة تجميع​
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: استيراد أسعار صرف العملات
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-            - name: إقفال نهاية الفترة
-              items:
-                - name: إقفال دفتر الأستاذ العام في نهاية الفترة​
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: مساحة عمل إقفال الفترة المالية
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: إقفال نهاية السنة
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: إقفال السنة المالية
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: إقفال شامل للفترة المالية
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: ضريبة المبيعات
-              items:
-                - name: نظرة عامة على ضريبة المبيعات
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: معدلات ضريبة المبيعات استنادًا إلى طرق القاعدة الهامشية والحساب
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: دفعات ضريبة المبيعات وقواعد التقريب
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: طرق حساب ضريبة المبيعات في حقل الأصل
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: إنشاء دفع ضريبة مبيعات
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: إنشاء حركات ضريبة المبيعات في المستندات
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: إعداد هيئات ضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: إعداد أكواد ضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: إعداد أكواد تقارير ضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: إعداد فترات تسوية ضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: إعداد ضريبة الخصم
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: عرض حركات ضرائب المبيعات المُرَّحلة
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: حسابات دائنة
           href: ../financials/accounts-payable/accounts-payable.md
           items:
@@ -662,6 +517,10 @@
               href: ../financials/accounts-receivable/sepa-direct-debit-mandate.md
             - name: إعداد وتفويض والتقاط بطاقة الائتمان
               href: ../financials/accounts-receivable/credit-card-authorizations.md
+            - name: إنشاء فاتورة نص حر
+              href: ../financials/accounts-receivable/create-free-text-invoice-new.md
+            - name: إنشاء قالب فاتورة نص حر
+              href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: تصحيح فاتورة ذات نص حر
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
             - name: إعداد معدلات الفائدة لكود فائدة
@@ -682,12 +541,6 @@
                   href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
                 - name: إنشاء تسلسل خطاب تحصيل
                   href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: إنشاء تفويض خصم مباشر لعميل
-                  href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-                - name: إنشاء فاتورة نص حر
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice.md
-                - name: إنشاء قالب فاتورة نص حر
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice-template.md
                 - name: إنشاء رمز فائدة مع نطاق
                   href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
                 - name: إنشاء فواتير أمر المبيعات
@@ -732,6 +585,31 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: دفعات العميل لمبلغ جزئي
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+        - name: إعداد الموازنة
+          href: ../financials/budgeting/budgeting-overview.md
+          items:
+            - name: 'نظرة عامة على تخطيط الموازنة ​ '
+              href: ../financials/budgeting/budget-planning-overview-configuration.md
+            - name: 'نظرة عامة على رقابة الموازنة '
+              href: ../financials/budgeting/budget-control-overview-configuration.md
+            - name: 'نظرة عامة على إعداد الموازنة  '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: التنبؤ بالمنصب
+              href: ../financials/budgeting/position-forecasting.md
+            - name: مستندات تبرير تخطيط الموازنة
+              href: ../financials/budgeting/budget-planning-justification-docs.md
+            - name: إنشاء موازنة من حسابات الحركات والحسابات الإجمالية
+              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: قوالب تخطيط الموازنة لـ Excel
+              href: ../financials/budgeting/budget-planning-excel-templates.md
+            - name: استكشاف الأخطاء وإصلاحها في إعداد موازنة المنصب
+              href: ../financials/budgeting/position-budgeting-set-up-issues.md
+            - name: تخطيط الموازنة
+              href: ../financials/budgeting/budget-plan.md
+            - name: توزيع بيانات تخطيط الموازنة
+              href: ../financials/budgeting/budget-planning-data-allocation.md
+            - name: تكامل تخطيط الموازنة مع الوحدات الأخرى
+              href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: إدارة النقد والبنوك
           href: ../financials/cash-bank-management/cash-bank-management.md
           items:
@@ -811,6 +689,112 @@
                   href: ../financials/cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: تحديث الكيان المركب لدفتر يومية البنك‬
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
+        - name: محاسبة التكاليف
+          href: ../financials/cost-accounting/cost-accounting-home-page.md
+          items:
+            - name: مصطلحات محاسبة التكاليف
+              href: ../financials/cost-accounting/terms-cost-accounting.md
+            - name: التقاويم المالية، والسنوات المالية، والفترات
+              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+            - name: الأبعاد المالية
+              href: ../financials/general-ledger/financial-dimensions.md
+            - name: بُنى الحسابات
+              href: ../financials/general-ledger/Default-dimensions.md
+            - name: إنشاء بُنى الحساب‬
+              href: ../financials/general-ledger/tasks/create-account-structures.md
+            - name: نظرة عامة على إعداد الموازنة
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: إنشاء الأبعاد واستيراد أعضاء الأبعاد
+              href: ../financials/cost-accounting/cost-dimension.md
+            - name: أبعاد عنصر التكلفة
+              href: ../financials/cost-accounting/cost-elements.md
+            - name: إنشاء عناصر تكلفة
+              href: ../financials/cost-accounting/tasks/create-cost-elements.md
+            - name: أبعاد كائن التكلفة
+              href: ../financials/cost-accounting/cost-objects.md
+            - name: إنشاء كائنات تكلفة
+              href: ../financials/cost-accounting/tasks/create-cost-objects.md
+            - name: تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد
+              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
+            - name: تعيين بُعد عنصر التكلفة
+              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
+            - name: التدرج الهرمي للأبعاد
+              href: ../financials/cost-accounting/dimension-hierarchy.md
+            - name: إنشاء تدرج هرمي لتقارير المنظمة
+              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
+            - name: حقوق الوصول لمراقب كائن التكلفة​
+              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
+            - name: تكوين حقوق الوصول لمراقب كائن التكلفة
+              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
+            - name: تحديد وحدات التحكم بالتكلفة
+              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
+            - name: إنشاء دفتر أستاذ محاسبة التكاليف
+              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
+            - name: أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية​
+              href: ../financials/cost-accounting/statistical-measure-provider-template.md
+            - name: أسس التوزيع
+              href: ../financials/cost-accounting/allocation-bases.md
+            - name: إنشاء وتعيين سياسة تخصيص التكلفة إلى وحدة التحكم في التكلفة
+              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
+            - name: إنشاء وتعيين سياسة سلوك التكلفة إلى وحدة التحكم في التكلفة
+              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
+            - name: إنشاء وتعيين سياسة توزيع التكلفة إلى وحدة التحكم في التكلفة
+              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
+            - name: إنشاء سياسة زيادة التكاليف
+              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
+            - name: إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف
+              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
+            - name: معالجة وتتبع مصدر البيانات
+              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
+            - name: عملية حساب المصروفات الزائدة
+              href: ../financials/cost-accounting/overhead-calculation.md
+            - name: سياسة زيادة التكلفة وحساب المصروفات الزائدة
+              href: ../financials/cost-accounting/cost-rollup.md
+            - name: تكوين مساحة عمل التحكم في التكلفة
+              href: ../financials/cost-accounting/cost-control-workspace.md
+            - name: تكوين معلمات مساحة عمل مراقبة التكلفة
+              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
+            - name: فهم أمان قائمة الوصول وRLS في Microsoft Power BI
+              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: استخدام حزمة المحتوى لإعداد تقارير Microsoft Power BI
+              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: استخدام مساحة عمل التحكم في التكلفة لتطبيق الأجهزة المحمولة لـ Finance and Operations
+              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+        - name: إدارة المصروفات​
+          href: ../financials/expense-management/expense-management.md
+          items:
+            - name: إدارة مصروفات الخطة
+              href: ../financials/expense-management/plan-expense-management.md
+            - name: معلمات إدارة المصروفات
+              href: ../financials/expense-management/Expense-Management-Parameters.md
+            - name: مساحة عمل محمولة لإدارة المصروفات
+              href: ../financials/expense-management/expense-management-mobile-workspace.md
+            - name: إعداد مهام سير العمل لإدارة المصروفات
+              href: ../financials/expense-management/expense-workflows.md
+            - name: سير عمل إدارة المصروفات
+              href: ../financials/expense-management/expense-workflow.md
+            - name: استيراد حركات بطاقات الائتمان وصيانتها
+              href: ../financials/expense-management/import-credit-card.md
+            - name: توزيعات تقرير مصروفات
+              href: ../financials/expense-management/expense-report-distributions.md
+            - name: المصروفات المشتركة بين الشركات الشقيقة
+              href: ../financials/expense-management/intercompany-expense.md
+            - name: سياسات المصروفات
+              href: ../financials/expense-management/travel-expense-policies.md
+            - name: عرض تقرير مصروفات
+              href: ../financials/expense-management/view-expense-report.md
+            - name: ترحيل تقرير مصروفات
+              href: ../financials/expense-management/post-expense.md
+            - name: تقارير المصروفات والعديد من مانحي القبول
+              href: ../financials/expense-management/expense-report-multiple-approvers.md
+            - name: استرداد ضريبة القيمة المضافة في إدارة المصروفات
+              href: ../financials/expense-management/VAT-expense-report.md
+            - name: قواعد المصروف اليومي
+              href: ../financials/expense-management/per-diem.md
+            - name: طلبات السفر
+              href: ../financials/expense-management/travel-req.md
+            - name: المصروفات الشخصية على تقرير المصروفات
+              href: ../financials/expense-management/personal-expenses.md
         - name: الأصول الثابتة
           href: ../financials/fixed-assets/fixed-assets.md
           items:
@@ -916,152 +900,151 @@
                   href: ../financials/fixed-assets/tasks/split-fixed-asset.md
                 - name: تحويل أصل ثابت
                   href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
-        - name: إدارة المصروفات​
-          href: ../financials/expense-management/expense-management.md
+        - name: دفتر الأستاذ العام
+          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: إدارة مصروفات الخطة
-              href: ../financials/expense-management/plan-expense-management.md
-            - name: معلمات إدارة المصروفات
-              href: ../financials/expense-management/Expense-Management-Parameters.md
-            - name: مساحة عمل محمولة لإدارة المصروفات
-              href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: إعداد مهام سير العمل لإدارة المصروفات
-              href: ../financials/expense-management/expense-workflows.md
-            - name: سير عمل إدارة المصروفات
-              href: ../financials/expense-management/expense-workflow.md
-            - name: استيراد حركات بطاقات الائتمان وصيانتها
-              href: ../financials/expense-management/import-credit-card.md
-            - name: توزيعات تقرير مصروفات
-              href: ../financials/expense-management/expense-report-distributions.md
-            - name: المصروفات المشتركة بين الشركات الشقيقة
-              href: ../financials/expense-management/intercompany-expense.md
-            - name: سياسات المصروفات
-              href: ../financials/expense-management/travel-expense-policies.md
-            - name: عرض تقرير مصروفات
-              href: ../financials/expense-management/view-expense-report.md
-            - name: ترحيل تقرير مصروفات
-              href: ../financials/expense-management/post-expense.md
-            - name: تقارير المصروفات والعديد من مانحي القبول
-              href: ../financials/expense-management/expense-report-multiple-approvers.md
-            - name: استرداد ضريبة القيمة المضافة في إدارة المصروفات
-              href: ../financials/expense-management/VAT-expense-report.md
-            - name: قواعد المصروف اليومي
-              href: ../financials/expense-management/per-diem.md
-            - name: طلبات السفر
-              href: ../financials/expense-management/travel-req.md
-            - name: المصروفات الشخصية على تقرير المصروفات
-              href: ../financials/expense-management/personal-expenses.md
-        - name: إعداد الموازنة
-          href: ../financials/budgeting/budgeting-overview.md
-          items:
-            - name: 'نظرة عامة على تخطيط الموازنة ​ '
-              href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'نظرة عامة على رقابة الموازنة '
-              href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'نظرة عامة على إعداد الموازنة  '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: التنبؤ بالمنصب
-              href: ../financials/budgeting/position-forecasting.md
-            - name: مستندات تبرير تخطيط الموازنة
-              href: ../financials/budgeting/budget-planning-justification-docs.md
-            - name: إنشاء موازنة من حسابات الحركات والحسابات الإجمالية
-              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: قوالب تخطيط الموازنة لـ Excel
-              href: ../financials/budgeting/budget-planning-excel-templates.md
-            - name: استكشاف الأخطاء وإصلاحها في إعداد موازنة المنصب
-              href: ../financials/budgeting/position-budgeting-set-up-issues.md
-            - name: تخطيط الموازنة
-              href: ../financials/budgeting/budget-plan.md
-            - name: توزيع بيانات تخطيط الموازنة
-              href: ../financials/budgeting/budget-planning-data-allocation.md
-            - name: تكامل تخطيط الموازنة مع الوحدات الأخرى
-              href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: إعداد التقارير
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
-          items:
-            - name: التقارير المالية للميزانية العمومية
-              href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: إنشاء تقرير مالي
-              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-            - name: التقرير المالي لكشف حساب الدخل
-              href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: التقارير المالية لميزان المراجعة
-              href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: عرض التقارير المالية
-              href: ../financials/general-ledger/view-financial-reports.md
-            - name: مصمم التقرير
-              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: محاسبة التكاليف
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
-          items:
-            - name: مصطلحات محاسبة التكاليف
-              href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: التقاويم المالية، والسنوات المالية، والفترات
-              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: الأبعاد المالية
-              href: ../financials/general-ledger/financial-dimensions.md
-            - name: بُنى الحسابات
-              href: ../financials/general-ledger/Default-dimensions.md
-            - name: إنشاء بُنى الحساب‬
-              href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: نظرة عامة على إعداد الموازنة
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: إنشاء الأبعاد واستيراد أعضاء الأبعاد
-              href: ../financials/cost-accounting/cost-dimension.md
-            - name: أبعاد عنصر التكلفة
-              href: ../financials/cost-accounting/cost-elements.md
-            - name: إنشاء عناصر تكلفة
-              href: ../financials/cost-accounting/tasks/create-cost-elements.md
-            - name: أبعاد كائن التكلفة
-              href: ../financials/cost-accounting/cost-objects.md
-            - name: إنشاء كائنات تكلفة
-              href: ../financials/cost-accounting/tasks/create-cost-objects.md
-            - name: تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد
-              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
-            - name: تعيين بُعد عنصر التكلفة
-              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
-            - name: التدرج الهرمي للأبعاد
-              href: ../financials/cost-accounting/dimension-hierarchy.md
-            - name: إنشاء تدرج هرمي لتقارير المنظمة
-              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: حقوق الوصول لمراقب كائن التكلفة​
-              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
-            - name: تكوين حقوق الوصول لمراقب كائن التكلفة
-              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
-            - name: تحديد وحدات التحكم بالتكلفة
-              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
-            - name: إنشاء دفتر أستاذ محاسبة التكاليف
-              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية​
-              href: ../financials/cost-accounting/statistical-measure-provider-template.md
-            - name: أسس التوزيع
-              href: ../financials/cost-accounting/allocation-bases.md
-            - name: إنشاء وتعيين سياسة تخصيص التكلفة إلى وحدة التحكم في التكلفة
-              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
-            - name: إنشاء وتعيين سياسة سلوك التكلفة إلى وحدة التحكم في التكلفة
-              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
-            - name: إنشاء وتعيين سياسة توزيع التكلفة إلى وحدة التحكم في التكلفة
-              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
-            - name: إنشاء سياسة زيادة التكاليف
-              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف
-              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
-            - name: معالجة وتتبع مصدر البيانات
-              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
-            - name: عملية حساب المصروفات الزائدة
-              href: ../financials/cost-accounting/overhead-calculation.md
-            - name: سياسة زيادة التكلفة وحساب المصروفات الزائدة
-              href: ../financials/cost-accounting/cost-rollup.md
-            - name: تكوين مساحة عمل التحكم في التكلفة
-              href: ../financials/cost-accounting/cost-control-workspace.md
-            - name: تكوين معلمات مساحة عمل مراقبة التكلفة
-              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: فهم أمان قائمة الوصول وRLS في Microsoft Power BI
-              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: استخدام حزمة المحتوى لإعداد تقارير Microsoft Power BI
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: استخدام مساحة عمل التحكم في التكلفة لتطبيق الأجهزة المحمولة لـ Finance and Operations
-              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+            - name: الحسابات
+              items:
+                - name: نظرة عامة على الاستحقاقات
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: قواعد الاستبعاد
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: الحساب ومجموعات الأبعاد
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: دفاتر اليومية التي تمت موازنتها للمحاسبة بين الوحدات
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: تعريفات الترحيل
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: 'أمثلة عن تعريف الترحيل '
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: أرصدة حسابات دفتر الأستاذ العام
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: تحديد الأبعاد المالية
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: إنشاء بُنى الحساب‬
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: إنشاء أنظمة استحقاق
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: إنشاء مجموعات توحيد وحسابات توحيد إضافية
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: أنواع الحسابات الرئيسية
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: إنشاء حساب رئيسي
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: تخطيط دليل الحسابات
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: تسوية الحركات بين حسابات دفتر الأستاذ
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: إعداد اسم مستعار لحساب دفتر الأستاذ‬
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: إعداد فئات الحساب الرئيسي
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: مستكشف مصدر المحاسبة
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: التوزيعات المحاسبية
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: توزيعات العمليات
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: الأبعاد المالية
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: تحويل عملات المحاسبة أو التقارير
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: مجموعات حسابات التجميع والحسابات
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: نظرة عامة على التجميع والاستبعاد
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: التقاويم المالية، والسنوات المالية، والفترات
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: تكوين بنى الحسابات
+                  href: ../financials/general-ledger/configure-account-structures.md
+            - name: دفاتر اليومية ودفاتر الأستاذ
+              items:
+                - name: معالجة دفتر اليومية العام
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: ترحيل دفاتر اليومية الدورية
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: ‏‫معالجة دفتر يومية توزيع دفتر الأستاذ‬
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: إعداد المحاسبة بين الشركات الشقيقة
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: قواعد توزيع دفتر الأستاذ
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: إنشاء قواعد متقدمة لدفاتر اليومية
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: إنشاء بُنى القواعد المتقدمة وتعيينها
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: أنواع دفاتر يومية دفتر الأستاذ
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: إنشاء دفاتر اليومية والتحقق من صحتها
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: عرض إدخالات الدفاتر اليومية أو الحركات
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: ‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: إنشاء إدخال دفتر يومية باستخدام قالب
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: إنشاء حركات استحقاق دفتر الأستاذ​
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: نشر بنود دفاتر اليومية والمستندات من Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: عرض إدخالات دفاتر اليومية والحركات
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: إعادة تقييم العملة في شركة تجميع​
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: استيراد أسعار صرف العملات
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+            - name: إقفال نهاية الفترة
+              items:
+                - name: إقفال دفتر الأستاذ العام في نهاية الفترة​
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: مساحة عمل إقفال الفترة المالية
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: إقفال نهاية السنة
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: إقفال السنة المالية
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: إقفال شامل للفترة المالية
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: ضريبة المبيعات
+              items:
+                - name: نظرة عامة على ضريبة المبيعات
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: معدلات ضريبة المبيعات استنادًا إلى طرق القاعدة الهامشية والحساب
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: دفعات ضريبة المبيعات وقواعد التقريب
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: طرق حساب ضريبة المبيعات في حقل الأصل
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: إنشاء دفع ضريبة مبيعات
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: إنشاء حركات ضريبة المبيعات في المستندات
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: إعداد هيئات ضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: إعداد أكواد ضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: إعداد أكواد تقارير ضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: إعداد فترات تسوية ضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: إعداد ضريبة الخصم
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: عرض حركات ضرائب المبيعات المُرَّحلة
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: القطاع العام
           href: ../financials/public-sector/public-sector-functionality.md
           items:
@@ -1149,31 +1132,41 @@
                   href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
                 - name: إعداد تصنيفات اتفاقية الشراء في القطاع العام
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-    - name: التقارير المالية
-      href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
-      items:
-        - name: إنشاء تقرير مالي
-          href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-        - name: مكونات التقرير المالي
-          href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
-        - name: مصمم التقرير
-          href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: تفضيلات المستخدم
-          href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: خيارات تنسيق متقدمة
-          href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: تنظيم مكونات التقرير
-          href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: تعريفات التقارير
-          href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
-        - name: تعريفات الصفوف
-          href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: تعريفات الأعمدة
-          href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-        - name: تعديل خلايا تعريف الصفوف
-          href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: إعادة تعيين متجر بيانات التقرير المالي بعد استعادة قاعدة بيانات
-          href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: التقارير المالية
+          href: ../financials/general-ledger/financial-reporting-getting-started.md
+          items:
+            - name: نظرة عامة على التقارير المالية
+              href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
+            - name: مكونات التقرير المالي
+              href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
+            - name: التقارير المالية للميزانية العمومية
+              href: ../financials/general-ledger/balance-sheet-financial-reports.md
+            - name: إنشاء تقرير مالي
+              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
+            - name: التقرير المالي لكشف حساب الدخل
+              href: ../financials/general-ledger/income-statement-financial-report.md
+            - name: التقارير المالية لميزان المراجعة
+              href: ../financials/general-ledger/trial-balance-financial-reports.md
+            - name: عرض التقارير المالية
+              href: ../financials/general-ledger/view-financial-reports.md
+            - name: مصمم التقرير
+              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
+            - name: تفضيلات المستخدم
+              href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: خيارات تنسيق متقدمة
+              href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: تنظيم مكونات التقرير
+              href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: تعريفات التقارير
+              href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
+            - name: تعريفات الصفوف
+              href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: تعريفات الأعمدة
+              href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
+            - name: تعديل خلايا تعريف الصفوف
+              href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: إعادة تعيين متجر بيانات التقرير المالي بعد استعادة قاعدة بيانات
+              href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: ميزات الترجمة والميزات التنظيمية
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -1660,6 +1653,7 @@
                 - name: إقفال نهاية السنة
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: الدنمارك
+              href: ../financials/localizations/denmark.md
               items:
                 - name: تعيين تنسيق إيصال دفع لحساب العميل
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1691,6 +1685,7 @@
                 - name: كشف ضريبة القيمة المضافة
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: فرنسا
+              href: ../financials/localizations/france.md
               items:
                 - name: القطاع العام
                   items:
@@ -1767,6 +1762,7 @@
                 - name: إعداد الإقرار الضريبي الإلكتروني
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: هنغاريا
+              href: ../financials/localizations/hungary.md
               items:
                 - name: حساب سعر الصرف
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1781,6 +1777,7 @@
                 - name: إقفال نهاية السنة
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: أيسلندا
+              href: ../financials/localizations/iceland.md
               items:
                 - name: إنشاء حساب مورد وإرفاق فئة إقرار الفاتورة
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1791,6 +1788,7 @@
                 - name: تحديث إقرارات فواتير الموردين وإنشاء التقرير
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: إيطاليا
+              href: ../financials/localizations/italy.md
               items:
                 - name: تفاصيل كشوف حساب ضريبة القيمة المضافة​
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1813,6 +1811,7 @@
                 - name: ضريبة الخصم
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: لاتفيا
+              href: ../financials/localizations/latvia.md
               items:
                 - name: محاسبة الأصول الثابتة​
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1825,6 +1824,7 @@
                 - name: تفاصيل كشف حساب ضريبة القيمة المضافة
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: لتوانيا
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: كشف إصلاح الأصول الثابتة
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1835,12 +1835,14 @@
                 - name: تفاصيل كشف حساب ضريبة القيمة المضافة
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: هولندا
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: إقرارات الضريبة الإلكترونية‬ (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: تكامل Semansys XBRL
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: النرويج
+              href: ../financials/localizations/norway.md
               items:
                 - name: تنسيقات الدفع الخاصة بالعملاء والموردين
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1855,6 +1857,7 @@
                 - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: بولندا
+              href: ../financials/localizations/poland.md
               items:
                 - name: حساب خصومات البند من سعر الوحدة​
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1877,6 +1880,7 @@
                 - name: كشف الأرصدة والدوران​
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: إسبانيا
+              href: ../financials/localizations/spain.md
               items:
                 - name: تطبيق الخصومات النقدية في الفاتورة​
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1905,6 +1909,7 @@
                 - name: الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: السويد
+              href: ../financials/localizations/sweden.md
               items:
                 - name: تصدير معلومات مالية للمراجعين في السويد
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1913,10 +1918,12 @@
                 - name: آلات تسجيل المدفوعات النقدية
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: سويسرا
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: استيراد دفعات العملاء في ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: المملكة المتحدة
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'نظام صناعة الإنشاء '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
@@ -2158,7 +2165,7 @@
               href: ../talent/departments-jobs-positions.md
             - name: إعداد مكونات الوظائف
               href: ../talent/create-job.md
-            - name: إنشاء قسم وربطه بالتدرج الهرمي للأقسام
+            - name: إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام
               href: ../talent/create-department-add-department-hierarchy.md
             - name: إعداد معلمات الموارد البشرية عبر الكيانات القانونية
               href: ../talent/set-up-hr-parameters-across-legal-entities.md
@@ -2376,7 +2383,7 @@
           items:
             - name: الفعلي مقابل الموازنة
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
-            - name: الميزات
+            - name: ميزات
               href: ../dev-itpro/analytics/benefits-power-bi.md?toc=/fin-and-ops/toc.json
             - name: نظرة عامة على النقدية
               href: ../financials/cash-bank-management/Cash-Overview-Power-BI-content.md
@@ -3994,5 +4001,3 @@
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-- name: Dynamics 365 for Talent
-  href: ../talent/toc.yml

@@ -1,84 +1,87 @@
-- name: مرحبًا بك في Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
-- name: بدء الاستخدام
-  href: talent-get-started.md
   items:
-    - name: متطلبات النظام وسياسة التحديث
-      href: talent-versions-update-policy.md
-    - name: توفير Microsoft Dynamics 365 for Talent
-      href: provisioning-talent.md
-    - name: إزالة بيئة Talent
-      href: remove-talent-environment.md
-    - name: توفير التطبيقات النمطية لـ Microsoft Dynamics 365 for Talent
-      href: modular-app-tech-faq.md
-    - name: توسيع الأداء الوظيفي لتطبيق Talent
-      href: extend-talent-functionality.md
-    - name: الوصول إلى ميزات المعاينة في Dynamics 365 for Talent
-      href: access-preview-feature.md
-- name: تطوير استراتيجية موارد بشرية
-  href: departments-jobs-positions.md
-  items:
-    - name: إعداد مكونات الوظائف
-      href: create-job.md
-    - name: إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام
-      href: create-department-add-department-hierarchy.md
-    - name: إعداد معلمات الموارد البشرية عبر الكيانات القانونية
-      href: set-up-hr-parameters-across-legal-entities.md
-    - name: إعداد معلمات الموارد البشرية الخاصة بالشركة
-      href: set-up-company-specific-hr-parameters.md
-    - name: الأسئلة المتداولة حول إجراءات العاملين
-      href: personnel-actions-faq.md
-    - name: صياغة العمليات التجارية
-      href: formalize-business-processes.md
-    - name: استخدام سير العمل لإدارة المعلومات الخاصة بالموظف
-      href: workflow-manage-employee-information.md
-    - name: نظرة عامة على الإجازة والغياب
-      href: leave-absence-overview.md
-- name: تعيين الموظفين لمؤسستك
-  items:
-    - name: نظرة عامة على الجذب
-      href: attract-overview.md
-    - name: نظرة عامة على الإعداد
-      href: create-onboarding-experience.md
-- name: تحفيز الموظفين
-  items:
-    - name: خطط التعويض
-      href: compensation-plans.md
-    - name: إنشاء خطط التعويض الثابت
-      href: create-fixed-compensation-plans.md
-    - name: إنشاء خطط التعويض المتغيرة
-      href: create-variable-compensation-plans.md
-    - name: تعويض العملية
-      href: process-compensation.md
-- name: تطوير الموظفين وتدريبهم
-  items:
-    - name: نظرة عامة حول إدارة الأداء
-      href: performance-management-overview.md
-    - name: مواءمة احتياجات العمل مع مهارات العاملين
-      href: skills.md
-    - name: إعداد الدورات التدريبية
-      href: courses.md
-- name: إنشاء المزايا والحفاظ عليها
-  href: manage-benefit-program.md
-- name: سياسات استحقاق الميزات
-  href: benefit-eligibility-policies.md
-  items:
-    - name: إدارة الأصناف المعارة للعاملين
-      href: loan-items.md
-- name: جمع المعلومات باستخدام الاستبيانات
-  href: questionnaires.md
-  items:
-    - name: تصميم استبيان
-      href: design-questionnaires.md
-    - name: توزيع وإكمال استبيان
-      href: distribute-questionnaires.md
-    - name: تقييم نتائج الاستبيان
-      href: evaluate-questionnaire-results.md
-- name: السلامة والامتثال في أماكن العمل (الولايات المتحدة)
-  items:
-    - name: الاستجابة لطلب بيانات شخصية باستخدام Talent
-      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
-    - name: التحقق من صحة نموذج التوظيف I-9
-      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
-    - name: التوافق مع قانون الأمريكيين المعوقين
-      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+    - name: بدء الاستخدام
+      href: talent-get-started.md
+      items:
+        - name: متطلبات النظام وسياسة التحديث
+          href: talent-versions-update-policy.md
+        - name: توفير Microsoft Dynamics 365 for Talent
+          href: provisioning-talent.md
+        - name: إزالة بيئة Talent
+          href: remove-talent-environment.md
+        - name: توفير التطبيقات النمطية لـ Microsoft Dynamics 365 for Talent
+          href: modular-app-tech-faq.md
+        - name: توسيع الأداء الوظيفي لتطبيق Talent
+          href: extend-talent-functionality.md
+        - name: الوصول إلى ميزات المعاينة في Dynamics 365 for Talent
+          href: access-preview-feature.md
+        - name: تكوين Talent لدعم تكامل كشف الرواتب
+          href: configure-payroll-integration.md
+    - name: تطوير استراتيجية موارد بشرية
+      href: departments-jobs-positions.md
+      items:
+        - name: إعداد مكونات الوظائف
+          href: create-job.md
+        - name: إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام
+          href: create-department-add-department-hierarchy.md
+        - name: إعداد معلمات الموارد البشرية عبر الكيانات القانونية
+          href: set-up-hr-parameters-across-legal-entities.md
+        - name: إعداد معلمات الموارد البشرية الخاصة بالشركة
+          href: set-up-company-specific-hr-parameters.md
+        - name: الأسئلة المتداولة حول إجراءات العاملين
+          href: personnel-actions-faq.md
+        - name: صياغة العمليات التجارية
+          href: formalize-business-processes.md
+        - name: استخدام سير العمل لإدارة المعلومات الخاصة بالموظف
+          href: workflow-manage-employee-information.md
+        - name: نظرة عامة على الإجازة والغياب
+          href: leave-absence-overview.md
+    - name: تعيين الموظفين لمؤسستك
+      items:
+        - name: نظرة عامة على Attract
+          href: attract-overview.md
+        - name: نظرة عامة على Onboard
+          href: create-onboarding-experience.md
+    - name: تحفيز الموظفين
+      items:
+        - name: خطط التعويض
+          href: compensation-plans.md
+        - name: إنشاء خطط التعويض الثابت
+          href: create-fixed-compensation-plans.md
+        - name: إنشاء خطط التعويض المتغيرة
+          href: create-variable-compensation-plans.md
+        - name: تعويض العملية
+          href: process-compensation.md
+    - name: تطوير الموظفين وتدريبهم
+      items:
+        - name: نظرة عامة حول إدارة الأداء
+          href: performance-management-overview.md
+        - name: مواءمة احتياجات العمل مع مهارات العاملين
+          href: skills.md
+        - name: إعداد الدورات التدريبية
+          href: courses.md
+    - name: إنشاء المزايا والحفاظ عليها
+      href: manage-benefit-program.md
+    - name: سياسات استحقاق الميزات
+      href: benefit-eligibility-policies.md
+      items:
+        - name: إدارة الأصناف المعارة للعاملين
+          href: loan-items.md
+    - name: جمع المعلومات باستخدام الاستبيانات
+      href: questionnaires.md
+      items:
+        - name: تصميم استبيان
+          href: design-questionnaires.md
+        - name: توزيع وإكمال استبيان
+          href: distribute-questionnaires.md
+        - name: تقييم نتائج الاستبيان
+          href: evaluate-questionnaire-results.md
+    - name: السلامة والامتثال في أماكن العمل (الولايات المتحدة)
+      items:
+        - name: الاستجابة لطلب بيانات شخصية باستخدام Talent
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+        - name: التحقق من صحة نموذج التوظيف I-9
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+        - name: التوافق مع قانون الأمريكيين المعوقين
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
