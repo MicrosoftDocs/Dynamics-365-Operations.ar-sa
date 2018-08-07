@@ -1,7 +1,7 @@
 ---
 title: "محتوى Power BI لأداء المبيعات والربحية"
 description: "يوضح هذا الموضوع ما هو مدرج في محتوى Power BI \"أداء الربحية والمبيعات\". فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article

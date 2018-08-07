@@ -1,7 +1,7 @@
 --- 
 title: "تكوين معلمات مساحة عمل مراقبة التكلفة"
 description: "استخدم هذا الإجراء لتكوين مساحة عمل التحكم في التكلفة لتمكين المدراء من مستويات مختلفة في المؤسسة من الحصول على نظرة أعمق على كائنات التكلفة، مثل مراكز التكلفة ومجموعات المنتجات."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
@@ -9,10 +9,10 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

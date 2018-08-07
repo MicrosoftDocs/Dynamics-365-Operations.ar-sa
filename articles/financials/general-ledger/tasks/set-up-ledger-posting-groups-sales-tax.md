@@ -1,7 +1,7 @@
 --- 
 title: "إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات"
 description: "يتم حساب ضريبة المبيعات وترحيلها إلى الحسابات الرئيسية التي تم تحديدها في مجموعات ترحيل دفتر الأستاذ."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman

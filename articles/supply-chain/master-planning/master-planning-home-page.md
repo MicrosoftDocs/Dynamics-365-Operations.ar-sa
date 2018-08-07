@@ -1,7 +1,7 @@
 ---
 title: "الصفحة الرئيسية للتخطيط الرئيسي"
 description: "يتيح التخطيط الرئيسي للشركات إمكانية تحديد وموازنة الاحتياجات المستقبلية للمواد الخام والقدرة اللازمة لتلبية أهداف الشركة."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
