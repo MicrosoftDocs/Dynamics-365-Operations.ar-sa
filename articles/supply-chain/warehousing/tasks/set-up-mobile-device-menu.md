@@ -1,7 +1,7 @@
 --- 
 title: "إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء"
 description: "يوضح هذا الإجراء كيفية إعداد عنصر قائمة جهاز محمول."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/25/2016
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c3c048a18ee8150880ed9df139cd498f2ec52852
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 31007031b761cfed6b5a97ebb829be4d200bc82d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="1034d-103">إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء</span><span class="sxs-lookup"><span data-stu-id="1034d-103">Set up a mobile device menu item for completing work in a purchase order</span></span>

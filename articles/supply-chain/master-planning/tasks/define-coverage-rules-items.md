@@ -1,7 +1,7 @@
 --- 
 title: "تحديد قواعد تغطية للأصناف"
 description: "شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3205fe6a10ce714073334c7ccd25acb755e0aebf
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 443347fd3042184a6be3a025b99f33dff56df79c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="define-coverage-rules-for-items"></a><span data-ttu-id="d4590-103">تحديد قواعد تغطية للأصناف</span><span class="sxs-lookup"><span data-stu-id="d4590-103">Define coverage rules for items</span></span>

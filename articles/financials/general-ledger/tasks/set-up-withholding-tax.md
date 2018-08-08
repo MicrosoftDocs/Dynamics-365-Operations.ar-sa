@@ -1,7 +1,7 @@
 --- 
 title: "إعداد ضريبة الخصم"
 description: "ضريبة الخصم هي ضريبة يتم احتسابها على المورّدين، والتي لا تقوم بإنشا حركات ضرائب المبيعات."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 39ebd6a1a326b0ff2943957c9606e91852d524ce
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 362df7c97adae2526cb61b07e3022dc3b63fc59e
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-withholding-tax"></a><span data-ttu-id="d2e3d-103">إعداد ضريبة الخصم</span><span class="sxs-lookup"><span data-stu-id="d2e3d-103">Set up withholding tax</span></span>

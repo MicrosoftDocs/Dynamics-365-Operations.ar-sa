@@ -1,7 +1,7 @@
 ---
 title: "أنشطة خدمة المراقبة"
 description: "يتيح نموذج لوحة الإرسال إمكانية التحديث في لمح البصر لحالة أنشطة الخدمات المجدولة المتنوعة، كما يزودك بأدوات لتعقب تدفق أوامر الخدمات العام في الشركة لديك."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/04/2018
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMADispatchBoard
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 32dd8660367480d47d159b237fededc9f4338e25
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 81994343acf5d99e9cfc1f6253c65aa7260822d7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

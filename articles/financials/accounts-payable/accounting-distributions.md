@@ -1,7 +1,7 @@
 ---
 title: "التوزيعات المحاسبية"
 description: "توفر هذه المقالة معلومات حول التوزيعات المحاسبية وتصف الخيارات المتاحة لمعالجتها. يتم استخدام التوزيعات المحاسبية لتوزيع مبالغ نقدية لمستند مصدر إلى حسابات دفتر أستاذ محددة."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AccountingDistribution
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8114eecbaf6b8ebbf289601809faf76a052347e5
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 3ba6a581efe8353ccb9e02606db58d18550d71af
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
