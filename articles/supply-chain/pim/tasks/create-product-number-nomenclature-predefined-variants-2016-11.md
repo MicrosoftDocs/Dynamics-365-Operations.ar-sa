@@ -1,7 +1,7 @@
 --- 
 title: "إنشاء رقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫"
 description: "يوضح هذا الدليل كيفية إعداد nomenclature لرقم المنتج لمتغيرات منتجات معرّفة مسبقًا، وكيف يمكنك تعيينها إلى مجموعة أبعاد المنتجات المناسبة."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
@@ -9,10 +9,10 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

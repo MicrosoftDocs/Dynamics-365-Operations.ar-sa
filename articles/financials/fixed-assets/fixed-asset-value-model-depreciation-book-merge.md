@@ -1,7 +1,7 @@
 ---
 title: "دمج نموذج قيم الأصول الثابتة ودفتر الإهلاك"
 description: "في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك. في الإصدار (1611) من Microsoft Dynamics 365 for Operations، تم دمج وظيفة نموذج القيمة ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e

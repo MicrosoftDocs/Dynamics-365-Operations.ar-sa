@@ -1,7 +1,7 @@
 ---
 title: "نظرة عامة على إعداد الموازنة"
 description: "ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Finance and Operations من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations أو تحميلها من برنامج تابع لجهة خارجية."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
