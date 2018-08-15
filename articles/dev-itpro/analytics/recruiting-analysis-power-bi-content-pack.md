@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="6deae-105">يصف هذا الموضوع محتوى Microsoft Power BI **التوظيف**.</span><span class="sxs-lookup"><span data-stu-id="6deae-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="6deae-106">فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.</span><span class="sxs-lookup"><span data-stu-id="6deae-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="6deae-107">الوصول إلى محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="6deae-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="6deae-108">يتم عرض محتوى Power BI **التوظيف** في مساحة عمل **إدارة التوظيف**.</span><span class="sxs-lookup"><span data-stu-id="6deae-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="6deae-108">يتم عرض محتوى Power BI **التوظيف** في مساحة عمل **إدارة التوظيف**.</span><span class="sxs-lookup"><span data-stu-id="6deae-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="6deae-109">التقارير والرسوم المرئية في مساحة العمل "إدارة التوظيف"</span><span class="sxs-lookup"><span data-stu-id="6deae-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="6deae-110">تحتوي مساحة عمل **إدارة التوظيف** على علامة تبويب **التحليلات**. وتحتوي علامة التبويب هذه على محتوى Power BI المضمن للتوظيف.‬</span><span class="sxs-lookup"><span data-stu-id="6deae-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="6deae-111">يتكون المحتوى من علامة تبويب نظرة عامة وعلامات تبويب إضافية تحتوي على التفاصيل.</span><span class="sxs-lookup"><span data-stu-id="6deae-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="6deae-112">يصف الجدول التالي التقارير على كل علامة تبويب.</span><span class="sxs-lookup"><span data-stu-id="6deae-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="6deae-163">الأداء</span><span class="sxs-lookup"><span data-stu-id="6deae-163">Performance</span></span>          | <span data-ttu-id="6deae-164">التقييم والوصف ونموذج التقييم</span><span class="sxs-lookup"><span data-stu-id="6deae-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="6deae-165">مقدم الطلب، مقدم الطلب الموظف، مقدم الطلب المفصول</span><span class="sxs-lookup"><span data-stu-id="6deae-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="6deae-166">مشروع التوظيف</span><span class="sxs-lookup"><span data-stu-id="6deae-166">Recruitment Project</span></span>  | <span data-ttu-id="6deae-167">وصف المشروع، وحالة المشروع، وفرص العمل الشاغرة</span><span class="sxs-lookup"><span data-stu-id="6deae-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="6deae-168">مقدم الطلب، مقدم الطلب الموظف، مقدم الطلب المفصول</span><span class="sxs-lookup"><span data-stu-id="6deae-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="6deae-169">مقدم الطلب المفصول</span><span class="sxs-lookup"><span data-stu-id="6deae-169">Terminated Applicant</span></span> | <span data-ttu-id="6deae-170">مقدمو الطلبات المفصولون، والسبب، والأداء، وتاريخ الفصل</span><span class="sxs-lookup"><span data-stu-id="6deae-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="6deae-171">الشركة، مقاصة التقويم‬، التاريخ، الموقع الجغرافي، الأداء، التوزيع الجغرافي، التوظيف، الوسائط، مشروع التوظيف، اسم مقدم الطلب</span><span class="sxs-lookup"><span data-stu-id="6deae-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 

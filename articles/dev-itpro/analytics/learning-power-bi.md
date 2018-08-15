@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6a0c1459da8770a8cc880a48483102494feb38bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -64,6 +64,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="5ab74-162">المهنة</span><span class="sxs-lookup"><span data-stu-id="5ab74-162">Position</span></span>         | <span data-ttu-id="5ab74-163">المنصب، والمسمى الوظيفي، ومكافئ الدوام الكامل‬</span><span class="sxs-lookup"><span data-stu-id="5ab74-163">Position, title, and full-time equivalent (FTE)</span></span>                  | <span data-ttu-id="5ab74-164">جدول أعمال الدورة التدريبية، حضور الدورة التدريبية</span><span class="sxs-lookup"><span data-stu-id="5ab74-164">Course Agenda, Course Attendees</span></span> |
 | <span data-ttu-id="5ab74-165">اسم الموظف</span><span class="sxs-lookup"><span data-stu-id="5ab74-165">Employee Name</span></span>    | <span data-ttu-id="5ab74-166">الاسم الأول والاسم الأخير والاسم بالكامل</span><span class="sxs-lookup"><span data-stu-id="5ab74-166">First name, last name, and full name</span></span>                             | <span data-ttu-id="5ab74-167">حضور الدورة التدريبية</span><span class="sxs-lookup"><span data-stu-id="5ab74-167">Course Attendees</span></span> |
 | <span data-ttu-id="5ab74-168">المسمى الوظيفي للموظف</span><span class="sxs-lookup"><span data-stu-id="5ab74-168">Employee Title</span></span>   | <span data-ttu-id="5ab74-169">المسمى الوظيفي وتاريخ الأقدمية</span><span class="sxs-lookup"><span data-stu-id="5ab74-169">Title and seniority date</span></span>                                         | <span data-ttu-id="5ab74-170">حضور الدورة التدريبية</span><span class="sxs-lookup"><span data-stu-id="5ab74-170">Course Attendees</span></span> |
-
-
 
