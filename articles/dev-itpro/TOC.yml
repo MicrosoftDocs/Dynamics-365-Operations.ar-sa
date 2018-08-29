@@ -1,33 +1,33 @@
-- name: التطوير والإدارة لـ Dynamics 365 for Finance and Operations
+- name: ‏‫التطوير والإدارة لـ Finance and Operations‬
   href: index.md
-- name: متطلبات النظام لعمليات النشر السحابية
+- name: متطلبات النظام لعمليات النشر عبر السحابة
   href: ../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json
 - name: متطلبات النظام لعمليات النشر المحلي
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: بيانات العرض التوضيحي
   href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
-    - name: إنشاء بيانات العرض التوضيحي باستخدام الحزم
+    - name: إنشاء بيانات العرض التوضيحي باستخدام حزم البيانات
       href: data-entities/generate-demo-data-packages.md
 - name: التطوير والتخصيص باستخدام Visual Studio
   href: dev-tools/developer-home-page.md
   items:
     - name: مكدس التطبيق وبنية الخادم
       href: dev-tools/application-stack-server-architecture.md
-    - name: الحصول على نسخة تقييم
+    - name: الحصول على نسخ التقييم
       href: dev-tools/get-evaluation-copy.md
-    - name: التسجيل للاشتراك
+    - name: التسجيل لاشتراكات المعاينة
       href: dev-tools/sign-up-preview-subscription.md
-    - name: نشر بيئة تطوير والوصول إليها
+    - name: نشر بيئات تطوير والوصول إليها
       href: dev-tools/access-instances.md
       items:
-        - name: تكوين الجهاز الظاهري للمطور
+        - name: تكوين بيئات تطوير خانة واحدة
           href: dev-tools/configure-developer-vm.md
-        - name: إنشاء مستخدم جديد على جهاز التطوير
+        - name: إنشاء مستخدمين جدد على أجهزة التطوير
           href: dev-tools/enable-development-machine.md
         - name: الأجهزة الظاهرية للتطوير والإنشاء التي لا تسمح للمسؤول بالوصول إلى الأسئلة الشائعة
           href: sysadmin/VMs-no-admin-access.md
-        - name: إعادة تسمية بيئة محلية لتمكين الوصول إلى Visual Studio Team Services
+        - name: إعادة تسمية بيئة محلية للوصول إلى Visual Studio Team Services
           href: migration-upgrade/vso-machine-renaming.md
         - name: متطلبات نظام التطوير
           href: dev-tools/development-system-requirements.md
@@ -35,28 +35,28 @@
       href: dev-tools/version-control-metadata-navigation.md
     - name: تطبيق نموذجي لإدارة الأساطيل
       items:
-        - name: تطبيق نموذجي لإدارة الأساطيل
+        - name: 'السيناريو الشامل ‏‫للتطبيق النموذجي لإدارة الأساطيل‬ '
           href: dev-tools/fleet-management-sample.md
-        - name: نظرة عامة حول التطبيق النموذجي لإدارة الأساطيل
+        - name: تطبيق نموذجي لإدارة الأساطيل
           href: dev-tools/introduction-fleet-management-sample.md
     - name: أدوات Visual Studio
       items:
-        - name: نظرة عامة على أدوات التطوير
+        - name: أدوات التطوير
           href: dev-tools/development-tools-overview.md
         - name: برنامج تعليمي لأدوات التطوير
           href: dev-tools/introduction-visual-studio.md
         - name: مستكشف التطبيق
           href: dev-tools/application-explorer.md
-        - name: إنشاء مشروع وتصحيحه
+        - name: إنشاء المشاريع وتصحيحها
           href: dev-tools/build-debug-project.md
         - name: عمليات الإنشاء
           href: dev-tools/build-operations.md
-        - name: محرر الأكواد
+        - name: ميزات مُحرر الأكواد
           href: dev-tools/code-editor.md
-        - name: إنشاء نموذج وعناصر نموذج بيانات
+        - name: إنشاء نماذج وعناصر نموذج بيانات
           href: dev-tools/create-data-model-elements.md
           items:
-            - name: إرشادات التسمية
+            - name: إرشادات التسمية للملحقات
               href: extensibility/NamingGuidelines.md
             - name: إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث
               href: dev-tools/lock-models.md
@@ -64,15 +64,15 @@
           href: dev-tools/customization-analysis-report.md
         - name: وحدات تصميم العناصر
           href: dev-tools/element-designers.md
-        - name: استخدام العنصر
+        - name: أوامر لتحديد استخدام العنصر
           href: dev-tools/element-usage.md
-        - name: استيراد وتصدير نموذج
+        - name: استيراد وتصدير نماذج
           href: dev-tools/models-export-import.md
         - name: البحث عن بيانات التعريف في Visual Studio
           href: dev-tools/metadata-search-visual-studio.md
-        - name: النماذج
+        - name: النماذج والحزم
           href: dev-tools/models.md
-        - name: المشاريع في Dynamics 365 for Finance and Operations
+        - name: 'نوع مشروع Finance and Operations '
           href: dev-tools/projects.md
         - name: أدوات الوظائف الإضافية لبرنامج Visual Studio
           href: dev-tools/developer-tools-add-ins.md
@@ -80,23 +80,23 @@
           href: dev-tools/update-development-tools.md
     - name: لغة برمجة ++X
       items:
-        - name: 'X++ وميزات مصحح الأخطاء  '
+        - name: 'X++ وميزات مصحح الأخطاء '
           href: dev-tools/new-x-debugger-features.md
-        - name: تصحيح أخطاء X++ على نسخة من قاعدة بيانات إنتاج
+        - name: تصحيح أخطاء X++ على نسخ من قواعد بيانات الإنتاج
           href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: تصحيح كود X++
           href: dev-tools/debug-xpp.md
         - name: فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة
           href: dev-tools/event-handler-result-class.md
-        - name: 'كتابة منطق تسلسل العمل باستخدام كود المصدر C\# وX++'
+        - name: 'كتابة منطق تسلسل العمل باستخدام كود المصدر C# وX++'
           href: dev-tools/write-business-logic.md
-        - name: دعم لغة البرمجة
+        - name: التغييرات في X + + والمحول البرمجي X + +
           href: dev-tools/programming-language-support.md
-        - name: 'موفر LINQ لـ C\#'
+        - name: 'موفر LINQ لـ C#'
           href: dev-tools/linq-provider-c.md
-        - name: تأليف أفضل الممارسات
+        - name: كتابة قواعد أفضل الممارسات
           href: dev-tools/author-best-practice-rules.md
-        - name: خصائص مستكشف التطبيق
+        - name: خصائص Application Explorer
           href: dev-ref/application-explorer-aot-properties.md
         - name: مرجع اللغة X++
           items:
@@ -118,7 +118,7 @@
               href: dev-ref/xpp-macros.md
             - name: فئات سمات X++
               href: dev-ref/xpp-attribute-classes.md
-            - name: 'مقارنة X++ وC\# '
+            - name: 'مقارنة X++ وC#'
               href: dev-ref/xpp-cs-comparison.md
             - name: بناء الجملة X++
               href: dev-ref/xpp-syntax.md
@@ -160,29 +160,29 @@
               href: dev-ref/d-classes.md
             - name: فئات E
               href: dev-ref/e-classes.md
-            - name: 'فئات F: FieldBinding إلى FormBuildAnimateControl'
+            - name: فئات F (FieldBinding إلى FormBuildAnimateControl)
               href: dev-ref/fieldbinding-classes.md
-            - name: 'فئات F: FormBuildButtonControl إلى FormBuildFastTabSummarySeparator'
+            - name: فئات F (FormBuildButtonControl إلى FormBuildFastTabSummarySeparator)
               href: dev-ref/formbuildbuttoncontrol-classes.md
             - name: 'فئات F: FormBuildFilterPaneControl إلى FormBuildRealControl'
               href: dev-ref/formbuildfilterpanecontrol-classes.md
-            - name: 'فئات F: FormBuildReferenceControl إلى FormButtonSeparatorControl'
+            - name: فئات F (FormBuildReferenceControl إلى FormButtonSeparatorControl)
               href: dev-ref/formbuildreferencecontrol-classes.md
-            - name: 'فئات F: FormChangeTracker إلى FormControlEventArgs'
+            - name: فئات F (FormChangeTracker إلى FormControlEventArgs)
               href: dev-ref/formchangetracker-classes.md
-            - name: 'فئات F: FormDataObject إلى FormFastTabHeaderControl'
+            - name: فئات F (FormDataObject إلى FormFastTabHeaderControl)
               href: dev-ref/formdataobject-classes.md
-            - name: 'فئات F: FormFastTabSummarySeparator إلى FormGridControl'
+            - name: فئات F (FormFastTabSummarySeparator إلى FormGridControl)
               href: dev-ref/formfasttabsummaryseparator-classes.md
-            - name: 'فئات F: FormGroupControl إلى FormIntControl'
+            - name: فئات F (FormGroupControl إلى FormIntControl
               href: dev-ref/formgroupcontrol-classes.md
-            - name: 'فئات F: FormListBoxControl إلى FormNotifyEventArgs'
+            - name: فئات F (FormListBoxControl إلى FormNotifyEventArgs)
               href: dev-ref/formlistboxcontrol-classes.md
-            - name: 'فئات F: FormObject إلى FormRealControl'
+            - name: فئات F (FormObject إلى FormRealControl)
               href: dev-ref/formobject-classes.md
-            - name: 'فئات F: FormReferenceControl إلى FormStringControl'
+            - name: فئات F (FormReferenceControl إلى FormStringControl)
               href: dev-ref/formreferencecontrol-classes.md
-            - name: 'فئات F: FormTabControl إلى FormWindowControl'
+            - name: فئات F (FormTabControl إلى FormWindowControl)
               href: dev-ref/formtabcontrol-classes.md
             - name: فئات G
               href: dev-ref/g-classes.md
@@ -225,79 +225,85 @@
       items:
         - name: مقدمة وبدء الاستخدام
           items:
-            - name: خطط القابلية لتوسعة التطبيق
+            - name: خطة القابلية لتوسعة التطبيق
               href: extensibility/extensibility-roadmap.md
             - name: طلبات القابلية للتوسعة
               href: extensibility/extensibility-requests.md
-            - name: الأسئلة الشائعة
+            - name: الأسئلة الشائعة حول القابلية للتوسعة
               href: extensibility/app-sealing-faq.md
             - name: ترحيل من تراكب الطبقات إلى الملحقات
               href: extensibility/migrate-overlayer-extension.md
-            - name: تخصيص عناصر النموذج باستخدام الملحقات (‏‫البرنامج التعليمي)
+            - name: تخصيص عناصر النموذج من خلال الملحقات (‏‫البرنامج التعليمي)
               href: extensibility/customize-model-elements-extensions.md
-            - name: 'تخصيص: تراكب الطبقات والملحقات'
+            - name: تخصيص من خلال الملحق وتراكب الطبقات
               href: extensibility/customization-overlayering-extensions.md
-        - name: الجديد
+        - name: ما الجديد
           items:
             - name: تغييرات قابلية للتوسعة في يوليو 2017
               href: extensibility/changes-july-2017.md
-            - name: إصدار تغييرات قابلية التوسعة 7.3
+            - name: التغييرات القابلية للتوسعة في الإصدار 7.3
               href: extensibility/extensibility-changes-73.md
-            - name: إصدار تغييرات قابلية التوسعة 8.0
+            - name: التغييرات القابلية للتوسعة في الإصدار 8.0
               href: extensibility/changes-80.md
+            - name: إصدار تغييرات قابلية التوسعة 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: إصدار تغييرات قابلية التوسعة 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: إصدار تغييرات قابلية التوسعة 8.0.3
+              href: extensibility/extensibility-changes-803.md
         - name: القواعد الأساسية
           items:
             - name: تخصيصات متداخلة
               href: extensibility/intrusive-customizations.md
-            - name: ملحقات الفئة
+            - name: نموذج ملحق الفئة
               href: extensibility/class-extensions.md
-            - name: 'ملحق الفئة: التفاف الأسلوب وسلسلة الأمر'
+            - name: ملحق الفئة من خلال التفاف الأسلوب وسلسلة الأمر
               href: extensibility/method-wrapping-coc.md
-            - name: إرشادات التسمية
+            - name: إرشادات التسمية لملحقات النماذج
               href: extensibility/naming-guidelines-extensions.md
-            - name: تخفيف قيود النموذج لتمكين إعادة بناء التعليمات البرمجية للطبقات الزائدة في الملحقات
+            - name: تخفيف قيود النموذج لإعادة بناء التعليمات البرمجية للطبقات الزائدة في الملحقات
               href: extensibility/refactoring-over-layering.md
         - name: كيف يمكنني؟
           items:
-            - name: إضافة قيمة تعداد
+            - name: أضف قيم إلى enums
               href: extensibility/add-enum-value.md
-            - name: تعديل نوع البيانات الملحقة
+            - name: تعديل أنواع البيانات الملحقة
               href: extensibility/modify-edt.md
-            - name: تسجيل فئة فرعية لطرق المصنع
+            - name: تسجيل فئات فرعية لطرق المصنع
               href: extensibility/register-subclass-factory-methods.md
-            - name: الاستجابة بواسطة EventHandlerResult
+            - name: الاستجابة باستخدام EventHandlerResult
               href: extensibility/respond-event-handler-result.md
             - name: توسيع فئة RunBase
               href: extensibility/extend-runbase-class.md
-            - name: استخدام المفوضين لتخصيص بدء تشغيل التطبيق
+            - name: تخصيص بدء التطبيق باستخدام عمليات التفويض
               href: extensibility/startup-customizations.md
-            - name: تعديل حقل موجود في جدول
+            - name: تعديل الحقول الموجودة في جدول
               href: extensibility/modify-existing-field.md
-            - name: إضافة حقل جديد إلى جدول موجود
+            - name: إضافة حقول إلى الجداول
               href: extensibility/add-field-extension.md
-            - name: إضافة فهرس إلى جدول موجود
+            - name: إضافة فهارس إلى الجداول
               href: extensibility/add-index.md
-            - name: إضافة علاقة جدول موجود
+            - name: إضافة علاقات إلى الجداول
               href: extensibility/add-relation.md
-            - name: تعديل الخصائص في جدول موجود
+            - name: تعديل خصائص الجدول
               href: extensibility/modify-properties.md
-            - name: إضافة طريقة إلى جدول
+            - name: إضافة طرق إلى الجداول
               href: extensibility/add-method-table.md
-            - name: تنفيذ إجراءات العمل من خلال دورة حياة سجل جدول
+            - name: تنفيذ إجراءات العمل من خلال دورة حياة سجلات الجداول
               href: extensibility/subscribe-table-events.md
-            - name: إضافة مصدر بيانات جديد إلى نموذج
+            - name: إضافة مصادر البيانات إلى النماذج
               href: extensibility/add-datasource.md
-            - name: تغيير التسمية التوضيحية في نموذج
+            - name: تغيير التسميات التوضيحية للنموذج
               href: extensibility/change-caption-form.md
             - name: تعديل خصائص التحكم في النموذج
               href: extensibility/modify-control-properties.md
-            - name: تغيير تسمية
+            - name: تغيير التسميات باستخدام ملفات ملحقات التسمية
               href: extensibility/change-label.md
             - name: توسيع نطاق التسلسل الرقمي
               href: extensibility/extend-number-sequence-scope.md
-            - name: إضافة بُعد مخزون جديد
+            - name: إضافة أبعاد مخزون جديد
               href: extensibility/inventory-dimensions.md
-            - name: تغييرات في قابلية توسعة الأسعار والخصومات
+            - name: قابلية توسعة السعر والخصم
               href: extensibility/pricing-app73.md
             - name: ملحق مخطط الجدول
               href: extensibility/map-extensions.md
@@ -307,11 +313,13 @@
               href: extensibility/maps-with-versioning.md
     - name: الأداء
       items:
-        - name: أخذ عينة تتبع باستخدام محلل التتبع
+        - name: أخذ عمليات التتبع باستخدام محلل التتبع
           href: perf-test/trace-trace-tutorial.md
-        - name: PerfSDK واختبار متعدد المستخدمين مع Visual Studio Team Services
+        - name: ‏‫SDK للأداء والاختبارات متعددة المستخدمين‬ عن طريق Visual Studio Online
           href: perf-test/perfsdk-tutorial.md
-        - name: تشخيص المشاكل وتحليل مشكلات الأداء باستخدام محلل التتبع
+        - name: ‏‫SDK للأداء والاختبارات متعددة المستخدمين‬ في البيئات المحلية
+          href: perf-test/perfsdk-tutorial-lbd.md
+        - name: تشخيص المشكات وتحليل الأداء باستخدام محلل التتبع
           href: perf-test/trace-parser.md
         - name: مؤقت الأداء
           href: perf-test/performance-timer.md
@@ -321,7 +329,7 @@
           href: perf-test/testing-validation.md
         - name: اختبار المشروعات في Visual Studio
           href: perf-test/testing-support.md
-        - name: النشر باستخدام البناء المستمر والتنفيذ التلقائي للاختبار
+        - name: نشر مخططات دعم البناء المستمر والتنفيذ التلقائي للاختبار‬
           href: perf-test/continuous-build-test-automation.md
     - name: سريان التاريخ
       href: dev-tools/date-effectivity.md
@@ -340,23 +348,23 @@
           href: user-interface/build-customer-form.md
         - name: إنشاء التنقل
           href: user-interface/build-navigation.md
-        - name: إنشاء مساحة عمل
+        - name: إنشاء مساحات عمل
           href: user-interface/build-workspace.md
     - name: النماذج
       items:
-        - name: التنقل في Dynamics 365 for Finance and Operations
+        - name: مفاهيم التنقل
           href: user-interface/page-navigation.md
-        - name: التخطيط في Dynamics 365 for Finance and Operations
+        - name: مخطط الصفحة في عميل الويب
           href: user-interface/page-layout.md
-        - name: خط الرمز
+        - name: خط رمز Dynamics
           href: user-interface/symbol-font.md
-        - name: اختبار النماذج باستخدام أنماط مخصصة
+        - name: اختبار النماذج التي تستخدم أنماط مخصصة
           href: user-interface/testing-forms-custom-patterns.md
-        - name: إنشاء واستخدام ارتباطات عميقة
+        - name: إنشاء عناوين URL قابلة للمشاركة ومؤمنة (ارتباطات عميقة)
           href: user-interface/create-deep-links.md
         - name: إمكانية الوصول في النماذج والمنتجات وعناصر التحكم
           href: user-interface/enable-accessibility.md
-        - name: تخصيص تعليمات الحقل
+        - name: تخصيص أوصاف الحقول
           href: user-interface/customize-field-help.md
     - name: عناصر التحكم
       items:
@@ -366,7 +374,7 @@
           href: user-interface/sizing-input-controls-grid-columns.md
         - name: دعم خانة الاختيار في عناصر تحكم الشبكة
           href: user-interface/check-box-tree-controls.md
-        - name: عوامل التصفية
+        - name: تصفية الخيارات
           href: user-interface/filtering.md
         - name: عناصر تحكم مضيف PowerApps
           href: user-interface/powerapps-host-control.md
@@ -374,7 +382,7 @@
       items:
         - name: ترحيل كود قائمة السياق
           href: migration-upgrade/code-migration-context-menus.md
-        - name: ترحيل رمز النقر المزدوج بالماوس
+        - name: ترحيل منطق النقر المزدوج بالماوس
           href: migration-upgrade/code-migration-double-click.md
         - name: إدخال بيانات سياقية لعمليات البحث
           href: user-interface/contextual-data-entry-lookups.md
@@ -382,11 +390,11 @@
           href: user-interface/hierarchy-viewer-control.md
         - name: عناصر التحكم في البحث‬
           href: user-interface/lookups-controls.md
-        - name: عناصر تحكم تحميل الملف
+        - name: عنصر تحكم تحميل الملف
           href: user-interface/file-upload-control.md
         - name: أزرار محددة بواسطة النظام
           href: user-interface/system-defined-buttons.md
-        - name: الصور
+        - name: الصور في صفحة أو في شبكة
           href: user-interface/images-form-grid.md
         - name: ألوان الخطوط والخلفية لعناصر تحكم الإدخال والجدول والشبكة
           href: user-interface/specify-color-font-background-controls.md
@@ -394,13 +402,13 @@
           href: user-interface/bidirectional-support.md
         - name: إنشاء أكواد للإطارات المتجانبة لمساحة العمل
           href: user-interface/create-icons-workspace-tiles.md
-        - name: عناصر تحكم موسعة - واجهات برمجة تطبيقات JavaScript عامة
+        - name: واجهات برمجة تطبيقات JavaScript عامة لعناصر التحكم الموسعة
           href: user-interface/public-javascript-apis.md
         - name: قائمة اختيار عنصر التحكم
           href: user-interface/control-checklist.md
     - name: رسائل
       items:
-        - name: شريط منزلق ومربع الرسالة
+        - name: الشريط المنزلق ومربعات حوار مربع الرسالة
           href: user-interface/slider-messagebox.md
         - name: واجهة API لمركز الرسائل وشريط الرسالة وتفاصيل الرسالة
           href: user-interface/messaging-api-center-bar-details.md
@@ -408,11 +416,11 @@
           href: user-interface/messaging-user.md
     - name: إرشادات نمط النموذج الأساسي
       items:
-        - name: تحديد نمط نموذج
+        - name: أنماط النماذج للنماذج التي تم ترحيلها
           href: user-interface/select-form-pattern.md
         - name: أنماط النموذج والأنماط
           href: user-interface/form-styles-patterns.md
-        - name: الوظائف الإضافية لأنماط النماذج
+        - name: أنماط النماذج الداعمة للوظائف الإضافية لـ Visual Studio
           href: user-interface/form-pattern-add-ins.md
     - name: أنماط النماذج
       items:
@@ -422,7 +430,7 @@
           href: user-interface/details-master-form-pattern.md
         - name: نمط نموذج تفاصيل الحركة
           href: user-interface/details-transaction-form-pattern.md
-        - name: نمط نموذج قائمة المقاطع لجزء النموذج
+        - name: أنماط نموذج قائمة المقاطع لجزء النموذج
           href: user-interface/section-list-form-pattern.md
         - name: نمط نموذج صفحة القائمة
           href: user-interface/list-page-form-pattern.md
@@ -452,7 +460,7 @@
           href: user-interface/drop-dialog-form-pattern.md
         - name: نمط نموذج البحث
           href: user-interface/lookup-form-pattern.md
-        - name: نمط نموذج مربع حقائق
+        - name: أنماط نماذج مربع الحقائق
           href: user-interface/factbox-form-patterns.md
     - name: أنماط فرعية
       items:
@@ -498,7 +506,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: قابلية توسعة عنصر التحكم
       items:
-        - name: إنشاء عنصر تحكم قابل للتوسعة
+        - name: إنشاء عناصر تحكم aextensible
           href: user-interface/build-extensible-control.md
         - name: اختصارات لوحة المفاتيح لعناصر التحكم القابل للتوسعة
           href: user-interface/keyboard-shortcuts-controls.md
@@ -523,7 +531,7 @@
       items:
         - name: مرجع سريع لمسجل المهام
           href: user-interface/task-recorder-quick-reference.md
-        - name: إنشاء وثائق أو التدريب على استخدام "مسجل المهام"
+        - name: إنشاء الوثائق أو التدريب حسب تسجيل المهام
           href: user-interface/task-recorder-training-docs.md
 - name: النظام الأساسي للأجهزة المحمولة
   href: mobile-apps/platform/mobile-platform-home-page.md
@@ -531,9 +539,9 @@
     - name: بدء الاستخدام
       href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
-        - name: هندسة
+        - name: اعتبارات العمارة والتصميم
           href: mobile-apps/platform/mobile-platform-architecture.md
-        - name: نظرة عامة على أحداث منطق العمل
+        - name: أحداث منطق العمل
           href: mobile-apps/platform/business-logic-events-overview.md
         - name: إرشادات تصميم الصفحات
           href: mobile-apps/platform/page-design-guidelines.md
@@ -541,19 +549,19 @@
           href: mobile-apps/platform/action-design-guidelines.md
         - name: متطلبات تصميم النماذج
           href: mobile-apps/platform/form-design-requirements.md
-    - name: المهام العامة
+    - name: المهام العادية
       items:
-        - name: تكوين مساحة عمل باستخدام فئة SysAppWorkspace
+        - name: تكوين مساحات عمل باستخدام فئة SysAppWorkspace
           href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
-        - name: تخصيص عرض الحقل بحيث يكون قابلاً للنقر
+        - name: جعل الحقول على صفحات التطبيقات المحمولة قابلة للنقر
           href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
-        - name: عرض عدد في حقل
+        - name: إظهار التعدادات في الحقول
           href: mobile-apps/platform/scenarios/display-count-workspace.md
-        - name: المساعدة في تأمين مساحة عمل تطبيق الجهاز المحمول
+        - name: المساعدة في تأمين مساحات العمل المحمولة
           href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
-        - name: ترجمة مساحات العمل على الخادم
+        - name: ترجمة مساحات العمل المحمولة
           href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
-        - name: جعل حقل إلزاميًا باستخدام فئات مساحات العمل
+        - name: جعل الحقول إلزامية باستخدام فئات مساحات العمل
           href: mobile-apps/platform/scenarios/make-field-mandatory.md
     - name: مرجع التطوير من جانب الخادم
       items:
@@ -561,7 +569,7 @@
           href: mobile-apps/platform/mobile-workspace-server-apis.md
     - name: مرجع التطوير من جانب العميل
       items:
-        - name: نظرة عامة على واجهات API التصميم من جانب العميل
+        - name: واجهات API التصميم من جانب العميل
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: واجهات API للعميل
           href: mobile-apps/platform/client-apis/client-apis-reference.md
@@ -598,7 +606,7 @@
               href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
             - name: وحدة الصفحات
               href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
-            - name: وحدة ارتباط الصفحة
+            - name: وحدة Pagelink
               href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
             - name: وحدة الجزء
               href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
@@ -606,7 +614,7 @@
               href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
             - name: وحدة القيمة
               href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
-            - name: وحدة التطبيق
+            - name: نوع التطبيق
               href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
             - name: نوع ApplicationMetadata
               href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
@@ -626,13 +634,13 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
             - name: نوع DataService
               href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
-            - name: نوع Deferred
+            - name: نوع التأجيل<T>
               href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
-            - name: نوع Design
+            - name: نوع التصميم
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
-            - name: نوع EventHook
+            - name: نوع EventHook<T>
               href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
-            - name: نوع Field
+            - name: نوع الحقل
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
             - name: نوع FieldDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
@@ -648,7 +656,7 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
             - name: نوع getDataSource
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
-            - name: نوع Group
+            - name: نوع المجموعة
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
             - name: نوع GroupDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
@@ -660,7 +668,7 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
             - name: نوع HyperLinkMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
-            - name: نوع Image
+            - name: نوع الصورة
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
             - name: نوع ImageDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
@@ -672,13 +680,13 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
             - name: نوع InputControlMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
-            - name: نوع List
+            - name: نوع القائمة
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
             - name: نوع ListDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
             - name: نوع ListMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
-            - name: نوع Lookup
+            - name: نوع البحث
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
             - name: نوع LookupDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
@@ -696,7 +704,7 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
             - name: نوع NumberSequenceConfig
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
-            - name: نوع Page
+            - name: نوع الصفحة
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
             - name: نوع PageData
               href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
@@ -714,13 +722,13 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
             - name: نوع PageTarget
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
-            - name: نوع Part
+            - name: نوع الجزء
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
             - name: نوع PartDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
             - name: نوع PartMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
-            - name: نوع Row
+            - name: نوع الصف
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
             - name: نوع القيمة
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
@@ -734,7 +742,7 @@
       href: data-entities/integration-overview.md
     - name: واجهات API لتكامل البيانات
       items:
-        - name: واجهة (API) لحزمة إدارة البيانات
+        - name: واجهة (API) REST لحزمة إدارة البيانات
           href: data-entities/data-management-api.md
         - name: نقاط نهاية الخدمات
           href: data-entities/services-home-page.md
@@ -743,26 +751,26 @@
               href: data-entities/troubleshoot-service-authentication.md
         - name: OData
           href: data-entities/odata.md
-        - name: الخدمات المخصصة
+        - name: تطوير خدمة مخصصة
           href: data-entities/custom-services.md
         - name: عمليات تكامل متكررة
           href: data-entities/recurring-integrations.md
-        - name: استخدم الأدوات المساعدة لاختبار خدمات جهات خارجية مع الخدمات
+        - name: اختبار الخدمات باستخدام خدمات جهات خارجية
           href: data-entities/third-party-service-test.md
     - name: التطوير للتكامل
       items:
-        - name: تكامل البيانات باستخدام كيانات البيانات
+        - name: إدارة البيانات والتكامل باستخدام وحدات البيانات
           href: data-entities/data-management-integration-data-entity.md
           items:
-            - name: تطوير أحد الكيانات لترحيل البيانات
+            - name: تطوير الكيانات لترحيل البيانات
               href: data-entities/develop-entity-for-data-migration.md
             - name: تطوير كيانات البيانات المركبة
               href: data-entities/develop-composite-data-entities.md
             - name: ‏‫تكوين مشاركة البيانات المالية عبر الشركة‬
               href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: إنشاء قالب سجل لتسهيل إدخال البيانات
+            - name: إنشاء قوالب سجلات لتسهيل إدخال البيانات
               href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: استخدام قالب سجل لإنشاء سجل جديد
+            - name: إنشاء سجلات باستخدام قوالب السجل
               href: data-entities/tasks/use-record-template-new-record.md
         - name: تكامل البيانات باستخدام Common Data Service
           href: data-entities/data-integration-cds.md
@@ -791,7 +799,22 @@
                   href: ../supply-chain/sales-marketing/field-service-work-order.md
                 - name: مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations
                   href: ../supply-chain/sales-marketing/field-service-invoice.md
-        - name: استخدام خدمات ويب الخارجية
+            - name: تكوين تكامل Project Service Automation
+              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
+              items:
+                - name: مُعلمات تكامل Project Service Automation
+                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
+                - name: مزامنة عقود المشاريع والمشاريع
+                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
+                - name: مزامنة مهام المشروع
+                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
+                - name: مزامنة فئات مصروفات المشروع
+                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
+                - name: مزامنة تقديرات المشروع من/إلى تنبؤات المشروع
+                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
+                - name: مزامنة القيم الفعلية للمشروع إلى دفتر يومية تكامل المشروع
+                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
+        - name: استخدام خدمات ويب خارجية
           href: data-entities/consume-external-web-service.md
 - name: إدارة البيانات
   href: data-entities/data-entities-data-packages.md
@@ -809,7 +832,7 @@
           href: data-entities/configuration-data-templates.md
         - name: قوالب بيانات مع أوراق عمل متعددة
           href: data-entities/excel-template-multiple.md
-        - name: تعقب التغييرات لكيان
+        - name: تمكين تعقب التغيير للكيانات
           href: data-entities/entity-change-track.md
         - name: مفاتيح التكوين وكيانات البيانات
           href: data-entities/config-key-entities.md
@@ -826,13 +849,13 @@
           href: dev-tools/design-best-practices.md
         - name: إنشاء كيانات بيانات جديدة
           href: data-entities/build-consuming-data-entities.md
-        - name: خصائص كيان البيانات
+        - name: خصائص كيان البيانات السلوكية
           href: data-entities/behavioral-properties-data-entities.md
-        - name: إنشاء حساب الأعمدة والحقول الظاهرية
+        - name: إنشاء أعمدة محسوبة وحقول ظاهرية
           href: data-entities/data-entity-computed-columns-virtual-fields.md
         - name: السلوك عبر الشركة
           href: data-entities/cross-company-behavior.md
-        - name: معالجة رموز البلدان/المناطق
+        - name: أكواد البلد/المنطقة ومفاتيح التكوين
           href: data-entities/countryregion-codes-configuration-keys.md
         - name: أنماط التوريث
           href: data-entities/support-super-type-sub-type.md
@@ -840,36 +863,36 @@
           href: data-entities/data-entity-wizard-rules.md
         - name: خصائص بيانات التعريف
           href: data-entities/behavioral-properties-data-entities.md
-        - name: عمليات التحقق من الصحة والإعدادات الافتراضية والحقول غير المعينة
+        - name: عمليات التحقق من الصحة والقيم الافتراضية والحقول غير المعينة
           href: data-entities/validations-defaults-unmapped-fields.md
         - name: الأمان وكيانات البيانات
           href: data-entities/security-data-entities.md
-        - name: إنشاء كيان للقراءة فقط يعرض الأبعاد المالية
+        - name: إنشاء كيانات للقراءة فقط تعرض الأبعاد المالية
           href: financial/read-only-entity-financial.md
     - name: إحضار قاعدة بياناتك الخاصة
       href: analytics/export-entities-to-your-own-database.md
     - name: أتمتة مهمة البيانات
       href: data-entities/data-task-automation.md
-    - name: موارد للاستجابة لطلب بيانات القانون العام لحماية البيانات (GDPR)
+    - name: موارد للاستجابة لطلبات بيانات القانون العام لحماية البيانات (GDPR)
       href: gdpr/gdpr-home-page.md
       items:
-        - name: دليل إلى القانون العام لحماية البيانات (GDPR) لتطبيق Microsoft Dynamics 365 for Finance and Operations
+        - name: دليلك إلى GDPR لـ Finance and Operations
           href: gdpr/gdpr-guide.md
         - name: تصنيفات الأصول
           href: gdpr/gdpr-asset-classification-values.md
-        - name: استخدام تقرير البحث عن شخص
+        - name: تقرير البحث عن شخص
           href: gdpr/gdpr-person-search-report.md
         - name: توسيع تقرير البحث عن شخص
           href: gdpr/gdpr-extend-person-search-report.md
         - name: إدارة الوصول إلى البيانات الحساسة
           href: gdpr/gdpr-auditing-sensitive-data.md
-        - name: الاستجابة لطلب بيانات شخصية باستخدام Talent
+        - name: الاستجابة لطلبات الحصول على بيانات شخصية باستخدام Talent
           href: gdpr/respond-dsr-request-talent.md
-        - name: الاستجابة لطلب بيانات شخصية باستخدام Microsoft Dynamics AX 2012
+        - name: الاستجابة لطلبات الحصول على بيانات شخصية في AX 2012
           href: gdpr/gdpr-ax2012.md
         - name: طلبات بيانات القانون العام لحماية البيانات (GDPR) لـ LCS
           href: gdpr/gdpr-lcs.md
-    - name: مساحة عمل التحقق من صحة البيانات
+    - name: مساحة عمل قائمة التحقق من صحة البيانات
       href: user-interface/data-validation-workspace.md
 - name: التسليم المستمر
   href: dev-tools/continuous-delivery-home-page.md
@@ -880,7 +903,7 @@
       href: dev-tools/exclude-test-packages.md
     - name: إدارة نماذج الجهات الخارجية وحزم وقت التشغيل باستخدام التحكم بالمصادر
       href: dev-tools/manage-runtime-packages.md
-    - name: نماذج الإصدار في البنية التلقائية
+    - name: تحديث إصدارات النماذج في البنية التلقائية
       href: dev-tools/version-models-build.md
 - name: إصدار حلول باستخدام Lifecycle Services
   items:
@@ -888,131 +911,133 @@
       href: lcs-solutions/lcs-solutions-app-source.md
     - name: تجهيز ونشر
       href: lcs-solutions/marketing-content-lcs-solutions.md
-    - name: إضافة منهج
+    - name: إضافة منهجيات
       href: lcs-solutions/methodologies-lcs-solutions.md
     - name: إعداد مكتبات أداة تكوين عمليات الأعمال
       href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
     - name: ترحيل الكود
       href: lcs-solutions/code-migration-lcs-solutions.md
-    - name: التحقق من صحة أحد التطبيقات
+    - name: التحقق من صحة التطبيقات
       href: lcs-solutions/app-validation-lcs-solutions.md
     - name: معالجة واستهلاك حزم البيانات
       href: lcs-solutions/process-data-packages-lcs-solutions.md
-    - name: إجراء نسخ احتياطي لقاعدة بيانات الحل
+    - name: إجراء نسخ احتياطي لقواعد بيانات الحل
       href: lcs-solutions/database-backup-lcs-solutions.md
-    - name: عمليات الترجمة
+    - name: ميزات الترجمة والميزات التنظيمية
       href: lcs-solutions/country-region.md
       items:
         - name: تصنيف ميزات الترجمة
           href: lcs-solutions/classify-localization-features.md
-        - name: سياق البلد/المنطقة
+        - name: تطبيق سياق البلد/المنطقة
           href: lcs-solutions/apply-country-context.md
-        - name: الشهادات التنظيمية
+        - name: معلومات الشهادة التنظيمية في عناوين الميزات
           href: lcs-solutions/regulatory-certifications.md
         - name: تحديثات تنظيمية
           href: lcs-solutions/regulatory-watch-communication.md
-        - name: نماذج الترجمة المنفصلة
+        - name: فصل نماذج الترجمة
           href: lcs-solutions/separate-localization-models.md
-        - name: إرسال تنبيه تنظيمي
+        - name: إرسال التنبيهات التنظيمية
           href: lcs-solutions/submit-localization-alerts.md
 - name: تطوير الأمور المالية
   href: financial/financial-dev-home-page.md
   items:
-    - name: الأبعاد
+    - name: دعم أنماط الأبعاد المختلفة
       href: financial/dimensions.md
-    - name: إضافة أبعاد إلى أحد قوالب Excel
+    - name: إضافة أبعاد إلى قوالب Excel
       href: financial/dimensions-overview.md
-    - name: دعم مربع حوار تحكم إدخال البعد
+    - name: دعم عناصر تحكم إدخال البعد في مربعات الحوار
       href: financial/dimension-entry-control-dialog-support.md
-    - name: 'ترحيل عنصر تحكم إدخال البعد  '
+    - name: ترحيل عناصر التحكم الافتراضية للأبعاد إلى عناصر تحكم إدخال البعد
       href: financial/dimension-entry-control-migration.md
-    - name: تنفيذ عنصر تحكم إدخال البعد
+    - name: تنفيذ عناصر تحكم إدخال البعد
       href: financial/dimension-entry-control-uptake.md
     - name: نموذج فرعي لمنشئ تعبير البُعد
       href: financial/dimension-expression-builder-subpattern.md
-    - name: تكوين الأبعاد المالية لتكامل التطبيقات
+    - name: تكوين البُعد المالي
       href: financial/financial-dimension-configuration-integration.md
     - name: تنشيط الأبعاد المالية
       href: financial/activate-financial-dimensions.md
-    - name: الأبعاد المالية والحسابات الرئيسية بلغة تكتب من اليمين إلى اليسار
+    - name: الأبعاد المالية والحسابات الرئيسية بلغات تكتب من اليمين إلى اليسار
       href: financial/financial-dimensions-main-accounts-right-left-language.md
-    - name: إنشاء جدول مساعد قابل للاستهلاك كبعد مالي
+    - name: إنشاء جداول مساعدة قابلة للاستهلاك كأبعاد مالية
       href: financial/dimensionable-entities.md
-    - name: 'ترحيل عنصر تحكم إدخال مجزأ  '
+    - name: ترحيل عناصر تحكم إدخال مجزئة
       href: financial/segmented-entry-control-conversion.md
-    - name: دعم مربع حوار تحكم إدخال مجزأ
+    - name: دعم عناصر تحكم إدخال مجزئة في مربعات الحوار
       href: financial/segmented-entry-control-dialog-support.md
-    - name: بيانات تعريف عنصر تحكم إدخال مجزأ
+    - name: بيانات تعريف وقت التصميم لعناصر تحكم الإدخال المجزئة
       href: financial/segmented-entry-control-metadata-specification.md
-    - name: إرشادات ترحيل عنصر تحكم إدخال مجزأ
+    - name: إرشادات الترحيل لعناصر تحكم الإدخال المجزئة
       href: financial/segmented-entry-control-migration-guidance.md
-    - name: أساليب parm لعنصر تحكم إدخال مجزأ
+    - name: أساليب parm لعناصر تحكم إدخال مجزئة
       href: financial/segmented-entry-control-parm-method-specification.md
-    - name: إضافة إمكانية البحث عن قيم الأبعاد المالية في قوالب Microsoft Excel
+    - name: إضافة قيم البحث للأبعاد المالية إلى قوالب Excel
       href: financial/add-dimensions-excel-templates.md
     - name: إنشاء موفري أسعار الصرف
       href: financial/create-exchange-rate-providers.md
-    - name: إنشاء موفري أسعار الصرف في Microsoft Dynamics Finance and Operations، الإصدار 8.0
+    - name: إنشاء موفري أسعار الصرف في Finance and Operations، الإصدار 8.0
       href: financial/create-exchange-rate-8.md
 - name: تطوير سلسلة التوريد
   items:
-    - name: دليل تطوير جانت
+    - name: دليل تطوير عنصر تحكم جانت
       href: user-interface/gantt-development-guide.md
     - name: إنشاء محرك إدارة نقل جديد
       href: ../supply-chain/transportation/create-new-transportation-management-engine.md
 - name: النشر
   items:
-    - name: نشر بيئة عرض توضيحي
+    - name: نشر بيئات عرض توضيحي
       href: deployment/deploy-demo-environment.md
     - name: النشر عبر السحابة
       items:
-        - name: إلحاق مدير موارد Azure
+        - name: إتمام إعداد مدير موارد Azure
           href: deployment/arm-onboarding.md
-        - name: Azure ExpressRoute وDynamics 365 for Finance and Operations
+        - name: Azure ExpressRoute وFinance and Operations
           href: deployment/expressroute.md
         - name: هندسة Finance and Operations
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
     - name: النشر المحلي
       href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: نظرة عامة على التطبيقات المحلية
+        - name: خيار النشر المحلي
           href: deployment/on-premises-overview.md
-        - name: التخطيط لعمليات النشر المحلي
+        - name: تخطيط عمليات النشر المحلي وإعدادها
           href: deployment/plan-onprem-deployment.md
-        - name: تغيير حجم الأجهزة
+        - name: متطلبات تغيير حجم الأجهزة
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-        - name: إنشاء مشروع محلي
+        - name: إعداد المشاريع المحلية
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: إعداد بيئات محلية ونشرها
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: نشر بيئات محلية باستخدام Platform update 12
+            - name: نشر بيئات محلية على Platform update 12
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: نشر بيئات محلية باستخدام Platform update 8 و11
+            - name: نشر بيئات محلية على Platform update 8 و11
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
         - name: تطوير النماذج المخصصة للبيئات المحلية ونشرها
           href: deployment/develop-deploy-custom-models-on-premises.md
-        - name: تكوين الوكيل العكسي لبيئتك المحلية
+        - name: تكوين الوكلاء العكسيين للبيئات المحلية
           href: deployment/onprem-reverseproxy.md
         - name: تطبيق التحديثات على عملية نشر محلي
           href: deployment/apply-updates-on-premises.md
-        - name: إعادة النشر على عملية نشر محلي
+        - name: تشخيصات محلية
+          href: deployment/on-premises-diagnostics.md
+        - name: إعادة نشر عمليات النشر المحلية
           href: deployment/redeploy-on-prem.md
         - name: تحديث الوكيل المحلي
           href: lifecycle-services/update-local-agent.md
-        - name: إعادة تكوين بيئتك
+        - name: إعادة تكوين البيئات
           href: lifecycle-services/reconfigure-environment.md
         - name: اتصال إنترنت العميل
           href: user-interface/client-disconnected.md
-        - name: استكشاف الأخطاء وإصلاحها في Dynamics 365 for Finance and Operations (محلي)
+        - name: استكشاف مشاكل عمليات النشر المحلية وإصلاحها
           href: deployment/troubleshoot-on-prem.md
     - name: نشر كود مخصص
       items:
-        - name: إنشاء حزمة قابلة للنشر
+        - name: إنشاء حزم نماذج قابلة للنشر
           href: deployment/create-apply-deployable-package.md
-        - name: تطبيق التحديثات على بيئة السحابة
+        - name: تطبيق التحديثات على بيئات السحابة
           href: deployment/apply-deployable-package-system.md
-        - name: تثبيت حزمة قابلة للنشر
+        - name: تثبيت حزم قابلة للنشر من سطر الأوامر
           href: deployment/install-deployable-package.md
         - name: إزالة تثبيت حزمة
           href: deployment/uninstall-deployable-package.md
@@ -1021,26 +1046,26 @@
 - name: الترقيات والتحديثات والإصلاحات العاجلة
   href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: الترقية من AX 2012 إلى Dynamics 365 for Finance and Operations
+    - name: الترقية من AX 2012 إلى Finance and Operations
       href: migration-upgrade/upgrade-overview-2012.md
       items:
-        - name: ترقية AX 2012 - استخدام أداة محلل الترقية لوضع خطة للترقية
+        - name: ترقية AX 2012 - وضع الخطة باستخدام أداة محلل الترقية
           href: migration-upgrade/upgrade-analyzer-tool.md
-        - name: ترقية AX 2012 – استخدام خدمة ترقية الكود لتقدير الجهد
+        - name: ترقية AX 2012 – تقدير الجهد باستخدام خدمة ترقية الكود
           href: migration-upgrade/analyze-code-upgrade.md
-        - name: ترقية AX 2012 - نشر بيئة اختبار معزولة
+        - name: ترقية AX 2012- نشر بيئة عرض توضيحي للتحليل
           href: migration-upgrade/analysis-sandbox.md
-        - name: ترقية AX 2012 - ترقية البيانات في بيئة تطوير
+        - name: ترقية AX 2012 - ترقية البيانات في بيئات التطوير
           href: migration-upgrade/data-upgrade-2012.md
-        - name: ترقية AX 2012 - مهام ترقية AX 2012
+        - name: ترقية AX 2012 - قائمة اختيار الترقية المبدئية لترقية البيانات
           href: migration-upgrade/prepare-data-upgrade.md
-        - name: ترقية AX 2012 - ترقية البيانات في بيئة اختبار معزولة
+        - name: ترقية AX 2012 - ترقية البيانات في بيئات اختبار معزولة
           href: migration-upgrade/upgrade-data-sandbox.md
         - name: ترقية AX 2012- اختبار مرحلي
           href: migration-upgrade/upgrade-cutover-testing.md
-        - name: ترقية AX 2012 - المهام التي يجب إكمالها بعد الترقية
+        - name: ترقية AX 2012- مهام ما بعد الترقية
           href: migration-upgrade/app-validation-process.md
-        - name: ترقية AX 2012 - نجاح الاختبار الوظيفي
+        - name: ترقية AX 2012 - نجاحات الاختبار الوظيفي
           href: migration-upgrade/upgrade-functional-validation.md
         - name: ترقية AX 2012 - التحضير للعرض المباشر
           href: migration-upgrade/upgrade-go-live-prep.md
@@ -1048,17 +1073,17 @@
           href: migration-upgrade/2012-upgrade-cutover.md
         - name: التغييرات التي تؤثر على الترقية من AX 2012
           items:
-            - name: يجب أن يكون محدد دليل الحسابات فريدًا
+            - name: جعل محدد دليل الحسابات فريدًا
               href: migration-upgrade/chart-accounts-delimiter-unique.md
-            - name: ترقية إيصال فردي وإعادة تقييم العملة
+            - name: ترقية دفاتر يومية الإيصالات الفردية وعمليات إعادة تقييم العملة
               href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
             - name: نموذج بيانات جدولة موارد المشروع
               href: migration-upgrade/data-model-changes-resource-management.md
             - name: تغييرات النظام الفرعي لسير العمل
               href: migration-upgrade/workflow-subsystem.md
-            - name: لماذا انتقلنا من المكعبات إلى نماذج التجميع
+            - name: نماذج التجميع المستخدمة بدلًا من المكعبات للتحليلات
               href: migration-upgrade/in-memory-real-time-aggregate-models.md
-            - name: ترحيل مبيعات تمت ترقيتها إلى مخزن الكيانات
+            - name: ترحيل مكعبات المبيعات التي تمت ترقيتها إلى مخزن الكيانات
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: ترقية تخطيط الموازنة
               href: migration-upgrade/upgrade-budget-planning.md
@@ -1067,31 +1092,31 @@
       items:
         - name: الإعداد لترحيل الكود
           href: migration-upgrade/prepare-migration.md
-        - name: تكوين تعيين Visual Studio Team Services أثناء ترحيل الكود
+        - name: تكوين تعيين Visual Studio Team Services
           href: migration-upgrade/configure-vso-solution.md
-        - name: تقسيم النماذج
+        - name: تقسيم النموذج
           href: dev-tools/model-split.md
-        - name: استخدام التفويضات لحل التبعيات بين النماذج
+        - name: حل التبعيات بين النماذج باستخدام التفويضات
           href: migration-upgrade/delegates-migration.md
     - name: الترقية إلى تحديث جديد (السحابة)
       items:
         - name: عملية النقل إلى التحديث الأخير
           href: migration-upgrade/upgrade-latest-update.md
-        - name: نهج دورة الحياة
+        - name: سياسة دورة حياة البرامج والإصدارات على السحابة
           href: migration-upgrade/versions-update-policy.md
-        - name: تطبيق التحديث الأخير للنظام الأساسي على بيئتك
+        - name: تطبيق التحديث الأخير للنظام الأساسي للبيئات
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: ترقية النظام الأساسي لـ Dynamics إلى إصدار أغسطس 2016
+        - name: ترقية النظام الأساسي لـ Dyamics AX إلى إصدار أغسطس 2016
           href: migration-upgrade/update-platform-each-release.md
-        - name: ترقية بيئة وضع الحماية
+        - name: ترقية بيئات وضع الحماية
           href: migration-upgrade/upgrade-sandbox-environment.md
-        - name: ترقية البيانات في بيئة تطوير أو بيئة عرض توضيحي
+        - name: ترقية البيانات في التطوير أو العرض التوضيحي أو بيئات وضع الحماية
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: ترقية أدوات التطوير
           href: dev-tools/update-development-tools.md
     - name: الترقية إلى تحديث جديد (محلي)
       items:
-        - name: تطبيق التحديثات على عملية نشر محلي
+        - name: تطبيق التحديثات على عمليات النشر المحلية
           href: deployment/apply-updates-on-premises.md
         - name: إعادة النشر على عملية نشر محلي
           href: deployment/redeploy-on-prem.md
@@ -1099,11 +1124,11 @@
       items:
         - name: تنزيل الإصلاحات العاجلة من Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
-        - name: تطبيق التحديثات على بيئة السحابة
+        - name: تطبيق التحديثات على بيئات السحابة
           href: deployment/apply-deployable-package-system.md
-        - name: تثبيت إصلاح عاجل لبيانات التعريف
+        - name: تثبيت الإصلاحات العاجلة لبيانات التعريف في بيئات التطوير
           href: migration-upgrade/install-metadata-hotfix-package.md
-        - name: تصحيح Reporting Services في بيئة one-box
+        - name: تصحيح Reporting Services في بيئات one-box
           href: migration-upgrade/patch-reporting-service-environment.md
         - name: تحديث أدوات تطوير Visual Studio
           href: dev-tools/update-development-tools.md
@@ -1116,9 +1141,9 @@
 - name: إدارة النظام
   href: sysadmin/system-administration-home-page.md
   items:
-    - name: أسئلة شائعة حول تحديثات النظام الأساسي الشهرية
+    - name: أسئلة شائعة حول تحديثات النظام الأساسي الشهرية للمجموعة
       href: sysadmin/faq-platform-monthly-updates.md
-    - name: إضافة ارتباطات للشروط القانونية الخاصة بمؤسستك وبيان الخصوصية
+    - name: إضافة ارتباطات إلى الشروط القانونية الخاصة بك وبيان الخصوصية​
       href: sysadmin/legal-terms-privacy-statement.md
     - name: تقرير أكواد التراخيص ومفاتيح التكوين
       href: sysadmin/license-codes-configuration-keys-report.md
@@ -1135,7 +1160,7 @@
       items:
         - name: هندسة الأمان
           href: sysadmin/security-architecture.md
-        - name: تقارير الأمان
+        - name: تقارير الأمان الجاهزة
           href: sysadmin/security-reports.md
         - name: إنشاء مستخدمين جدد
           href: sysadmin/tasks/create-new-users.md
@@ -1150,18 +1175,18 @@
     - name: معالجة الدُفعات
       href: sysadmin/batch-processing-overview.md
       items:
-        - name: نظرة عامة على خادم الدفعات
+        - name: مُعالجة الدُفعات وخوادم الدفعات
           href: sysadmin/batch-server-overview.md
-        - name: إنشاء وظيفة دفعية
+        - name: إنشاء وظائف دفعية
           href: sysadmin/tasks/create-batch-job.md
-    - name: نظرة عامة حول مرشد التحسين
+    - name: مرشد تحسين الأداء
       href: sysadmin/optimization-advisor-overview.md
       items:
         - name: إنشاء قواعد لمرشد التحسين
           href: sysadmin/create-rules-optimization-advisor.md
 - name: Lifecycle Services
   items:
-    - name: نظرة عامة على Lifecycle Services
+    - name: موارد لـ Lifecycle Services
       href: lifecycle-services/lcs.md
       items:
         - name: LCS للعملاء
@@ -1172,7 +1197,7 @@
           href: lifecycle-services/whats-new-lcs.md
         - name: مشكلات معروفة​
           href: lifecycle-services/known-issues.md
-    - name: دليل مستخدم Dynamics Lifecycle Services
+    - name: دليل مستخدم Lifecycle Services
       href: lifecycle-services/lcs-user-guide.md
     - name: أداة تقدير الاشتراك
       href: lifecycle-services/subscription-estimator.md
@@ -1187,27 +1212,27 @@
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: تكوين خدمة ترقية الكود
       href: lifecycle-services/configure-execute-code-upgrade.md
-    - name: 'إنشاء منهجية  '
+    - name: إنشاء المنهجيات أو تحديثها
       href: lifecycle-services/create-methodology.md
     - name: أداة تكوين عمليات الأعمال
       href: lifecycle-services/bpm-overview.md
     - name: مكتبات العملية التجارية في أداة تكوين عمليات الأعمال
       href: lifecycle-services/business-process-libraries-business-process-modeler.md
-    - name: إنشاء أو تحرير أو استعراض مكتبة BPM
+    - name: إنشاء مكتبات أداة تكوين عمليات الأعمال وتحريرها واستعراضها
       href: lifecycle-services/creating-editing-browsing.md
-    - name: إكمال المهام في مكتبة BPM
+    - name: إكمال المهام في أداة تكوين عمليات الأعمال
       href: lifecycle-services/complete-tasks-bpm.md
-    - name: استخدم مخططات الأنشطة
+    - name: العمل باستخدام مخططات الأنشطة في مكتبات BPM
       href: lifecycle-services/using-activity-diagrams.md
-    - name: مزامنة مكتبة BPM مع Visual Studio Team Services ‏(VSTS)
+    - name: مزامنة مكتبات BPM مع Visual Studio Team Services
       href: lifecycle-services/synchronize-bpm-vsts.md
-    - name: إنشاء مجموعة اختبارات قبول باستخدام دلائل المهام وBPM
+    - name: إنشاء مكتبات اختبارات قبول المستخدم باستخدام دلائل المهام وBPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-    - name: مخططات انسيابية لأداة تكوين عمليات الأعمال​
+    - name: المخططات الانسيابية‬ في إداة تكوين عمليات الأعمال
       href: lifecycle-services/flowcharts-business-process-modeler.md
-    - name: تحميل عمليات أعمال مخصصة
+    - name: تحميل عمليات تجارية مخصصة إلى أداة تكوين عمليات الأعمال
       href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
-    - name: 'المراقبة والتشخيص '
+    - name: المراقبة والتشخيص
       href: lifecycle-services/monitoring-diagnostics.md
     - name: إعادة تشغيل الخدمات البيئية
       href: lifecycle-services/restart-environment-services.md
@@ -1215,187 +1240,36 @@
       href: lifecycle-services/user-logins.md
     - name: مكتبة الأصول
       href: lifecycle-services/asset-library.md
-    - name: Microsoft Dynamics 365 - نظرة عامة على خدمة الترجمة
+    - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
-        - name: 'دليل مستخدم خدمة الترجمة في Microsoft Dynamics 365    '
+        - name: ترجمة ملفات واجهة المستخدم
           href: lifecycle-services/use-translation-service.md
-        - name: خدمة الترجمة في Microsoft Dynamics 365 - ترجمة ملف الوثائق
+        - name: ترجمة ملفات التوثيق
           href: lifecycle-services/use-translation-service-ua.md
-        - name: خدمة الترجمة في Microsoft Dynamics 365 - ذاكرة الترجمة
+        - name: ملفات ذاكرة الترجمة
           href: lifecycle-services/use-translation-service-tm.md
-    - name: ميزات Dynamics AX 2012 Lifecycle Services
-      items:
-        - name: النشر
-          items:
-            - name: بيئات مستضافة على الشبكة السحابية
-              href: lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md
-            - name: نسخ تكوين
-              href: lifecycle-services/copy-configuration-lcs.md
-            - name: تخطيط نشر Dynamics AX 2012 R3 على Azure
-              href: lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md
-            - name: نشر Dynamics AX 2012 R3 على Azure
-              href: lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs.md
-            - name: نشر بيئة عرض توضيحي لـ Dynamics AX 2012 R3
-              href: lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure.md
-            - name: نشر بيئة تطوير على Azure
-              href: lifecycle-services/ax-2012/deploy-development-environment-azure.md
-            - name: نشر بيئة بقابلية وصول عالية على Azure
-              href: lifecycle-services/ax-2012/deploy-high-availability-environment-azure.md
-            - name: نشر بيئة اختبار على Azure
-              href: lifecycle-services/ax-2012/deploy-test-environment-azure.md
-            - name: إدارة نشر Dynamics AX 2012 R3 على Azure
-              href: lifecycle-services/ax-2012/manage-2012-r3-deployment-azure.md
-            - name: دمج خوادم "مدخل الشركة على الإنترنت" في مزرعة خوادم واحدة
-              href: lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm.md
-            - name: تسجيل نقاط الدخول في مدخل الشركة على الإنترنت لـ Dynamics AX
-              href: lifecycle-services/ax-2012/record-entry-points-enterprise-portal.md
-            - name: نشر بيئة اختبار/تطوير للتجارة الإلكترونية للبيع بالتجزئة على Azure
-              href: lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure.md
-            - name: نشر بيئة عرض توضيحي لأساسيات البيع بالتجزئة على Azure
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure.md
-            - name: نشر بيئة اختبار/تطوير أساسيات البيع بالتجزئة على Azure
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure.md
-            - name: نشر بيئة اختبار/تطوير محمولة للبيع بالتجزئة على Azure
-              href: lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure.md
-            - name: استكشاف أخطاء نشر Dynamics AX 2012 R3 على Azure
-              href: lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure.md
-            - name: تحديثات لـ Dynamics AX 2012 R3
-              href: lifecycle-services/ax-2012/update-2012-r3-lcs.md
-        - name: دليل مستخدم إطار عمل استيراد/تصدير البيانات
-          href: lifecycle-services/ax-2012/user-guide-dixf.md
-          items:
-            - name: تثبيت
-              href: lifecycle-services/ax-2012/install-dixf.md
-              items:
-                - name: تثبيت AX 2012 R3
-                  href: lifecycle-services/ax-2012/install-ax-2012-r3.md
-                - name: تثبيت Dynamics AX 2012 R2 CU7 الإصدار الخاص بـ SQL Server 2014
-                  href: lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014.md
-            - name: ترحيل البيانات
-              href: lifecycle-services/ax-2012/migrate-data-dixf.md
-            - name: تكوين الإصدار SSIS
-              href: lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf.md
-            - name: نسخ ومقارنة بيانات الكيانات بين الشركات
-              href: lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf.md
-            - name: نسخ البيانات بين شركات Dynamics AX
-              href: lifecycle-services/ax-2012/copy-data-between-companies-dixf.md
-            - name: نسخ البيانات بين مثيلات Dynamics AX
-              href: lifecycle-services/ax-2012/copy-data-between-instances-dixf.md
-            - name: إنشاء كيان هدف مخصص
-              href: lifecycle-services/ax-2012/create-custom-target-entity-dixf.md
-            - name: كيانات إطار عمل استيراد/تصدير البيانات
-              href: lifecycle-services/ax-2012/entities-dixf.md
-            - name: استيراد البيانات من مصدر بيانات CSV
-              href: lifecycle-services/ax-2012/import-data-csv-data-source-dixf.md
-            - name: استيراد البيانات من مصدر بيانات ODBC
-              href: lifecycle-services/ax-2012/import-data-odbc-data-source-dixf.md
-            - name: ملفات العرض التوضيحي
-              href: lifecycle-services/ax-2012/demo-files-dixf.md
-            - name: الاستيراد والتصدير السريع
-              href: lifecycle-services/ax-2012/quick-import-export.md
-        - name: جداول
-          items:
-            - name: إنشاء جداول
-              href: lifecycle-services/ax-2012/create-tables.md
-            - name: خصائص الجدول
-              href: lifecycle-services/ax-2012/table-properties.md
-        - name: أدوات Dynamics AX 2012 LCS
-          items:
-            - name: المشاريع
-              href: lifecycle-services/ax-2012/projects-lcs.md
-            - name: منهجيات
-              href: lifecycle-services/ax-2012/methodologies-lcs.md
-            - name: 'تحليل التخصيص  '
-              href: lifecycle-services/ax-2012/customization-analysis-lcs.md
-            - name: أداة تقدير البنية الأساسية
-              href: lifecycle-services/ax-2012/infrastructure-estimator-lcs.md
-            - name: أداة تقدير عدد التراخيص
-              href: lifecycle-services/ax-2012/license-sizing-estimator-lcs.md
-            - name: الردود على طلبات تقديم العروض (lifecycle-services/RFP.md)
-              href: lifecycle-services/ax-2012/rfp-responses-lcs.md
-            - name: عمليات تشخيص أداء النظام
-              href: lifecycle-services/ax-2012/system-diagnostics-lcs.md
-            - name: تثبيت وتشغيل عمليات تشخيص أداء النظام
-              href: lifecycle-services/ax-2012/install-run-system-diagnostics-lcs.md
-            - name: تحليل عمليات الترقية
-              href: lifecycle-services/ax-2012/upgrade-analysis-lcs.md
-            - name: محلل الاستخدام
-              href: lifecycle-services/ax-2012/usage-profiler-lcs.md
-        - name: أدوات Dynamics AX 2012 قابلة للتنزيل
-          items:
-            - name: دليل مستخدم أداة ترقية الكود (مهمل)
-              href: lifecycle-services/ax-2012/code-upgrade-tool-user-guide.md
-            - name: أدوات Lifecycle Services قابلة للتنزيل
-              href: lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource.md
-            - name: أداة تحويل بيانات الاختبار (beta)
-              href: lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012.md
-              items:
-                - name: تثبيت
-                  href: lifecycle-services/ax-2012/install-test-data-transfer-tool-beta.md
-                - name: تشغيل
-                  href: lifecycle-services/ax-2012/run-test-data-transfer-tool-beta.md
-                - name: استيراد بيانات العرض التوضيحي لـ AX 2012 R3
-                  href: lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool.md
-            - name: أداة تطوير الأمان
-              href: lifecycle-services/ax-2012/overview-security-development-tool-user-interface.md
-              items:
-                - name: تثبيت
-                  href: lifecycle-services/ax-2012/install-security-development-tool.md
-                - name: دليل المستخدم
-                  href: lifecycle-services/ax-2012/security-development-tool-user-guide.md
-                - name: تحديد أو تحرير أذونات نقطة الإدخال
-                  href: lifecycle-services/ax-2012/define-edit-entry-point-permissions.md
-            - name: مجموعة أدوات تطوير برامج قياس الأداء
-              href: lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012.md
-            - name: أداة Security Upgrade Advisor
-              href: lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide.md
-            - name: Intelligent Data Management Framework (IDMF)
-              href: lifecycle-services/ax-2012/microsoft-idmf.md
-              items:
-                - name: نظرة عامة
-                  href: lifecycle-services/ax-2012/overview-idmf.md
-                - name: دليل التثبيت
-                  href: lifecycle-services/ax-2012/installation-guide-idmf.md
-                - name: التكوين
-                  href: lifecycle-services/ax-2012/configuration-functionality-idmf-workspace.md
-                - name: التحليل
-                  href: lifecycle-services/ax-2012/analysis-functionality-idmf-workspace.md
-                - name: إزالة وأرشفة الكائنات
-                  href: lifecycle-services/ax-2012/work-with-purge-objects-archive-objects.md
-                - name: إنشاء كائنات مؤرشفة
-                  href: lifecycle-services/ax-2012/create-archive-objects.md
-                - name: إنشاء كائنات الإزالة
-                  href: lifecycle-services/ax-2012/create-purge-objects.md
-                - name: جدولة مهام الإزالة والتحليل
-                  href: lifecycle-services/ax-2012/schedule-purge-analysis-tasks.md
-                - name: عرض وظائف الإزالة أو الأرشفة
-                  href: lifecycle-services/ax-2012/view-status-purge-archive-jobs.md
-                - name: صيانة
-                  href: lifecycle-services/ax-2012/maintain-idmf.md
-                - name: استكشاف الأخطاء وإصلاحها‬
-                  href: lifecycle-services/ax-2012/troubleshoot-idmf.md
 - name: إدارة قاعدة البيانات
   items:
-    - name: نسخ قاعدة بيانات من قاعدة بيانات SQL Azure إلى بيئة خادم SQL
+    - name: نسخ قواعد بيانات من قاعدة بيانات SQL Azure إلى بيئات خادم SQL
       href: database/copy-database-from-azure-sql-to-sql-server.md
-    - name: نسخ قاعدة بيانات من خادم SQL إلى بيئة قاعدة بيانات SQL Azure للإنتاج
+    - name: نسخ قواعد البيانات من خادم SQL إلى بيئات قواعد بيانات SQL Azure للإنتاج
       href: database/copy-database-from-sql-server-to-azure-sql.md
-    - name: استعادة قاعدة بيانات في بيئة غير إنتاجية
+    - name: استعادة قواعد البيانات في بيئات غير إنتاجية
       href: database/request-point-in-time-restore.md
-    - name: تصدير نسخة من قاعدة بيانات لاستعادتها لاحقًا
+    - name: تصدير نسخ من قواعد البيانات لاستعادتها لاحقًا
       href: database/copy-operations-database.md
-    - name: طلب تحديث قاعدة بيانات بيئة الاختبار المعزولة
+    - name: طلب تحديثات قاعدة بيانات بيئة الاختبار المعزولة
       href: database/database-refresh.md
 - name: الدعم
   items:
-    - name: الحصول على الدعم لـ Dynamics 365 for Finance and Operations وLifecycle Services
+    - name: الحصول على الدعم لـ Finance and Operations وLifecycle Services
       href: lifecycle-services/lcs-support.md
     - name: تسجيل بطاقة دعم رئيسي
       href: lifecycle-services/premier-support.md
-    - name: إرسال طلب إلى فريق هندسة خدمات Dynamics
+    - name: إرسال طلبات إلى فريق هندسة خدمات Dynamics
       href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-    - name: إعداد الدعم التقني لـ Dynamics 365 for Finance and Operations
+    - name: إعداد الدعم التقني لـ Finance and Operations
       href: lifecycle-services/support-experience.md
     - name: الأسئلة الشائعة حول إطار الصيانة المخطط لها
       href: lifecycle-services/planned-maintenance-window-faq.md
