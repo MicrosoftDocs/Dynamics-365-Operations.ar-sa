@@ -1,5 +1,5 @@
 ---
-title: "نظرة عامة على Attract"
+title: "الميزات والقدرات في Attract"
 description: "يوفر Attract قدرات لإدارة عملية توظيف المواهب الجديدة. يمكن إضافة المرشحين إلى الوظائف المفتوحة، ويمكنهم تحقيق التقدم من مرحة إلى أخرى حتى تقديم عرض توظيف أو رفض الطلب."
 author: rschloma
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b64a97897a1ea75eb2a9681bc9357433a570dd74
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 37dd0396787375fccd4082f392e079ed5dab04e9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="attract-overview"></a>نظرة عامة على الجذب
+# <a name="attract-features-and-capabilities"></a>الميزات والقدرات في Attract
 
 [!include [banner](includes/banner.md)]
 

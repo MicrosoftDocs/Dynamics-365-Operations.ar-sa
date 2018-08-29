@@ -1,5 +1,5 @@
 ---
-title: "الطباعة في تطبيقات Finance and Operations"
+title: "طباعة المستندات"
 description: "في Microsoft Dynamics 365 for Finance and Operations، يمكنك طباعة المستندات باستخدام طابعة محلية أو أحد الأجهزة المتصلة بشبكة الاتصال. يقدم هذا المقال نظرة عامة على كيفية طباعة المستندات."
 author: TJVass
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 30a418e6c49849369f0a0e3ffa28f31b9b88b7e7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5d52568ce49b85f6215ed2835a95e2e016c9c879
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="printing-in-finance-and-operations-applications"></a>الطباعة في تطبيقات Finance and Operations
+# <a name="document-printing"></a>طباعة المستندات
 
 [!include [banner](../includes/banner.md)]
 

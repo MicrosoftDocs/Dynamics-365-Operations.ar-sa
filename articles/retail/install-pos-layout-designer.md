@@ -1,5 +1,5 @@
 ---
-title: "تثبيت مصمم تخطيط Retail POS"
+title: "تثبيت مصمم تخطيط نقطة البيع (POS)‬ بالتجزئة"
 description: "يمكنك استخدام المصمم بنقرة واحدة لتصميم تخطيطات مختلفة لنقاط البيع التجزئة الحديثة (MPOS) ونقاط بيع المجموعة، في الوضع الأفقي أو في الوضع العمودي، للمتاجر وآلات تسجيل المدفوعات والصرافين والمدراء."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 4c647f49101dcbbe7dd1feac2dd9aad5c6dd5bcc
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="install-the-retail-pos-layout-designer"></a>تثبيت مصمم تخطيط Retail POS
+# <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>تثبيت مصمم تخطيط نقطة البيع (POS)‬ بالتجزئة
 
 [!include [banner](includes/banner.md)]
 

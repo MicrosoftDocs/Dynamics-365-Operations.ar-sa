@@ -1,5 +1,5 @@
 --- 
-title: "تصميم التكوينات لإنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة"
+title: "تصميم التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة"
 description: "توفر الخطوات الواردة في هذا الموضوع معلومات حول كيفية تصميم تكوينات التقارير الإلكترونية (ER) التي تُنشئ مستندات إلكترونية بتنسيقات Microsoft Office ‏(Excel‏‏ ‏وWord) تحتوي على صور مضمنة."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 1fb02e561f6792c57b924ba64a5ca3d3974289ee
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>تصميم التكوينات لإنشاء التقارير بتنسيقات Microsoft Office مع الصور المضمنة
+# <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>تصميم التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

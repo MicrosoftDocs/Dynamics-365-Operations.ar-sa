@@ -1,5 +1,5 @@
 --- 
-title: "تصميم التعبيرات لاستدعاء أساليب فئات التطبيقات (التقارير الإلكترونية)"
+title: "تصميم تعبيرات التقارير الإلكترونية لاستدعاء أساليب فئات التطبيقات"
 description: "يوفر هذا الدليل معلومات حول كيفية إعادة استخدام منطق التطبيق الموجود في تكوينات التقارير الإلكترونية عن طريق استدعاء أساليب فئات التطبيقات المطلوبة في تعبيرات التقارير الإلكترونية."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-expressions-to-call-application-class-methods-er"></a>تصميم التعبيرات لاستدعاء أساليب فئات التطبيقات (التقارير الإلكترونية)
+# <a name="design-er-expressions-to-call-application-class-methods"></a>تصميم تعبيرات التقارير الإلكترونية لاستدعاء أساليب فئات التطبيقات
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

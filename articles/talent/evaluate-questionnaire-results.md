@@ -1,5 +1,5 @@
 ---
-title: "عرض وتقييم نتائج الاستبيان"
+title: "عرض وتقييم نتائج الاستبيانات"
 description: "يوضح هذا الموضوع كيفية عرض وتقييم نتائج الاستبيانات التي يقوم المستجيبون بإكمالها."
 author: kherr75
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f87238b3b2f6e7cc68bf2f1a7cd3a21254f3599a
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 9fd4af5589cfab2a92c913639f1192029eb7c592
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>عرض وتقييم نتائج الاستبيان
+# <a name="view-and-evaluate-the-results-of-questionnaires"></a>عرض وتقييم نتائج الاستبيانات
 
 [!include [banner](includes/banner.md)]
 

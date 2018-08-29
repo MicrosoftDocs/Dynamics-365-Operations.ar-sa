@@ -17,14 +17,14 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 4ded4aee8f7cb15960bcecd30ec30b812b086d92
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: fdf139fc5b4227c91f6430fad8752b9fc3027119
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="welcome-to-human-resources"></a>مرحبًا بك في الموارد البشرية
+# <a name="human-resources"></a>الموارد البشرية
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 02/14/2018
 > + الاحتفاظ بمعلومات شاملة حول العامل بدءًا من مرحلة التوظيف إلى مرحلة التقاعد.
 > + تعريف وإدارة خطط الميزات وتسجيل العاملين وتعيين تغطية التابعين وتعيين المستفيدين.
 > + وضع سياسات الغياب ورصدها.
-> + تطبيق إدارة الوقت المستندة إلى ملف تعريف وتتبعها وإنشاء معلومات الدفع لتصديرها إلى نظام رواتب.
+> + تطبيق إدارة الوقت المستندة إلى ملف تعريف وتتبعها وإنشاء معلومات الدفع لتصديرها إلى نظام مرتبات.
 > + إدارة اختصاصات العاملين.
 > + مراجعة الأداء وتنفيذ أهداف العاملين.
 > + إعداد الدورات التدريبية التي تتضمن جداول الأعمال والجلسات والمسارات وتقديمها وتحليلها.

@@ -1,5 +1,5 @@
 ---
-title: "إنشاء سير عمل"
+title: "إنشاء مهام سير العمل"
 description: "يوضح هذا الموضوع كيفية إنشاء سير عمل."
 author: sericks007
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ee3f60575d0eaaf56ce08adb1936728a76488dac
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="create-a-workflow"></a>إنشاء سير عمل
+# <a name="create-workflows"></a>إنشاء مهام سير العمل
 
 [!include [banner](../includes/banner.md)]
 

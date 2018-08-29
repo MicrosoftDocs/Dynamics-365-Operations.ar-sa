@@ -1,5 +1,5 @@
 ---
-title: "‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة (MPOS)/نقطة بيع المجموعة‬ (CPOS)"
+title: "تخطيطات شاشة بيانات العرض التوضيحي في Retail Modern POS (MPOS) وCloud POS"
 description: "يقدم هذا الموضوع معلومات حول تخطيطات الشاشة المضمنة مع بيانات العرض التوضيحي المعينة لتجارب نقطة البيع (POS) في Microsoft Dynamics 365 for Retail."
 author: zlinster
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: e812bb13c903e72e31e62effd0c70f9b9d62de55
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="demo-data-screen-layouts-in-mposcpos"></a>‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة (MPOS)/نقطة بيع المجموعة‬ (CPOS)
+# <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>تخطيطات شاشة بيانات العرض التوضيحي في Retail Modern POS (MPOS) وCloud POS
 
 [!include [banner](includes/banner.md)]
 

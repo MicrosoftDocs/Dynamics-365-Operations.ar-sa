@@ -3,7 +3,7 @@ title: "ميزات الترجمة والميزات التنظيمية"
 description: "يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الوظائف الخاصة بالبلد/المنطقة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 07/18/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4485bd6442d186e5a6bac90e0a9041566e2e26d0
-ms.openlocfilehash: efa82abcd25101fc7be772c32e6c4fee7976d4bb
+ms.sourcegitcommit: 46165351f3c9048cfbecf25a1c49d8aeac1f3e1e
+ms.openlocfilehash: 787ce11701a9df951b38af5209206902d7c98019
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -147,33 +147,9 @@ ms.lasthandoff: 06/25/2018
 - [إعداد تقارير ضريبة القيمة المضافة](../../financials/localizations/emea-vat-reporting.md)
 - [عرض الحركات عن التسوية](../../financials/localizations/emea-transactions-settlement-form.md)
 
-### <a name="france"></a>فرنسا
--   [أرقام الفواتير والإيصالات المرتبة زمنيًا](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
--   [إهلاك تنازلي لفرنسا](../../financials/localizations/emea-fra-derogatory-depreciation.md)
--   [أكواد NAF وأرقام siret](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
--   [عقوبات مدفوعات العملاء المستحقة في فرنسا](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
--   [طباعة نص استرداد المبلغ الإجمالي في فاتورة عميل](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
--   [إهلاك RB/SL](../../financials/localizations/emea-fra-rbsl-depreciation.md)
-
-#### <a name="public-sector"></a>القطاع العام
-   -   [الالتزامات في القطاع العام](../../financials/localizations/emea-fra-commitments-public-sector.md)
-   -   [شروط الدفع في القطاع العام](../../financials/localizations/emea-fra-mandats-de-paiement.md)
-   -   [التدبير وتحديد الموارد](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
-   -   [محاسبة القطاع العام](../../financials/localizations/emea-fra-public-sector-accounting.md)
-   -   [الفواتير](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
-   -   [تعليقات دفع فواتير الموردين](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
-
-### <a name="germany"></a>ألمانيا
--   [إهلاك الاستحواذ الإضافي](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
--   [ملف المراجعة الألماني (GDPdU/GoBD)](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
--   [تقرير قائمة دفتر اليومية الألماني](../../financials/localizations/emea-deu-journal-list-report.md)
--   [طباعة تسمية منفصلة لمذكرات الائتمان التي تنشأ من المبيعات](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
-
-### <a name="hungary"></a>هنغاريا‬
-
--   [طرق إهلاك الأصول الثابتة](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [نقل أصل ثابت إلى المخزون](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
--   [الأصول الثابتة ذات التكلفة المنخفضة](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+### <a name="francefinancialslocalizationsfrancemd"></a>[فرنسا](../../financials/localizations/france.md)
+### <a name="germanyfinancialslocalizationsgermanymd"></a>[ألمانيا](../../financials/localizations/germany.md)
+### <a name="hungaryfinancialslocalizationshungarymd"></a>[هنغاريا‬](../../financials/localizations/hungary.md)
 
 ### <a name="india"></a>الهند
 
@@ -190,18 +166,7 @@ ms.lasthandoff: 06/25/2018
     - [الأسئلة المتداولة حول حدود الضريبة](../../financials/localizations/apac-ind-tax-thresholds.md)
     - [توسيع محرك الضريبة](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
-### <a name="italy"></a>إيطاليا
-
--   [تقرير القائمة السوداء الإيطالي](../../financials/localizations/emea-ita-black-list-report.md)
--   [تفاصيل كشوف حساب ضريبة القيمة المضافة](../../financials/localizations/emea-ita-vat-statements-details.md)
--   [تاريخ الاختصاص للحركات](../../financials/localizations/emea-ita-competence-date.md)
--   [الإهلاك اليدوي للأصول الثابتة](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
--   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
--   [التحقق من صحة تاريخ إيصال التعبئة على الفواتير لإيطاليا](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
--   [دفاتر ضريبة المبيعات الإيطالية](../../financials/localizations/emea-ita-fiscal-books.md)
--   [الدفعة المقسمة للفواتير الصادرة للإدارة العامة](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
--   [ضريبة الخصم](../../financials/localizations/emea-ita-withholding-tax.md)
-
+### <a name="italyfinancialslocalizationsitalymd"></a>[إيطاليا](../../financials/localizations/italy.md)
 ### <a name="japan"></a>اليابان
 
 -  [رسوم الدفع البنكي المشمولة من قِبل الموردين](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
@@ -216,19 +181,8 @@ ms.lasthandoff: 06/25/2018
 -  [الدفع لمورد عن طريق مصادقة الكمبيالة](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
 -  [حساب ضريبة الخصم التقدمية](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
-### <a name="latvia"></a>لاتفيا
-
--   [حساب الأصول الثابتة للأغراض الضريبية](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
--   [تعقب التغييرات بمواقع الأصول الثابتة](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
--   [ترقيم الفواتير وإيصالات التعبئة](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [تقرير الضريبة على الموارد الطبيعية](../../financials/localizations/emea-lva-tax-natural-resources.md)
--   [تفاصيل كشف حساب ضريبة القيمة المضافة](../../financials/localizations/emea-lva-vat-statement-details.md)
-
-### <a name="lithuania"></a>ليتوانيا
-
--   [كشف إصلاح الأصول الثابتة](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
--   [ترقيم الفواتير وإيصالات التعبئة](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [تفاصيل كشف حساب ضريبة القيمة المضافة](../../financials/localizations/emea-ltu-vat-statement-details.md)
+### <a name="latviafinancialslocalizationslatviamd"></a>[لاتفيا](../../financials/localizations/latvia.md)
+### <a name="lithuaniafinancialslocalizationslithuaniamd"></a>[ليتوانيا](../../financials/localizations/lithuania.md)
 
 ### <a name="mexico"></a>المكسيك
 
@@ -242,29 +196,9 @@ ms.lasthandoff: 06/25/2018
 
 -   [الضريبة على البضائع والخدمات (GST)](../../financials/localizations/apac-mys-gst.md)
 
-### <a name="netherlands"></a>هولندا
-
--   [الموعد النهائي لإصدار الفاتورة](../../financials/localizations/emea-invoice-issue-deadline.md)
-
-### <a name="norway"></a>النرويج
-
--   [آلات تسجيل المدفوعات النقدية الخاصة بالنرويج‎](../../retail/localizations/emea-nor-cash-registers.md)
--   [إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنرويج](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
--   [تنسيق ملف استيراد صافي القيم](../../financials/localizations/emea-nor-nets-import-format.md)
--   [بيان ضريبة القيمة المضافة](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
-
-### <a name="poland"></a>بولندا
-
--   [حساب خصومات البند من سعر الوحدة](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
--   [ملاحظات التصحيح](../../financials/localizations/emea-pol-correction-notes.md)
--   [ترقيم فواتير المبيعات المتكررة](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
--   [إهلاك الأصول الثابتة](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
--   [التخلص من الأصول الثابتة](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
--   [العبوات القابلة للإرجاع](../../financials/localizations/emea-pol-returnable-packages.md)
--   [تقارير ضريبة المبيعات](../../financials/localizations/emea-pol-sales-tax-reports.md)
--   [ملف التدقيق القياسي (SAF)](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
--   [كشف الأرصدة والدوران](../../financials/localizations/emea-pol-turnover-balances-statement.md)
-
+### <a name="netherlandsfinancialslocalizationsnetherlandsmd"></a>[هولندا](../../financials/localizations/netherlands.md)
+### <a name="norwayfinancialslocalizationsnorwaymd"></a>[النرويج](../../financials/localizations/norway.md)
+### <a name="polandfinancialslocalizationspolandmd"></a>[بولندا](../../financials/localizations/poland.md)
 ### <a name="saudi-arabia"></a>السعودية
 
 -   [تقارير الزكاة](../../financials/localizations/emea-sau-zakat-reporting.md)
@@ -273,29 +207,9 @@ ms.lasthandoff: 06/25/2018
 
 -   [إنشاء تقرير GST-05 الخاص بسنغافورة](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
-### <a name="spain"></a>إسبانيا
-
--   [خيارات الكمبيالة الإسبانية](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
--   [يتم تطبيق الخصم النقدي في معلمة الفاتورة](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
--   [ضريبة مبيعات مشروطة](../../financials/localizations/emea-esp-conditional-sales-tax.md)
--   [مجموعات إعادة تقييم الأصول الثابتة](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
--   [ضريبة القيمة المضافة بين المجتمعات](../../financials/localizations/emea-esp-intra-community-vat.md)
--   [عملاء المرة الواحدة](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
--   [طباعة الشيكات باستخدام المخطط الإسباني](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
--   [خيارات السندات الإذنية الإسبانية](../../financials/localizations/emea-esp-promissory-note-options.md)
--   [دورات المبيعات والشراء](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
--   [الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬](../../financials/localizations/emea-esp-opening-sheets-spain.md)
--   [استخدام البيانات المالية من حساب فاتورة](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
-
-### <a name="sweden"></a>السويد
-
--   [استيراد تنسيقات الدفع للسويد](../../financials/localizations/emea-swe-payment-formats-import.md)
--   [آلات تسجيل المدفوعات النقدية الخاصة بالسويد](../../retail/localizations/emea-swe-cash-registers.md)
-
-### <a name="switzerland"></a>سويسرا
-
--   [استيراد دفعات عملاء ESR](../../financials/localizations/emea-che-esr-customer-payments-import.md)
-
+### <a name="spainfinancialslocalizationsspainmd"></a>[إسبانيا](../../financials/localizations/spain.md)
+### <a name="swedenfinancialslocalizationsswedenmd"></a>[السويد](../../financials/localizations/sweden.md)
+### <a name="switzerlandfinancialslocalizationsswitzerlandmd"></a>[سويسرا](../../financials/localizations/switzerland.md)
 ### <a name="thailand"></a>تايلاند
 
 -   [تقارير بطاقات المخزون](../../financials/localizations/apac-tha-stock-card-reports.md)
@@ -303,10 +217,7 @@ ms.lasthandoff: 06/25/2018
 -   [ضريبة القيمة المضافة غير المحققة](../../financials/localizations/apac-tha-unrealized-vat.md)
 -   [ضريبة الخصم](../../financials/localizations/apac-tha-withholding-tax.md)
 
-### <a name="united-kingdom"></a>المملكة المتحدة
-
--   [نظام صناعة الإنشاء للمملكة المتحدة](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
-
+### <a name="united-kingdomfinancialslocalizationsunited-kingdommd"></a>[المملكة المتحدة](../../financials/localizations/united-kingdom.md)
 ### <a name="united-states"></a>الولايات المتحدة
 
 -   [نموذج 1099 في القطاع العام](../../financials/localizations/noam-usa-form-1099-public-sector.md)   

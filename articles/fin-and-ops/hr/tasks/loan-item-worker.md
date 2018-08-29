@@ -1,5 +1,5 @@
 --- 
-title: "أصناف القرض لعامل"
+title: "إقراض أصناف للعاملين"
 description: "يوضح هذا الإجراء كيفية إقراض صنف لعامل وتسجيل العامل الذي يرجع الصنف."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: aff5ca3a6f3de4d90955e803917d352a21877244
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 3d7310216f0718c1de92acbb0686910a9cdc523a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="loan-items-to-a-worker"></a>أصناف القرض لعامل
+# <a name="loan-items-to-workers"></a>إقراض أصناف للعاملين
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

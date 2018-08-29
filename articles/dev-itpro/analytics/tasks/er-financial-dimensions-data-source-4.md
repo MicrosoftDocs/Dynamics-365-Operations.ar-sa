@@ -1,5 +1,5 @@
 --- 
-title: "تشغيل تقرير يستخدم الأبعاد المالية كمصدر بيانات"
+title: "تشغيل التقارير التي تستخدم الأبعاد المالية كمصادر بيانات"
 description: "تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين نموذج التقارير الإلكترونية لاستخدام الأبعاد المالية كمصدر بيانات للتقارير الإلكترونية."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 47ba48461a1c502a93df416d1acac1e85a841079
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6569f9b97d5d15bf74b8b3882bf4bab50970dd0f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source"></a>تشغيل تقرير يستخدم الأبعاد المالية كمصدر بيانات
+# <a name="run-reports-that-use-financial-dimensions-as-data-sources"></a>تشغيل التقارير التي تستخدم الأبعاد المالية كمصادر بيانات
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

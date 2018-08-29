@@ -1,5 +1,5 @@
 --- 
-title: "تصميم نموذج البيانات الخاص بالمجال للتقارير الإلكترونية (ER)"
+title: "تصميم نماذج بيانات خاصة بالمجال"
 description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء تكوين تقارير إلكترونية جديد يحتوي على نموذج بيانات لمستندات الدفع الإلكتروني."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fadc5bc54654faf9e91e0831bdd0ff087cea3164
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: c59bdea789c4eafd2443a5d1cf802768259858c6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-domain-specific-data-model-for-electronic-reporting-er"></a>تصميم نموذج البيانات الخاص بالمجال للتقارير الإلكترونية (ER)
+# <a name="design-domain-specific-data-models"></a>تصميم نماذج بيانات خاصة بالمجال
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

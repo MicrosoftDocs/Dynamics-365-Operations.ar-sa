@@ -1,5 +1,5 @@
 --- 
-title: "إنشاء مراجعة الأداء"
+title: "إنشاء مراجعات الأداء"
 description: "يوضح هذا الإجراء كيفية إنشاء إجراء مراجع الأداء أداء ويصف الغرض لكل قسم من أقسام المراجعة."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4675a78b47ae922a570e4975c2cce68ac0d76d5a
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 98244443e5e0b3558d8b95043c78258a57d71a28
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-a-performance-review"></a>إنشاء مراجعة الأداء
+# <a name="create-performance-reviews"></a>إنشاء مراجعات الأداء
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

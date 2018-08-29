@@ -1,5 +1,5 @@
 ---
-title: "مصمم المعادلة في التقارير الإلكترونية"
+title: "مصمم المعادلات في التقارير الإلكترونية"
 description: "يشرح هذا الموضوع كيفية استخدام مصمم المعادلة في التقارير الإلكترونية."
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>مصمم المعادلات في التقارير الإلكترونية
+# <a name="formula-designer-in-electronic-reporting-er"></a>مصمم المعادلات في التقارير الإلكترونية
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ ms.lasthandoff: 05/25/2018
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>يعرض الرسم التوضيحي التالي النتيجة عند تشغيل التنسيق المصمم.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>تتم تعبئة النص المترجم للتسميات والأوصاف في إخراج تنسيق التقارير الإلكترونية وفقًا لإعدادات اللغة التي تم تكوينها لعناصر تنسيق الملف والمجلد الأصلي.</blockquote>
+<blockquote>[!NOTE] تتم تعبئة النص المترجم للتسميات والأوصاف في إخراج تنسيق التقارير الإلكترونية وفقًا لإعدادات اللغة التي تم تكوينها لعناصر تنسيق الملف والمجلد الأصلي.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ ms.lasthandoff: 05/25/2018
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>يعرض الرسم التوضيحي التالي النتيجة عند تشغيل التنسيق المعدَّل.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>لا يتم تطبيق الحد على الصنف الأخير من القائمة الأصلية لأن القيمة (11) لمصدر الحد (الوزن) تتجاوز الحد المُعرف (9). استخدم الدالة <strong>WHERE</strong> أو التعبير <strong>ممكّن</strong> لعنصر التنسيق المناظر لتجاهل (تخطي) القوائم الفرعية أثناء إنشاء التقرير (عند الحاجة).</blockquote>
+<blockquote>[!NOTE] لا يتم تطبيق الحد على الصنف الأخير من القائمة الأصلية لأن القيمة (11) لمصدر الحد (الوزن) تتجاوز الحد المُعرف (9). استخدم الدالة <strong>WHERE</strong> أو التعبير <strong>ممكّن</strong> لعنصر التنسيق المناظر لتجاهل (تخطي) القوائم الفرعية أثناء إنشاء التقرير (عند الحاجة).</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ ms.lasthandoff: 05/25/2018
 | NUMBERVALUE (سلسلة، فاصل عشري، فاصل مجموعة أرقام) | تحويل السلسلة المحددة إلى رقم. يتم استخدام الفاصلة العشرية المحددة بين العدد الصحيح والأجزاء الكسرية لرقم عشري. يتم استخدام فاصل تجميع الأرقام المحدد كفاصل الآلاف. | **NUMBERVALUE("1 234,56", ",", " ")** ترجع القيمة **1234.56**. |
 | VALUE (سلسلة) | تحويل السلسلة المحددة إلى رقم. يتم اعتبار الفواصل وأحرف النقطة (.) كفواصل عشرية، ويتم استخدام الواصلة البادئة (-) كعلامة سالب. اطرح استثناءًا إذا كانت السلسلة المحددة تحتوي على أحرف غير رقمية أخرى. | **VALUE ("1 234,56")** تقوم بطرح استثناء. |
 | ROUND (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه إلى عدد المنازل العشرية المحدد:<ul><li>إذا كانت قيمة معلمة **المنازل العشرية** أكبر من 0 (صفر)، فيتم تقريب الرقم المحدد إلى عدد المنازل العشرية العديدة.</li><li>إذا كانت قيمة معلمة **المنازل العشرية** المحددة تساوي **0** (صفر) فيتم تقريب الرقم المحدد إلى أقرب عدد صحيح.</li><li>إذا كانت قيمة معلمة  **المنازل العشرية** المحددة أقل من 0 (صفر)، فيتم تقريب الرقم المحدد إلى يسار الفاصلة العشرية.</li></ul> | **ROUND (1200.767, 2)** تقرّب إلى منزلتين عشريتين وترجع **1200.77**. **ROUND (1200.767, -3)** تقرّب إلى أقرب مضاعف من 1,000 وترجع **1000**. |
-| ROUNDDOWN (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه لأسفل إلى عدد المنازل العشرية المحدد.<blockquote>[!NOTE]<br>تعمل هذه الدالة مثل الدالة **ROUND**، إلا أنها تقرّب دائمًا الرقم المحدد لأسفل (في اتجاه الصفر).</blockquote> | **ROUNDDOWN (1200.767, 2)** تقرّب لأسفل إلى منزلتين عشريتين وترجع **1200.76**. **ROUNDDOWN (1700.767, -3)** تقرّب لأسفل إلى أقرب مضاعف من 1,000 وترجع **1000**. |
-| ROUNDUP (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه لأعلى إلى عدد المنازل العشرية المحدد.<blockquote>[!NOTE]<br>تعمل هذه الدالة مثل الدالة **ROUND**، إلا أنها تقرّب دائمًا الرقم المحدد لأعلى (بعيدًا عن الصفر).</blockquote> | **ROUNDUP (1200.763, 2)** تقرّب لأعلى إلى منزلتين عشريتين وترجع **1200.77**. **ROUNDUP (1200.767, -3)** تقرّب لأعلى إلى أقرب مضاعف من 1,000 وترجع **2000**. |
+| ROUNDDOWN (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه لأسفل إلى عدد المنازل العشرية المحدد.<blockquote>[!NOTE] تعمل هذه الدالة مثل الدالة **ROUND**، إلا أنها تقرّب دائمًا الرقم المحدد لأسفل (في اتجاه الصفر).</blockquote> | **ROUNDDOWN (1200.767, 2)** تقرّب لأسفل إلى منزلتين عشريتين وترجع **1200.76**. **ROUNDDOWN (1700.767, -3)** تقرّب لأسفل إلى أقرب مضاعف من 1,000 وترجع **1000**. |
+| ROUNDUP (رقم، منازل عشرية) | إرجاع الرقم المحدد بعد أن تم تقريبه لأعلى إلى عدد المنازل العشرية المحدد.<blockquote>[!NOTE] تعمل هذه الدالة مثل الدالة **ROUND**، إلا أنها تقرّب دائمًا الرقم المحدد لأعلى (بعيدًا عن الصفر).</blockquote> | **ROUNDUP (1200.763, 2)** تقرّب لأعلى إلى منزلتين عشريتين وترجع **1200.77**. **ROUNDUP (1200.767, -3)** تقرّب لأعلى إلى أقرب مضاعف من 1,000 وترجع **2000**. |
 
 ### <a name="data-conversion-functions"></a>دالات تحويل البيانات
 
@@ -474,8 +474,8 @@ ms.lasthandoff: 05/25/2018
 
 | الوظيفة | ‏‏الوصف | مثال |
 |----------|-------------|---------|
-| NULLCONTAINER (قائمة) | إرجاع سجل **فارغ** له نفس بنية قائمة السجلات المحددة أو السجل المحدد.<blockquote>[!NOTE]<br>هذه الدالة قديمة. استخدم الدالة **EMPTYRECORD** بدلاً منها.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** ترجع سجلاً فارغًا جديدًا له نفس بنية القائمة المرتجعة بواسطة الدالة **SPLIT**. |
-| EMPTYRECORD (سجل) | إرجاع سجل **فارغ** له نفس بنية قائمة السجلات المحددة أو السجل المحدد.<blockquote>[!NOTE]<br>سجل **فارغ** عبارة عن سجل تحتوي فيه جميع الحقول على قيمة فارغة. قيمة فارغة هي **0** (صفر) للأرقام، سلسلة فارغة للسلاسل، وهكذا.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** ترجع سجلاً فارغًا جديدًا له نفس بنية القائمة المرتجعة بواسطة الدالة **SPLIT**. |
+| NULLCONTAINER (قائمة) | إرجاع سجل **فارغ** له نفس بنية قائمة السجلات المحددة أو السجل المحدد.<blockquote>[!NOTE] هذه الدالة قديمة. استخدم الدالة **EMPTYRECORD** بدلاً منها.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** ترجع سجلاً فارغًا جديدًا له نفس بنية القائمة المرتجعة بواسطة الدالة **SPLIT**. |
+| EMPTYRECORD (سجل) | إرجاع سجل **فارغ** له نفس بنية قائمة السجلات المحددة أو السجل المحدد.<blockquote>[!NOTE] سجل **فارغ** عبارة عن سجل تحتوي فيه جميع الحقول على قيمة فارغة. قيمة فارغة هي **0** (صفر) للأرقام، سلسلة فارغة للسلاسل، وهكذا.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** ترجع سجلاً فارغًا جديدًا له نفس بنية القائمة المرتجعة بواسطة الدالة **SPLIT**. |
 
 ### <a name="text-functions"></a>الدالات النصية
 
@@ -522,14 +522,14 @@ ms.lasthandoff: 05/25/2018
 <td>CHAR (رقم)</td>
 <td>إرجاع سلسلة الأحرف المشار إليها بواسطة رقم Unicode المحدد.</td>
 <td><strong>CHAR (255)</strong> تُرجع <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>تتوقف السلسلة التي تُرجعها هذه الدالة على الترميز المحدد في عنصر تنسيق الملف الأصلي. للحصول على قائمة بالرموز المدعومة، راجع <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">فئة الترميز</a>.</blockquote>
+<blockquote>[!NOTE] تتوقف السلسلة التي تُرجعها هذه الدالة على الترميز المحدد في عنصر تنسيق الملف الأصلي. للحصول على قائمة بالرموز المدعومة، راجع <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">فئة الترميز</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (سلسلة 1 [، سلسلة 2، …])</td>
 <td>إرجاع كافة السلاسل النصية المحددة بعد أن ضمها في سلسلة واحدة.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> تُرجع <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>كما يقوم التعبير <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> بإرجاع <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE] كما يقوم التعبير <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> بإرجاع <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ ms.lasthandoff: 05/25/2018
 <p>&quot;لا توجد عناصر لطباعتها‬. العميل Litware Retail موقوف للتاريخ 12/17/2015.&quot;</p>
 <p>إذا تمت معالجة التقرير نفسه لعميل<strong> Litware Retail</strong> في 17 ديسمبر 2015، بالثقافة <strong>الألمانية</strong> واللغة <strong>الألمانية</strong>، فإن هذه المعادلة ترجع النص التالي الذي يستخدم تنسيق تاريخ آخر:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>يتم تطبيق بناء الجملة التالي في معادلات التقارير الإلكترونية للتسميات:
+<blockquote>[!NOTE] يتم تطبيق بناء الجملة التالي في معادلات التقارير الإلكترونية للتسميات:
 <ul>
 <li><strong>بالنسبة إلى التسميات من موارد Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>، حيث X هو معرف التسمية في شجرة مكونات البرنامج (AOT)</li>
 <li><strong>بالنسبة إلى التسميات المقيمة في تكوينات التقارير الإلكترونية:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>، حيث X هو معرف التسمية في تكوين التقارير الإلكترونية</li>
@@ -587,7 +587,7 @@ ms.lasthandoff: 05/25/2018
 <tr>
 <td>NUMERALSTOTEXT (رقم، لغة، عملة، طباعة علامة اسم العملة‬، منازل عشرية)</td>
 <td>إرجاع الرقم المحدد بعد أن تم نطقه (تحويله سلاسل نصية) باللغة المحددة. كود اللغة اختياري. عند تحديده كسلسلة فارغة، يتم استخدام كود اللغة الخاص بسياق التشغيل بدلاً من ذلك. (يتم تحديد كود اللغة لسياق التشغيل لإنشاء مجلد أو ملف.) كود العملة اختياري أيضًا. عندما يتم تعريفه كسلسلة فارغة، يتم استخدام عملة الشركة.
-<blockquote>[!NOTE]<br>يتم تحيلي <strong>علامة طباعة اسم العملة</strong> ومعلمات <strong>المنازل العشرية</strong> فقط لأكواد اللغات التالية:<strong>CS</strong>، و<strong>ET</strong>، و<strong>HU</strong>، و<strong>LT</strong>، و<strong>LV</strong>، و<strong>PL</strong>، و<strong>RU</strong>. بالإضافة إلى ذلك، يتم تحليل <strong>معلمة طباعة علامة اسم العملة</strong> فقط لشركات Finance and Operations، جيث يدعم سياق البلد أو المنطقة صرف أسماء العملات.</blockquote>
+<blockquote>[!NOTE] يتم تحيلي <strong>علامة طباعة اسم العملة</strong> ومعلمات <strong>المنازل العشرية</strong> فقط لأكواد اللغات التالية:<strong>CS</strong>، و<strong>ET</strong>، و<strong>HU</strong>، و<strong>LT</strong>، و<strong>LV</strong>، و<strong>PL</strong>، و<strong>RU</strong>. بالإضافة إلى ذلك، يتم تحليل <strong>معلمة طباعة علامة اسم العملة</strong> فقط لشركات Finance and Operations، جيث يدعم سياق البلد أو المنطقة صرف أسماء العملات.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> تُرجع <strong>&quot;ألف ومئتين وأربعة وثلاثون و56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> تُرجع <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> تُرجع <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
@@ -656,10 +656,10 @@ ms.lasthandoff: 05/25/2018
 | الوظيفة | ‏‏الوصف | مثال |
 |----------|-------------|---------|
 | CONVERTCURRENCY (المبلغ، العملة المصدر، العملة الهدف، التاريخ، الشركة) | تحويل المبلغ المالي المحدد من العملة المصدر المحددة إلى العملة الهدف المحددة باستخدام إعدادات شركة Finance and Operations المحددة بالتاريخ المحدد. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** ترجع مكافئ اليورو الواحد بالدولار الأمريكي بتاريخ الجلسة الحالية، استنادًا إلى إعدادات شركة DEMF. |
-| ROUNDAMOUNT (رقم، منازل عشرية، قاعدة التقريب) | تقريب المبلغ المحدد وفقًا لقاعدة التقريب المحددة وعدد المنازل العشرية المحدد.<blockquote>[!NOTE]<br>يجب تحديد قاعدة التقريب كقيمة Finance and Operations للتعداد **RoundOffType**.</blockquote> | إذا تم تعيين المعلمة **model.RoundOff** إلى **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** تُرجع القيمة **1000.78**. إذا تم تعيين المعلمة **model.RoundOff** إلى **Normal** أو **Rounding-up**، فسترجع **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** القيمة **1000.79**. |
+| ROUNDAMOUNT (رقم، منازل عشرية، قاعدة التقريب) | تقريب المبلغ المحدد وفقًا لقاعدة التقريب المحددة وعدد المنازل العشرية المحدد.<blockquote>[!NOTE] يجب تحديد قاعدة التقريب كقيمة Finance and Operations للتعداد **RoundOffType**.</blockquote> | إذا تم تعيين المعلمة **model.RoundOff** إلى **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** تُرجع القيمة **1000.78**. إذا تم تعيين المعلمة **model.RoundOff** إلى **Normal** أو **Rounding-up**، فسترجع **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** القيمة **1000.79**. |
 | CURCredRef (خانات رقمية) | إرجاع مرجع دائن، استنادًا إلى الخانات الرقمية في رقم الفاتورة المحددة. | **CURCredRef ("VEND-200002")** ترجع **"2200002"**. |
 | MOD\_97 (خانات رقمية) | إرجاع مرجع دائن كتعبير MOD97، استنادًا إلى الخانات الرقمية في رقم الفاتورة المحددة. | **MOD\_97 ("VEND-200002")** ترجع **"20000285"**. |
-| ISOCredRef (خانات رقمية) | إرجاع مرجع دائن المنظمة العالمية للمواصفات (ISO)، استنادًا إلى الخانات الرقمية والرموز الأبجدية في رقم الفاتورة المحددة.<blockquote>[!NOTE]<br>لإزالة الرموز من الحروف الأبجدية غير المتوافقة مع ISO، يجب ترجمة معلمة الإدخال قبل أن يتم تمريرها إلى هذه الدالة.</blockquote> | **ISOCredRef ("VEND-200002")** ترجع **"RF23VEND-200002"**. |
+| ISOCredRef (خانات رقمية) | إرجاع مرجع دائن المنظمة العالمية للمواصفات (ISO)، استنادًا إلى الخانات الرقمية والرموز الأبجدية في رقم الفاتورة المحددة.<blockquote>[!NOTE] لإزالة الرموز من الحروف الأبجدية غير المتوافقة مع ISO، يجب ترجمة معلمة الإدخال قبل أن يتم تمريرها إلى هذه الدالة.</blockquote> | **ISOCredRef ("VEND-200002")** ترجع **"RF23VEND-200002"**. |
 | CN\_GBT\_AdditionalDimensionID (سلسلة، رقم) | الحصول على معرف البُعد المالي. في المعلمة **السلسلة**، يتم تمثيل الأبعاد كمعرفات مفصولة بفواصل. تحدد معلمة **العدد** كود التسلسل للبُعد المطلوب في السلسلة. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** تُرجع **"CC"**. |
 | GetCurrentCompany () | إرجاع التمثيل النصي لكود أحد الكيانات القانونية (الشركة) الذي يقوم مستخدم بتسجيل الدخول فيه حاليًا. | **GETCURRENTCOMPANY ()** تُرجع **USMF** لمستخدم سجل دخوله إلى شركة **Contoso Entertainment System USA** وهي شركة Finance and Operations. |
 | CH\_BANK\_MOD\_10 (خانات رقمية) | إرجاع مرجع دائن كتعبير MOD10، استنادًا إلى الخانات الرقمية في رقم الفاتورة المحددة. | **CH\_BANK\_MOD\_10 ("VEND-200002")** تُرجع **3**. |

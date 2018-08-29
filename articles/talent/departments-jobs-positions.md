@@ -1,5 +1,5 @@
 ---
-title: "تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب"
+title: "تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب"
 description: "تُعد الأقسام والوظائف والمناصب العناصر التنظيمية التي يتم الاحتفاظ بها ضمن الموارد البشرية. يصف هذا الموضوع معلومات تصورية حول هذه العناصر."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5799db0354e0e2bb766284ef2d87e8da9a956958
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب
+# <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
 
 [!include [banner](includes/banner.md)]
 

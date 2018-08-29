@@ -1,5 +1,5 @@
 ---
-title: "استخدام عمليات البحث للعثور على المعلومات"
+title: "العثور على معلومات باستخدام عمليات البحث"
 description: "في Microsoft Dynamics 365 for Finance and Operations، يحتوي العديد من الحقول على وظيفة البحث التي تساعدك في العثور على القيمة الصحيحة أو المطلوبة بسهولة. تمت إضافة العديد من التحسينات لـعمليات البحث والتي جعلت عناصر التحكم هذه أكثر قابلية للاستخدام، وعززت من إنتاجية المستخدمين. في هذا الموضوع، سوف تتعلم بشأن هذه الميزات الجديد للبحث، وسوف تحصل على نصائح مفيدة للوصول إلى أقصى استفادة ممكنة عند استخدامك لـ Lookups في النظام."
 author: jasongre
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 013901724864092571099835b2c71b297710ff03
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>استخدام عمليات البحث للعثور على المعلومات
+# <a name="find-information-by-using-lookups"></a>العثور على معلومات باستخدام عمليات البحث
 
 [!include [banner](../includes/banner.md)]
 

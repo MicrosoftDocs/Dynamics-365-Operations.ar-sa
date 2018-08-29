@@ -1,5 +1,5 @@
 ---
-title: "نظرة عامة حول أوامر العميل"
+title: "أوامر العملاء في Retail Modern POS (MPOS)"
 description: "يقدم هذا الموضوع معلومات حول أوامر العميل في نقطة البيع الحديثة للبيع بالتجزئة الجديدة (MPOS). تُعرف أوامر العملاء أيضًا بالأوامر الخاصة. يشمل الموضوع مناقشة المحددات ذات الصلة وتدفقات الحركة."
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 8025df4f8498efa867f71892b253f71631b731c7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="customer-orders-overview"></a>نظرة عامة حول أوامر العميل
+# <a name="customer-orders-in-retail-modern-pos-mpos"></a>أوامر العملاء في Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "تعديل تنسيق من خلال إعادة تطبيق قالب Microsoft Excel للتقارير الإلكترونية (ER)"
+title: "تعديل التنسيقات من خلال إعادة تطبيق قوالب Excel"
 description: "لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء \"التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML\"."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 2f35727376812b0de428ce929ebe0d33bc497984
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>تعديل تنسيق من خلال إعادة تطبيق قالب Microsoft Excel للتقارير الإلكترونية (ER)
+# <a name="modify-formats-by-reapplying-excel-templates"></a>تعديل التنسيقات من خلال إعادة تطبيق قوالب Excel
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "المعلومات"
+title: "الصفحة الرئيسية للمعلومات المهنية (BI) وإعداد التقارير"
 description: "يوجهك هذا الموضوع إلى الموارد التي يمكنك اتباعها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="intelligence"></a>المعلومات
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>الصفحة الرئيسية للمعلومات المهنية (BI) وإعداد التقارير
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,13 +43,13 @@ ms.lasthandoff: 03/26/2018
 
 ![مثال لـ Power BI في مساحة عمل](./media/Power-BI-in-D365-Workspace.png)
 
- لمعرفة المزيد، راجع المواضيع التالية:
+لمعرفة المزيد، راجع المواضيع التالية:
 
- - [Power BI المضمن في مساحات العمل](embed-power-bi-workspaces.md)
- - [تكامل Power BI Embedded](power-bi-embedded-integration.md)
- - [إضافة التحليلات إلى مساحات العمل باستخدام Power BI Embedded](add-analytics-tab-workspaces.md)
- - [المساعدة في حماية مساحات العمل والتقارير التحليلية باستخدام Power BI Embedded](secure-analytical-workspaces.md)
- - [محتوى Power BI لـ Finance and Operations](power-bi-home-page.md)
+- [Power BI المضمن في مساحات العمل](embed-power-bi-workspaces.md)
+- [تكامل Power BI Embedded](power-bi-embedded-integration.md)
+- [إضافة التحليلات إلى مساحات العمل باستخدام Power BI Embedded](add-analytics-tab-workspaces.md)
+- [المساعدة في حماية مساحات العمل والتقارير التحليلية باستخدام Power BI Embedded](secure-analytical-workspaces.md)
+- [محتوى Power BI لـ Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>مستندات الأعمال والطباعة
 يتم استخدام حلول إعداد التقارير عادةً لالتقاط التفاصيل الخاصة بحركات الأعمال والإبلاغ عنها. ولذلك، يجب أن يكون حل إعداد التقارير قادرًا على إنتاج إيضاحات فعلية لبيانات العمل باستخدام الأجهزة الموجودة، مثل طابعات الشبكات. تتضمن أمثلة مستندات الأعمال فواتير المبيعات وكشوف حسابات العملاء والشيكات.
