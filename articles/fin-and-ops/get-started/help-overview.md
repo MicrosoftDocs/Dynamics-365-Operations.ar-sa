@@ -1,9 +1,9 @@
 ---
-title: "نظرة عامة على التعليمات"
+title: "نظام تعليمات Finance and Operations"
 description: "يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations وهي تشرح أيضًا كيفية توفير التدريب والوثائق المخصصة لمؤسستك."
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="help-system-overview"></a>نظرة عامة على نظام التعليمات
+# <a name="finance-and-operations-help-system"></a>نظام تعليمات Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ ms.lasthandoff: 05/08/2018
 [موجز RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>تقديم الملاحظات 
-إننا نُقدِّر ملاحظات العملاء فعلاً. يمكنك إما التعليق أو اقتراح تغييرات على المحتوى من خلال GitHub.
+إننا نُقدِّر ملاحظات العملاء فعلاً. يمكنك إما التعليق أو اقتراح تغييرات على المحتوى من خلال GitHub. للحصول على مزيد من المعلومات حول نظام تقديم الملاحظات لدينا، راجع [نشرة المدونة هذه](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-a-comment"></a>أرسل لنا تعليق 
+##### <a name="leave-us-feedback"></a>تقديم الملاحظات 
 إذا كانت لديك ملاحظات أو أسئلة حول أحد الموضوعات، فأرسل لنا تعليق في أسفل الصفحة.  
 
-1 انقر فوق **التعليقات** للوصول إلى التعليقات الموجودة في أسفل الصفحة.
+1. انقر فوق **ملاحظات** للوصول إلى التعليقات في أسفل الصفحة، ثم انقر فوق **ملاحظات حول المنتج**، أو **تسجيل الدخول لتقديم ملاحظات الوثائق**.
 
-![تعليقات](./media/comments.png)
+![ملاحظات](./media/comments.png)
 
-2 ابدأ كتابة تعليقاتك، ثم انقر فوق **نشر تعليق**.
+2. ابدأ كتابة تعليقاتك، ثم انقر فوق **إرسال الملاحظات**.
 
-![نشر تعليق](./media/before-signin.png)
+![نشر تعليق](./media/feedback.png)
 
-3 حدد نوع الحساب الذي تريد تسجيل الدخول باستخدامه:  
-انقر فوق إحدى الأيقونات الموجودة على الجانب الأيمن لإقران هذا الموقع بحساب موجود، مثل حساب Twitter أو Facebook أو Microsoft. 
-
-أو 
-
-إلى اليسار، أدخل عنوان بريد إلكتروني وكلمة مرور جديدة لإنشاء حساب جديد للموقع. 
-
-![خيارات تسجيل الدخول](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>اقتراح تغيير أو المساهمة بالمحتوى من خلال GitHub
@@ -115,7 +107,6 @@ ms.lasthandoff: 05/08/2018
 
 > [!NOTE]
 > لا نقبل في الوقت الحالي غير المساهمات في مستودعاتنا باللغة الإنجليزية.  
-> لا نقبل المشكلات التي يتم الإبلاغ عنها من خلال GitHub -- احرص على استخدام طلب سحب لاقتراحات المحتوى. تتم معالجة الملاحظات على المنتجات والميزات بشكل أفضل من خلال مدخل أفكار Dynamics 365: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>دلائل المهام

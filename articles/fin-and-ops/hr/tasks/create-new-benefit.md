@@ -1,5 +1,5 @@
 --- 
-title: "إنشاء ميزة جديدة"
+title: "إنشاء مزايا جديدة"
 description: "ستعرض لك هذه المهمة كيفية إنشاء عناصر الفائدة التي سيتم استخدامها عند إنشاء ميزة جديدة."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d276a7119db4bd391d412f028ec20ed1f9a7fb58
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 46a499caca0c7c39961d9aab04e046aa067f9779
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-a-new-benefit"></a>إنشاء ميزة جديدة
+# <a name="create-new-benefits"></a>إنشاء مزايا جديدة
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -36,13 +36,13 @@ ms.lasthandoff: 04/13/2018
 4. في وصف الحقل، اكتب قيمة.
 5. في الحقل "التسجيل المتزامن"، حدد خيارًا.
     * لتقييد قدرة الموظفين على التسجيل في خطط طبية متعددة، حدد "عملية تسجيل واحدة لكل نوع‬".  
-6. في الحقل "فئة الرواتب‬"، حدد خيارًا.
+6. في الحقل "فئة المرتبات‬"، حدد خيارًا.
 7. انقر فوق علامة التبويب "الخطط".
 8. انقر فوق جديد.
 9. في الحقل "خطة"، اكتب قيمة.
 10. في وصف الحقل، اكتب قيمة.
 11. في حقل "النوع"، أدخل قيمة أو حددها.
-12. في الحقل "تأثير كشف الرواتب‬‬"، حدد خيارًا.
+12. في الحقل "تأثير كشف المرتبات‬‬"، حدد خيارًا.
 13. انقر فوق "حفظ".
 
 ## <a name="create-a-benefit"></a>إنشاء ميزة

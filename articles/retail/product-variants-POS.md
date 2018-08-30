@@ -1,5 +1,5 @@
 ---
-title: "البحث في المخزون في نقطة البيع"
+title: "البحث في المخزون في نقطة البيع (POS)"
 description: "يصف هذا الموضوع الخيارات المتوفرة لعرض معلومات المخزون في نقطة البيع (POS)."
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 933875f56b0f47990cb1cb767f84b23b9c9710d4
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="inventory-lookup-in-the-point-of-sale"></a>البحث في المخزون في نقطة البيع 
+# <a name="inventory-lookup-in-the-point-of-sale-pos"></a>البحث في المخزون في نقطة البيع (POS)
 
 [!include [banner](includes/banner.md)]
 

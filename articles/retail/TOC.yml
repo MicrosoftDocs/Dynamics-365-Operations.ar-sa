@@ -2,9 +2,9 @@
   href: index.md
 - name: بدء الاستخدام
   items:
-    - name: الجديد أو المتغير
+    - name: ما هو الجديد أو المتغير
       href: get-started/whats-new.md
-    - name: قبل شراء Dynamics 365 for Retail
+    - name: قبل شراء Retail
       href: get-started/before-you-buy.md
     - name: التسجيل للاشتراك في المعاينة
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
@@ -12,13 +12,44 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: خيارات النشر
       href: dev-itpro/choose-deployment.md
+- name: فهم دورة حياة التطبيق​
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Microsoft FastTrack لـ Dynamics 365
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: الإعداد
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: الإعداد للعرض المباشر​
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: الأسئلة المتداولة حول العرض المباشر
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: إرسال طلب خدمة​
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: الأسئلة المتداولة حول الاشتراكات ومشاريع LCS والمستأجرين في Azure Active Directory
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: نقل البيئات بين مراكز البيانات
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: أنقل التراخيص بين أنواع الاتفاقيات
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: نقل مشروع تنفيذ LCS إلى مستأجر خدمة Azure Active Directory آخر
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: تنفيذ مشروعات LCS وبيئات إنتاج متعددة على مستأجر Azure Active Directory نفسه​
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: تنفيذ مشروعات Finance and Operations Retail
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: إعداد بيئات جديدة وVSTS وفروع لمشروعات Retail
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: تحديث الكود والبيئات لمشروعات Retail
+      href: dev-itpro/updating-environments.md
+    - name: مشكلات الاختبار والأداء
+      href: dev-itpro/retail-implementation-testing-performance.md
 - name: المدفوعات
   items:
     - name: طرق الدفع
       href: payment-methods.md
-    - name: إعداد وتفويض والتقاط بطاقة الائتمان
+    - name: إعداد بطاقة الائتمان والتفويض والالتقاط
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: تكوين طرق الدفع لنقطة البيع
+    - name: تكوين الفئات النقدية لـ POS
       href: cash-denominations.md
     - name: الأسئلة المتداولة حول الدفعات
       href: dev-itpro/payments-retail.md
@@ -36,21 +67,21 @@
       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
 - name: كشوف الحسابات
   items:
-    - name: نظرة عامة على كشوف حسابات البيع بالتجزئة
+    - name: كشوف البيع بالتجزئة
       href: retail-statements.md
-    - name: إنشاء كشف حساب لمتجر بيع بالتجزئة وحسابه وترحيله
+    - name: إنشاء كشوفات الحساب لمتجر بيع بالتجزئة وحسابها وترحيلها
       href: tasks/create-calculate-post-statement-retail-store.md
-    - name: تحسينات على ترحيل كشف الحساب
+    - name: تحسينات على وظيفة ترحيل كشف الحساب
       href: statement-posting-EOD.md
-    - name: تكوينات المعلمات لكشوف حسابات البيع بالتجزئة
+    - name: تكوين مُعلمات Retail التي تؤثر على كشوف حساب البيع بالتجزئة
       href: tasks/parameter-configurations-retail-statements.md
-    - name: تكوينات الدفعات لكشوف حسابات البيع بالتجزئة
+    - name: تكوين إعدادات طريقة الدفع التي تؤثر على كشوف حساب البيع بالتجزئة
       href: tasks/payment-configurations-retail-statements.md
-    - name: تكوين وتشغيل وظيفة لحساب كشوف الحسابات
+    - name: تكوين وتشغيل وظيفة لحساب كشوف الحساب
       href: tasks/run-job-calculate-statements.md
     - name: تكوين وتشغيل وظيفة لترحيل كشوف الحسابات
       href: tasks/run-job-post-statements.md
-    - name: تكوينات المتجر لكشوف حسابات البيع بالتجزئة
+    - name: تكوين إعدادات المتجر التي تؤثر على كشوف حسابات البيع بالتجزئة
       href: tasks/store-configurations-retail-statements.md
 - name: ضريبة المبيعات
   items:
@@ -64,7 +95,7 @@
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: مركز الاتصال
   items:
-    - name: نظرة عامة على مركز الاتصال
+    - name: وظيفة مبيعات مركز الاتصال
       href: call-center-functionality.md
     - name: كتالوجات مركز الاتصال​
       href: call-center-catalogs.md
@@ -72,55 +103,55 @@
       href: create-call-center-catalogs.md
     - name: تكوين أوضاع التسليم والتكاليف
       href: configure-call-center-delivery.md
-    - name: إعداد تنبيهات الاحتيال​
+    - name: إعداد تنبيهات الاحتيال والعمل باستخدامها
       href: set-up-fraud-alerts.md
-    - name: إعداد مركز اتصال
+    - name: إعداد قنوات مركز الاتصال
       href: set-up-order-processing-options.md
-    - name: إعداد برنامج استمرارية لمركز اتصال
+    - name: إعداد برامج الاستمرارية لمراكز الاتصال
       href: set-up-continuity-program.md
-    - name: تعليقات أوامر مركز الاتصال
+    - name: تكوين ‏‫تعليقات أوامر مركز الاتصال‬ والعمل باستخدامها
       href: work-with-order-holds.md
-    - name: خيارات الدفع
+    - name: طرق الدفع
       href: work-with-payments.md
 - name: إعداد القنوات وإدارتها
   items:
-    - name: تهيئة بيانات إضافة قاعدة بيانات في بيئة Retail
+    - name: تهيئة بيانات إضافة قاعدة بيانات في بيئات Retail الجديدة
       href: enable-configure-retail-functionality.md
-    - name: تحديد قنوات البيع بالتجزئة
+    - name: تحديد قنوات البيع بالتجزئة والاحتفاظ بها
       href: define-maintain-retail-channels.md
-    - name: إدارة المجموعات المنوعة
+    - name: إدارة الفرز
       href: assortments.md
-    - name: نظرة عامة على المتجر على الإنترنت
+    - name: إعداد متاجر على الإنترنت
       href: online-stores.md
     - name: تكوين وتثبيت Retail hardware station
       href: retail-hardware-station-configuration-installation.md
-    - name: وقت وحضور Retail
+    - name: الوقت والحضور في Retail
       href: retail-time-attendance.md
 - name: Modern Point of Sale ‏(MPOS) وCloud POS
   items:
-    - name: الاختيار بين Modern POS وCloud POS
+    - name: الاختيار بين MPOS وCloud POS
       href: MPOS-or-CPOS.md
-    - name: عمليات نقطة البيع، أثناء الاتصال وعدم الاتصال
+    - name: عمليات نقطة البيع أثناء الاتصال وعدم الاتصال
       href: pos-operations.md
-    - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة (MPOS)/نقطة بيع المجموعة‬ (CPOS)
+    - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في MPOS وCloud POS
       href: demo-data.md
-    - name: نظرة عامة على البحث عن المنتجات والعملاء في نقطة البيع
+    - name: البحث عن المنتج والعميل في نقطة البيع
       href: POS-search-improvements.md
-    - name: البحث في المخزون في نقطة البيع
+    - name: البحث عن المخزون في نقطة البيع
       href: product-variants-POS.md
     - name: الأجهزة الطرفية للأجهزة
       items:
-        - name: نظرة عامة على الأجهزة الطرفية للبيع بالتجزئة
+        - name: الأجهزة الطرفية للبيع بالتجزئة
           href: retail-peripherals-overview.md
         - name: الأجهزة الطرفية لأجهزة نقطة البيع الخاضعة لاختبارات Microsoft
           href: microsoft-tested-pos-hardware-peripherals.md
         - name: محاكي الأجهزة الطرفية للبيع بالتجزئة
           href: dev-itpro/retail-peripheral-simulator.md
-        - name: تحديد عملاء القنوات، والسجلات، ومحطات الأجهزة والاحتفاظ بها
+        - name: توصيل الأجهزة الطرفية بنقطة البيع
           href: define-maintain-channel-clients-registers-hw-stations.md
-    - name: تخطيط الشاشة
+    - name: تخطيطات الشاشة
       items:
-        - name: تكوين تخطيطات شاشة POS
+        - name: تخطيطات الشاشة لنقطة البيع
           href: pos-screen-layouts.md
         - name: تثبيت مصمم تخطيط Retail POS
           href: install-pos-layout-designer.md
@@ -128,57 +159,57 @@
           href: Notifications-POS.md
         - name: تطبيق نقطة البيع وإعدادات لغة المستخدم
           href: pos-application-user-language-settings.md
-        - name: إعداد صور لنقطة البيع MPOS
+        - name: إعداد الصور لـ MPOS وإدارتها
           href: set-up-manage-images-retail-mpos.md
-    - name: نظرة عامة على أكواد المعلومات
+    - name: رموز المعلومات ومجموعات رموز المعلومات
       href: info-codes-retail.md
     - name: تحسينات نقطة البيع للمنتجات المتسلسلة
       href: serialized-inventory.md
     - name: توصيات المنتجات
       items:
-        - name: نظرة عامة على توصيات المنتجات المخصصة
+        - name: توصيات المنتجات المخصصة
           href: personalized-product-recommendations.md
-        - name: إضافة عنصر تحكم في التوصيات على جهاز نقطة البيع
+        - name: إضافة عنصر تحكم في التوصيات على أجهزة نقطة البيع
           href: add-recommendations-control-pos-screen.md
     - name: وظائف دون الاتصال لنقطة البيع
       href: pos-offline-functionality.md
     - name: إدارة الورديات وأدراج النقد
       href: shift-drawer-management.md
-    - name: أوامر العملاء
+    - name: أوامر العميل
       items:
-        - name: نظرة عامة على أوامر العملاء
+        - name: أوامر العميل في MPOS
           href: customer-orders-overview.md
         - name: أوامر العملاء المختلطة
           href: hybrid-customer-orders.md
     - name: شركاء المبيعات
       items:
-        - name: تعقب العمولات في نقطة البيع (POS) باستخدام مجموعات المبيعات
+        - name: تعقب العمولات في نقطة البيع باستخدام مجموعات المبيعات
           href: pos-sales-groups-track-commissions.md
-    - name: شحن أمر شراء من متجر آخر
+    - name: شحن الأوامر من متجر آخر
       href: charge-send.md
     - name: تنشيط الجهاز
       items:
-        - name: تكوين نقطة البيع الحديثة (MPOS‎) وتثبيتها
+        - name: تكوين MPOS وتثبيته وتنشيطه
           href: retail-modern-pos-device-activation.md
-        - name: إعداد تسجيل الدخول الموسع إلى Cloud POS وMPOS‎
+        - name: إعداد وظيفة تسجيل الدخول الموسع لـ MPOS وCloud POS
           href: extended-logon.md
-        - name: إدارة حسابات Retail والأجهزة من المقر الرئيسي
+        - name: إدارة حسابات تنشيط Retail والتحقق من صحة الأجهزة
           href: set-up-activation-accounts-validate-devices-hq.md
-    - name: إيصالات الاستلام
+    - name: عمليات الاستلام
       items:
-        - name: إعداد قوالب إيصالات الاستلام
+        - name: إعداد تنسيقات إيصالات الاستلام وتصميمها
           href: receipt-templates-printing.md
-        - name: إرسال إيصالات الاستلام عبر البريد الإلكتروني من نقطة بيع حديثة
+        - name: إرسال إيصالات الاستلام عبر البريد الإلكتروني من MPOS
           href: email-receipts.md
-    - name: مسجل المهام ونظام التعليمات في نقطة البيع
+    - name: مسجل المهام ونظام التعليمات لـ MPOS وCloud POS
       href: task-recorder-retail-pos.md
 - name: تنفيذ الأمر
   items:
-    - name: نظرة عامة على تنفيذ أوامر المتجر
+    - name: تنفيذ أمر مخزن
       href: Order-fulfillment-overview.md
-    - name: إعداد التنفيذ في المتجر
+    - name: إعداد تنفيذ أمر للمتاجر
       href: Order-fulfillment-POS-setup.md
-    - name: تمكين الإخطارات في نقطة البيع
+    - name: إظهار إخطارات الأوامر في نقطة البيع
       href: Notifications-POS.md
 - name: الرصد والتحليل
   items:
@@ -192,11 +223,11 @@
       href: assess-customer-product-profitability.md
     - name: تحليل أداء المتجر
       href: store-performance-information.md
-    - name: إعداد تحليل RFM
+    - name: إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM)
       href: set-up-rfm-analysis.md
 - name: الخصومات وتعديلات الأسعار
   items:
-    - name: إدارة سعر مبيعات البيع بالتجزئة
+    - name: إدارة سعر مبيعات Retail
       href: price-management.md
     - name: تعديلات الأسعار والخصومات
       href: price-adjustments-discounts.md
@@ -204,9 +235,9 @@
       href: optimal-combination-overlapping-discounts.md
     - name: تحديد الخصومات الخاصة بالقناة
       href: define-channel-specific-discounts.md
-    - name: منع الخصومات لمنتجات البيع بالتجزئة
+    - name: خيارات لمنع الخصومات لمنتجات البيع بالتجزئة
       href: prevent-discounts.md
-    - name: إنشاء القسائم لمبيعات البيع بالتجزئة
+    - name: إعداد القسائم لمبيعات البيع بالتجزئة
       href: retail-coupons.md
 - name: المنتجات وترويج السلع
   items:
@@ -214,13 +245,13 @@
       href: ../supply-chain/pim/product-information.md
     - name: التدرجات الهرمية للبيع بالتجزئة
       href: retail-hierarchies.md
-    - name: نظرة عامة على السمات ومجموعات السمات
+    - name: السمات ومجموعات السمات
       href: attribute-attributegroups-lifecycle.md
-    - name: إنشاء وإدارة السمات
+    - name: إنشاء السمات وإدارتها
       href: create-manage-attributes.md
     - name: إعداد منتجات البيع بالتجزئة
       href: set-up-retail-products.md
-    - name: إدارة المنتجات والفئات المحسَّنة
+    - name: إدارة فئات منتجات Retail والمنتجات
       href: category-management-product-creation.md
     - name: أبعاد المنتجات
       href: ../supply-chain/pim/product-dimensions.md
@@ -230,7 +261,7 @@
       href: set-up-bar-code-masks.md
     - name: إعداد عمليات الفرز
       href: set-up-assortments.md
-    - name: بيع وإرجاع المنتجات خارج عملية فرز
+    - name: بيع المنتجات غير المضمنة في عمليات فرز المتجر وإرجاعها
       href: sell-return-outside-assortments.md
     - name: إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات
       href: ../supply-chain/production-control/default-order-settings.md
@@ -238,9 +269,9 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: الولاء
   items:
-    - name: إعداد برنامج ولاء العملاء
+    - name: إعداد برامج ولاء العملاء
       href: set-up-customer-loyalty-program.md
-- name: المخزون
+- name: مخزون
   items:
     - name: إدارة مخزون المتجر
       href: work-with-store-inventory.md
@@ -276,25 +307,25 @@
   items:
     - name: فرنسا
       items:
-        - name: آلات تسجيل المدفوعات النقدية الخاصة بفرنسا‎
+        - name: وظيفة سجل النقدية
           href: localizations/emea-fra-cash-registers.md
-        - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية في فرنسا
+        - name: إرشادات التوزيع لآلات تسجيل المدفوعات النقدية
           href: localizations/emea-fra-deployment.md
     - name: الهند
       items:
-        - name: تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
+        - name: تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيل المدفوعات النقدية
           href: localizations/apac-ind-cash-registers.md
-        - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية في الهند
+        - name: إرشادات التوزيع لآلات تسجيل المدفوعات النقدية
           href: localizations/apac-ind-loc-deployment-guidelines.md
     - name: النرويج
       items:
-        - name: آلات تسجيل المدفوعات النقدية الخاصة بالنرويج‎
+        - name: وظيفة آلة تسجيل المدفوعات النقدية
           href: localizations/emea-nor-cash-registers.md
-        - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية في النرويج
+        - name: إرشادات التوزيع لآلات تسجيل المدفوعات النقدية
           href: localizations/emea-nor-loc-deployment-guidelines.md
     - name: السويد
       items:
-        - name: آلات تسجيل المدفوعات النقدية الخاصة بالسويد
+        - name: وظيفة آلة تسجيل المدفوعات النقدية
           href: localizations/emea-swe-cash-registers.md
         - name: عينة لتكامل Retail POS مع وحدات التحكم
           href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
@@ -306,41 +337,41 @@
       href: ../supply-chain/pim/tasks/configure-linked-products.md
     - name: إصدار منتج/أصل منتج إلى كيانات قانونية
       href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
-    - name: ' اتفاقيات الأسعار والتجارة الأساسية'
+    - name: إنشاء اتفاقيات تجارية خاصة بالقناة
       href: tasks/base-price-trade-agreements.md
-    - name: ' قواعد تسعير الفئات لإنشاء اتفاقيات التجارة'
+    - name: إنشاء اتفاقيات تجارية باستخدام قواعد تسعير الفئات
       href: tasks/category-pricing-rules-trade-agreements.md
-    - name: ' تكوين معالجة بطاقة الائتمان'
+    - name: تكوين معالجة بطاقة الائتمان
       href: tasks/configure-credit-card-processing.md
-    - name: ' تكوين ملف تعريف الوظائف لمندوب مبيعات'
+    - name: تكوين ملفات تعريف الوظائف لمندوبي المبيعات
       href: tasks/configure-functionality-profile-sales-representative.md
-    - name: ' تكوين توصيات المنتجات المدعومة بنظام التعلم الآلي'
+    - name: تكوين توصيات المنتجات المدعومة بنظام التعلم الآلي
       href: tasks/configure-machine-learning-product-recommendations.md
-    - name: ' إنشاء وربط جهاز'
+    - name: إنشاء الأجهزة وربطها بالسجلات
       href: tasks/create-associate-device.md
-    - name: إنشاء وربط محطة أجهزة
+    - name: إنشاء محطات الأجهزة
       href: tasks/create-associate-hardware-station.md
-    - name: إنشاء وربط سجلات
+    - name: إنشاء سجلات نقطة البيع
       href: tasks/create-associate-registers.md
     - name: إنشاء أوامر مركز الاتصال
       href: tasks/create-call-center-orders.md
     - name: إنشاء الأبعاد المالية لسجلات نقاط البيع وتكوين قيم الأبعاد في السجلات
       href: tasks/create-financial-dimensions-pos.md
-    - name: ' إنشاء الأبعاد المالية لثنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر'
+    - name: إنشاء الأبعاد المالية لقنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر
       href: tasks/create-financial-dimensions-retail-channels.md
-    - name: ' إنشاء قنوات على الإنترنت وتحديد سمات القناة'
+    - name: إنشاء قنوات على الإنترنت وتحديد سمات القناة
       href: tasks/create-online-channel-define-channel-attributes.md
-    - name: ' إنشاء مجموعات أذونات نقطة البيع'
+    - name: إنشاء مجموعات أذونات نقطة البيع
       href: tasks/create-pos-permission-groups.md
-    - name: ' إنشاء ملف التعريف المرئية لنقطة البيع‬  '
+    - name: إنشاء ملفات تعريف مرئية لنقطة البيع
       href: tasks/create-pos-visual-profile-2016-02.md
-    - name: ' إنشاء حزم المنتجات لأوامر الشراء'
+    - name: إنشاء حزم المنتجات لأوامر الشراء
       href: tasks/create-product-packages-purchase-orders.md
-    - name: ' تحديد قناة مركز الاتصال وسمات القناة'
+    - name: إنشاء قنوات مراكز الاتصال وتحديد سمات القناة
       href: tasks/define-call-center-channel-channel-attributes.md
-    - name: ' تحديد سمات القناة'
+    - name: تحديد سمات القناة
       href: tasks/define-channel-attributes.md
-    - name: ' تحديد جداول الاستمرارية'
+    - name: تحديد جداول الاستمرارية
       href: tasks/define-continuity-schedules.md
     - name: ' تحديد برامج الولاء'
       href: tasks/define-loyalty-programs.md
@@ -352,40 +383,40 @@
       href: tasks/design-relationships-between-organizational-units.md
     - name: إدارة عمليات الفرز
       href: tasks/manage-assortments-2016-11.md
-    - name: تنفيذ الخدمة الذاتية لتنزيل محطة الأجهزة​
+    - name: تنزيل محطة الأجهزة باستخدام الخدمة الذاتية
       href: tasks/perform-self-service-download-hardware-station.md
     - name: ترحيل الدفعات والمبيعات على الإنترنت
       href: tasks/posting-online-sales-payments.md
-    - name: ' معالجة تسويات نقاط مكافأة الولاء'
+    - name: معالجة تسويات نقاط مكافأة الولاء
       href: tasks/process-loyalty-reward-point-adjustments.md
-    - name: دفع المنتجات من مركز توزيع إلى متجر باستخدام دفع المشتري
+    - name: دفع المنتجات من مراكز التوزيع إلى المتاجر عبر دفع المشتري
       href: tasks/push-products-distribution-center-store-buyers-push.md
-    - name: تعديلات سعر البيع بالتجزئة
+    - name: إنشاء تعديلات سعر البيع بالتجزئة
       href: tasks/retail-price-adjustments.md
     - name: إنشاء وتشغيل التقارير الجاهزة​
       href: tasks/run-out-box-reports.md
     - name: إعداد قواعد ومعلمات لتوزيع البضائع ودفع المشتري
       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
-    - name: استخدام برنامج استمرارية​
+    - name: بيع برامج الاستمرارية ومعالجة أوامر المبيعات
       href: tasks/use-continuity-program.md
-    - name: تكوين عامل
+    - name: تكوين عمال البيع بالتجزئة
       href: tasks/worker.md
 - name: تطوير وإدارة البيع بالتجزئة
   href: dev-itpro/dev-retail-home-page.md
   items:
     - name: هندسة
       items:
-        - name: مكونات Microsoft Dynamics 365 for Finance and Operations - Retail
+        - name: مكونات البيع بالتجزئة
           href: retail-components.md
         - name: هندسة Retail Server
           href: dev-itpro/retail-server-architecture.md
-        - name: اتصالات قناة التجزئة
+        - name: Commerce Data Exchange واتصالات قناة البيع بالتجزئة
           href: dev-itpro/define-retail-channel-communications-cdx.md
-        - name: هندسة MPOS
+        - name: هندسة Retail Modern POS
           href: dev-itpro/retail-modern-pos-architecture.md
         - name: هندسة نشر متجر البيع بالتجزئة على الإنترنت​
           href: dev-itpro/retail-online-store-publishing-architecture.md
-        - name: محتوى Power BI لأداء قناة البيع بالتجزئة
+        - name: محتوى Retail Channel Performance Power BI
           href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
         - name: شهادة معايير أمان بيانات تطبيق الدفع (PA-DSS)
           href: dev-itpro/PA-DSS-Certification.md
@@ -393,7 +424,7 @@
           href: retail-onprem.md
     - name: النشر والإصلاحات العاجلة
       items:
-        - name: نظرة عامة على Retail Store Scale Unit
+        - name: Retail Store Scale Unit
           href: dev-itpro/retail-store-system-begin.md
         - name: تكوين وتثبيت Retail Store Scale Unit
           href: dev-itpro/retail-store-scale-unit-configuration-installation.md
@@ -403,7 +434,7 @@
           href: set-up-activation-accounts-validate-devices-hq.md
         - name: تنشيط جهاز Retail POS
           href: dev-itpro/retail-device-activation.md
-        - name: Retail Cloud POS آمنة
+        - name: المساعدة في تأمين Cloud POS في بيئات مشتركة
           href: dev-itpro/secure-retail-cloud-pos.md
         - name: تكوين وتثبيت Retail Hardware Station
           href: retail-hardware-station-configuration-installation.md
@@ -415,9 +446,9 @@
           href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
     - name: دعم الترقية و N-1
       items:
-        - name: نظرة عامة على الترقية ودعم N-1
+        - name: الترقية ودعم N-1 لـ Retail
           href: dev-itpro/overview-upgrade-n-minus1.md
-        - name: تثبيت مكونات N-1
+        - name: تثبيت التطوير التدريجي (N-1) والتكوين والتكوين المرحلي
           href: dev-itpro/n-1-installation-configuration.md
     - name: إرشادات التطبيق
       items:
@@ -437,115 +468,117 @@
           href: pos-screen-layouts.md
         - name: تثبيت مصمم تخطيط POS
           href: install-pos-layout-designer.md
-        - name: تكوين MPOS لوضع العمل دون اتصال​
+        - name: Retail Modern POS في وضع دون اتصال
           href: dev-itpro/retail-modern-pos-offline.md
         - name: "توسيع طريقة عرض شاشة\_POS Dual"
           href: dev-itpro/pos-dual-display-extension.md
-        - name: قابلية التوسعة لمشغل MPOS وCloud POS
+        - name: قابلية التوسعة لمشغل Retail Modern POS و Cloud POS
           href: dev-itpro/modern-pos-trigger-extensibility.md
-        - name: إضافة عنصر تحكم مخصص إلى طريقة عرض نقطة البيع (POS)
+        - name: إضافة عناصر تحكم مخصصة لطرق عرض نقطة البيع (POS)
           href: dev-itpro/pos-custom-control.md
-        - name: إضافة عملية نقطة بيع (POS) جديدة إلى تخطيط نقطة البيع (POS)
+        - name: إضافة عمليات نقطة البيع لمخططات نقطة البيع باستخدام مصمم شريط الأوامر
           href: dev-itpro/add-POS-operations.md
         - name: ملحق دفع نقطة البيع (POS)
           href: dev-itpro/pos-payment-extension.md
-        - name: دعم بطاقة الهدايا الخارجية
+        - name: دعم بطاقات الهدايا الخارجية
           href: dev-itpro/gift-card.md
-        - name: إنشاء تطبيق Retail Experience
+        - name: إنشاء العلامة التجارية وتطبيقها على تطبيق Retail Experience
           href: dev-itpro/create-retail-experience-app.md
-    - name: نظرة عامة على Hardware Station وقابلية التوسعة
+    - name: Hardware Station وقابلية التوسعة
       href: dev-itpro/hardware-station-extensibility.md
     - name: قابلية توسعة Retail Server
       items:
         - name: توسيع وحدة تحكم Retail Server OData
           href: dev-itpro/extend-retail-server-odata-controller.md
-        - name: وحدات تحكم API للويب وOData
+        - name: إنشاء وحدة تحكم API للويب لـ Retail Server
           href: dev-itpro/odata-controllers-api.md
-        - name: عميل خادم البيع بالتجزئة وواجهات API للمستهلك
+        - name: عميل Retail Server وواجهات API للمستهلك
           href: dev-itpro/retail-server-customer-consumer-api.md
-        - name: توسيع بيانات التعريف
+        - name: توسيع وحدة التحكم لبيانات التعريف لـ Retail Server الافتراضي
           href: dev-itpro/extend-metadata.md
-        - name: توسيع وقت التشغيل التجاري لدعم وضع عدم الاتصال لنقطة البيع (POS)
+        - name: الاتصال بخدمة CRT في وضع دون اتصال
           href: dev-itpro/call-crt-service-offline.md
-    - name: قابلية توسعة وقت التشغيل التجاري
+    - name: قابلية توسعة Commerce runtime (CRT)
       items:
-        - name: نظرة عامة حول وقت التشغيل التجاري
+        - name: هندسة CRT والتكوين
           href: dev-itpro/commerce-runtime-overview.md
-        - name: نظرة عامة حول خدمات وقت التشغيل التجاري
+        - name: خدمات CRT
           href: dev-itpro/crt-services.md
-        - name: وقت التشغيل التجاري وقابلية توسعة Retail Server
+        - name: CRT وقابلية توسعة Retail Server
           href: dev-itpro/commerce-runtime-extensibility.md
-        - name: إضافة بيانات تفضيلات العميل إلى قاعدة بيانات القناة​
+        - name: إضافة بيانات تفضيلات العميل إلى قواعد بيانات القناة​
           href: dev-itpro/add-customer-preference-channel.md
-        - name: إضافة خصائص إلى أمر المبيعات
+        - name: إضافة خصائص إلى أوامر المبيعات
           href: dev-itpro/add-properties-sales-order.md
-        - name: قابلية توسعة وقت التشغيل التجاري والمشغلات
+        - name: قابلية توسعة CRT والمشغلات
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
-        - name: 'مثال المشغل: حظر حركة'
+        - name: حظر الحركات باستخدام المشغلات
           href: dev-itpro/trigger-example-blocking-transaction.md
-        - name: 'مثال المشغل: سياسة الإرجاع'
+        - name: تنفيذ سياسة الإرجاع باستخدام المشغلات
           href: dev-itpro/trigger-example-return-policy.md
     - name: قابلية توسعة التجارة الإلكترونية
       items:
-        - name: تكوين متجر عبر الإنترنت
+        - name: تكوين متاجر عبر الإنترنت
           href: dev-itpro/configure-online-store.md
         - name: تكوين موفري المصادقة
           href: dev-itpro/configure-authentication-providers.md
         - name: النظام الأساسي للتجارة الإلكترونية
           href: dev-itpro/ecommerce-platform.md
-        - name: SDK النظام الأساسي للتجارة الإلكترونية
+        - name: النظام الأساسي للتجارة الإلكترونية SDK
           href: dev-itpro/ecommerce-platform-sdk.md
     - name: قابلية توسعة موصل المدفوعات
       items:
-        - name: تكامل الدفع مع الوحدة الطرفية للدفع
+        - name: إنشاء تكامل الدفع للوحدة الطرفية للدفع
           href: dev-itpro/end-to-end-payment-extension.md
         - name: تنفيذ موصل المدفوعات وجهاز الدفع (مستند تقني)
           href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
-        - name: نشر موصل المدفوعات
+        - name: نشر موصلات المدفوعات
           href: dev-itpro/deploy-payment-connector.md
-        - name: إنشاء Windows installer لموصل المدفوعات
+        - name: إنشاء رسائل خطأ مترجمة مخصصة لملحقات الوحدات الطرفية للدفع
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: إنشاء Windows installer لموصلات المدفوعات
           href: dev-itpro/create-windows-installer-payment-connector.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: تكامل Retail SDK مع نظام البناء المستمر
+        - name: دمج نظام البناء للبيع بالتجزئة وFinance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: نماذج قابلية توسعة Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-        - name: حزمة Retail SDK
+        - name: إنشاء حزم بيع بالتجزئة قابلة للنشر
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-        - name: 'أمثلة Retail SDK '
+        - name: أمثلة Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
           items:
             - name: نقاط الامتداد لإيصالات التعبئة
               href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: ملحقات قاعدة بيانات القنوات
           href: dev-itpro/channel-db-extensions.md
-        - name: قابلية توسعة CDX
+        - name: تمكين مزامنة CDX مخصص عبر ملحق
           href: dev-itpro/cdx-extensibility.md
-        - name: إضافة حقول مخصصة إلى لوحة نقطة البيع (POS)
+        - name: إضافة حقول مخصصة إلى لوحة إجمالي نقاط البيع
           href: dev-itpro/custom-field-pos-totals.md
-        - name: سمات الأوامر
+        - name: تحديد سمات أمر وتعيينها
           href: dev-itpro/order-attributes.md
         - name: سمات العميل
           href: dev-itpro/customer-attributes.md
-        - name: 'Retail Typescript وC# proxy'
+        - name: 'Retail Typescript و C# proxies'
           href: dev-itpro/typescript-proxy-retail-pos.md
         - name: تشغيل نماذج Retail POS
           href: dev-itpro/pos-run-samples.md
-        - name: توسيع طرق عرض نقاط البيع الموجودة لإضافة أعمدة مخصصة وأزرار أشرطة التطبيق
+        - name: توسيع طرق عرض نقاط البيع لإضافة أعمدة مخصصة وأزرار أشرطة التطبيق
           href: dev-itpro/pos-view-extension.md
         - name: إضافة عناصر تحكم مخصصة إلى صفحات حركات Retail Modern POS
           href: dev-itpro/pos-custom-transaction.md
         - name: إضافة أعمدة مخصصة إلى شبكة حركة نقطة البيع (POS)
           href: dev-itpro/pos-custom-transaction-column.md
-        - name: استدعاء API أو عملية لنقطة البيع (POS) من ملحق نقطة البيع
+        - name: استدعاء واجهات API لنقاط البيع أو العمليات من ملحقات نقطة البيع
           href: dev-itpro/pos-api-extension.md
         - name: مشغلات Retail Modern POS والطباعة
           href: dev-itpro/pos-trigger-printing.md
-        - name: إضافة عنصر تحكم مخصص إلى طريقة عرض المستند إلى مصمم غير شاشة Retail Modern POS
+        - name: ‏‫إضافة عنصر تحكم مخصص إلى طريقة عرض المستند إلى مصمم غير شاشة Retail Modern POS‬
           href: dev-itpro/pos-control-non-screen.md
-        - name: خطوات التكوين لمطوري Retail العاملين على مربعات التطوير المستضافة على السحابة
+        - name: التطوير في بيئات التطوير المستضافة على الشبكة السحابية دون أن يكون لديهم حق وصول المسؤول
           href: dev-itpro/cloud-dev-box.md
     - name: وقت التشغيل التجاري
       items:

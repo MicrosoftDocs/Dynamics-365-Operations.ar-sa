@@ -19,14 +19,14 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fb7d0dc8b3ff9e8f1e4ade5cacfeed8f1a6871ab
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="electronic-reporting-destinations"></a>وجهات التقارير الإلكترونية‬
+# <a name="electronic-reporting-er-destinations"></a>وجهات التقارير الإلكترونية‬
 
 [!include [banner](../includes/banner.md)]
 

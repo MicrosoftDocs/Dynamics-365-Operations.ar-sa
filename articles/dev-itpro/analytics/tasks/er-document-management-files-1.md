@@ -1,5 +1,5 @@
 --- 
-title: "إعداد نموذج البيانات لاستخدام ملفات إدارة المستندات في مخرجات التنسيق‬"
+title: "إعداد نماذج البيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية"
 description: "تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لاستخدام ملفات إدارة المستندات (مرفقات) في مخرجات التقارير الإلكترونية."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9f99259056fab2d56d1ccf7487681c183551c64f
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fcafaf17315f54594116a143f36e924bc705d839
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="prepare-data-model-to-use-document-management-files-in-format-outputs"></a>إعداد نموذج البيانات لاستخدام ملفات إدارة المستندات في مخرجات التنسيق‬
+# <a name="prepare-data-models-to-use-document-management-files-in-er-output"></a>إعداد نماذج البيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

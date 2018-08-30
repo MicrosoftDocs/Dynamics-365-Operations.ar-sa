@@ -1,6 +1,6 @@
 ---
-title: "إنشاء قسائم البيع بالتجزئة"
-description: "يوفر هذا الموضوع نظرة عامة على قسام البيع بالتجزئة ويشرح كيفية إعدادها."
+title: "إعداد قسائم البيع بالتجزئة"
+description: "يوفر هذا الموضوع نظرة عامة على قسائم البيع بالتجزئة ويشرح كيفية إعدادها."
 author: scott-tucker
 manager: AnnBe
 ms.date: 05/22/2017
@@ -19,14 +19,14 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: c718a71ca270c67118a90456bac0cf182032d3db
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="create-coupons-for-retail-sales"></a>إنشاء قسائم البيع بالتجزئة
+# <a name="set-up-coupons-for-retail-sales"></a>إعداد قسائم البيع بالتجزئة
 
 [!include [banner](includes/banner.md)]
 

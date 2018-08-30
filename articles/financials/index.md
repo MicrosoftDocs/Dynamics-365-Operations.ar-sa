@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -33,16 +33,23 @@ ms.lasthandoff: 06/25/2018
 
 حدد منطقة ميزة لمعرفة المزيد حول هذا الموضوع.
 
-:::row::: :::column::: - [الحسابات الدائنة](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [الحسابات الدائنة](accounts-payable/accounts-payable.md) 
         - [الحسابات المدينة](accounts-receivable/accounts-receivable.md)
         - [إعداد الموازنة](budgeting/budgeting-overview.md) 
         - [إدارة النقد والبنوك](cash-bank-management/cash-bank-management.md)
-        - [محاسبة التكاليف](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [إدارة المصاريف](expense-management/expense-management.md)
+        - [محاسبة التكاليف](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [إدارة المصروفات](expense-management/expense-management.md)
         - [التقارير المالية](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [الأصول الثابتة](fixed-assets/fixed-assets.md)
         - [دفتر الأستاذ العام](general-ledger/general-ledger.md) 
         - [إدارة المشروع](project-management/overview-project-management-accounting.md)
-        - [القطاع العام](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [القطاع العام](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>الموارد الإضافية

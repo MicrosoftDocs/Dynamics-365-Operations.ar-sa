@@ -46,8 +46,6 @@ ms.lasthandoff: 05/31/2018
 
 لرؤية مثال على الكيفية التي يمكنك خلالها مزامنة أمر عمل بين Field Service وFinance and Operations، شاهد فيديو YouTube القصير [مزامنة أمر عمل بين Dynamics 365 for Field Service وFinance and Operations‬‏‫](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
-
 ## <a name="system-requirements-for-finance-and-operations"></a>متطلبات النظام لـ Finance and Operations
 يدعم تكامل Field Service الإصدارات التالية:
 

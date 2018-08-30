@@ -1,5 +1,5 @@
 ---
-title: "تحديد عملاء القنوات، والسجلات، ومحطات الأجهزة والاحتفاظ بها"
+title: "توصيل الأجهزة الطرفية بنقطة البيع (POS)"
 description: "يتناول هذا الموضوع كيفية توصيل الأجهزة الطرفية بنقطة البيع بالتجزئة."
 author: rubencdelgado
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: efce1a6f8b87cbaebcf4436e33e832d49a040329
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 9952ece965f467a19c911219382da00dd25a29e7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>تحديد عملاء القنوات، والسجلات، ومحطات الأجهزة والاحتفاظ بها
+# <a name="connect-peripherals-to-the-point-of-sale-pos"></a>توصيل الأجهزة الطرفية بنقطة البيع (POS)
 
 [!include [banner](includes/banner.md)]
 

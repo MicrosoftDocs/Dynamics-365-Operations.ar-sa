@@ -1,5 +1,5 @@
 ---
-title: "نظرة عامة على إعداد التقارير الإلكتروني"
+title: "إعداد التقارير الإلكترونية"
 description: "يوفر هذا الموضوع نظرة عامة على أداة إعداد التقارير الإلكترونية (ER). وهو يتضمن معلومات حول المفاهيم الأساسية، والسيناريوهات التي تدعمها التقارير الإلكترونية، وقائمة بالتنسيقات التي تم تصميمها إصدارها كجزء من الحل."
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8f0bc18dd7ead37e970b659afbb10243dac5f967
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: a271887c4d2cfe4d0ee6518482dc4ebe407ebe56
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="electronic-reporting-overview"></a>نظرة عامة على إعداد التقارير الإلكترونية
+# <a name="electronic-reporting-er"></a>إعداد التقارير الإلكترونية
 
 [!include [banner](../includes/banner.md)]
 

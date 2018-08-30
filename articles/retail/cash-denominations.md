@@ -1,5 +1,5 @@
 ---
-title: "تكوين الفئات النقدية‬ لنقطة البيع"
+title: "تكوين الفئات النقدية‬ لنقطة البيع (POS)"
 description: "يمكن تكوين فئات العملة‬ للأوراق النقدية والعملات المعدنية في مكتب الخدمة لكي يتم استخدامها من قِبل موظفي الكاشير وشركاء المبيعات‬ والمدراء في المتجر من خلال نقطة البيع."
 author: jblucher
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: afe7c359f284fde10ada377fb19add9819a8dd21
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: afc53754c3ff5b1afed2380369cf8280cfffc5e4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-cash-denominations-for-pos"></a>تكوين الفئات النقدية‬ لنقطة البيع
+# <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>تكوين الفئات النقدية‬ لنقطة البيع (POS)
 
 [!include [banner](includes/banner.md)]
 

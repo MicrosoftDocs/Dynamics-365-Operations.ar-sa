@@ -3,7 +3,7 @@ title: "تكوين خصائص سير العمل"
 description: "يوضح هذا الموضوع كيفية تكوين مختلف خصائص لسير العمل."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 7ea35d851613a19889392400e31cf8492d5dc799
+ms.sourcegitcommit: ba03473dd6fc31d51fd4e890acac1cd1494ef5a3
+ms.openlocfilehash: a327b85f18f03294a237c3795ae2e1f4a97095f0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -107,6 +107,7 @@ ms.lasthandoff: 03/23/2018
     2.  انقر فوق **إدراج عنصر نائب**.
     3.  في القائمة التي تظهر ، حدد العنصر النائب المراد إدراجه.
     4.  انقر فوق **إدراج**.
+    5.  عنصر نائب شائع **نص الإعلام** يجب تضمينه هو "الملاحظات الأخيرة: %Workflow.Last note%"، وهو يعرض تعليقات من الخطوة السابقة.
 
 6.  لإضافة ترجمات النص، اتبع الخطوات التالية:
     1.  انقر فوق **الترجمات**.

@@ -1,5 +1,5 @@
 ---
-title: "تحسينات على ترحيل كشف الحساب"
+title: "تحسينات على وظيفة ترحيل كشف الحساب"
 description: "يصف هذا الموضوع التحسينات التي تم إجراؤها على ميزة ترحيل كشف الحساب."
 author: josaw1
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
-ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
 ms.contentlocale: ar-sa
-ms.lasthandoff: 06/12/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="improvements-to-statement-posting"></a>تحسينات على ترحيل كشف الحساب
+# <a name="improvements-to-statement-posting-functionality"></a>تحسينات على وظيفة ترحيل كشف الحساب
 
 [!include[banner](includes/banner.md)]
 

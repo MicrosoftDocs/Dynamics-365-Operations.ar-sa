@@ -1,5 +1,5 @@
 ---
-title: "دليل مهام جديد أو محدث (نوفمبر 2016)"
+title: "دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)‬"
 description: "يسرد هذا الموضوع دليل المهام الجديد أو المحدث الذي تم إصداره لمكتبة Microsost الموحدة APQC (نوفمبر 2016- جميع اللغات) لـ Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة."
 author: josaw1
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7708c8e091ef561c1a4205a1424a51d51d05002f
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 9d438083cc83a4620f9164afde9add24c267f694
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="new-or-updated-task-guides-november-2016"></a>دليل مهام جديد أو محدث (نوفمبر 2016)
+# <a name="new-or-updated-task-guides-november-2016"></a>دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)‬
 
 [!include [banner](../includes/banner.md)]
 

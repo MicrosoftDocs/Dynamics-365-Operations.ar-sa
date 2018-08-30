@@ -1,5 +1,5 @@
 --- 
-title: "تسجيل موظف في خطة تعويض ثابتة"
+title: "تسجيل الموظفين في خطة التعويض الثابتة"
 description: "بإمكان مدير التعويضات والميزات‬ تعيين الموظفين لخطط التعويض الثابتة لإدارة راتبهم الأساسي."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b8701c42f2477055eae9dba69da30cce1a122f71
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: d84567f0d74b2ab0078eaeda622768e241332043
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>تسجيل موظف في خطة تعويض ثابتة
+# <a name="enroll-employees-in-a-fixed-compensation-plan"></a>تسجيل الموظفين في خطة التعويض الثابتة
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

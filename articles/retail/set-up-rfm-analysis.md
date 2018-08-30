@@ -1,5 +1,5 @@
 ---
-title: "إعداد تحليل RFM"
+title: "إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء"
 description: "يشرح هذا الموضوع كيفية إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء."
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
-ms.openlocfilehash: c59d12c54563b883ae6d8ea8594f423f02797f4f
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 161e526260503d7b91b4695b7c4297cf89327ea2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-rfm-analysis"></a>إعداد تحليل RFM
+# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء
 
 [!include [banner](includes/banner.md)]
 

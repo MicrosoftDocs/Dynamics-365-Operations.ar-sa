@@ -1,5 +1,5 @@
 ---
-title: "إجراءات العاملين [الأسئلة المتداولة]"
+title: "الأسئلة المتداولة حول إجراءات العاملين"
 description: "يحتوي هذا الموضوع على إجابات للأسئلة التي قد تحتاجها إذا كانت مؤسستك تستخدم إجراءات شؤون الموظفين. الإجراءات المتعلقة بالموظفين هي الخطوات الإضافية التي يجب إكمالها عند تنفيذ بعض المهام المتعلقة بالموظفين."
 author: ShielaSogge
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="personnel-actions-faq"></a>إجراءات العاملين [الأسئلة المتداولة]
+# <a name="personnel-actions-faq"></a>الأسئلة المتداولة حول إجراءات العاملين
 
 [!include [banner](includes/banner.md)]
 

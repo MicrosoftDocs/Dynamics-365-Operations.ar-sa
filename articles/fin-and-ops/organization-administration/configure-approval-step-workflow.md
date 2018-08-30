@@ -1,5 +1,5 @@
 ---
-title: "تكوين خطوة اعتماد في سير عمل"
+title: "تكوين خطوات الاعتماد في سير عمل"
 description: "يوضح هذا الموضوع كيفية تكوين خصائص خطوة اعتماد."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>تكوين خطوة اعتماد في سير عمل
+# <a name="configure-approval-steps-in-a-workflow"></a>تكوين خطوات الاعتماد في سير عمل
 
 [!include [banner](../includes/banner.md)]
 

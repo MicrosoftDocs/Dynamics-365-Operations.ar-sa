@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [محتوى Power BI - نظرة عامة على المدير المالي](CFO-power-bi.md)
 - [محتوى Power BI - التعويض](compensation-power-bi.md)
 - [محتوى Power BI لتحليل محاسبة التكاليف](cost-accounting-analysis-content-pack.md) 
-- [محتوى Power BI لإدارة التكلفة](cost-management-content-pack.md)    
+- [محتوى Power BI لإدارة التكلفة](cost-management-content-pack.md)
 - [محتوى Power BI - إدارة التحصيلات والائتمان](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [محتوى Power BI - تطوير الموظفين](employee-development-PBI.md) 
 - [محتوى Power BI المعلومات المالية](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [محتوى Power BI لأداء المبيعات والربحية](sales-profitability-performance-content-pack.md)
 - [محتوى Power BI - ‏‫مدفوعات المورّد‬](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [محتوى Power BI لأداء المستودع](warehouse-power-bi-content.md)
-- [محتوى Power BI لمقاييس القوى العاملة](workforce-analysis-power-bi-content-pack.md)  
+- [محتوى Power BI لمقاييس القوى العاملة](workforce-analysis-power-bi-content-pack.md)
 

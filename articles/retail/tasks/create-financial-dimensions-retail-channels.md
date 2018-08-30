@@ -1,5 +1,5 @@
 --- 
-title: " إنشاء الأبعاد المالية لثنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر"
+title: "إنشاء الأبعاد المالية لقنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر"
 description: "يتناول هذا الإجراء إنشاء بعد مالي لقنوات البيع بالتجزئة بقيم الأبعاد والخطوات لتكوين قيم الأبعاد المالية في متاجر البيع بالتجزئة."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5ab4df61ab1e1346eaaf5c586f54a06b7b7432e1
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: cf32d17a36fd699141ce697d23e20b2eb5cbfa54
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a> إنشاء الأبعاد المالية لثنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر
+# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>إنشاء الأبعاد المالية لقنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

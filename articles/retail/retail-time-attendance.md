@@ -1,5 +1,5 @@
 ---
-title: "وقت التجزئة والحضور"
+title: "إدارة الوقت والحضور في Retail"
 description: "يصف هذا الموضوع السيناريوهات المعتمدة لإدارة الوقت والحضور في Microsoft Dynamics 365 for Retail."
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>وقت البيع بالتجزئة والحضور
+# <a name="time-and-attendance-management-in-retail"></a>إدارة الوقت والحضور في Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -122,13 +122,13 @@ ms.lasthandoff: 11/03/2017
 -   يمكنك استخدام نوع النشاط وتخزين عوامل التصفية لتصفية تسجيلات الوقت.
 
 ## <a name="process-and-manage-time-registrations"></a>معالجة وإدارة تسجيلات الوقت
-يتبع مستخدم Dynamics 365 for Retail سير العمل لحساب تسجيلات الوقت للرواتب والموافقة عليها ونقلها.
+يتبع مستخدم Dynamics 365 for Retail سير العمل لحساب تسجيلات الوقت للمرتبات والموافقة عليها ونقلها.
 
 ### <a name="primary-operations"></a>العمليات الأساسية
 
 -   حساب
 -   موافقة
--   إرسال للرواتب
+-   إرسال للمرتبات
 
 ### <a name="other-common-operations"></a>العمليات العامة الأخرى
 

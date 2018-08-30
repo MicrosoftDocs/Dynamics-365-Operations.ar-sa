@@ -1,5 +1,5 @@
 ---
-title: "نظرة عامة على التنبيهات"
+title: "التنبيهات"
 description: "يوفر هذا الموضوع معلومات عامة حول التنبيهات في Microsoft Dynamics 365 for Finance and Operations. يمكنك استخدام التنبيهات للتعرف على الأحداث التي تريد تعقبها أثناء يوم العمل."
 author: tjvass
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad9373faa19761cccca2b5d581de05f0ac9dd165
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="alerts-overview"></a>نظرة عامة على التنبيهات
+# <a name="alerts"></a>التنبيهات
 
 [!include [banner](../includes/banner.md)]
 

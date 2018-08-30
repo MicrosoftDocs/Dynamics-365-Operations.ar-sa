@@ -1,5 +1,5 @@
 ---
-title: "عمليات نقطة البيع، أثناء الاتصال وعدم الاتصال"
+title: "عمليات نقاط البيع (POS) أثناء الاتصال وعدم الاتصال بالإنترنت"
 description: "يوفر هذا الموضوع تفاصيل حول عمليات نقطة البيع (POS) في Microsoft Dynamics 365 for Retail. ويحدد المكان في التطبيق حيث يمكن استدعاء العمليات، وما إذا كانت متوفرة في الوضع \"غير متصل\".‬"
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="pos-operations-online-and-offline"></a>عمليات نقطة البيع، أثناء الاتصال وعدم الاتصال
+# <a name="online-and-offline-point-of-sale-pos-operations"></a>عمليات نقاط البيع (POS) أثناء الاتصال وعدم الاتصال بالإنترنت
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: " إنشاء مجموعات أذونات نقطة البيع"
+title: "إنشاء مجموعات أذونات نقطة البيع (POS)"
 description: "سيظهر هذا الإجراء كيفية إنشاء مجموعة أذونات نقطة البيع."
 author: scott-tucker
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bcda7c3a5c2cc97fbc6e4945e4d5f0ec42a7a478
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: a0d2041326856688caa3da01bfb50a2942232ada
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-pos-permission-groups"></a> إنشاء مجموعات أذونات نقطة البيع
+# <a name="create-point-of-sale-pos-permission-groups"></a>إنشاء مجموعات أذونات نقطة البيع (POS)
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "‏‫الأجهزة الطرفية لنقطة البيع"
+title: "الأجهزة الطرفية لأجهزة نقطة البيع (POS) الخاضعة لاختبارات Microsoft"
 description: "باستطاعة نقطة البيع بالتجزئة الحديثة (POS) ونقطة بيع المجموعة استخدام مجموعة واسعة من الأجهزة الطرفية، مع واجهات وخيارات نشر متعددة لتحقيق سيناريوهات أعمال مختلفة لبائع التجزئة."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fbfb176f2504be8aaf67992d094da1daeefeb76
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e4191f6765faf9de5cbf8acf16dbd54d6b478252
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>‏‫الأجهزة الطرفية لنقطة البيع
+# <a name="microsoft-tested-point-of-sale-pos-hardware-peripherals"></a>الأجهزة الطرفية لأجهزة نقطة البيع (POS) الخاضعة لاختبارات Microsoft
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "إنشاء تكوين تعيين نموذج (التقارير الإلكترونية)"
+title: "إنشاء تكوينات لتعيين نماذج التقارير الإلكترونية"
 description: "استخدم هذا الإجراء لتصميم تكوين جديد لتعيين نموذج التقارير الإلكترونية، واستخدم وظائف التقارير الإلكترونية المدمجة لإجراء حسابات مجمعة فعالة."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: f7206126bfa6150078f1bfb4f7e07c1cf2819ce0
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 614ef06fcf5761f1cf2afb6e7655558d2858d763
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-a-model-mapping-configuration-er"></a>إنشاء تكوين تعيين نموذج (التقارير الإلكترونية)
+# <a name="create-electronic-reporting-er-model-mapping-configurations"></a>إنشاء تكوينات لتعيين نماذج التقارير الإلكترونية
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
