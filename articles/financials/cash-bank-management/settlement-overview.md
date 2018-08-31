@@ -3,7 +3,7 @@ title: "نظرة عامة على التسوية"
 description: "توفر هذه المقالة معلومات عامة حول عملية التسوية. فهي تصف أنواع الحركات التي يمكن تسويتها، متى وكيف يمكن تسوية الحركات، ونتائج عملية التسوية."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: a96bdd8088e72bc0526589bde94242c3acf39a54
+ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
+ms.openlocfilehash: dc986b083082b590627f171a359f95099e21d2f5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/31/2018
 
 ---
 
@@ -51,7 +51,6 @@ ms.lasthandoff: 08/07/2018
 -   <span data-ttu-id="91c24-152">إذا كان مبلغ الدفع يساوي مبلغ الفاتورة، يتم إغلاق كلٍّ من الدفعة والفاتورة، ويساوي رصيد كلاهما 0.00.</span><span class="sxs-lookup"><span data-stu-id="91c24-152">If the payment amount equals the invoice amount, both the payment and the invoice are closed, and the balance of both is 0.00.</span></span>
 
 <span data-ttu-id="91c24-153">إذا كانت [دفعة أقل من مبلغ الفاتورة](../accounts-payable/vendor-payments-partial-amount.md) بسبب الخصم النقدي أو الشطب أو النقصان، فلا يزال من الممكن إغلاق الفاتورة والدفعة، وفقًا لإعداد التسوية في معلمات الحسابات الدائنة ومعلمات الحسابات المدينة.</span><span class="sxs-lookup"><span data-stu-id="91c24-153">If a [payment is less than the invoice amount](../accounts-payable/vendor-payments-partial-amount.md) because of a cash discount, write-off, or underpayment, the invoice and payment might still be closed, depending on the setup of settlement in Accounts payable parameters and Accounts receivable parameters.</span></span> <span data-ttu-id="91c24-154">كما يمكن للتسوية إنشاء الحركات.</span><span class="sxs-lookup"><span data-stu-id="91c24-154">Settlement can also generate transactions.</span></span> <span data-ttu-id="91c24-155">على سبيل المثال، قد تنتج تسوية الفاتورة والدفعة خصمًا نقديًا أو أرباح محققة أو تسويات ضريبة المبيعات أو عمليات الشطب أو الفروق النقدية.</span><span class="sxs-lookup"><span data-stu-id="91c24-155">For example, the settlement of an invoice and payment might produce a cash discount, realized gain or loss, sales tax adjustments, write-offs, or penny differences.</span></span>
-
 
 
 
