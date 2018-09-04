@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 056bc38fc69422b17b1b7720ce37089b27e8aa2e
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -55,11 +55,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="915df-125">إنشاء الفواتير المتكررة</span><span class="sxs-lookup"><span data-stu-id="915df-125">Generate the recurring invoices</span></span>
 <span data-ttu-id="915df-126">في صفحة **الفواتير المتكررة**، هناك مهمة تعالج قوالب الفواتير المتكررة.</span><span class="sxs-lookup"><span data-stu-id="915df-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="915df-127">ويمكنك تحديد تاريخ الفاتورة والقالب لإنشاء الفواتير منه.</span><span class="sxs-lookup"><span data-stu-id="915df-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="915df-128">وسيتم إنشاء الفواتير وتعيين رقم معرف تكرار واحد لكل مجموعة من الفواتير تتم معالجتها.</span><span class="sxs-lookup"><span data-stu-id="915df-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
-<span data-ttu-id="915df-129">ترحيل فواتير النص الحر المتكررة</span><span class="sxs-lookup"><span data-stu-id="915df-129">Post recurring free text invoices</span></span>
+
+<a name="post-recurring-free-text-invoices"></a><span data-ttu-id="915df-129">ترحيل فواتير النص الحر المتكررة</span><span class="sxs-lookup"><span data-stu-id="915df-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
 <span data-ttu-id="915df-130">بعد إنشاء الفواتير المتكررة، تظهر معرفات تكرار الفاتورة في مهمة ترحيل في صفحة **الفواتير المتكررة**.</span><span class="sxs-lookup"><span data-stu-id="915df-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="915df-131">يمكنك عرض كافة الفواتير للحصول على معرف تكرار عن طريق النقر فوق الارتباط.</span><span class="sxs-lookup"><span data-stu-id="915df-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="915df-132">وأثناء مراجعة الفواتير لمعرفة معرف التكرار، يمكنك حذف الفواتير الفردية.</span><span class="sxs-lookup"><span data-stu-id="915df-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="915df-133">وستتم إعادة تعيين إعدادات التكرار الخاصة بالعميل لهذا القالب، بحيث يمكن إعادة إنشائه لاحقاً.</span><span class="sxs-lookup"><span data-stu-id="915df-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="915df-134">ويمكنك ترحيل واحد أو العديد من أو كافة الفواتير لمعرف التكرار.</span><span class="sxs-lookup"><span data-stu-id="915df-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="915df-135">وإذا تم تمكين مهام سير العمل، يجب عليك النقر فوق **إرسال** قبل التمكن من ترحيل الفواتير.</span><span class="sxs-lookup"><span data-stu-id="915df-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
-<span data-ttu-id="915df-136">طباعة فواتير النص الحر المتكررة</span><span class="sxs-lookup"><span data-stu-id="915df-136">Print recurring free text invoices</span></span>
+
+<a name="print-recurring-free-text-invoices"></a><span data-ttu-id="915df-136">طباعة فواتير النص الحر المتكررة</span><span class="sxs-lookup"><span data-stu-id="915df-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
 <span data-ttu-id="915df-137">بعد ترحيل الفواتير المتكررة، يمكنك طباعة الفواتير من صفحة قائمة فواتير النص الحر.</span><span class="sxs-lookup"><span data-stu-id="915df-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="915df-138">يمكنك طباعة الفواتير التي تم تحديدها، أو يمكنك تحديد مجموعة من الفواتير للطباعة.</span><span class="sxs-lookup"><span data-stu-id="915df-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
