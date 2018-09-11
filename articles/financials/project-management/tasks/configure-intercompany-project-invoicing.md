@@ -3,24 +3,25 @@ title: "تكوين فوترة المشروع بين الشركات الشقيق�
 description: "يوضح هذا الإجراء كيفية إعداد فوترة المشروع بين شركتين في مؤسستك."
 author: KimANelson
 manager: AnnBe
-ms.date: 02/13/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: cd871f1182217bf5cab34c1e38e8f0d9cc3808cd
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 33b36e032bdecb13718e6eb8cd7a203f9a7b85f6
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="configure-intercompany-project-invoicing"></a><span data-ttu-id="8a5d9-103">تكوين فوترة المشروع بين الشركات الشقيقة</span><span class="sxs-lookup"><span data-stu-id="8a5d9-103">Configure intercompany project invoicing</span></span>

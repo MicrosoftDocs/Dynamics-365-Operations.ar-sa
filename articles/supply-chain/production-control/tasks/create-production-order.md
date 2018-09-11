@@ -1,26 +1,27 @@
----
+--- 
 title: "إنشاء أمر إنتاج"
 description: "يوضح هذا الإجراء كيفية إنشاء أمر إنتاج."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 929864a22db2e9fbfcdbeb8f963bac2293612cfb
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: fa2327f7162ac32daaf96b00a335eda34871ec46
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-production-order"></a><span data-ttu-id="88a12-103">إنشاء أمر إنتاج</span><span class="sxs-lookup"><span data-stu-id="88a12-103">Create a production order</span></span>
@@ -69,4 +70,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="88a12-146">يؤثر تغيير وقت المعالجة على استهلاك المسار المقدر وتكلفة أمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="88a12-146">Changing the process time affects the estimated route consumption and the cost of the production order.</span></span>  
 6. <span data-ttu-id="88a12-147">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="88a12-147">Click Save.</span></span>
 7. <span data-ttu-id="88a12-148">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="88a12-148">Close the page.</span></span>
+
 

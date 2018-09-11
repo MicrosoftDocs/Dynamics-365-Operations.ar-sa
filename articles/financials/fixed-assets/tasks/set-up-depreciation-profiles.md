@@ -3,23 +3,24 @@ title: "إعداد وإنشاء ملفات تعريف الإهلاك"
 description: "تحدد ملفات تعريف الإهلاك نوع الإهلاك ومدى تكراره لأصل ما."
 author: saraschi2
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: f7043572b39e7c42c82284aed9d363f8fc8e85b6
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 361198d078cae4202c9f20b5181a96cbbd8d4da3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a><span data-ttu-id="f2f65-103">إعداد وإنشاء ملفات تعريف الإهلاك</span><span class="sxs-lookup"><span data-stu-id="f2f65-103">Set up and create depreciation profiles</span></span>

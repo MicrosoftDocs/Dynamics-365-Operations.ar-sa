@@ -3,24 +3,25 @@ title: "تسجيل برنامج تسجيل دخول وتسجيل خروج الس
 description: "يوضح هذا الإجراء كيفية تسجيل عمليات تسجيل دخول السائق وخروجه."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TMSDriverLogListPage, TMSDriverCheckIn
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: a2eba449c07b920294f7e35e03dc1073e43a744c
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: f0cc6f05b609b703f563c56b69ecfa158f47b8f3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="7c6cb-103">تسجيل برنامج تسجيل دخول وتسجيل خروج السائق لموعد</span><span class="sxs-lookup"><span data-stu-id="7c6cb-103">Register driver check-in and check-out for an appointment</span></span>

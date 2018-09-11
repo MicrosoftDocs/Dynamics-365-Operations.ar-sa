@@ -1,26 +1,27 @@
----
+--- 
 title: "نقل المخزون الفعلي داخل المستودع"
 description: "يوضح لك الإجراء عملية إنشاء دفتر يومية تحويل مخزون وترحيله لتسجيل حركة صنف من موقع لآخر بأحد المستودعات."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 8569ff744e11fb0348dedc4e1e56894203b7b7a3
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 41057d0a35cab122840a20a5c65ab7ae3133052c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a><span data-ttu-id="ab9ac-103">نقل المخزون الفعلي داخل المستودع</span><span class="sxs-lookup"><span data-stu-id="ab9ac-103">Transfer physical inventory within the warehouse</span></span>
@@ -67,4 +68,5 @@ ms.lasthandoff: 08/07/2018
 1. <span data-ttu-id="ab9ac-142">انقر فوق المخزون.</span><span class="sxs-lookup"><span data-stu-id="ab9ac-142">Click Inventory.</span></span>
 2. <span data-ttu-id="ab9ac-143">انقر فوق "الحركات".</span><span class="sxs-lookup"><span data-stu-id="ab9ac-143">Click Transactions.</span></span>
     * <span data-ttu-id="ab9ac-144">هنا يمكنك أن ترى الحركات التي تم إنشاؤها عندما قمت بترحيل دفتر اليومية الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="ab9ac-144">Here you can see the transactions that were created when you posted your journal.</span></span>  
+
 

@@ -3,81 +3,82 @@ title: "إنشاء مورد عمليات"
 description: "ينفذ مورد العمليات أنشطة مشروع أو عملية إنتاج."
 author: sorenva
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WrkCtrTable
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 274440254d64697642e816278ea882ca4e574bd7
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: f0a77e9fc474a90c31dde8b4e8b12c2456cee4c8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
-# <a name="create-an-operations-resource"></a><span data-ttu-id="4d717-103">إنشاء مورد عمليات</span><span class="sxs-lookup"><span data-stu-id="4d717-103">Create an operations resource</span></span>
+# <a name="create-an-operations-resource"></a><span data-ttu-id="ebf3e-103">إنشاء مورد عمليات</span><span class="sxs-lookup"><span data-stu-id="ebf3e-103">Create an operations resource</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4d717-104">ينفذ مورد العمليات أنشطة مشروع أو عملية إنتاج.</span><span class="sxs-lookup"><span data-stu-id="4d717-104">An operations resource performs the activities of a project or a production process.</span></span> <span data-ttu-id="4d717-105">يوضح هذا الإجراء كيفية تعريف مورد عمليات.</span><span class="sxs-lookup"><span data-stu-id="4d717-105">This procedure shows you how to define an operations resource.</span></span> <span data-ttu-id="4d717-106">يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="4d717-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="ebf3e-104">ينفذ مورد العمليات أنشطة مشروع أو عملية إنتاج.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-104">An operations resource performs the activities of a project or a production process.</span></span> <span data-ttu-id="ebf3e-105">تُظهر هذه الإجراءات كيفية تعريف مورد عمليات.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-105">This procedures shows you how to define an operations resource.</span></span> <span data-ttu-id="ebf3e-106">يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="4d717-107">انتقل إلى "الموارد".</span><span class="sxs-lookup"><span data-stu-id="4d717-107">Go to Resources.</span></span>
-2. <span data-ttu-id="4d717-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="4d717-108">Click New.</span></span>
-3. <span data-ttu-id="4d717-109">في الحقل "المورد"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="4d717-109">In the Resource field, type a value.</span></span>
-4. <span data-ttu-id="4d717-110">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="4d717-110">In the Description field, type a value.</span></span>
+1. <span data-ttu-id="ebf3e-107">انتقل إلى "الموارد".</span><span class="sxs-lookup"><span data-stu-id="ebf3e-107">Go to Resources.</span></span>
+2. <span data-ttu-id="ebf3e-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ebf3e-108">Click New.</span></span>
+3. <span data-ttu-id="ebf3e-109">في الحقل "المورد"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-109">In the Resource field, type a value.</span></span>
+4. <span data-ttu-id="ebf3e-110">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-110">In the Description field, type a value.</span></span>
 
-## <a name="define-capacity-and-consumption-parameters"></a><span data-ttu-id="4d717-111">تعريف محددات القدرة والاستهلاك</span><span class="sxs-lookup"><span data-stu-id="4d717-111">Define capacity and consumption parameters</span></span>
-1. <span data-ttu-id="4d717-112">وسّع مقطع "العملية".</span><span class="sxs-lookup"><span data-stu-id="4d717-112">Expand the Operation section.</span></span>
-2. <span data-ttu-id="4d717-113">في حقل النسبة المئوية للخردة، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="4d717-113">In the Scrap percentage field, enter a number.</span></span>
-3. <span data-ttu-id="4d717-114">في حقل فئة "الإعداد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4d717-114">In the Setup category field, enter or select a value.</span></span>
-    * <span data-ttu-id="4d717-115">حدد فئة التكلفة التي تحدد كيفية حساب تكلفة الإعداد.</span><span class="sxs-lookup"><span data-stu-id="4d717-115">Specify the cost category that defines how to account for the cost of setup.</span></span>  
-4. <span data-ttu-id="4d717-116">في حقل "وقت التشغيل"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4d717-116">In the Run time category field, enter or select a value.</span></span>
-    * <span data-ttu-id="4d717-117">حدد فئة التكلفة التي تحدد كيفية حساب تكلفة وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="4d717-117">Specify the cost category that defines how to account for the cost of run time.</span></span>  
-5. <span data-ttu-id="4d717-118">في حقل "فئة الكمية‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4d717-118">In the Quantity category field, enter or select a value.</span></span>
-    * <span data-ttu-id="4d717-119">حدد فئة التكلفة التي تحدد كيفية حساب تكلفة الموارد استنادًا إلى كمية المخرجات.</span><span class="sxs-lookup"><span data-stu-id="4d717-119">Specify the cost category that defines how to account for the resource cost based on the output quantity.</span></span>  
-6. <span data-ttu-id="4d717-120">في الحقل "وحدة القدرة"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="4d717-120">In the Capacity unit field, select an option.</span></span>
-    * <span data-ttu-id="4d717-121">حدد الوحدة حيث يمكن التعبير عن قدرة موارد العمليات.</span><span class="sxs-lookup"><span data-stu-id="4d717-121">Specify the unit in which to express the capacity of the operations resource.</span></span>  
-7. <span data-ttu-id="4d717-122">في حقل "القدرة"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="4d717-122">In the Capacity field, enter a number.</span></span>
-8. <span data-ttu-id="4d717-123">في حقل "النسبة المئوية للفعالية‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="4d717-123">In the Efficiency percentage field, enter a number.</span></span>
-    * <span data-ttu-id="4d717-124">حدد الكفاءة التي تتوقعها من مورد العمليات.</span><span class="sxs-lookup"><span data-stu-id="4d717-124">Specify the efficiency that you expect from the operations resource.</span></span> <span data-ttu-id="4d717-125">تضبط النسبة المئوية للكفاءة إنتاجية‬ مورد العمليات وتؤثر على الوقت المحجوز للمورد.</span><span class="sxs-lookup"><span data-stu-id="4d717-125">The efficiency percentage adjusts the throughput of the operations resource and affects the time that is reserved for the resource.</span></span>  
-9. <span data-ttu-id="4d717-126">في حقل النسبة المئوية لجدولة العمليات، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="4d717-126">In the Operations scheduling percentage field, enter a number.</span></span>
-    * <span data-ttu-id="4d717-127">حدد الحد الأقصى للنسبة المئوية لقدرة مورد العمليات الذي تريد استخدامه في جدولة العمليات.</span><span class="sxs-lookup"><span data-stu-id="4d717-127">Specify the maximum percentage of capacity of the operations resource that you want to use in operations scheduling.</span></span>  
-10. <span data-ttu-id="4d717-128">حدد "نعم" في الحقل "قدرة محدودة‬".</span><span class="sxs-lookup"><span data-stu-id="4d717-128">Select Yes in the Finite capacity field.</span></span>
-    * <span data-ttu-id="4d717-129">عيّن هذا الخيار إلى "نعم" إذا كان يجب جدولة مورد العمليات استنادًا إلى القدرة الفعلية المتوفرة، وإذا كان يجب أخذ حجوزات القدرة الإنتاجية الموجودة في الاعتبار.</span><span class="sxs-lookup"><span data-stu-id="4d717-129">Set this option to Yes if the operations resource should be scheduled based on the actual capacity that is available, and if existing capacity reservations should be considered.</span></span> <span data-ttu-id="4d717-130">إذا تم تعيين هذا الخيار إلى "لا"، سيتم افتراض أن مورد العمليات ذا قدرة غير محدودة‬‏‫، وقد تكون الموارد تجاوزت الحجز‬.</span><span class="sxs-lookup"><span data-stu-id="4d717-130">If this option is set to No, the operations resource is assumed to have infinite capacity, and the resource might be overbooked.</span></span>  
-11. <span data-ttu-id="4d717-131">حدد "نعم" في حقل "مورد التعامل مع الأزمات‬".</span><span class="sxs-lookup"><span data-stu-id="4d717-131">Select Yes in the Bottleneck resource field.</span></span>
+## <a name="define-capacity-and-consumption-parameters"></a><span data-ttu-id="ebf3e-111">تعريف محددات القدرة والاستهلاك</span><span class="sxs-lookup"><span data-stu-id="ebf3e-111">Define capacity and consumption parameters</span></span>
+1. <span data-ttu-id="ebf3e-112">وسّع مقطع "العملية".</span><span class="sxs-lookup"><span data-stu-id="ebf3e-112">Expand the Operation section.</span></span>
+2. <span data-ttu-id="ebf3e-113">في حقل النسبة المئوية للخردة، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-113">In the Scrap percentage field, enter a number.</span></span>
+3. <span data-ttu-id="ebf3e-114">في حقل فئة "الإعداد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-114">In the Setup category field, enter or select a value.</span></span>
+    * <span data-ttu-id="ebf3e-115">حدد فئة التكلفة التي تحدد كيفية حساب تكلفة الإعداد.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-115">Specify the cost category that defines how to account for the cost of setup.</span></span>  
+4. <span data-ttu-id="ebf3e-116">في حقل "وقت التشغيل"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-116">In the Run time category field, enter or select a value.</span></span>
+    * <span data-ttu-id="ebf3e-117">حدد فئة التكلفة التي تحدد كيفية حساب تكلفة وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-117">Specify the cost category that defines how to account for the cost of run time.</span></span>  
+5. <span data-ttu-id="ebf3e-118">في حقل "فئة الكمية‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-118">In the Quantity category field, enter or select a value.</span></span>
+    * <span data-ttu-id="ebf3e-119">حدد فئة التكلفة التي تحدد كيفية حساب تكلفة الموارد استنادًا إلى كمية المخرجات.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-119">Specify the cost category that defines how to account for the resource cost based on the output quantity.</span></span>  
+6. <span data-ttu-id="ebf3e-120">في الحقل "وحدة القدرة"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-120">In the Capacity unit field, select an option.</span></span>
+    * <span data-ttu-id="ebf3e-121">حدد الوحدة حيث يمكن التعبير عن قدرة موارد العمليات.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-121">Specify the unit in which to express the capacity of the operations resource.</span></span>  
+7. <span data-ttu-id="ebf3e-122">في حقل "القدرة"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-122">In the Capacity field, enter a number.</span></span>
+8. <span data-ttu-id="ebf3e-123">في حقل "النسبة المئوية للفعالية‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-123">In the Efficiency percentage field, enter a number.</span></span>
+    * <span data-ttu-id="ebf3e-124">حدد الكفاءة التي تتوقعها من مورد العمليات.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-124">Specify the efficiency that you expect from the operations resource.</span></span> <span data-ttu-id="ebf3e-125">تضبط النسبة المئوية للكفاءة إنتاجية‬ مورد العمليات وتؤثر على الوقت المحجوز للمورد.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-125">The efficiency percentage adjusts the throughput of the operations resource and affects the time that is reserved for the resource.</span></span>  
+9. <span data-ttu-id="ebf3e-126">في حقل النسبة المئوية لجدولة العمليات، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-126">In the Operations scheduling percentage field, enter a number.</span></span>
+    * <span data-ttu-id="ebf3e-127">حدد الحد الأقصى للنسبة المئوية لقدرة مورد العمليات الذي تريد استخدامه في جدولة العمليات.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-127">Specify the maximum percentage of capacity of the operations resource that you want to use in operations scheduling.</span></span>  
+10. <span data-ttu-id="ebf3e-128">حدد "نعم" في الحقل "قدرة محدودة‬".</span><span class="sxs-lookup"><span data-stu-id="ebf3e-128">Select Yes in the Finite capacity field.</span></span>
+    * <span data-ttu-id="ebf3e-129">عيّن هذا الخيار إلى "نعم" إذا كان يجب جدولة مورد العمليات استنادًا إلى القدرة الفعلية المتوفرة، وإذا كان يجب أخذ حجوزات القدرة الإنتاجية الموجودة في الاعتبار.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-129">Set this option to Yes if the operations resource should be scheduled based on the actual capacity that is available, and if existing capacity reservations should be considered.</span></span> <span data-ttu-id="ebf3e-130">إذا تم تعيين هذا الخيار إلى "لا"، سيتم افتراض أن مورد العمليات ذا قدرة غير محدودة‬‏‫، وقد تكون الموارد تجاوزت الحجز‬.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-130">If this option is set to No, the operations resource is assumed to have infinite capacity, and the resource might be overbooked.</span></span>  
+11. <span data-ttu-id="ebf3e-131">حدد "نعم" في حقل "مورد التعامل مع الأزمات‬".</span><span class="sxs-lookup"><span data-stu-id="ebf3e-131">Select Yes in the Bottleneck resource field.</span></span>
 
-## <a name="define-working-times"></a><span data-ttu-id="4d717-132">تحديد أوقات العمل</span><span class="sxs-lookup"><span data-stu-id="4d717-132">Define working times</span></span>
-1. <span data-ttu-id="4d717-133">وسّع مقطع "التقويمات".</span><span class="sxs-lookup"><span data-stu-id="4d717-133">Expand the Calendars section.</span></span>
-2. <span data-ttu-id="4d717-134">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="4d717-134">Click Add.</span></span>
-3. <span data-ttu-id="4d717-135">في حقل "التقويم"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4d717-135">In the Calendar field, enter or select a value.</span></span>
-    * <span data-ttu-id="4d717-136">حدد تقويم وقت العمل الذي يعرّف قدرة المورد (بالساعات).</span><span class="sxs-lookup"><span data-stu-id="4d717-136">Specify the working time calendar that defines the capacity (in hours) of the resource.</span></span>  
-4. <span data-ttu-id="4d717-137">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="4d717-137">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="4d717-138">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="4d717-138">In the list, click the link in the selected row.</span></span>
+## <a name="define-working-times"></a><span data-ttu-id="ebf3e-132">تحديد أوقات العمل</span><span class="sxs-lookup"><span data-stu-id="ebf3e-132">Define working times</span></span>
+1. <span data-ttu-id="ebf3e-133">وسّع مقطع "التقويمات".</span><span class="sxs-lookup"><span data-stu-id="ebf3e-133">Expand the Calendars section.</span></span>
+2. <span data-ttu-id="ebf3e-134">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-134">Click Add.</span></span>
+3. <span data-ttu-id="ebf3e-135">في حقل "التقويم"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-135">In the Calendar field, enter or select a value.</span></span>
+    * <span data-ttu-id="ebf3e-136">حدد تقويم وقت العمل الذي يعرّف قدرة المورد (بالساعات).</span><span class="sxs-lookup"><span data-stu-id="ebf3e-136">Specify the working time calendar that defines the capacity (in hours) of the resource.</span></span>  
+4. <span data-ttu-id="ebf3e-137">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-137">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="ebf3e-138">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-138">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-resource-capabilities"></a><span data-ttu-id="4d717-139">تحديد قدرات الموارد</span><span class="sxs-lookup"><span data-stu-id="4d717-139">Define resource capabilities</span></span>
-1. <span data-ttu-id="4d717-140">وسّع المقطع "القدرات‬".</span><span class="sxs-lookup"><span data-stu-id="4d717-140">Expand the Capabilities section.</span></span>
-2. <span data-ttu-id="4d717-141">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="4d717-141">Click Add.</span></span>
-    * <span data-ttu-id="4d717-142">القدرة هي إمكانية قيام مورد عمليات بتنفيذ نشاط معين.</span><span class="sxs-lookup"><span data-stu-id="4d717-142">A capability is the ability of an operations resource to perform a particular activity.</span></span> <span data-ttu-id="4d717-143">يخصص محرك الجدولة الموارد عن طريق مطابقة متطلبات الموارد‬ لكل نشاط مع قدرات موارد العمليات المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="4d717-143">The scheduling engine allocates resources by matching the resource requirements of each activity to the capabilities of the available operations resources.</span></span>  
-3. <span data-ttu-id="4d717-144">في الحقل "القدرة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4d717-144">In the Capability field, enter or select a value.</span></span>
-4. <span data-ttu-id="4d717-145">في حقل "المستوى"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="4d717-145">In the Level field, enter a number.</span></span>
-    * <span data-ttu-id="4d717-146">حدد مستوى الكفاءة الذي يقوم المورد من خلاله بمعالجة القدرة.</span><span class="sxs-lookup"><span data-stu-id="4d717-146">Specify the level of proficiency by which the resource processes the capability.</span></span>  
-5. <span data-ttu-id="4d717-147">في حقل "الأولوية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="4d717-147">In the Priority field, enter a number.</span></span>
-    * <span data-ttu-id="4d717-148">حدد أولوية مورد العمليات فيما يتعلق بالقدرة.</span><span class="sxs-lookup"><span data-stu-id="4d717-148">Specify the priority of the operations resource with respect to the capability.</span></span> <span data-ttu-id="4d717-149">عند الجدولة حسب الأولوية، يتم أولاً تحديد مورد العمليات ذي أعلى أولوية (أقل قيمة رقمية) أولاً.</span><span class="sxs-lookup"><span data-stu-id="4d717-149">When scheduling by priority, the operations resource with the highest priority (lowest numeric value) is selected first.</span></span>  
+## <a name="define-resource-capabilities"></a><span data-ttu-id="ebf3e-139">تحديد قدرات الموارد</span><span class="sxs-lookup"><span data-stu-id="ebf3e-139">Define resource capabilities</span></span>
+1. <span data-ttu-id="ebf3e-140">وسّع المقطع "القدرات‬".</span><span class="sxs-lookup"><span data-stu-id="ebf3e-140">Expand the Capabilities section.</span></span>
+2. <span data-ttu-id="ebf3e-141">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-141">Click Add.</span></span>
+    * <span data-ttu-id="ebf3e-142">القدرة هي إمكانية قيام مورد عمليات بتنفيذ نشاط معين.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-142">A capability is the ability of an operations resource to perform a particular activity.</span></span> <span data-ttu-id="ebf3e-143">يخصص محرك الجدولة الموارد عن طريق مطابقة متطلبات الموارد‬ لكل نشاط مع قدرات موارد العمليات المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-143">The scheduling engine allocates resources by matching the resource requirements of each activity to the capabilities of the available operations resources.</span></span>  
+3. <span data-ttu-id="ebf3e-144">في الحقل "القدرة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-144">In the Capability field, enter or select a value.</span></span>
+4. <span data-ttu-id="ebf3e-145">في حقل "المستوى"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-145">In the Level field, enter a number.</span></span>
+    * <span data-ttu-id="ebf3e-146">حدد مستوى الكفاءة الذي يقوم المورد من خلاله بمعالجة القدرة.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-146">Specify the level of proficiency by which the resource processes the capability.</span></span>  
+5. <span data-ttu-id="ebf3e-147">في حقل "الأولوية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-147">In the Priority field, enter a number.</span></span>
+    * <span data-ttu-id="ebf3e-148">حدد أولوية مورد العمليات فيما يتعلق بالقدرة.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-148">Specify the priority of the operations resource with respect to the capability.</span></span> <span data-ttu-id="ebf3e-149">عند الجدولة حسب الأولوية، يتم أولاً تحديد مورد العمليات ذي أعلى أولوية (أقل قيمة رقمية) أولاً.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-149">When scheduling by priority, the operations resource with the highest priority (lowest numeric value) is selected first.</span></span>  
 
-## <a name="assign-resource-to-resource-group"></a><span data-ttu-id="4d717-150">تعيين مورد إلى مجموعة موارد</span><span class="sxs-lookup"><span data-stu-id="4d717-150">Assign resource to resource group</span></span>
-1. <span data-ttu-id="4d717-151">وسّع المقطع "مجموعات الموارد".</span><span class="sxs-lookup"><span data-stu-id="4d717-151">Expand the Resource groups section.</span></span>
-2. <span data-ttu-id="4d717-152">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="4d717-152">Click Add.</span></span>
-    * <span data-ttu-id="4d717-153">تعرّف مجموعة الموارد سياق الموقع ووحدة الإنتاج والمستودع لموارد العمليات.</span><span class="sxs-lookup"><span data-stu-id="4d717-153">The resource group defines the site, production unit, and warehouse context for operations resources.</span></span> <span data-ttu-id="4d717-154">يمكن جدولة مورد العمليات فقط عند تعيينه إلى مجموعة موارد، وفقط في الموقع الذي توجد فيه مجموعة الموارد.</span><span class="sxs-lookup"><span data-stu-id="4d717-154">The operations resource can only be scheduled when assigned to a resource group, and only on the site where the resource group is located.</span></span>  
-3. <span data-ttu-id="4d717-155">في حقل "مجموعة الموارد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4d717-155">In the Resource group field, enter or select a value.</span></span>
-4. <span data-ttu-id="4d717-156">في الحقل "موقع الإدخالات‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4d717-156">In the Input location field, enter or select a value.</span></span>
-    * <span data-ttu-id="4d717-157">حدد موقع المستودع من حيث يستهلك مورد العمليات المواد.</span><span class="sxs-lookup"><span data-stu-id="4d717-157">Specify the warehouse location from where the operations resource is consuming materials.</span></span>  
+## <a name="assign-resource-to-resource-group"></a><span data-ttu-id="ebf3e-150">تعيين مورد إلى مجموعة موارد</span><span class="sxs-lookup"><span data-stu-id="ebf3e-150">Assign resource to resource group</span></span>
+1. <span data-ttu-id="ebf3e-151">وسّع المقطع "مجموعات الموارد".</span><span class="sxs-lookup"><span data-stu-id="ebf3e-151">Expand the Resource groups section.</span></span>
+2. <span data-ttu-id="ebf3e-152">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-152">Click Add.</span></span>
+    * <span data-ttu-id="ebf3e-153">تعرّف مجموعة الموارد سياق الموقع ووحدة الإنتاج والمستودع لموارد العمليات.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-153">The resource group defines the site, production unit, and warehouse context for operations resources.</span></span> <span data-ttu-id="ebf3e-154">يمكن جدولة مورد العمليات فقط عند تعيينه إلى مجموعة موارد، وفقط في الموقع الذي توجد فيه مجموعة الموارد.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-154">The operations resource can only be scheduled when assigned to a resource group, and only on the site where the resource group is located.</span></span>  
+3. <span data-ttu-id="ebf3e-155">في حقل "مجموعة الموارد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-155">In the Resource group field, enter or select a value.</span></span>
+4. <span data-ttu-id="ebf3e-156">في الحقل "موقع الإدخالات‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-156">In the Input location field, enter or select a value.</span></span>
+    * <span data-ttu-id="ebf3e-157">حدد موقع المستودع من حيث يستهلك مورد العمليات المواد.</span><span class="sxs-lookup"><span data-stu-id="ebf3e-157">Specify the warehouse location from where the operations resource is consuming materials.</span></span>  
 
 

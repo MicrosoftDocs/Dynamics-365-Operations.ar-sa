@@ -3,24 +3,25 @@ title: "إنشاء قاعدة كانبان جديدة عن طريق تكرار �
 description: "ويركز هذا الإجراء على إنشاء نسخة مكررة من قاعدة كانبان موجودة."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanRules, KanbanRuleDuplicate, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 8ba2ad07b7ddab600cf681561be60abccaf33bfd
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 880262f8f453581ea93b5fd8edefe0fc62ac49c5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a><span data-ttu-id="9fd61-103">إنشاء قاعدة كانبان جديدة عن طريق تكرار قاعدة كانبان الموجودة</span><span class="sxs-lookup"><span data-stu-id="9fd61-103">Create a new kanban rule by duplicating an existing kanban rule</span></span>

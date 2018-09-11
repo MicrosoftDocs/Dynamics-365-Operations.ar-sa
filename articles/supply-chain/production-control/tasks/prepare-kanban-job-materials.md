@@ -1,26 +1,27 @@
----
+--- 
 title: "إعداد وظيفة كانبان عملية عندما تتوفر المواد لخلية العمل"
 description: "تركز هذه المهمة على إعداد وظيفة كانبان عملية عندما تكو جميع المواد متوفرة لخلية العمل."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanBoardWorkCell
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: b774179d3c29a6009c37dea491e07f629740027e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 34665fe0fe7e1f7989433b31aafcc4fe203141c2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="22b45-103">إعداد وظيفة كانبان عملية عندما تتوفر المواد لخلية العمل</span><span class="sxs-lookup"><span data-stu-id="22b45-103">Prepare a process kanban job when materials are available for the work cell</span></span>
@@ -40,4 +41,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="22b45-115">إذا تم تحديد وظائف متعددة، فستعرض قائمة الانتقاء مجموع كافة الأصناف المطلوبة للوظائف المحددة.</span><span class="sxs-lookup"><span data-stu-id="22b45-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
 6. <span data-ttu-id="22b45-116">انقر فوق "تحضير‬".</span><span class="sxs-lookup"><span data-stu-id="22b45-116">Click Prepare.</span></span>
     * <span data-ttu-id="22b45-117">تم الآن إكمال عملية التحضير.</span><span class="sxs-lookup"><span data-stu-id="22b45-117">The preparation process is now completed.</span></span> <span data-ttu-id="22b45-118">تشير خانة الاختيار المحددة لكافة الصفوف في قائمة الانتقاء إلى أن حالة التوريد هي "تم الانتقاء".</span><span class="sxs-lookup"><span data-stu-id="22b45-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
+
 

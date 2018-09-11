@@ -3,23 +3,24 @@ title: "إعداد الأذونات لطلب المنتجات بالنيابة �
 description: "يوضح هذا الإجراء كيفية منح العاملين الإذن الذي يسمح لهم بإعداد طلبات شراء نيابة عن عاملين آخرين."
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: ecf70e6bca591dbb7f3f5e6af54c2e3a6e70fbbb
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: adcbf09cebc539a19ad3603a77dca1de77ce7d11
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a><span data-ttu-id="1e772-103">إعداد الأذونات لطلب المنتجات بالنيابة عن شخص آخر</span><span class="sxs-lookup"><span data-stu-id="1e772-103">Set up permissions for ordering products on behalf of someone else</span></span>
