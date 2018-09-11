@@ -1,31 +1,32 @@
 --- 
-title: "تكوين إعدادات المتجر التي تؤثر على كشوف حساب البيع بالتجزئة"
+title: " تكوينات المتجر لحساب بيانات Retail"
 description: "يتناول هذا الإجراء تكوينات لمتجر البيع بالتجزئة التي تؤثر على كيفية إنشاء كشوفات حساب البيع بالتجزئة وترحيلها."
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fdfb233a3e6c3ab17577afb67aa0fdd0d4588020
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: cac676c9c6ebb6769fe7e30ac08a2c8334befc24
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-store-settings-that-affect-retail-statements"></a>تكوين إعدادات المتجر التي تؤثر على كشوف حساب البيع بالتجزئة
+# <a name="store-configurations-for-retail-statements"></a> تكوينات المتجر لحساب بيانات Retail
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء تكوينات لمتجر البيع بالتجزئة التي تؤثر على كيفية إنشاء كشوفات حساب البيع بالتجزئة وترحيلها. ويتم تناول الأبعاد المالية في متاجر البيع بالتجزئة في إجراء آخر. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 
@@ -33,7 +34,7 @@ ms.lasthandoff: 08/08/2018
 2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 3. في القائمة، انقر فوق الارتباط في الصف المحدد.
     * تؤثر الإعدادات الموجودة في قسم كشف الحساب/الإقفال على إنشاء كشف الحساب والتحقق من الصحة والترحيل للمتجر.  قم بفتح قسم كشف الحساب/الإقفال.  
-    * حدد الطريقة التي تريد استخدامها لتصنيف بنود كشف الحساب حسب.  
+    * حدد الطريقة التي تريد استخدامها لتجميع بنود كشف الحساب بواسطة.  
     * حدد "نعم" إذا ينبغي أن يتم إنشاء كشف حساب واحد كل يوم عند إنشاء كشوفات حساب من الوظيفة الدفعية لإنشاء كشف الحساب.  
     * يحدد حقل "‏‫احتساب إقرار الدفع" ما إذا كان ينبغي إضافة إقرارات الدفع معًا أو إذا كان يجب استخدام آخر إقرار.  
     * حدد حساب دفتر الأستاذ لترحيل الفروق التقريبية إليه.  

@@ -1,28 +1,29 @@
 --- 
-title: "تكوين النظام لإرسال بريد إلكتروني مرتبط بسير العمل إلى المستخدمين"
+title: "قم بتمكين المستخدمين من تلقي رسائل البريد الإلكتروني المرتبطة بسير العمل"
 description: "يمكنك تكوين النظام لإرسال رسائل إلكترونية إلى المستخدمين عند وقوع أحداث مرتبطة بسير العمل."
 author: jasongre
 manager: AnnBe
-ms.date: 02/21/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 04d90c9ded1ba7fb1ceac4ff1d54f54f6c43f9e9
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1ff7de584631563939104c87b00fdc26bdb1a3cb
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-the-system-to-send-workflow-related-email-to-users"></a>تكوين النظام لإرسال بريد إلكتروني مرتبط بسير العمل إلى المستخدمين
+# <a name="enable-users-to-receive-workflow-related-email-messages"></a>قم بتمكين المستخدمين من تلقي رسائل البريد الإلكتروني المرتبطة بسير العمل
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -3,18 +3,19 @@ title: "إعداد مستندات التحويل لحركة البضائع دا�
 description: "يوضح هذا الإجراء كيفية إنشاء مستندات التحويل لحركة البضائع داخل شركة."
 author: v-oloski
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2f10f627f33108b8750a1d71d24a99763178e2ef

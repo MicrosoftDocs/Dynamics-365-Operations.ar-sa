@@ -1,31 +1,32 @@
 --- 
-title: "دفع المنتجات من مراكز التوزيع إلى المتاجر عبر توزيع المشتريات"
+title: " دفع المنتجات من مركز توزيع إلى متجر باستخدام دفع المشتري"
 description: "يتناول هذا الإجراء الخطوات اللازمة لإنشاء ومعالجة ‏‫توزيع المشتريات‬ لتوزيع المنتجات من موقع واحد إلى متجر واحد أو أكثر."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 02/17/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailBuyersPush, InventLocationIdLookup, InventItemIdLookupSimple, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: ed47b4f052dab99dec058910e4b8558481b34e59
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 9d9a5d4fdece1cfb573224bd54d96ccd281c0f09
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="push-products-from-distribution-centers-to-stores-via-buyers-push"></a>دفع المنتجات من مراكز التوزيع إلى المتاجر عبر توزيع المشتريات
+# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> دفع المنتجات من مركز توزيع إلى متجر باستخدام دفع المشتري
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء الخطوات اللازمة لإنشاء ومعالجة ‏‫توزيع المشتريات‬ لتوزيع المنتجات من موقع واحد إلى متجر واحد أو أكثر. يمكن للمستخدم تحديد تكوينات متعددة وامتلاك النظام الذي يقترح كيفية توزيع المنتجات أو إدخال مكان توزيع المنتجات يدويًا وكمية المنتجات التي يتم توزيعها على كل متجر. لا يتضمن هذا الإجراء عملية إعداد البيانات التي يمكن استخدامها في ‏‫توزيع المشتريات‬، مثل قواعد التزويد والتدرجات الهرمية للمؤسسات وتخزين الأوزان. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

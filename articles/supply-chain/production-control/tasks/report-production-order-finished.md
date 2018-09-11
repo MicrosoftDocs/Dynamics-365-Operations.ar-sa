@@ -1,21 +1,22 @@
----
+--- 
 title: "الإبلاغ عن انتهاء أمر إنتاج"
 description: "يوضح هذا الإجراء كيفية الإبلاغ عن أمر إنتاج كمنتهٍ."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
 ms.openlocfilehash: e6f5e7316f89ba7c2b7091eb9df02aa07ea44dbd
@@ -50,4 +51,5 @@ ms.lasthandoff: 02/06/2018
 3. في القائمة، قم بوضع علامة للصف المحدد.
 4. في القائمة، انقر فوق الارتباط في الصف المحدد.
     * تم ترحيل دفتر يومية التقرير كمنتهٍ. إذا أردت إجراء تعديلات على دفتر اليومية، يمكنك إنشاء دفتر يومية جديد يدويًا حيث يمكنك إجراء تغييرات.  
+
 

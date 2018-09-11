@@ -1,28 +1,29 @@
 --- 
-title: "تحديد عمليات التعويض وحساب النتائج"
+title: "تحديد عملية التعويض وحساب النتائج"
 description: "تستخدم عمليات التعويض لتحديد مبالغ التعويضات الجديدة والمكافآت للموظفين المسجلين في خطط التعويض الثابتة والمتغيرة."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 350c18eb63e41da2cc26e2fd235a54ea5de2d990
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="define-compensation-processes-and-calculate-results"></a>تحديد عمليات التعويض وحساب النتائج
+# <a name="define-compensation-process-and-calculate-results"></a>تحديد عملية التعويض وحساب النتائج
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
