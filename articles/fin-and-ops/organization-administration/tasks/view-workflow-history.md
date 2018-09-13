@@ -3,7 +3,7 @@ title: "عرض محفوظات سير العمل"
 description: "استخدم هذه الخطوات لعرض حالة مستند تم إرساله إلى نظام سير العمل من أجل المعالجة والموافقة."
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

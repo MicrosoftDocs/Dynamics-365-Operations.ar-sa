@@ -3,7 +3,7 @@ title: "إنشاء كيان قانوني"
 description: "الكيان القانوني هو مؤسسة يتم تعريفها من خلال التسجيل في هيئة قانونية."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

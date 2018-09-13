@@ -3,7 +3,7 @@ title: "تكوين دفتر العناوين العمومي"
 description: "استخدم هذا الإجراء لتعيين القيم الافتراضية وسياسات الأمان لدفتر العناوين العمومي."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
