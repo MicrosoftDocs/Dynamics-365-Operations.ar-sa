@@ -3,7 +3,7 @@ title: "إنشاء التكوينات المستندة إلى أبعاد"
 description: "يوضح هذا الإجراء كيفية تعريف تكوين لمنتج يستند إلى البعد."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: e2be55bf9393c323d4e99e42bf340d6387f90e16
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9190d6dfd4b3f6cf0634e86845e7de028631bdd4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-dimension-based-configurations"></a><span data-ttu-id="cd001-103">إنشاء التكوينات المستندة إلى أبعاد</span><span class="sxs-lookup"><span data-stu-id="cd001-103">Create dimension-based configurations</span></span>

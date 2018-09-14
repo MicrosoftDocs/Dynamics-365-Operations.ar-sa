@@ -4,9 +4,11 @@
     - name: بدء الاستخدام
       href: talent-get-started.md
       items:
-        - name: ما هو الجديد أو المتغير
+        - name: ما الجديد أو المتغير
           items:
-            - name: ما هو الجديد أو المتغير في Dynamics 365 for Talent Core HR (يوليو 2018)
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (أغسطس 2018)
+              href: whats-new-talent-august2018.md
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (يوليو 2018)
               href: whats-new-talent-july2018.md
         - name: متطلبات النظام وسياسة التحديث
           href: talent-versions-update-policy.md
@@ -16,11 +18,11 @@
           href: remove-talent-environment.md
         - name: توفير التطبيقات النمطية لـ Talent
           href: modular-app-tech-faq.md
-        - name: توسيع الأداء الوظيفي لتطبيق Talent
-          href: extend-talent-functionality.md
-        - name: ميزات معاينة الوصول
+        - name: تطبيقات PowerApps مضمنة
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: الوصول إلى ميزات المعاينة
           href: access-preview-feature.md
-        - name: تكوين تكامل كشف الرواتب بين Talent و Dayforce
+        - name: تكوين تكامل كشف الرواتب بين Talent وDayforce
           href: configure-payroll-integration.md
     - name: تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
       href: departments-jobs-positions.md
@@ -53,7 +55,7 @@
           href: compensation-plans.md
         - name: إنشاء خطط التعويض الثابت
           href: create-fixed-compensation-plans.md
-        - name: إنشاء خطط التعويض المتغيرة
+        - name: إنشاء خطط التعويض المتغير
           href: create-variable-compensation-plans.md
         - name: تعويض العملية
           href: process-compensation.md

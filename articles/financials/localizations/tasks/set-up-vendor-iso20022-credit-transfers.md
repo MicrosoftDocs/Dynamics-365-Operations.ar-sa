@@ -3,7 +3,7 @@ title: "إعداد المورّدين والحسابات البنكية للمو
 description: "يوضح هذا الإجراء كيفية إعداد المورّد والمعلومات المحددة الخاصة بالحساب البنكي للمورّد والمطلوبة لتحويل الائتمان ISO20022 أو أي عملية أخرى لإنشاء ملف دفع المورّد."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: ea1f0c6c4b3530eeae529d0932f8fd408a09cc54
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 13b3c37f5d013dd896a456018813f20e5e70350b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="9b1ea-103">إعداد المورّدين والحسابات البنكية للمورّدين لتحويلات الائتمان ISO20022</span><span class="sxs-lookup"><span data-stu-id="9b1ea-103">Set up vendors and vendor bank accounts for ISO20022 credit transfers</span></span>

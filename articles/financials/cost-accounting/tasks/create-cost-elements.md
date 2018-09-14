@@ -3,7 +3,7 @@ title: "إنشاء عناصر تكلفة  "
 description: "هناك عدة طرق لإنشاء عناصر تكلفة في محاسبة التكاليف."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 23c93cdcee3dbab4c5e480cc48001cd2a80be5b6
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: bbaf4f7533d51d554d838e8e9e2aa05ca451298a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-cost-elements"></a><span data-ttu-id="0ad2d-103">إنشاء عناصر تكلفة  </span><span class="sxs-lookup"><span data-stu-id="0ad2d-103">Create cost elements</span></span> 
