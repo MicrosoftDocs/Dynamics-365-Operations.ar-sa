@@ -2,7 +2,7 @@
   href: index.md
 - name: بدء الاستخدام
   items:
-    - name: ما هو الجديد أو المتغير
+    - name: ما الجديد أو المتغير
       href: get-started/whats-new.md
     - name: قبل شراء Retail
       href: get-started/before-you-buy.md
@@ -15,7 +15,7 @@
 - name: فهم دورة حياة التطبيق​
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
-    - name: Microsoft FastTrack لـ Dynamics 365
+    - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: الإعداد
       href: ../fin-and-ops/imp-lifecycle/onboard.md
@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: كتالوجات مركز الاتصال​
       href: call-center-catalogs.md
-    - name: إنشاء كتالوج مركز اتصال
-      href: create-call-center-catalogs.md
     - name: تكوين أوضاع التسليم والتكاليف
       href: configure-call-center-delivery.md
     - name: إعداد تنبيهات الاحتيال والعمل باستخدامها
@@ -133,6 +131,8 @@
       href: MPOS-or-CPOS.md
     - name: عمليات نقطة البيع أثناء الاتصال وعدم الاتصال
       href: pos-operations.md
+    - name: تنشيط الجهاز الخاص بـ Retail Modern POS المخصصة
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في MPOS وCloud POS
       href: demo-data.md
     - name: البحث عن المنتج والعميل في نقطة البيع

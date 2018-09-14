@@ -263,9 +263,9 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: تخفيف قيود النموذج لإعادة بناء التعليمات البرمجية للطبقات الزائدة في الملحقات
               href: extensibility/refactoring-over-layering.md
-        - name: كيف يمكنني؟
+        - name: إنشاء الملحقات
           items:
-            - name: أضف قيم إلى enums
+            - name: إضافة قيم إلى enums
               href: extensibility/add-enum-value.md
             - name: تعديل أنواع البيانات الملحقة
               href: extensibility/modify-edt.md
@@ -311,6 +311,28 @@
               href: extensibility/maps-as-interfaces.md
             - name: توسيع مخططات الجداول المستخدمة لتعيين الإصدار
               href: extensibility/maps-with-versioning.md
+        - name: إنشاء الحلول القابلة للتوسيع
+          items:
+            - name: كود الكتابة القابلة للتوسيع
+              href: extensibility/writing-extensible-code.md
+            - name: الدرجات
+              href: extensibility/extensible-classes.md
+            - name: الطرق
+              href: extensibility/extensible-methods.md
+            - name: النماذج
+              href: extensibility/extensible-forms.md
+            - name: أنوع البيانات الملحقة
+              href: extensibility/extensible-edts.md
+            - name: قيمة enums القابلة للتوسيع
+              href: extensibility/extensible-enums.md
+            - name: التفويضات
+              href: extensibility/extensible-code-delegates.md
+            - name: الجداول
+              href: extensibility/extensible-tables.md
+            - name: سمات القابلية للتوسيع للطرق
+              href: extensibility/extensibility-attributes.md
+            - name: التغييرات الجذرية
+              href: extensibility/breaking-changes.md
     - name: الأداء
       items:
         - name: أخذ عمليات التتبع باستخدام محلل التتبع
@@ -1106,7 +1128,7 @@
           href: migration-upgrade/versions-update-policy.md
         - name: تطبيق التحديث الأخير للنظام الأساسي للبيئات
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: ترقية النظام الأساسي لـ Dyamics AX إلى إصدار أغسطس 2016
+        - name: ترقية النظام الأساسي لـ Dynamics AX إلى إصدار أغسطس 2016
           href: migration-upgrade/update-platform-each-release.md
         - name: ترقية بيئات وضع الحماية
           href: migration-upgrade/upgrade-sandbox-environment.md
@@ -1184,6 +1206,8 @@
       items:
         - name: إنشاء قواعد لمرشد التحسين
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: إبلاغ عن انقطاع إنتاج
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: موارد لـ Lifecycle Services
@@ -1236,6 +1260,8 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: إعادة تشغيل الخدمات البيئية
       href: lifecycle-services/restart-environment-services.md
+    - name: إبلاغ عن انقطاع إنتاج
+      href: lifecycle-services/report-production-outage.md
     - name: تعقب عمليات تسجيل دخول المستخدم
       href: lifecycle-services/user-logins.md
     - name: مكتبة الأصول

@@ -31,7 +31,7 @@
               items:
                 - name: شراء Finance and Operations (محلي)
                   href: get-started/purchase-on-premises.md
-        - name: الجديد أو المتغير
+        - name: ما الجديد أو المتغير
           href: get-started/whats-new-changed.md
           items:
             - name: سياسة دورة حياة البرامج والإصدارات على السحابة
@@ -153,10 +153,12 @@
       items:
         - name: هندسة Finance and Operations
           href: imp-lifecycle/architecture-overview.md
-        - name: Microsoft FastTrack لـ Finance and Operations
+        - name: Microsoft FastTrack for Finance and Operations
           href: get-started/fasttrack-dynamics-365-overview.md
         - name: إعداد مشروع تنفيذ
           href: imp-lifecycle/onboard.md
+        - name: تخطيط بيئة
+          href: imp-lifecycle/environment-planning.md
         - name: الإعداد للعرض المباشر​
           href: imp-lifecycle/prepare-go-live.md
         - name: الأسئلة المتداولة حول العرض المباشر
@@ -460,6 +462,8 @@
               href: ../financials/accounts-payable/set-up-generate-positive-pay-files.md
             - name: الحسابات المقابلة الافتراضية لدفاتر يومية فواتير المورد ودفاتر يومية اعتماد الفاتورة​
               href: ../financials/accounts-payable/default-offset-accounts-vendor-invoice-journals.md
+            - name: سير عمل المورّد
+              href: ../financials/accounts-payable/vendor-workflow.md
             - name: حل الاختلافات أثناء مطابقة إجماليات الفواتير
               href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
@@ -475,12 +479,18 @@
               href: ../financials/accounts-payable/vendor-portal-invoicing-workspace.md
             - name: التشغيل التلقائي لفاتورة المورّد
               href: ../financials/accounts-payable/vendor-invoice-automation.md
+            - name: إدارة عقد الوسيط
+              href: ../financials/accounts-payable/broker-contract.md
+            - name: إدارة عقد حقوق الملكية
+              href: ../financials/accounts-payable/royalty-contract.md
             - name: الدفعات والتسويات
               items:
                 - name: الدفعات المركزية للحسابات الدائنة​
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: تكوين التسوية​
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: نظرة عامة على دفع المورّد
+                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: مساحة عمل دفعات المورد​
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
                 - name: تحديد سعر صرف متداخل
@@ -513,6 +523,8 @@
                   href: ../financials/accounts-payable/take-discount-more-calculated-discount-vendor-payment.md
                 - name: دفعات المورد لمبلغ جزئي
                   href: ../financials/accounts-payable/vendor-payments-partial-amount.md
+                - name: صفحة قائمة حركات المورّدين
+                  href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: الحسابات المدينة
           href: ../financials/accounts-receivable/accounts-receivable.md
           items:
@@ -522,6 +534,8 @@
               href: ../financials/accounts-receivable/accounts-receivables-set-up-overview.md
             - name: إعداد الائتمان والتحصيلات
               href: ../financials/accounts-receivable/set-up-collections.md
+            - name: مراجعة معلومات التحصيلات
+              href: ../financials/accounts-receivable/tasks/review-collections-information.md
             - name: إعداد ومعالجة الفواتير المتكررة
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
             - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي للفواتير ذات النص الحر
@@ -540,52 +554,54 @@
               href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: تصحيح فاتورة ذات نص حر
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
+            - name: ‏‫تعيين قالب فاتورة ذات نص حر إلى عميل
+              href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
+            - name: إنشاء وترحيل فواتير النص الحر المكررة
+              href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
+            - name: إنشاء فواتير أمر المبيعات
+              href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
             - name: إعداد معدلات الفائدة لكود فائدة
               href: ../financials/accounts-receivable/set-up-interest-rates-interest-code.md
             - name: التنازل عن رسوم الفائدة أو إعادة المطالبة بها أو عكسها
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
+            - name: فائدة العملية
+              href: ../financials/accounts-receivable/tasks/process-interest.md
+            - name: إعداد سياسات فواتير المورِّدين
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: تسجيل فاتورة المورّد ومطابقتها بالكمية المستلمة
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: إنشاء فاتورة عميل
               href: ../financials/accounts-receivable/configure-customer-invoices.md
+            - name: إيداع مدفوعات العميل
+              href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
             - name: ‏‫وضع شروط دفع العميل‬
               href: ../financials/general-ledger/tasks/establish-customer-payment-terms.md
+            - name: ‏‫وضع طريقة دفع العميل‬
+              href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
+            - name: ‏‫وضع رسوم دفع العميل‬
+              href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: إعداد الكمبيالات​
               href: ../financials/accounts-receivable/set-up-bills-exchange.md
             - name: إقفال الحسابات المدينة
               href: ../financials/accounts-receivable/close-accounts-receivable.md
-            - name: مهام الحسابات المدينة
-              items:
-                - name: ‏‫تعيين قالب فاتورة ذات نص حر إلى عميل
-                  href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
-                - name: إنشاء تسلسل خطاب تحصيل
-                  href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: إنشاء رمز فائدة مع نطاق
-                  href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
-                - name: إنشاء فواتير أمر المبيعات
-                  href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
-                - name: إنشاء دفتر يومية شطب لعميل
-                  href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
-                - name: إيداع مدفوعات العميل
-                  href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
-                - name: ‏‫وضع طريقة دفع العميل‬
-                  href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
-                - name: ‏‫وضع رسوم دفع العميل‬
-                  href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
-                - name: إنشاء وترحيل فواتير النص الحر المكررة
-                  href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
-                - name: معالجة خطابات التحصيل
-                  href: ../financials/accounts-receivable/tasks/process-collection-letters.md
-                - name: فائدة العملية
-                  href: ../financials/accounts-receivable/tasks/process-interest.md
-                - name: تسجيل فاتورة المورّد ومطابقتها بالكمية المستلمة
-                  href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
-                - name: مراجعة معلومات التحصيلات
-                  href: ../financials/accounts-receivable/tasks/review-collections-information.md
-                - name: إعداد وإنشاء معلومات تقادم الحسابات المدينة
-                  href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-                - name: إعداد سياسات فواتير المورِّدين
-                  href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: إنشاء تسلسل خطاب تحصيل
+              href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
+            - name: معالجة خطابات التحصيل
+              href: ../financials/accounts-receivable/tasks/process-collection-letters.md
+            - name: إنشاء تفويض خصم مباشر لعميل
+              href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
+            - name: إنشاء رمز فائدة مع نطاق
+              href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
+            - name: إنشاء دفتر يومية شطب لعميل
+              href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: إعداد وإنشاء معلومات تقادم الحسابات المدينة
+              href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: سير عمل العميل
+              href: ../financials/accounts-receivable/customer-workflow.md
             - name: الدفعات والتسويات
               items:
+                - name: نظرة عامة على مدفوعات العملاء
+                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
                 - name: استخدام دفعة عميل واحدة لتسوية فواتير متعددة تمتد عبر عدة فترات خصم
                   href: ../financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: الدفعات المركزية للحسابات المدينة
@@ -602,6 +618,8 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: دفعات العميل لمبلغ جزئي
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+                - name: صفحة قائمة حركات العملاء
+                  href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: إعداد الموازنة
           href: ../financials/budgeting/budgeting-overview.md
           items:
@@ -638,56 +656,52 @@
               href: ../financials/cash-bank-management/cash-discounts.md
             - name: الخصومات النقدية لحالات الدفع بالزيادة
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
+            - name: إدارة التحقق من صحة حساب IBAN
+              href: ../financials/cash-bank-management/iban-validation.md
             - name: نظرة عامة على التسوية
               href: ../financials/cash-bank-management/settlement-overview.md
             - name: نظرة عامة على التسوية للدفعات المركزية
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: خطابات الاعتماد
               href: ../financials/cash-bank-management/letters-of-credit.md
+            - name: إنشاء اتفاقية تسهيلات مصرفية لخطاب الاعتماد
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
+            - name: إعداد ملفات تعريف الترحيل والتسهيلات البنكية لخطاب الاعتماد
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
             - name: خطاب الاعتماد وتحصيلات الاستيراد
               href: ../financials/cash-bank-management/letters-of-credit-import-collections.md
+            - name: تصدير خطاب اعتماد
+              href: ../financials/cash-bank-management/tasks/export-letter-credit.md
+            - name: استيراد خطاب اعتماد
+              href: ../financials/cash-bank-management/tasks/import-letter-credit.md
             - name: خطابات الضمان
               href: ../financials/cash-bank-management/letters-of-guarantee.md
+            - name: حركة خطاب الضمان
+              href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
+            - name: إنشاء اتفاقية تسهيلات مصرفية لخطاب الضمان
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
+            - name: إعداد ملفات تعريف الترحيل والتسهيلات البنكية لخطابات الضمان
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
             - name: الشيكات التي تم تأخير تاريخها
               href: ../financials/cash-bank-management/postdated-checks.md
+            - name: إعداد شيكات بتاريخ لاحق
+              href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
+            - name: تسجيل شيك بتاريخ لاحق لعميل وترحيله
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
+            - name: تسجيل شيك بتاريخ لاحق لمورد وترحيله
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
+            - name: تسوية شيك بتاريخ لاحق من عميل
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
+            - name: تسوية شيك بتاريخ لاحق لمورد
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
             - name: فواتير الدفع المسبق مقابل الدفعات المقدمة
               href: ../financials/accounts-payable/prepayments-invoices-vs-prepayments.md
             - name: معالجة الخصومات النقدية لحالات الدفع بالزيادة
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
-            - name: إعداد الدفعات المركزية​
+            - name: إعداد الدفعات المركزية
               href: ../financials/cash-bank-management/set-up-centralized-payments.md
             - name: التسوية التلقائية وترتيب الأولويات التلقائي
               href: ../financials/accounts-receivable/automatic-settlement-prioritization.md
-            - name: مهام إدارة النقد والبنوك
-              items:
-                - name: إنشاء اتفاقية تسهيلات مصرفية لخطاب الاعتماد
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
-                - name: إنشاء اتفاقية تسهيلات مصرفية لخطاب الضمان
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
-                - name: نظرة عامة على مدفوعات العملاء
-                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
-                - name: تصدير خطاب اعتماد
-                  href: ../financials/cash-bank-management/tasks/export-letter-credit.md
-                - name: استيراد خطاب اعتماد
-                  href: ../financials/cash-bank-management/tasks/import-letter-credit.md
-                - name: حركة خطاب الضمان
-                  href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
-                - name: تسجيل شيك بتاريخ لاحق لعميل وترحيله
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
-                - name: تسجيل شيك بتاريخ لاحق لمورد وترحيله
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
-                - name: تسوية شيك بتاريخ لاحق من عميل
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
-                - name: تسوية شيك بتاريخ لاحق لمورد
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
-                - name: إعداد ملفات تعريف الترحيل والتسهيلات البنكية لخطابات الضمان
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
-                - name: إعداد ملفات تعريف الترحيل والتسهيلات البنكية لخطاب الاعتماد
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
-                - name: إعداد شيكات بتاريخ لاحق
-                  href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
-                - name: نظرة عامة على دفع المورّد
-                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
             - name: التسوية البنكية المتقدمة
               items:
                 - name: مهام إعداد التسوية البنكية المتقدمة
@@ -817,6 +831,14 @@
         - name: الأصول الثابتة
           href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: إنشاء أصل ثابت
+              href: ../financials/fixed-assets/tasks/create-fixed-asset.md
+            - name: إدخال إضافة إلى الأصول الثابتة
+              href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
+            - name: اقتراح عمليات الاستحواذ على الأصول الثابتة‬
+              href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
+            - name: إعادة تصنيف الأصول الثابتة
+              href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
             - name: مساحة عمل الأصول الثابتة​
               href: ../financials/fixed-assets/fixed-asset-management-workspace.md
             - name: تقرير سجل نشاط الأصول الثابتة
@@ -833,10 +855,20 @@
               href: ../financials/fixed-assets/post-fixed-asset-transactions-posting-layers.md
             - name: خيارات حركات الأصول الثابتة
               href: ../financials/fixed-assets/enter-fixed-asset-transactions.md
+            - name: تحويل أصل ثابت
+              href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
+            - name: تقسيم أصل ثابت
+              href: ../financials/fixed-assets/tasks/split-fixed-asset.md
+            - name: إعداد مجموعات الأصول الثابتة
+              href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
+            - name: تغيير مجموعة الأصول الثابتة
+              href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
             - name: إعادة حساب تكاليف الإحلال والقيم المؤمن بها لمجموعات الأصول الثابتة
               href: ../financials/fixed-assets/recalculate-replacement-costs-insured-values-fixed-asset-groups.md
             - name: حسابات ترحيل التخلص من الأصول الثابتة
               href: ../financials/fixed-assets/fixed-asset-disposal-posting-accounts.md
+            - name: التخلص من أصل ثابت باستخدام فاتورة نص حر
+              href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
             - name: تحديث شامل للأصول الثابتة
               href: ../financials/fixed-assets/fixed-asset-mass-update.md
             - name: الحصول على الأصول عن طريق التدبير
@@ -845,8 +877,18 @@
               items:
                 - name: إعداد الأصول الثابتة
                   href: ../financials/fixed-assets/set-up-fixed-assets.md
+                - name: إعداد ملفات تعريف ترحيل الأصول الثابتة
+                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
                 - name: تكامل الأصول الثابتة
                   href: ../financials/fixed-assets/fixed-asset-integration.md
+                - name: إنشاء والحصول على الأصول من الحسابات الدائنة
+                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
+                - name: 'إعداد دفاتر الإهلاك '
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
+                - name: إعداد وإنشاء ملفات تعريف الإهلاك
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
+                - name: إعداد نماذج القيم
+                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
             - name: طرق الإهلاك
               items:
                 - name: قواعد الإهلاك
@@ -861,18 +903,26 @@
                   href: ../financials/fixed-assets/200-percent-reducing-balance-depreciation.md
                 - name: الإهلاك الإضافي
                   href: ../financials/fixed-assets/bonus-depreciation.md
+                - name: إعداد إهلاك إضافي
+                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
                 - name: إهلاك الاستهلاك
                   href: ../financials/fixed-assets/consumption-depreciation.md
                 - name: آثار الإهلاك مع عمليات الإلغاء
                   href: ../financials/fixed-assets/depreciation-effects-reversals.md
                 - name: طرق الإهلاك والقواعد
                   href: ../financials/fixed-assets/depreciation-methods-conventions.md
+                - name: إنشاء مقترح الإهلاك
+                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
                 - name: إهلاك العامل
                   href: ../financials/fixed-assets/factor-depreciation.md
                 - name: حسابات ترحيل الاستحواذ على الأصول الثابتة
                   href: ../financials/fixed-assets/fixed-asset-acquisition-posting-accounts.md
                 - name: إهلاك الأصل الثابت
                   href: ../financials/fixed-assets/fixed-asset-depreciation.md
+                - name: حساب إهلاك الأصول الثابتة عبر الكيانات القانونية
+                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
+                - name: تغيير قواعد الإهلاك للأصول الثابتة المتعددة
+                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
                 - name: الإهلاك اليدوي
                   href: ../financials/fixed-assets/manual-depreciation.md
                 - name: إهلاك القسط المتناقص
@@ -883,44 +933,6 @@
                   href: ../financials/fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: إهلاك مدة خدمة القسط الثابت
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
-            - name: مهام الأصول الثابتة
-              items:
-                - name: حساب إهلاك الأصول الثابتة عبر الكيانات القانونية
-                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
-                - name: تغيير قواعد الإهلاك للأصول الثابتة المتعددة
-                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
-                - name: تغيير مجموعة الأصول الثابتة
-                  href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
-                - name: إنشاء والحصول على الأصول من الحسابات الدائنة
-                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
-                - name: إنشاء مقترح الإهلاك
-                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
-                - name: إنشاء أصل ثابت
-                  href: ../financials/fixed-assets/tasks/create-fixed-asset.md
-                - name: التخلص من أصل ثابت باستخدام فاتورة نص حر
-                  href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
-                - name: إدخال إضافة إلى الأصول الثابتة
-                  href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
-                - name: اقتراح عمليات الاستحواذ على الأصول الثابتة‬
-                  href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
-                - name: إعادة تصنيف الأصول الثابتة
-                  href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
-                - name: إعداد إهلاك إضافي
-                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: 'إعداد دفاتر الإهلاك '
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
-                - name: إعداد وإنشاء ملفات تعريف الإهلاك
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
-                - name: إعداد مجموعات الأصول الثابتة
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
-                - name: إعداد ملفات تعريف ترحيل الأصول الثابتة
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
-                - name: إعداد نماذج القيم
-                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
-                - name: تقسيم أصل ثابت
-                  href: ../financials/fixed-assets/tasks/split-fixed-asset.md
-                - name: تحويل أصل ثابت
-                  href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
         - name: دفتر الأستاذ العام
           href: ../financials/general-ledger/general-ledger.md
           items:
@@ -948,7 +960,14 @@
                   href: ../financials/general-ledger/tasks/create-account-structures.md
                 - name: إنشاء أنظمة استحقاق
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: إنشاء مجموعات توحيد وحسابات توحيد إضافية
+                - name: تحويل العملة وعمليات الدمج المالية
+                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                  items:
+                    - name: تجميع عبر الإنترنت
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: إنشاء القوائم المالية الموحدة
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: إنشاء مجموعات توحيد وحساب توحيد إضافي
                   href: ../financials/general-ledger/tasks/create-consolidation-groups.md
                 - name: أنواع الحسابات الرئيسية
                   href: ../financials/general-ledger/main-account-types.md
@@ -1073,22 +1092,40 @@
           items:
             - name: خطة لوظائف القطاع العام
               href: ../financials/public-sector/plan-public-sector-functionality.md
+            - name: إنشاء صفحات التوقيع والغلاف لتقرير دفعات للقطاع العام
+              href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: الحسابات الدائنة في القطاع العام​
               href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
                 - name: أكواد أوامر الشراء في القطاع العام
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
+                - name: إنشاء وتعيين كود شريك تجاري في القطاع العام
+                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: تعريفات الترحيل في القطاع العام
                   href: ../financials/public-sector/posting-definitions-public-sector.md
-                - name: خطة لموردي المرة الواحدة في القطاع العام
-                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
                 - name: موردو المرة الواحدة في القطاع العام
                   href: ../financials/public-sector/one-time-vendors-public-sector.md
+                - name: إنشاء مورد لمرة واحدة وفاتورة في القطاع العام
+                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
+                - name: إنشاء نوع شهادة مورد في القطاع العام
+                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
+                - name: استيراد وإنشاء عدة موردين وفواتير لمرة واحدة في القطاع العام
+                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: خطة لموردي المرة الواحدة في القطاع العام
+                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
+                - name: التحكم في الوصول إلى اتفاقيات الشراء في القطاع العام
+                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
+                - name: إعداد تصنيفات اتفاقية الشراء في القطاع العام
+                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: الحسابات المدينة في القطاع العام
               href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
                 - name: تصنيفات الفوترة وأكواد الفوترة في القطاع العام
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
+                - name: إنشاء تصنيف فوترة في القطاع العام
+                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
+                - name: إنشاء كود فوترة في القطاع العام
+                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
                 - name: أولوية التسوية في القطاع العام
                   href: ../financials/public-sector/settlement-priority-public-sector.md
                 - name: الفواتير ذات النص الحر في القطاع العام
@@ -1098,10 +1135,16 @@
             - name: إعداد الموازنة في القطاع العام
               href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: إنشاء موازنة أصلية وإلغاء إدخالات الموازنة الأولية في القطاع العام
+                  href: ../financials/public-sector/tasks/create-original-budget.md
+                - name: إنشاء موازنة أولية للقطاع العام
+                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
                 - name: تحليل الموازنة في القطاع العام
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: الموازنات الأساسية والتوزيعات في القطاع العام
                   href: ../financials/public-sector/preliminary-budgets-apportionments-public-sector.md
+                - name: إنشاء التزام بحجز أموال من الموازنة للقطاع العام
+                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
             - name: الأصول الثابتة في القطاع العام
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: دفتر الأستاذ العام في القطاع العام
@@ -1109,52 +1152,26 @@
               items:
                 - name: إدخالات دفتر الأستاذ المتقدمة في القطاع العام
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
+                - name: إنشاء إدخال دفتر أستاذ متقدم في القطاع العام
+                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
                 - name: معالجة نهاية السنة في القطاع العام
                   href: ../financials/public-sector/year-end-processing-public-sector.md
                 - name: التدرجات الهرمية المالية المشتقة في القطاع العام
                   href: ../financials/public-sector/derived-financial-hierarchies-public-sector.md
+                - name: إعداد تدرج هرمي مالي مشتق في القطاع العام
+                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
             - name: التدبير وتحديد الموارد في القطاع العام
               href: ../financials/public-sector/procurement-sourcing-public-sector.md
             - name: أدوار الأمان في القطاع العام
               href: ../financials/public-sector/security-roles-public-sector.md
             - name: الأرصدة في القطاع العام
               href: ../financials/public-sector/funds-public-sector.md
-            - name: مهام القطاع العام
-              items:
-                - name: إضافة نوع شهادة إلى مورد في القطاع العام
-                  href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
-                - name: التحكم في الوصول إلى اتفاقيات الشراء في القطاع العام
-                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
-                - name: إنشاء إدخال دفتر أستاذ متقدم في القطاع العام
-                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: إنشاء وتعيين كود شريك تجاري في القطاع العام
-                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
-                - name: إنشاء تصنيف فوترة في القطاع العام
-                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
-                - name: إنشاء كود فوترة في القطاع العام
-                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
-                - name: إنشاء التزام بحجز أموال من الموازنة للقطاع العام
-                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
-                - name: إنشاء صفحات التوقيع والغلاف لتقرير دفعات للقطاع العام
-                  href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
-                - name: إنشاء نوع صندوق في القطاع العام
-                  href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
-                - name: إنشاء مورد لمرة واحدة وفاتورة في القطاع العام
-                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
-                - name: إنشاء موازنة أصلية وإلغاء إدخالات الموازنة الأولية في القطاع العام
-                  href: ../financials/public-sector/tasks/create-original-budget.md
-                - name: إنشاء موازنة أولية للقطاع العام
-                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
-                - name: إنشاء نوع شهادة مورد في القطاع العام
-                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
-                - name: استيراد وإنشاء عدة موردين وفواتير لمرة واحدة في القطاع العام
-                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
-                - name: إعداد تدرج هرمي مالي مشتق في القطاع العام
-                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
-                - name: إعداد صندوق في القطاع العام
-                  href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
-                - name: إعداد تصنيفات اتفاقية الشراء في القطاع العام
-                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
+            - name: إعداد صندوق في القطاع العام
+              href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
+            - name: إنشاء نوع صندوق في القطاع العام
+              href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
+            - name: إضافة نوع شهادة إلى مورد في القطاع العام
+              href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: التقارير المالية
           href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
@@ -1193,311 +1210,315 @@
     - name: ميزات الترجمة والميزات التنظيمية
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
-        - name: آسيا والمحيط الهادئ
+        - name: أستراليا
+          href: ../financials/localizations/australia.md
           items:
-            - name: أستراليا
-              href: ../financials/localizations/australia.md
+            - name: كشف حساب النشاط التجاري (BAS)
+              href: ../financials/localizations/apac-aus-business-activity-statement.md
+            - name: إضافة مربعات التقارير وإنشاء كشف حساب النشاط التجاري
+              href: ../financials/localizations/tasks/add-bas-report-boxes.md
+            - name: إهلاك وعاء منخفض القيمة​
+              href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
+            - name: إعداد أكواد السبب لكشف حساب النشاط التجاري
+              href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
+        - name: النمسا
+          href: ../financials/localizations/austria.md
+          items:
+            - name: إهلاك نصف السنة في عمليات الاستحواذ الإضافية
+              href: ../financials/localizations/emea-aut-half-year-depreciation.md
+            - name: رسوم مواد التعبئة
+              href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
+            - name: كشف ضريبة القيمة المضافة
+              href: ../financials/localizations/emea-aut-vat-statement-details.md
+        - name: بلجيكا
+          href: ../financials/localizations/belgium.md
+          items:
+            - name: كشف الحساب البنكي بتنسيق CODA
+              href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
+            - name: إنشاء حركات وتحويلها إلى BLWI
+              href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
+            - name: إقرار ضريبة INTERVAT
+              href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
+            - name: تقارير التسوية​
+              href: ../financials/localizations/emea-bel-reconciliation-reports.md
+            - name: إعداد تقارير رصيد الدفع
+              href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
+            - name: إعداد وصيانة PRODCOM
+              href: ../financials/localizations/emea-bel-prodcom-report.md
+        - name: البرازيل
+          href: ../financials/localizations/brazil.md
+          items:
+            - name: نطاق التعريب
+              href: ../financials/localizations/latam-bra-scope.md
+            - name: الدفاتر المالية‬
+              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
-                - name: كشف حساب النشاط التجاري (BAS)
-                  href: ../financials/localizations/apac-aus-business-activity-statement.md
-                - name: إضافة مربعات التقارير وإنشاء كشف حساب النشاط التجاري
-                  href: ../financials/localizations/tasks/add-bas-report-boxes.md
-                - name: إهلاك وعاء منخفض القيمة​
-                  href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
-                - name: إعداد أكواد السبب لكشف حساب النشاط التجاري
-                  href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
-            - name: الصين
-              href: ../financials/localizations/china.md
+                - name: تكوين الدفاتر المالية‬
+                  href: ../financials/localizations/latam-bra-configure-fiscal-books.md
+                - name: المستندات المالية لضريبة ICMS
+                  href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
+                - name: استيراد المستندات المالية
+                  href: ../financials/localizations/latam-bra-import-fiscal-documents.md
+                - name: تصدير واستيراد حركات الكيان القانوني من توحيد دفتر الأستاذ العام
+                  href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
+                - name: استيراد والتحقق من صحة مستندات NF-e XML وملفات DANFE
+                  href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
+                - name: المستند المالي للخدمة الإلكترونية باستخدام ملفات نصية
+                  href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
+                - name: معالجة حوالات الدفع الإلكتروني
+                  href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
+                - name: إدارة الدفع الإلكتروني لمدفوعات المورد
+                  href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
+                - name: المستندات المالية
+                  href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
+                - name: العناصر النائبة لنص المستند المالي
+                  href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
+                - name: إعداد النص المصدر للمستند المالي
+                  href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
+                - name: إدارة نص المستند المالي في مستندات التدبير
+                  href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
+                - name: إصدار المستندات المالية للموردين
+                  href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
+                - name: إصدار المستندات المالية للعملاء
+                  href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
+                - name: المستندات المالية المتممة للشراء
+                  href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
+                - name: إنشاء وترحيل مستند مالي متمم للشراء
+                  href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
+                - name: إلغاء مستند مالي متمم للشراء
+                  href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
+                - name: المستندات المالية المُشار إليها
+                  href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
+                - name: استلام المستندات المالية للمورد (المنتجات)
+                  href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
+                - name: استلام المستندات المالية للمورد ‬(الأصول الثابتة - ضريبتا PIS وCOFINS القابلتان للاسترداد على المدى الطويل)‬
+                  href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
+                - name: استلام المستندات المالية للمورد ‬(الأصول الثابتة - ضريبة ICMS القابلة للاسترداد على المدى الطويل)‬
+                  href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
+                - name: إصدار المستندات المالية للعملاء (الخدمات)
+                  href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
+                - name: إصدار المستندات المالية للعملاء (الأصول الثابتة)
+                  href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
+                - name: إصدار المستندات المالية للعملاء (المشروع)
+                  href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
+                - name: إصدار المستندات المالية للعملاء (للمستخدم النهائي)
+                  href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
+                - name: إصدار المستندات المالية للعملاء (لعملاء سوفراما)
+                  href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
+                - name: إلغاء مستند مالي للعميل (المشروع)
+                  href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
+                - name: المستندات المالية المتممة للمبيعات
+                  href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
+                - name: إنشاء وترحيل مستند مالي متمم للمبيعات
+                  href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
+                - name: إلغاء مستند مالي متمم للمبيعات
+                  href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
+                - name: المستند المالي الإلكتروني للخدمة
+                  href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
+                - name: دفاتر اليومية التي تم إنشاؤها أثناء عملية إرجاع الدفع الإلكتروني
+                  href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
+                - name: الإشعارات المدينة للمشروع
+                  href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
+            - name: عملية NF-e
+              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
-                - name: مقارنة قوائم مكونات الصنف
-                  href: ../financials/localizations/apac-chn-bom-comparison.md
-                - name: التدرج الهرمي الصيني لمخطط الحسابات
-                  href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
-                - name: التحقق من استمرارية الإيصال الصيني
-                  href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
-                - name: الإيصالات الصينية
-                  href: ../financials/localizations/apac-chn-vouchers.md
-                - name: تكوين تكامل الضريبة​
-                  href: ../financials/localizations/apac-chn-tax-integration.md
-                - name: إعداد تصدير تكامل الضريبة الذهبية الصينية
-                  href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
+                - name: الإرسال التلقائي لمستندات NF-e المالية
+                  href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
+                - name: إنشاء رسائل بريد إلكتروني لـ NF-e المعتمد وإرفاق ملفات DANFE PDF وملفات NF-e XML برسائل البريد الإلكتروني
+                  href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
+                - name: شهادات NF-e
+                  href: ../financials/localizations/latam-bra-nfe-certs.md
+                - name: إعداد واستيراد والتحقق من صحة مستندات NF-e XML وDANFE
+                  href: ../financials/localizations/latam-bra-set-up-import-nfe.md
+                - name: إعداد معلمات فيدرالية لـ NF-e
+                  href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
+                - name: إعداد معلمات NF-e لمؤسسة مالية
+                  href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+            - name: المعلمات الخاصة بالكيانات القانونية
+              href: ../financials/localizations/latam-bra-legal-entity-parameters.md
+            - name: إعداد معلمات الكيان القانوني
+              href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
+            - name: الحصول على أصل CIAP ثابت
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: التخلص من أصل CIAP ثابت
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: إدخال حركة CIAP
+              href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
+            - name: حساب مبلغ دائن CIAP
+              href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
+            - name: تضمين ائتمان CIAP من فترة سابقة
+              href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
+            - name: إيصالات التسليم‬
+              href: ../financials/localizations/tasks/br-00041-delivery-slip.md
+            - name: العمليات غير المالية
+              href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
+            - name: التكاليف المتنوعة على الفواتير ذات النص الحر‬
+              href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
+            - name: إعداد الفائدة والغرامات لمدفوعات المورد
+              href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
+            - name: حساب الفائدة والغرامات على مدفوعات المورد
+              href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
+            - name: إعداد الفائدة والغرامات على مدفوعات العميل
+              href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
+            - name: حساب الفائدة والغرامات على مدفوعات العميل
+              href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+            - name: الضرائب
+              href: ../financials/localizations/latam-bra-calculate-taxes.md
+              items:
+                - name: حساب الضريبة على عروض أسعار الشراء
+                  href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
+                - name: إنشاء تقييم ضريبة - ICMS‎
+                  href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
+                - name: إنشاء تقييم ضريبة - ضريبة IPI‎
+                  href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
+                - name: إنشاء تقييم ضريبة - ضريبتا PIS وCOFINS‎
+                  href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
+                - name: إدخال حركات تسوية الضريبة وترحيلها
+                  href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
+                - name: إدخال حركات تسوية ضريبتي PIS وCOFINS
+                  href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
+                - name: سمات ضريبة المؤسسة المالية
+                  href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
+                - name: إصدار مستندات مالية لائتمان ضريبة ICMS‬
+                  href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
+                - name: إصدار مستندات مالية لتحويل ائتمان ضريبة ICMS‬
+                  href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
+                - name: إعداد أكواد تسوية لضريبة ICMS
+                  href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
+                - name: إعداد أكواد تسوية لضرائب ICMS على المستندات المالية
+                  href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
+                - name: إعداد أكواد تسوية لضرائب IPI
+                  href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
+                - name: الأصول الثابتة لـ PIS وCOFINS
+                  href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
+                - name: إعداد أكواد التسوية لضريبتي PIS وCOFINS
+                  href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
+                - name: إعداد جداول PIS وCOFINS
+                  href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
+                - name: تقييم الضريبة لضريبة ISS
+                  href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
+                - name: سمات الضرائب
+                  href: ../financials/localizations/latam-bra-tax-attributes.md
+                - name: مدفوعات الضرائب
+                  href: ../financials/localizations/latam-bra-tax-payments.md
+                - name: الضريبة في عروض أسعار المبيعات
+                  href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
+                - name: ضرائب الخصم
+                  href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
+                - name: ضرائب الخصم على مدفوعات العميل
+                  href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
+                - name: ضرائب الخصم على مدفوعات المورد
+                  href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
+        - name: الصين
+          href: ../financials/localizations/china.md
+          items:
+            - name: مقارنة قوائم مكونات الصنف
+              href: ../financials/localizations/apac-chn-bom-comparison.md
+            - name: التدرج الهرمي الصيني لمخطط الحسابات
+              href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
+            - name: التحقق من استمرارية الإيصال الصيني
+              href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
+            - name: الإيصالات الصينية
+              href: ../financials/localizations/apac-chn-vouchers.md
+            - name: تكوين تكامل الضريبة​
+              href: ../financials/localizations/apac-chn-tax-integration.md
+            - name: إعداد تصدير تكامل الضريبة الذهبية الصينية
+              href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
+            - name: طرق إهلاك الأصول الثابتة
+              href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
+            - name: استيراد كيان بيانات الضريبة الصينية الذهبية
+              href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
+            - name: نموذج متوسط التكلفة الشهرية
+              href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
+            - name: ترحيل الحسابات الرئيسية للمخزون حسب الموقع
+              href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
+            - name: ترحيل الإيصالات من الوحدات النمطية الأخرى
+              href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
+            - name: ترحيل إيصالات من دفتر اليومية العام
+              href: ../financials/localizations/tasks/post-vouchers-general-journal.md
+            - name: إعداد ملف تعريف تكامل الضريبة الأساسية للصين
+              href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
+            - name: إعداد الإيصالات‬ الصينية
+              href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
+            - name: إعداد تخصيص الإهلاك للأصول الثابتة
+              href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
+            - name: عرض المبالغ المدينة والدائنة في حسابات دفتر الأستاذ
+              href: ../financials/localizations/apac-chn-negative-debits-credits.md
+            - name: سجل عمليات المستخدم حسب قاعدة العمل الصينية
+              href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
+            - name: الأسئلة المتداولة حول فواتير عملاء ضريبة القيمة المضافة
+              href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
+        - name: جمهورية التشيك
+          href: ../financials/localizations/czech-republic.md
+          items:
+            - name: إشعار دائن على خصم نقدي​
+              href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
+            - name: الأصول الثابتة
+              items:
+                - name: تقريب الإهلاك​
+                  href: ../financials/localizations/emea-cze-depreciation-rounding.md
+                - name: إهلاك نصف سنوي في التصرف في الأصول الثابتة
+                  href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
+                - name: تعليق الإهلاك (العطلات)
+                  href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
                 - name: طرق إهلاك الأصول الثابتة
-                  href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: استيراد كيان بيانات الضريبة الصينية الذهبية
-                  href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
-                - name: نموذج متوسط التكلفة الشهرية
-                  href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
-                - name: ترحيل الحسابات الرئيسية للمخزون حسب الموقع
-                  href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
-                - name: ترحيل الإيصالات من الوحدات النمطية الأخرى
-                  href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
-                - name: ترحيل إيصالات من دفتر اليومية العام
-                  href: ../financials/localizations/tasks/post-vouchers-general-journal.md
-                - name: إعداد ملف تعريف تكامل الضريبة الأساسية للصين
-                  href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
-                - name: إعداد الإيصالات‬ الصينية
-                  href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
-                - name: إعداد تخصيص الإهلاك للأصول الثابتة
-                  href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
-                - name: عرض المبالغ المدينة والدائنة في حسابات دفتر الأستاذ
-                  href: ../financials/localizations/apac-chn-negative-debits-credits.md
-                - name: سجل عمليات المستخدم حسب قاعدة العمل الصينية
-                  href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
-                - name: الأسئلة المتداولة حول فواتير عملاء ضريبة القيمة المضافة
-                  href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
-            - name: الهند
-              href: ../financials/localizations/india.md
-              items:
-                - name: الأصول الثابتة
-                  href: ../financials/localizations/apac-ind-fixed-assets.md
-                  items:
-                    - name: إرفاق تقويم يستند إلى الأيام بدفتر أصول ثابتة
-                      href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: حساب إهلاك الوردية
-                      href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: إنشاء مجموعة نماذج المخزون لعناصر رأس المال
-                      href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: إنشاء وترحيل الإهلاك
-                      href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
-                    - name: تحديد نوع وردية العمل‬ والمجال للدفاتر وإرفاقه بالأصل الثابت
-                      href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: إلغاء حركات الأصول الثابتة
-                      href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: حساب إهلاك الوردية
-                      href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: إعداد تقويم مالي مستند إلى الأيام
-                      href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: إعداد المعلمات لحساب الإهلاك
-                      href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: إعداد إهلاك مجموعة أصول لدفاتر الإهلاك
-                      href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: تحويل عناصر رأس المال إلى الأصل الثابت
-                      href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: GST للهند
-                  href: ../financials/localizations/apac-ind-gst.md
-                  items:
-                    - name: مجموعات GST المرجعية للهند
-                      href: ../financials/localizations/apac-ind-gst-reference-groups.md
-                    - name: تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
-                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-                - name: نظرة عامة على محرك الضريبة
-                  href: ../financials/general-ledger/tax-engine.md
-                  items:
-                    - name: تكامل محرك الضريبة
-                      href: ../financials/general-ledger/tax-engine-integration.md
-                    - name: توسيع محرك الضريبة
-                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
-                - name: الأسئلة المتداولة حول حدود الضريبة
-                  href: ../financials/localizations/apac-ind-tax-thresholds.md
-            - name: اليابان
-              href: ../financials/localizations/japan.md
-              items:
-                - name: الحصول على أصل ثابت والمطالبة بمنح الإعانة الحكومية
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
-                - name: الحصول على أصل ثابت بالتزامات تقاعد الأصل
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
-                - name: ‏‫تعديل تقدير الالتزام بتقاعد الأصل‬
-                  href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
-                - name: توزيع المبلغ المرّحل للأصل المشترك وشهرة المحل في وحدات توليد النقد
-                  href: ../financials/localizations/tasks/allocate-carrying-amount.md
-                - name: قواعد التوزيع
-                  href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
-                - name: رسوم الدفع البنكي المشمولة من قِبل الموردين
-                  href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
-                - name: تغيير أسلوب الإهلاك خلال فترة عمر الأصل لدفتر
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
-                - name: تغيير أسلوب الإهلاك خلال فترة عمر أصل واحد
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
-                - name: تكوين معلمات الإهلاك السريع وملفات تعريف الترحيل
-                  href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
-                - name: تكوين معلمات الفاتورة المجمعة وإعداد الحسابات الدائنة
-                  href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
-                - name: تكوين ملف تعريف الإهلاك وملف تعريف الترحيل للإهلاك الإضافي
-                  href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
-                - name: تكوين الحسابات الرئيسية لترحيل الالتزام باستبعاد الأصول ومعدلات خصم السوق
-                  href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
-                - name: الفواتير المجمعة
-                  href: ../financials/localizations/apac-jpn-consolidate-invoices.md
-                - name: إنشاء أصل ثابت باستخدام الإهلاك الإضافي
-                  href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
-                - name: إنشاء أصل ثابت باستخدام ملف تعريف إهلاك خاص
-                  href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
-                - name: إنشاء مستند إهلاك سريع وإدخال بيانات الاستخدام
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
-                - name: إنشاء ملف تعريف الإهلاك السريع وتعيينه إلى دفتر
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
-                - name: إنشاء وتعيين مستند إدخال تخفيض لمنح إعانة حكومية
-                  href: ../financials/localizations/tasks/create-assign-reduction-document.md
-                - name: إنشاء وتعيين مجموعة المعدات
-                  href: ../financials/localizations/tasks/create-assign-equipment-group.md
-                - name: إنشاء وتأكيد فاتورة عميل مجمعة
-                  href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
-                - name: إنشاء وتأكيد اختبار التعرف
-                  href: ../financials/localizations/tasks/create-confirm-recognition-test.md
-                - name: ‎إنشاء وتأكيد فاتورة مورد مجمعة‏‎
-                  href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
-                - name: إنشاء مجموعة وحدات توليد النقد ووحدات توليد النقد
-                  href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
-                - name: إنشاء أصول إهلاك المبلغ الإجمالي باستخدام طريقة التقسيم بالتساوي
-                  href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
-                - name: تحديد فترة الأصول الخاملة والتحقق من صحة عملية الإهلاك
-                  href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
-                - name: إهلاك واستحقاق مصروفات الفائدة لالتزامات استبعاد الأصل
-                  href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
-                - name: إهلاك الأصول الثابتة بإدخال التخفيض المرحل
-                  href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
-                - name: الأسئلة المتداولة حول الإهلاك
-                  href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
-                - name: التخلص من أصول ثابتة باستخدام إدخال الخفض
-                  href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
-                - name: تمكين تنسيق ملف الدفع JBA
-                  href: ../financials/localizations/tasks/jba-payment-file-format.md
-                - name: إدخال جدول معدلات الإهلاك والاقتران بملف تعريف الإهلاك
-                  href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
-                - name: طريقة الإهلاك بالتساوي
-                  href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
-                - name: نموذج 26 لإقرار الضريبة القابلة للإهلاك
-                  href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
-                - name: إنشاء ملف دفع EFT بتنسيق JBA
-                  href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
-                - name: إنشاء وترحيل رسوم الدفع
-                  href: ../financials/localizations/tasks/post-payment-fee.md
-                - name: إنشاء تقرير ضريبة الاستهلاك
-                  href: ../financials/localizations/tasks/japan-consumption-tax-report.md
-                - name: ضعف المحاسبة في وحدة توليد النقد
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
-                - name: ضعف المحاسبة
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
-                - name: استيراد دفعة عميل بتنسيق ملف JBA
-                  href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
-                - name: استيراد الأرقام البريدية
-                  href: ../financials/localizations/apac-jpn-import-postal-codes.md
-                - name: دفتر يومية المدخلات في نموذج الحساب T
-                  href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
-                - name: ‏‫الاستعلام عن الحركات المتعلقة بالالتزام باستبعاد الأصول‬
-                  href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
-                - name: الاستعلام عن المصروفات القابلة للخصم
-                  href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
-                - name: الاستعلام عن رسوم الدفع في دفتر يومية
-                  href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
-                - name: الاحتفاظ بملفات البيانات الرئيسية للأصول الثابتة للمصروفات القابلة للخصم
-                  href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
-                - name: الاحتفاظ بمؤشرات الضعف المتعلقة بالأصول الفردية
-                  href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
-                - name: الدفع لمورد عن طريق مصادقة الكمبيالة
-                  href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
-                - name: الدفع لحركة مورد عن طريق مصادقة كمبيالة عميل
-                  href: ../financials/localizations/tasks/pay-vendor-transaction.md
-                - name: التسوية الدورية من بما يتجاوز ويقل عن الإهلاك
-                  href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
-                - name: حساب ضريبة الخصم التقدمية​
-                  href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
-                - name: اقتراح إهلاك إضافي
-                  href: ../financials/localizations/tasks/propose-additional-depreciation.md
-                - name: اقتراح وترحيل الإهلاك السريع
-                  href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
-                - name: اقتراح وترحيل مبلغ الخفض حسب الدُفعة
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
-                - name: اقتراح وترحيل مبلغ الخفض باستخدام دفتر يومية الأصول الثابتة
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
-                - name: اقتراح وترحيل مبلغ الخفض في وحدة توليد النقد
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
-                - name: ‎اقتراح الإهلاك الخاص
-                  href: ../financials/localizations/tasks/propose-special-depreciation.md
-                - name: إعادة فتح وتحرير فاتورة عميل مجمعة
-                  href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
-                - name: إعادة فتح وتحرير فاتورة مورد مجمعة
-                  href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
-                - name: إلغاء كمبيالة معتمدة
-                  href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
-                - name: تشغيل اختبار التعرف وحساب مبلغ الخفض في الأصول الفردية
-                  href: ../financials/localizations/tasks/run-recognition-test-calculate.md
-                - name: ‎إعداد أمر مبيعات وعميل ليكون هدف الفاتورة المجمعة
-                  href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
-                - name: إعداد الالتزام باستبعاد الأصول (ARO)
-                  href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
-                - name: إعداد وثائق الالتزام باستبعاد الأصول وإدخال مبلغ ARO في أصل ثابت
-                  href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
-                - name: إعداد الفواتير المجمعة
-                  href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
-                - name: إعداد المعلمات المشتركة لمحاسبة الخفض وملف تعريف الترحيل
-                  href: ../financials/localizations/tasks/impairment-accounting.md
-                - name: إعداد ملف ضريبة استهلاك ياباني
-                  href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
-                - name: ‎إعداد الدفع الياباني باعتماد كمبيالة عميل
-                  href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
-                - name: إعداد البيانات الرئيسية لتضمين المصاريف القابلة للخصم لطبقات ترحيل متعددة
-                  href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
-                - name: ‏‫إعداد رسوم مدفوعات لليابان‬
-                  href: ../financials/localizations/tasks/setup-payment-fee-japan.md
-                - name: إعداد إدخالات الخفض
-                  href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
-                - name: إعداد المورد الرئيسي وأمر الشراء ليكونا هدف الفاتورة المجمعة
-                  href: ../financials/localizations/tasks/vendor-master-po.md
-                - name: ‏‫تسوية كمبيالة معتمدة‬
-                  href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
-                - name: تسوية فواتير العملاء المجمعة باستخدام دفتر يومية المدفوعات
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
-                - name: تسوية فواتير العملاء المجمعة باستخدام تسوية الحركات
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
-                - name: ‏‫تسوية فواتير الموردين المجمعة باستخدام دفتر يومية المدفوعات‬
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
-                - name: ‏‫تسوية فواتير الموردين المجمعة باستخدام تسوية الحركات‬
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
-                - name: ‏‫إنشاء قائمة تجميع بأصل ثابت‬
-                  href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
-                - name: ‏‫استخدام قائمة تفكيك التجميع الخاصة بالأصول الثابتة‬
-                  href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
-            - name: ماليزيا
-              href: ../financials/localizations/malaysia.md
-              items:
-                - name: إنشاء ائتمان عميل لمبيعات المشروع
-                  href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
-                - name: إنشاء دين عميل لمبيعات المشروع
-                  href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
-                - name: ضريبة على البضائع والخدمات (GST)
-                  href: ../financials/localizations/apac-mys-gst.md
-                - name: GST - إنشاء ملفات GAF بالتنسيق المطلوب
-                  href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
-                - name: إدارة دين وائتمان العملاء لـ GST
-                  href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
-                - name: إدارة دين وائتمان المورد لـ GST
-                  href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
-                - name: طباعة فواتير عملاء GST مع بند تصريف‬
-                  href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
-                - name: طباعة فواتير ضريبة GST
-                  href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
-                - name: الفواتير المفوترة ذاتيًا
-                  href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
-                - name: إعداد بنود تصريف GST‬
-                  href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
-            - name: سنغافورة
-              href: ../financials/localizations/singapore.md
-              items:
-                - name: إنشاء تقرير GST-05
-                  href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
-            - name: تايلاند
-              href: ../financials/localizations/thailand.md
-              items:
-                - name: تقارير بطاقات المخزون
-                  href: ../financials/localizations/apac-tha-stock-card-reports.md
-                - name: فاتورة ضريبة الإحلال/التسوية
-                  href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
-                - name: ضريبة القيمة المضافة غير المحققة
-                  href: ../financials/localizations/apac-tha-unrealized-vat.md
-                - name: ضريبة الخصم
-                  href: ../financials/localizations/apac-tha-withholding-tax.md
+                  href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
+                - name: ترحيل الاستحواذ المسبق
+                  href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
+            - name: ترحيل دفاتر اليومية الدورية
+              href: ../financials/general-ledger/tasks/post-periodic-journals.md
+            - name: إعداد الموقِّعين لنماذج الطباعة
+              href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
+            - name: تقسيم الفترات في دفاتر اليومية الدورية
+              href: ../financials/localizations/emea-create-post-periodic-journals.md
+            - name: تحديث طريقة عرض المبالغ في التقارير والمستندات
+              href: ../financials/localizations/emea-amount-printing-forms.md
+            - name: كشف ضريبة القيمة المضافة
+              href: ../financials/localizations/emea-cze-vat-statement-details.md
+            - name: إقفال نهاية السنة
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: الدنمارك
+          href: ../financials/localizations/denmark.md
+          items:
+            - name: تعيين تنسيق إيصال دفع لحساب العميل
+              href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
+            - name: إنشاء وترحيل فاتورة عميل لعميل القطاع العام
+              href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
+            - name: إنشاء وترحيل فاتورة نص حر لعميل القطاع العام
+              href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
+            - name: إنشاء وترحيل فاتورة مشروع لعميل القطاع العام
+              href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
+            - name: استيراد تكوينات الفوترة الإلكترونية OIOUBL
+              href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+            - name: ترحيل فاتورة نص حر حسب إيصال دفع
+              href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
+            - name: ترحيل فاتورة مشروع حسب إيصال دفع
+              href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
+            - name: ترحيل فاتورة مبيعات حسب إيصال دفع
+              href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
+            - name: إعداد حسابات العملاء الخاصة بالفوترة الإلكترونية OIOUBL
+              href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
+            - name: إعداد الفوترة الإلكترونية OIOUBL
+              href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
+            - name: إعداد تنسيق إيصال الدفع
+              href: ../financials/localizations/tasks/set-up-payment-slip-format.md
+        - name: إستونيا
+          href: ../financials/localizations/estonia.md
+          items:
+            - name: طلبات المعلومات الشخصية
+              href: ../financials/localizations/emea-est-personal-info.md
+            - name: كشف ضريبة القيمة المضافة
+              href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: أوروبا
+          href: ../financials/localizations/europe.md
           items:
             - name: أصحاب السُلف‬
               href: ../financials/localizations/emea-advance-holders.md
               items:
                 - name: حركات أصحاب السُلف
                   href: ../financials/localizations/emea-advance-holders-transactions.md
-            - name: دفع مقدم لموظف (‏‫أوروبا الشرقية‬)
-              href: ../financials/localizations/tasks/advance-payment-employee.md
+                - name: دفع مقدم لموظف (‏‫أوروبا الشرقية‬)
+                  href: ../financials/localizations/tasks/advance-payment-employee.md
             - name: فوترة متقدمة
               href: ../financials/localizations/emea-advance-invoice.md
             - name: تسوية بنكية
@@ -1526,8 +1547,6 @@
               href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: إنشاء مستند تحويل لتحويل مخزون داخلي
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
-            - name: إنشاء إقرار "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي"
-              href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: إنشاء تقرير قائمة مبيعات الاتحاد الأوروبي
               href: ../financials/localizations/tasks/eur-00011-eu-sales-list-report.md
             - name: ملفات ISO20022
@@ -1557,6 +1576,10 @@
               items:
                 - name: تحويل الحركات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
+                - name: تحديد عنوان الشحن لحركة مشتركة بين المجتمعات
+                  href: ../financials/localizations/tasks/eur-00002-specify-lading-address-intra-community.md
+                - name: إنشاء إقرار "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي"
+                  href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: تقارير دفتر يومية المخزون
               href: ../financials/localizations/emea-set-up-report-inventory-journal-names.md
             - name: المواعيد النهائية لإصدار الفواتير
@@ -1627,555 +1650,470 @@
                   href: ../financials/localizations/tasks/create-submit-vat-report.md
             - name: عرض الحركات عند التسوية
               href: ../financials/localizations/emea-transactions-settlement-form.md
-            - name: النمسا
-              href: ../financials/localizations/austria.md
-              items:
-                - name: إهلاك نصف السنة في عمليات الاستحواذ الإضافية
-                  href: ../financials/localizations/emea-aut-half-year-depreciation.md
-                - name: رسوم مواد التعبئة
-                  href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
-                - name: كشف ضريبة القيمة المضافة
-                  href: ../financials/localizations/emea-aut-vat-statement-details.md
-            - name: بلجيكا
-              href: ../financials/localizations/belgium.md
-              items:
-                - name: كشف الحساب البنكي بتنسيق CODA
-                  href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
-                - name: إنشاء حركات وتحويلها إلى BLWI
-                  href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
-                - name: إقرار ضريبة INTERVAT
-                  href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
-                - name: تقارير التسوية​
-                  href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: إعداد تقارير رصيد الدفع
-                  href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
-                - name: إعداد وصيانة PRODCOM
-                  href: ../financials/localizations/emea-bel-prodcom-report.md
-            - name: جمهورية التشيك
-              href: ../financials/localizations/czech-republic.md
-              items:
-                - name: إشعار دائن على خصم نقدي​
-                  href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
-                - name: الأصول الثابتة
-                  items:
-                    - name: تقريب الإهلاك​
-                      href: ../financials/localizations/emea-cze-depreciation-rounding.md
-                    - name: إهلاك نصف سنوي في التصرف في الأصول الثابتة
-                      href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
-                    - name: تعليق الإهلاك (العطلات)
-                      href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
-                    - name: طرق إهلاك الأصول الثابتة
-                      href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
-                    - name: ترحيل الاستحواذ المسبق
-                      href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
-                - name: ترحيل دفاتر اليومية الدورية
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: إعداد الموقِّعين لنماذج الطباعة
-                  href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
-                - name: تقسيم الفترات في دفاتر اليومية الدورية
-                  href: ../financials/localizations/emea-create-post-periodic-journals.md
-                - name: تحديث طريقة عرض المبالغ في التقارير والمستندات
-                  href: ../financials/localizations/emea-amount-printing-forms.md
-                - name: كشف ضريبة القيمة المضافة
-                  href: ../financials/localizations/emea-cze-vat-statement-details.md
-                - name: إقفال نهاية السنة
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: الدنمارك
-              href: ../financials/localizations/denmark.md
-              items:
-                - name: تعيين تنسيق إيصال دفع لحساب العميل
-                  href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
-                - name: إنشاء وترحيل فاتورة عميل لعميل القطاع العام
-                  href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
-                - name: إنشاء وترحيل فاتورة نص حر لعميل القطاع العام
-                  href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
-                - name: إنشاء وترحيل فاتورة مشروع لعميل القطاع العام
-                  href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
-                - name: استيراد تكوينات الفوترة الإلكترونية OIOUBL
-                  href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
-                - name: ترحيل فاتورة نص حر حسب إيصال دفع
-                  href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
-                - name: ترحيل فاتورة مشروع حسب إيصال دفع
-                  href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
-                - name: ترحيل فاتورة مبيعات حسب إيصال دفع
-                  href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
-                - name: إعداد حسابات العملاء الخاصة بالفوترة الإلكترونية OIOUBL
-                  href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
-                - name: إعداد الفوترة الإلكترونية OIOUBL
-                  href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
-                - name: إعداد تنسيق إيصال الدفع
-                  href: ../financials/localizations/tasks/set-up-payment-slip-format.md
-            - name: إستونيا
-              href: ../financials/localizations/estonia.md
-              items:
-                - name: طلبات المعلومات الشخصية
-                  href: ../financials/localizations/emea-est-personal-info.md
-                - name: كشف ضريبة القيمة المضافة
-                  href: ../financials/localizations/emea-est-vat-statement-details.md
-            - name: فرنسا
-              href: ../financials/localizations/france.md
-              items:
-                - name: القطاع العام
-                  items:
-                    - name: محاسبة القطاع العام
-                      href: ../financials/localizations/emea-fra-public-sector-accounting.md
-                    - name: الالتزامات
-                      href: ../financials/localizations/emea-fra-commitments-public-sector.md
-                    - name: Mandats de paiement
-                      href: ../financials/localizations/emea-fra-mandats-de-paiement.md
-                    - name: التدبير والتوريد
-                      href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
-                    - name: Titres de recette
-                      href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
-                    - name: تعليقات دفع فواتير الموردين
-                      href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
-                - name: اعتماد وترحيل سحب الكمبيالة
-                  href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
-                - name: إيصالات الفواتير المرتبة زمنيًا
-                  href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: إنشاء ملف مراجعة قياسي لفرنسا (FEC)
-                  href: ../financials/localizations/emea-fra-fec-audit-file.md
-                - name: كشوف حسابات العملاء والموردين
-                  href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
-                - name: حساب الفائدة اليومية للتأخر في الدفع والمبلغ الإجمالي في الفاتورة وخطاب التحصيل
-                  href: ../financials/localizations/tasks/fr-00018-daily-interest.md
-                - name: إهلاك تنازلي
-                  href: ../financials/localizations/emea-fra-derogatory-depreciation.md
-                - name: الكمبيالات والسندات الإذنية الفرنسية
-                  href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
-                - name: أكواد NAF وأرقام siret
-                  href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
-                - name: إعداد أكواد NAF وأرقام Siret
-                  href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
-                - name: عقوبات مدفوعات العملاء المستحقة​
-                  href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
-                - name: ترحيل دفتر يومية الاحتجاج على سحب الكمبيالات
-                  href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
-                - name: ترحيل دفتر يومية إعادة سحب الكمبيالات
-                  href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
-                - name: طباعة نص استرداد المبلغ الإجمالي في فاتورة عميل
-                  href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
-                - name: إهلاك RB/SL
-                  href: ../financials/localizations/emea-fra-rbsl-depreciation.md
-                - name: إعداد طريقة الدفع
-                  href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
-                - name: تحديث طريقة الدفع للعميل
-                  href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: Retail
-                  items:
-                    - name: آلات تسجيل المدفوعات النقدية
-                      href: ../retail/localizations/emea-fra-cash-registers.md
-                    - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
-                      href: ../retail/localizations/emea-fra-deployment.md
-            - name: ألمانيا
-              href: ../financials/localizations/germany.md
-              items:
-                - name: إهلاك الاستحواذ الإضافي
-                  href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: ملف مراجعة
-                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
-                  items:
-                    - name: تخصيص تكوين ملف المراجعة
-                      href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: إنشاء ملف مراجعة
-                      href: ../financials/localizations/tasks/german-audit-file.md
-                    - name: استيراد تكوين ملف المراجعة
-                      href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
-                - name: تسويات الإهلاك لعمليات الاستحواذ الإضافية في السنة الثانية
-                  href: ../financials/localizations/tasks/de-00002-depreciation.md
-                - name: الإرسال الإلكتروني لإقرار ضريبة القيمة المضافة (ELSTER)
-                  href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
-                - name: تقرير قائمة دفتر اليومية
-                  href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: إعداد الإقرارات الضريبية الإلكترونية
-                  href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
-            - name: هنغاريا‬
-              href: ../financials/localizations/hungary.md
-              items:
-                - name: حساب سعر الصرف
-                  href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
-                - name: طرق إهلاك الأصول الثابتة
-                  href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
-                - name: الأصول الثابتة ذات التكلفة المنخفضة​
-                  href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
-                - name: نقل أصل ثابت إلى المخزون​
-                  href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
-                - name: مستندات استرداد الضرائب
-                  href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
-                - name: إقفال نهاية السنة
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: أيسلندا
-              href: ../financials/localizations/iceland.md
-              items:
-                - name: إنشاء حساب مورد وإرفاق فئة إقرار الفاتورة
-                  href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
-                - name: إعداد إقرار فاتورة للموردين
-                  href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
-                - name: إعداد مراجع الدفع الإلزامي
-                  href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
-                - name: تحديث إقرارات فواتير الموردين وإنشاء التقرير
-                  href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
-            - name: إيطاليا
-              href: ../financials/localizations/italy.md
-              items:
-                - name: تفاصيل كشوف حساب ضريبة القيمة المضافة​
-                  href: ../financials/localizations/emea-ita-vat-statements-details.md
-                - name: تقرير القائمة السوداء
-                  href: ../financials/localizations/emea-ita-black-list-report.md
-                - name: تاريخ الاختصاص
-                  href: ../financials/localizations/emea-ita-competence-date.md
-                - name: إهلاك الأصول الثابتة
-                  href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
-                - name: Modello 770
-                  href: ../financials/localizations/emea-ita-modello770.md
-                - name: التحقق من صحة تاريخ إيصال التعبئة على الفواتير​
-                  href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
-                - name: ترحيل وطباعة كشف تعبئة مع تفاصيل تسليم النقل
-                  href: ../financials/localizations/emea-ita-packing-slip.md
-                - name: دفاتر ضريبة المبيعات
-                  href: ../financials/localizations/emea-ita-fiscal-books.md
-                - name: الدفعة المقسمة للفواتير الصادرة للإدارة العامة​
-                  href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
-                - name: ضريبة الخصم
-                  href: ../financials/localizations/emea-ita-withholding-tax.md
-            - name: لاتفيا
-              href: ../financials/localizations/latvia.md
-              items:
-                - name: محاسبة الأصول الثابتة​
-                  href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
-                - name: تعقب التغييرات بمواقع الأصول الثابتة
-                  href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
-                - name: ترقيم الفواتير وإيصالات التعبئة
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: تقرير الضريبة على الموارد الطبيعية
-                  href: ../financials/localizations/emea-lva-tax-natural-resources.md
-                - name: تفاصيل كشف حساب ضريبة القيمة المضافة
-                  href: ../financials/localizations/emea-lva-vat-statement-details.md
-            - name: لتوانيا
-              href: ../financials/localizations/lithuania.md
-              items:
-                - name: كشف إصلاح الأصول الثابتة
-                  href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
-                - name: ‏‫إنشاء عملية تحويل للأصول الثابتة بين مستندات المستودعات‬
-                  href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
-                - name: ترقيم الفواتير وإيصالات التعبئة
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: تفاصيل كشف حساب ضريبة القيمة المضافة
-                  href: ../financials/localizations/emea-ltu-vat-statement-details.md
-            - name: هولندا
-              href: ../financials/localizations/netherlands.md
-              items:
-                - name: إقرارات الضريبة الإلكترونية‬ (EVAT)
-                  href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
-                - name: تكامل Semansys XBRL
-                  href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
-            - name: النرويج
-              href: ../financials/localizations/norway.md
-              items:
-                - name: تنسيقات الدفع الخاصة بالعملاء والموردين
-                  href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
-                - name: دفع العميل استنادًا إلى معرّف الدفع
-                  href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
-                - name: تنسيق ملف استيراد صافي القيم​
-                  href: ../financials/localizations/emea-nor-nets-import-format.md
-                - name: كشف ضريبة القيمة المضافة
-                  href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
-                - name: آلات تسجيل المدفوعات النقدية
-                  href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
-                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: بولندا
-              href: ../financials/localizations/poland.md
-              items:
-                - name: حساب خصومات البند من سعر الوحدة​
-                  href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
-                - name: ملاحظات التصحيح​
-                  href: ../financials/localizations/emea-pol-correction-notes.md
-                - name: ترقيم فواتير المبيعات المتكررة
-                  href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
-                - name: إهلاك الأصل الثابت
-                  href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
-                - name: توسيع وظائف التخلص من الأصول الثابتة
-                  href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
-                - name: العبوات القابلة للإرجاع​
-                  href: ../financials/localizations/emea-pol-returnable-packages.md
-                - name: تقارير ضريبة المبيعات
-                  href: ../financials/localizations/emea-pol-sales-tax-reports.md
-                - name: ملف المراجعة القياسي
-                  href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
-                - name: فائدة الضرائب وضرائب من دون فائدة
-                  href: ../financials/localizations/emea-pol-interest-calculation.md
-                - name: كشف الأرصدة والدوران​
-                  href: ../financials/localizations/emea-pol-turnover-balances-statement.md
-            - name: إسبانيا
-              href: ../financials/localizations/spain.md
-              items:
-                - name: تطبيق الخصومات النقدية في الفاتورة​
-                  href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
-                - name: خيارات الكمبيالة​
-                  href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
-                - name: ضريبة مبيعات مشروطة
-                  href: ../financials/localizations/emea-esp-conditional-sales-tax.md
-                - name: فوترة الائتمان
-                  href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
-                - name: حساب فاتورة البيانات المالية
-                  href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
-                - name: إعادة تقييم مجموعة الأصول الثابتة
-                  href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
-                - name: ضريبة القيمة المضافة بين المجتمعات
-                  href: ../financials/localizations/emea-esp-intra-community-vat.md
-                - name: عملاء المرة الواحدة
-                  href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
-                - name: طباعة الشيكات باستخدام مخطط إسباني​
-                  href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
-                - name: خيارات السندات الإذنية
-                  href: ../financials/localizations/emea-esp-promissory-note-options.md
-                - name: تقرير 340
-                  href: ../financials/localizations/emea-esp-report-340.md
-                - name: دورات المبيعات والشراء​
-                  href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
-                - name: الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬
-                  href: ../financials/localizations/emea-esp-opening-sheets-spain.md
-            - name: السويد
-              href: ../financials/localizations/sweden.md
-              items:
-                - name: تصدير معلومات مالية للمراجعين في السويد
-                  href: ../financials/localizations/emea-swe-sie-standard-report.md
-                - name: استيراد تنسيقات الدفع​
-                  href: ../financials/localizations/emea-swe-payment-formats-import.md
-                - name: آلات تسجيل المدفوعات النقدية
-                  href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
-            - name: سويسرا
-              href: ../financials/localizations/switzerland.md
-              items:
-                - name: استيراد دفعات العملاء في ESR
-                  href: ../financials/localizations/emea-che-esr-customer-payments-import.md
-            - name: المملكة المتحدة
-              href: ../financials/localizations/united-kingdom.md
-              items:
-                - name: نظام صناعة الإنشاء
-                  href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: إنشاء ائتمان على خصم التسوية
-                  href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: إنشاء أمر شراء يشتمل على أصناف خاضعة لضريبة القيمة المضافة على الرسوم العكسية
-                  href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: إنشاء أمر مبيعات يتضمن أصنافًا تخضع لضريبة القيمة المضافة للرسوم العكسية
-                  href: ../financials/localizations/tasks/gb-00002-sales-order.md
-                - name: إعداد مجموعات ضريبة مبيعات الصنف لضريبة القيمة المضافة للرسوم العكسية
-                  href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: إعداد مجموعات وقواعد ومعايير أصناف ضريبة القيمة المضافة للرسوم العكسية
-                  href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: إعداد مجموعات ضريبة المبيعات لضريبة القيمة المضافة للرسوم العكسية
-                  href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-        - name: أمريكا اللاتينية
+        - name: فرنسا
+          href: ../financials/localizations/france.md
           items:
-            - name: البرازيل
-              href: ../financials/localizations/brazil.md
+            - name: القطاع العام
               items:
-                - name: نطاق التعريب
-                  href: ../financials/localizations/latam-bra-scope.md
-                - name: الدفاتر المالية‬
-                  href: ../financials/localizations/latam-bra-fiscal-books.md
-                  items:
-                    - name: تكوين الدفاتر المالية‬
-                      href: ../financials/localizations/latam-bra-configure-fiscal-books.md
-                    - name: المستندات المالية لضريبة ICMS
-                      href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
-                    - name: استيراد المستندات المالية
-                      href: ../financials/localizations/latam-bra-import-fiscal-documents.md
-                    - name: تصدير واستيراد حركات الكيان القانوني من توحيد دفتر الأستاذ العام
-                      href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
-                    - name: استيراد والتحقق من صحة مستندات NF-e XML وملفات DANFE
-                      href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
-                    - name: معالجة حوالات الدفع الإلكتروني
-                      href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
-                    - name: المستندات المالية
-                      href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
-                    - name: العناصر النائبة لنص المستند المالي
-                      href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
-                    - name: المستندات المالية المتممة للشراء
-                      href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
-                    - name: المستندات المالية المُشار إليها
-                      href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
-                    - name: المستندات المالية المتممة للمبيعات
-                      href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
-                    - name: المستند المالي الإلكتروني للخدمة
-                      href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
-                    - name: دفاتر اليومية التي تم إنشاؤها أثناء عملية إرجاع الدفع الإلكتروني
-                      href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
-                - name: عملية NF-e
-                  href: ../financials/localizations/latam-bra-nf-e-process.md
-                  items:
-                    - name: الإرسال التلقائي لمستندات NF-e المالية
-                      href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
-                    - name: إنشاء رسائل بريد إلكتروني لـ NF-e المعتمد وإرفاق ملفات DANFE PDF وملفات NF-e XML برسائل البريد الإلكتروني
-                      href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
-                    - name: شهادات NF-e
-                      href: ../financials/localizations/latam-bra-nfe-certs.md
-                    - name: إعداد واستيراد والتحقق من صحة مستندات NF-e XML وDANFE
-                      href: ../financials/localizations/latam-bra-set-up-import-nfe.md
-                    - name: إعداد معلمات فيدرالية لـ NF-e
-                      href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
-                    - name: إعداد معلمات NF-e لمؤسسة مالية
-                      href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                - name: المعلمات الخاصة بالكيانات القانونية
-                  href: ../financials/localizations/latam-bra-legal-entity-parameters.md
-                - name: الحصول على أصل CIAP ثابت
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: التخلص من أصل CIAP ثابت
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: الضرائب
-                  href: ../financials/localizations/latam-bra-calculate-taxes.md
-                  items:
-                    - name: حساب الضريبة على عروض أسعار الشراء
-                      href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
-                    - name: إنشاء تقييم ضريبة - ICMS‎
-                      href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
-                    - name: إنشاء تقييم ضريبة - ضريبة IPI‎
-                      href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
-                    - name: إنشاء تقييم ضريبة - ضريبتا PIS وCOFINS‎
-                      href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
-                    - name: إدخال حركات تسوية الضريبة وترحيلها
-                      href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
-                    - name: إدخال حركات تسوية ضريبتي PIS وCOFINS
-                      href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
-                    - name: سمات ضريبة المؤسسة المالية
-                      href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
-                    - name: إصدار مستندات مالية لائتمان ضريبة ICMS‬
-                      href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
-                    - name: إصدار مستندات مالية لتحويل ائتمان ضريبة ICMS‬
-                      href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
-                    - name: إعداد أكواد تسوية لضريبة ICMS
-                      href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
-                    - name: إعداد أكواد تسوية لضرائب ICMS على المستندات المالية
-                      href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
-                    - name: إعداد أكواد تسوية لضرائب IPI
-                      href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
-                    - name: إعداد أكواد التسوية لضريبتي PIS وCOFINS
-                      href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
-                    - name: إعداد جداول PIS وCOFINS
-                      href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
-                    - name: تقييم الضريبة لضريبة ISS
-                      href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
-                    - name: سمات الضرائب
-                      href: ../financials/localizations/latam-bra-tax-attributes.md
-                    - name: مدفوعات الضرائب
-                      href: ../financials/localizations/latam-bra-tax-payments.md
-                    - name: الضريبة في عروض أسعار المبيعات
-                      href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: ضرائب الخصم
-                      href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
-                    - name: ضرائب الخصم على مدفوعات العميل
-                      href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
-                    - name: ضرائب الخصم على مدفوعات المورد
-                      href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
-                - name: مهام للبرازيل
-                  items:
-                    - name: إعداد معلمات الكيان القانوني
-                      href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
-                    - name: إعداد النص المصدر للمستند المالي
-                      href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
-                    - name: استلام المستندات المالية للمورد ‬(الأصول الثابتة - ضريبتا PIS وCOFINS القابلتان للاسترداد على المدى الطويل)‬
-                      href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
-                    - name: استلام المستندات المالية للمورد (المنتجات)
-                      href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
-                    - name: إنشاء وترحيل مستند مالي متمم للشراء
-                      href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
-                    - name: إلغاء مستند مالي متمم للشراء
-                      href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
-                    - name: إصدار المستندات المالية للموردين
-                      href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
-                    - name: إصدار المستندات المالية للعملاء
-                      href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
-                    - name: إيصالات التسليم‬
-                      href: ../financials/localizations/tasks/br-00041-delivery-slip.md
-                    - name: التكاليف المتنوعة على الفواتير ذات النص الحر‬
-                      href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
-                    - name: إنشاء وترحيل مستند مالي متمم للمبيعات
-                      href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
-                    - name: إلغاء مستند مالي متمم للمبيعات
-                      href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
-                    - name: المستند المالي للخدمة الإلكترونية باستخدام ملفات نصية
-                      href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
-                    - name: إعداد الفائدة والغرامات لمدفوعات المورد
-                      href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
-                    - name: حساب الفائدة والغرامات على مدفوعات المورد
-                      href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
-                    - name: إعداد الفائدة والغرامات على مدفوعات العميل
-                      href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
-                    - name: حساب الفائدة والغرامات على مدفوعات العميل
-                      href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
-                    - name: إدارة الدفع الإلكتروني لمدفوعات المورد
-                      href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
-                    - name: الإشعارات المدينة للمشروع
-                      href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
-                    - name: إدارة نص المستند المالي في مستندات التدبير
-                      href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
-                    - name: استلام المستندات المالية للمورد ‬(الأصول الثابتة - ضريبة ICMS القابلة للاسترداد على المدى الطويل)‬
-                      href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
-                    - name: إصدار المستندات المالية للعملاء (الخدمات)
-                      href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
-                    - name: إصدار المستندات المالية للعملاء (الأصول الثابتة)
-                      href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
-                    - name: إصدار المستندات المالية للعملاء (المشروع)
-                      href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
-                    - name: إصدار المستندات المالية للعملاء (للمستخدم النهائي)
-                      href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
-                    - name: إصدار المستندات المالية للعملاء (لعملاء سوفراما)
-                      href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
-                    - name: إلغاء مستند مالي للعميل (المشروع)
-                      href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
-                    - name: العمليات غير المالية
-                      href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
-                    - name: إدخال حركة CIAP
-                      href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
-                    - name: حساب مبلغ دائن CIAP
-                      href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
-                    - name: تضمين ائتمان CIAP من فترة سابقة
-                      href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
-                    - name: الأصول الثابتة لـ PIS وCOFINS
-                      href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
-            - name: المكسيك
-              href: ../financials/localizations/mexico.md
+                - name: محاسبة القطاع العام
+                  href: ../financials/localizations/emea-fra-public-sector-accounting.md
+                - name: الالتزامات
+                  href: ../financials/localizations/emea-fra-commitments-public-sector.md
+                - name: Mandats de paiement
+                  href: ../financials/localizations/emea-fra-mandats-de-paiement.md
+                - name: التدبير والتوريد
+                  href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
+                - name: Titres de recette
+                  href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
+                - name: تعليقات دفع فواتير الموردين
+                  href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
+            - name: اعتماد وترحيل سحب الكمبيالة
+              href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
+            - name: إيصالات الفواتير المرتبة زمنيًا
+              href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
+            - name: إنشاء ملف مراجعة قياسي لفرنسا (FEC)
+              href: ../financials/localizations/emea-fra-fec-audit-file.md
+            - name: كشوف حسابات العملاء والموردين
+              href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
+            - name: حساب الفائدة اليومية للتأخر في الدفع والمبلغ الإجمالي في الفاتورة وخطاب التحصيل
+              href: ../financials/localizations/tasks/fr-00018-daily-interest.md
+            - name: إهلاك تنازلي
+              href: ../financials/localizations/emea-fra-derogatory-depreciation.md
+            - name: الكمبيالات والسندات الإذنية الفرنسية
+              href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+            - name: أكواد NAF وأرقام siret
+              href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
+            - name: إعداد أكواد NAF وأرقام Siret
+              href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
+            - name: عقوبات مدفوعات العملاء المستحقة​
+              href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
+            - name: ترحيل دفتر يومية الاحتجاج على سحب الكمبيالات
+              href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
+            - name: ترحيل دفتر يومية إعادة سحب الكمبيالات
+              href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
+            - name: طباعة نص استرداد المبلغ الإجمالي في فاتورة عميل
+              href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
+            - name: إهلاك RB/SL
+              href: ../financials/localizations/emea-fra-rbsl-depreciation.md
+            - name: إعداد طريقة الدفع
+              href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
+            - name: تحديث طريقة الدفع للعميل
+              href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
+            - name: Retail
               items:
-                - name: نطاق التعريب
-                  href: ../financials/localizations/latam-mex-scope.md
-                - name: تقرير إعلان تسوية التضخم
-                  href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
-                - name: إلغاء فاتورة إلكترونية
-                  href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
-                - name: إصدار 3.3 من CFDI
-                  href: ../financials/localizations/latam-mex-cfdi-3-3.md
-                - name: معرفات تسجيل العميل ومعلومات أخرى
-                  href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
-                - name: بيان إعلان DIOT
-                  href: ../financials/localizations/latam-mex-diot-declaration-statement.md
-                - name: طريقة CFDI للفوترة الإلكترونية‬
-                  href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: فواتير إلكترونية
-                  href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: بيانات المحاسبة الإلكترونية لدفتر الأستاذ
-                  href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
-                - name: إدخال معرفات التسجيل الضريبي للكيانات القانونية المكسيكية
-                  href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
-                - name: الاستعلام عن وطباعة فاتورة إلكترونية
-                  href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
-                - name: تقرير إقرار العمليات مع الموردين
-                  href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
-                - name: ترحيل فاتورة ذات نص حر
-                  href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-                - name: إنتاج تقرير محاسبة دفتر الأستاذ الإلكتروني المكسيكي الإصدار 1.1
-                  href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
-                - name: تعيين معلمات لفاتورة إلكترونية
-                  href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
-                - name: إعداد أكواد ضريبة المبيعات للمكسيك
-                  href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
-                - name: إعداد دليل الحسابات لكيان قانوني في المكسيك
-                  href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: تحديد معرف التسجيل RFC لحسابات البنوك المكسيكية
-                  href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
-                - name: معرفات تسجيل الموردين
-                  href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+                - name: آلات تسجيل المدفوعات النقدية
+                  href: ../retail/localizations/emea-fra-cash-registers.md
+                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
+                  href: ../retail/localizations/emea-fra-deployment.md
+        - name: ألمانيا
+          href: ../financials/localizations/germany.md
+          items:
+            - name: إهلاك الاستحواذ الإضافي
+              href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
+            - name: ملف مراجعة
+              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
+              items:
+                - name: تخصيص تكوين ملف المراجعة
+                  href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
+                - name: إنشاء ملف مراجعة
+                  href: ../financials/localizations/tasks/german-audit-file.md
+                - name: استيراد تكوين ملف المراجعة
+                  href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
+            - name: تسويات الإهلاك لعمليات الاستحواذ الإضافية في السنة الثانية
+              href: ../financials/localizations/tasks/de-00002-depreciation.md
+            - name: الإرسال الإلكتروني لإقرار ضريبة القيمة المضافة (ELSTER)
+              href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
+            - name: تقرير قائمة دفتر اليومية
+              href: ../financials/localizations/emea-deu-journal-list-report.md
+            - name: إعداد الإقرارات الضريبية الإلكترونية
+              href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
+        - name: هنغاريا‬
+          href: ../financials/localizations/hungary.md
+          items:
+            - name: حساب سعر الصرف
+              href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
+            - name: طرق إهلاك الأصول الثابتة
+              href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
+            - name: الأصول الثابتة ذات التكلفة المنخفضة​
+              href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
+            - name: نقل أصل ثابت إلى المخزون​
+              href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
+            - name: مستندات استرداد الضرائب
+              href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
+            - name: إقفال نهاية السنة
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: أيسلندا
+          href: ../financials/localizations/iceland.md
+          items:
+            - name: إنشاء حساب مورد وإرفاق فئة إقرار الفاتورة
+              href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
+            - name: إعداد إقرار فاتورة للموردين
+              href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
+            - name: إعداد مراجع الدفع الإلزامي
+              href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
+            - name: تحديث إقرارات فواتير الموردين وإنشاء التقرير
+              href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
+        - name: الهند
+          href: ../financials/localizations/india.md
+          items:
+            - name: الأصول الثابتة
+              href: ../financials/localizations/apac-ind-fixed-assets.md
+              items:
+                - name: إرفاق تقويم يستند إلى الأيام بدفتر أصول ثابتة
+                  href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
+                - name: حساب إهلاك الوردية
+                  href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
+                - name: إنشاء مجموعة نماذج المخزون لعناصر رأس المال
+                  href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
+                - name: إنشاء وترحيل الإهلاك
+                  href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
+                - name: تحديد نوع وردية العمل‬ والمجال للدفاتر وإرفاقه بالأصل الثابت
+                  href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
+                - name: إلغاء حركات الأصول الثابتة
+                  href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
+                - name: حساب إهلاك الوردية
+                  href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
+                - name: إعداد تقويم مالي مستند إلى الأيام
+                  href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
+                - name: إعداد المعلمات لحساب الإهلاك
+                  href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
+                - name: إعداد إهلاك مجموعة أصول لدفاتر الإهلاك
+                  href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                - name: تحويل عناصر رأس المال إلى الأصل الثابت
+                  href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
+            - name: GST للهند
+              href: ../financials/localizations/apac-ind-gst.md
+              items:
+                - name: مجموعات GST المرجعية للهند
+                  href: ../financials/localizations/apac-ind-gst-reference-groups.md
+                - name: تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
+                  href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
+              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+            - name: نظرة عامة على محرك الضريبة
+              href: ../financials/general-ledger/tax-engine.md
+              items:
+                - name: تكامل محرك الضريبة
+                  href: ../financials/general-ledger/tax-engine-integration.md
+                - name: توسيع محرك الضريبة
+                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+            - name: الأسئلة المتداولة حول حدود الضريبة
+              href: ../financials/localizations/apac-ind-tax-thresholds.md
+        - name: إيطاليا
+          href: ../financials/localizations/italy.md
+          items:
+            - name: تفاصيل كشوف حساب ضريبة القيمة المضافة​
+              href: ../financials/localizations/emea-ita-vat-statements-details.md
+            - name: تقرير القائمة السوداء
+              href: ../financials/localizations/emea-ita-black-list-report.md
+            - name: تاريخ الاختصاص
+              href: ../financials/localizations/emea-ita-competence-date.md
+            - name: إهلاك الأصول الثابتة
+              href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
+            - name: Modello 770
+              href: ../financials/localizations/emea-ita-modello770.md
+            - name: التحقق من صحة تاريخ إيصال التعبئة على الفواتير​
+              href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
+            - name: ترحيل وطباعة كشف تعبئة مع تفاصيل تسليم النقل
+              href: ../financials/localizations/emea-ita-packing-slip.md
+            - name: دفاتر ضريبة المبيعات
+              href: ../financials/localizations/emea-ita-fiscal-books.md
+            - name: الدفعة المقسمة للفواتير الصادرة للإدارة العامة​
+              href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
+            - name: ضريبة الخصم
+              href: ../financials/localizations/emea-ita-withholding-tax.md
+        - name: اليابان
+          href: ../financials/localizations/japan.md
+          items:
+            - name: الحصول على أصل ثابت والمطالبة بمنح الإعانة الحكومية
+              href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
+            - name: الحصول على أصل ثابت بالتزامات تقاعد الأصل
+              href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
+            - name: ‏‫تعديل تقدير الالتزام بتقاعد الأصل‬
+              href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
+            - name: توزيع المبلغ المرّحل للأصل المشترك وشهرة المحل في وحدات توليد النقد
+              href: ../financials/localizations/tasks/allocate-carrying-amount.md
+            - name: قواعد التوزيع
+              href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
+            - name: رسوم الدفع البنكي المشمولة من قِبل الموردين
+              href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
+            - name: تغيير أسلوب الإهلاك خلال فترة عمر الأصل لدفتر
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
+            - name: تغيير أسلوب الإهلاك خلال فترة عمر أصل واحد
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
+            - name: تكوين معلمات الإهلاك السريع وملفات تعريف الترحيل
+              href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
+            - name: تكوين معلمات الفاتورة المجمعة وإعداد الحسابات الدائنة
+              href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
+            - name: تكوين ملف تعريف الإهلاك وملف تعريف الترحيل للإهلاك الإضافي
+              href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
+            - name: تكوين الحسابات الرئيسية لترحيل الالتزام باستبعاد الأصول ومعدلات خصم السوق
+              href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
+            - name: الفواتير المجمعة
+              href: ../financials/localizations/apac-jpn-consolidate-invoices.md
+            - name: إنشاء أصل ثابت باستخدام الإهلاك الإضافي
+              href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
+            - name: إنشاء أصل ثابت باستخدام ملف تعريف إهلاك خاص
+              href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
+            - name: إنشاء مستند إهلاك سريع وإدخال بيانات الاستخدام
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
+            - name: إنشاء ملف تعريف الإهلاك السريع وتعيينه إلى دفتر
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
+            - name: إنشاء وتعيين مستند إدخال تخفيض لمنح إعانة حكومية
+              href: ../financials/localizations/tasks/create-assign-reduction-document.md
+            - name: إنشاء وتعيين مجموعة المعدات
+              href: ../financials/localizations/tasks/create-assign-equipment-group.md
+            - name: إنشاء وتأكيد فاتورة عميل مجمعة
+              href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
+            - name: إنشاء وتأكيد اختبار التعرف
+              href: ../financials/localizations/tasks/create-confirm-recognition-test.md
+            - name: ‎إنشاء وتأكيد فاتورة مورد مجمعة‏‎
+              href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
+            - name: إنشاء مجموعة وحدات توليد النقد ووحدات توليد النقد
+              href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
+            - name: إنشاء أصول إهلاك المبلغ الإجمالي باستخدام طريقة التقسيم بالتساوي
+              href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
+            - name: تحديد فترة الأصول الخاملة والتحقق من صحة عملية الإهلاك
+              href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
+            - name: إهلاك واستحقاق مصروفات الفائدة لالتزامات استبعاد الأصل
+              href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
+            - name: إهلاك الأصول الثابتة بإدخال التخفيض المرحل
+              href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
+            - name: الأسئلة المتداولة حول الإهلاك
+              href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
+            - name: التخلص من أصول ثابتة باستخدام إدخال الخفض
+              href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
+            - name: تمكين تنسيق ملف الدفع JBA
+              href: ../financials/localizations/tasks/jba-payment-file-format.md
+            - name: إدخال جدول معدلات الإهلاك والاقتران بملف تعريف الإهلاك
+              href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
+            - name: طريقة الإهلاك بالتساوي
+              href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
+            - name: نموذج 26 لإقرار الضريبة القابلة للإهلاك
+              href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
+            - name: إنشاء ملف دفع EFT بتنسيق JBA
+              href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
+            - name: إنشاء وترحيل رسوم الدفع
+              href: ../financials/localizations/tasks/post-payment-fee.md
+            - name: إنشاء تقرير ضريبة الاستهلاك
+              href: ../financials/localizations/tasks/japan-consumption-tax-report.md
+            - name: ضعف المحاسبة في وحدة توليد النقد
+              href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
+            - name: ضعف المحاسبة
+              href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
+            - name: استيراد دفعة عميل بتنسيق ملف JBA
+              href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
+            - name: استيراد الأرقام البريدية
+              href: ../financials/localizations/apac-jpn-import-postal-codes.md
+            - name: دفتر يومية المدخلات في نموذج الحساب T
+              href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
+            - name: ‏‫الاستعلام عن الحركات المتعلقة بالالتزام باستبعاد الأصول‬
+              href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
+            - name: الاستعلام عن المصروفات القابلة للخصم
+              href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
+            - name: الاستعلام عن رسوم الدفع في دفتر يومية
+              href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
+            - name: الاحتفاظ بملفات البيانات الرئيسية للأصول الثابتة للمصروفات القابلة للخصم
+              href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
+            - name: الاحتفاظ بمؤشرات الضعف المتعلقة بالأصول الفردية
+              href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
+            - name: الدفع لمورد عن طريق مصادقة الكمبيالة
+              href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
+            - name: الدفع لحركة مورد عن طريق مصادقة كمبيالة عميل
+              href: ../financials/localizations/tasks/pay-vendor-transaction.md
+            - name: التسوية الدورية من بما يتجاوز ويقل عن الإهلاك
+              href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
+            - name: حساب ضريبة الخصم التقدمية​
+              href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
+            - name: اقتراح إهلاك إضافي
+              href: ../financials/localizations/tasks/propose-additional-depreciation.md
+            - name: اقتراح وترحيل الإهلاك السريع
+              href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
+            - name: اقتراح وترحيل مبلغ الخفض حسب الدُفعة
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
+            - name: اقتراح وترحيل مبلغ الخفض باستخدام دفتر يومية الأصول الثابتة
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
+            - name: اقتراح وترحيل مبلغ الخفض في وحدة توليد النقد
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
+            - name: ‎اقتراح الإهلاك الخاص
+              href: ../financials/localizations/tasks/propose-special-depreciation.md
+            - name: إعادة فتح وتحرير فاتورة عميل مجمعة
+              href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
+            - name: إعادة فتح وتحرير فاتورة مورد مجمعة
+              href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
+            - name: إلغاء كمبيالة معتمدة
+              href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
+            - name: تشغيل اختبار التعرف وحساب مبلغ الخفض في الأصول الفردية
+              href: ../financials/localizations/tasks/run-recognition-test-calculate.md
+            - name: ‎إعداد أمر مبيعات وعميل ليكون هدف الفاتورة المجمعة
+              href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
+            - name: إعداد الالتزام باستبعاد الأصول (ARO)
+              href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
+            - name: إعداد وثائق الالتزام باستبعاد الأصول وإدخال مبلغ ARO في أصل ثابت
+              href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
+            - name: إعداد الفواتير المجمعة
+              href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
+            - name: إعداد المعلمات المشتركة لمحاسبة الخفض وملف تعريف الترحيل
+              href: ../financials/localizations/tasks/impairment-accounting.md
+            - name: إعداد ملف ضريبة استهلاك ياباني
+              href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
+            - name: ‎إعداد الدفع الياباني باعتماد كمبيالة عميل
+              href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
+            - name: إعداد البيانات الرئيسية لتضمين المصاريف القابلة للخصم لطبقات ترحيل متعددة
+              href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
+            - name: ‏‫إعداد رسوم مدفوعات لليابان‬
+              href: ../financials/localizations/tasks/setup-payment-fee-japan.md
+            - name: إعداد إدخالات الخفض
+              href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
+            - name: إعداد المورد الرئيسي وأمر الشراء ليكونا هدف الفاتورة المجمعة
+              href: ../financials/localizations/tasks/vendor-master-po.md
+            - name: ‏‫تسوية كمبيالة معتمدة‬
+              href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
+            - name: تسوية فواتير العملاء المجمعة باستخدام دفتر يومية المدفوعات
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
+            - name: تسوية فواتير العملاء المجمعة باستخدام تسوية الحركات
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
+            - name: ‏‫تسوية فواتير الموردين المجمعة باستخدام دفتر يومية المدفوعات‬
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
+            - name: ‏‫تسوية فواتير الموردين المجمعة باستخدام تسوية الحركات‬
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
+            - name: ‏‫إنشاء قائمة تجميع بأصل ثابت‬
+              href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
+            - name: ‏‫استخدام قائمة تفكيك التجميع الخاصة بالأصول الثابتة‬
+              href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
+        - name: لاتفيا
+          href: ../financials/localizations/latvia.md
+          items:
+            - name: محاسبة الأصول الثابتة​
+              href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
+            - name: تعقب التغييرات بمواقع الأصول الثابتة
+              href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
+            - name: ترقيم الفواتير وإيصالات التعبئة
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: تقرير الضريبة على الموارد الطبيعية
+              href: ../financials/localizations/emea-lva-tax-natural-resources.md
+            - name: تفاصيل كشف حساب ضريبة القيمة المضافة
+              href: ../financials/localizations/emea-lva-vat-statement-details.md
+        - name: لتوانيا
+          href: ../financials/localizations/lithuania.md
+          items:
+            - name: كشف إصلاح الأصول الثابتة
+              href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
+            - name: ‏‫إنشاء عملية تحويل للأصول الثابتة بين مستندات المستودعات‬
+              href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
+            - name: ترقيم الفواتير وإيصالات التعبئة
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: تفاصيل كشف حساب ضريبة القيمة المضافة
+              href: ../financials/localizations/emea-ltu-vat-statement-details.md
+        - name: ماليزيا
+          href: ../financials/localizations/malaysia.md
+          items:
+            - name: إنشاء ائتمان عميل لمبيعات المشروع
+              href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
+            - name: إنشاء دين عميل لمبيعات المشروع
+              href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
+            - name: ضريبة على البضائع والخدمات (GST)
+              href: ../financials/localizations/apac-mys-gst.md
+            - name: GST - إنشاء ملفات GAF بالتنسيق المطلوب
+              href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
+            - name: إدارة دين وائتمان العملاء لـ GST
+              href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
+            - name: إدارة دين وائتمان المورد لـ GST
+              href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
+            - name: طباعة فواتير عملاء GST مع بند تصريف‬
+              href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
+            - name: طباعة فواتير ضريبة GST
+              href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
+            - name: الفواتير المفوترة ذاتيًا
+              href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
+            - name: إعداد بنود تصريف GST‬
+              href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
+        - name: المكسيك
+          href: ../financials/localizations/mexico.md
+          items:
+            - name: نطاق التعريب
+              href: ../financials/localizations/latam-mex-scope.md
+            - name: تقرير إعلان تسوية التضخم
+              href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
+            - name: إلغاء فاتورة إلكترونية
+              href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
+            - name: إصدار 3.3 من CFDI
+              href: ../financials/localizations/latam-mex-cfdi-3-3.md
+            - name: معرفات تسجيل العميل ومعلومات أخرى
+              href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
+            - name: بيان إعلان DIOT
+              href: ../financials/localizations/latam-mex-diot-declaration-statement.md
+            - name: طريقة CFDI للفوترة الإلكترونية‬
+              href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
+            - name: فواتير إلكترونية
+              href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
+            - name: بيانات المحاسبة الإلكترونية لدفتر الأستاذ
+              href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
+            - name: إدخال معرفات التسجيل الضريبي للكيانات القانونية المكسيكية
+              href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
+            - name: الاستعلام عن وطباعة فاتورة إلكترونية
+              href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
+            - name: تقرير إقرار العمليات مع الموردين
+              href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
+            - name: ترحيل فاتورة ذات نص حر
+              href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
+            - name: إنتاج تقرير محاسبة دفتر الأستاذ الإلكتروني المكسيكي الإصدار 1.1
+              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
+            - name: تعيين معلمات لفاتورة إلكترونية
+              href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
+            - name: إعداد أكواد ضريبة المبيعات للمكسيك
+              href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
+            - name: إعداد دليل الحسابات لكيان قانوني في المكسيك
+              href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
+            - name: تحديد معرف التسجيل RFC لحسابات البنوك المكسيكية
+              href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
+            - name: معرفات تسجيل الموردين
+              href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+        - name: هولندا
+          href: ../financials/localizations/netherlands.md
+          items:
+            - name: إقرارات الضريبة الإلكترونية‬ (EVAT)
+              href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
+            - name: تكامل Semansys XBRL
+              href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
+        - name: النرويج
+          href: ../financials/localizations/norway.md
+          items:
+            - name: تنسيقات الدفع الخاصة بالعملاء والموردين
+              href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
+            - name: دفع العميل استنادًا إلى معرّف الدفع
+              href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
+            - name: تنسيق ملف استيراد صافي القيم​
+              href: ../financials/localizations/emea-nor-nets-import-format.md
+            - name: كشف ضريبة القيمة المضافة
+              href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
+            - name: آلات تسجيل المدفوعات النقدية
+              href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
+              href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+        - name: بولندا
+          href: ../financials/localizations/poland.md
+          items:
+            - name: حساب خصومات البند من سعر الوحدة​
+              href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
+            - name: ملاحظات التصحيح​
+              href: ../financials/localizations/emea-pol-correction-notes.md
+            - name: ترقيم فواتير المبيعات المتكررة
+              href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
+            - name: إهلاك الأصل الثابت
+              href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
+            - name: توسيع وظائف التخلص من الأصول الثابتة
+              href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: العبوات القابلة للإرجاع​
+              href: ../financials/localizations/emea-pol-returnable-packages.md
+            - name: تقارير ضريبة المبيعات
+              href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: ملف المراجعة القياسي
+              href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
+            - name: فائدة الضرائب وضرائب من دون فائدة
+              href: ../financials/localizations/emea-pol-interest-calculation.md
+            - name: كشف الأرصدة والدوران​
+              href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: السعودية
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2183,6 +2121,82 @@
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: إعداد تقارير الزكاة للمملكة العربية السعودية​
               href: ../financials/localizations/emea-sau-zakat-reporting.md
+        - name: سنغافورة
+          href: ../financials/localizations/singapore.md
+          items:
+            - name: إنشاء تقرير GST-05
+              href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
+        - name: إسبانيا
+          href: ../financials/localizations/spain.md
+          items:
+            - name: تطبيق الخصومات النقدية في الفاتورة​
+              href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
+            - name: خيارات الكمبيالة​
+              href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: ضريبة مبيعات مشروطة
+              href: ../financials/localizations/emea-esp-conditional-sales-tax.md
+            - name: فوترة الائتمان
+              href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
+            - name: حساب فاتورة البيانات المالية
+              href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
+            - name: إعادة تقييم مجموعة الأصول الثابتة
+              href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
+            - name: ضريبة القيمة المضافة بين المجتمعات
+              href: ../financials/localizations/emea-esp-intra-community-vat.md
+            - name: عملاء المرة الواحدة
+              href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
+            - name: طباعة الشيكات باستخدام مخطط إسباني​
+              href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
+            - name: خيارات السندات الإذنية
+              href: ../financials/localizations/emea-esp-promissory-note-options.md
+            - name: تقرير 340
+              href: ../financials/localizations/emea-esp-report-340.md
+            - name: دورات المبيعات والشراء​
+              href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
+            - name: الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬
+              href: ../financials/localizations/emea-esp-opening-sheets-spain.md
+        - name: السويد
+          href: ../financials/localizations/sweden.md
+          items:
+            - name: تصدير معلومات مالية للمراجعين في السويد
+              href: ../financials/localizations/emea-swe-sie-standard-report.md
+            - name: استيراد تنسيقات الدفع​
+              href: ../financials/localizations/emea-swe-payment-formats-import.md
+            - name: آلات تسجيل المدفوعات النقدية
+              href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: سويسرا
+          href: ../financials/localizations/switzerland.md
+          items:
+            - name: استيراد دفعات العملاء في ESR
+              href: ../financials/localizations/emea-che-esr-customer-payments-import.md
+        - name: تايلاند
+          href: ../financials/localizations/thailand.md
+          items:
+            - name: تقارير بطاقات المخزون
+              href: ../financials/localizations/apac-tha-stock-card-reports.md
+            - name: فاتورة ضريبة الإحلال/التسوية
+              href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
+            - name: ضريبة القيمة المضافة غير المحققة
+              href: ../financials/localizations/apac-tha-unrealized-vat.md
+            - name: ضريبة الخصم
+              href: ../financials/localizations/apac-tha-withholding-tax.md
+        - name: المملكة المتحدة
+          href: ../financials/localizations/united-kingdom.md
+          items:
+            - name: نظام صناعة الإنشاء
+              href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
+            - name: إنشاء ائتمان على خصم التسوية
+              href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
+            - name: إنشاء أمر شراء يشتمل على أصناف خاضعة لضريبة القيمة المضافة على الرسوم العكسية
+              href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
+            - name: إنشاء أمر مبيعات يتضمن أصنافًا تخضع لضريبة القيمة المضافة للرسوم العكسية
+              href: ../financials/localizations/tasks/gb-00002-sales-order.md
+            - name: إعداد مجموعات ضريبة مبيعات الصنف لضريبة القيمة المضافة للرسوم العكسية
+              href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+            - name: إعداد مجموعات وقواعد ومعايير أصناف ضريبة القيمة المضافة للرسوم العكسية
+              href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+            - name: إعداد مجموعات ضريبة المبيعات لضريبة القيمة المضافة للرسوم العكسية
+              href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
         - name: الولايات المتحدة
           href: ../financials/localizations/united-states.md
           items:
@@ -2195,12 +2209,20 @@
       items:
         - name: تطوير استراتيجية موارد بشرية
           items:
+            - name: إنشاء الأهداف
+              href: hr/tasks/create-goal.md
             - name: تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
               href: ../talent/departments-jobs-positions.md
             - name: إعداد مكونات الوظائف
               href: ../talent/create-job.md
+            - name: تحديد الأقسام الجديدة
+              href: hr/tasks/define-new-departments.md
+            - name: تحديد الوظائف الجديدة
+              href: hr/tasks/define-new-jobs.md
             - name: إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام
               href: ../talent/create-department-add-department-hierarchy.md
+            - name: إنشاء تقويمات وإنشاء أوقات عمل
+              href: hr/tasks/create-calendar-working-times.md
             - name: إعداد معلمات الموارد البشرية عبر الكيانات القانونية
               href: ../talent/set-up-hr-parameters-across-legal-entities.md
             - name: إعداد معلمات الموارد البشرية الخاصة بالشركة
@@ -2209,22 +2231,70 @@
               href: ../talent/personnel-actions-faq.md
             - name: استخدام سير العمل لإدارة المعلومات الخاصة بالموظف
               href: ../talent/workflow-manage-employee-information.md
-        - name: التوظيف
+            - name: تعديل علاقات التقارير للمناصب
+              href: hr/tasks/modify-reporting-relationships-position.md
+            - name: الموافقة على سجلات علبة وارد استمارات التقديم
+              href: hr/tasks/approve-application-inbox-records.md
+            - name: إدخال معلومات العامل
+              href: hr/tasks/enter-worker-information.md
+            - name: أصناف القرض للعمال
+              href: hr/tasks/loan-item-worker.md
+            - name: إنشاء أصناف قرض
+              href: hr/tasks/create-loan-items.md
+            - name: إدارة الأصناف المعارة للعاملين
+              href: ../talent/loan-items.md
+            - name: تطوير خطة تتابع
+              href: hr/tasks/develop-succession-plan.md
+            - name: إدخال الجداول الزمنية للمشروع‬
+              href: hr/tasks/enter-project-timesheets.md
+            - name: إدارة قوالب البريد الإلكتروني
+              href: hr/tasks/manage-email-templates.md
+            - name: إدارة إجازات الغياب
+              href: hr/tasks/manage-leave-absence.md
+        - name: توظيف
           items:
             - name: إدارة عمليات التوظيف
               href: hr/manage-recruiting-process.md
             - name: مشاريع التوظيف الجماعي
               href: hr/mass-hire-projects.md
+            - name: إنشاء مشاريع توظيف جماعي
+              href: hr/tasks/create-mass-hire-project.md
+            - name: إدخال بيانات مقدم الطلب والطلب يدوياً
+              href: hr/tasks/enter-applicant-application-data-manually.md
+            - name: تطوير طلبات الموظفين وفتحها
+              href: hr/tasks/develop-open-job-requisition.md
+            - name: إعداد المناصب
+              href: hr/tasks/set-up-positions.md
+            - name: توظيف مرشحين من خلال التوظيف
+              href: hr/tasks/hire-candidate-through-recruiting.md
+            - name: توظيف موظفين موجودين من خلال التوظيف
+              href: hr/tasks/hire-existing-employee-through-recruiting.md
+            - name: تحديد أدوات اختيار المرشحين ونشرها
+              href: hr/tasks/identify-deploy-candidate-selection-tools.md
         - name: تحفيز الموظفين
           items:
             - name: خطط التعويض
               href: ../talent/compensation-plans.md
-            - name: إنشاء خطط التعويض الثابت​
+            - name: إنشاء خطط التعويض الثابت
               href: ../talent/create-fixed-compensation-plans.md
-            - name: إنشاء خطط التعويض المتغيرة
+            - name: إنشاء خطط التعويض المتغير
               href: ../talent/create-variable-compensation-plans.md
+            - name: تحديد عمليات التعويض وحساب النتائج
+              href: hr/tasks/define-compensation-process-calculate-results.md
             - name: تعويض العملية
               href: ../talent/process-compensation.md
+            - name: إعداد شبكات التعويض
+              href: hr/tasks/set-up-compensation-grids.md
+            - name: تطوير خطط وبُنى المرتب/التعويض
+              href: hr/tasks/develop-salary-compensation-structure-plan.md
+            - name: إضافة معلومات إلى دفتر يومية أدائك وإرسال ثناء
+              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
+            - name: تسجيل موظفين في خطة تعويض ثابتة
+              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
+            - name: تسجيل موظفين في خطة التعويض المتغير
+              href: hr/tasks/enroll-employee-variable-compensation-plan.md
+            - name: إنشاء مراجعات الأداء
+              href: hr/tasks/create-performance-review.md
         - name: تطوير الموظفين وتدريبهم
           items:
             - name: نظرة عامة حول إدارة الأداء
@@ -2239,8 +2309,18 @@
               href: ../talent/manage-benefit-program.md
             - name: سياسات استحقاق الميزات
               href: ../talent/benefit-eligibility-policies.md
-            - name: إدارة الأصناف المقرضة للعاملين
-              href: ../talent/loan-items.md
+            - name: عملية استحقاق الميزات
+              href: hr/tasks/benefit-eligibility-process.md
+            - name: تحديد قواعد وسياسات استحقاق الفائدة
+              href: hr/tasks/define-benefit-eligibility-rules-policies.md
+            - name: تقديم برنامج ميزات الموظفين
+              href: hr/tasks/deliver-employee-benefits-program.md
+            - name: إنشاء ميزات جديدة
+              href: hr/tasks/create-new-benefit.md
+            - name: تسجيل العمال في الميزات وإزالة الميزات من العمال
+              href: hr/tasks/enroll-remove-benefits-workers.md
+            - name: إدارة تواريخ انتهاء صلاحية الميزة
+              href: hr/tasks/manage-benefit-expiration-dates.md
         - name: جمع المعلومات باستخدام الاستبيانات
           items:
             - name: الاستبيانات
@@ -2249,8 +2329,18 @@
               href: ../talent/design-questionnaires.md
             - name: توزيع وإكمال استبيان
               href: ../talent/distribute-questionnaires.md
+            - name: توزيع الاستبيانات باستخدام الجدولة
+              href: hr/tasks/distribute-questionnaires-scheduling.md
             - name: تقييم نتائج الاستبيان
               href: ../talent/evaluate-questionnaire-results.md
+            - name: تحليل نتائج الاستبيان
+              href: hr/tasks/analyze-questionnaire-results.md
+            - name: إنشاء أسئلة ذات نهاية مفتوحة
+              href: hr/tasks/create-open-ended-question.md
+            - name: إنشاء أسئلة ذات نهاية مغلقة
+              href: hr/tasks/create-closed-ended-question.md
+            - name: طرح أسئلة تعتمد على إجابة السؤال السابق
+              href: hr/tasks/make-question-dependent-answer-previous-question.md
         - name: السلامة والامتثال في أماكن العمل (الولايات المتحدة)
           items:
             - name: التحقق من صحة النموذج I-9
@@ -2263,6 +2353,10 @@
               href: hr/localizations/noam-usa-comply-ada.md
             - name: إدارة توصيات العامل
               href: hr/localizations/tasks/manage-worker-accommodations.md
+            - name: إعداد معلومات الإصابة والمرض
+              href: hr/tasks/set-up-injury-illness-information.md
+            - name: الاحتفاظ بمعلومات إصابة ومرض الموظف
+              href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: كشف رواتب الولايات المتحدة
           href: hr/localizations/noam-usa-payroll.md
           items:
@@ -2331,88 +2425,6 @@
                   href: hr/localizations/noam-usa-payroll-data-updates.md
                 - name: تقارير كشف الحساب القياسية
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
-        - name: مهام الموارد البشرية
-          items:
-            - name: إضافة معلومات إلى دفتر يومية أدائك وإرسال ثناء
-              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
-            - name: تحليل نتائج الاستبيان
-              href: hr/tasks/analyze-questionnaire-results.md
-            - name: الموافقة على سجلات علبة وارد استمارات التقديم
-              href: hr/tasks/approve-application-inbox-records.md
-            - name: عملية استحقاق الميزات
-              href: hr/tasks/benefit-eligibility-process.md
-            - name: إنشاء تقويمات وإنشاء أوقات عمل
-              href: hr/tasks/create-calendar-working-times.md
-            - name: إنشاء أسئلة ذات نهاية مغلقة
-              href: hr/tasks/create-closed-ended-question.md
-            - name: إنشاء الأهداف
-              href: hr/tasks/create-goal.md
-            - name: إنشاء أصناف قرض
-              href: hr/tasks/create-loan-items.md
-            - name: إنشاء مشاريع توظيف جماعي
-              href: hr/tasks/create-mass-hire-project.md
-            - name: إنشاء ميزات جديدة
-              href: hr/tasks/create-new-benefit.md
-            - name: إنشاء أسئلة ذي نهاية مفتوحة
-              href: hr/tasks/create-open-ended-question.md
-            - name: إنشاء مراجعات الأداء
-              href: hr/tasks/create-performance-review.md
-            - name: تحديد قواعد وسياسات استحقاق الفائدة
-              href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: تحديد عمليات التعويض وحساب النتائج
-              href: hr/tasks/define-compensation-process-calculate-results.md
-            - name: تحديد الأقسام الجديدة
-              href: hr/tasks/define-new-departments.md
-            - name: تحديد الوظائف الجديدة
-              href: hr/tasks/define-new-jobs.md
-            - name: تقديم برنامج ميزات الموظفين
-              href: hr/tasks/deliver-employee-benefits-program.md
-            - name: ' تطوير طلبات الموظفين وفتحها '
-              href: hr/tasks/develop-open-job-requisition.md
-            - name: تطوير خطط وبُنى المرتب/التعويض
-              href: hr/tasks/develop-salary-compensation-structure-plan.md
-            - name: تطوير خطة تتابع
-              href: hr/tasks/develop-succession-plan.md
-            - name: توزيع الاستبيانات باستخدام الجدولة
-              href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: تسجيل موظفين في خطة تعويض ثابتة
-              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: تسجيل موظفين في خطة التعويض المتغيرة
-              href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: تسجيل العمال في الميزات وإزالة الميزات من العمال
-              href: hr/tasks/enroll-remove-benefits-workers.md
-            - name: إدخال بيانات مقدم الطلب والطلب يدوياً
-              href: hr/tasks/enter-applicant-application-data-manually.md
-            - name: إدخال الجداول الزمنية للمشروع‬
-              href: hr/tasks/enter-project-timesheets.md
-            - name: إدخال معلومات العامل
-              href: hr/tasks/enter-worker-information.md
-            - name: توظيف مرشحين من خلال التوظيف
-              href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: توظيف موظفين موجودين من خلال التوظيف
-              href: hr/tasks/hire-existing-employee-through-recruiting.md
-            - name: تحديد أدوات اختيار المرشحين ونشرها
-              href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: أصناف القرض للعمال
-              href: hr/tasks/loan-item-worker.md
-            - name: الاحتفاظ بمعلومات إصابة ومرض الموظف
-              href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: طرح أسئلة تعتمد على إجابة السؤال السابق
-              href: hr/tasks/make-question-dependent-answer-previous-question.md
-            - name: إدارة تواريخ انتهاء صلاحية الميزة
-              href: hr/tasks/manage-benefit-expiration-dates.md
-            - name: إدارة قوالب البريد الإلكتروني
-              href: hr/tasks/manage-email-templates.md
-            - name: إدارة إجازات الغياب
-              href: hr/tasks/manage-leave-absence.md
-            - name: تعديل علاقات التقارير للمناصب
-              href: hr/tasks/modify-reporting-relationships-position.md
-            - name: إعداد شبكات التعويض
-              href: hr/tasks/set-up-compensation-grids.md
-            - name: إعداد معلومات الإصابة والمرض
-              href: hr/tasks/set-up-injury-illness-information.md
-            - name: إعداد المناصب
-              href: hr/tasks/set-up-positions.md
     - name: المعلومات
       href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
@@ -2617,7 +2629,7 @@
               items:
                 - name: تحميّل التكوينات إلى Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: استيراد التكوينات من Lifecycle Service
+                - name: استيراد التكوينات من Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: تنزيل التكوينات من Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
@@ -2744,7 +2756,7 @@
               href: ../supply-chain/inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md
             - name: تتبع الأصناف والمواد الخام في المخزون والإنتاج والمبيعات
               href: ../supply-chain/inventory/trace-items-raw-materials-inventory-production-sales.md
-            - name: تعقب صنف أو مادة خام
+            - name: تتبع صنف أو مادة خام
               href: ../supply-chain/inventory/tasks/trace-item-or-raw-material.md
             - name: دمج دُفعة المخزون
               href: ../supply-chain/inventory/merge-inventory-batches.md
@@ -3635,10 +3647,12 @@
               href: ../supply-chain/sales-marketing/tasks/register-sales-commissions.md
             - name: إعداد قواعد عمولات المبيعات
               href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
+        - name: البدل التجاري
+          href: ../supply-chain/sales-marketing/trade-allowance.md
     - name: إدارة الخدمة
       href: ../supply-chain/service-management/service-management-home-page.md
       items:
-        - name: إعداد مرتجعات العميل
+        - name: إعداد خدمة العملاء
           items:
             - name: إعداد اتفاقيات الخدمة
               href: ../supply-chain/service-management/service-agreement-groups.md
