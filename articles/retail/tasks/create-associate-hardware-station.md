@@ -3,7 +3,7 @@ title: " إنشاء وربط محطة أجهزة"
 description: "يتناول هذا الإجراء كيفية إنشاء محطة أجهزة جديدة."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

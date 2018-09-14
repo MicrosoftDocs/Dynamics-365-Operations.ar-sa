@@ -3,7 +3,7 @@ title: "إعداد معلومات الإصابة والمرض"
 description: "يحتاج أصحاب الأعمال إلى معرفة متى تتم إصابة موظفيهم بجروح أو أمراض ناتجة عن المخاطر في مكان العمل."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

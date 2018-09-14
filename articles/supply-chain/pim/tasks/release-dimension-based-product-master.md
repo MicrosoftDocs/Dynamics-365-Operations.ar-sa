@@ -3,7 +3,7 @@ title: "إصدار أصل منتج يستند إلى البعد"
 description: "يوضح هذا الإجراء كيفية إصدار أصل منتج، سيُستخدم للتكوينات المستندة إلى بُعد."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

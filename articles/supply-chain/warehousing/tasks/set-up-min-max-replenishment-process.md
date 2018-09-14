@@ -3,7 +3,7 @@ title: "إعداد الحد الأدنى والحد الأقصى لعملية ا
 description: "يوضح هذا الإجراء كيفية إعداد عملية تزويد جديدة تستخدم استراتيجية الحد الأدنى/الحد الأقصى لعملية التزويد."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "إنشاء وترحيل فواتير النص الحر المكررة"
 description: "يتم استخدام الفواتير المتكررة لفوترة العملاء بشكل منتظم لنفس المبلغ."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

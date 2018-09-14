@@ -3,7 +3,7 @@ title: "تسجيل برنامج تسجيل دخول وتسجيل خروج الس
 description: "يوضح هذا الإجراء كيفية تسجيل عمليات تسجيل دخول السائق وخروجه."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

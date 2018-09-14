@@ -3,7 +3,7 @@ title: "تحديد قواعد تغطية للأصناف"
 description: "شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

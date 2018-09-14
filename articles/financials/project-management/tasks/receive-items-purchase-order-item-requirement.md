@@ -3,7 +3,7 @@ title: "تلقي الأصناف على أمر شراء من طلبات الصن�
 description: "يوضح هذا الإجراء كيفية استلام الأصناف في أمر شراء من طلب الصنف."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

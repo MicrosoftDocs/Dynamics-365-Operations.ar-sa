@@ -3,7 +3,7 @@ title: "تسوية الشحن يدويًا"
 description: "يوضح هذا الإجراء كيفية تسوية الشحن يدويًا."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

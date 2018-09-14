@@ -3,7 +3,7 @@ title: "تحديد عمليات جرد المخزون"
 description: "ينقلك هذا الإجراء عبر تكوين عمليات جرد المخزون الأساسي عن طريق إنشاء مجموعة جرد ودفتر يومية جرد."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

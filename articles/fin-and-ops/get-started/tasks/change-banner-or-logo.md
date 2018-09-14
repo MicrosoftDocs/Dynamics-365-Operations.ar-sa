@@ -3,7 +3,7 @@ title: "تغيير اللافتة أو الشعار"
 description: "يسرد الإجراء التالي الخطوات التي يمكن لمسؤولي النظام استخدامها لتحديث صورة الشعار أو اللافتة التي يتم عرضها لكيان قانوني."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

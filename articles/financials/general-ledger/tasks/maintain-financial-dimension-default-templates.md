@@ -3,7 +3,7 @@ title: "الاحتفاظ بالقوالب الافتراضية للأبعاد ا
 description: "يوضح هذا الإجراء كيفية إعداد القوالب الافتراضية للبُعد المالي."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

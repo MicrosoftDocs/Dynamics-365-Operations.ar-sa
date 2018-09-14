@@ -3,7 +3,7 @@ title: "عرض حالة الأعمال تحت التنفيذ‬ الحالية �
 description: "يوضح هذا الإجراء كيفية عرض بيان الأعمال تحت التنفيذ في أمر إنتاج."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "عرض حركات ضرائب مبيعات مُرَّحلة"
 description: "يمكنك عرض حركات ضريبة المبيعات المرحّلة من صفحات مختلفة تبعًا لما تحتاج إلى عرضه."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

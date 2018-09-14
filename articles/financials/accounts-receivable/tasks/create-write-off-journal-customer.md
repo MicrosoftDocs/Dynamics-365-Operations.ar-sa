@@ -3,7 +3,7 @@ title: "إنشاء دفتر يومية شطب لعميل"
 description: "سيُظهر لك دليل المهمة هذا كيفية إعداد محددات عمليات الشطب ثم شطب الحركات من صفحة \"التحصيلات\" وصفحة \"فتح فواتير العملاء‬\" وصفحة \"العميل\"."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

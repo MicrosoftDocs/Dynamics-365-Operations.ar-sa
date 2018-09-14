@@ -3,7 +3,7 @@ title: "إنشاء أمر شراء لمورد مرة واحدة"
 description: "يوضح هذا الإجراء كيفية إنشاء أمر شراء لمورّد لمرة واحدة."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

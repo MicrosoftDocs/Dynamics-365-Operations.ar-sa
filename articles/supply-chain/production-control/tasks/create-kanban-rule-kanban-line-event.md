@@ -3,7 +3,7 @@ title: "إنشاء قاعدة كانبان باستخدام حدث بند كان
 description: "ينشئ هذا الإجراء قاعدة كانبان باستخدام إعداد حدث بند كانبان للضغط على المشغّل من نشاط معالجة."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

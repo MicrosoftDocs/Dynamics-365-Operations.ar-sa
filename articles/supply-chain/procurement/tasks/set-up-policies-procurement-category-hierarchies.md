@@ -3,7 +3,7 @@ title: "إعداد سياسات للتدرج الهرمي لفئات التدب�
 description: "استخدم هذا الإجراء لإعداد قواعد طلب المنتجات الموجودة في إحدى الفئات."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

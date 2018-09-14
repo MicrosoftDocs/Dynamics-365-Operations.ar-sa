@@ -3,7 +3,7 @@ title: " تكوين ملف تعريف الوظائف لمندوب مبيعات"
 description: "يوضح هذا الإجراء كيفية تكوين إعدادات ملف تعريف الوظائف في المخزن التي تنطبق على مندوبي المبيعات."
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

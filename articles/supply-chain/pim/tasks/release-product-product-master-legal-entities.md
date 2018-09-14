@@ -3,7 +3,7 @@ title: "إصدار منتج/أصل منتج إلى كيانات قانونية"
 description: "يتناول هذا الإجراء كيفية إصدار منتج أو أصل المنتج في واحد أو أكثر من الكيانات القانونية."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

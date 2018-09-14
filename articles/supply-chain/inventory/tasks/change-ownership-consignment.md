@@ -3,7 +3,7 @@ title: "تغيير ملكية مخزون الشحن استنادًا إلى ال
 description: "يوضح هذا الإجراء كيفية تغيير مالك مخزون الشحن من المورّد إلى الكيان القانوني عند وجود طلب على المخزون في الإنتاج."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

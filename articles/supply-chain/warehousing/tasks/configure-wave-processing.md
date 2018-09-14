@@ -3,7 +3,7 @@ title: "تكوين معالجة الموجة"
 description: "يصف هذا الدليل كيفية إعداد المعايير التي تحدد العمل الذي يتم إنشاؤه لمستودع عند معالجة الموجة وما إذا كانت الموجات يتم معالجتها يدويًا أو تلقائيًا."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

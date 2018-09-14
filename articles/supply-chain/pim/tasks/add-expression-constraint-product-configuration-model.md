@@ -3,7 +3,7 @@ title: "إضافة قيد تعبير إلى نموذج تكوين منتج"
 description: "يوضح هذا الإجراء كيفية إضافة تعبير قيد جديد إلى نموذج تكوين منتج."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "إعداد التعبئة في حاويات"
 description: "يصف هذا الإجراء كيفية جعل تعبئة الأحمال في إدارة المستودع عملية تلقائية."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "إنشاء أنشطة عملية لـ lean manufacturing"
 description: "قم بإنشاء نشاط عملية لـ lean manufacturing."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

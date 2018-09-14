@@ -3,7 +3,7 @@ title: "إنشاء منتج"
 description: "يتناول هذا الإجراء إنشاء منتج جديد في التدرج الهرمي لمنتج البيع بالتجزئة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

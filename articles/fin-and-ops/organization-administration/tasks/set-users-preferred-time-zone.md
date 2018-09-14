@@ -3,7 +3,7 @@ title: "تعيين منطقة زمنية مفضلة لمستخدم"
 description: "يوضح الإجراء التالي كيف يستطيع مستخدم يؤدي دور مسؤول النظام تعيين المنطقة الزمنية لمستخدم."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

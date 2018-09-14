@@ -3,7 +3,7 @@ title: "إنشاء مستند تحويل لتحويل مخزون داخلي"
 description: "يوضح هذا الإجراء كيفية إنشاء مستندات التحويل لحركة البضائع داخل شركة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

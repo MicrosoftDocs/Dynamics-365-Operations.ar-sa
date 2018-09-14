@@ -3,7 +3,7 @@ title: "تعديل التنبؤ بالطلب يدوياً"
 description: "يوضح هذا الإجراء كيفية تعديل التنبؤ لصنف ما."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "تحديد مجموعات التكوين"
 description: "يوضح هذا الإجراء كيفية تحديد مجموعات تكوين المنتج عن طريق إنشاء مجموعتين في شركة بيانات العرض التقديمي USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

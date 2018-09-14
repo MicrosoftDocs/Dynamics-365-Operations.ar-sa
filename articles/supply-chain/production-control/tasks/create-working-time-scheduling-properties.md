@@ -3,7 +3,7 @@ title: "إنشاء خصائص جدولة أوقات العمل"
 description: "يتم استخدام خصائص جدولة وقت العمل لتصنيف الفواصل الزمنية لوقت العمل وتحديد الإعدادات التي يجب أن يأخذها المشغلون في الاعتبار."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

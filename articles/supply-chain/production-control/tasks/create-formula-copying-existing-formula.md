@@ -3,7 +3,7 @@ title: "إنشاء معادلة بالنسخ من معادلة موجودة"
 description: "يوضح هذا الإجراء كيفية إنشاء معادلة جديدة بسرعة عن طريق النسخ من معادلة موجودة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

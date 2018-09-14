@@ -3,7 +3,7 @@ title: " اتفاقيات الأسعار والتجارة الأساسية"
 description: "يتناول هذا الإجراء إنشاء اتفاقيات تجارية على أسعار المبيعات الخاصة بالقناة."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

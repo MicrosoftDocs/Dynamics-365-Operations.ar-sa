@@ -3,7 +3,7 @@ title: "تكوين عامل باستخدام جهاز وظيفة محمول"
 description: "يوضح هذا الإجراء كيفية تعيين الأدوار الصحيحة لحساب المستخدم للعامل، ثم قم بتمكين العامل للقيام بتسجيلات حالة العمل."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "عكس حالة وظيفة الكانبان"
 description: "يركز هذا الإجراء على عكس حالة وظيفة كانبان غير الصحيحة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

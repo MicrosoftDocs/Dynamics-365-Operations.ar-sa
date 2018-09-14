@@ -3,7 +3,7 @@ title: "الاحتفاظ بمعلومات إصابة ومرض الموظف"
 description: "يوصى باستكمال دليل مهمة \"إعداد الإصابات والأمراض\" أولاً، نظرًا لاستخدام بعض معلومات الإعداد هنا."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "تحديد الأبعاد المالية"
 description: "يوضح دليل المهام هذا إضافة البعد المالي المدعوم من الكيان والبعد المالي المخصص."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

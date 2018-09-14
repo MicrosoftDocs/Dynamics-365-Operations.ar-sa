@@ -3,7 +3,7 @@ title: "دورة حياة أمر الدُفعة من الإنشاء حتى بد�
 description: "يأخذك هذا الإجراء من خلال الجزء الأول من دورة حياة أمر الدفعة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

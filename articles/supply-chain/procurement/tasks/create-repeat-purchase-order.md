@@ -3,7 +3,7 @@ title: "إنشاء أمر شراء مكرر"
 description: "يوضح هذا الإجراء كيفية إنشاء أمر شراء متكرر عن طريق نسخ بنود من أمر شراء سابق إلى أمر شراء جديد أو أمر شراء موجود."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

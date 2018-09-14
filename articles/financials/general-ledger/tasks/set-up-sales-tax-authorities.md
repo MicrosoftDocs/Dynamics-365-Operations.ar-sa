@@ -3,7 +3,7 @@ title: "إعداد هيئات ضريبة المبيعات"
 description: "إن هيئات ضريبة المبيعات‬ هي كيانات حيث يجب الإبلاغ عن ضريبة المبيعات المحصلة ودفعها."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

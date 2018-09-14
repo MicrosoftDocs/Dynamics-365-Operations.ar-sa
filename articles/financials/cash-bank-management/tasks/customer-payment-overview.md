@@ -3,7 +3,7 @@ title: "نظرة عامة على مدفوعات العملاء"
 description: "يوضح دليل المهام هذا مختلف الطرق التي تُستخدم لإدخال مدفوعات العميل."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

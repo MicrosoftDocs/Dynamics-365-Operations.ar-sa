@@ -3,7 +3,7 @@ title: "تكوين دفاتر العناوين"
 description: "استخدم هذا الإجراء، والقرارات التي اتخذتها في تخطيط تكوين دفتر العناوين العمومي وموضوع دفاتر العناوين الإضافية، لإعداد دفاتر عناوين إضافية للمؤسسة الخاصة بك."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

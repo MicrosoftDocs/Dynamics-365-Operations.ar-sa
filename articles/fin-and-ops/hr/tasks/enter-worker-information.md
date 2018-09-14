@@ -3,7 +3,7 @@ title: "إدخال معلومات العامل"
 description: "بعد قيام مسؤول التعيين بإنشاء مشروع توظيف جماعي وإنشاء المناصب، تقضي الخطوة التالية بإدخال معلومات العامل للأشخاص الذين يتم توظيفهم."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "إعداد اسم مستعار لحساب دفتر الأستاذ‬"
 description: "يوضح هذا الإجراء كيفية إنشاء اسم مستعار لحساب يوفر اختصارًا لإدخال رقم حساب."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

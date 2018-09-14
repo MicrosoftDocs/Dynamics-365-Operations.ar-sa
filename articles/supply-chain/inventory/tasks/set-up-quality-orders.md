@@ -3,7 +3,7 @@ title: "إعداد أوامر الجودة"
 description: "يوضح هذا الإجراء كيفية تمكين عملية إدارة الجدة حيث يجب فحص المخزون الواردة مباشرة بعد تسجيل الوصول."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

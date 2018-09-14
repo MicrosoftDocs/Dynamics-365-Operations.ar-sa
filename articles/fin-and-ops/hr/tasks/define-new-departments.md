@@ -3,7 +3,7 @@ title: "تحديد الأقسام الجديدة"
 description: "الأقسام هي وحدات تشغيل تمثل منطقة وظيفية للشركة، مثل المبيعات أو المحاسبة."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

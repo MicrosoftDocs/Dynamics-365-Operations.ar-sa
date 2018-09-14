@@ -3,7 +3,7 @@ title: "إعداد قالب عمل لأوامر الشراء"
 description: "يركز هذا الإجراء على إعداد قالب العمل البسيط لاستخدامه عند تخزين الأصناف المستلمة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

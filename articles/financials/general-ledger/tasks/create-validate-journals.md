@@ -3,7 +3,7 @@ title: "إنشاء دفاتر اليومية والتحقق من صحتها"
 description: "ينشئ دليل المهام هذا دفاتر اليومية وبنود دفاتر اليومية ويتحقق من صحتها."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "فائدة العملية"
 description: "يوضح هذا الإجراء كيفية إنشاء إشعارات الفوائد وطباعتها وترحيلها."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

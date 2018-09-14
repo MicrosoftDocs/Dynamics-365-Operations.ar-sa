@@ -3,7 +3,7 @@ title: "تحديد خلايا عمل lean manufacturing"
 description: "خلية العمل عبارة عن شكل معين لمجموعات الموارد التي يمكن استخدامها في أنشطة عمليات lean manufacturing."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

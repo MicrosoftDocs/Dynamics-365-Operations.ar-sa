@@ -3,7 +3,7 @@ title: "شحن أوامر المبيعات دون تخزين"
 description: "يوضح هذا الدليل كيفية تحديث أمر مبيعات عند شحن المنتجات إلى العميل."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

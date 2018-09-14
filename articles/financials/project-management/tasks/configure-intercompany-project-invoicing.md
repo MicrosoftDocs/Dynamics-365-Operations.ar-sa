@@ -3,7 +3,7 @@ title: "تكوين فوترة المشروع بين الشركات الشقيق�
 description: "يوضح هذا الإجراء كيفية إعداد فوترة المشروع بين شركتين في مؤسستك."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

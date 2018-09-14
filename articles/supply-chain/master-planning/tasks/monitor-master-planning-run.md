@@ -3,7 +3,7 @@ title: "مراقبة تشغيل التخطيط الرئيسي"
 description: "يريد مخطط الإنتاج معرفة ما إذا كان تشغيل تخطيط أساسي قيد التقدم."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

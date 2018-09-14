@@ -3,7 +3,7 @@ title: "إنشاء تفويض خصم مباشر لعميل"
 description: "توضح هذه المهمة كيفية إنشاء تفويض خصم مباشر واستخدامه في الفاتورة."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

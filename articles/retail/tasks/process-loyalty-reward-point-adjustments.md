@@ -3,7 +3,7 @@ title: " معالجة تسويات نقاط مكافأة الولاء"
 description: "يوضح هذا الإجراء كيفية البحث عن معلومات بطاقة الولاء وضبط نقاط مكافأة للولاء."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "مراجعة معلومات التحصيلات"
 description: "يرشدك هذا الإجراء خلال كيفية مراجعة معلومات التحصيلات بالإضافة إلى خيارات الإعداد وحركات التحصيلات المختلفة."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

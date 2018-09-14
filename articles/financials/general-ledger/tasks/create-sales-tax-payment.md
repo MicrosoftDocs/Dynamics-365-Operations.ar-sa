@@ -3,7 +3,7 @@ title: "إنشاء دفع ضريبة مبيعات"
 description: "تعمل وظيفة \"تسوية ضريبة المبيعات وترحيلها‬\" على تسوية أرصدة ضريبة المبيعات على حسابات ضريبة المبيعات وتعويضها في حساب تسوية ضريبة المبيعات لفترة معينة."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

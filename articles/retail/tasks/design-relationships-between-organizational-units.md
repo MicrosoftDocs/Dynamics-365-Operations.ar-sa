@@ -3,7 +3,7 @@ title: " تصميم العلاقات بين الوحدات التنظيمية"
 description: "ينقلك هذا الإجراء عبر عملية تصميم العلاقة بين الوحدات التنظيمية."
 author: mugunthanm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

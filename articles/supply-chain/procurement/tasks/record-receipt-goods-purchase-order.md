@@ -3,7 +3,7 @@ title: "تسجيل استلام البضائع في أمر الشراء"
 description: "يوضح هذا الإجراء كيفية تسجيل إيصال استلام البضائع مباشرة على أمر شراء."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

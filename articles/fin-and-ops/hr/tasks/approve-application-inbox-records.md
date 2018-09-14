@@ -3,7 +3,7 @@ title: "الموافقة على سجلات علبة وارد استمارات ا
 description: "يوضح هذا الإجراء كيفية مراجعة استمارات التقديم التي تم استلامها خلال صفحات الخدمة الذاتية للموظف."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

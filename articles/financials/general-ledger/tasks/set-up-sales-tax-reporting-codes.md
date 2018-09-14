@@ -3,7 +3,7 @@ title: "إعداد أكواد تقارير ضريبة المبيعات"
 description: "تشير أكواد ضريبة المبيعات إلى رقم حقل في تقرير ضريبة المبيعات."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

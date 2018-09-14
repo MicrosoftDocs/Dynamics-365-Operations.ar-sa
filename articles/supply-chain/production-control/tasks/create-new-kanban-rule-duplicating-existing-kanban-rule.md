@@ -3,7 +3,7 @@ title: "إنشاء قاعدة كانبان جديدة عن طريق تكرار �
 description: "ويركز هذا الإجراء على إنشاء نسخة مكررة من قاعدة كانبان موجودة."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "إضافة صورة إلى منتج"
 description: "يوضح هذا الإجراء كيفية إضافة صورة إلى منتج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬‬"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

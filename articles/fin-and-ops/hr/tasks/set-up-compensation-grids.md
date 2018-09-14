@@ -3,7 +3,7 @@ title: "إعداد شبكات التعويض"
 description: "تُستخدم شبكات التعويض لتحديد بنيات الدفع المحافظة عليها لخطط التعويض الثابتة."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "تحديد نماذج تدفق الإنتاج"
 description: "تصف نماذج تدفق الإنتاج تصف كيفية حساب خلايا عمل lean manufacturing والاحتفاظ بها."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

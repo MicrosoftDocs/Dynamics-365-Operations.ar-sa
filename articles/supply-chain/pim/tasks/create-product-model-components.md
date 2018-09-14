@@ -3,7 +3,7 @@ title: "إنشاء مكونات طراز منتج"
 description: "تستخدم نماذج تكوين المنتجات المستندة إلى القيود مكونات ككتل الإنشاء لتأسيس بنية نموذج المنتج."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

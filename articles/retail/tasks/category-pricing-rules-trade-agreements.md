@@ -3,7 +3,7 @@ title: " قواعد تسعير الفئات لإنشاء اتفاقيات الت
 description: "يوضح هذا الإجراء كيفية إنشاء اتفاقيات تجارية على أسعار المبيعات باستخدام قاعدة تسعير الفئات."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

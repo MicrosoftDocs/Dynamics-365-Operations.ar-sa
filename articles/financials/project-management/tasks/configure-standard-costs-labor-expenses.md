@@ -3,7 +3,7 @@ title: "تكوين التكاليف المعيارية للعمالة والمص
 description: "يوضح هذا الإجراء كيفية إعداد التكاليف القياسية للعمالة والمصروفات لمشروع."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

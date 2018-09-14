@@ -3,7 +3,7 @@ title: "إنشاء تدفق قيم"
 description: "تمثل تدفقات القيم وحدات تشغيل تقوم بتجميع تدفق إنتاج واحد أو تدفقات إنتاج متعددة."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

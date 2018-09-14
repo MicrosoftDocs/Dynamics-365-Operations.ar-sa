@@ -3,7 +3,7 @@ title: "إنشاء قوالب مواعيد العمل"
 description: "تعرف قوالب أوقات العمل ساعات العمل خلال أسبوع ويتم استخدامها لإنشاء أوقات العمل لفترة من الوقت."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "إنشاء أمر إرجاع الشراء"
 description: "يوضح هذا الإجراء كيفية إنشاء أمر إرجاع الشراء باستخدام إجراء الإشعار الدائن لنسخ البنود من مستند فاتورة المورّد إلى أمر شراء جديد."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

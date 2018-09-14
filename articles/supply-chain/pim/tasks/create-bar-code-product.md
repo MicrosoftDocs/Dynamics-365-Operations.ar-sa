@@ -3,7 +3,7 @@ title: "إنشاء كود شريطي لمنتج"
 description: "يظهر هذا الإجراء كيفية إنشاء كود شريطي يدويًا باستخدام رقم الصنف M0001 كمثال."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

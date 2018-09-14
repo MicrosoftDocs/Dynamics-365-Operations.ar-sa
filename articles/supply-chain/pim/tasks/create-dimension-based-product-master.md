@@ -3,7 +3,7 @@ title: "إنشاء أصل منتج يستند إلى البعد"
 description: "يوضح هذا الإجراء كيفية إنشاء أصل منتج جديد باستخدام تقنية التكوين المستند إلى بُعد."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

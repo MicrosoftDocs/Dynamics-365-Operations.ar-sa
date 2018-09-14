@@ -3,7 +3,7 @@ title: "إنشاء أمر شراء مع جدول تسليم"
 description: "يُوضح هذا الإجراء كيفية إنشاء جدول تسليم لأمر شراء."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

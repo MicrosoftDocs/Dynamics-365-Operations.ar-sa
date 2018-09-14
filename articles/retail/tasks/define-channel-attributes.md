@@ -3,7 +3,7 @@ title: " تحديد سمات القناة"
 description: "قم بتحسين القناة بإضافة القناة وسمات المنتج."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

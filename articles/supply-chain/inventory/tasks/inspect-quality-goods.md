@@ -3,7 +3,7 @@ title: "فحص جودة البضائع"
 description: "يوضح هذا الإجراء كيفية معالجة أمر جودة."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

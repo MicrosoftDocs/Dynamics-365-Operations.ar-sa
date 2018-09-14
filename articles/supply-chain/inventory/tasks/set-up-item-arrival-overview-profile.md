@@ -3,7 +3,7 @@ title: "إعداد ملف تعريف نظرة عامة على وصول الصن�
 description: "تركز هذه المهمة على إعداد ملف تعريف النظرة العامة على الوصول."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

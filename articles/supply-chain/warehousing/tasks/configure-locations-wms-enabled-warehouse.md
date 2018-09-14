@@ -3,7 +3,7 @@ title: "تكوين المواقع في مستودع يدعم نظام إدارة
 description: "يوضح هذا الدليل كيفية تكوين إعداد الموقع لمستودع جديد يدعم نظام إدارة المستودعات (WMS) (مستودع يستخدم عمليات إدارة مستودعات متقدمة)."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

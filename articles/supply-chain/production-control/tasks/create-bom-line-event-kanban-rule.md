@@ -3,7 +3,7 @@ title: "إنشاء قاعدة كانبان لحدث بند قائمة مكونا
 description: "تركز هذه المهمة على الإعداد المطلوب لإنشاء قاعدة كانبان الحدث لضمان بنود مكونات قائمة الصنف الخاصة بالإنتاج في بيئة إنتاج محدودة مختلطة وتقليدية."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

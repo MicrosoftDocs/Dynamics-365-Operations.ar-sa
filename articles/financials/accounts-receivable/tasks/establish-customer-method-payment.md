@@ -3,7 +3,7 @@ title: "‏‫وضع طريقة دفع العميل‬"
 description: "إنشاء طريقة دفع لمدفوعات العميل."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
