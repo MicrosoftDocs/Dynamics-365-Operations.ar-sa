@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 5a950a100fd5e9026300ea08eb1a6311a8e63129
+ms.sourcegitcommit: 033c9bdfce0840e1af1c63708905aec6829bbe90
+ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 
@@ -44,11 +44,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="adding-a-new-credit-card"></a><span data-ttu-id="1183a-117">إضافة بطاقة ائتمان جديدة</span><span class="sxs-lookup"><span data-stu-id="1183a-117">Adding a new credit card</span></span>
 <span data-ttu-id="1183a-118">يمكنك إنشاء سجلات بطاقة ائتمان جديدة في صفحة العملاء باستخدام العميل، والإعداد، وبطاقة الائتمان.</span><span class="sxs-lookup"><span data-stu-id="1183a-118">You can create new credit card records on the Customers page by using Customer, Set up, Credit card.</span></span> <span data-ttu-id="1183a-119">كما يمكنك إنشاء سجلات بطاقة الائتمان عند إدخال أوامر المبيعات في صفحة أمر المبيعات، باستخدام الإدارة، والعميل، وبطاقة الائتمان، والسجل.</span><span class="sxs-lookup"><span data-stu-id="1183a-119">You can also create credit card records when you enter sales orders on the Sales order page, by using Manage, Customer, Credit card, Register.</span></span>
-<span data-ttu-id="1183a-120">إضافة بطاقة ائتمان إلى أمر مبيعات</span><span class="sxs-lookup"><span data-stu-id="1183a-120">Adding a credit card to a sales order</span></span>
+
+<a name="adding-a-credit-card-to-a-sales-order"></a><span data-ttu-id="1183a-120">إضافة بطاقة ائتمان إلى أمر مبيعات</span><span class="sxs-lookup"><span data-stu-id="1183a-120">Adding a credit card to a sales order</span></span>
 -------------------------------------
 
 <span data-ttu-id="1183a-121">يمكنك إضافة بطاقة ائتمان إلى أمر مبيعات عن طريق تحديد بطاقة ائتمان في البحث عن بطاقة الائتمان في علامة التبويب السريع السعر والخصومات في صفحة أمر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="1183a-121">You can add a credit card to a sales order by selecting a credit card in the credit card lookup on the Price and discounts FastTab on the Sales order page.</span></span> <span data-ttu-id="1183a-122">ولبدء عملية التفويض، في "جزء الإجراءات"، ضمن علامة التبويب إدارة، حدد بطاقة الائتمان وتفويض.</span><span class="sxs-lookup"><span data-stu-id="1183a-122">To start the authorization process, on the Action Pane, on the Manage tab, select Credit card and Authorize.</span></span>
-<span data-ttu-id="1183a-123">تفويض بطاقة ائتمان</span><span class="sxs-lookup"><span data-stu-id="1183a-123">Authorizing a credit card</span></span>
+
+<a name="authorizing-a-credit-card"></a><span data-ttu-id="1183a-123">تفويض بطاقة ائتمان</span><span class="sxs-lookup"><span data-stu-id="1183a-123">Authorizing a credit card</span></span>
 -------------------------
 
 <span data-ttu-id="1183a-124">عند تفويض بطاقة الائتمان، يتم التحقق من رقم البطاقة واسم حامل البطاقة، كما يتم التأكيد على الرصيد الدائن المتوفر.</span><span class="sxs-lookup"><span data-stu-id="1183a-124">When a credit card is authorized, the card number and cardholder's name are verified, and the available credit balance is confirmed.</span></span> <span data-ttu-id="1183a-125">وبشكل اختياري، يتم التحقق من صحة قيمة التحقق من البطاقة وعنوان حامل البطاقة.</span><span class="sxs-lookup"><span data-stu-id="1183a-125">Optionally, the card verification value and the cardholder’s address are verified.</span></span> <span data-ttu-id="1183a-126">ويتم بعد ذلك تقليل الرصيد الدائن المتوفر الخاص بالعميل بمقدار مبلغ الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="1183a-126">The customer's available credit balance is then reduced by the amount of the invoice.</span></span> <span data-ttu-id="1183a-127">وتقوم خدمة الدفع بإرسال معلومات تفيد أنه تم اعتماد بطاقة الائتمان أو رفضها.</span><span class="sxs-lookup"><span data-stu-id="1183a-127">The payment service sends information that the credit card has been approved or declined.</span></span> <span data-ttu-id="1183a-128">وعند فوترة أمر المبيعات، يتم حساب بطاقة الائتمان (تسجيلها) لمبلغ الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="1183a-128">When the sales order is invoiced, the credit card is charged (captured) for the invoice amount.</span></span>
