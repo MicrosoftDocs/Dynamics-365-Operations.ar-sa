@@ -1,39 +1,40 @@
 --- 
 title: "عملية استحقاق الميزات"
-description: "يوضح هذا الإجراء كيف تعمل عملية استحقاق الميزات."
+description: "يوضح هذا الإجراء كيف تعمل عملية استحقاق المزايا."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: fe773bd2375b2dea8e13a57918ad584f83f61073
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 7c05c7613ee0d37d6bdfcb42f4e9611629d215bd
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="benefit-eligibility-process"></a>عملية استحقاق الميزات
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الإجراء كيف تعمل عملية استحقاق الميزات. عند اكتمال العملية، يمكنك عرض النتائج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+يوضح هذا الإجراء كيف تعمل عملية استحقاق المزايا. عند اكتمال العملية، يمكنك عرض النتائج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 
 1. انتقل إلى الموارد البشرية > الميزات‬ > الميزات‬.
 2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 3. في القائمة، انقر فوق الارتباط في الصف المحدد.
 4. انقر فوق "تحرير".
 5. في حقل الأهلية، حدد "على أساس القاعدة".
-6. في حقل نوع القاعدة، حدد قاعدة سياسة الميزات التي ترغب في تطبيقها على الميزات.
+6. في حقل نوع القاعدة، حدد قاعدة سياسة المزايا التي ترغب في تطبيقها على المزايا.
 7. في جزء الإجراءات، انقر فوق "ميزة".
 8. انقر فوق "إنشاء ‏‫حدث استحقاق" لفتح مربع حوار الإسقاط‬.
 9. في حقل "الحدث"، اكتب قيمة.

@@ -1,28 +1,29 @@
 --- 
-title: "إضافة معلومات إلى دفتر يومية الأداء وإرسال ثناء"
+title: "إضافة إلى دفتر يومية أدائك وإرسال ثناء إلى أحد الأشخاص"
 description: "يحتوي دفتر يومية الأداء على المعلومات التي تتعلق بكيفية تحقيق أهدافك أو كيف كان مستوى الأداء لديك خلال فترة معينة."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="add-information-to-your-performance-journal-and-send-praise"></a>إضافة معلومات إلى دفتر يومية الأداء وإرسال ثناء
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>إضافة إلى دفتر يومية أدائك وإرسال ثناء إلى أحد الأشخاص
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -42,7 +43,7 @@ ms.lasthandoff: 08/08/2018
 9. في الحقل "كلمات أساسية‬"، اكتب قيمة.
 10. انقر فوق "إضافة ارتباط خارجي".
 11. في حقل "الوصف"، اكتب "Envision".
-12. في حقل عنوان الإنترنت، اكتب "<https://www.microsoft.com/en/envision/default>".
+12. في حقل "عنوان الإنترنت"، اكتب 'https://www.microsoft.com/en/envision/default'.
 13. انقر فوق التسمية التوضيحية أسفل الزر "حفظ" المسماة "دفتر يومية الأداء" للعودة إلى الشبكة.
     * يمكنك إضافة دفتر اليومية المحدد أو دفاتر اليومية المحددة إلى هدف بحيث يظهر عند فتح الهدف. سيُضاف ارتباط في علامة التبويب السريعة "الارتباطات".‬ إذا أضفت دفتر يومية إلى هدف ثم أضفت الهدف إلى مراجعة، فسيظهر دفتر اليومية تلقائيًا على المراجعة.  
     * يمكنك إضافة دفتر اليومية المحدد أو دفاتر اليومية المحددة إلى مراجعة بحيث يظهر عند فتح المراجعة.    سيُضاف ارتباط في علامة التبويب السريعة "الارتباطات".  

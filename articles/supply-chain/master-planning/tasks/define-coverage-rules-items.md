@@ -3,23 +3,24 @@ title: "تحديد قواعد تغطية للأصناف"
 description: "شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, ReqItemTable
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: fe92393cc264df68f084db6974f7d4607d37d3ab
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 14f56c30753da9458d66a46da8935305619fd0b8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-coverage-rules-for-items"></a>تحديد قواعد تغطية للأصناف
@@ -100,7 +101,7 @@ ms.lasthandoff: 11/02/2017
 4. انقر فوق علامة التبويب "عام".
 5. حدد المربع برأس "تجاوز إعدادات مجموعة التغطية‬".
 6. في الحقل "الحد الزمني للتغطية (بالأيام)‬"، أدخل "60".
-    * على الرغم من أن الأصناف الموجودة في مجموعة التغطية المتطلبات يتم التخطيط لها قبل 90 يومًا، سيتم التخطيط لهذا الصنف قبل 60 يومًا.  
+    * على الرغم من أن التخطيط لمتطلبات الأصناف الموجودة في مجموعة التغطية يتم قبل 90 يومًا، سيتم التخطيط لهذا البند قبل 60 يومًا.  
 7. في الحقل "الأيام السالبة‬"، أدخل "2".
 8. في الحقل "الأيام الموجبة‬‬"، أدخل "2".
 9. انقر فوق علامة التبويب "الحد الأدنى لوقت الإنتاج‬".

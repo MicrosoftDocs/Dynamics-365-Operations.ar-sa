@@ -3,24 +3,25 @@ title: "تحديد خلايا عمل lean manufacturing"
 description: "خلية العمل عبارة عن شكل معين لمجموعات الموارد التي يمكن استخدامها في أنشطة عمليات lean manufacturing."
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f060f084baab055a51e390f488ca2553bd997b92
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1d2381c045f9f0f98b35912fa732f3627b038785
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>تحديد خلايا عمل lean manufacturing
@@ -56,7 +57,7 @@ ms.lasthandoff: 11/03/2017
     * في تدفقات الإنتاج ذات الأنشطة المتعددة أو بنود الإنتاج، يكون هذا غالبًا مستودع الإدخال لخلية العمل أو المبيعات التالية أو مستودع بضاعة بالطريق يتم تحويل المنتج إليه بعد عملية الإنتاج أو. تذكر أنه عند تصميم عمليات lean manufacturing، يتم إهدار النقل عادة كما في حالة الإبلاغ عن النقل.  
 16. في القائمة، انقر فوق الارتباط في الصف المحدد.
 17. في الحقل "موقع الإخراج"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-    * في تدفق إنتاج بأنشطة متعددة العمليات، يكون هذا غالباً هو موقع الإدخال لخلية العمل التالية.  
+    * في إنتاج تدفق بأنشطة متعددة العمليات، يكون هذا غالباً هو موقع الإدخال لخلية العمل التالية.  
 18. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 19. في القائمة، انقر فوق الارتباط في الصف المحدد.
 20. قم بتوسيع القسم "العملية" أو طيه.
@@ -75,7 +76,7 @@ ms.lasthandoff: 11/03/2017
 30. وانقر فوق إضافة.
 31. في الحقل "نموذج تدفق الإنتاج"، انقر فوق زر القائمة المنسدلة لفتح البحث.
 32. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-    * يتطلب هذا الإجراء نوع الإنتاجية لنموذج تدفق الإنتاج لعرض تحديد قدرة الإنتاجية.  
+    * تتطلب هذه الإجراءات نوع الإنتاجية لنموذج تدفق الإنتاج لعرض تحديد قدرة الإنتاجية.  
 33. في القائمة، انقر فوق الارتباط في الصف المحدد.
 34. في الحقل "فترة القدرة"، حدد خيارًا.
     * وتتضمن الخيارات:   يوم العمل القياسي - يُعبر عن القدرة بطول يوم العمل القياسي لتقويم وقت العمل لخلية العمل. بالنسبة لكل يوم، يتم تحديد وقت العمل الفعلي من التقويم وتُحسب القدرة المتاحة الفعالة على ذلك الأساس.   الأسبوع-لإتاحة قدرة أسبوعية. لا يوجد أي تعديل عن طريق وقت العمل الفعلي.   الشهر-لإتاحة قدرة شهرية. لا يوجد أي تعديل عن طريق القدرة الفعلية.   عادة، يُستخدم يوم العمل القياسي للفترات اليومية وتُستخدم القدرة الأسبوعية لفترات القدرة الأسبوعية.  

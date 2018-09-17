@@ -1,28 +1,29 @@
 --- 
-title: "إنشاء أسئلة ذات إجابات مغلقة"
+title: "إنشاء سؤال ذي نهاية مغلقة"
 description: "تسمح لك الأسئلة ذات الإجابات المغلقة بتوفير خيارات للمستجيب يمكنه الاختيار منها."
 author: kherr75
 manager: AnnBe
-ms.date: 06/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e6e2535cb606b85ddb55a396a86ec408f1304bbf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdfac92b80774adb8376d5c2e945d063173188c8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="create-closed-ended-questions"></a>إنشاء أسئلة ذات إجابات مغلقة
+# <a name="create-a-closed-ended-question"></a>إنشاء سؤال ذي نهاية مغلقة
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

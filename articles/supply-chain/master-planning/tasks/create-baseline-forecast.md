@@ -3,23 +3,24 @@ title: "إنشاء تنبؤ أساسي"
 description: "بإمكان مخطط الإنتاج إنشاء تنبؤ أساسي عن طريق استخدام نماذج تنبؤ التسلسل الزمني أو نسخ الطلب التاريخي."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 111/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: 6a712077fed4a94ae6ae6ce7ea2cfba8848e5fa5
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-baseline-forecast"></a>إنشاء تنبؤ أساسي
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/02/2017
 7. قم بإغلاق الصفحة.
 8. قم بإغلاق الصفحة.
 
-## <a name="set-up-the-demand-forecasting-parameters"></a>إعداد معلمات التنبؤ بالطلب
+## <a name="set-up-the-demand-forecasting-paramters"></a>إعداد محددات التنبؤ بالطلب
 1. انتقل إلى ‏‫التخطيط الرئيسي > إعداد > التنبؤ بالطلب‬ > محددات التنبؤ بالطلب‬.
 2. قم بتوسيع المقطع "محددات خوارزمية التنبؤ‬".
 3. في الحقل "إستراتيجية إنشاء ‏‫التنبؤ‬"، حدد "نسخ فوق الطلب التاريخي‬".
@@ -79,6 +80,6 @@ ms.lasthandoff: 11/02/2017
     * في الخلية، أدخل رقمًا مختلفًا عن الرقم الذي تم توقعه، على سبيل المثال، 400.  
 4. لقد قمت بإجراء تسوية يدوية للتنبؤ. لاحظ المؤشر الرسومي في الخطوة التالية.
 5. انقر فوق "تفاصيل بنود التنبؤ".
-    * وفي هذه الصفحة، يمكنك مشاهدة قيم الدقة والطلب التاريخي والتنبؤ. يمكنك أيضً إدخال تغييرات على التنبؤ.  
+    * في هذه الصفحة، يمكنك مشاهدة قيم الدقة والطلب التاريخية والتنبؤ. يمكنك أيضً إدخال تغييرات على التنبؤ.  
 
 

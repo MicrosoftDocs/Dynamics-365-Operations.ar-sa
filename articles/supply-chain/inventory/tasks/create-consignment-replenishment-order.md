@@ -1,21 +1,22 @@
----
+--- 
 title: "إنشاء أمر تزويد شحن"
 description: "يوضح هذا الإجراء كيفية إنشاء أمر تزويد الشحن حيث يمكنك تعقب التسليم المتوقع من مورّد إلى مخزون الشحن."
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
@@ -60,7 +61,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="receive-items"></a>استلام الأصناف
 1. انقر فوق "إيصال استلام المنتجات".
 2. في الحقل "إيصال استلام المنتجات الخارجي‬"، اكتب قيمة.
-3. في حقل "الكمية"، أدخل رقمًا أقل من الرقم الذي يظهر هناك.
+3. في حقل "الكمية"، أدخل رقمًا أقل من الرقم الذي يظهر هناك. 
 4. انقر فوق "موافق".
 
 ## <a name="check-the-on-hand-inventory"></a>التحقق من المخزون الفعلي
@@ -70,4 +71,5 @@ ms.lasthandoff: 09/29/2017
     * تتوفر الأصناف التي تم استلامها كمخزون شحن مملوك من قِبل المورّد بشكل فعلي. وتظهر الكمية المتبقية في أمر تزويد الشحن في حقل "الكمية المطلوبة إجمالاً‬".  
 4. قم بإغلاق الصفحة.
 5. انقر فوق "إغلاق".
+
 

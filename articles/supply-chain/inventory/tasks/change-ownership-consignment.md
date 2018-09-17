@@ -1,21 +1,22 @@
----
+--- 
 title: "تغيير ملكية مخزون الشحن استنادًا إلى الطلب على الإنتاج"
 description: "يوضح هذا الإجراء كيفية تغيير مالك مخزون الشحن من المورّد إلى الكيان القانوني عند وجود طلب على المخزون في الإنتاج."
 author: perlynne
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
@@ -51,4 +52,5 @@ ms.lasthandoff: 09/29/2017
     * عند ترحيل دفتر اليومية، يتم إصدار المخزون المملوك من المورّد باستخدام مرجع "تغيير الملكية". يتم عندئذٍ استلام المخزون كمخزون فعلي باستخدام حركة مخزون يتم تحديثها بواسطة إيصال استلام منتجات أمر الشراء. لاحظ أنه يتم إنشاء فقط الحركات المرتبطة بدفتر اليومية المرحّل. ولا يتم إنشاء حركات مخزون متوقعة.  
 2. انقر فوق "موافق".
 3. قم بإغلاق الصفحة.
+
 

@@ -3,24 +3,25 @@ title: "الإبلاغ عن مدى تقدم في جهاز وظيفة محمول"
 description: "هذا الإجراء يوضح لك كيفية البدء والإبلاغ عن التقدم المحرز في وظيفة إنتاج في نموذج تسجيل جهاز الوظيفة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8a0432b5ff01bf88b9c18de0cac0661618c654ba
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: acbedc6d27624d9a8d1e6fb9bb0d9abed1b4377f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>الإبلاغ عن مدى تقدم في جهاز وظيفة محمول
@@ -34,7 +35,7 @@ ms.lasthandoff: 11/03/2017
 لتتمكن من تشغيل هذا الإجراء يجب أن يكون لديك دور مسؤول النظام أو دور "عامل تشغيل الجهاز" الذي يقترن بحساب المستخدم.
 
 1. انتقل إلى التحكم بالإنتاج > ‏‫التنفيذ التصنيعي > جهاز بطاقة الوظيفة.
-2. في حقل WorkerTextField، أدخل شارة العامل. في نوع بيانات العرض التوضيحي USMF، اكتب '123' لكريستينا بوترا.
+2. في حقل WorkerTextField، أدخل شارة العامل. في نوع بيانات العرض التوضيحي USMF، اكتب '123' لكريستينا بوترا..
 3. انقر فوق تسجيل الدخول.
 4. انقر فوق زر عامل التصفية.
 5. حدد مربع الاختيار ‏‫تطبيق عامل تصفية التكوين أو قم بإلغاء تحديده. إذا قمت بتعيين عامل تصفية، فيمكنك استخدام وحدة إنتاج 110 في USMF.
