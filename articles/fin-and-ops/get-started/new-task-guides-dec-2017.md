@@ -16,14 +16,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: fbf99e6c01101209bf9e2a213c8008f50e67ad68
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 2e7b62de678788325534b351e17d95002590e963
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-december-2017"></a><span data-ttu-id="961f9-104">دلائل المهام الجديدة أو المحدثة (ديسمبر 2017)</span><span class="sxs-lookup"><span data-stu-id="961f9-104">New or updated task guides (December 2017)</span></span>
+
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="961f9-105">يسرد هذا الموضوع دليل المهام الجديد أو المحدث الذي تم إصداره لمكتبة Microsost الموحدة APQC (ديسمبر 2016- جميع اللغات) لـ Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="961f9-105">This topic lists the new or updated Task guides that were released to the Microsoft (December 2016 - all languages) APQC Unified Library for Microsoft Dynamics 365 for Operations.</span></span>
 

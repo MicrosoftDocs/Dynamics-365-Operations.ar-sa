@@ -17,14 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: cf5277bf90799692b4d9d43e3279dae6e1e1bdf7
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
 # <a name="vat-recovery-in-expense-management"></a><span data-ttu-id="266d4-103">استرداد ضريبة القيمة المضافة في إدارة المصروفات</span><span class="sxs-lookup"><span data-stu-id="266d4-103">VAT recovery in Expense management</span></span>
+
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="266d4-104">للحصول على المبالغ عن حركات ضريبة القيمة المضافة المستحقة، يحب أن تقوم الشركة أو المؤسسة بتحديد وتجميع والتحقق من صحة وتقديم معلومات دقيقة.</span><span class="sxs-lookup"><span data-stu-id="266d4-104">To receive refunds on eligible value-added tax (VAT) transactions, a company or organization must identify, collect, verify, and submit accurate information.</span></span> <span data-ttu-id="266d4-105">تتضمن هذه العملية العديد من المهام، وبناءً على حجم شركتك يمكنك تضمين العديد من الموظفين أو الأدوار.</span><span class="sxs-lookup"><span data-stu-id="266d4-105">This process includes multiple tasks and, depending on the size of your company, can include several employees or roles.</span></span>
 
