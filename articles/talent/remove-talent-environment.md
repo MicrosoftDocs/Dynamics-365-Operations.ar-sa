@@ -26,6 +26,8 @@ ms.lasthandoff: 08/08/2018
 ---
 # <a name="remove-talent-environments"></a>إزالة بيئات Talent
 
+[!include [banner](includes/banner.md)]
+
 يوضح لك هذا الموضوع عملية إزالة محرك أقراص اختبار أو بيئة إنتاج جديدة لـ Microsoft Dynamics 365 for Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>إزالة بيئة محرك أقراص اختبار

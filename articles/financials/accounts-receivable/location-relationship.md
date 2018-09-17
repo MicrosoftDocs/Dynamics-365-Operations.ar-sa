@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>إضافة أدوار مواقع وأنواع علاقات الأطراف 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>إضافة أدوار المواقع
 
 توجد طريقتان لإضافة أدوار مواقع جديدة للعنوان ومعلومات جهة الاتصال:
