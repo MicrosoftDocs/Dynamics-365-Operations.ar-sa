@@ -1,7 +1,7 @@
 --- 
 title: "التحقق من توفر المخزون"
 description: "يوضح هذا الإجراء كيفية التحقق من المخزون الفعلي والمخزون الفعلي الحالي لرقم صنف معين."
-author: 
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
