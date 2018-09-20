@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 08/08/2018
 تشارك جميع المنتجات Finance and Operations، وRetail، وTalent جدول محتويات واحدًا في موقع docs، مما يسمح للعملاء برؤية سياق الموضوع حيث هم. ويسمح لك أيضًا باستخدام عنصر تحكم التصفية أعلى جدول المحتويات للعثور على المواضيع التي تبحث عنها.
 
 ### <a name="follow-a-topic"></a>متابعة أحد الموضوعات
-لمتابعة أحد الموضوعات، انقر فوق الزر +متابعة أسفل مربع التعليق. ستحتاج إلى تسجيل الدخول لمتابعة الموضوع. راجع [‏‫أرسل لنا تعليق](#leave-us-a-comment) للحصول على التفاصيل.  
+لمتابعة أحد الموضوعات، انقر فوق الزر +متابعة أسفل مربع التعليق. ستحتاج إلى تسجيل الدخول لمتابعة الموضوع. راجع [‏‫تقديم الملاحظات](#leave-us-feedback) للحصول على التفاصيل.  
 
 ### <a name="use-an-rss-feed"></a>استخدام موجز RSS
 للاشتراك في موجز RSS لجميع التحديثات لمحتوى "عمليات الموحدة"، استخدم الارتباط التالي من أحد المستعرضات التي تدعم مواجز RSS، مثل Internet Explorer أو إدارة موجز RSS: 

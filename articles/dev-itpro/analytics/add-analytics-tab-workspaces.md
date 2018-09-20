@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 04/13/2018
 اتبع هذه الخطوات لإضافة ملف pbix. كمنتج لمشروع Visual Studio.
 
 1. أنشئ مشروعًا جديدً في النموذج المناسب.
-2. في "مستكشف الحلول"، حدد المشروع وانقر بزر الماوس الأيمن فوقه، ثم حدد **إضافة** > **صنف جديد**.
+2. في "مستكشف الحلول"، حدد المشروع وانقر بزر الماوس الأيمن فوقه، ثم حدد **إضافة** \> **صنف جديد**.
 3. في **إضافة صنف جديد**، تحت **منتجات Operations**، حدد قالب **المورد**.
 4. أدخل اسمًا سيتم استخدامه للإشارة إلى التقرير في بيانات تعريف X++، ومن ثم انقر فوق **إضافة**.
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 04/13/2018
 
 1. افتح مصمم النماذج لتوسيع تعريف التصميم.
 2. في تعريف التصميم، حدد العنصر العلوي المسمى **تصميم | نمط: تشغيلي في مساحة العمل**.
-3. انقر بزر الماوس الأيمن، ثم حدد **جديد** > **علامة التبويب** لإضافة عنصر تحكم جديد مسمى **FormTabControl1**.
+3. انقر بزر الماوس الأيمن، ثم حدد **جديد** \> **علامة التبويب** لإضافة عنصر تحكم جديد مسمى **FormTabControl1**.
 4. في مصمم النماذج، حدد **FormTabControl1**.
 5. انقر بزر الماوس الأيمن، ثم حدد **صفحة علامة تبويب جديدة** لإضافة صفحة علامة تبويب جديدة.
 6. أعد تسمية صفحة علامة التبويب باسم ذي مغزى، مثل **مساحة عمل**.
@@ -86,12 +86,12 @@ ms.lasthandoff: 04/13/2018
 9. أعد تسمية صفحة علامة التبويب باسم ذي مغزى، مثل **تحليلات**.
 10. في مصمم النماذج، حدد **التحليلات (صفحة علامة التبويب)**.
 11. عيّن خاصية **التسمية التوضيحية** إلى **التحليلات**.
-12. انقر بزر الماوس الأيمن فوق عنصر التحكم، ثم حدد **جديد** > **مجموعة** لإضافة عنصر تحكم مجموعة نماذج جديدة.
+12. انقر بزر الماوس الأيمن فوق عنصر التحكم، ثم حدد **جديد‏‎** \> **مجموعة** لإضافة عنصر تحكم مجموعة نماذج جديدة.
 13. أعد تسمية مجموعة النماذج باسم ذي مغزى، مثل **powerBIReportGroup**.
 14. في مصمم النماذج، حدد **PanoramaBody (علامة التبويب)**، ثم قم بسحب عنصر التحكم إلى علامة تبويب **مساحة العمل**.
 15. في تعريف التصميم، حدد العنصر العلوي المسمى **تصميم | نمط: تشغيلي في مساحة العمل**.
 16. انقر بزر الماوس الأيمن، ثم حدد **إزالة النقش**.
-17. انقر بزر الماوس الأيمن مرة أخرى، ثم حدد **إضافة نمط** > **مساحة عمل مبوبة**.
+17. انقر بزر الماوس الأيمن مرة أخرى، ثم حدد **إضافة نمط** \> **مساحة عمل مبوبة**.
 18. نفّذ عملية إنشاء للتحقق من التغييرات التي أجريتها.
 
 يبين الرسم التوضيحي التالي الشكل الذي يتخذه التصميم بعد تطبيق هذه التغييرات.
@@ -103,7 +103,7 @@ ms.lasthandoff: 04/13/2018
 > [!NOTE]
 > بالنسبة إلى مساحات العمل المضمنة، نوصي باستخدام الملحقات لإخفاء الصفحتين **"جزء عوامل تصفية"** و**علامة التبويب**، لتوفير التناسق.
 
-لقد أتممت الآن مهمة توسيع تعريف نموذج التطبيق. للحصول على مزيد من المعلومات حول كيفية استخدام الملحقات لإجراء التخصيصات، راجع  [التخصيص: تراكب الطبقات والملحقات](../extensibility/customization-overlayering-extensions.md).
+لقد أتممت الآن مهمة توسيع تعريف نموذج التطبيق. للحصول على مزيد من المعلومات حول كيفية استخدام الملحقات لإجراء التخصيصات، راجع [التخصيص: تراكب الطبقات والملحقات](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>إضافة منطق تسلسل العمل X++ لتضمين عنصر تحكم العارض
 اتبع هذه الخطوات لإضافة منطق تسلسل العمل الذي يقوم بتهيئة عنصر تحكم العارض المضمن في مساحة عمل **إدارة الحجز**.
@@ -116,7 +116,7 @@ ms.lasthandoff: 04/13/2018
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ ms.lasthandoff: 04/13/2018
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ ms.lasthandoff: 04/13/2018
 #### <a name="syntax"></a>بناء الجملة
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>المحددات
 
-|       الاسم       |                                                              ‏‏الوصف                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    اسم مورد pbix.                                                     |
-| formGroupControl |                                    عنصر تحكم مجموعة النماذج لتطبيق عنصر تحكم تقرير Power BI عليه.                                     |
-| defaultPageName  |                                                         اسم الصفحة الافتراضية                                                         |
-|  showFilterPane  |   قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء عامل التصفية (<strong>true</strong>) أو إخفاؤه (<strong>false</strong>).   |
-|   showNavPane    | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء التنقل (<strong>true</strong>) أو إخفاؤه (<strong>false</strong>). |
-|  defaultFilters  |                                              عوامل التصفية الافتراضية لتقرير Power BI.                                              |
-
+| الاسم             | ‏‏الوصف                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | اسم مورد pbix.                                                                              |
+| formGroupControl | عنصر تحكم مجموعة النماذج لتطبيق عنصر تحكم تقرير Power BI عليه.                                              |
+| defaultPageName  | اسم الصفحة الافتراضية                                                                                       |
+| showFilterPane   | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء عامل التصفية (**true**) أو إخفاؤه (**false**).     |
+| showNavPane      | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء التنقل (**true**) أو إخفاؤه (**false**). |
+| defaultFilters   | عوامل التصفية الافتراضية لتقرير Power BI.                                                                 |
 

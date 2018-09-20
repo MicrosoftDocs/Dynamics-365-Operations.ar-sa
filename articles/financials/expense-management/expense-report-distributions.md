@@ -1,7 +1,7 @@
 ---
 title: "توزيعات تقرير مصروفات"
 description: "عندما تقوم بإدخال المصروفات في تقرير مصروفات، يمكنك توزيع المصروفات عبر عدة مشاريع أو كيانات قانونية أو حسابات في مؤسستك."
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
@@ -12,16 +12,14 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
+ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
+ms.openlocfilehash: 00d051a8f644a6a0bedb0acc3eaac9a3dd1109e7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 
@@ -36,10 +34,10 @@ ms.lasthandoff: 04/13/2018
 نظرًا لعمل نانسي على مشروعين منفصلين أثناء وجودها في في فرانكفورت، قامت بتوزيع مصروفاتها كما هو ملائم لكل مشروع عند إدخال تقرير مصروفاتها. يعرض الجدول التالي كيف قامت نانسي بتوزيع مصروفاتها.
 
 
-| <strong>نوع المصروفات</strong> | <strong>إجمالي مبلغ المصروفات</strong> | <strong>المبلغ الموزع على المشروع أ</strong> | <strong>المبلغ الموزع على المشروع ب</strong> |
-|-------------------------------|---------------------------------------|--------------------------------------------------|--------------------------------------------------|
-|          مصاريف القطار           |                578 كرونا دانمركية                |                     405 كرونا دانمركية                      |                     173 كرونا دانمركية                      |
-|             فندق             |                725 يورو                |                     557 يورو                      |                     168 يورو                      |
-|             الوجبات             |                346 يورو                |                     284 يورو                      |                      62 يورو                      |
+| نوع المصروفات | إجمالي مبلغ المصروفات|المبلغ الموزع على المشروع أ| المبلغ الموزع على المشروع ب |
+|--------------|---------------------|-------------------------------|---------------------------------|
+|مصاريف القطار   |578 كرونا دانمركية              |405 كرونا دانمركية                        |173 كرونا دانمركية                          |
+|فندق         |725 يورو              |557 يورو                        |168 يورو                          |
+|الوجبات         |346 يورو              |284 يورو                        |62 يورو                           |
 
 
