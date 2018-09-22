@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/20/2018
 
 ---
 
@@ -35,7 +35,9 @@ ms.lasthandoff: 08/08/2018
 <span data-ttu-id="02cd8-105">يمثل المشروع مجموعة من الأنشطة المصممة لتقديم خدمة أو إنتاج منتج أو تحقيق نتيجة.</span><span class="sxs-lookup"><span data-stu-id="02cd8-105">A project is a group of activities that is designed to provide a service, produce a product, or achieve a result.</span></span> <span data-ttu-id="02cd8-106">تستهلك المشاريع الموارد، وتحقق نتائج مالية في صورة عائدات أو أصول.</span><span class="sxs-lookup"><span data-stu-id="02cd8-106">Projects consume resources and generate financial results in the form of revenues or assets.</span></span>
 
 ## <a name="projects-across-industries"></a><span data-ttu-id="02cd8-107">المشاريع عبر الصناعات</span><span class="sxs-lookup"><span data-stu-id="02cd8-107">Projects across industries</span></span>
-<span data-ttu-id="02cd8-108">يمكن استخدام وظيفة إدارة ومحاسبة المشاريع في العديد من الصناعات، كما هو مبين في التوضيح التالي.</span><span class="sxs-lookup"><span data-stu-id="02cd8-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span> <span data-ttu-id="02cd8-109">[![المشاريع عبر الصناعات](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="02cd8-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
+<span data-ttu-id="02cd8-108">يمكن استخدام وظيفة إدارة ومحاسبة المشاريع في العديد من الصناعات، كما هو مبين في التوضيح التالي.</span><span class="sxs-lookup"><span data-stu-id="02cd8-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span>
+
+<span data-ttu-id="02cd8-109">[![المشاريع عبر الصناعات](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="02cd8-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
 
 <span data-ttu-id="02cd8-110">في مركز الاتصال، يمكن استخدام بطاقة لوصف مجموعة الإجراءات اللازمة لحل اتصال.</span><span class="sxs-lookup"><span data-stu-id="02cd8-110">In a call center, a ticket can be used to describe the set of actions that are required to resolve a call.</span></span> <span data-ttu-id="02cd8-111">تشير الشركات الاستشارية، مثل مؤسسات الإدارة أو الاستشارات الفنية أو وكالات الإعلان إلى أنشطتها كمشاريع.</span><span class="sxs-lookup"><span data-stu-id="02cd8-111">Consulting companies, such as management or technical consulting organizations or advertising agencies, refer to their activities as projects.</span></span> <span data-ttu-id="02cd8-112">في مجال التسويق، تمثل الحملة مجموعة أعمال يجب تسليمها.</span><span class="sxs-lookup"><span data-stu-id="02cd8-112">In marketing, a campaign represents a set of work that must be delivered.</span></span> <span data-ttu-id="02cd8-113">وفي التصنيع القائم على المشاريع، يرتبط أمر إنتاج بالعمل المختلف الذي يجب تنفيذه لإنتاج بعض السلع النهائية.</span><span class="sxs-lookup"><span data-stu-id="02cd8-113">In project-based manufacturing, a production order relates the various work that must be done to produce some finished goods.</span></span> <span data-ttu-id="02cd8-114">وبغض النظر عن الاسم المستخدم لها، يمكن لهذه المشاريع التي تشتمل على التكاليف والجداول الزمنية والموارد وإدارة ومحاسبة المشاريع في Microsoft Dynamics 365 for Finance and Operations أن تساعد في تخطيط وتنفيذ وتحليل هذه المشاريع.</span><span class="sxs-lookup"><span data-stu-id="02cd8-114">Whatever name is used for them, these projects involve resources, schedules, and costs, and the project management and accounting functionality in Microsoft Dynamics 365 for Finance and Operations can help with the planning, execution, and analysis of these projects.</span></span>
 

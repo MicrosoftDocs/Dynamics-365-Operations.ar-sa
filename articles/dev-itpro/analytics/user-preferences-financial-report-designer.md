@@ -19,66 +19,59 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
-# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="fecd6-104">تفضيلات المستخدم في مصمم التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="fecd6-104">User preferences in financial report designer</span></span>
+# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="48b27-104">تفضيلات المستخدم في مصمم التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="48b27-104">User preferences in financial report designer</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fecd6-105">يشرح هذا المقال كيفية تعيين تفضيلات المستخدم لتخصيص تفاعلات المستخدم في مصمم التقارير المالية والتحكم في تجربة تسجيل الدخول الأولى.</span><span class="sxs-lookup"><span data-stu-id="fecd6-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="fecd6-106">يمكنك أيضًا التحكم في كيفية عرض التقارير الفردية ومكتبة التقارير ومواقع الملفات الافتراضية.</span><span class="sxs-lookup"><span data-stu-id="fecd6-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
+<span data-ttu-id="48b27-105">يشرح هذا المقال كيفية تعيين تفضيلات المستخدم لتخصيص تفاعلات المستخدم في مصمم التقارير المالية والتحكم في تجربة تسجيل الدخول الأولى.</span><span class="sxs-lookup"><span data-stu-id="48b27-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="48b27-106">يمكنك أيضًا التحكم في كيفية عرض التقارير الفردية ومكتبة التقارير ومواقع الملفات الافتراضية.</span><span class="sxs-lookup"><span data-stu-id="48b27-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span>
 
-<a name="set-user-preferences"></a><span data-ttu-id="fecd6-107">تعيين تفضيلات المستخدم</span><span class="sxs-lookup"><span data-stu-id="fecd6-107">Set user preferences</span></span>
---------------------
+## <a name="set-user-preferences"></a><span data-ttu-id="48b27-107">تعيين تفضيلات المستخدم</span><span class="sxs-lookup"><span data-stu-id="48b27-107">Set user preferences</span></span>
 
-1.  <span data-ttu-id="fecd6-108">في مصمم التقارير، في قائمة **أدوات**، انقر فوق **خيارات**.</span><span class="sxs-lookup"><span data-stu-id="fecd6-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
-2.  <span data-ttu-id="fecd6-109">في مربع الحوار **خيارات**، وحدد التفضيلات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="fecd6-109">In the **Options** dialog box, select your preferences.</span></span>
-3.  <span data-ttu-id="fecd6-110">وانقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="fecd6-110">Click **OK**.</span></span>
+1. <span data-ttu-id="48b27-108">في مصمم التقارير، في قائمة **أدوات**، انقر فوق **خيارات**.</span><span class="sxs-lookup"><span data-stu-id="48b27-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
+2. <span data-ttu-id="48b27-109">في مربع الحوار **خيارات**، وحدد التفضيلات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="48b27-109">In the **Options** dialog box, select your preferences.</span></span>
+3. <span data-ttu-id="48b27-110">وانقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="48b27-110">Click **OK**.</span></span>
 
-## <a name="options-dialog-box-options"></a><span data-ttu-id="fecd6-111">خيارات مربع حوار الخيارات</span><span class="sxs-lookup"><span data-stu-id="fecd6-111">Options dialog box options</span></span>
+## <a name="options-dialog-box-options"></a><span data-ttu-id="48b27-111">خيارات مربع حوار الخيارات</span><span class="sxs-lookup"><span data-stu-id="48b27-111">Options dialog box options</span></span>
 <table>
 <thead>
-<tr class="header">
-<th><span data-ttu-id="fecd6-112">خيارات المستخدم</span><span class="sxs-lookup"><span data-stu-id="fecd6-112">User option</span></span></th>
-<th><span data-ttu-id="fecd6-113">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="fecd6-113">Description</span></span></th>
+<tr>
+<th><span data-ttu-id="48b27-112">خيارات المستخدم</span><span class="sxs-lookup"><span data-stu-id="48b27-112">User option</span></span></th>
+<th><span data-ttu-id="48b27-113">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="48b27-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><span data-ttu-id="fecd6-114">عند بدء التشغيل</span><span class="sxs-lookup"><span data-stu-id="fecd6-114">At startup</span></span></td>
-<td><span data-ttu-id="fecd6-115">حدد ما تراه عند بدء تشغيل مصمم التقارير.</span><span class="sxs-lookup"><span data-stu-id="fecd6-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="fecd6-116">وحدد أحد الخيارات التالية:</span><span class="sxs-lookup"><span data-stu-id="fecd6-116">Select one of the following options:</span></span>
+<tr>
+<td><span data-ttu-id="48b27-114">عند بدء التشغيل</span><span class="sxs-lookup"><span data-stu-id="48b27-114">At startup</span></span></td>
+<td><span data-ttu-id="48b27-115">حدد ما تراه عند بدء تشغيل مصمم التقارير.</span><span class="sxs-lookup"><span data-stu-id="48b27-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="48b27-116">وحدد أحد الخيارات التالية:</span><span class="sxs-lookup"><span data-stu-id="48b27-116">Select one of the following options:</span></span>
 <ul>
-<li><span data-ttu-id="fecd6-117"><strong>تحميل التقرير المحمل مؤخرًا</strong> – فتح التقرير الأخير الذي قمت بعرضه.</span><span class="sxs-lookup"><span data-stu-id="fecd6-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
-<li><span data-ttu-id="fecd6-118"><strong>إظهار النافذة المفتوحة</strong> – فتح النافذة <strong>المفتوحة</strong>.</span><span class="sxs-lookup"><span data-stu-id="fecd6-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="fecd6-119">توفر النافذة <strong>المفتوحة</strong> نافذة بحث يمكنك استخدامها للبحث عن كتل الإنشاء بسرعة.</span><span class="sxs-lookup"><span data-stu-id="fecd6-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
-<li><span data-ttu-id="fecd6-120"><strong>إظهار بيئة فارغة</strong> – فتح نافذة تصميم فارغة.</span><span class="sxs-lookup"><span data-stu-id="fecd6-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
+<li><span data-ttu-id="48b27-117"><strong>تحميل التقرير المحمل مؤخرًا</strong> – فتح التقرير الأخير الذي قمت بعرضه.</span><span class="sxs-lookup"><span data-stu-id="48b27-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
+<li><span data-ttu-id="48b27-118"><strong>إظهار النافذة المفتوحة</strong> – فتح النافذة <strong>المفتوحة</strong>.</span><span class="sxs-lookup"><span data-stu-id="48b27-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="48b27-119">توفر النافذة <strong>المفتوحة</strong> نافذة بحث يمكنك استخدامها للبحث عن كتل الإنشاء بسرعة.</span><span class="sxs-lookup"><span data-stu-id="48b27-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
+<li><span data-ttu-id="48b27-120"><strong>إظهار بيئة فارغة</strong> – فتح نافذة تصميم فارغة.</span><span class="sxs-lookup"><span data-stu-id="48b27-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="fecd6-121">عرض تأكيد قبل إنهاء مصمم التقارير</span><span class="sxs-lookup"><span data-stu-id="fecd6-121">Display confirmation before exiting Report Designer</span></span></td>
-<td><span data-ttu-id="fecd6-122">حدد ما إذا كنت تريد تلقي رسالة تحذير عند إنهاء التطبيق.</span><span class="sxs-lookup"><span data-stu-id="fecd6-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="fecd6-123">تساعد هذه الرسالة على ضمان عدم إنهاء البرنامج عن غير قصد.</span><span class="sxs-lookup"><span data-stu-id="fecd6-123">This message helps guarantee that you don&#39;t exit the program unintentionally.</span></span></td>
+<tr>
+<td><span data-ttu-id="48b27-121">عرض تأكيد قبل إنهاء مصمم التقارير</span><span class="sxs-lookup"><span data-stu-id="48b27-121">Display confirmation before exiting Report Designer</span></span></td>
+<td><span data-ttu-id="48b27-122">حدد ما إذا كنت تريد تلقي رسالة تحذير عند إنهاء التطبيق.</span><span class="sxs-lookup"><span data-stu-id="48b27-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="48b27-123">تساعد هذه الرسالة على ضمان عدم إنهاء البرنامج عن غير قصد.</span><span class="sxs-lookup"><span data-stu-id="48b27-123">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
 </tr>
-<tr class="odd">
-<td><span data-ttu-id="fecd6-124">تطبيق تسطير الخلايا تلقائيًا في رؤوس الأعمدة</span><span class="sxs-lookup"><span data-stu-id="fecd6-124">Automatically apply cell underline in column headers</span></span></td>
-<td><span data-ttu-id="fecd6-125">حدد إن كنت تريد إدراج تسطير في خلية رأس عمود جديد.</span><span class="sxs-lookup"><span data-stu-id="fecd6-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
+<tr>
+<td><span data-ttu-id="48b27-124">تطبيق تسطير الخلية في رؤوس الأعمدة تلقائياً</span><span class="sxs-lookup"><span data-stu-id="48b27-124">Automatically apply cell underline in column headers</span></span></td>
+<td><span data-ttu-id="48b27-125">حدد إن كنت تريد إدراج تسطير في خلية رأس عمود جديد.</span><span class="sxs-lookup"><span data-stu-id="48b27-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="fecd6-126">موقع ملفات أداة تقارير الإدارة</span><span class="sxs-lookup"><span data-stu-id="fecd6-126">Management Reporter files location</span></span></td>
-<td><span data-ttu-id="fecd6-127">حدد الموقع الافتراضي للملفات.</span><span class="sxs-lookup"><span data-stu-id="fecd6-127">Specify the default location for files.</span></span> <span data-ttu-id="fecd6-128">يستخدم التطبيق الموقع الافتراضي عندما تقوم بتصدير مجموعات كتل الإنشاء.</span><span class="sxs-lookup"><span data-stu-id="fecd6-128">The application uses the default location when you export building block groups.</span></span></td>
+<tr>
+<td><span data-ttu-id="48b27-126">موقع ملفات أداة تقارير الإدارة</span><span class="sxs-lookup"><span data-stu-id="48b27-126">Management Reporter files location</span></span></td>
+<td><span data-ttu-id="48b27-127">حدد الموقع الافتراضي للملفات.</span><span class="sxs-lookup"><span data-stu-id="48b27-127">Specify the default location for files.</span></span> <span data-ttu-id="48b27-128">يستخدم التطبيق الموقع الافتراضي عندما تقوم بتصدير مجموعات كتل الإنشاء.</span><span class="sxs-lookup"><span data-stu-id="48b27-128">The application uses the default location when you export building block groups.</span></span></td>
 </tr>
 </tbody>
 </table>
 
+## <a name="additional-resources"></a><span data-ttu-id="48b27-129">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="48b27-129">Additional resources</span></span>
 
-
-<a name="additional-resources"></a><span data-ttu-id="fecd6-129">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="fecd6-129">Additional resources</span></span>
---------
-
-[<span data-ttu-id="fecd6-130">التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="fecd6-130">Financial reporting</span></span>](financial-reporting-intro.md)
-
-
-
+[<span data-ttu-id="48b27-130">التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="48b27-130">Financial reporting</span></span>](financial-reporting-intro.md)
 
