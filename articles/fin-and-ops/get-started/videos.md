@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 476b53d7e5a5ee764c23034344f375fff5db47e8
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 08/08/2018
 
 #### <a name="data-integration"></a>تكامل البيانات
 - [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg) 
-- [مزامنة أمر عمل بين Dynamics 365 for Field Service وFinance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU&t=2s)
+- [مزامنة أمر عمل بين Dynamics 365 for Field Service وFinance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>إدارة البيانات
 - [استخدام وحدات البيانات وحزم البيانات في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
@@ -54,13 +54,14 @@ ms.lasthandoff: 08/08/2018
 - [تضمين PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 #### <a name="financial-management"></a>الإدارة المالية
-- [العثور على الإصدار الخاص بمصمم التقرير](https://www.youtube.com/embed/icfA5Q3kp4w)
+- [العثور على الإصدار الخاص بمصمم التقارير](https://www.youtube.com/embed/icfA5Q3kp4w)
 - [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
 - [بدء الاستخدام في ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
 - [استخدام Excel لتحليل التكلفة](https://youtu.be/-HKHYdClvx8)
 
 #### <a name="intelligence"></a>المعلومات
 - [إحضار قاعدة بياناتك الخاصة (BYOD) إلى Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [كيفية استخدام محتوى إدارة التكلفة في Power BI في Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services ‏(LCS)
 - [مكتبة الأصول في Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
@@ -93,6 +94,9 @@ ms.lasthandoff: 08/08/2018
 - [موازنة الدفعات](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [تحسينات عملية إصدار أمر إنتاج](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدُفعية](https://youtu.be/BtbuShkGj4I)
+
+#### <a name="tax-engine"></a>محرك الضريبة
+- [نظرة عامة على محرك الضريبة](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 #### <a name="warehouse-management"></a>إدارة المستودعات
 - [انتقاء الإنتاج للإصدار إلى المستودع في مجموعة](https://youtu.be/8urAJn50dQ8)

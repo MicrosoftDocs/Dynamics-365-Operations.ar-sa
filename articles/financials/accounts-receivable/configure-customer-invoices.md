@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
+ms.sourcegitcommit: bb1ee5809c30b4f4836fef02a0491b6885e61219
+ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/14/2018
 
 ---
 
@@ -36,9 +36,9 @@ ms.lasthandoff: 04/13/2018
 
 لمزيد من المعلومات، راجع: 
 
-[إنشاء فاتورة نص حر](tasks/create-free-text-invoice.md)
+[إنشاء فاتورة نص حر](../accounts-receivable/create-free-text-invoice-new.md)
 
-[إنشاء قالب نص حر](tasks/create-free-text-invoice-template.md)
+[إنشاء قالب نص حر](../accounts-receivable/create-free-text-invoice-template-new.md)
 
 [‏‫تعيين قالب فاتورة ذات نص حر إلى عميل](tasks/assign-free-text-invoice-template-customer.md)
 

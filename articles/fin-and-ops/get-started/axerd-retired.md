@@ -27,6 +27,8 @@ ms.lasthandoff: 08/08/2018
 
 # <a name="axerd-page-has-been-retired"></a>تم إيقاف العمل بصفحة AxErd
 
+[!include [banner](../includes/banner.md)]
+
 لقد كان اضطررنا، للأسف، إلى إيقاف العمل بصفحة AxErd، التي وفرت مخططات علاقة الكيان (ERD) للكثير من جداول Microsoft Dynamics AX 2012. لقد استطعنا ترحيل التعليمات البرمجية المصدر للمشروع وملفات HTML لصفحة ويب إلى مستودع GitHub: https://github.com/Microsoft/ax-2012-doc-tools
 
 توجد صفحات HTML في المستودع في [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)

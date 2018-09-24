@@ -25,6 +25,8 @@ ms.lasthandoff: 08/08/2018
 
 # <a name="new-or-updated-task-guides-december-2017"></a>دلائل المهام الجديدة أو المحدثة (ديسمبر 2017)
 
+[!include [banner](../includes/banner.md)]
+
 يسرد هذا الموضوع دليل المهام الجديد أو المحدث الذي تم إصداره لمكتبة Microsost الموحدة APQC (ديسمبر 2016- جميع اللغات) لـ Microsoft Dynamics 365 for Operations.
 
 

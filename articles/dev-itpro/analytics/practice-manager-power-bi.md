@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ ms.lasthandoff: 12/18/2017
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 
 يتم عرض محتوى Power BI **مدير الممارسة** في مساحة عمل **إدارة المشاريع**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
 
@@ -85,8 +84,7 @@ ms.lasthandoff: 12/18/2017
 
 | القياسات التجميعية الرئيسية | الحقل                                             | ‏‏الوصف |
 |---------------------------|---------------------------------------------------|-------------|
-| عدد المشاريع        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | عدد المشاريع المتوفرة |
-
+| عدد المشاريع        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | عدد المشاريع المتوفرة |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>الكيان: ProjectAccountingCube\_Forecasts
 **مصدر البيانات:** ProjTransBudget
@@ -107,20 +105,18 @@ ms.lasthandoff: 12/18/2017
 ### <a name="entity-projectaccountingcubeprojects"></a>الكيان: ProjectAccountingCube\_Projects
 **مصدر البيانات:** Project
 
-| القياسات التجميعية الرئيسية    | الحقل | ‏‏الوصف |
+| القياسات التجميعية الرئيسية    | الحقل | الوصف |
 |------------------------------|-------|-------------|
-| مؤشر أداء التكلفة       | ProjectAccountingCube\_Projects[القيمة المكتسبة] ÷ ProjectAccountingCube\_Projects[إجمالي التكلفة الفعلية للمهام المكتملة] | حساب إجمالي القيمة المكتسبة مقسومًا على إجمالي التكلفة الفعلية. |
-| مؤشر أداء الجدول   | ProjectAccountingCube\_Projects[القيمة المكتسبة] ÷ ProjectAccountingCube\_[إجمالي التكلفة المخططة للمهام المكتملة] | حساب إجمالي القيمة المكتسبة مقسومًا على إجمالي التكلفة المخططة. |
-| النسبة المئوية للعمل المكتمل | النسبة المئوية للعمل المكتمل = ProjectAccountingCube\_Projects[إجمالي التكلفة الفعلية للمهام المكتملة] ÷ (ProjectAccountingCube\_Projects[إجمالي التكلفة الفعلية للمهام المكتملة] + ProjectAccountingCube\_Projects[إجمالي التكلفة المخططة للمشروع] – ProjectAccountingCube\_Projects[إجمالي التكلفة المخططة للمهام المكتملة]) | إجمالي النسبة المئوية للعمل المكتمل استنادًا إلى إجمالي التكلفة الفعلية للمهام المكتملة والتكلفة المخططة للمشروع. |
-| نسبة الساعات الفعلية القابلة للفوترة  | ProjectAccountingCube\_Projects[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع] ÷ (ProjectAccountingCube\_Projects[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع] + ProjectAccountingCube\_Projects[إجمالي الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة]) | إجمالي الساعات الفعلية القابلة للفوترة، استنادًا إلى عدد الساعات المستخدمة والساعات المحسوبة على العميل. |
-| القيمة المكتسبة                 | ProjectAccountingCube\_Projects[إجمالي التكلفة المخططة للمشروع] × ProjectAccountingCube\_Projects[النسبة المئوية للعمل المكتمل] | إجمالي التكلفة المخططة مضروبًا في النسبة المئوية للعمل المكتمل. |
+| مؤشر أداء التكلفة       | ProjectAccountingCube\_Projects\[القيمة المكتسبة\] ÷ ProjectAccountingCube\_Projects\[إجمالي التكلفة الفعلية للمهام المكتملة\] | حساب إجمالي القيمة المكتسبة مقسومًا على إجمالي التكلفة الفعلية. |
+| مؤشر أداء الجدول   | ProjectAccountingCube\_Projects\[القيمة المكتسبة\] ÷ ProjectAccountingCube\_Projects\[إجمالي التكلفة المخططة للمهام المكتملة\] | حساب إجمالي القيمة المكتسبة مقسومًا على إجمالي التكلفة المخططة. |
+| النسبة المئوية للعمل المكتمل | النسبة المئوية للعمل المكتمل = ProjectAccountingCube\_Projects\[إجمالي التكلفة الفعلية للمهام المكتملة\] ÷ (ProjectAccountingCube\_Projects\[إجمالي التكلفة الفعلية للمهام المكتملة\] + ProjectAccountingCube\_Projects\[إجمالي التكلفة المخططة للمشروع\] – ProjectAccountingCube\_Projects\[إجمالي التكلفة المخططة للمهام المكتملة\]) | إجمالي النسبة المئوية للعمل المكتمل استنادًا إلى إجمالي التكلفة الفعلية للمهام المكتملة والتكلفة المخططة للمشروع. |
+| نسبة الساعات الفعلية القابلة للفوترة  | ProjectAccountingCube\_Projects\[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع\] ÷ (ProjectAccountingCube\_Projects\[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع\] + ProjectAccountingCube\_Projects\[إجمالي الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة\]) | إجمالي الساعات الفعلية القابلة للفوترة، استنادًا إلى عدد الساعات المستخدمة والساعات المحسوبة على العميل. |
+| القيمة المكتسبة                 | ProjectAccountingCube\_Projects\[إجمالي التكلفة المخططة للمشروع\] × ProjectAccountingCube\_Projects\[النسبة المئوية للعمل المكتمل\] | إجمالي التكلفة المخططة مضروبًا في النسبة المئوية للعمل المكتمل. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>الكيان: ProjectAccountingCube\_TotalEstimatedCosts 
 **مصدر البيانات:** ProjTable
 
-
-|    القياسات التجميعية الرئيسية    |        الحقل        |                                          ‏‏الوصف                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| القياسات التجميعية الرئيسية       | الحقل               | ‏‏الوصف |
+|---------------------------------|---------------------|-------------|
 | التكلفة المخططة للنشاط المكتمل | المجموع(TotalCostPrice) | إجمالي سعر التكلفة في تقديرات كافة أنواع حركات المشروع مع المهام المكتملة. |
-
 
