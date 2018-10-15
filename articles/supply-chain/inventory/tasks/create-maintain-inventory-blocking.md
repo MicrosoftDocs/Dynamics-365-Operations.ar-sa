@@ -1,29 +1,30 @@
----
+--- 
 title: "إنشاء وصيانة حظر المخزون"
 description: "يوضح هذا الإجراء كيفية منع حجز مخزون فعلي موجود بواسطة مستندات مصدر صادرة أخرى باستخدام حظر المخزون."
 author: perlynne
 manager: AnnBe
-ms.date: 12/02/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7272349cf16b9459823a752b8d3df915f42606ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 09789dc0b89f8bd36cca9b3e5be366bf17246243
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-and-maintain-inventory-blocking"></a>إنشاء وصيانة حظر المخزون
+# <a name="create-and-maintain-an-inventory-blocking"></a>إنشاء وصيانة حظر المخزون
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/29/2017
 1. انتقل إلى إدارة المخزون > المهام الدورية > حظر المخزون.
 2. انقر فوق "جديد".
 3. في الحقل "رقم الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-4. في القائمة، حدد الصنف الذي تريد اختياره.
+4. في القائمة، حدد الصنف الذي تريد اختياره. 
     * حدد رقم صنف مع المخزون الفعلي الموجود الذي تريد حظره. إذا كنت تستخدم USMF، فيمكنك تحديد الصنف M9201.  
 5. في حقل الكمية، أدخل رقمًا.
     * إذا كنت تستخدم الصنف M9201، فتحتاج إلى تحديد أقل من 200.  
@@ -55,4 +56,5 @@ ms.lasthandoff: 09/29/2017
 1. انقر فوق حذف.
 2. انقر فوق نعم.
 3. قم بإغلاق الصفحة.
+
 

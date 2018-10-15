@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 08/08/2018
 > * تم بدء تشغيل محرر سير العمل كتطبيق ClickOnce. تدعم Microsoft Edge و Internet Explorer فقط (على الإصدارات المعتمدة من Microsoft Windows) تطبيقات ClickOnce. يتطلب تطبيق ClickOnce محرر سير العمل نظام تشغيل متوافق 64 بت.
 > * لمعاينة ملفات PDF، ننصح باستخدام المستعرضات الحديثة مثل Microsoft Edge (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Google Chrome (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو الكمبيوتر اللوحي Google Nexus 10.
 >   متطلبات الشبكة
-> * تم تصميم Dynamics 365 for Talent للشبكات ذات زمن وصول من 250-300 مللي ثانية أو أقل. هذا هو زمن الوصول من عميل مستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Dynamics 365 for Talent. نوصي باختبار زمن وصول الشبكة على [www.azurespeed.com](http://www.azurespeed.com "اختبار زمن وصول Azure").
+> * تم تصميم Dynamics 365 for Talent للشبكات ذات زمن وصول من 250-300 مللي ثانية أو أقل. هذا هو زمن الوصول من عميل مستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Dynamics 365 for Talent. نوصي باختبار زمن وصول الشبكة على [www.azurespeed.com](https://www.azurespeed.com "اختبار زمن وصول Azure").
 > * تتوقف متطلبات عرض النطاق الترددي لـ Dynamics 365 for Talent على السيناريو لديك. تتطلب السيناريوهات الأكثر شيوعاً عرض نطاق ترددي لأكثر من 50 كيلو بايت في الثانية (KBps).
 > 
 > [!WARNING]

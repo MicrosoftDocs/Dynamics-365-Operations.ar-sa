@@ -1,28 +1,29 @@
 --- 
-title: "تصميم تكوينات التقارير الإلكترونية لإنشاء تقارير بتنسيق OpenXML"
+title: "التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML (نوفمبر 2016)"
 description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء تكوين تقارير إلكترونية جديد يحتوي على قالب لإنشاء المستندات الإلكترونية بتنسيق OPENXML."
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3e6b6b16f202af051ccff02051eb438ea49ff6da
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>تصميم تكوينات التقارير الإلكترونية لإنشاء تقارير بتنسيق OpenXML
+# <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML (نوفمبر 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,8 @@ ms.lasthandoff: 08/08/2018
 
 
 
-لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء موفر تكوين ووضع علامة عليه على أنه نشط". يجب أيضًا تنزيل الملف من نوع Microsoft Excel وحفظه، [قالب تقرير الدفع](https://go.microsoft.com/fwlink/?linkid=862266). 
+لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء موفر تكوين ووضع علامة عليه على أنه نشط". كما يجب أن يكون لديك ملف Excel سيتم استيراده عند إنشاء القالب. يمكن الوصول إلى هذا الملف من [قالب تقرير الدفع](https://go.microsoft.com/fwlink/?linkid=862266).
+
 
 ## <a name="upload-the-payments-data-model-configuration"></a>تحميل تكوين نموذج بيانات الدفعات
 1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.

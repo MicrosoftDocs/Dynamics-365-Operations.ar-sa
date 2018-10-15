@@ -1,28 +1,29 @@
 --- 
-title: "إنشاء رقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫"
+title: "إنشاء nomenclature لرقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫"
 description: "يوضح هذا الدليل كيفية إعداد nomenclature لرقم المنتج لمتغيرات منتجات معرّفة مسبقًا، وكيف يمكنك تعيينها إلى مجموعة أبعاد المنتجات المناسبة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: c423aab341ddad9383c4c95b9dbb63c9875c99ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4b49e96677b94d5f669ea41861f64e62e118938c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-a-product-number-for-predefined-product-variants"></a>إنشاء رقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫
+# <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>إنشاء nomenclature لرقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -33,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 1. انقر فوق "تعريف نموذج متغير المنتج"ز
 2. انقر فوق "كود nomenclature للمنتج‬".
 3. انقر فوق "جديد".
-4. في حقل "الاسم"، أدخل اسم كود nomenclature الذي يساعد على تحديد مجموعة أبعاد المنتجات الهدف، على سبيل المثال، ColorSize.
+4. في الحقل "الاسم"، أدخل اسم nomenclature يساعد على تحديد مجموعة أبعاد المنتجات الهدف، على سبيل المثال، ColorSize...
 5. في وصف الحقل، اكتب قيمة.
 6. وانقر فوق إضافة.
 7. انقر فوق "رقم أصل المنتج".

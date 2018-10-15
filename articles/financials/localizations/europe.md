@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-يتضمن هذا الموضوع معلومات وارتباطات إلى الموارد التي يمكنها أن تساعدك في إعداد Dynamics 365 for Finance and Operations للكيانات القانونية التي لها عنوان أساسي في البرازيل. 
+يتضمن هذا الموضوع معلومات وارتباطات إلى الموارد التي يمكنها أن تساعدك في إعداد Dynamics 365 for Finance and Operations للكيانات القانونية التي لها عنوان أساسي في أوروبا. 
 
 - [أصحاب السُلف‬](emea-advance-holders.md)
  - [حركات أصحاب السُلف](emea-advance-holders-transactions.md)
@@ -44,9 +44,7 @@ ms.lasthandoff: 08/13/2018
 - [تنسيقات ملفات طرق الدفع](emea-select-file-formats-for-the-method-of-payments.md)
 - [تكامل الخدمة المالية (ESR)](emea-fiscal-service-integration.md)
 - [التخلص من الأصول الثابتة لإستونيا وليتوانيا](emea-credit-note-reverse-fixed-asset-sale.md)
-- [إعادة تقييم العملة الأجنبية](emea-foreign-currency-revaluation.md)
 - [إنشاء مستند تحويل لتحويل مخزون داخلي](tasks/transfer-document-internal-inventory-transfer.md)
-- [إنشاء إقرار "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي"](tasks/eur-00002-eu-intrastat-declaration.md)
 - [إنشاء تقرير قائمة مبيعات الاتحاد الأوروبي](tasks/eur-00011-eu-sales-list-report.md)
 - ملفات ISO20022
   - [استيراد ملفات ISO20022](emea-ISO20022-file-formats.md)
@@ -61,6 +59,8 @@ ms.lasthandoff: 08/13/2018
   - [إنشاء وتصدير دفعات المورّد باستخدام تنسيق الدفع ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي](emea-intrastat.md)
   - [تحويل الحركات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي](tasks/transfer-transactions-intrastat.md)
+  - [تحديد عنوان الشحن لحركة مشتركة بين المجتمعات](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [إنشاء إقرار "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي"](tasks/eur-00002-eu-intrastat-declaration.md)
 - [تقارير دفتر يومية المخزون](emea-set-up-report-inventory-journal-names.md)
 - [المواعيد النهائية لإصدار الفواتير](emea-invoice-issue-deadline.md)
 - [معالجة الفاتورة](emea-invoice-processing.md)
@@ -82,8 +82,6 @@ ms.lasthandoff: 08/13/2018
 - [إعداد ‏‫تقارير قائمة مبيعات الاتحاد الأوروبي‬](tasks/eur-00011-eu-sales-list-reporting.md)
 - [إعداد تنسيق إيصال دفع لفواتير المشروع](tasks/set-up-payment-slip-format-project-invoices.md)
 - [إعداد الموقِّعين لنماذج الطباعة](emea-set-up-signers-for-printing-forms.md)
-- [إعداد مستندات التحويل لحركة البضائع داخل شركة](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [تحديد عنوان الشحن لحركة مشتركة بين المجتمعات](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [محاسبة Storno](emea-storno.md)
 - [التوجيهات الضريبية](emea-tax-directives.md)
 - [تحديث طريقة عرض المبالغ في التقارير والمستندات](emea-amount-printing-forms.md)

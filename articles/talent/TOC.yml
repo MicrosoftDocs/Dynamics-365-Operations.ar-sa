@@ -6,6 +6,14 @@
       items:
         - name: ما الجديد أو المتغير
           items:
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(1 أكتوبر 2018)
+              href: whats-new-talent-october-01.md
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(24 سبتمبر 2018)
+              href: whats-new-talent-september-24.md
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(17 سبتمبر 2018)
+              href: whats-new-talent-september-17-2018.md
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(10 سبتمبر 2018)
+              href: whats-new-talent-september-10.md
             - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (أغسطس 2018)
               href: whats-new-talent-august2018.md
             - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (يوليو 2018)
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: تطبيقات PowerApps مضمنة
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR وCommon Data Service للتطبيقات
+          href: CoreHREntities.md
         - name: الوصول إلى ميزات المعاينة
           href: access-preview-feature.md
         - name: تكوين تكامل كشف الرواتب بين Talent وDayforce
           href: configure-payroll-integration.md
+        - name: الحصول على دعم لـ Talent
+          href: talent-support.md
     - name: تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
       href: departments-jobs-positions.md
       items:
@@ -41,11 +53,16 @@
           href: formalize-business-processes.md
         - name: استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف
           href: workflow-manage-employee-information.md
-        - name: إدارة الإجازة والغياب
-          href: leave-absence-overview.md
+    - name: إدارة الإجازة والغياب
+      href: leave-absence-overview.md
+      items:
+        - name: زمن التوقف المستحق على أساس ساعات العمل
+          href: leave-accrue-hours-worked.md
+        - name: تقويمات أوقات العمل
+          href: working-time-calendars.md
     - name: تعيين الموظفين لمؤسستك
       items:
-        - name: جذب الميزات والقدرات
+        - name: ميزات وقدرات Attract
           href: attract-overview.md
         - name: إنشاء تجربة إعداد تفاعلية
           href: create-onboarding-experience.md
@@ -59,6 +76,8 @@
           href: create-variable-compensation-plans.md
         - name: تعويض العملية
           href: process-compensation.md
+        - name: إعداد مكونات وظيفة
+          href: create-job.md
     - name: تطوير الموظفين وتدريبهم
       items:
         - name: إدارة الأداء

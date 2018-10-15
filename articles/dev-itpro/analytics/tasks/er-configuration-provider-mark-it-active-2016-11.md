@@ -3,23 +3,24 @@ title: "إنشاء موفري التكوين ووضع علامة عليهم عل
 description: "تشرح الخطوات التالية كيف يمكن لمستخدم تم تعيينه إلى دور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء موفر تكوين لإنشاء التقارير الإلكترونية."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 37957f224cb57fd9f6c5014740bcea124a99a03a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>إنشاء موفري التكوين ووضع علامة عليهم على أنهم نشطاء
@@ -33,10 +34,11 @@ ms.lasthandoff: 08/08/2018
 1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
 2. انقر فوق "موفرو التكوين".
 3. انقر فوق "جديد".
-    * يكون سجل الموفر فريدًا من حيث الاسم وعنوان URL. راجع محتويات هذه الصفحة وتجاوز هذا الإجراء في حال وجود سجل خاص بشركة Litware, Inc. (`http://www.litware.com`) already exists.  
+    * يكون سجل الموفر فريدًا من حيث الاسم وعنوان URL. راجع محتويات هذه الصفحة وتجاوز هذا الإجراء في حال وجود سجل خاص بشركة Litware, Inc. (http://www.litware.com) الموجود بالفعل.  
 4. في الحقل "الاسم"، اكتب "Litware, Inc.".
     * .Litware, Inc  
-5. في حقل "عنوان الإنترنت"، اكتب `http://www.litware.com`.
+5. في حقل عنوان الإنترنت، اكتب "http://www.litware.com".
+    * http://www.litware.com  
 6. انقر فوق "حفظ".
 7. قم بإغلاق الصفحة.
 

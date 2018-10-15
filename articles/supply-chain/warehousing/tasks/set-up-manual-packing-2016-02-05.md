@@ -1,33 +1,34 @@
 --- 
-title: "إعداد التعبئة اليدوية (فبراير ومايو 2016 فقط)"
+title: "إعداد التعبئة اليدوية (فبراير 2016 & مايو 2016)"
 description: "تسمح لك عملية التعبئة بالتحقق من المنتجات داخل الحاويات وتعبئتها."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/04/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f992a6a1655cd868d79228c490d59b46bfae715
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-manual-packing-february--may-2016-only"></a>إعداد التعبئة اليدوية (فبراير ومايو 2016 فقط)
+# <a name="set-up-manual-packing-february-2016--may-2016"></a>إعداد التعبئة اليدوية (فبراير 2016 & مايو 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-تسمح لك عملية التعبئة بالتحقق من المنتجات داخل الحاويات وتعبئتها. في هذه العملية، يعمل عمال المستودع على انتقاء المنتجات من مواقع التخزين ونقلها إلى محطة تعبئة حيث يتحققون من كميات الأصناف وأنواعها ووضعها في حاويات مناسبة. عند وجود حاوية معبأة تمامًا، فإنه يمكنك إغلاقها ونقلها إلى مساحات خارجية وتكون المنتجات جاهزة للشحن. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
+تسمح لك عملية التعبئة بالتحقق من المنتجات داخل الحاويات وتعبئتها. في هذه العملية، يعمل عمال المستودع على انتقاء المنتجات من مواقع التخزين ونقلها إلى محطة تعبئة حيث يتحققون من كميات الأصناف وأنواعها ووضعها في حاويات مناسبة. عند وجود حاوية معبأة تمامًا، فإنه يمكنك إغلاقها ونقلها إلى مساحات خارجية وتكون المنتجات جاهزة للشحن. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF. يتم استخدام هذا الإجراء لإصدارات فبراير 2016 ومايو 2016 من Dynamics 365 for Operations فقط.
 
 
 ## <a name="set-up-location-profiles"></a>إعداد ملفات تعريف الموقع
