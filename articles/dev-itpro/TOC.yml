@@ -9,7 +9,7 @@
   items:
     - name: إنشاء بيانات العرض التوضيحي باستخدام حزم البيانات
       href: data-entities/generate-demo-data-packages.md
-- name: التطوير والتخصيص باستخدام Visual Studio
+- name: التطوير والتخصيص
   href: dev-tools/developer-home-page.md
   items:
     - name: مكدس التطبيق وبنية الخادم
@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: الأجهزة الظاهرية للتطوير والإنشاء التي لا تسمح للمسؤول بالوصول إلى الأسئلة الشائعة
           href: sysadmin/VMs-no-admin-access.md
-        - name: إعادة تسمية بيئة محلية للوصول إلى Visual Studio Team Services
+        - name: إعادة تسمية البيئات المحلية للوصول إلى Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: متطلبات نظام التطوير
           href: dev-tools/development-system-requirements.md
@@ -104,8 +104,10 @@
               href: dev-ref/xpp-language-reference.md
             - name: متغيرات X++ وأنواع البيانات
               href: dev-ref/xpp-variables-data-types.md
-            - name: عبارات X++والحلقات ومعالجة الاستثناء
+            - name: عبارات X++ والحلقات ومعالجة الاستثناء
               href: dev-ref/xpp-statements-loops.md
+            - name: استثناء X++ لخطأ الاتصال بـ SQL
+              href: dev-ref/sql-connection-error.md
             - name: معاملات X++
               href: dev-ref/xpp-operators.md
             - name: أسبقية معامل X++
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: إصدار تغييرات قابلية التوسعة 8.0.3
               href: extensibility/extensibility-changes-803.md
+            - name: إصدار تغييرات قابلية التوسعة 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: إصدار تغييرات قابلية التوسعة 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: القواعد الأساسية
           items:
             - name: تخصيصات متداخلة
@@ -916,6 +922,8 @@
           href: gdpr/gdpr-lcs.md
     - name: مساحة عمل قائمة التحقق من صحة البيانات
       href: user-interface/data-validation-workspace.md
+    - name: أوصاف أخطاء إدارة البيانات
+      href: data-entities/dm-error-descriptions.md
 - name: التسليم المستمر
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: ترقية تخطيط الموازنة
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: ترحيل البيانات من AX 2009 إلى Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: ترحيل AX 2009 - تثبيت أداة ترحيل البيانات
+          href: migration-upgrade/install-dmt.md
+        - name: ترحيل AX 2009 - إنشاء المخططات
+          href: migration-upgrade/generate-maps.md
+        - name: ترحيل AX 2009 - إنشاء القوالب
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: ترحيل AX 2009 - إنشاء مجموعات الترحيل
+          href: migration-upgrade/create-definition.md
+        - name: ترحيل AX 2009 - تصدير الحزم
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: ترحيل AX 2009 - استيراد الحزم
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: ترحيل الكود والترقية
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: الإعداد لترحيل الكود
           href: migration-upgrade/prepare-migration.md
-        - name: تكوين تعيين Visual Studio Team Services
+        - name: تكوين تعيين Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: تقسيم النموذج
           href: dev-tools/model-split.md
@@ -1124,6 +1147,8 @@
       items:
         - name: عملية النقل إلى التحديث الأخير
           href: migration-upgrade/upgrade-latest-update.md
+        - name: تحديث البيئات من الإصدار 8.0 إلى 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: سياسة دورة حياة البرامج والإصدارات على السحابة
           href: migration-upgrade/versions-update-policy.md
         - name: تطبيق التحديث الأخير للنظام الأساسي للبيئات
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: العمل باستخدام مخططات الأنشطة في مكتبات BPM
       href: lifecycle-services/using-activity-diagrams.md
-    - name: مزامنة مكتبات BPM مع Visual Studio Team Services
+    - name: مزامنة مكتبات BPM مع Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: إنشاء مكتبات اختبارات قبول المستخدم باستخدام دلائل المهام وBPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: مكتبة الأصول
       href: lifecycle-services/asset-library.md
+    - name: أدوات استكشاف الأخطاء وإصلاحها باستخدام الأدوات في LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: كتاب تعليمات الاستعلام
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:

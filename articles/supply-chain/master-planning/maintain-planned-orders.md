@@ -1,9 +1,9 @@
 ---
 title: "الاحتفاظ بالأوامر المخططة"
-description: "تقدم هذه المقالة معلومات حول الأوامر المخططة. وهي تصف كيف يمكنك تحديث حالة الأوامر المخططة وتأكيدها وتصفية الأوامر المخططة ذات الحالة نفسها لأمر مخطط محدد."
+description: "تقدم هذا الموضوع معلومات حول الأوامر المخططة. وهي تصف كيف يمكنك تحديث حالة الأوامر المخططة وتأكيدها وتصفية الأوامر المخططة ذات الحالة نفسها لأمر مخطط محدد."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,37 +20,37 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 1c764bb541b371cb2778040e7498c347ac9d7dfe
+ms.sourcegitcommit: 6db29d422e7dfd7b2481b4fcbc404278e37511d1
+ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 10/08/2018
 
 ---
 
-# <a name="maintain-planned-orders"></a><span data-ttu-id="1d449-104">الاحتفاظ بالأوامر المخططة</span><span class="sxs-lookup"><span data-stu-id="1d449-104">Maintain planned orders</span></span>
+# <a name="maintain-planned-orders"></a><span data-ttu-id="1966d-104">الاحتفاظ بالأوامر المخططة</span><span class="sxs-lookup"><span data-stu-id="1966d-104">Maintain planned orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1d449-105">تقدم هذه المقالة معلومات حول الأوامر المخططة.</span><span class="sxs-lookup"><span data-stu-id="1d449-105">This article provides information about how to manage planned orders.</span></span> <span data-ttu-id="1d449-106">وهي تصف كيف يمكنك تحديث حالة الأوامر المخططة وتأكيدها وتصفية الأوامر المخططة ذات الحالة نفسها لأمر مخطط محدد.</span><span class="sxs-lookup"><span data-stu-id="1d449-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
+<span data-ttu-id="1966d-105">تقدم هذا الموضوع معلومات حول الأوامر المخططة.</span><span class="sxs-lookup"><span data-stu-id="1966d-105">This topic provides information about how to manage planned orders.</span></span> <span data-ttu-id="1966d-106">وهي تصف كيف يمكنك تحديث حالة الأوامر المخططة وتأكيدها وتصفية الأوامر المخططة ذات الحالة نفسها لأمر مخطط محدد.</span><span class="sxs-lookup"><span data-stu-id="1966d-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-<span data-ttu-id="1d449-107">يمكنك إدارة الأوامر المخططة من مساحة عمل **التخطيط الرئيسي**، أو قائمة **الأمر المخطط**، أو قوائم **أوامر الإنتاج المخططة**، و**أوامر الشراء المخططة**، و**التحويل المخطط**.</span><span class="sxs-lookup"><span data-stu-id="1d449-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="1d449-108">يمكنك استخدام حقل **الحالة** للمساعدة في تتبع تقدمك.</span><span class="sxs-lookup"><span data-stu-id="1d449-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="1d449-109">يتم استخدام القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="1d449-109">The following values are used:</span></span>
+<span data-ttu-id="1966d-107">يمكنك إدارة الأوامر المخططة من مساحة عمل **التخطيط الرئيسي**، أو قائمة **الأمر المخطط**، أو قوائم **أوامر الإنتاج المخططة**، و**أوامر الشراء المخططة**، و**التحويل المخطط**.</span><span class="sxs-lookup"><span data-stu-id="1966d-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="1966d-108">يمكنك استخدام حقل **الحالة** للمساعدة في تتبع تقدمك.</span><span class="sxs-lookup"><span data-stu-id="1966d-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="1966d-109">يتم استخدام القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="1966d-109">The following values are used:</span></span>
 
--   <span data-ttu-id="1d449-110">عندما يُنشئ التخطيط الرئيسي أوامر مخططة، تكون حالة الأوامر المخططة **غير معالجة**.</span><span class="sxs-lookup"><span data-stu-id="1d449-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
--   <span data-ttu-id="1d449-111">وإذا قررت عدم تأكيد أمر مخطط، فيمكنك منحه الحالة **مكتمل**.</span><span class="sxs-lookup"><span data-stu-id="1d449-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
--   <span data-ttu-id="1d449-112">وعندما تقرر عدم تأكيد أمر مخطط، فيمكنك منحه الحالة **معتمد**.</span><span class="sxs-lookup"><span data-stu-id="1d449-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="1d449-113">وتشير هذه الحالة إلى أنك تعتمد تأكيد الأمر المخطط؛ ولكن لم يتم تأكيده بعد.</span><span class="sxs-lookup"><span data-stu-id="1d449-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
+-   <span data-ttu-id="1966d-110">عندما يُنشئ التخطيط الرئيسي أوامر مخططة، تكون حالة الأوامر المخططة **غير معالجة**.</span><span class="sxs-lookup"><span data-stu-id="1966d-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="1966d-111">وإذا قررت عدم تأكيد أمر مخطط، فيمكنك منحه الحالة **مكتمل**.</span><span class="sxs-lookup"><span data-stu-id="1966d-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="1966d-112">وعندما تقرر عدم تأكيد أمر مخطط، فيمكنك منحه الحالة **معتمد**.</span><span class="sxs-lookup"><span data-stu-id="1966d-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="1966d-113">وتشير هذه الحالة إلى أنك تعتمد تأكيد الأمر المخطط؛ ولكن لم يتم تأكيده بعد.</span><span class="sxs-lookup"><span data-stu-id="1966d-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
 
-<span data-ttu-id="1d449-114">**ملاحظة:** يتم تحويل الأمر المخطط المعتمد بحالته الحالية لحساب التخططي الرئيسي التالي.</span><span class="sxs-lookup"><span data-stu-id="1d449-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="1d449-115">يمكنك تأكيد الأوامر المخططة بالنقر فوق **تأكيد**.</span><span class="sxs-lookup"><span data-stu-id="1d449-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="1d449-116">يمكنك تأكيد الأوامر المخططة التالية:</span><span class="sxs-lookup"><span data-stu-id="1d449-116">You can firm the following planned orders:</span></span>
+<span data-ttu-id="1966d-114">**ملاحظة:** يتم تحويل الأمر المخطط المعتمد بحالته الحالية لحساب التخططي الرئيسي التالي.</span><span class="sxs-lookup"><span data-stu-id="1966d-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="1966d-115">يمكنك تأكيد الأوامر المخططة بالنقر فوق **تأكيد**.</span><span class="sxs-lookup"><span data-stu-id="1966d-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="1966d-116">يمكنك تأكيد الأوامر المخططة التالية:</span><span class="sxs-lookup"><span data-stu-id="1966d-116">You can firm the following planned orders:</span></span>
 
--   <span data-ttu-id="1d449-117">الأمر المخطط الذي تم تحديده.</span><span class="sxs-lookup"><span data-stu-id="1d449-117">The planned order that is selected.</span></span>
--   <span data-ttu-id="1d449-118">الأوامر المخططة المتعددة.</span><span class="sxs-lookup"><span data-stu-id="1d449-118">Multiple planned orders.</span></span>
--   <span data-ttu-id="1d449-119">الأوامر المخططة التي يتم إنشاؤها بواسطة عملية تحديد إجمالي المكونات المطلوبة من صفحة **تحديد إجمالي المكونات المطلوبة‬**.</span><span class="sxs-lookup"><span data-stu-id="1d449-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="1d449-120">انقر فوق **الأوامر المخططة**، وحدد الأمر المخطط، ثم انقر فوق **تأكيد**.</span><span class="sxs-lookup"><span data-stu-id="1d449-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
+-   <span data-ttu-id="1966d-117">الأمر المخطط الذي تم تحديده.</span><span class="sxs-lookup"><span data-stu-id="1966d-117">The planned order that is selected.</span></span>
+-   <span data-ttu-id="1966d-118">الأوامر المخططة المتعددة.</span><span class="sxs-lookup"><span data-stu-id="1966d-118">Multiple planned orders.</span></span>
+-   <span data-ttu-id="1966d-119">الأوامر المخططة التي يتم إنشاؤها بواسطة عملية تحديد إجمالي المكونات المطلوبة من صفحة **تحديد إجمالي المكونات المطلوبة‬**.</span><span class="sxs-lookup"><span data-stu-id="1966d-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="1966d-120">انقر فوق **الأوامر المخططة**، وحدد الأمر المخطط، ثم انقر فوق **تأكيد**.</span><span class="sxs-lookup"><span data-stu-id="1966d-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
 
-<span data-ttu-id="1d449-121">عند تأكيد أمر مخطط، يتم نقله إلى مقطع الأوامر في الوحدة النمطية ذات الصلة.</span><span class="sxs-lookup"><span data-stu-id="1d449-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> <span data-ttu-id="1d449-122">**ملاحظة:** يمكنك النقر بزر الماوس الأيمن فوق أمر مخطط بحالة معينة والتصفية للحصول على الأوامر المخططة الأخرى بنفس الحالة.</span><span class="sxs-lookup"><span data-stu-id="1d449-122">**Note:** You can right-click a planned order that has a particular status and filter for other planned orders that have the same status.</span></span> <span data-ttu-id="1d449-123">هذه الوظيفة مفيدة، على سبيل المثال، لتصفية كافة الأوامر المخططة التي بالحالة **معتمدة**، بحيث يمكن تأكيدها بعد ذلك.</span><span class="sxs-lookup"><span data-stu-id="1d449-123">This functionality is useful if, for example, you want to filter for all planned orders that have a status of **Approved**, so that you can then firm them.</span></span>
+<span data-ttu-id="1966d-121">عند تأكيد أمر مخطط، يتم نقله إلى مقطع الأوامر في الوحدة النمطية ذات الصلة.</span><span class="sxs-lookup"><span data-stu-id="1966d-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> 
 
-<a name="additional-resources"></a><span data-ttu-id="1d449-124">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="1d449-124">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="1966d-122">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="1966d-122">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="1d449-125">الخطط الرئيسية</span><span class="sxs-lookup"><span data-stu-id="1d449-125">Master plans</span></span>](master-plans.md)
+[<span data-ttu-id="1966d-123">الخطط الرئيسية</span><span class="sxs-lookup"><span data-stu-id="1966d-123">Master plans</span></span>](master-plans.md)
 
 
 

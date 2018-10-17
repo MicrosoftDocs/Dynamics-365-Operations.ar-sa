@@ -38,12 +38,18 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: سياسة دورة حياة البرامج والإصدارات المحلية
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: نهاية الدعم السائد لـ Microsoft Dynamics AX 2009 و2012
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: ميزات AX 2012 التي تم تأجيلها
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: ميزات لم يتم تنفيذها في عمليات النشر المحلي
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations إصدار 8.1 (أكتوبر 2018)
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20 (سبتمبر 2018)
+              href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations إصدار 8.0 (أبريل 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (مارس 2018)
@@ -456,6 +462,10 @@
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: إعداد سياسات فواتير المورِّدين
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: تسجيل فاتورة المورّد ومطابقتها بالكمية المستلمة
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: نظرة عامة على الدفع الإيجابي
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: إعداد ملفات الدفع الإيجابي وإنشاؤها
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: فائدة العملية
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: إعداد سياسات فواتير المورِّدين
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: تسجيل فاتورة المورّد ومطابقتها بالكمية المستلمة
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: إنشاء فاتورة عميل
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: إيداع مدفوعات العميل
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: إعداد وإنشاء معلومات تقادم الحسابات المدينة
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: نسخ العملاء باستخدام تسلسلات رقمية مشتركة
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: سير عمل العميل
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: الدفعات والتسويات
@@ -1543,8 +1551,6 @@
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: التخلص من الأصول الثابتة لإستونيا وليتوانيا
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: إعادة تقييم العملة الأجنبية
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: إنشاء مستند تحويل لتحويل مخزون داخلي
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: إنشاء تقرير قائمة مبيعات الاتحاد الأوروبي
@@ -1994,7 +2000,7 @@
               href: ../financials/localizations/emea-lva-tax-natural-resources.md
             - name: تفاصيل كشف حساب ضريبة القيمة المضافة
               href: ../financials/localizations/emea-lva-vat-statement-details.md
-        - name: لتوانيا
+        - name: ليتوانيا
           href: ../financials/localizations/lithuania.md
           items:
             - name: كشف إصلاح الأصول الثابتة
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: توسيع وظائف التخلص من الأصول الثابتة
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: إعادة تقييم العملة الأجنبية
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: العبوات القابلة للإرجاع​
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: تقارير ضريبة المبيعات
@@ -2114,6 +2122,42 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: كشف الأرصدة والدوران​
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: روسيا
+          href: ../financials/localizations/russia.md
+          items:
+            - name: أصحاب السُلف‬
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: إنشاء صاحب سلفة
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: العمليات اليومية لأصحاب السلف
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: الأصول الثابتة
+              items:
+                - name: يتم الآن الحصول على الأصول الثابتة ووضعها في العملية
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: إنشاء وترحيل دفاتر يومية الموازنة لعمليات الاستحواذ على الأصول الثابتة
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: جرد الأصول الثابتة​
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: إعادة تقييم عملة الأصول الثابتة
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: فك التجميع الجزئي للأصول الثابتة (التصفية)
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: إعداد ومعالجة أوامر الدفع
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: إعداد أسعار الصرف لحركات العملة
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: معاينة حركات دفتر الأستاذ
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: إعداد المسؤولين
+              href: ../financials/localizations/rus-officials.md
+            - name: إعداد الحسابات البنكية
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: ضريبة القيمة المضافة (VAT) لوكلاء الضرائب
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: إعداد التحكم في الأبعاد للتسويات
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: السعودية
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,6 +2177,8 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: خيارات الكمبيالة​
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: حساب تواريخ الاستحقاق والإبلاغ في متوسط فترة المدفوعات
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: ضريبة مبيعات مشروطة
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: فوترة الائتمان
@@ -2299,7 +2345,7 @@
           items:
             - name: نظرة عامة حول إدارة الأداء
               href: ../talent/performance-management-overview.md
-            - name: محاذاة احتياجات العمل مع مهارات العاملين
+            - name: مواءمة احتياجات العمل مع مهارات العاملين
               href: ../talent/skills.md
             - name: إعداد الدورات التدريبية
               href: ../talent/courses.md
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: تعديل التنبؤ بالطلب يدوياً
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: 'Dynamics 365 لتطبيق Unified Operations mobile '
+    - name: تطبيق Dynamics 365 for Unified Operations Mobile
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: مساحات العمل المحمولة المتاحة
