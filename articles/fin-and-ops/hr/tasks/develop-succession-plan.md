@@ -1,32 +1,33 @@
 --- 
-title: "تطوير خطة تتابع"
+title: " تطوير خطة تتابع "
 description: "كلما كبرت مؤسستك، وقمت بمراعاة التخطيط لتعاقب الموظفين، قد تحتاج للبحث عن شخص ما لديه مهارات مماثلة لشخص آخر."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmSkillMapping
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 006f3d4b30711651e389dd76f871de1214c158d1
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 63999252fa00ba474d1e40f696029973f746ba2c
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="develop-a-succession-plan"></a>تطوير خطة تتابع
+# <a name="develop-succession-plan"></a> تطوير خطة تتابع 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-كلما كبرت مؤسستك، وقمت بمراعاة التخطيط لتعاقب الموظفين، قد تحتاج للبحث عن شخص ما لديه مهارات مماثلة لشخص آخر.  يسمح لك أيضًا تعيين المهارة بتحليل الموظفين الحاليين ومقدمي الطلبات لمعرفة ما إذا كان هناك تطابق مع مجموعة مهارات موظف قيّم. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+كلما كبرت مؤسستك، وقمت بمراعاة التخطيط لتعاقب الموظفين، قد تحتاج للبحث عن شخص ما لديه مهارات مماثلة لشخص آخر.  يسمح لك تعيين المهارة بتحليل الموظفين الحاليين ومقدمي الطلبات لمعرفة ما إذا كان هناك تطابق مع مجموعة مهارات موظف قيّم. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 
 1. انتقل إلى الموارد البشرية > الاختصاصات > تحليل المهارات > ملفات تعريف تعيين المهارة.
 2. انقر فوق "جديد".
@@ -36,7 +37,7 @@ ms.lasthandoff: 04/13/2018
 6. انقر فوق "استرداد ملف التعريف"
 7. انقر فوق "الشخص‬".
 8. في الحقل "الشخص"، اكتب اسمًا أو حدد القائمة المنسدلة.  على سبيل المثال: كاسي هيكس.
-9. انقر فوق "موافق".
+9. انقر فوق موافق.
 10. وسّع علامة التبويب السريعة "الشهادات" لعرض أو تحرير الشهادات المدرجة في تعيين المهارة.
 11. وسّع علامة التبويب السريعة "المهارات" لعرض أو تحرير المهارات التي يجب تضمينها.
 12. في القائمة، قم بوضع علامة للصف الأول.  على سبيل المثال: المحاسبة.

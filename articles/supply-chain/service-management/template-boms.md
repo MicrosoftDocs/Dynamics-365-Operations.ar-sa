@@ -3,7 +3,7 @@ title: "قوائم مكونات الصنف القالب"
 description: "توفر قوائم مكونات الصنف القالب (BOM) قائمة معيارية من مكوِّنات كائنات الخدمة التي يتم تقديمها بصورة منتظمة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/01/2018
+ms.date: 09/19/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6e3a16b9938f6d4222e0a95078356f457e71a1bb
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: f9c61ecd79f38301f46e3c21a33ec2801f33d19f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/20/2018
 
 ---
 
@@ -105,7 +105,7 @@ ms.lasthandoff: 05/08/2018
 
 
 > [!NOTE]
-> <P>يتم استخدام التسلسلات الرقمية في Microsoft Dynamics AX لتخصيص المعرفات للسجلات التي تحتاج إليها. قبل تعيين تسلسل أرقام لقائمة مكونات الصنف القالب أو رقم بند سجل قائمة مكونات الصنف، يجب إعداد أكواد التسلسلات الرقمية.</P>
+> <P>يتم استخدام التسلسلات الرقمية لتخصيص المعرفات للسجلات التي تحتاج إليها. قبل تعيين تسلسل أرقام لقائمة مكونات الصنف القالب أو رقم بند سجل قائمة مكونات الصنف، يجب إعداد أكواد التسلسلات الرقمية.</P>
 
 
 ## <a name="set-up-number-sequences"></a>إعداد التسلسلات الرقمية

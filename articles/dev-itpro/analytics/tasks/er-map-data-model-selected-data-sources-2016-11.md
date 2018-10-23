@@ -1,32 +1,33 @@
 --- 
-title: "تعيين نماذج بيانات التقارير الإلكترونية إلى مصادر بيانات محددة"
-description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين نموذج بيانات تقارير إلكترونية إلى مصادر بيانات Dynamics 365 for Finance and Operations, Enterprise edition (نوفمبر 2016)."
+title: "نموذج بيانات خريطة الإبلاغ الإلكتروني لمصادر البيانات المحددة"
+description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين نموذج بيانات تقارير إلكترونية إلى مصادر بيانات Dynamics 365 for Finance and Operations, Enterprise edition."
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: f347c19d940330c830509be4d11127f9e3324deb
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 249bf3f3806ed43eccf39086bdf9697a3e879c27
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="map-electronic-reporting-er-data-models-to-selected-data-sources"></a>تعيين نماذج بيانات التقارير الإلكترونية إلى مصادر بيانات محددة
+# <a name="er-map-data-model-to-selected-data-sources"></a>نموذج بيانات خريطة الإبلاغ الإلكتروني لمصادر البيانات المحددة
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين نموذج بيانات تقارير إلكترونية إلى مصادر بيانات Dynamics 365 for Finance and Operations. سيتم استخدام تعيين هذا المخطط لاحقاً كمصدر بيانات في تنسيق تكوين سيتم استخدامه لإدارة مستندات الدفع الإلكتروني. في هذا المثال، تقوم بتعيين نموذج بيانات لشركة عينة، وهي .Litware, Inc لمصادر البيانات. ولإكمال هذه الخطوات، عليك أولاً إكمال الخطوات المضمنة في الإجراء "تحديد مصادر البيانات لتعيين النموذج".
+تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين نموذج بيانات تقارير إلكترونية إلى مصادر بيانات Dynamics 365 for Finance and Operations, Enterprise edition. سيتم استخدام تعيين هذا المخطط لاحقاً كمصدر بيانات في تنسيق تكوين سيتم استخدامه لإدارة مستندات الدفع الإلكتروني. في هذا المثال، تقوم بتعيين نموذج بيانات لشركة عينة، وهي .Litware, Inc لمصادر البيانات. ولإكمال هذه الخطوات، عليك أولاً إكمال الخطوات المضمنة في الإجراء "تحديد مصادر البيانات لتعيين النموذج".
 
 
 ## <a name="open-er-configurations-tree"></a>فتح شجرة تكوينات التقرير الإلكتروني

@@ -3,26 +3,27 @@ title: "إعداد طريقة دفع للدين المباشر ISO20022"
 description: "يوضح هذا الإجراء كيفية إعداد طريقة الدفع الخاصة بالعميل للدين المباشر ISO20022 أو أي نوع دفع آخر باستخدام التقارير الإلكترونية."
 author: mrolecki
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymMode
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 3a884837ab0b5a1f4211532969619b54206bbef4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 953a3cffc356ab44163944318e7e7d542a113112
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-method-of-payment-for-iso20022-direct-debit"></a>إعداد طريقة دفع للدين المباشر ISO20022
+# <a name="setup-method-of-payment-for-iso20022-direct-debit"></a>إعداد طريقة دفع للدين المباشر ISO20022
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

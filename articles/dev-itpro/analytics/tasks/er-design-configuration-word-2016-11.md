@@ -3,23 +3,24 @@ title: "تصميم تكوينات التقارير الإلكترونية لإن
 description: "تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيقات التقارير الإلكترونية لإنشاء تقارير كملفات Microsoft Word."
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>تصميم تكوينات التقارير الإلكترونية لإنشاء تقارير بتنسيق Word
@@ -30,9 +31,9 @@ ms.lasthandoff: 08/08/2018
 
 لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات الموضحة في دليل المهمة "إنشاء تكوين التقارير الإلكترونية لإنشاء التقارير بتنسيق OPENXML‬". بشكل مسبق، يجب أيضًا تنزيل وحفظ القوالب التالية محليًا للتقرير النموذجي:
 
-[قالب تقرير الدفع](https://go.microsoft.com/fwlink/?linkid=862266)
+- [قالب تقرير الدفع](https://go.microsoft.com/fwlink/?linkid=862266)
+- [القالب المضمن لتقرير الدفع](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[القالب المضمن لتقرير الدفع](https://go.microsoft.com/fwlink/?linkid=862266)
 
 يتم استخدام هذا الإجراء لميزة تمت إضافتها في Microsoft Dynamics 365 for Operations، الإصدار 1611.
 
@@ -49,7 +50,7 @@ ms.lasthandoff: 08/08/2018
 ## <a name="replace-the-excel-template-with-the-word-template"></a>استبدال قالب Excel بقالب Word
     * في الوقت الحالي، يتم استخدام مستند Excel كقالب لإنشاء المخرجات بتنسيق OPENXML. سوف نستورد قالب التقرير بتنسيق Word.  
 1. انقر فوق "المرفقات".
-    * استبدل قالب Excel الموجود بقالب Word الذي قمت بتنزيله في وقت سابق، قالب تقرير الدفع. لاحظ أن هذا القالب يحتوي فقط على تخطيط المستند الذي نرغب في إنشائه كمخرجات تقارير إلكترونية.  
+    * استبدل قالب Excel الموجود بقالب Word الذي قمت بتنزيله في وقت سابق، SampleVendPaymDocReport.docx. لاحظ أن هذا القالب يحتوي فقط على تخطيط المستند الذي نرغب في إنشائه كمخرجات تقارير إلكترونية.  
 2. انقر فوق حذف.
 3. انقر فوق نعم.
 4. انقر فوق "جديد".

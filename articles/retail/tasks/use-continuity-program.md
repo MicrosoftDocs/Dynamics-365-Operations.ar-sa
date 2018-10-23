@@ -1,31 +1,32 @@
 --- 
-title: "بيع برامج الاستمرارية ومعالجة أوامر المبيعات ذات الصلة"
+title: "استخدام برامج الاستمرارية"
 description: "يتناول هذا الإجراء بيع برنامج استمرارية ومعالجة أوامر المبيعات ذات الصلة."
 author: scott-tucker
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 5fe1823c9b684bbc5ac5bd0871cc5c0a0e6ce678
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 45bd4a3cc9f9b03c713d33638d6dc93aa696c581
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="selling-continuity-programs-and-processing-related-sales-orders"></a>بيع برامج الاستمرارية ومعالجة أوامر المبيعات ذات الصلة
+# <a name="using-continuity-program"></a>استخدام برامج الاستمرارية
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 يتناول هذا الإجراء بيع برنامج استمرارية ومعالجة أوامر المبيعات ذات الصلة. لإكمال هذا الإجراء، يجب إعداد المستخدم كمستخدم مركز اتصال. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 
@@ -58,7 +59,7 @@ ms.lasthandoff: 08/08/2018
 19. في حقل "صنف الاستمرارية"، اكتب "88000"، ثم اضغط المفتاح Tab.
     * الصنف "88000'" عبارة عن صنف استمرارية في بيانات العرض التوضيحي USRT.‬  
 20. في الحقل "أمر المبيعات"، أدخل قيمة أو حددها.
-    * أدخل رقم أمر المبيعات الذي قمت بتسجيله سابقًا في الإجراء. سيؤدي ذلك إلى إبقاء وقت المعالجة بالحد الأدنى لهذا الإجراء. الحقل "أمر المبيعات" اختياري--يمكنك معالجة جميع الأوامر لأي برنامج واحد.  
+    * أدخل رقم أمر المبيعات الذي قمت بتسجيله سابقًا في الإجراء. سيؤدي ذلك إلى إبقاء وقت المعالجة بالحد الأدنى لهذا الإجراء. الحقل "أمر المبيعات" اختياري--ستتمكن من معالجة كافة الأوامر في أي برنامج واحد.  
 21. انقر فوق "موافق".
 
 

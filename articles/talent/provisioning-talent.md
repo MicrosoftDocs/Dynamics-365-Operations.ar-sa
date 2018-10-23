@@ -3,13 +3,13 @@ title: "توفير بيئة Talent"
 description: "يوضح لك هذا الموضوع عملية توفير بيئة جديدة لـ Microsoft Dynamics 365 for Talent."
 author: rschloma
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 09/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: josaw
 ms.search.scope: Talent
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 2fc4119f3b33aa583274f4d823e296752cdde41d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 # <a name="provision-talent"></a>توفير بيئة Talent
@@ -30,7 +30,7 @@ ms.lasthandoff: 08/08/2018
 
 يوضح لك هذا الموضوع عملية توفير بيئة إنتاج جديدة لـ Microsoft Dynamics 365 for Talent. يفترض هذا الموضوع أنك قمت بشراء Talent من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). إذا كان لديك ترخيص Microsoft Dynamics 365 يشمل خطة خدمة Talent، ولا يمكنك إتمام الخطوات المذكورة في هذا الموضوع، فاتصل بالدعم.
 
-للبدء، يجب على المسؤول العمومي تسجيل الدخول إلى [Microsoft Dynamics Lifecycle Services](http://lcs.dynamics.com) (LCS) وإنشاء مشروع Talent جديدة. ما لم يكن إصدار ترخيص يمنعك من توفير Talent، فلا يلزم طلب مساعدة من الدعم أو ممثلي هندسة خدمة Dynamics (DSE).
+للبدء، يجب على المسؤول العمومي تسجيل الدخول إلى [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) وإنشاء مشروع Talent جديدة. ما لم يكن إصدار ترخيص يمنعك من توفير Talent، فلا يلزم طلب مساعدة من الدعم أو ممثلي هندسة خدمة Dynamics (DSE).
 
 ## <a name="create-an-lcs-project"></a>إنشاء مشروع LCS
 لاستخدام LCS لإدارة بيئات Talent، يجب أولاً إنشاء مشروع LCS.
@@ -48,7 +48,6 @@ ms.lasthandoff: 08/08/2018
 
 1. في مشروع LCS، حدد تجانب **"إدارة تطبيق Talent**.
 2. يتم توفير Talent دوماً في بيئة Microsoft PowerApps، لتمكين تكامل PowerApps وقابليته للتوسع. اقرأ قسم "تحديد بيئة PowerApps" في هذا الموضوع قبل المتابعة. 
-3. إذا لم يكن لديك بيئة PowerApps، فاتبع الخطوات الموجودة في قسم "إنشاء بيئة PowerApps جديدة (عند اللزوم)" في هذا الموضوع قبل المتابعة.
 
     > [!NOTE]
     > لعرض البيئات الموجودة أو إنشاء بيئات جديدة، يجب تعيين مسؤول المستأجرين الذي يوفر Talent لترخيص PowerApps P2. إذا لم يكن لدى مؤسستك ترخيص PowerApps P2، يمكنك الحصول على واحد من موفر حلول المجموعة (CSP) أو من [صفحة أسعار PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
@@ -78,11 +77,6 @@ ms.lasthandoff: 08/08/2018
 4. يجب مراعاة استراتيجيات الاختبار وتكامل البيانات، على سبيل المثال: وضح الحماية‬، اختبار قبول المستخدم (UAT)‬، الإنتاج. لذلك، ننصحك بأن تأخذ في الاعتبار مختلف الدلالات التي ستترتب على عملية التوزيع لديك، لأنه من الصعب تغيير بيئة Talent إلى بيئة PowerApps في وقت لاحق.
 5. لا يمكن استخدام بيئات PowerApps التالية لـ Talent، وستتم تصفيتها من قائمة التحديد في LCS:
  
-    **بيئات CDS 2.0** سيتم توفير CDS 2.0 علنًا في 21 مارس 2018; ومع ذلك، لا يقوم Talent بدعم CDS 2.0 حتى الآن. على الرغم من أنه يمكنك عرض وإنشاء قواعد بيانات CDS 2.0 في مركز إدارة PowerApps، إلا أنها لن تكون قابلة للاستخدام في Talent. سيتوفر خيار استخدام بيئات CDS 2.0 في عمليات نشر Talent في تاريخ لاحق.
-   
-   > [!Note]
-   > للتمييز بين بيئات CDS 1.0 و2.0 في مدخل الإدارة، حدد بيئة وانظر إلى **التفاصيل**. تشير كافة بيئات CDS 2.0 إلى حقيقة أنه "يمكنك إدارة هذه الإعدادات في مركز إدارة Dynamics 365"، وتشير إلى إصدار مثيل، ولا تشتمل على أي علامة تبويب لقاعدة البيانات. 
- 
    **بيئات Power Apps الافتراضية** على الرغم من أنه يتم توفير كل مستأجر تلقائيًا مضمن معه بيئة PowerApps افتراضية، إلا أننا لا ننصح باستخدامها مع Talent نظرًا لأن جميع مستخدمي المستأجر لديهم حق الوصول إلى بيئة PowerApps، وقد يتلفون بيانات الإنتاج دون قصد عند اختبارها واستكشافها باستخدام تكاملات PowerApps أو التدفق.
    
    <strong>بيئات Test Drive</strong> يتم إنشاء بيئات باسم مثل "TestDrive - alias@domain" خلال فترة انتهاء صلاحية مدتها 60 يومًا، وسوف تنتهي صلاحيتها بعد ذلك الوقت، مما قد يؤدي إلى إزالة بيئتك تلقائيًا.
@@ -91,42 +85,6 @@ ms.lasthandoff: 08/08/2018
   
 6. لا يوجد أي إجراء محدد ينبغي اتخاذه عند تحديد البيئة الصحيحة للاستخدام. أكمل عملية التوفير. 
  
-## <a name="create-a-new-powerapps-environment-if-required"></a>إنشاء بيئة PowerApps جديدة (عند اللزوم)
-
-قم بتشغيل برنامج نصي PowerShell لإنشاء بيئة PowerApps جديدة لتطبيق Talent في سياق إدارة المستأجرين لديها ترخيص الخطة 2 لتطبيق PowerApps. ينفذ البرنامج النصي الخطوات التالية تلقائيًا:
-
-
- + إنشاء بيئة PowerApps
- + إنشاء قاعدة بيانات CDS 1.0
- + مسح كافة عينات البيانات الموجودة في قاعدة بيانات CDS 1.0
-
-
-أكمل الإرشادات التالية لتشغيل البرنامج النصي:
-
-1. قم بتنزيل ملف ProvisionCDSEnvironment.zip من الموقع التالي: [ProvisionCDSEnvironment scripts](https://go.microsoft.com/fwlink/?linkid=870436)  
-
-2. من مجلد "التنزيلات"، انقر بالماوس الأيمن على الملف ProvisionCDSEnvironment.zip الذي تم تحميله للتو وحدد **خصائص**.  في حالة وجود ملاحظة أمان في أسفل مربع الحوار والتي تنص على الرسالة "هذا الملف من كمبيوتر آخر وقد يتم حظره للمساعدة في حماية الكمبيوتر"، فحدد خانة الاختيار لأجل **إلغاء الحظر**، ثم انقر فوق **تطبيق** ، ثم **موافق**.
-
-3. قم بفك ضغط المحتويات الكاملة لملف ProvisionCDSEnviroinment.zip إلى مجلد، بدلا من المجلد الجذر الخاص بك.
-
-4. قم بتشغيل برنامج Windows PowerShell أو Windows PowerShell ISE بصفتك المسؤول.
-
-   قم بزيارة موضوع [تعيين سياسة التنفيذ](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) للحصول على مزيد من المعلومات حول تعيين سياسة التنفيذ حتى يمكن تشغيل البرامج النصية. نوصي باستخدام الخيارات التالية، "Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process"، ولكن يجب عليك اتباع نهج أمان الشركة الخاصة بك وإغلاق الإطار PowerShell عند الانتهاء. 
-  
-5. ضمن PowerShell، انتقل إلى المجلد الذي قمت فيه بفك الملف وتشغيل الأمر التالي، ومن ثمَّ استبدال القيم كما هو مطلوب أدناه:
- 
-   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
-
-    
-   يجب استبدال **MyNewEnvironment** باسم البيئة الخاصة بك. سيظهر هذا الاسم في LCS وسيظهر عندما يحدد المستخدمون بيئة Talent المُراد استخدامها. 
-
-   يجب استبدال **YourLocation** بإحدى المناطق المدعومة لـ Talent: الولايات المتحدة، وأوروبا، وأستراليا. 
-
-   **-مطولّ‬** اختياري ويوفر معلومات تفصيلية لإرسالها لدعم معالجة المشاكل عند مصادفتها.
-
-6. أكمل عملية التوفير.
- 
-
 ## <a name="grant-access-to-the-environment"></a>منح الوصول إلى البيئة
 بشكل افتراضي، يتمتع المسؤول العمومي الذي أنشأ البيئة بحق الوصول إليها. ومع ذلك، يجب منح حق الوصول بشكل واضح إلى مستخدمين إضافيين للتطبيق. لمنح حق الوصول، يمكنك [إضافة مستخدمين](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) و[تعيين الأذونات المناسبة لهم](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) في بيئة الموارد البشرية الأساسية. يجب أيضًا على المسؤول العمومي الذي نشر Talent تشغيل تطبيقات Attract وOnboard لإكمال التهيئة وتمكين الوصول لمستخدمي شبكة الاتصال المستأجرة الآخرين.  وحتى حدوث ذلك، لن يتمكن المستخدمون الآخرون من الوصول إلى تطبيقات Attract وOnboard وسوف يحصلون على خطأ مخالفة الوصول.
 

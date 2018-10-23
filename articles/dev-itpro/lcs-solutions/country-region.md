@@ -3,7 +3,7 @@ title: "ميزات الترجمة والميزات التنظيمية"
 description: "يتضمن هذا الموضوع قوائم الموارد التي يمكن أن تساعدك في تعلم المزيد حول الوظائف الخاصة بالبلد/المنطقة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/05/2018
+ms.date: 09/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
-ms.openlocfilehash: db18906739529e04710507ee9ff088540894171d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/05/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -94,12 +94,12 @@ ms.lasthandoff: 09/05/2018
         - [ألمانيا](../../financials/localizations/germany.md)
     :::column-end:::
     :::column:::
-        - [المجر](../../financials/localizations/hungary.md)
+        - [هنغاريا‬](../../financials/localizations/hungary.md)
         - [الهند](../../financials/localizations/india.md)
         - [إيطاليا](../../financials/localizations/italy.md)
         - [اليابان](../../financials/localizations/japan.md)
         - [لاتفيا](../../financials/localizations/latvia.md)
-        - [لتوانيا](../../financials/localizations/lithuania.md)
+        - [ليتوانيا](../../financials/localizations/lithuania.md)
         - [المكسيك](../../financials/localizations/mexico.md)
         - [ماليزيا](../../financials/localizations/malaysia.md)
         - [هولندا](../../financials/localizations/netherlands.md)
@@ -107,7 +107,8 @@ ms.lasthandoff: 09/05/2018
     :::column-end:::
     :::column:::
         - [بولندا](../../financials/localizations/poland.md)
-        - [المملكة العربية السعودية](../../financials/localizations/saudi-arabia.md)
+        - [روسيا](../../financials/localizations/russia.md)
+        - [السعودية](../../financials/localizations/saudi-arabia.md)
         - [سنغافورة](../../financials/localizations/singapore.md)
         - [إسبانيا](../../financials/localizations/spain.md)
         - [السويد](../../financials/localizations/sweden.md)

@@ -1,28 +1,29 @@
 --- 
-title: "تقديم برنامج ميزات الموظفين"
+title: " تقديم برنامج ميزات الموظفين "
 description: "ستعرض لك هذه المهمة كيفية إنشاء عناصر الفائدة التي سيتم استخدامها عند إنشاء ميزة جديدة."
 author: kherr75
 manager: AnnBe
-ms.date: 12/01/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c94f731cbdd62d51a21a42e8fcc86c5711c0e965
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5bf886086fe7ebe20e329c3b69697c390e1db998
 ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="deliver-an-employee-benefits-program"></a>تقديم برنامج ميزات الموظفين
+# <a name="deliver-employee-benefits-program"></a> تقديم برنامج ميزات الموظفين 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -36,7 +37,7 @@ ms.lasthandoff: 04/13/2018
 4. في وصف الحقل، اكتب قيمة.
 5. في الحقل "التسجيل المتزامن"، حدد خيارًا.
     * لتقييد قدرة الموظفين على التسجيل في خطط طبية متعددة، حدد "عملية تسجيل واحدة لكل نوع‬".  
-6. في الحقل "فئة الرواتب‬"، حدد خيارًا.
+6. في الحقل "فئة المرتبات‬"، حدد خيارًا.
 7. انقر فوق علامة التبويب "الخطط".
 8. انقر فوق جديد.
 9. في الحقل "خطة"، اكتب قيمة.
