@@ -29,11 +29,13 @@
               href: get-started/public-preview-releases.md
             - name: شراء Finance and Operations
               items:
-                - name: شراء Finance and Operations (محلي)
+                - name: شراء Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
         - name: ما الجديد أو المتغير
           href: get-started/whats-new-changed.md
           items:
+            - name: الأسئلة المتداولة حول تحديثات خدمة إصدار واحد
+              href: get-started/one-version.md
             - name: سياسة دورة حياة البرامج والإصدارات على السحابة
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: سياسة دورة حياة البرامج والإصدارات المحلية
@@ -46,8 +48,16 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: ميزات لم يتم تنفيذها في عمليات النشر المحلي
               href: get-started/features-not-implemented-on-prem.md
+            - name: Platform update 22 (نوفمبر 2018)
+              href: get-started/whats-new-platform-update-22.md
+            - name: Finance and Operations إصدار 8.1.2 (نوفمبر 2018)
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: Finance and Operations إصدار 8.1.1 (أكتوبر 2018)
+              href: get-started/whats-new-changed-8-1-1.md
             - name: Finance and Operations إصدار 8.1 (أكتوبر 2018)
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 21 (أكتوبر 2018)
+              href: get-started/whats-new-platform-update-21.md
             - name: Platform update 20 (سبتمبر 2018)
               href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations إصدار 8.0 (أبريل 2018)
@@ -126,7 +136,7 @@
               href: get-started/personalize-user-experience.md
             - name: إنشاء حقول مخصصة والعمل باستخدامها
               href: get-started/user-defined-fields.md
-            - name: تطبيقات PowerApps مضمنة
+            - name: تضمين تطبيقات PowerApps
               href: get-started/embed-power-apps.md
             - name: البحث عن المعلومات باستخدام عمليات البحث
               href: get-started/use-lookups-to-find-information.md
@@ -296,11 +306,11 @@
           href: ../dev-itpro/analytics/cost-management-content-pack.md?toc=/fin-and-ops/toc.json
     - name: تكامل البيانات
       items:
-        - name: اختيار استراتيجية تكامل (استيراد/تصدير) البيانات
+        - name: "اختيار استراتيجية تكامل البيانات\_(استيراد/تصدير)"
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: واجهات API لتكامل البيانات
           items:
-            - name: واجهة (API) لحزمة إدارة البيانات
+            - name: واجهة REST API لحزمة إدارة البيانات
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: نقاط نهاية الخدمات
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: الخدمات المخصصة
+            - name: تطوير خدمة مخصصة
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: عمليات تكامل متكررة
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: اختبار الخدمات باستخدام خدمات جهات خارجية
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: التطوير للتكامل
           items:
             - name: تكامل البيانات باستخدام كيانات البيانات
@@ -324,9 +336,9 @@
                   href: ../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/fin-and-ops/toc.json
                 - name: ‏‫تكوين مشاركة البيانات المالية عبر الشركة‬
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء قالب سجل لتسهيل إدخال البيانات
+                - name: إنشاء قوالب سجلات لتسهيل إدخال البيانات
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: استخدام قالب سجل لإنشاء سجل جديد
+                - name: إنشاء سجلات باستخدام قوالب السجل
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: تكامل البيانات باستخدام Common Data Service
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
@@ -383,7 +395,9 @@
             - name: نسخ بيانات التكوين بين الشركات أو الكيانات القانونية
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: تكوين حزم البيانات (إصدار يوليو 2017 فقط)
+                - name: حزم بيانات التكوين
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
+                - name: "حزم\_بيانات التكوين\_(إصدار يوليو 2017 فقط)"
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: قوالب بيانات التكوين
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
@@ -391,6 +405,10 @@
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: البحث عن معلومات حول كيانات البيانات القياسية
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: قوالب بيانات مع أوراق عمل متعددة
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: تمكين تعقب التغيير للكيانات
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: مفاتيح التكوين وكيانات البيانات
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: حزم بيانات التكوين
@@ -402,6 +420,8 @@
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: التطوير لكيانات البيانات
           items:
+            - name: مبادئ التصميم وأفضل الممارسات لكيانات البيانات
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: إنشاء كيانات بيانات جديدة
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: خصائص كيان البيانات
@@ -424,12 +444,16 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: استخدم الأدوات المساعدة لاختبار خدمات جهات خارجية
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: إنشاء كيانات للقراءة فقط تعرض الأبعاد المالية
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: إحضار قاعدة بياناتك الخاصة
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: أتمتة مهمة البيانات
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: مساحة عمل التحقق من صحة البيانات
+        - name: مساحة عمل قائمة التحقق من صحة البيانات
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: أوصاف أخطاء إدارة البيانات
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: الإدارة المالية
       href: ../financials/index.md
       items:
@@ -1003,10 +1027,12 @@
                   href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
                 - name: نظرة عامة على التجميع والاستبعاد
                   href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: التقاويم المالية، والسنوات المالية، والفترات
+                - name: التقاويم المالية، والسنوات المالية، والفترات‬
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: تكوين بنى الحسابات
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: العملة المزدوجة
+                  href: ../financials/general-ledger/dual-currency.md
             - name: دفاتر اليومية ودفاتر الأستاذ
               items:
                 - name: معالجة دفتر اليومية العام
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: إيصال واحد
                   href: ../financials/general-ledger/one-voucher.md
+                - name: تسويات دفتر الأستاذ
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: إقفال نهاية الفترة
               items:
                 - name: إقفال دفتر الأستاذ العام في نهاية الفترة​
@@ -1799,6 +1827,10 @@
             - name: نظرة عامة على محرك الضريبة
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: استيراد التكوين
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: إمكانية تطبيق محرك الضريبة
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: تكامل محرك الضريبة
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: توسيع محرك الضريبة
@@ -2100,6 +2132,8 @@
         - name: بولندا
           href: ../financials/localizations/poland.md
           items:
+            - name: تنشيط محاسبة storno
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: حساب خصومات البند من سعر الوحدة​
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: ملاحظات التصحيح​
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: تقارير ضريبة المبيعات
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: إعداد التسلسلات الرقمية حسب المستودع
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: ملف المراجعة القياسي
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: فائدة الضرائب وضرائب من دون فائدة
@@ -2132,33 +2168,61 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: العمليات اليومية لأصحاب السلف
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: "تقارير السُلف\_مع رقابة\_الموازنة"
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: إعادة تقييم العملة الأجنبية‬ لأصحاب السُلَف
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: تقارير أصحاب السُلف‬
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: البنك
+              items:
+                - name: إعداد الحسابات البنكية
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: إعداد ومعالجة أوامر الدفع
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: الأصول الثابتة
               items:
                 - name: يتم الآن الحصول على الأصول الثابتة ووضعها في العملية
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: تسجيل عمليات الاستحواذ على الأصول الثابتة
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: إنشاء وترحيل دفاتر يومية الموازنة لعمليات الاستحواذ على الأصول الثابتة
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: جرد الأصول الثابتة​
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: إعادة تقييم عملة الأصول الثابتة
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: إعادة تقييم تكلفة وإهلاك الأصول الثابتة
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: فك التجميع الجزئي للأصول الثابتة (التصفية)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: إعداد ومعالجة أوامر الدفع
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: بيع الأصول والتخلص منها وشطب قيمتها
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: إعداد وترقيم مواقع الأصول الثابتة
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: إعداد إهلاك
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: طرق الإهلاك
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: مكافآت الإهلاك
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: حساب الإهلاك
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: أقسام الشركة
+              href: ../financials/localizations/rus-company-divisions.md
             - name: إعداد أسعار الصرف لحركات العملة
               href: ../financials/localizations/rus-exchange-difference.md
             - name: معاينة حركات دفتر الأستاذ
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: إعداد المسؤولين
               href: ../financials/localizations/rus-officials.md
-            - name: إعداد الحسابات البنكية
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: ضريبة القيمة المضافة (VAT) لوكلاء الضرائب
               href: ../financials/localizations/rus-tax-agent.md
             - name: إعداد التحكم في الأبعاد للتسويات
               href: ../financials/localizations/rus-transactions-settlement-date.md
-        - name: السعودية
+            - name: الفواتير للدفع
+              href: ../financials/localizations/rus-invoice-payment.md
+        - name: المملكة العربية السعودية
           href: ../financials/localizations/saudi-arabia.md
           items:
             - name: ضريبة المبيعات
