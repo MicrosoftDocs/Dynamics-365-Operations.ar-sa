@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 06ab745d9df9b095b861cf7bc79aba6d1361eeb0
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: d25ca64fb6a3fa7d7898ec68568703f3de7b1595
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -50,11 +50,12 @@ ms.lasthandoff: 08/07/2018
 | <span data-ttu-id="2e9eb-128">سير عمل تطبيق إضافة مورِّد</span><span class="sxs-lookup"><span data-stu-id="2e9eb-128">Vendor add application workflow</span></span>  | <span data-ttu-id="2e9eb-129">إنشاء عمليات مراجعة وعمليات سير عمل الاعتماد لإضافة موردين جدد عبر طلبات الموردين.</span><span class="sxs-lookup"><span data-stu-id="2e9eb-129">Create review and approval workflows for adding new vendors via vendor requests.</span></span> |
 
 ## <a name="creating-a-workflow"></a><span data-ttu-id="2e9eb-130">إنشاء سير عمل</span><span class="sxs-lookup"><span data-stu-id="2e9eb-130">Creating a workflow</span></span>
+
 <span data-ttu-id="2e9eb-131">لإنشاء سير عمل، انتقل إلى التدبير وتحديد الموارد &gt; الإعداد &gt; عمليات سير التدبير وتحديد الموارد وأنشئ سير عمل جديدًا عن طريق تحديد نوع سير العمل الذي تريد إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="2e9eb-131">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
 <span data-ttu-id="2e9eb-132">وفي لوحة سير العمل، يمكنك سحب عناصر سير العمل في المصمم وربط العناصر في تدفق.</span><span class="sxs-lookup"><span data-stu-id="2e9eb-132">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="2e9eb-133">ويجب تكوين عناصر سير العمل.</span><span class="sxs-lookup"><span data-stu-id="2e9eb-133">The workflow elements should be configured.</span></span> <span data-ttu-id="2e9eb-134">للحصول على الاعتماد وعناصر سير عمل المهام، يمكنك تكوين المشارك الذي يجب أن يتخذ إجراء.</span><span class="sxs-lookup"><span data-stu-id="2e9eb-134">For approval and task workflow elements you can configure which participant should take action.</span></span>
-<span data-ttu-id="2e9eb-135">نوع المشاركين</span><span class="sxs-lookup"><span data-stu-id="2e9eb-135">Types of participants</span></span>
-----------------------
+
+## <a name="types-of-participants"></a><span data-ttu-id="2e9eb-135">نوع المشاركين</span><span class="sxs-lookup"><span data-stu-id="2e9eb-135">Types of participants</span></span>
 
 <span data-ttu-id="2e9eb-136">يمكنك تعيين خطوة موافقة على المجموعات التالية من المشاركين.</span><span class="sxs-lookup"><span data-stu-id="2e9eb-136">You can assign an approval step to the following groups of participants.</span></span>
 
@@ -68,13 +69,12 @@ ms.lasthandoff: 08/07/2018
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="2e9eb-149">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="2e9eb-149">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="2e9eb-149">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="2e9eb-149">Additional resources</span></span>
 
-[<span data-ttu-id="2e9eb-150">تعريف مهام سير عمل العمليات التجارية لطلبات الشراء</span><span class="sxs-lookup"><span data-stu-id="2e9eb-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [<span data-ttu-id="2e9eb-150">تعريف مهام سير عمل العمليات التجارية لطلبات الشراء</span><span class="sxs-lookup"><span data-stu-id="2e9eb-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[<span data-ttu-id="2e9eb-151">سير عمل طلب الشراء</span><span class="sxs-lookup"><span data-stu-id="2e9eb-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
+- [<span data-ttu-id="2e9eb-151">سير عمل طلب الشراء</span><span class="sxs-lookup"><span data-stu-id="2e9eb-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
-[<span data-ttu-id="2e9eb-152">إعداد المورّدين</span><span class="sxs-lookup"><span data-stu-id="2e9eb-152">Onboarding vendors</span></span>](vendor-onboarding.md)
+- [<span data-ttu-id="2e9eb-152">إعداد المورّدين</span><span class="sxs-lookup"><span data-stu-id="2e9eb-152">Onboarding vendors</span></span>](vendor-onboarding.md)
 
 
