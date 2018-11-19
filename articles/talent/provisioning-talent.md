@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
 ms.contentlocale: ar-sa
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 # <a name="provision-talent"></a>توفير بيئة Talent
@@ -47,7 +47,7 @@ ms.lasthandoff: 10/01/2018
 بعد إنشاء مشروع LCS، يمكنك توفير Talent في بيئة.
 
 1. في مشروع LCS، حدد تجانب **"إدارة تطبيق Talent**.
-2. يتم توفير Talent دوماً في بيئة Microsoft PowerApps، لتمكين تكامل PowerApps وقابليته للتوسع. اقرأ قسم "تحديد بيئة PowerApps" في هذا الموضوع قبل المتابعة. 
+2. يتم توفير Talent دوماً في بيئة Microsoft PowerApps، لتمكين تكامل PowerApps وقابليته للتوسع. اقرأ قسم "تحديد بيئة PowerApps" في هذا الموضوع قبل المتابعة. إذا لم تكن لديك بيئة PowerApps، فحدد "إدارة البيئات" في LCS أو انتقل إلى مركز إدارة PowerApps. ثم اتبع الخطوات التي تؤدي إلى [إنشاء بيئة PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > لعرض البيئات الموجودة أو إنشاء بيئات جديدة، يجب تعيين مسؤول المستأجرين الذي يوفر Talent لترخيص PowerApps P2. إذا لم يكن لدى مؤسستك ترخيص PowerApps P2، يمكنك الحصول على واحد من موفر حلول المجموعة (CSP) أو من [صفحة أسعار PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
@@ -73,7 +73,7 @@ ms.lasthandoff: 10/01/2018
 استخدم الإرشادات التالية عند تحديد بيئة PowerApps لنشر Talent في: 
 1. في LCS، حدد "إدارة البيئات" أو انتقل مباشرةً إلى مركز إدارة PowerApps، حيث يمكنك عرض البيئات الموجودة وإنشاء بيئات جديدة.
 2. تم تعيين بيئة Talent واحدة لبيئة PowerApps واحدة.
-3. بيئة PowerApps "تحتوي على" تطبيق Talent، إلى جانب تطبيقات PowerApps والتدفق وCDS المناسبة. إذا تم حذف بيئة PowerApps، لذا توجد التطبيقات داخله.
+3. بيئة PowerApps "تحتوي على" تطبيق Talent، إلى جانب تطبيقات PowerApps والتدفق وCDS المناسبة. إذا تم حذف بيئة PowerApps، لذا توجد التطبيقات داخله. عند تزويد بيئة Talent، يمكن تزويد إما "الإصدار التجريبي" أو "الإنتاج". اختر نوع البيئة استنادًا إلى كيفية استخدام البيئة. 
 4. يجب مراعاة استراتيجيات الاختبار وتكامل البيانات، على سبيل المثال: وضح الحماية‬، اختبار قبول المستخدم (UAT)‬، الإنتاج. لذلك، ننصحك بأن تأخذ في الاعتبار مختلف الدلالات التي ستترتب على عملية التوزيع لديك، لأنه من الصعب تغيير بيئة Talent إلى بيئة PowerApps في وقت لاحق.
 5. لا يمكن استخدام بيئات PowerApps التالية لـ Talent، وستتم تصفيتها من قائمة التحديد في LCS:
  

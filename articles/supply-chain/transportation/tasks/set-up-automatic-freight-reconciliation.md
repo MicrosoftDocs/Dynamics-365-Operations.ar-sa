@@ -3,7 +3,7 @@ title: "إعداد تسوية الشحن التلقائية"
 description: "يوضح هذا الإجراء كيفية إعداد البيانات لتسوية الشحن التلقائية."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/17/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>إعداد تسوية الشحن التلقائية
@@ -36,9 +36,9 @@ ms.lasthandoff: 09/29/2017
     * يعرف نوع فاتورة الشحن كيف يجب أن تتطابق فواتير الشحن وفواتير شركة النقل.  
 2. انقر فوق "جديد".
 3. في الحقل "نوع فاتورة الشحن"، اكتب قيمة.
-4. في حقل "تجميع المحرك"، اكتب 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.
+4. في حقل "تجميع المحرك"، اكتب 'Microsoft.Dynamics.Ax.Tms.dll'.
     * هذه هي إدارة النقل القياسية المطابقة لمكتبة أكواد المحرك.  
-5. في حقل "فئة المحرك"، اكتب 'Microsoft.Dynamics.Ax.Tms.dll'.
+5. في حقل "فئة المحرك"، اكتب 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.
     * هذه هي إدارة النقل القياسية المطابقة لفئة المحرك.  
 6. انقر فوق "جديد".
 7. في حقل "الوصف"، اختر القيمة التي يجب أن تتطابق على فاتورة الشحن وفاتورة شركة النقل.  

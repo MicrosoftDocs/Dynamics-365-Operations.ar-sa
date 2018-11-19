@@ -3,7 +3,7 @@ title: "مزامنة عقود المشاريع والمشاريع مباشرةً
 description: "يوضح هذا الموضوع القالب والمهام الأساسية التي يتم استخدامها لمزامنة العقود والمشروعات مباشرةً من Microsoft Dynamics 365 لـ Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 65a274323a2d95c9c76727c9e40aa7e649e6350a
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -95,8 +95,8 @@ ms.lasthandoff: 08/08/2018
 ## <a name="prerequisites-and-mapping-setup"></a>المتطلبات الأساسية وإعداد التعيين
 
 - قبل القيام بمزامنة عقود المشاريع والمشروعات، يجب عليك مزامنة الحسابات.
-- في مجموعة الاتصال الخاصة بك، قم بإضافة تعيين حقل مفتاح التكامل لـ **msdyn\_‎organizationalunits** إلى **msdyn\_ name\[Name\]**. قدتحتاج أولًا إلى إضافة مشروع إلى مجموعة الاتصال. لمزيد من المعلومات حول مفاتيح التكامل، راجع [تكامل بيانات Dynamics 365](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration).
-- في مجموعة الاتصال الخاصة بك، قم بإضافة تعيين حقل مفتاح التكامل لـ **msdyn\_‎projects‎** إلى **msdyn\_ projectnumber\[Project Number\]**. قدتحتاج أولًا إلى إضافة مشروع إلى مجموعة الاتصال. لمزيد من المعلومات حول مفاتيح التكامل، راجع [تكامل بيانات Dynamics 365](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration).
+- في مجموعة الاتصال الخاصة بك، قم بإضافة تعيين حقل مفتاح التكامل لـ **msdyn\_‎organizationalunits** إلى **msdyn\_ name\[Name\]**. قد تحتاج أولًا إلى إضافة مشروع إلى مجموعة الاتصال. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- في مجموعة الاتصال الخاصة بك، قم بإضافة تعيين حقل مفتاح التكامل لـ **msdyn\_‎projects‎** إلى **msdyn\_ projectnumber\[Project Number\]**. قد تحتاج أولًا إلى إضافة مشروع إلى مجموعة الاتصال. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 - **SourceDataID** لعقود المشاريع والمشاريع يمكن تحديثه إلى قيمة مختلفة أو إزالته من التعيين. قيمة القالب الافتراضي هي **Project Service Automation**.
 - يجب تحديث **PaymentTerms** بحيث يعكس شروط الدفع الصالحة في Finance and Operations. يمكنك أيضًا إزالة التعيين من مهمة المشروع. يحتوي تعيين القيمة الافتراضية على قيم افتراضية لبيانات عرض توضيحي. يعرض الجدول التالي القيم في Project Service Automation.
 
