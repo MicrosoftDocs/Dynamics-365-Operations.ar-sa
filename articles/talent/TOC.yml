@@ -1,11 +1,20 @@
-- name: مرحبًا بك في Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
   items:
     - name: بدء الاستخدام
       href: talent-get-started.md
       items:
         - name: ما الجديد أو المتغير
+          href: whats-new.md
           items:
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(31 أكتوبر 2018)
+              href: whats-new-talent-october-31.md
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(19 أكتوبر 2018)
+              href: whats-new-talent-october-19.md
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(15 أكتوبر 2018)
+              href: whats-new-talent-october-11.md
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(8 أكتوبر 2018)
+              href: whats-new-talent-october-8.md
             - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(1 أكتوبر 2018)
               href: whats-new-talent-october-01.md
             - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(24 سبتمبر 2018)
@@ -26,10 +35,12 @@
           href: remove-talent-environment.md
         - name: توفير التطبيقات النمطية لـ Talent
           href: modular-app-tech-faq.md
-        - name: تطبيقات PowerApps مضمنة
+        - name: تضمين تطبيقات PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR وCommon Data Service للتطبيقات
           href: CoreHREntities.md
+        - name: عمليات التكامل
+          href: talent-financeandoperations-integration.md
         - name: الوصول إلى ميزات المعاينة
           href: access-preview-feature.md
         - name: تكوين تكامل كشف الرواتب بين Talent وDayforce
@@ -64,6 +75,34 @@
       items:
         - name: ميزات وقدرات Attract
           href: attract-overview.md
+        - name: إنشاء قالب عملية في Attract
+          href: Process-templates-Attract.md
+        - name: إنشاء وظائف والموافقة عليها ونشرها في Attract
+          href: Creating-jobs-Attract.md
+        - name: التوريد باستخدام مجموعات المواهب
+          href: attract-talent-pools.md
+        - name: التوريد باستخدام LinkedIn Recruiter
+          href: attract-linked-in-recruiter.md
+        - name: أنشطة عملية التوظيف في Attract
+          href: activities-attract.md
+        - name: قابلية التوسعة
+          href: extensibility-attract.md
+        - name: موقع المهن وتجارب المرشحين
+          href: career-site.md
+        - name: إعداد إدارة العروض
+          href: offer-setup.md
+        - name: إنشاء العروض والموافقة والتوقيع عليها
+          href: creating-offers.md
+        - name: إنشاء وإدارة قوالب البريد الإلكتروني
+          href: email-templates.md
+        - name: إعداد التقارير والتحليلات
+          href: Reporting-Analytics-Attract.md
+        - name: إدارة الأمان والأدوار في Attract
+          href: security-attract.md
+        - name: إعدادات المسؤول في Attract
+          href: Admin-Settings-Attract.md
+        - name: التوصيات الذكية
+          href: Intelligent-Recommendations.md
         - name: إنشاء تجربة إعداد تفاعلية
           href: create-onboarding-experience.md
     - name: تحفيز الموظفين

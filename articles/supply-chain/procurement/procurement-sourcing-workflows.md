@@ -50,11 +50,12 @@ ms.lasthandoff: 05/08/2018
 | سير عمل تطبيق إضافة مورِّد  | إنشاء عمليات مراجعة وعمليات سير عمل الاعتماد لإضافة موردين جدد عبر طلبات الموردين. |
 
 ## <a name="creating-a-workflow"></a>إنشاء سير عمل
+
 لإنشاء سير عمل، انتقل إلى التدبير وتحديد الموارد &gt; الإعداد &gt; عمليات سير التدبير وتحديد الموارد وأنشئ سير عمل جديدًا عن طريق تحديد نوع سير العمل الذي تريد إنشاؤه.  
 
 وفي لوحة سير العمل، يمكنك سحب عناصر سير العمل في المصمم وربط العناصر في تدفق. ويجب تكوين عناصر سير العمل. للحصول على الاعتماد وعناصر سير عمل المهام، يمكنك تكوين المشارك الذي يجب أن يتخذ إجراء.
-نوع المشاركين
-----------------------
+
+## <a name="types-of-participants"></a>نوع المشاركين
 
 يمكنك تعيين خطوة موافقة على المجموعات التالية من المشاركين.
 
@@ -68,13 +69,12 @@ ms.lasthandoff: 05/08/2018
 
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
-[تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[سير عمل طلب الشراء](purchase-requisitions-workflow.md)
+- [سير عمل طلب الشراء](purchase-requisitions-workflow.md)
 
-[إعداد المورّدين](vendor-onboarding.md)
+- [إعداد المورّدين](vendor-onboarding.md)
 
 

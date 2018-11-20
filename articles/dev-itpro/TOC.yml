@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: إصدار تغييرات قابلية التوسعة 8.1
               href: extensibility/extensibility-changes-81.md
+            - name: إصدار تغييرات قابلية التوسعة 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: إصدار تغييرات قابلية التوسعة 8.1.2
+              href: extensibility/extensibility-changes-812.md
         - name: القواعد الأساسية
           items:
             - name: تخصيصات متداخلة
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: تعديل خصائص التحكم في النموذج
               href: extensibility/modify-control-properties.md
-            - name: تغيير التسميات باستخدام ملفات ملحقات التسمية
-              href: extensibility/change-label.md
             - name: توسيع نطاق التسلسل الرقمي
               href: extensibility/extend-number-sequence-scope.md
             - name: إضافة أبعاد مخزون جديد
@@ -317,11 +319,13 @@
               href: extensibility/maps-as-interfaces.md
             - name: توسيع مخططات الجداول المستخدمة لتعيين الإصدار
               href: extensibility/maps-with-versioning.md
+            - name: توسيع دقة الفاصلة العشرية لأنواع البيانات المحددة
+              href: extensibility/decimal-point-precision.md
         - name: إنشاء الحلول القابلة للتوسيع
           items:
             - name: كود الكتابة القابلة للتوسيع
               href: extensibility/writing-extensible-code.md
-            - name: الدرجات
+            - name: الفئات
               href: extensibility/extensible-classes.md
             - name: الطرق
               href: extensibility/extensible-methods.md
@@ -534,9 +538,9 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: قابلية توسعة عنصر التحكم
       items:
-        - name: إنشاء عناصر تحكم aextensible
+        - name: إنشاء عناصر تحكم قابلة للتوسعة
           href: user-interface/build-extensible-control.md
-        - name: اختصارات لوحة المفاتيح لعناصر التحكم القابل للتوسعة
+        - name: اختصارات لوحة المفاتيح لعناصر التحكم القابلة للتوسعة
           href: user-interface/keyboard-shortcuts-controls.md
         - name: مرجع برمجة عنصر التحكم القابل للتوسعة
           href: user-interface/extensible-control-programming-reference.md
@@ -764,148 +768,12 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: نوع ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: تكامل البيانات
+- name: القانون العام لحماية البيانات العام (GDPR)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: اختيار استراتيجية تكامل (استيراد/تصدير) البيانات
-      href: data-entities/integration-overview.md
-    - name: واجهات API لتكامل البيانات
-      items:
-        - name: واجهة (API) REST لحزمة إدارة البيانات
-          href: data-entities/data-management-api.md
-        - name: نقاط نهاية الخدمات
-          href: data-entities/services-home-page.md
-          items:
-            - name: استكشاف أخطاء مصادقة الخدمة وإصلاحها
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: تطوير خدمة مخصصة
-          href: data-entities/custom-services.md
-        - name: عمليات تكامل متكررة
-          href: data-entities/recurring-integrations.md
-        - name: اختبار الخدمات باستخدام خدمات جهات خارجية
-          href: data-entities/third-party-service-test.md
-    - name: التطوير للتكامل
-      items:
-        - name: إدارة البيانات والتكامل باستخدام وحدات البيانات
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: تطوير الكيانات لترحيل البيانات
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: تطوير كيانات البيانات المركبة
-              href: data-entities/develop-composite-data-entities.md
-            - name: ‏‫تكوين مشاركة البيانات المالية عبر الشركة‬
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: إنشاء قوالب سجلات لتسهيل إدخال البيانات
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: إنشاء سجلات باستخدام قوالب السجل
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: تكامل البيانات باستخدام Common Data Service
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: تكوين سيناريو العميل المتوقع إلى النقدية
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: تكوين التكامل مع Field Service
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: مزامنة المنتجات في Finance and Operations إلى المنتجات في Field Service
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: تكوين تكامل Project Service Automation
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: مُعلمات تكامل Project Service Automation
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: مزامنة عقود المشاريع والمشاريع
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: مزامنة مهام المشروع
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: مزامنة فئات مصروفات المشروع
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: مزامنة تقديرات المشروع من/إلى تنبؤات المشروع
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: مزامنة القيم الفعلية للمشروع إلى دفتر يومية تكامل المشروع
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: استخدام خدمات ويب خارجية
-          href: data-entities/consume-external-web-service.md
-- name: إدارة البيانات
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: كيانات البيانات
-      href: data-entities/data-entities.md
-      items:
-        - name: مشروعات بيانات التكوين
-          href: data-entities/configuration-data-projects.md
-        - name: حزم بيانات التكوين
-          href: data-entities/configuration-data-packages.md
-        - name: نسخ بيانات التكوين بين الشركات
-          href: data-entities/copy-configuration.md
-        - name: قوالب بيانات التكوين
-          href: data-entities/configuration-data-templates.md
-        - name: قوالب بيانات مع أوراق عمل متعددة
-          href: data-entities/excel-template-multiple.md
-        - name: تمكين تعقب التغيير للكيانات
-          href: data-entities/entity-change-track.md
-        - name: مفاتيح التكوين وكيانات البيانات
-          href: data-entities/config-key-entities.md
-        - name: البحث عن معلومات حول كيانات البيانات القياسية
-          href: data-entities/data-entities-report.md
-    - name: استيراد البيانات وتصدير الوظائف
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: التطوير لكيانات البيانات
-      items:
-        - name: مبادئ التصميم وأفضل الممارسات لكيانات البيانات
-          href: dev-tools/design-best-practices.md
-        - name: إنشاء كيانات بيانات جديدة
-          href: data-entities/build-consuming-data-entities.md
-        - name: خصائص كيان البيانات السلوكية
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: إنشاء أعمدة محسوبة وحقول ظاهرية
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: السلوك عبر الشركة
-          href: data-entities/cross-company-behavior.md
-        - name: أكواد البلد/المنطقة ومفاتيح التكوين
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: أنماط التوريث
-          href: data-entities/support-super-type-sub-type.md
-        - name: قواعد معالج كيان البيانات
-          href: data-entities/data-entity-wizard-rules.md
-        - name: خصائص بيانات التعريف
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: عمليات التحقق من الصحة والقيم الافتراضية والحقول غير المعينة
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: الأمان وكيانات البيانات
-          href: data-entities/security-data-entities.md
-        - name: إنشاء كيانات للقراءة فقط تعرض الأبعاد المالية
-          href: financial/read-only-entity-financial.md
-    - name: إحضار قاعدة بياناتك الخاصة
-      href: analytics/export-entities-to-your-own-database.md
-    - name: أتمتة مهمة البيانات
-      href: data-entities/data-task-automation.md
     - name: موارد للاستجابة لطلبات بيانات القانون العام لحماية البيانات (GDPR)
       href: gdpr/gdpr-home-page.md
       items:
-        - name: دليلك إلى GDPR لـ Finance and Operations
-          href: gdpr/gdpr-guide.md
         - name: تصنيفات الأصول
           href: gdpr/gdpr-asset-classification-values.md
         - name: تقرير البحث عن شخص
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: طلبات بيانات القانون العام لحماية البيانات (GDPR) لـ LCS
           href: gdpr/gdpr-lcs.md
-    - name: مساحة عمل قائمة التحقق من صحة البيانات
-      href: user-interface/data-validation-workspace.md
-    - name: أوصاف أخطاء إدارة البيانات
-      href: data-entities/dm-error-descriptions.md
 - name: التسليم المستمر
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: إعداد بيئات محلية ونشرها
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: نشر بيئات محلية على Platform update 12
+            - name: نشر بيئات محلية (Platform update 12 وتحديث لاحق)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: نشر بيئات محلية على Platform update 8 و11
+            - name: نشر بيئات محلية (Platform update 8 و11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية
+              href: deployment/deploy-retail-onprem.md
         - name: تطوير النماذج المخصصة للبيئات المحلية ونشرها
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: تكوين الوكلاء العكسيين للبيئات المحلية
@@ -1157,10 +1023,12 @@
           href: migration-upgrade/update-platform-each-release.md
         - name: ترقية بيئات وضع الحماية
           href: migration-upgrade/upgrade-sandbox-environment.md
-        - name: ترقية البيانات في التطوير أو العرض التوضيحي أو بيئات وضع الحماية
+        - name: ترقية البيانات في بيئات التطوير أو العرض التوضيحي أو بيئة الاختبار المعزولة
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: ترقية أدوات التطوير
           href: dev-tools/update-development-tools.md
+        - name: التخطيط والإعداد لتجميع التعليمات البرمجية في مقابل التحديث الأخير
+          href: migration-upgrade/compile-considerations.md
     - name: الترقية إلى تحديث جديد (محلي)
       items:
         - name: تطبيق التحديثات على عمليات النشر المحلية
@@ -1222,14 +1090,20 @@
     - name: معالجة الدُفعات
       href: sysadmin/batch-processing-overview.md
       items:
-        - name: مُعالجة الدُفعات وخوادم الدفعات
+        - name: مُعالجة الدُفعات وخوادم الدُفعات
           href: sysadmin/batch-server-overview.md
-        - name: إنشاء وظائف دفعية
+        - name: إنشاء وظائف دُفعية
           href: sysadmin/tasks/create-batch-job.md
+        - name: نسخ وظيفة دُفعية
+          href: sysadmin/copy-batch-job.md
+        - name: الفترات النشطة للوظائف الدُفعية
+          href: sysadmin/activeperiod.md
+        - name: دور أمان مدير الدُفعة
+          href: sysadmin/runby.md
     - name: مرشد تحسين الأداء
       href: sysadmin/optimization-advisor-overview.md
       items:
-        - name: إنشاء قواعد لمرشد التحسين
+        - name: إنشاء قواعد لمرشد تحسين الأداء
           href: sysadmin/create-rules-optimization-advisor.md
     - name: إبلاغ عن انقطاع إنتاج
       href: lifecycle-services/report-production-outage.md

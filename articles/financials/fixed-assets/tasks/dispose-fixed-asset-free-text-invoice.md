@@ -25,6 +25,7 @@ ms.lasthandoff: 09/24/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>التخلص من أصل ثابت باستخدام فاتورة نص حر
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 يوضح هذا الإجراء كيفية التخلص من أصل ثابت باستخدام فاتورة نص حر.
 

@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ ms.lasthandoff: 03/26/2018
 | إضافة/إزالة نموذج كعنصر مفضل (مع التركيز على نموذج في جزء التنقل)   | Shift+F                    |
 | الانتقال إلى جزء الإجراءات القياسي                                              | Alt+M,A أو Ctrl+F6         |
 | الانتقال إلى جزء عامل التصفية (وقد يشمل ذلك فتحه)                        | Alt+M,F أو Ctrl+F3         |
-| نقل التركيز إلى صفحة المحتوى (مع التركيز في قائمة التنقل)            | Alt+M,M أو Ctrl+F3         |
+| نقل التركيز إلى صفحة المحتوى (مع التركيز في جزء التصفية)                | Alt+M,M أو Ctrl+F3         |
 | الانتقال إلى قائمة التنقل على نموذج التفاصيل (وقد يشمل ذلك فتحها)    | Alt+M,S أو Ctrl+F8         |
 | نقل التركيز إلى صفحة المحتوى (مع التركيز في قائمة التنقل)            | Alt+M,M أو Ctrl+F8         |
 | إغلاق قائمة التنقل في نموذج التفاصيل (مع التركيز في قائمة التنقل) | Esc                        |
