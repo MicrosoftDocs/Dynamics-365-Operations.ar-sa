@@ -48,6 +48,10 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: ميزات لم يتم تنفيذها في عمليات النشر المحلي
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations إصدار 8.1.3 (ديسمبر 2018)
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 23 (ديسمبر 2018)
+              href: get-started/whats-new-platform-update-23.md
             - name: Platform update 22 (نوفمبر 2018)
               href: get-started/whats-new-platform-update-22.md
             - name: Finance and Operations إصدار 8.1.2 (نوفمبر 2018)
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: الاتصال بنظام التعليمات
               href: get-started/help-connect.md
+            - name: الاتصال بموقع تعليمات مخصص
+              href: get-started/help-custom.md
             - name: عرض أوصاف الحقول وتصديرها
               href: get-started/view-export-field-descriptions.md
             - name: دلائل المهام ومسجل المهام
@@ -1243,13 +1249,15 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: إعادة تعيين متجر بيانات للتقارير المالية
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: المراسلة الإلكترونية
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: ميزات الترجمة والميزات التنظيمية
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
         - name: أستراليا
           href: ../financials/localizations/australia.md
           items:
-            - name: كشف حساب النشاط التجاري (BAS)
+            - name: بيان النشاط التجاري (BAS)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
             - name: إضافة مربعات التقارير وإنشاء كشف حساب النشاط التجاري
               href: ../financials/localizations/tasks/add-bas-report-boxes.md
@@ -2220,14 +2228,18 @@
               href: ../financials/localizations/rus-tax-agent.md
             - name: إعداد التحكم في الأبعاد للتسويات
               href: ../financials/localizations/rus-transactions-settlement-date.md
-            - name: الفواتير للدفع
+            - name: فواتير للدفع
               href: ../financials/localizations/rus-invoice-payment.md
-        - name: المملكة العربية السعودية
+            - name: التقارير المالية
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: إنشاء دفتر شراء
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
+        - name: المملكة العربية السعودية‬
           href: ../financials/localizations/saudi-arabia.md
           items:
             - name: ضريبة المبيعات
               href: ../financials/localizations/apac-sau-sales-tax.md
-            - name: إعداد تقارير الزكاة للمملكة العربية السعودية​
+            - name: إعداد تقارير الزكاة للمملكة العربية السعودية
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: سنغافورة
           href: ../financials/localizations/singapore.md
@@ -2737,10 +2749,12 @@
             - name: إدارة دورة حياة التكوين​
               href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
               items:
-                - name: تحميّل التكوينات إلى Lifecycle Services
+                - name: تحميل التكوينات إلى Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: استيراد التكوينات من Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: استيراد تكوينات التقارير الإلكترونية من خدمات التكوين التنظيمية (RCS)
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: تنزيل التكوينات من Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: استيراد التكوينات
@@ -4145,13 +4159,15 @@
               href: ../supply-chain/warehousing/change-warehouse-mobile-device-displays.md
             - name: استلام لوحة الرخصة المختلطة على جهاز محمول
               href: ../supply-chain/warehousing/mixed-license-plate-receiving.md
-            - name: تكوين عرض المجموعات القديمة داخل المستودع على جهاز محمول
+            - name: تكوين عرض الدُفعات القديمة داخل المستودع على جهاز محمول
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: انتقاء الدُفعة الأقدم على جهاز محمول
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: إطار عمل دليل العملية
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: الترقية والترحيل
           items:
-            - name: ترقية عمليات إدارة المستودعات من Microsoft Dynamics AX 2012 لـ Finance and Operations
+            - name: ترقية عمليات إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
               href: ../supply-chain/warehousing/upgrade-migration-warehouse-management-processes.md
         - name: عمليات الاستلام لعملية التسجيل والوضع البعيد
           items:
