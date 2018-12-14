@@ -3,7 +3,7 @@ title: "الصفحة الرئيسية للتخطيط الرئيسي"
 description: "يتيح التخطيط الرئيسي للشركات إمكانية تحديد وموازنة الاحتياجات المستقبلية للمواد الخام والقدرة اللازمة لتلبية أهداف الشركة."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: ar-sa
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ ms.lasthandoff: 02/13/2018
 
 ## <a name="quick-links"></a>ارتباطات سريعة
 
-|      |   |
-|------|---|
-|        [الخطط الرئيسية](master-plans.md)       |     [إنشاء خطة مقيدة](./tasks/constrained-plan.md)  |
-| [إنشاء خطة مادية للمنتجات المساعدة](./tasks/create-material-plan-co-products.md)   |  [التخطيط الرئيسي ووظائف المواقع المتعددة](master-plan-multisite-functionality.md)  |
-| [إنشاء خطة بين الشركات الشقيقة](./tasks/create-intercompany-plan.md) | [نظرة عامة على التنبؤ بالطلب‬](introduction-demand-forecasting.md)  | 
-|[مفاتيح الخفض](reduction-keys.md)| [أساسيات التخطيط الرئيسي](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (التعليم الإلكتروني) (تتطلب حساب CustomerSource)     |
-|  [التخطيط الرئيسي للتصنيع التحويلي](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (التعليم الإلكتروني) (تتطلب حساب CustomerSource) | [التخطيط الرئيسي بين الشركات الشقيقة](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (التعليم الإلكتروني) (يتطلب حساب CustomerSource)|
+- [الخطط الرئيسية](master-plans.md)  
+- [إنشاء خطة مقيدة](./tasks/constrained-plan.md)
+- [إنشاء خطة مادية للمنتجات المساعدة](./tasks/create-material-plan-co-products.md)
+- [التخطيط الرئيسي ووظائف المواقع المتعددة](master-plan-multisite-functionality.md)
+- [إنشاء خطة بين الشركات الشقيقة](./tasks/create-intercompany-plan.md)
+- [نظرة عامة على التنبؤ بالطلب‬](introduction-demand-forecasting.md)
+- [مفاتيح الخفض](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>الموارد الإضافية
 

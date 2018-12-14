@@ -3,7 +3,7 @@ title: "الاتصال بنظام التعليمات"
 description: "يصف هذا الموضوع مكونات نظام تعليمات تطبيق Microsoft Dynamics 365 for Finance and Operations، ويقدم لمحة عامة عن كيفية توصيلها بالإضافة إلى ملخص حول كيفية إنشاء تعليمات مخصصة."
 author: margoc
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 11/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: a2ca5f5302751ad2c4ddc3c6921a8a9b6c2d57df
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -68,9 +68,19 @@ ms.lasthandoff: 08/08/2018
 > -   إذا لم يكن دليل المهمة مترجمًا بعد، فسيظهر بعض النص فقط (نصر عناصر التحكم) بلغتك المحددة عندما تفتحه.
 
 ## <a name="creating-custom-help"></a>إنشاء التعليمات المخصصة
+يمكنك استخدام أدلة المهام لإنشاء تعليمات مخصصة أو ربط موقع الويب بجزء التعليمات. 
+
+### <a name="create-custom-help-with-task-guides"></a>إنشاء التعليمات المخصصة باستخدام أدلة المهام
 يمكنك إنشاء تعليمات مخصصة لتطبيق Finance and Operations وRetail بإنشاء تسجيلات المهام التي تعكس التنفيذ، وحفظها إلى مكتبة عمليات أعمال LCS. لا يمكنك إنشاء دلائل مهام مخصصة لتطبيق Talent. 
 
 وبالنسبة للشركاء، إذا قمت بترقية مكتبة إلى مكتبة شركة وقمت بتضمينها في أحد حلول، فستتوفر للعملاء. يمكنك أيضًا إنشاء نسخة من المكتبة العمومية الموحدة APQC، ثم فتح نسختك وفتح تسجيلات المهام منها وتعديلها وحفظ التسجيلات مع تغييراتك. لمزيد من المعلومات، راجع [كيفية إنشاء تسجيل مهام لاستخدامه كوثيقة أو تدريب](../../dev-itpro/user-interface/task-recorder.md).
+
+### <a name="connect-a-custom-site"></a>الاتصال بموقع مخصص
+قامت Microsoft بتوفير مستند تقني وعينات من الأكواد التي توضح كيفية إنشاء وربط موقع تعليمات مخصص بجزء التعليمات. لمزيد من المعلومات، راجع: 
+- [إنشاء تعليمات مخصصة لـ Finance and Operations (المستند التقني)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [مستودع التعليمات المخصصة لـ GitHub](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+
 
 <a name="additional-resources"></a>الموارد الإضافية
 --------

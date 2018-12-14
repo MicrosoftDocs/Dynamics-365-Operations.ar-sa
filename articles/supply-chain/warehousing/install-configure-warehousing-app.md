@@ -3,7 +3,7 @@ title: "تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operation
 description: "يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 11/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
+ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
 ms.contentlocale: ar-sa
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -74,13 +74,12 @@ ms.lasthandoff: 03/06/2018
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>إنشاء وتكوين حساب مستخدم في Finance and Operations
 لتمكين Finance and Operations لاستخدام تطبيق Azure AD، تحتاج إلى إكمال خطوات التكوين التالية:
 
-1.  أنشئ حساب مستخدم جديدًا في Active Directory لمستأجر Finance and Operations. الغرض من حساب المستخدم هذا هو الوصول إلى الخدمة المخصصة المعينة لتطبيق التخزين، والتي يعرضها خادم Finance and Operations. بعد إكمال هذه الخطوة، سيكون لديك بيانات اعتماد مستخدم WMDP، التي تتكون من عنوان بريد إلكتروني WMDP وكلمة مرور WMDP. للتعرف على الخطوات الأساسية لإضافة مستخدمين إلى Azure AD وFinance and Operations، يمكنك مراجعة هذا البرنامج التعليمي: [التسجيل للحصول على اشتراك في Finance and Operations](../../dev-itpro/dev-tools/sign-up-preview-subscription.md).
-2.  أنشئ مستخدم Finance and Operations يتطابق مع بيانات اعتماد مستخدم تطبيق التخزين.
+1.  أنشئ مستخدم Finance and Operations يتطابق مع بيانات اعتماد مستخدم تطبيق التخزين.
     1.  في Finance and Operations، انتقل إلى **إدارة النظام** &gt; **عام** &gt; **المستخدمون**.
     2.  أنشئ مستخدمًا جديدًا.
     3.  عيّن مستخدم الجهاز المحمول للمستودع‬، كما هو موضح في لقطة الشاشة التالية. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  قم بإقران تطبيق Azure Active Directory بمستخدم تطبيق تخزين.
+2.  قم بإقران تطبيق Azure Active Directory بمستخدم تطبيق تخزين.
     1.  في Finance and Operations، انتقل إلى **إدارة النظام** &gt; **الإعداد** &gt; **تطبيقات Azure Active Directory**.
     2.  قم بإنشاء بند جديد.
     3.  أدخل **"معرف العميل"** (الذي تم الحصول عليه في القسم الأخير)، وأدخل اسمًا له، وحدد المستخدم الذي أنشأته في وقت سابق. نوصي بتمييز كل أجهزتك بحيث يمكنك أن تزيل بسهولة حق وصولها إلى Finance and Operations من هذه الصفحة في حال فقدانها. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)

@@ -43,18 +43,22 @@
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
     - name: إعداد بيئات جديدة وAzure DevOps وفروع لمشروعات Retail
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-    - name: تحديث الكود والبيئات لمشروعات Retail
+    - name: تحديث الكود والبيئات لمشاريع Retail
       href: dev-itpro/updating-environments.md
     - name: مشكلات الاختبار والأداء
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: إدارة الأوامر الموزعة (DOM)
+  href: dom.md
 - name: المدفوعات
   items:
     - name: طرق الدفع
       href: payment-methods.md
-    - name: إعداد بطاقة الائتمان والتفويض والالتقاط
+    - name: إعداد وتفويض والتقاط بطاقة الائتمان
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: تكوين الفئات النقدية لـ POS
+    - name: تكوين الفئات النقدية لنقطة البيع
       href: cash-denominations.md
+    - name: إعداد سيناريوهات دفع الفواتير
+      href: payinvoice.md
     - name: الأسئلة المتداولة حول الدفعات
       href: dev-itpro/payments-retail.md
 - name: أوامر الشراء
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: إظهار إخطارات الأوامر في نقطة البيع
       href: Notifications-POS.md
+- name: تكوين ومعالجة عملية استبدال في أمر إرجاع
+  href: orderexchanges.md
 - name: الرصد والتحليل
   items:
     - name: رصد أداء المبيعات والهامش
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: تعديلات الأسعار والخصومات
       href: price-adjustments-discounts.md
+    - name: تطبيق خصومات بيع بالتجزئة متعددة على منتج
+      href: Apply-multiple-retail-discounts.md
     - name: تحديد المجموعة المثلى من الخصومات المتداخلة
       href: optimal-combination-overlapping-discounts.md
     - name: تحديد الخصومات الخاصة بالقناة
@@ -488,7 +496,9 @@
       items:
         - name: تخطيط شاشة Retail POS
           href: pos-screen-layouts.md
-        - name: تثبيت مصمم تخطيط POS
+        - name: فتح عنوان URL في نقطة البيع
+          href: Open-URL-in-POS.md
+        - name: تثبيت مصمم تخطيط نقطة البيع
           href: install-pos-layout-designer.md
         - name: Retail Modern POS في وضع دون اتصال
           href: dev-itpro/retail-modern-pos-offline.md
@@ -508,6 +518,10 @@
           href: dev-itpro/gift-card.md
         - name: إنشاء العلامة التجارية وتطبيقها على تطبيق Retail Experience
           href: dev-itpro/create-retail-experience-app.md
+        - name: إعداد تطبيق POS Hybrid في Android وiOS
+          href: dev-itpro/hybridApp.md
+        - name: تجاوز معالج طلب نقطة البيع
+          href: dev-itpro/pos-handler.md
     - name: Hardware Station وقابلية التوسعة
       href: dev-itpro/hardware-station-extensibility.md
     - name: قابلية توسعة Retail Server
@@ -562,10 +576,14 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: إنشاء Windows installer لموصلات المدفوعات
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: استخدام بيانات الدفع
+          href: payment-connector-data-fields.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: دمج نظام البناء للبيع بالتجزئة وFinance and Operations
+        - name: التغييرات القادمة في Retail SDK
+          href: dev-itpro/UpcomingSDKChanges.md
+        - name: دمج أنظمة البناء لكل من Retail وFinance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: نماذج قابلية توسعة Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md

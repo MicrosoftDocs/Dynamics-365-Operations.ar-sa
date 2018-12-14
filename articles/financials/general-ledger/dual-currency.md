@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>العملة المزدوجة
+
+[!include [banner](../includes/banner.md)]
 
 تسمح الوظيفة التي تم تقديمها في Microsoft Dynamics 365 for Finance and Operations، الإصدار 8.1 (أكتوبر 2018) بتغيير الهدف الغرض من عملة التقارير واستخدامها كعملة محاسبة ثانية. يشار إلى هذه الوظيفة باسم *العملة المزدوجة*. لا يمكن إيقاف تشغيل تغييرات العملة المزدوجة من خلال مفتاح أو معلمة تكوين. ونظرًا لاستخدام عملة التقارير كعملة محاسبة ثانية، طرأ تغيير على طريقة حساب عملة التقارير في منطق الترحيل.
 
@@ -67,8 +69,8 @@ ms.lasthandoff: 11/01/2018
 
 - [دفتر الأستاذ العام](#general-ledger)
 - [التقارير المالية](#financial-reporting)
-- [حسابات دائنة](#accounts-payable/accounts-receivable)
-- [حسابات مدينة](#accounts-payable/accounts-receivable)
+- [حسابات دائنة](#accounts-payable-and-accounts-receivable)
+- [حسابات مدينة](#accounts-payable-and-accounts-receivable)
 - [إدارة النقد والبنوك](#cash-and-bank-management)
 - [الأصول الثابتة](#fixed-assets)
 
@@ -90,7 +92,7 @@ ms.lasthandoff: 11/01/2018
 
 يتوفر هذا التغيير من خلال إعداد **عرض العملة** في تعريف العمود. إذا حددت **عملة التقارير‏‎ من دفتر الأستاذ**، فلن يتم تحويل المبالغ في العمود. بدلاً من ذلك، يتم الإبلاغ عنها مباشرة من دفتر الأستاذ العام. إذا أردت أن يعرض العمود المبالغ المحوّلة، فحدد الخيار **تحويل XXXX**، حيي يمثل *XXXX* عملة التقارير التي يجب أن يعرضها العمود. في هذه الحالة، سيتم تحويل مبالغ عملة التقارير إلى العملة المحددة عن طريق استخدام وظيفة التحويل الموجودة.
 
-### <a name="accounts-payableaccounts-receivable"></a>الحسابات الدائنة/الحسابات المدينة
+### <a name="accounts-payable-and-accounts-receivable"></a>الحسابات الدائنة والحسابات المدينة
 
 قامت الوحدات النمطية **الحسابات المدينة** و**الحسابات الدائنة** بتعقب مبالغ عملة التقارير. ومع ذلك، لم تظهر المبالغ أو لم يتم استخدامها لعمليات متنوعة. تم إدخال التغييرات التالية:
 
