@@ -32,38 +32,46 @@ ms.lasthandoff: 09/17/2018
 تسرد هذه الصفحة فيديوهات "المساعدة" والحديث التقني التي تم إنشاؤها لصالح Microsoft والمتعلقة بـ Dynamics 365 for Finance and Operations المتاحة على YouTube ومواقع أخرى.
 
 ## <a name="dynamics-365-youtube-channel"></a>قناة Dynamics 365 على YouTube
+
 من [قناة Microsoft Dynamics 365 على YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)، يمكنك البحث عن ملفات الفيديو التي أنشأتها Microsoft والتي توضح عدد كبير من حلول الأعمال الخاصة بمنتجات Dynamics 365. يسرد هذا القسم فيديوهات "المساعدة" لـ Dynamics 365 for Finance and Operations التي تتم استضافتها على القناة.
 
-يتم سرد ملفات الفيديو حسب الميزة، لذا قم بالتمرير لأسفل لمشاهدة قائمة كاملة بمحتويات الفيديو.  
+يتم سرد ملفات الفيديو حسب الميزة، لذا قم بالتمرير لأسفل لمشاهدة قائمة كاملة بمحتويات الفيديو.
 
 #### <a name="data-integration"></a>تكامل البيانات
-- [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg) 
+
+- [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg)
 - [مزامنة أمر عمل بين Dynamics 365 for Field Service وFinance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>إدارة البيانات
+
 - [استخدام وحدات البيانات وحزم البيانات في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
-#### <a name="development"></a>التطوير 
+#### <a name="development"></a>التطوير
+
 - [مرشد تحسين الأداء](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [إعداد فرع التطوير والبناء](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [إعداد جهاز التطوير](https://www.youtube.com/watch?v=cqp9MetfiyM)
 - [تكامل Azure Devops مع Lifecycle services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
 #### <a name="explore-the-user-interface"></a>استكشاف واجهة المستخدم
+
 - [إضافة حقول مخصصة](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [تضمين PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 #### <a name="financial-management"></a>الإدارة المالية
+
 - [العثور على الإصدار الخاص بمصمم التقارير](https://www.youtube.com/embed/icfA5Q3kp4w)
 - [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
 - [بدء الاستخدام في ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
 - [استخدام Excel لتحليل التكلفة](https://youtu.be/-HKHYdClvx8)
 
 #### <a name="intelligence"></a>المعلومات
+
 - [إحضار قاعدة بياناتك الخاصة (BYOD) إلى Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [كيفية استخدام محتوى إدارة التكلفة في Power BI في Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services ‏(LCS)
+
 - [مكتبة الأصول في Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
 - [بيئات مستضافة على الشبكة السحابية](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
 - [إنشاء تذاكر دعم من Dynamics 365 for Operations](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
@@ -81,42 +89,53 @@ ms.lasthandoff: 09/17/2018
 - [استخدام القياس عن بعد لمراقبة عدادات الأداء في Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
 #### <a name="office-integration"></a>تكامل Office
+
 - [إنشاء قالب Excel لأنماط الرأس والنقوش في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
 #### <a name="organization-administration"></a>إدارة المؤسسة
+
 - [إدارة المستندات](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
 #### <a name="procurement-and-sourcing"></a>التدبير والتوريد
+
 - [الموافقة على أوامر الشراء على جهاز محمول](https://youtu.be/gZ-gOlJe7H8)
 - [تعيين مورّد جديد](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
 
 #### <a name="production-control"></a>التحكم بالإنتاج
+
 - [موازنة الدفعات](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [تحسينات عملية إصدار أمر إنتاج](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدُفعية](https://youtu.be/BtbuShkGj4I)
 
 #### <a name="tax-engine"></a>محرك الضريبة
+
 - [نظرة عامة على محرك الضريبة](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 #### <a name="warehouse-management"></a>إدارة المستودعات
+
 - [انتقاء الإنتاج للإصدار إلى المستودع في مجموعة](https://youtu.be/8urAJn50dQ8)
 - [استخدام قالب المستودع لنسخ التكوين](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 ## <a name="fasttrack-tech-talks"></a>الأحاديث الفنية لـ FastTrack
+
 تركز [الأحاديث التقنية لـ FastTrack for Dynamics 365](https://infopedia.eventbuilder.com/index?landingpageid=92tzhl) على توفير عمق تقني وأفضل الممارسات ما يوفر للعملاء والشركاء المعرفة المفصلة بنواحي الموضوع. يسرد القسم التالي تسجيلات الحديث التقني لـ FastTrack المتوفر للبث أو للتحميل. يمكنك أيضا تنزيل نسخة PDF لمجموعة العروض التقديمية من موقع "الحديث التقني". 
 
 #### <a name="data-management"></a>إدارة البيانات
+
 - [نسخ إلى الكيان القانوني (DYN383PAL)](https://infopedia.eventbuilder.com/event?eventid=q3h0m7&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [إدارة البيانات (DYN445PAL2)](https://infopedia.eventbuilder.com/event?eventid=a7n1v0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [تقليل بيانات الاستيراد والتصدير باستخدام تكوينات (DYN315PAL)](https://infopedia.eventbuilder.com/event?eventid=s6v1q3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="demo-data"></a>بيانات العرض التوضيحي
+
 - [إضافة حزم البيانات (DYN443PAL)](https://infopedia.eventbuilder.com/event?eventid=m2r4o6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="deployment"></a>النشر 
+#### <a name="deployment"></a>النشر
+
 - [النشر المحلي (DYN382PAL2)](https://infopedia.eventbuilder.com/event?eventid=m9i7a2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="develop-and-customize"></a>التطوير والإصدار
+
 - [أدوات تكامل Azure لـ Dynamics 365 for Finance and Operations (DYN386PAL)](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [القابلية للتوسعة (DYN384PAL2)](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [كيفية توسيع أو بناء مساحات عمل تحليلية جديدة (DYN321PAL)](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
@@ -124,10 +143,12 @@ ms.lasthandoff: 09/17/2018
 - [نهج اختبار الأداء (DYN449PAL)](https://infopedia.eventbuilder.com/event?eventid=i1u5m9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="financial-reporting"></a>التقارير المالية
+
 - [التقارير المالية (DYN305PAL)](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) 
 - [خيارات التقرير في Dynamics 365 for Finance and Operations (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="integration"></a>التكامل 
+#### <a name="integration"></a>التكامل
+
 - [موحد بيانات CDS (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [التكامل (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [التكامل بين Dynamics 365 for Sales و Dynamics 365 for Finance & Operations عن طريق CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
@@ -135,26 +156,32 @@ ms.lasthandoff: 09/17/2018
 - [إطار عمل أتمتة المهام لإدارة البيانات (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 
 #### <a name="intelligence"></a>المعلومات
+
 - [خيارات التحليلات وإعداد التقارير والطباعة ووكيل توجيه المستند (DYN442PAL)](https://infopedia.eventbuilder.com/event?eventid=r6d9a6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [تقديم مساحات العمل التحليلية (DYN317PAL)](https://infopedia.eventbuilder.com/event?eventid=h6e1a7&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="mobile"></a>الهاتف الجوال
+
 - [مساحة عمل المصروفات والمشروع للأجهزة المحمولة (DYN379PAL2)](https://infopedia.eventbuilder.com/event?eventid=u0g9h5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [إطار عمل الأجهزة المحمولة (VIR824PAL)](https://infopedia.eventbuilder.com/event?eventid=p2o7n7&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="procurement-and-sourcing"></a>التدبير والتوريد
+
 - [الاختراق (DYN332PAL2)](https://infopedia.eventbuilder.com/event?eventid=w5u5q8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [تعاون المورد (DYN327PAL)](https://infopedia.eventbuilder.com/event?eventid=c3e4c0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="retail"></a>Retail
+
 - [قابلية توسعة نقطة بيع Dynamics 365 for Retail : بحث شامل (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [بنية Retail ووحدة قياس متجر Retail (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [ما الجديد في قابلية توسعة نقطة بيع Dynamics 365 for Retail (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>الدعم
+
 - [الخدمة (VIR805PAL)](https://infopedia.eventbuilder.com/event?eventid=c2k8k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="upgrade-and-migration"></a>الترقية والترحيل
+
 - [أدوات ترحيل AX 2009 إلى Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [أدوات ترحيل AX 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [ترقية AX 2012 إلى Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
@@ -162,6 +189,7 @@ ms.lasthandoff: 09/17/2018
 - [Azure DevOps إعداد (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="warehouse-management"></a>إدارة المستودعات
+
 - [إضافات إلى استلام لوحة الترخيص المختلطة (DYN331PAL)](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [تزويد الطلب لانتقاء المواد الخام (DYN333PAL2)](https://infopedia.eventbuilder.com/event?eventid=i5p9d2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [عملية ترحيل الأصناف والمستودع لاستخدام إدارة المستودع المتقدمة (DYN316PAL)](https://infopedia.eventbuilder.com/event?eventid=w0k4b4&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)

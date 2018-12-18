@@ -51,7 +51,7 @@ ms.lasthandoff: 08/08/2018
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">إعداد مشروع</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">الإعداد للعرض المباشر</a></p>
-  
+
 <h3><a href="../financials/index.md">الإدارة المالية</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">حسابات دائنة</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">الحسابات المدينة</a></p>
@@ -65,7 +65,7 @@ ms.lasthandoff: 08/08/2018
 <p><a href="../financials/public-sector/public-sector-functionality.md">القطاع العام</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">الميزات التنظيمية الإقليمية</a></p>
 
-<H3><a href="hr/hr-landing-page.md">الموارد البشرية</a></h3>
+<h3><a href="hr/hr-landing-page.md">الموارد البشرية</a></h3>
 <p><a href="../talent/manage-benefit-program.md">ميزات</a></p>
 <p><a href="../talent/performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
 <p><a href="../talent/questionnaires.md">الاستبيان</a></p>
