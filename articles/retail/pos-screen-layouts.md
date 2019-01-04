@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/13/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![كيانات تخطيط شاشة نقطة البيع](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a><span data-ttu-id="c1071-108">ملف التعريف المرئي</span><span class="sxs-lookup"><span data-stu-id="c1071-108">Visual profile</span></span>
+
 <span data-ttu-id="c1071-109">يتم تعيين ملفات التعريف المرئية إلى السجلات، وتقوم الملفات بتحديد العناصر المرئية المسجلة خصيصًا والمشتركة عبر المستخدمين.</span><span class="sxs-lookup"><span data-stu-id="c1071-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="c1071-110">سوف يرى كل مستخدم يقوم بتسجيل الدخول إلى السجل نفس النسق والألوان والصور.</span><span class="sxs-lookup"><span data-stu-id="c1071-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
 
 ![شاشة ترحيب نقطة البيع بنسق فاتح](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - <span data-ttu-id="c1071-123">**خلفية التطبيق** - يمكنك تحديد صورة الخلفية المستخدمة بدلًا من لون السمة المجسم عبر التطبيق.</span><span class="sxs-lookup"><span data-stu-id="c1071-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="c1071-124">أما فيما يتعلق بخلفيات تسجيل الدخول، يجب الحفاظ على حجم الملف صغيرًا قدر الإمكان.</span><span class="sxs-lookup"><span data-stu-id="c1071-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
 
 ## <a name="screen-layouts"></a><span data-ttu-id="c1071-125">تخطيطات الشاشة</span><span class="sxs-lookup"><span data-stu-id="c1071-125">Screen layouts</span></span>
+
 <span data-ttu-id="c1071-126">تحدد تكوينات تخطيط الشاشة الإجراءات والمحتوى وموضع عناصر تحكم واجهة المستحدم في  شاشة ترحيب نقطة البيع وشاشة **الحركة**.</span><span class="sxs-lookup"><span data-stu-id="c1071-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
 
 ![عرض مخطط شاشة نقطة البيع](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![أحجام تخطيط نقطة البيع](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a><span data-ttu-id="c1071-163">أشرطة الأوامر</span><span class="sxs-lookup"><span data-stu-id="c1071-163">Button grids</span></span>
+
 <span data-ttu-id="c1071-164">بالنسبة لكل حجم تخطيط في تخطيط شاشة، يمكنك تكوين شبكات الأزرار وتعيينها لشاشة ترجيب نقة البيع وشاشة **الحركة**.</span><span class="sxs-lookup"><span data-stu-id="c1071-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="c1071-165">يتم تخطيط أشرطة الأوامر لشاشة الترحيب تلقائيًا من اليسار إلى اليمين، من العدد الأقل (شاشة الترحيب 1) إلى أعلى رقم.</span><span class="sxs-lookup"><span data-stu-id="c1071-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
 
 <span data-ttu-id="c1071-166">في تخطيطات نقطة البيع الكاملة، يتم تحديد موضع أشرطة الأوامر في مصمم تخطيط الشاشة.</span><span class="sxs-lookup"><span data-stu-id="c1071-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![أشرطة أوامر تخطيط الأجهزة صغيرة الحجم](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a><span data-ttu-id="c1071-170">الصور</span><span class="sxs-lookup"><span data-stu-id="c1071-170">Images</span></span>
+
 <span data-ttu-id="c1071-171">لكل حجم تخطيط في تخطيط شاشة، يمكنك تحديد الصور لتضمينها في واجهة مستخدم نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="c1071-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="c1071-172">بالنسبة لتخطيطات نقطة البيع الكاملة، يمكن تحديد صورة واحدة لشاشة الترحيب.</span><span class="sxs-lookup"><span data-stu-id="c1071-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="c1071-173">تظهر هذه الصورة كأول عنصر واجهة مستخدم على الجانب الأيمن.</span><span class="sxs-lookup"><span data-stu-id="c1071-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="c1071-174">على شاشة **الحركة** يمكن استخدام الصور كصور في علامات التبويب أو كشعار.</span><span class="sxs-lookup"><span data-stu-id="c1071-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="c1071-175">لا تستخدم تخطيطات نقطة البيع صغيرة الحجم هذه الصور.</span><span class="sxs-lookup"><span data-stu-id="c1071-175">Compact POS layouts don't use these images.</span></span>
 
 ### <a name="screen-layout-designer"></a><span data-ttu-id="c1071-176">مصمم تخطيط الشاشة</span><span class="sxs-lookup"><span data-stu-id="c1071-176">Screen layout designer</span></span>
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - <span data-ttu-id="c1071-222">**عنصر تحكم مخصص** – يعمل عنصر التحكم المخصص كعنصر نائب داخل تخطيط الشاشة، ويسمح لك بحجز مساحة للمحتوى المخصص.</span><span class="sxs-lookup"><span data-stu-id="c1071-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="c1071-223">يتوفر عنصر تحكم مخصص للتخطيطات الكاملة فقط.</span><span class="sxs-lookup"><span data-stu-id="c1071-223">The custom control is available only for Full layouts.</span></span>
 
 ### <a name="compact-layout-designer"></a><span data-ttu-id="c1071-224">مصمم تخطيط الأجهزة صغيرة الحجم</span><span class="sxs-lookup"><span data-stu-id="c1071-224">Compact layout designer</span></span>
+
 <span data-ttu-id="c1071-225">وعلى غرار مصمم التخطيط الكامل، يسمح لك مصمم تخطيط الأجهزة صغيرة الحجم بتكوين تخطيط شاشة نقطة البيع للهواتف أو أجهزة الكمبيوتر اللوحية الصغيرة.</span><span class="sxs-lookup"><span data-stu-id="c1071-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="c1071-226">ولكن، في هذه الحالة، يتم تثبيت التخطيط نفسه.</span><span class="sxs-lookup"><span data-stu-id="c1071-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="c1071-227">يمكنك تكوين العديد من عناصر التحكم في التخطيط عن طريق النقر بزر الماوس الأيمن واستخدام القائمة المختصرة.</span><span class="sxs-lookup"><span data-stu-id="c1071-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="c1071-228">ولكن، لا يمكنك استخدام عمليات السحب والإفلات لمحتوى إضافي.</span><span class="sxs-lookup"><span data-stu-id="c1071-228">However, you can't use drag-and-drop operations for additional content.</span></span>
 
 ![مصمم تخطيط الأجهزة صغيرة الحجم](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a><span data-ttu-id="c1071-230">مصمم شريط الأوامر</span><span class="sxs-lookup"><span data-stu-id="c1071-230">Button grid designer</span></span>
+
 <span data-ttu-id="c1071-231">يسمح لك مصمم شريط أوامر بتكوين أشرطة الأوامر التي يمكن استخدامها في شاشة ترحيب نقطة البيع وشاشة **الحركة** لكل من تخطيطات الأجهزة كاملة الحجم وصغيرة الحجم.</span><span class="sxs-lookup"><span data-stu-id="c1071-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="c1071-232">يمكن استخدام نفس شريط الأوامر عبر التخطيطات وأنواع التخطيطات.</span><span class="sxs-lookup"><span data-stu-id="c1071-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="c1071-233">على غرار مصمم تخطيط الشاشة، يستخدم مصمم شريط الأوامر تقنية نشر ClickOnce لتنزيل وتثبيت وتشغيل أحدث إصدار من التطبيق في كل مرة يقوم المستخدم بالدخول إلى المصمم.</span><span class="sxs-lookup"><span data-stu-id="c1071-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="c1071-234">يجب عليك التحقق من متطلبات المستعرض لـ ClickOnce.</span><span class="sxs-lookup"><span data-stu-id="c1071-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="c1071-235">تتطلب بعض المستعرضات مثل Google Chrome وجود ملحقات.</span><span class="sxs-lookup"><span data-stu-id="c1071-235">Some browsers, such as Google Chrome, require extensions.</span></span>
 
 ![مصمم شريط الأوامر](../retail/media/Button-Grid-Designer.png)

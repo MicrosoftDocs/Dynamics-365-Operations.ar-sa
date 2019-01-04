@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 84d0eda16b4f3d8570d3594a06e6ddb7eb4717c9
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
 ms.contentlocale: ar-sa
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -35,15 +35,13 @@ ms.lasthandoff: 09/11/2018
 
 <span data-ttu-id="3c762-105">كجزء من Dynamics 365 for Retail، يستطيع المستخدمون دراسة اتجاهات وأنماط المبيعات في الوقت الحقيقي عبر مختلف مستويات التدرج الهرمي للمؤسسة على مدى فترة مكونة من سنوات باستخدام تقرير **قناة المبيعات حسب السنة‬** الجاهز.</span><span class="sxs-lookup"><span data-stu-id="3c762-105">As part of Dynamics 365 for Retail, users can study sales trends and patterns in real time across different levels of the organization hierarchy over a period of years by using the out-of-box **Channel sales by year** report.</span></span> <span data-ttu-id="3c762-106">يمكنك فتح هذا التقرير من أي من المواقع التالية:</span><span class="sxs-lookup"><span data-stu-id="3c762-106">You can open this report from any of the following locations:</span></span>
 
--   <span data-ttu-id="3c762-107">مساحة عمل **إدارة متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير قناة المبيعات حسب السنة**</span><span class="sxs-lookup"><span data-stu-id="3c762-107">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
--   <span data-ttu-id="3c762-108">مساحة عمل **ماليات متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **ماليات متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير قناة المبيعات حسب السنة**</span><span class="sxs-lookup"><span data-stu-id="3c762-108">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
--   <span data-ttu-id="3c762-109">قسم **الاستعلامات والتقارير** &gt; **البيع بالتجزئة** &gt; **الاستعلامات والتقارير** &gt; **تقارير المبيعات** &gt; **تقرير قناة المبيعات حسب السنة**</span><span class="sxs-lookup"><span data-stu-id="3c762-109">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by year report**</span></span>
+- <span data-ttu-id="3c762-107">مساحة عمل **إدارة متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير قناة المبيعات حسب السنة**</span><span class="sxs-lookup"><span data-stu-id="3c762-107">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+- <span data-ttu-id="3c762-108">مساحة عمل **ماليات متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **ماليات متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير قناة المبيعات حسب السنة**</span><span class="sxs-lookup"><span data-stu-id="3c762-108">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+- <span data-ttu-id="3c762-109">قسم **الاستعلامات والتقارير** &gt; **البيع بالتجزئة** &gt; **الاستعلامات والتقارير** &gt; **تقارير المبيعات** &gt; **تقرير قناة المبيعات حسب السنة**</span><span class="sxs-lookup"><span data-stu-id="3c762-109">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by year report**</span></span>
 
 <span data-ttu-id="3c762-110">يستطيع المستخدمون أيضًا دراسة اتجاهات وأنماط المبيعات في الساعة عبر مختلف مستويات التدرج الهرمي للمؤسسة على مدى فترة محددة باستخدام تقرير **قناة المبيعات حسب الساعة‬** الجاهز.</span><span class="sxs-lookup"><span data-stu-id="3c762-110">Users can also study sales trends and patterns by hour across different levels of the organization hierarchy over a selected period by using the out-of-box **Channel sales by hour** report.</span></span> <span data-ttu-id="3c762-111">يمكنك فتح هذا التقرير من أي من المواقع التالية:</span><span class="sxs-lookup"><span data-stu-id="3c762-111">You can open this report from any of the following locations:</span></span>
 
--   <span data-ttu-id="3c762-112">مساحة عمل **إدارة متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير قناة المبيعات حسب الساعة**</span><span class="sxs-lookup"><span data-stu-id="3c762-112">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
--   <span data-ttu-id="3c762-113">مساحة عمل **ماليات متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **ماليات متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير قناة المبيعات حسب الساعة**</span><span class="sxs-lookup"><span data-stu-id="3c762-113">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
--   <span data-ttu-id="3c762-114">قسم**الاستعلامات والتقارير** &gt; **البيع بالتجزئة** &gt; **الاستعلامات والتقارير** &gt; **تقارير المبيعات** &gt; **تقرير قناة المبيعات حسب الساعة**</span><span class="sxs-lookup"><span data-stu-id="3c762-114">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by hour report**</span></span>
-
-
+- <span data-ttu-id="3c762-112">مساحة عمل **إدارة متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير قناة المبيعات حسب الساعة**</span><span class="sxs-lookup"><span data-stu-id="3c762-112">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+- <span data-ttu-id="3c762-113">مساحة عمل **ماليات متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **ماليات متجر البيع بالتجزئة** &gt; **التقارير** &gt; **تقرير قناة المبيعات حسب الساعة**</span><span class="sxs-lookup"><span data-stu-id="3c762-113">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+- <span data-ttu-id="3c762-114">قسم**الاستعلامات والتقارير** &gt; **البيع بالتجزئة** &gt; **الاستعلامات والتقارير** &gt; **تقارير المبيعات** &gt; **تقرير قناة المبيعات حسب الساعة**</span><span class="sxs-lookup"><span data-stu-id="3c762-114">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by hour report**</span></span>
 

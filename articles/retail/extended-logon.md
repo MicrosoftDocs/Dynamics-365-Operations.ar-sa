@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c5771146723b791eb0b3eb5f571ef012cfaadcb9
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -68,7 +68,4 @@ ms.lasthandoff: 08/08/2018
 ## <a name="using-extended-logon"></a><span data-ttu-id="7ba4d-133">استخدام تسجيل الدخول الموسع</span><span class="sxs-lookup"><span data-stu-id="7ba4d-133">Using extended logon</span></span>
 
 <span data-ttu-id="7ba4d-134">عندما يتم تكوين تسجيل الدخول الموسع، وقام عامل بتعيين الرمز الشريطي أو الشريط المغناطيسي، يجب على العامل أن يقوم بتمرير البطاقة أو مسحها بينما يتم عرض صفحة تسجيل دخول نقطة البيع.</span><span class="sxs-lookup"><span data-stu-id="7ba4d-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="7ba4d-135">إذا كانت كلمة مرور مطلوبة أيضًا قبل إمكانية متابعة تسجيل الدخول، فإنه تتم مطالبة العامل بإدخال كلمة المرور الخاصة به.</span><span class="sxs-lookup"><span data-stu-id="7ba4d-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
-
-
-
 
