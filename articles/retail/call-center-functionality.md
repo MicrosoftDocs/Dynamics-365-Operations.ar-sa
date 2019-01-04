@@ -42,25 +42,30 @@ ms.lasthandoff: 08/08/2018
 توفر هذه الصفحة ارتباطات إلى الوثائق ذات الصلة المتعلقة بالإعداد والتكوين، واستخدام ميزات مركز اتصال في Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>تكوين مركز الاتصال
+
 [إعداد خيارات معالجة الأوامر](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>تكوين معالجة الأمر
+
 [إعداد تنبيهات الاحتيال](set-up-fraud-alerts.md)
 
 [الاحتفاظ بالأوامر يدويًا](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>تكوين معالجة الدفع
+
 [طرق الدفع في مركز الاتصال](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>تكوين أوضاع التسليم
+
 [تكوين أوضاع تسليم مركز الاتصال والمصاريف](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>تكوين التسويق المباشر
+
 [كتالوجات مركز الاتصال](call-center-catalogs.md)
 
 [إعداد تحليل RFM](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>تكوين برامج الاستمرارية
-[إعداد برنامج استمرارية لمركز اتصال](set-up-continuity-program.md)
 
+[إعداد برنامج استمرارية لمركز اتصال](set-up-continuity-program.md)
 
