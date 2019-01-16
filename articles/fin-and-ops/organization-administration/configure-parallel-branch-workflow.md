@@ -18,40 +18,38 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: a0359f8312e5e3fe1349dbc89831c98c46cd61ff
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 73626ad21dfe2be7400f321a3eee272c896276f3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
-# <a name="configure-parallel-branches-in-a-workflow"></a><span data-ttu-id="df175-103">تكوين فروع موازٍية في سير عمل</span><span class="sxs-lookup"><span data-stu-id="df175-103">Configure parallel branches in a workflow</span></span>
+# <a name="configure-parallel-branches-in-a-workflow"></a><span data-ttu-id="a3d81-103">تكوين فروع موازٍية في سير عمل</span><span class="sxs-lookup"><span data-stu-id="a3d81-103">Configure parallel branches in a workflow</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="df175-104">لتكوين فرع موازٍ، أكمل الإجراءات التالية في محرر سير العمل.</span><span class="sxs-lookup"><span data-stu-id="df175-104">To configure a parallel branch, complete the following procedures in the workflow editor.</span></span>
+<span data-ttu-id="a3d81-104">لتكوين فرع موازٍ، أكمل الإجراءات التالية في محرر سير العمل.</span><span class="sxs-lookup"><span data-stu-id="a3d81-104">To configure a parallel branch, complete the following procedures in the workflow editor.</span></span>
 
-<span data-ttu-id="df175-105">الفرع الموازي هو بشكل أساسي سير عمل يتم تشغيله في سياق سير عمل أصلي.</span><span class="sxs-lookup"><span data-stu-id="df175-105">A parallel branch is essentially a workflow that runs in the context of a parent workflow.</span></span>
+<span data-ttu-id="a3d81-105">الفرع الموازي هو بشكل أساسي سير عمل يتم تشغيله في سياق سير عمل أصلي.</span><span class="sxs-lookup"><span data-stu-id="a3d81-105">A parallel branch is essentially a workflow that runs in the context of a parent workflow.</span></span>
 
-## <a name="name-a-branch"></a><span data-ttu-id="df175-106">تسمية فرع</span><span class="sxs-lookup"><span data-stu-id="df175-106">Name a branch</span></span>
-<span data-ttu-id="df175-107">اتبع الخطوات التالية لإدخال اسم للفرع الموازي.</span><span class="sxs-lookup"><span data-stu-id="df175-107">Follow these steps to enter a name for a parallel branch.</span></span>
-1.  <span data-ttu-id="df175-108">انقر بزر الماوس الأيمن فوق الفرع الموازي، ثم انقر فوق **خصائص**.</span><span class="sxs-lookup"><span data-stu-id="df175-108">Right-click the parallel branch, and then click **Properties**.</span></span> <span data-ttu-id="df175-109">يظهر النموذج **خصائص**.</span><span class="sxs-lookup"><span data-stu-id="df175-109">The **Properties** form is displayed.</span></span>
-2.  <span data-ttu-id="df175-110">في الجزء الأيمن، انقر فوق **الإعدادات الأساسية‬**.</span><span class="sxs-lookup"><span data-stu-id="df175-110">In the left pane, click **Basic Settings**.</span></span>
-3.  <span data-ttu-id="df175-111">في حقل **الاسم**، أدخل اسمًا فريدًا للفرع الموازي.</span><span class="sxs-lookup"><span data-stu-id="df175-111">In the **Name** field, enter a unique name for the parallel branch.</span></span>
-4.  <span data-ttu-id="df175-112">انقر فوق **إغلاق**.</span><span class="sxs-lookup"><span data-stu-id="df175-112">Click **Close**.</span></span>
+## <a name="name-a-branch"></a><span data-ttu-id="a3d81-106">تسمية فرع</span><span class="sxs-lookup"><span data-stu-id="a3d81-106">Name a branch</span></span>
 
-## <a name="design-and-configure-the-elements-of-a-branch"></a><span data-ttu-id="df175-113">تصميم وتكوين عناصر الفرع</span><span class="sxs-lookup"><span data-stu-id="df175-113">Design and configure the elements of a branch</span></span>
-<span data-ttu-id="df175-114">اتبع هذه الخطوات لتصميم وتكوين عناصر الفرع الموازي.</span><span class="sxs-lookup"><span data-stu-id="df175-114">Follow these steps to design and configure the elements of a parallel branch.</span></span>
-1.  <span data-ttu-id="df175-115">انقر نقرًا مزدوجًا فوق الفرع الموازي.</span><span class="sxs-lookup"><span data-stu-id="df175-115">Double-click the parallel branch.</span></span>
-2.  <span data-ttu-id="df175-116">اسحب عناصر سير العمل إلى لوحة الرسم، ثم قم بتكوين العناصر، تمامًا كما تفعل لإنشاء أي سير عمل آخر.</span><span class="sxs-lookup"><span data-stu-id="df175-116">Drag workflow elements onto the canvas, and then configure the elements, just as you would to create any other workflow.</span></span> <span data-ttu-id="df175-117">لمزيد من المعلومات، راجع إنشاء سير عمل.</span><span class="sxs-lookup"><span data-stu-id="df175-117">For more information, see Create a workflow.</span></span>
+<span data-ttu-id="a3d81-107">اتبع الخطوات التالية لإدخال اسم للفرع الموازي.</span><span class="sxs-lookup"><span data-stu-id="a3d81-107">Follow these steps to enter a name for a parallel branch.</span></span>
 
+1. <span data-ttu-id="a3d81-108">انقر بزر الماوس الأيمن فوق الفرع الموازي، ثم انقر فوق **خصائص**.</span><span class="sxs-lookup"><span data-stu-id="a3d81-108">Right-click the parallel branch, and then click **Properties**.</span></span> <span data-ttu-id="a3d81-109">يظهر النموذج **خصائص**.</span><span class="sxs-lookup"><span data-stu-id="a3d81-109">The **Properties** form is displayed.</span></span>
+2. <span data-ttu-id="a3d81-110">في الجزء الأيمن، انقر فوق **الإعدادات الأساسية‬**.</span><span class="sxs-lookup"><span data-stu-id="a3d81-110">In the left pane, click **Basic Settings**.</span></span>
+3. <span data-ttu-id="a3d81-111">في حقل **الاسم**، أدخل اسمًا فريدًا للفرع الموازي.</span><span class="sxs-lookup"><span data-stu-id="a3d81-111">In the **Name** field, enter a unique name for the parallel branch.</span></span>
+4. <span data-ttu-id="a3d81-112">انقر فوق **إغلاق**.</span><span class="sxs-lookup"><span data-stu-id="a3d81-112">Click **Close**.</span></span>
 
+## <a name="design-and-configure-the-elements-of-a-branch"></a><span data-ttu-id="a3d81-113">تصميم وتكوين عناصر الفرع</span><span class="sxs-lookup"><span data-stu-id="a3d81-113">Design and configure the elements of a branch</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="df175-118">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="df175-118">Additional resources</span></span>
---------
+<span data-ttu-id="a3d81-114">اتبع هذه الخطوات لتصميم وتكوين عناصر الفرع الموازي.</span><span class="sxs-lookup"><span data-stu-id="a3d81-114">Follow these steps to design and configure the elements of a parallel branch.</span></span>
 
-[<span data-ttu-id="df175-119">إنشاء سير عمل</span><span class="sxs-lookup"><span data-stu-id="df175-119">Create a workflow</span></span>](create-workflow.md)
+1. <span data-ttu-id="a3d81-115">انقر نقرًا مزدوجًا فوق الفرع الموازي.</span><span class="sxs-lookup"><span data-stu-id="a3d81-115">Double-click the parallel branch.</span></span>
+2. <span data-ttu-id="a3d81-116">اسحب عناصر سير العمل إلى لوحة الرسم، ثم قم بتكوين العناصر، تمامًا كما تفعل لإنشاء أي سير عمل آخر.</span><span class="sxs-lookup"><span data-stu-id="a3d81-116">Drag workflow elements onto the canvas, and then configure the elements, just as you would to create any other workflow.</span></span> <span data-ttu-id="a3d81-117">لمزيد من المعلومات، راجع [إنشاء سير عمل](create-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="a3d81-117">For more information, see [Create a workflow](create-workflow.md).</span></span>
 
+## <a name="additional-resources"></a><span data-ttu-id="a3d81-118">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="a3d81-118">Additional resources</span></span>
 
-
+[<span data-ttu-id="a3d81-119">إنشاء سير عمل</span><span class="sxs-lookup"><span data-stu-id="a3d81-119">Create a workflow</span></span>](create-workflow.md)
 
