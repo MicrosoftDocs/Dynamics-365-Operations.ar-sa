@@ -3,7 +3,7 @@ title: "الأبعاد المالية"
 description: "يصف هذا الموضوع مختلف أنواع الأبعاد المالية وكيفية إعدادها."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ ms.lasthandoff: 11/05/2018
 يتم التحكم في هذه الميزة عن طريق الإعداد في البُعد. يسمى هذا الإعداد **نسخ القيم لهذا البعد في كل DimensionName جديد يتم إنشائه**، حيث يكون **DimensionName** هو  اسم البعد. بشكل افتراضي، يتم إيقاف تشغيل الميزة. ومع ذلكن فإنه يمكن تشغيلها في أي وقت.
 
 إذا كانت هناك سجلات موجود بالفعل للبعد، يتم تحديث السجلات الرئيسية عند تشغيل هذه الميزة. ومع ذلك، لا يتم تحديث المستندات الموجودة والحركات.
+
+إذا كنت تستخدم قالبًا لإنشاء سجل رئيسي، فتأكد من أن قيمة القالب للبعد الرئيسي فارغة. على سبيل المثال، إذا كنت تعمل على إنشاء عملاء من قالب، فتأكد من أن بُعد العميل في القالب فارغ. ستكون قيمة بُعد العميل بشكل افتراضي القيمة من رقم العميل الجديد عندما تقوم بإنشاء عميل جديد.  
 
 ## <a name="derived-dimensions"></a>الأبعاد المشتقة
 

@@ -3,7 +3,7 @@ title: "إعدادات المسؤول في Attract"
 description: "تشرح هذه المقالة كيفية تمكين وظيفة الميزات للمؤسسات والمستخدمين في Attract."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 52b48d5daab985c43d59f29ad7b80dda99a7fcef
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
 ms.contentlocale: ar-sa
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 10/22/2018
 
 ## <a name="linkedin-integration"></a>تكامل LinkedIn
 
-قم بإعداد التكامل مع LinkedIn Recruiter System Connect (RSC). بعد أن تتصل بـ LinkedIn باستخدام بيانات اعتمادك في LinkedIn، يمكنك مزامنة ملف تعريف LinkedIn للمرشح واستمارات التقديم وملاحظات المقابلة وملاحظات فريق التوظيف. يجب توفر ترخيص مسؤول تعيين LinkedIn الكامل. للحصول على مزيد من المعلومات حول RSC، راجع [Recruiter System Connect (RSC) – الأسئلة المتداولة حول](https://www.linkedin.com/help/recruiter/answer/90483).
+قم بإعداد التكامل مع LinkedIn Recruiter System Connect (RSC). بعد أن تتصل بـ LinkedIn باستخدام بيانات اعتمادك في LinkedIn، يمكنك مزامنة ملف تعريف LinkedIn للمرشح واستمارات التقديم وملاحظات المقابلة وملاحظات فريق التوظيف. يجب توفر ترخيص مسؤول تعيين LinkedIn الكامل. للحصول على مزيد من المعلومات حول LinkedIn Recruiter، راجع [Recruiter System Connect (RSC) – الأسئلة المتداولة](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>أذونات المستخدم
 

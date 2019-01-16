@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 4fac04d1ea028bae9323b7961e64f3e49b74e482
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/08/2018
 
 يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (أغسطس 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX. لم يتم إصدار مكتبة بدء استخدام جديدة.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
----------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
 
 تحتوي المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) على دلائل المهام المخصصة للاستخدام مع تعليمات التحديث 2 للنظام الأساسي Microsoft Dynamics AX (أغسطس 2016) وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 لتطبيق Microsoft Dynamics AX. لمزيد من المعلومات حول هذه الإصدارات، راجع [ما هو الجديد أو المتغير](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md).
 
@@ -95,17 +94,11 @@ ms.lasthandoff: 08/08/2018
 |-----------------------------------------------------------------------------|----------------|
 | إعداد عنصر قائمة جهاز محمول لإكمال عمل من النوع "أمر الشراء" | عمومي         |
 
-
-
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [دلائل المهام الجديدة (فبراير 2016)](new-task-guides-available-february-2016.md)
 
 [دلائل المهام الجديدة أو المحدثة (مايو 2016)](new-updated-task-guides-available-may-2016.md)
 
 [دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)](new-task-guides-november-2016.md)
-
-
-
 
