@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8dcba52526dd9dad1bd8b9753224f6386923f5a1
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 08/08/2018
 
 إذا تم تشغيل علامة **تمكين إكمال الأوامر** في قناة مركز الاتصال، فلا يجب بالضرورة تطبيق الدفع على أمر تم وضعه قيد الانتظار. وعلى النقيض، بالنسبة لأمر المبيعات الذي لم يتم وضعه قيد الانتظار، فلا يمكن للمستخدمين مغادرة صفحة إدخال أمر المبيعات حتى يتم تطبيق الدفع. بالطبع، سوف تتم المطالبة بالدفع قبل إصدار تعليق الأمر.
 
-بالإضافة إلى ذلك، يمكن لمستخدمي مركز الاتصال وضع تعليق احتيال يدويًا على الأوامر المشبوهة لسبب ما. يمكن وضع الأوامر قيد الانتظار تلقائيًا عندما تتطابق مع معايير احتيال وقواعد نشطة. للحصول على مزيد من المعلومات عن هذا النوع من تعليق الأمر، راجع [إعداد تنبيهات الاحتيال](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+بالإضافة إلى ذلك، يمكن لمستخدمي مركز الاتصال وضع تعليق احتيال يدويًا على الأوامر المشبوهة لسبب ما. يمكن وضع الأوامر قيد الانتظار تلقائيًا عندما تتطابق مع معايير احتيال وقواعد نشطة. للحصول على مزيد من المعلومات عن هذا النوع من تعليق الأمر، راجع [إعداد تنبيهات الاحتيال](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>عرض الأوامر قيد الانتظار وإدارتها
 

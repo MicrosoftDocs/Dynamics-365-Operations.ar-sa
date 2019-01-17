@@ -3,7 +3,7 @@ title: "نظرة عامة على التسوية"
 description: "توفر هذه المقالة معلومات عامة حول عملية التسوية. فهي تصف أنواع الحركات التي يمكن تسويتها، متى وكيف يمكن تسوية الحركات، ونتائج عملية التسوية."
 author: kweekley
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2018
 
 ---
 
@@ -52,5 +52,8 @@ ms.lasthandoff: 11/03/2017
 
 إذا كانت [دفعة أقل من مبلغ الفاتورة](../accounts-payable/vendor-payments-partial-amount.md) بسبب الخصم النقدي أو الشطب أو النقصان، فلا يزال من الممكن إغلاق الفاتورة والدفعة، وفقًا لإعداد التسوية في معلمات الحسابات الدائنة ومعلمات الحسابات المدينة. كما يمكن للتسوية إنشاء الحركات. على سبيل المثال، قد تنتج تسوية الفاتورة والدفعة خصمًا نقديًا أو أرباح محققة أو تسويات ضريبة المبيعات أو عمليات الشطب أو الفروق النقدية.
 
+
+## <a name="additional-resources"></a>الموارد الإضافية
+- [تسوية المبلغ المتبقي](settle-remainder.md)
 
 

@@ -7,6 +7,10 @@
         - name: ما الجديد أو المتغير
           href: whats-new.md
           items:
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(14 ديسمبر 2018)
+              href: whats-new-talent-december-14.md
+            - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(6 ديسمبر 2018)
+              href: whats-new-talent-december-6.md
             - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(27 نوفمبر 2018)
               href: whats-new-talent-november-27.md
             - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(15 نوفمبر 2018)
@@ -71,6 +75,8 @@
     - name: إدارة الإجازة والغياب
       href: leave-absence-overview.md
       items:
+        - name: مفاهيم الإجازة والغياب
+          href: leave-absence-concepts.md
         - name: زمن التوقف المستحق على أساس ساعات العمل
           href: leave-accrue-hours-worked.md
         - name: تقويمات أوقات العمل
@@ -128,10 +134,13 @@
         - name: إعداد الدورات التدريبية
           href: courses.md
     - name: تحديد وإدارة برنامج ميزات
-      href: manage-benefit-program.md
-    - name: سياسات استحقاق الميزات
-      href: benefit-eligibility-policies.md
       items:
+        - name: إدارة برنامج ميزات
+          href: manage-benefit-program.md
+        - name: سياسات استحقاق الميزات
+          href: benefit-eligibility-policies.md
+        - name: إنشاء تقارير قانون الرعاية ميسورة التكلفة (Affordable Care Act)
+          href: generate-aca-reports.md
         - name: إدارة الأصناف المعارة للعاملين
           href: loan-items.md
     - name: جمع المعلومات باستخدام الاستبيانات
@@ -276,8 +285,6 @@
           href: create-envi-powerapps-admin-ctr.md
         - name: قطع اتصال عميل Talent
           href: client-disconnects.md
-        - name: كيفية التعامل مع النسخ الاحتياطية لقاعدة البيانات
-          href: database-backups.md
         - name: تجنب اقتطاع نص في التدرج الهرمي للمناصب والتصدير إلى Visio
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: تشغيل عملية التعويض

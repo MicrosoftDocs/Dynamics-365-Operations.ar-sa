@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: إصدار تغييرات قابلية التوسعة 8.1.2
               href: extensibility/extensibility-changes-812.md
+            - name: إصدار تغييرات قابلية التوسعة 8.1.3
+              href: extensibility/extensibility-changes-813.md
         - name: القواعد الأساسية
           items:
             - name: تخصيصات متداخلة
@@ -883,12 +885,33 @@
       href: deployment/deploy-demo-environment.md
     - name: النشر عبر السحابة
       items:
+        - name: نشر الخدمة الذاتية
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: نشر بيئة جديدة
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: الأسئلة المتداولة حول النشر
+              href: deployment/deploymentFAQ.md
+            - name: المشكلات المعروفة المتعلقة بنشر الخدمة الذاتية
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: عمليات الصيانة لعمليات النشر
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: تحديث بيئة
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: استكشاف الأخطاء وإصلاحها في البيئات التي تم نشرها عبر نشر الخدمة الذاتية
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: إتمام إعداد مدير موارد Azure
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute وFinance and Operations
           href: deployment/expressroute.md
         - name: هندسة Finance and Operations
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: تطبيق التحديثات على بيئات السحابة
+          href: deployment/apply-deployable-package-system.md
+        - name: تطبيق التحديثات والملحقات على مكونات قناة Retail المستضافة في السحابة
+          href: deployment/Update-retail-channel.md
+        - name: تهيئة مكونات قناة Retail المستضافة في السحابة
+          href: deployment/Initialize-Retail-Channels.md
     - name: النشر المحلي
       href: deployment/on-premises-deployment-landing-page.md
       items:
@@ -931,8 +954,6 @@
       items:
         - name: إنشاء حزم نماذج قابلة للنشر
           href: deployment/create-apply-deployable-package.md
-        - name: تطبيق التحديثات على بيئات السحابة
-          href: deployment/apply-deployable-package-system.md
         - name: تثبيت حزم قابلة للنشر من سطر الأوامر
           href: deployment/install-deployable-package.md
         - name: إزالة تثبيت حزمة
@@ -1021,8 +1042,6 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: ترقية النظام الأساسي لـ Dynamics AX إلى إصدار أغسطس 2016
           href: migration-upgrade/update-platform-each-release.md
-        - name: ترقية بيئات وضع الحماية
-          href: migration-upgrade/upgrade-sandbox-environment.md
         - name: ترقية البيانات في بيئات التطوير أو العرض التوضيحي أو بيئة الاختبار المعزولة
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: ترقية أدوات التطوير
