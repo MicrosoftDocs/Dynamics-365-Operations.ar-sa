@@ -26,7 +26,6 @@ ms.lasthandoff: 12/06/2018
 # <a name="process-collection-letters"></a>معالجة خطابات التحصيل
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء وطباعة وترحيل خطابات التحصيل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
