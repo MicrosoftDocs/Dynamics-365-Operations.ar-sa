@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 تُعد الأقسام والوظائف والمناصب العناصر التنظيمية التي يتم الاحتفاظ بها ضمن الموارد البشرية. يصف هذا الموضوع معلومات تصورية حول هذه العناصر. 
 
