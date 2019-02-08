@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="963c7-104">يصف هذا الموضوع العناصر التصورية التي يمكن أن تشملها الوظيفة، ويوفر أمثلة على كيفية استخدام هذه العناصر في مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="963c7-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/08/2018
 ## <a name="job-titles"></a><span data-ttu-id="963c7-115">المسميات الوظيفية</span><span class="sxs-lookup"><span data-stu-id="963c7-115">Job titles</span></span>
 <span data-ttu-id="963c7-116">قبل إنشاء الوظائف، يجب عليك إعداد المسميات الخاصة بهذه الوظائف.</span><span class="sxs-lookup"><span data-stu-id="963c7-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="963c7-117">ترث المناصب مسميات الوظائف من الوظائف التي تم إقران المناصب معها.</span><span class="sxs-lookup"><span data-stu-id="963c7-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="963c7-118">الاحتفاظ بالمسميات الوظيفية باستخدام صفحة **العناوين**، والتي يمكنك فتحها باستخدام وظيفة البحث.</span><span class="sxs-lookup"><span data-stu-id="963c7-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="963c7-119">في صفحة **العناوين**، قم بإدخال العناوين التي تخطط لاستخدامها لوظائفك.</span><span class="sxs-lookup"><span data-stu-id="963c7-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="963c7-118">الاحتفاظ بالمسميات الوظيفية باستخدام صفحة **العناوين**، والتي يمكنك فتحها باستخدام وظيفة البحث.</span><span class="sxs-lookup"><span data-stu-id="963c7-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="963c7-119">في صفحة **العناوين**، قم بإدخال العناوين التي تخطط لاستخدامها لوظائفك.</span><span class="sxs-lookup"><span data-stu-id="963c7-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="963c7-120">أنواع الوظيفة</span><span class="sxs-lookup"><span data-stu-id="963c7-120">Job types</span></span>
 <span data-ttu-id="963c7-121">استخدم أنواع الوظائف لتجميع وظائف مماثلة في فئات.</span><span class="sxs-lookup"><span data-stu-id="963c7-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="963c7-122">أنواع الوظائف ليست مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="963c7-122">Job types aren't required.</span></span> <span data-ttu-id="963c7-123">وبالرغم من هذا، إذا كنت تخطط لاستخدام أنواع الوظائف عندما تقوم بإعداد قواعد الأهلية لإدارة تعويض، فيجب عليك إعداد أنواع الوظائف قبل إعداد الوظائف.</span><span class="sxs-lookup"><span data-stu-id="963c7-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="963c7-124">بعض أمثلة أنواع الوظائف هي الدوام الكامل والدوام الجزئي أو الراتب والدفع بالساعة.</span><span class="sxs-lookup"><span data-stu-id="963c7-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="963c7-125">يمكنك الاحتفاظ بأنواع الوظائف باستخدام صفحة **أنواع الوظائف**.</span><span class="sxs-lookup"><span data-stu-id="963c7-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="963c7-126">في صفحة **أنواع الوظائف**، قم بإدخال الاسم ووصفًا مختصرًا لنوع الوظيفة.</span><span class="sxs-lookup"><span data-stu-id="963c7-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="963c7-127">في حقل **حالة الإعفاء**، حدد أحد الخيارات التالية للإشارة إلى حالة الإعفاء لهذه الوظائف في قانون معايير العمل العادل (FLSA) والتي لها نوع الوظيفة هذا.</span><span class="sxs-lookup"><span data-stu-id="963c7-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
