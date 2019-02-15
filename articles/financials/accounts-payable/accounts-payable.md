@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية للحسابات الدائنة"
-description: "يقدم هذا الموضوع نظرة عامة على الحسابات الدائنة."
+title: الصفحة الرئيسية للحسابات الدائنة
+description: يقدم هذا الموضوع نظرة عامة على الحسابات الدائنة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7bc09cbd108949b37ea1b2207fc3e0c6961abf4b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301855"
 ---
-
 # <a name="accounts-payable-home-page"></a>الصفحة الرئيسية للحسابات الدائنة
 
 [!include [banner](../includes/banner.md)]
@@ -124,23 +123,22 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
+انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على الآراء واﻷخبار والمعلومات الأخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة وحلول أخرى في مدونة [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-هناك العديد من المنشورات حول الحسابات الدائنة على [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق من الحسابات الدائنة، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
+هناك العديد من المنشورات حول الحسابات الدائنة في [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). وعلى الرغم من كتابة بعض هذه المنشورات للإصدار السابق من الحسابات الدائنة، إلا أن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي.
 
-تزود [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) شركاء Microsoft Dynamics بمورد واحد يمكنهم فيه معرفة الجديد والشائع في MBS Operations.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
 
 #### <a name="task-guides"></a>دلائل المهام
-تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+تتوفر تعليمات إضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
 
-#### <a name="videos"></a>مقاطع الفيديو
+#### <a name="videos"></a>مقاطع فيديو
 
-اسحب ملفات الفيديو‬ التي تشرح الطريقة‬ والمتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

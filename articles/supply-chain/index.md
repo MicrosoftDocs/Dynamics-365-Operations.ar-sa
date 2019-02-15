@@ -1,31 +1,30 @@
 ---
-title: "الصفحة الرئيسية لإدارة سلسة التوريد"
-description: "توفر هذه الصفحة قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations."
+title: الصفحة الرئيسية لإدارة سلسة التوريد
+description: توفر هذه الصفحة قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/09/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301871"
 ---
-
 # <a name="supply-chain-management-home-page"></a>الصفحة الرئيسية لإدارة سلسة التوريد
 
 [!include [banner](includes/banner.md)]
@@ -37,13 +36,13 @@ ms.lasthandoff: 05/09/2018
 
 ## <a name="core-concepts-and-tasks"></a>المفاهيم الأساسية والمهام
 
-حدد منطقة ميزة لمعرفة المزيد حول هذا الموضوع.
+حدد منطقة ميزة لمعرفة المزيد عنها.
 
 - [محاسبة التكاليف](../financials/cost-accounting/cost-accounting-home-page.md)
 - [إدارة التكلفة](cost-management/cost-management-home-page.md)  
 - [إدارة المخزون](inventory/inventory-home-page.md)
 - [التخطيط الرئيسي](master-planning/master-planning-home-page.md)
-- [التدبير وتحديد الموارد](procurement/procurement-sourcing-overview.md)
+- [التدبير والتوريد](procurement/procurement-sourcing-overview.md)
 - [إدارة معلومات المنتج](pim/product-information.md)
 - [التحكم بالإنتاج](production-control/production-process-overview.md)
 - [المبيعات والتسويق](sales-marketing/overview-sales-marketing.md)
@@ -51,21 +50,21 @@ ms.lasthandoff: 05/09/2018
 - [إدارة النقل](transportation/transportation-management-overview.md)
 - [إدارة المستودعات](warehousing/warehouse-configuration.md)
 
-## <a name="videos"></a>مقاطع الفيديو
+## <a name="videos"></a>مقاطع فيديو
 
-تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations، الإصدار 8.0 (أبريل 2017).
+تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations الإصدار 8.0 (أبريل 2018).
 
 - [مزامنة أمر عمل بين Field Service وFinance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise Edition 7.3 (ديسمبر2017).
+تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ديسمبر 2017).
 
 -  [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg) 
 -  [مرشد تحسين الأداء](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [استخدام قالب المستودع لنسخ التكوين](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (يوليو 2017).
+تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017).
 
--  [بدء الاستخدام في ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
+-  [بدء ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
 -  [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
 -  [استخدام Excel لتحليل التكلفة](https://youtu.be/-HKHYdClvx8)
 -  [الموافقة على أوامر الشراء على جهاز محمول](https://youtu.be/gZ-gOlJe7H8)
@@ -81,7 +80,7 @@ ms.lasthandoff: 05/09/2018
 
 -  [توسيع وظيفة التنبؤ بالطلب](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها](https://youtu.be/7v8BPmEs9Dg)
--  [التعليمات! تخطيط متطلبات المواد (MRP) بطيء!](https://youtu.be/RLXybx20B5o)
+-  [المساعدة! التخطيط الرئيسي (MRP) بطيء!](https://youtu.be/RLXybx20B5o)
 
 **إدارة معلومات المنتج**
 
@@ -90,10 +89,10 @@ ms.lasthandoff: 05/09/2018
 **إدارة المستودعات** 
 
 <!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
--  [الاستفادة إلى أقصى حد من نظام إدارة المستودعات](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [تحقيق أقصى استفادة من نظام إدارة المستودعات](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [إدارة المستودعات المتقدمة R3 - معالجة الوارد و‏‫الحد الأدنى/الحد الأقصى لعملية التزويد‬](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
--  [إدارة المستودعات المتقدمة R3 - يوم من الحياة، ومعالجة الصادر وتزويد الطلب](https://youtu.be/Og0gLlVp7jA)
--  [التسميات في إدارة مستودعات Microsoft Dynamics AX 2012 R3 الجديد](https://youtu.be/5w1MngVchBA)
+-  [إدارة المستودعات المتقدمة R3 - يوم من الحياة، معالجة الصادر وتزويد الطلب](https://youtu.be/Og0gLlVp7jA)
+-  [التسميات في إدارة المستودعات في Microsoft Dynamics AX 2012 R3 الجديد](https://youtu.be/5w1MngVchBA)
 -  [Dynamics AX 2012 R3: إدارة المستودعات المتقدمة - يوم في حياة التصنيع التحويلي](https://www.youtube.com/embed/QUxXUrN-7n4)
 
 **التحكم بالإنتاج**
@@ -105,16 +104,15 @@ ms.lasthandoff: 05/09/2018
 -  [إدارة النقل (TMS) في Microsoft Dynamics AX الجديد](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>المدونات
-هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد ضمن <a href="https://blogs.msdn.microsoft.com/axmfg/">مدونة فريق بحث وتطوير Dynamics AX Manufacturing</a> و<a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX</a>. وقد تمت كتابة معظم هذه المنشورات للإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي. 
+هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد في <a href="https://blogs.msdn.microsoft.com/axmfg/">مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن التصنيع</a> و<a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن سلسلة التوريد</a>. وقد تمت كتابة معظم هذه المنشورات للإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي. 
 
 ## <a name="white-papers"></a>المستندات التقنية
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">المختبرات المتاحة لمحاسبة التكاليف</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">‏‫حساب قائمة مكونات الصنف (BOM) ‏‫باستخدام كشف التكاليف‬‏‫‬‬</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">إمكانية التنقل في المستودع التي يتم تسهيلها بواسطة ‏‏Microsoft Dynamics 365 for Finance and Operations‏</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">سهولة إمكانية التنقل في المستودع من خلال Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>دورات التعليم الإلكتروني
-للاطلاع على معلومات حول تدريب Microsoft Dynamics 365 for Finance and Operations، راجع <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> مدخل تعلم Microsoft Dynamics</a>. (يتطلب حساب CustomerSource) 
-
+لمزيد من المعلومات حول التدريب على Microsoft Dynamics 365 for Finance and Operations، راجع <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> مدخل تعلم Microsoft Dynamics</a>. (يحتاج إلى حساب CustomerSource) 
 
 

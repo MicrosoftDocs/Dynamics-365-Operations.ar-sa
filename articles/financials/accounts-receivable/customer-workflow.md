@@ -1,13 +1,13 @@
 ---
-title: "سير عمل العميل"
-description: "يوفر هذا الموضوع معلومات حول سير عمل العميل. يمكنك تغيير حقول محددة لأحد العملاء، ثم إرسال هذه التغييرات للموافقة عليها باستخدام سير العمل قبل إضافتها إلى العميل."
+title: سير عمل العميل
+description: يوفر هذا الموضوع معلومات حول سير عمل العميل. يمكنك تغيير حقول محددة لأحد العملاء، ثم إرسال هذه التغييرات للموافقة عليها باستخدام سير العمل قبل إضافتها إلى العميل.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301861"
 ---
-
 # <a name="customer-workflow"></a>سير عمل العميل
 
 [!include [banner](../includes/banner.md)]
 
-تمت إضافة سير عمل العميل إلى Microsoft Dynamics 365 for Finance and Operations، الإصدار 8.0.4. يمكنك تغيير حقول محددة لأحد العملاء، ثم إرسال هذه التغييرات للموافقة عليها باستخدام سير العمل قبل إضافتها إلى العميل.
+تمت إضافة سير عمل العميل إلى الإصدار 8.0.4 من Microsoft Dynamics 365 for Finance and Operations. يمكنك تغيير حقول محددة لأحد العملاء، ثم إرسال هذه التغييرات للموافقة عليها باستخدام سير العمل قبل إضافتها إلى العميل.
 
 ## <a name="set-up-the-customer-workflow"></a>إعداد سير عمل العميل
 
@@ -62,4 +61,3 @@ ms.lasthandoff: 08/31/2018
     تم تغيير الحالة على الصفحة إلى **الموافقة على التغييرات المعلقة**.
 
 يتبع سير العمل عملية سير العمل القياسية في Finance and Operations. يتم توجيه القائم بالموافقة إلى صفحة **العميل**، حيث يمكنه مراجعة التغييرات في صفحة **التغييرات المقترحة** ثم تحديد **سير العمل \> الموافقة** للموافقة على سير العمل. بعد إكمال جميع الموافقات، يتم تحديث الحقول بالقيم التي اقترحتها.
-

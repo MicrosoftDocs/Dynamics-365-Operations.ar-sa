@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية للإدارة المالية"
-description: "يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات الإدارة المالية في Microsoft Dynamics 365 for Finance and Operations."
+title: الصفحة الرئيسية للإدارة المالية
+description: يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات الإدارة المالية في Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 437c9ba7142dadcb49c9255b119586598511453d
+ms.sourcegitcommit: cbc5a4f0d752d4f147fe269e4d7a2460f772c95b
 ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
-ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "307930"
 ---
-
 # <a name="financial-management-home-page"></a>الصفحة الرئيسية للإدارة المالية
 
 [!include [banner](includes/banner.md)]
 
 يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات الإدارة المالية في Microsoft Dynamics 365 for Finance and Operations. 
 
-حدد منطقة ميزة لمعرفة المزيد حول هذا الموضوع.
+حدد منطقة ميزة لمعرفة المزيد عنها.
 
 :::row:::
     :::column:::
@@ -56,21 +55,18 @@ ms.lasthandoff: 08/08/2018
 
 ### <a name="blogs"></a>المدونات
 
-يمكنك العثور على الآراء واﻷخبار والمعلومات الأخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-هناك العديد من المنشورات حول الإدارة المالية على [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). على الرغم من أن بعض هذه المنشورات تمت كتابتها لإصدار قديم من المنتج، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
-
-تزود [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) شركاء Microsoft Dynamics بمورد واحد يمكنهم فيه معرفة الجديد والشائع في MBS Operations.
+- [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [مدونة Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>دلائل المهام
-تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+تتوفر تعليمات إضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
 
-### <a name="videos"></a>مقاطع الفيديو
+### <a name="videos"></a>مقاطع فيديو
 
-اسحب ملفات الفيديو‬ التي تشرح الطريقة‬ والمتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="countryregion-functionality"></a>وظيفة البلد/المنطقة
 
-تؤثر لوائح البلد/المنطقة في إعداد الضريبة والجوانب الأخرى للإدارة المالية. ارجع إلى قسم [الترجمة والميزات التنظيمية](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) للاطلاع على محتوى تعليماتنا للتعرف إلى الوظيفة الخاصة بالبلد/المنطقة.
-
+تؤثر لوائح البلد/المنطقة في إعداد الضرائب وجوانب أخرى في الإدارة المالية. ارجع إلى قسم [الترجمة والميزات التنظيمية](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) للاطلاع على محتوى تعليماتنا للتعرف إلى الوظيفة الخاصة بالبلد/المنطقة.
 

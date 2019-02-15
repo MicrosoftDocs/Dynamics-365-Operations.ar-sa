@@ -1,29 +1,29 @@
 ---
-title: "إدارة الأوامر الموزعة (DOM)"
-description: "يصف هذا الموضوع وظيفة إدارة الأوامر الموزعة (DOM) في Microsoft Dynamics 365 for Retail."
+title: إدارة الأوامر الموزعة (DOM)
+description: يصف هذا الموضوع وظيفة إدارة الأوامر الموزعة (DOM) في Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301865"
 ---
 # <a name="distributed-order-management-dom"></a>إدارة الأوامر الموزعة (DOM)
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 12/04/2018
     - **نصف قطر منطقة المخزن المحلي‬** – أدخل قيمة. يساعد هذا الحقل على تحديد كيفية تجميع المواقع واعتبارها متساوية من ناحية المسافة. على سبيل المثال، إذا أدخلت **100**، فيستم اعتبار كل متجر أو مركز توزيع ضمن نطاق نصف قطر من 100 ميل من عنوان التنفيذ متساويًا من ناحية المسافة.
     - **نوع الحلول‬** – حدد قيمة. هناك نوعان من الحلول تم إصدارهما مع Retail: **حلول الإنتاج** و**الحلول المُبسطة‬**. بالنسبة إلى جميع الأجهزة التي ستقوم بتشغيل DOM (أي، جميع الخوادم التي تعد جزءًا من مجموعة DOMBatch)، يجب تحديد **حلول الإنتاج**. تحتاج حلول الإنتاج إلى مفتاح الترخيص الذي يتم ترخيصه ونشره في بيئات الإنتاج بشكل افتراضي. بالنسبة إلى البيئات التي لا علاقة لها بالإنتاج، يجب نشر مفتاح الترخيص يدويًا. لنشر مفتاح الترخيص يدويًا، اتبع الخطوات التالية:
 
-        1. في Microsoft Dynamics Lifecycle Services، افتح مكتبة الأصول المشتركة‬، وحدد **النموذج** كنوع أصول، وقم بتنزيل ملف **ترخيص DOM**.
+        1. في Microsoft Dynamics Lifecycle Services، افتح مكتبة الأصول المشتركة‬، وحدد **النموذج** كنوع الأصول، وقم بتنزيل ملف **ترخيص DOM**.
         2. ابدأ تشغيل Microsoft Internet Information Services (IIS) Manager، وانقر بزر الماوس الأيمن فوق **AOSService website**، ثم حدد **استكشاف**. تفتح نافذة مستكشف Windows في **\<AOS service root\>\\webroot**. سجّل المسار \<AOS Service root\>، لأنك ستستخدمه في الخطوة التالية.
         3. انسخ ملف التكوين في الدليل **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
         4. انتقل إلى عميل Retail Headquarters، وافتح صفحة **معلمات DOM**. على علامة تبويب **الحلول**، في الحقل **نوع الحلول**، حدد **حلول الإنتاج**، وتأكد من عدم ظهور رسائل خطأ.
@@ -229,4 +229,3 @@ ms.lasthandoff: 12/04/2018
 - في الوقت الحالي، تنظر وظيفة DOM فقط إلى الأوامر التي تم إنشاؤها من قنوات البيع بالتجزئة. ويتم التعرف على أوامر المبيعات كأوامر مبيعات بالتجزئة عند تعيين الخيار **بيع بالتجزئة** إلى **نعم**.
 - لم تختبر Microsoft وظيفة DOM مع الميزات المتقدمة لإدارة المستودعات. يتعين على العملاء والشركاء توخي الحذر لتحديد ما إذا كانت وظيفة DOM متوافقة مع قدرات وعمليات الإدارة المتقدمة للمستودعات ذات الصلة بهم
 - تتوفر وظيفة DOM فقط على إصدار Retail في السحابة. وهي غير معتمدة في عمليات النشر المحلي.
-

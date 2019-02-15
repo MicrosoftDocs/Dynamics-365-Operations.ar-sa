@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية للمعلومات المهنية (BI) وإعداد التقارير"
-description: "يوجهك هذا الموضوع إلى الموارد التي يمكنك اتباعها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations."
+title: الصفحة الرئيسية للمعلومات المهنية (BI) وإعداد التقارير
+description: يوجهك هذا الموضوع إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,39 +17,38 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301843"
 ---
-
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>الصفحة الرئيسية للمعلومات المهنية (BI) وإعداد التقارير
 
 [!include [banner](../includes/banner.md)]
 
-يوجهك هذا الموضوع إلى الموارد التي يمكنك اتباعها لمعرفة المزيد حول المعلومات المهنية (BI) وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations.
+يوجهك هذا الموضوع إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية (BI) وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations.
 
-## <a name="get-started"></a>بدء الاستخدام
+## <a name="get-started"></a>البدء
 - [الوصول إلى المعلومات وإعداد التقارير](information-access-reporting.md)
-- [حديث فني‬: خيارات إعداد التقارير](https://www.youtube.com/watch?v=NzZONjKs5xA) (فيديو)
+- [حديث تقني: خيارات إعداد التقارير](https://www.youtube.com/watch?v=NzZONjKs5xA) (فيديو)
 - [Finance and Operations: المعلومات المهنية](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (مدونة)
 
 ## <a name="analytical-workspaces"></a>مساحات العمل التحليلية
-يوفر Finance and Operations تقارير تفاعلية يتم تضمينها بسلاسة في مساحات عمل التطبيق. يمكن لمساحات العمل استخدام المرئيات ومخططات المعلومات الرسومية المدعومة بواسطة Microsoft Power BI. تشتمل هذه المرئيات ومخططات المعلومات الرسومية على العديد من عناصر التحكم التي تم توفيرها من قِبل جهات خارجية. ولذلك، يمكن لمساحات العمل توفير تجربة مرئية وتفاعلية عالية للمستخدمين.
+يوفر Finance and Operations تقارير تفاعلية يتم تضمينها بسلاسة في مساحات عمل التطبيق. بإمكان مساحات العمل استخدام مرئيات ومخططات معلومات رسومية غنية يدعمها Microsoft Power BI. تشتمل هذه المرئيات ومخططات المعلومات الرسومية على العديد من عناصر التحكم التي توفرها جهات خارجية. ولذلك، يمكن لمساحات العمل توفير تجربة مرئية وتفاعلية عالية للمستخدمين.
 
 يمكن للمستخدمين التفاعل مع البيانات عن طريق لمس أو النقر فوق المرئيات في الصفحة. يمكنهم مشاهدة السبب والأثر والقيام بعمليات ماذا لو البسيطة دون مغادرة مساحة العمل. بفضل المرئيات الرائعة والتفاعلية، سيتمتع المستخدمون لديك باستكشاف البيانات واكتشاف الاتجاهات المخفية.
 
-![مثال لـ Power BI في مساحة عمل](./media/Power-BI-in-D365-Workspace.png)
+![مثال عن Power BI في مساحة عمل](./media/Power-BI-in-D365-Workspace.png)
 
 لمعرفة المزيد، راجع المواضيع التالية:
 
-- [Power BI المضمن في مساحات العمل](embed-power-bi-workspaces.md)
+- [Embedded Power BI في مساحات العمل](embed-power-bi-workspaces.md)
 - [تكامل Power BI Embedded](power-bi-embedded-integration.md)
-- [إضافة التحليلات إلى مساحات العمل باستخدام Power BI Embedded](add-analytics-tab-workspaces.md)
+- [إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded](add-analytics-tab-workspaces.md)
 - [المساعدة في حماية مساحات العمل والتقارير التحليلية باستخدام Power BI Embedded](secure-analytical-workspaces.md)
-- [محتوى Power BI لـ Finance and Operations](power-bi-home-page.md)
+- [محتوى Power BI في Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>مستندات الأعمال والطباعة
 يتم استخدام حلول إعداد التقارير عادةً لالتقاط التفاصيل الخاصة بحركات الأعمال والإبلاغ عنها. ولذلك، يجب أن يكون حل إعداد التقارير قادرًا على إنتاج إيضاحات فعلية لبيانات العمل باستخدام الأجهزة الموجودة، مثل طابعات الشبكات. تتضمن أمثلة مستندات الأعمال فواتير المبيعات وكشوف حسابات العملاء والشيكات.
@@ -91,4 +90,3 @@ ms.lasthandoff: 08/08/2018
 - [تقرير أكواد التراخيص ومفاتيح التكوين](../sysadmin/license-codes-configuration-keys-report.md)
 - [تقرير SQL Server Reporting Services](SSRS-report.md)
 - [تقرير أنواع سير العمل](../../fin-and-ops/organization-administration/workflow-types-report.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية للحسابات المدينة"
-description: "استخدم حسابات مدينة لتعقب فواتير العملاء والمدفوعات الواردة."
+title: الصفحة الرئيسية للحسابات المدينة
+description: استخدم حسابات مدينة لتعقب فواتير العملاء والمدفوعات الواردة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301873"
 ---
-
 # <a name="accounts-receivable-home-page"></a>الصفحة الرئيسية للحسابات المدينة
 
 [!include [banner](../includes/banner.md)]
@@ -45,20 +44,20 @@ ms.lasthandoff: 08/08/2018
 
 :::row:::
     :::column:::
-        - [توزيعات محاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي للفواتير ذات النص الحر](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [ملفات تعريف ترحيل العملاء](customer-posting-profiles.md)
-        - [إعداد بطاقة الائتمان والتفويض والالتقاط](credit-card-authorizations.md)
+        - [التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي للفواتير ذات النص الحر](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [ملفات تعريف ترحيل العميل](customer-posting-profiles.md)
+        - [إعداد بطاقة الائتمان وتفويضها والتقاطها](credit-card-authorizations.md)
         - [إنشاء فاتورة عميل](configure-customer-invoices.md)
-        - [إعداد الفواتير المتكررة ومعالجتها](set-up-process-recurring-invoices.md)
+        - [إعداد ومعالجة الفواتير المتكررة](set-up-process-recurring-invoices.md)
         - [تصحيح فاتورة ذات نص حر](correct-free-text-invoice.md)
     :::column-end:::
     :::column:::
         - [إعداد الكمبيالات](set-up-bills-exchange.md)
-        - [إعداد أسعار الفائدة لكود الفائدة](set-up-interest-rates-interest-code.md)
-        - [‏‫التنازل عن رسوم الفائدة أو إعادة المطالبة بها أو عكسها‬](waive-reinstate-reverse-interest-fees.md)
-        - [نظرة عامة على الخصم المباشر عن طريق سيبا](sepa-direct-debit-overview.md)
+        - [إعداد معدلات الفائدة لكود فائدة](set-up-interest-rates-interest-code.md)
+        - [التنازل عن رسوم الفائدة أو إعادة المطالبة بها أو عكسها](waive-reinstate-reverse-interest-fees.md)
+        - [نظرة عامة على دين سيبا المباشر](sepa-direct-debit-overview.md)
         - [إعداد تفويض الخصم المباشر عن طريق سيبا‬](sepa-direct-debit-mandate.md)
-        - [‏‫إقفال الحسابات المدينة‬](close-accounts-receivable.md)
+        - [إقفال الحسابات المدينة](close-accounts-receivable.md)
     :::column-end:::
 :::row-end:::
 
@@ -79,16 +78,16 @@ ms.lasthandoff: 08/08/2018
 
 :::row:::
     :::column:::
-        - [استخدام دفع عميل لتسوية الفواتير المتعددة التي تمتد لتحتوي على عدة فترات خصم‬](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [المدفوعات المركزية للحسابات المدينة](centralized-payments-accounts-receivable.md)
-        - [‬‏‫تسوية دفعة عميل جزئية أو دفعة نهائية بالكامل قبل تاريخ الخصم](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [تسوية دفعة عميل جزئية قبل تاريخ الخصم مع دفعة نهائية بعد تاريخ الخصم‬](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+        - [استخدام دفعة عميل واحدة لتسوية فواتير متعددة تمتد عبر عدة فترات خصم](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+        - [الدفعات المركزية للحسابات المدينة](centralized-payments-accounts-receivable.md)
+        - [تسوية دفعة جزئية لعميل والدفعة النهائية بالكامل قبل تاريخ الخصم](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+        - [تسوية دفع جزئي لعميل قبل تاريخ الخصم مع دفعة نهائية بعد تاريخ الخصم](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
     :::column-end:::
     :::column:::
-        - [‏‫تسوية دفعة جزئية لعميل لديه خصومات على الإشعارات الدائنة](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [‏‫تسوية دفعة عميل جزئية تحتوي على عدة فترات خصم‬](settle-partial-customer-payment-multiple-discount-periods.md)
+        - [تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة للمورد](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [تسوية دفعة عميل جزئية تحتوي على عدة فترات خصم](settle-partial-customer-payment-multiple-discount-periods.md)
         - [عملاء التعويض](reimburse-customers.md)
-        - [‏‫دفعات العميل لمبلغ جزئي‬](customer-payments-partial-amount.md)
+        - [دفعات العميل لمبلغ جزئي](customer-payments-partial-amount.md)
     :::column-end:::
 :::row-end:::
 
@@ -97,23 +96,22 @@ ms.lasthandoff: 08/08/2018
 
 #### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
+انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على الآراء واﻷخبار والمعلومات الأخرى حول الحسابات المدينة والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات المدينة وحلول أخرى في مدونة [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-هناك العديد من المنشورات حول الحسابات المدينة على [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق للحسابات المدينة، إلا أن نفس المفاهيم لا تزال تنطبق. كما أن الإجراءات مماثلة في الإصدار الحالي.
+هناك العديد من المنشورات حول الحسابات المدينة في [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). وعلى الرغم من كتابة بعض هذه المنشورات للإصدار السابق من الحسابات المدينة، إلا أن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي.
 
-تزود [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) شركاء Microsoft Dynamics بمورد واحد يمكنهم فيه معرفة الجديد والشائع في MBS Operations.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
 
 #### <a name="task-guides"></a>دلائل المهام
-تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+تتوفر تعليمات إضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
 
-#### <a name="videos"></a>مقاطع الفيديو
+#### <a name="videos"></a>مقاطع فيديو
 
-اسحب ملفات الفيديو‬ التي تشرح الطريقة‬ والمتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

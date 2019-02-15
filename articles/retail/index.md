@@ -1,41 +1,40 @@
 ---
-title: "مرحبًا بك في Dynamics 365 for Retail"
-description: "الصفحة الرئيسية لـ Dynamics 365 for Retail"
+title: مرحبًا بك في Dynamics 365 for Retail
+description: الصفحة الرئيسية لتطبيق Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301863"
 ---
-
 # <a name="welcome-to-dynamics-365-for-retail"></a>مرحبًا بك في Dynamics 365 for Retail
 
 [!include [banner](includes/banner.md)]
 
-إن Microsoft Dynamics 365 for Retail هو حل شامل للبيع بالتجزئة يوفر التجارة الموحدة عبر جميع القنوات. إنه يشتمل على المبيعات، وإمكانية التنقل، والمعلومات، والإنتاجية لمساعدة تجار التجزئة والعمال على تحقيق المزيد بطريقة السحابة أولاً، الجهاز المحمول أولاً. يوفر Retail دعمًا شاملاً لتشغيل مجموعة كبيرة من إجراءات العمل، مثل إمكانات إدارة القنوات، وترويج البضائع، والمخزون. كما أنه يوفر خبرات عملاء غامرة عبر جميع نقاط الاتصال.
+إن Microsoft Dynamics 365 for Retail عبارة عن حل شامل للبيع بالتجزئة يوفر التجارة الموحدة عبر جميع القنوات. إنه يشتمل على المبيعات، وإمكانية التنقل، والمعلومات، والإنتاجية لمساعدة تجار التجزئة والعمال على تحقيق المزيد بطريقة السحابة أولاً، الجهاز المحمول أولاً. يوفر Retail دعمًا شاملاً لتشغيل مجموعة كبيرة من إجراءات العمل، مثل إمكانات إدارة القنوات، وترويج البضائع، والمخزون. وهو يوفر أيضًا تجربة غامرة للعملاء عبر جميع نقاط الاتصال.
 
 > [!NOTE]
-> ثمة ارتباط وثيق بين Dynamics 365 for Retail وDynamics 365 for Finance and Operations وDynamics 365 for Talent. قد تظهر نفس الوظيفة في جميع المنتجات الثلاثة. ونتيجة لذلك، في المواضيع المرتبطة بشكل أساسي بـ Retail، سيكون اسم المنتج Microsoft Dynamics 365 for Retail؛ في المواضيع المرتبطة بشكل أساسي بالمنتج الأساسي (Finance and Operations)، سيكون اسم المنتج Microsoft Dynamics 365 for Finance and Operations؛ في المواضيع المرتبطة بشكل أساسي بالموارد البشرية، سيكون اسم المنتج Dynamics 365 for Talent.
+> يرتبط Dynamics 365 for Retail بشكل وثيق بالتطبيقين Dynamics 365 for Finance and Operations، وDynamics 365 for Talent. وقد تظهر الوظائف نفسها في المنتجات الثلاثة كلها. ونتيجة لذلك، سيكون اسم المنتج Microsoft Dynamics 365 for Retail في المواضيع المرتبطة بشكل أساسي بتطبيق Retail؛ وسيكون اسم المنتج Microsoft Dynamics 365 for Finance and Operations في المواضيع المرتبطة بشكل أساسي بالمنتج الرئيسي (Finance and Operations)؛ وسيكون اسم المنتج Dynamics 365 for Talent في المواضيع المرتبطة بشكل أساسي بالموارد البشرية.
 
-في الجزء الأيمن، حدد منطقة ميزة لمعرفة مزيد من المعلومات حولها.
+في الجزء الأيمن، حدد منطقة ميزة لمعرفة المزيد عنها.
 
 ## <a name="channel-management"></a>إدارة القنوات
 
@@ -51,7 +50,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="hardware-and-peripherals"></a>الأجهزة والأجهزة الطرفية
 
-يمكن لـ Retail Modern point of sale (MPOS) وCloud POS استخدام مجموعة كبيرة من الأجهزة الطرفية للأجهزة. توفر كلُّ من نقطة البيع الحديثة ونقطة بيع المجموعة العديد من الواجهات وخيارات التوزيع لمساعدتك في سيناريوهات الأعمال المختلفة.
+يمكن لـ Retail Modern point of sale (MPOS) وCloud POS استخدام مجموعة كبيرة من الأجهزة الطرفية للأجهزة. توفر كلُّ من نقطة البيع الحديثة ونقطة البيع السحابية العديد من الواجهات وخيارات التوزيع لمساعدتك في سيناريوهات الأعمال المختلفة.
 
 يشتمل محاكي الأجهزة الطرفية لـ Retail على محاكي أجهزة طرفية ظاهري ومحاكي POS. يدعم محاكي الأجهزة الطرفية الظاهري في الأساس اختبار السيناريوهات التي عادةً ما تتطلب وجود أجهزة طرفية مادية لنقطة البيع. يتيح لك محاكي POS اختبار توافق الأجهزة الطرفية المادية مع Retail دون الحاجة إلى توزيع عميل POS.
 
@@ -71,28 +70,27 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="store-operations-and-pos"></a>عمليات المتجر ونقطة البيع
 
-نقطة البيع الحديثة عبارة عن تطبيق نقطة بيع لأجهزة الكمبيوتر الشخصية وأجهزة الكمبيوتر اللوحية والهواتف. يستطيع فريق المبيعات معالجة حركات المبيعات وأوامر العملاء، وتنفيذ أنشطة قاعدة العملاء، وتنفيذ إدارة المخزون والعمليات اليومية على الأجهزة المحمولة في أي مكان في المتجر، وكذلك على السجلات المستندة إلى جهاز الكمبيوتر. نقطة بيع المجموعة هي نقطة بيع تستند إلى المستعرض ويمكن بدء تشغيلها على أي مستعرض قياسي.
+نقطة البيع الحديثة عبارة عن تطبيق نقطة بيع لأجهزة الكمبيوتر الشخصية وأجهزة الكمبيوتر اللوحية والهواتف. يستطيع فريق المبيعات معالجة حركات المبيعات وأوامر العملاء، وتنفيذ أنشطة قاعدة العملاء، وتنفيذ إدارة المخزون والعمليات اليومية على الأجهزة المحمولة في أي مكان في المتجر، وكذلك على السجلات المستندة إلى جهاز الكمبيوتر. نقطة البيع السحابية هي نقطة بيع تستند إلى المستعرض ويمكن بدء تشغيلها على أي مستعرض قياسي.
 
 ستقوم بإعداد العديد من المكونات لتحديد العلاقات بين أحد المتاجر، وسجلات نقطة البيع داخل المتجر، والأجهزة الطرفية للبيع بالتجزئة التي تستخدمها تلك السجلات لمعالجة الحركات. كما ستحدد خصائص مثيل محدد لنقطة البيع. تشمل هذه الخصائص ملف تعريف الأجهزة أو الإعداد للأجهزة الطرفية للبيع بالتجزئة التي سيتم استخدامها في السجل، والمتجر الذي يتم تعيين السجل إليه، والتجربة المرئية للمستخدم الذي يقوم بتسجيل الدخول إلى هذا السجل، والوظائف التي يتم تمكينها في السجل. سوف تحدد أيضًا ما إذا كان السجل يمكنه العمل في حالة عدم اتصال أو دون إنترنت أم لا.
 
 ## <a name="customize-and-administer-retail-environments"></a>تخصيص وإدارة بيئات Retail
 
-إذا تمت مطالبتك بتخصيص البيئة الخاصة بك، أو إذا إذا كنت مسؤولاً عن توزيع النظام الخاص بك وصيانته، فتأكد من الاطلاع على محتوى مسؤول النظام والمطور الخاص بـ Retail، فضلاً عن المحتوى الأكثر تعميمًا.
+إذا تمت مطالبتك بتخصيص بيئتك، أو إذا كنت مسؤولاً عن نشر النظام وصيانته، فاحرص على الاطلاع على محتوى مسؤول النظام والمطور الذي يتعلق بتطبيق Retail تحديدًا، فضلاً عن المحتوى الذي يتسم بطابع عمومي.
 
-- [Dynamics 365 for Retail لمتخصصي تقنية المعلومات والمطورين](dev-itpro/dev-retail-home-page.md)
-- [التطوير والإدارة لـ Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 for Retail للمحترفين والمطورين في مجال تقنية المعلومات](dev-itpro/dev-retail-home-page.md)
+- [التطوير والإدارة لتطبيق Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 ### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
+انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
 
 ### <a name="blogs"></a>المدونات
 
-يمكنك العثور على الآراء واﻷخبار والمعلومات الأخرى حول Retail والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول Retail وحلول أخرى في مدونة [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
 
-هناك العديد من المنشورات حول Retail على [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق لـ Retail، إلا أن نفس المفاهيم لا تزال تنطبق. كما أن الإجراءات مماثلة في الإصدار الحالي.
+هناك العديد من المنشورات حول Retail في [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). وعلى الرغم من كتابة بعض هذه المنشورات للإصدار السابق من Retail، إلا أن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي.
 
-تزود [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) شركاء Microsoft Dynamics بمورد واحد يمكنهم فيه معرفة الجديد والشائع في MBS Operations.
-
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
