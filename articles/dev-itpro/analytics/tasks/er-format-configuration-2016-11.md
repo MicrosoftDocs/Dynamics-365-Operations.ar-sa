@@ -1,13 +1,13 @@
---- 
-title: "التقارير الإلكترونية - إنشاء تكوين تنسيق (نوفمبر 2016)"
-description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء تكوين تنسيق لإنشاء التقارير الإلكترونية."
+---
+title: التقارير الإلكترونية - إنشاء تكوين تنسيق (نوفمبر 2016)
+description: تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء تكوين تنسيق لإنشاء التقارير الإلكترونية.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377539"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>التقارير الإلكترونية - إنشاء تكوين تنسيق (نوفمبر 2016)
 
@@ -35,8 +35,10 @@ ms.lasthandoff: 12/18/2018
 2. انقر فوق **تكوينات إعداد التقارير‬**.
 3. في الشجرة، حدد **المدفوعات (نموذج مبسط)**.
 4. انقر فوق **إنشاء تكوين** لفتح مربع حوار الإسقاط‬.
+
  > [!NOTE]
  > إذا لم يظهر الخيار **إنشاء تكوين**، فعليك تكوين وضع التصميم في صفحة **معلمات ‏‫إعداد التقارير الإلكترونية**. 
+ 
 5. في الحقل **جديد**، أدخل **التنسيق استناداً إلى نموذج الدفع الخاص بنموذج البيانات**.
 6. في الحقل **الاسم**، اكتب **BACS (وهمية من المملكة المتحدة)**.
 7. في حقل **الوصف**، اكتب **تنسيق دفع المورد BACS (وهمية من المملكة المتحدة)**.
@@ -44,9 +46,6 @@ ms.lasthandoff: 12/18/2018
     * يمكن تعريف تنسيق معين لوثيقة إلكترونية. اترك هذا الحقل فارغاً إذا كنت تريد تحديد تنسيق في وقت التشغيل.  
 8. في الحقل **تعريف نموذج البيانات**، أدخل قيمة أو حددها.
 9. وانقر فوق **إنشاء تكوين**. تم إنشاء تكوين جديد. يمكن استخدام الإصدار التمهيدي لتخزين تنسيق التصميم لإدارة الوثائق الإلكترونية.  
- > [!NOTE]
- > إذا لم يظهر الخيار **إنشاء تكوين**، فعليك تكوين وضع التصميم في صفحة **معلمات ‏‫إعداد التقارير الإلكترونية**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>تصميم تنسيق مستند إلكتروني
 1. انقر فوق **المصمم**.
@@ -159,5 +158,4 @@ ms.lasthandoff: 12/18/2018
 41. وانقر فوق **موافق**.
 42. انقر فوق **حفظ**.
 43. قم بإغلاق الصفحة.
-
 
