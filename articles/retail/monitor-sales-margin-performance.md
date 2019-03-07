@@ -1,13 +1,13 @@
 ---
-title: "مراقبة أداء المبيعات والهامش"
-description: "يمكن مراقبة أداء المبيعات والهامش في الوقت الحقيقي باستخدام Microsoft Dynamics 365 for Retail."
+title: مراقبة أداء المبيعات والهامش
+description: يمكن مراقبة أداء المبيعات والهامش في الوقت الحقيقي باستخدام Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
 ms.reviewer: josaw
@@ -19,35 +19,33 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: e2b3591f6403542c79457d12ae850ad40d9253a1
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357256"
 ---
-
-# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="9251d-103">رصد أداء المبيعات والهامش</span><span class="sxs-lookup"><span data-stu-id="9251d-103">Monitor sales and margin performance</span></span>
+# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="b2bbf-103">رصد أداء المبيعات والهامش</span><span class="sxs-lookup"><span data-stu-id="b2bbf-103">Monitor sales and margin performance</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="9251d-104">يمكن مراقبة أداء المبيعات والهامش في الوقت الحقيقي باستخدام Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="9251d-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="b2bbf-104">يمكن مراقبة أداء المبيعات والهامش في الوقت الحقيقي باستخدام Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="b2bbf-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
 
-<span data-ttu-id="9251d-105">كجزء من Dynamics 365 for Retail، يستطيع المستخدمون مراقبة أداء المبيعات والهامش في الوقت الحقيقي عبر مختلف مستويات التدرج الهرمي للمؤسسة للأبعاد التالية:</span><span class="sxs-lookup"><span data-stu-id="9251d-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
+<span data-ttu-id="b2bbf-105">كجزء من Dynamics 365 for Retail، يستطيع المستخدمون مراقبة أداء المبيعات والهامش في الوقت الحقيقي عبر مختلف مستويات التدرج الهرمي للمؤسسات للأبعاد التالية:</span><span class="sxs-lookup"><span data-stu-id="b2bbf-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
-- <span data-ttu-id="9251d-106">المنتجات</span><span class="sxs-lookup"><span data-stu-id="9251d-106">Products</span></span>
-- <span data-ttu-id="9251d-107">فئات</span><span class="sxs-lookup"><span data-stu-id="9251d-107">Categories</span></span>
-- <span data-ttu-id="9251d-108">الخصومات</span><span class="sxs-lookup"><span data-stu-id="9251d-108">Discounts</span></span>
-- <span data-ttu-id="9251d-109">السنوات كفترة زمنية</span><span class="sxs-lookup"><span data-stu-id="9251d-109">Years as time period</span></span>
-- <span data-ttu-id="9251d-110">السجلات‬/المحطات الطرفية</span><span class="sxs-lookup"><span data-stu-id="9251d-110">Registers/terminals</span></span>
-- <span data-ttu-id="9251d-111">الموظفون</span><span class="sxs-lookup"><span data-stu-id="9251d-111">Staff/employees</span></span>
-- <span data-ttu-id="9251d-112">العملاء</span><span class="sxs-lookup"><span data-stu-id="9251d-112">Customers</span></span>
-- <span data-ttu-id="9251d-113">وحدات التشغيل</span><span class="sxs-lookup"><span data-stu-id="9251d-113">Operating units</span></span>
+- <span data-ttu-id="b2bbf-106">المنتجات</span><span class="sxs-lookup"><span data-stu-id="b2bbf-106">Products</span></span>
+- <span data-ttu-id="b2bbf-107">فئات</span><span class="sxs-lookup"><span data-stu-id="b2bbf-107">Categories</span></span>
+- <span data-ttu-id="b2bbf-108">الخصومات</span><span class="sxs-lookup"><span data-stu-id="b2bbf-108">Discounts</span></span>
+- <span data-ttu-id="b2bbf-109">السنوات كفترة زمنية</span><span class="sxs-lookup"><span data-stu-id="b2bbf-109">Years as time period</span></span>
+- <span data-ttu-id="b2bbf-110">السجلات‬/المحطات الطرفية</span><span class="sxs-lookup"><span data-stu-id="b2bbf-110">Registers/terminals</span></span>
+- <span data-ttu-id="b2bbf-111">الموظفون</span><span class="sxs-lookup"><span data-stu-id="b2bbf-111">Staff/employees</span></span>
+- <span data-ttu-id="b2bbf-112">العملاء</span><span class="sxs-lookup"><span data-stu-id="b2bbf-112">Customers</span></span>
+- <span data-ttu-id="b2bbf-113">وحدات التشغيل</span><span class="sxs-lookup"><span data-stu-id="b2bbf-113">Operating units</span></span>
 
-<span data-ttu-id="9251d-114">بالإضافة إلى ذلك، هناك تقريران فريدان يستفيدان من هيكل شبكة التدرج الهرمي ويسمحان للمستخدمين بمراقبة أداء المبيعات والهامش من خلال التنقل للأسفل من عقدة الفئة العليا وصولاً إلى عقد طرفية فردية للفئة في التدرج الهرمي الافتراضي لفئات منتجات البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="9251d-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="9251d-115">باستطاعة المستخدمين أيضًا التنقل للأسفل من وحدة التشغيل العليا إلى قناة فردية في التدرج الهرمي للمؤسسة المحدد كافتراضي لأغراض تتعلق بالتدرج الهرمي لتقارير البيع بالتجزئة‬</span><span class="sxs-lookup"><span data-stu-id="9251d-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="9251d-116">يمكنك فتح التقارير من أي من المواقع التالية:</span><span class="sxs-lookup"><span data-stu-id="9251d-116">You can open the reports from any of the following locations:</span></span>
+<span data-ttu-id="b2bbf-114">بالإضافة إلى ذلك، هناك تقريران فريدان يستفيدان من هيكل شبكة التدرج الهرمي ويسمحان للمستخدمين بمراقبة أداء المبيعات والهامش من خلال التنقل للأسفل من عقدة الفئة العليا وصولاً إلى عقد طرفية فردية للفئة في التدرج الهرمي الافتراضي لفئات منتجات البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="b2bbf-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="b2bbf-115">باستطاعة المستخدمين أيضًا التنقل للأسفل من وحدة التشغيل العليا إلى قناة فردية في التدرج الهرمي للمؤسسة المحدد كافتراضي لأغراض تتعلق بالتدرج الهرمي لتقارير البيع بالتجزئة‬</span><span class="sxs-lookup"><span data-stu-id="b2bbf-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="b2bbf-116">يمكنك فتح التقارير من أي من المواقع التالية:</span><span class="sxs-lookup"><span data-stu-id="b2bbf-116">You can open the reports from any of the following locations:</span></span>
 
-- <span data-ttu-id="9251d-117">مساحة عمل **إدارة متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير**</span><span class="sxs-lookup"><span data-stu-id="9251d-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
-- <span data-ttu-id="9251d-118">مساحة عمل **إدارة الفئات والمنتجات** &gt; **البيع بالتجزئة** &gt; **المنتجات والفئات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير**</span><span class="sxs-lookup"><span data-stu-id="9251d-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
-- <span data-ttu-id="9251d-119">مساحة عمل **إدارة التسعير والخصومات** &gt; **البيع بالتجزئة** &gt; **التسعير والخصومات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير**</span><span class="sxs-lookup"><span data-stu-id="9251d-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
-- <span data-ttu-id="9251d-120">مقطع **الاستعلامات والتقارير** &gt; **البيع بالتجزئة** &gt; **الاستعلامات والتقارير** &gt; **تقارير المبيعات**</span><span class="sxs-lookup"><span data-stu-id="9251d-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
-
+- <span data-ttu-id="b2bbf-117">مساحة عمل **إدارة متجر البيع بالتجزئة** &gt; **البيع بالتجزئة** &gt; **القنوات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير**</span><span class="sxs-lookup"><span data-stu-id="b2bbf-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="b2bbf-118">مساحة عمل **إدارة الفئات والمنتجات** &gt; **البيع بالتجزئة** &gt; **المنتجات والفئات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير**</span><span class="sxs-lookup"><span data-stu-id="b2bbf-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="b2bbf-119">مساحة عمل **إدارة التسعير والخصومات** &gt; **البيع بالتجزئة** &gt; **التسعير والخصومات** &gt; **إدارة متجر البيع بالتجزئة** &gt; **التقارير**</span><span class="sxs-lookup"><span data-stu-id="b2bbf-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="b2bbf-120">مقطع **الاستعلامات والتقارير** &gt; **البيع بالتجزئة** &gt; **الاستعلامات والتقارير** &gt; **تقارير المبيعات**</span><span class="sxs-lookup"><span data-stu-id="b2bbf-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
