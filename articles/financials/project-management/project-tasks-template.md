@@ -1,13 +1,13 @@
 ---
-title: "مزامنة مهام المشروع مباشرةً من Project Service Automation إلى Finance and Operations"
-description: "يصف هذا الموضوع القالب والمهمة الأساسية المستخدمين لمزامنة مهام المشروع مباشرةً من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations."
+title: مزامنة مهام المشروع مباشرةً من Project Service Automation إلى Finance and Operations
+description: يصف هذا الموضوع القالب والمهمة الأساسية التي يتم استخدامها لمزامنة مهام المشروع مباشرة من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 53e4eab0d455af4ac1e17754f31d46458db742c3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355163"
 ---
-
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة مهام المشروع مباشرةً من Project Service Automation إلى Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-يصف هذا الموضوع القالب والمهمة الأساسية المستخدمين لمزامنة مهام المشروع مباشرةً من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations.
+يصف هذا الموضوع القالب والمهمة الأساسية التي يتم استخدامها لمزامنة مهام المشروع مباشرة من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
 > - تتوافر ميزات تكامل مهام المشروع وفئات حركات المصروفات وتقديرات عدد الساعات وتقديرات المصروفات وتأمين الوظيفة في الإصدار 8.0 من Microsoft Dynamics 365 for Finance and Operations.
-> - إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0، بعد قيامك بتثبيت قاعدة المعارف 4132657 وقاعدة المعارف 4132660، ستتمكن من استخدام القوالب لإجراء تكامل لمهام المشروع وفئات حركات المصروفات وتقديرات عدد الساعات وتقديرات المصروفات والقيم الفعلية ولتكوين تأمين الوظيفة. إذا كان يجب عليك إعادة تعيين التوزيعات المحاسبية، فمن المستحسن أن تقوم أيضًا بتثبيت قاعدة المعارف 4131710.
-> - يتوافر تكامل القيم الفعلية في Microsoft Dynamics 365 for Finance and Operations، الإصدار 8.01 أو إصدار لاحق.
+> - إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0، بعد قيامك بتثبيت قاعدة المعارف 4132657 وقاعدة المعارف 4132660، ستكون قادرًا على استخدام القوالب لتمكين تكامل مهام المشاريع وفئات حركات المصروفات وتقديرات عدد الساعات وتقديرات المصروفات والقيم الفعلية وتكوين تأمين الوظيفة. إذا كان يجب عليك إعادة تعيين التوزيعات المحاسبية، فمن المستحسن أن تقوم أيضًا بتثبيت قاعدة المعارف 4131710.
+> - يتوفر تكامل القيم الفعلية في الإصدار 8.0.1 أو إصدار لاحق من Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>تدفق البيانات الخاصة بـ Project Service Automation إلى Finance and Operations
 
@@ -46,7 +45,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="template-and-task"></a>القالب والمهمة
 
-للوصول إلى القالب، في مركز إدارة Microsoft PowerApps ، حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
+للوصول إلى القالب، في مركز إدارة Microsoft PowerApps، حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
 يُستخدم القالب التالي والمهمة الأساسية التالية لمزامنة مهام المشروع من Project Service Automation إلى Finance and Operations.
 
@@ -84,4 +83,3 @@ ms.lasthandoff: 08/08/2018
 يبين الشكل التوضيحي التالي مثالاً لتعيينات مهمام القالب في تكامل البيانات. يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Project Service Automation إلى Finance and Operations.
 
 [![تعيين القالب](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-

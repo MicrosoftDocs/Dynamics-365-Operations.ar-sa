@@ -1,13 +1,13 @@
 ---
-title: "إضافة التحليلات إلى مساحات العمل باستخدام Power BI المدمج"
-description: "يوضح هذا الموضوع كيفية تضمين تقرير Power BI في علامة تبويب \"التحليلات\" في مساحة عمل."
+title: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
+description: يوضح هذا الموضوع كيفية تضمين تقرير Power BI في علامة تبويب "التحليلات" في مساحة عمل.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,27 +15,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355209"
 ---
-
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>إضافة التحليلات إلى مساحات العمل باستخدام Power BI المدمج
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> يتم دعم هذه الميزة في Dynamics 365 for Finance and Operations (الإصدار 7.2 والإصدارات اللاحقة).
+> هذه الميزة مدعومة في Dynamics 365 for Finance and Operations (الإصدار 7.2 والإصدارات الأحدث).
 
 ## <a name="introduction"></a>مقدمة
 يوضح هذا الموضوع كيفية تضمين تقرير Microsoft Power BI في علامة تبويب **التحليلات** في مساحة عمل. بالنسبة إلى المثال الذي تم تقديمه هنا، سنقوم بتوسيع مساحة عمل **إدارة الحجز** في تطبيق إدارة الأسطول لتضمين مساحة عمل تحليلية على علامة تبويب **التحليلات**.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 + الوصول إلى بيئة مطور تقوم بتشغيل تحديث النظام الأساسي 8 أو الإصدارات الأحدث.
-+ تقرير تحليلي (ملف pbix.) تم إنشاؤه باستخدام Microsoft Power BI Desktop"، وله نموذج بيانات مصدره قاعدة بيانات مخزن الكيانات.
++ تقرير تحليلي (ملف pbix.) تم إنشاؤه باستخدام Microsoft Power BI Desktop، وله نموذج بيانات مصدره قاعدة بيانات مخزن الكيانات.
 
 ## <a name="overview"></a>نظرة عامة
 سواء قمت بتوسيع مساحة عمل تطبيق موجودة أو بتقديم مساحة عمل جديدة خاصة بك، يمكنك استخدام طرق العرض التحليلية المضمنة لتقديم عروض ثاقبة وتفاعلية لبيانات عملك. تتكون عملية إضافة علامة تبويب مساحة عمل تحليلية من أربع خطوات.
@@ -69,7 +68,7 @@ ms.lasthandoff: 08/13/2018
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>إضافة عنصر تحكم علامة تبويب إلى مساحة عمل التطبيق
 في هذا المثال، سنقوم بتوسيع مساحة عمل **إدارة الحجز** في نموذج إدارة الأسطول عن طريق إضافة علامة تبويب **التحليلات** إلى تعريف النموذج **FMClerkWorkspace**.
 
-يبين الرسم التوضيحي التالي الشكل الذي يتخذه النموذج **FMClerkWorkspace‎** في المصمم في Microsoft Visual Studio.
+يبين الرسم التوضيحي التالي الشكل الذي يتخذه النموذج **FMClerkWorkspace** في المصمم في Microsoft Visual Studio.
 
 ![نموذج FMClerkWorkspace قبل التغييرات](media/analytical-workspace-definition-before.png)
 
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء عامل التصفية (**true**) أو إخفاؤه (**false**).     |
 | showNavPane      | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء التنقل (**true**) أو إخفاؤه (**false**). |
 | defaultFilters   | عوامل التصفية الافتراضية لتقرير Power BI.                                                                 |
-

@@ -1,13 +1,13 @@
 ---
-title: "الجداول الزمنية للمشاريع على الجهاز المحمول"
-description: "تتيح الجداول الزمنية الخاصة بي (المحسنة للجهاز المحمول) للموظفين إنشاء وإرسال الجداول الزمنية للمشاريع لتسجيل ساعاتهم لمشروع محدد على جهاز محمول."
+title: الجداول الزمنية للمشاريع على الجهاز المحمول
+description: تتيح الجداول الزمنية الخاصة بي (المحسنة للجهاز المحمول) للموظفين إنشاء وإرسال الجداول الزمنية للمشاريع لتسجيل ساعاتهم لمشروع محدد على جهاز محمول.
 author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360936"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>الجداول الزمنية للمشاريع على الجهاز المحمول
 
 [!include [banner](../includes/banner.md)]
@@ -33,8 +32,8 @@ ms.lasthandoff: 04/13/2018
 
 **الجداول الزمنية الخاصة بالمراجعة (المحسنة للجهاز المحمول)** تتيح لمديري المشاريع، الذين لديهم حقوق الموافقة على الجداول الزمنية، مراجعة الجداول الزمنية للمشاريع والموالفقة عليها على جهاز محمول. تحرير أو عرض معلومات البعد المالي غير مدعوم من تطبيق الجهاز المحمول. يمكن الوصول إلى **الجداول الزمنية الخاصة بمراجعتي (المحسنة للجهاز المحمول)** من خلال مستعرض الويب على جهازك المحمول.
 
-تطبيق الجهاز المحمول هذا غير متوافق لجهاز iPhone المثبت عليه تحديث النظام الأساسي رقم 15 لـ Dynamics 365 for Finance and Operations.
-سيكون Android متوافقًا مع تحديث النظام الأساسي 16، عندما يصبح متوفرًا.
+يتوافق هذا التطبيق المحمول لـ iPhone مع Dynamics 365 for Finance and Operations platform update 15.
+سيكون نظام Android متوافقًا مع Platform update 16، عندما يصبح متوفرًا.
 
 <a name="create-a-project-timesheet-on-your-mobile-device"></a>إنشاء جدول زمني لمشروع على جهازك المحمول
 ------------------------------------------------
@@ -65,5 +64,4 @@ ms.lasthandoff: 04/13/2018
 
 13. اختياري: أدخل سطور الجداول الزمنية الإضافية.
 
-14. بعد أن تنتهي من إدخال سطور الجدول الزمني، حدد إجراء **سير العمل **\>**إرسال** لإرسال الجدول الزمني إلى عملية الموافقة على سير العمل.
-
+14. بعد أن تنتهي من إدخال سطور الجدول الزمني، حدد إجراء **سير العمل**\>**إرسال** لإرسال الجدول الزمني إلى عملية الموافقة على سير العمل.

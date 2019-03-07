@@ -1,13 +1,13 @@
---- 
-title: "إعداد تسوية الشحن التلقائية"
-description: "يوضح هذا الإجراء كيفية إعداد البيانات لتسوية الشحن التلقائية."
+---
+title: إعداد تسوية الشحن التلقائية
+description: يوضح هذا الإجراء كيفية إعداد البيانات لتسوية الشحن التلقائية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/16/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
 ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
-ms.contentlocale: ar-sa
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357463"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>إعداد تسوية الشحن التلقائية
 
@@ -71,5 +71,4 @@ ms.lasthandoff: 10/17/2018
     * إذا كانت المبالغ النقدية على فاتورة الشحن مختلفة عما هي عليه على فاتورة شركة النقل، فإن أكواد أسباب الدفع بالزيادة والدفع بالنقصان تحدد الحسابات التي يجب تسجيل الفرق عليها، طالما وقع الفرق ضمن مستويات السماح.  
 11. في حقل "‏‫كود سبب الدفع بالنقصان"، أدخل قيمة أو حددها.
 12. قم بإغلاق الصفحة.
-
 

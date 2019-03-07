@@ -1,13 +1,13 @@
---- 
-title: "تنفيذ وظائف عملية كانبان"
-description: "يركز هذا الإجراء على تنفيذ وظائف عملية كانبان."
+---
+title: تنفيذ وظائف عملية كانبان
+description: يركز هذا الإجراء على تنفيذ وظائف عملية كانبان.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 62be1f116dfecbc4c6ba11053b94efc874baa3e3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357417"
 ---
 # <a name="execute-kanban-process-jobs"></a>تنفيذ وظائف عملية كانبان
 
@@ -56,5 +56,4 @@ ms.lasthandoff: 09/29/2017
 5. في الحقل "كمية الخطأ"، أدخل رقمًا.
 6. في الحقل "كمية البضائع"، أدخل رقمًا.
 7. انقر فوق "موافق".
-
 

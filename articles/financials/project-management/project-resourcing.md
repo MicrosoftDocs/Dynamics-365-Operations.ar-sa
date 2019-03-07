@@ -1,13 +1,13 @@
 ---
-title: "تعيين موارد المشروع"
-description: "يوفر هذا الموضوع معلومات حول تعيين موارد المشروع‬."
+title: تعيين موارد المشروع
+description: يوفر هذا الموضوع معلومات حول تعيين موارد المشروع‬.
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351644"
 ---
-
 # <a name="project-resourcing"></a>تعيين موارد المشروع
 
 [!include [banner](../includes/banner.md)]
@@ -351,4 +350,3 @@ ms.lasthandoff: 03/26/2018
 ## <a name="monitor-project-teams"></a>فرق المشروع
 1. في صفحة **كافة المشاريع**، حدد ارتباط **معرف المشروع** للمشروع **المرحلة 2 من ترقية XYZ**.
 2. على علامة التبويب السريعة **فريق المشروع وجدولته‬**، تأكد من إدراج موارد المشروع بطريقة صحيحة.
-

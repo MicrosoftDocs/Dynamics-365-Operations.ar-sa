@@ -1,14 +1,14 @@
 ---
-title: "عمليات الدمج المالية وتحويل العملات"
-description: "يصف هذا الموضوع عمليات الدمج المالية وتحويل العملات في دفتر الأستاذ العام."
+title: عمليات الدمج المالية وتحويل العملات
+description: يصف هذا الموضوع عمليات الدمج المالية وتحويل العملات في دفتر الأستاذ العام.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: 8427d53bac3216d362b2bf8983a847f069351b3b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353990"
 ---
-
-# <a name="financial-consolidations-and-currency-translation"></a>عمليات الدمج المالية وتحويل العملات
+# <a name="financial-consolidations-and-currency-translation"></a>تحويل العملة وعمليات الدمج المالية
 
 [!include [banner](../includes/banner.md)]
 
-ينقلك هذا الموضوع عبر الأسلوب الذي يستخدمه كل من Microsoft Dynamics 365 for Finance and Operations والتقارير المالية لإجراء عمليات الدمج. وهو يصف السيناريو الذي يشتمل على إعداد تقارير شركات متعددة والتجميع والاستبعاد وحصلة الأقلية. كما يشرح كيفية التعامل مع الحالات الخاصة، على سبيل المثال، عندما تتوفر لدى الكيانات القانونية فترات مالية مختلفة أو دلائل حسابات مختلفة.
+ينقلك هذا الموضوع عبر الطريقة التي يستخدمها كل من Microsoft Dynamics 365 for Finance and Operations والتقارير المالية لعمليات الدمج. وهو يصف السيناريو الذي يشتمل على إعداد تقارير شركات متعددة والتجميع والاستبعاد وحصلة الأقلية. كما يشرح كيفية التعامل مع الحالات الخاصة، على سبيل المثال، عندما تتوفر لدى الكيانات القانونية فترات مالية مختلفة أو دلائل حسابات مختلفة.
 
 تمت كتابة هذا الموضوع للمستخدمين والمستشارين الوظيفيين، وهو يفترض أن القراء لديهم إلمام بتطبيق Finance and Operations وإعداد التقارير المالية. لم يتم تغطية الإعداد الأساسي.
 
@@ -181,4 +180,3 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="generating-consolidated-financial-statements"></a>إنشاء قوائم مالية مدمجة
 لمزيد من المعلومات حول السيناريوهات حيث قد تنشئ قوائم مالية مدمجة، راجع [إنشاء قوائم مالية مدمجة‬](./generating-consolidated-financial-statements.md).
-

@@ -1,13 +1,13 @@
 ---
-title: "مساحة العمل المحمولة لتعاون المورد"
-description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة \"تعاون المورد‬\". تساعد مساحة العمل هذه الموردين على البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها. ويمكنهم أيضًا عرض معلومات حول جهات الاتصال وأوامر الشراء الجديدة والمحدثة."
+title: مساحة العمل المحمولة لتعاون المورد
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "تعاون المورد‬". تساعد مساحة العمل هذه الموردين على البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها. ويمكنهم أيضًا عرض معلومات حول جهات الاتصال وأوامر الشراء الجديدة والمحدثة.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358636"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>مساحة العمل المحمولة لتعاون المورد
 
 [!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **تعاون المورد**. تساعد مساحة العمل هذه الموردين على البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها. ويمكنهم أيضًا عرض معلومات حول جهات الاتصال وأوامر الشراء الجديدة والمحدثة.
 
-تهدف مساحة العمل المحمولة هذه إلى استخدامها بواسطة تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>نظرة عامة 
-تسمح مساحة العمل المحمولة **تعاون المورد** للمورّدين بالبقاء على اطلاع دائم على أوامر الشراء الجديدة لكي يتمكنوا من رؤية أوامر الشراء والاستجابة لها في Microsoft Dynamics 365 for Finance and Operations، عميل ويب. 
+تسمح مساحة العمل المحمولة‬ **تعاون المورّد** للمورّدين بالبقاء على اطلاع دائم على أوامر الشراء الجديدة لكي يتمكنوا من رؤية أوامر الشراء والاستجابة لها في عميل ويب Microsoft Dynamics 365 for Finance and Operations. 
 
 >[!NOTE]
 > يجب استخدام مساحة العمل المحمولة‬ لتعاون المورّد كملحق لواجهة ويب لتعاون المورّد، ولكن ليس كبديل لها. 
@@ -58,27 +57,27 @@ ms.lasthandoff: 04/13/2018
 -   عرض معلومات حول طلب مستخدم تم إرساله من قِبل المورّد، ومتابعة حالة الطلب. (تتطلب هذه المهمة دور أمان إضافي.)
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-تختلف المتطلبات الأساسية، بناءً على إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
+تختلف المتطلبات الأساسية، استنادًا إلى إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations 
-إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **تعاون المورد**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية عند استخدام Microsoft Dynamics 365 for Finance and Operations 
+إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **تعاون المورّد‬**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث
-إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار لاحق
+إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
 
 <table>
 <thead>
 <tr class="header">
 <th>المتطلب الأساسي</th>
-<th>الدور</th>
-<th>الوصف</th>
+<th>دور</th>
+<th>‏‏الوصف</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>يجب تطبيق KB 3216943 إذا كنت تستخدم تحديث النظام الأساسي 3.</td>
+<td>يجب تطبيق KB 3216943 إذا كنت تستخدم Platform update 3.</td>
 <td>مسؤول النظام</td>
-<td>إن KB 3216943 عبارة عن تحديث ثنائي مطلوب إذا كنت تستخدم تحديث النظام الأساسي 3. لتطبيق قاعدة المعارف هذه، يجب أن يتبع مسؤول النظام الخطوات التالية.
+<td>إن KB 3216943 عبارة عن تحديث ثنائي مطلوب إذا كنت تستخدم Platform update 3. لتطبيق قاعدة المعارف هذه، يجب أن يتبع مسؤول النظام الخطوات التالية.
 <ol>
 <li>تنزيل KB 3216943 من Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>تثبيت التحديث الثنائي الذي يتم تسليمه كحزمة قابلة للنشر. لمزيد من المعلومات حول كيفية تطبيق حزمة قابلة للنشر، راجع <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">تطبيق حزمة قابلة للنشر</a>.</li>
@@ -171,4 +170,3 @@ ms.lasthandoff: 04/13/2018
 
 ### <a name="open-confirmed-orders"></a>الأوامر المؤكدة المفتوحة
 عندما يؤكد العميل أمر الشراء (مما يعني أن حالة أمر الشراء تغيرت إلى **مؤكد**)، يظهر أمر الشراء هذا في الأمر المؤكد المفتوح. وسوف يبقى في القائمة حتى يتم تسجيله على أنه أمر استلمه العميل.
-

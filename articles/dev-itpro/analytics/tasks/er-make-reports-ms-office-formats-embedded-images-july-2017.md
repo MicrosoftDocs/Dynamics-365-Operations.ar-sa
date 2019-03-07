@@ -1,13 +1,13 @@
---- 
-title: "تصميم التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة"
-description: "توفر الخطوات الواردة في هذا الموضوع معلومات حول كيفية تصميم تكوينات التقارير الإلكترونية (ER) التي تُنشئ مستندات إلكترونية بتنسيقات Microsoft Office ‏(Excel‏‏ ‏وWord) تحتوي على صور مضمنة."
+---
+title: تصميم التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
+description: توفر الخطوات الواردة في هذا الموضوع معلومات حول كيفية تصميم تكوينات التقارير الإلكترونية (ER) التي تُنشئ مستندات إلكترونية بتنسيقات Microsoft Office ‏(Excel‏‏ ‏وWord) تحتوي على صور مضمنة.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1fb02e561f6792c57b924ba64a5ca3d3974289ee
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358084"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>تصميم التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
 
@@ -91,4 +91,3 @@ ms.lasthandoff: 08/08/2018
  30. حدد "نعم" في الحقل "السماح بإنشاء إشعار مسبق على حسابات البنك غير النشطة:‬".  
  31. انقر فوق "حفظ".  
  32. قم بإغلاق الصفحة.  
-

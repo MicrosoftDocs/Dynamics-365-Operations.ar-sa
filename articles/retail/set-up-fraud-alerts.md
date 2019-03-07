@@ -1,13 +1,13 @@
 ---
-title: "إعداد مركز اتصال تنبيهات الاحتيال والعمل باستخدامه"
-description: "يشرح هذا الموضوع كيفية إعداد قواعد لتنبيه ممثلي خدمة العملاء بمعلومات الاحتيال المحتمل عند معالجة الأوامر. ‏‫يمكنك تعريف رموز محددة لاستخدامها لوضع الأوامر المشبوهة قيد الانتظار تلقائيًا أو يدويًا.‬"
+title: إعداد مركز اتصال تنبيهات الاحتيال والعمل باستخدامه
+description: يشرح هذا الموضوع كيفية إعداد قواعد لتنبيه ممثلي خدمة العملاء بمعلومات الاحتيال المحتمل عند معالجة الأوامر. ‏‫يمكنك تعريف رموز محددة لاستخدامها لوضع الأوامر المشبوهة قيد الانتظار تلقائيًا أو يدويًا.‬
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361488"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>إعداد مركز اتصال تنبيهات الاحتيال والعمل باستخدامه
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ ms.lasthandoff: 01/04/2019
 لعرض وإدارة الأوامر الموجودة قيد الانتظار لمراجعة الاحتيال، انتقل إلى **البيع بالتجزئة** \> **العملاء** \> **تعليقات الأوامر**. في صفحة **تعليقات الأوامر** ، حدد إدخال في في القائمة، ثم انقر فوق **تعليق الأمر** لمشاهدة طريقة عرض أكثر تفصيلًا تشمل معلومات حول سبب التعليق. على علامة التبويب السريعة **تفاصيل الاحتيال** ، يمكنك عرض معايير الاحتيال النظامية التي تم العثور عليها وتكون مطابقة للأمر، والدرجات التي تم تطبيقها. إذا تم وضع الأمر قيد الانتظار يدويًا، يمكنك مراجعة أي تعليقات تم إدخالها بواسطة المستخدمين الذين قاموا بوضع الأمر قيد الانتظار عن طريق البحث في قسم **ملاحظات الاحتيال** في علامة التبويب السريعة **الملاحظات** .
 
 للحصول على مزيد من المعلومات حول كيفية العمل باستخدام ميزة تعليقات الأوامر، راجع[ ، تعليقات الأوامر](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-

@@ -1,13 +1,13 @@
 ---
-title: "نظام تعليمات Finance and Operations"
-description: "يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations"
+title: نظام تعليمات Finance and Operations
+description: يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350724"
 ---
-
 # <a name="finance-and-operations-help-system"></a>نظام تعليمات Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations
+يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
+> ترتبط المنتجات التالية ببعضها بشكل وثيق: Dynamics 365 for Finance and Operations وDynamics 365 for Retail وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، سيكون اسم المنتج Dynamics 365 for Retail في المواضيع المرتبطة بشكل أساسي بتطبيق Retail؛ وسيكون اسم المنتج Dynamics 365 for Talent في المواضيع المرتبطة بشكل أساسي بـ Talent؛ وسيكون اسم المنتج Dynamics 365 for Finance and Operations في المواضيع المرتبطة بشكل أساسي بالمنتج الرئيسي. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
 
 تشارك المنتجات التالية نظام التعليمات:
 
@@ -60,7 +59,7 @@ ms.lasthandoff: 12/18/2018
 - **الوصول إلى أحدث محتوى**– يعطينا الموقع طريقة أسرع وأكثر مرونةً لإنشاء وتسليم وتحديث وثائق المنتج. ولذلك، فهو يساعد على ضمان إمكانية الوصول إلى أحدث المعلومات التقنية.
 - **المحتوى الذي أعده خبراء**- يوفر الموقع مجموعة أوسع من وثائق المنتج يمكن أن تتعزز من قِبل أعضاء المجتمع داخل وخارج Microsoft.
 - **الوصول إلى أنواع مختلفة من المحتوى** – يتيح لك الموقع الوصول إلى أنواع مختلفة من المحتوى الخاصة بمنتج Finance and Operations، مثل دلائل المهام، ومقاطع الفيديو والمواضيع.
-- **المحتوى الذي يدعم عمليات الأعمال**– يتضمن الموقع محتوى يركز على عمليات الأعمال ويستفيد من أداة تكوين عمليات الأعمال (BPM) في Microsoft Dynamics AX Lifecycle Services ‏(LCS).
+- **المحتوى الذي يدعم عمليات الأعمال** – يتضمن الموقع محتوى يركز على عمليات الأعمال ويستفيد من أداة تكوين عمليات الأعمال (BPM) في Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>البحث على docs.microsoft.com
 
@@ -78,7 +77,7 @@ ms.lasthandoff: 12/18/2018
 
 ### <a name="use-an-rss-feed"></a>استخدام موجز RSS
 
-للاشتراك في موجز RSS لجميع التحديثات لمحتوى "عمليات الموحدة"، استخدم الارتباط التالي من أحد المستعرضات التي تدعم مواجز RSS، مثل Internet Explorer أو إدارة موجز RSS:
+للاشتراك في موجز RSS لجميع تحديثات محتوى Unified Operations، استخدم الارتباط التالي من أحد المستعرضات التي تدعم موجزات RSS، مثل Internet Explorer أو إدارة موجز RSS:
 
 [موجز RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
@@ -137,7 +136,7 @@ ms.lasthandoff: 12/18/2018
 من جزء التعليمات، يمكنك الوصول إلى المقالات التي تنطبق على عميل Finance and Operations. عندما تفتح جزء التعليمات للمرة الأولى وتنقر فوق علامة التبويب **تعليمات**، سترى المقالات التي تنطبق على الصفحة التي تعمل عليها حاليًا في Finance and Operations. إذا لم تعثر على مقالات، فيمكنك إدخال كلمات أساسية لتنقية البحث. وعند النقر فوق مقالة في جزء التعليمات، يتم فتح علامة تبويب جديدة في المتصفح وتعرض المقالة.
 
 > [!IMPORTANT]
-> لا ينطبق هذا المقطع على Dynamics 365 for Talent. يتصل نظام تعليمات Talent بشكل تلقائي بدلائل المهام الخاصة بالمنتج. علاوةً على ذلك، لا يمكنك إنشاء دلائل مهام مخصصة لتطبيق Talent.
+> لا ينطبق هذا القسم على Dynamics 365 for Talent. يتصل نظام تعليمات Talent بشكل تلقائي بدلائل المهام الخاصة بالمنتج. علاوةً على ذلك، لا يمكنك إنشاء دلائل مهام مخصصة لتطبيق Talent.
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>الوصول إلى دلائل المهام من جزء التعليمات
 
@@ -158,7 +157,7 @@ ms.lasthandoff: 12/18/2018
 2. تحديد مشروع Lifecycle Services المراد الاتصال به.
 3. تحديد مكتبات BPM (في المشروع المحدد) لاسترداد تسجيلات المهام منها.
 
-    - بالنسبة إلى Finance and Operations، ولمحتوى Microsoft، حدد المكتبة الموحدة PQC (فبراير 2017) لتطبيق Microsoft Dynamics 365 for Finance and Operations.
+    - بالنسبة إلى Finance and Operations، لمحتوى Microsoft، حدد المكتبة الموحدة PQC (فبراير 2017) لتطبيق Microsoft Dynamics 365 for Finance and Operations.
     - بالنسبة إلى Retail، سنقوم بإصدار مكتبة في يوليو.
     - لا تحتاج إلى تحديد مكتبة لتطبيق Talent — يتم تأسيس الاتصال بالمكتبة الصحيحة بالنيابة عنك.
 
@@ -194,10 +193,9 @@ ms.lasthandoff: 12/18/2018
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | يستضيف أو يرتبط بكافة وثائق المنتج لتطبيق Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | موقع تعليم إلكتروني مجاني من Microsoft. |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | توفر مساحة عمل تعاونية تستند إلى السحابة يستطيع العملاء والشركاء استخدامها لإدارة مشاريع Dynamics 365 for Finance and Operations بدءًا من مرحلة ما قبل البيع حتى التنفيذ والعمليات. يفيد هذا الموقع في كافة مراحل التنفيذ. |
-| [مدونة الدعم](http://aka.ms/AXSupportBlog)                                                    | توفر التلميحات والنصائح التي تم نشرها بواسطة فريق دعم Dynamics 365 for Finance and Operations. |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | يوفر مساحة عمل تعاونية قائمة على السحابة يستطيع العملاء والشركاء استخدامها لإدارة مشاريع Dynamics 365 for Finance and Operations بدءًا من مرحلة ما قبل البيع حتى التنفيذ والعمليات. يفيد هذا الموقع في كافة مراحل التنفيذ. |
+| [مدونة الدعم](http://aka.ms/AXSupportBlog)                                                    | يوفر تلميحات ونصائح ينشرها فريق دعم Dynamics 365 for Finance and Operations. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | يستضيف محتوى من الإصدارات السابقة. |
 | [مجتمع Dynamics](https://community.dynamics.com/)                                          | يستضيف المدونات والمنتديات ومقاطع الفيديو. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | يوفر معلومات التقييم والمبيعات. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | يستضيف بعض الموارد التدريبية لتطبيق Finance and Operations وتقارير قابلة للتنزيل وتقارير تقنية، وهو موقع الدعم الأساسي لأصحاب خطة الخدمة. قد يحتاج إلى خطة خدمة للوصول إلى بعض الموارد الموجودة على الموقع. |
-

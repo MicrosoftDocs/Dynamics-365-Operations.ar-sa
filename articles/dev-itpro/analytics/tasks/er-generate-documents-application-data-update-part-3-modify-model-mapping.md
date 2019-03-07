@@ -1,13 +1,13 @@
---- 
-title: "تعديل النماذج والتعيينات لإنشاء مستندات تتضمن بيانات التطبيق"
-description: "لإكمال الخطوات المذكورة في هذا الإجراء، يجب عليك أولاً إكمال الإجراء، \"التقارير الإلكترونية - إنشاء مستندات بواسطة تحديث بيانات التطبيق (الجزء 2 - إنشاء المستندات)‬\"."
+---
+title: تعديل النماذج والتعيينات لإنشاء مستندات تتضمن بيانات التطبيق
+description: لإكمال الخطوات المذكورة في هذا الإجراء، يجب عليك أولاً إكمال الإجراء، "التقارير الإلكترونية - إنشاء مستندات بواسطة تحديث بيانات التطبيق (الجزء 2 - إنشاء المستندات)‬".
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 580f00faf6694dc2da476ffa75f995d9a24e0f8b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361925"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>تعديل النماذج والتعيينات لإنشاء مستندات تتضمن بيانات التطبيق
 
@@ -168,5 +168,4 @@ ms.lasthandoff: 08/08/2018
 65. انقر فوق "حفظ".
 66. قم بإغلاق الصفحة.
 67. قم بإغلاق الصفحة.
-
 

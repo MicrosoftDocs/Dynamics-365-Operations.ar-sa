@@ -1,13 +1,13 @@
---- 
-title: "استخدام برامج الاستمرارية"
-description: "يتناول هذا الإجراء بيع برنامج استمرارية ومعالجة أوامر المبيعات ذات الصلة."
+---
+title: استخدام برامج الاستمرارية
+description: يتناول هذا الإجراء بيع برنامج استمرارية ومعالجة أوامر المبيعات ذات الصلة.
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 45bd4a3cc9f9b03c713d33638d6dc93aa696c581
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358153"
 ---
 # <a name="using-continuity-program"></a>استخدام برامج الاستمرارية
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 09/14/2018
 20. في الحقل "أمر المبيعات"، أدخل قيمة أو حددها.
     * أدخل رقم أمر المبيعات الذي قمت بتسجيله سابقًا في الإجراء. سيؤدي ذلك إلى إبقاء وقت المعالجة بالحد الأدنى لهذا الإجراء. الحقل "أمر المبيعات" اختياري--ستتمكن من معالجة كافة الأوامر في أي برنامج واحد.  
 21. انقر فوق "موافق".
-
 

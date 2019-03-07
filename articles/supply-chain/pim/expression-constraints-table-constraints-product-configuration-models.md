@@ -1,13 +1,13 @@
 ---
-title: "قيود التعبير وقيود الجدول في نماذج تكوين المنتج"
-description: "يصف هذا الموضوع استخدام قيود التعبير وقيود الجدول. تتحكم القيود في قيم السمات التي يمكن تحديدها عند تكوين المنتجات لأمر المبيعات أو عرض أسعار المبيعات أو أمر الشراء أو أمر الإنتاج. يمكنك استخدام قيود التعبير أو قيود الجدول، اعتمادًا على الطريقة التي تفضل بها إنشاء القيود."
+title: قيود التعبير وقيود الجدول في نماذج تكوين المنتج
+description: يصف هذا الموضوع استخدام قيود التعبير وقيود الجدول. تتحكم القيود في قيم السمات التي يمكن تحديدها عند تكوين المنتجات لأمر المبيعات أو عرض أسعار المبيعات أو أمر الشراء أو أمر الإنتاج. يمكنك استخدام قيود التعبير أو قيود الجدول، اعتمادًا على الطريقة التي تفضل بها إنشاء القيود.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356635"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>قيود التعبير وقيود الجدول في نماذج تكوين المنتج
 
 [!include [banner](../includes/banner.md)]
@@ -170,7 +169,7 @@ ms.lasthandoff: 05/08/2018
 </tr>
 <tr class="even">
 <td>القدرة</td>
-<td>يأخذ هذا قيمة أُسية. تنطبق هذه القيمة الأُسية من اليمين لليسار. ‏‫(وبعبارة أخرى، إنها مجمَّعة بالشكل الصحيح).‬ ‏‫ولذلك، <strong>Power‏‏[a،‏ b،‏ c]</strong> يكافئ <strong>Power‏‏[a،‏ Power‏[b،‏ c]]</strong>. <strong>Power</strong> يمكن استخدامه فقط إذا كان الأس بقيمة موجبة.</td>
+<td>يأخذ هذا قيمة أُسية. تنطبق هذه القيمة الأُسية من اليمين لليسار. (وبمعنى آخر، إنها مجمَّعة إلى اليمين). وبالتالي، فإن <strong>Power[a, b, c]</strong> يعادل <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> يمكن استخدامه فقط إذا كان الأس بقيمة موجبة.</td>
 <td>Power‏[args]، الحرف المزيد: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>عامل التشغيل:</strong> Power[x،‏ 2] =‏=‏ y</li>
@@ -223,7 +222,7 @@ ms.lasthandoff: 05/08/2018
 |        (x)        |                           تتجاوز الأقواس الأسبقية الافتراضية.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>لماذا لم يتم التحقق من صحة قيود التعبير لدي بشكل صحيح؟
-لا يمكنك استخدام الكلمات الرئيسية المحجوزة كأسماء أدوات الحلول للسمات أو المكونات أو المكونات الفرعية في نموذج تكوين منتج. فيما يلي قائمة بالكلمات الأساسية التي لا يمكن استخدامها:‬
+لا يمكنك استخدام الكلمات الرئيسية المحجوزة كأسماء أدوات الحلول للسمات أو المكونات أو المكونات الفرعية في نموذج تكوين منتج. فيما يلي قائمة بالكلمات الأساسية المحجوزة التي لا يمكن استخدامها:
 
 -   الحد الأقصى
 -   العنصر
@@ -252,7 +251,6 @@ ms.lasthandoff: 05/08/2018
 [إنشاء قيد تعبير (دليل المهام)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [إضافة عملية حسابية إلى نموذج تكوين منتج (دليل المهام)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

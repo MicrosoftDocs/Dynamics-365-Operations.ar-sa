@@ -1,32 +1,31 @@
 ---
-title: "أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية"
-description: "يوفر هذا الموضوع معلومات حول أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية. يمكن استخدام أعضاء الأبعاد الإحصائية كأساس توزيع في سياسات مثل توزيع التكلفة وتخصيص التكلفة. ويمكن أيضًا استخدامها للإبلاغ عن استهلاك التكلفة غير النقدية."
+title: أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية
+description: يوفر هذا الموضوع معلومات حول أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية. يمكن استخدام أعضاء الأبعاد الإحصائية كأساس توزيع في سياسات مثل توزيع التكلفة وتخصيص التكلفة. ويمكن أيضًا استخدامها للإبلاغ عن استهلاك التكلفة غير النقدية.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360292"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية
 
 [!include [banner](../includes/banner.md)]
@@ -73,7 +72,7 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="statistical-measure-provider-template"></a>قالب موفر القياسات الإحصائية
 
-من الممكن أن تنشأ القياسات الإحصائية من أنواع متعددة من المصادر. يعتبر Microsoft Dynamics 365 for Finance and Operations موردًا مفيدًا لاستخراج الإجراءات الإحصائية منه. يمكنك استخدام قالب موفر قياسات إحصائية لتسهيل تكوين القياسات الإحصائية التي تريد استخراجها.
+من الممكن أن تنشأ القياسات الإحصائية من أنواع متعددة من المصادر. يعتبر Microsoft Dynamics 365 for Finance and Operations مصدرًا مفيدًا لاستخراج القياسات الإحصائية منه. يمكنك استخدام قالب موفر قياسات إحصائية لتسهيل تكوين القياسات الإحصائية التي تريد استخراجها.
 
 تعريف قالب موفر القياسات الإحصائية عبارة عن تعريف عام ويمكن إعادة استخدامه في العديد من أعضاء البُعد الإحصائي.
 
@@ -138,7 +137,7 @@ ms.lasthandoff: 05/08/2018
 
 | الاسم        | موصل البيانات                                                                     | عضو البُعد الإحصائي |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTEs D365FO | Dynamics 365 for Finance and Operations - القياسات الإحصائية‬ | FTEs                         |
+| FTEs D365FO | Dynamics 365 for Finance and Operations – القياسات الإحصائية | FTEs                         |
 
 **تكوين موفر البيانات**
 
@@ -226,7 +225,7 @@ ms.lasthandoff: 05/08/2018
 
 | الاسم           | موصل البيانات                                                                     | عضو البُعد الإحصائي |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pack CC D365FO | Dynamics 365 for Finance and Operations - القياسات الإحصائية‬ | Pack CC                      |
+| Pack CC D365FO | Dynamics 365 for Finance and Operations – القياسات الإحصائية | Pack CC                      |
 
 يتعرف النظام على ProdRouteTrans كجدول حيث ينتمي كل سجل إلى كيان قانوني منفصل. لذلك، سوف يطلب منك تحديد الكيان القانوني الذي يجب أن يتم استيراد الحركات منه.
 
@@ -274,7 +273,7 @@ ms.lasthandoff: 05/08/2018
 > [!NOTE]
 > تم تصميم كيان البيانات هذا للسماح بقيم أبعاد فريدة خمسة كحد أقصى لكل إدخال.
 
-يتم تسجيل استهلاك الكهرباء في Microsoft Excel باستخدام تنسيق معرف مسبقاً لكيان البيانات. فيما يلي مثال على ذلك.
+يتم تسجيل استهلاك الكهرباء في Microsoft Excel باستخدام تنسيق معرف مسبقًا لكيان البيانات. فيما يلي مثال على ذلك.
 
 | التاريخ المحاسبي | اسم عضو البُعد 1 | اسم عضو البُعد 2 | اسم عضو البُعد 5 | المقدار  | ‏‏معرف المصدر |
 |-----------------|------------------------|------------------------|------------------------|------------|-------------------|
@@ -347,4 +346,3 @@ ms.lasthandoff: 05/08/2018
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [أسس التوزيع](allocation-bases.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "تكوين بنيات حساب"
-description: "يوفر هذا الموضوع معلومات عن بنيات الحساب والأبعاد المالية."
+title: تكوين بنيات حساب
+description: يوفر هذا الموضوع معلومات عن بنيات الحساب والأبعاد المالية.
 author: aprilolson
 manager: AnnBe
 ms.date: 05/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
 ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351713"
 ---
-
 # <a name="configure-account-structures"></a>تكوين بنيات حساب
 
 [!include[banner](../includes/banner.md)]
@@ -100,4 +99,3 @@ ms.lasthandoff: 08/08/2018
 عندما تكون راضيًا بالإعداد الجديد أو بالتغيير إلى بنية الحساب، فإنه يجب تنشيطه. إذا تم تعيين بنية حساب إلى دفتر الأستاذ، يمكن أن يكون هذا التنشيط عملية طويلة المدة، لأن كل المعاملات غير المنشورة في النظام يجب مزامنتها للبنية الجديدة. لن تتأثر المعاملات المنشورة بتغييرات بنية الحساب.
 
 للحصول على المزيد من المعلومات، راجع [خطط دليل الحسابات الخاص بك‬‏‫](plan-chart-of-accounts.md)، و [الأبعاد المالية](financial-dimensions.md) و [‬‏‫إدخال مجموعات الحسابات والأبعاد (عنصر تحكم في الإدخال المقسم)](enter-account-dimension-combinations-segmented-entry-control.md).
-

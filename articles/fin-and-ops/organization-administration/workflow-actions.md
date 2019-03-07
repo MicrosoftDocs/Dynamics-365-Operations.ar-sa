@@ -1,13 +1,13 @@
 ---
-title: "الإجراءات في عمليات الموافقة على سير العمل"
-description: "توضح هذه المقالة الإجراءات التي يمكن أن يتخذها كل مشارك في عملية موافقة على سير عمل."
+title: الإجراءات في عمليات الموافقة على سير العمل
+description: توضح هذه المقالة الإجراءات التي يمكن أن يتخذها كل مشارك في عملية موافقة على سير عمل.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 829ee16b8fd72a0808a657419524487d9c1b3123
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361741"
 ---
-
 # <a name="actions-in-workflow-approval-processes"></a>الإجراءات في عمليات الموافقة على سير العمل
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ ms.lasthandoff: 12/18/2018
 على سبيل المال، قام سامي بتقديم ‏‏تقرير مصروفات بمبلغ 12,000 دولار أمريكي، وتم تعيين هذا المستند إلى سمر. وإذا طلبت سمر إجراء تغيير، فإنه تتم إعادة إرسال تقرير المصروفات إلى سامي.
 
 ويمكن لسامي إعادة إرسال تقرير المصروفات. ويمكنه إجراء التغييرات المطلوبة أولاً، أو أنه يمكن إعادة إرسال النسخة الأصلية لتقرير المصروفات. وإذا أعاد سامي إرسال تقرير المصروفات، فسيتم إرساله إلى سعيد للاعتماد نظرًا لأن سعيد هو المعتمد الأول في عملية الاعتماد.
-

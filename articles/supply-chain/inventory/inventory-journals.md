@@ -1,13 +1,13 @@
 ---
-title: "دفاتر يومية المخزون"
-description: "يوضح هذا الموضوع كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية."
+title: دفاتر يومية المخزون
+description: يوضح هذا الموضوع كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية.
 author: perlynne
 manager: AnnBe
 ms.date: 04/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361672"
 ---
-
 # <a name="inventory-journals"></a>دفاتر يومية المخزون
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 
 يوضح هذا الموضوع كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية.
 
-تُستخدم دفاتر يومية المخزون في Microsoft Dynamics 365 for Finance and Operations لترحيل حركات المخزون الفعلية من مختلف الأنواع، مثل ترحيل عمليات الإصدار والاستلام، وحركات المخزون، وإنشاء قائمة مكونات الصنف (BOM)، وتسوية المخزون الفعلي. وتُستخدم كافة دفاتر يومية المخزون هذه بطريقة مماثلة، ولكن يتم تقسيمها إلى أنواع مختلفة.
+تُستخدم دفاتر يومية المخزون في Microsoft Dynamics 365 for Finance and Operations لترحيل حركات المخزون الفعلية من مختلف الأنواع، مثل ترحيل عمليات الإصدار والاستلام، وحركات المخزون، وإنشاء قائمة مكونات الصنف (BOMs)، وتسوية المخزون الفعلي. وتُستخدم كافة دفاتر يومية المخزون هذه بطريقة مماثلة، ولكن يتم تقسيمها إلى أنواع مختلفة.
 
 ## <a name="types-of-inventory-journals"></a>أنواع دفاتر يومية المخزون
 تتوفر الأنواع التالية من دفاتر يومية المخزون:
@@ -104,7 +103,7 @@ ms.lasthandoff: 04/13/2018
 لمزيد من المعلومات، راجع [كيانات البيانات](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> لا تعتبر كافة دفاتر يومية المخزون ممكَّنة لـ OData، لذلك لا يمكنك استخدام Excel data connector للحصول على البيانات ونشرها وتحديثها واستيرادها مرة أخرى إلى Dynamics 365 for Finance and Operations. 
+> لا تعتبر كافة دفاتر يومية المخزون ممكَّنة لـ OData، لذلك لا يمكنك استخدام تطبيق Excel data connector للحصول على البيانات ونشرها وتحديثها واستيرادها مرة أخرى إلى Dynamics 365 for Finance and Operations. 
 
 هناك فرق آخر بين وحدات بيانات دفتر اليومية هو القدرة على استخدام الكيانات المركبة التي تحتوي على كلٍّ من بيانات الخط والعنوان. في الوقت الحالي، يمكنك استخدام الكيانات المركبة لما يلي:
 -   دفتر يومية تعديل المخزون
@@ -120,4 +119,3 @@ ms.lasthandoff: 04/13/2018
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [كيانات البيانات](../../dev-itpro/data-entities/data-entities.md)
-

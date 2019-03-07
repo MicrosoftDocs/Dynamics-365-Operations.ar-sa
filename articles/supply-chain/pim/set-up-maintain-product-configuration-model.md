@@ -1,13 +1,13 @@
 ---
-title: "إعداد نموذج تكوين المنتج"
-description: "توضح هذه المقالة الخطوات اللازمة لإعداد نموذج تكوين المنتج وإنشائه."
+title: إعداد نموذج تكوين المنتج
+description: توضح هذه المقالة الخطوات اللازمة لإعداد نموذج تكوين المنتج وإنشائه.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360660"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>إعداد نموذج تكوين المنتج
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 02/07/2018
 | اختبار نموذج تكوين المنتج.                         | اختبر نموذج تكوين المنتج أما من صفحة **تفاصيل نموذج تكوين منتج مستند إلى قيد** أو صفحة **قائمة نماذج تكوين المنتج**. يحاكي اختبار نماذج تكوين المنتج عملية تكوين نموذج المنتج التي تحدث أثناء معالجة الأمر.                                                                                                |
 | إنشاء قالب نموذج تكوين المنتج.                | قم بإنشاء قالب نموذج تكوين منتج في صفحة **قوالب التكوين‬**. ويتضمن قالب التكوين قيم السمات في نموذج تكوين المنتج. حدد قيم السمات في صفحة **تكوين البند**. ويمكنك تحديد تحميل قالب تكوين نموذج منتج أثناء تكوين نموذج المنتج.                                                   |
 | تكوين صنف.                                          | يمكن تكوين نماذج تكوين المنتج من أمر مبيعات أو عرض أسعار مبيعات أو أمر شراء أو أمر إنتاج.                                                                                                                                                                                                                                                                           |
-
 
 
 

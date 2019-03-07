@@ -1,13 +1,13 @@
 ---
-title: "وظائف استيراد البيانات وتصديرها"
-description: "استخدم مساحة عمل إدارة البيانات لإنشاء وإدارة وظائف استيراد البيانات وتصديرها."
+title: وظائف استيراد البيانات وتصديرها
+description: استخدم مساحة عمل إدارة البيانات لإنشاء وإدارة وظائف استيراد البيانات وتصديرها.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360200"
 ---
-
-# <a name="data-import-and-export-jobs"></a>وظائف استيراد البيانات وتصديرها
+# <a name="data-import-and-export-jobs"></a>استيراد البيانات وتصدير الوظائف
 
 [!include [banner](../includes/banner.md)]
 
-لإنشاء وإدارة وظائف استيراد البيانات وتصديرها في Microsoft Dynamics 365 for Finance and Operations، يمكنك استخدام مساحة العمل **إدارة البيانات**. بشكل افتراضي، تنشئ عملية استيراد البيانات وتصديرها جدولاً مرحليًا لكل كيان في قاعدة البيانات الهدف. تسمح لك الجداول المرحلية بالتحقق من البيانات أو تنظيمها أو تحويلها قبل قبل أن تقوم بنقلها.
+لإنشاء وإدارة وظائف استيراد البيانات وتصديرها في Microsoft Dynamics 365 for Finance and Operations، استخدم مساحة عمل **إدارة البيانات**. بشكل افتراضي، تنشئ عملية استيراد البيانات وتصديرها جدولاً مرحليًا لكل كيان في قاعدة البيانات الهدف. تسمح لك الجداول المرحلية بالتحقق من البيانات أو تنظيمها أو تحويلها قبل قبل أن تقوم بنقلها.
 
 > [!NOTE]
 > يفترض هذا الموضوع أنك على دراية بـ [كيانات البيانات](data-entities.md).
@@ -158,4 +157,3 @@ ms.lasthandoff: 08/13/2018
 - **مشاريع البيانات** – إذا تم تحديد مشروع بيانات فقط، فسيتم حذف جميع السجلات لجميع الكيانات وعبر جميع الوظائف الخاصة بمشروع البيانات المحدد.
 
 يمكنك أيضًا دمج الخيارات لزيادة مستوى تقييد مجموعة السجلات التي تم حذفها.
-

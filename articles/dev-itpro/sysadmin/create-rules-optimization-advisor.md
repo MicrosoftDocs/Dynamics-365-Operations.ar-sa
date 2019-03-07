@@ -1,32 +1,31 @@
 ---
-title: "إنشاء قواعد لمرشد تحسين الأداء"
-description: "يناقش هذا الموضوع كيفية إضافة القواعد الجديدة إلى مرشد تحسين الأداء."
+title: إنشاء قواعد لمرشد تحسين الأداء
+description: يناقش هذا الموضوع كيفية إضافة القواعد الجديدة إلى مرشد تحسين الأداء.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354151"
 ---
-
 # <a name="create-rules-for-optimization-advisor"></a>إنشاء قواعد لمرشد تحسين الأداء
 
 [!include [banner](../includes/banner.md)]
@@ -103,11 +102,11 @@ private container findRFQCasesWithEmptyTitle()
 
 يظهر العنوان المعروض بواسطة **opportunityTitle** تحت عمود **فرصة التحسين** في مساحة عمل **مرشد التحسين**. كما يظهر كعنوان للجزء الجانبي ويعرض مزيدًا من المعلومات حول الفرصة. بشكل تقليدي، يتم تزيين هذا الأسلوب باستخدام السمة **DiagnosticRuleSubscription** التي تأخذ الوسائط التالية: 
 
-* **منطقة التشخيص** - تعداد نوع **DiagnosticArea** الذي يصف مساحة التطبيق التي تنتمي إليها القاعدة، مثل **DiagnosticArea::SCM**. 
+* **منطقة التشخيص** – تعداد من النوع **DiagnosticArea** يصف مساحة التطبيق التي تنتمي إليها القاعدة، مثل **DiagnosticArea::SCM**. 
 
 * **اسم القاعدة** -سلسلة تحتوي على اسم القاعدة. سيظهر هذا الاسم ضمن عمود **اسم القاعدة** في نموذج **قاعدة التحقق من صحة التشخيصات** (**DiagnosticsValidationRuleMaintain**). 
 
-* **تشغيل معدل التكرار** - تعداد من نوع **DiagnosticRunFrequency** يوضح عدد مرات التي يجب بها تشغيل القاعدة، مثل **DiagnosticRunFrequency::Daily**. 
+* **معدل تكرار التشغيل‬** – تعداد من النوع **DiagnosticRunFrequency** يصف عدد مرات تشغيل القاعدة المطلوب، مثل **DiagnosticRunFrequency::Daily**. 
 
 * **وصف القاعدة** - سلسلة تحتوي على وصف أكثر تفصيلاً للقاعدة. سيظهر هذا ضمن عمود **وصف القاعدة** في نموذج **قاعدة التحقق من صحة التشخيصات** (**DiagnosticsValidationRuleMaintain**). 
 
@@ -196,7 +195,7 @@ class ScanNewRulesJob
 
 ستظهر القاعدة في نموذج **قاعدة التحقق من صحة التشخيصات**، وهي متوفرة من **إدارة النظام** > **المهام الدورية** > **صيانة قاعدة التحقق من صحة التشخيصات**. ولتقييمها، انتقل إلى **إدارة النظام** > **المهام الدورية** > **قاعدة التحقق من صحة تشخيصات الجدول‬**، وحدد عدد مرات تكرار القاعدة، مثل **يوميًا**. وانقر فوق **موافق**. انتقل إلى **إدارة النظام** > **مرشد التحسين** لعرض الفرصة الجديدة. 
 
-المثال التالي عبارة عن أجزاء من تعليمات برمجية مع إطار عمل قاعدة تتضمن كافة الأساليب والسمات المطلوبة. من شأنه أن يساعدك في بدء كتابة قواعد جديدة. التسميات وعناصر قائمة الإجراءات المستخدمة في المثال هي مستخدمة فقط لأغراض العرض التوضيحي.
+المثال التالي عبارة عن أجزاء من تعليمات برمجية مع إطار عمل قاعدة تتضمن كافة الأساليب والسمات المطلوبة. من شأنه أن يساعدك في بدء كتابة قواعد جديدة. التسميات وعناصر قائمة الإجراءات المستخدمة في المثال هي مستخدمة فقط لأغراض العرض التوضيحي.
 
 ```
 [DiagnosticsRuleAttribute]
@@ -255,5 +254,4 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-للحصول على المزيد من المعلومات، شاهد فيديو YouTube القصير: [مرشد التحسين في Dynamics 365 for Finance and Operations (فيديو)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+لمزيد من المعلومات، شاهد مقطع الفيديو القصير على YouTube: [مرشد التحسين في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

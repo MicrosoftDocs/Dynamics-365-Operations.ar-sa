@@ -1,13 +1,13 @@
 ---
-title: "نظرة عامة حول ترقية دفتر الإهلاك"
-description: "في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك. في Microsoft Dynamics 365 for Operations (1611)، تم دمج وظيفة نموذج القيم ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر. يوفر هذا الموضوع بعض الأشياء الواجب مراعاتها عند إجراء الترقية."
+title: نظرة عامة حول ترقية دفتر الإهلاك
+description: في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك. في Microsoft Dynamics 365 for Operations (1611)، تم دمج وظيفة نموذج القيم ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر. يوفر هذا الموضوع بعض الأشياء الواجب مراعاتها عند إجراء الترقية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359303"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>نظرة عامة حول ترقية دفتر الإهلاك
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,6 @@ ms.lasthandoff: 11/03/2017
 عند استخدام نهج التسلسل الرقمي المعرّف من قِبل المستخدم (الخيار 2)، سوف تقوم عملية الترقية بالتحقق مما إذا كان التسلسل الرقمي مع النطاق المحدد موجودًا في قاعدة البيانات لكل قسم وشركة مع حركات كتب الإهلاك. إذا كان موجودًا، فإن عملية الترقية ستستخدم معالجة كل صف بعد الآخر لتوزيع أرقام الإيصالات كما هو محدد بواسطة التسلسل الرقمي باستخدام إطار عمل التسلسل الرقمي. إذا لم يكن التسلسل الرقمي موجودًا مع النطاق المُحدد، فإن عملية الترقية سوف تستخدم نهج التسلسل الرقمي الافتراضي المُعرّف من قبل النظام لتوزيع أرقام الإيصالات، وسوف تنشأ تسلسل رقمي جديد مع المحددات الافتراضية المحددة بعد التوزيع.
 
 باستخدام أي من النهجين، سيستخدم أيضًا البرنامج النصي للترقية بيانات التسلسل الرقمي لحقل **مسلسل الإيصال** على أسماء دفاتر يومية دفتر الأستاذ العام الجديد التي تم إنشاؤها لأسماء دفاتر يومية دفتر الإهلاك السابق.
-
 
 
 

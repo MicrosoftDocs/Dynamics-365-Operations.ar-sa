@@ -1,32 +1,31 @@
 ---
-title: "سياسة زيادة التكلفة وحساب المصروفات الزائدة"
-description: "يوفر هذا الموضوع معلومات حول كيفية تحديد المستوى الصحيح من عناصر التكلفة الثانوية وإنشاء قواعد زيادة التكلفة التي تناسب تقارير المؤسسة وقابلية التكلفة للتتبع."
+title: سياسة زيادة التكلفة وحساب المصروفات الزائدة
+description: يوفر هذا الموضوع معلومات حول كيفية تحديد المستوى الصحيح من عناصر التكلفة الثانوية وإنشاء قواعد زيادة التكلفة التي تناسب تقارير المؤسسة وقابلية التكلفة للتتبع.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e809cb2cadadc623134805e028de7f2e64dd662f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356129"
 ---
-
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>سياسة زيادة التكلفة وحساب المصروفات الزائدة 
 
 [!include [banner](../includes/banner.md)]
@@ -251,13 +250,13 @@ ms.lasthandoff: 05/08/2018
 | CC003       | التجميع     | SC-CC002 | المالية         | 11.527,75   | 31-01-2017 |
 | CC004       | التعبئة    | SC-CC002 | المالية         | 6.207,25    | 31-01-2017 |
 
-بعد إتمام **حساب المصروفات الزائدة**، يمكنك الإبلاغ عن النتائج باستخدام الأدوات مثل مساحة عمل Microsoft SharePoint، أو Excel أو Power BI.
+بعد إتمام **حساب المصروفات الزائدة**، يمكنك الإبلاغ عن النتائج باستخدام أدوات مثل مساحة عمل Microsoft SharePoint أو Excel أو Power BI.
 
 ## <a name="view-reporting-in-excel"></a>عرض التقارير في Excel 
 
 تسمح لك التدرجات الهرمية للبعد بعرض البيانات في مستويات تجميع مختلفة.
 
-وفيما يلي مثالًا لتقارير Power Pivot في Excel.
+فيما يلي مثال عن تقرير Power Pivot في Excel.
 
 | **كشف حساب الأرباح والخسائر** | **كائن التكلفة** |                |               |               |  **الإجمالي**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
@@ -302,4 +301,3 @@ ms.lasthandoff: 05/08/2018
 -  [أبعاد عنصر التكلفة](cost-elements.md)
 -  [التدرجات الهرمية للأبعاد](dimension-hierarchy.md)
 -  [عملية حساب المصروفات الزائدة](overhead-calculation.md)
-

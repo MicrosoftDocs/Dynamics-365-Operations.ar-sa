@@ -1,13 +1,13 @@
---- 
-title: "إنشاء حساب بنكي للمورّد"
-description: "يوضح هذا الإجراء كيفية إنشاء حساب بنكي للمورّد."
+---
+title: إنشاء حساب بنكي للمورّد
+description: يوضح هذا الإجراء كيفية إنشاء حساب بنكي للمورّد.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, LogisticsPostalAddressSingle
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: deb3587667ac13b95617ec219995bfef931df00c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: adb759c59d7275e7323dbb760de56acdef2e3cff
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360614"
 ---
 # <a name="create-a-vendor-bank-account"></a>إنشاء حساب بنكي للمورّد
 
@@ -63,5 +63,4 @@ ms.lasthandoff: 09/29/2017
 25. في حقل "الحساب البنكي"، حدد الحساب الذي أنشأته للتوّ.
 26. انقر فوق "حفظ".
     * قد يتم توارث العنوان من المجموعة البنكية، إذا تم تحديد واحد، أو يمكنك إضافته هنا.  
-
 

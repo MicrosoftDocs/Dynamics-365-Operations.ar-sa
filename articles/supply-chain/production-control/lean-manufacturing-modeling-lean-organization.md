@@ -1,13 +1,13 @@
 ---
-title: "تصميم المؤسسة المرنة"
-description: "توفر هذه المقالة معلومات حول المفاهيم الأساسية في تصميم مؤسسة مرنة."
+title: تصميم المؤسسة المرنة
+description: توفر هذه المقالة معلومات حول المفاهيم الأساسية في تصميم مؤسسة مرنة.
 author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 254616174d3f3c449e2a55dfc5f080d6276105b0
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350977"
 ---
-
 # <a name="modeling-a-lean-organization"></a>تصميم المؤسسة المرنة
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ ms.lasthandoff: 09/24/2018
 
 ## <a name="simplicity"></a>البساطة
 لتنفيذ Lean Manufacturing، اخترنا تدفق إنتاج ونهج نشاط يسمح بتصميم سيناريوهات إنتاج بسيطة ومعقدة في بنية واحدة قابلة للتوسيع. وتكشف نظرة أدق على مفهوم النشاط تبسيطًا جديدًا لأولئك المستخدمين الذين بحاجة إليه حقاً: عمال صالة الإنتاج واللوجستيات. ومن خلال رفع التقارير حسب الوظائف المستندة إلى النشاط بدلاً من حركات المخزون، تقوم واجهة مستخدم موحدة لكافة متغيرات lean manufacturing بنقل تعقيد العمل من واجهة المستخدم إلى المكان الذي تنتمي إليه: تدفق الإنتاج كعمود فقري لـ lean manufacturing.
-
 
 
 

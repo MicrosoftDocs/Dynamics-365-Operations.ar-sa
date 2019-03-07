@@ -1,13 +1,13 @@
 ---
-title: "معالجة دفتر اليومية العام"
-description: "يصف هذا الموضوع القدرات المتوفرة في Microsoft Dynamics 365 for Finance and Operations التي يمكنها المساعدة في جعل معالجة دفتر اليومية العام تتم بشكل أسهل، والتي يمكنها أيضًا المساعدة في ضمان تسجيل البيانات الصحيحة وعدم اختراق التحكم الداخلي."
+title: معالجة دفتر اليومية العام
+description: تصف هذه المقالة القدرات المتوفرة في Microsoft Dynamics 365 for Finance and Operations التي يمكنها المساعدة في تسهيل معالجة دفتر اليومية العام، والتي يمكنها أيضًا المساعدة في ضمان التقاط البيانات الصحيحة وعدم اختراق التحكم الداخلي.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358429"
 ---
-
 # <a name="general-journal-processing"></a>معالجة دفتر اليومية العام
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع القدرات المتوفرة في Microsoft Dynamics 365 for Finance and Operations التي يمكنها المساعدة في جعل معالجة دفتر اليومية العام تتم بشكل أسهل، والتي يمكنها أيضًا المساعدة في ضمان تسجيل البيانات الصحيحة وعدم اختراق التحكم الداخلي.  
+تصف هذه المقالة القدرات المتوفرة في Microsoft Dynamics 365 for Finance and Operations التي يمكنها المساعدة في تسهيل معالجة دفتر اليومية العام، والتي يمكنها أيضًا المساعدة في ضمان التقاط البيانات الصحيحة وعدم اختراق التحكم الداخلي.  
 
 ## <a name="journal-names"></a>أسماء دفاتر اليومية
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 09/24/2018
 يمكنك العثور على **محاكاة الترحيل** في قائمة **التحقق من الصحة** لمعظم دفاتر اليومية. عند التحقق من صحة دفتر يومية باستخدام وظيفة **التحقق من الصحة**، يقوم النظام باختبار دفتر اليومية لحالات أخطاء معينة. إذا قمت باستخدام وظيفة **محاكاة الترحيل**، سوف يقوم النظام بتشغيل كافة العمليات المماثلة التي يتم تشغيلها أثناء عملية الترحيل دون ترحيل دفتر اليومية فعليًا. حينها، يمكن عرض رسائل الترحيل التي يتم عرضها وإصلاح أي أخطاء يتم العثور عليها، ثم النق على قائمة **الترحيل** لترحيل دفتر اليومية.  
 
 **محاكاة الترحيل** غير متوفرة لمعالجة الدفعة. ومع ذلك، يوجد كود متوفر لمحاكاة الترحيل في الدفعة، ويمكن للمطورين توسيع الكود لإضافة هذه الوظيفة.  
-

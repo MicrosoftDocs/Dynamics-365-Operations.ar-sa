@@ -1,13 +1,13 @@
---- 
-title: "جرد المخزون في مستودع"
-description: "يوضح لك هذا الإجراء عملية إنشاء دفتر يومية جرد مخزون وترحيله لجرد صنف معين بأحد المواقع في المستودع."
+---
+title: جرد المخزون في مستودع
+description: يوضح لك هذا الإجراء عملية إنشاء دفتر يومية جرد مخزون وترحيله لجرد صنف معين بأحد المواقع في المستودع.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8c0bbfe8f86d27f81b0d577ed89dfa34ebcf3f18
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fa72cb0d651f5e60797fa41f6e2b2cf1891730b5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353461"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>جرد المخزون في مستودع
 
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/29/2017
 1. انقر فوق المخزون.
 2. انقر فوق "الحركات".
     * هنا يمكنك أن ترى أي حركات ذات صلة سيتم إنشاؤها عند ترحيل دفتر يومية جرد المخزون الخاص بك.   
-
 

@@ -1,13 +1,13 @@
 ---
-title: "إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN)"
-description: "يشرح هذا الموضوع كيفية إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN)."
+title: إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN)
+description: يشرح هذا الموضوع كيفية إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN).
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
 ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
-ms.contentlocale: ar-sa
-ms.lasthandoff: 10/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359993"
 ---
-
 # <a name="manage-international-bank-account-number-iban-validation"></a>إدارة التحقق من صحة رقم الحساب البنكي الدولي (IBAN)
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ ms.lasthandoff: 10/12/2018
     تتأكد أيضًا عملية من الصحة من أن رقم الحساب البنكي يتطابق مع جزء IBAN الذي يمثل رقم الحساب البنكي. إذا لم يكن رقم الحساب البنكي مطابقًا، فستتلقى رسالة تحذير. هذه الرسالة عبارة عن تحذير فقط. يمكنك المتابعة حتى لو لم يكن رقم الحساب البنكي متطابقًا.
 
     تتأكد أيضًا عملية من الصحة من أن رقم رقم التوجيه البنكي يتطابق مع جزء IBAN الذي يمثل رقم رقم التوجيه البنكي. يتضمن رقم التوجيه رقم بنك وفرع بنك إضافيًا في أغلب الأحيان. إذا لم يكن رقم التوجيه البنكي مطابقًا، فستتلقى رسالة تحذير. هذه الرسالة عبارة عن تحذير فقط. يمكنك المتابعة حتى لو لم يكن رقم التوجيه البنكي مطابقًا.
-

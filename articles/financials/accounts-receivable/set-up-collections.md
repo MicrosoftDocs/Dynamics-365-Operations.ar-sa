@@ -1,13 +1,13 @@
 ---
-title: "إعداد الائتمان وعمليات التحصيل"
-description: "توضح هذه المقالة كيفية إعداد وظيفة المجموعات."
+title: إعداد الائتمان وعمليات التحصيل
+description: توضح هذه المقالة كيفية إعداد وظيفة المجموعات.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6b1dcd6ad0ca05a94409d5d23039ccefe53392e3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f35981396c782b530737adac8ad62d0ff4b0f77e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351828"
 ---
-
 # <a name="set-up-credit-and-collections"></a>إعداد الائتمان وعمليات التحصيل
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ ms.lasthandoff: 11/03/2017
 قم بإعداد كود السبب الافتراضي المستخدم عند شطب الحركات في صفحة **التحصيلات**. ويمكنك تغيير الكود أثناء عملية الشطب.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>إعداد مجلد لمرفقات البريد الإلكتروني وإنشاء قوالب البريد الإلكتروني
-وإذا كان سيتم إرسال رسائل البريد الإلكتروني من صفحة **التحصيلات** التي تحتوي على مرفقات Microsoft Excel، فإنه يمكنك إنشاء قوالب بريد إلكتروني اختيارية لتلك الرسائل.
+إذا أردت إرسال رسائل إلكترونية من صفح **التحصيلات‏‎** التي تحتوي على مرفقات Microsoft Excel، يمكنك إنشاء قوالب بريد إلكتروني اختيارية لتلك الرسائل.
 
 ## <a name="set-up-accounts-receivable-parameters-for-collections"></a>إعداد معلمات الحسابات المدينة للتحصيلات
 وقم بإعداد معلمات الحسابات المدينة التي تظهر في علامة التبويب **التحصيلات**.
@@ -77,7 +76,7 @@ ms.lasthandoff: 11/03/2017
 قم بتحديث الحسابات البنكية التحديث بحيث تشتمل على دفتر اليومية الصحيح عند تحديد مدفوعات NSF في صفحة **التحصيلات**. وفي علامة التبويب **إدارة العملة**، في **دفتر يومية مدفوعات NSF** ، حدد دفتر يومية مدفوعات.
 
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>إعداد إعدادات Outlook لمستخدمي صفحة التحصيلات
-قبل أن يتمكن العمال من إنشاء أنشطة أو إرسال رسائل بريد إلكتروني عن طريق استخدام صفحة **التحصيلات**، يجب عليك التحقق من تحديد مفتاح تكوين **مزامنة Microsoft Outlook** ومن إعداد مزامنة Outlook لأولئك العمال.
+قبل أن يتمكن العاملون من إنشاء أنشطة أو إرسال رسائل إلكترونية عن طريق استخدام صفحة **التحصيلات‏‎**، يجب عليك التحقق من تحديد مفتاح تكوين **مزامنة Microsoft Outlook** ومن إعداد مزامنة Outlook لأولئك العاملين.
 
 ## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>إعداد إعدادات البريد الإلكتروني والعنوان لجهات اتصال العميل الخاصة بالتحصيلات
 قم بإعداد عناوين البريد الإلكتروني لجهات الاتصال الخاصة بالعميل إذا كنت تريد إرسال رسائل بريد إلكتروني لجهات الاتصال هذه من صفحة **التحصيلات**. ويتم استخدام جهة اتصال التحصيلات كجهة اتصال افتراضية في صفحة **التحصيلات**. ويمكنك إعداد عنوان كشف حساب للعميل، إذا كانت كشوف الحسابات ينبغي أن تستخدم عنوانًا غير العنوان الأساسي. 
@@ -100,5 +99,4 @@ ms.lasthandoff: 11/03/2017
  - [معالجة خطابات التحصيل](tasks/process-collection-letters.md)
 
  - [مراجعة معلومات التحصيلات](tasks/review-collections-information.md)
-
 

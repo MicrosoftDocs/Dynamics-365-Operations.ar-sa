@@ -1,13 +1,13 @@
---- 
+---
 title: " تكوينات المتجر لحساب بيانات Retail"
-description: "يتناول هذا الإجراء تكوينات لمتجر البيع بالتجزئة التي تؤثر على كيفية إنشاء كشوفات حساب البيع بالتجزئة وترحيلها."
+description: يتناول هذا الإجراء تكوينات لمتجر البيع بالتجزئة التي تؤثر على كيفية إنشاء كشوفات حساب البيع بالتجزئة وترحيلها.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fddeb8434d916df1613d61da88110dec8fb4465
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cac676c9c6ebb6769fe7e30ac08a2c8334befc24
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354703"
 ---
 # <a name="store-configurations-for-retail-statements"></a> تكوينات المتجر لحساب بيانات Retail
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
     * حدد "نعم" إذا كان ينبغي ترحيل الحركات التي تحدث بعد منتصف الليل كجزء من اليوم السابق.  
     * حدد "نعم" للحصول على كشوفات الحساب التي تم إنشاؤها لكل طريقة كشف حساب محددة. قد يكون هذا مفيدًا إذا كان أداء الترحيل بحاجة إلى التحسين للمتاجر التي لها كميات كبيرة من الحركات نظرًا لأنها ستنشئ العديد من كشوفات الحساب الأصغر التي يمكن معالجتها بالتوازي.  
     * في حقل "العميل الافتراضي"، يمكنك تحديد حساب العميل المراد استخدامه للمبيعات للعملاء المباشرين.  
-
 

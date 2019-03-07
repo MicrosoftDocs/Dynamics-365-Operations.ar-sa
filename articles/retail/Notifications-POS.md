@@ -1,13 +1,13 @@
 ---
-title: "إظهار إعلامات الأوامر في نقطة البيع (POS)"
-description: "يصف هذا الموضوع كيفية تمكين إخطارات الأوامر في نقطة البيع وإطار عمل الإخطار. وأخيرًا، سوف يكون المطورون قادرون على تمديد هذه الإخطارات إلى العمليات بالإضافة إلى عمليات نفيذ الأوامر."
+title: إظهار إعلامات الأوامر في نقطة البيع (POS)
+description: يصف هذا الموضوع كيفية تمكين إخطارات الأوامر في نقطة البيع وإطار عمل الإخطار. وأخيرًا، سوف يكون المطورون قادرون على تمديد هذه الإخطارات إلى العمليات بالإضافة إلى عمليات نفيذ الأوامر.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361327"
 ---
-
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>إظهار إعلامات الأوامر في نقطة البيع (POS)
 
 [!include [banner](includes/banner.md)]
@@ -72,4 +71,3 @@ ms.lasthandoff: 08/08/2018
 يبين الرسم التوضيحي التالي تأثير تحديد **أعلى اليمين** في مقابل **المركز** في حقل **محاذاة المحتوى** لأزرار ذات أحجام مختلفة.
 
 ![المحتوى المباشر على أزرار نقطة البيع](./media/ButtonsWithLiveContent.png "المحتوى المباشر على أزرار نقطة البيع")
-

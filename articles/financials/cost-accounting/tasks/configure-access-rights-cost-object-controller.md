@@ -1,13 +1,13 @@
---- 
-title: "تكوين حقوق الوصول لمراقب كائن التكلفة"
-description: "استخدم هذا الإجراء لتكوين حقوق الوصول لمراقب كائن التكلفة."
+---
+title: تكوين حقوق الوصول لمراقب كائن التكلفة
+description: استخدم هذا الإجراء لتكوين حقوق الوصول لمراقب كائن التكلفة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6b7018f9d4926321341af94efd13911e2c69f5f5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b0647e1ec55d23607d07f38105e42af498ad1174
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351161"
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>تكوين حقوق الوصول لمراقب كائن التكلفة
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 8. حدد "نعم" في الحقل "منشور".
     * إذا قمت بتعيين هذا الخيار إلى "نعم"، سيتمكن المستخدم الذين تم تعيين أحد الأدوار الأربعة التالية له من مشاهدة التقارير في مساحة عمل التحكم في التكلفة‬: مدير محاسبة التكاليف ومحاسب التكاليف وموظف محاسبة التكاليف ومراقب كائن التكلفة‬. إذا حددت "لا"، فسيتمكن فقط المستخدم الذين تم تعيين أحد الأدوار التالية له من مشاهدة التقارير‬: مدير محاسبة التكاليف ومحاسب التكاليف وموظف محاسبة التكاليف ومراقب كائن التكلفة‬.    
 9. انقر فوق "حفظ".
-
 

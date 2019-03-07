@@ -1,13 +1,13 @@
---- 
-title: "إنشاء وترحيل فواتير النص الحر المكررة"
-description: "يتم استخدام الفواتير المتكررة لفوترة العملاء بشكل منتظم لنفس المبلغ."
+---
+title: إنشاء وترحيل فواتير النص الحر المكررة
+description: يتم استخدام الفواتير المتكررة لفوترة العملاء بشكل منتظم لنفس المبلغ.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8352b32b1a3c950bed6dd5f0c18c00173e725e69
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e04f9baf6b757ed2c22e018c660cd7291395f877
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362500"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>إنشاء وترحيل فواتير النص الحر المكررة
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/29/2017
     * تحقق من أن الفواتير المحددة لا تحتوي على أخطاء، ولكن من دون ترحيلها.  
 6. انقر فوق "ترحيل".
     * رحّل الفواتير المحددة.  
-
 

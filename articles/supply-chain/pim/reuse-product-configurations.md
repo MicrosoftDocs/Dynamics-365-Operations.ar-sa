@@ -1,13 +1,13 @@
 ---
-title: "إعادة استخدام تكوينات المنتجات"
-description: "يمكنك تحديد إن كنت تريد إعادة استخدام تكوين موجود لمنتج تلقائيًا. بعد ذلك، عندما يكمل المستخدم جلسة العمل المخصصة للتكوين، يتحقق النظام مما إذا كان هناك أي تكوين يتطابق مع تحديدات المستخدم. إذا تم العثور على تكوين مطابق، فسيُعاد استخدام معرف التكوين وقائمة مكونات الصنف المطابقة (BOM) والمسار."
+title: إعادة استخدام تكوينات المنتجات
+description: يمكنك تحديد إن كنت تريد إعادة استخدام تكوين موجود لمنتج تلقائيًا. بعد ذلك، عندما يكمل المستخدم جلسة العمل المخصصة للتكوين، يتحقق النظام مما إذا كان هناك أي تكوين يتطابق مع تحديدات المستخدم. إذا تم العثور على تكوين مطابق، فسيُعاد استخدام معرف التكوين وقائمة مكونات الصنف المطابقة (BOM) والمسار.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 18a3e5fb583ed620c825164f2628a26b6b0cb469
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: c447440c33c1f80c6056974086b90d3b43e8499e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359625"
 ---
-
 # <a name="reuse-product-configurations"></a>إعادة استخدام تكوينات المنتجات
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ ms.lasthandoff: 02/07/2018
 
 ## <a name="resetting-configuration-reuse"></a>إعادة تعيين إعادة استخدام التكوين
 عند إعادة تعيين إعادة استخدام التكوين، لن تؤخذ في الاعتبار التكوينات التي تم إنشاؤها في السابق. قد تحتاج إلى إعادة تعيين إعادة استخدام التكوين إذا طرأ تغيير على قائمة مكونات الصنف أو المسار، ولكن دون أي تغيير في السمات ذات الصلة. يمكنك إعادة تعيين إعادة استخدام التكوين على علامة التبويب السريعة **عام** للمكون.
-
 
 
 

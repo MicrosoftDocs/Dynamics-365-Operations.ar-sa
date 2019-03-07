@@ -1,13 +1,13 @@
---- 
-title: "إعداد المهام الإضافية"
-description: "يوضح هذا الإجراء كيفية إعداد مهمة إضافية."
+---
+title: إعداد المهام الإضافية
+description: يوضح هذا الإجراء كيفية إعداد مهمة إضافية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b69bd2029914efd31569c57272339e27ef1bd6a3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 31787aa180639b934b837b98dc170070d33fd56f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356612"
 ---
 # <a name="set-up-accessorial-assignments"></a>إعداد المهام الإضافية
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
     * يحدد نوع "الرسوم الإضافية‬" كيفية حساب التكلفة الفعلية. في هذا المثال، إنها تكلفة أساسية.  
 14. في الحقل "الرسوم الإضافية‬"، أدخل رقمًا.
 15. انقر فوق "حفظ".
-
 

@@ -1,13 +1,13 @@
 ---
-title: "طباعة المستندات"
-description: "في Microsoft Dynamics 365 for Finance and Operations، يمكنك طباعة المستندات باستخدام طابعة محلية أو أحد الأجهزة المتصلة بشبكة الاتصال. يقدم هذا المقال نظرة عامة على كيفية طباعة المستندات."
+title: طباعة المستندات
+description: في Microsoft Dynamics 365 for Finance and Operations، يمكنك طباعة المستندات باستخدام طابعة محلية أو أحد الأجهزة المتصلة بشبكة الاتصال. يقدم هذا المقال نظرة عامة على كيفية طباعة المستندات.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362040"
 ---
-
 # <a name="document-printing"></a>طباعة المستندات
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="printing-overview"></a>نظرة عامة على الطباعة
 
-يوفر Microsoft Dynamics 365 for Finance and Operations الخدمات المتكاملة وتطبيقات العميل التي تجعل من السهل إنشاء وتخزين وتوزيع المستندات التي تدعم نشاط الشركة. في Finance and Operations، يمكنك طباعة المستندات باستخدام طابعة محلية أو أحد الأجهزة المتصلة بشبكة الاتصال. بالإضافة إلى ذلك، يمكنك تصدير صفحات Finance and Operations والتقارير مباشرةً من العميل، كملفات PDF أو مستندات Microsoft Office. وأخيراً، يتيح لك حمل العمل الموزع طباعة مستندات العمل مباشرةً من جهاز محمول باستخدام موارد الشبكة. على الرغم من أنه قد تختلف متطلبات الطباعة، يجب على كل الصناعات عادةً إنشاء نسخ من مستندات الأعمال باستخدام Finance and Operations. تمثل طباعة المستندات على أجهزة الشبكة من التطبيقات المضيفة مجموعة فريدة من التحديات. فيما يلي بعض الأمثلة:
+يوفر Microsoft Dynamics 365 for Finance and Operations خدمات متكاملة وتطبيقات العميل التي تجعل من السهل إنشاء وتخزين وتوزيع المستندات التي تدعم نشاط الشركة. في Finance and Operations، يمكنك طباعة المستندات باستخدام طابعة محلية أو أحد الأجهزة المتصلة بشبكة الاتصال. بالإضافة إلى ذلك، يمكنك تصدير صفحات Finance and Operations والتقارير مباشرةً من العميل، كملفات PDF أو مستندات Microsoft Office. وأخيراً، يتيح لك حمل العمل الموزع طباعة مستندات العمل مباشرةً من جهاز محمول باستخدام موارد الشبكة. على الرغم من أنه قد تختلف متطلبات الطباعة، يجب على كل الصناعات عادةً إنشاء نسخ من مستندات الأعمال باستخدام Finance and Operations. تمثل طباعة المستندات على أجهزة الشبكة من التطبيقات المضيفة مجموعة فريدة من التحديات. فيما يلي بعض الأمثلة:
 
 - قد تكون برامج تشغيل الطباعة غير متوفرة على جهاز المستخدم.
 - قد لا يكون الجهاز الخاص بالمستخدم متصلاً بشبكة الشركة.
@@ -54,7 +53,7 @@ ms.lasthandoff: 08/13/2018
 
 - **السيناريو 1** مدعوم بواسطة عرض المستعرض لعميل HTML5.
 - **السيناريو 2** يستخدم تطبيقات العميل وخدمات Microsoft Office 365.
-- **السيناريو 3** يتطلب دعمًا من تطبيقات العميل ومن الخدمات التي تتم استضافتها في Microsoft Azure.
+- **السيناريو 3** يحتاج إلى الدعم من تطبيقات العميل ومن الخدمات المستضافة في Microsoft Azure.
 
 بالإضافة إلى النظام الأساسي الذي يتم نشره لاشتراك Azure، تزود تطبيقات Finance and Operations العملاء بتطبيق Azure متكامل وأصيل يساعدهم على استخدام الأجهزة المستضافة من قِبل المجال لطباعة المستندات بسهولة أكبر.
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 08/13/2018
 
 **تسلسل عمليات التنفيذ**
 
-1. يتم إنشاء التقرير بواسطة Microsoft SQL Server Reporting Services ‏(SSRS) وتخزينه في تخزين Azure blob. يتم تخزين إعدادات الطابعة التي تم توصيلها مع المستند.
+1. يتم إنشاء التقرير بواسطة Microsoft SQL Server Reporting Services (SSRS) ويتم تخزينه في مخزن الكائن الثنائي كبير الحجم‬‬ من Azure. يتم تخزين إعدادات الطابعة التي تم توصيلها مع المستند.
 2. يستعلم "وكيل توجيه المستند" قائمة انتظار ناقل خدمة Azure للحصول على الوظائف النشطة.
 3. يتم تنزيل المستند بواسطة "وكيل توجيه المستند" وتخزينه في طابعة الشبكة.
 
@@ -76,4 +75,3 @@ ms.lasthandoff: 08/13/2018
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 لاحظ أنه يمكن تسجيل طابعة واحدة مع عدة وكلاء توجيه مستندات. لحل تفضيلات الطابعة، تستخدم الخدمة المستضافة مسار الشبكة الذي يحدد كل طابعة شبكة بشكل فريد. وكنتيجة لذلك، حتى في حالة تسجيل طابعة بواسطة العديد من العملاء، فإنها تظهر كتحديد واحد في قائمة الطابعات المتوفرة في تطبيقات Finance and Operations.
-

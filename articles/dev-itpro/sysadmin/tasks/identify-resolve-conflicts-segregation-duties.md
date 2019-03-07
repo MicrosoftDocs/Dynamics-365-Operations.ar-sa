@@ -1,13 +1,13 @@
---- 
-title: "تحديد وحل التعارضات في الفصل بين المهام"
-description: "يمكنك إعداد قواعد لفصل المهام التي يجب تنفيذها بواسطة مستخدمين مختلفين."
+---
+title: تحديد وحل التعارضات في الفصل بين المهام
+description: يمكنك إعداد قواعد لفصل المهام التي يجب تنفيذها بواسطة مستخدمين مختلفين.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d4a6bd14090213cc19a072d030bc26886c7a8d0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3a366ea4b558ba4e4af7336992dbb091b0b1414
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353093"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>تحديد وحل التعارضات في الفصل بين المهام
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
     * حدد قاعدة.  
 2. انقر فوق "التحقق من صحة المهام والأدوار".
     * إذا كانت أي أدوار موجودة تخالف القاعدة المحددة، سيتم عرض رسالة تحتوي على اسم الدور وأسماء المهام المتعارضة. يجب أن يقوم المسؤول إما بالإشارة إلى تقليل مخاطر الأمان أو تعديل الدور بحيث لا يخالف القواعد الخاصة بالفصل بين المهام.     إذا لم تخالف أية أدوار القاعدة المحددة، ستشير إحدى الرسائل إلى أن جميع الأدوار متوافقة مع القاعدة المحددة.  
-
 

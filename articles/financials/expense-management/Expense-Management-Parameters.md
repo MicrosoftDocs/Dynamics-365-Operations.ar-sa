@@ -1,13 +1,13 @@
 ---
-title: "معلمات إدارة المصروفات"
-description: "تتحكم المعلمات التالية بالسلوك في إدارة المصروفات."
+title: معلمات إدارة المصروفات
+description: تتحكم المعلمات التالية بالسلوك في إدارة المصروفات.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: b6f67d44e0c64c145bb6d477c83d5a245b1682d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355922"
 ---
-
 # <a name="expense-management-parameters"></a>معلمات إدارة المصروفات
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ ms.lasthandoff: 04/13/2018
 |  <strong>عرض شهادة تصديق مكافحة الفساد</strong>  | حدد هذا الخيار لعرض نص مكافحة الفساد عند إنشاء تقرير مصروفات جديد. يمكن عندئذٍ تمكين فئات مصروفات خاصة سوف تحتاج إلى تحديد شهادة مكافحة الفساد في تقرير المصروفات. على سبيل المثال، قد تتطلب فئة هدايا مرتبطة بمصروفات حكومية رسمية تأكيد الموظف أن المصروفات تلبي سياسة الشركة المتعلقة بالمسؤولين الحكوميين. |
 | <strong>رسالة مكافحة الفساد للمرسِل</strong> |                                                                                             أدخل النص الذي سيتم عرضه للموظف عند إنشاء تقرير مصروفات جديد. انقر فوق زر <strong>الترجمات</strong> لإدخال نص بلغة محددة سيتم عرضه استنادًا إلى لغة المستخدم.                                                                                             |
 | <strong>رسالة مكافحة الفساد للمعتمد</strong>  |                                                                                             أدخل النص الذي سيتم عرضه للمعتمد عند إنشاء تقرير مصروفات جديد. انقر فوق زر <strong>الترجمات</strong> لإدخال نص بلغة محددة سيتم عرضه استنادًا إلى لغة المستخدم.                                                                                             |
-
 
