@@ -1,13 +1,13 @@
 ---
-title: "مجموعات حسابات توحيد وحسابات توحيد إضافية"
-description: "‏‫يقدم هذا الموضوع معلومات حول مجموعات حسابات التوحيد وحسابات التوحيد الإضافية ويشرح كيفية استخدامها في Microsoft Dynamics 365 for Finance and Operations."
+title: مجموعات حسابات توحيد وحسابات توحيد إضافية
+description: ‏‫يقدم هذا الموضوع معلومات حول مجموعات حسابات التوحيد وحسابات التوحيد الإضافية ويشرح كيفية استخدامها في Microsoft Dynamics 365 for Finance and Operations.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f1c463ee54512b07f5e45c4df995aefed6110cb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 60486002b520fdf347ed2537cefa0a45e06d6271
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366387"
 ---
-
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>مجموعات حسابات توحيد وحسابات توحيد إضافية
 
 [!include [banner](../includes/banner.md)]
 
 ‏‫يقدم هذا الموضوع معلومات حول مجموعات حسابات التوحيد وحسابات التوحيد الإضافية ويشرح كيفية استخدامها في Microsoft Dynamics 365 for Finance and Operations.
 
-<a name="consolidation-account-groups"></a>مجموعات حسابات الدمج
+<a name="consolidation-account-groups"></a>مجموعات حسابات التوحيد
 ----------------------------
 
 تتيح لك مجموعات حسابات التوحيد إنشاء مجموعات من الحسابات التي تريد استخدامها لتوحيد البيانات. في معظم الأحيان، تمثل مجموعة حسابات التوحيد مخطط حسابات حكومي أو تعيِّن الحسابات إلى مجموعة يتم تحديدها من قِبل المقر الرئيسي للشركة. يمكنك العثور على مجموعات حسابات التوحيد في جزء **الإعداد** بالوحدة النمطية **عمليات التوحيد**. عندما تقوم بإضافة مجموعة جديدة، أدخل معرفاً فريداً لمجموعة الحسابات واسمًا لها.
@@ -52,7 +51,6 @@ ms.lasthandoff: 03/26/2018
 
 
 لمزيد من المعلومات، راجع [إنشاء مجموعات توحيد وحسابات توحيد إضافية](../general-ledger/tasks/create-consolidation-groups.md). 
-
 
 
 

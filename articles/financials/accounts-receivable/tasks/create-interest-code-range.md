@@ -1,13 +1,13 @@
---- 
-title: "إنشاء رمز فائدة مع نطاق"
-description: "يمكن إعداد رموز الفائدة لحساب مبالغ الفائدة المختلفة استنادًا إلى نطاق القيم."
+---
+title: إنشاء رمز فائدة مع نطاق
+description: يمكن إعداد رموز الفائدة لحساب مبالغ الفائدة المختلفة استنادًا إلى نطاق القيم.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2d76ae320ee43a473b64afe311876cc94b953b20
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367629"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>إنشاء رمز فائدة مع نطاق
 
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/29/2017
 20. أدخل "التالي من القيمة" بقيمة 7، وهو الشهر التالي الذي ستقوم بحساب مبلغ فائدة جديد له.
 21. أدخل النسبة المئوية للفائدة في الشهر والتي سيتم استخدامها لحساب الفائدة بدءًا من الشهر 7. بالنسبة لهذا المثال، ستكون 2.5.
 22. انقر فوق "إغلاق" لإكمال الإعداد.
-
 

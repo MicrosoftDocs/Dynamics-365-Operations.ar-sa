@@ -1,13 +1,13 @@
 ---
-title: "مصطلحات محاسبة التكاليف"
-description: "يعرّف هذا الموضوع المصطلحات الأساسية المستخدمة في محاسبة التكاليف."
+title: مصطلحات محاسبة التكاليف
+description: يعرّف هذا الموضوع المصطلحات الأساسية المستخدمة في محاسبة التكاليف.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365927"
 ---
-
 # <a name="cost-accounting-terminology"></a>مصطلحات محاسبة التكاليف
 
 [!include [banner](../includes/banner.md)]
@@ -119,7 +118,7 @@ ms.lasthandoff: 03/26/2018
 تدعم محاسبة التكاليف تكامل البيانات من الأنظمة المصدر عبر مجموعة من موصلات البيانات. تتوفر موصلات البيانات التالية:
 
 -  الحركات المستوردة (مكونة مسبقًا)
--  Dynamics 365 for Finance and Operations (مكون مسبقًا)
+-  Dynamics 365 for Finance and Operations (مكوّن بشكل مسبق)
 -  Dynamics AX (التكوين مطلوب)
 
 **ملاحظة:** يستند موصل البيانات "الحركات المستوردة" إلى كيانات البيانات.
@@ -130,7 +129,7 @@ ms.lasthandoff: 03/26/2018
 
 |  **مصادر البيانات** |  **موصل بيانات الحركات المستوردة** | **موصل بيانات Dynamics 365 for Finance and Operations**  | **موصل بيانات Dynamics AX**  |
 |---|---|---|---|
-| أعضاء أبعاد عنصر التكلفة  |  نعم | نعم  | نعم  |
+| أعضاء أبعاد عنصر التكلفة  |  ‏‏نعم | ‏‏نعم  | ‏‏نعم  |
 |  أعضاء أبعاد كائن التكلفة |  نعم | نعم  | نعم  |
 |  أعضاء الأبعاد الإحصائية | نعم  | لا  | لا  |
 |  دفتر الأستاذ العام | نعم  | نعم  | نعم  |
@@ -204,6 +203,5 @@ ms.lasthandoff: 03/26/2018
 **الإصدار**
 
 يتم استخدام الإصدارات لمحاكاة نتائج مختلفة وعرضها ومقارنتها. بشكل افتراضي، يتم عرض كافة التكاليف الفعلية في إصدار أساسي واحد يعرف باسم *الفعلي*. للميزانيات والحسابات، يمكنك استخدام العدد الذي تريده من الإصدارات. على سبيل المثال، يمكنك استيراد بيانات الموازنة إلى إصدار أصلية ثم مراجعة الموازنة في إصدار مراجع. بالنسبة إلى العمليات الحسابية، يمكنك إنشاء إصدارات متعددة. في هذه الإصدارات مختلفة، يمكنك إنشاء حسابات باستخدام قواعد حساب مختلفة ستطبق على توزيع التكلفة.
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية لإعداد التقارير المالية ودفتر الأستاذ العام"
-description: "استخدام دفتر الأستاذ العام لتحديد السجلات المالية للكيانات القانونية وإدارتها."
+title: الصفحة الرئيسية لإعداد التقارير المالية ودفتر الأستاذ العام
+description: استخدام دفتر الأستاذ العام لتحديد السجلات المالية للكيانات القانونية وإدارتها.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: ar-sa
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363351"
 ---
-
 # <a name="general-ledger"></a>دفتر الأستاذ العام 
 
 [!include [banner](../includes/banner.md)]
@@ -58,20 +57,19 @@ ms.lasthandoff: 06/25/2018
 
 انتقل إلى [ملاحظات الإصدار](https://docs.microsoft.com/en-us/business-applications-release-notes/) لمعرفة الميزات الجديدة التي تم إصدارها. 
 
-### <a name="videos"></a>مقاطع الفيديو
+### <a name="videos"></a>ملفات فيديو
 
-اسحب ملفات الفيديو‬ التي تشرح الطريقة‬ والمتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>المدونات
 
-يمكنك العثور على الآراء واﻷخبار والمعلومات الأخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة وحلول أخرى في مدونة [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-هناك العديد من المنشورات حول دفتر الأستاذ العام على [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق من دفتر الأستاذ العام، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
+هناك العديد من المنشورات حول دفتر الأستاذ العام في [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق من دفتر الأستاذ العام، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
 
-تزود [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) شركاء Microsoft Dynamics بمورد واحد يمكنهم فيه معرفة الجديد والشائع في MBS Operations.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
 
 #### <a name="community-blogs"></a>مدونات المجتمعات
 
-- [ما الذي ينبغي عليك معرفته حول دفتر الأستاذ في Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
+- [ما الذي يجب معرفته حول دفتر الأستاذ في Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 

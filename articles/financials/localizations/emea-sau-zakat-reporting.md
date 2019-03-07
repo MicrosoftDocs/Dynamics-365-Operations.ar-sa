@@ -1,13 +1,13 @@
 ---
-title: "الإبلاغ عن الزكاة"
-description: "الأشخاص المسلمون الذين تتجاوز إيراداتهم السنوية مستوى يسمى النصاب، ملزمون قانونًا بدفع 2.5% من إيراداتهم إلى الحكومة على شكل زكاة."
+title: الإبلاغ عن الزكاة
+description: الأشخاص المسلمون الذين تتجاوز إيراداتهم السنوية مستوى يسمى النصاب، ملزمون قانونًا بدفع 2.5% من إيراداتهم إلى الحكومة على شكل زكاة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,21 +16,20 @@ ms.search.region: Saudi Arabia
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d7e64b0d0e03588049ef5b566affab717f0340b8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f1b4cca51e713e795e8efbf380a0b5948b97acc
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370058"
 ---
-
 # <a name="zakat-reporting"></a>الإبلاغ عن الزكاة
 
 [!include [banner](../includes/banner.md)]
 
 الأشخاص المسلمون الذين تتجاوز إيراداتهم السنوية مستوى يسمى النصاب، ملزمون قانونًا بدفع 2.5% من إيراداتهم إلى الحكومة على شكل زكاة.
 
-يجب أن تدفع كل الشركات السعودية بكافة أنواعها والشركات المملوكة من قبل مواطني دول مجلس التعاون الخليجي (GCC) الذين يقومون بأعمال تجارية زكاة إلى مصلحة الزكاة والدخل (DZIT) في نهاية السنة المالية. يجب أيضًا على الشركات إنشاء وتقديم مجموعة مكونة من 14 تقرير عن الزكاة جنبًا إلى جنب مع ميزانياتها العمومية وكشوف الأرباح والخسائر إلى DZIT خلال شهر من نهاية العام. يتيح لك Microsoft Dynamics 365 for Finance and Operations إنشاء تقارير الزكاة المطلوبة:‬
+يجب أن تدفع كل الشركات السعودية بكافة أنواعها والشركات المملوكة من قبل مواطني دول مجلس التعاون الخليجي (GCC) الذين يقومون بأعمال تجارية زكاة إلى مصلحة الزكاة والدخل (DZIT) في نهاية السنة المالية. يجب أيضًا على الشركات إنشاء وتقديم مجموعة مكونة من 14 تقرير عن الزكاة جنبًا إلى جنب مع ميزانياتها العمومية وكشوف الأرباح والخسائر إلى DZIT خلال شهر من نهاية العام. يسمح لك Microsoft Dynamics 365 for Finance and Operations بإنشاء تقارير الزكاة المطلوبة:
 -   تقرير عن الزكاة الرئيسي
 -   تقرير عن إيراد النشاط الرئيسي
 -   تقرير عن الإيراد من نشاط آخر
@@ -45,7 +44,6 @@ ms.lasthandoff: 03/26/2018
 -   تقرير عن التعديلات الأخرى
 -   تقرير عن الإضافات الأخرى
 -   تقرير عن الخصومات الأخرى
-
 
 
 

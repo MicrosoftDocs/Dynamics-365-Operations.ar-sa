@@ -1,13 +1,13 @@
 ---
-title: "تخصيص تجربة المستخدم"
-description: "يشرح هذا الموضوع كيف يمكنك تخصيص Microsoft Dynamics 365 for Finance and Operations."
+title: تخصيص تجربة المستخدم
+description: يشرح هذا الموضوع كيف يمكنك تخصيص Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363466"
 ---
-
 # <a name="personalize-the-user-experience"></a>تخصيص تجربة المستخدم
 
 [!include [banner](../includes/banner.md)]
@@ -115,7 +114,7 @@ ms.lasthandoff: 09/28/2018
 - استخدم زر **إدراج** لمشاهدة قائمة بالعناصر التي يمكنك إدراجها في صفحة.
 
     - حدد أداة **الحقل** ضمن **إدراج** لإضافة حقل إلى الصفحة الخاصة بك. عند استخدام أداة **الحقل** ، يمكنك فقط إضافة الحقول التي تمثل جزءًا من تعريف الصفحة، ولكن لا يتم عرضها حاليًا على الصفحة. لمزيد من المعلومات حول كيفية إنشاء الحقول الجديدة التي لا تشكل جزءًا من تعريف الصفحة الحالي، راجع [تخصيص الحقول](user-defined-fields.md). بعد تحديد أداة **الحقل** ، يجب عليك أولًا تحديد المجموعة أو المنطقة التي تريد إضافة حقل إليها. يعرض مربع حوار قائمة الحقول المرتبطة بالمجموعة أو المنطقة المُحددة. في مربع الحوار، حدد حقل واحد أو أكثر للإضافة، ثم حدد **إدراج**. لإزالة أحد الحقول التي قمت بإضافتها سابقًا، كرر العملية، ولكن قم بإلغاء تحديد الحقل في مربع الحوار.
-    - حدد أداة **PowerApp** ضمن **إدراج** لتضمين تطبيق تم إنشاؤه باستخدام Microsoft PowerApps داخل الصفحة. للحصول على معلومات تفصيلية حول كيفية تضمين تطبيقات PowerApps داخل صفحة، راجع [تضمين PowerApps](embed-power-apps.md).
+    - حدد الأداة **PowerApp** ضمن **إدراج‏‎** لتضمين تطبيق تم إنشاؤه باستخدام Microsoft PowerApps داخل الصفحة. للحصول على معلومات تفصيلية حول كيفية تضمين تطبيقات PowerApps داخل صفحة، راجع [تضمين PowerApps](embed-power-apps.md).
 
 - حدد زر **إدارة** لعرض قائمة خيارات الإدارة المتعلقة بكافة تخصيصات الصفحة الحالية.
 
@@ -171,4 +170,3 @@ ms.lasthandoff: 09/28/2018
 يتم تطبيق إعدادات **عرض البُعد** على جميع الصفحات، وستبطل هذه الإعدادات أي إعداد مخصص لحقول أبعاد المخزون في الصفحات الفردية.
 
 كنتيجة لذلك، في المثال السابق، إذا كنت لا تريد ظهور العمود الذي يحتوي على بُعد مخزون رقم الدفعة، يجب عليك مسح هذا البُعد كجزء من خيار **عرض الأبعاد** للجدول. في النهاية، قد يتم تطبيق هذا التغيير ليس فقط على صفحة معينة لكن عبر كافة الصفحات.
-

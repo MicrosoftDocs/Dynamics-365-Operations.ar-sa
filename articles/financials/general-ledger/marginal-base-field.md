@@ -1,13 +1,13 @@
 ---
-title: "معدلات ضريبة المبيعات على أساس طريقتي القاعدة الهامشية والعملية الحسابية"
-description: "يوضح هذا الموضوع كيف تحدد القيم في حقلي القاعدة الهامشية وأسلوب الحساب معدل الضريبة في حركات المبيعات والمشتريات."
+title: معدلات ضريبة المبيعات على أساس طريقتي القاعدة الهامشية والعملية الحسابية
+description: يوضح هذا الموضوع كيف تحدد القيم في حقلي القاعدة الهامشية وأسلوب الحساب معدل الضريبة في حركات المبيعات والمشتريات.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0128743e608ec56bea2301ac576551065a1ff290
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf0f8f2e3f553ea181e8cc9ab5b712fce64a89d4
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366410"
 ---
-
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>معدلات ضريبة المبيعات على أساس طريقتي القاعدة الهامشية والعملية الحسابية
 
 [!include [banner](../includes/banner.md)]
@@ -184,7 +183,6 @@ ms.lasthandoff: 11/03/2017
 هناك رسم خاص بمبلغ 5.00 لكل مصباح.‬ يضاف هذا الرسم على المبلغ الصافي قبل حساب ضريبة المبيعات. تقوم بشراء 8 مصابيح بتكلفة 25.00 لكلٍّ منها. يبلغ المبلغ الصافي للفاتورة 200.00. وإجمالي مبلغ الفاتورة يبلغ 200.00 + (8 x‏ 5.00) = 240.00. يتم حساب الضريبة كما يلي: إجمالي ضريبة المبيعات = 50 × 0.30 + 50 × 0.20 + 140 × 0.10 = 15 + 10 + 14 = 39.00 إجمالي الرسوم = 5.00 x‏ 8 = 40.00 إجمالي مبلغ الفاتورة = 200.00 + 39.00 + 40.00 = 279.00
 
 ‏‫لمزيد من المعلومات، راجع [خيارا الحساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات](whole-amount-interval-options-sales-tax-codes.md) و[طرق حساب ضريبة المبيعات في الحقل الأصل](sales-tax-calculation-methods-origin-field.md).
-
 
 
 

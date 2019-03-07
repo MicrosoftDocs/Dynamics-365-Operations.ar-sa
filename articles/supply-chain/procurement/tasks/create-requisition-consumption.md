@@ -1,13 +1,13 @@
---- 
-title: "إنشاء طلب للاستهلاك"
-description: "يوضح لك هذا الإجراء عملية إنشاء طلب."
+---
+title: إنشاء طلب للاستهلاك
+description: يوضح لك هذا الإجراء عملية إنشاء طلب.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e81ca3966cf7dae88468ccf107b52b8c3d7b323d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7d8ca4e7eedea140f32e264c205b243027a06d03
-ms.openlocfilehash: d1ea95d0bc283297fcedaee730e1829850f07998
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/20/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366548"
 ---
 # <a name="create-a-requisition-for-consumption"></a>إنشاء طلب للاستهلاك
 
@@ -36,8 +36,7 @@ ms.lasthandoff: 11/20/2017
 4. في الحقل "تاريخ الطلب، أدخل تاريخاً.
     * بشكل افتراضي، يُنسخ التاريخ المطلوب والتاريخ المحاسبي لبنود طلب الشراء. يمكن أن تتغير على مستوى البند. التاريخ المطلوب هو تاريخ التسليم المطلوب.  
 5. في الحقل "تاريخ المحاسبة" أدخل تاريخاً.
-    * يتم استخدام التاريخ المحاسبي لتسجيل القيد المحاسبي في دفتر الأستاذ العام، وللتحقق من صحة ما إذا كانت
-الاعتمادات المالية متاحة أم لا.  
+    * يتم استخدام التاريخ المحاسبي لتسجيل القيد المحاسبي في دفتر الأستاذ العام، وللتحقق من صحة ما إذا كانت الاعتمادات المالية متاحة أم لا.  
 6. انقر فوق "موافق".
 7. في الحقل "السبب"، انقر فوق زر القائمة المنسدلة لفتح البحث.
     * بشكل افتراضي، يظهر سبب تبرير العمل الذي قمت بتحديده لبنود طلب الشراء، ولكن يمكنك تغييره على مستوى البند.    
@@ -105,5 +104,4 @@ ms.lasthandoff: 11/20/2017
 5. انقر فوق تقديم.
 6. قم بإغلاق الصفحة.
 7. قم بتحديث الصفحة.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "تعيين موظفين موجودين من خلال التوظيف"
-description: "في بعض الأحيان، يمكن شغل مناصب مفتوحة بواسطة مرشحين عاملين في مؤسستك."
+---
+title: تعيين موظفين موجودين من خلال التوظيف
+description: في بعض الأحيان، يمكن شغل مناصب مفتوحة بواسطة مرشحين عاملين في مؤسستك.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365375"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>تعيين موظفين موجودين من خلال التوظيف
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 08/08/2018
 8. بشكل اختياري، يمكنك تحديد كود سبب. على سبيل المثال: إعادة التنظيم
 9. انقر فوق "تغيير المنصب".
     * يمكنك أيضًا تغيير التعويض في هذا الوقت. إذا لم تقم بتعيين التعويض في هذا الوقت، فيمكنك تغييره بالانتقال إلى نموذج العامل وتحديد علامة التبويب "التعويض" واختيار "خطة ثابتة‬". بعد تحديد "تغيير المنصب"، سيتم تحديث حالة استمارة التقديم إلى "موظف".  
-
 

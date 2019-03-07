@@ -1,13 +1,13 @@
 ---
-title: "مساحة العمل المحمولة لأوامر المبيعات"
-description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة \"أوامر المبيعات‬\". تسمح لك مساحة العمل هذه بالبقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان."
+title: مساحة العمل المحمولة لأوامر المبيعات
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "أوامر المبيعات‬". تسمح لك مساحة العمل هذه بالبقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365053"
 ---
-
 # <a name="sales-orders-mobile-workspace"></a>مساحة العمل المحمولة لأوامر المبيعات
 
 [!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **أوامر المبيعات**. تسمح لك مساحة العمل هذه بالبقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان. 
 
-تهدف مساحة العمل المحمولة هذه إلى استخدامها بواسطة تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>نظرة عامة
 تسمح لك مساحة العمل المحمولة **أوامر المبيعات** بعرض معلومات مفصلة حول كل أمر مبيعات. تتضمن هذه المعلومات حالة الأمر ومعلومات الاتصال الخاصة بالعميل ومعلومات الاتصال الخاصة بمتلقي الأمر. توفر مساحة العمل المحمولة **أوامر المبيعات** عرضًا فوريًا لأوامر المبيعات. يمكنك عرض كل أوامر المبيعات أو عرض أوامر المبيعات حسب العميل أو عرض معلومات خاصة بأمر مبيعات معين. 
@@ -82,13 +81,13 @@ ms.lasthandoff: 03/26/2018
         -   الشحنات التي توضح كيف ومتى تم شحن أمر مبيعات
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-تختلف المتطلبات الأساسية، بناءً على إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
+تختلف المتطلبات الأساسية، استنادًا إلى إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations 
-إذا تم نشر Dynamics 365 for Finance and Operations لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **أوامر المبيعات**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية عند استخدام Microsoft Dynamics 365 for Finance and Operations 
+إذا تم نشر Dynamics 365 for Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **أمر المبيعات‬**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث
-إذا تم نشر الإصدار 1611 من Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Dynamics 365 for Operations مع platform update 3 أو إصدار لاحق
+إذا تم نشر الإصدار 1611 من Dynamics 365 for Operations مع platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
 
 <table>
 <thead>
@@ -143,4 +142,3 @@ ms.lasthandoff: 03/26/2018
 4.  حدد العميل.
 5.  حدد **معلومات الاتصال** أو **أوامر المبيعات**. إذا حددت **أوامر المبيعات**، فستظهر قائمة بأوامر المبيعات الخاصة بالعميل.
 6.  حدد **أمر المبيعات**. يمكنك الآن عرض معلومات حول بنود أمر المبيعات والشحنات ومعلومات الاتصال الخاصة بالعميل ومعلومات الاتصال الخاصة بمتلقي الأمر.
-

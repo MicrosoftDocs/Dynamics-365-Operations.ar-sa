@@ -1,13 +1,13 @@
 ---
-title: "حسابات ترحيل التخلص من الأصول الثابتة"
-description: "يوضح هذا الموضوع كيفية إعداد حسابات ترحيل دفتر الأستاذ العام للتخلص من الأصول."
+title: حسابات ترحيل التخلص من الأصول الثابتة
+description: يوضح هذا الموضوع كيفية إعداد حسابات ترحيل دفتر الأستاذ العام للتخلص من الأصول.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8e00c00b0cb7058858fde3774941911ce20fb6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bfed7657649f938c3d436468891d40d4194b555d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367169"
 ---
-
 # <a name="fixed-asset-disposal-posting-accounts"></a>حسابات ترحيل التخلص من الأصول الثابتة
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ ms.lasthandoff: 11/03/2017
 انقر فوق التخلص ثم انقر فوق البيع أو الخردة، ثم قم بإعداد الحسابات المفصلة لعكس صافي القيمة الدفترية للأصل الثابت. يمكنك أيضًا إدخال معلومات في حقلي ترحيل القيمة ونوع قيمة المبيعات في صفحة معلمات التخلص. 
 
 تؤدي حركة التخلص من أحد الأصول في وعاء القيمة المنخفضة إلى تقليل صافي القيمة الدفترية لوعاء القيمة المنخفضة بمقدار مبلغ التخلص فقط. ولكن عندما يتجاوز بيع أحد الأصول صافي القيمة الدفترية لوعاء القيمة المنخفضة، فإنه يتم تقليل صافي القيمة الدفترية إلى الصفر.
-
 
 
 

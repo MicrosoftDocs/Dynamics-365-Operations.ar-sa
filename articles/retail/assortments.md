@@ -1,13 +1,13 @@
 ---
-title: "إدارة المجموعات المنوعة"
-description: "يوضح هذا الموضوع المفاهيم الأساسية لإدارة المجموعات المنوعة في Microsoft Dynamics 365 for Retail، ويوفر اعتبارات التنفيذ لمشروعك."
+title: إدارة المجموعات المنوعة
+description: يشرح هذا الموضوع المفاهيم الأساسية لإدارة المجموعات المنوعة في Microsoft Dynamics 365 for Retail، ويوفر اعتبارات التنفيذ لمشروعك.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365030"
 ---
-
-# <a name="assortment-management"></a>إدارة المجموعات المنوعة
+# <a name="assortment-management"></a>إدارة الفرز
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>نظرة عامة
 
-يوفر Microsoft Dynamics 365 for Retail *عمليات الفرز* التي تتيح لك إدارة توفر المنتجات عبر القنوات. تحدد عمليات الفرز المنتجات التي تتوفر في متاجر مُعينة وخلال فترة زمنية معينة.
+يوفر Microsoft Dynamics 365 for Retail *مجموعات منوعة* تتيح لك إدارة توفر المنتجات عبر القنوات. تحدد عمليات الفرز المنتجات التي تتوفر في متاجر مُعينة وخلال فترة زمنية معينة.
 
 في Retail، تمثل عملية الفرز تعيين لقناة واحدة أو أكثر (أو مجموعة من القنوات، عند استخدام التدرجات الهرمية للمؤسسات) لمنتج واحد أو أكثر (أو مجموعة منتجات عند استخدام التدرجات الهرمية للفئات).
 
@@ -108,4 +107,3 @@ ms.lasthandoff: 08/08/2018
 - **المبيعات والعائدات خارج عمليات الفرز** – تساعد هذه الإمكانية تجار التجزئة في الإدارة الفعّالة لعمليات الفرز الخاصة بهم عن طريق السماح لهم بتحديد عدد المنتجات المتوفرة بالنسبة للمنتجات التي تنتمي إلى خليط المنتج الأساسي الخاص بالمتجر. كما تساعد هذه الإمكانية تجار التجزئة على التعامل مع المواقف التي يتم فيها حذف منتج عن طريق الخطأ من عملية الفرز، أو عندما يتم إرجاع منتج خارج نطاق التواريخ الفعّالة لعملية الفرز.
 
 في حالة عدم وجود بيانات المنتج في قواعد بيانات القناة، فمن ثم تقوم نقطة البيع باستدعاءات في الوقت الفعلي للمركز الرئيسي لاسترداد المعلومات المطلوبة، وبذلك يُمكن بيع المنتج أو إعادته أو وضعه في طلب عميل. تتوافر معلومات المنتج التي يتم استردادها بهذه الطريقة فقط في أثناء نطاق هذه الحركة. لا تتم إضافة المنتج إلى تعريف الفرز. لذلك، سوف يتم إجراء الاستدعاءات اللاحقة في الوقت الفعلي على النحو المطلوب.
-

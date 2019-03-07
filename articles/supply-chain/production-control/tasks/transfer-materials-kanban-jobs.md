@@ -1,13 +1,13 @@
---- 
-title: "تحويل مواد مع وظائف كانبان"
-description: "يركز هذا الإجراء على تنفيذ مهمة كانبان للسحب لتحويل المواد."
+---
+title: تحويل مواد مع وظائف كانبان
+description: يركز هذا الإجراء على تنفيذ مهمة كانبان للسحب لتحويل المواد.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a2db7b9fb960beb5b4a851aabb9f28a0f9e3d3da
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367422"
 ---
 # <a name="transfer-materials-with-kanban-jobs"></a>تحويل مواد مع وظائف كانبان
 
@@ -65,5 +65,4 @@ ms.lasthandoff: 09/14/2018
     * تم الآن تحديد وظيفتي تحويل في الصف 4 والصف 5.  
 2. انقر فوق "مكتمل".
     * سيؤدي ذلك إلى إكمال تحويل الوظيفتين.  
-
 

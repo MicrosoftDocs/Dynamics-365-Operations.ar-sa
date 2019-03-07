@@ -1,13 +1,13 @@
 ---
-title: "إعداد مكونات وظيفة"
-description: "يصف هذا الموضوع العناصر التصورية التي يمكن أن تشملها الوظيفة، ويوفر أمثلة على كيفية استخدام هذه العناصر في مؤسستك."
+title: إعداد مكونات وظيفة
+description: يصف هذا الموضوع العناصر التصورية التي يمكن أن تشملها الوظيفة، ويوفر أمثلة على كيفية استخدام هذه العناصر في مؤسستك.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
 ms.author: rschloma
@@ -18,19 +18,17 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377149"
 ---
-
 # <a name="set-up-the-components-of-a-job"></a>إعداد مكونات وظيفة
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 يصف هذا الموضوع العناصر التصورية التي يمكن أن تشملها الوظيفة، ويوفر أمثلة على كيفية استخدام هذه العناصر في مؤسستك. 
 
@@ -74,8 +72,8 @@ ms.lasthandoff: 08/08/2018
 <tr class="odd">
 <td>مدير المبيعات</td>
 <td><ul>
-<li><strong>مراجعة الأداء</strong> - مراجعة الأداء الوظيفي لكل مندوب مبيعات.</li>
-<li><strong>مراجعة الغياب</strong> - قبول أو رفض تسجيلات أو طلبات غياب كل مندوب مبيعات.</li>
+<li><strong>مراجعة الأداء</strong> – مراجعة الأداء الوظيفي لكل مندوب مبيعات.</li>
+<li><strong>مراجعة الغياب</strong> – قبول أو رفض تسجيلات أو طلبات غياب كل مندوب مبيعات.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -92,4 +90,3 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="steps-for-creating-a-job"></a>خطوات إنشاء وظيفة
 ارجع إلى موضوع [تحديد الوظائف الجديدة](../fin-and-ops/hr/tasks/define-new-jobs.md) للاطلاع على الإجراء التفصيلي لإنشاء وظيفة جديدة. 
-

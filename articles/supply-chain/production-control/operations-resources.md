@@ -1,13 +1,13 @@
 ---
-title: "موارد Operations"
-description: "تنفذ موارد العمليات أنشطة مشروع أو عملية إنتاج. ويمكن أن تكون من أنواع مختلفة، وبقدرات مختلفة."
+title: موارد Operations
+description: تنفذ موارد العمليات أنشطة مشروع أو عملية إنتاج. ويمكن أن تكون من أنواع مختلفة، وبقدرات مختلفة.
 author: sorenva
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366594"
 ---
-
 # <a name="operations-resources"></a>موارد Operations
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="costing-resources"></a>موارد التكاليف
 عندما تقوم بتحديد نشاط مثل عملية مسار أو التنبؤ في مشروع بالساعات، يمكنك تحديد متطلبات مورد عمليات أو مجموعة موارد معينة. ومع ذلك، يمكنك أيضًا تحديد شرط مورد عمليات من نوع معين أو مورد عمليات يشتمل على قدرة أو اختصاص محدد. ولهذا السبب، لم يتم إجراء تعيين المورد الفعلي حتى تتم جدولة النشاط ويتم الاحتفاظ بالقدرة. ولذلك، في عملية المسار، يمكنك تحديد أن التقدير وحساب قائمة مكونات الصنف ييجب أن يعتمد على مورد عمليات معين. ويُشار إلى مورد العمليات هذا كمورد للتكلفة. كما يمكنك نقل فئات التكلفة وأوقات العمليات من مورد التكلفة إلى النشاط. وعند جدولة العملية، يتم إجراء التقدير وحساب قائمة مكونات الصنف باستخدام مورد العمليات الذي تمت جدولته بالفعل.
-
 
 
 
