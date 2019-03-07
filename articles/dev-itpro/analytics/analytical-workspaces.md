@@ -1,13 +1,13 @@
 ---
-title: "مساحات العمل التحليلية"
-description: "يسرد هذا الموضوع مساحات العمل التحليلية المضمنة المتوفرة ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عنها."
+title: مساحات العمل التحليلية
+description: يسرد هذا الموضوع مساحات العمل التحليلية المضمنة المتوفرة ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عنها.
 author: sericks007
 manager: AnnBe
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -15,36 +15,34 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: ee1a2d26c281086ac6dbe2e1693efc85a0c5b84b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327241"
 ---
-
-# <a name="analytical-workspaces"></a><span data-ttu-id="02d7b-103">مساحات العمل التحليلية</span><span class="sxs-lookup"><span data-stu-id="02d7b-103">Analytical workspaces</span></span>
+# <a name="analytical-workspaces"></a><span data-ttu-id="6076d-103">مساحات العمل التحليلية</span><span class="sxs-lookup"><span data-stu-id="6076d-103">Analytical workspaces</span></span>
 [!include[banner](../includes/banner.md)]
 
-- [<span data-ttu-id="02d7b-104">محتوى Power BI القيمة الفعلية مقابل الموازنة</span><span class="sxs-lookup"><span data-stu-id="02d7b-104">Actual vs budget Power BI content</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="02d7b-105">محتوى Power BI - الميزات</span><span class="sxs-lookup"><span data-stu-id="02d7b-105">Benefits Power BI content</span></span>](benefits-power-bi.md)
-- [<span data-ttu-id="02d7b-106">محتوى Power BI - نظرة عامة على النقد</span><span class="sxs-lookup"><span data-stu-id="02d7b-106">Cash overview Power BI content</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="02d7b-107">محتوى Power BI - نظرة عامة على المدير المالي</span><span class="sxs-lookup"><span data-stu-id="02d7b-107">CFO overview Power BI content</span></span>](CFO-power-bi.md)
-- [<span data-ttu-id="02d7b-108">محتوى Power BI - التعويض</span><span class="sxs-lookup"><span data-stu-id="02d7b-108">Compensation Power BI content</span></span>](compensation-power-bi.md)
-- [<span data-ttu-id="02d7b-109">محتوى Power BI لتحليل محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="02d7b-109">Cost accounting analysis Power BI content</span></span>](cost-accounting-analysis-content-pack.md) 
-- [<span data-ttu-id="02d7b-110">محتوى Power BI لإدارة التكلفة</span><span class="sxs-lookup"><span data-stu-id="02d7b-110">Cost management Power BI content</span></span>](cost-management-content-pack.md)
-- [<span data-ttu-id="02d7b-111">محتوى Power BI - إدارة التحصيلات والائتمان</span><span class="sxs-lookup"><span data-stu-id="02d7b-111">Credit and collections management Power BI content</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="02d7b-112">محتوى Power BI - تطوير الموظفين</span><span class="sxs-lookup"><span data-stu-id="02d7b-112">Employee development Power BI content</span></span>](employee-development-PBI.md) 
-- [<span data-ttu-id="02d7b-113">محتوى Power BI المعلومات المالية</span><span class="sxs-lookup"><span data-stu-id="02d7b-113">Financial insights Power BI content</span></span>](financial-insights.md)
-- [<span data-ttu-id="02d7b-114">محتوى Power BI - الأداء المالي</span><span class="sxs-lookup"><span data-stu-id="02d7b-114">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="02d7b-115">محتوى Power BI - ‏‫إدارة الأصول الثابتة‬</span><span class="sxs-lookup"><span data-stu-id="02d7b-115">Fixed asset management Power BI content</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="02d7b-116">محتوى Power BI - ‏‫التعلم‬</span><span class="sxs-lookup"><span data-stu-id="02d7b-116">Learning Power BI content</span></span>](learning-power-bi.md)
-- [<span data-ttu-id="02d7b-117">محتوى Power BI - ‏‫إدارة الممارسات‬</span><span class="sxs-lookup"><span data-stu-id="02d7b-117">Practice manager Power BI content</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="02d7b-118">محتوى Power BI - ‏أداء الإنتاج</span><span class="sxs-lookup"><span data-stu-id="02d7b-118">Production performance Power BI content</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="02d7b-119">محتوى Power BI لتحليل الإنفاق على الشراء</span><span class="sxs-lookup"><span data-stu-id="02d7b-119">Purchase spend analysis Power BI content</span></span>](purchase-content-pack-for-power-bi.md) 
-- [<span data-ttu-id="02d7b-120">محتوى Power BI للتوظيف</span><span class="sxs-lookup"><span data-stu-id="02d7b-120">Recruiting Power BI content</span></span>](recruiting-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="02d7b-121">محتوى Power BI لأداء المبيعات والربحية</span><span class="sxs-lookup"><span data-stu-id="02d7b-121">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="02d7b-122">محتوى Power BI - ‏‫مدفوعات المورّد‬</span><span class="sxs-lookup"><span data-stu-id="02d7b-122">Vendor payments Power BI content</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="02d7b-123">محتوى Power BI لأداء المستودع</span><span class="sxs-lookup"><span data-stu-id="02d7b-123">Warehouse performance Power BI content</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="02d7b-124">محتوى Power BI لمقاييس القوى العاملة</span><span class="sxs-lookup"><span data-stu-id="02d7b-124">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)
-
+- [<span data-ttu-id="6076d-104">محتوى "الفعلي مقابل الموازنة‬" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-104">Actual vs budget Power BI content</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="6076d-105">ميزات محتوى Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-105">Benefits Power BI content</span></span>](benefits-power-bi.md)
+- [<span data-ttu-id="6076d-106">محتوى "نظرة عامة على النقدية" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-106">Cash overview Power BI content</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="6076d-107">محتوى "نظرة عامة على المدير المالي‬" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-107">CFO overview Power BI content</span></span>](CFO-power-bi.md)
+- [<span data-ttu-id="6076d-108">محتوى "التعويض" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-108">Compensation Power BI content</span></span>](compensation-power-bi.md)
+- [<span data-ttu-id="6076d-109">محتوى "تحليل محاسبة التكاليف‬" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-109">Cost accounting analysis Power BI content</span></span>](cost-accounting-analysis-content-pack.md) 
+- [<span data-ttu-id="6076d-110">محتوى "إدارة التكلفة‬" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-110">Cost management Power BI content</span></span>](cost-management-content-pack.md)
+- [<span data-ttu-id="6076d-111">محتوى "إدارة التحصيلات والائتمان" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-111">Credit and collections management Power BI content</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="6076d-112">محتوى "تطوير الموظفين" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-112">Employee development Power BI content</span></span>](employee-development-PBI.md) 
+- [<span data-ttu-id="6076d-113">محتوى "المعلومات المالية" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-113">Financial insights Power BI content</span></span>](financial-insights.md)
+- [<span data-ttu-id="6076d-114">محتوى "الأداء المالي" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-114">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="6076d-115">محتوى "إدارة الأصول الثابتة" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-115">Fixed asset management Power BI content</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="6076d-116">محتوى "التعلم" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-116">Learning Power BI content</span></span>](learning-power-bi.md)
+- [<span data-ttu-id="6076d-117">محتوى "مدير الممارسة" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-117">Practice manager Power BI content</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="6076d-118">محتوى "أداء الإنتاج" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-118">Production performance Power BI content</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="6076d-119">محتوى "تحليل الإنفاق والشراء" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-119">Purchase spend analysis Power BI content</span></span>](purchase-content-pack-for-power-bi.md) 
+- [<span data-ttu-id="6076d-120">محتوى "التوظيف" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-120">Recruiting Power BI content</span></span>](recruiting-analysis-power-bi-content-pack.md) 
+- [<span data-ttu-id="6076d-121">محتوى "أداء الربحية والمبيعات" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-121">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="6076d-122">محتوى "مدفوعات المورد" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-122">Vendor payments Power BI content</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="6076d-123">محتوى "أداء المستودع" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-123">Warehouse performance Power BI content</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="6076d-124">محتوى "مقاييس القوى العاملة" في Power BI</span><span class="sxs-lookup"><span data-stu-id="6076d-124">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)

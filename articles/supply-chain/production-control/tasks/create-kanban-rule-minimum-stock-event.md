@@ -1,13 +1,13 @@
---- 
-title: "إنشاء قاعدة كانبان باستخدام حدث الحد الأدنى للمخزون"
-description: "يركز هذا الإجراء على الإعداد المطلوب لإنشاء قاعدة كانبان باستخدام حدث مخزون الحد أدنى لضمان توفر منتج معين في موقع معين في كل الأوقات."
+---
+title: إنشاء قاعدة كانبان باستخدام حدث الحد الأدنى للمخزون
+description: يركز هذا الإجراء على الإعداد المطلوب لإنشاء قاعدة كانبان باستخدام حدث مخزون الحد أدنى لضمان توفر منتج معين في موقع معين في كل الأوقات.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,55 +17,54 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 2a9ba8ec2abb26e3b9ee7e14bdf882c1ffcb205b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311072"
 ---
-# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="ec095-103">إنشاء قاعدة كانبان باستخدام حدث الحد الأدنى للمخزون</span><span class="sxs-lookup"><span data-stu-id="ec095-103">Create a kanban rule using a minimum stock event</span></span>
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="20574-103">إنشاء قاعدة كانبان باستخدام حدث الحد الأدنى للمخزون</span><span class="sxs-lookup"><span data-stu-id="20574-103">Create a kanban rule using a minimum stock event</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ec095-104">يركز هذا الإجراء على الإعداد المطلوب لإنشاء قاعدة كانبان باستخدام حدث مخزون الحد أدنى لضمان توفر منتج معين في موقع معين في كل الأوقات.</span><span class="sxs-lookup"><span data-stu-id="ec095-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="ec095-105">يتم إنشاء قاعدة كانبان لتحويل المواد إلى الموقع عندما ينخفض مستوى المخزون إلى أقل من 200 قطعة.</span><span class="sxs-lookup"><span data-stu-id="ec095-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="ec095-106">من خلال تشغيل معالجة حدث تثبيت السعر، يتم إنشاء كانبان المطلوب.</span><span class="sxs-lookup"><span data-stu-id="ec095-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="ec095-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="ec095-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="ec095-108">هذه المهمة مخصصة لمهندس العمليات أو مدير تدفق القيم عند قيامه بتحضير عملية إنتاج منتج جديد أو معدل في بيئة محدودة.</span><span class="sxs-lookup"><span data-stu-id="ec095-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
+<span data-ttu-id="20574-104">يركز هذا الإجراء على الإعداد المطلوب لإنشاء قاعدة كانبان باستخدام حدث مخزون الحد أدنى لضمان توفر منتج معين في موقع معين في كل الأوقات.</span><span class="sxs-lookup"><span data-stu-id="20574-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="20574-105">يتم إنشاء قاعدة كانبان لتحويل المواد إلى الموقع عندما ينخفض مستوى المخزون إلى أقل من 200 قطعة.</span><span class="sxs-lookup"><span data-stu-id="20574-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="20574-106">من خلال تشغيل معالجة حدث تثبيت السعر، يتم إنشاء كانبان المطلوب.</span><span class="sxs-lookup"><span data-stu-id="20574-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="20574-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="20574-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="20574-108">هذه المهمة مخصصة لمهندس العمليات أو مدير تدفق القيم عند قيامه بتحضير عملية إنتاج منتج جديد أو معدل في بيئة محدودة.</span><span class="sxs-lookup"><span data-stu-id="20574-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 
 
-## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="ec095-109">إنشاء قاعدة كانبان جديدة</span><span class="sxs-lookup"><span data-stu-id="ec095-109">Create a new kanban rule</span></span>
-1. <span data-ttu-id="ec095-110">انتقل إلى إدارة معلومات المنتج‬ > خلية عمل Lean manufacturing > قواعد كنبان.</span><span class="sxs-lookup"><span data-stu-id="ec095-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-2. <span data-ttu-id="ec095-111">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ec095-111">Click New.</span></span>
-3. <span data-ttu-id="ec095-112">في حقل "النوع"، حدد "انسحاب".</span><span class="sxs-lookup"><span data-stu-id="ec095-112">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="ec095-113">يتم استخدام هذا النوع لإنشاء كانبان للتحويل.</span><span class="sxs-lookup"><span data-stu-id="ec095-113">This type is used to create transfer kanbans.</span></span>  
-4. <span data-ttu-id="ec095-114">في الحقل "إستراتيجية التزويد"، حدد "الحدث".</span><span class="sxs-lookup"><span data-stu-id="ec095-114">In the Replenishment strategy field, select 'Event'.</span></span>
-    * <span data-ttu-id="ec095-115">يتم استخدام استراتيجية الحدث لإنشاء كانبان للتحويل استنادًا إلى حدث.</span><span class="sxs-lookup"><span data-stu-id="ec095-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="ec095-116">لاحقًا في الإجراء، ستقوم بتشغيل كانبان للتحويل باستخدام تزويد المخزون‬.</span><span class="sxs-lookup"><span data-stu-id="ec095-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
-5. <span data-ttu-id="ec095-117">في الحقل "نشاط الخطة الأول"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ec095-117">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="ec095-118">أدخل ReplenishSpeakerComponents أو حدده.</span><span class="sxs-lookup"><span data-stu-id="ec095-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="ec095-119">هناك مستودع استلام (مخرجات) والموقع 12 لنشاط التحويل هذا، مما يعني أنه سيتم نقل المواد إلى الموقع 12 في المستودع 12.</span><span class="sxs-lookup"><span data-stu-id="ec095-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
-6. <span data-ttu-id="ec095-120">قم بتوسيع القسم "التفاصيل".</span><span class="sxs-lookup"><span data-stu-id="ec095-120">Expand the Details section.</span></span>
-7. <span data-ttu-id="ec095-121">في الحقل "المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ec095-121">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="ec095-122">حدد "M0007".</span><span class="sxs-lookup"><span data-stu-id="ec095-122">Select M0007.</span></span>  
-8. <span data-ttu-id="ec095-123">قم بتوسيع القسم "الأحداث".</span><span class="sxs-lookup"><span data-stu-id="ec095-123">Expand the Events section.</span></span>
-9. <span data-ttu-id="ec095-124">في حقل "حدث تزويد المخزون"، حدد "دُفعة".</span><span class="sxs-lookup"><span data-stu-id="ec095-124">In the Stock replenishment event field, select 'Batch'.</span></span>
-    * <span data-ttu-id="ec095-125">يؤدي هذا إلى إنشاء كانبان لتلبية الاحتياجات المادية في الموقع ذي الصلة أثناء معالجة حدث تثبيت السعر.</span><span class="sxs-lookup"><span data-stu-id="ec095-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="20574-109">إنشاء قاعدة كانبان جديدة</span><span class="sxs-lookup"><span data-stu-id="20574-109">Create a new kanban rule</span></span>
+1. <span data-ttu-id="20574-110">انتقل إلى إدارة معلومات المنتج‬ > خلية عمل Lean manufacturing > قواعد كنبان.</span><span class="sxs-lookup"><span data-stu-id="20574-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="20574-111">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="20574-111">Click New.</span></span>
+3. <span data-ttu-id="20574-112">في حقل "النوع"، حدد "انسحاب".</span><span class="sxs-lookup"><span data-stu-id="20574-112">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="20574-113">يتم استخدام هذا النوع لإنشاء كانبان للتحويل.</span><span class="sxs-lookup"><span data-stu-id="20574-113">This type is used to create transfer kanbans.</span></span>  
+4. <span data-ttu-id="20574-114">في الحقل "إستراتيجية التزويد"، حدد "الحدث".</span><span class="sxs-lookup"><span data-stu-id="20574-114">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="20574-115">يتم استخدام استراتيجية الحدث لإنشاء كانبان للتحويل استنادًا إلى حدث.</span><span class="sxs-lookup"><span data-stu-id="20574-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="20574-116">لاحقًا في الإجراء، ستقوم بتشغيل كانبان للتحويل باستخدام تزويد المخزون‬.</span><span class="sxs-lookup"><span data-stu-id="20574-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
+5. <span data-ttu-id="20574-117">في الحقل "نشاط الخطة الأول"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="20574-117">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="20574-118">أدخل ReplenishSpeakerComponents أو حدده.</span><span class="sxs-lookup"><span data-stu-id="20574-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="20574-119">هناك مستودع استلام (مخرجات) والموقع 12 لنشاط التحويل هذا، مما يعني أنه سيتم نقل المواد إلى الموقع 12 في المستودع 12.</span><span class="sxs-lookup"><span data-stu-id="20574-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
+6. <span data-ttu-id="20574-120">قم بتوسيع القسم "التفاصيل".</span><span class="sxs-lookup"><span data-stu-id="20574-120">Expand the Details section.</span></span>
+7. <span data-ttu-id="20574-121">في الحقل "المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="20574-121">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="20574-122">حدد "M0007".</span><span class="sxs-lookup"><span data-stu-id="20574-122">Select M0007.</span></span>  
+8. <span data-ttu-id="20574-123">قم بتوسيع القسم "الأحداث".</span><span class="sxs-lookup"><span data-stu-id="20574-123">Expand the Events section.</span></span>
+9. <span data-ttu-id="20574-124">في حقل "حدث تزويد المخزون"، حدد "دُفعة".</span><span class="sxs-lookup"><span data-stu-id="20574-124">In the Stock replenishment event field, select 'Batch'.</span></span>
+    * <span data-ttu-id="20574-125">يؤدي هذا إلى إنشاء كانبان لتلبية الاحتياجات المادية في الموقع ذي الصلة أثناء معالجة حدث تثبيت السعر.</span><span class="sxs-lookup"><span data-stu-id="20574-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
 
-## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="ec095-126">تعيين الحد الأدنى لكمية الصنف</span><span class="sxs-lookup"><span data-stu-id="ec095-126">Set the minimum quantity for the item</span></span>
-1. <span data-ttu-id="ec095-127">انقر لمتابعة الارتباط في حقل "المنتج".</span><span class="sxs-lookup"><span data-stu-id="ec095-127">Click to follow the link in the Product field.</span></span>
-2. <span data-ttu-id="ec095-128">انقر لمتابعة الارتباط في الحقل "رقم الصنف".</span><span class="sxs-lookup"><span data-stu-id="ec095-128">Click to follow the link in the Item number field.</span></span>
-3. <span data-ttu-id="ec095-129">قم بتوسيع مربع حقائق صورة المنتج.</span><span class="sxs-lookup"><span data-stu-id="ec095-129">Expand the Product image FactBox.</span></span>
-4. <span data-ttu-id="ec095-130">في جزء "الإجراءات"، انقر فوق "خطة".</span><span class="sxs-lookup"><span data-stu-id="ec095-130">On the Action Pane, click Plan.</span></span>
-5. <span data-ttu-id="ec095-131">انقر فوق "تغطية الصنف‬".</span><span class="sxs-lookup"><span data-stu-id="ec095-131">Click Item coverage.</span></span>
-6. <span data-ttu-id="ec095-132">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ec095-132">Click New.</span></span>
-7. <span data-ttu-id="ec095-133">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ec095-133">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="ec095-134">في الحقل "المستودع"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ec095-134">In the Warehouse field, enter or select a value.</span></span>
-    * <span data-ttu-id="ec095-135">قم بتعيين المستودع على 12.</span><span class="sxs-lookup"><span data-stu-id="ec095-135">Set Warehouse to 12.</span></span>  
-9. <span data-ttu-id="ec095-136">عيّن الحد الأدنى إلى "200".</span><span class="sxs-lookup"><span data-stu-id="ec095-136">Set Minimum to '200'.</span></span>
+## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="20574-126">تعيين الحد الأدنى لكمية الصنف</span><span class="sxs-lookup"><span data-stu-id="20574-126">Set the minimum quantity for the item</span></span>
+1. <span data-ttu-id="20574-127">انقر لمتابعة الارتباط في حقل "المنتج".</span><span class="sxs-lookup"><span data-stu-id="20574-127">Click to follow the link in the Product field.</span></span>
+2. <span data-ttu-id="20574-128">انقر لمتابعة الارتباط في الحقل "رقم الصنف".</span><span class="sxs-lookup"><span data-stu-id="20574-128">Click to follow the link in the Item number field.</span></span>
+3. <span data-ttu-id="20574-129">قم بتوسيع مربع حقائق صورة المنتج.</span><span class="sxs-lookup"><span data-stu-id="20574-129">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="20574-130">في جزء "الإجراءات"، انقر فوق "خطة".</span><span class="sxs-lookup"><span data-stu-id="20574-130">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="20574-131">انقر فوق "تغطية الصنف‬".</span><span class="sxs-lookup"><span data-stu-id="20574-131">Click Item coverage.</span></span>
+6. <span data-ttu-id="20574-132">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="20574-132">Click New.</span></span>
+7. <span data-ttu-id="20574-133">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="20574-133">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="20574-134">في الحقل "المستودع"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="20574-134">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="20574-135">قم بتعيين المستودع على 12.</span><span class="sxs-lookup"><span data-stu-id="20574-135">Set Warehouse to 12.</span></span>  
+9. <span data-ttu-id="20574-136">عيّن الحد الأدنى إلى "200".</span><span class="sxs-lookup"><span data-stu-id="20574-136">Set Minimum to '200'.</span></span>
 
-## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="ec095-137">تشغيل الوظيفة الدفعية إنشاء حدث</span><span class="sxs-lookup"><span data-stu-id="ec095-137">Run the batch event creation job</span></span>
-1. <span data-ttu-id="ec095-138">انتقل إلى التحكم بالإنتاج‬ > المهام الدورية > معالجة دُفعة وظيفة كانبان‬ > معالجة حدث تثبيت السعر.</span><span class="sxs-lookup"><span data-stu-id="ec095-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
-2. <span data-ttu-id="ec095-139">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="ec095-139">Click OK.</span></span>
-3. <span data-ttu-id="ec095-140">انتقل إلى إدارة معلومات المنتج‬ > خلية عمل Lean manufacturing > قواعد كنبان.</span><span class="sxs-lookup"><span data-stu-id="ec095-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-4. <span data-ttu-id="ec095-141">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ec095-141">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="ec095-142">حدد قاعدة كانبان التي أنشأتها في السابق.</span><span class="sxs-lookup"><span data-stu-id="ec095-142">Select the kanban rule that you created earlier.</span></span>  
-5. <span data-ttu-id="ec095-143">قم بتوسيع القسم "كانبان".</span><span class="sxs-lookup"><span data-stu-id="ec095-143">Expand the Kanbans section.</span></span>
-    * <span data-ttu-id="ec095-144">لاحظ أنه تم إنشاء كانبان لنقل المواد المطلوبة إلى المستودع 12.</span><span class="sxs-lookup"><span data-stu-id="ec095-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
-
+## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="20574-137">تشغيل الوظيفة الدفعية إنشاء حدث</span><span class="sxs-lookup"><span data-stu-id="20574-137">Run the batch event creation job</span></span>
+1. <span data-ttu-id="20574-138">انتقل إلى التحكم بالإنتاج‬ > المهام الدورية > معالجة دُفعة وظيفة كانبان‬ > معالجة حدث تثبيت السعر.</span><span class="sxs-lookup"><span data-stu-id="20574-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
+2. <span data-ttu-id="20574-139">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="20574-139">Click OK.</span></span>
+3. <span data-ttu-id="20574-140">انتقل إلى إدارة معلومات المنتج‬ > خلية عمل Lean manufacturing > قواعد كنبان.</span><span class="sxs-lookup"><span data-stu-id="20574-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+4. <span data-ttu-id="20574-141">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="20574-141">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="20574-142">حدد قاعدة كانبان التي أنشأتها في السابق.</span><span class="sxs-lookup"><span data-stu-id="20574-142">Select the kanban rule that you created earlier.</span></span>  
+5. <span data-ttu-id="20574-143">قم بتوسيع القسم "كانبان".</span><span class="sxs-lookup"><span data-stu-id="20574-143">Expand the Kanbans section.</span></span>
+    * <span data-ttu-id="20574-144">لاحظ أنه تم إنشاء كانبان لنقل المواد المطلوبة إلى المستودع 12.</span><span class="sxs-lookup"><span data-stu-id="20574-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
 

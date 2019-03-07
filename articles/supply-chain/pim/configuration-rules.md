@@ -1,13 +1,13 @@
 ---
-title: "قواعد التكوين"
-description: "توفر هذه المقالة معلومات عامة حول قواعد التكوين. تعرّف قواعد التكوين العلاقات بين الأصناف الموجودة في قائمة مكونات الصنف (BOM) للمنتجات التي تستخدم تقنية التكوين المستنِد إلى بُعد."
+title: قواعد التكوين
+description: توفر هذه المقالة معلومات عامة حول قواعد التكوين. تعرّف قواعد التكوين العلاقات بين الأصناف الموجودة في قائمة مكونات الصنف (BOM) للمنتجات التي تستخدم تقنية التكوين المستنِد إلى بُعد.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConfigRule
 audience: Application User
 ms.reviewer: josaw
@@ -18,33 +18,31 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 13f37cb4e472e91862e963a4952adcf61e6adcea
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319352"
 ---
-
-# <a name="configuration-rules"></a><span data-ttu-id="8afea-104">قواعد التكوين</span><span class="sxs-lookup"><span data-stu-id="8afea-104">Configuration rules</span></span>
+# <a name="configuration-rules"></a><span data-ttu-id="009ee-104">قواعد التكوين</span><span class="sxs-lookup"><span data-stu-id="009ee-104">Configuration rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8afea-105">توفر هذه المقالة معلومات عامة حول قواعد التكوين.</span><span class="sxs-lookup"><span data-stu-id="8afea-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="8afea-106">تعرّف قواعد التكوين العلاقات بين الأصناف الموجودة في قائمة مكونات الصنف (BOM) للمنتجات التي تستخدم تقنية التكوين المستنِد إلى بُعد.</span><span class="sxs-lookup"><span data-stu-id="8afea-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
+<span data-ttu-id="009ee-105">توفر هذه المقالة معلومات عامة حول قواعد التكوين.</span><span class="sxs-lookup"><span data-stu-id="009ee-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="009ee-106">تعرّف قواعد التكوين العلاقات بين الأصناف الموجودة في قائمة مكونات الصنف (BOM) للمنتجات التي تستخدم تقنية التكوين المستنِد إلى بُعد.</span><span class="sxs-lookup"><span data-stu-id="009ee-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
 
-<span data-ttu-id="8afea-107">تتوفر قواعد التكوين عند قيامك بتحديد نماذج التكوين المستندة إلى بعد.</span><span class="sxs-lookup"><span data-stu-id="8afea-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="8afea-108">ويتم استخدام قواعد التكوين لفرض أو منع مجموعات الأصناف المحددة في قائمة مكونات الصنف (BOM).</span><span class="sxs-lookup"><span data-stu-id="8afea-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="8afea-109">وبعد إنشاء قائمة مكونات الصنف والأصناف ذات الصلة التي تم تعيينها إلى مجموعات التكوين الخاصة بها، يمكن تحديد واحد أو أكثر من قواعد التكوين.</span><span class="sxs-lookup"><span data-stu-id="8afea-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="8afea-110">وفي حالة انتماء الصنفين لبعضهما، يتم استخدام عامل **التحديد** لضمان الإدراج.</span><span class="sxs-lookup"><span data-stu-id="8afea-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="8afea-111">أما إذا كان يتم استثناء الصنفين بشكل متبادل، فإنه يتم استخدام عامل **إلغاء التحديد** لضمان الاستثناء.</span><span class="sxs-lookup"><span data-stu-id="8afea-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
+<span data-ttu-id="009ee-107">تتوفر قواعد التكوين عند قيامك بتحديد نماذج التكوين المستندة إلى بعد.</span><span class="sxs-lookup"><span data-stu-id="009ee-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="009ee-108">ويتم استخدام قواعد التكوين لفرض أو منع مجموعات الأصناف المحددة في قائمة مكونات الصنف (BOM).</span><span class="sxs-lookup"><span data-stu-id="009ee-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="009ee-109">وبعد إنشاء قائمة مكونات الصنف والأصناف ذات الصلة التي تم تعيينها إلى مجموعات التكوين الخاصة بها، يمكن تحديد واحد أو أكثر من قواعد التكوين.</span><span class="sxs-lookup"><span data-stu-id="009ee-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="009ee-110">وفي حالة انتماء الصنفين لبعضهما، يتم استخدام عامل **التحديد** لضمان الإدراج.</span><span class="sxs-lookup"><span data-stu-id="009ee-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="009ee-111">أما إذا كان يتم استثناء الصنفين بشكل متبادل، فإنه يتم استخدام عامل **إلغاء التحديد** لضمان الاستثناء.</span><span class="sxs-lookup"><span data-stu-id="009ee-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
 
-<span data-ttu-id="8afea-112">**ملاحظة:** تنطبق هذه المعلومات فقط على أصول المنتجات التي تستخدم تقنية التكوين المستندة إلى بعد.</span><span class="sxs-lookup"><span data-stu-id="8afea-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
+<span data-ttu-id="009ee-112">**ملاحظة:** تنطبق هذه المعلومات فقط على أصول المنتجات التي تستخدم تقنية التكوين المستندة إلى بعد.</span><span class="sxs-lookup"><span data-stu-id="009ee-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
 
-<span data-ttu-id="8afea-113">ولا تتأثر عمليات التكوين الحالية بالتغييرات المتتابعة على قواعد التكوين.</span><span class="sxs-lookup"><span data-stu-id="8afea-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="8afea-114">ومع ذلك، يُعد من المهم تعيين القواعد قبل تحديد تكوين جديد، أو فحص هذه القواعد إذا كنت تعتقد أنه قد تم تغيير القواعد.</span><span class="sxs-lookup"><span data-stu-id="8afea-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
+<span data-ttu-id="009ee-113">ولا تتأثر عمليات التكوين الحالية بالتغييرات المتتابعة على قواعد التكوين.</span><span class="sxs-lookup"><span data-stu-id="009ee-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="009ee-114">ومع ذلك، يُعد من المهم تعيين القواعد قبل تحديد تكوين جديد، أو فحص هذه القواعد إذا كنت تعتقد أنه قد تم تغيير القواعد.</span><span class="sxs-lookup"><span data-stu-id="009ee-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
 
-<span data-ttu-id="8afea-115">**ملاحظة:** بالنسبة إلى طريقة **التحديد**، يتم تحديد مجموعة التكوين المشتق ورقم الصنف والتكوين تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="8afea-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="8afea-116">وفي طريقة **إلغاء التحديد** لا يمكن تحديد مجموعة التكوين المشتق ورقم الصنف بالإضافة إلى التكوين.</span><span class="sxs-lookup"><span data-stu-id="8afea-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
+<span data-ttu-id="009ee-115">**ملاحظة:** بالنسبة إلى طريقة **التحديد**، يتم تحديد مجموعة التكوين المشتق ورقم الصنف والتكوين تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="009ee-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="009ee-116">وفي طريقة **إلغاء التحديد** لا يمكن تحديد مجموعة التكوين المشتق ورقم الصنف بالإضافة إلى التكوين.</span><span class="sxs-lookup"><span data-stu-id="009ee-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="8afea-117">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="8afea-117">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="009ee-117">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="009ee-117">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="8afea-118">تكوين المنتج المستند إلى بُعد</span><span class="sxs-lookup"><span data-stu-id="8afea-118">Dimension-based product configuration</span></span>](dimension-based-product-configuration.md)
-
+[<span data-ttu-id="009ee-118">تكوين المنتج المستند إلى بُعد</span><span class="sxs-lookup"><span data-stu-id="009ee-118">Dimension-based product configuration</span></span>](dimension-based-product-configuration.md)
 
 
 

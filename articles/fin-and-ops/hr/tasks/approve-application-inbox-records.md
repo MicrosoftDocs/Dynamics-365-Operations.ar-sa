@@ -1,13 +1,13 @@
---- 
-title: "الموافقة على سجلات علبة وارد استمارات التقديم"
-description: "يوضح هذا الإجراء كيفية مراجعة استمارات التقديم التي تم استلامها خلال صفحات الخدمة الذاتية للموظف."
+---
+title: الموافقة على سجلات علبة وارد استمارات التقديم
+description: يوضح هذا الإجراء كيفية مراجعة استمارات التقديم التي تم استلامها خلال صفحات الخدمة الذاتية للموظف.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplicationBasket, HRMApplicationBasketApprove, HRMApplication
 audience: Application User
 ms.reviewer: rschloma
@@ -16,37 +16,36 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 87a08b33e0dc004fd836142121dca9da6d6e1a6d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310083"
 ---
-# <a name="approve-application-inbox-records"></a><span data-ttu-id="dbf3c-103">الموافقة على سجلات علبة وارد استمارات التقديم</span><span class="sxs-lookup"><span data-stu-id="dbf3c-103">Approve application inbox records</span></span>
+# <a name="approve-application-inbox-records"></a><span data-ttu-id="36dec-103">الموافقة على سجلات علبة وارد استمارات التقديم</span><span class="sxs-lookup"><span data-stu-id="36dec-103">Approve application inbox records</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="dbf3c-104">يوضح هذا الإجراء كيفية مراجعة استمارات التقديم التي تم استلامها خلال صفحات الخدمة الذاتية للموظف.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-104">This procedure shows how to review applications received through the Employee self-service pages.</span></span> <span data-ttu-id="dbf3c-105">وبالإضافة إلى مراجعة استمارات التقديم، يمكنك الموافقة على استمارة التقديم في سجلات المربع التي تقوم بتحديدها.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-105">In addition to reviewing the applications, you can approve the application in box records that you select.</span></span> <span data-ttu-id="dbf3c-106">وتعرض سجلات علبة وارد استمارات التقديم استمارات التقديم للتوظيف التي تم إرسالها إلى شركة للنظر فيها.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-106">Application inbox records represent employment applications that were submitted to the company for consideration.</span></span> <span data-ttu-id="dbf3c-107">وبعد الموافقة على سجل، سيتم إنشاء سجل مقدم طلب للشخص الذي قدم استمارة التقديم.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-107">After approving a record, an applicant record will be created for the person who submitted the application.</span></span> <span data-ttu-id="dbf3c-108">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-108">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="36dec-104">يوضح هذا الإجراء كيفية مراجعة استمارات التقديم التي تم استلامها خلال صفحات الخدمة الذاتية للموظف.</span><span class="sxs-lookup"><span data-stu-id="36dec-104">This procedure shows how to review applications received through the Employee self-service pages.</span></span> <span data-ttu-id="36dec-105">وبالإضافة إلى مراجعة استمارات التقديم، يمكنك الموافقة على استمارة التقديم في سجلات المربع التي تقوم بتحديدها.</span><span class="sxs-lookup"><span data-stu-id="36dec-105">In addition to reviewing the applications, you can approve the application in box records that you select.</span></span> <span data-ttu-id="36dec-106">وتعرض سجلات علبة وارد استمارات التقديم استمارات التقديم للتوظيف التي تم إرسالها إلى شركة للنظر فيها.</span><span class="sxs-lookup"><span data-stu-id="36dec-106">Application inbox records represent employment applications that were submitted to the company for consideration.</span></span> <span data-ttu-id="36dec-107">وبعد الموافقة على سجل، سيتم إنشاء سجل مقدم طلب للشخص الذي قدم استمارة التقديم.</span><span class="sxs-lookup"><span data-stu-id="36dec-107">After approving a record, an applicant record will be created for the person who submitted the application.</span></span> <span data-ttu-id="36dec-108">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="36dec-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="review-application-inbox-record"></a><span data-ttu-id="dbf3c-109">مراجعة سجل علبة وارد استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="dbf3c-109">Review application inbox record</span></span>
-1. <span data-ttu-id="dbf3c-110">انتقل إلى الموارد البشرية > التوظيف‬ > استمارات التقديم > علبة وارد استمارات التقديم‬‬.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-110">Go to Human resources > Recruitment > Applications > Application inbox.</span></span>
-2. <span data-ttu-id="dbf3c-111">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-111">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="dbf3c-112">وسّع المقطع "عناوين".</span><span class="sxs-lookup"><span data-stu-id="dbf3c-112">Expand the Addresses section.</span></span>
-4. <span data-ttu-id="dbf3c-113">‏‫قم بتوسيع المقطع "معلومات الاتصال‬‬".</span><span class="sxs-lookup"><span data-stu-id="dbf3c-113">Expand the Contact information section.</span></span>
-5. <span data-ttu-id="dbf3c-114">وسّع المقطع "مرفقات‬".</span><span class="sxs-lookup"><span data-stu-id="dbf3c-114">Expand the Attachments section.</span></span>
+## <a name="review-application-inbox-record"></a><span data-ttu-id="36dec-109">مراجعة سجل علبة وارد استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="36dec-109">Review application inbox record</span></span>
+1. <span data-ttu-id="36dec-110">انتقل إلى الموارد البشرية > التوظيف‬ > استمارات التقديم > علبة وارد استمارات التقديم‬‬.</span><span class="sxs-lookup"><span data-stu-id="36dec-110">Go to Human resources > Recruitment > Applications > Application inbox.</span></span>
+2. <span data-ttu-id="36dec-111">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="36dec-111">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="36dec-112">وسّع المقطع "عناوين".</span><span class="sxs-lookup"><span data-stu-id="36dec-112">Expand the Addresses section.</span></span>
+4. <span data-ttu-id="36dec-113">‏‫قم بتوسيع المقطع "معلومات الاتصال‬‬".</span><span class="sxs-lookup"><span data-stu-id="36dec-113">Expand the Contact information section.</span></span>
+5. <span data-ttu-id="36dec-114">وسّع المقطع "مرفقات‬".</span><span class="sxs-lookup"><span data-stu-id="36dec-114">Expand the Attachments section.</span></span>
 
-## <a name="approve-application-inbox-record"></a><span data-ttu-id="dbf3c-115">الموافقة على سجل علبة وارد استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="dbf3c-115">Approve application inbox record</span></span>
-1. <span data-ttu-id="dbf3c-116">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-116">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="dbf3c-117">سجل القيمة الموجودة في الحقل "الاسم" للرجوع إليها فيما بعد</span><span class="sxs-lookup"><span data-stu-id="dbf3c-117">Note the value in the Name field to reference later</span></span>
-3. <span data-ttu-id="dbf3c-118">انقر فوق "‏‫موافقة".</span><span class="sxs-lookup"><span data-stu-id="dbf3c-118">Click Approve.</span></span>
-4. <span data-ttu-id="dbf3c-119">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="dbf3c-119">Click OK.</span></span>
-5. <span data-ttu-id="dbf3c-120">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-120">Close the page.</span></span>
+## <a name="approve-application-inbox-record"></a><span data-ttu-id="36dec-115">الموافقة على سجل علبة وارد استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="36dec-115">Approve application inbox record</span></span>
+1. <span data-ttu-id="36dec-116">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="36dec-116">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="36dec-117">سجل القيمة الموجودة في الحقل "الاسم" للرجوع إليها فيما بعد</span><span class="sxs-lookup"><span data-stu-id="36dec-117">Note the value in the Name field to reference later</span></span>
+3. <span data-ttu-id="36dec-118">انقر فوق "‏‫موافقة".</span><span class="sxs-lookup"><span data-stu-id="36dec-118">Click Approve.</span></span>
+4. <span data-ttu-id="36dec-119">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="36dec-119">Click OK.</span></span>
+5. <span data-ttu-id="36dec-120">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="36dec-120">Close the page.</span></span>
 
-## <a name="view-the-newly-created-application-record"></a><span data-ttu-id="dbf3c-121">عرض سجل استمارة التقديم المنشأ حديثًا</span><span class="sxs-lookup"><span data-stu-id="dbf3c-121">View the newly created application record</span></span>
-1. <span data-ttu-id="dbf3c-122">انتقل إلى الموارد البشرية > التوظيف‬ > استمارات التقديم‬ > استمارات التقديم‬‬.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-122">Go to Human resources > Recruitment > Applications > Applications.</span></span>
-2. <span data-ttu-id="dbf3c-123">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="dbf3c-123">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="dbf3c-124">وسّع المقطع "مرفقات‬".</span><span class="sxs-lookup"><span data-stu-id="dbf3c-124">Expand the Attachments section.</span></span>
-
+## <a name="view-the-newly-created-application-record"></a><span data-ttu-id="36dec-121">عرض سجل استمارة التقديم المنشأ حديثًا</span><span class="sxs-lookup"><span data-stu-id="36dec-121">View the newly created application record</span></span>
+1. <span data-ttu-id="36dec-122">انتقل إلى الموارد البشرية > التوظيف‬ > استمارات التقديم‬ > استمارات التقديم‬‬.</span><span class="sxs-lookup"><span data-stu-id="36dec-122">Go to Human resources > Recruitment > Applications > Applications.</span></span>
+2. <span data-ttu-id="36dec-123">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="36dec-123">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="36dec-124">وسّع المقطع "مرفقات‬".</span><span class="sxs-lookup"><span data-stu-id="36dec-124">Expand the Attachments section.</span></span>
 

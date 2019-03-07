@@ -1,13 +1,13 @@
 ---
-title: "المصادر العامة لفروقات الإنتاج"
-description: "توضح هذه المقالة المصادر النموذجية المختلفة لكل نوع من أنواع الفرق في الإنتاج."
+title: المصادر العامة لفروقات الإنتاج
+description: توضح هذه المقالة المصادر النموذجية المختلفة لكل نوع من أنواع الفرق في الإنتاج.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCostTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,48 +19,46 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 50f8cd7904e1d32175edd321fbd6533e985fb324
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308680"
 ---
-
-# <a name="common-sources-of-production-variances"></a><span data-ttu-id="8bd02-103">المصادر العامة لفروقات الإنتاج</span><span class="sxs-lookup"><span data-stu-id="8bd02-103">Common sources of production variances</span></span>
+# <a name="common-sources-of-production-variances"></a><span data-ttu-id="8239f-103">المصادر العامة لفروقات الإنتاج</span><span class="sxs-lookup"><span data-stu-id="8239f-103">Common sources of production variances</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8bd02-104">توضح هذه المقالة المصادر النموذجية المختلفة لكل نوع من أنواع الفرق في الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="8bd02-104">This article explains various typical sources of each type of production variance.</span></span> 
+<span data-ttu-id="8239f-104">توضح هذه المقالة المصادر النموذجية المختلفة لكل نوع من أنواع الفرق في الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="8239f-104">This article explains various typical sources of each type of production variance.</span></span> 
 
-<span data-ttu-id="8bd02-105">فيما يلي بعض المصادر النموذجية للفرق في **حجم دفعة‬**:</span><span class="sxs-lookup"><span data-stu-id="8bd02-105">Here are some typical sources of a **lot size** variance:</span></span>
+<span data-ttu-id="8239f-105">فيما يلي بعض المصادر النموذجية للفرق في **حجم دفعة‬**:</span><span class="sxs-lookup"><span data-stu-id="8239f-105">Here are some typical sources of a **lot size** variance:</span></span>
 
--   <span data-ttu-id="8bd02-106">اختلاف ‏‏كمية البضائع لأمر الإنتاج عن كمية الحساب المستخدمة في حساب التكلفة القياسية.</span><span class="sxs-lookup"><span data-stu-id="8bd02-106">The good quantity for a production order differs from the calculation quantity that is used in the standard cost calculation.</span></span> <span data-ttu-id="8bd02-107">وتوفر الكمية الأساس لسداد التكاليف الثابتة.</span><span class="sxs-lookup"><span data-stu-id="8bd02-107">The quantity provides the basis for amortizing constant costs.</span></span>
--   <span data-ttu-id="8bd02-108">تختلف قيمة التكاليف الثابتة على أمر الإنتاج عن التكاليف الثابتة التي يتم استخدامها في حساب التكلفة المعيارية.</span><span class="sxs-lookup"><span data-stu-id="8bd02-108">The value of constant costs on the production order differs from the constant costs that are used in the standard cost calculation.</span></span> <span data-ttu-id="8bd02-109">وقد تختلف التكاليف الثابتة على أمر الإنتاج لعدة أسباب.</span><span class="sxs-lookup"><span data-stu-id="8bd02-109">The constant costs on the production order can differ for several reasons.</span></span> <span data-ttu-id="8bd02-110">على سبيل المثال، قد تعكس التكاليف الثابتة العوامل التالية:</span><span class="sxs-lookup"><span data-stu-id="8bd02-110">For example, the constant costs might reflect the following factors:</span></span>
-    -   <span data-ttu-id="8bd02-111">التغييرات اليدوية في قائمة مكونات الصنف الخاصة بالإنتاج أو مسار الإنتاج</span><span class="sxs-lookup"><span data-stu-id="8bd02-111">Manual changes to the production bill of materials (BOM) or route</span></span>
-    -   <span data-ttu-id="8bd02-112">تحديد إصدار مختلف لقائمة مكونات الصنف أو المسار عند إنشاء أمر الإنتاج</span><span class="sxs-lookup"><span data-stu-id="8bd02-112">The selection of a different BOM version or route version when you create the production order</span></span>
-    -   <span data-ttu-id="8bd02-113">تغييرات هندسية مخططة لإصدار قائمة مكونات الصنف أو المسار المعينة إلى الصنف</span><span class="sxs-lookup"><span data-stu-id="8bd02-113">Planned engineering changes to the BOM version or route version that is assigned to the item</span></span>
+-   <span data-ttu-id="8239f-106">اختلاف ‏‏كمية البضائع لأمر الإنتاج عن كمية الحساب المستخدمة في حساب التكلفة القياسية.</span><span class="sxs-lookup"><span data-stu-id="8239f-106">The good quantity for a production order differs from the calculation quantity that is used in the standard cost calculation.</span></span> <span data-ttu-id="8239f-107">وتوفر الكمية الأساس لسداد التكاليف الثابتة.</span><span class="sxs-lookup"><span data-stu-id="8239f-107">The quantity provides the basis for amortizing constant costs.</span></span>
+-   <span data-ttu-id="8239f-108">تختلف قيمة التكاليف الثابتة على أمر الإنتاج عن التكاليف الثابتة التي يتم استخدامها في حساب التكلفة المعيارية.</span><span class="sxs-lookup"><span data-stu-id="8239f-108">The value of constant costs on the production order differs from the constant costs that are used in the standard cost calculation.</span></span> <span data-ttu-id="8239f-109">وقد تختلف التكاليف الثابتة على أمر الإنتاج لعدة أسباب.</span><span class="sxs-lookup"><span data-stu-id="8239f-109">The constant costs on the production order can differ for several reasons.</span></span> <span data-ttu-id="8239f-110">على سبيل المثال، قد تعكس التكاليف الثابتة العوامل التالية:</span><span class="sxs-lookup"><span data-stu-id="8239f-110">For example, the constant costs might reflect the following factors:</span></span>
+    -   <span data-ttu-id="8239f-111">التغييرات اليدوية في قائمة مكونات الصنف الخاصة بالإنتاج أو مسار الإنتاج</span><span class="sxs-lookup"><span data-stu-id="8239f-111">Manual changes to the production bill of materials (BOM) or route</span></span>
+    -   <span data-ttu-id="8239f-112">تحديد إصدار مختلف لقائمة مكونات الصنف أو المسار عند إنشاء أمر الإنتاج</span><span class="sxs-lookup"><span data-stu-id="8239f-112">The selection of a different BOM version or route version when you create the production order</span></span>
+    -   <span data-ttu-id="8239f-113">تغييرات هندسية مخططة لإصدار قائمة مكونات الصنف أو المسار المعينة إلى الصنف</span><span class="sxs-lookup"><span data-stu-id="8239f-113">Planned engineering changes to the BOM version or route version that is assigned to the item</span></span>
 
-<span data-ttu-id="8bd02-114">فيما يلي بعض المصادر النموذجية للفرق في **سعر الإنتاج‬**:</span><span class="sxs-lookup"><span data-stu-id="8bd02-114">Here are some typical sources of a **production price** variance:</span></span>
+<span data-ttu-id="8239f-114">فيما يلي بعض المصادر النموذجية للفرق في **سعر الإنتاج‬**:</span><span class="sxs-lookup"><span data-stu-id="8239f-114">Here are some typical sources of a **production price** variance:</span></span>
 
--   <span data-ttu-id="8bd02-115">اختلاف فئة التكلفة (وسعر فئة التكلفة) للاستهلاك المبلغ عنه لعملية التوجيه عن فئة التكلفة المستخدمة في حساب التكلفة المعيارية.</span><span class="sxs-lookup"><span data-stu-id="8bd02-115">The cost category (and cost category price) for the reported consumption of a routing operation differs from the cost category that is used in standard cost calculation.</span></span>
--   <span data-ttu-id="8bd02-116">اختلاف التكلفة النشطة لسعر فئة التكلفة عن سعر فئة التكلفة المستخدمة في حساب التكلفة القياسية.</span><span class="sxs-lookup"><span data-stu-id="8bd02-116">The active cost for the cost category price differs from the cost category price that is used in standard cost calculation.</span></span>
+-   <span data-ttu-id="8239f-115">اختلاف فئة التكلفة (وسعر فئة التكلفة) للاستهلاك المبلغ عنه لعملية التوجيه عن فئة التكلفة المستخدمة في حساب التكلفة المعيارية.</span><span class="sxs-lookup"><span data-stu-id="8239f-115">The cost category (and cost category price) for the reported consumption of a routing operation differs from the cost category that is used in standard cost calculation.</span></span>
+-   <span data-ttu-id="8239f-116">اختلاف التكلفة النشطة لسعر فئة التكلفة عن سعر فئة التكلفة المستخدمة في حساب التكلفة القياسية.</span><span class="sxs-lookup"><span data-stu-id="8239f-116">The active cost for the cost category price differs from the cost category price that is used in standard cost calculation.</span></span>
 
-<span data-ttu-id="8bd02-117">فيما يلي بعض المصادر النموذجية للفرق في **كمية الإنتاج‬**:</span><span class="sxs-lookup"><span data-stu-id="8bd02-117">Here are some typical sources of a **production quantity** variance:</span></span>
+<span data-ttu-id="8239f-117">فيما يلي بعض المصادر النموذجية للفرق في **كمية الإنتاج‬**:</span><span class="sxs-lookup"><span data-stu-id="8239f-117">Here are some typical sources of a **production quantity** variance:</span></span>
 
--   <span data-ttu-id="8bd02-118">الإصدار الزائد أو الناقص لأحد مكونات المواد.</span><span class="sxs-lookup"><span data-stu-id="8bd02-118">You over-issue or under-issue a material component.</span></span>
--   <span data-ttu-id="8bd02-119">الإبلاغ عن الوقت لعملية التوجيه بشكل زائد أو ناقص.</span><span class="sxs-lookup"><span data-stu-id="8bd02-119">You over-report or under-report the time for a routing operation.</span></span>
--   <span data-ttu-id="8bd02-120">الاستلام الزائد أو الناقص للكمية الجيدة للصنف الأصل، بالنسبة إلى كمية الأمر.</span><span class="sxs-lookup"><span data-stu-id="8bd02-120">You over-receive or under-receive the good quantity of the parent item, relative to the order quantity.</span></span> <span data-ttu-id="8bd02-121">ومع ذلك، ستقوم بإصدار المكونات والإبلاغ عن العمليات بشكل تام، استنادًا إلى كمية الأمر لأمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="8bd02-121">However, you issue components and report operations completely, based on the order quantity for the production order.</span></span>
+-   <span data-ttu-id="8239f-118">الإصدار الزائد أو الناقص لأحد مكونات المواد.</span><span class="sxs-lookup"><span data-stu-id="8239f-118">You over-issue or under-issue a material component.</span></span>
+-   <span data-ttu-id="8239f-119">الإبلاغ عن الوقت لعملية التوجيه بشكل زائد أو ناقص.</span><span class="sxs-lookup"><span data-stu-id="8239f-119">You over-report or under-report the time for a routing operation.</span></span>
+-   <span data-ttu-id="8239f-120">الاستلام الزائد أو الناقص للكمية الجيدة للصنف الأصل، بالنسبة إلى كمية الأمر.</span><span class="sxs-lookup"><span data-stu-id="8239f-120">You over-receive or under-receive the good quantity of the parent item, relative to the order quantity.</span></span> <span data-ttu-id="8239f-121">ومع ذلك، ستقوم بإصدار المكونات والإبلاغ عن العمليات بشكل تام، استنادًا إلى كمية الأمر لأمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="8239f-121">However, you issue components and report operations completely, based on the order quantity for the production order.</span></span>
 
-<span data-ttu-id="8bd02-122">فيما يلي بعض المصادر النموذجية للفرق في **تبديل الإنتاج‬**:</span><span class="sxs-lookup"><span data-stu-id="8bd02-122">Here are some typical sources of a **production substitution** variance:</span></span>
+<span data-ttu-id="8239f-122">فيما يلي بعض المصادر النموذجية للفرق في **تبديل الإنتاج‬**:</span><span class="sxs-lookup"><span data-stu-id="8239f-122">Here are some typical sources of a **production substitution** variance:</span></span>
 
--   <span data-ttu-id="8bd02-123">ستصدر مكون مواد غير موجود في ‏‏قائمة مكونات الصنف الخاصة بالإنتاج.</span><span class="sxs-lookup"><span data-stu-id="8bd02-123">You issue a material component that isn't on the production BOM.</span></span>
--   <span data-ttu-id="8bd02-124">ستضيف أحد المكونات يدويًا إلى قائمة مكونات الصنف الخاصة بالإنتاج وتبلغ عن هذا المكون على أنه مستهلك.</span><span class="sxs-lookup"><span data-stu-id="8bd02-124">You manually add a component to the production BOM and report that component as consumed.</span></span>
--   <span data-ttu-id="8bd02-125">ستبلغ عن أحد الأصناف على أنه مستهلك بدون إضافته يدويًا إلى قائمة مكونات الصنف الخاصة بالإنتاج.</span><span class="sxs-lookup"><span data-stu-id="8bd02-125">You report an item as consumed but don't manually add it to the production BOM.</span></span>
--   <span data-ttu-id="8bd02-126">ستضيف عملية بشكل يدوي إلى مسار الإنتاج وتبلغ عن العملية على أنها مستهلكة.</span><span class="sxs-lookup"><span data-stu-id="8bd02-126">You manually add an operation to the production route and report that operation as consumed.</span></span>
--   <span data-ttu-id="8bd02-127">عندما تنشئ أمر الإنتاج، ستحدد إصدار قائمة مكونات الصنف الذي يختلف عن إصدار قائمة مكونات الصنف المستخدم في حساب التكلفة المعيارية.</span><span class="sxs-lookup"><span data-stu-id="8bd02-127">When you create the production order, you select a BOM version that differs from the BOM version that is used in the standard cost calculation.</span></span>
--   <span data-ttu-id="8bd02-128">عندما تنشئ أمر الإنتاج، ستحدد إصدار مسار يختلف عن إصدار المسار المستخدم في حساب التكلفة المعيارية.</span><span class="sxs-lookup"><span data-stu-id="8bd02-128">When you create the production order, you select a route version that differs from the route version that is used in the standard cost calculation.</span></span>
-
+-   <span data-ttu-id="8239f-123">ستصدر مكون مواد غير موجود في ‏‏قائمة مكونات الصنف الخاصة بالإنتاج.</span><span class="sxs-lookup"><span data-stu-id="8239f-123">You issue a material component that isn't on the production BOM.</span></span>
+-   <span data-ttu-id="8239f-124">ستضيف أحد المكونات يدويًا إلى قائمة مكونات الصنف الخاصة بالإنتاج وتبلغ عن هذا المكون على أنه مستهلك.</span><span class="sxs-lookup"><span data-stu-id="8239f-124">You manually add a component to the production BOM and report that component as consumed.</span></span>
+-   <span data-ttu-id="8239f-125">ستبلغ عن أحد الأصناف على أنه مستهلك بدون إضافته يدويًا إلى قائمة مكونات الصنف الخاصة بالإنتاج.</span><span class="sxs-lookup"><span data-stu-id="8239f-125">You report an item as consumed but don't manually add it to the production BOM.</span></span>
+-   <span data-ttu-id="8239f-126">ستضيف عملية بشكل يدوي إلى مسار الإنتاج وتبلغ عن العملية على أنها مستهلكة.</span><span class="sxs-lookup"><span data-stu-id="8239f-126">You manually add an operation to the production route and report that operation as consumed.</span></span>
+-   <span data-ttu-id="8239f-127">عندما تنشئ أمر الإنتاج، ستحدد إصدار قائمة مكونات الصنف الذي يختلف عن إصدار قائمة مكونات الصنف المستخدم في حساب التكلفة المعيارية.</span><span class="sxs-lookup"><span data-stu-id="8239f-127">When you create the production order, you select a BOM version that differs from the BOM version that is used in the standard cost calculation.</span></span>
+-   <span data-ttu-id="8239f-128">عندما تنشئ أمر الإنتاج، ستحدد إصدار مسار يختلف عن إصدار المسار المستخدم في حساب التكلفة المعيارية.</span><span class="sxs-lookup"><span data-stu-id="8239f-128">When you create the production order, you select a route version that differs from the route version that is used in the standard cost calculation.</span></span>
 
 
 

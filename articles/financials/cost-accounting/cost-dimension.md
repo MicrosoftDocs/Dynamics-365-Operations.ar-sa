@@ -1,13 +1,13 @@
 ---
-title: "إنشاء الأبعاد واستيراد أعضاء الأبعاد"
-description: "تعتبر محاسبة التكاليف وحدة نمطية مستقلة تحتاج إلى بيانات رئيسية من الوحدات النمطية الأخرى."
+title: إنشاء الأبعاد واستيراد أعضاء الأبعاد
+description: تعتبر محاسبة التكاليف وحدة نمطية مستقلة تحتاج إلى بيانات رئيسية من الوحدات النمطية الأخرى.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,40 +18,38 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: d48ba0a0b80d251e107baa0ceeb66d8e328f13dc
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342306"
 ---
-
-# <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="80832-103">إنشاء الأبعاد واستيراد أعضاء الأبعاد</span><span class="sxs-lookup"><span data-stu-id="80832-103">Create dimensions and import dimension members</span></span>
+# <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="c41bc-103">إنشاء الأبعاد واستيراد أعضاء الأبعاد</span><span class="sxs-lookup"><span data-stu-id="c41bc-103">Create dimensions and import dimension members</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="80832-104">تعتبر محاسبة التكاليف وحدة نمطية مستقلة تحتاج إلى بيانات من الوحدات النمطية الأخرى.</span><span class="sxs-lookup"><span data-stu-id="80832-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="80832-105">تم تصنيف هذه البيانات على الشكل التالي:</span><span class="sxs-lookup"><span data-stu-id="80832-105">This data is categorized into the following:</span></span>
+<span data-ttu-id="c41bc-104">تعتبر محاسبة التكاليف وحدة نمطية مستقلة تحتاج إلى بيانات من الوحدات النمطية الأخرى.</span><span class="sxs-lookup"><span data-stu-id="c41bc-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="c41bc-105">تم تصنيف هذه البيانات على الشكل التالي:</span><span class="sxs-lookup"><span data-stu-id="c41bc-105">This data is categorized into the following:</span></span>
 
--  <span data-ttu-id="80832-106">عناصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="80832-106">Cost elements</span></span>
--  <span data-ttu-id="80832-107">كائنات التكلفة</span><span class="sxs-lookup"><span data-stu-id="80832-107">Cost objects</span></span>
--  <span data-ttu-id="80832-108">الأبعاد الإحصائية</span><span class="sxs-lookup"><span data-stu-id="80832-108">Statistical dimensions</span></span>
+-  <span data-ttu-id="c41bc-106">عناصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="c41bc-106">Cost elements</span></span>
+-  <span data-ttu-id="c41bc-107">كائنات التكلفة</span><span class="sxs-lookup"><span data-stu-id="c41bc-107">Cost objects</span></span>
+-  <span data-ttu-id="c41bc-108">الأبعاد الإحصائية</span><span class="sxs-lookup"><span data-stu-id="c41bc-108">Statistical dimensions</span></span>
 
-<span data-ttu-id="80832-109">يتطابق **عنصر التكلفة** مع عنصر ذي صلة بالتكلفة في دليل الحسابات.</span><span class="sxs-lookup"><span data-stu-id="80832-109">A **Cost element** corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="80832-110">يتطابق **كائن التكلفة** مع أي نوع من أنواع الأبعاد المالية، مثل المنتجات ومراكز التكلفة والمشاريع التي تريدها لتقدير التكاليف أو توزيها أو قياسها مباشرة.</span><span class="sxs-lookup"><span data-stu-id="80832-110">A **Cost object** corresponds to any type of financial dimension, such as products, cost centers, and projects that you want to estimate, allocate costs to, or measure directly.</span></span> <span data-ttu-id="80832-111">يتم استخدام **البُعد الإحصائي** وأعضاء هذا البُعد لتسجيل الإدخالات غير النقدية.</span><span class="sxs-lookup"><span data-stu-id="80832-111">A **Statistical dimension** and its members are used to register non-monetary entries.</span></span> <span data-ttu-id="80832-112">يمكن استخدام أعضاء الأبعاد الإحصائية كأساس تخصيص في توزيع التكلفة وتخصيصها.</span><span class="sxs-lookup"><span data-stu-id="80832-112">Statistical dimension members can be used as an allocation base in cost distribution and allocation</span></span> 
+<span data-ttu-id="c41bc-109">يتطابق **عنصر التكلفة** مع عنصر ذي صلة بالتكلفة في دليل الحسابات.</span><span class="sxs-lookup"><span data-stu-id="c41bc-109">A **Cost element** corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="c41bc-110">يتطابق **كائن التكلفة** مع أي نوع من أنواع الأبعاد المالية، مثل المنتجات ومراكز التكلفة والمشاريع التي تريدها لتقدير التكاليف أو توزيها أو قياسها مباشرة.</span><span class="sxs-lookup"><span data-stu-id="c41bc-110">A **Cost object** corresponds to any type of financial dimension, such as products, cost centers, and projects that you want to estimate, allocate costs to, or measure directly.</span></span> <span data-ttu-id="c41bc-111">يتم استخدام **البُعد الإحصائي** وأعضاء هذا البُعد لتسجيل الإدخالات غير النقدية.</span><span class="sxs-lookup"><span data-stu-id="c41bc-111">A **Statistical dimension** and its members are used to register non-monetary entries.</span></span> <span data-ttu-id="c41bc-112">يمكن استخدام أعضاء الأبعاد الإحصائية كأساس تخصيص في توزيع التكلفة وتخصيصها.</span><span class="sxs-lookup"><span data-stu-id="c41bc-112">Statistical dimension members can be used as an allocation base in cost distribution and allocation</span></span> 
 
-<span data-ttu-id="80832-113">يوضح المخطط التالي الأبعاد المستخدمة في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="80832-113">The following diagram illustrates the dimensions that are used in Cost accounting.</span></span>
+<span data-ttu-id="c41bc-113">يوضح المخطط التالي الأبعاد المستخدمة في محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="c41bc-113">The following diagram illustrates the dimensions that are used in Cost accounting.</span></span>
 
-<span data-ttu-id="80832-114">[![أبعاد محاسبة التكاليف](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="80832-114">[![Cost accounting dimensions](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span></span>
+<span data-ttu-id="c41bc-114">[![أبعاد محاسبة التكاليف](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="c41bc-114">[![Cost accounting dimensions](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span></span>
 
-<span data-ttu-id="80832-115">بعد استيراد البيانات إلى محاسبة التكاليف، يمكنك استخدامها لإنشاء منظورات مختلفة توفر معلومات دقيقة إلى المدراء على جميع مستويات المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="80832-115">After the data is imported into Cost accounting, you can use it to build various perspectives that provide insights to managers at all levels of the organization.</span></span> <span data-ttu-id="80832-116">توفر الموضوعات التالية معلومات حول إنشاء الأبعاد واستيراد أعضاء الأبعاد.</span><span class="sxs-lookup"><span data-stu-id="80832-116">The following topics provide information about creating dimensions and importing dimension members.</span></span> 
+<span data-ttu-id="c41bc-115">بعد استيراد البيانات إلى محاسبة التكاليف، يمكنك استخدامها لإنشاء منظورات مختلفة توفر معلومات دقيقة إلى المدراء على جميع مستويات المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="c41bc-115">After the data is imported into Cost accounting, you can use it to build various perspectives that provide insights to managers at all levels of the organization.</span></span> <span data-ttu-id="c41bc-116">توفر الموضوعات التالية معلومات حول إنشاء الأبعاد واستيراد أعضاء الأبعاد.</span><span class="sxs-lookup"><span data-stu-id="c41bc-116">The following topics provide information about creating dimensions and importing dimension members.</span></span> 
 
--  [<span data-ttu-id="80832-117">أبعاد عنصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="80832-117">Cost element dimensions</span></span>](cost-elements.md)
--  [<span data-ttu-id="80832-118">إنشاء عناصر تكلفة (دليل المهام)</span><span class="sxs-lookup"><span data-stu-id="80832-118">Create cost elements (Task guide)</span></span>](./tasks/create-cost-elements.md)
--  [<span data-ttu-id="80832-119">أبعاد كائن التكاليف</span><span class="sxs-lookup"><span data-stu-id="80832-119">Cost object dimensions</span></span>](cost-objects.md)
--  [<span data-ttu-id="80832-120">إنشاء عناصر تكلفة (دليل المهام)</span><span class="sxs-lookup"><span data-stu-id="80832-120">Create cost elements (Task guide)</span></span>](./tasks/create-cost-objects.md)
--  [<span data-ttu-id="80832-121">تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد</span><span class="sxs-lookup"><span data-stu-id="80832-121">Map cost element dimension members to a common set of dimension members</span></span>](map-cost-elements-dimension-members.md)
--  [<span data-ttu-id="80832-122">تعيين بُعد عنصر تكلفة (دليل المهام)</span><span class="sxs-lookup"><span data-stu-id="80832-122">Map a cost element dimension (Task guide)</span></span>](./tasks/map-cost-element-dimension.md)
--  [<span data-ttu-id="80832-123">أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية</span><span class="sxs-lookup"><span data-stu-id="80832-123">Statistical dimension members and statistical measure provider templates</span></span>](statistical-measure-provider-template.md)
-
+-  [<span data-ttu-id="c41bc-117">أبعاد عنصر التكلفة</span><span class="sxs-lookup"><span data-stu-id="c41bc-117">Cost element dimensions</span></span>](cost-elements.md)
+-  [<span data-ttu-id="c41bc-118">إنشاء عناصر تكلفة (دليل المهام)</span><span class="sxs-lookup"><span data-stu-id="c41bc-118">Create cost elements (Task guide)</span></span>](./tasks/create-cost-elements.md)
+-  [<span data-ttu-id="c41bc-119">أبعاد كائن التكاليف</span><span class="sxs-lookup"><span data-stu-id="c41bc-119">Cost object dimensions</span></span>](cost-objects.md)
+-  [<span data-ttu-id="c41bc-120">إنشاء عناصر تكلفة (دليل المهام)</span><span class="sxs-lookup"><span data-stu-id="c41bc-120">Create cost elements (Task guide)</span></span>](./tasks/create-cost-objects.md)
+-  [<span data-ttu-id="c41bc-121">تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد</span><span class="sxs-lookup"><span data-stu-id="c41bc-121">Map cost element dimension members to a common set of dimension members</span></span>](map-cost-elements-dimension-members.md)
+-  [<span data-ttu-id="c41bc-122">تعيين بُعد عنصر تكلفة (دليل المهام)</span><span class="sxs-lookup"><span data-stu-id="c41bc-122">Map a cost element dimension (Task guide)</span></span>](./tasks/map-cost-element-dimension.md)
+-  [<span data-ttu-id="c41bc-123">أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية</span><span class="sxs-lookup"><span data-stu-id="c41bc-123">Statistical dimension members and statistical measure provider templates</span></span>](statistical-measure-provider-template.md)
 
 
 

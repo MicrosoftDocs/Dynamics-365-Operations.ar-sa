@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية لتطبيق Dynamics 365 for Unified Operations Mobile"
-description: "يصف هذا الموضوع تطبيق Microsoft Dynamics 365 for Unified Operations للأجهزة المحمولة ويوفر ارتباطات إلى موارد يمكن أن تساعدك في تطبيقه في مؤسستك."
+title: الصفحة الرئيسية لتطبيق Dynamics 365 for Unified Operations Mobile
+description: يصف هذا الموضوع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,53 +17,52 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: ar-sa
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321376"
 ---
-
-# <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a><span data-ttu-id="fcaea-103">الصفحة الرئيسية لتطبيق Dynamics 365 for Unified Operations Mobile</span><span class="sxs-lookup"><span data-stu-id="fcaea-103">Dynamics 365 for Unified Operations mobile app home page</span></span>
+# <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a><span data-ttu-id="5b21a-103">الصفحة الرئيسية لتطبيق Dynamics 365 for Unified Operations Mobile</span><span class="sxs-lookup"><span data-stu-id="5b21a-103">Dynamics 365 for Unified Operations mobile app home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fcaea-104">يصف هذا الموضوع تطبيق Microsoft Dynamics 365 for Unified Operations للأجهزة المحمولة ويوفر ارتباطات إلى موارد يمكن أن تساعدك في تطبيقه في مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="fcaea-104">This topic describes the Microsoft Dynamics 365 for Unified Operations mobile app and provides links to resources that can help you implement it in your organization.</span></span>
+<span data-ttu-id="5b21a-104">يصف هذا الموضوع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="5b21a-104">This topic describes the Microsoft Dynamics 365 for Unified Operations mobile app and provides links to resources that can help you implement it in your organization.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="fcaea-105">كان تطبيق الأجهزة المحمولة يسمى في السابق *Microsoft Dynamics 365 for Finance and Operations*.</span><span class="sxs-lookup"><span data-stu-id="fcaea-105">The mobile app was previously named *Microsoft Dynamics 365 for Finance and Operations*.</span></span>
+> <span data-ttu-id="5b21a-105">كان تطبيق الأجهزة المحمولة يسمى في السابق *Microsoft Dynamics 365 for Finance and Operations*.</span><span class="sxs-lookup"><span data-stu-id="5b21a-105">The mobile app was previously named *Microsoft Dynamics 365 for Finance and Operations*.</span></span>
 
-<a name="overview"></a><span data-ttu-id="fcaea-106">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="fcaea-106">Overview</span></span>
+<a name="overview"></a><span data-ttu-id="5b21a-106">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="5b21a-106">Overview</span></span>
 --------
 
-<span data-ttu-id="fcaea-107">يسمح تطبيق الأجهزة المحمولة لمؤسستك بجعل عمليات الأعمال لديها متوفرة على الأجهزة المحمولة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-107">The mobile app enables your organization to make its business processes available on mobile devices.</span></span> <span data-ttu-id="fcaea-108">بعد أن يقوم مسؤول تقنية المعلومات بتمكين مساحات العمل المحمولة لمؤسستك، يمكن للمستخدمين تسجيل الدخول إلى التطبيق وبدء تشغيل عمليات الأعمال على الفور من أجهزتهم المحمولة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-108">After your IT admin enables the mobile workspaces for your organization, users can sign in to the app and immediately begin to run business processes from their mobile devices.</span></span> <span data-ttu-id="fcaea-109">يتضمن تطبيق الأجهزة المحمولة الميزات التالية التي يمكن أن تساعدك في زيادة الإنتاجية:</span><span class="sxs-lookup"><span data-stu-id="fcaea-109">The mobile app includes the following features that can help increase productivity:</span></span>
+<span data-ttu-id="5b21a-107">يسمح تطبيق الأجهزة المحمولة لمؤسستك بجعل عمليات الأعمال لديها متوفرة على الأجهزة المحمولة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-107">The mobile app enables your organization to make its business processes available on mobile devices.</span></span> <span data-ttu-id="5b21a-108">بعد أن يقوم مسؤول تقنية المعلومات بتمكين مساحات العمل المحمولة لمؤسستك، يمكن للمستخدمين تسجيل الدخول إلى التطبيق وبدء تشغيل عمليات الأعمال على الفور من أجهزتهم المحمولة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-108">After your IT admin enables the mobile workspaces for your organization, users can sign in to the app and immediately begin to run business processes from their mobile devices.</span></span> <span data-ttu-id="5b21a-109">يتضمن تطبيق الأجهزة المحمولة الميزات التالية التي يمكن أن تساعدك في زيادة الإنتاجية:</span><span class="sxs-lookup"><span data-stu-id="5b21a-109">The mobile app includes the following features that can help increase productivity:</span></span>
 
-- <span data-ttu-id="fcaea-110">باستطاعة المستخدمين عرض بيانات العمل وتحريرها والعمل عليها، حتى عندما يكون الاتصال بالشبكة متقطعًا أو عندما تكون أجهزتهم المحمولة غير متصلة تمامًا.</span><span class="sxs-lookup"><span data-stu-id="fcaea-110">Users can view, edit, and act on business data, even if they have intermittent network connectivity or their mobile devices are completely offline.</span></span> <span data-ttu-id="fcaea-111">عند يعيد جهاز تأسيس اتصال شبكة، تتم مزامنة العمليات على البيانات دون اتصال بشكل تلقائي مع Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="fcaea-111">When a device reestablishes a network connection, offline data operations are automatically synchronized with Dynamics 365 for Finance and Operations.</span></span>
-- <span data-ttu-id="fcaea-112">باستطاعة المطورين أو مسؤولي تقنية المعلومات بناء ونشر مساحات العمل المحمولة التي تم تخصيصها لمؤسستهم.</span><span class="sxs-lookup"><span data-stu-id="fcaea-112">IT admins or developers can build and publish mobile workspaces that have been tailored to their organization.</span></span> <span data-ttu-id="fcaea-113">يستخدم التطبيق أصول التعليمات البرمجية الموجودة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-113">The app uses your existing code assets.</span></span> <span data-ttu-id="fcaea-114">لذلك، لا يلزم إعادة تنفيذ إجراءات التحقق من الصحة أو منطق التسلسل العمل أو تكوين الأمان.</span><span class="sxs-lookup"><span data-stu-id="fcaea-114">Therefore, you don't have to re-implement your validation procedures, business logic, or security configuration.</span></span>
-- <span data-ttu-id="fcaea-115">باستطاعة مسؤولي تقنية المعلومات أو المطورين تصميم مساحات العمل المحمولة بسهولة باستخدام مصمم مساحات العمل بالتأشير والنقر المضمن مع عميل ويب.</span><span class="sxs-lookup"><span data-stu-id="fcaea-115">IT admins or developers can easily design mobile workspaces by using the point-and-click workspace designer that is included with the web client.</span></span>
-- <span data-ttu-id="fcaea-116">باستطاعة المطورين أو مسؤولي تقنية المعلومات تحسين قدرات العمل دون اتصال في مساحات العمل المحمولة بشكل اختياري باستخدام إطار عمل قابلية لتوسعة منطق تسلسل العمل.</span><span class="sxs-lookup"><span data-stu-id="fcaea-116">IT admins or developers can optionally optimize the offline capabilities of workspaces by using the Business logic extensibility framework.</span></span> <span data-ttu-id="fcaea-117">نظراً لاستمرار معالجة البيانات بينما يكون الجهاز في وضع عدم الاتصال، تبقى سيناريوهات المحمول غنية وسلسة، حتى لو لم يتوفر للأجهزة اتصال ثابت بالشبكة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-117">Because data continues to be processed while a device is offline, your mobile scenarios remain rich and fluid, even if devices don't have constant network connectivity.</span></span>
+- <span data-ttu-id="5b21a-110">باستطاعة المستخدمين عرض بيانات العمل وتحريرها والعمل عليها، حتى عندما يكون الاتصال بالشبكة متقطعًا أو عندما تكون أجهزتهم المحمولة غير متصلة تمامًا.</span><span class="sxs-lookup"><span data-stu-id="5b21a-110">Users can view, edit, and act on business data, even if they have intermittent network connectivity or their mobile devices are completely offline.</span></span> <span data-ttu-id="5b21a-111">عندما يعيد جهاز تأسيس اتصال شبكة، تتم مزامنة عمليات البيانات دون اتصال مع Dynamics 365 for Finance and Operations بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="5b21a-111">When a device reestablishes a network connection, offline data operations are automatically synchronized with Dynamics 365 for Finance and Operations.</span></span>
+- <span data-ttu-id="5b21a-112">باستطاعة المطورين أو مسؤولي تقنية المعلومات بناء ونشر مساحات العمل المحمولة التي تم تخصيصها لمؤسستهم.</span><span class="sxs-lookup"><span data-stu-id="5b21a-112">IT admins or developers can build and publish mobile workspaces that have been tailored to their organization.</span></span> <span data-ttu-id="5b21a-113">يستخدم التطبيق أصول التعليمات البرمجية الموجودة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-113">The app uses your existing code assets.</span></span> <span data-ttu-id="5b21a-114">لذلك، لا يلزم إعادة تنفيذ إجراءات التحقق من الصحة أو منطق التسلسل العمل أو تكوين الأمان.</span><span class="sxs-lookup"><span data-stu-id="5b21a-114">Therefore, you don't have to re-implement your validation procedures, business logic, or security configuration.</span></span>
+- <span data-ttu-id="5b21a-115">باستطاعة مسؤولي تقنية المعلومات أو المطورين تصميم مساحات العمل المحمولة بسهولة باستخدام مصمم مساحات العمل بالتأشير والنقر المضمن مع عميل ويب.</span><span class="sxs-lookup"><span data-stu-id="5b21a-115">IT admins or developers can easily design mobile workspaces by using the point-and-click workspace designer that is included with the web client.</span></span>
+- <span data-ttu-id="5b21a-116">باستطاعة المطورين أو مسؤولي تقنية المعلومات تحسين قدرات العمل دون اتصال في مساحات العمل المحمولة بشكل اختياري باستخدام إطار عمل قابلية لتوسعة منطق تسلسل العمل.</span><span class="sxs-lookup"><span data-stu-id="5b21a-116">IT admins or developers can optionally optimize the offline capabilities of workspaces by using the Business logic extensibility framework.</span></span> <span data-ttu-id="5b21a-117">نظراً لاستمرار معالجة البيانات بينما يكون الجهاز في وضع عدم الاتصال، تبقى سيناريوهات المحمول غنية وسلسة، حتى لو لم يتوفر للأجهزة اتصال ثابت بالشبكة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-117">Because data continues to be processed while a device is offline, your mobile scenarios remain rich and fluid, even if devices don't have constant network connectivity.</span></span>
 
-## <a name="elements-of-the-mobile-app"></a><span data-ttu-id="fcaea-118">عناصر تطبيق الأجهزة المحمولة</span><span class="sxs-lookup"><span data-stu-id="fcaea-118">Elements of the mobile app</span></span>
-<span data-ttu-id="fcaea-119">يتكوّن التنقل في تطبيق الأجهزة المحمولة من أربعة مفاهيم أساسية: لوحة المعلومات ومساحات العمل والصفحات والإجراءات.</span><span class="sxs-lookup"><span data-stu-id="fcaea-119">Navigation in the mobile app consists of four basic concepts: the dashboard, workspaces, pages, and actions.</span></span> 
+## <a name="elements-of-the-mobile-app"></a><span data-ttu-id="5b21a-118">عناصر تطبيق الأجهزة المحمولة</span><span class="sxs-lookup"><span data-stu-id="5b21a-118">Elements of the mobile app</span></span>
+<span data-ttu-id="5b21a-119">يتكوّن التنقل في تطبيق الأجهزة المحمولة من أربعة مفاهيم أساسية: لوحة المعلومات ومساحات العمل والصفحات والإجراءات.</span><span class="sxs-lookup"><span data-stu-id="5b21a-119">Navigation in the mobile app consists of four basic concepts: the dashboard, workspaces, pages, and actions.</span></span> 
 
-<span data-ttu-id="fcaea-120">[![مفاهيم التنقل في تطبيق الأجهزة المحمولة](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span><span class="sxs-lookup"><span data-stu-id="fcaea-120">[![Navigation concepts in the mobile app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span></span>
+<span data-ttu-id="5b21a-120">[![مفاهيم التنقل في تطبيق الأجهزة المحمولة](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span><span class="sxs-lookup"><span data-stu-id="5b21a-120">[![Navigation concepts in the mobile app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span></span>
 
-1. <span data-ttu-id="fcaea-121">عند بدء تشغيل التطبيق، يمكنك الانتقال إلى **لوحة المعلومات**.</span><span class="sxs-lookup"><span data-stu-id="fcaea-121">When you start the app, you go to the **dashboard**.</span></span>
-2. <span data-ttu-id="fcaea-122">في لوحة المعلومات، يمكنك مشاهدة قائمة تتضمن **مساحات عمل** التي تم نشرها.</span><span class="sxs-lookup"><span data-stu-id="fcaea-122">On the dashboard, you can see a list of **workspaces** that have been published.</span></span>
-3. <span data-ttu-id="fcaea-123">في كل مساحة عمل، يمكنك رؤية قائمة تضمّ **الصفحات** التي تتوفر لمساحة العمل تلك.</span><span class="sxs-lookup"><span data-stu-id="fcaea-123">In each workspace, you can see a list of **pages** that are available for that workspace.</span></span>
-4. <span data-ttu-id="fcaea-124">بعد أن تصل إلى صفحة، يمكنك تنفيذ العديد من الإجراءات.</span><span class="sxs-lookup"><span data-stu-id="fcaea-124">After you're on a page, you can perform several actions.</span></span> <span data-ttu-id="fcaea-125">فيما يلي بعض الأمثلة:</span><span class="sxs-lookup"><span data-stu-id="fcaea-125">Here are some examples:</span></span>
+1. <span data-ttu-id="5b21a-121">عند بدء تشغيل التطبيق، يمكنك الانتقال إلى **لوحة المعلومات**.</span><span class="sxs-lookup"><span data-stu-id="5b21a-121">When you start the app, you go to the **dashboard**.</span></span>
+2. <span data-ttu-id="5b21a-122">في لوحة المعلومات، يمكنك مشاهدة قائمة تتضمن **مساحات عمل** التي تم نشرها.</span><span class="sxs-lookup"><span data-stu-id="5b21a-122">On the dashboard, you can see a list of **workspaces** that have been published.</span></span>
+3. <span data-ttu-id="5b21a-123">في كل مساحة عمل، يمكنك رؤية قائمة تضمّ **الصفحات** التي تتوفر لمساحة العمل تلك.</span><span class="sxs-lookup"><span data-stu-id="5b21a-123">In each workspace, you can see a list of **pages** that are available for that workspace.</span></span>
+4. <span data-ttu-id="5b21a-124">بعد أن تصل إلى صفحة، يمكنك تنفيذ العديد من الإجراءات.</span><span class="sxs-lookup"><span data-stu-id="5b21a-124">After you're on a page, you can perform several actions.</span></span> <span data-ttu-id="5b21a-125">فيما يلي بعض الأمثلة:</span><span class="sxs-lookup"><span data-stu-id="5b21a-125">Here are some examples:</span></span>
 
-    - <span data-ttu-id="fcaea-126">عرض البيانات التفصيلية.</span><span class="sxs-lookup"><span data-stu-id="fcaea-126">View detailed data.</span></span>
-    - <span data-ttu-id="fcaea-127">الانتقال إلى صفحات أخرى للبيانات ذات الصلة، مثل تفاصيل الكيان أو البنود.</span><span class="sxs-lookup"><span data-stu-id="fcaea-127">Navigate to other pages for related data, such as entity details or lines.</span></span>
-    - <span data-ttu-id="fcaea-128">عرض قائمة تتضمن **الإجراءات** التي تتوفر لتلك الصفحة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-128">See a list of **actions** that are available for that page.</span></span> <span data-ttu-id="fcaea-129">تسمح لك الإجراءات بإنشاء أو تحرير البيانات الموجودة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-129">Actions let you create or edit existing data.</span></span>
+    - <span data-ttu-id="5b21a-126">عرض البيانات التفصيلية.</span><span class="sxs-lookup"><span data-stu-id="5b21a-126">View detailed data.</span></span>
+    - <span data-ttu-id="5b21a-127">الانتقال إلى صفحات أخرى للبيانات ذات الصلة، مثل تفاصيل الكيان أو البنود.</span><span class="sxs-lookup"><span data-stu-id="5b21a-127">Navigate to other pages for related data, such as entity details or lines.</span></span>
+    - <span data-ttu-id="5b21a-128">عرض قائمة تتضمن **الإجراءات** التي تتوفر لتلك الصفحة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-128">See a list of **actions** that are available for that page.</span></span> <span data-ttu-id="5b21a-129">تسمح لك الإجراءات بإنشاء أو تحرير البيانات الموجودة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-129">Actions let you create or edit existing data.</span></span>
 
-## <a name="implementation-process"></a><span data-ttu-id="fcaea-130">عملية التطبيق</span><span class="sxs-lookup"><span data-stu-id="fcaea-130">Implementation process</span></span>
-<span data-ttu-id="fcaea-131">يعرض الرسم التوضيحي التالي عملية تنفيذ مساحات العمل المحمولة التي يتم توفيرها من قبل Microsoft ومساحات العمل المحمولة المخصصة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-131">The following illustration shows the process for implementing both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> 
+## <a name="implementation-process"></a><span data-ttu-id="5b21a-130">عملية التطبيق</span><span class="sxs-lookup"><span data-stu-id="5b21a-130">Implementation process</span></span>
+<span data-ttu-id="5b21a-131">يعرض الرسم التوضيحي التالي عملية تنفيذ مساحات العمل المحمولة التي يتم توفيرها من قبل Microsoft ومساحات العمل المحمولة المخصصة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-131">The following illustration shows the process for implementing both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> 
 
-<span data-ttu-id="fcaea-132">[![عملية تنفيذ تطبيقات الأجهزة المحمولة](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span><span class="sxs-lookup"><span data-stu-id="fcaea-132">[![Mobile apps implementation process](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span></span>
+<span data-ttu-id="5b21a-132">[![عملية تنفيذ تطبيقات الأجهزة المحمولة](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span><span class="sxs-lookup"><span data-stu-id="5b21a-132">[![Mobile apps implementation process](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span></span>
 
-<span data-ttu-id="fcaea-133">يتضمن الجدول التالي ارتباطات إلى الموارد التي يمكن أن تساعدك في تنفيذ مساحات العمل المحمولة التي يتم توفيرها من قبل Microsoft ومساحات العمل المحمولة المخصصة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-133">The following table includes links to resources that can help you implement both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> <span data-ttu-id="fcaea-134">تتوافق الأرقام في العمود الأول مع الخطوات المرقمة في الرسم التوضيحي السابق.</span><span class="sxs-lookup"><span data-stu-id="fcaea-134">The numbers in the first column correspond to the numbered steps in the previous illustration.</span></span>
+<span data-ttu-id="5b21a-133">يتضمن الجدول التالي ارتباطات إلى الموارد التي يمكن أن تساعدك في تنفيذ مساحات العمل المحمولة التي يتم توفيرها من قبل Microsoft ومساحات العمل المحمولة المخصصة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-133">The following table includes links to resources that can help you implement both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> <span data-ttu-id="5b21a-134">تتوافق الأرقام في العمود الأول مع الخطوات المرقمة في الرسم التوضيحي السابق.</span><span class="sxs-lookup"><span data-stu-id="5b21a-134">The numbers in the first column correspond to the numbered steps in the previous illustration.</span></span>
 
 <table>
 <colgroup>
@@ -74,86 +73,85 @@ ms.lasthandoff: 10/26/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fcaea-135">الخطوة</span><span class="sxs-lookup"><span data-stu-id="fcaea-135">Step</span></span></th>
-<th><span data-ttu-id="fcaea-136">الدور</span><span class="sxs-lookup"><span data-stu-id="fcaea-136">Role</span></span></th>
-<th><span data-ttu-id="fcaea-137">إجراء</span><span class="sxs-lookup"><span data-stu-id="fcaea-137">Action</span></span></th>
-<th><span data-ttu-id="fcaea-138">موارد لمساعدتك على إكمال الإجراء</span><span class="sxs-lookup"><span data-stu-id="fcaea-138">Resources to help you complete the action</span></span></th>
+<th><span data-ttu-id="5b21a-135">الخطوة</span><span class="sxs-lookup"><span data-stu-id="5b21a-135">Step</span></span></th>
+<th><span data-ttu-id="5b21a-136">الدور</span><span class="sxs-lookup"><span data-stu-id="5b21a-136">Role</span></span></th>
+<th><span data-ttu-id="5b21a-137">إجراء</span><span class="sxs-lookup"><span data-stu-id="5b21a-137">Action</span></span></th>
+<th><span data-ttu-id="5b21a-138">موارد لمساعدتك على إكمال الإجراء</span><span class="sxs-lookup"><span data-stu-id="5b21a-138">Resources to help you complete the action</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="fcaea-139">1</span><span class="sxs-lookup"><span data-stu-id="fcaea-139">1</span></span></td>
-<td><span data-ttu-id="fcaea-140">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="fcaea-140">System administrator</span></span></td>
-<td><span data-ttu-id="fcaea-141">تنفيذ Finance and Operations في المؤسسة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="fcaea-141">Implement Finance and Operations in your organization.</span></span></td>
-<td><ul><li><span data-ttu-id="fcaea-142">إذا لم تكن قد قمت بعد بنشر إصدار من Microsoft Dynamics 365، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>.</span><span class="sxs-lookup"><span data-stu-id="fcaea-142">If you haven&#39;t yet deployed a version of Microsoft Dynamics 365, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span></li><li><span data-ttu-id="fcaea-143">لمشاهدة قائمة بمساحات العمل المحمولة التي يمكن استخدامها، راجع <a href="mobile-workspaces-released.md">مساحات العمل المحمولة التي تم إصدارها مؤخرًا</a>.</span><span class="sxs-lookup"><span data-stu-id="fcaea-143">To see a list of mobile workspaces that can be used, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span></li></ul></td>
+<td><span data-ttu-id="5b21a-139">1</span><span class="sxs-lookup"><span data-stu-id="5b21a-139">1</span></span></td>
+<td><span data-ttu-id="5b21a-140">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="5b21a-140">System administrator</span></span></td>
+<td><span data-ttu-id="5b21a-141">تنفيذ Finance and Operations في المؤسسة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="5b21a-141">Implement Finance and Operations in your organization.</span></span></td>
+<td><ul><li><span data-ttu-id="5b21a-142">إذا لم تكن قد قمت بعد بنشر إصدار من Microsoft Dynamics 365، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>.</span><span class="sxs-lookup"><span data-stu-id="5b21a-142">If you haven&#39;t yet deployed a version of Microsoft Dynamics 365, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span></li><li><span data-ttu-id="5b21a-143">لمشاهدة قائمة بمساحات العمل المحمولة التي يمكن استخدامها، راجع <a href="mobile-workspaces-released.md">مساحات العمل المحمولة التي تم إصدارها مؤخرًا</a>.</span><span class="sxs-lookup"><span data-stu-id="5b21a-143">To see a list of mobile workspaces that can be used, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span></li></ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="fcaea-144">2</span><span class="sxs-lookup"><span data-stu-id="fcaea-144">2</span></span></td>
-<td><span data-ttu-id="fcaea-145">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="fcaea-145">System administrator</span></span></td>
-<td><span data-ttu-id="fcaea-146"><strong>إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations:</strong> قم بتنزيل وتثبيت قواعد المعارف التي تمكّن مساحات العمل المحمولة التي توفرها Microsoft.‬</span><span class="sxs-lookup"><span data-stu-id="fcaea-146"><strong>If you&#39;re using Microsoft Dynamics 365 for Operations version 1611:</strong> Download and install KBs that enable the mobile workspaces that are provided by Microsoft.</span></span></td>
-<td><span data-ttu-id="fcaea-147">راجع الموضوعات التالية لمزيد من المعلومات:</span><span class="sxs-lookup"><span data-stu-id="fcaea-147">See the following topics for more information:</span></span>
+<td><span data-ttu-id="5b21a-144">2</span><span class="sxs-lookup"><span data-stu-id="5b21a-144">2</span></span></td>
+<td><span data-ttu-id="5b21a-145">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="5b21a-145">System administrator</span></span></td>
+<td><span data-ttu-id="5b21a-146"><strong>إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations:</strong> يمكنك تنزيل وتثبيت مقالات قاعدة المعارف التي تمكّن مساحات العمل المحمولة التي توفرها Microsoft.</span><span class="sxs-lookup"><span data-stu-id="5b21a-146"><strong>If you&#39;re using Microsoft Dynamics 365 for Operations version 1611:</strong> Download and install KBs that enable the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="5b21a-147">راجع الموضوعات التالية لمزيد من المعلومات:</span><span class="sxs-lookup"><span data-stu-id="5b21a-147">See the following topics for more information:</span></span>
 <ul>
 
-<li><span data-ttu-id="fcaea-148"><a href="../../financials/cost-accounting/cost-controlling-mobile-workspace.md">مساحة العمل المحمولة للتحكم في التكلفة</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-148"><a href="../../financials/cost-accounting/cost-controlling-mobile-workspace.md">Cost controlling mobile workspaces</a></span></span></li>
-<li><span data-ttu-id="fcaea-149"><a href="../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">مساحة عمل محمولة للمخزون الفعلي</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-149"><a href="../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Inventory on-hand mobile workspace</a></span></span></li>
-<li><span data-ttu-id="fcaea-150"><a href="../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">مساحات العمل المحمولة لأوامر المبيعات</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-150"><a href="../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Sales orders mobile workspaces</a></span></span></li>
-<li><span data-ttu-id="fcaea-151"><a href="../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">مساحة العمل المحمولة لتعاون المورد</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-151"><a href="../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Vendor collaboration mobile workspace</a></span></span></li>
-<li><span data-ttu-id="fcaea-152"><a href="../../financials/project-management/project-time-entry-mobile-workspace.md">مساحة عمل محمولة لإدخال وقت المشروع</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-152"><a href="../../financials/project-management/project-time-entry-mobile-workspace.md">Project time entry mobile workspace</a></span></span></li>
-<li><span data-ttu-id="fcaea-153"><a href="../../financials/expense-management/expense-management-mobile-workspace.md">مساحة عمل محمولة لإدارة المصروفات</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-153"><a href="../../financials/expense-management/expense-management-mobile-workspace.md">Expense management mobile workspace</a></span></span></li>
+<li><span data-ttu-id="5b21a-148"><a href="../../financials/cost-accounting/cost-controlling-mobile-workspace.md">مساحة العمل المحمولة للتحكم في التكلفة</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-148"><a href="../../financials/cost-accounting/cost-controlling-mobile-workspace.md">Cost controlling mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="5b21a-149"><a href="../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">مساحة عمل محمولة للمخزون الفعلي</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-149"><a href="../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Inventory on-hand mobile workspace</a></span></span></li>
+<li><span data-ttu-id="5b21a-150"><a href="../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">مساحات العمل المحمولة لأوامر المبيعات</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-150"><a href="../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Sales orders mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="5b21a-151"><a href="../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">مساحة العمل المحمولة لتعاون المورد</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-151"><a href="../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Vendor collaboration mobile workspace</a></span></span></li>
+<li><span data-ttu-id="5b21a-152"><a href="../../financials/project-management/project-time-entry-mobile-workspace.md">مساحة عمل محمولة لإدخال وقت المشروع</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-152"><a href="../../financials/project-management/project-time-entry-mobile-workspace.md">Project time entry mobile workspace</a></span></span></li>
+<li><span data-ttu-id="5b21a-153"><a href="../../financials/expense-management/expense-management-mobile-workspace.md">مساحة عمل محمولة لإدارة المصروفات</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-153"><a href="../../financials/expense-management/expense-management-mobile-workspace.md">Expense management mobile workspace</a></span></span></li>
 
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="fcaea-154">3</span><span class="sxs-lookup"><span data-stu-id="fcaea-154">3</span></span></td>
-<td><span data-ttu-id="fcaea-155">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="fcaea-155">System administrator</span></span></td>
-<td><span data-ttu-id="fcaea-156">نشر مساحات العمل المحمولة التي توفرها Microsoft.</span><span class="sxs-lookup"><span data-stu-id="fcaea-156">Publish the mobile workspaces that are provided by Microsoft.</span></span></td>
-<td><span data-ttu-id="fcaea-157"><a href="publish-mobile-workspace.md">نشر مساحة عمل محمولة</a>
-</span><span class="sxs-lookup"><span data-stu-id="fcaea-157"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a>
+<td><span data-ttu-id="5b21a-154">3</span><span class="sxs-lookup"><span data-stu-id="5b21a-154">3</span></span></td>
+<td><span data-ttu-id="5b21a-155">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="5b21a-155">System administrator</span></span></td>
+<td><span data-ttu-id="5b21a-156">نشر مساحات العمل المحمولة التي توفرها Microsoft.</span><span class="sxs-lookup"><span data-stu-id="5b21a-156">Publish the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="5b21a-157"><a href="publish-mobile-workspace.md">نشر مساحة عمل محمولة</a>
+</span><span class="sxs-lookup"><span data-stu-id="5b21a-157"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a>
 </span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="fcaea-158">4</span><span class="sxs-lookup"><span data-stu-id="fcaea-158">4</span></span></td>
-<td><span data-ttu-id="fcaea-159">مطور أو مورِّد برامج مستقل (ISV)</span><span class="sxs-lookup"><span data-stu-id="fcaea-159">Developer or independent software vendor (ISV)</span></span></td>
-<td><span data-ttu-id="fcaea-160">استخدام النظام الأساسي للمحمول لإنشاء مساحات عمل محمولة مخصصة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-160">Use the mobile platform to create custom mobile workspaces.</span></span></td>
-<td><span data-ttu-id="fcaea-161"><a href="platform/mobile-platform-home-page.md">النظام الأساسي للأجهزة المحمولة</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-161"><a href="platform/mobile-platform-home-page.md">Mobile platform</a></span></span></td>
+<td><span data-ttu-id="5b21a-158">4</span><span class="sxs-lookup"><span data-stu-id="5b21a-158">4</span></span></td>
+<td><span data-ttu-id="5b21a-159">مطور أو مورِّد برامج مستقل (ISV)</span><span class="sxs-lookup"><span data-stu-id="5b21a-159">Developer or independent software vendor (ISV)</span></span></td>
+<td><span data-ttu-id="5b21a-160">استخدام النظام الأساسي للمحمول لإنشاء مساحات عمل محمولة مخصصة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-160">Use the mobile platform to create custom mobile workspaces.</span></span></td>
+<td><span data-ttu-id="5b21a-161"><a href="platform/mobile-platform-home-page.md">النظام الأساسي للأجهزة المحمولة</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-161"><a href="platform/mobile-platform-home-page.md">Mobile platform</a></span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="fcaea-162">5</span><span class="sxs-lookup"><span data-stu-id="fcaea-162">5</span></span></td>
-<td><span data-ttu-id="fcaea-163">مورِّد برامج مستقل (ISV)</span><span class="sxs-lookup"><span data-stu-id="fcaea-163">ISV</span></span></td>
-<td><span data-ttu-id="fcaea-164">إنشاء حزمة قابلة للنشر تحتوي على مساحات عمل محمولة مخصصة، وتحميل الحزمة إلى Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="fcaea-164">Create a deployable package that contains custom mobile workspaces, and upload the package to Microsoft Dynamics Lifecycle Services (LCS).</span></span></td>
-<td><span data-ttu-id="fcaea-165"><a href="../deployment/create-apply-deployable-package.md">إنشاء حزمة قابلة للنشر</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-165"><a href="../deployment/create-apply-deployable-package.md">Create a deployable package</a></span></span></td>
+<td><span data-ttu-id="5b21a-162">5</span><span class="sxs-lookup"><span data-stu-id="5b21a-162">5</span></span></td>
+<td><span data-ttu-id="5b21a-163">مورِّد برامج مستقل (ISV)</span><span class="sxs-lookup"><span data-stu-id="5b21a-163">ISV</span></span></td>
+<td><span data-ttu-id="5b21a-164">إنشاء حزمة قابلة للنشر تحتوي على مساحات عمل محمولة مخصصة، وتحميل الحزمة إلى Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="5b21a-164">Create a deployable package that contains custom mobile workspaces, and upload the package to Microsoft Dynamics Lifecycle Services (LCS).</span></span></td>
+<td><span data-ttu-id="5b21a-165"><a href="../deployment/create-apply-deployable-package.md">إنشاء حزمة قابلة للنشر</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-165"><a href="../deployment/create-apply-deployable-package.md">Create a deployable package</a></span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="fcaea-166">6</span><span class="sxs-lookup"><span data-stu-id="fcaea-166">6</span></span></td>
-<td><span data-ttu-id="fcaea-167">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="fcaea-167">System administrator</span></span></td>
-<td><span data-ttu-id="fcaea-168">تطبيق الحزمة القابلة للنشر التي تحتوي على مساحات العمل المخصصة التي يوفرها مورّد البرامج المستقل (ISV).</span><span class="sxs-lookup"><span data-stu-id="fcaea-168">Apply the deployable package that contains the custom workspaces that are provided by the independent software vendor (ISV).</span></span></td>
-<td><span data-ttu-id="fcaea-169"><a href="../deployment/apply-deployable-package-system.md">تطبيق حزمة قابلة للنشر</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-169"><a href="../deployment/apply-deployable-package-system.md">Apply a deployable package</a></span></span></td>
+<td><span data-ttu-id="5b21a-166">6</span><span class="sxs-lookup"><span data-stu-id="5b21a-166">6</span></span></td>
+<td><span data-ttu-id="5b21a-167">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="5b21a-167">System administrator</span></span></td>
+<td><span data-ttu-id="5b21a-168">تطبيق الحزمة القابلة للنشر التي تحتوي على مساحات العمل المخصصة التي يوفرها مورّد البرامج المستقل (ISV).</span><span class="sxs-lookup"><span data-stu-id="5b21a-168">Apply the deployable package that contains the custom workspaces that are provided by the independent software vendor (ISV).</span></span></td>
+<td><span data-ttu-id="5b21a-169"><a href="../deployment/apply-deployable-package-system.md">تطبيق حزمة قابلة للنشر</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-169"><a href="../deployment/apply-deployable-package-system.md">Apply a deployable package</a></span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="fcaea-170">7</span><span class="sxs-lookup"><span data-stu-id="fcaea-170">7</span></span></td>
-<td><span data-ttu-id="fcaea-171">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="fcaea-171">System administrator</span></span></td>
-<td><span data-ttu-id="fcaea-172">نشر مساحات العمل المحمولة المخصصة التي يوفرها مورّد البرامج المستقل (ISV).‬</span><span class="sxs-lookup"><span data-stu-id="fcaea-172">Publish the custom mobile workspaces that are provided by the ISV.</span></span></td>
-<td><span data-ttu-id="fcaea-173"><a href="publish-mobile-workspace.md">نشر مساحة عمل محمولة</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-173"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a></span></span></td>
+<td><span data-ttu-id="5b21a-170">7</span><span class="sxs-lookup"><span data-stu-id="5b21a-170">7</span></span></td>
+<td><span data-ttu-id="5b21a-171">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="5b21a-171">System administrator</span></span></td>
+<td><span data-ttu-id="5b21a-172">نشر مساحات العمل المحمولة المخصصة التي يوفرها مورّد البرامج المستقل (ISV).‬</span><span class="sxs-lookup"><span data-stu-id="5b21a-172">Publish the custom mobile workspaces that are provided by the ISV.</span></span></td>
+<td><span data-ttu-id="5b21a-173"><a href="publish-mobile-workspace.md">نشر مساحة عمل محمولة</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-173"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a></span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="fcaea-174">8</span><span class="sxs-lookup"><span data-stu-id="fcaea-174">8</span></span></td>
-<td><span data-ttu-id="fcaea-175">المستخدم</span><span class="sxs-lookup"><span data-stu-id="fcaea-175">User</span></span></td>
-<td><span data-ttu-id="fcaea-176">تنزيل وتثبيت تطبيق الأجهزة المحمولة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-176">Download and install the mobile app.</span></span></td>
-<td><span data-ttu-id="fcaea-177">
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">تطبيق Unified Operations لـ Android</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-177">
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Unified Operations app for Android</a></span></span><BR/><span data-ttu-id="fcaea-178">
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">تطبيق Unified Operations لـ iOS‎</a></span><span class="sxs-lookup"><span data-stu-id="fcaea-178">
+<td><span data-ttu-id="5b21a-174">8</span><span class="sxs-lookup"><span data-stu-id="5b21a-174">8</span></span></td>
+<td><span data-ttu-id="5b21a-175">المستخدم</span><span class="sxs-lookup"><span data-stu-id="5b21a-175">User</span></span></td>
+<td><span data-ttu-id="5b21a-176">تنزيل وتثبيت تطبيق الأجهزة المحمولة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-176">Download and install the mobile app.</span></span></td>
+<td><span data-ttu-id="5b21a-177">
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">تطبيق Unified Operations لـ Android</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-177">
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Unified Operations app for Android</a></span></span><BR/><span data-ttu-id="5b21a-178">
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">تطبيق Unified Operations لـ iOS‎</a></span><span class="sxs-lookup"><span data-stu-id="5b21a-178">
 <a href="https://go.microsoft.com/fwlink/?linkid=850663">Unified Operations app for iOS</a></span></span><BR/>
-<span data-ttu-id="fcaea-179">(Windows Phone غير معتمد)</span><span class="sxs-lookup"><span data-stu-id="fcaea-179">(Windows Phone unsupported)</span></span>
+<span data-ttu-id="5b21a-179">(Windows Phone غير معتمد)</span><span class="sxs-lookup"><span data-stu-id="5b21a-179">(Windows Phone unsupported)</span></span>
 </td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="fcaea-180">9</span><span class="sxs-lookup"><span data-stu-id="fcaea-180">9</span></span></td>
-<td><span data-ttu-id="fcaea-181">المستخدم</span><span class="sxs-lookup"><span data-stu-id="fcaea-181">User</span></span></td>
-<td><span data-ttu-id="fcaea-182">تسجيل الدخول واستخدام تطبيق الأجهزة المحمولة.</span><span class="sxs-lookup"><span data-stu-id="fcaea-182">Sign in, and use the mobile app.</span></span> <span data-ttu-id="fcaea-183">يتضمن التطبيق مساحات العمل المحمولة التي تم نشرها بواسطة مسؤول النظام.</span><span class="sxs-lookup"><span data-stu-id="fcaea-183">The app includes the mobile workspaces that have been published by the system administrator.</span></span></td>
-<td><span data-ttu-id="fcaea-184">لرؤية قائمة بمساحات العمل المحمولة التي توفرها Microsoft، راجع <a href="mobile-workspaces-released.md">مساحات العمل المحمولة التي تم إصدارها مؤخرًا</a>.</span><span class="sxs-lookup"><span data-stu-id="fcaea-184">To see a list of mobile workspaces that are provided by Microsoft, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span>
+<td><span data-ttu-id="5b21a-180">9</span><span class="sxs-lookup"><span data-stu-id="5b21a-180">9</span></span></td>
+<td><span data-ttu-id="5b21a-181">المستخدم</span><span class="sxs-lookup"><span data-stu-id="5b21a-181">User</span></span></td>
+<td><span data-ttu-id="5b21a-182">تسجيل الدخول واستخدام تطبيق الأجهزة المحمولة.</span><span class="sxs-lookup"><span data-stu-id="5b21a-182">Sign in, and use the mobile app.</span></span> <span data-ttu-id="5b21a-183">يتضمن التطبيق مساحات العمل المحمولة التي تم نشرها بواسطة مسؤول النظام.</span><span class="sxs-lookup"><span data-stu-id="5b21a-183">The app includes the mobile workspaces that have been published by the system administrator.</span></span></td>
+<td><span data-ttu-id="5b21a-184">لرؤية قائمة بمساحات العمل المحمولة التي توفرها Microsoft، راجع <a href="mobile-workspaces-released.md">مساحات العمل المحمولة التي تم إصدارها مؤخرًا</a>.</span><span class="sxs-lookup"><span data-stu-id="5b21a-184">To see a list of mobile workspaces that are provided by Microsoft, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span>
 </td>
 </tr>
 </tbody>
 </table>
-

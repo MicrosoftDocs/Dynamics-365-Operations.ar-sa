@@ -1,13 +1,13 @@
---- 
-title: "إنشاء وتصدير دفعات المورّد باستخدام تنسيق الدفع ISO20022"
-description: "يوضح هذا الإجراء كيفية إنشاء بنود الدفع في دفتر يومية دفع المورّد وإنشاء ملف دفع المورّد باستخدام مثال تحوي الائتمان ISO2022."
+---
+title: إنشاء وتصدير دفعات المورّد باستخدام تنسيق الدفع ISO20022
+description: يوضح هذا الإجراء كيفية إنشاء بنود الدفع في دفتر يومية دفع المورّد وإنشاء ملف دفع المورّد باستخدام مثال تحوي الائتمان ISO2022.
 author: mrolecki
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 01/17/2019
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,41 +16,37 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b589d64a4446420164175b41f435cf48daac01a9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 032f1f09fd017a2ae8cf5973d9f5c6ee99ca797f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340535"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="a657d-103">إنشاء وتصدير دفعات المورّد باستخدام تنسيق الدفع ISO20022</span><span class="sxs-lookup"><span data-stu-id="a657d-103">Create and export vendor payments using ISO20022 payment format</span></span>
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="e3f65-103">إنشاء وتصدير دفعات المورّد باستخدام تنسيق الدفع ISO20022</span><span class="sxs-lookup"><span data-stu-id="e3f65-103">Create and export vendor payments using ISO20022 payment format</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="a657d-104">يوضح هذا الإجراء كيفية إنشاء بنود الدفع في دفتر يومية دفع المورّد وإنشاء ملف دفع المورّد باستخدام مثال تحوي الائتمان ISO2022.</span><span class="sxs-lookup"><span data-stu-id="a657d-104">This procedure shows how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span> 
+<span data-ttu-id="e3f65-104">يوضح هذا الموضوع كيفية إنشاء بنود الدفع في دفتر يومية دفع المورّد وإنشاء ملف دفع المورّد باستخدام مثال تحويل الائتمان ISO2022.</span><span class="sxs-lookup"><span data-stu-id="e3f65-104">This topic explains how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span>
 
-<span data-ttu-id="a657d-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي DEMF.</span><span class="sxs-lookup"><span data-stu-id="a657d-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="e3f65-105">هذا هو الإجراء الخامس من ضمن الإجراءات الخمسة، هدفه توضيح عملية معالجة مدفوعات المورّد باستخدام تكوينات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="e3f65-105">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="e3f65-106">استخدم شركة بيانات العرض التوضيحي DEMF لإكمال هذا المثال.</span><span class="sxs-lookup"><span data-stu-id="e3f65-106">Use the DEMF demo data to complete this example.</span></span>
 
-<span data-ttu-id="a657d-106">هذا هو الإجراء الخامس من ضمن الإجراءات الخمسة، هدفه توضيح عملية معالجة مدفوعات المورّد باستخدام تكوينات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="a657d-106">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="a657d-107">يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.</span><span class="sxs-lookup"><span data-stu-id="a657d-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+## <a name="example"></a><span data-ttu-id="e3f65-107">مثال</span><span class="sxs-lookup"><span data-stu-id="e3f65-107">Example</span></span>
 
-
-## <a name="create-payment-lines"></a><span data-ttu-id="a657d-108">إنشاء بنود الدفع</span><span class="sxs-lookup"><span data-stu-id="a657d-108">Create payment lines</span></span>
-1. <span data-ttu-id="a657d-109">انتقل إلى الحسابات الدائنة > المدفوعات‬ > دفتر يومية المدفوعات‬‬.</span><span class="sxs-lookup"><span data-stu-id="a657d-109">Go to Accounts payable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="a657d-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a657d-110">Click New.</span></span>
-3. <span data-ttu-id="a657d-111">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a657d-111">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="a657d-112">في الحقل "الاسم"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a657d-112">In the Name field, enter or select a value.</span></span>
-5. <span data-ttu-id="a657d-113">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="a657d-113">Click Lines.</span></span>
-6. <span data-ttu-id="a657d-114">انقر فوق "مقترح الدفع".</span><span class="sxs-lookup"><span data-stu-id="a657d-114">Click Payment proposal.</span></span>
-7. <span data-ttu-id="a657d-115">انقر فوق "إنشاء مقترح دفع".</span><span class="sxs-lookup"><span data-stu-id="a657d-115">Click Create payment proposal.</span></span>
-8. <span data-ttu-id="a657d-116">وسّع المقطع "السجلات المطلوب تضمينها‬".</span><span class="sxs-lookup"><span data-stu-id="a657d-116">Expand the Records to include section.</span></span>
-9. <span data-ttu-id="a657d-117">انقر فوق "عامل التصفية".</span><span class="sxs-lookup"><span data-stu-id="a657d-117">Click Filter.</span></span>
-10. <span data-ttu-id="a657d-118">في القائمة، حدد الصف الخاص بجدول "المورّدون" وحقل "حساب المورّد".</span><span class="sxs-lookup"><span data-stu-id="a657d-118">In the list, select the row for Vendors table and Vendor account field.</span></span>
-11. <span data-ttu-id="a657d-119">في الحقل "المعايير‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a657d-119">In the Criteria field, enter or select a value.</span></span>
-    * <span data-ttu-id="a657d-120">يمكنك تطبيق أي معايير لتحديد حركات المورّد للدفع، لهذا لمثال استخدم DE-001 كحساب مورّد.</span><span class="sxs-lookup"><span data-stu-id="a657d-120">You can apply any criteria for selecting vendor transactions to pay, for this example use DE-001 as a vendor account.</span></span>  
-12. <span data-ttu-id="a657d-121">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="a657d-121">Click OK.</span></span>
-13. <span data-ttu-id="a657d-122">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="a657d-122">Click OK.</span></span>
-14. <span data-ttu-id="a657d-123">انقر فوق "إنشاء مدفوعات".</span><span class="sxs-lookup"><span data-stu-id="a657d-123">Click Create payments.</span></span>
-
-## <a name="generate-an-iso20022-payment-file"></a><span data-ttu-id="a657d-124">إنشاء ملف دفع ISO20022</span><span class="sxs-lookup"><span data-stu-id="a657d-124">Generate an ISO20022 payment file</span></span>
-
+1.  <span data-ttu-id="e3f65-108">انتقل إلى **الحسابات الدائنة > المدفوعات‬ > دفتر يومية المدفوعات‬**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-108">Go to **Accounts payable > Payments > Payment journal**.</span></span>
+2.  <span data-ttu-id="e3f65-109">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-109">Click **New**.</span></span>
+3.  <span data-ttu-id="e3f65-110">في الحقل **الاسم** أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e3f65-110">In the **Name** field, enter or select a value.</span></span>
+4.  <span data-ttu-id="e3f65-111">انقر فوق **البنود > مقترح الدفع > إنشاء مقترح الدفع**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-111">Click **Lines > Payment proposal > Create payment proposal**.</span></span>
+5.  <span data-ttu-id="e3f65-112">وسّع القسم **السجلات المطلوب تضمينها**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-112">Expand the **Records to include** section.</span></span>
+6.  <span data-ttu-id="e3f65-113">انقر فوق **تصفية**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-113">Click **Filter**.</span></span>
+7.  <span data-ttu-id="e3f65-114">في القائمة، حدد صف **جدول المورّدين** وحقل **حساب المورّد**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-114">In the list, select the row for **Vendors table** and **Vendor account field**.</span></span>
+8.  <span data-ttu-id="e3f65-115">في الحقل **المعايير‬**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e3f65-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="e3f65-116">يمكنك تطبيق أي معايير لتحديد حركات المورّد للدفع، لهذا لمثال استخدم DE-001 كحساب مورّد.</span><span class="sxs-lookup"><span data-stu-id="e3f65-116">You can apply any criteria for selecting vendor transactions to pay, for this example, use DE-001 as a vendor account.</span></span>
+12. <span data-ttu-id="e3f65-117">وانقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-117">Click **OK**.</span></span>
+13. <span data-ttu-id="e3f65-118">وانقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-118">Click **OK**.</span></span>
+14. <span data-ttu-id="e3f65-119">انقر فوق **إنشاء مدفوعات**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-119">Click **Create payments**.</span></span>
+15. <span data-ttu-id="e3f65-120">أنشئ ملف دفع ISO20022.</span><span class="sxs-lookup"><span data-stu-id="e3f65-120">Generate an ISO20022 payment file.</span></span>
+    1.  <span data-ttu-id="e3f65-121">انقر فوق **إنشاء مدفوعات**.</span><span class="sxs-lookup"><span data-stu-id="e3f65-121">Click **Generate payments**.</span></span>
+    2.  <span data-ttu-id="e3f65-122">في الحقل **أسلوب الدفع**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e3f65-122">In the **Method of payment** field, enter or select a value.</span></span>
+    3.  <span data-ttu-id="e3f65-123">في الحقل **اسم الملف**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e3f65-123">In the **File name** field, type a value.</span></span> <span data-ttu-id="e3f65-124">بالنسبة إلى هذا المثال، نظراً للدفع باليورو، سيكون الملف الذي تم إنشاؤه متوافقًا مع SEPA.</span><span class="sxs-lookup"><span data-stu-id="e3f65-124">For this example, because of the EUR payment, the generated file will be SEPA compliant.</span></span> <span data-ttu-id="e3f65-125">يمكن أيضًا استخدام تحويل الائتمان ISO20022 بالإضافة إلى تنسيقات دفع أخرى خاصة بالمورّد لإنشاء مدفوعات بعملات أخرى.</span><span class="sxs-lookup"><span data-stu-id="e3f65-125">ISO20022 credit transfer as well as other vendor payment formats can also be used for generating payments in other currencies.</span></span>
+    4.  <span data-ttu-id="e3f65-126">في الحقل **الحساب البنكي**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e3f65-126">In the **Bank account** field, enter or select a value.</span></span>
 

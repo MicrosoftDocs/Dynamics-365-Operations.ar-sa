@@ -1,0 +1,171 @@
+---
+title: الأسئلة المتداول حول تكامل Dynamics 365 for Talent إلى Dynamics 365 for Finance and Operations
+description: يوضح هذا الموضوع البيانات التي تتم مزامنتها في تكامل Talent وFinance and Operations.
+author: negudava
+manager: AnnBe
+ms.date: 01/09/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: negudava
+ms.search.validFrom: 2018-12-31
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: aea025bc4898d6399e82030cf1f52b21949e014f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303135"
+---
+# <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a><span data-ttu-id="a9f85-103">الأسئلة المتداول حول تكامل Dynamics 365 for Talent إلى Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="a9f85-103">Dynamics 365 for Talent to Dynamics 365 for Finance and Operations integration FAQ</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="a9f85-104">يجيب هذا الموضوع عن الأسئلة الشائعة حول البيانات التي تتم مزامنتها عندما يتكامل Dynamics 365 for Talent مع Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-104">This topic answers common questions associated about what data is synchronized when Dynamics 365 for Talent is integrated with Dynamics 365 for Finance and Operations.</span></span>
+
+## <a name="is-all-data-synchronized-or-just-some-data-entities"></a><span data-ttu-id="a9f85-105">هل تتم مزامنة جميع البيانات أو بعض كيانات البيانات فقط؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-105">Is all data synchronized or just some data entities?</span></span>
+
+<span data-ttu-id="a9f85-106">مع Core Human Resources (HR)، تتم مزامنة مجموعة فرعية من البيانات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-106">With Core Human Resources (HR), a subset of the data is synchronized.</span></span> <span data-ttu-id="a9f85-107">للحصول على قائمة بجميع الكيانات، راجع [التكامل من Dynamics 365 for Talent إلى Dynamics 365 for Finance and Operations](talent-financeandoperations-integration.md).</span><span class="sxs-lookup"><span data-stu-id="a9f85-107">For a list of all the entities, see [Integration from Dynamics 365 for Talent to Dynamics 365 for Finance and Operations](talent-financeandoperations-integration.md).</span></span>
+
+<span data-ttu-id="a9f85-108">بالنسبة إلى Attract وOnboard، تعتبر كافة البيانات أصلية في Common Data Service (CDS) للتطبيقات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-108">For Attract and Onboard, all data is native to Common Data Services (CDS) for Apps.</span></span>
+
+## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a><span data-ttu-id="a9f85-109">هل يمكنني إنشاء تعيين جديد من دون استخدام القوالب؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-109">Can I create a new mapping without using the templates?</span></span>
+
+<span data-ttu-id="a9f85-110">تعتبر القوالب نقطة بداية.</span><span class="sxs-lookup"><span data-stu-id="a9f85-110">Templates are the starting point.</span></span> <span data-ttu-id="a9f85-111">يمكنك إنشاء قالبك الخاص، ولكنك تحتاج دائمًا إلى قالب عند إنشاء مشروع تكامل.</span><span class="sxs-lookup"><span data-stu-id="a9f85-111">You can create your own template, but a template is always needed when creating an integration project.</span></span> <span data-ttu-id="a9f85-112">للحصول على مزيد من المعلومات حول موحد البيانات (DI) والقوالب والمشاريع، راجع [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).</span><span class="sxs-lookup"><span data-stu-id="a9f85-112">For more information about data integrator (DI), templates, and projects, see [Integrate data into Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).</span></span>
+
+## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a><span data-ttu-id="a9f85-113">هل يمكنني تعيين الأبعاد المالية للتحويل بين Talent وFinance and Operations؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-113">Can I map financial dimensions to transfer between Talent and Finance and Operations?</span></span>
+
+<span data-ttu-id="a9f85-114">الأبعاد المالية غير موجودة حاليًا في CDS للتطبيقات ونتيجة لذلك لا تشكل جزءًا من القالب الافتراضي.</span><span class="sxs-lookup"><span data-stu-id="a9f85-114">Financial dimensions aren’t currently in CDS for Apps and as a result aren’t part of the default template.</span></span> <span data-ttu-id="a9f85-115">تم التخطيط لهذا الكيان، ولكن لا يتوفر حاليًا أي مخطط زمني للإصدار.</span><span class="sxs-lookup"><span data-stu-id="a9f85-115">This entity is planned, but currently no release timeline is available.</span></span>
+
+<span data-ttu-id="a9f85-116">بالنسبة إلى البيانات الموجودة في Finance and Operations ولكن غير الموجودة في Talent، يمكن ربط النظامين معًا باستخدام **تكوين الارتباطات** في Talent.</span><span class="sxs-lookup"><span data-stu-id="a9f85-116">For data that resides in Finance and Operations but does not exist in Talent, link the two systems together by using **Configure Links** in Talent.</span></span> <span data-ttu-id="a9f85-117">للحصول على مزيد من المعلومات حول كيفية تكوين الارتباطات بين Talent وFinance and Operations، راجع [ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (31 أكتوبر 2018)](whats-new-talent-october-31.md).</span><span class="sxs-lookup"><span data-stu-id="a9f85-117">For more information about how to configure links between Talent and Finance and Operations, see [What's new or changed in Dynamics 365 for Talent Core HR (October 31, 2018)](whats-new-talent-october-31.md).</span></span>
+
+![](media/MapFinancialDimensions.png)
+
+## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a><span data-ttu-id="a9f85-118">عندما أستورد موظفين، ينتقل هؤلاء في بعض الأحيان إلى عاملين غير نشطين في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-118">Sometimes when I import employees, they go into inactive workers in Finance and Operations.</span></span> <span data-ttu-id="a9f85-119">ما السبب؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-119">Why?</span></span>
+
+<span data-ttu-id="a9f85-120">قد تتلقى رسالة الخطأ هذه إذا لم يكن لدى الموظفين أي سجل يتضمن تفاصيل التوظيف النشط في Talent.</span><span class="sxs-lookup"><span data-stu-id="a9f85-120">You may get this error if employees don’t have an active employment detail record in Talent.</span></span> <span data-ttu-id="a9f85-121">لحل هذه المشكلة، انتقل إلى **إدارة الموظفين \> الموظفون \> سجل التوظيف‬ \> مدير التاريخ**، وتأكد من وجود سجل يتضمن تفاصيل التوظيف النشط.</span><span class="sxs-lookup"><span data-stu-id="a9f85-121">To resolve this, go to **Personnel Management \> Employees \> Employment History \> Date Manager**, and verify that there is an active employment detail record.</span></span>
+
+## <a name="if-i-select-to-map-only-a-subset-of-fields-will-changes-made-to-non-mapped-fields-trigger-a-sync"></a><span data-ttu-id="a9f85-122">إذا اخترت تعيين مجموعة فرعية فقط من الحقول، فهل ستؤدي التغييرات التي تم إدخالها على حقول غير معينة إلى تشغيل عملية مزامنة؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-122">If I select to map only a subset of fields, will changes made to non-mapped fields trigger a sync?</span></span>
+
+<span data-ttu-id="a9f85-123">تتبع مزامنة البيانات جدول التنفيذ.</span><span class="sxs-lookup"><span data-stu-id="a9f85-123">Data sync follows the execution schedule.</span></span> <span data-ttu-id="a9f85-124">ستختار عملية التكامل سجلاً إذا تم تغيير أي حقل في السجل بصرف النظر عما إذا كان الحقل جزءًا من تعيين التكامل.</span><span class="sxs-lookup"><span data-stu-id="a9f85-124">The integration will pick up a record if any field in the record changes regardless if the field is part of integration mapping.</span></span>
+
+## <a name="how-can-i-send-only-active-worker-changes-and-not-the-terminated-records"></a><span data-ttu-id="a9f85-125">كيف يمكنني إرسال تغييرات العاملين النشطاء فقط وليس سجلات العاملين المنتهية خدماتهم؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-125">How can I send only active worker changes and not the terminated records?</span></span>
+
+<span data-ttu-id="a9f85-126">باستخدام "الاستعلام المتقدم"، يمكنك تصفية البيانات المصدر وإعادة تشكيلها قبل تمريرها إلى الوجهة.</span><span class="sxs-lookup"><span data-stu-id="a9f85-126">With the use of "Advanced query", you can filter and reshape source data before passing it into the destination.</span></span>
+
+![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+
+## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a><span data-ttu-id="a9f85-127">هل يمكنني تحديد الحقول التي سيتم إرسالها إلى Finance and Operations لكيان معين؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-127">Can I specify which fields to send to Finance and Operations for a specific entity?</span></span>
+
+<span data-ttu-id="a9f85-128">يمكنك إضافة حقول أو إزالتها من مهمة التكامل.</span><span class="sxs-lookup"><span data-stu-id="a9f85-128">Fields can be added or removed from the integration task.</span></span> <span data-ttu-id="a9f85-129">لن يتم ملء كافة حقول البيانات الموجودة على كيان CDS للتطبيقات (CDS 2.0) من Core HR.</span><span class="sxs-lookup"><span data-stu-id="a9f85-129">Not all data fields that exist on the CDS for Apps (CDS 2.0) entity will be populated from Core HR.</span></span>
+<span data-ttu-id="a9f85-130">يمكنك ملء بيانات إضافية عبر PowerApps.</span><span class="sxs-lookup"><span data-stu-id="a9f85-130">Additional data can be populated via PowerApps.</span></span>
+
+![](media/SpecifyFieldsIncludedInIntegration.png)
+
+## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a><span data-ttu-id="a9f85-131">بعد إعداد التكامل كوظيفة دفعية، فقد Talent الاتصال بالنظام الوجهة.</span><span class="sxs-lookup"><span data-stu-id="a9f85-131">I set up integration as a batch job, but Talent lost connection to the destination system.</span></span> <span data-ttu-id="a9f85-132">كيف يمكنني إرسال مجموعة التغييرات نفسها إلى النظام الوجهة؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-132">How can I send the same set of changes to the destination system?</span></span>
+
+<span data-ttu-id="a9f85-133">لا حاجة إلى أي إعداد خاص لمعالجة الاستثناء.</span><span class="sxs-lookup"><span data-stu-id="a9f85-133">No special setup is required for exception handling.</span></span> <span data-ttu-id="a9f85-134">سيقوم موحد البيانات بشكل تلقائي بالتقاط الأخطاء التي تحدث في المصدر والوجهة وسيبلغ عنها وسيسمح بإعادة المحاولة يدويًا.</span><span class="sxs-lookup"><span data-stu-id="a9f85-134">The Data Integrator will automatically catch and report errors which occur at the source and destination and will allow manual retries.</span></span> <span data-ttu-id="a9f85-135">ومع ذلك، فهو لا يسمح بتصحيح البيانات يدويًا.</span><span class="sxs-lookup"><span data-stu-id="a9f85-135">However, it doesn’t allow manual data correction.</span></span> <span data-ttu-id="a9f85-136">إن كان هناك حاجة إلى إجراء عمليات تحديث للبيانات، فيجب أن تحدث في المصدر أو الوجهة.</span><span class="sxs-lookup"><span data-stu-id="a9f85-136">If data updates are needed, that should happen either at the source or the destination.</span></span>
+
+## <a name="can-i-set-up-bi-directional-integration"></a><span data-ttu-id="a9f85-137">هل يمكنني إعداد تكامل ثنائي الاتجاه؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-137">Can I set up bi-directional integration?</span></span>
+
+<span data-ttu-id="a9f85-138">لا، التكامل أحادي الاتجاه في الوقت الحالي (Talent إلى Finance and Operations).</span><span class="sxs-lookup"><span data-stu-id="a9f85-138">No, integration is currently one-way (Talent to Finance and Operations).</span></span> <span data-ttu-id="a9f85-139">ومع ذلك، يوجد قالب افتراضي لإرسال البيانات من Talent إلى Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-139">However, there is a default template available to send data from Talent to Finance and Operations.</span></span>
+
+## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a><span data-ttu-id="a9f85-140">هل يمكنني السماح بحذف السجلات كجزء من عملية التكامل؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-140">Can I allow record deletion as part of my integration?</span></span>
+
+<span data-ttu-id="a9f85-141">لا، لن يلتقط موحد البيانات السجلات المحذوفة لنقل البيانات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-141">No, Data Integrator will not capture deleted records for data transfer.</span></span> <span data-ttu-id="a9f85-142">في الوقت الحالي، لم يتم تضمين سواء عمليات إنشاء وتحديث البيانات (UPSERT).</span><span class="sxs-lookup"><span data-stu-id="a9f85-142">Only data creation and updates (UPSERT) are currently included.</span></span>
+
+## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a><span data-ttu-id="a9f85-143">هل يمكن إعادة تشغيل التنفيذ الذي يتضمن أخطاء؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-143">Can I rerun the errored execution?</span></span> <span data-ttu-id="a9f85-144">إذا كان الأمر كذلك، فهل سيرسل ملفًا كاملاً أو التغييرات فقط؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-144">If so, will it send a full file or only the changes?</span></span>
+
+<span data-ttu-id="a9f85-145">عملية التشغيل الأولى لموحد البيانات هي دائمًا عملية تشغيل كاملة.</span><span class="sxs-lookup"><span data-stu-id="a9f85-145">The first run of Data Integrator is always a full run.</span></span> <span data-ttu-id="a9f85-146">وتستند عمليات التشغيل التالية إلى تعقب التغييرات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-146">Subsequent runs are based on change tracking.</span></span> <span data-ttu-id="a9f85-147">يستخرج تشغيل الخطأ، عند تنفيذه، السجلات الموجودة في نطاق التشغيل ويرسل أحدث التغييرات من CDS.</span><span class="sxs-lookup"><span data-stu-id="a9f85-147">When an error run is executed, it extracts the records in scope of the run and sends out the most recent changes from CDS.</span></span>
+
+## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a><span data-ttu-id="a9f85-148">عند حفظ المشروع، أتلقى رسالة الخطأ: "يتضمن المشروع أخطاء تعيين".</span><span class="sxs-lookup"><span data-stu-id="a9f85-148">When I save the project, I get the error: “Project has mapping errors."</span></span> <span data-ttu-id="a9f85-149">ماذا أفعل؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-149">What do I do?</span></span>
+
+<span data-ttu-id="a9f85-150">تحقق من إعداد مفاتيح التكامل، وأدخل أية تغييرات مطلوبة على الإعداد، ثم قم بتحديث الكيانات في المشروع.</span><span class="sxs-lookup"><span data-stu-id="a9f85-150">Check the setup of your integration keys, make any required changes to the setup, then refresh the entities in the project.</span></span>
+
+<span data-ttu-id="a9f85-151">عند استخدام القالب الافتراضي، سيتم استيراد مفاتيح التكامل بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="a9f85-151">When the default template is used, the integration keys will be automatically imported.</span></span> <span data-ttu-id="a9f85-152">قد تحدث هذه المشكلة عند إضافة مهام جديدة إلى القالب الموجود.</span><span class="sxs-lookup"><span data-stu-id="a9f85-152">This issue may occur when new tasks are added to the existing template.</span></span>
+
+## <a name="if-i-have-n-number-of-legal-entities-where-workers-have-employments-do-i-need-to-create-a-mapping-for-each-of-them"></a><span data-ttu-id="a9f85-153">إذا كان لديّ العدد N من الكيانات القانونية حتى توجد توظيفات للعاملين، هل أحتاج إلى إنشاء تعيين لكل واحد منهم؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-153">If I have N number of legal entities where workers have employments, do I need to create a mapping for each of them?</span></span>
+
+<span data-ttu-id="a9f85-154">نعم، لكل كيان قانوني في Finance and Operations، ستحتاج إلى مشروع تكامل منفصل في تكامل البيانات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-154">Yes, for each legal entity in Finance and Operations, you'll need a separate integration project in the data integration.</span></span>
+
+## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a><span data-ttu-id="a9f85-155">أحتاج إلى نقل البيانات التي لا تشكل جزءًا من القالب الافتراضي التي وفرته Microsoft.</span><span class="sxs-lookup"><span data-stu-id="a9f85-155">I need to transfer data that is not part of the default template provided by Microsoft.</span></span> <span data-ttu-id="a9f85-156">هل يمكنني القيام بذلك؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-156">Can I do this?</span></span>
+
+<span data-ttu-id="a9f85-157">نعم، يمكن إضافة حقول أو إزالتها من القالب الموجود.</span><span class="sxs-lookup"><span data-stu-id="a9f85-157">Yes, fields can be added to or removed from the existing template.</span></span> <span data-ttu-id="a9f85-158">ويمكن تعديل القالب لتضمين بيانات إضافية من كيانات أخرى في CDS للتطبيقات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-158">The template can be modified to include additional data from other CDS for Apps entities.</span></span> <span data-ttu-id="a9f85-159">يجب أن يكون الكيان في CDS للتطبيقات لكي يتم تضمينه في القالب.</span><span class="sxs-lookup"><span data-stu-id="a9f85-159">The entity must be in CDS for Apps for it to be included in the template.</span></span> 
+
+## <a name="i-just-created-new-finance-and-operations-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a><span data-ttu-id="a9f85-160">لقد انتهيت الآن من إنشاء بيئات Finance and Operations وTalent، وتلقيت رسالة الخطأ "قيمة البيانات انتهاك قيود التكامل."</span><span class="sxs-lookup"><span data-stu-id="a9f85-160">I just created new Finance and Operations and Talent environments, and I'm getting the error "The data value violates integrity constraints."</span></span> <span data-ttu-id="a9f85-161">ما السبب؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-161">Why?</span></span>
+
+<span data-ttu-id="a9f85-162">بإمكان أسباب هذا الخطأ أن تشتمل على:</span><span class="sxs-lookup"><span data-stu-id="a9f85-162">Reasons for this error can include:</span></span>
+
+- <span data-ttu-id="a9f85-163">أدى نقل البيانات إلى استخراج سجلات مكررة في المصدر (CDS).</span><span class="sxs-lookup"><span data-stu-id="a9f85-163">The data transfer resulted in duplicate records extraction at the source (CDS).</span></span>
+
+- <span data-ttu-id="a9f85-164">تتضمن عملية نقل البيانات قيمًا فارغة للحقول المطلوبة في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-164">The data transfer has null values for fields that are required in Finance and Operations.</span></span> <span data-ttu-id="a9f85-165">تأكد من أن البيانات موجودة في CDS وتستوفي شروط Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-165">Verify the data that is in CDS and meets the requirements of Finance and Operations.</span></span>
+
+## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a><span data-ttu-id="a9f85-166">إذا ظهرت أخطاء تتعلق بالتنفيذ ولم تتم مزامنة معرّف الموظف، كيف يمكنني العثور على محفوظات الوظيفة التي تتضمن سجل الموظف الفاشل؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-166">If there are execution errors and the Employee ID didn't sync, how do I find the history job which has the failed employee record?</span></span>
+
+<span data-ttu-id="a9f85-167">سينشئ موحد البيانات عدة مشاريع في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-167">Data Integrator will create multiple projects in Finance and Operations.</span></span> <span data-ttu-id="a9f85-168">وتكون العلاقة بين مهمة موحد البيانات ومشروع Finance and Operations علاقة واحد بواحد.</span><span class="sxs-lookup"><span data-stu-id="a9f85-168">The relationship between the Data Integrator task and the Finance and Operations project is one to one.</span></span>
+
+<span data-ttu-id="a9f85-169">تتبع الوقت اعتبارًا من سجل تنفيذ موحد البيانات وابحث عن مشروع الفهرس-1 في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-169">Trace the time from the Data Integrator execution history and look for the index -1 project in Finance and Operations.</span></span> <span data-ttu-id="a9f85-170">إذا كان رقم مهمة 9 في موحد البيانات"، فسيكون الفهرس 8 في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-170">If the task number is 9 in Data Integrator, the index in Finance and Operations is 8.</span></span>
+
+1. <span data-ttu-id="a9f85-171">التقط فهرس المهمة من موحد البيانات (إنه "9" في هذا المثال).</span><span class="sxs-lookup"><span data-stu-id="a9f85-171">Capture the task index from Data Integrator (in this example it is "9").</span></span>
+
+![التقاط فهرس المهمة من موحد البيانات](media/CaptureTaskIndex.png)
+
+2. <span data-ttu-id="a9f85-173">تعقب وقت تنفيذ المشروع.</span><span class="sxs-lookup"><span data-stu-id="a9f85-173">Track the execution time of the project.</span></span>
+
+![تعقب وقت تنفيذ المشروع](media/CaptureTimeOfExecution.png)
+
+3. <span data-ttu-id="a9f85-175">في Finance and Operations، حدد الفهرس - 1.</span><span class="sxs-lookup"><span data-stu-id="a9f85-175">In Finance and Operations, identify index - 1.</span></span> <span data-ttu-id="a9f85-176">في هذا المثال، يتوافق المشروع مع اللاحقة "8" ووقت تنفيذ مشروع الفهرس "0" مع وقت التنفيذ في الخطوة 2.</span><span class="sxs-lookup"><span data-stu-id="a9f85-176">In this example, the project with suffix "8" and execution time of index "0" project matches with the execution time in Step 2.</span></span>
+
+![تعريف الفهرس](media/IdentifyIndex.png)
+
+## <a name="after-integrating-talent-and-finance-and-operations-i-dont-see-my-talent-data-in-finance-and-operations-what-do-i-do"></a><span data-ttu-id="a9f85-178">بعد تمكين التكامل بين Talent وFinance and Operations، لا يمكنني رؤية بيانات Talent في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-178">After integrating Talent and Finance and Operations, I don’t see my Talent data in Finance and Operations.</span></span> <span data-ttu-id="a9f85-179">ماذا أفعل؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-179">What do I do?</span></span>
+
+<span data-ttu-id="a9f85-180">التكامل مع Finance and Operations عبارة عن عملية تتكون من خطوتين.</span><span class="sxs-lookup"><span data-stu-id="a9f85-180">The integration to Finance and Operations is a two-step process.</span></span> <span data-ttu-id="a9f85-181">أولاً، تحقق من تحديث بيانات Talent ومن توفرها في CDS.</span><span class="sxs-lookup"><span data-stu-id="a9f85-181">First, verify that the Talent data is updated and available in CDS.</span></span> <span data-ttu-id="a9f85-182">هذا الأمر عبارة عن مزامنة قريبة من الوقت الحقيقي ويمكن التحقق منها في PowerApps عن طريق مراجعة البيانات في كيانات البيانات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-182">This is a near real-time sync and can be verified in PowerApps by looking at the data within the data entities.</span></span>
+
+![البيانات الموجودة في CDS](media/DataInCDS.png)
+
+<span data-ttu-id="a9f85-184">إذا لم تظهر البيانات كما هو متوقع في CDS، فتأكد من دعم الكيان في التكامل.</span><span class="sxs-lookup"><span data-stu-id="a9f85-184">If the data is not appearing as expected in CDS, verify that the entity is supported in the integration.</span></span> <span data-ttu-id="a9f85-185">لتضمين بيانات إضافية في CDS، ستتم مطالبة بإجراء تغيير من جانب Microsoft.</span><span class="sxs-lookup"><span data-stu-id="a9f85-185">To include additional data in CDS, a change will be required on the Microsoft side.</span></span>
+
+<span data-ttu-id="a9f85-186">إذا كان الكيان مدعومًا والبيانات متوفرة في CDS، فتأكد من صحة التعيين في موحد البيانات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-186">If the entity is supported and the data is available in CDS, verify the mapping is correct in Data Integrator.</span></span> <span data-ttu-id="a9f85-187">إذا كان تعيين موحد البيانات مقبولاً، فتحقق عندئذِ من نجاح تشغيل مهام إدارة البيانات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-187">If the integrator mapping looks okay, then verify the data management jobs have successfully run.</span></span> <span data-ttu-id="a9f85-188">قد تحدث بعض الأخطاء أثناء تنفيذ الوظائف الدفعية.</span><span class="sxs-lookup"><span data-stu-id="a9f85-188">Errors may occur during the execution of the batch jobs.</span></span> <span data-ttu-id="a9f85-189">لمزيد من المعلومات حول إدارة البيانات، راجع [إدارة البيانات](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).</span><span class="sxs-lookup"><span data-stu-id="a9f85-189">For more information about Data Management, see [Data management](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).</span></span>
+
+## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a><span data-ttu-id="a9f85-190">عناوين الموظفين غير صحيحة بعد استيرادها إلى Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-190">The addresses for my employees are incorrect after I import them into Finance and Operations.</span></span> <span data-ttu-id="a9f85-191">ماذا أفعل؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-191">What should I do?</span></span>
+
+<span data-ttu-id="a9f85-192">يستخدم التسلسل الرقمي في **معرّف الموقع** النمط نفسه في كل من Talent وFinance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-192">The number sequence for **Location ID** uses the same pattern in both Talent and Finance and Operations.</span></span> <span data-ttu-id="a9f85-193">يجب أن يكون التسلسل الرقمي فريدًا على الجانبين لتفادي حدوث تضارب في العناوين عند تنفيذ تكامل البيانات من CDS إلى Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-193">The number sequence needs to be unique on both sides so there are no address collisions when integrating data from CDS to Finance and Operations.</span></span>
+
+<span data-ttu-id="a9f85-194">أثناء تنفيذ Talent، تأكد من أن التسلسلات الرقمية ليست نفسها في Talent قدرات وFinance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-194">During implementation of Talent, verify that the number sequences are not the same in Talent and Finance and Operations.</span></span> <span data-ttu-id="a9f85-195">تأكد من أن كافة التسلسلات الرقمية ليست مماثلة حيث قد يتم الاحتفاظ بالبيانات في كلا النظامين.</span><span class="sxs-lookup"><span data-stu-id="a9f85-195">Validate that all number sequences are not identical where data may be maintained in both systems.</span></span>
+
+## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a><span data-ttu-id="a9f85-196">عند إنشاء مجموعة الاتصالات، لا يمكنني رؤية الاتصال في القائمة المنسدلة "اتصال".</span><span class="sxs-lookup"><span data-stu-id="a9f85-196">When creating my connection set, I am unable to see the connection in the Connection drop-down list.</span></span> <span data-ttu-id="a9f85-197">ماذا أفعل؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-197">What do I do?</span></span>
+
+<span data-ttu-id="a9f85-198">عند إنشاء اتصالاتك، تأكد من اختيار Dynamics 365 for Finance and Operations (حاليًا في المعاينة) وCommon Data Service.</span><span class="sxs-lookup"><span data-stu-id="a9f85-198">Make sure when creating your connections, you choose Dynamics 365 for Finance and Operations (currently in preview) and Common Data Service.</span></span>
+
+## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a><span data-ttu-id="a9f85-199">عند مزامنة عمليات التوظيف، أتلقى رسائل الخطأ "CompanyInfo_FK غير موجود" أو "القيمة '12/31/2154 11:59:59 ص" في الحقل "تاريخ انتهاء التوظيف" غير موجودة في الجدول ذي الصلة "التوظيف"." ماذا أفعل؟‬</span><span class="sxs-lookup"><span data-stu-id="a9f85-199">When syncing employments, I get the errors “CompanyInfo_FK doesn’t exist" or “The value '12/31/2154 11:59:59 pm' in field 'Employment end date' is not found in the related table 'Employment'.” What should I do?</span></span>
+
+<span data-ttu-id="a9f85-200">تأكد من أنك تقوم بالتعيين إلى الكيانات القانونية الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="a9f85-200">Ensure that you are mapping to the correct legal entities.</span></span> <span data-ttu-id="a9f85-201">مزامنة الكيان القانوني ليست جزءًا من القالب الافتراضي، وبالتالي من المتوقع أن يكون كل كيان قانوني موجود Talent وCDS موجود أيضًا في Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a9f85-201">Legal entity syncing is not part of the default template, so it is expected that each legal entity that is present in Talent and CDS is also present in Finance and Operations.</span></span>
+<span data-ttu-id="a9f85-202">تأكد أيضًا من أنك تحدد الكيانات القانونية الصحيحة لمجموعة الاتصالات المرتبطة.</span><span class="sxs-lookup"><span data-stu-id="a9f85-202">Also, make sure that you are selecting the correct legal entities for the associated Connection Set.</span></span>
+
+## <a name="after-setting-up-my-project-the-field-mapping-for-finance-and-operations-appears-to-be-empty-what-should-i-do"></a><span data-ttu-id="a9f85-203">بعد إعداد مشروعي، يبدو تعيين الحقول في Finance and Operations فارغًا.</span><span class="sxs-lookup"><span data-stu-id="a9f85-203">After setting up my project, the field mapping for Finance and Operations appears to be empty.</span></span> <span data-ttu-id="a9f85-204">ماذا أفعل؟</span><span class="sxs-lookup"><span data-stu-id="a9f85-204">What should I do?</span></span>
+
+<span data-ttu-id="a9f85-205">يمكنك تحديث كيانات البيانات في Finance and Operations بالانتقال إلى **إدارة البيانات \> محددات إطار العمل‬ \> إعدادات الكيان‬ \> تحديث قائمة الكيانات.**</span><span class="sxs-lookup"><span data-stu-id="a9f85-205">Refresh the data entities in Finance and Operations by going to **Data management \> Framework Parameters \> Entity settings \> Refresh entity list.**</span></span> <span data-ttu-id="a9f85-206">قد يستغرق استكمال هذا الإجراء دقائق قليلة تتمكن بعدها من رؤية هذه التعيينات.</span><span class="sxs-lookup"><span data-stu-id="a9f85-206">This should take a couple of minutes to complete, then you should see those mappings.</span></span> <span data-ttu-id="a9f85-207">تحدث هذه المشكلة عند إنشاء مشاريع جديدة.</span><span class="sxs-lookup"><span data-stu-id="a9f85-207">This issue occurs when new projects are created.</span></span>
+
+![تعيين حقول مفقود](media/MissingFieldMapping.png)
+
+## <a name="additional-resources"></a><span data-ttu-id="a9f85-209">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="a9f85-209">Additional resources</span></span>
+
+- <span data-ttu-id="a9f85-210">موحد البيانات (DI):</span><span class="sxs-lookup"><span data-stu-id="a9f85-210">Data Integrator (DI):</span></span> 
+
+  - [<span data-ttu-id="a9f85-211">دمج البيانات في Common Data Service للتطبيقات</span><span class="sxs-lookup"><span data-stu-id="a9f85-211">Integrate data into Common Data Service for Apps</span></span>](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+
+  - [<span data-ttu-id="a9f85-212">إدارة أخطاء موحد البيانات واستكشاف الأخطاء وإصلاحها</span><span class="sxs-lookup"><span data-stu-id="a9f85-212">Data Integrator error management and troubleshooting</span></span>](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+
+  - [<span data-ttu-id="a9f85-213">الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في PowerApps وMicrosoft Flow وCommon Data Service للتطبيقات</span><span class="sxs-lookup"><span data-stu-id="a9f85-213">Responding to DSR requests for system-generated logs in PowerApps, Microsoft Flow, and Common Data Service for Apps</span></span>](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+
+- <span data-ttu-id="a9f85-214">إدارة البيانات:</span><span class="sxs-lookup"><span data-stu-id="a9f85-214">Data Management:</span></span>
+
+  - [<span data-ttu-id="a9f85-215">إدارة البيانات</span><span class="sxs-lookup"><span data-stu-id="a9f85-215">Data management</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
