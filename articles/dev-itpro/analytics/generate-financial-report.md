@@ -1,13 +1,13 @@
 ---
-title: "إنشاء التقارير المالية"
-description: "يقدم هذا الموضوع معلومات عامة حول إنشاء تقرير مالي."
+title: إنشاء التقارير المالية
+description: يقدم هذا الموضوع معلومات عامة حول إنشاء تقرير مالي.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340880"
 ---
-
 # <a name="generate-financial-reports"></a>إنشاء التقارير المالية
 
 [!include [banner](../includes/banner.md)]
@@ -115,7 +114,7 @@ ms.lasthandoff: 09/27/2018
 > [!TIP]
 > لأغراض التحقق من الصحة، يجب تشغيل هذه العملية قبل إنشاء التقارير الشهرية عندما تقوم بإنشاء كتل إنشاء جديدة.
 
-التقارير التي تحتوي على نطاقات من القيم أقل عرضة لفقدان الحسابات. وعند الإمكان، استخدم نطاقات في كتل الإنشاء لتضمين حسابات جديدة عند إنشائها. وإذا تم تعيين أي تعريف تقرير إلى شركة @ANY، فيمكنك تسجيل الدخول إلى شركة معينة وتشغيل تحليل حساب مفقود لتلك الشركة.
+التقارير التي تحتوي على نطاقات من القيم أقل عرضة لفقدان الحسابات. وعند الإمكان، استخدم نطاقات في كتل الإنشاء لتضمين حسابات جديدة عند إنشائها. إذا تم تعيين تعريف أي تقرير إلى @ANY شركة، يمكنك تسجيل الدخول إلى شركة معينة وإجراء تحليل حسابات مفقودة لهذه الشركة.
 
 > [!NOTE]
 > إذا تمت إضافة شركة جديدة، فيجب إضافة الشركة الجديدة إلى أشجار التقارير في أي تقارير موجودة، وإلا فلن يتم تضمين الشركة في تحليل الحسابات المفقودة.
@@ -158,4 +157,3 @@ ms.lasthandoff: 09/27/2018
 [التقارير المالية](financial-reporting-intro.md)
 
 [واجهة مصمم التقارير](report-designer-interface.md)
-

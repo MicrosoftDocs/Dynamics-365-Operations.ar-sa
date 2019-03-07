@@ -1,13 +1,13 @@
---- 
-title: "إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات"
-description: "يتم حساب ضريبة المبيعات وترحيلها إلى الحسابات الرئيسية التي تم تحديدها في مجموعات ترحيل دفتر الأستاذ."
+---
+title: إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات
+description: يتم حساب ضريبة المبيعات وترحيلها إلى الحسابات الرئيسية التي تم تحديدها في مجموعات ترحيل دفتر الأستاذ.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308335"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
 11. في الحقل "الخصم النقدي للعميل‬‬"، حدد الحساب الرئيسي لترحيل الخصم النقدي لأكواد ضريبة المبيعات المرتبطة بمجموعة ترحيل دفتر الأستاذ هذا.
     * هذا الأمر اختياري وإذا لم يتم إدخال أي حساب، فسيتم استخدام الحساب الرئيسي على أكواد الخصم النقدي. قد يكون من المفيد استخدام حسابات مختلفة لكل مجموعة ترحيل دفتر الأستاذ‬ باستخدام الخيار "قلب ضريبة المبيعات عند الخصم النقدي‬" على مجموعات ضرائب المبيعات.  
 12. انقر فوق "حفظ".
-
 

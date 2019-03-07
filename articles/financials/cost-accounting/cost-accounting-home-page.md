@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية لمحاسبة التكاليف‬‏‫"
-description: "يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة لمحاسبة التكاليف‬‏‫."
+title: الصفحة الرئيسية لمحاسبة التكاليف‬‏‫
+description: يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة لمحاسبة التكاليف‬‏‫.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 707cbb8f4a4a71d147e1aa3c048fb1eb3872f8d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 8f4a371664ceb7df9ac28cececc456bc73d655cb
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346653"
 ---
-
 # <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ ms.lasthandoff: 05/23/2018
 
 |      |   |
 |------|---|
-|  [تكوين الكيانات الأساسية (التعليم الإلكتروني)](https://mbspartner.microsoft.com/Home) (يتطلب حساب CustomerSource)  |[إنشاء أبعاد](cost-elements.md)  |
+|  [تكوين الكيانات الأساسية (تعليم إلكتروني‬)](https://mbspartner.microsoft.com/Home) (يتطلب حساب CustomerSource)  |[إنشاء أبعاد](cost-elements.md)  |
 |  [إنشاء التدرج الهرمي للأبعاد](dimension-hierarchy.md)  |[إنشاء إعداد أساسي](./tasks/define-cost-control-units.md)| 
 | [تحديد أساس توزيع](allocation-bases.md)|[تحديد السياسات](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [مصدر البيانات وموفر البيانات](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [مصدر البيانات وموفر البيانات](./tasks/process-trace-source-data.md)     | 
@@ -52,6 +51,5 @@ ms.lasthandoff: 05/23/2018
 |------------------------|--------------------|-----------------------------|
 | [بدء استخدام محاسبة التكاليف](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [مساحة عمل متنقلة لمحاسبة التكاليف](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [استخدم Excel لتحليل محاسبة التكاليف](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 |  |  |                             |
-
 
 

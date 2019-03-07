@@ -1,13 +1,13 @@
---- 
-title: "حساب إهلاك الأصول الثابتة عبر الكيانات القانونية"
-description: "يمكن تشغيل إهلاك الأصول الثابتة عبر الكيانات القانونية في خطوة واحدة."
+---
+title: حساب إهلاك الأصول الثابتة عبر الكيانات القانونية
+description: يمكن تشغيل إهلاك الأصول الثابتة عبر الكيانات القانونية في خطوة واحدة.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetParameters, AssetProposalDepreciation, DefaultDashboard, LedgerJournalTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b2575354af322827972ffa650e9c732170c5a6eb
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316983"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>حساب إهلاك الأصول الثابتة عبر الكيانات القانونية
 
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/14/2018
     * يتم تمكين خيار معالجة الدُفعة بشكل افتراضي. عند تمكين هذا الخيار، سيتم تشغيل إنشاء دفتر يومية الإهلاك وترحيله في الخلفية.  
 5. انقر فوق "إنشاء دفتر اليومية".
 6. انتقل إلى الأصول الثابتة > إدخالات دفتر اليومية‬ > دفتر يومية الأصول الثابتة‬.
-
 

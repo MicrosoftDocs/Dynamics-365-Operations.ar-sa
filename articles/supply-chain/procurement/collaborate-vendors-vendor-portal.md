@@ -1,13 +1,13 @@
 ---
-title: "التعاون مع المورّدين باستخدام مدخل المورِّد‬"
-description: "يشرح هذا الموضوع كيف يمكن لوكلاء الشراء استخدام مدخل المورّد للتعاون مع المورّدين الخارجيين أثناء عملية تأكيد أمر الشراء. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016."
+title: التعاون مع المورّدين باستخدام مدخل المورِّد‬
+description: يشرح هذا الموضوع كيف يمكن لوكلاء الشراء استخدام مدخل المورّد للتعاون مع المورّدين الخارجيين أثناء عملية تأكيد أمر الشراء. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339868"
 ---
-
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>التعاون مع المورّدين باستخدام مدخل المورِّد‬
 
 [!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيف يمكن لوكلاء الشراء استخدام مدخل المورّد للتعاون مع المورّدين الخارجيين أثناء عملية تأكيد أمر الشراء. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016.
 
-تنطبق المعلومات الواردة في هذا الموضوع فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016. ‏‫تم استبدال وظيفة مدخل المورد بوظيفة تعاون المورد الموسعة في Dynamics 365 for Operations، الإصدار 1611. لمزيد من المعلومات حول وظيفة تعاون المورد، راجع [استخدام تعاون المورد للعمل مع موردين خارجيين‬‏‫](vendor-collaboration-work-external-vendors.md).  
+تنطبق المعلومات الواردة في هذا الموضوع فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016. ‏‫تم استبدال وظيفة مدخل المورّد بوظيفة تعاون المورّد الموسعة في الإصدار 1611 من Dynamics 365 for Operations. لمزيد من المعلومات حول وظيفة تعاون المورد، راجع [استخدام تعاون المورد للعمل مع موردين خارجيين‬‏‫](vendor-collaboration-work-external-vendors.md).  
 
 يستهدف مدخل المورّد المورّدين الذين ليس لديهم تكامل التبادل الإلكتروني للبيانات (EDI) مع Microsoft Dynamics AX لتبادل معلومات أوامر الشراء. ويسمح المدخل لوكلاء الشراء بإرسال أمر شراء إلى المورّد، ثم تلقي استجابة "مؤكد" أو "مرفوض" مباشرةً في Dynamics AX.  
 
@@ -102,7 +101,6 @@ ms.lasthandoff: 05/08/2018
 [تكوين الأمان لمستخدمي تعاون المورِّد‬](configure-security-vendor-portal-users.md)
 
 [مساحة عمل فوترة تعاون المورد](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
-
 
 
 

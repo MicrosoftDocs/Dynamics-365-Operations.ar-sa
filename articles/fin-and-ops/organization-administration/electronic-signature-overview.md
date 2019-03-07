@@ -1,13 +1,13 @@
 ---
-title: "تواقيع إلكترونية"
-description: "توفر هذه المقالة نظرة عامة على التوقيعات الإلكترونية وتصف كيفية استخدامها في Microsoft Dynamics 365 for Finance and Operations."
+title: تواقيع إلكترونية
+description: توفر هذه المقالة نظرة عامة على التواقيع الإلكترونية وتصف كيفية استخدامها في Microsoft Dynamics 365 for Finance and Operations.
 author: maertenm
 manager: AnnBe
 ms.date: 08/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325654"
 ---
-
 # <a name="electronic-signatures"></a>تواقيع إلكترونية
 
 [!include [banner](../includes/banner.md)]
 
-توفر هذه المقالة نظرة عامة على التوقيعات الإلكترونية وتصف كيفية استخدامها في Microsoft Dynamics 365 for Finance and Operations.
+توفر هذه المقالة نظرة عامة على التواقيع الإلكترونية وتصف كيفية استخدامها في Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="what-is-an-electronic-signature"></a>ما المقصود بالتوقيع الإلكتروني؟
 
@@ -39,9 +38,9 @@ ms.lasthandoff: 12/18/2018
 يعد التوقيع الإلكتروني بمثابة شرط للامتثال للقوانين للعديد من الصناعات المنظمة، مثل المستحضرات الدوائية والأغذية والمشروبات والفضاء والدفاع. كما أنه مطلوب للالتزام بالقوانين الواردة بالجزء 11 من الباب 21 في مدونة القوانين الفيدرالية الصادرة عن إدارة الأغذية والأدوية (FDA) في الولايات المتحدة الأمريكية.
 
 > [!NOTE]
-> لا يُعد التوقيع إلكتروني بحد ذاته مماثلاً للتوقيع الرقمي. فالتوقيع الإلكتروني مجرد بديل عن التوقيع بخط اليد، حيث يوفر التوقيع الرقمي تدابير أمنية إضافية. ويمكن أن يساعد التوقيع الرقمي في تحديد ما إذا كان مستخدم أو عملية أخرى قد عبثت بالبيانات. كما يمكن التحقق من التوقع الرقمي، ولا يمكن دحض هذا التحقق من قِبل مالك الشهادة التي تم استخدامها للتوقيع على البيانات. كما هو موضح أدناه، تشتمل التوقيعات الإلكترونية في Microsoft Dynamics 365 for Finance and Operations على وظائف التوقيع الرقمي المضمنة.
+> لا يُعد التوقيع إلكتروني بحد ذاته مماثلاً للتوقيع الرقمي. فالتوقيع الإلكتروني مجرد بديل عن التوقيع بخط اليد، حيث يوفر التوقيع الرقمي تدابير أمنية إضافية. ويمكن أن يساعد التوقيع الرقمي في تحديد ما إذا كان مستخدم أو عملية أخرى قد عبثت بالبيانات. كما يمكن التحقق من التوقع الرقمي، ولا يمكن دحض هذا التحقق من قِبل مالك الشهادة التي تم استخدامها للتوقيع على البيانات. كما هو موضح أدناه، تشتمل التواقيع الإلكترونية في Microsoft Dynamics 365 for Finance and Operations على وظائف التوقيع الرقمي المضمنة.
 
-## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>التوقيعات الإلكترونية في Dynamics 365 for Finance and Operations
+## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>التواقيع الإلكترونية في Dynamics 365 for Finance and Operations
 
 في Finance and Operations، يمكنك استخدام التوقيعات الإلكترونية لعمليات الأعمال المهمة. لدى بعض العمليات قدرات توقيع إلكتروني مضمنة. كما يمكنك إنشاء متطلبات التوقيع المخصص لأي جدول وحقل قاعدة بيانات.
 
@@ -111,4 +110,3 @@ ms.lasthandoff: 12/18/2018
 1. في الصفحة **خيارات**، على علامة تبويب **الحسابات**، انقر فوق **تعيين معتمد**.
 2. في حقل **معرف المستخدم المعتمد‬**، حدد معرف المستخدم الذي يجب أن يوقّع على تغييرات مستخدم آخر.
 3. في الحقل **التوقيع لمعرف المستخدم**، حدد معرف المستخدم الذي يجب التوقيع على التغييرات التي قام بها.
-

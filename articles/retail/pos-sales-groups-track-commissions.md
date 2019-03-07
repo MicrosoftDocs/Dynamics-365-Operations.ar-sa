@@ -1,13 +1,13 @@
 ---
-title: "تعقب العمولات في نقطة البيع (POS) باستخدام مجموعات المبيعات"
-description: "وتعد ممارسة شائعة في البيع بالتجزئة لتعقب المبيعات بواسطة الموظفين الذين قاموا بأداء العمل من العميل- تقديم المساعدة، والبيع الإضافي والبيع التكميلي ومعالجة الحركة."
+title: تعقب العمولات في نقطة البيع (POS) باستخدام مجموعات المبيعات
+description: وتعد ممارسة شائعة في البيع بالتجزئة لتعقب المبيعات بواسطة الموظفين الذين قاموا بأداء العمل من العميل- تقديم المساعدة، والبيع الإضافي والبيع التكميلي ومعالجة الحركة.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325102"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>تعقب العمولات في نقطة البيع (POS) باستخدام مجموعات المبيعات
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="calculating-commissions"></a>حساب العمولات
 
 يتم حساب العمولة للعمال في مجموعات مبيعات محددة في وقت ترحيل كشف الحساب أو ترحيل أمر التوريد. يُحدد مبلغ العمولة استنادًا إلى حصة عمولة العامل، على النحو المحدد في مجموعة المبيعات وإعدادات حساب العمولة المقترنة للعميل و/أو المنتجات على الحركة.
-

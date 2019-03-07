@@ -1,31 +1,30 @@
 ---
-title: "أكواد التخلص وأكواد سبب الإرجاع"
-description: "قم بإنشاء أكواد التخلص وأكواد سبب الإرجاع واستخدمها لدعم عملية إرجاع المنتجات."
+title: أكواد التخلص وأكواد سبب الإرجاع
+description: قم بإنشاء أكواد التخلص وأكواد سبب الإرجاع واستخدمها لدعم عملية إرجاع المنتجات.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e37bd328ebceacc8acf134c5fbb20e6d6a6428d5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 775fb68c2fe83bd4a4f410c6fec776c23dd84ec6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330277"
 ---
-
 # <a name="disposition-codes-and-return-reason-codes"></a>أكواد التخلص وأكواد سبب الإرجاع 
 
 [!include [banner](../includes/banner.md)]
@@ -53,6 +52,5 @@ ms.lasthandoff: 05/08/2018
 
 
   
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "تكامل الأصول الثابتة"
-description: "يمكن تكامل الأصول الثابتة مع دفتر الأستاذ العام وإدارة المخزون وكذلك الحسابات المدينة والدائنة. كما يمكن إعداد أصول ثابتة بحيث تتكامل مع أوامر الشراء."
+title: تكامل الأصول الثابتة
+description: يمكن تكامل الأصول الثابتة مع دفتر الأستاذ العام وإدارة المخزون وكذلك الحسابات المدينة والدائنة. كما يمكن إعداد أصول ثابتة بحيث تتكامل مع أوامر الشراء.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a598a562b35a8bb1e0ede6bb8f3dc0515c162a06
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336970"
 ---
-
 # <a name="fixed-assets-integration"></a>تكامل الأصول الثابتة
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ ms.lasthandoff: 11/03/2017
 يمكنك أيضًا تعيين الأصل الثابت الذي تقوم بإنشائه أو تصنيعه كجزء من مشروع تقديري. وفي نهاية المشروع التقديري، يمكنك ترحيل حركة امتلاك الأصل تلقائيًا.
 
 لمزيد من المعلومات، راجع [الحصول على الأصول عن طريق التدبير‬‏‫](acquire-assets-procurement.md)
-
 
 
 

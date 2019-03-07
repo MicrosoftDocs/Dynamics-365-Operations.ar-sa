@@ -1,13 +1,13 @@
 ---
-title: "بدء استخدام Talent"
-description: "يوفر هذا الموضوع معلومات حول كيفية تهيئة واجهة المستخدم حسب التفضيلات الخاصة بك، بالإضافة إلى الاتصال بموارد التعليمات المتوفرة في المنتج، وعلى الموقع docs.microsoft.com."
+title: بدء استخدام Talent
+description: يوفر هذا الموضوع معلومات حول كيفية تهيئة واجهة المستخدم حسب التفضيلات الخاصة بك، بالإضافة إلى الاتصال بموارد التعليمات المتوفرة في المنتج، وعلى الموقع docs.microsoft.com.
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303173"
 ---
 # <a name="get-started-with-talent"></a>بدء استخدام Talent
 
 [!include [banner](includes/banner.md)]
 
-في Dynamics 365 for Talent، من السهل تعديل واجهة المستخدم وتعيين الخيارات التي تجعل البرنامج أكثر سهولة في تلبية احتياجاتك. يتضمن هذا الموضوع ارتباطات موصلة للمواضيع التي توفر معلومات حول كيفية تهيئة واجهة المستخدم حسب التفضيلات الخاصة بك. يتضمن الموضوع أيضًا ارتباطات موصلة للمعلومات التي يمكن أن تساعدك في البحث عن المعلومات في النظام بكفاءة ودقة. 
+في Microsoft Dynamics 365 for Talent من السهل تعديل واجهة المستخدم وتعيين الخيارات التي تجعل البرنامج أكثر سهولة في تلبية احتياجاتك. يتضمن هذا الموضوع ارتباطات موصلة للمواضيع التي توفر معلومات حول كيفية تهيئة واجهة المستخدم حسب التفضيلات الخاصة بك. يتضمن الموضوع أيضًا ارتباطات موصلة للمعلومات التي يمكن أن تساعدك في البحث عن المعلومات في النظام بكفاءة ودقة. 
 
 > [!NOTE] 
-> ترتبط المنتجات التالية بشكل وثيق: Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، في الموضوعات المرتبطة بشكل أساسي بتطبيق Retail، سيكون اسم المنتج Dynamics 365 for Retail؛ وفي الموضوعات المرتبطة بشكل أساسي بتطبيق Talent، سيكون اسم المنتج Dynamics 365 for Talent؛ وفي المواضيع المرتبطة بالمنتج الأساسي، سيكون اسم المنتج Dynamics 365 for Finance and Operations. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
+> ترتبط المنتجات التالية ببعضها بشكل وثيق: Dynamics 365 for Finance and Operations وDynamics 365 for Retail وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، سيكون اسم المنتج Dynamics 365 for Retail في المواضيع المرتبطة بشكل أساسي بتطبيق Retail؛ وسيكون اسم المنتج Dynamics 365 for Talent في المواضيع المرتبطة بشكل أساسي بـ Talent؛ وسيكون اسم المنتج Dynamics 365 for Finance and Operations في المواضيع المرتبطة بشكل أساسي بالمنتج الرئيسي. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
 
 ## <a name="personalizing-talent"></a>إضفاء طابع شخصي على المواهب 
-توضح المواضيع التالية كيفية إعداد العديد من الميزات في Dynamics 365 for Talent التي تسهل لك إتمام عملك في الوقت مناسب. 
+توضح المواضيع التالية كيفية إعداد العديد من الميزات في Dynamics 365 for Talent التي تسهل عليك إتمام عملك في الوقت مناسب. 
 
 -   [إضفاء الطابع الشخصي على تجربة المستخدم](../fin-and-ops/get-started/personalize-user-experience.md) -يشرح هذا الموضوع الطرق المختلفة التي يمكن من خلالها إضفاء الطابع الشخصي على الموهبة وتهيئة أجزاء من المنتج لتلائم مجموعة التفضيلات الخاصة بك بشكل أفضل.
 
@@ -58,12 +58,11 @@ ms.lasthandoff: 08/08/2018
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 ### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
-انتقل إلى [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
+انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
 
 ### <a name="blogs"></a>المدونات
-يمكنك العثور على الآراء واﻷخبار والمعلومات الأخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة وحلول أخرى في [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
-### <a name="videos"></a>مقاطع الفيديو
-اسحب ملفات الفيديو‬ التي تشرح الطريقة‬ والمتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+### <a name="videos"></a>ملفات فيديو
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

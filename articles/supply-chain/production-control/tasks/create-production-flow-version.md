@@ -1,13 +1,13 @@
---- 
-title: "إنشاء إصدار تدفق إنتاج"
-description: "يركز هذا الإجراء على إنشاء إصدار تدفق إنتاج جديد."
+---
+title: إنشاء إصدار تدفق إنتاج
+description: يركز هذا الإجراء على إنشاء إصدار تدفق إنتاج جديد.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320663"
 ---
 # <a name="create-a-production-flow-version"></a>إنشاء إصدار تدفق إنتاج
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-يركز هذا الإجراء على إنشاء إصدار تدفق إنتاج جديد. بالنسبة لهذا الإجراء، يجب تعريف معلمات lean manufacturing للإنتاج ووحدات القياس للوقت الخاص بالفئة. كما تحتاج أيضا إلى تعريف تدفق قيم ومجموعة إنتاج. للتعرف على مزيد من المعلومات حول تدفقات الإنتاج والأنشطة المضمنة في lean manufacturing، ارجع للمستندات التقنية الخاصة بـlean manufacturing بالنسبة لـMicrosoft Dynamics AX. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+يركز هذا الإجراء على إنشاء إصدار تدفق إنتاج جديد. بالنسبة لهذا الإجراء، يجب تعريف معلمات lean manufacturing للإنتاج ووحدات القياس للوقت الخاص بالفئة. كما تحتاج أيضا إلى تعريف تدفق قيم ومجموعة إنتاج. لمعرفة المزيد حول تدفقات الإنتاج والأنشطة المضمنة في lean manufacturing، راجع المستندات التقنية حول lean manufacturing لتطبيق Microsoft Dynamics AX. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 
 
 ## <a name="create-a-production-flow"></a>إنشاء تدفق إنتاج
@@ -63,5 +63,4 @@ ms.lasthandoff: 11/03/2017
 12. في الحقل "فترة زمن الدورة الفعلي (الأيام)"، أدخل رقمًا.
     * أدخل عدد الأيام المضمنة في فترة زمن الدورة الفعلي. تمثل فترة زمن الدورة الفعلي عدد الأيام التي يتم تجميع الوظائف بها منذ الدقيقة رجوعًا لحساب زمن الدورة الفعلي. يمكن تغيير القيمة في أي وقت وتُستخدم لحساب أزمنة الدورة الفعلية فقط.  
 13. انقر فوق "حفظ".
-
 

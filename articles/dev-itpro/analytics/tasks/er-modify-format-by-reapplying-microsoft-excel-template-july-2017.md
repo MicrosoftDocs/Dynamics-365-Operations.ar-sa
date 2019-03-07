@@ -1,13 +1,13 @@
---- 
-title: "تعديل التنسيقات من خلال إعادة تطبيق قوالب Excel"
-description: "لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء \"التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML\"."
+---
+title: تعديل التنسيقات من خلال إعادة تطبيق قوالب Excel
+description: لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء "التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML".
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327103"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>تعديل التنسيقات من خلال إعادة تطبيق قوالب Excel
 
@@ -83,5 +83,4 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>استخدام إصدار المسودة‬ المعدل لتنسيق التقارير الإلكترونية لاستخدامه في معالجة دفتر يومية المدفوعات
     * قم بمراجعة ورقة العمل التي تم إنشاؤها، بما في ذلك التفاصيل الجديدة لبنود الدفع – تاريخ الدفع.  
-
 

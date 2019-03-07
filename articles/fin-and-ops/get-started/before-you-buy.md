@@ -1,13 +1,13 @@
 ---
-title: "قبل الشراء"
-description: "إرشادات خطوة بخطوة لاستخدامها عند التفكير في شراء Dynamics 365 for Finance and Operations."
+title: قبل الشراء
+description: إرشادات خطوة بخطوة لاستخدامها عندما تفكر في شراء Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,37 +16,36 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345457"
 ---
-
 # <a name="before-you-buy"></a>قبل الشراء
 
 [!include [banner](../includes/banner.md)]
 
-هل أنت جديد على Dynamics 365 for Finance and Operations؟ لقد وضعنا معًا إرشادات مفصلة خطوة بخطوة سواء كنت لا تزال في مرحلة تقييم Finance and Operations أو أصبحت جاهزًا لإجراء عملية الشراء.
+هل Dynamics 365 for Finance and Operations جديد بالنسبة لك؟ لقد وضعنا معًا إرشادات مفصلة خطوة بخطوة سواء كنت لا تزال في مرحلة تقييم Finance and Operations أو أصبحت جاهزًا لإجراء عملية الشراء.
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>الخطوة الأولى: تجربة Finance and Operations مجانًا لمدة 30 يومًا
 
-يمكنك تجربة Dynamics 365 for Finance and Operations لمدة 30 يومًا من خلال عملية تسجيل بسيطة عبر البريد إلكتروني. يتضمن الإصدار التجريبي من Finance and Operations دلائل المهام لبدء الاستخدام التي توفر إرشادات خطوة بخطوة تسمح لك بعرض سيناريوهات معينة وهي تعمل. يتوفر المنتج لاستكشاف واختبار السيناريوهات، ولكن لا يمكن تخصيصه. تم تضمين بيانات العرض التوضيحي لتسهيل استخدام المنتج ولجعل التجربة أكثر نفعًا. سيتم إرسال بريد إلكتروني للتذكير قبل 3 أيام من انتهاء صلاحية الإصدار التجريبي. احصل على التفاصيل في [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+يمكنك تجربة Dynamics 365 for Finance and Operations لمدة 30 يومًا من خلال عملية تسجيل بريد إلكتروني بسيطة. يتضمن الإصدار التجريبي من Finance and Operations دلائل المهام لبدء الاستخدام التي توفر إرشادات خطوة بخطوة تسمح لك بعرض سيناريوهات معينة وهي تعمل. يتوفر المنتج لاستكشاف واختبار السيناريوهات، ولكن لا يمكن تخصيصه. تم تضمين بيانات العرض التوضيحي لتسهيل استخدام المنتج ولجعل التجربة أكثر نفعًا. سيتم إرسال بريد إلكتروني للتذكير قبل 3 أيام من انتهاء صلاحية الإصدار التجريبي. احصل على التفاصيل في [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>الخطوة الثانية: انتقاء خيار النشر
 
-يمكنك الآن نشر Microsoft Dynamics 365 for Finance and Operations في السحابة أو في الموقع المحلي. تقدم عمليات النشر في السحابة خدمة ERP التي تديرها Microsoft بشكل كامل قبل Microsoft، بينما يتم نشر عمليات النشر المحلي محليًا داخل مركز بيانات العميل.
+يمكنك الآن نشر Microsoft Dynamics 365 for Finance and Operations في السحابة أو في موقع محلي. تقدم عمليات النشر في السحابة خدمة ERP التي تديرها Microsoft بشكل كامل قبل Microsoft، بينما يتم نشر عمليات النشر المحلي محليًا داخل مركز بيانات العميل.
 
 يجب اتباع بعض الاعتبارات التالية عندما تختار محلي كخيار توزيع:
 
 - الاحتياجات التنظيمية واحتياجات التوافق غير متوفرة في [شهادات المجموعات](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
-- يُتطلب القيام بعملية أعمال غير متصلة باتصال إنترنت متقطع للوصول إلى Microsoft Dynamics Lifecycle Services‏‏ (LCS) لإدارة دورة حياة التطبيقات
+- عملية أعمال غير متصلة مع اتصال متقطع بالإنترنت مطلوبة للوصول إلى Microsoft Dynamics Lifecycle Services (LCS) لإدارة دورة حياة التطبيقات
 - [ميزات لا يتم تنفيذها حاليًا في عمليات التوزيع المحلي](features-not-implemented-on-prem.md)
 - [الحد الأدنى لمتطلبات البنية الأساسية](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> عمليات التوزيع المحلي لـ Microsoft Dynamics 365 for Finance and Operations غير مدعومة على أي بنية أساسية للمجموعة العامة، بما في ذلك Azure.
+> عمليات النشر المحلي لتطبيق Microsoft Dynamics 365 for Finance and Operations غير مدعومة على أي مجموعة عامة، بما في ذلك Azure.
 
 للحصول على مزيد من المعلومات، راجع [خيارات التوزيع](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -54,7 +53,7 @@ ms.lasthandoff: 01/04/2019
 
 لاستكشاف خيارات الاشتراك، انتقل إلى صفحة تسعير [Dynamics 365](https://www.microsoft.com/dynamics365/pricing). تحتوي هذه الصفحة على عدة خطط مختلفة لملاءمة احتياجات مؤسستك.
 
-هناك الكثير من الطرق لشراء اشتراك Dynamics 365 for Finance and Operations:
+هناك العديد من الطرق لشراء اشتراك في Dynamics 365 for Finance and Operations:
 
 - الشراء من خلال شريك، واستخدم الترخيص المجمع (السحابة أو الموقع المحلي)
 - الشراء من خلال موفر حلول سحابية (السحابة فقط)
@@ -97,4 +96,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>إذا كنت تقوم بالترقية من Dynamics AX 2012 أو الترحيل من AX 2009
 
 إذا كنت عميلاً يقوم بالترقية من Microsoft Dynamics AX 2012 أو الترحيل من Microsoft Dynamics AX 2009، فقد تكون مؤهلاً للحصول على فترة تجريبية أطول. تواصل مع <daxcf@microsoft.com> لمزيد من المعلومات.
-

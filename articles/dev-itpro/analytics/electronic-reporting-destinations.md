@@ -1,13 +1,13 @@
 ---
-title: "وجهات التقارير الإلكترونية‬"
-description: "يمكنك تكوين وجهة لكل تكوين تنسيق بتقرير إلكتروني (ER) ومكون المخرجات (مجلد أو ملف). باستطاعة المستخدمين الذين تم منحهم حقوق الوصول المناسبة تعديل إعدادات الوجهة أيضًا في وقت التشغيل. يشرح هذه المقالة إدارة وجهات التقارير الإلكترونية وأنواع الوجهات المعتمدة واعتبارات الأمان."
+title: وجهات التقارير الإلكترونية‬
+description: يمكنك تكوين وجهة لكل تكوين تنسيق بتقرير إلكتروني (ER) ومكون المخرجات (مجلد أو ملف). باستطاعة المستخدمين الذين تم منحهم حقوق الوصول المناسبة تعديل إعدادات الوجهة أيضًا في وقت التشغيل. يشرح هذه المقالة إدارة وجهات التقارير الإلكترونية وأنواع الوجهات المعتمدة واعتبارات الأمان.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314913"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>وجهات التقارير الإلكترونية‬
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ ms.lasthandoff: 08/13/2018
 تحتوي تكوينات تنسيق التقارير الإلكترونية عادة على مكون مخرجات واحد على الأقل، وهو ملف. بشكل عام، تتضمن التكوينات مكونات مخرجات ملفات متعددة من أنواع مختلفة (على سبيل المثال، XML أو TXT أو XLSX) يتم تجميعها في مجلد واحد أو عدة مجلدات. تسمح لك إدارة وجهات التقارير الإلكترونية بإجراء تكوين مسبق لما يحدث عند تشغيل كل مكون. بشكل افتراضي، عند تشغيل تكوين، يظهر مربع حوار يسمح للمستخدم بحفظ الملف أو فتحه. يُستخدم السلوك نفسه أيضًا عندما تستورد تكوين تقارير إلكترونية ولا تكوّن أي وجهات محددة له. بعد إنشاء وجهة لمكون المخرجات الرئيسي، تتجاوز تلك الوجهة السلوك الافتراضي، ويتم إرسال المجلد أو الملف وفقًا لإعدادات الوجهة.
 
 ## <a name="availability-and-general-prerequisites"></a>التوافر والشروط الأساسية
-لا تتوفر وظائف وجهات التقارير الإلكترونية في Microsoft Dynamics AX 7.0 (فبراير 2016). وبناءً عليه، يجب عليك تثبيت Microsoft Dynamics 365 for Operations، إصدار 1611 (تشرين الثاني/نوفمبر 2016) لاستخدام جميع الوظائف الموضحة في هذا الموضوع. بدلًا من ذلك، يمكنك تثبيت أحد المتطلبات الأساسية التالية. ومع ذلك، يجب أن تدرك أن هذه البدائل تقدم تجربة وجهة تقارير إلكترونية أكثر محدودية.
+لا تتوفر وظائف وجهات التقارير الإلكترونية في Microsoft Dynamics AX 7.0 (فبراير 2016). وبناءً عليه، يجب عليك تثبيت الإصدار 1611 من Microsoft Dynamics 365 for Operations (إصدار نوفمبر 2016) لاستخدام جميع الوظائف الموضحة في هذا الموضوع. بدلًا من ذلك، يمكنك تثبيت أحد المتطلبات الأساسية التالية. ومع ذلك، يجب أن تدرك أن هذه البدائل تقدم تجربة وجهة تقارير إلكترونية أكثر محدودية.
 
-- الإصدار 7.0.1 من Microsoft Dynamics AX (مايو 2016)
+- الإصدار 7.0.1 من تطبيق Microsoft Dynamics AX (مايو 2016)
 - تطبيق إدارة وجهات التقارير الإلكترونية ـ [إصلاح عاجل](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 يمكنك إعداد تكوينات فقط لوجهات التقارير الإلكترونية التي تم استيرادها، وللتنسيقات المتوفرة في صفحة **تكوينات التقارير الإلكترونية**.
@@ -105,7 +104,7 @@ ms.lasthandoff: 08/13/2018
 
 #### <a name="sharepoint"></a>SharePoint
 
-يمكنك حفظ ملف في مجلد معين في SharePoint. يمكنك تحديد خادم SharePoint الافتراضي في **إدارة المؤسسة** &gt; **إدارة المستندات‬** &gt; **محددات إدارة المستندات‬** على علامة التبويب **SharePoint**. بعد تكوين مجلد SharePoint، يمكنك تحديده كالمجلد الذي سيتم فيه حفظ مخرجات التقارير الإلكترونية لنوع المستند.
+يمكنك حفظ ملف في مجلد معين في SharePoint. يمكنك تحديد خادم SharePoint الافتراضي في **إدارة المؤسسة** &gt; **إدارة المستندات** &gt; **محددات إدارة المستندات**، على علامة التبويب **SharePoint**. بعد تكوين مجلد SharePoint، يمكنك تحديده كالمجلد الذي سيتم فيه حفظ مخرجات التقارير الإلكترونية لنوع المستند.
 
 [![تحديد مجلد SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
@@ -119,11 +118,11 @@ ms.lasthandoff: 08/13/2018
 
 ### <a name="screen-destination"></a>وجهة الشاشة
 
-إذا قمت بتعيين **ممكن** إلى **نعم**، يتم إنشاء معاينة المخرجات. يمكنك عرض بعض أنواع الملفات، مثل XML، أو TXT أو PDF مباشرة في نافذة المستعرض. لأنواع الملفات الأخرى، مثل Microsoft Excel أو Word، يتم استخدام خدمة Microsoft Office Online.
+إذا قمت بتعيين **ممكن** إلى **نعم**، يتم إنشاء معاينة المخرجات. يمكنك عرض بعض أنواع الملفات، مثل XML، أو TXT أو PDF مباشرة في نافذة المستعرض. لأنواع الملفات الأخرى، مثل Microsoft Excel أو Word يتم استخدام خدمة Microsoft Office Online.
 
 ### <a name="power-bi-destination"></a>وجهة Power BI
 
-قم بتعيين **مُمكن** إلى **نعم** لاستخدام تكوين التقارير الإلكترونية الخاص بك لترتيب نقل البيانات من مثيل Finance and Operations الخاص بك إلى خدمات Microsoft Power BI. ‏‫يتم تخزين الملفات المنقولة على Microsoft SharePoint Server تم تكوينه لهذا الغرض.‬ للمزيد من المعلومات، يُرجى الاطلاع على[استخدام تكوين التقارير الإلكترونية لتزويد Power BI بالبيانات من Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+عيّن الخيار **ممكّن** إلى **نعم‏‎** لاستخدام تكوين التقارير الإلكترونية لترتيب نقل البيانات من مثيل Finance and Operations إلى خدمات Microsoft Power BI. ‏‫يتم تخزين الملفات المنقولة على مثيل Microsoft SharePoint Server تم تكوينه لهذا الغرض. لمزيد من المعلومات، راجع [استخدام تكوين التقارير الإلكترونية لتزويد Power BI بالبيانات من Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > لتجاوز السلوك الافتراضي (وهو مربع حوار تكوين)، يمكنك إنشاء مرجع وجهة ووجهة ملف لمكون المخرجات الرئيسية، ثم تعطيل كافة الوجهات.
@@ -158,11 +157,10 @@ ms.lasthandoff: 08/13/2018
 
 تتعلق المعادلة بتكوين التقارير الإلكترونية. على سبيل المثال، إذا كنت تستخدم تكوين نقل الائتمان ISO 20022، فيمكنك استخدام **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID** أو **model.Payments.Creditor.Identification.SourceID** للحصول على حساب مورّد مقترن.
 
-### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>يحتوي أحد تكوينات التنسيق لديّ على ملفات متعددة مجمعة في مجلد واحد (على سبيل المثال، يحتوي Folder1 على File1 وFile2 وFile3). كيف يمكنني إعداد الوجهات بحيث لا يتم إنشاء Folder1.zip على الإطلاق ويتم إرسال File1 بواسطة البريد الإلكتروني وإرسال File2 إلى SharePoint وفتح File3 فور تشغيل التكوين؟
+### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>يحتوي أحد تكوينات التنسيق لديّ على ملفات متعددة مجمعة في مجلد واحد (على سبيل المثال، يحتوي Folder1 على File1 وFile2 وFile3). كيف يمكنني إعداد الوجهات بحيث لا يتم إنشاء Folder1.zip على الإطلاق ويتم إرسال File1 بواسطة البريد الإلكتروني وإرسال File2 إلى SharePoint ويمكنني فتح File3 فور تشغيل التكوين؟
 
 الشرط الأساسي هو أن يكون التنسيق متوفرًا في تكوينات التقارير الإلكترونية. إذا كان لديك تنسيق خاص بك، فافتح صفحة **وجهة التقارير الإلكترونية**، وأنشئ مرجعًا جديدًا إلى هذا التكوين. بعد ذلك، يجب أن يكون لديك أربع وجهات للملفات، واحدة لكل مكون مخرجات. أنشئ وجهة الملف الأول مع إعطائها اسم مثل **Folder**، وحدد اسم ملف يمثل مجلدًا في تكوينك. ثم انقر فوق **إعدادات**، وتأكد من أنه قد تم تعطيل كافة الوجهات. بالنسبة إلى وجهة الملف هذه، لن يتم إنشاء المجلد. بشكل افتراضي، وبسبب تبعيات التدرج الهرمي بين الملفات والمجلدات الأصلية، سوف تتصرف الملفات بنفس الطريقة. بعبارات أخرى، لن يتم إرسالها إلى أي مكان. لتجاوز هذا السلوك الافتراضي، يجب عليك إنشاء ثلاث وجهات ملفات إضافية، وجهة لكل ملف. في إعدادات الوجهة لكل ملف، يجب تمكين الوجهة التي يجب إرسال الملف إليها.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على إعداد التقارير الإلكتروني](general-electronic-reporting.md)
-

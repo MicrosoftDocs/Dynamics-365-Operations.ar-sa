@@ -1,13 +1,13 @@
 ---
-title: "التعهد بالأمر"
-description: "توفر هذه المقالة معلومات حول التعهد بتنفيذ الأوامر. يساعدك التعهد بتنفيذ الأوامر على التعهد لعملائك بطريقة موثوقة بالالتزام بتواريخ التسليم ويعطيك المرونة التي تسمح لك بالوفاء بهذه التواريخ.‬"
+title: التعهد بالأمر
+description: توفر هذه المقالة معلومات حول التعهد بتنفيذ الأوامر. يساعدك التعهد بتنفيذ الأوامر على التعهد لعملائك بطريقة موثوقة بالالتزام بتواريخ التسليم ويعطيك المرونة التي تسمح لك بالوفاء بهذه التواريخ.‬
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312337"
 ---
-
 # <a name="order-promising"></a>التعهد بالأمر
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ ms.lasthandoff: 11/03/2017
 ونظرًا لأن طريقة التحكم في تاريخ التسليم هي ATP، فإنه يتم حساب بيانات ATP للعثور على تاريخ شحن الأقرب الممكن. استناداً إلى الإعدادات، تتم مراعاة أمر المبيعات وأمر الشراء المتأخرين، وتكون كمية ATP الناتجة للتاريخ الحالي هي 0. وغدًا، عندما يكون من المتوقع أن تلقي أمر الشراء المتأخر، فإنه يتم حساب كمية ATP كأكثر من 0 (في هذه الحالة، يتم احتسابها 125).‬ مع ذلك، بعد 10 أيام من الآن، يُتوقع استلام أمر شراء إضافي بعدد 100 قطعة، وتصبح كمية ATP أكثر من 150.  
 
 ولذلك، يتم تعيين تاريخ الشحن إلى 10 أيام من الآن، استنادًا إلى عملية حساب ATP.‬ ولذلك، يمكنك إخبار العميل بأنه يمكن تسليم الكمية المطلوبة بعد 10 أيام من الآن.
-
 
 
 

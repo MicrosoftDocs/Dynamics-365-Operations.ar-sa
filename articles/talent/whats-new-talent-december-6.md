@@ -1,37 +1,37 @@
 ---
-title: "ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(6 ديسمبر 2018)"
-description: "يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Microsoft Dynamics 365 for Talent Core HR."
+title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (6 ديسمبر 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 09936c7161a7e303a0ada2f48ef3281b81a67295
 ms.openlocfilehash: 6fae56d2feeec8e5c26fc86bdf89b8ab4c282144
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/10/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303174"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(6 ديسمبر 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (6 ديسمبر 2018)
 
 [!include [banner](includes/banner.md)]
 
 **الإصدار 8.1.2071**
 
-يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Core HR.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Core HR.
 
 
 ## <a name="platform-update-22"></a>Platform update 22
@@ -142,5 +142,4 @@ ms.lasthandoff: 12/10/2018
 ![مهمة "العاملون إلى العامل"](./media/WorkerMapping.png)
 
 ![تحويل حقل النوع](./media/WorkerTransform.png)
-
 

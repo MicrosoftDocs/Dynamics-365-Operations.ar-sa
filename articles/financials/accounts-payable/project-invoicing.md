@@ -1,13 +1,13 @@
 ---
-title: "فوترة المشاريع"
-description: "توفر هذه المقالة نظرة عامة حول فوترة المشاريع لمشاريع الوقت والمواد والمشاريع ثابتة السعر. وتتضمن معلومات حول مقترحات الفاتورة (الفواتير الأولية) والتحكم في الفواتير والفوترة على الحساب وفوترة المورّد والإشعارات الدائنة."
+title: فوترة المشاريع
+description: توفر هذه المقالة نظرة عامة حول فوترة المشاريع لمشاريع الوقت والمواد والمشاريع ثابتة السعر. وتتضمن معلومات حول مقترحات الفاتورة (الفواتير الأولية) والتحكم في الفواتير والفوترة على الحساب وفوترة المورّد والإشعارات الدائنة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346308"
 ---
-
 # <a name="project-invoicing"></a>فوترة المشاريع
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ ms.lasthandoff: 11/03/2017
 ولإضافة مبلغ تمت فوترته، يجب أولاً تحديد المبلغ المفوتر المراد إضافته ثم إنشاء إشعار دائن. وتقوم بإشاء إشعار دائن باستخدام نفس الإجراء المستخدم لإنشاء فاتورة عميل. 
 
 يمكنك إنشاء فاتورة بمبلغ سالب حيث تصنف هذه الفاتورة كإشعار دائن. ويتعين عليك تحديد الحركات التي تم ترحيلها من قبل لفاتورة العميل ثم تعديل الحركات لإنشاء إشعار دائن وطباعته. ما لم يكن العنوان الرئيسي للكيان القانوني موجودًا في ألمانيا، فسيكون عنوان الفاتورة هو "فاتورة تصحيحية".
-
 
 
 

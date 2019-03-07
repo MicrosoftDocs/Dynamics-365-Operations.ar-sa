@@ -1,13 +1,13 @@
---- 
-title: "إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف"
-description: "استخدم هذا الإجراء لإدارة مصدر بيانات دفتر الأستاذ العام لدفتر أستاذ محاسبة التكاليف."
+---
+title: إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف
+description: استخدم هذا الإجراء لإدارة مصدر بيانات دفتر الأستاذ العام لدفتر أستاذ محاسبة التكاليف.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f53101d73bc69199fafb00de0fa1759d59ea4ce8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319306"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/29/2017
 6. انقر فوق "جديد".
 7. في حقل "الاسم"، اكتب قيمة.
 8. في الحقل "موفر البيانات"، أدخل أو حدد قيمة.
-    * لهذا المثال، حدد Dynamics 365 for Finance and Operations - إدخالات دفتر الأستاذ العام.  
+    * لهذا المثال، حدد Dynamics 365 for Finance and Operations - إدخالات دفتر الأستاذ العام .  
 9. في الحقل "بُعد عنصر التكلفة‬‬"، أدخل قيمة أو حددها.
     * بالنسبة إلى هذا المثال، حدد "عناصر التكلفة".  
 10. انقر فوق "حفظ".
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 13. انقر فوق "جديد".
 14. في حقل "طبقة الترحيل"، حدد "حالي".
 15. انقر فوق "موافق".
-
 

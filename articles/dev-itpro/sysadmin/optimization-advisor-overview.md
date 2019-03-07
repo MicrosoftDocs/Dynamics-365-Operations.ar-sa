@@ -1,37 +1,36 @@
 ---
-title: "مرشد تحسين الأداء"
-description: "يصف هذا الموضوع كيفية استخدام مرشد تحسين الأداء للمساعدة في ضمان التكوين الأمثل لـ Microsoft Dynamics 365 Finance and Operations."
+title: مرشد تحسين الأداء
+description: يصف هذا الموضوع كيفية استخدام مرشد التحسين الأداء للمساعدة في ضمان التكوين الأمثل لتطبيق Microsoft Dynamics 365 Finance and Operations.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335613"
 ---
-
-# <a name="optimization-advisor"></a>مرشد تحسين الأداء
+# <a name="optimization-advisor"></a>مرشد التحسين
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع كيفية استخدام مرشد تحسين الأداء للمساعدة في ضمان التكوين الأمثل لـ Microsoft Dynamics 365 Finance and Operations.
+يصف هذا الموضوع كيفية استخدام مرشد التحسين الأداء للمساعدة في ضمان التكوين الأمثل لتطبيق Microsoft Dynamics 365 Finance and Operations.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 08/08/2018
 
 مساحة عمل **مرشد التحسين** عبارة عن أداة تتيح للمستخدمين المحترفين أو محللي الأعمال التجارية والمستشارين الوظيفيين ووظائف دعم تكنولوجيا المعلومات التعرف على المشكلات في تكوين الوحدة وبيانات الأعمال. يقترح مرشد تحسين الأداء أفضل الممارسات لتكوين الوحدة وتحديد بيانات العمل القديمة أو غير الصحيحة.
 
-يقوم مرشد تحسين الأداء بشكل دوري بتشغيل مجموعة من قواعد أفضل الممارسات. تم إصدار مجموعة افتراضية من القواعد مع إصدار 8.0 من Microsoft Dynamics 365 for Finance and Operations (أبريل 2018). ومع ذلك، يستطيع المستخدمون أيضًا إنشاء القواعد الخاصة بتخصيصاتهم وحلولهم من بائعي البرامج المستقلين (ISVs) وبيانات العمل. لمزيد من المعلومات حول كيفية إنشاء القواعد، راجع [إنشاء قواعد جديدة](./create-rules-optimization-advisor.md).
+يقوم مرشد تحسين الأداء بشكل دوري بتشغيل مجموعة من قواعد أفضل الممارسات. يتم إصدار مجموعة افتراضية من القواعد مع الإصدار 8.0 (أبريل 2018) من Microsoft Dynamics 365 for Finance and Operations. ومع ذلك، يستطيع المستخدمون أيضًا إنشاء القواعد الخاصة بتخصيصاتهم وحلولهم من بائعي البرامج المستقلين (ISVs) وبيانات العمل. لمزيد من المعلومات حول كيفية إنشاء القواعد، راجع [إنشاء قواعد جديدة](./create-rules-optimization-advisor.md).
 
 عندما يتم الكشف عن حدوث انتهاك لقاعدة، يتم إنشاء فرصة تحسين وتظهر في مساحة عمل **مرشد التحسين**. يستطيع مستخدم اتخاذ الإجراء التصحيحي المناسب مباشرةً من مساحة عمل **مرشد التحسين**.
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 08/08/2018
 
 عندما تقوم بإجراء في بعض فرص تحسين الأداء، يقوم النظام بحساب تأثير الفرصة فيما يتعلق بنسبة التخفيض في وقت التشغيل للعمليات التجارية. لسوء الحظ، هذه الميزة غير متوفرة لجميع فرص تحسين الأداء.
 
-لمزيد من المعلومات حول "مرشد تحسين الأداء"، شاهد الفيديو القصير [مرشد تحسين الأداء في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+لمزيد من المعلومات حول مرشد التحسين، شاهد مقطع الفيديو القصير [مرشد التحسين في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>قواعد التحسين
 
@@ -96,4 +95,3 @@ ms.lasthandoff: 08/08/2018
 [إنشاء قواعد جديدة](./create-rules-optimization-advisor.md)
 
 [مرشد التحسين في Dynamics 365 for Finance and Operations (فيديو)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-

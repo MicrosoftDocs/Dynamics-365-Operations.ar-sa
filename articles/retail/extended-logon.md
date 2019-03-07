@@ -1,13 +1,13 @@
 ---
-title: "إعداد تسجيل الدخول الموسع لكل من MPOS وCloud POS"
-description: "يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لنقاط بيع المجموعة ونقاط البيع الحديثة للبيع بالتجزئة (MPOS)."
+title: إعداد تسجيل الدخول الموسع لكل من MPOS وCloud POS
+description: يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لكل من Cloud POS وRetail Modern POS (MPOS).
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: c5771146723b791eb0b3eb5f571ef012cfaadcb9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317903"
 ---
-
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>إعداد تسجيل الدخول الموسع لكل من MPOS وCloud POS
+# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>إعداد وظيفة تسجيل الدخول الموسع لـ MPOS وCloud POS
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لنقاط بيع المجموعة ونقاط البيع الحديثة للبيع بالتجزئة (MPOS).
+يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لكل من Cloud POS وRetail Modern POS (MPOS).
 
 ## <a name="setting-up-extended-logon"></a>إعداد تسجيل الدخول الموسع
 
@@ -68,4 +67,3 @@ ms.lasthandoff: 08/08/2018
 ## <a name="using-extended-logon"></a>استخدام تسجيل الدخول الموسع
 
 عندما يتم تكوين تسجيل الدخول الموسع، وقام عامل بتعيين الرمز الشريطي أو الشريط المغناطيسي، يجب على العامل أن يقوم بتمرير البطاقة أو مسحها بينما يتم عرض صفحة تسجيل دخول نقطة البيع. إذا كانت كلمة مرور مطلوبة أيضًا قبل إمكانية متابعة تسجيل الدخول، فإنه تتم مطالبة العامل بإدخال كلمة المرور الخاصة به.
-

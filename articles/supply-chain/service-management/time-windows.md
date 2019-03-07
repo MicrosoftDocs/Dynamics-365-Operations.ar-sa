@@ -1,31 +1,30 @@
 ---
-title: "إطارات الوقت"
-description: "يمكنك استخدام الإطارات الزمنية لتحسين جدولة بنود أمر الخدمة."
+title: إطارات الوقت
+description: يمكنك استخدام الإطارات الزمنية لتحسين جدولة بنود أمر الخدمة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMATimeAgreement
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6f748268f6cb85ff835919485da2828689eee23c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: b7268870aa9065e4e52d936e819107094bad3663
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/20/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347205"
 ---
-
 # <a name="time-windows"></a>إطارات الوقت  
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ ms.lasthandoff: 02/20/2018
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [إنشاء الإطارات الزمنية](create-time-windows.md)
-
 

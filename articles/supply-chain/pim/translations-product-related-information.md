@@ -1,13 +1,13 @@
 ---
-title: "الأسئلة المتداولة حول الترجمات المتعلقة بالمنتج"
-description: "يوضح هذا الموضوع كيفية إدارة ترجمات المنتجات وقيم أبعاد المنتج وسمات المنتج."
+title: الأسئلة المتداولة حول الترجمات المتعلقة بالمنتج
+description: يوضح هذا الموضوع كيفية إدارة ترجمات المنتجات وقيم أبعاد المنتج وسمات المنتج.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Product information
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d124e2608f01878487bc8fc9af2e27d143c8ae9e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 87dfdf7085e185b3e0467088118838eb832546d7
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342858"
 ---
-
 # <a name="product-related-translations-faq"></a>الأسئلة المتداولة حول الترجمات المتعلقة بالمنتج
 
 [!include [banner](../includes/banner.md)]
@@ -124,7 +123,6 @@ ms.lasthandoff: 02/07/2018
 
 ## <a name="when-can-translations-of-product-related-information-be-managed"></a>متى يمكن إدارة ترجمات المعلومات المتعلقة بالمنتج؟
 يمكن إدارة ترجمات المعلومات المتعلقة بالمنتج في أي وقت. عند تحديث الترجمات لقيمة بُعد مقترنًا بمنتج، يتم تحديث معلومات المنتج، بغض النظر عن ما إذا كان المنتج يشتمل على حركات.
-
 
 
 

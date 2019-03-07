@@ -1,32 +1,31 @@
 ---
-title: "الصفحة الرئيسية للتخطيط الرئيسي"
-description: "يتيح التخطيط الرئيسي للشركات إمكانية تحديد وموازنة الاحتياجات المستقبلية للمواد الخام والقدرة اللازمة لتلبية أهداف الشركة."
+title: الصفحة الرئيسية للتخطيط الرئيسي
+description: يتيح التخطيط الرئيسي للشركات إمكانية تحديد وموازنة الاحتياجات المستقبلية للمواد الخام والقدرة اللازمة لتلبية أهداف الشركة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314775"
 ---
-
 # <a name="master-planning-home-page"></a>الصفحة الرئيسية للتخطيط الرئيسي
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ ms.lasthandoff: 12/04/2018
 
 -  **تخطيط التنبؤ** - يحسب جدول التنبؤ إجمالي المتطلبات. يعتمد على التوقعات المستقبلية (أو التنبؤات)، ويتيح للشركات إمكانية إجراء التخطيط طويل الأمد للمواد والقدرة. لمزيد من المعلومات، راجع [تخطيط التنبؤ](introduction-demand-forecasting.md). 
 
--  **التخطيط الرئيسي بين الشركات الشقيقة** - تحسب الخطة الرئيسية بين الشركات الشقيقة صافي المتطلبات عبر الكيانات القانونية. يقوم بتوصيل الطلب والتوريد بين الشركات ليس فقط لتأكيد طلب وتوريد الشركات لفترة قصيرة، ولكن أيضًا للطلب والتوريد المخطط (غير المؤكد بعد) لفترة طويلة. لمزيد من المعلومات، راجع [التخطيط الرئيسي بين الشركات الشقيقة](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (التعليم الإلكتروني) (يتطلب حساب CustomerSource). 
+-  **التخطيط الرئيسي بين الشركات الشقيقة** - تحسب الخطة الرئيسية بين الشركات الشقيقة صافي المتطلبات عبر الكيانات القانونية. يقوم بتوصيل الطلب والتوريد بين الشركات ليس فقط لتأكيد طلب وتوريد الشركات لفترة قصيرة، ولكن أيضًا للطلب والتوريد المخطط (غير المؤكد بعد) لفترة طويلة. لمزيد من المعلومات، راجع [التخطيط الرئيسي المشترك بين الشركات الشقيقة.‬](https://mbspartner.microsoft.com/AX/CourseOverview/1276)  (التعليم الإلكتروني) (يتطلب حساب CustomerSource). 
 
 تستطيع الشركات تغيير نتيجة الخطة. يمكنهم تشغيل الخطط التجديدية أو خطط صافي التغيير أو كلاهما. تقوم الخطط التجديدية بتحديث جميع المتطلبات، بينما لا تقوم خطط صافي التغيير إلا بتحديث الخطة المتعلقة بالعناصر المشتملة على متطلبات جديدة التي ظهرت منذ تشغيل الجدولة الأخيرة.
 
@@ -69,10 +68,10 @@ ms.lasthandoff: 12/04/2018
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 ### <a name="roadmaps"></a>خرائط الطريق
-انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
+انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
 
 ### <a name="blogs"></a>المدونات
-يمكنك العثور على الآراء والأخبار وغيرها من المعلومات حول التخطيط الرئيسي وغيرها من الحلول ضمن [مدونة فريق بحث وتطوير Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول التخطيط الرئيسي بالإضافة إلى حلول أخرى في [مدونة فريق بحث وتطوير Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>دلائل المهام
 تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر **تعليمات** في أي صفحة.
@@ -84,7 +83,6 @@ ms.lasthandoff: 12/04/2018
 -  [توسيع وظيفة التنبؤ بالطلب](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها](https://youtu.be/7v8BPmEs9Dg)
 -  [التعليمات! تخطيط متطلبات المواد بطيء!](https://youtu.be/RLXybx20B5o)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "المعالجة الدُفعية للتنبيهات"
-description: "يوفر هذا الموضوع معلومات حول معالجة الدُفعات للتنبيهات في Microsoft Dynamics 365 for Finance and Operations."
+title: المعالجة الدُفعية للتنبيهات
+description: يقدم هذا الموضوع معلومات حول المعالجة الدفعية للتنبيهات في Microsoft Dynamics 365 for Finance and Operations.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 482cf30b4f82e8801ebc12e3925c1efb09f7eb1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341915"
 ---
-
-# <a name="batch-processing-of-alerts"></a>المعالجة الدُفعية للتنبيهات
+# <a name="batch-processing-of-alerts"></a>معالجة الدُفعة للتنبيهات
 
 [!include [banner](../includes/banner.md)]
 
-تتم معالجة التنبيهات بواسطة وظائف معالجة الدُفعات في Microsoft Dynamics 365 for Finance and Operations. يجب عليك إعداد معالجة الدُفعات قبل تسليم التنبيهات.
+تتم معالجة التنبيهات بواسطة وظيفة المعالجة الدفعية في Microsoft Dynamics 365 for Finance and Operations. يجب عليك إعداد معالجة الدُفعات قبل تسليم التنبيهات.
 
 يدعم Finance and Operations نوعين من الأحداث:
 
@@ -84,4 +83,3 @@ ms.lasthandoff: 08/08/2018
 
 1. انتقل إلى **إدارة النظام**&gt;**المهام الدورية**&gt;**التنبيهات**&gt;**تنبيهات تاريخ الاستحقاق‬**.
 2. في مربع الحوار **تنبيهات تاريخ الاستحقاق**، أدخل المعلومات المناسبة.
-

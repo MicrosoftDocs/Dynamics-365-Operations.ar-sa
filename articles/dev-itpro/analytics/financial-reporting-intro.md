@@ -1,13 +1,13 @@
 ---
-title: "التقارير المالية"
-description: "تسمح التقارير المالية في تطبيق Finance and Operations للأخصائيين العاملين في مجالات المال والأعمال بإنشاء القوائم المالية وصيانتها ونشرها وعرضها. إنها تتجاوز قيود التقارير التقليدية لكي تقدم لك مساعدة فعالة على صعيد تصميم مختلف أنواع التقارير."
+title: التقارير المالية
+description: تسمح التقارير المالية في تطبيق Finance and Operations للأخصائيين العاملين في مجالات المال والأعمال بإنشاء القوائم المالية وصيانتها ونشرها وعرضها. إنها تتجاوز قيود التقارير التقليدية لكي تقدم لك مساعدة فعالة على صعيد تصميم مختلف أنواع التقارير.
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323768"
 ---
-
 # <a name="financial-reporting"></a>التقارير المالية
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ ms.lasthandoff: 08/13/2018
 <ul>
 <li>جدولة التقارير لتمكين إنشائها تلقائيًا على أساس يومي أو أسبوعي أو شهري أو سنوي.</li>
 <li>التصدير إلى تنسيق XPS للقراءة فقط، مما يوفر مستوى أمان أفضل للمستندات عبر التواقيع الرقمية.</li>
-<li>التصدير إلى ورقة عمل Microsoft Excel.</li>
+<li>تصدير إلى ورقة عمل Microsoft Excel.</li>
 <li>لمشاركة التقارير، يمكنك إنشاء رسائل بريد إلكتروني تحتوي على ارتباطات إلى التقارير.</li>
 </ul>
 </td>
@@ -98,4 +97,3 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 [إنشاء تقرير مالي](generate-financial-report.md)
-

@@ -1,13 +1,13 @@
---- 
-title: "حساب قائمة مكونات الصنف باستخدام هيكل متعدد المستويات (فبراير 2016)"
-description: "يوضح هذا الإجراء كيفية حساب تكلفة المنتج النهائي باستخدام عملية تحديد إجمالي المكونات المطلوبة‬ متعددة المستويات يوجد أساسها في كشف التكاليف."
+---
+title: حساب قائمة مكونات الصنف باستخدام هيكل متعدد المستويات (فبراير 2016)
+description: يوضح هذا الإجراء كيفية حساب تكلفة المنتج النهائي باستخدام عملية تحديد إجمالي المكونات المطلوبة‬ متعددة المستويات يوجد أساسها في كشف التكاليف.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: fcc1248d64145c10f1c67bfac49c053e99dc1598
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323354"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>حساب قائمة مكونات الصنف باستخدام هيكل متعدد المستويات (فبراير 2016)
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
     * عند تحديد "متعدد"، يتم تصنيف التكاليف حسب تركيب BOM_2، حيث يشتق الرقم 10 من مجموعة التكاليف M1 (ITEM_C)، ويشتق 15,60 من تصنيعه حيث مجموعة التكاليف هي L2. قد تختلف أيضًا التكاليف غير المباشرة.  
 11. قم بإغلاق الصفحة.
 12. قم بإغلاق الصفحة.
-
 

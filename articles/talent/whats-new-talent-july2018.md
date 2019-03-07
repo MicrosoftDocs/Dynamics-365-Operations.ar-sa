@@ -1,36 +1,35 @@
 ---
-title: "الجديد أو المتغير‬ في Dynamics 365 for Talent Core HR (يوليو 2018)"
-description: "يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Microsoft Dynamics 365 for Talent Core HR."
+title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (يوليو 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
 author: josaw1
 manager: AnnBe
 ms.date: 07/31/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 330a4e1b820f1898bbbee15f8ec8fa427f30807f
 ms.openlocfilehash: 5cf1c17c3b833805a4797ec0fc7278ce3546ac2e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303139"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>الجديد أو المتغير‬ في Dynamics 365 for Talent Core HR (يوليو 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (يوليو 2018)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Microsoft Dynamics 365 for Talent Core HR.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
 
 ## <a name="powerapps-personalization"></a>تخصيص PowerApps
 
@@ -60,4 +59,3 @@ ms.lasthandoff: 08/08/2018
 ## <a name="benefit-enrollment-status-report"></a>تقرير حالة التسجيل في الميزات‬
 
 تساعدك التقارير المضمنة حول التسجيل المفتوح على فهم مكان وجود الموظفين في عملية التسجيل المفتوحة بسهولة. يمكنك معرفة عدد الموظفين الذين أكملوا العملية والذين يعملون على إنجازها حاليًا والذين لم يبدأوا بها بعد. بالإضافة إلى ذلك، يمكنك أن تستعرض بسرعة أي مشاكل تحدث أثناء تسجيل الموظفين بالإضافة إلى سجل كامل بطلبات الموظفين. وبالتالي، يمكنك التحقق من طلبات الموظفين ومراجعتها بسهولة.
-

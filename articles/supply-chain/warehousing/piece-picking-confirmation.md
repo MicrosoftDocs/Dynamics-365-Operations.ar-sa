@@ -1,13 +1,13 @@
 ---
-title: "تأكيد انتقاء الأجزاء"
-description: "يصف هذا الموضوع كيفية إعداد وتطبيق تأكيد انتقاء الأجزاء من جهاز محمول."
+title: تأكيد انتقاء الأجزاء
+description: يصف هذا الموضوع كيفية إعداد وتطبيق تأكيد انتقاء الأجزاء من جهاز محمول.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9b85414dd1385dc3d8c97632eaaeb252759590ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ef9ab68c20ae095de03b0a0e05aa15ef5bf8a5d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349620"
 ---
-
 # <a name="piece-picking-confirmation"></a>تأكيد انتقاء الأجزاء
 
 [!include [banner](../includes/banner.md)]
@@ -51,5 +50,4 @@ ms.lasthandoff: 11/03/2017
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | تأكيد انتقاء الأجزاء | أنواع العمل المتوفرة للانتقاء والجرد. يتم تحديد تأكيد المنتج تلقائيًا. يسمح لك بتأكيد كل جزء من المخزون من الهاتف المحمول. |
 |  أقصى عدد للأجزاء  |                   متوفر لعمل الانتقاء إذا تم تمكين تأكيد انتقاء الأجزاء. تعيين حد لعدد الأجزاء التي يجب عليك تأكيدها.                   |
-
 

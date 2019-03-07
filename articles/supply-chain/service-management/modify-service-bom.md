@@ -1,32 +1,30 @@
 ---
-title: "تعديل شجرة مواد الخدمة"
-description: "تعديل قائمة مكونات صنف."
+title: تعديل شجرة مواد الخدمة
+description: تعديل قائمة مكونات صنف.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6a66f7ea7b30e033a39c292dff4064deef6bff4c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5ebbcf3865d176c713d96bf90b819b8252e8087f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321560"
 ---
-
-
 # <a name="modify-a-service-bom"></a>تعديل شجرة مواد الخدمة 
 
 [!include [banner](../includes/banner.md)]
@@ -72,6 +70,5 @@ ms.lasthandoff: 05/08/2018
 [شجرة المواد القالب ](template-boms.md)
 
   
-
 
 

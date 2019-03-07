@@ -1,13 +1,13 @@
 ---
-title: "تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations &#8211; التخزين"
-description: "يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين"
+title: تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations &#8211; التخزين
+description: يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
-ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316109"
 ---
-
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations &#8211; التخزين
 
 [!include [banner](../includes/banner.md)]
@@ -36,25 +35,27 @@ ms.lasthandoff: 12/04/2018
 > يوضح هذا الموضوع كيفية تكوين التخزين لعمليات توزيع المجموعة. إذا كنت تبحث عن كيفية تكوين التخزين لعمليات التوزيع المحلي، فيُرجى مراجعة [التخزين لعمليات التوزيع المحلية](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين
+يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين.
 
 إن Finance and Operations - التخزين عبارة عن تطبيق يتوفر على Google Play Store ومتجر Windows. بالنسبة إلى الإصدار الحالي من Finance and Operations، يتوفر هذا التطبيق كمكون مستقل، مما يعني النشر الذاتي على الأجهزة المستخدمة لمهام المستودع. لاستخدام التطبيق في بيئة Finance and Operations، يجب تنزيل التطبيق على كل جهاز وتكوينه للاتصال ببيئة Finance and Operations. يصف هذا الموضوع كيفية تثبيت التطبيق على الأجهزة. وهو يوضح أيضًا كيفية تكوين التطبيق للاتصال ببيئة Finance and Operations.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 يتوفر التطبيق على أنظمة تشغيل Windows وAndroid. لاستخدام هذا التطبيق، يجب أن يكون أحد أنظمة التشغيل التالية المعتمدة مثبتة على أجهزتك. ويجب أن يتوفر لديك أيضًا أحد الإصدارات المعتمدة التالية من Finance and Operations. استخدم المعلومات في الجدول التالي لتقييم جهوزية بيئة الأجهزة والبرامج لديك لدعم عملية التثبيت.
 
-| النظام الأساسي                    | ‏‏الإصدار                                                                                                                                                                     |
+| النظام الأساسي                    | الإصدار                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows ‏(UWP)               | Windows 10 (كل الإصدارات)                                                                                                                                                   |
-| Finance and Operations | Microsoft Dynamics 365 for Operations، الإصدار 1611 <br>-أو - <br>الإصدار 7.0/7.0.1 من Microsoft Dynamics AX وتحديث النظام الأساسي لـ Dynamics AX 2 مع الإصلاح العاجل KB 3210014 |
+| Finance and Operations | الإصدار 1611 من Microsoft Dynamics 365 for Operations <br>-أو - <br>الإصدار 7.0/7.0.1 من Microsoft Dynamics AX وMicrosoft Dynamics AX platform update 2 مع الإصلاح العاجل KB 3210014 |
 
 ## <a name="get-the-app"></a>الحصول على التطبيق
 -   Windows ‏(UWP)
      - [Finance and Operations - التخزين في متجر Windows](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android
     - [Finance and Operations - التخزين على Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
-    - [Finance and Operations - التخزين على Zebra App Gallery](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
+
+> [!NOTE]
+> تم إيقاف Zebra App Gallery عن العمل، مما يعني أن Finance and Operations - تطبيق التخزين لن يعود متوفرًا لتنزيله من هذا الموقع.
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a>إنشاء تطبيق خدمة ويب في Azure Active Directory
 لتمكين التطبيق من التفاعل مع خادم Finance and Operations معين، يجب عليك تسجيل تطبيق خدمة ويب في Azure Active Directory لمستأجر Finance and Operations. لأسباب تتعلق بالأمان، نوصي بإنشاء تطبيق خدمة ويب لكل جهاز تستخدمه. لإنشاء تطبيق خدمة ويب في Azure Active Directory (Azure AD)، أكمل الخطوات التالية:
@@ -79,7 +80,7 @@ ms.lasthandoff: 12/04/2018
     2.  أنشئ مستخدمًا جديدًا.
     3.  عيّن مستخدم الجهاز المحمول للمستودع‬، كما هو موضح في لقطة الشاشة التالية. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-2.  قم بإقران تطبيق Azure Active Directory بمستخدم تطبيق تخزين.
+2.  قم بإقران تطبيق Azure Active Directory بمستخدم تطبيق التخزين.
     1.  في Finance and Operations، انتقل إلى **إدارة النظام** &gt; **الإعداد** &gt; **تطبيقات Azure Active Directory**.
     2.  قم بإنشاء بند جديد.
     3.  أدخل **"معرف العميل"** (الذي تم الحصول عليه في القسم الأخير)، وأدخل اسمًا له، وحدد المستخدم الذي أنشأته في وقت سابق. نوصي بتمييز كل أجهزتك بحيث يمكنك أن تزيل بسهولة حق وصولها إلى Finance and Operations من هذه الصفحة في حال فقدانها. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
@@ -92,13 +93,13 @@ ms.lasthandoff: 12/04/2018
 3.  أدخل المعلومات التالية: 
     + **معرف عميل Azure Active Directory** - يتم الحصول على معرف العميل في الخطوة 9 "إنشاء تطبيق خدمة ويب في Active Directory". 
     + **سر عميل Azure Active Directory** - يتم الحصول على سر العميل في الخطوة 11 "إنشاء تطبيق خدمة ويب في Active Directory". 
-    + **مورد Azure Active Directory** - يمثّل مورد Azure Active Directory عنوان URL الجذر لـ Finance and Operations. **ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
+    + **مورد Azure Active Directory** - يمثّل مورد Azure AD عنوان URL الجذر لتطبيق Finance and Operations. **ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
     + **مستأجر Azure Active Directory** - مستأجر دليل Azure AD المستخدم مع خادم Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. على سبيل المثال: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
     + **الشركة** -أدخل الكيان القانوني في Finance and Operations الذي تريد أن يتصل به التطبيق. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  حدد زر **السابق** في الزاوية العلوية اليمنى من التطبيق. سيتصل الآن التطبيق بخادم Finance and Operations وستظهر شاشة تسجيل الدخول لعامل المستودع. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
-للحصول على المزيد من المعلومات حول كيفية إعداد Dynamics 365 for Finance and Operations – Warehousing لمسح الأكواد الشريطية باستخدام كاميرا جهاز محمول، راجع [مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations – Warehousing](scan-bar-codes-using-a-camera.md)
+لمزيد من المعلومات حول كيفية إعداد  Dynamics 365 for Finance and Operations – التخزين لمسح الأكواد الشريطية التي تستخدمها على جهاز محمول، راجع [مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations – التخزين](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>إزالة حق الوصول لجهاز
 عند فقدان جهاز أو تعرضه للاختراق، يجب إزالة حق الوصول إلى Finance and Operations للجهاز. تصف الخطوات التالية العملية الموصى بها لإزالة حق الوصول.
@@ -111,4 +112,3 @@ ms.lasthandoff: 12/04/2018
 6.  تأكد من أن **معرف العميل** هو نفسه كما هو موضح في الخطوة 2 في هذا القسم.
 7.  انقر فوق الزر **حذف** في الجزء العلوي.
 8.  انقر فوق **نعم** في رسالة التأكيد.
-

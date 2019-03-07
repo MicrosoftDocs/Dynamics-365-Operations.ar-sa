@@ -1,13 +1,13 @@
 ---
-title: "الاتصال بنظام التعليمات"
-description: "يصف هذا الموضوع مكونات نظام تعليمات تطبيق Microsoft Dynamics 365 for Finance and Operations، ويقدم لمحة عامة عن كيفية توصيلها بالإضافة إلى ملخص حول كيفية إنشاء تعليمات مخصصة."
+title: الاتصال بنظام التعليمات
+description: يصف هذا الموضوع مكونات نظام التعليمات لبرنامج Microsoft Dynamics 365 for Finance and Operations، ويقدم نظرة عامة حول كيفية توصيلها بالإضافة إلى ملخص حول كيفية إنشاء تعليمات مخصصة.
 author: margoc
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317719"
 ---
-
 # <a name="connect-the-help-system"></a>الاتصال بنظام التعليمات
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع المكونات التي تشكّل نظام تعليمات Microsoft Dynamics 365 for Finance and Operations. ويقدم نظرة عامة حول كيفية توصيل هذه المكونات وملخصًا لكيفية إنشاء تعليمات مخصصة.
+يصف هذا الموضوع مكونات نظام التعليمات لبرنامج Microsoft Dynamics 365 for Finance and Operations. ويقدم نظرة عامة حول كيفية توصيل هذه المكونات وملخصًا لكيفية إنشاء تعليمات مخصصة.
 
 ## <a name="help-architecture"></a>بنية التعليمات
 
@@ -44,7 +43,7 @@ ms.lasthandoff: 12/18/2018
 ## <a name="connecting-the-help-system"></a>الاتصال بنظام التعليمات
 
 > [!NOTE]
-> علامة التبويب **دلائل المهام** غير متوفرة بعد في كل من Microsoft Dynamics 365 for Talent وMicrosoft Dynamics 365 for Retail. نحن نعمل حاليًا على تمكين هذه الوظيفة في إصدار مستقبلي. تبقى دلائل المهام في تجربة "بدء الاستخدام" في Talent متوفرة لتغطية الوظائف الأساسية. تتوفر أيضًا تعليمات إجرائية في الموقع docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) لكل من Retail وTalent.
+> في الوقت الحالي، لا تتوفر علامة تبويب **دلائل المهام** في كل من Microsoft Dynamics 365 for Talent وMicrosoft Dynamics 365 for Retail. نحن نعمل حاليًا على تمكين هذه الوظيفة في إصدار مستقبلي. تبقى دلائل المهام في تجربة "بدء الاستخدام" في Talent متوفرة لتغطية الوظائف الأساسية. تتوفر أيضًا تعليمات إجرائية في الموقع docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) لكل من Retail وTalent.
 
 من خلال استخدام صفحة **معلمات النظام**، يتصل مسؤولو النظام بأجزاء نظام التعليمات لتطبيقها.
 
@@ -102,4 +101,3 @@ ms.lasthandoff: 12/18/2018
 [نظرة عامة حول مسجل المهام](../../dev-itpro/user-interface/task-recorder.md)
 
 [كيفية إنشاء تسجيل مهمة لاستخدامه كوثائق أو تدريب](../../dev-itpro/user-interface/task-recorder-training-docs.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "تكوين مهام سير عمل لعنصر بند"
-description: "يشرح هذا الموضوع كيفية تكوين عنصر سير عمل لعنصر بند."
+title: تكوين مهام سير عمل لعنصر بند
+description: يشرح هذا الموضوع كيفية تكوين عنصر سير عمل لعنصر بند.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 66e79389bba4566176330914ace462110cd0aa22
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336096"
 ---
-
 # <a name="configure-line-item-workflows"></a>تكوين مهام سير عمل لعنصر بند
 
 [!include [banner](../includes/banner.md)]
@@ -56,4 +55,3 @@ ms.lasthandoff: 08/08/2018
     6. للتحقق من تكوين مجموعة الشروط التي قمت بإدخالها بشكل صحيح، انقر فوق **اختبار**. في صفحة **اختبار حالة سير العمل**، في الناحية **التحقق من صحة الشرط**، حدد سجلاً، ثم انقر فوق **اختبار**. سيقوم النظام بتقييم السجل لمعرفة ما إذا كان يستوفي الشروط التي قمت بتحديدها أم لا. انقر فوق **موافق** أو **إلغاء الأمر** للرجوع إلى الصفحة **خصائص**.
 
     على علامة التبويب **سير العمل**، حدد سير العمل الذي يجب استخدامه لمعالجة عناصر البنود التي تفي بالشروط التي قمت بتحديدها.
-

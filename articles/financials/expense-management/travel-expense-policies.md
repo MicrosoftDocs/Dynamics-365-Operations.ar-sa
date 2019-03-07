@@ -1,13 +1,13 @@
 ---
-title: "تعريف سياسات المصروفات"
-description: "يمكنك تعريف سياسات المصروفات التي يجب على العاملين اتباعها عند إدخال تقارير المصروفات وطلبات السفر‬ وإرسالها في Microsoft Dynamics 365 for Finance and Operations."
+title: تعريف سياسات المصروفات
+description: يمكنك تعريف سياسات المصروفات التي يجب على العاملين اتباعها عند إدخال تقارير المصروفات وطلبات السفر‬ وإرسالها في Microsoft Dynamics 365 for Finance and Operations.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342421"
 ---
-
 # <a name="expense-policies"></a>سياسات المصروفات
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ ms.lasthandoff: 03/26/2018
   ومدينة نيويورك غالية الثمن أثناء ذروة موسم السفر خلال العطلات. يمكنك تحديد قاعدة لتحديد مصروفات الرحلة بحيث تقيد      
   تكلفة الرحلات الجوية إلى مدينة نيويورك إلى حد 5000 كورونا دانمركية، ويمكنك تحديد تفعيل هذه القاعدة خلال الفترة من 15 مارس و      
   15 سبتمبر.
-

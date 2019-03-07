@@ -1,13 +1,13 @@
 ---
-title: "إعداد ملفات الدفع الإيجابي وإنشاؤها"
-description: "توضح هذه المقالة كيفية إعداد الدفع الإيجابي وإنشاء ملفات الدفع الإيجابي."
+title: إعداد ملفات الدفع الإيجابي وإنشاؤها
+description: توضح هذه المقالة كيفية إعداد الدفع الإيجابي وإنشاء ملفات الدفع الإيجابي.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346078"
 ---
-
 # <a name="set-up-and-generate-positive-pay-files"></a>إعداد ملفات الدفع الإيجابي وإنشاؤها
 
 [!include [banner](../includes/banner.md)]
@@ -160,7 +159,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="recall-a-positive-pay-file"></a>استدعاء ملف دفع إيجابي
 إذا لزم تغيير ملف دفع إيجابي، فيمكنك إعادة استدعائه. في صفحة **ملخص ملف الدفع الإيجابي**، حدد ملف دفع إيجابي بالحالة **تم إنشاؤه**، ثم حدد الإجراء **استدعاء**. لكل شيك في ملف الدفع الإيجابي، يُعاد تعيين الحقل الذي يشير إلى ما إذا تم تضمين الشيك في ملف دفع إيجابي. وبعد ذلك، يمكنك إنشاء ملف دفع إيجابي جديد يتضمن الشيك الذي تم استدعاؤه.
-
 
 
 

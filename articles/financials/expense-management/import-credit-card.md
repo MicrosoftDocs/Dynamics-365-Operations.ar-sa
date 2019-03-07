@@ -1,13 +1,13 @@
 ---
-title: "استيراد حركات بطاقات الائتمان وصيانتها"
-description: "يشرح هذا الموضوع كيفية استيراد حركات بطاقات الائتمان ذات الصلة بالمصروفات وصيانتها. يمكن إعداد هذه الحركات بحيث يتم استيرادها تلقائيًا على جدول متكرر، أو يمكن استيرادها يدويًا كما تقتضي الحاجة."
+title: استيراد حركات بطاقات الائتمان وصيانتها
+description: يشرح هذا الموضوع كيفية استيراد حركات بطاقات الائتمان ذات الصلة بالمصروفات وصيانتها. يمكن إعداد هذه الحركات بحيث يتم استيرادها تلقائيًا على جدول متكرر، أو يمكن استيرادها يدويًا كما تقتضي الحاجة.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322641"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>استيراد حركات بطاقات الائتمان وصيانتها
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ ms.lasthandoff: 11/03/2017
 بعد أن يتم إنهاء سجل موظف، يتم تعطيل حساب خدمات مجال Active Directory (أو AD DS) للموظف. ومع ذلك، قد تكون هناك حركات بطاقات ائتمان نشطة التي يجب إدخالها في حساب المصروفات ودفعها كتعويض. من صفحة **حركات بطاقات الائتمان**، يمكنك إعادة تعيين الموظف لأي حركة بطاقة ائتمان حيث تم إنهاء خدمات الموظف المرتبط.
 
 حدد حركة بطاقة ائتمان واحدة أو أكثر، ثم انقر فوق **إعادة تعيين الحركات**. يمكنك بعد ذلك تحديد موظف آخر لتعيين حركات بطاقات الائتمان له. بعد إعادة تعيين حركات بطاقات الائتمان، يمكن تحديدها لتقرير المصروفات ودفعها من خلال العملية المنتظمة لتعويض تقرير المصروفات.
-

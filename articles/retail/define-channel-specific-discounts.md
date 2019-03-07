@@ -1,13 +1,13 @@
 ---
-title: "تحديد الخصومات الخاصة بالقناة"
-description: "يعيّن تجار البيع بالتجزئة في أغلب الأحيان خصومات مختلفة في قنوات مختلفة. يستعرض هذا الموضوع المفاهيم التي تحتاج إلى معرفتها لإنشاء خصم لقناة محددة."
+title: تحديد الخصومات الخاصة بالقناة
+description: يعيّن تجار البيع بالتجزئة في أغلب الأحيان خصومات مختلفة في قنوات مختلفة. يستعرض هذا الموضوع المفاهيم التي تحتاج إلى معرفتها لإنشاء خصم لقناة محددة.
 author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318593"
 ---
-
 # <a name="define-channel-specific-discounts"></a>تحديد الخصومات الخاصة بالقناة
 
 [!include [banner](includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 01/04/2019
 
 ‏‫يقدم تجار التجزئة غالباً خصومات مختلفة في قنوات مختلفة. وقد يتم إجراء هذا في ظروف السوق المحلية أو للتعامل مع تجار التجزئة المنافسين.‬
 
-يستخدم Microsoft Dynamics 365 for Retail مجموعات الأسعار لتحديد الخصومات الخاصة بالقناة. ويمكن تعيين مجموعات الأسعار لواحدة أو أكثر من الوحدات التالية: القنوات والكتالوجات والتبعيات وبرامج الولاء. وتتناول هذه المقالة القنوات، لكن نفس المفاهيم تنطبق على خصومات الكتالوج وخصومات التبعيات وخصومات الولاء.
+يستخدم Microsoft Dynamics 365 for Retail مجموعات الأسعار لتحديد خصومات خاصة بالقناة. ويمكن تعيين مجموعات الأسعار لواحدة أو أكثر من الوحدات التالية: القنوات والكتالوجات والتبعيات وبرامج الولاء. وتتناول هذه المقالة القنوات، لكن نفس المفاهيم تنطبق على خصومات الكتالوج وخصومات التبعيات وخصومات الولاء.
 
 ## <a name="price-groups"></a>مجموعات الأسعار
 
@@ -63,4 +62,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [تعديلات الأسعار والخصومات](price-adjustments-discounts.md)
-

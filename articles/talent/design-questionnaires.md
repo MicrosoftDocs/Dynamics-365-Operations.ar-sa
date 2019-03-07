@@ -1,13 +1,13 @@
 ---
-title: "تصميم الاستبيانات"
-description: "يوضح هذا الموضوع عملية إنشاء استبيان. والخطوة الأولى هو تصميم الاستبيان. عندما تقوم بتصميم استبيان، لا تقوم سوى بكتابة الأسئلة والإجابات، بل وتُنشئ أيضًا البنية التي تتيح إمكانية تسجيل الإجابات وجدولتها."
+title: تصميم الاستبيانات
+description: يوضح هذا الموضوع عملية إنشاء استبيان. والخطوة الأولى هو تصميم الاستبيان. عندما تقوم بتصميم استبيان، لا تقوم سوى بكتابة الأسئلة والإجابات، بل وتُنشئ أيضًا البنية التي تتيح إمكانية تسجيل الإجابات وجدولتها.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303112"
 ---
-
 # <a name="design-questionnaires"></a>تصميم الاستبيانات
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ ms.lasthandoff: 08/08/2018
 ويجب عليك تحديد كافة المعلمات قبل البدء في إنشاء البيانات. يمكنك تعديل إعدادات معلمات الاستبيان في أي وقت.
 
 ## <a name="questionnaire-components"></a>مكونات الاستبيان
-‏‫تشتمل الاستبيانات على ثلاثة عناصر رئيسية: الرد على المجموعات التي تحتوي على الإجابات عن الأسئلة متعددة الاختيارات، والأسئلة، والاستبيان ذاته. ويمكنك بشكل اختياري تجميع الأسئلة الموجودة في استبيان في مجموعات النتائج.‬ تمكّنك مجموعات النتائج من تصنيف الأسئلة وإجراء المزيد من التحليل في الاستبيان. 
+‏‫تشتمل الاستبيانات على ثلاثة عناصر رئيسية: الرد على المجموعات التي تحتوي على الإجابات عن الأسئلة متعددة الاختيارات، والأسئلة، والاستبيان ذاته. ويمكنك بشكل اختياري تجميع الأسئلة الموجودة في استبيان في مجموعات النتائج. تمكّنك مجموعات النتائج من تصنيف الأسئلة وإجراء المزيد من التحليل في الاستبيان. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -238,5 +237,4 @@ ms.lasthandoff: 08/08/2018
 [توزيع وإكمال الاستبيانات](distribute-questionnaires.md)
 
 [عرض نتائج الاستبيان وتقييمها](evaluate-questionnaire-results.md)
-
 

@@ -1,13 +1,13 @@
---- 
-title: "إعداد فئات الحساب الرئيسي"
-description: "يتم استخدام فئات الحساب الرئيسي للتقارير الافتراضية في الإبلاغ المالي وفي Power BI."
+---
+title: إعداد فئات الحساب الرئيسي
+description: يتم استخدام فئات الحساب الرئيسي للتقارير الافتراضية في الإبلاغ المالي وفي Power BI.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e46c7c86b93a3471ba10ec7ae6789f227bc9779c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 94e17d7cbcc8f826e806a8d4bc026a9d7844e910
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311440"
 ---
 # <a name="set-up-main-account-categories"></a>إعداد فئات الحساب الرئيسي
 
@@ -44,5 +44,4 @@ ms.lasthandoff: 09/29/2017
 3. حدد الخيار "مرتبطة" أو امسحه لاختيار الحسابات الرئيسية.
 4. انقر فوق موافق.
 5. انقر فوق نعم.
-
 

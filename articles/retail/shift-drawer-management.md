@@ -1,13 +1,13 @@
 ---
-title: "إدارة الورديات وأدراج النقد"
-description: "يشرح هذا الموضوع كيفية إعداد الورديات واستخدامها في نقاط البيع بالتجزئة."
+title: إدارة الورديات وأدراج النقد
+description: يشرح هذا الموضوع كيفية إعداد الورديات واستخدامها في نقاط البيع بالتجزئة.
 author: jblucher
 manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313004"
 ---
-
 # <a name="shift-and-cash-drawer-management"></a>إدارة الورديات وأدراج النقد
 
 [!include [banner](includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إعداد الورديات واستخدامها في نقاط البيع بالتجزئة.
 
-يصف مصطلح *وردية* في Microsoft Dynamics 365 for Retail، مجموعة بيانات الحركة والأنشطة بين نقطتين في نفس الوقت. بالنسبة لكل وردية، تتم مقارنة مبلغ المال المتوقع في مقابل المبلغ الذي تم حسابه وإعلانه.
+في Microsoft Dynamics 365 for Retail، يصف مصطلح *الوردية* مجموعة بيانات الحركة والأنشطة في نقطة البيع بين نقطتين في نفس الوقت. بالنسبة لكل وردية، تتم مقارنة مبلغ المال المتوقع في مقابل المبلغ الذي تم حسابه وإعلانه.
 
 عادةً، تُفتح الورديات في بداية يوم العمل. عند هذه النقطة، يعلن المستخدم عن مبلغ البداية الموجود في درج النقدية. بعد ذلك، يتم إجراء حركات المبيعات على مدار اليوم. وأخيرًا، وفي نهاية اليوم، يتم جرد الدرج، ويتم الإعلان عن المبالغ الختامية. يتم إغلاق الوردية، ويتم إنشاء تقرير Z. يشير تقرير Z إلى ما إذا كان هناك زيادة أو نقص.
 
@@ -70,7 +69,7 @@ ms.lasthandoff: 01/04/2019
 
 ## <a name="shift-and-drawer-operations"></a>الوردية وعمليات درج النقدية
 
-يمكن إجراء عمليات مختلفة لتغيير حالة أحد الورديات، أو لزيادة أو تقليل مبلغ المال في درج النقدية. يصف هذا القسم عمليات الوردية هذه لنقطة البيع الحديثة لـ Microsoft Dynamics 365 for Retail ونقطة بيع المجموعة .
+يمكن إجراء عمليات مختلفة لتغيير حالة أحد الورديات، أو لزيادة أو تقليل مبلغ المال في درج النقدية. يصف هذا القسم عمليات الوردية في Microsoft Dynamics 365 for Retail Modern POS وCloud POS.
 
 ### <a name="open-shift"></a>الوردية المفتوحة
 
@@ -159,4 +158,3 @@ ms.lasthandoff: 01/04/2019
 يساعد هذا الإعداد على ضمان أن تتضمن كشوفات حسابات مكتب الدعم نفس الحركات كالورديات في نقطة البيع، وأن البيانات تم تلخيصها من خلال هذه الوردية.
 
 للحصول على مزيد من المعلومات حول كشف الحساب وأساليب الإقفال، راجع [تكوينات المتجر لكشف حساب البيع بالتجزئة](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
-

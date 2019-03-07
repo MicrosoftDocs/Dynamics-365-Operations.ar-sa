@@ -1,13 +1,13 @@
---- 
-title: "إنشاء الفواتير ذات النص الحر‬"
-description: "يشرح هذا الموضوع كيفية إنشاء الفواتير ذات النص الحر‬."
+---
+title: إنشاء الفواتير ذات النص الحر‬
+description: يشرح هذا الموضوع كيفية إنشاء الفواتير ذات النص الحر‬.
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
 ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332232"
 ---
-
 # <a name="create-free-text-invoices"></a>إنشاء الفواتير ذات النص الحر‬
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ ms.lasthandoff: 09/05/2018
 يمكنك إنشاء فاتورة نص حر من قالب. عندما تحدد **جديد من قالب** من علامة تبويب **الفاتورة**، يمكنك تحديد اسم قالب وحساب العميل لفاتورة النص الحر الجديدة. يمكن ملء القيم الافتراضية، مثل شروط الدفع وطريقة الدفع، من العميل بشكل تلقائي، أو يمكنك استخدام القيم التي تم حفظها مع القالب.
 
 يتم إنشاء فاتورة نص حر جديدة ويمكنك تحرير القيم حسب الحاجة.
-

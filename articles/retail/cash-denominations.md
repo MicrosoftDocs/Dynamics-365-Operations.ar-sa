@@ -1,13 +1,13 @@
 ---
-title: "تكوين الفئات النقدية‬ لنقطة البيع (POS)"
-description: "يمكن تكوين فئات العملة‬ للأوراق النقدية والعملات المعدنية في مكتب الخدمة لكي يتم استخدامها من قِبل موظفي الكاشير وشركاء المبيعات‬ والمدراء في المتجر من خلال نقطة البيع."
+title: تكوين الفئات النقدية‬ لنقطة البيع (POS)
+description: يمكن تكوين فئات العملة‬ للأوراق النقدية والعملات المعدنية في مكتب الخدمة لكي يتم استخدامها من قِبل موظفي الكاشير وشركاء المبيعات‬ والمدراء في المتجر من خلال نقطة البيع.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343502"
 ---
-
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>تكوين الفئات النقدية‬ لنقطة البيع (POS)
 
 [!include [banner](includes/banner.md)]
@@ -53,4 +52,3 @@ ms.lasthandoff: 01/04/2019
 
 - **أكبر من أو يساوي المبلغ المستحق** – بشكل افتراضي، سوف تعرض نقطة البيع فقط فئات الأوراق النقدية الأكبر من المبلغ المستحق، مما يسمح بالدفع بلمسة واحدة. على سبيل المثال، إذا كان المبلغ المستحق 7.50 دولار، فستعرض نقطة البيع الفئات التالية: 10 دولارات و20 دولارًا و50 دولارًا و100 دولار. سيؤدي لمس أي واحد من هذه المبالغ إلى دفع قيمة البيع بهذا المبلغ. لا تظهر الأوراق النقدية من دولار وخمس دولارات لأن هذه المبالغ هي أقل من المبلغ المستحق.
 - **جميع الفئات** – حدد هذا الخيار لإظهار دومًا كافة فئات الأوراق النقدية في نقطة البيع، بغض النظر عن المبلغ المستحق. وهذا يعني أنه باستطاعة المستخدم استخدام مجموعة من الأوراق النقدية للوصول إلى المبلغ المستحق. على سبيل المثال، إذا كان المبلغ المستحق 25 دولارًا، يستطيع المستخدم اختيار 20 دولارًا و5 دولارات لإكمال عملية البيع.
-

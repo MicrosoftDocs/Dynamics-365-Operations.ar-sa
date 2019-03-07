@@ -1,13 +1,13 @@
 ---
-title: "إعداد برامج الاستمرارية لمراكز الاتصال"
-description: "تصف هذه المقالة كيفية إعداد ‏‫برنامج الاستمرارية لمركز الاتصال."
+title: إعداد برامج الاستمرارية لمراكز الاتصال
+description: تصف هذه المقالة كيفية إعداد ‏‫برنامج الاستمرارية لمركز الاتصال.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 369856f33c6da49b6c6b3f51f42c99a8f07fe777
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 9952785afd8e5d1877e96239ee23f9de1c332bcf
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320962"
 ---
-
 # <a name="set-up-continuity-programs-for-call-centers"></a>إعداد برامج الاستمرارية لمراكز الاتصال
 
 [!include [banner](includes/banner.md)]
@@ -51,4 +50,3 @@ ms.lasthandoff: 08/08/2018
 - **توسيع بنود الاستمرارية** (عند اللزوم) – توسيع عدد المرات التي يمكن تكرارها حدثاً استمرارية. ويمكن لتكرار الشحنات فيما بعد تجاوز الحد الذي تم تعيينه في حقل **حد تكرار الاستمرارية** في معلمات مركز الاتصالات.
 - **تنفيذ عملية تحديث استمرارية** (عند اللزوم) – مزامنة التغييرات بين برنامج الاستمرارية وأوامر المبيعات الأصلية الاستمرارية.
 - **إغلاق بنود وأوامر الاستمرارية الأصلية** – إغلاق أوامر الاستمرارية.
-

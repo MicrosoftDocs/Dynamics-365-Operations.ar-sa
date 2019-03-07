@@ -1,13 +1,13 @@
 ---
-title: "طريقة توزيع التكلفة الإجمالية"
-description: "يوفر هذا الموضوع إرشادات لاستخدام إجمالي توزيع التكلفة (TCA). إن إجمالي توزيع التكلفة عبارة عن أسلوب لحساب التكلفة بين صنف مركب لأمر دُفعة والمنتجات المساعدة التي يتم تعريفها للمعادلة."
+title: طريقة توزيع التكلفة الإجمالية
+description: يوفر هذا الموضوع إرشادات لاستخدام إجمالي توزيع التكلفة (TCA). إن إجمالي توزيع التكلفة عبارة عن أسلوب لحساب التكلفة بين صنف مركب لأمر دُفعة والمنتجات المساعدة التي يتم تعريفها للمعادلة.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341570"
 ---
-
 # <a name="total-cost-allocation-method"></a>طريقة توزيع التكلفة الإجمالية
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ ms.lasthandoff: 11/03/2017
 -   **النسبة المئوية** ─ يتم حساب مبلغ التكلفة كنسبة مئوية لإجمالي تكلفة المواد الخام المستهلكة في الإنتاج. يتم إدخال أدخل النسبة المئوية المستخدمة في الحساب في الحقل.
 -   **حسب السلسلة‬** ─ يتم حساب مبلغ التكلفة كمبلغ لكل حجم دُفعة قياسية لأمر الإنتاج. هذا المبلغ مستقل عن الكمية التي تم الإبلاغ عنها في الإنتاج. يتم إدخال المبلغ المستخدم في الحساب في الحقل.
 -   **لكل كمية‬** ─ يتم حساب مبلغ التكلفة كمبلغ لكل كمية تم الإبلاغ عنها للصنف المركب في الإنتاج. يتم إدخال المبلغ المستخدم في الحساب في الحقل.
-
 
 
 

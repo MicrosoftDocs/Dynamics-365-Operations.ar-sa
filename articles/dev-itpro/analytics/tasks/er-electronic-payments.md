@@ -1,13 +1,13 @@
---- 
-title: "تعمل التقارير الإلكترونية على إنشاء التقارير الإلكترونية للدفعات باستخدام تكوين التنسيق"
-description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية استخدام تكوين تنسيق تقارير إلكترونية جديد يحتوي على نموذج بيانات لإنشاء مستندات الدفع الإلكتروني لمعالجة الدفعات."
+---
+title: تعمل التقارير الإلكترونية على إنشاء التقارير الإلكترونية للدفعات باستخدام تكوين التنسيق
+description: تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية استخدام تكوين تنسيق تقارير إلكترونية جديد يحتوي على نموذج بيانات لإنشاء مستندات الدفع الإلكتروني لمعالجة الدفعات.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cf2ae8fb451eba1054bb94edbce009dcfa8c872c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348309"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>تعمل التقارير الإلكترونية على إنشاء التقارير الإلكترونية للدفعات باستخدام تكوين التنسيق
 
@@ -81,5 +81,4 @@ ms.lasthandoff: 09/14/2018
 24. انقر فوق "موافق".
 25. انقر فوق "موافق".
     * حلل ملف الدفع الذي تم إنشاؤه بتنسيق XML. قارنه بمخطط المستند المصمم وحدد سمات حركة الدفع.  
-
 

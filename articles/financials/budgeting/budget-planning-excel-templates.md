@@ -1,13 +1,13 @@
 ---
-title: "قوالب التخطيط للموازنة لـ Excel"
-description: "يوضح هذا الموضوع كيفية إنشاء قوالب Microsoft Excel التي يمكن استخدامها مع خطط الموازنة."
+title: قوالب تخطيط الموازنة لـ Excel
+description: يوضح هذا الموضوع كيفية إنشاء قوالب Microsoft Excel التي يمكن استخدامها مع خطط الموازنة.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: shylaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337039"
 ---
-
-# <a name="budget-planning-templates-for-excel"></a>قوالب التخطيط للموازنة لـ Excel
+# <a name="budget-planning-templates-for-excel"></a>قوالب تخطيط الموازنة لـ Excel
 
 [!include [banner](../includes/banner.md)]
 
@@ -61,7 +60,7 @@ ms.lasthandoff: 03/26/2018
 [![مثال](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> لتجنب المشاكل المحتملة في عرض وتحرير بيانات خطة الموازنة باستخدام Excel، يجب تسجيل دخول نفس المستخدم إلى كل من Microsoft Dynamics 365 for Finance and Operations وموصل بيانات وظيفة Office الإضافية لـ Microsoft Dynamics.
+> لتجنب المشاكل المحتملة في عرض وتحرير بيانات خطة الموازنة باستخدام Excel، يجب على المستخدم نفسه تسجيل دخوله إلى كل من Microsoft Dynamics 365 for Finance and Operations وموصل بيانات وظيفة Office الإضافية لـ Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>إضافة عنوان إلى قالب مستند خطة الموازنة
 لإضافة معلومات العنوان، حدد الصف العلوي في ملف Excel، ثم قم بإدراج صفوف فارغة. انقر فوق **تصميم** في **موصل البيانات** لإضافة حقول العنوان إلى ملف Excel.
@@ -136,7 +135,6 @@ ms.lasthandoff: 03/26/2018
 يمكنك أيضا إنشاء واستخدام الرسوم البيانية والجداول المحورية للتجميعات الإضافية والرسوم المرئية لبيانات الموازنة. في علامة تبويب **البيانات**، في مجموعة **اتصالات**، انقر فوق **"تحديث الكل"**، ثم انقر فوق **"خصائص الاتصال"**. انقر فوق علامة تبويب **الاستخدام**. ضمن **تحديث**، حدد خانة الاختيار **تحديث البيانات عند فتح الملف**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
-
 
 
 

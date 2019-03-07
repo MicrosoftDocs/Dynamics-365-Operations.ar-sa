@@ -1,13 +1,13 @@
---- 
-title: "تسجيل برنامج تسجيل دخول وتسجيل خروج السائق لموعد"
-description: "يوضح هذا الإجراء كيفية تسجيل عمليات تسجيل دخول السائق وخروجه."
+---
+title: تسجيل برنامج تسجيل دخول وتسجيل خروج السائق لموعد
+description: يوضح هذا الإجراء كيفية تسجيل عمليات تسجيل دخول السائق وخروجه.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSDriverLogListPage, TMSDriverCheckIn
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 557d4d1942d190760f6a3b3d0e0aca0769f8d385
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dcafcb067717a1d0ca6f45a57628fe001d1074f2
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315672"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>تسجيل برنامج تسجيل دخول وتسجيل خروج السائق لموعد
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/29/2017
 ## <a name="register-driver-check-out"></a>تسجيل عملية تسجيل خروج السائق
 1. انقر فوق "تسجيل خروج السائق".
 2. انقر فوق "موافق".
-
 

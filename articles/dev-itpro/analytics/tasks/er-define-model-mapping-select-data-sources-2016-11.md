@@ -1,13 +1,13 @@
---- 
-title: "تحديد تعيينات نماذج التقارير الإلكترونية وتحديد مصادر بيانات لها"
-description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تحديد مصادر البيانات لنموذج بيانات التقارير الإلكترونية."
+---
+title: تحديد تعيينات نماذج التقارير الإلكترونية وتحديد مصادر بيانات لها
+description: تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تحديد مصادر البيانات لنموذج بيانات التقارير الإلكترونية.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348861"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>تحديد تعيينات نماذج التقارير الإلكترونية وتحديد مصادر بيانات لها
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/14/2018
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>تحديد مصادر البيانات المطلوبة لتعيين النموذج الحالي
 1. انقر فوق المصمم.
-2. في الشجرة، حدد "Dynamics 365 for Operations\سجلات جدول".
+2. في الشجرة، حدد "Dynamics 365 for Operations\سجلات الجدول".
 3. انقر فوق "إضافة جذر".
     * أدخل مصدر هذه البيانات للوصول إلى حركات الدفع.  
 4. في الحقل "الاسم"، اكتب "الحركات".
@@ -110,7 +110,7 @@ ms.lasthandoff: 09/14/2018
 41. في الشجرة، قم بتوسيع "الحركات".
 42. في الشجرة، قم بتوسيع أو طي "الحركات\$المبلغ".
 43. في الشجرة، قم بتوسيع أو طي 'الحركات'.
-44. في الشجرة، حدد "Dynamics 365 for Operations\سجلات جدول".
+44. في الشجرة، حدد "Dynamics 365 for Operations\سجلات الجدول".
 45. انقر فوق "إضافة جذر".
     * أدخل مصدر البيانات هذا للوصول إلى تفاصيل الحساب البنكي للشركة.  
 46. في الحقل "الاسم"، اكتب "BankAccount".
@@ -157,5 +157,4 @@ ms.lasthandoff: 09/14/2018
 70. قم بإغلاق الصفحة.
 71. قم بإغلاق الصفحة.
 72. قم بإغلاق الصفحة.
-
 

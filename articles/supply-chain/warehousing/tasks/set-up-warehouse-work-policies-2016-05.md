@@ -1,13 +1,13 @@
---- 
-title: "إعداد سياسات عمل المستودع (استمارة تقديم، أيار/مايو 2016)"
-description: "لا تشمل عمليات المستودع دائمًا عمل المستودع."
+---
+title: إعداد سياسات عمل المستودع (استمارة تقديم، أيار/مايو 2016)
+description: لا تشمل عمليات المستودع دائمًا عمل المستودع.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 34b4255c85bb53f7e238b60559890571070953a6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335314"
 ---
 # <a name="set-up-warehouse-work-policies-application-may-2016"></a>إعداد سياسات عمل المستودع (استمارة تقديم، أيار/مايو 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-لا تشمل عمليات المستودع دائمًا عمل المستودع. بتحديد سياسة العمل، يمكنك منع إنشاء عمل لانتقاء المواد الخام ووضع البضائع المنتهية بعيدًا لمجموعة من المنتجات في مواقع محددة. تم استخدام شركة بيانات العرض التوضيحي USMF لإنشاء هذا التسجيل. يتطلب دليل المهام هذا تطبيق Dynamics AX 7.0.1 أو أحدث.
+لا تشمل عمليات المستودع دائمًا عمل المستودع. بتحديد سياسة العمل، يمكنك منع إنشاء عمل لانتقاء المواد الخام ووضع البضائع المنتهية بعيدًا لمجموعة من المنتجات في مواقع محددة. تم استخدام شركة بيانات العرض التوضيحي USMF لإنشاء هذا التسجيل. يتطلب دليل المهام هذا الإصدار 7.0.1 أو أحدث من تطبيق Dynamics AX.
 
 1. انتقل إلى إدارة المستودعات > الإعداد > العمل > سياسات العمل.
 2. انقر فوق "جديد".
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/14/2018
 19. في القائمة، قم بوضع علامة للصف المحدد.
 20. في الحقل "رقم الصنف"، أدخل "L0101" أو حددها.
 21. انقر فوق "حفظ".
-
 

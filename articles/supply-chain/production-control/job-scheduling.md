@@ -1,13 +1,13 @@
 ---
-title: "جدولة الوظيفة"
-description: "توفر هذه المقالة معلومات حول جدولة الوظائف، وهو نموذج جدولة أكثر تفصيلاً من جدولة العمليات. يمكنك استخدام جدولة الوظائف لجدولة الوظائف الفردية أو أوامر التسوق، وللتحكم في بيئة التصنيع."
+title: جدولة الوظيفة
+description: توفر هذه المقالة معلومات حول جدولة الوظائف، وهو نموذج جدولة أكثر تفصيلاً من جدولة العمليات. يمكنك استخدام جدولة الوظائف لجدولة الوظائف الفردية أو أوامر التسوق، وللتحكم في بيئة التصنيع.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d506a6fbeb7e88dc6b1709203bc0822b1f4dc0f8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8162797256e221192dc3e1a12aa145e28d5bc0f5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339523"
 ---
-
 # <a name="job-scheduling"></a>جدولة الوظيفة
 
 [!include [banner](../includes/banner.md)]
@@ -75,7 +74,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="resource-efficiency"></a>كفاءة الموارد
 تراعي جدولة الوظائف النسب المئوية للكفاءة المحددة للموارد. وتقلل النسب المئوية للكفاءة أو تزيد من الوقت المحجوز للمورد. وبالتالي، يزداد وقت الإنتاج أو يقل. تُستخدم المعادلة التالية للحساب: وقت الجدولة = الوقت × 100 ÷ النسبة المئوية للفعالية بهذه المعادلة، ويتضمن *الوقت* كلاًّ من وقت التشغيل ووقت الإعداد.
-
 
 
 

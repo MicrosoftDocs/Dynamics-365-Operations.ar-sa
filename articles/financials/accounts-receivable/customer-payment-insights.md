@@ -1,28 +1,27 @@
 ---
-title: "معلومات دفع العميل (المعاينة)"
-description: "يصف هذا الموضوع كيف يمكن لمعلومات دفع العميل المساعدة في توقع الوقت الذي سيتم فيه دفع فاتورة ما ومساعدة المؤسسات على إنشاء استراتيجيات تحسين تعمل على تحسين احتمال تلقي الدفع في الوقت المحدد."
+title: معلومات دفع العميل (المعاينة)
+description: يصف هذا الموضوع كيف يمكن لمعلومات دفع العميل المساعدة في توقع الوقت الذي سيتم فيه دفع فاتورة ما ومساعدة المؤسسات على إنشاء استراتيجيات تحسين تعمل على تحسين احتمال تلقي الدفع في الوقت المحدد.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-04-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 9e722db6302d7ef51c01601cde245d4f4a333eba
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344652"
 ---
-
 # <a name="customer-payment-insights-preview"></a>معلومات دفع العميل (المعاينة)
 
 [!include[banner](../includes/banner.md)]
@@ -77,5 +76,4 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="privacy-statement"></a>بيان الخصوصية
 
-معاينات بيانات العملاء في المتجر في الولايات المتحدة. بالإضافة إلى ذلك، فإن المعاينات (1) قد تستخدم أقل من خصوصية وإجراءات الأمان مقارنةً بخدمة من Dynamics 365 for Finance and Operations‏، و(2) هي غير مضمنة في اتفاقية مستوى الخدمة لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
-
+معاينات بيانات العملاء في المتجر في الولايات المتحدة. بالإضافة إلى ذلك، فإن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 for Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.

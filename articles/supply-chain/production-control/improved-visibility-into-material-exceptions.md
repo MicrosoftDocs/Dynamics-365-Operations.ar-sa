@@ -1,13 +1,13 @@
 ---
-title: "رؤية في استثناءات المواد"
-description: "يوضح هذا الموضوع كيفية الحصول على رؤية أفضل في استثناءات المواد الخام لأوامر الإنتاج وأوامر المجموعة."
+title: رؤية في استثناءات المواد
+description: يوضح هذا الموضوع كيفية الحصول على رؤية أفضل في استثناءات المواد الخام لأوامر الإنتاج وأوامر المجموعة.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -16,13 +16,13 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344744"
 ---
 # <a name="visibility-into-material-exceptions"></a>رؤية في استثناءات المواد
 
@@ -67,4 +67,3 @@ ms.lasthandoff: 03/07/2018
 يُظهر تجانب **‏‫‏‫عمل مستودع مفتوح يتطلب الانتباه‬‬** رقم قائمة مكونات الصنف وبنود المعادلة التي تم إصدارها إلى المستودع، التي تحتوي على عمل غير مُعالج، والتي يكون لها تاريخ مادة خام أقدم من أو نفس تاريخ مساحة العمل. يجب أيضًا أن تكون البنود مستهلكة بحسب مورد العمليات الذي ينطبق على عامل تصفية مساحة العمل.
 
 عند تحديد التجانب، يتم فتح صفحة **العمل بالكامل**. يتم تصفية هذه الصفحة بحسب عدد رؤوس العمل المفتوحة التي تحتوى على بنود العمل من قائمة مكونات الصنف المُصدرة وبنود المعادلة التي تلبي المعايير للتجانب. من صفحة **العمل بالكامل**، يمكنك معالجة العمل يدويًا.
-

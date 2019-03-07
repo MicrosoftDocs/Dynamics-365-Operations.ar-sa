@@ -1,13 +1,13 @@
---- 
-title: "إعداد التدرج الهرمي لفئات التدبير"
-description: "يوضح هذا الإجراء كيفية إنشاء عقد جديد في تدرج هرمي لفئات التدبير وكيفية تكوين فئة تدبير لاستخدامها في عملية تدبير."
+---
+title: إعداد التدرج الهرمي لفئات التدبير
+description: يوضح هذا الإجراء كيفية إنشاء عقد جديد في تدرج هرمي لفئات التدبير وكيفية تكوين فئة تدبير لاستخدامها في عملية تدبير.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/06/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01809a8a3256342682d8a9cfb296a355310fe4ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
-ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334509"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>إعداد التدرج الهرمي لفئات التدبير
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 11/06/2017
 6. قم بتبديل توسيع قسم "صفحة الفئات".
     * يتم إنشاء صفحات الفئات في صفحة التسلسل الهرمي للفئات. وتتضمن هذه الصفحات معلومات حول فئة التدبير مثل معلومات عن نوع المنتجات في فئة ما أو صور المنتجات في فئة ما أو إعلانات مثل الخصومات المتوفرة في فئة. تُعرض المعلومات المتوفرة في صفحة فئات بطلبات الشراء.  
 7. قم بإغلاق الصفحة.
-
 

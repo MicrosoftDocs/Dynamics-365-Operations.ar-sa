@@ -1,13 +1,13 @@
 ---
-title: "خطابات الاعتماد وتحصيلات الاستيراد"
-description: "توفر هذه المقالة معلومات عامة حول مجموعات الاستيراد وخطابات الاعتماد. يُستخدم هذان النوعان من المستندات البنكية بشكل شائع لشراء وبيع السلع عبر الحدود الدولية."
+title: خطابات الاعتماد وتحصيلات الاستيراد
+description: توفر هذه المقالة معلومات عامة حول مجموعات الاستيراد وخطابات الاعتماد. يُستخدم هذان النوعان من المستندات البنكية بشكل شائع لشراء وبيع السلع عبر الحدود الدولية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323032"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>خطابات الاعتماد وتحصيلات الاستيراد
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ ms.lasthandoff: 11/03/2017
 تحصيل الاستيراد هو اتفاق بين البنك والمصدر (البائع) يوافق فيه البنك على تسليم وثائق الشحن إلى المستورد الدولي (المشتري). ويُتوقع من البنك تسليم وثائق الشحن عند استلام دفعة قيمة للبضائع المشحونة نقدًا، أو عند استلام مسودة موقعة للدفع. 
 
 يساعد تحصيل الاستيراد على ضمان أن يتم الدفع للبائع عندما يقوم المشتري بتجميع وثائق الشحن لاستلام البضائع المستوردة.
-
 
 
 

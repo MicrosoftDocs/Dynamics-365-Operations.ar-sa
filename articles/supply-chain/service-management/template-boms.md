@@ -1,31 +1,30 @@
 ---
-title: "قوائم مكونات الصنف القالب"
-description: "توفر قوائم مكونات الصنف القالب (BOM) قائمة معيارية من مكوِّنات كائنات الخدمة التي يتم تقديمها بصورة منتظمة."
+title: قوائم مكونات الصنف القالب
+description: توفر قوائم مكونات الصنف القالب (BOM) قائمة معيارية من مكوِّنات كائنات الخدمة التي يتم تقديمها بصورة منتظمة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
 ms.openlocfilehash: f9c61ecd79f38301f46e3c21a33ec2801f33d19f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341294"
 ---
-
 # <a name="template-boms"></a>قوائم مكونات الصنف القالب    
 
 [!include [banner](../includes/banner.md)]
@@ -133,6 +132,5 @@ ms.lasthandoff: 09/20/2018
 [تعديل شجرة مواد الخدمة](modify-service-bom.md)
 
  
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "عرض التقارير المالية"
-description: "تصف هذه المقالة كيفية عرض التقارير المالية واستكشافها في Microsoft Dynamics 365 for Finance and Operations. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها."
+title: عرض التقارير المالية
+description: توضح هذه المقالة كيفية عرض واستكشاف التقارير المالية في Microsoft Dynamics 365 for Finance and Operations. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
 author: kweekley
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312935"
 ---
-
 # <a name="view-financial-reports"></a>عرض التقارير المالية
 
 [!include [banner](../includes/banner.md)]
 
-تصف هذه المقالة كيفية عرض التقارير المالية واستكشافها في Microsoft Dynamics 365 for Finance and Operations. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
+توضح هذه المقالة كيفية عرض واستكشاف التقارير المالية في Microsoft Dynamics 365 for Finance and Operations. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
 
 <a name="financial-reporting-overview"></a>نظرة عامة على التقارير المالية
 ----------------------------
@@ -82,13 +81,12 @@ ms.lasthandoff: 05/08/2018
 بعد الانتهاء من إعداد خيارات الطباعة، انقر فوق **طباعة** لطباعة التقرير. إذا قررت أنك لا تريد طباعة التقرير، انقر فوق **إلغاء** بدلاً من ذلك. يتم عرض معاينة للتقرير المطبوع. يمكنك تحديد الطابعة لإرسال التقرير إليها، ويمكنك أيضًا ضبط خيارات الطباعة.
 
 ## <a name="export-a-financial-report"></a>تصدير تقرير مالي
-لتصدير تقرير مالي، في "جزء الإجراءات"، انقر فوق **تصدير**. تم تصدير التقرير إلى Microsoft Excel، ويطالبك المستعرض الخاص بك بفتح أو حفظ الملف الذي تم تصديره. يتم تطبيق إعدادات التصدير التي تم تحديدها في تصميم التقرير على التقرير الذي تم تصديره.    
+لتصدير تقرير مالي، في "جزء الإجراءات"، انقر فوق **تصدير**. يتم تصدير التقرير إلى Microsoft Excel، ويطالبك المستعرض بفتح الملف المصدّر أو حفظه. يتم تطبيق إعدادات التصدير التي تم تحديدها في تصميم التقرير على التقرير الذي تم تصديره.    
 
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
 [التقارير المالية في Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
-
 
 
 

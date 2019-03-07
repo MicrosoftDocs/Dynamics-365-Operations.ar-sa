@@ -1,13 +1,13 @@
 ---
-title: "إدارة الإجازة والغياب"
-description: "يوفر هذا الموضوع نظرة عامة على وحدة إدارة الإجازات والغياب."
+title: إدارة الإجازة والغياب
+description: يوفر هذا الموضوع نظرة عامة على وحدة إدارة الإجازات والغياب.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 72bfbb878fa076e204e00c3ccaceb4ba04c00ea9
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303105"
 ---
 # <a name="leave-and-absence-management"></a>إدارة الإجازة والغياب
 
@@ -68,4 +68,3 @@ ms.lasthandoff: 08/08/2018
 - **إرسال طلبات الإجازات.**
 
     يمكن للموظفين إرسال طلبات الإجازات في مقابل ساعاتهم المتوفرة. قد تكون الطلبات عبارة عن طلبات بسيطة ليوم واحد أو طلبات متعددة الأيام تتضمن أنواع إجازات وغياب متعددة. إذا لم يتم تمكين سير عمل، فستتم الموافقة على الطلبات تلقائيًا. إذا تم تمكين سير عمل، فقد تتم الموافقة بشكل تلقائي أو قد تتطلب اعتمادًا بحسب تكوين سير العمل.
-

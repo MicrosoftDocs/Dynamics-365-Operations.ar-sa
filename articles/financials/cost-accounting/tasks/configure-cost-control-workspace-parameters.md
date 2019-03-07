@@ -1,13 +1,13 @@
---- 
-title: "تكوين معلمات مساحة عمل مراقبة التكلفة"
-description: "استخدم هذا الإجراء لتكوين مساحة عمل التحكم في التكلفة لتمكين المدراء من مستويات مختلفة في المؤسسة من الحصول على نظرة أعمق على كائنات التكلفة، مثل مراكز التكلفة ومجموعات المنتجات."
+---
+title: تكوين معلمات مساحة عمل مراقبة التكلفة
+description: استخدم هذا الإجراء لتكوين مساحة عمل التحكم في التكلفة لتمكين المدراء من مستويات مختلفة في المؤسسة من الحصول على نظرة أعمق على كائنات التكلفة، مثل مراكز التكلفة ومجموعات المنتجات.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f9c50bb0ab7f1b0afadfabb687932f96ab6e689
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8ede40951d08e159358b713fc3dde46576a1b4e3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308565"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>تكوين معلمات مساحة عمل مراقبة التكلفة
 
@@ -57,5 +57,4 @@ ms.lasthandoff: 09/29/2017
 26. في حقل "فترة التقويم المالي"، أدخل قيمة أو حددها.
 27. في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.
     * بعد تحديد التدرج الهرمي لبعد كائن تكلفة، قم بتوسيع التدرج الهرمي لبعد عنصر التكلفة لعرض قيم التكلفة المطلوبة. على سبيل المثال، يمكنك توسيع التدرج الهرمي إلى تكاليف التصنيع لرؤية القيمة.  
-
 

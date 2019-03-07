@@ -1,13 +1,13 @@
---- 
-title: "إعداد التعبئة في حاويات"
-description: "يصف هذا الإجراء كيفية جعل تعبئة الأحمال في إدارة المستودع عملية تلقائية."
+---
+title: إعداد التعبئة في حاويات
+description: يصف هذا الإجراء كيفية جعل تعبئة الأحمال في إدارة المستودع عملية تلقائية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 56fc6adc2a0eeb5b824089ff4b1b781f3a99a34c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321675"
 ---
 # <a name="set-up-containerization"></a>إعداد التعبئة في حاويات
 
@@ -115,5 +115,4 @@ ms.lasthandoff: 09/29/2017
 11. في الحقل "جدول"، حدد خيارًا.
 12. في حقل "تحديد الحقل"، أدخل قيمة أو حددها.
 13. انقر فوق "موافق".
-
 

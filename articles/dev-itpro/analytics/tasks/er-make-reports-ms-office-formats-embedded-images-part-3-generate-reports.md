@@ -1,13 +1,13 @@
---- 
-title: "إنشاء تقارير بتنسيق Office تحتوي على صور مضمنة"
-description: "تشرح الخطوات التالية كيف يمكن لمستخدم يؤدي دور \"مسؤول النظام\" أو \"مطور التقارير الإلكترونية\" تصميم تكوينات تقارير إلكترونية لإنشاء مستندات إلكترونية بتنسيقات MS office (مستندات Excel وWord) تحتوي على صور مضمنة."
+---
+title: إنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
+description: تشرح الخطوات التالية كيف يمكن لمستخدم يؤدي دور "مسؤول النظام" أو "مطور التقارير الإلكترونية" تصميم تكوينات تقارير إلكترونية لإنشاء مستندات إلكترونية بتنسيقات MS office (مستندات Excel وWord) تحتوي على صور مضمنة.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 5ef7ec2f8b5b7fdf456ebb71b863e620ae21e6b5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327172"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>إنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
 
@@ -119,5 +119,4 @@ ms.lasthandoff: 08/08/2018
 22. انقر فوق "اختبار الطباعة‬".
 23. انقر فوق "موافق".
     * اعمل على مراجعة المخرجات المنشأة. لاحظ أنه قد تم إنشاء المخرجات كمستند MS Word مع صور مضمنة تقدم شعار الشركة وتوقيع شخص معتمد والنص المحدد للعلامة المائية.  
-
 

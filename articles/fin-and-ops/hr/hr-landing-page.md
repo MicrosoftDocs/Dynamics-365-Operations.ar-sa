@@ -1,13 +1,13 @@
 ---
-title: "الموارد البشرية"
-description: "يعمل قسم الموارد البشرية على تبسيط العديد من المهام الروتينية المتعلقة بحفظ السجلات وعلى أتمتة عدد من العمليات المتعلقة بتعيين الموظفين في مؤسستك. وهو يوفر أيضًا إطار عمل لموظفي الموارد البشرية لإدارة مجالات الرقابة. تشمل هذه المجالات عمليات تعيين الموظفين واستبقائهم وإدارة الميزات والتدريب ومراجعات الأداء وإدارة التغيير."
+title: الموارد البشرية
+description: يعمل قسم الموارد البشرية على تبسيط العديد من المهام الروتينية المتعلقة بحفظ السجلات وعلى أتمتة عدد من العمليات المتعلقة بتعيين الموظفين في مؤسستك. وهو يوفر أيضًا إطار عمل لموظفي الموارد البشرية لإدارة مجالات الرقابة. تشمل هذه المجالات عمليات تعيين الموظفين واستبقائهم وإدارة الميزات والتدريب ومراجعات الأداء وإدارة التغيير.
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341754"
 ---
-
 # <a name="human-resources"></a>الموارد البشرية
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ ms.lasthandoff: 12/18/2018
 
 - [إدارة برنامج ميزة](../../talent/manage-benefit-program.md)
 - [سياسات استحقاق الميزات](../../talent/benefit-eligibility-policies.md)
-- [إدارة الأصناف المقرضة للعاملين](../../talent/loan-items.md)
+- [إدارة الأصناف المعارة للعاملين](../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>الحفاظ على السلامة والامتثال في أماكن العمل
 
@@ -95,4 +94,3 @@ ms.lasthandoff: 12/18/2018
 - [تصميم استبيان](../../talent/design-questionnaires.md)
 - [توزيع وإكمال استبيان](../../talent/distribute-questionnaires.md)
 - [عرض وتقييم نتائج الاستبيان](../../talent/evaluate-questionnaire-results.md)
-

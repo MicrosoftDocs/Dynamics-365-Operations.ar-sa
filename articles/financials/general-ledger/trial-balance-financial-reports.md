@@ -1,13 +1,13 @@
 ---
-title: "التقارير المالية لميزان المراجعة"
-description: "توضح هذه المقالة التقارير الافتراضية لموازين المراجعة. كما توضح العناصر الأساسية التي تقترن بهذه التقارير وكيف يمكنك تعديل التقارير لتناسب متطلبات العمل الخاص بك."
+title: التقارير المالية لميزان المراجعة
+description: توضح هذه المقالة التقارير الافتراضية لموازين المراجعة. كما توضح العناصر الأساسية التي تقترن بهذه التقارير وكيف يمكنك تعديل التقارير لتناسب متطلبات العمل الخاص بك.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9e8c16724364df4dd62150056299e818470aa63
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a61369033202bdb99fe4b36b24051c64cb9ca4b1
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309094"
 ---
-
 # <a name="trial-balance-financial-reports"></a>التقارير المالية لميزان المراجعة
 
 [!include [banner](../includes/banner.md)]
@@ -108,7 +107,6 @@ ms.lasthandoff: 05/08/2018
 [عرض التقارير المالية](view-financial-reports.md)
 
 [مدونة التقارير المالية في Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
 
 
 

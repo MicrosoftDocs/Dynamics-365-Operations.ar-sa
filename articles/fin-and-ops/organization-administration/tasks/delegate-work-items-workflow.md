@@ -1,13 +1,13 @@
---- 
-title: "تفويض عناصر العمل في سير عمل"
-description: "إذا كنت تخطط للتواجد خارج المكتب مما يعني أنك لن تكون متاحًا لاتخاذ الإجراءات اللازمة على عناصر العمل، فيمكنك تفويض عناصر العمل أو إعادة تعيينها إلى مستخدمين آخرين."
+---
+title: تفويض عناصر العمل في سير عمل
+description: إذا كنت تخطط للتواجد خارج المكتب مما يعني أنك لن تكون متاحًا لاتخاذ الإجراءات اللازمة على عناصر العمل، فيمكنك تفويض عناصر العمل أو إعادة تعيينها إلى مستخدمين آخرين.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4765fec0cdce0e2f8859c979ff97d20aa6b20bfa
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346239"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>تفويض عناصر العمل في سير عمل
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
 8. حدد خانة الاختيار "ممكّن‬" لتنشيط قاعدة التفويض.
     * إذا حددت "وحدة نمطية" كنطاق، فيجب عندئذٍ تحديد الوحدة النمطية في حقل "الاسم".    إذا حددت "سير العمل" كنطاق، فيجب عندئذٍ سير العمل المحدد الذي تريد تفوضه في حقل "الاسم".  
 9. في حقل "التعليقات"، أدخل تعليقًا يوضح سبب تفويض عناصر العمل.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "عرض محفوظات سير العمل"
-description: "استخدم هذه الخطوات لعرض حالة مستند تم إرساله إلى نظام سير العمل من أجل المعالجة والموافقة."
+---
+title: عرض محفوظات سير العمل
+description: استخدم هذه الخطوات لعرض حالة مستند تم إرساله إلى نظام سير العمل من أجل المعالجة والموافقة.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 212f9fe8bc7807b9209523564ead716959875241
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309646"
 ---
 # <a name="view-workflow-history"></a>عرض محفوظات سير العمل
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
     * تأكد من توسيع المقطع "عناصر العمل".    في هذا المقطع، يمكنك عرض عناصر العمل المقترنة بالمستند المحدد. على سبيل المثال، قد يلزم إكمال إحدى المهام، أو قد يلزم الموافقة على المستند.  
     * سيقوم الزر "إعادة تعيين" بفتح مربع حوار يمكنك من خلاله إعادة تعيين عنصر عمل لمستخدم آخر.  
     * تأكد من توسيع المقطع "تعقب التفاصيل".    في هذا المقطع، يمكنك عرض محفوظات سير العمل للمستند المحدد.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "قوالب السجل"
-description: "تقدم هذه المقالة مفهوم قوالب السجلات وتشرح كيفية استخدامها لإنشاء سجلات تشارك المعلومات."
+title: قوالب السجل
+description: تقدم هذه المقالة مفهوم قوالب السجلات وتشرح كيفية استخدامها لإنشاء سجلات تشارك المعلومات.
 author: pvillads
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 426fd8fafec061b649cbb31109ffe8fabc24917d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef5e95d9d6beed10cd6c80aa131c5cbef85c07a8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323561"
 ---
-
 # <a name="record-templates"></a>قوالب السجل
 
 [!include [banner](../includes/banner.md)]
 
 تقدم هذه المقالة مفهوم قوالب السجلات وتشرح كيفية استخدامها لإنشاء سجلات تشارك المعلومات.
 
-يمكن أن تساعدك قوالب السجل على إنشاء سجلات بشكل أسرع في Microsoft Dynamics 365 for Finance and Operations. ويمكن أن تنشئ قوالب السجل لبعض أنوع السجلات فقط في Microsoft Dynamics 365 for Finance and Operations.
+باستطاعة قوالب السجلات أن تساعدك على إنشاء السجلات بشكل أسرع في Microsoft Dynamics 365 for Finance and Operations. ويمكنك إنشاء قوالب السجلات لبعض أنوع السجلات فقط في Microsoft Dynamics 365 for Finance and Operations.
 
 على سبيل المثال، تخيل كنت تقوم بإدخال معلومات إيجار لشركة تأجير سيارات موجودة في سان فرانسيسكو. ولأن معظم العملاء ربما من منطقة سان فرانسيسكو، سيكون جميلا إذا تمكنت من ملء القيم تلقائياً في حقول **الحالة**، و**البلد**، و**المدينة** في نموذج التأجير.
 
@@ -39,4 +38,3 @@ ms.lasthandoff: 11/03/2017
 > يمكنك تطبيق القوالب فقط على مناطق Finance and Operations التي لديك حق الوصول إليها. ومع ذلك، يمكنك رؤية كافة عناوين القوالب عند إنشاء سجل جديد، ويمكن للمستخدمين الآخرين رؤيتها أيضًا، وذلك في حالة إنشاء القوالب التي ستكون متوفرة لكافة المستخدمين. تأكد من ذلك عند القيام بتسمية القوالب. فعلى سبيل المثال، تجنب استخدام أسماء تحتوي على كلمات مثل "العمولة"، إذا كان يُعد حصول بعض الموظفين في الشركة على رواتب تعتمد على العمولات أمرًا سريًا.
 
 إذا كان يوجد قالب واحد أو أكثر يكون لك حق الوصول إليه في نموذج معين وأنت تحاول إنشاء سجل جديد في النموذج، يتم عرض النموذج **تحديد قالب لـ**. وعند تحديد قالب من القائمة، يتم إنشاء السجل الجديد والذي يحتوي على معلومات افتراضية مستندة إلى القالب الذي حددته. إذا كنت لا تريد استخدام القوالب عند إنشاء سجلات جديدة، فحدد خانة الاختيار **عدم السؤال مرة أخرى** في الصفحة **‏‫تحديد قالب لـ**. لعرض مربع حوار تحديد القالب مرة أخرى، انقر بزر الماوس الأيمن فوق أي سجل، ثم انقر فوق **‏‫معلومات السجل**، ثم **‏‫إظهار تحديد القالب‬**.
-

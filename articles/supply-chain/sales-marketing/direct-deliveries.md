@@ -1,13 +1,13 @@
 ---
-title: "عمليات التسليم المباشرة"
-description: "يوفر هذا المقال معلومات حول عمليات التسليم المباشرة‬. عمليات التسليم المباشرة‬ عبارة عن عمليات تسليم يتم إرسالها من المورّد إلى عمليك بشكل مباشر."
+title: عمليات التسليم المباشرة
+description: يوفر هذا المقال معلومات حول عمليات التسليم المباشرة‬. عمليات التسليم المباشرة‬ عبارة عن عمليات تسليم يتم إرسالها من المورّد إلى عمليك بشكل مباشر.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9c4a695c591865c52ad5ee6d37a515139f58bf8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1f2cdae674dc88a4d533258e24b1ecf7ec4cf55b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312268"
 ---
-
 # <a name="direct-deliveries"></a>عمليات التسليم المباشرة
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="warehouse"></a>المستودع
 عندما تقوم بإنشاء تسليم مباشر، فالأصناف التي تقوم ببيعها لا تصل مطلقًا إلى المستودع الخاص بك. ومع ذلك، لا يزال يجب تحديد مستودع في سطر أمر المبيعات. وبالمثل، انتقاء متطلبات قد يتم تحديدها للصنف في مجموعة نموذج الصنف. ومع ذلك، نظراً لاستحالة وصول الأصناف فعلياً في المستودع الخاص بك، يتم تجاهل هذه المتطلبات عندما يكون أمر التوريد تسليم مباشر.
-
 
 
 

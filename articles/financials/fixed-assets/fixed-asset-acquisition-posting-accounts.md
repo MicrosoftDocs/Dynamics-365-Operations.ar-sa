@@ -1,13 +1,13 @@
 ---
-title: "حسابات ترحيل الاستحواذ على الأصول الثابتة"
-description: "توضح هذه المقالة كيفية إعداد حسابات ترحيل دفتر الأستاذ العام للاستحواذ على الأصول."
+title: حسابات ترحيل الاستحواذ على الأصول الثابتة
+description: توضح هذه المقالة كيفية إعداد حسابات ترحيل دفتر الأستاذ العام للاستحواذ على الأصول.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a3ac1580e33197c0cd8a82f34804d4639945d861
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a1a7da48b45566217399bc1d01a9c6e87ad56ec8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325355"
 ---
-
 # <a name="fixed-asset-acquisition-posting-accounts"></a>حسابات ترحيل الاستحواذ على الأصول الثابتة
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ ms.lasthandoff: 11/03/2017
 وبالنسبة لعمليات الاستحواذ التي تم ترحيلها باستخدام دفتر يومية المخزون إلى الأصول الثابتة في دفتر الأستاذ العام، فلا يتم شراء الأصل الثابت من مصادر خارجية، إلا أنه يتم تحويله من المخزون الخاص بالشركة. وبالتالي، يُعد حساب المقابل حساب إصدار مخزون لصنف المخزون بإدارة المخزون.
 
 لمزيد من المعلومات، راجع [الحصول على الأصول عن طريق التدبير‬‏‫](acquire-assets-procurement.md).
-
 
 
 

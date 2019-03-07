@@ -1,13 +1,13 @@
 ---
-title: "مزامنة عقود المشاريع والمشاريع مباشرةً من Project Service Automation إلى Finance and Operations"
-description: "يوضح هذا الموضوع القالب والمهام الأساسية التي يتم استخدامها لمزامنة العقود والمشروعات مباشرةً من Microsoft Dynamics 365 لـ Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations."
+title: مزامنة عقود المشاريع والمشاريع مباشرةً من Project Service Automation إلى Finance and Operations
+description: يصف هذا الموضوع القالب والمهام الأساسية التي يتم استخدامها لمزامنة مهام المشاريع وعقود المشاريع مباشرة من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,27 +17,26 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312107"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة عقود المشاريع والمشاريع مباشرةً من Project Service Automation إلى Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-يوضح هذا الموضوع القالب والمهام الأساسية التي يتم استخدامها لمزامنة العقود والمشروعات مباشرةً من Microsoft Dynamics 365 لـ Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations.
+يصف هذا الموضوع القالب والمهام الأساسية التي يتم استخدامها لمزامنة مهام المشاريع وعقود المشاريع مباشرة من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE] 
-> إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0، فيجب عليك تثبيت قاعدة المعارف 4074835.
+> إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0، فيجب تثبيت KB 4074835.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>تدفق البيانات الخاصة بـ Project Service Automation إلى Finance and Operations
 
 > [!NOTE]
-> قبل أن تتمكن من استخدام Project Service Automation إلى حل تكامل Finance and Operations، يجب أن تكون على دراية بميزة تكامل بيانات Microsoft Dynamics 365.
+> قبل أن تتمكن من استخدام حل تكامل Project Service Automation مع Finance and Operations، يجب أن تكون ملمًا بميزة تكامل البيانات في Microsoft Dynamics 365.
 
 يستخدم الحل المتكامل لـ Project Service Automation إلى Finance and Operations ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Project Service Automation و Finance and Operations يُتيح تكامل القالب المتوفر مع ميزة تكامل البيانات تدفق البيانات حول عقود المشروعات والمشروعات وبنود عقود المشروعات والنقاط الهامة لبنود عقود المشروعات من Project Service Automation إلى Finance and Operations.
 
@@ -47,7 +46,7 @@ ms.lasthandoff: 11/01/2018
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 
-للوصول إلى القوالب المتوفرة، في مركز إدارة Microsoft PowerApps ، حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
+للوصول إلى القوالب المتوفرة، في مركز إدارة Microsoft PowerApps، حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
 يتم استخدام القالب التالي والمهام الأساسية لمزامنة عقود المشروعات والمشروعات من Project Service Automation إلى Finance and Operations:
 
@@ -135,4 +134,3 @@ ms.lasthandoff: 11/01/2018
 [![تعيين القالب](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![تعيين القالب](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

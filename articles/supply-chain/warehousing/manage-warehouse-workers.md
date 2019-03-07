@@ -1,13 +1,13 @@
 ---
-title: "إدارة عمال المستودعات"
-description: "توضح هذه المقالة الطريقة التي يمكنك من خلالها استخدام Dynamics 365 for Finance and Operations للمساعدة في مراقبة ورصد العمل الذي يقوم به الموظفون في مستودعاتك."
+title: إدارة عمال المستودعات
+description: توضح هذه المقالة كيف يمكنك استخدام Dynamics 365 for Finance and Operations للمساعدة في مراقبة ورصد العمل الذي يقوم به الموظفون في المستودعات.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310980"
 ---
-
 # <a name="manage-warehouse-workers"></a>إدارة عمال المستودعات
 
 [!include [banner](../includes/banner.md)]
 
-توضح هذه المقالة الطريقة التي يمكنك من خلالها استخدام Microsoft Dynamics 365 for Finance and Operations للمساعدة في مراقبة ورصد العمل الذي يقوم به الموظفون في مستودعاتك.
+توضح هذه المقالة كيف يمكنك استخدام Microsoft Dynamics 365 for Finance and Operations للمساعدة في مراقبة ورصد العمل الذي يقوم به الموظفون في المستودعات.
 
 إذا كنت تستخدم الوظيفة في إدارة المستودعات، فإنه تتم الإشارة إلى جميع عمليات عمال المستودع كـ *عمل*. ويتم تسجيل العمل، مثل الانتقاء والنقل وجرد المخزون الفعلي باستخدام الأجهزة المحمولة. وقبل أن يمكن لعامل مستودع تنفيذ العمل، يجب إقرانه أو إقرانها بعامل في الموارد البشرية. ويمكن أن يشتمل كل حساب **عامل** على عدة مستخدمين لعمل المستودع مقترنين به. ويمكن لمستخدمي العمل أولئك العمل في مستودعات مختلفة ويمكنهم الحصول على مستويات مختلفة من الوصول إلى مختلف قوائم الأجهزة المحمولة. ويمكنك اعتبار مستخدمي عمل المستودع كعمليات تسجيل دخول متعددة للعامل المحدد. ويمتلك كل مستخدم عمل مستودعًا افتراضيًا، ويتم عرض مهام سير عمل معينة بواسطة عناصر القوائم المتوفرة لمستخدم العمل هذا. 
 
@@ -54,7 +53,6 @@ ms.lasthandoff: 03/26/2018
 
 -   **العمل حسب المستخدم** – يعرض هذا التقرير إنتاجية العامل، استناداً إلى الأوقاتت الفعلية مقابل الأوقات المتوقعة.
 -   **‏‫العمل حسب نوع حركة العمل** – يمكنك استخدام هذا التقرير لتحري أوجه القصور في عمليات مستودع معين. على سبيل المثال، لاحظت أن عمليات انتقاء أوامر التحويل تستغرق وقتاً أطول هذا الأسبوع  مقارنةً بالأسابيع السابقة. ويمكنك بعد ذلك استخدام هذه المعلومات لإجراء مزيد من التحقيقات.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI"
-description: "يشرح هذا الموضوع كيفية استخدام تكوين التقارير الإلكترونية لترتيب نقل البيانات من مثيل Finance and Operations إلى خدمات Power BI."
+title: تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
+description: يشرح هذا الموضوع كيفية استخدام تكوين التقارير الإلكترونية لترتيب نقل البيانات من مثيل Finance and Operations إلى خدمات Power BI.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335774"
 ---
-
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
 
 [!include [banner](../includes/banner.md)]
@@ -33,13 +32,13 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="overview"></a>نظرة عامة
 
-إن Microsoft Power BI عبارة عن مجموعة من خدمات البرامج والتطبيقات والموصلات التي تعمل معًا لتحويل مصادر البيانات الخارجية إلى معلومات معمقة مترابطة وتفاعلية ذات تأثيرات مرئية رائعة. يتيح إعداد التقارير الإلكترونية لمستخدمي Microsoft Dynamics 365 for Finance and Operations تكوين مصادر البيانات وترتيب نقل البيانات من Dynamics 365 for Finance and Operations إلى Power BI بسهولة. ويتم نقل البيانات كملفات بتنسيق ورقة عمل OpenXML (ملف مصنف Microsoft Excel). يتم تخزين الملفات المنقولة على Microsoft SharePoint Server تم تكوينه لهذا الغرض. ويتم استخدام الملفات المخزنة في Power BI لإنشاء تقارير تتضمن رسومًا مرئية (جداول ورسوم بيانية وخرائط وهكذا). وتتم مشاركة تقارير Power BI مع مستخدمي Power BI، ويتم الوصول إليها في لوحات معلومات Power BI وفي صفحات Finance and Operations. يشرح هذا الموضوع المهام التالية:
+إن Microsoft Power BI عبارة عن مجموعة من خدمات البرامج والتطبيقات والموصلات التي تعمل معًا لتحويل مصادر البيانات الخارجية إلى معلومات معمقة مترابطة وتفاعلية ذات تأثيرات مرئية رائعة. تسمح التقارير الإلكترونية لمستخدمي Microsoft Dynamics 365 for Finance and Operations بتكوين مصادر البيانات بسهولة وترتيب نقل البيانات من Finance and Operations إلى Power BI بسهولة. ويتم نقل البيانات كملفات بتنسيق ورقة عمل OpenXML (ملف مصنف Microsoft Excel). يتم تخزين الملفات المنقولة على Microsoft SharePoint Server تم تكوينه لهذا الغرض. ويتم استخدام الملفات المخزنة في Power BI لإنشاء تقارير تتضمن رسومًا مرئية (جداول ورسوم بيانية وخرائط وهكذا). وتتم مشاركة تقارير Power BI مع مستخدمي Power BI، ويتم الوصول إليها في لوحات معلومات Power BI وفي صفحات Finance and Operations. يشرح هذا الموضوع المهام التالية:
 
 - تكوين Finance and Operations.
 - إعداد تكوين تنسيق التقارير الإلكترونية الحصول على بيانات من Finance and Operations.
 - تكوين بيئة التقارير الإلكترونية لنقل البيانات إلى Power BI.
 - استخدام البيانات المنقولة لإنشاء تقرير Power BI.
-- الوصول إلى تقرير Power BI في Finance and Operations.
+- تسهيل الوصول إلى تقرير Power BI في Finance and Operations.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 لإكمال المثال في هذا الموضوع، يجب أن يكون لديك الوصول التالي:
@@ -47,20 +46,20 @@ ms.lasthandoff: 08/13/2018
 - الوصول إلى Finance and Operations لأحد الأدوار التالية:
 
     - مطور إعداد التقارير الإلكتروني
-    - مستشار وظيفي لإعداد التقارير الإلكتروني
+    - مستشار وظائف التقارير الإلكترونية
     - مسؤول النظام
 
 - الوصول إلى SharePoint Server الذي تم تكوينه للاستخدام مع Finance and Operations
 - الوصول إلى إطار عمل Power BI
 
 ## <a name="configure-document-management-parameters"></a>تكوين معلمات إدارة المستندات‬
-1. في صفحة **معلمات إدارة المستندات‬**، قم بتكوين الوصول إلى SharePoint Server الذي سيتم استخدامه في الشركة التي قمت بتسجيل الدخول إليها (شركة DEMF في هذا المثال).
-2. اختبر اتصال SharePoint Server للتأكد من أنه تم منحك حق الوصول.
+1. في صفحة **معلمات إدارة المستندات**، قم بتكوين الوصول إلى SharePoint الذي سيتم استخدامه في الشركة التي قمت بتسجيل الدخول إليها (شركة DEMF في هذا المثال).
+2. اختبر الاتصال بخادم SharePoint Server للتأكد من أنه تم منحك حق الوصول.
 
     [![صفحة معلمات إدارة المستندات](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
 3. افتح موقع SharePoint الذي تم تكوينه. أنشئ مجلدًا جديدًا حيث ستقوم التقارير الإلكترونية بتخزين ملفات Excel التي تحتوي على بيانات العمل التي تحتاج إليها تقارير Power BI كمصدر لمجموعات بيانات Power BI.
-4. في Finance and Operations، في صفحة **أنواع المستندات**، قم بإنشاء نوع مستند جديد سيتم استخدامه للوصول إلى مجلد SharePoint الذي قمت بإنشائه للتوّ. أدخل **ملف** في حقل **المجموعة** و**SharePoint** في حقل **الموقع**، ثم أدخل عنوان مجلد SharePoint.
+4. في Finance and Operations، في صفحة **أنواع المستندات**، أنشئ نوع مستند جديدًا سيتم استخدامه للوصول إلى مجلد SharePoint الذي أنشأته للتوّ. أدخل **ملف** في حقل **المجموعة‏‎** و**SharePoint** في حقل **الموقع‏‎**، ثم أدخل عنوان مجلد SharePoint.
 
     [![صفحة أنواع المستندات](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
@@ -123,8 +122,8 @@ ms.lasthandoff: 08/13/2018
 
 انقر فوق الزر **إعدادات** لسجل الوجهة الجديد. بعد ذلك، في مربع الحوار **إعدادات الوجهة**، اتبع الخطوات التالية.
 
-1. على علامة التبويب **Power BI**، قم بتعيين الخيار **ممكّن** إلى **نعم**.
-2. في حقل **SharePoint**، حدد نوع المستند **مشترك** الذي قمت بإنشائه سابقًا.
+1. على علامة التبويب **Power BI**، عيّن الخيار **ممكّن** إلى **نعم**.
+2. في حقل **SharePoint**، حدد نوع المستند **المشترك** الذي قمت بإنشائه سابقًا.
 
 ## <a name="schedule-execution-of-the-configured-er-format"></a>جدولة تنفيذ تنسيق التقارير الإلكتروني المكون
 1. في صفحة **التكوينات** (**إدارة المؤسسة** &gt; **إعداد التقارير الإلكترونية** &gt; **التكوينات**)، في شجرة التكوينات، حدد تكوين **أنشطة الاستيراد/التصدير** الذي قمت بإنشائه سابقًا.
@@ -151,7 +150,7 @@ ms.lasthandoff: 08/13/2018
 
     [![إنشاء مجموعة بيانات](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
-2. حدد الخيار **SharePoint – مواقع الفريق**، ثم قم بإدخال مسار SharePoint Server الذي تستخدمه (`https://ax7partner.litware.com` في المثال الذي قدمناه).
+2. حدد الخيار **SharePoint – مواقع الفريق**، ثم أدخل مسار SharePoint Server الذي تستخدمه (`https://ax7partner.litware.com` في المثال الذي قدمناه).
 3. استعرض وصولاً إلى المجلد **/Shared Documents/GER data/PowerBI**، وحدد ملف Excel الذي أنشأته كمصدر بيانات لمجموعات بيانات Power BI الجديدة.
 
     [![تحديد ملف Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
@@ -163,7 +162,7 @@ ms.lasthandoff: 08/13/2018
 5. قم بتكوين جدول التحديث لمجموعة البيانات هذه لفرض تحديث دوري. تتيح التحديثات الدورية استهلاك بيانات العمل الجديدة التي تأتي من Finance and Operations من خلال التنفيذ الدوري للتقارير الإلكترونية عبر الإصدارات الجديدة من ملف Excel الذي تم إنشاؤه على SharePoint Server.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>إنشاء تقرير Power BI باستخدام مجموعة البيانات الجديدة
-1. انقر فوق مجموعة بيانات Power BI **تفاصيل الاستيراد والتصدير** التي قمت بإنشائها.
+1. انقر فوق مجموعة بيانات **تفاصيل الاستيراد والتصدير** في Power BI التي أنشأتها.
 2. قم بتكوين الرسوم المرئية. على سبيل المثال، حدد الرسم المرئي **خريطة معبأة**، ثم قم بتكوينه كما يلي:
 
     - قم بتعيين حقل مجموعة البيانات **CountryOrigin** إلى حقل **الموقع** للرسوم المرئية على الخريطة.
@@ -185,10 +184,10 @@ ms.lasthandoff: 08/13/2018
     [![الخريطة المحدّثة](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance-and-operations"></a>الوصول إلى تقرير Power BI في Finance and Operations.
-قم بإعداد التكامل بين Finance and Operations وPower BI. لمزيد من المعلومات، راجع [تكوين تكامل Power BI لمساحات عمل](configure-power-bi-integration.md).
+قم بإعداد التكامل بين Finance and Operations وPower BI. لمزيد من المعلومات، راجع [تكوين تكامل Power BI لمساحات العمل](configure-power-bi-integration.md).
 
 1. في صفحة مساحة عمل **إعداد التقارير الإلكترونية** التي تدعم تكامل Power BI (**إدارة المؤسسة** &gt; **مساحات العمل** &gt; **مساحة عمل إعداد التقارير الإلكترونية**)، انقر فوق **خيارات** &gt; **فتح كتالوج التقرير**.
-2. حدد تقرير Power BI  **تفاصيل الاستيراد والتصدير** الذي قمت بإنشائه، لإظهار هذا التقرير كعنصر إجراء على الصفحة المحددة.
+2. حدد تقرير **تفاصيل الاستيراد والتصدير** في Power BI الذي أنشأته، لإظهار هذا التقرير كعنصر إجراء على الصفحة المحددة.
 3. انقر فوق عنصر الإجراء لفتح صفحة Finance and Operations التي تعرض التقرير الذي قمت بتصميمه في Power BI.
 
     [![تقرير تفاصيل الاستيراد والتصدير](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
@@ -198,4 +197,3 @@ ms.lasthandoff: 08/13/2018
 [وجهات إعداد التقارير الإلكترونية‬](electronic-reporting-destinations.md)
 
 [نظرة عامة على إعداد التقارير الإلكتروني](general-electronic-reporting.md)
-

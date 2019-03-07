@@ -1,13 +1,13 @@
---- 
-title: "إنشاء ومعالجة خصومات العملاء"
-description: "يوضح هذا الإجراء كيفية معالجة خصومات العميل بدءًا من إنشاء المطالبة إلى نقطة تمريرها كاستحقاقات للحسابات المدينة."
+---
+title: إنشاء ومعالجة خصومات العملاء
+description: يوضح هذا الإجراء كيفية معالجة خصومات العميل بدءًا من إنشاء المطالبة إلى نقطة تمريرها كاستحقاقات للحسابات المدينة.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336441"
 ---
 # <a name="generate-and-process-customer-rebates"></a>إنشاء ومعالجة خصومات العملاء
 
@@ -83,5 +83,4 @@ ms.lasthandoff: 09/29/2017
 9. في الحقل "العميل"، أدخل قيمة أو حددها.
 10. انقر فوق "موافق".
     * تظهر رسالة أنه تمت معالجة الخصم بنجاح وتم تغيير حالة المطالبات إلى "تمييز". وهذا يعني أنه نتيجة لترحيل دفتر يومية تراكم خصم: أ) تم نقلت المطالبات الآن إلى رصيد عميل مؤقتة كخصومات؛ وب) حساب الاستحقاق الخصم) تمت إضافة تراكم الخصوم لتمثيل الالتزام المستقبلي تجاه العميل؛ وج) تم خصم حساب مصروفات الخصم في ضوء بالتكلفة المتكبدة فيما يتعلق بالمبيعات.   
-
 

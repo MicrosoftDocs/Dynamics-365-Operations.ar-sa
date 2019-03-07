@@ -1,13 +1,13 @@
 ---
-title: "مساحة العمل المحمولة لإدارة المصروفات"
-description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة \"إدارة المصروفات‬\". تسمح مساحة العمل هذه للمستخدمين بالتقاط إيصال وتحميله، مما يمكنهم من إرفاقه بتقرير مصروفات فيما بعد. باستطاعة المستخدمين أيضًا إنشاء بند مصروفات بسرعة باستخدام إيصال استلام مرفق، وإنشاء وإدارة تقارير المصروفات الخاصة بهم."
+title: مساحة العمل المحمولة لإدارة المصروفات
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "إدارة المصروفات‬". تسمح مساحة العمل هذه للمستخدمين بالتقاط إيصال وتحميله، مما يمكنهم من إرفاقه بتقرير مصروفات فيما بعد. باستطاعة المستخدمين أيضًا إنشاء بند مصروفات بسرعة باستخدام إيصال استلام مرفق، وإنشاء وإدارة تقارير المصروفات الخاصة بهم.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344330"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>مساحة عمل محمولة لإدارة المصروفات
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **إدارة المصروفات**. تسمح مساحة العمل هذه للمستخدمين بالتقاط إيصال وتحميله، مما يمكنهم من إرفاقه بتقرير مصروفات فيما بعد. باستطاعة المستخدمين أيضًا إنشاء بند مصروفات بسرعة باستخدام إيصال استلام مرفق، وإنشاء وإدارة تقارير المصروفات الخاصة بهم. بالإضافة إلى ذلك، باستطاعة المعتمدين‬ استخدام العمل المحمولة **إدارة المصروفات** لعرض تقارير المصروفات التي تم تعيينها إليهم، وإما الموافقة على تقارير المصروفات هذه أو رفضها.
 
 
-تهدف مساحة العمل المحمولة هذه إلى استخدامها بواسطة تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile.
 
 
 ## <a name="overview"></a>نظرة عامة
@@ -42,7 +41,7 @@ ms.lasthandoff: 03/26/2018
 
 بشكل أكثر تحديدًا، تسمح مساحة العمل المحمولة **دليل الشركة** للمستخدمين بتنفيذ هذه المهام:
 
-- التقاط صورة للإيصال وتحميلها إلى Microsoft Dynamics 365 for Finance and Operations. يمكنك عندئذٍ إرفاق هذه الصورة بتقرير مصروفات فيما بعد.
+- التقط صورة للإيصال، ثم قم بتحميلها إلى Microsoft Dynamics 365 for Finance and Operations. يمكنك عندئذٍ إرفاق هذه الصورة بتقرير مصروفات فيما بعد.
 - تحميل ملف كإيصال تم التقاطه. يمكنك عندئذٍ إرفاق هذه الملف بتقرير مصروفات فيما بعد.
 - إنشاء بند مصروفات جديد باستخدام إيصال مرفق. يمكنك عندئذٍ إضافة البند إلى تقرير مصروفات فيما بعد، وإرساله للموافقة عليه والحصول على التعويض.
 
@@ -58,13 +57,13 @@ ms.lasthandoff: 03/26/2018
 - قبول أو رفض تقارير المصروفات التي تم تعيينك كمعتمد لها.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-تختلف المتطلبات الأساسية، بناءً على إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
+تختلف المتطلبات الأساسية، استنادًا إلى إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations 
-إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **إدارة المصروفات**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية عند استخدام Microsoft Dynamics 365 for Finance and Operations 
+إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **إدارة المصروفات‬**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث
-إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع platform update 3 أو إصدار لاحق
+إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
 
 <table>
 <thead>
@@ -94,7 +93,7 @@ ms.lasthandoff: 03/26/2018
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>تنزيل وتثبيت تطبيق Dynamics 365 for Operations للأجهزة المحمولة
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>تنزيل وتثبيت تطبيق الأجهزة المحمولة Dynamics 365 for Operations
 تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:
 
 - [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ ms.lasthandoff: 03/26/2018
 22. حدد **إرسال**.
 23. أدخل أية تعليقات للمعتمد.
 24. حدد **تم**.
-

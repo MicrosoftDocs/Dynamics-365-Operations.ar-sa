@@ -1,13 +1,13 @@
---- 
-title: "إقفال شامل للفترة المالية"
-description: "يظهر هذا الإجراء كيفية وضع فترة قيد الاحتجاز أو إقفال فترة بشكل دائم على أكثر من كيان قانوني واحد في مرة الواحدة."
+---
+title: إقفال شامل للفترة المالية
+description: يظهر هذا الإجراء كيفية وضع فترة قيد الاحتجاز أو إقفال فترة بشكل دائم على أكثر من كيان قانوني واحد في مرة الواحدة.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a2988b7ab0837cc9a3e4f1c4eaf3fe6e219fa721
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8d7151cbcd02f9312ca6b0de5e27231a0b0dc9d6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311371"
 ---
 # <a name="mass-financial-period-close"></a>إقفال شامل للفترة المالية
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 11. حدد "‏‫تحديث حالة الفترة‬"، وعيّن الحالة إلى "قيد الانتظار" أو "مفتوح‬" أو "تم الإقفال بشكل دائم‬".
     * تشر "مفتوحة" إلى أنه يمكن الترحيل إلى الفترة، بشرط توفر الوصول للمستخدم. يعني الخيار "قيد الانتظار" إلى أنه يتعذر الترحيل إلى الفترة، ولكن يمكن إعادة فتح الفترة. يعني الخيار "تم الإقفال بشكل دائم" أن الفترة مقفلة ولا يمكن إعادة فتحها إطلاقًا. لا يمكن ترحيل التسويات. لا يوصَى بتعيين فترة إلى "تم الإقفال بشكل دائم‬" إلا عند اكتمال جميع التسويات والمراجعات.  
 12. انقر فوق تحديث.
-
 

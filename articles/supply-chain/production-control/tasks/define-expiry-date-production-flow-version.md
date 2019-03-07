@@ -1,13 +1,13 @@
---- 
-title: "تحديد تاريخ انتهاء صلاحية لإصدار تدفق الإنتاج"
-description: "إنهاء الصلاحية ومعالجة إصدار تدفق الإنتاج في تاريخ معين، أو للتخطيط لاستبدال إصدار نشط بإصدار جديد، يجب عليك تعيين تاريخ انتهاء صلاحية على الإصدار."
+---
+title: تحديد تاريخ انتهاء صلاحية لإصدار تدفق الإنتاج
+description: إنهاء الصلاحية ومعالجة إصدار تدفق الإنتاج في تاريخ معين، أو للتخطيط لاستبدال إصدار نشط بإصدار جديد، يجب عليك تعيين تاريخ انتهاء صلاحية على الإصدار.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: aa0bde90273f9392a36732ed79afdad2eea8bf86
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6fabeb31720a60bf97d08dabf8ed87ac6af7cbf7
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323515"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>تحديد تاريخ انتهاء صلاحية لإصدار تدفق الإنتاج
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/29/2017
 5. في القائمة، قم بوضع علامة للصف المحدد.
 6. في الحقل "تاريخ انتهاء الصلاحية"، أدخل تاريخاً ووقتًا.
     * فيما يتعلق بتاريخ انتهاء الصلاحية، لن يبدأ تشغيل إصدار جديد أو يصبح غير نشط. كما أن إنشاء مهام لتدفق الإنتاج هذا أو بدء تشغيله لن يعود ممكنًا. ومع ذلك، يبقى باستطاعتك إتمام المهام التي بدأتها بعد تاريخ انتهاء الصلاحية.  
-
 

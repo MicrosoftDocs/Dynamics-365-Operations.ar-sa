@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية لتطبيق Dynamics 365 for Unified Operations Mobile"
-description: "يصف هذا الموضوع تطبيق Microsoft Dynamics 365 for Unified Operations للأجهزة المحمولة ويوفر ارتباطات إلى موارد يمكن أن تساعدك في تطبيقه في مؤسستك."
+title: الصفحة الرئيسية لتطبيق Dynamics 365 for Unified Operations Mobile
+description: يصف هذا الموضوع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: ar-sa
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321376"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>الصفحة الرئيسية لتطبيق Dynamics 365 for Unified Operations Mobile
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع تطبيق Microsoft Dynamics 365 for Unified Operations للأجهزة المحمولة ويوفر ارتباطات إلى موارد يمكن أن تساعدك في تطبيقه في مؤسستك.
+يصف هذا الموضوع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
 
 > [!NOTE]
 > كان تطبيق الأجهزة المحمولة يسمى في السابق *Microsoft Dynamics 365 for Finance and Operations*.
@@ -39,7 +38,7 @@ ms.lasthandoff: 10/26/2018
 
 يسمح تطبيق الأجهزة المحمولة لمؤسستك بجعل عمليات الأعمال لديها متوفرة على الأجهزة المحمولة. بعد أن يقوم مسؤول تقنية المعلومات بتمكين مساحات العمل المحمولة لمؤسستك، يمكن للمستخدمين تسجيل الدخول إلى التطبيق وبدء تشغيل عمليات الأعمال على الفور من أجهزتهم المحمولة. يتضمن تطبيق الأجهزة المحمولة الميزات التالية التي يمكن أن تساعدك في زيادة الإنتاجية:
 
-- باستطاعة المستخدمين عرض بيانات العمل وتحريرها والعمل عليها، حتى عندما يكون الاتصال بالشبكة متقطعًا أو عندما تكون أجهزتهم المحمولة غير متصلة تمامًا. عند يعيد جهاز تأسيس اتصال شبكة، تتم مزامنة العمليات على البيانات دون اتصال بشكل تلقائي مع Dynamics 365 for Finance and Operations.
+- باستطاعة المستخدمين عرض بيانات العمل وتحريرها والعمل عليها، حتى عندما يكون الاتصال بالشبكة متقطعًا أو عندما تكون أجهزتهم المحمولة غير متصلة تمامًا. عندما يعيد جهاز تأسيس اتصال شبكة، تتم مزامنة عمليات البيانات دون اتصال مع Dynamics 365 for Finance and Operations بشكل تلقائي.
 - باستطاعة المطورين أو مسؤولي تقنية المعلومات بناء ونشر مساحات العمل المحمولة التي تم تخصيصها لمؤسستهم. يستخدم التطبيق أصول التعليمات البرمجية الموجودة. لذلك، لا يلزم إعادة تنفيذ إجراءات التحقق من الصحة أو منطق التسلسل العمل أو تكوين الأمان.
 - باستطاعة مسؤولي تقنية المعلومات أو المطورين تصميم مساحات العمل المحمولة بسهولة باستخدام مصمم مساحات العمل بالتأشير والنقر المضمن مع عميل ويب.
 - باستطاعة المطورين أو مسؤولي تقنية المعلومات تحسين قدرات العمل دون اتصال في مساحات العمل المحمولة بشكل اختياري باستخدام إطار عمل قابلية لتوسعة منطق تسلسل العمل. نظراً لاستمرار معالجة البيانات بينما يكون الجهاز في وضع عدم الاتصال، تبقى سيناريوهات المحمول غنية وسلسة، حتى لو لم يتوفر للأجهزة اتصال ثابت بالشبكة.
@@ -90,7 +89,7 @@ ms.lasthandoff: 10/26/2018
 <tr class="even">
 <td>2</td>
 <td>مسؤول النظام</td>
-<td><strong>إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations:</strong> قم بتنزيل وتثبيت قواعد المعارف التي تمكّن مساحات العمل المحمولة التي توفرها Microsoft.‬</td>
+<td><strong>إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations:</strong> يمكنك تنزيل وتثبيت مقالات قاعدة المعارف التي تمكّن مساحات العمل المحمولة التي توفرها Microsoft.</td>
 <td>راجع الموضوعات التالية لمزيد من المعلومات:
 <ul>
 
@@ -153,4 +152,3 @@ ms.lasthandoff: 10/26/2018
 </tr>
 </tbody>
 </table>
-

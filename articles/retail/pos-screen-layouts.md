@@ -1,13 +1,13 @@
 ---
-title: "تخطيطات الشاشة الخاصة بنقطة البيع (POS)"
-description: "يوفر هذا الموضوع معلومات حول تخطيطات الشاشة لتجارب نقاط البيع في Microsoft Dynamics 365 for Retail."
+title: تخطيطات الشاشة الخاصة بنقطة البيع (POS)
+description: يوفر هذا الموضوع معلومات حول تخطيطات الشاشة لتجارب نقاط البيع في Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321882"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>تخطيطات الشاشة الخاصة بنقطة البيع (POS)
 
 [!include [banner](includes/banner.md)]
@@ -165,7 +164,7 @@ ms.lasthandoff: 11/13/2018
 - **خصائص الزر** – يمكنك تكوين خصائص الزر عن طريق النقر بزر الماوس الايمن على الزر واستخدام القائمة المختصرة.
 
     > [!IMPORTANT]
-    > يتم تطبيق بعض إعداد شبكة الزر على نقطة بيع الشركة وليس على نقطة البيع الحديثة للبيع بالتجزئة أو نقطة بيع المجموعة.
+    > يتم تطبيق بعض إعداد شبكة الأزرار‬ على نقطة بيع الشركة وليس على Retail Modern POS أو Cloud POS.
 
     ![خصائص زر شريط الأوامر](../retail/media/Button-grid-button-properties.png)
 
@@ -185,7 +184,7 @@ ms.lasthandoff: 11/13/2018
     - **تخصيص نسق** – بشكل افتراضي، تستخدم أزرار نقطة البيع لون التمييز من ملف التعريف المرئي. عندما تقوم بتحديد خانة اختيار **استخدام نسق مخصص**، يمكنك تحديد ألوان إضافية.
 
         > [!NOTE]
-        > تستخدم نطقة بيع حديثة للبيع بالتجزئة ونقطة بيع المجموعة قيم **لون الخلفية** و **لون الخط** فقط.
+        > تستخدم Retail Modern POS وCloud POS قيم **لون الخلفية** و**لون الخط** فقط.
 
     - **صورة الزر** – يمكن أن تشمل الأزرار صور أو رموز. حدد صورة من بين الصور المتوفرة التي تم تحديدها في **البيع بالتجزئة \> إعداد القناة \> إعداد نقطة البيع \> نقطة البيع \> الصور**.
 
@@ -194,4 +193,3 @@ ms.lasthandoff: 11/13/2018
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [تثبيت مصمم تخطيط Retail POS](install-pos-layout-designer.md)
-

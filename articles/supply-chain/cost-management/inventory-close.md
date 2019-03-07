@@ -1,13 +1,13 @@
 ---
-title: "إغلاق المخزون"
-description: "كجزء من عملية تسوية حركات الإصدار بحركات الاستلام، يمكنك أيضًا اختيار تحديث دفتر الأستاذ العام ليعكس التعديلات التي تم إجراؤها."
+title: إغلاق المخزون
+description: كجزء من عملية تسوية حركات الإصدار بحركات الاستلام، يمكنك أيضًا اختيار تحديث دفتر الأستاذ العام ليعكس التعديلات التي تم إجراؤها.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326482"
 ---
-
 # <a name="inventory-close"></a>إغلاق المخزون
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ ms.lasthandoff: 11/03/2017
 قد تحتاج من وقت إلى آخر إلى عكس عملية إغلاق مخزون مكتملة لإعادة التسويات إلى الحالة التي كانت عليها قبل إجراء التعديلات. عندما تقوم بإلغاء إقفال مخزون مكتمل، فيتم أيضًا فتح المخزون للسماح بالترحيل في الفترة التي يغطيها إغلاق المخزون. يجوز أيضًا إجراء تغييرات ذات صلة في دفتر الأستاذ العام. بعد أن تنتهي من إجراء التعديلات، يمكنك تشغيل إغلاق المخزون مرة أخرى للفترة التي تعمل عليها. 
 
 **ملاحظة:** يمكن إعادة فتح فقط فترة المخزون الأخيرة التي تم إغلاقها. لعكس عملية إغلاق سابقة للمخزون، يجب عكس كل عمليات إغلاق المخزون اللاحقة الواحدة تلو الأخرى، بدءًا من عملية الإغلاق الأحدث.
-
 
 
 

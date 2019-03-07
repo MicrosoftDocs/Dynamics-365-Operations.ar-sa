@@ -1,13 +1,13 @@
 ---
-title: "التزويد"
-description: "يصف هذا الموضوع استراتيجيات التزويد المتوفرة للمستودعات التي تستخدم الوظيفة المتوفرة في إدارة المستودعات."
+title: التزويد
+description: يصف هذا الموضوع استراتيجيات التزويد المتوفرة للمستودعات التي تستخدم الوظيفة المتوفرة في إدارة المستودعات.
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344514"
 ---
-
 # <a name="replenishment"></a>التزويد
 
 [!include [banner](../includes/banner.md)]
@@ -77,5 +76,4 @@ ms.lasthandoff: 04/13/2018
 |    ملفات تعريف الموقع    |                                                                                                        يجب إنشاء ملفات تعريف الموقع لإنشاء المواقع.                                                                                                        |
 |   توجيهات الموقع   |                                                       تُعد توجيهات الموقع مطلوبة من أجل توجيه العمل إلى المواقع حيث تكون عملية التزويد مطلوبة، وإلى المواقع التي تُعتبر مصدر المخزون.                                                        |
 |     قوالب العمل      |                                                   تكون قوالب العمل من نوع <strong>التزويد</strong> مطلوبة من أجل إنشاء عمل التزويد لتمكين نقل المخزون إلى الأماكن المطلوبة.                                                    |
-
 

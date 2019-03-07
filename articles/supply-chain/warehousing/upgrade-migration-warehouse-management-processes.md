@@ -1,13 +1,13 @@
 ---
-title: "ترقية إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations"
-description: "يوفر هذا الموضوع نظرة عامة حول خيارات ترحيل إدارة المستودعات والمنتجات."
+title: ترقية إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
+description: يوفر هذا الموضوع نظرة عامة حول خيارات ترحيل إدارة المستودعات والمنتجات.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,20 +18,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324458"
 ---
-
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>ترقية إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع نظرة عامة حول عملية الترقية من Microsoft Dynamics AX 2012 R3، الذي يعمل بالوحدة النمطية WMSII، إلى Microsoft Dynamics 365 for Finance and Operations.
+يوفر هذا الموضوع نظرة عامة حول عملية الترقية من Microsoft Dynamics AX 2012 R3، الذي يقوم بتشغيل الوحدة WMSII، إلى Microsoft Dynamics 365 for Finance and Operations.
 
 لم يعد Finance and Operations يدعم الوحدة النمطية القديمة **WMSII** من Microsoft Dynamics AX 2012. بدلاً من ذلك، يمكنك استخدام الوحدة النمطية **إدارة المستودعات**. في الوحدة النمطية WMSII، يمكن تحديد أبعاد مخزون الموقع ومعرف البالتة للمخزون المالي، مع ذلك، لا يمكن استخدام بعد مخزون "معرف البالتة" للمخزون المالي في Finance and Operations.
 
@@ -81,7 +80,6 @@ ms.lasthandoff: 05/08/2018
 3.  في صفحة **التدرج الهرمي للحجز‬**، حدد تدرجًا هرميًا جديدًا للحجز وفقًا لمجموعات أبعاد تخزين الأصناف وأبعاد التعقب.
 4.  قم بإنشاء مجموعة تسلسلات واحدة أو أكثر تتضمن على الأقل الوحدات نفسها التي تم استخدامها لوحدات مخزون الصنف.
 5.  انقر فوق **إدارة المستودعات** &gt; **الإعداد** &gt; **تمكين عمليات إدارة المستودعات** &gt; **تغيير مجموعة أبعاد التخزين للأصناف**.
-6.  في صفحة **تغيير مجموعة أبعاد التخزين للأصناف**، قم بإضافة أرقام الأصناف ومجموعات أبعاد التخزين ومجموعات تسلسلات الوحدات. يمكن إكمال هذه الخطوة مباشرة في الصفحة، أو باستخدام تكامل Microsoft Office، أو باستخدام عملية كيان البيانات في [إدارة البيانات](../../dev-itpro/data-entities/data-entities.md).
+6.  في صفحة **تغيير مجموعة أبعاد التخزين للأصناف**، قم بإضافة أرقام الأصناف ومجموعات أبعاد التخزين ومجموعات تسلسلات الوحدات. يمكن إكمال هذه الخطوة مباشرة في الصفحة، أو باستخدام تكامل Microsoft Office أو باستخدام عملية كيان البيانات في [إدارة البيانات](../../dev-itpro/data-entities/data-entities.md).
 7.  تحقق من صحة التغييرات. كجزء من عملية التحقق من الصحة، تحدث عمليات تحقق مختلفة من تكامل البيانات. كجزء من عملية ترقية أكبر حجمًا، قد يكون من الضروري ضبط المشكلات التي تحدث في عملية التنفيذ المصدر. في هذه الحالة، قد يلزم إجراء عملية ترقية إضافية للبيانات.
 8.  عالج التغييرات. بإمكان عملية تحديث كافة أبعاد المخزون أن تستغرق بعض الوقت. يمكنك مراقبة تقدم العملية باستخدام مهام الوظائف الدفعية.
-

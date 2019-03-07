@@ -1,13 +1,13 @@
 ---
-title: "مساحة العمل المحمولة \"دليل الشركة\""
-description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة \"دليل الشركة\"، التي تسمح للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم."
+title: مساحة العمل المحمولة "دليل الشركة"
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "دليل الشركة"، التي تسمح للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308611"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>مساحة العمل المحمولة "دليل الشركة"
 
 [!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **دليل الشركة**. تسمح مساحة العمل هذه للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.
 
-يمكن استخدام مساحة العمل المحمولة هذه باستخدام تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.
+يمكن استخدام مساحة العمل المحمولة هذه مع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>نظرة عامة
 تسمح مساحة العمل المحمولة **دليل الشركة** للمستخدمين بتنفيذ هذه المهام:
@@ -58,7 +57,7 @@ ms.lasthandoff: 08/29/2018
 </ul>
 </td>
 <td>مسؤول النظام</td>
-<td>إذا لم يكن لديك Finance and Operations منشور بالفعل في مؤسستك، راجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>. إذا لم يكن لديك Talent منشورًا بالفعل في مؤسستك، فمن ثم يمكن لمسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://www.microsoft.com/en-us/dynamics365/talent">صفحة ويب Talent</a>.
+<td>إذا لم يتم نشر Finance and Operations في مؤسستك، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>. إذا لم يتم نشر Talent في مؤسستك، فباستطاعة مسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://www.microsoft.com/en-us/dynamics365/talent">صفحة ويب Talent</a>.
 </td>
 </tr>
 <tr class="even">
@@ -91,4 +90,3 @@ ms.lasthandoff: 08/29/2018
 1.  في تطبيق المحمول، حدد مساحة العمل **دليل الشركة**.
 2.  في حقل **البحث**، أدخل اسم الموظف الأول، أو الاسم الأخير، أو المسمى الوظيفي، أو القسم لبدء البحث.
 3.  حدد موظفًا. تظهر صفحة **ملف تعريف الموظف**. تتضمن المعلومات الموجودة في هذه الصفحة اسم الموظف الأول، والاسم الأخير، والمسمى الوظيفي، والقسم.
-

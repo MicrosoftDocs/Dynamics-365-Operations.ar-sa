@@ -1,13 +1,13 @@
---- 
-title: "عرض رصيد كائن التكلفة"
-description: "شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF."
+---
+title: عرض رصيد كائن التكلفة
+description: شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 author: AndersGirke
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, InventCostDimParmFixed
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eff5e25e6a79da57e10489c86e134a2cc01d1396
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e80f7f006d29ee6de6953b8c9d47b3beddd42992
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337936"
 ---
 # <a name="view-cost-object-balance"></a>عرض رصيد كائن التكلفة
 
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
 7. انقر فوق "عرض الأبعاد".
 8. قم بإلغاء تحديد خانة الاختيار "الموقع".
 9. انقر فوق "موافق".
-
 

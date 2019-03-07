@@ -1,13 +1,13 @@
 ---
-title: "تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد"
-description: "من خلال تعيين أعضاء أبعاد عنصر تكلفة مختلفين إلى مجموعة مشتركة من أعضاء أبعاد عنصر تكلفة، ستقوم بدمج البيانات في تنسيق مشترك لأغراض التحليل."
+title: تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد
+description: من خلال تعيين أعضاء أبعاد عنصر تكلفة مختلفين إلى مجموعة مشتركة من أعضاء أبعاد عنصر تكلفة، ستقوم بدمج البيانات في تنسيق مشترك لأغراض التحليل.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e5c9387d74443ec6ca5dc70ad923b67f962181dc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6f2384155a07d17004c640160aee90b1e8bdb9f8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318133"
 ---
-
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="update-mappings-at-any-time"></a>تحديث التعيينات في أي وقت
 يمكنك تحديث تعريفات التعيينات لبُعد عنصر تكلفة في أي وقت. ولأن التعيينات غير محددة بتاريخ سريان، فسيتم تطبيق التغييرات في المرة التالية التي تقوم فيها بمعالجة حركات التكلفة أو تشغيل حسابات التكلفة.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "إنشاء اتفاقية تجارية جديدة"
-description: "يوضح لك هذا الإجراء كيفية إنشاء اتفاقية تجارة يتم فيها تسجيل منتج سعر جديد لمبيعات المنتجات اتفقتَ عليه مع عميل معين."
+---
+title: إنشاء اتفاقية تجارية جديدة
+description: يوضح لك هذا الإجراء كيفية إنشاء اتفاقية تجارة يتم فيها تسجيل منتج سعر جديد لمبيعات المنتجات اتفقتَ عليه مع عميل معين.
 author: omulvad
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f7df0a91948a494465fbd55af99757e3890357ce
 ms.openlocfilehash: e132cd20437b7929e81fcaa123d70bb57fb320c8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323492"
 ---
 # <a name="create-a-new-trade-agreement"></a>إنشاء اتفاقية تجارية جديدة
 
@@ -69,4 +69,3 @@ ms.lasthandoff: 12/04/2018
 ## <a name="additional-resources"></a>الموارد الإضافية
 ### <a name="community-blogs"></a>مدونات المجتمعات
 - [أسعار المبيعات في Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
-

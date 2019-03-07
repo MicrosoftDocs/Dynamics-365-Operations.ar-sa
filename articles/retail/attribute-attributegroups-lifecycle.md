@@ -1,37 +1,36 @@
 ---
-title: "السمات ومجموعات السمات"
-description: "يصف هذا الموضوع كيفية استخدام السمات لتوفير طريقة لوصف أحد منتجات والصفات المميزة له من خلال حقول معرفة من قبل المستخدم."
+title: السمات ومجموعات السمات
+description: يصف هذا الموضوع كيفية استخدام السمات لتوفير طريقة لوصف أحد منتجات والصفات المميزة له من خلال حقول معرفة من قبل المستخدم.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326229"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>السمات ومجموعات السمات
 
 [!include [banner](includes/banner.md)]
 
-توفر*السمات* طريقة لتقديم وصف إضافي لأحد المنتجات والصفات المميزة له من خلال حقول معرفة من قبل المستخدم (مثل **حجم الذاكرة**، و**سعة القرص الثابت**، و**هل يتوافق المنتج مع نجمة الطاقة**، وهكذا). في Microsoft Dynamics 365 for Finance and Operations، يمكن إقران السمات مع كيانات Retail مختلفة، مثل فئات المنتجات وقنوات البيع بالتجزئة، ويمكن تعيين قيم افتراضية لها. ثم ترث المنتجات السمات والقيم الافتراضية عند إقرانها بفئات المنتجات أو قنوات البيع بالتجزئة. يمكن تجاوز القيم الافتراضية على مستوى المنتج الفردي، على مستوى قنوات البيع بالتجزئة أو في كتالوج البيع بالتجزئة.
+توفر*السمات* طريقة لتقديم وصف إضافي لأحد المنتجات والصفات المميزة له من خلال حقول معرفة من قبل المستخدم (مثل **حجم الذاكرة**، و**سعة القرص الثابت**، و**هل يتوافق المنتج مع نجمة الطاقة**، وهكذا). في Microsoft Dynamics 365 for Finance and Operations، يمكن إقران السمات بمختلف كيانات Retail، مثل فئات المنتجات وقنوات البيع بالتجزئة، ويمكن تعيين قيم افتراضية لها. ثم ترث المنتجات السمات والقيم الافتراضية عند إقرانها بفئات المنتجات أو قنوات البيع بالتجزئة. يمكن تجاوز القيم الافتراضية على مستوى المنتج الفردي، على مستوى قنوات البيع بالتجزئة أو في كتالوج البيع بالتجزئة.
 
 على سبيل المثال، قد يكون لديك منتج تلفاز نموذجي له السمات التالية.
 
@@ -257,4 +256,3 @@ ms.lasthandoff: 01/04/2019
 
     > [!NOTE]
     > إذا تم إنشاء مشاركة وسائط المنتج ومشاركة سمات المنتج في Finance and Operations، فمن ثم تنطبق على جميع منتجات البيع بالتجزئة.
-

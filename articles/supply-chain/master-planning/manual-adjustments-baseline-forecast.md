@@ -1,13 +1,13 @@
 ---
-title: "القيام بتسويات يدوية في التنبؤ الأساسي"
-description: "يشرح هذا الموضوع كيف يمكن إجراء التسويات اليدوية على تنبؤ خط أساسي وعرض تفاصيل التنبؤ."
+title: القيام بتسويات يدوية في التنبؤ الأساسي
+description: يشرح هذا الموضوع كيف يمكن إجراء التسويات اليدوية على تنبؤ خط أساسي وعرض تفاصيل التنبؤ.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7c7d1fcaaeef7a01b43886e4d69458dbd942439
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 543a88a8df4252e5bf1b6b27b5209650c1ceca0b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315879"
 ---
-
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>القيام بتسويات يدوية في التنبؤ الأساسي
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,7 @@ ms.lasthandoff: 05/08/2018
 **ملاحظات:**
 
 -   فاصل الثقة الذي يظهر في قسم **التنبؤ** من الصفحة يمثل الفرق بين الحد الأعلى لفاصل الثقة والحد الأدنى لفاصل الثقة. لعرض القيم للحدود العليا والسفلية، قم بالمرور فوق التخطيط في القسم **‏‫التنبؤ والطلب التاريخي بشكل رسومي‬**.
--   إذا كنت تستخدم التنبؤ بالطلب في تطبيق Finance and Operations لخدمة التعلم الآلي من Microsoft Azure، يمكنك تحديد نسبة مئوية لمستوى الثقة الذي ينبغي أن يتمتع به التنبؤ الذي تم إنشاؤه. فاصل الثقة يتكون من مجموعة من القيم التي تعمل كتقديرات جيدة للتنبؤ بالطلب. تشير النسبة المئوية لمستوى الثقة بنسبة 95% إلى وجود فرصة مخاطرة بنسبة 5% بخروج التنبؤ بالطلب من نطاق فاصل الثقة.
+-   إذا كنت تستخدم خدمة التعلم الآلي من Microsoft Azure للتنبؤ بالطلب في Finance and Operations، يمكنك تحديد النسبة المئوية لمستوى الثقة الذي ينبغي أن يتمتع به التنبؤ الذي تم إنشاؤه. فاصل الثقة يتكون من مجموعة من القيم التي تعمل كتقديرات جيدة للتنبؤ بالطلب. تشير النسبة المئوية لمستوى الثقة بنسبة 95% إلى وجود فرصة مخاطرة بنسبة 5% بخروج التنبؤ بالطلب من نطاق فاصل الثقة.
 
 يمكن أيضًا إجراء التسويات اليدوية للتنبؤ على الصفحة **تفاصيل التنبؤ بالطلب** عن طريق تعديل القيم في الصف **التنبؤ** في القسم **التنبؤ**.
 
@@ -82,7 +81,6 @@ ms.lasthandoff: 05/08/2018
 [مراقبة دقة التنبؤ](monitor-forecast-accuracy.md)
 
 [إنشاء التنبؤ الأساسي الإحصائي](generate-statistical-baseline-forecast.md)
-
 
 
 

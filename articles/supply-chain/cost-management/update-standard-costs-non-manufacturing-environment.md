@@ -1,13 +1,13 @@
 ---
-title: "تحديث التكاليف المعيارية في بيئة غير مصنعة"
-description: "توفر هذه المقالة إرشادات لتحديث التكاليف المعيارية في بيئة غير مصنعة."
+title: تحديث التكاليف المعيارية في بيئة غير مصنعة
+description: توفر هذه المقالة إرشادات لتحديث التكاليف المعيارية في بيئة غير مصنعة.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4fa545aa6903bd6f789dda20ab5755ffe9a12b88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0386ca1e5e7bf6e578ba2abf1b2c9eefe4dd2a02
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323009"
 ---
-
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>تحديث التكاليف المعيارية في بيئة غير مصنعة
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 11/03/2017
 4.  استخدم صفحة **صيانة إصدار حساب التكلفة‬** لتغيير علامة الحظر للسماح بتنشيط سجلات التكلفة المعلقة المضمنة في إصدار التكاليف الثاني.
 5.  استخدم صفحة **تنشيط الأسعار** (التي تفتحها من صفحة **صيانة إصدار حساب التكلفة**) لتنشيط كل سجلات تكلفة الأصناف المعلقة المضمنة في إصدار التكاليف الثاني. يمكنك أيضًا تنشيط سجلات التكاليف المعلقة الخاصة بالأصناف الفردية بالنقر فوق الزر **تنشيط السعر المعلق‬** في صفحة **سعر الصنف**.
 6.  لمنع صيانة بيانات إضافية، استخدم صفحة **صيانة إصدار حساب التكلفة‬** لتغيير علامات الحظر المضمنة في إصدار التكاليف الثاني. ستقوم نهج التأمين بمنع إدخال التكاليف المعلقة الجديدة وتنشيط التكاليف المعلقة.
-
 
 
 

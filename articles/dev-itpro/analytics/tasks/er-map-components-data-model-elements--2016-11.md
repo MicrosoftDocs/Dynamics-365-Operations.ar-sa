@@ -1,13 +1,13 @@
---- 
-title: "التقارير الإلكترونية - تعيين مكونات التنسيق المنشأ إلى عناصر نموذج البيانات (نوفمبر 2016)"
-description: "يوضح الإجراء التالي كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين عناصر نموذج بيانات إلى مكونات تكوين التقارير الإلكترونية المنشأ، والذي يحدد تنسيق المستندات الإلكترونية لمجال مدفوعات الأعمال‬."
+---
+title: التقارير الإلكترونية - تعيين مكونات التنسيق المنشأ إلى عناصر نموذج البيانات (نوفمبر 2016)
+description: يوضح الإجراء التالي كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين عناصر نموذج بيانات إلى مكونات تكوين التقارير الإلكترونية المنشأ، والذي يحدد تنسيق المستندات الإلكترونية لمجال مدفوعات الأعمال‬.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323538"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>التقارير الإلكترونية - تعيين مكونات التنسيق المنشأ إلى عناصر نموذج البيانات (نوفمبر 2016)
 
@@ -113,5 +113,4 @@ ms.lasthandoff: 09/14/2018
 ## <a name="restrict-access-to-created-format-from-companies"></a>تقييد الوصول إلى التنسيق الذي تم إنشاؤه من الشركات
 1. قم بتوسيع قسم أكواد ISO للبلد/المنطقة‬.
     * يمكن تقييد كل عملية وصول إلى التنسيق بتحديد بلدان/مناطق معينة يكون التنسيق قابلاً للتطبيق بها. عندما تكون قائمة البلدان/المناطق لتنسيق معين فارغة، يمكنك استخدام هذا التنسيق في أي شركة. عندما يتم إدراج بعض أكواد بلد/منطقة ISO في قائمة البلدان/المناطق، فلا يمكن استخدام التنسيق في الشركات إلا إذا كان العنوان الرئيسي موجودًا في البلد/المنطقة.  
-
 

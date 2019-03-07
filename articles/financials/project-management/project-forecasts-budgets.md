@@ -1,13 +1,13 @@
 ---
-title: "تنبؤات وموازنات المشاريع"
-description: "يوفر Microsoft Dynamics 365 for Finance and Operations تنبؤات المشاريع وميزانيات المشاريع بهدف إدارة ومراقبة المشاريع."
+title: تنبؤات وموازنات المشاريع
+description: يقدم Microsoft Dynamics 365 for Finance and Operations تنبؤات المشاريع وموازنات المشاريع لإدارة ومراقبة مشاريعك.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310382"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>تنبؤات وموازنات المشاريع
 
 [!include [banner](../includes/banner.md)]
 
-يوفر Microsoft Dynamics 365 for Finance and Operations طريقتين إدارة ومراقبة المشاريع: تنبؤات المشاريع وموازنات المشاريع. 
+هناك طريقتان في Microsoft Dynamics 365 for Finance and Operations لإدارة ومراقبة مشاريعك: تنبؤات المشاريع وموازنات المشاريع. 
 
 استخدم التنبؤ بالمشروع إذا كانت مؤسستك لديها منظور تشغيلي، وتركز على الإيرادات والتكاليف المستمدة من حركات محددة. واستخدم إعداد موازنة المشروع إذا كانت مؤسستك تركز على المبالغ المالية بشكل أكبر. 
 
@@ -80,7 +79,6 @@ ms.lasthandoff: 03/26/2018
 تحتوي نماذج التنبؤ على تدرج هرمي طبقة واحدة. ويعني هذا أنه يجب إقران تنبؤ بمشروع واحد بنموذج تنبؤ واحد.
 
 ‏‫وإذا كنت تستخدم مشروع التنبؤ، فإنه يمكنك تحديد نماذج كنماذج فرعية. ويمكنك فيما بعد إنشاء التنبؤات بالقسم أو الفترة الزمنية أو المنطقة.‬ على سبيل المثال، يمكنك إنشاء نموذج تنبؤ لمدة سنة، ثم إنشاء النماذج الفرعية لتنبؤات المناطق الشمال الشرقية، والجنوب شرقية، والشمال غربية، والجنوب غربية التي تقدمها الرؤوس الإقليمية. وبتحديد خيارات مختلفة في التقارير المتاحة، يمكنك عرض المعلومات حسب التنبؤ الإجمالي أو النموذج الفرعي.
-
 
 
 

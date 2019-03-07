@@ -1,13 +1,13 @@
 ---
-title: "تخطيط مسارات نقل الشحن ذات نقاط توقف متعددة"
-description: "توضح هذه المقالة العناصر المختلفة التي تستخدمها لتخطيط مسارات النقل في Dynamics 365 for Finance and Operations."
+title: تخطيط مسارات نقل الشحن ذات نقاط توقف متعددة
+description: تصف هذه المقالة العناصر المختلفة التي تستخدمها لتخطيط مسارات النقل في Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328299"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>تخطيط مسارات نقل الشحن ذات نقاط توقف متعددة
 
 [!include [banner](../includes/banner.md)]
 
-توضح هذه المقالة العناصر المختلفة التي تستخدمها لتخطيط مسارات النقل في Microsoft Dynamics 365 for Finance and Operations.
+تصف هذه المقالة العناصر المختلفة التي تستخدمها لتخطيط مسارات النقل في Microsoft Dynamics 365 for Finance and Operations.
 
 يمكنك استخدام خطط وأدلة مسارات لمسارات نقل معقدة ذات نقاط توقف متعددة. إذا كان المسار نفسه سيستخدم بشكل منتظم، فيمكنك إعداد مسار مجدول.
 
@@ -51,7 +50,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="load-building-workbench"></a>منضدة عمل إنشاء الحِمل
 تستخدم "منضدة عمل إنشاء الحمل" عناوين العملاء وتواريخ التسليم من أوامر المبيعات والمسارات المجدولة المتوفرة، لاقتراح الحمل. بشكل افتراضي، يتم إدخال القيم من المسار على منضدة العمل. ومع ذلك، يمكنك تحديد تاريخ "من" أقدم من تاريخ "من" في المسار. عندما يتم اقتراح الحمل، يتم التحقق من عنوان التسليم وتاريخ التسليم لكل أوامر المبيعات المفتوحة. إذا كان الرمز البريدي لعنوان التسليم يتطابق مع الرمز البريدي لمركز في خطة المسار، وإذا كان تاريخ التسليم ضمن النطاق المحدد في المعايير، فسيتم اقتراح أمر المبيعات للحمل. تؤخذ أيضًا سعة قالب الحِمل في الاعتبار. يتم اقتراح حمل واحد فقط في مرة الواحدة. إذا كان لديك أمر مبيعات لم يتم تضمينه، فقد تحتاج إلى استخدام قالب حمل آخر (على سبيل المثال، قالب حمل لشاحنة أو حاوية أكبر) أو إلى تخطيط عملية تسليم إضافية.
-
 
 
 

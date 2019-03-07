@@ -1,34 +1,33 @@
 ---
-title: "العملة المزدوجة"
-description: "يوفر هذا الموضوع معلومات حول العملة المزدوجة، حيث تُستخدم عملة التقارير كعملة محاسبة ثانية لتطبيق Microsoft Dynamics 365 for Finance and Operations."
+title: العملة المزدوجة
+description: يوفر هذا الموضوع معلومات حول العملة المزدوجة، حيث تُستخدم عملة التقارير كعملة محاسبة ثانية لتطبيق Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330300"
 ---
-
 # <a name="dual-currency"></a>العملة المزدوجة
 
 [!include [banner](../includes/banner.md)]
 
-تسمح الوظيفة التي تم تقديمها في Microsoft Dynamics 365 for Finance and Operations، الإصدار 8.1 (أكتوبر 2018) بتغيير الهدف الغرض من عملة التقارير واستخدامها كعملة محاسبة ثانية. يشار إلى هذه الوظيفة باسم *العملة المزدوجة*. لا يمكن إيقاف تشغيل تغييرات العملة المزدوجة من خلال مفتاح أو معلمة تكوين. ونظرًا لاستخدام عملة التقارير كعملة محاسبة ثانية، طرأ تغيير على طريقة حساب عملة التقارير في منطق الترحيل.
+تسمح الوظيفة التي تم تقديمها في الإصدار 8.1 من Microsoft Dynamics 365 for Finance and Operations (أكتوبر 2018) بتغيير الغرض من عملة التقارير واستخدامها كعملة محاسبة ثانية. يشار إلى هذه الوظيفة باسم *العملة المزدوجة*. لا يمكن إيقاف تشغيل تغييرات العملة المزدوجة من خلال مفتاح أو معلمة تكوين. ونظرًا لاستخدام عملة التقارير كعملة محاسبة ثانية، طرأ تغيير على طريقة حساب عملة التقارير في منطق الترحيل.
 
 بالإضافة إلى ذلك، تم تحسين وحدات نمطية مختلفة لتعقب عملة التقارير وإعداد تقارير بشأنها واستخدامها في عمليات مختلفة. تشتمل الوحدات النمطية المتأثرة على **دفتر الأستاذ العام** و**التقارير المالية** و**الحسابات الدائنة** و**الحسابات المدينة** و**إدارة النقد والبنوك** و**الأصول الثابتة**. بعد الترقية، يجب إكمال خطوات معينة لإدارة النقد والبنوك‬ والأصول الثابتة. لذلك، يجب عليك قراءة الأقسام ذات الصلة بهذا الموضوع بعناية.
 
@@ -184,4 +183,3 @@ ms.lasthandoff: 12/04/2018
     - إذا تم إدخال نوع حركة انتقاص في دفتر يومية الأصول الثابتة، فستظهر مبالغ عملة التقارير في الأعمدة الجديدة. هذه المبالغ يمكن تغييرها.
     - إذا كانت عملة المحاسبة هي نفسها عملة التقارير في دفتر الأستاذ، فستبقى هذه المبالغ متزامنة. إذا قمت بتغيير مبلغ **الدائن‬**  فسيتغير مبلغ **الدائن بعملة التقارير** بشكل تلقائي بحيث يتطابق معه.
     - إذا تم إدخال أي نوع آخر من أنواع الحركات في دفتر يومية الأصول الثابتة، فلن تظهر إطلاقًا مبالغ **المدين بعملة التقارير** و**الدائن بعملة التقارير** سواء قبل الترحيل أو بعده. تبقى مبالغ عملة المحاسبة وعملة التقارير متوفرة في الإيصال الذي يتم ترحيله إلى دفتر الأستاذ العام.
-

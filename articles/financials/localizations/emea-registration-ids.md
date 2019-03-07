@@ -1,13 +1,13 @@
 ---
-title: "‏‫معرفات التسجيل"
-description: "توفر هذه الموضوعات معلومات حول إعداد واستخدام معرفات التسجيل."
+title: ‏‫معرفات التسجيل
+description: توفر هذه الموضوعات معلومات حول إعداد واستخدام معرفات التسجيل.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350494"
 ---
-
 # <a name="registration-ids"></a>‏‫معرفات التسجيل
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ ms.lasthandoff: 03/26/2018
 |-----------------------|----------------|
 | نوع التسجيل     | نوع التسجيل في البلد/المنطقة المعينة.|
 | مقصور على         | نوع القيد الذي ينطبق على نوع التسجيل الضريبي: بلا، شخص، المؤسسة.|
-| فئة التسجيل | معرف التسجيلات الفريد المعتمد للاستخدام في البلد. ونستعرض أدناه الفئات المدعومة في Microsoft Dynamics 365 for Finance and Operations. |
+| فئة التسجيل | معرف التسجيلات الفريد المعتمد للاستخدام في البلد. فيما يلي قائمة كاملة بالمُعرفات المعتمدة في فئات Microsoft Dynamics 365 for Finance and Operations. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>إدخال مُعرفات التسجيل لسجلات دفتر العناوين العمومي
 
@@ -80,12 +79,12 @@ ms.lasthandoff: 03/26/2018
 البحث عن سجلات الطرف استناداً إلى مُعرف التسجيل المتوفر على النماذج المتعلقة بالطرف أو الكيان القانوني أو المورد أو العميل أو العامل. انقر فوق **البحث بمعرف التسجيل** لفتح صفحة **معايير البحث بمعرف التسجيل**. تحديد معايير البحث، ثم انقر فوق **بحث**. سوف يعرض النظام السجلات المحددة من دفتر العناوين العمومي والأنواع المقترنة بها من سجل الطرف.
 
 ## <a name="supported-registration-categories"></a>فئات التسجيل المدعومة
-يسرد الجدول التالي أنواع التسجيل المعتمدة في Finance and Operations. إذا كنت معتاداً على حقول Microsoft Dynamics AX 2012 لمُعرفات التسجيل، فيقوم هذا الجدول أيضًا بتعيين هذه الحقول إلى فئات تسجيل Finance and Operations.
+يسرد الجدول التالي أنواع التسجيل المعتمدة في Finance and Operations. إذا كنت معتاداً على حقول Microsoft Dynamics AX 2012 لمُعرفات التسجيل، فإن هذا الجدول يعين أيضًا هذه الحقول إلى فئات تسجيل Finance and Operations.
 
 | فئة تسجيل Finance and Operations         |البلد/المنطقة  | حقل/شرط Dynamics AX 2012|
 |---------------------------------------------------------------|---------------------|---------------------------------|
 | معرف ضريبة القيمة المضافة                                                        | جميع بلدان الاتحاد الأوروبي|  رقم الإعفاء الضريبي (مُعرف الضريبة للنوع التشريعي في AX 2012 R3)|
-| معرف الشركة (COID)                                          | جمهورية التشيك، إستونيا، المجر، لاتفيا، لتوانيا، بولندا، روسيا | رقم الشركة (EnterpriseNumber) رقم التسجيل (RegNum\_W) رقم التسجيل (RegNum\_W) رقم التسجيل (RegNum\_W) رقم التسجيل (RegNum\_W) كود الشركة (EnterpriseCode) رقم التسجيل (RegNum\_W) المُعرف الفريد (المُعرف الفريد للنوع التشريعي في AX 2012 R3) |
+| معرف الشركة (COID)                                          | جمهورية التشيك، إستونيا، المجر، لاتفيا، لتوانيا، بولندا، روسيا | رقم الشرك (EnterpriseNumber) رقم التسجيل (RegNum\_W) رقم التسجيل (RegNum\_W) رقم التسجيل (RegNum\_W) رقم التسجيل (RegNum\_W) كود الشركة (EnterpriseCode) رقم التسجيل (RegNum\_W) المُعرف الفريد (المُعرف الفريد للنوع التشريعي في AX 2012 R3) |
 | معرف الفرع                                                     | بلجيكا            | رقم الفرع (BranchNumber)|
 | Značka Spisová (رقم التسجيل، جهة الإصدار، القسم) | جمهورية التشيك     | إدخال رقم (CommercialRegisterInsetNumber) يتم الاحتفاظ به في السجل التجاري (CommercialRegister) قسم السجل التجاري (CommercialRegisterSection)|
 | معرف عميل الجمارك                                           | فنلندا | رقم عميل الجمارك (CustomsCustomerNumber\_FI)|
@@ -97,11 +96,11 @@ ms.lasthandoff: 03/26/2018
 | OGRN                                                          | روسيا الاتحادية| OGRN (النوع التشريعي OGRN في AX 2012 R3) |
 | SNILS                                                         | روسيا الاتحادية| SNILS (النوع التشريعي SNILS في AX 2012 R3)|
 | CIFTS                                                         | روسيا الاتحادية| CIFTS (النوع التشريعي CIFTS في AX 2012 R3)|
-| جواز السفر                                                      | إسبانيا             | جواز السفر|
+| جواز السفر                                                      | أسبانيا             | جواز السفر|
 | مستند تعريف رسمي                              | إسبانيا             | مستند تعريف رسمي|
 | الشهادة الإقامة                                         | إسبانيا             | الشهادة الإقامة|
 | مستند تعريف آخر                                 | إسبانيا             | مستند تعريف آخر|
-| لم يتم إحصاؤه                                                  | إسبانيا             | غير متوفر في AX 2012 R3|
+| غير مدرج في التعداد                                                  | أسبانيا             | غير متوفر في AX 2012 R3|
 
 
 للمزيد من المعلومات حول معالجة معرفات التسجيل، بما في ذلك المتطلبات الأساسية اللازمة، انظر تسجيلات المهام التالية لمُعرف ضريبة القيمة المضافية في Lifecycle Services.
@@ -109,7 +108,6 @@ ms.lasthandoff: 03/26/2018
 -   إعداد معرف ضريبة قيمة مضافة صالح
 -   تسجيل معرف ضريبة القيمة المضافة للمورّد
 -    البحث عن طرف باستخدام معرف ضريبة القيمة المضافة
-
 
 
 

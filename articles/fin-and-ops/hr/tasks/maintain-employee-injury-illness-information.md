@@ -1,13 +1,13 @@
---- 
-title: "الاحتفاظ بمعلومات إصابة ومرض الموظف"
-description: "يوصى باستكمال دليل مهمة \"إعداد الإصابات والأمراض\" أولاً، نظرًا لاستخدام بعض معلومات الإعداد هنا."
+---
+title: الاحتفاظ بمعلومات إصابة ومرض الموظف
+description: يوصى باستكمال دليل مهمة "إعداد الإصابات والأمراض" أولاً، نظرًا لاستخدام بعض معلومات الإعداد هنا.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332600"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>الاحتفاظ بمعلومات إصابة ومرض الموظف
 
@@ -92,5 +92,4 @@ ms.lasthandoff: 09/14/2018
     * مثال: الأشعة السينية تؤكد وجود كسر، وارتداء جبيرة  
 36. انقر فوق "حفظ".
     * يمكن تحديث حالة المشكلة في أي وقت.  تعيين الحالة إلى قيد التنفيذ، إذا كانت معالجة الإصابة أو المرض قيد التنفيذ.  وبمجرد إغلاق الحادث، لا يمكنك إلا إضافة أو حذف التكاليف أو العلاج أو الإيداعات المتعلقة بالحادث.  لتعديل معلومات أخرى، قم بإعادة فتح القضية.  
-
 

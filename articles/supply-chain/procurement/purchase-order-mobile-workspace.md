@@ -1,13 +1,13 @@
 ---
-title: "مساحة العمل المحمولة \"الموافقة على أمر الشراء\""
-description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة \"الموافقة على أمر الشراء\"، التي تسمح لك بعرض أوامر الشراء والاستجابة لها من خلال الإجراءات. على سبيل المثال، يمكنك الموافقة على أمر شراء أو رفضه."
+title: مساحة العمل المحمولة "الموافقة على أمر الشراء"
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "الموافقة على أمر الشراء"، التي تسمح لك بعرض أوامر الشراء والاستجابة لها من خلال الإجراءات. على سبيل المثال، يمكنك الموافقة على أمر شراء أو رفضه.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348838"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>مساحة العمل المحمولة "الموافقة على أمر الشراء"
 
 [!include [banner](../includes/banner.md)]
@@ -36,16 +35,16 @@ ms.lasthandoff: 03/26/2018
 ## <a name="overview"></a>نظرة عامة 
 تمر أوامر الشراء التي تحتاج إلى موافقة على سير عمل الموافقة. باستطاعة سير العمل أن يتضمن خطوات مختلفة تتطلب قيام شخص أو أكثر باتخاذ الإجراءات اللازمة. على سبيل المثال، قد يتعين على شخص ما إكمال مهمة أو الموافقة على أمر الشراء. 
 
-تسمح لك مساحة العمل المحمولة **الموافقة على أمر الشراء** بعرض أوامر الشراء والاستجابة لها بسهولة من جهازك المحمول. وتسمح لك أيضًا مساحة العمل هذه باتخاذ إجراءات سير العمل نفيها التي يمكنك اتخاذها من Microsoft Dynamics 365 for Finance and Operations، عميل ويب.
+تسمح لك مساحة العمل المحمولة **الموافقة على أمر الشراء** بعرض أوامر الشراء والاستجابة لها بسهولة من جهازك المحمول. وتسمح لك أيضًا مساحة العمل هذه باتخاذ إجراءات سير العمل نفسها التي يمكنك اتخاذها من Microsoft Dynamics 365 for Finance and Operations، عميل ويب.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 تختلف المتطلبات الأساسية، بالاستناد إلى إصدار Finance and Operations الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations 
-إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، يتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية عند استخدام Microsoft Dynamics 365 for Finance and Operations 
+إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء​‬**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث
-إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع تحديث النظام الأساسي 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار لاحق
+إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
 
 <table>
 <thead>
@@ -76,7 +75,7 @@ ms.lasthandoff: 03/26/2018
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>تحميل وتثبيت تطبيق الجوال
-تنزيل وتثبيت تطبيق Microsoft Dynamics 365 for Unified Operations للأجهزة المحمولة:
+تنزيل وتثبيت تطبيق Microsoft Dynamics 365 for Unified Operations Mobile:
 
 - [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -116,4 +115,3 @@ ms.lasthandoff: 03/26/2018
 5. حدد الإجراء المناسب.
 6. في صفحة **إكمال المهمة**، قم بإدخال تعليق. لاحظ أنك إذا قمت بتحديد الإجراء **تفويض**، يجب تحديد مستخدم لتفويض المهمة إليه.
 7. حدد **تم**. بعد أن تقوم بتحديث مساحة العمل، سيتوقف أمر الشراء عن الظهور في قائمتك. 
-

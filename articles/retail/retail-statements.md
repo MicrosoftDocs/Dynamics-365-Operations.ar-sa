@@ -1,13 +1,13 @@
 ---
-title: "كشوف حساب البيع بالتجزئة"
-description: "يصف هذا الموضوع كيفية إنشاء وترحيل كشوف الحسابات."
+title: كشوف حساب البيع بالتجزئة
+description: يصف هذا الموضوع كيفية إنشاء وترحيل كشوف الحسابات.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347688"
 ---
-
-# <a name="retail-statements"></a>كشوف حساب البيع بالتجزئة
+# <a name="retail-statements"></a>كشوف البيع بالتجزئة
 
 [!include [banner](includes/banner.md)]
 
-في Microsoft Dynamics 365 for Retail، يتم استخدام عملية ترحيل كشف الحساب لحساب الحركات التي تحدث في نقطة بيع المجموعة (POS) أو نقطة البيع الحديثة (MPOS). تستخدم عملية ترحيل كشف الحساب جدول توزيع لاستخراج مجموعة من حركات نقاط البيع إلى عميل المقر الرئيسي (HQ). تُستخدم المعلمات التي تم تعريفها في الصفحتين **معلمات البيع بالتجزئة‬** و**المتاجر** لتحديد الحركات المستخرجة لكشوف حساب فردية.
+في Microsoft Dynamics 365 for Retail، يتم استخدام عملية ترحيل كشف الحساب لحساب الحركات التي تحدث في Cloud point of sale (POS) أو Modern POS (MPOS) تستخدم عملية ترحيل كشف الحساب جدول توزيع لاستخراج مجموعة من حركات نقاط البيع إلى عميل المقر الرئيسي (HQ). تُستخدم المعلمات التي تم تعريفها في الصفحتين **معلمات البيع بالتجزئة‬** و**المتاجر** لتحديد الحركات المستخرجة لكشوف حساب فردية.
 
 يوضح الرسم التوضيحي التالي عملية ترحيل كشف الحساب. في هذه العملية، ترسل الحركات التي يتم تسجيلها في نقطة البيع إلى العميل باستخدام مجدول البيع بالتجزئة. بعد تلقي العميل الحركات، يمكنك إنشاء وحساب وترحيل كشف الحركات للمتجر.
 
@@ -86,7 +85,6 @@ ms.lasthandoff: 01/04/2019
 عند ترحيل كشف حساب، يتم إنشاء أوامر مبيعات وفواتير لمبيعات البيع بالتجزئة في كشف الحساب.
 
 - يتم تجميع المبيعات النقدية والمبالغ في أمر مبيعات، وتتم فوترتها للعميل الافتراضي الذي تم تعيينه إلى المتجر.
-- ينشئ البيع بالتجزئة، التي أضيف لها عميل إلى الحركة في Microsoft Dynamics 365 for Retail POS أوامر مبيعات وفواتير منفصلة، أي واحد لكل عميل فريد.
+- تقوم مبيعات التجزئة التي تم إضافة عميل إلى الحركة من أجلها في نقطة بيع Microsoft Dynamics 365 for Retail بإنشاء أوامر مبيعات وفواتير منفصلة، واحد لكل عميل فردي.
 
 يتم تلقائيًا إنشاء دفاتر دفع يومية للمدفوعات في كشف الحساب، ويتم تحديث المخزون لمتجر نقطة البيع.
-

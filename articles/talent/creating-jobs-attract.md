@@ -1,32 +1,31 @@
 ---
-title: "إنشاء الوظائف والموافقة عليها ونشرها في Attract"
-description: "يصف هذا الموضوع عناصر وظيفة في Attract. ويشرح أيضًا كيفية إنشاء وظيفة."
+title: إنشاء الوظائف والموافقة عليها ونشرها في Attract
+description: يصف هذا الموضوع عناصر وظيفة في Attract. ويشرح أيضًا كيفية إنشاء وظيفة.
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303127"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>إنشاء الوظائف والموافقة عليها ونشرها في Attract
 
 [!include [banner](includes/banner.md)]
@@ -45,7 +44,7 @@ ms.lasthandoff: 12/23/2018
 
 بشكل افتراضي، يكون حقل **عدد فرص العمل** معينًا إلى **1**. ومع ذلك، فإن بإمكانك تغيير القيمة. عند تجهيز عرض لوظيفة ما، يتم إنقاص القيمة في حقل **عدد فرص العمل المتوفرة**.
 
-إذا تم تشغيل إدارة المناصب في مركز الإدارة، فسيكون البحث عن **تحديث المناصب** متوفرًا. تقرأ عملية البحث هذه كيان JobPosition في Common Data Service للتطبيقات، ويرجع قائمة بالمناصب التي يمكن تحديدها للوظيفة. إذا تجاوز عدد المناصب التي تحددها عدد المناصب المفتوحة، فستتلقى رسالة تحذير. تتلقى أيضًا رسالة تحذير في حالة استخدام المنصب على وظائف متعددة.
+إذا تم تشغيل إدارة المناصب في مركز الإدارة، فسيكون البحث عن **تحديث المناصب** متوفرًا. تقرأ عملية البحث هذه كيان JobPosition في Common Data Service للتطبيقات، وتُرجع قائمة بالمناصب التي يمكن تحديدها للوظيفة. إذا تجاوز عدد المناصب التي تحددها عدد المناصب المفتوحة، فستتلقى رسالة تحذير. تتلقى أيضًا رسالة تحذير في حالة استخدام المنصب على وظائف متعددة.
 
 > [!NOTE]
 > تتوفر إدارة المناصب في المكون الإضافي Comprehensive hiring.
@@ -75,7 +74,7 @@ ms.lasthandoff: 12/23/2018
 
 ## <a name="postings"></a>عمليات النشر
 
-بعد تنشيط وظيفة، يمكن نشرها. وباستطاعة المسؤولين ومسؤولي التعيين فقط نشر الوظائف. يمكن نشر الوظيفة إما في Talent Careers (موقع وظائف في Microsoft Dynamics 365 for Talent) أو في LinkedIn. 
+بعد تنشيط وظيفة، يمكن نشرها. وباستطاعة المسؤولين ومسؤولي التعيين فقط نشر الوظائف. يمكن نشر الوظيفة إما في Talent Careers (موقع وظائف في Microsoft Dynamics 365 for Talent) أو LinkedIn. 
 
 > [!NOTE]
 > هناك ثلاثة أشياء مهمة يجب أخذها في الاعتبار حول عملية نشر الوظائف في LinkedIn.
@@ -162,11 +161,10 @@ ms.lasthandoff: 12/23/2018
 11. حدد **حفظ**.
 12. إذا اخترت استخدام عملية موافقة، فاتبع الخطوات التالية:
 
-    1. حدد **+ إضافة معتمد**، ثم أدخل المستخدم الذي لديه حساب Azure AD. يمكنك إضافة عدة معتمدين.
+    1. حدد **+ إضافة معتمد**، ثم أدخل مستخدمًا لديه حساب Azure AD. يمكنك إضافة عدة معتمدين.
     2. حدد **إرسال إلى المعتمدين**.
 
     يتم تعيين حقل **حالة المهمة** إلى **معلقة**. بعد أن تتغير قيمة حقل **حالة الوظيفة** إلى **موافق عليها‬‬**، يمكن تنشيط الوظيفة.
 
 13. لتنشيط الوظيفة، حدد **تنشيط**.
 14. لنشر الوظيفة، انتقل إلى **عمليات النشر‬**، ثم حدد **نشر الآن** في موقع الوظائف في Talent أو LinkedIn.
-

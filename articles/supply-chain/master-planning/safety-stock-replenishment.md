@@ -1,32 +1,31 @@
 ---
-title: "استيفاء المخزون الاحتياطي للأصناف"
-description: "يناقش هذا الموضوع استيفاء المخزون الاحتياطي وكيفية إعداد كمية المخزون الاحتياطي للأصناف."
+title: استيفاء المخزون الاحتياطي للأصناف
+description: يناقش هذا الموضوع استيفاء المخزون الاحتياطي وكيفية إعداد كمية المخزون الاحتياطي للأصناف.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341524"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>استيفاء المخزون الاحتياطي للأصناف
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ ms.lasthandoff: 12/14/2017
 أثناء مرحلة التغطية للتخطيط الرئيسي، لن يتم إعطاء تزويد المخزون الاحتياطي أولوية منخفضة مرة أخرى. يمكن استخدام المخزون الفعلي قبل أي من أنواع الطلب. أثناء عملية حساب التأخير، ستتم إضافة المنطق الجديد لتجاوز بنود المبيعات المتأخرة ومتطلبات سطور قائمة مكونات الصنف وجميع أنواع الطلبات الأخرى، لتحديد ما إذا كان من الممكن تسليمها في الوقت المحدد، شريطة أن يتم استخدام المخزون الاحتياطي. إذا حدد النظام أن بمقدوره تقليل التأخيرات للحد الأدنى باستخدام المخزون الاحتياطي، فسوف تستبدل بنود المبيعات أو ‏‫سطور قائمة مكونات الصنف‬ التغطية الأولية لها بالمخزون الاحتياطي وسيقوم النظام بتشغيل التزويد للمخزون الاحتياطي بدلاً من ذلك.
 
 في حالة عدم إعداد الخطة أو الصنف لعملية الحساب المتأخرة، فسيكون لقيد المخزون الاحتياطي الأولوية نفسها كأي نوع آخر من أنواع الطلب. وهذا يعني وجود احتياطي فعلي ومخزون متوفر آخر قبل أنواع الطلب الأخرى.
-

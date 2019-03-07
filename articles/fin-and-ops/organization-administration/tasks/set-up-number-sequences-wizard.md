@@ -1,13 +1,13 @@
---- 
-title: "إعداد التسلسلات الرقمية باستخدام معالج"
-description: "تُستخدم التسلسلات الرقمية لإنشاء معرفات فريدة قابلة للقراءة لسجلات البيانات الرئيسية وسجلات الحركات التي تتطلب وجودها."
+---
+title: إعداد التسلسلات الرقمية باستخدام معالج
+description: تُستخدم التسلسلات الرقمية لإنشاء معرفات فريدة قابلة للقراءة لسجلات البيانات الرئيسية وسجلات الحركات التي تتطلب وجودها.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1808ab9240ab291f9d203893a634bd390f16e2e7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96c1bc711350b447611977c3f2070fbc08fbae0f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328230"
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>إعداد التسلسلات الرقمية باستخدام معالج
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 09/29/2017
     * لا تحدد الخيار "مستمر" إذا كان يجب عليك التخصيص المسبق للتسلسل الرقمي.     لإضافة مقطع نطاق إلى تنسيق تسلسل رقمي، حدد التنسيق في القائمة، ثم انقر فوق "تضمين النطاق في التنسيق".     لإزالة مقطع نطاق من تنسيق تسلسل رقمي، حدد التنسيق في القائمة، ثم انقر فوق "إزالة النطاق من التنسيق".     لاستبعاد تسلسل رقمي من الإنشاء التلقائي، حدد التسلسل الرقمي في القائمة، ثم انقر فوق "حذف".  
 4. انقر فوق التالي.
 5. انقر فوق إنهاء.
-
 

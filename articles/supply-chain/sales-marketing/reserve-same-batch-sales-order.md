@@ -1,13 +1,13 @@
 ---
-title: "حجز نفس الدُفعة لأمر مبيعات"
-description: "توضح هذه المقالة كيفية إعداد منتج للسماح بحجز المخزون مقابل دُفعة واحدة من المخزون."
+title: حجز نفس الدُفعة لأمر مبيعات
+description: توضح هذه المقالة كيفية إعداد منتج للسماح بحجز المخزون مقابل دُفعة واحدة من المخزون.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2d6089d07b0f8bc1a36703b5b1c2f24af72770d5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aef3a52f4cb2d5af47a8c25a67e6c2076fa1ff03
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309531"
 ---
-
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>حجز نفس الدُفعة لأمر مبيعات
 
 [!include [banner](../includes/banner.md)]
@@ -39,12 +38,11 @@ ms.lasthandoff: 11/03/2017
 -   **تعقب مجموعات الأبعاد** - يجب أن يتم لمجموعة تعقب الأبعاد تحديد حقل **خطة التغطية حسب البعد** لرقم الدُفعة.
 -   **مجموعات أبعاد التخزين** – يجب أن يتم لمجموعة أبعاد التخزين تحديد حقل **خطة التغطية حسب البعد** لـ **الموقع** و**المستودع**.
 
-عند قيامك بحجز المخزون الخاص بمنتج في بند أمر مبيعات تم إعداده لتحديد الدفعة ذاتها، يحاول Microsoft Dynamics 365 for Finance and Operations حجز الكمية المطلوبة من دُفعة مخزون واحدة. كما يُوضع في الحسبان أي متطلبات سمة دُفعة محددة. وإذا كان لا يمكن تعبئة الكمية من دُفعة واحدة، تظهر صفحة **تعارض حجز نفس الدُفعة**. وتصف هذه الصفحة المشاكل وكذلك الإجراءات التي يمكنك اتخاذها لمتابعة الحجز. وقد تمنع الحالات التالية حجز الدُفعة:
+وعند قيامك بحجز المخزون الخاص بمنتج في بند أمر مبيعات تم إعداده لتحديد الدفعة ذاتها، يحاول Microsoft Dynamics 365 for Finance and Operations حجز الكمية المطلوبة من دُفعة مخزون واحدة. كما يُوضع في الحسبان أي متطلبات سمة دُفعة محددة. وإذا كان لا يمكن تعبئة الكمية من دُفعة واحدة، تظهر صفحة **تعارض حجز نفس الدُفعة**. وتصف هذه الصفحة المشاكل وكذلك الإجراءات التي يمكنك اتخاذها لمتابعة الحجز. وقد تمنع الحالات التالية حجز الدُفعة:
 
 -   يحتوي كود إرجاع الدُفعة على **حظر الحجز** للمبيعات مميزًا بعلامة **محظورة**.
 -   انتهت مدة صلاحية الدُفعة، استناداً إلى تاريخ انتهاء الصلاحية وأي أيام البيع للعميل متاحة. ولا يزال يمكن وضع الصنف في الاعتبار للحجز في حالة التحكم في مجموعة نماذج الصنف للصنف بواسطة التحكم في تاريخ ‏‫‏‫ما تنتهي صلاحيته أولاً يصرف أولاً (FEFO)، وإذا تم تحديد تاريخ الأفضلية كمعيار انتقاء.
 -   لا تشتمل الدُفعة على أيام عمر متبقية كافية، استناداً إلى تاريخ انتهاء الصلاحية وتاريخ الأفضلية، بالإضافة إلى أية أيام بيع للعملاء.
-
 
 
 

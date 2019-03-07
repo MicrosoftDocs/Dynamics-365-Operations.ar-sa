@@ -1,13 +1,13 @@
 ---
-title: "تحديث شامل للأصول الثابتة"
-description: "في حالة استخدام الدفاتر، فإنه يمكن تغيير قواعد الإهلاك لمجموعات أصول تعد جزءًا من نفس الدفتر."
+title: تحديث شامل للأصول الثابتة
+description: في حالة استخدام الدفاتر، فإنه يمكن تغيير قواعد الإهلاك لمجموعات أصول تعد جزءًا من نفس الدفتر.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b740f1fe710c2278bd5ac5f8d615f0e305cd7df1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3fb55f1a51652299db8a31274b07f239fbaf28f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348792"
 ---
-
 # <a name="fixed-asset-mass-update"></a>تحديث شامل للأصول الثابتة
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ ms.lasthandoff: 11/03/2017
 لتحديث قاعدة الإهلاك لأصول تم التخلص منها بالفعل، فإنه يجب أولاً حذف حركات التخلص الموجودة. ويجب عليك أيضًا حذف كافة الحركات التي تم إنشاؤها بسبب عملية التخلص منها. 
 
 وبعد قيامك بتحديث قواعد الإهلاك للأصول، يمكنك معالجة الإهلاك والإهلاك الاستثنائي لكل أصل من الأصول. كما يمكنك إجراء تسويات الإهلاك اليدوي، إذا كانت هناك حاجة إلى أي تسويات.
-
 
 
 

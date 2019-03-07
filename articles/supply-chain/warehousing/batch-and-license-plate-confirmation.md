@@ -1,13 +1,13 @@
 ---
-title: "تأكيد لوحة الترخيص والدُفعة"
-description: "يصف هذا الموضوع كيفية إعداد وتطبيق الدفعة وتأكيد لوحة الترخيص من جهاز محمول."
+title: تأكيد لوحة الترخيص والدُفعة
+description: يصف هذا الموضوع كيفية إعداد وتطبيق الدفعة وتأكيد لوحة الترخيص من جهاز محمول.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: efab5b11782fd2344fb5f532272007d187c1465b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0444caa0f1cc176153c322b8619db65bd377ddd0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344215"
 ---
-
 # <a name="batch-and-license-plate-confirmation"></a>تأكيد لوحة الترخيص والدُفعة
 
 [!include [banner](../includes/banner.md)]
@@ -43,4 +42,3 @@ ms.lasthandoff: 11/03/2017
 يمكنك تكوين الدفعة وتأكيد لوحة الترخيص من عناصر قائمة الجهاز المحمول.  
 1.  من عناصر قائمة الجهاز المحمول، قم بإدخال إعداد تأكيد العمل.  
 2.  حدد الخيار إما للدفعة أو لتأكيد لوحة الترخيص. يتوافر كل من الخيارين لعمليات انتقاء نوع العمل التي لم يتم تمكين التأكيد التلقائي لها.  
-

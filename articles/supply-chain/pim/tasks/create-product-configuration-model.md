@@ -1,13 +1,13 @@
---- 
-title: "إنشاء نموذج تكوين منتج"
-description: "يوضح هذا الإجراء كيفية إنشاء نموذج تكوين منتج وإدخال المعلومات الأساسية مثل السمات والمكونات الفرعية."
+---
+title: إنشاء نموذج تكوين منتج
+description: يوضح هذا الإجراء كيفية إنشاء نموذج تكوين منتج وإدخال المعلومات الأساسية مثل السمات والمكونات الفرعية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCCreateProductConfigurationModel, PCProductConfigurationModelDetails, PCBOMLineDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a5b3d19c680e14fe4074314a95937d30d4ad2c7a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
-ms.openlocfilehash: d494a20ba6f1f9c33a3935779b4bd3a8eefce26a
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/14/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315856"
 ---
 # <a name="create-a-product-configuration-model"></a>إنشاء نموذج تكوين منتج
 
@@ -82,5 +82,4 @@ ms.lasthandoff: 11/14/2017
 16. حدد خانة الاختيار "تعيين".
 17. في الحقل "حسب السلسلة"، ادخل اسمًا.
 18. انقر فوق "موافق".
-
 

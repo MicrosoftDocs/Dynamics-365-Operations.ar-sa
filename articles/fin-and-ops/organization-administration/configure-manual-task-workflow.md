@@ -1,13 +1,13 @@
 ---
-title: "تكوين المهام اليدوية في سير عمل"
-description: "يوضح هذا الموضوع كيفية تكوين خصائص مهمة يدوية."
+title: تكوين المهام اليدوية في سير عمل
+description: يوضح هذا الموضوع كيفية تكوين خصائص مهمة يدوية.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309738"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>تكوين المهام اليدوية في سير عمل
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,7 @@ ms.lasthandoff: 12/18/2018
     </tr>
     <tr>
     <td>المستخدم</td>
-    <td>‏‫مستخدمو Microsoft Dynamics 365 for Finance and Operations معينون‬</td>
+    <td>مستخدمو Microsoft Dynamics 365 for Finance and Operations معينون</td>
     <td>
     <ol>
     <li>بعد تحديد <strong>المستخدم</strong>، انقر فوق علامة تبويب <strong>المستخدم</strong>.</li>
@@ -383,4 +382,3 @@ ms.lasthandoff: 12/18/2018
 5. حدد خانة الاختيار **تفويض** إذا كان من المفترض أن يكون المستخدم قادرًا على تعيين المهمة إلى مستخدم آخر.
 6. حدد خانة الاختيار **إعادة تعيين** إذا كان من المفترض أن يكون المستخدم قادرًا على إعادة تعيين المهمة إلى مستخدم آخر في قائمة انتظار عناصر العمل.
 7. حدد خانة الاختيار **تحرير** إذا كان من المفترض أن يكون المستخدم قادرًا على إعادة تعيين المهمة في قائمة انتظار عناصر العمل. عندئذٍ، سيكون باستطاعة مستخدم آخر إكمال المهمة.
-

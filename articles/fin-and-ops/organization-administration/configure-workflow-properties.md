@@ -1,13 +1,13 @@
 ---
-title: "تكوين خصائص سير العمل"
-description: "يوضح هذا الموضوع كيفية تكوين مختلف خصائص لسير العمل."
+title: تكوين خصائص سير العمل
+description: يوضح هذا الموضوع كيفية تكوين مختلف خصائص لسير العمل.
 author: sericks007
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 576ce368b2a8672aa39116eb0cc6e3d3f2a06bb3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328460"
 ---
-
 # <a name="configure-workflow-properties"></a>تكوين خصائص سير العمل
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ ms.lasthandoff: 12/18/2018
 2. في الحقل **إدخال التعليقات الخاصة بسير العمل‬**، أدخل تعليقاتك.
 3. راجع تعليقاتك. بعد إضافة التعليقات، لا يمكنك تعديلها.
 4. انقر فوق **إضافة** لإضافة التعليقات إلى ناحية **سجل التعليقات‬**.
-

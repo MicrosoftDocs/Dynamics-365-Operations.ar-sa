@@ -1,13 +1,13 @@
 ---
-title: "تجميع النظام في قائمة عمل مفتوح‬"
-description: "يصف هذا الموضوع كيفية تصفية قائمة العمل المفتوح‬ على جهاز محمول."
+title: تجميع النظام في قائمة عمل مفتوح‬
+description: يصف هذا الموضوع كيفية تصفية قائمة العمل المفتوح‬ على جهاز محمول.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 73e1da37c354eecf1ef5d44e68d814664fe2be99
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9ca6b0d4a9909d419d6241a044336d7a02aea02
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331956"
 ---
-
 # <a name="system-grouping-on-an-open-work-list"></a>تجميع النظام في قائمة عمل مفتوح‬
 
 [!include [banner](../includes/banner.md)]
@@ -42,5 +41,4 @@ ms.lasthandoff: 04/13/2018
 | السماح بتجميع النظام |                                                                                                                                                                                                                                                 لتمكين تجميع النظام لعنصر قائمة عمل محدد.                                                                                                                                                                                                                                                  |
 | حقل تجميع النظام | يتوفر فقط عند تعيين <strong>السماح بعمل النظام</strong> إلى <strong>نعم</strong>. حدد الحقل الذي يحدد كيفية تجميع عمل الانتقاء للعاملين. على سبيل المثال، إذا قمت بتحديد حقل <strong>‏‫معرف الشحنة‬</strong>، سيقوم العامل بفحص معرف الشحنة لتجميع عمل الانتقاء. ثم يتم تعيين جميع الأعمال للشحنة للعامل. ويتطلب هذا الحقل إنشاء صنف قائمة لاستخدام العمل الموجود الذي يتم تجميعه بواسطة النظام. استخدم الحقل <strong>تسمية تجميع النظام</strong> لإعلام العامل بما يجب عليه فحصه. |
 | بطاقة تجميع النظام |                       يتوفر فقط عند تعيين <strong>السماح بعمل النظام</strong> إلى <strong>نعم</strong>. أدخل معلومات للعامل عما يجب عليه فحصه عندما يتم تجميع عمل الانتقاء. على سبيل المثال، إذا كنت تستخدم حقل <strong>معرف الشحنة</strong> لتجميع عمل الانتقاء بالشحنة، يمكنك إدخال معرف الشحنة في الحقل. ويتطلب هذا الحقل إنشاء صنف قائمة لاستخدام العمل الموجود الذي يتم تجميعه بواسطة النظام. يجب أيضًا تحديد الحقل للتجميع بحسب في حقل <strong>تجميع النظام</strong>.                       |
-
 

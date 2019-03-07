@@ -1,37 +1,36 @@
 ---
-title: "مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations"
-description: "يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Field Service لأوامر المبيعات في Finance and Operations."
+title: مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations
+description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Field Service لأوامر المبيعات في Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
-ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
-ms.contentlocale: ar-sa
-ms.lasthandoff: 06/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324090"
 ---
-
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Microsoft Dynamics 365 for Field Service لأوامر المبيعات في Microsoft Dynamics 365 for Finance and Operations.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Microsoft Dynamics 365 for Field Service إلى أوامر المبيعات في Microsoft Dynamics 365 for Finance and Operations.
 
 [![مزامنة عمليات الأعمال بين Finance and Operations وField Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -273,4 +272,3 @@ ms.lasthandoff: 06/07/2018
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و((msdyn_linestatus eq 690970001) أو (msdynce_headersystemstatus eq 690970004) أو (msdyn_allocated ne true))
 
 [![تعيين القالب في تكامل البيانات](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-

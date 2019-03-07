@@ -1,13 +1,13 @@
 ---
-title: "التخطيط لإعداد دفتر العناوين العمومي ودفاتر العناوين الإضافية"
-description: "يوضح هذا الموضوع الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل إعداد وتكوين دفتر العناوين العمومي وأي دفاتر عناوين إضافية في Microsoft Dynamics 365 for Finance and Operations. قد تتطلب منك بعض القرارات تأكيد القرارات التي تم اتخاذها لنواحٍ أخرى من المنتج، مثل التدرج الهرمي للمؤسسات."
+title: التخطيط لإعداد دفتر العناوين العمومي ودفاتر العناوين الإضافية
+description: تصف هذه المقالة الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل إعداد وتكوين دفتر العناوين العمومي وأي دفاتر عناوين إضافية في Microsoft Dynamics 365 for Finance and Operations. قد تتطلب منك بعض القرارات تأكيد القرارات التي تم اتخاذها لنواحٍ أخرى من المنتج، مثل التدرج الهرمي للمؤسسات.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 20795cb8dd752a32f6c57fdb8f369691e41139b3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332646"
 ---
-
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>التخطيط لإعداد دفتر العناوين العمومي ودفاتر العناوين الإضافية
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل إعداد وتكوين دفتر العناوين العمومي وأي دفاتر عناوين إضافية في Microsoft Dynamics 365 for Finance and Operations. قد تتطلب منك بعض القرارات تأكيد القرارات التي تم اتخاذها لنواحٍ أخرى من المنتج، مثل التدرج الهرمي للمؤسسات.
+تصف هذه المقالة الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل إعداد وتكوين دفتر العناوين العمومي وأي دفاتر عناوين إضافية في Microsoft Dynamics 365 for Finance and Operations. قد تتطلب منك بعض القرارات تأكيد القرارات التي تم اتخاذها لنواحٍ أخرى من المنتج، مثل التدرج الهرمي للمؤسسات.
 
 ## <a name="global-address-book"></a>دفتر العناوين العمومي
 
@@ -67,4 +66,3 @@ ms.lasthandoff: 12/18/2018
 **القرار:**
 
 - ما فرق العمل التي ينبغي أن يُتاح لها الوصول إلى كل دفتر عناوين جديد ستقوم بإنشائه؟
-

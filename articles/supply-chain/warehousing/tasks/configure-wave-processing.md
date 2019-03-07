@@ -1,13 +1,13 @@
---- 
-title: "تكوين معالجة الموجة"
-description: "يصف هذا الدليل كيفية إعداد المعايير التي تحدد العمل الذي يتم إنشاؤه لمستودع عند معالجة الموجة وما إذا كانت الموجات يتم معالجتها يدويًا أو تلقائيًا."
+---
+title: تكوين معالجة الموجة
+description: يصف هذا الدليل كيفية إعداد المعايير التي تحدد العمل الذي يتم إنشاؤه لمستودع عند معالجة الموجة وما إذا كانت الموجات يتم معالجتها يدويًا أو تلقائيًا.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337499"
 ---
 # <a name="configure-wave-processing"></a>تكوين معالجة الموجة
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 24. في الحقل "إصدار إلى المستودع"، حدد خيارًا.
     * لأوامر المبيعات وأوامر كانبان، يجب حجز المخزون قبل إصدار الأمر إلى المستودع. وإلا، لا يمكن معالجة أصناف أو سطور توزيع في موجة. بالنسبة لأوامر الإنتاج، يكون لديك أيضًا خيار اختيار السماح بالحجز الجزئي. على سبيل المثال، هذا مفيد إذا كان لديك المواد التي تحتاجها لبدء عملية إنتاج، ويمكنك الانتظار حتى تتوفر مواد إضافية لإنهاء العملية. إذا قمت بتحديد هذا الخيار، يجب أن تقوم يدوياً بتكرار الإصدار لمعالجة المستودع عند توفر المواد الإضافية.  
 25. قم بإغلاق الصفحة.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "إهلاك العامل"
-description: "توفر هذه المقالة نظرة عامة على أسلوب الإهلاك بالمعامل."
+title: إهلاك العامل
+description: توفر هذه المقالة نظرة عامة على أسلوب الإهلاك بالمعامل.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa8bc4566def9dd770a97facb459e6b977bfaffb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 44fa540c31e5302ccf0a65b44b3c45a4c1e1fd1f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338787"
 ---
-
 # <a name="factor-depreciation"></a>إهلاك العامل
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="straight-line-depreciation"></a>إهلاك القسط الثابت
 القيمة في حقل **المعامل** تساوي **50**. في هذه الحالة، يكون الإهلاك نفس الشيء في كل فترة، ويجب أن تأخذ في الاعتبار آثار القيم التي حددتها في حقول أخرى، كما هو موضح في [إهلاك مدة خدمة القسط الثابت‬](straight-line-service-life-depreciation.md).
-
 
 
 

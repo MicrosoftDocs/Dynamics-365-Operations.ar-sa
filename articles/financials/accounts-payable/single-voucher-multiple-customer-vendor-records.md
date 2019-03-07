@@ -1,13 +1,13 @@
 ---
-title: "إيصال واحد مع سجلات عملاء أو موردين متعددين"
-description: "يوفر هذا الموضوع نظرة عامة حول ما يحدث عندما تقوم بترحيل إيصال واحد مع سجلات عملاء أو موردين متعددين. سيتوقف العمل بهذه الوظيفة في الإصدارات المستقبلية من Microsoft Dynamics 365 for Finance and Operations، ونتيجة لذلك، لا ننصح باستخدام هذا الأسلوب للترحيل بسبب تأثير المحاسبة على معالجة التسوية."
+title: إيصال واحد مع سجلات عملاء أو موردين متعددين
+description: يوفر هذا الموضوع نظرة عامة حول ما يحدث عندما تقوم بترحيل إيصال واحد مع سجلات عملاء أو موردين متعددين. سيتوقف العمل بهذه الوظيفة في الإصدارات المستقبلية من Microsoft Dynamics 365 for Finance and Operations، ونتيجة لذلك، لا ننصح باستخدام هذا الأسلوب للترحيل بسبب تأثير المحاسبة على معالجة التسوية.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330346"
 ---
-
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>إيصال واحد مع سجلات عملاء أو موردين متعددين
 
 [!include [banner](../includes/banner.md)]
@@ -249,7 +248,6 @@ ms.lasthandoff: 03/26/2018
 | **الإيصال** | **نوع الحساب** | **الحساب** | **الوصف** | **مدين** | **يضع في الحساب مبلغاً دائناً** | **نوع الحساب المقابل** | **الحساب المقابل** |
 | 001         | العميل         | US-008      |                 |           |  75.00     | دفتر الأستاذ          | 999999---          |
 | 002         | المورّد           | 1001        |                 |  75.00    |            | دفتر الأستاذ          | 999999---          |
-
 
 
 

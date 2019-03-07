@@ -1,13 +1,13 @@
 ---
-title: "عرض تقرير مصروفات من دفتر الأستاذ العام أو التدبير والتوريد"
-description: "يوضح هذا الموضوع كيفية عرض تقرير المصروفات الأصلي الذي ظهرت الحركة فيه."
+title: عرض تقرير مصروفات من دفتر الأستاذ العام أو التدبير والتوريد
+description: يوضح هذا الموضوع كيفية عرض تقرير المصروفات الأصلي الذي ظهرت الحركة فيه.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e88af5a815803d20cf97f21f6ae50bcf98539b83
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6397ca01ef100b6149c70a335ce854bc0439aff2
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316385"
 ---
-
 # <a name="view-an-expense-report"></a>عرض تقرير مصروفات
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ ms.lasthandoff: 03/13/2018
 للتصفح لأسفل في تقرير المصروفات الذي ظهرت فيه الحركة، حدد الحركة، ثم حدد **المستند الأصلي**.
 
 عندما تقوم بعرض الحركات الفردية، يمكنك أيضًا عرض أي بيانات إضافية مرتبطة بالحركة. على سبيل المثال، لمصروفات فندق مُفصلة، يمكنك عرض قائمة مصروفات مفصلة مثل مصروفات استخدام الإنترنت والمكالمات الهاتفية وخدمة الغرف.
-

@@ -1,13 +1,13 @@
---- 
-title: "تسجيل موظف في خطة التعويض المتغيرة"
-description: "بإمكان مدير التعويضات والميزات‬ تسجيل الموظفين في خطط التعويض المتغيرة لحساب المكافآت النقدية وغير النقدية للموظفين."
+---
+title: تسجيل موظف في خطة التعويض المتغيرة
+description: بإمكان مدير التعويضات والميزات‬ تسجيل الموظفين في خطط التعويض المتغيرة لحساب المكافآت النقدية وغير النقدية للموظفين.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 6ab2533293b5c8cb37953427893b75a98ddf3976
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329564"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>تسجيل موظف في خطة التعويض المتغيرة
 
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/17/2018
     * إذا كان يجب تقديم مبلغ أساسي للموظف كمكافأة، فيمكن تعيين المبلغ هنا.  
 8. بدّل توسيع المقطع "التجاوزات التنظيمية‬".
     * إذا كان يتعين على أداء الموظف أن يأخذ في الاعتبار أداء أقسام مختلفة أو أداء قسم آخر غير القسم المعين إلى منصف الموظف، فيمكن تجاوز القسم. يجب أن يساوي إجمالي عمود "النسبة" 100.  
-
 

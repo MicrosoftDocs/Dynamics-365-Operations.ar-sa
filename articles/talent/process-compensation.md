@@ -1,13 +1,13 @@
 ---
-title: "معالجة التعويضات"
-description: "تسمح لك معالجة التعويضات بحساب مبالغ التعويضات الأساسية الجديدة للموظفين استنادًا إلى تعديل الملكيات وأهداف الزيادة في الأهلية‬ والأداء."
+title: معالجة التعويضات
+description: تسمح لك معالجة التعويضات بحساب مبالغ التعويضات الأساسية الجديدة للموظفين استنادًا إلى تعديل الملكيات وأهداف الزيادة في الأهلية‬ والأداء.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303124"
 ---
-
 # <a name="process-compensation"></a>معالجة التعويضات
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ ms.lasthandoff: 03/07/2018
 عند تحديث حالة أحداث موظف أو أكثر إلى "تمت الموافقة"، يمكن تحميلها إلى سجلات التعويض الثابت للموظف. يمكن إجراء ذلك إما بتحديد حدث موظف واحد في كل مرة ثم النقر فوق زر **تحميل تعويض الموظف** في صفحة **نتائج الموظف** و عن طريق النقر فوق **تحميل التعويض** في صفحة **نتائج العملية** لتحميل كل أحداث الموظف الموافق عليها مرة واحدة.
 
 يؤدي النقر فوق **موافق** في مربع الحوار **تحميل التعويض** إلى إضافة بنود إجراء التعويض غير الصفري إلى صفحة **التعويض الثابت للموظف**.
-
