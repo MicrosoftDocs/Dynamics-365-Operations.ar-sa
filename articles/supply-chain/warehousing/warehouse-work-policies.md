@@ -1,13 +1,13 @@
 ---
-title: "سياسات عمل المستودع"
-description: "تتحكم سياسات عمل المستودع فيما إذا كان عمل المستودع ينشأ نتيجة عمليات المستودع في التصنيع، استنادًا إلى نوع أمر العمل وموقع المخزون والمنتج."
+title: سياسات عمل المستودع
+description: تتحكم سياسات عمل المستودع فيما إذا كان عمل المستودع ينشأ نتيجة عمليات المستودع في التصنيع، استنادًا إلى نوع أمر العمل وموقع المخزون والمنتج.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0710eac8daba7f51f6b5d1522476b812a130960d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325585"
 ---
-
 # <a name="warehouse-work-policies"></a>سياسات عمل المستودع
 
 [!include [banner](../includes/banner.md)]
@@ -126,7 +125,7 @@ ms.lasthandoff: 04/13/2018
 <tr>
 <td></td>
 <td>2.</td>
-<td>في القائمة، حدد مجموعة الموارد "5102".</td>
+<td>في القائمة، حدد مجموعة الموارد &#39;5102&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -136,12 +135,12 @@ ms.lasthandoff: 04/13/2018
 <tr>
 <td></td>
 <td>4.</td>
-<td>في الحقل "مستودع المخرجات"، أدخل "51".</td>
+<td>في الحقل "مستودع المخرجات"، أدخل &#39;51&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>في الحقل "موقع الإخراج"، أدخل "001".</td>
+<td>في الحقل "موقع الإخراج"، أدخل &#39;001&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -169,7 +168,7 @@ ms.lasthandoff: 04/13/2018
 <tr>
 <td></td>
 <td>4.</td>
-<td>في الحقل "رقم الصنف"، أدخل "L0101".</td>
+<td>في الحقل "رقم الصنف"، أدخل &#39;L0101&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -248,7 +247,6 @@ ms.lasthandoff: 04/13/2018
 </tr>
 </tbody>
 </table>
-
 
 
 

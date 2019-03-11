@@ -1,13 +1,13 @@
 ---
-title: "نظرة عامة على إدارة النقل"
-description: "يقدم هذا الموضوع نظرة عامة حول وظائف إدارة النقل في Microsoft Dynamics 365 for Finance and Operations."
+title: نظرة عامة على إدارة النقل
+description: يقدم هذا الموضوع نظرة عامة حول وظائف إدارة النقل في Microsoft Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355600"
 ---
-
 # <a name="transportation-management-overview"></a>نظرة عامة على إدارة النقل
 
 [!include [banner](../includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة حول وظائف إدارة النقل في Microsoft Dynamics 365 for Finance and Operations.
 
-تسمح لك إدارة النقل باستخدام وسائل النقل الخاص بالشركة، وتسمح لك أيضًا بتحديد المورّدين وحلول التوجيه للأوامر الواردة والصادرة. على سبيل المثال، يمكنك تعريف أسرع الطرق أو المعدل الأقل تكلفة لشحنة ما. يوضح الجدول التالي السيناريوهات الأساسية لاستخدام إدارة النقل في Microsoft Dynamics 365 for Finance and Operations.
+تسمح لك إدارة النقل باستخدام وسائل النقل الخاص بالشركة، وتسمح لك أيضًا بتحديد المورّدين وحلول التوجيه للأوامر الواردة والصادرة. على سبيل المثال، يمكنك تعريف أسرع الطرق أو المعدل الأقل تكلفة لشحنة ما. يصف الجدول التالي السيناريوهات الأساسية لاستخدام إدارة النقل في Microsoft Dynamics 365 for Finance and Operations.
 
 <table>
 <colgroup>
@@ -51,11 +50,11 @@ ms.lasthandoff: 04/13/2018
 <td>استخدم إدارة النقل لعمليات النقل الواردة و/أو الصادرة.</td>
 </tr>
 <tr class="even">
-<td>يتوفر أسطول الشركة الخاص للتسليم/الالتقاط، ويتم تمرير رسوم التسليم إلى العملاء.</td>
+<td>يتوفر أسطول الشركة الخاص للتسليم/الالتقاط، ويتم تحويل رسوم التسليم إلى العملاء.</td>
 <td>للعمليات الصادرة، يمكنك استخدام إدارة النقل لتحديد رسوم النقل وتمريرها للعملاء. ومع ذلك، فإن عملية تسوية فواتير شركة النقل غير مطلوبة.</td>
 </tr>
 <tr class="odd">
-<td>يتوفر أسطول الشركة الخاص للتسليم/الالتقاط، ولكن لا يتم تمرير رسوم التسليم إلى العملاء، لأن أسعار المنتجات تتضمن النقل.</td>
+<td>يتوفر أسطول الشركة الخاص للتسليم/الالتقاط، ولكن لا يتم تحويل رسوم التسليم إلى العملاء، لأن أسعار المنتجات تتضمن النقل.</td>
 <td>الكثير من وظائف إدارة النقل غير مطلوب. ومع ذلك، يمكنك استخدام إدارة النقل لتحديد أسعار النقل وتعديل سعر المبيعات وفقًا لذلك.</td>
 </tr>
 <tr class="even">
@@ -85,7 +84,6 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="load-building"></a>إنشاء حمل العمل
 يوفر Finance and Operations استراتيجية بناء حمل العمل التي تسمى استراتيجية بناء حمل العمل على أساس الحجم. تسمح لك هذه الاستراتيجية باستخدام القيم القصوى المحددة للطول والوزن في قالب حمل العمل، أو يمكنك تجاوز الإعدادات بإدخال قيم جديدة. لاستخدام هذه الاستراتيجية، حددها في الحقل **إستراتيجية إنشاء الحِمل‬** على علامة التبويب السريعة **إعداد** في صفحة **منضدة عمل إنشاء الحِمل‬**. وبالإضافة إلى ذلك، يمكنك إضافة استراتيجيات بناء الأحمال الخاصة بك عن طريق إنشاء فئة جديدة في شجرة مكونات البرنامج (AOT).
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "إعداد معلومات موارد المشروع"
-description: "يوضح هذا الإجراء كيفية إعداد مورد المشروع."
+---
+title: إعداد معلومات موارد المشروع
+description: يوضح هذا الإجراء كيفية إعداد مورد المشروع.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ResResourcesListPage, ResAddResourceForm, ProjCostPriceHour, ProjSalesPriceHour
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 180b806a80d373626c3f3a2bb43a3049a43618d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9824971eb2a970f6136df9cc2c5feffc038b8f09
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346768"
 ---
 # <a name="set-up-project-resource-information"></a>إعداد معلومات موارد المشروع
 
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/29/2017
 19. في الحقل "صالح لـ"، حدد خيارًا.
 20. انقر فوق "حفظ".
 21. قم بإغلاق الصفحة.
-
 

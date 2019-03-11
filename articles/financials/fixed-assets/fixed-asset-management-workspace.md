@@ -1,35 +1,34 @@
 ---
-title: "مساحة عمل إدارة الأصول الثابتة"
-description: "يوفر هذا الموضوع معلومات حول مساحة عمل إدارة الأصول الثابتة. تعرض مساحة العمل هذه المعلومات المرتبطة بالأصول الثابتة التي تم إدخالها في النظام. وهي تتضمن طريقة عرض ملخصة وطريقة عرض التحليلات."
+title: مساحة عمل إدارة الأصول الثابتة
+description: يوفر هذا الموضوع معلومات حول مساحة عمل إدارة الأصول الثابتة. تعرض مساحة العمل هذه المعلومات المرتبطة بالأصول الثابتة التي تم إدخالها في النظام. وهي تتضمن طريقة عرض ملخصة وطريقة عرض التحليلات.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 1e8e02bf308b5506aef41d302755911f6a9ce3e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352311"
 ---
-
 # <a name="fixed-asset-management-workspace"></a>مساحة عمل إدارة الأصول الثابتة
 
 [!include [banner](../includes/banner.md)]
 
-تعرض مساحة عمل **إدارة الأصول الثابتة** المعلومات المرتبطة بالأصول الثابتة التي تم إدخالها في النظام. تتضمن مساحة العمل هذه طريقة عرض ملخصة وطريقة عرض التحليلات.‬ تعرض علامة التبويب **عملي‬** لوحات ملخصة وتفاصيل الأصول الثابتة، ومعلومات ذات صلة حول الأصول الثابتة في الشركة الحالية. يمكنك أيضًا إضافة التحليلات إلى قسم تحليلات Power BI مباشرة في مساحة العمل. تستخدم علامة التبويب **التحليلات - جميع الشركات‬** قدرات Microsoft Power BI لعرض المرئيات المرتبطة بالأصول الثابتة في كافة الشركات.
+تعرض مساحة عمل **إدارة الأصول الثابتة** المعلومات المرتبطة بالأصول الثابتة التي تم إدخالها في النظام. تتضمن مساحة العمل هذه طريقة عرض ملخصة وطريقة عرض التحليلات.‬ تعرض علامة التبويب **عملي‬** لوحات ملخصة وتفاصيل الأصول الثابتة، ومعلومات ذات صلة حول الأصول الثابتة في الشركة الحالية. يمكنك أيضًا إضافة التحليلات إلى قسم تحليلات Power BI مباشرة في مساحة العمل. تستخدم علامة التبويب **التحليلات - جميع الشركات** قدرات Microsoft Power BI لعرض المرئيات المرتبطة بالأصول الثابتة في كافة الشركات.
 
 ## <a name="my-work"></a>عملي
 
@@ -75,4 +74,3 @@ ms.lasthandoff: 02/07/2018
 | خرائط التقييمات        | تفاصيل الأصول الثابتة |
 
 لعرض التحليلات مع البيانات، يجب أولاً تحديث قياس التجميع AssetTransactionMeasure في صفحة **مخزن الكيانات**.
-

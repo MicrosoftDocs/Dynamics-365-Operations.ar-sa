@@ -1,13 +1,13 @@
 ---
-title: "دعم الرمز الشريطي للأجهزة المحمولة"
-description: "يصف هذا الموضوع كيفية التعامل مع تطبيق المسح الضوئي للمستودعات على الأجهزة المحمولة على الأجهزة المتوافقة مع Android."
+title: دعم الرمز الشريطي للأجهزة المحمولة
+description: يصف هذا الموضوع كيفية التعامل مع تطبيق المسح الضوئي للمستودعات على الأجهزة المحمولة على الأجهزة المتوافقة مع Android.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BarcodeSetup
 audience: Application User
 ms.reviewer: josaw
@@ -17,23 +17,21 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afddb34f29e13e17f2b93bb2633183a78e31f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 05f00bfbe7ef1dfce58b242d4defa925649e1dae
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360223"
 ---
-
 # <a name="mobile-bar-code-support"></a>دعم الرمز الشريطي للأجهزة المحمولة
 
 [!include [banner](../includes/banner.md)]
 
 نظرًا لأن نظام التشغيل Android مشروع مفتوح المصدر، يمكن لأي شركة مصنعة لأجهزة المسح الضوئي للرموز الشريطية للمستودعات تصميم جهاز يعمل بنظام التشغيل Android. ولا يكون الجهاز متوافقًا مع Android إلا إذا قام بتشغيل التطبيقات التي تتم كتابتها لبيئة تنفيذ Android.
-ومع ذلك، يمكن لمورد الأجهزة تعديل إصدار Android الذي يتم تشغيله على أجهزته ويمكن إنشاء تراكبات له. لا تتخذ شركة Microsoft أية مسؤولية للتحقق من توافق أحد تطبيقات المسح الضوئي للرموز الشريطية على الأجهزة المحمولة المستندة إلى Android مع أجهزة المسح الضوئي للرموز الشريطية للشركة المصنعة ومع إصدار Android الذي يتم تشغيله عليها. 
+ومع ذلك، بإمكان مورّد الأجهزة تعديل إصدار Android الذي يتم تشغيله على أجهزته وإنشاء تراكبات له. لا يمكن لشركة Microsoft أن تتحمل أي مسؤولية للتأكد من توافق تطبيق المسح الضوئي للرموز الشريطية على الأجهزة المحمولة المستندة إلى Android مع أجهزة المسح الضوئي للرموز الشريطية للشركة المصنعة ومع إصدار Android الذي يتم تشغيله عليها. 
 
-تم اختبار تطبيق التخزين‬ لـ Microsoft Dynamics 365 for Finance and Operations مع مجموعة الأجهزة المستندة إلى Android للمسح الضوئي للرموز الشريطية. ولا تغطي هذه الاختبارات إلا عينة من الأجهزة المتوفرة في السوق.
+تم اختبار تطبيق التخزين في Microsoft Dynamics 365 for Finance and Operations باستخدام مجموعة من الأجهزة التي تعمل مع نظام Android لإجراء مسح ضوئي للرموز الشريطية. ولا تغطي هذه الاختبارات إلا عينة من الأجهزة المتوفرة في السوق.
 
 بوصفك أحد العملاء، نوصيك باختبار تطبيق المسح الضوئي للمستودعات على الأجهزة المحمولة على الجهاز المحدد قبل أن تستقر على الجهاز الذي تريد شراؤه.
-
 

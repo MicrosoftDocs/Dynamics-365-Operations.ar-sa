@@ -1,28 +1,28 @@
 ---
-title: "الصفحة الرئيسية لعمليات النشر المحلي"
-description: "يوفر هذا الموضوع معلومات وارتباطات إلى محتوى يتعلق بعمليات النشر المحلي."
+title: الصفحة الرئيسية لعمليات النشر المحلي
+description: يوفر هذا الموضوع معلومات وارتباطات إلى محتوى يتعلق بعمليات النشر المحلي.
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373267"
 ---
 # <a name="on-premises-deployments-home-page"></a>الصفحة الرئيسية لعمليات النشر المحلي
 
@@ -59,10 +59,11 @@ ms.lasthandoff: 11/02/2018
 ## <a name="retail"></a>Retail
 - [إمكانات البيع بالتجزئة المتوفرة في عمليات النشر المحلي](../../retail/retail-onprem.md)
 - [خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية](deploy-retail-onprem.md)
-- [تكوين Retail Modern POS (MPOS) وتثبيتها وتنشيطها](../../retail/retail-modern-pos-device-activation.md)
+- [تكوين وتثبيت وتنشيط Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
 - [تكوين وتثبيت Retail Store Scale Unit](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>ترقية
+- [عملية الترقية في الموضع للبيئات المحلية](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>موارد أخرى
 - [استكشاف مشاكل عمليات النشر المحلية وإصلاحها](troubleshoot-on-prem.md)
@@ -71,4 +72,3 @@ ms.lasthandoff: 11/02/2018
 - [الميزات التي تمت إزالتها أو إهمالها](../migration-upgrade/deprecated-features.md)
 - [سياسة دورة حياة البرامج والإصدارات المحلية](../migration-upgrade/on-prem-version-update-policy.md)
  
-

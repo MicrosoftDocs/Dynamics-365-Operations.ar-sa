@@ -1,13 +1,13 @@
 ---
-title: "إدارة عمل التعاقد من الباطن في الإنتاج"
-description: "تشرح هذه المقالة كيفية إدارة عمليات التعاقد من الباطن في Microsoft Dynamics 365 for Finance and Operations. وبعبارات أخرى، تشرح كيف يدير المورّد عمليات الإنتاج التي تم تخصيصها لمورد ما."
+title: إدارة عمل التعاقد من الباطن في الإنتاج
+description: يشرح هذا المقال كيفية إدارة العمليات المتعاقد عليها من الباطن في Microsoft Dynamics 365 for Finance and Operations. وبعبارات أخرى، تشرح كيف يدير المورّد عمليات الإنتاج التي تم تخصيصها لمورد ما.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326574"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>إدارة عمل التعاقد من الباطن في الإنتاج
 
 [!include [banner](../includes/banner.md)]
 
-تشرح هذه المقالة كيفية إدارة عمليات التعاقد من الباطن في Microsoft Dynamics 365 for Finance and Operations. وبعبارات أخرى، تشرح كيف يدير المورّد عمليات الإنتاج التي تم تخصيصها لمورد ما.
+يشرح هذا المقال كيفية إدارة العمليات المتعاقد عليها من الباطن في Microsoft Dynamics 365 for Finance and Operations. وبعبارات أخرى، تشرح كيف يدير المورّد عمليات الإنتاج التي تم تخصيصها لمورد ما.
 
 في [عمليات الإنتاج](production-process-overview.md)، يمكن تنفيذ العمل من قِبل الموارد التي يمتلكها أو يديرها المورّدون. عادة، تُستخدم موارد المورّد لتسوية الطلب المتزايد الدوري الذي يفوق القدرة المتاحة لدى موارد الشركة الخاصة. قد يكون باستطاعة المورّد أيضًا تقديم [قدرات موارد](resource-capabilities.md) معينة أو موارد بتكلفة أقل.  
 
@@ -101,7 +100,6 @@ ms.lasthandoff: 11/03/2017
 **ملاحظة:** يتعذر على مسار إنتاج لأمر إنتاج واحد عبور مواقع متعددة. تنطبق هذه القاعدة أيضًا على العمل المتعاقد عليه من الباطن. ولذلك، يجب تعريف المستودعات التي تمثل مواقع المواد المدارة من قِبل المورّد في الموقع نفسه حيث الموارد الداخلية المستخدمة في المسار. على الرغم من قدرة تدفقات الإنتاج على عبور المواقع، إنه أنه يتعذر عليها نقل المنتجات غير النهائية من موقع إلى آخر، لأن هذه العملية تستلزم التغيير في سياق التكلفة.  
 
 بشكل عام، يتم تخصيص مستودع المخرجات وموقع مجموعة الموارد المتعاقد عليها من الباطن بشكل مباشر إلى المستودع والموقع في الخطوة التالية من العملية في تدفق الإنتاج أو المسار. يساعد هذا الإعداد على الحد من عدد عمليات إعداد تقارير الوظائف التي تحدث أو عدد عمليات النقل الإضافية التي يجب تصميمها.
-
 
 
 

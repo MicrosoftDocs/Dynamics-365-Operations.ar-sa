@@ -1,33 +1,32 @@
 ---
-title: "ميزات إمكانية الوصول"
-description: "يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات متعددة على استخدام Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent."
+title: ميزات إمكانية الوصول
+description: يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة على استخدام Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363397"
 ---
-
-# <a name="accessibility-features"></a>ميزات إمكانية وصول ذوي الاحتياجات الخاصة
+# <a name="accessibility-features"></a>ميزات إمكانية الوصول
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات متعددة على استخدام Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent. على سبيل المثال، هناك ميزات للأشخاص الذين يستخدمون تقنيات مساعدة مرئية، مثل Microsoft Windows Narrator.
+يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة على استخدام Dynamics 365 for Finance and Operations، وDynamics 365 for Retail، وDynamics 365 for Talent. على سبيل المثال، هناك ميزات للأشخاص الذين يستخدمون تقنيات مساعدة مرئية، مثل Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator والوصول إلى لوحة المفاتيح فقط
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>تشمل إرشادات مساعدة المطورين والعملاء تفكير يمكن الوصول إليه في تخصيصاتهم
 
 لمزيد من المعلومات حول أفضل ممارسات Microsoft لتمكين الوصول، راجع [إمكانية الوصول في النماذج والمنتجات وعناصر التحكم](../../dev-itpro/user-interface/enable-accessibility.md).
-

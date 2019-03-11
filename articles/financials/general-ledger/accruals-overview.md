@@ -1,13 +1,13 @@
 ---
-title: "نظرة عامة على الاستحقاقات"
-description: "تصف هذه المقالة الاستحقاقات، وتوفر معلومات حول كيفية إعدادها وإنشاء الحركات."
+title: نظرة عامة على الاستحقاقات
+description: تصف هذه المقالة الاستحقاقات، وتوفر معلومات حول كيفية إعدادها وإنشاء الحركات.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c6a3402e4bc4a22d764017ba56554001300a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 00ecc493e6dcf59ab61e7082297c95516a248b58
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339684"
 ---
-
 # <a name="accruals-overview"></a>نظرة عامة على الاستحقاقات
 
 [!include [banner](../includes/banner.md)]
@@ -47,4 +46,3 @@ ms.lasthandoff: 11/03/2017
 
 
 للحصول على مزيد من المعلومات، راجع [إنشاء أنظمة استحقاق](tasks/create-accrual-schemes.md) و[إنشاء حركات استحقاق دفتر الأستاذ](tasks/create-ledger-accrual-transactions.md).
-

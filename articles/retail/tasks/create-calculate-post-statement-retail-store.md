@@ -1,13 +1,13 @@
---- 
+---
 title: " إنشاء كشف حساب لمتجر بيع بالتجزئة وحسابه وترحيله"
-description: "يتناول هذا الإجراء الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر."
+description: يتناول هذا الإجراء الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354381"
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> إنشاء كشف حساب لمتجر بيع بالتجزئة وحسابه وترحيله
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-يتناول هذا الإجراء الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر. هناك أيضا وظائف دفعية والتي يمكن تكوينها لنفس المهام. يمكن العثور على الخطوات لتكوين الوظائف الدفعية وتشغيلها في مواضيع أخرى. ولإكمال هذا الإجراء، يجب أن يكون لديك حركات تم إكمالها في نقطة البيع ثم سحبها إلى Dynamics AX. ويستخدم هذا التسجيل شركة USRT في بيانات العرض التوضيحي. قد يشير هذا الإجراء إلى Microsoft Dynamics AX. تجدر الإشارة إلى أن Dynamics AX يسمى الآن Microsoft Dynamics 365 for Operations.
+يتناول هذا الإجراء الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر. هناك أيضا وظائف دفعية والتي يمكن تكوينها لنفس المهام. يمكن العثور على الخطوات لتكوين الوظائف الدفعية وتشغيلها في مواضيع أخرى. لإكمال هذا الإجراء، يجب أن يكون لديك حركات تم إكمالها في نقطة البيع ثم سحبها إلى Dynamics AX. ويستخدم هذا التسجيل شركة USRT في بيانات العرض التوضيحي. قد يشير هذا الإجراء إلى Microsoft Dynamics AX. تجدر الإشارة إلى أن Dynamics AX يسمى الآن Microsoft Dynamics 365 for Operations.
 
 1. انتقل إلى كل مساحات العمل > .. > ماليات متجر البيع بالتجزئة.
 2. انقر فوق كشف حساب جديد.
@@ -47,5 +47,4 @@ ms.lasthandoff: 02/07/2018
 10. انقر فوق "إغلاق".
 11. انتقل إلى البيع بالتجزئة والتجارة > القنوات > ‏‫ماليات متجر البيع بالتجزئة‬.
 12. انقر فوق علامة التبويب ‏‫كشوف الحسابات المرحلة.
-
 

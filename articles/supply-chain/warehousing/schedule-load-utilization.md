@@ -1,13 +1,13 @@
 ---
-title: "جدولة استغلال الحِمل"
-description: "يشرح هذا الموضوع كيفية إعداد وجدولة التحميل لمستودع."
+title: جدولة استغلال الحِمل
+description: يشرح هذا الموضوع كيفية إعداد وجدولة التحميل لمستودع.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 15f3735f79671ac41789d39a5473722a5f35fde0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d52ad452c615a61739582431fcd100a7efa3d93a
-ms.openlocfilehash: 350666cee8f2643c53e9eed8ee73299bbea1e757
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332025"
 ---
-
 # <a name="schedule-load-utilization"></a>جدولة استغلال الحِمل
 
 [!include[banner](../includes/banner.md)]
@@ -73,4 +72,3 @@ ms.lasthandoff: 04/26/2018
 
 4. في حقل **نوع الحمل**، حدد **الحجم** أو **الوزن** للإشارة إلى الوحدة التشغيلية للمستودع التي تريد توقع المساحة لها.
 5. في الحقل **إعداد استخدام المساحة**، حدد إعداد استخدام المساحة الذي يجب أن يستند إليه التوقع.
-

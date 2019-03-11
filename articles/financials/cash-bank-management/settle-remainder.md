@@ -1,34 +1,31 @@
 ---
-title: "تسوية المبلغ المتبقي"
-description: "يمكنك تسوية المبلغ المتبقي من نشاط التسوية عن طريق تطبيق هذا المبلغ على حساب دفتر أستاذ."
+title: تسوية المبلغ المتبقي
+description: يمكنك تسوية المبلغ المتبقي من نشاط التسوية عن طريق تطبيق هذا المبلغ على حساب دفتر أستاذ.
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
-ms.search.validFrom: 2018-11-30
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367192"
 ---
-
 # <a name="settle-remainder"></a>تسوية المبلغ المتبقي
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 يمكنك تسوية المبلغ المتبقي من نشاط التسوية عن طريق تطبيق هذا المبلغ على حساب دفتر أستاذ أو عميل آخر. يمكنك تسوية المبلغ المتبقي عندما تعمل على تسوية المبالغ التي تم إدخالها في دفتر يومية أو عندما تعمل على تسوية الحركات المفتوحة فقط.
 
@@ -73,4 +70,3 @@ ms.lasthandoff: 12/06/2018
 7)  يمكنك أيضًا اختيار إنشاء دفتر يومية دفع مع المبلغ المتبقي للتسوية أو ترحيله فقط من دون دفتر يومية. حدد **نعم** لخيار **التحرير في دفتر اليومية** لإنشاء دفتر يومية الدفع. ستتمكن من تحرير دفتر يومية الدفع الذي تقوم بإنشائه.
 8)  انقر فوق **تسوية المبلغ المتبقي**. إذا اخترت إنشاء دفتر يومية، فسيتغير الزر إلى **إنشاء دفتر يومية**. انقر فوق **إنشاء دفتر يومية** بدلاً من ذلك.
 9)  إذا أنشأت دفتر يومية دفع، فستفتح صفحة دفتر اليومية بعد النقر فوق **تسوية المبلغ المتبقي**. سيُضاف بند دفتر يومية إلى دفتر اليومية مع المبلغ المتبقي للتسوية كمبلغ وحساب تسوية المبلغ المتبقي كحساب مقابل. إذا قمت بإضافة عميل أو مورّد بحيث يمكنك نقل مبلغ التسوية إلى عميل أو مورّد آخر، فسيُضاف عندئذٍ بند إضافي إلى دفتر اليومية بنقل مبلغ التسوية إلى هذا العميل أو المورّد.
-

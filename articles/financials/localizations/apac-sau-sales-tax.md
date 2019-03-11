@@ -1,28 +1,27 @@
 ---
-title: "ضريبة المبيعات للمملكة العربية السعودية"
-description: "يوفر هذا الموضوع معلومات حول ضريبة المبيعات للمملكة العربية السعودية."
+title: ضريبة المبيعات للمملكة العربية السعودية
+description: يوفر هذا الموضوع معلومات حول ضريبة المبيعات للمملكة العربية السعودية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Saudi Arabia
 ms.author: shylaw
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: c59260ab435df3b3f524699847ed2e7e5577267c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370060"
 ---
-
 # <a name="sales-tax-for-saudi-arabia"></a>ضريبة المبيعات للمملكة العربية السعودية
 
 [!include[banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ ms.lasthandoff: 08/13/2018
 
 - [إنشاء دفع ضريبة مبيعات](../general-ledger/tasks/create-sales-tax-payment.md)
 - [الأسئلة الشائعة: إرجاع ضريبة القيمة المضافة (موقع ويب الحكومة)](https://www.vat.gov.sa/en/e-services/vat-returns)
-

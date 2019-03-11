@@ -1,13 +1,13 @@
 ---
-title: "إعداد التنبؤ بالطلب"
-description: "يصف هذا الموضوع مهام الإعداد التي يجب تنفيذها لتجهيز التنبؤ بالطلب."
+title: إعداد التنبؤ بالطلب
+description: يصف هذا الموضوع مهام الإعداد التي يجب تنفيذها لتجهيز التنبؤ بالطلب.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330438"
 ---
-
 # <a name="demand-forecasting-setup"></a>إعداد التنبؤ بالطلب
 
 [!include [banner](../includes/banner.md)]
@@ -47,9 +46,9 @@ ms.lasthandoff: 05/08/2018
 
 بشكل افتراضي، إذا لم يتم تعيين مفاتيح توزيع الأصناف إلى أعضاء مجموعة التخطيط بين الشركات الشقيقة، فإنه يتم حساب التنبؤ بطلب لكافة العناصر التي يتم تعيينها لكافة مفاتيح توزيع الأصناف من كافة شركات Finance and Operations. تتوافر خيارات التصفية الإضافية للشركات ومفاتيح توزيع الأصناف والشركات على الصفحة **إنشاء التنبؤ الأساسي الإحصائي**. 
 
-راجع عدد الأصناف التي يتم التنبؤ بها. قد تتسبب العناصر غير الضرورية في التكاليف المتزايدة عندما تستخدم Microsoft Azure Machine Learning.
+راجع عدد الأصناف التي يتم التنبؤ بها. قد تتسبب العناصر غير الضرورية في التكاليف المتزايدة عندما تستخدم خدمة التعلم الآلي من Microsoft Azure.
 
-## <a name="demand-forecasting-parameters"></a>معلمات التنبؤ بالطلب
+## <a name="demand-forecasting-parameters"></a>محددات التنبؤ بالطلب
 لإعداد معلمات التنبؤ بالطلب، انتقل إلى **التخطيط الرئيسي** &gt; **الإعداد** &gt; **معلمات التنبؤ بالطلب**. ولأن التنبؤ بالطلب يعمل عبر الشركات، الإعداد عمومي. وبعبارة أخرى، الإعداد ينطبق على جميع الشركات. 
 
 يعمل التنبؤ بالطلب على إنشاء التنبؤ بكميات. ولذلك، يجب تحديد وحدة قياس التي يجب التعبير عن الكمية خلالها في الحقل **وحدة التنبؤ بالطلب**. يجب أن تكون وحدة القياس فريدة، للمساعدة على ضمان أن التجميع وتوزيع النسب المئوية أمرًا منطقيًا. لمزيد من المعلومات حول تجميع وتوزيع النسب المئوية، راجع [إجراء تعديلات يدوية على التنبؤ الأساسي](manual-adjustments-baseline-forecast.md). لكل وحدة قياس يتم استخدامها لوحدات SKU المضمنة في التنبؤ بالطلب، تأكد من وجود قاعدة تحويل لوحدة القياس ووحدة قياس التنبؤ العام. عند تشغيل إنشاء التنبؤ، فإنه يتم تسجيل قائمة الأصناف التي ليس بها تحويل وحدة قياس، لذلك يمكنك تصحيح الإعداد بسهولة. 
@@ -64,7 +63,7 @@ ms.lasthandoff: 05/08/2018
 
 لا تتصرف كافة الأصناف بالطريقة نفسها من منظور التنبؤ بالطلب. يمكن تجميع الأصناف المتشابهة في مفتاح توزيع صنف واحد والمعلمات مثل أنواع الحركات ويمكن إعداد إعدادات أسلوب التنبؤ بكل مفتاح توزيع الصنف. انقر فوق **مفاتيح توزيع الأصناف** في الجزء الأيمن من الصفحة **معلمات التنبؤ بالطلب**. 
 
-لإنشاء التنبؤ، يستخدم Finance and Operations خدمة ويب "Machine Learning". للاتصال بالخدمة، يجب أن تقدم إلى Finance and Operations المعلومات التالية إذا كنت تسجل الدخول إلى Microsoft Azure Machine Learning Studio:
+لإنشاء التنبؤ، يستخدم Finance and Operations خدمة ويب "Machine Learning". للاتصال بالخدمة، يجب أن تقدم إلى Finance and Operations المعلومات التالية إذا كنت سجل دخولك إلى استوديو التعلم الآلي من Microsoft Azure:
 
 -   مفتاح واجهة برمجة تطبيقات خدمة الويب (API)
 -   نقطة نهاية خدمة الويب URL
@@ -86,7 +85,6 @@ ms.lasthandoff: 05/08/2018
 [إنشاء التنبؤ الأساسي الإحصائي](generate-statistical-baseline-forecast.md)
 
 [القيام بتسويات يدوية في تنبؤ الخط الأساسي](manual-adjustments-baseline-forecast.md)
-
 
 
 

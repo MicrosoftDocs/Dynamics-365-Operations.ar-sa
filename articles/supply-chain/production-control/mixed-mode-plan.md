@@ -1,13 +1,13 @@
 ---
-title: "تخطيط الوضع المختلط - دمج التوريد المنفصل وتوريد العمليات والتوريد محدود الفاقد"
-description: "يوفر هذا الموضوع معلومات حول تخطيط الوضع المختلط."
+title: تخطيط الوضع المختلط - دمج التوريد المنفصل وتوريد العمليات والتوريد محدود الفاقد
+description: يوفر هذا الموضوع معلومات حول تخطيط الوضع المختلط.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358222"
 ---
-
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>تخطيط الوضع المختلط - دمج التوريد المنفصل وتوريد العمليات والتوريد محدود الفاقد
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="process-manufacturing--the-production-type"></a>التصنيع التحويلي - نوع الإنتاج
 ‏‫للحصول على مرونة كاملة في وضع مختلط، نوصي باستخدام قائمة مكونات الصنف لنوع الإنتاج لكافة المنتجات. ويمكنك بعد ذلك استخدام أوامر الإنتاج أو وظائف كانبان أو أوامر التحويل أو أوامر الشراء لتوريد منتج.‬ وفي التصنيع التحويلي، يجب استخدام نوع إنتاج **المعادلة**، أو **المنتج المساعد**، أو **المنتج الثانوي**، أو **صنف التخطيط**. لا يمكن استخدام وظائف كانبان وأوامر الإنتاج لأنواع الإنتاج هذه.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "إنشاء أصل منتج يستند إلى البعد"
-description: "يوضح هذا الإجراء كيفية إنشاء أصل منتج جديد باستخدام تقنية التكوين المستند إلى بُعد."
+---
+title: إنشاء أصل منتج يستند إلى البعد
+description: يوضح هذا الإجراء كيفية إنشاء أصل منتج جديد باستخدام تقنية التكوين المستند إلى بُعد.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ca1702002bddfacce072f8ce78ad7f503d566242
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fd6edc40b65d2821f1141817d08bef75321efdf0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330622"
 ---
 # <a name="create-a-dimension-based-product-master"></a>إنشاء أصل منتج يستند إلى البعد
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 09/29/2017
 8. في الحقل "تقنية التكوين"، حدد خيارًا ما.
     * حدد تقنية التكوين المستند إلى بُعد.  
 9. انقر فوق "موافق".
-
 

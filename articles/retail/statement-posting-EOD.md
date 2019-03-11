@@ -1,13 +1,13 @@
 ---
-title: "تحسينات على وظيفة ترحيل كشف الحساب"
-description: "يصف هذا الموضوع التحسينات التي تم إجراؤها على ميزة ترحيل كشف الحساب."
+title: تحسينات على وظيفة ترحيل كشف الحساب
+description: يصف هذا الموضوع التحسينات التي تم إجراؤها على ميزة ترحيل كشف الحساب.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,19 +16,18 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321422"
 ---
-
 # <a name="improvements-to-statement-posting-functionality"></a>تحسينات على وظيفة ترحيل كشف الحساب
 
 [!include[banner](includes/banner.md)]
 
-يصف هذا الموضوع المجموعة الأولى من التحسينات التي تم إجراؤها على ميزة ترحيل كشف الحساب. تتوفر هذه التحسينات في Microsoft Dynamics 365 for Finance and Operations 7.3.2.
+يصف هذا الموضوع المجموعة الأولى من التحسينات التي تم إجراؤها على ميزة ترحيل كشف الحساب. تتوفر هذه التحسينات في الإصدار 7.3.2 من Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="activation"></a>التنشيط
 
@@ -171,4 +170,3 @@ ms.lasthandoff: 01/04/2019
 
     - اذهب إلى **معلمات البيع بالتجزئة** \> **‏‫إعداد المراكز الرئيسية** \> **المعلمات** \> **معلمات البيع بالتجزئة**. بعد ذلك، من علامة التبويب **ترحيل**، في علامة التبويب السريعة **تحديث المخزون**، في حقل **مستوى التفاصيل**، حدد **ملخص**.
     - اذهب إلى **معلمات البيع بالتجزئة** \> **‏‫إعداد المراكز الرئيسية** \> **المعلمات** \> **معلمات البيع بالتجزئة**. بعد ذلك، من علامة التبويب **ترحيل**، في علامة التبويب السريعة **التجميع**، قم بتعيين خيار **حركات الإيصال** إلى **نعم**.
-

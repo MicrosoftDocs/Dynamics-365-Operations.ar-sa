@@ -1,13 +1,13 @@
---- 
+---
 title: " تطوير خطة وبنية المرتب/التعويض "
-description: "ينقلك دليل المهمة هذا عبر عملية إنشاء خطة تعويض ثابت وتمكين الموظفين من التسجيل بالخطة من خلال قواعد الأهلية."
+description: ينقلك دليل المهمة هذا عبر عملية إنشاء خطة تعويض ثابت وتمكين الموظفين من التسجيل بالخطة من خلال قواعد الأهلية.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332761"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a> تطوير خطة وبنية المرتب/التعويض 
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 09/14/2018
     * حدد المعايير التي يجب أن يفي بها الموظف لكي يتأهل لخطة التعويض. بإمكان المعايير أن تتضمن القسم أو اتحاد العمال أو الموقع (منطقة التعويض) أو المهمة أو الوظيفة أو نوع الوظيفة أو مستوى التعويض. يجب أن يفي الموظف بكل المعايير المحددة لكي يتأهل لخطة التعويض. إذا لم يتم تحديد أي معايير، فسيتأهل جميع الموظفين لخطة التعويض. إذا لم يتمكن الموظف من استيفاء المعايير المحددة في قاعدة الأهلية، أو لم يتم تحديد قاعدة أهلية لخطة تعويض، فلن تظهر خطة التعويض في البحث عند إنشاء سجل تعويض ثابت لموظف.  
 7. قم بإغلاق الصفحة.
 8. قم بإغلاق الصفحة.
-
 

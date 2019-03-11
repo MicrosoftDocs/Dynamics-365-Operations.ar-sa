@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية لإدارة المخزون"
-description: "يوفر هذا الموضوع نظرة عامة على إدارة المخزون."
+title: الصفحة الرئيسية لإدارة المخزون
+description: يوفر هذا الموضوع نظرة عامة على إدارة المخزون.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5376c6c18c2d7d48d3ee253e8818e0c868a52145
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01b51b3442ca2a924cec2e894c3840c90989791c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364915"
 ---
-
 # <a name="inventory-management"></a>إدارة المخزون 
 
 [!include [banner](../includes/banner.md)]
@@ -49,16 +48,15 @@ ms.lasthandoff: 11/03/2017
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 ### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
-انتقل إلى [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
+انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
 
 ### <a name="inventory-accounting"></a>محاسبة المخزون 
 لمزيد من المعلومات، راجع [محاسبة المخزون في إدارة التكاليف](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>مدونات إدارة التصنيع وسلسلة التوريد
-يمكنك العثور على الآراء والأخبار وغيرها من المعلومات حول إدارة المخزون وغيرها من الحلول ضمن [مدونة فريق بحث وتطوير Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول إدارة المخزون بالإضافة إلى حلول أخرى في [مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>دلائل المهام
 تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر **تعليمات** في أي صفحة.
-
 
 

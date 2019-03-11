@@ -1,13 +1,13 @@
---- 
-title: "تحديد عمليات جرد المخزون"
-description: "ينقلك هذا الإجراء عبر تكوين عمليات جرد المخزون الأساسي عن طريق إنشاء مجموعة جرد ودفتر يومية جرد."
+---
+title: تحديد عمليات جرد المخزون
+description: ينقلك هذا الإجراء عبر تكوين عمليات جرد المخزون الأساسي عن طريق إنشاء مجموعة جرد ودفتر يومية جرد.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 707d4fab58a9c689f32d9e881ecacbe8e64b517c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345319"
 ---
 # <a name="define-inventory-counting-processes"></a>تحديد عمليات جرد المخزون
 
@@ -85,5 +85,4 @@ ms.lasthandoff: 09/29/2017
 7. في القائمة، حدد مجموعة جرد.
     * هنا يمكنك تحديد مجموعة جرد محددة يجب أن تنطبق على الصنف في المستودع المعين الذي حددته. عندما يتم تنفيذ الجرد في هذا المستودع، ستتجاوز سياسة الجرد هذه سياسة الجرد العامة لهذا الصنف.  
 8. انقر فوق "حفظ".
-
 

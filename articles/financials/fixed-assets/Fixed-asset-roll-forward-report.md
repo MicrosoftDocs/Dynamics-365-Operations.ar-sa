@@ -1,14 +1,14 @@
 ---
-title: "تقرير سجل نشاط الأصول الثابتة"
-description: "يشرح هذا المقال كيفية استخدام تقرير سجل نشاط الأصول الثابتة‬."
+title: تقرير سجل نشاط الأصول الثابتة
+description: يشرح هذا المقال كيفية استخدام تقرير سجل نشاط الأصول الثابتة‬.
 author: saraschi2
-manager: 
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,23 @@ ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313740"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>تقرير سجل نشاط الأصول الثابتة
 
 [!include [banner](../includes/banner.md)]
 
-يوفر **تقرير سجل نشاط الأصول الثابتة‬**، بتنسيق Microsoft Excel سهلة قراءة، البيانات التفصيلية الأصول الثابتة التي تتطلبها لإقفال الفترة والقوائم المالية وإعداد تقارير الضرائب. يتضمن التقرير أرصدة البدء والانتهاء للأصول الثابتة، إلى جانب حركات التقييم للفترة، وأي عمليات الاستحواذ على الأصول جديدة وعمليات التخلص التي حدثت أثناء هذه الفترة. يتم الإبلاغ عن بيانات الأصول الثابتة الفردية، كما يتم تلخيص القيم لمجموعات الأصول الثابتة والكيان القانوني.
+يوفر تقرير **سجل نشاط الأصول الثابتة**‬، بيانات الأصول الثابتة المفصلة التي تحتاج إليها لإقفال الفترة والقوائم المالية وإعداد تقارير الضرائب بتنسيق Microsoft Excel سهل قراءة. يتضمن التقرير أرصدة البدء والانتهاء للأصول الثابتة، إلى جانب حركات التقييم للفترة، وأي عمليات الاستحواذ على الأصول جديدة وعمليات التخلص التي حدثت أثناء هذه الفترة. يتم الإبلاغ عن بيانات الأصول الثابتة الفردية، كما يتم تلخيص القيم لمجموعات الأصول الثابتة والكيان القانوني.
 
-يستخدم تقرير **سجل نشاط الأصول الثابتة‬** إطار عمل إعداد التقارير الإلكتروني (ER). قبل أن تتمكن من تشغيل التقرير، يجب استيراد تكوينات سجل نشاط الأصول الثابتة‬ ونموذج الأصول الثابتة من Microsoft Dynamics Lifecycle Services ‏(LCS). للمزيد من التعليمات، راجع [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+يستخدم تقرير **سجل نشاط الأصول الثابتة‬** إطار عمل إعداد التقارير الإلكتروني (ER). قبل أن تتمكن من تشغيل التقرير، يجب استيراد تكوينات سجل نشاط الأصول الثابتة‬ ونموذج الأصول الثابتة من Microsoft Dynamics Lifecycle Services (LCS). للمزيد من التعليمات، راجع [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
-يتوفر هذا التقرير في Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition 7.3، أو كإصلاح عاجل لـ Microsoft Dynamics 365 for Finance and Operations،‏ Enterprise edition (يوليو 2017). يجب تطبيق الإصلاحات العاجلة الثلاثة على البيئات التي تشتمل على إصدار يوليو 2017:
+يتوافر هذا التقرير في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 أو كإصلاح عاجل لتطبيق Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (يوليو 2017). يجب تطبيق الإصلاحات العاجلة الثلاثة على البيئات التي تشتمل على إصدار يوليو 2017:
 
 - **قاعدة المعارف 4041754:** لا يمكن تنزيل تكوين التقارير الإلكترونية (ER) من LCS كغير قابل للتطبيق للإصدار الحالي من التطبيق بعد تطبيق حزمة تحديث النظام الأساسي
 - **قاعدة المعارف 4056107:** التحديث التراكمي 5 لإعداد التقارير الإلكتروني (GER)
@@ -66,5 +66,4 @@ ms.lasthandoff: 04/13/2018
 |            عمليات التخلص: قيمة البيع            |                                                                                               قيمة المبيعات لدفتر الأصول الثابتة مع تخلص - حركة البيع.                                                                                                |
 |           عمليات التخلص: قيمة الخردة            |                                                                                               قيمة الخردة لدفتر الأصول الثابتة مع تخلص - حركة الخردة.                                                                                               |
 |           عمليات التخلص: الربح/الخسارة            |                                                                                 قيمة الربح أو الخسارة التي يتم حسابها كجزء من حركة التخلص لدفتر الأصول الثابتة.                                                                                 |
-
 

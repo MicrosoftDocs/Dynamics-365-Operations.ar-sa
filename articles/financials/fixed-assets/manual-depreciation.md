@@ -1,13 +1,13 @@
 ---
-title: "الإهلاك اليدوي"
-description: "توفر هذه المقالة نظرة عامة على أسلوب الإهلاك اليدوي."
+title: الإهلاك اليدوي
+description: توفر هذه المقالة نظرة عامة على أسلوب الإهلاك اليدوي.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 14e385e60e10146a0855a467af57a0a31fcc53bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330990"
 ---
-
 # <a name="manual-depreciation"></a>الإهلاك اليدوي
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ ms.lasthandoff: 04/13/2018
 | 31 ديسمبر | (11,000 – 1,000) × 50% = 5,000 |
 
 ولا ينبغي أن يكون مجموع النسب المئوية لكافة الفترات الزمنية 100. ومع ذلك، تتلقى رسالة، إذا لم تكن القيمة في حقل **‬‏‫النسبة المئوية التراكمية** في صفحة **جداول ملف تعريف إهلاك الأصول الثابتة‬‏‫** **100**.
-
 
 
 

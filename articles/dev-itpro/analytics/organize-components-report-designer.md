@@ -1,13 +1,13 @@
 ---
-title: "تنظيم مكونات التقرير في مصمم التقارير"
-description: "بعد أن تنتهي من تصميم كتل الإنشاء والتقارير التي تم إنشاؤها، من المستحسن تنظيم هذه الكائنات لتمكين المستخدمين من تحديد موقعها بسهولة. تشرح هذه المقالة كيفية تنظيم التقارير وكتل الإنشاء والكائنات الموجودة في مصمم التقارير."
+title: تنظيم مكونات التقرير في مصمم التقارير
+description: بعد أن تنتهي من تصميم كتل الإنشاء والتقارير التي تم إنشاؤها، من المستحسن تنظيم هذه الكائنات لتمكين المستخدمين من تحديد موقعها بسهولة. تشرح هذه المقالة كيفية تنظيم التقارير وكتل الإنشاء والكائنات الموجودة في مصمم التقارير.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323929"
 ---
-
 # <a name="organize-report-components-in-report-designer"></a>تنظيم مكونات التقرير في مصمم التقارير
 
 [!include [banner](../includes/banner.md)]
@@ -117,7 +116,7 @@ ms.lasthandoff: 09/27/2018
 </tr>
 <tr>
 <td>تضمين جميع عملات التقارير</td>
-<td>إذا تم تكوين أي عملات تقارير إضافية في نظام Microsoft Dynamics ERP، فسيتم إدراجها هنا. حدد خانة الاختيار هذه لإنشاء تقارير إضافية بالعملات المُشار إليها. لعرض هذه التقارير في عارض الويب، انقر فوق زر <strong>العملة</strong> ثم حدد عملة.</td>
+<td>ستكون أي عملات تقارير إضافية تم تكوينها في نظام Microsoft Dynamics ERP مدرجة هنا. حدد خانة الاختيار هذه لإنشاء تقارير إضافية بالعملات المُشار إليها. لعرض هذه التقارير في عارض الويب، انقر فوق زر <strong>العملة</strong> ثم حدد عملة.</td>
 </tr>
 <tr>
 <td>عدم حفظ معلومات التاريخ في تعريف التقرير</td>
@@ -150,4 +149,3 @@ ms.lasthandoff: 09/27/2018
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [التقارير المالية](financial-reporting-intro.md)
-

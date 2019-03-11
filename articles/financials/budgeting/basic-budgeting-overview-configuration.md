@@ -1,13 +1,13 @@
 ---
-title: "نظرة عامة على إعداد الموازنة"
-description: "ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Finance and Operations من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations أو تحميلها من برنامج تابع لجهة خارجية."
+title: نظرة عامة على إعداد الموازنة
+description: ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 for Finance and Operations من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations أو تحميلها من برنامج تابع لجهة خارجية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332301"
 ---
-
 # <a name="budgeting-overview"></a>نظرة عامة على إعداد الموازنة 
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ ms.lasthandoff: 03/26/2018
 تتيح لك صفحة الاستعلام **المبالغ الفعلية مقابل الموازنة** التنقل في تفاصيل الموازنة مقابل المبالغ الفعلية. وحدد بندًا في صفحة الاستعلام، ثم انقر فوق **أرصدة الفترة** لمشاهدة الموازنة والمبالغ الفعلية التي يتم توزيعها عبر الفترات المالية. وتوفر صفحة **إدخالات حساب الموازنة** التنقل إلى تفاصيل مبلغ الموازنة في إدخالات سجل الموازنة. وتقوم صفحة **إدخالات دفتر اليومية العام**بفتح حركات دفتر الأستاذ التي تم تضمينها في مبلغ **القيم الفعلية** المحسوب. 
 
 ويمكن لشركة تستخدم وظيفة تخطيط الموازنة إنشاء واستخدام *تنبؤات الموازنة* في مساحة عمل **تنبؤات وموازنات دفتر الأستاذ**.
-
 
 
 

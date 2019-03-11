@@ -1,13 +1,13 @@
---- 
-title: "إصدار منتج/أصل منتج إلى كيانات قانونية"
-description: "يتناول هذا الإجراء كيفية إصدار منتج أو أصل المنتج في واحد أو أكثر من الكيانات القانونية."
+---
+title: إصدار منتج/أصل منتج إلى كيانات قانونية
+description: يتناول هذا الإجراء كيفية إصدار منتج أو أصل المنتج في واحد أو أكثر من الكيانات القانونية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductRelease
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 87037254072509afd91a50b66147d7e13e09dd0c
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: b378f65fcb7f557b8689a123577948e2f7c97253
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "338074"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>إصدار منتج/أصل منتج إلى كيانات قانونية
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 02/07/2018
 5. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 6. انقر فوق التالي.
 7. انقر فوق إنهاء.
-
 

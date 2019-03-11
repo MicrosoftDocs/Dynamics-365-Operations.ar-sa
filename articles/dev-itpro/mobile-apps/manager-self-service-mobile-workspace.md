@@ -1,13 +1,13 @@
 ---
-title: "مساحة العمل المحمولة \"فريقي\""
-description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة \"فريقي\"، التي تسمح للمدراء بعرض المرؤوسين المباشرين وفريق العمل الموسع. باستطاعة المستخدمين أيضًا إرسال ثناء إلى الأفراد في سلسلة التدرج الهرمي."
+title: مساحة العمل المحمولة "فريقي"
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "فريقي"، التي تسمح للمدراء بعرض المرؤوسين المباشرين وفريق العمل الموسع. باستطاعة المستخدمين أيضًا إرسال ثناء إلى الأفراد في سلسلة التدرج الهرمي.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346906"
 ---
-
 # <a name="my-team-mobile-workspace"></a>مساحة العمل المحمولة "فريقي"
 
 [!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **فريقي**. تسمح مساحة العمل هذه للمدراء بعرض المرؤوسين المباشرين وفريق العمل الموسع.‬ ويمكنهم أيضًا إرسال ثناء إلى الأفراد في سلسلة التدرج الهرمي.
 
-تهدف مساحة العمل المحمولة هذه إلى استخدامها بواسطة تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>نظرة عامة 
 تسمح مساحة العمل المحمولة **فريقي** للمستخدمين بتنفيذ هذه المهام:
@@ -58,7 +57,7 @@ ms.lasthandoff: 04/13/2018
 </ul>
 </td>
 <td>مسؤول النظام</td>
-<td>إذا لم يكن لديك Finance and Operations منشور بالفعل في مؤسستك، راجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>. إذا لم يكن لديك Talent منشورًا بالفعل في مؤسستك، فمن ثم يمكن لمسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://www.microsoft.com/en-us/dynamics365/talent">صفحة ويب Talent</a>.
+<td>إذا لم يتم نشر Finance and Operations في مؤسستك، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>. إذا لم يتم نشر Talent في مؤسستك، فباستطاعة مسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://www.microsoft.com/en-us/dynamics365/talent">صفحة ويب Talent</a>.
 </td>
 </tr>
 <tr class="even">
@@ -99,4 +98,3 @@ ms.lasthandoff: 04/13/2018
 1.  حدد **إرسال ثناء**. 
 1. أدخل نص الثناء الذي تريد إرساله. 
 1. حدد **تم**.
-

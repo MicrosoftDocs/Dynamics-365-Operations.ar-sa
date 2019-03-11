@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية لحلول PowerBI.com"
-description: "يسرد هذا الموضوع حلول PowerBI.com المتوفرةن ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عن الحلول."
+title: الصفحة الرئيسية لحلول PowerBI.com
+description: يسرد هذا الموضوع حلول PowerBI.com المتوفرةن ويوجهك إلى الموارد حيث يمكنك معرفة المزيد عن الحلول.
 author: sericks007
 manager: AnnBe
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 1a391c0111ad39cb8c4ec809eccb3eb7cfb18687
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316684"
 ---
-
 # <a name="powerbicom-solutions-home-page"></a>الصفحة الرئيسية لحلول PowerBI.com
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 08/08/2018
 تتوفر حلول PowerBI.com التالية في مكتبة الأصول المشتركة في LCS. راجع معلومات الإصدار في مكتبة الأصول المشتركة لتنزيل الإصدار الصحيح للبيئة الخاصة بك.
 
 > [!NOTE]
-> تم تضمين معظم حلول PowerBI.com في القائمة التالية في مساحات عمل تحليلة في الإصدارات الحديثة لـ Dynamics 365 for Finance and Operations. يؤدي استخدام مساحات العمل التحليلة إلى تجنب الحاجة إلى تنزيل هذه الحلول من مكتبة الأصول المشتركة في LCS. يُشير الموضوع الموجود في هذه القائمة إلى مكان تضمين حلول PowerBI.com في inance and Operations، حيثما كان ذلك ممكنًا.
+> تم تضمين معظم حلول PowerBI.com في القائمة التالية في مساحات عمل تحليلية في الإصدارات الحديثة من Dynamics 365 for Finance and Operations. يؤدي استخدام مساحات العمل التحليلة إلى تجنب الحاجة إلى تنزيل هذه الحلول من مكتبة الأصول المشتركة في LCS. يُشير الموضوع الموجود في هذه القائمة إلى مكان تضمين حلول PowerBI.com في inance and Operations، حيثما كان ذلك ممكنًا.
 
 - [الفعلي مقابل الموازنة](ledger-budgets-power-bi.md)
 - [نظرة عامة على النقدية](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
@@ -59,12 +58,11 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="powerbicom-solutions-available-from-appsource"></a>حلول PowerBI.com المتوفرة من AppSource
 
-تتوفر حلول PowerBI.com من [Microsoft AppSource](https://appsource.microsoft.com).
+تتوفر حلول PowerBI.com التالية من [Microsoft AppSource](https://appsource.microsoft.com).
 
 > [!NOTE]
-> تم إهلاك هذه الحلول كما هو موثق في [حزم محتوى Power BI المتوفرة على AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> تم إهمال هذه الحلول كما هو موثق في [حزم محتوى Power BI المتوفرة على AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 - إدارة التكلفة
 - [الأداء المالي](financial-performance-power-bi-content-pack.md)
 - [أداء قناة البيع بالتجزئة ](retail-channel-performance-dashboard-power-bi-data.md)
-

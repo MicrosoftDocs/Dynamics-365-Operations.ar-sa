@@ -1,13 +1,13 @@
 ---
-title: "مبادئ التفريغ"
-description: "يصف هذا الموضوع مبادئ التفريغ الأربعة التي يتم استخدامها لاستهلاك المواد الخام."
+title: مبادئ التفريغ
+description: يصف هذا الموضوع مبادئ التفريغ الأربعة التي يتم استخدامها لاستهلاك المواد الخام.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358291"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>التحكم استهلاك المادة الخام عن طريق استخدام قواعد التفريغ
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ ms.lasthandoff: 02/08/2018
 
 ### <a name="available-at-location"></a>متوفر في الموقع
 يشير مبدأ التفريغ "متوفر في الموقع" إلى أن المواد ستُستهلك تلقائيًا عندما يتم تسجيلها كمواد منتقاة للإنتاج. يتم تسجيل المواد كمنتقاة من الموقع عند اكتمال العمل المتعلق بانتقاء المواد أو عندما تتوفر المواد في موقع إدخال الإنتاج ويتم إصدار بند المواد إلى المستودع. يتم ترحيل قائمة الانتقاء التي يتم إنشاؤها خلال العملية في وظيفة دفعية. يُعتبر هذا المبدأ مناسبًا، إذا، على سبيل المثال، كان لديك الكثير من أنشطة الانتقاء في مقابل أمر إنتاج واحد. في هذه الحالة، لا تحتاج إلى تحديث قائمة الانتقاء يدويًا، ويمكنك الحصول على طريقة عرض حالية لرصيد الأعمال تحت التنفيذ (WIP).
-

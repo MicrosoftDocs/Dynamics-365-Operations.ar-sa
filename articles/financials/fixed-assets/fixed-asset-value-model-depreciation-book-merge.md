@@ -1,13 +1,13 @@
 ---
-title: "دمج نموذج قيم الأصول الثابتة ودفتر الإهلاك"
-description: "في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك. في الإصدار (1611) من Microsoft Dynamics 365 for Operations، تم دمج وظيفة نموذج القيمة ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر."
+title: دمج نموذج قيم الأصول الثابتة ودفتر الإهلاك
+description: في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك. في إصدار Microsoft Dynamics 365 for Operations (1611)، تم دمج وظيفة نموذج القيم ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 26f4b73f67064a83eb7b3d57f2dc98d90602c254
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ef31b63dd253ab5b436a65385e248c4753abf1e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342513"
 ---
-
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>دمج نموذج قيم الأصول الثابتة ودفتر الإهلاك
 
 [!include [banner](../includes/banner.md)]
 
-في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك. في الإصدار (1611) من Microsoft Dynamics 365 for Operations، تم دمج وظيفة نموذج القيمة ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر.
+في الإصدارات السابقة، كان هناك مفهومان لتقييم الأصول الثابتة- نماذج القيم ودفاتر الإهلاك. في إصدار Microsoft Dynamics 365 for Operations (1611)، تم دمج وظيفة نموذج القيم ووظيفة دفتر الإهلاك في مفهوم واحد يعرف باسم الدفتر.
 
 تستند وظائف الدفتر الجديدة على وظائف نموذج القيمة السابقة، ولكنها تتضمن أيضًا كل الوظائف التي كانت متوفرة في السابق في دفاتر الإهلاك فقط. [![‬‏‫الدفتر كدمج لوظائف نموذج القيمة ودفتر الإهلاك](./media/fixed-assets.png)](./media/fixed-assets.png) ‏‫بسبب عملية الدمج هذه، يمكنك الآن استخدام مجموعة واحدة من الصفحات والاستعلامات والتقارير لكافة عمليات الأصول الثابتة.‬ تصف الجداول في هذا الموضوع الوظائف السابقة لدفاتر الإهلاك ونماذج القيم، جنبًا إلى جنب مع الوظائف الجديدة للدفاتر.
 
@@ -69,7 +68,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="upgrade"></a>ترقية
 ستقوم عملية الترقية بنقل إعدادك الموجود وكافة الحركات الموجودة إلى بنية الدفتر الجديد. سوف تبقى نماذج القيم على حالها، كدفتر يتم ترحيله إلى دفتر الأستاذ العام. ومع ذلك، سيتم نقل دفاتر الإهلاك إلى دفتر حيث تم تعيين الخيار **الترحيل إلى دفتر الأستاذ العام** إلى **لا**. سيتم نقل أسماء دفاتر اليومية لدفتر الإهلاك إلى اسم دفتر يومية دفتر أستاذ عام تم فيه تعيين طبقة الترحيل إلى **بلا**.
-
 
 
 

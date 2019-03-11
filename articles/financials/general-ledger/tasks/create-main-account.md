@@ -1,13 +1,13 @@
---- 
-title: "إنشاء حساب رئيسي"
-description: "يوضح دليل المهام هذا خطوات إضافة حساب رئيسي إلى دليل حسابات موجود."
+---
+title: إنشاء حساب رئيسي
+description: يوضح دليل المهام هذا خطوات إضافة حساب رئيسي إلى دليل حسابات موجود.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5fd332121bae2be55ada39b33e5f381096c9b74d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: db813353eef97375451e78320d6d14de74292309
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331565"
 ---
 # <a name="create-a-main-account"></a>إنشاء حساب رئيسي
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/29/2017
 4. في حقل "الاسم"، اكتب قيمة.
 5. في الحقل "نوع الحساب الرئيسي"، حدد النوع الذي يمثل رصيد الحسابات وموقعها في القوائم المالية بأفضل صورة ممكنة.
 6. في القائمة، حدد فئة الحساب التي ينتمي إليها الحساب الرئيسي.
-    * تُستخدم فئة الحساب للتقارير المالية الافتراضية ومحتوى لوحة معلومات BI.  
+    * تُستخدم فئة الحساب للتقارير المالية الافتراضية ومحتوى لوحة معلومات Power BI.  
 7. في القائمة، انقر فوق الارتباط في الصف المحدد.
     * قم بتغيير الرصيد المدين أو الدائن الافتراضي.  
 8. في الحقل "العملة الافتراضية"، حدد قيمة من قائمة العملات.
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
 20. في القائمة، انقر فوق الارتباط في الصف المحدد.
 21. في الحقل "نوع تحويل العملة"، حدد طريقة حساب أسعار الصرف للحساب.
 22. قم بإغلاق الصفحة.
-
 

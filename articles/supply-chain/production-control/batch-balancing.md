@@ -1,13 +1,13 @@
 ---
-title: "موازنة الدفعات"
-description: "يصف هذا الموضوع عملية موازنة الدفعات."
+title: موازنة الدفعات
+description: يصف هذا الموضوع عملية موازنة الدفعات.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358613"
 ---
-
 # <a name="batch-balancing"></a>موازنة الدفعات
 
 [!include [banner](../includes/banner.md)]
 
 يصف هذا الموضوع كيفية دعم عملية موازنة الدفعات. 
 
-شاهد [فيديو حول موازنة الدُفعات في Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
+شاهد [مقطع فيديو حول موازنة الدُفعات‬ في Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 في عملية موازنة الدفعات، يتم حساب قيمة المكونات المطلوب استخدامها في إحدى دفعات الإنتاج من تركيز المكونات النشطة في دُفعات المنتجات المُحددة.
 
@@ -194,4 +193,3 @@ ms.lasthandoff: 04/13/2018
 إذا كانت هناك معادلة تحتوي على مكون نشط لمنتج تم تمكينه لعمليات إدارة المستودعات، ولكن رقم الدفعة أقل من الموقع في التدرج الهرمي للحجز، فلا ينطبق أمر الدفعة على موازنة الدفعات.
 
 يمر أمر الدفعة غير القابل للتطبيق لموازنة الدفعات في دورة عملية عادية للأوامر الدفعية.
-

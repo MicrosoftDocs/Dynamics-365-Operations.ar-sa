@@ -1,28 +1,27 @@
 ---
-title: "مساحة عمل قائمة التحقق من صحة البيانات"
-description: "تسمح لك مساحة عمل قائمة التحقق من صحة البيانات بتعقب عمليات التحقق من صحة البيانات عبر الشركات والمساحات والأفراد. يمكن استخدام قائمة التحقق أثناء التنفيذ الجديد، أو بعد الترقية أو بعد الترحيل."
+title: مساحة عمل قائمة التحقق من صحة البيانات
+description: تسمح لك مساحة عمل قائمة التحقق من صحة البيانات بتعقب عمليات التحقق من صحة البيانات عبر الشركات والمساحات والأفراد. يمكن استخدام قائمة التحقق أثناء التنفيذ الجديد، أو بعد الترقية أو بعد الترحيل.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364179"
 ---
-
 # <a name="data-validation-checklist-workspace"></a>مساحة عمل قائمة التحقق من صحة البيانات
 
 [!include [banner](../includes/banner.md)]
@@ -59,4 +58,3 @@ ms.lasthandoff: 08/08/2018
 يمكنك استخدام مناطق المهام لتجميع مهام التحقق من صحة البيانات في المناطق المنطقية للملكية داخل المؤسسة. على سبيل المثال، قد يتم استخدام الحسابات الدائنة أو الحسابات المدينة أو دفتر الأستاذ العام كمناطق المهام.
 
 يرتبط **اسم عنصر القائمة** بجهد عمل المهمة ويمكن استخدامه للانتقال مباشرةً إلى الصفحة المقترنة من ارتباط المهام في مساحة العمل. على سبيل المثال، يمكن ربط مهمة التحقق من صحة البيانات لتشغيل تقرير **تقادم الحسابات الدائنة** للحسابات الدائنة بصفحة **تقرير تقادم الحسابات الدائنة**.
-

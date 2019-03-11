@@ -1,13 +1,13 @@
 ---
-title: "تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب"
-description: "تُعد الأقسام والوظائف والمناصب العناصر التنظيمية التي يتم الاحتفاظ بها ضمن الموارد البشرية. يصف هذا الموضوع معلومات تصورية حول هذه العناصر."
+title: تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
+description: تُعد الأقسام والوظائف والمناصب العناصر التنظيمية التي يتم الاحتفاظ بها ضمن الموارد البشرية. يصف هذا الموضوع معلومات تصورية حول هذه العناصر.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374387"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 تُعد الأقسام والوظائف والمناصب العناصر التنظيمية التي يتم الاحتفاظ بها ضمن الموارد البشرية. يصف هذا الموضوع معلومات تصورية حول هذه العناصر. 
 
@@ -165,7 +163,6 @@ ms.lasthandoff: 08/08/2018
 </table>
 
 يمكنك تعديل المعلومات المذكورة في الجدول السابق لمنصب أو وظيفة وتحديد تاريخ سريان التعديلات على المنصب أو الوظيفة. على سبيل المثال، يمكن تعيين منصب إلى عامل واحد فقط، ولكن سانجاي باتل، الذي تم تعيينه لمنصب المحاسب - أ، سوف يغادر في غضون أسبوعين. وسيحل جو هيلي محل سانجاي باتيل عند مغادرته. على الرغم من أن سانجاي لا يزال معينًا في منصبه، إلا أنه يمكنك تعيين جو هيلي إلى نفس المنصب حتى يصبح التعيين ساريًا المعول فقط بعد اليوم الأخير لسانجاي.
-
 
 
 

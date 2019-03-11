@@ -1,13 +1,13 @@
 ---
-title: "مساحة عمل فوترة تعاون المورد"
-description: "يشرح هذا الموضوع كيفية عرض فواتير المورد وإرسال الفواتير من مساحة عمل فوترة تعاون المورد."
+title: مساحة عمل فوترة تعاون المورد
+description: يشرح هذا الموضوع كيفية عرض فواتير المورد وإرسال الفواتير من مساحة عمل فوترة تعاون المورد.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 5520012a00e918e8748b974773eeaf2450f0c55e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340512"
 ---
-
 # <a name="vendor-collaboration-invoicing-workspace"></a>مساحة عمل فوترة تعاون المورد
 
 [!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية عرض فواتير المورد وإرسال الفواتير من مساحة عمل فوترة تعاون المورد.
 
-يمكن استخدام مساحة عمل **فوترة تعاون المورد** لعرض معلومات حول فواتير المورد وتقديم الفواتير إلى Microsoft Dynamics 365 for Finance and Operations باستخدام قدرات سير العمل.
+يمكن استخدام مساحة عمل **فوترة تعاون المورد‬** لعرض معلومات حول فواتير المورد وتقديم الفواتير إلى Microsoft Dynamics 365 for Finance and Operations باستخدام قدرات سير العمل.
 
 
 <a name="vendor-collaboration-invoicing-workspace"></a>مساحة عمل فوترة تعاون المورد
@@ -60,7 +59,6 @@ ms.lasthandoff: 03/26/2018
 يمكنك إنشاء فاتورة مورد جديدة عن طريق تحديد الإجراء **جديد** في مساحة العمل **فوترة تعاون المورد**. يجب على المورد توفير رقم أمر الشراء ورقم الفاتورة. بشكل افتراضي، سوف تظهر كافة بنود أمر الشراء الخاص بالمورد على الفاتورة الجديدة. ويمكن تحرير معلومات الكمية والتكلفة قبل تقديم فاتورة المورد إلى سير العمل. يمكنك إرفاق الملفات والصور والملاحظات وعناوين URL بالفاتورة قبل إرسالها.
 
 لمزيد من المعلومات، راجع [‬‏‫تعاون المورّدين مع موردين خارجيين](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
-
 
 
 

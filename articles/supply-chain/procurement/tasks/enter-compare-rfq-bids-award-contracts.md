@@ -1,13 +1,13 @@
---- 
-title: "إدخال عطاءات RFQ ومنح العقود ومقارنتها"
-description: "يوضح هذا الإجراء كيفية إدخال الردود إلى RFQ والنتيجة ومقارنة العطاءات، وبعد ذلك منح العطاء إلى أحد الموردين."
+---
+title: إدخال عطاءات RFQ ومنح العقود ومقارنتها
+description: يوضح هذا الإجراء كيفية إدخال الردود إلى RFQ والنتيجة ومقارنة العطاءات، وبعد ذلك منح العطاء إلى أحد الموردين.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7cd4876acfebcc9595abb358cfc9b355e93041d6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349988"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>إدخال عطاءات RFQ ومنح العقود ومقارنتها
 
@@ -116,5 +116,4 @@ ms.lasthandoff: 09/14/2018
 4. قم بإغلاق الصفحة.
 5. قم بإغلاق الصفحة.
 6. قم بإغلاق الصفحة.
-
 

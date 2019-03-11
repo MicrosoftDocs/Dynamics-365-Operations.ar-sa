@@ -1,13 +1,13 @@
 ---
-title: "عملية إعداد التسوية البنكية المتقدمة"
-description: "تسمح لك التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع حركات Microsoft Dynamics 365 for Finance and Operations البنكية بشكل تلقائي.  ستشرح هذه المقالة إعداد عمليات التسوية."
+title: عملية إعداد التسوية البنكية المتقدمة
+description: تسمح لك التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations بشكل تلقائي.  ستشرح هذه المقالة إعداد عمليات التسوية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357325"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>عملية إعداد التسوية البنكية المتقدمة
 
 [!include [banner](../includes/banner.md)]
 
-تسمح لك التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع حركات Microsoft Dynamics 365 for Finance and Operations البنكية بشكل تلقائي.  ستشرح هذه المقالة إعداد عمليات التسوية.  
+تسمح لك التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations بشكل تلقائي.  ستشرح هذه المقالة إعداد عمليات التسوية.  
 
 يوجد عدد من القطع التي يجب إعدادها قبل استخدام وظيفة التسوية المصرفية المتقدمة. لمزيد من المعلومات حول إعداد استيراد كشف حساب بنكي، راجع [إعداد عملية استيراد كشف حساب بنكي](set-up-advanced-bank-reconciliation-import-process.md).  ويُفصل أدناه متطلبات إعداد عملية التسوية.
 
@@ -59,7 +58,6 @@ ms.lasthandoff: 03/26/2018
 يُعتبر حقل **اسم الحساب البنكي في كشوف الحسابات** الاسم المستخدم للحساب البنكي في كشوف حساباتك البنكية الإلكترونية.  يتم استخدام هذا الاسم عند تحديد أي الحركات ينبغي استيراداه لحساب بنكي من كشف الحساب البنكي قد يحتوي معلومات حول حسابات بنكية متعددة. 
 
 سوف يتحقق خيار **التسوية بعد الاستيراد** تلقائيًا من صحة كشف الحساب البنكي، وإنشاء تسوية بنكية جديدة وورقة عمل، وتشغيل مجموعة قواعد المطابقة الافتراضية.  تقوم هذه الوظيفة بتنفيذ العملية بشكل تلقائي وصولاً إلى الحركة التي يجب مطابقتها يدويًا.  سوف يكون الإعداد على الحساب البنكي الإجراء الافتراضي عند الاستيراد.
-
 
 
 

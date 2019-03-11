@@ -1,13 +1,13 @@
 ---
-title: "التسلسلات الرقمية"
-description: "وتُستخدم التسلسلات الرقمية لإنشاء معرفات فريدة قابلة للقراءة لسجلات البيانات الرئيسية وسجلات الحركة التي تتطلب وجود هذه المعرفات."
+title: التسلسلات الرقمية
+description: وتُستخدم التسلسلات الرقمية لإنشاء معرفات فريدة قابلة للقراءة لسجلات البيانات الرئيسية وسجلات الحركة التي تتطلب وجود هذه المعرفات.
 author: MargoC
 manager: AnnBe
 ms.date: 08/17/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7dadbe811e385ea6d5802c03381093d6693b23ba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f4ff7eb8ee9b87b9d90af4d215743596555fd73
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328437"
 ---
-
 # <a name="number-sequences"></a>التسلسلات الرقمية
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ ms.lasthandoff: 11/03/2017
 في حالة انقطاع الطاقة أو حدوث خطأ في تطبيق ما أو وقوع أي عطل آخر غير متوقع، لا يمكن للنظام إعادة تدوير الأرقام تلقائيًا للتسلسلات الرقمية المتتالية. يمكنك تشغيل عملية التنظيف يدويًا أو تلقائيًا لاسترداد الأرقام المفقودة.
 
 يجب مراعاة كيفية استخدام الملقم عند التخطيط لعملية التنظيف. يوصى بإجراء التنظيف كوظيفة مجموعة في غير ساعات الذروة.
-

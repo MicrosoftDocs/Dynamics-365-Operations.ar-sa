@@ -1,13 +1,13 @@
---- 
-title: "تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات من ملفات CSV خارجية"
-description: "استخدم هذا الإجراء لتصميم تكوينات التقارير الإلكترونية لاستيراد البيانات إلى تطبيق Dynamics 365 for Finance and Operations من ملف خارجي بتنسيق CSV."
+---
+title: تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات من ملفات CSV خارجية
+description: استخدم هذا الإجراء لتصميم تكوينات التقارير الإلكترونية لاستيراد البيانات إلى تطبيق Dynamics 365 for Finance and Operations من ملف خارجي بتنسيق CSV.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365214"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات من ملفات CSV خارجية
 
@@ -119,5 +119,4 @@ ms.lasthandoff: 08/08/2018
     * راجع المخرجات بتنسيق XML التي تمثل البيانات التي تم استيرادها من الملف المحدد ونقلها إلى نموذج البيانات. لاحظ أنه قد تمت معالجة كافة الأسطر 7 لملف CSV الذي تم استيراده. تم تخطي السطر 1 لعناوين الحقول الحاوية، وتم تحليل 4 حركات بشكل صحيح، وتم التعرف على حركتين 2 على أنهما غير صالحتين.   
 3. قم بإغلاق الصفحة.
 4. قم بإغلاق الصفحة.
-
 

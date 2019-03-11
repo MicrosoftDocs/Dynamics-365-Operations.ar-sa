@@ -1,13 +1,13 @@
 ---
-title: "مفاتيح التكوين وكيانات البيانات"
-description: "يوضح هذا الموضوع العلاقة بين مفاتيح التكوين وكيانات البيانات في Microsoft Dynamics 365 for Finance and Operations."
+title: مفاتيح التكوين وكيانات البيانات
+description: يصف هذا الموضوع العلاقة بين مفاتيح التكوين وكيانات البيانات في Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336464"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>مفاتيح التكوين وكيانات البيانات
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ ms.lasthandoff: 08/13/2018
 في أي وقت تقوم فيه بتحديث مفاتيح التكوين في الكيان أو الجدول أو مستوى الحقل، فيجب تحديث قائمة الكيانات في إطار عمل إدارة البيانات. تضمن هذه العملية قيام إطار العمل بانتقاء إعدادات مفاتيح التكوين الأخيرة. حتى يتم تحديث قائمة الكيانات، فسيتم عرض التحذير التالي في صفحة قائمة الكيانات. سوف يسري مفعول تغييرات مفاتيح التكوين المحدثة مباشرةً بعد تحديث قائمة الكيانات. نوصي بأن تتحقق من صحة وظائف ومشاريع البيانات الموجودة للتأكد من أنها تعمل بالشكل المتوقع بعد سريان مفعول تغييرات مفاتيح التكوين.
 
 ![الحقول الهدف](./media/Target_fields_3.png)
-

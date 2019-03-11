@@ -1,13 +1,13 @@
---- 
-title: "إنشاء منتج تم إصداره لشركة واحدة"
-description: "ينقلك هذا الإجراء عبر عملية إنشاء منتج واحد تم إصداره في سياق وحدة قانونية واحدة."
+---
+title: إنشاء منتج تم إصداره لشركة واحدة
+description: ينقلك هذا الإجراء عبر عملية إنشاء منتج واحد تم إصداره في سياق وحدة قانونية واحدة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9265ee4311ac89ae88ff7dd089519251828b1e3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 042eafc29e377e0ad6fb8dc1499daf8eb105b7ed
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315948"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>إنشاء منتج تم إصداره لشركة واحدة
 
@@ -102,5 +102,4 @@ ms.lasthandoff: 09/29/2017
 11. في الحقل "ItemGroup"، انقر فوق زر القائمة المنسدلة لفتح البحث.
 12. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 13. في القائمة، انقر فوق الارتباط في الصف المحدد.
-
 

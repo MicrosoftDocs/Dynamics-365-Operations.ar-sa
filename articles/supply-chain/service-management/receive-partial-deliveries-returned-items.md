@@ -1,31 +1,30 @@
 ---
-title: "استلام عمليات تسليم جزئية من الأصناف المرتجعة"
-description: "يتم تحديد عمليات التسليم الجزئية كبنود أمر إرجاع، وليس شحنات أمر إرجاع."
+title: استلام عمليات تسليم جزئية من الأصناف المرتجعة
+description: يتم تحديد عمليات التسليم الجزئية كبنود أمر إرجاع، وليس شحنات أمر إرجاع.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2b7bfad1e0d80675848353d4118960d44f2dc01
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f9f596d31f2438a353b02bf939786b284937db86
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363903"
 ---
-
 # <a name="receive-partial-deliveries-of-returned-items"></a>استلام عمليات تسليم جزئية من الأصناف المرتجعة    
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="register-and-post-a-partial-quantity"></a>تسجيل كمية جزئية وترحيلها
 
-1.  بعد أن تحدد أمر إرجاع للوصول في النموذج **نظرة عامة على الوصول - المستودع: % 1، الرصيف: % 2، اسم دفتر اليومية: %3**، انقر فوق **بدء الوصول** لإنشاء دفتر يومية الوصول، ثم انقر فوق **دفاتر يومية** \> **إظهار عمليات الوصول من عمليات الاستلام** لفتح النموذج **دفتر يومية الموقع**.
+1.  بعد أن تحدد أمر إرجاع للوصول في النموذج **نظرة عامة على الوصول - المستودع: %1، الرصيف: %2, اسم دفتر اليومية: %3**، انقر فوق **بدء الوصول** لإنشاء دفتر يومية الوصول، ثم انقر فوق **دفاتر يومية** \> **إظهار عمليات الوصول من عمليات الاستلام** لفتح النموذج **دفتر يومية الموقع**.
 
 2.  حدد بند دفتر اليومية المطلوب العمل عليه، ثم انقر فوق **البنود** لفتح النموذج **بنود دفتر اليومية، المواقع**.
 
@@ -48,7 +47,6 @@ ms.lasthandoff: 05/08/2018
 4.  في الحقل **تقسيم الكمية**، أدخل الكمية للعدد الإجمالي للأصناف التي تم استلامها، ثم انقر فوق **موافق**.
 
 5.  من النموذج **بنود دفتر اليومية، المواقع**، حدد بند كمية الأصناف التي وصلت، ثم انقر فوق **ترحيل**. يمكن ترحيل بند الكمية الإضافية بعدما تصل الأصناف.
-
 
 
 

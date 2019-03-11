@@ -1,40 +1,39 @@
 ---
-title: "مزامنة المنتجات مباشرةً من Finance and Operations للمنتجات في Sales‎"
-description: "يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة منتجات من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Sales."
+title: مزامنة المنتجات مباشرةً من Finance and Operations للمنتجات في Sales‎
+description: يصف هذا الموضوع القوالب المهام الأساسية التي يتم استخدامها لمزامنة المنتجات من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348240"
 ---
-
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Common Data Service للتطبيقات‏‎](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة منتجات مباشرةً من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Sales.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة المنتجات مباشرةً من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>تدفق البيانات في حل العميل المتوقع إلى النقدية
 
@@ -79,7 +78,7 @@ ms.lasthandoff: 11/01/2018
 
 > [!NOTE]
 > - لن تنجح عملية مزامنة المنتج إلا في حال وجود قائمة أسعار تحتوي على عمله مطابقة.
-> - يمكنك التحكم في قائمة الأسعار المستخدمة مع التكامل عن طريق تعيين pricelevelid.name [قائمة الأسعار الافتراضية (الاسم)] في مشروع تكامل البيانات. يجب أن يكون الإدخال بجميع الأحرف الصغيرة. على سبيل المثال، يكون الإعداد الافتراضي لقائمة الأسعار في المبيعات المسمى 'قياسي': حقل الوجهة: pricelevelid.name [قائمة الأسعار الافتراضية \[الاسم\]: ونوع التعيين [ { "transformType": "افتراضي", "defaultValue": "قياسي" } ].
+> - يمكنك التحكم في قائمة الأسعار المستخدمة مع التكامل عن طريق تعيين pricelevelid.name [قائمة الأسعار الافتراضية (الاسم)] في مشروع تكامل البيانات. يجب أن يكون الإدخال بجميع الأحرف الصغيرة. على سبيل المثال، قد يكون الإعداد الافتراضي لقائمة أسعار في Sales مسماة 'قياسي': حقل الوجهة: pricelevelid.name [قائمة الأسعار الافتراضية (الاسم)] ونوع التعيين: [ { "transformType": "افتراضي"، "defaultValue": "قياسي" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>الشروط المسبقة وإعداد التعيين
 
@@ -120,7 +119,6 @@ ms.lasthandoff: 11/01/2018
 [مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Finance and Operations إلى Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales](sales-invoice-template-mapping-direct.md)
-
 
 
 

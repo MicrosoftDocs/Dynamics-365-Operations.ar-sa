@@ -1,13 +1,13 @@
---- 
-title: "إنشاء الأبعاد المالية لقنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر"
-description: "يتناول هذا الإجراء إنشاء بعد مالي لقنوات البيع بالتجزئة بقيم الأبعاد والخطوات لتكوين قيم الأبعاد المالية في متاجر البيع بالتجزئة."
+---
+title: إنشاء الأبعاد المالية لقنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر
+description: يتناول هذا الإجراء إنشاء بعد مالي لقنوات البيع بالتجزئة بقيم الأبعاد والخطوات لتكوين قيم الأبعاد المالية في متاجر البيع بالتجزئة.
 author: jashanno
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: cf32d17a36fd699141ce697d23e20b2eb5cbfa54
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354519"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>إنشاء الأبعاد المالية لقنوات البيع بالتجزئة وتكوين قيم الأبعاد في المتاجر
 
@@ -54,5 +54,4 @@ ms.lasthandoff: 08/08/2018
 23. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 24. في القائمة، انقر فوق الارتباط في الصف المحدد.
 25. انقر فوق "حفظ".
-
 

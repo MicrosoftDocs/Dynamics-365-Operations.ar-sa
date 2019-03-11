@@ -1,13 +1,13 @@
 ---
-title: "تسوية كشوف الحسابات البنكية باستخدام التسوية البنكية المتقدمة"
-description: "تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations بشكل تلقائي. يشرح هذا الموضوع عملية التسوية."
+title: تسوية كشوف الحسابات البنكية باستخدام التسوية البنكية المتقدمة
+description: تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 for Finance and Operations بشكل تلقائي. يشرح هذا الموضوع عملية التسوية.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364961"
 ---
-
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>تسوية كشوف الحسابات البنكية باستخدام التسوية البنكية المتقدمة
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>نشر حركات جديدة مرتبطة بالتسوية
 يتم ترحيل حركات كشف الحساب البنكي التي وضعت علامة **جديد** عليها على ورقة عمل التسوية في صفحة **كشف الحساب البنكي**. في صفحة **كشف الحساب البنكي**، حدد معرف كشف الحساب لعرض تفاصيله. في قائمة **المحاسبة‬**، يمكنك استخدام الخيارين **عرض التوزيعات** و**عرض المحاسبة** لعرض التفاصيل خلف الحركات الجديدة وإدخالات دفتر الأستاذ المرتبطة بها. حدد الخيار **ترحيل** لترحيل بنود كشف الحساب البنكي التي تم وضع علامة **جديد** عليها إلى دفتر الأستاذ العام. لاحظ أنه لا يمكن إكمال الترحيل إلا مرة واحدة فقط لكل كشف حساب بنكي.
-
 
 
 

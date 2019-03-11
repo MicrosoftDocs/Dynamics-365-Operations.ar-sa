@@ -1,13 +1,13 @@
 ---
-title: "تعريفات التقارير في مصمم التقارير المالية"
-description: "توفر هذه المقالة معلومات حول تعريفات التقارير. إن تعريف التقرير عبارة عن مكون تقرير (أو كتلة إنشاء) يستخدم تعريف صف وتعريف عمود وتعريف شجرة تقارير اختياري لإنشاء تقرير. كما يوفر تعريف التقرير خيارات وإعدادات يمكنك استخدامها لتخصيص تقرير."
+title: تعريفات التقارير في مصمم التقارير المالية
+description: توفر هذه المقالة معلومات حول تعريفات التقارير. إن تعريف التقرير عبارة عن مكون تقرير (أو كتلة إنشاء) يستخدم تعريف صف وتعريف عمود وتعريف شجرة تقارير اختياري لإنشاء تقرير. كما يوفر تعريف التقرير خيارات وإعدادات يمكنك استخدامها لتخصيص تقرير.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 322f1cca32053224e1cd6dbaf29c098b983b5e1f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327333"
 ---
-
 # <a name="report-definitions-in-financial-report-designer"></a>تعريفات التقارير في مصمم التقارير المالية
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,7 @@ ms.lasthandoff: 08/08/2018
 - المالي والحساب
 - المالي والحساب والحركة
 
-ومع ذلك، تبعاً لكيفية تخزين البيانات في نظام Microsoft Dynamics ERP، قد لا تكون تفاصيل الحركة متوفرة في التقارير.
+ومع ذلك، قد لا تكون تفاصيل الحركة متوفرة في التقارير وفقًا لكيفية تخزين البيانات في نظام Microsoft Dynamics ERP.
 
 ## <a name="create-a-report-definition"></a>إنشاء تعريف تقرير
 1. في مصمم التقرير، في القائمة **ملف**، انقر فوق **جديد**، ثم حدد **تعريف التقرير**.
@@ -86,4 +85,3 @@ ms.lasthandoff: 08/08/2018
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [التقارير المالية](financial-reporting-intro.md)
-

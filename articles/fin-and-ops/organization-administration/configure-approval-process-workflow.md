@@ -1,13 +1,13 @@
 ---
-title: "تكوين عمليات الاعتماد في سير عمل"
-description: "استخدم الإجراء التالي لتكوين خصائص عملية الاعتماد."
+title: تكوين عمليات الاعتماد في سير عمل
+description: استخدم الإجراء التالي لتكوين خصائص عملية الاعتماد.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325631"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>تكوين عمليات الاعتماد في سير عمل
 
 [!include [banner](../includes/banner.md)]
@@ -124,11 +123,11 @@ ms.lasthandoff: 12/18/2018
     </tr>
     <tr>
     <td><strong>المستخدم</strong></td>
-    <td>‏‫مستخدمو Microsoft Dynamics 365 for Finance and Operations معينون‬</td>
+    <td>مستخدمو Microsoft Dynamics 365 for Finance and Operations معينون</td>
     <td>
     <ol>
     <li>بعد تحديد <strong>المستخدم</strong>، انقر فوق علامة تبويب <strong>المستخدم</strong>.</li>
-    <li>تتضمن قائمة <strong>المستخدمون المتاحون</strong> جميع مستخدمي Microsoft Dynamics 365 for Finance and Operations. حدد المستخدمين لإرسال الإخطارات إليهم، ثم انقل هؤلاء المستخدمين إلى قائمة <strong>المستخدمون المحددون</strong>.</li>
+    <li>تتضمن قائمة <strong>المستخدمون المتاحون</strong>: جميع مستخدمي Microsoft Dynamics 365 for Finance and Operations. حدد المستخدمين لإرسال الإخطارات إليهم، ثم انقل هؤلاء المستخدمين إلى قائمة <strong>المستخدمون المحددون</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ ms.lasthandoff: 12/18/2018
 1. في محرر سير العمل، انقر نقرًا مزدوجًا فوق عملية الاعتماد. يعرض محرر سير العمل خطوات عملية الاعتماد.
 2. لإضافة خطوة اعتماد، اسحب الخطوة من ناحية **عناصر سير العمل** إلى لوحة الرسم.
 3. لتكوين خطوة اعتماد، انظر [تكوين خطوة اعتماد](configure-approval-step-workflow.md).
-

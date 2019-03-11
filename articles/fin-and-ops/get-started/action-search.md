@@ -1,13 +1,13 @@
 ---
-title: "البحث عن إجراء"
-description: "توضح هذه المقالة وظيفة البحث عن إجراء في Microsoft Dynamics 365 for Finance and Operations. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة."
+title: البحث عن إجراء
+description: تشرح هذه المقالة وظيفة البحث عن إجراء‬ في Microsoft Dynamics 365 for Finance and Operations. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 960c715c487fbda5d93630327f07380e6d8fbd3c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317489"
 ---
-
 # <a name="action-search"></a>البحث عن إجراء
 
 [!include [banner](../includes/banner.md)]
 
-توضح هذه المقالة وظيفة البحث عن إجراء في Microsoft Dynamics 365 for Finance and Operations. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.
+تشرح هذه المقالة وظيفة البحث عن إجراء‬ في Microsoft Dynamics 365 for Finance and Operations. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.
 
 ## <a name="introduction"></a>مقدمة
 
-تعرض الصفحات في Microsoft Dynamics 365 for Finance and Operations بشكل أساسي الأوامر في أجزاء الإجراءات؛ جزء الإجراءات المعيارية التي تظهر في أعلى الصفحة، وأشرطة الأدوات التي تظهر في أقسام متنوعة من الصفحة. في الإصدارات السابقة، تسمح لك وظيفة "التلميحات الرئيسية" الوصول بسرعة إلى أي زر في أجزاء الإجراء من خلال الضغط على مفتاح Alt، ثم مجموعة من الأحرف.
+تعرض الصفحات في Microsoft Dynamics 365 for Finance and Operations بشكل أساسي الأوامر في أجزاء الإجراءات، فضلاً عن جزء الإجراء المعياري الذي يظهر في أعلى الصفحة، وأشرطة الأدوات التي تظهر في أقسام متنوعة من الصفحة. في الإصدارات السابقة، تسمح لك وظيفة "التلميحات الرئيسية" الوصول بسرعة إلى أي زر في أجزاء الإجراء من خلال الضغط على مفتاح Alt، ثم مجموعة من الأحرف.
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 

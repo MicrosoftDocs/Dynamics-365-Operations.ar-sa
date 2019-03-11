@@ -1,13 +1,13 @@
 ---
-title: "مستندات تبرير تخطيط الموازنة"
-description: "توفر مستندات التبرير سردًا لأولئك الذي يطلبون موازنة لتوضيح ضرورة وجود موازنة محددة."
+title: مستندات تبرير تخطيط الموازنة
+description: توفر مستندات التبرير سردًا لأولئك الذي يطلبون موازنة لتوضيح ضرورة وجود موازنة محددة.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,35 +18,34 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333566"
 ---
-
 # <a name="budget-planning-justification-documents"></a>مستندات تبرير تخطيط الموازنة
 
 [!include [banner](../includes/banner.md)]
 
 توفر مستندات التبرير سردًا لأولئك الذي يطلبون موازنة لتوضيح ضرورة وجود موازنة محددة. 
 
-يتم إنشاء قالب خطة الموازنة من خلال مدير الموازنة في Microsoft Word، ويتم تعيينه إلى عملية تخطيط الموازنة الحالية. بعد ذلك، يمكن لملاك الموازنة فتح القالب، وملء البيانات تلقائيًا في Word بناءً على طلبهم للموازنة. ثم يمكنهم بعد ذلك إضافة نص إضافي أو البيانات قبل حفظ وإرفاق مستندات مبرراتهم الشخصية لخطة الموازنة الخاصة بهم.
+يتم إنشاء قالب خطة الموازنة بواسطة مدير الموازنة في Microsoft Word، ويتم تعيينه إلى عملية تخطيط الموازنة الحالية. بعد ذلك، يمكن لملاك الموازنة فتح القالب، وملء البيانات تلقائيًا في Word بناءً على طلبهم للموازنة. ثم يمكنهم بعد ذلك إضافة نص إضافي أو البيانات قبل حفظ وإرفاق مستندات مبرراتهم الشخصية لخطة الموازنة الخاصة بهم.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>قم بإعداد وظيفة Office الإضافية لـ Microsoft Dynamics لـ Microsoft Word
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>إعداد الوظيفة الإضافية Microsoft Dynamics Office لـ Microsoft Word
 
-1.  فتح مستند Microsoft Word جديد.
+1.  افتح مستند Microsoft Word جديدًا.
 2.  انقر فوق **إدراج** على الشريط، ثم انقر فوق **متجر**.
-3.  ابحث عن وظيفة Office الإضافية لـ Microsoft Dynamics، وانقر فوق **إضافة**.
+3.  ابحث عن الوظيفة الإضافية Microsoft Dynamics Office وانقر فوق **إضافة**.
 4.  في Word، في الجزء الأيمن، انقر فوق **إضافة معلومات الخادم**.
 5.  اكتب أو الصق عنوان URL للخادم، ثم انقر فوق **موافق**.
 
 ##### <a name="define-the-justification-template-in-microsoft-word"></a>حدد قالب التبرير في Microsoft Word
 
-1.  انقر فوق **التصميم** في وظيفة Office الإضافية لـ Microsoft Dynamics بعد أن قمت بتسجيل الدخول.
+1.  انقر فوق **تصميم** في الوظيفة الإضافية Microsoft Dynamics Office بعد تسجيل الدخول.
 2.  بالنسبة لمعلومات العنوان، استخدم زر **إضافة حقول**.
-3.  قم بتحديد مصدر بيانات الكيان لـ BudgetPlanJustification، ثم انقر فوق **التالي**. **ملاحظة:** هذا الكيان مطلوب لأي مستند تبرير. يمكن استخدام الكيانات الأخرى، ولكن سفيشل التحميل للرجوع إلى Microsoft Dynamics 365 for Finance and Operations إذا لم يتم تضمين هذا الكيان.
+3.  قم بتحديد مصدر بيانات الكيان لـ BudgetPlanJustification، ثم انقر فوق **التالي**. **ملاحظة:** هذا الكيان مطلوب لأي مستند تبرير. يمكن استخدام كيانات أخرى، ولكن سوف تفشل إعادة التحميل إلى Microsoft Dynamics 365 for Finance and Operations إذا لم يتم تضمين هذا الكيان.
 4.  إضافة تسميات وقيم BudgetPlanName وBudgetPlanPreparer وResponsibilityCenter وDocumentNumber في مستند Word. **ملاحظة:** يمكنك استخدام التسميات المخصصة لك بدلاً من التسميات القياسية، إذا لزم الأمر.
 5.  انقر فوق **تم** لإكمال قسم العنوان.
 6.  بالنسبة لتفاصيل مستوى بنود مبالغ خطة الموازنة، انقر فوق **إضافة جدول**.
@@ -58,7 +57,7 @@ ms.lasthandoff: 03/26/2018
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>قم بإعداد عملية التخطيط للموازنة لاستخدام قالب التبرير.
 
 1.  في Finance and Operations، انتقل إلى **إعداد الموازنة** &gt; **إعداد** &gt; **تخطيط الموازنة** &gt; **‎قوالب مستندات التبرير**.
-2.  انقر فوق **جديد** واستعرض مستند Microsoft Word الذي تم إنشاؤه حديثًا.
+2.  انقر فوق **جديد‏‎** واستعرض وصولاً إلى مستند Microsoft Word الذي تم إنشاؤه حديثًا.
 3.  أدخل اسم عرض قالب ووصفًا. انقر فوق **موافق**.
 4.  انتقل إلى **إعداد الموازنة** &gt; **إعداد** &gt; **الموازنة** **تخطيط** &gt; **عملية تخطيط الموازنة**.
 5.  حدد العملية التي يجب فيها استخدام قالب التبرير، وانقر فوق **تحرير**.
@@ -69,7 +68,6 @@ ms.lasthandoff: 03/26/2018
 1.  في Finance and Operations، قم بإنشاء خطة موازنة جديدة أو فتح خطة الموازنة الموجود.
 2.  في قائمة **تبرير** المنسدلة، حدد **إنشاء مبررات جديدة**.
 3.  بعد ملء التفاصيل، حدد تحميل المستند المخصص من قائمة **تبرير** المنسدلة.
-
 
 
 

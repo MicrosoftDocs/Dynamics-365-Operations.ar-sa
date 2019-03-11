@@ -1,13 +1,13 @@
 ---
-title: "توفير بيئة Talent"
-description: "يوضح لك هذا الموضوع عملية توفير بيئة جديدة لـ Microsoft Dynamics 365 for Talent."
+title: توفير بيئة Talent
+description: ينقلك هذا الموضوع عبر عملية توفير بيئة جديدة لتطبيق Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303152"
 ---
-# <a name="provision-talent"></a>توفير بيئة Talent
+# <a name="provision-talent"></a>توفير Talent
 
 [!include [banner](includes/banner.md)]
 
-يوضح لك هذا الموضوع عملية توفير بيئة إنتاج جديدة لـ Microsoft Dynamics 365 for Talent. يفترض هذا الموضوع أنك قمت بشراء Talent من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). إذا كان لديك ترخيص Microsoft Dynamics 365 يشمل خطة خدمة Talent، ولا يمكنك إتمام الخطوات المذكورة في هذا الموضوع، فاتصل بالدعم.
+ينقلك هذا الموضوع عبر عملية توفير بيئة إنتاج جديدة لتطبيق Microsoft Dynamics 365 for Talent. يفترض هذا الموضوع أنك قمت بشراء Talent من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). إذا كان لديك ترخيص Microsoft Dynamics 365 يتضمن خطة خدمة Talent، ولا يمكنك إتمام الخطوات المذكورة في هذا الموضوع، فاتصل بالدعم.
 
-للبدء، يجب على المسؤول العمومي تسجيل الدخول إلى [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) وإنشاء مشروع Talent جديدة. ما لم يكن إصدار ترخيص يمنعك من توفير Talent، فلا يلزم طلب مساعدة من الدعم أو ممثلي هندسة خدمة Dynamics (DSE).
+للبدء، يجب على المسؤول العمومي تسجيل الدخول إلى [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) وإنشاء مشروع Talent جديد. ما لم يكن إصدار ترخيص يمنعك من توفير Talent، فلا يلزم طلب مساعدة من الدعم أو ممثلي هندسة خدمة Dynamics (DSE).
 
 ## <a name="create-an-lcs-project"></a>إنشاء مشروع LCS
 لاستخدام LCS لإدارة بيئات Talent، يجب أولاً إنشاء مشروع LCS.
 
 1. قم بتسجيل الدخول إلى [LCS](https://lcs.dynamics.com/Logon/Index) باستخدام الحساب الذي استخدمته للاشتراك في Talent.
 2. حدد علامة زائد (**+**) لإنشاء مشروع.
-3. حدد **Microsoft Dynamics 365 for Talent** بوصفه اسم المنتج وإصدار المنتج.
+3. حدد **Microsoft Dynamics 365 for Talent** كاسم المنتج وإصدار المنتج.
 4. حدد منهجية **Dynamics 365 for Talent**.
 5. حدد **إنشاء**.
 
@@ -79,7 +79,7 @@ ms.lasthandoff: 11/01/2018
  
    **بيئات Power Apps الافتراضية** على الرغم من أنه يتم توفير كل مستأجر تلقائيًا مضمن معه بيئة PowerApps افتراضية، إلا أننا لا ننصح باستخدامها مع Talent نظرًا لأن جميع مستخدمي المستأجر لديهم حق الوصول إلى بيئة PowerApps، وقد يتلفون بيانات الإنتاج دون قصد عند اختبارها واستكشافها باستخدام تكاملات PowerApps أو التدفق.
    
-   <strong>بيئات Test Drive</strong> يتم إنشاء بيئات باسم مثل "TestDrive - alias@domain" خلال فترة انتهاء صلاحية مدتها 60 يومًا، وسوف تنتهي صلاحيتها بعد ذلك الوقت، مما قد يؤدي إلى إزالة بيئتك تلقائيًا.
+   <strong>بيئات الإصدارات التجريبية الجديدة</strong> يتم إنشاء بيئات باسم مثل ‘TestDrive – alias@domain’ خلال فترة انتهاء صلاحية مدتها 60 يومًا، وسوف تنتهي صلاحيتها بعد ذلك الوقت، مما قد يؤدي إلى إزالة بيئتك تلقائيًا.
    
    **المناطق غير المدعومة** تطبيق Talent حاليًا مدعوم فقط في المناطق التالية: الولايات المتحدة أو أوروبا أو أستراليا.
   
@@ -87,5 +87,4 @@ ms.lasthandoff: 11/01/2018
  
 ## <a name="grant-access-to-the-environment"></a>منح الوصول إلى البيئة
 بشكل افتراضي، يتمتع المسؤول العمومي الذي أنشأ البيئة بحق الوصول إليها. ومع ذلك، يجب منح حق الوصول بشكل واضح إلى مستخدمين إضافيين للتطبيق. لمنح حق الوصول، يمكنك [إضافة مستخدمين](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) و[تعيين الأذونات المناسبة لهم](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) في بيئة الموارد البشرية الأساسية. يجب أيضًا على المسؤول العمومي الذي نشر Talent تشغيل تطبيقات Attract وOnboard لإكمال التهيئة وتمكين الوصول لمستخدمي شبكة الاتصال المستأجرة الآخرين.  وحتى حدوث ذلك، لن يتمكن المستخدمون الآخرون من الوصول إلى تطبيقات Attract وOnboard وسوف يحصلون على خطأ مخالفة الوصول.
-
 

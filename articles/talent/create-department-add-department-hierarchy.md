@@ -1,13 +1,13 @@
 ---
-title: "إنشاء أقسام وتضمينها في التدرج الهرمي للأقسام"
-description: "القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي في المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر."
+title: إنشاء أقسام وتضمينها في التدرج الهرمي للأقسام
+description: القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي في المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 14e0acb2ea16641eecb81bcf23c8b7d778b2b208
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303088"
 ---
-
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>إنشاء أقسام وتضمينها في التدرج الهرمي للأقسام
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="steps-for-creating-a-department"></a>خطوات إنشاء قسم
 ارجع إلى موضوع [تحديد الأقسام الجديدة](../fin-and-ops/hr/tasks/define-new-departments.md) للاطلاع على الإجراء التفصيلي لإنشاء قسم جديد. 
-

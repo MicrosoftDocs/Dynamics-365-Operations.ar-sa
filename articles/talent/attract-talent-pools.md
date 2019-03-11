@@ -1,31 +1,30 @@
 ---
-title: "توريد المرشحين باستخدام مجموعات المواهب‬"
-description: "تشرح هذه المقالة كيفية إنشاء وإعداد مجموعات المواهب في Attract."
-author: 
+title: توريد المرشحين باستخدام مجموعات المواهب‬
+description: تشرح هذه المقالة كيفية إنشاء وإعداد مجموعات المواهب في Attract.
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: ar-sa
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303095"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>توريد المرشحين باستخدام مجموعات المواهب‬
 
 [!include[banner](../includes/banner.md)]
@@ -108,7 +107,7 @@ ms.lasthandoff: 10/22/2018
 
 - تعرض علامة التبويب **المستندات** أية مستندات أضافها المرشح من ملف تعريفه أو أثناء إعداد تقديم طلبات الحصول على الوظيفة. ويمكن استخدام علامة التبويب هذه لإدارة السير الذاتية للمرشح بالإضافة إلى رسائل الغلاف وقائمة مشاريع العمل وغير ذلك. يمكنك أيضًا استخدام علامة التبويب هذه لإضافة مستندات.
 
-    لعرض مستند، حدد اسم المستند في قائمة المستندات. يمكنك عرض مستندات Microsoft Word في التطبيق باستخدام Microsoft Office 365. يمكنك أيضًا تنزيل المستندات إلى الكمبيوتر المحلي باستخدام الخيار **تنزيل** لكل مستند.
+    لعرض مستند، حدد اسم المستند في قائمة المستندات. يمكنك عرض مستندات Microsoft Word الموجودة في التطبيق باستخدام Microsoft Office 365. يمكنك أيضًا تنزيل المستندات إلى الكمبيوتر المحلي باستخدام الخيار **تنزيل** لكل مستند.
 
 - تعرض علامة التبويب **LinkedIn** بيانات LinkedIn للمرشح. لاستخدام علامة التبويب هذه، يجب توصيل حسابك في LinkedIn في إعدادات المستخدم، ويجب إنشاء اتصال LinkedIn Recruiter لبيئتك. للحصول على مزيد من المعلومات، راجع [التوريد باستخدام LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
@@ -139,4 +138,3 @@ ms.lasthandoff: 10/22/2018
 1. في صفحة استمارة التقديم، حدد **إضافة إلى مجموعة المواهب**. تظهر قائمة بمجموعات المواهب التي تملك حق الوصول إليها.
 
 1. حدد أو ابحث عن مجموعة المواهب، ثم حدد **إضافة** لإضافة المرشح إلى مجموعة المواهب هذه.
-

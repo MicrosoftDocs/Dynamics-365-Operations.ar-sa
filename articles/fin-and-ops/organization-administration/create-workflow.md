@@ -1,13 +1,13 @@
 ---
-title: "إنشاء مهام سير العمل"
-description: "يوضح هذا الموضوع كيفية إنشاء سير عمل."
+title: إنشاء مهام سير العمل
+description: يوضح هذا الموضوع كيفية إنشاء سير عمل.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353346"
 ---
-
 # <a name="create-workflows"></a>إنشاء مهام سير العمل
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="open-the-workflow-editor"></a>فتح محرر سير العمل
 
-تحدد وحدة Microsoft Dynamics 365 for Finance and Operations النمطية التي تعمل فيها أنواع سير العمل التي يمكنك إنشاؤها. اتبع الخطوات التالية لتحديد نوع سير العمل لإنشاء محرر سير العمل وفتحه.
+تحدد وحدة Microsoft Dynamics 365 for Finance and Operations التي تعمل فيها أنواع سير العمل التي يمكنك إنشاؤها. اتبع الخطوات التالية لتحديد نوع سير العمل لإنشاء محرر سير العمل وفتحه.
 
 1. افتح الوحدة النمطية التي تريد إنشاء سير عمل جديد لها. على سبيل المثال، لإنشاء سير عمل لطلبات الشراء، انقر فوق **التدبير وتحديد الموارد**.
 2. انقر فوق **الإعداد** &gt; **\[اسم الوحدة النمطية\] مهام سير عمل**.
@@ -85,4 +84,3 @@ ms.lasthandoff: 08/08/2018
 
     - لتنشيط هذا الإصدار من سير العمل، انقر فوق **تنشيط الإصدار الجديد**. عندما يكون سير عمل ما نشطًا، يمكن للمستخدمين إرسال المستندات إليه للمعالجة.
     - إذا لم ترغب في تنشيط هذا الإصدار، فانقر فوق **عدم تنشيط الإصدار الجديد‬**. يمكنك تنشيط سير العمل في وقت لاحق.
-

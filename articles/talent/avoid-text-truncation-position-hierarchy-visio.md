@@ -1,37 +1,36 @@
 ---
-title: "تجنب اقتطاع نص في التدرج الهرمي للمنصب والتصدير إلى Visio"
-description: "يشرح هذا الموضوع كيفية حل مشكلة تم فيها اقتطاع أسماء الأفراد ومناصبهم عندما قام العملاء بعرض التدرج الهرمي للمنصب في Microsoft Dynamics 365 for Talent. يُصعب اقتطاع النص أخذ لقطة شاشة أو طباعة التدرج الهرمي."
+title: تجنب اقتطاع نص في التدرج الهرمي للمنصب والتصدير إلى Visio
+description: يشرح هذا الموضوع كيفية حل مشكلة تم فيها اقتطاع أسماء الأفراد ومناصبهم عندما قام العملاء بعرض التدرج الهرمي للمنصب في Dynamics 365 for Talent. يُصعب اقتطاع النص أخذ لقطة شاشة أو طباعة التدرج الهرمي.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303072"
 ---
-
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>تجنب اقتطاع نص في التدرج الهرمي للمنصب والتصدير إلى Visio
 
 [!include [banner](includes/banner.md)]
 
-**المشكلة**
+**إصدار**
 
-عندما يقوم عميل بعرض التدرج الهرمي لمنصب في Microsoft Dynamics 365 for Talent، يتم اقتطاع أسماء الأفراد ومناصبهم. لذلك، فقد يكون من الصعب أخذ لقطة شاشة أو طباعة وتوزيع التدرج الهرمي.
+عندما يستعرض العميل التدرج الهرمي للمنصب في Microsoft Dynamics 365 for Talent، يتم اقتطاع أسماء الأفراد ومناصبهم. لذلك، فقد يكون من الصعب أخذ لقطة شاشة أو طباعة وتوزيع التدرج الهرمي.
 
 ![التدرج الهرمي للمناصب الوظيفية](media/position-h.png)
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 12/04/2018
 
 **‏‏الدقة**
 
-لسوء الحظ، لا يمكن للمستخدمين تغيير حجم النص بسهولة. ومع ذلك، يمكنك تصدير التدرج الهرمي للمنصب خارج Talent ثم استيراده إلى Microsoft Visio. على الرغم من أنه تمت كتابة المقالة التالية لبرنامج Microsoft Dynamics AX 2012، فإن العملية لا تزال تنطبق على Talent: [تصدير التدرج الهرمي للمنصب إلى Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+لسوء الحظ، لا يمكن للمستخدمين تغيير حجم النص بسهولة. ومع ذلك، يمكنك تصدير التدرج الهرمي للمنصب خارج Talent ثم استيراده إلى Microsoft Visio. على الرغم من كتابة المقالة التالية لبرنامج Microsoft Dynamics AX 2012، فإن العملية تنطبق مع ذلك على Talent: [تصدير التدرج الهرمي للمنصب إلى Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 اتبع هذه الخطوات للتصدير إلى Visio.
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 12/04/2018
 
     لتضمين المزيد من المعلومات في مخطط بنية المؤسسة، أضف الحقول إلى قائمة **المناصب**، بحيث تكون متاحة عندما تقوم باستخدام المعالج لاحقًا في هذا الإجراء.
 
-2. في جزء الإجراءات، حدد زر **فتح في Microsoft Office**،  ثم ضمن **تصدير إلى Excel**، حدد **المناصب**. بدلاً من ذلك، اضغط على Ctrl + T.
+2. في جزء الإجراءات، حدد الزر **فتح في Microsoft Office**، ثم ضمن **تصدير إلى Excel**، حدد **المناصب‏‎**. بدلاً من ذلك، اضغط على Ctrl + T.
 
     ![تصدير صفحة قائمة المناصب إلى Excel](media/org-admin.png)
 
@@ -107,4 +106,3 @@ ms.lasthandoff: 12/04/2018
 **خيار إضافي**
 
 في الإبداع، قد تتمكن أيضا من استخدام **الأشخاص** مساحة العمل لعرض بعض المعلومات المتعلقة بالتدرج الهرمي.
-

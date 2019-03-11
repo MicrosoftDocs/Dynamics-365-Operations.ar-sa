@@ -1,13 +1,13 @@
 ---
-title: "استبيانات"
-description: "يوفر هذا الموضوع معلومات عامة حول الاستبيانات وارتباطات لمزيد من المعلومات التفصيلية. والاستبيان هو مجموعة من الأسئلة المستخدمة لجمع المعلومات للأغراض المختلفة. ويمكنك تصميم استبيانات وإنشاؤها وتوزيعها وإكمالها وتحليل نتائجها."
+title: استبيانات
+description: يوفر هذا الموضوع معلومات عامة حول الاستبيانات وارتباطات لمزيد من المعلومات التفصيلية. والاستبيان هو مجموعة من الأسئلة المستخدمة لجمع المعلومات للأغراض المختلفة. ويمكنك تصميم استبيانات وإنشاؤها وتوزيعها وإكمالها وتحليل نتائجها.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303065"
 ---
-
 # <a name="questionnaires"></a>استبيانات
 
 [!include [banner](includes/banner.md)]
 
 يوفر هذا الموضوع معلومات عامة حول الاستبيانات وارتباطات لمزيد من المعلومات التفصيلية. والاستبيان هو مجموعة من الأسئلة المستخدمة لجمع المعلومات للأغراض المختلفة. ويمكنك تصميم استبيانات وإنشاؤها وتوزيعها وإكمالها وتحليل نتائجها. 
 
-يمكنك تخصيص استبيان لملاءمة الاحتياجات المحددة الخاصة بك باستخدام الميزات المختلفة التي تتوفر في Microsoft Dynamics 365 for Finance and Operations. فيما يلي بعض الأمثلة على كيفية استخدام الاستبيانات:
+يمكنك تخصيص استبيان لملاءمة احتياجاتك المعينة باستخدام الميزات المختلفة التي تتوفر في Microsoft Dynamics 365 for Finance and Operations. فيما يلي بعض الأمثلة على كيفية استخدام الاستبيانات:
 
 -   اختبار المهارات الاحترافية للموظفين ومقدمي الطلبات.
 -   تقييم ما إذا كان المشاركونن في الدورة التدريبية تعلموا مواد تدريبية.
@@ -58,5 +57,4 @@ ms.lasthandoff: 08/08/2018
 [توزيع وإكمال الاستبيانات](distribute-questionnaires.md)
 
 [عرض نتائج الاستبيان وتقييمها](evaluate-questionnaire-results.md)
-
 

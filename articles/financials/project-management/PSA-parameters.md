@@ -1,13 +1,13 @@
 ---
-title: "محددات تكامل Project Service Automation"
-description: "يشرح هذا الموضوع كيفية تكوين طريقة إدخال البيانات الافتراضية عند إجراء تكامل بين Microsoft Dynamics 365 for Project Service Automation وMicrosoft Dynamics 365 for Finance and Operations."
+title: محددات تكامل Project Service Automation
+description: يشرح هذا الموضوع كيفية تكوين طريقة إدخال البيانات الافتراضية عند تمكين تكامل Microsoft Dynamics 365 for Project Service Automation مع Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347044"
 ---
-
-# <a name="project-service-automation-integration-parameters"></a>محددات تكامل Project Service Automation
+# <a name="project-service-automation-integration-parameters"></a>معلمات تكامل Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-في صفحة **محددات تكامل Project Service Automation**، يمكنك تكوين طريقة إدخال البيانات الافتراضية عند إجراء تكامل بين Microsoft Dynamics 365 for Project Service Automation وMicrosoft Dynamics 365 for Finance and Operations.‬ لكي تتم مزامنة المشاريع بشكل ناجح من Project Service Automation إلى Finance and Operations، يجب إعداد الحقول التالية.
+في صفحة **معلمات تكامل Project Service Automation‬**، يمكنك تكوين كيفية إدخال البيانات الافتراضية عند تمكين تكامل Microsoft Dynamics 365 for Project Service Automation مع Microsoft Dynamics 365 for Finance and Operations. لكي تتم مزامنة المشاريع بشكل ناجح من Project Service Automation إلى Finance and Operations، يجب إعداد الحقول التالية.
 
 > [!NOTE]
 > - تتوافر ميزات تكامل مهام المشروع وفئات حركات المصروفات وتقديرات عدد الساعات وتقديرات المصروفات وتأمين الوظيفة في الإصدار 8.0 من Microsoft Dynamics 365 for Finance and Operations.
-> - يتوافر تكامل القيم الفعلية في Microsoft Dynamics 365 for Finance and Operations، الإصدار 8.01 أو إصدار لاحق.
-> - إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0، بعد قيامك بتثبيت قاعدة المعارف 4132657 وقاعدة المعارف 4132660، ستتمكن من استخدام القوالب لإجراء تكامل لمهام المشروع وفئات حركات المصروفات وتقديرات عدد الساعات وتقديرات المصروفات والقيم الفعلية ولتكوين تأمين الوظيفة. إذا كان يجب عليك إعادة تعيين التوزيعات المحاسبية، فمن المستحسن أن تقوم أيضًا بتثبيت قاعدة المعارف 4131710.
+> - يتوفر تكامل القيم الفعلية في الإصدار 8.0.1 أو إصدار لاحق من Microsoft Dynamics 365 for Finance and Operations.
+> - إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0، بعد قيامك بتثبيت قاعدة المعارف 4132657 وقاعدة المعارف 4132660، ستكون قادرًا على استخدام القوالب لتمكين تكامل مهام المشاريع وفئات حركات المصروفات وتقديرات عدد الساعات وتقديرات المصروفات والقيم الفعلية وتكوين تأمين الوظيفة. إذا كان يجب عليك إعادة تعيين التوزيعات المحاسبية، فمن المستحسن أن تقوم أيضًا بتثبيت قاعدة المعارف 4131710.
 
 | علامة تبويب                    | الحقل                | الوصف |
 |------------------------|----------------------|-------------|
@@ -46,4 +45,3 @@ ms.lasthandoff: 08/08/2018
 | القيم الافتراضية لنوع الفوترة  | نوع الفوترة         | انقر فوق **جديد** لإضافة صف حيث يمكنك تحديد نوع الفوترة لتعيين خاصية البند الافتراضي له. يمكن تحديد نوع فوترة محدد مرة واحدة فقط في التكوين. |
 |                        | خاصية السطر        | حدد خاصية البند الافتراضي لنوع الفوترة المحدد. عند مزامنة تقديرات عدد الساعات الجديدة أو تقديرات المصروفات الجديدة أو القيم الفعلية الجديدة من Project Service Automation، يتم تعيين حقل **خاصية البند** إلى القيمة الافتراضية لنوع الفوترة. |
 | تأمين الوظيفة  | غير قابل للتطبيق       | حدد الوظيفة التي يتم عندها التعطيل في Finance and Operations بالنسبة للمشاريع والعقود التي تم إنشاؤها من Project Service Automation. على سبيل المثال، يمكنك إيقاف تشغيل القدرة على تحرير العقود والمشاريع، وإنشاء هياكل تنظيم العمل وإدخال جداول زمنية في Finance and Operations. سوف يستمر تمكين الحقول المرتبطة بالمحاسبة، حتى لو ألغيت إتاحتها من خلال إعداد المُعلمة. بشكل افتراضي، تكون كافة الوظائف ممكّنة. |
-

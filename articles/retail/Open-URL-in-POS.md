@@ -1,36 +1,35 @@
 ---
-title: "فتح عنوان URL في نقطة البيع"
-description: "يوفر هذا الموضوع نظرة عامة حول التحسينات التي تم إدخالها على وظيفة البحث عن المنتجات والعملاء في Microsoft Dynamics 365 for Retail."
+title: فتح عنوان URL في نقطة البيع
+description: يوفر هذا الموضوع نظرة عامة حول التحسينات التي تم إدخالها على وظيفة البحث عن المنتجات والعملاء في Microsoft Dynamics 365 for Retail.
 author: AamirAllaq
 manager: AnnBe
-ms.date: 11/14/2018
+ms.date: 01/28/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b07406b4e218b45bdde87c4a579814fe0edbc286
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327080"
 ---
-
 # <a name="open-url-in-pos"></a>فتح عنوان URL في نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع كيفية تكوين زر في نقطة بيع (POS) البيع بالتجزئة لفتح عنوان URL. لا تتطلب هذه الميزة تخصيصات الأكواد، ويمكن لأي شخص لا يتمتع بدور مطور تكوينها.
+يتناول هذا الموضوع كيفية تكوين زر في نقطة بيع (POS) البيع بالتجزئة لفتح عنوان URL. لا تتطلب هذه الميزة تخصيصات الأكواد، ويمكن لأي شخص لا يتمتع بدور مطور تكوينها. تتوفر هذه الميزة كجزء من الإصدار 8.1.3 من Dynamics 365 for Finance and Operations (الإصدار 8.1.227.10014) والإصدارات اللاحقة. 
 
 تسمح هذه الميزة بتكوين زر في نقطة بيع، باستخدام مصمم شبكة الزر لفتح عنوان URL. وفي الوقت الحالي، هذه الميزة مدعومة في التكوينات التالية:
 
@@ -56,18 +55,18 @@ ms.lasthandoff: 01/04/2019
 
 ## <a name="open-a-native-app-seamlessly"></a>فتح تطبيق أصلي بسلاسة
 
-تسمح أيضًا نظم التشغيل Windows و IOS و Android بفتح التطبيقات بطريقة أكثر سلاسة، استنادًا إلى اقتران بروتوكول التطبيق. إذا لم يتم تكوين تطبيقك لمعالجة الفتح من مستعرض ويب مسبقًا، فقد تحتاج إلى مطور لتكوين هذه الميزة.
+تسمح أيضًا أنظمة التشغيل Windows وIOS وAndroid بفتح التطبيقات بطريقة أكثر سلاسة، استنادًا إلى اقتران بروتوكول التطبيق. إذا لم يتم تكوين تطبيقك لمعالجة الفتح من مستعرض ويب مسبقًا، فقد تحتاج إلى مطور لتكوين هذه الميزة.
 
 - لأنظمة تشغيل Windows، راجع [تمكين التطبيقات لمواقع ويب باستخدام معالجات URI للتطبيق](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
 - لنظام تشغيل iOS، راجع [الارتباطات العالمية للمطورين](https://developer.apple.com/ios/universal-links/).
-- لنظام تشغيل Android، راجع [مُعالجة ارتباطات تطبيق Android](https://developer.android.com/training/app-links/).
+- بالنسبة إلى نظام Android، راجع [معالجة ارتباطات تطبيق Android](https://developer.android.com/training/app-links/).
 
 | العميل                | فتح في نافذة جديدة | فتح تطبيق أصلي | فتح في نقطة بيع | التفاصيل                           |
 |-----------------------|--------------------|-----------------|-----------------|-----------------------------------|
 | نقطة بيع حديثة في نظام تشغيل Windows | ✓\*                | ✓               | ✓              | \* فتح في نافذة نقطع بيع حديثة |
 | نقطة بيع المجموعة‬             | ✓\*                | ✓               | س              | \* فتح في علامة تبويب مستعرض جديدة        |
 | نقطة بيع حديثة في نظام تشغيل iOS     | ✓\*                | ✓               | س              | \* فتح في علامة تبويب مستعرض جديدة        |
-| نقطة بيع حديثة في نظام التشغيل Android | ✓\*                | ✓               | س              | \* فتح في علامة تبويب مستعرض جديدة        |
+| Modern POS على Android | ✓\*                | ✓               | س              | \* فتح في علامة تبويب مستعرض جديدة        |
 
 ## <a name="before-you-begin"></a>قبل البدء
 
@@ -84,4 +83,3 @@ ms.lasthandoff: 01/04/2019
 5. حدد **فتح URL** كإجراء.
 6. أدخل عنوان URL الذي ترغب في استخدامه.
 7. قم بتكوين ما إذا كنت تريد فتح عنوان URL في نافذة جديدة أو لا.
-

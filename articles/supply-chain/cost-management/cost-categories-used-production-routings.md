@@ -1,13 +1,13 @@
 ---
-title: "فئات التكلفة المستخدمة في عمليات توجيه الإنتاج"
-description: "توفر هذه المقالة معلومات حول فئات التكلفة التي يتم تطبيقها على بيئات التصنيع التي تستخدم التوجيه."
+title: فئات التكلفة المستخدمة في عمليات توجيه الإنتاج
+description: توفر هذه المقالة معلومات حول فئات التكلفة التي يتم تطبيقها على بيئات التصنيع التي تستخدم التوجيه.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53e038183a10b8732a9a5e0f25aac440c224400e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315787"
 ---
-
 # <a name="cost-categories-used-in-production-routing"></a>فئات التكلفة المستخدمة في عمليات توجيه الإنتاج
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ ms.lasthandoff: 11/03/2017
 ترث عملية التوجيه عادةً فئات التكلفة التي تم تعيينها لمورد العمليات أو العملية الرئيسية. وعند إنشاء أمر إنتاج، تعكس عمليات التوجيه في مسار الإنتاج إصدار المسار المحدد. يمكنك تجاوز فئات التكلفة التي تم تعيينها للعمليات داخل مسار الإنتاج. 
 
 يمكن تطبيق بعض أنواع الإنتاج على تقديرات وقت المشروع وإعداد التقارير. في هذه الحالة، تكون فئة التكلفة مطلوبة لأغراض الإنتاج والمشروع. يجب تحديد معلومات إضافية مرتبطة بالمشروع عندما يتم وضع علامة على فئة تكلفة لاستخدامها في المشاريع.
-
 
 
 

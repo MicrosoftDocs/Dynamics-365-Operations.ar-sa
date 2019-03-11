@@ -1,13 +1,13 @@
 ---
-title: "التقارير المالية"
-description: "يوضح هذا الموضوع كيفية استخدام إمكانيات إعداد التقارير المالية ومكان الوصول إلى التقارير المالية في Microsoft Dynamics 365 for Finance and Operations. كما يتضمن وصفاً للتقارير المالية الافتراضية التي يتم توفيرها."
+title: التقارير المالية
+description: يصف هذا الموضوع المكان الذي يمكن منه الوصول إلى التقارير المالية في Microsoft Dynamics 365 for Finance and Operations وكيفية استخدام إمكانيات إعداد التقارير المالية. كما يتضمن وصفاً للتقارير المالية الافتراضية التي يتم توفيرها.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316960"
 ---
-
 # <a name="financial-reporting"></a>التقارير المالية
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية استخدام إمكانيات إعداد التقارير المالية ومكان الوصول إلى التقارير المالية في Microsoft Dynamics 365 for Finance and Operations. كما يتضمن وصفاً للتقارير المالية الافتراضية التي يتم توفيرها.
+يصف هذا الموضوع المكان الذي يمكن منه الوصول إلى التقارير المالية في Microsoft Dynamics 365 for Finance and Operations وكيفية استخدام إمكانيات إعداد التقارير المالية. كما يتضمن وصفاً للتقارير المالية الافتراضية التي يتم توفيرها.
 
 <a name="accessing-financial-reporting"></a>الوصول إلى التقارير المالية
 -----------------------------
@@ -118,11 +117,10 @@ ms.lasthandoff: 09/27/2018
 من قائمة التقارير المالية، يمكنك إنشاء تقرير جديد أو تعديل تقرير موجود. إذا كانت لديك الأذونات المناسبة، يمكنك إنشاء تقرير مالي جديد بالنقر فوق **جديد** في "جزء الإجراءات". ويتم تنزيل برنامج مصمم التقارير لجهازك.‬ بعد بدء تشغيل مصمم التقارير، يمكنك إنشاء التقرير الجديد. وبعد حفظ التقرير الجديد، يظهر في قائمة التقارير المالية. وتعرض القائمة فقط التقارير التي تم إنشاؤها للشركة التي تقوم باستخدامها في Finance and Operations. 
 
 > [!NOTE] 
-> يجب أن يكون الإصدار 4.6.2 من Microsoft .NET Framework مثبتًا على الكمبيوتر الذي تقوم بتنزيل مصمم التقارير عليه. ويمكن تنزيل هذا الإصدار من Microsoft .NET Framework وتثبيته من [مركز التنزيل لـ Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345). إذا كنت تستخدم Chrome، يجب تثبيت ملحق ClickOnce لتتمكن من تنزيل عميل مصمم التقارير. إذا كنت تستخدم وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي. كما يمكنك تعديل تقرير يظهر في قائمة التقارير المالية. وعند تحديد المنطقة المحيطة باسم التقرير، انقر فوق **تحرير** في "جزء الإجراءات". ويبدأ تشغيل برنامج مصمم التقارير.
+> يجب أن يكون الإصدار 4.6.2 من Microsoft .NET Framework مثبتًا على الكمبيوتر الذي تقوم بتنزيل مصمم التقارير عليه. ويمكن تنزيل هذا الإصدار من Microsoft .NET ويمكن تنزيل هذا الإصدار من [مركز التنزيل لـ Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345). إذا كنت تستخدم Chrome، يجب تثبيت ملحق ClickOnce لتتمكن من تنزيل عميل مصمم التقارير. إذا كنت تستخدم وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي. كما يمكنك تعديل تقرير يظهر في قائمة التقارير المالية. وعند تحديد المنطقة المحيطة باسم التقرير، انقر فوق **تحرير** في "جزء الإجراءات". ويبدأ تشغيل برنامج مصمم التقارير.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 - [عرض التقارير المالية](view-financial-reports.md)
-
 
 
 

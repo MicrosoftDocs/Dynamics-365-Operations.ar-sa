@@ -1,13 +1,13 @@
 ---
-title: "وحدة القياس وسياسات المخزون"
-description: "توضح هذه المقالة كيفية استخدام الوحدات الافتراضية وتسلسلات الوحدات وتحويلات الوحدات في عمليات المستودع."
+title: وحدة القياس وسياسات المخزون
+description: توضح هذه المقالة كيفية استخدام الوحدات الافتراضية وتسلسلات الوحدات وتحويلات الوحدات في عمليات المستودع.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318087"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>وحدة القياس وسياسات المخزون
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="default-order-settings"></a>إعدادات الأوامر الافتراضية
 وكجزء من إنشاء المنتجات الصادرة، يجب تحديد الوحدات الافتراضية للمشتريات والمبيعات والمخزون لمعالجة العديد من الأوامر. ويمكنك تعيين الوحدات الافتراضية والكميات لمستندات المصدر المختلفة باستخدام صفحتي **إعدادات الأوامر الافتراضية** و**إعدادات الأوامر الخاصة بالموقع**. ويمكنك الوصول إلى هذه الصفحات من صفحة **المنتجات التي تم إصدارها**.
-
 
 
 

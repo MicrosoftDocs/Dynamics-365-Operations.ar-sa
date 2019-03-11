@@ -1,13 +1,13 @@
 ---
-title: "بحث التنقل"
-description: "يشرح هذا الموضوع كيفية استخدام وظيفة البحث للتنقل في الصفحات في Microsoft Dynamics 365 for Finance and Operations."
+title: بحث التنقل
+description: يشرح هذا الموضوع كيفية استخدام وظيفة البحث للانتقال إلى الصفحات في Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353001"
 ---
-
 # <a name="navigation-search"></a>بحث التنقل
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية استخدام وظيفة البحث للتنقل في الصفحات في Microsoft Dynamics 365 for Finance and Operations.
+يشرح هذا الموضوع كيفية استخدام وظيفة البحث للانتقال إلى الصفحات في Microsoft Dynamics 365 for Finance and Operations.
 
 يوفر تطبيق Finance and Operations وظائف لمجموعة واسعة من القطاعات والصناعات. يحتوي هذا التطبيق على عدد من النواحي والصفحات لمساعدتك في تنفيذ المهام المختلفة. للعثور بسرعة على الصفحات التي تحتاجها لإكمال مهامك، استخدم ميزة بحث التنقل.‬
 
@@ -38,7 +37,7 @@ ms.lasthandoff: 12/18/2018
 > [!NOTE]
 > يساعدك مربع **البحث** في البحث عن الصفحات والانتقال إليها. لن يساعدك في البحث عن بيانات أو إجراءات محددة.
 
-[![search-box](media/navigation-search.png "Search box")
+[![search-box](media/navigation-search.png "خانة البحث")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>الانتقال بسرعة إلى صفحة معينة
 
@@ -64,4 +63,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="development"></a>التطوير
 
 ومن منظور التطوير، من السهل جدًا الاستفادة من وظيفة بحث التنقل نظرًا لعدم وجود أي تأخير تقريبًا بين نشر عناصر القائمة وقدرتها على الظهور في نتائج البحث. وطالما أن أصناف القائمة يتم الارتباط بها من جزء التنقل أو لوحة المعلومات، فسوف تصبح قابلة للبحث فيها تلقائياً.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: "\"التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 2 - تعيين النموذج)"
-description: "تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين نموذج التقارير الإلكترونية لاستخدام الأبعاد المالية كمصدر بيانات للتقارير الإلكترونية."
+description: تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين نموذج التقارير الإلكترونية لاستخدام الأبعاد المالية كمصدر بيانات للتقارير الإلكترونية.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319582"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 2: تعيين النموذج)
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/14/2018
 8. في حقل "الوصف"، اكتب "تعيين بيانات الأبعاد‬".
 9. انقر فوق "حفظ".
 10. انقر فوق المصمم.
-11. في الشجرة، حدد "Dynamics 365 for Operations\جدول".
+11. في الشجرة، حدد "Dynamics 365 for Operations\الجدول".
 12. انقر فوق "إضافة جذر".
 13. في الحقل "الاسم"، اكتب "الشركة".
 14. في الحقل "الجدول"، اكتب "CompanyInfo".
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/14/2018
 21. حدد "نعم" في حقل "طلب الحساب الرئيسي".
     * عيّن "طلب الحساب الرئيسي" إلى "نعم" للسماح للمستخدمين بتحديد الحساب الرئيسي كجزء من قائمة الأبعاد.   إذا تم تعيين هذا الخيار إلى "لا"، فلن يتم تضمين الحساب الرئيسي في قائمة الأبعاد وسيتم تمكين الخيار "الحساب الرئيسي إلزامي". إذا تم تعيين الخيار "الحساب الرئيسي إلزامي" إلى "نعم"، فسيتم تضمين الحساب الرئيسي في قائمة الأبعاد بغض النظر عن التحديد الذي أجراه المستخدم.  
 22. انقر فوق "موافق".
-23. في الشجرة، حدد "Dynamics 365 for Operations\سجلات جدول".
+23. في الشجرة، حدد "Dynamics 365 for Operations\سجلات الجدول".
 24. انقر فوق "إضافة جذر".
 25. في حقل "الاسم"، اكتب "LedgerJournal".
 26. حدد "نعم" في حقل "طلب الاستعلام".
@@ -143,5 +143,4 @@ ms.lasthandoff: 09/14/2018
 3. انقر فوق "تغيير الحالة".
 4. انقر فوق "مكتمل".
 5. انقر فوق "موافق".
-
 

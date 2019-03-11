@@ -1,13 +1,13 @@
 ---
-title: "محتوى Power BI - تطوير الموظفين"
-description: "يصف هذا الموضوع محتوى Power BI - تطوير الموظفين."
+title: محتوى "تطوير الموظفين" في Power BI
+description: يصف هذا الموضوع محتوى "تطوير الموظفين" في Power BI.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,22 +15,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347159"
 ---
-
-# <a name="employee-development-power-bi-content"></a>محتوى Power BI - تطوير الموظفين
+# <a name="employee-development-power-bi-content"></a>محتوى "تطوير الموظفين" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع محتوي Microsoft Power BI **تطوير الموظفين**.
+يصف هذا الموضوع محتوى **تطوير الموظفين** في Microsoft Power BI.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
-تحتوي التقارير المضمنة في محتوى Power BI **تطوير الموظفين** على كل من المخططات والجداول التي تحتوي على معلومات إضافية. يصف الجدول التالي التقارير.
+تحتوي التقارير المضمنة في محتوى **تطوير الموظفين** في Power BI على المخططات والجداول التي تحتوي على معلومات إضافية. يصف الجدول التالي التقارير.
 
 | تقرير                        | المحتويات |
 |-------------------------------|----------|
@@ -70,4 +69,3 @@ ms.lasthandoff: 08/13/2018
 | تحليل مهارات الموظف  | معتمد، المستوى، تاريخ المستوى، المهارة                                                                    | اسم الموظف، المهارة |
 | الأداء              | التقييم والوصف ونموذج التقييم                                                                      | الموظف الحالي، المنصب الحالي، اتجاه الموظف، المهارة المفضلة للوظيفة، مهمة المنصب السابق، اتجاه المنصب، موظف تم إنهاء خدمته |
 | المهارة                    | المهارة، ونوع المهارة، والتقييم                                                                              | تحليل مهارات الموظف، المهارة المفضلة للوظيفة |
-

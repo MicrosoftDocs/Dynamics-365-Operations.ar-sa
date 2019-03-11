@@ -1,13 +1,13 @@
 ---
-title: "قواعد توزيع دفتر الأستاذ"
-description: "توفر هذه المقالة معلومات حول قواعد توزيع دفتر الأستاذ. وهذ تصف المكونات المختلفة لقواعد التوزيع هذه وأساليب التوزيع التي يمكن استخدامها لها."
+title: قواعد توزيع دفتر الأستاذ
+description: توفر هذه المقالة معلومات حول قواعد توزيع دفتر الأستاذ. وهذ تصف المكونات المختلفة لقواعد التوزيع هذه وأساليب التوزيع التي يمكن استخدامها لها.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: abbeb1bb4481139dff902916362a479f94fb96e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63562cde3f2813fdcfc9df7ccbfc623aa2fbe9b1
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365720"
 ---
-
 # <a name="ledger-allocation-rules"></a>قواعد توزيع دفتر الأستاذ
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 11/03/2017
 -   **الوجهة** – يحدد هذا المكون الطريقة التي يجب بها توزيع نتيجة حساب التوزيع والمحاسبة عليها. على سبيل المثال، يمكن أن يكون هناك بند وجهة واحد لكل قسم.
 -   **المقابل** – يحدد هذا المكون الطريقة التي يجب بها تحديد الأبعاد الحسابات الرئيسية للإدخالات المقابلة التي توازن بين إدخالات الوجهة. وعادةً ما يتم استخدام الخيارات المحددة من قِبل المستخدم بدلاً من الحسابات والأبعاد المحددة في المصدر. وعند تعيين **مصدر البيانات** إلى **قيمة ثابتة**، لا يمكن استخدام **مصدر** كخيار.
 -   **قواعد أساس توزيع دفتر الأستاذ** – تستخدم هذه القواعد معايير عامل التصفية المصدر الخاصة بها لتحديد أرصدة دفتر الأستاذ التي يجب استخدامها للتوزيع (على سبيل المثال، إيراد لكل قسم). يمكن استخدام قاعدة أساس التوزيع مع العديد من قواعد التوزيع.
-
 
 
 

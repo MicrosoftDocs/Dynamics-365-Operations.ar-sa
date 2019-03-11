@@ -1,13 +1,13 @@
 ---
-title: "متوسط سعر التكلفة الحالي"
-description: "تقوم عملية إغلاق المخزون بتسوية حركات الإصدار إلى حركات الإيصال وفقًا لأسلوب تقييم المخزون الذي تم تحديده في مجموعة نماذج الصنف. ومع ذلك، قبل تشغيل إغلاق المخزون، يقوم النظام بحساب متوسط سعر التكلفة الحالي الذي يُستخدم عادةً عند ترحيل حركات الإصدار."
+title: متوسط سعر التكلفة الحالي
+description: تقوم عملية إغلاق المخزون بتسوية حركات الإصدار إلى حركات الإيصال وفقًا لأسلوب تقييم المخزون الذي تم تحديده في مجموعة نماذج الصنف. ومع ذلك، قبل تشغيل إغلاق المخزون، يقوم النظام بحساب متوسط سعر التكلفة الحالي الذي يُستخدم عادةً عند ترحيل حركات الإصدار.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e14f38baaef32c72761594147feca8d08651a050
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aeb23f78d9bec93cf92214470e9ace3cd88b92c3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312015"
 ---
-
 # <a name="running-average-cost-price"></a>متوسط سعر التكلفة الحالي
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,6 @@ ms.lasthandoff: 11/03/2017
 -   إذا *لم* تحدد الخيار **تضمين القيمة الفعلية** لأحد الأصناف، فقم بإلغاء تحديد خانة الاختيار **مخزون سالب مالي** في صفحة **مجموعات نموذج الصنف**.
 
 علاوةً على ذلك، تذكر أن الحد الأقصى للتعويض في قيمة المخزون الفعلية مقيد بعدد حركات المخزون والفرق بين الأسعار الفعلية والمالية. وطالما أنه يتم في النهاية تحديث كل الحركات الفعلية ماليًا، فليس باستطاعة القيمة الفعلية الارتفاع إلى مستويات قصوى. أخيرًا، تجدر الإشارة إلى أن تأثير التضخم ينخفض بدرجة كبيرة عند انتشار التعويض المتراكم على عدة قطع فعلية بدلاً من قطعة واحدة فقط.
-
 
 
 

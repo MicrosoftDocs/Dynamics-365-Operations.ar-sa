@@ -1,14 +1,14 @@
 ---
-title: "قوالب البريد الإلكتروني"
-description: "يوفر هذا الموضوع معلومات حول قوالب البريد الإلكتروني التي يمكنك إنشاؤها واستخدامها في Microsoft Dynamics 365 for Talent - Attract."
+title: قوالب البريد الإلكتروني
+description: يوفر هذا الموضوع معلومات حول قوالب البريد الإلكتروني التي يمكنك إنشاؤها واستخدامها في Microsoft Dynamics 365 for Talent - Attract.
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303147"
 ---
-
 # <a name="email-templates"></a>قوالب البريد الإلكتروني
 [!include[banner](../includes/banner.md)]
 
@@ -81,4 +80,3 @@ ms.lasthandoff: 01/04/2019
 
 > [!NOTE] 
 > بالنسبة إلى رسائل البريد الإلكتروني التي يتم إرسالها تلقائيًا، يمكن إنشاء قوالب متعددة. ومع ذلك، يمكن تعيين قالب واحد فقط كقالب نشط. نظراً لتشغيل هذه العملية بواسطة الأحداث، بإمكان المسؤول وحده تحديد القالب الذي يجب استخدامه، استنادًا إلى جمع الشارتين **افتراضي** و **إرسال تلقائي** في مكتبة القوالب.
-

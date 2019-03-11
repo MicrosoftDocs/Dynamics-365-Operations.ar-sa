@@ -1,13 +1,13 @@
 ---
-title: "إنشاء تقارير بإضافة محتوى كـ XML أولي"
-description: "يمكنك تصميم تنسيقات إعداد التقارير الإلكترونية (ER) لإنشاء مستندات صادرة بتنسيق XML."
+title: إنشاء تقارير بإضافة محتوى كـ XML أولي
+description: يمكنك تصميم تنسيقات إعداد التقارير الإلكترونية (ER) لإنشاء مستندات صادرة بتنسيق XML.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312176"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ ms.lasthandoff: 08/08/2018
 > انتبه إلى أن إطار العمل لا يتحكم في ما إذا محتوى XML يتم وضعه في الملف الذي تم إنشاؤه باستخدام عنصر تنسيق  **RAW XML** بشكل صحيح أم لا.
 
 لمعرفة المزيد عن هذه الميزة، قم بتشغيل أدلة المهمة **استخدام التقارير الإلكترونية لبيانات XML أولي لإنشاء تقارير بتنسيق XML (الجزء 1: تصميم نموذج بيانات)‎** و **استخدام التقارير الإلكترونية لبيانات XML أولي لإنشاء تقارير بتنسيق XML (الجزء 2: تصميم التقرير وتشغيله)** والتي تمثل جزءًا من العملية التجارية**7.5.4.3 اكتساب/تطوير خدمة تكنولوجيا المعلومات/مكونات الحلول (10677)‬**، ويمكن تنزيلها من [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684). تأخذك أدلة المهمة هذه إلى عملية تكوين تنسيق التقارير الإلكترونية لإدخال بيانات XML حدثية في الملفات المنشأة.
-

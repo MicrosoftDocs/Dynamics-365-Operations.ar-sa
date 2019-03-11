@@ -1,32 +1,31 @@
 ---
-title: "تحديد حقوق الوصول لمراقبي كائن التكلفة"
-description: "يوفر هذا الموضوع معلومات حول حقوق الوصول لمراقبي كائن التكلفة."
+title: تحديد حقوق الوصول لمراقبي كائن التكلفة
+description: يوفر هذا الموضوع معلومات حول حقوق الوصول لمراقبي كائن التكلفة.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355531"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>حقوق الوصول لمراقب كائن التكلفة
 
 [!include [banner](../includes/banner.md)]
@@ -95,8 +94,8 @@ ms.lasthandoff: 05/08/2018
 
 - Microsoft Power BI:
 
-    - البيانات المعروضة في الرسوم المرئية لـ Power BI
-    - بيانات الرسوم المرئية لـ Power BI المضمنة في Microsoft Dynamics 365 for Finance and Operations، عميل
+    - البيانات المعروضة في مرئيات Power BI
+    - مؤثرات عرض البيانات‬ في Power BI المضمنة في Microsoft Dynamics 365 for Finance and Operations، العميل
 
 > [!IMPORTANT]
 > - قبل أن يؤثر التدرج الهرمي لقائمة الوصول على البيانات في Power BI، يجب أن يتم إقران التدرج الهرمي لقائمة الوصول والأمان على مستوى الصف في Power BI. للحصول على مزيد من المعلومات، راجع [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
@@ -107,4 +106,3 @@ ms.lasthandoff: 05/08/2018
 - [مساحة عمل مراقبة التكلفة](cost-control-workspace.md)
 - [التدرج الهرمي للأبعاد](dimension-hierarchy.md)
 - [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

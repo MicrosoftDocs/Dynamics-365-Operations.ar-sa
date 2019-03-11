@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية للتدبير وتحديد الموارد"
-description: "يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد."
+title: الصفحة الرئيسية للتدبير وتحديد الموارد
+description: يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.
 author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338580"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>الصفحة الرئيسية للتدبير وتحديد الموارد
 
 [!include [banner](../includes/banner.md)]
@@ -56,11 +55,11 @@ ms.lasthandoff: 11/03/2017
 -   [تعاون المورد مع العملاء](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [إدارة مستخدمي تعاون المورد‬](manage-vendor-collaboration-users.md)
 -   [إعداد تعاون المورد والمحافظة عليه](set-up-maintain-vendor-collaboration.md)
--   [البرنامج النصي للعرض التوضيحي الخاص بمخزون الشحن الوارد لتطبيق Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(مستند تقني)
+-   [البرنامج النصي للعرض التوضيحي الخاص بمخزون الشحن الوارد لتطبيق Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
 -   [مراقبة مخزون الشحن باستخدام تعاون المورّد](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [التعاون مع الموردين باستخدام مدخل المورد](collaborate-vendors-vendor-portal.md)  (إصدارات فبراير 2016 ومايو 2016 من Dynamics AX فقط)
+-   [التعاون مع المورّدين باستخدام مدخل المورّد](collaborate-vendors-vendor-portal.md)  (إصدارات فبراير 2016 ومايو 2016 من Dynamics AX فقط)
 -   [تكوين الأمان لمستخدمي مدخل المورد](configure-security-vendor-portal-users.md) (إصدارات فبراير 2016 ومايو 2016 من Finance and Operations فقط)
--   [مساحة العمل المحمولة‬ لتعاون المورّد في تطبيق Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
+-   [مساحة العمل المحمولة "تعاون المورّد" لتطبيق Microsoft Dynamics 365 for Finance and Operations app](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>إدارة منتج التدبير
 -   [كتالوجات التدبير](procurement-catalogs.md)
@@ -102,7 +101,6 @@ ms.lasthandoff: 11/03/2017
 -   [تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (مستند تقني)
 -   [سياسات الشراء](purchase-policies.md)
 -   [إنشاء مناهج الشراء](tasks/create-purchasing-policies.md)
-
 
 
 

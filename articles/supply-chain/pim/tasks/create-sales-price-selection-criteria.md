@@ -1,13 +1,13 @@
---- 
-title: "إنشاء معايير تحديد سعر المبيعات"
-description: "يوضح هذا الإجراء كيفية إنشاء معيار تحديد سعر المبيعات لنماذج أسعار المبيعات التي تستند إلى سمة."
+---
+title: إنشاء معايير تحديد سعر المبيعات
+description: يوضح هذا الإجراء كيفية إنشاء معيار تحديد سعر المبيعات لنماذج أسعار المبيعات التي تستند إلى سمة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelSelectionCriteria, SysQueryForm, SysQueryTableLookUp, SysQueryFieldLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1ce4388cc4bea8314e131690409ad181c9174bcc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 59f6a4131f6a27c0089a1259e3f849f91a47bc87
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336050"
 ---
 # <a name="create-sales-price-selection-criteria"></a>إنشاء معايير تحديد سعر المبيعات
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * في هذا المثال، سوف نستخدم مجموعة محددة من العملاء لمعايير التحديد.  
 4. في حقل "المعايير"، حدد "مجموعة العملاء 10". 
 5. انقر فوق "موافق".
-
 

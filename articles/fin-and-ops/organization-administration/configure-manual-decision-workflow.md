@@ -1,13 +1,13 @@
 ---
-title: "تكوين القرارات اليدوية في سير عمل"
-description: "يوضح هذا الموضوع كيفية تكوين خصائص قرار يدوي."
+title: تكوين القرارات اليدوية في سير عمل
+description: يوضح هذا الموضوع كيفية تكوين خصائص قرار يدوي.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341386"
 ---
-
 # <a name="configure-manual-decisions-in-a-workflow"></a>تكوين القرارات اليدوية في سير عمل
 
 [!include [banner](../includes/banner.md)]
@@ -164,7 +163,7 @@ ms.lasthandoff: 12/18/2018
     </tr>
     <tr>
     <td>المستخدم</td>
-    <td>‏‫مستخدمو Microsoft Dynamics 365 for Finance and Operations معينون‬</td>
+    <td>مستخدمو Microsoft Dynamics 365 for Finance and Operations معينون</td>
     <td>
     <ol>
     <li>بعد تحديد <strong>المستخدم</strong>، انقر فوق علامة تبويب <strong>المستخدم</strong>.</li>
@@ -372,4 +371,3 @@ ms.lasthandoff: 12/18/2018
     - **السنوات** - حدد اليوم والأسبوع والشهر الذي يتعين اتخاذ القرار خلالها. على سبيل المثال، قد ترغب في أن يتم اتخاذ القرار بحلول يوم الجمعة من الأسبوع الثالث من شهر ديسمبر.
 
 4. إذا تم تجاوز الحد الزمني فسيقوم النظام باتخاذ القرار. من القائمة **إجراء**، حدد الخيار الذي يجب أن يقوم النظام بتحديده.
-

@@ -1,13 +1,13 @@
 ---
-title: "عرض أوصاف الحقول وتصديرها"
-description: "توضح هذه المقالة كيفية عرض أوصاف الحقول وكيفية استخدام صفحة أوصاف الحقل لتصدير الأوصاف."
+title: عرض أوصاف الحقول وتصديرها
+description: توضح هذه المقالة كيفية عرض أوصاف الحقول وكيفية استخدام صفحة أوصاف الحقل لتصدير الأوصاف.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359326"
 ---
-
 # <a name="view-and-export-field-descriptions"></a>عرض أوصاف الحقول وتصديرها
 
 [!include [banner](../includes/banner.md)]
 
 توضح هذه المقالة كيفية عرض أوصاف الحقول وكيفية استخدام صفحة أوصاف الحقل لتصدير الأوصاف.
 
-يتضمن Microsoft Dynamics 365 for Finance and Operations أوصافًا لبعض الحقول الأكثر تعقيدًا. وتظهر هذه الأوصاف عند تمرير الماوس فوق حقل. يمكنك أيضًا عرض أوصاف الحقول وتصديرها في صفحة **أوصاف الحقول**.
+يوفر Microsoft Dynamics 365 for Finance and Operations أوصافًا لبعض الحقول الأكثر تعقيدًا. وتظهر هذه الأوصاف عند تمرير الماوس فوق حقل. يمكنك أيضًا عرض أوصاف الحقول وتصديرها في صفحة **أوصاف الحقول**.
 
 لا تتضمن كل الصفحات أوصاف الحقول. إننا نريد فقط توفير أوصاف للحقول الكثيرة التعقيدات، وليس لتلك التي يكون فيها استخدام الحقل واضحًا. وبالتالي، هناك بعض الصفحات حيث لا تتوفر أوصاف الحقول، وهناك صفحات أخرى فيها بعض الأوصاف القليلة، بينما تتضمن بعض الصفحات المعقدة الكثير من هذه الأوصاف، ومنها عدد كبير من صفحات المحددات.
 
@@ -109,4 +108,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [تعليمات تخصيص الحقل](../../dev-itpro/user-interface/customize-field-help.md)
-

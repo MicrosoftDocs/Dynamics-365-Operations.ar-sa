@@ -1,13 +1,13 @@
 ---
-title: "إنشاء تقارير قانون الرعاية ميسورة التكلفة"
-description: "تتوفر الوظيفة لمساعدة أصحاب الأعمال الذين يحتاجون إلى تعقب المعلومات التي يتم التبليغ عنها على النماذج 1095-B و1095-C لدعم جزء Employer Mandate من قانون الرعاية ميسورة التكلفة‬. لاحظ أن هذه الوظيفة ممكنة فقط بالنسبة للكيانات القانونية في الولايات المتحدة.‬"
+title: إنشاء تقارير قانون الرعاية ميسورة التكلفة
+description: تتوفر الوظيفة لمساعدة أصحاب الأعمال الذين يحتاجون إلى تعقب المعلومات التي يتم التبليغ عنها على النماذج 1095-B و1095-C لدعم جزء Employer Mandate من قانون الرعاية ميسورة التكلفة‬. لاحظ أن هذه الوظيفة ممكنة فقط بالنسبة للكيانات القانونية في الولايات المتحدة.‬
 author: kherr75
 manager: AnnBe
 ms.date: 12/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
 ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303098"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>إنشاء تقارير قانون الرعاية ميسورة التكلفة
 
@@ -70,4 +70,3 @@ ms.lasthandoff: 12/17/2018
 إذا أردت إعداد تقرير بشأن أفراد تشملهم التغطية لأنك بصفتك صاحب عمل توفر تغطية ذاتية التأمين، يمكنك أيضًا عرض أي معالين تمت تغطيتهم بموجب خطط الميزات التي تم وضع علامة عليها على أنها **يمكن إرسال تقرير بها إلى ACA‬** عن طريق تحديد الإجراء "عرض تغطية المعال‬" على شريط جزء الإجراءات.
 
 **ملاحظة:** الميزات التي تظهر في نافذة الاستعلام هي فقط الميزات التي تم وضع علامة على خطتها على أنها **يمكن إرسال تقرير بها إلى ACA‬**.
-

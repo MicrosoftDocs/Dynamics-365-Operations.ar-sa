@@ -1,35 +1,34 @@
 ---
-title: "استيراد بيانات من قوالب كيانات بيانات Excel تتضمن أوراق عمل متعددة"
-description: "يوضح هذا الموضوع كيفية استيراد البيانات باستخدام قوالب كيان البيانات Excel إلى Microsoft Dynamics 365 for Finance and Operations."
+title: استيراد بيانات من قوالب كيانات بيانات Excel تتضمن أوراق عمل متعددة
+description: يصف هذا الموضوع كيفية استيراد البيانات باستخدام قوالب كيانات البيانات من Excel إلى Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351253"
 ---
-
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>استيراد بيانات من قوالب كيانات بيانات Excel تتضمن أوراق عمل متعددة
 
 [!include [banner](../includes/banner.md)]
 
-تدعم إدارة البيانات في Microsoft Dynamics 365 for Finance and Operations قوالب Microsoft التي تستند إلى Excel لكيانات البيانات. يمكن أن تحتوي هذه القوالب على ورقة عمل واحدة أو أكثر. تستخدم عادة قوالب أوراق العمل المتعددة عندما يكون ذلك مناسبًا لإدارة البيانات في ملف واحد واستيرادها في كيانات بيانات متعددة. على سبيل المثال ستكون المواقع والمستودعات.
+تدعم إدارة البيانات في Microsoft Dynamics 365 for Finance and Operations القوالب التي تستند إلى Microsoft Excel لكيانات البيانات. يمكن أن تحتوي هذه القوالب على ورقة عمل واحدة أو أكثر. تستخدم عادة قوالب أوراق العمل المتعددة عندما يكون ذلك مناسبًا لإدارة البيانات في ملف واحد واستيرادها في كيانات بيانات متعددة. على سبيل المثال ستكون المواقع والمستودعات.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>تحميل ملف في المرة الواحدة وتعيينه إلى كافة الكيانات
 لنأخذ مثالاً حيث يتضمن ملف Excel ورقتي عمل باسم **المواقع‏‎** و**المستودعات**. لإعداد مشروع استيراد البيانات، يجب عليك إضافة كيان البيانات الأول، **المواقع** ثم تحميل الملف. ستكون قادراً على تحديد **المواقع** كورقة عمل يتم استخدامها لهذا الكيان.
@@ -51,4 +50,3 @@ ms.lasthandoff: 08/13/2018
 ## <a name="upload-a-file-using-run-project"></a>تحميل ملف باستخدام مشروع التشغيل
 
 يمكنك تحميل ملف Excel أثناء استخدام خيار **تشغيل المشروع** لتنفيذ استيراد مشروع. يجب أن تكون حذرًا لتحميل الملفات التي لها نفس أوراق العمل فقط كالتعيينات الموجودة في وحدات البيانات في مشروع البيانات. إذا لم يتم العثور على ورقة عمل في الملف الذي تم تحميله مؤخرا، يعرض النظام رسالة خطأ وستتوقف عملية الاستيراد. إذا كان يجب تغيير التعيين إلى ورقة العمل لأحد الكيانات، فيجب أولًا تحديث التعيينات في مشروع البيانات من ضمن مشروع البيانات قبل استخدام الملف في تجربة **تشغيل المشروع**.
-

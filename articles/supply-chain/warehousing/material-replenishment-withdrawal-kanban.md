@@ -1,32 +1,31 @@
 ---
-title: "التزويد بحلول كانبان للسحب"
-description: "يصف هذا الموضوع كيفية استخدام كانبان السحب لتزويد المواد لأنشطة التصنيع."
+title: التزويد بحلول كانبان للسحب
+description: يصف هذا الموضوع كيفية استخدام كانبان السحب لتزويد المواد لأنشطة التصنيع.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320916"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>التزويد بحلول كانبان للسحب
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ ms.lasthandoff: 11/03/2017
 6.  عملية التصنيع
 
 بعد استهلاك كانبان في موقع إدخال الإنتاج، يتم الإعلام عن كانبان على أنه فارغ، وتتم إضافة كانبان جديد من نفس النوع إلى الدفق. عند إنشاء الكانبان، تتم إضافة بند موجة إلى موجة كانبان. عندما تتم معالجة موجة كانبان، يتم إنشاء عمل المستودع لانتقاء كانبان. يقوم عامل المستودع بمعالجة عمل انتقاء كانبان ويتم توجيهه بواسطة عمل انتقاء المواد لكانبان في موقع المستودع. عندما يؤكد عامل المستودع هذا عملية الانتقاء، يتم إكمال كانبان بشكل تلقائي ويتم توجيه عامل المستودع لوضع المواد في موقع إدخال الإنتاج.
-
 

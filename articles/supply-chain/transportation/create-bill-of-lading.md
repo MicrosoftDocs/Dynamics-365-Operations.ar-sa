@@ -1,13 +1,13 @@
 ---
-title: "إنشاء بوليصة شحن"
-description: "يصف هذا الموضوع كيفية إنشاء بوليصة شحن عند استخدام عمليات إدارة المستودعات."
+title: إنشاء بوليصة شحن
+description: يصف هذا الموضوع كيفية إنشاء بوليصة شحن عند استخدام عمليات إدارة المستودعات.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSBillOfLading, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8d5caed5553ad1c7aec5db83591024129aab1264
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ab5aa60198e442237fd85bb295589ae0ebe9c5f5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352587"
 ---
-
 # <a name="create-a-bill-of-lading"></a>إنشاء بوليصة شحن
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="master-bill-of-lading"></a>بوليصة الشحن الرئيسية
 عند وجود أكثر من شحنة واحد في الحمل، يمكنك إنشاء بوليصة شحن رئيسية. تتضمن بوليصة الشحن هذه نفس التخطيط والمعلومات كما في بوليصة الشحن العادية، ولكنها تحتوي على المحتوى الملخص لجميع الشحنات. إذا تم تعيين الخيار **إنشاء بوليصة شحن رئيسية عند وجود أكثر من شحن واحد على حمل عمل‬** إلى **نعم** في صفحة **محددات إدارة النقل**، فسيتم إنشاء بوليصة شحن رئيسية تلقائيًا إذا أنشأت بوليصة شحن من **منضدة عمل تخطيط الحِمل‬**، وهناك أكثر من شحنة واحدة. يمكنك أيضًا الحصول على قائمة بوالص الشحن‬ بالنقر فوق **المعلومات ذات الصلة** &gt; **بوليصة الشحن**. إذا كنت تقوم بإنشاء بوالص الشحن يدويًا، فيمكنك إنشاء بوليصة شحن رئيسية في صفحة **بوليصة الشحن**.
-
 
 
 

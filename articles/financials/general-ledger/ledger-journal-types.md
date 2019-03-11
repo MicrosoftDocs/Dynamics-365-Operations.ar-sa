@@ -1,13 +1,13 @@
 ---
-title: "أنواع دفاتر يومية دفتر الأستاذ"
-description: "يصف هذا الموضوع أنواع دفاتر اليومية التي يمكنك تعيينها لدفاتر اليومية المالية."
+title: أنواع دفاتر يومية دفتر الأستاذ
+description: يصف هذا الموضوع أنواع دفاتر اليومية التي يمكنك تعيينها لدفاتر اليومية المالية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: ar-sa
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308657"
 ---
-
 # <a name="ledger-journal-types"></a>أنواع دفاتر يومية دفتر الأستاذ
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,6 @@ ms.lasthandoff: 10/16/2018
 | تسجيل فاتورة المورّد          | ترحيل فواتير المورد الموجودة في دفتر يومية.                                                                                                                                                                                                                                                                                                                 | دفتر يومية الفواتير                                                |
 | سند إذني معاد سحبه للمورد     | إعادة سحب السند الإذني الذي تم سداده سابقًا بواسطة البنك لديك.                                                                                                                                                                                                                                                                      | دفتر يومية إعادة سحب السندات الإذنية                                 |
 | السند الإذني الذي تمت تسويته من قبل المورد     | إنشاء حركات السند الإذني الذي تمت تسويته من قبل المورد.                                                                                                                                                                                                                                                                                                          | دفتر يومية تسوية السندات الإذنية                                 |
-
 
 
 

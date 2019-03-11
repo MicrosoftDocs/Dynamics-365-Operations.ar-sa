@@ -1,13 +1,13 @@
---- 
-title: "إنشاء دفاتر اليومية والتحقق من صحتها"
-description: "ينشئ دليل المهام هذا دفاتر اليومية وبنود دفاتر اليومية ويتحقق من صحتها."
+---
+title: إنشاء دفاتر اليومية والتحقق من صحتها
+description: ينشئ دليل المهام هذا دفاتر اليومية وبنود دفاتر اليومية ويتحقق من صحتها.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c94d992b97e9a2a18299f97c982430f8205cabf2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ca58d2cfc1788f9a9d4659d52a4bccc255bcfd72
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329955"
 ---
 # <a name="create-and-validate-journals"></a>إنشاء دفاتر اليومية والتحقق من صحتها
 
@@ -44,5 +44,4 @@ ms.lasthandoff: 09/29/2017
 11. انقر فوق "التحقق من الصحة‬".
 12. انقر فوق "ترحيل".
 13. انقر فوق "الإيصال".
-
 

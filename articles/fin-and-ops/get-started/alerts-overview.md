@@ -1,13 +1,13 @@
 ---
-title: "التنبيهات"
-description: "يوفر هذا الموضوع معلومات عامة حول التنبيهات في Microsoft Dynamics 365 for Finance and Operations. يمكنك استخدام التنبيهات للتعرف على الأحداث التي تريد تعقبها أثناء يوم العمل."
+title: التنبيهات
+description: يقدم هذا الموضوع معلومات عامة حول التنبيهات في Microsoft Dynamics 365 for Finance and Operations. يمكنك استخدام التنبيهات للتعرف على الأحداث التي تريد تعقبها أثناء يوم العمل.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367445"
 ---
-
 # <a name="alerts"></a>التنبيهات
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>حول التنبيهات
-تنبيهات من نظام إعلام للأحداث الهامة في Microsoft Dynamics 365 for Finance and Operations. يمكنك استخدام التنبيهات للتعرف على الأحداث التي تريد تعقبها أثناء يوم العمل. يمكنك بسهولة إنشاء مجموعتك الخاصة من قواعد التنبيهات حتى يتم تنبيهك إلى عمليات التسليم المتأخرة أو الأوامر المحذوفة أو الأسعار التي تغيرت أو الأحداث الأخرى التي يجب أن تستجيب إليها.
+تشكّل التنبيهات نظام إخطار للأحداث المهمة في Microsoft Dynamics 365 for Finance and Operations. يمكنك استخدام التنبيهات للتعرف على الأحداث التي تريد تعقبها أثناء يوم العمل. يمكنك بسهولة إنشاء مجموعتك الخاصة من قواعد التنبيهات حتى يتم تنبيهك إلى عمليات التسليم المتأخرة أو الأوامر المحذوفة أو الأسعار التي تغيرت أو الأحداث الأخرى التي يجب أن تستجيب إليها.
 
 في تخطيط موارد المؤسسات (ERP)، هناك العديد من السيناريوهات النموذجية التي يمكنك فيها استخدام ميزة التنبيهات في Finance and Operations. فيما يلي بعض الأمثلة.
 
@@ -78,4 +77,3 @@ ms.lasthandoff: 08/08/2018
 ## <a name="email-notifications-from-alerts"></a>إعلامات البريد الإلكتروني من التنبيهات
 
 لم يتم تمكين إعلامات البريد الإلكتروني من التنبيهات حتى الآن. سيتم تمكين هذا في تحديث مستقبلي.
-

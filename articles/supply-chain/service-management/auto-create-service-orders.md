@@ -1,31 +1,30 @@
 ---
-title: "إنشاء أوامر الخدمة تلقائيًا"
-description: "يمكنك إنشاء أوامر الخدمة التي تستند إلى اتفاقية الخدمة طوال فترة سيران اتفاقية الخدمة."
+title: إنشاء أوامر الخدمة تلقائيًا
+description: يمكنك إنشاء أوامر الخدمة التي تستند إلى اتفاقية الخدمة طوال فترة سيران اتفاقية الخدمة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0189a9f99ffbb6ed2387211ba9e3b9f3bcdb3b52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2d942d4448e0f792945603d3f5960fb82095be30
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331174"
 ---
-
 # <a name="automatically-create-service-orders"></a>إنشاء أوامر الخدمة تلقائيًا 
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,5 @@ ms.lasthandoff: 05/08/2018
 تستمر اتفاقية الخدمة من 1 يناير 2012 حتى 31 ديسمبر 2012. يتم إرفاق بندين من اتفاقية خدمة في اتفاقية الخدمة. يحتوي بند اتفاقية الخدمة الأول على تاريخ بدء 2 يناير 2012 وتاريخ انتهاء في 1 مارس 2012. يحتوي بند اتفاقية الخدمة الثاني على تاريخ بدء 1 أبريل 2012 وتاريخ انتهاء في 31 ديسمبر 2012. عليك تحديد فترة في نموذج **إنشاء أوامر الخدمة** التي تكون من 1 أكتوبر 2012 حتى 31 ديسمبر 2012. وبالتالي، يتم إنشاء أوامر الخدمة فقط لبند اتفاقية الخدمة الثاني لأن تاريخ بدء وانتهاء بند الاتفاقية الأول يقع قبل الفترة التي قمت بتحديدها لأمر الخدمة.
 
   
-
 
 

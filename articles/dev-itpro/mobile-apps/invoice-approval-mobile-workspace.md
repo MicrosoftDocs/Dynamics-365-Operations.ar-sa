@@ -1,13 +1,13 @@
 ---
-title: "مساحة العمل المحمولة الموافقات على الفواتير‬"
-description: "يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة \"الموافقات على الفواتير‬‬\". توفر مساحة العمل المحمولة قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد."
+title: مساحة العمل المحمولة الموافقات على الفواتير‬
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "الموافقات على الفواتير‬‬". توفر مساحة العمل المحمولة قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326988"
 ---
-
 # <a name="invoice-approvals-mobile-workspace"></a>مساحة العمل المحمولة الموافقات على الفواتير‬
 
 [!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **الموافقات على الفواتير**. توفر مساحة العمل المحمولة قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد. 
 
-تهدف مساحة العمل المحمولة هذه إلى استخدامها بواسطة تطبيق المحمول Microsoft Dynamics 365 for Unified Operations.
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -43,8 +42,8 @@ ms.lasthandoff: 03/26/2018
 <thead>
 <tr class="header">
 <th>المتطلب الأساسي</th>
-<th>الدور</th>
-<th>الوصف</th>
+<th>دور</th>
+<th>‏‏الوصف</th>
 </tr>
 </thead>
 <tbody>
@@ -88,4 +87,3 @@ ms.lasthandoff: 03/26/2018
 7.  حدد **المرفقات** لعرض أية ملاحظات أو ملفات مرفقة بالفاتورة.
 8.  في صفحة **تفاصيل الفاتورة**، حدد إجراء سير العمل المناسب لإكمال عملية المراجعة.
 9.  حدد **تم**.
-

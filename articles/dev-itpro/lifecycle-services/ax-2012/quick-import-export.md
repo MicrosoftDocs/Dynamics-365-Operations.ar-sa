@@ -1,13 +1,13 @@
 ---
-title: "الاستيراد والتصدير السريع"
-description: "الغرض من ميزة الاستيراد والتصدير السريع هو السماح لك بالاستيراد والتصدير من خلال تنفيذ عدد أقل من الخطوات."
+title: الاستيراد والتصدير السريع
+description: الغرض من ميزة الاستيراد والتصدير السريع هو السماح لك بالاستيراد والتصدير من خلال تنفيذ عدد أقل من الخطوات.
 author: margoc
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
-ms.service: 
-ms.technology: 
+ms.service: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: AX 2012
@@ -15,16 +15,15 @@ ms.custom: 89041
 ms.assetid: 990d64e6-d436-4c79-9bb5-bf8c5c5a048f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 
+ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 4f2edba4add691e9ad4c7829551c6f79b9804853
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357716"
 ---
-
 # <a name="quick-import-export"></a>الاستيراد والتصدير السريع
 
 [!include [banner](../../includes/banner.md)]
@@ -39,7 +38,6 @@ ms.lasthandoff: 08/08/2018
 - لا تحتاج إلى إنشاء مجموعة معالجة لاستخدام الاستيراد/التصدير السريع، إذ سيتم إنشاء هذه المجموعة تلقائيًا بواسطة النظام عند تنفيذ مهمة الاستيراد أو التصدير. يمكنك أيضًا السماح باستيراد محفوظات البيانات بواسطة ميزة الاستيراد/التصدير السريع.
 
   تجدر الإشارة إلى أن ميزة الاستيراد والتصدير السريع تفترض بأنك على دراية بمفاهيم DIXF.
-
 
 
 

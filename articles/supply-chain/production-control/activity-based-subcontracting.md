@@ -1,13 +1,13 @@
 ---
-title: "التعاقد من الباطن المستند إلى النشاط"
-description: "يصف هذا الموضوع، بشكل مفصل، كيفية استخدام الأنشطة المتعاقد عليها من الباطن في تدفق الإنتاج من أجل lean manufacturing."
+title: التعاقد من الباطن المستند إلى النشاط
+description: يصف هذا الموضوع، بشكل مفصل، كيفية استخدام الأنشطة المتعاقد عليها من الباطن في تدفق الإنتاج من أجل lean manufacturing.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350034"
 ---
-
 # <a name="activity-based-subcontracting"></a>التعاقد من الباطن المستند إلى النشاط
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,6 @@ ms.lasthandoff: 11/03/2017
 يسمح لك التعاقد من الباطن المستند إلى النشاط‬ في lean manufacturing بدمج شركات النقل ومورّدي خدمات النقل ممن ينقلون المواد والمنتجات بين مواقع تدفق الإنتاج. ومن خلال تصميم نشاط نقل، يمكنك تعيين ناقل أو مورّد. تستند وظيفة/أنشطة النقل إلى اتفاقية الخدمة والشراء، ويمكنك إنشاء أوامر الشراء وتقارير الاستلام، استنادًا إلى وظائف النقل الفعلي. هذه الوظيفة هي نفسها وظيفة أنشطة المعالجة المتعاقد عليها من الباطن‬.  
 
 ولذلك، يدعم Finance and Operations الآن حساب قائمة مكونات الصنف الذي يتضمن خدمات النقل، وإنشاء أوامر الشراء المرتبطة، وتسجيل إيصالات الاستلام المتكاملة، ودمج تكاليف خدمة النقل بتكلفة تدفق الإنتاج.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات"
-description: "لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء \"التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬\"."
+---
+title: تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
+description: لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬".
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334486"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
 
@@ -81,7 +81,7 @@ ms.lasthandoff: 08/08/2018
     * استخدم مصمم التقارير الإلكترونية لتحديد تعيينات النموذج للعناصر الجذر المطلوبة.  
 2. انقر فوق المصمم.
     * قم بمحاكاة إعداد تعيين النموذج المحدد للعنصر الجذر للنموذج المحدد.  
-3. في الشجرة، حدد "Dynamics 365 for Operations\سجلات جدول".
+3. في الشجرة، حدد "Dynamics 365 for Operations\سجلات الجدول".
 4. انقر فوق "إضافة جذر".
 5. في الحقل "الاسم"، اكتب "دفتر الأستاذ".
 6. في الحقل "الجدول"، اكتب 'LedgerJournalTrans".
@@ -98,5 +98,4 @@ ms.lasthandoff: 08/08/2018
 4. في الحقل "تعريف نموذج البيانات"، أدخل قيمة أو حددها.
     * لاحظ أنه يتوفر الآن عنصر جذر واحد فقط لتعيينه إلى مصادر بيانات التطبيق. عندما يتم تقديم تعيين نموذج واحد على الأقل، يمكن تحديد فقط العناصر الجذر للنموذج التي تم تعيينها إلى مصادر بيانات التطبيق كتعريف نموذج بينما تتم إضافة تنسيق التقارير الإلكترونية.   
 5. قم بإغلاق الصفحة.
-
 

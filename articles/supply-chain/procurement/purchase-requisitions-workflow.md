@@ -1,13 +1,13 @@
 ---
-title: "سير عمل طلب الشراء"
-description: "تنقل عملية سير العمل طلبات الشراء من خلال عملية المراجعة، من حالة أولية للمسودة إلى حالة نهائية معتمدة. وعند إرسال طلب شراء للمراجعة، يتم بدء عملية سير العمل. وبعد الموافقة على طلب الشراء، يمكن إنشاء أمر شراء لأصناف طلبات الشراء وإرساله للمُورد لتلبية الطلب."
+title: سير عمل طلب الشراء
+description: تنقل عملية سير العمل طلبات الشراء من خلال عملية المراجعة، من حالة أولية للمسودة إلى حالة نهائية معتمدة. وعند إرسال طلب شراء للمراجعة، يتم بدء عملية سير العمل. وبعد الموافقة على طلب الشراء، يمكن إنشاء أمر شراء لأصناف طلبات الشراء وإرساله للمُورد لتلبية الطلب.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0adc43f3ed238a7a49cde44dd5f2d3bd55201cb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a5dcc294b3dde7dc7e0f789d9e7678b75bc699b0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355761"
 ---
-
 # <a name="purchase-requisition-workflow"></a>سير عمل طلب الشراء
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ ms.lasthandoff: 05/08/2018
 [عمليات سير العمل للتدبير وتحديد الموارد](procurement-sourcing-workflows.md)
 
 [نظرة عامة على طلب الشراء](purchase-requisitions-overview.md)
-
 
 
 

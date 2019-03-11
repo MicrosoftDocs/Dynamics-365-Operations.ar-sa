@@ -1,13 +1,13 @@
 ---
-title: "نظرة عامة على رقابة الموازنة‬"
-description: "توفر هذه المقالة مقدمة إلى رقابة الموازنة وتوفر معلومات لمساعدتك في تكوين رقابة الموازنة في Microsoft Dynamics 365 for Finance and Operations لكي تتمكن من إدارة الموارد المالية."
+title: نظرة عامة على رقابة الموازنة‬
+description: توفر هذه المقالة مقدمة إلى رقابة الموازنة وتوفر معلومات لمساعدتك في تكوين رقابة الموازنة في Microsoft Dynamics 365 for Finance and Operations لكي تتمكن من إدارة الموارد المالية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308519"
 ---
-
-# <a name="budget-control-overview"></a>نظرة عامة على التحكم في الموازنة 
+# <a name="budget-control-overview"></a>نظرة عامة على رقابة الموازنة
 
 [!include [banner](../includes/banner.md)]
 
@@ -128,4 +127,3 @@ ms.lasthandoff: 03/26/2018
 من هذه الصفحة، يستطيع المستخدمون التنقل في صفحة **إحصائيات رقابة الموازنة حسب الفترة** لعرض تفاصيل توفر الموازنة وعمليات الحجز لمجموعة أبعاد رقابة الموازنة. باستطاعة المستخدمين أيضًا التنقل في صفحة **إحصاء رقابة الموازنة**لعرض توفر الموازنة لكافة مجموعات الأبعاد المالية التي يتم استخدامها في رقابة الموازنة. 
 
 إذا تم تشغيل رقابة الموازنة لأوامر الشراء، فبإمكان مدير الموازنة استخدام مساحة عمل **تنبؤات وموازنات دفتر الأستاذ‬** لمراجعة قائمة انتظار كل أوامر الشراء غير المؤكدة التي لديها أخطاء وتحذيرات تتعلق بفحص الموازنة. إذا قام مدير الموازنة بتكوين أذونات زائدة على الموازنة، فيمكنه تأكيد أوامر الشراء مباشرةً في مساحة العمل.    
-

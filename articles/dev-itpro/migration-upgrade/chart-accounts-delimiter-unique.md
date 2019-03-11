@@ -1,13 +1,13 @@
 ---
-title: "تحويل محدد دليل الحسابات إلى محدد فريد"
-description: "في Dynamics 365 for Finance and Operations، لا يمكنك الحصول على نفس المحدد لدليل الحسابات وقيم الأبعاد. يجب عليك تغيير قيم المحددات بعد الترقية."
+title: جعل محدد دليل الحسابات فريدًا
+description: في Dynamics 365 for Finance and Operations، لا يمكن أن يكون محدد دليل الحسابات هو نفسه محدد قيم الأبعاد. يجب عليك تغيير قيم المحددات بعد الترقية.
 author: ryansandness
 manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: e197a1b44e038a97b8bf6db692dcc2eef2bc5f7b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335843"
 ---
-
-# <a name="make-the-chart-of-accounts-delimiter-unique"></a>تحويل محدد دليل الحسابات إلى محدد فريد
+# <a name="make-the-chart-of-accounts-delimiter-unique"></a>جعل محدد دليل الحسابات فريدًا
 
 [!include [banner](../includes/banner.md)]
 
-في Microsoft Dynamics AX 2012، يمكنك استخدام نفس المحدد لدليل الحسابات وقيم الأبعاد. في Dynamics 365 for Finance and Operations، لا يمكنك الحصول على نفس المحدد لدليل الحسابات وقيم الأبعاد. في حالة وجود محدد مكرر، يمكنك تغييره بعد الترقية. 
+في Microsoft Dynamics AX 2012، يمكنك استخدام المحدد نفسه لدليل الحسابات وقيم الأبعاد. في Dynamics 365 for Finance and Operations، لا يمكن أن يكون محدد دليل الحسابات هو نفسه محدد قيم الأبعاد. في حالة وجود محدد مكرر، يمكنك تغييره بعد الترقية. 
 
 تتوفر هذه الميزة في:
-- Dynamics 365 for Finance and Operations، الإصدار 8.0
-- في Dynamics 365 for Finance and Operations الإصدار 7.1، لا يمكن لقاعدة المعارف KB 4094701 إدخال الأبعاد المالية عندما تحتوي قيم الأبعاد على محدد دليل الحسابات
-- في Dynamics 365 for Finance and Operations الإصدار 7.2، لا يمكن لقاعدة المعارف 4092967 اختيار مشروع فرعي مثل بُعد عندما يحتوي تنسيق مشروع فرعي على محدد أبعاد
+- الإصدار 8.0 من Dynamics 365 for Finance and Operations
+- Dynamics 365 for Finance and Operations، الإصدار 7.1، KB 4094701 لا يمكن إدخال الأبعاد المالية عندما تحتوي قيم الأبعاد على محدد دليل الحسابات
+- Dynamics 365 for Finance and Operations الإصدار 7.2، KB 4092967 لا يمكن اختيار مشروع فرعي كالبُعد مثلاً عندما يحتوي تنسيق مشروع فرعي على محدد أبعاد
 
 ## <a name="update-delimiter"></a>تحديث المحدد
 في حالة وجود تعارض في "دليل الحسابات"، يمكن تغيير محدد دليل الحسابات وتنسيق معرف المشروع/المشروع الفرعي. لا يمكن تغيير أي محددات أبعاد أخرى. 
@@ -43,4 +42,3 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>كيفية تحديد ما إذا كانت البيئة الخاصة بك تتطلب محددات محدَّثة 
 في حالة حدوث تعارض بين المحددات الموجودة في البيئة الخاصة بك التي تمت ترقيتها، تواجه عدم استقرار عند إدخال قيم في عنصر تحكم الإدخال المقسَّم أو عنصر تحكم إدخال الأبعاد. ويعني هذا أنك ستحتاج دائمًا إلى استخدام عمليات بحث أو قائمة منبثقة عند إدخال مجموعات الحسابات والأبعاد.
-

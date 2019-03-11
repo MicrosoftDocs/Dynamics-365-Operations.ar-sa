@@ -1,13 +1,13 @@
 ---
-title: "الدفع وفقًا للتسجيلات"
-description: "يشرح هذا المقال كيفية حساب الدفع استناداً إلى تسجيلات العمال."
+title: الدفع وفقًا للتسجيلات
+description: يشرح هذا المقال كيفية حساب الدفع استناداً إلى تسجيلات العمال.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321100"
 ---
-
 # <a name="pay-based-on-registrations"></a>الدفع وفقًا للتسجيلات
 
 [!include [banner](../includes/banner.md)]
@@ -600,4 +599,3 @@ ms.lasthandoff: 04/13/2018
 - إدخال الغياب تلقائيًا
 
 عند حساب التسجيلات اليومية لعامل تم تمكينه للساعات المرنة، يتم استخدام كود الغياب المحدد في حقل **إدخال الرصيد المرن تلقائيًا** ككود غياب افتراضي. إذا لم يتم تمكين العامل للساعات المرنة، يتم استخدام كود الغياب المحدد في حقل **إدخال الغياب تلقائيًا**. إذا كان لدى شركة مجموعة من العمال تم تمكينهم للساعات المرنة وعمال لم يتم تمكينهم للساعات المرنة، فيجب إعداد كلٍّ من المحددات.
-

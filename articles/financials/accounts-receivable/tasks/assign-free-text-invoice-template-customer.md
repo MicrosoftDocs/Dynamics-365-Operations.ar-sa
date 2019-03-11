@@ -1,13 +1,13 @@
---- 
-title: "تعيين قالب فاتورة نص حر إلى عميل"
-description: "توضح هذه المهمة كيفية تعيين قالب فاتورة نص حر إلى عميل."
+---
+title: تعيين قالب فاتورة نص حر إلى عميل
+description: توضح هذه المهمة كيفية تعيين قالب فاتورة نص حر إلى عميل.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318915"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>تعيين قالب فاتورة نص حر إلى عميل
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
 10. حدد نمط التكرار.
     * يوميًا – حدد هذا الخيار وأدخل عدد الأيام في الحقل "كل". على سبيل المثال، إذا قمت بإدخال 15، فسيتم إنشاء فاتورة كل 15 يومًا لهذا العميل.  أسبوعيًا - حدد هذا الخيار وأدخل عدد الأسابيع في الحقل "كل". على سبيل المثال، إذا قمت بإدخال 2، فسيتم إنشاء فاتورة كل أسبوعين لهذا العميل.  شهريًا - حدد هذا الخيار وأدخل عدد الأشهر في الحقل "كل". على سبيل المثال، إذا قمت بإدخال 6، فسيتم إنشاء فاتورة كل ستة أشهر لهذا العميل.  سنويًا – حدد هذا الخيار وأدخل عدد السنوات في الحقل "كل". على سبيل المثال، إذا قمت بإدخال 2، فسيتم إنشاء فاتورة كل سنتين لهذا العميل.  
 11. في الحقل "لكل‬"، أدخل رقمًا.
-
 

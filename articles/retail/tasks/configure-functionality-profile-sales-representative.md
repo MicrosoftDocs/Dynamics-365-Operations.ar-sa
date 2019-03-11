@@ -1,13 +1,13 @@
---- 
+---
 title: " تكوين ملف تعريف الوظائف لمندوب مبيعات"
-description: "يوضح هذا الإجراء كيفية تكوين إعدادات ملف تعريف الوظائف في المخزن التي تنطبق على مندوبي المبيعات."
+description: يوضح هذا الإجراء كيفية تكوين إعدادات ملف تعريف الوظائف في المخزن التي تنطبق على مندوبي المبيعات.
 author: jblucher
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 650c97c5feecb674f18086e2da1e5fee0ffad254
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2652a75f9c4509addd5804d4798f1bc142106c60
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312567"
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> تكوين ملف تعريف الوظائف لمندوب مبيعات
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 02/07/2018
     * يمكنك استخدام إعدادات ملف تعريف الوظائف لتكوين نقاط البيع لإضافة مجموعة المبيعات الافتراضية للصراف والمطالبة بمجموعات المبيعات وطلب مجموعات المبيعات تلقائيًا.  
 4. في حقل "المطالبة بمندوب المبيعات"، حدد خيارًا.
 5. حدد "نعم" في الحقل "طلب مندوب المبيعات‬‬".
-
 

@@ -1,13 +1,13 @@
 ---
-title: "دعم لوحة تحويل كانبان للماسحات الضوئية للرمز الشريطي"
-description: "تدعم لوحة تحويل كانبان‬ إدخال الماسح الضوئي من ماسح ضوئي للرمز الشريطي لعنصر واجهة مستخدم لتحديد وظيفة كانبان وبدء تنفيذها وإكمالها وإفراغها."
+title: دعم لوحة تحويل كانبان للماسحات الضوئية للرمز الشريطي
+description: تدعم لوحة تحويل كانبان‬ إدخال الماسح الضوئي من ماسح ضوئي للرمز الشريطي لعنصر واجهة مستخدم لتحديد وظيفة كانبان وبدء تنفيذها وإكمالها وإفراغها.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e63a33af63144b78d0c375022b9802e11c255598
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8393efd51032271d3023f1e0569425a16222cc3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319444"
 ---
-
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>دعم لوحة تحويل كانبان للماسحات الضوئية للرمز الشريطي
 
 [!include [banner](../includes/banner.md)]
@@ -45,11 +44,11 @@ ms.lasthandoff: 11/03/2017
 | فارغ                 | تسجيل وحدة معالجة المواد المشار إليها ببطاقة كانبان على أنها وحدة فارغة.              |
 | تحديد                | تسجيل رقم بطاقة كانبان وتحديد الوظيفة المشار إليها تلقائيًا في قائمة كانبان. |
 
- 
-<a name="registration-mode-select"></a>تحديد وضع التسجيل
+ 
+تحديد وضع التسجيل
 ------------------------
 
-عند استخدام قارئ الرمز الشريطي لتحديد وظيفة، يتغير وضع عرض تغييرات لوحة كانبان. وفي هذا الوضع، يتم تطبيق الشروط التالية:
+عند استخدام قارئ الرمز الشريطي لتحديد وظيفة، يتغير وضع عرض تغييرات لوحة كانبان. في هذا الوضع، تنطبق الشروط التالية:
 
 -   يتم عرض وظيفة كانبان التي تم مسحها ضوئياً فقط.
 -   يتم عرض تفاصيل الوظيفة المحددة في علامة التبويب السريع **تفاصيل**.
@@ -188,7 +187,6 @@ ms.lasthandoff: 11/03/2017
 </tr>
 </tbody>
 </table>
-
 
 
 

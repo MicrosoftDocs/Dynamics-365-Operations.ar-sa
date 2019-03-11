@@ -1,13 +1,13 @@
 ---
-title: "محتوى Power BI لمقاييس القوى العاملة"
-description: "يصف هذا الموضوع محتوى Power BI \"مقاييس القوى العاملة‬\". فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى."
+title: محتوى "مقاييس القوى العاملة" في Power BI
+description: يصف هذا الموضوع محتوى "مقاييس القوى العاملة‬" في Power BI. فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,27 +18,26 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345779"
 ---
-
-# <a name="workforce-metrics-power-bi-content"></a>محتوى Power BI لمقاييس القوى العاملة
+# <a name="workforce-metrics-power-bi-content"></a>محتوى "مقاييس القوى العاملة" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع محتوى Microsoft Power BI **مقاييس القوى العاملة**. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+يصف هذا الموضوع محتوى **مقاييس القوى العاملة‬** في Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-يتم عرض محتوى Power BI **مقاييس القوى العاملة** في مساحة عمل **إدارة العاملين‬** إذا كنت تستخدم أحد المنتجات التالية:
+يظهر محتوى **مقاييس القوى العاملة** في Power BI في مساحة عمل **إدارة العاملين**‬ إذا كنت تستخدم أحد المنتجات التالية:
 
 - Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>المقاييس المُدرجة في محتوى Power BI
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>المقاييس المضمنة في محتوى Power BI
 يسرد الجدول التالي المقاييس التي تظهر على كل تقرير.
 
 | تقرير                                           | المقاييس |
@@ -59,7 +58,7 @@ ms.lasthandoff: 08/13/2018
 
 يمكنك تصفية المخططات والتجانبات في هذه التقارير، وتثبيت المخططات والتجانبات بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-احرص على تنزيل محتوى Power BI **مقاييس القوى العاملة** الذي ينطبق على إصدار Microsoft Dynamics 365 الذي تستخدمه.
+حرص على تنزيل محتوى **مقاييس القوى العاملة‬** في Power BI الذي ينطبق على إصدار Microsoft Dynamics 365 الذي تستخدمه.
 
 > [!NOTE]
 > تنطبق ملفات .pbix المتوافرة في Lifecycle Services على Finance and Operations فقط.
@@ -88,4 +87,3 @@ ms.lasthandoff: 08/13/2018
 | اتجاه الموظف           | الوقت الإضافي للعمال، وعدد الأشخاص، والشركة، والمنصب                                 | الشركة، الموقع الجغرافي، اسم الموظف، يرجع إلى، مقاصة التقويم، التاريخ، المسمى الوظيفي للموظف، التوزيع الجغرافي، التوظيف، الوظيفة |
 | مشروع التوظيف الجماعي        | عدد مشاريع التوظيف الجماعي ومالك المشروع وحالة المشروع                     | الشركة، بند التوظيف الجماعي |
 | بند التوظيف الجماعي           | القسم ونوع التوظيف والمنصب                                           | التاريخ والوظيفة ومشروع التوظيف الجماعي |
-

@@ -1,13 +1,13 @@
 ---
-title: "سير عمل المورّد"
-description: "يمكنك تعديل معلومات المورّد واستخدام سير العمل للموافقة عليه."
+title: سير عمل المورّد
+description: يمكنك تعديل معلومات المورّد واستخدام سير العمل للموافقة عليه.
 author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329679"
 ---
-
 # <a name="vendor-workflow"></a>سير عمل المورّد
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ ms.lasthandoff: 08/31/2018
 1. حدد **التغييرات المقترحة** لفتح صفحة **التغييرات المقترحة** ومراجعة التغييرات التي أجريتها.
 2. حدد **سير العمل \> لإرسال التغييرات إلى سير العمل**.
 
-    تتغير الحالة على الصفحة إلى **الموافقة على التغييرات المعلقة‬**.
+    تم تغيير الحالة على الصفحة إلى **الموافقة على التغييرات المعلقة**.
 
-يتبع سير العمل عملية سير العمل القياسية في Microsoft Dynamics 365 for Finance and Operations. يتم توجيه المعتمد‬ إلى صحفة **المورّد‏‎**، حيث يمكنه مراجعة التغييرات في صفحة **التغييرات المقترحة** ثم تحديد **سير العمل \> الموافقة‏‎** للموافقة على سير العمل. بعد استكمال كافة الموافقات، يتم تحديث الحقول بالقيم التي اقترحتها.
-
+يتبع سير العمل عملية سير العمل القياسية في Microsoft Dynamics 365 for Finance and Operations. يتم توجيه المعتمد‬ إلى صحفة **المورّد‏‎**، حيث يمكنه مراجعة التغييرات في صفحة **التغييرات المقترحة** ثم تحديد **سير العمل \> الموافقة‏‎** للموافقة على سير العمل. بعد إكمال جميع الموافقات، يتم تحديث الحقول بالقيم التي اقترحتها.

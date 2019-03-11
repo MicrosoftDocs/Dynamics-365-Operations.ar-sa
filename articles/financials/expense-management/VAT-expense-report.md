@@ -1,13 +1,13 @@
 ---
-title: "استرداد ضريبة القيمة المضافة في إدارة المصروفات"
-description: "يوضح هذا المقال كيفية استلام المبالغ في حركات ضريبة القيمة المضافة المُستحقة."
+title: استرداد ضريبة القيمة المضافة في إدارة المصروفات
+description: يوضح هذا المقال كيفية استلام المبالغ في حركات ضريبة القيمة المضافة المُستحقة.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359556"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>استرداد ضريبة القيمة المضافة في إدارة المصروفات
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ ms.lasthandoff: 03/13/2018
 يجب على رانيا التحقق من أن حركات تقرير المصروفات مستحقة لاسترداد ضريبة القيمة المضافة، وأن الإيصالات الرقمية مرفقة بالتقارير. لبدء مُعالجة المصروفات المستحقة للاسترداد محليًا، قامت رانيا بفتح صفحة **استرداد ضريبة المصروفات**، ثم قامت بتحديد تقرير المصروفات الذي يتطلب التحقق من صحته. تقوم رانيا بالتحقق من أن الايصالات باسم الشركة بدلًا من الموظف. بالنسبة لاسترداد ضريبة القيمة المضافة، يجب أن تكون الإيصالات باسم الشركة. ثم تؤكد رانيا أنه تم تطبيق أكواد مجموعة ضريبة المبيعات الصحيحة وضريبة مبيعات الصنف الصحيحة.
 
 عند تلقي رانيا إيصالات ورقية، تقوم بتغيير حالة تقرير المصروفات إلى **جاهز للاسترداد**. ثم تقوم بعد ذلك بإيداع المُرتجع لدى هيئة الضرائب المناسبة. في هذه الحالة، فإن هيئة الضرائب المناسبة في الولايات المتحدة هي خدمة الإيرادات الداخلية (IRS).
-

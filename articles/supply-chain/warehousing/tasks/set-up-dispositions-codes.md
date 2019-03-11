@@ -1,13 +1,13 @@
---- 
-title: "إعداد أكواد الترتيب"
-description: "ويركز هذا الإجراء على إعداد رمز الإرجاع الذي يمكن استخدامه على جهاز محمول لعملية استلام أمر الإرجاع."
+---
+title: إعداد أكواد الترتيب
+description: ويركز هذا الإجراء على إعداد رمز الإرجاع الذي يمكن استخدامه على جهاز محمول لعملية استلام أمر الإرجاع.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324113"
 ---
 # <a name="set-up-dispositions-codes"></a>إعداد أكواد الترتيب
 
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
     * اختياري: حدد رمز قالب عمل مرتبط بأمر إرجاع. إذا لم تتوفر أية قيمة، سيُحل قالب العمل باستخدام القواعد القياسية التي تم تكوينها في نظامك. وسيؤدي تحديد قالب عمل إلى الحد من العمليات التي يمكن استخدام رمز الإرجاع هذا معها. على سبيل المثال، إذا كان رمز إرجاع له قالب عمل به أمر عمل من نوع أمر الشراء، فلن يمكن استخدام هذا الرمز لتسجيل الأصناف التي يُرجعها العملاء.  
 6. في الحقل "كود ترتيب الإرجاع"، اكتب قيمة.
     * يحدد رمز ترتيب الإرجاع ما تبقى من عملية أمر الإرجاع للأصناف المسجلة. في هذا المثال، يجب أن يستلم العميل إشعارًا دائنًا. قم بإضافة رمز ترتيب الإرجاع الذي يحتوي على إجراء اعتماد.  
-
 

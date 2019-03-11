@@ -1,13 +1,13 @@
 ---
-title: "مساحة عمل إدارة البنك"
-description: "يوفر هذا الموضوع معلومات حول مساحة عمل إدارة البنك. تعرض مساحة العمل هذه المعلومات ذات الصلة بالحسابات البنكية للشركة، وتشمل عرض ملخص وصفحة التحليلات. توضح طريقة عرض الملخص لوحات الملخص، ومعلومات الحساب البنكي، ومخطط الرصيد، والمعلومات ذات الصلة. تستخدم صفحة التحليلات إمكانيات Microsoft Power BI لعرض المرئيات ذات الصلة بأرصدة الحسابات البنكية."
+title: مساحة عمل إدارة البنك
+description: يوفر هذا الموضوع معلومات حول مساحة عمل إدارة البنك. تعرض مساحة العمل هذه المعلومات ذات الصلة بالحسابات البنكية للشركة، وتشمل عرض ملخص وصفحة التحليلات. توضح طريقة عرض الملخص لوحات الملخص، ومعلومات الحساب البنكي، ومخطط الرصيد، والمعلومات ذات الصلة. تستخدم صفحة التحليلات إمكانيات Microsoft Power BI لعرض المرئيات ذات الصلة بأرصدة الحسابات البنكية.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fdc0d1e5ea02cdcff9f7f5ede4ab685f54365698
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348355"
 ---
 # <a name="bank-management-workspace"></a>مساحة عمل إدارة البنك
 
@@ -64,4 +64,3 @@ ms.lasthandoff: 03/05/2018
 -   الرصيد حسب العملة
 
 يمكنك عرض التحليلات البنكية عبر كافة الشركات من مساحة عمل **نظرة عامة على النقد – جميع الشركات**.
-

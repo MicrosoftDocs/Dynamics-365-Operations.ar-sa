@@ -1,13 +1,13 @@
---- 
-title: "حساب اقتراحات كمية كانبان"
-description: "يركز هذا الإجراء على تحسين حجم وكميات كانبان لقاعدة كانبان معينة باستخدام حساب كمية كانبان."
+---
+title: حساب اقتراحات كمية كانبان
+description: يركز هذا الإجراء على تحسين حجم وكميات كانبان لقاعدة كانبان معينة باستخدام حساب كمية كانبان.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 540dd32c5da5859ef5e69f55d6806eada90bc840
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a817dbc02890d863f68c5bf2a6cc11b9a5328060
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348976"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>حساب اقتراحات كمية كانبان
 
@@ -84,5 +84,4 @@ ms.lasthandoff: 09/29/2017
     * لاحظ أن هذه هي الكمية الافتراضية التي قمت بإدخالها في حساب كمية كانبان.  
     * لاحظ أن هذه هي كمية كانبان الثابتة من 4 من حساب كمية كانبان.  
 5. انقر فوق علامة التبويب "ListPanel".
-
 

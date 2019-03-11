@@ -1,13 +1,13 @@
---- 
-title: "إنشاء هدف"
-description: "يمكنك إنشاء الأهداف وإضافة الأنشطة إلى الأهداف، وتتبع القياسات وربط الأهداف بمراجعة."
+---
+title: إنشاء هدف
+description: يمكنك إنشاء الأهداف وإضافة الأنشطة إلى الأهداف، وتتبع القياسات وربط الأهداف بمراجعة.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350701"
 ---
 # <a name="create-a-goal"></a>إنشاء هدف
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/13/2018
     * في أغلب الأحيان، توجد أهداف تكون مشابهة أو مماثلة لأعضاء الفريق أو كافة الموظفين.     باستطاعة مسؤول الموارد البشرية أو المدير إنشاء قوالب أهداف لهذه الأهداف. ويمكنك إضافة هدف من قالب، ثم تعديله ليطابق جداولك الزمنية.  
     * في أغلب الأحيان، توجد عدة أهداف تكون مشابهة أو مماثلة لأعضاء الفريق أو كافة الموظفين.     باستطاعة مسؤول الموارد البشرية أو المدير إنشاء مجموعات أهداف تحتوي على قالب هدف أو أكثر. ويمكنك إضافة أهداف من مجموعة أهداف، ثم تعديلها لتطابق جداولك الزمنية.  
     * عندما تنشئ مراجعة، يمكنك إضافة أهداف لتلك المراجعة. يمكنك مراجعة دليل المهمة للمراجعات لمعرفة كيفية إضافة أهداف إلى المراجعات.  
-
 

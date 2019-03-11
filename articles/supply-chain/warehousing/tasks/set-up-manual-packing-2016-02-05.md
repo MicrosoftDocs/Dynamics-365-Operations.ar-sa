@@ -1,13 +1,13 @@
---- 
-title: "إعداد التعبئة اليدوية (فبراير 2016 & مايو 2016)"
-description: "تسمح لك عملية التعبئة بالتحقق من المنتجات داخل الحاويات وتعبئتها."
+---
+title: إعداد التعبئة اليدوية (فبراير 2016 & مايو 2016)
+description: تسمح لك عملية التعبئة بالتحقق من المنتجات داخل الحاويات وتعبئتها.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347711"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>إعداد التعبئة اليدوية (فبراير 2016 & مايو 2016)
 
@@ -94,5 +94,4 @@ ms.lasthandoff: 09/14/2018
     * سيكون هذا هو الموقع الذي سيتم نقل المنتجات بعد إغلاق الحاويات إليه. يجب أن يحتوي هذا الموقع على ملف تعريف موقع محدد في معلمات المستودع.  
 8. في الحقل "وحدة الوزن"، أدخل قيمة أو حددها.
 9. انقر فوق "حفظ".
-
 

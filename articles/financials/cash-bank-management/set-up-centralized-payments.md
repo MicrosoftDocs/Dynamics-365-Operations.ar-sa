@@ -1,13 +1,13 @@
 ---
-title: "إعداد الدفعات المركزية"
-description: "‏‫اتبع هذه الخطوات لإعداد معالجة المدفوعات في كيان قانوني واحد نيابة عن الكيانات القانونية الأخرى في مؤسستك."
+title: إعداد الدفعات المركزية
+description: ‏‫اتبع هذه الخطوات لإعداد معالجة المدفوعات في كيان قانوني واحد نيابة عن الكيانات القانونية الأخرى في مؤسستك.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361902"
 ---
-
 # <a name="set-up-centralized-payments"></a>إعداد الدفعات المركزية
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="set-up-default-descriptions"></a>إعداد الأوصاف الافتراضية
 يمكنك تحديد الأوصاف الافتراضية لإيصالات التسوية بين الشركات الشقيقة. يتم تضمين الوصف الافتراضي في الحركتين، مستحق حتى ومستحق من، أثناء عملية التسوية عبر الشركة. وفي صفحة **الأوصاف الافتراضية**، يمكنك إنشاء أوصاف جديدة لكلٍّ من **تسوية العميل بين الشركات الشقيقة** و**تسوية المورد بين الشركات الشقيقة** بتحديد اللغة ثم إدخال النص.
-
 
 
 

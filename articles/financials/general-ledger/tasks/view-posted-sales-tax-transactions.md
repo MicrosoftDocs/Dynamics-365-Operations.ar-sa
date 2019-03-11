@@ -1,13 +1,13 @@
---- 
-title: "عرض حركات ضرائب مبيعات مُرَّحلة"
-description: "يمكنك عرض حركات ضريبة المبيعات المرحّلة من صفحات مختلفة تبعًا لما تحتاج إلى عرضه."
+---
+title: عرض حركات ضرائب مبيعات مُرَّحلة
+description: يمكنك عرض حركات ضريبة المبيعات المرحّلة من صفحات مختلفة تبعًا لما تحتاج إلى عرضه.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTrans, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f18f2ab02af571f81149ec3564bbac0f98b1d2c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3a6aa136018e586fd66e77c0f2af3a9f321f822f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356359"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>عرض حركات ضرائب مبيعات مُرَّحلة
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 09/29/2017
 10. انتقل إلى الضريبة > الضرائب غير المباشرة > ضريبة المبيعات > أكواد ضريبة المبيعات.
 11. في جزء الإجراءات، انقر فوق "كود ضريبة المبيعات".
 12. انقر فوق "ضريبة المبيعات المرحلة".
-
 

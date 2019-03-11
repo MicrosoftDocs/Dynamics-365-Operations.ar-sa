@@ -1,13 +1,13 @@
---- 
-title: "تحديد الوظائف الجديدة"
-description: "تركز هذه المهمة على إنشاء وظيفة جديدة."
+---
+title: تحديد الوظائف الجديدة
+description: تركز هذه المهمة على إنشاء وظيفة جديدة.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347918"
 ---
 # <a name="define-new-jobs"></a>تحديد الوظائف الجديدة
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/14/2018
 21. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 22. في القائمة، انقر فوق الارتباط في الصف المحدد.
 23. بدّل توسيع مقطع "المهارات".
-    * لاحظ أن الحقول الموجودة في علامات التبويب السريعة المهارات والتعليم والشهادات هي حقول فارغة. بعد نسخ المعلومات من قالب وظيفة، سيتم إدخال المعلومات في هذه الحقول في خطوة واحدة.   
+    * لاحظ أن الحقول الموجودة في علامات التبويب السريعة المهارات والتعليم والشهادات هي حقول فارغة. بعد نسخ المعلومات من قالب وظيفة، سيتم إدخال المعلومات في هذه الحقول في خطوة واحدة.   
 24. انقر فوق "حفظ".
 25. انقر فوق "نسخ من".
 26. انقر فوق "نسخ من القالب".
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/14/2018
 32. بدّل توسيع المقطع "الشهادات‬‬".
 33. بدّل توسيع المقطع "التعليم‬‬".
 34. انقر فوق "حفظ".
-
 

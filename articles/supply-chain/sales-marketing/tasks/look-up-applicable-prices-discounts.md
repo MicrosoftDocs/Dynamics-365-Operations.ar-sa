@@ -1,13 +1,13 @@
---- 
-title: "البحث عن الأسعار والخصومات السارية"
-description: "يوضح هذا الإجراء كيفية البحث عن السعر و/أو الخصم لمنتج صالح لعميل معين حاليًا، دون إنشاء أمر مبيعات."
+---
+title: البحث عن الأسعار والخصومات السارية
+description: يوضح هذا الإجراء كيفية البحث عن السعر و/أو الخصم لمنتج صالح لعميل معين حاليًا، دون إنشاء أمر مبيعات.
 author: omulvad
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ba95e651898da0e0fbd1221f61436ffac59db09e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 7ef63151f352b3664bccd7a59e7417dfddc7470b
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/01/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359855"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>البحث عن الأسعار والخصومات السارية
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 11/01/2017
 3. انقر فوق "عرض خصم البند".
     * هناك اتفاقيتا خصم بنود للمنتج T0012، تحددان خصمًا قدره 5 في المائة لكمية بنود أمر من 1 إلى 10 وخصمًا 7 بالمائة لكميات أمر أكبر من 10. لاحظ أنه يتم تطبيق الخصومات على مجموعة من المنتجات، وفي هذا المثال، رمز المجموعة 01، الذي يمثل المنتج T0012 عضوًا منها.  
 4. قم بإغلاق الصفحة.
-
 

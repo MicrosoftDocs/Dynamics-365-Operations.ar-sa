@@ -1,13 +1,13 @@
 ---
-title: "دلائل المهام الجديدة (فبراير 2016)"
-description: "‏‫يذكر هذا الموضوع دلائل المهام التي تم إصدارها لمكتبات Microsoft BPM اعتبارًا من فبراير عام 2016.  تتضمن المكتبات التي تم نشرها المكتبة الموحدة APQC (فبراير 2016) لتطبيق Microsoft Dynamics 365 ومكتبة بدء الاستخدام (فبراير 2016).‬"
+title: دلائل المهام الجديدة (فبراير 2016)
+description: ‏‫يذكر هذا الموضوع دلائل المهام التي تم إصدارها لمكتبات Microsoft BPM اعتبارًا من فبراير عام 2016.  تتضمن المكتبات التي تم نشرها المكتبة الموحدة APQC (فبراير 2016) لتطبيق Microsoft Dynamics 365 for Operations ومكتبة بدء الاستخدام (فبراير 2016).‬
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366433"
 ---
-
 # <a name="new-task-guides-february-2016"></a>دلائل المهام الجديدة (فبراير 2016)
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 12/18/2018
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (فبراير 2016) لتطبيق Microsoft Dynamics AX
 
-تحتوي المكتبة الموحدة APQC (فبراير 2016) على دلائل المهام المخصصة للاستخدام مع تعليمات إصدار Dynamics AX 7.0.0.‬ إذا احتجت إلى الإصدارات المترجمة من دلائل المهام هذه، فهي متوفرة في المكتبة الموحدة APQC (مايو 2016) لتطبيق Microsoft Dynamics AX.‬ لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md).
+تحتوي المكتبة الموحدة APQC (فبراير 2016) على دلائل المهام المخصصة للاستخدام لنظام التعليمات مع الإصدار 7.0.0 من Dynamics AX. إذا احتجت إلى الإصدارات المترجمة من دلائل المهام هذه، فهي متوفرة في المكتبة الموحدة APQC (مايو 2016) لتطبيق Microsoft Dynamics AX. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md).
 
 ### <a name="accounts-payable"></a>الحسابات الدائنة
 
@@ -647,4 +646,3 @@ ms.lasthandoff: 12/18/2018
 [دلائل المهام الجديدة أو المحدثة (أغسطس 2016)](new-updated-task-guides-available-august-2016.md)
 
 [دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)](new-task-guides-november-2016.md)
-

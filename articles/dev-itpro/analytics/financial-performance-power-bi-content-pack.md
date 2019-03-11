@@ -1,13 +1,13 @@
 ---
-title: "حل محتوى PowerBI.com للأداء المالي"
-description: "يصف هذا الموضوع حل PowerBI.com للأداء المالي."
+title: حل محتوى PowerBI.com للأداء المالي
+description: يصف هذا الموضوع حل PowerBI.com للأداء المالي.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,20 +17,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315097"
 ---
-
 # <a name="financial-performance-powerbicom-solution"></a>حل محتوى PowerBI.com للأداء المالي
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> تم إهلاك حل PowerBI.com هذه كما هو موثق في [حزم محتوى Power BI المتوفرة على AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> تم إهلاك حل PowerBI.com هذا كما هو موثق في [حزم محتوى Power BI المتوفرة على AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 يصف هذا الموضوع حل PowerBI.com **للأداء المالي**  إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء الحل.
 
@@ -90,4 +89,3 @@ ms.lasthandoff: 08/13/2018
 - ChartofAccounts
 
 استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. تُستخدم القياسات المحسوبة لإنشاء مؤشرات الأداء الرئيسية والتقارير المستخدمة في المحتوى. بشكل افتراضي، يحضر المحتوى بيانات للسنوات الثلاث الماضية وسنة واحدة مستقبلية. لتضمين عمليات حسابية إضافية على لوحة المعلومات والتقارير، يمكنك تعديل [مصنف Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). هذا المصنف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء المحتوى.
-

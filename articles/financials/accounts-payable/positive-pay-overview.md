@@ -1,13 +1,13 @@
 ---
-title: "نظرة عامة على الدفع الإيجابي"
-description: "توفر هذه المقالة معلومات حول الدفع الإيجابي الذي يُستخدم لإنشاء قائمة إلكترونية بالشيكات التي يمكن تقديمها إلى البنك."
+title: نظرة عامة على الدفع الإيجابي
+description: توفر هذه المقالة معلومات حول الدفع الإيجابي الذي يُستخدم لإنشاء قائمة إلكترونية بالشيكات التي يمكن تقديمها إلى البنك.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePaySummary
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: a7af2fc0e2c9915c4267f60e27dbddac320af6a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 13a7a842e7b4522b508a34fdf86bb3bf58a0845f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315166"
 ---
-
 # <a name="positive-pay-overview"></a>نظرة عامة على الدفع الإيجابي
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ ms.lasthandoff: 03/26/2018
 إذا لزم تغيير ملف دفع إيجابي، فيمكنك إعادة استدعائه. بعد ذلك، ولكل شيك في ملف الدفع الإيجابي، يُعاد تعيين الحقل الذي يشير إلى ما إذا تم تضمين الشيك في ملف دفع إيجابي.
 
 لمزيد من المعلومات، راجع [إعداد ملفات الدفع الإيجابي وإنشاؤها‬‏‫](set-up-generate-positive-pay-files.md).
-
 
 
 

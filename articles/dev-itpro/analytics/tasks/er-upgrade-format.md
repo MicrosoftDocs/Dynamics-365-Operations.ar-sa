@@ -1,13 +1,13 @@
---- 
-title: "ترقية التنسيق باعتماد إصدار أساسي جديد لهذا التنسيق في ER"
-description: "تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية الحفاظ على تكوين تنسيق التقارير الإلكترونية (ER)."
+---
+title: ترقية التنسيق باعتماد إصدار أساسي جديد لهذا التنسيق في ER
+description: تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية الحفاظ على تكوين تنسيق التقارير الإلكترونية (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342260"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ترقية التنسيق باعتماد إصدار أساسي جديد لهذا التنسيق في ER
 
@@ -198,6 +198,5 @@ ms.lasthandoff: 09/14/2018
     * لاحظ أنه يتم حفظ التكوين الذي تم إنشاؤه كإصدار مكتمل النسخة 1.2.2: تنسيق الإصدار 2 من BACS الأساسية (مخصص وهمي في المملكة المتحدة)، الذي يستند إلى تنسيق الإصدار 2 من BACS الأساسية (وهمي في المملكة المتحدة)، الذي يستند إلى نموذج بيانات الإصدار 1 من الدفعات (النموذج المبسط).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>اختبار التنسيق المخصص لإنشاء ملفات الدفعات
-    * أكمل الخطوات المذكورة في الإجراء "استخدام التنسيق الذي تم إنشاؤه لإنشاء مستندات إلكترونية للدفعات" في جلسة Dynamics 365 for Finance and Operations, Enterprise edition موازية. حدد تنسيق BACS (مخصص وهمي في المملكة المتحدة) الذي تم إنشاؤه في معلمات أسلوب الدفع الإلكتروني. تأكد من احتواء ملف الدفع الذي تم إنشاؤه على عقدة Proseware, Inc. XML المقدمة حديثًا التي تقدم كود IBAN وفقًا للمتطلبات الإقليمية. يجب أن يحتوي الملف أيضًا على عقدة Litware, Inc. XML المقدمة حديثًا التي تقدم كود البنك SWIFT وفقًا لمتطلبات البلد.  
-
+    * أكمل الخطوات المذكورة في الإجراء "استخدام التنسيق الذي تم إنشاؤه لإنشاء مستندات إلكترونية للدفعات" في جلسة Dynamics 365 for Finance and Operations‎, Enterprise Edition حدد تنسيق BACS (مخصص وهمي في المملكة المتحدة) الذي تم إنشاؤه في معلمات أسلوب الدفع الإلكتروني. تأكد من احتواء ملف الدفع الذي تم إنشاؤه على عقدة Proseware, Inc. XML المقدمة حديثًا التي تقدم كود IBAN وفقًا للمتطلبات الإقليمية. يجب أن يحتوي الملف أيضًا على عقدة Litware, Inc. XML المقدمة حديثًا التي تقدم كود البنك SWIFT وفقًا لمتطلبات البلد.  
 

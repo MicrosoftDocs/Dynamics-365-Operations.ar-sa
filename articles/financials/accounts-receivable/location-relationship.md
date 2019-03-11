@@ -1,14 +1,14 @@
 ---
-title: "إضافة موقع وأنواع علاقات الأطراف"
-description: "يشرح هذا الموضوع كيفية إضافة موقع جديد وعلاقة طرف."
+title: إضافة موقع وأنواع علاقات الأطراف
+description: يشرح هذا الموضوع كيفية إضافة موقع جديد وعلاقة طرف.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 543784e8072f88c10f63e1b44921b9f2d37308c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e0ab9c9894fdd5fba224c166941abbf52172ae46
-ms.openlocfilehash: 27819c922832a30eb0b20db6bffdbd4504e6d5e6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 06/12/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357486"
 ---
-
 # <a name="add-location-roles-and-party-relationship-types"></a>إضافة أدوار مواقع وأنواع علاقات الأطراف 
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ ms.lasthandoff: 06/12/2018
 
         ![نشر البيانات](media/Dirdata.PNG)
 
-    4.  لاختبار نشر دور الموقع الجديد، فإنه يمكنك إنشاء فئة قابلة للتشغيل، واطلب DirDataPopulation::insertLogisticsLocationRoles() في Main(). بعد إكمال هذه العملية، فإنه ينبغي عليك رؤية الدور الجديد المنشور في الجدول **LogisticsLocationRole** من نوع \> 0. سيتم عرض الدور الجديد على **‏‫الغرض من معلومات العنوان وجهة الاتصال‬**.
+    4.  لاختبار ملء دور الموقع الجديد، يمكنك إنشاء فئة قابلة للتشغيل، واستدعاء DirDataPopulation::insertLogisticsLocationRoles() في Main(). بعد إكمال هذه العملية، فإنه ينبغي عليك رؤية الدور الجديد المنشور في الجدول **LogisticsLocationRole** من نوع \> 0. سيتم عرض الدور الجديد على **‏‫الغرض من معلومات العنوان وجهة الاتصال‬**.
 
         ![إدراج موقع جديد](media/InsertNewLocation.PNG)
 
@@ -72,7 +71,6 @@ ms.lasthandoff: 06/12/2018
     
     ![DirRelationshipChild](media/DirRelationship.PNG)
 
-    3.  لاختبار نشر نوع العلاقة الجديد، فإنه يمكنك إنشاء فئة قابلة للتشغيل، واطلب DirDataPopulation::insertDirRelationshipTypes() في Main(). ينبغي عليك رؤية نوع العلاقة الجديد في **DirRelationshipTypeTable**، ثم سيتوافر نوع العلاقة الجديد على صفحة **أنواع العلاقات**.
+    3.  لاختبار ملء نوع العلاقة الجديد، يمكنك إنشاء فئة قابلة للتشغيل، واستدعاء DirDataPopulation::insertDirRelationshipTypes() في Main(). ينبغي عليك رؤية نوع العلاقة الجديد في **DirRelationshipTypeTable**، ثم سيتوافر نوع العلاقة الجديد على صفحة **أنواع العلاقات**.
 
         ![فئة قابلة للتشغيل](media/Runnable.PNG)
-

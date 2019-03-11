@@ -1,13 +1,13 @@
 ---
-title: "تكوين المستودع"
-description: "توضح هذه المقالة كيفية تكوين مستودع. ويشتمل على معلومات حول كيفية تكوين تخطيط المستودع وعمليات المستودع."
+title: تكوين المستودع
+description: توضح هذه المقالة كيفية تكوين مستودع. ويشتمل على معلومات حول كيفية تكوين تخطيط المستودع وعمليات المستودع.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318432"
 ---
-
 # <a name="warehouse-configuration"></a>تكوين المستودع
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 **ملاحظة:** ينطبق هذا المقال على الميزات الموجودة في وحدة **إدارة المستودعات** (التخزين المتقدم). ولا ينطبق على ميزات المستودع في وحدة **إدارة المخزون**.
 
 ## <a name="warehouse-layout"></a>تخطيط المستودع
-يوفر نظام إدارة المستودعات في Microsoft Dynamics 365 for Finance and Operations طرقًا مرنة لتحديد تخطيط مستودعك لتلبية الاحتياجات المتغيرة، بحيث يمكنك تحقيق الكفاءة المثلى للمستودع.
+يوفر نظام إدارة المستودعات في Microsoft Dynamics 365 for Finance and Operations طرقًا مرنة لتحديد تخطيط المستودع لتلبية الاحتياجات المتغيرة، بحيث يمكنك تحقيق الكفاءة المثلى للمستودع.
 
 -   يمكنك إنشاء مناطق المخزونات ذات الأولوية العالية والأولوية المنخفضة للموضع الأمثل للبضائع.
 -   يمكنك تقسيم المستودع الخاص بك إلى مناطق لتلبية مختلف احتياجات التخزين، مثل متطلبات درجة الحرارة أو معدلات الدوران المتنوعة للأصناف.
@@ -116,7 +115,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (دليل المهام)](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

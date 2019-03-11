@@ -1,37 +1,37 @@
 ---
-title: "ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (16 أكتوبر 2018)"
-description: "يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Microsoft Dynamics 365 for Talent Core HR."
+title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (16 أكتوبر 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-22
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: 7da597a682006cddb44ff9354813b07c15c1a449
-ms.contentlocale: ar-sa
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303155"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-19-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(19 أكتوبر 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-19-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (19 أكتوبر 2018)
 
 [!include[banner](includes/banner.md)]
 
 **الإصدار 8.1.1067**
 
-يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Core HR.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Core HR.
 
 ## <a name="allow-managers-to-update-time-off-requests"></a>السماح للمدراء بتحديث طلبات زمن التوقف
 
@@ -56,4 +56,3 @@ ms.lasthandoff: 10/22/2018
 
 - **المشكلة**: عند إضافة مرفق جديد إلى عامل، يظهر الزران **جديد** و**تحرير** بلون رمادي. 
 - **الحل البديل:** قبل فتح صفحة المرفق، تأكد من أن مربعات الحقائق في صفحة **العامل** مغلقة. إذا كانت مربعات الحقائق مغلقة عند تحميل صفحة **العامل**، سيتم تمكين زر المرفقات (سوف يتم إصلاح هذه المشكلة في التحديث التالي للنظام الأساسي.)
-

@@ -1,13 +1,13 @@
 ---
-title: "الجرد الدوري"
-description: "تصف هذه المقالة كيفية استخدام الجرد الدوري مع حل التخزين المتوفر في إدارة المستودعات. لا تنطبق هذه المقالة على حل التخزين المتوفر في إدارة المخزون."
+title: الجرد الدوري
+description: تصف هذه المقالة كيفية استخدام الجرد الدوري مع حل التخزين المتوفر في إدارة المستودعات. لا تنطبق هذه المقالة على حل التخزين المتوفر في إدارة المخزون.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323216"
 ---
-
 # <a name="cycle-counting"></a>الجرد الدوري
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 الجرد الدوري هو معالجة المستودع التي يمكنك استخدامها للتدقيق في أصناف المخزون الفعلي. يمكن وصف عملية الجرد الدوري في ثلاث خطوات:
 
 1.  **إنشاء عمل الجرد الدوري** – يمكن إنشاء عمل الجرد الدوري تلقائيًا استنادًا إلى محددات الحد المسموح للأصناف أو باستخدام خطة جرد دوري. أو، يمكنك إنشاء عمل الجرد الدوري يدويًا باستخدام محددات المستودع أو الصنف في صفحة **عمل الجرد الدوري حسب الصنف** أو صفحة **عمل الجرد الدوري حسب الموقع**.
-2.  **معالجة الجرد الدوري‬** – بعد إنشاء عمل الجرد الدوري، ستقوم بتنفيذه بجرد الأصناف في موقع المستودع، ثم باستخدام جهاز محمول لإدخال النتيجة في Microsoft Dynamics 365 for Finance and Operations. بدلاً من ذلك، يمكنك حساب الأصناف في موقع مستودع دون إنشاء دورة جرد للعمل. يشار إلى هذه العملية  ب*نقطة الجرد الدوري*.
+2.  **معالجة الجرد الدوري** – بعد إنشاء عمل الجرد الدوري، ستقوم بتنفيذه بجرد الأصناف في موقع المستودع، ثم استخدام جهاز محمول لإدخال النتيجة في Microsoft Dynamics 365 for Finance and Operations. بدلاً من ذلك، يمكنك حساب الأصناف في موقع مستودع دون إنشاء دورة جرد للعمل. يشار إلى هذه العملية  ب*نقطة الجرد الدوري*.
 3.  **حل الفروقات في قيمة الجرد** – بعد الجرد الدوري، ستكون الأصناف التي تتضمن فروقات في قيمة الجرد بحالة العمل **مراجعة معلقة‬** في صفحة **العمل بالكامل‬**. يمكنك حل هذه الفروقات في صفحة **عمل الجرد الدوري قيد انتظار المراجعة‬**.
 
 يبين الرسم التوضيحي التالي عملية الجرد الدوري. ![معالجة التدفق للجرد الدوري](./media/performcyclecountinginawarehouselocation.jpg)
@@ -138,7 +137,6 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 [تكوين الأجهزة المحمولة لعمل المستودع](configure-mobile-devices-warehouse.md)
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "استيراد تكوينات لإنشاء مستندات تتضمن بيانات التطبيق"
-description: "لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء \"التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬\"."
+---
+title: استيراد تكوينات لإنشاء مستندات تتضمن بيانات التطبيق
+description: لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬".
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340788"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>استيراد تكوينات لإنشاء مستندات تتضمن بيانات التطبيق
 
@@ -75,5 +75,4 @@ ms.lasthandoff: 08/08/2018
 29. في الشجرة، حدد "ملف".
     * راجع بنية التنسيق المستخدم لإنشاء تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي. لاحظ أنه تم تصميم هذه البنية لإنشاء ملف XML من خلال تعبئة البيانات من نموذج البيانات، الذي يستند إلى العنصر الجذر 'للمستند الصادر". تأكد من تحديد اسم الملف المنشأ محدد على نموذج الحوار الخاص بالمستخدم (يُستخدم مصدر البيانات "fn" لهذا الغرض).   
 30. قم بإغلاق الصفحة.
-
 

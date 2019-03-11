@@ -1,13 +1,13 @@
 ---
-title: "استبدال المواد في التصنيع"
-description: "يوضح هذا الموضوع كيفية استبدال المواد أثناء عملية الإنتاج."
+title: استبدال المواد في التصنيع
+description: يوضح هذا الموضوع كيفية استبدال المواد أثناء عملية الإنتاج.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327609"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>استبدال المواد في التصنيع
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="substituting-material-during-production"></a>استبدال المادة أثناء الإنتاج
 أطلع على السيناريو التالي: جزء من اللوح المعدني مطلوب لعملية لحام. أثناء العملية، يُخبر عامل مستودع مشغل الآلة بنفاد اللوح في المخزون. ومع ذلك، تقرر أنه يمكن استبدال اللوح بلوح أكبر سمكًا قليلاً. وبهذه الطريقة، يمكن إنهاء العملية. ويمكن إضافة مادة إلى قائمة مكونات الصنف لأمر إنتاج مفتوح. إذا كان أمر الإنتاج بحالة **تم بدء التشغيل**، فإنه تتم مطالبة المستخدمين بإعادة تقدير الأمر عند إضافة صنف جديد إلى قائمة مكونات صنف الإنتاج. بعد إضافة المادة، يمكنك إنشاء قائمة انتقاء جديدة للصنف الجديد. ولا يلزمك إضافة المادة الجديدة إلى قائمة مكونات صنف الإنتاج. بدلاً من ذلك، يمكنك إضافتها إلى قائمة انتقاء الإنتاج مباشرةً. وفيما بعد عندما يتم ترحيل قائمة الانتقاء، يضيف النظام المادة إلى قائمة مكونات صنف الإنتاج.
-
 
 
 

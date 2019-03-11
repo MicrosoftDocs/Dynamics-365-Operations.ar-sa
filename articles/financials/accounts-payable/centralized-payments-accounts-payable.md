@@ -1,13 +1,13 @@
 ---
-title: "المدفوعات المركزية للحسابات الدائنة"
-description: "يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني واحد يعالج جميع المدفوعات. ولذلك، لا يلزم إدخال نفس المدفوعات في العديد من الكيانات القانونية. توفر هذه المقالة أمثلة تعرض كيفية معالجة الترحيل للمدفوعات المركزية في سيناريوهات مختلفة."
+title: المدفوعات المركزية للحسابات الدائنة
+description: يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني واحد يعالج جميع المدفوعات. ولذلك، لا يلزم إدخال نفس المدفوعات في العديد من الكيانات القانونية. توفر هذه المقالة أمثلة تعرض كيفية معالجة الترحيل للمدفوعات المركزية في سيناريوهات مختلفة.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 54329582abd36a8ca896ce731ce06ca4de58bbb0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327057"
 ---
-
 # <a name="centralized-payments-for-accounts-payable"></a>المدفوعات المركزية للحسابات الدائنة
 
 [!include [banner](../includes/banner.md)]
@@ -297,7 +296,6 @@ ms.lasthandoff: 11/03/2017
 | مستحق لشركة الاتحاد للتصنيع (شركة الاتحاد الغربية للتصنيع)      |              | 75.00         |
 | الحسابات الدائنة (شركة الاتحاد الغربية للتصنيع)     | 25.00        |               |
 | مستحق لشركة الاتحاد الشرقية للتصنيع (شركة الاتحاد الغربية للتصنيع) |              | 25.00         |
-
 
 
 

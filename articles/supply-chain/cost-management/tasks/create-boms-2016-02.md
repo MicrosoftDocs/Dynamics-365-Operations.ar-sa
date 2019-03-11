@@ -1,13 +1,13 @@
---- 
-title: "إنشاء قوائم مكونات الصنف (فبراير 2016 فقط)"
-description: "تركز هذه المهمة على إنشاء بنية قائمة مكونات الصنف لمنتج نهائي ومنتج غير نهائي."
+---
+title: إنشاء قوائم مكونات الصنف (فبراير 2016 فقط)
+description: تركز هذه المهمة على إنشاء بنية قائمة مكونات الصنف لمنتج نهائي ومنتج غير نهائي.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f132a3865b180a74d328ebc76ca29b2fc8aee85f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0cd8d9b90cffe2794b785b2bb391e21ae3b11cf7
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332531"
 ---
 # <a name="create-boms-february-2016-only"></a>إنشاء قوائم مكونات الصنف (فبراير 2016 فقط)
 
@@ -96,5 +96,4 @@ ms.lasthandoff: 04/13/2018
 25. قم بإغلاق الصفحة.
 26. قم بإغلاق الصفحة.
 27. قم بإغلاق الصفحة.
-
 

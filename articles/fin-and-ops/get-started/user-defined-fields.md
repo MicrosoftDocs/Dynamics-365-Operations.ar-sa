@@ -1,13 +1,13 @@
 ---
-title: "إنشاء الحقول المخصصة واستخدامها"
-description: "يوضح هذا الموضوع كيف يسمح Microsoft Dynamics 365 for Finance and Operations لبعض المستخدمين بإنشاء حقول مخصصة لتخصيص التطبيق لملاءمة أعمالهم."
+title: إنشاء حقول مخصصة والعمل باستخدامها
+description: يوضح هذا الموضوع كيف يسمح Microsoft Dynamics 365 for Finance and Operations لبعض المستخدمين بإنشاء حقول مخصصة لتخصيص التطبيق لملاءمة أعمالهم.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348010"
 ---
-
-# <a name="create-and-work-with-custom-fields"></a>إنشاء الحقول المخصصة واستخدامها
+# <a name="create-and-work-with-custom-fields"></a>إنشاء حقول مخصصة والعمل باستخدامها
 
 [!include [banner](../includes/banner.md)]
 
-بينما يوفر Microsoft Dynamics 365 for Finance and Operations مجموعة شاملة من الحقول المبتكرة لإدارة مجموعة كبيرة من عمليات الأعمال، في بعض الأحيان تكون هناك حاجة لإحدى الشركات لتعقب المعلومات الإضافية في النظام. لتلبية هذه الحاجة، يتيح لك Finance and Operations إمكانية إنشاء حقول مخصصة لتكييف التطبيق ليناسب عملك، بشرط أن يكون لديك أذونات لهذه الميزة.
+بينما يوفر Microsoft Dynamics 365 for Finance and Operations مجموعة شاملة من الحقول الجاهزة لإدارة مجموعة كبيرة من عمليات الأعمال، قد تحتاج الشركات في بعض الأحيان إلى تعقب معلومات إضافية في النظام. لتلبية هذه الحاجة، يتيح لك Finance and Operations إمكانية إنشاء حقول مخصصة لتكييف التطبيق ليناسب عملك، بشرط أن يكون لديك أذونات لهذه الميزة.
 
 تتوفر القدرة على إضافة حقول مخصصة في تحديث النظام الأساسي 13 والإصدارات الأحدث.
 
@@ -160,4 +159,3 @@ ms.lasthandoff: 12/18/2018
 - لا يمكن للجدول توسيع جدول آخر.
 - لا يمكن تمييز الجدول كجدول نظام.
 - لا يمكن أن يكون الجدول جدولاً مؤقتًا.
-

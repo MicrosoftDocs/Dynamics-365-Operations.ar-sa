@@ -1,13 +1,13 @@
---- 
-title: "عرض الإيصال ذي الصلة بين الشركات الشقيقة من دفتر يومية"
-description: "يوضح إطار الإيصال ذات الصلة الإيصال من الشركة المقابلة عند ترحيل حركة بين شركات شقيقة من دفتر اليومية العام."
+---
+title: عرض الإيصال ذي الصلة بين الشركات الشقيقة من دفتر يومية
+description: يوضح إطار الإيصال ذات الصلة الإيصال من الشركة المقابلة عند ترحيل حركة بين شركات شقيقة من دفتر اليومية العام.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: fe2590b43a4399c3935906c8ab67a91883bbf094
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366019"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>عرض الإيصال ذي الصلة بين الشركات الشقيقة من دفتر يومية
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/14/2018
 2. انقر فوق الإيصالات ذات الصلة.
 3. في القائمة، قم بوضع علامة للصف المحدد.
 4. انقر فوق "الإيصال".
-
 

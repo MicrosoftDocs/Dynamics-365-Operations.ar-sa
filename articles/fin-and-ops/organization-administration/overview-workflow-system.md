@@ -1,13 +1,13 @@
 ---
-title: "نظام سير العمل"
-description: "يوضح هذا الموضوع نظام سير العمل في Microsoft Dynamics 365 for Finance and Operations."
+title: نظام سير العمل
+description: يصف هذا الموضوع نظام سير العمل في Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 08/17/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 770796b42e79ad616b469e1dbf5149789bff0788
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308634"
 ---
-
 # <a name="workflow-system"></a>نظام سير العمل
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع نظام سير العمل في Microsoft Dynamics 365 for Finance and Operations.
+يصف هذا الموضوع نظام سير العمل في Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="what-is-workflow"></a>ما المقصود بسير العمل؟
 
@@ -72,4 +71,3 @@ ms.lasthandoff: 08/08/2018
 + [تكوين نشاط موازٍ في سير عمل](configure-parallel-activity-workflow.md)
 + [تكوين فرع موازٍ في سير عمل](configure-parallel-branch-workflow.md)
 + [تكوين سير عمل لعنصر بند](configure-line-item-workflow.md)
-

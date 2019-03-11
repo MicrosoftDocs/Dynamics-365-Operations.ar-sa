@@ -1,13 +1,13 @@
---- 
-title: "إعداد الأذونات لطلب المنتجات بالنيابة عن شخص آخر"
-description: "يوضح هذا الإجراء كيفية منح العاملين الإذن الذي يسمح لهم بإعداد طلبات شراء نيابة عن عاملين آخرين."
+---
+title: إعداد الأذونات لطلب المنتجات بالنيابة عن شخص آخر
+description: يوضح هذا الإجراء كيفية منح العاملين الإذن الذي يسمح لهم بإعداد طلبات شراء نيابة عن عاملين آخرين.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 35688d191cef06cc15251a6e10a2e8c9afb0e08b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9e003f953c05facd5516e2bfa6d1c83ba6381c15
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314798"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>إعداد الأذونات لطلب المنتجات بالنيابة عن شخص آخر
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
 2. استخدم "عامل التصفية السريع" للبحث عن العامل الذي قمت بإضافته كطالب.
 3. حدد الطالب.
     * تعرض قائمة المُعِدين الأشخاص الذين لديهم الإذن لطلب أصناف بالنيابة عن الطالب الذي تم تحديده في الجزء الأيمن.   يمكنك إضافة المزيد من المُعِدين هنا.   كما تتيح لك طريقة العرض هذه منح الطالب إذنًا يسمح له بإنشاء طلبات في كيانات قانونية ووحدات تشغيل ليست الكيان القانوني الأساسي أو وحدة التشغيل الأساسية لذلك الشخص.  
-
 

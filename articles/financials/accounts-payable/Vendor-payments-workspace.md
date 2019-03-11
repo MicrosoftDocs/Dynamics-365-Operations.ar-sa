@@ -1,35 +1,34 @@
 ---
-title: "مساحة عمل دفعات المورد"
-description: "يوفر هذا الموضوع معلومات حول مساحة العمل \"مدفوعات المورد‬\". تعرض مساحة عمل \"مدفوعات المورد‬\" المعلومات المتعلقة بمعالجة مدفوعات المورد."
+title: مساحة عمل دفعات المورد
+description: يوفر هذا الموضوع معلومات حول مساحة العمل "مدفوعات المورد‬". تعرض مساحة عمل "مدفوعات المورد‬" المعلومات المتعلقة بمعالجة مدفوعات المورد.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: fa8ddf52d34c3662e120509156ab0b343bb4cc16
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346101"
 ---
-
 # <a name="vendor-payments-workspace"></a>مساحة عمل دفعات المورد
 
 [!include [banner](../includes/banner.md)]
 
-تعرض مساحة عمل **مدفوعات المورد** المعلومات المتعلقة بمعالجة مدفوعات المورد. وتتضمن مساحة العمل هذه طريقة عرض **عملي‬** وصفحة **التحليلات**. تظهر طريقة عرض **عملي** لوحات الملخص وشبكات حركات المورد ومعلومات المورد ذات الصلة. تستخدم صفحة **التحليلات** إمكانيات Microsoft Power BI لعرض المرئيات ذات الصلة بدفعات المورد.
+تعرض مساحة عمل **مدفوعات المورد** المعلومات المتعلقة بمعالجة مدفوعات المورد. وتتضمن مساحة العمل هذه طريقة عرض **عملي‬** وصفحة **التحليلات**. تظهر طريقة عرض **عملي** لوحات الملخص وشبكات حركات المورد ومعلومات المورد ذات الصلة. تستخدم صفحة **التحليلات‏‎** إمكانيات Microsoft Power BI لعرض المرئيات ذات الصلة بدفعات المورّد.
 
 ## <a name="my-work-view"></a>طريقة عرض "عملي"
 
@@ -69,5 +68,4 @@ ms.lasthandoff: 12/14/2017
 |         سير عمل المدفوعات          |                                                                                <ul><li>مثيلات سير عمل مدفوعات المورد</li><li>مثيلات سير عمل مدفوعات المورد لكل معتمد</li><li>مثيلات سير عمل مدفوعات المورد لكل شركة</li><li>متوسط الأيام في سير العمل لكل معتمد</li></ul>                                                                                |
 |    رصيد المورد في مقابل رصيد العميل     |                                                                                                                   <ul><li>رصيد المورد في مقابل رصيد العميل</li><li>رصيد المورد في مقابل رصيد العميل لكل شركة</li><li>تفاصيل رصيد المورد في مقابل رصيد العميل</li></ul>                                                                                                                    |
 |    الفواتير مع تعليق الدفع     |                                                                                         <ul><li>الفواتير مع تعليق الدفع</li><li>تفاصيل الفواتير مع تعليق الدفع</li><li>الفواتير مع تعليق الدفع لكل شركة</li><li>الفواتير مع تعليق الدفع لكل مجموعة موردين</li></ul>                                                                                          |
-
 

@@ -1,13 +1,13 @@
---- 
-title: "إنشاء التكوينات المستندة إلى أبعاد"
-description: "يوضح هذا الإجراء كيفية تعريف تكوين لمنتج يستند إلى البعد."
+---
+title: إنشاء التكوينات المستندة إلى أبعاد
+description: يوضح هذا الإجراء كيفية تعريف تكوين لمنتج يستند إلى البعد.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, EcoResDimensionBasedConfiguration, ConfigChooseFromRoute, ConfigChooseFromGroup, ConfigChoiceApprove
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9190d6dfd4b3f6cf0634e86845e7de028631bdd4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d6ea85cedbb96266f82e0a4ec1ad17f3ba829322
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328575"
 ---
 # <a name="create-dimension-based-configurations"></a>إنشاء التكوينات المستندة إلى أبعاد
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 09/29/2017
 10. في وصف الحقل، اكتب قيمة.
     * أدخل وصف التكوين لشرح محتواه.  
 11. انقر فوق "موافق".
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: " تكوين عامل"
-description: "يوضح هذا الإجراء كيفية تكوين عامل في مجال البيع بالتجزئة كمندوب مبيعات مؤهل للحصول على عمولة على المبيعات في نقطة البيع."
+description: يوضح هذا الإجراء كيفية تكوين عامل في مجال البيع بالتجزئة كمندوب مبيعات مؤهل للحصول على عمولة على المبيعات في نقطة البيع.
 author: jblucher
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 797640b487884fc487582addea274007e4ba7a7d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 27b075cf1152f16fc4726b224e877eacb2f2572c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362523"
 ---
 # <a name="configure-a-worker"></a> تكوين عامل
 
@@ -56,5 +56,4 @@ ms.lasthandoff: 02/07/2018
 5. انقر فوق "تحرير".
 6. في حقل "المجموعة الافتراضية"، أدخل قيمة أو حددها.
 7. انقر فوق "حفظ".
-
 

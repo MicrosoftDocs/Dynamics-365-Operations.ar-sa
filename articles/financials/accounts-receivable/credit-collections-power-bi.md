@@ -1,13 +1,13 @@
 ---
-title: "محتوى Power BI - إدارة التحصيلات والائتمان"
-description: "يوضح هذا الموضوع ما هو مدرج في محتوي Power BI - إدارة التحصيلات والائتمان. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات التي يتم استخدامها لإنشاء المحتوى."
+title: محتوى "إدارة التحصيلات والائتمان" في Power BI
+description: يصف هذا الموضوع العناصر المضمنة في محتوى "إدارة التحصيلات والائتمان" في Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,25 +16,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325171"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>محتوى Power BI - إدارة التحصيلات والائتمان
+# <a name="credit-and-collections-management-power-bi-content"></a>محتوى "إدارة التحصيلات والائتمان" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع ما هو مدرج في محتوى Power BI **إدارة التحصيلات والائتمان**. فهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+يصف هذا الموضوع العناصر المضمنة في محتوى **إدارة التحصيلات والائتمان** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة
 
-تم إنشاء محتوى Power BI **إدارة التحصيلات والائتمان** لمديري التحصيلات والائتمان، وموظفي التحصيلات. يوضح هذا الموضوع معايير الائتمان والتحصيلات الرئيسية، مثل أيام المبيعات المعلقة، والرصيد المتأخر، وتعريض الائتمان والعملاء الذين تجاوزوا الحد الائتماني الخاص بهم. يستخدم بيانات الحركة، ويوفر طرق عرض تجميعية للائتمان والتحصيلات في جميع الشركات. كما يوفر أيضًا تصنيف حسب الشركة، ومجموعة العميل، والعميل.
+تم إنشاء محتوى **إدارة التحصيلات والائتمان** من Power BI لمديري التحصيلات والائتمان، وموظفي التحصيلات. يوضح هذا الموضوع معايير الائتمان والتحصيلات الرئيسية، مثل أيام المبيعات المعلقة، والرصيد المتأخر، وتعريض الائتمان والعملاء الذين تجاوزوا الحد الائتماني الخاص بهم. يستخدم بيانات الحركة، ويوفر طرق عرض تجميعية للائتمان والتحصيلات في جميع الشركات. كما يوفر أيضًا تصنيف حسب الشركة، ومجموعة العميل، والعميل.
 
-يتكون محتوى Power BI هذا من تقرير يتكون من 10 صفحات:
+يتكون محتوى Power BI هذا من تقرير من 10 صفحات:
 
 - صفحتان نظرة عامة (صفحة لنظرة عامة على الائتمان وصفحة واحدة لنظرة عامة على التحصيلات)
 - ثم يلي ذلك 8 صفحات مفصلة توفر تفاصيل معايير الائتمان والتحصيلات المقسمة والمقطعة عبر أبعاد مختلفة
@@ -44,11 +43,11 @@ ms.lasthandoff: 03/07/2018
 بشكل افتراضي، يتم عرض بيانات الائتمان والتحصيلات للشركة الحالية. لمشاهدة البيانات في كافة أنحاء الشركات، قم بتعيين واجب **CustCollectionsBICrossCompany** للدور.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-يتم عرض محتوى Power BI **إدارة التحصيلات والائتمان** في مساحة العمل **تحصيلات وائتمان العميل**.
+يظهر محتوى **إدارة التحصيلات والائتمان** في Power BI في مساحة العمل **تحصيلات وائتمان العميل‬**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
 
-يتضمن محتوى Power BI **CustCollectionsBICrossCompany** تقريرًا يتكون من مجموعة من المقاييس. هذه المقاييس مرئية مثل المخططات والتجانبات والجداول. يوفر الجدول التالي نظرة عامة حول مجموعة المرئيات في محتوى Power BI لـ **CustCollectionsBICrossCompany**.
+يتضمن محتوى **CustCollectionsBICrossCompany** في Power BI تقريرًا يتكون من مجموعة من المقاييس. هذه المقاييس مرئية مثل المخططات والتجانبات والجداول. يوفر الجدول التالي نظرة عامة حول مجموعة المرئيات في محتوى **CustCollectionsBICrossCompany** في Power BI.
 
 | صفحة التقرير                 | التصور |
 |-----------------------------|---------------|
@@ -67,7 +66,7 @@ ms.lasthandoff: 03/07/2018
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 
-تُستخدم البيانات التالية لملء صفحات التقارير في محتوى Power BI **إدارة الائتمان والتحصيلات**. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات لخادم Microsoft SQL تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع متجر الكيان](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
+تُستخدم البيانات التالية لملء التقرير في محتوى **إدارة الائتمان والتحصيلات** في Power BI. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات Microsoft SQL Server تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع مخزن الكيانات](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
 
 |                   الكيان                    |      القياسات التجميعية الرئيسية      |             مصدر البيانات              |                           الحقل                            |                                    ‏‏الوصف                                     |
@@ -88,5 +87,4 @@ ms.lasthandoff: 03/07/2018
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                عدد إشعارات الفائدة التي تم إنشاؤها.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 عدد إجمالي أوامر المبيعات قيد الانتظار.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                مجموع الحركات التي تم شطبها.                 |
-
 

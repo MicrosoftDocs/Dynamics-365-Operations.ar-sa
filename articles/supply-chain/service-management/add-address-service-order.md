@@ -1,31 +1,30 @@
 ---
-title: "إضافة عنوان لأمر الخدمة"
-description: "يصف هذا الموضوع كيفية إضافة عنوان عميل إلى أمر خدمة."
+title: إضافة عنوان لأمر الخدمة
+description: يصف هذا الموضوع كيفية إضافة عنوان عميل إلى أمر خدمة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 58188be6f82b6587011188379e5370b81f8fd114
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e6dfa27b2101e84fbab678e781c26126cf1db898
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311900"
 ---
-
 # <a name="add-an-address-to-a-service-order"></a>إضافة عنوان لأمر الخدمة    
 
 [!include [banner](../includes/banner.md)]
@@ -74,6 +73,5 @@ ms.lasthandoff: 05/08/2018
 
 
   
-
 
 

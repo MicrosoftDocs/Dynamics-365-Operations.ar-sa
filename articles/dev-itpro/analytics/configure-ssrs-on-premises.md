@@ -1,34 +1,34 @@
 ---
-title: "تكوين خدمات SQL Server Reporting Services لعمليات النشر المحلي"
-description: "يوفر هذا الموضوع معلومات حول تكوين SQL Server Reporting Services (SSRS) للنشر المحلي."
+title: تكوين خدمات SQL Server Reporting Services لعمليات النشر المحلي
+description: يوفر هذا الموضوع معلومات حول تكوين SQL Server Reporting Services (SSRS) للنشر المحلي.
 author: sarvanisathish
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 166d419f16866f699b96013222ce8da147a5ec21
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315120"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>تكوين خدمات SQL Server Reporting Services لعمليات النشر المحلي
 
 [!include [banner](../includes/banner.md)]
 
-استخدم الخطوات الواردة في هذا الموضوع لتكوين SQL Server Reporting Services (‏SSRS‏) لعملية نشر Microsoft Dynamics 365 for Finance and Operations (محلي).
+استخدم الخطوات في هذا الموضوع لتكوين SQL Server Reporting Services (SSRS) لنشر Microsoft Dynamics 365 for Finance and Operations (محلي).
 
 1. افتح تطبيق إدارة تكوين خدمات التقارير.
 2. اترك **اسم الخادم** الافتراضي، الذي يجب أن يكون اسم الجهاز الحالي، و**مثيل خادم التقارير**، **MSSQLSERVER**.
@@ -94,4 +94,3 @@ ms.lasthandoff: 08/13/2018
 13. انقر فوق **إنهاء** لإغلاق **إدارة تكوين خدمات التقارير**.
 
     [![إغلاق إدارة تكوين خدمات التقارير](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
-

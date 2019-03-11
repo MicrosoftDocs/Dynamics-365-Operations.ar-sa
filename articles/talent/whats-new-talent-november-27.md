@@ -1,37 +1,37 @@
 ---
-title: "ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(27 نوفمبر 2018)"
-description: "يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Microsoft Dynamics 365 for Talent Core HR."
+title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (27 نوفمبر 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-27
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
 ms.openlocfilehash: 6bd049bfe4639136276ab2f14e6310e45d1254f2
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303059"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-27-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(27 نوفمبر 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-27-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (27 نوفمبر 2018)
 
 [!include [banner](includes/banner.md)]
 
 **الإصدار 8.1.2064**
 
-يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Core HR.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Core HR.
 
 
 ## <a name="changes"></a>التغييرات
@@ -64,4 +64,3 @@ ms.lasthandoff: 12/04/2018
 
 - **المشكلة**: عند إضافة مرفق جديد إلى عامل، يظهر الزران **جديد** و**تحرير** بلون رمادي. 
 - **الحل البديل:** قبل فتح صفحة المرفق، تأكد من أن مربعات الحقائق في صفحة **العامل** مغلقة. إذا كانت مربعات الحقائق مغلقة عند تحميل صفحة **العامل**، سيتم تمكين زر المرفقات (سوف يتم إصلاح هذه المشكلة في التحديث التالي للنظام الأساسي.)
-

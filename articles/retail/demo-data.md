@@ -1,33 +1,32 @@
 ---
-title: "تخطيطات شاشة بيانات العرض التوضيحي في Retail Modern POS (MPOS) وCloud POS"
-description: "يقدم هذا الموضوع معلومات حول تخطيطات الشاشة المضمنة مع بيانات العرض التوضيحي المعينة لتجارب نقطة البيع (POS) في Microsoft Dynamics 365 for Retail."
+title: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في Retail Modern POS (MPOS) وCloud POS
+description: يقدم هذا الموضوع معلومات حول تخطيطات الشاشة المضمنة مع بيانات العرض التوضيحي المعينة لتجارب نقطة البيع (POS) في Microsoft Dynamics 365 for Retail.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352472"
 ---
-
-# <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>تخطيطات شاشة بيانات العرض التوضيحي في Retail Modern POS (MPOS) وCloud POS
+# <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في Retail Modern POS (MPOS) وCloud POS
 
 [!include [banner](includes/banner.md)]
 
@@ -108,7 +107,7 @@ F3MGR
 \* لا تتوفر أحجام التخطيطات الإضافية هذه إلا في تخطيطات شركة المنتجات التجارية وشركة الاتحاد للتصنيع.
 
 > [!TIP]
-> تحدد نقطة البيع تلقائيًا أحجام التخطيطات استنادًا إلى أقرب حجم متوفر لدقة شاشة إطار التطبيق الحالي. للعثور على معرف تخطيط الشاشة ودقة التخطيط المستخدمين حاليًا، في نقطة البيع الحديثة للبيع بالتجزئة (MPOS) أو نقطة بيع المجموعة للبيع بالتجزئة (CPOS)، افتح صفحة **الإعدادات**، وابحث في القسم **معلومات جلسة العمل**. يمكنك أيضًا الاطلاع على دقة الإطار الفعلية لإطار المستعرض أو التطبيق الحالي. بعد الحصول على هذه المعلومات، يمكنك العثور على مصدر محتوى التخطيط في البيع بالتجزئة بالانتقال إلى **إعداد القناة** \> **إعداد نقطة البيع** \> **نقطة البيع** \> **تخطيطات الشاشة**.
+> تحدد نقطة البيع تلقائيًا أحجام التخطيطات استنادًا إلى أقرب حجم متوفر لدقة شاشة إطار التطبيق الحالي. للعثور على معرف تخطيط الشاشة ودقة التخطيط المستخدمين حاليًا، في Retail Modern POS (MPOS) أو Retail Cloud POS (CPOS)، افتح صفحة **الإعدادات‏‎** وابحث في القسم **معلومات جلسة العمل**. يمكنك أيضًا الاطلاع على دقة الإطار الفعلية لإطار المستعرض أو التطبيق الحالي. بعد الحصول على هذه المعلومات، يمكنك العثور على مصدر محتوى التخطيط في البيع بالتجزئة بالانتقال إلى **إعداد القناة** \> **إعداد نقطة البيع** \> **نقطة البيع** \> **تخطيطات الشاشة**.
 
 ![تخطيطات الشاشة ومستويات دقة/أحجام التخطيطات في البيع بالتجزئة ونقطة البيع](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -175,4 +174,3 @@ F3MGR
 <!-- Use the [POS Icon and Image Mapping](../retail/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-

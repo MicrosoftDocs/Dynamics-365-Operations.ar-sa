@@ -1,13 +1,13 @@
 ---
-title: "المتوسط المتحرك"
-description: "المتوسط المتحرك هو أسلوب حساب تكلفة دائم يقوم على مبدأ المتوسط، حيث لا تتغير التكاليف الخاصة بمشكلات المخزون عندما تتغير تكلفة الشراء. تتم رسملة الفرق ويستند إلى حساب نسبي. ويُحسب المبلغ المتبقي كمصروف."
+title: المتوسط المتحرك
+description: المتوسط المتحرك هو أسلوب حساب تكلفة دائم يقوم على مبدأ المتوسط، حيث لا تتغير التكاليف الخاصة بمشكلات المخزون عندما تتغير تكلفة الشراء. تتم رسملة الفرق ويستند إلى حساب نسبي. ويُحسب المبلغ المتبقي كمصروف.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348056"
 ---
-
 # <a name="moving-average"></a>المتوسط المتحرك
 
 [!include [banner](../includes/banner.md)]
@@ -113,8 +112,7 @@ ms.lasthandoff: 11/03/2017
 | 8 أكتوبر        | 8 أكتوبر    | إعادة تقييم المتوسط المتحرك |          | 4.00   | 16.00             |
 |                  | 31 أكتوبر   | الإجمالي                      | 2        | 32.00  | 16.00             |
 
- **ملاحظة:** لا يمكنك تسوية دفتر الأستاذ العام مع المخزون باستخدام خيار **فرز وقت الحركة**. يجب طباعة التقرير باستخدام خيار **تاريخ الترحيل**.
-
+ **ملاحظة:** لا يمكنك تسوية دفتر الأستاذ العام مع المخزون باستخدام خيار **فرز وقت الحركة**. يجب طباعة التقرير باستخدام خيار **تاريخ الترحيل**.
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "تكوين عرض المجموعات القديمة داخل المستودع على جهاز محمول"
-description: "يصف هذا الموضوع كيفية إعداد جهاز محمول لعرض قائمة بالمواقع مع دُفعات أقدم من الموقع الحالي لخط العمل."
+title: تكوين عرض المجموعات القديمة داخل المستودع على جهاز محمول
+description: يصف هذا الموضوع كيفية إعداد جهاز محمول لعرض قائمة بالمواقع مع دُفعات أقدم من الموقع الحالي لخط العمل.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 946266e73d59bdf383f1f91cdf70dd58f01b995c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cd0a9c2e9fbfea987b045e301fb73a505a0f2a4e
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352633"
 ---
-
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>تكوين عرض المجموعات القديمة داخل المستودع على جهاز محمول
 
 [!include [banner](../includes/banner.md)]
@@ -40,5 +39,4 @@ ms.lasthandoff: 11/03/2017
 يتوفر تكوين **عرض المجموعات القديمة داخل المستودع** على أصناف قائمة الجهاز المحمول عند تعيين الخيار **انتقاء الدُفعة الأقدم‬** إلى **تحذير**.
 
 - ضمن **إدارة المستودعات** > **الإعداد** > **الجهاز المحمول** > **أصناف قائمة الجهاز المحمول**، عيّن **استخدام العمل الموجود** إلى **نعم** لصنف القائمة، وحدد **تحذير** في الحقل **انتقاء الدُفعة الأقدم‬**. 
-
 

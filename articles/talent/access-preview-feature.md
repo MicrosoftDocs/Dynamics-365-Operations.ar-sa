@@ -1,14 +1,14 @@
 ---
-title: "الوصول إلى ميزات المعاينة في Talent"
-description: "يصف هذا الموضوع كيف يمكن لمسؤول تمكين الميزات المعاينة، ويسرد الميزات التي يجري تمكينها حاليا للمعاينة."
+title: الوصول إلى ميزات المعاينة في Talent
+description: يصف هذا الموضوع كيف يمكن لمسؤول تمكين الميزات المعاينة، ويسرد الميزات التي يجري تمكينها حاليا للمعاينة.
 author: rschloma
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.contentlocale: ar-sa
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303087"
 ---
-
 # <a name="access-preview-features-in-talent"></a>الوصول إلى ميزات المعاينة في Talent
 
 [!include[banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ ms.lasthandoff: 10/22/2018
 
 ## <a name="enable-or-disable-preview-features"></a>تمكين أو تعطيل ميزات المعاينة
 
-يمكنك استخدام إعداد **"ميزات معاينة"** في مركز إدارة Microsoft Dynamics 365 for Talent لتمكين أو تعطيل ميزات المعاينة. بشكل افتراضي، يتم إيقاف تشغيل الإعداد. الإجراء الخاص بتمكين أو تعطيل ميزات المعاينة يكون خاصًا بالبيئة.
+يمكنك استخدام إعداد **ميزات المعاينة** في مركز إدارة Microsoft Dynamics 365 for Talent لتمكين أو تعطيل ميزات المعاينة. بشكل افتراضي، يتم إيقاف تشغيل الإعداد. الإجراء الخاص بتمكين أو تعطيل ميزات المعاينة يكون خاصًا بالبيئة.
 
 > [!IMPORTANT]
 > عن طريق تشغيل إعداد **"ميزات معاينة"**، يجب تمكين ميزات المعاينة لكافة المستخدمين في المؤسسة الخاصة بك في هذه البيئة. من خلال إيقاف هذا الإعداد، يمكنك تعطيل ميزات المعاينة وجعلها غير قابلة للوصول إلى المستخدمين. يكون دعم ميزات المعاينة محدودًا في Talent. كما أنها تستخدم القليل من إجراءات الخصوصية والأمان، ولا يتم تضمينها في اتفاقية مستوى الخدمة لبرنامج Talent. يجب عدم استخدام ميزات المعاينة لمعالجة البيانات الشخصية (بمعنى، أية معلومات يمكن من خلالها التعرف عليك)، أو لمعالجة البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية.
@@ -45,7 +44,7 @@ ms.lasthandoff: 10/22/2018
 
 #### <a name="attract"></a>Attract
 
-1. سجل الدخول إلى Microsoft Dynamics 365 for Talent: Attract.
+1. تسجيل الدخول إلى Microsoft Dynamics 365 for Talent: Attract.
 2. في قائمة **الإعداد** (رمز الترس) في الزاوية العلوية اليسرى، حدد **إعدادات المسؤول**.
 3. في علامة تبويب **ميزة إدارة**، حدد الخيار بجانب **ميزات المعاينة** بحيث يتحول إلى الأزرق.
 4. بشكل اختياري، يمكنك التحكم في الميزات الفردية عن طريق تمكين/تعطيل ميزات معينة في هذه الصفحة.
@@ -92,4 +91,3 @@ ms.lasthandoff: 10/22/2018
 
 > [!TIP]
 > قم بعمل إشارة مرجعية لهذا الموضوع، وراجعه باستمرار لتبقى مطلعًا على أحدث ميزات المعاينة الجديدة حين نقوم بإصدارها.
-

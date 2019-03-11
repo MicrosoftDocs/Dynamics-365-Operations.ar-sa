@@ -1,13 +1,13 @@
---- 
-title: "‏‫تحديد رسوم دفع المورّد‬"
-description: "إعداد رسوم مدفوعات المورّد."
+---
+title: ‏‫تحديد رسوم دفع المورّد‬
+description: إعداد رسوم مدفوعات المورّد.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399291a98ddc6b01fb08f7a5c629ec7a6f8acfbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f62d07ffa1ee4a525f0f266922bc88e5ac8d5ada
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363190"
 ---
 # <a name="define-vendor-payment-fees"></a>‏‫تحديد رسوم دفع المورّد‬
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 09/29/2017
 17. في حقل "عملة الرسوم‬"، حدد العملة التي سيتم فرض الرسوم بها.
     * هذه العملة تتعلق بالرسوم. يتم استخدام عملة الدفع لتعريف متى ينبغي أن يتم تقييم قاعدة الرسوم استنادًا إلى عملة الدفع. على سبيل المثال، قد يفرض عليك البنك رسومًا عند إجراء الدفع باليورو، ولكن لا يتم فرض أي رسوم على جميع المدفوعات الأخرى.  
 18. انقر فوق "حفظ".
-
 

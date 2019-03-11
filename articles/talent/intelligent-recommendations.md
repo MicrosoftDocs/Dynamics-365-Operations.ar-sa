@@ -1,14 +1,14 @@
 ---
-title: "التوصيات الذكية"
-description: "يشرح هذا الموضوع كيف يمكن استخدام التعلم الآلي‬ لتوفير توصيات تتعلق بالوظائف والمرشحين لها."
+title: التوصيات الذكية
+description: يشرح هذا الموضوع كيف يمكن استخدام التعلم الآلي‬ لتوفير توصيات تتعلق بالوظائف والمرشحين لها.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: ar-sa
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303111"
 ---
-
 # <a name="intelligent-recommendations"></a>التوصيات الذكية
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ ms.lasthandoff: 10/22/2018
 ## <a name="job-recommendations"></a>توصيات الوظائف 
 
 عندما يستخدم موظف محتمل موقع الوظائف لتقديم طلب الحصول على وظيفة، تتم التوصية بالمناصب الأخرى المفتوحة في المؤسسة. وتستند هذه التوصيات إلى استمارات التقديم السابقة للموظف المحتمل، وإلى سيرته الذاتية أو ملف تعريف المرشح. وبالتالي، بإمكان التوصيات أن تساعد الموظفين المحتملين على التعرّف بسرعة على الوظائف الأكثر ملاءمة لهم. يتم تقديم توصيات الوظائف للموظفين المتوقعين إذا تم نشر أكثر من عشر وظائف في موقع الوظائف. بإمكان الموظفين المحتملين فتح تفاصيل إعلان الوظيفة من بطاقة التوصية. ويمكنهم أيضًا توفير ملاحظات حول التوصية للمساعدة في تحسين التوصيات المستقبلية.
-

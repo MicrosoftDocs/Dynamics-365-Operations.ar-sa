@@ -1,13 +1,13 @@
 ---
-title: "إنشاء نماذج FTI قابلة للطباعة"
-description: "يشرح هذا الموضوع كيفية استخدام إطار عمل التقارير الإلكترونية لإنشاء نماذج قابلة للطباعة لفاتورة النص الحر (FTI) كمستندات Microsoft Office."
+title: إنشاء نماذج FTI قابلة للطباعة
+description: يشرح هذا الموضوع كيفية استخدام إطار عمل التقارير الإلكترونية لإنشاء نماذج قابلة للطباعة لفاتورة النص الحر (FTI) كمستندات Microsoft Office.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d27a11a0d925b0f1164578f9c04e6abd4736b2b2
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325516"
 ---
-
-# <a name="generate-printable-fti-forms"></a>إنشاء نماذج FTI قابلة للطباعة
+# <a name="generate-printable-fti-forms"></a>إنشاء نماذج فاتورة نص حر (FTI) قابلة للطباعة
 
 [!include[banner](../includes/banner.md)]
 
@@ -33,7 +32,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="overview"></a>نظرة عامة
 
-بالإضافة إلى القدرة على الموجودة على إنشاء نماذج FTI قابلة للطباعة باستخدام Microsoft SQL Server Reporting Services (SSRS)، يمكنك الآن استخدام إطار عمل التقارير الإلكترونية. يمكنك إدارة نماذج FTI القابلة للطباعة في Microsoft Office Excel وWord. ويمكنك أيضًا تعديل التخطيط وتدفق البيانات والتنسيق لتلبية متطلبات محددة دون إدخال تغييرات على التعليمات البرمجية.
+بالإضافة إلى القدرة الموجودة على إنشاء نماذج FTI قابلة للطباعة باستخدام Microsoft SQL Server Reporting Services (SSRS)، يمكنك الآن استخدام إطار عمل التقارير الإلكترونية. يمكنك إدارة نماذج FTI القابلة للطباعة في Microsoft Office Excel وWord. ويمكنك أيضًا تعديل التخطيط وتدفق البيانات والتنسيق لتلبية متطلبات محددة دون إدخال تغييرات على التعليمات البرمجية.
 
 > [!NOTE]
 > إذا أردت البدء مع نظرة عامة على تكوينات التقارير الإلكترونية الموجودة لهذه العينة من حل نماذج FTI القابلة للطباعة، يمكنك الانتقال مباشرة إلى القسم **تنزيل عينة تكوينات التقارير الإلكترونية لإنشاء نماذج FTI قابلة للطباعة** لاحقًا في هذا الموضوع.
@@ -215,15 +214,14 @@ ms.lasthandoff: 08/08/2018
 
 يتم تكوين تعبير **Emailing.TxtToUse.Body** لعينة التنسيق للاستبدالات التالية للعناصر النائبة:
 
-- يتم استبدال"%1" باسم جهة اتصال العميل.
+- يتم استبدال "%1" باسم جهة اتصال العميل.
 - يتم استبدال "%2" باسم الشركة.
 - يتم استبدال "%3" باسم العميل.
-- يتم استبدال"%4" بشخص جهة اتصال الشركة.
-- يتم استبدال"%5" بالمسمى الوظيفي لشخص جهة اتصال الشركة.
-- يتم استبدال"%6" بعنوان البريد الإلكتروني لشخص جهة اتصال الشركة.
+- يتم استبدال "%4" باسم شخص جهة اتصال الشركة.
+- يتم استبدال "%5" بالمسمى الوظيفي لشخص جهة اتصال الشركة.
+- يتم استبدال "%6" بعنوان البريد الإلكتروني لشخص جهة اتصال الشركة.
 
 ![البريد الإلكتروني](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 [نظرة عامة على إعداد التقارير الإلكتروني](general-electronic-reporting.md)
-

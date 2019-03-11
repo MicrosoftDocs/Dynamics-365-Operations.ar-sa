@@ -1,13 +1,13 @@
 ---
-title: "مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة"
-description: "قد يتم إعداد الكيان القانوني المشتري المعني بحركة تجارية بين شركات شقيقة لاستخدام مطابقة فواتير الحسابات الدائنة. في هذه الحالة، يجب تلبية متطلبات الترحيل لكل من مطابقة فواتير الحركات التجارية بين الشركات الشقيقة ومطابقة فواتير الحسابات الدائنة قبل ترحيل فواتير المورّد المشتركة بين الشركات الشقيقة."
+title: مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة
+description: قد يتم إعداد الكيان القانوني المشتري المعني بحركة تجارية بين شركات شقيقة لاستخدام مطابقة فواتير الحسابات الدائنة. في هذه الحالة، يجب تلبية متطلبات الترحيل لكل من مطابقة فواتير الحركات التجارية بين الشركات الشقيقة ومطابقة فواتير الحسابات الدائنة قبل ترحيل فواتير المورّد المشتركة بين الشركات الشقيقة.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357555"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ ms.lasthandoff: 11/03/2017
 2.  قم بإجراء تحديث لفاتورة ICSO999 في شركة المقاولات العامة. الترحيل غير ناجح، لأن الصنف نفد من المخزون ولم يتم استلامه بعد. ولذلك، لا يمكن تحديث المعلومات المالية.
 3.  قم بتسجيل الأصناف التي تم استلامها وقم بترحيل إيصال التعبئة لـ ICSO999 في شركة المقاولات العامة. وترحيل إيصال التعبئة تلقائيًا لـ ICPO333 في شركة الاتحاد للتصنيع. وتتغير الكمية المستلمة للصنف B-R14 في شركة الاتحاد للتصنيع إلى 100.
 4.  قم بإجراء تحديث لفاتورة ICSO999 في شركة المقاولات العامة. ويتم الترحيل بنجاح في كلٍّ من الكيانين القانونيين. وتتغير الكمية التي تم شراؤها للصنف B-R14 في شركة الاتحاد للتصنيع إلى 100. 
-
 
 
 

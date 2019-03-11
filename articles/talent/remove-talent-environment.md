@@ -1,13 +1,13 @@
 ---
-title: "إزالة بيئات Talent"
-description: "يوضح لك هذا الموضوع عملية إزالة محرك أقراص اختبار أو بيئة إنتاج جديدة لـ Microsoft Dynamics 365 for Talent."
+title: إزالة بيئات Talent
+description: ينقلك هذا الموضوع عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303185"
 ---
 # <a name="remove-talent-environments"></a>إزالة بيئات Talent
 
 [!include [banner](includes/banner.md)]
 
-يوضح لك هذا الموضوع عملية إزالة محرك أقراص اختبار أو بيئة إنتاج جديدة لـ Microsoft Dynamics 365 for Talent.
+ينقلك هذا الموضوع عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Dynamics 365 for Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>إزالة بيئة محرك أقراص اختبار
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 08/08/2018
 
 1. انتقل إلى [مركز إدارة PowerApps](https://admin.businessplatform.microsoft.com/).
 2. حدد **بيئات**.
-3. حدد بيئة محرك أقراص الاختبار الذي يحتوي على نمط تسمية مشابه لما يلي: TestDrive - alias@domain
+3. حدد بيئة الإصدار التجريبي، ذات نمط تسمية مماثل للنمط التالي: TestDrive - alias@domain
 4. حدد **حذف** وقم بتأكيد القرار. 
 
 ستتم إزالة بيئة محرك أقراص الاختبار الموجودة. عندما تتم إزالتها، يمكنك تسجيل الاشتراك في بيئة محرك أقراص اختبار جديدة. 
@@ -73,5 +73,4 @@ ms.lasthandoff: 08/08/2018
 6. في مشروع LCS، حدد تجانب **"إدارة تطبيق Talent**. 
 7. حدد المثيل الذي ترغب في إزالته، والذي يجب تمييزه بحالة النشر **فشل**.
 8. حدد **إزالة مثيل** وقم بتأكيد قرارك. 
-
 

@@ -1,13 +1,13 @@
 ---
-title: "إعداد عمليات الفرز"
-description: "توضح هذه المقالة ماهية عملية الفرز وتشرح كيفية إعداد عمليات الفرز في Microsoft Dynamics 365 for Retail."
+title: إعداد عمليات الفرز
+description: توضح هذه المقالة ماهية عملية الفرز وتشرح كيفية إعداد عمليات الفرز في Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: a9578a0784d4f4fbfca27ec4093a3f61d1068a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 91713a4492ad82520f7dde611c17a5ea168ed80d
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314959"
 ---
-
 # <a name="set-up-assortments"></a>إعداد عمليات الفرز
 
 [!include [banner](includes/banner.md)]
@@ -56,4 +55,3 @@ ms.lasthandoff: 11/03/2017
 2. تحديد قنوات البيع بالتجزئة أو المجموعات رفيعة المستوى من قنوات البيع بالتجزئة التي تنطبق عليها عملية الفرز.
 3. إضافة فئات المنتج أو المنتجات الفردية أو متغيرات المنتج إلى عملية الفرز. يمكنك تضمين كافة المنتجات في فئة محددة، أو يمكنك استبعاد منتجات مختارة من فئة يتم تضمينها في عملية الفرز.
 4. نشر الفرز. عندما تقوم بنشر عملية فرز، يتم تشغيل مجدول عمليات فرز البيع بالتجزئة تلقائيًا. وتُنشئ هذه العملية قائمة المنتجات. وعند اكتمال هذه العملية، تتوفر المنتجات لقنوات البيع بالتجزئة التي تم تعيين عملية فرز المنتجات لها. وإذا تم إجراء تغييرات على عملية فرز تم نشرها أو قنوات البيع بالتجزئة التي تم تعيين عملية الفرز لها، يجب تحديث عملية الفرز. ولتحديث عمية الفرز عند إجراء التغييرات، يمكنك تشغيل مجدول فرز البيع بالتجزئة كوظيفة دُفعية.
-

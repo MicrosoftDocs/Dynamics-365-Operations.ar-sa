@@ -1,13 +1,13 @@
 ---
-title: "إدارة المستودعات"
-description: "استخدام إدارة المستودع لمراقبة وجعل عمليات المستودع تلقائية."
+title: إدارة المستودعات
+description: استخدام إدارة المستودع لمراقبة وجعل عمليات المستودع تلقائية.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335245"
 ---
 # <a name="warehouse-management"></a>إدارة المستودعات
 
 [!include [banner](../includes/banner.md)]
 
-تسمح لك الوحدة النمطية لإدارة المستودعات في Dynamics 365 for Finance and Operations بإدارة عمليات المستودع في شركات التصنيع والتوزيع وشركات البيع بالتجزئة. تحتوي هذه الميزة على نطاق واسع من الميزات لدعم منشأة المستودع على المستوى الأمثل، في أي وقت. تتكامل إدارة المستودعات بشكل تام مع العمليات التجارية الأخرى في Finance and Operations مثل النقل والتصنيع ومراقبة الجودة والشراء والتحويل والمبيعات والمرتجعات.
+تسمح الوحدة النمطية "إدارة المستودعات" في Dynamics 365 for Finance and Operations بإدارة عمليات المستودعات في مجالات التصنيع والتوزيع وشركات البيع بالتجزئة. تحتوي هذه الميزة على نطاق واسع من الميزات لدعم منشأة المستودع على المستوى الأمثل، في أي وقت. تتكامل إدارة المستودعات بشكل تام مع العمليات التجارية الأخرى في Finance and Operations مثل النقل والتصنيع ومراقبة الجودة والشراء والتحويل والمبيعات والمرتجعات.
 
 ## <a name="get-started"></a>بدء الاستخدام
 للشروع في العمل مع إدارة المستودعات، يجب عليك إكمال عملية إعداد محددات المستودعات العامة لدعم العمليات التجارية لشركتك.
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/26/2018
 - أنواع البالتات/الحاويات لعمليات المستودع
 - إمكانيات جرد متقدمة
 - طباعة الملصقات وتوجيه الملصقات مع دعم Zebra ZPL
-- تكامل ذكاء الأعمال في Power BI
+- تكامل المعلومات المهنية‬ في‬ Power BI
 - حركة المخزون اليدوية والتلقائية
 - مراقبة الجودة المتكاملة بشكل تام (QMS)
 - إمكانية تعقب كاملة لمعالجة المواد من قبل العاملين
@@ -66,12 +66,11 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 ### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
-انتقل إلى [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) لمعرفة الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
+انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
 
 ### <a name="blogs"></a>المدونات
-يمكنك العثور على الآراء واﻷخبار والمعلومات الأخرى حول إدارة المستودعات والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول إدارة المستودعات وحلول أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
 
 
  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "تحديد تبعية تكوينات التقارير الإلكترونية على مكونات أخرى"
-description: "لإتمام هذه الخطوات، يجب عليك أولاً إكمال الخطوات الموجودة في دليل المهام، \"التقارير الإلكترونية - إدارة تكوينات تعيينات النموذج‬\"، ويجب أن يكون لديك حق الوصول إلى Microsoft Dynamics Lifecycle Services (LCS)."
+---
+title: تحديد تبعية تكوينات التقارير الإلكترونية على مكونات أخرى
+description: لإتمام هذه الخطوات، يجب عليك أولاً إكمال الخطوات الموجودة في دليل المهام، "التقارير الإلكترونية - إدارة تكوينات تعيينات النموذج‬"، ويجب أن يكون لديك حق الوصول إلى Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365076"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>تحديد تبعية تكوينات التقارير الإلكترونية على مكونات أخرى
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 08/08/2018
 18. حدد Microsoft Dynamics AX 7.0 RTW.
 19. في حقل "الإصدار"، اكتب '[7.0.1265.3015,7.1)'.
     * [7.0.1265.3015,7.1)  
-    * سيتم تقييم التبعيات عندما يتم تنزيل هذا التكوين من مستودع التقارير الإلكترونية. سيتم تنزيل إصدار التكوين هذا من مستودع التقارير الإلكترونية عندما يكون الإصدار 1 من "عينة نموذج البيانات" إما موجودًا في مكانه أو تم تنزيله بشكل مسبق. إذا تم تنزيله بشكل مسبق، فيجب إكماله في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition، في الإصدار 7.0.1265.3015 أو إصدار لاحق، ولكن دون تجاوز الإصدار الثانوي 1.   
+    * سيتم تقييم التبعيات عندما يتم تنزيل هذا التكوين من مستودع التقارير الإلكترونية. سيتم تنزيل إصدار التكوين هذا من مستودع التقارير الإلكترونية عندما يكون الإصدار 1 من "عينة نموذج البيانات" إما موجودًا في مكانه أو تم تنزيله بشكل مسبق. إذا تم تنزيله بشكل مسبق، فيجب إكماله في Microsoft Dynamics 365 for Finance and Operations Enterprise edition، في الإصدار 7.0.1265.3015 أو إصدار لاحق، ولكن دون تجاوز الإصدار الثانوي 1.   
 20. انقر فوق "حفظ".
 21. قم بإغلاق الصفحة.
 22. انقر فوق "تغيير الحالة".
@@ -140,5 +140,4 @@ ms.lasthandoff: 08/08/2018
 26. في الشجرة، قم بتوسيع "عينة نموذج البيانات"
     * لاحظ أنه قد تم تحميل تكوين تعيين النموذج "تعيين نموذجي" جنبًا إلى جنب مع تكوين نموذج البيانات المحدد. يتم تنزيل الملفين معًا نظرًا لتحديد "التعيين النموذجي" على أنه ينفذ نموذج البيانات المحدد، ولأنه ينطبق على Finance and Operations. لم يتم تنزيل تكوين "تعيين نموذجي (بديل)‬" نظرًا لعدم تلبية الشرط المتعلق بإصدار التطبيق المطلوب.   
     * إذا قمت بتسجيل الدخول إلى Dynamics 365 for Finance and Operations, Enterprise edition وتسجيل الموفر نفسه والوصول إلى مشروع LCS نفسه وتنزيل تكوين نموذج البيانات نفسه، فسيتم تنزيل تكوين "تعيين نموذجي (بديل)‬"، في حين سيتم تخطي تكوين "تعيين نموذجي".  
-
 

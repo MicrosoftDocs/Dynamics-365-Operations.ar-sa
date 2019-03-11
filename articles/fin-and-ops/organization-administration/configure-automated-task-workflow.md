@@ -1,13 +1,13 @@
 ---
-title: "تكوين المهام المؤتمتة في سير عمل"
-description: "يوضح هذا الموضوع كيفية تكوين خصائص مهمة تلقائية."
+title: تكوين المهام المؤتمتة في سير عمل
+description: يوضح هذا الموضوع كيفية تكوين خصائص مهمة تلقائية.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5a9f37228beedafa085987668d5c89b06c6c9d61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365099"
 ---
-
 # <a name="configure-automated-tasks-in-a-workflow"></a>تكوين المهام المؤتمتة في سير عمل
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,7 @@ ms.lasthandoff: 08/08/2018
     </tr>
     <tr>
     <td>المستخدم</td>
-    <td>‏‫مستخدمو Microsoft Dynamics 365 for Finance and Operations معينون‬</td>
+    <td>مستخدمو Microsoft Dynamics 365 for Finance and Operations معينون</td>
     <td>
     <ol>
     <li>بعد تحديد <strong>المستخدم</strong>، انقر فوق علامة تبويب <strong>المستخدم</strong>.</li>
@@ -112,4 +111,3 @@ ms.lasthandoff: 08/08/2018
     </table>
 
 8. كرر الخطوات من 3 إلى 7 لكل الأحداث التي قمت بتحديدها في الخطوة 2.
-

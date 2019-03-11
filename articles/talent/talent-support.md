@@ -1,13 +1,13 @@
 ---
-title: "الحصول على الدعم لـ Talent"
-description: "يوضح هذا الموضوع كيفية الحصول على تعليمات بخصوص Dynamics 365 for Talent. "
+title: الحصول على دعم لـ Talent
+description: يشرح هذا المقال كيفية الحصول على تعليمات حول Dynamics 365 for Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 9b2d7159b458b6f3b2cbb3271210c10ab486f496
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303179"
 ---
-
-# <a name="get-support-for-talent"></a>الحصول على الدعم لـ Talent
+# <a name="get-support-for-talent"></a>الحصول على دعم لـ Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -55,4 +54,3 @@ ms.lasthandoff: 09/27/2018
 | الإبلاغ عن مشكلة                                                        | حدد رمز **?** في القائمة وحدد الخيارات للإبلاغ عن مشكلة. أدخل المشكلة في الوصفن وقم بتضمين عنوان البريد الإلكتروني إذا كنت ترغب في المتابعة بخصوص المشكلة التي تم الإبلاغ عنها.                                                                                           |
 | الحصول على تعليمات بخصوص الأسئلة المتعلقة بترخيص Talent                         | اتصل بشريكك أو مندوب مبيعات Microsoft.                                                                                                                                                                                                                                        |
 | طلب ميزات ووظائف جديدة في Attract و Onboard | انقر فوق رمز **?** وحدد **الأفكار**، أو استخدم الارتباطات التالية لعرض أو البحث عن أو التصويت أو إضافة أفكار جديدة: [Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract) أو [Onboard](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard). |
-

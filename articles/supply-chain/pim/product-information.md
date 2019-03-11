@@ -1,32 +1,31 @@
 ---
-title: "نظرة عامة على معلومات المنتجات"
-description: "يوفر هذا الموضوع معلومات حول إدارة معلومات المنتج. تعمل إدارة معلومات المنتج مع تعريف منتج مشترك وتصنيفه ومعرّفاته عبر كافة الكيانات القانونية، وكذلك التكوينات الخاصة بمنتج، لاحتوائها في العمليات التجارية."
+title: نظرة عامة على معلومات المنتجات
+description: يوفر هذا الموضوع معلومات حول إدارة معلومات المنتج. تعمل إدارة معلومات المنتج مع تعريف منتج مشترك وتصنيفه ومعرّفاته عبر كافة الكيانات القانونية، وكذلك التكوينات الخاصة بمنتج، لاحتوائها في العمليات التجارية.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363006"
 ---
-
 # <a name="product-information-overview"></a>نظرة عامة على معلومات المنتجات
 
 [!include [banner](../includes/banner.md)]
@@ -58,9 +57,9 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="distribution-export-and-import-of-product-data"></a>توزيع بيانات المنتج وتصديرها واستيرادها
 
-يمكنك إنشاء تعريف المنتج في Microsoft Dynamics 365 for Finance and Operations. ويمكن أيضًا استيراده من إدارة دورة حياة المنتج (PLM) أو إدارة بيانات المنتج (PDM) أو أنظمة إدارة معلومات المنتج (PIM). عند استخدام أكثر من مثيل واحد من Finance and Operations، يتم استخدام مثيل عادةً كأصل بيانات المنتج لكل المثيلات الأخرى. هناك مجموعة كبيرة من كيانات البيانات التي تدعم هذا المنتج، وهي تمكّن تصدير واستيراد بيانات تعريف المنتج من مثيل إلى آخر.
+يمكن إنشاء تعريف المنتج في Microsoft Dynamics 365 for Finance and Operations. ويمكن أيضًا استيراده من إدارة دورة حياة المنتج (PLM) أو إدارة بيانات المنتج (PDM) أو أنظمة إدارة معلومات المنتج (PIM). عند استخدام أكثر من مثيل واحد من Finance and Operations، يتم استخدام مثيل عادةً كأصل بيانات المنتج لكل المثيلات الأخرى. هناك مجموعة كبيرة من كيانات البيانات التي تدعم هذا المنتج، وهي تمكّن تصدير واستيراد بيانات تعريف المنتج من مثيل إلى آخر.
 
-لدعم توزيع بيانات المنتج على عدد كبير من المثيلات، يسمح لك Finance and Operations باستخدام Common Data Service. يمكن تصدير تعريفات المنتج من مثيل Finance and Operations إلى Common Data Service. ثم يمكن استخدام تعريفات المنتج لتزويد تطبيقات الأعمال الأخرى، مثل Microsoft Dynamics 365 for Sales، ببيانات المنتج.
+لدعم توزيع بيانات المنتج على عدد كبير من المثيلات، يسمح لك Finance and Operations باستخدام Common Data Service. يمكن تصدير تعريفات المنتج من مثيل Finance and Operations إلى Common Data Service. بعد ذلك، يمكن استخدام تعريفات المنتج لتزويد تطبيقات الأعمال الأخرى، مثل Microsoft Dynamics 365 for Sales، ببيانات المنتج.
 
 لاحظ أنه في المؤسسات الديناميكية ومنخفضة التكلفة، تتغير معلومات المنتج كل يوم. وبالتالي، يعتبر الحفاظ على بيانات المنتج الفعلية والدقيقة عملية أعمال دقيقة بحد ذاتها.
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 03/26/2018
 ### <a name="manually-creating-a-new-released-product"></a>إنشاء منتج صادر جديد يدويًا
 
 يمكنك إنشاء منتج صادر يدويًا في جولة واحدة، استنادًا إلى عمليات أعمال المؤسسة الإضافة إلى أية قواعد حول ما إذا كان يجب استخدام هذه الوظيفة. تنشئ هذه الوظيفة منتجًا جديدًا وتصدره تلقائيًا في الكيان القانوني الحالي. لإنشاء منتج جديد، انقر فوق **المنتجات الصادرة** في مساحة عمل **صيانة المنتج الذي تم إصداره‬** أو في صفحة قائمة **المنتجات الصادرة**.
-

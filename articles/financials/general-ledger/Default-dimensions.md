@@ -1,13 +1,13 @@
 ---
-title: "الأبعاد المالية والترحيل"
-description: "عندما تقوم بتخطيط دليل الحسابات وإعداده، يجب أن تأخذ في الاعتبار كيف ستعمل المكونات المختلفة مع بعضها عند ترحيل مستند أو دفتر يومية. تتضمن هذه المكونات بنى الحساب والقواعد المتقدمة وأبعاد الموازنة والأبعاد الثابتة. يشرح هذا المقال ماهية كل مكون وكيفية عمل المكونات معًا."
+title: الأبعاد المالية والترحيل
+description: عندما تقوم بتخطيط دليل الحسابات وإعداده، يجب أن تأخذ في الاعتبار كيف ستعمل المكونات المختلفة مع بعضها عند ترحيل مستند أو دفتر يومية. تتضمن هذه المكونات بنى الحساب والقواعد المتقدمة وأبعاد الموازنة والأبعاد الثابتة. يشرح هذا المقال ماهية كل مكون وكيفية عمل المكونات معًا.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327931"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>الأبعاد المالية والترحيل 
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>مكونات دليل الحسابات والأبعاد المالية
 
-يتضمن Microsoft Dynamics 365 for Finance and Operations نظامًا غنيًا يستند إلى القواعد لتحديد المجموعات الصالحة من الحسابات الرئيسية وقيم الأبعاد المالية. يقدم هذا القسم نظرة عامة مختصرة على وظائف كل مكون ويوضح أين يمكنك العثور على المكون.
+يتضمن Microsoft Dynamics 365 for Finance and Operations نظامًا غنيًا قائمًا على القواعد لتعريف مجموعات صالحة من الحسابات الرئيسية وقيم الأبعاد المالية. يقدم هذا القسم نظرة عامة مختصرة على وظائف كل مكون ويوضح أين يمكنك العثور على المكون.
 
 ### <a name="account-structures"></a>بُنى الحسابات
 
@@ -59,7 +58,7 @@ ms.lasthandoff: 03/26/2018
 > [!NOTE]
 > تنطبق هذه المعلومات فقط على تطبيق الأبعاد الافتراضية في التطبيق. إذا قمت باستيراد البيانات باستخدام Microsoft Excel أو إطار عمل إدارة البيانات، فسيكون السلوك مختلفًا.
 
-### <a name="example-1"></a>مثال 1
+### <a name="example-1"></a>مثال1
 
 **بنية الحساب**
 
@@ -128,4 +127,3 @@ ms.lasthandoff: 03/26/2018
 [تعيين البُعد الافتراضي في التوزيعات المحاسبية](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [تعيين البُعد الافتراضي في إطار عمل الأبعاد](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

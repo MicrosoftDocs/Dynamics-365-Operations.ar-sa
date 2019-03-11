@@ -1,38 +1,37 @@
 ---
-title: "ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (17 سبتمبر 2018)"
-description: "يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Microsoft Dynamics 365 for Talent Core HR."
+title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (17 سبتمبر 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
 ms.openlocfilehash: 6586761fc62c13c701e8a8f61e15eedc66e2f751
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303121"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (17 سبتمبر 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (17 سبتمبر 2018)
 
 [!include [banner](includes/banner.md)]
 
 **الإصدار 8.1.154.0**
 
-يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Core HR.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Core HR.
 
 ## <a name="leave-and-absence--accrue-time-based-on-hours-worked"></a>الإجازة والغياب- الوقت المستحق بناءً على عدد ساعات العمل
 
@@ -57,4 +56,3 @@ ms.lasthandoff: 09/20/2018
 ## <a name="bug-fixes"></a>إصلاح الأخطاء
 
 يشمل هذا الإصدار العديد من إصلاحات الأخطاء الإضافية، ويشمل ذلك مراجع لـ ACA و ADA و I9 سوف يتم تمكينها فقط في الشركات الأمريكية.
-

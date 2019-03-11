@@ -1,13 +1,13 @@
 ---
-title: "أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام"
-description: "يوفر هذا الموضوع تلميحات حول استيراد البيانات إلى دفتر اليومية العام باستخدام كيان دفتر اليومية العام."
+title: أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
+description: يوفر هذا الموضوع تلميحات حول استيراد البيانات إلى دفتر اليومية العام باستخدام كيان دفتر اليومية العام.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 29cb4b940875b96cabaff540360674da528f8f39
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322503"
 ---
-
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ ms.lasthandoff: 08/13/2018
 - إذا تم تعيين حقل **رقم الإيصال** إلى **مُنشأ تلقائيًا**، فلن تنجح عملية الاستيراد. فالإعداد **مُنشأ تلقائيًا** المتعلق **برقم الإيصال** غير معتمد.
 
 بشكل افتراضي، يستخدم كيان دفتر اليومية العام المعالجة المستندة إلى مجموعات. بعد تقييم متطلبات العمل لمؤسستك، يمكنك تغيير إعداد **المعالجة المستندة إلى مجموعات** بالنقر فوق **كيانات البيانات** في مساحة عمل **إدارة البيانات**. يُستخدم إعداد "المعالجة المستندة إلى مجموعات" لتسريع عملية الاستيراد. وإذا لم تستخدم إعداد "المعالجة المستندة إلى مجموعات"، فستتم عملية استيراد كيان دفتر اليومية العام ببطء.
-

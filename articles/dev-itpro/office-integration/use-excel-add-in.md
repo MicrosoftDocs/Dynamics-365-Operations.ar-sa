@@ -1,13 +1,13 @@
 ---
-title: "فتح كيان بيانات في Excel وتحديثه باستخدام الوظيفة الإضافية لبرنامج Excel"
-description: "يشرح هذا الموضوع كيفية فتح بيانات الكيان في Microsoft Excel، ثم عرض وتحديث وتحرير البيانات باستخدام الوظيفة الإضافية Microsoft Dynamics Office لبرنامج Excel."
+title: فتح كيان بيانات في Excel وتحديثه باستخدام الوظيفة الإضافية لبرنامج Excel
+description: يشرح هذا الموضوع كيفية فتح بيانات الكيان في Microsoft Excel, ثم عرض وتحديث وتحرير البيانات باستخدام الوظيفة الإضافية Microsoft Dynamics Office لبرنامج Excel.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,26 +17,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340627"
 ---
-
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>فتح كيان بيانات في Excel وتحديثه باستخدام الوظيفة الإضافية لبرنامج Excel
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية فتح بيانات الكيان في Microsoft Excel، ثم عرض وتحديث وتحرير البيانات باستخدام الوظيفة الإضافية Microsoft Dynamics Office لبرنامج Excel. لفتح بيانات الكيان، يمكنك البدء من Excel أو من Microsoft Dynamics 365 for Finance and Operations.
+يشرح هذا الموضوع كيفية فتح بيانات الكيان في Microsoft Excel, ثم عرض وتحديث وتحرير البيانات باستخدام الوظيفة الإضافية Microsoft Dynamics Office لبرنامج Excel. لفتح كيان البيانات، يمكنك البدء إما من Excel أو من Microsoft Dynamics 365 for Finance and Operations.
 
-من خلال فتح بيانات الكيان في Excel، يمكنك أن تقوم بسرعة وسهولة بعرض وتحرير البيانات باستخدام وظيفة Excel الإضافية. هذه الوظيفة الإضافية تتطلب Microsoft Excel 2016.
+من خلال فتح بيانات الكيان في Excel، يمكنك أن تقوم بسرعة وسهولة بعرض وتحرير البيانات باستخدام وظيفة Excel الإضافية. هذه الوظيفة الإضافية برنامج Microsoft Excel 2016.
 
 > [!NOTE]
-> إذا تم تكوين مستأجر Microsoft Azure Active Directory ‏(Azure AD) لاستخدام خدمات الأمان المشترك لـ Active Directory‬ (أو AD FS)، فيجب التأكد من تطبيق تحديث مايو 2016 لـ Office، لتمكين وظيفة Excel الإضافية من تسجيل دخولك بشكل صحيح.
+> إذا تم تكوين مستأجر Microsoft Azure Active Directory (Azure AD) لاستخدام خدمات الأمان المشترك لـ Active Directory‬ (أو AD FS)، فيجب التأكد من تطبيق تحديث مايو 2016 لـ Office، لتمكين وظيفة Excel الإضافية من تسجيل دخولك بشكل صحيح.
 
-لمزيد من المعلومات حول استخدام الأداة الإضافية لـ Excel، شاهد الفيديو القصير [إنشاء قالب Excel لأنماط العناوين والبنود في Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+لمزيد من المعلومات حول استخدام أداة Excel الإضافية، شاهد الفيديو القصير [إنشاء قالب Excel لأنماط الرؤوس والبنود في Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>فتح بيانات الكيان في Excel عند بدء التشغيل من Finance and Operations
 1. على صفحة في Finance and Operations، حدد **فتح في Microsoft Office**.
@@ -52,7 +51,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>فتح بيانات الكيان في Excel عند بدء التشغيل من Excel
 1. في Excel، على علامة التبويب **إدراج**، في مجموعة **الوظائف الإضافية**، حدد **متجر** لفتح متجر Office.
-2. في متجر Office، ابحث عن الكلمة الأساسية **Dynamics‎**، وانقر فوق **إضافة** إلى جانب **وظيفة Microsoft Dynamics Office الإضافية** (وظيفة Excel الإضافية).
+2. في متجر Office، ابحث عن الكلمة الأساسية **Dynamics**، ثم حدد **إضافة‏‎** إلى جانب **وظيفة Microsoft Dynamics Office الإضافية** (وظيفة Excel الإضافية).
 3. إذا كنت تقوم بتشغيل وظيفة Excel الإضافية للمرة الأولى، فحدد **الثقة بهذه الوظيفة الإضافية** لتمكين تشغيل وظيفة Excel الإضافية. يتم تشغيل وظيفة Excel الإضافية في جزء يقع على الجانب الأيسر من نافذة Excel.
 4. حدد **إضافة معلومات الخادم** لفتح الجزء **خيارات**.
 5. في المستعرض، انسخ عنوان URL لمثيل Finance and Operations الهدف، والصقه في حقل **URL‏‎ الخادم**، ثم احذف كل شيء بعد اسم المضيف. يجب أن يتضمن عنوان URL الناتج فقط اسم المضيف.
@@ -125,4 +124,3 @@ ms.lasthandoff: 08/08/2018
 - **‬‏‫ظهور زر تحميل البرامج** - إذا تضمنت وظيفة Excel الإضافية الزر **تحميل البرامج‬** بعد تسجيل الدخول، فهذا يعني على الأرجح أنك لم تسجل دخولك كمستخدم صحيح. لحل هذه المشكلة، تحقق من ظهور اسم المستخدم الصحيح في الزاوية اليسرى العليا من وظيفة Excel الإضافية. إذا ظهر اسم مستخدم غير صحيح، فحدده، وسجّل خروجك، ثم سجّل دخولك مرة أخرى.
 - **‬‏‫تلقيت رسالة "ممنوع"** – إذا تلقيت رسالة "ممنوع" أثناء قيام وظيفة Excel الإضافية بتحميل بيانات التعريف، فهذا يعني أن الحساب الذي سجل دخوله إلى وظيفة Excel الإضافية لا يملك الأذونات الكافية لاستخدام الخدمة أو المثيل أو قاعدة البيانات المستهدفة. لحل هذه المشكلة، تحقق من ظهور اسم المستخدم الصحيح في الزاوية اليسرى العليا من وظيفة Excel الإضافية. إذا ظهر اسم مستخدم غير صحيح، فحدده، وسجّل خروجك، ثم سجّل دخولك مرة أخرى.
 - **‬‏‫ظهور صفحة ويب فارغة على Excel** – إذا تم فتح صفحة ويب فارغة أثناء عملية تسجيل الدخول، فهذا يعني أن الحساب يحتاج إلى AD FS، ولكن إصدار وظيفة Excel الإضافية الذي يقوم بتشغيل الوظيفة الإضافية ليس حديثًا بشكل كافٍ لكي يتمكن من تحميل مربع حوار تسجيل الدخول. لحل هذه المشكلة، قم بتحديث إصدار Excel الذي تستخدمه. لتحديث إصدار Excel عندما تكون في مؤسسة موجودة على القناة المؤجلة، استخدم [أداة نشر Office](https://technet.microsoft.com/library/jj219422.aspx) من أجل [الانتقال من القناة المؤجلة إلى القناة الحالية](https://technet.microsoft.com/library/mt455210.aspx).
-

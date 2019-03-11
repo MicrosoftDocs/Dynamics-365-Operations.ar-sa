@@ -1,35 +1,34 @@
 ---
-title: "الحصول على الدعم لـ Dynamics 365 for Retail"
-description: "توضح هذه المقالة كيفية الحصول على تعليمات بخصوص Microsoft Dynamics 365 for Retail. "
+title: الحصول على الدعم لتطبيق Dynamics 365 for Retail
+description: يشرح هذا المقال كيفية الحصول على تعليمات حول Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364041"
 ---
-
-# <a name="get-support-for-dynamics-365-for-retail"></a>الحصول على الدعم لـ Dynamics 365 for Retail
+# <a name="get-support-for-dynamics-365-for-retail"></a>الحصول على الدعم لتطبيق Dynamics 365 for Retail
 
 [!include [banner](../includes/banner.md)]
 
-توضح هذه المقالة كيفية الحصول على تعليمات بخصوص Dynamics 365 for Retail. 
+يشرح هذا المقال كيفية الحصول على تعليمات حول Dynamics 365 for Retail.
 
 ## <a name="contact-support"></a>الاتصال بالدعم
 
@@ -43,13 +42,13 @@ ms.lasthandoff: 01/04/2019
 <thead>
 <tr>
 <th>المهمة</th>
-<th>مزيد من المعلومات</th>
+<th>معلومات إضافية</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>طرح سؤال على المجتمع.</td>
-<td>انتقل إلى صفحة <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> للبحث عن المساعدة فيما يتعلق بأسئلتك من مجتمع Dynamics.</td>
+<td>انتقل إلى صفحة مجتمع <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> للبحث عن المساعدة فيما يتعلق بأسئلتك من مجتمع Dynamics.</td>
 </tr>
 <tr>
 <td>استخدم أداة البحث عن المشاكل.</td>
@@ -67,12 +66,12 @@ ms.lasthandoff: 01/04/2019
 </tr>
 <tr>
 <td>فتح بطاقة مع فريق الدعم.</td>
-<td>إذا واجهت مشكلة ما عند محاولة إرسال بطاقة إلى Microsoft من لوحة <strong>الدعم</strong> في LCS، فراجع <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">الاتصال بدعم Microsoft Business Solutions</a> للحصول على معلومات حول كيفية الاتصال بمركز العمليات الإقليمية في Microsoft Dynamics. باستطاعة فريق الدعم أن يساعدك في حل أنواع المشاكل التقنية التالية:
+<td>إذا واجهت مشكلة ما عند محاولة إرسال تذكرة إلى Microsoft من لوحة <strong>الدعم</strong> في LCS، فراجع <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">الاتصال بدعم Microsoft Business Solutions</a> للحصول على معلومات حول كيفية الاتصال بمركز العمليات الإقليمية في Microsoft Dynamics Regional Operations Center. باستطاعة فريق الدعم أن يساعدك في حل أنواع المشاكل التقنية التالية:
 <ul>
 <li>الأخطاء التي تحدث عند استخدام LCS أو المشاكل التي تحدث عند محاولة الوصول إلى LCS.</li>
 <li>الأخطاء التي تحدث عند استخدامك لـ Retail.</li>
 </ul>
-للأسئلة التقنية المتعلقة بتسجيل الدخول والوصول إلى CustomerSource، والتعلم الإلكتروني والبحث وقاعدة المعارف وتنزيل الملفات وأخطاء الصفحة أو النظام، انتقل إلى <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">دعم موقع ويب</a>.</td>
+بالنسبة إلى الأسئلة التقنية المتعلقة بتسجيل الدخول والوصول إلى CustomerSource، والتعلم الإلكتروني والبحث وقاعدة المعارف وتنزيل الملفات وأخطاء الصفحة أو النظام، انتقل إلى <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">دعم موقع ويب</a>.</td>
 </tr>
 <tr>
 <td>الحصول على المساعدة بشأن الأسئلة المتعلقة بترخيص Retail أو Finance and Operations.</td>
@@ -85,5 +84,4 @@ ms.lasthandoff: 01/04/2019
 </tbody>
 </table>
 
-لمزيد من المعلومات حول عروض الدعم من Microsoft Dynamics، راجع [دعم Microsoft Dynamics عبر الإنترنت](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
-
+لمزيد من المعلومات حول عروض دعم Microsoft Dynamics، راجع [دعم Microsoft Dynamics عبر الإنترنت](https://dynamics.microsoft.com/en-us/support/).

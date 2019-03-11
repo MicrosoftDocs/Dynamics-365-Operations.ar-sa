@@ -1,13 +1,13 @@
---- 
-title: "مراجعة معلومات التحصيلات"
-description: "يرشدك هذا الإجراء خلال كيفية مراجعة معلومات التحصيلات بالإضافة إلى خيارات الإعداد وحركات التحصيلات المختلفة."
+---
+title: مراجعة معلومات التحصيلات
+description: يرشدك هذا الإجراء خلال كيفية مراجعة معلومات التحصيلات بالإضافة إلى خيارات الإعداد وحركات التحصيلات المختلفة.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349091"
 ---
 # <a name="review-collections-information"></a>مراجعة معلومات التحصيلات
 
@@ -131,5 +131,4 @@ ms.lasthandoff: 09/29/2017
     * حدد حالة التحصيلات التي تم تعيينها إلى العميل أو اترك هذا الحقل فارغًا. إذا تم تحديد حالة، فلن يتم عرض إلا الحركات والأنشطة المرتبطة بالحالة في هذا النموذج.  
 8. انقر فوق "إظهار القائمة".
     * حدد أحد حسابات العملاء أو اقبل الإدخال الافتراضي. بشكل افتراضي، هذا هو حساب العميل المحدد على صفحة القائمة أو في النموذج الذي قمت بفتح هذا النموذج منه. إذا قمت بفتح النموذج من صفحة قائمة، فإن العملاء في القائمة هم العملاء الذين تم تضمينهم في وعاء التحصيلات المستخدم في صفحة القائمة.  
-
 

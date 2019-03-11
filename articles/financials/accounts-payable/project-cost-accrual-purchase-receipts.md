@@ -1,13 +1,13 @@
 ---
-title: "استحقاق تكلفة المشروع في إيصالات الشراء"
-description: "يوضح هذا الموضوع كيفية تعقب تكاليف المشروع المستحقة من إيصالات الشراء في Microsoft Dynamics 365 for Finance and Operations."
+title: استحقاق تكلفة المشروع في إيصالات الشراء
+description: يوضح هذا الموضوع كيفية تعقب تكاليف المشروع المستحقة من إيصالات الشراء في Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc822652abbba68f094fe5b8a65f796165a92c4c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9a74b684e955376b9c3036954f4a6e6628c468f0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340420"
 ---
-
 # <a name="project-cost-accrual-on-purchase-receipts"></a>استحقاق تكلفة المشروع في إيصالات الشراء
 
 [!include [banner](../includes/banner.md)]
@@ -82,7 +81,6 @@ ms.lasthandoff: 03/26/2018
 [![استحقاقات9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 سوف تظل فاتورة المورد في وضع معلق حتى وصول فاتور المورد الفعلية.
-
 
 
 

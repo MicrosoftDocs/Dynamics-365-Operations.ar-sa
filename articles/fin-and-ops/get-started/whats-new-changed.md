@@ -1,13 +1,13 @@
 ---
-title: "ما الجديد أو التغيير"
-description: "تشير هذه الصفحة إلى مواضيع بإمكانها مساعدتك في التعرف على الميزات الجديدة الموجودة في الإصدارات الأحدث من Microsoft Dynamics 365 for Finance and Operations."
+title: ما الجديد أو المتغير
+description: تشير هذه الصفحة إلى مواضيع بإمكانها مساعدتك في التعرف على الميزات الجديدة الموجودة في الإصدارات الأحدث من Microsoft Dynamics 365 for Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 12/05/2018
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 982b72b3fd71d58038218e007f9f3790874ceddc
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
-ms.openlocfilehash: 7d2a334792655a762c136a367c43ad56393001f5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377195"
 ---
-
-# <a name="whats-new-or-changed"></a>ما الجديد أو التغيير
+# <a name="whats-new-or-changed"></a>ما الجديد أو المتغير
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,82 +44,89 @@ ms.lasthandoff: 12/18/2018
 <thead>
 <tr>
 <th>الإصدار</th>
-<th>إصدار</th>
-<th>رقم الإنشاء</th>
+<th>الإصدار</th>
+<th>رقم النسخة</th>
 <th>التوفر</th>
-<th>تعرف على المزيد</th>
+<th>معرفة المزيد</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0</td>
+<td>10.0.8</td>
+<td>2019 أبريل</td>
+<td><a href="whats-new-changed-10.md">ما الجديد أو المتغير في الإصدار 10.0 من Dynamics 365 for Finance and Operations (أبريل 2019)</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1.3</td>
 <td>8.1.227</td>
 <td>يناير 2019</td>
-<td><a href="whats-new-changed-8-1-3.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations، إصدار 8.1.3 (يناير 2019)</a></td>
+<td><a href="whats-new-changed-8-1-3.md">ما الجديد أو المتغير في الإصدار 8.1.3 من Dynamics 365 for Finance and Operations (يناير 2019)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1.2</td>
 <td>8.1.195</td>
 <td>2018 ديسمبر</td>
-<td><a href="whats-new-changed-8-1-2.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations، إصدار 8.1.2 (ديسمبر 2018)</a></td>
+<td><a href="whats-new-changed-8-1-2.md">ما الجديد أو المتغير في الإصدار 8.1.2 من Dynamics 365 for Finance and Operations (ديسمبر 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1.1</td>
 <td>8.1.170</td>
 <td>2018 أكتوبر</td>
-<td><a href="whats-new-changed-8-1-1.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations، إصدار 8.1.1 (أكتوبر 2018)</a></td>
+<td><a href="whats-new-changed-8-1-1.md">ما الجديد أو المتغير في الإصدار 8.1.1 من Dynamics 365 for Finance and Operations (أكتوبر 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1</td>
 <td>8.1.136</td>
 <td>2018 أكتوبر</td>
-<td><a href="whats-new-changed-8-1-October-2018.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations، إصدار 8.1 (أكتوبر 2018)</a></td>
+<td><a href="whats-new-changed-8-1-October-2018.md">ما الجديد أو المتغير في الإصدار 8.1 من Dynamics 365 for Finance and Operations (أكتوبر 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.0</td>
 <td>8.0.30, 8.0.35</td>
 <td>2018 أبريل</td>
-<td><a href="whats-new-changed-8-0-April-2018.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations، إصدار 8.0 (أبريل 2018)</a></td>
+<td><a href="whats-new-changed-8-0-April-2018.md">ما الجديد أو المتغير في الإصدار 8.0 من Dynamics 365 for Finance and Operations (أبريل 2018)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
 <td>2017 ديسمبر</td>
-<td><a href="whats-new-application-7.3-update.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition 7.3</a></td>
+<td><a href="whats-new-application-7.3-update.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations, Enterprise edition 7.3</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>2017 يوليو</td>
 <td>7.2.11792.56024</td>
 <td>2017 يونيو</td>
-<td><a href="whats-new-application-July-2017-update.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017)</a></td>
+<td><a href="whats-new-application-July-2017-update.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations, Enterprise edition (يوليو 2017)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Operations</td>
 <td>1611</td>
 <td>7.1.1541.3036</td>
 <td>نوفمبر 2016</td>
-<td><a href="whats-new-dynamics-365-operations-1611.md">الميزات الجديدة أو المتغيرة في الإصدار 1611 من Dynamics 365 for Operations (نوفمبر 2016)</a></td>
+<td><a href="whats-new-dynamics-365-operations-1611.md">ما الجديد أو المتغير في الإصدار 1611 من Dynamics 365 for Operations (نوفمبر 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
 <td>7.0.1</td>
 <td>7.0.1265.23014</td>
 <td>2016 مايو</td>
-<td><a href="whats-new-changed-application-version-7-0-1-may-2016.md">الميزات الجديدة أو المتغيرة في الإصدار 7.0.1 من تطبيق Dynamics AX (مايو 2016)</a></td>
+<td><a href="whats-new-changed-application-version-7-0-1-may-2016.md">ما الجديد أو المتغير في الإصدار 7.0.1 من تطبيق Dynamics AX (مايو 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
 <td>7.0</td>
 <td>7.0.1265.3015</td>
 <td>2016 فبراير</td>
-<td><a href="whats-new-changed-7-0-february-2016.md">الميزات الجديدة أو المتغيرة في Dynamics AX 7.0 (فبراير 2016)</a></td>
+<td><a href="whats-new-changed-7-0-february-2016.md">ما الجديد أو المتغير في Dynamics AX 7.0 (فبراير 2016)</a></td>
 </tr>
 </tbody>
 </table>
@@ -131,139 +137,145 @@ ms.lasthandoff: 12/18/2018
 <thead>
 <tr>
 <th>الإصدار</th>
-<th>‏‏الإصدار</th>
-<th>رقم الإنشاء</th>
+<th>الإصدار</th>
+<th>رقم النسخة</th>
 <th>التوفر</th>
-<th>تعرف على المزيد</th>
+<th>معرفة المزيد</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platform update 23</td>
+<td>update 24 للنظام الأساسي</td>
+<td>7.0.5179</td>
+<td>2019 مارس</td>
+<td><a href="whats-new-platform-update-24.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations platform update 24 (مارس 2019)</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>update 23 للنظام الأساسي</td>
 <td>7.0.5126</td>
 <td>يناير 2019</td>
-<td><a href="whats-new-platform-update-23.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations platform update 23 (يناير 2019)</a></td>
+<td><a href="whats-new-platform-update-23.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations platform update 23 (يناير 2019)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platform update 22</td>
+<td>update 22 للنظام الأساسي</td>
 <td>7.0.5095</td>
 <td>2018 ديسمبر</td>
-<td><a href="whats-new-platform-update-22.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations platform update 22 (ديسمبر 2018)</a></td>
+<td><a href="whats-new-platform-update-22.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations platform update 22 (ديسمبر 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platform update 21</td>
+<td>update 21 للنظام الأساسي</td>
 <td>7.0.5073</td>
-<td>2018 أكتوبر</td>
-<td><a href="whats-new-platform-update-21.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations platform update 21 (أكتوبر 2018)</a></td>
+<td>نوفمبر 2018</td>
+<td><a href="whats-new-platform-update-21.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations platform update 21 (نوفمبر 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platform update 20</td>
+<td>update 20 للنظام الأساسي</td>
 <td>7.0.5030</td>
 <td>2018 سبتمبر</td>
-<td><a href="whats-new-platform-update-20.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations platform update 20 (سبتمبر 2018)</a></td>
+<td><a href="whats-new-platform-update-20.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations platform update 20 (سبتمبر 2018)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
-<td>Platform update 15</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>update 15 للنظام الأساسي</td>
 <td>7.0.4841</td>
 <td>2018 مارس</td>
-<td><a href="whats-new-platform-update-15.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition platform update 15 (مارس 2018)</a></td>
+<td><a href="whats-new-platform-update-15.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations, Enterprise edition platform update 15 (مارس 2018)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
-<td>Platform update 12</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>update 12 للنظام الأساسي</td>
 <td>7.0.4709</td>
 <td>نوفمبر 2017</td>
-<td><a href="whats-new-platform-update-12.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition platform update 12 (نوفمبر 2017)</a></td>
+<td><a href="whats-new-platform-update-12.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations, Enterprise edition platform update 12 (نوفمبر 2017)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
-<td>Platform update 11</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>update 11 للنظام الأساسي</td>
 <td>7.0.4679.35176</td>
 <td>2017 أكتوبر</td>
-<td><a href="whats-new-platform-update-11.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition platform update 11 (أكتوبر 2017)</a></td>
+<td><a href="whats-new-platform-update-11.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations, Enterprise edition platform update 11 (أكتوبر 2017)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
-<td>Platform update 10</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>update 10 للنظام الأساسي</td>
 <td>7.0.4641.16233</td>
 <td>2017 أغسطس</td>
-<td><a href="whats-new-platform-update-10.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition platform update 10 (أغسطس 2017)</a></td>
+<td><a href="whats-new-platform-update-10.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations, Enterprise edition platform update 10 (أغسطس 2017)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
-<td>Platform update 9</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>update 9 للنظام الأساسي</td>
 <td>7.0.4612.35162</td>
 <td>2017 يوليو</td>
-<td><a href="whats-new-platform-update-9.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition platform update 9 (يوليو 2017)</a></td>
+<td><a href="whats-new-platform-update-9.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations, Enterprise edition platform update 9 (يوليو 2017)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations، إصدار Enterprise</td>
-<td>Platform update 8</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>update 8 للنظام الأساسي</td>
 <td>7.0.4565.16212</td>
 <td>2017 يونيو</td>
-<td><a href="whats-new-platform-update-8.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Enterprise edition platform update 8 (يونيو 2017)</a></td>
+<td><a href="whats-new-platform-update-8.md">ما الجديد أو المتغير في Dynamics 365 for Finance and Operations, Enterprise edition platform update 8 (يونيو 2017)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Operations</td>
-<td>Platform update 7</td>
+<td>update 7 للنظام الأساسي</td>
 <td>7.0.4542.16189</td>
 <td>2017 مايو</td>
-<td><a href="whats-new-platform-update-7.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Operations platform update 7 (مايو 2017)</a></td>
+<td><a href="whats-new-platform-update-7.md">ما الجديد أو المتغير في Dynamics 365 for Operations platform update 7 (مايو 2017)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
-<td>Platform update 6</td>
+<td>update 6 للنظام الأساسي</td>
 <td>7.0.4509.16180</td>
 <td>2017 أبريل</td>
-<td><a href="whats-new-platform-update-6.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Operations platform update 6 (أبريل 2017)</a></td>
+<td><a href="whats-new-platform-update-6.md">ما الجديد أو المتغير في Dynamics 365 for Operations platform update 6 (أبريل 2017)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
-<td>Platform update 5</td>
+<td>update 5 للنظام الأساسي</td>
 <td>7.0.4475.16165</td>
 <td>2017 مارس</td>
-<td><a href="whats-new-platform-update-5.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Operations platform update 5 (مارس 2017)</a></td>
+<td><a href="whats-new-platform-update-5.md">ما الجديد أو المتغير في Dynamics 365 for Operations platform update 5 (مارس 2017)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
-<td>Platform update 4</td>
+<td>update 4 للنظام الأساسي</td>
 <td>7.0.4425.16161</td>
 <td>2017 فبراير</td>
-<td><a href="whats-new-platform-update-4.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Operations platform update 4 (فبراير 2017)</a></td>
+<td><a href="whats-new-platform-update-4.md">ما الجديد أو المتغير في Dynamics 365 for Operations platform update 4 (فبراير 2017)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
-<td>Platform update 3</td>
+<td>update 3 للنظام الأساسي</td>
 <td>7.0.4307.16141</td>
 <td>نوفمبر 2016</td>
-<td><a href="whats-new-platform-update-3.md">الميزات الجديدة أو المتغيرة في Dynamics 365 for Operations platform update 3 (نوفمبر 2016)</a></td>
+<td><a href="whats-new-platform-update-3.md">ما الجديد أو المتغير في Dynamics 365 for Operations platform update 3 (نوفمبر 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
-<td>Platform update 2</td>
+<td>update 2 للنظام الأساسي</td>
 <td>7.0.4230.16130</td>
 <td>2016 أغسطس</td>
-<td><a href="whats-new-platform-update-2.md">الميزات الجديدة أو المتغيرة في Dynamics AX platform update 2 (أغسطس 2016)</a></td>
+<td><a href="whats-new-platform-update-2.md">ما الجديد أو المتغير في Dynamics AX platform update 2 (أغسطس 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
-<td>Platform update 1</td>
+<td>update 1 للنظام الأساسي</td>
 <td>7.0.4127.16103</td>
 <td>2016 مايو</td>
-<td><a href="whats-new-changed-platform-version-7-1-may-2016.md">الميزات الجديدة أو المتغيرة في Dynamics AX platform update 1 (مايو 2016)</a></td>
+<td><a href="whats-new-changed-platform-version-7-1-may-2016.md">ما الجديد أو المتغير في Dynamics AX platform update 1 (مايو 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
 <td>7.0</td>
 <td>7.0.4030.16079</td>
 <td>2016 فبراير</td>
-<td><a href="whats-new-changed-7-0-february-2016.md">الميزات الجديدة أو المتغيرة في Dynamics AX 7.0 (فبراير 2016)</a></td>
+<td><a href="whats-new-changed-7-0-february-2016.md">ما الجديد أو المتغير في Dynamics AX 7.0 (فبراير 2016)</a></td>
 </tr>
 </tbody>
 </table>
-

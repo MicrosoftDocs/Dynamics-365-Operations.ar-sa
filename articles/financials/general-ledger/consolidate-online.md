@@ -1,14 +1,14 @@
 ---
-title: "عمليات الدمج المالية عبر الإنترنت"
-description: "يصف هذا الموضوع عمليات الدمج المالية في دفتر الأستاذ العام."
+title: عمليات الدمج المالية عبر الإنترنت
+description: يصف هذا الموضوع عمليات الدمج المالية في دفتر الأستاذ العام.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 2a9ceb774a8f205e39abe6a12a0deb69dd4cb69b
 ms.openlocfilehash: fd29dc5f932c9cd274a42923e1ff659dd5d8e9d6
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341248"
 ---
-
 # <a name="consolidate-online"></a>تجميع عبر الإنترنت
 
 [!include [banner](../includes/banner.md)]
@@ -90,11 +89,10 @@ ms.lasthandoff: 08/20/2018
 - **تاريخ الحركة** – التاريخ الذي سيتم فيه استخدام كل حركة لتحديد سعر صرف. يُستخدم هذا الخيار في الكثير من الأحيان للأصول الثابتة وغالبًا ما يشار إليه بالسعر السابق. لا يمكنك رؤية معاينة للسعر نظرًا لوجود أسعار كثيرة لمختلف الحركات في نطاق الحساب.
 - **سعر معرف من قِبل المستخدم‬** – بعد تحديد هذا الخيار، يمكنك إدخال سعر الصرف الذي تريده قد يكون هذا الخيار مفيدًا لمتوسط أسعار الصرف أو إذا كنت تقوم بالدمج مقابل سعر صرف ثابت.
 
-![علامة تبويب تحويل العملة‬](./media/currency-translation-cons-online.png "تحويل العملة‬")
+![تحويل العملة‬](./media/currency-translation-cons-online.png "تحويل العملة‬")
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 لمزيد من المعلومات حول الدمج وتحويل العملة‬، راجع الموضوع الأصل لهذا الموضوع، [عمليات الدمج المالية وتحويل العملات‬](./financial-consolidations-currency-translation.md).
 
 لمزيد من المعلومات حول السيناريوهات حيث قد تنشئ قوائم مالية مدمجة، راجع [إنشاء قوائم مالية مدمجة‬](./generating-consolidated-financial-statements.md).
-

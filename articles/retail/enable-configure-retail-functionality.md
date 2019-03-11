@@ -1,13 +1,13 @@
 ---
-title: "تهيئة بيانات القيم الأولية في بيئات البيع بالتجزئة الجديدة"
-description: "توضح هذه المقالة البيانات التي تم إنشاؤها كجزء من عملية تهيئة Microsoft Dynamics 365 for Retail."
+title: تهيئة بيانات القيم الأولية في بيئات البيع بالتجزئة الجديدة
+description: تصف هذه المقالة البيانات التي يتم إنشاؤها كجزء من عملية تهيئة Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,28 +19,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: ar-sa
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327885"
 ---
-
-# <a name="initialize-seed-data-in-new-retail-environments"></a>تهيئة بيانات القيم الأولية في بيئات البيع بالتجزئة الجديدة
+# <a name="initialize-seed-data-in-new-retail-environments"></a>تهيئة بيانات إضافة قاعدة بيانات في بيئات Retail الجديدة
 
 [!include [banner](includes/banner.md)]
 
-توضح هذه المقالة البيانات التي تم إنشاؤها كجزء من عملية تهيئة Microsoft Dynamics 365 for Retail.
+تصف هذه المقالة البيانات التي يتم إنشاؤها كجزء من عملية تهيئة Microsoft Dynamics 365 for Retail.
 
-بعد أنه تم نشر حل البيع بالتجزئة من خلال Microsoft Dynamics Lifecycle Services ‏(LCS)، يجب عليك تهيئة تكوين البيع بالتجزئة لإنشاء بيانات التكوين الأساسية.
+بعد نشر حل البيع بالتجزئة من خلال Microsoft Dynamics Lifecycle Services (LCS)، يجب عليك تهيئة تكوين البيع بالتجزئة لإنشاء بيانات التكوين الأساسية.
 
 > [!IMPORTANT]
 > قبل تهيئة تكوين البيع بالتجزئة، تأكد من أنك حددت لغة وعنوان بريدي لكل كيان قانوني حيث ستقوم بإعداد متاجر البيع بالتجزئة. ويجب إكمال هذه الخطوة لكل كيان قانوني تستخدمه للبيع بالتجزئة.
 
 وتهيئة تكوين البيع بالتجزئة، اتبع الخطوات التالية.
 
-1. بدء عميل Dynamics 365 for Retail.
+1. ابدأ تشغيل عميل Dynamics 365 for Retail.
 2. انقر فوق **البيع بالتجزئة** &gt; **إعداد المقر الرئيسي** &gt; **المعلمات** &gt; **معلمات البيع بالتجزئة**.
 3. انقر فوق **تهيئة**.
 
@@ -56,7 +55,7 @@ ms.lasthandoff: 01/04/2019
 - تقارير القناة
 - بيانات تعريف السمة
 - قوالب التحقق من صحة الكيان
-- الوظيفة الدُفعية لإزالة محفوظات جلسات Commerce Data Exchange
+- وظيفة دًفعية لحذف محفوظات جلسات عمل Commerce Data Exchange
 
 بالإضافة إلى ذلك، يتم تمكين التسجيل المتعلق بصناعة بطاقات الدفع (PCI) لقاعدة بيانات Dynamics 365 for Retail.
 
@@ -70,4 +69,3 @@ ms.lasthandoff: 01/04/2019
 - قنوات البيع بالتجزئة
 - السجلات والأجهزة
 - عمليات الفرز
-

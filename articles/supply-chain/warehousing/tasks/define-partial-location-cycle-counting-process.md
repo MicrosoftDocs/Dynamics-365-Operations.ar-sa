@@ -1,13 +1,13 @@
---- 
-title: "تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫ "
-description: "عندما تستخدم خطط الجرد الدوري لإنشاء عمل الجرد، يمكنك إرشاد عمليات الجرد الفعلية عن طريق طلب إجراء عمليات جرد لمنتجات ومتغيرات منتجات معينة فقط بدلاً من جر كل المخزون الفعلي في الموقع."
+---
+title: 'تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫ '
+description: عندما تستخدم خطط الجرد الدوري لإنشاء عمل الجرد، يمكنك إرشاد عمليات الجرد الفعلية عن طريق طلب إجراء عمليات جرد لمنتجات ومتغيرات منتجات معينة فقط بدلاً من جر كل المخزون الفعلي في الموقع.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 030f0f75d64c97f1109f36c9fd38283c2d1fa7b0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373382"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫  
 
@@ -71,5 +71,4 @@ ms.lasthandoff: 09/29/2017
 13. في الحقل "المعايير‬"، أدخل قيمة أو حددها.
 14. انقر فوق "موافق".
 15. قم بإغلاق الصفحة.
-
 

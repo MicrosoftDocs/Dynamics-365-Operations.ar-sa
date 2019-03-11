@@ -1,32 +1,31 @@
 ---
-title: "إعداد مستودع باستخدام قالب تكوين مستودع"
-description: "يشرح هذا الموضوع طريقة إعداد مستودع باستخدام قالب تكوين مستودع."
+title: إعداد مستودع باستخدام قالب تكوين مستودع
+description: يشرح هذا الموضوع طريقة إعداد مستودع باستخدام قالب تكوين مستودع.
 author: perlynne
 manager: AnnBe
 ms.date: 11/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338051"
 ---
-
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>إعداد مستودع باستخدام قالب تكوين مستودع
 
 [!include [banner](../includes/banner.md)]
@@ -94,9 +93,8 @@ ms.lasthandoff: 05/23/2018
 
 يوفر عرض **سجل التنفيذ** معلومات مفصلة حول كيان البيانات التي تم استيرادها. يمكنك استخدام ‏‫عرض بيانات التشغيل المرحلي‬ للوصول بسرعة إلى البيانات الهدف. وبهذه الطريقة، يمكنك مشاهدة الطريقة التي تبدو عليها البيانات المستوردة في الصفحات ذات الصلة في استمارة التقديم. عند استخدام قوالب البيانات الافتراضية، يعمل استيراد التسلسل لكل كيان من كيانات البيانات بالطريقة المحددة مسبقاً، للمساعدة في ضمان أن يتم استيراد كافة البيانات التابعة أولاً. إذا كانت كيانات البيانات المخصصة جزءًا من المشروع، فيجب التأكد من تحديد التسلسل الصحيح. لمزيد من المعلومات، راجع [‬‏‫قوالب بيانات التكوين](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-لمعرفة المزيد من المعلومات حول كيفية استخدام قالب مستودع لنسخ تكوين مستودع من شركة إلى شركة جديدة داخل نفس المثيل، شاهد هذا الفيديو ومدته 3 دقائق على YouTube: [استخدام قالب المستودع لنسخ التكوين في Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+لمعرفة المزيد حول كيفية استخدام قالب المستودع لنسخ تكوين مستودع من شركة إلى شركة جديدة داخل المثيل نفسه، راجع هذا الفيديو ومدته 3 دقائق على YouTube: [استخدام قالب المستودع لنسخ التكوين في Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>مواضيع مرتبطة
 
 [قوالب بيانات التكوين](../../dev-itpro/data-entities/configuration-data-templates.md)
-

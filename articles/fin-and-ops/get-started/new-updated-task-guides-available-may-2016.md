@@ -1,13 +1,13 @@
 ---
-title: "دلائل المهام الجديدة أو المحدثة (مايو 2016)"
-description: "‏‫تسرد هذه المقالة دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (مايو 2016 -- كل اللغات) لتطبيق Microsoft Dynamics AX. لم يتم إصدار مكتبة بدء استخدام جديدة."
+title: دلائل المهام الجديدة أو المحدثة (مايو 2016)
+description: يسرد هذا المقال دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (مايو 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX. لم يتم إصدار مكتبة بدء استخدام جديدة.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,30 +17,29 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341340"
 ---
-
 # <a name="new-or-updated-task-guides-may-2016"></a>دلائل المهام الجديدة أو المحدثة (مايو 2016)
 
 [!include [banner](../includes/banner.md)]
 
-‏‫تسرد هذه المقالة دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (مايو 2016 -- كل اللغات) لتطبيق Microsoft Dynamics AX. لم يتم إصدار مكتبة بدء استخدام جديدة. 
+يسرد هذا المقال دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (مايو 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX. لم يتم إصدار مكتبة بدء استخدام جديدة. 
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (مايو 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
 
-تحتوي المكتبة الموحدة APQC (مايو 2016) على دلائل المهام المخصصة للاستخدام مع تعليمات تحديث مايو 2016 لتطبيق Microsoft Dynamics AX وإصدار فبراير 2016 لتطبيق Microsoft Dynamics AX. تتوفر الإصدارات المترجمة من دلائل المهام التي تم إصدارها في المكتبة الموحدة APQC (فبراير 2016) في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md).
+تحتوي المكتبة الموحدة APQC (مايو 2016) على دلائل المهام المخصصة للاستخدام للتعليمات مع تحديث مايو 2016 من Microsoft Dynamics AX وإصدار فبراير 2016 من Microsoft Dynamics AX. تتوفر الإصدارات المترجمة من دلائل المهام التي تم إصدارها في المكتبة الموحدة APQC (فبراير 2016) في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md).
 
 > [!NOTE]
-> تشير العلامة النجمية (\*) إلى جانب عنوان بند أداة تكوين عمليات الأعمال إلى إنشاء دليل المهام لعملية الأعمال هذه قد تم لتحديث مايو 2016 لتطبيق Dynamics AX، وهو غير معتمد في الإصدارات السابقة من Microsoft Dynamics AX.
+> تشير العلامة النجمية (\*) إلى جانب عنوان بند أداة تكوين عمليات الأعمال إلى إنشاء دليل المهام لعملية الأعمال هذه لتحديث مايو 2016 لتطبيق Dynamics AX وهو غير معتمد في الإصدارات السابقة من Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>وظيفة البلد/المنطقة
 
-| بند BPM                                                                 | البلد/المنطقة                    |
+| سطر BPM                                                                 | البلد/المنطقة                    |
 |--------------------------------------------------------------------------|-----------------------------------|
 | إعداد الفوترة الإلكترونية OIOUBL                                       | الدانمرك                           |
 | EUR-00002 إنشاء إقرار نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي                           | أوروبا                            |
@@ -195,4 +194,3 @@ ms.lasthandoff: 12/18/2018
 [دلائل المهام الجديدة أو المحدثة (أغسطس 2016)](new-updated-task-guides-available-august-2016.md)
 
 [دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)](new-task-guides-november-2016.md)
-

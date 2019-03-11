@@ -1,13 +1,13 @@
 ---
-title: "تكوين إدارة المصروفات"
-description: "تصف هذه المقالة الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل تكوين إدارة المصروفات في Microsoft Dynamics 365 for Finance and Operations."
+title: تكوين إدارة المصروفات
+description: توضح هذه المقالة الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل تكوين إدارة المصروفات في Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322020"
 ---
-
 # <a name="configure-expense-management"></a>تكوين إدارة المصروفات
 
 [!include [banner](../includes/banner.md)]
@@ -163,4 +162,3 @@ ms.lasthandoff: 03/26/2018
 - متى ينتهي تاريخ صلاحية السياسة؟
 - ما المقصود بقاعدة السياسة؟
 - ما نتيجة قاعدة السياسة؟
-

@@ -1,13 +1,13 @@
 ---
-title: "الصفحة الرئيسية لإعداد الموازنة"
-description: "يقدم هذا الموضوع نظرة عامة على مكونات وظيفة إعداد الموازنة وأدوات إعداد الموازنة وإمكانات إعداد التقارير في Microsoft Dynamics 365 for Finance and Operations."
+title: الصفحة الرئيسية لإعداد الموازنة
+description: يوفر هذا الموضوع نظرة عامة على مكونات وظيفة إعداد الموازنة وأدوات إعداد الموازنة وإمكانات إعداد التقارير في Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301869"
 ---
-
 # <a name="budgeting-home-page"></a>الصفحة الرئيسية لإعداد الموازنة
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ ms.lasthandoff: 03/26/2018
 في Finance and Operations، يستطيع المستخدمون إنشاء خطط الموازنة إما مباشرةً في عميل Finance and Operations (باستخدام صفحة مستند خطة الموازنة القابلة للتكوين) أو من خلال برنامج Excel. يوفر Excel العديد من الإمكانات الإضافية. على سبيل المثال، يمكنك استخدام بيانات خارجية كمصدر لخطة الموازنة، وإجراء عمليات حسابية مخصصة واستخدام Microsoft PivotTable والرسوم البيانية. يمكن تكوين معظم المتغيرات في عملية تخطيط الموازنة. 
 
 على سبيل المثال، يمكنك تحديد مَن يقوم بإعداد الموازنة، وما الذي يتم عمل موازنة له، وما الصورة التي ستبدو عليها هذه العملية. على الرغم من أنه يمكنك استخدام Excel لتخطيط الموازنة، إلا أن Finance and Operations يجسد مصدرًا واحدًا للبيانات الحقيقية ويساعد في منع حدوث مشكلات التحكم في الموازنة. يمكن استخدام العمليات الدورية لجلب البيانات الأولية لإعداد الموازنة في خطة الموازنة. بالنسبة لإعداد التقارير، يوفر Finance and Operations مجموعة من صفحات الاستعلام القياسية التي تتيح لك عرض بيانات إعداد الموازنة وتحليلها. يمكن الوصول إلى بيانات خطة الموازنة عن طريق Management Reporter، ويمكن عرض سيناريوهات خطة الموازنة المنفصلة كأعمدة في تقرير Management Reporter.
-
 
 
 

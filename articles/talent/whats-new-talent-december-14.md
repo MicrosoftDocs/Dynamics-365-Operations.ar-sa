@@ -1,37 +1,37 @@
 ---
-title: "ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(14 ديسمبر 2018)"
-description: "يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Microsoft Dynamics 365 for Talent Core HR."
+title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (14 ديسمبر 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 844c23fc908c962203e644f1154cc480425d830b
 ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303030"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR ‏(14 ديسمبر 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (14 ديسمبر 2018)
 
 [!include [banner](includes/banner.md)]
 
 **الإصدار 8.1.2085**
 
-يصف هذا الموضوع الميزات الجديدة أو المعدَّلة في Core HR.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Core HR.
 
 ## <a name="changes"></a>التغييرات
 
@@ -59,13 +59,13 @@ ms.lasthandoff: 12/18/2018
 
 تم إجراء تغيير لتصحيح الخطأ "مرجع فارغ" عند استخدام العنصر النائب %Reviews.PerfPeriod% في إرشادات الإرسال.
 
-### <a name="workforce-power-bi-report-shows-error-when-worker-seniority-date-is-a-leap-day"></a>يعرض تقرير Power BI للقوى العاملة خطأ عندما يكون تاريخ الأقدمية للعامل يوماً في سنة كبيسة
+### <a name="workforce-power-bi-report-shows-error-when-worker-seniority-date-is-a-leap-day"></a>يعرض تقرير Power BI للقوى العاملة خطأ عندما يكون تاريخ الأقدمية للعامل يومًا في سنة كبيسة
 
 مع هذا التغيير، أصبحت الآن أيام السنة الكبيسة مدعومة في Power BI.
 
 ### <a name="integration-between-core-hr-and-attract"></a>التكامل بين Core HR وAttract
 
-تم إجراء تغيير لتحديث التكامل بين Core HR وAttract المتعلق بالمرشحين المراد توظيفهم. لظهور المرشحين المراد توظيفهم في مساحة عمل **إدارة الموظفين**، يتم استخدام كيانات CDS for Apps (CDS 2.0) التالية:
+تم إجراء تغيير لتحديث التكامل بين Core HR وAttract المتعلق بالمرشحين المراد توظيفهم. لظهور المرشحين المراد توظيفهم في مساحة عمل **إدارة الموظفين**، يتم استخدام كيانات CDS للتطبيقات‏‎ (CDS 2.0) التالية:
 
 استمارة التقديم للوظيفة
 - يجب تعيين سبب الحالة إلى "قبول العرض"
@@ -151,4 +151,3 @@ ms.lasthandoff: 12/18/2018
 ![مهمة "العاملون إلى العامل"](./media/WorkerMapping.png)
 
 ![تحويل حقل النوع](./media/WorkerTransform.png)
-

@@ -1,33 +1,32 @@
 ---
-title: "دلائل المهام الجديدة أو المحدثة (ديسمبر 2017)"
-description: "يسرد هذا الموضوع دليل المهام الجديد أو المحدث الذي تم إصداره لمكتبة Microsoft الموحدة APQC (ديسمبر 2016- جميع اللغات) لـ Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة."
+title: دلائل المهام الجديدة أو المحدثة (ديسمبر 2017)
+description: يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (ديسمبر 2016 - كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 101eb8fd03303eb590dfef6f598ca507dc8f5548
-ms.contentlocale: ar-sa
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319628"
 ---
-
 # <a name="new-or-updated-task-guides-december-2017"></a>دلائل المهام الجديدة أو المحدثة (ديسمبر 2017)
 
 [!include [banner](../includes/banner.md)]
 
-يسرد هذا الموضوع دليل المهام الجديد أو المحدث الذي تم إصداره لمكتبة Microsoft الموحدة APQC (ديسمبر 2016- جميع اللغات) لـ Microsoft Dynamics 365 for Operations.
+يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (ديسمبر 2016 - كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations.
 
 ## <a name="new-task-guides"></a>دلائل المهام الجديدة
 
@@ -370,4 +369,3 @@ ms.lasthandoff: 12/18/2018
 **بند قائمة مكونات الصنف الذي تم حذفه**
 
 - نقل وظائف كانبان المجدولة
-

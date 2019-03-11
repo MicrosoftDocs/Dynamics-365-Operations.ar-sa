@@ -1,13 +1,13 @@
 ---
-title: "إصدارات التكاليف"
-description: "توفر هذه المقالة معلومات حول إصدارات التكاليف، وكيفية الاحتفاظ بها، وأنواع البيانات التي يمكنك تضمينها فيها. ويتمثل الهدف الأساسي من وراء إصدار التكاليف في الاشتمال على سجلات تكاليف عن الأصناف وفئات التكاليف ومعادلات حساب التكاليف غير المباشرة."
+title: إصدارات التكاليف
+description: توفر هذه المقالة معلومات حول إصدارات التكاليف، وكيفية الاحتفاظ بها، وأنواع البيانات التي يمكنك تضمينها فيها. ويتمثل الهدف الأساسي من وراء إصدار التكاليف في الاشتمال على سجلات تكاليف عن الأصناف وفئات التكاليف ومعادلات حساب التكاليف غير المباشرة.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb8e8193b3312a63042a44cb082a33a196cbc1be
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330139"
 ---
-
 # <a name="costing-versions"></a>إصدارات التكاليف
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ ms.lasthandoff: 11/03/2017
 ولتمكين محتوى سعر الشراء، تقوم أولاً بتحديد مجموعة حساب قائمة مكونات الصنف التي تحتوي على نموذج سعر التكلفة لسعر شراء الصنف، ثم تقوم يتعيين مجموعة حساب قائمة مكونات الصنف للأصناف المشتراة. ويمكنك عندئذٍ استخدام نموذج سعر التكلفة لمجموعة حساب قائمة مكونات الصنف عند إجراء عمليات حساب قائمة مكونات الصنف التي تستخدم التكاليف المخططة لحساب سعر المبيعات للأصناف المصنعة. 
 
 كما يتم استخدام سجلات سعر الشراء للأصناف كمعلومات مرجعية فقط. وعن طريق تغيير حالة سجل سعر الشراء لصنف من **معلقة** إلى **نشطة**، يمكنك تحديث سعر الشراء الأساسي للصنف. ومع ذلك، إن سعر الشراء الأساسي غير خاص بالموقع ويمكنك استبداله يدوياً. ويتم استخدام سعر الشراء الأساسي للصنف كسعر شراء افتراضي في أوامر الشراء.
-
 
 
 

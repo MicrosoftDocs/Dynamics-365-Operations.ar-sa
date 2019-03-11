@@ -1,13 +1,13 @@
 ---
-title: "وثائق Microsoft Dynamics 365 for Finance and Operations"
-description: "وثائق Microsoft Dynamics 365 for Finance and Operations."
+title: وثائق Microsoft Dynamics 365 for Finance and Operations
+description: وثائق Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301845"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>وثائق Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
 اعرف كيف يمكنك أن تجعل Microsoft Dynamics 365 for Finance and Operations صالحًا لأعمالك، وذلك عن طريق استخدام الموارد التالية للبحث عن محتوى متميز للمستخدمين النهائيين والمطورين ومحترفي تكنولوجيا المعلومات. 
 
-كما ينطبق معظم هذا المحتوى على المنتجات ذات الصلة: Microsoft Dynamics 365 for Retail وMicrosoft Dynamics 365 for Talent. 
+ينطبق أيضًا قسم كبير من هذا المحتوى على المنتجين ذي الصلة: Microsoft Dynamics 365 for Retail وMicrosoft Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -53,11 +52,11 @@ ms.lasthandoff: 08/08/2018
 <p><a href="imp-lifecycle/prepare-go-live.md">الإعداد للعرض المباشر</a></p>
 
 <h3><a href="../financials/index.md">الإدارة المالية</a></h3>
-<p><a href="../financials/accounts-payable/accounts-payable.md">حسابات دائنة</a></p>
+<p><a href="../financials/accounts-payable/accounts-payable.md">الحسابات الدائنة</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">الحسابات المدينة</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">إعداد الموازنة</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">إدارة النقد والبنوك</a></p>
-<p><a href="../financials/general-ledger/audit-policy-rules.md">توافق</a></p>
+<p><a href="../financials/general-ledger/audit-policy-rules.md">التوافق</a></p>
 <p><a href="../financials/cost-accounting/cost-accounting-home-page.md">محاسبة التكاليف</a></p>
 <p><a href="../financials/fixed-assets/fixed-assets.md">الأصول الثابتة</a></p>
 <p><a href="../financials/general-ledger/general-ledger.md">دفتر الأستاذ العام</a></p>
@@ -66,7 +65,7 @@ ms.lasthandoff: 08/08/2018
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">الميزات التنظيمية الإقليمية</a></p>
 
 <h3><a href="hr/hr-landing-page.md">الموارد البشرية</a></h3>
-<p><a href="../talent/manage-benefit-program.md">ميزات</a></p>
+<p><a href="../talent/manage-benefit-program.md">المزايا</a></p>
 <p><a href="../talent/performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
 <p><a href="../talent/questionnaires.md">الاستبيان</a></p>
 <p><a href="hr/manage-recruiting-process.md">التوظيف</a></p>
@@ -76,7 +75,7 @@ ms.lasthandoff: 08/08/2018
 <p><a href="../supply-chain/cost-management/costing-sheets.md">إدارة التكلفة</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">إدارة المخزون</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">التخطيط الرئيسي</a></p>
-<p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">التدبير وتحديد الموارد</a></p>
+<p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">التدبير والتوريد</a></p>
 <p><a href="../supply-chain/pim/product-information.md">إدارة معلومات المنتج</a></p>
 <p><a href="../supply-chain/production-control/production-process-overview.md">التحكم بالإنتاج</a></p>
 <p><a href="../supply-chain/sales-marketing/overview-sales-marketing.md">المبيعات والتسويق</a></p>
@@ -114,7 +113,7 @@ ms.lasthandoff: 08/08/2018
 <p><a href="organization-administration/organization-administration-home-page.md">إدارة المؤسسة</a></p>
 </td>
 <td>
-<h3>المنتجات ذات الصلة</h3>
+<h3>المنتجات المرتبطة</h3>
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">مركز الاتصال</p>
 <p><a href="../retail/define-maintain-retail-channels.md">إعداد القنوات وإدارتها</p>
@@ -122,7 +121,7 @@ ms.lasthandoff: 08/08/2018
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">مطور وإدارة Retail</p>
 
 <h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
-<p><a href="../talent/manage-benefit-program.md">ميزات</a></p>
+<p><a href="../talent/manage-benefit-program.md">المزايا</a></p>
 <p><a href="../talent/performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
 <p><a href="../talent/questionnaires.md">الاستبيان</a></p>
 
@@ -131,4 +130,3 @@ ms.lasthandoff: 08/08/2018
 
 </tbody>
 </table>
-

@@ -1,13 +1,13 @@
 ---
-title: "محاذاة مهارات القوة العاملة مع احتياجات العمل"
-description: "يمكنك تعقب المهارات التي يمتلكها العاملون أو مقدمو الطلبات، أو أشخاص جهات الاتصال للاضطلاع على أدوارهم بفعالية. يمكنك أيضًا تحديد المهارات المطلوبة لمهمة معينة."
+title: محاذاة مهارات القوة العاملة مع احتياجات العمل
+description: يمكنك تعقب المهارات التي يمتلكها العاملون أو مقدمو الطلبات، أو أشخاص جهات الاتصال للاضطلاع على أدوارهم بفعالية. يمكنك أيضًا تحديد المهارات المطلوبة لمهمة معينة.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 0b86a8d134ef553db6719f4cefb02e4acfc00ae5
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303083"
 ---
-
 # <a name="align-workforce-skills-with-business-needs"></a>محاذاة مهارات القوة العاملة مع احتياجات العمل
 
 [!include [banner](includes/banner.md)]
@@ -70,7 +69,6 @@ ms.lasthandoff: 08/08/2018
 --------
 
 [الموارد البشرية](index.md)
-
 
 
 

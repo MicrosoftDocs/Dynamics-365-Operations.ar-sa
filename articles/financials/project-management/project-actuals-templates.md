@@ -1,13 +1,13 @@
 ---
-title: "مزامنة القيم الفعلية لمشروع مباشرةً من Project Service Automation إلى دفتر يومية تكامل المشروع للترحيل في Finance and Operations"
-description: "يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة القيم الفعلية لمشروع مباشرةً من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations."
+title: مزامنة القيم الفعلية لمشروع مباشرةً من Project Service Automation إلى دفتر يومية تكامل المشروع للترحيل في Finance and Operations
+description: يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة قيم المشروع الفعلية مباشرة من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343341"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>مزامنة القيم الفعلية لمشروع مباشرةً من Project Service Automation إلى دفتر يومية تكامل المشروع للترحيل في Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة القيم الفعلية لمشروع مباشرةً من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations.
+يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة قيم المشروع الفعلية مباشرة من Microsoft Dynamics 365 for Project Service Automation إلى Microsoft Dynamics 365 for Finance and Operations.
 
 يقوم القالب بمزامنة الحركات من Project Service Automation إلى جدول مرحلي في Finance and Operations. بعد اكتمال المزامنة، **يجب** عليك استيراد البيانات من الجدول المرحلي إلى دفتر يومية التكامل.
 
 > [!NOTE]
-> - يتوافر تكامل القيم الفعلية للمشروع في Microsoft Dynamics 365 for Finance and Operations، الإصدار 8.01 أو إصدار لاحق.
-> - إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0، بعد قيامك بتثبيت قاعدة المعارف 4132657 وقاعدة المعارف 4132660، ستتمكن من استخدام القوالب لإجراء تكامل لمهام المشروع وفئات حركات المصروفات وتقديرات عدد الساعات وتقديرات المصروفات والقيم الفعلية ولتكوين تأمين الوظيفة. إذا كان يجب عليك إعادة تعيين التوزيعات المحاسبية، فمن المستحسن أن تقوم أيضًا بتثبيت قاعدة المعارف 4131710.
+> - يتوفر تكامل قيم المشروع الفعلية في الإصدار 8.0.1 أو إصدار لاحق من Microsoft Dynamics 365 for Finance and Operations.
+> - إذا كنت تستخدم Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0، بعد قيامك بتثبيت قاعدة المعارف 4132657 وقاعدة المعارف 4132660، ستكون قادرًا على استخدام القوالب لتمكين تكامل مهام المشاريع وفئات حركات المصروفات وتقديرات عدد الساعات وتقديرات المصروفات والقيم الفعلية وتكوين تأمين الوظيفة. إذا كان يجب عليك إعادة تعيين التوزيعات المحاسبية، فمن المستحسن أن تقوم أيضًا بتثبيت قاعدة المعارف 4131710.
 > - إذا كنت تستخدم Finance and Operations 7.3.0، وتعمل على إحضار حركات الرسوم من Project Service Automation، فيجب تثبيت KB 4345320 لتضمين تلك الرسوم في فاتورة المشروع.
 > - إذا كنت تعمل على إدخال مبالغ ضريبة المبيعات في حركات الوقت أو المصروفات في Project Service Automation، فيجب تثبيت Project Service Automation Update 7. وإلا، فلن يتم ربط القيم الفعلية للضريبة بالقيم الفعلية للوقت أو المصروفات المقترنة، ولن تتم مزامنتها مع Finance and Operations. تواصل مع الدعم لمزيد من المعلومات.
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 08/08/2018
 
 ### <a name="template-and-tasks"></a>القوالب والمهام
 
-للوصول إلى القوالب المتوفرة، في مركز إدارة Microsoft PowerApps ، حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
+للوصول إلى القوالب المتوفرة، في مركز إدارة Microsoft PowerApps، حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
 يتم استخدام القالب التالي والمهام الأساسية لمزامنة القيم الفعلية لمشروع من Project Service Automation إلى Finance and Operations.
 
@@ -140,4 +140,3 @@ ms.lasthandoff: 08/08/2018
 [![تعيين القالب](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![تعيين القالب](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

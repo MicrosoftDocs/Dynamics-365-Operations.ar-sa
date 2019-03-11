@@ -1,13 +1,13 @@
 ---
-title: "خطط التعويض"
-description: "باستطاعة مدراء التعويضات والميزات‬ استخدام إدارة التعويضات لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة."
+title: خطط التعويض
+description: باستطاعة مدراء التعويضات والميزات‬ استخدام إدارة التعويضات لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: e80b3ebc9c374073ff5a2dfc8c2acf1d7f6c6287
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 86070204769b866b947405436437eb0eb746de11
-ms.contentlocale: ar-sa
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303085"
 ---
-
 # <a name="compensation-plans"></a>خطط التعويض
 
 [!include [banner](includes/banner.md)]
@@ -56,7 +55,7 @@ ms.lasthandoff: 04/13/2018
 <td>تنفذ إجراءات التعويض الثابت غرضين:
 <ul>
 <li>يمكن للإجراءات تحديد نوع المعلومات التي يجب تسجيلها عندما يتغير تعويض الموظف. على سبيل المثال، يمكنك أن تطلب تسجيل سبب التغيير، مثل ترقية أو تخفيض مرتبة.</li>
-<li>‏يمكن للإجراءات ضمان استخدام عملية حسابية عند معالجة خطط التعويض الثابت.  على سبيل المثال، ستقوم إجراءات نوع الأسهم بمقارنة دفع الموظفين بالنقطة المرجعية الدنيا لمستوى الموظف وضمان الدفع إلى الموظف بالحد الأدنى على الأقل.</li>
+<li>‏يمكن للإجراءات ضمان استخدام عملية حسابية عند معالجة خطط التعويض الثابت.  على سبيل المثال، ستقوم إجراءات من نوع تساوي الدفع بمقارنة دفع الموظفين بالنقطة المرجعية الدنيا لمستوى الموظف وضمان الدفع للموظف بالحد الأدنى على الأقل.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -132,7 +131,6 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="recommendations"></a> التوصيات
 بعد تشغيل حدث عملية، يمكنك أن توصي بتعديلات لزيادة تأهيل أو مبلغ منحة الموظف، استناداً إلى المبادئ التوجيهية المحسوبة لحدث العملية. ولتقديم توصيات للموظفين، يجب عليك تمكين التوصيات عند إعداد خطط التعويض أو عند إعداد حدث العملية.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut"
-description: "يشرح هذا المقال كيفية استخدام الكتالوجات الخارجية لإنشاء طلبات وإرسالها."
+title: استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut
+description: يشرح هذا المقال كيفية استخدام الكتالوجات الخارجية لإنشاء طلبات وإرسالها.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 76d0c911bdddbc5a34644dc96ec13dd8fd53a338
-ms.contentlocale: ar-sa
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342789"
 ---
-
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut
 
 [!include [banner](../includes/banner.md)]
@@ -51,4 +50,3 @@ ms.lasthandoff: 03/07/2018
 بعد أن تتم إضافة بنود إلى الطلب، يمكنك إضافة المزيد من البنود دون استخدام الكتالوجات الخارجية. بدلاً من ذلك، يمكنك الاستمرار في استخدام الكتالوجات الخارجية لإضافة البنود.
 
 عندما يصبح الطلب جاهزًا، استخدم إجراء **سير العمل** > **إرسال** لإرساله للموافقة.
-

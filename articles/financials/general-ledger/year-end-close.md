@@ -1,13 +1,13 @@
 ---
-title: "إقفال نهاية السنة"
-description: "يصف هذا الموضوع الإعداد والخطوات المطلوبة لتشغيل عملية إقفال نهاية السنة في دفتر الأستاذ العام."
+title: إقفال نهاية السنة
+description: يصف هذا الموضوع الإعداد والخطوات المطلوبة لتشغيل عملية إقفال نهاية السنة في دفتر الأستاذ العام.
 author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ec2316dd259cd12a5cab187b08dbd17ca100572
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf9d0a6ab0fcf7d6f5a31813d68f0bd452ce1019
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347872"
 ---
-
 # <a name="year-end-close"></a>إقفال نهاية السنة
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ ms.lasthandoff: 11/03/2017
 يتم تشغيل عملية إقفال نهاية السنة بشكل افتراضي في الوضع الدفعي. من المستحسن تشغيل العملية في الوضع الدفعي، للسماح للمستخدم بالعودة إلى أنشطة أخرى. بعد استكمال عملية إقفال نهاية السنة، سيتم تحديث حقل **تاريخ آخر إقفال لنهاية السنة‬** بتاريخ جلسة العمل.
 
 لمزيد من المعلومات، راجع [إقفال دفتر الأستاذ العام في نهاية الفترة](close-general-ledger-at-period-end.md) و[إقفال السنة المالية‬](tasks/close-fiscal-year.md).
-
 
 
 

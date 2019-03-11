@@ -1,13 +1,13 @@
 ---
-title: "واجهة أداة تصميم التقارير"
-description: "تشرح هذه المقالة كيفية التنقل عبر مصمم التقارير وكيفية استخدام مختلف الخيارات لتلبية متطلباتك المحددة."
+title: واجهة أداة تصميم التقارير
+description: تشرح هذه المقالة كيفية التنقل عبر مصمم التقارير وكيفية استخدام مختلف الخيارات لتلبية متطلباتك المحددة.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e9b77e2b510a72d1e3fe3c68c997d58245a86a27
-ms.contentlocale: ar-sa
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368020"
 ---
-
 # <a name="report-designer-interface"></a>واجهة أداة تصميم التقارير
 
 [!include [banner](../includes/banner.md)]
@@ -229,4 +228,3 @@ ms.lasthandoff: 08/13/2018
 [التقارير المالية](financial-reporting-intro.md)
 
 [إنشاء تقرير مالي](generate-financial-report.md)
-

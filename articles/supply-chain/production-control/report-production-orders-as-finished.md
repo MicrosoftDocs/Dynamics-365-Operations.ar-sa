@@ -1,13 +1,13 @@
 ---
-title: "‏‫الإبلاغ عن أوامر الإنتاج كمنتهية‬"
-description: "يعتبر الإبلاغ عن الانتهاء مرحلة من مراحل الإنتاج. في هذه المرحلة، يتم الإبلاغ عن منتج منته ويتم نقله من أمر الإنتاج إلى المخزون."
+title: ‏‫الإبلاغ عن أوامر الإنتاج كمنتهية‬
+description: يعتبر الإبلاغ عن الانتهاء مرحلة من مراحل الإنتاج. في هذه المرحلة، يتم الإبلاغ عن منتج منته ويتم نقله من أمر الإنتاج إلى المخزون.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdJournalTransJob, ProdJournalTransProd, ProdJournalTransRoute, ProdParmReportFinished, ProdRouteOprOverview
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 61c12ee3a831abcb46af18645eba55fe100c99c9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 80a882e51332d87835bdfb41a1bb1fcda2471f02
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315810"
 ---
-
 # <a name="report-production-orders-as-finished"></a>‏‫الإبلاغ عن أوامر الإنتاج كمنتهية‬
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>تعيين أمر إنتاج للإبلاغ عنه كمنتهٍ
 يمكن تعيين أمر إنتاج إلى **الإبلاغ عنه كمنتهٍ** من خلال وظيفة تحديث أمر الإنتاج القياسي، أو من خلال دفاتر يومية بطاقة الوظيفة والمسار، أو من خلال دفتر يومية **الإبلاغ عنه كمنتهٍ**. كما يمكنك تحديث المرحلة إلى **الإبلاغ عنه كمنتهٍ** من خلال محطة بطاقة الوظيفة وصفحات جهاز بطاقة الوظيفة، عند الإبلاغ عن الوظيفة الأخيرة لأمر الإنتاج. وأخيراً، يمكنك تمكين خيار **الإبلاغ عنه كمنتهٍ** كعملية لحل جهاز المستودع المحمول يدويًا.  
-
 
 
 

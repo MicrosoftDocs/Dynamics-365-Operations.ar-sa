@@ -1,31 +1,30 @@
 ---
-title: "إنشاء أوامر خدمة يدويًا"
-description: "يمكنك إنشاء أوامر الخدمة يدويًا باستخدام اتفاقية الخدمة أو باستخدام النموذج **أوامر الخدمة**."
+title: إنشاء أوامر خدمة يدويًا
+description: يمكنك إنشاء أوامر الخدمة يدويًا باستخدام اتفاقية الخدمة أو باستخدام النموذج **أوامر الخدمة**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9fbcdaa50a8f13247c13c1885cdb4ab7f5f39a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a0cc6b2646929776f4efb20474de6b0fc5c4719c
-ms.contentlocale: ar-sa
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310911"
 ---
-
 # <a name="create-service-orders-manually"></a>إنشاء أوامر خدمة يدويًا    
 
 [!include [banner](../includes/banner.md)]
@@ -102,5 +101,4 @@ ms.lasthandoff: 05/08/2018
 [إنشاء أوامر الخدمة تلقائيًا](create-service-orders-automatically.md)
 
 [إنشاء أوامر خدمات (نموذج الفئة)](https://technet.microsoft.com/en-us/library/aa553901\(v=ax.60\)) 
-
 

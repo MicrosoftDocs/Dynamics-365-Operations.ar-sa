@@ -1,13 +1,13 @@
 ---
-title: "عكس حالة أمر المنتج"
-description: "يصف هذا الموضوع كيفية عكس حالة أمر الإنتاج."
+title: عكس حالة أمر المنتج
+description: يصف هذا الموضوع كيفية عكس حالة أمر الإنتاج.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: ar-sa
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367307"
 ---
-
 # <a name="reverse-the-production-order-status"></a>عكس حالة أمر المنتج
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="from-started-to-released"></a>من مبدوء إلى تم الإصدار
 عند عكس حالة أمر الإنتاج من **مبدوء** إلى **تم الإصدار**، يتم إرجاع جميع الأصناف التي تم الإبلاغ عنها كمنتهية إلى حالتها القديمة. وإذا تم انتقاء المادة أو كانت عمليات التسليم الداخلية والخارجية موجهة للإنتاج، فإنه يتم عكس هذه الإعدادات. ويتم تغيير حقل **الحالة الباقية** في بنود قائمة مكونات الصنف لأمر الإنتاج من **منتهية** إلى **استهلاك المواد**. إذا تم تسجيل الوقت أو تم الإبلاغ عن الكميات كمنتهية للعمليات في مسار الإنتاج، فإنه يتم عكس هذه الإعدادات. ويتم تغيير حقل **الحالة الباقية** من **منتهية** إلى **استهلاك المسار** في مسار الإنتاج. ويتم عكس الإعدادات لكافة الأصناف التي تم ترحيلها إلى أعمال قيد المعالجة أو أعمال تحت التنفيذ. وفي صفحة **تفاصيل أمر الإنتاج**، تتم إعادة تعيين الحقول التي تُظهر كمية تم بدء تشغيلها أو الإبلاغ عنها كمنتهية. كما تتم إعادة تعيين التواريخ لهذه الحركات.
-
 
 
 
