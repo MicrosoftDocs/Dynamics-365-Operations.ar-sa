@@ -5,44 +5,52 @@ items:
   - name: البدء
     href: talent-get-started.md
     items:
-    - name: ما الجديد أو المتغير
+    - name: الجديد أو المتغير‬ في Talent
       href: whats-new.md
       items:
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (31 يناير 2019)
+      - name: 5 مارس 2019
+        href: whats-new-talent-march-5.md
+      - name: 27 فبراير 2019
+        href: whats-new-talent-feb-27.md
+      - name: 14 فبراير 2019
+        href: whats-new-talent-feb14.md
+      - name: 7 فبراير 2019
+        href: whats-new-talent-february-7.md
+      - name: 31 يناير 2019
         href: whats-new-talent-january-29.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (23 يناير 2019)
+      - name: 23 يناير 2019
         href: whats-new-talent-january-23.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (17 يناير 2019)
+      - name: 17 يناير 2019
         href: whats-new-talent-january-17.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (11 يناير 2019)
+      - name: 11 يناير 2019
         href: whats-new-talent-january-11.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (14 ديسمبر 2018)
+      - name: 14 ديسمبر 2018
         href: whats-new-talent-december-14.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (6 ديسمبر 2018)
+      - name: 6 ديسمبر 2018
         href: whats-new-talent-december-6.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (27 نوفمبر 2018)
+      - name: 27 نوفمبر 2018
         href: whats-new-talent-november-27.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (15 نوفمبر 2018)
+      - name: 15 نوفمبر 2018
         href: whats-new-talent-november-15.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (31 أكتوبر 2018)
+      - name: 31 أكتوبر 2018
         href: whats-new-talent-october-31.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (19 أكتوبر 2018)
+      - name: 19 أكتوبر 2018
         href: whats-new-talent-october-19.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (15 أكتوبر 2018)
+      - name: 15 أكتوبر 2018
         href: whats-new-talent-october-11.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (8 أكتوبر 2018)
+      - name: 8 أكتوبر 2018
         href: whats-new-talent-october-8.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (1 أكتوبر 2018)
+      - name: 1 أكتوبر 2018
         href: whats-new-talent-october-01.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (24 سبتمبر 2018)
+      - name: 24 سبتمبر 2018
         href: whats-new-talent-september-24.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (17 سبتمبر 2018)
+      - name: 17 سبتمبر 2018
         href: whats-new-talent-september-17-2018.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (10 سبتمبر 2018)
+      - name: 10 سبتمبر 2018
         href: whats-new-talent-september-10.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (أغسطس 2018)
+      - name: أغسطس 2018
         href: whats-new-talent-august2018.md
-      - name: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (يوليو 2018)
+      - name: يوليو 2018
         href: whats-new-talent-july2018.md
     - name: متطلبات النظام وسياسة التحديث
       href: talent-versions-update-policy.md
@@ -193,7 +201,9 @@ items:
       href: data-integration.md
     - name: الأسئلة المتداولة حول التكامل
       href: talent-fo-integration.md
-  - name: تكامل Office‬‏‫
+    - name: تصدير البيانات المتكررة باستخدام تطبيقات Azure Logic
+      href: tutorial-integration-recurring-export.md
+  - name: تكامل Office
     items:
     - name: برنامج تعليمي لتكامل Office
       href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -322,9 +332,9 @@ items:
       href: talent-FO-integration.md
     - name: لم يتم العثور على مستخدمي Azure Active Directory في منتقي الأشخاص
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 2e3035ec9aa71fd66cba7b394bf5007880646aca
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
+ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374817"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "782742"

@@ -35,12 +35,6 @@ items:
     - name: ما الجديد أو المتغير
       href: get-started/whats-new-changed.md
       items:
-      - name: الأسئلة المتداولة حول تحديثات خدمة إصدار واحد
-        href: get-started/one-version.md
-      - name: سياسة دورة حياة البرامج والإصدارات على السحابة
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: سياسة دورة حياة البرامج والإصدارات المحلية
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: الميزات التي تمت إزالتها أو إهمالها
@@ -49,10 +43,14 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: الميزات لم يتم تنفيذها في عمليات النشر المحلي
         href: get-started/features-not-implemented-on-prem.md
+      - name: معاينة الميزات في Finance and Operations إصدار 10.0.1 (أبريل 2019)
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations إصدار 10.0 (أبريل 2019)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations إصدار 8.1.3 (يناير 2019)
         href: get-started/whats-new-changed-8-1-3.md
+      - name: معاينة الميزات في Finance and Operations platform update 25 (أبريل 2019)
+        href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (مارس 2019)
         href: get-started/whats-new-platform-update-24.md
       - name: Platform update 23 (يناير 2019)
@@ -202,6 +200,29 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: مشروعات LCS وبيئات إنتاج متعددة على مستأجر Azure AD واحد
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: تحديثات خدمة إصدار واحد
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: الأسئلة المتداولة حول تحديثات خدمة إصدار واحد
+      href: get-started/one-version.md
+    - name: سياسة دورة حياة البرامج - إصدارات على السحابة
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: سياسة دورة حياة البرامج - إصدارات محلية
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: تحديثات الخدمة للإصدارين القياسي والأول
+      href: get-started/public-preview-releases.md
+    - name: تطبيق التحديثات على بيئات السحابة
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: تكوين تحديثات الخدمة
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: إيقاف تحديثات الخدمة مؤقتًا
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: تلقي إعلامات حول تحديثات الخدمة
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: أتمتة مهمة البيانات
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation Tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: أحداث الأعمال
     href: ../dev-itpro/business-events/home-page.md
     items:
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: مزامنة المستودعات من Finance and Operations إلى Field Service
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: مزامنة أوامر العمل من Finance and Operations إلى Field Service
+          - name: مزامنة أوامر العمل مع المشروع من Field Service إلى Finance and Operations
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: تكوين تكامل Project Service Automation
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -1416,7 +1437,9 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: إعداد معلمات NF-e لمؤسسة مالية
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-      - name: 'بيان ضريبة SPED-Reinf '
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
+      - name: بيان ضريبة SPED-Reinf
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: معلمات الكيانات القانونية
         href: ../financials/localizations/latam-bra-legal-entity-parameters.md
@@ -2236,6 +2259,8 @@ items:
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: الأصول الثابتة
         items:
+        - name: إعداد الأصول الثابتة
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: الاستحواذ على الأصول الثابتة ووضعها قيد العمل
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: تسجيل عمليات الاستحواذ على الأصول الثابتة
@@ -2266,6 +2291,18 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: حساب الإهلاك
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: الحسابات الدائنة والمدينة
+        items:
+        - name: الفواتير للدفع
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: إعداد التحكم في الأبعاد للتسويات
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: إدارة التدفق النقدي
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: التقارير
+        items:
+        - name: التقارير المالية
+          href: ../financials/localizations/rus-financial-reports.md
       - name: أقسام الشركة
         href: ../financials/localizations/rus-company-divisions.md
       - name: إعداد أسعار الصرف لحركات العملة
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: التقارير المالية
         href: ../financials/localizations/rus-financial-reports.md
-      - name: إنشاء دفتر شراء
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: التقارير المحاسبية بتنسيق إلكتروني
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: إدارة التدفق النقدي
+        href: ../financials/localizations/rus-cash-flow.md
     - name: المملكة العربية السعودية‬
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2363,10 +2402,12 @@ items:
         href: ../financials/localizations/tasks/gb-00002-sales-order.md
       - name: إعداد مجموعات ضريبة مبيعات الصنف لضريبة القيمة المضافة للرسوم العكسية
         href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-      - name: إعداد مجموعات وقواعد ومعايير أصناف ضريبة القيمة المضافة للرسوم العكسية
+      - name: إعداد مجموعات وقواعد ومعلمات أصناف الرسوم العكسية
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-      - name: إعداد مجموعات ضريبة المبيعات لضريبة القيمة المضافة للرسوم العكسية
+      - name: إعداد مجموعات ضريبة المبيعات للرسوم العكسية
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+      - name: رقمنة الضرائب لضريبة القيمة المضافة
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
     - name: الولايات المتحدة
       href: ../financials/localizations/united-states.md
       items:
@@ -2827,6 +2868,8 @@ items:
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
         - name: التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: تحديد مساحة تخزين مخصصة للمستندات المُنشأة
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: الحلول التحليلية المضمنة
       items:
       - name: Embedded Power BI في مساحات العمل
@@ -3281,12 +3324,14 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: تقرير أنواع سير العمل
         href: organization-administration/workflow-types-report.md
+      - name: الأسئلة المتداولة حول سير العمل
+        href: organization-administration/workflow-FAQ.md
     - name: التنبيهات
       href: get-started/alerts-overview.md
       items:
       - name: إنشاء قواعد تنبيه
         href: get-started/create-alerts.md
-      - name: معالجة الدُفعة للتنبيهات
+      - name: المعالجة الدُفعية للتنبيهات
         href: get-started/alerts-managing.md
     - name: تواقيع إلكترونية
       href: organization-administration/electronic-signature-overview.md
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: استيفاء اتفاقيات البيع
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: إنشاء اتفاقية تجارية جديدة
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: إنشاء ومعالجة خصومات العملاء
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: معالجة الخصومات للدفع
@@ -3827,6 +3870,8 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: البدل التجاري
       href: ../supply-chain/sales-marketing/trade-allowance.md
+    - name: إنشاء اتفاقية تجارية جديدة
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
   - name: إدارة الخدمة
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376908"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836386"

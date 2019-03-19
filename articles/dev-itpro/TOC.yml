@@ -46,6 +46,10 @@ items:
       href: dev-tools/development-tools-overview.md
     - name: برنامج تعليمي لأدوات التطوير
       href: dev-tools/introduction-visual-studio.md
+    - name: AppChecker
+      items:
+      - name: تثبيت BaseX لـ AppChecker
+        href: dev-tools/install-basex.md
     - name: مستكشف التطبيق
       href: dev-tools/application-explorer.md
     - name: إنشاء المشاريع وتصحيحها
@@ -264,6 +268,8 @@ items:
         href: extensibility/extensibility-changes-812.md
       - name: إصدار تغييرات قابلية التوسعة 8.1.3
         href: extensibility/extensibility-changes-813.md
+      - name: إصدار تغييرات قابلية التوسعة 10.0
+        href: extensibility/extensibility-changes-10.md
     - name: القواعد الأساسية
       items:
       - name: تخصيصات متداخلة
@@ -887,6 +893,7 @@ items:
   - name: نشر بيئات عرض توضيحي
     href: deployment/deploy-demo-environment.md
   - name: النشر عبر السحابة
+    href: deployment/cloud-deployment-overview.md
     items:
     - name: نشر الخدمة الذاتية
       href: deployment/infrastructure-stack.md
@@ -1073,10 +1080,12 @@ items:
       href: dev-tools/update-development-tools.md
   - name: عمليات الإهلاك
     items:
-    - name: واجهات API المهلكة
-      href: migration-upgrade/deprecated-apis.md
-    - name: الميزات المهلكة
+    - name: الميزات التي تمت إزالتها أو إهمالها
       href: migration-upgrade/deprecated-features.md
+    - name: طرق الإهلاك وعناصر بيانات التعريف
+      href: migration-upgrade/deprecation-deletion-apis.md
+    - name: واجهات API المهلكة (يونيو 2017)
+      href: migration-upgrade/deprecated-apis.md
 - name: إدارة النظام
   href: sysadmin/system-administration-home-page.md
   items:
@@ -1122,10 +1131,12 @@ items:
       href: sysadmin/activeperiod.md
     - name: دور أمان مدير الدُفعة
       href: sysadmin/runby.md
-  - name: مرشد تحسين الأداء
+    - name: وظيفة دُفعية للتعامل مع إلغاء تجزئة فهرس SQL
+      href: sysadmin/batch-job-SQL-defragmentation.md
+  - name: مرشد التحسين
     href: sysadmin/optimization-advisor-overview.md
     items:
-    - name: إنشاء قواعد لمرشد تحسين الأداء
+    - name: إنشاء قواعد مرشد التحسين
       href: sysadmin/create-rules-optimization-advisor.md
   - name: إبلاغ عن انقطاع إنتاج
     href: lifecycle-services/report-production-outage.md
@@ -1200,18 +1211,30 @@ items:
       href: lifecycle-services/use-translation-service-ua.md
     - name: ملفات ذاكرة الترجمة
       href: lifecycle-services/use-translation-service-tm.md
-- name: إدارة قاعدة البيانات
+- name: عمليات حركة قاعدة البيانات‬
   items:
-  - name: نسخ قواعد بيانات من قاعدة بيانات SQL Azure إلى بيئات خادم SQL
-    href: database/copy-database-from-azure-sql-to-sql-server.md
-  - name: نسخ قواعد البيانات من خادم SQL إلى بيئات قواعد بيانات SQL Azure للإنتاج
-    href: database/copy-database-from-sql-server-to-azure-sql.md
-  - name: استعادة قواعد البيانات في بيئات غير إنتاجية
-    href: database/request-point-in-time-restore.md
-  - name: تصدير نسخ من قواعد البيانات لاستعادتها لاحقًا
-    href: database/copy-operations-database.md
-  - name: طلب تحديثات قاعدة بيانات بيئة الاختبار المعزولة
-    href: database/database-refresh.md
+  - name: نظرة عامة
+    href: database/dbmovement-operations.md
+  - name: دلائل البدء السريع
+    items:
+    - name: تحديث قاعدة البيانات
+      href: database/database-refresh.md
+    - name: تصدير قاعدة بيانات
+      href: database/export-database.md
+    - name: استيراد قاعدة بيانات
+      href: database/import-database.md
+    - name: استعادة النقطة الزمنية لقاعدة البيانات
+      href: database/database-point-in-time-restore.md
+  - name: البرامج التعليمية
+    items:
+    - name: تحديث لأغراض الاختبار
+      href: database/dbmovement-scenario-general-refresh.md
+    - name: التصحيح والتشخيص
+      href: database/dbmovement-scenario-debugdiag.md
+    - name: ترقية التكوين الذهبي
+      href: database/dbmovement-scenario-goldenconfig.md
+    - name: اختبار تحديد القدرة
+      href: database/dbmovement-scenario-destructivetests.md
 - name: الدعم
   items:
   - name: الحصول على الدعم لـ Finance and Operations وLifecycle Services
@@ -1228,9 +1251,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: إدارة خبرات دعم Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: 9baabd73eb9a6e0c33b41bc30a1ba0788a858ce9
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
+ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373313"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "773792"
