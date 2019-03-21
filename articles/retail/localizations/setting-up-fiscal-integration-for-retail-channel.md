@@ -3,7 +3,7 @@ title: إعداد التكامل المالي لقنوات البيع بالتج
 description: يوفر هذا الموضوع إرشادات لإعداد وظيفة التكامل المالي لقنوات البيع بالتجزئة.
 author: josaw
 manager: annbe
-ms.date: 2/01/2019
+ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 3c2945c4310dc4c1ae74f215e9b28056e7d1ede9
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377289"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773317"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>إعداد التكامل المالي لقنوات البيع بالتجزئة
 
@@ -175,7 +175,7 @@ ms.locfileid: "377289"
     3. في حقل **نص الإيصال المالي**، حدد نصًا ماليًا يجب طباعته على إيصال مالي.
 
     > [!NOTE]
-    > إذا تم تطبيق خصومات متعددة على بند الحركة نفسه، فسيحتوي الإيصال المالي على نصوص مالية من جميع الخصومات المرتبطة ببند الحركة هذا. 
+    > إذا تم تطبيق خصومات متعددة على بند الحركة نفسه، فسيحتوي الإيصال المالي على نصوص مالية من جميع الخصومات المرتبطة ببند الحركة هذا.
 
 ## <a name="set-error-handling-settings"></a>تعيين إعدادات معالجة الأخطاء‬
 
@@ -210,3 +210,4 @@ ms.locfileid: "377289"
     2. أضف زرًا جديدًا، وعيّن خاصية الزر **طباعة X المالي**.
     3. أضف زرًا جديدًا، وعيّن خاصية الزر **طباعة Z المالي**.
     4. في صفحة **مجدول التوزيع**، شغّل المهمة **1090** لنقل التغييرات إلى قاعدة بيانات القناة.
+

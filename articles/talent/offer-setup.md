@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376497"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768872"
 ---
 # <a name="set-up-offer-management"></a>إعداد إدارة العروض 
 
@@ -199,11 +199,11 @@ ms.locfileid: "376497"
 - **تجربة العرض لدى المرشح** - كونك المسؤول، يمكنك أن تختار تعيين ما إذا كانت كافة العروض لها تاريخ انتهاء صلاحية، وفي هذه الحالة، تعيين المقابل الافتراضي لتاريخ انتهاء الصلاحية. يمكنك أيضًا تكوين ما إذا كان باستطاعة المرشحين رفض عرض ما.
 
 - **التواقيع الإلكترونية** - كمسؤول، يمكنك أيضًا اختيار الطريقة التي يستطيع المرشحون استخدامها للتوقيع.
-    - Adobe Sign - سيتم إرسال وتوقيع جميع حزم العروض عبر Adobe Sign. يحتاج جميع منشئي العروض الذين ينشرون العروض إلى توصيل ترخيص Adobe Sign بـ Attract. 
+    - Adobe Sign - سيتم إرسال وتوقيع جميع حزم العروض عبر Adobe Sign. يحتاج جميع منشئي العروض الذين ينشرون العروض إلى توصيل حساب Adobe Sign بـ Attract. للحصول على تراخيص Adobe Sign وإصدار تجريبي منه، يُرجى زيارة هذا [الارتباط](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+    - DocuSign - سيتم إرسال وتوقيع جميع حزم العروض عبر DocuSign. يحتاج جميع منشئي العروض الذين ينشرون العروض إلى توصيل حساب DocuSign بـ Attract. 
+    
     - ESign - هذا هو الخيار الافتراضي، وهو جاهز للعمل، حيث يستطيع المستخدم التوقيع على العرض عن طريق كتابة اسمه والأحرف الأولى من اسمه.
 
->[!NOTE]
-> للحصول على تراخيص Adobe Sign وإصدار تجريبي منه، يُرجى زيارة هذا [الارتباط](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
 لمزيد من المعلومات حول عملية إنشاء العرض، راجع [إنشاء العروض والموافقة والتوقيع عليها](./creating-offers.md).
