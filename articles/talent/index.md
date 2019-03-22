@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: مرحبًا بك في Dynamics 365 for Talent
 description: يعمل Talent على تبسيط العديد من المهام الروتينية المتعلقة بحفظ السجلات وعلى أتمتة عدد من العمليات المتعلقة بتعيين الموظفين في مؤسستك. تشمل هذه العمليات استبقاء الموظفين وإدارة الميزات والتدريب ومراجعات الأداء وإدارة التغييرات.
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: ''
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: 'Core, Operations, Talent'
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301841"
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
+
 # <a name="welcome-to-dynamics-365-for-talent"></a>مرحبًا بك في Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
@@ -79,7 +75,7 @@ ms.locfileid: "301841"
 
 ## <a name="develop-and-train-employees"></a>تطوير الموظفين وتدريبهم
 
-لمساعدة موظفيك على تحقيق أهدافهم الوظيفية مع تلبية احتياجات الأعمال المهمة، يمكنك إعداد الأهداف، وإنشاء مراجعات الأداء وتعقب التعليقات. ولمساعدة الموظفين على تطوير المهارات المطلوبة، يمكنك أيضًا إعداد المعلمين، وأنواع الدورات التدريبية، والدورات التدريبية، وأوصاف الدورات التدريبية، وجداول الأعمال، والمسارات، والجلسات قبل تعيين معلم لدورة تدريبية، أو تسجيل شخص لحضور دورة تدريبية. يحب وجود المعلمين بالفعل كعمال أو مقدمي طلبات أو كجهات اتصال.
+لمساعدة الموظفين لديك على بلوغ أهدافهم الوظيفية مع تلبية احتياجات العمل الهامة، يمكنك إعداد أهداف، وإنشاء مراجعات أداء، وتعقب الملاحظات. لمساعدة الموظفين على تطوير المهارات اللازمة، يمكنك أيضًا إعداد بيانات الموجهين‬ وأنواع الدورات التدريبية وأسمائها، وأوصافها، وجداول أعمالها ومساراتها وجلسات العمل الخاصة بها قبل تعيين أي موجه للدورة التدريبية أو تسجيل أي شخص لحضور الدورة التدريبية. يحب وجود المعلمين بالفعل كعمال أو مقدمي طلبات أو كجهات اتصال.
 
 -   [إدارة الأداء](performance-management-overview.md)
 -   [مواءمة احتياجات العمل ومهارات العاملين](skills.md)

@@ -3,7 +3,7 @@ title: إنشاء الوظائف والموافقة عليها ونشرها في
 description: يصف هذا الموضوع عناصر وظيفة في Attract. ويشرح أيضًا كيفية إنشاء وظيفة.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303127"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772801"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>إنشاء الوظائف والموافقة عليها ونشرها في Attract
 
@@ -76,8 +76,23 @@ ms.locfileid: "303127"
 
 بعد تنشيط وظيفة، يمكن نشرها. وباستطاعة المسؤولين ومسؤولي التعيين فقط نشر الوظائف. يمكن نشر الوظيفة إما في Talent Careers (موقع وظائف في Microsoft Dynamics 365 for Talent) أو LinkedIn. 
 
+يعمل فريق Attract باستمرار على عقد شراكة مع مع برامج تجميع لوحات الوظائف. وبالتالي، ستتوسع هذه القائمة على مدار الوقت.
+
+للحصول على مزيد من المعلومات حول إعلانات الوظائف، راجع [وظيفة موقع الوظائف في Attract‬](career-site.md).
+
 > [!NOTE]
-> هناك ثلاثة أشياء مهمة يجب أخذها في الاعتبار حول عملية نشر الوظائف في LinkedIn.
+> تتوفر وظيفة الإعلان عن الوظائف فقط مع المكون الإضافي Comprehensive Hiring في Attract.
+
+### <a name="posting-jobs-to-linkedin"></a>نشر إعلانات الوظائف في LinkedIn 
+
+قبل نشر إعلان وظيفة من Attract إلى LinkedIn، يجب على المسؤول إضافة معرّف الشركة في LinkedIn واسم الشركة في LinkedIn في **إعدادات المسؤول**. يعتبر معرّف الشركة في LinkedIn مطلوبًا للتأكد من تعيين الوظائف المنشورة من Attract إلى صفحة الشركة الصحيحة.
+
+يتكوّن معرّف الشركة في LinkedIn من سلسلة من الأرقام التي تعرف شركتك في LinkedIn بشكل فريد. للحصول على مزيد من المعلومات حول كيفية البحث عن معرّف الشركة في LinkedIn، يُرجى زيارة [موقع LinkedIn](https://aka.ms/findID).
+
+لتحديث شركتك في LinkedIn، حدد **مركز الإدارة** على قائمة **الإعدادات‏‎** (أيقونة الترس)، ثم حدد علامة التبويب **تكامل LinkedIn** . ضمن القسم **الاتصال بـ LinkedIn‎**، أدخل معرّف الشركة واسم الشركة في LinkedIn، ثم احفظ الإعدادات.
+
+> [!NOTE]
+> هناك أربعة أشياء مهمة يجب أخذها في الاعتبار حول عملية نشر الوظائف في LinkedIn.
 > 1. يتم نشر الوظائف في LinkedIn على شكل "عروض وظائف محدودة" لا يمكن الترويج لهذه الوظائف عبر موقع LinkedIn. إذا أردت الترويج لعروض الوظائف المحدودة المنشورة في LinkedIn من Attract، فيجب استخدام LinkedIn لتمكين "النشر التلقائي لعروض الوظائف". يُرجى مراجعة الارتباطات أدناه والاتصال بدعم LinkedIn لمزيد من التفاصيل.
 >
 >    [عروض الوظائف المحدودة في مقابل إعلانات الوظائف المميزة للنشر التلقائي لعروض الوظائف](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ ms.locfileid: "303127"
 >
 >    إذا واجهت أي مشكلة بعد هذه الخطوة، الرجاء الاتصال بدعم LinkedIn. 
 > 
+> 1. تظهر إعلانات الوظائف المنشورة على LinkedIn في موقع LinkedIn المباشر. لا توجد أي بيئة اختبار لنشر إعلانات الوظائف على LinkedIn. 
+>
 > 1. تحتاج الوظائف المنشورة على LinkedIn إلى مدة تصل لغاية 24 ساعة لكي تصبح مرئية للمرشحين من ضمن LinkedIn، بسبب عملية النشر الحالية للوظائف الدفعية على LinkedIn.
 
-يعمل فريق Attract باستمرار على عقد شراكة مع مع برامج تجميع لوحات الوظائف. وبالتالي، ستتوسع هذه القائمة على مدار الوقت.
-
-للحصول على مزيد من المعلومات حول إعلانات الوظائف، راجع [وظيفة موقع الوظائف في Attract‬](./career-site.md).
-
-> [!NOTE]
-> تتوفر وظيفة الإعلان عن الوظائف فقط مع المكون الإضافي Comprehensive Hiring في Attract.
 
 ## <a name="activate"></a>تنشيط
 

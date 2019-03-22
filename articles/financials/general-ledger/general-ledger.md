@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0b6683107f4b2dbe36af78749612ce950ea19582
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363351"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403227"
 ---
 # <a name="general-ledger"></a>دفتر الأستاذ العام 
 
@@ -53,21 +53,19 @@ ms.locfileid: "363351"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-### <a name="whats-new"></a>الجديد
+#### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [ملاحظات الإصدار](https://docs.microsoft.com/en-us/business-applications-release-notes/) لمعرفة الميزات الجديدة التي تم إصدارها. 
+انتقل إلى [ملاحظات حول إصدار Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) لمعرفة الميزات الجديدة التي تم التخطيط لإصدارها. 
 
-### <a name="videos"></a>ملفات فيديو
+#### <a name="blogs"></a>المدونات
 
-راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-### <a name="blogs"></a>المدونات
-
-يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة وحلول أخرى في مدونة [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-هناك العديد من المنشورات حول دفتر الأستاذ العام في [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق من دفتر الأستاذ العام، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
+يمكنك العثور على آراء وأخبار ومعلومات أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) و[Microsoft Dynamics 365 Finance and Operations - مدونة Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
+
+### <a name="videos"></a>مقاطع فيديو
+
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 #### <a name="community-blogs"></a>مدونات المجتمعات
 

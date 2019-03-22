@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 98ec7d9a57cc39c22a31c025754c83dc1a95139e
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301873"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403368"
 ---
 # <a name="accounts-receivable-home-page"></a>الصفحة الرئيسية للحسابات المدينة
 
@@ -96,13 +96,11 @@ ms.locfileid: "301873"
 
 #### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
+انتقل إلى [مخطط Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي يتم التخطيط لإصدارها.‬ 
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات المدينة وحلول أخرى في مدونة [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-هناك العديد من المنشورات حول الحسابات المدينة في [مدونة فريق منتج Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). وعلى الرغم من كتابة بعض هذه المنشورات للإصدار السابق من الحسابات المدينة، إلا أن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي.
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات المدينة وحلول أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) وفي [Microsoft Dynamics 365 Finance and Operations - مدونة Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
 

@@ -3,7 +3,7 @@ title: تحديثات تنظيمية
 description: يوفر هذا الموضوع قائمة بالتحديثات التنظيمية المخططة والصادرة لتطبيق Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/25/2019
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9dcf958165cffa3e3cd62b88a71295eefae9cf8f
-ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "375980"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832091"
 ---
 # <a name="regulatory-updates"></a>تحديثات تنظيمية
 
@@ -40,6 +40,14 @@ ms.locfileid: "375980"
 |      2019 مارس          |   10.0.0      | النمسا      |   التغييرات في Kammerumlage 2019 (رسوم المشتريات)    |
 |      2019 مارس          |   10.0.0      |   البرازيل    |     مساهمات SPED EFD - التخطيط 004 و005  |
 |      2019 مارس          |   10.0.0      |    ماليزيا     |يستبدل ماليزيا تستبدل ضريبة GST بضريبة المبيعات والخدمات SST        |
+|      2019 أبريل          |   10.0.1      |    النمسا     |البيع بالتجزئة - التكامل المالي         |
+|      2019 أبريل          |   10.0.1      |    أوروبا     |الفوترة الإلكترونية - تصدير فواتير العملاء بتنسيق PEPPOL BIS 3         |
+|      2019 أبريل          |   10.0.1      |    أوروبا     |الفوترة الإلكترونية - استيراد فواتير المورّدين من تنسيق PEPPOL BIS 3         |
+|      2019 أبريل          |   10.0.1      |   ألمانيا     |الفوترة الإلكترونية - تصدير فواتير العملاء بتنسيق xRechnung 1.1         |
+|      2019 أبريل          |   10.0.1      |    المملكة المتحدة     |[تغييرات في إرسال كشف ضريبة القيمة المضافة (رقمنة الضرائب)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019 أبريل          |   10.0.1      |    البرازيل     |NT NF-e 2018.005 جديد         |
+|      2019 أبريل          |   10.0.1      |    روسيا     |تغييرات في تنسيق الإقرار بضريبة القيمة المضافة من 2019         |
+|      2019 أبريل          |   10.0.1      |    روسيا     |تغييرات في تنسيق الإقرار بضريبة القيمة المضافة من 2019‬ (تنسيقات دفاتر المبيعات والمشتريات)  |
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 - ابحث عن كافة التحديثات التنظيمية المخططة والصادرة في [Lifecycle Service - بحث عن المشاكل](https://lcs.dynamics.com/Logon/Index) (تسجيل الدخول مطلوب).

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 64362ae9e4ebb63ca6da2cd2f41376d1d9047694
+ms.sourcegitcommit: c6af2de37309b574dcb69c9caad436b55136600f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303029"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768475"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>متطلبات النظام وسياسة التحديث في Talent
 
@@ -36,8 +36,8 @@ ms.locfileid: "303029"
 
 *   Microsoft Edge (أحدث إصدار تمت إتاحته للجمهور) على Windows 10
 *   Internet Explorer 11 على Windows 10 أو Windows 8.1 أو Windows 7
-*   Google Chrome (أحدث إصدار تمت إتاحته) على Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو Google Nexus 10 tablet
-*   Apple Safari (أحدث إصدار تمت إتاحته) على Mac OS X 10.10 ‏(Yosemite)‏ أو 10.11 (El Capitan)‏ أو 10.12 (Sierra) أو Apple iPad
+*   Google Chrome (أحدث إصدار تمت إتاحته للجمهور)
+*   Apple Safari (أحدث إصدار تمت إتاحته للجمهور)
 
 للعثور على أحدث إصدار لكل مستعرض ويب، انتقل إلى موقع ويب الشركة المصنعة للبرنامج. 
 

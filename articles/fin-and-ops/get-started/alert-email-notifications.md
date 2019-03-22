@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 314f04eec04a75aed058c9c38066738e8758f653
-ms.sourcegitcommit: 440ebe14ad26574ba227d23ee8370f6b6110645b
+ms.openlocfilehash: 9545731af20a96c322b4e92c17f3a46b7077295b
+ms.sourcegitcommit: a13f44549ab402cfd04b600f6097ba179915f233
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373729"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "775054"
 ---
 # <a name="client-alert-notifications-by-email"></a>إخطارات تنبيه‬ العميل بالبريد الإلكتروني
 
@@ -48,7 +48,7 @@ ms.locfileid: "373729"
 
 ## <a name="alert-notification-email-templates"></a>قوالب البريد الإلكتروني لإخطارات التنبيه
 
-ترسل الخدمة إخطارات بالبريد الإلكتروني باستخدام قوالب بريد إلكتروني معرفة مسبقًا توفر تفاصيل أساسية حول إخطار التنبيه. وتتضمن هذه التفاصيل ارتباطًا مباشرًا إلى الصفحة حيث تم تعريف قاعدة التنبيه.
+ترسل الخدمة إخطارات بالبريد الإلكتروني باستخدام قوالب بريد إلكتروني معرفة مسبقًا توفر تفاصيل أساسية حول إخطار التنبيه.
 
 تُظهر الصورة التالية بنية إخطارات التنبيه عند استلامها بالبريد الإلكتروني.
 

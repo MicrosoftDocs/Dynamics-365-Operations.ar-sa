@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 111ed3257af3caf8e90844b9a6e1475ef931b674
-ms.sourcegitcommit: 2b14f15487f19c10fce4bfa24de70cdb3fab05ab
+ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "375036"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770883"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>التكامل مع Microsoft Dynamics 365 for Field Service
 
@@ -47,7 +47,7 @@ ms.locfileid: "375036"
 
 للاطلاع على مثال حول الطريقة التي يمكنك من خلالها مزامنة أمر عمل بين Field Service وFinance and Operations، شاهد فيديو YouTube القصير [كيفية مزامنة أمر عمل مع تكامل Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo).
 
-# <a name="integration-with-microsoft-dynamics-365-for-field-service-including-inventory-and-project-information"></a>التكامل مع Microsoft Dynamics 365 for Field Service، بما في ذلك معلومات حول المخزون والمشروع
+## <a name="integration-with-microsoft-dynamics-365-for-field-service-including-inventory-and-project-information"></a>التكامل مع Microsoft Dynamics 365 for Field Service، بما في ذلك معلومات حول المخزون والمشروع
 
 تركز الوظيفة الإضافية في هذه المرحلة الثانية على تقديم معلومات لفنيي الخدمة حول معلومات المخزون من Finance and Operations، مما يسمح لهم بتحديث مستويات المخزون وإجراء عمليات تحويل المواد. بالإضافة إلى ذلك، فإن الشركات التي تقوم بتثبيت أو صيانة السلع المباعة تستفيد من إمكانية تحكم أفضل بالإضافة إلى رؤية أوضح لعملية البيع والخدمة الكاملة مع التكامل من المشاريع.
 
@@ -70,14 +70,14 @@ ms.locfileid: "375036"
 - أوامر العمل مع المشروع (Field Service إلى Fin and Ops) - أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations، مع دعم للمشروع [استعلام متقدم] 
 - منتجات Field Service مع وحدة المخزون (Fin and Ops إلى Sales)‏ - "منتجات قابلة للبيع تم إصدارها‬" في Finance and Operations إلى "منتجات" Sales لـ Field Service، بما في ذلك وحدة المخزون 
 
-# <a name="system-requirements"></a>متطلبات النظام
+## <a name="system-requirements"></a>متطلبات النظام
 
-## <a name="system-requirements-for-finance-and-operations"></a>متطلبات النظام لـ Finance and Operations
+### <a name="system-requirements-for-finance-and-operations"></a>متطلبات النظام لـ Finance and Operations
 يدعم تكامل Field Service الإصدارات التالية:
 
-- تم طرح الإصدار 8.1.2 من Dynamics 365 for Finance and Operations (ديسمبر 2019) في شهر ديسمبر 2019 وله رقم إصدار التطبيق 8.1.195 مع Platform Update 22 (7.0.5095). 
+- تم طرح الإصدار 8.1.2 من Dynamics 365 for Finance and Operations (ديسمبر 2018) في شهر ديسمبر 2018 وله رقم إصدار التطبيق 8.1.195 مع Platform Update 22 (7.0.5095). 
 
-## <a name="system-requirements-for-field-service"></a>متطلبات النظام لـ Field Service
+### <a name="system-requirements-for-field-service"></a>متطلبات النظام لـ Field Service
 لاستخدام حل تكامل Field Service، يجب عليك تثبيت المكونات التالية:
 
 - Field Service for Dynamics 365 (الإصدار 8.2.0.286) أو إصدار لاحق على Dynamics 365 9.1.x - تم إطلاقه في شهر نوفمبر 2018
