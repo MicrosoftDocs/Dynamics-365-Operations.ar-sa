@@ -3,7 +3,7 @@ title: الصفحة الرئيسية للمعلومات المهنية (BI) وإ
 description: يوجهك هذا الموضوع إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير التي تتوفر في Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301843"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902832"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>الصفحة الرئيسية للمعلومات المهنية (BI) وإعداد التقارير
 
@@ -33,7 +33,7 @@ ms.locfileid: "301843"
 ## <a name="get-started"></a>البدء
 - [الوصول إلى المعلومات وإعداد التقارير](information-access-reporting.md)
 - [حديث تقني: خيارات إعداد التقارير](https://www.youtube.com/watch?v=NzZONjKs5xA) (فيديو)
-- [Finance and Operations: المعلومات المهنية](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (مدونة)
+- [Finance and Operations: مدونة خدمات التحليلات وإعداد التقارير في Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (مدونة)
 
 ## <a name="analytical-workspaces"></a>مساحات العمل التحليلية
 يوفر Finance and Operations تقارير تفاعلية يتم تضمينها بسلاسة في مساحات عمل التطبيق. بإمكان مساحات العمل استخدام مرئيات ومخططات معلومات رسومية غنية يدعمها Microsoft Power BI. تشتمل هذه المرئيات ومخططات المعلومات الرسومية على العديد من عناصر التحكم التي توفرها جهات خارجية. ولذلك، يمكن لمساحات العمل توفير تجربة مرئية وتفاعلية عالية للمستخدمين.

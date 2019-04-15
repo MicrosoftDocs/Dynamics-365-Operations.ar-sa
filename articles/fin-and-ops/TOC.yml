@@ -26,7 +26,7 @@ items:
           href: get-started/system-requirements-on-prem.md
         - name: تكوين التخزين في المستودع لعمليات النشر المحلي
           href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-      - name: تحديثات الخدمة للإصدارين القياسي والأول
+      - name: توافر تحديث الخدمة
         href: get-started/public-preview-releases.md
       - name: شراء Finance and Operations
         items:
@@ -43,13 +43,17 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: الميزات لم يتم تنفيذها في عمليات النشر المحلي
         href: get-started/features-not-implemented-on-prem.md
-      - name: معاينة الميزات في Finance and Operations إصدار 10.0.1 (أبريل 2019)
+      - name: ميزات المعاينة في Finance and Operations إصدار 10.0.2 (مايو 2019)
+        href: get-started/whats-new-changed-10-0-2.md
+      - name: Finance and Operations إصدار 10.0.1 (أبريل 2019)
         href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations إصدار 10.0 (أبريل 2019)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations إصدار 8.1.3 (يناير 2019)
         href: get-started/whats-new-changed-8-1-3.md
-      - name: معاينة الميزات في Finance and Operations platform update 25 (أبريل 2019)
+      - name: ميزات المعاينة في Finance and Operations platform update 26 (مايو 2019)
+        href: get-started/whats-new-platform-update-26.md
+      - name: Finance and Operations platform update 25 (أبريل 2019)
         href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (مارس 2019)
         href: get-started/whats-new-platform-update-24.md
@@ -209,7 +213,7 @@ items:
       href: ../dev-itpro/migration-upgrade/versions-update-policy.md
     - name: سياسة دورة حياة البرامج - إصدارات محلية
       href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
-    - name: تحديثات الخدمة للإصدارين القياسي والأول
+    - name: توافر تحديث الخدمة
       href: get-started/public-preview-releases.md
     - name: تطبيق التحديثات على بيئات السحابة
       href: ../dev-itpro/deployment/apply-deployable-package-system.md
@@ -230,13 +234,17 @@ items:
       href: ../dev-itpro/business-events/app-business-events.md
     - name: أحداث أعمال سير العمل
       href: ../dev-itpro/business-events/business-events-workflow.md
+    - name: التنبيهات كأحداث أعمال
+      href: ../dev-itpro/business-events/alerts-business-events.md
     - name: أحداث الأعمال في Microsoft Flow
       href: ../dev-itpro/business-events/business-events-flow.md
     - name: وثائق مطور أحداث الأعمال
       href: ../dev-itpro/business-events/business-events-dev-doc.md
     - name: استكشاف أخطاء أحداث أعمال وإصلاحها
       href: ../dev-itpro/business-events/troubleshooting.md
-  - name: التوافق‬
+    - name: حالات الاستخدام لأحداث الأعمال
+      href: ../dev-itpro/business-events/potential-use-cases.md
+  - name: التوافق
     items:
     - name: قواعد سياسة التدقيق
       href: ../financials/general-ledger/audit-policy-rules.md
@@ -368,8 +376,10 @@ items:
         href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
       - name: عمليات تكامل متكررة
         href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
-      - name: اختبار الخدمات باستخدام خدمات جهات خارجية
+      - name: اختبار الخدمات باستخدام أدوات مساعدة تابعة لجهات خارجية
         href: ../dev-itpro/data-entities/third-party-service-test.md
+    - name: موصل Finance and Operations
+      href: ../dev-itpro/data-entities/fin-ops-connector.md
     - name: التطوير للتكامل
       items:
       - name: تكامل البيانات باستخدام كيانات البيانات
@@ -747,6 +757,8 @@ items:
         href: ../financials/cash-bank-management/cash-flow-forecasting.md
       - name: مساحة عمل إدارة البنك
         href: ../financials/cash-bank-management/Bank-management-workspace.md
+      - name: إعادة تقييم العملة الأجنبية في البنوك
+        href: ../financials/cash-bank-management/bank-revaluation.md
       - name: الخصومات النقدية
         href: ../financials/cash-bank-management/cash-discounts.md
       - name: الخصومات النقدية لحالات الدفع بالزيادة
@@ -1893,6 +1905,8 @@ items:
           href: ../financials/localizations/apac-ind-gst-reference-groups.md
         - name: تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
           href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: شراء صنف خاضع للضريبة من مورّد غير مسجل
+          href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
       - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
         href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
       - name: نظرة عامة على محرك الضريبة
@@ -2291,6 +2305,8 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: حساب الإهلاك
           href: ../financials/localizations/rus-depreciation-calculation.md
+        - name: تحويل الأصول الثابتة
+          href: ../financials/localizations/rus-fixed-asset-transfer.md
       - name: الحسابات الدائنة والمدينة
         items:
         - name: الفواتير للدفع
@@ -2303,6 +2319,8 @@ items:
         items:
         - name: التقارير المالية
           href: ../financials/localizations/rus-financial-reports.md
+        - name: تكوين التقارير المالية في Excel
+          href: ../financials/localizations/rus-excel-financial-report.md
       - name: أقسام الشركة
         href: ../financials/localizations/rus-company-divisions.md
       - name: إعداد أسعار الصرف لحركات العملة
@@ -2321,6 +2339,10 @@ items:
         href: ../financials/localizations/rus-accounting-reporting.md
       - name: إدارة التدفق النقدي
         href: ../financials/localizations/rus-cash-flow.md
+      - name: المبيعات والمشتريات والتحويلات بالعملة الأجنبية
+        href: ../financials/localizations/rus-currency-sale-purchase.md
+      - name: إقرارات الضرائب المقدّرة
+        href: ../financials/localizations/rus-assessed-tax-declaration.md
     - name: المملكة العربية السعودية‬
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2669,7 +2691,9 @@ items:
         href: ../dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: تطوير الموظفين
         href: ../dev-itpro/analytics/employee-development-PBI.md?toc=/fin-and-ops/toc.json
-      - name: الأداء المالي​
+      - name: محتوى إدارة المصروفات في Power BI
+        href: ../dev-itpro/analytics/expense-management-content-pack.md?toc=/fin-and-ops/toc.json
+      - name: الأداء المالي
         href: ../dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: المعلومات المالية
         href: ../dev-itpro/analytics/financial-insights.md?toc=/fin-and-ops/toc.json
@@ -3084,7 +3108,7 @@ items:
         href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
       - name: التحكم في التكاليف
         href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
-      - name: إدارة المصروفات​
+      - name: إدارة المصروفات
         href: ../financials/expense-management/expense-management-mobile-workspace.md
       - name: المخزون المتاح
         href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md
@@ -3092,13 +3116,17 @@ items:
         href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
       - name: فريقي
         href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
+      - name: نظرة عامة على تطبيقات المحمول للمشاريع
+        href: ../financials/project-management/project-mobile-application-overview.md
       - name: إدخال وقت المشروع
         href: ../financials/project-management/project-time-entry-mobile-workspace.md
+      - name: الجدول الزمني للمشروع
+        href: ../financials/project-management/project-timesheet.md
       - name: اعتماد أمر الشراء
         href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
       - name: أوامر المبيعات
         href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md
-      - name: تعاون المورد
+      - name: تعاون المورّد
         href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md
     - name: نشر مساحات العمل المحمولة
       href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
@@ -3333,7 +3361,9 @@ items:
         href: get-started/create-alerts.md
       - name: المعالجة الدُفعية للتنبيهات
         href: get-started/alerts-managing.md
-    - name: تواقيع إلكترونية
+      - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
+        href: get-started/alert-email-notifications.md
+    - name: التوقيعات الإلكترونية
       href: organization-administration/electronic-signature-overview.md
       items:
       - name: إعداد التوقيعات الإلكترونية
@@ -3373,6 +3403,8 @@ items:
           href: ../supply-chain/production-control/bill-of-material-bom.md
         - name: وظيفة مصمم قائمة مكونات الصنف
           href: ../supply-chain/production-control/bom-designer-functionality.md
+        - name: أصناف وهمية
+          href: ../supply-chain/production-control/phantom-items.md
         - name: العمليات الحسابية لقائمة مكونات الصنف​
           href: ../supply-chain/cost-management/bom-calculations.md
         - name: إدارة وحدة القياس
@@ -3787,6 +3819,8 @@ items:
       href: ../financials/project-management/project-contracts.md
     - name: تنبؤات وموازنات المشاريع
       href: ../financials/project-management/project-forecasts-budgets.md
+    - name: أوامر مبيعات المشروع
+      href: ../financials/project-management/project-sales-orders.md
     - name: أوامر الشراء لمشروع​
       href: ../financials/project-management/project-purchase-orders.md
     - name: عروض أسعار المشروع
@@ -3800,8 +3834,12 @@ items:
       items:
       - name: تكامل عميل Microsoft Project
         href: ../financials/project-management/project-integration.md
+    - name: نظرة عامة على تطبيقات المحمول للمشاريع
+      href: ../financials/project-management/project-mobile-application-overview.md
     - name: مساحة عمل محمولة لإدخال وقت المشروع
       href: ../financials/project-management/project-time-entry-mobile-workspace.md
+    - name: تطبيق المحمول للجدول الزمني للمشروع
+      href: ../financials/project-management/project-timesheet.md
   - name: المبيعات والتسويق
     href: ../supply-chain/sales-marketing/overview-sales-marketing.md
     items:
@@ -4286,9 +4324,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 9cb4d9114b745a42ad7c7650686639efe33c6192
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836386"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "975956"

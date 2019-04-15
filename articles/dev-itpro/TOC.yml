@@ -278,7 +278,7 @@ items:
         href: extensibility/class-extensions.md
       - name: ملحق الفئة من خلال التفاف الأسلوب وسلسلة الأمر
         href: extensibility/method-wrapping-coc.md
-      - name: إرشادات التسمية لملحقات النماذج
+      - name: إرشادات التسمية للملحقات
         href: extensibility/naming-guidelines-extensions.md
       - name: تخفيف قيود النموذج لإعادة بناء التعليمات البرمجية للطبقات الزائدة في الملحقات
         href: extensibility/refactoring-over-layering.md
@@ -354,7 +354,7 @@ items:
         href: extensibility/breaking-changes.md
   - name: الأداء
     items:
-    - name: أخذ عينة تتبع باستخدام Trace Parser
+    - name: التقاط تتبعات باستخدام Trace Parser
       href: perf-test/trace-trace-tutorial.md
     - name: SDK للأداء والاختبارات متعددة المستخدمين‬ عن طريق Visual Studio Online
       href: perf-test/perfsdk-tutorial.md
@@ -374,6 +374,28 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: تصفية SysTest باستخدام سمات الفئات والأساليب
       href: perf-test/systest-filtering.md
+    - name: مكتبة اختبار القبول
+      href: perf-test/acceptance-test-library.md
+    - name: مفاهيم التنقل
+      href: perf-test/concepts-navigation.md
+    - name: أساليب بيانات الاختبار
+      href: perf-test/test-data-methods.md
+    - name: الكيانات في مكتبة اختبار القبول
+      href: perf-test/concepts-entities.md
+    - name: أوامر مكتبة اختبار القبول
+      href: perf-test/concepts-commands.md
+    - name: المنشئون في مكتبة اختبار القبول
+      href: perf-test/concepts-creators.md
+    - name: الاستعلامات في مكتبة اختبار القبول
+      href: perf-test/concepts-queries.md
+    - name: فئات المواصفات
+      href: perf-test/concepts-specifications.md
+    - name: معالج إنشاء كود مكتبة اختبار القبول‬
+      href: perf-test/code-generation-wizard.md
+    - name: أفضل الممارسات لمكتبة اختبار القبول‬
+      href: perf-test/atl-best-practices.md
+    - name: الأسئلة المتداولة
+      href: perf-test/atl-faq.md
   - name: سريان التاريخ
     href: dev-tools/date-effectivity.md
   - name: ترخيص موردي البرامج المستقلين (ISV)
@@ -451,6 +473,8 @@ items:
       href: user-interface/control-checklist.md
   - name: رسائل
     items:
+    - name: وسائل شرح الميزات
+      href: user-interface/feature-callouts.md
     - name: الشريط المنزلق ومربعات حوار مربع الرسالة
       href: user-interface/slider-messagebox.md
     - name: واجهة API لمركز الرسائل وشريط الرسالة وتفاصيل الرسالة
@@ -920,7 +944,7 @@ items:
       href: deployment/apply-deployable-package-system.md
     - name: تطبيق التحديثات والملحقات على مكونات قناة Retail المستضافة في السحابة
       href: deployment/Update-retail-channel.md
-    - name: تهيئة مكونات قناة Retail المستضافة في السحابة
+    - name: تهيئة Retail Cloud Scale Unit
       href: deployment/Initialize-Retail-Channels.md
   - name: النشر المحلي
     href: deployment/on-premises-deployment-landing-page.md
@@ -1044,7 +1068,7 @@ items:
     items:
     - name: عملية النقل إلى التحديث الأخير
       href: migration-upgrade/upgrade-latest-update.md
-    - name: تحديث البيئات من الإصدار 8.0 إلى 8.1
+    - name: تحديث البيئات من الإصدار 8.0 إلى 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
     - name: سياسة دورة حياة البرامج والإصدارات على السحابة
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: وظيفة دُفعية للتعامل مع إلغاء تجزئة فهرس SQL
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: تكوين تنبيهات دُفعية
+      href: sysadmin/alerts.md
+    - name: نماذج دُفعية محسّنة
+      href: sysadmin/enhanced-forms.md
+    - name: تنظيف المحفوظات الدُفعية
+      href: sysadmin/batch-history-cleanup.md
   - name: مرشد التحسين
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1227,10 +1257,12 @@ items:
       href: database/database-point-in-time-restore.md
   - name: البرامج التعليمية
     items:
-    - name: تحديث لأغراض الاختبار
+    - name: تحديث لأغراض التدريب
       href: database/dbmovement-scenario-general-refresh.md
-    - name: التصحيح والتشخيص
+    - name: تصحيح نسخة من قاعدة بيانات الإنتاج
       href: database/dbmovement-scenario-debugdiag.md
+    - name: تصدير نسخة من قاعدة بيانات اختبار القبول القياسي للمستخدم (UAT)
+      href: database/dbmovement-scenario-exportuat.md
     - name: ترقية التكوين الذهبي
       href: database/dbmovement-scenario-goldenconfig.md
     - name: اختبار تحديد القدرة
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: إدارة خبرات دعم Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773792"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976002"
