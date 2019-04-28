@@ -1,7 +1,7 @@
 ---
 title: إدخال معلومات العامل
 description: بعد قيام مسؤول التعيين بإنشاء مشروع توظيف جماعي وإنشاء المناصب، تقضي الخطوة التالية بإدخال معلومات العامل للأشخاص الذين يتم توظيفهم.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,38 +10,38 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMMassHireProject, HRMMassHireLine
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d850f271a3add191fcdc8ff5624bebbc6c6327f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d1d50f71f93e7d4bfff81aaceed408f976844fbd
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339546"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "855990"
 ---
-# <a name="enter-worker-information"></a><span data-ttu-id="a039f-103">إدخال معلومات العامل</span><span class="sxs-lookup"><span data-stu-id="a039f-103">Enter worker information</span></span>
+# <a name="enter-worker-information"></a><span data-ttu-id="eec7e-103">إدخال معلومات العامل</span><span class="sxs-lookup"><span data-stu-id="eec7e-103">Enter worker information</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="a039f-104">بعد قيام مسؤول التعيين بإنشاء مشروع توظيف جماعي وإنشاء المناصب، تقضي الخطوة التالية بإدخال معلومات العامل للأشخاص الذين يتم توظيفهم.</span><span class="sxs-lookup"><span data-stu-id="a039f-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="a039f-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="a039f-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a039f-106">تتضمن بيانات العرض التوضيحي مشروع توظيف جماعي مفتوحًا.</span><span class="sxs-lookup"><span data-stu-id="a039f-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="a039f-107">لبدء هذا الإجراء، انتقل إلى الموارد البشرية > التوظيف‬ > مشاريع التوظيف الجماعي.</span><span class="sxs-lookup"><span data-stu-id="a039f-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
+<span data-ttu-id="eec7e-104">بعد قيام مسؤول التعيين بإنشاء مشروع توظيف جماعي وإنشاء المناصب، تقضي الخطوة التالية بإدخال معلومات العامل للأشخاص الذين يتم توظيفهم.</span><span class="sxs-lookup"><span data-stu-id="eec7e-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="eec7e-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="eec7e-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="eec7e-106">تتضمن بيانات العرض التوضيحي مشروع توظيف جماعي مفتوحًا.</span><span class="sxs-lookup"><span data-stu-id="eec7e-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="eec7e-107">لبدء هذا الإجراء، انتقل إلى الموارد البشرية > التوظيف‬ > مشاريع التوظيف الجماعي.</span><span class="sxs-lookup"><span data-stu-id="eec7e-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
 
-1. <span data-ttu-id="a039f-108">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a039f-108">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="a039f-109">انقر فوق "تفاصيل المنصب".</span><span class="sxs-lookup"><span data-stu-id="a039f-109">Click Position details.</span></span>
-    * <span data-ttu-id="a039f-110">حرر تاريخ البدء للعامل.</span><span class="sxs-lookup"><span data-stu-id="a039f-110">Edit the start date for the worker.</span></span>  
-    * <span data-ttu-id="a039f-111">حرر تاريخ الانتهاء للعامل.</span><span class="sxs-lookup"><span data-stu-id="a039f-111">Edit the end date for the worker.</span></span>  
-    * <span data-ttu-id="a039f-112">غيّر نوع العامل للعامل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="a039f-112">Change the worker type for the worker, if needed.</span></span>  
-3. <span data-ttu-id="a039f-113">في الحقل "الاسم الأول"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a039f-113">In the First name field, type a value.</span></span>
-4. <span data-ttu-id="a039f-114">في الحقل "الاسم الأوسط‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a039f-114">In the Middle name field, type a value.</span></span>
-5. <span data-ttu-id="a039f-115">في الحقل "اسم العائلة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a039f-115">In the Last name field, type a value.</span></span>
-    * <span data-ttu-id="a039f-116">غيّر وظيفة العامل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="a039f-116">Change the job for the worker, if needed.</span></span>  
-    * <span data-ttu-id="a039f-117">غيّر القسم الذي يعمل فيه العامل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="a039f-117">Change the department for the worker, if needed.</span></span>  
-    * <span data-ttu-id="a039f-118">غيّر الحالة المكافئة للدوام الكامل‬ للعامل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="a039f-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
-6. <span data-ttu-id="a039f-119">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="a039f-119">Click OK.</span></span>
-7. <span data-ttu-id="a039f-120">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="a039f-120">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="a039f-121">في القائمة، قم بإلغاء علامة الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="a039f-121">In the list, unmark the selected row.</span></span>
-    * <span data-ttu-id="a039f-122">حدد منصب المشروع التالي وتابع إدخال معلومات العامل لكل شخص تريد توظيفه.</span><span class="sxs-lookup"><span data-stu-id="a039f-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
+1. <span data-ttu-id="eec7e-108">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="eec7e-108">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="eec7e-109">انقر فوق "تفاصيل المنصب".</span><span class="sxs-lookup"><span data-stu-id="eec7e-109">Click Position details.</span></span>
+    * <span data-ttu-id="eec7e-110">حرر تاريخ البدء للعامل.</span><span class="sxs-lookup"><span data-stu-id="eec7e-110">Edit the start date for the worker.</span></span>  
+    * <span data-ttu-id="eec7e-111">حرر تاريخ الانتهاء للعامل.</span><span class="sxs-lookup"><span data-stu-id="eec7e-111">Edit the end date for the worker.</span></span>  
+    * <span data-ttu-id="eec7e-112">غيّر نوع العامل للعامل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="eec7e-112">Change the worker type for the worker, if needed.</span></span>  
+3. <span data-ttu-id="eec7e-113">في الحقل "الاسم الأول"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="eec7e-113">In the First name field, type a value.</span></span>
+4. <span data-ttu-id="eec7e-114">في الحقل "الاسم الأوسط‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="eec7e-114">In the Middle name field, type a value.</span></span>
+5. <span data-ttu-id="eec7e-115">في الحقل "اسم العائلة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="eec7e-115">In the Last name field, type a value.</span></span>
+    * <span data-ttu-id="eec7e-116">غيّر وظيفة العامل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="eec7e-116">Change the job for the worker, if needed.</span></span>  
+    * <span data-ttu-id="eec7e-117">غيّر القسم الذي يعمل فيه العامل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="eec7e-117">Change the department for the worker, if needed.</span></span>  
+    * <span data-ttu-id="eec7e-118">غيّر الحالة المكافئة للدوام الكامل‬ للعامل، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="eec7e-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
+6. <span data-ttu-id="eec7e-119">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="eec7e-119">Click OK.</span></span>
+7. <span data-ttu-id="eec7e-120">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="eec7e-120">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="eec7e-121">في القائمة، قم بإلغاء علامة الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="eec7e-121">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="eec7e-122">حدد منصب المشروع التالي وتابع إدخال معلومات العامل لكل شخص تريد توظيفه.</span><span class="sxs-lookup"><span data-stu-id="eec7e-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
 

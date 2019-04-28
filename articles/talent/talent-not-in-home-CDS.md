@@ -1,7 +1,7 @@
 ---
-title: عدم ظهور Talent بين تطبيقات Microsoft Dynamics 365 (CDS1.0)
+title: عدم ظهور Talent بين تطبيقات Microsoft Dynamics 365 (Common Data Service 1.0)
 description: يشرح هذا الموضوع ما يجب عليك فعله إذا لم تتمكن من رؤية تطبيق Microsoft Dynamics 365 for Talent بين تطبيقات Microsoft Dynamics 365.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
@@ -9,47 +9,47 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 32ae0ab807e953bd811a557e6878b9bee79d293c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ad5add2b572ccb6bff175806b965f63b53986152
+ms.sourcegitcommit: 45b79d1e587e03f5cde2766cdec4eaa7a2a897a3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303137"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "949772"
 ---
-# <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-cds10"></a><span data-ttu-id="db7f5-103">عدم ظهور Talent بين تطبيقات Microsoft Dynamics 365 (CDS1.0)</span><span class="sxs-lookup"><span data-stu-id="db7f5-103">Talent doesn't appear among the Microsoft Dynamics 365 apps (CDS1.0)</span></span>
+# <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a><span data-ttu-id="f840f-103">عدم ظهور Talent بين تطبيقات Microsoft Dynamics 365 (Common Data Service 1.0)</span><span class="sxs-lookup"><span data-stu-id="f840f-103">Talent doesn't appear among the Microsoft Dynamics 365 apps (Common Data Service 1.0)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="db7f5-104">**إصدار**</span><span class="sxs-lookup"><span data-stu-id="db7f5-104">**Issue**</span></span>
+**<span data-ttu-id="f840f-104">إصدار</span><span class="sxs-lookup"><span data-stu-id="f840f-104">Issue</span></span>**
 
-<span data-ttu-id="db7f5-105">يتعذر على العميل رؤية تطبيق Microsoft Dynamics 365 for Talent بين تطبيقات Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="db7f5-105">The customer doesn't see the Microsoft Dynamics 365 for Talent app among the Microsoft Dynamics 365 apps.</span></span>
+<span data-ttu-id="f840f-105">يتعذر على العميل رؤية تطبيق Microsoft Dynamics 365 for Talent بين تطبيقات Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="f840f-105">The customer doesn't see the Microsoft Dynamics 365 for Talent app among the Microsoft Dynamics 365 apps.</span></span>
 
-<span data-ttu-id="db7f5-106">**‏‏الدقة**</span><span class="sxs-lookup"><span data-stu-id="db7f5-106">**Resolution**</span></span>
+**<span data-ttu-id="f840f-106">‏‏الدقة</span><span class="sxs-lookup"><span data-stu-id="f840f-106">Resolution</span></span>**
 
-<span data-ttu-id="db7f5-107">يجب إضافة المستخدم إلى دور أداة إنشاء البيئة للبيئة في Microsoft PowerApps.</span><span class="sxs-lookup"><span data-stu-id="db7f5-107">The user must be added to the Environment Maker role for the environment in Microsoft PowerApps.</span></span>
+<span data-ttu-id="f840f-107">يجب إضافة المستخدم إلى دور أداة إنشاء البيئة للبيئة في Microsoft PowerApps.</span><span class="sxs-lookup"><span data-stu-id="f840f-107">The user must be added to the Environment Maker role for the environment in Microsoft PowerApps.</span></span>
 
-1. <span data-ttu-id="db7f5-108">يجب على المستخدم المسؤول الذي لديه ترخيص PowerApps Plan 2 فتح [مدخل إدارة PowerApps](https://preview.admin.powerapps.com/).</span><span class="sxs-lookup"><span data-stu-id="db7f5-108">The admin user who has a PowerApps Plan 2 license must open the [PowerApps Admin portal](https://preview.admin.powerapps.com/).</span></span>
-2. <span data-ttu-id="db7f5-109">حدد **البيئات**، ثم حدد البيئة الصحيحة لـ Talent.</span><span class="sxs-lookup"><span data-stu-id="db7f5-109">Select **Environments**, and select the correct environment for Talent.</span></span>
-3. <span data-ttu-id="db7f5-110">في علامة تبويب **الأمان**، في علامة تبويب **أدوار البيئة** ، حدد **أداة إنشاء البيئة**.</span><span class="sxs-lookup"><span data-stu-id="db7f5-110">On the **Security** tab, on the **Environment roles** tab, select **Environment Maker**.</span></span>
+1. <span data-ttu-id="f840f-108">يجب على المستخدم المسؤول الذي لديه ترخيص PowerApps Plan 2 فتح [مدخل إدارة PowerApps](https://preview.admin.powerapps.com/).</span><span class="sxs-lookup"><span data-stu-id="f840f-108">The admin user who has a PowerApps Plan 2 license must open the [PowerApps Admin portal](https://preview.admin.powerapps.com/).</span></span>
+2. <span data-ttu-id="f840f-109">حدد **البيئات**، ثم حدد البيئة الصحيحة لـ Talent.</span><span class="sxs-lookup"><span data-stu-id="f840f-109">Select **Environments**, and select the correct environment for Talent.</span></span>
+3. <span data-ttu-id="f840f-110">في علامة تبويب **الأمان**، في علامة تبويب **أدوار البيئة** ، حدد **أداة إنشاء البيئة**.</span><span class="sxs-lookup"><span data-stu-id="f840f-110">On the **Security** tab, on the **Environment roles** tab, select **Environment Maker**.</span></span>
 
     ![علامة تبويب أدوار البيئة](media/environment-roles.png)
 
-4. <span data-ttu-id="db7f5-112">على علامة التبويب **المستخدمون**، قم بإضافة المستخدم أو المؤسسة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="db7f5-112">On the **Users** tab, add the user or your organization.</span></span>
+4. <span data-ttu-id="f840f-112">على علامة التبويب **المستخدمون**، قم بإضافة المستخدم أو المؤسسة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="f840f-112">On the **Users** tab, add the user or your organization.</span></span>
 
     ![علامة التبويب المستخدمون](media/environment-maker.png)
 
-5. <span data-ttu-id="db7f5-114">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="db7f5-114">Select **Save**.</span></span>
-6. <span data-ttu-id="db7f5-115">يجب على المستخدم الآن تسجيل الدخول إلى [Microsoft Dynamics 365](https://home.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="db7f5-115">The user must now sign in to [Microsoft Dynamics 365](https://home.dynamics.com/).</span></span>
-7. <span data-ttu-id="db7f5-116">حدد **مزامنة** لتحديث تطبيقات المستخدم.</span><span class="sxs-lookup"><span data-stu-id="db7f5-116">Select **Sync** to update the user apps.</span></span>
+5. <span data-ttu-id="f840f-114">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="f840f-114">Select **Save**.</span></span>
+6. <span data-ttu-id="f840f-115">يجب على المستخدم الآن تسجيل الدخول إلى [Microsoft Dynamics 365](https://home.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="f840f-115">The user must now sign in to [Microsoft Dynamics 365](https://home.dynamics.com/).</span></span>
+7. <span data-ttu-id="f840f-116">حدد **مزامنة** لتحديث تطبيقات المستخدم.</span><span class="sxs-lookup"><span data-stu-id="f840f-116">Select **Sync** to update the user apps.</span></span>
 
     ![زر المزامنة](media/get-more.png)
 
-    <span data-ttu-id="db7f5-118">بعد اكتمال المزامنة، سوف يظهر Talent في الصفحة الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="db7f5-118">After synchronization is completed, Talent will appear on the home page.</span></span>
+    <span data-ttu-id="f840f-118">بعد اكتمال المزامنة، سوف يظهر Talent في الصفحة الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="f840f-118">After synchronization is completed, Talent will appear on the home page.</span></span>
