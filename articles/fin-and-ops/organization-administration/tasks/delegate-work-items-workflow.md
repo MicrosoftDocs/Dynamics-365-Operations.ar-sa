@@ -3,7 +3,7 @@ title: تفويض عناصر العمل في سير عمل
 description: إذا كنت تخطط للتواجد خارج المكتب مما يعني أنك لن تكون متاحًا لاتخاذ الإجراءات اللازمة على عناصر العمل، فيمكنك تفويض عناصر العمل أو إعادة تعيينها إلى مستخدمين آخرين.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346239"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976771"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>تفويض عناصر العمل في سير عمل
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-إذا كنت تخطط للتواجد خارج المكتب مما يعني أنك لن تكون متاحًا لاتخاذ الإجراءات اللازمة على عناصر العمل، فيمكنك تفويض عناصر العمل أو إعادة تعيينها إلى مستخدمين آخرين. يساعدك هذا الإجراء في تكوين النظام لتفويض عناصر العمل لمستخدم آخر تلقائيًا.
+## <a name="manually-delegate-a-work-item"></a>تفويض عنصر عمل يدويًا
 
+تفويض عنصر عمل فردي، حدد الخيار **تفويض** في قائمة **سير العمل**، ثم أدخل المستخدم الذي تريد تفويضه لسير العمل مع إضافة تعليق. سيؤدي ذلك إلى إعادة تعيين عنصر العمل إلى هذا المستخدم لتمكينه من إتمامه.
 
+## <a name="automatically-delegate-work-items"></a>تفويض عناصر العمل تلقائيًا
 
-شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+إذا كنت تخطط للبقاء خارج المكتب أو بشكل آخر غير متوفر للعمل على عناصر عمل لفترة من الوقت، فيمكنك تفويض عناصر العمل الجديدة بشكل تلقائي لمستخدمين آخرين باستخدام صفحة **خيارات المستخدم**.
 
-
-## <a name="set-up-automatic-delegation"></a>إعداد تفويض تلقائي
+### <a name="set-up-automatic-delegation"></a>إعداد تفويض تلقائي
 1. انتقل إلى عام > الإعداد > خيارات المستخدم.
 2. انقر فوق علامة التبويب "سير العمل".
     * تأكد من توسيع المقطع "تفويض".    لتكوين النظام بحيث يقوم النظام بتفويض عناصر عملك إلى مستخدمين الآخرين بشكل تلقائي، يجب إنشاء قواعد تفويض تحدد متى يتم تفويض أنواع معينة من عناصر العمل. اتبع هذه الخطوات لإنشاء قاعدة تفويض.  

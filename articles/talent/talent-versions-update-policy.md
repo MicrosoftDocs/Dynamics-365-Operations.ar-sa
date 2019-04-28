@@ -1,7 +1,7 @@
 ---
 title: متطلبات النظام وسياسة التحديث في Talent
 description: يسرد هذا الموضوع متطلبات Dynamics 365 for Talent. وقد تم أيضًا توضيح سياسة التحديث.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: shielas
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64362ae9e4ebb63ca6da2cd2f41376d1d9047694
-ms.sourcegitcommit: c6af2de37309b574dcb69c9caad436b55136600f
+ms.openlocfilehash: 2389f00b22ec3b5284eeffb2c015533b7a3d13e0
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "768475"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856291"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>متطلبات النظام وسياسة التحديث في Talent
 

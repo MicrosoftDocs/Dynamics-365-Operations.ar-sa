@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782774"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949887"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (27 فبراير 2019)
 
@@ -87,7 +87,7 @@ ms.locfileid: "782774"
 
 ## <a name="known-issues"></a>مشكلات معروفة​
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>التغييرات في قالب تكامل Core HR (Talent Common Data Service للتطبيقات إلى Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>التغييرات في قالب تكامل Core HR (Talent Common Data Service إلى Finance and Operations)
 تم تحديث قالب Core HR إلى "قالب استعلام متقدم". وبالتالي، سيكون الاستعلام المتقدم متوفرًا، بشكل افتراضي، للمشاريع التي يتم إنشاؤها باستخدام هذا القالب. بالإضافة إلى ذلك، ستكون أي وظائف تعيين افتراضية مرئية فقط في محرر الاستعلام. (تظهر وظائف التعيين الافتراضية على الشكل "FN" في التعيينات.)
 
 للحصول على مزيد من المعلومات حول أخطاء التعيين، راجع [ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (14 ديسمبر 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
@@ -100,19 +100,19 @@ ms.locfileid: "782774"
 
     - **مناصب الوظيفة إلى الوظيفة:** أزل هذا التعيين.
     - **تعيين مناصب الوظيفة إلى الوظيفة الرئيسية للمناصب:** أزل هذا التعيين.
-    - **مناصب الوظيفة إلى المنصب الأساسي:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service للتطبيقات إلى كيان **المنصب الأساسي** في Finance and Operations. انقله إلى الموضع 7 في التسلسل.
+    - **مناصب الوظيفة إلى المنصب الأساسي:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service إلى كيان **المنصب الأساسي** في Finance and Operations. انقله إلى الموضع 7 في التسلسل.
 
         [![تعيين مناصب الوظيفة إلى المنصب الأساسي](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **مناصب الوظيفة إلى تفاصيل المنصب:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service للتطبيقات إلى كيان **تفاصيل المنصب** في Finance and Operations. انقله إلى الموضع 8 في التسلسل.
+    - **مناصب الوظيفة إلى تفاصيل المنصب:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service إلى كيان **تفاصيل المنصب** في Finance and Operations. انقله إلى الموضع 8 في التسلسل.
 
         [![تعيين مناصب الوظيفة إلى تفاصيل المناصب](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **مناصب الوظيفة إلى مدد المنصب‬:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service للتطبيقات إلى كيان **مدد المنصب‬** في Finance and Operations.
+    - **مناصب الوظيفة إلى مدد المنصب‬:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service إلى كيان **مدد المنصب‬** في Finance and Operations.
 
         [![تعيين مناصب الوظيفة إلى مدد المنصب‬](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **مناصب الوظيفة إلى التدرجات الهرمية للمناصب‬‬:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service للتطبيقات إلى كيان **التدرجات الهرمية للمناصب‬‬** في Finance and Operations. حدد **استعلام متقدم** لجعل الاستعلام المتقدم متوفرًا لمشروعك.
+    - **مناصب الوظيفة إلى التدرجات الهرمية للمناصب‬‬:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service إلى كيان **التدرجات الهرمية للمناصب‬‬** في Finance and Operations. حدد **استعلام متقدم** لجعل الاستعلام المتقدم متوفرًا لمشروعك.
 
        [![الزر "استعلام متقدم"](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

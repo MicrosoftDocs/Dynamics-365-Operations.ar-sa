@@ -1,7 +1,7 @@
 ---
 title: عدم العثور على مستخدم في "منتقي الأشخاص" في Attract أو Attract
 description: يشرح هذا الموضوع الخطوات التي يجب اتخاذها عند عدم ظهور مستخدمين في الشركة في "منتقي الأشخاص" في التطبيق Attract أو Onboard في Dynamics 365 for Talent.
-author: ChrisChua
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: chrichua
+ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 2d4a74ee2cc65153c1f9fdc1b42c2fc440d188d6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303164"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859495"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>لم يتم العثور على مستخدمي Azure Active Directory في منتقي الأشخاص
 

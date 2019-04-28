@@ -1,7 +1,7 @@
 ---
 title: الموارد البشرية
 description: يعمل قسم الموارد البشرية على تبسيط العديد من المهام الروتينية المتعلقة بحفظ السجلات وعلى أتمتة عدد من العمليات المتعلقة بتعيين الموظفين في مؤسستك. وهو يوفر أيضًا إطار عمل لموظفي الموارد البشرية لإدارة مجالات الرقابة. تشمل هذه المجالات عمليات تعيين الموظفين واستبقائهم وإدارة الميزات والتدريب ومراجعات الأداء وإدارة التغيير.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c8b743e667413dfc263fe640b4c6c7350e887142
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341754"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859795"
 ---
 # <a name="human-resources"></a>الموارد البشرية
 
@@ -45,7 +45,7 @@ ms.locfileid: "341754"
 
 أثناء العمل مع الموارد البشرية، سوف تقرر كيفية بناء المؤسسة، واستخدام عناصر مثل الإدارات والوظائف والمناصب. هذه من بين العناصر الأساسية التي ستقوم بتكوينها في الموارد البشرية. يتم تعيين أفراد الموظفين للمناصب المرتبطة بالوظائف.
 
-- [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](../../talent/departments-jobs-positions.md)
+- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](../../talent/departments-jobs-positions.md)
 - [إعداد معلمات الموارد البشرية الخاصة بالشركة](../../talent/set-up-company-specific-hr-parameters.md)
 - [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](../../talent/set-up-hr-parameters-across-legal-entities.md)
 

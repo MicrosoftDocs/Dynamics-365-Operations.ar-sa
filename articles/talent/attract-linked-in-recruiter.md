@@ -1,7 +1,7 @@
 ---
 title: التوريد باستخدام LinkedIn Recruiter
 description: يوفر هذا الموضوع معلومات حول استخدام التعلم الآلي‬ للحصول على توصيات بشأن وظيفة ومرشح الوظيفة.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,21 +10,21 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303053"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859564"
 ---
 # <a name="sourcing-with-linkedin-recruiter"></a>التوريد باستخدام LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "303053"
 يُعتبر LinkedIn أكبر قاعدة بيانات للمواهب في العالم، وهو في أغلب الأحيان النظام الرئيسي الذي يستعين به مسؤولو التعيين للبحث عن مرشحين للوظائف التي يسعون إلى ملئها وللتواصل مع هؤلاء المرشحين وتوريدهم. بفضل تكامل LinkedIn Recruiter مع Dynamics 365 for Talent: Attract بإمكان المستخدمين تنفيذ عملية التوظيف والمحافظة على مزامنة البيانات بين النظامين.
 
 > [!NOTE]
-> إنك تحتاج إلى المكون الإضافي Comprehensive Hiring ومقاعد LinkedIn Recruiter كي تتمكن من استخدام تكامل LinkedIn Recruiter مع Attract.
+> إنك تحتاج إلى المكون الإضافي "التوظيف الشامل" ومقاعد LinkedIn Recruiter كي تتمكن من استخدام تكامل LinkedIn Recruiter مع Attract.
 
 ## <a name="set-up-linkedin-recruiter-with-attract"></a>إعداد LinkedIn Recruiter مع Attract 
 
@@ -76,7 +76,7 @@ ms.locfileid: "303053"
 
 ## <a name="using-linkedin-recruiter-capabilities"></a>استخدام قدرات LinkedIn Recruiter
 
-بعد تمكين قدرات LinkedIn بواسطة مسؤول Attract، يمكن لمسؤولي التعيين ومدراء التوظيف الوصول إليها. لاستخدام هذه القدرات، قم بتوصيل حسابك في LinkedIn ضمن **إعدادات المستخدم**. ستتوفر قدرات متعددة بعد توصيل إعدادات المسؤول والمستخدم.
+بعد تمكين قدرات LinkedIn Recruiter بواسطة مسؤول Attract، يمكن لمسؤولي التعيين ومدراء التوظيف الوصول إليها. لاستخدام هذه القدرات، قم بتوصيل حسابك في LinkedIn ضمن **إعدادات المستخدم**. ستتوفر قدرات متعددة بعد توصيل إعدادات المسؤول والمستخدم.
 
 ### <a name="in-ats-profile-widget"></a>عنصر واجهة المستخدم لملف التعريف In-ATS
 
@@ -107,7 +107,7 @@ ms.locfileid: "303053"
 
 ### <a name="in-ats-indicator"></a>مؤشر In-ATS 
 
-باستخدام LinkedIn Recruiter، يمكنك تعقب ما إذا كان المرشح قد تقدم بطلبات حصول على وظائف أخرى في مؤسستك، والاطلاع على وجودهم في مختلف مراحل تقديم طلبات الوظائف وعرض الملاحظات والتعليقات من LinkedIn Recruiter.
+باستخدام LinkedIn Recruiter، يمكنك تعقب ما إذا كان المرشح قد تقدم بطلبات حصول على وظائف أخرى في مؤسستك، والاطلاع على وجودهم في مختلف مراحل تقديم طلبات الوظائف وعرض الملاحظات والتعليقات من Attract في LinkedIn Recruiter.
 
 1.  افتح LinkedIn Recruiter وحدد موقع ملف تعريف المرشح الذي تبحث عنه.
 
@@ -132,7 +132,7 @@ ms.locfileid: "303053"
 
 ### <a name="notes-history"></a>محفوظات الملاحظات 
 
-تتوفر محفوظات ملاحظات LinkedIn مع وصول على مستوى العقد مع LinkedIn Recruiter. عند تمكين هذه المحفوظات، يمكنك عرض الملاحظات حول المرشح التي التقطها مسؤولو تعيين مختلفين من مؤسستك.
+تتوفر محفوظات LinkedIn من خلال وصول على مستوى العقد مع LinkedIn Recruiter. عند تمكين هذه المحفوظات، يمكنك عرض الملاحظات حول المرشح التي التقطها مسؤولو تعيين مختلفين من مؤسستك.
 
 لعرض محفوظات الملاحظات، انتقل إلى ملف تعريف المرشح، وانتقل إلى علامة التبويب **LinkedIn** وقم بالتمرير إلى أسفل الصفحة لعرض المحفوظات. يمكنك عرض كافة الملاحظات حول المرشح من LinkedIn Recruiter.
 

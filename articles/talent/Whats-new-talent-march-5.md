@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782773"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949795"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (5 مارس 2019)
 
@@ -35,7 +35,7 @@ ms.locfileid: "782773"
 
 ### <a name="extending-option-sets-in-attract"></a>توسيع مجموعات الخيارات في Attract
 
-في Attract، توجد حقول متعددة هي عبارة عن مجموعات خيارات ضمن Common Data Service (CDS). تم تقديم قدرات جديدة لتوسيع مجموعات الخيارات، بدءًا من حقل سبب **الرفض**، وحقل **نوع التوظيف** وحقل **نوع الأقدمية**.
+في Attract، توجد حقول متعددة هي عبارة عن مجموعات خيارات ضمن Common Data Service. تم تقديم قدرات جديدة لتوسيع مجموعات الخيارات، بدءًا من حقل سبب **الرفض**، وحقل **نوع التوظيف** وحقل **نوع الأقدمية**.
 
 > [!IMPORTANT]
 > يتطلب نشر إعلانات الوظائف في وظيفة LinkedIn استخدام الحقلين **نوع التوظيف** و**نوع الأقدمية** في صفحة **تفاصيل الوظيفة**. تلقى القيم الافتراضية في هذه الحقول دعم LinkedIn القيم وتظهر عند نشر الوظيفة. إذا كنت تنشر إعلانات الوظائف في LinkedIn وقمت بتعديل قيم مجموعة الخيارات الحالية لهذه الحقول، فسيستمر نشر إعلان الوظيفة، ولكن LinkedIn لن يعرض القيم المخصصة **نوع التوظيف** و**نوع الأقدمية**.
@@ -70,8 +70,8 @@ ms.locfileid: "782773"
 ### <a name="other-miscellaneous-bug-fixes"></a>إصلاحات أخطاء متنوعة أخرى
 يتضمن هذا الإصدار إصلاحات أخطاء ثانوية أخرى:
 
-### <a name="upgrade-to-cds-for-apps"></a>الترقية إلى CDS للتطبيقات
-تقترب المواعيد النهائية المحددة لترقية CDS للتطبيقات بسرعة. سجّل دخولك إلى مركز إدارة PowerApps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service للتطبيقات](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>الترقية إلى Common Data Service
+تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة PowerApps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>قريبًا
 

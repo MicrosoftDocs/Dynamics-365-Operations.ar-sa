@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303030"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949841"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (14 ديسمبر 2018)
 
@@ -65,7 +65,7 @@ ms.locfileid: "303030"
 
 ### <a name="integration-between-core-hr-and-attract"></a>التكامل بين Core HR وAttract
 
-تم إجراء تغيير لتحديث التكامل بين Core HR وAttract المتعلق بالمرشحين المراد توظيفهم. لظهور المرشحين المراد توظيفهم في مساحة عمل **إدارة الموظفين**، يتم استخدام كيانات CDS للتطبيقات‏‎ (CDS 2.0) التالية:
+تم إجراء تغيير لتحديث التكامل بين Core HR وAttract المتعلق بالمرشحين المراد توظيفهم. لظهور المرشحين المراد توظيفهم في مساحة عمل **إدارة الموظفين**، يتم استخدام كيانات Common Data Service التالية:
 
 استمارة التقديم للوظيفة
 - يجب تعيين سبب الحالة إلى "قبول العرض"
@@ -139,7 +139,7 @@ ms.locfileid: "303030"
 
 يجب أيضًا تحديث حقل النوع. حدد نوع التعيين **fn** (وظيفة) للنوع وحدّث تعيينات القيم التالية.
 
-| قيمة CDS                   | قيمة Finance and Operations                     |
+| قيمة Common Data Service                   | قيمة Finance and Operations                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | ذكر                                             |
 | 75440001                    | أنثى                                           |

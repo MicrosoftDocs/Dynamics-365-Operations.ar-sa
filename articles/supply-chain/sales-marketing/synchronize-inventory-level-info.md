@@ -3,7 +3,7 @@ title: مزامنة معلومات مستوى المخزون من Finance and Op
 description: يناقش هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات المعلومات على مستوى المخزون من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356773"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842546"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>مزامنة معلومات مستوى المخزون من Finance and Operations إلى Field Service 
 
@@ -38,14 +38,14 @@ ms.locfileid: "356773"
 يتم استخدام القالب التالي والمهام الأساسية التالية لمزامنة مستويات المخزون الفعلي من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Field Service.
 
 **قالب في تكامل البيانات**
-- مخزون المنتج (Finance and Operations إلى Field Service)
+- مخزون المنتج (Fin and Ops إلى Field Service)
   
 **مهمة في مشروع تكامل البيانات**
 - مخزون المنتج
 
 يجب تنفيذ مهام المزامنة التالية قبل حدوث مزامنة مستويات المخزون:
-- المستودعات (Finance and Operations إلى Field Service) 
-- منتجات Field Service مع وحدة المخزون (Finance and Operations إلى Sales) 
+- المستودعات (Fin and Ops إلى Field Service) 
+- منتجات Field Service مع وحدة المخزون (Fin and Ops إلى Sales) 
 
 ## <a name="entity-set"></a>مجموعة الكيانات
 
@@ -80,6 +80,6 @@ ms.locfileid: "356773"
 
 ## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>مخزون المنتج (Finance and Operations إلى Field Service): مخزون المنتج
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>مخزون المنتج (Fin and Ops إلى Field Service): مخزون المنتج
 
 [![تعيين القالب في تكامل البيانات](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
