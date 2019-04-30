@@ -1,26 +1,26 @@
 ---
 title: تكوين تكامل كشف المرتبات بين Talent وDayforce
 description: يشرح هذا الموضوع كيفية تكوين التكامل بين Microsoft Dynamics 365 for Talent وCeridian Dayforce لكي تتمكن من معالجة دورة دفع.
-author: jcart1106
+author: andreabichsel
 manager: AnnBe
-ms.date: 07/10/2018
+ms.date: 03/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
+ms.sourcegitcommit: 204e4554e409c39fbbf7b273ad138ce2809931a8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303077"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898434"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>تكوين تكامل كشف الرواتب بين Talent وDayforce
 
@@ -292,7 +292,7 @@ ms.locfileid: "303077"
 |-----------------------|------------------------------------------------------------------------------------------------------|
 | أقرب تاريخ توظيف | تاريخ بدء التوظيف في سجل محفوظات التوظيف الحالي لموظف لم يتم إنهاء خدماته                                 |
 | تاريخ الإنهاء      | تاريخ انتهاء التوظيف في سجل محفوظات التوظيف الحالي لموظف لم يتم إنهاء خدماته                                 |
-| تاريخ البدء            | تاريخ البدء المعدل أو تاريخ بدء التوظيف في في سجل محفوظات التوظيف الحالي غير النشط |
+| تاريخ البدء            | تاريخ البدء المعدل أو تاريخ بدء التوظيف في سجل محفوظات التوظيف الحالي غير النشط |
 | تاريخ التوظيف الأصلي    | تاريخ بدء التوظيف في سجل محفوظات التوظيف الأحدث                                               |
 
 #### <a name="compensation"></a>التعويض
@@ -358,7 +358,10 @@ ms.locfileid: "303077"
 - الأقسام مطلوبة على المناصب.
 - يجب تعيين مراكز التكلفة كأبعاد مالية ويجب أن تكون العنصر الأول في سلسلة الأبعاد المالية الافتراضية.
 
-### <a name="job-types"></a>أنواع الوظيفة
+> [!NOTE] 
+> يمكنك تكوين Talent لمطالبة المناصب بتحديد قسم. للقيام بذلك، انتقل إلى **الموارد البشرية المناصب المشتركة > المناصب > الأقسام مطلوبة على المناصب**. من المستحسن أن يتم فرض هذا الإعداد للتكامل.
+
+### <a name="job-types"></a>أنواع الوظائف
 
 يتم استخدام أنواع الوظائف لتجميع وظائف مماثلة في فئات. تعتبر أنواع الوظائف مطلوبة لمعالجة كشف المرتبات في الولايات المتحدة وكندا. تتضمن أمثلة عن أنواع الوظائف الدوام الكامل والدوام الجزئي أو الراتب والدفع بالساعة. يتم تعيين أنواع الوظائف إلى Dayforce كأنواع دفع تشير إلى ما إذا كان الموظف يتقاضى أجره بالساعة أو يتقاضى راتبًا.
 

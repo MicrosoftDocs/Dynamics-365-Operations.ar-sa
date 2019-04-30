@@ -1,64 +1,87 @@
 ---
-title: قدرات المكون الإضافي "التوظيف الشامل" في Attract
-description: يوفر هذا الموضوع معلومات حول قدرات المكون الإضافي "التوظيف الشامل" في Attract‬ في Microsoft Dynamics 365 for Talent.
-author: ''
+title: أي إصدار من Attract
+description: يوفر هذا الموضوع معلومات حول القدرات الموجودة في الإصدارات المختلفة من Microsoft Dynamics 365 for Talent - Attract.
+author: andreabichsel
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6adc2398d9ebcc655ad7ac7e0c949f44dc011013
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: b061233239fcaee768579cde9d1015ebbeaa66cb
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376426"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993612"
 ---
-# <a name="attract-comprehensive-hiring-add-on-capabilities"></a>قدرات المكون الإضافي "التوظيف الشامل" في Attract
+# <a name="which-version-of-attract"></a>أي إصدار من Attract؟
 
 [!include[banner](../includes/banner.md)]
 
-تختلف المؤسسات من حيث تقديرها لأهمية مجموعات الوظائف المختلفة المتوفرة ضمن Attract. ونتيجة لذلك، هناك "مستويان" في منتج Attract. هناك منتج Attract الذي يستهدف الفرق أو المؤسسات الصغيرة، حيث يعتبر مدير التوظيف المستخدم الرئيسي لعملية التوظيف. وهناك أيضًا المكون الإضافي "التوظيف الشامل" الذي يمكن إضافته إلى منتج Attract، مقابل تكلفة إضافية، وهو يستهدف الفرق أو المؤسسات المتوسطة إلى الكبيرة الحجم حيث يعتبر مسؤول التعيين أو أخصائي Talent المستخدم الرئيسي لعملية التوظيف.
-للحصول على مزيد من المعلومات حول الأسعار والتراخيص، راجع [دليل الترخيص](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf) الأحدث.
+يتوقف إصدار Microsoft Dynamics 365 for Talent: Attract المناسب لك على حجم مؤسستك واحتياجاتها. يوفر الإصدار الأساسي من Attract مجموعة فرعية من الوظائف التي تستهدف مؤسسات أو فرق عمل أصغر حجمًا حيث يعتبر مدير التوظيف المستخدم الرئيسي. يمكنك بدء استخدام الإصدار الأساسي من Attract مع ترخيص واحد أو أكثر.
 
-تتضمن الإصدارات التجريبية المجانية من Attract بشكل تلقائي المكون الإضافي "التوظيف الشامل" لفترة الإصدار التجريبي. إذا تبين أنك بحاجة إلى المكون الإضافي "التوظيف الشامل" لتلبية احتياجات مؤسستك، فابحث عن [شريك Dynamics 365 for Talent محلي](https://dynamics.microsoft.com/partners/find-a-partner/) لمساعدتك على تلبية هذه الاحتياجات.
+يستهدف Attract مع المكون الإضافي "التوظيف الشامل" المؤسسات أو فرق العمل المتوسطة الحجم حيث يعتبر مسؤول التعيين أو أخصائي المواهب المستخدم الرئيسي. يتطلب المكون الإضافي "التوظيف الشامل" شراء التراخيص عبر [شريك Microsoft Dynamics 365](https://dynamics.microsoft.com/partners/find-a-partner/).
 
-## <a name="capability-details"></a>تفاصيل القدرات
+> [!NOTE]
+> يعرض الإصدار التجريبي من Attract برنامج Attract مع المكون الإضافي "التوظيف الشامل". يوفر هذا المكون الإضافي قدرات توظيف وتعيين شاملة، مثل القدرة على نشر إعلانات الوظائف في موقع وظائف Attract أو موقع توظيف خارجي مثل LinkedIn. إذا اخترت الإصدار الأساسي من Attract، فسيتضمن اشتراكك مجموعة فرعية من القدرات المتوفرة في الإصدار التجريبي.
 
-تستعرض النظرة العامة التالية قدرات Attract عبر Attract وAttract المزود بالمكون الإضافي "التوظيف الشامل".
+للحصول على مزيد من المعلومات حول الأسعار والتراخيص، راجع [دليل ترخيص Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-| **القدرة**                                           | **Attract**         | **Attract مع المكون الإضافي التوظيف الشامل** |
-|----------------------------------------------------------|---------------------|---------------------------------------|
-| **الجمهور / الشخص**  **الرئيسي‏‎**                      | **مدراء الأفراد** | **مدراء التعيين/أخصائيو Talent**    |
-| إدارة طلب الوظائف                                | :heavy_check_mark:   | :heavy_check_mark:                    |
-| تكوين عملية التوظيف على مستوى الوظائف                    | :heavy_check_mark:   | :heavy_check_mark:                    |
-| إنشاء المرشحين وإدارة ملفات التعريف                  | :heavy_check_mark:   | :heavy_check_mark:                    |
-| جدولة المقابلات الذكية                         | :heavy_check_mark:  | :heavy_check_mark:                    |
-| إعداد مجموعة مواهب شخصية واحدة                        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| إدارة الأمان والأدوار                              | :heavy_check_mark:   | :heavy_check_mark:                    |
-| لوحة المعلومات الأساسية                                          | :heavy_check_mark:   | :heavy_check_mark:                    |
-| وصول المرشحين إلى تفاصيل استمارات التقديم الفردية        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| سير الموافقة على طلبات الوظائف                             |                     | :heavy_check_mark:                    |
-| إدارة قوالب عملية التوظيف على مستوى المؤسسة    |                     | :heavy_check_mark:                    |
-| نشر الوظائف في موقع وظائف Attract:                       |                     | :heavy_check_mark:                    |
-| سير استمارات تقديم المرشحين عبر موقع وظائف Attract   |                      | :heavy_check_mark:                    |
-| وصول المرشحين إلى ملفات التعريف الكاملة ومحفوظات استمارات التقديم |                     | :heavy_check_mark:                    |
-| اتصال LinkedIn Recruiter<sup>1</sup>                |                     | :heavy_check_mark:                    |
-| إدارة العروض                                         |                     | :heavy_check_mark:                    |
-| إعداد مجموعات المواهب المشتركة والعامة                     |                     | :heavy_check_mark:                    |
-| إدارة قوالب البريد الإلكتروني                                |                     | :heavy_check_mark:                    |
-| توصيات المرشحين والوظائف                        |                     | :heavy_check_mark:                    |
+## <a name="feature-comparison"></a>مقارنة الميزات
 
+| القدرة | Attract | المكون الإضافي "التوظيف الشامل" |
+| ---------- | :-----------: | :-------------------: |
+| لوحة المعلومات الأساسية | :heavy_check_mark: | :heavy_check_mark: |
+| إدارة الأمان والأدوار | :heavy_check_mark: | :heavy_check_mark: |
+| إدارة طلبات الوظائف | :heavy_check_mark: | :heavy_check_mark: |
+| إنشاء عملية التوظيف على مستوى الوظائف | :heavy_check_mark: | :heavy_check_mark: |
+| إنشاء مرشحين وإدارة ملفات التعريف | :heavy_check_mark: | :heavy_check_mark: |
+| إنشاء مجموعة مواهب واحدة‬ | :heavy_check_mark: | :heavy_check_mark: |
+| جدولة المقابلات | :heavy_check_mark: | :heavy_check_mark: |
+| منح المرشحين حق الوصول إلى تفاصيل استمارات التقديم | :heavy_check_mark: | :heavy_check_mark: |
+| إنشاء عمليات سير عمل الموافقة لطلبات الوظائف | | :heavy_check_mark: |
+| إدارة عمليات التوظيف على مستوى المؤسسة | | :heavy_check_mark: |
+| نشر الوظائف في موقع Attract ومواقع وظائف خارجية | | :heavy_check_mark: |
+| إنشاء مهام سير عمل استمارات تقديم المرشحين عبر موقع وظائف Attract | | :heavy_check_mark: |
+| منح المرشح حق الوصول إلى ملف تعريف كامل ومحفوظات استمارات التقديم | | :heavy_check_mark: |
+| التواصل مع LinkedIn Recruiter<br></br>تحتاج هذه القدرة إلى ترخيص LinkedIn Recruiter، يجب <br></br> شراؤه بشكل منفصل من خلال LinkedIn.</blockquote> | | :heavy_check_mark: |
+| إدارة العروض | | :heavy_check_mark: |
+| إنشاء مجموعات مواهب مشتركة وعامة | | :heavy_check_mark: |
+| إدارة قوالب البريد الإلكتروني | | :heavy_check_mark: |
+| تقديم توصيات المرشحين والوظائف | | :heavy_check_mark: |
 
-<sup>1</sup>تعتبر تراخيص مسؤول تعيين LinkedIn، التي يجب شراؤها بشكل منفصل من خلال LinkedIn، مطلبًا أساسيًا لهذه الميزة.
+## <a name="find-out-which-version-of-attract-you-have"></a>معرفة إصدار Attract المتوفر لديك
+
+1. في Attract، حدد علامة الاستفهام (**؟**) في الزاوية العلوية اليسرى من الصفحة.
+2. حدد **حول**.
+
+    تعرض النافذة التي تظهر نوع ترخيص Attract المتوفر لديك.
+
+    ![عرض نوع ترخيص Attract](media/attract-license-types.png)
+
+## <a name="frequently-asked-questions"></a>الأسئلة المتداولة
+
+### <a name="why-dont-i-see-all-the-features-that-were-included-in-the-attract-trial"></a>لماذا لا يمكنني رؤية جميع الميزات المضمنة في الإصدار التجريبي من Attract؟
+
+هناك عدة أسباب تكمن خلف عدم قدرتك على رؤية جميع الميزات المضمنة في الإصدار التجريبي من Attract:
+
+- يعرض الإصدار التجريبي من Attract برنامج Attract مع المكون الإضافي "التوظيف الشامل"، ولديك الآن الإصدار الأساسي من Attract. يتضمن الإصدار الأساسي من Attract مجموعة فرعية من الميزات التي تستهدف مدراء التعيين في المؤسسات وفرق العمل الصغيرة.
+- لديك Attract مع المكون الإضافي "التوظيف الشامل"، ولكن الأدوار الصحيحة لاستخدام جميع الميزات لم تعيّن لك. لمزيد من المعلومات، راجع [إدارة الأمان والأدوار في Attract‬](security-attract.md).
+
+### <a name="why-dont-i-see-all-the-attract-features-that-my-coworker-sees"></a>لماذا لا يمكنني رؤية جميع ميزات Attract التي يراها زميلي في العمل؟
+
+هناك عدة أسباب تكمن خلف عدم قدرتك على رؤية جميع ميزات Attract التي يستطيع زميلك في العمل رؤيتها:
+
+- يستخدم زميلك إصدارًا تجريبيًا أو ترخيصًا من Attract مع المكون الإضافي "التوظيف الشامل"، بينما تستخدم الإصدار الأساسي من Attract.
+- لديك Attract مع المكون الإضافي "التوظيف الشامل"، ولكن الأدوار الصحيحة لاستخدام جميع الميزات لم تعيّن لك. لمزيد من المعلومات، راجع [إدارة الأمان والأدوار في Attract‬](security-attract.md).

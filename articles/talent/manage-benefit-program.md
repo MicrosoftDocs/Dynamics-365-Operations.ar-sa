@@ -1,7 +1,7 @@
 ---
 title: تحديد وإدارة برنامج ميزات
 description: توفر الموارد البشرية مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. وتوفر هذه المقالة معلومات حول كيفية إعداد ميزات إدارة.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: fc325b519299098a4f8257c013bce0842237f9ea
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 033377f7d45bfa2b798c098be2dde0c21739bb51
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303142"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857420"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>تحديد وإدارة برنامج ميزات
 

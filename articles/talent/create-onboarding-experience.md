@@ -1,7 +1,7 @@
 ---
 title: إنشاء تجربة إعداد تفاعلية
 description: من شأن إعداد الموظفين الجدد بطريقة جيدة أن يساعدهم على تحقيق حس الانتماء إلى مؤسستهم الجديدة.
-author: tbisaacs
+author: andreabichsel
 manager: ''
 ms.date: 11/14/2017
 ms.topic: article
@@ -10,18 +10,18 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: tbisaacs
+ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 0dbc3247e1a5a8134184c8fe98fa8692fbf27c94
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 805f74a0cf618254b7d5fb9a1195dc75832dc0ca
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303071"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859818"
 ---
 # <a name="create-an-engaging-onboarding-experience"></a>إنشاء تجربة إعداد تفاعلية
 
@@ -62,7 +62,7 @@ ms.locfileid: "303071"
 
 أنشئ جدول أعمال لليوم وشاركه مع الموظف الجديد. ولا تركز فقط على التأهيل. احرص على إدخال المتعة في هذا اليوم الأول واصطحب الموظفين الجدد في جولة في المكتب وافسح لهم فرصة التعرف على الآخرين. احرص على إطلاع الموظفين الآخرين على مجريات الأمور، ودعهم يعلمون أن هناك شخص جديد ينضم إلى الشركة. لا تنسَ إشراك الأشخاص الموجودين في أقسام تكنولوجيا المعلومات وكشوفات الروات والأقسام الإدارية الأخرى. واحرص على حصول الموظفين الجدد على كل الأشياء التي يحتاجون إليها لبدء العمل. وهذا يشمل مساحة العمل والكمبيوتر وبيانات الاعتماد والبرامج والأدوات المطلوبة. ركّز على العلاقات بدلاً من العمل الورقي.
 
-تعتبر العلاقات عنصرًا أساسيًا تحث الموظفين على على اكتساب المهارات بشكل أسرع. والأهم من ذلك أنها تساعد على خلق حس المجتمع والانتماء في الشركة.
+تعتبر العلاقات عنصرًا أساسيًا تحث الموظفين على اكتساب المهارات بشكل أسرع. والأهم من ذلك أنها تساعد على خلق حس المجتمع والانتماء في الشركة.
 
 - البحث عن خبير أو بطل في الشركة وجعله الشخص المسؤول عن الإعداد.
 - تمكين الموظفين الجدد من التواصل مع مجتمعات أو مجموعات اهتمامات ذات صلة بالوظيفة. فهذه طريقة رائعة للعثور على المدربين أو المشرفين.

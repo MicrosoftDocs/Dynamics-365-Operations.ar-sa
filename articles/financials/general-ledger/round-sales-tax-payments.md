@@ -3,7 +3,7 @@ title: مدفوعات ضريبة المبيعات وقواعد التقريب
 description: توضح هذه المقالة كيفية عمل إعداد قاعدة التقريب في هيئات ضريبة المبيعات‬ وتقريب موازنة ضريبة المبيعات أثناء وظيفة تسوية ضريبة المبيعات وترحيلها‬.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 05/30/2018
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: vstehman
+ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f03336c834e74cd12d039c7b9692874843811746
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1e1c1bb1c792eb79888a1df209f2eebaf14a38dd
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367836"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842428"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>مدفوعات ضريبة المبيعات وقواعد التقريب
 
@@ -37,7 +37,7 @@ ms.locfileid: "367836"
 
 يوضح المثال أدناه كيفية عمل قاعدة التقريب في سلطة ضريبة المبيعات.
 
-### <a name="example"></a>مثال:
+## <a name="examples"></a>أمثلة
 
 تعرض ضريبة المبيعات الإجمالية لفترة رصيد دائن بمبلغ -98,765.43. قام الكيان القانوني بجمع ضرائب مبيعات أكثر مما دفع. ولذلك، تدين الكيان القانوني بأموال لهيئة الضرائب. 
 
@@ -59,6 +59,67 @@ ms.locfileid: "367836"
 | ميزة خاصة، لرصيد دائن | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                |
 | ميزة خاصة، لرصيد مدين  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
 
+
+### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>بدون تقريب على الإطلاق، بما أن التقريب هو 0.00
+
+round(1.0151, 0.00) = 1.0151 دائرية (1.0149 أو 0.00) = 1.0149
+
+### <a name="normal-round-and-round-precision-is-001"></a>تقريب عادي، ودقة التقريب هي 0.01
+
+<table>
+  <tr>
+    <td>تقريب
+    </td>
+    <td>عملية الحساب
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.015, 0.01) = 1.02
+    </td>
+    <td>
+      <ol>
+        <li>round(1.015 / 0.01, 0) = round(101.5, 0) = 102
+        </li>
+        <li>102 * 0.01 = 1.02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.014, 0.01) = 1.01
+    </td>
+    <td> <ol>
+        <li>round(1.014 / 0.01, 0) = round(101.4, 0) = 101
+        </li>
+        <li>101 * 0.01 = 1.01
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.011, 0.02) = 1.02
+    </td>
+    <td> <ol>
+        <li>round(1.011 / 0.02, 0) = round(50.55, 0) = 51
+        </li>
+        <li>51 * 0.02 = 1.02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.009, 0.02) = 1.00
+    </td>
+    <td> <ol>
+        <li>round(1.009 / 0.02, 0) = round(50.45, 0) = 50
+        </li>
+        <li>50 * 0.02 = 1.00
+        </li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
 > [!NOTE]                                                                                  
 > إذا قمت بتحديد ميزة خاصة، يكون التقريب دائماً في صالح الكيان القانوني. 
 
@@ -67,5 +128,6 @@ ms.locfileid: "367836"
 - [إنشاء دفع ضريبة مبيعات](tasks/create-sales-tax-payment.md)
 - [إنشاء حركات المبيعات في المستندات](tasks/create-sales-tax-transactions-documents.md)
 - [عرض حركات ضرائب المبيعات المُرَّحلة](tasks/view-posted-sales-tax-transactions.md)
+- [الدالة round](https://msdn.microsoft.com/en-us/library/aa850656.aspx)
 
 

@@ -1,0 +1,110 @@
+---
+title: توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
+description: يصف هذا الموضوع بعض الأمثلة عن سيناريوهات قابلية التوسعة في Microsoft Dynamics 365 for Talent التي تستخدم Microsoft PowerApps وMicrosoft Flow.
+author: negudava
+manager: Annbe
+ms.date: 03/04/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Talent;Core;Experience Apps
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: negudava
+ms.search.validFrom: 2019-03-04
+ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949910"
+---
+# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
+
+يصف هذا الموضوع بعض الأمثلة عن سيناريوهات قابلية التوسعة في Microsoft Dynamics 365 for Talent التي تستخدم Microsoft PowerApps وMicrosoft Flow. يمكنك استيراد حزمة الحل المقترنة بكل مثال إلى بيئتك في PowerApps. بعد ذلك، يمكنك استخدام الحزم كنقاط إرشادية أو كنقاط بداية لتنفيذ السيناريوهات التي تنطبق على مؤسستك.
+
+> [!IMPORTANT]
+> إذا أردت استخدام القوالب والتطبيقات التي تم وصفها في الموضوع "كما هي"، فتأكد من اختبارها للتأكد من أنها تغطي كافة السيناريوهات المتعلقة بعملية التنفيذ التي تقوم بها.
+
+
+## <a name="prerequisites"></a>المتطلبات الأساسية
+
+- لاستيراد الحزم، يجب أن يتوفر إذن **أداة إنشاء البيئة** لدى المستخدمين.
+- لتصدير التطبيقات أو استيرادها، يجب أن يتوفر لدى المستخدمين ترخيص PowerApps Plan 2 أو ترخيص إصدار تجريبي PowerApps Plan 2.
+
+## <a name="flow--form-connect"></a>القالب "Flow – توصيل النماذج"
+
+يمكن استخدام القالب **Flow – توصيل النماذج** لقراءة البيانات من Microsoft Forms وتخزينها في كيان Common Data Service.
+
+ويمكن توسيع هذا القالب لتمكين سيناريوهات أخرى من استخدامه. فيما يلي بعض الأمثلة:
+
+- التقاط تقييمات المرشح.
+- التقاط النتائج من استبيانات الدورة التدريبية.
+- تجميع مكتبة تتضمن أسئلة المقابلات لمسؤولي الموارد البشرية (HR).
+- التقاط تقييم المرشح أثناء عملية المقابلة
+
+في Microsoft Dynamics 365: Attract، بإمكان النماذج أن تظهر في مدخل المرشحين، وبإمكان المرشحين ملء التفاصيل فيها. ويمكن أيضًا تضمين النماذج كأنشطة في قالب وظيفة.
+
+عندما يرسل المرشح نموذجًا، يلتقط Microsoft Flow عملية إرسال النموذج ويقرأ البيانات ويخزنها في كيان Common Data Service.
+
+لتنزيل القالب **Flow – توصيل النماذج** وبنية الكيان المخصص، انتقل إلى [Flow – توصيل النماذج](https://go.microsoft.com/fwlink/?linkid=2081988) في مركز التنزيل لـ Microsoft.
+
+## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>القالب "تهيئة واستخراج المعلمات التي تم تمريرها إلى Powerapps"
+
+يمكن استخدام القالب **تهيئة واستخراج المعلمات التي تم تمريرها إلى Powerapps** كنقطة بداية لأي سيناريو PowerApps يتعلق بتطبيق Attract. ويتضمن هذا القالب جميع المعلمات الافتراضية التي تم تمريرها بواسطة Attract، مثل **استمارة التقديم للوظيفة** و**معرف المرشح** و**معرف الوظيفة**.
+
+يمكن استخدام هذا القالب للعثور على نموذج تقييم المرشح لتمكين مدير التوظيف من عرض التقييم الذي قام المرشح بتعبئته.
+
+يمكن تضمين التطبيقات التي يتم إنشاؤها باستخدام PowerApps في قالب الوظيفة في Attract.
+
+لتنزيل القالب **تهيئة واستخراج المعلمات التي تم تمريرها إلى Powerapps** وبنية الكيان المخصص، انتقل إلى [تهيئة واستخراج المعلمات التي تم تمريرها إلى Powerapps](https://go.microsoft.com/fwlink/?linkid=2081991) في مركز التنزيل لـ Microsoft.‬
+
+## <a name="integration-with-office-365"></a>التكامل مع Office 365
+
+يمكن استخدام تطبيق **التكامل مع Office 365** لاستخراج معلومات الفريق للمستخدمين الذين سجلوا دخولهم من Microsoft Office 365. وهو يشير إلى العاملين في Talent لاستخراج تسجيلات تفاصيل بدء العمل وانتهاء العمل والاستثناءات. يتم تخزين تفاصيل بدء العمل وانتهاء العمل في كيانات مخصصة في Common Data Service. ويتم الافتراض أن تعبئة هذه التفاصيل يتم من أنظمة خارجية عن طريق التكامل.
+
+يمكن توسيع هذا التطبيق لتمكين سيناريوهات أخرى من استخدامه. على سبيل المثال، يمكن استخدامه لإظهار معلومات العطلة الخاصة بالفريق بالإضافة إلى أحداث التقويم وأي أحداث خاصة بالفريق.
+
+لتنزيل تطبيق **التكامل مع Office 365** وبنية الكيان المخصص، انتقل إلى [التكامل مع Office 365](https://go.microsoft.com/fwlink/?linkid=2081787) في مركز التنزيل لـ Microsoft.
+
+## <a name="flow--email-notification"></a>القالب "Flow – إعلام بواسطة البريد الإلكتروني"
+
+يمكن استخدام القالب **Flow – إعلام بواسطة البريد الإلكتروني** لسيناريوهات الإعلام بواسطة البريد الإلكتروني. ويمكن استخدامه لتشغيل الإعلامات بواسطة البريد الإلكتروني الموجهة للمرشحين الذين رفضهم فريق التوظيف أثناء أي مرحلة من مراحل التعيين.
+
+يمكن توسيع هذا القالب لتعقب التغييرات في مرحلة المرشح عبر عملية التعيين، ولإرسال إعلامات إلى فريق التوظيف والمرشح.
+
+بشكل عام، بالنسبة إلى الكيانات المخزنة في Common Data Service، يمكن إعداد مهام سير العمل لإرسال إعلامات تتعلق بالأحداث التي تقع في Core HR أو Attract أو Dynamics 365 Talent: Onboard.
+
+لتنزيل القالب **Flow – إعلام بواسطة البريد الإلكتروني**، انتقل إلى [Flow – إعلام بواسطة البريد الإلكتروني](https://go.microsoft.com/fwlink/?linkid=2082103) في مركز التنزيل لـ Microsoft.
+
+## <a name="flow--sql-connect-and-execute"></a>القالب "Flow – توصيل وتنفيذ SQL"
+
+يقوم القالب **Flow – توصيل وتنفيذ SQL‬** بالتوصيل بخادم Microsoft SQL Server ويسمح بتشغيل استعلامات SQL.
+
+على الرغم من تصميم هذا القالب لقراءة وتحديث جداول SQL، إلا أنه من الممكن توسيعه لتمكين استخدامه لسيناريوهات أخرى. على سبيل المثال، يمكن استخدامه لتعبئة جدول مرحلي في Common Data Service بواسطة سجلات من SQL Server، ولمزامنة الجدول المرحلي بشكل دوري باستخدام توزيع تزايدي من SQL Server.
+
+لتنزيل القالب **Flow – توصيل وتنفيذ SQL**، انتقل إلى [Flow – توصيل وتنفيذ SQL](https://go.microsoft.com/fwlink/?linkid=2081789) في مركز التنزيل لـ Microsoft.
+
+## <a name="flow--sharepoint-integration"></a>القالب "Flow – تكامل SharePoint"
+
+يمكن استخدام القالب **Flow – تكامل SharePoint** لقراءة البيانات من قائمة Microsoft SharePoint ومقارنة القائمة مع قيم الحقول لأي من كيانات Common Data Service وإرسال نتائج المقارنة كبريد إلكتروني للإعلام. 
+
+قد تتوفر لدى مؤسسة مجموعة من المهارات تحتاج إليها بطريقة ملحة. يمكن تخزين هذه المهارات في SharePoint كقائمة SharePoint. عندما يقدم أحد المرشحين طلب الحصول على أي وظيفة تم إدراج مجموعة المهارات المطلوبة لها، يتم إرسال بريد إلكتروني للإعلام عند وجود تطابق ملحوظ بين مهارات المرشح والمهارات المخزنة في SharePoint. وبهذه الطريقة، يتم ملء المناصب المطلوبة بشكل ملح بسرعة أكبر، لأن الإعلامات تساعد مسؤولي التعيين على الوصول إلى المرشحين عبر المؤسسة وتوظيفهم.
+
+يمكن توسيع هذا القالب لتمكين استخدامه لأي سيناريو يشتمل على تكامل SharePoint.
+
+لتنزيل القالب **Flow – تكامل SharePoint**، انتقل إلى [Flow – تكامل SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) في مركز التنزيل لـ Microsoft.
+
+
+
+## <a name="additional-resources"></a>الموارد الإضافية
+
+[Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
+
+[ترحيل التطبيق بين المستأجرين والبيئات](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)

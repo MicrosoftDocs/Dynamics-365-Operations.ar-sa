@@ -1,7 +1,7 @@
 ---
 title: تحديد قواعد وسياسات استحقاق الفائدة
 description: سيظهر هذا التسجيل كيفية إنشاء قواعد وسياسات استحقاق الميزات، ثم تعيين قواعد للميزات.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d346c3277e8f19020d6aa96cf6961c4c52ac28fb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d0d35266c95cfbf3473a14fec47a1c748229dd25
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341662"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859219"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>تحديد قواعد وسياسات استحقاق الفائدة
 
