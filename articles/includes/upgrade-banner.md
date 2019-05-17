@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="14327-101">تتوفر هذه الميزة حاليًا فقط بموجب دعوة فقط.</span><span class="sxs-lookup"><span data-stu-id="14327-101">This feature is currently available by invitation only.</span></span> <span data-ttu-id="14327-102">لتسمية مؤسستك للمشاركة، يرجى إكمال [هذا الاستقصاء](https://aka.ms/ax2012upgrade).</span><span class="sxs-lookup"><span data-stu-id="14327-102">To nominate your organization to participate, please complete [this survey](https://aka.ms/ax2012upgrade).</span></span> 
