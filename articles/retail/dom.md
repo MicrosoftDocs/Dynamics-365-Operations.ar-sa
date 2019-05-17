@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
-ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
+ms.openlocfilehash: 0251321f02d533326e1e8b642e30002a633b6871
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "380006"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512663"
 ---
 # <a name="distributed-order-management-dom"></a>إدارة الأوامر الموزعة (DOM)
 
@@ -64,7 +64,7 @@ ms.locfileid: "380006"
         1. في Microsoft Dynamics Lifecycle Services، افتح مكتبة الأصول المشتركة‬، وحدد **النموذج** كنوع الأصول، وقم بتنزيل ملف **ترخيص DOM**.
         2. ابدأ تشغيل Microsoft Internet Information Services (IIS) Manager، وانقر بزر الماوس الأيمن فوق **AOSService website**، ثم حدد **استكشاف**. تفتح نافذة مستكشف Windows في **\<AOS service root\>\\webroot**. سجّل المسار \<AOS Service root\>، لأنك ستستخدمه في الخطوة التالية.
         3. انسخ ملف التكوين في الدليل **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. انتقل إلى عميل Retail Headquarters، وافتح صفحة **معلمات DOM**. على علامة تبويب **الحلول**، في الحقل **نوع الحلول**، حدد **حلول الإنتاج**، وتأكد من عدم ظهور رسائل خطأ.
+        4. انتقل إلى عميل Retail Headquarters وافتح صفحة **معلمات DOM**. على علامة تبويب **الحلول**، في الحقل **نوع الحلول**، حدد **حلول الإنتاج**، وتأكد من عدم ظهور رسائل خطأ.
 
         > [!NOTE]
         > تتوفر "الحلول المُبسطة‬" لتمكين بائعي التجزئة من تجربة ميزة DOM من دون الحاجة إلى نشر الترخيص الخاص. يجب على المؤسسات عدم استخدام "الحلول المُبسطة‬" في بيئات الإنتاج.
