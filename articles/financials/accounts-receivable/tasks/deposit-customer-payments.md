@@ -17,41 +17,41 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f58cebce20e8516dc918e0bad1e020ffd7f791ee
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313372"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565475"
 ---
-# <a name="deposit-customer-payments"></a><span data-ttu-id="db9d3-103">إيداع مدفوعات العميل</span><span class="sxs-lookup"><span data-stu-id="db9d3-103">Deposit customer payments</span></span>
+# <a name="deposit-customer-payments"></a><span data-ttu-id="a9eb8-103">إيداع مدفوعات العميل</span><span class="sxs-lookup"><span data-stu-id="a9eb8-103">Deposit customer payments</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="db9d3-104">إيداع مدفوعات العميل.</span><span class="sxs-lookup"><span data-stu-id="db9d3-104">Deposit customer payments.</span></span> <span data-ttu-id="db9d3-105">تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="db9d3-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="a9eb8-104">إيداع مدفوعات العميل.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-104">Deposit customer payments.</span></span> <span data-ttu-id="a9eb8-105">تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-105">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="db9d3-106">انتقل إلى الحسابات المدينة > المدفوعات‬ > دفتر يومية المدفوعات‬‬.</span><span class="sxs-lookup"><span data-stu-id="db9d3-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="db9d3-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="db9d3-107">Click New.</span></span>
-3. <span data-ttu-id="db9d3-108">في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="db9d3-108">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="db9d3-109">حدد دفتر يومية المدفوعات‬.</span><span class="sxs-lookup"><span data-stu-id="db9d3-109">Select the payment journal.</span></span> 
-5. <span data-ttu-id="db9d3-110">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="db9d3-110">Click Lines.</span></span>
-6. <span data-ttu-id="db9d3-111">في الحقل "الحساب"، حدد العميل الذي تقوم بتسجيل الدفعة له.</span><span class="sxs-lookup"><span data-stu-id="db9d3-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
-7. <span data-ttu-id="db9d3-112">في الحق "الدائن"، أدخل مبلغ الدفع.</span><span class="sxs-lookup"><span data-stu-id="db9d3-112">In the Credit field, enter the amount of the payment.</span></span>
-    * <span data-ttu-id="db9d3-113">يمكنك اختيار ترك المبلغ فارغًا والسماح للنظام بحسابه عن طريق تحديد الفواتير التي تم دفعها.</span><span class="sxs-lookup"><span data-stu-id="db9d3-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
-8. <span data-ttu-id="db9d3-114">في حقل "مرجع الدفع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="db9d3-114">In the Payment reference field, type a value.</span></span>
-    * <span data-ttu-id="db9d3-115">قد يكون مرجع الدفع رقم الشيك للدفعة التي تقوم بإدخاله.</span><span class="sxs-lookup"><span data-stu-id="db9d3-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="db9d3-116">يكون مرجع الدفع مطلوبًا لتضمين الدفعة في إيصال إيداع.</span><span class="sxs-lookup"><span data-stu-id="db9d3-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
-9. <span data-ttu-id="db9d3-117">ضع علامة على المربع "استخدام إيصال إيداع‬".</span><span class="sxs-lookup"><span data-stu-id="db9d3-117">Mark the box Use a deposit slip.</span></span>
-    * <span data-ttu-id="db9d3-118">إذا كان يجب تضمين الدفع في الإيداع فيمكنك تغيير هذا الإعداد إلى "نعم".</span><span class="sxs-lookup"><span data-stu-id="db9d3-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
-10. <span data-ttu-id="db9d3-119">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="db9d3-119">Click New.</span></span>
-11. <span data-ttu-id="db9d3-120">في الحقل "الحساب"، حدد العميل للدفعة التالية.</span><span class="sxs-lookup"><span data-stu-id="db9d3-120">In the Account field, select the Customer for the next payment.</span></span>
-12. <span data-ttu-id="db9d3-121">في الحق "الدائن"، أدخل مبلغ الدفع.</span><span class="sxs-lookup"><span data-stu-id="db9d3-121">In the Credit field, enter the payment amount.</span></span>
-13. <span data-ttu-id="db9d3-122">في حقل "مرجع الدفع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="db9d3-122">In the Payment reference field, type a value.</span></span>
-14. <span data-ttu-id="db9d3-123">ضع علامة على المربع "استخدام إيصال إيداع‬".</span><span class="sxs-lookup"><span data-stu-id="db9d3-123">Mark the box Use a deposit slip.</span></span>
-15. <span data-ttu-id="db9d3-124">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="db9d3-124">Click Post.</span></span>
-    * <span data-ttu-id="db9d3-125">يجب ترحيل المدفوعات قبل التمكن من إنشاء إيصال الإيداع.</span><span class="sxs-lookup"><span data-stu-id="db9d3-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="db9d3-126">وهذا للتأكد من أن المدفوعات لا تتغير بعد إنشاء إيصال الإيداع.</span><span class="sxs-lookup"><span data-stu-id="db9d3-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
-16. <span data-ttu-id="db9d3-127">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="db9d3-127">Click Functions.</span></span>
-17. <span data-ttu-id="db9d3-128">انقر فوق "إيصال الإيداع".</span><span class="sxs-lookup"><span data-stu-id="db9d3-128">Click Deposit slip.</span></span>
-18. <span data-ttu-id="db9d3-129">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="db9d3-129">Click OK.</span></span>
-    * <span data-ttu-id="db9d3-130">يتم استخدام الصفحة الأولى لإنشاء إيصال الإيداع.</span><span class="sxs-lookup"><span data-stu-id="db9d3-130">The first page is used to create the deposit slip.</span></span>  
-19. <span data-ttu-id="db9d3-131">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="db9d3-131">Click OK.</span></span>
-    * <span data-ttu-id="db9d3-132">تتعلق الخطوة الثانية بطباعة إيصال الإيداع، ولكن هذه الخطوة غير مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="db9d3-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
+1. <span data-ttu-id="a9eb8-106">انتقل إلى الحسابات المدينة > المدفوعات‬ > دفتر يومية المدفوعات‬‬.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="a9eb8-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-107">Click New.</span></span>
+3. <span data-ttu-id="a9eb8-108">في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="a9eb8-109">حدد دفتر يومية المدفوعات‬.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-109">Select the payment journal.</span></span> 
+5. <span data-ttu-id="a9eb8-110">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-110">Click Lines.</span></span>
+6. <span data-ttu-id="a9eb8-111">في الحقل "الحساب"، حدد العميل الذي تقوم بتسجيل الدفعة له.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
+7. <span data-ttu-id="a9eb8-112">في الحق "الدائن"، أدخل مبلغ الدفع.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-112">In the Credit field, enter the amount of the payment.</span></span>
+    * <span data-ttu-id="a9eb8-113">يمكنك اختيار ترك المبلغ فارغًا والسماح للنظام بحسابه عن طريق تحديد الفواتير التي تم دفعها.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
+8. <span data-ttu-id="a9eb8-114">في حقل "مرجع الدفع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-114">In the Payment reference field, type a value.</span></span>
+    * <span data-ttu-id="a9eb8-115">قد يكون مرجع الدفع رقم الشيك للدفعة التي تقوم بإدخاله.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="a9eb8-116">يكون مرجع الدفع مطلوبًا لتضمين الدفعة في إيصال إيداع.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
+9. <span data-ttu-id="a9eb8-117">ضع علامة على المربع "استخدام إيصال إيداع‬".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-117">Mark the box Use a deposit slip.</span></span>
+    * <span data-ttu-id="a9eb8-118">إذا كان يجب تضمين الدفع في الإيداع فيمكنك تغيير هذا الإعداد إلى "نعم".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
+10. <span data-ttu-id="a9eb8-119">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-119">Click New.</span></span>
+11. <span data-ttu-id="a9eb8-120">في الحقل "الحساب"، حدد العميل للدفعة التالية.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-120">In the Account field, select the Customer for the next payment.</span></span>
+12. <span data-ttu-id="a9eb8-121">في الحق "الدائن"، أدخل مبلغ الدفع.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-121">In the Credit field, enter the payment amount.</span></span>
+13. <span data-ttu-id="a9eb8-122">في حقل "مرجع الدفع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-122">In the Payment reference field, type a value.</span></span>
+14. <span data-ttu-id="a9eb8-123">ضع علامة على المربع "استخدام إيصال إيداع‬".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-123">Mark the box Use a deposit slip.</span></span>
+15. <span data-ttu-id="a9eb8-124">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-124">Click Post.</span></span>
+    * <span data-ttu-id="a9eb8-125">يجب ترحيل المدفوعات قبل التمكن من إنشاء إيصال الإيداع.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="a9eb8-126">وهذا للتأكد من أن المدفوعات لا تتغير بعد إنشاء إيصال الإيداع.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
+16. <span data-ttu-id="a9eb8-127">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-127">Click Functions.</span></span>
+17. <span data-ttu-id="a9eb8-128">انقر فوق "إيصال الإيداع".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-128">Click Deposit slip.</span></span>
+18. <span data-ttu-id="a9eb8-129">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-129">Click OK.</span></span>
+    * <span data-ttu-id="a9eb8-130">يتم استخدام الصفحة الأولى لإنشاء إيصال الإيداع.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-130">The first page is used to create the deposit slip.</span></span>  
+19. <span data-ttu-id="a9eb8-131">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="a9eb8-131">Click OK.</span></span>
+    * <span data-ttu-id="a9eb8-132">تتعلق الخطوة الثانية بطباعة إيصال الإيداع، ولكن هذه الخطوة غير مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="a9eb8-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
 
