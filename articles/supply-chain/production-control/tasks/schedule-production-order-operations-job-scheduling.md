@@ -17,11 +17,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 00698e9cd2ed0481e5fed301c8a8c2e98690a5db
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "352449"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562128"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>جدولة أمر إنتاج بواسطة جدولة العمليات وجدولة الوظائف
 

@@ -3,14 +3,14 @@ title: توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow 
 description: يصف هذا الموضوع بعض الأمثلة عن سيناريوهات قابلية التوسعة في Microsoft Dynamics 365 for Talent التي تستخدم Microsoft PowerApps وMicrosoft Flow.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949910"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517220"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
 
@@ -101,7 +101,21 @@ ms.locfileid: "949910"
 
 لتنزيل القالب **Flow – تكامل SharePoint**، انتقل إلى [Flow – تكامل SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) في مركز التنزيل لـ Microsoft.
 
+## <a name="admin-console-to-manage-talent-pools"></a>وحدة تحكم المسؤول لإدارة مجموعات المواهب‬‬
 
+عند تمكين التكامل مع LinkedIn، يقوم Attract تلقائيًا بإنشاء مجموعة مواهب في LinkedIn. عندما يتبادل مسؤول تعيين InMail عبر LinkedIn، ينشئ Attract ملف تعريف للشخص المعيّن، ويصبح هذا الشخص من أعضاء مجموعة المواهب في LinkedIn. يعد تطبيق PowerApps هذا مفيدًا لإعادة تنظيم المرشحين في مجموعات المواهب استنادًا إلى المهارة.
+
+قم بتشغيل تطبيق PowerApps هذا كوحدة تحكم مسؤول لتنفيذ المهام التالية:
+
+- إدراج المرشحين في مجموعة مواهب
+- إضافة مرشحين إلى مجموعة مواهب أو إزالتهم منها
+- نقل المرشحين من مجموعة مواهب إلى أخرى
+- تحديد ما إذا كان المرشحون عبارة عن جزء من مجموعة مواهب قبل نقلهم
+- التحقق من مهارات المرشحين قبل نقلهم إلى مجموعات مواهب أخرى
+
+يستخدم التطبيق PowerApps هذا علاقات متعدد إلى متعدد، بحيث يمكنك استخدامه كقالب للسيناريوهات الأخرى حيث تحتاج إلى استخراج السجلات التي لها علاقات متعدد إلى متعدد.
+
+لتنزيل القالب **وحدة تحكم المسؤول لإدارة مجموعات المواهب‬‬‬**، انتقل إلى [وحدة تحكم المسؤول لإدارة مجموعات المواهب](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) من مركز التنزيل لـ Microsoft.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

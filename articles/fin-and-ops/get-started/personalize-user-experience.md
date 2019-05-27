@@ -3,7 +3,7 @@ title: تخصيص تجربة المستخدم
 description: يشرح هذا الموضوع كيف يمكنك تخصيص Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975841"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528834"
 ---
 # <a name="personalize-the-user-experience"></a>تخصيص تجربة المستخدم
 
@@ -75,7 +75,7 @@ ms.locfileid: "975841"
 
 بالإضافة إلى ذلك، تتوافر الأنواع الأساسية من التخصيص الصريح عن طريق النقر بزر الماوس الأيمن فوق عنصر، ثم تحديد **تخصيص**. (لاحظ أنه لا يمكن تخصيص كافة العناصر الموجودة على صفحتك.) عندما تقوم باستخدام أسلوب التخصيص هذا، فسوف تظهر نافذة خصائص العنصر.
 
-[![تخصيص خصائص عنصر](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![تخصيص خصائص عنصر](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 يمكنك استخدام نافذة الخصائص لتخصيص عنصر بالطرق التالية:
 
@@ -91,7 +91,7 @@ ms.locfileid: "975841"
 
 إذا كنت تريد إجراء عدة تغييرات على صفحة أو إجراء تغييرات غير متوفرة من خلال آليات أخرى (مثل عناصر إعادة الترتيب)، يمكنك استخدام شريط أدوات **تخصيص**. لفتح شريط أدوات **التخصيص** ، حدد **تخصيص هذا النموذج** في نافذة الخصائص لعنصر. يمكنك أيضًا تحديد **تخصيص هذا النموذج** في مجموعة **تخصيص** في علامة تبويب **الخيارات** في جزء الإجراءات في كل صفحة.
 
-[![شريط أدوات التخصيص](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![شريط أدوات التخصيص](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>التنقل في الصفحة
 

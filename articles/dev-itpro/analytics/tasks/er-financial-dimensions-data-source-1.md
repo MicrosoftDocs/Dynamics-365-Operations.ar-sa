@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 84f546b73eefe3ead78c6ab3fdbbc05d0db5fef5
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339500"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544692"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1-design-data-model"></a>التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 1: تصميم نموذج البيانات)
 

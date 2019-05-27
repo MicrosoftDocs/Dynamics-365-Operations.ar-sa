@@ -16,11 +16,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: 8111601cb2948c66097b0f5b2f261b7462b279f9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "337453"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567068"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>إعداد المستودعات لأوامر التحويل 
 

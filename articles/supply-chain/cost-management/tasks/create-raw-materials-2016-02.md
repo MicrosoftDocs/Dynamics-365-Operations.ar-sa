@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 869acddf6f7e9754bb4952176ded4b22c74eaffd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327287"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563286"
 ---
 # <a name="create-raw-materials-february-2016-only"></a>إنشاء المواد الخام (فبراير 2016 فقط)
 
