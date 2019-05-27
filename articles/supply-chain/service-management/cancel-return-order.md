@@ -19,33 +19,33 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2a920c54e7cbb4d8478b6e409459807db68c77cc
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342582"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555411"
 ---
-# <a name="cancel-a-return-order"></a><span data-ttu-id="abb5c-103">إلغاء أمر إرجاع</span><span class="sxs-lookup"><span data-stu-id="abb5c-103">Cancel a return order</span></span> 
+# <a name="cancel-a-return-order"></a><span data-ttu-id="b7f66-103">إلغاء أمر إرجاع</span><span class="sxs-lookup"><span data-stu-id="b7f66-103">Cancel a return order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="abb5c-104">يمكنك إلغاء أمر إرجاع - بدلاً من حذفه - في حالة رغبتك في حفظ سجل للإرجاع المخطط.</span><span class="sxs-lookup"><span data-stu-id="abb5c-104">You can cancel a return order, instead of deleting it, when you want to save a record of the planned return.</span></span>
+<span data-ttu-id="b7f66-104">يمكنك إلغاء أمر إرجاع - بدلاً من حذفه - في حالة رغبتك في حفظ سجل للإرجاع المخطط.</span><span class="sxs-lookup"><span data-stu-id="b7f66-104">You can cancel a return order, instead of deleting it, when you want to save a record of the planned return.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="abb5c-105">يمكن فقط إلغاء أوامر الإرجاع بالحالة <STRONG>تم الإنشاء</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="abb5c-105">Only return orders that have a <STRONG>Created</STRONG> status can be canceled.</span></span> <span data-ttu-id="abb5c-106">ولا يمكن حذف أوامر الإرجاع التي تكون حالتها <STRONG>"مفتوح"</STRONG> أو <STRONG>"مغلق"</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="abb5c-106">Return orders with an <STRONG>Open</STRONG> or <STRONG>Closed</STRONG> status cannot be canceled.</span></span></P>
+> <P><span data-ttu-id="b7f66-105">يمكن فقط إلغاء أوامر الإرجاع بالحالة <STRONG>تم الإنشاء</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="b7f66-105">Only return orders that have a <STRONG>Created</STRONG> status can be canceled.</span></span> <span data-ttu-id="b7f66-106">ولا يمكن حذف أوامر الإرجاع التي تكون حالتها <STRONG>"مفتوح"</STRONG> أو <STRONG>"مغلق"</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="b7f66-106">Return orders with an <STRONG>Open</STRONG> or <STRONG>Closed</STRONG> status cannot be canceled.</span></span></P>
 
 
-1.  <span data-ttu-id="abb5c-107">انقر فوق **المبيعات والتسويق** \> **عام** \> **أوامر الإرجاع** \> **كل أوامر الإرجاع**.</span><span class="sxs-lookup"><span data-stu-id="abb5c-107">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
+1.  <span data-ttu-id="b7f66-107">انقر فوق **المبيعات والتسويق** \> **عام** \> **أوامر الإرجاع** \> **كل أوامر الإرجاع**.</span><span class="sxs-lookup"><span data-stu-id="b7f66-107">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
     
-    <span data-ttu-id="abb5c-108">–أو –</span><span class="sxs-lookup"><span data-stu-id="abb5c-108">–or–</span></span>
+    <span data-ttu-id="b7f66-108">–أو –</span><span class="sxs-lookup"><span data-stu-id="b7f66-108">–or–</span></span>
     
-    <span data-ttu-id="abb5c-109">انقر فوق **المبيعات والتسويق** \> **عام** \> **أوامر الإرجاع** \> **أوامر الإرجاع التي تم إنشاؤها**.</span><span class="sxs-lookup"><span data-stu-id="abb5c-109">Click **Sales and marketing** \> **Common** \> **Return orders** \> **Created return orders**.</span></span>
+    <span data-ttu-id="b7f66-109">انقر فوق **المبيعات والتسويق** \> **عام** \> **أوامر الإرجاع** \> **أوامر الإرجاع التي تم إنشاؤها**.</span><span class="sxs-lookup"><span data-stu-id="b7f66-109">Click **Sales and marketing** \> **Common** \> **Return orders** \> **Created return orders**.</span></span>
 
-2.  <span data-ttu-id="abb5c-110">حدد أمر الإرجاع الذي تريد إلغاؤه.</span><span class="sxs-lookup"><span data-stu-id="abb5c-110">Select the return order to cancel.</span></span>
+2.  <span data-ttu-id="b7f66-110">حدد أمر الإرجاع الذي تريد إلغاؤه.</span><span class="sxs-lookup"><span data-stu-id="b7f66-110">Select the return order to cancel.</span></span>
 
-3.  <span data-ttu-id="abb5c-111">وانقر فوق **إلغاء الأمر**.</span><span class="sxs-lookup"><span data-stu-id="abb5c-111">Click **Cancel order**.</span></span>
+3.  <span data-ttu-id="b7f66-111">وانقر فوق **إلغاء الأمر**.</span><span class="sxs-lookup"><span data-stu-id="b7f66-111">Click **Cancel order**.</span></span>
 
 
 

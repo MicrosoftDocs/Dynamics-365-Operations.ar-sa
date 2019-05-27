@@ -18,36 +18,36 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9d1c34ac2bd94196b7bad599e9aca7ed942ae9c8
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "344928"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557203"
 ---
-# <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a><span data-ttu-id="42300-103">إنشاء موازنة أصلية ثم إلغاء إدخالات الموازنة الأولية في القطاع العام</span><span class="sxs-lookup"><span data-stu-id="42300-103">Create an original budget and then reverse preliminary budget entries in the public sector</span></span>
+# <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a><span data-ttu-id="7402b-103">إنشاء موازنة أصلية ثم إلغاء إدخالات الموازنة الأولية في القطاع العام</span><span class="sxs-lookup"><span data-stu-id="7402b-103">Create an original budget and then reverse preliminary budget entries in the public sector</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="42300-104">عند إنشاء إدخال موازنة أصلية واستخدام قيم البعد ونموذج الموازنة التي تتضمن مبالغ الموازنة الأولية، يمكن إلغاء مبالغ الموازنة الأولية.</span><span class="sxs-lookup"><span data-stu-id="42300-104">When you create an original budget entry and use the budget model and dimension values that contain preliminary budget amounts, the preliminary budget amounts can be reversed.</span></span> <span data-ttu-id="42300-105">تم إنشاء هذا الإجراء باستخدام شركة بيانات العرض التوضيحي PSUS في قسم القطاع العام.</span><span class="sxs-lookup"><span data-stu-id="42300-105">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
+<span data-ttu-id="7402b-104">عند إنشاء إدخال موازنة أصلية واستخدام قيم البعد ونموذج الموازنة التي تتضمن مبالغ الموازنة الأولية، يمكن إلغاء مبالغ الموازنة الأولية.</span><span class="sxs-lookup"><span data-stu-id="7402b-104">When you create an original budget entry and use the budget model and dimension values that contain preliminary budget amounts, the preliminary budget amounts can be reversed.</span></span> <span data-ttu-id="7402b-105">تم إنشاء هذا الإجراء باستخدام شركة بيانات العرض التوضيحي PSUS في قسم القطاع العام.</span><span class="sxs-lookup"><span data-stu-id="7402b-105">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. <span data-ttu-id="42300-106">انتقل إلى إعداد الموازنة > إدخالات سجل الموازنة.</span><span class="sxs-lookup"><span data-stu-id="42300-106">Go to Budgeting > Budget register entries.</span></span>
-2. <span data-ttu-id="42300-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="42300-107">Click New.</span></span>
-3. <span data-ttu-id="42300-108">في حقل "‏‫نموذج الموازنة‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="42300-108">In the Budget model field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="42300-109">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="42300-109">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="42300-110">في حقل "‏‫كود الموازنة‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="42300-110">In the Budget code field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="42300-111">في القائمة، انقر فوق "الموازنة الأصلية".</span><span class="sxs-lookup"><span data-stu-id="42300-111">In the list, click Original budget.</span></span>
-7. <span data-ttu-id="42300-112">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="42300-112">Click Save.</span></span>
-8. <span data-ttu-id="42300-113">انقر فوق "إضافة بند".</span><span class="sxs-lookup"><span data-stu-id="42300-113">Click Add line.</span></span>
-9. <span data-ttu-id="42300-114">اختياري: إذا أردت تغيير التاريخ الموجود في رأس الصفحة، أدخل تاريخًا جديدًا.</span><span class="sxs-lookup"><span data-stu-id="42300-114">Optional: If you want to change the date from the one in the header, enter a new date.</span></span> <span data-ttu-id="42300-115">يحدد هذا التاريخ الفترة المالية التي سيتم تسجيل الموازنة بها.</span><span class="sxs-lookup"><span data-stu-id="42300-115">This date determines the fiscal period that the budget will be recorded to.</span></span>
-10. <span data-ttu-id="42300-116">في الحقل "بنية الحساب"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="42300-116">In the Account structure field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="42300-117">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="42300-117">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="42300-118">في حقل "‏‫قيم الأبعاد‬"، حدد القيم المرغوب فيها.</span><span class="sxs-lookup"><span data-stu-id="42300-118">In the Dimension values field, specify the desired values.</span></span>
-13. <span data-ttu-id="42300-119">في حقل "المبلغ"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="42300-119">In the Amount field, enter a number.</span></span>
-14. <span data-ttu-id="42300-120">في الحقل "العملة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="42300-120">In the Currency field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="42300-121">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="42300-121">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="42300-122">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="42300-122">Click Save.</span></span>
-17. <span data-ttu-id="42300-123">انقر فوق تحديث أرصدة الموازنة.</span><span class="sxs-lookup"><span data-stu-id="42300-123">Click Update budget balances.</span></span>
-    * <span data-ttu-id="42300-124">اختياري: يمكنك تحديد خيار "إلغاء الموازنة الأولية".</span><span class="sxs-lookup"><span data-stu-id="42300-124">Optional: You can select the Reverse preliminary budget option.</span></span> <span data-ttu-id="42300-125">لاحظ أنه يمكنك إلغاء كافة إدخالات الموازنة الأولية، أو إدخالات الموازنة الأولية التي لها رمز موازنة تحدده فقط.</span><span class="sxs-lookup"><span data-stu-id="42300-125">Note that you can reverse all preliminary budget entries, or only the preliminary budget entries that have the budget code that you specify.</span></span>  
-    * <span data-ttu-id="42300-126">لإجراء تحديدات الاختيارية، انقر فوق رمز "إلغاء التأمين" أعلى الصفحة.</span><span class="sxs-lookup"><span data-stu-id="42300-126">To make optional selections, click the Unlock icon at the top of the page.</span></span>  
-18. <span data-ttu-id="42300-127">انقر فوق تحديث.</span><span class="sxs-lookup"><span data-stu-id="42300-127">Click Update.</span></span>
+1. <span data-ttu-id="7402b-106">انتقل إلى إعداد الموازنة > إدخالات سجل الموازنة.</span><span class="sxs-lookup"><span data-stu-id="7402b-106">Go to Budgeting > Budget register entries.</span></span>
+2. <span data-ttu-id="7402b-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="7402b-107">Click New.</span></span>
+3. <span data-ttu-id="7402b-108">في حقل "‏‫نموذج الموازنة‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="7402b-108">In the Budget model field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="7402b-109">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="7402b-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="7402b-110">في حقل "‏‫كود الموازنة‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="7402b-110">In the Budget code field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="7402b-111">في القائمة، انقر فوق "الموازنة الأصلية".</span><span class="sxs-lookup"><span data-stu-id="7402b-111">In the list, click Original budget.</span></span>
+7. <span data-ttu-id="7402b-112">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="7402b-112">Click Save.</span></span>
+8. <span data-ttu-id="7402b-113">انقر فوق "إضافة بند".</span><span class="sxs-lookup"><span data-stu-id="7402b-113">Click Add line.</span></span>
+9. <span data-ttu-id="7402b-114">اختياري: إذا أردت تغيير التاريخ الموجود في رأس الصفحة، أدخل تاريخًا جديدًا.</span><span class="sxs-lookup"><span data-stu-id="7402b-114">Optional: If you want to change the date from the one in the header, enter a new date.</span></span> <span data-ttu-id="7402b-115">يحدد هذا التاريخ الفترة المالية التي سيتم تسجيل الموازنة بها.</span><span class="sxs-lookup"><span data-stu-id="7402b-115">This date determines the fiscal period that the budget will be recorded to.</span></span>
+10. <span data-ttu-id="7402b-116">في الحقل "بنية الحساب"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="7402b-116">In the Account structure field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="7402b-117">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="7402b-117">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="7402b-118">في حقل "‏‫قيم الأبعاد‬"، حدد القيم المرغوب فيها.</span><span class="sxs-lookup"><span data-stu-id="7402b-118">In the Dimension values field, specify the desired values.</span></span>
+13. <span data-ttu-id="7402b-119">في حقل "المبلغ"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="7402b-119">In the Amount field, enter a number.</span></span>
+14. <span data-ttu-id="7402b-120">في الحقل "العملة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="7402b-120">In the Currency field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="7402b-121">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="7402b-121">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="7402b-122">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="7402b-122">Click Save.</span></span>
+17. <span data-ttu-id="7402b-123">انقر فوق تحديث أرصدة الموازنة.</span><span class="sxs-lookup"><span data-stu-id="7402b-123">Click Update budget balances.</span></span>
+    * <span data-ttu-id="7402b-124">اختياري: يمكنك تحديد خيار "إلغاء الموازنة الأولية".</span><span class="sxs-lookup"><span data-stu-id="7402b-124">Optional: You can select the Reverse preliminary budget option.</span></span> <span data-ttu-id="7402b-125">لاحظ أنه يمكنك إلغاء كافة إدخالات الموازنة الأولية، أو إدخالات الموازنة الأولية التي لها رمز موازنة تحدده فقط.</span><span class="sxs-lookup"><span data-stu-id="7402b-125">Note that you can reverse all preliminary budget entries, or only the preliminary budget entries that have the budget code that you specify.</span></span>  
+    * <span data-ttu-id="7402b-126">لإجراء تحديدات الاختيارية، انقر فوق رمز "إلغاء التأمين" أعلى الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7402b-126">To make optional selections, click the Unlock icon at the top of the page.</span></span>  
+18. <span data-ttu-id="7402b-127">انقر فوق تحديث.</span><span class="sxs-lookup"><span data-stu-id="7402b-127">Click Update.</span></span>
 

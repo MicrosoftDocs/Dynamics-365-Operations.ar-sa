@@ -19,34 +19,34 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9f0817ff7d3d7b1127829fd2183721e7257d1852
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327471"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545280"
 ---
-# <a name="prioritize-service-orders"></a><span data-ttu-id="38191-103">ترتيب أوامر الخدمة حسب الأولوية</span><span class="sxs-lookup"><span data-stu-id="38191-103">Prioritize service orders</span></span> 
+# <a name="prioritize-service-orders"></a><span data-ttu-id="385c8-103">ترتيب أوامر الخدمة حسب الأولوية</span><span class="sxs-lookup"><span data-stu-id="385c8-103">Prioritize service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="38191-104">انقر فوق **إدارة الخدمة** \> **دوري** \> **لوحة الإرسال‬**.</span><span class="sxs-lookup"><span data-stu-id="38191-104">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+1.  <span data-ttu-id="385c8-104">انقر فوق **إدارة الخدمة** \> **دوري** \> **لوحة الإرسال‬**.</span><span class="sxs-lookup"><span data-stu-id="385c8-104">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-2.  <span data-ttu-id="38191-105">انقر فوق **متقدم** لعرض مخطط Gantt في أعلى النموذج وعلامات التبويب في الجزء السفلي.</span><span class="sxs-lookup"><span data-stu-id="38191-105">Click **Advanced** to display the Gantt chart at the top of the form and the tabs in the lower pane.</span></span>
+2.  <span data-ttu-id="385c8-105">انقر فوق **متقدم** لعرض مخطط Gantt في أعلى النموذج وعلامات التبويب في الجزء السفلي.</span><span class="sxs-lookup"><span data-stu-id="385c8-105">Click **Advanced** to display the Gantt chart at the top of the form and the tabs in the lower pane.</span></span>
 
-3.  <span data-ttu-id="38191-106">قم بتوسيع كل قائمة من قوائم فريق الإرسال.</span><span class="sxs-lookup"><span data-stu-id="38191-106">Expand each dispatch team list.</span></span>
+3.  <span data-ttu-id="385c8-106">قم بتوسيع كل قائمة من قوائم فريق الإرسال.</span><span class="sxs-lookup"><span data-stu-id="385c8-106">Expand each dispatch team list.</span></span>
 
-4.  <span data-ttu-id="38191-107">حدد الرسم المميز بلون الذي يمثل نشاط خدمة.</span><span class="sxs-lookup"><span data-stu-id="38191-107">Select the color-coded graphic that represents a service activity.</span></span>
+4.  <span data-ttu-id="385c8-107">حدد الرسم المميز بلون الذي يمثل نشاط خدمة.</span><span class="sxs-lookup"><span data-stu-id="385c8-107">Select the color-coded graphic that represents a service activity.</span></span>
 
-5.  <span data-ttu-id="38191-108">في علامة تبويب **الكل** أو علامة تبويب **الفريق** أو علامة تبويب **غير مرسل** أو **ذو صلة**، قم بتغيير التحديد في حقل **الأولوية**.</span><span class="sxs-lookup"><span data-stu-id="38191-108">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, change the selection in the **Priority** field.</span></span>
+5.  <span data-ttu-id="385c8-108">في علامة تبويب **الكل** أو علامة تبويب **الفريق** أو علامة تبويب **غير مرسل** أو **ذو صلة**، قم بتغيير التحديد في حقل **الأولوية**.</span><span class="sxs-lookup"><span data-stu-id="385c8-108">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, change the selection in the **Priority** field.</span></span>
 
-6.  <span data-ttu-id="38191-109">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="38191-109">Click **Save**.</span></span>
+6.  <span data-ttu-id="385c8-109">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="385c8-109">Click **Save**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="38191-110">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="38191-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="385c8-110">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="385c8-110">See also</span></span>
 
-[<span data-ttu-id="38191-111">لوحة الإرسال</span><span class="sxs-lookup"><span data-stu-id="38191-111">Dispatch board</span></span>](dispatch-board.md)
+[<span data-ttu-id="385c8-111">لوحة الإرسال</span><span class="sxs-lookup"><span data-stu-id="385c8-111">Dispatch board</span></span>](dispatch-board.md)
 
-[<span data-ttu-id="38191-112">عرض حالة أوامر الخدمة</span><span class="sxs-lookup"><span data-stu-id="38191-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
+[<span data-ttu-id="385c8-112">عرض حالة أوامر الخدمة</span><span class="sxs-lookup"><span data-stu-id="385c8-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
 
   
 

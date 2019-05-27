@@ -19,25 +19,25 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4bad6ebdac9c61e31ac97cfdf97b040d868a5c4b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323791"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564521"
 ---
-# <a name="change-the-service-order-stage"></a><span data-ttu-id="a496a-103">تغيير مرحلة أمر الخدمة</span><span class="sxs-lookup"><span data-stu-id="a496a-103">Change the service order stage</span></span> 
+# <a name="change-the-service-order-stage"></a><span data-ttu-id="e56da-103">تغيير مرحلة أمر الخدمة</span><span class="sxs-lookup"><span data-stu-id="e56da-103">Change the service order stage</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="a496a-104">اتبع هذه الخطوات لنقل أمر خدمة إلى المرحلة التالية في سير العمل الخدمة أو إعادته إلى مرحلة سابقة.</span><span class="sxs-lookup"><span data-stu-id="a496a-104">Follow these steps to move a service order to the next stage in the service workflow or revert it to a previous stage.</span></span>
+<span data-ttu-id="e56da-104">اتبع هذه الخطوات لنقل أمر خدمة إلى المرحلة التالية في سير العمل الخدمة أو إعادته إلى مرحلة سابقة.</span><span class="sxs-lookup"><span data-stu-id="e56da-104">Follow these steps to move a service order to the next stage in the service workflow or revert it to a previous stage.</span></span>
 
-1.  <span data-ttu-id="a496a-105">انقر فوق **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات**.</span><span class="sxs-lookup"><span data-stu-id="a496a-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="e56da-105">انقر فوق **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات**.</span><span class="sxs-lookup"><span data-stu-id="e56da-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="a496a-106">حدد أمر الخدمة، ثم انقر فوق علامة التبويب **إرسال**.</span><span class="sxs-lookup"><span data-stu-id="a496a-106">Select the service order, and then click the **Dispatch** tab.</span></span>
+2.  <span data-ttu-id="e56da-106">حدد أمر الخدمة، ثم انقر فوق علامة التبويب **إرسال**.</span><span class="sxs-lookup"><span data-stu-id="e56da-106">Select the service order, and then click the **Dispatch** tab.</span></span>
 
-3.  <span data-ttu-id="a496a-107">في **"جزء الإجراءات"**، انقر فوق **المرحلة التالية** أو **المرحلة السابقة**.</span><span class="sxs-lookup"><span data-stu-id="a496a-107">On the **Action Pane**, click either **Next stage** or **Previous stage**.</span></span>
+3.  <span data-ttu-id="e56da-107">في **"جزء الإجراءات"**، انقر فوق **المرحلة التالية** أو **المرحلة السابقة**.</span><span class="sxs-lookup"><span data-stu-id="e56da-107">On the **Action Pane**, click either **Next stage** or **Previous stage**.</span></span>
 
-4.  <span data-ttu-id="a496a-108">في النموذج **تغيير مرحلة الخدمة**، حدد المرحلة المناسبة.</span><span class="sxs-lookup"><span data-stu-id="a496a-108">In the **Change service stage** form, select the appropriate stage.</span></span>
+4.  <span data-ttu-id="e56da-108">في النموذج **تغيير مرحلة الخدمة**، حدد المرحلة المناسبة.</span><span class="sxs-lookup"><span data-stu-id="e56da-108">In the **Change service stage** form, select the appropriate stage.</span></span>
 
 

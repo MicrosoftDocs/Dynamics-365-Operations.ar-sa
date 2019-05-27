@@ -18,39 +18,39 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 70db65dca4cfadd1ed8769386b4b437cecc217a2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359349"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565898"
 ---
-# <a name="update-the-bank-journal-composite-entity"></a><span data-ttu-id="dc0a7-103">تحديث الكيان المركب لدفتر يومية البنك</span><span class="sxs-lookup"><span data-stu-id="dc0a7-103">Update the bank journal composite entity</span></span>
+# <a name="update-the-bank-journal-composite-entity"></a><span data-ttu-id="a57a1-103">تحديث الكيان المركب لدفتر يومية البنك</span><span class="sxs-lookup"><span data-stu-id="a57a1-103">Update the bank journal composite entity</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="dc0a7-104">تُعد الخطوات التالية مطلوبة لإضافة الحقل BankTransactionType الإضافي إلى BankJournalEntity المركب.</span><span class="sxs-lookup"><span data-stu-id="dc0a7-104">The following steps are needed in order to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
+<span data-ttu-id="a57a1-104">تُعد الخطوات التالية مطلوبة لإضافة الحقل BankTransactionType الإضافي إلى BankJournalEntity المركب.</span><span class="sxs-lookup"><span data-stu-id="a57a1-104">The following steps are needed in order to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
 
-<span data-ttu-id="dc0a7-105">استخدم الخطوات التالية لإضافة الحقل الإضافي BankTransactionType إلى BankJournalEntity المركب.</span><span class="sxs-lookup"><span data-stu-id="dc0a7-105">Use the following steps to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
+<span data-ttu-id="a57a1-105">استخدم الخطوات التالية لإضافة الحقل الإضافي BankTransactionType إلى BankJournalEntity المركب.</span><span class="sxs-lookup"><span data-stu-id="a57a1-105">Use the following steps to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
 
-1.  <span data-ttu-id="dc0a7-106">تجميع ومزامنة الكيانات المركبة التالية لدفتر يومية البنك والكيانات وجداول التشغيل المرحلي:</span><span class="sxs-lookup"><span data-stu-id="dc0a7-106">Compile and synchronize the following bank journal composite entities, entities, and staging tables:</span></span>
-    -   <span data-ttu-id="dc0a7-107">الكيان المركب‬\\BankJournalEntity</span><span class="sxs-lookup"><span data-stu-id="dc0a7-107">Composite Entity\\BankJournalEntity</span></span>
-    -   <span data-ttu-id="dc0a7-108">الكيان\\BankJournalHeaderEntity</span><span class="sxs-lookup"><span data-stu-id="dc0a7-108">Entity\\BankJournalHeaderEntity</span></span>
-    -   <span data-ttu-id="dc0a7-109">الكيان\\BankJournalLineEntity</span><span class="sxs-lookup"><span data-stu-id="dc0a7-109">Entity\\BankJournalLineEntity</span></span>
-    -   <span data-ttu-id="dc0a7-110">الجدول\\BankJournalHeaderStaging</span><span class="sxs-lookup"><span data-stu-id="dc0a7-110">Table\\BankJournalHeaderStaging</span></span>
-    -   <span data-ttu-id="dc0a7-111">الجدول\\BankJournalLineStaging</span><span class="sxs-lookup"><span data-stu-id="dc0a7-111">Table\\BankJournalLineStaging</span></span>
+1.  <span data-ttu-id="a57a1-106">تجميع ومزامنة الكيانات المركبة التالية لدفتر يومية البنك والكيانات وجداول التشغيل المرحلي:</span><span class="sxs-lookup"><span data-stu-id="a57a1-106">Compile and synchronize the following bank journal composite entities, entities, and staging tables:</span></span>
+    -   <span data-ttu-id="a57a1-107">الكيان المركب‬\\BankJournalEntity</span><span class="sxs-lookup"><span data-stu-id="a57a1-107">Composite Entity\\BankJournalEntity</span></span>
+    -   <span data-ttu-id="a57a1-108">الكيان\\BankJournalHeaderEntity</span><span class="sxs-lookup"><span data-stu-id="a57a1-108">Entity\\BankJournalHeaderEntity</span></span>
+    -   <span data-ttu-id="a57a1-109">الكيان\\BankJournalLineEntity</span><span class="sxs-lookup"><span data-stu-id="a57a1-109">Entity\\BankJournalLineEntity</span></span>
+    -   <span data-ttu-id="a57a1-110">الجدول\\BankJournalHeaderStaging</span><span class="sxs-lookup"><span data-stu-id="a57a1-110">Table\\BankJournalHeaderStaging</span></span>
+    -   <span data-ttu-id="a57a1-111">الجدول\\BankJournalLineStaging</span><span class="sxs-lookup"><span data-stu-id="a57a1-111">Table\\BankJournalLineStaging</span></span>
 
-2.  <span data-ttu-id="dc0a7-112">إدارة البيانات\\مشاريع البيانات</span><span class="sxs-lookup"><span data-stu-id="dc0a7-112">Data management\\data projects</span></span>
-    -   <span data-ttu-id="dc0a7-113">عرض نوع **الحركة البنكية** على تخطيط **المصدر المصدر**.</span><span class="sxs-lookup"><span data-stu-id="dc0a7-113">Expose the **Bank Transaction** type on **Source Data** layout.</span></span>
-        -   <span data-ttu-id="dc0a7-114">تنسيق بيانات المصدر = عنصر XML</span><span class="sxs-lookup"><span data-stu-id="dc0a7-114">Source data format = XML-Element</span></span>
-        -   <span data-ttu-id="dc0a7-115">اسم الكيان = دفتر يومية البنك</span><span class="sxs-lookup"><span data-stu-id="dc0a7-115">Entity name = Bank Journal</span></span>
-        -   <span data-ttu-id="dc0a7-116">تحميل ملف البيانات = إصدار SampleBankJournalCompositeEntity.xml الجديد</span><span class="sxs-lookup"><span data-stu-id="dc0a7-116">Upload data file = new version SampleBankJournalCompositeEntity.xml</span></span>
-        -   <span data-ttu-id="dc0a7-117">انقر فوق **نعم** للكتابة فوق الملف الموجود.</span><span class="sxs-lookup"><span data-stu-id="dc0a7-117">Click **Yes** to overwrite the existing file.</span></span>
-        -   <span data-ttu-id="dc0a7-118">انقر فوق **نعم** لإنشاء التعيين منذ البداية.</span><span class="sxs-lookup"><span data-stu-id="dc0a7-118">Click **Yes** to generate mapping from scratch.</span></span>
-        -   <span data-ttu-id="dc0a7-119">تأكد من تعيين "نوع الحركة البنكية".</span><span class="sxs-lookup"><span data-stu-id="dc0a7-119">Verify that the Bank Transaction Type is mapped.</span></span>
-            -   <span data-ttu-id="dc0a7-120">انقر فوق **عرض الخريطة** على كيان البند.</span><span class="sxs-lookup"><span data-stu-id="dc0a7-120">Click **View map** on Line entity.</span></span>
-            -   <span data-ttu-id="dc0a7-121">تأكد من تعيين نوع الحركة البنكية من المصدر إلى التشغيل المرحلي‬.</span><span class="sxs-lookup"><span data-stu-id="dc0a7-121">Verify that Bank Transaction type is mapped from Source to Staging.</span></span>
+2.  <span data-ttu-id="a57a1-112">إدارة البيانات\\مشاريع البيانات</span><span class="sxs-lookup"><span data-stu-id="a57a1-112">Data management\\data projects</span></span>
+    -   <span data-ttu-id="a57a1-113">عرض نوع **الحركة البنكية** على تخطيط **المصدر المصدر**.</span><span class="sxs-lookup"><span data-stu-id="a57a1-113">Expose the **Bank Transaction** type on **Source Data** layout.</span></span>
+        -   <span data-ttu-id="a57a1-114">تنسيق بيانات المصدر = عنصر XML</span><span class="sxs-lookup"><span data-stu-id="a57a1-114">Source data format = XML-Element</span></span>
+        -   <span data-ttu-id="a57a1-115">اسم الكيان = دفتر يومية البنك</span><span class="sxs-lookup"><span data-stu-id="a57a1-115">Entity name = Bank Journal</span></span>
+        -   <span data-ttu-id="a57a1-116">تحميل ملف البيانات = إصدار SampleBankJournalCompositeEntity.xml الجديد</span><span class="sxs-lookup"><span data-stu-id="a57a1-116">Upload data file = new version SampleBankJournalCompositeEntity.xml</span></span>
+        -   <span data-ttu-id="a57a1-117">انقر فوق **نعم** للكتابة فوق الملف الموجود.</span><span class="sxs-lookup"><span data-stu-id="a57a1-117">Click **Yes** to overwrite the existing file.</span></span>
+        -   <span data-ttu-id="a57a1-118">انقر فوق **نعم** لإنشاء التعيين منذ البداية.</span><span class="sxs-lookup"><span data-stu-id="a57a1-118">Click **Yes** to generate mapping from scratch.</span></span>
+        -   <span data-ttu-id="a57a1-119">تأكد من تعيين "نوع الحركة البنكية".</span><span class="sxs-lookup"><span data-stu-id="a57a1-119">Verify that the Bank Transaction Type is mapped.</span></span>
+            -   <span data-ttu-id="a57a1-120">انقر فوق **عرض الخريطة** على كيان البند.</span><span class="sxs-lookup"><span data-stu-id="a57a1-120">Click **View map** on Line entity.</span></span>
+            -   <span data-ttu-id="a57a1-121">تأكد من تعيين نوع الحركة البنكية من المصدر إلى التشغيل المرحلي‬.</span><span class="sxs-lookup"><span data-stu-id="a57a1-121">Verify that Bank Transaction type is mapped from Source to Staging.</span></span>
 
-3.  <span data-ttu-id="dc0a7-122">استيراد كشف الحساب الجديد.</span><span class="sxs-lookup"><span data-stu-id="dc0a7-122">Import the new statement.</span></span>
+3.  <span data-ttu-id="a57a1-122">استيراد كشف الحساب الجديد.</span><span class="sxs-lookup"><span data-stu-id="a57a1-122">Import the new statement.</span></span>
 
 
 

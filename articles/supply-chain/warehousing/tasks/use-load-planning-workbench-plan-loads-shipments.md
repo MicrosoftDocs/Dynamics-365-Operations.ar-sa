@@ -17,52 +17,52 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "343893"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564776"
 ---
-# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="d1d0e-103">تخطيط الأحمال والشحنات باستخدام ‏‫منضدة عمل تخطيط الحِمل</span><span class="sxs-lookup"><span data-stu-id="d1d0e-103">Plan loads and shipments using the Load planning workbench</span></span>
+# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="02687-103">تخطيط الأحمال والشحنات باستخدام ‏‫منضدة عمل تخطيط الحِمل</span><span class="sxs-lookup"><span data-stu-id="02687-103">Plan loads and shipments using the Load planning workbench</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d1d0e-104">يوضح هذا الإجراء كيفية استخدام منضدة تخطيط الحمل لإنشاء حمل لأمر مبيعات.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-104">This procedure shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="d1d0e-105">كشرط مسبق، سنقوم بإنشاء أمر المبيعات أولاً.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="d1d0e-106">يمثل هذا الإجراء جزءًا من العمل اليومي لمنسق النقل.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="d1d0e-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="02687-104">يوضح هذا الإجراء كيفية استخدام منضدة تخطيط الحمل لإنشاء حمل لأمر مبيعات.</span><span class="sxs-lookup"><span data-stu-id="02687-104">This procedure shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="02687-105">كشرط مسبق، سنقوم بإنشاء أمر المبيعات أولاً.</span><span class="sxs-lookup"><span data-stu-id="02687-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="02687-106">يمثل هذا الإجراء جزءًا من العمل اليومي لمنسق النقل.</span><span class="sxs-lookup"><span data-stu-id="02687-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="02687-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="02687-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-sales-order"></a><span data-ttu-id="d1d0e-108">إنشاء أمر مبيعات</span><span class="sxs-lookup"><span data-stu-id="d1d0e-108">Create a sales order</span></span>
-1. <span data-ttu-id="d1d0e-109">انتقل إلى الحسابات المدينة > الأوامر > كافة أوامر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="d1d0e-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-110">Click New.</span></span>
-3. <span data-ttu-id="d1d0e-111">في الحقل "حساب العميل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="d1d0e-112">حدد الحساب الولايات المتحدة-004.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-112">Select account US-004.</span></span>
-5. <span data-ttu-id="d1d0e-113">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-113">Click OK.</span></span>
-6. <span data-ttu-id="d1d0e-114">في الحقل "رقم الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-114">In the Item number field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="d1d0e-115">حدد الصنف A0001.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-115">Select item A0001.</span></span>
-    * <span data-ttu-id="d1d0e-116">تم تمكين A0001 لإدارة النقل.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-116">A0001 is enabled for transportation management.</span></span>  
-8. <span data-ttu-id="d1d0e-117">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="d1d0e-118">في حقل الكمية، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-118">In the Quantity field, enter a number.</span></span>
-10. <span data-ttu-id="d1d0e-119">في الحقل "المستودع"، اكتب "24".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-119">In the Warehouse field, type '24'.</span></span>
-    * <span data-ttu-id="d1d0e-120">في هذا المثال حدد المستودع 24.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-120">In this example select warehouse 24.</span></span> <span data-ttu-id="d1d0e-121">يتم تمكين هذا المستودع لإدارة النقل وإدارة المستودعات المتقدمة.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-121">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
-11. <span data-ttu-id="d1d0e-122">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-122">Click Save.</span></span>
-12. <span data-ttu-id="d1d0e-123">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-123">Close the page.</span></span>
+## <a name="create-a-sales-order"></a><span data-ttu-id="02687-108">إنشاء أمر مبيعات</span><span class="sxs-lookup"><span data-stu-id="02687-108">Create a sales order</span></span>
+1. <span data-ttu-id="02687-109">انتقل إلى الحسابات المدينة > الأوامر > كافة أوامر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="02687-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="02687-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="02687-110">Click New.</span></span>
+3. <span data-ttu-id="02687-111">في الحقل "حساب العميل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="02687-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="02687-112">حدد الحساب الولايات المتحدة-004.</span><span class="sxs-lookup"><span data-stu-id="02687-112">Select account US-004.</span></span>
+5. <span data-ttu-id="02687-113">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="02687-113">Click OK.</span></span>
+6. <span data-ttu-id="02687-114">في الحقل "رقم الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="02687-114">In the Item number field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="02687-115">حدد الصنف A0001.</span><span class="sxs-lookup"><span data-stu-id="02687-115">Select item A0001.</span></span>
+    * <span data-ttu-id="02687-116">تم تمكين A0001 لإدارة النقل.</span><span class="sxs-lookup"><span data-stu-id="02687-116">A0001 is enabled for transportation management.</span></span>  
+8. <span data-ttu-id="02687-117">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="02687-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="02687-118">في حقل الكمية، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="02687-118">In the Quantity field, enter a number.</span></span>
+10. <span data-ttu-id="02687-119">في الحقل "المستودع"، اكتب "24".</span><span class="sxs-lookup"><span data-stu-id="02687-119">In the Warehouse field, type '24'.</span></span>
+    * <span data-ttu-id="02687-120">في هذا المثال حدد المستودع 24.</span><span class="sxs-lookup"><span data-stu-id="02687-120">In this example select warehouse 24.</span></span> <span data-ttu-id="02687-121">يتم تمكين هذا المستودع لإدارة النقل وإدارة المستودعات المتقدمة.</span><span class="sxs-lookup"><span data-stu-id="02687-121">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
+11. <span data-ttu-id="02687-122">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="02687-122">Click Save.</span></span>
+12. <span data-ttu-id="02687-123">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="02687-123">Close the page.</span></span>
 
-## <a name="create-a-new-load"></a><span data-ttu-id="d1d0e-124">إنشاء حمل جديد</span><span class="sxs-lookup"><span data-stu-id="d1d0e-124">Create a new load</span></span>
-1. <span data-ttu-id="d1d0e-125">انتقل إلى إدارة النقل > التخطيط > منضدة عمل تخطيط الحِمل‬.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-125">Go to Transportation management > Planning > Load planning workbench.</span></span>
-2. <span data-ttu-id="d1d0e-126">انقر فوق علامة التبويب "بنود المبيعات".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-126">Click the Sales lines tab.</span></span>
-    * <span data-ttu-id="d1d0e-127">والآن سوف تقوم بإنشاء التحميل الخاص بأمر المبيعات الذي قمت بإنشائه للتو.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-127">Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="d1d0e-128">يمكنك إنشاء الحمولات استناداً على العرض والطلب من أوامر الشراء وأوامر التحويل وأوامر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-128">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
-3. <span data-ttu-id="d1d0e-129">في الجزء "الإجراءات"، انقر فوق "العرض والطلب".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-129">On the Action Pane, click Supply and demand.</span></span>
-4. <span data-ttu-id="d1d0e-130">انقر فوق "إلى حمل جديد".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-130">Click To new load.</span></span>
-5. <span data-ttu-id="d1d0e-131">في الحقل "معرف قالب الحمل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-131">In the Load template ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="d1d0e-132">يحدد قالب التحميل القياسات القصوى للوزن والحجم للتحميل بالكامل.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-132">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="d1d0e-133">على سبيل المثال، قد يمثل قالب تحميل حجم الحاوية أو الشاحنة.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-133">For example, the load template might represent the size of a container or truck.</span></span>  
-6. <span data-ttu-id="d1d0e-134">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-134">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="d1d0e-135">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-135">Click OK.</span></span>
+## <a name="create-a-new-load"></a><span data-ttu-id="02687-124">إنشاء حمل جديد</span><span class="sxs-lookup"><span data-stu-id="02687-124">Create a new load</span></span>
+1. <span data-ttu-id="02687-125">انتقل إلى إدارة النقل > التخطيط > منضدة عمل تخطيط الحِمل‬.</span><span class="sxs-lookup"><span data-stu-id="02687-125">Go to Transportation management > Planning > Load planning workbench.</span></span>
+2. <span data-ttu-id="02687-126">انقر فوق علامة التبويب "بنود المبيعات".</span><span class="sxs-lookup"><span data-stu-id="02687-126">Click the Sales lines tab.</span></span>
+    * <span data-ttu-id="02687-127">والآن سوف تقوم بإنشاء التحميل الخاص بأمر المبيعات الذي قمت بإنشائه للتو.</span><span class="sxs-lookup"><span data-stu-id="02687-127">Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="02687-128">يمكنك إنشاء الحمولات استناداً على العرض والطلب من أوامر الشراء وأوامر التحويل وأوامر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="02687-128">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
+3. <span data-ttu-id="02687-129">في الجزء "الإجراءات"، انقر فوق "العرض والطلب".</span><span class="sxs-lookup"><span data-stu-id="02687-129">On the Action Pane, click Supply and demand.</span></span>
+4. <span data-ttu-id="02687-130">انقر فوق "إلى حمل جديد".</span><span class="sxs-lookup"><span data-stu-id="02687-130">Click To new load.</span></span>
+5. <span data-ttu-id="02687-131">في الحقل "معرف قالب الحمل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="02687-131">In the Load template ID field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="02687-132">يحدد قالب التحميل القياسات القصوى للوزن والحجم للتحميل بالكامل.</span><span class="sxs-lookup"><span data-stu-id="02687-132">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="02687-133">على سبيل المثال، قد يمثل قالب تحميل حجم الحاوية أو الشاحنة.</span><span class="sxs-lookup"><span data-stu-id="02687-133">For example, the load template might represent the size of a container or truck.</span></span>  
+6. <span data-ttu-id="02687-134">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="02687-134">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="02687-135">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="02687-135">Click OK.</span></span>
 
-## <a name="rate-and-route-the-load"></a><span data-ttu-id="d1d0e-136">تقييم الحمل وتوجيهه</span><span class="sxs-lookup"><span data-stu-id="d1d0e-136">Rate and route the load</span></span>
-1. <span data-ttu-id="d1d0e-137">انقر فوق "التقييم والتوجيه".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-137">Click Rating and routing.</span></span>
-2. <span data-ttu-id="d1d0e-138">انقر فوق "تقييم منضدة عمل المسار".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-138">Click Rate route workbench.</span></span>
-3. <span data-ttu-id="d1d0e-139">انقر فوق "تقييم المتجر".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-139">Click Rate shop.</span></span>
-4. <span data-ttu-id="d1d0e-140">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-140">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="d1d0e-141">انقر فوق "تعيين".</span><span class="sxs-lookup"><span data-stu-id="d1d0e-141">Click Assign.</span></span>
-6. <span data-ttu-id="d1d0e-142">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-142">Close the page.</span></span>
-7. <span data-ttu-id="d1d0e-143">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d1d0e-143">Close the page.</span></span>
+## <a name="rate-and-route-the-load"></a><span data-ttu-id="02687-136">تقييم الحمل وتوجيهه</span><span class="sxs-lookup"><span data-stu-id="02687-136">Rate and route the load</span></span>
+1. <span data-ttu-id="02687-137">انقر فوق "التقييم والتوجيه".</span><span class="sxs-lookup"><span data-stu-id="02687-137">Click Rating and routing.</span></span>
+2. <span data-ttu-id="02687-138">انقر فوق "تقييم منضدة عمل المسار".</span><span class="sxs-lookup"><span data-stu-id="02687-138">Click Rate route workbench.</span></span>
+3. <span data-ttu-id="02687-139">انقر فوق "تقييم المتجر".</span><span class="sxs-lookup"><span data-stu-id="02687-139">Click Rate shop.</span></span>
+4. <span data-ttu-id="02687-140">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="02687-140">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="02687-141">انقر فوق "تعيين".</span><span class="sxs-lookup"><span data-stu-id="02687-141">Click Assign.</span></span>
+6. <span data-ttu-id="02687-142">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="02687-142">Close the page.</span></span>
+7. <span data-ttu-id="02687-143">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="02687-143">Close the page.</span></span>
 

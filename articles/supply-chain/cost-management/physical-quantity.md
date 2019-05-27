@@ -20,32 +20,32 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e92c7889b11208c4d2b48eb279a104a7c226f904
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "319122"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547849"
 ---
-# <a name="inventory-object-values"></a><span data-ttu-id="27df0-103">قيم كائن المخزون</span><span class="sxs-lookup"><span data-stu-id="27df0-103">Inventory object values</span></span>
+# <a name="inventory-object-values"></a><span data-ttu-id="e4295-103">قيم كائن المخزون</span><span class="sxs-lookup"><span data-stu-id="e4295-103">Inventory object values</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="27df0-104">توفر هذه المقالة معلومات حول كيفية حساب قيم كائن المخزون.</span><span class="sxs-lookup"><span data-stu-id="27df0-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
+<span data-ttu-id="e4295-104">توفر هذه المقالة معلومات حول كيفية حساب قيم كائن المخزون.</span><span class="sxs-lookup"><span data-stu-id="e4295-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
 
-<span data-ttu-id="27df0-105">تتيح لك وظائف جديدة باسم **الكمية الفعلية**مشاهدة قيم كائن المخزون المحدد.</span><span class="sxs-lookup"><span data-stu-id="27df0-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
+<span data-ttu-id="e4295-105">تتيح لك وظائف جديدة باسم **الكمية الفعلية**مشاهدة قيم كائن المخزون المحدد.</span><span class="sxs-lookup"><span data-stu-id="e4295-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
 
-<span data-ttu-id="27df0-106">ويمثل كائن التكلفة مستوى الكيان حيث يتم إجراء محاسبة المخزون.</span><span class="sxs-lookup"><span data-stu-id="27df0-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="27df0-107">لمزيد من المعلومات حول كائنات التكلفة، راجع [كائنات التكلفة](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="27df0-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
+<span data-ttu-id="e4295-106">ويمثل كائن التكلفة مستوى الكيان حيث يتم إجراء محاسبة المخزون.</span><span class="sxs-lookup"><span data-stu-id="e4295-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="e4295-107">لمزيد من المعلومات حول كائنات التكلفة، راجع [كائنات التكلفة](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="e4295-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
 
-<span data-ttu-id="27df0-108">‏‫ولمشاهدة قيم كائن مخزون محدد، انقر فوق **الكمية الفعلية** في صفحة **كائن التكلفة**.</span><span class="sxs-lookup"><span data-stu-id="27df0-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="27df0-109">وإليك كيفية حساب قيمة كائن المخزون:</span><span class="sxs-lookup"><span data-stu-id="27df0-109">Here is how the value of an inventory object is calculated:</span></span> 
+<span data-ttu-id="e4295-108">‏‫ولمشاهدة قيم كائن مخزون محدد، انقر فوق **الكمية الفعلية** في صفحة **كائن التكلفة**.</span><span class="sxs-lookup"><span data-stu-id="e4295-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="e4295-109">وإليك كيفية حساب قيمة كائن المخزون:</span><span class="sxs-lookup"><span data-stu-id="e4295-109">Here is how the value of an inventory object is calculated:</span></span> 
 
-<span data-ttu-id="27df0-110">كائن المخزون.القيمة = كائن المخزون.متوسط تكلفة الوحدة × كائن المخزون.الكمية</span><span class="sxs-lookup"><span data-stu-id="27df0-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
+<span data-ttu-id="e4295-110">كائن المخزون.القيمة = كائن المخزون.متوسط تكلفة الوحدة × كائن المخزون.الكمية</span><span class="sxs-lookup"><span data-stu-id="e4295-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
 
-<span data-ttu-id="27df0-111">يوضح المثال التالي كيفية حساب قيم كائن مخزون وكائن تكلفة.</span><span class="sxs-lookup"><span data-stu-id="27df0-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="27df0-112">تم تسجيل حدثي استلام منتجات في الصنف أ:</span><span class="sxs-lookup"><span data-stu-id="27df0-112">Two product receipt events are registered on item A:</span></span>
+<span data-ttu-id="e4295-111">يوضح المثال التالي كيفية حساب قيم كائن مخزون وكائن تكلفة.</span><span class="sxs-lookup"><span data-stu-id="e4295-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="e4295-112">تم تسجيل حدثي استلام منتجات في الصنف أ:</span><span class="sxs-lookup"><span data-stu-id="e4295-112">Two product receipt events are registered on item A:</span></span>
 
--   <span data-ttu-id="27df0-113">إيصال استلام المنتج 1: الكمية = 100 قطعة، مبلغ = 1000.00 دولار، الموقع = 1، المستودع = 11، رقم الدُفعة</span><span class="sxs-lookup"><span data-stu-id="27df0-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="27df0-114">= B1</span><span class="sxs-lookup"><span data-stu-id="27df0-114">= B1</span></span>
--   <span data-ttu-id="27df0-115">إيصال استلام المنتج 2: الكمية = 50 قطعة، مبلغ = 800.00 دولار، الموقع = 1، المستودع = 11، رقم الدُفعة</span><span class="sxs-lookup"><span data-stu-id="27df0-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="27df0-116">= B2</span><span class="sxs-lookup"><span data-stu-id="27df0-116">= B2</span></span>
+-   <span data-ttu-id="e4295-113">إيصال استلام المنتج 1: الكمية = 100 قطعة، مبلغ = 1000.00 دولار، الموقع = 1، المستودع = 11، رقم الدُفعة</span><span class="sxs-lookup"><span data-stu-id="e4295-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="e4295-114">= B1</span><span class="sxs-lookup"><span data-stu-id="e4295-114">= B1</span></span>
+-   <span data-ttu-id="e4295-115">إيصال استلام المنتج 2: الكمية = 50 قطعة، مبلغ = 800.00 دولار، الموقع = 1، المستودع = 11، رقم الدُفعة</span><span class="sxs-lookup"><span data-stu-id="e4295-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="e4295-116">= B2</span><span class="sxs-lookup"><span data-stu-id="e4295-116">= B2</span></span>
 
-<span data-ttu-id="27df0-117">يعرض الجدول التالي نتيجة عملية الحساب لكائن تكلفة.</span><span class="sxs-lookup"><span data-stu-id="27df0-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="27df0-118">يمكنك عرض النتيجة في صفحة **كائن التكلفة**.</span><span class="sxs-lookup"><span data-stu-id="27df0-118">You can view the result on the **Cost object** page.</span></span>
+<span data-ttu-id="e4295-117">يعرض الجدول التالي نتيجة عملية الحساب لكائن تكلفة.</span><span class="sxs-lookup"><span data-stu-id="e4295-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="e4295-118">يمكنك عرض النتيجة في صفحة **كائن التكلفة**.</span><span class="sxs-lookup"><span data-stu-id="e4295-118">You can view the result on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -59,29 +59,29 @@ ms.locfileid: "319122"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="27df0-119">نوع الكائن</span><span class="sxs-lookup"><span data-stu-id="27df0-119">Object type</span></span></th>
-<th><span data-ttu-id="27df0-120">رقم العنصر</span><span class="sxs-lookup"><span data-stu-id="27df0-120">Item number</span></span></th>
-<th><span data-ttu-id="27df0-121">الموقع</span><span class="sxs-lookup"><span data-stu-id="27df0-121">Site</span></span></th>
-<th><span data-ttu-id="27df0-122">الكمية</span><span class="sxs-lookup"><span data-stu-id="27df0-122">Quantity</span></span></th>
-<th><span data-ttu-id="27df0-123">وحدة المخزون</span><span class="sxs-lookup"><span data-stu-id="27df0-123">Inventory unit</span></span></th>
-<th><span data-ttu-id="27df0-124">القيمة</span><span class="sxs-lookup"><span data-stu-id="27df0-124">Value</span></span></th>
-<th><span data-ttu-id="27df0-125">متوسط تكلفة الوحدة</span><span class="sxs-lookup"><span data-stu-id="27df0-125">Average unit cost</span></span></th>
+<th><span data-ttu-id="e4295-119">نوع الكائن</span><span class="sxs-lookup"><span data-stu-id="e4295-119">Object type</span></span></th>
+<th><span data-ttu-id="e4295-120">رقم العنصر</span><span class="sxs-lookup"><span data-stu-id="e4295-120">Item number</span></span></th>
+<th><span data-ttu-id="e4295-121">الموقع</span><span class="sxs-lookup"><span data-stu-id="e4295-121">Site</span></span></th>
+<th><span data-ttu-id="e4295-122">الكمية</span><span class="sxs-lookup"><span data-stu-id="e4295-122">Quantity</span></span></th>
+<th><span data-ttu-id="e4295-123">وحدة المخزون</span><span class="sxs-lookup"><span data-stu-id="e4295-123">Inventory unit</span></span></th>
+<th><span data-ttu-id="e4295-124">القيمة</span><span class="sxs-lookup"><span data-stu-id="e4295-124">Value</span></span></th>
+<th><span data-ttu-id="e4295-125">متوسط تكلفة الوحدة</span><span class="sxs-lookup"><span data-stu-id="e4295-125">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="27df0-126">كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="27df0-126">Cost object</span></span></td>
-<td><span data-ttu-id="27df0-127">أ</span><span class="sxs-lookup"><span data-stu-id="27df0-127">A</span></span></td>
-<td><span data-ttu-id="27df0-128">1</span><span class="sxs-lookup"><span data-stu-id="27df0-128">1</span></span></td>
-<td><span data-ttu-id="27df0-129">150</span><span class="sxs-lookup"><span data-stu-id="27df0-129">150</span></span></td>
-<td><span data-ttu-id="27df0-130">أجزاء</span><span class="sxs-lookup"><span data-stu-id="27df0-130">Pcs.</span></span></td>
-<td><p><span data-ttu-id="27df0-131">1800.00 دولار</span><span class="sxs-lookup"><span data-stu-id="27df0-131">$1800.00</span></span></p></td>
-<td><p><span data-ttu-id="27df0-132">12.00 دولارًا</span><span class="sxs-lookup"><span data-stu-id="27df0-132">$12.00</span></span></p></td>
+<td><span data-ttu-id="e4295-126">كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="e4295-126">Cost object</span></span></td>
+<td><span data-ttu-id="e4295-127">أ</span><span class="sxs-lookup"><span data-stu-id="e4295-127">A</span></span></td>
+<td><span data-ttu-id="e4295-128">1</span><span class="sxs-lookup"><span data-stu-id="e4295-128">1</span></span></td>
+<td><span data-ttu-id="e4295-129">150</span><span class="sxs-lookup"><span data-stu-id="e4295-129">150</span></span></td>
+<td><span data-ttu-id="e4295-130">أجزاء</span><span class="sxs-lookup"><span data-stu-id="e4295-130">Pcs.</span></span></td>
+<td><p><span data-ttu-id="e4295-131">1800.00 دولار</span><span class="sxs-lookup"><span data-stu-id="e4295-131">$1800.00</span></span></p></td>
+<td><p><span data-ttu-id="e4295-132">12.00 دولارًا</span><span class="sxs-lookup"><span data-stu-id="e4295-132">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="27df0-133">يعرض الجدول التالي نتيجة عملية الحساب لكائن مخزون.</span><span class="sxs-lookup"><span data-stu-id="27df0-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="27df0-134">يمكنك عرض النتيجة بالنقر فوق **الكمية الفعلية** في صفحة **كائن التكلفة**.</span><span class="sxs-lookup"><span data-stu-id="27df0-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
+<span data-ttu-id="e4295-133">يعرض الجدول التالي نتيجة عملية الحساب لكائن مخزون.</span><span class="sxs-lookup"><span data-stu-id="e4295-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="e4295-134">يمكنك عرض النتيجة بالنقر فوق **الكمية الفعلية** في صفحة **كائن التكلفة**.</span><span class="sxs-lookup"><span data-stu-id="e4295-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -97,53 +97,53 @@ ms.locfileid: "319122"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="27df0-135">نوع الكائن</span><span class="sxs-lookup"><span data-stu-id="27df0-135">Object type</span></span></th>
-<th><span data-ttu-id="27df0-136">رقم العنصر</span><span class="sxs-lookup"><span data-stu-id="27df0-136">Item number</span></span></th>
-<th><span data-ttu-id="27df0-137">الموقع</span><span class="sxs-lookup"><span data-stu-id="27df0-137">Site</span></span></th>
-<th><span data-ttu-id="27df0-138">المستودع</span><span class="sxs-lookup"><span data-stu-id="27df0-138">Warehouse</span></span></th>
-<th><span data-ttu-id="27df0-139">رقم الدُفعة</span><span class="sxs-lookup"><span data-stu-id="27df0-139">Batch No.</span></span></th>
-<th><span data-ttu-id="27df0-140">الكمية</span><span class="sxs-lookup"><span data-stu-id="27df0-140">Quantity</span></span></th>
-<th><span data-ttu-id="27df0-141">وحدة المخزون</span><span class="sxs-lookup"><span data-stu-id="27df0-141">Inventory unit</span></span></th>
-<th><span data-ttu-id="27df0-142">القيمة</span><span class="sxs-lookup"><span data-stu-id="27df0-142">Value</span></span></th>
-<th><span data-ttu-id="27df0-143">متوسط تكلفة الوحدة</span><span class="sxs-lookup"><span data-stu-id="27df0-143">Average unit cost</span></span></th>
+<th><span data-ttu-id="e4295-135">نوع الكائن</span><span class="sxs-lookup"><span data-stu-id="e4295-135">Object type</span></span></th>
+<th><span data-ttu-id="e4295-136">رقم العنصر</span><span class="sxs-lookup"><span data-stu-id="e4295-136">Item number</span></span></th>
+<th><span data-ttu-id="e4295-137">الموقع</span><span class="sxs-lookup"><span data-stu-id="e4295-137">Site</span></span></th>
+<th><span data-ttu-id="e4295-138">المستودع</span><span class="sxs-lookup"><span data-stu-id="e4295-138">Warehouse</span></span></th>
+<th><span data-ttu-id="e4295-139">رقم الدُفعة</span><span class="sxs-lookup"><span data-stu-id="e4295-139">Batch No.</span></span></th>
+<th><span data-ttu-id="e4295-140">الكمية</span><span class="sxs-lookup"><span data-stu-id="e4295-140">Quantity</span></span></th>
+<th><span data-ttu-id="e4295-141">وحدة المخزون</span><span class="sxs-lookup"><span data-stu-id="e4295-141">Inventory unit</span></span></th>
+<th><span data-ttu-id="e4295-142">القيمة</span><span class="sxs-lookup"><span data-stu-id="e4295-142">Value</span></span></th>
+<th><span data-ttu-id="e4295-143">متوسط تكلفة الوحدة</span><span class="sxs-lookup"><span data-stu-id="e4295-143">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="27df0-144">كائن المخزون</span><span class="sxs-lookup"><span data-stu-id="27df0-144">Inventory object</span></span></td>
-<td><span data-ttu-id="27df0-145">أ</span><span class="sxs-lookup"><span data-stu-id="27df0-145">A</span></span></td>
-<td><span data-ttu-id="27df0-146">1</span><span class="sxs-lookup"><span data-stu-id="27df0-146">1</span></span></td>
-<td><span data-ttu-id="27df0-147">11</span><span class="sxs-lookup"><span data-stu-id="27df0-147">11</span></span></td>
-<td><span data-ttu-id="27df0-148">ب1</span><span class="sxs-lookup"><span data-stu-id="27df0-148">B1</span></span></td>
-<td><span data-ttu-id="27df0-149">100</span><span class="sxs-lookup"><span data-stu-id="27df0-149">100</span></span></td>
-<td><span data-ttu-id="27df0-150">أجزاء</span><span class="sxs-lookup"><span data-stu-id="27df0-150">Pcs.</span></span></td>
-<td><p><span data-ttu-id="27df0-151">1200.00 دولار</span><span class="sxs-lookup"><span data-stu-id="27df0-151">$1200.00</span></span></p></td>
-<td><p><span data-ttu-id="27df0-152">12.00 دولارًا</span><span class="sxs-lookup"><span data-stu-id="27df0-152">$12.00</span></span></p></td>
+<td><span data-ttu-id="e4295-144">كائن المخزون</span><span class="sxs-lookup"><span data-stu-id="e4295-144">Inventory object</span></span></td>
+<td><span data-ttu-id="e4295-145">أ</span><span class="sxs-lookup"><span data-stu-id="e4295-145">A</span></span></td>
+<td><span data-ttu-id="e4295-146">1</span><span class="sxs-lookup"><span data-stu-id="e4295-146">1</span></span></td>
+<td><span data-ttu-id="e4295-147">11</span><span class="sxs-lookup"><span data-stu-id="e4295-147">11</span></span></td>
+<td><span data-ttu-id="e4295-148">ب1</span><span class="sxs-lookup"><span data-stu-id="e4295-148">B1</span></span></td>
+<td><span data-ttu-id="e4295-149">100</span><span class="sxs-lookup"><span data-stu-id="e4295-149">100</span></span></td>
+<td><span data-ttu-id="e4295-150">أجزاء</span><span class="sxs-lookup"><span data-stu-id="e4295-150">Pcs.</span></span></td>
+<td><p><span data-ttu-id="e4295-151">1200.00 دولار</span><span class="sxs-lookup"><span data-stu-id="e4295-151">$1200.00</span></span></p></td>
+<td><p><span data-ttu-id="e4295-152">12.00 دولارًا</span><span class="sxs-lookup"><span data-stu-id="e4295-152">$12.00</span></span></p></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="27df0-153">كائن المخزون</span><span class="sxs-lookup"><span data-stu-id="27df0-153">Inventory object</span></span></td>
-<td><span data-ttu-id="27df0-154">و</span><span class="sxs-lookup"><span data-stu-id="27df0-154">A</span></span></td>
-<td><span data-ttu-id="27df0-155">1</span><span class="sxs-lookup"><span data-stu-id="27df0-155">1</span></span></td>
-<td><span data-ttu-id="27df0-156">11</span><span class="sxs-lookup"><span data-stu-id="27df0-156">11</span></span></td>
-<td><span data-ttu-id="27df0-157">ب2</span><span class="sxs-lookup"><span data-stu-id="27df0-157">B2</span></span></td>
-<td><span data-ttu-id="27df0-158">50</span><span class="sxs-lookup"><span data-stu-id="27df0-158">50</span></span></td>
-<td><span data-ttu-id="27df0-159">أجزاء</span><span class="sxs-lookup"><span data-stu-id="27df0-159">Pcs.</span></span></td>
-<td><p><span data-ttu-id="27df0-160">600.00 دولار</span><span class="sxs-lookup"><span data-stu-id="27df0-160">$600.00</span></span></p></td>
-<td><p><span data-ttu-id="27df0-161">12.00 دولارًا</span><span class="sxs-lookup"><span data-stu-id="27df0-161">$12.00</span></span></p></td>
+<td><span data-ttu-id="e4295-153">كائن المخزون</span><span class="sxs-lookup"><span data-stu-id="e4295-153">Inventory object</span></span></td>
+<td><span data-ttu-id="e4295-154">و</span><span class="sxs-lookup"><span data-stu-id="e4295-154">A</span></span></td>
+<td><span data-ttu-id="e4295-155">1</span><span class="sxs-lookup"><span data-stu-id="e4295-155">1</span></span></td>
+<td><span data-ttu-id="e4295-156">11</span><span class="sxs-lookup"><span data-stu-id="e4295-156">11</span></span></td>
+<td><span data-ttu-id="e4295-157">ب2</span><span class="sxs-lookup"><span data-stu-id="e4295-157">B2</span></span></td>
+<td><span data-ttu-id="e4295-158">50</span><span class="sxs-lookup"><span data-stu-id="e4295-158">50</span></span></td>
+<td><span data-ttu-id="e4295-159">أجزاء</span><span class="sxs-lookup"><span data-stu-id="e4295-159">Pcs.</span></span></td>
+<td><p><span data-ttu-id="e4295-160">600.00 دولار</span><span class="sxs-lookup"><span data-stu-id="e4295-160">$600.00</span></span></p></td>
+<td><p><span data-ttu-id="e4295-161">12.00 دولارًا</span><span class="sxs-lookup"><span data-stu-id="e4295-161">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="27df0-162">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="27df0-162">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="e4295-162">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="e4295-162">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="27df0-163">كائنات التكلفة</span><span class="sxs-lookup"><span data-stu-id="27df0-163">Cost objects</span></span>](cost-object.md)
+[<span data-ttu-id="e4295-163">كائنات التكلفة</span><span class="sxs-lookup"><span data-stu-id="e4295-163">Cost objects</span></span>](cost-object.md)
 
-[<span data-ttu-id="27df0-164">إدخالات التكلفة</span><span class="sxs-lookup"><span data-stu-id="27df0-164">Cost entries</span></span>](cost-entries.md)
+[<span data-ttu-id="e4295-164">إدخالات التكلفة</span><span class="sxs-lookup"><span data-stu-id="e4295-164">Cost entries</span></span>](cost-entries.md)
 
-[<span data-ttu-id="27df0-165">الميزات الجديدة والمتغيرة</span><span class="sxs-lookup"><span data-stu-id="27df0-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
+[<span data-ttu-id="e4295-165">الميزات الجديدة والمتغيرة</span><span class="sxs-lookup"><span data-stu-id="e4295-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
 
 
 

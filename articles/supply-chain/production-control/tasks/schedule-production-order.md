@@ -18,40 +18,40 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 20e7ee023f39cc5d02b0f5b80fbb3ae3ad0c9774
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346354"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562061"
 ---
-# <a name="schedule-a-production-order"></a><span data-ttu-id="0c4a2-103">جدولة أمر إنتاج</span><span class="sxs-lookup"><span data-stu-id="0c4a2-103">Schedule a production order</span></span>
+# <a name="schedule-a-production-order"></a><span data-ttu-id="d7819-103">جدولة أمر إنتاج</span><span class="sxs-lookup"><span data-stu-id="d7819-103">Schedule a production order</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="0c4a2-104">يوضح هذا الإجراء كيفية جدولة أمر إنتاج.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="0c4a2-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="0c4a2-106">هذا هو الإجراء الثالث من أصل سبعة إجراءات الذي يشرح دورة حياة أمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="d7819-104">يوضح هذا الإجراء كيفية جدولة أمر إنتاج.</span><span class="sxs-lookup"><span data-stu-id="d7819-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="d7819-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="d7819-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d7819-106">هذا هو الإجراء الثالث من أصل سبعة إجراءات الذي يشرح دورة حياة أمر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="d7819-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="schedule-a-production-order"></a><span data-ttu-id="0c4a2-107">جدولة أمر إنتاج</span><span class="sxs-lookup"><span data-stu-id="0c4a2-107">Schedule a production order</span></span>
-1. <span data-ttu-id="0c4a2-108">انتقل إلى التحكم بالإنتاج‬ > أوامر الإنتاج > كافة أوامر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="0c4a2-109">حدد أمر إنتاج يكون له "الحالة المقدرة".</span><span class="sxs-lookup"><span data-stu-id="0c4a2-109">Select a production order that has the Estimated status.</span></span>  
-2. <span data-ttu-id="0c4a2-110">في جزء الإجراءات، انقر فوق "جدول".</span><span class="sxs-lookup"><span data-stu-id="0c4a2-110">On the Action Pane, click Schedule.</span></span>
-3. <span data-ttu-id="0c4a2-111">انقر فوق "جدولة الوظائف".</span><span class="sxs-lookup"><span data-stu-id="0c4a2-111">Click Schedule jobs.</span></span>
-    * <span data-ttu-id="0c4a2-112">تم تعيين المعلمات للجدولة على هذه الصفحة.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-112">The parameters for scheduling are set up on this page.</span></span> <span data-ttu-id="0c4a2-113">يمكنك إعداد المعلمات لمستخدمين محددين أو لكافة المستخدمين.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-113">You can set up the parameters for specific users or all users.</span></span>  
-4. <span data-ttu-id="0c4a2-114">في حقل "اتجاه الجدولة"، حدد "‏‫مستقبلي من اليوم‬".</span><span class="sxs-lookup"><span data-stu-id="0c4a2-114">In the Scheduling direction field, select 'Forward from today'.</span></span>
-5. <span data-ttu-id="0c4a2-115">في حقل "تاريخ الجدولة"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-115">In the Scheduling date field, enter a date.</span></span>
-6. <span data-ttu-id="0c4a2-116">حدد خانة الاختيار "‏‫قدرة محدودة" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-116">Select or clear the Finite capacity check box.</span></span>
-7. <span data-ttu-id="0c4a2-117">حدد خانة الاختيار "‏‫مواد محدودة" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-117">Select or clear the Finite material check box.</span></span>
-8. <span data-ttu-id="0c4a2-118">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="0c4a2-118">Click OK.</span></span>
+## <a name="schedule-a-production-order"></a><span data-ttu-id="d7819-107">جدولة أمر إنتاج</span><span class="sxs-lookup"><span data-stu-id="d7819-107">Schedule a production order</span></span>
+1. <span data-ttu-id="d7819-108">انتقل إلى التحكم بالإنتاج‬ > أوامر الإنتاج > كافة أوامر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="d7819-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="d7819-109">حدد أمر إنتاج يكون له "الحالة المقدرة".</span><span class="sxs-lookup"><span data-stu-id="d7819-109">Select a production order that has the Estimated status.</span></span>  
+2. <span data-ttu-id="d7819-110">في جزء الإجراءات، انقر فوق "جدول".</span><span class="sxs-lookup"><span data-stu-id="d7819-110">On the Action Pane, click Schedule.</span></span>
+3. <span data-ttu-id="d7819-111">انقر فوق "جدولة الوظائف".</span><span class="sxs-lookup"><span data-stu-id="d7819-111">Click Schedule jobs.</span></span>
+    * <span data-ttu-id="d7819-112">تم تعيين المعلمات للجدولة على هذه الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d7819-112">The parameters for scheduling are set up on this page.</span></span> <span data-ttu-id="d7819-113">يمكنك إعداد المعلمات لمستخدمين محددين أو لكافة المستخدمين.</span><span class="sxs-lookup"><span data-stu-id="d7819-113">You can set up the parameters for specific users or all users.</span></span>  
+4. <span data-ttu-id="d7819-114">في حقل "اتجاه الجدولة"، حدد "‏‫مستقبلي من اليوم‬".</span><span class="sxs-lookup"><span data-stu-id="d7819-114">In the Scheduling direction field, select 'Forward from today'.</span></span>
+5. <span data-ttu-id="d7819-115">في حقل "تاريخ الجدولة"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="d7819-115">In the Scheduling date field, enter a date.</span></span>
+6. <span data-ttu-id="d7819-116">حدد خانة الاختيار "‏‫قدرة محدودة" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="d7819-116">Select or clear the Finite capacity check box.</span></span>
+7. <span data-ttu-id="d7819-117">حدد خانة الاختيار "‏‫مواد محدودة" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="d7819-117">Select or clear the Finite material check box.</span></span>
+8. <span data-ttu-id="d7819-118">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="d7819-118">Click OK.</span></span>
 
-## <a name="view-the-scheduling-results"></a><span data-ttu-id="0c4a2-119">عرض نتائج الجدولة</span><span class="sxs-lookup"><span data-stu-id="0c4a2-119">View the scheduling results</span></span>
-1. <span data-ttu-id="0c4a2-120">في جزء "الإجراءات"، انقر فوق "أمر إنتاج".</span><span class="sxs-lookup"><span data-stu-id="0c4a2-120">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="0c4a2-121">انقر فوق كافة الوظائف.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-121">Click All jobs.</span></span>
-    * <span data-ttu-id="0c4a2-122">تعرض هذه الصفحة الوظائف المجدولة التي قمت بإنشائها للتو.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-122">This page displays the scheduled jobs that you have just generated.</span></span>  
-3. <span data-ttu-id="0c4a2-123">قم بتوسيع قسم "الجدولة" أو طيه.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-123">Expand or collapse the Scheduling section.</span></span>
-    * <span data-ttu-id="0c4a2-124">في علامة التبويب السريعة "الجدولة"، يمكنك عرض الوقت والتاريخ المجدولين.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-124">On the Scheduling FastTab, you can view the scheduled date and time.</span></span>  
-4. <span data-ttu-id="0c4a2-125">انقر فوق "استعلامات".</span><span class="sxs-lookup"><span data-stu-id="0c4a2-125">Click Inquiries.</span></span>
-5. <span data-ttu-id="0c4a2-126">انقر فوق القدرة الإنتاجية.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-126">Click Capacity load.</span></span>
-    * <span data-ttu-id="0c4a2-127">تعرض صفحة القدرة الإنتاجية القدرة المخزنة من خلال جدولة الوظائف والعدد الإجمالي للساعات المحجوزة حاليًا للمورد وعدد الساعات التي لا تزال متاحة لجدولة وظيفة للمورد.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
-6. <span data-ttu-id="0c4a2-128">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-128">Close the page.</span></span>
-7. <span data-ttu-id="0c4a2-129">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="0c4a2-129">Close the page.</span></span>
+## <a name="view-the-scheduling-results"></a><span data-ttu-id="d7819-119">عرض نتائج الجدولة</span><span class="sxs-lookup"><span data-stu-id="d7819-119">View the scheduling results</span></span>
+1. <span data-ttu-id="d7819-120">في جزء "الإجراءات"، انقر فوق "أمر إنتاج".</span><span class="sxs-lookup"><span data-stu-id="d7819-120">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="d7819-121">انقر فوق كافة الوظائف.</span><span class="sxs-lookup"><span data-stu-id="d7819-121">Click All jobs.</span></span>
+    * <span data-ttu-id="d7819-122">تعرض هذه الصفحة الوظائف المجدولة التي قمت بإنشائها للتو.</span><span class="sxs-lookup"><span data-stu-id="d7819-122">This page displays the scheduled jobs that you have just generated.</span></span>  
+3. <span data-ttu-id="d7819-123">قم بتوسيع قسم "الجدولة" أو طيه.</span><span class="sxs-lookup"><span data-stu-id="d7819-123">Expand or collapse the Scheduling section.</span></span>
+    * <span data-ttu-id="d7819-124">في علامة التبويب السريعة "الجدولة"، يمكنك عرض الوقت والتاريخ المجدولين.</span><span class="sxs-lookup"><span data-stu-id="d7819-124">On the Scheduling FastTab, you can view the scheduled date and time.</span></span>  
+4. <span data-ttu-id="d7819-125">انقر فوق "استعلامات".</span><span class="sxs-lookup"><span data-stu-id="d7819-125">Click Inquiries.</span></span>
+5. <span data-ttu-id="d7819-126">انقر فوق القدرة الإنتاجية.</span><span class="sxs-lookup"><span data-stu-id="d7819-126">Click Capacity load.</span></span>
+    * <span data-ttu-id="d7819-127">تعرض صفحة القدرة الإنتاجية القدرة المخزنة من خلال جدولة الوظائف والعدد الإجمالي للساعات المحجوزة حاليًا للمورد وعدد الساعات التي لا تزال متاحة لجدولة وظيفة للمورد.</span><span class="sxs-lookup"><span data-stu-id="d7819-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
+6. <span data-ttu-id="d7819-128">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d7819-128">Close the page.</span></span>
+7. <span data-ttu-id="d7819-129">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="d7819-129">Close the page.</span></span>
 

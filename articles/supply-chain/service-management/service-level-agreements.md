@@ -19,64 +19,64 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cffe3a7766502dd5d888a7a99a32150967911301
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364570"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562616"
 ---
-# <a name="service-level-agreements"></a><span data-ttu-id="33e8c-103">اتفاقيات على مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="33e8c-103">Service level agreements</span></span>        
+# <a name="service-level-agreements"></a><span data-ttu-id="d0ce4-103">اتفاقيات على مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="d0ce4-103">Service level agreements</span></span>        
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="33e8c-104">اتفاقية مستوى الخدمة (SLA) هي عبارة عن اتفاقية بين شركة خدمة وعميل خدمة.</span><span class="sxs-lookup"><span data-stu-id="33e8c-104">A service level agreement (SLA) is an agreement between a service company and a service customer.</span></span> <span data-ttu-id="33e8c-105">في اتفاقية مستوى الخدمة، يوافق العميل على أدنى وقت للاستجابة استنادًا إلى الوقت الذي تقوم فيه شركة الخدمة بتسجيل المشكلة ومتى تم حل المشكلة.</span><span class="sxs-lookup"><span data-stu-id="33e8c-105">In a SLA, the customer agrees to a minimum response time based on when the service company records the issue and when the issue is resolved.</span></span>
+<span data-ttu-id="d0ce4-104">اتفاقية مستوى الخدمة (SLA) هي عبارة عن اتفاقية بين شركة خدمة وعميل خدمة.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-104">A service level agreement (SLA) is an agreement between a service company and a service customer.</span></span> <span data-ttu-id="d0ce4-105">في اتفاقية مستوى الخدمة، يوافق العميل على أدنى وقت للاستجابة استنادًا إلى الوقت الذي تقوم فيه شركة الخدمة بتسجيل المشكلة ومتى تم حل المشكلة.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-105">In a SLA, the customer agrees to a minimum response time based on when the service company records the issue and when the issue is resolved.</span></span>
 
-<span data-ttu-id="33e8c-106">تطبق اتفاقية مستوى الخدمة أسلوبًا قياسيًا للخدمةالمقدمة للعملاء، كما توضح لشركة الخدمة متى ينبغي إكمال إحدى مهام الخدمات.</span><span class="sxs-lookup"><span data-stu-id="33e8c-106">A SLA enforces a standard level of service that is offered to customers, and also makes it transparent to a service company when a service job should be completed.</span></span>
+<span data-ttu-id="d0ce4-106">تطبق اتفاقية مستوى الخدمة أسلوبًا قياسيًا للخدمةالمقدمة للعملاء، كما توضح لشركة الخدمة متى ينبغي إكمال إحدى مهام الخدمات.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-106">A SLA enforces a standard level of service that is offered to customers, and also makes it transparent to a service company when a service job should be completed.</span></span>
 
-<span data-ttu-id="33e8c-107">ويمكن إنشاء أي عدد من اتفاقيات مستوى الخدمة وذلك لتوفير مستويات مختلفة من الخدمة لعميل الخدمة.</span><span class="sxs-lookup"><span data-stu-id="33e8c-107">Any number of SLAs can be created to offer service customers different levels of service.</span></span>
+<span data-ttu-id="d0ce4-107">ويمكن إنشاء أي عدد من اتفاقيات مستوى الخدمة وذلك لتوفير مستويات مختلفة من الخدمة لعميل الخدمة.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-107">Any number of SLAs can be created to offer service customers different levels of service.</span></span>
 
-## <a name="create-a-service-level-agreement"></a><span data-ttu-id="33e8c-108">إنشاء اتفاقية مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="33e8c-108">Create a service level agreement</span></span>
+## <a name="create-a-service-level-agreement"></a><span data-ttu-id="d0ce4-108">إنشاء اتفاقية مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="d0ce4-108">Create a service level agreement</span></span>
 
-1.  <span data-ttu-id="33e8c-109">انقر فوق **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **اتفاقيات مستوى الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="33e8c-109">Click **Service management** \> **Setup** \> **Service agreements** \> **Service level agreements**.</span></span>
+1.  <span data-ttu-id="d0ce4-109">انقر فوق **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **اتفاقيات مستوى الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-109">Click **Service management** \> **Setup** \> **Service agreements** \> **Service level agreements**.</span></span>
 
-2.  <span data-ttu-id="33e8c-110">اكتب اسم اتفاقية مستوى الخدمة في الحقل **اتفاقية مستوى الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="33e8c-110">Type a name for the service level agreement in the **Service level agreement** field.</span></span>
+2.  <span data-ttu-id="d0ce4-110">اكتب اسم اتفاقية مستوى الخدمة في الحقل **اتفاقية مستوى الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-110">Type a name for the service level agreement in the **Service level agreement** field.</span></span>
 
-3.  <span data-ttu-id="33e8c-111">اكتب الوقت الذي تريد فيه السماح بإكمال استدعاءات الخدمة المرفقة باتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="33e8c-111">Type the time that you want to allow for completion of service calls that are attached to the service level agreement.</span></span> <span data-ttu-id="33e8c-112">ثم حدد تقويماً إذا كنت ترغب في أن تستند اتفاقية مستوى الخدمة إلى تقويم معين.</span><span class="sxs-lookup"><span data-stu-id="33e8c-112">Then select a calendar if you want to base the service level agreement on a specific calendar.</span></span>
+3.  <span data-ttu-id="d0ce4-111">اكتب الوقت الذي تريد فيه السماح بإكمال استدعاءات الخدمة المرفقة باتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-111">Type the time that you want to allow for completion of service calls that are attached to the service level agreement.</span></span> <span data-ttu-id="d0ce4-112">ثم حدد تقويماً إذا كنت ترغب في أن تستند اتفاقية مستوى الخدمة إلى تقويم معين.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-112">Then select a calendar if you want to base the service level agreement on a specific calendar.</span></span>
 
-## <a name="apply-a-service-level-agreement"></a><span data-ttu-id="33e8c-113">تطبيق اتفاقية مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="33e8c-113">Apply a service level agreement</span></span>
+## <a name="apply-a-service-level-agreement"></a><span data-ttu-id="d0ce4-113">تطبيق اتفاقية مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="d0ce4-113">Apply a service level agreement</span></span>
 
-<span data-ttu-id="33e8c-114">يتم تطبيق اتفاقية مستوى الخدمة مباشرة على اتفاقية خدمة.</span><span class="sxs-lookup"><span data-stu-id="33e8c-114">The SLA is applied directly to a service agreement.</span></span>
+<span data-ttu-id="d0ce4-114">يتم تطبيق اتفاقية مستوى الخدمة مباشرة على اتفاقية خدمة.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-114">The SLA is applied directly to a service agreement.</span></span>
 
-<span data-ttu-id="33e8c-115">يتم قياس أوامر الخدمة التي يتم إنشاؤها يدويًا وإرفاقها باتفاقية خدمة تتضمن اتفاقية مستوى خدمة مقابل اتفاقية مستوى الخدمة تلك.</span><span class="sxs-lookup"><span data-stu-id="33e8c-115">Service orders that you create manually and attach to a service agreement that has an SLA are measured against that SLA.</span></span>
+<span data-ttu-id="d0ce4-115">يتم قياس أوامر الخدمة التي يتم إنشاؤها يدويًا وإرفاقها باتفاقية خدمة تتضمن اتفاقية مستوى خدمة مقابل اتفاقية مستوى الخدمة تلك.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-115">Service orders that you create manually and attach to a service agreement that has an SLA are measured against that SLA.</span></span>
 
-<span data-ttu-id="33e8c-116">لا يتم إرفاق أوامر الخدمة التي يتم إنشاؤها تلقائيًا باتفاقية مستوى خدمة.</span><span class="sxs-lookup"><span data-stu-id="33e8c-116">Service orders that you create automatically are not attached to an SLA.</span></span>
+<span data-ttu-id="d0ce4-116">لا يتم إرفاق أوامر الخدمة التي يتم إنشاؤها تلقائيًا باتفاقية مستوى خدمة.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-116">Service orders that you create automatically are not attached to an SLA.</span></span>
 
-## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a><span data-ttu-id="33e8c-117">تطبيق اتفاقية مستوى الخدمة على اتفاقية الخدمة</span><span class="sxs-lookup"><span data-stu-id="33e8c-117">Apply the service level agreement to the service agreement</span></span>
+## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a><span data-ttu-id="d0ce4-117">تطبيق اتفاقية مستوى الخدمة على اتفاقية الخدمة</span><span class="sxs-lookup"><span data-stu-id="d0ce4-117">Apply the service level agreement to the service agreement</span></span>
 
-1.  <span data-ttu-id="33e8c-118">انقر فوق **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**.</span><span class="sxs-lookup"><span data-stu-id="33e8c-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="33e8c-119">حدد اتفاقية الخدمة التي ترغب في تطبيق اتفاقية مستوى الخدمة عليها، ثم انقر فوق **تحرير** في **جزء الإجراءات**.</span><span class="sxs-lookup"><span data-stu-id="33e8c-119">Select the service agreement that you want to apply the SLA to, and then click **Edit** on the **Action Pane**.</span></span>
+1.  <span data-ttu-id="d0ce4-118">انقر فوق **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="d0ce4-119">حدد اتفاقية الخدمة التي ترغب في تطبيق اتفاقية مستوى الخدمة عليها، ثم انقر فوق **تحرير** في **جزء الإجراءات**.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-119">Select the service agreement that you want to apply the SLA to, and then click **Edit** on the **Action Pane**.</span></span>
 
-2.  <span data-ttu-id="33e8c-120">في حقل **اتفاقية مستوى الخدمة**، حدد اتفاقية مستوى الخدمة التي تريد تعيينها.</span><span class="sxs-lookup"><span data-stu-id="33e8c-120">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
+2.  <span data-ttu-id="d0ce4-120">في حقل **اتفاقية مستوى الخدمة**، حدد اتفاقية مستوى الخدمة التي تريد تعيينها.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-120">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
 
-## <a name="apply-the-service-level-agreement-to-the-service-agreement-group"></a><span data-ttu-id="33e8c-121">تطبيق اتفاقية مستوى الخدمة على ‏‏مجموعة اتفاقيات الخدمات</span><span class="sxs-lookup"><span data-stu-id="33e8c-121">Apply the service level agreement to the service agreement group</span></span>
+## <a name="apply-the-service-level-agreement-to-the-service-agreement-group"></a><span data-ttu-id="d0ce4-121">تطبيق اتفاقية مستوى الخدمة على ‏‏مجموعة اتفاقيات الخدمات</span><span class="sxs-lookup"><span data-stu-id="d0ce4-121">Apply the service level agreement to the service agreement group</span></span>
 
-1.  <span data-ttu-id="33e8c-122">انقر فوق **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **مجموعات اتفاقيات الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="33e8c-122">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
+1.  <span data-ttu-id="d0ce4-122">انقر فوق **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **مجموعات اتفاقيات الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-122">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
 
-2.  <span data-ttu-id="33e8c-123">في حقل **اتفاقية مستوى الخدمة**، حدد اتفاقية مستوى الخدمة التي تريد تعيينها.</span><span class="sxs-lookup"><span data-stu-id="33e8c-123">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
+2.  <span data-ttu-id="d0ce4-123">في حقل **اتفاقية مستوى الخدمة**، حدد اتفاقية مستوى الخدمة التي تريد تعيينها.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-123">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
 
-## <a name="track-time-on-a-service-order-against-an-sla"></a><span data-ttu-id="33e8c-124">تتبع الوقت في أمر خدمة مقابل اتفاقية مستوى خدمة</span><span class="sxs-lookup"><span data-stu-id="33e8c-124">Track time on a service order against an SLA</span></span>
+## <a name="track-time-on-a-service-order-against-an-sla"></a><span data-ttu-id="d0ce4-124">تتبع الوقت في أمر خدمة مقابل اتفاقية مستوى خدمة</span><span class="sxs-lookup"><span data-stu-id="d0ce4-124">Track time on a service order against an SLA</span></span>
 
-<span data-ttu-id="33e8c-125">عند إنشاء أمر خدمة جديد لاتفاقية خدمة تم تعيين اتفاقية مستوى خدمة إليها، يتم بدء الفترة الزمنية لتسليم الخدمة، ويبدأ النظام في تعقب وقت التسليم.</span><span class="sxs-lookup"><span data-stu-id="33e8c-125">When you create a new service order for a service agreement that an SLA is assigned to, the time interval for the delivery of the service is initiated, and the system starts to track the delivery time.</span></span> <span data-ttu-id="33e8c-126">فضلاً عن ذلك، يمكن تعيين الخيارات التالية:</span><span class="sxs-lookup"><span data-stu-id="33e8c-126">Additionally, you can set the following options:</span></span>
+<span data-ttu-id="d0ce4-125">عند إنشاء أمر خدمة جديد لاتفاقية خدمة تم تعيين اتفاقية مستوى خدمة إليها، يتم بدء الفترة الزمنية لتسليم الخدمة، ويبدأ النظام في تعقب وقت التسليم.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-125">When you create a new service order for a service agreement that an SLA is assigned to, the time interval for the delivery of the service is initiated, and the system starts to track the delivery time.</span></span> <span data-ttu-id="d0ce4-126">فضلاً عن ذلك، يمكن تعيين الخيارات التالية:</span><span class="sxs-lookup"><span data-stu-id="d0ce4-126">Additionally, you can set the following options:</span></span>
 
-  - <span data-ttu-id="33e8c-127">يمكن تشغيل تسجيل الوقت وإيقافه في أمر الخدمة وذلك لتسجيل إجمالي الوقت المستغرق في أوامر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="33e8c-127">You can start and stop time recording on the service order to register the total amount of time that is spent on service orders.</span></span>
+  - <span data-ttu-id="d0ce4-127">يمكن تشغيل تسجيل الوقت وإيقافه في أمر الخدمة وذلك لتسجيل إجمالي الوقت المستغرق في أوامر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-127">You can start and stop time recording on the service order to register the total amount of time that is spent on service orders.</span></span>
 
-  - <span data-ttu-id="33e8c-128">يمكن مراقبة الالتزام بالفاصل الزمني الذي تم تعيينه في اتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="33e8c-128">You can monitor compliance with the time interval that is set in the service level agreement.</span></span>
+  - <span data-ttu-id="d0ce4-128">يمكن مراقبة الالتزام بالفاصل الزمني الذي تم تعيينه في اتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-128">You can monitor compliance with the time interval that is set in the service level agreement.</span></span>
 
-  - <span data-ttu-id="33e8c-129">يمكن تحديد أكواد السبب التي يلزم تعيينها في حالة تجاوز الفاصل الزمني المحدد باتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="33e8c-129">You can define reason codes that must be set if the time interval of the service level agreement is exceeded.</span></span>
+  - <span data-ttu-id="d0ce4-129">يمكن تحديد أكواد السبب التي يلزم تعيينها في حالة تجاوز الفاصل الزمني المحدد باتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="d0ce4-129">You can define reason codes that must be set if the time interval of the service level agreement is exceeded.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="33e8c-130">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="33e8c-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d0ce4-130">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="d0ce4-130">See also</span></span>
 
-[<span data-ttu-id="33e8c-131">عرض التوافق مع اتفاقيات مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="33e8c-131">View compliance with service level agreements</span></span>](view-compliance-with-service-level-agreements.md)
+[<span data-ttu-id="d0ce4-131">عرض التوافق مع اتفاقيات مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="d0ce4-131">View compliance with service level agreements</span></span>](view-compliance-with-service-level-agreements.md)
 
   
 
