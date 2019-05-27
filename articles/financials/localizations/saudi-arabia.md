@@ -16,24 +16,24 @@ ms.search.region: Saudi Arabia
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0ecda670034129a64184a2fee0ee822da1b026d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fd9dd8c56a866c4c0a6575dfa66cfc785db9521c
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370056"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537620"
 ---
-# <a name="saudi-arabia"></a><span data-ttu-id="ddb13-103">المملكة العربية السعودية‬</span><span class="sxs-lookup"><span data-stu-id="ddb13-103">Saudi Arabia</span></span> 
+# <a name="saudi-arabia"></a><span data-ttu-id="85830-103">المملكة العربية السعودية‬</span><span class="sxs-lookup"><span data-stu-id="85830-103">Saudi Arabia</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ddb13-104">يوفر هذا الموضوع ارتباطات إلى موارد الوثائق للمملكة العربية السعودية.</span><span class="sxs-lookup"><span data-stu-id="ddb13-104">This topic provides links to documentation resources for Saudi Arabia.</span></span> 
+<span data-ttu-id="85830-104">يوفر هذا الموضوع ارتباطات إلى موارد الوثائق للمملكة العربية السعودية.</span><span class="sxs-lookup"><span data-stu-id="85830-104">This topic provides links to documentation resources for Saudi Arabia.</span></span> 
 
-- [<span data-ttu-id="ddb13-105">ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="ddb13-105">Sales tax</span></span>](apac-sau-sales-tax.md)
-- [<span data-ttu-id="ddb13-106">تقارير الزكاة</span><span class="sxs-lookup"><span data-stu-id="ddb13-106">Zakat reporting</span></span>](emea-sau-zakat-reporting.md)
+- [<span data-ttu-id="85830-105">ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="85830-105">Sales tax</span></span>](apac-sau-sales-tax.md)
+- [<span data-ttu-id="85830-106">تقارير الزكاة</span><span class="sxs-lookup"><span data-stu-id="85830-106">Zakat reporting</span></span>](emea-sau-zakat-reporting.md)
 
-## <a name="additional-resources"></a><span data-ttu-id="ddb13-107">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="ddb13-107">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="85830-107">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="85830-107">Additional resources</span></span>
 
-- [<span data-ttu-id="ddb13-108">نظرة عامة على إعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="ddb13-108">Electronic reporting overview</span></span>](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [<span data-ttu-id="ddb13-109">تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="ddb13-109">Download Electronic reporting configurations from Lifecycle Services</span></span>](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-- [<span data-ttu-id="ddb13-110">مدخل الترجمة في Microsoft Dynamics: تقرير أستراليا (يتطلب حساب CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="ddb13-110">Microsoft Dynamics Localization Portal: Australia report (requires CustomerSource account)</span></span>](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/saudiarabia.html)
+- [<span data-ttu-id="85830-108">نظرة عامة على إعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="85830-108">Electronic reporting overview</span></span>](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [<span data-ttu-id="85830-109">تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="85830-109">Download Electronic reporting configurations from Lifecycle Services</span></span>](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [<span data-ttu-id="85830-110">مدخل الترجمة في Microsoft Dynamics: تقرير أستراليا (يتطلب حساب CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="85830-110">Microsoft Dynamics Localization Portal: Australia report (requires CustomerSource account)</span></span>](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/saudiarabia.html)

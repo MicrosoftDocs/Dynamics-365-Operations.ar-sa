@@ -18,33 +18,33 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0fa5f60abafb1200a61e1c9d8013fb9e28e28f48
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315212"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559132"
 ---
-# <a name="create-project-purchase-order"></a><span data-ttu-id="7b6cb-103">إنشاء أمر شراء المشروع</span><span class="sxs-lookup"><span data-stu-id="7b6cb-103">Create project purchase order</span></span>
+# <a name="create-project-purchase-order"></a><span data-ttu-id="4ca5c-103">إنشاء أمر شراء المشروع</span><span class="sxs-lookup"><span data-stu-id="4ca5c-103">Create project purchase order</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="7b6cb-104">يوضح هذا الإجراء كيفية إنشاء أمر شراء للمشروع.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="7b6cb-105">تستخدم هذه المهمة مجموعة بيانات USSI.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-105">This task uses the USSI data set.</span></span>
+<span data-ttu-id="4ca5c-104">يوضح هذا الإجراء كيفية إنشاء أمر شراء للمشروع.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="4ca5c-105">تستخدم هذه المهمة مجموعة بيانات USSI.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-105">This task uses the USSI data set.</span></span>
 
-1. <span data-ttu-id="7b6cb-106">انتقل إلى إدارة المشاريع والمحاسبة > المشاريع > جميع المشاريع.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-106">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="7b6cb-107">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-107">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="7b6cb-108">في جزء الإجراءات، انقر فوق "إدارة".</span><span class="sxs-lookup"><span data-stu-id="7b6cb-108">On the Action Pane, click Manage.</span></span>
-4. <span data-ttu-id="7b6cb-109">انقر فوق مهمة الصنف.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-109">Click Item task.</span></span>
-5. <span data-ttu-id="7b6cb-110">انقر فوق "أمر الشراء".</span><span class="sxs-lookup"><span data-stu-id="7b6cb-110">Click Purchase order.</span></span>
-6. <span data-ttu-id="7b6cb-111">في الحقل "حساب المورد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-111">In the Vendor account field, enter or select a value.</span></span>
-7. <span data-ttu-id="7b6cb-112">في حقل "الموقع"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-112">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="7b6cb-113">هذه الخطوات ليست ضرورية، ولكنها تقوم بتبسيط أمر الشراء من خلال إعداد الموقع والمستودع الافتراضيين لبنود أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
-8. <span data-ttu-id="7b6cb-114">في الحقل "المستودع"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-114">In the Warehouse field, enter or select a value.</span></span>
-9. <span data-ttu-id="7b6cb-115">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="7b6cb-115">Click OK.</span></span>
-10. <span data-ttu-id="7b6cb-116">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-116">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="7b6cb-117">في الحقل "رقم الصنف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-117">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="7b6cb-118">قد يكون هذا رقم صنف أو فئة تدبير.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-118">This can be the item number or a procurement category.</span></span>  
-12. <span data-ttu-id="7b6cb-119">قم بتوسيع قسم "تفاصيل البند".</span><span class="sxs-lookup"><span data-stu-id="7b6cb-119">Expand the Line details section.</span></span>
-13. <span data-ttu-id="7b6cb-120">انقر فوق علامة التبويب "المشروع".</span><span class="sxs-lookup"><span data-stu-id="7b6cb-120">Click the Project tab.</span></span>
-    * <span data-ttu-id="7b6cb-121">تحقق من توفر أسعار المبيعات والتكلفة.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="7b6cb-122">إذا لم تكن متاحة ولكن مطلوبة، فأدخل المعلومات.</span><span class="sxs-lookup"><span data-stu-id="7b6cb-122">If they are not available but needed, enter the information.</span></span>  
-14. <span data-ttu-id="7b6cb-123">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="7b6cb-123">Click Save.</span></span>
+1. <span data-ttu-id="4ca5c-106">انتقل إلى إدارة المشاريع والمحاسبة > المشاريع > جميع المشاريع.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-106">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="4ca5c-107">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-107">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="4ca5c-108">في جزء الإجراءات، انقر فوق "إدارة".</span><span class="sxs-lookup"><span data-stu-id="4ca5c-108">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="4ca5c-109">انقر فوق مهمة الصنف.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-109">Click Item task.</span></span>
+5. <span data-ttu-id="4ca5c-110">انقر فوق "أمر الشراء".</span><span class="sxs-lookup"><span data-stu-id="4ca5c-110">Click Purchase order.</span></span>
+6. <span data-ttu-id="4ca5c-111">في الحقل "حساب المورد"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-111">In the Vendor account field, enter or select a value.</span></span>
+7. <span data-ttu-id="4ca5c-112">في حقل "الموقع"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-112">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="4ca5c-113">هذه الخطوات ليست ضرورية، ولكنها تقوم بتبسيط أمر الشراء من خلال إعداد الموقع والمستودع الافتراضيين لبنود أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
+8. <span data-ttu-id="4ca5c-114">في الحقل "المستودع"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-114">In the Warehouse field, enter or select a value.</span></span>
+9. <span data-ttu-id="4ca5c-115">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="4ca5c-115">Click OK.</span></span>
+10. <span data-ttu-id="4ca5c-116">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-116">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="4ca5c-117">في الحقل "رقم الصنف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="4ca5c-118">قد يكون هذا رقم صنف أو فئة تدبير.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-118">This can be the item number or a procurement category.</span></span>  
+12. <span data-ttu-id="4ca5c-119">قم بتوسيع قسم "تفاصيل البند".</span><span class="sxs-lookup"><span data-stu-id="4ca5c-119">Expand the Line details section.</span></span>
+13. <span data-ttu-id="4ca5c-120">انقر فوق علامة التبويب "المشروع".</span><span class="sxs-lookup"><span data-stu-id="4ca5c-120">Click the Project tab.</span></span>
+    * <span data-ttu-id="4ca5c-121">تحقق من توفر أسعار المبيعات والتكلفة.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="4ca5c-122">إذا لم تكن متاحة ولكن مطلوبة، فأدخل المعلومات.</span><span class="sxs-lookup"><span data-stu-id="4ca5c-122">If they are not available but needed, enter the information.</span></span>  
+14. <span data-ttu-id="4ca5c-123">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="4ca5c-123">Click Save.</span></span>
 

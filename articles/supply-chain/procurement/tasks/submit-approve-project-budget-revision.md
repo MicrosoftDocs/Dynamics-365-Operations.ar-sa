@@ -18,31 +18,31 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 24f7f0b8238b017cd7e2dab65a1c0be98e425c40
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "348654"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569858"
 ---
-# <a name="submit-and-approve-project-budget-revision"></a><span data-ttu-id="0cc37-103">إرسال واعتماد مراجعة موازنة المشروع</span><span class="sxs-lookup"><span data-stu-id="0cc37-103">Submit and approve project budget revision</span></span>
+# <a name="submit-and-approve-project-budget-revision"></a><span data-ttu-id="dcdbe-103">إرسال واعتماد مراجعة موازنة المشروع</span><span class="sxs-lookup"><span data-stu-id="dcdbe-103">Submit and approve project budget revision</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="0cc37-104">يوفر هذا الإجراء معلومات حول مراجعة موازنة المشروع.</span><span class="sxs-lookup"><span data-stu-id="0cc37-104">This procedure provides information about revising a project budget.</span></span> <span data-ttu-id="0cc37-105">يمكنك مراجعة موازنة المشروع لمرات كثيرة كما تقتضي الحاجة، ومع ذلك لا يمكنك رؤية مقدار مراجعة فردية إذا تمت مراجعة الميزانية أكثر من مرة.</span><span class="sxs-lookup"><span data-stu-id="0cc37-105">You can revise a project budget as many times as necessary, however you can't see the amount of an individual revision if the budget has been revised more than one time.</span></span> 
+<span data-ttu-id="dcdbe-104">يوفر هذا الإجراء معلومات حول مراجعة موازنة المشروع.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-104">This procedure provides information about revising a project budget.</span></span> <span data-ttu-id="dcdbe-105">يمكنك مراجعة موازنة المشروع لمرات كثيرة كما تقتضي الحاجة، ومع ذلك لا يمكنك رؤية مقدار مراجعة فردية إذا تمت مراجعة الميزانية أكثر من مرة.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-105">You can revise a project budget as many times as necessary, however you can't see the amount of an individual revision if the budget has been revised more than one time.</span></span> 
 
-<span data-ttu-id="0cc37-106">تستخدم هذه المهمة مجموعة بيانات SSI.</span><span class="sxs-lookup"><span data-stu-id="0cc37-106">This task uses the SSI data set.</span></span>
+<span data-ttu-id="dcdbe-106">تستخدم هذه المهمة مجموعة بيانات SSI.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-106">This task uses the SSI data set.</span></span>
 
-1. <span data-ttu-id="0cc37-107">انتقل إلى إدارة المشاريع والمحاسبة > المشاريع > جميع المشاريع.</span><span class="sxs-lookup"><span data-stu-id="0cc37-107">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="0cc37-108">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="0cc37-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="0cc37-109">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="0cc37-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="0cc37-110">في جزء "الإجراءات"، انقر فوق "خطة".</span><span class="sxs-lookup"><span data-stu-id="0cc37-110">On the Action Pane, click Plan.</span></span>
-5. <span data-ttu-id="0cc37-111">انقر فوق "موازنة المشروع".</span><span class="sxs-lookup"><span data-stu-id="0cc37-111">Click Project budget.</span></span>
-6. <span data-ttu-id="0cc37-112">انقر فوق "مراجعة جديدة".</span><span class="sxs-lookup"><span data-stu-id="0cc37-112">Click New revision.</span></span>
-7. <span data-ttu-id="0cc37-113">قم بتوسيع قسم "التكاليف".</span><span class="sxs-lookup"><span data-stu-id="0cc37-113">Expand the Costs section.</span></span>
-8. <span data-ttu-id="0cc37-114">في حقل "مبلغ المراجعة"‬، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="0cc37-114">In the Revision amount field, enter a number.</span></span>
-9. <span data-ttu-id="0cc37-115">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="0cc37-115">Click Save.</span></span>
-10. <span data-ttu-id="0cc37-116">انقر فوق "سير العمل".</span><span class="sxs-lookup"><span data-stu-id="0cc37-116">Click Workflow.</span></span>
-11. <span data-ttu-id="0cc37-117">انقر فوق تقديم.</span><span class="sxs-lookup"><span data-stu-id="0cc37-117">Click Submit.</span></span>
-12. <span data-ttu-id="0cc37-118">في الحقل "التعليق"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="0cc37-118">In the Comment field, type a value.</span></span>
-13. <span data-ttu-id="0cc37-119">انقر فوق تقديم.</span><span class="sxs-lookup"><span data-stu-id="0cc37-119">Click Submit.</span></span>
+1. <span data-ttu-id="dcdbe-107">انتقل إلى إدارة المشاريع والمحاسبة > المشاريع > جميع المشاريع.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-107">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="dcdbe-108">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="dcdbe-109">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="dcdbe-110">في جزء "الإجراءات"، انقر فوق "خطة".</span><span class="sxs-lookup"><span data-stu-id="dcdbe-110">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="dcdbe-111">انقر فوق "موازنة المشروع".</span><span class="sxs-lookup"><span data-stu-id="dcdbe-111">Click Project budget.</span></span>
+6. <span data-ttu-id="dcdbe-112">انقر فوق "مراجعة جديدة".</span><span class="sxs-lookup"><span data-stu-id="dcdbe-112">Click New revision.</span></span>
+7. <span data-ttu-id="dcdbe-113">قم بتوسيع قسم "التكاليف".</span><span class="sxs-lookup"><span data-stu-id="dcdbe-113">Expand the Costs section.</span></span>
+8. <span data-ttu-id="dcdbe-114">في حقل "مبلغ المراجعة"‬، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-114">In the Revision amount field, enter a number.</span></span>
+9. <span data-ttu-id="dcdbe-115">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="dcdbe-115">Click Save.</span></span>
+10. <span data-ttu-id="dcdbe-116">انقر فوق "سير العمل".</span><span class="sxs-lookup"><span data-stu-id="dcdbe-116">Click Workflow.</span></span>
+11. <span data-ttu-id="dcdbe-117">انقر فوق تقديم.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-117">Click Submit.</span></span>
+12. <span data-ttu-id="dcdbe-118">في الحقل "التعليق"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-118">In the Comment field, type a value.</span></span>
+13. <span data-ttu-id="dcdbe-119">انقر فوق تقديم.</span><span class="sxs-lookup"><span data-stu-id="dcdbe-119">Click Submit.</span></span>
 
