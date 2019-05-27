@@ -3,7 +3,7 @@ title: مزامنة أوامر المبيعات مباشرةً بين Finance an
 description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً من Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339109"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539104"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
 
@@ -146,6 +146,16 @@ ms.locfileid: "339109"
 ### <a name="setup-in-finance-and-operations"></a>الإعداد في Finance and Operations
 
 - انتقل إلى **المبيعات والتسويق**&gt;**المهام الدورية**&gt;**حساب إجماليات المبيعات**، وعيِّن الوظيفة لتشغيلها كوظيفة دُفعة. عيّن الخيار **‏‫حساب إجماليات أوامر المبيعات‬** إلى **نعم**. ‏‫تعد هذه الخطوة هامة لأن أوامر المبيعات التي تم حساب إجماليات المبيعات‬ فيها هي فقط أوامر المبيعات التي ستتم مزامنتها إلى Sales. يجب أن يكون مدى تكرار وظيفة الدُفعة متوافقًا مع مدى تكرار مزامنة أوامر المبيعات.
+
+إذا كنت تستخدم أيضًا تكامل أمر العمل، ستحتاج إلى اعداد أصل المبيعات. يتم استخدام أصل المبيعات للتمييز أوامر المبيعات في Finance and Operations التي تم إنشاؤها من أوامر العمل في Field Service. عندما يشتمل أمر مبيعات على أصل مبيعات من نوع **تكامل أمر العمل**، يظهر حقل **حالة أمر العمل الخارجي** في عنوان أمر المبيعات. بالإضافة إلى ذلك، يضمن أصل المبيعات تصفية أوامر المبيعات التي تم إنشاؤها من أوامر العمل في Field Service أثناء مزامنة أوامر المبيعات من Finance and Operations إلى Field Service.
+
+1. انتقل إلى **المبيعات والتسويق** \> **الإعداد** \> **أوامر المبيعات** \> **أصل المبيعات**.
+2. حدد **جديد** لإنشاء أصل مبيعات جديد.
+3. في حقل **أصل المبيعات**، أدخل اسمًا لأصل المبيعات، مثل **SalesOrder**.
+4. في حقل **الوصف**، أدخل وصفاً، مثل **أمر مبيعات من Sales‎**.
+5. حدد خانة الاختيار **مهمة نوع الأصل**.
+6. قم بتعيين حقل **نوع أصل المبيعات** إلى **تكامل أمر المبيعات**.
+7. حدد **حفظ**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>الإعداد في مشروع تكامل البيانات: أوامر المبيعات (Sales إلى Fin and Ops)‬ - مباشر
 

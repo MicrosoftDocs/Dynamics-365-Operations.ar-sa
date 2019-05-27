@@ -20,11 +20,11 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327632"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572070"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>تثبيت مصمم تخطيط نقطة البيع (POS)‬ بالتجزئة
 
@@ -36,7 +36,7 @@ ms.locfileid: "327632"
 
 ## <a name="install-the-one-click-designer"></a>تثبيت المصمم بنقرة واحدة
 
-1. في Microsoft Dynamics 365 for Retail، استخدم القائمة في الجزء العلوي الأيمن للانتقال إلى **البيع بالتجزئة** **والتجارة‏‎** &gt; **إعداد القناة‏‎</strong>‎‏** &gt; **إعداد نقطة البيع** &gt; **نقطة البيع** &gt; **تخطيطات الشاشة**.
+1. في Microsoft Dynamics 365 for Retail، استخدم القائمة في الجزء العلوي الأيمن للانتقال إلى **البيع بالتجزئة** **والتجارة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **نقطة البيع** &gt; **تخطيطات الشاشة**.
 2. حدد أي تخطيط يحتوي على تطبيق من نوع **نقطة البيع الحديثة لـ Windows** أو **نقطة بيع المجموعة‬**، ثم انقر فوق **مصمم التخطيط**.
 3. في شريط الإعلام الذي يظهر أسفل نافذة Internet Explorer، انقر فوق **فتح** لبدء تثبيت المصمم بنقرة واحدة. (قد يظهر شريط الإعلام في مكان مختلف في مستعرضات أخرى).
 4. في مربع الرسالة الذي يظهر **"تشغيل التطبيق - تحذير أمان**, انقر فوق **تشغيل**لتثبيت مضيف مصمم البيع بالتجزئة. يُظهر مؤشر التقدم تقدم عملية التثبيت.

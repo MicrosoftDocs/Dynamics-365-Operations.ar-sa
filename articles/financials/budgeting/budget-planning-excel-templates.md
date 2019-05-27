@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "337039"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568954"
 ---
 # <a name="budget-planning-templates-for-excel"></a>قوالب تخطيط الموازنة لـ Excel
 
@@ -31,7 +31,7 @@ ms.locfileid: "337039"
 
 يوضح هذا الموضوع كيفية إنشاء قوالب Microsoft Excel التي يمكن استخدامها مع خطط الموازنة.
 
-يوضح هذا الموضوع كيفية إنشاء قوالب Microsoft Excel التي سيتم استخدامها مع خطط الموازنة باستخدام مجموعة بيانات العرض التقديمي القياسية وتسجيل دخول مستخدم "المسؤول". لمزيد من المعلومات حول تخطيط الموازنة، راجع [نظرة عامة حول تخطيط الموازنة.](budget-planning-overview-configuration.md) يمكنك أيضًا متابعة البرنامج التعليمي [تخطيط الموازنة 101](budget-plan.md) لمعرفة تكوين الوحدة الأساسية ومبادئ الاستخدام.
+يوضح هذا الموضوع كيفية إنشاء قوالب Excel التي سيتم استخدامها مع خطط الموازنة باستخدام مجموعة بيانات العرض التقديمي القياسية وتسجيل دخول مستخدم "المسؤول". لمزيد من المعلومات حول تخطيط الموازنة، راجع [نظرة عامة حول تخطيط الموازنة.](budget-planning-overview-configuration.md) يمكنك أيضًا متابعة البرنامج التعليمي [تخطيط الموازنة 101](budget-plan.md) لمعرفة تكوين الوحدة الأساسية ومبادئ الاستخدام.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>إنشاء ورقة عمل باستخدام تخطيط مستند خطة الموازنة
 

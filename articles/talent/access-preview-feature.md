@@ -1,12 +1,12 @@
 ---
 title: الوصول إلى ميزات المعاينة في Talent
 description: يصف هذا الموضوع كيف يمكن لمسؤول تمكين الميزات المعاينة، ويسرد الميزات التي يجري تمكينها حاليا للمعاينة.
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856314"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517278"
 ---
 # <a name="access-preview-features-in-talent"></a>الوصول إلى ميزات المعاينة في Talent
 
@@ -72,6 +72,7 @@ ms.locfileid: "856314"
 
 - **تقديم المرشح** -يمكن الآن لكل من المرشحين الداخليين والخارجيين التقديم مباشرة من صفحة "الوظيفة" على موقع الوظيفة.
 - **إدارة العرض** -يمكن للمستخدمين الآن إنشاء أحرف عرض من القوالب التي تحتوي على العناصر النائبة. مع تقدم المرشحين إلى مرحلة العرض، يمكن لمسؤولى التعيين ومديري التوظيف استخدام أداة العرض لإعداد عرض رسمي لمرشح من خلال القوالب، وإرسال العرض للحصول على الموافقة الداخلية، وأخيراً إرسال العرض للمرشح للتوقيع. ستتم إضافة العديد من الإمكانات الجديدة لأداة العرض بمرور الوقت، وسيتم تحديث ميزة معاينة باستخدام هذه الإمكانات حين نصبح مستعدين لإصدارها للمعاينة.
+- **[التقارير التحليلية](analytic-reports.md)** – يمكن لفرق التوظيف عرض المقاييس الأساسية لوظيفة واحدة بواسطة تحليلات الوظيفة‬ أو المقاييس المجمعة عبر كافة الوظائف في مركز التحليلات.
 
 ### <a name="core-hr"></a>الموارد البشرية الأساسية
 
