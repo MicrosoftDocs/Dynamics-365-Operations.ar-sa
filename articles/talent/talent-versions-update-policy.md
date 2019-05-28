@@ -3,7 +3,7 @@ title: متطلبات النظام وسياسة التحديث في Talent
 description: يسرد هذا الموضوع متطلبات Dynamics 365 for Talent. وقد تم أيضًا توضيح سياسة التحديث.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2389f00b22ec3b5284eeffb2c015533b7a3d13e0
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856291"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517251"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>متطلبات النظام وسياسة التحديث في Talent
 
 [!include [banner](includes/banner.md)]
 
-يسرد هذا الموضوع متطلبات Microsoft Dynamics 365 for Talent. وقد تم أيضًا توضيح سياسة التحديث.
+يصف هذا الموضوع متطلبات Microsoft Dynamics 365 for Talent، بما في ذلك Attract وOnboard وCore HR. كما يوضح البلدان والمناطق التي يتوفر فيها Talent، بالإضافة إلى معلومات حول لغات وترجمة بيانات Talent. علاوةً على ذلك، يوفر هذا الموضوع سياسة تحديث Talent.
 
 ## <a name="supported-web-browsers"></a>مستعرضات الويب المدعومة
 
@@ -57,8 +57,17 @@ ms.locfileid: "856291"
 * لتثبيت الوظائف الإضافية لكل من Microsoft Excel وWord، يجب أن يكون Microsoft Office 2016 for Windows أو Mac مثبتًا على جهازك. للحصول على مزيد من التفاصيل حول متطلبات الإصدار، راجع [استكشاف أخطاء تكامل Office‏ وإصلاحها](../dev-itpro/office-integration/office-integration-troubleshooting.md "استكشاف أخطاء تكامل Office‏ وإصلاحها").
 * لعرض المستندات التي تم إنشاؤها بواسطة وظيفة التصدير إلى Word أو التصدير إلى Excel، يجب عليك تثبيت Microsoft Office 2007 أو إصدار لاحق.
 
+## <a name="regional-availability-languages-and-localization"></a>التوافر الإقليمي واللغات والترجمة
+
+يمكنك تنزيل ملف PDF للبلدان والمناطق واللغات التي تدعم Talent في [التوافر الدولي لتطبيق Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability). 
+
+> [!NOTE]
+> وعلى الرغم من ترجمة واجهة المستخدم إلى لغات أخرى، يتم تخزين كافة بيانات المستخدم باللغة التي تم إدخالها بها. يمكنك إنشاء رسائل البريد الكتروني والقوالب بلغات أخرىـ ولكن بعض البيانات مثل معلومات الجدولة لا تتوفر حاليًا إلا باللغة الإنجليزية.
+
+إذا كنت مطور برامج تهتم بإنشاء تخصيصات خاصة ببلد أو منطقة، أو في إنشاء حل لبلد أو منطقة لا تدعمها حاليًا Microsoft، فراجع [العولمة](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+
 ## <a name="update-policy"></a>سياسة التحديث
 
 يتم تقديم الخدمات لتطبيق Microsoft Dynamics 365 for Talent في إطار عرض سحابي. تعتبر تحديثات Dynamics 365 for Talent متواصلة ومطبقة بشكل تلقائي بواسطة Microsoft.
 
-يتم إصدار التحديثات في وتيرة منتظمة، وستخضع جميع البيئات لعمليات التحديث.  يتم دعم Dynamics 365 for Talent تماشيًا مع [دورة حياة دعم Microsoft](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "دورة حياة دعم Microsoft")، التي توفر إرشادات متناسقة ومتوقعة لتوفر دعم المنتج.
+يتم إصدار التحديثات في وتيرة منتظمة وستتم في جميع البيئات. يتم دعم Dynamics 365 for Talent تماشيًا مع [دورة حياة دعم Microsoft](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "دورة حياة دعم Microsoft")، التي توفر إرشادات متناسقة ومتوقعة لتوفر دعم المنتج.

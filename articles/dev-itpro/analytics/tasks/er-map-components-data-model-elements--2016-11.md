@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323538"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544324"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>التقارير الإلكترونية - تعيين مكونات التنسيق المنشأ إلى عناصر نموذج البيانات (نوفمبر 2016)
 

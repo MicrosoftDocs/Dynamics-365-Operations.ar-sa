@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
-ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "902832"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1504092"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>الصفحة الرئيسية للمعلومات المهنية (BI) وإعداد التقارير
 
@@ -61,15 +61,15 @@ ms.locfileid: "902832"
 - [الطباعة في تطبيقات Finance and Operations](print-documents.md)
 - [تثبيت "وكيل توجيه المستند" لتمكين أجهزة الطابعات على الشبكة](install-document-routing-agent.md)
 
-## <a name="electronic-reporting"></a>إعداد التقارير الإلكتروني
-إعداد التقارير الإلكتروني (ER) عبارة عن الأداة التي تستخدمها لتكوين تنسيقات المستندات الإلكترونية التي تتوافق مع المتطلبات القانونية لمختلف البلدان أو المناطق. تتضمن تطبيقات إعداد التقارير الإلكتروني المراجعة المالية، وإعداد تقارير الضرائب، والفوترة الإلكترونية.
+## <a name="electronic-reporting"></a>إعداد التقارير الإلكترونية
+إعداد التقارير الإلكترونية (ER) عبارة عن الأداة التي تستخدمها لتكوين تنسيقات المستندات الإلكترونية التي تتوافق مع المتطلبات القانونية لمختلف البلدان أو المناطق. تتضمن تطبيقات إعداد التقارير الإلكترونية المراجعة المالية، وإعداد تقارير الضرائب، والفوترة الإلكترونية.
 
-[![مثال لإعداد التقارير الإلكتروني](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![مثال لإعداد التقارير الإلكترونية](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 لمعرفة المزيد، راجع المواضيع التالية:
 
-- [نظرة عامة على إعداد التقارير الإلكتروني](general-electronic-reporting.md)
-- [إدارة دورة حياة تكوين إعداد التقارير الإلكتروني](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [نظرة عامة على إعداد التقارير الإلكترونية](general-electronic-reporting.md)
+- [إدارة دورة حياة تكوين إعداد التقارير الإلكترونية](general-electronic-reporting-manage-configuration-lifecycle.md)
 - [إنشاء تكوين إعداد تقارير إلكتروني](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>التقارير المالية

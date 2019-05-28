@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321721"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545452"
 ---
 # <a name="europe"></a>أوروبا 
 
@@ -32,7 +32,7 @@ ms.locfileid: "321721"
  - [حركات أصحاب السُلف](emea-advance-holders-transactions.md)
  - [دفع مقدم لموظف (‏‫أوروبا الشرقية‬)](tasks/advance-payment-employee.md)
 - [فوترة متقدمة](emea-advance-invoice.md)
-- [تسوية البنك](emea-bank-reconciliation.md)
+- [تسوية بنكية](emea-bank-reconciliation.md)
 - [فوترة تصحيحية](emea-corrective-invoice.md)
 - [إنشاء وترحيل دفاتر اليومية الدورية​](emea-create-post-periodic-journals.md)
 - [إنشاء مدفوعات لعميل لديه ‏‫تفويضات الخصم المباشر‬](tasks/create-payments-customers-who-have-direct-debit-mandates.md)
@@ -90,7 +90,7 @@ ms.locfileid: "321721"
   - [أسعار صرف ضريبة القيمة المضافة](emea-vat-exchange-rate.md)
   - [تقرير التسوية ضريبة القيمة المضافة](tasks/eur-00018-vat-reconciliation-report.md)
   - [حركات سجل ضريبة القيمة المضافة لأوروبا الشرقية​](emea-vat-register-transactions.md)
-  - [تقارير ضريبة القيمة المضافة](emea-vat-reporting.md)
+  - [إصدار تقارير VAT](emea-vat-reporting.md)
   - [إنشاء تقرير ضريبة القيمة المضافة وإرساله](tasks/create-submit-vat-report.md)
   - [عرض الحركات عن التسوية](emea-transactions-settlement-form.md)
 

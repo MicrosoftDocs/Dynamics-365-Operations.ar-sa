@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316109"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559176"
 ---
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations &#8211; التخزين
 
@@ -40,7 +40,7 @@ ms.locfileid: "316109"
 إن Finance and Operations - التخزين عبارة عن تطبيق يتوفر على Google Play Store ومتجر Windows. بالنسبة إلى الإصدار الحالي من Finance and Operations، يتوفر هذا التطبيق كمكون مستقل، مما يعني النشر الذاتي على الأجهزة المستخدمة لمهام المستودع. لاستخدام التطبيق في بيئة Finance and Operations، يجب تنزيل التطبيق على كل جهاز وتكوينه للاتصال ببيئة Finance and Operations. يصف هذا الموضوع كيفية تثبيت التطبيق على الأجهزة. وهو يوضح أيضًا كيفية تكوين التطبيق للاتصال ببيئة Finance and Operations.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-يتوفر التطبيق على أنظمة تشغيل Windows وAndroid. لاستخدام هذا التطبيق، يجب أن يكون أحد أنظمة التشغيل التالية المعتمدة مثبتة على أجهزتك. ويجب أن يتوفر لديك أيضًا أحد الإصدارات المعتمدة التالية من Finance and Operations. استخدم المعلومات في الجدول التالي لتقييم جهوزية بيئة الأجهزة والبرامج لديك لدعم عملية التثبيت.
+يتوفر التطبيق على أنظمة تشغيل Android وWindows. لاستخدام هذا التطبيق، يجب أن يكون أحد أنظمة التشغيل التالية المعتمدة مثبتة على أجهزتك. ويجب أن يتوفر لديك أيضًا أحد الإصدارات المعتمدة التالية من Finance and Operations. استخدم المعلومات في الجدول التالي لتقييم جهوزية بيئة الأجهزة والبرامج لديك لدعم عملية التثبيت.
 
 | النظام الأساسي                    | الإصدار                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350011"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546699"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>تعاون المورد مع موردين خارجيين
 
@@ -34,7 +34,7 @@ ms.locfileid: "350011"
 لمزيد من المعلومات حول الأمور التي يمكن للموردين الخارجيين القيام بها في واجهة تعاون المورد، راجع [تعاون المورد مع العملاء](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> تنطبق المعلومات الخاصة بتعاون المورّد‬ في هذا الموضوع على الإصدار الحالي من Dynamics 365 for Finance and Operations. في الإصدار 7.0 من Microsoft Dynamics AX 7.0 (فبراير 2016) والإصدار 7.0.1 من التطبيق Microsoft Dynamics AX 7.0.1 (مايو 2016)، يمكنك التعاون مع المورّدين باستخدام الوحدة النمطية **مدخل المورِّد**. لمزيد من المعلومات حول الوحدة النمطية **مدخل المورد**، راجع [التعاون مع الموردين باستخدام مدخل المورد على الإنترنت](collaborate-vendors-vendor-portal.md).
+> تنطبق المعلومات الخاصة بتعاون المورّد‬ في هذا الموضوع على الإصدار الحالي من Finance and Operations. في الإصدار 7.0 من Microsoft Dynamics AX 7.0 (فبراير 2016) والإصدار 7.0.1 من التطبيق Microsoft Dynamics AX 7.0.1 (مايو 2016)، يمكنك التعاون مع المورّدين باستخدام الوحدة النمطية **مدخل المورِّد**. لمزيد من المعلومات حول الوحدة النمطية **مدخل المورد**، راجع [التعاون مع الموردين باستخدام مدخل المورد على الإنترنت](collaborate-vendors-vendor-portal.md).
 
 لمزيد من المعلومات حول كيفية استخدام الموردين واجهة تعاون الموردين في عمليات الفوترة، راجع [مساحة عمل فوترة تعاون المورد](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). لمزيد من المعلومات حول كيفية توفير مستخدمين جدد لتعاون المورد، راجع [إدارة مستخدمي تعاون المورد](manage-vendor-collaboration-users.md).
 

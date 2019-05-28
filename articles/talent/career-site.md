@@ -19,11 +19,11 @@ ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
-ms.sourcegitcommit: 063a9296e645e0da182241941869d8102954540a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "898921"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517281"
 ---
 # <a name="career-site-functionality-in-attract"></a>وظيفة موقع الوظائف في Attract
 
@@ -128,7 +128,7 @@ ms.locfileid: "898921"
 1. سجل دخولك إلى Attract كمسؤول.
 2. حدد زر **الإعدادات** (رمز الترس) في الزاوية العلوية اليسرى من الصفحة، ثم حدد **مركز الإدارة**.
 3. حدد علامة التبويب **تكامل LinkedIn** واتصال بحساب LinkedIn Recruiter.
-4. في القسم **تكاملLinkedIn Recruiter System Connect**، حدد **ممكّن‏‎** للإعداد **التقدم بطلب عبر LinkedIn**.
+4. في القسم **تكامل LinkedIn Recruiter System Connect**، حدد **ممكّن‏‎‏‎** للإعداد **التقدم بطلب عبر LinkedIn**.
 
 بعد بتمكين هذا الإعداد، بإمكان المرشحين التقدم بطلب التوظيف عبر بيانات ملف تعريف LinkedIn الموجود. عندما يتقدم المرشحون بطلب الحصول على الوظيفة باختيار الزر **التقدم بطلب عبر LinkedIn**، ستتم مطالبتهم بالمصادقة مع LinkedIn في حال لم يسجلوا دخولهم بعد. بعد إتمام المصادقة، سيحل ملف تعريفهم في LinkedIn مكان أي بيانات ملف تعريف موجود يظهر في صفحة استمارة التقديم. بإمكان المرشحين تحرير المعلومات كما تقتضي الحاجة ثم إرسا استمارة التقديم. إذا ابتعد المرشح عن الصفحة من دون التقدم بطلب الحصول على الوظيفة، فلن يتم تحديث بيانات ملف تعريفه في Attract.
 

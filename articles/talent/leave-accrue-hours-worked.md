@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8589527f75f48c16244c93c3fdbe3ce7fcd4e366
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856889"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517225"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>وقت التوقف المستحق بناءً على ساعات العمل
 

@@ -18,11 +18,11 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 2fe06978d3a1c41a1133a568cca61df05b49d235
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "352748"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572409"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>تكوين فوترة المشروع بين الشركات الشقيقة
 

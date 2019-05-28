@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327931"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554749"
 ---
 # <a name="financial-dimensions-and-posting"></a>الأبعاد المالية والترحيل 
 

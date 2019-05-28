@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b46b95a10d257c56fdf20b016fbb598225d1f930
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301871"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1516989"
 ---
 # <a name="supply-chain-management-home-page"></a>الصفحة الرئيسية لإدارة سلسة التوريد
 
@@ -59,7 +59,7 @@ ms.locfileid: "301871"
 تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ديسمبر 2017).
 
 -  [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg) 
--  [مرشد تحسين الأداء](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [مرشد التحسين‬](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [استخدام قالب المستودع لنسخ التكوين](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017).

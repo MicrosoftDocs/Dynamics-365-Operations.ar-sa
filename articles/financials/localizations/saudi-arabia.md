@@ -16,12 +16,12 @@ ms.search.region: Saudi Arabia
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0ecda670034129a64184a2fee0ee822da1b026d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fd9dd8c56a866c4c0a6575dfa66cfc785db9521c
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370056"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537620"
 ---
 # <a name="saudi-arabia"></a>المملكة العربية السعودية‬ 
 

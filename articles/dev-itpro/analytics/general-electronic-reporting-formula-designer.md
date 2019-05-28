@@ -3,7 +3,7 @@ title: مصمم المعادلات في التقارير الإلكترونية
 description: يشرح هذا الموضوع كيفية استخدام مصمم المعادلة في التقارير الإلكترونية.
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331266"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541258"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>مصمم المعادلات في التقارير الإلكترونية
 
@@ -439,6 +439,11 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>FILTER (قائمة، شرط)</td>
 <td>إرجاع القائمة المحددة بعد أن تم تعديل الاستعلام لتصفيته وفقًا للشرط المحدد. تختلف هذه الدالة عن الدالة <strong>WHERE</strong> لأنه يتم تطبيق الشرط المحدد على أي من مصادر بيانات التقارير الإلكترونية لنوع <strong>سجلات الجداول</strong> على مستوى قاعدة البيانات. يمكن تحديد القائمة والشرط باستخدام الجداول والعلاقات.</td>
 <td>إذا تم تكوين <strong>Vendor</strong> كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، تُرجع <strong>FILTER (Vendors, Vendors.VendGroup =&quot;40&quot;)</strong> قائمة المورّدين التي تنتمي إلى مجموعة الموردين 40. إذا تم تكوين <strong>المورّد</strong> إذا تم تكوين المورد كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable وإذا تم تكوين <strong>parmVendorBankGroup</strong> كمصدر بيانات القيمة الموجودة في نوع بيانات تقارير إلكترونية يُرجع نوع بيانات القيمة <strong>String</strong>، فإن <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> تُرجع قائمة بحسابات المورّدين الذين ينتمون إلى مجموعة بنكية محددة.</td>
+</tr>
+<tr>
+<td>INDEX (قائمة، فهرس)</td>
+<td>تقوم هذه الدالة بإرجاع سجل يتم تحديده بواسطة فهرس رقمي معين في القائمة. يتم طرح استثناء إذا كان الفهرس خارج نطاق السجلات في القائمة.</td>
+<td>إذا أدخلت مصدر البيانات <strong>DS</strong> للنوع <strong>حقل محتسب</strong> وكان يحتوي على التعبير <strong>SPLIT ("A|B|C", “|”), 2)</strong>، فسيرجع التعبير <strong>DS.Value</strong> القيمة النصية “B”. يُرجع أيضًا التعبير <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> القيمة النصية “B”.</td>
 </tr>
 </tbody>
 </table>
