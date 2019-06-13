@@ -1,118 +1,204 @@
----
-title: الصفحة الرئيسية لإدارة سلسة التوريد
-description: توفر هذه الصفحة قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 05/09/2018
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: ''
-ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
-ms.search.region: global
-ms.search.industry: ''
-ms.author: shylaw
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b46b95a10d257c56fdf20b016fbb598225d1f930
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516989"
----
-# <a name="supply-chain-management-home-page"></a><span data-ttu-id="abbc8-103">الصفحة الرئيسية لإدارة سلسة التوريد</span><span class="sxs-lookup"><span data-stu-id="abbc8-103">Supply chain management home page</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="abbc8-104">يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="abbc8-104">This topic provides a list of the help topics and other resources for the supply chain management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
-
-## <a name="whats-new-and-in-development"></a><span data-ttu-id="abbc8-105">ما الجديد وقيد التطوير</span><span class="sxs-lookup"><span data-stu-id="abbc8-105">What's new and in development</span></span>
-<span data-ttu-id="abbc8-106">انتقل إلى <a href="https://roadmap.dynamics.com/">خارطة طريق Dynamics 365</a> للتعرّف على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.</span><span class="sxs-lookup"><span data-stu-id="abbc8-106">Go to the <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> to see what new features are released and what new features are in development.</span></span> 
-
-## <a name="core-concepts-and-tasks"></a><span data-ttu-id="abbc8-107">المفاهيم الأساسية والمهام</span><span class="sxs-lookup"><span data-stu-id="abbc8-107">Core concepts and tasks</span></span>
-
-<span data-ttu-id="abbc8-108">حدد منطقة ميزة لمعرفة المزيد عنها.</span><span class="sxs-lookup"><span data-stu-id="abbc8-108">Select a feature area to learn more about it.</span></span>
-
-- [<span data-ttu-id="abbc8-109">محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="abbc8-109">Cost accounting</span></span>](../financials/cost-accounting/cost-accounting-home-page.md)
-- [<span data-ttu-id="abbc8-110">إدارة التكلفة</span><span class="sxs-lookup"><span data-stu-id="abbc8-110">Cost management</span></span>](cost-management/cost-management-home-page.md)  
-- [<span data-ttu-id="abbc8-111">إدارة المخزون</span><span class="sxs-lookup"><span data-stu-id="abbc8-111">Inventory management</span></span>](inventory/inventory-home-page.md)
-- [<span data-ttu-id="abbc8-112">التخطيط الرئيسي</span><span class="sxs-lookup"><span data-stu-id="abbc8-112">Master planning</span></span>](master-planning/master-planning-home-page.md)
-- [<span data-ttu-id="abbc8-113">التدبير والتوريد</span><span class="sxs-lookup"><span data-stu-id="abbc8-113">Procurement and sourcing</span></span>](procurement/procurement-sourcing-overview.md)
-- [<span data-ttu-id="abbc8-114">إدارة معلومات المنتج</span><span class="sxs-lookup"><span data-stu-id="abbc8-114">Product information management</span></span>](pim/product-information.md)
-- [<span data-ttu-id="abbc8-115">التحكم بالإنتاج</span><span class="sxs-lookup"><span data-stu-id="abbc8-115">Production control</span></span>](production-control/production-process-overview.md)
-- [<span data-ttu-id="abbc8-116">المبيعات والتسويق</span><span class="sxs-lookup"><span data-stu-id="abbc8-116">Sales and marketing</span></span>](sales-marketing/overview-sales-marketing.md)
-- [<span data-ttu-id="abbc8-117">إدارة الخدمة</span><span class="sxs-lookup"><span data-stu-id="abbc8-117">Service management</span></span>](service-management/service-management-home-page.md)
-- [<span data-ttu-id="abbc8-118">إدارة النقل</span><span class="sxs-lookup"><span data-stu-id="abbc8-118">Transportation management</span></span>](transportation/transportation-management-overview.md)
-- [<span data-ttu-id="abbc8-119">إدارة المستودعات</span><span class="sxs-lookup"><span data-stu-id="abbc8-119">Warehouse management</span></span>](warehousing/warehouse-configuration.md)
-
-## <a name="videos"></a><span data-ttu-id="abbc8-120">مقاطع فيديو</span><span class="sxs-lookup"><span data-stu-id="abbc8-120">Videos</span></span>
-
-<span data-ttu-id="abbc8-121">تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations الإصدار 8.0 (أبريل 2018).</span><span class="sxs-lookup"><span data-stu-id="abbc8-121">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations version 8.0 (April 2018).</span></span>
-
-- [<span data-ttu-id="abbc8-122">مزامنة أمر عمل بين Field Service وFinance and Operations</span><span class="sxs-lookup"><span data-stu-id="abbc8-122">Synchronize a work order between Field Service and Finance and Operations</span></span>](https://youtu.be/hAB4TDVMjxU)
-
-<span data-ttu-id="abbc8-123">تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ديسمبر 2017).</span><span class="sxs-lookup"><span data-stu-id="abbc8-123">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (December 2017).</span></span>
-
--  [<span data-ttu-id="abbc8-124">تكامل العميل المتوقع إلى النقدية</span><span class="sxs-lookup"><span data-stu-id="abbc8-124">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg) 
--  [<span data-ttu-id="abbc8-125">مرشد التحسين‬</span><span class="sxs-lookup"><span data-stu-id="abbc8-125">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
--  [<span data-ttu-id="abbc8-126">استخدام قالب المستودع لنسخ التكوين</span><span class="sxs-lookup"><span data-stu-id="abbc8-126">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
-
-<span data-ttu-id="abbc8-127">تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017).</span><span class="sxs-lookup"><span data-stu-id="abbc8-127">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</span></span>
-
--  [<span data-ttu-id="abbc8-128">بدء ‏‫محاسبة التكاليف‬</span><span class="sxs-lookup"><span data-stu-id="abbc8-128">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
--  [<span data-ttu-id="abbc8-129">مساحة العمل المحمولة لمراقبة التكلفة</span><span class="sxs-lookup"><span data-stu-id="abbc8-129">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
--  [<span data-ttu-id="abbc8-130">استخدام Excel لتحليل التكلفة</span><span class="sxs-lookup"><span data-stu-id="abbc8-130">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
--  [<span data-ttu-id="abbc8-131">الموافقة على أوامر الشراء على جهاز محمول</span><span class="sxs-lookup"><span data-stu-id="abbc8-131">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
--  [<span data-ttu-id="abbc8-132">الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدُفعية</span><span class="sxs-lookup"><span data-stu-id="abbc8-132">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
-
-<span data-ttu-id="abbc8-133">تناقش تسجيلات المؤتمرات التقنية هذه وظائف المنتج في الإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.</span><span class="sxs-lookup"><span data-stu-id="abbc8-133">These tech conference recordings discuss product functionality in the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</span></span> 
-
-<span data-ttu-id="abbc8-134">**إدارة التكلفة**</span><span class="sxs-lookup"><span data-stu-id="abbc8-134">**Cost management**</span></span>
-
--  [<span data-ttu-id="abbc8-135">نظرة عامة على إدارة التكلفة</span><span class="sxs-lookup"><span data-stu-id="abbc8-135">Overview of Cost management</span></span>](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
-
-<span data-ttu-id="abbc8-136">**التخطيط الرئيسي**</span><span class="sxs-lookup"><span data-stu-id="abbc8-136">**Master planning**</span></span>
-
--  [<span data-ttu-id="abbc8-137">توسيع وظيفة التنبؤ بالطلب</span><span class="sxs-lookup"><span data-stu-id="abbc8-137">Extend the demand forecasting functionality</span></span>](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
--  [<span data-ttu-id="abbc8-138">التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها</span><span class="sxs-lookup"><span data-stu-id="abbc8-138">Master planning - tips and tricks for troubleshooting performance</span></span>](https://youtu.be/7v8BPmEs9Dg)
--  [<span data-ttu-id="abbc8-139">المساعدة! التخطيط الرئيسي (MRP) بطيء!</span><span class="sxs-lookup"><span data-stu-id="abbc8-139">Help! MRP is slow!</span></span>](https://youtu.be/RLXybx20B5o)
-
-<span data-ttu-id="abbc8-140">**إدارة معلومات المنتج**</span><span class="sxs-lookup"><span data-stu-id="abbc8-140">**Product information management**</span></span>
-
--  [<span data-ttu-id="abbc8-141">مكون المنتج في Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="abbc8-141">Product configurator in Microsoft Dynamics AX</span></span>](https://youtu.be/zotrj3SbCl4)
-
-<span data-ttu-id="abbc8-142">**إدارة المستودعات**</span><span class="sxs-lookup"><span data-stu-id="abbc8-142">**Warehouse management**</span></span> 
-
-<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
--  [<span data-ttu-id="abbc8-143">تحقيق أقصى استفادة من نظام إدارة المستودعات</span><span class="sxs-lookup"><span data-stu-id="abbc8-143">Get the best out of your warehouse management system</span></span>](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
--  [<span data-ttu-id="abbc8-144">إدارة المستودعات المتقدمة R3 - معالجة الوارد و‏‫الحد الأدنى/الحد الأقصى لعملية التزويد‬</span><span class="sxs-lookup"><span data-stu-id="abbc8-144">Advanced R3 Warehouse management - Inbound processing and min/max replenishment</span></span>](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
--  [<span data-ttu-id="abbc8-145">إدارة المستودعات المتقدمة R3 - يوم من الحياة، معالجة الصادر وتزويد الطلب</span><span class="sxs-lookup"><span data-stu-id="abbc8-145">Advanced R3 Warehouse management - A day in the life, outbound processing and demand Replenishment</span></span>](https://youtu.be/Og0gLlVp7jA)
--  [<span data-ttu-id="abbc8-146">التسميات في إدارة المستودعات في Microsoft Dynamics AX 2012 R3 الجديد</span><span class="sxs-lookup"><span data-stu-id="abbc8-146">Labels in the new Microsoft Dynamics AX 2012 R3 Warehouse management</span></span>](https://youtu.be/5w1MngVchBA)
--  [<span data-ttu-id="abbc8-147">Dynamics AX 2012 R3: إدارة المستودعات المتقدمة - يوم في حياة التصنيع التحويلي</span><span class="sxs-lookup"><span data-stu-id="abbc8-147">Dynamics AX 2012 R3: Advanced warehouse management - A day in the life of process manufacturing</span></span>](https://www.youtube.com/embed/QUxXUrN-7n4)
-
-<span data-ttu-id="abbc8-148">**التحكم بالإنتاج**</span><span class="sxs-lookup"><span data-stu-id="abbc8-148">**Production control**</span></span>
-
--  [<span data-ttu-id="abbc8-149">عمليات وأنشطة التعاقد من الباطن في التصنيع</span><span class="sxs-lookup"><span data-stu-id="abbc8-149">Subcontracting operations and activities in manufacturing</span></span>](https://youtu.be/y1jrd3A_k70)
-
-<span data-ttu-id="abbc8-150">**إدارة النقل**</span><span class="sxs-lookup"><span data-stu-id="abbc8-150">**Transportation management**</span></span>
-
--  [<span data-ttu-id="abbc8-151">إدارة النقل (TMS) في Microsoft Dynamics AX الجديد</span><span class="sxs-lookup"><span data-stu-id="abbc8-151">Transportation management (TMS) in the new Microsoft Dynamics AX</span></span>](https://youtu.be/jgmTgJIgEFQ)
-
-## <a name="blogs"></a><span data-ttu-id="abbc8-152">المدونات</span><span class="sxs-lookup"><span data-stu-id="abbc8-152">Blogs</span></span>
-<span data-ttu-id="abbc8-153">هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد في <a href="https://blogs.msdn.microsoft.com/axmfg/">مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن التصنيع</a> و<a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن سلسلة التوريد</a>.</span><span class="sxs-lookup"><span data-stu-id="abbc8-153">There are many topics about manufacturing and supply chain management on the <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX Manufacturing R&D Team Blog</a> and <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management in Dynamics AX R&D Team Blog </a>.</span></span> <span data-ttu-id="abbc8-154">وقد تمت كتابة معظم هذه المنشورات للإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي.</span><span class="sxs-lookup"><span data-stu-id="abbc8-154">Most of these were written for the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</span></span> 
-
-## <a name="white-papers"></a><span data-ttu-id="abbc8-155">المستندات التقنية</span><span class="sxs-lookup"><span data-stu-id="abbc8-155">White papers</span></span>
--  <span data-ttu-id="abbc8-156"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">المختبرات المتاحة لمحاسبة التكاليف</a></span><span class="sxs-lookup"><span data-stu-id="abbc8-156"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Cost accounting hands-on labs</a></span></span> 
--  <span data-ttu-id="abbc8-157"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان</a></span><span class="sxs-lookup"><span data-stu-id="abbc8-157"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: Capable to promise and kanban job scheduling</a></span></span> 
--  <span data-ttu-id="abbc8-158"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">‏‫حساب قائمة مكونات الصنف (BOM) ‏‫باستخدام كشف التكاليف‬‏‫‬‬</a></span><span class="sxs-lookup"><span data-stu-id="abbc8-158"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">BOM calculation by using a costing sheet</a></span></span>
--  <span data-ttu-id="abbc8-159"><a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">سهولة إمكانية التنقل في المستودع من خلال Microsoft Dynamics 365 for Finance and Operations</a></span><span class="sxs-lookup"><span data-stu-id="abbc8-159"><a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobility in the Warehouse facilitated by Microsoft Dynamics 365 for Finance and Operations</a></span></span>
-
-## <a name="elearning-courses"></a><span data-ttu-id="abbc8-160">دورات التعليم الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="abbc8-160">eLearning courses</span></span>
-<span data-ttu-id="abbc8-161">لمزيد من المعلومات حول التدريب على Microsoft Dynamics 365 for Finance and Operations، راجع <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> مدخل تعلم Microsoft Dynamics</a>.</span><span class="sxs-lookup"><span data-stu-id="abbc8-161">For information about Microsoft Dynamics 365 for Finance and Operations training, see <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Learning Portal</a>.</span></span> <span data-ttu-id="abbc8-162">(يحتاج إلى حساب CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="abbc8-162">(requires CustomerSource account)</span></span> 
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="index.md" target-language="ar-SA">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>index.fa071c.391f63fba2916b613f66bfd36cfbd3a052cbc8fe.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>391f63fba2916b613f66bfd36cfbd3a052cbc8fe</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\supply-chain\index.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Supply chain management home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">الصفحة الرئيسية لإدارة سلسة التوريد</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This page provides a list of the help topics and other resources for the supply chain management features in Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">توفر هذه الصفحة قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Supply chain management home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">الصفحة الرئيسية لإدارة سلسة التوريد</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides a list of the help topics and other resources for the supply chain management features in Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>What's new and in development</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ما الجديد وقيد التطوير</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Go to the <bpt id="p1">&lt;a href="https://roadmap.dynamics.com/"&gt;</bpt>Dynamics 365 Roadmap<ept id="p1">&lt;/a&gt;</ept> to see what new features are released and what new features are in development.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">انتقل إلى <bpt id="p1">&lt;a href="https://roadmap.dynamics.com/"&gt;</bpt>خارطة طريق Dynamics 365<ept id="p1">&lt;/a&gt;</ept> للتعرّف على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Core concepts and tasks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">المفاهيم الأساسية والمهام</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Select a feature area to learn more about it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">حدد منطقة ميزة لمعرفة المزيد عنها.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source><bpt id="p1">[</bpt>Cost accounting<ept id="p1">](../financials/cost-accounting/cost-accounting-home-page.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>محاسبة التكاليف<ept id="p1">](../financials/cost-accounting/cost-accounting-home-page.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source><bpt id="p1">[</bpt>Cost management<ept id="p1">](cost-management/cost-management-home-page.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>إدارة التكلفة<ept id="p1">](cost-management/cost-management-home-page.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source><bpt id="p1">[</bpt>Inventory management<ept id="p1">](inventory/inventory-home-page.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>إدارة المخزون<ept id="p1">](inventory/inventory-home-page.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source><bpt id="p1">[</bpt>Master planning<ept id="p1">](master-planning/master-planning-home-page.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>التخطيط الرئيسي<ept id="p1">](master-planning/master-planning-home-page.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Procurement and sourcing<ept id="p1">](procurement/procurement-sourcing-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>التدبير والتوريد<ept id="p1">](procurement/procurement-sourcing-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">[</bpt>Product information management<ept id="p1">](pim/product-information.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>إدارة معلومات المنتج<ept id="p1">](pim/product-information.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">[</bpt>Production control<ept id="p1">](production-control/production-process-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>التحكم بالإنتاج<ept id="p1">](production-control/production-process-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">[</bpt>Sales and marketing<ept id="p1">](sales-marketing/overview-sales-marketing.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>المبيعات والتسويق<ept id="p1">](sales-marketing/overview-sales-marketing.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source><bpt id="p1">[</bpt>Service management<ept id="p1">](service-management/service-management-home-page.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>إدارة الخدمة<ept id="p1">](service-management/service-management-home-page.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">[</bpt>Transportation management<ept id="p1">](transportation/transportation-management-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>إدارة النقل<ept id="p1">](transportation/transportation-management-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source><bpt id="p1">[</bpt>Warehouse management<ept id="p1">](warehousing/warehouse-configuration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>إدارة المستودعات<ept id="p1">](warehousing/warehouse-configuration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Videos</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">مقاطع فيديو</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations version 8.0 (April 2018).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations الإصدار 8.0 (أبريل 2018).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">[</bpt>Synchronize a work order between Field Service and Finance and Operations<ept id="p1">](https://youtu.be/hAB4TDVMjxU)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>مزامنة أمر عمل بين Field Service وFinance and Operations<ept id="p1">](https://youtu.be/hAB4TDVMjxU)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (December 2017).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ديسمبر 2017).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">[</bpt>Prospect to cash integration<ept id="p1">](https://youtu.be/AVV9x5x-XCg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>تكامل العميل المتوقع إلى النقدية<ept id="p1">](https://youtu.be/AVV9x5x-XCg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">[</bpt>Optimization advisor<ept id="p1">](https://www.youtube.com/watch?v=MRsAzgFCUSQ&amp;t=4s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>مرشد التحسين‬<ept id="p1">](https://www.youtube.com/watch?v=MRsAzgFCUSQ&amp;t=4s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Use warehouse template to copy configuration<ept id="p1">](https://www.youtube.com/watch?v=K2WIfFlqJYs&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>استخدام قالب المستودع لنسخ التكوين<ept id="p1">](https://www.youtube.com/watch?v=K2WIfFlqJYs&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (يوليو 2017).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">[</bpt>Get started with Cost accounting<ept id="p1">](https://youtu.be/1pUDtJQZ8FU)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>بدء ‏‫محاسبة التكاليف‬<ept id="p1">](https://youtu.be/1pUDtJQZ8FU)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">[</bpt>Cost control mobile workspace<ept id="p1">](https://youtu.be/imsuTg8rUVk)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>مساحة العمل المحمولة لمراقبة التكلفة<ept id="p1">](https://youtu.be/imsuTg8rUVk)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>Use Excel for cost analysis<ept id="p1">](https://youtu.be/-HKHYdClvx8)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>استخدام Excel لتحليل التكلفة<ept id="p1">](https://youtu.be/-HKHYdClvx8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source><bpt id="p1">[</bpt>Approve purchase orders on a mobile device<ept id="p1">](https://youtu.be/gZ-gOlJe7H8)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>الموافقة على أوامر الشراء على جهاز محمول<ept id="p1">](https://youtu.be/gZ-gOlJe7H8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt>Visual scheduling with Gantt chart for production and batch orders<ept id="p1">](https://youtu.be/BtbuShkGj4I)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدُفعية<ept id="p1">](https://youtu.be/BtbuShkGj4I)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>These tech conference recordings discuss product functionality in the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تناقش تسجيلات المؤتمرات التقنية هذه وظائف المنتج في الإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">**</bpt>Cost management<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>إدارة التكلفة<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">[</bpt>Overview of Cost management<ept id="p1">](https://www.youtube.com/watch?v=vXzlC-mOBcg&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>نظرة عامة على إدارة التكلفة<ept id="p1">](https://www.youtube.com/watch?v=vXzlC-mOBcg&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">**</bpt>Master planning<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>التخطيط الرئيسي<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">[</bpt>Extend the demand forecasting functionality<ept id="p1">](https://www.youtube.com/watch?v=4OIKIXLiNjI&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>توسيع وظيفة التنبؤ بالطلب<ept id="p1">](https://www.youtube.com/watch?v=4OIKIXLiNjI&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>Master planning - tips and tricks for troubleshooting performance<ept id="p1">](https://youtu.be/7v8BPmEs9Dg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها<ept id="p1">](https://youtu.be/7v8BPmEs9Dg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt>Help! MRP is slow!<ept id="p1">](https://youtu.be/RLXybx20B5o)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>المساعدة! التخطيط الرئيسي (MRP) بطيء!<ept id="p1">](https://youtu.be/RLXybx20B5o)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>إدارة معلومات المنتج<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">[</bpt>Product configurator in Microsoft Dynamics AX<ept id="p1">](https://youtu.be/zotrj3SbCl4)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>مكون المنتج في Microsoft Dynamics AX<ept id="p1">](https://youtu.be/zotrj3SbCl4)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">**</bpt>Warehouse management<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>إدارة المستودعات<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">[</bpt>Get the best out of your warehouse management system<ept id="p1">](https://www.youtube.com/watch?v=--_didmZKHo&amp;t=10s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>تحقيق أقصى استفادة من نظام إدارة المستودعات<ept id="p1">](https://www.youtube.com/watch?v=--_didmZKHo&amp;t=10s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source><bpt id="p1">[</bpt>Advanced R3 Warehouse management - Inbound processing and min/max replenishment<ept id="p1">](https://www.youtube.com/watch?v=z5_V5Eqlf5M&amp;t=48s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>إدارة المستودعات المتقدمة R3 - معالجة الوارد و‏‫الحد الأدنى/الحد الأقصى لعملية التزويد‬<ept id="p1">](https://www.youtube.com/watch?v=z5_V5Eqlf5M&amp;t=48s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source><bpt id="p1">[</bpt>Advanced R3 Warehouse management - A day in the life, outbound processing and demand Replenishment<ept id="p1">](https://youtu.be/Og0gLlVp7jA)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>إدارة المستودعات المتقدمة R3 - يوم من الحياة، معالجة الصادر وتزويد الطلب<ept id="p1">](https://youtu.be/Og0gLlVp7jA)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">[</bpt>Labels in the new Microsoft Dynamics AX 2012 R3 Warehouse management<ept id="p1">](https://youtu.be/5w1MngVchBA)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>التسميات في إدارة المستودعات في Microsoft Dynamics AX 2012 R3 الجديد<ept id="p1">](https://youtu.be/5w1MngVchBA)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source><bpt id="p1">[</bpt>Dynamics AX 2012 R3: Advanced warehouse management - A day in the life of process manufacturing<ept id="p1">](https://www.youtube.com/embed/QUxXUrN-7n4)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Dynamics AX 2012 R3: إدارة المستودعات المتقدمة - يوم في حياة التصنيع التحويلي<ept id="p1">](https://www.youtube.com/embed/QUxXUrN-7n4)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source><bpt id="p1">**</bpt>Production control<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>التحكم بالإنتاج<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source><bpt id="p1">[</bpt>Subcontracting operations and activities in manufacturing<ept id="p1">](https://youtu.be/y1jrd3A_k70)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>عمليات وأنشطة التعاقد من الباطن في التصنيع<ept id="p1">](https://youtu.be/y1jrd3A_k70)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">**</bpt>Transportation management<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>إدارة النقل<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source><bpt id="p1">[</bpt>Transportation management (TMS) in the new Microsoft Dynamics AX<ept id="p1">](https://youtu.be/jgmTgJIgEFQ)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>إدارة النقل (TMS) في Microsoft Dynamics AX الجديد<ept id="p1">](https://youtu.be/jgmTgJIgEFQ)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Blogs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">المدونات</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>There are many topics about manufacturing and supply chain management on the <bpt id="p1">&lt;a href="https://blogs.msdn.microsoft.com/axmfg/"&gt;</bpt>Dynamics AX Manufacturing R&amp;D Team Blog<ept id="p1">&lt;/a&gt;</ept> and <bpt id="p2">&lt;a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/"&gt;</bpt>Supply Chain Management in Dynamics AX R&amp;D Team Blog <ept id="p2">&lt;/a&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد في <bpt id="p1">&lt;a href="https://blogs.msdn.microsoft.com/axmfg/"&gt;</bpt>مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن التصنيع<ept id="p1">&lt;/a&gt;</ept> و<bpt id="p2">&lt;a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/"&gt;</bpt>مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن سلسلة التوريد<ept id="p2">&lt;/a&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Most of these were written for the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">وقد تمت كتابة معظم هذه المنشورات للإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>White papers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">المستندات التقنية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/"&gt;</bpt>Cost accounting hands-on labs<ept id="p1">&lt;/a&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/"&gt;</bpt>المختبرات المتاحة لمحاسبة التكاليف<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/"&gt;</bpt>Lean manufacturing: Capable to promise and kanban job scheduling<ept id="p1">&lt;/a&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/"&gt;</bpt>Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/"&gt;</bpt>BOM calculation by using a costing sheet<ept id="p1">&lt;/a&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/"&gt;</bpt>‏‫حساب قائمة مكونات الصنف (BOM) ‏‫باستخدام كشف التكاليف‬‏‫‬‬<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/"&gt;</bpt>Mobility in the Warehouse facilitated by Microsoft Dynamics 365 for Finance and Operations<ept id="p1">&lt;/a&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/"&gt;</bpt>سهولة إمكانية التنقل في المستودع من خلال Microsoft Dynamics 365 for Finance and Operations<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>eLearning courses</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">دورات التعليم الإلكتروني</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>For information about Microsoft Dynamics 365 for Finance and Operations training, see <bpt id="p1">&lt;a href="https://mbspartner.microsoft.com/AX/LearningPlans/"&gt;</bpt> Microsoft Dynamics Learning Portal<ept id="p1">&lt;/a&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">لمزيد من المعلومات حول التدريب على Microsoft Dynamics 365 for Finance and Operations، راجع <bpt id="p1">&lt;a href="https://mbspartner.microsoft.com/AX/LearningPlans/"&gt;</bpt> مدخل تعلم Microsoft Dynamics<ept id="p1">&lt;/a&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>(requires CustomerSource account)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(يحتاج إلى حساب CustomerSource)</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

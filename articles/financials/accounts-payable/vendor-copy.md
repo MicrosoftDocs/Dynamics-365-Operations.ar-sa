@@ -1,67 +1,192 @@
----
-title: نسخ الموردين باستخدام تسلسلات رقمية مشتركة
-description: يشرح هذا المقال كيفية استخدام تسلسلات رقمية مشتركة لنسخ مورد لكيان قانوني آخر مع الاحتفاظ بنفس معرف المورد.
-author: mikefalkner
-manager: aolson
-ms.date: 08/24/2018
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: VendTable
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: mikefalkner
-ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 14e361b38f417ee7017981f564eac1b12c93b9f5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508866"
----
-# <a name="copy-vendors-by-using-shared-number-sequences"></a><span data-ttu-id="16bb4-103">نسخ الموردين باستخدام تسلسلات رقمية مشتركة</span><span class="sxs-lookup"><span data-stu-id="16bb4-103">Copy vendors by using shared number sequences</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="16bb4-104">يمكنك استخدام تسلسلات رقمية مشتركة لتعيين معرفات الموردين.</span><span class="sxs-lookup"><span data-stu-id="16bb4-104">You can use shared number sequences to assign vendor IDs.</span></span> <span data-ttu-id="16bb4-105">كما تتيح لك التسلسلات الرقمية المشتركة نسخ الموردين من كيان قانوني لكيان قانوني آخر ولكن مع استخدام نفس معرفات الموردين في كل من الكيانين القانونيين.</span><span class="sxs-lookup"><span data-stu-id="16bb4-105">Shared number sequences also let you copy vendors from one legal entity to another legal entity but use the same vendor IDs in both legal entities.</span></span>
-
-## <a name="setup"></a><span data-ttu-id="16bb4-106">إعداد</span><span class="sxs-lookup"><span data-stu-id="16bb4-106">Setup</span></span>
-
-<span data-ttu-id="16bb4-107">يتم تنشيط هذه الميزة عند استخدام تسلسل رقمي مشترك لتعيين معرفات الموردين.</span><span class="sxs-lookup"><span data-stu-id="16bb4-107">The feature is activated when you use a shared number sequence to assign vendor IDs.</span></span> <span data-ttu-id="16bb4-108">يجب استخدام نفس التسلسل الرقمي في كل كيان قانوني تريد نسخ مورد له.</span><span class="sxs-lookup"><span data-stu-id="16bb4-108">You must use the same number sequence in every legal entity that you want to copy a vendor to.</span></span> <span data-ttu-id="16bb4-109">يمكنك تغيير التسلسل الرقمي للمورد على صفحة **محددات الحسابات الدائنة** لكل كيان قانوني.</span><span class="sxs-lookup"><span data-stu-id="16bb4-109">You change the vendor number sequence on the **Accounts payable parameters** page for each legal entity.</span></span> <span data-ttu-id="16bb4-110">حدد **الحسابات الدائنة** \> **إعداد** \> **محددات الحسابات الدائنة**، ثم حدد علامة التبويب **التسلسلات الرقمية**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-110">Select **Accounts payable** \> **Setup** \> **Accounts payable parameters**, and then select the **Number sequences** tab.</span></span>
-
-<span data-ttu-id="16bb4-111">يمكنك أيضًا إعداد تسلسلات رقمية للموردين لكل مجموعة موردين.</span><span class="sxs-lookup"><span data-stu-id="16bb4-111">You can also set up vendor number sequences for each vendor group.</span></span> <span data-ttu-id="16bb4-112">يجب أيضًا مشاركة هذه التسلسلات الرقمية.</span><span class="sxs-lookup"><span data-stu-id="16bb4-112">These number sequences must also be shared.</span></span> <span data-ttu-id="16bb4-113">يتم استخدام التسلسل الرقمي لمجموعة الموردين أولاً.</span><span class="sxs-lookup"><span data-stu-id="16bb4-113">The number sequence for a vendor group is used first.</span></span> <span data-ttu-id="16bb4-114">إذا لم يتم تحديد أي تسلسل رقمي لمجموعة موردين، فإنه يتم استخدام التسلسل الرقمي الذي تم تحديده في صفحة **محددات الحسابات الدائنة**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-114">If no number sequence is specified for a vendor group, the number sequence that is specified on the **Accounts payable parameters** page is used.</span></span>
-
-<span data-ttu-id="16bb4-115">يمكنك أيضًا نسخ الموردين بين الكيانات القانونية إذا كنت تستخدم معرفات الموردين اليدوية.</span><span class="sxs-lookup"><span data-stu-id="16bb4-115">You can also copy vendors between legal entities if you use manual vendor IDs.</span></span> <span data-ttu-id="16bb4-116">ومع ذلك، إذا كنت تحاول نسخ أحد الموردين إلى أحد الكيانات القانونية حيث يوجد معرف المورد بالفعل، فلن يتم بدء عملية النسخ.</span><span class="sxs-lookup"><span data-stu-id="16bb4-116">However, if you try to copy a vendor to a legal entity where the vendor ID already exists, the copy process won't be started.</span></span>
-
-## <a name="copy-a-vendor"></a><span data-ttu-id="16bb4-117">نسخ مورّد</span><span class="sxs-lookup"><span data-stu-id="16bb4-117">Copy a vendor</span></span>
-
-<span data-ttu-id="16bb4-118">لنسخ مورّد، حدد **جديد** في صفحة قائمة **جميع المورّدين** لفتح الصفحة **جميع المورّدين، سجل جديد**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-118">To copy a vendor, select **New** on the **All vendors** list page to open the **All vendors, new record** page.</span></span> <span data-ttu-id="16bb4-119">تجدر الإشارة إلى عدم تعيين معرف المورّد الجديد مباشرةً.</span><span class="sxs-lookup"><span data-stu-id="16bb4-119">Notice that the new vendor ID isn't assigned immediately.</span></span> <span data-ttu-id="16bb4-120">يختلف هذا السلوك عن السلوك في الإصدارات السابقة من Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="16bb4-120">This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="16bb4-121">نظرًا لعدم تحديد مجموعة الموردين حتى الآن، يتعذر على النظام تحديد التسلسل الرقمي الصحيح لاستخدامه.</span><span class="sxs-lookup"><span data-stu-id="16bb4-121">Because you haven't yet selected the vendor group, the system can't determine the correct number sequence to use.</span></span> <span data-ttu-id="16bb4-122">بالإضافة إلى ذلك، لا يمكن تحديد ما إذا كنت تريد إنشاء مورد جديد أو نسخ أحد الموردين.</span><span class="sxs-lookup"><span data-stu-id="16bb4-122">Additionally, it can't determine whether you're trying to create a new vendor or copy a vendor.</span></span> <span data-ttu-id="16bb4-123">ولذلك، لم يتم تعيين معرف المورد حتى تحدد **حفظ** في أسفل الصفحة.</span><span class="sxs-lookup"><span data-stu-id="16bb4-123">Therefore, the vendor ID isn't assigned until you select **Save** at the bottom of the page.</span></span>
-
-<span data-ttu-id="16bb4-124">إذا كنت تقوم بإنشاء مورد جديد، فيمكنك الاستمرار في تعبئة كل الحقول بالطريقة المعتادة.</span><span class="sxs-lookup"><span data-stu-id="16bb4-124">If you're creating a new vendor, you can continue to fill in all the fields as you usually do.</span></span> <span data-ttu-id="16bb4-125">وعند الانتهاء من ذلك، حدد **حفظ**، وسوف ترى أنه تم تعيين معرف المورد تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="16bb4-125">When you've finished, and you select **Save**, you will see that the vendor ID was assigned automatically.</span></span> <span data-ttu-id="16bb4-126">وبدلاً من ذلك، بالنسبة للتسلسلات الرقمية اليدوية، سوف ترى أنه تم استخدام معرف المورد اليدوي الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="16bb4-126">Alternatively, for manual number sequences, you will see that your manual vendor ID was used.</span></span>
-
-<span data-ttu-id="16bb4-127">لنسخ مورد أو في حقل **الاسم**، أدخل واحد أو أكثر من الأحرف التي تمثل المورد الذي تبحث عنه.</span><span class="sxs-lookup"><span data-stu-id="16bb4-127">To copy a vendor, in the **Name** field, enter one or more characters that represent the vendor that you're looking for.</span></span> <span data-ttu-id="16bb4-128">يُظهر مربع حوار بحث قائمة الجهات التي قد تمثل المورد الذي تبحث عنه.</span><span class="sxs-lookup"><span data-stu-id="16bb4-128">A search dialog box shows a list of parties that might represent the vendor that you're looking for.</span></span> <span data-ttu-id="16bb4-129">عندما تحدد جهة من الجهات، تظهر المعلومات الإضافية على الجانب الأيمن من الشاشة:</span><span class="sxs-lookup"><span data-stu-id="16bb4-129">When you select one of the parties, additional information appears on the right side of the dialog box:</span></span>
-
-- <span data-ttu-id="16bb4-130">تُظهر علامة التبويب **عام** رقم هاتف الجهة وعنوانها.</span><span class="sxs-lookup"><span data-stu-id="16bb4-130">The **General** tab shows the party's phone number and address.</span></span>
-- <span data-ttu-id="16bb4-131">تُظهر علامة التبويب **أدوار** الأدوار التي يمكن أن تتوفر لدى الجهة المحددة والكيان القانوني التي يكون لها كل دور فيه.</span><span class="sxs-lookup"><span data-stu-id="16bb4-131">The **Roles** tab shows the roles that the selected party can have and the legal entity where it has each role.</span></span>
-- <span data-ttu-id="16bb4-132">تُظهر علامة التبويب **معرف تسجيل الضريبة** معرفات تسجيل الضريبة التي تم تعيينها للجهة.</span><span class="sxs-lookup"><span data-stu-id="16bb4-132">**Tax registration ID** tab shows the tax registration IDs that are assigned to the party.</span></span>
-
-<span data-ttu-id="16bb4-133">يمكنك نسخ جهة فقط إذا كان لها دور مورد، وفي حالة وجود هذا الدور في كيان قانوني غير موجود في الكيان القانوني الحالي.</span><span class="sxs-lookup"><span data-stu-id="16bb4-133">You can copy a party only if it has a vendor role, and if it has that role in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="16bb4-134">عندما تجد جهة تحقق هذه المعايير، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="16bb4-134">When you find a party that meets these criteria, follow these steps.</span></span>
-
-1. <span data-ttu-id="16bb4-135">يظهر خيار **نسخ المورد**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-135">A **Copy vendor** option appears.</span></span> <span data-ttu-id="16bb4-136">وبشكل افتراضي، يتم تعيين هذا الخيار إلى **لا**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-136">By default, this option is set to **No**.</span></span> <span data-ttu-id="16bb4-137">لنسخ المورد إلى الكيان القانوني الحالي، قم بتعيين الخيار إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-137">To copy the vendor to the current legal entity, set the option to **Yes**.</span></span> 
-2. <span data-ttu-id="16bb4-138">يظهر حقل **كيان قانوني**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-138">A **Legal entity** field appears.</span></span> <span data-ttu-id="16bb4-139">حدد الكيان القانوني لنسخ المورد منه.</span><span class="sxs-lookup"><span data-stu-id="16bb4-139">Select the legal entity to copy the vendor from.</span></span> <span data-ttu-id="16bb4-140">في حالة وجود المورد في كيان قانوني واحد فقط، فإنه يتم تعيين الحقل إلى هذا الكيان القانوني بشكل افتراضي.</span><span class="sxs-lookup"><span data-stu-id="16bb4-140">If the vendor exists in only one legal entity, the field is set to that legal entity by default.</span></span>
-3. <span data-ttu-id="16bb4-141">حدد **تحديد**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-141">Select **Select**.</span></span> <span data-ttu-id="16bb4-142">تم إنشاء المورد الجديد.</span><span class="sxs-lookup"><span data-stu-id="16bb4-142">The new vendor is created.</span></span>
-
-## <a name="validation"></a><span data-ttu-id="16bb4-143">التحقق من الصحة</span><span class="sxs-lookup"><span data-stu-id="16bb4-143">Validation</span></span>
-
-<span data-ttu-id="16bb4-144">عندما تقوم بنسخ أحد الموردين، يحاول النظام حفظ معلومات المورد الجديدة.</span><span class="sxs-lookup"><span data-stu-id="16bb4-144">When you copy a vendor, the system tries to save the new vendor information.</span></span> <span data-ttu-id="16bb4-145">يتم تشغيل عمليات التحقق من الصحة للتأكد من أن البيانات التي تم نسخها جيدة.</span><span class="sxs-lookup"><span data-stu-id="16bb4-145">Validations are run to verify that the data that was copied is good.</span></span> <span data-ttu-id="16bb4-146">تتلقى رسالة إعلام بخطأ لكل عملية تحقق من الصحة فشلت.</span><span class="sxs-lookup"><span data-stu-id="16bb4-146">You receive an error message for every validation that fails.</span></span> <span data-ttu-id="16bb4-147">توضح رسائل الأخطاء المعلومات التي يجب أن يتم تحديثها.</span><span class="sxs-lookup"><span data-stu-id="16bb4-147">The error messages explain what information must be updated.</span></span> <span data-ttu-id="16bb4-148">لا يمكن حفظ نسخة المورد حتى تقوم بإصلاح جميع أخطاء التحقق من الصحة.</span><span class="sxs-lookup"><span data-stu-id="16bb4-148">The copy of the vendor can't be saved until you fix all the validation errors.</span></span>
-
-## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a><span data-ttu-id="16bb4-149">نسخ أحد الموردين باستخدام ميزة البحث عن رقم الإعفاء الضريبي</span><span class="sxs-lookup"><span data-stu-id="16bb4-149">Copy a vendor by using the Tax exempt number search feature</span></span>
-
-<span data-ttu-id="16bb4-150">يمكنك أيضًا نسخ الموردين باستخدام ميزة البحث عن رقم الإعفاء الضريبي الموجودة في مجموعة **التسجيل** في علامة التبويب **المورد** في "جزء الإجراءات" في صفحة **جميع الموردين**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-150">You can also copy vendors by using the Tax exempt number search feature that is in the **Registration** group on the **Vendor** tab on the Action Pane of the **All vendors** page.</span></span> <span data-ttu-id="16bb4-151">يُظهر مربع حوار **البحث عن رقم الإعفاء الضريبي** الذي يظهر أرقام الإعفاء الضريبي ومعرف المورد واسم المورد والكيان القانوني حيث يتم استخدام معرف الإعفاء الضريبي.</span><span class="sxs-lookup"><span data-stu-id="16bb4-151">The **Tax exempt number search** dialog box that appears shows tax exempt numbers, the vendor ID, the vendor name, and the legal entity where the tax exempt ID is used.</span></span> <span data-ttu-id="16bb4-152">يمكنك نسخ مورد فقط إذا كان موجودًا في كيان قانوني غير موجود في الكيان القانوني الحالي.</span><span class="sxs-lookup"><span data-stu-id="16bb4-152">You can copy a vendor only if it's in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="16bb4-153">بعد تحديد مورد يتوافق مع هذا المعيار، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="16bb4-153">After you select a vendor that meets this criterion, follow these steps.</span></span>
-
-1. <span data-ttu-id="16bb4-154">يظهر خيار **نسخ المورد**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-154">A **Copy vendor** option appears.</span></span> <span data-ttu-id="16bb4-155">وبشكل افتراضي، يتم تعيين هذا الخيار إلى **لا**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-155">By default, this option is set to **No**.</span></span> <span data-ttu-id="16bb4-156">لنسخ المورد إلى الكيان القانوني الحالي، قم بتعيين الخيار إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-156">To copy the vendor to the current legal entity, set the option to **Yes**.</span></span>
-2. <span data-ttu-id="16bb4-157">حدد **تحديد**.</span><span class="sxs-lookup"><span data-stu-id="16bb4-157">Select **Select**.</span></span> <span data-ttu-id="16bb4-158">تم إنشاء المورد الجديد.</span><span class="sxs-lookup"><span data-stu-id="16bb4-158">The new vendor is created.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="vendor-copy.md" target-language="ar-SA">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>vendor-copy.deb9a6.0c492cd76fc9742aa4cff8fe588541cb2c6f1863.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>0c492cd76fc9742aa4cff8fe588541cb2c6f1863</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\accounts-payable\vendor-copy.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Copy vendors by using shared number sequences</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">نسخ الموردين باستخدام تسلسلات رقمية مشتركة</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to use shared number sequences to copy a vendor to another legal entity but keep the same vendor ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يشرح هذا المقال كيفية استخدام تسلسلات رقمية مشتركة لنسخ مورد لكيان قانوني آخر مع الاحتفاظ بنفس معرف المورد.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Copy vendors by using shared number sequences</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">نسخ الموردين باستخدام تسلسلات رقمية مشتركة</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can use shared number sequences to assign vendor IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يمكنك استخدام تسلسلات رقمية مشتركة لتعيين معرفات الموردين.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Shared number sequences also let you copy vendors from one legal entity to another legal entity but use the same vendor IDs in both legal entities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">كما تتيح لك التسلسلات الرقمية المشتركة نسخ الموردين من كيان قانوني لكيان قانوني آخر ولكن مع استخدام نفس معرفات الموردين في كل من الكيانين القانونيين.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Setup</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إعداد</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The feature is activated when you use a shared number sequence to assign vendor IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يتم تنشيط هذه الميزة عند استخدام تسلسل رقمي مشترك لتعيين معرفات الموردين.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>You must use the same number sequence in every legal entity that you want to copy a vendor to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يجب استخدام نفس التسلسل الرقمي في كل كيان قانوني تريد نسخ مورد له.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>You change the vendor number sequence on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept> page for each legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يمكنك تغيير التسلسل الرقمي للمورد على صفحة <bpt id="p1">**</bpt>محددات الحسابات الدائنة<ept id="p1">**</ept> لكل كيان قانوني.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Accounts payable parameters<ept id="p3">**</ept>, and then select the <bpt id="p4">**</bpt>Number sequences<ept id="p4">**</ept> tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">حدد <bpt id="p1">**</bpt>الحسابات الدائنة<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>إعداد<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>محددات الحسابات الدائنة<ept id="p3">**</ept>، ثم حدد علامة التبويب <bpt id="p4">**</bpt>التسلسلات الرقمية<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>You can also set up vendor number sequences for each vendor group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يمكنك أيضًا إعداد تسلسلات رقمية للموردين لكل مجموعة موردين.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>These number sequences must also be shared.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يجب أيضًا مشاركة هذه التسلسلات الرقمية.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>The number sequence for a vendor group is used first.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يتم استخدام التسلسل الرقمي لمجموعة الموردين أولاً.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>If no number sequence is specified for a vendor group, the number sequence that is specified on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept> page is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إذا لم يتم تحديد أي تسلسل رقمي لمجموعة موردين، فإنه يتم استخدام التسلسل الرقمي الذي تم تحديده في صفحة <bpt id="p1">**</bpt>محددات الحسابات الدائنة<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>You can also copy vendors between legal entities if you use manual vendor IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يمكنك أيضًا نسخ الموردين بين الكيانات القانونية إذا كنت تستخدم معرفات الموردين اليدوية.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>However, if you try to copy a vendor to a legal entity where the vendor ID already exists, the copy process won't be started.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ومع ذلك، إذا كنت تحاول نسخ أحد الموردين إلى أحد الكيانات القانونية حيث يوجد معرف المورد بالفعل، فلن يتم بدء عملية النسخ.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Copy a vendor</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">نسخ مورّد</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>To copy a vendor, select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>All vendors<ept id="p2">**</ept> list page to open the <bpt id="p3">**</bpt>All vendors, new record<ept id="p3">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">لنسخ مورّد، حدد <bpt id="p1">**</bpt>جديد<ept id="p1">**</ept> في صفحة قائمة <bpt id="p2">**</bpt>جميع المورّدين<ept id="p2">**</ept> لفتح الصفحة <bpt id="p3">**</bpt>جميع المورّدين، سجل جديد<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Notice that the new vendor ID isn't assigned immediately.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تجدر الإشارة إلى عدم تعيين معرف المورّد الجديد مباشرةً.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يختلف هذا السلوك عن السلوك في الإصدارات السابقة من Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Because you haven't yet selected the vendor group, the system can't determine the correct number sequence to use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">نظرًا لعدم تحديد مجموعة الموردين حتى الآن، يتعذر على النظام تحديد التسلسل الرقمي الصحيح لاستخدامه.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Additionally, it can't determine whether you're trying to create a new vendor or copy a vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">بالإضافة إلى ذلك، لا يمكن تحديد ما إذا كنت تريد إنشاء مورد جديد أو نسخ أحد الموردين.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Therefore, the vendor ID isn't assigned until you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> at the bottom of the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ولذلك، لم يتم تعيين معرف المورد حتى تحدد <bpt id="p1">**</bpt>حفظ<ept id="p1">**</ept> في أسفل الصفحة.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>If you're creating a new vendor, you can continue to fill in all the fields as you usually do.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إذا كنت تقوم بإنشاء مورد جديد، فيمكنك الاستمرار في تعبئة كل الحقول بالطريقة المعتادة.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>When you've finished, and you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>, you will see that the vendor ID was assigned automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">وعند الانتهاء من ذلك، حدد <bpt id="p1">**</bpt>حفظ<ept id="p1">**</ept>، وسوف ترى أنه تم تعيين معرف المورد تلقائيًا.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Alternatively, for manual number sequences, you will see that your manual vendor ID was used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">وبدلاً من ذلك، بالنسبة للتسلسلات الرقمية اليدوية، سوف ترى أنه تم استخدام معرف المورد اليدوي الخاص بك.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>To copy a vendor, in the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter one or more characters that represent the vendor that you're looking for.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">لنسخ مورد أو في حقل <bpt id="p1">**</bpt>الاسم<ept id="p1">**</ept>، أدخل واحد أو أكثر من الأحرف التي تمثل المورد الذي تبحث عنه.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>A search dialog box shows a list of parties that might represent the vendor that you're looking for.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يُظهر مربع حوار بحث قائمة الجهات التي قد تمثل المورد الذي تبحث عنه.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>When you select one of the parties, additional information appears on the right side of the dialog box:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">عندما تحدد جهة من الجهات، تظهر المعلومات الإضافية على الجانب الأيمن من الشاشة:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>The <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab shows the party's phone number and address.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تُظهر علامة التبويب <bpt id="p1">**</bpt>عام<ept id="p1">**</ept> رقم هاتف الجهة وعنوانها.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>The <bpt id="p1">**</bpt>Roles<ept id="p1">**</ept> tab shows the roles that the selected party can have and the legal entity where it has each role.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تُظهر علامة التبويب <bpt id="p1">**</bpt>أدوار<ept id="p1">**</ept> الأدوار التي يمكن أن تتوفر لدى الجهة المحددة والكيان القانوني التي يكون لها كل دور فيه.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">**</bpt>Tax registration ID<ept id="p1">**</ept> tab shows the tax registration IDs that are assigned to the party.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تُظهر علامة التبويب <bpt id="p1">**</bpt>معرف تسجيل الضريبة<ept id="p1">**</ept> معرفات تسجيل الضريبة التي تم تعيينها للجهة.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>You can copy a party only if it has a vendor role, and if it has that role in a legal entity that isn't the current legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يمكنك نسخ جهة فقط إذا كان لها دور مورد، وفي حالة وجود هذا الدور في كيان قانوني غير موجود في الكيان القانوني الحالي.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>When you find a party that meets these criteria, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">عندما تجد جهة تحقق هذه المعايير، اتبع الخطوات التالية.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>A <bpt id="p1">**</bpt>Copy vendor<ept id="p1">**</ept> option appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يظهر خيار <bpt id="p1">**</bpt>نسخ المورد<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">وبشكل افتراضي، يتم تعيين هذا الخيار إلى <bpt id="p1">**</bpt>لا<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>To copy the vendor to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">لنسخ المورد إلى الكيان القانوني الحالي، قم بتعيين الخيار إلى <bpt id="p1">**</bpt>نعم<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>A <bpt id="p1">**</bpt>Legal entity<ept id="p1">**</ept> field appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يظهر حقل <bpt id="p1">**</bpt>كيان قانوني<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Select the legal entity to copy the vendor from.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">حدد الكيان القانوني لنسخ المورد منه.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>If the vendor exists in only one legal entity, the field is set to that legal entity by default.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">في حالة وجود المورد في كيان قانوني واحد فقط، فإنه يتم تعيين الحقل إلى هذا الكيان القانوني بشكل افتراضي.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">حدد <bpt id="p1">**</bpt>تحديد<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The new vendor is created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تم إنشاء المورد الجديد.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Validation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">التحقق من الصحة</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>When you copy a vendor, the system tries to save the new vendor information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">عندما تقوم بنسخ أحد الموردين، يحاول النظام حفظ معلومات المورد الجديدة.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Validations are run to verify that the data that was copied is good.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يتم تشغيل عمليات التحقق من الصحة للتأكد من أن البيانات التي تم نسخها جيدة.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>You receive an error message for every validation that fails.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تتلقى رسالة إعلام بخطأ لكل عملية تحقق من الصحة فشلت.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>The error messages explain what information must be updated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">توضح رسائل الأخطاء المعلومات التي يجب أن يتم تحديثها.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The copy of the vendor can't be saved until you fix all the validation errors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">لا يمكن حفظ نسخة المورد حتى تقوم بإصلاح جميع أخطاء التحقق من الصحة.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Copy a vendor by using the Tax exempt number search feature</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">نسخ أحد الموردين باستخدام ميزة البحث عن رقم الإعفاء الضريبي</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>You can also copy vendors by using the Tax exempt number search feature that is in the <bpt id="p1">**</bpt>Registration<ept id="p1">**</ept> group on the <bpt id="p2">**</bpt>Vendor<ept id="p2">**</ept> tab on the Action Pane of the <bpt id="p3">**</bpt>All vendors<ept id="p3">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يمكنك أيضًا نسخ الموردين باستخدام ميزة البحث عن رقم الإعفاء الضريبي الموجودة في مجموعة <bpt id="p1">**</bpt>التسجيل<ept id="p1">**</ept> في علامة التبويب <bpt id="p2">**</bpt>المورد<ept id="p2">**</ept> في "جزء الإجراءات" في صفحة <bpt id="p3">**</bpt>جميع الموردين<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The <bpt id="p1">**</bpt>Tax exempt number search<ept id="p1">**</ept> dialog box that appears shows tax exempt numbers, the vendor ID, the vendor name, and the legal entity where the tax exempt ID is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يُظهر مربع حوار <bpt id="p1">**</bpt>البحث عن رقم الإعفاء الضريبي<ept id="p1">**</ept> الذي يظهر أرقام الإعفاء الضريبي ومعرف المورد واسم المورد والكيان القانوني حيث يتم استخدام معرف الإعفاء الضريبي.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>You can copy a vendor only if it's in a legal entity that isn't the current legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يمكنك نسخ مورد فقط إذا كان موجودًا في كيان قانوني غير موجود في الكيان القانوني الحالي.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>After you select a vendor that meets this criterion, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">بعد تحديد مورد يتوافق مع هذا المعيار، اتبع الخطوات التالية.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>A <bpt id="p1">**</bpt>Copy vendor<ept id="p1">**</ept> option appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يظهر خيار <bpt id="p1">**</bpt>نسخ المورد<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">وبشكل افتراضي، يتم تعيين هذا الخيار إلى <bpt id="p1">**</bpt>لا<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>To copy the vendor to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">لنسخ المورد إلى الكيان القانوني الحالي، قم بتعيين الخيار إلى <bpt id="p1">**</bpt>نعم<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">حدد <bpt id="p1">**</bpt>تحديد<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>The new vendor is created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تم إنشاء المورد الجديد.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
