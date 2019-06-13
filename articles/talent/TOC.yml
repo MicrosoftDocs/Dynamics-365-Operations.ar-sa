@@ -1,371 +1,588 @@
-- name: Dynamics 365 for Talent
-  href: index.md
-  items:
-    - name: البدء
-      href: talent-get-started.md
-      items:
-        - name: الجديد أو المتغير‬ في Talent
-          href: whats-new.md
-          items:
-            - name: 6 مايو 2019
-              href: whats-new-talent-may-6-2019.md
-            - name: 30 أبريل 2019
-              href: whats-new-talent-april-30-2019.md
-            - name: 25 أبريل 2019
-              href: whats-new-talent-april-25-2019.md
-            - name: 16 أبريل 2019
-              href: whats-new-talent-april-16-2019.md
-            - name: 9 أبريل 2019
-              href: whats-new-talent-april-9-2019.md
-            - name: 2 أبريل 2019
-              href: whats-new-talent-april-2-2019.md
-            - name: 26 مارس 2019
-              href: whats-new-talent-march-26-2019.md
-            - name: 20 مارس 2019
-              href: whats-new-talent-march-20.md
-            - name: 14 مارس 2019
-              href: whats-new-talent-march-14.md
-            - name: 5 مارس 2019
-              href: whats-new-talent-march-5.md
-            - name: الجديد في أرشيفات 2019
-              items:
-                - name: 27 فبراير 2019
-                  href: whats-new-talent-feb-27.md
-                - name: 14 فبراير 2019
-                  href: whats-new-talent-feb14.md
-                - name: 7 فبراير 2019
-                  href: whats-new-talent-february-7.md
-                - name: 31 يناير 2019
-                  href: whats-new-talent-january-29.md
-                - name: 23 يناير 2019
-                  href: whats-new-talent-january-23.md
-                - name: 17 يناير 2019
-                  href: whats-new-talent-january-17.md
-                - name: 11 يناير 2019
-                  href: whats-new-talent-january-11.md
-            - name: الجديد في أرشيفات 2018
-              items:
-                - name: 14 ديسمبر 2018
-                  href: whats-new-talent-december-14.md
-                - name: 6 ديسمبر 2018
-                  href: whats-new-talent-december-6.md
-                - name: 27 نوفمبر 2018
-                  href: whats-new-talent-november-27.md
-                - name: 15 نوفمبر 2018
-                  href: whats-new-talent-november-15.md
-                - name: 31 أكتوبر 2018
-                  href: whats-new-talent-october-31.md
-                - name: 19 أكتوبر 2018
-                  href: whats-new-talent-october-19.md
-                - name: 15 أكتوبر 2018
-                  href: whats-new-talent-october-11.md
-                - name: 8 أكتوبر 2018
-                  href: whats-new-talent-october-8.md
-                - name: 1 أكتوبر 2018
-                  href: whats-new-talent-october-01.md
-                - name: 24 سبتمبر 2018
-                  href: whats-new-talent-september-24.md
-                - name: 17 سبتمبر 2018
-                  href: whats-new-talent-september-17-2018.md
-                - name: 10 سبتمبر 2018
-                  href: whats-new-talent-september-10.md
-                - name: أغسطس 2018
-                  href: whats-new-talent-august2018.md
-                - name: يوليو 2018
-                  href: whats-new-talent-july2018.md
-        - name: متطلبات النظام وسياسة التحديث
-          href: talent-versions-update-policy.md
-        - name: توفير Talent
-          href: provisioning-talent.md
-        - name: إزالة بيئات Talent
-          href: remove-talent-environment.md
-        - name: التزويد لتطبيق Onboard
-          href: modular-app-tech-faq.md
-        - name: تضمين تطبيقات PowerApps
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR وCommon Data Service
-          href: CoreHREntities.md
-        - name: الوصول إلى ميزات المعاينة
-          href: access-preview-feature.md
-        - name: الحصول على دعم لـ Talent
-          href: talent-support.md
-    - name: تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
-      href: departments-jobs-positions.md
-      items:
-        - name: إعداد مكونات وظيفة
-          href: create-job.md
-        - name: إنشاء الأقسام وتضمينها في التسلسل الهرمي للقسم
-          href: create-department-add-department-hierarchy.md
-        - name: إعداد معلمات الموارد البشرية عبر الكيانات القانونية
-          href: set-up-hr-parameters-across-legal-entities.md
-        - name: إعداد معلمات الموارد البشرية الخاصة بالشركة
-          href: set-up-company-specific-hr-parameters.md
-        - name: الأسئلة المتداولة حول إجراءات العاملين
-          href: personnel-actions-faq.md
-        - name: صياغة العمليات التجارية
-          href: formalize-business-processes.md
-        - name: استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف
-          href: workflow-manage-employee-information.md
-    - name: إدارة الإجازة والغياب
-      href: leave-absence-overview.md
-      items:
-        - name: مفاهيم الإجازة والغياب
-          href: leave-absence-concepts.md
-        - name: زمن التوقف المستحق على أساس ساعات العمل
-          href: leave-accrue-hours-worked.md
-        - name: تقويمات أوقات العمل
-          href: working-time-calendars.md
-    - name: تعيين الموظفين لمؤسستك
-      items:
-        - name: أي إصدار من Attract؟
-          href: attract-comprehensive-hiring.md
-        - name: ميزات وقدرات Attract
-          href: attract-overview.md
-        - name: إنشاء قالب عملية في Attract
-          href: Process-templates-Attract.md
-        - name: إنشاء الوظائف والموافقة عليها ونشرها في Attract
-          href: Creating-jobs-Attract.md
-        - name: نشر الوظائف في مواقع خارجية من Attract
-          href: posting-jobs-external.md
-        - name: اختيار المرشحين باستخدام مجموعات المواهب‬
-          href: attract-talent-pools.md
-        - name: التوريد باستخدام LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
-        - name: الأنشطة في عمليات التوظيف
-          href: activities-attract.md
-        - name: جدولة المقابلات والملاحظات
-          href: interview-scheduling-feedback.md
-        - name: قابلية التوسعة
-          href: extensibility-attract.md
-        - name: وظيفة موقع الوظائف في Attract
-          href: career-site.md
-        - name: إعداد إدارة العروض
-          href: offer-setup.md
-        - name: إنشاء العروض والموافقة والتوقيع عليها
-          href: creating-offers.md
-        - name: قوالب البريد الإلكتروني
-          href: email-templates.md
-        - name: إدارة الأمان والأدوار في Attract
-          href: security-attract.md
-        - name: إعدادات المسؤول في Attract
-          href: Admin-Settings-Attract.md
-        - name: التوصيات الذكية
-          href: Intelligent-Recommendations.md
-        - name: إنشاء تجربة إعداد تفاعلية
-          href: create-onboarding-experience.md
-        - name: تعقب المصادر لملفات التعريف واستمارات التقديم الخاصة بالمرشحين
-          href: source-tracking.md
-        - name: استخدام تقارير تحليلية للحصول على تفاصيل عملية التوظيف
-          href: analytic-reports.md
-    - name: تحفيز الموظفين
-      items:
-        - name: خطط التعويض
-          href: compensation-plans.md
-        - name: إنشاء خطط التعويض الثابت
-          href: create-fixed-compensation-plans.md
-        - name: إنشاء خطط التعويض المتغير
-          href: create-variable-compensation-plans.md
-        - name: تعويض العملية
-          href: process-compensation.md
-        - name: إعداد مكونات وظيفة
-          href: create-job.md
-    - name: تطوير الموظفين وتدريبهم
-      items:
-        - name: إدارة الأداء
-          href: performance-management-overview.md
-        - name: مواءمة احتياجات العمل مع مهارات العاملين
-          href: skills.md
-        - name: إعداد الدورات التدريبية
-          href: courses.md
-    - name: تحديد وإدارة برنامج ميزات
-      items:
-        - name: تحديد وإدارة برنامج ميزات
-          href: manage-benefit-program.md
-        - name: سياسات استحقاق الميزات
-          href: benefit-eligibility-policies.md
-        - name: إنشاء تقارير قانون الرعاية ميسورة التكلفة (Affordable Care Act)
-          href: generate-aca-reports.md
-        - name: إدارة الأصناف المعارة للعاملين
-          href: loan-items.md
-    - name: الاستبيانات
-      href: questionnaires.md
-      items:
-        - name: تصميم استبيانات
-          href: design-questionnaires.md
-        - name: توزيع الاستبيانات وجدولتها
-          href: distribute-questionnaires.md
-        - name: عرض وتقييم نتائج الاستبيانات
-          href: evaluate-questionnaire-results.md
-    - name: السلامة والامتثال في أماكن العمل (الولايات المتحدة)
-      items:
-        - name: الاستجابة لطلب بيانات شخصية في Talent
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: التحقق من صحة نموذج التوظيف I-9
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: التوافق مع قانون الأمريكيين المعوقين
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: المعلومات
-      items:
-        - name: Embedded Power BI في مساحات العمل
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: تطبيق الجوال
-      items:
-        - name: مساحات العمل المحمولة
-          items:
-            - name: مساحة العمل المحمولة "دليل الشركة"
-              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: مساحة العمل المحمولة "فريقي"
-              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: نشر مساحات العمل المحمولة
-          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: تكامل
-      items:
-        - name: تكامل مع Dynamics 365 for Finance and Operations
-          href: talent-financeandoperations-integration.md
-        - name: تكوين تكامل كشف الرواتب بين Talent وDayforce
-          href: configure-payroll-integration.md
-        - name: إرشادات حول تكامل البيانات مع Dynamics 365 for Talent
-          href: data-integration.md
-        - name: الأسئلة المتداولة حول التكامل
-          href: talent-fo-integration.md
-        - name: تصدير البيانات المتكررة باستخدام تطبيقات Azure Logic
-          href: tutorial-integration-recurring-export.md
-    - name: قابلية التوسعة
-      items:
-        - name: توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
-          href: extensibility-examples.md
-        - name: تعقب التغييرات في بيانات التعيين
-          href: process-auditing.md
-        - name: قابلية التوسعة‬ في Attract
-          href: extensibility-attract.md
-        - name: الحقول المخصصة في Core HR
-          href: corehr-custom-fields.md
-    - name: تكامل Office‬‏‫
-      items:
-        - name: برنامج تعليمي لتكامل Office
-          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: تحديث بيانات الكيان في Excel
-          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: إنشاء خبرات فتح في Excel
-          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: استكشاف أخطاء تكامل Office وإصلاحها
-          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: إدارة المؤسسة
-      items:
-        - name: التسلسلات الرقمية
-          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: إعداد التسلسلات الرقمية على أساس فردي
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إعداد التسلسلات الرقمية باستخدام معالج
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: المؤسسات والتدرجات الهرمية للمؤسسات
-          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: تخطيط التدرج الهرمي للمؤسسات
-              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إنشاء تدرج هرمي مؤسسي
-              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إنشاء كيان قانوني
-              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إنشاء وحدة تشغيل
-              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: دفتر العناوين العمومي
-          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: التخطيط لدفتر عناوين عمومي ودفاتر أخرى
-              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: تكوين دفتر العناوين العمومي
-              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: الأسئلة المتداولة حول دفاتر العناوين
-              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: سير العمل
-          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: عناصر سير العمل
-              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: الإجراءات في عمليات الموافقة على سير العمل
-              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إنشاء عمليات سير عمل
-              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-              items:
-                - name: تكوين خصائص سير العمل
-                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين مهام يدوية
-                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين مهام مؤتمتة
-                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين عمليات اعتماد
-                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين خطوات اعتماد
-                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين قرارات يدوية
-                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين قرارات شرطية
-                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين أنشطة موازية
-                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين فروع موازية
-                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين عمليات سير عمل لعنصر بند
-                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: تكوين الوظيفة الدفعية لمعالجة الرسالة
-              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: تفويض عناصر العمل في سير عمل
-              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: عرض محفوظات سير العمل
-              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: تمكين المستخدمين من تلقي رسائل البريد الإلكتروني المرتبطة بسير العمل
-              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: التنبيهات
-          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: إنشاء قواعد تنبيه
-              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: المعالجة الدُفعية للتنبيهات
-              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: إدارة الحالة
-          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: التخطيط لأمان الحالة والعمليات والفئات
-              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: تكوين إدارة المستندات
-          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: تكوين وإرسال البريد الإلكتروني
-          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: بيانات التاريخ/الوقت والمناطق الزمنية
-          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: مهام الموارد البشرية
-      items:
-        - name: إضافة إلى دفتر يومية أدائك وإرسال ثناء إلى أحد الأشخاص
-          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: إنشاء هدف
-          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: إنشاء مراجعة الأداء
-          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: استكشاف أخطاء Talent وإصلاحها
-      items:
-        - name: لم يتم تحديث تقارير التحليلات
-          href: analytic-reports-not-updated.md
-        - name: لا يمكن إنشاء بيئة في مركز إدارة PowerApps
-          href: create-envi-powerapps-admin-ctr.md
-        - name: قطع اتصال عميل Talent
-          href: client-disconnects.md
-        - name: تجنب اقتطاع نص في التدرج الهرمي للمناصب والتصدير إلى Visio
-          href: avoid-text-truncation-position-hierarchy-visio.md
-        - name: تشغيل عملية التعويض
-          href: run-compensation-process.md
-        - name: حفظ دلائل المهام في LCS وإعادة تشغيلها
-          href: save-play-task-guides-LCS.md
-        - name: الوصول إلى العناوين الخاصة حسب دور الأمان
-          href: security-roles-addresses.md
-        - name: عدم ظهور Talent بين تطبيقات Microsoft Dynamics 365 (Common Data Service 1.0)
-          href: talent-not-in-home-CDS.md
-        - name: بإمكان المستخدم الوصول إلى Core HR ولكن ليس إلى تطبيق Onboard أو Attract
-          href: user-access-core-hr.md
-        - name: خيارات إعداد التقارير في Talent
-          href: talent-reporting-options.md
-        - name: الأسئلة المتداولة حول التكامل
-          href: talent-FO-integration.md
-        - name: لم يتم العثور على مستخدمي Azure Active Directory في منتقي الأشخاص
-          href: people-picker-user-not-found.md
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="TOC.yml" target-language="ar-SA">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>TOC.8820d6.dea47d376e4da04c15c94a8207856ec23522f4a7.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>dea47d376e4da04c15c94a8207856ec23522f4a7</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>7e223ddd04184fe5a9861be1405fcc0eb8dd166c</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/04/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\talent\TOC.yml</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101">
+          <source>Dynamics 365 for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dynamics 365 for Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102">
+          <source>Get started</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">البدء</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Get started with Talent</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">بدء استخدام Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>What's new or changed in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">الجديد أو المتغير‬ في Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>May 28, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">28 مايو 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>May 21, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">21 مايو 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>May 13, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">13 مايو 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>May 6, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">6 مايو 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>April 30, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">30 أبريل 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>April 25, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">25 أبريل 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>April 16, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">16 أبريل 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>April 9, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">9 أبريل 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>April 2, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2 أبريل 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>March 26, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">26 مارس 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>March 20, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20 مارس 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>March 14, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14 مارس 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>March 5, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5 مارس 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>What's new archives 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">الجديد في أرشيفات 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>February 27, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">27 فبراير 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>February 14, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14 فبراير 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>February 7, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7 فبراير 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>January 31, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31 يناير 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>January 23, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">23 يناير 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>January 17, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">17 يناير 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>January 11, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">11 يناير 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>What's new archives 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">الجديد في أرشيفات 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>December 14, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14 ديسمبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>December 6, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6 ديسمبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>November 27, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">27 نوفمبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>November 15, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">15 نوفمبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>October 31, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31 أكتوبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>October 19, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">19 أكتوبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>October 15, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">15 أكتوبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>October 8, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8 أكتوبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>October 1, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1 أكتوبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>September 24, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">24 سبتمبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>September 17, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">17 سبتمبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>September 10, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 سبتمبر 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>August 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">أغسطس 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>July 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يوليو 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>System requirements and update policy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">متطلبات النظام وسياسة التحديث</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Provision Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">توفير Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Remove Talent environments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إزالة بيئات Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Provisioning for the Onboard app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">التزويد لتطبيق Onboard</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Embed PowerApps apps</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تضمين تطبيقات PowerApps</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Core HR and Common Data Service</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Core HR وCommon Data Service</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Access preview features</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">الوصول إلى ميزات المعاينة</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Get support for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">الحصول على دعم لـ Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Staff your organization with Attract</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">تعيين الموظفين لمؤسستك‬ باستخدام Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Which version of Attract?</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">أي إصدار من Attract؟</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Attract features and capabilities</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">ميزات وقدرات Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Create a process template in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إنشاء قالب عملية في Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Create, approve, and post jobs in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إنشاء الوظائف والموافقة عليها ونشرها في Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Post jobs to external career sites from Attract</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">نشر الوظائف في مواقع مهن خارجية من Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Source candidates by using talent pools</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">توريد المرشحين باستخدام مجموعات المواهب‬</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Sourcing with LinkedIn Recruiter</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">التوريد باستخدام LinkedIn Recruiter</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Activities in the hiring processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">الأنشطة في عمليات التوظيف</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Interview scheduling and feedback</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">جدولة المقابلات والملاحظات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">قابلية التوسعة‬ في Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Career site functionality in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">وظيفة موقع الوظائف في Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Set up offer management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إعداد إدارة العروض</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Create, approve, and sign offers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إنشاء العروض والموافقة والتوقيع عليها</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Email templates</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">قوالب البريد الإلكتروني</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Security and role management in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إدارة الأمان والأدوار في Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Admin settings in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إعدادات المسؤول في Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Intelligent recommendations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">التوصيات الذكية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Create an engaging onboarding experience</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إنشاء تجربة إعداد تفاعلية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Track sources for candidate profiles and applications</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تعقب المصادر لملفات التعريف واستمارات التقديم الخاصة بالمرشحين</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Use analytic reports for hiring process insights</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">استخدام تقارير تحليلية للحصول على تفاصيل عملية التوظيف</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Manage your workforce with Core HR</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">أداره القوى العاملة باستخدام Core HR</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Organize your workforce</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">تنظيم القوى العاملة</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Organize your workforce by using departments, jobs, and positions</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Set up the components of a job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إعداد مكونات وظيفة</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Create departments and include them in the department hierarchy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إنشاء الأقسام وتضمينها في التسلسل الهرمي للقسم</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Set up HR parameters across legal entities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إعداد معلمات الموارد البشرية عبر الكيانات القانونية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Set up company-specific HR parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إعداد معلمات الموارد البشرية الخاصة بالشركة</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Personnel actions FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">الأسئلة المتداولة حول إجراءات العاملين</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Formalize business processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">صياغة العمليات التجارية</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Use workflows to manage employee information</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Set up number sequences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إعداد التسلسلات الرقمية</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Number sequence overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">نظرة عامة على التسلسلات الرقمية</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Set up number sequences on an individual basis</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إعداد التسلسلات الرقمية على أساس فردي</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Set up number sequences by using a wizard</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إعداد التسلسلات الرقمية باستخدام معالج</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Configure organizations and organizational hierarchies</source><target logoport:matchpercent="84" state="translated" state-qualifier="fuzzy-match">تكوين المؤسسات والتدرجات الهرمية للمؤسسات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Organizations overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">نظرة عامة على المؤسسات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Plan your organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تخطيط التدرج الهرمي للمؤسسات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Create an organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إنشاء تدرج هرمي مؤسسي</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Create a legal entity</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إنشاء كيان قانوني</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Create an operating unit</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إنشاء وحدة تشغيل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Set up a global address book</source><target logoport:matchpercent="70" state="translated" state-qualifier="fuzzy-match">إعداد دفتر العناوين العمومي</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Global address book overview</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">نظرة عامة على دفتر العناوين العمومي</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>Plan for the global address book and others</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">التخطيط لدفتر عناوين عمومي ودفاتر أخرى</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Configure the global address book</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تكوين دفتر العناوين العمومي</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Address books FAQ</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">الأسئلة المتداولة حول دفاتر العناوين</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Configure workflows</source><target logoport:matchpercent="81" state="translated" state-qualifier="fuzzy-match">تكوين عمليات سير العمل‬</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Workflow overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">نظرة عامة على سير العمل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Workflow elements</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">عناصر سير العمل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Actions in workflow approval processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">الإجراءات في عمليات الموافقة على سير العمل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Create workflows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إنشاء عمليات سير عمل</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Configure workflow properties</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين خصائص سير العمل</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Configure manual tasks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين مهام يدوية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Configure automated tasks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين مهام مؤتمتة</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Configure approval processes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين عمليات اعتماد</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Configure approval steps</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين خطوات اعتماد</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Configure manual decisions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين قرارات يدوية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Configure conditional decisions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين قرارات شرطية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Configure parallel activities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين أنشطة موازية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Configure parallel branches</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين فروع موازية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Configure line-item workflows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين عمليات سير عمل لعنصر بند</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Configure the message processing batch job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تكوين الوظيفة الدفعية لمعالجة الرسالة</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Delegate work items in a workflow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تفويض عناصر العمل في سير عمل</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>View workflow history</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">عرض محفوظات سير العمل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Enable users to receive workflow-related email messages</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تمكين المستخدمين من تلقي رسائل البريد الإلكتروني المرتبطة بسير العمل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Set up alerts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إعداد التنبيهات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Alerts overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">نظرة عامة على التنبيهات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Create alert rules</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إنشاء قواعد تنبيه</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>Batch processing of alerts</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">المعالجة الدُفعية للتنبيهات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Manage cases</source><target logoport:matchpercent="0" state="translated">إدارة الحالات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Case management overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">نظرة عامة على إدارة الحالات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Plan case security, processes, and categories</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">التخطيط لأمان الحالة والعمليات والفئات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Configure document management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تكوين إدارة المستندات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Configure and send email</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تكوين وإرسال البريد الإلكتروني</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Date/time data and time zones</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">بيانات التاريخ/الوقت والمناطق الزمنية</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Set up leave and absence</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">إعداد الإجازة والغياب</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Manage leave and absence</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إدارة الإجازة والغياب</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Leave and absence concepts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">مفاهيم الإجازة والغياب</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Accrue time off based on hours worked</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">زمن التوقف المستحق على أساس ساعات العمل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Working time calendars</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تقويمات أوقات العمل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Set up compensation plans</source><target logoport:matchpercent="79" state="translated" state-qualifier="fuzzy-match">إعداد خطط التعويض</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Compensation plans overview</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">نظرة عامة على خطط التعويض</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Create fixed compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">إنشاء خطط التعويض الثابت</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Create variable compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">إنشاء خطط التعويض المتغير</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Process compensation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تعويض العملية</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Set up the components of a job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إعداد مكونات وظيفة</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Develop and train employees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تطوير الموظفين وتدريبهم</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Performance management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إدارة الأداء</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Align workforce skills with business needs</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">مواءمة احتياجات العمل مع مهارات العاملين</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Set up training courses</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إعداد الدورات التدريبية</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Add to your performance journal and send praise to someone</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إضافة إلى دفتر يومية أدائك وإرسال ثناء إلى أحد الأشخاص</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Create a goal</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إنشاء هدف</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Create a performance review</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إنشاء مراجعة الأداء</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Define and manage a benefits program</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تحديد وإدارة برنامج ميزات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Define and manage a benefits program</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">تحديد وإدارة برنامج ميزات</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Benefit eligibility policies</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">سياسات استحقاق الميزات</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Generate Affordable Care Act (ACA) reports</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إنشاء تقارير قانون الرعاية ميسورة التكلفة (Affordable Care Act)</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Manage items lent to workers</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">إدارة الأصناف المعارة للعاملين</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Evaluate key metrics with questionnaires</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">تقييم المقاييس الأساسية بواسطة الاستبيانات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Gather information with questionnaires</source><target logoport:matchpercent="85" state="translated" state-qualifier="x-fuzzy-match-unedited">جمع المعلومات باستخدام الاستبيانات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Design questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تصميم استبيانات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Distribute and schedule questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">توزيع الاستبيانات وجدولتها</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>View and evaluate the results of questionnaires</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">عرض وتقييم نتائج الاستبيانات</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Workplace safety and compliance (United States)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">السلامة والامتثال في أماكن العمل (الولايات المتحدة)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Respond to a request for personal data in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">الاستجابة لطلب بيانات شخصية في Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Form I-9 employment verification</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">التحقق من صحة نموذج التوظيف I-9</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Comply with the ADA</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">التوافق مع قانون الأمريكيين المعوقين</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Integration</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">تكامل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Integrate with Dynamics 365 for Finance and Operations</source><target logoport:matchpercent="0" state="translated">التكامل مع Dynamics 365 for Finance and Operations</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Configure the payroll integration between Talent and Dayforce</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تكوين تكامل كشف الرواتب بين Talent وDayforce</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Data integration guidance for Dynamics 365 for Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إرشادات حول تكامل البيانات مع Dynamics 365 for Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Integration FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">الأسئلة المتداولة حول التكامل</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Recurring data export using Azure Logic apps</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تصدير البيانات المتكررة باستخدام تطبيقات Azure Logic</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Office integration</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">تكامل Office‬‏‫</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Office integration tutorial</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">برنامج تعليمي لتكامل Office</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Update entity data in Excel</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تحديث بيانات الكيان في Excel</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Create Open in Excel experiences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">إنشاء خبرات فتح في Excel</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Troubleshoot the Office integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">استكشاف أخطاء تكامل Office وإصلاحها</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>Extensibility</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">قابلية التوسعة</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Embedded Power BI in workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Embedded Power BI في مساحات العمل</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Extend Talent by using PowerApps and Microsoft Flow - Example scenarios</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Mobile app</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تطبيق الجوال</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>Mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">مساحات العمل المحمولة</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Company directory mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">مساحة العمل المحمولة "دليل الشركة"</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>My team mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">مساحة العمل المحمولة "فريقي"</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Publish mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">نشر مساحات العمل المحمولة</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>Track changes in recruiting data</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">تعقب التغييرات في بيانات التعيين</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">قابلية التوسعة‬ في Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Custom fields in Core HR</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">الحقول المخصصة في Core HR</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Troubleshoot Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">استكشاف أخطاء Talent وإصلاحها</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Analytic reports aren't updated</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">لم يتم تحديث تقارير التحليلات</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Can't create an environment in the PowerApps Admin center</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">لا يمكن إنشاء بيئة في مركز إدارة PowerApps</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Talent client disconnects</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">قطع اتصال عميل Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Avoid text truncation on the position hierarchy and export to Visio</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تجنب اقتطاع نص في التدرج الهرمي للمناصب والتصدير إلى Visio</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Run the compensation process</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تشغيل عملية التعويض</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>Save task guides to LCS and replay them</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">حفظ دلائل المهام في LCS وإعادة تشغيلها</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Access to private addresses by security role</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">الوصول إلى العناوين الخاصة حسب دور الأمان</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Talent doesn't appear among the Microsoft Dynamics 365 apps (Common Data Service 1.0)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">عدم ظهور Talent بين تطبيقات Microsoft Dynamics 365 (Common Data Service 1.0)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>User can access Core HR but not the Onboard or Attract app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">بإمكان المستخدم الوصول إلى Core HR ولكن ليس إلى تطبيق Onboard أو Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Reporting options in Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">خيارات إعداد التقارير في Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Integration FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">الأسئلة المتداولة حول التكامل</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Azure Active Directory users not found in People Picker</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">لم يتم العثور على مستخدمي Azure Active Directory في منتقي الأشخاص</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
