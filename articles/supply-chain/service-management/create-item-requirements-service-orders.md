@@ -54,7 +54,7 @@ ms.locfileid: "1553405"
 
 3.  <span data-ttu-id="b2b1a-120">في علامة التبويب السريعة **البنود**، انقر فوق **إضافة** لإنشاء بند جديد.</span><span class="sxs-lookup"><span data-stu-id="b2b1a-120">On the **Lines** FastTab, click **Add** to create a new line.</span></span>
 
-4.  <span data-ttu-id="b2b1a-121"> في الحقل *\*نوع الحركة*\*، حدد *\*الصنف*\*.</span><span class="sxs-lookup"><span data-stu-id="b2b1a-121">In the **Transaction type** field, select **Item**.</span></span>
+4.  <span data-ttu-id="b2b1a-121"> في الحقل **نوع الحركة**، حدد **الصنف**.</span><span class="sxs-lookup"><span data-stu-id="b2b1a-121">In the **Transaction type** field, select **Item**.</span></span>
 
 5.  <span data-ttu-id="b2b1a-122">في الحقل **إعداد الصنف**، حدد **متطلب الصنف**.</span><span class="sxs-lookup"><span data-stu-id="b2b1a-122">In the **Item setup** field, select **Item requirement**.</span></span>
 

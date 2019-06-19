@@ -1,60 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="payinvoice.md" target-language="ar-SA">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>payinvoice.758282.b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\payinvoice.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Set up pay invoice scenarios</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إعداد سيناريوهات دفع الفواتير</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic describes how to configure Dynamics 365 for Retail to support various scenarios relating to invoice payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">يصف هذا الموضوع كيفية تكوين Dynamics 365 for Retail لدعم مختلف السيناريوهات ذات الصلة بدفع الفواتير.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Set up pay invoice scenarios</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">إعداد سيناريوهات دفع الفواتير</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>The Pay invoice functionality in Dynamics 365 for Retail has been expanded to support:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">تم توسيع نطاق وظيفة دفع الفواتير في Dynamics 365 for Retail لكي تدعم:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Payoff of multiple sales order invoices in a single POS transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">دفع فواتير أوامر مبيعات متعددة في حركة نقطة بيع واحدة.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">دفع مختلف أنواع فواتير العملاء بما في ذلك فواتير النص الحر والفواتير القائمة على المشاريع والإشعارات الدائنة.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">لتمكين هذه السيناريوهات، يجب تكوين ملف تعريف الوظائف للمتاجر كما هو موضح أدناه.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Go to <bpt id="p1">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> POS setup <ph id="ph3">\&gt;</ph> POS profiles <ph id="ph4">\&gt;</ph> Functionality profiles<ept id="p1">**</ept> and select a profile that's linked to the stores that you want to make the changes for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">انتقل إلى <bpt id="p1">**</bpt>البيع بالتجزئة <ph id="ph1">\&gt;</ph> إعداد القناة <ph id="ph2">\&gt;</ph> إعداد نقطة البيع <ph id="ph3">\&gt;</ph> ملفات تعريف نقطة البيع <ph id="ph4">\&gt;</ph> ملفات تعريف الوظائف<ept id="p1">**</ept> وحدد ملف تعريف يرتبط بالمتاجر التي تريد إدخال تغييرات عليها.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>On the <bpt id="p1">**</bpt>Functions<ept id="p1">**</ept> tab, configure the following parameters as needed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">على علامة تبويب <bpt id="p1">**</bpt>الوظائف<ept id="p1">**</ept>، قم بتكوين المعلمات التالية كما تقتضي الحاجة.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source><bpt id="p1">**</bpt>Sales order invoice<ept id="p1">**</ept> – Select <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to allow users to pay one or more sales order-based invoices in a single POS transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>فاتورة أمر المبيعات<ept id="p1">**</ept> – حدد <bpt id="p2">**</bpt>نعم<ept id="p2">**</ept> للسماح للمستخدمين بدفع فاتورة أو أكثر تستند إلى أمر مبيعات في حركة نقطة بيع واحدة.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">**</bpt>Free text invoice<ept id="p1">**</ept> – Select <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to allow users to pay one or more free text-based invoices in a single POS transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>فاتورة النص الحر<ept id="p1">**</ept> – حدد <bpt id="p2">**</bpt>نعم‏‎<ept id="p2">**</ept> للسماح للمستخدمين بدفع فاتورة واحدة أو أكثر تستند إلى نص حر في حركة نقطة بيع واحدة.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source><bpt id="p1">**</bpt>Project invoice<ept id="p1">**</ept> – Select <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to allow users to pay one or more project-based invoices in a single POS transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>فاتورة المشروع<ept id="p1">**</ept> – حدد <bpt id="p2">**</bpt>نعم<ept id="p2">**</ept> للسماح للمستخدمين بدفع فاتورة واحدة أو أكثر تستند إلى مشروع في حركة نقطة بيع واحدة.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">**</bpt>Sales order credit note<ept id="p1">**</ept> – Select <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>إشعار دائن لأمر المبيعات<ept id="p1">**</ept> – حدد <bpt id="p2">**</bpt>نعم<ept id="p2">**</ept> للسماح للمستخدمين بتسوية إشعارات دائنة متعددة تستند إلى أمر مبيعات في مقابل فواتير مفتوحة، أو بمعالجة مبلغ مسترد للعميل لإشعار دائن مفتوح.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Payment or settlement of partial amounts is not yet supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">دفع المبالغ الجزئية أو تسويتها غير مدعوم بعد.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: إعداد سيناريوهات دفع الفواتير
+description: يصف هذا الموضوع كيفية تكوين Dynamics 365 for Retail لدعم مختلف السيناريوهات ذات الصلة بدفع الفواتير.
+author: josaw1
+manager: AnnBe
+ms.date: 11/14/2018
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: josaw
+ms.search.validFrom: 2018-11-15
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564960"
+---
+# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="1c101-103">إعداد سيناريوهات دفع الفواتير</span><span class="sxs-lookup"><span data-stu-id="1c101-103">Set up pay invoice scenarios</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="1c101-104">تم توسيع نطاق وظيفة دفع الفواتير في Dynamics 365 for Retail لكي تدعم:</span><span class="sxs-lookup"><span data-stu-id="1c101-104">The Pay invoice functionality in Dynamics 365 for Retail has been expanded to support:</span></span>
+
+- <span data-ttu-id="1c101-105">دفع فواتير أوامر مبيعات متعددة في حركة نقطة بيع واحدة.</span><span class="sxs-lookup"><span data-stu-id="1c101-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
+- <span data-ttu-id="1c101-106">دفع مختلف أنواع فواتير العملاء بما في ذلك فواتير النص الحر والفواتير القائمة على المشاريع والإشعارات الدائنة.</span><span class="sxs-lookup"><span data-stu-id="1c101-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
+
+<span data-ttu-id="1c101-107">لتمكين هذه السيناريوهات، يجب تكوين ملف تعريف الوظائف للمتاجر كما هو موضح أدناه.</span><span class="sxs-lookup"><span data-stu-id="1c101-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
+
+1. <span data-ttu-id="1c101-108">انتقل إلى **البيع بالتجزئة \> إعداد القناة \> إعداد نقطة البيع \> ملفات تعريف نقطة البيع \> ملفات تعريف الوظائف** وحدد ملف تعريف يرتبط بالمتاجر التي تريد إدخال تغييرات عليها.</span><span class="sxs-lookup"><span data-stu-id="1c101-108">Go to **Retail \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
+2. <span data-ttu-id="1c101-109">على علامة تبويب **الوظائف**، قم بتكوين المعلمات التالية كما تقتضي الحاجة.</span><span class="sxs-lookup"><span data-stu-id="1c101-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
+
+    - <span data-ttu-id="1c101-110">**فاتورة أمر المبيعات** – حدد **نعم** للسماح للمستخدمين بدفع فاتورة أو أكثر تستند إلى أمر مبيعات في حركة نقطة بيع واحدة.</span><span class="sxs-lookup"><span data-stu-id="1c101-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="1c101-111">**فاتورة النص الحر** – حدد **نعم‏‎** للسماح للمستخدمين بدفع فاتورة واحدة أو أكثر تستند إلى نص حر في حركة نقطة بيع واحدة.</span><span class="sxs-lookup"><span data-stu-id="1c101-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="1c101-112">**فاتورة المشروع** – حدد **نعم** للسماح للمستخدمين بدفع فاتورة واحدة أو أكثر تستند إلى مشروع في حركة نقطة بيع واحدة.</span><span class="sxs-lookup"><span data-stu-id="1c101-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="1c101-113">**إشعار دائن لأمر المبيعات** – حدد **نعم** للسماح للمستخدمين بتسوية إشعارات دائنة متعددة تستند إلى أمر مبيعات في مقابل فواتير مفتوحة، أو بمعالجة مبلغ مسترد للعميل لإشعار دائن مفتوح.</span><span class="sxs-lookup"><span data-stu-id="1c101-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="1c101-114">دفع المبالغ الجزئية أو تسويتها غير مدعوم بعد.</span><span class="sxs-lookup"><span data-stu-id="1c101-114">Payment or settlement of partial amounts is not yet supported.</span></span>
