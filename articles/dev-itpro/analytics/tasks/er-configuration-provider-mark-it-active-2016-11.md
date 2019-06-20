@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544899"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595385"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>إنشاء موفري التكوين ووضع علامة عليهم على أنهم نشطاء
 
@@ -34,11 +34,11 @@ ms.locfileid: "1544899"
 1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
 2. انقر فوق "موفرو التكوين".
 3. انقر فوق "جديد".
-    * يكون سجل الموفر فريدًا من حيث الاسم وعنوان URL. راجع محتويات هذه الصفحة وتجاوز هذا الإجراء في حال وجود سجل خاص بشركة Litware, Inc. (http://www.litware.com) الموجود بالفعل.  
+    * يكون سجل الموفر فريدًا من حيث الاسم وعنوان URL. راجع محتويات هذه الصفحة وتجاوز هذا الإجراء في حال وجود سجل خاص بشركة Litware, Inc. (https://www.litware.com) الموجود بالفعل.  
 4. في الحقل "الاسم"، اكتب "Litware, Inc.".
     * .Litware, Inc  
-5. في حقل عنوان الإنترنت، اكتب "http://www.litware.com".
-    * http://www.litware.com  
+5. في حقل عنوان الإنترنت، اكتب "https://www.litware.com".
+    * https://www.litware.com  
 6. انقر فوق "حفظ".
 7. قم بإغلاق الصفحة.
 

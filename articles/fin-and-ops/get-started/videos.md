@@ -3,7 +3,7 @@ title: مقاطع فيديو لتطبيق Finance and Operations
 description: تسرد هذه الصفحة مقاطع الفيديو "الإرشادية" والأحاديث التقنية المتعلقة بتطبيق Dynamics 365 for Finance and Operations التي أنشأتها Microsoft والمتوفرة على YouTube ومواقع أخرى.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2018
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
+ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561658"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1591538"
 ---
 # <a name="videos-for-finance-and-operations"></a>مقاطع الفيديو لـ Finance and Operations
 
@@ -50,7 +50,7 @@ ms.locfileid: "1561658"
 - [مرشد تحسين الأداء](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [إعداد فرع التطوير والبناء](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [إعداد جهاز التطوير](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [تكامل Azure Devops مع Lifecycle services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+- تكامل [Azure DevOps مع Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
 #### <a name="explore-the-user-interface"></a>استكشاف واجهة المستخدم
 
@@ -61,8 +61,9 @@ ms.locfileid: "1561658"
 
 - [العثور على الإصدار الخاص بمصمم التقارير](https://www.youtube.com/embed/icfA5Q3kp4w)
 - [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
-- [بدء الاستخدام في ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
+- [بدء ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
 - [استخدام Excel لتحليل التكلفة](https://youtu.be/-HKHYdClvx8)
+- [تجربه المصروفات](https://youtu.be/Ocy-MsTvEE0)
 
 #### <a name="intelligence"></a>المعلومات
 

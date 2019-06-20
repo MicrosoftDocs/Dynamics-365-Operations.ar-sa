@@ -15,12 +15,12 @@ ms.search.region: Saudi Arabia
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af44fc37dc35eaa39ce1ae9b9b3dca15327008d4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c59260ab435df3b3f524699847ed2e7e5577267c
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537622"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568709"
 ---
 # <a name="sales-tax-for-saudi-arabia"></a>ضريبة المبيعات للمملكة العربية السعودية
 

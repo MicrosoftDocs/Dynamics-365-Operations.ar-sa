@@ -3,7 +3,7 @@ title: الميزات التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها.
 author: sericks007
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 06/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1527661"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620635"
 ---
 # <a name="removed-or-deprecated-features"></a>الميزات المهلكة أو التي تمت إزالتها
 
@@ -38,8 +38,35 @@ ms.locfileid: "1527661"
 > [!NOTE]
 > اعتبارًا من تحديث يوليو 2017 لتطبيق Dynamics 365 for Finance and Operations مع platform update 8، يتم ذكر نوع عمليات النشر لكل ميزة تمت إزالتها أو إهمالها. تدعم كافة الإصدارات السابقة المذكورة في هذا لموضوع عمليات نشر المجموعة فقط.
 
-> [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في Finance and Operations في [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+
+### <a name="france-fec-accounting-data-export-in-xml"></a>فرنسا: تصدير البيانات المحاسبية FEC‬ بتنسيق XML
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | يتوفر **ملف تدقيق FEC الفرنسي**الذي تم استبداله بتنسيق XML من خلال **دفتر الأستاذ العام**\>**المهام الدورية**\> **تصدير البيانات**
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم |
+| **مناطق المنتجات المتأثرة**         | دفتر الأستاذ العام |
+| **خيارات النشر**              | الكل |
+| **الحالة**                         | مهملة. الإطار الزمني الهدف للوظيفة المطلوب إزالتها هو يوليو 2020. |
+
+=======
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>الإصدار 10.0.4 من Dynamics 365 for Finance and Operations مع Platform update 28
+
+> [!IMPORTANT]
+> يتوفر Dynamics 365 for Finance and Operations 10.0.4 مع Platform update 28 للمستخدمين المستهدفين كجزء من إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [توافر تحديث الخدمة‬](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-navigation-bar"></a>شريط التنقل القديم
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | محاذاة الرأس مع منتجات Dynamics وOffice الأخرى. لمزيد من التفاصيل، راجع [شريط التنقل المحدث الذي يتوافق مع رأس Office](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **هل تم الاستبدال بميزة أخرى؟**   | بدءًا من تحديث النظام الأساسي 24 ، تم تقديم شريط تنقل معاد تصفيفه يتميز بالبحث. |
+| **مناطق المنتجات المتأثرة**         | عميل الويب |
+| **خيارات النشر**              | الكل |
+| **الحالة**                         | مهملة: بدءًا من أبريل 2020 ، لن يكون شريط التنقل القديم متاحًا بعد الآن. حتى هذه النقطة ، يمكن للعملاء العودة إلى شريط التنقل القديم من خلال صفحة **خيارات أداء العملاء**. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>الإصدار 10.0.2 من Dynamics 365 for Finance and Operations مع Platform update 26

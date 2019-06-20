@@ -3,7 +3,7 @@ title: تحديثات تنظيمية
 description: يوفر هذا الموضوع قائمة بالتحديثات التنظيمية المخططة والصادرة لتطبيق Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530697"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593333"
 ---
 # <a name="regulatory-updates"></a>تحديثات تنظيمية
 
@@ -52,12 +52,23 @@ ms.locfileid: "1530697"
 |      2019 أبريل          |   10.0.1      |   ألمانيا     |الفوترة الإلكترونية - تصدير فواتير العملاء بتنسيق xRechnung 1.1         |
 |      2019 أبريل          |   10.0.1      |    المملكة المتحدة     |[تغييرات في إرسال كشف ضريبة القيمة المضافة (رقمنة الضرائب)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 أبريل          |   10.0.1      |    البرازيل     |NT NF-e 2018.005 جديد         |
-|      2019 أبريل          |   10.0.1      |    روسيا     |تغييرات في تنسيق الإقرار بضريبة القيمة المضافة من 2019         |
-|      2019 أبريل          |   10.0.1      |    روسيا     |تغييرات في تنسيق الإقرار بضريبة القيمة المضافة من 2019‬ (دفاتر المبيعات والمشتريات) 
+|      2019 أبريل          |   10.0.1      |    روسيا     |[تغييرات في تنسيق الإقرار بضريبة القيمة المضافة من 2019](rus-VAT-declaration.md) |
+|      2019 أبريل          |   10.0.1      |    روسيا     |تغييرات في تنسيق الإقرار بضريبة القيمة المضافة من 2019‬ (دفاتر المبيعات والمشتريات) |
+|      2019 أبريل          |   10.0.1      |    روسيا     |يتغير إعلان ضريبة الأرض من 2018 |
+|      2019 أبريل          |   10.0.1      |    روسيا     |[يتغير إعلان ضريبة الممتلكات من 2019](rus-assessed-tax-declaration.md)|
+|      2019 أبريل          |   10.0.1      |    روسيا     |يتغير إعلان ضريبة النقل من 2019  |
+|      2019 أبريل            |   10.0.1      | هنغاريا‬      |  المجر: الفوترة عبر الإنترنت v. 1.1 2019 على Microsoft Dynamics 365 for Finance and Operations  |
 |      2019 مايو            |   10.0.2      | البرازيل      |   SPED ECD تخطيط 7   |
+|      معلق            |   10.0.3      | البرازيل      |   NF-e NT 2018.005 - v.1.20 جديد   |
+|      معلق            |   10.0.3      | البرازيل      |   SPED ECD تخطيط 7   |
+|      معلق            |   10.0.3      | البرازيل      |   SPED ECF - المخطط 5 لـ 2019   |
+|      معلق            |   10.0.3      | ليتوانيا    |   يتيح تقرير i.SAF للمستخدم تحديد رموز ضريبة المبيعات للنظام مع رموز الضرائب القانونية    |
+|      معلق            |   10.0.3      | بولندا     |   فواتير SAF (JPK_FA) v.2 من 1Jul2019  |
+|      معلق            |   10.0.3      | البرازيل   |   تعمل تعديلات المستندات المالية لـ ICMS على تمكين الجدول 5.2   |
+|      معلق            |   10.0.3      | البرازيل    |   NF-e Decree 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-- ابحث عن كافة التحديثات التنظيمية المخططة والصادرة في [Lifecycle Service - بحث عن المشاكل](https://lcs.dynamics.com/Logon/Index) (تسجيل الدخول مطلوب).
+- ابحث عن كافة التحديثات التنظيمية المخططة والصادرة في [Lifecycle Service - بحث عن المشاكل](https://lcs.dynamics.com/Logon/Index) (مطلوب تسجيل الدخول).
 - للحصول على قائمة بالترجمات المدعومة لتطبيق Dynamics 365 for Finance and Operations، راجع [دليل التوافر الدولي](https://aka.ms/dynamics_365_international_availability_deck).
 

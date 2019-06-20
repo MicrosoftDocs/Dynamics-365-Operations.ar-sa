@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4832a056a99e0f7521e022982b7db7b16d7064a3
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561988"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595483"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>متطلبات ضبط حجم الأجهزة للبيئات المحلية
 
@@ -99,7 +99,7 @@ ms.locfileid: "1561988"
 
 بالنسبة إلى ضبط حجم AD FS، راجع [وثائق القدرة الإنتاجية لخادم AD FS](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
-يتوفر [جدول بيانات ضبط الحجم](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) لتخطيط عدد المثيلات في عملية النشر.
+يتوفر [جدول بيانات ضبط الحجم](https://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) لتخطيط عدد المثيلات في عملية النشر.
 
 ## <a name="aos-online-and-batch"></a>AOS (عبر الإنترنت ودُفعة)
 

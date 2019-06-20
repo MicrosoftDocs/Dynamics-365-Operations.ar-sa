@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552707"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606885"
 ---
 # <a name="attributes-and-attribute-groups"></a>السمات ومجموعات السمات
 
@@ -176,8 +176,8 @@ ms.locfileid: "1552707"
 > [!NOTE]
 > يمكن استخدام هذا الإجراء أيضًا لتعيين مجموعات السمات إلى الفئات في التدرج الهرمي لفئة التنقل في القنوات والتدرج الهرمي لفئة المنتج التكميلي. في الخطوة 2، استخدم مسارات الانتقال التالية:
 >
-> - **Retail** &gt; **إدارة الفئات والمنتجات** &gt; **فئات التنقل في القنوات**
-> - **البيع بالتجزئة** &gt; **إدارة الفئات والمنتجات** &gt; **فئات المنتج التكميلي**.
+> - Retail &gt; إدارة الفئات والمنتجات &gt; فئات التنقل في القنوات
+> - البيع بالتجزئة &gt; إدارة الفئات والمنتجات &gt; فئات المنتجات التكميلية
 
 ### <a name="assign-attribute-groups-to-retail-stores"></a>تعيين مجموعات السمات لمتاجر البيع بالتجزئة
 

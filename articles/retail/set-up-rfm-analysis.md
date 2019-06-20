@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553035"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606816"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء
 
@@ -46,7 +46,7 @@ ms.locfileid: "1553035"
 
 إذا كانت مؤسستك تستخدم رقمًا مجمعًا للمصدر، فإنه تتم إضافة التصنيفات الفردية معًا. على سبيل المثال نفسه، العميل يمتلك تصنيف 13 (5 + 3 + 5).
 
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>لإعداد تحليل RFM للعملاء في مؤسستك
+## <a name="set-up-rfm-analysis-for-the-customers-in-your-organization"></a>إعداد تحليل RFM للعملاء في مؤسستك
 
 1. انتقل إلى **مركز الاتصال** \> **دوري** \> **تحليل RFM**.
 2. في صفحة **تحليل RFM**، حدد **جديد**. في الحقل **تعريف RFM**، أدخل اسمًا لتعريف RFM. على سبيل المثال، يمكن استدعاء تعريف RFM-A.

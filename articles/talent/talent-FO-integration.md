@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517289"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617333"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>الأسئلة المتداول حول تكامل Dynamics 365 for Talent إلى Dynamics 365 for Finance and Operations
 
@@ -46,7 +46,7 @@ ms.locfileid: "1517289"
 
 بالنسبة إلى البيانات الموجودة في Finance and Operations ولكن غير الموجودة في Talent، يمكن ربط النظامين معًا باستخدام **تكوين الارتباطات** في Talent. للحصول على مزيد من المعلومات حول كيفية تكوين الارتباطات بين Talent وFinance and Operations، راجع [ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (31 أكتوبر 2018)](whats-new-talent-october-31.md).
 
-![](media/MapFinancialDimensions.png)
+![تعيين الأبعاد المالية](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>عندما أستورد موظفين، ينتقل هؤلاء في بعض الأحيان إلى عاملين غير نشطين في Finance and Operations. ما السبب؟
 
@@ -60,14 +60,14 @@ ms.locfileid: "1517289"
 
 باستخدام "الاستعلام المتقدم"، يمكنك تصفية البيانات المصدر وإعادة تشكيلها قبل تمريرها إلى الوجهة.
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![الاستعلام المتقدم للعاملين النشطين](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>هل يمكنني تحديد الحقول التي سيتم إرسالها إلى Finance and Operations لكيان معين؟
 
 يمكنك إضافة حقول أو إزالتها من مهمة التكامل. لن يتم ملء كافة حقول البيانات الموجودة على كيان Common Data Service من Core HR.
 يمكنك ملء بيانات إضافية عبر PowerApps.
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![إضافة حقول إلى أو إزالتها من مهمة تكامل](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>بعد إعداد التكامل كوظيفة دفعية، فقد Talent الاتصال بالنظام الوجهة. كيف يمكنني إرسال مجموعة التغييرات نفسها إلى النظام الوجهة؟
 
