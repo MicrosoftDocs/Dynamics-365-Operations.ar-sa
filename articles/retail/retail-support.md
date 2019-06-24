@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567966"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577834"
 ---
 # <a name="get-support-for-dynamics-365-for-retail"></a>الحصول على الدعم لتطبيق Dynamics 365 for Retail
 
@@ -61,7 +61,7 @@ ms.locfileid: "1567966"
 <li>على علامة التبويب <strong>مشكلة نشطة</strong>، حدد مشكلتك ثم انقر فوق <strong>إرسال إلى Microsoft</strong>.</li>
 <li>على علامة التبويب <strong>تم الإرسال إلى Microsoft</strong>، انقر فوق <strong>إرسال حادث جديد</strong> لإرسال المشكلة.</li>
 </ul>
-<blockquote>[!NOTE] باستطاعة عملاء وشركاء Microsoft Premier أيضًا إرسال تذاكر دعم العملاء المميز باستخدام الخطوات المذكورة أعلاه.</blockquote>
+<p><strong>ملاحظة:</strong> باستطاعة عملاء وشركاء Microsoft Premier أيضًا إرسال تذاكر دعم العملاء المميز باستخدام الخطوات المذكورة أعلاه.</p>
 </td>
 </tr>
 <tr>
@@ -84,4 +84,4 @@ ms.locfileid: "1567966"
 </tbody>
 </table>
 
-لمزيد من المعلومات حول عروض دعم Microsoft Dynamics، راجع [دعم Microsoft Dynamics عبر الإنترنت](https://dynamics.microsoft.com/en-us/support/).
+لمزيد من المعلومات حول عروض دعم Microsoft Dynamics، راجع [دعم Microsoft Dynamics عبر الإنترنت](https://dynamics.microsoft.com/support/).

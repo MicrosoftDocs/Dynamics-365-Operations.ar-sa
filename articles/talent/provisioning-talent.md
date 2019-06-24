@@ -3,7 +3,7 @@ title: توفير بيئة Talent
 description: ينقلك هذا الموضوع عبر عملية توفير بيئة جديدة لتطبيق Microsoft Dynamics 365 for Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 00/05/2019
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 98f60e466b8b97215fdba0f48ca53ca57157283b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
+ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517245"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1576911"
 ---
 # <a name="provision-talent"></a>توفير Talent
 
@@ -47,13 +47,14 @@ ms.locfileid: "1517245"
 بعد إنشاء مشروع LCS، يمكنك توفير Talent في بيئة.
 
 1. في مشروع LCS، حدد تجانب **"إدارة تطبيق Talent**.
-2. يتم توفير Talent دوماً في بيئة Microsoft PowerApps، لتمكين تكامل PowerApps وقابليته للتوسع. اقرأ قسم "تحديد بيئة PowerApps" في هذا الموضوع قبل المتابعة. إذا لم تكن لديك بيئة PowerApps، فحدد "إدارة البيئات" في LCS أو انتقل إلى مركز إدارة PowerApps. ثم اتبع الخطوات التي تؤدي إلى [إنشاء بيئة PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+2. حدد ما إذا كان هذا وضع حماية أو إنتاج مثيل من Talent. قد تتوفر ميزات المعاينة المبكرة في مثيلات وضع الحماية للسماح بالردود والاختبار في وقت مبكر. 
+3. حدد الخيار **تضمين بيانات العرض التوضيحي** إذا كنت تريد أن تتضمن بيئتك مجموعة بيانات العرض التوضيحي نفسها المستخدمة في تجربة اختبار إصدار Talent. وهذا مفيد في العرض التوضيحي طويل الأمد أو بيئات التدريب، ويجب إلا يتم استخدامه في بيئات الإنتاج.  لاحظ ضرورة تحديد هذا الخيار عند النشر الأولى. لا يمكن تحديث نشر موجود في وقت لاحق.
+4. يتم توفير Talent دوماً في بيئة Microsoft PowerApps، لتمكين تكامل PowerApps وقابليته للتوسع. اقرأ قسم "تحديد بيئة PowerApps" في هذا الموضوع قبل المتابعة. إذا لم تكن لديك بيئة PowerApps، فحدد "إدارة البيئات" في LCS أو انتقل إلى مركز إدارة PowerApps. ثم اتبع الخطوات التي تؤدي إلى [إنشاء بيئة PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > لعرض البيئات الموجودة أو إنشاء بيئات جديدة، يجب تعيين مسؤول المستأجرين الذي يوفر Talent لترخيص PowerApps P2. إذا لم يكن لدى مؤسستك ترخيص PowerApps P2، يمكنك الحصول على واحد من موفر حلول المجموعة (CSP) أو من [صفحة أسعار PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
 
-4. حدد **إضافة**، ثم حدد البيئة المراد توفير Talent فيها.
-5. حدد الخيار **تضمين بيانات العرض التوضيحي** إذا كنت تريد أن تتضمن بيئتك مجموعة بيانات العرض التوضيحي نفسها المستخدمة في تجربة اختبار إصدار Talent. وهذا مفيد في العرض التوضيحي طويل الأمد أو بيئات التدريب، ويجب إلا يتم استخدامه في بيئات الإنتاج.  لاحظ ضرورة تحديد هذا الخيار عند النشر الأولى. لا يمكن تحديث نشر موجود في وقت لاحق.
+5. حدد البيئة المراد توفير Talent فيها.
 6. حدد **نعم** للموافقة على الشروط وبدء النشر.
 
     تظهر بيئتك الجديدة في قائمة البيئات في جزء التنقل على الجانب الأيسر. ومع ذلك، لا يمكنك البدء في استخدام البيئة حتى يتم تحديث حالة النشر إلى **تم النشر**. تستغرق هذه العملية عادةً دقائق معدودة. إذا لم تنجح عملية التوفير، فيجب الاتصال بالدعم.

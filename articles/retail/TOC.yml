@@ -6,7 +6,7 @@
       href: get-started/whats-new.md
     - name: ميزات المعاينة في Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
-    - name: ميزات المعاينة في Dynamics 365 for Retail 10.0.2
+    - name: ما الجديد أو المتغير‬ في Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
     - name: ما الجديد أو المتغير‬ في Dynamics 365 for Retail 10.0.1
       href: get-started/whats-new-10-0-1.md
@@ -56,7 +56,11 @@
     - name: مشكلات الاختبار والأداء
       href: dev-itpro/retail-implementation-testing-performance.md
 - name: إدارة الأوامر الموزعة (DOM)
-  href: dom.md
+  items:
+    - name: نظرة عامة على DOM
+      href: dom.md
+    - name: تكوين التكلفة
+      href: cost.md
 - name: المدفوعات
   items:
     - name: طرق الدفع
@@ -67,6 +71,8 @@
       href: cash-denominations.md
     - name: موصل دفع Dynamics 365 لـ Adyen
       href: dev-itpro/adyen-connector.md
+    - name: حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen
+      href: dev-itpro/adyen-connector-listPI.md
     - name: إعداد سيناريوهات دفع الفواتير
       href: payinvoice.md
     - name: الأسئلة المتداولة حول الدفعات
@@ -91,11 +97,13 @@
       href: retail-statements.md
     - name: مدقق تناسق حركة البيع بالتجزئة
       href: valid-checker.md
-    - name: إنشاء كشوفات الحساب لمتجر بيع بالتجزئة وحسابها وترحيلها
+    - name: إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
       href: tasks/create-calculate-post-statement-retail-store.md
     - name: تحسينات على وظيفة ترحيل كشف الحساب
       href: statement-posting-EOD.md
-    - name: تكوين معلمات Retail التي تؤثر على كشوف حساب البيع بالتجزئة
+    - name: معالجة محسنة للأصناف المتعقبة بطريقة دُفعية
+      href: batch.md
+    - name: تكوين معلمات البيع بالتجزئة التي تؤثر على كشوف حساب البيع بالتجزئة
       href: tasks/parameter-configurations-retail-statements.md
     - name: تكوين إعدادات طريقة الدفع التي تؤثر على كشوف حساب البيع بالتجزئة
       href: tasks/payment-configurations-retail-statements.md
@@ -115,6 +123,8 @@
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: نظرة عامة على دفعات القناة متعددة الاتجاهات.
+  href: omni-channel-payments.md
 - name: التكاليف التلقائية المتقدمة ‬للقناة متعددة الاتجاهات
   items:
     - name: تكوين التكاليف التلقائية المتقدمة واستخدامها
@@ -159,12 +169,14 @@
       href: MPOS-or-CPOS.md
     - name: عمليات نقطة البيع أثناء الاتصال وعدم الاتصال
       href: pos-operations.md
-    - name: تنشيط جهاز Retail Modern POS مخصصة
+    - name: تنشيط جهاز Retail MPOS مخصصة
       href: dev-itpro/retail-POS-activation-changes.md
     - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في MPOS وCloud POS
       href: demo-data.md
     - name: البحث عن المنتج والعميل في نقطة البيع
       href: POS-search-improvements.md
+    - name: تحسينات إدارة النقد
+      href: cash-mgmt.md
     - name: البحث عن المخزون في نقطة البيع
       href: product-variants-POS.md
     - name: تعليق الحركات واستئنافها في نقطة البيع
@@ -586,19 +598,19 @@
           href: dev-itpro/odata-controllers-api.md
         - name: عميل Retail Server وواجهات API للمستهلك
           href: dev-itpro/retail-server-customer-consumer-api.md
-        - name: توسيع وحدة التحكم لبيانات التعريف لـ Retail Server الافتراضي
+        - name: توسيع وحدة تحكم بيانات تعريف Retail Server الافتراضي
           href: dev-itpro/extend-metadata.md
-        - name: الاتصال بخدمة CRT في وضع دون اتصال
+        - name: الاتصال بخدمة CRT في وضع عدم الاتصال
           href: dev-itpro/call-crt-service-offline.md
-    - name: قابلية توسعة Commerce runtime (CRT)
+    - name: قابلية توسعة Commerce Runtime (CRT)
       items:
-        - name: هندسة CRT والتكوين
+        - name: هندسة وتكوين CRT
           href: dev-itpro/commerce-runtime-overview.md
         - name: خدمات CRT
           href: dev-itpro/crt-services.md
         - name: CRT وقابلية توسعة Retail Server
           href: dev-itpro/commerce-runtime-extensibility.md
-        - name: إضافة بيانات تفضيلات العميل إلى قواعد بيانات القناة​
+        - name: إضافة بيانات تفضيلات العميل إلى قواعد بيانات القنوات
           href: dev-itpro/add-customer-preference-channel.md
         - name: إضافة خصائص إلى أوامر المبيعات
           href: dev-itpro/add-properties-sales-order.md

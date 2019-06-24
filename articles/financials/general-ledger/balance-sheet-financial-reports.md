@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ff778af1bb3af3a10132ab3193ad1cd5daa24e1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2d54748daa27011e0222123ee2b9a19b9288734c
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567319"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595306"
 ---
 # <a name="balance-sheet-financial-reports"></a>التقارير المالية للميزانية العمومية
 
@@ -78,7 +78,7 @@ ms.locfileid: "1567319"
 
 [عرض التقارير المالية](view-financial-reports.md)
 
-[مدونة التقارير المالية في Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[مدونة التقارير المالية في Dynamics](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

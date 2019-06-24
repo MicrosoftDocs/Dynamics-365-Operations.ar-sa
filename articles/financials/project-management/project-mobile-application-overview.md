@@ -3,7 +3,7 @@ title: نظرة عامة على تطبيقات المحمول للمشاريع
 description: يوفر هذا الموضوع معلومات عامة حول التطبيقات ذات الصلة بوقت المشروع لـ Microsoft Dynamics 365 والمتوفرة على جهاز محمول.
 author: KimANelson
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 22ccc70e242ffc9a487720c6a25fa6c5b8d78073
+ms.sourcegitcommit: 2d4b10fb5d3d0fbe518acdd921ebdd1bdc1d135e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1529961"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "1608128"
 ---
 # <a name="project-mobile-applications-overview"></a>نظرة عامة على تطبيقات المحمول للمشاريع
 
@@ -45,4 +45,4 @@ ms.locfileid: "1529961"
 
 ## <a name="for-more-information"></a>لمزيد من المعلومات
 
-للحصول على مزيد من التفاصيل، راجع [تطبيق المحمول Microsoft Dynamics 365 Project timesheet](project-timesheet.md) و[إدخال وقت المشروع]( project-time-entry-mobile-workspace.md) و[الجداول الزمنية للمشاريع على الجهاز المحمول‬](Mobile-timesheets.md).
+لمزيد من التفاصيل، راجع تطبيق الأجهزة المحمولة لجدول زمني مشروع [Microsoft Dynamics 365](project-timesheet.md)، و[إدخال زمن المشروع]( project-time-entry-mobile-workspace.md)، و[الجدول الزمنية للمشاريع على جهاز محمول‏](Mobile-timesheets.md)، و[تنفيذ الحقول المخصصة لتطبيق المحمول للجدول الزمني للمشروع](custom-fields-mobile.md).

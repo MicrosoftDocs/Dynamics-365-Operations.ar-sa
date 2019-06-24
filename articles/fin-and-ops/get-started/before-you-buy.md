@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546814"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595675"
 ---
 # <a name="before-you-buy"></a>قبل الشراء
 
@@ -63,7 +63,7 @@ ms.locfileid: "1546814"
 
 ### <a name="buy-through-volume-licensing"></a>الشراء عبر الترخيص المجمع
 
-إذا كان لدى مؤسستك 250 أو أكثر من مستخدمي Dynamics 365، فقد تهمك [اتفاقية الترخيص المجمع](https://www.microsoft.com/en-us/Licensing/product-licensing/dynamics365).
+إذا كان لدى مؤسستك 250 أو أكثر من مستخدمي Dynamics 365، فقد تهمك [اتفاقية الترخيص المجمع](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
 في الترخيص المجمع‬، يتوفر Finance and Operations من خلال:
 
@@ -87,7 +87,7 @@ ms.locfileid: "1546814"
 مزيد من المعلومات:
 
 - [دعم Dynamics 365](https://www.microsoft.com/dynamics365/support)
-- [دليل البدء السريع لمزايا دعم الخدمات السحابية في Microsoft Dynamics](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [دليل البدء السريع لمزايا دعم الخدمات السحابية في Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>الخطوة الرابعة: التعرف على FastTrack والتخطيط لعملية النشر
 

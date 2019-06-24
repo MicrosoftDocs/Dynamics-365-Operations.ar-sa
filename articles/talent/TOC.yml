@@ -2,11 +2,18 @@
   href: index.md
   items:
     - name: البدء
-      href: talent-get-started.md
       items:
+        - name: بدء استخدام Talent
+          href: talent-get-started.md
         - name: الجديد أو المتغير‬ في Talent
           href: whats-new.md
           items:
+            - name: 28 مايو 2019
+              href: whats-new-talent-may-28-2019.md
+            - name: 21 مايو 2019
+              href: whats-new-talent-may-21-2019.md
+            - name: 13 مايو 2019
+              href: whats-new-talent-may-13-2019.md
             - name: 6 مايو 2019
               href: whats-new-talent-may-6-2019.md
             - name: 30 أبريل 2019
@@ -89,33 +96,7 @@
           href: access-preview-feature.md
         - name: الحصول على دعم لـ Talent
           href: talent-support.md
-    - name: تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
-      href: departments-jobs-positions.md
-      items:
-        - name: إعداد مكونات وظيفة
-          href: create-job.md
-        - name: إنشاء الأقسام وتضمينها في التسلسل الهرمي للقسم
-          href: create-department-add-department-hierarchy.md
-        - name: إعداد معلمات الموارد البشرية عبر الكيانات القانونية
-          href: set-up-hr-parameters-across-legal-entities.md
-        - name: إعداد معلمات الموارد البشرية الخاصة بالشركة
-          href: set-up-company-specific-hr-parameters.md
-        - name: الأسئلة المتداولة حول إجراءات العاملين
-          href: personnel-actions-faq.md
-        - name: صياغة العمليات التجارية
-          href: formalize-business-processes.md
-        - name: استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف
-          href: workflow-manage-employee-information.md
-    - name: إدارة الإجازة والغياب
-      href: leave-absence-overview.md
-      items:
-        - name: مفاهيم الإجازة والغياب
-          href: leave-absence-concepts.md
-        - name: زمن التوقف المستحق على أساس ساعات العمل
-          href: leave-accrue-hours-worked.md
-        - name: تقويمات أوقات العمل
-          href: working-time-calendars.md
-    - name: تعيين الموظفين لمؤسستك
+    - name: تعيين الموظفين لمؤسستك‬ باستخدام Attract
       items:
         - name: أي إصدار من Attract؟
           href: attract-comprehensive-hiring.md
@@ -125,9 +106,9 @@
           href: Process-templates-Attract.md
         - name: إنشاء الوظائف والموافقة عليها ونشرها في Attract
           href: Creating-jobs-Attract.md
-        - name: نشر الوظائف في مواقع خارجية من Attract
+        - name: نشر الوظائف في مواقع مهن خارجية من Attract
           href: posting-jobs-external.md
-        - name: اختيار المرشحين باستخدام مجموعات المواهب‬
+        - name: توريد المرشحين باستخدام مجموعات المواهب‬
           href: attract-talent-pools.md
         - name: التوريد باستخدام LinkedIn Recruiter
           href: attract-linked-in-recruiter.md
@@ -135,7 +116,7 @@
           href: activities-attract.md
         - name: جدولة المقابلات والملاحظات
           href: interview-scheduling-feedback.md
-        - name: قابلية التوسعة
+        - name: قابلية التوسعة‬ في Attract
           href: extensibility-attract.md
         - name: وظيفة موقع الوظائف في Attract
           href: career-site.md
@@ -157,70 +138,182 @@
           href: source-tracking.md
         - name: استخدام تقارير تحليلية للحصول على تفاصيل عملية التوظيف
           href: analytic-reports.md
-    - name: تحفيز الموظفين
+    - name: أداره القوى العاملة باستخدام Core HR
       items:
-        - name: خطط التعويض
-          href: compensation-plans.md
-        - name: إنشاء خطط التعويض الثابت
-          href: create-fixed-compensation-plans.md
-        - name: إنشاء خطط التعويض المتغير
-          href: create-variable-compensation-plans.md
-        - name: تعويض العملية
-          href: process-compensation.md
-        - name: إعداد مكونات وظيفة
-          href: create-job.md
-    - name: تطوير الموظفين وتدريبهم
-      items:
-        - name: إدارة الأداء
-          href: performance-management-overview.md
-        - name: مواءمة احتياجات العمل مع مهارات العاملين
-          href: skills.md
-        - name: إعداد الدورات التدريبية
-          href: courses.md
-    - name: تحديد وإدارة برنامج ميزات
-      items:
-        - name: تحديد وإدارة برنامج ميزات
-          href: manage-benefit-program.md
-        - name: سياسات استحقاق الميزات
-          href: benefit-eligibility-policies.md
-        - name: إنشاء تقارير قانون الرعاية ميسورة التكلفة (Affordable Care Act)
-          href: generate-aca-reports.md
-        - name: إدارة الأصناف المعارة للعاملين
-          href: loan-items.md
-    - name: الاستبيانات
-      href: questionnaires.md
-      items:
-        - name: تصميم استبيانات
-          href: design-questionnaires.md
-        - name: توزيع الاستبيانات وجدولتها
-          href: distribute-questionnaires.md
-        - name: عرض وتقييم نتائج الاستبيانات
-          href: evaluate-questionnaire-results.md
-    - name: السلامة والامتثال في أماكن العمل (الولايات المتحدة)
-      items:
-        - name: الاستجابة لطلب بيانات شخصية في Talent
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: التحقق من صحة نموذج التوظيف I-9
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: التوافق مع قانون الأمريكيين المعوقين
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: المعلومات
-      items:
-        - name: Embedded Power BI في مساحات العمل
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: تطبيق الجوال
-      items:
-        - name: مساحات العمل المحمولة
+        - name: تنظيم القوى العاملة
           items:
-            - name: مساحة العمل المحمولة "دليل الشركة"
-              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: مساحة العمل المحمولة "فريقي"
-              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: نشر مساحات العمل المحمولة
-          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
+              href: departments-jobs-positions.md
+            - name: إعداد مكونات وظيفة
+              href: create-job.md
+            - name: إنشاء الأقسام وتضمينها في التسلسل الهرمي للقسم
+              href: create-department-add-department-hierarchy.md
+            - name: إعداد معلمات الموارد البشرية عبر الكيانات القانونية
+              href: set-up-hr-parameters-across-legal-entities.md
+            - name: إعداد معلمات الموارد البشرية الخاصة بالشركة
+              href: set-up-company-specific-hr-parameters.md
+            - name: الأسئلة المتداولة حول إجراءات العاملين
+              href: personnel-actions-faq.md
+            - name: صياغة العمليات التجارية
+              href: formalize-business-processes.md
+            - name: استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف
+              href: workflow-manage-employee-information.md
+            - name: إعداد التسلسلات الرقمية
+              items:
+                - name: نظرة عامة على التسلسلات الرقمية
+                  href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: إعداد التسلسلات الرقمية على أساس فردي
+                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: إعداد التسلسلات الرقمية باستخدام معالج
+                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: تكوين المؤسسات والتدرجات الهرمية للمؤسسات
+              items:
+                - name: نظرة عامة على المؤسسات
+                  href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: تخطيط التدرج الهرمي للمؤسسات
+                  href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: إنشاء تدرج هرمي مؤسسي
+                  href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: إنشاء كيان قانوني
+                  href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: إنشاء وحدة تشغيل
+                  href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: إعداد دفتر العناوين العمومي
+              items:
+                - name: نظرة عامة على دفتر العناوين العمومي
+                  href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: التخطيط لدفتر عناوين عمومي ودفاتر أخرى
+                  href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: تكوين دفتر العناوين العمومي
+                  href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: الأسئلة المتداولة حول دفاتر العناوين
+                  href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: تكوين عمليات سير العمل‬
+              items:
+                - name: نظرة عامة على سير العمل
+                  href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: عناصر سير العمل
+                  href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: الإجراءات في عمليات الموافقة على سير العمل
+                  href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: إنشاء عمليات سير عمل
+                  href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  items:
+                    - name: تكوين خصائص سير العمل
+                      href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: تكوين مهام يدوية
+                      href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: تكوين مهام مؤتمتة
+                      href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: تكوين عمليات اعتماد
+                      href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: تكوين خطوات اعتماد
+                      href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: تكوين قرارات يدوية
+                      href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: تكوين قرارات شرطية
+                      href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: تكوين أنشطة موازية
+                      href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: تكوين فروع موازية
+                      href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: تكوين عمليات سير عمل لعنصر بند
+                      href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: تكوين الوظيفة الدفعية لمعالجة الرسالة
+                  href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: تفويض عناصر العمل في سير عمل
+                  href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: عرض محفوظات سير العمل
+                  href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: تمكين المستخدمين من تلقي رسائل البريد الإلكتروني المرتبطة بسير العمل
+                  href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: إعداد التنبيهات
+              items:
+                - name: نظرة عامة على التنبيهات
+                  href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: إنشاء قواعد تنبيه
+                  href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: المعالجة الدُفعية للتنبيهات
+                  href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: إدارة الحالات
+              items:
+                - name: نظرة عامة على إدارة الحالات
+                  href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: التخطيط لأمان الحالة والعمليات والفئات
+                  href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: تكوين إدارة المستندات
+              href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: تكوين وإرسال البريد الإلكتروني
+              href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: بيانات التاريخ/الوقت والمناطق الزمنية
+              href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: إعداد الإجازة والغياب
+          items:
+            - name: إدارة الإجازة والغياب
+              href: leave-absence-overview.md
+            - name: مفاهيم الإجازة والغياب
+              href: leave-absence-concepts.md
+            - name: زمن التوقف المستحق على أساس ساعات العمل
+              href: leave-accrue-hours-worked.md
+            - name: تقويمات أوقات العمل
+              href: working-time-calendars.md
+        - name: إعداد خطط التعويض
+          items:
+            - name: نظرة عامة على خطط التعويض
+              href: compensation-plans.md
+            - name: إنشاء خطط التعويض الثابت
+              href: create-fixed-compensation-plans.md
+            - name: إنشاء خطط التعويض المتغير
+              href: create-variable-compensation-plans.md
+            - name: تعويض العملية
+              href: process-compensation.md
+            - name: إعداد مكونات وظيفة
+              href: create-job.md
+        - name: تطوير الموظفين وتدريبهم
+          items:
+            - name: إدارة الأداء
+              href: performance-management-overview.md
+            - name: مواءمة احتياجات العمل مع مهارات العاملين
+              href: skills.md
+            - name: إعداد الدورات التدريبية
+              href: courses.md
+            - name: إضافة إلى دفتر يومية أدائك وإرسال ثناء إلى أحد الأشخاص
+              href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: إنشاء هدف
+              href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: إنشاء مراجعة الأداء
+              href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: تحديد وإدارة برنامج ميزات
+          items:
+            - name: تحديد وإدارة برنامج ميزات
+              href: manage-benefit-program.md
+            - name: سياسات استحقاق الميزات
+              href: benefit-eligibility-policies.md
+            - name: إنشاء تقارير قانون الرعاية ميسورة التكلفة (Affordable Care Act)
+              href: generate-aca-reports.md
+            - name: إدارة الأصناف المعارة للعاملين
+              href: loan-items.md
+        - name: تقييم المقاييس الأساسية بواسطة الاستبيانات
+          items:
+            - name: جمع المعلومات باستخدام الاستبيانات
+              href: questionnaires.md
+            - name: تصميم استبيانات
+              href: design-questionnaires.md
+            - name: توزيع الاستبيانات وجدولتها
+              href: distribute-questionnaires.md
+            - name: عرض وتقييم نتائج الاستبيانات
+              href: evaluate-questionnaire-results.md
+        - name: السلامة والامتثال في أماكن العمل (الولايات المتحدة)
+          items:
+            - name: الاستجابة لطلب بيانات شخصية في Talent
+              href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: التحقق من صحة نموذج التوظيف I-9
+              href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: التوافق مع قانون الأمريكيين المعوقين
+              href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: تكامل
       items:
-        - name: تكامل مع Dynamics 365 for Finance and Operations
+        - name: التكامل مع Dynamics 365 for Finance and Operations
           href: talent-financeandoperations-integration.md
         - name: تكوين تكامل كشف الرواتب بين Talent وDayforce
           href: configure-payroll-integration.md
@@ -230,119 +323,38 @@
           href: talent-fo-integration.md
         - name: تصدير البيانات المتكررة باستخدام تطبيقات Azure Logic
           href: tutorial-integration-recurring-export.md
+        - name: تكامل Office‬‏‫
+          items:
+            - name: برنامج تعليمي لتكامل Office
+              href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: تحديث بيانات الكيان في Excel
+              href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: إنشاء خبرات فتح في Excel
+              href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: استكشاف أخطاء تكامل Office وإصلاحها
+              href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: قابلية التوسعة
       items:
+        - name: Embedded Power BI في مساحات العمل
+          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
           href: extensibility-examples.md
+        - name: تطبيق الجوال
+          items:
+            - name: مساحات العمل المحمولة
+              items:
+                - name: مساحة العمل المحمولة "دليل الشركة"
+                  href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: مساحة العمل المحمولة "فريقي"
+                  href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: نشر مساحات العمل المحمولة
+              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: تعقب التغييرات في بيانات التعيين
           href: process-auditing.md
         - name: قابلية التوسعة‬ في Attract
           href: extensibility-attract.md
         - name: الحقول المخصصة في Core HR
           href: corehr-custom-fields.md
-    - name: تكامل Office‬‏‫
-      items:
-        - name: برنامج تعليمي لتكامل Office
-          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: تحديث بيانات الكيان في Excel
-          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: إنشاء خبرات فتح في Excel
-          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: استكشاف أخطاء تكامل Office وإصلاحها
-          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: إدارة المؤسسة
-      items:
-        - name: التسلسلات الرقمية
-          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: إعداد التسلسلات الرقمية على أساس فردي
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إعداد التسلسلات الرقمية باستخدام معالج
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: المؤسسات والتدرجات الهرمية للمؤسسات
-          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: تخطيط التدرج الهرمي للمؤسسات
-              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إنشاء تدرج هرمي مؤسسي
-              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إنشاء كيان قانوني
-              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إنشاء وحدة تشغيل
-              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: دفتر العناوين العمومي
-          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: التخطيط لدفتر عناوين عمومي ودفاتر أخرى
-              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: تكوين دفتر العناوين العمومي
-              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: الأسئلة المتداولة حول دفاتر العناوين
-              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: سير العمل
-          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: عناصر سير العمل
-              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: الإجراءات في عمليات الموافقة على سير العمل
-              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: إنشاء عمليات سير عمل
-              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-              items:
-                - name: تكوين خصائص سير العمل
-                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين مهام يدوية
-                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين مهام مؤتمتة
-                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين عمليات اعتماد
-                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين خطوات اعتماد
-                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين قرارات يدوية
-                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين قرارات شرطية
-                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين أنشطة موازية
-                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين فروع موازية
-                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: تكوين عمليات سير عمل لعنصر بند
-                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: تكوين الوظيفة الدفعية لمعالجة الرسالة
-              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: تفويض عناصر العمل في سير عمل
-              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: عرض محفوظات سير العمل
-              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: تمكين المستخدمين من تلقي رسائل البريد الإلكتروني المرتبطة بسير العمل
-              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: التنبيهات
-          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: إنشاء قواعد تنبيه
-              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: المعالجة الدُفعية للتنبيهات
-              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: إدارة الحالة
-          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: التخطيط لأمان الحالة والعمليات والفئات
-              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: تكوين إدارة المستندات
-          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: تكوين وإرسال البريد الإلكتروني
-          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: بيانات التاريخ/الوقت والمناطق الزمنية
-          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: مهام الموارد البشرية
-      items:
-        - name: إضافة إلى دفتر يومية أدائك وإرسال ثناء إلى أحد الأشخاص
-          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: إنشاء هدف
-          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: إنشاء مراجعة الأداء
-          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: استكشاف أخطاء Talent وإصلاحها
       items:
         - name: لم يتم تحديث تقارير التحليلات

@@ -3,7 +3,7 @@ title: التوصيات الذكية
 description: يشرح هذا الموضوع كيف يمكن استخدام التعلم الآلي‬ لتوفير توصيات تتعلق بالوظائف والمرشحين لها.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/25/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517223"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620610"
 ---
 # <a name="intelligent-recommendations"></a>التوصيات الذكية
 
@@ -33,7 +33,7 @@ ms.locfileid: "1517223"
 
 > [!NOTE] 
 > - تتوفر ميزة التوصيات الذكية فقط مع [المكون الإضافي "التوظيف الشامل"](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - تتوفر الوظيفة المذكورة في هذا الموضوع كجزء من إصدار مراجعة المعاينة. المحتوى والوظيفة عرضة للتغيير. لاستخدام هذه الميزة، اطلب من مسؤول تمكينها باستخدام **إعدادات المسؤول** في Attract. عيّن **توصيات المرشحين** و**توصيات الوظائف**، و **توصيات الموظفين المحتملين** إلى **تشغيل**. للحصول على مزيد من المعلومات، راجع [الوصول إلى ميزات المعاينة في Talent‬](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> - تتوفر الوظيفة المذكورة في هذا الموضوع كجزء من إصدار مراجعة المعاينة. المحتوى والوظيفة عرضة للتغيير. لاستخدام هذه الميزة، اطلب من مسؤول تمكينها باستخدام **مركز الإدارة** في Attract. عيّن **توصيات المرشحين** و**توصيات الوظائف**، و **توصيات الموظفين المحتملين** إلى **تشغيل**. للحصول على مزيد من المعلومات، راجع [الوصول إلى ميزات المعاينة في Talent‬](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>توصيات المرشحين

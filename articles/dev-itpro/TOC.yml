@@ -25,7 +25,7 @@
           href: dev-tools/configure-developer-vm.md
         - name: إنشاء مستخدمين جدد على أجهزة التطوير
           href: dev-tools/enable-development-machine.md
-        - name: الأجهزة الظاهرية للتطوير والإنشاء التي لا تسمح للمسؤول بالوصول إلى الأسئلة الشائعة
+        - name: الأسئلة المتداولة حول الأجهزة الظاهرية للتطوير والإنشاء التي لا تمنح المسؤول حق الوصول
           href: sysadmin/VMs-no-admin-access.md
         - name: إعادة تسمية البيئات المحلية للوصول إلى Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
@@ -227,8 +227,9 @@
             - name: فئات X
               href: dev-ref/x-classes.md
     - name: قابلية التوسعة
-      href: extensibility/extensibility-home-page.md
       items:
+        - name: الصفحة الرئيسية لقابلية للتوسعة
+          href: extensibility/extensibility-home-page.md
         - name: المقدمة والبدء
           items:
             - name: خطة القابلية لتوسعة التطبيق
@@ -243,38 +244,40 @@
               href: extensibility/customize-model-elements-extensions.md
             - name: تخصيص من خلال الملحق وتراكب الطبقات
               href: extensibility/customization-overlayering-extensions.md
-        - name: ما الجديد
+        - name: الجديد
           items:
-            - name: تغييرات قابلية للتوسعة في يوليو 2017
-              href: extensibility/changes-july-2017.md
-            - name: التغييرات القابلية للتوسعة في الإصدار 7.3
-              href: extensibility/extensibility-changes-73.md
-            - name: التغييرات القابلية للتوسعة في الإصدار 8.0
-              href: extensibility/changes-80.md
-            - name: إصدار تغييرات قابلية التوسعة 8.0.1
-              href: extensibility/extensibility-changes-801.md
-            - name: إصدار تغييرات قابلية التوسعة 8.0.2
-              href: extensibility/extensibility-changes-802.md
-            - name: إصدار تغييرات قابلية التوسعة 8.0.3
-              href: extensibility/extensibility-changes-803.md
-            - name: إصدار تغييرات قابلية التوسعة 8.0.4
-              href: extensibility/extensibility-changes-804.md
-            - name: إصدار تغييرات قابلية التوسعة 8.1
-              href: extensibility/extensibility-changes-81.md
-            - name: إصدار تغييرات قابلية التوسعة 8.1.1
-              href: extensibility/extensibility-changes-811.md
-            - name: إصدار تغييرات قابلية التوسعة 8.1.2
-              href: extensibility/extensibility-changes-812.md
-            - name: إصدار تغييرات قابلية التوسعة 8.1.3
-              href: extensibility/extensibility-changes-813.md
-            - name: إصدار تغييرات قابلية التوسعة 10.0
-              href: extensibility/extensibility-changes-10.md
-            - name: إصدار تغييرات قابلية التوسعة 10.0.1
-              href: extensibility/extensibility-changes-10-1.md
-            - name: إصدار تغييرات قابلية التوسعة 10.0.2
-              href: extensibility/extensibility-changes-10-2.md
+            - name: الجديد أو المتغير‬ في قابلية التوسعة
+              href: extensibility/extensibility-new.md
             - name: إصدار تغييرات قابلية التوسعة 10.0.3
               href: extensibility/extensibility-changes-10-3.md
+            - name: إصدار تغييرات قابلية التوسعة 10.0.2
+              href: extensibility/extensibility-changes-10-2.md
+            - name: إصدار تغييرات قابلية التوسعة 10.0.1
+              href: extensibility/extensibility-changes-10-1.md
+            - name: إصدار تغييرات قابلية التوسعة 10.0
+              href: extensibility/extensibility-changes-10.md
+            - name: إصدار تغييرات قابلية التوسعة 8.1.3
+              href: extensibility/extensibility-changes-813.md
+            - name: إصدار تغييرات قابلية التوسعة 8.1.2
+              href: extensibility/extensibility-changes-812.md
+            - name: إصدار تغييرات قابلية التوسعة 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: إصدار تغييرات قابلية التوسعة 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: إصدار تغييرات قابلية التوسعة 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: إصدار تغييرات قابلية التوسعة 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: إصدار تغييرات قابلية التوسعة 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: إصدار تغييرات قابلية التوسعة 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: التغييرات القابلية للتوسعة في الإصدار 8.0
+              href: extensibility/changes-80.md
+            - name: التغييرات القابلية للتوسعة في الإصدار 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: تغييرات قابلية للتوسعة في يوليو 2017
+              href: extensibility/changes-july-2017.md
         - name: القواعد الأساسية
           items:
             - name: تخصيصات متداخلة
@@ -361,8 +364,14 @@
       items:
         - name: التقاط تتبعات باستخدام Trace Parser
           href: perf-test/trace-trace-tutorial.md
-        - name: SDK للأداء والاختبارات متعددة المستخدمين‬ عن طريق Visual Studio Online
-          href: perf-test/perfsdk-tutorial.md
+        - name: اختبارات أحادية المستخدم مع مسجل المهام وSDK للأداء
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: اختبارات متعددة المستخدمين مع SDK للأداء ووحده تحكم اختبارات محلية
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: اختبارات متعددة المستخدمين مع SDK للأداء وAzure DevOps
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: دليل استكشاف الأخطاء وإصلاحها لاختبارات أحادية المستخدم أو متعددة المستخدمين مع SDK للأداء
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: ‏‫SDK للأداء والاختبارات متعددة المستخدمين‬ في البيئات المحلية
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: تشخيص المشاكل وتحليل الأداء باستخدام Trace Parser
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: إنشاء موفري أسعار الصرف في Finance and Operations، الإصدار 8.0
           href: financial/create-exchange-rate-8.md
+    - name: 'تسوية الحركات باستخدام CustTrans::settleTransaction'
+      href: financial/settletransact-obsolete.md
 - name: تطوير سلسلة التوريد
   items:
     - name: دليل تطوير عنصر تحكم جانت

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538946"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595629"
 ---
 # <a name="finance-and-operations-help-system"></a>نظام تعليمات Finance and Operations
 
@@ -192,7 +192,7 @@ ms.locfileid: "1538946"
 | [Docs.microsoft.com](/dynamics365/)                                                            | يستضيف أو يرتبط بكافة وثائق المنتج لتطبيق Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | موقع تعليم إلكتروني مجاني من Microsoft. |
 | [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | يوفر مساحة عمل تعاونية قائمة على السحابة يستطيع العملاء والشركاء استخدامها لإدارة مشاريع Dynamics 365 for Finance and Operations بدءًا من مرحلة ما قبل البيع حتى التنفيذ والعمليات. يفيد هذا الموقع في كافة مراحل التنفيذ. |
-| [مدونة الدعم](http://aka.ms/AXSupportBlog)                                                    | يوفر تلميحات ونصائح ينشرها فريق دعم Dynamics 365 for Finance and Operations. |
+| [مدونة الدعم](https://aka.ms/AXSupportBlog)                                                    | يوفر تلميحات ونصائح ينشرها فريق دعم Dynamics 365 for Finance and Operations. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | يستضيف محتوى من الإصدارات السابقة. |
 | [مجتمع Dynamics](https://community.dynamics.com/)                                          | يستضيف المدونات والمنتديات ومقاطع الفيديو. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | يوفر معلومات التقييم والمبيعات. |
