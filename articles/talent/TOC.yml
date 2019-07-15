@@ -8,6 +8,16 @@
         - name: الجديد أو المتغير‬ في Talent
           href: whats-new.md
           items:
+            - name: 2 يوليو 2019
+              href: whats-new-talent-july-2-2019.md
+            - name: 25 يونيو 2019
+              href: whats-new-talent-june-25-2019.md
+            - name: 18 يونيو 2019
+              href: whats-new-talent-june-18-2019.md
+            - name: 11 يونيو 2019
+              href: whats-new-talent-june-11-2019.md
+            - name: 4 يونيو 2019
+              href: whats-new-talent-june-4-2019.md
             - name: 28 مايو 2019
               href: whats-new-talent-may-28-2019.md
             - name: 21 مايو 2019
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: 6 مايو 2019
               href: whats-new-talent-may-6-2019.md
-            - name: 30 أبريل 2019
-              href: whats-new-talent-april-30-2019.md
-            - name: 25 أبريل 2019
-              href: whats-new-talent-april-25-2019.md
-            - name: 16 أبريل 2019
-              href: whats-new-talent-april-16-2019.md
-            - name: 9 أبريل 2019
-              href: whats-new-talent-april-9-2019.md
-            - name: 2 أبريل 2019
-              href: whats-new-talent-april-2-2019.md
-            - name: 26 مارس 2019
-              href: whats-new-talent-march-26-2019.md
-            - name: 20 مارس 2019
-              href: whats-new-talent-march-20.md
-            - name: 14 مارس 2019
-              href: whats-new-talent-march-14.md
-            - name: 5 مارس 2019
-              href: whats-new-talent-march-5.md
             - name: الجديد في أرشيفات 2019
               items:
+                - name: 30 أبريل 2019
+                  href: whats-new-talent-april-30-2019.md
+                - name: 25 أبريل 2019
+                  href: whats-new-talent-april-25-2019.md
+                - name: 16 أبريل 2019
+                  href: whats-new-talent-april-16-2019.md
+                - name: 9 أبريل 2019
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2 أبريل 2019
+                  href: whats-new-talent-april-2-2019.md
+                - name: 26 مارس 2019
+                  href: whats-new-talent-march-26-2019.md
+                - name: 20 مارس 2019
+                  href: whats-new-talent-march-20.md
+                - name: 14 مارس 2019
+                  href: whats-new-talent-march-14.md
+                - name: 5 مارس 2019
+                  href: whats-new-talent-march-5.md
                 - name: 27 فبراير 2019
                   href: whats-new-talent-feb-27.md
                 - name: 14 فبراير 2019
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: ميزات وقدرات Attract
           href: attract-overview.md
+        - name: الأسئلة المتداولة حول LinkedIn
+          href: attract-linkedin-faq.md
+        - name: تكوين إعدادات البريد الإلكتروني
+          href: attract-configure-email-settings.md
         - name: إنشاء قالب عملية في Attract
           href: Process-templates-Attract.md
-        - name: إنشاء الوظائف والموافقة عليها ونشرها في Attract
+        - name: إنشاء وظائف ونشرها
           href: Creating-jobs-Attract.md
-        - name: نشر الوظائف في مواقع مهن خارجية من Attract
+        - name: إعداد التكامل مع LinkedIn
+          href: attract-admin-linkedin.md
+        - name: نشر الوظائف في LinkedIn من Attract
+          href: attract-post-jobs-to-linkedin.md
+        - name: نشر الوظائف في Broadbean من Attract
           href: posting-jobs-external.md
         - name: توريد المرشحين باستخدام مجموعات المواهب‬
           href: attract-talent-pools.md
-        - name: التوريد باستخدام LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
+        - name: توريد المرشحين باستخدام LinkedIn Recruiter
+          href: attract-linkedin-recruiter.md
         - name: الأنشطة في عمليات التوظيف
           href: activities-attract.md
         - name: جدولة المقابلات والملاحظات
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: التوصيات الذكية
           href: Intelligent-Recommendations.md
-        - name: إنشاء تجربة إعداد تفاعلية
-          href: create-onboarding-experience.md
         - name: تعقب المصادر لملفات التعريف واستمارات التقديم الخاصة بالمرشحين
           href: source-tracking.md
         - name: استخدام تقارير تحليلية للحصول على تفاصيل عملية التوظيف
           href: analytic-reports.md
+    - name: الترحيب بالموظفين الجدد بواسطة Onboard
+      items:
+        - name: بدء استخدام Onboard
+          href: create-onboarding-experience.md
+        - name: الحصول على تطبيق Onboard
+          href: onboard-get-app.md
+        - name: إنشاء دليل الإعداد وإرساله
+          href: onboard-create-guide.md
+        - name: إنشاء قالب إعداد
+          href: onboard-create-template.md
+        - name: تحرير الأدلة والقوالب
+          href: onboard-edit-guides-templates.md
+        - name: مشاركة المحتوى
+          href: onboard-share-template.md
+        - name: عرض الحالة
+          href: onboard-view-status.md
+        - name: إنشاء فريق توظيف
+          href: onboard-create-team.md
     - name: أداره القوى العاملة باستخدام Core HR
       items:
         - name: تنظيم القوى العاملة
@@ -335,7 +369,7 @@
               href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: قابلية التوسعة
       items:
-        - name: Embedded Power BI في مساحات العمل
+        - name: Power BI المضمن في مساحات العمل
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
           href: extensibility-examples.md
@@ -357,6 +391,8 @@
           href: corehr-custom-fields.md
     - name: استكشاف أخطاء Talent وإصلاحها
       items:
+        - name: استكشاف أخطاء نشر الوظائف في LinkedIn وإصلاحها
+          href: attract-troubleshoot-linkedin.md
         - name: لم يتم تحديث تقارير التحليلات
           href: analytic-reports-not-updated.md
         - name: لا يمكن إنشاء بيئة في مركز إدارة PowerApps
