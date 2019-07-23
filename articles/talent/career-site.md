@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517281"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729693"
 ---
 # <a name="career-site-functionality-in-attract"></a>وظيفة موقع الوظائف في Attract
 
@@ -48,11 +48,14 @@ ms.locfileid: "1517281"
  
 لتعيين قيم للعناصر التالية، سجّل الدخول إلى Attract كمسؤول، وحدد **مركز الإدارة** في قائمة **الإعدادات**، ثم حدد علامة التبويب **إدارة موقع الوظائف‬**.
 
--   **تحسين محرك البحث** عند تمكينه، سيصبح البحث عن جميع الوظائف العامة المنشورة في موقع وظائف Attract ممكنًا باستخدام محركات بحث مثل Bing وGoogle.
+-   **تحسين محرك البحث** عند تمكينه، سيصبح البحث عن جميع الوظائف العامة المنشورة في موقع وظائف Attract ممكنًا باستخدام محركات بحث مثل Bing وGoogle. 
 
     > [!NOTE] 
     > قد يحدث تأخير بين تشغيل هذا الإعداد وظهور نتائج البحث، استنادًا إلى مشغل البحث الذي تستخدمه.
-         
+    
+-   **البنود والشروط** -عند التمكين ، يجب أن يوافق كافة المرشحين على بنود وشروط المؤسسة عند التقديم لأي وظيفة. يمكن لمسؤول Attract تكوين نص الموافقة الخاص به بالإضافة إلى ارتباط لصفحة الشروط والبنود الخاصة به. 
+
+        
 ## <a name="career-site-urls"></a>عناوين URL لموقع الوظائف
 
 تتضمن القائمة التالية عناوين URL الأكثر استخدامًا لموقع الوظائف وكيفية الوصول إليها.

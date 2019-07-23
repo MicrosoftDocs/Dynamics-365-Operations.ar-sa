@@ -3,7 +3,7 @@ title: المحتوى "نظرة عامة على النقد" في Power BI
 description: 'يصف هذا الموضوع المحتوى "نظرة عامة على النقدية: في Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.'
 author: saraschi2
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568907"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702785"
 ---
 # <a name="cash-overview-power-bi-content"></a>المحتوى "نظرة عامة على النقد" في Power BI
 
@@ -33,6 +33,17 @@ ms.locfileid: "1568907"
 
 تم إنشاء المحتوى **نظرة عامة على النقد** في Power BI للأفراد المسؤولين عن النقد في مؤسساتهم. يوفر المحتوى **نظرة عامة على النقد** في Power BI رؤية دقيقة للتدفق النقدي. ويوفر أيضًا تقديرات وتنبؤات يمكنها مساعدتك لاتخاذ قرارات أفضل، وبالتالي تحسين حالة التدفق النقدي الخاص بك. يمكنك تحليل النقدية حسب الكيان القانوني، والعملة، والحساب البنكي للحصول على فهم أفضل للفائض والعجز.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>الإعداد المطلوب لعرض محتوى Power BI
+
+يجب إكمال الإعداد التالي لكي يتم عرض البيانات في مرئيات **نظرة عامة على النقدية‬** و**إدارة البنوك‬** في Power BI.
+
+1. انتقل إلى **إدارة النظام > الإعداد > معلمات النظام** لتعيين **عملة النظام** و**سعر صرف النظام**.
+2. انتقل إلى **دفتر الأستاذ العام> إعداد > دفتر الأستاذ** لتعيين **عملة المحاسبة** و**نوع سعر الصرف**.
+2. حدد أسعار الصرف بين العملات الخاصة بالحركة وعملة المحاسبة، وبين عملة المحاسبة وعملة النظام، وبين عملة المحاسبة وعملات البنك. للقيام بذلك، اذهب إلى **دفتر الأستاذ العام > العملات > أسعار صرف العملات**.
+3. تكوين تقدير التدفقات النقدية وتشغيلها. لمزيد من المعلومات حول كيفية إعداد تقدير التدفقات النقدية، راجع <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+">تقدير التدفقات النقدية</a>. 
+4. اذهب إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **LedgerCovLiquidityMeasurement**.
+
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 
 تظهر تقارير من المحتوى **نظرة عامة على النقد** في Power BI في مساحتي العمل **نظرة عامة على النقد** و**إدارة البنوك**.
@@ -42,6 +53,7 @@ ms.locfileid: "1568907"
 ولأغراض تتعلق بالعرض التوضيحي، يمكنك أيضًا نقل بيانات العرض التوضيحي لتقدير التدفق النقدي باستخدام صفحة **إنشاء بيانات** من الوحدة النمطية لبيانات العرض التوضيحي.  سيقوم هذا البرنامج النصي بإدراج البيانات في جداول تقدير التدفق النقدي لملء المعلومات الضرورية للتقارير بسرعة.  تتوفر هذه الوحدة فقط إذا كان لديك نموذج مجموعة بيانات العرض التوضيحي تم نشره على البيئة. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
+
 يوفر الجدول التالي تفاصيل حول المقاييس التي يتم العثور عليها في كل صفحة من تقرير في المحتوى **نظرة عامة على النقد** في Power BI.
 
 | تقرير                                | المحتويات |
@@ -67,5 +79,3 @@ ms.locfileid: "1568907"
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | ملخص حركات التدفقات النقدية الداخلية والخارجية، والرصيد باستخدام عملة المحاسبة الخاصة بكل شركة |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | ملخص حركات التدفقات النقدية الداخلية والخارجية، والرصيد باستخدام عملة النظام لجميع الشركات |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | صافي مبلغ الحركة المُلخص، ورصيد العملات باستخدام عملة الحركة |
-
-

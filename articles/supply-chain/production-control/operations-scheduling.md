@@ -3,7 +3,7 @@ title: جدولة العمليات
 description: يقدم هذا الموضوع معلومات حول جدولة العمليات. يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560245"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691452"
 ---
 # <a name="operations-scheduling"></a>جدولة العمليات
 
@@ -67,6 +67,9 @@ ms.locfileid: "1560245"
 -   **عمليات الإنتاج غير المكتملة** – المنتجات المخططة أو الصادر أو التي بدأ إنتاجها
 -   **مدى توفر المواد** – المخزون وعمليات الإنتاج الفرعية‬ والموردون
 -   **مدى توفر القدرة الإنتاجية** – الموارد المطلوبة للإنتاج
+
+> [!NOTE]
+> إذا كنت تستخدم التخطيط الرئيسي متعدد المؤشرات وجدولة العمليات، فلن يتم التعامل مع القدرة المحدودة. 
 
 ## <a name="cancellations"></a>عمليات الإلغاء
 عند تشغيل جدولة العمليات، يمكنك إلغاء أجزاء معينة من التوجيه. وتتضمن هذه الأجزاء وقت الانتظار ووقت الإعداد ووقت العملية ووقت التداخل وعدد مرات النقل.

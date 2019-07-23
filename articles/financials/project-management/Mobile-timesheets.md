@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7eff0ce166785cb777fbf58ecf08ca8915be5af
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557319"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624874"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>الجداول الزمنية للمشاريع على الجهاز المحمول
 
 [!include [banner](../includes/banner.md)]
-
-# <a name="overview"></a>نظرة عامة
 
 **تتيح الجداول الزمنية الخاصة بي (المحسنة للجهاز المحمول)** للموظفين إنشاء وإرسال الجداول الزمنية للمشاريع لتسجيل ساعاتهم لمشروع محدد على جهاز محمول. يستطيع الموظفون إنشاء بيانات جدول زمني أو نسخة بيانات جديدة من جدول زمني موجود لضمان إدخال وقت سريع ودقيق. إذا كنت معينًا كمفوض، يمكنك إدخال جدول زمني لعامل آخر. يتيح التطبيق للموظفين إمكانية التصفية حسب المشروع أو المورد أو حالة الموافقة لتحديد موقع جدول زمني وتحديده. كما يزود الموظفين بالقدرة على حفظ المفضلة، التي تحفظ معلومات المشروع والنشاط في الجدول الزمني. يمكن استخدام المفضلة المحفوظة لإنشاء الجداول الزمنية المستقبلية، مما يعمل على تسريع عملية إدخال الوقت. تحرير أو عرض معلومات البعد المالي غير مدعوم من تطبيق الجهاز المحمول. يمكن الوصول إلى **الجداول الزمنية الخاصة بي (المحسنة للجهاز المحمول)** من خلال مستعرض الويب على جهازك المحمول.
 
@@ -35,8 +33,7 @@ ms.locfileid: "1557319"
 يتوافق هذا التطبيق المحمول لـ iPhone مع Dynamics 365 for Finance and Operations platform update 15.
 سيكون نظام Android متوافقًا مع Platform update 16، عندما يصبح متوفرًا.
 
-<a name="create-a-project-timesheet-on-your-mobile-device"></a>إنشاء جدول زمني لمشروع على جهازك المحمول
-------------------------------------------------
+## <a name="create-a-project-timesheet-on-your-mobile-device"></a>إنشاء جدول زمني لمشروع على جهازك المحمول
 
 1.  لاحظ عنوان URL لـ Dynamics 365 لصفحة **إدارة ومحاسبة المشاريع**\>**الجداول الزمنية**\>**الجداول الزمنية الخاصة بي (المحسنة للجهاز المحمول)**.
 

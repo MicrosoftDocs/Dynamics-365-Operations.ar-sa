@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517216"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624571"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (23 أبريل 2019)
 
@@ -46,7 +46,7 @@ ms.locfileid: "1517216"
 ### <a name="additional-odata-entities-302992"></a>كيانات OData الإضافيه (302992)
 الكيانات التالية مدعومة الآن في OData: الخبرة المهنية للعامل وتعليم العامل.
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a>مرفقات دفتر يومية الأداء للمدراء والموظفين (308248)
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a>مرفقات دفتر يومية الأداء للمدراء والموظفين (308248)
 مع هذا الإصدار، أصبحت المرفقات متاحة الآن للمدراء والموظفين عند إنشاء إدخالات دفتر يومية الأداء وتحديثها.
 
 ### <a name="employee-rehire-flag-always-available-310047"></a>علامة إعادة توظيف الموظف متوفرة دائمًا (310047)

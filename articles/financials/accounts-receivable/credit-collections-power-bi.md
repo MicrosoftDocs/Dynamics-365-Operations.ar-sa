@@ -3,7 +3,7 @@ title: محتوى "إدارة التحصيلات والائتمان" في Power 
 description: يصف هذا الموضوع العناصر المضمنة في محتوى "إدارة التحصيلات والائتمان" في Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547222"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702762"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>محتوى "إدارة التحصيلات والائتمان" في Power BI
 
@@ -42,7 +42,17 @@ ms.locfileid: "1547222"
 
 بشكل افتراضي، يتم عرض بيانات الائتمان والتحصيلات للشركة الحالية. لمشاهدة البيانات في كافة أنحاء الشركات، قم بتعيين واجب **CustCollectionsBICrossCompany** للدور.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>الإعداد المطلوب لعرض محتوى Power BI
+
+يجب إكمال الإعداد التالي ليتم عرض البيانات مرئيات **‏‫تحصيلات وائتمان العميل‬** في Power BI.
+
+1. انتقل إلى **إدارة النظام > الإعداد > معلمات النظام** لتعيين **عملة النظام** و**سعر صرف النظام**.
+2. انتقل إلى **دفتر الأستاذ العام> لإعداد > دفتر الأستاذ** لتعيين **عملة المحاسبة** و**نوع سعر الصرف**.
+3. حدد أسعار الصرف بين العملات الخاصة بالحركة وعملة المحاسبة، وبين عملة المحاسبة وعملة النظام. للقيام بذلك، اذهب إلى **دفتر الأستاذ العام > العملات > أسعار صرف العملات**.
+4. اذهب إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **CustCollectionsBIMeasurements**.
+
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
+
 يظهر محتوى **إدارة التحصيلات والائتمان** في Power BI في مساحة العمل **تحصيلات وائتمان العميل‬**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>التقارير المضمنة في محتوى Power BI
@@ -63,28 +73,3 @@ ms.locfileid: "1547222"
 | خطابات التحصيلات         | <ul><li>مبالغ كود التحصيل</li><li>تفاصيل مبلغ كود التحصيل</li><li>مبلغ خطاب التحصيل لكل شركة</li><li>مبلغ خطاب التحصيل لكل مجموعة العميل</li><li>مبلغ خطاب التحصيل حسب المنطقة</li></ul> |
 
 يمكنك تصفية المخططات والإطارات المتجانبة الموجودة على كافة هذه التقارير وتثبيتها بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). يمكنك أيضًا استخدام وظيفة تصدير البيانات الأساسية لتصدير البيانات الأساسية التي تم تلخيصها في المرئيات.
-
-## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
-
-تُستخدم البيانات التالية لملء التقرير في محتوى **إدارة الائتمان والتحصيلات** في Power BI. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات Microsoft SQL Server تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع مخزن الكيانات](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   الكيان                    |      القياسات التجميعية الرئيسية      |             مصدر البيانات              |                           الحقل                            |                                    ‏‏الوصف                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities ،AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     عدد الأنشطة المتوقعة ومتوسط الوقت لإغلاق تلك الأنشطة.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           عدد الأنشطة المفتوحة.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             مبلغ الأرصدة القديمة.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           المبالغ المتأخرة.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases ،CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        عدد الحالات المتوقعة ومتوسط الوقت لإغلاق تلك الحالات.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              عدد الحالات المفتوحة.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       عدد خطابات التحصيل المفتوحة.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     رصيد خطابات التحصيل المرحلة.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                رصيد الحركات مع حالة التحصيل.                 |
-|           CustCollectionsBICredit           | CreditExposed، AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | مبلغ تعرض الائتمان ومبالغ العملاء الذين تجاوزوا الحد الائتماني الخاص بهم. |
-|         CustCollectionsBICustOnHold         |               موقوف                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     عدد العملاء قيد الانتظار.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        أيام تحصيل المبيعات لـ 30 يومًا.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 مجموع المدفوعات المتوقعة خلال العام التالي.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                عدد إشعارات الفائدة التي تم إنشاؤها.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 عدد إجمالي أوامر المبيعات قيد الانتظار.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                مجموع الحركات التي تم شطبها.                 |
-
