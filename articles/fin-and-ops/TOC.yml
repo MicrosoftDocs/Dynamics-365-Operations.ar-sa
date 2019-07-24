@@ -42,11 +42,11 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: ميزات AX 2012 التي تم تأجيلها
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: الميزات لم يتم تنفيذها في عمليات النشر المحلي
+            - name: ميزات لم يتم تنفيذها في عمليات النشر المحلية‬
               href: get-started/features-not-implemented-on-prem.md
-            - name: ميزات المعاينة في Finance and Operations إصدار 10.0.4 (يوليو 2019)
+            - name: Finance and Operations إصدار 10.0.4 (يوليو 2019)
               href: get-started/whats-new-changed-10-0-4.md
-            - name: ميزات المعاينة في Finance and Operations إصدار 10.0.3 (يونيو 2019)
+            - name: Finance and Operations إصدار 10.0.3 (يونيو 2019)
               href: get-started/whats-new-changed-10-0-3.md
             - name: Finance and Operations إصدار 10.0.2 (مايو 2019)
               href: get-started/whats-new-changed-10-0-2.md
@@ -56,9 +56,9 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations إصدار 8.1.3 (يناير 2019)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: ميزات المعاينة في Finance and Operations platform update 28 (يوليو 2019)
+            - name: Platform update 28 (يوليو 2019)
               href: get-started/whats-new-platform-update-28.md
-            - name: ميزات المعاينة في Finance and Operations platform update 27 (يونيو 2019)
+            - name: Platform update 27 (يونيو 2019)
               href: get-started/whats-new-platform-update-27.md
             - name: Platform update 26 (مايو 2019)
               href: get-started/whats-new-platform-update-26.md
@@ -236,10 +236,16 @@
           href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
         - name: أتمتة مهمة البيانات
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: تقديم حلول مورد برامج مستقل (ISV) باستخدام إصدار واحد
+        - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام الخدمة "إصدار واحد"
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Regression Suite Automation Tool
-          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+        - name: تشغيل تلقائي للاختبارات
+          items:
+            - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
+              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+            - name: إعداد برنامج تعليمي للأداة Regression Suite Automation Tool
+              href: get-started/hol-set-up-regression-suite-automation-tool.md
+            - name: استخدام البرنامج التعليمي للأداة Regression Suite Automation Tool
+              href: get-started/hol-use-regression-suite-automation-tool.md
     - name: أحداث الأعمال
       href: ../dev-itpro/business-events/home-page.md
       items:
@@ -257,7 +263,11 @@
           href: ../dev-itpro/business-events/troubleshooting.md
         - name: حالات الاستخدام لأحداث الأعمال
           href: ../dev-itpro/business-events/potential-use-cases.md
-    - name: التوافق
+        - name: البرامج التعليمية
+          items:
+            - name: استخدام أحداث الأعمال بواسطة Microsoft Flow
+              href: ../dev-itpro/business-events/how-to/how-to-flow.md
+    - name: التوافق‬
       items:
         - name: قواعد سياسة التدقيق
           href: ../financials/general-ledger/audit-policy-rules.md
@@ -845,11 +855,11 @@
           items:
             - name: مصطلحات محاسبة التكاليف
               href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: التقاويم المالية، والسنوات المالية، والفترات
+            - name: التقاويم المالية، والسنوات المالية، والفترات‬
               href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
             - name: الأبعاد المالية
               href: ../financials/general-ledger/financial-dimensions.md
-            - name: بُنى الحسابات
+            - name: الأبعاد المالية والترحيل
               href: ../financials/general-ledger/Default-dimensions.md
             - name: إضافة الأبعاد المالية إلى مساحة عمل المدير المالي‬
               href: ../financials/general-ledger/CFO-workspace.md
@@ -1080,6 +1090,8 @@
                   href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
                 - name: إنشاء بُنى الحساب‬
                   href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: الأبعاد المالية والترحيل
+                  href: ../financials/general-ledger/default-dimensions.md
                 - name: إنشاء أنظمة استحقاق
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
                 - name: تحويل العملة وعمليات الدمج المالية
@@ -1932,14 +1944,148 @@
             - name: GST للهند
               href: ../financials/localizations/apac-ind-gst.md
               items:
-                - name: مجموعات GST المرجعية للهند
+                - name: المجموعة المرجعية لضريبة السلع والخدمات (GST) في الهند
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
-                - name: تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
+                - name: تكامل ضريبة السلع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: شراء صنف خاضع للضريبة من مورّد غير مسجل
-                  href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
-            - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
-              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+                - name: إعداد البيانات الرئيسية
+                  items:
+                    - name: إنشاء أسواق متخصصة
+                      href: ../financials/localizations/apac-ind-GST-create-business-vertical.md
+                    - name: تحديث كود المنطقة ومنطقة الاتحاد
+                      href: ../financials/localizations/apac-ind-GST-update-state-code-union-territory.md
+                    - name: إنشاء رقم تعريف رئيسي لضريبة السلع والخدمات (GSTIN)
+                      href: ../financials/localizations/apac-ind-GST-create-gstin-master.md
+                    - name: تحديد أرقام تعريف ضريبة السلع والخدمات (GSTIN) وتسلسلات الأرقام المرجعية
+                      href: ../financials/localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                    - name: تحديد أكواد HSN وأكواد محاسبة الخدمة
+                      href: ../financials/localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                    - name: إنشاء حسابات رئيسية لنوع ترحيل ضريبة السلع والخدمات (GST)
+                      href: ../financials/localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                    - name: إنشاء فترة تسوية الضرائب
+                      href: ../financials/localizations/apac-ind-GST-create-tax-settlement-period.md
+                    - name: إرفاق رقم تعريف ضريبة السلع والخدمات (GSTIN)‬ بمجموعة تسجيل ضريبي
+                      href: ../financials/localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                - name: إعداد الضريبة
+                  items:
+                    - name: تحديد تكوين الضريبة ونشره في الكيانات القانونية
+                      href: ../financials/localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                    - name: تعيين أنواع ضرائب التكوين - الجمارك
+                      href: ../financials/localizations/apac-ind-GST-map-configuration-tax-types.md
+                    - name: اعداد جداول المعدل والنسبة المئوية
+                      href: ../financials/localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                    - name: اعداد تدرج هرمي لضريبة المبيعات وقواعد المقاصة الضريبية‬
+                      href: ../financials/localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                - name: حركة الشراء
+                  items:
+                    - name: عمليات شراء من مورّدين غير مسجلين
+                      href: ../financials/localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                    - name: شراء صنف خاضع للضريبة من مورّد غير مسجل
+                      href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                    - name: عمليات شراء من مورّدين مسجلين
+                      href: ../financials/localizations/apac-ind-GST-purchases-registered-vendor.md
+                    - name: عمليات شراء بضائع مخفضة السعر
+                      href: ../financials/localizations/apac-ind-GST-purchase-discounted-goods.md
+                    - name: شراء بضائع معفاة من الضرائب
+                      href: ../financials/localizations/apac-ind-GST-purchase-exempted-goods.md
+                    - name: شراء بضائع معفاة من الضرائب
+                      href: ../financials/localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                    - name: عمليات شراء بضائع غير خاضعة لضريبة السلع والخدمات (GST)
+                      href: ../financials/localizations/apac-ind-GST-purchase-non-gst-goods.md
+                    - name: عمليات شراء من موزعين مجمعين
+                      href: ../financials/localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                    - name: عمليات شراء بضائع خاضعة للضريبة تشتمل على مصاريف شحن
+                      href: ../financials/localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                    - name: مراجعة فاتورة شراء تتضمن بضائع خاضعة للضريبة
+                      href: ../financials/localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                    - name: عمليات شراء أصول ثابتة
+                      href: ../financials/localizations/apac-ind-GST-purchase-fixed-asset.md
+                    - name: إنشاء إشعار دائن في مقابل فاتورة شراء
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                    - name: إنشاء إشعار مدين في مقابل فاتورة شراء
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                    - name: أوامر الجودة التي تشتمل على أخذ عينات للصنف‬
+                      href: ../financials/localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                    - name: أوامر إرجاع الشراء
+                      href: ../financials/localizations/apac-ind-GST-purchase-return-order.md
+                    - name: دفعات مقدمة للمورّدين حيث توجد رسوم عكسية
+                      href: ../financials/localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                - name: حركة المبيعات
+                  items:
+                    - name: عمليات بيع بضائع خاضعة للضريبة للمستهلكين
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                    - name: عمليات بيع للعملاء المسجلين
+                      href: ../financials/localizations/apac-ind-GST-sell-registered-customer.md
+                    - name: فواتير ذات نص حر
+                      href: ../financials/localizations/apac-ind-GST-free-text-invoices.md
+                    - name: عمليات بيع بضائع خاضعة للضريبة حيث توجد رسوم عكسية
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                    - name: عمليات بيع أصناف معفاة من الضرائب
+                      href: ../financials/localizations/apac-ind-GST-sales-exempted-item.md
+                    - name: عمليات بيع بضائع معفاة من الضرائب
+                      href: ../financials/localizations/apac-ind-GST-sell-zero-rated-goods.md
+                    - name: عمليات بيع بضائع غير خاضعة لضريبة السلع والخدمات (GST)
+                      href: ../financials/localizations/apac-ind-GST-sell-non-gst-goods.md
+                    - name: عمليات بيع بضائع خاضعة للضريبة تشتمل على خصم وتقييم مؤقت‬
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                    - name: عمليات بيع بضائع خاضعة للضريبة تشتمل على ضريبة على مصاريف الشحن
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                    - name: عمليات البيع حيث الأسعار تتضمن وتستثني الضريبة
+                      href: ../financials/localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                    - name: إنشاء إشعار مدين في مقابل فاتورة بيع
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                    - name: إنشاء إشعار دائن في مقابل فاتورة بيع
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                    - name: فواتير المبيعات المقسمة استنادًا إلى عناوين التسليم
+                      href: ../financials/localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                    - name: أوامر الإرجاع
+                      href: ../financials/localizations/apac-ind-GST-return-order-form.md
+                - name: حركات بعملة أجنبية
+                  items:
+                    - name: استيراد بضائع تخضع لضريبة السلع والخدمات (GST)
+                      href: ../financials/localizations/apac-ind-GST-import-goods-gst.md
+                    - name: استيراد خدمات تخضع لضريبة السلع والخدمات (GST)
+                      href: ../financials/localizations/apac-ind-import-services-gst.md
+                    - name: تصدير بضائع معفية من الضرائب
+                      href: ../financials/localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                    - name: تصدير خدمات معفية من الضرائب
+                      href: ../financials/localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                - name: حركة المخزون
+                  items:
+                    - name: أوامر تحويل المخزون التي تخضع لضريبة على سعر التحويل
+                      href: ../financials/localizations/apac-ind-GST-stock-transfer-transactions.md
+                - name: حركة دفع العميل
+                  items:
+                    - name: الدفعات المقدمة التي تشتمل على الضريبة
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-includes-tax.md
+                    - name: الدفعات المقدمة التي تتم تسويتها أثناء ترحيل الفاتورة
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                    - name: التسوية اليدوية لدفعة مقدمة وفاتورة تشتمل على الضريبة
+                      href: ../financials/localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                    - name: دفع الفواتير التي تشتمل على الضريبة
+                      href: ../financials/localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                    - name: مراجعة الدفعات المقدمة التي تشتمل على الضريبة
+                      href: ../financials/localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                    - name: إعادة المبالغ المدفوعة للعملاء
+                      href: ../financials/localizations/apac-ind-GST-customer-payment-refund.md
+                - name: حركة ضريبة مباشرة
+                  items:
+                    - name: تضمين ضريبة السلع والخدمات (GST) عند حساب خصومات الضرائب
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                    - name: تضمين ضريبة السلع والخدمات (GST) عند حساب تحصيلات الضرائب
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                - name: تسوية مبلغ الضريبة
+                  href: ../financials/localizations/apac-ind-GST-tax-adjustments.md
+                - name: تسوية الضريبة القائمة على لقاعدة
+                  href: ../financials/localizations/apac-ind-GST-tax-settlement.md
+                - name: إنشاء دفتر يومية الضرائب
+                  href: ../financials/localizations/apac-ind-GST-tax-journal.md
+                - name: إنشاء بيانات تقرير GSTR لعمليات إرجاع الضرائب
+                  href: ../financials/localizations/apac-ind-GST-tax-returns.md
+                - name: الاستعلام عن الضرائب
+                  href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
+                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
+                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: نظرة عامة على محرك الضريبة
               href: ../financials/general-ledger/tax-engine.md
               items:
@@ -2377,6 +2523,10 @@
                   href: ../financials/localizations/rus-accounting-reporting.md
                 - name: إقرار الضرائب المقدّرة
                   href: ../financials/localizations/rus-assessed-tax-declaration.md
+                - name: إقرار ضريبة النقل
+                  href: ../financials/localizations/rus-transport-tax-declaration.md
+                - name: إقرار ضريبة الأراضي‬
+                  href: ../financials/localizations/rus-land-tax-declaration.md
             - name: إدارة المؤسسة
               items:
                 - name: معلومات التسجيل الضريبي المرتبطة بالعنوان
@@ -2791,166 +2941,228 @@
               href: ../dev-itpro/analytics/install-modern-report-design-templates.md?toc=/fin-and-ops/toc.json
             - name: تخصيص تقارير مجموعة التطبيقات باستخدام الملحقات
               href: ../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/fin-and-ops/toc.json
-            - name: توسيع مجموعات بيانات تقارير مجموعة التطبيقات
+            - name: توسيع مجموعات بيانات تقارير طقم التطبيقات
               href: ../dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/fin-and-ops/toc.json
-            - name: توسيع عناصر قائمة التقرير لإعادة توجيه تنقلات المستخدم
+            - name: توسيع عناصر قائمة التقرير لإعادة توجيه تنقل المستخدم
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
             - name: إنشاء تصاميم مخصصة لمستندات الأعمال
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
-        - name: إعداد التقارير الإلكترونية
+            - name: معاينة مستندات PDF باستخدام عارض مضمن
+              href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
+    - name: التقارير الإلكترونية
+      items:
+        - name: نظرة عامة على التقارير الإلكترونية
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+        - name: التكوينات
           items:
-            - name: تكوين إطار عمل إعداد التقارير الإلكتروني
-              href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
             - name: إنشاء التكوينات
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+            - name: إعداد المكونات لحل إعداد التقارير الإلكترونية
               items:
-                - name: إنشاء موفري التكوين ووضع علامة نشط عليهم
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: تصميم نماذج بيانات خاصة بالمجال
+                - name: تصميم نموذج بيانات خاص بالمجال
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: إعداد بيانات تعريف خاصة بالتطبيق
+                  items:
+                    - name: (التقارير الإلكترونية) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
+                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
                 - name: تعريف تعيينات النماذج وتحديد مصادر البيانات
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: تعيين نماذج البيانات إلى مصادر بيانات محددة
+                - name: تعيين نموذج البيانات إلى مصادر بيانات محددة
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء تكوينات التنسيق
+                - name: إنشاء تكوين التنسيق
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: تعيين مكونات التنسيقات لعناصر نموذج البيانات
+                - name: تعيين مكونات التنسيق المنشأ لعناصر نموذج البيانات
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء مستندات إلكترونية للمدفوعات باستخدام تكوينات التنسيق
+            - name: اختبار حل التقارير الإلكترونية (ER) الذي تم إعداده في التطبيق الهدف
+              items:
+                - name: (التقارير الإلكترونية) استيراد التكوينات من RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                - name: إنشاء مستندات إلكترونية للمدفوعات باستخدام تكوين تنسيق
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: ترقية التنسيقات باعتماد إصدارات أساسية جديدة
-                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-                - name: تصميم تكوينات التقارير الإلكترونية لملء قوالب PDF
-                  href: ../dev-itpro/analytics/er-fillable-pdf.md
-            - name: مصمم المعادلات في التقارير الإلكترونية
-              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
-              href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-            - name: الوجهات
-              href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: تكوين الوجهات
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: تصميم تكوينات لإنشاء تقارير بتنسيق Word
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: تصميم تكوينات لإنشاء تقارير بتنسيق OpenXML
+            - name: ترقية التنسيق من خلال اعتماد إصدار أساسي جديد من ذلك التنسيق
+              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+        - name: مصمم المعادلات في التقارير الإلكترونية
+          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+        - name: إدارة تعيين نموذج التقارير الإلكترونية (ER) في تكوينات تقارير إلكترونية (ER) منفصلة
+          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
+          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
+          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+        - name: (التقارير الإلكترونية) مصادر البيانات عبر الشركات في التقارير الإلكترونية
+          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+        - name: تصميم تنسيقات التقارير الإلكترونية (ER) لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
+          items:
+            - name: (التقارير الإلكترونية) تصميم تكوين لإنشاء التقارير بتنسيق OPENXML
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: تعديل تنسيقات إعداد التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
-              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: تحديد تعريف نموذج البيانات أثناء إنشاء التنسيقات
-              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: تحديد تبعية التكوينات في المكونات الأخرى
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: (التقارير الإلكترونية) تصميم تكوينات لإنشاء تقارير بتنسيق Word
+              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: تصميم تكوينات لملء قوالب PDF
+              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+        - name: تضمين الصور والأشكال
+          items:
+            - name: (التقارير الإلكترونية) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
+              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+            - name: مثال عن تضمين الصور والأشكال
               items:
-                - name: تصميم نماذج بيانات لاستخدام الأبعاد المالية كمصادر بيانات
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: تعيين النماذج لاستخدام الأبعاد المالية كمصادر بيانات
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: تصميم تقارير لاستخدام الأبعاد المالية كمصادر بيانات
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: تشغيل تقارير تستخدم الأبعاد المالية كمصادر بيانات
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء تنسيقات للقيام بالعد والتجميع
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-                - name: تكوين عمليات حسابية للقيام بالعد والتجميع
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-                - name: استخدام عمليات حسابية لإنشاء مخرجات للعد والتجميع
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: تشغيل تنسيقات للقيام بالعد والتجميع
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: تصميم تنسيقات لإضافة الأعمدة بشكل ديناميكي كنطاقات قابلة للتوسيع أفقيًا
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: تشغيل تنسيقات لإضافة الأعمدة بشكل ديناميكي كنطاقات قابلة للتوسيع أفقيًا
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: إعداد نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: توسيع نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: تشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: تعديل وتشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-                - name: تصميم تكوينات لإنشاء تقارير بتنسيقات Office مع صور مضمنة
+                - name: تصميم تكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: مراجعة تكوينات لإنشاء تقارير بتنسيقات Office مع صور مضمنة
+                - name: مراجعة التكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء تقارير بتنسيقات Office مع صور مضمنة
+                - name: إنشاء تقارير بتنسيقات Office ذات صور مضمنة
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+        - name: تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
+          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+        - name: تصميم تكوينات التقارير الإلكترونية (ER) التي تعتمد على إصدار Finance and Operations
+          items:
+            - name: تحديد تبعية تكوينات التقارير الإلكترونية (ER) في المكونات الأخرى
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: تصميم حل تقارير إلكترونية (ER) لاستخدام الأبعاد المالية
+          items:
+            - name: تصميم نماذج بيانات لاستخدام الأبعاد المالية كمصادر بيانات
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+            - name: تعيين النماذج لاستخدام الأبعاد المالية كمصادر بيانات
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+            - name: تصميم تقارير لاستخدام الأبعاد المالية كمصادر بيانات
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+            - name: تشغيل تقارير تستخدم الأبعاد المالية كمصادر بيانات
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+        - name: تصميم تنسيقات التقارير الإلكترونية (ER) لتنفيذ عمليات العد والجمع باستخدام معلومات من المخرجات المنشأة
+          items:
+            - name: إنشاء تنسيقات لتنفيذ عمليات العد والجمع
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+            - name: تكوين تنسيق لتنفيذ عمليات العد والجمع
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+            - name: استخدام عمليات حسابية لإنشاء مخرجات للعد والجمع
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+            - name: تشغيل تنسيقات لتنفيذ عمليات العد والجمع
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+        - name: إضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+          items:
+            - name: تصميم تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+            - name: تشغيل تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+        - name: استخدام ملفات إدارة المستندات في مخرجات التنسيقات
+          items:
+            - name: إعداد نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+            - name: توسيع نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+            - name: إنشاء تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+            - name: تشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+            - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+        - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية
+          items:
             - name: إنشاء مستندات إلكترونية وتحديث بيانات التطبيق
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+            - name: استيراد تكوينات لإنشاء مستندات بواسطة بيانات التطبيق
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+            - name: تصميم تكوينات لإنشاء مستندات بواسطة بيانات التطبيق
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+            - name: تعديل النماذج والتعيينات لإنشاء مستندات بواسطة بيانات التطبيق
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+            - name: تعديل التنسيقات لإنشاء مستندات بواسطة بيانات التطبيق
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+            - name: إنشاء مستندات تتضمن بيانات التطبيق
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+        - name: استيراد بيانات من ملفات واردة باستخدام حلول التقارير الإلكترونية (ER)
+          items:
+            - name: توزيع المستندات الواردة بتنسيقات مختلفة
+              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+            - name: تكوين استيراد البيانات من ملفات محددة يدويًا
               items:
-                - name: استيراد تكوينات لإنشاء مستندات مع بيانات التطبيق
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-                - name: تصميم تكوينات لإنشاء مستندات مع بيانات التطبيق
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: تعديل النماذج والتعيينات لإنشاء مستندات مع بيانات التطبيق
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: تعديل التنسيقات لإنشاء مستندات مع بيانات التطبيق
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء مستندات مع بيانات التطبيق
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-            - name: إنشاء نماذج فاتورة نص حر (FTI) قابلة للطباعة
-              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
-              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-            - name: تتبع نتائج التقارير المنشأة ومقارنتها بقيم الأساس
-              href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-            - name: مصادر البيانات عبر الشركات في التقارير الإلكترونية
-              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: صورة مضمنة وأشكال في المستندات التي تقوم بإنشائها
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: إدارة دورة حياة التكوين​
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: تحميل التكوينات إلى Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: استيراد التكوينات من Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: استيراد تكوينات التقارير الإلكترونية من خدمات التكوين التنظيمية (RCS)
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md
-                - name: تنزيل التكوينات من Lifecycle Services
-                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: استيراد التكوينات
-                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: إدارة تكوينات تعيين نموذج
-              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: إنشاء تكوينات لاستيراد بيانات من ملفات خارجية
+                - name: إنشاء تكوينات لاستيراد البيانات من ملف XML خارجي
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-                - name: تكوين استيراد البيانات من SharePoint
-                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: توزيع المستندات الواردة بتنسيق Excel
-              href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
-            - name: توزيع المستندات الواردة لتحديث بيانات التطبيق
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
-            - name: توزيع المستندات الواردة بتنسيق CSV
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
+            - name: تكوين استيراد البيانات في الوضع الدفعي من ملفات موجودة في SharePoint
+              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+            - name: استيراد ملفات بتنسيق XML
+              items:
+                - name: استيراد ملفات بتنسيق XML مع سمات اختيارية
+                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                - name: تكوين تنسيقات التقارير الإلكترونية (ER) لاستيراد ملفات بتنسيق XML مع سمات اختيارية
+                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
+        - name: دورة حياة التكوين
+          items:
+            - name: إدارة دورة حياة التكوينات
+              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+            - name: تحميل التكوينات إلى Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: استيراد التكوينات من Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: تنزيل التكوينات من Lifecycle Services
+              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+            - name: استيراد التكوينات
+              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+            - name: تنزيل تكوينات ER من مستودع RCS
               items:
-                - name: توسيع قائمة وظائف التقارير الإلكترونية
-                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-                - name: التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3
-                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-                - name: تحديد مساحة تخزين مخصصة للمستندات المُنشأة
-                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: تنزيل تكوينات من مستودع التقارير الإلكترونية (ER) للنوع RCS
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                - name: استيراد التكوينات من RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+        - name: استخدام حلول التقارير الإلكترونية في Finance and Operations
+          items:
+            - name: تكوين إطار العمل
+              items:
+                - name: تكوين إطار عمل التقارير الإلكترونية
+                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                - name: إنشاء موفري التكوين ووضع علامة نشط عليهم
+                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: الوجهات
+              items:
+                - name: نظرة عامة على الوجهات
+                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                - name: تكوين الوجهات
+                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: التحقق التلقائي من صحة التقارير المنشاة
+              items:
+                - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                - name: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنات مع القيم الأساسية
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
+                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+            - name: التشغيل التلقائي لعمليات الأعمال باستخدام تكوينات التقارير الإلكترونية
+              items:
+                - name: تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
+                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
+                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+            - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية (ER) لاستكشاف مشكلات الأداء وإصلاحها
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+        - name: API إطار عمل التقارير الإلكترونية (ER)
+          items:
+            - name: توسيع قائمة وظائف التقارير الإلكترونية
+              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+            - name: التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3
+              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+            - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
+              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: الحلول التحليلية المضمنة
           items:
-            - name: Embedded Power BI في مساحات العمل
+            - name: Power BI المضمن في مساحات العمل
               href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json
             - name: تكامل Power BI Embedded
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
+            - name: تحديد مساحات عمل تحليلية من PowerBI.com
+              href: ../dev-itpro/analytics/select-analytical-workspace.md
         - name: خيارات التخصيص‬ مع PowerBI.com
           items:
             - name: الميزات والخدمات المتوفرة من خلال تكامل Power BI
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: تثبيت تقارير Power BI في مساحات العمل
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
+            - name: تخصيص التقارير المضمنة في مساحات العمل التحليلية
+              href: ../dev-itpro/analytics/customize-analytical-workspace.md
         - name: أدوات لإنشاء الحلول وتوسيعها
           items:
             - name: التحليلات والقياسات التجميعية وتصميم نماذج مؤشرات الأداء الأساسية
@@ -3067,12 +3279,16 @@
               href: ../supply-chain/cost-management/adjust-hand-inventory-cost-values.md
             - name: تتبع متوسط سعر التكلفة الجاري لكل بُعد مخزون
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+    - name: سلسلة التوريد
+      href: ../supply-chain/index.md
     - name: التخطيط الرئيسي
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
         - name: الخطط الرئيسية
           href: ../supply-chain/master-planning/master-plans.md
           items:
+            - name: إعداد الخطط الرئيسية
+              href: ../supply-chain/master-planning/master-planning-setup.md
             - name: إعدادات التغطية
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: تحديد قواعد تغطية للأصناف
@@ -3099,6 +3315,8 @@
               href: ../supply-chain/master-planning/tasks/create-plan-site.md
             - name: التقويمات والتخطيط الرئيسي
               href: ../supply-chain/master-planning/supply-chain-calendars-master-planning.md
+            - name: تحسين أداء التخطيط الرئيسي
+              href: ../supply-chain/master-planning/master-planning-performance.md
             - name: الخطط الرئيسية ووظائف المواقع المتعددة
               href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
@@ -3110,10 +3328,12 @@
                   href: ../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
                 - name: التخطيط الرئيسي لتغطية الموقع والمستودع، المستودع غير إلزامي
                   href: ../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                - name: تحديد إصدار قائمة مكونات الصنف
+                - name: تحديد إصدار BOM
                   href: ../supply-chain/master-planning/master-plan-bom-version-determined.md
                 - name: تحديد إجمالي المكونات المطلوبة‬ لإصدار قائمة مكونات الصنف
                   href: ../supply-chain/master-planning/master-plan-explosion-bom-version.md
+            - name: الأيام السالبة والأيام السالبة الديناميكية
+              href: ../supply-chain/master-planning/more-about-dynamic-negative-days.md
             - name: إنشاء خطة بين الشركات الشقيقة
               href: ../supply-chain/master-planning/tasks/create-intercompany-plan.md
             - name: إظهار المطلب الصادر المخطط بين الشركات الشقيقة

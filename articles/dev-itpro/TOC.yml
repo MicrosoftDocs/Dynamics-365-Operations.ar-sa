@@ -995,8 +995,10 @@
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
             - name: خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية
               href: deployment/deploy-retail-onprem.md
-        - name: تطوير النماذج المخصصة للبيئات المحلية ونشرها
+        - name: تطوير نماذج مخصصة ونشرها في بيئات محلية
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: تكامل PowerBI.com مع البيئات المحلية
+          href: analytics/entity-store-on-prem.md
         - name: تكوين الوكلاء العكسيين للبيئات المحلية
           href: deployment/onprem-reverseproxy.md
         - name: تطبيق التحديثات على عملية نشر محلي
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: استكشاف مشاكل عمليات النشر المحلية وإصلاحها
           href: deployment/troubleshoot-on-prem.md
+        - name: تدوير الشهادات
+          href: deployment/certificate-rotation-on-prem.md
     - name: نشر كود مخصص
       items:
         - name: إنشاء حزم نماذج قابلة للنشر

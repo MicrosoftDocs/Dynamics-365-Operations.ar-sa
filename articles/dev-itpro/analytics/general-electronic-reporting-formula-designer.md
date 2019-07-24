@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592650"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625862"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>مصمم المعادلات في التقارير الإلكترونية
 
@@ -651,6 +651,11 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <td>NUMBERFORMAT (رقم، تنسيق)</td>
 <td>إرجاع تمثيل سلسلة للرقم المحدد بالتنسيق المحدد. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">القياسي</a> و <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">المخصص</a>.) يحدد السياق الذي تُشغل فيه الوظيفة الثقافة التي يتم استخدامها لتنسيق الأرقام.</td>
 <td>لثقافة EN-US، ترجع <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> النتيجة <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> ترجع <strong>&quot;10&quot;</strong>.</td>
+</tr>
+<tr>
+<td>NUMBERFORMAT (رقم، تنسيق، ثقافة)</td>
+<td>إرجاع تمثيل السلسلة للرقم المحدد في التنسيق المحدد والثقافة المعينة. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">قياسي</a> و<a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">مخصص</a>).</td>
+<td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> يعرض <strong>3,33</strong> بينما <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> يعرض <strong>3.33</strong>.</td>
 </tr>
 <tr>
 <td>NUMERALSTOTEXT (رقم، لغة، عملة، طباعة علامة اسم العملة‬، منازل عشرية)</td>

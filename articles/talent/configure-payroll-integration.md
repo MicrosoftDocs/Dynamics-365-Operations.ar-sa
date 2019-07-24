@@ -3,7 +3,7 @@ title: تكوين تكامل كشف المرتبات بين Talent وDayforce
 description: يشرح هذا الموضوع كيفية تكوين التكامل بين Microsoft Dynamics 365 for Talent وCeridian Dayforce لكي تتمكن من معالجة دورة دفع.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517198"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702808"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>تكوين تكامل كشف الرواتب بين Talent وDayforce
 
@@ -54,6 +54,16 @@ ms.locfileid: "1517198"
 
 - [حول حسابات مساحة تخزين Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [تكوين سلاسل اتصال مساحة تخزين Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>تفاصيل تقنية عند تمكين تكامل الرواتب
+
+يؤدي تشغيل تكامل الرواتب إلى تأثيرين أساسيين:
+
+- يتم إنشاء مشروع تصدير بيانات يُسمى "تصدير تكامل الرواتب". يحتوي هذا المشروع على الكيانات والحقول المطلوبة لتكامل الرواتب. لفحص المشروع ، انتقل إلى **إدارة النظام**، وحدد تجانب**إدارة البيانات**، ثم افتح مشروع البيانات من قائمه المشروعات.
+- تنفذ هذه الوظيفة الدفعية مشروع تصدير البيانات، وتشفر حزمة البيانات الناتجة، وتنقل ملف حزمة البيانات إلى نقطة نهاية SFTP التي تم تكوينها على شاشة **تكوين التكامل**.
+
+> [!NOTE]
+> يتم تشفير حزمة البيانات التي تم نقلها إلى نقطة نهاية SFTP باستخدام مفتاح فريد للحزمة. المفتاح موجود في Azure Key Vault والذي يمكن الوصول إليه عن طريق Ceridian فقط. لا يمكن فك تشفير محتويات حزمة البيانات وفحصها. إذا كنت بحاجة إلى فحص محتويات حزمة البيانات، ستحتاج إلى تصدير مشروع البيانات "تصدير تكامل الرواتب" يدويا، وتنزيله، ثم فتحه. لن تطبق عملية التصدير اليدوية التشفير أو نقل الحزمة.
 
 ## <a name="configure-your-data"></a>تكوين بياناتك 
 

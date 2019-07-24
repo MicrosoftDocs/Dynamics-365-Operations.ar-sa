@@ -3,7 +3,7 @@ title: نظام تعليمات Finance and Operations
 description: يوفر هذا الموضوع نظرة عامة حول مكونات نظام تعليمات Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595629"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625319"
 ---
 # <a name="finance-and-operations-help-system"></a>نظام تعليمات Finance and Operations
 
@@ -95,16 +95,18 @@ ms.locfileid: "1595629"
 
     ![نشر تعليق](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>اقتراح تغيير أو المساهمة بالمحتوى من خلال GitHub
+### <a name="contribute-to-the-documentation"></a>المساهمة في الوثائق
 
-لاقتراح تغيير، يلزم أن يكون لديك حساب في GitHub، وأن يتم التوقيع على اتفاقية ترخيص المساهم. بعد قيامك بإرسال طلب سحب، سنراجع تغييراتك المقترحة. إذا لزم الأمر، سنناقشها داخليًا، وبعد ذلك سنعاود الاتصال بك.
+يمكنك المساهمة وإجراء التحريرات على وثائق Finance and Operations. للشروع في العمل، انقر فوق الزر **تحرير** (القلم الرصاص) في الموضوع أو انتقل إلى المستودع الخاص بنا في <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. يوضح الفيديو التالي كيف يمكنك المساهمة في وثائقنا.
 
-للشروع في العمل، انقر فوق الزر **تحرير** (القلم الرصاص) في الموضوع أو انتقل إلى المستودع الخاص بنا في <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-لمزيد من المعلومات، الرجاء الرجوع إلى دليل المساهم الخاصة بنا: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
+تم تضمين فيديو [كيفية المساهمة في وثائق Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (الموضح أعلاه) في [ما الجديد في قائمة تشغيل Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) المتوفر على YouTube.
+
+لمزيد من المعلومات، راجع دليل المساهم الخاصة بنا على <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
 
 > [!NOTE]
-> لا نقبل في الوقت الحالي غير المساهمات في مجموعة المحتويات التابعة لنا باللغة الإنجليزية.
+> لا نقبل في الوقت الحالي غير المساهمات في المحتويات التابعة لنا باللغة الإنجليزية.
 
 ## <a name="task-guides"></a>دلائل المهام
 
