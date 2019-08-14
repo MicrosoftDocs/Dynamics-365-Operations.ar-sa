@@ -4,6 +4,8 @@
   items:
     - name: ما الجديد أو المتغير
       href: get-started/whats-new.md
+    - name: ميزات المعاينة في Dynamics 365 for Retail 10.0.5
+      href: get-started/whats-new-10-0-5.md
     - name: ما الجديد أو المتغير‬ في Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: ما الجديد أو المتغير‬ في Dynamics 365 for Retail 10.0.2
@@ -257,6 +259,8 @@
       href: Notifications-POS.md
 - name: المرتجعات
   items:
+    - name: المبالغ المستردة المرتبطة
+      href: dev-itpro/linked-refunds.md
     - name: بيع المنتجات غير المضمنة في مجموعة المتجر وإرجاعها
       href: sell-return-outside-assortments.md
     - name: تكوين ومعالجة عملية استبدال في أمر إرجاع
