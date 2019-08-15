@@ -106,10 +106,28 @@
           items:
             - name: مرجع اللغة X++
               href: dev-ref/xpp-language-reference.md
-            - name: متغيرات X++ وأنواع البيانات
-              href: dev-ref/xpp-variables-data-types.md
-            - name: عبارات X++ والحلقات ومعالجة الاستثناء
-              href: dev-ref/xpp-statements-loops.md
+            - name: المتغيرات وأنواع البيانات
+              items:
+                - name: المتغيرات
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: أنوع البيانات الأساسية
+                  href: dev-ref/xpp-data-primitive.md
+                - name: أنوع البيانات المركبة
+                  href: dev-ref/xpp-data-composite.md
+                - name: فئات المجموعات
+                  href: dev-ref/xpp-data-collection.md
+                - name: أنوع البيانات الملحقة
+                  href: dev-ref/xpp-data-edt.md
+            - name: العبارات والحلقات ومعالجة الاستثناء
+              items:
+                - name: التعليقات والاستخدام والطباعة
+                  href: dev-ref/xpp-statements-loops.md
+                - name: العبارات الشرطية
+                  href: dev-ref/xpp-conditional.md
+                - name: عبارات الحلقات
+                  href: dev-ref/xpp-loops.md
+                - name: معالجة الاستثناء
+                  href: dev-ref/xpp-exceptions.md
             - name: استثناء X++ لخطأ الاتصال بـ SQL
               href: dev-ref/sql-connection-error.md
             - name: معاملات X++
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: تحديد بيانات X++ والمعالجة
               href: dev-ref/xpp-data-query.md
+            - name: الوصول إلى البيانات باستخدام SysDa API
+              href: dev-ref/sysda.md
             - name: وحدات ماكرو X++
               href: dev-ref/xpp-macros.md
             - name: فئات سمات X++
@@ -438,6 +458,10 @@
           href: user-interface/page-layout.md
         - name: خط رمز Dynamics
           href: user-interface/symbol-font.md
+        - name: طرق العرض المحفوظة
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: إنشاء نماذج تستخدم طرق العرض المحفوظة بشكل كامل
+          href: user-interface/understanding-saved-views.md
         - name: اختبار النماذج التي تستخدم أنماط مخصصة
           href: user-interface/testing-forms-custom-patterns.md
         - name: إنشاء عناوين URL قابلة للمشاركة ومؤمنة (ارتباطات عميقة)
@@ -494,9 +518,9 @@
           href: user-interface/slider-messagebox.md
         - name: واجهة API لمركز الرسائل وشريط الرسالة وتفاصيل الرسالة
           href: user-interface/messaging-api-center-bar-details.md
-        - name: الأسئلة الشائعة لمركز الرسائل وشريط الرسالة وتفاصيل الرسالة
+        - name: الأسئلة المتداولة حول مركز الرسائل وشريط الرسالة وتفاصيل الرسالة
           href: user-interface/messaging-user.md
-    - name: إرشادات نمط النموذج الأساسي
+    - name: إرشادات نمط النموذج
       items:
         - name: أنماط النماذج للنماذج التي تم ترحيلها
           href: user-interface/select-form-pattern.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: الإصلاحات العاجلة
       items:
-        - name: تنزيل الإصلاحات العاجلة من Lifecycle Services
+        - name: الحصول على تحديثات من Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: تطبيق التحديثات على بيئات السحابة
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: تصدير مستخدمي B2B إلى Azure AD
       href: sysadmin/implement-b2b.md
+    - name: تعيين مهله خمول جلسة العمل
+      href: sysadmin/session-idle-timeout.md
     - name: أمان يستند إلى الدور
       href: sysadmin/role-based-security.md
       items:
@@ -1310,6 +1336,8 @@
   items:
     - name: الحصول على الدعم لـ Finance and Operations وLifecycle Services
       href: lifecycle-services/lcs-support.md
+    - name: نظرة عامة على دعم Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: الحصول على الدعم لـ Finance and Operations المشغّل بواسطة 21Vianet في الصين
       href: lifecycle-services/21vianet-support.md
     - name: تسجيل بطاقة دعم رئيسي

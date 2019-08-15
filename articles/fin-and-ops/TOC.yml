@@ -27,6 +27,8 @@
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
                 - name: Finance and Operations مشغّل بواسطة 21Vianet في الصين
                   href: ../dev-itpro/deployment/china-local-deployment.md
+                - name: Finance and Operations في فرنسا
+                  href: ../dev-itpro/deployment/france-local-deployment.md
             - name: توافر تحديث الخدمة
               href: get-started/public-preview-releases.md
             - name: شراء Finance and Operations
@@ -44,6 +46,8 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: ميزات لم يتم تنفيذها في عمليات النشر المحلية‬
               href: get-started/features-not-implemented-on-prem.md
+            - name: ميزات المعاينة‬ Finance and Operations إصدار 10.0.5 (أكتوبر 2019)
+              href: get-started/whats-new-changed-10-0-5.md
             - name: Finance and Operations إصدار 10.0.4 (يوليو 2019)
               href: get-started/whats-new-changed-10-0-4.md
             - name: Finance and Operations إصدار 10.0.3 (يونيو 2019)
@@ -56,6 +60,8 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations إصدار 8.1.3 (يناير 2019)
               href: get-started/whats-new-changed-8-1-3.md
+            - name: ميزات المعاينة‬ في Platform update 29 (أكتوبر 2019)
+              href: get-started/whats-new-platform-update-29.md
             - name: Platform update 28 (يوليو 2019)
               href: get-started/whats-new-platform-update-28.md
             - name: Platform update 27 (يونيو 2019)
@@ -156,6 +162,8 @@
               href: get-started/navigation-search.md
             - name: تخصيص تجربة المستخدم
               href: get-started/personalize-user-experience.md
+            - name: طرق العرض المحفوظة
+              href: get-started/saved-views.md
             - name: إنشاء حقول مخصصة والعمل باستخدامها
               href: get-started/user-defined-fields.md
             - name: تضمين تطبيقات PowerApps
@@ -267,14 +275,14 @@
           items:
             - name: استخدام أحداث الأعمال بواسطة Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-    - name: التوافق‬
-      items:
-        - name: قواعد سياسة التدقيق
-          href: ../financials/general-ledger/audit-policy-rules.md
-        - name: انتهاكات وحالات سياسة التدقيق
-          href: ../financials/general-ledger/audit-policy-violations-cases.md
-        - name: تحديد سياسات المراجعة للمستندات المصدر
-          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: استهلاك أحداث الأعمال باستخدام شبكة أحداث Azure
+              href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
+            - name: استهلاك أحداث الأعمال باستخدام ناقل خدمة Azure‬
+              href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
+            - name: استهلاك احداث أعمال الموافقة على سير العمل
+              href: ../dev-itpro/business-events/how-to/how-to-workflow.md
+            - name: استخدام Microsoft Forms Pro مع أحداث الأعمال
+              href: ../dev-itpro/business-events/how-to/FormsPro.md
     - name: إدارة التكلفة
       href: ../supply-chain/cost-management/cost-management-home-page.md
       items:
@@ -419,61 +427,85 @@
                 - name: إنشاء سجلات باستخدام قوالب السجل
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: تكامل البيانات باستخدام Common Data Service
-              href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
               items:
-                - name: تكوين سيناريو العميل المتوقع إلى النقدية
-                  href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                - name: نظرة عامة على تكامل البيانات
+                  href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
+                - name: التكامل المتزامن ثنائي الاتجاه
                   items:
-                    - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
-                      href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                    - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
-                      href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                    - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎
-                      href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                    - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations
-                      href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                    - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
-                      href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                    - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
-                      href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                - name: تكوين التكامل مع Field Service
-                  href: ../supply-chain/sales-marketing/field-service.md
+                    - name: تكامل البيانات في وقت قريب من الحقيقي
+                      href: ../dev-itpro/data-entities/dual-write-overview.md?toc=/fin-and-ops/toc.json
+                    - name: التدرج الهرمي للمؤسسات في Common Data Service
+                      href: ../dev-itpro/data-entities/dual-write-organization.md?toc=/fin-and-ops/toc.json
+                    - name: مفهوم الشركة في Common Data Service
+                      href: ../dev-itpro/data-entities/dual-write-company.md?toc=/fin-and-ops/toc.json
+                    - name: أصل العميل المتكامل
+                      href: ../dev-itpro/data-entities/dual-write-customer.md?toc=/fin-and-ops/toc.json
+                    - name: أصل المورّد المتكامل
+                      href: ../dev-itpro/data-entities/dual-write-vendor.md?toc=/fin-and-ops/toc.json
+                    - name: مزامنة أولية
+                      href: ../dev-itpro/data-entities/dual-write-initial.md?toc=/fin-and-ops/toc.json
+                    - name: استكشاف أخطاء تكامل البيانات وإصلاحها
+                      href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
+                - name: التكامل المتزامن أحادي الاتجاه
                   items:
-                    - name: مزامنة المنتجات في Finance and Operations إلى المنتجات في Field Service
-                      href: ../supply-chain/sales-marketing/field-service-product.md
-                    - name: مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations
-                      href: ../supply-chain/sales-marketing/field-service-work-order.md
-                    - name: مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations
-                      href: ../supply-chain/sales-marketing/field-service-invoice.md
-                    - name: مزامنة عمليات تحويل وتسوية المخزون من Field Service إلى Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                    - name: مزامنة معلومات مستوى المخزون من Finance and Operations إلى Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                    - name: مزامنة المنتجات مع وحدة المخزون من Finance and Operations إلى Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                    - name: مزامنة قائمة المشاريع من Finance and Operations إلى Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
-                    - name: مزامنة المستودعات من Finance and Operations إلى Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-                    - name: مزامنة أوامر العمل مع المشروع من Field Service إلى Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                - name: تكوين تكامل Project Service Automation
-                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
-                  items:
-                    - name: معلمات تكامل Project Service Automation
-                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
-                    - name: مزامنة عقود المشاريع والمشاريع
-                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
-                    - name: مزامنة مهام المشروع
-                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
-                    - name: مزامنة فئات مصروفات المشروع
-                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
-                    - name: مزامنة تقديرات المشروع من/إلى تنبؤات المشروع
-                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
-                    - name: مزامنة القيم الفعلية للمشروع إلى دفتر يومية تكامل المشروع
-                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                    - name: العميل المتوقع إلى النقدية
+                      items:
+                        - name: تكوين سيناريو العميل المتوقع إلى النقدية
+                          href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
+                          href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
+                          href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎
+                          href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations
+                          href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
+                          href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
+                          href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Field Service
+                      items:
+                        - name: تكوين التكامل مع Field Service
+                          href: ../supply-chain/sales-marketing/field-service.md
+                        - name: مزامنة المنتجات في Finance and Operations إلى المنتجات في Field Service
+                          href: ../supply-chain/sales-marketing/field-service-product.md
+                        - name: مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations
+                          href: ../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations
+                          href: ../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: مزامنة عمليات تحويل وتسوية المخزون من Field Service إلى Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: مزامنة معلومات مستوى المخزون من Finance and Operations إلى Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: مزامنة المنتجات مع وحدة المخزون من Finance and Operations إلى Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: مزامنة قائمة المشاريع من Finance and Operations إلى Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: مزامنة المستودعات من Finance and Operations إلى Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: مزامنة أوامر العمل مع المشروع من Field Service إلى Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation
+                      items:
+                        - name: تكوين تكامل Project Service Automation
+                          href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                        - name: معلمات تكامل Project Service Automation
+                          href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                        - name: مزامنة عقود المشاريع والمشاريع
+                          href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                        - name: مزامنة مهام المشروع
+                          href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                        - name: مزامنة فئات مصروفات المشروع
+                          href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                        - name: مزامنة تقديرات المشروع من/إلى تنبؤات المشروع
+                          href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                        - name: مزامنة القيم الفعلية للمشروع إلى دفتر يومية تكامل المشروع
+                          href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
         - name: استخدام خدمات ويب خارجية
           href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: المراسلة الإلكترونية
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: إدارة البيانات
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -666,6 +698,8 @@
               href: ../financials/accounts-receivable/set-up-collections.md
             - name: مراجعة معلومات التحصيلات
               href: ../financials/accounts-receivable/tasks/review-collections-information.md
+            - name: نظرة عامة على ميزة إقرار الإيرادات
+              href: ../financials/accounts-receivable/revenue-recognition-overview.md
             - name: إعداد ومعالجة الفواتير المتكررة
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
             - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي للفواتير ذات النص الحر
@@ -1067,166 +1101,6 @@
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: دفتر الأستاذ العام
           href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: الحسابات
-              items:
-                - name: نظرة عامة على الاستحقاقات
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: قواعد الاستبعاد
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: الحساب ومجموعات الأبعاد
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: دفاتر اليومية التي تمت موازنتها للمحاسبة بين الوحدات
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: تعريفات الترحيل
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: أمثلة عن تعريف الترحيل
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: أرصدة حسابات دفتر الأستاذ العام
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: تحديد الأبعاد المالية
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: إنشاء بُنى الحساب‬
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: الأبعاد المالية والترحيل
-                  href: ../financials/general-ledger/default-dimensions.md
-                - name: إنشاء أنظمة استحقاق
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: تحويل العملة وعمليات الدمج المالية
-                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
-                  items:
-                    - name: تجميع عبر الإنترنت
-                      href: ../financials/general-ledger/consolidate-online.md
-                    - name: إنشاء القوائم المالية الموحدة
-                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
-                - name: إنشاء مجموعات توحيد وحساب توحيد إضافي
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: أنواع الحسابات الرئيسية
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: إنشاء حساب رئيسي
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: تخطيط دليل الحسابات
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: تسوية الحركات بين حسابات دفتر الأستاذ
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: إعداد اسم مستعار لحساب دفتر الأستاذ‬
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: إعداد فئات الحساب الرئيسي
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: مستكشف مصدر المحاسبة
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: التوزيعات المحاسبية
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: توزيعات العمليات
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: الأبعاد المالية
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: تحويل عملات المحاسبة أو التقارير
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: مجموعات حسابات التجميع والحسابات
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: نظرة عامة على التجميع والاستبعاد
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: التقاويم المالية، والسنوات المالية، والفترات‬
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-                - name: تكوين بنى الحسابات
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: العملة المزدوجة
-                  href: ../financials/general-ledger/dual-currency.md
-            - name: دفاتر اليومية ودفاتر الأستاذ
-              items:
-                - name: معالجة دفتر اليومية العام
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: ترحيل دفاتر اليومية الدورية
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: ‏‫معالجة دفتر يومية توزيع دفتر الأستاذ‬
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: إعداد المحاسبة بين الشركات الشقيقة
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: قواعد توزيع دفتر الأستاذ
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: إنشاء قواعد متقدمة لدفاتر اليومية
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: إنشاء بُنى القواعد المتقدمة وتعيينها
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: أنواع دفاتر يومية دفتر الأستاذ
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: إنشاء دفاتر اليومية والتحقق من صحتها
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: عرض إدخالات الدفاتر اليومية أو الحركات
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: ‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: إنشاء إدخال دفتر يومية باستخدام قالب
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: إنشاء حركات استحقاق دفتر الأستاذ​
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: نشر بنود دفاتر اليومية والمستندات من Excel
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: عرض إدخالات دفاتر اليومية والحركات
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: إعادة تقييم العملة في شركة تجميع​
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: استيراد أسعار صرف العملات
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-                - name: إيصال واحد
-                  href: ../financials/general-ledger/one-voucher.md
-                - name: تسويات دفتر الأستاذ
-                  href: ../financials/general-ledger/ledger-settlements.md
-            - name: إقفال نهاية الفترة
-              items:
-                - name: إقفال دفتر الأستاذ العام في نهاية الفترة​
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: مساحة عمل إقفال الفترة المالية
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: إقفال نهاية السنة
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: إقفال السنة المالية
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: إقفال شامل للفترة المالية
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: ضريبة المبيعات
-              items:
-                - name: نظرة عامة على ضريبة المبيعات
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: معدلات ضريبة المبيعات استنادًا إلى طرق القاعدة الهامشية والحساب
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: دفعات ضريبة المبيعات وقواعد التقريب
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: طرق حساب ضريبة المبيعات في حقل الأصل
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: إنشاء دفع ضريبة مبيعات
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: إنشاء حركات ضريبة المبيعات في المستندات
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: إعداد هيئات ضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: إعداد أكواد ضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: إعداد أكواد تقارير ضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: إعداد فترات تسوية ضريبة المبيعات
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: إعداد ضريبة الخصم
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: عرض حركات ضرائب المبيعات المُرَّحلة
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
-        - name: القطاع العام
-          href: ../financials/public-sector/public-sector-functionality.md
           items:
             - name: خطة لوظائف القطاع العام
               href: ../financials/public-sector/plan-public-sector-functionality.md
@@ -2429,7 +2303,8 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: إعداد أسعار الصرف لحركات العملة
                   href: ../financials/localizations/rus-exchange-difference.md
-                - name: استيراد أسعار صرف العملات من CBRF ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: استيراد أسعار صرف العملات من البنك المركزي لروسيا الاتحادية (CBRF)
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: أصحاب السُلف‬
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2453,6 +2328,8 @@
                   href: ../financials/localizations/rus-currency-sale-purchase.md
             - name: ضريبة القيمة المضافة
               items:
+                - name: الترحيل المحلي الخاص لضريبة القيمة المضافة للإخراج
+                  href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
                 - name: ضريبة القيمة المضافة (VAT) لوكلاء الضرائب
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: إقرار ضريبة القيمة المضافة (VAT)
@@ -2535,6 +2412,22 @@
                   href: ../financials/localizations/rus-officials.md
                 - name: أقسام الشركة
                   href: ../financials/localizations/rus-company-divisions.md
+            - name: التأجيلات
+              items:
+                - name: إعداد التأجيلات‬
+                  href: ../financials/localizations/rus-set-up-deferrals.md
+                - name: إنشاء أو توليد الإحالات
+                  href: ../financials/localizations/rus-create-generate-deferrals.md
+                - name: استلام‬ التأجيلات
+                  href: ../financials/localizations/rus-deferral-transactions.md
+                - name: شطب التأجيلات
+                  href: ../financials/localizations/rus-write-off-deferral.md
+                - name: التخلص من التأجيلات
+                  href: ../financials/localizations/rus-dispose-deferrals.md
+                - name: تعداد التأجيلات
+                  href: ../financials/localizations/rus-counting-deferrals.md
+                - name: الإعلام عن التأجيلات
+                  href: ../financials/localizations/rus-reporting-deferrals.md
         - name: المملكة العربية السعودية‬
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2949,204 +2842,204 @@
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
             - name: معاينة مستندات PDF باستخدام عارض مضمن
               href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
-    - name: التقارير الإلكترونية
-      items:
-        - name: نظرة عامة على التقارير الإلكترونية
-          href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
-        - name: التكوينات
+        - name: التقارير الإلكترونية
           items:
-            - name: إنشاء التكوينات
-              href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
-            - name: إعداد المكونات لحل إعداد التقارير الإلكترونية
+            - name: نظرة عامة على التقارير الإلكترونية
+              href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+            - name: التكوينات
               items:
-                - name: تصميم نموذج بيانات خاص بالمجال
-                  href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: إعداد بيانات تعريف خاصة بالتطبيق
+                - name: إنشاء التكوينات
+                  href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+                - name: إعداد المكونات لحل إعداد التقارير الإلكترونية
                   items:
-                    - name: (التقارير الإلكترونية) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
-                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
-                - name: تعريف تعيينات النماذج وتحديد مصادر البيانات
-                  href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: تعيين نموذج البيانات إلى مصادر بيانات محددة
-                  href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء تكوين التنسيق
-                  href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: تعيين مكونات التنسيق المنشأ لعناصر نموذج البيانات
-                  href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-            - name: اختبار حل التقارير الإلكترونية (ER) الذي تم إعداده في التطبيق الهدف
+                    - name: تصميم نموذج بيانات خاص بالمجال
+                      href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: إعداد بيانات تعريف خاصة بالتطبيق
+                      items:
+                        - name: (التقارير الإلكترونية) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
+                          href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
+                    - name: تعريف تعيينات النماذج وتحديد مصادر البيانات
+                      href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: تعيين نموذج البيانات إلى مصادر بيانات محددة
+                      href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: إنشاء تكوين التنسيق
+                      href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: تعيين مكونات التنسيق المنشأ لعناصر نموذج البيانات
+                      href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
+                - name: اختبار حل التقارير الإلكترونية (ER) الذي تم إعداده في التطبيق الهدف
+                  items:
+                    - name: (التقارير الإلكترونية) استيراد التكوينات من RCS
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: إنشاء مستندات إلكترونية للمدفوعات باستخدام تكوين تنسيق
+                      href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
+                - name: ترقية التنسيق من خلال اعتماد إصدار أساسي جديد من ذلك التنسيق
+                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+            - name: مصمم المعادلات في التقارير الإلكترونية
+              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+            - name: إدارة تعيين نموذج ER (تقارير إلكترونية) في تكوينات ER (تقارير إلكترونية) منفصلة
+              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
+              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
+              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+            - name: (التقارير الإلكترونية) مصادر البيانات عبر الشركات في التقارير الإلكترونية
+              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+            - name: تصميم تنسيقات التقارير الإلكترونية (ER) لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
               items:
-                - name: (التقارير الإلكترونية) استيراد التكوينات من RCS
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء مستندات إلكترونية للمدفوعات باستخدام تكوين تنسيق
-                  href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-            - name: ترقية التنسيق من خلال اعتماد إصدار أساسي جديد من ذلك التنسيق
-              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-        - name: مصمم المعادلات في التقارير الإلكترونية
-          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-        - name: إدارة تعيين نموذج التقارير الإلكترونية (ER) في تكوينات تقارير إلكترونية (ER) منفصلة
-          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
-          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
-          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-        - name: (التقارير الإلكترونية) مصادر البيانات عبر الشركات في التقارير الإلكترونية
-          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-        - name: تصميم تنسيقات التقارير الإلكترونية (ER) لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
-          items:
-            - name: (التقارير الإلكترونية) تصميم تكوين لإنشاء التقارير بتنسيق OPENXML
-              href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: (التقارير الإلكترونية) تصميم تكوينات لإنشاء تقارير بتنسيق Word
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: تصميم تكوينات لملء قوالب PDF
-              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
-        - name: تضمين الصور والأشكال
-          items:
-            - name: (التقارير الإلكترونية) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: مثال عن تضمين الصور والأشكال
+                - name: (التقارير الإلكترونية) تصميم تكوين لإنشاء التقارير بتنسيق OPENXML
+                  href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: (التقارير الإلكترونية) تصميم تكوينات لإنشاء تقارير بتنسيق Word
+                  href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: تصميم تكوينات لملء قوالب PDF
+                  href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+            - name: تضمين الصور والأشكال
               items:
-                - name: تصميم تكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: مراجعة التكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء تقارير بتنسيقات Office ذات صور مضمنة
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-        - name: تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
-          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-        - name: تصميم تكوينات التقارير الإلكترونية (ER) التي تعتمد على إصدار Finance and Operations
-          items:
-            - name: تحديد تبعية تكوينات التقارير الإلكترونية (ER) في المكونات الأخرى
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: تصميم حل تقارير إلكترونية (ER) لاستخدام الأبعاد المالية
-          items:
-            - name: تصميم نماذج بيانات لاستخدام الأبعاد المالية كمصادر بيانات
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-            - name: تعيين النماذج لاستخدام الأبعاد المالية كمصادر بيانات
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-            - name: تصميم تقارير لاستخدام الأبعاد المالية كمصادر بيانات
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-            - name: تشغيل تقارير تستخدم الأبعاد المالية كمصادر بيانات
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-        - name: تصميم تنسيقات التقارير الإلكترونية (ER) لتنفيذ عمليات العد والجمع باستخدام معلومات من المخرجات المنشأة
-          items:
-            - name: إنشاء تنسيقات لتنفيذ عمليات العد والجمع
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-            - name: تكوين تنسيق لتنفيذ عمليات العد والجمع
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-            - name: استخدام عمليات حسابية لإنشاء مخرجات للعد والجمع
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-            - name: تشغيل تنسيقات لتنفيذ عمليات العد والجمع
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-        - name: إضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
-          items:
-            - name: تصميم تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
-              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-            - name: تشغيل تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
-              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-        - name: استخدام ملفات إدارة المستندات في مخرجات التنسيقات
-          items:
-            - name: إعداد نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-            - name: توسيع نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-            - name: إنشاء تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-            - name: تشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-            - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-        - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية
-          items:
-            - name: إنشاء مستندات إلكترونية وتحديث بيانات التطبيق
-              href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
-            - name: استيراد تكوينات لإنشاء مستندات بواسطة بيانات التطبيق
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-            - name: تصميم تكوينات لإنشاء مستندات بواسطة بيانات التطبيق
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-            - name: تعديل النماذج والتعيينات لإنشاء مستندات بواسطة بيانات التطبيق
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-            - name: تعديل التنسيقات لإنشاء مستندات بواسطة بيانات التطبيق
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-            - name: إنشاء مستندات تتضمن بيانات التطبيق
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-        - name: استيراد بيانات من ملفات واردة باستخدام حلول التقارير الإلكترونية (ER)
-          items:
-            - name: توزيع المستندات الواردة بتنسيقات مختلفة
-              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
-            - name: تكوين استيراد البيانات من ملفات محددة يدويًا
+                - name: (التقارير الإلكترونية) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
+                  href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+                - name: مثال عن تضمين الصور والأشكال
+                  items:
+                    - name: تصميم تكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
+                    - name: مراجعة التكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: إنشاء تقارير بتنسيقات Office ذات صور مضمنة
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+            - name: تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
+              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+            - name: تصميم تكوينات التقارير الإلكترونية (ER) التي تعتمد على إصدار Finance and Operations
               items:
-                - name: إنشاء تكوينات لاستيراد البيانات من ملف XML خارجي
-                  href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-            - name: تكوين استيراد البيانات في الوضع الدفعي من ملفات موجودة في SharePoint
-              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: استيراد ملفات بتنسيق XML
+                - name: تحديد تبعية تكوينات التقارير الإلكترونية (ER) في المكونات الأخرى
+                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: تصميم حل تقارير إلكترونية (ER) لاستخدام الأبعاد المالية
               items:
-                - name: استيراد ملفات بتنسيق XML مع سمات اختيارية
-                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
-                - name: تكوين تنسيقات التقارير الإلكترونية (ER) لاستيراد ملفات بتنسيق XML مع سمات اختيارية
-                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                - name: تصميم نماذج بيانات لاستخدام الأبعاد المالية كمصادر بيانات
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+                - name: تعيين النماذج لاستخدام الأبعاد المالية كمصادر بيانات
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+                - name: تصميم تقارير لاستخدام الأبعاد المالية كمصادر بيانات
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+                - name: تشغيل تقارير تستخدم الأبعاد المالية كمصادر بيانات
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+            - name: تصميم تنسيقات التقارير الإلكترونية (ER) لتنفيذ عمليات العد والجمع باستخدام معلومات من المخرجات المنشأة
+              items:
+                - name: إنشاء تنسيقات لتنفيذ عمليات العد والجمع
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+                - name: تكوين تنسيق لتنفيذ عمليات العد والجمع
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+                - name: استخدام عمليات حسابية لإنشاء مخرجات للعد والجمع
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+                - name: تشغيل تنسيقات لتنفيذ عمليات العد والجمع
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+            - name: إضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+              items:
+                - name: تصميم تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+                - name: تشغيل تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+            - name: استخدام ملفات إدارة المستندات في مخرجات التنسيقات
+              items:
+                - name: إعداد نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+                - name: توسيع نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+                - name: إنشاء تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+                - name: تشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+                - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+            - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية
+              items:
+                - name: إنشاء مستندات إلكترونية وتحديث بيانات التطبيق
+                  href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+                - name: استيراد تكوينات لإنشاء مستندات مع بيانات التطبيق
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+                - name: تصميم تكوينات لإنشاء مستندات مع بيانات التطبيق
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+                - name: تعديل النماذج والتعيينات لإنشاء مستندات مع بيانات التطبيق
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+                - name: تعديل التنسيقات لإنشاء مستندات مع بيانات التطبيق
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+                - name: إنشاء مستندات تتضمن بيانات التطبيق
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: استيراد بيانات من ملفات واردة باستخدام حلول التقارير الإلكترونية (ER)
+              items:
+                - name: توزيع المستندات الواردة بتنسيقات مختلفة
+                  href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+                - name: تكوين استيراد البيانات من ملفات محددة يدويًا
+                  items:
+                    - name: إنشاء تكوينات لاستيراد البيانات من ملف XML خارجي
+                      href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
+                - name: تكوين استيراد البيانات في الوضع الدفعي من ملفات موجودة في SharePoint
+                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+                - name: استيراد ملفات بتنسيق XML
+                  items:
+                    - name: استيراد ملفات بتنسيق XML مع سمات اختيارية
+                      href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                    - name: تكوين تنسيقات التقارير الإلكترونية (ER) لاستيراد ملفات بتنسيق XML مع سمات اختيارية
+                      href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
-        - name: دورة حياة التكوين
-          items:
-            - name: إدارة دورة حياة التكوينات
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-            - name: تحميل التكوينات إلى Lifecycle Services
-              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: استيراد التكوينات من Lifecycle Services
-              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: تنزيل التكوينات من Lifecycle Services
-              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-            - name: استيراد التكوينات
-              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: تنزيل تكوينات ER من مستودع RCS
+            - name: دورة حياة التكوين
               items:
-                - name: تنزيل تكوينات من مستودع التقارير الإلكترونية (ER) للنوع RCS
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
-                - name: استيراد التكوينات من RCS
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
-        - name: استخدام حلول التقارير الإلكترونية في Finance and Operations
-          items:
-            - name: تكوين إطار العمل
+                - name: إدارة دورة حياة التكوينات
+                  href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+                - name: تحميل التكوينات إلى Lifecycle Services
+                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: استيراد التكوينات من Lifecycle Services
+                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: تنزيل التكوينات من Lifecycle Services
+                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+                - name: استيراد التكوينات
+                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+                - name: تنزيل تكوينات ER من مستودع RCS
+                  items:
+                    - name: تنزيل تكوينات من مستودع التقارير الإلكترونية (ER) من النوع RCS
+                      href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: استيراد التكوينات من RCS
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+            - name: استخدام حلول التقارير الإلكترونية في Finance and Operations
               items:
-                - name: تكوين إطار عمل التقارير الإلكترونية
-                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء موفري التكوين ووضع علامة نشط عليهم
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: الوجهات
+                - name: تكوين إطار العمل
+                  items:
+                    - name: تكوين إطار عمل إعداد التقارير الإلكتروني
+                      href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: إنشاء موفري التكوين ووضع علامة نشط عليهم
+                      href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: الوجهات
+                  items:
+                    - name: نظرة عامة على الوجهات
+                      href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                    - name: تكوين الوجهات
+                      href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: التحقق التلقائي من صحة التقارير المنشاة
+                  items:
+                    - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنات مع القيم الأساسية
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                    - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
+                      href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+                - name: التشغيل التلقائي لعمليات الأعمال باستخدام تكوينات التقارير الإلكترونية
+                  items:
+                    - name: تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
+                      href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                    - name: إنشاء نماذج فاتورة بنص حر (FTI) قابلة للطباعة
+                      href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+                - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
+                  href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+            - name: API إطار عمل التقارير الإلكترونية (ER)
               items:
-                - name: نظرة عامة على الوجهات
-                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-                - name: تكوين الوجهات
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: التحقق التلقائي من صحة التقارير المنشاة
-              items:
-                - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-                - name: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنات مع القيم الأساسية
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
-                - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
-                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
-            - name: التشغيل التلقائي لعمليات الأعمال باستخدام تكوينات التقارير الإلكترونية
-              items:
-                - name: تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
-                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-                - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
-                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية (ER) لاستكشاف مشكلات الأداء وإصلاحها
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
-        - name: API إطار عمل التقارير الإلكترونية (ER)
-          items:
-            - name: توسيع قائمة وظائف التقارير الإلكترونية
-              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-            - name: التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3
-              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-            - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
-              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: توسيع قائمة وظائف التقارير الإلكترونية
+                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+                - name: التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3
+                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+                - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
+                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: الحلول التحليلية المضمنة
           items:
             - name: Power BI المضمن في مساحات العمل
@@ -3281,6 +3174,97 @@
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
     - name: سلسلة التوريد
       href: ../supply-chain/index.md
+    - name: إدارة الأصول
+      items:
+        - name: نظرة عامة على إدارة الأصول
+          href: ../supply-chain/asset-management/index.md
+          items:
+            - name: أصول ومواقع العمل
+              href: ../supply-chain/asset-management/overview/functional-locations-and-objects.md
+            - name: الأصول وأوامر العمل
+              href: ../supply-chain/asset-management/overview/objects-and-work-orders.md
+        - name: إعداد مواقع العمل
+          items:
+            - name: حالات دورة حياة موقع العمل
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-stages.md
+            - name: أنواع سمات الصيانة
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-types.md
+            - name: أنواع مواقع العمل
+              href: ../supply-chain/asset-management/setup-for-functional-locations/specification-types.md
+        - name: مواقع العمل
+          items:
+            - name: مقدمة إلى مواقع العمل
+              href: ../supply-chain/asset-management/functional-locations/introduction-to-functional-locations.md
+            - name: إنشاء مواقع عمل
+              href: ../supply-chain/asset-management/functional-locations/create-functional-locations.md
+            - name: تثبيت أصول على مواقع العمل
+              href: ../supply-chain/asset-management/functional-locations/install-objects-on-functional-locations.md
+        - name: إعداد الأصول
+          items:
+            - name: أنواع الأصول
+              href: ../supply-chain/asset-management/setup-for-objects/object-types.md
+            - name: تقييم الشروط
+              href: ../supply-chain/asset-management/setup-for-objects/condition-assessment.md
+            - name: الشركة المصنعة للأصول ونموذج الأصول
+              href: ../supply-chain/asset-management/setup-for-objects/product-and-model.md
+            - name: العدادات
+              href: ../supply-chain/asset-management/setup-for-objects/counters.md
+            - name: محددات إدارة الأصول
+              href: ../supply-chain/asset-management/setup-for-objects/enterprise-asset-management-parameters.md
+            - name: حالات دورة حياة الأصل
+              href: ../supply-chain/asset-management/setup-for-objects/object-stages.md
+            - name: مستويات خدمة الأصول
+              href: ../supply-chain/asset-management/setup-for-objects/object-priorities.md
+            - name: مستويات خطورة الأصول
+              href: ../supply-chain/asset-management/setup-for-objects/object-criticalities.md
+            - name: مستندات الأصول
+              href: ../supply-chain/asset-management/setup-for-objects/object-documents.md
+            - name: عاملو ومجموعات عاملي الصيانة
+              href: ../supply-chain/asset-management/setup-for-objects/workers-and-worker-groups.md
+        - name: الأصول
+          items:
+            - name: مقدمة إلى الأصول
+              href: ../supply-chain/asset-management/objects/introduction-to-objects.md
+            - name: إنشاء أصل
+              href: ../supply-chain/asset-management/objects/create-an-object.md
+            - name: الأصول متعددة المستويات
+              href: ../supply-chain/asset-management/objects/multi-level-objects.md
+            - name: نقل الأصول واستبدالها وتثبيتها
+              href: ../supply-chain/asset-management/objects/move-replace-and-install-objects.md
+            - name: إنشاء أصول استنادًا إلى أوامر الشراء
+              href: ../supply-chain/asset-management/objects/create-objects-based-on-purchase-orders.md
+            - name: BOM الأصل
+              href: ../supply-chain/asset-management/objects/object-bom.md
+            - name: محفوظات أحداث الأصول
+              href: ../supply-chain/asset-management/objects/object-timeline.md
+            - name: طريقة عرض الأصول
+              href: ../supply-chain/asset-management/objects/object-view.md
+            - name: نظرة عامة على سمات الأصول
+              href: ../supply-chain/asset-management/objects/object-specification-overview.md
+        - name: إعداد طلبات الصيانة
+          items:
+            - name: طلبات الصيانة
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/requests.md
+            - name: حالات دورة حياة طلبات الصيانة
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-stages.md
+            - name: أنواع طلبات الصيانة
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-types.md
+            - name: عاملو الصيانة المسؤولون
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/responsible-workers.md
+        - name: إدارة طلبات الصيانة
+          items:
+            - name: طلبات الصيانة
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-overview.md
+            - name: إنشاء طلب صيانة
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-a-maintenance-request.md
+            - name: إنشاء أمر عمل من طلب صيانة
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-work-order-from-a-maintenance-request.md
+            - name: قروض الأصول
+              href: ../supply-chain/asset-management/manage-maintenance-requests/asset-loan.md
+            - name: الأصول الواردة والصادرة
+              href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
+            - name: تقارير طلبات الصيانة
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
     - name: التخطيط الرئيسي
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
@@ -3289,6 +3273,8 @@
           items:
             - name: إعداد الخطط الرئيسية
               href: ../supply-chain/master-planning/master-planning-setup.md
+            - name: معالج إعداد التخطيط الرئيسي
+              href: ../supply-chain/master-planning/master-planning-setup-wizard.md
             - name: إعدادات التغطية
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: تحديد قواعد تغطية للأصناف
@@ -3363,7 +3349,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: تعديل التنبؤ بالطلب يدوياً
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: تطبيق Dynamics 365 for Unified Operations Mobile
+    - name: تطبيق الجوال
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: مساحات العمل المحمولة المتاحة
@@ -3615,6 +3601,24 @@
               href: organization-administration/tasks/view-workflow-history.md
             - name: تكوين النظام لإرسال رسائل بريد إلكتروني مرتبطة بسير العمل إلى المستخدمين
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
+            - name: أنوع سير العمل
+              items:
+                - name: إنشاء نوع سير عمل
+                  href: organization-administration/workflow-type-create.md
+                - name: قائمة تحقق نوع سير العمل
+                  href: organization-administration/workflow-type-checklist.md
+                - name: إنشاء فئة سير عمل
+                  href: organization-administration/workflow-type-category.md
+                - name: إنشاء استعلام لنوع سير العمل
+                  href: organization-administration/workflow-type-query.md
+                - name: إنشاء نوع سير عمل جديد
+                  href: organization-administration/workflow-type-create-new.md
+                - name: إنشاء فئة مستندات سير العمل
+                  href: organization-administration/workflow-type-document-create.md
+                - name: إنشاء فئة SubmitToWorkflow
+                  href: organization-administration/workflow-type-submit-to-workflow.md
+                - name: إقران فئة مستندات سير العمل بنوع سير عمل
+                  href: organization-administration/workflow-type-associate-document.md
             - name: تقرير أنواع سير العمل
               href: organization-administration/workflow-types-report.md
             - name: الأسئلة المتداولة حول سير العمل
@@ -4491,6 +4495,8 @@
               href: ../supply-chain/warehousing/tasks/create-work-class.md
             - name: إدارة عمال المستودعات
               href: ../supply-chain/warehousing/manage-warehouse-workers.md
+            - name: المعالجة المؤجلة لعمل المستودع
+              href: ../supply-chain/warehousing/deferred-put.md
         - name: الإصدار الجزئي والشحن الجزئي
           items:
             - name: شحن جزئي لحمل النقل
