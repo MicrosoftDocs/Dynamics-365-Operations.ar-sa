@@ -10,45 +10,45 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f7e7eb46bda13ef7e72189f921686a9889a8773c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bba9e5cb7dfddd2a80a37e7a57fdf94a91341e8f
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559061"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843615"
 ---
-# <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a><span data-ttu-id="01c37-103">إعداد وظيفة كانبان عملية عندما لا تتوفر المواد لخلية العمل</span><span class="sxs-lookup"><span data-stu-id="01c37-103">Prepare a process kanban job when materials are not available for the work cell</span></span>
+# <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a><span data-ttu-id="cb340-103">إعداد وظيفة كانبان عملية عندما لا تتوفر المواد لخلية العمل</span><span class="sxs-lookup"><span data-stu-id="cb340-103">Prepare a process kanban job when materials are not available for the work cell</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="01c37-104">يركز هذا الإجراء على إعداد وظيفة كانبان للمعالجة عندما لا تتوفر بعض المواد لخلية العمل، ولذلك من الضروري انتقاء المواد من المستودع.</span><span class="sxs-lookup"><span data-stu-id="01c37-104">This procedure focuses on preparing a process kanban job when some materials are not available for the work cell, therefore it's necessary to pick materials from the warehouse.</span></span> <span data-ttu-id="01c37-105">يُعد الإجراء "إعداد وظيفة كانبان للمعالجة عندما تتوفر المواد‬" شرطًا أساسيًا لإنشاء هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="01c37-105">The procedure "Prepare a process kanban job when materials are available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="01c37-106">هذا الإجراء مخصص لعامل تشغيل الجهاز.</span><span class="sxs-lookup"><span data-stu-id="01c37-106">This procedure is intended for the machine operator.</span></span> <span data-ttu-id="01c37-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="01c37-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="cb340-104">يركز هذا الإجراء على إعداد وظيفة كانبان للمعالجة عندما لا تتوفر بعض المواد لخلية العمل، ولذلك من الضروري انتقاء المواد من المستودع.</span><span class="sxs-lookup"><span data-stu-id="cb340-104">This procedure focuses on preparing a process kanban job when some materials are not available for the work cell, therefore it's necessary to pick materials from the warehouse.</span></span> <span data-ttu-id="cb340-105">يُعد الإجراء "إعداد وظيفة كانبان للمعالجة عندما تتوفر المواد‬" شرطًا أساسيًا لإنشاء هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="cb340-105">The procedure "Prepare a process kanban job when materials are available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="cb340-106">هذا الإجراء مخصص لعامل تشغيل الجهاز.</span><span class="sxs-lookup"><span data-stu-id="cb340-106">This procedure is intended for the machine operator.</span></span> <span data-ttu-id="cb340-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="cb340-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="01c37-108">انتقل إلى التحكم بالإنتاج‬ > كانبان > لوحة كانبان لوظائف المعالجة‬.</span><span class="sxs-lookup"><span data-stu-id="01c37-108">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="01c37-109">في الحقل "خلية العمل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="01c37-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="01c37-110">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="01c37-110">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="01c37-111">حدد خلية العمل 1250.</span><span class="sxs-lookup"><span data-stu-id="01c37-111">Select work cell 1250.</span></span>  
-4. <span data-ttu-id="01c37-112">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="01c37-112">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="01c37-113">حدد كانبان 000356.</span><span class="sxs-lookup"><span data-stu-id="01c37-113">Select Kanban 000356.</span></span>  
-5. <span data-ttu-id="01c37-114">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="01c37-114">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="01c37-115">في القائمة، قم بإلغاء تحديد الصف 4.</span><span class="sxs-lookup"><span data-stu-id="01c37-115">In the list, deselect row 4.</span></span> <span data-ttu-id="01c37-116">أو حدد الصف 4 إذا لم تكن قد أكملت المهمة "إعداد وظيفة كانبان للمعالجة عندما تتوفر المواد‬".</span><span class="sxs-lookup"><span data-stu-id="01c37-116">or Select row 4 if you haven't completed the task "Prepare a process kanban job when materials are available."</span></span>  
-6. <span data-ttu-id="01c37-117">بدّل توسيع المقطع قائمة الانتقاء".</span><span class="sxs-lookup"><span data-stu-id="01c37-117">Toggle the expansion of the Picking list section.</span></span>
-    * <span data-ttu-id="01c37-118">تشير أيقونة عدم وجود إدخال في حالة التوريد إلى فقدان 48 لكل صنف P0002 لخلية العمل.</span><span class="sxs-lookup"><span data-stu-id="01c37-118">The No entry icon in the supply status indicates that 48 ea of item P0002 are missing for the work cell.</span></span>  
+1. <span data-ttu-id="cb340-108">انتقل إلى التحكم بالإنتاج‬ > كانبان > لوحة كانبان لوظائف المعالجة‬.</span><span class="sxs-lookup"><span data-stu-id="cb340-108">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="cb340-109">في الحقل "خلية العمل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="cb340-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="cb340-110">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="cb340-110">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="cb340-111">حدد خلية العمل 1250.</span><span class="sxs-lookup"><span data-stu-id="cb340-111">Select work cell 1250.</span></span>  
+4. <span data-ttu-id="cb340-112">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="cb340-112">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="cb340-113">حدد كانبان 000356.</span><span class="sxs-lookup"><span data-stu-id="cb340-113">Select Kanban 000356.</span></span>  
+5. <span data-ttu-id="cb340-114">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="cb340-114">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="cb340-115">في القائمة، قم بإلغاء تحديد الصف 4.</span><span class="sxs-lookup"><span data-stu-id="cb340-115">In the list, deselect row 4.</span></span> <span data-ttu-id="cb340-116">أو حدد الصف 4 إذا لم تكن قد أكملت المهمة "إعداد وظيفة كانبان للمعالجة عندما تتوفر المواد‬".</span><span class="sxs-lookup"><span data-stu-id="cb340-116">or Select row 4 if you haven't completed the task "Prepare a process kanban job when materials are available."</span></span>  
+6. <span data-ttu-id="cb340-117">بدّل توسيع المقطع قائمة الانتقاء".</span><span class="sxs-lookup"><span data-stu-id="cb340-117">Toggle the expansion of the Picking list section.</span></span>
+    * <span data-ttu-id="cb340-118">تشير أيقونة عدم وجود إدخال في حالة التوريد إلى فقدان 48 لكل صنف P0002 لخلية العمل.</span><span class="sxs-lookup"><span data-stu-id="cb340-118">The No entry icon in the supply status indicates that 48 ea of item P0002 are missing for the work cell.</span></span>  
 
-## <a name="transfer-materials-to-work-cell"></a><span data-ttu-id="01c37-119">نقل المواد إلى خلية العمل</span><span class="sxs-lookup"><span data-stu-id="01c37-119">Transfer materials to work cell</span></span>
-1. <span data-ttu-id="01c37-120">بدّل توسيع المقطع "وظائف النقل‬".</span><span class="sxs-lookup"><span data-stu-id="01c37-120">Toggle the expansion of the Transfer jobs section.</span></span>
-2. <span data-ttu-id="01c37-121">استخدام عامل التصفية السريع لتصفية حقل رقم الصنف باستخدام القيمة "P0002".</span><span class="sxs-lookup"><span data-stu-id="01c37-121">Use the Quick Filter to filter on the Item number field with a value of 'P0002'.</span></span>
-3. <span data-ttu-id="01c37-122">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="01c37-122">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="01c37-123">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="01c37-123">Click Start.</span></span>
-    * <span data-ttu-id="01c37-124">جارٍ تنفيذ عملية النقل.</span><span class="sxs-lookup"><span data-stu-id="01c37-124">Transfer is in progress.</span></span>  
-5. <span data-ttu-id="01c37-125">انقر فوق "مكتمل".</span><span class="sxs-lookup"><span data-stu-id="01c37-125">Click Complete.</span></span>
-    * <span data-ttu-id="01c37-126">يتوفر الآن الصنف P0002 في قائمة الانتقاء لوظيفة كانبان.</span><span class="sxs-lookup"><span data-stu-id="01c37-126">Item P0002 is now available in the picking list for the kanban job.</span></span> <span data-ttu-id="01c37-127">وهذا يعني أنه يمكننا تحضير الكانبان مع جميع المواد المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="01c37-127">This means that we can prepare the kanban with all the needed materials.</span></span>  
-6. <span data-ttu-id="01c37-128">انقر فوق "تحضير‬".</span><span class="sxs-lookup"><span data-stu-id="01c37-128">Click Prepare.</span></span>
-    * <span data-ttu-id="01c37-129">لاحظ أن الأيقونة في حالة الوظيفة تشير إلى أن الوظيفة جاهزة الآن.</span><span class="sxs-lookup"><span data-stu-id="01c37-129">Notice that an icon in the Job status indicates that the job is now ready.</span></span>  
+## <a name="transfer-materials-to-work-cell"></a><span data-ttu-id="cb340-119">نقل المواد إلى خلية العمل</span><span class="sxs-lookup"><span data-stu-id="cb340-119">Transfer materials to work cell</span></span>
+1. <span data-ttu-id="cb340-120">بدّل توسيع المقطع "وظائف النقل‬".</span><span class="sxs-lookup"><span data-stu-id="cb340-120">Toggle the expansion of the Transfer jobs section.</span></span>
+2. <span data-ttu-id="cb340-121">استخدام عامل التصفية السريع لتصفية حقل رقم الصنف باستخدام القيمة "P0002".</span><span class="sxs-lookup"><span data-stu-id="cb340-121">Use the Quick Filter to filter on the Item number field with a value of 'P0002'.</span></span>
+3. <span data-ttu-id="cb340-122">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="cb340-122">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="cb340-123">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="cb340-123">Click Start.</span></span>
+    * <span data-ttu-id="cb340-124">جارٍ تنفيذ عملية النقل.</span><span class="sxs-lookup"><span data-stu-id="cb340-124">Transfer is in progress.</span></span>  
+5. <span data-ttu-id="cb340-125">انقر فوق "مكتمل".</span><span class="sxs-lookup"><span data-stu-id="cb340-125">Click Complete.</span></span>
+    * <span data-ttu-id="cb340-126">يتوفر الآن الصنف P0002 في قائمة الانتقاء لوظيفة كانبان.</span><span class="sxs-lookup"><span data-stu-id="cb340-126">Item P0002 is now available in the picking list for the kanban job.</span></span> <span data-ttu-id="cb340-127">وهذا يعني أنه يمكننا تحضير الكانبان مع جميع المواد المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="cb340-127">This means that we can prepare the kanban with all the needed materials.</span></span>  
+6. <span data-ttu-id="cb340-128">انقر فوق "تحضير‬".</span><span class="sxs-lookup"><span data-stu-id="cb340-128">Click Prepare.</span></span>
+    * <span data-ttu-id="cb340-129">لاحظ أن الأيقونة في حالة الوظيفة تشير إلى أن الوظيفة جاهزة الآن.</span><span class="sxs-lookup"><span data-stu-id="cb340-129">Notice that an icon in the Job status indicates that the job is now ready.</span></span>  
 

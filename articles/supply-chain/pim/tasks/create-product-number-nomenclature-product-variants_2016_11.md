@@ -10,95 +10,95 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductListPage, EcoResProductDetails, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 800afdf075f0675185514158f3b712a0fe7675e3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22aa4823fbf43b29a8fd9661645e8563c07e437d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567134"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844647"
 ---
-# <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a><span data-ttu-id="ebf01-103">إنشاء nomenclature لرقم منتج لمتغيرات المنتج المعرفة مسبقًا‬‏‫</span><span class="sxs-lookup"><span data-stu-id="ebf01-103">Create a product number nomenclature for configured product variants</span></span>
+# <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a><span data-ttu-id="e6bda-103">إنشاء nomenclature لرقم منتج لمتغيرات المنتج المعرفة مسبقًا‬‏‫</span><span class="sxs-lookup"><span data-stu-id="e6bda-103">Create a product number nomenclature for configured product variants</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ebf01-104">يوضح هذا الإجراء كيفية إعداد كود nomenclature لرقم المنتج لمتغيرات المنتج المكوّنة، وكيف يمكن إرفاقه بأصل منتج قابل للتكوين.</span><span class="sxs-lookup"><span data-stu-id="ebf01-104">This procedure shows you how to set up a product number nomenclature for configured product variants, and how it can be attached to a configurable product master.</span></span> <span data-ttu-id="ebf01-105">يوضح هذا الإجراء أيضًا كيف يمكنك بناء nomenclature تكوين لمكون نموذج تكوين المنتج.</span><span class="sxs-lookup"><span data-stu-id="ebf01-105">This procedure also demonstrates how you can build a configuration nomenclature for a product configuration model component.</span></span> <span data-ttu-id="ebf01-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="ebf01-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="ebf01-107">يتم تعيين nomenclature رقم المنتج الجديد إلى أصل المنتج D0004.</span><span class="sxs-lookup"><span data-stu-id="ebf01-107">The new product number nomenclature is assigned to the D0004 product master.</span></span> <span data-ttu-id="ebf01-108">وعادة ما تُنفذ هذه المهمة عن طريق مصمم المنتج.</span><span class="sxs-lookup"><span data-stu-id="ebf01-108">This task would typically be done by a product designer.</span></span>
+<span data-ttu-id="e6bda-104">يوضح هذا الإجراء كيفية إعداد كود nomenclature لرقم المنتج لمتغيرات المنتج المكوّنة، وكيف يمكن إرفاقه بأصل منتج قابل للتكوين.</span><span class="sxs-lookup"><span data-stu-id="e6bda-104">This procedure shows you how to set up a product number nomenclature for configured product variants, and how it can be attached to a configurable product master.</span></span> <span data-ttu-id="e6bda-105">يوضح هذا الإجراء أيضًا كيف يمكنك بناء nomenclature تكوين لمكون نموذج تكوين المنتج.</span><span class="sxs-lookup"><span data-stu-id="e6bda-105">This procedure also demonstrates how you can build a configuration nomenclature for a product configuration model component.</span></span> <span data-ttu-id="e6bda-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="e6bda-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="e6bda-107">يتم تعيين nomenclature رقم المنتج الجديد إلى أصل المنتج D0004.</span><span class="sxs-lookup"><span data-stu-id="e6bda-107">The new product number nomenclature is assigned to the D0004 product master.</span></span> <span data-ttu-id="e6bda-108">وعادة ما تُنفذ هذه المهمة عن طريق مصمم المنتج.</span><span class="sxs-lookup"><span data-stu-id="e6bda-108">This task would typically be done by a product designer.</span></span>
 
 
-## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="ebf01-109">إنشاء nomenclature لرقم المنتج</span><span class="sxs-lookup"><span data-stu-id="ebf01-109">Create a product number nomenclature</span></span>
-1. <span data-ttu-id="ebf01-110">انقر فوق "تعريف نموذج متغير المنتج"ز</span><span class="sxs-lookup"><span data-stu-id="ebf01-110">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="ebf01-111">انقر فوق "كود nomenclature للمنتج‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-111">Click Product nomenclature.</span></span>
-3. <span data-ttu-id="ebf01-112">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ebf01-112">Click New.</span></span>
-4. <span data-ttu-id="ebf01-113">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="ebf01-114">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-114">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="ebf01-115">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-115">Click Add.</span></span>
-7. <span data-ttu-id="ebf01-116">انقر فوق "رقم أصل المنتج".</span><span class="sxs-lookup"><span data-stu-id="ebf01-116">Click Product master number.</span></span>
-8. <span data-ttu-id="ebf01-117">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-117">Click Add.</span></span>
-9. <span data-ttu-id="ebf01-118">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-118">Click Text constant.</span></span>
-10. <span data-ttu-id="ebf01-119">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-119">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="ebf01-120">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-120">In the Text field, type a value.</span></span>
-12. <span data-ttu-id="ebf01-121">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-121">Click Add.</span></span>
-13. <span data-ttu-id="ebf01-122">انقر فوق "التكوين".</span><span class="sxs-lookup"><span data-stu-id="ebf01-122">Click Configuration.</span></span>
-14. <span data-ttu-id="ebf01-123">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-123">Close the page.</span></span>
+## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="e6bda-109">إنشاء nomenclature لرقم المنتج</span><span class="sxs-lookup"><span data-stu-id="e6bda-109">Create a product number nomenclature</span></span>
+1. <span data-ttu-id="e6bda-110">انقر فوق "تعريف نموذج متغير المنتج"ز</span><span class="sxs-lookup"><span data-stu-id="e6bda-110">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="e6bda-111">انقر فوق "كود nomenclature للمنتج‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-111">Click Product nomenclature.</span></span>
+3. <span data-ttu-id="e6bda-112">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="e6bda-112">Click New.</span></span>
+4. <span data-ttu-id="e6bda-113">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="e6bda-114">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-114">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="e6bda-115">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-115">Click Add.</span></span>
+7. <span data-ttu-id="e6bda-116">انقر فوق "رقم أصل المنتج".</span><span class="sxs-lookup"><span data-stu-id="e6bda-116">Click Product master number.</span></span>
+8. <span data-ttu-id="e6bda-117">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-117">Click Add.</span></span>
+9. <span data-ttu-id="e6bda-118">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-118">Click Text constant.</span></span>
+10. <span data-ttu-id="e6bda-119">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-119">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="e6bda-120">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-120">In the Text field, type a value.</span></span>
+12. <span data-ttu-id="e6bda-121">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-121">Click Add.</span></span>
+13. <span data-ttu-id="e6bda-122">انقر فوق "التكوين".</span><span class="sxs-lookup"><span data-stu-id="e6bda-122">Click Configuration.</span></span>
+14. <span data-ttu-id="e6bda-123">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-123">Close the page.</span></span>
 
-## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a><span data-ttu-id="ebf01-124">تعيين nomenclature رقم المنتج إلى أصل المنتج</span><span class="sxs-lookup"><span data-stu-id="ebf01-124">Assign the product number nomenclature to a product master</span></span>
-1. <span data-ttu-id="ebf01-125">انقر فوق "أصول المنتجات".</span><span class="sxs-lookup"><span data-stu-id="ebf01-125">Click Product masters.</span></span>
-2. <span data-ttu-id="ebf01-126">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="ebf01-126">Use the Quick Filter to find records.</span></span> <span data-ttu-id="ebf01-127">على سبيل المثال، قم بإجراء التصفية على الحقل "رقم المنتج" باستخدام القيمة "D".</span><span class="sxs-lookup"><span data-stu-id="ebf01-127">For example, filter on the Product number field with a value of 'D'.</span></span>
-3. <span data-ttu-id="ebf01-128">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-128">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="ebf01-129">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="ebf01-129">Click Edit.</span></span>
-5. <span data-ttu-id="ebf01-130">حدد "نعم" في الحقل "استخدام كود nomenclature".</span><span class="sxs-lookup"><span data-stu-id="ebf01-130">Select Yes in the Use nomenclature field.</span></span>
-6. <span data-ttu-id="ebf01-131">في حقل "كود nomenclature لرقم متغير المنتج‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf01-131">In the Product variant number nomenclature field, enter or select a value.</span></span>
-7. <span data-ttu-id="ebf01-132">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-132">Close the page.</span></span>
-8. <span data-ttu-id="ebf01-133">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-133">Close the page.</span></span>
+## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a><span data-ttu-id="e6bda-124">تعيين nomenclature رقم المنتج إلى أصل المنتج</span><span class="sxs-lookup"><span data-stu-id="e6bda-124">Assign the product number nomenclature to a product master</span></span>
+1. <span data-ttu-id="e6bda-125">انقر فوق "أصول المنتجات".</span><span class="sxs-lookup"><span data-stu-id="e6bda-125">Click Product masters.</span></span>
+2. <span data-ttu-id="e6bda-126">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="e6bda-126">Use the Quick Filter to find records.</span></span> <span data-ttu-id="e6bda-127">على سبيل المثال، قم بإجراء التصفية على الحقل "رقم المنتج" باستخدام القيمة "D".</span><span class="sxs-lookup"><span data-stu-id="e6bda-127">For example, filter on the Product number field with a value of 'D'.</span></span>
+3. <span data-ttu-id="e6bda-128">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-128">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="e6bda-129">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="e6bda-129">Click Edit.</span></span>
+5. <span data-ttu-id="e6bda-130">حدد "نعم" في الحقل "استخدام كود nomenclature".</span><span class="sxs-lookup"><span data-stu-id="e6bda-130">Select Yes in the Use nomenclature field.</span></span>
+6. <span data-ttu-id="e6bda-131">في حقل "كود nomenclature لرقم متغير المنتج‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e6bda-131">In the Product variant number nomenclature field, enter or select a value.</span></span>
+7. <span data-ttu-id="e6bda-132">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-132">Close the page.</span></span>
+8. <span data-ttu-id="e6bda-133">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-133">Close the page.</span></span>
 
-## <a name="create-nomenclature-for-a-product-configuration-model-component"></a><span data-ttu-id="ebf01-134">إنشاء nomenclature لمكون نموذج تكوين منتج</span><span class="sxs-lookup"><span data-stu-id="ebf01-134">Create nomenclature for a product configuration model component</span></span>
-1. <span data-ttu-id="ebf01-135">انقر فوق "نماذج تكوين المنتجات".</span><span class="sxs-lookup"><span data-stu-id="ebf01-135">Click Product configuration models.</span></span>
-2. <span data-ttu-id="ebf01-136">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="ebf01-136">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="ebf01-137">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-137">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="ebf01-138">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="ebf01-138">Click Edit.</span></span>
-5. <span data-ttu-id="ebf01-139">حدد "نعم" في الحقل "استخدام كود nomenclature للتكوين‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-139">Select Yes in the Use configuration nomenclature field.</span></span>
-6. <span data-ttu-id="ebf01-140">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-140">Click Add.</span></span>
-7. <span data-ttu-id="ebf01-141">انقر فوق "قيمة السمة‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-141">Click Attribute value.</span></span>
-8. <span data-ttu-id="ebf01-142">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-142">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="ebf01-143">في حقل "التسمية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf01-143">In the Attribute field, enter or select a value.</span></span>
-10. <span data-ttu-id="ebf01-144">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-144">Click Add.</span></span>
-11. <span data-ttu-id="ebf01-145">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-145">Click Text constant.</span></span>
-12. <span data-ttu-id="ebf01-146">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-146">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="ebf01-147">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-147">In the Text field, type a value.</span></span>
-14. <span data-ttu-id="ebf01-148">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-148">Click Add.</span></span>
-15. <span data-ttu-id="ebf01-149">انقر فوق "قيمة السمة‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-149">Click Attribute value.</span></span>
-16. <span data-ttu-id="ebf01-150">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-150">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="ebf01-151">في حقل "التسمية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf01-151">In the Attribute field, enter or select a value.</span></span>
-18. <span data-ttu-id="ebf01-152">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-152">Click Add.</span></span>
-19. <span data-ttu-id="ebf01-153">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-153">Click Text constant.</span></span>
-20. <span data-ttu-id="ebf01-154">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-154">In the list, mark the selected row.</span></span>
-21. <span data-ttu-id="ebf01-155">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-155">In the Text field, type a value.</span></span>
-22. <span data-ttu-id="ebf01-156">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-156">Click Add.</span></span>
-23. <span data-ttu-id="ebf01-157">انقر فوق "قيمة السمة‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-157">Click Attribute value.</span></span>
-24. <span data-ttu-id="ebf01-158">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-158">In the list, mark the selected row.</span></span>
-25. <span data-ttu-id="ebf01-159">في حقل "التسمية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf01-159">In the Attribute field, enter or select a value.</span></span>
-26. <span data-ttu-id="ebf01-160">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-160">Click Add.</span></span>
-27. <span data-ttu-id="ebf01-161">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-161">Click Text constant.</span></span>
-28. <span data-ttu-id="ebf01-162">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-162">In the list, mark the selected row.</span></span>
-29. <span data-ttu-id="ebf01-163">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-163">In the Text field, type a value.</span></span>
-30. <span data-ttu-id="ebf01-164">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-164">Click Add.</span></span>
-31. <span data-ttu-id="ebf01-165">انقر فوق "قيمة السمة‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-165">Click Attribute value.</span></span>
-32. <span data-ttu-id="ebf01-166">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-166">In the list, mark the selected row.</span></span>
-33. <span data-ttu-id="ebf01-167">في حقل "التسمية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf01-167">In the Attribute field, enter or select a value.</span></span>
-34. <span data-ttu-id="ebf01-168">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-168">Click Add.</span></span>
-35. <span data-ttu-id="ebf01-169">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="ebf01-169">Click Text constant.</span></span>
-36. <span data-ttu-id="ebf01-170">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-170">In the list, mark the selected row.</span></span>
-37. <span data-ttu-id="ebf01-171">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-171">In the Text field, type a value.</span></span>
-38. <span data-ttu-id="ebf01-172">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-172">Click Add.</span></span>
-39. <span data-ttu-id="ebf01-173">انقر فوق "قيمة التسلسل الرقمي".</span><span class="sxs-lookup"><span data-stu-id="ebf01-173">Click Number sequence value.</span></span>
-40. <span data-ttu-id="ebf01-174">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ebf01-174">In the list, mark the selected row.</span></span>
-41. <span data-ttu-id="ebf01-175">في حقل "التسلسل الرقمي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ebf01-175">In the Number sequence field, enter or select a value.</span></span>
-42. <span data-ttu-id="ebf01-176">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-176">Close the page.</span></span>
-43. <span data-ttu-id="ebf01-177">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-177">Close the page.</span></span>
-44. <span data-ttu-id="ebf01-178">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ebf01-178">Close the page.</span></span>
+## <a name="create-nomenclature-for-a-product-configuration-model-component"></a><span data-ttu-id="e6bda-134">إنشاء nomenclature لمكون نموذج تكوين منتج</span><span class="sxs-lookup"><span data-stu-id="e6bda-134">Create nomenclature for a product configuration model component</span></span>
+1. <span data-ttu-id="e6bda-135">انقر فوق "نماذج تكوين المنتجات".</span><span class="sxs-lookup"><span data-stu-id="e6bda-135">Click Product configuration models.</span></span>
+2. <span data-ttu-id="e6bda-136">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="e6bda-136">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="e6bda-137">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-137">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="e6bda-138">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="e6bda-138">Click Edit.</span></span>
+5. <span data-ttu-id="e6bda-139">حدد "نعم" في الحقل "استخدام كود nomenclature للتكوين‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-139">Select Yes in the Use configuration nomenclature field.</span></span>
+6. <span data-ttu-id="e6bda-140">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-140">Click Add.</span></span>
+7. <span data-ttu-id="e6bda-141">انقر فوق "قيمة السمة‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-141">Click Attribute value.</span></span>
+8. <span data-ttu-id="e6bda-142">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-142">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="e6bda-143">في حقل "التسمية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e6bda-143">In the Attribute field, enter or select a value.</span></span>
+10. <span data-ttu-id="e6bda-144">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-144">Click Add.</span></span>
+11. <span data-ttu-id="e6bda-145">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-145">Click Text constant.</span></span>
+12. <span data-ttu-id="e6bda-146">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-146">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="e6bda-147">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-147">In the Text field, type a value.</span></span>
+14. <span data-ttu-id="e6bda-148">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-148">Click Add.</span></span>
+15. <span data-ttu-id="e6bda-149">انقر فوق "قيمة السمة‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-149">Click Attribute value.</span></span>
+16. <span data-ttu-id="e6bda-150">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-150">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="e6bda-151">في حقل "التسمية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e6bda-151">In the Attribute field, enter or select a value.</span></span>
+18. <span data-ttu-id="e6bda-152">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-152">Click Add.</span></span>
+19. <span data-ttu-id="e6bda-153">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-153">Click Text constant.</span></span>
+20. <span data-ttu-id="e6bda-154">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-154">In the list, mark the selected row.</span></span>
+21. <span data-ttu-id="e6bda-155">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-155">In the Text field, type a value.</span></span>
+22. <span data-ttu-id="e6bda-156">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-156">Click Add.</span></span>
+23. <span data-ttu-id="e6bda-157">انقر فوق "قيمة السمة‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-157">Click Attribute value.</span></span>
+24. <span data-ttu-id="e6bda-158">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-158">In the list, mark the selected row.</span></span>
+25. <span data-ttu-id="e6bda-159">في حقل "التسمية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e6bda-159">In the Attribute field, enter or select a value.</span></span>
+26. <span data-ttu-id="e6bda-160">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-160">Click Add.</span></span>
+27. <span data-ttu-id="e6bda-161">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-161">Click Text constant.</span></span>
+28. <span data-ttu-id="e6bda-162">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-162">In the list, mark the selected row.</span></span>
+29. <span data-ttu-id="e6bda-163">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-163">In the Text field, type a value.</span></span>
+30. <span data-ttu-id="e6bda-164">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-164">Click Add.</span></span>
+31. <span data-ttu-id="e6bda-165">انقر فوق "قيمة السمة‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-165">Click Attribute value.</span></span>
+32. <span data-ttu-id="e6bda-166">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-166">In the list, mark the selected row.</span></span>
+33. <span data-ttu-id="e6bda-167">في حقل "التسمية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e6bda-167">In the Attribute field, enter or select a value.</span></span>
+34. <span data-ttu-id="e6bda-168">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-168">Click Add.</span></span>
+35. <span data-ttu-id="e6bda-169">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="e6bda-169">Click Text constant.</span></span>
+36. <span data-ttu-id="e6bda-170">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-170">In the list, mark the selected row.</span></span>
+37. <span data-ttu-id="e6bda-171">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-171">In the Text field, type a value.</span></span>
+38. <span data-ttu-id="e6bda-172">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-172">Click Add.</span></span>
+39. <span data-ttu-id="e6bda-173">انقر فوق "قيمة التسلسل الرقمي".</span><span class="sxs-lookup"><span data-stu-id="e6bda-173">Click Number sequence value.</span></span>
+40. <span data-ttu-id="e6bda-174">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="e6bda-174">In the list, mark the selected row.</span></span>
+41. <span data-ttu-id="e6bda-175">في حقل "التسلسل الرقمي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="e6bda-175">In the Number sequence field, enter or select a value.</span></span>
+42. <span data-ttu-id="e6bda-176">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-176">Close the page.</span></span>
+43. <span data-ttu-id="e6bda-177">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-177">Close the page.</span></span>
+44. <span data-ttu-id="e6bda-178">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="e6bda-178">Close the page.</span></span>
 

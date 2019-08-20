@@ -10,36 +10,36 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8186b553e8518f3153bfd88b89121d4b0567501b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dfbe5e9de7b700d991e0826fb4387de416ce242a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561330"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845369"
 ---
-# <a name="monitor-consignment-inventory-using-vendor-collaboration"></a><span data-ttu-id="ed2fe-103">مراقبة مخزون الشحن باستخدام تعاون المورّد</span><span class="sxs-lookup"><span data-stu-id="ed2fe-103">Monitor consignment inventory using vendor collaboration</span></span>
+# <a name="monitor-consignment-inventory-using-vendor-collaboration"></a><span data-ttu-id="674f7-103">مراقبة مخزون الشحن باستخدام تعاون المورّد</span><span class="sxs-lookup"><span data-stu-id="674f7-103">Monitor consignment inventory using vendor collaboration</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ed2fe-104">يوضح هذا الإجراء كيفية استخدام تعاون المورّد لعرض معلومات حول مستوى مخزون المنتج الذي قمت بوضعها في الشحن مع عميل.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-104">This procedure shows how to use vendor collaboration to see information about the stock level of product that you have placed in consignment with a customer.</span></span> <span data-ttu-id="ed2fe-105">يمكنك أيضًا مراقبة استهلاك المخزون عند يأخذ العميل ملكية المخزون.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-105">You can also monitor the consumption of the stock when the customer takes ownership of the inventory.</span></span> <span data-ttu-id="ed2fe-106">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-106">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="ed2fe-107">يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-107">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
+<span data-ttu-id="674f7-104">يوضح هذا الإجراء كيفية استخدام تعاون المورّد لعرض معلومات حول مستوى مخزون المنتج الذي قمت بوضعها في الشحن مع عميل.</span><span class="sxs-lookup"><span data-stu-id="674f7-104">This procedure shows how to use vendor collaboration to see information about the stock level of product that you have placed in consignment with a customer.</span></span> <span data-ttu-id="674f7-105">يمكنك أيضًا مراقبة استهلاك المخزون عند يأخذ العميل ملكية المخزون.</span><span class="sxs-lookup"><span data-stu-id="674f7-105">You can also monitor the consumption of the stock when the customer takes ownership of the inventory.</span></span> <span data-ttu-id="674f7-106">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="674f7-106">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="674f7-107">يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.</span><span class="sxs-lookup"><span data-stu-id="674f7-107">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
-## <a name="view-consumed-inventory"></a><span data-ttu-id="ed2fe-108">عرض المخزون المستهلك</span><span class="sxs-lookup"><span data-stu-id="ed2fe-108">View consumed inventory</span></span>
-1. <span data-ttu-id="ed2fe-109">انتقل إلى تعاون المورد‬ > مخزون الشحن‬ > المنتجات التي تم استلامها من مخزون الشحن‬.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-109">Go to Vendor collaboration > Consignment inventory > Products received from consignment inventory.</span></span>
-    * <span data-ttu-id="ed2fe-110">تعرض القائمة بنود إيصال استلام المنتجات‬ التي تم إنشاؤها عندما تغيرت ملكية مخزون الشحن من المورّد إلى العميل.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-110">The list shows the product receipt lines that were generated when ownership of the consignment inventory was changed from the vendor to the customer.</span></span> <span data-ttu-id="ed2fe-111">قد تحتاج إلى التمرير إلى اليمين لعرض الكميات ومعلومات أخرى.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-111">You might have to scroll to the right to see quantities and other information.</span></span> <span data-ttu-id="ed2fe-112">ويمكنك استخدام المعلومات الموجودة في هذه القائمة لإنشاء فواتير للعميل.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-112">You can use the information in this list to generate invoices for your customer.</span></span> <span data-ttu-id="ed2fe-113">يمكنك أيضًا تصدير البيانات إلى Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-113">You can also export the data to Microsoft Excel.</span></span>   
-2. <span data-ttu-id="ed2fe-114">انقر فوق "عرض أمر الشراء‬".</span><span class="sxs-lookup"><span data-stu-id="ed2fe-114">Click View purchase order.</span></span>
-3. <span data-ttu-id="ed2fe-115">قم بتوسيع قسم "تفاصيل البند".</span><span class="sxs-lookup"><span data-stu-id="ed2fe-115">Expand the Line details section.</span></span>
-    * <span data-ttu-id="ed2fe-116">يتم وضع علامة "الشحن" على البند، ويوضح مقطع الرأس أن حالة أمر الشراء هي "مستلم".</span><span class="sxs-lookup"><span data-stu-id="ed2fe-116">The line is marked as Consignment, and the header section shows that the purchase order has a status of Received.</span></span>  
-4. <span data-ttu-id="ed2fe-117">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-117">Close the page.</span></span>
+## <a name="view-consumed-inventory"></a><span data-ttu-id="674f7-108">عرض المخزون المستهلك</span><span class="sxs-lookup"><span data-stu-id="674f7-108">View consumed inventory</span></span>
+1. <span data-ttu-id="674f7-109">انتقل إلى تعاون المورد‬ > مخزون الشحن‬ > المنتجات التي تم استلامها من مخزون الشحن‬.</span><span class="sxs-lookup"><span data-stu-id="674f7-109">Go to Vendor collaboration > Consignment inventory > Products received from consignment inventory.</span></span>
+    * <span data-ttu-id="674f7-110">تعرض القائمة بنود إيصال استلام المنتجات‬ التي تم إنشاؤها عندما تغيرت ملكية مخزون الشحن من المورّد إلى العميل.</span><span class="sxs-lookup"><span data-stu-id="674f7-110">The list shows the product receipt lines that were generated when ownership of the consignment inventory was changed from the vendor to the customer.</span></span> <span data-ttu-id="674f7-111">قد تحتاج إلى التمرير إلى اليمين لعرض الكميات ومعلومات أخرى.</span><span class="sxs-lookup"><span data-stu-id="674f7-111">You might have to scroll to the right to see quantities and other information.</span></span> <span data-ttu-id="674f7-112">ويمكنك استخدام المعلومات الموجودة في هذه القائمة لإنشاء فواتير للعميل.</span><span class="sxs-lookup"><span data-stu-id="674f7-112">You can use the information in this list to generate invoices for your customer.</span></span> <span data-ttu-id="674f7-113">يمكنك أيضًا تصدير البيانات إلى Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="674f7-113">You can also export the data to Microsoft Excel.</span></span>   
+2. <span data-ttu-id="674f7-114">انقر فوق "عرض أمر الشراء‬".</span><span class="sxs-lookup"><span data-stu-id="674f7-114">Click View purchase order.</span></span>
+3. <span data-ttu-id="674f7-115">قم بتوسيع قسم "تفاصيل البند".</span><span class="sxs-lookup"><span data-stu-id="674f7-115">Expand the Line details section.</span></span>
+    * <span data-ttu-id="674f7-116">يتم وضع علامة "الشحن" على البند، ويوضح مقطع الرأس أن حالة أمر الشراء هي "مستلم".</span><span class="sxs-lookup"><span data-stu-id="674f7-116">The line is marked as Consignment, and the header section shows that the purchase order has a status of Received.</span></span>  
+4. <span data-ttu-id="674f7-117">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="674f7-117">Close the page.</span></span>
 
-## <a name="view-on-hand-inventory"></a><span data-ttu-id="ed2fe-118">عرض المخزون الفعلي</span><span class="sxs-lookup"><span data-stu-id="ed2fe-118">View on-hand inventory</span></span>
-1. <span data-ttu-id="ed2fe-119">انتقل إلى تعاون المورد‬ > مخزون الشحن‬ > مخزون الشحن الفعلي‬‬.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-119">Go to Vendor collaboration > Consignment inventory > On-hand consignment inventory.</span></span>
-    * <span data-ttu-id="ed2fe-120">تظهر الصفحة "مخزون الشحن الفعلي‬" المخزون الذي تملكه في مستودع العميل.</span><span class="sxs-lookup"><span data-stu-id="ed2fe-120">The On-hand consignment inventory page shows the stock that you own at the customer’s warehouse.</span></span> <span data-ttu-id="ed2fe-121">يمكنك إظهار أبعاد إضافية، مثل الموقع والمستودع، بالنقر فوق علامة التبويب "عرض الأبعاد‬".</span><span class="sxs-lookup"><span data-stu-id="ed2fe-121">You can show additional dimensions, such as the site and warehouse, by clicking the Display dimensions tab.</span></span>   
+## <a name="view-on-hand-inventory"></a><span data-ttu-id="674f7-118">عرض المخزون الفعلي</span><span class="sxs-lookup"><span data-stu-id="674f7-118">View on-hand inventory</span></span>
+1. <span data-ttu-id="674f7-119">انتقل إلى تعاون المورد‬ > مخزون الشحن‬ > مخزون الشحن الفعلي‬‬.</span><span class="sxs-lookup"><span data-stu-id="674f7-119">Go to Vendor collaboration > Consignment inventory > On-hand consignment inventory.</span></span>
+    * <span data-ttu-id="674f7-120">تظهر الصفحة "مخزون الشحن الفعلي‬" المخزون الذي تملكه في مستودع العميل.</span><span class="sxs-lookup"><span data-stu-id="674f7-120">The On-hand consignment inventory page shows the stock that you own at the customer’s warehouse.</span></span> <span data-ttu-id="674f7-121">يمكنك إظهار أبعاد إضافية، مثل الموقع والمستودع، بالنقر فوق علامة التبويب "عرض الأبعاد‬".</span><span class="sxs-lookup"><span data-stu-id="674f7-121">You can show additional dimensions, such as the site and warehouse, by clicking the Display dimensions tab.</span></span>   
 

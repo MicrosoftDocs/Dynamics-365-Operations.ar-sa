@@ -9,32 +9,32 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9878a03181ccb1eb9e31edefae345cee84b40c5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49ad1b2478516392d80720c24803024d9f5d00a5
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543808"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841263"
 ---
-# <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="16352-103">إنشاء دفتر أستاذ محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="16352-103">Create a cost accounting ledger</span></span>
+# <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="a4a6d-103">إنشاء دفتر أستاذ محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="a4a6d-103">Create a cost accounting ledger</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="16352-104">يمثل دفتر أستاذ محاسبة التكاليف وحدة التقارير بكاملها.</span><span class="sxs-lookup"><span data-stu-id="16352-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="16352-105">ويتم تعريفه بواسطة بعد عنصر التكلفة والبعد الإحصائي والتقويم المالي والعملة.</span><span class="sxs-lookup"><span data-stu-id="16352-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="16352-106">وهو يعتمد على مفهوم الكيانات القانونية.</span><span class="sxs-lookup"><span data-stu-id="16352-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="16352-107">يمكن إقران الكيان القانوني وبياناته بعدد كبير من دفاتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="16352-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="16352-108">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.</span><span class="sxs-lookup"><span data-stu-id="16352-108">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="a4a6d-104">يمثل دفتر أستاذ محاسبة التكاليف وحدة التقارير بكاملها.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="a4a6d-105">ويتم تعريفه بواسطة بعد عنصر التكلفة والبعد الإحصائي والتقويم المالي والعملة.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="a4a6d-106">وهو يعتمد على مفهوم الكيانات القانونية.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="a4a6d-107">يمكن إقران الكيان القانوني وبياناته بعدد كبير من دفاتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="a4a6d-108">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-108">This recording uses the USP2 demo data company.</span></span>
 
-1. <span data-ttu-id="16352-109">انتقل إلى محاسبة التكاليف > إعداد دفتر الأستاذ > دفاتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="16352-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="16352-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="16352-110">Click New.</span></span>
-3. <span data-ttu-id="16352-111">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="16352-111">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="16352-112">في الحقل "بُعد عنصر التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="16352-112">In the Cost element dimension field, enter or select a value.</span></span>
-5. <span data-ttu-id="16352-113">في حقل "التقويم المالي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="16352-113">In the Fiscal calendar field, enter or select a value.</span></span>
-6. <span data-ttu-id="16352-114">في الحقل "عملة المحاسبة" أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="16352-114">In the Accounting currency field, enter or select a value.</span></span>
-7. <span data-ttu-id="16352-115">في حقل "نوع سعر الصرف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="16352-115">In the Exchange rate type field, enter or select a value.</span></span>
-8. <span data-ttu-id="16352-116">في الحقل "البعد الإحصائي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="16352-116">In the Statistical dimension field, enter or select a value.</span></span>
-9. <span data-ttu-id="16352-117">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="16352-117">Click Save.</span></span>
+1. <span data-ttu-id="a4a6d-109">انتقل إلى محاسبة التكاليف > إعداد دفتر الأستاذ > دفاتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="a4a6d-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a4a6d-110">Click New.</span></span>
+3. <span data-ttu-id="a4a6d-111">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-111">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="a4a6d-112">في الحقل "بُعد عنصر التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-112">In the Cost element dimension field, enter or select a value.</span></span>
+5. <span data-ttu-id="a4a6d-113">في حقل "التقويم المالي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-113">In the Fiscal calendar field, enter or select a value.</span></span>
+6. <span data-ttu-id="a4a6d-114">في الحقل "عملة المحاسبة" أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-114">In the Accounting currency field, enter or select a value.</span></span>
+7. <span data-ttu-id="a4a6d-115">في حقل "نوع سعر الصرف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-115">In the Exchange rate type field, enter or select a value.</span></span>
+8. <span data-ttu-id="a4a6d-116">في الحقل "البعد الإحصائي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="a4a6d-116">In the Statistical dimension field, enter or select a value.</span></span>
+9. <span data-ttu-id="a4a6d-117">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a4a6d-117">Click Save.</span></span>
 

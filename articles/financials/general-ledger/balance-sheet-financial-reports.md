@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
@@ -18,67 +18,67 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d54748daa27011e0222123ee2b9a19b9288734c
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: d9dcac902118c643b9a9d783c12f02fa5c90827b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595306"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839559"
 ---
-# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="7c316-104">التقارير المالية للميزانية العمومية</span><span class="sxs-lookup"><span data-stu-id="7c316-104">Balance sheet financial reports</span></span>
+# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="53311-104">التقارير المالية للميزانية العمومية</span><span class="sxs-lookup"><span data-stu-id="53311-104">Balance sheet financial reports</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7c316-105">توضح هذه المقالة التقارير الافتراضية للميزانيات العمومية.</span><span class="sxs-lookup"><span data-stu-id="7c316-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="7c316-106">كما تصف العناصر الأساسية التي تقترن بهذه التقارير.</span><span class="sxs-lookup"><span data-stu-id="7c316-106">It also describes the building blocks that are associated with these reports.</span></span> 
+<span data-ttu-id="53311-105">توضح هذه المقالة التقارير الافتراضية للميزانيات العمومية.</span><span class="sxs-lookup"><span data-stu-id="53311-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="53311-106">كما تصف العناصر الأساسية التي تقترن بهذه التقارير.</span><span class="sxs-lookup"><span data-stu-id="53311-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
-<a name="default-balance-sheet-reports"></a><span data-ttu-id="7c316-107">تقارير الميزانية العمومية الافتراضية</span><span class="sxs-lookup"><span data-stu-id="7c316-107">Default balance sheet reports</span></span>
+<a name="default-balance-sheet-reports"></a><span data-ttu-id="53311-107">تقارير الميزانية العمومية الافتراضية</span><span class="sxs-lookup"><span data-stu-id="53311-107">Default balance sheet reports</span></span>
 -----------------------------
 
-<span data-ttu-id="7c316-108">هناك تقريران افتراضيان للميزانية العمومية.</span><span class="sxs-lookup"><span data-stu-id="7c316-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="7c316-109">في تقرير واحد، يتم تكديس الأقسام.</span><span class="sxs-lookup"><span data-stu-id="7c316-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="7c316-110">وفي التقرير الآخر، تكون الأقسام بجانب بعضها البعض.</span><span class="sxs-lookup"><span data-stu-id="7c316-110">On the other report, the sections are side by side.</span></span>
+<span data-ttu-id="53311-108">هناك تقريران افتراضيان للميزانية العمومية.</span><span class="sxs-lookup"><span data-stu-id="53311-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="53311-109">في تقرير واحد، يتم تكديس الأقسام.</span><span class="sxs-lookup"><span data-stu-id="53311-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="53311-110">وفي التقرير الآخر، تكون الأقسام بجانب بعضها البعض.</span><span class="sxs-lookup"><span data-stu-id="53311-110">On the other report, the sections are side by side.</span></span>
 
-| <span data-ttu-id="7c316-111">التقرير الافتراضي</span><span class="sxs-lookup"><span data-stu-id="7c316-111">Default report</span></span>                       | <span data-ttu-id="7c316-112">مهامه</span><span class="sxs-lookup"><span data-stu-id="7c316-112">What it does</span></span>                                                                                                                           |
+| <span data-ttu-id="53311-111">التقرير الافتراضي</span><span class="sxs-lookup"><span data-stu-id="53311-111">Default report</span></span>                       | <span data-ttu-id="53311-112">مهامه</span><span class="sxs-lookup"><span data-stu-id="53311-112">What it does</span></span>                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="7c316-113">كشف الأرصدة - الافتراضي</span><span class="sxs-lookup"><span data-stu-id="7c316-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="7c316-114">يوفر عرضًا للوضع المالي للمؤسسة للسنة.</span><span class="sxs-lookup"><span data-stu-id="7c316-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
-| <span data-ttu-id="7c316-115">الميزانية العمومية جنبًا إلى جنب – الافتراضية</span><span class="sxs-lookup"><span data-stu-id="7c316-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="7c316-116">يوفر عرضًا للوضع المالي للمؤسسة للسنة.</span><span class="sxs-lookup"><span data-stu-id="7c316-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="7c316-117">تظهر الأصول والالتزام وأسهم المساهم جنبًا إلى جنب.</span><span class="sxs-lookup"><span data-stu-id="7c316-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
+| <span data-ttu-id="53311-113">كشف الأرصدة - الافتراضي</span><span class="sxs-lookup"><span data-stu-id="53311-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="53311-114">يوفر عرضًا للوضع المالي للمؤسسة للسنة.</span><span class="sxs-lookup"><span data-stu-id="53311-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
+| <span data-ttu-id="53311-115">الميزانية العمومية جنبًا إلى جنب – الافتراضية</span><span class="sxs-lookup"><span data-stu-id="53311-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="53311-116">يوفر عرضًا للوضع المالي للمؤسسة للسنة.</span><span class="sxs-lookup"><span data-stu-id="53311-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="53311-117">تظهر الأصول والالتزام وأسهم المساهم جنبًا إلى جنب.</span><span class="sxs-lookup"><span data-stu-id="53311-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="7c316-118">اللبنات الأساسية</span><span class="sxs-lookup"><span data-stu-id="7c316-118">Building blocks</span></span>
-<span data-ttu-id="7c316-119">تستخدم التقارير المالية للميزانية العمومية اللبنات الأساسية التالية.</span><span class="sxs-lookup"><span data-stu-id="7c316-119">The balance sheet financial reports use the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="53311-118">اللبنات الأساسية</span><span class="sxs-lookup"><span data-stu-id="53311-118">Building blocks</span></span>
+<span data-ttu-id="53311-119">تستخدم التقارير المالية للميزانية العمومية اللبنات الأساسية التالية.</span><span class="sxs-lookup"><span data-stu-id="53311-119">The balance sheet financial reports use the following building blocks.</span></span>
 
-| <span data-ttu-id="7c316-120">التقرير الافتراضي</span><span class="sxs-lookup"><span data-stu-id="7c316-120">Default report</span></span>                       | <span data-ttu-id="7c316-121">تعريف الصف</span><span class="sxs-lookup"><span data-stu-id="7c316-121">Row definition</span></span>                       | <span data-ttu-id="7c316-122">تعريف العمود</span><span class="sxs-lookup"><span data-stu-id="7c316-122">Column definition</span></span>             |
+| <span data-ttu-id="53311-120">التقرير الافتراضي</span><span class="sxs-lookup"><span data-stu-id="53311-120">Default report</span></span>                       | <span data-ttu-id="53311-121">تعريف الصف</span><span class="sxs-lookup"><span data-stu-id="53311-121">Row definition</span></span>                       | <span data-ttu-id="53311-122">تعريف العمود</span><span class="sxs-lookup"><span data-stu-id="53311-122">Column definition</span></span>             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| <span data-ttu-id="7c316-123">الميزانية العمومية - الافتراضية</span><span class="sxs-lookup"><span data-stu-id="7c316-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="7c316-124">الميزانية العمومية - الافتراضية</span><span class="sxs-lookup"><span data-stu-id="7c316-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="7c316-125">السنة حتى تاريخه والفرق - الافتراضي</span><span class="sxs-lookup"><span data-stu-id="7c316-125">YTD and Variance - Default</span></span>    |
-| <span data-ttu-id="7c316-126">الميزانية العمومية جنبًا إلى جنب – الافتراضية</span><span class="sxs-lookup"><span data-stu-id="7c316-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="7c316-127">الميزانية العمومية جنبًا إلى جنب – الافتراضية</span><span class="sxs-lookup"><span data-stu-id="7c316-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="7c316-128">عمود السنة حتى تاريخه - الافتراضي</span><span class="sxs-lookup"><span data-stu-id="7c316-128">Year to Date Column - Default</span></span> |
+| <span data-ttu-id="53311-123">الميزانية العمومية - الافتراضية</span><span class="sxs-lookup"><span data-stu-id="53311-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="53311-124">الميزانية العمومية - الافتراضية</span><span class="sxs-lookup"><span data-stu-id="53311-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="53311-125">السنة حتى تاريخه والفرق - الافتراضي</span><span class="sxs-lookup"><span data-stu-id="53311-125">YTD and Variance - Default</span></span>    |
+| <span data-ttu-id="53311-126">الميزانية العمومية جنبًا إلى جنب – الافتراضية</span><span class="sxs-lookup"><span data-stu-id="53311-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="53311-127">الميزانية العمومية جنبًا إلى جنب – الافتراضية</span><span class="sxs-lookup"><span data-stu-id="53311-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="53311-128">عمود السنة حتى تاريخه - الافتراضي</span><span class="sxs-lookup"><span data-stu-id="53311-128">Year to Date Column - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="7c316-129">تعريف الصف</span><span class="sxs-lookup"><span data-stu-id="7c316-129">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="53311-129">تعريف الصف</span><span class="sxs-lookup"><span data-stu-id="53311-129">Row definition</span></span>
 
-<span data-ttu-id="7c316-130">تحتوي تعريفات الصف لكلٍّ من تقريري الميزانية العمومية على أقسام لكل جزء في الميزانية العمومية التقليدية.</span><span class="sxs-lookup"><span data-stu-id="7c316-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="7c316-131">ويتضمن التقرير جنبًا إلى جنب فاصل أعمدة، بحيث يظهر الالتزام وأسهم المالك إلى جانب الأصول.</span><span class="sxs-lookup"><span data-stu-id="7c316-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="7c316-132">ويتم استخدام بُعد "فئة الحساب الرئيسي" لإنشاء كلٍّ من تعريفي الصف.</span><span class="sxs-lookup"><span data-stu-id="7c316-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="7c316-133">ولذلك، يمكن لأي شخص إنشاء التقارير دون الحاجة إلى إجراء أي تعديلات.</span><span class="sxs-lookup"><span data-stu-id="7c316-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
+<span data-ttu-id="53311-130">تحتوي تعريفات الصف لكلٍّ من تقريري الميزانية العمومية على أقسام لكل جزء في الميزانية العمومية التقليدية.</span><span class="sxs-lookup"><span data-stu-id="53311-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="53311-131">ويتضمن التقرير جنبًا إلى جنب فاصل أعمدة، بحيث يظهر الالتزام وأسهم المالك إلى جانب الأصول.</span><span class="sxs-lookup"><span data-stu-id="53311-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="53311-132">ويتم استخدام بُعد "فئة الحساب الرئيسي" لإنشاء كلٍّ من تعريفي الصف.</span><span class="sxs-lookup"><span data-stu-id="53311-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="53311-133">ولذلك، يمكن لأي شخص إنشاء التقارير دون الحاجة إلى إجراء أي تعديلات.</span><span class="sxs-lookup"><span data-stu-id="53311-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="7c316-134">تعريف العمود</span><span class="sxs-lookup"><span data-stu-id="7c316-134">Column definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="53311-134">تعريف العمود</span><span class="sxs-lookup"><span data-stu-id="53311-134">Column definition</span></span>
 
-<span data-ttu-id="7c316-135">وتحتوي تعريفات الأعمدة هذه على أنواع مختلفة من الأعمدة لتوفير مستويات مختلفة من التفاصيل والبيانات المالية.</span><span class="sxs-lookup"><span data-stu-id="7c316-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="53311-135">وتحتوي تعريفات الأعمدة هذه على أنواع مختلفة من الأعمدة لتوفير مستويات مختلفة من التفاصيل والبيانات المالية.</span><span class="sxs-lookup"><span data-stu-id="53311-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="7c316-136">**السنة حتى تاريخه والفرق – أنواع الأعمدة الافتراضية:**</span><span class="sxs-lookup"><span data-stu-id="7c316-136">**YTD and Variance – Default column types:**</span></span>
-    -   <span data-ttu-id="7c316-137">**DESC** – الوصف من كل تعريف صف</span><span class="sxs-lookup"><span data-stu-id="7c316-137">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="7c316-138">**FD** – البيانات المالية للسنة حتى تاريخه للسنة الحالية</span><span class="sxs-lookup"><span data-stu-id="7c316-138">**FD** – Year-to-date financial data for the current year</span></span>
-    -   <span data-ttu-id="7c316-139">**FD** – البيانات المالية للسنة حتى تاريخه للسنة الأخيرة</span><span class="sxs-lookup"><span data-stu-id="7c316-139">**FD** – Year-to-date financial data for the last year</span></span>
-    -   <span data-ttu-id="7c316-140">**CALC** – الفرق من طرح العام الماضي من هذا العام</span><span class="sxs-lookup"><span data-stu-id="7c316-140">**CALC** – The variance from subtracting last year from this year</span></span>
+-   <span data-ttu-id="53311-136">**السنة حتى تاريخه والفرق – أنواع الأعمدة الافتراضية:**</span><span class="sxs-lookup"><span data-stu-id="53311-136">**YTD and Variance – Default column types:**</span></span>
+    -   <span data-ttu-id="53311-137">**DESC** – الوصف من كل تعريف صف</span><span class="sxs-lookup"><span data-stu-id="53311-137">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="53311-138">**FD** – البيانات المالية للسنة حتى تاريخه للسنة الحالية</span><span class="sxs-lookup"><span data-stu-id="53311-138">**FD** – Year-to-date financial data for the current year</span></span>
+    -   <span data-ttu-id="53311-139">**FD** – البيانات المالية للسنة حتى تاريخه للسنة الأخيرة</span><span class="sxs-lookup"><span data-stu-id="53311-139">**FD** – Year-to-date financial data for the last year</span></span>
+    -   <span data-ttu-id="53311-140">**CALC** – الفرق من طرح العام الماضي من هذا العام</span><span class="sxs-lookup"><span data-stu-id="53311-140">**CALC** – The variance from subtracting last year from this year</span></span>
 
 <!-- -->
 
--   <span data-ttu-id="7c316-141">**عمود السنة حتى تاريخه - الافتراضي:**</span><span class="sxs-lookup"><span data-stu-id="7c316-141">**Year to Date Column – Default:**</span></span>
-    -   <span data-ttu-id="7c316-142">**DESC** – الوصف من كل تعريف صف</span><span class="sxs-lookup"><span data-stu-id="7c316-142">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="7c316-143">**FD** – البيانات المالية للسنة حتى تاريخه للسنة الحالية</span><span class="sxs-lookup"><span data-stu-id="7c316-143">**FD** – Year-to-date financial data for the current year</span></span>
+-   <span data-ttu-id="53311-141">**عمود السنة حتى تاريخه - الافتراضي:**</span><span class="sxs-lookup"><span data-stu-id="53311-141">**Year to Date Column – Default:**</span></span>
+    -   <span data-ttu-id="53311-142">**DESC** – الوصف من كل تعريف صف</span><span class="sxs-lookup"><span data-stu-id="53311-142">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="53311-143">**FD** – البيانات المالية للسنة حتى تاريخه للسنة الحالية</span><span class="sxs-lookup"><span data-stu-id="53311-143">**FD** – Year-to-date financial data for the current year</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="7c316-144">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="7c316-144">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="53311-144">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="53311-144">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="7c316-145">التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="7c316-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="53311-145">التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="53311-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="7c316-146">عرض التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="7c316-146">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="53311-146">عرض التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="53311-146">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="7c316-147">مدونة التقارير المالية في Dynamics</span><span class="sxs-lookup"><span data-stu-id="7c316-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="53311-147">مدونة التقارير المالية في Dynamics</span><span class="sxs-lookup"><span data-stu-id="53311-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

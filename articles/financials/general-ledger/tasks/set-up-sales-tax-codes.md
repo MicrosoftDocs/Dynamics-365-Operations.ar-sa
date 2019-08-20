@@ -1,6 +1,6 @@
 ---
 title: إعداد أكواد ضريبة المبيعات
-description: يتم إنشاء أكواد ضريبة المبيعات لكل ضريبة أو رسم غير مباشر يلزم على الكيان القانوني حسابه وتحصيله ودفعه لهيئات ضريبة المبيعات.
+description: يشرح هذا الموضوع كيفية إعداد ‏‫أكواد ضريبة المبيعات‬ في Dynamics 365 for Finance and Operations.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -10,46 +10,39 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f29442c2ef2e3d0008a74298fda218e4cbd93f8e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3419c6b569093d717158e80bd9bc01054d82bff9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571573"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834820"
 ---
-# <a name="set-up-sales-tax-codes"></a><span data-ttu-id="3469d-103">إعداد أكواد ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="3469d-103">Set up sales tax codes</span></span>
+# <a name="set-up-sales-tax-codes"></a><span data-ttu-id="4f8df-103">إعداد أكواد ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="4f8df-103">Set up sales tax codes</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="3469d-104">يتم إنشاء أكواد ضريبة المبيعات لكل ضريبة أو رسم غير مباشر يلزم على الكيان القانوني حسابه وتحصيله ودفعه لهيئات ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="3469d-104">Sales tax codes are created for every indirect tax or duty that the legal entity is obligated to calculate, collect, and pay to sales tax authorities.</span></span>
+<span data-ttu-id="4f8df-104">يشرح هذا الموضوع كيفية إعداد ‏‫أكواد ضريبة المبيعات‬ في Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4f8df-104">This topic explains how to set up sales tax codes in Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="4f8df-105">يتم إنشاء أكواد ضريبة المبيعات لكل ضريبة أو رسم غير مباشر يلزم على الكيان القانوني حسابه وتحصيله ودفعه لهيئات ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="4f8df-105">Sales tax codes are created for every indirect tax or duty that the legal entity is obligated to calculate, collect, and pay to sales tax authorities.</span></span>
 
-<span data-ttu-id="3469d-105">تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="3469d-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="4f8df-106">تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="4f8df-106">This task uses the USMF demo company.</span></span>
 
-
-
-1. <span data-ttu-id="3469d-106">انتقل إلى الضريبة > الضرائب غير المباشرة > ضريبة المبيعات > أكواد ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="3469d-106">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
-2. <span data-ttu-id="3469d-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3469d-107">Click New.</span></span>
-3. <span data-ttu-id="3469d-108">في الحقل "كود ضريبة المبيعات"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3469d-108">In the Sales tax code field, type a value.</span></span>
-4. <span data-ttu-id="3469d-109">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3469d-109">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="3469d-110">حدد فترة تسوية لتحديد هيئة ضريبة المبيعات حيث يجب الإبلاغ عن ضريبة المبيعات ودفعها ولتحديد الفترات الزمنية للإبلاغ والدفع.</span><span class="sxs-lookup"><span data-stu-id="3469d-110">Select a Settlement period to specify which Sales tax authority and in which intervals this sales tax needs to be reported and paid.</span></span>
-6. <span data-ttu-id="3469d-111">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3469d-111">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="3469d-112">حدد مجموعة ترحيل دفتر أستاذ لتحديد الحسابات الرئيسية لترحيل ضريبة المبيعات إلى دفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="3469d-112">Select a Ledger posting group to specify the main accounts to post sales tax to the general ledger.</span></span>
-8. <span data-ttu-id="3469d-113">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="3469d-113">In the list, find and select the desired record.</span></span>
-9. <span data-ttu-id="3469d-114">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3469d-114">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="3469d-115">وسّع علامة التبويب السريعة "الحساب".</span><span class="sxs-lookup"><span data-stu-id="3469d-115">Expand the Calculation FastTab.</span></span>
-    * <span data-ttu-id="3469d-116">تتضمن علامة التبويب السريعة "الحساب‬" حقولاً متعددة تتحكم في كيفية حساب مبالغ ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="3469d-116">The Calculation FastTab has multiple fields that control how sales tax amounts will be calculated.</span></span>  
-11. <span data-ttu-id="3469d-117">في جزء الإجراءات، انقر فوق "كود ضريبة المبيعات".</span><span class="sxs-lookup"><span data-stu-id="3469d-117">On the Action Pane, click Sales tax code.</span></span>
-12. <span data-ttu-id="3469d-118">انقر فوق "القيم‬".</span><span class="sxs-lookup"><span data-stu-id="3469d-118">Click Values.</span></span>
-13. <span data-ttu-id="3469d-119">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="3469d-119">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="3469d-120">أدخل قيمة كود الضريبة هذا.</span><span class="sxs-lookup"><span data-stu-id="3469d-120">Enter the value for this tax code.</span></span>
-    * <span data-ttu-id="3469d-121">على علامة التبويب السريعة "الحساب"، في الحقل "الأصل‬"، إذا تم تحديد "المبلغ لكل وحدة‬"، فسيتم ضرب القيمة في الكمية على الحركة لحساب مبلغ ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="3469d-121">On the Calculation FastTab, in the Origin field, if Amount per unit is selected, the value will be multiplied by the quantity on the transaction to calculate the sales tax amount.</span></span>  <span data-ttu-id="3469d-122">إذا لم يكن كود الضريبة عبارة عن ضريبة تستند إلى وحدة، فستكون القيمة عبارة عن نسبة مئوية مطبقة على الأصل لكود الضريبة هذا لحساب مبلغ ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="3469d-122">If the tax code is not a unit based tax, the value is a percentage that is applied on the Origin for this tax code to calculate the sales tax amount.</span></span>     
-15. <span data-ttu-id="3469d-123">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3469d-123">Click Save.</span></span>
-16. <span data-ttu-id="3469d-124">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="3469d-124">Close the page.</span></span>
-17. <span data-ttu-id="3469d-125">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3469d-125">Click Save.</span></span>
+1. <span data-ttu-id="4f8df-107">انتقل إلى **جزء التنقل > الضريبة > الضرائب غير المباشرة > ضريبة المبيعات > أكواد ضريبة المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="4f8df-107">Go to **Navigation pane > Tax > Indirect taxes > Sales tax > Sales tax codes**.</span></span>
+2. <span data-ttu-id="4f8df-108">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="4f8df-108">Select **New**.</span></span>
+3. <span data-ttu-id="4f8df-109">في الحقل **كود ضريبة المبيعات**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="4f8df-109">In the **Sales tax code** field, type a value.</span></span>
+4. <span data-ttu-id="4f8df-110">في الحقل **الاسم**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="4f8df-110">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="4f8df-111">حدد **فترة تسوية** عن طريق فتح القائمة المنسدلة لتحديد هيئة ضريبة المبيعات حيث يجب الإبلاغ عن ضريبة المبيعات ودفعها ولتحديد الفترات الزمنية للإبلاغ والدفع.</span><span class="sxs-lookup"><span data-stu-id="4f8df-111">Select a **Settlement period** by opening the pull-down list to specify which Sales tax authority and in which intervals this sales tax needs to be reported and paid.</span></span>
+6. <span data-ttu-id="4f8df-112">حدد **مجموعة ترحيل دفتر أستاذ** لتحديد الحسابات الرئيسية لترحيل ضريبة المبيعات إلى دفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="4f8df-112">Select a **Ledger posting group** to specify the main accounts to post sales tax to the general ledger.</span></span>
+7. <span data-ttu-id="4f8df-113">وسّع علامة التبويب السريعة **الحساب**.</span><span class="sxs-lookup"><span data-stu-id="4f8df-113">Expand the **Calculation** FastTab.</span></span> <span data-ttu-id="4f8df-114">تتضمن هذه حقولاً متعددة تتحكم في كيفية حساب مبالغ ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="4f8df-114">This includes multiple fields that control how sales tax amounts will be calculated.</span></span> <span data-ttu-id="4f8df-115">إملأ هذه الحقول حسب الحاجة.</span><span class="sxs-lookup"><span data-stu-id="4f8df-115">Fill these fields out as needed.</span></span>  
+8. <span data-ttu-id="4f8df-116">في **جزء الإجراءات** في أعلى الواجهة، حدد **كود ضريبة المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="4f8df-116">On the **Action Pane** at the top of the interface, select **Sales tax code**.</span></span>
+9. <span data-ttu-id="4f8df-117">حدد **القيم**.</span><span class="sxs-lookup"><span data-stu-id="4f8df-117">Select **Values**.</span></span>
+10. <span data-ttu-id="4f8df-118">أدخل قيمة كود الضريبة هذا في عمود **القيمة**.</span><span class="sxs-lookup"><span data-stu-id="4f8df-118">Enter the value for this tax code in the **value** column.</span></span>
+    - <span data-ttu-id="4f8df-119">على علامة التبويب السريعة **الحساب**، في الحقل "الأصل‬"، إذا تم تحديد "المبلغ لكل وحدة‬"، فسيتم ضرب القيمة في الكمية على الحركة لحساب مبلغ ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="4f8df-119">On the **Calculation** FastTab, in the Origin field, if Amount per unit is selected, the value will be multiplied by the quantity on the transaction to calculate the sales tax amount.</span></span>  <span data-ttu-id="4f8df-120">إذا لم يكن كود الضريبة عبارة عن ضريبة تستند إلى وحدة، فستكون القيمة عبارة عن نسبة مئوية مطبقة على الأصل لكود الضريبة هذا لحساب مبلغ ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="4f8df-120">If the tax code is not a unit based tax, the value is a percentage that is applied on the Origin for this tax code to calculate the sales tax amount.</span></span>     
+11. <span data-ttu-id="4f8df-121">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="4f8df-121">Select **Save**.</span></span>
+12. <span data-ttu-id="4f8df-122">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="4f8df-122">Close the page.</span></span>
+13. <span data-ttu-id="4f8df-123">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="4f8df-123">Select **Save**.</span></span>
 

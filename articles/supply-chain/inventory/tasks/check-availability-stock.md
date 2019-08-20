@@ -10,61 +10,61 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnHandItemListPage, SysQueryForm, InventDimParmFixed, InventSupply, DefaultDashboard, WHSInventPhysicalOnhand, WHSOnHand
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a8f51eda1f4249862a23fa0103b7a144d974a1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b78b2e4ec3179450d635857353846c9bcb23eed
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549853"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795162"
 ---
-# <a name="check-the-availability-of-stock"></a><span data-ttu-id="433a3-103">التحقق من توفر المخزون</span><span class="sxs-lookup"><span data-stu-id="433a3-103">Check the availability of stock</span></span>
+# <a name="check-the-availability-of-stock"></a><span data-ttu-id="6c6ad-103">التحقق من توفر المخزون</span><span class="sxs-lookup"><span data-stu-id="6c6ad-103">Check the availability of stock</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="433a3-104">يوضح هذا الإجراء كيفية التحقق من المخزون الفعلي والمخزون الفعلي الحالي لرقم صنف معين.</span><span class="sxs-lookup"><span data-stu-id="433a3-104">This procedure shows you how to check on-hand and physical on-hand inventory for a specific item number.</span></span> <span data-ttu-id="433a3-105">كما يوضح لك كيفية الحصول على معلومات التوريد المتعلقة بصنف معين.</span><span class="sxs-lookup"><span data-stu-id="433a3-105">It also shows you how to get supply information related to an item.</span></span> <span data-ttu-id="433a3-106">المخزون الفعلي الحالي هو المخزون الفعلي المتوفر – أي، تم شراؤه واستلامه وتسجيله.</span><span class="sxs-lookup"><span data-stu-id="433a3-106">Physical on-hand inventory is the on-hand inventory that’s available – that is, it’s purchased, received and registered.</span></span> <span data-ttu-id="433a3-107">يتضمن المخزون الفعلي المخزون الفعلي المتوفر، ولكن أيضا المخزون الذي تم طلبه والمتوقع وصوله، ولكن لم يتم استلامه أو تسجيله.</span><span class="sxs-lookup"><span data-stu-id="433a3-107">On-hand inventory includes the available on-hand inventory, but also the inventory that’s been ordered and is expected, but not yet received or registered.</span></span> <span data-ttu-id="433a3-108">يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="433a3-108">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="433a3-109">إذا كنت تستخدم USMF، فيمكنك استخدام القيم المعروضة التي تم استخدامها كأمثلة.</span><span class="sxs-lookup"><span data-stu-id="433a3-109">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="433a3-110">وعادة ما تُنفذ هذه المهام عن طريق عامل مستودع.</span><span class="sxs-lookup"><span data-stu-id="433a3-110">These tasks would typically be carried out by a warehouse worker.</span></span>
+<span data-ttu-id="6c6ad-104">يوضح هذا الإجراء كيفية التحقق من المخزون الفعلي والمخزون الفعلي الحالي لرقم صنف معين.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-104">This procedure shows you how to check on-hand and physical on-hand inventory for a specific item number.</span></span> <span data-ttu-id="6c6ad-105">كما يوضح لك كيفية الحصول على معلومات التوريد المتعلقة بصنف معين.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-105">It also shows you how to get supply information related to an item.</span></span> <span data-ttu-id="6c6ad-106">المخزون الفعلي الحالي هو المخزون الفعلي المتوفر – أي، تم شراؤه واستلامه وتسجيله.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-106">Physical on-hand inventory is the on-hand inventory that’s available – that is, it’s purchased, received and registered.</span></span> <span data-ttu-id="6c6ad-107">يتضمن المخزون الفعلي المخزون الفعلي المتوفر، ولكن أيضا المخزون الذي تم طلبه والمتوقع وصوله، ولكن لم يتم استلامه أو تسجيله.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-107">On-hand inventory includes the available on-hand inventory, but also the inventory that’s been ordered and is expected, but not yet received or registered.</span></span> <span data-ttu-id="6c6ad-108">يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-108">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="6c6ad-109">إذا كنت تستخدم USMF، فيمكنك استخدام القيم المعروضة التي تم استخدامها كأمثلة.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-109">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="6c6ad-110">وعادة ما تُنفذ هذه المهام عن طريق عامل مستودع.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-110">These tasks would typically be carried out by a warehouse worker.</span></span>
 
 
-## <a name="check-on-hand-inventory-for-an-item"></a><span data-ttu-id="433a3-111">تحديد المخزون الفعلي‬ لصنف معين</span><span class="sxs-lookup"><span data-stu-id="433a3-111">Check on-hand inventory for an item</span></span>
-1. <span data-ttu-id="433a3-112">انتقل إلى إدارة المخزون > الاستعلامات والتقارير > المخزون الفعلي.</span><span class="sxs-lookup"><span data-stu-id="433a3-112">Go to Inventory management > Inquiries and reports > On-hand inventory.</span></span>
-2. <span data-ttu-id="433a3-113">حدد صف "رقم الصنف".</span><span class="sxs-lookup"><span data-stu-id="433a3-113">Select the Item number row.</span></span>
-    * <span data-ttu-id="433a3-114">للاستعلام عن المخزون الفعلي حسب رقم الصنف، حدد الصف حيث تم تعيين "الجدول" إلى "المخزون الفعلي" وحيث تم تعيين "الحقل" إلى "رقم الصنف".</span><span class="sxs-lookup"><span data-stu-id="433a3-114">To query the on-hand inventory by item number, select the row where the Table is set to On-hand inventory and Field is set to Item number.</span></span>  
-3. <span data-ttu-id="433a3-115">في الحقل "المعايير"، حدد الصنف الذي ترغب في الاستعلام عنه.</span><span class="sxs-lookup"><span data-stu-id="433a3-115">In the Criteria field, select the item you want to query.</span></span>
-    * <span data-ttu-id="433a3-116">إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فيمكنك تحديد "M9201".</span><span class="sxs-lookup"><span data-stu-id="433a3-116">If you're using the USMF demo data company, you can select 'M9201'.</span></span>  
-4. <span data-ttu-id="433a3-117">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="433a3-117">Click OK.</span></span>
-5. <span data-ttu-id="433a3-118">انقر فوق "الأبعاد".</span><span class="sxs-lookup"><span data-stu-id="433a3-118">Click Dimensions.</span></span>
-    * <span data-ttu-id="433a3-119">تسمح علامة التبويب "الأبعاد" بتحديد مقدار التفاصيل التي تريد مشاهدتها حول المخزون الفعلي.</span><span class="sxs-lookup"><span data-stu-id="433a3-119">The Dimensions tab allows you select how much detail you want to see about your on-hand inventory.</span></span> <span data-ttu-id="433a3-120">إذا كنت تحتاج إلى البيانات المتعلقة بالحجز، فيجب عرض كافة أبعاد المخزون للأصناف التي تستخدم عمليات المستودع المتقدمة (WHS).</span><span class="sxs-lookup"><span data-stu-id="433a3-120">If you need data related to reservation, you must display all inventory dimensions for the items that use advanced warehouse (WHS) processes.</span></span>  
-6. <span data-ttu-id="433a3-121">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="433a3-121">Click OK.</span></span>
-7. <span data-ttu-id="433a3-122">في جزء الإجراءات، انقر فوق "معلومات ذات صلة‬".</span><span class="sxs-lookup"><span data-stu-id="433a3-122">On the Action Pane, click Related information.</span></span>
-    * <span data-ttu-id="433a3-123">إذا لم تشاهد هذا، فقد تحتاج إلى النقر فوق زر علامة القطع (...) لمشاهدة خيارات إضافية في جزء الإجراءات.</span><span class="sxs-lookup"><span data-stu-id="433a3-123">If you don’t see this, you may need to click on the Ellipsis button (…) to see additional action pane options.</span></span>  
-8. <span data-ttu-id="433a3-124">انقر فوق "نظرة عامة على التوريد‬".</span><span class="sxs-lookup"><span data-stu-id="433a3-124">Click Supply overview.</span></span>
-    * <span data-ttu-id="433a3-125">توفر علامة التبويب "نظرة عامة على التوريد‬" معلومات التوريد لصنف معين، مثل الكمية الفعلية وزمن الوصول ومعلومات المورّد.</span><span class="sxs-lookup"><span data-stu-id="433a3-125">The Supply overview tab provides supply information for a specific item, such as the quantity on-hand, the lead time, and vendor information.</span></span>  
-9. <span data-ttu-id="433a3-126">قم بتوسيع مقطع "الكمية المتاحة".</span><span class="sxs-lookup"><span data-stu-id="433a3-126">Expand the On-hand section.</span></span>
-10. <span data-ttu-id="433a3-127">قم بتوسيع مقطع "المورّدون".</span><span class="sxs-lookup"><span data-stu-id="433a3-127">Expand the Vendors section.</span></span>
-11. <span data-ttu-id="433a3-128">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="433a3-128">Close the page.</span></span>
-12. <span data-ttu-id="433a3-129">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="433a3-129">Close the page.</span></span>
+## <a name="check-on-hand-inventory-for-an-item"></a><span data-ttu-id="6c6ad-111">تحديد المخزون الفعلي‬ لصنف معين</span><span class="sxs-lookup"><span data-stu-id="6c6ad-111">Check on-hand inventory for an item</span></span>
+1. <span data-ttu-id="6c6ad-112">انتقل إلى إدارة المخزون > الاستعلامات والتقارير > المخزون الفعلي.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-112">Go to Inventory management > Inquiries and reports > On-hand inventory.</span></span>
+2. <span data-ttu-id="6c6ad-113">حدد صف "رقم الصنف".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-113">Select the Item number row.</span></span>
+    * <span data-ttu-id="6c6ad-114">للاستعلام عن المخزون الفعلي حسب رقم الصنف، حدد الصف حيث تم تعيين "الجدول" إلى "المخزون الفعلي" وحيث تم تعيين "الحقل" إلى "رقم الصنف".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-114">To query the on-hand inventory by item number, select the row where the Table is set to On-hand inventory and Field is set to Item number.</span></span>  
+3. <span data-ttu-id="6c6ad-115">في الحقل "المعايير"، حدد الصنف الذي ترغب في الاستعلام عنه.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-115">In the Criteria field, select the item you want to query.</span></span>
+    * <span data-ttu-id="6c6ad-116">إذا كنت تستخدم شركة بيانات العرض التوضيحي USMF، فيمكنك تحديد "M9201".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-116">If you're using the USMF demo data company, you can select 'M9201'.</span></span>  
+4. <span data-ttu-id="6c6ad-117">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-117">Click OK.</span></span>
+5. <span data-ttu-id="6c6ad-118">انقر فوق "الأبعاد".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-118">Click Dimensions.</span></span>
+    * <span data-ttu-id="6c6ad-119">تسمح علامة التبويب "الأبعاد" بتحديد مقدار التفاصيل التي تريد مشاهدتها حول المخزون الفعلي.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-119">The Dimensions tab allows you select how much detail you want to see about your on-hand inventory.</span></span> <span data-ttu-id="6c6ad-120">إذا كنت تحتاج إلى البيانات المتعلقة بالحجز، فيجب عرض كافة أبعاد المخزون للأصناف التي تستخدم عمليات المستودع المتقدمة (WHS).</span><span class="sxs-lookup"><span data-stu-id="6c6ad-120">If you need data related to reservation, you must display all inventory dimensions for the items that use advanced warehouse (WHS) processes.</span></span>  
+6. <span data-ttu-id="6c6ad-121">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-121">Click OK.</span></span>
+7. <span data-ttu-id="6c6ad-122">في جزء الإجراءات، انقر فوق "معلومات ذات صلة‬".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-122">On the Action Pane, click Related information.</span></span>
+    * <span data-ttu-id="6c6ad-123">إذا لم تشاهد هذا، فقد تحتاج إلى النقر فوق زر علامة القطع (...) لمشاهدة خيارات إضافية في جزء الإجراءات.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-123">If you don’t see this, you may need to click on the Ellipsis button (…) to see additional action pane options.</span></span>  
+8. <span data-ttu-id="6c6ad-124">انقر فوق "نظرة عامة على التوريد‬".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-124">Click Supply overview.</span></span>
+    * <span data-ttu-id="6c6ad-125">توفر علامة التبويب "نظرة عامة على التوريد‬" معلومات التوريد لصنف معين، مثل الكمية الفعلية وزمن الوصول ومعلومات المورّد.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-125">The Supply overview tab provides supply information for a specific item, such as the quantity on-hand, the lead time, and vendor information.</span></span>  
+9. <span data-ttu-id="6c6ad-126">قم بتوسيع مقطع "الكمية المتاحة".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-126">Expand the On-hand section.</span></span>
+10. <span data-ttu-id="6c6ad-127">قم بتوسيع مقطع "المورّدون".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-127">Expand the Vendors section.</span></span>
+11. <span data-ttu-id="6c6ad-128">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-128">Close the page.</span></span>
+12. <span data-ttu-id="6c6ad-129">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-129">Close the page.</span></span>
 
-## <a name="check-physical-on-hand-inventory"></a><span data-ttu-id="433a3-130">تحديد المخزون الفعلي الحالي</span><span class="sxs-lookup"><span data-stu-id="433a3-130">Check physical on-hand inventory</span></span>
-1. <span data-ttu-id="433a3-131">انتقل إلى إدارة المستودعات > الاستعلامات والتقارير > المخزون الفعلي الحالي.</span><span class="sxs-lookup"><span data-stu-id="433a3-131">Go to Warehouse management > Inquiries and reports > Physical on-hand inventory.</span></span>
-2. <span data-ttu-id="433a3-132">في الحقل "رقم الصنف" اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="433a3-132">In the Item number field, type a value.</span></span>
-    * <span data-ttu-id="433a3-133">يمكنك استخدام حقلي "الموقع" و"المستودع" لتصفية قائمة الأصناف.</span><span class="sxs-lookup"><span data-stu-id="433a3-133">You can use the Site and Warehouse fields to filter the list of items.</span></span>  
-3. <span data-ttu-id="433a3-134">قم بتحديث الصفحة.</span><span class="sxs-lookup"><span data-stu-id="433a3-134">Refresh the page.</span></span>
-4. <span data-ttu-id="433a3-135">انقر فوق "عرض الأبعاد".</span><span class="sxs-lookup"><span data-stu-id="433a3-135">Click Display Dimensions.</span></span>
-    * <span data-ttu-id="433a3-136">تسمح علامة التبويب "عرض الأبعاد‬" بتحديد مقدار التفاصيل التي تريد مشاهدتها حول المخزون الفعلي.</span><span class="sxs-lookup"><span data-stu-id="433a3-136">The Dimensions Display tab allows you select how much detail you want to see about your on-hand inventory.</span></span>  
-5. <span data-ttu-id="433a3-137">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="433a3-137">Click OK.</span></span>
-6. <span data-ttu-id="433a3-138">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="433a3-138">Close the page.</span></span>
+## <a name="check-physical-on-hand-inventory"></a><span data-ttu-id="6c6ad-130">تحديد المخزون الفعلي الحالي</span><span class="sxs-lookup"><span data-stu-id="6c6ad-130">Check physical on-hand inventory</span></span>
+1. <span data-ttu-id="6c6ad-131">انتقل إلى إدارة المستودعات > الاستعلامات والتقارير > المخزون الفعلي الحالي.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-131">Go to Warehouse management > Inquiries and reports > Physical on-hand inventory.</span></span>
+2. <span data-ttu-id="6c6ad-132">في الحقل "رقم الصنف" اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-132">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="6c6ad-133">يمكنك استخدام حقلي "الموقع" و"المستودع" لتصفية قائمة الأصناف.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-133">You can use the Site and Warehouse fields to filter the list of items.</span></span>  
+3. <span data-ttu-id="6c6ad-134">قم بتحديث الصفحة.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-134">Refresh the page.</span></span>
+4. <span data-ttu-id="6c6ad-135">انقر فوق "عرض الأبعاد".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-135">Click Display Dimensions.</span></span>
+    * <span data-ttu-id="6c6ad-136">تسمح علامة التبويب "عرض الأبعاد‬" بتحديد مقدار التفاصيل التي تريد مشاهدتها حول المخزون الفعلي.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-136">The Dimensions Display tab allows you select how much detail you want to see about your on-hand inventory.</span></span>  
+5. <span data-ttu-id="6c6ad-137">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-137">Click OK.</span></span>
+6. <span data-ttu-id="6c6ad-138">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-138">Close the page.</span></span>
 
-## <a name="check-on-hand-inventory-by-location"></a><span data-ttu-id="433a3-139">تحديد المخزون الفعلي حسب الموقع</span><span class="sxs-lookup"><span data-stu-id="433a3-139">Check on-hand inventory by location</span></span>
-1. <span data-ttu-id="433a3-140">انتقل إلى إدارة المستودعات > الاستعلامات والتقارير > الفعلي حسب الموقع‬.</span><span class="sxs-lookup"><span data-stu-id="433a3-140">Go to Warehouse management > Inquiries and reports > On hand by location.</span></span>
-2. <span data-ttu-id="433a3-141">في الحقل "المستودع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="433a3-141">In the Warehouse field, type a value.</span></span>
-    * <span data-ttu-id="433a3-142">إذا كنت تستخدم شركة العرض التوضيحي USMF، فيمكنك استخدام "51".</span><span class="sxs-lookup"><span data-stu-id="433a3-142">If you're using the USMF demo data company, you can use '51'.</span></span>  
-3. <span data-ttu-id="433a3-143">قم بتحديث الصفحة.</span><span class="sxs-lookup"><span data-stu-id="433a3-143">Refresh the page.</span></span>
-4. <span data-ttu-id="433a3-144">انقر فوق "عرض الأبعاد".</span><span class="sxs-lookup"><span data-stu-id="433a3-144">Click Display Dimensions.</span></span>
-5. <span data-ttu-id="433a3-145">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="433a3-145">Click OK.</span></span>
-6. <span data-ttu-id="433a3-146">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="433a3-146">Close the page.</span></span>
+## <a name="check-on-hand-inventory-by-location"></a><span data-ttu-id="6c6ad-139">تحديد المخزون الفعلي حسب الموقع</span><span class="sxs-lookup"><span data-stu-id="6c6ad-139">Check on-hand inventory by location</span></span>
+1. <span data-ttu-id="6c6ad-140">انتقل إلى إدارة المستودعات > الاستعلامات والتقارير > الفعلي حسب الموقع‬.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-140">Go to Warehouse management > Inquiries and reports > On hand by location.</span></span>
+2. <span data-ttu-id="6c6ad-141">في الحقل "المستودع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-141">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="6c6ad-142">إذا كنت تستخدم شركة العرض التوضيحي USMF، فيمكنك استخدام "51".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-142">If you're using the USMF demo data company, you can use '51'.</span></span>  
+3. <span data-ttu-id="6c6ad-143">قم بتحديث الصفحة.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-143">Refresh the page.</span></span>
+4. <span data-ttu-id="6c6ad-144">انقر فوق "عرض الأبعاد".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-144">Click Display Dimensions.</span></span>
+5. <span data-ttu-id="6c6ad-145">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="6c6ad-145">Click OK.</span></span>
+6. <span data-ttu-id="6c6ad-146">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="6c6ad-146">Close the page.</span></span>
 
