@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
-ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
+ms.openlocfilehash: a7a6e0ef960d137a2897ef36bbd80380ed494281
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625319"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850842"
 ---
 # <a name="finance-and-operations-help-system"></a>نظام تعليمات Finance and Operations
 
@@ -99,7 +99,7 @@ ms.locfileid: "1625319"
 
 يمكنك المساهمة وإجراء التحريرات على وثائق Finance and Operations. للشروع في العمل، انقر فوق الزر **تحرير** (القلم الرصاص) في الموضوع أو انتقل إلى المستودع الخاص بنا في <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. يوضح الفيديو التالي كيف يمكنك المساهمة في وثائقنا.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 تم تضمين فيديو [كيفية المساهمة في وثائق Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (الموضح أعلاه) في [ما الجديد في قائمة تشغيل Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) المتوفر على YouTube.
 
