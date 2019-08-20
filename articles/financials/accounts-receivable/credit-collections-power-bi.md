@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702762"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835132"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>محتوى "إدارة التحصيلات والائتمان" في Power BI
 
@@ -72,4 +72,4 @@ ms.locfileid: "1702762"
 | حالة المجموعات          | <ul><li>متنازع عليه</li><li>تم مخالفة التعهد بالسداد</li><li>تعهد بالسداد</li><li>تفاصيل حالة التحصيلات</li><li>مبالغ حالة التحصيلات</li><li>الحالات المفتوحة</li><li>الأنشطة المفتوحة</li></ul> |
 | خطابات التحصيلات         | <ul><li>مبالغ كود التحصيل</li><li>تفاصيل مبلغ كود التحصيل</li><li>مبلغ خطاب التحصيل لكل شركة</li><li>مبلغ خطاب التحصيل لكل مجموعة العميل</li><li>مبلغ خطاب التحصيل حسب المنطقة</li></ul> |
 
-يمكنك تصفية المخططات والإطارات المتجانبة الموجودة على كافة هذه التقارير وتثبيتها بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). يمكنك أيضًا استخدام وظيفة تصدير البيانات الأساسية لتصدير البيانات الأساسية التي تم تلخيصها في المرئيات.
+يمكنك تصفية المخططات والإطارات المتجانبة الموجودة على كافة هذه التقارير وتثبيتها بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). يمكنك أيضًا استخدام وظيفة تصدير البيانات الأساسية لتصدير البيانات الأساسية التي تم تلخيصها في المرئيات.

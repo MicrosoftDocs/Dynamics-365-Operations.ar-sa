@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b1dcd6ad0ca05a94409d5d23039ccefe53392e3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555709"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836557"
 ---
 # <a name="set-up-credit-and-collections"></a>إعداد الائتمان وعمليات التحصيل
 
@@ -73,7 +73,7 @@ ms.locfileid: "1555709"
 قم بإعداد حساب الشطب الذي يستخدم لإدخال شطب دفتر الأستاذ العام عندما يتم شطب حركة. ويتم تخزين هذا الحساب في ملف تعريف ترحيل العميل.
 
 ## <a name="set-up-nsf-information-for-bank-accounts"></a>إعداد معلومات NSF لحسابات بنكية
-قم بتحديث الحسابات البنكية التحديث بحيث تشتمل على دفتر اليومية الصحيح عند تحديد مدفوعات NSF في صفحة **التحصيلات**. وفي علامة التبويب **إدارة العملة**، في **دفتر يومية مدفوعات NSF** ، حدد دفتر يومية مدفوعات.
+قم بتحديث الحسابات البنكية التحديث بحيث تشتمل على دفتر اليومية الصحيح عند تحديد مدفوعات NSF في صفحة **التحصيلات**. وفي علامة التبويب **إدارة العملة**، في **دفتر يومية مدفوعات NSF**، حدد دفتر يومية مدفوعات.
 
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>إعداد إعدادات Outlook لمستخدمي صفحة التحصيلات
 قبل أن يتمكن العاملون من إنشاء أنشطة أو إرسال رسائل إلكترونية عن طريق استخدام صفحة **التحصيلات‏‎**، يجب عليك التحقق من تحديد مفتاح تكوين **مزامنة Microsoft Outlook** ومن إعداد مزامنة Outlook لأولئك العاملين.

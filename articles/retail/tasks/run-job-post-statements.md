@@ -3,7 +3,7 @@ title: تكوين وتشغيل وظيفة لترحيل البيانات
 description: يتناول هذا الإجراء تكوين الوظيفة الدفعية المتكررة وتشغيلها لترحيل كشوف الحسابات لمتجر محدد أو مجموعة من المتاجر.
 author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 676216d90c50c0d3fa1a839cab7a734e624708ba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a24014f7e1b925e0fdb20b91bcc9594feb8f4c5c
+ms.sourcegitcommit: fc40279d0e56f8a43c601bca6265fdde4c8c4c7e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550106"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1792238"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>تكوين وتشغيل وظيفة لترحيل البيانات
 
@@ -31,11 +31,12 @@ ms.locfileid: "1550106"
 يتناول هذا الإجراء تكوين الوظيفة الدفعية المتكررة وتشغيلها لترحيل كشوف الحسابات لمتجر محدد أو مجموعة من المتاجر. ويستخدم هذا الإجراء شركة USRT في بيانات العرض التوضيحي.
 
 1. انتقل إلى كل مساحات العمل > .. > ماليات متجر البيع بالتجزئة.
-2. انقر فوق ترحيل كشوف الحسابات.
+2. انقر فوق "ترحيل الكشوف على دُفعات".
     * حدد تدرجًا هرميًا تنظيميًا ثم في شجرة عُقد المؤسسة‬، حدد عقدة أو مخزنًا فرديًا. حدد عقدة إذا أردت إنشاء وظيفة دفعية لمجموعة من المتاجر.  
     * انقر فوق السهم لإضافة التحديد الخاص بك.  
-3. انقر فوق علامة التبويب "‏‫تشغيل في الخلفية".
+3. انقر فوق علامة التبويب "تشغيل في الخلفية". ![تشغيل في الخلفية](../dev-itpro/media/runbackground.png "تشغيل في الخلفية") 
 4. حدد خانة الاختيار "معالجة الدُفعة" أو قم بإلغاء تحديدها.
+![معالجة الدُفعات‬](../dev-itpro/media/batchprocessing.png "معالجة وتكرار الدُفعات‬‏‎") 
 5. انقر فوق "تكرار".
 6. في الحقل "تاريخ البدء"، أدخل تاريخًا.
 7. في حقل "‏‫وقت البدء"، أدخل الوقت.

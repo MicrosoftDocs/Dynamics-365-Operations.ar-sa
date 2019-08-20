@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
-ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
+ms.openlocfilehash: 7a55c0a1ac8ac833315afa179c1b6d4eb78195fc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594950"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839193"
 ---
 # <a name="financial-reporting"></a>التقارير المالية
 
@@ -117,7 +117,7 @@ ms.locfileid: "1594950"
 من قائمة التقارير المالية، يمكنك إنشاء تقرير جديد أو تعديل تقرير موجود. إذا كانت لديك الأذونات المناسبة، يمكنك إنشاء تقرير مالي جديد بالنقر فوق **جديد** في "جزء الإجراءات". ويتم تنزيل برنامج مصمم التقارير لجهازك.‬ بعد بدء تشغيل مصمم التقارير، يمكنك إنشاء التقرير الجديد. وبعد حفظ التقرير الجديد، يظهر في قائمة التقارير المالية. وتعرض القائمة فقط التقارير التي تم إنشاؤها للشركة التي تقوم باستخدامها في Finance and Operations. 
 
 > [!NOTE] 
-> يجب أن يكون الإصدار 4.6.2 من Microsoft .NET Framework مثبتًا على الكمبيوتر الذي تقوم بتنزيل مصمم التقارير عليه. ويمكن تنزيل هذا الإصدار من Microsoft .NET ويمكن تنزيل هذا الإصدار من [مركز التنزيل لـ Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345). إذا كنت تستخدم Chrome، يجب تثبيت ملحق ClickOnce لتتمكن من تنزيل عميل مصمم التقارير. إذا كنت تستخدم وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي. كما يمكنك تعديل تقرير يظهر في قائمة التقارير المالية. وعند تحديد المنطقة المحيطة باسم التقرير، انقر فوق **تحرير** في "جزء الإجراءات". ويبدأ تشغيل برنامج مصمم التقارير.
+> يجب أن يكون الإصدار 4.6.2 من Microsoft .NET Framework مثبتًا على الكمبيوتر الذي تقوم بتنزيل مصمم التقارير عليه. ويمكن تنزيل هذا الإصدار من Microsoft .NET ويمكن تنزيل هذا الإصدار من [مركز التنزيل لـ Microsoft](https://www.microsoft.com/download/details.aspx?id=53345). إذا كنت تستخدم Chrome، يجب تثبيت ملحق ClickOnce لتتمكن من تنزيل عميل مصمم التقارير. إذا كنت تستخدم وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي. كما يمكنك تعديل تقرير يظهر في قائمة التقارير المالية. وعند تحديد المنطقة المحيطة باسم التقرير، انقر فوق **تحرير** في "جزء الإجراءات". ويبدأ تشغيل برنامج مصمم التقارير.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 - [عرض التقارير المالية](view-financial-reports.md)

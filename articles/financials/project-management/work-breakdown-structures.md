@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 068a811c3f1e7033e2625a99975652e0d6f1a139
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572340"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838213"
 ---
 # <a name="work-breakdown-structures"></a>هياكل تنظيم العمل
 
@@ -49,7 +49,7 @@ ms.locfileid: "1572340"
 لاستخدام إمكانيات الجدولة الكاملة لميزات WBS، أكمل الإعداد التالي:
 
 1.  قم بإعداد تقويم مشروع وتقويم افتراضي:
-    1.  انقر فوق **إدارة المشاريع‬ والمحاسبة** &gt; **الإعدادات** &gt; **محددات إدارة المشاريع‬ والمحاسبة** &gt; **الجدولة**. في حقل **تقويم العمل الافتراضي** ، حدد تقويمًا افتراضيًا. سيكون هذا تقويم العمل الافتراضي لأي مشروع جديد يتم إنشاؤه.
+    1.  انقر فوق **إدارة المشاريع‬ والمحاسبة** &gt; **الإعدادات** &gt; **محددات إدارة المشاريع‬ والمحاسبة** &gt; **الجدولة**. في حقل **تقويم العمل الافتراضي**، حدد تقويمًا افتراضيًا. سيكون هذا تقويم العمل الافتراضي لأي مشروع جديد يتم إنشاؤه.
     2.  يمكنك تغيير التقويم الافتراضي لمشروع محدد. انقر فوق صفحة تفاصيل المشروع، ثم، في لعامة التبويب السريعة **جدولة وفريق المشروع**، قم بتحديث حقل **تقويم الجدولة** بتحديد تقويم آخر.
 
 2.  إعداد أيام العمل وساعات العمل القياسية. سيتم استخدام التقويم الذي تقوم بتعيينه كتقويم عمل للمشروع في هيكل تنظيم العمل لتحديد المعلومات التالية:

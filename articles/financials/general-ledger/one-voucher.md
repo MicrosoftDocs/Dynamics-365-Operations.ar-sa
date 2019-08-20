@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3c3873991c33347c1358dc98381c6b5f4c6ce2aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553190"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846885"
 ---
 # <a name="one-voucher"></a>إيصال واحد
 
@@ -51,7 +51,7 @@ ms.locfileid: "1553190"
 
 ## <a name="issues-with-one-voucher"></a>المشكلات في إيصال واحد
 
-تؤدي وظيفة "الإيصال الواحد" إلى حدوث مشكلات أثناء التسوية، وحساب الضرائب وعكس الحركات وتسوية دفتر الأستاذ الفرعي إلى دفتر الأستاذ العام، وإعداد التقارير المالية، والمزيد. (للحصول على مزيد من المعلومات حول المشكلات التي تحدث أثناء إجراء التسوية، راجع، على سبيل المثال، [إيصال واحد مع سجلات متعددة العملاء أو الموردين](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) للعمل وإعداد التقارير بشكل صحيح، تتطلب هذه العمليات والتقارير تفاصيل الحركات. على الرغم من أن بعض السيناريوهات قد لا تعمل بشكل صحيح، استنادًا إلى إعداد المؤسسة، إلا أنه غالبًا ما تحدث مشكلات عند إدخال الحركات المتعددة في إيصال واحد.
+تؤدي وظيفة "الإيصال الواحد" إلى حدوث مشكلات أثناء التسوية، وحساب الضرائب وعكس الحركات وتسوية دفتر الأستاذ الفرعي إلى دفتر الأستاذ العام، وإعداد التقارير المالية، والمزيد. (للحصول على مزيد من المعلومات حول المشكلات التي تحدث أثناء إجراء التسوية، راجع، على سبيل المثال، [إيصال واحد مع سجلات متعددة العملاء أو الموردين](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) للعمل وإعداد التقارير بشكل صحيح، تتطلب هذه العمليات والتقارير تفاصيل الحركات. على الرغم من أن بعض السيناريوهات قد لا تعمل بشكل صحيح، استنادًا إلى إعداد المؤسسة، إلا أنه غالبًا ما تحدث مشكلات عند إدخال الحركات المتعددة في إيصال واحد.
 
 على سبيل المثال، تقوم بترحيل الإيصال متعدد البنود التالي.
 

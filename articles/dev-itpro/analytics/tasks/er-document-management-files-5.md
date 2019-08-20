@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23e91b6aee62157da9141cc7b6c4fae39c19ce32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ba9cc4dcdfcfbc1bdb933336e85da9b4b6d97a40
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544669"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791846"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format"></a>التقارير الإلكترونية - استخدام ملفات إدارة المستندات في مخرجات التنسيق‬ (الجزء 5: تعديل التنسيق وتشغيله)
 
@@ -68,7 +68,7 @@ ms.locfileid: "1544669"
 
 ## <a name="map-new-format-elements-to-data-model"></a>تعيين عناصر التنسيق الجديد إلى نموذج بيانات
 1. انقر فوق علامة التبويب "التعيين".
-2. في الشجرة ، قم بتوسيع "النموذج"
+2. في الشجرة، قم بتوسيع "النموذج"
 3. في الشجرة، قم بتوسيع "النموذج\مرفقات الفاتورة".
 4. في الشجرة، حدد "إخراج ملف Zip\ملف مرفق\Base64".
 5. في الشجرة، حدد "النموذج\مرفقات الفاتورة\محتوى الملف".

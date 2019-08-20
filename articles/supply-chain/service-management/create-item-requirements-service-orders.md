@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5a730ae945af15c7bd4020c734bac971d8186e2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc65393f74c6daa008e072cbe3745235fbfd896b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553405"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743295"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>إنشاء متطلبات صنف لأوامر الخدمة 
 
@@ -44,7 +44,7 @@ ms.locfileid: "1553405"
 
 3.  في **جزء الإجراءات**، بعلامة التبويب **إرسال**، انقر فوق **متطلب الصنف**.
 
-4.  في النموذج **متطلبات الصنف**، أدخل معلومات للصنف المطلوب. لمزيد من المعلومات حول حقول محددة، راجع [متطلبات الصنف (نموذج)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\)).
+4.  في النموذج **متطلبات الصنف**، أدخل معلومات للصنف المطلوب. لمزيد من المعلومات حول حقول محددة، راجع [متطلبات الصنف (نموذج)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>إنشاء متطلبات صنف لاتفاقية خدمة
 

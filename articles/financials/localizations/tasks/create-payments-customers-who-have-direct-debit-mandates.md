@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice, CustTableLookup, CustPostInvoiceJob, LedgerJournalTable, LedgerJournalTransCustPaym, SysQueryForm, CustPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6781ac38fff6344bfc9546c3ffd2253fb3ef712c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e1959904befc62c32a8da185729f13525db27d4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570020"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848912"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>إنشاء مدفوعات لعميل لديه ‏‫تفويضات الخصم المباشر‬
 
@@ -39,7 +39,7 @@ ms.locfileid: "1570020"
 
 
 ## <a name="post-a-free-text-invoice-with-direct-debit-information"></a>ترحيل فاتورة نص حر بمعلومات الخصم المباشر
-1. انتقل إلى الحسابات المدينة > الفواتير > جميع الفواتير بنص حر‬.
+1. انتقل إلى الحسابات المدينة > الفواتير > جميع الفواتير ذات نص حر‬.
 2. انقر فوق "جديد".
 3. في الحقل "حساب العميل"، أدخل قيمة أو حددها.
     * على سبيل المثال، حدد DE-010  

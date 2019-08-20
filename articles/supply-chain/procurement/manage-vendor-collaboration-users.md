@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555050"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742460"
 ---
 # <a name="manage-vendor-collaboration-users"></a>إدارة مستخدمي تعاون المورد‬
 
@@ -65,7 +65,7 @@ ms.locfileid: "1555050"
 4. في المقطع **تعيين أدوار المستخدم**، حدد خانة الاختيار **بتعيين** لأدوار الأمان التي يجب أن تكون لدى المستخدم الجديد.
 5. انقر فوق **تقديم**.
 
-عند إرسال طلب مستخدم مورد، يتم تعيين الحقل **السماح بالوصول إلى تعاون المورد** إلى **نعم** لحساب المورد المحدد ويبدأ تشغيل سير عمل طلب المستخدم. كجزء من سير العمل، يتم إنشاء مستخدم جديد في Finance and Operations، ويتم تعيين أدوار الأمان. علاوةً على ذلك، يتم تنشيط خدمة Azure B2B التي تبدأ التفاعل مع مدخل Azure وتقوم بإقران حساب AAD جديد أو موجود بحساب مستخدم Finance and Operations. للحصول على مزيد من المعلومات، راجع [ما هو تعاون Azure AD B2B?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+عند إرسال طلب مستخدم مورد، يتم تعيين الحقل **السماح بالوصول إلى تعاون المورد** إلى **نعم** لحساب المورد المحدد ويبدأ تشغيل سير عمل طلب المستخدم. كجزء من سير العمل، يتم إنشاء مستخدم جديد في Finance and Operations، ويتم تعيين أدوار الأمان. علاوةً على ذلك، يتم تنشيط خدمة Azure B2B التي تبدأ التفاعل مع مدخل Azure وتقوم بإقران حساب AAD جديد أو موجود بحساب مستخدم Finance and Operations. للحصول على مزيد من المعلومات، راجع [ما هو تعاون Azure AD B2B?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>إلغاء تنشيط مستخدم
 

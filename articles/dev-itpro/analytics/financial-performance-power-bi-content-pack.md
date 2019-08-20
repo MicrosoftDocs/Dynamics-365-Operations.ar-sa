@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35db2b51274afa6dae4cb5f75b4ba5390b167a49
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553942"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849571"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>حل محتوى PowerBI.com للأداء المالي
 
@@ -70,7 +70,7 @@ ms.locfileid: "1553942"
 | تحليل المصروفات            | إجمالي المصروفات، الفعلية إلى إجمالي مصروفات الموازنة حسب الكيان القانوني، وإجمالي المصروفات الفعلية وإجمالي مصروفات الموازنة حسب ربع السنة، وإجمالي المصروفات حسب فئة الحساب ونسبة مصروفات التشغيل |
 | تحليل الإيرادات المفوترة     | إجمالي الحسابات المدينة، وإجمالي الحسابات المدينة حسب الكيان القانوني، وإجمالي الحسابات المدينة حسب ربع السنة، وأرصدة الحسابات للحسابات المدينة<blockquote>[!NOTE] لا تتضمن المعلومات أرصدة البداية لحسابات دفتر الأستاذ للحسابات المدينة. إنها تظهر إجمالي الحركات الجديدة المُرحلة إلى الحسابات المدينة.</blockquote> |
 
-يمكنك تصفية المخططات والإطارات المتجانبة الموجودة على كافة هذه التقارير وتثبيتها بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+يمكنك تصفية المخططات والإطارات المتجانبة الموجودة على كافة هذه التقارير وتثبيتها بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 تم استخدام الكيانات التالية كأساس لحل PowerBI.com **للأداء المالي**

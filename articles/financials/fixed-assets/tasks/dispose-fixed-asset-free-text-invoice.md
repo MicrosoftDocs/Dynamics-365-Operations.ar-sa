@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c58cef0609c8f931eace13ee0dec89f3eee7fed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 26446df21a3b55abcdd5f163ae84f8e35d853965
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561050"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846981"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>التخلص من أصل ثابت باستخدام فاتورة نص حر
 
@@ -29,7 +29,7 @@ ms.locfileid: "1561050"
 
 يوضح هذا الإجراء كيفية التخلص من أصل ثابت باستخدام فاتورة نص حر.
 
-1. انتقل إلى الحسابات المدينة > الفواتير > جميع الفواتير بنص حر‬.
+1. انتقل إلى الحسابات المدينة > الفواتير > جميع الفواتير ذات نص حر‬.
 2. انقر فوق "جديد".
 3. في الحقل "حساب العميل"، أدخل قيمة أو حددها.
 4. تحقق من صحة تاريخ الفاتورة الافتراضي وتحريره إذا كان ذلك ممكنًا.

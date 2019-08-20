@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85cb5c5618346f1e5132f818911be21df86fbfcb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554980"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741100"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>فتح كيان بيانات في Excel وتحديثه باستخدام الوظيفة الإضافية لبرنامج Excel
 
@@ -60,7 +60,7 @@ ms.locfileid: "1554980"
 
 6. حدد **موافق**، ثم حدد **نعم** لتأكيد التغيير. يبدأ تشغيل وظيفة Excel الإضافية من جديد وتقوم بتحميل بيانات التعريف.
 
-    يتوفر الآن الزر **تصميم**. إذا تضمنت وظيفة Excel الإضافية الزر **تحميل البرامج‬**، فهذا يعني على الأرجح أنك لم تسجل دخولك كمستخدم صحيح. لمزيد من المعلومات، راجع "ظهور زر تحميل البرامج" في قسم [استكشاف الأخطاء وإصلاحها](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) في هذا الموضوع.
+    يتوفر الآن الزر **تصميم**. إذا تضمنت وظيفة Excel الإضافية الزر **تحميل البرامج‬**، فهذا يعني على الأرجح أنك لم تسجل دخولك كمستخدم صحيح. لمزيد من المعلومات، راجع "ظهور زر تحميل البرامج" في قسم [استكشاف الأخطاء وإصلاحها](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) في هذا الموضوع.
 
 7. حدد **تصميم**. تقوم وظيفة Excel الإضافية باسترداد بيانات تعريف الكيان.
 8. حدد **إضافة جدول**. تظهر قائمة بالكيانات. تكون الكيانات مدرجة بصيغة "الاسم - التسمية".

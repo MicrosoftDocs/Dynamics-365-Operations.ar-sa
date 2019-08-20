@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0f7d63fa0566cfc2a23b3228d687d7f85d848c9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549573"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840735"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>تقرير سجل نشاط الأصول الثابتة
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549573"
 
 يوفر تقرير **سجل نشاط الأصول الثابتة**‬، بيانات الأصول الثابتة المفصلة التي تحتاج إليها لإقفال الفترة والقوائم المالية وإعداد تقارير الضرائب بتنسيق Microsoft Excel سهل قراءة. يتضمن التقرير أرصدة البدء والانتهاء للأصول الثابتة، إلى جانب حركات التقييم للفترة، وأي عمليات الاستحواذ على الأصول جديدة وعمليات التخلص التي حدثت أثناء هذه الفترة. يتم الإبلاغ عن بيانات الأصول الثابتة الفردية، كما يتم تلخيص القيم لمجموعات الأصول الثابتة والكيان القانوني.
 
-يستخدم تقرير **سجل نشاط الأصول الثابتة‬** إطار عمل إعداد التقارير الإلكتروني (ER). قبل أن تتمكن من تشغيل التقرير، يجب استيراد تكوينات سجل نشاط الأصول الثابتة‬ ونموذج الأصول الثابتة من Microsoft Dynamics Lifecycle Services (LCS). للمزيد من التعليمات، راجع [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+يستخدم تقرير **سجل نشاط الأصول الثابتة‬** إطار عمل إعداد التقارير الإلكتروني (ER). قبل أن تتمكن من تشغيل التقرير، يجب استيراد تكوينات سجل نشاط الأصول الثابتة‬ ونموذج الأصول الثابتة من Microsoft Dynamics Lifecycle Services (LCS). للمزيد من التعليمات، راجع [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 يتوافر هذا التقرير في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 أو كإصلاح عاجل لتطبيق Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (يوليو 2017). يجب تطبيق الإصلاحات العاجلة الثلاثة على البيئات التي تشتمل على إصدار يوليو 2017:
 

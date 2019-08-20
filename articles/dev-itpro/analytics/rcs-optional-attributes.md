@@ -1,5 +1,5 @@
 ---
-title: إعداد بيانات تعريف خاصة بالتطبيق لـ RCS وER
+title: استيراد ملفات بتنسيق XML مع سمات اختيارية
 description: يوفر هذا الموضوع معلومات حول تصميم تنسيقات ER التي تحدد سمات XML لتحليل المستندات الإلكترونية الواردة بتنسيق XML.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726565"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849985"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>إعداد بيانات تعريف خاصة بالتطبيق لـ RCS وER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>استيراد ملفات بتنسيق XML مع سمات اختيارية
 
 يمكنك تصميم تنسيقات إعداد التقارير الإلكترونية (ER) لتحليل المستندات الإلكترونية الواردة بتنسيق XML. يمكن تحديد سمات معينة لعناصر XML بتنسيق ER مصمم كخيار اختياري. سيسمح لك ذلك بمعالجة الملفات الواردة باستخدام سمات XML هذه ومن دونها بشكل صحيح. يمكنك بعد ذلك استخدام المحتوى من هذه الملفات لتحديث بيانات التطبيق.
 
@@ -101,7 +101,7 @@ ms.locfileid: "1726565"
 9.  في الشجرة، حدد **format\root: XML Element(root)\document: XML Element 1..* (المستند)**.
 10. انقر فوق **ربط**.
 11. في الشجرة، وسَّع **format\root: XML Element(root)\document: XML Element 1..* (المستند)**.
-12. في الشجرة، حدد **format\root: XML Element(root)\document: XML Element 1..* (المستند)\المعرف**.
+12. في الشجرة، حدد **format\root: XML Element(root)\document: XML Element 1..* (المستند)\معرف**.
 13. في الشجرة، وسّع **القائمة = format.root.document**.
 14. في الشجرة، حدد **القائمة = format.root.document\Code**.
 15. انقر فوق **ربط**.

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e31994ea3cd73dcc749a02ce2cd0815be191a567
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554611"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742391"
 ---
 # <a name="prospect-to-cash"></a>العميل المتوقع إلى النقدية
 
@@ -81,4 +81,4 @@ ms.locfileid: "1554611"
 لاستخدام حل العميل المتوقع للنقدية، يجب تثبيت المكونات التالية:
 
 - Dynamics 365 for Sales الإصدار 1612 (8.2.1.207) (DB 8.2.1.207) عبر الإنترنت أو إصدار لاحق
-- حل العميل المتوقع إلى النقدية لتطبيق Dynamics 365 for Sales، الإصدار 1.15.0.0 أو إصدار لاحق. الحل متوفر للتنزيل من AppSource. [تنزيل Dynamics 365، عميل متوقع إلى النقد](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+- حل العميل المتوقع إلى النقدية لتطبيق Dynamics 365 for Sales، الإصدار 1.15.0.0 أو إصدار لاحق. الحل متوفر للتنزيل من AppSource. [تنزيل Dynamics 365، عميل متوقع إلى النقد](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

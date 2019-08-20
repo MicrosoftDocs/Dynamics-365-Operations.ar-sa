@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: d9c1b41cd78eada90f83e53fc15953d268747dd2
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595329"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848461"
 ---
 # <a name="column-definitions-in-financial-reports"></a>تعريفات الأعمدة في التقارير المالية
 
@@ -148,7 +148,7 @@ ms.locfileid: "1595329"
 1. في "مصمم التقارير"، افتح تعريف العمود المراد تعديله.
 2. انقر نقرًا مزدوجًا فوق خلية رأس.
 3. في مربع حوار **رأس العمود**، أدخل نص رأس العمود. وبدلاً من ذلك، انقر فوق **إدراج نص تلقائي**، وحدد خياراً.
-4. في حقل **خيارات تنسيق** ، حدد تنسيقاً للرأس.
+4. في حقل **خيارات تنسيق**، حدد تنسيقاً للرأس.
 5. في حقل **الانتشار من**، أدخل حرف العمود الذي يجب أن يبدأ رأس العمود به. في حقل **الانتشار إلى**، أدخل حرف العمود الذي يجب أن ينتهي رأس العمود به.
 6. ضمن **ضبط**، حدد ما إذا كان نص رأس العمود يجب أن يكون مضبوطًا إلى اليسار، أو مضبوطًا إلى اليمين.
 7. وانقر فوق **موافق**.

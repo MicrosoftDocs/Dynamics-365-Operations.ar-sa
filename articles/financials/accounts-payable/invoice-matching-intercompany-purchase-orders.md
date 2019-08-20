@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22d6352f179919666d39df816f04bab340017dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: aaa4a08f65e4a3452782cf2b928464dff27ed59b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509171"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837290"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة
 
 [!include [banner](../includes/banner.md)]
 
-قد يتم إعداد الكيان القانوني المشتري المعني بحركة تجارية بين شركات شقيقة لاستخدام مطابقة فواتير الحسابات الدائنة. في هذه الحالة، يجب تلبية متطلبات الترحيل لكل من مطابقة فواتير الحركات التجارية بين الشركات الشقيقة ومطابقة فواتير الحسابات الدائنة قبل ترحيل فواتير المورّد المشتركة بين الشركات الشقيقة.
+قد يتم إعداد الكيان القانوني المشتري المعني بحركة تجارية بين شركات شقيقة لاستخدام مطابقة فواتير الحسابات الدائنة. عند تعيين الحقل **ترحيل الفاتورة التي بها اختلافات** في النموذج **محددات الحسابات الدائنة‬** إلى **طلب الموافقة**، سيتم تنفيذ التحقق من صحة مطابقة الفاتورة. في هذه الحالة، يجب تلبية متطلبات الترحيل لكل من مطابقة فواتير الحركات التجارية بين الشركات الشقيقة ومطابقة فواتير الحسابات الدائنة قبل ترحيل فواتير المورّد المشتركة بين الشركات الشقيقة.
 
 تستخدم الأمثلة في هذا الموضوع الإعداد التالي للمتاجرة بين الشركات الشقيقة:
 -   شركة الاتحاد للتصنيع عبارة عن الكيان القانوني الذي يقوم بالشراء.

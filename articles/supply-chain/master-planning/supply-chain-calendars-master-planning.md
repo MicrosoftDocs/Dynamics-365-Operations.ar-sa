@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
-ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
+ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538716"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845272"
 ---
 # <a name="calendars-and-master-planning"></a>التقويمات والتخطيط الرئيسي
 
@@ -93,7 +93,7 @@ ms.locfileid: "1538716"
 
 لاحظ أنه من يمكن تضمين تقويم واحد فقط لكل عميل. إذا أردت تضمين تقويم لكل عنوان مختلف من عناوين أحد العملاء، فيمكنك إنشاء عميل واحد لكل عنوان ثم تعيين تقويمه الخاص. 
 
-يتأثر تاريخ الاستلام المطلوب في بنود أمر المبيعات بتقويم العميل وبطريقة التحكم في تاريخ التسليم. يمكنك قراءة المزيد حول كيفية احتساب تاريخ التسليم الأبكر في [التعهد بالأمر.](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+يتأثر تاريخ الاستلام المطلوب في بنود أمر المبيعات بتقويم العميل وبطريقة التحكم في تاريخ التسليم. يمكنك قراءة المزيد حول كيفية احتساب تاريخ التسليم الأبكر في [التعهد بالأمر.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>تقويم الشحن لكيان قانوني
 للإشارة إلى التواريخ التي يمكن فيها لكيان قانوني شحن البضائع، يمكنك إعداد تقويم شحن ضمن **إدارة المؤسسة > المؤسسات > الكيانات القانونية**. حدد الكيان القانوني وأضف التقويم في علامة التبويب **التجارة الخارجية واللوجستيات** في الحقل **تقويم الشحن**. سوف يعمل تقويم كمصدر للإعدادات الافتراضية لكافة تقويمات المستودع في الكيان القانوني. 

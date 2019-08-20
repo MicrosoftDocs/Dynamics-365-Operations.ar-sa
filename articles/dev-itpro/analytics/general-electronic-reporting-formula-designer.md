@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
-ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
+ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625862"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849499"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>مصمم المعادلات في التقارير الإلكترونية
 
@@ -215,12 +215,12 @@ ms.locfileid: "1625862"
 | TODAY () | تُرجع تاريخ خادم تطبيق Finance and Operations الحالي كقيمة تاريخ. | |
 | NULLDATE () | إرجاع قيمة تاريخ **فارغة**. | |
 | NULLDATETIME () | إرجاع قيمة وقت/تاريخ **فارغة**. | |
-| DATETIMEFORMAT (التاريخ والوقت، التنسيق) | تحويل قيمة التاريخ/الوقت المحددة إلى سلسلة بالتنسيق المحدد. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** ترجع المعادلة تاريخ خادم تطبيق Finance and Operations الحالي، وهو 24 ديسمبر 2015، على الشكل التالي **"24-12-2015‏‏‏‏"‏‏**، وفقًا للتنسيق المخصص المحدد. |
-| DATETIMEFORMAT (التاريخ والوقت، التنسيق، الثقافة) | تحويل قيمة التاريخ/الوقت المحددة إلى سلسلة بالتنسيق [والثقافة](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) المحددة.  (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | تُرجع المعادلة **DATETIMEFORMAT (NOW(), "d", "de")** تاريخ خادم تطبيق Finance and Operations الحالي، 24 ديسمبر 2015، على الشكل **"24.12.2015"**، وفقًا للثقافة الألمانية المحددة. |
+| DATETIMEFORMAT (التاريخ والوقت، التنسيق) | تحويل قيمة التاريخ/الوقت المحددة إلى سلسلة بالتنسيق المحدد. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** ترجع المعادلة تاريخ خادم تطبيق Finance and Operations الحالي، وهو 24 ديسمبر 2015، على الشكل التالي **"24-12-2015‏‏‏‏"‏‏**، وفقًا للتنسيق المخصص المحدد. |
+| DATETIMEFORMAT (التاريخ والوقت، التنسيق، الثقافة) | تحويل قيمة التاريخ/الوقت المحددة إلى سلسلة بالتنسيق [والثقافة](https://msdn.microsoft.com/goglobal/bb896001.aspx) المحددة.  (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | تُرجع المعادلة **DATETIMEFORMAT (NOW(), "d", "de")** تاريخ خادم تطبيق Finance and Operations الحالي، 24 ديسمبر 2015، على الشكل **"24.12.2015"**، وفقًا للثقافة الألمانية المحددة. |
 | SESSIONTODAY () | تُرجع تاريخ جلسة عمل Finance and Operations الحالية كقيمة تاريخ. | |
 | SESSIONNOW () | تُرجع تاريخ ووقت جلسة عمل Finance and Operations الحالية كقيمة تاريخ/وقت. | |
 | DATEFORMAT (التاريخ، التنسيق) | إرجاع تمثيل السلسلة للتاريخ المحدد بالتنسيق المحدد. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** ترجع المعادلة تاريخ جلسة عمل Finance and Operations الحالية، وهو 24 ديسمبر 2015، على الشكل التالي **"24-12-2015‏‏‏‏"‏‏**، وفقًا للتنسيق المخصص المحدد. |
-| DATEFORMAT (التاريخ، التنسيق، الثقافة) | تحويل قيمة التاريخ المحددة إلى سلسلة بالتنسيق [والثقافة](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) المحددة. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** تُرحع جلسة عمل Finance and Operations الحالية، 24 ديسمبر 2015، على الشكل **"24.12.2015"**، وفقًا للثقافة الألمانية المحددة. |
+| DATEFORMAT (التاريخ، التنسيق، الثقافة) | تحويل قيمة التاريخ المحددة إلى سلسلة بالتنسيق [والثقافة](https://msdn.microsoft.com/goglobal/bb896001.aspx) المحددة. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) و[مخصص](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** تُرحع جلسة عمل Finance and Operations الحالية، 24 ديسمبر 2015، على الشكل **"24.12.2015"**، وفقًا للثقافة الألمانية المحددة. |
 | DAYOFYEAR (التاريخ) | إرجاع تمثيل عدد صحيح لعدد الأيام من 1 يناير إلى التاريخ المحدد. | تُرجع المعادلة **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** القيمة **61**. تُرجع المعادلة **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** القيمة **1**. |
 | أيام (تاريخ 1، تاريخ 2) | إرجاع عدد الأيام بين التاريخ المحدد الأول والتاريخ المحدد الثاني. إرجاع قيمة موجبة إذا كان التاريخ الأول لاحقًا للتاريخ الثاني أو إرجاع **0** (صفر) عند يساوي التاريخ الأول التاريخ الثاني أو إرجاع قيمة سالبة بدلاً عندما يكون التاريخ الأول سابقًا للتاريخ الثاني. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** تُرجع **-1**. |
 
@@ -649,12 +649,12 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>NUMBERFORMAT (رقم، تنسيق)</td>
-<td>إرجاع تمثيل سلسلة للرقم المحدد بالتنسيق المحدد. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">القياسي</a> و <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">المخصص</a>.) يحدد السياق الذي تُشغل فيه الوظيفة الثقافة التي يتم استخدامها لتنسيق الأرقام.</td>
+<td>إرجاع تمثيل سلسلة للرقم المحدد بالتنسيق المحدد. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع <a href="https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx">القياسي</a> و <a href="https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx">المخصص</a>.) يحدد السياق الذي تُشغل فيه الوظيفة الثقافة التي يتم استخدامها لتنسيق الأرقام.</td>
 <td>لثقافة EN-US، ترجع <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> النتيجة <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> ترجع <strong>&quot;10&quot;</strong>.</td>
 </tr>
 <tr>
 <td>NUMBERFORMAT (رقم، تنسيق، ثقافة)</td>
-<td>إرجاع تمثيل السلسلة للرقم المحدد في التنسيق المحدد والثقافة المعينة. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">قياسي</a> و<a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">مخصص</a>).</td>
+<td>إرجاع تمثيل السلسلة للرقم المحدد في التنسيق المحدد والثقافة المعينة. (لمزيد من المعلومات حول التنسيقات المعتمدة، راجع <a href="https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings">قياسي</a> و<a href="https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings">مخصص</a>).</td>
 <td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> يعرض <strong>3,33</strong> بينما <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> يعرض <strong>3.33</strong>.</td>
 </tr>
 <tr>

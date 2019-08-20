@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561452"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846017"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة عقود المشاريع والمشاريع مباشرةً من Project Service Automation إلى Finance and Operations
 
@@ -83,19 +83,19 @@ ms.locfileid: "1561452"
 
 يتوفر حقل **مُعرف عقد المشروع** في صفحة **عقود المشروع** . أنشأ هذا الحقل مفتاح طبيعي وفريد لدعم التكامل.
 
-عند إنشاء حساب جديد، إذا لم تكن قيمة **مُعرف عقد المشروع** موجودة مسبقًا، فسيتم إنشاؤها تلقائيًا باستخدام تسلسل رقمي. تتكون القيمة من **ORD** ، يليه تسلسل رقمي متزايد ثم لاحقة من ستة أحرف. وفيما يلي مثال على ذلك: **ORD-01022-Z4M9Q0**.
+عند إنشاء حساب جديد، إذا لم تكن قيمة **مُعرف عقد المشروع** موجودة مسبقًا، فسيتم إنشاؤها تلقائيًا باستخدام تسلسل رقمي. تتكون القيمة من **ORD**، يليه تسلسل رقمي متزايد ثم لاحقة من ستة أحرف. وفيما يلي مثال على ذلك: **ORD-01022-Z4M9Q0**.
 
 يتوفر حقل **رقم المشروع** في صفحة **المشاريع**. أنشأ هذا الحقل مفتاح طبيعي وفريد لدعم التكامل.
 
-عند إنشاء مشروع جديد، إذا لم تكن قيمة **رقم المشروع** موجودة مسبقًا، فسيتم إنشاؤها تلقائيًا باستخدام تسلسل رقمي. تتكون القيمة من **PRJ** ، يليه تسلسل رقمي متزايد ثم لاحقة من ستة أحرف. وفيما يلي مثال على ذلك: **PRJ-01049-CCNID0**.
+عند إنشاء مشروع جديد، إذا لم تكن قيمة **رقم المشروع** موجودة مسبقًا، فسيتم إنشاؤها تلقائيًا باستخدام تسلسل رقمي. تتكون القيمة من **PRJ**، يليه تسلسل رقمي متزايد ثم لاحقة من ستة أحرف. وفيما يلي مثال على ذلك: **PRJ-01049-CCNID0**.
 
-عند تطبيق حل تكامل Project Service Automation إلى Finance and Operations integration <TO DO: link in the top level document link where we will be adding the instructions for applying the PSA solution> ، يقوم برنامج نصي للترقية بتعيين حقل **مُعرف عقد المشروع** لعقود المشروعات الحالية وحقل **رقم المشروع** للمشاريع الموجودة في Project Service Automation.
+عند تطبيق حل تكامل Project Service Automation إلى Finance and Operations integration <TO DO: link in the top level document link where we will be adding the instructions for applying the PSA solution>، يقوم برنامج نصي للترقية بتعيين حقل **مُعرف عقد المشروع** لعقود المشروعات الحالية وحقل **رقم المشروع** للمشاريع الموجودة في Project Service Automation.
 
 ## <a name="prerequisites-and-mapping-setup"></a>المتطلبات الأساسية وإعداد التعيين
 
 - قبل القيام بمزامنة عقود المشاريع والمشروعات، يجب عليك مزامنة الحسابات.
-- في مجموعة الاتصال الخاصة بك، قم بإضافة تعيين حقل مفتاح التكامل لـ **msdyn\_‎organizationalunits** إلى **msdyn\_ name\[Name\]**. قد تحتاج أولًا إلى إضافة مشروع إلى مجموعة الاتصال. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- في مجموعة الاتصال الخاصة بك، قم بإضافة تعيين حقل مفتاح التكامل لـ **msdyn\_‎projects‎** إلى **msdyn\_ projectnumber\[Project Number\]**. قد تحتاج أولًا إلى إضافة مشروع إلى مجموعة الاتصال. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- في مجموعة الاتصال الخاصة بك، قم بإضافة تعيين حقل مفتاح التكامل لـ **msdyn\_‎organizationalunits** إلى **msdyn\_ name\[Name\]**. قد تحتاج أولًا إلى إضافة مشروع إلى مجموعة الاتصال. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- في مجموعة الاتصال الخاصة بك، قم بإضافة تعيين حقل مفتاح التكامل لـ **msdyn\_‎projects‎** إلى **msdyn\_ projectnumber\[Project Number\]**. قد تحتاج أولًا إلى إضافة مشروع إلى مجموعة الاتصال. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** لعقود المشاريع والمشاريع يمكن تحديثه إلى قيمة مختلفة أو إزالته من التعيين. قيمة القالب الافتراضي هي **Project Service Automation**.
 - يجب تحديث **PaymentTerms** بحيث يعكس شروط الدفع الصالحة في Finance and Operations. يمكنك أيضًا إزالة التعيين من مهمة المشروع. يحتوي تعيين القيمة الافتراضية على قيم افتراضية لبيانات عرض توضيحي. يعرض الجدول التالي القيم في Project Service Automation.
 
