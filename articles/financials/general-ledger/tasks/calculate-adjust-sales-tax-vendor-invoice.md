@@ -1,52 +1,46 @@
 ---
 title: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
-description: إذا كان المستند المصدر الأصلي يعرض مبالغ ضريبة مختلفة كما تم حسابها، فيمكنك تعديل هذه المبالغ قبل الترحيل.
+description: يشرح هذا الموضوع كيفية ضبط ضريبة المبيعات على فاتورة مورد في Dynamics 365 for Finance and Operations.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 803c038d907b68a3c72a83a3e035c4e08b8a8661
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 684529087d5348c9e02310f812f8aa6f64c6655f
+ms.sourcegitcommit: 016832198c306e8329ad21b5254e7d1cdff74c2f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545161"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862604"
 ---
-# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a><span data-ttu-id="89bb4-103">حساب وتعديل ضريبة المبيعات في فاتورة المورّد</span><span class="sxs-lookup"><span data-stu-id="89bb4-103">Calculate and adjust sales tax on a vendor invoice</span></span>
+# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a><span data-ttu-id="1382f-103">حساب وتعديل ضريبة المبيعات في فاتورة المورّد</span><span class="sxs-lookup"><span data-stu-id="1382f-103">Calculate and adjust sales tax on a vendor invoice</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="89bb4-104">إذا كان المستند المصدر الأصلي يعرض مبالغ ضريبة مختلفة كما تم حسابها، فيمكنك تعديل هذه المبالغ قبل الترحيل.</span><span class="sxs-lookup"><span data-stu-id="89bb4-104">If the original source document displays different tax amounts as calculated, you can adjust those amounts before posting.</span></span> <span data-ttu-id="89bb4-105">تستخدم هذه المهمة شركة بيانات العرض التوضيحي DEMF.</span><span class="sxs-lookup"><span data-stu-id="89bb4-105">This task uses the DEMF demo company.</span></span>
+<span data-ttu-id="1382f-104">يشرح هذا الموضوع كيفية ضبط ضريبة المبيعات على فاتورة مورد في Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1382f-104">This topic explains how to adjust sales tax on a vendor invoice in Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="1382f-105">إذا كان المستند المصدر الأصلي يعرض مبالغ ضريبة مختلفة كما تم حسابها، فيمكنك تعديل هذه المبالغ قبل الترحيل.</span><span class="sxs-lookup"><span data-stu-id="1382f-105">If the original source document displays different tax amounts as calculated, you can adjust those amounts before posting.</span></span> <span data-ttu-id="1382f-106">تستخدم هذه المهمة شركة بيانات العرض التوضيحي DEMF.</span><span class="sxs-lookup"><span data-stu-id="1382f-106">This task uses the DEMF demo company.</span></span>
 
-1. <span data-ttu-id="89bb4-106">انتقل إلى الحسابات الدائنة > الفواتير > دفتر يومية الفواتير‬.</span><span class="sxs-lookup"><span data-stu-id="89bb4-106">Go to Accounts payable > Invoices > Invoice journal.</span></span>
-2. <span data-ttu-id="89bb4-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="89bb4-107">Click New.</span></span>
-3. <span data-ttu-id="89bb4-108">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="89bb4-108">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="89bb4-109">في الحقل "الاسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="89bb4-109">In the Name field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="89bb4-110">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="89bb4-110">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="89bb4-111">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="89bb4-111">Click Lines.</span></span>
-7. <span data-ttu-id="89bb4-112">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="89bb4-112">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="89bb4-113">في حقل "الحساب"، حدد القيم المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="89bb4-113">In the Account field, specify the desired values.</span></span>
-9. <span data-ttu-id="89bb4-114">في الحقل "الفاتورة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="89bb4-114">In the Invoice field, type a value.</span></span>
-10. <span data-ttu-id="89bb4-115">في الحقل "دائن"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="89bb4-115">In the Credit field, enter a number.</span></span>
-11. <span data-ttu-id="89bb4-116">في الحقل "حساب مقابل"، حدد القيم المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="89bb4-116">In the Offset account field, specify the desired values.</span></span>
-12. <span data-ttu-id="89bb4-117">انقر فوق "ضريبة المبيعات".</span><span class="sxs-lookup"><span data-stu-id="89bb4-117">Click Sales tax.</span></span>
-13. <span data-ttu-id="89bb4-118">في الحقل "المبلغ الإجمالي الفعلي لضريبة المبيعات‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="89bb4-118">In the Total actual sales tax amount field, enter a number.</span></span>
-14. <span data-ttu-id="89bb4-119">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="89bb4-119">Click OK.</span></span>
-15. <span data-ttu-id="89bb4-120">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="89bb4-120">Click Save.</span></span>
-16. <span data-ttu-id="89bb4-121">انقر فوق "ضريبة المبيعات".</span><span class="sxs-lookup"><span data-stu-id="89bb4-121">Click Sales tax.</span></span>
-17. <span data-ttu-id="89bb4-122">ضمن علامة التبويب "تسوية"، يمكن تعديل مبالغ ضريبة المبيعات لكل كل كود ضريبة مبيعات.</span><span class="sxs-lookup"><span data-stu-id="89bb4-122">On the Adjustment tab, the sales tax amounts can be adjusted per sales tax code.</span></span>
-18. <span data-ttu-id="89bb4-123">انقر فوق "إعادة تعيين القيمة الفعلية من المبالغ المحسوبة‬".</span><span class="sxs-lookup"><span data-stu-id="89bb4-123">Click Reset actual from calculated amounts.</span></span>
-19. <span data-ttu-id="89bb4-124">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="89bb4-124">Click OK.</span></span>
-20. <span data-ttu-id="89bb4-125">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="89bb4-125">Click Save.</span></span>
+1. <span data-ttu-id="1382f-107">في جزء التنقل، انتقل إلى **الوحدات النمطية > الحسابات الدائنة > الفواتير > دفتر يومية الفواتير**.</span><span class="sxs-lookup"><span data-stu-id="1382f-107">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice journal**.</span></span>
+2. <span data-ttu-id="1382f-108">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="1382f-108">Select **New**.</span></span>
+3. <span data-ttu-id="1382f-109">في حقل **الاسم** للصف الجديد، حدد خيارًا في القائمة المنسدلة.</span><span class="sxs-lookup"><span data-stu-id="1382f-109">In the **Name** field of the new row, select an option in the drop-down menu.</span></span>
+4. <span data-ttu-id="1382f-110">في جزء الإجراءات، حدد **البنود**.</span><span class="sxs-lookup"><span data-stu-id="1382f-110">In the Action Pane, select **Lines**.</span></span>
+5. <span data-ttu-id="1382f-111">في حقل **الحساب**، حدد القيم المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="1382f-111">In the **Account** field, specify the desired values.</span></span>
+6. <span data-ttu-id="1382f-112">في حقل **الفاتورة**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="1382f-112">In the **Invoice** field, type a value.</span></span>
+7. <span data-ttu-id="1382f-113">في الحقل **دائن**، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="1382f-113">In the **Credit** field, enter a number.</span></span>
+8. <span data-ttu-id="1382f-114">في الحقل **حساب مقابل**، حدد القيم المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="1382f-114">In the **Offset account** field, specify the desired values.</span></span>
+9. <span data-ttu-id="1382f-115">حدد **ضريبة المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="1382f-115">Select **Sales tax**.</span></span>
+10. <span data-ttu-id="1382f-116">في حقل، **المبلغ الإجمالي الفعلي لضريبة المبيعات**، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="1382f-116">In the **Total actual sales tax amount** field, enter a number.</span></span>
+11. <span data-ttu-id="1382f-117">على علامة التبويب **تسوية**، يمكن تعديل مبالغ ضريبة المبيعات حسب كل كود ضريبة مبيعات.</span><span class="sxs-lookup"><span data-stu-id="1382f-117">On the **Adjustment** tab, the sales tax amounts can be adjusted per sales tax code.</span></span>
+12. <span data-ttu-id="1382f-118">حدد **إعادة تعيين القيمة الفعلية من المبالغ المحسوبة**.</span><span class="sxs-lookup"><span data-stu-id="1382f-118">Select **Reset actual from calculated amounts**.</span></span>
+13. <span data-ttu-id="1382f-119">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="1382f-119">Select **OK**.</span></span>
+14. <span data-ttu-id="1382f-120">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="1382f-120">Select **Save**.</span></span>
 

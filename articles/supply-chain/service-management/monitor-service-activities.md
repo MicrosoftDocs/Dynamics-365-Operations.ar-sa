@@ -18,44 +18,44 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81994343acf5d99e9cfc1f6253c65aa7260822d7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1beab38f04e153e81a365c813d9a1af347a73b80
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562336"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742299"
 ---
-# <a name="monitor-service-activities"></a><span data-ttu-id="d5c47-103">أنشطة خدمة المراقبة</span><span class="sxs-lookup"><span data-stu-id="d5c47-103">Monitor service activities</span></span> 
+# <a name="monitor-service-activities"></a><span data-ttu-id="d4d38-103">أنشطة خدمة المراقبة</span><span class="sxs-lookup"><span data-stu-id="d4d38-103">Monitor service activities</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="d5c47-104">يتيح نموذج **لوحة الإرسال** إمكانية التحديث في لمح البصر لحالة أنشطة الخدمات المجدولة المتنوعة، كما يزودك بأدوات لتعقب تدفق أوامر الخدمات العام في الشركة لديك.</span><span class="sxs-lookup"><span data-stu-id="d5c47-104">The **Dispatch board** form provides an at-a-glance status update for the various scheduled service activities, and tools for tracking the general flow of service orders in your company.</span></span>
+<span data-ttu-id="d4d38-104">يتيح نموذج **لوحة الإرسال** إمكانية التحديث في لمح البصر لحالة أنشطة الخدمات المجدولة المتنوعة، كما يزودك بأدوات لتعقب تدفق أوامر الخدمات العام في الشركة لديك.</span><span class="sxs-lookup"><span data-stu-id="d4d38-104">The **Dispatch board** form provides an at-a-glance status update for the various scheduled service activities, and tools for tracking the general flow of service orders in your company.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="d5c47-105">لعرض تفاصيل حول نشاط خدمة، قم بتحديده في مخطط Gantt في أعلى نموذج <STRONG>لوحة الإرسال</STRONG>، وانقر بزر الماوس الأيمن فوقه، ثم انقر فوق <STRONG>معلومات</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="d5c47-105">To view details about a service activity, select it in the Gantt chart at the top of the <STRONG>Dispatch board</STRONG> form, right-click, and then click <STRONG>Information</STRONG>.</span></span></P>
+> <P><span data-ttu-id="d4d38-105">لعرض تفاصيل حول نشاط خدمة، قم بتحديده في مخطط Gantt في أعلى نموذج <STRONG>لوحة الإرسال</STRONG>، وانقر بزر الماوس الأيمن فوقه، ثم انقر فوق <STRONG>معلومات</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="d4d38-105">To view details about a service activity, select it in the Gantt chart at the top of the <STRONG>Dispatch board</STRONG> form, right-click, and then click <STRONG>Information</STRONG>.</span></span></P>
 
 
-<span data-ttu-id="d5c47-106">باستخدام الأدوات الموجودة بهذا النموذج، يمكنك فرز أوامر الخدمة حسب تاريخ نشاط الخدمة أو أولويته أو نوعه وكذلك عرض مستويات الأولوية المعينة إلى أوامر الخدمة بالإضافة إلى مراجعة الأنشطة التي يتم تعيينها إلى أوامر الخدمة الفردية.</span><span class="sxs-lookup"><span data-stu-id="d5c47-106">By using the tools in this form, you can sort service orders by date, priority, or type of service activity, view the priority levels that are assigned to service orders, and review which activities are assigned to individual service orders.</span></span>
+<span data-ttu-id="d4d38-106">باستخدام الأدوات الموجودة بهذا النموذج، يمكنك فرز أوامر الخدمة حسب تاريخ نشاط الخدمة أو أولويته أو نوعه وكذلك عرض مستويات الأولوية المعينة إلى أوامر الخدمة بالإضافة إلى مراجعة الأنشطة التي يتم تعيينها إلى أوامر الخدمة الفردية.</span><span class="sxs-lookup"><span data-stu-id="d4d38-106">By using the tools in this form, you can sort service orders by date, priority, or type of service activity, view the priority levels that are assigned to service orders, and review which activities are assigned to individual service orders.</span></span>
 
-<span data-ttu-id="d5c47-107">إذا كان من الضروري إعادة توزيع تعيينات نشاط الخدمة، فيمكنك نقل التمثيل الرسومي لنشاط الخدمة لتعيينه إلى موظف آخر أو تاريخ ووقت مختلفين.</span><span class="sxs-lookup"><span data-stu-id="d5c47-107">If you must redistribute service activity assignments, you can move the graphical representation of a service activity to assign it to a different employee or a different date and time.</span></span>
+<span data-ttu-id="d4d38-107">إذا كان من الضروري إعادة توزيع تعيينات نشاط الخدمة، فيمكنك نقل التمثيل الرسومي لنشاط الخدمة لتعيينه إلى موظف آخر أو تاريخ ووقت مختلفين.</span><span class="sxs-lookup"><span data-stu-id="d4d38-107">If you must redistribute service activity assignments, you can move the graphical representation of a service activity to assign it to a different employee or a different date and time.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d5c47-108">مثال</span><span class="sxs-lookup"><span data-stu-id="d5c47-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d4d38-108">مثال</span><span class="sxs-lookup"><span data-stu-id="d4d38-108">Example</span></span>
 
-<span data-ttu-id="d5c47-109">أثناء مراقبة نشاط خدمة اليوم، لاحظت بأن عادل، فني خدمة، متأخر عن جدول مكالمات الخدمة المعينة.</span><span class="sxs-lookup"><span data-stu-id="d5c47-109">While monitoring the day's service activity, you notice that John, a service technician, is running behind schedule on assigned service calls.</span></span> <span data-ttu-id="d5c47-110">كما لاحظت أن آخر مكالمة في قائمته يجب أن تتم بنهاية اليوم حتى يتسنى له الوفاء بمتطلبات اتفاقية مستوى الخدمة.‬</span><span class="sxs-lookup"><span data-stu-id="d5c47-110">You also notice that the last call in his list must be completed by the end of the day to meet service level agreement requirements.</span></span> <span data-ttu-id="d5c47-111">وباستخدام وظيفة السحب والإفلات الخاصة بمخطط جانت، يمكنك إعادة تعيين مكالمة الخدمة هذه إلى داليا التي تُكمل مكالمة الخدمة الخاصة بها قبل الميعاد المحدد في الجدول.</span><span class="sxs-lookup"><span data-stu-id="d5c47-111">By using the drag-and-drop functionality of the Gantt chart, you can reassign that service call to Meg, who has completed her own service calls ahead of schedule.</span></span>
+<span data-ttu-id="d4d38-109">أثناء مراقبة نشاط خدمة اليوم، لاحظت بأن عادل، فني خدمة، متأخر عن جدول مكالمات الخدمة المعينة.</span><span class="sxs-lookup"><span data-stu-id="d4d38-109">While monitoring the day's service activity, you notice that John, a service technician, is running behind schedule on assigned service calls.</span></span> <span data-ttu-id="d4d38-110">كما لاحظت أن آخر مكالمة في قائمته يجب أن تتم بنهاية اليوم حتى يتسنى له الوفاء بمتطلبات اتفاقية مستوى الخدمة.‬</span><span class="sxs-lookup"><span data-stu-id="d4d38-110">You also notice that the last call in his list must be completed by the end of the day to meet service level agreement requirements.</span></span> <span data-ttu-id="d4d38-111">وباستخدام وظيفة السحب والإفلات الخاصة بمخطط جانت، يمكنك إعادة تعيين مكالمة الخدمة هذه إلى داليا التي تُكمل مكالمة الخدمة الخاصة بها قبل الميعاد المحدد في الجدول.</span><span class="sxs-lookup"><span data-stu-id="d4d38-111">By using the drag-and-drop functionality of the Gantt chart, you can reassign that service call to Meg, who has completed her own service calls ahead of schedule.</span></span>
 
-## <a name="open-the-dispatch-board-form"></a><span data-ttu-id="d5c47-112">فتح نموذج لوحة الإرسال</span><span class="sxs-lookup"><span data-stu-id="d5c47-112">Open the Dispatch board form</span></span>
+## <a name="open-the-dispatch-board-form"></a><span data-ttu-id="d4d38-112">فتح نموذج لوحة الإرسال</span><span class="sxs-lookup"><span data-stu-id="d4d38-112">Open the Dispatch board form</span></span>
 
-<span data-ttu-id="d5c47-113">انقر فوق **إدارة الخدمة** \> **دوري** \> **لوحة الإرسال‬**.</span><span class="sxs-lookup"><span data-stu-id="d5c47-113">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+<span data-ttu-id="d4d38-113">انقر فوق **إدارة الخدمة** \> **دوري** \> **لوحة الإرسال‬**.</span><span class="sxs-lookup"><span data-stu-id="d4d38-113">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d5c47-114">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="d5c47-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d4d38-114">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="d4d38-114">See also</span></span>
 
-[<span data-ttu-id="d5c47-115">ترتيب أوامر الخدمة حسب الأولوية</span><span class="sxs-lookup"><span data-stu-id="d5c47-115">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="d4d38-115">ترتيب أوامر الخدمة حسب الأولوية</span><span class="sxs-lookup"><span data-stu-id="d4d38-115">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="d5c47-116">عرض حالة أوامر الخدمة</span><span class="sxs-lookup"><span data-stu-id="d5c47-116">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
+[<span data-ttu-id="d4d38-116">عرض حالة أوامر الخدمة</span><span class="sxs-lookup"><span data-stu-id="d4d38-116">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
 
-<span data-ttu-id="d5c47-117">[‏‏لوحة الإرسال (نموذج)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="d5c47-117">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="d4d38-117">[‏‏لوحة الإرسال (نموذج)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="d4d38-117">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 
