@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd138fb5fea4098a862fbecba5e8ec226ed6afa9
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551497"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850293"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>تصميم تكوينات التقارير الإلكترونية لإنشاء تقارير بتنسيق Word
 
@@ -43,7 +43,7 @@ ms.locfileid: "1551497"
     * تأكد من تحديد موفر التكوين ‘Litware, Inc.’ كموفر نشط.  
 2. انقر فوق "تكوينات إعداد التقارير‬".
     * سوف نعيد استخدام تكوين التقارير الإلكترونية الموجود الذي تم تصميمه في الأصل لإنشاء مخرجات التقرير بتنسيق OPENXML.  
-3. في الشجرة ، قم بتوسيع "نموذج الدفع".
+3. في الشجرة، قم بتوسيع "نموذج الدفع".
 4. في الشجرة، حدد "Payment model\Sample worksheet report".
 5. انقر فوق المصمم.
 
@@ -64,7 +64,7 @@ ms.locfileid: "1551497"
     * بالإضافة إلى تخزين التغييرات على التكوين، يقوم إجراء الحفظ أيضًا بتحديث قالب Word المرفق. يتم نقل بنية التنسيق المصمّم إلى مستند Word المرفق كجزء XML مخصص جديد باسم "التقرير". لاحظ أن قالب Word المرفق لا يحتوي على تخطيط المستند الذي نرغب في إنشائه كمخرجات تقارير إلكترونية فحسب، بل يحتوي أيضًا على بنية البيانات التي ستقوم التقارير الإلكترونية بتعبئتها في هذا القالب في وقت التشغيل.  
 2. انقر فوق "المرفقات".
     * الآن أنت بحاجة إلى ربط عناصر جزء XML المخصص "التقرير" بأجزاء مستند Word.  
-    * إذا كنت ملمًا باستخدام مستندات Word التي يمكن تصميمها كنماذج تحتوي على عناصر تحكم بالمحتوى ترتباط بعناصر من أجزاء XML المخصصة – فيمكنك تشغيل كل الخطوات في المهمة الفرعية التالية لإنشاء مثل هذا المستند. لمزيد من المعلومات، راجع هذا الارتباط https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. وإلا، فيمكنك تخطي كل الخطوات في المهمة الفرعية التالية.  
+    * إذا كنت ملمًا باستخدام مستندات Word التي يمكن تصميمها كنماذج تحتوي على عناصر تحكم بالمحتوى ترتباط بعناصر من أجزاء XML المخصصة – فيمكنك تشغيل كل الخطوات في المهمة الفرعية التالية لإنشاء مثل هذا المستند. لمزيد من المعلومات، راجع هذا الارتباط https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. وإلا، فيمكنك تخطي كل الخطوات في المهمة الفرعية التالية.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>إحضار Word مع جزء XML مخصص للقيام بعمليات ربط البيانات
     * افتح هذا المستند في Word وقم بما يلي: - افتح علامة تبويب المطور في Word (يمكنك تخصيص الشريط إذا لم يكن ممكّنًا حتى الآن).  - حدد جزء تعيين XML.  - حدد جزء XML المخصص "التقرير" في البحث.  - نفّذ تعيين العناصر في جزء XML المخصص المحدد وعناصر التحكم بالمحتوى في مستند Word.  - احفظ مستند Word المحدث على محرك أقراص محلي.  

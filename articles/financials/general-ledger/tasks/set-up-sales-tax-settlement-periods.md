@@ -3,25 +3,25 @@ title: إعداد فترات تسوية ضريبة المبيعات
 description: تحتوي فترات تسوية ضرائب المبيعات على معلومات عن الفترات الزمنية التي يجب خلالها الإبلاغ عن الضرائب ودفعها.
 author: twheeloc
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8304d9e8997a5d31740ee1203aa4bf0603014056
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569576"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862978"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>إعداد فترات تسوية ضريبة المبيعات
 
@@ -50,6 +50,8 @@ ms.locfileid: "1569576"
 12. أدخل عدد وحدات الفترة الزمنية لكل فترة. على سبيل المثال، يتكون ربع السنة من 3 أشهر.
 13. حدد خانة الاختيار "استخدم معالجة الدُفعة لتسوية ضريبة المبيعات‬" أو قم بإلغاء تحديدها.
     * يمكن معالجة عملية التسوية لفترة التسوية كوظيفة دفعية في الخلفية. ينصح بهذا الأمر لعدد كبير من حركات ضريبة ضمن فترة زمنية.  
+    > [!NOTE]
+    > في الوقت الحالي، هذا الخيار غير معتمد في النمسا وبلجيكا واسبانيا وايطاليا واليابان وهولندا.
 14. حدد أو امسح منع إنشاء خانة الاختيار "منع إنشاء حركات الضرائب المقابلة‬".
     * بشكل افتراضي، يقوم النظام بإنشاء حركات الضرائب المقابلة‬ خلال عملية التسوية، مما يؤدي إلى حدوث مشكلات في الأداء في حال وجود عدد كبير من حركات الضريبة خلال فترة زمنية. حدد خانة الاختيار لمنع إنشاء حركات الضرائب المقابلة.
 15. وسّع علامة التبويب "الفترات الزمنية‬".

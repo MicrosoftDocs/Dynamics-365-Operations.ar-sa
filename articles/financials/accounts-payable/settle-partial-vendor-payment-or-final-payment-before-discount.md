@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14431
 ms.assetid: 6b8e3420-b4c9-4e02-9588-598fe6d3df0d
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6189d5de80a4b0b157797c1fdd072a8ee86857f3
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0d5961b2459a1c43cee24b611cf73879c6e776a4
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508958"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835492"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>تسوية دفعة جزئية لمورد وتسوية الدفعة النهائية بالكامل قبل تاريخ الخصم
 
@@ -40,7 +40,7 @@ ms.locfileid: "1508958"
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10010 | 6/25/2015 | 10010   |                                      | 1000.00                              | -1000.00 | دولار أمريكي      |
 
-ومن صفحة **الموردين** ، تفتح فوزية صفحة **تسوية الحركات**. يمكنها استخدام صفحة **تسوية الحركات** لعرض التواريخ ومبالغ الخصومات النقدية. وتاريخ الاستحقاق هو تاريخ 25 تموز/يوليو، ويتوفر خصم نقدي بمبلغ -10.00، إذا تم دفع الفاتورة بحلول تاريخ 9 تموز/يوليو.
+ومن صفحة **الموردين**، تفتح فوزية صفحة **تسوية الحركات**. يمكنها استخدام صفحة **تسوية الحركات** لعرض التواريخ ومبالغ الخصومات النقدية. وتاريخ الاستحقاق هو تاريخ 25 تموز/يوليو، ويتوفر خصم نقدي بمبلغ -10.00، إذا تم دفع الفاتورة بحلول تاريخ 9 تموز/يوليو.
 
 | وضع علامة | استخدام الخصم النقدي | الإيصال   | الحساب | التاريخ      | تاريخ الاستحقاق  | الفاتورة | المبلغ بعملة الحركة | عملة | المبلغ المراد تسويته |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

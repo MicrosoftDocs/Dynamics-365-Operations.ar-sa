@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: f6074906dc77f17d10cc2fb94a4ded7cb8b32f14
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595675"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850941"
 ---
 # <a name="before-you-buy"></a>قبل الشراء
 
@@ -39,7 +39,7 @@ ms.locfileid: "1595675"
 
 يجب اتباع بعض الاعتبارات التالية عندما تختار محلي كخيار توزيع:
 
-- الاحتياجات التنظيمية واحتياجات التوافق غير متوفرة في [شهادات المجموعات](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- الاحتياجات التنظيمية واحتياجات التوافق غير متوفرة في شهادات المجموعات
 - عملية أعمال غير متصلة مع اتصال متقطع بالإنترنت مطلوبة للوصول إلى Microsoft Dynamics Lifecycle Services (LCS) لإدارة دورة حياة التطبيقات
 - [ميزات لا يتم تنفيذها حاليًا في عمليات التوزيع المحلي](features-not-implemented-on-prem.md)
 - [الحد الأدنى لمتطلبات البنية الأساسية](system-requirements-on-prem.md#minimum-infrastructure-requirements)

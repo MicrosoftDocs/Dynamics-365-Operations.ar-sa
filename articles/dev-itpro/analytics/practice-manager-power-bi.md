@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551661"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850087"
 ---
 # <a name="practice-manager-power-bi-content"></a>محتوى "إدارة الممارسات" في Power BI
 
@@ -54,7 +54,7 @@ ms.locfileid: "1551661"
 | EVM               | مؤشر أداء التكلفة والجدول حسب المشروع |
 | الساعات             | <ul><li>الساعات الفعلية المستخدمة القابلة للفوترة‬ في مقابل الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة‬ في مقابل ساعات الميزانية</li><li>الساعات الفعلية المستخدمة القابلة للفوترة‬ في مقابل الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة‬ حسب المشروع</li><li>الساعات الفعلية المستخدمة القابلة للفوترة‬ في مقابل الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة‬ حسب المورد</li><li>نسبة الساعات الفعلية القابلة للفوترة حسب المشروع</li><li>نسبة الساعات الفعلية القابلة للفوترة حسب المورد</li></ul> |
 
-يمكنك تصفية المخططات والإطارات المتجانبة الموجودة على كافة هذه التقارير وتثبيتها بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). يمكنك أيضًا استخدام وظيفة تصدير البيانات الأساسية لتصدير البيانات الأساسية التي تم تلخيصها في المرئيات.
+يمكنك تصفية المخططات والإطارات المتجانبة الموجودة على كافة هذه التقارير وتثبيتها بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). يمكنك أيضًا استخدام وظيفة تصدير البيانات الأساسية لتصدير البيانات الأساسية التي تم تلخيصها في المرئيات.
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 
@@ -62,7 +62,7 @@ ms.locfileid: "1551661"
 
 تصف الأقسام التالية القياسات التجميعية‬ التي يتم استخدامها في كل كيان.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>الكيان: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>الكيان: ProjectAccountingCube\_ActualHourUtilization
 **مصدر البيانات:** ProjEmplTrans
 
 | القياسات التجميعية الرئيسية      | الحقل                              | ‏‏الوصف |
@@ -70,7 +70,7 @@ ms.locfileid: "1551661"
 | الساعات الفعلية المستخدمة القابلة للفوترة | المجموع(ActualUtilizationBillableRate) | إجمالي الساعات المستخدمة الفعلية القابلة للفوترة. |
 | الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة   | المجموع(ActualBurdenBillableRate)      | إجمالي معدل القيمة الفعلية غير المحسوبة على العميل. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>الكيان: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>الكيان: ProjectAccountingCube\_Actuals
 **مصدر البيانات:** ProjTransPosting
 
 | القياسات التجميعية الرئيسية | الحقل              | ‏‏الوصف |
@@ -78,14 +78,14 @@ ms.locfileid: "1551661"
 | الإيراد الفعلي            | المجموع(ActualRevenue) | إجمالي الإيرادات المرحلة لكل الحركات. |
 | التكلفة الفعلية               | المجموع(ActualCost)    | إجمالي التكلفة المرحلة لكافة أنواع الحركات. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>الكيان: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>الكيان: ProjectAccountingCube\_Customer
 **مصدر البيانات:** CustTable
 
 | القياسات التجميعية الرئيسية | الحقل                                             | ‏‏الوصف |
 |---------------------------|---------------------------------------------------|-------------|
 | عدد المشاريع        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | عدد المشاريع المتوفرة |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>الكيان: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>الكيان: ProjectAccountingCube\_Forecasts
 **مصدر البيانات:** ProjTransBudget
 
 | القياسات التجميعية الرئيسية | الحقل                  | ‏‏الوصف |
@@ -94,14 +94,14 @@ ms.locfileid: "1551661"
 | إيرادات الموازنة            | المجموع(BudgetRevenue)     | إجمالي الإيراد المتوقع المستحق/المفوتر. |
 | إجمالي هامش ربح الموازنة       | المجموع(BudgetGrossMargin) | الفرق بين مجموع إجمالي الإيراد المتوقع ومجموع إجمالي التكلفة المتوقعة. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>الكيان: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>الكيان: ProjectAccountingCube\_ProjectPlanCostsView
 **مصدر البيانات:** Project
 
 | القياسات التجميعية الرئيسية | الحقل                    | ‏‏الوصف |
 |---------------------------|--------------------------|-------------|
 | التكلفة المخططة              | المجموع(SumOfTotalCostPrice) | إجمالي سعر التكلفة في تقديرات كافة أنواع حركات المشروع مع المهام المخططة. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>الكيان: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>الكيان: ProjectAccountingCube\_Projects
 **مصدر البيانات:** Project
 
 | القياسات التجميعية الرئيسية    | الحقل | الوصف |
@@ -112,7 +112,7 @@ ms.locfileid: "1551661"
 | نسبة الساعات الفعلية القابلة للفوترة  | ProjectAccountingCube\_Projects\[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع\] ÷ (ProjectAccountingCube\_Projects\[إجمالي الساعات المستخدمة الفعلية القابلة للفوترة للمشروع\] + ProjectAccountingCube\_Projects\[إجمالي الساعات الفعلية غير المحسوبة على العميل القابلة للفوترة\]) | إجمالي الساعات الفعلية القابلة للفوترة، استنادًا إلى عدد الساعات المستخدمة والساعات المحسوبة على العميل. |
 | القيمة المكتسبة                 | ProjectAccountingCube\_Projects\[إجمالي التكلفة المخططة للمشروع\] × ProjectAccountingCube\_Projects\[النسبة المئوية للعمل المكتمل\] | إجمالي التكلفة المخططة مضروبًا في النسبة المئوية للعمل المكتمل. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>الكيان: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>الكيان: ProjectAccountingCube\_TotalEstimatedCosts 
 **مصدر البيانات:** ProjTable
 
 | القياسات التجميعية الرئيسية       | الحقل               | ‏‏الوصف |

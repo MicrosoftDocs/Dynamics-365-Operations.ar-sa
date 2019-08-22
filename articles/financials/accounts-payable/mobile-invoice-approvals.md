@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5a48ea7b0c1faf5726de21a246e3d8b4d98f166a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0a84027959334f96b0996299c1b0b092435972a7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1511650"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837362"
 ---
 # <a name="mobile-invoice-approvals"></a>الموافقة على فاتورة المحمول
 
@@ -37,8 +37,8 @@ ms.locfileid: "1511650"
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | قبل قراءة دليل المحمول                                                                                |[النظام الأساسي للأجهزة المحمولة](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | بيئة يتوفر فيها الإصدار 1611 من Microsoft Dynamics 365 for Operations بالإضافة إلى Microsoft Dynamics for Operations platform update 3 (نوفمبر 2016)                   |
-| تثبيت الإصلاح العاجل KB 3204341.                                                                              | باستطاعة مسجل المهام تسجيل أمري "إغلاق" بطريق الخطأ لمربعات الحوار ذات القوائم المنسدلة المضمنة في Dynamics 365 for Operations platform update 3 (تحديث نوفمبر 2016) |
-| تثبيت الإصلاح العاجل KB 3207800.                                                                              | يتيح هذا الإصلاح العاجل عرض المرفقات على عميل المحمول المضمن في Dynamics 365 for Operations platform update 3 (تحديث نوفمبر 2016).           |
+| تثبيت الإصلاح العاجل KB 3204341.                                                                              | باستطاعة مسجل المهام تسجيل أمري "إغلاق" بطريق الخطأ لمربعات الحوار ذات القوائم المنسدلة المضمنة في Dynamics 365 for Operation platform update 3 (تحديث نوفمبر 2016) |
+| تثبيت الإصلاح العاجل KB 3207800.                                                                              | يتيح هذا الإصلاح العاجل عرض المرفقات على عميل المحمول المضمن في Dynamics 365 for Operation platform update 3 (تحديث نوفمبر 2016).           |
 | تثبيت الإصلاح العاجل KB 3208224.                                                                              | التعليمات البرمجية للتطبيق لطلب الموافقة على فواتير المورّد على المحمول مضمنة في الإصدار 7.0.1 من تطبيق Microsoft Dynamics AX 1 (مايو 2016).                          |
 | جهاز يعمل بنظام Android أو iOS أو Windows تم فيه تثبيت تطبيق Finance and Operations للمحمول. | البحث عن التطبيق في متجر التطبيقات المناسب.                                                                                                                     |
 

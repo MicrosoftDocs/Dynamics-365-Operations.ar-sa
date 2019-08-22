@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c972b1a0b9be61875c17a05ce3ec8fce1ac5a4e0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 266c594fda1609e4efdc8cdcd79767d94b755187
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572895"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842751"
 ---
 # <a name="consolidation-and-elimination-overview"></a>نظرة عامة على التجميع والاستبعاد
 
@@ -49,7 +49,7 @@ ms.locfileid: "1572895"
 ## <a name="frequently-asked-questions"></a>الأسئلة المتداولة
 1.  أفضل ترحيل عمليات الاستبعاد في قاعدة بيانات. ما خياراتي المتاحة؟
 
-لديك خيارات متعددة. ويمكنك استخدام خيار **التجميع على الإنترنت** ، وتضمين عمليات الاستبعاد أثناء العملية أو كاقتراح. وسيتم ترحيل الحركات في الشركة الموحدة. وبدلاً من ذلك، يمكنك الحصول على شركة مستقلة تقوم يدوياً بإنشاء عمليات الاستبعاد فيها، ثم استخدام تلك الشركة في التقارير المالية أو في عملية التجميع.
+لديك خيارات متعددة. ويمكنك استخدام خيار **التجميع على الإنترنت**، وتضمين عمليات الاستبعاد أثناء العملية أو كاقتراح. وسيتم ترحيل الحركات في الشركة الموحدة. وبدلاً من ذلك، يمكنك الحصول على شركة مستقلة تقوم يدوياً بإنشاء عمليات الاستبعاد فيها، ثم استخدام تلك الشركة في التقارير المالية أو في عملية التجميع.
 
 2.  نحن بحاجة إلى نتائجنا المجمعة بعملات التقارير المتعددة.
 

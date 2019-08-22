@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566100"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841983"
 ---
 # <a name="letter-of-guarantee-transaction"></a>حركة خطاب الضمان
 
@@ -61,7 +61,7 @@ ms.locfileid: "1566100"
 15. في حقل "‏‫تاريخ الشحن المطلوب‬"، أدخل تاريخًا.
 16. في حقل "‏‫تاريخ الشحن المؤكد‬"، أدخل تاريخًا.
 
-## <a name="process-letter-of-guaranteerequest"></a>عملية طلب خطاب الضمان
+## <a name="process-letter-of-guarantee_request"></a>عملية طلب خطاب الضمان
 1. في جزء الإجراءات، انقر فوق "إدارة".
 2. انقر فوق خطاب الضمان.
 3. في جزء "الإجراءات"، انقر فوق خطاب الضمان.
@@ -73,7 +73,7 @@ ms.locfileid: "1566100"
 9. انقر فوق "موافق".
 10. قم بإغلاق الصفحة.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>عملية إرسال خطاب الضمان إلى البنك
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>عملية إرسال خطاب الضمان إلى البنك
 1. انتقل إلى إدارة النقد والبنك > خطابات الضمان > خطابات الضمان.
 2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 3. انقر فوق "تقديم للبنك" لفتح مربع حوار الإسقاط‬.
@@ -81,7 +81,7 @@ ms.locfileid: "1566100"
 5. في القائمة، انقر فوق الارتباط في الصف المحدد.
 6. انقر فوق "موافق".
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>عملية استلام خطاب الضمان من البنك
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>عملية استلام خطاب الضمان من البنك
 1. انقر فوق "استلام من البنك‬" لفتح مربع حوار الإسقاط.
 2. في حقل "رقم البنك"، اكتب قيمة.
     * تحقق من القيم الموجودة في الحقلين الهامش المحتسب والمصروفات.  
@@ -93,7 +93,7 @@ ms.locfileid: "1566100"
     * تحقق من ترحيل إدخالات دفتر اليومية.  
 7. قم بإغلاق الصفحة.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>عملية إعطاء خطاب الضمان للمستفيد
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>عملية إعطاء خطاب الضمان للمستفيد
 1. انتقل إلى الحسابات المدينة > الأوامر > كافة أوامر المبيعات.
 2. في القائمة، انقر فوق الارتباط في الصف المحدد.
 3. في جزء الإجراءات، انقر فوق "إدارة".
@@ -108,7 +108,7 @@ ms.locfileid: "1566100"
 12. قم بتوسيع قسم "الإجراءات".
     * تحقق من صحة سجل "منح للمستفيد".  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>عملية زيادة قيمة خطاب الضمان
+## <a name="process-letter-of-guarantee_increase-value"></a>عملية زيادة قيمة خطاب الضمان
 1. انتقل إلى الحسابات المدينة > الأوامر > كافة أوامر المبيعات.
 2. في القائمة، انقر فوق الارتباط في الصف المحدد.
 3. في جزء الإجراءات، انقر فوق "إدارة".
@@ -128,7 +128,7 @@ ms.locfileid: "1566100"
 16. انقر فوق البنود.
     * تحقق من إدخالات دفتر اليومية المُرحلة.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>عملية تصفية خطاب الضمان
+## <a name="process-letter-of-guarantee_liquidate"></a>عملية تصفية خطاب الضمان
 1. انتقل إلى الحسابات المدينة > الأوامر > كافة أوامر المبيعات.
 2. في القائمة، انقر فوق الارتباط في الصف المحدد.
 3. في جزء الإجراءات، انقر فوق "إدارة".

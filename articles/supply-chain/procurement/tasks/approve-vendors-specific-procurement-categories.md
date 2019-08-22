@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, DirPartyEcoResCategory, EcoResCategorySingleLookup, ProcCategoryHierarchyManagement
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b783d1ce8f02ad119dc6768e6d9cd3c61ae07e70
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eec50e2e8f08fabb64f89c17159b97ba770026f8
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566423"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836326"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>الموافقة على الموردين لفئات تدبير معينة
 
@@ -43,7 +43,7 @@ ms.locfileid: "1566423"
 11. قم بتوسيع مقطع "المورّدون".
     * تحقق من ظهور المورّد الذي قمت بتحديده كمورّد مفضل لفئة أكسسوارات المكتب. إذا كنت تقوم بتشغيل هذا الإجراء كدليل مهمة، قد تضطر إلى النقر فوق الزر "إلغاء تأمين" لكي تتمكن من التمرير لأسفل إلى قائمة المورّدين.  من الممكن أيضًا إضافة مورّدين مفضلين ومورّدين معتمدين على هذه الصفحة.  
 12. في الشجرة، قم بتوسيع "أكسسوارات المكتب".
-13. في الشجرة ، حدد "المقصات".
+13. في الشجرة، حدد "المقصات".
 14. حدد "لا" في الحقل "اكتساب المورّدين من الفئة الرئيسية:".
 15. حدد "نعم" في الحقل "اكتساب المورّدين من الفئة الرئيسية:".
 

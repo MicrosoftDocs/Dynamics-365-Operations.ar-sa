@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0fbba70db569423f7aac258eab12cd7f1cd504bc
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545066"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849805"
 ---
 # <a name="organizational-training-power-bi-content"></a>محتوى "التدريب المؤسسي" في Power BI
 
@@ -31,14 +31,14 @@ ms.locfileid: "1545066"
 يشرح هذا الموضوع Finance and Operations - محتوى "التدريب المؤسسي" في Power BI.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>التقارير المضمنة في حزمة المحتوى
-بعد أن تقوم بربط حزمة المحتوى ببيانات Finance and Operations، يعرض التقرير بيانات المؤسسة. إذا لم يسبق لك استخدام Microsoft Power BI ، فيمكنك معرفة المزيد حول هذا التطبيق على [صفحة التعليم الموجّه لـ Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). تحتوي التقارير المضمنة في حزمة المحتوى على كل من المخططات والجداول التي تحتوي على معلومات إضافية. يصف الجدول التالي التقارير.
+بعد أن تقوم بربط حزمة المحتوى ببيانات Finance and Operations، يعرض التقرير بيانات المؤسسة. إذا لم يسبق لك استخدام Microsoft Power BI، فيمكنك معرفة المزيد حول هذا التطبيق على [صفحة التعليم الموجّه لـ Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). تحتوي التقارير المضمنة في حزمة المحتوى على كل من المخططات والجداول التي تحتوي على معلومات إضافية. يصف الجدول التالي التقارير.
 
 | تقرير          | المحتويات                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
 | تحليل الدورة التدريبية | التسجيل حسب الموقع، وحضور الدورة التدريبية حسب الحالة، وقائمة التسجيل |
 | أنواع الدورات التدريبية    | أنواع الدورات التدريبية حسب المهارة                                                       |
 
-يمكنك تصفية المخططات والتجانبات في هذه التقارير، وتثبيت المخططات والتجانبات بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+يمكنك تصفية المخططات والتجانبات في هذه التقارير، وتثبيت المخططات والتجانبات بلوحة المعلومات. لمزيد من المعلومات حول كيفية التصفية والتثبيت في Power BI، راجع [إنشاء لوحة معلومات وتكوينها](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 تستخدم بيانات Finance and Operations لملء التقارير في حزمة محتوى التدريب التنظيمي. يعرض الجدول التالي الكيانات التي استندت عليها حزمة المحتوى.

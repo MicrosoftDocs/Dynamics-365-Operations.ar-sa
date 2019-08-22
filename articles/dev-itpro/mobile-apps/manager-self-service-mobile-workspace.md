@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3d570aceee6b449c39b30defaebc4983b54f283e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554382"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741125"
 ---
 # <a name="my-team-mobile-workspace"></a>مساحة العمل المحمولة "فريقي"
 
@@ -57,7 +57,7 @@ ms.locfileid: "1554382"
 </ul>
 </td>
 <td>مسؤول النظام</td>
-<td>إذا لم يتم نشر Finance and Operations في مؤسستك، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>. إذا لم يتم نشر Talent في مؤسستك، فباستطاعة مسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://www.microsoft.com/en-us/dynamics365/talent">صفحة ويب Talent</a>.
+<td>إذا لم يتم نشر Finance and Operations في مؤسستك، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>. إذا لم يتم نشر Talent في مؤسستك، فباستطاعة مسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://www.microsoft.com/dynamics365/talent">صفحة ويب Talent</a>.
 </td>
 </tr>
 <tr class="even">

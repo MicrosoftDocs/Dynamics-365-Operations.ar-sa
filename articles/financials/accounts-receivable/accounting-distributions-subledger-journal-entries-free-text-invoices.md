@@ -1,6 +1,6 @@
 ---
 title: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير النص الحر
-description: تُستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب الإيراد أو الضريبة أو التكاليف في فاتورة بنص حر. وهناك توزيع محاسبي واحد أو أكثر لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية.
+description: تُستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب الإيراد أو الضريبة أو التكاليف في فاتورة ذات نص حر. وهناك توزيع محاسبي واحد أو أكثر لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d1546e8537110daec5d6655f68d3328a58ca1cb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571178"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836858"
 ---
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير النص الحر
 
 [!include [banner](../includes/banner.md)]
 
-تُستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب الإيراد أو الضريبة أو التكاليف في فاتورة بنص حر. وهناك توزيع محاسبي واحد أو أكثر لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية.
+تُستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب الإيراد أو الضريبة أو التكاليف في فاتورة ذات نص حر. وهناك توزيع محاسبي واحد أو أكثر لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية.
 
 <a name="accounting-distributions"></a>التوزيعات المحاسبية
 ------------------------

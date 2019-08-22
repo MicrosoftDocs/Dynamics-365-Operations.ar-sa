@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: ''
 ms.search.region: Saudi Arabia
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0ecda670034129a64184a2fee0ee822da1b026d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 76fb3d7ec5d5906086bc9e1471b18f5aea96ff6a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555176"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849190"
 ---
 # <a name="saudi-arabia"></a>المملكة العربية السعودية‬ 
 

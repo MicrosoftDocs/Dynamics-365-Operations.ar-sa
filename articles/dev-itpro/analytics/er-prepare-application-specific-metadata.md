@@ -10,18 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 289f901501a68319c9d85e993d8dfbfc3838a8eb
-ms.sourcegitcommit: d940c7892b6caa6141b3bda8abf1c56e9df4687a
+ms.openlocfilehash: 3a540676ba11bc3c0fb7855a2fdaff998819dfbe
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726422"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849675"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs"></a>إعداد بيانات تعريف خاصة بالتطبيق لـ RCS
 
@@ -46,7 +46,7 @@ ms.locfileid: "1726422"
 2. تأكد من وجود موفر التكوين للشركة النموذجية "Litware, Inc." ومن وضع علامة عليه كـ **نشط**. إذا لم تشاهد موفر التكوين هذا، فيجب أولاً إكمال الإجراء [إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. حدد **تكوينات بيانات التعريف**.
 4. حدد **إنشاء التكوين**.
-5. في مربع الحوار المنسدل، في الحقل **الاسم** ، ادخل اسمًا. بالنسبة لهذا المثال، أدخل **بيانات تعريف التجارة الخارجية**.
+5. في مربع الحوار المنسدل، في الحقل **الاسم**، ادخل اسمًا. بالنسبة لهذا المثال، أدخل **بيانات تعريف التجارة الخارجية**.
 6. حدد **إنشاء التكوين**.
 7. حدد **المصمم**.
 8. حدد **إضافة**.

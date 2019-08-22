@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557721"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863690"
 ---
 # <a name="generate-consolidated-financial-statements"></a>إنشاء قوائم مالية مدمجة
 
@@ -49,11 +49,11 @@ ms.locfileid: "1557721"
 
 يمكنك أيضًا إنشاء شجرة تقارير متعددة المستويات تتضمن العدد الذي تريده من المستويات. يبين الرسم التوضيحي التالي تعريف شجرة تقارير متعددة المستويات لديها تجميعات حسب مناطق العالم.
 
-![تعريف شجرة تقارير متعددة المستويات بواسطة التجميعات حسب المنطقة](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "تعريف شجرة تقارير متعددة المستويات بواسطة التجميعات حسب المنطقة")
+![تعريف شجرة تقارير متعددة المستويات بواسطة التجميعات حسب المنطقة](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "تعريف شجرة تقارير متعددة المستويات بواسطة التجميعات حسب المنطقة")
 
 يبين الرسم التوضيحي التالي تعريف شجرة تقارير متعددة المستويات لديها تجميعات حسب الوظائف.
 
-![تعريف شجرة تقارير متعددة المستويات بواسطة التجميعات حسب الوظائف](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "تعريف شجرة تقارير متعددة المستويات بواسطة التجميعات حسب الوظائف")
+![تعريف شجرة تقارير متعددة المستويات بواسطة التجميعات حسب الوظائف](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "تعريف شجرة تقارير متعددة المستويات بواسطة التجميعات حسب الوظائف")
 
 ### <a name="viewing-companies-side-by-side"></a>عرض الشركات جنبًا إلى جنب
 يفضل الكثير من العملاء التقارير حيث تظهر الشركات جنبًا إلى جنب، وحيث يعرض العمود الإجمالي المدمج. يمكن تحقيق هذا التنسيق بسهولة بعد إنشاء شجرة التقارير. فيما يلي الخطوات العالية المستوى لعرض الشركات جنبًا إلى جنب في القوائم المالية المدمجة.
@@ -98,7 +98,7 @@ ms.locfileid: "1557721"
 > [!NOTE]
 > يمكنك تطبيق هذه النسبة المئوية للملكية على أي وحدة التقارير، وليس فقط على مستوى الشركة. 
 
-![استخدام النسبة المئوية لتعريف شجرة تقارير](./media/Using-reporting%20tree-definition-percentage.png "استخدام النسبة المئوية لتعريف شجرة تقارير")
+![استخدام النسبة المئوية لتعريف شجرة تقارير](./media/Using-reporting-tree-definition-percentage.png "استخدام النسبة المئوية لتعريف شجرة تقارير")
 
 عند إنشاء التقرير، سيظهر تقرير Contoso Germany نسبة 100 بالمائة من مبلغ المبيعات، وسيتم تخصيص 80 بالمائة من المبلغ واحتسابه إلى مستوى المبيعات المدمج.
 

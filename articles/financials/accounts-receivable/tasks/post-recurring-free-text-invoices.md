@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8352b32b1a3c950bed6dd5f0c18c00173e725e69
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 294e7ac5b1d548982ad402214934afe0cfce475d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570235"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842847"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>إنشاء وترحيل فواتير النص الحر المكررة
 
@@ -40,7 +40,7 @@ ms.locfileid: "1570235"
 3. انقر فوق "الإجماليات".
     * تحقق من إجمالي مجموعة الفواتير المتكررة.  
 4. انقر فوق "إغلاق".
-    * يمثل كل بند أدناه فاتورة متكررة بنص حر. يمكنك تحديد بند والنقر فوق الزر "تفاصيل" لعرض تفاصيل فاتورة النص الحر.  
+    * يمثل كل بند أدناه فاتورة متكررة ذات نص حر. يمكنك تحديد بند والنقر فوق الزر "تفاصيل" لعرض تفاصيل فاتورة النص الحر.  
 5. انقر فوق "التحقق من الصحة‬".
     * تحقق من أن الفواتير المحددة لا تحتوي على أخطاء، ولكن من دون ترحيلها.  
 6. انقر فوق "ترحيل".

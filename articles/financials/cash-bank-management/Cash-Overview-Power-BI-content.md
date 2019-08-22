@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702785"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842679"
 ---
 # <a name="cash-overview-power-bi-content"></a>المحتوى "نظرة عامة على النقد" في Power BI
 
@@ -40,7 +40,7 @@ ms.locfileid: "1702785"
 1. انتقل إلى **إدارة النظام > الإعداد > معلمات النظام** لتعيين **عملة النظام** و**سعر صرف النظام**.
 2. انتقل إلى **دفتر الأستاذ العام> إعداد > دفتر الأستاذ** لتعيين **عملة المحاسبة** و**نوع سعر الصرف**.
 2. حدد أسعار الصرف بين العملات الخاصة بالحركة وعملة المحاسبة، وبين عملة المحاسبة وعملة النظام، وبين عملة المحاسبة وعملات البنك. للقيام بذلك، اذهب إلى **دفتر الأستاذ العام > العملات > أسعار صرف العملات**.
-3. تكوين تقدير التدفقات النقدية وتشغيلها. لمزيد من المعلومات حول كيفية إعداد تقدير التدفقات النقدية، راجع <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+3. تكوين تقدير التدفقات النقدية وتشغيلها. لمزيد من المعلومات حول كيفية إعداد تقدير التدفقات النقدية، راجع <a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
 ">تقدير التدفقات النقدية</a>. 
 4. اذهب إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **LedgerCovLiquidityMeasurement**.
 

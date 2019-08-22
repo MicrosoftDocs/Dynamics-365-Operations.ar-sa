@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab9b9533ae650c05f57a45be25aec6cbe2e3db76
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551450"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849857"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>إعداد الأمان لمحتوى "تحليل محاسبة التكاليف" في Power BI
 
@@ -63,4 +63,4 @@ ms.locfileid: "1551450"
 نفترض أن مؤسستك ترغب في تقييد الوصول إلى البيانات. إذا تم تعطيل معلمات الأمان، لسبب ما، عند تشغيل محاسبة التكاليف، فيجب على المالك إضافة دور **محاسب التكاليف** في Power BI بدلًا من ذلك. إذا قمت بتغيير الأمان من حالة التمكين إلى حالة التعطيل، فمن المستحسن إزالة مستخدمين من دور **مراقب كائن التكلفة**. والعكس بالعكس إذا كنت تقوم بإعادة تمكين الأمان. يمكن للمستخدمين الانتماء إلى كلا الدورين. يمثل الوصول المشترك اتحاد كل من الدورين. وفيما يتعلق بمحتوى **تحليل محاسبة التكاليف** في Power BI، سيتمكن المستخدمون الذين لديهم حق وصول مشترك باكتساب حق وصول غير مقيد إلى البيانات. إذا كان الهدف تطبيق الوصول المقيد، يجب تعيين المستخدمين فقط على دور **مراقب كائن التكلفة**. تسري تحديثات الأمان على مستوى الصف فورًا. يجب على المستخدمين المتأثرين تحديث مستعرضاتهم.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-لمزيد من المعلومات حول الأمان على مستوى الصف في Power BI، راجع [إدارة الأمان على النموذج في Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+لمزيد من المعلومات حول الأمان على مستوى الصف في Power BI، راجع [إدارة الأمان على النموذج في Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).

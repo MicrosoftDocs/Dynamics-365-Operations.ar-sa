@@ -1,6 +1,6 @@
 ---
 title: إعداد البرنامج التعليمي للأداة Regression Suite Automation Tool وتثبيته
-description: هذا الموضوع هو برنامج تعليمي يوضح كيفية إعداد الأداة Regression suite automation tool ‏(RSAT).
+description: هذا الموضوع هو برنامج تعليمي يوضح كيفية إعداد الأداة Regression Suite Automation Tool ‏(RSAT).
 author: kfend
 manager: AnnBe
 ms.date: 06/24/2019
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: ab81e95c2e31adfefd4e5c4367a61baa7c251c43
-ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
+ms.openlocfilehash: e2287cb0281e920de219cb88d41cd69264911f93
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703819"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850841"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>إعداد البرنامج التعليمي للأداة Regression Suite Automation Tool وتثبيته
 هذا الموضوع هو برنامج تعليمي يساعدك على الحصول على الإعداد والبدء باستخدام RSAT والأدوات المقترنة باستخدام RSAT. 
@@ -134,7 +134,7 @@ ms.locfileid: "1703819"
 إذا قمت بإنشاء Azure DevOps مشروع جديد مسبقًا، فقم بتكوين مشروع LCS للاتصال به. وإلا، إذا كان مشروع LCS الخاص بك متصلًا بالفعل بمشروع Azure DevOps، فيمكنك المتابعة إلى القسم التالي.
 
 1. انتقل إلى مشروع تطبيق LCS.
-2. حدد زر **القائمة** ، ثم حدد **إعدادات المشروع**.
+2. حدد زر **القائمة**، ثم حدد **إعدادات المشروع**.
 
     ![أمر "إعدادات المشروع"](./media/setup_rsa_tool_11.png)
 
@@ -154,7 +154,7 @@ ms.locfileid: "1703819"
 
     ![الخطوة 2 في إعداد Visual Studio Team Services](./media/setup_rsa_tool_14.png)
 
-7. راجع إعداداتك ، ثم حدد **حفظ**.
+7. راجع إعداداتك، ثم حدد **حفظ**.
 
     ![الخطوة 3 في إعداد Visual Studio Team Services](./media/setup_rsa_tool_15.png)
 
@@ -719,7 +719,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 #### <a name="create-a-new-test-case"></a>إنشاء حالة اختبار جديدة
 
 1. انتقل إلى مكتبة **RSAT** BPM
-2. حدد عملية **نموذج عملية أعمال الدعم**، ثم، على اليسار ، حدد **وضع التحرير**.
+2. حدد عملية **نموذج عملية أعمال الدعم**، ثم، على اليسار، حدد **وضع التحرير**.
 3. قم بتغيير قيمة حقل **الاسم** وحقل **الوصف** **لإصدار منتج**. ثم حدد **حفظ**.
 
     ![تم تغيير الاسم والوصف لإصدار منتج](./media/setup_rsa_tool_95.png)
