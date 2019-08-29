@@ -1,20 +1,23 @@
 - name: Dynamics 365 for Finance and Operations
-  href: index.md
   items:
+    - name: وثائق Dynamics 365 for Finance and Operations
+      href: index.md
     - name: البدء
       items:
         - name: قبل الشراء
-          href: get-started/before-you-buy.md
           items:
+            - name: الصفحة الرئيسية لقبل الشراء
+              href: get-started/before-you-buy.md
             - name: التسجيل للاشتراك في المعاينة
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: نشر بيئة عرض توضيحي
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: مقارنة بين ميزات السحابة والمحلي
               href: get-started/cloud-prem-comparison.md
-            - name: خيارات النشر
-              href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
+            - name: اعتبارات النشر
               items:
+                - name: خيارات النشر
+                  href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
                 - name: النشر عبر السحابة
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: متطلبات النظام لعمليات النشر عبر السحابة
@@ -36,8 +39,9 @@
                 - name: شراء Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
         - name: ما الجديد أو المتغير
-          href: get-started/whats-new-changed.md
           items:
+            - name: الصفحة الرئيسية للجديد أو المتغير‬
+              href: get-started/whats-new-changed.md
             - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
               href: get-started/mainstream-support-ax-2009-2012.md
             - name: الميزات التي تمت إزالتها أو إهمالها
@@ -140,6 +144,8 @@
                   href: get-started/new-task-guides-available-february-2016.md
         - name: استكشاف واجهة المستخدم
           items:
+            - name: عناصر واجهة المستخدم
+              href: get-started/user-interface-elements.md
             - name: ميزات إمكانية الوصول
               href: get-started/accessibility-features.md
             - name: نظرة على إدارة الميزات
@@ -196,9 +202,10 @@
               href: get-started/glossary.md
         - name: مقاطع الفيديو لـ Finance and Operations
           href: get-started/videos.md
-    - name: تنفيذ إدارة دورة حياة
-      href: imp-lifecycle/implementation-lifecycle.md
+    - name: تنفيذ إدارة دورة الحياة
       items:
+        - name: الصفحة الرئيسية لتنفيذ إدارة دورة الحياة
+          href: imp-lifecycle/implementation-lifecycle.md
         - name: هندسة Finance and Operations
           href: imp-lifecycle/architecture-overview.md
         - name: Microsoft FastTrack for Finance and Operations
@@ -224,8 +231,9 @@
         - name: مشروعات LCS وبيئات إنتاج متعددة على مستأجر Azure AD واحد
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: تحديثات خدمة إصدار واحد
-      href: ../dev-itpro/lifecycle-services/oneversion-overview.md
       items:
+        - name: نظرة عامة حول تحديثات خدمة إصدار واحد
+          href: ../dev-itpro/lifecycle-services/oneversion-overview.md
         - name: الأسئلة المتداولة حول تحديثات خدمة إصدار واحد
           href: get-started/one-version.md
         - name: سياسة دورة حياة البرامج - إصدارات على السحابة
@@ -244,19 +252,14 @@
           href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
         - name: أتمتة مهمة البيانات
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام الخدمة "إصدار واحد"
+        - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة "إصدار واحد"
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: تشغيل تلقائي للاختبارات
-          items:
-            - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
-              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: إعداد برنامج تعليمي للأداة Regression Suite Automation Tool
-              href: get-started/hol-set-up-regression-suite-automation-tool.md
-            - name: استخدام البرنامج التعليمي للأداة Regression Suite Automation Tool
-              href: get-started/hol-use-regression-suite-automation-tool.md
+        - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
+          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: أحداث الأعمال
-      href: ../dev-itpro/business-events/home-page.md
       items:
+        - name: نظرة عامة على أحداث الأعمال
+          href: ../dev-itpro/business-events/home-page.md
         - name: أحداث الأعمال للتطبيق
           href: ../dev-itpro/business-events/app-business-events.md
         - name: أحداث أعمال سير العمل
@@ -273,22 +276,34 @@
           href: ../dev-itpro/business-events/potential-use-cases.md
         - name: البرامج التعليمية
           items:
-            - name: استخدام أحداث الأعمال بواسطة Microsoft Flow
+            - name: أحداث الأعمال و Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-            - name: استهلاك أحداث الأعمال باستخدام شبكة أحداث Azure
+            - name: أحداث الأعمال وشبكة أحداث Azure
               href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
-            - name: استهلاك أحداث الأعمال باستخدام ناقل خدمة Azure‬
+            - name: أحداث الأعمال وناقل خدمة Azure
               href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
-            - name: استهلاك احداث أعمال الموافقة على سير العمل
+            - name: أحداث الأعمال وموافقات سير العمل
               href: ../dev-itpro/business-events/how-to/how-to-workflow.md
-            - name: استخدام Microsoft Forms Pro مع أحداث الأعمال
+            - name: أحداث الأعمال و Microsoft Forms Pro
               href: ../dev-itpro/business-events/how-to/FormsPro.md
-    - name: إدارة التكلفة
-      href: ../supply-chain/cost-management/cost-management-home-page.md
+            - name: أحداث الأعمال ومراكز أحداث Azure
+              href: ../dev-itpro/business-events/how-to/event-hub.md
+    - name: التوافق
       items:
+        - name: قواعد سياسة التدقيق
+          href: ../financials/general-ledger/audit-policy-rules.md
+        - name: انتهاكات وحالات سياسة التدقيق
+          href: ../financials/general-ledger/audit-policy-violations-cases.md
+        - name: تحديد سياسات المراجعة للمستندات المصدر
+          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+    - name: إدارة التكلفة
+      items:
+        - name: الصفحة الرئيسية لإدارة التكلفة
+          href: ../supply-chain/cost-management/cost-management-home-page.md
         - name: المتطلبات الأساسية للتكاليف القياسية
-          href: ../supply-chain/cost-management/prerequisites-standard-costs.md
           items:
+            - name: نظرة عامة على المتطلبات الأساسية للتكاليف القياسية
+              href: ../supply-chain/cost-management/prerequisites-standard-costs.md
             - name: نظرة عامة حول تحويل التكاليف القياسية
               href: ../supply-chain/cost-management/standard-cost-conversion-overview.md
             - name: متطلب تحويل التكلفة القياسية
@@ -308,8 +323,9 @@
             - name: الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة
               href: ../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md
         - name: إصدارات التكلفة
-          href: ../supply-chain/cost-management/costing-versions.md
           items:
+            - name: نظرة عامة حول إصدارات التكاليف
+              href: ../supply-chain/cost-management/costing-versions.md
             - name: كشوف التكاليف
               href: ../supply-chain/cost-management/costing-sheets.md
             - name: محاكاة تغييرات التكاليف باستخدام إصدار تكاليف للتكاليف المخططة
@@ -397,8 +413,9 @@
             - name: واجهة REST API لحزمة إدارة البيانات
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: نقاط نهاية الخدمات
-              href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
               items:
+                - name: نظرة عامة حول نقاط نهاية الخدمة
+                  href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
                 - name: استكشاف أخطاء مصادقة الخدمة وإصلاحها
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
@@ -414,8 +431,9 @@
         - name: التطوير للتكامل
           items:
             - name: تكامل البيانات باستخدام كيانات البيانات
-              href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
               items:
+                - name: نظرة عامة على تكامل البيانات باستخدام كيانات البيانات
+                  href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
                 - name: تطوير أحد الكيانات لترحيل البيانات
                   href: ../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/fin-and-ops/toc.json
                 - name: تطوير كيانات البيانات المركبة
@@ -428,7 +446,7 @@
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: تكامل البيانات باستخدام Common Data Service
               items:
-                - name: نظرة عامة على تكامل البيانات
+                - name: نظرة عامة حول تكامل البيانات باستخدام Common Data Service
                   href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
                 - name: التكامل المتزامن ثنائي الاتجاه
                   items:
@@ -448,9 +466,9 @@
                       href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
                 - name: التكامل المتزامن أحادي الاتجاه
                   items:
-                    - name: العميل المتوقع إلى النقدية
+                    - name: تكوين سيناريو العميل المتوقع إلى النقدية
                       items:
-                        - name: تكوين سيناريو العميل المتوقع إلى النقدية
+                        - name: العميل المتوقع إلى النقدية
                           href: ../supply-chain/sales-marketing/prospect-to-cash.md
                         - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
                           href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
@@ -464,9 +482,9 @@
                           href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
                         - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
                           href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Field Service
+                    - name: تكوين التكامل مع Field Service
                       items:
-                        - name: تكوين التكامل مع Field Service
+                        - name: نظرة عامة حول تكوين التكامل مع Field Service
                           href: ../supply-chain/sales-marketing/field-service.md
                         - name: مزامنة المنتجات في Finance and Operations إلى المنتجات في Field Service
                           href: ../supply-chain/sales-marketing/field-service-product.md
@@ -486,9 +504,9 @@
                           href: ../supply-chain/sales-marketing/synchronize-warehouse.md
                         - name: مزامنة أوامر العمل مع المشروع من Field Service إلى Finance and Operations
                           href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation
+                    - name: تكوين تكامل Project Service Automation
                       items:
-                        - name: تكوين تكامل Project Service Automation
+                        - name: نظرة عامة حول Project Service Automation
                           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                         - name: معلمات تكامل Project Service Automation
                           href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
@@ -507,16 +525,19 @@
         - name: المراسلة الإلكترونية
           href: ../financials/general-ledger/electronic-messaging.md
     - name: إدارة البيانات
-      href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
+        - name: نظرة عامة حول إدارة البيانات
+          href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
         - name: كيانات البيانات
-          href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
           items:
-            - name: تكوين مشروعات البيانات
+            - name: نظرة عامة حول كيانات البيانات
+              href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
+            - name: مشروعات بيانات التكوين
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
             - name: نسخ بيانات التكوين بين الشركات أو الكيانات القانونية
-              href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: نظرة عامة حول نسخ بيانات التكوين
+                  href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
                 - name: حزم بيانات التكوين
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: "حزم\_بيانات التكوين\_(إصدار يوليو 2017 فقط)"
@@ -538,8 +559,9 @@
             - name: حزم بيانات التكوين
               href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
         - name: استيراد البيانات وتصدير الوظائف
-          href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
           items:
+            - name: نظرة عامة حول مهام استيراد البيانات وتصديرها
+              href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
             - name: أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: التطوير لكيانات البيانات
@@ -581,16 +603,19 @@
         - name: أوصاف أخطاء إدارة البيانات
           href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: الإدارة المالية
-      href: ../financials/index.md
       items:
+        - name: الصفحة الرئيسية للإدارة المالية
+          href: ../financials/index.md
         - name: الحسابات الدائنة
-          href: ../financials/accounts-payable/accounts-payable.md
           items:
+            - name: الصفحة الرئيسية للحسابات الدائنة
+              href: ../financials/accounts-payable/accounts-payable.md
             - name: نظرة عامة على فواتير المورّدين
               href: ../financials/accounts-payable/vendor-invoices-overview.md
             - name: تكوين الحسابات الدائنة
-              href: ../financials/accounts-payable/accounts-payable-overview.md
               items:
+                - name: نظرة عامة حول تكوين الحسابات الدائنة
+                  href: ../financials/accounts-payable/accounts-payable-overview.md
                 - name: بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام فاتورة المورد
                   href: ../financials/accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
                 - name: بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام ‏‫دفتر يومية الموافقة
@@ -601,14 +626,15 @@
                   href: ../financials/accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
             - name: تدقيق الفواتير والبيانات الأساسية في الحسابات الدائنة
               href: ../financials/general-ledger/tasks/audit-invoices-key-data-ap-system.md
-            - name: سياسات المطابقة الثلاثية​
+            - name: سياسات المطابقة الثلاثية
               href: ../financials/accounts-payable/three-way-matching-policies.md
-            - name: مطابقة فاتورة الحسابات الدائنة​
-              href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
+            - name: مطابقة فاتورة الحسابات الدائنة
               items:
+                - name: نظرة عامة حول مطابقة فاتورة الحسابات الدائنة
+                  href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
                 - name: إعداد التحقق من صحة مطابقة فاتورة‬ الحسابات الدائنة
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين​
+            - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -625,8 +651,9 @@
             - name: سير عمل المورّد
               href: ../financials/accounts-payable/vendor-workflow.md
             - name: حل الاختلافات أثناء مطابقة إجماليات الفواتير
-              href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
+                - name: نظرة عامة حول حل الاختلافات أثناء مطابقة إجماليات الفواتير
+                  href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: حل أو البحث عن الاستثناءات
                   href: ../financials/accounts-payable/tasks/research-resolve-exceptions.md
             - name: ملفات تعريف ترحيل المورد
@@ -688,8 +715,9 @@
                 - name: صفحة قائمة حركات المورّدين
                   href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: الحسابات المدينة
-          href: ../financials/accounts-receivable/accounts-receivable.md
           items:
+            - name: الصفحة الرئيسية للحسابات المدينة
+              href: ../financials/accounts-receivable/accounts-receivable.md
             - name: الائتمان والتحصيلات في الحسابات المدينة
               href: ../financials/accounts-receivable/collections-credit-accounts-receivable.md
             - name: تكوين الحسابات المدينة والائتمان والتحصيلات
@@ -783,13 +811,14 @@
                 - name: صفحة قائمة حركات العملاء
                   href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: إعداد الموازنة
-          href: ../financials/budgeting/budgeting-overview.md
           items:
-            - name: نظرة عامة على تخطيط الموازنة ​
+            - name: الصفحة الرئيسية لإعداد الموازنة
+              href: ../financials/budgeting/budgeting-overview.md
+            - name: نظرة عامة على تخطيط الموازنة
               href: ../financials/budgeting/budget-planning-overview-configuration.md
             - name: نظرة عامة على رقابة الموازنة
               href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'نظرة عامة على إعداد الموازنة '
+            - name: نظرة عامة على إعداد الموازنة
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: التنبؤ بالمنصب
               href: ../financials/budgeting/position-forecasting.md
@@ -808,8 +837,9 @@
             - name: تكامل تخطيط الموازنة مع الوحدات الأخرى
               href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: إدارة النقد والبنوك
-          href: ../financials/cash-bank-management/cash-bank-management.md
           items:
+            - name: الصفحة الرئيسية لإدارة البنك والنقد
+              href: ../financials/cash-bank-management/cash-bank-management.md
             - name: تقدير التدفقات النقدية
               href: ../financials/cash-bank-management/cash-flow-forecasting.md
             - name: مساحة عمل إدارة البنك
@@ -885,8 +915,9 @@
                 - name: تحديث الكيان المركب لدفتر يومية البنك‬
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: محاسبة التكاليف
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
           items:
+            - name: الصفحة الرئيسية لمحاسبة التكاليف
+              href: ../financials/cost-accounting/cost-accounting-home-page.md
             - name: مصطلحات محاسبة التكاليف
               href: ../financials/cost-accounting/terms-cost-accounting.md
             - name: التقاويم المالية، والسنوات المالية، والفترات‬
@@ -958,8 +989,9 @@
             - name: استخدام مساحة عمل التحكم في التكلفة لتطبيق الأجهزة المحمولة Finance and Operations
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
         - name: إدارة المصروفات
-          href: ../financials/expense-management/expense-management.md
           items:
+            - name: نظرة عامة على إدارة المصروفات
+              href: ../financials/expense-management/expense-management.md
             - name: إعادة تصور تقارير المصروفات
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: إدارة مصروفات الخطة
@@ -995,8 +1027,9 @@
             - name: المصروفات الشخصية على تقرير المصروفات
               href: ../financials/expense-management/personal-expenses.md
         - name: الأصول الثابتة
-          href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: الصفحة الرئيسية للأصول الثابتة
+              href: ../financials/fixed-assets/fixed-assets.md
             - name: إنشاء أصل ثابت
               href: ../financials/fixed-assets/tasks/create-fixed-asset.md
             - name: إدخال إضافة إلى الأصول الثابتة
@@ -1100,15 +1133,187 @@
                 - name: إهلاك مدة خدمة القسط الثابت
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: دفتر الأستاذ العام
-          href: ../financials/general-ledger/general-ledger.md
           items:
+            - name: نظرة عامة حول دفتر الأستاذ العام
+              href: ../financials/general-ledger/general-ledger.md
+            - name: الحسابات
+              items:
+                - name: نظرة عامة على الاستحقاقات
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: قواعد الاستبعاد
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: الحساب ومجموعات الأبعاد
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: دفاتر اليومية التي تمت موازنتها للمحاسبة بين الوحدات
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: تعريفات الترحيل
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: أمثلة عن تعريف الترحيل
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: أرصدة حسابات دفتر الأستاذ العام
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: تحديد الأبعاد المالية
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: إنشاء بُنى الحساب‬
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: الأبعاد المالية والترحيل
+                  href: ../financials/general-ledger/default-dimensions.md
+                - name: إنشاء أنظمة استحقاق
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: تحويل العملة وعمليات الدمج المالية
+                  items:
+                    - name: نظرة عامة حول تحويل العملة وعمليات الدمج المالية
+                      href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                    - name: تجميع عبر الإنترنت
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: إنشاء القوائم المالية الموحدة
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: إنشاء مجموعات توحيد وحساب توحيد إضافي
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: أنواع الحسابات الرئيسية
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: إنشاء حساب رئيسي
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: تخطيط دليل الحسابات
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: تسوية الحركات بين حسابات دفتر الأستاذ
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: إعداد اسم مستعار لحساب دفتر الأستاذ‬
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: إعداد فئات الحساب الرئيسي
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: مستكشف مصدر المحاسبة
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: التوزيعات المحاسبية
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: توزيعات العمليات
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: الأبعاد المالية
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: تحويل عملات المحاسبة أو التقارير
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: مجموعات حسابات التجميع والحسابات
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: نظرة عامة على التجميع والاستبعاد
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: التقاويم المالية، والسنوات المالية، والفترات‬
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: تكوين بنى الحسابات
+                  href: ../financials/general-ledger/configure-account-structures.md
+                - name: العملة المزدوجة
+                  href: ../financials/general-ledger/dual-currency.md
+            - name: دفاتر اليومية ودفاتر الأستاذ
+              items:
+                - name: معالجة دفتر اليومية العام
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: ترحيل دفاتر اليومية الدورية
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: ‏‫معالجة دفتر يومية توزيع دفتر الأستاذ‬
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: إعداد المحاسبة بين الشركات الشقيقة
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: قواعد توزيع دفتر الأستاذ
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: إنشاء قواعد متقدمة لدفاتر اليومية
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: إنشاء بُنى القواعد المتقدمة وتعيينها
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: أنواع دفاتر يومية دفتر الأستاذ
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: إنشاء دفاتر اليومية والتحقق من صحتها
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: عرض إدخالات الدفاتر اليومية أو الحركات
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: ‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: إنشاء إدخال دفتر يومية باستخدام قالب
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: إنشاء حركات استحقاق دفتر الأستاذ​
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: نشر بنود دفاتر اليومية والمستندات من Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: عرض إدخالات دفاتر اليومية والحركات
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: إعادة تقييم العملة في شركة تجميع​
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: استيراد أسعار صرف العملات
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: إيصال واحد
+                  href: ../financials/general-ledger/one-voucher.md
+                - name: تسويات دفتر الأستاذ
+                  href: ../financials/general-ledger/ledger-settlements.md
+            - name: إقفال نهاية الفترة
+              items:
+                - name: إقفال دفتر الأستاذ العام في نهاية الفترة​
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: مساحة عمل إقفال الفترة المالية
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: إقفال نهاية السنة
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: إقفال السنة المالية
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: إقفال شامل للفترة المالية
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: ضريبة المبيعات
+              items:
+                - name: نظرة عامة على ضريبة المبيعات
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: معدلات ضريبة المبيعات استنادًا إلى طرق القاعدة الهامشية والحساب
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: دفعات ضريبة المبيعات وقواعد التقريب
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: طرق حساب ضريبة المبيعات في حقل الأصل
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: إنشاء دفع ضريبة مبيعات
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: إنشاء حركات ضريبة المبيعات في المستندات
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: إعداد هيئات ضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: إعداد أكواد ضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: إعداد أكواد تقارير ضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: إعداد فترات تسوية ضريبة المبيعات
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: إعداد ضريبة الخصم
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: عرض حركات ضرائب المبيعات المُرَّحلة
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
+            - name: منضدة عمل التدقيق
+              items:
+                - name: قواعد سياسة التدقيق
+                  href: ../financials/general-ledger/audit-policy-rules.md
+                - name: انتهاكات وحالات سياسة التدقيق
+                  href: ../financials/general-ledger/audit-policy-violations-cases.md
+                - name: تحديد سياسات المراجعة للمستندات المصدر
+                  href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: القطاع العام
+          items:
+            - name: الصفحة الرئيسية للقطاع العام
+              href: ../financials/public-sector/public-sector-functionality.md
             - name: خطة لوظائف القطاع العام
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: إنشاء صفحات التوقيع والغلاف لتقرير دفعات للقطاع العام
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
-            - name: الحسابات الدائنة في القطاع العام​
-              href: ../financials/public-sector/accounts-payable-public-sector.md
+            - name: الحسابات الدائنة في القطاع العام
               items:
+                - name: نظرة عامة حول الحسابات الدائنة في القطاع العام
+                  href: ../financials/public-sector/accounts-payable-public-sector.md
                 - name: أكواد أوامر الشراء في القطاع العام
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
                 - name: إنشاء وتعيين كود شريك تجاري في القطاع العام
@@ -1130,8 +1335,9 @@
                 - name: إعداد تصنيفات اتفاقية الشراء في القطاع العام
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: الحسابات المدينة في القطاع العام
-              href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
+                - name: نظرة عامة حول الحسابات المدينة في القطاع العام
+                  href: ../financials/public-sector/accounts-receivable-public-sector.md
                 - name: تصنيفات الفوترة وأكواد الفوترة في القطاع العام
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
                 - name: إنشاء تصنيف فوترة في القطاع العام
@@ -1145,8 +1351,9 @@
                 - name: التعويضات في القطاع العام
                   href: ../financials/public-sector/reimbursements-public-sector.md
             - name: إعداد الموازنة في القطاع العام
-              href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: نظرة عامة حول إعداد الموازنة في القطاع العام
+                  href: ../financials/public-sector/budgeting-public-sector.md
                 - name: إنشاء موازنة أصلية وإلغاء إدخالات الموازنة الأولية في القطاع العام
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: إنشاء موازنة أولية للقطاع العام
@@ -1172,8 +1379,9 @@
             - name: الأصول الثابتة في القطاع العام
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: دفتر الأستاذ العام في القطاع العام
-              href: ../financials/public-sector/general-ledger-public-sector.md
               items:
+                - name: نظرة عامة حول دفتر الأستاذ العام في القطاع العام
+                  href: ../financials/public-sector/general-ledger-public-sector.md
                 - name: إدخالات دفتر الأستاذ المتقدمة في القطاع العام
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
                 - name: إنشاء إدخال دفتر أستاذ متقدم في القطاع العام
@@ -1199,8 +1407,9 @@
             - name: إضافة نوع شهادة إلى مورد في القطاع العام
               href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: التقارير المالية
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
+            - name: نظرة عامة على التقارير المالية
+              href: ../financials/general-ledger/financial-reporting-getting-started.md
             - name: نظرة عامة على التقارير المالية
               href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
             - name: مكونات التقرير المالي
@@ -1236,24 +1445,27 @@
         - name: المراسلة الإلكترونية
           href: ../financials/general-ledger/electronic-messaging.md
     - name: العولمة
-      href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
+        - name: موارد العولمة
+          href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
         - name: تحديثات تنظيمية
           href: ../financials/localizations/regulatory-updates.md
         - name: أستراليا
-          href: ../financials/localizations/australia.md
           items:
+            - name: نظرة عامة على أستراليا
+              href: ../financials/localizations/australia.md
             - name: بيان النشاط التجاري (BAS)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
             - name: إضافة مربعات التقارير وإنشاء كشف حساب النشاط التجاري
               href: ../financials/localizations/tasks/add-bas-report-boxes.md
-            - name: إهلاك وعاء منخفض القيمة​
+            - name: إهلاك وعاء منخفض القيمة
               href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
             - name: إعداد أكواد السبب لكشف حساب النشاط التجاري
               href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
         - name: النمسا
-          href: ../financials/localizations/austria.md
           items:
+            - name: نظرة عامة على النمسا
+              href: ../financials/localizations/austria.md
             - name: إهلاك نصف السنة في عمليات الاستحواذ الإضافية
               href: ../financials/localizations/emea-aut-half-year-depreciation.md
             - name: رسوم مواد التعبئة
@@ -1261,8 +1473,9 @@
             - name: كشف ضريبة القيمة المضافة
               href: ../financials/localizations/emea-aut-vat-statement-details.md
         - name: بلجيكا
-          href: ../financials/localizations/belgium.md
           items:
+            - name: نظرة عامة على بلجيكا
+              href: ../financials/localizations/belgium.md
             - name: كشف الحساب البنكي بتنسيق CODA
               href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
             - name: إنشاء حركات وتحويلها إلى BLWI
@@ -1276,13 +1489,15 @@
             - name: إعداد وصيانة PRODCOM
               href: ../financials/localizations/emea-bel-prodcom-report.md
         - name: البرازيل
-          href: ../financials/localizations/brazil.md
           items:
+            - name: نظرة عامة على البرازيل
+              href: ../financials/localizations/brazil.md
             - name: نطاق التعريب
               href: ../financials/localizations/latam-bra-scope.md
             - name: الدفاتر المالية‬
-              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
+                - name: نظرة عامة على الكتب المالية في البرازيل
+                  href: ../financials/localizations/latam-bra-fiscal-books.md
                 - name: تكوين الدفاتر المالية‬
                   href: ../financials/localizations/latam-bra-configure-fiscal-books.md
                 - name: المستندات المالية لضريبة ICMS
@@ -1350,8 +1565,9 @@
                 - name: الإشعارات المدينة للمشروع
                   href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
             - name: عملية NF-e
-              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
+                - name: نظرة عامة على عملية NF-e في البرازيل
+                  href: ../financials/localizations/latam-bra-nf-e-process.md
                 - name: الإرسال التلقائي لمستندات NF-e المالية
                   href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
                 - name: إنشاء رسائل بريد إلكتروني لـ NF-e المعتمد وإرفاق ملفات DANFE PDF وملفات NF-e XML برسائل البريد الإلكتروني
@@ -1397,8 +1613,9 @@
             - name: حساب الفائدة والغرامات على مدفوعات العميل
               href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
             - name: الضرائب
-              href: ../financials/localizations/latam-bra-calculate-taxes.md
               items:
+                - name: نظرة عامة على الضرائب في البرازيل
+                  href: ../financials/localizations/latam-bra-calculate-taxes.md
                 - name: حساب الضريبة على عروض أسعار الشراء
                   href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
                 - name: إنشاء تقييم ضريبة - ICMS‎
@@ -1444,8 +1661,9 @@
                 - name: ضرائب الخصم على مدفوعات المورد
                   href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
         - name: الصين
-          href: ../financials/localizations/china.md
           items:
+            - name: نظرة عامة على الصين
+              href: ../financials/localizations/china.md
             - name: Finance and Operations مشغّل بواسطة 21Vianet في الصين
               href: ../dev-itpro/deployment/china-local-deployment.md
             - name: مقارنة قوائم مكونات الصنف
@@ -1485,9 +1703,10 @@
             - name: الأسئلة المتداولة حول فواتير عملاء ضريبة القيمة المضافة
               href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
         - name: جمهورية التشيك
-          href: ../financials/localizations/czech-republic.md
           items:
-            - name: إشعار دائن على خصم نقدي​
+            - name: جمهورية التشيك
+              href: ../financials/localizations/czech-republic.md
+            - name: إشعار دائن على خصم نقدي
               href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
             - name: الأصول الثابتة
               items:
@@ -1514,8 +1733,9 @@
             - name: إقفال نهاية السنة
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: الدنمارك
-          href: ../financials/localizations/denmark.md
           items:
+            - name: نظرة عامة على الدنمارك
+              href: ../financials/localizations/denmark.md
             - name: تعيين تنسيق إيصال دفع لحساب العميل
               href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
             - name: إنشاء وترحيل فاتورة عميل لعميل القطاع العام
@@ -1539,18 +1759,21 @@
             - name: إعداد تنسيق إيصال الدفع
               href: ../financials/localizations/tasks/set-up-payment-slip-format.md
         - name: إستونيا
-          href: ../financials/localizations/estonia.md
           items:
+            - name: نظرة عامة على إستونيا
+              href: ../financials/localizations/estonia.md
             - name: طلبات المعلومات الشخصية
               href: ../financials/localizations/emea-est-personal-info.md
             - name: كشف ضريبة القيمة المضافة
               href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: أوروبا
-          href: ../financials/localizations/europe.md
           items:
+            - name: نظرة عامة على أوروبا
+              href: ../financials/localizations/europe.md
             - name: أصحاب السُلف‬
-              href: ../financials/localizations/emea-advance-holders.md
               items:
+                - name: نظرة عامة على أصحاب السُلف
+                  href: ../financials/localizations/emea-advance-holders.md
                 - name: حركات أصحاب السُلف
                   href: ../financials/localizations/emea-advance-holders-transactions.md
                 - name: دفع مقدم لموظف (‏‫أوروبا الشرقية‬)
@@ -1606,8 +1829,9 @@
                 - name: إنشاء وتصدير دفعات المورّد باستخدام تنسيق الدفع ISO20022
                   href: ../financials/localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
             - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
-              href: ../financials/localizations/emea-intrastat.md
               items:
+                - name: نظرة عامة على نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
+                  href: ../financials/localizations/emea-intrastat.md
                 - name: تحويل الحركات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
                 - name: تحديد عنوان الشحن لحركة مشتركة بين المجتمعات
@@ -1685,8 +1909,9 @@
             - name: عرض الحركات عند التسوية
               href: ../financials/localizations/emea-transactions-settlement-form.md
         - name: فرنسا
-          href: ../financials/localizations/france.md
           items:
+            - name: نظرة عامة على فرنسا
+              href: ../financials/localizations/france.md
             - name: القطاع العام
               items:
                 - name: محاسبة القطاع العام
@@ -1695,7 +1920,7 @@
                   href: ../financials/localizations/emea-fra-commitments-public-sector.md
                 - name: Mandats de paiement
                   href: ../financials/localizations/emea-fra-mandats-de-paiement.md
-                - name: التدبير والتوريد
+                - name: التدبير وتحديد الموارد
                   href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
                 - name: Titres de recette
                   href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
@@ -1740,13 +1965,15 @@
                 - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
                   href: ../retail/localizations/emea-fra-deployment.md
         - name: ألمانيا
-          href: ../financials/localizations/germany.md
           items:
+            - name: نظرة عامة على ألمانيا
+              href: ../financials/localizations/germany.md
             - name: إهلاك الاستحواذ الإضافي
               href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
             - name: ملف مراجعة
-              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
               items:
+                - name: نظرة عامة حول ملف المراجعة الألماني
+                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                 - name: تخصيص تكوين ملف المراجعة
                   href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
                 - name: إنشاء ملف مراجعة
@@ -1761,24 +1988,26 @@
               href: ../financials/localizations/emea-deu-journal-list-report.md
             - name: إعداد الإقرارات الضريبية الإلكترونية
               href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
-        - name: هنغاريا‬
-          href: ../financials/localizations/hungary.md
+        - name: المجر
           items:
+            - name: نظرة عامة على المجر
+              href: ../financials/localizations/hungary.md
             - name: حساب سعر الصرف
               href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
             - name: طرق إهلاك الأصول الثابتة
               href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
             - name: الأصول الثابتة ذات التكلفة المنخفضة​
               href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
-            - name: نقل أصل ثابت إلى المخزون​
+            - name: نقل أصل ثابت إلى المخزون
               href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
             - name: مستندات استرداد الضرائب
               href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
             - name: إقفال نهاية السنة
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: أيسلندا
-          href: ../financials/localizations/iceland.md
           items:
+            - name: نظرة عامة على أيسلندا
+              href: ../financials/localizations/iceland.md
             - name: إنشاء حساب مورد وإرفاق فئة إقرار الفاتورة
               href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
             - name: إعداد إقرار فاتورة للموردين
@@ -1788,11 +2017,15 @@
             - name: تحديث إقرارات فواتير الموردين وإنشاء التقرير
               href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
         - name: الهند
-          href: ../financials/localizations/india.md
           items:
+            - name: نظرة عامة على الهند
+              href: ../financials/localizations/india.md
+            - name: نطاق عمليات التطويع المحلي للهند
+              href: ../financials/localizations/apac-ind-scope.md
             - name: الأصول الثابتة
-              href: ../financials/localizations/apac-ind-fixed-assets.md
               items:
+                - name: نظرة عامة على الأصول الثابتة في الهند
+                  href: ../financials/localizations/apac-ind-fixed-assets.md
                 - name: إرفاق تقويم يستند إلى الأيام بدفتر أصول ثابتة
                   href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
                 - name: حساب إهلاك الوردية
@@ -1815,10 +2048,11 @@
                   href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
                 - name: تحويل عناصر رأس المال إلى الأصل الثابت
                   href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
-            - name: GST للهند
-              href: ../financials/localizations/apac-ind-gst.md
+            - name: ضريبة السلع والخدمات (GST) للهند
               items:
-                - name: المجموعة المرجعية لضريبة السلع والخدمات (GST) في الهند
+                - name: نظرة عامة على ضريبة السلع والخدمات (GST) في الهند
+                  href: ../financials/localizations/apac-ind-gst.md
+                - name: المجموعات المرجعية لضريبة السلع والخدمات (GST) في الهند
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: تكامل ضريبة السلع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
@@ -1960,23 +2194,28 @@
                   href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
                 - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
                   href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: نظرة عامة على محرك الضريبة
-              href: ../financials/general-ledger/tax-engine.md
+            - name: محرك الضريبة
               items:
-                - name: استيراد التكوين
-                  href: ../financials/general-ledger/tax-engine-import-configuration.md
-                - name: إمكانية تطبيق محرك الضريبة
-                  href: ../financials/general-ledger/tax-engine-applicability.md
-                - name: تكامل محرك الضريبة
-                  href: ../financials/general-ledger/tax-engine-integration.md
-                - name: توسيع محرك الضريبة
-                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+                - name: نظرة عامة على محرك الضريبة
+                  href: ../financials/general-ledger/tax-engine.md
+                  items:
+                    - name: استيراد التكوين
+                      href: ../financials/general-ledger/tax-engine-import-configuration.md
+                    - name: إمكانية تطبيق محرك الضريبة
+                      href: ../financials/general-ledger/tax-engine-applicability.md
+                    - name: تكامل محرك الضريبة
+                      href: ../financials/general-ledger/tax-engine-integration.md
+                    - name: توسيع محرك الضريبة
+                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
             - name: الأسئلة المتداولة حول حدود الضريبة
               href: ../financials/localizations/apac-ind-tax-thresholds.md
+            - name: تحويلات الأسهم
+              href: ../financials/localizations/apac-ind-stock-transfer.md
         - name: إيطاليا
-          href: ../financials/localizations/italy.md
           items:
-            - name: تفاصيل كشوف حساب ضريبة القيمة المضافة​
+            - name: نظرة عامة على إيطاليا
+              href: ../financials/localizations/italy.md
+            - name: تفاصيل كشوف حساب ضريبة القيمة المضافة
               href: ../financials/localizations/emea-ita-vat-statements-details.md
             - name: تقرير القائمة السوداء
               href: ../financials/localizations/emea-ita-black-list-report.md
@@ -1992,13 +2231,14 @@
               href: ../financials/localizations/emea-ita-packing-slip.md
             - name: دفاتر ضريبة المبيعات
               href: ../financials/localizations/emea-ita-fiscal-books.md
-            - name: الدفعة المقسمة للفواتير الصادرة للإدارة العامة​
+            - name: الدفعة المقسمة للفواتير الصادرة للإدارة العامة
               href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
             - name: ضريبة الخصم
               href: ../financials/localizations/emea-ita-withholding-tax.md
         - name: اليابان
-          href: ../financials/localizations/japan.md
           items:
+            - name: نظرة عامة على اليابان
+              href: ../financials/localizations/japan.md
             - name: الحصول على أصل ثابت والمطالبة بمنح الإعانة الحكومية
               href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
             - name: الحصول على أصل ثابت بالتزامات تقاعد الأصل
@@ -2156,9 +2396,10 @@
             - name: ‏‫استخدام قائمة تفكيك التجميع الخاصة بالأصول الثابتة‬
               href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
         - name: لاتفيا
-          href: ../financials/localizations/latvia.md
           items:
-            - name: محاسبة الأصول الثابتة​
+            - name: نظرة عامة على لاتفيا
+              href: ../financials/localizations/latvia.md
+            - name: محاسبة الأصول الثابتة
               href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
             - name: تعقب التغييرات بمواقع الأصول الثابتة
               href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
@@ -2169,8 +2410,9 @@
             - name: تفاصيل كشف حساب ضريبة القيمة المضافة
               href: ../financials/localizations/emea-lva-vat-statement-details.md
         - name: ليتوانيا
-          href: ../financials/localizations/lithuania.md
           items:
+            - name: نظرة عامة على ليتوانيا
+              href: ../financials/localizations/lithuania.md
             - name: كشف إصلاح الأصول الثابتة
               href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
             - name: ‏‫إنشاء عملية تحويل للأصول الثابتة بين مستندات المستودعات‬
@@ -2180,8 +2422,9 @@
             - name: تفاصيل كشف حساب ضريبة القيمة المضافة
               href: ../financials/localizations/emea-ltu-vat-statement-details.md
         - name: ماليزيا
-          href: ../financials/localizations/malaysia.md
           items:
+            - name: نظرة عامة ماليزيا
+              href: ../financials/localizations/malaysia.md
             - name: إنشاء ائتمان عميل لمبيعات المشروع
               href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
             - name: إنشاء دين عميل لمبيعات المشروع
@@ -2203,8 +2446,9 @@
             - name: إعداد بنود تصريف GST‬
               href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
         - name: المكسيك
-          href: ../financials/localizations/mexico.md
           items:
+            - name: نظرة عامة على المكسيك
+              href: ../financials/localizations/mexico.md
             - name: نطاق التعريب
               href: ../financials/localizations/latam-mex-scope.md
             - name: تقرير إعلان تسوية التضخم
@@ -2242,15 +2486,17 @@
             - name: معرفات تسجيل الموردين
               href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
         - name: هولندا
-          href: ../financials/localizations/netherlands.md
           items:
+            - name: نظرة عامة على هولندا
+              href: ../financials/localizations/netherlands.md
             - name: إقرارات الضريبة الإلكترونية‬ (EVAT)
               href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
             - name: تكامل Semansys XBRL
               href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
         - name: النرويج
-          href: ../financials/localizations/norway.md
           items:
+            - name: نظرة عامة على النرويج
+              href: ../financials/localizations/norway.md
             - name: تنسيقات الدفع الخاصة بالعملاء والموردين
               href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
             - name: دفع العميل استنادًا إلى معرّف الدفع
@@ -2264,11 +2510,12 @@
             - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
               href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
         - name: بولندا
-          href: ../financials/localizations/poland.md
           items:
+            - name: نظرة عامة على بولندا
+              href: ../financials/localizations/poland.md
             - name: تنشيط محاسبة storno
               href: ../financials/localizations/emea-pol-red-storno.md
-            - name: حساب خصومات البند من سعر الوحدة​
+            - name: حساب خصومات البند من سعر الوحدة
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: ملاحظات التصحيح​
               href: ../financials/localizations/emea-pol-correction-notes.md
@@ -2290,11 +2537,12 @@
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: فائدة الضرائب وضرائب من دون فائدة
               href: ../financials/localizations/emea-pol-interest-calculation.md
-            - name: كشف الأرصدة والدوران​
+            - name: كشف الأرصدة والدوران
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: روسيا
-          href: ../financials/localizations/russia.md
           items:
+            - name: نظرة عامة على روسيا
+              href: ../financials/localizations/russia.md
             - name: دفتر الأستاذ العام
               items:
                 - name: مراسلات الحسابات
@@ -2306,8 +2554,9 @@
                 - name: استيراد أسعار صرف العملات من البنك المركزي لروسيا الاتحادية (CBRF)
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: أصحاب السُلف‬
-              href: ../financials/localizations/rus-advance-holders.md
               items:
+                - name: نظرة عامة على أصحاب السُلف في روسيا
+                  href: ../financials/localizations/rus-advance-holders.md
                 - name: إنشاء صاحب سلفة
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: العمليات اليومية لأصحاب السلف
@@ -2318,18 +2567,26 @@
                   href: ../financials/localizations/rus-advance-adjustment-parameters.md
                 - name: تقارير أصحاب السُلف‬
                   href: ../financials/localizations/rus-local-management-reports-primary-forms.md
-            - name: البنك
+            - name: النقد والبنوك
               items:
                 - name: إعداد الحسابات البنكية
                   href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
                 - name: إعداد ومعالجة أوامر الدفع
                   href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: تعديل سعر الصرف
+                  href: ../financials/localizations/rus-exchange-adjustment.md
                 - name: المبيعات والمشتريات والتحويلات بالعملة الأجنبية
                   href: ../financials/localizations/rus-currency-sale-purchase.md
+                - name: مصروفات نثرية
+                  href: ../financials/localizations/emea-petty-cash.md
             - name: ضريبة القيمة المضافة
               items:
                 - name: الترحيل المحلي الخاص لضريبة القيمة المضافة للإخراج
                   href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
+                - name: معالجة الفواتير وطباعتها
+                  href: ../financials/localizations/rus-invoice-facture-process-print.md
+                - name: فواتير المراجعة وفواتير تصحيحية
+                  href: ../financials/localizations/rus-revise-invoice-facture.md
                 - name: ضريبة القيمة المضافة (VAT) لوكلاء الضرائب
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: إقرار ضريبة القيمة المضافة (VAT)
@@ -2382,6 +2639,8 @@
                   href: ../financials/localizations/rus-not-valuable-assets.md
             - name: الحسابات الدائنة والمدينة
               items:
+                - name: تصحيحات إشعار دائن (روسيا)
+                  href: ../financials/localizations/rus-credit-note-correction.md
                 - name: الفواتير للدفع
                   href: ../financials/localizations/rus-invoice-payment.md
                 - name: إعداد التحكم في الأبعاد للتسويات
@@ -2429,23 +2688,26 @@
                 - name: الإعلام عن التأجيلات
                   href: ../financials/localizations/rus-reporting-deferrals.md
         - name: المملكة العربية السعودية‬
-          href: ../financials/localizations/saudi-arabia.md
           items:
+            - name: نظرة عامة على المملكة العربية السعودية
+              href: ../financials/localizations/saudi-arabia.md
             - name: ضريبة المبيعات
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: إعداد تقارير الزكاة للمملكة العربية السعودية
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: سنغافورة
-          href: ../financials/localizations/singapore.md
           items:
+            - name: نظرة عامة على سنغافورة
+              href: ../financials/localizations/singapore.md
             - name: إنشاء تقرير GST-05
               href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
         - name: إسبانيا
-          href: ../financials/localizations/spain.md
           items:
-            - name: تطبيق الخصومات النقدية في الفاتورة​
+            - name: نظرة عامة على إسبانيا
+              href: ../financials/localizations/spain.md
+            - name: تطبيق الخصومات النقدية في الفاتورة
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
-            - name: خيارات الكمبيالة​
+            - name: خيارات الكمبيالة
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
             - name: حساب تواريخ الاستحقاق والإبلاغ في متوسط فترة المدفوعات
               href: ../financials/localizations/emea-esp-invoice-due-dates.md
@@ -2467,27 +2729,30 @@
               href: ../financials/localizations/emea-esp-promissory-note-options.md
             - name: تقرير 340
               href: ../financials/localizations/emea-esp-report-340.md
-            - name: دورات المبيعات والشراء​
+            - name: دورات المبيعات والشراء
               href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
             - name: الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬
               href: ../financials/localizations/emea-esp-opening-sheets-spain.md
         - name: السويد
-          href: ../financials/localizations/sweden.md
           items:
+            - name: نظرة عامة على السويد
+              href: ../financials/localizations/sweden.md
             - name: تصدير معلومات مالية للمراجعين في السويد
               href: ../financials/localizations/emea-swe-sie-standard-report.md
-            - name: استيراد تنسيقات الدفع​
+            - name: استيراد تنسيقات الدفع
               href: ../financials/localizations/emea-swe-payment-formats-import.md
             - name: آلات تسجيل المدفوعات النقدية
               href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
         - name: سويسرا
-          href: ../financials/localizations/switzerland.md
           items:
+            - name: نظرة عامة على سويسرا
+              href: ../financials/localizations/switzerland.md
             - name: استيراد دفعات العملاء في ESR
               href: ../financials/localizations/emea-che-esr-customer-payments-import.md
         - name: تايلاند
-          href: ../financials/localizations/thailand.md
           items:
+            - name: نظرة عامة على تايلاند
+              href: ../financials/localizations/thailand.md
             - name: تقارير بطاقات المخزون
               href: ../financials/localizations/apac-tha-stock-card-reports.md
             - name: فاتورة ضريبة الإحلال/التسوية
@@ -2497,8 +2762,9 @@
             - name: ضريبة الخصم
               href: ../financials/localizations/apac-tha-withholding-tax.md
         - name: المملكة المتحدة
-          href: ../financials/localizations/united-kingdom.md
           items:
+            - name: نظرة عامة على المملكة المتحدة
+              href: ../financials/localizations/united-kingdom.md
             - name: نظام صناعة الإنشاء
               href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
             - name: إنشاء ائتمان على خصم التسوية
@@ -2516,15 +2782,17 @@
             - name: رقمنة الضرائب لضريبة القيمة المضافة
               href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
         - name: الولايات المتحدة
-          href: ../financials/localizations/united-states.md
           items:
+            - name: نظرة عامة على الولايات المتحدة الأمريكية
+              href: ../financials/localizations/united-states.md
             - name: تقرير 1099 لنهاية العام للولايات المتحدة
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
             - name: نموذج 1099 للقطاع العام
               href: ../financials/localizations/noam-usa-form-1099-public-sector.md
     - name: الموارد البشرية
-      href: hr/hr-landing-page.md
       items:
+        - name: نظرة عامة على الموارد البشرية
+          href: hr/hr-landing-page.md
         - name: تطوير استراتيجية موارد بشرية
           items:
             - name: إنشاء الأهداف
@@ -2676,13 +2944,14 @@
             - name: الاحتفاظ بمعلومات إصابة ومرض الموظف
               href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: كشف رواتب الولايات المتحدة
-          href: hr/localizations/noam-usa-payroll.md
           items:
+            - name: نظرة عامة على كشف رواتب الولايات المتحدة‬
+              href: hr/localizations/noam-usa-payroll.md
             - name: إعداد كشف الرواتب
               items:
                 - name: إعداد كشف الرواتب للعاملين
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
-                - name: إعداد دورات العمل وفترات العمل​
+                - name: إعداد دورات العمل وفترات العمل
                   href: hr/localizations/noam-usa-work-cycle-work-period-tasks.md
                 - name: إعداد خطط استحقاق الميزات
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
@@ -2743,13 +3012,15 @@
                 - name: تقارير كشف الحساب القياسية
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
     - name: المعلومات
-      href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
+        - name: الصفحة الرئيسية للمعلومات
+          href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
         - name: الوصول إلى المعلومات وإعداد التقارير
           href: ../dev-itpro/analytics/information-access-reporting.md?toc=/fin-and-ops/toc.json
         - name: محتوى Power BI
-          href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
           items:
+            - name: الصفحة الرئيسية لمحتوى Power BI
+              href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
             - name: الفعلي مقابل الموازنة
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
             - name: المزايا
@@ -2763,8 +3034,9 @@
             - name: التعويض والمزايا
               href: ../dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
             - name: تحليل محاسبة التكاليف
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
+                - name: محتوى Power BI لتحليل محاسبة التكاليف
+                  href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
                 - name: إعداد الأمان لمحتوى Power BI لتحليل محاسبة التكاليف
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: إدارة التكلفة
@@ -2812,8 +3084,9 @@
             - name: تكوين SSRS لعمليات نشر محلية
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: طباعة
-              href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
+                - name: نظرة عامة على طباعة المستند
+                  href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
                 - name: تثبيت "وكيل توجيه المستند" لتمكين طباعة الشبكة
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: ترقية ‏‫وكيل توجيه المستند
@@ -2910,10 +3183,8 @@
                       href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
             - name: تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: تصميم تكوينات التقارير الإلكترونية (ER) التي تعتمد على إصدار Finance and Operations
-              items:
-                - name: تحديد تبعية تكوينات التقارير الإلكترونية (ER) في المكونات الأخرى
-                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: تحديد تبعية تكوينات التقارير الإلكترونية (ER) في المكونات الأخرى
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
             - name: تصميم حل تقارير إلكترونية (ER) لاستخدام الأبعاد المالية
               items:
                 - name: تصميم نماذج بيانات لاستخدام الأبعاد المالية كمصادر بيانات
@@ -3032,6 +3303,8 @@
                       href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
                 - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
                   href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+                - name: نظرة عامة على إدارة مستندات الأعمال
+                  href: ../dev-itpro/analytics/er-business-document-management.md?toc=/fin-and-ops/toc.json
             - name: API إطار عمل التقارير الإلكترونية (ER)
               items:
                 - name: توسيع قائمة وظائف التقارير الإلكترونية
@@ -3081,19 +3354,22 @@
             - name: إحضار قاعدة بياناتك الخاصة
               href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
     - name: إدارة المخزون
-      href: ../supply-chain/inventory/inventory-home-page.md
       items:
-        - name: نظرة عامة على الوصول
-          href: ../supply-chain/inventory/arrival-overview.md
+        - name: نظرة عامة على إدارة المخزون
+          href: ../supply-chain/inventory/inventory-home-page.md
+        - name: الوصول
           items:
+            - name: نظرة عامة على الوصول
+              href: ../supply-chain/inventory/arrival-overview.md
             - name: إعداد ملف تعريف نظرة عامة على وصول الصنف
               href: ../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md
         - name: إدارة الجودة
-          href: ../supply-chain/inventory/enable-quality-management.md
           items:
+            - name: نظرة عامة على إدارة الجودة
+              href: ../supply-chain/inventory/enable-quality-management.md
             - name: عمليات إدارة الجودة
               href: ../supply-chain/inventory/quality-management-processes.md
-            - name: إدارة عدم المطابقة​
+            - name: إدارة عدم المطابقة
               href: ../supply-chain/inventory/enable-nonconformance-management.md
             - name: إعداد المتطلبات الأساسية للإدارة
               href: ../supply-chain/inventory/tasks/set-up-prerequisites-nonconformance-management.md
@@ -3153,11 +3429,12 @@
               href: ../supply-chain/inventory/tasks/correct-inventory-tracking-information.md
             - name: تسجيل الرقم التسلسلي في عملية المبيعات
               href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
-            - name: مساحة عمل محمولة للمخزون الفعلي​
+            - name: مساحة عمل محمولة للمخزون الفعلي
               href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md
         - name: العملية الصادرة
-          href: ../supply-chain/inventory/outbound-process.md
           items:
+            - name: نظرة عامة على لعملية الصادرة
+              href: ../supply-chain/inventory/outbound-process.md
             - name: حجز كميات المخزون
               href: ../supply-chain/inventory/reserve-inventory-quantities.md
             - name: حجز نفس الدُفعة لأمر مبيعات
@@ -3265,12 +3542,140 @@
               href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
             - name: تقارير طلبات الصيانة
               href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
-    - name: التخطيط الرئيسي
-      href: ../supply-chain/master-planning/master-planning-home-page.md
-      items:
-        - name: الخطط الرئيسية
-          href: ../supply-chain/master-planning/master-plans.md
+        - name: إعداد أوامر العمل
           items:
+            - name: فئات أنواع مهام الصيانة وأنواع مهام الصيانة، ومتغيرات أنواع مهام الصيانة، ومهن مهام الصيانة، وقوائم فحص الصيانة
+              href: ../supply-chain/asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
+            - name: حالات دورة حياة أمر العمل
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-lifecycle-states.md
+            - name: أنواع أمر العمل
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-types.md
+            - name: إعداد مشروع أمر العمل
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-project-setup.md
+            - name: مستوى الخدمة والاشتراك
+              href: ../supply-chain/asset-management/setup-for-work-orders/service-level-and-description.md
+            - name: التنفيذ المجدول
+              href: ../supply-chain/asset-management/setup-for-work-orders/scheduled-execution.md
+            - name: إدارة الأخطاء
+              href: ../supply-chain/asset-management/setup-for-work-orders/fault-management.md
+        - name: أوامر العمل
+          items:
+            - name: مقدمة لأوامر العمل
+              href: ../supply-chain/asset-management/work-orders/introduction-to-work-orders.md
+            - name: أوامر العمل التي تم إنشاؤها يدويًا
+              href: ../supply-chain/asset-management/work-orders/manually-created-workorders.md
+            - name: تنبؤات متطلبات الصيانة
+              href: ../supply-chain/asset-management/work-orders/maintenance-forecasts.md
+            - name: التدبير
+              href: ../supply-chain/asset-management/work-orders/procurement.md
+            - name: التحديث اليدوي لعدادات الأصول
+              href: ../supply-chain/asset-management/work-orders/manual-update-of-asset-counters.md
+            - name: التحديث التلقائي لعدادات الأصول
+              href: ../supply-chain/asset-management/work-orders/automatic-update-of-asset-counters.md
+            - name: قوائم فحص الصيانة
+              href: ../supply-chain/asset-management/work-orders/maintenance-checklists.md
+            - name: وقت تعطل الصيانة
+              href: ../supply-chain/asset-management/work-orders/maintenance-downtime.md
+            - name: إضافة خطأ إلى أمر العمل
+              href: ../supply-chain/asset-management/work-orders/add-fault-to-work-order.md
+            - name: تقرير أمر العمل
+              href: ../supply-chain/asset-management/work-orders/work-order-report.md
+            - name: مجموعات أمر العمل
+              href: ../supply-chain/asset-management/work-orders/work-order-pools.md
+            - name: مهام صيانة أوامر العمل النشطة
+              href: ../supply-chain/asset-management/work-orders/active-work-order-jobs-overview.md
+            - name: أوامر العمل والأصول الثابتة
+              href: ../supply-chain/asset-management/work-orders/work-orders-and-fixed-assets.md
+        - name: التكامل مع إدارة المشاريع ومحاسبتها
+          items:
+            - name: التنبؤات وأوامر العمل والمشاريع
+              href: ../supply-chain/asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+        - name: الصيانة الوقائية والتفاعلية
+          items:
+            - name: الصيانة الوقائية
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
+            - name: خطط الصيانة
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-plans.md
+            - name: خطط الصيانة المجدولة
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/schedule-maintenance-plans.md
+            - name: دورات الصيانة
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-rounds.md
+            - name: جدول الصيانة
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
+            - name: تكلفة جدول الصيانة
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
+            - name: إنشاء أوامر العمل
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
+            - name: وقت تعطل الصيانة
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
+        - name: تخطيط القدرة الإنتاجية
+          items:
+            - name: حساب القدرة الإنتاجية
+              href: ../supply-chain/asset-management/capacity-planning/calculate-capacity-load.md
+            - name: حساب تنبؤ العنصر
+              href: ../supply-chain/asset-management/capacity-planning/calculate-item-forecast.md
+        - name: جدولة أمر العمل
+          items:
+            - name: تقويم عامل الصيانة وجدولته
+              href: ../supply-chain/asset-management/work-order-scheduling/maintenance-worker-calendar-and-scheduling.md
+            - name: عمال الصيانة المفضلون
+              href: ../supply-chain/asset-management/work-order-scheduling/preferred-maintenance-workers.md
+            - name: جدولة أوامر العمل
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-orders.md
+            - name: إرسال أمر العمل
+              href: ../supply-chain/asset-management/work-order-scheduling/dispatch-work-order.md
+            - name: جدولة أمر العمل في تاريخ ووقت محددين
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-order-on-specific-date-and-time.md
+            - name: مهام صيانة أوامر العمل المجدولة
+              href: ../supply-chain/asset-management/work-order-scheduling/scheduled-work-order-maintenance-jobs.md
+            - name: حساب تحميل السعة على أوامر العمل المجدولة
+              href: ../supply-chain/asset-management/work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md
+        - name: الاستهلاك
+          items:
+            - name: تسجيل الاستهلاك
+              href: ../supply-chain/asset-management/consumption/register-consumption.md
+            - name: إنشاء تقارير الاستهلاك‬
+              href: ../supply-chain/asset-management/consumption/create-consumption-reports.md
+        - name: الضمان
+          items:
+            - name: اتفاقية الضمان
+              href: ../supply-chain/asset-management/warranty/warranty-agreement.md
+            - name: الضمان على الأصول وأنواع الأصول
+              href: ../supply-chain/asset-management/warranty/warranty-on-assets-and-asset-types.md
+        - name: موازنات الصيانة
+          items:
+            - name: موازنات الصيانة
+              href: ../supply-chain/asset-management/maintenance-budgets/create-maintenance-budget.md
+            - name: تحديث موازنات الصيانة
+              href: ../supply-chain/asset-management/maintenance-budgets/update-maintenance-budget.md
+        - name: المراقبة والتقارير
+          items:
+            - name: التحكم في التكاليف والتاريخ
+              href: ../supply-chain/asset-management/controlling-and-reporting/cost-and-date-control.md
+            - name: التحكم في ساعات العمل
+              href: ../supply-chain/asset-management/controlling-and-reporting/work-hour-control.md
+            - name: التحكم في تكاليف خطأ الأصل
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-cost-control.md
+            - name: تحليل خطأ الأصل
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-analysis.md
+            - name: ‏‫مؤشرات الأداء الرئيسي‬ الخاصة بالأصل
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-kpis.md
+            - name: عنصر موجود في المكان المحدد لاستخدامه لاحقاً
+              href: ../supply-chain/asset-management/controlling-and-reporting/item-where-used.md
+            - name: حالة الصيانة
+              href: ../supply-chain/asset-management/controlling-and-reporting/maintenance-status.md
+        - name: إدارة البيانات
+          items:
+            - name: كيانات هدف
+              href: ../supply-chain/asset-management/data-management/target-entities.md
+    - name: التخطيط الرئيسي
+      items:
+        - name: الصفحة الرئيسية للتخطيط الرئيسي
+          href: ../supply-chain/master-planning/master-planning-home-page.md
+        - name: الخطط الرئيسية
+          items:
+            - name: نظرة عامة على الخطط الرئيسية
+              href: ../supply-chain/master-planning/master-plans.md
             - name: إعداد الخطط الرئيسية
               href: ../supply-chain/master-planning/master-planning-setup.md
             - name: معالج إعداد التخطيط الرئيسي
@@ -3304,8 +3709,9 @@
             - name: تحسين أداء التخطيط الرئيسي
               href: ../supply-chain/master-planning/master-planning-performance.md
             - name: الخطط الرئيسية ووظائف المواقع المتعددة
-              href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
+                - name: نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة
+                  href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
                 - name: التخطيط الرئيسي لتغطية الموقع، المستودع إلزامي
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md
                 - name: التخطيط الرئيسي لتغطية الموقع، المستودع غير إلزامي
@@ -3327,8 +3733,9 @@
             - name: التعاون مع عملاء سلسلة التوريد الداخلية
               href: ../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md
         - name: التنبؤ بالطلب
-          href: ../supply-chain/master-planning/introduction-demand-forecasting.md
           items:
+            - name: نظرة عامة على التنبؤ بالطلب‬
+              href: ../supply-chain/master-planning/introduction-demand-forecasting.md
             - name: إعداد التنبؤ بالطلب
               href: ../supply-chain/master-planning/demand-forecasting-setup.md
             - name: استيراد البيانات التاريخية‬ للتنبؤات بالطلب
@@ -3349,12 +3756,14 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: تعديل التنبؤ بالطلب يدوياً
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: تطبيق الجوال
-      href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+    - name: تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة
       items:
-        - name: مساحات العمل المحمولة المتاحة
-          href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
+        - name: الصفحة الرئيسية لتطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة
+          href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+        - name: مساحات العمل المحمولة
           items:
+            - name: مساحات العمل المحمولة المتاحة
+              href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
             - name: دليل الشركة
               href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: التحكم في التكاليف
@@ -3371,7 +3780,7 @@
               href: ../financials/project-management/project-mobile-application-overview.md
             - name: إدخال وقت المشروع
               href: ../financials/project-management/project-time-entry-mobile-workspace.md
-            - name: الجدول الزمني للمشروع
+            - name: Project Timesheet
               href: ../financials/project-management/project-timesheet.md
             - name: اعتماد أمر الشراء
               href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
@@ -3381,9 +3790,10 @@
               href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md
         - name: نشر مساحات العمل المحمولة
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
-    - name: تكامل Office
-      href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
+    - name: تكامل Office‬‏‫
       items:
+        - name: نظرة عامة على تكامل Office
+          href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
         - name: برنامج تعليمي لتكامل Office
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
         - name: فتح بيانات الكيان في Excel وتحديثه باستخدام الوظيفة الإضافية لـ Excel
@@ -3400,26 +3810,30 @@
           href: ../dev-itpro/dev-tools/sysmailer-develop.md
         - name: استكشاف أخطاء تكامل Office وإصلاحها
           href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/fin-and-ops/toc.json
-    - name: التدبير والتوريد
-      href: ../supply-chain/procurement/procurement-sourcing-overview.md
+    - name: التدبير وتحديد الموارد
       items:
-        - name: سير عمل التدبير والتوريد
+        - name: نظرة عامة على التدبير وتحديد الموارد
+          href: ../supply-chain/procurement/procurement-sourcing-overview.md
+        - name: سير عمل التدبير وتحديد الموارد
           href: ../supply-chain/procurement/procurement-sourcing-workflows.md
         - name: كتالوجات التدبير
-          href: ../supply-chain/procurement/procurement-catalogs.md
           items:
+            - name: نظرة عامة على كتالوجات التدبير
+              href: ../supply-chain/procurement/procurement-catalogs.md
             - name: إنشاء كتالوج تدبير
               href: ../supply-chain/procurement/tasks/create-procurement-catalog.md
             - name: إعداد التدرج الهرمي لفئات التدبير
               href: ../supply-chain/procurement/tasks/set-up-procurement-category-hierarchy.md
         - name: طلبات الشراء
-          href: ../supply-chain/procurement/purchase-requisitions-overview.md
           items:
+            - name: نظرة عامة على طلبات الشراء
+              href: ../supply-chain/procurement/purchase-requisitions-overview.md
             - name: سير عمل طلب الشراء
               href: ../supply-chain/procurement/purchase-requisitions-workflow.md
         - name: طلبات عروض الأسعار (RFQ)
-          href: ../supply-chain/procurement/request-quotations.md
           items:
+            - name: نظر عامة على طلب عرض الأسعار (RFQ)
+              href: ../supply-chain/procurement/request-quotations.md
             - name: إنشاء طلب لعرض الأسعار
               href: ../supply-chain/procurement/tasks/create-request-quotation.md
             - name: إنشاء طلب يستخدم طلب عرض أسعار
@@ -3471,8 +3885,9 @@
             - name: خصومات المورد
               href: ../supply-chain/procurement/vendor-rebates.md
         - name: نُهُج الشراء
-          href: ../supply-chain/procurement/purchase-policies.md
           items:
+            - name: نظرة عامة على سياسات الشراء
+              href: ../supply-chain/procurement/purchase-policies.md
             - name: إنشاء سياسات الشراء
               href: ../supply-chain/procurement/tasks/create-purchasing-policies.md
             - name: إعداد سياسات للتدرج الهرمي لفئات التدبير
@@ -3530,18 +3945,21 @@
             - name: إرسال مراجعات موازنات المشاريع والموافقة عليها
               href: ../supply-chain/procurement/tasks/submit-approve-project-budget-revision.md
     - name: إدارة المؤسسة
-      href: organization-administration/organization-administration-home-page.md
       items:
+        - name: الصفحة الرئيسية لإدارة المؤسسة
+          href: organization-administration/organization-administration-home-page.md
         - name: التسلسلات الرقمية
-          href: organization-administration/number-sequence-overview.md
           items:
+            - name: نظرة عامة على التسلسل الرقمي
+              href: organization-administration/number-sequence-overview.md
             - name: إعداد التسلسلات الرقمية على أساس فردي
               href: organization-administration/tasks/set-up-number-sequences-individual-basis.md
             - name: إعداد التسلسلات الرقمية باستخدام معالج
               href: organization-administration/tasks/set-up-number-sequences-wizard.md
         - name: المؤسسات والتدرجات الهرمية للمؤسسات
-          href: organization-administration/organizations-organizational-hierarchies.md
           items:
+            - name: نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات
+              href: organization-administration/organizations-organizational-hierarchies.md
             - name: تخطيط التدرج الهرمي للمؤسسات
               href: organization-administration/plan-organizational-hierarchy.md
             - name: إنشاء تدرج هرمي لمؤسسة
@@ -3551,8 +3969,9 @@
             - name: إنشاء وحدات تشغيل
               href: organization-administration/tasks/create-operating-unit.md
         - name: دفتر العناوين العمومي
-          href: organization-administration/overview-global-address-book.md
           items:
+            - name: نظرة عامة على دفتر العناوين العمومي
+              href: organization-administration/overview-global-address-book.md
             - name: التخطيط لدفتر عناوين عمومي ودفاتر العناوين الأخرى
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: تكوين دفتر العناوين العمومي
@@ -3562,8 +3981,9 @@
             - name: تكوين دفاتر العناوين
               href: organization-administration/tasks/address-books.md
         - name: نظام سير العمل
-          href: organization-administration/overview-workflow-system.md
           items:
+            - name: نظرة عامة على نظام سير العمل
+              href: organization-administration/overview-workflow-system.md
             - name: بنية نظام سير العمل
               href: organization-administration/workflow-system-architecture.md
             - name: عناصر سير العمل
@@ -3571,8 +3991,9 @@
             - name: إجراءات سير العمل
               href: organization-administration/workflow-actions.md
             - name: إنشاء عمليات سير عمل
-              href: organization-administration/create-workflow.md
               items:
+                - name: نظرة عامة حول إنشاء عمليات سير العمل
+                  href: organization-administration/create-workflow.md
                 - name: تكوين خصائص سير العمل
                   href: organization-administration/configure-workflow-properties.md
                 - name: تكوين مهام يدوية
@@ -3624,8 +4045,9 @@
             - name: الأسئلة المتداولة حول سير العمل
               href: organization-administration/workflow-FAQ.md
         - name: التنبيهات
-          href: get-started/alerts-overview.md
           items:
+            - name: نظرة عامة على التنبيهات
+              href: get-started/alerts-overview.md
             - name: إنشاء قواعد تنبيه
               href: get-started/create-alerts.md
             - name: المعالجة الدُفعية للتنبيهات
@@ -3633,18 +4055,21 @@
             - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
               href: get-started/alert-email-notifications.md
         - name: التوقيعات الإلكترونية
-          href: organization-administration/electronic-signature-overview.md
           items:
+            - name: نظرة عامة على التوقيعات الإلكترونية
+              href: organization-administration/electronic-signature-overview.md
             - name: إعداد التوقيعات الإلكترونية
               href: organization-administration/tasks/set-up-electronic-signatures.md
-        - name: إدارة الحالة
-          href: organization-administration/cases.md
+        - name: إدارة الحالات
           items:
+            - name: نظرة عامة على إدارة الحالات
+              href: organization-administration/cases.md
             - name: التخطيط لأمان الحالة والعمليات والفئات
               href: organization-administration/plan-case-management.md
         - name: قوالب السجل
-          href: organization-administration/record-templates.md
           items:
+            - name: نظرة عامة على قوالب السجلات
+              href: organization-administration/record-templates.md
             - name: إنشاء قالب سجل
               href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
             - name: استخدام قالب سجل لإنشاء سجل جديد
@@ -3656,8 +4081,9 @@
         - name: بيانات التاريخ/الوقت والمناطق الزمنية
           href: organization-administration/date-time-zones.md
     - name: التحكم بالإنتاج
-      href: ../supply-chain/production-control/production-process-overview.md
       items:
+        - name: نظرة عامة على عملية الإنتاج
+          href: ../supply-chain/production-control/production-process-overview.md
         - name: 'تخطيط الوضع المختلط: دمج التوريد المنفصل والتوريد محدود الفاقد وتوريد العملية'
           href: ../supply-chain/production-control/mixed-mode-plan.md
         - name: إدارة عمل التعاقد من الباطن في الإنتاج
@@ -3721,8 +4147,9 @@
             - name: تشغيل وظائف الإنتاج
               items:
                 - name: إدارة دورة حياة أمر الإنتاج
-                  href: ../supply-chain/production-control/create-production-orders.md
                   items:
+                    - name: نظرة عامة على إدارة دورة حياة أمر الإنتاج
+                      href: ../supply-chain/production-control/create-production-orders.md
                     - name: إنشاء أمر إنتاج
                       href: ../supply-chain/production-control/tasks/create-production-order.md
                     - name: تقدير أمر إنتاج
@@ -3782,8 +4209,9 @@
                 - name: ترحيل الإنتاج
                   href: ../supply-chain/cost-management/production-posting.md
             - name: تسجيل الوقت والحضور
-              href: ../supply-chain/production-control/time-attendance-registrations.md
               items:
+                - name: نظرة عامة على تسجيل الوقت والحضور
+                  href: ../supply-chain/production-control/time-attendance-registrations.md
                 - name: الدفع وفقًا للتسجيلات
                   href: ../supply-chain/production-control/pay-based-on-registrations.md
                 - name: تسجيل الغياب في الوقت والحضور
@@ -3945,8 +4373,9 @@
                 - name: ترحيل الإنتاج
                   href: ../supply-chain/cost-management/production-posting.md
     - name: إدارة معلومات المنتج
-      href: ../supply-chain/pim/product-information.md
       items:
+        - name: نظرة عامة على معلومات المنتجات
+          href: ../supply-chain/pim/product-information.md
         - name: معلومات المنتج
           items:
             - name: معرّفات المنتجات
@@ -3972,8 +4401,9 @@
             - name: إنشاء منتج صادر لشركة واحدة
               href: ../supply-chain/pim/tasks/create-released-product-single-company.md
             - name: حالة دورة حياة المنتج
-              href: ../supply-chain/pim/product-lifecycle.md
               items:
+                - name: نظرة عامة على حالة دورة حياة المنتج
+                  href: ../supply-chain/pim/product-lifecycle.md
                 - name: إنشاء حالة دورة حياة منتج جديد
                   href: ../supply-chain/pim/tasks/new-product-lifecycle-state.md
                 - name: إنشاء حالة دورة حياة منتج افتراضي
@@ -4014,14 +4444,16 @@
               href: ../supply-chain/pim/tasks/create-sales-price-selection-criteria.md
             - name: إعداد تسعير يستند إلى سمة للمنتجات القابلة للتكوين
               href: ../supply-chain/pim/tasks/set-up-attribute-based-pricing-configurable-products.md
-            - name: العمليات الحسابية لقائمة مكونات الصنف​
+            - name: العمليات الحسابية لقائمة مكونات الصنف
               href: ../supply-chain/cost-management/bom-calculations.md
         - name: تكوين المنتج
-          href: ../supply-chain/pim/build-product-configuration-model.md
           items:
+            - name: نظرة عامة على تكوين المنتج
+              href: ../supply-chain/pim/build-product-configuration-model.md
             - name: إنشاء التكوين المستند إلى أبعاد
-              href: ../supply-chain/pim/dimension-based-product-configuration.md
               items:
+                - name: نظرة عامة على تكوين المنتجات المستند إلى الأبعاد
+                  href: ../supply-chain/pim/dimension-based-product-configuration.md
                 - name: بُعد المنتج
                   href: ../supply-chain/pim/product-dimensions.md
                 - name: إنشاء أصل منتج يستند إلى البعد
@@ -4041,8 +4473,9 @@
                 - name: إنشاء التكوينات المستندة إلى أبعاد
                   href: ../supply-chain/pim/tasks/create-dimension-based-configurations.md
             - name: إنشاء تكوين مستند إلى قيد
-              href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
               items:
+                - name: إعداد نموذج تكوين منتج
+                  href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
                 - name: الأسئلة المتداولة حول حساب نموذج تكوين المنتج
                   href: ../supply-chain/pim/calculate-product-configuration-models.md
                 - name: قاعدة التكوين
@@ -4072,8 +4505,9 @@
                 - name: نقل البيانات لنماذج المنتجات
                   href: ../supply-chain/pim/tasks/transfer-data-product-models.md
     - name: إدارة المشاريع ومحاسبتها
-      href: ../financials/project-management/overview-project-management-accounting.md
       items:
+        - name: نظرة عامة على إدارة المشاريع ومحاسبتها
+          href: ../financials/project-management/overview-project-management-accounting.md
         - name: الفوترة بين الشركات الشقيقة
           href: ../financials/project-management/intercompany-invoicing.md
         - name: تكوين فوترة المشروع بين الشركات الشقيقة
@@ -4099,23 +4533,25 @@
         - name: تلقي الأصناف على أمر شراء من متطلبات الصنف
           href: ../financials/project-management/tasks/receive-items-purchase-order-item-requirement.md
         - name: هياكل تنظيم العمل
-          href: ../financials/project-management/work-breakdown-structures.md
           items:
-            - name: تكامل عميل Microsoft Project
+            - name: نظرة عامة على هياكل تنظيم العمل
+              href: ../financials/project-management/work-breakdown-structures.md
+            - name: تكامل Microsoft Project Client
               href: ../financials/project-management/project-integration.md
-        - name: نظرة عامة على تطبيقات المحمول للمشاريع
+        - name: نظرة عامة على تطبيقات المحمول لـ Project
           href: ../financials/project-management/project-mobile-application-overview.md
         - name: مساحة عمل محمولة لإدخال وقت المشروع
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
-        - name: تطبيق المحمول للجدول الزمني للمشروع
+        - name: تطبيق Project Timesheet للأجهزة المحمولة
           href: ../financials/project-management/project-timesheet.md
         - name: الجداول الزمنية للمشاريع على الجهاز المحمول
           href: ../financials/project-management/mobile-timesheets.md
-        - name: تنفيذ الحقول المخصصة لتطبيق المحمول للجدول الزمني للمشروع‬
+        - name: تنفيذ الحقول المخصصة لتطبيق Project Timesheet للأجهزة المحمولة
           href: ../financials/project-management/custom-fields-mobile.md
     - name: المبيعات والتسويق
-      href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:
+        - name: نظرة عامة على المبيعات والتسويق
+          href: ../supply-chain/sales-marketing/overview-sales-marketing.md
         - name: أوامر المبيعات
           items:
             - name: التعهد بالأمر
@@ -4149,8 +4585,9 @@
             - name: تأكيد أوامر المبيعات
               href: ../supply-chain/sales-marketing/tasks/confirm-sales-orders.md
         - name: اتفاقيات البيع
-          href: ../supply-chain/sales-marketing/sales-agreements.md
           items:
+            - name: نظرة عامة على اتفاقيات البيع
+              href: ../supply-chain/sales-marketing/sales-agreements.md
             - name: إدخال اتفاقيات البيع
               href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
             - name: استيفاء اتفاقيات البيع
@@ -4184,16 +4621,18 @@
         - name: إنشاء اتفاقية تجارية جديدة
           href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
     - name: إدارة الخدمة
-      href: ../supply-chain/service-management/service-management-home-page.md
       items:
+        - name: نظرة عامة على إدارة الخدمة
+          href: ../supply-chain/service-management/service-management-home-page.md
         - name: إعداد خدمة العملاء
           items:
             - name: إعداد اتفاقيات الخدمة
-              href: ../supply-chain/service-management/service-agreement-groups.md
               items:
+                - name: نظرة عامة على اتفاقيات الخدمات
+                  href: ../supply-chain/service-management/service-agreement-groups.md
                 - name: إنشاء اتفاقيات خدمات
                   href: ../supply-chain/service-management/create-service-agreements.md
-                - name: '‏‏فترات الخدمة '
+                - name: ‏‏فترات الخدمة
                   href: ../supply-chain/service-management/service-intervals.md
                 - name: إعداد فترات الخدمة
                   href: ../supply-chain/service-management/set-up-service-intervals.md
@@ -4204,13 +4643,15 @@
                 - name: إنشاء مجموعة قوالب خدمة
                   href: ../supply-chain/service-management/create-service-template-group.md
             - name: إعداد مهام الخدمة
-              href: ../supply-chain/service-management/service-tasks.md
               items:
+                - name: نظرة عامة على مهام الخدمة
+                  href: ../supply-chain/service-management/service-tasks.md
                 - name: إنشاء علاقات مهام الخدمة
                   href: ../supply-chain/service-management/create-service-task-relations.md
             - name: إعداد كائنات الخدمة
-              href: ../supply-chain/service-management/service-objects.md
               items:
+                - name: نظرة عامة على كائنات الخدمة
+                  href: ../supply-chain/service-management/service-objects.md
                 - name: إنشاء كائنات خدمة
                   href: ../supply-chain/service-management/create-service-task-relations.md
                 - name: إرفاق أصناف إلى كائنات خدمة
@@ -4230,8 +4671,9 @@
                 - name: إرفاق القوالب بكائنات الخدمة
                   href: ../supply-chain/service-management/attach-templates-service-objects.md
             - name: تحديد أكواد السبب لأوامر الخدمة
-              href: ../supply-chain/service-management/reason-codes-service-orders.md
               items:
+                - name: أكواد السبب لأوامر الخدمة
+                  href: ../supply-chain/service-management/reason-codes-service-orders.md
                 - name: مراحل أمر خدمة
                   href: ../supply-chain/service-management/service-order-stages.md
                 - name: إعداد مراحل أمر الخدمة
@@ -4239,8 +4681,9 @@
                 - name: إنشاء أكواد سبب
                   href: ../supply-chain/service-management/create-reason-codes.md
             - name: إعداد اشتراكات واتفاقيات خدمات
-              href: ../supply-chain/service-management/service-level-agreements.md
               items:
+                - name: نظرة عامة على اتفاقيات مستوى الخدمة
+                  href: ../supply-chain/service-management/service-level-agreements.md
                 - name: أسعار مبيعات الاشتراكات
                   href: ../supply-chain/service-management/subscription-sales-prices.md
                 - name: مجموعات الاشتراكات
@@ -4254,8 +4697,9 @@
             - name: إعداد إدارة الإصلاح
               href: ../supply-chain/service-management/repair-management.md
             - name: إعداد مرتجعات العميل
-              href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
               items:
+                - name: نظرة عامة على مرتجعات العميل
+                  href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
                 - name: إعداد أكواد التخلص
                   href: ../supply-chain/service-management/set-up-disposition-codes.md
                 - name: إعداد أكواد سبب الإرجاع
@@ -4263,14 +4707,17 @@
                 - name: تحديد كيفية التخلص من الأصناف المرتجعة
                   href: ../supply-chain/service-management/specify-how-to-dispose-of-returned-items.md
         - name: العمل مع خدمة العملاء
-          href: ../supply-chain/service-management/working-with-customer-service.md
           items:
+            - name: نظرة عامة على العمل مع خدمة العملاء
+              href: ../supply-chain/service-management/working-with-customer-service.md
             - name: الوفاء باتفاقيات الخدمات
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
-                - name: وضع وإنشاء الاتفاقيات
-                  href: ../supply-chain/service-management/service-agreements.md
+                - name: نظرة عامة على الوفاء باتفاقيات الخدمة
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
+                - name: تطوير وإنشاء الاتفاقيات
                   items:
+                    - name: نظرة عامة على تطوير وإنشاء اتفاقات الخدمات
+                      href: ../supply-chain/service-management/service-agreements.md
                     - name: إنشاء اتفاقيات خدمات
                       href: ../supply-chain/service-management/create-service-agreements.md
                     - name: اشتراكات الخدمة
@@ -4296,8 +4743,9 @@
                     - name: تحديث أسعار مبيعات الاشتراك وفهرستها
                       href: ../supply-chain/service-management/update-and-index-subscription-sales-prices.md
             - name: التعامل مع استعلامات العميل
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: نظرة عامة على الوفاء باتفاقيات الخدمة
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: تسجيل وقت البدء والتوقف على أمر خدمة
                   href: ../supply-chain/service-management/start-and-stop-time-recording-on-a-service-order.md
                 - name: عرض وقت البدء والمدة لأمر الخدمة
@@ -4407,8 +4855,9 @@
                     - name: حركات اشتراك الفاتورة
                       href: ../supply-chain/service-management/invoice-subscription-transactions.md
     - name: إدارة النقل
-      href: ../supply-chain/transportation/transportation-management-overview.md
       items:
+        - name: نظرة عامة على إدارة النقل
+          href: ../supply-chain/transportation/transportation-management-overview.md
         - name: محركات إدارة النقل
           href: ../supply-chain/transportation/transportation-management-engines.md
         - name: إنشاء محرك إدارة نقل جديد
@@ -4419,9 +4868,10 @@
           href: ../supply-chain/transportation/create-bill-of-lading.md
         - name: تخطيط مسارات نقل الشحن
           href: ../supply-chain/transportation/plan-freight-transportation-routes-multiple-stops.md
-        - name: تخطيط الأحمال باستخدام توحيد الموزِّعين​
-          href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
+        - name: تخطيط الأحمال باستخدام توحيد الموزِّعين
           items:
+            - name: نظرة عامة على تخطيط الأحمال باستخدام توحيد الموزِّعين
+              href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
             - name: تخطيط الأحمال والشحنات باستخدام أداة تخطيط الحِمل
               href: ../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
         - name: يتضمن وزن الحاوية والحجم عند التحميل
@@ -4451,11 +4901,13 @@
         - name: إعداد قيود النقل لصنف
           href: ../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md
     - name: إدارة المستودعات
-      href: ../supply-chain/warehousing/warehouse-management-overview.md
       items:
+        - name: نظرة عامة على إدارة المستودعات
+          href: ../supply-chain/warehousing/warehouse-management-overview.md
         - name: تكوين المستودع
-          href: ../supply-chain/warehousing/warehouse-configuration.md
           items:
+            - name: نظرة عامة على تكوين المستودع
+              href: ../supply-chain/warehousing/warehouse-configuration.md
             - name: إعداد مستودع باستخدام قالب تكوين المستودع
               href: ../supply-chain/inventory/warehouse-template.md
             - name: التحكم في العمل باستخدام قوالب العمل وتوجيهات الموقع
@@ -4485,8 +4937,9 @@
             - name: إعداد المستودع لأوامر التحويل
               href: ../supply-chain/warehousing/transfer-orders-warehouse.md
         - name: سياسات عمل المستودع
-          href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
+            - name: نظرة عامة على سياسات عمل المستودع
+              href: ../supply-chain/warehousing/warehouse-work-policies.md
             - name: إعداد سياسات عمل المستودع
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: حركة المخزون مع العمل المقترن في إدارة المستودعات
@@ -4546,8 +4999,9 @@
             - name: جرد علامات المخزون
               href: ../supply-chain/inventory/inventory-tag-counting.md
         - name: التزويد
-          href: ../supply-chain/warehousing/replenishment.md
           items:
+            - name: نظرة عامة على التزويد
+              href: ../supply-chain/warehousing/replenishment.md
             - name: التزويد الفوري
               href: ../supply-chain/warehousing/immediate-replenishment.md
             - name: التزويد بحلول كانبان للسحب
@@ -4555,8 +5009,9 @@
             - name: إعداد الحد الأدنى والحد الأقصى لعملية التزويد
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
         - name: تثبيت وتكوين تطبيق المستودع
-          href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
+            - name: نظرة عامة على التثبيت والتكوين
+              href: ../supply-chain/warehousing/install-configure-warehousing-app.md
             - name: تكوين أسماء الحقول في تطبيق المستودع
               href: ../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md
             - name: إعداد الأجهزة المحمولة لعمل المستودع
