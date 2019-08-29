@@ -5,13 +5,15 @@
 - name: متطلبات النظام لعمليات النشر المحلي
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: بيانات العرض التوضيحي
-  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
+    - name: نظرة عامة على بيانات العرض التوضيحي
+      href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
     - name: إنشاء بيانات العرض التوضيحي باستخدام حزم البيانات
       href: data-entities/generate-demo-data-packages.md
 - name: التطوير والتخصيص
-  href: dev-tools/developer-home-page.md
   items:
+    - name: الصفحة الرئيسية للتطوير والتخصيص
+      href: dev-tools/developer-home-page.md
     - name: مكدس التطبيق وبنية الخادم
       href: dev-tools/application-stack-server-architecture.md
     - name: الحصول على نسخ التقييم
@@ -19,8 +21,9 @@
     - name: التسجيل لاشتراكات المعاينة
       href: dev-tools/sign-up-preview-subscription.md
     - name: نشر بيئات تطوير والوصول إليها
-      href: dev-tools/access-instances.md
       items:
+        - name: بيئات التطوير
+          href: dev-tools/access-instances.md
         - name: تكوين بيئات تطوير خانة واحدة
           href: dev-tools/configure-developer-vm.md
         - name: إنشاء مستخدمين جدد على أجهزة التطوير
@@ -58,8 +61,9 @@
         - name: ميزات مُحرر الأكواد
           href: dev-tools/code-editor.md
         - name: إنشاء نماذج وعناصر نموذج بيانات
-          href: dev-tools/create-data-model-elements.md
           items:
+            - name: نظرة عامة على إنشاء نماذج وعناصر نموذج بيانات
+              href: dev-tools/create-data-model-elements.md
             - name: إرشادات التسمية للملحقات
               href: extensibility/NamingGuidelines.md
             - name: إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث
@@ -86,8 +90,6 @@
       items:
         - name: X++ وميزات مصحح الأخطاء
           href: dev-tools/new-x-debugger-features.md
-        - name: تصحيح أخطاء X++ على نسخ من قواعد بيانات الإنتاج
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: تصحيح كود X++
           href: dev-tools/debug-xpp.md
         - name: فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة
@@ -104,7 +106,7 @@
           href: dev-ref/application-explorer-aot-properties.md
         - name: مرجع اللغة X++
           items:
-            - name: مرجع اللغة X++
+            - name: نظرة عامة على مرجع اللغة X++
               href: dev-ref/xpp-language-reference.md
             - name: المتغيرات وأنواع البيانات
               items:
@@ -135,7 +137,19 @@
             - name: أسبقية معامل X++
               href: dev-ref/xpp-operator-precedence.md
             - name: فئات وأساليب X++
-              href: dev-ref/xpp-classes-methods.md
+              items:
+                - name: الفئات والأساليب
+                  href: dev-ref/xpp-classes-methods.md
+                - name: التوريث
+                  href: dev-ref/xpp-inheritance.md
+                - name: أعضاء فئة ثابتة
+                  href: dev-ref/xpp-static-classes.md
+                - name: الواجهات
+                  href: dev-ref/xpp-interfaces.md
+                - name: المكتبات
+                  href: dev-ref/xpp-library-objects.md
+                - name: الأحداث
+                  href: dev-ref/xpp-events.md
             - name: تحديد بيانات X++ والمعالجة
               href: dev-ref/xpp-data-query.md
             - name: الوصول إلى البيانات باستخدام SysDa API
@@ -149,13 +163,15 @@
             - name: بناء الجملة X++
               href: dev-ref/xpp-syntax.md
     - name: واجهة API والفئة ومرجع الجدول
-      href: dev-ref/api-reference.md
       items:
+        - name: موارد API والفئة والجدول
+          href: dev-ref/api-reference.md
         - name: وظائف وقت التحويل X++
           href: dev-ref/xpp-compile-time-functions.md
         - name: وظائف وقت التشغيل X++
-          href: dev-ref/xpp-run-time-functions.md
           items:
+            - name: موارد وظائف وقت تشغيل X++
+              href: dev-ref/xpp-run-time-functions.md
             - name: وظائف وقت تشغيل عمل X++
               href: dev-ref/xpp-business-run-time-functions.md
             - name: وظائف وقت تشغيل حاوية X++
@@ -409,8 +425,9 @@
         - name: تصفية SysTest باستخدام سمات الفئات والأساليب
           href: perf-test/systest-filtering.md
         - name: مكتبة اختبار القبول
-          href: perf-test/acceptance-test-library.md
           items:
+            - name: موارد مكتبة اختبار القبول
+              href: perf-test/acceptance-test-library.md
             - name: مفاهيم التنقل
               href: perf-test/concepts-navigation.md
             - name: أساليب بيانات الاختبار
@@ -438,8 +455,9 @@
     - name: ترخيص موردي البرامج المستقلين (ISV) في الموقع المحلي
       href: dev-tools/isv-licensing-on-prem.md
 - name: تطوير واجهة المستخدم
-  href: user-interface/user-interface-development-home-page.md
   items:
+    - name: الصفحة الرئيسية لتطوير واجهة المستخدم
+      href: user-interface/user-interface-development-home-page.md
     - name: البرامج التعليمية
       items:
         - name: إنشاء نموذج "نوع تكلفة الإيجار"
@@ -633,18 +651,21 @@
         - name: تخزين مؤقت للإطارات المتجانبة والقوائم لمساحات العمل
           href: user-interface/tile-list-caching-workspaces.md
     - name: مسجل المهام
-      href: user-interface/task-recorder.md
       items:
+        - name: موارد مسجل المهام
+          href: user-interface/task-recorder.md
         - name: مرجع سريع لمسجل المهام
           href: user-interface/task-recorder-quick-reference.md
         - name: إنشاء الوثائق أو التدريب حسب تسجيل المهام
           href: user-interface/task-recorder-training-docs.md
 - name: النظام الأساسي للأجهزة المحمولة
-  href: mobile-apps/platform/mobile-platform-home-page.md
   items:
+    - name: موارد النظام الأساسي للأجهزة المحمولة
+      href: mobile-apps/platform/mobile-platform-home-page.md
     - name: البدء
-      href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
+        - name: البدء باستخدام النظام الأساسي للأجهزة المحمولة
+          href: mobile-apps/platform/mobile-platform-getting-started.md
         - name: اعتبارات العمارة والتصميم
           href: mobile-apps/platform/mobile-platform-architecture.md
         - name: أحداث منطق العمل
@@ -678,8 +699,9 @@
         - name: واجهات API التصميم من جانب العميل
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: واجهات API للعميل
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
+            - name: الصفحة الرئيسية لواجهات برمجة التطبيقات للعميل
+              href: mobile-apps/platform/client-apis/client-apis-reference.md
             - name: تعداد PageState
               href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
             - name: الوحدة النمطية للتطبيق
@@ -843,11 +865,13 @@
             - name: نوع ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: القانون العام لحماية البيانات (GDPR)
-  href: gdpr/gdpr-guide.md
   items:
-    - name: موارد للاستجابة لطلبات بيانات القانون العام لحماية البيانات (GDPR)
-      href: gdpr/gdpr-home-page.md
+    - name: نظرة عامة على القانون العام لحماية البيانات (GDPR)
+      href: gdpr/gdpr-guide.md
+    - name: الاستجابة لطلبات بيانات القانون العام لحماية البيانات (GDPR)
       items:
+        - name: موارد الاستجابة لطلبات بيانات القانون العام لحماية البيانات (GDPR)
+          href: gdpr/gdpr-home-page.md
         - name: تصنيفات الأصول
           href: gdpr/gdpr-asset-classification-values.md
         - name: تقرير البحث عن شخص
@@ -863,8 +887,9 @@
         - name: طلبات بيانات القانون العام لحماية البيانات (GDPR) لـ LCS
           href: gdpr/gdpr-lcs.md
 - name: التسليم المستمر
-  href: dev-tools/continuous-delivery-home-page.md
   items:
+    - name: الصفحة الرئيسية للتسليم المستمر
+      href: dev-tools/continuous-delivery-home-page.md
     - name: الأسئلة المتداولة حول التطوير والتسليم المستمر
       href: dev-tools/continuous-delivery-faq.md
     - name: استثناء حزم الاختبار من إخراج البنية
@@ -873,6 +898,24 @@
       href: dev-tools/manage-runtime-packages.md
     - name: تحديث إصدارات النماذج في البنية التلقائية
       href: dev-tools/version-models-build.md
+- name: Regression suite automation tool
+  items:
+    - name: نظرة عامة على Regression suite automation tool
+      href: perf-test/rsat/rsat-overview.md
+    - name: التثبيت والتكوين
+      href: perf-test/rsat/rsat-install-configure.md
+    - name: تشغيل حالات الاختبار
+      href: perf-test/rsat/rsat-run.md
+    - name: التحقق من صحة القيم المتوقعة
+      href: perf-test/rsat/rsat-validate-expected.md
+    - name: حالات اختبار السلسلة
+      href: perf-test/rsat/rsat-chain-test-cases.md
+    - name: حالات الاختبار المشتقة
+      href: perf-test/rsat/rsat-derived-test-cases.md
+    - name: أفضل الممارسات
+      href: perf-test/rsat/rsat-best-practices.md
+    - name: استكشاف الأخطاء وإصلاحها
+      href: perf-test/rsat/rsat-troubleshooting.md
 - name: إصدار حلول باستخدام Lifecycle Services
   items:
     - name: تطوير وإصدار
@@ -892,8 +935,9 @@
     - name: إجراء نسخ احتياطي لقواعد بيانات الحل
       href: lcs-solutions/database-backup-lcs-solutions.md
     - name: ميزات الترجمة والميزات التنظيمية
-      href: lcs-solutions/country-region.md
       items:
+        - name: موارد العولمة
+          href: lcs-solutions/country-region.md
         - name: تصنيف ميزات الترجمة
           href: lcs-solutions/classify-localization-features.md
         - name: تطبيق سياق البلد/المنطقة
@@ -907,8 +951,9 @@
         - name: إرسال التنبيهات التنظيمية
           href: lcs-solutions/submit-localization-alerts.md
 - name: تطوير الأمور المالية
-  href: financial/financial-dev-home-page.md
   items:
+    - name: الصفحة الرئيسية لتطوير الأمور المالية
+      href: financial/financial-dev-home-page.md
     - name: إطار عمل البعد المالي
       items:
         - name: مجموعات حسابات دفتر الأستاذ
@@ -968,11 +1013,13 @@
     - name: نشر بيئات عرض توضيحي
       href: deployment/deploy-demo-environment.md
     - name: النشر عبر السحابة
-      href: deployment/cloud-deployment-overview.md
       items:
+        - name: نظرة عامة حول النشر عبر السحابة
+          href: deployment/cloud-deployment-overview.md
         - name: نشر الخدمة الذاتية
-          href: deployment/infrastructure-stack.md
           items:
+            - name: نظرة عامة على نشر الخدمة الذاتية
+              href: deployment/infrastructure-stack.md
             - name: نشر بيئة جديدة
               href: deployment/deployenvironment-newinfrastructure.md
             - name: الأسئلة المتداولة حول النشر
@@ -1000,9 +1047,10 @@
         - name: موقع إقامة بيانات Retail
           href: deployment/retail-data-residency.md
     - name: النشر المحلي
-      href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: خيار النشر المحلي
+        - name: الصفحة الرئيسية للنشر المحلي
+          href: deployment/on-premises-deployment-landing-page.md
+        - name: نظرة عامة عن النشر المحلي
           href: deployment/on-premises-overview.md
         - name: تخطيط عمليات النشر المحلي وإعدادها
           href: deployment/plan-onprem-deployment.md
@@ -1011,8 +1059,9 @@
         - name: إعداد المشاريع المحلية
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: إعداد بيئات محلية ونشرها
-          href: deployment/setup-deploy-on-premises-environments.md
           items:
+            - name: الصفحة الرئيسية لإعداد بيئات محلية ونشرها
+              href: deployment/setup-deploy-on-premises-environments.md
             - name: نشر بيئات محلية (Platform update 12 وتحديث لاحق)
               href: deployment/setup-deploy-on-premises-pu12.md
             - name: نشر بيئات محلية (Platform update 8 و11)
@@ -1031,8 +1080,14 @@
           href: deployment/on-premises-diagnostics.md
         - name: إعادة نشر عمليات النشر المحلية
           href: deployment/redeploy-on-prem.md
-        - name: تحديث الوكيل المحلي
-          href: lifecycle-services/update-local-agent.md
+        - name: وكيل محلي
+          items:
+            - name: توافق AD FS Office 365
+              href: deployment/onprem-adfscompatibility.md
+            - name: البرامج النصية لما قبل النشر وما بعد النشر للوكيل المحلي
+              href: lifecycle-services/pre-post-scripts.md
+            - name: تحديث الوكيل المحلي
+              href: lifecycle-services/update-local-agent.md
         - name: إعادة تكوين البيئات
           href: lifecycle-services/reconfigure-environment.md
         - name: اتصال إنترنت العميل
@@ -1052,11 +1107,13 @@
         - name: استكشاف مشكلات تطبيق الحزمة وإصلاحها
           href: deployment/deployable-package-troubleshooting.md
 - name: الترقيات والتحديثات والإصلاحات العاجلة
-  href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: الترقية من AX 2012 إلى Finance and Operations
-      href: migration-upgrade/upgrade-overview-2012.md
+    - name: موارد الترقيات والتحديثات والإصلاحات العاجلة
+      href: migration-upgrade/upgrade-home-page.md
+    - name: ترقية من AX 2012
       items:
+        - name: الترقية من AX 2012 إلى Finance and Operations
+          href: migration-upgrade/upgrade-overview-2012.md
         - name: ترقية AX 2012 - وضع الخطة باستخدام أداة محلل الترقية
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: ترقية AX 2012 – تقدير الجهد باستخدام خدمة ترقية الكود
@@ -1095,9 +1152,10 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: ترقية تخطيط الموازنة
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: ترحيل البيانات من AX 2009 إلى Finance and Operations
-      href: migration-upgrade/data-migration-tool.md
+    - name: ترحيل بيانات من AX 2009
       items:
+        - name: ترحيل البيانات من AX 2009 إلى Finance and Operations
+          href: migration-upgrade/data-migration-tool.md
         - name: ترحيل AX 2009 - تثبيت أداة ترحيل البيانات
           href: migration-upgrade/install-dmt.md
         - name: ترحيل AX 2009 - إنشاء المخططات
@@ -1111,8 +1169,9 @@
         - name: ترقية AX 2009 - استيراد الحزم
           href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: ترحيل الكود والترقية
-      href: migration-upgrade/code-migration-home-page.md
       items:
+        - name: الصفحة الرئيسية لترحيل الكود والترقية
+          href: migration-upgrade/code-migration-home-page.md
         - name: الإعداد لترحيل الكود
           href: migration-upgrade/prepare-migration.md
         - name: تكوين تعيين Azure DevOps
@@ -1135,8 +1194,6 @@
           href: migration-upgrade/versions-update-policy.md
         - name: تطبيق التحديث الأخير للنظام الأساسي على البيئات
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: ترقية النظام الأساسي لـ Dynamics AX إلى إصدار أغسطس 2016
-          href: migration-upgrade/update-platform-each-release.md
         - name: ترقية البيانات في بيئات التطوير أو العرض التوضيحي
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: تحديث أدوات التطوير
@@ -1172,8 +1229,9 @@
         - name: واجهات API المهلكة (يونيو 2017)
           href: migration-upgrade/deprecated-apis.md
 - name: إدارة النظام
-  href: sysadmin/system-administration-home-page.md
   items:
+    - name: الصفحة الرئيسية لإدارة النظام
+      href: sysadmin/system-administration-home-page.md
     - name: إضافة ارتباطات إلى الشروط القانونية وبيان الخصوصية
       href: sysadmin/legal-terms-privacy-statement.md
     - name: تقرير أكواد التراخيص ومفاتيح التكوين
@@ -1186,13 +1244,14 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: تصدير مستخدمي B2B إلى Azure AD
       href: sysadmin/implement-b2b.md
-    - name: تعيين مهله خمول جلسة العمل
-      href: sysadmin/session-idle-timeout.md
-    - name: أمان يستند إلى الدور
-      href: sysadmin/role-based-security.md
+    - name: الأمان
       items:
+        - name: أمان يستند إلى الدور
+          href: sysadmin/role-based-security.md
         - name: هندسة الأمان
           href: sysadmin/security-architecture.md
+        - name: تعيين مهله خمول جلسة العمل
+          href: sysadmin/session-idle-timeout.md
         - name: تقارير الأمان الجاهزة
           href: sysadmin/security-reports.md
         - name: إنشاء مستخدمين جدد
@@ -1206,8 +1265,9 @@
         - name: تعيين مستخدمين إلى أدوار أمان
           href: sysadmin/tasks/assign-users-security-roles.md
     - name: معالجة الدُفعات
-      href: sysadmin/batch-processing-overview.md
       items:
+        - name: نظرة عامة على معالجة الدُفعات
+          href: sysadmin/batch-processing-overview.md
         - name: مُعالجة الدُفعات وخوادم الدُفعات
           href: sysadmin/batch-server-overview.md
         - name: إنشاء وظائف دُفعية
@@ -1229,8 +1289,9 @@
         - name: إيقاف تنفيذ وظيفة دُفعية قبل اكتمالها
           href: sysadmin/batch-abort.md
     - name: مرشد التحسين
-      href: sysadmin/optimization-advisor-overview.md
       items:
+        - name: نظرة عامة حول مرشد التحسين
+          href: sysadmin/optimization-advisor-overview.md
         - name: إنشاء قواعد مرشد التحسين
           href: sysadmin/create-rules-optimization-advisor.md
     - name: إبلاغ عن انقطاع إنتاج
@@ -1238,15 +1299,16 @@
 - name: Lifecycle Services
   items:
     - name: موارد لـ Lifecycle Services
-      href: lifecycle-services/lcs.md
       items:
+        - name: موارد Lifecycle Services
+          href: lifecycle-services/lcs.md
         - name: LCS للعملاء
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS للشركاء
           href: lifecycle-services/getting-started-lcs.md
         - name: الجديد
           href: lifecycle-services/whats-new-lcs.md
-        - name: مشكلات معروفة​
+        - name: مشكلات معروفة
           href: lifecycle-services/known-issues.md
     - name: دليل مستخدم Lifecycle Services
       href: lifecycle-services/lcs-user-guide.md
@@ -1257,8 +1319,9 @@
     - name: بحث عن المشاكل
       href: lifecycle-services/issue-search-lcs.md
     - name: مدير التكوين
-      href: lifecycle-services/configuration-manager-lcs.md
       items:
+        - name: معاينة مدير التكوين
+          href: lifecycle-services/configuration-manager-lcs.md
         - name: إعداد مدير التكوين
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: تكوين خدمة ترقية الكود
@@ -1298,8 +1361,9 @@
     - name: كتاب تعليمات الاستعلام
       href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
-      href: lifecycle-services/translation-service-overview.md
       items:
+        - name: نظرة عامة حول Dynamics 365 Translation Service
+          href: lifecycle-services/translation-service-overview.md
         - name: ترجمة ملفات واجهة المستخدم
           href: lifecycle-services/use-translation-service.md
         - name: ترجمة ملفات التوثيق
