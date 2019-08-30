@@ -8,6 +8,14 @@
         - name: الجديد أو المتغير‬ في Talent
           href: whats-new.md
           items:
+            - name: 22 أغسطس، 2019
+              href: whats-new-talent-august-21-2019.md
+            - name: 13 أغسطس، 2019
+              href: whats-new-talent-august-15-2019.md
+            - name: 6 أغسطس، 2019
+              href: whats-new-talent-august-7-2019.md
+            - name: 30 يوليو 2019
+              href: whats-new-talent-july-31-2019.md
             - name: 23 يوليو 2019
               href: whats-new-talent-july-24-2019.md
             - name: 16 يوليو 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 4 يونيو 2019
               href: whats-new-talent-june-4-2019.md
-            - name: 28 مايو 2019
-              href: whats-new-talent-may-28-2019.md
-            - name: 21 مايو 2019
-              href: whats-new-talent-may-21-2019.md
-            - name: 13 مايو 2019
-              href: whats-new-talent-may-13-2019.md
-            - name: 6 مايو 2019
-              href: whats-new-talent-may-6-2019.md
             - name: الجديد في أرشيفات 2019
               items:
+                - name: 28 مايو 2019
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21 مايو 2019
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13 مايو 2019
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6 مايو 2019
+                  href: whats-new-talent-may-6-2019.md
                 - name: 30 أبريل 2019
                   href: whats-new-talent-april-30-2019.md
                 - name: 25 أبريل 2019
@@ -204,6 +212,8 @@
               href: departments-jobs-positions.md
             - name: إعداد مكونات وظيفة
               href: create-job.md
+            - name: إدخال الموظفين والتنقل المبسط
+              href: streamlined-employee-entry.md
             - name: إنشاء الأقسام وتضمينها في التسلسل الهرمي للقسم
               href: create-department-add-department-hierarchy.md
             - name: إعداد معلمات الموارد البشرية عبر الكيانات القانونية
