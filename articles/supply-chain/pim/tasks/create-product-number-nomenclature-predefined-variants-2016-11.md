@@ -1,9 +1,9 @@
 ---
 title: إنشاء nomenclature لرقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫
-description: يوضح هذا الدليل كيفية إعداد nomenclature لرقم المنتج لمتغيرات منتجات معرّفة مسبقًا، وكيف يمكنك تعيينها إلى مجموعة أبعاد المنتجات المناسبة.
+description: يوضح هذا الموضوع كيفية إعداد nomenclature لرقم المنتج لمتغيرات منتجات معرّفة مسبقًا، وكيف يمكنك تعيينها إلى مجموعة أبعاد المنتجات المناسبة.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,45 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a2e61fd99cb80a1a9cc3d8e985fb0f14e3c2fc2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5cf0efeac2851e6ead6fc5e15a016370dfa620bc
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844671"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914897"
 ---
-# <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a><span data-ttu-id="6c20d-103">إنشاء nomenclature لرقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫</span><span class="sxs-lookup"><span data-stu-id="6c20d-103">Create a product number nomenclature for predefined product variants</span></span>
+# <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a><span data-ttu-id="536e5-103">إنشاء nomenclature لرقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫</span><span class="sxs-lookup"><span data-stu-id="536e5-103">Create a product number nomenclature for predefined product variants</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="6c20d-104">يوضح هذا الدليل كيفية إعداد nomenclature لرقم المنتج لمتغيرات منتجات معرّفة مسبقًا، وكيف يمكنك تعيينها إلى مجموعة أبعاد المنتجات المناسبة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-104">This guide shows you how to set up a product number nomenclature for predefined product variants, and how you assign it to the appropriate product dimension group.</span></span> <span data-ttu-id="6c20d-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="6c20d-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6c20d-106">يتم تعيين nomenclature رقم المنتج إلى مجموعة أبعاد المنتجات "اللون والحجم".</span><span class="sxs-lookup"><span data-stu-id="6c20d-106">The new product number nomenclature is assigned to the Color and Size product dimension group.</span></span> <span data-ttu-id="6c20d-107">وعادة ما تُنفذ هذه المهمة عن طريق مصمم المنتج.</span><span class="sxs-lookup"><span data-stu-id="6c20d-107">This task would typically be done by a product designer.</span></span>
+<span data-ttu-id="536e5-104">يوضح هذا الموضوع كيفية إعداد nomenclature لرقم المنتج لمتغيرات منتجات معرّفة مسبقًا، وكيف يمكنك تعيينها إلى مجموعة أبعاد المنتجات المناسبة.</span><span class="sxs-lookup"><span data-stu-id="536e5-104">This topic explains how to set up a product number nomenclature for predefined product variants, and how you assign it to the appropriate product dimension group.</span></span> <span data-ttu-id="536e5-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="536e5-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="536e5-106">يتم تعيين nomenclature رقم المنتج إلى مجموعة أبعاد المنتجات "اللون والحجم".</span><span class="sxs-lookup"><span data-stu-id="536e5-106">The new product number nomenclature is assigned to the Color and Size product dimension group.</span></span> <span data-ttu-id="536e5-107">وعادة ما تُنفذ هذه المهمة عن طريق مصمم المنتج.</span><span class="sxs-lookup"><span data-stu-id="536e5-107">This task would typically be done by a product designer.</span></span>
 
 
-## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="6c20d-108">إنشاء nomenclature لرقم المنتج</span><span class="sxs-lookup"><span data-stu-id="6c20d-108">Create a product number nomenclature</span></span>
-1. <span data-ttu-id="6c20d-109">انقر فوق "تعريف نموذج متغير المنتج"ز</span><span class="sxs-lookup"><span data-stu-id="6c20d-109">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="6c20d-110">انقر فوق "كود nomenclature للمنتج‬".</span><span class="sxs-lookup"><span data-stu-id="6c20d-110">Click Product nomenclature.</span></span>
-3. <span data-ttu-id="6c20d-111">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="6c20d-111">Click New.</span></span>
-4. <span data-ttu-id="6c20d-112">في الحقل "الاسم"، أدخل اسم nomenclature يساعد على تحديد مجموعة أبعاد المنتجات الهدف، على سبيل المثال، ColorSize...</span><span class="sxs-lookup"><span data-stu-id="6c20d-112">In the Name field, enter a nomenclature name that helps to identify the target product dimension group, for example, ColorSize..</span></span>
-5. <span data-ttu-id="6c20d-113">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-113">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="6c20d-114">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-114">Click Add.</span></span>
-7. <span data-ttu-id="6c20d-115">انقر فوق "رقم أصل المنتج".</span><span class="sxs-lookup"><span data-stu-id="6c20d-115">Click Product master number.</span></span>
-8. <span data-ttu-id="6c20d-116">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-116">Click Add.</span></span>
-9. <span data-ttu-id="6c20d-117">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="6c20d-117">Click Text constant.</span></span>
-10. <span data-ttu-id="6c20d-118">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-118">In the Text field, type a value.</span></span>
-11. <span data-ttu-id="6c20d-119">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-119">Click Add.</span></span>
-12. <span data-ttu-id="6c20d-120">انقر فوق "اللون".</span><span class="sxs-lookup"><span data-stu-id="6c20d-120">Click Color.</span></span>
-13. <span data-ttu-id="6c20d-121">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-121">Click Add.</span></span>
-14. <span data-ttu-id="6c20d-122">انقر فوق "الثابت النصي‬".</span><span class="sxs-lookup"><span data-stu-id="6c20d-122">Click Text constant.</span></span>
-15. <span data-ttu-id="6c20d-123">في الحقل "نص"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-123">In the Text field, type a value.</span></span>
-16. <span data-ttu-id="6c20d-124">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-124">Click Add.</span></span>
-17. <span data-ttu-id="6c20d-125">انقر فوق "الحجم".</span><span class="sxs-lookup"><span data-stu-id="6c20d-125">Click Size.</span></span>
-18. <span data-ttu-id="6c20d-126">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-126">Close the page.</span></span>
+## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="536e5-108">إنشاء nomenclature لرقم المنتج</span><span class="sxs-lookup"><span data-stu-id="536e5-108">Create a product number nomenclature</span></span>
+1. <span data-ttu-id="536e5-109">حدد **تعريف نموذج متغير المنتج**.</span><span class="sxs-lookup"><span data-stu-id="536e5-109">Select **Product variant model definition**.</span></span>
+2. <span data-ttu-id="536e5-110">حدد **كود nomenclature للمنتج‬**.</span><span class="sxs-lookup"><span data-stu-id="536e5-110">Select **Product nomenclature**.</span></span>
+3. <span data-ttu-id="536e5-111">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="536e5-111">Select **New**.</span></span>
+4. <span data-ttu-id="536e5-112">في الحقل **الاسم**، أدخل اسم nomenclature يساعد على تحديد مجموعة أبعاد المنتجات الهدف، على سبيل المثال، `ColorSize`.</span><span class="sxs-lookup"><span data-stu-id="536e5-112">In the **Name** field, enter a nomenclature name that helps to identify the target product dimension group, for example, `ColorSize`.</span></span>
+5. <span data-ttu-id="536e5-113">في حقل **الوصف**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="536e5-113">In the **Description** field, type a value.</span></span>
+6. <span data-ttu-id="536e5-114">حدد **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="536e5-114">Select **Add**.</span></span>
+7. <span data-ttu-id="536e5-115">حدد رقم **أصل المنتج**.</span><span class="sxs-lookup"><span data-stu-id="536e5-115">Select **Product master** number.</span></span>
+8. <span data-ttu-id="536e5-116">حدد **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="536e5-116">Select **Add**.</span></span>
+9. <span data-ttu-id="536e5-117">حدد **الثابت النصي**.</span><span class="sxs-lookup"><span data-stu-id="536e5-117">Select **Text constant**.</span></span>
+10. <span data-ttu-id="536e5-118">في الحقل **النص**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="536e5-118">In the **Text** field, type a value.</span></span>
+11. <span data-ttu-id="536e5-119">حدد **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="536e5-119">Select **Add**.</span></span>
+12. <span data-ttu-id="536e5-120">حدد **اللون**.</span><span class="sxs-lookup"><span data-stu-id="536e5-120">Select **Color**.</span></span>
+13. <span data-ttu-id="536e5-121">حدد **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="536e5-121">Select **Add**.</span></span>
+14. <span data-ttu-id="536e5-122">حدد **الثابت النصي**.</span><span class="sxs-lookup"><span data-stu-id="536e5-122">Select **Text constant**.</span></span>
+15. <span data-ttu-id="536e5-123">في الحقل **النص**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="536e5-123">In the **Text** field, type a value.</span></span>
+16. <span data-ttu-id="536e5-124">حدد **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="536e5-124">Select **Add**.</span></span>
+17. <span data-ttu-id="536e5-125">حدد **الحجم**.</span><span class="sxs-lookup"><span data-stu-id="536e5-125">Select **Size**.</span></span>
+18. <span data-ttu-id="536e5-126">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="536e5-126">Close the page.</span></span>
 
-## <a name="assign-the-nomenclature-to-a-product-master"></a><span data-ttu-id="6c20d-127">تعيين nomenclature إلى أصل المنتج</span><span class="sxs-lookup"><span data-stu-id="6c20d-127">Assign the nomenclature to a product master</span></span>
-1. <span data-ttu-id="6c20d-128">انقر فوق "مجموعات أبعاد المنتجات".</span><span class="sxs-lookup"><span data-stu-id="6c20d-128">Click Product dimension groups.</span></span>
-2. <span data-ttu-id="6c20d-129">حدد مجموعة أبعاد المنتجات SizeCol.</span><span class="sxs-lookup"><span data-stu-id="6c20d-129">Select the SizeCol product dimension group.</span></span>
-3. <span data-ttu-id="6c20d-130">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="6c20d-130">Click Edit.</span></span>
-4. <span data-ttu-id="6c20d-131">حدد "نعم" في الحقل "استخدام كود nomenclature".</span><span class="sxs-lookup"><span data-stu-id="6c20d-131">Select Yes in the Use nomenclature field.</span></span>
-5. <span data-ttu-id="6c20d-132">في حقل "كود nomenclature لرقم متغير المنتج‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="6c20d-132">In the Product variant number nomenclature field, enter or select a value.</span></span>
-6. <span data-ttu-id="6c20d-133">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="6c20d-133">Close the page.</span></span>
+## <a name="assign-the-nomenclature-to-a-product-master"></a><span data-ttu-id="536e5-127">تعيين nomenclature إلى أصل المنتج</span><span class="sxs-lookup"><span data-stu-id="536e5-127">Assign the nomenclature to a product master</span></span>
+1. <span data-ttu-id="536e5-128">حدد **مجموعات أبعاد المنتجات**.</span><span class="sxs-lookup"><span data-stu-id="536e5-128">Select **Product dimension groups**.</span></span>
+2. <span data-ttu-id="536e5-129">حدد **مجموعة أبعاد المنتجات SizeCol**.</span><span class="sxs-lookup"><span data-stu-id="536e5-129">Select the **SizeCol product dimension** group.</span></span>
+3. <span data-ttu-id="536e5-130">حدد **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="536e5-130">Select **Edit**.</span></span>
+4. <span data-ttu-id="536e5-131">حدد **نعم** في الحقل **استخدام كود nomenclature**.</span><span class="sxs-lookup"><span data-stu-id="536e5-131">Select **Yes** in the **Use nomenclature** field.</span></span>
+5. <span data-ttu-id="536e5-132">أدخل قيمة أو حددها في حقل **كود nomenclature لرقم متغير المنتج‬**.</span><span class="sxs-lookup"><span data-stu-id="536e5-132">In the **Product variant number nomenclature** field, enter or select a value.</span></span>
+6. <span data-ttu-id="536e5-133">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="536e5-133">Close the page.</span></span>
 

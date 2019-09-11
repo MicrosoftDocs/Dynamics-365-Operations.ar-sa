@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797265"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873095"
 ---
-# <a name="troubleshooting-guide-for-data-integration"></a><span data-ttu-id="fd70b-103">دليل استكشاف أخطاء تكامل البيانات وإصلاحها</span><span class="sxs-lookup"><span data-stu-id="fd70b-103">Troubleshooting guide for data integration</span></span>
+# <a name="troubleshooting-guide-for-data-integration"></a><span data-ttu-id="8c7af-103">دليل استكشاف أخطاء تكامل البيانات وإصلاحها</span><span class="sxs-lookup"><span data-stu-id="8c7af-103">Troubleshooting guide for data integration</span></span>
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a><span data-ttu-id="fd70b-104">تمكين تتبع المكون الإضافي في Common Data Service والتحقق من تفاصيل أخطاء المكون الإضافي للكتابة المزدوجة</span><span class="sxs-lookup"><span data-stu-id="fd70b-104">Enable Plugin Trace in Common Data Service and check the dual-write Plugin error details</span></span>
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a><span data-ttu-id="8c7af-104">تمكين سجلات تتبع المكون الإضافي في Common Data Service وفحص تفاصيل أخطاء المكون الإضافي للكتابة المزدوجة</span><span class="sxs-lookup"><span data-stu-id="8c7af-104">Enable plug-in trace logs in Common Data Service and inspect the dual-write plug-in error details</span></span>
 
-<span data-ttu-id="fd70b-105">إذا كنت تواجه مشكلة أو خطأ مع مزامنة الكتابة المزدوجة، يمكنك فحص الأخطاء في سجل التتبع:</span><span class="sxs-lookup"><span data-stu-id="fd70b-105">If you are facing an issue or error with dual-write synchronization, you can inspect the errors in the trace log:</span></span>
+[!include [banner](../includes/banner.md)]
 
-1. <span data-ttu-id="fd70b-106">قبل أن تتمكن من فحص الأخطاء، يجب تمكين تتبع المكون الإضافي باستخدام الإرشادات في [تسجيل المكون الإضافي](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) لتمكين تتبع المكون الإضافي.</span><span class="sxs-lookup"><span data-stu-id="fd70b-106">Before you can inspect the errors, you must enable Plugin trace using the instructions in [Register plug-in](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) to enable Plugin trace.</span></span> <span data-ttu-id="fd70b-107">الآن يمكنك فحص الأخطاء.</span><span class="sxs-lookup"><span data-stu-id="fd70b-107">Now you can inspect the errors.</span></span>
-2. <span data-ttu-id="fd70b-108">سجل دخولك إلى Dynamics 365 for Sales.</span><span class="sxs-lookup"><span data-stu-id="fd70b-108">Login to Dynamics 365 for Sales.</span></span>
-3. <span data-ttu-id="fd70b-109">انقر فوق أيقونة الإعدادات (ترس)، وحدد **إعدادات متقدمة**.</span><span class="sxs-lookup"><span data-stu-id="fd70b-109">Click on the Settings icon (a gear), and select **Advanced Settings**.</span></span>
-4. <span data-ttu-id="fd70b-110">في قائمة **الإعدادات**، اختر **تخصيص >** سجل تتبع المكون الإضافي.</span><span class="sxs-lookup"><span data-stu-id="fd70b-110">In the **Settings** menu, choose **Customization > Plug-In Trace Log**.</span></span>
-5. <span data-ttu-id="fd70b-111">انقر فوق اسم النوع **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** لعرض تفاصيل الأخطاء.</span><span class="sxs-lookup"><span data-stu-id="fd70b-111">Click the type name **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** to display the error details.</span></span>
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a><span data-ttu-id="fd70b-112">التحقق من أخطاء مزامنة الكتابة المزدوجة في Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="fd70b-112">Check dual-write synchronization errors in Finance and Operations</span></span>
+<span data-ttu-id="8c7af-105">إذا واجهت مشكلة أو خطأ ما أثناء مزامنة لكتابة المزدوجة، فاتبع الخطوات التالية لفحص الأخطاء الموجودة في سجل التتبع.</span><span class="sxs-lookup"><span data-stu-id="8c7af-105">If you experience an issue or error during dual-write synchronization, follow these steps to inspect the errors in the trace log.</span></span>
 
-<span data-ttu-id="fd70b-113">يمكنك التحقق من الأخطاء أثناء الاختبار باتباع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="fd70b-113">You can check the errors during testing by following these steps:</span></span>
+1. <span data-ttu-id="8c7af-106">قبل ان تتمكن من فحص الأخطاء، يجب تمكين سجلات تتبع المكون الإضافي.</span><span class="sxs-lookup"><span data-stu-id="8c7af-106">Before you can inspect the errors, you must enable plug-in trace logs.</span></span> <span data-ttu-id="8c7af-107">للحصول على الإرشادات، راجع القسم "عرض سجلات التتبع" في [البرنامج التعليمي: كتابة مكون إضافي وتسجيله](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).</span><span class="sxs-lookup"><span data-stu-id="8c7af-107">For instructions, see the "View trace logs" section of [Tutorial: Write and register a plug-in](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).</span></span>
 
-+ <span data-ttu-id="fd70b-114">سجل دخولك إلى LifeCycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="fd70b-114">Login to LifeCycle Services (LCS).</span></span>
-+ <span data-ttu-id="fd70b-115">افتح مشروع LCS الذي اخترته لإجراء اختبار الكتابة المزدوجة.</span><span class="sxs-lookup"><span data-stu-id="fd70b-115">Open the LCS project that you chose to perform dual-write testing.</span></span>
-+ <span data-ttu-id="fd70b-116">انتقل إلى البيئات المستضافة على الشبكة السحابية.</span><span class="sxs-lookup"><span data-stu-id="fd70b-116">Go to Cloud Hosted Environments.</span></span>
-+ <span data-ttu-id="fd70b-117">سطح المكتب البعيد إلى Finance and Operations VM باستخدام الحساب المحلي الذي يتم عرضه في LCS.</span><span class="sxs-lookup"><span data-stu-id="fd70b-117">Remote desktop to Finance and Operations VM using local account that is displayed in LCS.</span></span>
-+ <span data-ttu-id="fd70b-118">افتح عارض الأحداث.</span><span class="sxs-lookup"><span data-stu-id="fd70b-118">Open the event viewer.</span></span> 
-+ <span data-ttu-id="fd70b-119">انتقل إلى **سجلات التطبيقات والخدمات > Microsoft > Dynamics > AX-DualWriteSync > تشغيلي**.</span><span class="sxs-lookup"><span data-stu-id="fd70b-119">Navigate to **Applications and Services logs > Microsoft > Dynamics > AX-DualWriteSync > Operational**.</span></span> <span data-ttu-id="fd70b-120">يتم عرض الأخطاء والتفاصيل.</span><span class="sxs-lookup"><span data-stu-id="fd70b-120">The errors and details are displayed.</span></span>
+    <span data-ttu-id="8c7af-108">الآن يمكنك فحص الأخطاء.</span><span class="sxs-lookup"><span data-stu-id="8c7af-108">You can now inspect the errors.</span></span>
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a><span data-ttu-id="fd70b-121">كيفية إلغاء ربط بيئة Common Data Service أخرى بتطبيق Finance and Operations وربطها به</span><span class="sxs-lookup"><span data-stu-id="fd70b-121">How to unlink and link another Common Data Service environment from Finance and Operations</span></span>
+2. <span data-ttu-id="8c7af-109">سجل دخولك إلى Microsoft Dynamics 365 for Sales.</span><span class="sxs-lookup"><span data-stu-id="8c7af-109">Sign in to Microsoft Dynamics 365 for Sales.</span></span>
+3. <span data-ttu-id="8c7af-110">حدد زر **الإعدادات** (رمز الترس)، ثم حدد **الإعدادات المتقدمة**.</span><span class="sxs-lookup"><span data-stu-id="8c7af-110">Select the **Settings** button (the gear symbol), and then select **Advanced Settings**.</span></span>
+4. <span data-ttu-id="8c7af-111">في قائمة **الإعدادات**، اختر **تخصيص \> سجل تتبع المكون الإضافي**.</span><span class="sxs-lookup"><span data-stu-id="8c7af-111">On the **Settings** menu, select **Customization \> Plug-In Trace Log**.</span></span>
+5. <span data-ttu-id="8c7af-112">حدد **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** كاسم النوع لإظهار تفاصيل الأخطاء.</span><span class="sxs-lookup"><span data-stu-id="8c7af-112">Select **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** as the type name to show the error details.</span></span>
 
-<span data-ttu-id="fd70b-122">يمكنك تحديث الارتباطات باتباع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="fd70b-122">You can update links by following these steps:</span></span>
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a><span data-ttu-id="8c7af-113">فحص أخطاء مزامنة الكتابة المزدوجة في Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="8c7af-113">Inspect dual-write synchronization errors in Finance and Operations</span></span>
 
-+ <span data-ttu-id="fd70b-123">انتقل إلى بيئة Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="fd70b-123">Navigate to the Finance and Operations environment.</span></span>
-+ <span data-ttu-id="fd70b-124">افتح "إدارة البيانات".</span><span class="sxs-lookup"><span data-stu-id="fd70b-124">Open Data Management.</span></span>
-+ <span data-ttu-id="fd70b-125">انقر فوق **ارتباط إلى CDS للتطبيقات**.</span><span class="sxs-lookup"><span data-stu-id="fd70b-125">Click on **Link to CDS for apps**.</span></span>
-+ <span data-ttu-id="fd70b-126">حدد كافة التعيينات قيد التشغيل، وانقر فوق **إيقاف**.</span><span class="sxs-lookup"><span data-stu-id="fd70b-126">Select all the running mappings and click **Stop**.</span></span> 
-+ <span data-ttu-id="fd70b-127">حدد كافة التعيينات، وانقر فوق **حذف**.</span><span class="sxs-lookup"><span data-stu-id="fd70b-127">Select all the mappings and click **Delete**.</span></span>
+<span data-ttu-id="8c7af-114">اتبع الخطوات التالية لفحص الأخطاء أثناء الاختبار.</span><span class="sxs-lookup"><span data-stu-id="8c7af-114">Follow these steps to inspect errors during testing.</span></span>
+
+1. <span data-ttu-id="8c7af-115">سجل دخولك إلى Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="8c7af-115">Sign in to Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+2. <span data-ttu-id="8c7af-116">افتح مشروع LCS لإجراء اختبار الكتابة المزدوجة له.</span><span class="sxs-lookup"><span data-stu-id="8c7af-116">Open the LCS project to do dual-write testing for.</span></span>
+3. <span data-ttu-id="8c7af-117">حدد **بيئات مستضافة على الشبكة السحابية**.</span><span class="sxs-lookup"><span data-stu-id="8c7af-117">Select **Cloud-hosted environments**.</span></span>
+4. <span data-ttu-id="8c7af-118">أنشئ اتصال سطح مكتب بعيد بالجهاز الظاهري (VM) لـ Dynamics 365 for Finance and Operations باستخدام الحساب المحلي الذي يظهر في LCS.</span><span class="sxs-lookup"><span data-stu-id="8c7af-118">Make a Remote desktop connection to the Dynamics 365 for Finance and Operations virtual machine (VM) by using local account that is shown in LCS.</span></span>
+5. <span data-ttu-id="8c7af-119">افتح عارض الأحداث.</span><span class="sxs-lookup"><span data-stu-id="8c7af-119">Open Event Viewer.</span></span> 
+6. <span data-ttu-id="8c7af-120">انتقل إلى **سجلات التطبيقات والخدمات \> Microsoft \> Dynamics \> AX-DualWriteSync \> تشغيلي‏‎**.</span><span class="sxs-lookup"><span data-stu-id="8c7af-120">Go to **Applications and Services Logs \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operational**.</span></span> <span data-ttu-id="8c7af-121">تظهر الأخطاء والتفاصيل.</span><span class="sxs-lookup"><span data-stu-id="8c7af-121">The errors and details are shown.</span></span>
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a><span data-ttu-id="8c7af-122">كيفية إلغاء ربط بيئة Common Data Service بتطبيق Finance and Operations وربط بيئة أخرى</span><span class="sxs-lookup"><span data-stu-id="8c7af-122">Unlink one Common Data Service environment from Finance and Operations and link another environment</span></span>
+
+<span data-ttu-id="8c7af-123">اتبع الخطوات التالية لتحديث الارتباطات.</span><span class="sxs-lookup"><span data-stu-id="8c7af-123">Follow these steps to update links.</span></span>
+
+1. <span data-ttu-id="8c7af-124">انتقل إلى بيئة Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8c7af-124">Go to the Finance and Operations environment.</span></span>
+2. <span data-ttu-id="8c7af-125">افتح "إدارة البيانات".</span><span class="sxs-lookup"><span data-stu-id="8c7af-125">Open Data Management.</span></span>
+3. <span data-ttu-id="8c7af-126">حدد **ارتباط إلى CDS للتطبيقات**.</span><span class="sxs-lookup"><span data-stu-id="8c7af-126">Select **Link to CDS for apps**.</span></span>
+4. <span data-ttu-id="8c7af-127">حدد جميع التعيينات قيد التشغيل، ثم حدد **إيقاف**.</span><span class="sxs-lookup"><span data-stu-id="8c7af-127">Select all the mappings that are running, and then select **Stop**.</span></span>
+5. <span data-ttu-id="8c7af-128">حدد حدد جميع التعيينات، ثم حدد‏‎**حذف**.</span><span class="sxs-lookup"><span data-stu-id="8c7af-128">Select all the mappings, and then select **Delete**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="fd70b-128">لن يظهر الخيار **حذف** إذا تم تحديد القالب **CustomerV3-Account**.</span><span class="sxs-lookup"><span data-stu-id="fd70b-128">The **Delete** option will not appear if **CustomerV3-Account** template is selected.</span></span> <span data-ttu-id="fd70b-129">قم بإلغاء تحديده إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="fd70b-129">Unselect it if needed.</span></span> <span data-ttu-id="fd70b-130">القالب **CustomerV3-Account** عبارة عن قالب تم تزويده في وقت سابق ويعمل مع الحل "العميل المتوقع إلى النقدية".</span><span class="sxs-lookup"><span data-stu-id="fd70b-130">**CustomerV3-Account** is an older provisioned template and works with the Prospect to Cash solution.</span></span> <span data-ttu-id="fd70b-131">وبسبب إصداره بشكل عمومي، تظهر جميع القوالب تحته.</span><span class="sxs-lookup"><span data-stu-id="fd70b-131">Because it is globally released, it shows up under all templates.</span></span>
+    > <span data-ttu-id="8c7af-129">لن يتوفر الخيار **حذف** إذا تم تحديد القالب **CustomerV3-Account**.</span><span class="sxs-lookup"><span data-stu-id="8c7af-129">The **Delete** option isn't available if the **CustomerV3-Account** template is selected.</span></span> <span data-ttu-id="8c7af-130">قم بإلغاء تحديد هذا القالب كما هو مطلوب.</span><span class="sxs-lookup"><span data-stu-id="8c7af-130">Clear the selection of this template as required.</span></span> <span data-ttu-id="8c7af-131">القالب **CustomerV3-Account** عبارة عن قالب تم تزويده في وقت سابق ويعمل مع الحل "العميل المتوقع إلى النقدية".</span><span class="sxs-lookup"><span data-stu-id="8c7af-131">**CustomerV3-Account** is an older provisioned template and works with the Prospect to Cash solution.</span></span> <span data-ttu-id="8c7af-132">وبسبب إصداره بشكل عمومي، يظهر تحت جميع القوالب.</span><span class="sxs-lookup"><span data-stu-id="8c7af-132">Because it's globally released, it appears under all templates.</span></span>
 
-+ <span data-ttu-id="fd70b-132">انقر فوق **إلغاء ربط البيئة**.</span><span class="sxs-lookup"><span data-stu-id="fd70b-132">Click **Unlink environment**.</span></span>
-+ <span data-ttu-id="fd70b-133">انقر فوق **نعم** للتأكيد.</span><span class="sxs-lookup"><span data-stu-id="fd70b-133">Click **Yes** for confirmation.</span></span>
-+ <span data-ttu-id="fd70b-134">لربط البيئة الجديدة، اتبع الخطوات في [دليل التثبيت](https://aka.ms/dualwrite-docs).</span><span class="sxs-lookup"><span data-stu-id="fd70b-134">To link the new environment, follow the steps in the [installation guide](https://aka.ms/dualwrite-docs).</span></span>
-
+6. <span data-ttu-id="8c7af-133">حدد **إلغاء ربط البيئة**.</span><span class="sxs-lookup"><span data-stu-id="8c7af-133">Select **Unlink environment**.</span></span>
+7. <span data-ttu-id="8c7af-134">حدد **نعم** لتأكيد العملية.</span><span class="sxs-lookup"><span data-stu-id="8c7af-134">Select **Yes** to confirm the operation.</span></span>
+8. <span data-ttu-id="8c7af-135">لربط البيئة الجديدة، اتبع الخطوات في [دليل التثبيت](https://aka.ms/dualwrite-docs).</span><span class="sxs-lookup"><span data-stu-id="8c7af-135">To link the new environment, follow the steps in the [installation guide](https://aka.ms/dualwrite-docs).</span></span>

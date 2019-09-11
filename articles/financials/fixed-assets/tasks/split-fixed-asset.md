@@ -1,9 +1,9 @@
 ---
 title: تقسيم أصل ثابت
-description: سيقوم دليل المهمة هذا بتقسيم نسبة مئوية من دفتر الأصول إلى دفتر أصول جديد.
+description: يشرح هذا الموضوع كيفية تقسيم نسبة مئوية من دفتر الأصول إلى دفتر أصول جديد.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,46 +16,47 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8e5fdc8a7b326daca1fc0f0962c69bb8fb1ff64
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a4e001a6fdf390c6211ba85aa327b60dcdf16d9e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839703"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867573"
 ---
-# <a name="split-a-fixed-asset"></a><span data-ttu-id="d2b0d-103">تقسيم أصل ثابت</span><span class="sxs-lookup"><span data-stu-id="d2b0d-103">Split a fixed asset</span></span>
+# <a name="split-a-fixed-asset"></a><span data-ttu-id="93aa6-103">تقسيم أصل ثابت</span><span class="sxs-lookup"><span data-stu-id="93aa6-103">Split a fixed asset</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d2b0d-104">سيقوم دليل المهمة هذا بتقسيم نسبة مئوية من دفتر الأصول إلى دفتر أصول جديد.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-104">This task guide will split a percentage of one asset book to a new asset book.</span></span>  <span data-ttu-id="d2b0d-105">إنه يستخدم دور المحاسب وبيانات العرض التوضيحي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="d2b0d-105">It uses the Accountant role and USMF demo data.</span></span>
+<span data-ttu-id="93aa6-104">يشرح هذا الموضوع كيفية تقسيم نسبة مئوية من دفتر الأصول إلى دفتر أصول جديد.</span><span class="sxs-lookup"><span data-stu-id="93aa6-104">This topic explains how to split a percentage of one asset book to a new asset book.</span></span> <span data-ttu-id="93aa6-105">إنه يستخدم دور المحاسب وبيانات العرض التوضيحي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="93aa6-105">It uses the Accountant role and USMF demo data.</span></span>
 
 
-## <a name="create-a-new-fixed-asset"></a><span data-ttu-id="d2b0d-106">إنشاء أصل ثابت جديد</span><span class="sxs-lookup"><span data-stu-id="d2b0d-106">Create a new fixed asset</span></span>
-1. <span data-ttu-id="d2b0d-107">انتقل إلى الأصول الثابتة > الأصول الثابتة > الأصول الثابتة.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-107">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
-2. <span data-ttu-id="d2b0d-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="d2b0d-108">Click New.</span></span>
-3. <span data-ttu-id="d2b0d-109">في حقل "مجموعة الأصول الثابتة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-109">In the Fixed asset group field, enter or select a value.</span></span>
-4. <span data-ttu-id="d2b0d-110">لاحظ رقم الأصل الثابت لاستخدامه في عملية التقسيم لاحقًا.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-110">Note the fixed asset number to use in the split process later.</span></span>
-5. <span data-ttu-id="d2b0d-111">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-111">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="d2b0d-112">وقم بغلق النموذج.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-112">Close the form.</span></span>
+## <a name="create-a-new-fixed-asset"></a><span data-ttu-id="93aa6-106">إنشاء أصل ثابت جديد</span><span class="sxs-lookup"><span data-stu-id="93aa6-106">Create a new fixed asset</span></span>
+1. <span data-ttu-id="93aa6-107">في جزء التنقل، انتقل إلى **الوحدات النمطية > الأصول الثابتة > الأصول الثابتة > الأصول الثابتة‬**.</span><span class="sxs-lookup"><span data-stu-id="93aa6-107">In the navigation pane, go to **Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
+2. <span data-ttu-id="93aa6-108">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="93aa6-108">Select **New**.</span></span>
+3. <span data-ttu-id="93aa6-109">في حقل **مجموعة الأصول الثابتة**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="93aa6-109">In the **Fixed asset group** field, enter or select a value.</span></span> <span data-ttu-id="93aa6-110">لاحظ رقم الأصل الثابت لاستخدامه في عملية التقسيم لاحقًا.</span><span class="sxs-lookup"><span data-stu-id="93aa6-110">Note the fixed asset number to use in the split process later.</span></span>  
+4. <span data-ttu-id="93aa6-111">في الحقل **الاسم**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="93aa6-111">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="93aa6-112">وقم بغلق النموذج.</span><span class="sxs-lookup"><span data-stu-id="93aa6-112">Close the form.</span></span>
 
-## <a name="split-a-fixed-asset"></a><span data-ttu-id="d2b0d-113">تقسيم أصل ثابت</span><span class="sxs-lookup"><span data-stu-id="d2b0d-113">Split a fixed asset</span></span>
-1. <span data-ttu-id="d2b0d-114">في القائمة، ابحث عن الأصل الثابت المراد تقسيمه وحدده.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-114">In the list, find and select the fixed asset to split.</span></span>
-2. <span data-ttu-id="d2b0d-115">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-115">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="d2b0d-116">انقر فوق "الدفاتر".</span><span class="sxs-lookup"><span data-stu-id="d2b0d-116">Click Books.</span></span>
-    * <span data-ttu-id="d2b0d-117">حدد الدفتر لتقسيمه إلى الأصل الجديد.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-117">Select the book to split to the new asset.</span></span>  
-4. <span data-ttu-id="d2b0d-118">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="d2b0d-118">Click Functions.</span></span>
-5. <span data-ttu-id="d2b0d-119">انقر فوق "تقسيم أصل ثابت‬".</span><span class="sxs-lookup"><span data-stu-id="d2b0d-119">Click Split fixed asset.</span></span>
-6. <span data-ttu-id="d2b0d-120">في حقل "إلى الأصل الثابت‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-120">In the To fixed asset field, enter or select a value.</span></span>
-7. <span data-ttu-id="d2b0d-121">في الحقل "إلى دفتر‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-121">In the To book field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="d2b0d-122">في حقل "‏‫تاريخ الحركة"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-122">In the Transaction date field, enter a date.</span></span>
-9. <span data-ttu-id="d2b0d-123">في الحقل "النسبة‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-123">In the Percent field, enter a number.</span></span>
-10. <span data-ttu-id="d2b0d-124">في الحقل "اسم دفتر اليومية"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-124">In the Journal name field, enter or select a value.</span></span>
-11. <span data-ttu-id="d2b0d-125">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="d2b0d-125">Click OK.</span></span>
+## <a name="split-a-fixed-asset"></a><span data-ttu-id="93aa6-113">تقسيم أصل ثابت</span><span class="sxs-lookup"><span data-stu-id="93aa6-113">Split a fixed asset</span></span>
+1. <span data-ttu-id="93aa6-114">في القائمة، ابحث عن الارتباط إلى الأصل الثابت المراد تقسيمه وحدده.</span><span class="sxs-lookup"><span data-stu-id="93aa6-114">In the list, find and select the link of the fixed asset to split.</span></span>
+2. <span data-ttu-id="93aa6-115">حدد **الدفاتر**.</span><span class="sxs-lookup"><span data-stu-id="93aa6-115">Select **Books**.</span></span> <span data-ttu-id="93aa6-116">حدد الدفتر لتقسيمه إلى الأصل الجديد.</span><span class="sxs-lookup"><span data-stu-id="93aa6-116">Select the book to split to the new asset.</span></span>  
+3. <span data-ttu-id="93aa6-117">حدد **الوظائف**.</span><span class="sxs-lookup"><span data-stu-id="93aa6-117">Select **Functions**.</span></span>
+4. <span data-ttu-id="93aa6-118">حدد **تقسيم الأصل الثابت**.</span><span class="sxs-lookup"><span data-stu-id="93aa6-118">Select **Split fixed asset**.</span></span>
+5. <span data-ttu-id="93aa6-119">في حقل **إلى الأصل الثابت**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="93aa6-119">In the **To fixed asset** field, enter or select a value.</span></span>
+6. <span data-ttu-id="93aa6-120">في الحقل **إلى دفتر‬**، حدد زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="93aa6-120">In the **To book** field, select the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="93aa6-121">في حقل **‏‫تاريخ الحركة**، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="93aa6-121">In the **Transaction date** field, enter a date.</span></span>
+8. <span data-ttu-id="93aa6-122">في الحقل **النسبة‬ المئوية**، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="93aa6-122">In the **Percent** field, enter a number.</span></span>
+9. <span data-ttu-id="93aa6-123">في الحقل **اسم دفتر اليومية**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="93aa6-123">In the **Journal name** field, enter or select a value.</span></span>
+10. <span data-ttu-id="93aa6-124">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="93aa6-124">Select **OK**.</span></span>
 
-## <a name="post-the-journal-transaction"></a><span data-ttu-id="d2b0d-126">ترحيل حركة دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="d2b0d-126">Post the journal transaction</span></span>
-1. <span data-ttu-id="d2b0d-127">انتقل إلى الأصول الثابتة > إدخالات دفتر اليومية‬ > دفتر يومية الأصول الثابتة‬.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-127">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
-2. <span data-ttu-id="d2b0d-128">في القائمة، حدد دفتر اليومية الذي تم إنشاؤه بواسطة عملية التقسيم.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-128">In the list, select the journal created with the split process.</span></span>
-3. <span data-ttu-id="d2b0d-129">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-129">Click Lines.</span></span>
-    * <span data-ttu-id="d2b0d-130">تحقق من بنود دفتر اليومية التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-130">Verify the journal lines created.</span></span>  <span data-ttu-id="d2b0d-131">يتم إنشاء حركة تسوية الاستحواذ للأصل الأولي لإنقاص القيمة بالنسبة المئوية المحددة أثناء عملية التقسيم.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-131">An Acquisition adjustment transaction is created for the original asset to decrease the value by the percentage specified during the split process.</span></span>  <span data-ttu-id="d2b0d-132">يتم إنشاء حركة استحواذ للأصل الجديد بالمبلغ نفسه.</span><span class="sxs-lookup"><span data-stu-id="d2b0d-132">An Acquisition transaction is created for the new asset for the same amount.</span></span>  
-4. <span data-ttu-id="d2b0d-133">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="d2b0d-133">Click Post.</span></span>
+## <a name="post-the-journal-transaction"></a><span data-ttu-id="93aa6-125">ترحيل حركة دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="93aa6-125">Post the journal transaction</span></span>
+1. <span data-ttu-id="93aa6-126">في جزء التنقل، انتقل إلى **الوحدات النمطية > الأصول الثابتة > إدخالات دفتر اليومية‬ > دفتر يومية الأصول الثابتة‬**.</span><span class="sxs-lookup"><span data-stu-id="93aa6-126">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
+2. <span data-ttu-id="93aa6-127">في القائمة، حدد دفتر اليومية الذي تم إنشاؤه بواسطة عملية التقسيم.</span><span class="sxs-lookup"><span data-stu-id="93aa6-127">In the list, select the journal created with the split process.</span></span>
+3. <span data-ttu-id="93aa6-128">حدد **البنود**.</span><span class="sxs-lookup"><span data-stu-id="93aa6-128">Select **Lines**.</span></span>
+
+    - <span data-ttu-id="93aa6-129">تحقق من بنود دفتر اليومية التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="93aa6-129">Verify the journal lines created.</span></span>  
+    - <span data-ttu-id="93aa6-130">يتم إنشاء حركة تسوية الاستحواذ للأصل الأولي لإنقاص القيمة بالنسبة المئوية المحددة أثناء عملية التقسيم.</span><span class="sxs-lookup"><span data-stu-id="93aa6-130">An Acquisition adjustment transaction is created for the original asset to decrease the value by the percentage specified during the split process.</span></span>  
+    - <span data-ttu-id="93aa6-131">يتم إنشاء حركة استحواذ للأصل الجديد بالمبلغ نفسه.</span><span class="sxs-lookup"><span data-stu-id="93aa6-131">An Acquisition transaction is created for the new asset for the same amount.</span></span>  
+
+4. <span data-ttu-id="93aa6-132">حدد **ترحيل**.</span><span class="sxs-lookup"><span data-stu-id="93aa6-132">Select **Post**.</span></span>
 
