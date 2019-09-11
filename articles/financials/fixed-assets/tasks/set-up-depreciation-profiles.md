@@ -3,7 +3,7 @@ title: إعداد وإنشاء ملفات تعريف الإهلاك
 description: تحدد ملفات تعريف الإهلاك نوع الإهلاك ومدى تكراره لأصل ما.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8879e61b872e36ddff9bf9c85efe54085f7a62c1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: cdfcf62615faa76a6bd1f00bd947ef04e23613df
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839823"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916197"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>إعداد وإنشاء ملفات تعريف الإهلاك
 
@@ -31,13 +31,12 @@ ms.locfileid: "1839823"
 
 
 ## <a name="create-a-depreciation-profile"></a>إنشاء ملف تعريف إهلاك
-1. انتقل إلى الأصول الثابتة > الإعداد > ملفات تعريف الإهلاك.
-2. انقر فوق "جديد".
-3. في الحقل "ملف تعريف الإهلاك"، اكتب قيمة.
-4. في حقل "الاسم"، اكتب قيمة.
-5. في الحقل "الأسلوب‬"، حدد خيارًا.
-    * في حالة تقليل الرصيد، ستحتاج إلى إدخال النسبة مئوية في حقل "النسبة المئوية".  
-6. في الحقل "سنة الإهلاك"، حدد خيارًا.
-7. في الحقل "تكرار الفترة‬"، حدد خيارًا.
+1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الأصول الثابتة > الإعداد > ملفات تعريف الإهلاك‬‬**.
+2. انقر فوق **جديد**.
+3. في الحقل **ملف تعريف الإهلاك**، اكتب قيمة.
+4. في الحقل **الاسم**، اكتب قيمة.
+5. في الحقل **الأسلوب**، حدد خيارًا. في حالة تقليل الرصيد، ستحتاج إلى إدخال النسبة مئوية في حقل **النسبة المئوية**.  
+6. في الحقل **سنة الإهلاك**، حدد خيارًا.
+7. في الحقل **تكرار الفترة‬**، حدد خيارًا.
 8. وقم بغلق النموذج.
 

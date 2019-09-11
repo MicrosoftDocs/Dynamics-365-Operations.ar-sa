@@ -2,8 +2,8 @@
 title: مصمم المعادلات في التقارير الإلكترونية
 description: يشرح هذا الموضوع كيفية استخدام مصمم المعادلة في التقارير الإلكترونية.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849499"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864284"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>مصمم المعادلات في التقارير الإلكترونية
 
@@ -113,6 +113,33 @@ ms.locfileid: "1849499"
 - يمكّن التعبير (من خلال إرجاع **TRUE**) عملية إنشاء ملف للدُفعات التي تحتوي على سجل واحد على الأقل.
 
 [![التحكم في الملف](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>التحكم بمحتوى المستندات
+
+يمكن استخدام مصمم معادلة التقارير الإلكترونية لتكوين التعبيرات التي تتحكم في البيانات التي سيتم وضعها في المستندات الإلكترونية التي تم إنشاؤها في وقت التشغيل. بإمكان هذه للتعبيرات تمكين أو تعطيل إخراج عناصر معينة للتنسيق، وهذا يتوقف على معالجة البيانات والمنطق المكوّن. يمكن إدخال هذه التعبيرات لعنصر تنسيق واحد في الحقل **ممكّن** على علامة تبويب **التعيين** في صفحة **مصمم العمليات** كشرط منطقي يرجع القيمة **منطقي**:
+
+-   عند إرجاع **True**، يتم تنفيذ عنصر التنسيق الحالي.
+-   عند إرجاع **False‎**، يتم تخطي عنصر التنسيق الحالي.
+
+يبين الرسم التوضيحي التالي التعبيرات من هذا النوع (الإصدار، **11.12.11** من تنسيق التكوين **تحويل الائتمان ISO20022‬‬‏ (NO)** الذي قامت Microsoft بتوفيره هو مثال). تم تكوين مكون تنسيق **XMLHeader‎** لوصف بنية رسالة التحويل الائتماني، باتباع معايير رسالة ISO 20022 XML. تم تكوين مكون التنسيق **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** لإضافة الرسالة المنشأة وعنصر XML **Ustrd** ووضع معلومات الحوالة في تنسيق غير منظم كنص لعناصر XML التالية:
+
+-   يتم استخدام‏‎ المكون **PaymentNotes‎** لإخراج نص ملاحظات الدفع.
+-   يقوم المكون **DelimitedSequence‎** بإخراج أرقام الفاتورة المفصولة بفواصل المستخدمة لتسويه التحويل الائتماني الحالي.
+
+[![مصمم العمليات](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> تتم تسمية المكونين **PaymentNotes** و**DelimitedSequence** باستخدام علامة استفهام. وهذا يعني أن استخدام المكونين شرطي، بالاستناد إلى المعايير التالية:
+
+-   تم تعريفه لمكون **PaymentsNotes**، يمكنّ التعبير **@.PaymentsNotes<>""**  (من خلال إرجاع **TRUE**) تعبئة عنصر **Ustrd** XML، نص ملاحظات الدفع، عندما لا يكون هذا النص للتحويل الائتماني الحالي فارغًا.
+
+[![مصمم العمليات](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   تم تعريفه لمكون **DelimitedSequence**، يمكّن التعبير **@.PaymentsNotes=""** (عن طريق إرجاع **TRUE**) تعبئة عنصر XML **Ustrd**، أرقام فواتير مفصولة بفاصلة يتم استخدامها لتسوية التحويل الائتماني الحالي عندما يكون نص ملاحظات الدفع لهذا التحويل الائتماني فارغًا.
+
+[![مصمم العمليات](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+استنادًا إلى هذا الإعداد، ستتضمن الرسالة المنشأة لكل دفعة دائن، عنصر **Ustrd** XML، إما نص ملاحظات الدفع أو، عندما يكون هذا النص فارغًا، أرقام فواتير مفصولة بفاصلة يتم استخدامها لتسوية هذه الدفعة.
 
 ### <a name="basic-syntax"></a>البنية الأساسية
 

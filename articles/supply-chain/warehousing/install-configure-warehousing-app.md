@@ -1,9 +1,9 @@
 ---
-title: تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations &#8211; التخزين
+title: نظرة عامة على تثبيت وتكوين تطبيق التخزين
 description: يصف هذا الموضوع كيفية تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/12/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 742e8753aafca670b94c9f0361ef1dbbe42f0eb8
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559176"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866103"
 ---
-# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations &#8211; التخزين
+# <a name="install-and-configure-the-warehousing-app-overview"></a>نظرة عامة على تثبيت وتكوين تطبيق التخزين
 
 [!include [banner](../includes/banner.md)]
 
@@ -93,8 +93,8 @@ ms.locfileid: "1559176"
 3.  أدخل المعلومات التالية: 
     + **معرف عميل Azure Active Directory** - يتم الحصول على معرف العميل في الخطوة 9 "إنشاء تطبيق خدمة ويب في Active Directory". 
     + **سر عميل Azure Active Directory** - يتم الحصول على سر العميل في الخطوة 11 "إنشاء تطبيق خدمة ويب في Active Directory". 
-    + **مورد Azure Active Directory** - يمثّل مورد Azure AD عنوان URL الجذر لتطبيق Finance and Operations. **ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
-    + **مستأجر Azure Active Directory** - مستأجر دليل Azure AD المستخدم مع خادم Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. على سبيل المثال: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    + **مورد Azure Active Directory** - يمثل مورد Azure AD Directory‏‎ عنوان URL الجذر لتطبيق Finance and Operations. **ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
+    + **مستأجر Azure Active Directory** - مستأجر Azure AD Directory‏‎ المستخدم مع خادم Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. على سبيل المثال: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
     + **الشركة** -أدخل الكيان القانوني في Finance and Operations الذي تريد أن يتصل به التطبيق. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  حدد زر **السابق** في الزاوية العلوية اليمنى من التطبيق. سيتصل الآن التطبيق بخادم Finance and Operations وستظهر شاشة تسجيل الدخول لعامل المستودع. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)

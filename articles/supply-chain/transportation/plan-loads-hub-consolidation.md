@@ -1,9 +1,9 @@
 ---
-title: تخطيط الأحمال باستخدام توحيد الموزِّعين
+title: نظرة عامة على تخطيط الأحمال باستخدام توحيد الموزِّعين
 description: تصف هذه المقالة ميزة توحيد الشحنات في الموزّع عند تسليم بضائع من مستودعات مختلفة إلى العميل نفسه، أو عند استلام بضائع من مورّدين متعددين في المستودع نفسه.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6743338819da3821cde18ec34a9c79290036ca23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 74f152a227bec3b402eba9384dfb5db53b46d83a
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560968"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866055"
 ---
-# <a name="plan-loads-using-hub-consolidation"></a>تخطيط الأحمال باستخدام توحيد الموزِّعين
+# <a name="plan-loads-using-hub-consolidation-overview"></a>نظرة عامة على تخطيط الأحمال باستخدام توحيد الموزِّعين
 
 [!include [banner](../includes/banner.md)]
 

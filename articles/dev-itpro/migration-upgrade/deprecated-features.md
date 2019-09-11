@@ -3,7 +3,7 @@ title: الميزات التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها.
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863373"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867091"
 ---
 # <a name="removed-or-deprecated-features"></a>الميزات المهلكة أو التي تمت إزالتها
 
@@ -53,7 +53,7 @@ ms.locfileid: "1863373"
 | **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم |
 | **مناطق المنتجات المتأثرة**         | كشف الرواتب |
 | **خيارات النشر**              | الكل |
-| **الحالة**                         | وظيفة مهملة: نحن نخطط للتوقف عن تقديم تحديثات الضرائب لعملاء كشف الرواتب في الولايات المتحدة اعتبارًا من 1 أكتوبر 2021. سوف تبقى هذه الوظيفة في المنتج، ولكن التحسينات لن تبقي الوظيفة محدثة، وسيتم تقييم أي عيوب في المنتج على أساس كل حالة على حده. لمزيد من المعلومات ، راجع [إيقاف العمل بتحديثات الضرائب لميزة كشف الرواتب في الولايات المتحدة‬ في Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+| **الحالة**                         | وظيفة مهملة: نحن نخطط للتوقف عن تقديم تحديثات الضرائب لعملاء كشف الرواتب في الولايات المتحدة اعتبارًا من 1 أكتوبر 2021. سوف تبقى هذه الوظيفة في المنتج، ولكن التحسينات لن تبقي الوظيفة محدثة، وسيتم تقييم أي عيوب في المنتج على أساس كل حالة على حده. لمزيد من المعلومات، راجع [إيقاف العمل بتحديثات الضرائب لميزة كشف الرواتب في الولايات المتحدة‬ في Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
 
 
 ### <a name="data-management-staging-clean-up"></a>تنظيف الجداول المرحلية لإدارة البيانات
@@ -157,6 +157,17 @@ ms.locfileid: "1863373"
 | **مناطق المنتجات المتأثرة**         | أدوات تطوير Visual Studio |
 | **خيارات النشر**              | الكل |
 | **الحالة**                         | ميزة مهملة: سيتحوّل التحذير إلى خطأ تحويل برمجي في Platform update 26. |
+
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>الإصدار 10.0.0 من Dynamics 365 for Finance and Operations مع platform update 24
+
+### <a name="renaming-released-products"></a>إعادة تسمية المنتجات الصادرة 
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | عند استخدام وظيفة **إعادة تسمية المفتاح الأساسي‬** لتغيير معرف الصنف لمنتج صادر، يتم تحديث المراجع إلى المفاتيح الخارجية فقط. ستحتفظ أي مراجع أخرى إلى المنتج الصادر، مثل من أوامر الإنتاج، بمعرف الصنف القديم. ونتيجة لذلك، قد تكون هناك بيانات غير متسقة سوف تؤدي في نهاية المطاف إلى حظر العمليات التجارية. |
+| **هل تم الاستبدال بميزة أخرى؟**   | الرقم |
+| **مناطق المنتجات المتأثرة**         | إدارة معلومات المنتج |
+| **خيارات النشر**              | الكل  |
+| **الحالة**                         | تمت إزالتها اعتبارًا من الإصدار 10.0.0 من Dynamics 365 for Finance and Operations مع platform update 24. في حالات استثنائية، مثل الاسترداد من إعادة تسمية سابقة للمفتاح الأساسي لمنتج صادر، يمكن الطلب من Microsoft إزالة هذا القيد مؤقتًا على عمليه إعادة تسمية المفتاح الأساسي للمنتجات الصادرة. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>الإصدار 8.1.3 من Dynamics 365 for Finance and Operations مع platform update 23

@@ -1,9 +1,9 @@
 ---
-title: المملكة العربية السعودية‬
+title: نظرة عامة على المملكة العربية السعودية
 description: يوفر هذا الموضوع ارتباطات إلى موارد الوثائق للمملكة العربية السعودية في Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/25/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Saudi Arabia
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76fb3d7ec5d5906086bc9e1471b18f5aea96ff6a
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: b6d0bb01d8f4a7ae53e2909684f62fd2dcc7cf36
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849190"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865649"
 ---
-# <a name="saudi-arabia"></a>المملكة العربية السعودية‬ 
+# <a name="saudi-arabia-overview"></a>نظرة عامة على المملكة العربية السعودية
 
 [!include [banner](../includes/banner.md)]
 

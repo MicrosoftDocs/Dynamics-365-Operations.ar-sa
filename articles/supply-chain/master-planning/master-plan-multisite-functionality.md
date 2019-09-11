@@ -1,9 +1,9 @@
 ---
-title: التخطيط الرئيسي ووظائف المواقع المتعددة
+title: نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة
 description: يأخذ التخطيط الرئيسي إعدادات أبعاد مخزون المستودع والموقع في الاعتبار.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10981e0fe201566c83fd28c792000865bc533cd3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4f05e3efd1716a27a659ae40145f37bb0b3d977f
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573081"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865390"
 ---
-# <a name="master-planning-and-multisite-functionality"></a>التخطيط الرئيسي ووظائف المواقع المتعددة
+# <a name="master-planning-and-multisite-functionality-overview"></a>نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة
 
 [!include [banner](../includes/banner.md)]
 
