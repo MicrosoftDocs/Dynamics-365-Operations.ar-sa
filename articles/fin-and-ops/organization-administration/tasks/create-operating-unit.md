@@ -3,7 +3,7 @@ title: إنشاء وحدة تشغيل
 description: تعتبر وحدة التشغيل هي مؤسسة مستخدمة لتقسيم التحكم في الموارد الاقتصادية وعمليات التشغيل في أي كيان أعمال.
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef03329cfe477256cfbe1dde1dc18df52137286f
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755559"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874893"
 ---
 # <a name="create-an-operating-unit"></a>إنشاء وحدة تشغيل
 
@@ -40,5 +40,5 @@ ms.locfileid: "1755559"
     + أدخل معلومات العنوان، مثل اسم الشارع ورقمه والرمز البريدي والمدينة. انقر فوق **إضافة** لإدخال سجل عناوين جديد أو انقر فوق "تحرير" لتعديل سجل عناوين موجود.   
     + قم بتوسيع القسم **معلومات جهة الاتصال**، إذا لزم الأمر.  
     + أدخل معلومات عن طرق الاتصال، مثل عناوين البريد الإلكتروني وعناوين URL وأرقام الهاتف. لإدخال سجل اتصال جديد، انقر فوق "جديد". لتعديل سجل اتصال موجود، انقر فوق **مزيد من الخيارات > خيارات متقدمة**.   
-6. انقر فوق **حفظ**.
-
+6. بشكل اختياري، قم بتغيير **رقم وحدة التشغيل‬** حسب الحاجة. لاحظ أن هذا الرقم عبارة عن معرف فريد لسجل **Party** الطرف المناظر ولا يمكن أن يكون هو نفسه كأي وحدة تشغيل أخرى.
+7. حدد **حفظ**.

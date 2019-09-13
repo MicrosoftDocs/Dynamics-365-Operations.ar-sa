@@ -1,9 +1,9 @@
 ---
-title: قوالب السجل
+title: نظرة عامة على قوالب السجلات
 description: تقدم هذه المقالة مفهوم قوالب السجلات وتشرح كيفية استخدامها لإنشاء سجلات تشارك المعلومات.
 author: pvillads
 manager: AnnBe
-ms.date: 08/18/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 426fd8fafec061b649cbb31109ffe8fabc24917d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 81a878fccf2b544ffe94edac2c7c41be78bade3f
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545660"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864734"
 ---
-# <a name="record-templates"></a>قوالب السجل
+# <a name="record-templates-overview"></a>نظرة عامة على قوالب السجلات
 
 [!include [banner](../includes/banner.md)]
 

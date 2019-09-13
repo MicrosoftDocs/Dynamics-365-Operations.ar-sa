@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797265"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873095"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>دليل استكشاف أخطاء تكامل البيانات وإصلاحها
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a>تمكين تتبع المكون الإضافي في Common Data Service والتحقق من تفاصيل أخطاء المكون الإضافي للكتابة المزدوجة
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>تمكين سجلات تتبع المكون الإضافي في Common Data Service وفحص تفاصيل أخطاء المكون الإضافي للكتابة المزدوجة
 
-إذا كنت تواجه مشكلة أو خطأ مع مزامنة الكتابة المزدوجة، يمكنك فحص الأخطاء في سجل التتبع:
+[!include [banner](../includes/banner.md)]
 
-1. قبل أن تتمكن من فحص الأخطاء، يجب تمكين تتبع المكون الإضافي باستخدام الإرشادات في [تسجيل المكون الإضافي](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) لتمكين تتبع المكون الإضافي. الآن يمكنك فحص الأخطاء.
-2. سجل دخولك إلى Dynamics 365 for Sales.
-3. انقر فوق أيقونة الإعدادات (ترس)، وحدد **إعدادات متقدمة**.
-4. في قائمة **الإعدادات**، اختر **تخصيص >** سجل تتبع المكون الإضافي.
-5. انقر فوق اسم النوع **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** لعرض تفاصيل الأخطاء.
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a>التحقق من أخطاء مزامنة الكتابة المزدوجة في Finance and Operations
+إذا واجهت مشكلة أو خطأ ما أثناء مزامنة لكتابة المزدوجة، فاتبع الخطوات التالية لفحص الأخطاء الموجودة في سجل التتبع.
 
-يمكنك التحقق من الأخطاء أثناء الاختبار باتباع الخطوات التالية:
+1. قبل ان تتمكن من فحص الأخطاء، يجب تمكين سجلات تتبع المكون الإضافي. للحصول على الإرشادات، راجع القسم "عرض سجلات التتبع" في [البرنامج التعليمي: كتابة مكون إضافي وتسجيله](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
 
-+ سجل دخولك إلى LifeCycle Services (LCS).
-+ افتح مشروع LCS الذي اخترته لإجراء اختبار الكتابة المزدوجة.
-+ انتقل إلى البيئات المستضافة على الشبكة السحابية.
-+ سطح المكتب البعيد إلى Finance and Operations VM باستخدام الحساب المحلي الذي يتم عرضه في LCS.
-+ افتح عارض الأحداث. 
-+ انتقل إلى **سجلات التطبيقات والخدمات > Microsoft > Dynamics > AX-DualWriteSync > تشغيلي**. يتم عرض الأخطاء والتفاصيل.
+    الآن يمكنك فحص الأخطاء.
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a>كيفية إلغاء ربط بيئة Common Data Service أخرى بتطبيق Finance and Operations وربطها به
+2. سجل دخولك إلى Microsoft Dynamics 365 for Sales.
+3. حدد زر **الإعدادات** (رمز الترس)، ثم حدد **الإعدادات المتقدمة**.
+4. في قائمة **الإعدادات**، اختر **تخصيص \> سجل تتبع المكون الإضافي**.
+5. حدد **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** كاسم النوع لإظهار تفاصيل الأخطاء.
 
-يمكنك تحديث الارتباطات باتباع الخطوات التالية:
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a>فحص أخطاء مزامنة الكتابة المزدوجة في Finance and Operations
 
-+ انتقل إلى بيئة Finance and Operations.
-+ افتح "إدارة البيانات".
-+ انقر فوق **ارتباط إلى CDS للتطبيقات**.
-+ حدد كافة التعيينات قيد التشغيل، وانقر فوق **إيقاف**. 
-+ حدد كافة التعيينات، وانقر فوق **حذف**.
+اتبع الخطوات التالية لفحص الأخطاء أثناء الاختبار.
+
+1. سجل دخولك إلى Microsoft Dynamics Lifecycle Services (LCS).
+2. افتح مشروع LCS لإجراء اختبار الكتابة المزدوجة له.
+3. حدد **بيئات مستضافة على الشبكة السحابية**.
+4. أنشئ اتصال سطح مكتب بعيد بالجهاز الظاهري (VM) لـ Dynamics 365 for Finance and Operations باستخدام الحساب المحلي الذي يظهر في LCS.
+5. افتح عارض الأحداث. 
+6. انتقل إلى **سجلات التطبيقات والخدمات \> Microsoft \> Dynamics \> AX-DualWriteSync \> تشغيلي‏‎**. تظهر الأخطاء والتفاصيل.
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a>كيفية إلغاء ربط بيئة Common Data Service بتطبيق Finance and Operations وربط بيئة أخرى
+
+اتبع الخطوات التالية لتحديث الارتباطات.
+
+1. انتقل إلى بيئة Finance and Operations.
+2. افتح "إدارة البيانات".
+3. حدد **ارتباط إلى CDS للتطبيقات**.
+4. حدد جميع التعيينات قيد التشغيل، ثم حدد **إيقاف**.
+5. حدد حدد جميع التعيينات، ثم حدد‏‎**حذف**.
 
     > [!NOTE]
-    > لن يظهر الخيار **حذف** إذا تم تحديد القالب **CustomerV3-Account**. قم بإلغاء تحديده إذا لزم الأمر. القالب **CustomerV3-Account** عبارة عن قالب تم تزويده في وقت سابق ويعمل مع الحل "العميل المتوقع إلى النقدية". وبسبب إصداره بشكل عمومي، تظهر جميع القوالب تحته.
+    > لن يتوفر الخيار **حذف** إذا تم تحديد القالب **CustomerV3-Account**. قم بإلغاء تحديد هذا القالب كما هو مطلوب. القالب **CustomerV3-Account** عبارة عن قالب تم تزويده في وقت سابق ويعمل مع الحل "العميل المتوقع إلى النقدية". وبسبب إصداره بشكل عمومي، يظهر تحت جميع القوالب.
 
-+ انقر فوق **إلغاء ربط البيئة**.
-+ انقر فوق **نعم** للتأكيد.
-+ لربط البيئة الجديدة، اتبع الخطوات في [دليل التثبيت](https://aka.ms/dualwrite-docs).
-
+6. حدد **إلغاء ربط البيئة**.
+7. حدد **نعم** لتأكيد العملية.
+8. لربط البيئة الجديدة، اتبع الخطوات في [دليل التثبيت](https://aka.ms/dualwrite-docs).

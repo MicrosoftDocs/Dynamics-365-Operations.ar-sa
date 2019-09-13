@@ -1,9 +1,9 @@
 ---
-title: إنشاء أوامر إنتاج
+title: نظرة عامة على إدارة دورة حياة أمر الإنتاج
 description: عند إنشاء أمر إنتاج، يتم بدء طلب لبدء إنتاج صنف. يحتوي أمر الإنتاج على معلومات حول ما سيتم إنتاجه والكمية التي يجب إنتاجها وتاريخ الانتهاء المخطط. ويحتوي أيضًا على معلومات حول المواد التي يجب استهلاكها والعملية التي يجب اتباعها لإنتاج الصنف.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2957b387aac9e0218f88572fa605cde1a30c52e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 79b1866cdca885d408aca07c546ca54aa0c3616b
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572617"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865174"
 ---
-# <a name="create-production-orders"></a>إنشاء أوامر إنتاج
+# <a name="production-order-lifecycle-overview"></a>نظرة عامة على إدارة دورة حياة أمر الإنتاج
 
 [!include [banner](../includes/banner.md)]
 

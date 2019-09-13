@@ -1,9 +1,9 @@
 ---
-title: قبل الشراء
+title: الصفحة الرئيسية لقبل الشراء
 description: إرشادات خطوة بخطوة لاستخدامها عندما تفكر في شراء Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
-ms.date: 01/04/2019
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f6074906dc77f17d10cc2fb94a4ded7cb8b32f14
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 2b6c429abbce30cd790d2d484a1494a253113f5d
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850941"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864856"
 ---
-# <a name="before-you-buy"></a>قبل الشراء
+# <a name="before-you-buy-home-page"></a>الصفحة الرئيسية لقبل الشراء
 
 [!include [banner](../includes/banner.md)]
 
