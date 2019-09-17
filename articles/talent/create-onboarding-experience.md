@@ -1,9 +1,9 @@
 ---
-title: إنشاء تجربة إعداد تفاعلية
-description: من شأن إعداد الموظفين الجدد بطريقة جيدة أن يساعدهم على تحقيق حس الانتماء إلى مؤسستهم الجديدة.
+title: بدء استخدام Onboard
+description: سيساعدك هذا الموضوع على بدء استخدام Microsoft Dynamics 365 for Talent - Onboard. بإمكان تطبيق Onboard أن يساعد الموظفين الجدد على تحقيق انطلاقة قوية في عملهم من خلال تزويدهم بدليل ينقلهم بسلاسة عبر عملية الإعداد.
 author: andreabichsel
 manager: ''
-ms.date: 11/14/2017
+ms.date: 06/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -16,77 +16,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 805f74a0cf618254b7d5fb9a1195dc75832dc0ca
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
+ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517205"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1731203"
 ---
-# <a name="create-an-engaging-onboarding-experience"></a><span data-ttu-id="a97f6-103">إنشاء تجربة إعداد تفاعلية</span><span class="sxs-lookup"><span data-stu-id="a97f6-103">Create an engaging onboarding experience</span></span>
+# <a name="get-started-with-onboard"></a><span data-ttu-id="b8c33-104">بدء استخدام Onboard</span><span class="sxs-lookup"><span data-stu-id="b8c33-104">Get started with Onboard</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a97f6-104">من شأن إعداد الموظفين الجدد بطريقة جيدة أن يساعدهم على أداء عمالهم بطريقة تتسم بمزيد من الفاعلية إلى جانب اكتساب حس الانتماء إلى في دورهم الجديد.</span><span class="sxs-lookup"><span data-stu-id="a97f6-104">When done effectively, onboarding helps new employees perform more effectively while also gaining a sense of belonging in their new role.</span></span> <span data-ttu-id="a97f6-105">من شأن إعداد الموظفين الجدد أن يساعدهم على فهم دورهم الجديد بشكل أسرع وأدق، وسيحصلون على فوائد تتيح لهم تأسيس العلاقات التي يمكنها مساعدتهم على تحقيق النجاح.</span><span class="sxs-lookup"><span data-stu-id="a97f6-105">Onboarding can help new employees understand their new role more quickly and accurately than they would have otherwise, and they get a head start on establishing relationships that can help them succeed.</span></span> <span data-ttu-id="a97f6-106">بدلاً من ذلك، قد تؤدي تجربة إعداد الموظفين غير الفعالة إلى تساؤل هؤلاء حول صوابية قرارهم في الانضمام إلى مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="a97f6-106">Alternatively, an ineffective onboarding experience might leave employees questioning their decision to join your organization.</span></span> <span data-ttu-id="a97f6-107">بحسب دراسة أجرتها شركة Gartner في عام 2014، تبين أن ثلث المستجيبين تقريبًا والذين بلغ عددهم 1,005 أشخاص الذين غادروا وظيفتهم في غضون الأشهر الستة الأولى، قاموا بذلك لأن الإرشادات التي أعطيت لهم من قبل القيادة لم تكن واضحة أو لأن التدريب لم يكن فعالاً أو لأنهم لم يتمكنوا من تأسيس علاقة فعالة في بيئتهم الجديدة.</span><span class="sxs-lookup"><span data-stu-id="a97f6-107">A study conducted by Gartner in 2014 found that nearly one third of the 1,005 respondents who quit a job within the first six months, did so because the guidelines they were given by their leadership weren't clear, their training wasn't effective, or because they didn't establish effective relationships in their new environment.</span></span>
+<span data-ttu-id="b8c33-105">باستخدام Microsoft Dynamics 365 for Talent: Onboard، يمكنك مساعدة الموظفين الجدد على تحقيق أداء فعال والشعور بالانتماء في أدوارهم الجديدة.</span><span class="sxs-lookup"><span data-stu-id="b8c33-105">By using Microsoft Dynamics 365 for Talent: Onboard, you can help your new employees perform more effectively and gain a sense of belonging in their new roles.</span></span> <span data-ttu-id="b8c33-106">بإمكان عملية الإعداد الفعالة أن تساعد الموظفين الجدد على فهم أدوارهم الجديدة.</span><span class="sxs-lookup"><span data-stu-id="b8c33-106">An effective onboarding process helps new hires understand their new roles.</span></span> <span data-ttu-id="b8c33-107">كما تمنحهم بداية واعدة في مجال إقامة علاقات قيّمة من شأنها مساعدتهم في ضمان تحقيق النجاح.</span><span class="sxs-lookup"><span data-stu-id="b8c33-107">It also gives them a head start in establishing valuable relationships that will help ensure their success.</span></span>
 
-## <a name="have-an-onboarding-program-in-place"></a><span data-ttu-id="a97f6-108">وضع برنامج إعداد الموظفين</span><span class="sxs-lookup"><span data-stu-id="a97f6-108">Have an onboarding program in place</span></span>
-<span data-ttu-id="a97f6-109">من الضروري أن تفهم كيف يمكنك تحسين عملية الإعداد وأين يمكنك القيام بذلك.</span><span class="sxs-lookup"><span data-stu-id="a97f6-109">It's important to understand how and where you can improve your onboarding process.</span></span> <span data-ttu-id="a97f6-110">قد تساعدك الأسئلة التالية في تحليل وتحسين عملية إعداد الموظفين بطريقة منهجية.</span><span class="sxs-lookup"><span data-stu-id="a97f6-110">The following questions might help you analyze and improve your onboarding process in a systematic way.</span></span>
+<span data-ttu-id="b8c33-108">يسمح لك Onboard بإنشاء دليل إعداد سوف يرحب بالموظفين الجدد ويجعلهم يشعرون بالحماس إزاء الانضمام إلى مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="b8c33-108">Onboard lets you quickly create an onboarding guide that will welcome your new hires and make them excited about joining your organization.</span></span>
 
-- <span data-ttu-id="a97f6-111">ما هو معدل تناقص الموظفين لديك؟</span><span class="sxs-lookup"><span data-stu-id="a97f6-111">What is your attrition rate?</span></span>
-- <span data-ttu-id="a97f6-112">هل يستكمل الموظفون الجدد كل مهام إعدادهم المطلوبة بنجاح؟</span><span class="sxs-lookup"><span data-stu-id="a97f6-112">Are new employees successfully completing all of their required onboarding tasks?</span></span>
-- <span data-ttu-id="a97f6-113">ما الفترة التي يحتاجها الموظف الجديد لزيادة إنتاجيته؟</span><span class="sxs-lookup"><span data-stu-id="a97f6-113">How long does it take for a new employee to ramp up?</span></span>
-- <span data-ttu-id="a97f6-114">كيف يصنف الموظفون الجدد مستوى رضاهم؟</span><span class="sxs-lookup"><span data-stu-id="a97f6-114">How do new employees rank their satisfaction?</span></span>
+<span data-ttu-id="b8c33-109">[![دليل الإعداد](./media/onboard-onboarding-guide.png)](./media/onboard-onboarding-guide.png)</span><span class="sxs-lookup"><span data-stu-id="b8c33-109">[![Onboarding guide](./media/onboard-onboarding-guide.png)](./media/onboard-onboarding-guide.png)</span></span>
 
-<span data-ttu-id="a97f6-115">لا تنتظر اليوم الأول للموظف لبدء عملية الإعداد.</span><span class="sxs-lookup"><span data-stu-id="a97f6-115">Don't wait until your employee's first day to start onboarding.</span></span> <span data-ttu-id="a97f6-116">يجب أن تبدأ عملية الإعداد عند تحديد تاريخ بدء للموظف.</span><span class="sxs-lookup"><span data-stu-id="a97f6-116">Onboarding should start when your new employee has a start date.</span></span> <span data-ttu-id="a97f6-117">وغالبًا ما يشار إلى هذا الأمر بفترة "قبل الإعداد".</span><span class="sxs-lookup"><span data-stu-id="a97f6-117">This often referred to as pre-onboarding or "pre-boarding".</span></span> <span data-ttu-id="a97f6-118">يمثل ذلك فرصة لك لإبقاء الموظفين الجدد متحمسين لاختيارهم الانضمام إلى الشركة وتعزيز العلاقات وإظهار ثقافة الشركة وقيمها.</span><span class="sxs-lookup"><span data-stu-id="a97f6-118">This is your chance to keep new hires excited about their choice to join your company, foster relationships, and demonstrate your company's culture and values.</span></span>
+<span data-ttu-id="b8c33-110">لمعرفة كيفية الحصول على تطبيق Onboard واستخدامه، راجع المواضيع التالية:</span><span class="sxs-lookup"><span data-stu-id="b8c33-110">To learn how to get and use the Onboard app, see the following topics:</span></span>
 
-<span data-ttu-id="a97f6-119">أحد أهم الأنشطة لفترة ما قبل الإعداد هي إعداد الموظفين الجدد لأول يوم من العمل.</span><span class="sxs-lookup"><span data-stu-id="a97f6-119">One of the most important pre-onboarding activities is preparing new hires for their first day of work.</span></span> <span data-ttu-id="a97f6-120">فقد تكون هذه الفترة مرهقة بالنسب لهم.</span><span class="sxs-lookup"><span data-stu-id="a97f6-120">This can be a stressful time for them.</span></span> <span data-ttu-id="a97f6-121">ويمكنك تخفيف مستوى الضغط عن طريق إنشاء قائمة اختيار وجدول أعمال لليوم الأول.</span><span class="sxs-lookup"><span data-stu-id="a97f6-121">Reduce the stress by creating a checklist and agenda for their first day.</span></span>
+- [<span data-ttu-id="b8c33-111">الحصول على تطبيق Onboard</span><span class="sxs-lookup"><span data-stu-id="b8c33-111">Get the Onboard app</span></span>](./onboard-get-app.md)
+- [<span data-ttu-id="b8c33-112">إنشاء دليل إعداد</span><span class="sxs-lookup"><span data-stu-id="b8c33-112">Create an onboarding guide</span></span>](./onboard-create-guide.md)
+- [<span data-ttu-id="b8c33-113">إنشاء قالب إعداد</span><span class="sxs-lookup"><span data-stu-id="b8c33-113">Create an onboarding template</span></span>](./onboard-create-template.md)
+- [<span data-ttu-id="b8c33-114">تحرير أدلة وقوالب الإعداد</span><span class="sxs-lookup"><span data-stu-id="b8c33-114">Edit onboarding guides and templates</span></span>](./onboard-edit-guides-templates.md)
+- [<span data-ttu-id="b8c33-115">مشاركة المحتوى مع مساهمين آخرين</span><span class="sxs-lookup"><span data-stu-id="b8c33-115">Share content with other contributors</span></span>](./onboard-share-template.md)
+- [<span data-ttu-id="b8c33-116">عرض حالة المهام وإعداد الموظفين</span><span class="sxs-lookup"><span data-stu-id="b8c33-116">View the status of tasks and onboarding employees</span></span>](./onboard-view-status.md)
+- [<span data-ttu-id="b8c33-117">إنشاء فرق توظيف في Onboard‎</span><span class="sxs-lookup"><span data-stu-id="b8c33-117">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
 
-### <a name="what-to-include-in-a-checklist"></a><span data-ttu-id="a97f6-122">ما يمكن تضمينه في قائمة اختيار</span><span class="sxs-lookup"><span data-stu-id="a97f6-122">What to include in a checklist</span></span>
+## <a name="see-also"></a><span data-ttu-id="b8c33-118">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="b8c33-118">See also</span></span>
 
-- <span data-ttu-id="a97f6-123">الأشياء التي يجب إحضارها، مثل هوية مع صورة ومعلومات البنك.</span><span class="sxs-lookup"><span data-stu-id="a97f6-123">What to bring, such as a photo ID and bank information.</span></span>
-- <span data-ttu-id="a97f6-124">الزيّ الرسمي، إذا كان لدى شركتك مثل هذا الزيّ.</span><span class="sxs-lookup"><span data-stu-id="a97f6-124">Dress code, if your company has one.</span></span>
-- <span data-ttu-id="a97f6-125">توجيهات إلى مكتبك.</span><span class="sxs-lookup"><span data-stu-id="a97f6-125">Directions to your office.</span></span>
-- <span data-ttu-id="a97f6-126">اسم جهة اتصال، أو حتى أفضل، اسم الشخص الذي قام بالتوظيف.</span><span class="sxs-lookup"><span data-stu-id="a97f6-126">The name of a contact person, or even better, a hiring buddy.</span></span>
-- <span data-ttu-id="a97f6-127">أي كتيبات أو سياسات خاصة بالشركة يجب عليهم قراءتها.</span><span class="sxs-lookup"><span data-stu-id="a97f6-127">Any company handbooks or policies that they should read.</span></span>
-
-<span data-ttu-id="a97f6-128">**المكافأة**</span><span class="sxs-lookup"><span data-stu-id="a97f6-128">**Bonus**</span></span>
-
-- <span data-ttu-id="a97f6-129">إرسال بعض الأشياء المجانية من الشركة، مثل قميص أو كوب.</span><span class="sxs-lookup"><span data-stu-id="a97f6-129">Send them some company swag, such a t-shirt or mug.</span></span>
-- <span data-ttu-id="a97f6-130">إرسال رسائل فيديو من الفريق للترحيب بهم في الشركة.</span><span class="sxs-lookup"><span data-stu-id="a97f6-130">Send video messages from the team welcoming them to the company.</span></span>
-- <span data-ttu-id="a97f6-131">تضمين رسالة ترحيب مخصصة من الرئيس التنفيذي أو أي موظف تنفيذي آخر.</span><span class="sxs-lookup"><span data-stu-id="a97f6-131">Include a personalized welcome from the CEO or another executive.</span></span>
-- <span data-ttu-id="a97f6-132">تحويل يوم العمل الأول إلى يوم خاص.</span><span class="sxs-lookup"><span data-stu-id="a97f6-132">Make their first day special.</span></span>
-
-<span data-ttu-id="a97f6-133">لا تجعل الموظف الجديد يتساءل عن مدى صوابية قراره بالانضمام إلى شركتك من خلال ترك انطباع سيء لديه في أول يوم عمل.</span><span class="sxs-lookup"><span data-stu-id="a97f6-133">Don't make a new hire question their decision to join your company by setting a bad first impression on the first day.</span></span>
-
-## <a name="create-a-good-first-impression"></a><span data-ttu-id="a97f6-134">خلق انطباع أول جيد</span><span class="sxs-lookup"><span data-stu-id="a97f6-134">Create a good first impression</span></span>
-
-<span data-ttu-id="a97f6-135">أنشئ جدول أعمال لليوم وشاركه مع الموظف الجديد.</span><span class="sxs-lookup"><span data-stu-id="a97f6-135">Create an agenda for the day and share it with your new hire.</span></span> <span data-ttu-id="a97f6-136">ولا تركز فقط على التأهيل.</span><span class="sxs-lookup"><span data-stu-id="a97f6-136">Don't just focus on orientation.</span></span> <span data-ttu-id="a97f6-137">احرص على إدخال المتعة في هذا اليوم الأول واصطحب الموظفين الجدد في جولة في المكتب وافسح لهم فرصة التعرف على الآخرين.</span><span class="sxs-lookup"><span data-stu-id="a97f6-137">Make sure to have fun, introduce them to people, and show them around the office.</span></span> <span data-ttu-id="a97f6-138">احرص على إطلاع الموظفين الآخرين على مجريات الأمور،</span><span class="sxs-lookup"><span data-stu-id="a97f6-138">Keep other employees in the loop.</span></span> <span data-ttu-id="a97f6-139">ودعهم يعلمون أن هناك شخص جديد ينضم إلى الشركة.</span><span class="sxs-lookup"><span data-stu-id="a97f6-139">Let them know that someone new is joining the company.</span></span> <span data-ttu-id="a97f6-140">لا تنسَ إشراك الأشخاص الموجودين في أقسام تكنولوجيا المعلومات وكشوفات الروات والأقسام الإدارية الأخرى.</span><span class="sxs-lookup"><span data-stu-id="a97f6-140">Don't leave out the people in IT, Payroll, and other administrative departments.</span></span> <span data-ttu-id="a97f6-141">واحرص على حصول الموظفين الجدد على كل الأشياء التي يحتاجون إليها لبدء العمل.</span><span class="sxs-lookup"><span data-stu-id="a97f6-141">Make sure that new hires have everything they need to get started.</span></span> <span data-ttu-id="a97f6-142">وهذا يشمل مساحة العمل والكمبيوتر وبيانات الاعتماد والبرامج والأدوات المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="a97f6-142">This includes a workspace, computer, and required credentials, software, and tools.</span></span> <span data-ttu-id="a97f6-143">ركّز على العلاقات بدلاً من العمل الورقي.</span><span class="sxs-lookup"><span data-stu-id="a97f6-143">Focus on relationships instead of paperwork.</span></span>
-
-<span data-ttu-id="a97f6-144">تعتبر العلاقات عنصرًا أساسيًا تحث الموظفين على اكتساب المهارات بشكل أسرع.</span><span class="sxs-lookup"><span data-stu-id="a97f6-144">Relationships are key to getting new hires get up to speed.</span></span> <span data-ttu-id="a97f6-145">والأهم من ذلك أنها تساعد على خلق حس المجتمع والانتماء في الشركة.</span><span class="sxs-lookup"><span data-stu-id="a97f6-145">More importantly, they help create a sense of community and belonging in your company.</span></span>
-
-- <span data-ttu-id="a97f6-146">البحث عن خبير أو بطل في الشركة وجعله الشخص المسؤول عن الإعداد.</span><span class="sxs-lookup"><span data-stu-id="a97f6-146">Find an expert or champion in your company and make them an onboarding buddy.</span></span>
-- <span data-ttu-id="a97f6-147">تمكين الموظفين الجدد من التواصل مع مجتمعات أو مجموعات اهتمامات ذات صلة بالوظيفة.</span><span class="sxs-lookup"><span data-stu-id="a97f6-147">Connect new hires with job-related communities or interest groups.</span></span> <span data-ttu-id="a97f6-148">فهذه طريقة رائعة للعثور على المدربين أو المشرفين.</span><span class="sxs-lookup"><span data-stu-id="a97f6-148">This is a great way to find coaches or mentors.</span></span>
-- <span data-ttu-id="a97f6-149">مشاركة ملفات تعريف أعضاء الفريق (من المستحسن، قبل الوقت) لتسريع التواصل ومشاركة المعرفة وإقامة العلاقات.</span><span class="sxs-lookup"><span data-stu-id="a97f6-149">Share team member profiles (ideally, ahead of time) to speed up communication, knowledge sharing, and networking.</span></span>
-- <span data-ttu-id="a97f6-150">لا تنس الجماعات أو الأحداث الاجتماعية التي تتوافق مع الأهداف الشخصية للموظف.</span><span class="sxs-lookup"><span data-stu-id="a97f6-150">Don't forget about social communities or events that align to your employee's personal goals.</span></span>
-
-## <a name="provide-training"></a><span data-ttu-id="a97f6-151">توفير التدريب</span><span class="sxs-lookup"><span data-stu-id="a97f6-151">Provide training</span></span>
-
-<span data-ttu-id="a97f6-152">امنح الموظف الجديد بالثقة والأدوات التي يحتاج إليها لتحقيق النجاح.</span><span class="sxs-lookup"><span data-stu-id="a97f6-152">Give your new hire the confidence and tools that they need to be successful.</span></span> <span data-ttu-id="a97f6-153">يبدأ ذلك عن طريق اعتماد الوضوح من ناحية تحديد مسؤوليات الموظف وتحديد توقعاتك بشأن كيفية تحقيقها.</span><span class="sxs-lookup"><span data-stu-id="a97f6-153">This starts with clearly defining their responsibilities and setting your expectations for how they will be achieved.</span></span> <span data-ttu-id="a97f6-154">بعد ذلك، قم بإنشاء خطة تدريب تركز على المهارات التي يحتاج إليها الموظف الجديد لتحقيق توقعاتك.</span><span class="sxs-lookup"><span data-stu-id="a97f6-154">Next, create a training plan that focuses on the skills they need to meet your expectations.</span></span> <span data-ttu-id="a97f6-155">لم تركز فقط على التدريب الذي يستند إلى الامتثال.</span><span class="sxs-lookup"><span data-stu-id="a97f6-155">Don't just focus on compliance-based training.</span></span>
-
-## <a name="set-clear-milestones"></a><span data-ttu-id="a97f6-156">تعيين مراحل رئيسية واضحة</span><span class="sxs-lookup"><span data-stu-id="a97f6-156">Set clear milestones</span></span>
-
-<span data-ttu-id="a97f6-157">اعمل على إعداد نقاط فحص وحلقات تقديم الملاحظات بينك وبين الموظف الجديد.</span><span class="sxs-lookup"><span data-stu-id="a97f6-157">Set up clear checkpoints and feedback loops between you and your new hire.</span></span> <span data-ttu-id="a97f6-158">اخلق فرصًا للتدخل وتصحيح المسار قدر الإمكان.</span><span class="sxs-lookup"><span data-stu-id="a97f6-158">Create as much opportunity to intervene and course-correct as possible.</span></span> <span data-ttu-id="a97f6-159">إنك تريد معالجة المشاكل قبل أن تتحول إلى مستعصية، أو في الحالات الأسوأ، قبل أن تؤدي إلى مغادرة الموظف.</span><span class="sxs-lookup"><span data-stu-id="a97f6-159">You want to address issues before they become problems, or worse, lead to attrition.</span></span>
-
-<span data-ttu-id="a97f6-160">وتذكر ضرورة جدولة اجتماع شخصي مع الموظف الجديد قبل انتهاء الأسبوع الأول.</span><span class="sxs-lookup"><span data-stu-id="a97f6-160">Schedule a one-on-one meeting with the new employee before their first week is over.</span></span> <span data-ttu-id="a97f6-161">فهذه فرصة مفيدة لمناقشة التوقعات وأنماط العمل وتطوير الحياة المهنية.</span><span class="sxs-lookup"><span data-stu-id="a97f6-161">This is a great time to discuss expectations, work styles, and career growth.</span></span>
-
-<span data-ttu-id="a97f6-162">حدد أهدافًا لأعضاء الفريق الجدد من 30 يومًا و60 يومًا و90 يومًا.</span><span class="sxs-lookup"><span data-stu-id="a97f6-162">Define 30-, 60-, and 90-day goals for your newest team members.</span></span> <span data-ttu-id="a97f6-163">عند تعيين الأهداف، تأكد من المراجعة بشكل منتظم للاطلاع على مدى التقدم الذي يحققه الموظف في مقابل هذه الأهداف.</span><span class="sxs-lookup"><span data-stu-id="a97f6-163">When the goals are set, be sure to check in regularly to see how their progress is tracking against these goals.</span></span>
-
-## <a name="measure-and-optimize"></a><span data-ttu-id="a97f6-164">القياس والتحسين</span><span class="sxs-lookup"><span data-stu-id="a97f6-164">Measure and optimize</span></span>
-
-<span data-ttu-id="a97f6-165">عندما تنشر برنامج إعداد جديدًا، يجب إيلاء الأسئلة التالية اهتمامًا فائقًا.</span><span class="sxs-lookup"><span data-stu-id="a97f6-165">When you roll out a new onboarding program, pay careful attention to the following questions.</span></span> 
-
-- <span data-ttu-id="a97f6-166">هل قمت بتحسين معدل تناقص الموظفين؟</span><span class="sxs-lookup"><span data-stu-id="a97f6-166">Are you improving attrition?</span></span>
-- <span data-ttu-id="a97f6-167">هل يزداد مستوى الرضى بين الموظفين الجدد؟</span><span class="sxs-lookup"><span data-stu-id="a97f6-167">Is satisfaction increasing among new hires?</span></span> 
-
-<span data-ttu-id="a97f6-168">اعمل على قياس هذه التفاصيل وأدخل تحسينات صغيرة مع كل موظف جديد.</span><span class="sxs-lookup"><span data-stu-id="a97f6-168">Measure these details and make small improvements with each new hire.</span></span>
-
+- [<span data-ttu-id="b8c33-119">تجربة تطبيق Onboard أو شراؤه</span><span class="sxs-lookup"><span data-stu-id="b8c33-119">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
+- [<span data-ttu-id="b8c33-120">الجديد</span><span class="sxs-lookup"><span data-stu-id="b8c33-120">What's new</span></span>](./whats-new.md)
+- [<span data-ttu-id="b8c33-121">ملاحظات الإصدار</span><span class="sxs-lookup"><span data-stu-id="b8c33-121">Release notes</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
+- [<span data-ttu-id="b8c33-122">الحصول على الدعم</span><span class="sxs-lookup"><span data-stu-id="b8c33-122">Get support</span></span>](./talent-support.md)
