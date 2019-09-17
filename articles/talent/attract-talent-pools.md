@@ -1,6 +1,6 @@
 ---
-title: توريد المرشحين باستخدام مجموعات المواهب‬
-description: تشرح هذه المقالة كيفية إنشاء وإعداد مجموعات المواهب في Attract.
+title: بحث عن المرشحين باستخدام مجموعات المواهب في Microsoft Dynamics 365 for Talent - Attract
+description: يشرح هذا الموضوع كيفية إنشاء وإعداد مجموعات المواهب في Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711284"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741857"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>توريد المرشحين باستخدام مجموعات المواهب‬
+# <a name="source-candidates-with-talent-pools"></a>اختيار المرشحين باستخدام مجموعات المواهب‬
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ ms.locfileid: "1711284"
 ## <a name="search-and-view-candidate-profiles"></a>البحث عن ملفات تعريف المرشحين وعرضها
 
 > [!NOTE] 
-> هذه الميزة قيد المعاينة حاليًا. إذا أردت تجربتها، فيجب [تشغيلها في إعدادات إدارة Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> هذه الميزة قيد المعاينة حاليًا. إذا أردت تجربتها، فيجب [تشغيلها في إعدادات إدارة Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 تسمح لك مجموعة المواهب بعرض ملف تعريف المرشح وبياناته في LinkedIn والمستندات ذات الصلة وسجل استمارة التقديم. يمكنك البحث في قاعدة البيانات الكاملة لجميع المرشحين الذين تمت إضافتهم إلى أي مجموعة مواهب، بما في ذلك مقدمي الطلبات النشطة والمغلقة.
 
@@ -116,7 +116,7 @@ ms.locfileid: "1711284"
 
     لعرض مستند، حدد اسم المستند في قائمة المستندات. يمكنك عرض مستندات Microsoft Word الموجودة في التطبيق باستخدام Microsoft Office 365. يمكنك أيضًا تنزيل المستندات إلى الكمبيوتر المحلي باستخدام الخيار **تنزيل** لكل مستند.
 
-- تعرض علامة التبويب **LinkedIn** بيانات LinkedIn للمرشح. لاستخدام علامة التبويب هذه، يجب توصيل حسابك في LinkedIn في إعدادات المستخدم، ويجب إنشاء اتصال LinkedIn Recruiter لبيئتك. للحصول على مزيد من المعلومات، راجع [التوريد باستخدام LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- تعرض علامة التبويب **LinkedIn** بيانات LinkedIn للمرشح. لاستخدام علامة التبويب هذه، يجب توصيل حسابك في LinkedIn في إعدادات المستخدم، ويجب إنشاء اتصال LinkedIn Recruiter لبيئتك. للحصول على مزيد من المعلومات، راجع [التوريد باستخدام LinkedIn Recruiter](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > يمكن فقط للمرشحين تحديث مهاراتهم ومحفوظات التعليم وخبره العمل.

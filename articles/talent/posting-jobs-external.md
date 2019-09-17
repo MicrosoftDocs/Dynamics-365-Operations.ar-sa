@@ -17,42 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590472"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739807"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>نشر الوظائف في مواقع وظائف خارجية من Attract
+# <a name="post-jobs-to-broadbean"></a>نشر وظائف في Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-تريد عرض المناصب المفتوحة أمام عدد أكبر عدد ممكن من المرشحين المؤهلين. تساعدك مواقع التوظيف مثل Broadbean في تحقيق هذا الهدف. يسمح لك الآن Microsoft Dynamics 365 Talent: Attract بنشر الوظائف في Broadbean، وتعمل Microsoft بشكل مستمر على تقديم عروض جديدة في هذا المجال.
+يساعدك Microsoft Dynamics 365 for Talent: Attract على الحصول على المواهب التي تحتاج إليها من خلال السماح لك بنشر الوظائف مباشرة من Attract إلى Broadbean. بعد [إنشاء وظيفة](./creating-jobs-attract.md)، ما عليك سوى النقر فوق زر لوضع وظيفتك أمام الآلاف من المرشحين المحتملين في Broadbean.
+
+يتطلب نشر الوظائف في Broadbean الحصول على ترخيص Broadbean مناسب. يقدم Broadbean منتجات وخططًا المتنوعة. لمزيد من المعلومات حول ترخيص وأسعار Broadbean، [اتصل بـ Broadbean](https://www.broadbean.com/contact-us/).
+
+إذا كنت مسؤولاً يحتاج إلى مزيد من المعلومات حول كيفية تكوين تكامل Broadbean مع Attract، راجع [إدخال إعدادات للوحات الوظائف الخارجية](./attract-admin-job-board-settings.md).
 
 ## <a name="post-jobs-to-broadbean"></a>نشر وظائف في Broadbean
-
-قبل أن تتمكن من نشر الوظائف في Broadbean، يجب عليك تكوين تكامل Broadbean.
-
-> [!NOTE]
-> - لنشر الوظائف في مواقع خارجية، يجب استخدام [المكون الإضافي "التوظيف الشامل"](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - لترحيل الوظائف إلى Broadbean من خلال Attract، يجب أن يكون لديك اشتراك Broadbean.
-> - هذه الميزة قيد المعاينة حاليًا. إذا أردت تجربتها، فيجب [تشغيلها في إعدادات إدارة Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
-
-### <a name="configure-broadbean-integration"></a>تكوين تكامل Broadbean
-
-1. سجل دخولك إلى Attract كمسؤول.
-2. حدد زر **الإعدادات** (رمز الترس) في الزاوية العلوية اليسرى من الصفحة، ثم حدد **مركز الإدارة**.
-3. على علامة التبويب **إعدادات لوحة الوظائف**، في القسم **تمكين تكامل Broadbean**، قم بتشغيل التكامل.
-4. اتصل بموقع Broadbean، وأدخل معلوماتك في **Username, Client ID, Encryption Token**.
-
-> [!WARNING]
-> تعتبر بيانات اعتمادك في Broadbean سرية وحساسة لحالة الأحرف. وبالتالي، يجب تخزينها ومشاركتها بطريقة مسؤولة. بإمكان أي شخص يؤدي دور المسؤول في Attract عرض بيانات الاعتماد هذه.
-
-> [!NOTE]
-> لا تشارك Microsoft كما لا يشارك Attract في إنشاء هذه القيم والمحافظة عليها. تقع على عاتقك مسؤولية تحديثها بشكل مستمر في Attract والعمل مع Broadbean على حل أي مشكلة تتعلق ببيانات اعتمادك.
-
-### <a name="post-a-job-to-broadbean"></a>نشر وظيفة في Broadbean
 
 بعد تشغيل Broadbean، بإمكان المسؤولين ومسؤولي التعيين نشر وظائف فيه. يجب أن يتوفر لديك عنوان URL لتقديم الطلب للوظيفة.
 
@@ -80,7 +62,7 @@ ms.locfileid: "1590472"
 بعد نشر وظيفة في Broadbean، يمكنك عرضها من Attract.
 
 1. في Attract، افتح الوظيفة التي تريد عرضها في Broadbean.
-2. في قسم **عمليات النشر** ، حدد زر علامة القطع (**...**) الذي يتطابق مع Broadbean، ثم حدد **عرض**.
+2. على علامة التبويب **عمليات النشر**، حدد زر علامة القطع (**...**) الذي يتطابق مع Broadbean، ثم حدد **عرض**.
 
 يظهر منشور الوظيفة في Broadbean في نافذة جديدة.
 
@@ -95,7 +77,7 @@ ms.locfileid: "1590472"
 –أو –
 
 1. في Attract، افتح الوظيفة التي تريد عرضها في Broadbean.
-2. في قسم **عمليات النشر** ، حدد زر علامة القطع (**...**) الذي يتطابق مع Broadbean، ثم حدد **عرض**.
+2. في قسم **عمليات النشر**، حدد زر علامة القطع (**...**) الذي يتطابق مع Broadbean، ثم حدد **عرض**.
 3. في نافذة Broadbean، حرر تفاصيل الوظيفة، ثم انشر الوظيفة من جديد. لا يطرأ أي تغيير على تفاصيل الوظيفة في Attract.
 
 ### <a name="remove-a-broadbean-job-posting"></a>إزالة منشور وظيفة في Broadbean
@@ -103,14 +85,20 @@ ms.locfileid: "1590472"
 يمكنك إزالة منشور وظيفة من Broadbean كما تقتضي الحاجة.
 
 1. في Attract، افتح الوظيفة التي تريد إزالتها.
-2. في قسم **عمليات النشر** ، حدد زر علامة القطع (**...**) الذي يتطابق مع Broadbean، ثم حدد **إزالة المنشور**.
+2. في قسم **عمليات النشر**، حدد زر علامة القطع (**...**) الذي يتطابق مع Broadbean، ثم حدد **إزالة المنشور**.
 
 بعد قيام Broadbean بإزالة الوظيفة، يتضمن عنصر Broadbean في Attract الزر **نشر الآن**. يشير وجود هذا الزر إلى أن إزالة الوظيفة وإلى إمكانية نشرها من جديد.
 
-### <a name="troubleshoot-the-broadbean-integration"></a>استكشاف أخطاء تكامل Broadbean وإصلاحها
+### <a name="troubleshoot-job-posting-to-broadbean"></a>استكشاف أخطاء نشر الوظائف في Broadbean وإصلاحها
 
 إذا كنت تواجه مشكلة ما في نشر وظيفة في Broadbean، فجرّب الخطوات التالية.
 
 1. تأكد من أن بيانات اعتماد Broadbean التي أدخلتها في Attract صالحة وصحيحة.
 2. إذا كانت بيانات الاعتماد صالحة وصحيحة، فاتصل بقسم [دعم Broadbean](https://www.broadbean.com/resources/support/).
 3. إذا استمرت المشكلة، فاتصل بقسم [دعم Microsoft](./talent-support.md).
+
+## <a name="see-also"></a>راجع أيضًا
+
+[إنشاء وظائف](./creating-jobs-attract.md)
+
+[إدخال إعدادات للوحات الوظائف الخارجية](./attract-admin-job-board-settings.md)

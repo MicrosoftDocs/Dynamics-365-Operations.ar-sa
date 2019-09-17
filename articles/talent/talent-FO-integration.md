@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617333"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742685"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>الأسئلة المتداول حول تكامل Dynamics 365 for Talent إلى Dynamics 365 for Finance and Operations
 
@@ -38,7 +38,7 @@ ms.locfileid: "1617333"
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>هل يمكنني إنشاء تعيين جديد من دون استخدام القوالب؟
 
-تعتبر القوالب نقطة بداية. يمكنك إنشاء قالبك الخاص، ولكنك تحتاج دائمًا إلى قالب عند إنشاء مشروع تكامل. للحصول على مزيد من المعلومات حول موحد البيانات (DI) والقوالب والمشاريع، راجع [دمج البيانات في Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+تعتبر القوالب نقطة بداية. يمكنك إنشاء قالبك الخاص، ولكنك تحتاج دائمًا إلى قالب عند إنشاء مشروع تكامل. للحصول على مزيد من المعلومات حول موحد البيانات (DI) والقوالب والمشاريع، راجع [دمج البيانات في Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>هل يمكنني تعيين الأبعاد المالية للتحويل بين Talent وFinance and Operations؟
 
@@ -133,7 +133,7 @@ ms.locfileid: "1617333"
 
 إذا لم تظهر البيانات كما هو متوقع في Common Data Service، فتأكد من دعم الكيان في التكامل. لتضمين بيانات إضافية في Common Data Service، ستتم مطالبة بإجراء تغيير من جانب Microsoft.
 
-إذا كان الكيان مدعومًا والبيانات متوفرة في Common Data Service، فتأكد من صحة التعيين في موحد البيانات. إذا كان تعيين موحد البيانات مقبولاً، فتحقق عندئذِ من نجاح تشغيل مهام إدارة البيانات. قد تحدث بعض الأخطاء أثناء تنفيذ الوظائف الدفعية. لمزيد من المعلومات حول إدارة البيانات، راجع [إدارة البيانات](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+إذا كان الكيان مدعومًا والبيانات متوفرة في Common Data Service، فتأكد من صحة التعيين في موحد البيانات. إذا كان تعيين موحد البيانات مقبولاً، فتحقق عندئذِ من نجاح تشغيل مهام إدارة البيانات. قد تحدث بعض الأخطاء أثناء تنفيذ الوظائف الدفعية. لمزيد من المعلومات حول إدارة البيانات، راجع [إدارة البيانات](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>عناوين الموظفين غير صحيحة بعد استيرادها إلى Finance and Operations. ماذا أفعل؟
 
@@ -145,7 +145,7 @@ ms.locfileid: "1617333"
 
 عند إنشاء اتصالاتك، تأكد من اختيار Dynamics 365 for Finance and Operations (حاليًا في المعاينة) وCommon Data Service.
 
-## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>عند مزامنة عمليات التوظيف، أتلقى رسائل الخطأ "CompanyInfo_FK غير موجود" أو "القيمة '12/31/2154 11:59:59 ص" في الحقل "تاريخ انتهاء التوظيف" غير موجودة في الجدول ذي الصلة "التوظيف"." ماذا أفعل؟‬
+## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>عند مزامنة عمليات التوظيف، أتلقى رسائل الخطأ "CompanyInfo_FK غير موجود" أو "القيمة '12/31/2154 11:59:59 ص" في الحقل "تاريخ انتهاء التوظيف" غير موجودة في الجدول ذي الصلة "التوظيف"." ماذا أفعل؟‬
 
 تأكد من أنك تقوم بالتعيين إلى الكيانات القانونية الصحيحة. مزامنة الكيان القانوني ليست جزءًا من القالب الافتراضي، وبالتالي من المتوقع أن يكون كل كيان قانوني موجود في Talent وCommon Data Service موجود أيضًا في Finance and Operations.
 تأكد أيضًا من أنك تحدد الكيانات القانونية الصحيحة لمجموعة الاتصالات المرتبطة.
@@ -160,12 +160,12 @@ ms.locfileid: "1617333"
 
 - موحد البيانات (DI): 
 
-  - [دمج البيانات في Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [دمج البيانات في Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [إدارة أخطاء موحد البيانات واستكشاف الأخطاء وإصلاحها](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+  - [إدارة أخطاء موحد البيانات واستكشاف الأخطاء وإصلاحها](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في PowerApps وMicrosoft Flow وCommon Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في PowerApps وMicrosoft Flow وCommon Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - إدارة البيانات:
 
-  - [إدارة البيانات](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [إدارة البيانات](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)

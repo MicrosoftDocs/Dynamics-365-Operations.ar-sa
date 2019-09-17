@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e3b20e1d0a873c32b8f6f5e28f786febf62db355
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517288"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742809"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>تضمين تطبيقات PowerApps في Core HR
 
@@ -40,7 +40,7 @@ ms.locfileid: "1517288"
 
 تم تغيير الطريقة التي يتم من خلالها تضمين تطبيقات PowerApps. تتم الآن إضافة تطبيقات PowerApps من خلال نموذج التخصيص. يمكنك إضافة تطبيقات PowerApps إلى معظم الصفحات تقريبًا في Dynamics 365 for Talent.
 
-للحصول على معلومات تفصيلية حول كيفية تضمين تطبيقات PowerApps في Talent، راجع [تضمين تطبيقات PowerApps](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+للحصول على معلومات تفصيلية حول كيفية تضمين تطبيقات PowerApps في Talent، راجع [تضمين تطبيقات PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 يجب أن تتم ترقية أي عميل من عملاء PowerApps الذي قام بتضمين التطبيقات قبل التغيير إلى النموذج الجديد.
 

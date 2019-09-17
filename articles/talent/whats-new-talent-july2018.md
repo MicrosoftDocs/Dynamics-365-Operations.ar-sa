@@ -1,7 +1,7 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (يوليو 2018)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 07/31/2018
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 5a26f32dcf10565d988bf177eee0f42e6a4ceae3
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c0867fcf6203c303a700723d8c190378f495dac0
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517207"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856247"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (يوليو 2018)
 

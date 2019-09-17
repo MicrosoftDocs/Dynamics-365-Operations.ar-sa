@@ -1,6 +1,6 @@
 ---
-title: استخدام تقارير تحليلية للحصول على تفاصيل عملية التوظيف
-description: يصف هذا الموضوع التقارير التحليلية في Attract
+title: استخدام التقارير التحليلية‬ في Microsoft Dynamics 365 for Talent - Attract
+description: يصف هذا الموضوع التقارير التحليلية الخاصة بالرؤى الخاصة بعملية التوظيف في Microsoft Dynamics 365 for Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516550"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742873"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>استخدام تقارير تحليلية للحصول على تفاصيل عملية التوظيف
+# <a name="use-analytic-reports"></a>استخدام التقارير التحليلية
 
 توفر التقارير التحليلية في Attract حلا جاهزا (OOTB) لتفاصيل عملية التوظيف. تتضمن الميزات المتوفرة:
 
@@ -81,8 +81,8 @@ ms.locfileid: "1516550"
 
 ## <a name="cross-filter"></a>التصفية المتقاطعة
 
-إحدى أهم الميزات الرائعة في Power BI هي الطريقة التي ترتبط بها جميع المرئيات في صفحة التقرير. إذا قمت بتحديد نقطه بيانات على إحدى المرئيات، ستتغير جميع المرئيات الأخرى التي تحتوي على تلك البيانات، استنادًا إلى ذلك التحديد. تعرف على المزيد وراجع مثالاً في [كيف تجري المرئيات تصفية متقاطعة عبر بعضها البعض في تقرير Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+إحدى أهم الميزات الرائعة في Power BI هي الطريقة التي ترتبط بها جميع المرئيات في صفحة التقرير. إذا قمت بتحديد نقطه بيانات على إحدى المرئيات، ستتغير جميع المرئيات الأخرى التي تحتوي على تلك البيانات، استنادًا إلى ذلك التحديد. تعرف على المزيد وراجع مثالاً في [كيف تجري المرئيات تصفية متقاطعة عبر بعضها البعض في تقرير Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>تصدير إلى Excel
 
-لعرض بيانات التقرير في Excel، يمكنك النقر فوق القائمة "خيارات" (ثلاث نقاط) على رسم مرئي وتحديد **تصدير البيانات الأساسية**. سيتم تصدير البيانات المصدّرة كبيانات تمت تصفيتها، مما يسمح بمراعاة أذونات المستخدم في Attract. لمزيد من المعلومات، راجع [تصدير بيانات من الرسوم المرئية](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+لعرض بيانات التقرير في Excel، يمكنك النقر فوق القائمة "خيارات" (ثلاث نقاط) على رسم مرئي وتحديد **تصدير البيانات الأساسية**. سيتم تصدير البيانات المصدّرة كبيانات تمت تصفيتها، مما يسمح بمراعاة أذونات المستخدم في Attract. لمزيد من المعلومات، راجع [تصدير بيانات من الرسوم المرئية](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

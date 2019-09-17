@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517215"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856414"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (9 أبريل 2019)
 
@@ -37,10 +37,10 @@ ms.locfileid: "1517215"
 في Attract وOnboard، تنشئ الآن المشاكل التي سجلها المستخدمون النهائيون باستخدام ميزة "الإبلاغ عن مشكلة" مشاكل دعم بشكل تلقائي في مشروع LCS للعميل. بإمكان المسؤولين عندئذٍ فرز المشاكل وإرسالها إلى Microsoft عند الحاجة. يتناسق هذا الأمر مع الطريقة التي يتعامل من خلالها Core HR مع مشاكل دعم المستخدم النهائي.
 
 ### <a name="relevance-search"></a>بحث الصلة
-في مجموعات المواهب، يمكنك الآن البحث في قاعدة بيانات المرشحين الكاملة عن مهارات أو أسماء أو خلفية تعليمية معينة. ولم تعد تحتاج إلى تعيين القسم في ملف تعريف المرشح الذي تريد البحث فيه. يبحث Attract في ملف التعريف بكامله ويميّز جميع التطابقات التي تم العثور عليها. ويبحث Attract أيضًا في جميع المستندات المتوفرة لمرشح ما ويرتّب نتائج البحث بطريقة ذكية. بالإضافة إلى ذلك، يمكنك تصفية النتائج حسب المصدر أو ما إذا كانت خاصة بحامل ميدالية فضية. للحصول على مزيد من المعلومات، راجع [البحث في ملفات تعريف المرشحين وعرضها‬](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
+في مجموعات المواهب، يمكنك الآن البحث في قاعدة بيانات المرشحين الكاملة عن مهارات أو أسماء أو خلفية تعليمية معينة. ولم تعد تحتاج إلى تعيين القسم في ملف تعريف المرشح الذي تريد البحث فيه. يبحث Attract في ملف التعريف بكامله ويميّز جميع التطابقات التي تم العثور عليها. ويبحث Attract أيضًا في جميع المستندات المتوفرة لمرشح ما ويرتّب نتائج البحث بطريقة ذكية. بالإضافة إلى ذلك، يمكنك تصفية النتائج حسب المصدر أو ما إذا كانت خاصة بحامل ميدالية فضية. للحصول على مزيد من المعلومات، راجع [البحث في ملفات تعريف المرشحين وعرضها‬](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
 
 ### <a name="prospect-recommendations"></a>توصيات الموظفين المحتملين
-بإمكان Attract أن يساعد على بدء توريد وظيفة فور تنشيطها من خلال تقديم توصيات ذكية حول المرشحين من قاعدة بيانات المرشحين في مؤسستك. تتضمن التوصيات المهارات ومعلومات التعليم التي تم التعرف عليها أثناء البحث عن موظفين محتملين ملائمين. وتظهر هذه التوصيات على علامة تبويب **الموظفون المحتملون** تحت وظيفة، إذا قمت بتمكينها أثناء عملية تعيين موظفين للوظيفة. لمزيد من المعلومات، راجع [توصيات الموظفين المحتملين‬‏‫](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
+بإمكان Attract أن يساعد على بدء توريد وظيفة فور تنشيطها من خلال تقديم توصيات ذكية حول المرشحين من قاعدة بيانات المرشحين في مؤسستك. تتضمن التوصيات المهارات ومعلومات التعليم التي تم التعرف عليها أثناء البحث عن موظفين محتملين ملائمين. وتظهر هذه التوصيات على علامة تبويب **الموظفون المحتملون** تحت وظيفة، إذا قمت بتمكينها أثناء عملية تعيين موظفين للوظيفة. لمزيد من المعلومات، راجع [توصيات الموظفين المحتملين‬‏‫](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
 
 ### <a name="interviewer-availability-statuses"></a>حالات توافر المحاور
 سيتمكن مجدولو المقابلات في وقت قريب من رؤية حالات المحاورين **خارج المكتب، يعمل في مكان آخر**، للمساعدة في جدولة الأوقات التي قد تكون أكثر ملاءمة للمحاورين.
