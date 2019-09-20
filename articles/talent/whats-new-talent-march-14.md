@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38641d6a84340112ce15335533795ed7faf91123
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517265"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742483"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (14 مارس 2019)
 
@@ -47,7 +47,7 @@ ms.locfileid: "1517265"
 مع هذا التغيير، يمكنك الآن تحديد عدة موظفين وتعيين قائمة اختيار واحدة أو أكثر إلى هؤلاء الموظفين بشكل مجمع. 
 
 ### <a name="platform-update-24"></a>update 24 للنظام الأساسي
-للحصول على تفاصيل إضافية حول Platform update 24، راجع [الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Platform update 24 (مارس 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). تتضمن التغييرات الهامة في platform 24 ما يلي: 
+للحصول على تفاصيل إضافية حول Platform update 24، راجع [الميزات الجديدة أو المتغيرة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). تتضمن التغييرات الهامة في platform 24 ما يلي: 
 
 - تم تمكين التنبيهات في Talent.
 - يتحاذى الآن شريط التنقل المحدث مع رأس Office.

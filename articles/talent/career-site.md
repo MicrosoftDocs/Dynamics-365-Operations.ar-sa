@@ -1,6 +1,6 @@
 ---
-title: وظيفة موقع الوظائف في Attract
-description: يوفر هذا الموضوع نظرة عامة حول وظيفة موقع الوظائف المخصص للمرشحين في Attract.
+title: إعداد موقع الوظائف في Microsoft Dynamics 365 for Talent - Attract
+description: يوفر هذا الموضوع نظرة عامة حول وظيفة موقع الوظائف المخصص للمرشحين في Microsoft Dynamics 365 for Talent - Attract:.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729693"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739761"
 ---
-# <a name="career-site-functionality-in-attract"></a>وظيفة موقع الوظائف في Attract
+# <a name="set-up-your-career-site"></a>إعداد موقع الوظائف
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,7 +53,7 @@ ms.locfileid: "1729693"
     > [!NOTE] 
     > قد يحدث تأخير بين تشغيل هذا الإعداد وظهور نتائج البحث، استنادًا إلى مشغل البحث الذي تستخدمه.
     
--   **البنود والشروط** -عند التمكين ، يجب أن يوافق كافة المرشحين على بنود وشروط المؤسسة عند التقديم لأي وظيفة. يمكن لمسؤول Attract تكوين نص الموافقة الخاص به بالإضافة إلى ارتباط لصفحة الشروط والبنود الخاصة به. 
+-   **البنود والشروط** -عند التمكين، يجب أن يوافق كافة المرشحين على بنود وشروط المؤسسة عند التقديم لأي وظيفة. يمكن لمسؤول Attract تكوين نص الموافقة الخاص به بالإضافة إلى ارتباط لصفحة الشروط والبنود الخاصة به. 
 
         
 ## <a name="career-site-urls"></a>عناوين URL لموقع الوظائف
@@ -130,8 +130,8 @@ ms.locfileid: "1729693"
 
 1. سجل دخولك إلى Attract كمسؤول.
 2. حدد زر **الإعدادات** (رمز الترس) في الزاوية العلوية اليسرى من الصفحة، ثم حدد **مركز الإدارة**.
-3. حدد علامة التبويب **تكامل LinkedIn** واتصال بحساب LinkedIn Recruiter.
-4. في القسم **تكامل LinkedIn Recruiter System Connect**، حدد **ممكّن‏‎‏‎** للإعداد **التقدم بطلب عبر LinkedIn**.
+3. حدد علامة التبويب **تكامل LinkedIn** واتصل بحساب LinkedIn Recruiter.
+4. في القسم **تكامل LinkedIn Recruiter System Connect Integration**، حدد **ممكّن** للإعداد **التقدم بطلب عبر LinkedIn**.
 
 بعد بتمكين هذا الإعداد، بإمكان المرشحين التقدم بطلب التوظيف عبر بيانات ملف تعريف LinkedIn الموجود. عندما يتقدم المرشحون بطلب الحصول على الوظيفة باختيار الزر **التقدم بطلب عبر LinkedIn**، ستتم مطالبتهم بالمصادقة مع LinkedIn في حال لم يسجلوا دخولهم بعد. بعد إتمام المصادقة، سيحل ملف تعريفهم في LinkedIn مكان أي بيانات ملف تعريف موجود يظهر في صفحة استمارة التقديم. بإمكان المرشحين تحرير المعلومات كما تقتضي الحاجة ثم إرسا استمارة التقديم. إذا ابتعد المرشح عن الصفحة من دون التقدم بطلب الحصول على الوظيفة، فلن يتم تحديث بيانات ملف تعريفه في Attract.
 

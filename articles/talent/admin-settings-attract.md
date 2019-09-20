@@ -1,6 +1,6 @@
 ---
-title: إعدادات المسؤول في Attract
-description: تشرح هذه المقالة كيفية تمكين وظيفة الميزات للمؤسسات والمستخدمين في Attract.
+title: تكوين معلومات الشركة في Microsoft Dynamics 365 for Talent - Attract
+description: يوضح هذا الموضوع كيفية تكوين معلومات الشركة والعلامة التجارية في Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517279"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739554"
 ---
-# <a name="admin-settings-in-attract"></a>إعدادات المسؤول في Attract
+# <a name="configure-company-information"></a>تكوين معلومات الشركة
 [!include[banner](../includes/banner.md)]
 
 مركز الإدارة في Microsoft Dynamics 365 for Talent: يحتوي Attract على إعدادات التكوين وخيارات التكامل وخيارات الإعداد لتطبيق Attract.
@@ -36,7 +36,7 @@ ms.locfileid: "1517279"
 
 ## <a name="linkedin-integration"></a>تكامل LinkedIn
 
-إعداد التكامل مع LinkedIn Recruiter System Connect (RSC). بعد أن تتصل بـ LinkedIn باستخدام بيانات اعتمادك في LinkedIn، يمكنك مزامنة ملف تعريف LinkedIn للمرشح واستمارات التقديم وملاحظات المقابلة وملاحظات فريق التوظيف. يجب توفر ترخيص مسؤول تعيين LinkedIn الكامل. للحصول على مزيد من المعلومات حول LinkedIn Recruiter، راجع [Recruiter System Connect (RSC) – الأسئلة المتداولة](https://www.linkedin.com/help/recruiter/answer/90483).
+إعداد التكامل مع LinkedIn Recruiter System Connect(RSC). بعد أن تتصل بـ LinkedIn باستخدام بيانات اعتمادك في LinkedIn، يمكنك مزامنة ملف تعريف LinkedIn للمرشح واستمارات التقديم وملاحظات المقابلة وملاحظات فريق التوظيف. يجب توفر ترخيص مسؤول تعيين LinkedIn الكامل. للحصول على مزيد من المعلومات حول LinkedIn Recruiter، راجع [Recruiter System Connect (RSC) – الأسئلة المتداولة](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>أذونات المستخدم
 

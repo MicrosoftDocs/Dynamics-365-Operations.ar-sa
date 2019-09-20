@@ -19,14 +19,15 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 360937b807ea149edb2f16ad6799d74791d599b5
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729763"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739485"
 ---
-# <a name="configure-email-settings-in-microsoft-dynamics-365-for-talent---attract"></a>تكوين إعدادات البريد الإلكتروني في Microsoft Dynamics 365 for Talent - Attract
+# <a name="configure-email-settings"></a>تكوين إعدادات البريد الإلكتروني
+
 [!include[banner](../includes/banner.md)]
 
 تعزز علامتك التجارية الثقة وتساعدك في إنشاء علاقة مع المرشحين قبل أن يتم تطبيقها للمناصب الخاصة بك. يجذب التصور الإيجابي للعلامة التجارية إليك أفضل المهارات ويزيد من ولاء الموظفين الموجودين. يتيح لك Microsoft Dynamics 365 for Talent: Attract تكوين رسائل البريد الإلكتروني لكي تعكس العلامة التجارية لشركتك. من ثم، يمكنك توفير تجربه متسقة للمرشحين للوظائف أثناء مرورهم بعملية التقديم.

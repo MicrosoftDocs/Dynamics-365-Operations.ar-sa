@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517277"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741880"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (5 مارس 2019)
 
@@ -43,10 +43,10 @@ ms.locfileid: "1517277"
 ## <a name="changes-in-onboarding"></a>التغييرات في Onboarding
 
 ### <a name="private-preview-for-onboard-teams"></a>معاينة خاصة لفرق Onboard
-يمكنك الآن بسهولة المشاركة والتعاون على قوالب عبر المؤسسة بأكملها. للحصول على مزيد من المعلومات، راجع [مشاركة أفضل الممارسات عبر مؤسستك بكاملها باستخدام فرق Onboard](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+يمكنك الآن بسهولة المشاركة والتعاون على قوالب عبر المؤسسة بأكملها. للحصول على مزيد من المعلومات، راجع [مشاركة أفضل الممارسات عبر مؤسستك بكاملها باستخدام فرق Onboard](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>معاينة خاصة للعناصر النائبة للمعهود إليه
-يمكنك إثراء قوالبك عن طريق تعيين الأنشطة إلى أدوار بدلاً من تعيينها إلى أفراد. ويتم عندئذٍ تعيين أدوار إلى الأفراد عن إنشاء الدليل. للحصول على مزيد من المعلومات، راجع [تسهيل إدارة الدليل عن طريق تعيين الأنشطة إلى أدوار](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+يمكنك إثراء قوالبك عن طريق تعيين الأنشطة إلى أدوار بدلاً من تعيينها إلى أفراد. ويتم عندئذٍ تعيين أدوار إلى الأفراد عن إنشاء الدليل. للحصول على مزيد من المعلومات، راجع [تسهيل إدارة الدليل عن طريق تعيين الأنشطة إلى أدوار](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>التغييرات في Core HR
 **الإصدار 8.1.2178**
@@ -71,7 +71,7 @@ ms.locfileid: "1517277"
 يتضمن هذا الإصدار إصلاحات أخطاء ثانوية أخرى:
 
 ### <a name="upgrade-to-common-data-service"></a>الترقية إلى Common Data Service
-تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة PowerApps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة PowerApps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>قريبًا
 
@@ -79,4 +79,4 @@ ms.locfileid: "1517277"
 في عدد كبير من المؤسسات، بإمكان مدراء التعويضات والمزايا فقط الوصول إلى سجلات تعويض معينة، مثل سجلات المدراء التنفيذيين أو الموظفين في الأقاليم. سيسمح لك هذا التغيير بإدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. يمكن تعيين أدوار أمان إلى خطط التعويض الثابت والمتغير، مما يحدد حق الوصول إلى الخطط وبيانات الموظفين ذات الصلة بها، على سبيل المثال، معلومات حول الرواتب وسجلات المكافآت. الأدوار التي ستتمكن من الوصول لمعالجة تعويضات هؤلاء الموظفين هي فقط الأدوار التي تملك حق الوصول المحدد.
 
 ###  <a name="platform-update-24"></a>update 24 للنظام الأساسي
-للحصول على تفاصيل إضافية حول Platform update 24، راجع [الميزات الجديدة أو المتغيرة في Dynamics 365 for Finance and Operations, Platform update 24 (مارس 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+للحصول على تفاصيل إضافية حول Platform update 24، راجع [الميزات الجديدة أو المتغيرة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

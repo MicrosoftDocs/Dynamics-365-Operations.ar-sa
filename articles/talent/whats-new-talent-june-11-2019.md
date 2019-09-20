@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42b9541b152d2a6daa1dbf95ecf30a2f51eb36f3
-ms.sourcegitcommit: 31a918d357a7182f3870713a9c4455bd5c44cd58
+ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1634470"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741603"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>ما الجديد والمتغير في Dynamics 365 for Talent (11 يونيو 2019)
 
@@ -76,9 +76,9 @@ ms.locfileid: "1634470"
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>لن يتم تمكين ميزات المعاينة إلا في بيئات الاختبار المعزولة‬
 
-لمزيد من المعلومات حول كيفية نشر التغييرات، راجع [توفير Talent‬](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+لمزيد من المعلومات حول كيفية نشر التغييرات، راجع [توفير Talent‬](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
-عند توفير مثيل جديد من Talent‬، يمكنك الاشار إلى ما إذا كان نوع المثيل هو إنتاج أو ابيئة اختبار معزولة. يسمح نوع المثيل "بيئة اختبار معزولة" بالاختبار المبكر للميزات الجديدة. سيتم تحديث كافة مثيلات Talent الموجودة إلى نوع مثيل **الإنتاج**. إذا كنت ترغب في تحديث أحد المثيلات الموجودة لديك إلى نوع مثيل **بيئة الاختبار المعزولة**، اتصل بـ [الدعم](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) لبدء طلب التغيير.
+عند توفير مثيل جديد من Talent‬، يمكنك الاشار إلى ما إذا كان نوع المثيل هو إنتاج أو ابيئة اختبار معزولة. يسمح نوع المثيل "بيئة اختبار معزولة" بالاختبار المبكر للميزات الجديدة. سيتم تحديث كافة مثيلات Talent الموجودة إلى نوع مثيل **الإنتاج**. إذا كنت ترغب في تحديث أحد المثيلات الموجودة لديك إلى نوع مثيل **بيئة الاختبار المعزولة**، اتصل بـ [الدعم](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) لبدء طلب التغيير.
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>تقييد أنواع الإجازات في طلب أيام الإجازات
 

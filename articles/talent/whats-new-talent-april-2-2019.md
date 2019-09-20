@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517213"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795234"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (2 أبريل 2019)
 
@@ -57,13 +57,13 @@ ms.locfileid: "1517213"
 تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2216.
 
 ### <a name="platform-update-25"></a>update 25 للنظام الأساسي
-للحصول على مزيد من المعلومات حول Platform update 25، راجع [ميزات المعاينة في Dynamics 365 for Finance and Operations platform update 25 (أبريل 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+للحصول على مزيد من المعلومات حول Platform update 25، راجع [ميزات المعاينة في Dynamics 365 for Finance and Operations platform update 25 (أبريل 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>أمان التعويض المتقدم (التعويض الثابت والمتغير)
 في الكثير من المؤسسات، قد يتوفر لدى مدراء التعويضات والمزايا حق الوصول إلى سجلات تعويض معينة فقط. هذه السجلات قد تتضمن سجلات مخصصة للمدراء التنفيذيين أو الموظفين الإقليميين. يسمح هذا التغيير لقسم الموارد البشرية بإدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. يمكن تعيين أدوار أمان للخطط الثابتة والمتغيرة. وتحدد أدوار الأمان هذه حق الوصول إلى الخطط وبيانات الموظفين ذات الصلة، مثل السجلات الرواتب أو مكافآت، بحيث تتمكن هذه الأدوار فقط من معالجة التعويض لمجموعات الموظفين.
 
 ### <a name="upgrade-to-common-data-service"></a>الترقية إلى Common Data Service
-تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة PowerApps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة PowerApps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>قيد المعاينة
 

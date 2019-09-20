@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577785"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781432"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
 
@@ -101,24 +101,15 @@ ms.locfileid: "1577785"
 
 لتنزيل القالب **Flow – تكامل SharePoint**، انتقل إلى [Flow – تكامل SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) في مركز التنزيل لـ Microsoft.
 
-## <a name="admin-console-to-manage-talent-pools"></a>وحدة تحكم المسؤول لإدارة مجموعات المواهب‬‬
+## <a name="referral-app"></a>تطبيق Referral
+يمكنك استخدام التطبيق Referral لإضافة مرشحين إلى مجموعة مواهب مشتركة. بإمكان المحيل إدخال **الاسم الأول** و**اسم العائلة** و**البريد الإلكتروني** و**Linkedln URL** عند إرسال مرشح. يتم بعد ذلك ملء بيانات تعريف مصدر المرشح بواسطة معلومات المحيل.
 
-عند تمكين التكامل مع LinkedIn، يقوم Attract تلقائيًا بإنشاء مجموعة مواهب في LinkedIn. عندما يتبادل مسؤول تعيين InMail عبر LinkedIn، ينشئ Attract ملف تعريف للشخص المعيّن، ويصبح هذا الشخص من أعضاء مجموعة المواهب في LinkedIn. يعد تطبيق PowerApps هذا مفيدًا لإعادة تنظيم المرشحين في مجموعات المواهب استنادًا إلى المهارة.
+يمكنك تضمين هذا التطبيق في الخدمة الذاتية للموظف (ESS) لإرسال الإحالات، أو يمكنك استخدامه كارتباط تشعبي في مدخل الشركة وتشغيله كتطبيق مستقل.
 
-قم بتشغيل تطبيق PowerApps هذا كوحدة تحكم مسؤول لتنفيذ المهام التالية:
-
-- إدراج المرشحين في مجموعة مواهب
-- إضافة مرشحين إلى مجموعة مواهب أو إزالتهم منها
-- نقل المرشحين من مجموعة مواهب إلى أخرى
-- تحديد ما إذا كان المرشحون عبارة عن جزء من مجموعة مواهب قبل نقلهم
-- التحقق من مهارات المرشحين قبل نقلهم إلى مجموعات مواهب أخرى
-
-يستخدم التطبيق PowerApps هذا علاقات متعدد إلى متعدد، بحيث يمكنك استخدامه كقالب للسيناريوهات الأخرى حيث تحتاج إلى استخراج السجلات التي لها علاقات متعدد إلى متعدد.
-
-لتنزيل القالب **وحدة تحكم المسؤول لإدارة مجموعات المواهب‬‬‬**، انتقل إلى [وحدة تحكم المسؤول لإدارة مجموعات المواهب](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) من مركز التنزيل لـ Microsoft.
+لتنزيل **تطبيق Referral**، انتقل إلى [حل قابلية التوسعة في Dynamics 365 for Talent: تطبيق Referral](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) في مركز التنزيل لـ Microsoft. يمكنك استيراد هذا التطبيق وتخصيصه لإضافة المزيد من الوظائف.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[ترحيل التطبيق بين المستأجرين والبيئات](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[ترحيل التطبيق بين المستأجرين والبيئات](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

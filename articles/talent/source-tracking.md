@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517270"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742698"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>تعقب المصادر لملفات التعريف واستمارات التقديم الخاصة بالمرشحين 
+# <a name="track-candidate-sources"></a>تعقب مصادر المرشحين
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE] 
-> تتوفر الوظيفة المذكورة في هذا الموضوع كجزء من إصدار مراجعة المعاينة. المحتوى والوظيفة عرضة للتغيير. لاستخدام هذه الميزة، اطلب من مسؤول تمكينها باستخدام **إعدادات المسؤول** في Attract. سيوفر إصدار مستقبلي لك تقارير تعقب المصدر. للحصول على مزيد من المعلومات، راجع [الوصول إلى ميزات المعاينة في Talent‬](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+> تتوفر الوظيفة المذكورة في هذا الموضوع كجزء من إصدار مراجعة المعاينة. المحتوى والوظيفة عرضة للتغيير. لاستخدام هذه الميزة، اطلب من مسؤول تمكينها باستخدام **إعدادات المسؤول** في Attract. سيوفر إصدار مستقبلي لك تقارير تعقب المصدر. للحصول على مزيد من المعلومات، راجع [الوصول إلى ميزات المعاينة في Talent‬](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 عندما يقدم المرشحون طلبات الحصول على الوظيفة، يقوم Attract بشكل تلقائي بتعقب استمارات تقديم هؤلاء المرشحين، ويوفر لك معلومات قيّمة لمساعدتك في توجيه الجهود التي تبذلها في مجال التعيين. بإمكان مسؤولي التعيين ومدراء التوظيف أيضًا تحديد مصدر استمارة التقديم أثناء إضافة مرشح إلى مجموعة وظائف أو مجموعة مواهب.‬
 
 يمكنك عرض مصدر استمارة التقديم في نشاط استمارة التقديم ضمن علامة التبويب **النشاط**، وكذلك الأمر في سجل التوظيف ضمن **ملف التعريف** في مجموعات المواهب.= يمكنك العثور على مصدر ملف تعريف المرشح في تفاصيل المرشح ضمن علامة التبويب **ملف التعريف** في مجموعات استمارات التقديم والمواهب.
 
 > [!NOTE] 
-> يمكنك العثور على قوالب العملية في [المكون الإضافي "التوظيف الشامل"](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> يمكنك العثور على قوالب العملية في [المكون الإضافي "التوظيف الشامل"](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 
 ## <a name="pre-configured-sources"></a>المصادر المكوّنة مسبقًا
 
@@ -93,7 +93,7 @@ ms.locfileid: "1517270"
 
 ## <a name="customize-the-source-list"></a>تخصيص قائمة المصادر 
 
-يمكنك توسيع قائمة المصادر بحيث تتضمن مصادر استمارات تقديم إضافية. لتخصيص هذه القائمة، اتبع الإرشادات الموجودة في [توسيع مجموعات الخيارات في Attract‬](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). حرر الكيان **TalentSource‎** بحيث يتضمن مصادر إضافية. 
+يمكنك توسيع قائمة المصادر بحيث تتضمن مصادر استمارات تقديم إضافية. لتخصيص هذه القائمة، اتبع الإرشادات الموجودة في [توسيع مجموعات الخيارات في Attract‬](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). حرر الكيان **TalentSource‎** بحيث يتضمن مصادر إضافية. 
 
 لتجنب التأثير السلبي على واجهة المستخدم (UI)، لا تعمل على تحرير أو حذف قيم تعداد (وليس أسماء) **TalentCategory** لما يلي:
 

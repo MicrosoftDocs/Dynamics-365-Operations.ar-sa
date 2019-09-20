@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702808"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742893"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>تكوين تكامل كشف الرواتب بين Talent وDayforce
 
@@ -52,14 +52,14 @@ ms.locfileid: "1702808"
 
 لمزيد من المعلومات حول حسابات مساحة تخزين Azure وسلاسل اتصال مساحة تخزين Azure، راجع موضوعات Azure التالية:
 
-- [حول حسابات مساحة تخزين Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [تكوين سلاسل اتصال مساحة تخزين Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+- [حول حسابات مساحة تخزين Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [تكوين سلاسل اتصال مساحة تخزين Azure](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>تفاصيل تقنية عند تمكين تكامل الرواتب
 
 يؤدي تشغيل تكامل الرواتب إلى تأثيرين أساسيين:
 
-- يتم إنشاء مشروع تصدير بيانات يُسمى "تصدير تكامل الرواتب". يحتوي هذا المشروع على الكيانات والحقول المطلوبة لتكامل الرواتب. لفحص المشروع ، انتقل إلى **إدارة النظام**، وحدد تجانب**إدارة البيانات**، ثم افتح مشروع البيانات من قائمه المشروعات.
+- يتم إنشاء مشروع تصدير بيانات يُسمى "تصدير تكامل الرواتب". يحتوي هذا المشروع على الكيانات والحقول المطلوبة لتكامل الرواتب. لفحص المشروع، انتقل إلى **إدارة النظام**، وحدد تجانب**إدارة البيانات**، ثم افتح مشروع البيانات من قائمة المشروعات.
 - تنفذ هذه الوظيفة الدفعية مشروع تصدير البيانات، وتشفر حزمة البيانات الناتجة، وتنقل ملف حزمة البيانات إلى نقطة نهاية SFTP التي تم تكوينها على شاشة **تكوين التكامل**.
 
 > [!NOTE]
@@ -123,10 +123,10 @@ ms.locfileid: "1702808"
 
 لمزيد من المعلومات حول كيفية تحديد وإدارة برنامج ميزات، راجع الموضوعات التالية:
 
-- [تقديم برنامج ميزات الموظفين](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [إنشاء ميزة جديدة](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [تحديد قواعد وسياسات استحقاق الفائدة](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [تسجيل ميزات للعاملين وإزالتها منهم](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [تقديم برنامج ميزات الموظفين](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [إنشاء ميزة جديدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [تحديد قواعد وسياسات استحقاق الفائدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [تسجيل ميزات للعاملين وإزالتها منهم](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>التعويض 
 
@@ -136,20 +136,20 @@ ms.locfileid: "1702808"
 
 لمزيد من المعلومات حول خطط التعويض، راجع الموضوعات التالية:
 
-- [إنشاء خطط التعويض الثابت](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [إنشاء خطط التعويض المتغير](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [تطوير خطط وبنية المرتب/التعويض](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [تعويض العملية](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)
-- [تحديد عملية التعويض وحساب النتائج](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [تسجيل موظف في خطة تعويض ثابتة](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [تسجيل موظف في خطة التعويض المتغيرة](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [إنشاء خطط التعويض الثابت](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [إنشاء خطط التعويض المتغير](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [تطوير خطط وبنية المرتب/التعويض](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [تعويض العملية](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+- [تحديد عملية التعويض وحساب النتائج](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [تسجيل موظف في خطة تعويض ثابتة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [تسجيل موظف في خطة التعويض المتغيرة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>الوظائف 
 
 الوظيفة هي مجموعة من المهام والمسؤوليات المطلوبة من الشخص الذي يؤدي وظيفة. لمزيد من المعلومات، راجع الموضوعات التالية:
 
-- [إعداد مكونات وظيفة](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-job)
-- [تحديد الوظائف الجديدة](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [إعداد مكونات وظيفة](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
+- [تحديد الوظائف الجديدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>المناصب
 
@@ -173,8 +173,8 @@ ms.locfileid: "1702808"
 
 لمزيد من المعلومات، راجع الموضوعات التالية:
 
-- [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [إعداد المناصب](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [إعداد المناصب](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>الأقسام
 
@@ -182,8 +182,8 @@ ms.locfileid: "1702808"
 
 لمزيد من المعلومات، راجع الموضوعات التالية:
 
-- [إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [تحديد الأقسام الجديدة](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [تحديد الأقسام الجديدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>دورات الدفع وفترات الدفع
 
