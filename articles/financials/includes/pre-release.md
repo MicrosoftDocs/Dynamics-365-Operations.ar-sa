@@ -1,2 +1,0 @@
-> [!IMPORTANT]
-> <span data-ttu-id="95e5b-101">تتوفر هذه الميزة في Platform update 15 (7.0.4841) أو إصدار أحدث.</span><span class="sxs-lookup"><span data-stu-id="95e5b-101">This feature is available in Platform update 15 (7.0.4841) or later.</span></span> <span data-ttu-id="95e5b-102">هذا التحديث متوفر حاليًا للعملاء المستهدفين وسيكون متوفرًا لجميع المستخدمين في يونيو 2018.</span><span class="sxs-lookup"><span data-stu-id="95e5b-102">This update is currently available for targeted customers and will be available to all users June 2018.</span></span>
