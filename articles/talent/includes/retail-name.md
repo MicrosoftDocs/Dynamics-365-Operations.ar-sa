@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="74010-101">ينطبق هذا الموضوع على كل من Dynamics 365 for Finance and Operations وDynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="74010-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
+> <span data-ttu-id="33a98-101">ينطبق هذا الموضوع على الشئون المالية وإدارة سلسلة التوريد والبيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="33a98-101">This topic applies to Finance, Supply Chain Management, and Retail.</span></span> 

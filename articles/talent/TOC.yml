@@ -1,18 +1,26 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
     - name: البدء
       items:
         - name: بدء استخدام Talent
           href: talent-get-started.md
-        - name: الجديد أو المتغير‬ في Talent
+        - name: المزايا الجديدة أو المتغيرة في Talent
           href: whats-new.md
           items:
-            - name: 22 أغسطس، 2019
+            - name: 1 أكتوبر 2019
+              href: whats-new-talent-october-1-2019.md
+            - name: 17 سبتمبر 2019
+              href: whats-new-talent-september-17-2019.md
+            - name: 10 سبتمبر 2019
+              href: whats-new-talent-september-12-2019.md
+            - name: 27 أغسطس 2019
+              href: whats-new-talent-august-28-2019.md
+            - name: 22 أغسطس 2019
               href: whats-new-talent-august-21-2019.md
-            - name: 13 أغسطس، 2019
+            - name: 13 أغسطس 2019
               href: whats-new-talent-august-15-2019.md
-            - name: 6 أغسطس، 2019
+            - name: 6 أغسطس 2019
               href: whats-new-talent-august-7-2019.md
             - name: 30 يوليو 2019
               href: whats-new-talent-july-31-2019.md
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2 يوليو 2019
               href: whats-new-talent-july-2-2019.md
-            - name: 25 يونيو 2019
-              href: whats-new-talent-june-25-2019.md
-            - name: 18 يونيو 2019
-              href: whats-new-talent-june-18-2019.md
-            - name: 11 يونيو 2019
-              href: whats-new-talent-june-11-2019.md
-            - name: 4 يونيو 2019
-              href: whats-new-talent-june-4-2019.md
             - name: الجديد في أرشيفات 2019
               items:
+                - name: 25 يونيه 2019
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18 يونيو 2019
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11 يونيو 2019
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4 يونيو 2019
+                  href: whats-new-talent-june-4-2019.md
                 - name: 28 مايو 2019
                   href: whats-new-talent-may-28-2019.md
                 - name: 21 مايو 2019
@@ -110,7 +118,7 @@
           href: provisioning-talent.md
         - name: إزالة بيئات Talent
           href: remove-talent-environment.md
-        - name: التزويد لتطبيق Onboard
+        - name: تشغيل الخدمة لتطبيق Onboard
           href: modular-app-tech-faq.md
         - name: تضمين تطبيقات PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -413,7 +421,7 @@
           items:
             - name: مساحات العمل المحمولة
               items:
-                - name: مساحة العمل المحمولة "دليل الشركة"
+                - name: مساحة العمل المحمولة بدليل الشركة
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: مساحة العمل المحمولة "فريقي"
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: استكشاف أخطاء Talent وإصلاحها
       items:
+        - name: تحسين الأداء باستخدام مهام التنظيف التلقائية
+          href: talent-batch-history-cleanup.md
         - name: استكشاف أخطاء نشر الوظائف في LinkedIn وإصلاحها
           href: attract-troubleshoot-linkedin.md
         - name: لم يتم تحديث تقارير التحليلات

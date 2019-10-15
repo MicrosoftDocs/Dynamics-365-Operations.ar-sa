@@ -1,1 +1,2 @@
-
+> [!IMPORTANT]
+> <span data-ttu-id="faba8-101">يتم ترخيص Dynamics 365 for Finance and Operations الآن كـ Dynamics 365 Finance وDynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="faba8-101">Dynamics 365 for Finance and Operations is now being licensed as Dynamics 365 Finance and Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="faba8-102">لمزيد من المعلومات حول تغييرات الترخيص هذه، راجع [تحديث ترخيص Dynamics 365](https://docs.microsoft.com/dynamics365/licensing/update).</span><span class="sxs-lookup"><span data-stu-id="faba8-102">For more information about these licensing changes, see [Dynamics 365 Licensing Update](https://docs.microsoft.com/dynamics365/licensing/update).</span></span>
