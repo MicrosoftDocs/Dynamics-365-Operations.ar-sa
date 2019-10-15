@@ -1,6 +1,6 @@
 ---
-title: إرجاع أصناف عبر عدة فواتير وأوامر مبيعات خاصة بالعملاء
-description: يصف هذا الموضوع الوظيفة التي تمكّن عمليات الإرجاع عبر عدة فواتير وأوامر مبيعات خاصة بالعملاء في Microsoft Dynamics 365 for Retail.
+title: إرجاع أصناف عبر عدة فواتير وأوامر مبيعات للعملاء
+description: يوضح هذا الموضوع الوظيفة التي تمكّن عمليات الإرجاع عبر العديد من الفواتير وأوامر العملاء في Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,21 +18,21 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25a1081e5f903076e23089c41dda7437f8a70124
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565290"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017979"
 ---
-# <a name="return-items-across-multiple-customer-orders-and-invoices"></a>إرجاع أصناف عبر عدة فواتير وأوامر مبيعات خاصة بالعملاء
+# <a name="return-items-across-multiple-customer-orders-and-invoices"></a>إرجاع أصناف عبر عدة فواتير وأوامر مبيعات للعملاء
 
 [!include [banner](includes/banner.md)]
 
 
-في الإصدار 10.0 من Dynamics 365 for Finance and Operations، يمكنك إجراء عمليات إرجاع عبر أوامر وفواتير متعددة، في حين أن معالجة عمليات الإرجاع في الإصدارات التي تسبق الإصدار 10.0 كانت تتم فقط بواسطة كل فاتورة على حدة. 
+يمكن إجراء عمليات إرجاع عبر العديد من الفواتير والأوامر. 
 
-## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>تكوين Retail لدعم عمليات الإرجاع عبر عدة فواتير وأوامر مبيعات خاصة بالعملاء
+## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>تكوين بيع بالتجزئة لدعم عمليات الإرجاع عبر العديد من الفواتير وأوامر العملاء
 
 1. انتقل إلى **معلمات البيع بالتجزئة \> أوامر العميل‬**.
 1. قم بتشغيل المعلمة **تمكين المرتجعات لأوامر متعددة‬**. 
