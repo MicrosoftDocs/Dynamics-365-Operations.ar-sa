@@ -19,231 +19,231 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a9e05fd2a08921d2718fc239afd56a957f80915
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865102"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251398"
 ---
-# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="1d203-103">نظرة عامة على سياسات عمل المستودع</span><span class="sxs-lookup"><span data-stu-id="1d203-103">Warehouse work policies overview</span></span>
+# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="73ee2-103">نظرة عامة على سياسات عمل المستودع</span><span class="sxs-lookup"><span data-stu-id="73ee2-103">Warehouse work policies overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1d203-104">تتحكم سياسات عمل المستودع في Microsoft Dynamics 365 for Finance and Operations فيما إذا كان عمل المستودع ينشأ نتيجة عمليات المستودع في التصنيع، استنادًا إلى نوع أمر العمل وموقع المخزون والمنتج.</span><span class="sxs-lookup"><span data-stu-id="1d203-104">Warehouse work policies in Microsoft Dynamics 365 for Finance and Operations control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
+<span data-ttu-id="73ee2-104">تتحكم سياسات عمل المستودع فيما إذا كان عمل المستودع ينشأ نتيجة عمليات المستودع في التصنيع، استنادًا إلى نوع أمر العمل وموقع المخزون والمنتج.</span><span class="sxs-lookup"><span data-stu-id="73ee2-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
 
-<span data-ttu-id="1d203-105">تتحكم سياسة العمل هذه في إنشاء عمل المستودع لعمليات المستودع في التصنيع.</span><span class="sxs-lookup"><span data-stu-id="1d203-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="1d203-106">ويمكنك إعداد سياسة العمل باستخدام مجموعة تتكون من **أنواع أوامر العمل** و**موقع المخزون** و**منتج**.</span><span class="sxs-lookup"><span data-stu-id="1d203-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="1d203-107">‏‫على سبيل المثال، يتم الإبلاغ عن المنتج L0101 على أنه منتج منتهٍ في موقع المخرجات 001.</span><span class="sxs-lookup"><span data-stu-id="1d203-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="1d203-108">ويتم في وقت لاحق استهلاك البضائع المنتهية في أمر إنتاج آخر في موقع المخرجات 001.</span><span class="sxs-lookup"><span data-stu-id="1d203-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="1d203-109">في هذه الحالة، يمكنك إعداد سياسة عمل لمنع إنشاء العمل المتعلق بتخزين البضائع المنتهية عند الإبلاغ عن المنتج L0101 على أنه منتج منتهٍ في موقع المخرجات 001.</span><span class="sxs-lookup"><span data-stu-id="1d203-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="1d203-110">تُعد سياسة العمل كيانًا فرديًا يمكن وصفه من خلال المعلومات التالية:</span><span class="sxs-lookup"><span data-stu-id="1d203-110">The work policy is an individual entity that can be described through the following information:</span></span>
+<span data-ttu-id="73ee2-105">تتحكم سياسة العمل هذه في إنشاء عمل المستودع لعمليات المستودع في التصنيع.</span><span class="sxs-lookup"><span data-stu-id="73ee2-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="73ee2-106">ويمكنك إعداد سياسة العمل باستخدام مجموعة تتكون من **أنواع أوامر العمل** و**موقع المخزون** و**منتج**.</span><span class="sxs-lookup"><span data-stu-id="73ee2-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="73ee2-107">‏‫على سبيل المثال، يتم الإبلاغ عن المنتج L0101 على أنه منتج منتهٍ في موقع المخرجات 001.</span><span class="sxs-lookup"><span data-stu-id="73ee2-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="73ee2-108">ويتم في وقت لاحق استهلاك البضائع المنتهية في أمر إنتاج آخر في موقع المخرجات 001.</span><span class="sxs-lookup"><span data-stu-id="73ee2-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="73ee2-109">في هذه الحالة، يمكنك إعداد سياسة عمل لمنع إنشاء العمل المتعلق بتخزين البضائع المنتهية عند الإبلاغ عن المنتج L0101 على أنه منتج منتهٍ في موقع المخرجات 001.</span><span class="sxs-lookup"><span data-stu-id="73ee2-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="73ee2-110">تُعد سياسة العمل كيانًا فرديًا يمكن وصفه من خلال المعلومات التالية:</span><span class="sxs-lookup"><span data-stu-id="73ee2-110">The work policy is an individual entity that can be described through the following information:</span></span>
 
--   <span data-ttu-id="1d203-111">**اسم سياسة العمل**(المعرف الفريد لسياسة العمل)</span><span class="sxs-lookup"><span data-stu-id="1d203-111">**Work policy name** (the unique identifier of the work policy)</span></span>
--   <span data-ttu-id="1d203-112">**أنواع أوامر العمل**و**طريقة إنشاء العمل‬**</span><span class="sxs-lookup"><span data-stu-id="1d203-112">**Work order types** and **Work creation method**</span></span>
--   <span data-ttu-id="1d203-113">**مواقع المخزون**</span><span class="sxs-lookup"><span data-stu-id="1d203-113">**Inventory locations**</span></span>
--   <span data-ttu-id="1d203-114">**المنتجات**</span><span class="sxs-lookup"><span data-stu-id="1d203-114">**Products**</span></span>
+-   <span data-ttu-id="73ee2-111">**اسم سياسة العمل**(المعرف الفريد لسياسة العمل)</span><span class="sxs-lookup"><span data-stu-id="73ee2-111">**Work policy name** (the unique identifier of the work policy)</span></span>
+-   <span data-ttu-id="73ee2-112">**أنواع أوامر العمل**و**طريقة إنشاء العمل‬**</span><span class="sxs-lookup"><span data-stu-id="73ee2-112">**Work order types** and **Work creation method**</span></span>
+-   <span data-ttu-id="73ee2-113">**مواقع المخزون**</span><span class="sxs-lookup"><span data-stu-id="73ee2-113">**Inventory locations**</span></span>
+-   <span data-ttu-id="73ee2-114">**المنتجات**</span><span class="sxs-lookup"><span data-stu-id="73ee2-114">**Products**</span></span>
 
-## <a name="work-order-types"></a><span data-ttu-id="1d203-115">أنواع أمر العمل</span><span class="sxs-lookup"><span data-stu-id="1d203-115">Work order types</span></span>
-<span data-ttu-id="1d203-116">يمكنك تحديد أنواع أوامر العمل التالية:</span><span class="sxs-lookup"><span data-stu-id="1d203-116">You can select the following work order types:</span></span>
+## <a name="work-order-types"></a><span data-ttu-id="73ee2-115">أنواع أمر العمل</span><span class="sxs-lookup"><span data-stu-id="73ee2-115">Work order types</span></span>
+<span data-ttu-id="73ee2-116">يمكنك تحديد أنواع أوامر العمل التالية:</span><span class="sxs-lookup"><span data-stu-id="73ee2-116">You can select the following work order types:</span></span>
 
--   <span data-ttu-id="1d203-117">تخزين البضائع المنتهية</span><span class="sxs-lookup"><span data-stu-id="1d203-117">Finished goods put away</span></span>
--   <span data-ttu-id="1d203-118">تخزين منتج مساعد ومنتج ثانوي</span><span class="sxs-lookup"><span data-stu-id="1d203-118">Co-product and by-product put away</span></span>
--   <span data-ttu-id="1d203-119">انتقاء المواد الخام</span><span class="sxs-lookup"><span data-stu-id="1d203-119">Raw material picking</span></span>
+-   <span data-ttu-id="73ee2-117">تخزين البضائع المنتهية</span><span class="sxs-lookup"><span data-stu-id="73ee2-117">Finished goods put away</span></span>
+-   <span data-ttu-id="73ee2-118">تخزين منتج مساعد ومنتج ثانوي</span><span class="sxs-lookup"><span data-stu-id="73ee2-118">Co-product and by-product put away</span></span>
+-   <span data-ttu-id="73ee2-119">انتقاء المواد الخام</span><span class="sxs-lookup"><span data-stu-id="73ee2-119">Raw material picking</span></span>
 
-<span data-ttu-id="1d203-120">يتضمن الحقل **طريقة إنشاء العمل‬** القيمة **أبدًا‬**.</span><span class="sxs-lookup"><span data-stu-id="1d203-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="1d203-121">تشير هذه القيمة إلى أن سياسة العمل سوف تمنع إنشاء عمل المستودع لنوع أمر العمل المحدد.</span><span class="sxs-lookup"><span data-stu-id="1d203-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
+<span data-ttu-id="73ee2-120">يتضمن الحقل **طريقة إنشاء العمل‬** القيمة **أبدًا‬**.</span><span class="sxs-lookup"><span data-stu-id="73ee2-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="73ee2-121">تشير هذه القيمة إلى أن سياسة العمل سوف تمنع إنشاء عمل المستودع لنوع أمر العمل المحدد.</span><span class="sxs-lookup"><span data-stu-id="73ee2-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
 
-## <a name="inventory-locations"></a><span data-ttu-id="1d203-122">مواقع المخزون</span><span class="sxs-lookup"><span data-stu-id="1d203-122">Inventory locations</span></span>
-<span data-ttu-id="1d203-123">يمكنك تحديد موقع تنطبق عليه سياسة العمل.</span><span class="sxs-lookup"><span data-stu-id="1d203-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="1d203-124">في حال عدم وجود أي موقع مقترن بسياسة عمل، لن تنطبق سياسة العمل على أي عملية.</span><span class="sxs-lookup"><span data-stu-id="1d203-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="1d203-125">في صفحة **المواقع**، يمكنك أيضًا تحديد أو إلغاء تحديد سياسة العمل لموقع معين.</span><span class="sxs-lookup"><span data-stu-id="1d203-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
+## <a name="inventory-locations"></a><span data-ttu-id="73ee2-122">مواقع المخزون</span><span class="sxs-lookup"><span data-stu-id="73ee2-122">Inventory locations</span></span>
+<span data-ttu-id="73ee2-123">يمكنك تحديد موقع تنطبق عليه سياسة العمل.</span><span class="sxs-lookup"><span data-stu-id="73ee2-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="73ee2-124">في حال عدم وجود أي موقع مقترن بسياسة عمل، لن تنطبق سياسة العمل على أي عملية.</span><span class="sxs-lookup"><span data-stu-id="73ee2-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="73ee2-125">في صفحة **المواقع**، يمكنك أيضًا تحديد أو إلغاء تحديد سياسة العمل لموقع معين.</span><span class="sxs-lookup"><span data-stu-id="73ee2-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
 
-## <a name="products"></a><span data-ttu-id="1d203-126">المنتجات</span><span class="sxs-lookup"><span data-stu-id="1d203-126">Products</span></span>
-<span data-ttu-id="1d203-127">يمكنك تحديد منتج تنطبق عليه سياسة العمل.</span><span class="sxs-lookup"><span data-stu-id="1d203-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="1d203-128">ويمكنك تطبيق سياسة العمل على كل المنتجات أو على منتجات محددة.</span><span class="sxs-lookup"><span data-stu-id="1d203-128">You can apply the work policy to either all products or selected products.</span></span>
+## <a name="products"></a><span data-ttu-id="73ee2-126">المنتجات</span><span class="sxs-lookup"><span data-stu-id="73ee2-126">Products</span></span>
+<span data-ttu-id="73ee2-127">يمكنك تحديد منتج تنطبق عليه سياسة العمل.</span><span class="sxs-lookup"><span data-stu-id="73ee2-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="73ee2-128">ويمكنك تطبيق سياسة العمل على كل المنتجات أو على منتجات محددة.</span><span class="sxs-lookup"><span data-stu-id="73ee2-128">You can apply the work policy to either all products or selected products.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1d203-129">مثال</span><span class="sxs-lookup"><span data-stu-id="1d203-129">Example</span></span>
-<span data-ttu-id="1d203-130">في المثال التالي، هناك أمرا إنتاج، PRD-001 وPRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="1d203-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="1d203-131">يتضمن أمر الإنتاج PRD-001 عملية تسمى **التجميع**، حيث يتم الإبلاغ عن المنتج SC1 كمنتج منتهٍ في الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="1d203-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="1d203-132">أما أمر الإنتاج PRD-002 فلديه عملية تسمى **الطلاء** وهو يستهلك المنتج SC1 من الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="1d203-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="1d203-133">يستهلك أمر الإنتاج PRD-002 أيضًا المواد الخام RM1 من الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="1d203-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="1d203-134">تكون المواد الخام RM1 مخزنة في موقع المستودع BULK-001 وسيتم نقل هذه المواد إلى الموقع O1 بواسطة عامل المستودع لانتقاء المواد الخام.</span><span class="sxs-lookup"><span data-stu-id="1d203-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="1d203-135">يتم إنشاء عمل الانتقاء عند إصدار أمر الإنتاج PRD-002.</span><span class="sxs-lookup"><span data-stu-id="1d203-135">The picking work is generated when production PRD-002 is released.</span></span> 
+## <a name="example"></a><span data-ttu-id="73ee2-129">مثال</span><span class="sxs-lookup"><span data-stu-id="73ee2-129">Example</span></span>
+<span data-ttu-id="73ee2-130">في المثال التالي، هناك أمرا إنتاج، PRD-001 وPRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="73ee2-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="73ee2-131">يتضمن أمر الإنتاج PRD-001 عملية تسمى **التجميع**، حيث يتم الإبلاغ عن المنتج SC1 كمنتج منتهٍ في الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="73ee2-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="73ee2-132">أما أمر الإنتاج PRD-002 فلديه عملية تسمى **الطلاء** وهو يستهلك المنتج SC1 من الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="73ee2-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="73ee2-133">يستهلك أمر الإنتاج PRD-002 أيضًا المواد الخام RM1 من الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="73ee2-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="73ee2-134">تكون المواد الخام RM1 مخزنة في موقع المستودع BULK-001 وسيتم نقل هذه المواد إلى الموقع O1 بواسطة عامل المستودع لانتقاء المواد الخام.</span><span class="sxs-lookup"><span data-stu-id="73ee2-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="73ee2-135">يتم إنشاء عمل الانتقاء عند إصدار أمر الإنتاج PRD-002.</span><span class="sxs-lookup"><span data-stu-id="73ee2-135">The picking work is generated when production PRD-002 is released.</span></span> 
 
-<span data-ttu-id="1d203-136">[![سياسات عمل المستودع](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="1d203-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
+<span data-ttu-id="73ee2-136">[![سياسات عمل المستودع](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="73ee2-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
 
-<span data-ttu-id="1d203-137">عندما تخطط لتكوين سياسة عمل المستودع لهذا السيناريو، يجب مراعاة المعلومات التالية:</span><span class="sxs-lookup"><span data-stu-id="1d203-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
+<span data-ttu-id="73ee2-137">عندما تخطط لتكوين سياسة عمل المستودع لهذا السيناريو، يجب مراعاة المعلومات التالية:</span><span class="sxs-lookup"><span data-stu-id="73ee2-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
 
--   <span data-ttu-id="1d203-138">عمل المستودع لتخزين البضائع المنتهية غير مطلوب عند التبليغ عن المنتج SC1 كمنتج منتهٍ من أمر الإنتاج PRD-001 إلى الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="1d203-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="1d203-139">وسبب ذلك هو أن عملية **الطلاء** لأمر الإنتاج PRD-002 تستهلك المنتج SC1 في الموقع نفسه.</span><span class="sxs-lookup"><span data-stu-id="1d203-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
--   <span data-ttu-id="1d203-140">عمل المستودع لانتقاء المواد الخام مطلوب لنقل المواد الخام RM1 من موقع المستودع BULK-001 إلى الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="1d203-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
+-   <span data-ttu-id="73ee2-138">عمل المستودع لتخزين البضائع المنتهية غير مطلوب عند التبليغ عن المنتج SC1 كمنتج منتهٍ من أمر الإنتاج PRD-001 إلى الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="73ee2-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="73ee2-139">وسبب ذلك هو أن عملية **الطلاء** لأمر الإنتاج PRD-002 تستهلك المنتج SC1 في الموقع نفسه.</span><span class="sxs-lookup"><span data-stu-id="73ee2-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
+-   <span data-ttu-id="73ee2-140">عمل المستودع لانتقاء المواد الخام مطلوب لنقل المواد الخام RM1 من موقع المستودع BULK-001 إلى الموقع O1.</span><span class="sxs-lookup"><span data-stu-id="73ee2-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
 
-<span data-ttu-id="1d203-141">إليك مثال عن سياسة العمل التي يمكنك إعدادها، استنادًا إلى هذه الاعتبارات.</span><span class="sxs-lookup"><span data-stu-id="1d203-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
+<span data-ttu-id="73ee2-141">إليك مثال عن سياسة العمل التي يمكنك إعدادها، استنادًا إلى هذه الاعتبارات.</span><span class="sxs-lookup"><span data-stu-id="73ee2-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
 
 
 |                                       |                                       |
 |---------------------------------------|---------------------------------------|
-| <span data-ttu-id="1d203-142"><strong>اسم سياسة العمل</strong></span><span class="sxs-lookup"><span data-stu-id="1d203-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="1d203-143"><strong>أنواع أمر العمل</strong></span><span class="sxs-lookup"><span data-stu-id="1d203-143"><strong>Work order types</strong></span></span><br> |
-|         <span data-ttu-id="1d203-144">لا تخزين 01     \`</span><span class="sxs-lookup"><span data-stu-id="1d203-144">No put away 01     \`</span></span>          |     <span data-ttu-id="1d203-145">- تخزين البضائع المنتهية</span><span class="sxs-lookup"><span data-stu-id="1d203-145">- Finished good put away</span></span><br>      |
-|                                       |    <span data-ttu-id="1d203-146"><strong>المواقع</strong></span><span class="sxs-lookup"><span data-stu-id="1d203-146"><strong>Locations</strong></span></span><br>     |
-|                                       |                 <span data-ttu-id="1d203-147">- O1</span><span class="sxs-lookup"><span data-stu-id="1d203-147">- O1</span></span>                  |
-|                                       |    <span data-ttu-id="1d203-148"><strong>المنتجات</strong></span><span class="sxs-lookup"><span data-stu-id="1d203-148"><strong>Products</strong></span></span> <br>     |
-|                                       |                 <span data-ttu-id="1d203-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="1d203-149">- SC1</span></span>                 |
+| <span data-ttu-id="73ee2-142"><strong>اسم سياسة العمل</strong></span><span class="sxs-lookup"><span data-stu-id="73ee2-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="73ee2-143"><strong>أنواع أمر العمل</strong></span><span class="sxs-lookup"><span data-stu-id="73ee2-143"><strong>Work order types</strong></span></span><br> |
+|         <span data-ttu-id="73ee2-144">لا تخزين 01     \`</span><span class="sxs-lookup"><span data-stu-id="73ee2-144">No put away 01     \`</span></span>          |     <span data-ttu-id="73ee2-145">- تخزين البضائع المنتهية</span><span class="sxs-lookup"><span data-stu-id="73ee2-145">- Finished good put away</span></span><br>      |
+|                                       |    <span data-ttu-id="73ee2-146"><strong>المواقع</strong></span><span class="sxs-lookup"><span data-stu-id="73ee2-146"><strong>Locations</strong></span></span><br>     |
+|                                       |                 <span data-ttu-id="73ee2-147">- O1</span><span class="sxs-lookup"><span data-stu-id="73ee2-147">- O1</span></span>                  |
+|                                       |    <span data-ttu-id="73ee2-148"><strong>المنتجات</strong></span><span class="sxs-lookup"><span data-stu-id="73ee2-148"><strong>Products</strong></span></span> <br>     |
+|                                       |                 <span data-ttu-id="73ee2-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="73ee2-149">- SC1</span></span>                 |
 
-<span data-ttu-id="1d203-150">توفر الإجراءات التالية إرشادات خطوة بخطوة حول كيفية إعداد سياسة عمل المستودع لهذا السيناريو.</span><span class="sxs-lookup"><span data-stu-id="1d203-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="1d203-151">كما سيتم وصف إعداد نموذجي يظهر كيفية الإبلاغ عن أمر إنتاج كمنتهٍ إلى موقع لا غير خاضع للتحكم بواسطة لوحة الترخيص.‬</span><span class="sxs-lookup"><span data-stu-id="1d203-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
+<span data-ttu-id="73ee2-150">توفر الإجراءات التالية إرشادات خطوة بخطوة حول كيفية إعداد سياسة عمل المستودع لهذا السيناريو.</span><span class="sxs-lookup"><span data-stu-id="73ee2-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="73ee2-151">كما سيتم وصف إعداد نموذجي يظهر كيفية الإبلاغ عن أمر إنتاج كمنتهٍ إلى موقع لا غير خاضع للتحكم بواسطة لوحة الترخيص.‬</span><span class="sxs-lookup"><span data-stu-id="73ee2-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
 
-## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="1d203-152">إعداد سياسة عمل المستودع</span><span class="sxs-lookup"><span data-stu-id="1d203-152">Set up a warehouse work policy</span></span>
-<span data-ttu-id="1d203-153">لا تشمل عمليات المستودع دائمًا عمل المستودع.</span><span class="sxs-lookup"><span data-stu-id="1d203-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="1d203-154">بتحديد سياسة العمل، يمكنك منع إنشاء عمل لانتقاء المواد الخام وتخزين البضائع المنتهية لمجموعة من المنتجات في مواقع محددة.</span><span class="sxs-lookup"><span data-stu-id="1d203-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="1d203-155">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="1d203-155">The USMF demo data company was used to create this procedure.</span></span> 
+## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="73ee2-152">إعداد سياسة عمل المستودع</span><span class="sxs-lookup"><span data-stu-id="73ee2-152">Set up a warehouse work policy</span></span>
+<span data-ttu-id="73ee2-153">لا تشمل عمليات المستودع دائمًا عمل المستودع.</span><span class="sxs-lookup"><span data-stu-id="73ee2-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="73ee2-154">بتحديد سياسة العمل، يمكنك منع إنشاء عمل لانتقاء المواد الخام وتخزين البضائع المنتهية لمجموعة من المنتجات في مواقع محددة.</span><span class="sxs-lookup"><span data-stu-id="73ee2-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="73ee2-155">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="73ee2-155">The USMF demo data company was used to create this procedure.</span></span> 
 
-<span data-ttu-id="1d203-156">الخطوات (21)</span><span class="sxs-lookup"><span data-stu-id="1d203-156">STEPS (21)</span></span>
+<span data-ttu-id="73ee2-156">الخطوات (21)</span><span class="sxs-lookup"><span data-stu-id="73ee2-156">STEPS (21)</span></span>
 
 |     |                                                                            |
 |-----|----------------------------------------------------------------------------|
-| <span data-ttu-id="1d203-157">1</span><span class="sxs-lookup"><span data-stu-id="1d203-157">1.</span></span>  | <span data-ttu-id="1d203-158">انتقل إلى إدارة المستودعات &gt; الإعداد &gt; العمل &gt; سياسات العمل.</span><span class="sxs-lookup"><span data-stu-id="1d203-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
-| <span data-ttu-id="1d203-159">2</span><span class="sxs-lookup"><span data-stu-id="1d203-159">2.</span></span>  | <span data-ttu-id="1d203-160">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="1d203-160">Click New.</span></span>                                                                 |
-| <span data-ttu-id="1d203-161">3</span><span class="sxs-lookup"><span data-stu-id="1d203-161">3.</span></span>  | <span data-ttu-id="1d203-162">في الحقل "اسم سياسة العمل"، اكتب "لا عمل تخزين".</span><span class="sxs-lookup"><span data-stu-id="1d203-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
-| <span data-ttu-id="1d203-163">4</span><span class="sxs-lookup"><span data-stu-id="1d203-163">4.</span></span>  | <span data-ttu-id="1d203-164">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="1d203-164">Click Save.</span></span>                                                                |
-| <span data-ttu-id="1d203-165">5.</span><span class="sxs-lookup"><span data-stu-id="1d203-165">5.</span></span>  | <span data-ttu-id="1d203-166">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="1d203-166">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="1d203-167">6.</span><span class="sxs-lookup"><span data-stu-id="1d203-167">6.</span></span>  | <span data-ttu-id="1d203-168">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="1d203-168">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="1d203-169">7.</span><span class="sxs-lookup"><span data-stu-id="1d203-169">7.</span></span>  | <span data-ttu-id="1d203-170">في الحقل "نوع طلب العمل"، حدد "تخزين البضائع المنتهية".</span><span class="sxs-lookup"><span data-stu-id="1d203-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
-| <span data-ttu-id="1d203-171">8.</span><span class="sxs-lookup"><span data-stu-id="1d203-171">8.</span></span>  | <span data-ttu-id="1d203-172">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="1d203-172">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="1d203-173">9.</span><span class="sxs-lookup"><span data-stu-id="1d203-173">9.</span></span>  | <span data-ttu-id="1d203-174">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="1d203-174">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="1d203-175">10.</span><span class="sxs-lookup"><span data-stu-id="1d203-175">10.</span></span> | <span data-ttu-id="1d203-176">في الحقل "نوع طلب العمل"، حدد "مخزون المنتج المساعد والمنتج الثانوي".</span><span class="sxs-lookup"><span data-stu-id="1d203-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
-| <span data-ttu-id="1d203-177">11.</span><span class="sxs-lookup"><span data-stu-id="1d203-177">11.</span></span> | <span data-ttu-id="1d203-178">قم بتوسيع مقطع "مواقع المخزون".</span><span class="sxs-lookup"><span data-stu-id="1d203-178">Expand the Inventory locations section.</span></span>                                    |
-| <span data-ttu-id="1d203-179">12.</span><span class="sxs-lookup"><span data-stu-id="1d203-179">12.</span></span> | <span data-ttu-id="1d203-180">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="1d203-180">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="1d203-181">13.</span><span class="sxs-lookup"><span data-stu-id="1d203-181">13.</span></span> | <span data-ttu-id="1d203-182">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="1d203-182">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="1d203-183">14.</span><span class="sxs-lookup"><span data-stu-id="1d203-183">14.</span></span> | <span data-ttu-id="1d203-184">في قائمة المستودع، أدخل "51".</span><span class="sxs-lookup"><span data-stu-id="1d203-184">In the Warehouse list, enter '51'.</span></span>                                         |
-| <span data-ttu-id="1d203-185">15.</span><span class="sxs-lookup"><span data-stu-id="1d203-185">15.</span></span> | <span data-ttu-id="1d203-186">في الحقل "الموقع"، أدخل قيمة "001" أو حددها.</span><span class="sxs-lookup"><span data-stu-id="1d203-186">In the Location field, enter or select '001'.</span></span>                              |
-| <span data-ttu-id="1d203-187">16.</span><span class="sxs-lookup"><span data-stu-id="1d203-187">16.</span></span> | <span data-ttu-id="1d203-188">قم بتوسيع قسم "المنتجات".</span><span class="sxs-lookup"><span data-stu-id="1d203-188">Expand the Products section.</span></span>                                               |
-| <span data-ttu-id="1d203-189">17.</span><span class="sxs-lookup"><span data-stu-id="1d203-189">17.</span></span> | <span data-ttu-id="1d203-190">في الحقل "‏‫قسم المنتج‬"، حدد "محدد".</span><span class="sxs-lookup"><span data-stu-id="1d203-190">In the Product selection field, select 'Selected'.</span></span>                         |
-| <span data-ttu-id="1d203-191">18.</span><span class="sxs-lookup"><span data-stu-id="1d203-191">18.</span></span> | <span data-ttu-id="1d203-192">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="1d203-192">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="1d203-193">19.</span><span class="sxs-lookup"><span data-stu-id="1d203-193">19.</span></span> | <span data-ttu-id="1d203-194">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="1d203-194">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="1d203-195">20.</span><span class="sxs-lookup"><span data-stu-id="1d203-195">20.</span></span> | <span data-ttu-id="1d203-196">في الحقل "رقم الصنف"، أدخل "L0101" أو حددها.</span><span class="sxs-lookup"><span data-stu-id="1d203-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
-| <span data-ttu-id="1d203-197">21.</span><span class="sxs-lookup"><span data-stu-id="1d203-197">21.</span></span> | <span data-ttu-id="1d203-198">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="1d203-198">Click Save.</span></span>                                                                |
+| <span data-ttu-id="73ee2-157">1</span><span class="sxs-lookup"><span data-stu-id="73ee2-157">1.</span></span>  | <span data-ttu-id="73ee2-158">انتقل إلى إدارة المستودعات &gt; الإعداد &gt; العمل &gt; سياسات العمل.</span><span class="sxs-lookup"><span data-stu-id="73ee2-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
+| <span data-ttu-id="73ee2-159">2</span><span class="sxs-lookup"><span data-stu-id="73ee2-159">2.</span></span>  | <span data-ttu-id="73ee2-160">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="73ee2-160">Click New.</span></span>                                                                 |
+| <span data-ttu-id="73ee2-161">3</span><span class="sxs-lookup"><span data-stu-id="73ee2-161">3.</span></span>  | <span data-ttu-id="73ee2-162">في الحقل "اسم سياسة العمل"، اكتب "لا عمل تخزين".</span><span class="sxs-lookup"><span data-stu-id="73ee2-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
+| <span data-ttu-id="73ee2-163">4</span><span class="sxs-lookup"><span data-stu-id="73ee2-163">4.</span></span>  | <span data-ttu-id="73ee2-164">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="73ee2-164">Click Save.</span></span>                                                                |
+| <span data-ttu-id="73ee2-165">5.</span><span class="sxs-lookup"><span data-stu-id="73ee2-165">5.</span></span>  | <span data-ttu-id="73ee2-166">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="73ee2-166">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="73ee2-167">6.</span><span class="sxs-lookup"><span data-stu-id="73ee2-167">6.</span></span>  | <span data-ttu-id="73ee2-168">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="73ee2-168">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="73ee2-169">7.</span><span class="sxs-lookup"><span data-stu-id="73ee2-169">7.</span></span>  | <span data-ttu-id="73ee2-170">في الحقل "نوع طلب العمل"، حدد "تخزين البضائع المنتهية".</span><span class="sxs-lookup"><span data-stu-id="73ee2-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
+| <span data-ttu-id="73ee2-171">8.</span><span class="sxs-lookup"><span data-stu-id="73ee2-171">8.</span></span>  | <span data-ttu-id="73ee2-172">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="73ee2-172">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="73ee2-173">9.</span><span class="sxs-lookup"><span data-stu-id="73ee2-173">9.</span></span>  | <span data-ttu-id="73ee2-174">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="73ee2-174">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="73ee2-175">10.</span><span class="sxs-lookup"><span data-stu-id="73ee2-175">10.</span></span> | <span data-ttu-id="73ee2-176">في الحقل "نوع طلب العمل"، حدد "مخزون المنتج المساعد والمنتج الثانوي".</span><span class="sxs-lookup"><span data-stu-id="73ee2-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
+| <span data-ttu-id="73ee2-177">11.</span><span class="sxs-lookup"><span data-stu-id="73ee2-177">11.</span></span> | <span data-ttu-id="73ee2-178">قم بتوسيع مقطع "مواقع المخزون".</span><span class="sxs-lookup"><span data-stu-id="73ee2-178">Expand the Inventory locations section.</span></span>                                    |
+| <span data-ttu-id="73ee2-179">12.</span><span class="sxs-lookup"><span data-stu-id="73ee2-179">12.</span></span> | <span data-ttu-id="73ee2-180">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="73ee2-180">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="73ee2-181">13.</span><span class="sxs-lookup"><span data-stu-id="73ee2-181">13.</span></span> | <span data-ttu-id="73ee2-182">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="73ee2-182">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="73ee2-183">14.</span><span class="sxs-lookup"><span data-stu-id="73ee2-183">14.</span></span> | <span data-ttu-id="73ee2-184">في قائمة المستودع، أدخل "51".</span><span class="sxs-lookup"><span data-stu-id="73ee2-184">In the Warehouse list, enter '51'.</span></span>                                         |
+| <span data-ttu-id="73ee2-185">15.</span><span class="sxs-lookup"><span data-stu-id="73ee2-185">15.</span></span> | <span data-ttu-id="73ee2-186">في الحقل "الموقع"، أدخل قيمة "001" أو حددها.</span><span class="sxs-lookup"><span data-stu-id="73ee2-186">In the Location field, enter or select '001'.</span></span>                              |
+| <span data-ttu-id="73ee2-187">16.</span><span class="sxs-lookup"><span data-stu-id="73ee2-187">16.</span></span> | <span data-ttu-id="73ee2-188">قم بتوسيع قسم "المنتجات".</span><span class="sxs-lookup"><span data-stu-id="73ee2-188">Expand the Products section.</span></span>                                               |
+| <span data-ttu-id="73ee2-189">17.</span><span class="sxs-lookup"><span data-stu-id="73ee2-189">17.</span></span> | <span data-ttu-id="73ee2-190">في الحقل "‏‫قسم المنتج‬"، حدد "محدد".</span><span class="sxs-lookup"><span data-stu-id="73ee2-190">In the Product selection field, select 'Selected'.</span></span>                         |
+| <span data-ttu-id="73ee2-191">18.</span><span class="sxs-lookup"><span data-stu-id="73ee2-191">18.</span></span> | <span data-ttu-id="73ee2-192">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="73ee2-192">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="73ee2-193">19.</span><span class="sxs-lookup"><span data-stu-id="73ee2-193">19.</span></span> | <span data-ttu-id="73ee2-194">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="73ee2-194">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="73ee2-195">20.</span><span class="sxs-lookup"><span data-stu-id="73ee2-195">20.</span></span> | <span data-ttu-id="73ee2-196">في الحقل "رقم الصنف"، أدخل "L0101" أو حددها.</span><span class="sxs-lookup"><span data-stu-id="73ee2-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
+| <span data-ttu-id="73ee2-197">21.</span><span class="sxs-lookup"><span data-stu-id="73ee2-197">21.</span></span> | <span data-ttu-id="73ee2-198">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="73ee2-198">Click Save.</span></span>                                                                |
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="1d203-199">الإبلاغ عن أمر إنتاج كمنتهٍ في موقع غير خاضع لمراقبة لوحة ترخيص</span><span class="sxs-lookup"><span data-stu-id="1d203-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
-<span data-ttu-id="1d203-200">يعرض هذا الإجراء مثالاً للإبلاغ عن منتج كمنتهٍ إلى موقع غير خاضع لمراقبة لوحة الترخيص.</span><span class="sxs-lookup"><span data-stu-id="1d203-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="1d203-201">تُعد سياسة العمل القابلة للتطبيق المتطلب الأساسي لهذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="1d203-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="1d203-202">يعرض الإجراء السابق إعداد سياسة العمل.</span><span class="sxs-lookup"><span data-stu-id="1d203-202">The previous procedure shows the setup of the work policy.</span></span> 
+## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="73ee2-199">الإبلاغ عن أمر إنتاج كمنتهٍ في موقع غير خاضع لمراقبة لوحة ترخيص</span><span class="sxs-lookup"><span data-stu-id="73ee2-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
+<span data-ttu-id="73ee2-200">يعرض هذا الإجراء مثالاً للإبلاغ عن منتج كمنتهٍ إلى موقع غير خاضع لمراقبة لوحة الترخيص.</span><span class="sxs-lookup"><span data-stu-id="73ee2-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="73ee2-201">تُعد سياسة العمل القابلة للتطبيق المتطلب الأساسي لهذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="73ee2-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="73ee2-202">يعرض الإجراء السابق إعداد سياسة العمل.</span><span class="sxs-lookup"><span data-stu-id="73ee2-202">The previous procedure shows the setup of the work policy.</span></span> 
 
-<span data-ttu-id="1d203-203">الخطوات (25)</span><span class="sxs-lookup"><span data-stu-id="1d203-203">STEPS (25)</span></span>
+<span data-ttu-id="73ee2-203">الخطوات (25)</span><span class="sxs-lookup"><span data-stu-id="73ee2-203">STEPS (25)</span></span>
 
 <table>
 <tbody>
 <tr>
-<td colspan="3"><span data-ttu-id="1d203-204"><strong>المهمة الفرعية: إعداد موقع المخرجات.</strong></span><span class="sxs-lookup"><span data-stu-id="1d203-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
+<td colspan="3"><span data-ttu-id="73ee2-204"><strong>المهمة الفرعية: إعداد موقع المخرجات.</strong></span><span class="sxs-lookup"><span data-stu-id="73ee2-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>1.</td>
-<td><span data-ttu-id="1d203-205">انتقل إلى إدارة المؤسسة &gt; الموارد &gt; مجموعات الموارد.</span><span class="sxs-lookup"><span data-stu-id="1d203-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
+<td><span data-ttu-id="73ee2-205">انتقل إلى إدارة المؤسسة &gt; الموارد &gt; مجموعات الموارد.</span><span class="sxs-lookup"><span data-stu-id="73ee2-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>2.</td>
-<td><span data-ttu-id="1d203-206">في القائمة، حدد مجموعة الموارد &#39;5102&#39;.</span><span class="sxs-lookup"><span data-stu-id="1d203-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
+<td><span data-ttu-id="73ee2-206">في القائمة، حدد مجموعة الموارد &#39;5102&#39;.</span><span class="sxs-lookup"><span data-stu-id="73ee2-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>3.</td>
-<td><span data-ttu-id="1d203-207">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="1d203-207">Click Edit.</span></span></td>
+<td><span data-ttu-id="73ee2-207">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="73ee2-207">Click Edit.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>4.</td>
-<td><span data-ttu-id="1d203-208">في الحقل "مستودع المخرجات"، أدخل &#39;51&#39;.</span><span class="sxs-lookup"><span data-stu-id="1d203-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
+<td><span data-ttu-id="73ee2-208">في الحقل "مستودع المخرجات"، أدخل &#39;51&#39;.</span><span class="sxs-lookup"><span data-stu-id="73ee2-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td><span data-ttu-id="1d203-209">في الحقل "موقع الإخراج"، أدخل &#39;001&#39;.</span><span class="sxs-lookup"><span data-stu-id="1d203-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
+<td><span data-ttu-id="73ee2-209">في الحقل "موقع الإخراج"، أدخل &#39;001&#39;.</span><span class="sxs-lookup"><span data-stu-id="73ee2-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td><span data-ttu-id="1d203-210">الموقع 001 غير خاضع للتحكم بواسطة لوحة الترخيص.</span><span class="sxs-lookup"><span data-stu-id="1d203-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="1d203-211">يمكنك إعداد موقع إخراج غير لوحة غير مرخصة فقط في حالة وجود سياسة عمل قابلة للتطبيق للموقع.</span><span class="sxs-lookup"><span data-stu-id="1d203-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
+<td><span data-ttu-id="73ee2-210">الموقع 001 غير خاضع للتحكم بواسطة لوحة الترخيص.</span><span class="sxs-lookup"><span data-stu-id="73ee2-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="73ee2-211">يمكنك إعداد موقع إخراج غير لوحة غير مرخصة فقط في حالة وجود سياسة عمل قابلة للتطبيق للموقع.</span><span class="sxs-lookup"><span data-stu-id="73ee2-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
 </tr>
 <tr>
-<td colspan="3"><span data-ttu-id="1d203-212"><strong>المهمة الفرعية: إنشاء أمر الإنتاج والإبلاغ عنه كمنتهٍ.</strong></span><span class="sxs-lookup"><span data-stu-id="1d203-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
+<td colspan="3"><span data-ttu-id="73ee2-212"><strong>المهمة الفرعية: إنشاء أمر الإنتاج والإبلاغ عنه كمنتهٍ.</strong></span><span class="sxs-lookup"><span data-stu-id="73ee2-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>1.</td>
-<td><span data-ttu-id="1d203-213">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="1d203-213">Close the page.</span></span></td>
+<td><span data-ttu-id="73ee2-213">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="73ee2-213">Close the page.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>2.</td>
-<td><span data-ttu-id="1d203-214">انتقل إلى التحكم بالإنتاج‬ &gt; أوامر الإنتاج &gt; كافة أوامر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="1d203-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
+<td><span data-ttu-id="73ee2-214">انتقل إلى التحكم بالإنتاج‬ &gt; أوامر الإنتاج &gt; كافة أوامر الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="73ee2-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>3.</td>
-<td><span data-ttu-id="1d203-215">انقر فوق "أمر إنتاج جديد".</span><span class="sxs-lookup"><span data-stu-id="1d203-215">Click New production order.</span></span></td>
+<td><span data-ttu-id="73ee2-215">انقر فوق "أمر إنتاج جديد".</span><span class="sxs-lookup"><span data-stu-id="73ee2-215">Click New production order.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>4.</td>
-<td><span data-ttu-id="1d203-216">في الحقل "رقم الصنف"، أدخل &#39;L0101&#39;.</span><span class="sxs-lookup"><span data-stu-id="1d203-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
+<td><span data-ttu-id="73ee2-216">في الحقل "رقم الصنف"، أدخل &#39;L0101&#39;.</span><span class="sxs-lookup"><span data-stu-id="73ee2-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td><span data-ttu-id="1d203-217">انقر فوق "إنشاء".</span><span class="sxs-lookup"><span data-stu-id="1d203-217">Click Create.</span></span></td>
+<td><span data-ttu-id="73ee2-217">انقر فوق "إنشاء".</span><span class="sxs-lookup"><span data-stu-id="73ee2-217">Click Create.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td><span data-ttu-id="1d203-218">في جزء "الإجراءات"، انقر فوق "أمر إنتاج".</span><span class="sxs-lookup"><span data-stu-id="1d203-218">On the Action Pane, click Production order.</span></span></td>
+<td><span data-ttu-id="73ee2-218">في جزء "الإجراءات"، انقر فوق "أمر إنتاج".</span><span class="sxs-lookup"><span data-stu-id="73ee2-218">On the Action Pane, click Production order.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>7.</td>
-<td><span data-ttu-id="1d203-219">انقر فوق "تقدير".</span><span class="sxs-lookup"><span data-stu-id="1d203-219">Click Estimate.</span></span></td>
+<td><span data-ttu-id="73ee2-219">انقر فوق "تقدير".</span><span class="sxs-lookup"><span data-stu-id="73ee2-219">Click Estimate.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>8.</td>
-<td><span data-ttu-id="1d203-220">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="1d203-220">Click OK.</span></span></td>
+<td><span data-ttu-id="73ee2-220">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="73ee2-220">Click OK.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>9.</td>
-<td><span data-ttu-id="1d203-221">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="1d203-221">Click Start.</span></span></td>
+<td><span data-ttu-id="73ee2-221">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="73ee2-221">Click Start.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>10.</td>
-<td><span data-ttu-id="1d203-222">انقر فوق علامة التبويب "عام".</span><span class="sxs-lookup"><span data-stu-id="1d203-222">Click the General tab.</span></span></td>
+<td><span data-ttu-id="73ee2-222">انقر فوق علامة التبويب "عام".</span><span class="sxs-lookup"><span data-stu-id="73ee2-222">Click the General tab.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>11.</td>
-<td><span data-ttu-id="1d203-223">في الحقل "‏‫استهلاك قائمة مكونات الصنف التلقائي‬"، حدد "أبدًا".</span><span class="sxs-lookup"><span data-stu-id="1d203-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
+<td><span data-ttu-id="73ee2-223">في الحقل "‏‫استهلاك قائمة مكونات الصنف التلقائي‬"، حدد "أبدًا".</span><span class="sxs-lookup"><span data-stu-id="73ee2-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>12.</td>
-<td><span data-ttu-id="1d203-224">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="1d203-224">Click OK.</span></span></td>
+<td><span data-ttu-id="73ee2-224">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="73ee2-224">Click OK.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>13.</td>
-<td><span data-ttu-id="1d203-225">انقر فوق تقرير كمنتهِ.</span><span class="sxs-lookup"><span data-stu-id="1d203-225">Click Report as finished.</span></span></td>
+<td><span data-ttu-id="73ee2-225">انقر فوق تقرير كمنتهِ.</span><span class="sxs-lookup"><span data-stu-id="73ee2-225">Click Report as finished.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>14.</td>
-<td><span data-ttu-id="1d203-226">انقر فوق علامة التبويب "عام".</span><span class="sxs-lookup"><span data-stu-id="1d203-226">Click the General tab.</span></span></td>
+<td><span data-ttu-id="73ee2-226">انقر فوق علامة التبويب "عام".</span><span class="sxs-lookup"><span data-stu-id="73ee2-226">Click the General tab.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>15.</td>
-<td><span data-ttu-id="1d203-227">حدد "نعم" في الحقل "قبول الخطأ".</span><span class="sxs-lookup"><span data-stu-id="1d203-227">Select Yes in the Accept error field.</span></span></td>
+<td><span data-ttu-id="73ee2-227">حدد "نعم" في الحقل "قبول الخطأ".</span><span class="sxs-lookup"><span data-stu-id="73ee2-227">Select Yes in the Accept error field.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>16.</td>
-<td><span data-ttu-id="1d203-228">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="1d203-228">Click OK.</span></span></td>
+<td><span data-ttu-id="73ee2-228">انقر فوق موافق.</span><span class="sxs-lookup"><span data-stu-id="73ee2-228">Click OK.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>17.</td>
-<td><span data-ttu-id="1d203-229">في جزء الإجراءات، انقر فوق "مستودع".</span><span class="sxs-lookup"><span data-stu-id="1d203-229">On the Action Pane, click Warehouse.</span></span></td>
+<td><span data-ttu-id="73ee2-229">في جزء الإجراءات، انقر فوق "مستودع".</span><span class="sxs-lookup"><span data-stu-id="73ee2-229">On the Action Pane, click Warehouse.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>18.</td>
-<td><span data-ttu-id="1d203-230">انقر فوق تفاصيل العمل.</span><span class="sxs-lookup"><span data-stu-id="1d203-230">Click Work details.</span></span></td>
+<td><span data-ttu-id="73ee2-230">انقر فوق تفاصيل العمل.</span><span class="sxs-lookup"><span data-stu-id="73ee2-230">Click Work details.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>19.</td>
-<td><span data-ttu-id="1d203-231">عندما تم الإبلاغ عن أمر الإنتاج كمنته، فإنه لا يتم إنشاء عمل للتخزين.</span><span class="sxs-lookup"><span data-stu-id="1d203-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="1d203-232">يحدث هذا لأنه يتم تعريف سياسة عمل تمنع إنشاء العمل عندما يتم الإبلاغ عن المنتج L0101 كمنته للموقع 001.</span><span class="sxs-lookup"><span data-stu-id="1d203-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
+<td><span data-ttu-id="73ee2-231">عندما تم الإبلاغ عن أمر الإنتاج كمنته، فإنه لا يتم إنشاء عمل للتخزين.</span><span class="sxs-lookup"><span data-stu-id="73ee2-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="73ee2-232">يحدث هذا لأنه يتم تعريف سياسة عمل تمنع إنشاء العمل عندما يتم الإبلاغ عن المنتج L0101 كمنته للموقع 001.</span><span class="sxs-lookup"><span data-stu-id="73ee2-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
 </tr>
 </tbody>
 </table>

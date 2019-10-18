@@ -1,9 +1,9 @@
 ---
 title: إضافة عنصر تحكم في التوصيات إلى شاشة الحركة على أجهزة نقطة البيع (POS)
 description: يوضح هذا الموضوع كيفية إضافة عنصر تحكم في التوصيات لشاشة الحركة على جهاز نقطة البيع باستخدام مصمم تخطيط الشاشة في Microsoft Dynamics 365 for Retail.
-author: ashishmsft
+author: bebeale
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 10/01/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,78 +19,85 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606839"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278119"
 ---
-# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a><span data-ttu-id="3af3a-103">إضافة عنصر تحكم في التوصيات إلى شاشة الحركة على أجهزة نقطة البيع (POS)</span><span class="sxs-lookup"><span data-stu-id="3af3a-103">Add a recommendations control to the transaction screen on POS devices</span></span>
+# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a><span data-ttu-id="62366-103">إضافة عنصر تحكم في التوصيات إلى شاشة الحركة على أجهزة نقطة البيع (POS)</span><span class="sxs-lookup"><span data-stu-id="62366-103">Add a recommendations control to the transaction screen on POS devices</span></span>
 
 [!include [banner](includes/banner.md)]
 
-> [!NOTE]
-> <span data-ttu-id="3af3a-104">إننا نعمل على إزالة الإصدار الحالي من خدمة توصيات المنتجات، إذا سنعيد تصميم هذه الميزة من خلال خوارزمية أفضل وقدرات أحدث موجهة نحو البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="3af3a-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="3af3a-105">للحصول على مزيد من المعلومات راجع [الميزات المهلكة أو التي تمت إزالتها‬](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span><span class="sxs-lookup"><span data-stu-id="3af3a-105">For more information see [Removed or deprecated features](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span></span>
 
-<span data-ttu-id="3af3a-106">يوضح هذا الموضوع كيفية إضافة عنصر تحكم في التوصيات لشاشة الحركة على جهاز نقطة البيع باستخدام مصمم تخطيط الشاشة في Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="3af3a-106">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="62366-104">يوضح هذا الموضوع كيفية إضافة عنصر تحكم في التوصيات لشاشة الحركة على جهاز نقطة البيع باستخدام مصمم تخطيط الشاشة في Microsoft Dynamics 365 Retail.</span><span class="sxs-lookup"><span data-stu-id="62366-104">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 Retail.</span></span> <span data-ttu-id="62366-105">لمزيد من المعلومات حول توصيات المنتجات، اقرأ  [توصيات المنتجات على وثائق نقطة البيع.](product.md)</span><span class="sxs-lookup"><span data-stu-id="62366-105">For more information about product recommendations, read the  [product recommendations on POS documentation.](product.md)</span></span>
 
-<span data-ttu-id="3af3a-107">يمكنك عرض توصيات المنتج على جهاز نقطة البيع عندما تستخدم Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="3af3a-107">You can display product recommendations on your POS device when you use Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="3af3a-108">وتُعد *التوصيات* هي الأصناف التي قد يكون عميلك مهتم بها بناءً على محفوظات الشراء الخاصة بهم، والأصناف الموجودة في قائمة الأمنيات الخاصة بهم، والأصناف التي قام العملاء الآخرين بشرائها عبر الإنترنت والمتاجر التقليدية.</span><span class="sxs-lookup"><span data-stu-id="3af3a-108">*Recommendations* are items that your customer might be interested in based on their purchase history, items in their wish list, and items that other customers purchased online and in brick-and-mortar stores.</span></span> <span data-ttu-id="3af3a-109">لعرض توصيات المنتج، تحتاج إلى إضافة عنصر تحكم إلى شاشة الحركة باستخدام مصمم تخطيط الشاشة.</span><span class="sxs-lookup"><span data-stu-id="3af3a-109">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span>
 
-## <a name="open-layout-designer"></a><span data-ttu-id="3af3a-110">فتح مصمم التخطيط</span><span class="sxs-lookup"><span data-stu-id="3af3a-110">Open Layout designer</span></span>
+<span data-ttu-id="62366-106">يمكنك عرض توصيات المنتجات على جهاز نقطة البيع عندما تستخدم Microsoft Dynamics 365 Retail.</span><span class="sxs-lookup"><span data-stu-id="62366-106">You can display product recommendations on your POS device when you use Microsoft Dynamics 365 Retail.</span></span> <span data-ttu-id="62366-107">لعرض توصيات المنتج، تحتاج إلى إضافة عنصر تحكم إلى شاشة الحركة باستخدام مصمم تخطيط الشاشة.</span><span class="sxs-lookup"><span data-stu-id="62366-107">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span> 
 
-1. <span data-ttu-id="3af3a-111">انتقل إلى **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **نقطة البيع** &gt; **تخطيطات الشاشة**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-111">Go to **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
-2. <span data-ttu-id="3af3a-112">استخدم عامل التصفية السريع للعثور على الشاشة التي ترغب في إضافة عامل التحكم إليها.</span><span class="sxs-lookup"><span data-stu-id="3af3a-112">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="3af3a-113">على سبيل المثال، نفّذ التصفية في حقل **معرف تخطيط الشاشة** باستخدام قيمة **F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-113">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
-3. <span data-ttu-id="3af3a-114">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="3af3a-114">In the list, find and select the desired record.</span></span> <span data-ttu-id="3af3a-115">على سبيل المثال، حدد **الاسم: F2CP16:9M معرف تخطيط الشاشة: F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-115">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
-4. <span data-ttu-id="3af3a-116">انقر فوق **مصمم التخطيط**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-116">Click **Layout designer**.</span></span>
-5. <span data-ttu-id="3af3a-117">اتبع المطالبات لتشغيل مصمم التخطيط.</span><span class="sxs-lookup"><span data-stu-id="3af3a-117">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="3af3a-118">عند مطالبتك ببيانات الاعتماد، أدخل نفس بيانات الاعتماد التي تم استخدامها عندما تم تشغيل مصمم التخطيط من صفحة **تخطيطات الشاشة**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-118">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
-6. <span data-ttu-id="3af3a-119">عندما تقوم بتسجيل الدخول، سوف تظهر لك صفحة تشبه الصفحة الموجودة أدناه.</span><span class="sxs-lookup"><span data-stu-id="3af3a-119">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="3af3a-120">سوف يكون التخطيط مختلفًا اعتمادًا على التخصيصات التي تم إجراؤها لمتجرك.</span><span class="sxs-lookup"><span data-stu-id="3af3a-120">The layout will be different depending on the customizations that were made for your store.</span></span>
+## <a name="open-layout-designer"></a><span data-ttu-id="62366-108">فتح مصمم التخطيط</span><span class="sxs-lookup"><span data-stu-id="62366-108">Open Layout designer</span></span>
 
-    <span data-ttu-id="3af3a-121">[![مصمم التخطيط](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="3af3a-121">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
+1. <span data-ttu-id="62366-109">انتقل إلى **البيع بالتجزئة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **نقطة البيع** &gt; **تخطيطات الشاشة**.</span><span class="sxs-lookup"><span data-stu-id="62366-109">Go to **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
+2. <span data-ttu-id="62366-110">استخدم عامل التصفية السريع للعثور على الشاشة التي ترغب في إضافة عامل التحكم إليها.</span><span class="sxs-lookup"><span data-stu-id="62366-110">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="62366-111">على سبيل المثال، نفّذ التصفية في حقل **معرف تخطيط الشاشة** باستخدام قيمة **F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="62366-111">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
+3. <span data-ttu-id="62366-112">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="62366-112">In the list, find and select the desired record.</span></span> <span data-ttu-id="62366-113">على سبيل المثال، حدد **الاسم: F2CP16:9M معرف تخطيط الشاشة: F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="62366-113">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
+4. <span data-ttu-id="62366-114">انقر فوق **مصمم التخطيط**.</span><span class="sxs-lookup"><span data-stu-id="62366-114">Click **Layout designer**.</span></span>
+5. <span data-ttu-id="62366-115">اتبع المطالبات لتشغيل مصمم التخطيط.</span><span class="sxs-lookup"><span data-stu-id="62366-115">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="62366-116">عند مطالبتك ببيانات الاعتماد، أدخل بيانات الاعتماد نفسها التي تم استخدامها عندما تم تشغيل مصمم التخطيط من صفحة **تخطيطات الشاشة**.</span><span class="sxs-lookup"><span data-stu-id="62366-116">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
+6. <span data-ttu-id="62366-117">عندما تقوم بتسجيل الدخول، سوف تظهر لك صفحة تشبه الصفحة الموجودة أدناه.</span><span class="sxs-lookup"><span data-stu-id="62366-117">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="62366-118">سوف يكون التخطيط مختلفًا اعتمادًا على التخصيصات التي تم إجراؤها لمتجرك.</span><span class="sxs-lookup"><span data-stu-id="62366-118">The layout will be different depending on the customizations that were made for your store.</span></span>
 
-## <a name="choose-a-display-option"></a><span data-ttu-id="3af3a-122">تحديد خيار عرض</span><span class="sxs-lookup"><span data-stu-id="3af3a-122">Choose a display option</span></span>
 
-<span data-ttu-id="3af3a-123">يتوفر خياران للتكوينات.</span><span class="sxs-lookup"><span data-stu-id="3af3a-123">There are two configurations options available.</span></span> <span data-ttu-id="3af3a-124">قم باختيار الخيار الأفضل لمتجرك، ثم اتبع الإرشادات المتبقية لإنهاء إعداد عنصر التحكم.</span><span class="sxs-lookup"><span data-stu-id="3af3a-124">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="3af3a-125">الخياران المتاحان هما:</span><span class="sxs-lookup"><span data-stu-id="3af3a-125">The two options are:</span></span>
+    <span data-ttu-id="62366-119">[![مصمم التخطيط](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="62366-119">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
 
-- <span data-ttu-id="3af3a-126">دائمًا ما تكون التوصيات مرئية.</span><span class="sxs-lookup"><span data-stu-id="3af3a-126">Recommendations are always visible.</span></span>
-- <span data-ttu-id="3af3a-127">تظهر علامة تبويب **التوصيات** في الشبكة على الجانب الأيسر من الشاشة.</span><span class="sxs-lookup"><span data-stu-id="3af3a-127">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
+## <a name="choose-a-display-option"></a><span data-ttu-id="62366-120">تحديد خيار عرض</span><span class="sxs-lookup"><span data-stu-id="62366-120">Choose a display option</span></span>
 
-### <a name="make-recommendations-always-visible"></a><span data-ttu-id="3af3a-128">جعل التوصيات مرئية دائمًا</span><span class="sxs-lookup"><span data-stu-id="3af3a-128">Make recommendations always visible</span></span>
+<span data-ttu-id="62366-121">يتوفر خياران للتكوينات.</span><span class="sxs-lookup"><span data-stu-id="62366-121">There are two configurations options available.</span></span> <span data-ttu-id="62366-122">قم باختيار الخيار الأفضل لمتجرك، ثم اتبع الإرشادات المتبقية لإنهاء إعداد عنصر التحكم.</span><span class="sxs-lookup"><span data-stu-id="62366-122">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="62366-123">الخياران المتاحان هما:</span><span class="sxs-lookup"><span data-stu-id="62366-123">The two options are:</span></span>
 
-1. <span data-ttu-id="3af3a-129">قم بتقليل ارتفاع منطقة تفاصيل سطور الحركة بحيث يصبح ارتفاعها مماثلاً للوحة العميل إلى يسارها.</span><span class="sxs-lookup"><span data-stu-id="3af3a-129">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
+- <span data-ttu-id="62366-124">دائمًا ما تكون التوصيات مرئية.</span><span class="sxs-lookup"><span data-stu-id="62366-124">Recommendations are always visible.</span></span>
+- <span data-ttu-id="62366-125">تظهر علامة تبويب **التوصيات** في الشبكة على الجانب الأيسر من الشاشة.</span><span class="sxs-lookup"><span data-stu-id="62366-125">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
 
-    <span data-ttu-id="3af3a-130">[![تقليل ارتفاع منطقة تفاصيل سطور الحركة](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="3af3a-130">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
+### <a name="make-recommendations-always-visible"></a><span data-ttu-id="62366-126">جعل التوصيات مرئية دائمًا</span><span class="sxs-lookup"><span data-stu-id="62366-126">Make recommendations always visible</span></span>
 
-2. <span data-ttu-id="3af3a-131">من القائمة الموجودة على اليسار، قم بسحب وإفلات عنصر تحكيم التوصيات بين منطقة تفاصيل سطور الحركة وزر الشبكة في منتصف أسفل شاشة الحركة.</span><span class="sxs-lookup"><span data-stu-id="3af3a-131">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="3af3a-132">قم بتغيير حجم عنصر التحكم بحيث تحتويه هذه المساحة.</span><span class="sxs-lookup"><span data-stu-id="3af3a-132">Resize the control so it fits in that space.</span></span>
 
-    <span data-ttu-id="3af3a-133">[![إضافة عناصر التحكم في التوصيات إلى التخطيط](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="3af3a-133">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
+1. <span data-ttu-id="62366-127">قم بتقليل ارتفاع منطقة تفاصيل سطور الحركة بحيث يصبح ارتفاعها مماثلاً للوحة العميل إلى يسارها.</span><span class="sxs-lookup"><span data-stu-id="62366-127">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
 
-3. <span data-ttu-id="3af3a-134">انقر فوق **X** للحفظ والخروج من مصمم التخطيط.</span><span class="sxs-lookup"><span data-stu-id="3af3a-134">Click the **X** to save and exit Layout designer.</span></span>
-4. <span data-ttu-id="3af3a-135">في Dynamics 365 for Retail، انتقل إلى **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جداول التوزيع**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-135">In Dynamics 365 for Retail, go to **Retail** &gt; **Retail IT** &gt; **Distribution schedules**.</span></span>
-5. <span data-ttu-id="3af3a-136">من القائمة المنسدلة، قم بتحديد  **سجلات 1090**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-136">In the list, select **1090 Registers**.</span></span>
-6. <span data-ttu-id="3af3a-137">انقر فوق **تشغيل الآن**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-137">Click **Run now**.</span></span>
 
-### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="3af3a-138">إضافة علامة تبويب التوصيات إلى شبكة الأزرار على الجانب الأيسر من الشاشة</span><span class="sxs-lookup"><span data-stu-id="3af3a-138">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
+    <span data-ttu-id="62366-128">[![تقليل ارتفاع منطقة تفاصيل سطور الحركة](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="62366-128">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
 
-1. <span data-ttu-id="3af3a-139">انقر بزر الماوس الأيمن فوق المساحة الفارغة أسفل علامة التبويب الأخيرة على شبكة الأزرار الموجودة على الجانب الأيمن من الصفحة.</span><span class="sxs-lookup"><span data-stu-id="3af3a-139">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
-2. <span data-ttu-id="3af3a-140">انقر فوق **تخصيص**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-140">Click **Customize**.</span></span>
+2. <span data-ttu-id="62366-129">من القائمة الموجودة على اليسار، قم بسحب وإفلات عنصر تحكيم التوصيات بين منطقة تفاصيل سطور الحركة وزر الشبكة في منتصف أسفل شاشة الحركة.</span><span class="sxs-lookup"><span data-stu-id="62366-129">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="62366-130">قم بتغيير حجم عنصر التحكم بحيث تحتويه هذه المساحة.</span><span class="sxs-lookup"><span data-stu-id="62366-130">Resize the control so it fits in that space.</span></span>
 
-    <span data-ttu-id="3af3a-141">[![التخصيص - مربع حوار عنصر التحكم في التبويب](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="3af3a-141">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
+    <span data-ttu-id="62366-131">[![إضافة عناصر التحكم في التوصيات إلى التخطيط](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="62366-131">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
 
-3. <span data-ttu-id="3af3a-142">انقر فوق **علامة تبويب جديدة**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-142">Click **New tab**.</span></span>
-4. <span data-ttu-id="3af3a-143">ابحث عن علامة التبويب الجديدة التي قمت بإضافتها.</span><span class="sxs-lookup"><span data-stu-id="3af3a-143">Find the new tab that you just added.</span></span> <span data-ttu-id="3af3a-144">قد تحتاج إلى التمرير لأسفل.</span><span class="sxs-lookup"><span data-stu-id="3af3a-144">You may need to scroll down.</span></span>
-5. <span data-ttu-id="3af3a-145">من القائمة المنسدلة **محتويات**، قم بتحديد **المنتجات الموصى بها**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-145">In the **Contents** drop-down, select **Recommended products**.</span></span>
 
-    <span data-ttu-id="3af3a-146">[![تحديد المنتجات الموصى بها في حقل المحتويات](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="3af3a-146">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
+3. <span data-ttu-id="62366-132">انقر فوق **X** للحفظ والخروج من مصمم التخطيط.</span><span class="sxs-lookup"><span data-stu-id="62366-132">Click the **X** to save and exit Layout designer.</span></span>
+4. <span data-ttu-id="62366-133">في Dynamics 365 for Retail، انتقل إلى **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جداول التوزيع**.</span><span class="sxs-lookup"><span data-stu-id="62366-133">In Dynamics 365 for Retail, go to **Retail** &gt; **Retail IT** &gt; **Distribution schedules**.</span></span>
+5. <span data-ttu-id="62366-134">من القائمة المنسدلة، قم بتحديد **سجلات 1090**.</span><span class="sxs-lookup"><span data-stu-id="62366-134">In the list, select **1090 Registers**.</span></span>
+6. <span data-ttu-id="62366-135">انقر فوق **تشغيل الآن**.</span><span class="sxs-lookup"><span data-stu-id="62366-135">Click **Run now**.</span></span>
 
-6. <span data-ttu-id="3af3a-147">في حقل **التسمية** ، اكتب اسمًا لعلامة تبويب التوصيات. على سبيل المثال، اكتب "المنتجات الموصى بها‬".</span><span class="sxs-lookup"><span data-stu-id="3af3a-147">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
-7. <span data-ttu-id="3af3a-148">في حقل **صورة**، قم بتحديد الصورة لتظهر على علامة التبويب.</span><span class="sxs-lookup"><span data-stu-id="3af3a-148">In the **Image** field, select the image to appear on the tab.</span></span>
-8. <span data-ttu-id="3af3a-149">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-149">Click **OK**.</span></span> <span data-ttu-id="3af3a-150">سوف تظهر علامة التبويب الجديدة في شبكة الأزرار.</span><span class="sxs-lookup"><span data-stu-id="3af3a-150">The new tab appears in the button grid.</span></span>
-9. <span data-ttu-id="3af3a-151">انقر فوق **X** للحفظ والخروج من مصمم التخطيط.</span><span class="sxs-lookup"><span data-stu-id="3af3a-151">Click the **X** to save and exit Layout designer.</span></span>
-10. <span data-ttu-id="3af3a-152">في Dynamics 365 for Retail، انتقل إلى **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جداول التوزيع**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-152">In Dynamics 365 for Retail, go to **Retail** &gt; **Retail IT** &gt; **Distribution schedules**.</span></span>
-11. <span data-ttu-id="3af3a-153">من القائمة، حدد  **سجلات 1090**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-153">In the list, select **1090 Registers**.</span></span>
-12. <span data-ttu-id="3af3a-154">انقر فوق **تشغيل الآن**.</span><span class="sxs-lookup"><span data-stu-id="3af3a-154">Click **Run now**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="3af3a-155">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="3af3a-155">Additional resources</span></span>
+### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="62366-136">إضافة علامة تبويب التوصيات إلى شبكة الأزرار على الجانب الأيسر من الشاشة</span><span class="sxs-lookup"><span data-stu-id="62366-136">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
 
-[<span data-ttu-id="3af3a-156">نظرة عامة على توصيات المنتجات المخصصة</span><span class="sxs-lookup"><span data-stu-id="3af3a-156">Personalized product recommendations overview</span></span>](personalized-product-recommendations.md)
+1. <span data-ttu-id="62366-137">انقر بزر الماوس الأيمن فوق المساحة الفارغة أسفل علامة التبويب الأخيرة على شبكة الأزرار الموجودة على الجانب الأيمن من الصفحة.</span><span class="sxs-lookup"><span data-stu-id="62366-137">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
+
+2. <span data-ttu-id="62366-138">انقر فوق **تخصيص‏‎**.</span><span class="sxs-lookup"><span data-stu-id="62366-138">Click **Customize**.</span></span>
+
+    <span data-ttu-id="62366-139">[![التخصيص - مربع حوار عنصر التحكم في التبويب](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="62366-139">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
+
+3. <span data-ttu-id="62366-140">انقر فوق **علامة تبويب جديدة**.</span><span class="sxs-lookup"><span data-stu-id="62366-140">Click **New tab**.</span></span>
+4. <span data-ttu-id="62366-141">ابحث عن علامة التبويب الجديدة التي قمت بإضافتها.</span><span class="sxs-lookup"><span data-stu-id="62366-141">Find the new tab that you just added.</span></span> <span data-ttu-id="62366-142">قد تحتاج إلى التمرير لأسفل.</span><span class="sxs-lookup"><span data-stu-id="62366-142">You may need to scroll down.</span></span>
+5. <span data-ttu-id="62366-143">من القائمة المنسدلة **محتويات**، قم بتحديد **المنتجات الموصى بها**.</span><span class="sxs-lookup"><span data-stu-id="62366-143">In the **Contents** drop-down, select **Recommended products**.</span></span>
+
+    <span data-ttu-id="62366-144">[![تحديد المنتجات الموصى بها في حقل المحتويات](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="62366-144">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
+
+6. <span data-ttu-id="62366-145">في حقل **التسمية** ، اكتب اسمًا لعلامة تبويب التوصيات. على سبيل المثال، اكتب "المنتجات الموصى بها‬".</span><span class="sxs-lookup"><span data-stu-id="62366-145">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
+7. <span data-ttu-id="62366-146">في حقل **صورة**، قم بتحديد الصورة لتظهر على علامة التبويب.</span><span class="sxs-lookup"><span data-stu-id="62366-146">In the **Image** field, select the image to appear on the tab.</span></span>
+8. <span data-ttu-id="62366-147">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="62366-147">Click **OK**.</span></span> <span data-ttu-id="62366-148">سوف تظهر علامة التبويب الجديدة في شبكة الأزرار.</span><span class="sxs-lookup"><span data-stu-id="62366-148">The new tab appears in the button grid.</span></span>
+9. <span data-ttu-id="62366-149">انقر فوق **X** للحفظ والخروج من مصمم التخطيط.</span><span class="sxs-lookup"><span data-stu-id="62366-149">Click the **X** to save and exit Layout designer.</span></span>
+10. <span data-ttu-id="62366-150">في Dynamics 365 for Retail، انتقل إلى **البيع بالتجزئة** &gt; **تكنولوجيا معلومات البيع بالتجزئة** &gt; **جداول التوزيع**.</span><span class="sxs-lookup"><span data-stu-id="62366-150">In Dynamics 365 for Retail, go to **Retail** &gt; **Retail IT** &gt; **Distribution schedules**.</span></span>
+11. <span data-ttu-id="62366-151">من القائمة المنسدلة، قم بتحديد **سجلات 1090**.</span><span class="sxs-lookup"><span data-stu-id="62366-151">In the list, select **1090 Registers**.</span></span>
+12. <span data-ttu-id="62366-152">انقر فوق **تشغيل الآن**.</span><span class="sxs-lookup"><span data-stu-id="62366-152">Click **Run now**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="62366-153">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="62366-153">Additional resources</span></span>
+
+[<span data-ttu-id="62366-154">توصيات المنتجات على نقطة البيع</span><span class="sxs-lookup"><span data-stu-id="62366-154">product recommendations on POS</span></span>](product.md)
+
+[<span data-ttu-id="62366-155">نظرة عامة على توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="62366-155">product recommendations overview</span></span>](../commerce/product-recommendations.md)

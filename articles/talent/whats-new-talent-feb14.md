@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent (14 فبراير 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent (14 فبراير 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/14/2019
@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1db7d032eade3f996e0554e64d6ea0704a347ed8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9f3fa269217bc03a15fde6ee0fc9d0c502c17b3e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517214"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009112"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-14-2019"></a><span data-ttu-id="f52ec-103">ما الجديد أو المتغير في Dynamics 365 for Talent (14 فبراير 2019)</span><span class="sxs-lookup"><span data-stu-id="f52ec-103">What's new or changed in Dynamics 365 for Talent (February 14, 2019)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-14-2019"></a><span data-ttu-id="81d28-103">ما الجديد أو المتغير في Dynamics 365 Talent (14 فبراير 2019)</span><span class="sxs-lookup"><span data-stu-id="81d28-103">What's new or changed in Dynamics 365 Talent (February 14, 2019)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="f52ec-104">يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Talent.</span><span class="sxs-lookup"><span data-stu-id="f52ec-104">This topic describes features that are either new or changed in Talent.</span></span>
+<span data-ttu-id="81d28-104">يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Talent.</span><span class="sxs-lookup"><span data-stu-id="81d28-104">This topic describes features that are either new or changed in Talent.</span></span>
 
-## <a name="changes-in-attract"></a><span data-ttu-id="f52ec-105">التغييرات في Attract</span><span class="sxs-lookup"><span data-stu-id="f52ec-105">Changes in Attract</span></span>
-<span data-ttu-id="f52ec-106">يتضمن هذا الإصدار إصلاحات أخطاء ثانوية أخرى:</span><span class="sxs-lookup"><span data-stu-id="f52ec-106">There are minor bug fixes included with this release.</span></span>
+## <a name="changes-in-attract"></a><span data-ttu-id="81d28-105">التغييرات في Attract</span><span class="sxs-lookup"><span data-stu-id="81d28-105">Changes in Attract</span></span>
+<span data-ttu-id="81d28-106">يتضمن هذا الإصدار إصلاحات أخطاء ثانوية أخرى:</span><span class="sxs-lookup"><span data-stu-id="81d28-106">There are minor bug fixes included with this release.</span></span>
 
-## <a name="changes-in-onboarding"></a><span data-ttu-id="f52ec-107">التغييرات في Onboarding</span><span class="sxs-lookup"><span data-stu-id="f52ec-107">Changes in Onboarding</span></span>
-<span data-ttu-id="f52ec-108">يتضمن هذا الإصدار إصلاحات أخطاء ثانوية أخرى:</span><span class="sxs-lookup"><span data-stu-id="f52ec-108">There are minor bug fixes included with this release.</span></span>
+## <a name="changes-in-onboarding"></a><span data-ttu-id="81d28-107">التغييرات في Onboarding</span><span class="sxs-lookup"><span data-stu-id="81d28-107">Changes in Onboarding</span></span>
+<span data-ttu-id="81d28-108">يتضمن هذا الإصدار إصلاحات أخطاء ثانوية أخرى:</span><span class="sxs-lookup"><span data-stu-id="81d28-108">There are minor bug fixes included with this release.</span></span>
  
-## <a name="changes-in-core-hr"></a><span data-ttu-id="f52ec-109">التغييرات في Core HR</span><span class="sxs-lookup"><span data-stu-id="f52ec-109">Changes in Core HR</span></span> 
-<span data-ttu-id="f52ec-110">**الإصدار 8.1.2146**</span><span class="sxs-lookup"><span data-stu-id="f52ec-110">**Build 8.1.2146**</span></span>
+## <a name="changes-in-core-hr"></a><span data-ttu-id="81d28-109">التغييرات في Core HR</span><span class="sxs-lookup"><span data-stu-id="81d28-109">Changes in Core HR</span></span> 
+<span data-ttu-id="81d28-110">**الإصدار 8.1.2146**</span><span class="sxs-lookup"><span data-stu-id="81d28-110">**Build 8.1.2146**</span></span>
 
-### <a name="employee-fixed-compensation-entity-doesnt-export-all-records"></a><span data-ttu-id="f52ec-111">لا يصدّر الكيان التعويض الثابت للموظفين جميع السجلات</span><span class="sxs-lookup"><span data-stu-id="f52ec-111">Employee fixed compensation entity doesn't export all records</span></span>
-<span data-ttu-id="f52ec-112">نتيجة هذا التغيير، يقوم الآن كيان **التعويض الثابت للموظفين** بتصدير جميع السجلات.</span><span class="sxs-lookup"><span data-stu-id="f52ec-112">With this change, the **Employee fixed compensation** entity will now export all records.</span></span> <span data-ttu-id="f52ec-113">ويمكن استخدام الكيان لإنشاء وتحديث سجلات التعويض الثابت الموجودة للموظفين.</span><span class="sxs-lookup"><span data-stu-id="f52ec-113">The entity can be used to create and update existing fixed compensation records for employees.</span></span> 
+### <a name="employee-fixed-compensation-entity-doesnt-export-all-records"></a><span data-ttu-id="81d28-111">لا يصدّر الكيان التعويض الثابت للموظفين جميع السجلات</span><span class="sxs-lookup"><span data-stu-id="81d28-111">Employee fixed compensation entity doesn't export all records</span></span>
+<span data-ttu-id="81d28-112">نتيجة هذا التغيير، يقوم الآن كيان **التعويض الثابت للموظفين** بتصدير جميع السجلات.</span><span class="sxs-lookup"><span data-stu-id="81d28-112">With this change, the **Employee fixed compensation** entity will now export all records.</span></span> <span data-ttu-id="81d28-113">ويمكن استخدام الكيان لإنشاء وتحديث سجلات التعويض الثابت الموجودة للموظفين.</span><span class="sxs-lookup"><span data-stu-id="81d28-113">The entity can be used to create and update existing fixed compensation records for employees.</span></span> 
 
-### <a name="employment-end-date-doesnt-honor-employee-preferred-time-zone-settings"></a><span data-ttu-id="f52ec-114">لا يراعي تاريخ انتهاء التوظيف إعدادات المنطقة الزمنية المفضلة للموظف</span><span class="sxs-lookup"><span data-stu-id="f52ec-114">Employment end date doesn't honor employee preferred time zone settings</span></span>
-<span data-ttu-id="f52ec-115">تراعي الآن تواريخ انتهاء التوظيف المنطقة الزمنية المفضلة للمستخدم عند إنشاء أو إنهاء توظيف مع شركة.</span><span class="sxs-lookup"><span data-stu-id="f52ec-115">Employment end dates are now honoring the user-preferred time zone when creating or ending employment with a company.</span></span>
+### <a name="employment-end-date-doesnt-honor-employee-preferred-time-zone-settings"></a><span data-ttu-id="81d28-114">لا يراعي تاريخ انتهاء التوظيف إعدادات المنطقة الزمنية المفضلة للموظف</span><span class="sxs-lookup"><span data-stu-id="81d28-114">Employment end date doesn't honor employee preferred time zone settings</span></span>
+<span data-ttu-id="81d28-115">تراعي الآن تواريخ انتهاء التوظيف المنطقة الزمنية المفضلة للمستخدم عند إنشاء أو إنهاء توظيف مع شركة.</span><span class="sxs-lookup"><span data-stu-id="81d28-115">Employment end dates are now honoring the user-preferred time zone when creating or ending employment with a company.</span></span>
  
-### <a name="uk-addresses-display-in-analytics-as-eastern-switzerland-addresses"></a><span data-ttu-id="f52ec-116">تظهر عناوين المملكة المتحدة في صفحة التحليلات كعناوين سويسرية</span><span class="sxs-lookup"><span data-stu-id="f52ec-116">UK addresses display in Analytics as Eastern Switzerland addresses</span></span>
-<span data-ttu-id="f52ec-117">في هذا الإصدار، تم إجراء تغيير لتصحيح الترتيب الخاطئ في العناوين في التقرير "عدد الموظفين بالموقع" في **إدارة الأفراد**.</span><span class="sxs-lookup"><span data-stu-id="f52ec-117">In this release, a change has been made to correct misalignment in addresses in the **Personnel Management** "Headcount by location" report.</span></span>
+### <a name="uk-addresses-display-in-analytics-as-eastern-switzerland-addresses"></a><span data-ttu-id="81d28-116">تظهر عناوين المملكة المتحدة في صفحة التحليلات كعناوين سويسرية</span><span class="sxs-lookup"><span data-stu-id="81d28-116">UK addresses display in Analytics as Eastern Switzerland addresses</span></span>
+<span data-ttu-id="81d28-117">في هذا الإصدار، تم إجراء تغيير لتصحيح الترتيب الخاطئ في العناوين في التقرير "عدد الموظفين بالموقع" في **إدارة الأفراد**.</span><span class="sxs-lookup"><span data-stu-id="81d28-117">In this release, a change has been made to correct misalignment in addresses in the **Personnel Management** "Headcount by location" report.</span></span>
  
-### <a name="termination-code-is-not-populated-on-the-worker-position-assignment-record-when-ending-the-position"></a><span data-ttu-id="f52ec-118">عدم تعبئة كود الإنهاء في سجل تعيين منصب العامل‬ عند إنهاء المنصب</span><span class="sxs-lookup"><span data-stu-id="f52ec-118">Termination code is not populated on the worker position assignment record when ending the position</span></span>
-<span data-ttu-id="f52ec-119">تم إجراء تغيير على كود "سبب الإنهاء" الافتراضي عند إنهاء تعيين المناصب للموظفين.</span><span class="sxs-lookup"><span data-stu-id="f52ec-119">A change has been made to default the "Termination reason" code when ending the employees position assignment.</span></span>
+### <a name="termination-code-is-not-populated-on-the-worker-position-assignment-record-when-ending-the-position"></a><span data-ttu-id="81d28-118">عدم تعبئة كود الإنهاء في سجل تعيين منصب العامل‬ عند إنهاء المنصب</span><span class="sxs-lookup"><span data-stu-id="81d28-118">Termination code is not populated on the worker position assignment record when ending the position</span></span>
+<span data-ttu-id="81d28-119">تم إجراء تغيير على كود "سبب الإنهاء" الافتراضي عند إنهاء تعيين المناصب للموظفين.</span><span class="sxs-lookup"><span data-stu-id="81d28-119">A change has been made to default the "Termination reason" code when ending the employees position assignment.</span></span>
 
-### <a name="new-entity-created-for-job-compensation-levels"></a><span data-ttu-id="f52ec-120">إنشاء كيان جديد لمستويات تعويض الوظيفة</span><span class="sxs-lookup"><span data-stu-id="f52ec-120">New entity created for job compensation levels</span></span>
-<span data-ttu-id="f52ec-121">تم إنشاء إطار عمل جديد لإدارة البيانات (DMF).</span><span class="sxs-lookup"><span data-stu-id="f52ec-121">A new data management framework (DMF) entity was created.</span></span> <span data-ttu-id="f52ec-122">يوفر الكيان العنصر اللازمة لإنشاء وتحديث مستويات التعويض وقيم السوق ومعلومات الاستطلاع لكل وظيفة معرّفة في النظام.</span><span class="sxs-lookup"><span data-stu-id="f52ec-122">The entity provides for creation and updates to compensation levels, market values, and survey information for each job defined in the system.</span></span>
+### <a name="new-entity-created-for-job-compensation-levels"></a><span data-ttu-id="81d28-120">إنشاء كيان جديد لمستويات تعويض الوظيفة</span><span class="sxs-lookup"><span data-stu-id="81d28-120">New entity created for job compensation levels</span></span>
+<span data-ttu-id="81d28-121">تم إنشاء إطار عمل جديد لإدارة البيانات (DMF).</span><span class="sxs-lookup"><span data-stu-id="81d28-121">A new data management framework (DMF) entity was created.</span></span> <span data-ttu-id="81d28-122">يوفر الكيان العنصر اللازمة لإنشاء وتحديث مستويات التعويض وقيم السوق ومعلومات الاستطلاع لكل وظيفة معرّفة في النظام.</span><span class="sxs-lookup"><span data-stu-id="81d28-122">The entity provides for creation and updates to compensation levels, market values, and survey information for each job defined in the system.</span></span>

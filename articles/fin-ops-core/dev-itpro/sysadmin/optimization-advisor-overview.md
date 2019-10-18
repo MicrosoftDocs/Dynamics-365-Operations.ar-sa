@@ -1,0 +1,97 @@
+---
+title: نظرة عامة حول مرشد التحسين
+description: يصف هذا الموضوع كيفية استخدام مرشد التحسين الأداء للمساعدة في ضمان التكوين الأمثل لتطبيق Finance and Operations.
+author: roxanadiaconu
+manager: AnnBe
+ms.date: 07/23/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SelfHealingWorkspace
+audience: Application User, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Operations, Core
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: ''
+ms.author: roxanad
+ms.search.validFrom: 2017-12-01
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2191398"
+---
+# <a name="optimization-advisor-overview"></a><span data-ttu-id="827eb-103">نظرة عامة حول مرشد التحسين</span><span class="sxs-lookup"><span data-stu-id="827eb-103">Optimization advisor overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="827eb-104">يصف هذا الموضوع كيفية استخدام مرشد التحسين الأداء للمساعدة في ضمان التكوين الأمثل لتطبيق Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="827eb-104">This topic describes how you can use Optimization advisor to help ensure optimal configuration of Finance and Operations.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="827eb-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="827eb-105">Overview</span></span>
+
+<span data-ttu-id="827eb-106">يمكن أن يؤثر الإعداد والتكوين غير الصحيحين للوحدة سلبًا على توافر ميزات التطبيق وأداء النظام والتنفيذ السلس للعمليات التجارية.</span><span class="sxs-lookup"><span data-stu-id="827eb-106">Incorrect configuration and setup of a module can adversely affect the availability of application features, system performance, and the smooth operation of business processes.</span></span> <span data-ttu-id="827eb-107">كما تؤثر نوعية بيانات العمل (على سبيل المثال، صحة واكتمال ونظافة البيانات) على أداء النظام، وإمكانات اتخاذ القرارات في المؤسسة، والإنتاجية، وما إلى ذلك.</span><span class="sxs-lookup"><span data-stu-id="827eb-107">The quality of business data (for example, the correctness, completeness, and cleanliness of the data) also affects system performance, and an organization's decision-making capabilities, productivity, and so on.</span></span>
+
+<span data-ttu-id="827eb-108">مساحة عمل **مرشد التحسين** عبارة عن أداة تتيح للمستخدمين المحترفين أو محللي الأعمال التجارية والمستشارين الوظيفيين ووظائف دعم تكنولوجيا المعلومات التعرف على المشكلات في تكوين الوحدة وبيانات الأعمال.</span><span class="sxs-lookup"><span data-stu-id="827eb-108">The **Optimization advisor** workspace is a tool that lets power users, business analysts, functional consultants, and IT support functions identify issues in module configuration and business data.</span></span> <span data-ttu-id="827eb-109">يقترح مرشد تحسين الأداء أفضل الممارسات لتكوين الوحدة وتحديد بيانات العمل القديمة أو غير الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="827eb-109">Optimization advisor suggests best practices for module configuration and identifies business data that is obsolete or incorrect.</span></span>
+
+<span data-ttu-id="827eb-110">يقوم مرشد تحسين الأداء بشكل دوري بتشغيل مجموعة من قواعد أفضل الممارسات.</span><span class="sxs-lookup"><span data-stu-id="827eb-110">Optimization advisor periodically runs a set of best practice rules.</span></span> <span data-ttu-id="827eb-111">تتوافر مجموعة افتراضية من القواعد، ومع ذلك، يستطيع المستخدمون أيضًا إنشاء القواعد الخاصة بتخصيصاتهم وحلولهم من بائعي البرامج المستقلين (ISVs) وبيانات العمل.</span><span class="sxs-lookup"><span data-stu-id="827eb-111">A default set of rules is available, however users can also create rules that are specific to their customizations, solutions from independent software vendors (ISVs), and business data.</span></span> <span data-ttu-id="827eb-112">لمزيد من المعلومات حول كيفية إنشاء القواعد، راجع [إنشاء قواعد جديدة](./create-rules-optimization-advisor.md).</span><span class="sxs-lookup"><span data-stu-id="827eb-112">For more information about how to create rules, see [Create new rules](./create-rules-optimization-advisor.md).</span></span>
+
+<span data-ttu-id="827eb-113">عندما يتم الكشف عن حدوث انتهاك لقاعدة، يتم إنشاء فرصة تحسين وتظهر في مساحة عمل **مرشد التحسين**.</span><span class="sxs-lookup"><span data-stu-id="827eb-113">When a violation of a rule is detected, an optimization opportunity is generated and appears in the **Optimization advisor** workspace.</span></span> <span data-ttu-id="827eb-114">يستطيع مستخدم اتخاذ الإجراء التصحيحي المناسب مباشرةً من مساحة عمل **مرشد التحسين**.</span><span class="sxs-lookup"><span data-stu-id="827eb-114">A user can take appropriate corrective action directly from the **Optimization advisor** workspace.</span></span>
+
+<span data-ttu-id="827eb-115">يمكن أن تكون الفرص خاصة بالشركة أو بين الشركات، استناداً إلى نوع الإعداد والبيانات التي يتم التحقق من صحتها.</span><span class="sxs-lookup"><span data-stu-id="827eb-115">Opportunities can be company-specific or cross-company, depending on the type of setup and data that is being validated.</span></span> <span data-ttu-id="827eb-116">يمكن عرض الفرص بين الشركات من جميع الشركات.</span><span class="sxs-lookup"><span data-stu-id="827eb-116">Cross-company opportunities can be viewed from all companies.</span></span> <span data-ttu-id="827eb-117">لعرض جميع الفرص لشركة معينة، يجب عليك أولاً تحديد الشركة.</span><span class="sxs-lookup"><span data-stu-id="827eb-117">To view the opportunities for a specific company, you must first select the company.</span></span>
+
+<span data-ttu-id="827eb-118">يتم تطبيق نُهج الأمان القياسية على فرص تحسين الأداء.</span><span class="sxs-lookup"><span data-stu-id="827eb-118">Standard security policies apply to optimization opportunities.</span></span> <span data-ttu-id="827eb-119">على سبيل المثال، تظهر فرص التحسين المتعلقة بتكوين وحدة **إدارة المستودعات** فقط للمستخدمين الذين لديهم حق الوصول إلى إدارة المستودعات ويمكنهم تغيير الإعداد الخاص بها.</span><span class="sxs-lookup"><span data-stu-id="827eb-119">For example, the optimization opportunities that are related to configuration of the **Warehouse management** module are visible only to users who have access to Warehouse management and can change its setup.</span></span>
+
+<span data-ttu-id="827eb-120">عندما تقوم بإجراء في بعض فرص تحسين الأداء، يقوم النظام بحساب تأثير الفرصة فيما يتعلق بنسبة التخفيض في وقت التشغيل للعمليات التجارية.</span><span class="sxs-lookup"><span data-stu-id="827eb-120">When you take action on some optimization opportunities, the system calculates the impact of the opportunity in terms of the reduction in the runtime of business processes.</span></span> <span data-ttu-id="827eb-121">لسوء الحظ، هذه الميزة غير متوفرة لجميع فرص تحسين الأداء.</span><span class="sxs-lookup"><span data-stu-id="827eb-121">Unfortunately, this feature isn't available for all optimization opportunities.</span></span>
+
+<span data-ttu-id="827eb-122">لمزيد من المعلومات حول مرشد التحسين، شاهد مقطع الفيديو القصير [مرشد التحسين في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).</span><span class="sxs-lookup"><span data-stu-id="827eb-122">To learn more about Optimization advisor, watch the short [Optimization advisor in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ) video.</span></span>
+
+## <a name="optimization-rules"></a><span data-ttu-id="827eb-123">قواعد التحسين</span><span class="sxs-lookup"><span data-stu-id="827eb-123">Optimization rules</span></span>
+
+<span data-ttu-id="827eb-124">لعرض القائمة الكاملة بقواعد مرشد تحسين الأداء ومعرفة عدد مرات تقييم القواعد، انتقل إلى **إدارة النظام**&gt;**المهام الدورية**&gt;**الاحتفاظ بقاعدة التحقق من صحة التشخيصات**.</span><span class="sxs-lookup"><span data-stu-id="827eb-124">To view the complete list of Optimization advisor rules and to see how often the rules are evaluated, go to **System administration** &gt; **Periodic tasks** &gt; **Maintain diagnostics validation rule**.</span></span> <span data-ttu-id="827eb-125">يتم تقييم القواعد التي تكون حالتها **نشطة** فقط.</span><span class="sxs-lookup"><span data-stu-id="827eb-125">Only rules that have a status of **Active** are evaluated.</span></span> <span data-ttu-id="827eb-126">يمكن تعيين معدل تكرار التقييم إلى **يومي** أو **أسبوعي** أو **شهري** أو **غير مجدول**.</span><span class="sxs-lookup"><span data-stu-id="827eb-126">The evaluation frequency can be set to **Daily**, **Weekly**, **Monthly**, or **Unscheduled**.</span></span>
+
+<span data-ttu-id="827eb-127">لتشغيل تقييم القواعد غير المجدولة، أو لإعادة تقييم القواعد الدورية خارج جداولهم المحددة مسبقًا، انتقل إلى **إدارة النظام**&gt;**المهام الدورية**&gt;**جدولة قاعدة التحقق من صحة التشخصيات**.</span><span class="sxs-lookup"><span data-stu-id="827eb-127">To trigger the evaluation of unscheduled rules, or to reevaluate periodic rules outside their predefined schedule, go to **System administration** &gt; **Periodic tasks** &gt; **Schedule diagnostics validation rule**.</span></span> <span data-ttu-id="827eb-128">بعد ذلك، في مربع الحوار **التحقق من صحة قواعد التشخيص**، حدد تكرار تقييم.</span><span class="sxs-lookup"><span data-stu-id="827eb-128">Then, in the **Diagnostic rule validation** dialog box, select an evaluation frequency.</span></span> <span data-ttu-id="827eb-129">ستتم إعادة تقييم جميع القواعد التي تحتوي على التكرار المحدد.</span><span class="sxs-lookup"><span data-stu-id="827eb-129">All rules that have the specified frequency will be reevaluated.</span></span>
+
+<span data-ttu-id="827eb-130">يمكن تقسيم المجموعة الحالية من قواعد التحسين ضمن الفئات التالية.</span><span class="sxs-lookup"><span data-stu-id="827eb-130">The current set of optimization rules can be divided into the following categories.</span></span>
+
+### <a name="module-configuration-and-setup"></a><span data-ttu-id="827eb-131">تكوين الوحدة وإعدادها</span><span class="sxs-lookup"><span data-stu-id="827eb-131">Module configuration and setup</span></span>
+
+<span data-ttu-id="827eb-132">إعداد إدارة المستودعات عبارة عن عملية معقدة.</span><span class="sxs-lookup"><span data-stu-id="827eb-132">The setup of Warehouse management is a complicated process.</span></span> <span data-ttu-id="827eb-133">لتسهيل العملية، تم تقديم بعض القواعد للمساعدة في التحقق من صحة الإعداد.</span><span class="sxs-lookup"><span data-stu-id="827eb-133">To make the process easier, some rules have been introduced to help validate the correctness of the setup.</span></span> <span data-ttu-id="827eb-134">على سبيل المثال، تتحقق قاعدة واحدة من صحة إعداد موجهات مواقع المستودعات لمواقع متغيرات المنتجات الثابتة الخاصة بأوامر المبيعات وأوامر التحويل.</span><span class="sxs-lookup"><span data-stu-id="827eb-134">For example, one rule validates the setup of warehouse location directives for fixed product variant locations for sales orders and transfer orders.</span></span>
+
+<span data-ttu-id="827eb-135">بالإضافة إلى ذلك، تتحقق بعض القواعد مما إذا كان يتم استخدام الميزات التي تم تمكينها فعلياً.</span><span class="sxs-lookup"><span data-stu-id="827eb-135">Additionally, some rules check whether features that have been enabled are actually used.</span></span> <span data-ttu-id="827eb-136">على سبيل المثال، تحدد قاعدة واحدة ما إذا كنت تستخدم وحدة **التخطيط الرئيسي**.</span><span class="sxs-lookup"><span data-stu-id="827eb-136">For example, one rule determines whether you're using the **Master planning** module.</span></span> <span data-ttu-id="827eb-137">إذا حددت القاعدة أنك لا تستخدم الوحدة، يتم إنشاء فرصة تحسين لاقتراح أنه يمكنك إيقاف تشغيل عمليات التخطيط.</span><span class="sxs-lookup"><span data-stu-id="827eb-137">If the rule determines that you aren't using the module, an optimization opportunity is generated to suggest that you turn off the planning processes.</span></span>
+
+### <a name="system-configuration"></a><span data-ttu-id="827eb-138">تكوين النظام</span><span class="sxs-lookup"><span data-stu-id="827eb-138">System configuration</span></span>
+
+<span data-ttu-id="827eb-139">إذا لم يتم استخدام وظيفة محددة يتم التحكم فيها من خلال مفتاح تكوين، يتم إنشاء فرصة تحسين أداء لاقتراح أن تعطل مفتاح التكوين.</span><span class="sxs-lookup"><span data-stu-id="827eb-139">If specific functionality that is controlled by a configuration key isn't used, an optimization opportunity is generated to suggest that you disable the configuration key.</span></span> <span data-ttu-id="827eb-140">تتضمن أمثلة مفاتيح التكوين **وزن التعبئة**، و**تخطيط الموازنة**، و**المشروع**، و**قائمة الموردين المعتمدين**.</span><span class="sxs-lookup"><span data-stu-id="827eb-140">Examples of configuration keys include **Catch weight**, **Budget planning**, **Project**, and **Approved vendor list**.</span></span>
+
+### <a name="business-data-consistency-and-cleanup"></a><span data-ttu-id="827eb-141">تناسق بيانات الأعمال وتنظيفها</span><span class="sxs-lookup"><span data-stu-id="827eb-141">Business data consistency and cleanup</span></span>
+
+<span data-ttu-id="827eb-142">إذا لم تكن البيانات الرئيسية صحيحة (على سبيل المثال، إذا كانت لديك عمليات تحويل وحدة قياس للوحدات التي لم يكن قد تم تحديدها، أو إذا كانت لديك تحويلات وحدة قياس تشتمل على القسمة على 0 \[صفر\])، يتم إنشاء فرصة تحسين أداء لاقتراح أن تقوم بتصحيح البيانات.</span><span class="sxs-lookup"><span data-stu-id="827eb-142">If master data isn't correct (for example, if you have unit of measure conversions for units that haven't been defined, or if you have unit of measure conversions that have a division by 0 \[zero\]), an optimization opportunity is generated to suggest that you correct the data.</span></span> 
+
+<span data-ttu-id="827eb-143">إذا كان لديك عدد كبير جداً من إدخالات محفوظات الوظائف الدفعية، والعناصر القديمة، والإدخالات الفعلية المقفلة للعناصر الممكّنة للمستودع، وما إلى ذلك، أو إذا كانت هذه الإدخالات والعناصر قديمة جداً، يتم إنشاء فرص تحسين الأداء لاقتراح أن تقوم بتنظيف البيانات.</span><span class="sxs-lookup"><span data-stu-id="827eb-143">If you have too many batch job history entries, obsolete items, closed on-hand entries for warehouse enabled items, and so on, or if those entries and items are too old, optimization opportunities are generated to suggest that you clean up the data.</span></span> <span data-ttu-id="827eb-144">عن طريق الحفاظ على تنظيف البيانات الخاصة بك، يمكنك المساعدة في تحسين الأداء العام للنظام.</span><span class="sxs-lookup"><span data-stu-id="827eb-144">By keeping your data clean, you can help improve overall system performance.</span></span>
+
+### <a name="best-practices"></a><span data-ttu-id="827eb-145">أفضل الممارسات</span><span class="sxs-lookup"><span data-stu-id="827eb-145">Best practices</span></span>
+
+<span data-ttu-id="827eb-146">في حال عدم تشغيل بعض العمليات التجارية وفقًا لأفضل الممارسات (على سبيل المثال، إذا قمت بتشغيل إقفال مسبق للمخزون قبل إقفال المخزون، أو إذا كنت تستخدم الدفعة المجدولة لتحويل دفعة دفتر يومية دفتر الأستاذ الفرعي)، تُعلمك فرص تحسين عن أفضل ممارسة وتطلب منك اتباعها.</span><span class="sxs-lookup"><span data-stu-id="827eb-146">If you aren't running some business processes according to best practices (for example, if you run inventory pre-closing before the inventory is closed, or if you use the scheduled batch for subledger journal batch transfer), optimization opportunities inform you about the best practice and ask that you follow it.</span></span>
+
+## <a name="optimization-opportunities"></a><span data-ttu-id="827eb-147">فرص التحسين</span><span class="sxs-lookup"><span data-stu-id="827eb-147">Optimization opportunities</span></span>
+
+<span data-ttu-id="827eb-148">لعرض فرص التحسين التي يتم إنشاؤها أثناء تقييم قواعد تحسين الأداء، افتح مساحة عمل **مرشد التحسين**.</span><span class="sxs-lookup"><span data-stu-id="827eb-148">To view the optimization opportunities that are generated during the evaluation of optimization rules, open the **Optimization advisor** workspace.</span></span>
+
+<span data-ttu-id="827eb-149">في مساحة العمل هذه، يمكنك عرض مزيد من المعلومات حول إحدى الفرص عن طريق تحديد **مزيد من المعلومات**.</span><span class="sxs-lookup"><span data-stu-id="827eb-149">In this workspace, you can view more information about an opportunity by selecting **More information**.</span></span> <span data-ttu-id="827eb-150">إذا كنت تريد للنظام للقيام بإجراء وتصحيح الإعداد وتنظيف البيانات، وهكذا، حتى لا تضطر إلى فتح الصفحات المناسبة بنفسك، فحدد **القيام بإجراء**.</span><span class="sxs-lookup"><span data-stu-id="827eb-150">If you want the system to take action and correct the setup, clean the data, and so on, so that you don't have to open the corresponding pages yourself, select **Take action**.</span></span>
+
+<span data-ttu-id="827eb-151">لا يوجد أي سير عمل لفرص التحسين.</span><span class="sxs-lookup"><span data-stu-id="827eb-151">There is no workflow for optimization opportunities.</span></span> <span data-ttu-id="827eb-152">بعد تحديد **القيام بإجراء** أو استخدام مسار تنقل موفر في مربع الحوار **مزيد من المعلومات**، تختفي فرصة التحسين من القائمة.</span><span class="sxs-lookup"><span data-stu-id="827eb-152">After you select **Take action** or use a navigation path that is provided in the **More information** dialog box, the optimization opportunity disappears from the list.</span></span> <span data-ttu-id="827eb-153">إذا لم يؤدي الإجراء التصحيحي إلى حل مشكلة بالكامل، فسيتم إنشاء الفرصة مرة أخرى في المرة التالية التي يتم فيها تقييم القاعدة.</span><span class="sxs-lookup"><span data-stu-id="827eb-153">If the corrective action doesn't completely resolve an issue, the opportunity will be generated again the next time that the rule is evaluated.</span></span>
+
+<span data-ttu-id="827eb-154">إذا كانت فرصة لا تنطبق على الدور الخاص بك، فيمكنك تحديد **إخفاء من قائمتي**.</span><span class="sxs-lookup"><span data-stu-id="827eb-154">If an opportunity doesn't apply to your role, you can select **Hide from my list**.</span></span> <span data-ttu-id="827eb-155">حتى إذا تم تشغيل القاعدة وراء هذه الفرصة مرة أخرى لاحقاً، فلن ترى الفرصة في القائمة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="827eb-155">Even if the rule behind this opportunity is triggered again later, you won't see the opportunity in your list.</span></span>
+
+<span data-ttu-id="827eb-156">لإلغاء تنشيط تقييم قواعد معينة، حدد الفرصة التي تم إنشاؤها بواسطة القاعدة، ثم حدد **إلغاء تنشيط تحليل**.</span><span class="sxs-lookup"><span data-stu-id="827eb-156">To deactivate the evaluation of specific rules, select the opportunity that was generated by the rule, and then select **Deactivate analysis**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="827eb-157">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="827eb-157">Additional resources</span></span>
+
+[<span data-ttu-id="827eb-158">إنشاء قواعد جديدة</span><span class="sxs-lookup"><span data-stu-id="827eb-158">Create new rules</span></span>](./create-rules-optimization-advisor.md)
+
+[<span data-ttu-id="827eb-159">مرشد التحسين في Dynamics 365 for Finance and Operations (فيديو)</span><span class="sxs-lookup"><span data-stu-id="827eb-159">Optimization advisor in Dynamics 365 for Finance and Operations (Video)</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

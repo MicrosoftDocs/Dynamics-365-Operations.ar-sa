@@ -3,7 +3,7 @@ title: إنشاء أوامر العمل
 description: يوضح هذا الموضوع كيفية إنشاء أوامر العمل في إدارة الأصول.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,41 +16,39 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b23ed3251b2f6cf4f34b423ce2f85301d6ab31a1
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 0a348bc9b7f5a24c5a3ac57113d430a92020b893
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875478"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922104"
 ---
-# <a name="creating-work-orders"></a><span data-ttu-id="b1244-103">إنشاء أوامر العمل</span><span class="sxs-lookup"><span data-stu-id="b1244-103">Creating work orders</span></span>
-
+# <a name="creating-work-orders"></a><span data-ttu-id="f9749-103">إنشاء أوامر العمل</span><span class="sxs-lookup"><span data-stu-id="f9749-103">Creating work orders</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
 
+<span data-ttu-id="f9749-104">عندما تنتهي من جدولة مهام الصيانة الوقائية، فإن الخطوة التالية هي إنشاء أوامر عمل للمهام.</span><span class="sxs-lookup"><span data-stu-id="f9749-104">When you have scheduled preventive maintenance jobs, next step is to create work orders for the jobs.</span></span> <span data-ttu-id="f9749-105">ويتم ذلك في أحد جداول الصيانة.</span><span class="sxs-lookup"><span data-stu-id="f9749-105">This is done in one of the maintenance schedules.</span></span> <span data-ttu-id="f9749-106">قد تتوفر أنواع مراجع مختلفة للمهام المجدولة في جدول صيانة:</span><span class="sxs-lookup"><span data-stu-id="f9749-106">The scheduled jobs in a maintenance schedule can have different reference types:</span></span>
 
-<span data-ttu-id="b1244-104">عندما تنتهي من جدولة مهام الصيانة الوقائية، فإن الخطوة التالية هي إنشاء أوامر عمل للمهام.</span><span class="sxs-lookup"><span data-stu-id="b1244-104">When you have scheduled preventive maintenance jobs, next step is to create work orders for the jobs.</span></span> <span data-ttu-id="b1244-105">ويتم ذلك في أحد جداول الصيانة.</span><span class="sxs-lookup"><span data-stu-id="b1244-105">This is done in one of the maintenance schedules.</span></span> <span data-ttu-id="b1244-106">قد تتوفر أنواع مراجع مختلفة للمهام المجدولة في جدول صيانة:</span><span class="sxs-lookup"><span data-stu-id="b1244-106">The scheduled jobs in a maintenance schedule can have different reference types:</span></span>
-
-| <span data-ttu-id="b1244-107">نوع المرجع</span><span class="sxs-lookup"><span data-stu-id="b1244-107">Reference type</span></span> | <span data-ttu-id="b1244-108">الوصف</span><span class="sxs-lookup"><span data-stu-id="b1244-108">Description</span></span>                    |
+| <span data-ttu-id="f9749-107">نوع المرجع</span><span class="sxs-lookup"><span data-stu-id="f9749-107">Reference type</span></span> | <span data-ttu-id="f9749-108">الوصف</span><span class="sxs-lookup"><span data-stu-id="f9749-108">Description</span></span>                    |
 |-----------------------|------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="b1244-109">خطط الصيانة</span><span class="sxs-lookup"><span data-stu-id="b1244-109">Maintenance plans</span></span>     | <span data-ttu-id="b1244-110">مهام الصيانة الوقائية التي تعتمد على أنواع خطط الصيانة "الوقت" أو "العداد".</span><span class="sxs-lookup"><span data-stu-id="b1244-110">Preventive maintenance jobs based on maintenance plan types "Time" or "Counter".</span></span>                       |
-| <span data-ttu-id="b1244-111">دورات الصيانة</span><span class="sxs-lookup"><span data-stu-id="b1244-111">Maintenance rounds</span></span>    | <span data-ttu-id="b1244-112">مهام الصيانة الوقائية التي تحتوي على عدد كبير من الأصول التي تحتاج إلى نوع صيانة مماثل.</span><span class="sxs-lookup"><span data-stu-id="b1244-112">Preventive maintenance jobs containing several assets that require a similar type of maintenance.</span></span>           |
-| <span data-ttu-id="b1244-113">طلب الصيانة</span><span class="sxs-lookup"><span data-stu-id="b1244-113">Maintenance request</span></span>   | <span data-ttu-id="b1244-114">طلب تم إنشاؤه يدويًا لصيانة أصل أو إصلاحه، يمكن تحويله إلى أمر عمل.</span><span class="sxs-lookup"><span data-stu-id="b1244-114">Manually created request for maintenance or repair of an asset, which can be converted into a work order.</span></span> |
+| <span data-ttu-id="f9749-109">خطط الصيانة</span><span class="sxs-lookup"><span data-stu-id="f9749-109">Maintenance plans</span></span>     | <span data-ttu-id="f9749-110">مهام الصيانة الوقائية التي تعتمد على أنواع خطط الصيانة "الوقت" أو "العداد".</span><span class="sxs-lookup"><span data-stu-id="f9749-110">Preventive maintenance jobs based on maintenance plan types "Time" or "Counter".</span></span>                       |
+| <span data-ttu-id="f9749-111">دورات الصيانة</span><span class="sxs-lookup"><span data-stu-id="f9749-111">Maintenance rounds</span></span>    | <span data-ttu-id="f9749-112">مهام الصيانة الوقائية التي تحتوي على عدد كبير من الأصول التي تحتاج إلى نوع صيانة مماثل.</span><span class="sxs-lookup"><span data-stu-id="f9749-112">Preventive maintenance jobs containing several assets that require a similar type of maintenance.</span></span>           |
+| <span data-ttu-id="f9749-113">طلب الصيانة</span><span class="sxs-lookup"><span data-stu-id="f9749-113">Maintenance request</span></span>   | <span data-ttu-id="f9749-114">طلب تم إنشاؤه يدويًا لصيانة أصل أو إصلاحه، يمكن تحويله إلى أمر عمل.</span><span class="sxs-lookup"><span data-stu-id="f9749-114">Manually created request for maintenance or repair of an asset, which can be converted into a work order.</span></span> |
 
 
-1. <span data-ttu-id="b1244-115">انقر فوق **إدارة الأصول** > **عام‏‎‏‎** > **جدول الصيانة بكامله** أو **بنود جدول الصيانة المفتوحة** أو **مجموعات جداول الصيانة المفتوحة**.</span><span class="sxs-lookup"><span data-stu-id="b1244-115">Click **Asset management** > **Common** > **All maintenance schedule** or **Open maintenance schedule lines** or **Open maintenance schedule pools**.</span></span>
+1. <span data-ttu-id="f9749-115">انقر فوق **إدارة الأصول** > **عام‏‎‏‎** > **جدول الصيانة بكامله** أو **بنود جدول الصيانة المفتوحة** أو **مجموعات جداول الصيانة المفتوحة**.</span><span class="sxs-lookup"><span data-stu-id="f9749-115">Click **Asset management** > **Common** > **All maintenance schedule** or **Open maintenance schedule lines** or **Open maintenance schedule pools**.</span></span>
 
-2. <span data-ttu-id="b1244-116">حدد مهام الصيانة المجدولة التي تريد إنشاء أمر عمل لها، ثم انقر فوق **أمر العمل**.</span><span class="sxs-lookup"><span data-stu-id="b1244-116">Select the scheduled maintenance jobs for which you want to create a work order and click **Work order**.</span></span> <span data-ttu-id="b1244-117">يظهر العدد الإجمالي لساعات التنبؤ للبنود المحددة في الحقل **ساعات التنبؤ بمتطلبات الصيانة**.</span><span class="sxs-lookup"><span data-stu-id="b1244-117">The total number of forecast hours for the selected lines is shown in the **Maintenance forecast hours** field.</span></span>
+2. <span data-ttu-id="f9749-116">حدد مهام الصيانة المجدولة التي تريد إنشاء أمر عمل لها، ثم انقر فوق **أمر العمل**.</span><span class="sxs-lookup"><span data-stu-id="f9749-116">Select the scheduled maintenance jobs for which you want to create a work order and click **Work order**.</span></span> <span data-ttu-id="f9749-117">في مربع الحوار **إنشاء أوامر عمل**، يظهر العدد الإجمالي لساعات التنبؤ للبنود المحددة في الحقل **ساعات التنبؤ بمتطلبات الصيانة**.</span><span class="sxs-lookup"><span data-stu-id="f9749-117">In the **Create work orders** dialog, the total number of forecast hours for the selected lines is shown in the **Maintenance forecast hours** field.</span></span>
 
-3. <span data-ttu-id="b1244-118">في قسم **المعلمات**، حدد عدد أوامر العمل التي يجب إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="b1244-118">In the **Parameters** section, select how many work orders should be created.</span></span> <span data-ttu-id="b1244-119">يمكنك إنشاء أمر عمل واحد لكل بند من بنود جدول الصيانة، أو عدد من أوامر العمل التي تستند إلى تحديداتك في قسم **أمر عمل واحد لكل**.</span><span class="sxs-lookup"><span data-stu-id="b1244-119">You can create one work order per maintenance schedule line, or a number of work orders based on your selections in the **One work order per** section.</span></span>
+3. <span data-ttu-id="f9749-118">في قسم **المعلمات**، حدد عدد أوامر العمل التي يجب إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="f9749-118">In the **Parameters** section, select how many work orders should be created.</span></span> <span data-ttu-id="f9749-119">يمكنك إنشاء أمر عمل واحد لكل بند من بنود جدول الصيانة، أو عدد من أوامر العمل التي تستند إلى تحديداتك في قسم **أمر عمل واحد لكل**.</span><span class="sxs-lookup"><span data-stu-id="f9749-119">You can create one work order per maintenance schedule line, or a number of work orders based on your selections in the **One work order per** section.</span></span>
 
-4. <span data-ttu-id="b1244-120">حدد **نوع أمر العمل** الذي سيتم استخدامه في كافة أوامر العمل التي تقوم بإنشائها.</span><span class="sxs-lookup"><span data-stu-id="b1244-120">Select a **Work order type** that will be used on all the work orders you create.</span></span>
-
-5. <span data-ttu-id="b1244-121">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="b1244-121">Click **OK**.</span></span> <span data-ttu-id="b1244-122">يتم إنشاء أمر عمل واحد أو أكثر.</span><span class="sxs-lookup"><span data-stu-id="b1244-122">One or more work orders are created.</span></span>
+4. <span data-ttu-id="f9749-120">حدد **نوع أمر العمل** الذي سيتم استخدامه في كافة أوامر العمل التي تقوم بإنشائها.</span><span class="sxs-lookup"><span data-stu-id="f9749-120">Select a **Work order type** that will be used on all the work orders you create.</span></span> <span data-ttu-id="f9749-121">يبين الرسم التوضيحي التالي مثالاً لمربع الحوار **إنشاء أوامر عمل**.</span><span class="sxs-lookup"><span data-stu-id="f9749-121">The illustration below shows an example of the **Create work orders** dialog.</span></span>
 
 ![الشكل 1](media/18-preventive-maintenance.png)
+
+5. <span data-ttu-id="f9749-123">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="f9749-123">Click **OK**.</span></span> <span data-ttu-id="f9749-124">يتم إنشاء أمر عمل واحد أو أكثر.</span><span class="sxs-lookup"><span data-stu-id="f9749-124">One or more work orders are created.</span></span>
 
