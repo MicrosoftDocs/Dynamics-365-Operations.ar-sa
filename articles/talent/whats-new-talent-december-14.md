@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (14 ديسمبر 2018)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
+title: ما الجديد أو المتغير في Dynamics 365 Talent - Core HR‏ (14 ديسمبر 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517219"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024012"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (14 ديسمبر 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>ما الجديد أو المتغير في Dynamics 365 Talent: Core HR‏ (14 ديسمبر 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ ms.locfileid: "1517219"
 
 ## <a name="known-issue"></a>مشكلات معروفة​
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>تعيين الأخطاء في التكامل مع Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>تعيين الأخطاء في التكامل مع Finance
 
-تم التعرف على المشكلات التالية في القالب الحالي لتمكين تكامل Talent مع Dynamics 365 for Finance and Operations. سيتم نشر قالب جديد في وقت قريب وسيتم تطبيقه على جميع مشاريع التكامل التي يتم إنشاؤها. بالنسبة إلى مشاريع التكامل الموجودة، يمكن تحديث تعيينات المهام. راجع الجدول التالي للاطلاع على التعيينات المحدّثة. 
+تم التعرف على المشكلات التالية في القالب الحالي لتمكين تكامل Talent مع Dynamics 365 Finance. سيتم نشر قالب جديد في وقت قريب وسيتم تطبيقه على جميع مشاريع التكامل التي يتم إنشاؤها. بالنسبة إلى مشاريع التكامل الموجودة، يمكن تحديث تعيينات المهام. راجع الجدول التالي للاطلاع على التعيينات المحدّثة. 
 
 >[!NOTE]
 > المهمة "تعيين مناصب الوظيفة إلى تعيين الوظيفة الرئيسية للمناصب" لا تدمج البيانات. هذه مشكلة تجري دراستها حاليًا. لا يوجد أي حل بديل في التعيين الحالي. 

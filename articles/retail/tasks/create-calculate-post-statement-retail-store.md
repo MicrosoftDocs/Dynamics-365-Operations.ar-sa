@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 693d1821779d5f7af95b900daa3bb7a2c38a6354
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 4517b9ddeb648b3d789773fc0dcb1ecd3c8be85c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755513"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024788"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-يصف هذا الموضوع الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر. هناك أيضا وظائف دفعية والتي يمكن تكوينها لنفس المهام. يمكن العثور على الخطوات لتكوين الوظائف الدفعية وتشغيلها في مواضيع أخرى. لإكمال هذا الإجراء، يجب أن يكون لديك حركات تم إكمالها في نقطة البيع ثم سحبها إلى Dynamics 365 for Finance and Operations. ويستخدم هذا التسجيل شركة USRT في بيانات العرض التوضيحي.
+يصف هذا الموضوع الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر. هناك أيضا وظائف دفعية والتي يمكن تكوينها لنفس المهام. يمكن العثور على الخطوات لتكوين الوظائف الدفعية وتشغيلها في مواضيع أخرى. لإكمال هذا الإجراء، يجب أن يكون لديك حركات تم إكمالها في نقطة البيع ثم سحبها إلى Dynamics 365 Retail. ويستخدم هذا التسجيل شركة USRT في بيانات العرض التوضيحي.
 
 1. حدد **ماليات متجر البيع بالتجزئة‬** من الصفحة الرئيسية.
 2. حدد **كشف حساب جديد**.

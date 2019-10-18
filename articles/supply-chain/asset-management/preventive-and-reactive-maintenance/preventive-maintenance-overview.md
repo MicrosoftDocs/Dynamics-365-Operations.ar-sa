@@ -3,7 +3,7 @@ title: نظرة عامة على الصيانة الوقائية
 description: يشرح هذا الموضوع الصيانة الوقائية في إدارة الأصول.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b43c795426f40cb43962976824c44a7702d91b7
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875472"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922081"
 ---
 # <a name="preventive-maintenance-overview"></a>نظرة عامة على الصيانة الوقائية
 
@@ -35,7 +35,7 @@ ms.locfileid: "1875472"
 
 تستخدم خطط الصيانة للصيانة الوقائية والتفاعلية‬ على أصول فردية. تُستخدم دورات الصيانة للصيانة الوقائية على مجموعة أو مجموعة من الأصول. تُستخدم خطط الصيانة ودورات الصيانة لإنشاء مقترحات أمر العمل. ويتم حفظ مقترحات أمر العمل كبنود جدول صيانة، يمكن تجميعها وتحويلها إلى أوامر العمل.
 
-يوفر الشكل أدناه نظرة عامة حول سير العمل من إنشاء خطط الصيانة ودورات الصيانة لإنشاء أوامر العمل للأصول، وذلك استنادًا إلى خطط الصيانة ودورات الصيانة.
+يوفر الرسم التوضيحي التالي نظرة عامة حول سير العمل من إنشاء خطط الصيانة ودورات الصيانة لإنشاء أوامر العمل للأصول، وذلك استنادًا إلى خطط الصيانة ودورات الصيانة.
 
 ![الشكل 1](media/01-preventive-maintenance.png)
 

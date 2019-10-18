@@ -1,6 +1,6 @@
 ---
-title: الحصول على دعم لـ Talent
-description: يشرح هذا المقال كيفية الحصول على تعليمات حول Microsoft Dynamics 365 for Talent.
+title: الحصول على دعم لـ Microsoft Dynamics 365 Talent
+description: يشرح هذا المقال كيفية الحصول على تعليمات حول Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/07/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 9895ae8bdc6326b3863585d77b93576fe5fddcb4
-ms.sourcegitcommit: ab88de98a1958734213eb9d9b1988508b055f748
+ms.openlocfilehash: 949a504c71127c5efa0a93eb3fa4b237cb4b8242
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538763"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026067"
 ---
 # <a name="get-support-for-talent"></a>الحصول على دعم لـ Talent
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية الحصول على تعليمات حول Microsoft Dynamics 365 for Talent Core HR وDynamics 365 Talent: Attract وDynamics 365 Talent: Onboard.
+يشرح هذا المقال كيفية الحصول على تعليمات حول Microsoft Dynamics 365 Talent: Core HR و Dynamics 365 Talent: Attract و Dynamics 365 Talent: Onboard.
 
 ## <a name="support-for-talent"></a>دعم لـ Talent
 
@@ -34,11 +34,11 @@ ms.locfileid: "1538763"
 
 | المهمة | مزيد من المعلومات |
 |------|------------------|
-| طرح سؤال على المجتمع. | انتقل إلى [Dynamics 365 for Talent Community](https://community.dynamics.com/365/talent) للحصول على المساعدة بشأن أسئلتك. للعثور على إجابات، أدخل سؤالاً في حقل البحث إلى جانب **لديّ سؤال**. لطرح سؤال، حدد **طرح سؤال**. |
+| طرح سؤال على المجتمع. | انتقل إلى [Dynamics 365 Talent Community](https://community.dynamics.com/365/talent) للحصول على المساعدة بشأن أسئلتك. للعثور على إجابات، أدخل سؤالاً في حقل البحث إلى جانب **لديّ سؤال**. لطرح سؤال، حدد **طرح سؤال**. |
 | استخدام أداة الدعم من خلال الشبكة السحابية. | في [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/)، انتقل إلى مشروعك وحدد لوحة **الدعم**. ومن هناك، يمكنك إرسال المشاكل بطريقتين:<ul><li>على علامة التبويب‏‎ **المشاكل النشطة**، حدد المشكلة التي ترغب في إرسالها، ثم حدد **إرسال إلى Microsoft**.</li><li>على علامة التبويب **تم الإرسال إلى Microsoft**، حدد **إرسال حادث جديد** لإرسال مشكلة جديدة.</li></ul> |
 | الحصول على الدعم داخل التطبيق. | حدد الزر **تعليمات**  (**?**) في الركن العلوي الأيسر من الصفحة. ثم حدد **الدعم** إذا كنت تعمل في Core HR. إذا كنت في Attract أو Onboard، حدد **الإبلاغ عن مشكلة**. يتم الإعلام عن المشاكل على علامة التبويب **المشاكل النشطة** في LCS، حيث يمكن للمسؤول تحديد توفير الدعم داخليًا أو إرسال المشاكل إلى Microsoft. (إذا كان لديك إصدار مستقل من Onboard، يتم إرسال المشاكل مباشرةً إلى Microsoft.) |
 | الحصول على تعليمات بخصوص الأسئلة المتعلقة بترخيص Talent. | اتصل بشريكك أو مندوب مبيعات Microsoft. |
-| طلب ميزات ووظائف جديدة في Talent. | في صفحة Talent الرئيسية في التطبيق، حدد الزر **تعليمات** (**?**)، ثم حدد **الأفكار**. يمكنك أيضًا زيارة [أفكار لتطبيق Dynamics 365](https://experience.dynamics.com/ideas/) لعرض الأفكار الموجودة أو البحث عنها أو التصويت عليها أو لإضافة أفكار جديدة. |
+| طلب ميزات ووظائف جديدة في Talent. | في صفحة Talent الرئيسية، حدد الزر **تعليمات** (**?**)، ثم حدد **الأفكار**. يمكنك أيضًا زيارة [أفكار لتطبيق Dynamics 365](https://experience.dynamics.com/ideas/) لعرض الأفكار الموجودة أو البحث عنها أو التصويت عليها أو لإضافة أفكار جديدة. |
 
 ## <a name="support-for-the-onboard-stand-alone-app"></a>دعم التطبيق المستقل Onboard
 
@@ -46,7 +46,7 @@ ms.locfileid: "1538763"
 
 | المهمة | مزيد من المعلومات |
 |------|------------------|
-| طرح سؤال على المجتمع. | انتقل إلى [Dynamics 365 for Talent Community](https://community.dynamics.com/365/talent) للحصول على المساعدة. للعثور على إجابات، أدخل سؤالاً في حقل البحث إلى جانب **لديّ سؤال**. لطرح سؤال، حدد **طرح سؤال**. |
+| طرح سؤال على المجتمع. | انتقل إلى [Dynamics 365 Talent Community](https://community.dynamics.com/365/talent) للحصول على المساعدة. للعثور على إجابات، أدخل سؤالاً في حقل البحث إلى جانب **لديّ سؤال**. لطرح سؤال، حدد **طرح سؤال**. |
 | الإبلاغ عن مشكلة. | حدد الزر **تعليمات** (**?**) في الركن العلوي الأيسر من الصفحة، ثم حدد **الإبلاغ عن مشكلة**. أدخل وصفًا للمشكلة، وقم بتضمين عنوان البريد الإلكتروني إذا كنت ترغب في المتابعة بخصوص المشكلة. |
 | الحصول على تعليمات بخصوص الأسئلة المتعلقة بترخيص Talent. | اتصل بشريكك أو مندوب مبيعات Microsoft. |
-| طلب ميزات ووظائف جديدة في Onboard. | حدد الزر **تعليمات** (**?**)، ثم حدد **الأفكار**. يمكنك أيضًا زيارة [Dynamics 365 for Talent: أفكار Onboard](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) لعرض الأفكار الموجودة أو البحث عنها أو التصويت عليها أو لإضافة أفكار جديدة. |
+| طلب ميزات ووظائف جديدة في Onboard. | حدد الزر **تعليمات** (**?**)، ثم حدد **الأفكار**. يمكنك أيضًا زيارة [Dynamics 365 Talent: Onboard: أفكار ](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) لعرض الأفكار الموجودة أو البحث عنها أو التصويت عليها أو لإضافة أفكار جديدة. |

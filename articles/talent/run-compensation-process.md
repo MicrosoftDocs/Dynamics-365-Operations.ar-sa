@@ -1,6 +1,6 @@
 ---
 title: تشغيل عملية التعويض
-description: يشرح هذا المقال كيفية حل إحدى مشكلة يحاول فيها العميل تشغيل عملية التعويض في Microsoft Dynamics 365 for Talent ولكنه لا ينجح في ذلك.
+description: يشرح هذا المقال كيفية حل إحدى مشكلة يحاول فيها العميل تشغيل عملية التعويض في Microsoft Dynamics 365 Talent ولكنه لا ينجح في ذلك.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3d02db8fefb0f00925f862cee8c2cec707f849d9
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2ec3b4789edbacec308600264cdf043067a413bd
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741695"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009798"
 ---
 # <a name="run-the-compensation-process"></a>تشغيل عملية التعويض
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741695"
 
 **المشكلة**
 
-يحاول العميل تشغيل عملية التعويض في Microsoft Dynamics 365 for Talent ولكنه لا ينجح في ذلك.
+يحاول العميل تشغيل عملية التعويض في Microsoft Dynamics 365 Talent ولكنه لا ينجح في ذلك.
 
 **السبب**
 

@@ -1,6 +1,6 @@
 ---
-title: إعداد التكامل مع LinkedIn لـ Microsoft Dynamics 365 for Talent - Attract
-description: يشرح هذا الموضوع كيفيه تكوين تكامل LinkedIn لـ Microsoft Dynamics 365 for Talent - Attract كي تتمكن من نشر الوظائف بسهولة في LinkedIn من Attract، مما يسمح لمسؤولي التعيين بمزامنة معلومات التعيين لديهم مع ملف تعريف المرشح في LinkedIn.
+title: إعداد التكامل مع LinkedIn لـ Microsoft Dynamics 365 Talent - Attract
+description: يشرح هذا الموضوع كيفيه تكوين تكامل LinkedIn لـ Microsoft Dynamics 365 Talent - Attract كي تتمكن من نشر الوظائف بسهولة في LinkedIn من Attract، مما يسمح لمسؤولي التعيين بمزامنة معلومات التعيين لديهم مع ملف تعريف المرشح في LinkedIn.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756212"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009959"
 ---
 # <a name="set-up-linkedin-integration"></a>إعداد تكامل LinkedIn
 
 [!include[banner](../includes/banner.md)]
 
-ساعد مسؤولي التعيين ومدراء التوظيف على جذب أهم المواهب من خلال تكوين تكامل LinkedIn مع Microsoft Dynamics 365 for Talent: Attract. يسمح لك Attract بنشر الوظائف مباشره في LinkedIn، أكبر شركة احترافية في العالم.‬
+ساعد مسؤولي التعيين ومدراء التوظيف على جذب أهم المواهب من خلال تكوين تكامل LinkedIn مع Microsoft Dynamics 365 Talent: Attract:. يسمح لك Attract بنشر الوظائف مباشره في LinkedIn، أكبر شركة احترافية في العالم.‬
 
 تعتبر الوظائف التي تنشرها في LinkedIn عبر Attract عروض وظائف محدودة وهي متوفر لشركتك من دون أي تكلفة إضافية. تتوفر إدخالات عروض الوظائف هذه فقط من خلال شركاء برنامج LinkedIn مثل Attract. وهي لا تظهر في لوحة **المهن** في صفحة LinkedIn الخاصة بشركتك، لأن الإدخالات المدفوعة وحدها تظهر هناك. ومع ذلك، فهي تظهر عندما يستعرض المرشحون المحتملون كافة الوظائف المتوفرة. تظهر أيضًا عروض الوظائف المحدودة في عمليات البحث عن الوظائف في LinkedIn.
 

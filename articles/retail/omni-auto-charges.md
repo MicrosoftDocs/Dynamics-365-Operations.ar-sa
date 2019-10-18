@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577859"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018028"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>التكاليف التلقائية المتقدمة ‬للقناة متعددة الاتجاهات
 
@@ -34,7 +34,7 @@ ms.locfileid: "1577859"
 
 عند تمكين ميزات التكاليف التلقائية المتقدمة، بإمكان الأوامر التي تم إنشاؤها في قناة بيع بالتجزئة معتمدة (نقطة البيع (POS) ومركر الاتصال وعبر الإنترنت) الاستفادة من تكوينات [التكاليف التلقائية](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) المحددة في تطبيق ERP للتكاليف المرتبطة على مستوى الرأس والبنود.
 
-في الإصدارات التي سبقت الإصدار 10.0 من Dynamics 365 for Retail، بإمكان الأوامر المنشأة في قنوات التجارة الإلكترونية ومراكز الاتصال فقط الوصول إلى تكوينات [التكاليف التلقائية](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services). أما في الإصدارات 10.0 والإصدارات الأحدث، فبإمكان الأوامر المُنشأة في نقاط البيع الاستفادة من تكوينات التكاليف التلقائية. وبهذه الطريقة، يمكن إضافة تكاليف متنوعة إضافية إلى حركات المبيعات بطريقة منهجية.
+في الإصدارات التي سبقت الإصدار 10.0 من Retail، [بإمكان الأوامر المنشأة في قنوات التجارة الإلكترونية ومراكز الاتصال في الوصول إلى تكوينات التكاليف التلقائية](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)  أما في الإصدارات 10.0 والإصدارات الأحدث، فبإمكان الأوامر المُنشأة في نقاط البيع الاستفادة من تكوينات التكاليف التلقائية. وبهذه الطريقة، يمكن إضافة تكاليف متنوعة إضافية إلى حركات المبيعات بطريقة منهجية.
 
 عند استخدام الإصدارات التي تسبق الإصدار 10.0، تتم مطالبة مستخدم نقطع البيع بإدخال رسوم الشحن يدويًا أثناء إنشاء حركة نقطة البيع "شحن الكل‬" أو "شحن المحدد". في حين يتم استخدام إمكانات التكاليف المتنوعة للتطبيق فيما يتعلق بكيفية كتابة التكاليف بالترتيب ، لا يتم توفير حساب منهجي - يعتمد الحساب على إدخال المستخدم لتحديد قيمة التكاليف. ويمكن إضافة التكاليف فقط ككود التكاليف ذات الصلة لعملية "شحن" واحدة، ولا يمكن تغييرها أو تحريرها بسهولة في نقطة البيع بعد إنشائها.
 

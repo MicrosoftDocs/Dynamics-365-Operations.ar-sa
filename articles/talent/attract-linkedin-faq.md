@@ -1,6 +1,6 @@
 ---
 title: الأسئلة المتداولة حول تكامل Attract مع LinkedIn
-description: يجيب هذا الموضوع على الأسئلة التي قد تطرحها حول التكامل بين LinkedIn وMicrosoft Dynamics 365 for Talent - Attract.
+description: يجيب هذا الموضوع على الأسئلة التي قد تطرحها حول التكامل بين LinkedIn وMicrosoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c49181fe7e9359fb9d7d43f479273080f90542f4
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: d66ebc01597f8038a38b46a9f1b70feaa5dc505e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756189"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008629"
 ---
 # <a name="linkedin-integration-faq"></a>الأسئلة المتداولة حول تكامل LinkedIn
 
 [!include [banner](includes/banner.md)]
 
-تعتبر LinkedIn أكبر شركة احترافية عبر الإنترنت في العالم. ويتكامل Microsoft Dynamics for Talent: Attract مع LinkedIn لمنحك حق الوصول إلى أهم المواهب في العالم. يتيح لك Attract نشر الوظائف مباشرة في LinkedIn، ويتيح لك أيضًا سحب معلومات المرشحين من LinkedIn إلى Attract.
+تعتبر LinkedIn أكبر شركة احترافية عبر الإنترنت في العالم. يتكامل Microsoft Dynamics Talent: Attract مع LinkedIn لمنحك حق الوصول إلى أهم المواهب في العالم. يتيح لك Attract نشر الوظائف مباشرة في LinkedIn، ويتيح لك أيضًا سحب معلومات المرشحين من LinkedIn إلى Attract.
 
 ## <a name="for-recruiters-and-hiring-managers"></a>لمسؤولي التعيين ومدراء التوظيف
 

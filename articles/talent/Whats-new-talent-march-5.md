@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent (5 مارس 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent (5 مارس 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741880"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026660"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (5 مارس 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (5 مارس 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Talent
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 
@@ -78,5 +78,5 @@ ms.locfileid: "1741880"
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>أمان التعويض المتقدم (التعويض الثابت والمتغير)
 في عدد كبير من المؤسسات، بإمكان مدراء التعويضات والمزايا فقط الوصول إلى سجلات تعويض معينة، مثل سجلات المدراء التنفيذيين أو الموظفين في الأقاليم. سيسمح لك هذا التغيير بإدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. يمكن تعيين أدوار أمان إلى خطط التعويض الثابت والمتغير، مما يحدد حق الوصول إلى الخطط وبيانات الموظفين ذات الصلة بها، على سبيل المثال، معلومات حول الرواتب وسجلات المكافآت. الأدوار التي ستتمكن من الوصول لمعالجة تعويضات هؤلاء الموظفين هي فقط الأدوار التي تملك حق الوصول المحدد.
 
-###  <a name="platform-update-24"></a>update 24 للنظام الأساسي
-للحصول على تفاصيل إضافية حول Platform update 24، راجع [الميزات الجديدة أو المتغيرة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 لـ Finance and Operations
+للحصول على تفاصيل إضافية حول Platform update 24 لـ Finance and Operations، راجع [الميزات الجديدة أو المتغيرة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

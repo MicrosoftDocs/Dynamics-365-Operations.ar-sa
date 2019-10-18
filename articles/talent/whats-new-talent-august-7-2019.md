@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent (6 أغسطس 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent (6 أغسطس 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/6/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 90bac5aa9565549b2e257b0f6804a1bad53f2e9a
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: b642b5745daa6aa06450cf82abee2c51c60ff9a6
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867669"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024035"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-6-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (6 أغسطس 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (6 أغسطس 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 
@@ -43,7 +43,7 @@ ms.locfileid: "1867669"
 
 تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2412.
 
-يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: ‏Core HR.
+يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Core HR.
 
 ## <a name="in-preview"></a>قيد المعاينة
 
@@ -59,6 +59,6 @@ ms.locfileid: "1867669"
 
 ## <a name="coming-soon"></a>قريبًا
 
-### <a name="platform-update-29"></a>update 29 للنظام الأساسي
+### <a name="platform-update-29-for-finance-and-operations"></a>Platform update 29 لـ Finance and Operations
 
-للحصول على مزيد من التفاصيل حول Platform update 29، راجع [ميزات المعاينة في Dynamics 365 for Finance and Operations platform update 29 (أكتوبر 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+للحصول على مزيد من التفاصيل حول Platform update 29 لـ Finance and Operations، راجع [ميزات المعاينة في Dynamics 365 Finance and Operations platform update 29 (أكتوبر 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

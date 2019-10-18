@@ -1,6 +1,6 @@
 ---
 title: قابلية التوسعة‬ في Attract
-description: يصف هذا الموضوع كيف يمكنك توسيع تطبيق Microsoft Dynamics 365 for Talent - Attract باستخدام النظام الأساسي Microsoft Power.
+description: يصف هذا الموضوع كيف يمكنك توسيع تطبيق Microsoft Dynamics 365 Talent - Attract باستخدام Microsoft Power platform.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/18/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795210"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026223"
 ---
 # <a name="extensibility-in-attract"></a>قابلية التوسعة‬ في Attract
 
 [!include[banner](../includes/banner.md)]
 
-تم بناء Microsoft Dynamics 365 for Talent استنادًا إلى النظام الأساسي Common Data Service، ويمكن توسيعه بطرق مختلفة باستخدام Microsoft Power Platform والقدرات التي يقدمها النظام الأساسي Common Data Service . لذلك، يمكنك تكوين وتخصيص النظام باستخدام Microsoft PowerApps وMicrosoft Flow. ويمكنك أيضًا الحصول على تحليلات إضافية حول الأشخاص باستخدام Microsoft Power BI. علاوة على ذلك، ثمة أنشطة مخصصة جديدة، مثل أنشطة PowerApps ومحتوى الويب (iframe)، تجعل عملية التوظيف قابلة للتكيف أكثر من أي وقت مضى. باستخدام هذه الأنشطة، يمكن تخصيص عملية التوظيف بحيث تتلاءم مع احتياجات وعمليات الأعمال لديك، ويمكنك أن تتأكد من حصول كل من فريق التوظيف والمرشحين على تجربة سلسة ومخصصة.
+تم بناء Microsoft Dynamics 365 Talent استنادًا إلى Common Data Service، ويمكن توسيعه بطرق مختلفة باستخدام Microsoft Power Platform والقدرات التي يقدمها Common Data Service . لذلك، يمكنك تكوين وتخصيص النظام باستخدام Microsoft PowerApps وMicrosoft Flow. ويمكنك أيضًا الحصول على تحليلات إضافية حول الأشخاص باستخدام Microsoft Power BI. علاوة على ذلك، ثمة أنشطة مخصصة جديدة، مثل أنشطة PowerApps ومحتوى الويب (iframe)، تجعل عملية التوظيف قابلة للتكيف أكثر من أي وقت مضى. باستخدام هذه الأنشطة، يمكن تخصيص عملية التوظيف بحيث تتلاءم مع احتياجات وعمليات الأعمال لديك، ويمكنك أن تتأكد من حصول كل من فريق التوظيف والمرشحين على تجربة سلسة ومخصصة.
 
 ## <a name="extending-option-sets-in-attract"></a>توسيع مجموعات الخيارات في Attract
 
@@ -54,13 +54,13 @@ ms.locfileid: "1795210"
 12. حدد **حفظ**.
 13. حدد **نشر** في أعلى الصفحة.
 
-## <a name="take-advantage-of-the-microsoft-power-platform"></a>استفد من Microsoft Power Platform‬ 
+## <a name="take-advantage-of-the-microsoft-power-platform"></a>استفد من Microsoft Power Platform 
 
 نظرًا لوجود كافة البيانات من Attract في Common Data Service، يمكنك استخدام الأدوات من Microsoft Power Platform لدمج احتياجات العمل الفريدة لديك في Attract.
 
 ### <a name="powerapps"></a>PowerApps
 
-يمكنك استخدام PowerApps لإنشاء تطبيقات تتصل ببياناتك في Attract بسهولة، وتستخدم تعبيرات مثل التعبيرات في Microsoft Excel لإضافة المنطق. يمكنك تشغيل التطبيقات التي تقوم بإنشائها باستخدام PowerApps على الويب وعلى أجهزة Apple iOS وGoogle Android.
+يمكنك استخدام PowerApps لإنشاء تطبيقات تتصل ببياناتك في Attract بسهولة، وتستخدم تعبيرات مثل التعبيرات في Microsoft Excel لإضافة المنطق. يمكنك تشغيل التطبيقات التي تقوم بإنشائها باستخدام PowerApps على الويب وعلى أجهزة Apple iOS وGoogle وAndroid.
 
 على سبيل المثال، يمكنك أن تجعل معارض الوظائف التي تقام في الجامعات أكثر سهولة بالنسبة إلى مسؤولي التعيين عن طريق إنشاء تطبيق منخفض المرتبة يسمح لهم بفحص السير الذاتية وإعداد المرشحين لمنصب ما في Attract. أو يمكنك إنشاء تطبيق يساعد في تلبية متطلبات التوافق الخاصة بمؤسستك. للحصول على مزيد من المعلومات حول PowerApps وكيفية استخدامه لإنشاء التطبيقات، راجع [دمج البيانات في Common Data Service](https://docs.microsoft.com/powerapps).
 
@@ -78,10 +78,10 @@ ms.locfileid: "1795210"
 
 #### <a name="powerapps-activity"></a>نشاط PowerApps 
 
-يسمح نشاط PowerApps لمنشئ الوظيفة أو قالب عملية الوظيفة بتضمين تطبيقات PowerApps في سير عمل التوظيف. بعد إنشاء ونشر التطبيق، يمكنك إدخال معرّف التطبيق ف تكوينات النشاط. باستخدام تطبيق PowerApps، يمكنك قراءة وكتابة البيانات إلى Common Data Service. حتى أنه يمكنك ربط التطبيق بسير عمل. على سبيل المثال، لديك تطبيق يستخدمه مسؤولو التعيين لملء نموذج أثناء إجرائهم مقابلات عبر الهاتف. في هذه الحالة، يمكنك ربط التطبيق بسير عمل يقيّم ما إذا كان من الممكن نقل مقدم الطلب إلى مرحلة متقدمة في عملية تقديم طلب الحصول على الوظيفة‬. يمكن عرض هذا النوع من النشاط فقط بواسطة أعضاء فريق التوظيف. للحصول على مزيد من المعلومات حول كيفية تكوين نشاط PowerApps، راجع [الأنشطة في Attract‎](./activities-attract.md).
+يسمح نشاط PowerApps لمنشئ الوظيفة أو قالب عملية الوظيفة بتضمين تطبيقات PowerApps في سير عمل التوظيف. بعد إنشاء ونشر التطبيق، يمكنك إدخال معرّف التطبيق ف تكوينات النشاط. باستخدام تطبيق PowerApps، يمكنك قراءة وكتابة البيانات إلى Common Data Service. حتى أنه يمكنك ربط التطبيق بسير عمل. على سبيل المثال، لديك تطبيق يستخدمه مسؤولو التعيين لملء نموذج أثناء إجرائهم مقابلات عبر الهاتف. في هذه الحالة، يمكنك ربط التطبيق بسير عمل يقيّم ما إذا كان من الممكن نقل مقدم الطلب إلى مرحلة متقدمة في عملية تقديم طلب الحصول على الوظيفة‬. يمكن عرض هذا النوع من النشاط فقط بواسطة أعضاء فريق التوظيف. للحصول على مزيد من المعلومات حول كيفية تكوين نشاط PowerApps، راجع [الأنشطة في Attract](./activities-attract.md).
 
 > [!NOTE]
-> يتوفر نشاط PowerApps فقط مع المكون الإضافي Comprehensive hiring.
+> يتوفر نشاط PowerApps فقط مع المكون الإضافي "التوظيف الشامل".
 
 #### <a name="web-content-iframe-activity"></a>نشاط محتوى الويب (iframe)
 

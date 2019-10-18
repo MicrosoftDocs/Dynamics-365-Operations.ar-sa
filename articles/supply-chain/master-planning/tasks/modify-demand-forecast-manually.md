@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916612"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250635"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>تعديل التنبؤ بالطلب يدوياً
 
@@ -41,5 +41,5 @@ ms.locfileid: "1916612"
 
 ## <a name="modify-the-forecast-in-excel"></a>تعديل التنبؤ في Excel
 1. انقر فوق **فتح** في Microsoft Office.
-2. انقر فوق **تحرير التنبؤ بالطلب** في Excel. في Excel، يمكنك إضافة بنود التنبؤ بالطلب وحذفها وتحريرها. إذا لم تتمكن من رؤية البيانات في Excel، فستحتاج إلى تسجيل الدخول إلى Microsoft Dynamics 365 for Finance and Operations, Enterprise edition مع تمكين خيار "الاستمرار في تسجيل الدخول" وتحتاج إلى الثقة بتطبيق اتصال بيانات.  
+2. انقر فوق **تحرير التنبؤ بالطلب** في Excel. في Excel، يمكنك إضافة بنود التنبؤ بالطلب وحذفها وتحريرها. إذا لم تتمكن من رؤية البيانات في Excel، فستحتاج إلى تسجيل الدخول مع تمكين خيار "الاستمرار في تسجيل الدخول" وتحتاج إلى الثقة بتطبيق اتصال بيانات.  
 

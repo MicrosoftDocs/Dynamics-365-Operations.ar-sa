@@ -1,6 +1,6 @@
 ---
-title: مزامنة معلومات مستوى المخزون من Finance and Operations إلى Field Service
-description: يناقش هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات المعلومات على مستوى المخزون من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Field Service.
+title: مزامنة معلومات مستوى المخزون من Supply Chain Management إلى Field Service
+description: يناقش هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات المعلومات على مستوى المخزون من Dynamics 365 Supply Chain Management إلى Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/07/2019
@@ -19,37 +19,37 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b56eb545f87c31ef30d6a897f48539068583486
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: eefbfd1f8d7aa73cbb3330433b08efd889232818
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843423"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251191"
 ---
-# <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>مزامنة معلومات مستوى المخزون من Finance and Operations إلى Field Service 
+# <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>مزامنة معلومات مستوى المخزون من Supply Chain Management إلى Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-يناقش هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات المعلومات على مستوى المخزون من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Field Service.
+يناقش هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات المعلومات على مستوى المخزون من Dynamics 365 Supply Chain Management إلى Dynamics 365 Field Service.
 
-[![مزامنة عمليات الأعمال بين Finance and Operations وField Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
-يتم استخدام القالب التالي والمهام الأساسية التالية لمزامنة مستويات المخزون الفعلي من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Field Service.
+يتم استخدام القوالب والمهام الأساسية التالية لمزامنة مستويات المخزون الفعلي من Supply Chain Management إلى Field Service.
 
 **قالب في تكامل البيانات**
-- مخزون المنتج (Fin and Ops إلى Field Service)
+- مخزون المنتج (Supply Chain Management إلى Field Service)
   
 **مهمة في مشروع تكامل البيانات**
 - مخزون المنتج
 
 يجب تنفيذ مهام المزامنة التالية قبل حدوث مزامنة مستويات المخزون:
-- المستودعات (Fin and Ops إلى Field Service) 
-- منتجات Field Service مع وحدة المخزون (Fin and Ops إلى Sales) 
+- المستودعات (Supply Chain Management إلى Field Service) 
+- منتجات Field Service مع وحدة المخزون (Supply Chain Management إلى Sales) 
 
 ## <a name="entity-set"></a>مجموعة الكيانات
 
-| Field Service                      | Finance and Operations                 |
+| Field Service                      | Supply Chain Management                |
 |------------------------------------|----------------------------------------|
 | msdynce_externalproductinventories | مخزون CDS الفعلي حسب المستودع     |
 
@@ -61,17 +61,17 @@ ms.locfileid: "1843423"
 
 يتم التقاط هذه المعلومات لكل منتج صادر لكل مستودع وتتم مزامنتها استنادًا إلى تعقب التغييرات، وذلك عند حدوث تغيير في مستوى المخزون.
 
-في Field Service، ينشئ حل التكامل دفاتر يومية المخزون للدلتا، بحيث تتطابق المستويات في Field Service مع المستويات في Finance and Operations.
+في Field Service، ينشئ حل التكامل دفاتر يومية المخزون للدلتا، بحيث تتطابق المستويات في Field Service مع المستويات في Supply Chain Management.
 
-سيعمل Finance and Operations كأساس لمستويات المخزون. وبالتالي، من الضروري إعداد التكامل لأوامر العمل وعمليات التحويل والتسوية من Field Service إلى Finance and Operations إذا كانت هذه الوظيفة مستخدمة في Field Service مع مزامنة مستويات المخزون من Finance and Operations.
+سيعمل Supply Chain Management كأساس لمستويات المخزون. وبالتالي، من الضروري إعداد التكامل لأوامر العمل وعمليات التحويل والتسوية من Field Service إلى Supply Chain Management إذا كانت هذه الوظيفة مستخدمة في Field Service مع مزامنة مستويات المخزون من Supply Chain Management.
 
-يمكن مراقبة المنتجات والمستودعات حيث تستند مستويات المخزون إلى Finance and Operations بواسطة وظائف الاستعلام والتصفية المتقدمة (Power Query).
+يمكن مراقبة المنتجات والمستودعات حيث تستند مستويات المخزون إلى Supply Chain Management بواسطة وظائف الاستعلام والتصفية المتقدمة (Power Query).
 
 > [!NOTE]
-> من الممكن إنشاء عدة مستودعات في Field Service (مع تعيين الخيار **تتم المحافظة عليها خارجيًا = لا**) ثم تعيينها إلى مستودع واحد في Finance and Operations، باستخدام وظائف التصفية والاستعلام المتقدمة. يتم استخدام هذا الإجراء في الحالات التي تريد فيها أن تعمل Field Service كأساس على مستوى المخزون المفصل وفقط إرسال تحديثات إلى Finance and Operations. في هذه الحالة، لن تحصل Field service على تحديثات على مستوى المخزون من Finance and Operations. للحصول على معلومات إضافية، راجع [مزامنة عمليات تسوية المخزون من Field Service إلى Finance and Operations‬](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) و[مزامنة أوامر العمل في Field Service إلى أوامر المبيعات المرتبطة بالمشروع في Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> من الممكن إنشاء عدة مستودعات في Field Service (مع تعيين الخيار **تتم المحافظة عليها خارجيًا = لا**) ثم تعيينها إلى مستودع واحد في Supply Chain Management، باستخدام وظائف التصفية والاستعلام المتقدمة. يتم استخدام هذا الإجراء في الحالات التي تريد فيها أن تعمل Field Service كأساس على مستوى المخزون المفصل وفقط إرسال تحديثات إلى Supply Chain Management. في هذه الحالة، لن تحصل Field service على تحديثات على مستوى المخزون من Supply Chain Management. للحصول على معلومات إضافية، راجع [مزامنة عمليات تسوية المخزون من Field Service إلى Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) و[مزامنة أوامر العمل في Field Service إلى أوامر المبيعات المرتبطة بالمشروع في Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>حل Field Service CRM
-يُستخدم كيان **مخزون المنتج الخارجي** فقط لواجهة التكامل الخلفية. ويتلقى هذا الكيان قيم مستوى المخزون من Finance and Operations في التكامل، ثم يحوّل هذه القيم إلى دفاتر يومية المخزون اليدوي، الذي يحوّل عندئذٍ منتجات المخزون في المستودع.
+يُستخدم كيان **مخزون المنتج الخارجي** فقط لواجهة التكامل الخلفية. ويتلقى هذا الكيان قيم مستوى المخزون من Supply Chain Management في التكامل، ثم يحوّل هذه القيم إلى دفاتر يومية المخزون اليدوي، الذي يحوّل عندئذٍ منتجات المخزون في المستودع.
 
 ## <a name="prerequisites-and-mapping-setup"></a>المتطلبات الأساسية وإعداد التعيين
 
@@ -84,10 +84,10 @@ ms.locfileid: "1843423"
       - msdynce_warehouseid (معرف المستودع)
       
 ### <a name="data-integration-project"></a>مشروع تكامل البيانات
-يمكنك تطبيق عوامل التصفية باستخدام الاستعلام المتقدم والتصفية المتقدمة للتأكد من قيام منتجات ومستودعات معينة فقط من إرسال معلومات على مستوى المخزون من Finance and Operations إلى Field Service.
+يمكنك تطبيق عوامل التصفية باستخدام الاستعلام المتقدم والتصفية المتقدمة للتأكد من قيام منتجات ومستودعات معينة فقط من إرسال معلومات على مستوى المخزون من Supply Chain Management إلى Field Service.
 
 ## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 
-### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>مخزون المنتج (Fin and Ops إلى Field Service): مخزون المنتج
+### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>مخزون المنتج (Supply Chain Management إلى Field Service): مخزون المنتج
 
 [![تعيين القالب في تكامل البيانات](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

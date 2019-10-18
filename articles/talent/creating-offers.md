@@ -1,6 +1,6 @@
 ---
 title: إنشاء العروض والموافقة والتوقيع عليها
-description: يشرح هذا الموضوع بشكل مفصل كيفية إنشاء عرض لأحد المرشحين والموافقة والتوقيع عليه باستخدام Dynamics 365 for Talent.
+description: يشرح هذا الموضوع بشكل مفصل كيفية إنشاء عرض لأحد المرشحين والموافقة والتوقيع عليه باستخدام Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739623"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008095"
 ---
 # <a name="create-approve-and-sign-offers"></a>إنشاء العروض والموافقة والتوقيع عليها
 
@@ -110,7 +110,7 @@ ms.locfileid: "1739623"
 إذا تم اختيار Adobe Sign كأسلوب توقيع إلكتروني مفضل، فيجب على منشئي العروض الاتصال بترخيص Adobe Sign في هذه الخطوة. 
 
 ### <a name="docusign"></a>DocuSign
-إذا تم اختيار DocuSign كأسلوب توقيع إلكتروني مفضل، فيجب على منشئي العروض الاتصال بترخيص DocuSign. بعد تسجيل الدخول، يتم توصيل الحساب الافتراضي والأذونات المقترنة بملف تعريف مستخدم DocuSign بتطبيق Talent Attract. 
+إذا تم اختيار DocuSign كأسلوب توقيع إلكتروني مفضل، فيجب على منشئي العروض الاتصال بترخيص DocuSign. بعد تسجيل الدخول، يتم توصيل الحساب الافتراضي والأذونات المقترنة بملف تعريف مستخدم DocuSign بتطبيق Talent: Attract. 
 
 -  يمكنك عرض وتحرير قالب البريد الإلكتروني حسب الحاجة.
 

@@ -1,6 +1,6 @@
 ---
 title: إدارة الوقت والحضور في Retail
-description: يصف هذا الموضوع السيناريوهات المعتمدة لإدارة الوقت والحضور في Microsoft Dynamics 365 for Retail.
+description: يصف هذا الموضوع السيناريوهات المعتمدة لإدارة الوقت والحضور في Dynamics 365 Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567943"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024973"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>إدارة الوقت والحضور في Retail
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع السيناريوهات المعتمدة لإدارة الوقت والحضور في Microsoft Dynamics 365 for Retail.
+يصف هذا الموضوع السيناريوهات المعتمدة لإدارة الوقت والحضور في Dynamics 365 Retail.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>إدارة إعداد العمال وجدولتهم
 
@@ -125,7 +125,7 @@ ms.locfileid: "1567943"
 
 ## <a name="process-and-manage-time-registrations"></a>معالجة وإدارة تسجيلات الوقت
 
-يتبع مستخدم Dynamics 365 for Retail سير العمل لحساب تسجيلات الوقت للرواتب والموافقة عليها ونقلها.
+يتبع مستخدم Retail سير العمل لحساب تسجيلات الوقت للرواتب والموافقة عليها ونقلها.
 
 ### <a name="primary-operations"></a>العمليات الأساسية
 

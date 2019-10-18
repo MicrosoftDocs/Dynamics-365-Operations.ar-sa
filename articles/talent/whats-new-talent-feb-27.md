@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent (27 فبراير 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent (27 فبراير 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517228"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023989"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (27 فبراير 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (27 فبراير 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 
@@ -77,9 +77,9 @@ ms.locfileid: "1517228"
 
 في الكثير من المؤسسات، قد يتوفر لدى مدراء التعويضات والمزايا حق الوصول إلى سجلات تعويض معينة فقط. وقد تكون هذه السجلات مخصصة للمدراء التنفيذيين أو الموظفين الإقليميين. سيسمح هذا التغيير لإدارة الموارد البشرية (HR) بإدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. ستحدد أدوار الأمان التي يمكن تعيينها إلى خطط التعويض الثابت والمتغير حق الوصول إلى هذه الخطط وبيانات الموظفين ذات الصلة بها (على سبيل المثال، معلومات حول الرواتب وسجلات المكافآت). الأدوار التي ستتمكن من الوصول لمعالجة تعويضات هؤلاء الموظفين هي فقط الأدوار التي تملك حق الوصول المحدد.
 
-### <a name="platform-update-24"></a>update 24 للنظام الأساسي
+### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 لـ Finance and Operations
 
-للحصول على مزيد من المعلومات حول Microsoft Dynamics 365 for Finance and Operations platform update 24 (مارس 2019)، راجع [ميزات المعاينة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+للحصول على مزيد من المعلومات حول Platform update 24 for Microsoft Dynamics 365 Finance and Operations (مارس 2019)، راجع [ميزات المعاينة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>جعل التعويض الثابت للموظف متوفرًا لتعيينات المناصب المستقبلية
 
@@ -87,10 +87,10 @@ ms.locfileid: "1517228"
 
 ## <a name="known-issues"></a>مشكلات معروفة​
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>التغييرات في قالب تكامل Core HR (Talent Common Data Service إلى Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>التغييرات في قالب تكامل Core HR (Talent Common Data Service إلى Finance)
 تم تحديث قالب Core HR إلى "قالب استعلام متقدم". وبالتالي، سيكون الاستعلام المتقدم متوفرًا، بشكل افتراضي، للمشاريع التي يتم إنشاؤها باستخدام هذا القالب. بالإضافة إلى ذلك، ستكون أي وظائف تعيين افتراضية مرئية فقط في محرر الاستعلام. (تظهر وظائف التعيين الافتراضية على الشكل "FN" في التعيينات.)
 
-للحصول على مزيد من المعلومات حول أخطاء التعيين، راجع [ما الجديد أو المتغير في Dynamics 365 for Talent Core HR (14 ديسمبر 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+للحصول على مزيد من المعلومات حول أخطاء التعيين، راجع [ما الجديد أو المتغير في Dynamics 365 Talent: Core HR (14 ديسمبر 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 لاستخدام القالب الجديد، أنشئ مشروعًا جديدًا، وحدد قالب تكامل Talent الجديد.
 

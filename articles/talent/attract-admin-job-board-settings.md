@@ -1,6 +1,6 @@
 ---
-title: تمكين تكامل Broadbean في Microsoft Dynamics 365 for Talent - Attract
-description: يشرح هذا الموضوع كيفية تكوين Microsoft Dynamics 365 for Talent - Attract لنشر الوظائف في لوحات وظائف خارجية مثل Broadbean.
+title: تمكين تكامل Broadbean في Microsoft Dynamics 365 Talent - Attract
+description: يشرح هذا الموضوع كيفية تكوين Microsoft Dynamics 365 Talent - Attract لنشر الوظائف في لوحات وظائف خارجية مثل Broadbean.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2334c2bd0edccf3000f8d91651afafd4619ad0b8
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 808f91fb4b68ba9b5cee54d86423d23232df23a4
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739669"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008583"
 ---
 # <a name="enable-broadbean-integration"></a>تمكين تكامل Broadbean
 
 [!include[banner](../includes/banner.md)]
 
-تريد عرض المناصب المفتوحة أمام عدد أكبر عدد ممكن من المرشحين المؤهلين. تساعدك مواقع التوظيف مثل Broadbean في تحقيق هذا الهدف. يسمح لك الآن Microsoft Dynamics 365 for Talent: Attract بنشر الوظائف في Broadbean، وتعمل Microsoft بشكل مستمر على تقديم عروض جديدة في هذا المجال.
+تريد عرض المناصب المفتوحة أمام عدد أكبر عدد ممكن من المرشحين المؤهلين. تساعدك مواقع التوظيف مثل Broadbean في تحقيق هذا الهدف. يسمح لك الآن Microsoft Dynamics 365 Talent: Attract بنشر الوظائف في Broadbean، وتعمل Microsoft بشكل مستمر على تقديم عروض جديدة في هذا المجال.
 
 > [!NOTE]
 > - لنشر الوظائف في مواقع خارجية، يجب استخدام [المكون الإضافي "التوظيف الشامل"](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).

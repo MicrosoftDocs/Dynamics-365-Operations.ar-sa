@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561244"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249415"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>مساحة العمل المحمولة "الموافقة على أمر الشراء"
 
@@ -35,13 +35,13 @@ ms.locfileid: "1561244"
 ## <a name="overview"></a>نظرة عامة 
 تمر أوامر الشراء التي تحتاج إلى موافقة على سير عمل الموافقة. باستطاعة سير العمل أن يتضمن خطوات مختلفة تتطلب قيام شخص أو أكثر باتخاذ الإجراءات اللازمة. على سبيل المثال، قد يتعين على شخص ما إكمال مهمة أو الموافقة على أمر الشراء. 
 
-تسمح لك مساحة العمل المحمولة **الموافقة على أمر الشراء** بعرض أوامر الشراء والاستجابة لها بسهولة من جهازك المحمول. وتسمح لك أيضًا مساحة العمل هذه باتخاذ إجراءات سير العمل نفسها التي يمكنك اتخاذها من Microsoft Dynamics 365 for Finance and Operations، عميل ويب.
+تسمح لك مساحة العمل المحمولة **الموافقة على أمر الشراء** بعرض أوامر الشراء والاستجابة لها بسهولة من جهازك المحمول. وتسمح لك أيضًا مساحة العمل هذه باتخاذ إجراءات سير العمل نفسها التي يمكنك اتخاذها من عميل الويب.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-تختلف المتطلبات الأساسية، بالاستناد إلى إصدار Finance and Operations الذي تم نشره لمؤسستك.
+تختلف المتطلبات الأساسية، بالاستناد إلى إصدار Supply Chain Management الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية عند استخدام Microsoft Dynamics 365 for Finance and Operations 
-إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء​‬**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>المتطلبات الأساسية في حالة استخدام Supply Chain Management 
+إذا تم نشر Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء​‬** . للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار لاحق
 إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
@@ -74,8 +74,8 @@ ms.locfileid: "1561244"
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>تحميل وتثبيت تطبيق الجوال
-تنزيل وتثبيت تطبيق Microsoft Dynamics 365 for Unified Operations Mobile:
+## <a name="download-and-install-the-mobile-app"></a>تنزيل وتثبيت تطبيق المحمول
+تنزيل وتثبيت تطبيق Finance and Operations للأجهزة المحمولة:
 
 - [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

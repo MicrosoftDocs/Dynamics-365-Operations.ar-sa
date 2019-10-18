@@ -1,6 +1,6 @@
 ---
 title: الاختيار بين Retail Modern POS (MPOS) وCloud POS
-description: يشرح هذا الموضوع الاختلافات الأساسية بين Retail Modern POS وCloud POS. ويصف أيضًا العوامل المختلفة التي يجب على تجار التجزئة الذين يطبقون Microsoft Dynamics 365 for Retail وضعها في الاعتبار لمساعدتهم في اختيار الخيار الأفضل لمتطلباتهم.
+description: يشرح هذا الموضوع الاختلافات الأساسية بين Retail Modern POS وCloud POS. ويصف أيضًا العوامل المختلفة التي يجب على تجار التجزئة الذين يطبقون Dynamics 365 Retail وضعها في الاعتبار لمساعدتهم في اختيار الخيار الأفضل لمتطلباتهم.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557004"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025899"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>الاختيار بين Retail Modern POS (MPOS) وCloud POS
 
 [!include [banner](includes/banner.md)]
 
-يوفر هذا الموضوع للمنفذين خلفية إضافية وتلميحات وإرشادات تتعلق بالعوامل التي يجب عليهم أخذها في الاعتبار عندما ينشرون Microsoft Dynamics 365 for Retail. ومن خلال مراجعة واتباع هذا الدليل كجزء من عملية النشر، يستطيع المنفذون تجنب المشكلات التي قد تؤثر على أداء المستخدم أو رضاه.
+يوفر هذا الموضوع للمنفذين خلفية إضافية وتلميحات وإرشادات تتعلق بالعوامل التي يجب عليهم أخذها في الاعتبار عندما ينشرون Dynamics 365 Retail. ومن خلال مراجعة واتباع هذا الدليل كجزء من عملية النشر، يستطيع المنفذون تجنب المشكلات التي قد تؤثر على أداء المستخدم أو رضاه.
 
 ## <a name="insights"></a>الرؤى
 

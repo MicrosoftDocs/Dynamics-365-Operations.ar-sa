@@ -1,6 +1,6 @@
 ---
-title: إنشاء فريق توظيف باستخدام Dynamics 365 for Talent - Onboard
-description: يشرح هذا الموضوع كيفية استخدام تطبيق Microsoft Dynamics 365 for Talent - Onboard لإنشاء فرق توظيف.
+title: إنشاء فريق توظيف باستخدام Dynamics 365 Talent - Onboard
+description: يشرح هذا الموضوع كيفية استخدام تطبيق Microsoft Dynamics 365 Talent - Onboard لإنشاء فرق توظيف.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 996fc42881ce708992614c58877927e03bbf78bf
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: b22bf5fb5b2a2756684304d1cb26c0f8a7419c00
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731345"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010811"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-for-talent-onboard"></a>إنشاء فريق توظيف باستخدام Dynamics 365 for Talent: Onboard
+# <a name="create-a-hiring-team-by-using-onboard"></a>إنشاء فريق توظيف باستخدام   Onboard
 
 [!include [banner](includes/banner.md)]
 
-يمكنك إنشاء فرق توظيف في In Microsoft Dynamics 365 for Talent: Onboard, you can create hiring. ثم يمكنك تعيين أدلة وقوالب الإعداد لكل فريق.
+في Microsoft Dynamics 365 Talent: Onboard، يُمكنك إنشاء فرق توظيف. ثم يمكنك تعيين أدلة وقوالب الإعداد لكل فريق.
 
 ## <a name="create-a-hiring-team"></a>إنشاء فريق توظيف
 

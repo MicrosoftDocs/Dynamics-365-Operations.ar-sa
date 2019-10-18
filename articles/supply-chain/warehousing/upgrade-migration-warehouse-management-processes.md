@@ -1,5 +1,5 @@
 ---
-title: ترقية إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
+title: ترقية إدارة المستودعات من Microsoft Dynamics AX 2012إلى Supply Chain Management
 description: يوفر هذا الموضوع نظرة عامة حول خيارات ترحيل إدارة المستودعات والمنتجات.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554036"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251421"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>ترقية إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>ترقية إدارة المستودعات من Microsoft Dynamics AX 2012إلى Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع نظرة عامة حول عملية الترقية من Microsoft Dynamics AX 2012 R3، الذي يقوم بتشغيل الوحدة WMSII، إلى Microsoft Dynamics 365 for Finance and Operations.
+يوفر هذا الموضوع نظرة عامة حول عملية الترقية من Microsoft Dynamics AX 2012 R3، الذي يقوم بتشغيل الوحدة WMSII، إلى Supply Chain Management.
 
-لم يعد Finance and Operations يدعم الوحدة النمطية القديمة **WMSII** من Microsoft Dynamics AX 2012. بدلاً من ذلك، يمكنك استخدام الوحدة النمطية **إدارة المستودعات**. في الوحدة النمطية WMSII، يمكن تحديد أبعاد مخزون الموقع ومعرف البالتة للمخزون المالي، مع ذلك، لا يمكن استخدام بعد مخزون "معرف البالتة" للمخزون المالي في Finance and Operations.
+لم يعد Supply Chain Management يدعم الوحدة النمطية القديمة **WMSII** من Microsoft Dynamics AX 2012. بدلاً من ذلك، يمكنك استخدام الوحدة النمطية **إدارة المستودعات**. في الوحدة النمطية WMSII، يمكن تحديد أبعاد مخزون الموقع ومعرف البالتة للمخزون المالي، مع ذلك، لا يمكن استخدام بعد مخزون "معرف البالتة" للمخزون المالي في Supply Chain Management.
 
 أثناء ترقية، يتم تعريف كافة المنتجات المرتبطة بمجموعة أبعاد تخزين التي تستخدم بعد مخزون "معرف البالتة"، وتعليمها كمؤمنة وغير معالجة للترقية.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>الترقية إلى Finance and Operations، عند استخدام AX 2012 R3 WMSII
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>الترقية إلى Supply Chain Management عند استخدام AX 2012 R3 WMSII
 بعد الترقية، يمكنك استخدام مجموعة من الخيارات في النموذج **تغيير مجموعة أبعاد التخزين للأصناف** لإلغاء حظر المنتجات التي تم حظرها أثناء الترقية، ثم معالجة الحركات لتلك المنتجات.
 
-### <a name="enabling-items-in-finance-and-operations"></a>تمكين الأصناف في Finance and Operations
-وهذا التغيير يكون مطلوبًا لأنه في Finance and Operations، يكون تعقب الأصناف جزءًا من عمليات إدارة المستودعات. لهذه العمليات، يجب إقران المستودعات ومواقعها مع ملف تعريف الموقع. وإذا كنت ترغب في استخدام عمليات إدارة المستودعات، فيجب تكوين ما يلي:
+### <a name="enabling-items-in-supply-chain-management"></a>تمكين الأصناف في Supply Chain Management 
+وهذا التغيير يكون مطلوبًا لأنه في Supply Chain Management، يكون تعقب الأصناف جزءًا من عمليات إدارة المستودعات. لهذه العمليات، يجب إقران المستودعات ومواقعها مع ملف تعريف الموقع. وإذا كنت ترغب في استخدام عمليات إدارة المستودعات، فيجب تكوين ما يلي:
 -   يجب تمكين المستودعات الموجودة لاستخدام عمليات إدارة المستودعات 
 -   يجب أن تكون المنتجات الصادرة الموجودة مقترنة بمجموعة أبعاد تخزين والتي تستخدم عمليات إدارة المستودعات. 
 

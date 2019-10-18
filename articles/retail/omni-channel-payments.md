@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على دفعات القناة متعددة الاتجاهات.
-description: يوفر هذا الموضوع نظرة عامة على دفعات القناة متعددة الاتجاهات في Microsoft Dynamics 365 for Retail.
+description: يوفر هذا الموضوع نظرة عامة على دفعات القناة متعددة الاتجاهات في Dynamics 365 Retail.
 author: rubendel
 manager: AnnBe
 ms.date: 05/12/2019
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 78a4538d5b4854a4c87417acc156bcfb7c0da01d
-ms.sourcegitcommit: 45eeca48c6cb4f3f94d61392f4f99a52dc443a97
+ms.openlocfilehash: b16b0cedaa2b908d2707eb7076f82f3513d00b62
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "1606182"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017564"
 ---
 # <a name="omni-channel-payments-overview"></a>نظرة عامة على دفعات القناة متعددة الاتجاهات.
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع نظرة عامة على دفعات القناة متعددة الاتجاهات في Microsoft Dynamics 365 for Retail. يتضمن قائمة شاملة من السيناريوهات المدعومة ، ومعلومات حول الوظيفة ، والإعداد ، واستكشاف الأخطاء وإصلاحها ، ووصف لبعض المشاكل المعتادة.
+يوفر هذا الموضوع نظرة عامة على دفعات القناة متعددة الاتجاهات في Dynamics 365 Retail. يتضمن قائمة شاملة من السيناريوهات المدعومة ، ومعلومات حول الوظيفة ، والإعداد ، واستكشاف الأخطاء وإصلاحها ، ووصف لبعض المشاكل المعتادة.
 
 ## <a name="key-terms"></a>المصطلحات الأساسية
 

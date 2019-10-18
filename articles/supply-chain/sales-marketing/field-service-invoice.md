@@ -1,6 +1,6 @@
 ---
-title: مزامنة فواتير الاتفاقية في Field Service في الفواتير ذات النص الحر‬ في Finance and Operations
-description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة فواتير الاتفاقيات في Microsoft Dynamics 365 for Field Service مع فواتير النص الحر في Microsoft Dynamics 365 for Finance and Operations.
+title: مزامنة فواتير الاتفاقيات في Field Service مع فواتير النص الحر في Supply Chain Management
+description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة فواتير الاتفاقيات في Dynamics 365 Field Service مع فواتير النص الحر في Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
@@ -19,46 +19,46 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ca0014dc8bc1c70670a3cf85527eee0ef44865f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560153"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249855"
 ---
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>مزامنة فواتير الاتفاقيات في Field Service مع فواتير النص الحر في Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة فواتير الاتفاقيات في Microsoft Dynamics 365 for Field Service مع فواتير النص الحر في Microsoft Dynamics 365 for Finance and Operations.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة فواتير الاتفاقيات في Dynamics 365 Field Service مع فواتير النص الحر في Dynamics 365 Supply Chain Management.
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 
-يتم استخدام القالب والمهام الأساسية التالية لتشغيل مزامنة فواتير الاتفاقيات من Field Service لفواتير النص الحر في Finance and Operations.
+يتم استخدام القالب والمهام الأساسية التالية لتشغيل مزامنة فواتير الاتفاقيات من Field Service لفواتير النص الحر في Supply Chain Management.
 
-**اسم القالب في تكامل البيانات:**
+**اسم القالب في تكامل البيانات**
 
-- فواتير الاتفاقيات (Field Service لـ Fin and Ops)
+- فواتير الاتفاقيات (Field Service إلى Supply Chain Management)
 
-**أسماء المهام في مشروع تكامل البيانات:**
+**أسماء المهام في مشروع تكامل البيانات**
 
 - عناوين الفواتير
-- سطور الفاتورة
+- بنود الفاتورة
 
 يجب تنفيذ مهام المزامنة التالية قبل حدوث مزامنة فواتير الاتفاقيات:
 
-- الحسابات (Sales إلى Fin and Ops)‬ - المباشرة
+- الحسابات (Sales إلى Supply Chain Management) - مباشر
 
 ## <a name="entity-set"></a>مجموعة الكيانات
 
-| Field Service  | Finance and Operations                 |
+| Field Service  | Supply Chain Management                 |
 |----------------|----------------------------------------|
 | الفواتير       | رؤوس فاتورة النص الحر لعميل CDS |
 | invoicedetails | بنود فاتورة النص الحر لعميل CDS   |
 
 ## <a name="entity-flow"></a>تدفق الكيان
 
-يمكن مزامنة الفواتير التي يتم إنشاؤها من اتفاقية في Field Service مع Finance and Operations عبر مشروع تكامل بيانات Common Data Service (CDS). ستتم مزامنة التحديثات لهذه الفواتير لفواتير النص الحر في Finance and Operations إذا كانت حالة المحاسبة للفواتير ذات النص الحر **قيد المعالجة**. بعد ترحيل فواتير النص الحر في Finance and Operations، وتحديث حالة المحاسبة إلى **مكتمل**، لن تتمكن بعد ذلك من مزامنة التحديثات من Field Service.
+يمكن مزامنة الفواتير التي يتم إنشاؤها من اتفاقية في Field Service مع Supply Chain Management عبر مشروع تكامل بيانات Common Data Service. ستتم مزامنة تحديثات هذه الفواتير مع فواتير النص الحر في Supply Chain Management إذا كانت حالة المحاسبة للفواتير ذات النص الحر **قيد المعالجة**. بعد ترحيل فواتير النص الحر في Supply Chain Management، وتحديث حالة المحاسبة إلى **مكتمل**، لن تتمكن بعد ذلك من مزامنة التحديثات من Field Service.
 
 ## <a name="field-service-crm-solution"></a>حل Field Service CRM
 
@@ -66,18 +66,18 @@ ms.locfileid: "1560153"
 
 تمت إضافة حقل **لديه أصل اتفاقية** إلى كيان **بند الفاتورة**. يساعد هذا الحقل على ضمان مزامنة فقط بنود الفواتير التي تم إنشاؤها من اتفاقية. تكون القيمة **صواب** إذا كان بند الفاتورة نشأ من اتفاقية.
 
-**تاريخ الفاتورة** عبارة عن حقل إلزامي في Finance and Operations. لذلك، يجب أن يكون للحقل قيمة في Field Service قبل إجراء المزامنة. لتلبية هذا المتطلب، تتم إضافة المنطق التالي:
+**تاريخ الفاتورة** عبارة عن حقل إلزامي في Supply Chain Management. لذلك، يجب أن يكون للحقل قيمة في Field Service قبل إجراء المزامنة. لتلبية هذا المتطلب، تتم إضافة المنطق التالي:
 
 - إذا كان حقل **تاريخ الفاتورة** فارغًا في كيان **الفاتورة** (بمعنى، في حالة عدم وجود قيمة)، يتم تعيينه إلى التاريخ الحالي عندما تتم إضافة بند فاتورة ينشأ من اتفاقية.
 - يمكن للمستخدم تغيير حقل **تاريخ الفاتورة**. ومع ذلك، عندما يحاول المستخدم حفظ فاتورة تنشأ من اتفاقية، فإنه يتلقى خطأ في عملية أعمال إذا كان حقل **تاريخ الفاتورة** فارغاً في الفاتورة.
 
 ## <a name="prerequisites-and-mapping-setup"></a>المتطلبات الأساسية وإعداد التعيين
 
-### <a name="in-finance-and-operations"></a>في Finance and Operations
+### <a name="in-supply-chain-management"></a>في Supply Chain Management
 
-يجب إعداد أصل فاتورة للتكامل، لتمييز الفواتير ذات النص الحر في Finance and Operations والتي تم إنشاؤها من فواتير الاتفاقيات في Field Service. عندما تشتمل فاتورة على أصل فاتورة من نوع **تكامل فاتورة الاتفاقية**، يتم عرض حقل **رقم الفاتورة الخارجية** في عنوان **فاتورة المبيعات**.
+يجب إعداد أصل فاتورة للتكامل، لتمييز الفواتير ذات النص الحر في Supply Chain Management والتي تم إنشاؤها من فواتير الاتفاقيات في Field Service. عندما تشتمل فاتورة على أصل فاتورة من نوع **تكامل فاتورة الاتفاقية**، يتم عرض حقل **رقم الفاتورة الخارجية** في عنوان **فاتورة المبيعات**.
 
-بالإضافة إلى الظهور في عنوان الفاتورة، يمكن استخدام معلومات **رقم الفاتورة الخارجية** للمساعدة في ضمان تصفية الفواتير التي تم إنشاؤها من الفواتير اتفاقيات Field Service أثناء مزامنة الفواتير من Finance and Operations لـ Field Service.
+بالإضافة إلى الظهور في عنوان الفاتورة، يمكن استخدام معلومات **رقم الفاتورة الخارجية** للمساعدة في ضمان تصفية الفواتير التي تم إنشاؤها من فواتير الاتفاقيات في Field Service أثناء مزامنة الفواتير من Supply Chain Management إلى Field Service.
 
 1. انتقل إلى **الحسابات المدينة** \> **الإعداد** \> **أكواد أصل الفاتورة**.
 2. حدد **جديد** لإنشاء أصل فاتورة جديد.
@@ -91,7 +91,7 @@ ms.locfileid: "1560153"
 
 المهمة: **بنود الفاتورة**  
 
-تأكد من تحديث القيمة الافتراضية لحقل Finance and Operations **قيمة عرض الحساب الرئيسي** لمطابقة القيمة المطلوبة.
+تأكد من تحديث القيمة الافتراضية لحقل Supply Chain Management **قيمة عرض الحساب الرئيسي** لمطابقة القيمة المطلوبة.
 
 قيمة القالب الافتراضية هي **401100**.
 
@@ -99,10 +99,10 @@ ms.locfileid: "1560153"
 
 تبين الأشكال التوضيحية التالية تعيين القالب في تكامل البيانات.
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>فواتير الاتفاقيات (Field Service لـ Fin and Ops): رؤوس الفواتير
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>فواتير الاتفاقيات (Field Service إلى Supply Chain Management): رؤوس الفواتير
 
 [![تعيين القالب في تكامل البيانات](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>فواتير الاتفاقيات (Field Service لـ Fin and Ops): بنود الفواتير
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>فواتير الاتفاقيات (Field Service إلى Supply Chain Management): بنود الفواتير
 
 [![تعيين القالب في تكامل البيانات](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)

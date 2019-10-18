@@ -1,6 +1,6 @@
 ---
 title: متطلبات النظام وسياسة التحديث في Talent
-description: يسرد هذا الموضوع متطلبات Dynamics 365 for Talent. وقد تم أيضًا توضيح سياسة التحديث.
+description: يسرد هذا الموضوع متطلبات Dynamics 365 Talent. وقد تم أيضًا توضيح سياسة التحديث.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/02/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741765"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024150"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>متطلبات النظام وسياسة التحديث في Talent
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع متطلبات Microsoft Dynamics 365 for Talent، بما في ذلك Attract وOnboard وCore HR. كما يوضح البلدان والمناطق التي يتوفر فيها Talent، بالإضافة إلى معلومات حول لغات وترجمة بيانات Talent. علاوةً على ذلك، يوفر هذا الموضوع سياسة تحديث Talent.
+يصف هذا الموضوع متطلبات Microsoft Dynamics 365 Talent، بما في ذلك Attract وOnboard وCore HR. كما يوضح البلدان والمناطق التي يتوفر فيها Talent، بالإضافة إلى معلومات حول لغات وترجمة بيانات Talent. علاوةً على ذلك، يوفر هذا الموضوع سياسة تحديث Talent.
 
 ## <a name="supported-web-browsers"></a>مستعرضات الويب المدعومة
 
-يمكن تشغيل تطبيق ويب Dynamics 365 for Talent في أيٍّ من مستعرضات الويب التالية التي تعمل على أنظمة التشغيل المحددة: 
+يمكن تشغيل Microsoft Dynamics 365 Talent في أيٍّ من مستعرضات الويب التالية التي تعمل على أنظمة التشغيل المحددة: 
 
 *   Microsoft Edge (أحدث إصدار تمت إتاحته للجمهور) على Windows 10
 *   Internet Explorer 11 على Windows 10 أو Windows 8.1 أو Windows 7
@@ -46,11 +46,11 @@ ms.locfileid: "1741765"
 > * تم بدء تشغيل محرر سير العمل كتطبيق ClickOnce. يدعم كل من Microsoft Edge وInternet Explorer (على إصدار معتمد من Microsoft Windows) فقط تطبيقات ClickOnce. يتطلب تطبيق ClickOnce محرر سير العمل نظام تشغيل متوافق 64 بت.
 > * لمعاينة ملفات PDF، ننصح باستخدام المستعرضات الحديثة مثل Microsoft Edge (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Google Chrome (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو الكمبيوتر اللوحي Google Nexus 10.
 >   متطلبات الشبكة
-> * تم تصميم Dynamics 365 for Talent للشبكات مع زمن وصول من 250-300 مللي ثانية أو أقل. زمن الوصول هذا هو زمن الوصول من عميل المستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Dynamics 365 for Talent. نوصي باختبار زمن وصول الشبكة على [www.azurespeed.com](https://www.azurespeed.com "اختبار زمن وصول Azure").
-> * تعتمد متطلبات عرض النطاق الترددي لتطبيق Dynamics 365 for Talent على السيناريو. تتطلب السيناريوهات الأكثر شيوعاً عرض نطاق ترددي لأكثر من 50 كيلو بايت في الثانية (KBps).
+> * تم تصميم Dynamics 365 Talent للشبكات مع زمن وصول من 250-300 مللي ثانية أو أقل. زمن الوصول هذا هو زمن الوصول من عميل المستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Talent. نوصي باختبار زمن وصول الشبكة على [www.azurespeed.com](https://www.azurespeed.com "اختبار زمن وصول Azure").
+> * تعتمد متطلبات عرض النطاق الترددي لتطبيق Talent على السيناريو. تتطلب السيناريوهات الأكثر شيوعاً عرض نطاق ترددي لأكثر من 50 كيلو بايت في الثانية (KBps).
 > 
 > [!WARNING]
-> لا تقم بحساب متطلبات النطاق الترددي من موقع عميل من خلال ضرب عدد المستخدمين في متطلبات الحد الأدنى للنطاق الترددي. يُصعب للغاية حساب الاستخدام المستزامن لموقع ما. بالنسبة إلى العملاء المهتمين بمتطلبات النطاق الترددي، يمكنهم استخدام إصدارًا تجريبيًا من Dynamics 365 for Talent.
+> لا تقم بحساب متطلبات النطاق الترددي من موقع عميل من خلال ضرب عدد المستخدمين في متطلبات الحد الأدنى للنطاق الترددي. يُصعب للغاية حساب الاستخدام المستزامن لموقع ما. بالنسبة إلى العملاء المهتمين بمتطلبات النطاق الترددي، يمكنهم استخدام إصدارًا تجريبيًا من Talent.
 
 ## <a name="supported-microsoft-office-applications"></a>تطبيقات Microsoft Office المدعومة
 
@@ -68,6 +68,6 @@ ms.locfileid: "1741765"
 
 ## <a name="update-policy"></a>سياسة التحديث
 
-يتم تقديم الخدمات لتطبيق Microsoft Dynamics 365 for Talent في إطار عرض سحابي. تعتبر تحديثات Dynamics 365 for Talent متواصلة ومطبقة بشكل تلقائي بواسطة Microsoft.
+يتم تقديم الخدمات لتطبيق Talent في إطار عرض سحابي. تعتبر تحديثات Talent متواصلة ومطبقة بشكل تلقائي بواسطة Microsoft.
 
-يتم إصدار التحديثات في وتيرة منتظمة وستتم في جميع البيئات. يتم دعم Dynamics 365 for Talent تماشيًا مع [دورة حياة دعم Microsoft](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "دورة حياة دعم Microsoft")، التي توفر إرشادات متناسقة ومتوقعة لتوفر دعم المنتج.
+يتم إصدار التحديثات في وتيرة منتظمة وستتم في جميع البيئات. يتم دعم Talent تماشيًا مع [دورة حياة دعم Microsoft](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "دورة حياة دعم Microsoft،") التي توفر إرشادات متناسقة ومتوقعة لتوفر دعم المنتج.

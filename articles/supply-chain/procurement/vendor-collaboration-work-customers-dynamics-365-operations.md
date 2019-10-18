@@ -1,6 +1,6 @@
 ---
 title: تعاون المورد مع العملاء
-description: يصف هذا الموضوع كيفية استخدام تعاون المورد في Microsoft Dynamics 365 for Finance and Operations، للتعامل مع أوامر الشراء ولمراقبة مخزون الشحن.
+description: يصف هذا الموضوع كيفية استخدام تعاون المورد، للتعامل مع أوامر الشراء ولمراقبة مخزون الشحن.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e968a57c09837a5cfa5a0476426a274021122959
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567574"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250108"
 ---
 # <a name="vendor-collaboration-with-customers"></a>تعاون المورد مع العملاء
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع كيفية استخدام تعاون المورد للتعامل مع العملاء في Microsoft Dynamics 365 for Finance and Operations. يستطيع الموردون إكمال سلسلة من العمليات التجارية من مساحات العمل التالية:
+يصف هذا الموضوع كيفية استخدام تعاون المورد للتعامل مع العملاء في Microsoft Dynamics 365 Supply Chain Management. يستطيع الموردون إكمال سلسلة من العمليات التجارية من مساحات العمل التالية:
 
 - **تأكيد أمر الشراء** -مراقبة أوامر الشراء (POs) والاستجابة لها.
 - **‏‫عطاء المورّد‬** -عرض طلبات عروض الأسعار (RFQs) والاستجابة إليها عن طريق إدخال العطاءات.

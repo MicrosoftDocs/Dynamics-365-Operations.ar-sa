@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543573"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250681"
 ---
 # <a name="master-planning-home-page"></a>الصفحة الرئيسية للتخطيط الرئيسي
 
@@ -74,7 +74,7 @@ ms.locfileid: "1543573"
 يمكنك العثور على آراء وأخبار ومعلومات أخرى حول التخطيط الرئيسي بالإضافة إلى حلول أخرى في [مدونة فريق بحث وتطوير Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>دلائل المهام
-تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر **تعليمات** في أي صفحة.
+تتوفر تعليمات إضافية كدلائل مهام. وللوصول إلى دلائل المهام، انقر فوق الزر **تعليمات** في أي صفحة.
 
 ### <a name="webinars"></a>الندوات عبر الإنترنت
 [استخدام التعلم الآلي من Azure للتنبؤ بالطلب](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

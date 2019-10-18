@@ -1,6 +1,6 @@
 ---
-title: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations – التخزين‬‏‫
-description: يشرح هذا الموضوع كيفية إعداد Dynamics 365 for Finance and Operations – التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول.
+title: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 Supply Chain Management – تطبيق التخزين‬‏‫
+description: يشرح هذا الموضوع كيفية إعداد Dynamics 365 Supply Chain Management – تطبيق التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 5ec9197c2e8b7970fcbf5ea42612c60f940bcae0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742909"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251444"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations – التخزين‬‏‫
+# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 Supply Chain Management – تطبيق التخزين‬‏‫
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد Dynamics 365 for Finance and Operations – التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول. 
+يشرح هذا الموضوع كيفية إعداد Dynamics 365 Supply Chain Management – تطبيق التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول. 
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-لاستخدام هذه الميزة، يجب أن يكون الإصدار 1.2.0.0 من تطبيق Warehousing مثبتًا لديك، ويجب أن يتضمن جهازك كاميرا. عندما تفتح التطبيق بعد التحديث، سيتم مطالبتك بالسماح لتطبيق Dynamics 365 for Finance and Operations – التخزين باستخدام الكاميرا. في حال عدم وجود كاميرا في جهازك، لن تظهر أي مطالبة، وسيتعذر عليك استخدام الكاميرا كماسح ضوئي. 
+لاستخدام هذه الميزة، يجب أن يكون الإصدار 1.2.0.0 من تطبيق التخزين مثبتًا لديك، ويجب أن يتضمن جهازك كاميرا. عندما تفتح التطبيق بعد التحديث، سيتم مطالبتك بالسماح لتطبيق لاستخدام الكاميرا. في حال عدم وجود كاميرا في جهازك، لن تظهر أي مطالبة، وسيتعذر عليك استخدام الكاميرا كماسح ضوئي. 
 
 ## <a name="setup"></a>إعداد
 في "إعدادات العرض" الخاصة بالتطبيق Warehousing، يمكنك تحديد ما إذا كان يجب استخدام الكاميرا لمسح الأكواد الشريطية. إذا قمت بتمكين الخيار **استخدام الكاميرا كماسح ضوئي**، فيمكنك استخدام الكاميرا في كل حقل إدخال تم فيه تعيين وضع الإدخال المفضل إلى **مسح ضوئي**. 
 
-للتحكم في ما إذا كان يجب أن يكون حقل الإدخال قابلاً للمسح الضوئي، في صفحة **أسماء حقول تطبيق المستودع**‬ في Dynamics 365 for Finance and Operations، قم بتعيين **وضع الإدخال المفضل** إلى **مسح ضوئي**. عند تحديد هذا الخيار، يمكن استخدام كاميرا لإجراء مسح ضوئي في تطبيق Warehousing. لمزيد من المعلومات حول كيفية تكوين أسماء حقول التطبيق في Warehousing، راجع [تكوين أسماء حقول التطبيق في تطبيق Warehousing](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+للتحكم في ما إذا كان يجب أن يكون حقل الإدخال قابلاً للمسح الضوئي، في صفحة **أسماء حقول تطبيق التخزين**، قم بتعيين **وضع الإدخال المفضل** إلى **مسح ضوئي**. عند تحديد هذا الخيار، يمكن استخدام كاميرا لإجراء مسح ضوئي في تطبيق Warehousing. لمزيد من المعلومات حول كيفية تكوين أسماء حقول التطبيق في Warehousing، راجع [تكوين أسماء حقول التطبيق في تطبيق Warehousing](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>تنسيقات الأكواد الشريطية المدعومة
 يتم اعتماد تنسيقات الأكواد الشريطية الأكثر شيوعًا، بما فيها الكود 128 والكود 39 والكود 93 والأكواد EAN-8 وEAN-13 وUPC-E وUPC-A وQR. 

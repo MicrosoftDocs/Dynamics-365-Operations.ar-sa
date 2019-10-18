@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent (26 مارس 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent (26 مارس 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/26/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741557"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023874"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (26 مارس 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (26 مارس 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 
@@ -53,7 +53,7 @@ ms.locfileid: "1741557"
 
 ### <a name="custom-field-support-available-for-select-entities-in-common-data-service"></a>يتوفر دعم الحقول المخصصة لكيانات محددة في Common Data Service 
 
-تدعم الآن كيانات Common Data Service التالية الحقوق المخصصة المنشأة في Dynamics 365 for Talent:
+تدعم الآن كيانات Common Data Service التالية الحقوق المخصصة المنشأة في Talent:
 
 - العامل
 - الأصل العرقي
@@ -72,7 +72,7 @@ ms.locfileid: "1741557"
 في هذا الإصدار، تظهر خطط التعويض الثابتة عند تقييد المستخدمين حسب الشركة في الأمان. ستتم مراعاة جميع إعدادات الأمان، وستظهر الخطط الثابتة لتلك لشركات التي يملك المستخدم أذونات الوصول إليها. 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>لا يمكن حذف سجلات الوظيفة باستخدام الخيار "فتح في Excel" في Talent
-مع هذا الإصدار، يمكنك الآن إزالة سجلات الوظيفة باستخدام الخيار **فتح في Excel** في Dynamics 365 for Talent.
+مع هذا الإصدار، يمكنك الآن إزالة سجلات الوظيفة باستخدام الخيار **فتح في Excel** في Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>الترقية إلى Common Data Service
 تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة PowerApps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
@@ -93,7 +93,7 @@ ms.locfileid: "1741557"
 في الكثير من المؤسسات، قد يتوفر لدى مدراء التعويضات والمزايا حق الوصول إلى سجلات تعويض معينة فقط. وقد تكون هذه السجلات مخصصة للمدراء التنفيذيين أو الموظفين الإقليميين. مع هذا التغيير، سيتمكن قسم الموارد البشرية من إدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. يمكن تعيين أدوار أمان إلى خطط التعويض الثابت والمتغير التي تحدد حق الوصول إلى الخطط وبيانات الموظفين ذات الصلة بها، على سبيل المثال، معلومات حول الرواتب أو سجلات المكافآت. وحدها الأدوار التي تم منح حق الوصول لها يمكنها معالجة التعويض لهؤلاء الموظفون.
 
 ###  <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
-مع إصدار Platform update 25، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث. 
+في إصدار Platform update 25 لـ Finance and Operations بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيل الإعلامات بواسطة حدث. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>عمليات التحقق من الموظفين المكررين: تغييرات واجهة المستخدم‬
 مع هذا التغيير، يتم الكشف عن التكرارات عند إدخال حقول الأسماء، وتعرض الحالة عدد التكرارات التي تم العثور عليها. يمكنك تحديد الارتباط المتوفر لفتح صفحة جديدة لتقييم ما إذا كان يجب استخدام المطابقة التي تم الكشف عنها. لتجنب مقاطعة إدخال البيانات، لا يفتح نموذج التكرارات بشكل تلقائي.

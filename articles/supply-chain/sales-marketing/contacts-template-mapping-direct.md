@@ -1,6 +1,6 @@
 ---
-title: مزامنة جهات الاتصال مباشرةً من Sales لجهات الاتصال في Finance and Operations‎
-description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة كيانات جهات الاتصال (جهات الاتصال) وجهات الاتصال (العملاء) من Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations.
+title: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎
+description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة كيانات جهات الاتصال (جهات الاتصال) وجهات الاتصال (العملاء) من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,25 +19,25 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: fbc75702c9db1e877addc4605dcb444c344dfa5c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 7d3a4602a3d8462666dfcb26b97a4f652891f7bc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742437"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249942"
 ---
-# <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-finance-and-operations"></a>مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎
+# <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Common Data Service للتطبيقات‏‎](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة كيانات جهات الاتصال (جهات الاتصال) وجهات الاتصال (العملاء) مباشرةً من Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة كيانات جهات الاتصال (جهات الاتصال) وجهات الاتصال (العملاء) مباشرةً من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>تدفق البيانات في حل العميل المتوقع إلى النقدية
 
-يستخدم حل العميل المتوقع إلى النقدية ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Finance and Operations وSales. تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Finance and Operations وSales. يبين الرسم التوضيحي التالي كيف تتم مزامنة البيانات بين Finance and Operations وSales.
+يستخدم حل العميل المتوقع إلى النقدية ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Supply Chain Management وSales. تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Supply Chain Management وSales. يبين الرسم التوضيحي التالي كيف تتم مزامنة البيانات بين Supply Chain Management وSales.
 
 [![تدفق البيانات في حل العميل المتوقع إلى النقدية](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -45,47 +45,47 @@ ms.locfileid: "1742437"
 
 للوصول إلى القوالب المتوفرة، افتح [مركز إدارة PowerApps](https://preview.admin.powerapps.com/dataintegration). حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
-يتم استخدام القوالب والمهام الأساسية التالية لمزامنة كيانات جهة الاتصال (جهات الاتصال) في Sales إلى كيانات جهة الاتصال (العملاء) في Finance and Operations:
+يتم استخدام القوالب والمهام الأساسية التالية لمزامنة كيانات جهة الاتصال (جهات الاتصال) في Sales إلى كيانات جهة الاتصال (العملاء) في Supply Chain Management.
 
-- **أسماء القوالب في تكامل البيانات:**
+- **أسماء القوالب في تكامل البيانات**
 
-    - جهات اتصال (Sales إلى Fin and Ops) - مباشر
-    - جهات اتصال إلى عميل (Sales إلى Fin and Ops) - مباشر
+    - جهات الاتصال (Sales إلى Supply Chain Management) - مباشر
+    - جهات الاتصال إلى العميل (Sales إلى Supply Chain Management) - مباشر
 
-- **أسماء المهام في مشروع تكامل البيانات:**
+- **أسماء المهام في مشروع تكامل البيانات**
 
     - جهات الاتصال
     - ContactToCustomer
 
-يجب تنفيذ مهمة المزامنة التالية قبل إجراء مزامنة جهة الاتصال: الحسابات (Sales إلى Fin and Ops)
+يجب تنفيذ مهمة المزامنة التالية قبل إجراء مزامنة جهة الاتصال: الحسابات (Sales إلى Supply Chain Management)
 
 ## <a name="entity-sets"></a>مجموعات الكيانات
 
-| مبيعات    | Finance and Operations |
+| ال‏‏مبيعات    | Supply Chain Management |
 |----------|------------------------|
 | جهات الاتصال | جهات اتصال CDS           |
 | جهات الاتصال | العملاء V2           |
 
 ## <a name="entity-flow"></a>تدفق الكيان
 
-تُدار جهات الاتصال في Sales وتتم مزامنتها إلى Finance and Operations.
+تُدار الحسابات في Sales وتتم مزامنتها إلى Supply Chain Management.
 
-يمكن أن تصبح جهة اتصال في Sales إما جهة اتصال أو عميل في Finance and Operations. لتحديد ما إذا كانت جهة اتصال في Sales يفترض أن تتم مزامنتها إلى Finance and Operations كجهة اتصال أو كعميل، يبحث النظام في الخصائص التالية في جهة الاتصال في Sales:
+يمكن أن تصبح جهة اتصال في Sales إما جهة اتصال أو عميل في Supply Chain Management. لتحديد ما إذا كانت جهة اتصال في Sales يفترض أن تتم مزامنتها إلى Supply Chain Management كجهة اتصال أو كعميل، يبحث النظام في الخصائص التالية في جهة الاتصال في Sales:
 
-- **المزامنة إلى عميل في Finance and Operations:** جهات الاتصال حيث تم تعيين **هو عميل نشط** إلى **نعم**
-- **المزامنة إلى جهة اتصال في Finance and Operations:** جهات الاتصال حيث تم تعيين **هو عميل نشط** إلى **لا** وحيث تشير **الشركة** (الحساب الأصل‬/جهة الاتصال الأصل) إلى حساب (وليس إلى جهة اتصال)
+- **المزامنة إلى عميل في Supply Chain Management:** جهات الاتصال حيث تم تعيين **هو عميل نشط** إلى **نعم**
+- **المزامنة إلى جهة اتصال في Supply Chain Management:** جهات الاتصال حيث تم تعيين **هو عميل نشط** إلى **لا** وحيث تشير **الشركة** (الحساب الأصل‬/جهة الاتصال الأصل) إلى حساب (وليس إلى جهة اتصال)
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>حل العميل المتوقع إلى النقدية في Sales
 
-تمت إضافة حقل **هو عميل نشط** جديد إلى جهة الاتصال. يستخدم هذا الحقل للتمييز بين جهات الاتصال التي لها نشاط في مجال المبيعات وجهات الاتصال التي ليس لديها نشاط في مجال المبيعات. تم تعيين **هو عميل نشط** إلى **نعم** فقط لجهات الاتصال التي لديها عروض أسعار أو أوامر أو فواتير ذات صلة. تتم مزامنة جهات الاتصال هذه فقط إلى Finance and Operations كعملاء.
+تمت إضافة حقل **هو عميل نشط** جديد إلى جهة الاتصال. يستخدم هذا الحقل للتمييز بين جهات الاتصال التي لها نشاط في مجال المبيعات وجهات الاتصال التي ليس لديها نشاط في مجال المبيعات. تم تعيين **هو عميل نشط** إلى **نعم** فقط لجهات الاتصال التي لديها عروض أسعار أو أوامر أو فواتير ذات صلة. تتم مزامنة جهات الاتصال هذه فقط إلى Supply Chain Management كعملاء.
 
-تمت إضافة حقل **IsCompanyAnAccount‎** جديد إلى جهة الاتصال. يشير هذا الحقل إلى ما إذا كانت جهة الاتصال مرتبطة بشركة (الحساب الأصل‬/جهة الاتصال الأصل) من النوع **حساب**. يتم استخدام هذه المعلومات لتحديد جهات الاتصال التي يجب أن تتم مزامنتها إلى Finance and Operations كجهات اتصال.
+تمت إضافة حقل **IsCompanyAnAccount‎** جديد إلى جهة الاتصال. يشير هذا الحقل إلى ما إذا كانت جهة الاتصال مرتبطة بشركة (الحساب الأصل‬/جهة الاتصال الأصل) من النوع **حساب**. يتم استخدام هذه المعلومات لتحديد جهات الاتصال التي يجب أن تتم مزامنتها إلى Supply Chain Management كجهات اتصال.
 
 تمت إضافة حقل **رقم جهة الاتصال** جديد إلى جهة الاتصال للمساعدة في ضمان مفتاح طبيعي وفريد للتكامل. عند إنشاء جهة اتصال جديدة، يتم إنشاء قيمة **رقم جهة الاتصال** بشكل تلقائي باستخدام تسلسل رقمي. تتكون القيمة من **CON**، يليه تسلسل رقمي متزايد ثم لاحقة من ستة أحرف. فيما يلي مثال على ذلك: **CON-01000-BVRCPS**
 
 عند تطبيق حل التكامل لـ Sales، يقوم برنامج نصي للترقية بتعيين حقل **رقم جهة الاتصال** لجهات الاتصال الموجودة باستخدام التسلسل الرقمي الذي تم ذكره سابقًا. يقوم أيضًا البرنامج النصي للترقية بتعيين الحقل **هو عميل نشط** إلى **نعم** لأي من جهات الاتصال التي لديها نشاط في مجال المبيعات.
 
-## <a name="in-finance-and-operations"></a>في Finance and Operations
+## <a name="in-supply-chain-management"></a>في Supply Chain Management
 
 توضع علامة على جهات الاتصال باستخدام الخاصية **IsContactPersonExternallyMaintained**. تشير هذه الخاصية إلى الاحتفاظ بجهة اتصال معينة خارجيًا. في هذه الحالة، يتم الاحتفاظ بجهات الاتصال التي تم الاحتفاظ بها خارجيًا في Sales.
 
@@ -93,21 +93,21 @@ ms.locfileid: "1742437"
 
 ### <a name="contact-to-customer"></a>جهة اتصال إلى عميل
 
-- يجب ملء **CustomerGroup** في Finance and Operations. للمساعدة على منع أخطاء المزامنة، يمكنك تحديد قيمة افتراضية في التعيين. يتم عندئذٍ استخدام هذه القيمة الافتراضية إذا ترك الحقل فارغًا في Sales.
+- **CustomerGroup** مطلوب في Supply Chain Management. للمساعدة على منع أخطاء المزامنة، يمكنك تحديد قيمة افتراضية في التعيين. يتم عندئذٍ استخدام هذه القيمة الافتراضية إذا ترك الحقل فارغًا في Sales.
 
     قيمة القالب الافتراضية هي **10**.
 
-- عن طريق إضافة التعيينات التالية، يمكنك المساعدة على تقليل عدد التحديثات اليدوية المطلوبة في Finance and Operations. يمكنك استخدام قيمة افتراضية قيمة أو تعيين قيمة من، على سبيل المثال، **البلد/المنطقة** أو **المدينة**.
+- عن طريق إضافة التعيينات التالية، يمكنك المساعدة على تقليل عدد التحديثات اليدوية المطلوبة في Supply Chain Management. يمكنك استخدام قيمة افتراضية قيمة أو تعيين قيمة من، على سبيل المثال، **البلد/المنطقة** أو **المدينة**.
 
-    - **SiteId** - يمكن أيضًا تعريف موقع افتراضي على المنتجات في Finance and Operations. يكون الموقع مطلوبًا لإنشاء بنود أوامر المبيعات وعروض الأسعار في Finance and Operations.
+    - **SiteId** - يمكن أيضًا تعريف موقع افتراضي على المنتجات في Supply Chain Management. الموقع مطلوب لإنشاء أوامر المبيعات وعروض الأسعار في Supply Chain Management.
 
         قيمة قالب **SiteId** غير محددة.
 
-    - **WarehouseId** - يمكن أيضًا تعريف مستودع افتراضي على المنتجات في Finance and Operations. يكون المستودع مطلوبًا لإنشاء بنود أوامر المبيعات وعروض الأسعار في Finance and Operations.
+    - **WarehouseId‎** - يمكن أيضًا تعريف مستودع افتراضي على المنتجات في Supply Chain Management. المستودع مطلوب لإنشاء أوامر المبيعات وعروض الأسعار في Supply Chain Management.
 
         قيمة قالب **WarehouseId** غير محددة.
 
-    - **LanguageId** – اللغة مطلوبة لإنشاء أوامر المبيعات وعروض الأسعار في Finance and Operations.
+    - **LanguageId‎** – الموقع مطلوب لإنشاء بنود أوامر المبيعات وعروض الأسعار في Supply Chain Management.
     
         قيمة القالب الافتراضية هي **ar-sa**.
 
@@ -116,7 +116,7 @@ ms.locfileid: "1742437"
 تبين الأشكال التوضيحية التالية مثالاً لتعيين قالب في تكامل البيانات. 
 
 > [!NOTE]
-> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Finance and Operations.
+> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Supply Chain Management.
 
 ### <a name="contact-to-contact"></a>جهة اتصال إلى جهة اتصال
 
@@ -131,12 +131,12 @@ ms.locfileid: "1742437"
 
 [العميل المتوقع إلى النقدية](prospect-to-cash.md)
 
-[مزامنة الحسابات مباشرةً من Sales للعملاء في Finance and Operations‎](accounts-template-mapping-direct.md)
+[مزامنة الحسابات مباشرةً من Sales إلى العملاء في Supply Chain Management‎](accounts-template-mapping-direct.md)
 
-[مزامنة المنتجات مباشرةً من Finance and Operations للمنتجات في Sales‎](products-template-mapping-direct.md)
+[مزامنة المنتجات مباشرةً من Supply Chain Management إلى المنتجات في Sales‎‎](products-template-mapping-direct.md)
 
-[مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Finance and Operations إلى Sales](sales-order-template-mapping-direct-two-ways.md)
+[مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-order-template-mapping-direct-two-ways.md)
 
-[مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales](sales-invoice-template-mapping-direct.md)
+[مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-invoice-template-mapping-direct.md)
 
 

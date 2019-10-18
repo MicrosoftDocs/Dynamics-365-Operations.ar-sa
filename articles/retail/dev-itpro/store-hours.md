@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 1b55b91246b22951f4e1d148f59444423e1d8a3d
-ms.sourcegitcommit: e54607a2c80bec4db05045825914f50947f6e31e
+ms.openlocfilehash: 811d499a3eb8133e5ffd29bb4ae6a0c57708accd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917502"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023432"
 ---
 # <a name="create-and-update-store-hours"></a>إنشاء ساعات المتجر وتغييرها
 
@@ -36,7 +36,7 @@ ms.locfileid: "1917502"
 
 إذا كان على العميل استلام المنتجات التي طلبها من متجر آخر، فبإمكان أمين الصندوق تحديد التواريخ التي يكون فيها استلام المنتجات متاحًا في ذلك المتجر. ستوفر ميزة البحث في المتجر مرجعًا إلى التواريخ وأوقات المتجر. بإمكان أمين الصندوق تحديد التاريخ والموقع، كما يمكنه طباعة إيصال الاستلام الذي يتضمن ساعات المتجر.
 
-تتوفر هذه الوظيفة في الإصدار 8.1.2 والإصدارات اللاحقة من Microsoft Dynamics 365 for Retail.
+تتوفر هذه الوظيفة في الإصدار 8.1.2 والإصدارات اللاحقة من Microsoft Dynamics 365 Retail.
 
 ## <a name="configure-store-hours"></a>تكوين ساعات المتجر
 
