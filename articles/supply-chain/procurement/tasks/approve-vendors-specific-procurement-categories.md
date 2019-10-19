@@ -1,6 +1,6 @@
 ---
 title: الموافقة على الموردين لفئات تدبير محددة
-description: يوضح هذا الموضوع كيفية الموافقة على المورّدين لفئات تدبير معينة في Dynamics 365 for Finance and Operations.
+description: يوضح هذا الموضوع كيفية الموافقة على المورّدين لفئات تدبير معينة في Dynamics 365 Supply Chain Management.
 author: mkirknel
 manager: AnnBe
 ms.date: 07/30/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867139"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018079"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>الموافقة على الموردين لفئات تدبير محددة
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-يوضح هذا الموضوع كيفية الموافقة على المورّدين لفئات تدبير معينة في Dynamics 365 for Finance and Operations. عندما يتم إنشاء طلب شراء، قد يكون من الضروري تحديد مورّد مفضل أو معتمد، بحسب الطريقة التي تم بها إعداد سياسات الشراء. يوضح هذا الإجراء كيفية تحديد أحد المورّدين كمورّد مفضل أو معتمد لفئة تدبير معينة. عادة ما يتم تنفيذ هذه المهمة بواسطة موظف تدبير محترف. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.
+يوضح هذا الموضوع كيفية الموافقة على المورّدين لفئات تدبير معينة في Dynamics 365 Supply Chain Management. عندما يتم إنشاء طلب شراء، قد يكون من الضروري تحديد مورّد مفضل أو معتمد، بحسب الطريقة التي تم بها إعداد سياسات الشراء. يوضح هذا الإجراء كيفية تحديد أحد المورّدين كمورّد مفضل أو معتمد لفئة تدبير معينة. عادة ما يتم تنفيذ هذه المهمة بواسطة موظف تدبير محترف. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > التدبير والتوريد > المورّدون‬ > كافة المورّدين‬**.
 2. حدد المورّد الذي تريد تعيينه كمورّد مفضل أو معتمد لفئة ما.

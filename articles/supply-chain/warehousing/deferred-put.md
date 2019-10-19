@@ -1,6 +1,6 @@
 ---
 title: المعالجة المؤجلة لعمل المستودع
-description: يصف هذا الموضوع الوظيفة التي تجعل المعالجة المؤجلة لعمليات الوضع في عمل المستودع المتوفرة في Microsoft Dynamics 365 for Finance and Operations.
+description: يصف هذا الموضوع الوظيفة التي تجعل المعالجة المؤجلة لعمليات الوضع في عمل المستودع المتوفرة في Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863576"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026896"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>المعالجة المؤجلة لعمل المستودع
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863576"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-يصف هذا الموضوع الوظيفة التي تجعل المعالجة المؤجلة لعمليات الوضع في عمل المستودع متوفرة في Microsoft Dynamics 365 for Finance and Operations.
+يصف هذا الموضوع الوظيفة التي تجعل المعالجة المؤجلة لعمليات الوضع في عمل المستودع متوفرة في Dynamics 365 Supply Chain Management.
+
 
 تتيح وظيفة المعالجة المؤجلة لعمال المستودع الاستمرار في تنفيذ عمل آخر أثناء معالجة عمليه الوضع في الخلفية. تكون المعالجة المؤجلة مفيدة عند الحاجة لمعالجة العديد من بنود العمل ويمكن أن يسمح العامل بمعالجة هذا العمل بشكل غير متزامن. ويعد ذلك مفيدا أيضًا عندما يمكن أن يكون لدى الخادم زيادة مؤقته أو غير مخططة في وقت المعالجة، وقد يؤثر وقت المعالجة المتزايد على إنتاجية المستخدم.
 

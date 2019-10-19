@@ -1,6 +1,6 @@
 ---
-title: تحديث أدلة الإعداد في Dynamics 365 for Talent - Onboard
-description: يشرح هذا الموضوع كيفية تحديث أدلة الإعداد في Microsoft Dynamics 365 for Talent - Onboard، وكيفية دفع التغييرات إلى الأدلة الموجودة.
+title: تحديث أدلة الإعداد في Dynamics 365 Talent - Onboard
+description: يشرح هذا الموضوع كيفية تحديث أدلة الإعداد في Microsoft Dynamics 365 Talent - Onboardوكيفية دفع التغييرات إلى الأدلة الموجودة.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731349"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010719"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>تحديث أدلة الإعداد في Dynamics 365 for Talent: Onboard
+# <a name="update-onboarding-guides"></a>تحديث أدلة الإعداد 
 
 [!include [banner](includes/banner.md)]
 
-إذا كان يتعين عليك إجراء تغييرات في أدلة الإعداد في Microsoft Dynamics 365 for Talent: Onboard، فيمكنك تحديثها ودفع التغييرات، حتى لو سبق لك إرسال الأدلة. هناك خياران لتحديث دليل الإعداد:
+إذا كان يتعين عليك إجراء تغييرات في أدلة الإعداد في Microsoft Dynamics 365 Talent: Onboard، فيمكنك تحديثها ودفع التغييرات، حتى لو سبق لك إرسال الأدلة. هناك خياران لتحديث دليل الإعداد:
 
 - تحرير دليل الإعداد مباشرةً، ثم حفظ التغييرات.
 - تحرير قالب الإعداد، ثم دفع التغييرات إلى جميع أدلة الإعداد التي تم إنشاؤها منه.

@@ -1,6 +1,6 @@
 ---
-title: التعامل مع بيانات التاريخ والوقت في Microsoft Dynamics 365 for Talent
-description: اعرف ما يجب أن تتوقعه عند استخدام حقول التاريخ والوقت في Microsoft Dynamics 365 for Talent. تمكّن من تكوين فهم واضح لما يجب توقعه عند التعامل مع بيانات التاريخ والوقت في نموذج في Dynamics 365 for Talent، أو مصدر خارجي أو Common Data Service.
+title: التعامل مع بيانات التاريخ والوقت في Microsoft Dynamics 365 Talent
+description: اعرف ما يجب أن تتوقعه عند استخدام حقول التاريخ والوقت في Microsoft Dynamics 365 Talent. تمكّن من تكوين فهم واضح لما يجب توقعه عند التعامل مع بيانات التاريخ والوقت في نموذج في Talent، أو مصدر خارجي أو Common Data Service.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4c652992272ed1a5aecbb4c78f0d11f077149d1
-ms.sourcegitcommit: 46bded82aa072adfedcf443629c2adc69f512c09
+ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1791192"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2007957"
 ---
 # <a name="date-and-time-fields-in-talent"></a>حقول التاريخ والوقت في Talent
 
 [!include [banner](includes/banner.md)]
 
-تعد حقول **التاريخ والوقت** مفهومًا أساسيًا في Dynamics 365 for Talent. من الضروري فهم كيفية التعامل مع بيانات **التاريخ والوقت** في نموذج Dynamics 365، وCommon Data Service، والمصادر الخارجية.
+تعد حقول **التاريخ والوقت** مفهومًا أساسيًا في Dynamics 365 Talent. من الضروري فهم كيفية التعامل مع بيانات **التاريخ والوقت** في نموذج Dynamics 365، وCommon Data Service، والمصادر الخارجية.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>فهم الفرق بين أنواع بيانات حقل التاريخ والتاريخ والوقت
 

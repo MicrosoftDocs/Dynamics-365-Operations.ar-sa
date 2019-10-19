@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent‏ (20‏ مايو 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent‏ (20‏ مايو 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 04d84b95b70a6bb02973ecc350f01231d825f166
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: ecc5b96d7a69c2489d26f02a678d3df425761621
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856223"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008790"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-20-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent‏ (20‏ مايو 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-20-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (20‏ مايو 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Attract.
@@ -46,7 +46,7 @@ ms.locfileid: "1856223"
 
 ## <a name="changes-in-core-hr"></a>التغييرات في Core HR
 
-تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2306. يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: ‏Core HR.
+تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2306. يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Core HR.
 
 ## <a name="in-preview-in-core-hr"></a>في المعاينة في Core HR
 

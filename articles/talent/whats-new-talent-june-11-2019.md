@@ -1,6 +1,6 @@
 ---
-title: ما الجديد والمتغير في Dynamics 365 for Talent (11 يونيو 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد والمتغير في Dynamics 365 Talent (11 يونيو 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/11/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b06dc0556bd1461573cd56abed602d72333a3f39
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741603"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023920"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>ما الجديد والمتغير في Dynamics 365 for Talent (11 يونيو 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>ما الجديد والمتغير في Dynamics 365 Talent (11 يونيو 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 
 ### <a name="search-engine-optimization-for-job-posts"></a>تحسين محرك البحث لعمليات نشر المهام
 
-بعد قيامك بتشغيل **تحسين محرك البحث** في Dynamics 365 for Talent: مركز الإدارة‬‏‫‬‏‫ في Attract، يقوم Attract بإعلام واجهة برمجة التطبيق (API) في فهرسة Google لتتبع صفحة الويب في حالة تنشيط وظيفة جديدة ونشرها أو تحديث وظيفة موجودة. وبهذه الطريقة، ستظهر الوظيفة في نتائج البحث في Google ومحركات البحث الأخرى.
+بعد قيامك بتشغيل **تحسين محرك البحث** في Dynamics 365 Talent: Attract: مركز الإدارة‬‏‫‬‏‫، يقوم Attract بإعلام واجهة برمجة التطبيق (API) في فهرسة Google لتتبع صفحة الويب في حالة تنشيط وظيفة جديدة ونشرها أو تحديث وظيفة موجودة. وبهذه الطريقة، ستظهر الوظيفة في نتائج البحث في Google ومحركات البحث الأخرى.
 
 وبالمثل، في حالة إلغاء نشر وظيفة، يقوم Attract بإعلام واجهة برمجة تطبيق الفهرسة ليتوقف ظهور الوظيفة التي تم إلغاء نشرها عن الظهور في نتائج البحث.
 
@@ -50,15 +50,15 @@ ms.locfileid: "1741603"
 
 ## <a name="changes-in-onboard"></a>التغييرات في Onboard
 
-يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 for Talent: Onboard.
+يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>التغييرات في Core HR
 
 تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2337.
 
-### <a name="platform-update-27"></a>update 27 للنظام الأساسي
+### <a name="platform-update-27-for-finance-and-operations"></a>Platform update 27 لـ Finance and Operations
 
-للحصول على مزيد من التفاصيل حول Platform update 27، راجع [ميزات المعاينة في Dynamics 365 for Finance and Operations platform update 27 (مايو 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+للحصول على مزيد من التفاصيل حول Platform update 27 لـ Finance and Operations راجع [ميزات المعاينة في Dynamics 365 Finance and Operations platform update 27 (يونيو 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>مساحة عمل إدارة الميزات في Talent
 

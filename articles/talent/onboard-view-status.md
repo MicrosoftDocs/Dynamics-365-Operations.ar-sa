@@ -1,6 +1,6 @@
 ---
 title: عرض حالة إعداد الموظفين ومهامك
-description: يشرح هذا الموضوع كيفية استخدام تطبيق Microsoft Dynamics 365 for Talent - Onboard لتعقب تقدم الموظفين الجدد في عملية إعدادهم.
+description: يشرح هذا الموضوع كيفية استخدام تطبيق Microsoft Dynamics 365 Talent - Onboard لتعقب تقدم الموظفين الجدد في عملية إعدادهم.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0e17c572b4d3b5cee3687b25fb340ad9f98247ed
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731344"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009821"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>عرض حالة إعداد الموظفين ومهامك
 
 [!include [banner](includes/banner.md)]
 
-يسمح لك Microsoft Dynamics 365 for Talent: Onboard بعرض التقدم الذي حققه الموظفون الجدد في أنشطة إعدادهم. يمكنك أيضًا عرض أي مهام تم تعيينها لك من أدلة الإعداد.
+يسمح لك Microsoft Dynamics 365 Talent: Onboard بعرض التقدم الذي حققه الموظفون الجدد في أنشطة إعدادهم. يمكنك أيضًا عرض أي مهام تم تعيينها لك من أدلة الإعداد.
 
 ## <a name="view-the-status-of-onboarding-employees"></a>عرض حالة إعداد الموظفين
 

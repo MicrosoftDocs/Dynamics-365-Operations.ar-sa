@@ -1,7 +1,7 @@
 ---
 title: تغيير ترتيب الفرز لكيانات الترويج للبضائع
-description: يشرح هذا الموضوع المفاهيم المرتبطة بالتحكم في ترتيب عرض كيانات مختلفة المرتبطة بالترويج للبضائع في Microsoft Dynamics 365 for Retail.
-author: ashishharchwani
+description: يشرح هذا الموضوع المفاهيم المرتبطة بالتحكم في ترتيب عرض كيانات مختلفة المرتبطة بالترويج للبضائع في Dynamics 365 Retail.
+author: josaw1
 manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
@@ -18,16 +18,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2be3c1198ac6fff851be1bead2f0995202f1f0e7
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c159ff869d6c504fdebbef1fa68115a410c81d85
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866151"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019406"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>تغيير ترتيب الفرز لكيانات الترويج للبضائع
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 يعتبر اكتشاف المنتجات بالنسبة إلى بائعي التجزئة أداة أساسية لتفاعلات العملاء عبر جميع قنوات البيع بالتجزئة. بإمكان وظائف مختلفة أن تساعد العملاء على اكتشاف المنتجات بسهوله. على سبيل المثال، يمكنهم استعراض الفئات والبحث والتصفية.
@@ -38,7 +38,7 @@ ms.locfileid: "1866151"
 
 تم تحسين الدعم لفرز كيانات مختلفة ذات صلة بالترويج للبضائع. يتماشى هذا الدعم الآن بشكل أفضل مع سيناريوهات العميل الموجودة التي كانت تحتاج في السابق إلى ملحقات من أطراف التنفيذ.
 
-في إصدارات Microsoft Dynamics 365 for Retail التي سبقت الإصدار 10.0.5، كان ترتيب الفرز أبجديًا للفئات في التدرج الهرمي للتنقل. تتيح وظيفة ترتيب الفرز المخصص الجديدة لمدراء الترويج للبضائع بتكوين ترتيب الفرز لمختلف الكيانات ذات الصلة بالترويج للبضائع عبر جميع عملاء المستخدمين النهائيين. ويشمل هؤلاء العملاء المقرات الرئيسية ومراكز الاتصال.
+في إصدارات Retail التي سبقت الإصدار 10.0.5، كان ترتيب الفرز أبجديًا للفئات في التدرج الهرمي للتنقل. تتيح وظيفة ترتيب الفرز المخصص الجديدة لمدراء الترويج للبضائع بتكوين ترتيب الفرز لمختلف الكيانات ذات الصلة بالترويج للبضائع عبر جميع عملاء المستخدمين النهائيين. ويشمل هؤلاء العملاء المقرات الرئيسية ومراكز الاتصال.
 
 ## <a name="configure-the-display-order-for-categories-in-the-retail-product-hierarchy"></a>تكوين ترتيب العرض للفئات في التدرج الهرمي لمنتجات البيع بالتجزئة
 
