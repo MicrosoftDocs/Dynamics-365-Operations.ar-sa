@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent‏ (28‏ مايو 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent‏ (28‏ مايو 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c99e0f3637a8d958e31a046eaad6faa57ce3e1e7
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 4c56971628de12823b254f2a68dedfac50c996b0
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856271"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008836"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-28-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent‏ (28‏ مايو 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-28-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (28‏ مايو 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Attract.

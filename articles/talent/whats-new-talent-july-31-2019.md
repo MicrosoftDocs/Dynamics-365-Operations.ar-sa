@@ -1,6 +1,6 @@
 ---
-title: ما الجديد والمتغير في Dynamics 365 for Talent (31 يوليو 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد والمتغير في Dynamics 365 Talent (31 يوليو 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 7/30/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1fffe1bd8739723294c027c174d5e959c1c6010a
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864569"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010235"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-30-2019"></a>ما الجديد والمتغير في Dynamics 365 for Talent (30 يوليو 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>ما الجديد والمتغير في Dynamics 365 Talent (30 يوليو 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Attract.
@@ -43,7 +43,7 @@ ms.locfileid: "1864569"
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>دعم المنطقة لكندا وجنوب شرق آسيا
 
-يسرنا الإعلان عن توفر كندا ومناطق جنوب شرق آسيا لتطبيق Microsoft Dynamics 365 for Talent في الأول من أغسطس 2019. مع هذا التغيير، يمكنك إنشاء بيئات في المناطق الكندية والآسيوية، وستتم المحافظة على بيانات Talent كلها داخل تلك المواقع فقط. يمكنك إنشاء بيئة في هذه المناطق الجديدة عن طريق تحديد الموقع في مربع حوار "بيئة جديدة" واستخدام هذه البيئة لتزويد Talent في LCS كما هو موضح في [تزويد Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+يسرنا الإعلان عن توفر كندا ومناطق جنوب شرق آسيا لتطبيق Talent في الأول من أغسطس 2019. مع هذا التغيير، يمكنك إنشاء بيئات في المناطق الكندية والآسيوية، وستتم المحافظة على بيانات Talent كلها داخل تلك المواقع فقط. يمكنك إنشاء بيئة في هذه المناطق الجديدة عن طريق تحديد الموقع في مربع حوار "بيئة جديدة" واستخدام هذه البيئة لتزويد Talent في LCS كما هو موضح في [تزويد Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 ترحيل البيانات الخاصة بالمشاريع الموجودة من مناطق أخرى إلى المناطق الكندية والآسيوية غير مدعوم. يمكن تزويد المشاريع الجديدة فقط لهذه المناطق المدعومة الجديدة.
 

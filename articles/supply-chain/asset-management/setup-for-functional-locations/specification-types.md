@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b3247f693f5934b3fbf83b7b831c7ed221514cb
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 067d1085d9afa04cb76b78393a8a8b9834ce4d8c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783034"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250934"
 ---
 # <a name="maintenance-attribute-types"></a>أنواع سمات الصيانة
 
@@ -42,10 +42,10 @@ ms.locfileid: "1783034"
 
 ## <a name="create-attribute-types"></a>إنشاء أنواع سمات
 
-يمكنك إنشاء أنواع سمات خاصة بك. بالإضافة إلى ذلك، يمكنك نقل أبعاد المنتج من Microsoft Dynamics 365 for Finance and Operations إلى صفحة **أنواع السمات**.
+يمكنك إنشاء أنواع سمات خاصة بك. بالإضافة إلى ذلك، يمكنك نقل أبعاد المنتج من أبعاد المنتج إلى صفحة **أنواع السمات**.
 
 1. حدد **إدارة الأصول** \> **الإعداد** \> **أنواع السمات**.
-2. في المرة الأولى التي تقوم فيها بإعداد أنواع السمات، حدد **إنشاء أبعاد المنتج** لنقل أبعاد منتج Finance and Operations القياسية تلقائيًا.
+2. في المرة الأولى التي تقوم فيها بإعداد أنواع السمات، حدد **إنشاء أبعاد المنتج** لنقل أبعاد المنتج القياسية تلقائيًا.
 3. حدد **جديد** لإنشاء نوع سمة جديدة.
 4. في الحقل **نوع السمة**، أدخل اسمًا لنوع السمة.
 5. في الحقل **الوصف**، أدخل وصفًا.

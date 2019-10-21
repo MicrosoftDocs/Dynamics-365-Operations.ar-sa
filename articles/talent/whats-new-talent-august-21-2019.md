@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent (20 أغسطس 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent (20 أغسطس 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f437dbbb786456cd335d5fb85e271d224e0a1383
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918184"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024058"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-20-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (20 أغسطس 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (20 أغسطس 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 
@@ -43,11 +43,11 @@ ms.locfileid: "1918184"
 
 ## <a name="changes-in-onboard"></a>التغييرات في Onboard
 
-يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 for Talent: Onboard.
+يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>التغييرات في Core HR
 
-يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 for Talent: Core HR. تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2429.
+يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Core HR. تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2429.
 
 ### <a name="in-preview"></a>قيد المعاينة
 
@@ -69,6 +69,6 @@ ms.locfileid: "1918184"
 
 ### <a name="coming-soon"></a>قريبًا
 
-#### <a name="platform-update-29"></a>update 29 للنظام الأساسي
+#### <a name="platform-update-29-for-finance-and-operations"></a>Platform update 29 لـ Finance and Operations
 
-للحصول على مزيد من التفاصيل حول Platform update 29، راجع [ميزات المعاينة في Dynamics 365 for Finance and Operations platform update 29 (أكتوبر 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+للحصول على مزيد من التفاصيل حول Platform update 29 لـ Finance and Operations، راجع [ميزات المعاينة في Dynamics 365 Finance and Operations platform update 29 (أكتوبر 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

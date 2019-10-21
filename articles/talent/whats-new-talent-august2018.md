@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (أغسطس 2018)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
+title: ما الجديد أو المتغير في Dynamics 365 Talent - Core HR (أغسطس 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 08/27/2018
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: 3327939137486038b9002029c7c9e8d65dfa2f64
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: db7c91ea6599bde7d4c589a021d2d3b262e57ec9
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742599"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010419"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (أغسطس 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-august-2018"></a>ما الجديد أو المتغير في Dynamics 365 Talent: Core HR (أغسطس 2018)
 
 [!include [banner](includes/banner.md)]
 
 **الإصدار 8.1.104**
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent Core HR.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent: Core HR.
 
 ## <a name="view-expiring-records-in-manager-self-service"></a>عرص السجلات منتهية الصلاحية‬ في الخدمة الذاتية للمدير‬
 

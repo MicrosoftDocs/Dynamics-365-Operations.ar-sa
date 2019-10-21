@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1efef5252059d04cf9eaa8fbb5110f193219a9c4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1dca3156a7fb90f8117e34225938cba151916842
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844623"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026315"
 ---
 # <a name="create-a-product"></a>إنشاء منتج
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-يتناول هذا الإجراء إنشاء منتج جديد في التدرج الهرمي لمنتج البيع بالتجزئة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT، وهذه المهمة مخصصة لمدير البضائع و‏‫مصمم المنتج‬.
+يتناول هذا الإجراء إنشاء منتج جديد في التدرج الهرمي لمنتج Retail. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT، وهذه المهمة مخصصة لمدير البضائع و‏‫مصمم المنتج‬.
 
 1. انتقل إلى البيع بالتجزئة والتجارة > .. > المنتجات حسب الفئة.
 2. انقر فوق "جديد".

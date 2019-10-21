@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent (2 أبريل 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent (2 أبريل 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795234"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026061"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (2 أبريل 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (2 أبريل 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
 
@@ -56,8 +56,8 @@ ms.locfileid: "1795234"
 ## <a name="changes-in-core-hr"></a>التغييرات في Core HR
 تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2216.
 
-### <a name="platform-update-25"></a>update 25 للنظام الأساسي
-للحصول على مزيد من المعلومات حول Platform update 25، راجع [ميزات المعاينة في Dynamics 365 for Finance and Operations platform update 25 (أبريل 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Platform update 25 لـ Finance and Operations
+للحصول على مزيد من المعلومات حول Platform update 25 لـ Finance and Operations، راجع [ميزات المعاينة في Dynamics 365 for Finance and Operations platform update 25 (أبريل 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>أمان التعويض المتقدم (التعويض الثابت والمتغير)
 في الكثير من المؤسسات، قد يتوفر لدى مدراء التعويضات والمزايا حق الوصول إلى سجلات تعويض معينة فقط. هذه السجلات قد تتضمن سجلات مخصصة للمدراء التنفيذيين أو الموظفين الإقليميين. يسمح هذا التغيير لقسم الموارد البشرية بإدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. يمكن تعيين أدوار أمان للخطط الثابتة والمتغيرة. وتحدد أدوار الأمان هذه حق الوصول إلى الخطط وبيانات الموظفين ذات الصلة، مثل السجلات الرواتب أو مكافآت، بحيث تتمكن هذه الأدوار فقط من معالجة التعويض لمجموعات الموظفين.
@@ -79,4 +79,4 @@ ms.locfileid: "1795234"
 مع هذا التغيير، يتم الكشف عن التكرارات عند إدخال حقول الأسماء، وتعرض الحالة عدد التكرارات التي تم العثور عليها. يمكنك تحديد الارتباط المتوفر لفتح صفحة جديدة لتقييم ما إذا كان يجب استخدام المطابقة التي تم الكشف عنها. لتجنب مقاطعة إدخال البيانات، لا يفتح نموذج التكرارات بشكل تلقائي.
 
 ###  <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
-مع إصدار Platform update 25، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث. 
+في إصدار Platform update 25 لـ Finance and Operations بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيل الإعلامات بواسطة حدث. 

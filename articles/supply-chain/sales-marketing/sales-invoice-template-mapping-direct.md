@@ -1,6 +1,6 @@
 ---
-title: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
-description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Sales.
+title: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Supply Chain Management إلى Sales
+description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Dynamics 365 Supply Chain Management إلى Dynamics 365 Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552920"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251651"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
 
 [!include [banner](../includes/banner.md)]
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Sales.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Dynamics 365 Supply Chain Management إلى Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>تدفق البيانات في حل العميل المتوقع إلى النقدية
 
-يستخدم حل العميل المتوقع إلى النقدية ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Finance and Operations وSales. تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Finance and Operations وSales. يبين الرسم التوضيحي التالي كيف تتم مزامنة البيانات بين Finance and Operations وSales.
+يستخدم حل العميل المتوقع إلى النقدية ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Supply Chain Management وSales. تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Finance and Operations وSales. يبين الرسم التوضيحي التالي كيف تتم مزامنة البيانات بين Supply Chain Management وSales.
 
 [![تدفق البيانات في حل العميل المتوقع إلى النقدية](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -52,30 +52,30 @@ ms.locfileid: "1552920"
 
 يجب تنفيذ مهام المزامنة التالية قبل حدوث مزامنة رؤوس وبنود فواتير المبيعات.
 
-- ‏‫المنتجات (Fin and Ops إلى Sales)‬ - مباشر
-- الحسابات (Sales إلى Fin and Ops) - مباشر (في حال استخدامها)
-- جهات الاتصال (Sales إلى Fin and Ops) - مباشر (في حال استخدامها)
-- رأس وبنود أوامر المبيعات (Fin and Ops إلى Sales) - مباشر
+- المنتجات (من Supply Chain Management إلى Sales) - مباشر
+- الحسابات (من Sales إلى Supply Chain Management) - مباشر (إذا ما تم استخدامه)
+- جهات الاتصال (Sales إلى Supply Chain Management) - مباشر (إذا ما تم استخدامه)
+- رؤوس وبنود أوامر المبيعات (من Supply Chain Management إلى Sales) - مباشرةً
 
 ## <a name="entity-set"></a>مجموعة الكيانات
 
-| Finance and Operations                               | مبيعات          |
+| Supply Chain Management                              | ال‏‏مبيعات          |
 |------------------------------------------------------|----------------|
 | رؤوس فواتير مبيعات العملاء التي تم الاحتفاظ بها خارجيًا | الفواتير       |
 | بنود فواتير مبيعات العملاء التي تم الاحتفاظ بها خارجيًا   | InvoiceDetails |
 
 ## <a name="entity-flow"></a>تدفق الكيان
 
-يتم إنشاء فواتير المبيعات في Finance and Operations وتتم مزامنتها إلى Sales.
+يتم إنشاء فواتير المبيعات في Supply Chain Management وتتم مزامنتها إلى Sales.
 
 > [!NOTE]
-> في الوقت الحالي، لا يتم تضمين الضريبة المرتبطة بالتكاليف في رأس فاتورة المبيعات في المزامنة من Finance and Operations إلى Sales. يعود سبب ذلك إلى عدم دعم Sales لمعلومات الضرائب على مستوى الرأس. ومع ذلك، يتم تضمين الضريبة المرتبطة بالتكاليف على مستوى البند في المزامنة.
+> في الوقت الحالي، لا يتم تضمين الضريبة المرتبطة بالتكاليف في رأس فاتورة المبيعات في المزامنة من Supply Chain Management إلى Sales. يعود سبب ذلك إلى عدم دعم Sales لمعلومات الضرائب على مستوى الرأس. ومع ذلك، يتم تضمين الضريبة المرتبطة بالتكاليف على مستوى البند في المزامنة.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>حل العميل المتوقع إلى النقدية في Sales
 
 - تمت إضافة حقل **رقم الفاتورة** إلى كيان **الفاتورة** ويتم عرضه على الصفحة.
-- يكون الزر **إنشاء فاتورة** في صفحة **أمر المبيعات** مخفيًا لأن إنشاء الفواتير سيتم في Finance and Operations وستتم مزامنتها إلى Sales. لا تكون صفحة **الفاتورة** قابلة للتحرير لأن مزامنة الفواتير ستتم من Finance and Operations.
-- تتغير **حالة أمر المبيعات** تلقائيًا إلى **مفوتر** عندما تتم مزامنة الفاتورة ذات الصلة من Finance and Operations إلى Sales. بالإضافة إلى ذلك، يتم تعيين مالك أمر المبيعات الذي تم إنشاء الفاتورة منه كمالك للفاتورة. لذلك، يمكن لمالك أمر المبيعات عرض الفاتورة.
+- يكون الزر **إنشاء فاتورة** في صفحة **أمر المبيعات** مخفيًا لأن إنشاء الفواتير سيتم في Supply Chain Management وستتم مزامنتها إلى Sales. لا تكون صفحة **الفاتورة** قابلة للتحرير، لأن مزامنة الفواتير ستتم من Supply Chain Management.
+- تتغير **حالة أمر المبيعات** تلقائيًا إلى **مفوتر** عندما تتم مزامنة الفاتورة ذات الصلة من Supply Chain Management إلى Sales. بالإضافة إلى ذلك، يتم تعيين مالك أمر المبيعات الذي تم إنشاء الفاتورة منه كمالك للفاتورة. لذلك، يمكن لمالك أمر المبيعات عرض الفاتورة.
 
 ## <a name="preconditions-and-mapping-setup"></a>الشروط المسبقة وإعداد التعيين
 
@@ -103,7 +103,7 @@ ms.locfileid: "1552920"
 #### <a name="salesinvoiceline-task"></a>مهمة SalesInvoiceLine
 
 - تأكد من وجود التعيين المطلوب لـ **وحدة القياس**.
-- تأكد من وجود تعيين القيمة المطلوب لـ **SalesUnitSymbol** في Finance and Operations.
+- تأكد من وجود تعيين القيمة المطلوب لـ **SalesUnitSymbol** في Supply Chain Management.
 
     يتم تعريف قيمة القالب التي لها تعيين قيمة لـ **SalesUnitSymbol** إلى **Quantity\_UOM**.
 
@@ -115,7 +115,7 @@ ms.locfileid: "1552920"
 تبين الأشكال التوضيحية التالية مثالاً لتعيين قالب في تكامل البيانات. 
 
 > [!NOTE]
-> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Finance and Operations.
+> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Supply Chain Management.
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
@@ -131,16 +131,10 @@ ms.locfileid: "1552920"
 
 [العميل المتوقع إلى النقدية](prospect-to-cash.md)
 
-[مزامنة الحسابات مباشرةً من Sales للعملاء في Finance and Operations‎](accounts-template-mapping-direct.md)
+[مزامنة الحسابات مباشرةً من Sales إلى العملاء في Supply Chain Management‎](accounts-template-mapping-direct.md)
 
-[مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎](products-template-mapping-direct.md)
+[مزامنة المنتجات مباشرةً من Supply Chain Management إلى المنتجات في Sales‎‎](products-template-mapping-direct.md)
 
-[مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎](contacts-template-mapping-direct.md)
+[مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎](contacts-template-mapping-direct.md)
 
-[مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Finance and Operations إلى Sales](sales-order-template-mapping-direct-two-ways.md)
-
-
-
-
-
-
+[مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-order-template-mapping-direct-two-ways.md)

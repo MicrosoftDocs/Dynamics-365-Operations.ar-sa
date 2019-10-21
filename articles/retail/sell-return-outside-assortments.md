@@ -1,6 +1,6 @@
 ---
 title: بيع وإرجاع منتجات لا تشكل جزءًا من فرز المتجر
-description: باستخدام Dynamics 365 for Retail، بيع وإرجاع المنتجات خارج عمليات الفرز.
+description: باستخدام Dynamics 365 Retail، بيع وإرجاع المنتجات خارج عمليات الفرز.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae6bac983ddb4d4a217fe83c8f68c5a87ccd6a47
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567897"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024927"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>بيع وإرجاع منتجات لا تشكل جزءًا من فرز المتجر
 
@@ -37,7 +37,7 @@ ms.locfileid: "1567897"
 + لا توجد لدى بائع التجزئة منتجات محددة في المتجر أو هي غير متوفرة في المخزون في المتجر الذي زاره العميل، ولكن هذه المنتجات متوفرة في متاجر أخرى. باستطاعة موظف المتجر مساعدة العميل عن طريق البحث عن منتجات معينة في المتجر أو استعراضها، وإضافتها إلى عربة التسوق، وإكمال عملية السداد والخروج عن طريق تحديد أسلوب تسليم.
 + لدى بائع التجزئة الكثير من المتاجر في منطقة محددة أو رمز بريدي محدد أو حولهما، وهو لا يريد إجبار العملاء على إعادة المنتجات إلى المتجر نفسه حيث تمت عملية الشراء. بدلاً من ذلك، باستطاعة العملاء إرجاع المنتجات إلى أي متجر.
 
-تتوفر هذه السيناريوهات الشائعة لبائعي التجزئة الذين يستخدمون Dynamics 365 for Retail. باستخدام Retail، يمكنك:
+تتوفر هذه السيناريوهات الشائعة لبائعي التجزئة الذين يستخدمون Retail. باستخدام Retail، يمكنك:
 
 + البحث عن منتجات في متاجر أخرى أو استعراضها.
 + البحث عن جميع المنتجات الصادرة أو استعراضها.

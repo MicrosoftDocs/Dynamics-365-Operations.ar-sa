@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على إدارة النقل
-description: يقدم هذا الموضوع نظرة عامة حول وظائف إدارة النقل في Microsoft Dynamics 365 for Finance and Operations.
+description: يقدم هذا الموضوع نظرة عامة حول وظائف إدارة النقل في Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561132"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027051"
 ---
 # <a name="transportation-management-overview"></a>نظرة عامة على إدارة النقل
 
 [!include [banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة حول وظائف إدارة النقل في Microsoft Dynamics 365 for Finance and Operations.
+يقدم هذا الموضوع نظرة عامة حول وظائف إدارة النقل في Finance and Operations.
 
-تسمح لك إدارة النقل باستخدام وسائل النقل الخاص بالشركة، وتسمح لك أيضًا بتحديد المورّدين وحلول التوجيه للأوامر الواردة والصادرة. على سبيل المثال، يمكنك تعريف أسرع الطرق أو المعدل الأقل تكلفة لشحنة ما. يصف الجدول التالي السيناريوهات الأساسية لاستخدام إدارة النقل في Microsoft Dynamics 365 for Finance and Operations.
+تسمح لك إدارة النقل باستخدام وسائل النقل الخاص بالشركة، وتسمح لك أيضًا بتحديد المورّدين وحلول التوجيه للأوامر الواردة والصادرة. على سبيل المثال، يمكنك تعريف أسرع الطرق أو المعدل الأقل تكلفة لشحنة ما. يصف الجدول التالي السيناريوهات الأساسية لاستخدام إدارة النقل.
 
 <table>
 <colgroup>

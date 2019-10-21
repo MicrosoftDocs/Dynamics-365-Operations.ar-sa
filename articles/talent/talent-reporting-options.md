@@ -1,6 +1,6 @@
 ---
 title: خيارات إعداد التقارير في Talent
-description: يتناول هذا الموضوع كيفية حل المشكلة التي يريد فيها العميل تخصيص تقارير Dynamics 365 for Talent أو إنشاء تقارير جديدة.
+description: يتناول هذا الموضوع كيفية حل المشكلة التي يريد فيها العميل تخصيص تقارير Dynamics 365 Talent أو إنشاء تقارير جديدة.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 50342c847200d015a66c6f22007070bb26c6caef
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741788"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009342"
 ---
 # <a name="reporting-options-in-talent"></a>خيارات إعداد التقارير في Talent
 
@@ -34,7 +34,7 @@ ms.locfileid: "1741788"
 
 **العَرَضْ**
 
-يُريد العميل تخصيص تقارير Dynamics 365 for Talent أو إنشاء تقارير جديدة.
+يُريد العميل تخصيص تقارير Dynamics 365 Talent أو إنشاء تقارير جديدة.
 
 **إصدار**
 
@@ -42,7 +42,7 @@ ms.locfileid: "1741788"
 
 **الحل**
 
-- يمكن الإبلاغ عن بيانات Core HR التي تتدفق إلى Common Data Service عبر موصل PowerApps Common Data Service إلى Power BI Desktop. لاحظ أن Common Data Service تحتوي على مجموعة فرعية من بيانات Core HR. لمزيد من المعلومات حول Power BI ولوحات المعلومات، راجع [إنشاء تقارير ولوحات معلومات Power BI باستخدام PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- يمكن الإبلاغ عن بيانات Core HR التي تتدفق إلى Common Data Service عبر موصل PowerAppsCommon Data Service إلى Power BI Desktop. لاحظ أن Common Data Service تحتوي على مجموعة فرعية من بيانات Core HR. لمزيد من المعلومات حول Power BI ولوحات المعلومات، راجع [إنشاء تقارير Power BI ولوحات معلومات PowerApps باستخدام Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi) .
 - يتوفر إعداد التقارير الإلكترونية (ER) لبعض التقارير في Talent. يمكن إجراء التخصيصات القائمة على العميل من خلال خيارات تكوين ER.
 - يمكن تصدير البيانات إلى Microsoft Excel أو Microsoft Word باستخدام كيانات البيانات المختلفة التي يوفرها Talent من خلال تكامل Microsoft Office.
 

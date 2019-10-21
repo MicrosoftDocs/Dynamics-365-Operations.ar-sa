@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent (14 مارس 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent (14 مارس 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/14/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5c3beef9ef4e73eaf76f861735bb154fa630703f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742483"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023897"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (14 مارس 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (14 مارس 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -46,8 +46,8 @@ ms.locfileid: "1742483"
 ### <a name="mass-assign-checklists-to-workers"></a>تعيين قوائم الاختيار إلى العاملين بشكل مجمع
 مع هذا التغيير، يمكنك الآن تحديد عدة موظفين وتعيين قائمة اختيار واحدة أو أكثر إلى هؤلاء الموظفين بشكل مجمع. 
 
-### <a name="platform-update-24"></a>update 24 للنظام الأساسي
-للحصول على تفاصيل إضافية حول Platform update 24، راجع [الميزات الجديدة أو المتغيرة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). تتضمن التغييرات الهامة في platform 24 ما يلي: 
+### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 لـ Finance and Operations
+للحصول على تفاصيل إضافية حول Platform update 24 لـ Finance and Operations، راجع [الميزات الجديدة أو المتغيرة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). تتضمن التغييرات الهامة في platform 24 ما يلي: 
 
 - تم تمكين التنبيهات في Talent.
 - يتحاذى الآن شريط التنقل المحدث مع رأس Office.
@@ -67,7 +67,7 @@ ms.locfileid: "1742483"
 في الكثير من المؤسسات، قد يتوفر لدى مدراء التعويضات والمزايا حق الوصول إلى سجلات تعويض معينة فقط. وقد تكون هذه السجلات مخصصة للمدراء التنفيذيين أو الموظفين الإقليميين. مع هذا التغيير، سيتمكن قسم الموارد البشرية من إدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. يمكن تعيين أدوار أمان إلى خطط التعويض الثابت والمتغير التي تحدد حق الوصول إلى الخطط وبيانات الموظفين ذات الصلة بها، على سبيل المثال، معلومات حول الرواتب أو سجلات المكافآت. وحدها الأدوار التي تم منح حق الوصول لها يمكنها معالجة التعويض لهؤلاء الموظفون.
 
 ###  <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
-مع إصدار Platform update 24، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث.
+في إصدار Platform update 24 لـ Finance and Operations بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيل الإعلامات بواسطة حدث.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>عمليات التحقق من الموظفين المكررين: تغييرات واجهة المستخدم
 مع هذا التغيير، يتم الكشف عن التكرارات عند إدخال حقول الأسماء، وتعرض الحالة عدد التكرارات التي تم العثور عليها. يمكنك تحديد الارتباط المتوفر لفتح صفحة جديدة لتقييم ما إذا كان يجب استخدام المطابقة التي تم الكشف عنها. لا يفتح نموذج التكرارات بشكل تلقائي لتجنب مقاطعة إدخال البيانات.

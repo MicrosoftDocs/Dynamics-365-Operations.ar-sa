@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471ab164d7bd2e85f5192c082a905f3c30de3d2b
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866079"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026706"
 ---
 # <a name="warehouse-configuration-overview"></a>نظرة عامة على تكوين المستودع
 
@@ -34,7 +34,7 @@ ms.locfileid: "1866079"
 **ملاحظة:** ينطبق هذا المقال على الميزات الموجودة في وحدة **إدارة المستودعات** (التخزين المتقدم). ولا ينطبق على ميزات المستودع في وحدة **إدارة المخزون**.
 
 ## <a name="warehouse-layout"></a>تخطيط المستودع
-يوفر نظام إدارة المستودعات في Microsoft Dynamics 365 for Finance and Operations طرقًا مرنة لتحديد تخطيط المستودع لتلبية الاحتياجات المتغيرة، بحيث يمكنك تحقيق الكفاءة المثلى للمستودع.
+يوفر نظام إدارة المستودعات في Finance and Operations طرقًا مرنة لتحديد تخطيط المستودع لتلبية الاحتياجات المتغيرة، بحيث يمكنك تحقيق الكفاءة المثلى للمستودع.
 
 -   يمكنك إنشاء مناطق المخزونات ذات الأولوية العالية والأولوية المنخفضة للموضع الأمثل للبضائع.
 -   يمكنك تقسيم المستودع الخاص بك إلى مناطق لتلبية مختلف احتياجات التخزين، مثل متطلبات درجة الحرارة أو معدلات الدوران المتنوعة للأصناف.

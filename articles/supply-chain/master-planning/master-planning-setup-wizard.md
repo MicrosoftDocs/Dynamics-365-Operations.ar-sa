@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 9cc2d99a8dfc28f8d9a9b36a5b74059a515822b9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 0310ac55d35421d8ad9080739fc5a393660ce520
+ms.sourcegitcommit: 261dc882710f29303b14f9be8a26d71d85d25345
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863599"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "1999524"
 ---
 # <a name="master-planning-setup-wizard"></a>معالج إعداد التخطيط الرئيسي
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 يوفر هذا الموضوع دليلاً **لمعالج‏‎ إعداد التخطيط الرئيسي**. ويوضح كيفيه حساب اقتراحات المعلمة ويوفر الأمثلة التي توضح كيفيه إعداد الشركات المختلفة للتخطيط الرئيسي، استنادًا إلى احتياجات الأعمال الخاصة بها.

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557629"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249622"
 ---
 # <a name="cost-management-home-page"></a>الصفحة الرئيسية لإدارة التكلفة
 
@@ -69,5 +69,5 @@ ms.locfileid: "1557629"
 يمكنك العثور على آراء وأخبار وغيرها من المعلومات حول إدارة التكلفة في [مدونة فريق بحث وتطوير Dynamics AX Manufacturing R&D](https://blogs.msdn.microsoft.com/axmfg) وفي [إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق من إدارة التكلفة، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
 
 #### <a name="task-guides"></a>دلائل المهام
-تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+تتوفر تعليمات إضافية كدلائل مهام. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
 

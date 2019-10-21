@@ -1,6 +1,6 @@
 ---
-title: مزامنة أوامر المبيعات مباشرةً بين Finance and Operations وSales
-description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً من Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations.
+title: مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management
+description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً بين Dynamics 365 Sales و Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/09/2019
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
-ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
+ms.openlocfilehash: 7c8831203ae30991ff8acf1926aafc2d1839aeb2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1539104"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251260"
 ---
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً من Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً بين Dynamics 365 Sales و Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>تدفق البيانات في حل العميل المتوقع إلى النقدية
 
-يستخدم حل العميل المتوقع إلى النقدية ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Finance and Operations وSales. تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Finance and Operations وSales. يبين الرسم التوضيحي التالي كيف تتم مزامنة البيانات بين Finance and Operations وSales.
+يستخدم حل العميل المتوقع إلى النقدية ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Supply Chain Management وSales. تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Supply Chain Management وSales. يبين الرسم التوضيحي التالي كيف تتم مزامنة البيانات بين Supply Chain Management وSales.
 
 [![تدفق البيانات في حل العميل المتوقع إلى النقدية](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -42,12 +42,12 @@ ms.locfileid: "1539104"
 
 للوصول إلى القوالب المتوفرة، افتح [مركز إدارة PowerApps](https://preview.admin.powerapps.com/dataintegration). حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
-يتم استخدام القوالب والمهام الأساسية التالية لتشغيل مزامنة أوامر المبيعات مباشرةً بين Sales وFinance and Operations:
+يتم استخدام القوالب والمهام الأساسية التالية لتشغيل مزامنة أوامر المبيعات مباشرةً بين Sales وSupply Chain Management:
 
 - **أسماء القوالب في تكامل البيانات:** 
 
-    - أوامر المبيعات (Sales إلى Fin and Ops) - مباشر
-    - أوامر المبيعات (Fin and Ops إلى Sales) - مباشر
+    - أوامر المبيعات (Sales إلى Supply Chain Management) - مباشر
+    - أوامر المبيعات (Supply Chain Management إلى Sales) - مباشر
 
 - **أسماء المهام في مشروع تكامل البيانات:**
 
@@ -56,57 +56,57 @@ ms.locfileid: "1539104"
 
 يجب تنفيذ مهام المزامنة التالية قبل حدوث مزامنة رؤوس وبنود فواتير المبيعات.
 
-- ‏‫المنتجات (Fin and Ops إلى Sales)‬ - مباشر
-- الحسابات (Sales إلى Fin and Ops) - مباشر (في حال استخدامها)
-- جهات الاتصال إلى العملاء (Sales إلى Fin and Ops) - مباشر (في حال استخدامها)
+- المنتجات (من Supply Chain Management إلى Sales) - مباشر
+- الحسابات (من Sales إلى Supply Chain Management) - مباشر (إذا ما تم استخدامه)
+- جهات الاتصال إلى العملاء (من Sales إلى Supply Chain Management) - مباشر (إذا ما تم استخدامه)
 
 ## <a name="entity-set"></a>مجموعة الكيانات
 
-| Finance and Operations  | مبيعات             |
+| Supply Chain Management  | ال‏‏مبيعات             |
 |-------------------------|-------------------|
-| رؤوس أوامر المبيعات CDS | SalesOrders       |
+| رؤوس أوامر مبيعات CDS | SalesOrders       |
 | بنود أمر مبيعات CDS   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>تدفق الكيان
 
-‏‫يتم إنشاء أوامر المبيعات في Sales وتتم مزامنتها إلى Finance and Operations عند **تشغيل المشروع** لأحد المشاريع استنادًا إلى القالب **أوامر المبيعات (Sales إلى Fin and Ops) - مباشر**. لا يمكنك تنشيط ومزامنة الأوامر من Sales إلا إذا كانت جميع **منتجات الأوامر** تتكون من المنتجات التي تتم المحافظة عليها خارجيًا. لذلك، قد لا يكون هناك أي منتجات مدونة. بعد تنشيط الأمر، يصبح أمر المبيعات للقراءة فقط في واجهة المستخدم (UI). عند هذه النقطة، يتم إجراء التحديثات من Finance and Operations. بعد حصول أمر المبيعات على الحالة **مؤكد**، يمكن استخدام المشروع الذي يستند القالب **أوامر المبيعات (Fin and Ops إلى Sales) - مباشر** لمزامنة التحديثات أو حالة الاستيفاء من Finance and Operations إلى Sales.
+‏‫يتم إنشاء أوامر المبيعات في Sales وتتم مزامنتها إلى Supply Chain Management عند تشغيل **تشغيل المشروع** لأحد المشاريع استنادًا إلى القالب **أوامر المبيعات (Sales إلى Supply Chain Management) - مباشر**. لا يمكنك تنشيط ومزامنة الأوامر من Sales إلا إذا كانت جميع **منتجات الأوامر** تتكون من المنتجات التي تتم المحافظة عليها خارجيًا. لذلك، قد لا يكون هناك أي منتجات مدونة. بعد تنشيط الأمر، يصبح أمر المبيعات للقراءة فقط في واجهة المستخدم (UI). عند هذه النقطة، يتم إجراء التحديثات من Supply Chain Management. بعد حصول أمر المبيعات على الحالة **مؤكد**، يمكن استخدام المشروع الذي يستند القالب **أوامر المبيعات (Supply Chain Management إلى Sales) - مباشر** لمزامنة التحديثات أو حالة الاستيفاء من Supply Chain Management إلى Sales.
 
-لا يتعين عليك إنشاء الأوامر في Sales. يمكنك إنشاء أوامر المبيعات الجديدة في Finance and Operations بدلاً من ذلك. بعد حصول أمر المبيعات على الحالة **مؤكد**، تتم مزامنته إلى Sales كما هو موضح في الفقرة السابقة.
+لا يتعين عليك إنشاء الأوامر في Sales. يمكنك إنشاء أوامر المبيعات الجديدة في Supply Chain Management بدلاً من ذلك. بعد حصول أمر المبيعات على الحالة **مؤكد**، تتم مزامنته إلى Sales كما هو موضح في الفقرة السابقة.
 
-في Finance and operations، تساعد عوامل التصفية الموجودة في القالب على ضمان عدم تضمين غير أوامر المبيعات ذات الصلة في المزامنة:
+في Supply Chain Management، تساعد عوامل التصفية الموجودة في القالب على ضمان عدم تضمين غير أوامر المبيعات ذات الصلة في المزامنة:
 
-- في أمر المبيعات، يجب إنشاء كل من عميل الأمر وعميل الفوترة من Sales ليتم تضمينه في المزامنة. في Finance and Operations، يتم استخدام الحقلين **OrderingCustomerIsExternallyMaintained** و**InvoiceCustomerIsExternallyMaintained** لتصفية أوامر المبيعات من كيانات البيانات.
-- يجب تأكيد أمر المبيعات في Finance and Operations. لا تتم مزامنة غير أوامر المبيعات المؤكدة أو أوامر المبيعات التي لها حالة معالجة أعلى، مثل الحالة **مشحون** أو **مفوتر** إلى Sales.
-- بعد إنشاء أمر مبيعات أو تعديله، يجب تنفيذ وظيفة الدُفعة **حساب إجماليات المبيعات‬** في Finance and Operations. لن تتم مزامنة غير أوامر المبيعات التي تم حساب إجماليات المبيعات‬ فيها إلى Sales.
+- في أمر المبيعات، يجب إنشاء كل من عميل الأمر وعميل الفوترة من Sales ليتم تضمينه في المزامنة. في Supply Chain Management، يتم استخدام الحقلين **OrderingCustomerIsExternallyMaintained** و **InvoiceCustomerIsExternallyMaintained** لتصفية أوامر المبيعات من كيانات البيانات.
+- يجب تأكيد أمر المبيعات في Supply Chain Management. لا تتم مزامنة غير أوامر المبيعات المؤكدة أو أوامر المبيعات التي لها حالة معالجة أعلى، مثل الحالة **مشحون** أو **مفوتر** إلى Sales.
+- بعد إنشاء أمر مبيعات أو تعديله، يجب تنفيذ وظيفة الدُفعة **حساب إجماليات المبيعات‬** في Supply Chain Management. لن تتم مزامنة غير أوامر المبيعات التي تم حساب إجماليات المبيعات‬ فيها إلى Sales.
 
 ## <a name="freight-tax"></a>ضريبة الشحن
 
-لا يدعم Sales الضريبة على مستوى الرأس، لأنه يتم تخزين الضريبة على مستوى البند. لدعم الضريبة على مستوى الرأس من Finance and Operations، مثل الضريبة على الشحن، يقوم النظام بمزامنة الضريبة إلى Sales على أنها منتج مدون بالاسم **ضريبة الشحن**، ويكون له مبلغ الضريبة من Finance and Operations. بهذه الطريقة، يمكن استخدام عملية حساب السعر القياسي في Sales للإجماليات، حتى في حالة وجود ضريبة على مستوى الرأس من Finance and Operations.
+لا يدعم Sales الضريبة على مستوى الرأس، لأنه يتم تخزين الضريبة على مستوى البند. لدعم الضريبة على مستوى الرأس من Supply Chain Managements، مثل الضريبة على الشحن، يقوم النظام بمزامنة الضريبة إلى Sales على أنها منتج مدون بالاسم يُسمى **ضريبة الشحن**، ويكون له مبلغ الضريبة من Supply Chain Management. بهذه الطريقة، يمكن استخدام عملية حساب السعر القياسي في Sales للإجماليات، حتى في حالة وجود ضريبة على مستوى الرأس من Supply Chain Management.
 
 ## <a name="discount-calculation-and-rounding"></a>حساب الخصومات وتقريبها
 
-يختلف نموذج حساب الخصم في Sales عن نموذج حساب الخصم في Finance and Operations. في Finance and Operations، يمكن أن يكون مبلغ الخصم النهائي على بند مبيعات نتيجة لمجموعة من مبالغ الخصم ونسبه المئوية. إذا كان مبلغ الخصم النهائي هذا مُقسمًا على الكمية في البند، فيمكن أن يحدث تقريب. ومع ذلك، لا يؤخذ هذا التقريب في الاعتبار في حالة مزامنة مبلغ خصم تقريبي لكل وحدة إلى Sales. للمساعدة في ضمان مزامنة مبلغ الخصم الكامل من بند مبيعات في Finance and Operations بشكل صحيح إلى Sales، يجب مزامنة المبلغ الكامل دون تقسيمه على كمية البند. لذلك، يجب عليك تحديد **طريقة حساب الخصم** كـ **صنف بند** في Sales.
+يختلف نموذج حساب الخصم في Sales عن نموذج حساب الخصم في Supply Chain Management. في Supply Chain Management، يمكن أن يكون مبلغ الخصم النهائي على بند مبيعات نتيجة لمجموعة من مبالغ الخصم والنسب المئوية. إذا كان مبلغ الخصم النهائي هذا مُقسمًا على الكمية في البند، فيمكن أن يحدث تقريب. ومع ذلك، لا يؤخذ هذا التقريب في الاعتبار في حالة مزامنة مبلغ خصم تقريبي لكل وحدة إلى Sales. للمساعدة في ضمان مزامنة مبلغ الخصم الكامل من بند مبيعات في Supply Chain Management بشكل صحيح إلى Sales، يجب مزامنة المبلغ الكامل دون تقسيمه على كمية البند. لذلك، يجب عليك تحديد **طريقة حساب الخصم** كـ **صنف بند** في Sales.
 
-عند مزامنة بند أمر مبيعات من Sales إلى Finance and Operations، يتم استخدام مبلغ خصم البند الكامل. نظرًا لأن Finance and Operations لا يحتوي على حقل يمكنه تخزين مبلغ الخصم الكامل لأحد البنود، يتم تقسيم المبلغ على الكمية ويتم تخزينه في الحقل **خصم البند**. يتم تخزين أي تقريب يحدث في هذا التقسيم في الحقل **تكاليف المبيعات** في بند المبيعات.
+عند مزامنة بند أمر مبيعات من Sales إلى Supply Chain Management، يتم استخدام مبلغ خصم البند الكامل. نظرًا لأن Supply Chain Management لا يحتوي على حقل يمكنه تخزين مبلغ الخصم الكامل لأحد البنود، يتم تقسيم المبلغ على الكمية ويتم تخزينه في الحقل **خصم البند**. يتم تخزين أي تقريب يحدث في هذا التقسيم في الحقل **تكاليف المبيعات** في بند المبيعات.
 
 ### <a name="example"></a>مثال
 
-**المزامنة من Sales إلى Finance and Operations**
+**مزامنة من Sales إلي Supply Chain Management**
 
 - **Sales:** الكمية = 3، خصم لكل بند = 10.00 دولار أمريكي
-- **Finance and Operations:** الكمية = 3، مبلغ الخصم لكل بند = 3.33 دولار أمريكي، تكلفة المبيعات = 0.01 دولار أمريكي 
+- **Supply Chain Management:** الكمية = 3 ، مبلغ خصم البند = $3.33 ، رسوم المبيعات =-$0.01 
 
-**المزامنة من Finance and Operations إلى Sales**
+**مزامنة من Supply Chain Management إلى Sales**
 
-- **Finance and Operations:** الكمية = 3، مبلغ الخصم لكل بند = 3.33 دولار أمريكي، تكلفة المبيعات = 0.01 دولار أمريكي
+- **Supply Chain Management:** الكمية = 3 ، مبلغ خصم البند = $3.33 ، رسوم المبيعات =-$0.01
 - **Sales:** الكمية = 3، خصم لكل بند = (3 × 3.33 دولار أمريكي) + 0.01 دولار أمريكي = 10.00 دولار أمريكي
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>حل العميل المتوقع إلى النقدية في Sales
 
 تمت إضافة حقول جديدة إلى كيان **الأمر** وهي تظهر على الصفحة:
 
-- **تتم المحافظة عليها خارجيًا‬‏‫‬‏‫** - عيّن هذا الخيار إلى **نعم** عندما يأتي الأمر من Finance and Operations.
-- **حالة المعالجة** - يستخدم هذا الحقل لعرض حالة معالجة الأمر في Finance and Operations. تتوفر القيم التالية:
+- **تتم المحافظة عليها خارجيًا‬‏‫‬‏‫** - عيّن هذا الخيار إلى **نعم** عندما يأتي الأمر من Supply Chain Management.
+- **حالة المعالجة** - يستخدم هذا الحقل لعرض حالة معالجة الأمر في Supply Chain Management. تتوفر القيم التالية:
 
     - **مسودة** – الحالة الأولية عند إنشاء أمر في Sales. في Sales، لا يمكن تحرير إلا الأوامر التي بحالة المعالجة هذه.
     - **نشط** – الحالة بعد تنشيط الأمر في Sales باستخدام الزر **تنشيط**.
@@ -121,11 +121,11 @@ ms.locfileid: "1539104"
     - **مفوتر جزئيًا**
     - **تم الإلغاء**
 
-يتم استخدام الإعداد **لديه منتجات تتم المحافظة عليها خارجيًا فقط** أثناء تنشيط الأمر للتحقق بشكل مستمر مما إذا كان أمر المبيعات يتكوّن بكامله من منتجات تتم المحافظة عليها خارجيًا. إذا كان أمر المبيعات يتكوّن بكامله من منتجات تتم المحافظة عليها خارجيًا، فستتم المحافظة على المنتجات في Finance and Operations. يساعد هذا الإعداد على ضمان عدم تنشيط أو محاولة مزامنة بنود أوامر المبيعات التي تشتمل على منتجات غير معروفة إلى Finance and Operations.
+يتم استخدام الإعداد **لديه منتجات تتم المحافظة عليها خارجيًا فقط** أثناء تنشيط الأمر للتحقق بشكل مستمر مما إذا كان أمر المبيعات يتكوّن بكامله من منتجات تتم المحافظة عليها خارجيًا. إذا كان أمر المبيعات يتكوّن بكامله من منتجات تتم المحافظة عليها خارجيًا، فستتم المحافظة على المنتجات في Supply Chain Management. يساعد هذا الإعداد على ضمان عدم تنشيط أو محاولة مزامنة بنود أوامر المبيعات التي تشتمل على منتجات غير معروفة إلى Supply Chain Management.
 
-تكون الأزرار **إنشاء فاتورة** و**إلغاء الأمر** و**إعادة الحساب** و**الحصول على منتجات** و**البحث عن عنوان** في صفحة **أمر المبيعات** مخفية للأوامر التي تتم المحافظة عليها خارجيًا إذ سيتم إنشاء الفواتير في Finance and Operations وستتم مزامنتها إلى Sales. لا يمكن تحرير هذه الأوامر، لأنه ستتم مزامنة معلومات أمر المبيعات من Finance and Operations بعد التنشيط.
+تكون الأزرار **إنشاء فاتورة** و **إلغاء الأمر** و **إعادة الحساب** و **الحصول على منتجات** و **البحث عن عنوان** في صفحة **أمر المبيعات** مخفية للأوامر التي تتم المحافظة عليها خارجيًا إذ سيتم إنشاء الفواتير في Supply Chain Management وستتم مزامنتها إلى Sales. لا يمكن تحرير هذه الأوامر، لأنه ستتم مزامنة معلومات أمر المبيعات من Supply Chain Management بعد التنشيط.
 
-ستبقى حالة أمر المبيعات **نشطة** للمساعدة في ضمان إمكانية انسياب التغييرات من Finance and Operations إلى أمر المبيعات في Sales. للتحكم في هذا السلوك، قم بتعيين الإعداد الافتراضي **Statecode \[الحالة\]** إلى **نشط** في مشروع تكامل البيانات.
+سوف تظل حالة أمر المبيعات **نشطة** للمساعدة في ضمان إمكانية انسياب التغييرات من Supply Chain Management إلى أمر المبيعات في Sales. للتحكم في هذا السلوك، قم بتعيين الإعداد الافتراضي **Statecode \[الحالة\]** إلى **نشط** في مشروع تكامل البيانات.
 
 ## <a name="preconditions-and-mapping-setup"></a>الشروط المسبقة وإعداد التعيين
 
@@ -137,17 +137,17 @@ ms.locfileid: "1539104"
 
     انتقل إلى **الإعدادات** &gt; **الأمان** &gt; **الفرق**، حدد الفريق المناسب، وحدد **إدارة الأدوار**، ثم حدد دورًا يملك الأذونات المطلوبة على سبيل المثال، **مسؤول النظام**.
 
-- للتأكد من صحة حساب الخصومات في كل من Sales وFinance and Operations، يجب تعيين **طريقة حساب الخصم** إلى **صنف البند**.
+- للتأكد من صحة حساب الخصومات في كل من Sales وSupply Chain Management، يجب تعيين **طريقة حساب الخصم** إلى **صنف البند**.
 - انتقل إلى **الإعدادات** &gt; **الإدارة** &gt; **إعدادات النظام** &gt; **Sales**‎، وتأكد من أنه يتم استخدام الإعدادات التالية:
 
     - يكون الخيار **‬‏‫استخدام حساب أسعار النظام** معينًا إلى **نعم**.
     - يكون الحقل **طريقة حساب الخصم** معينًا إلى **صنف البند**.
 
-### <a name="setup-in-finance-and-operations"></a>الإعداد في Finance and Operations
+### <a name="setup-in-supply-chain-management"></a>الإعداد في Supply Chain Management
 
 - انتقل إلى **المبيعات والتسويق**&gt;**المهام الدورية**&gt;**حساب إجماليات المبيعات**، وعيِّن الوظيفة لتشغيلها كوظيفة دُفعة. عيّن الخيار **‏‫حساب إجماليات أوامر المبيعات‬** إلى **نعم**. ‏‫تعد هذه الخطوة هامة لأن أوامر المبيعات التي تم حساب إجماليات المبيعات‬ فيها هي فقط أوامر المبيعات التي ستتم مزامنتها إلى Sales. يجب أن يكون مدى تكرار وظيفة الدُفعة متوافقًا مع مدى تكرار مزامنة أوامر المبيعات.
 
-إذا كنت تستخدم أيضًا تكامل أمر العمل، ستحتاج إلى اعداد أصل المبيعات. يتم استخدام أصل المبيعات للتمييز أوامر المبيعات في Finance and Operations التي تم إنشاؤها من أوامر العمل في Field Service. عندما يشتمل أمر مبيعات على أصل مبيعات من نوع **تكامل أمر العمل**، يظهر حقل **حالة أمر العمل الخارجي** في عنوان أمر المبيعات. بالإضافة إلى ذلك، يضمن أصل المبيعات تصفية أوامر المبيعات التي تم إنشاؤها من أوامر العمل في Field Service أثناء مزامنة أوامر المبيعات من Finance and Operations إلى Field Service.
+إذا كنت تستخدم أيضًا تكامل أمر العمل، ستحتاج إلى اعداد أصل المبيعات. يتم استخدام أصل المبيعات لتمييز أوامر المبيعات في Supply Chain Management التي تم إنشاؤها من أوامر العمل في Field Service. عندما يشتمل أمر مبيعات على أصل مبيعات من نوع **تكامل أمر العمل**، يظهر حقل **حالة أمر العمل الخارجي** في عنوان أمر المبيعات. بالإضافة إلى ذلك، يساعد أصل المبيعات في ضمان تصفية أوامر المبيعات التي تم إنشاؤها من أوامر العمل في Field Service أثناء مزامنة أوامر المبيعات من Supply Chain Management إلى Field Service.
 
 1. انتقل إلى **المبيعات والتسويق** \> **الإعداد** \> **أوامر المبيعات** \> **أصل المبيعات**.
 2. حدد **جديد** لإنشاء أصل مبيعات جديد.
@@ -157,13 +157,13 @@ ms.locfileid: "1539104"
 6. قم بتعيين حقل **نوع أصل المبيعات** إلى **تكامل أمر المبيعات**.
 7. حدد **حفظ**.
 
-### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>الإعداد في مشروع تكامل البيانات: أوامر المبيعات (Sales إلى Fin and Ops)‬ - مباشر
+### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>الإعداد في أوامر المبيعات (Sales إلى Supply Chain Management)- مشروع تكامل البيانات المباشر
 
 - تأكد من وجود التعيين المطلوب لـ **Shipto\_country** إلى **DeliveryAddressCountryRegionISOCode**. يمكنك تعيين قيمة افتراضية فارغة في تعيين القيمة لتجنب الاضطرار إلى إدخال بلد للأوامر المحلية. عيّن الجانب الأيمن إلى "فارغ"، وعيّن الجانب الأيسر إلى البلد أو المنطقة المطلوبة.
 
     قيمة القالب هي تعيين قيمة حيث يتم تعيين العديد من البلدان أو المناطق، وحيث "فارغ" = US.
 
-### <a name="setup-in-the-sales-orders-fin-and-ops-to-sales---direct-data-integration-project"></a>الإعداد في مشروع تكامل البيانات: أوامر المبيعات (Fin and Ops إلى Sales)‬ - مباشر
+### <a name="setup-in-the-sales-orders-supply-chain-management-to-sales---direct-data-integration-project"></a>الإعداد في مشروع تكامل البيانات: أوامر المبيعات (Supply Chain Management إلى Sales)‬ - مباشر
 
 #### <a name="salesheader-task"></a>مهمة SalesHeader
 
@@ -173,7 +173,7 @@ ms.locfileid: "1539104"
 
 #### <a name="salesline-task"></a>مهمة SalesLine
 
-- تأكد من وجود تعيين القيمة المطلوب لـ **SalesUnitSymbol** في Finance and Operations.
+- تأكد من وجود تعيين القيمة المطلوب لـ **SalesUnitSymbol** في Supply Chain Management.
 - تأكد من تحديد الوحدات المطلوبة في Sales.
 
     يتم تعريف قيمة القالب التي لها تعيين قيمة لـ **SalesUnitSymbol** إلى **oumid.name**.
@@ -186,21 +186,21 @@ ms.locfileid: "1539104"
 تبين الأشكال التوضيحية التالية مثالاً لتعيين قالب في تكامل البيانات.
 
 > [!NOTE]
-> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Finance and Operations أو من Finance and Operations إلى Sales.
+> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Supply Chain Management أو من Supply Chain Management إلى Sales.
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderheader"></a>أوامر المبيعات (Fin and Ops إلى Sales) - مباشر: OrderHeader
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>أوامر المبيعات (Supply Chain Management إلى Sales) - مباشر: OrderHeader
 
 [![تعيين القالب في تكامل البيانات](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderline"></a>أوامر المبيعات (Fin and Ops إلى Sales) - مباشر: OrderLine
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>أوامر المبيعات (Supply Chain Management إلى Sales) - مباشر: OrderLine
 
 [![تعيين القالب في تكامل البيانات](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderheader"></a>أوامر المبيعات (Sales إلى Fin and Ops) - مباشر: OrderHeader
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>أوامر المبيعات (Sales إلي Supply Chain Management) - مباشر: OrderHeader
 
 [![تعيين القالب في تكامل البيانات](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderline"></a>أوامر المبيعات (Sales إلى Fin and Ops) - مباشر: OrderLine
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>أوامر المبيعات (Sales إلى Supply Chain Management) - مباشر: OrderLine
 
 [![تعيين القالب في تكامل البيانات](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 

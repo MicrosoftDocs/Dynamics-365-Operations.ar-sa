@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3a6645bc55dfd4f03ce9872ff5017f1659b1f11c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562428"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017587"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>إعداد مستودع باستخدام قالب تكوين مستودع
 
@@ -93,7 +93,7 @@ ms.locfileid: "1562428"
 
 يوفر عرض **سجل التنفيذ** معلومات مفصلة حول كيان البيانات التي تم استيرادها. يمكنك استخدام ‏‫عرض بيانات التشغيل المرحلي‬ للوصول بسرعة إلى البيانات الهدف. وبهذه الطريقة، يمكنك مشاهدة الطريقة التي تبدو عليها البيانات المستوردة في الصفحات ذات الصلة في استمارة التقديم. عند استخدام قوالب البيانات الافتراضية، يعمل استيراد التسلسل لكل كيان من كيانات البيانات بالطريقة المحددة مسبقاً، للمساعدة في ضمان أن يتم استيراد كافة البيانات التابعة أولاً. إذا كانت كيانات البيانات المخصصة جزءًا من المشروع، فيجب التأكد من تحديد التسلسل الصحيح. لمزيد من المعلومات، راجع [‬‏‫قوالب بيانات التكوين](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-لمعرفة المزيد حول كيفية استخدام قالب المستودع لنسخ تكوين مستودع من شركة إلى شركة جديدة داخل المثيل نفسه، راجع هذا الفيديو ومدته 3 دقائق على YouTube: [استخدام قالب المستودع لنسخ التكوين في Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+لمعرفة المزيد حول كيفية استخدام قالب المستودع لنسخ تكوين مستودع من شركة إلى شركة جديدة داخل المثيل نفسه، راجع هذا الفيديو ومدته 3 دقائق على YouTube حول [استخدام قالب المستودع لنسخ التكوين في Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>مواضيع مرتبطة
 

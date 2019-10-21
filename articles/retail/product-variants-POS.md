@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 609f5f13f3af4a7621fe7ee152800dac4d68a9fc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572039"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025139"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>البحث في المخزون في نقطة البيع (POS)
 
@@ -52,7 +52,7 @@ ms.locfileid: "1572039"
 تتضمن قائمة المواقع نوعين من الكيانات:
 
 - **متاجر البيع بالتجزئة** - تعرض القائمة متاجر تم تكوينها باستخدام مجموعة محدِّد مواقع المتجر للمتجر الحالي في إدارة البيع بالتجزئة.
-- **مراكز التوزيع** – يمكن تكوين أنواع مختلفة من مراكز التوزيع (مثل المستودعات) في Microsoft Dynamics 365 for Retail. ومع ذلك، تعرض القائمة معلومات توافر المخزون فقط لمراكز التوزيع من النوع الافتراضي **قياسي**.
+- **مراكز التوزيع** – يمكن تكوين أنواع مختلفة من مراكز التوزيع (مثل المستودعات) في Retail. ومع ذلك، تعرض القائمة معلومات توافر المخزون فقط لمراكز التوزيع من النوع الافتراضي **قياسي**.
 
     > [!NOTE]
     > لا يتم عرض معلومات توافر المخزون للمستودعات من أنواع **عابر**، و**العزل**، و **بضاعة بالطريق** لنقطة البيع.

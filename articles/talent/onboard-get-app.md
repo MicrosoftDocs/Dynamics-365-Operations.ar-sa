@@ -1,6 +1,6 @@
 ---
-title: الحصول على تطبيق Dynamics 365 for Talent - Onboard
-description: يشرح هذا الموضوع كيفية الحصول على الإصدار المستقل من تطبيق Microsoft Dynamics 365 for Talent - Onboard أو الإصدار الذي يتضمن المكون الإضافي "التوظيف الشامل"‬.
+title: الحصول على تطبيق Dynamics 365 Talent - Onboard
+description: يشرح هذا الموضوع كيفية الحصول على الإصدار المستقل من تطبيق Microsoft Dynamics 365 Talent - Onboard أو الإصدار الذي يتضمن المكون الإضافي "التوظيف الشامل".
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 7bf2e421445e5ca92e995ef581bf61c7978746d2
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731351"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010765"
 ---
-# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>الحصول على تطبيق Dynamics 365 for Talent: Onboard
+# <a name="get-the-dynamics-365-talent-onboard-app"></a>الحصول على تطبيق Dynamics 365 Talent: Onboard
 
 [!include [banner](includes/banner.md)]
 
-يمكنك مشاهدة عرض توضيحي وتجربة تطبيق Microsoft Dynamics 365 for Talent: Onboard مجانًا من [صفحة إعداد المنتج](https://dynamics.microsoft.com/talent/onboard/).
+يُمكنك مشاهدة عرض توضيحي وتجربة تطبيق Microsoft Dynamics 365 Talent: Onboard مجانًا من [صفحة إعداد المنتج](https://dynamics.microsoft.com/talent/onboard/).
 
 > [!NOTE]
 > يتطلب الإصدار التجريبي حساب بريد إلكتروني للأعمال.
 
-يمكنك شراء اشتراك في Onboard كتطبيق مستقل أو كجزء من Dynamics 365 for Talent. إن Talent عبارة عن نظام شامل لإدارة رؤوس الأموال البشرية يتضمن Dynamics 365 for Talent: Attract وOnboard وCore HR. لمزيد من المعلومات حول كيفية شراء Onboard، راجع [صفحة منتج Onboard](https://dynamics.microsoft.com/talent/onboard/).
+يمكنك شراء اشتراك في Onboard كتطبيق مستقل أو كجزء من Dynamics 365 Talent. إن Talent عبارة عن نظام شامل لإدارة رؤوس الأموال البشرية يتضمن Dynamics 365 Talent: Attract Onboardو Core HR. لمزيد من المعلومات حول كيفية شراء Onboard، راجع [صفحة منتج Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 أثناء فترة الإصدار التجريبي أو عملية، ستقوم بإعداد عنوان بريدك الإلكتروني وكلمة المرور لـ Microsoft 365. تأكد من تدوين هذه القيم.
 
 > [!WARNING]
 > لا يمكنك ترحيل البيانات من الإصدار التجريبي إلى بيئة الاشتراك المدفوعة. <!--Reviewers: please verify.-->
 
-للاطلاع على الميزات الجديدة في Talent، راجع [ما الجديد أو المتغير‬ في Dynamics 365 for Talent](./whats-new.md) و[ملاحظات الإصدار لكلٍّ من Dynamics 365 وPower Platform](https://docs.microsoft.com/business-applications-release-notes/index). إذا أردت معاينة ميزات جديدة في Onboard، فراجع [الوصول إلى ميزات المعاينة في Talent](./access-preview-feature.md).
+للاطلاع على الميزات الجديدة في Talent، راجع [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md) و[ملاحظات الإصدار لكلٍّ من Dynamics 365 وPower Platform](https://docs.microsoft.com/business-applications-release-notes/index). إذا أردت معاينة ميزات جديدة في Onboard، فراجع [الوصول إلى ميزات المعاينة في Talent](./access-preview-feature.md).
 
 إذا كنت متخصصًا في تكنولوجيا المعلومات وترغب في معرفة المزيد حول كيفية تزويد الإصدارين من تطبيق Onboard، فراجع [تزويد تطبيق Onboard](./modular-app-tech-faq.md).
 

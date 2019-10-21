@@ -1,6 +1,6 @@
 ---
-title: مزامنة الحسابات مباشرةً من Sales للعملاء في Finance and Operations‎
-description: يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة الحسابات من Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations.
+title: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Supply Chain Management‎
+description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة الحسابات من Dynamics 365 Sales إلى Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,25 +19,25 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 036389a1a52fdf15b73ab90c0a37108871a1a15e
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4624f7e31c6dca616ff4ee824453b8971c1865e7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743338"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249878"
 ---
-# <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
+# <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>مزامنة الحسابات مباشرةً من Sales إلى العملاء في Supply Chain Management‎
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Common Data Service للتطبيقات‏‎](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة الحسابات مباشرةً من Microsoft Dynamics 365 for Sales إلى Microsoft Dynamics 365 for Finance and Operations.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة الحسابات من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>تدفق البيانات في حل العميل المتوقع إلى النقدية
 
-يستخدم حل العميل المتوقع إلى النقدية ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Finance and Operations وSales.  تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Finance and Operations وSales. يبين الرسم التوضيحي التالي كيف تتم مزامنة البيانات بين Finance and Operations وSales.
+يستخدم حل العميل المتوقع إلى النقدية ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Supply Chain Management وSales.  تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Supply Chain Management وSales. يبين الرسم التوضيحي التالي كيف تتم مزامنة البيانات بين Supply Chain Management وSales.
 
 [![تدفق البيانات في حل العميل المتوقع إلى النقدية](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -45,7 +45,7 @@ ms.locfileid: "1743338"
 
 للوصول إلى القوالب المتوفرة، افتح [مركز إدارة PowerApps](https://preview.admin.powerapps.com/dataintegration). حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
-يتم استخدام القالب والمهمة الأساسية التالية لمزامنة الحسابات من Sales إلى Finance and Operations:
+يتم استخدام القالب والمهمة الأساسية التالية لمزامنة الحسابات من Sales إلى Supply Chain Management:
 
 - **اسم القالب في تكامل البيانات:** الحسابات (Sales إلى Fin and Ops) - مباشر
 - **اسم المهمة في المشروع:** الحسابات - العملاء
@@ -54,13 +54,13 @@ ms.locfileid: "1743338"
 
 ## <a name="entity-set"></a>مجموعة الكيانات
 
-| مبيعات    | Finance and Operations |
+| ال‏‏مبيعات    | Supply Chain Management |
 |----------|------------------------|
 | الحسابات | العملاء V2           |
 
 ## <a name="entity-flow"></a>تدفق الكيان
 
-تُدار الحسابات في Sales وتتم مزامنتها إلى Finance and Operations كعملاء. يتم تعيين الخاصية **تتم المحافظة عليها خارجيًا** على هؤلاء العملاء إلى **نعم** لتعقب العملاء الناشئين من Sales. أثناء الفوترة، يتم استخدام هذه المعلومات لتصفية الفواتير التي سيتم مزامنتها إلى Sales.
+تُدار الحسابات في Sales وتتم مزامنتها إلى Supply Chain Management: كعملاء. يتم تعيين الخاصية **تتم المحافظة عليها خارجيًا** على هؤلاء العملاء إلى **نعم** لتعقب العملاء الناشئين من Sales. أثناء الفوترة، يتم استخدام هذه المعلومات لتصفية الفواتير التي سيتم مزامنتها إلى Sales.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>حل العميل المتوقع إلى النقدية في Sales
 
@@ -72,21 +72,21 @@ ms.locfileid: "1743338"
 
 ## <a name="preconditions-and-mapping-setup"></a>الشروط المسبقة وإعداد التعيين
 
-- يجب تحديث تعيين **CustomerGroupId** إلى قيمة صالحة في Finance and Operations. يمكنك تحديد قيمة افتراضية، أو يمكنك تعيين القيمة باستخدام تعيين القيمة.
+- يجب تحديث تعيين **CustomerGroupId** إلى قيمة صالحة في Supply Chain Management. يمكنك تحديد قيمة افتراضية، أو يمكنك تعيين القيمة باستخدام تعيين القيمة.
 
     قيمة القالب الافتراضية هي **10**.
 
-- عن طريق إضافة التعيينات التالية، يمكنك المساعدة على تقليل عدد التحديثات اليدوية المطلوبة في Finance and Operations. يمكنك استخدام قيمة افتراضية قيمة أو تعيين قيمة من، على سبيل المثال، **البلد/المنطقة** أو **المدينة**.
+- عن طريق إضافة التعيينات التالية، يمكنك المساعدة على تقليل عدد التحديثات اليدوية المطلوبة في Supply Chain Management. يمكنك استخدام قيمة افتراضية قيمة أو تعيين قيمة من، على سبيل المثال، **البلد/المنطقة** أو **المدينة**.
 
-    - **SiteId** – الموقع مطلوب لإنشاء بنود أوامر المبيعات وعروض الأسعار في Finance and Operations. يمكن أخذ موقع افتراضي إما من المنتج، أو من العميل من رأس الأمر.
+    - **SiteId** – الموقع مطلوب لإنشاء بنود أوامر المبيعات وعروض الأسعار في Supply Chain Management. يمكن أخذ موقع افتراضي إما من المنتج، أو من العميل من رأس الأمر.
 
         قيمة القالب الافتراضية هي **1**.
 
-    - **WarehouseId** – المستودع مطلوب لمعالجة بنود أوامر المبيعات وعروض الأسعار في Finance and Operations. يمكن أخذ مستودع افتراضي إما من المنتج، أو من العميل من رأس الأمر في Finance and Operations.
+    - **WarehouseId** – المستودع مطلوب لمعالجة بنود أوامر المبيعات وعروض الأسعار في Supply Chain Management. يمكن أخذ مستودع افتراضي إما من المنتج، أو من العميل من رأس الأمر في Supply Chain Management.
 
         قيمة القالب الافتراضية هي **13**.
 
-    - **LanguageId** – اللغة مطلوبة لإنشاء أوامر المبيعات وعروض الأسعار في Finance and Operations. بشكل افتراضي، يتم استخدام اللغة من رأس الأمر من العميل.
+    - **LanguageId‎** – الموقع مطلوب لإنشاء بنود أوامر المبيعات وعروض الأسعار في Supply Chain Management. بشكل افتراضي، يتم استخدام اللغة من رأس الأمر من العميل.
 
         قيمة القالب الافتراضية هي **ar-sa**.
 
@@ -98,7 +98,7 @@ ms.locfileid: "1743338"
 تبين الأشكال التوضيحية التالية مثالاً لتعيين قالب في تكامل البيانات. 
 
 > [!NOTE]
-> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Finance and Operations.
+> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Supply Chain Management.
 
 ![تعيين القالب في تكامل البيانات](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
@@ -107,11 +107,11 @@ ms.locfileid: "1743338"
 
 [العميل المتوقع إلى النقدية](prospect-to-cash.md)
 
-[مزامنة الحسابات مباشرةً من Sales للعملاء في Finance and Operations‎](accounts-template-mapping-direct.md)
+[مزامنة الحسابات مباشرةً من Sales إلى العملاء في Supply Chain Management‎](accounts-template-mapping-direct.md)
 
-[مزامنة جهات الاتصال مباشرةً من Sales لجهات الاتصال في Finance and Operations‎](contacts-template-mapping-direct.md)
+[مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎](contacts-template-mapping-direct.md)
 
-[مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Finance and Operations إلى Sales](sales-order-template-mapping-direct-two-ways.md)
+[مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-order-template-mapping-direct-two-ways.md)
 
-[مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales](sales-invoice-template-mapping-direct.md)
+[مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-invoice-template-mapping-direct.md)
 

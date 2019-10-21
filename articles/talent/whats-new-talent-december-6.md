@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (6 ديسمبر 2018)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
+title: ما الجديد أو المتغير في Dynamics 365 Talent - Core HR‏ (6 ديسمبر 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742576"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025946"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (6 ديسمبر 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>ما الجديد أو المتغير في Dynamics 365 Talent: Core HR‏ (6 ديسمبر 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742576"
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Core HR.
 
 
-## <a name="platform-update-22"></a>Platform update 22
+## <a name="platform-update-22-for-finance-and-operations"></a>Platform update 22 لـ Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>تصدير ما يصل إلى مليون صف إلى Excel
 
@@ -42,7 +42,7 @@ ms.locfileid: "1742576"
 
 ### <a name="restyled-personalization-toolbar"></a>إعادة ترتيب شريط أدوات التخصيص
 
-أعيد ترتيب شريط أدوات التخصيص في Platform update 22 لمساعدة المستخدمين على إضفاء طابع شخصي على تجاربهم الخاصة في Talent بسهولة أكبر. تم إدخال التغييرات التالية: 
+أعيد ترتيب شريط أدوات التخصيص في Platform update 22 لمساعدة المستخدمين على إضفاء طابع شخصي على تجاربهم الخاصة في Finance and Operations بسهولة أكبر. تم إدخال التغييرات التالية: 
 
 -  يظهر الآن اسم كل أداة تخصيص مع أيقونة، مما يساعد المستخدمين في التعرف بسرعة على الأداة التي يريدون استخدامها.
 -  يظهر الآن أيضًا وصف يشير إلى كيفية استخدام الأداة الحالية، مما يساعد المستخدمين على فهم كيفية إجراء التخصيصات المطلوبة.  
@@ -50,19 +50,19 @@ ms.locfileid: "1742576"
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>تحسين تجربة التصفية "أحد مما يلي"
 
-يتوفر عامل التصفية "أحد مما يلي" لمعظم الحقول عند استخدام جزء عامل التصفية‬ والقوائم المنسدلة في رأس الشبكة. يسمح عامل التصفية هذا للمستخدم بتصفية حقل استنادًا إلى قيم متعددة. تتوفر تجربة جديدة ومحسنة لعامل التصفية "أحد مما يلي" في Platform update 22. لمعرفة المزيد، رادع [تحسين تجربة التصفية "أحد مما يلي"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+يتوفر عامل التصفية "أحد مما يلي" لمعظم الحقول عند استخدام جزء عامل التصفية‬ والقوائم المنسدلة في رأس الشبكة. يسمح عامل التصفية هذا للمستخدم بتصفية حقل استنادًا إلى قيم متعددة. تتوفر تجربة جديدة ومحسنة لعامل التصفية "أحد مما يلي" في Platform update 22 لـ Finance and Operations. لمعرفة المزيد، رادع [تحسين تجربة التصفية "أحد مما يلي"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>لصق القوائم من Excel إلى حقول التصفية باستخدام عامل التصفية "أحد مما يلي"
 
 فيما يتعلق بتنفيذ بعض المهام، قد تتوفر لدى المستخدمين قائمة قيم في Excel يرغبون في استخدامها لتصفية البيانات في Talent. على سبيل المثال، من المحتمل أن يقوم أحد مستخدمي الموارد البشرية بتحديد مجموعة من الموظفين من تقرير يحتاجون إلى أبحاث إضافية في النظام، ويمكن اعتبار قدرة المستخدم على نسخ القائمة مباشرةً من Excel إلى حقل تصفية أمرًا مثاليًا.
 
-اعتبارًا من Platform update 22، يتعرف الآن عامل التصفية "أحد مما يلي" في جزء التصفية وتصفية عمود الشبكة على القوائم التي تم نسخها من Excel بحيث يمكن لصقها مباشرة في حقل عامل تصفية. وهذا يشمل مجموعة من القيم المنسوخة من صفوف وأعمدة مختلفة في Excel. لمزيد من المعلومات حول هذه الميزة، راجع [لصق القوائم من Excel إلى حقول التصفية باستخدام عامل التصفية "أحد مما يلي"‬](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+اعتبارًا من Platform update 22 لـ Finance and Operations يتعرف الآن عامل التصفية "أحد مما يلي" في جزء التصفية وتصفية عمود الشبكة على القوائم التي تم نسخها من Excel بحيث يمكن لصقها مباشرة في حقل عامل تصفية. وهذا يشمل مجموعة من القيم المنسوخة من صفوف وأعمدة مختلفة في Excel. لمزيد من المعلومات حول هذه الميزة، راجع [لصق القوائم من Excel إلى حقول التصفية باستخدام عامل التصفية "أحد مما يلي"‬](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>قيد المعاينة
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>تكوين تكامل كشف الرواتب في المملكة المتحدة بين Talent وDayforce
 
-يتوفر التكامل بين Microsoft Dynamics 365 for Talent وCeridian Dayforce في المعاينة للمملكة المتحدة. راجع الموضوع التالي للحصول على مزيد من المعلومات، [تكوين تكامل كشف الرواتب بين Talent وDayforce‬](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
+يتوفر التكامل بين Talent وCeridian Dayforce في المعاينة للمملكة المتحدة. راجع الموضوع التالي للحصول على مزيد من المعلومات، [تكوين تكامل كشف الرواتب بين Talent وDayforce‬](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>قريبًا
 
@@ -88,11 +88,11 @@ ms.locfileid: "1742576"
 
 تم إدخال تغييرات لتصحيح المرفقات. عند إضافة مرفق جديد إلى عامل، يتوفر الآن الزران **جديد** و**تحرير** عندما تكون مربعات الحقائق مفتوحة في نافذة العامل. 
 
-## <a name="known-issues"></a>مشكلات معروفة​
+## <a name="known-issues"></a>مشكلات معروفة
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>تعيين الأخطاء في التكامل مع Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>تعيين الأخطاء في التكامل مع Finance
 
-تم التعرف على المشكلات التالية في القالب الحالي لتمكين تكامل Talent مع Finance and Operations. سيتم نشر قالب جديد في وقت قريب وسيتم تطبيقه على جميع مشاريع التكامل التي يتم إنشاؤها. بالنسبة إلى مشاريع التكامل الموجودة، يمكن تحديث تعيينات المهام. راجع الجدول التالي للاطلاع على التعيينات المحدّثة. 
+تم التعرف على المشكلات التالية في القالب الحالي لتمكين تكامل Talent مع Finance. سيتم نشر قالب جديد في وقت قريب وسيتم تطبيقه على جميع مشاريع التكامل التي يتم إنشاؤها. بالنسبة إلى مشاريع التكامل الموجودة، يمكن تحديث تعيينات المهام. راجع الجدول التالي للاطلاع على التعيينات المحدّثة. 
 
 >[!NOTE]
 > المهمة "تعيين مناصب الوظيفة إلى تعيين الوظيفة الرئيسية للمناصب" لا تدمج البيانات. هذه مشكلة تجري دراستها حاليًا. لا يوجد أي حل بديل في التعيين الحالي. 

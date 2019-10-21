@@ -3,7 +3,7 @@ title: تكلفة جدول الصيانة
 description: يوضح هذا الموضوع تكلفة جدول الصيانة في إدارة الأصول.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875473"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922058"
 ---
 # <a name="maintenance-schedule-cost"></a>تكلفة جدول الصيانة
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 في إدارة الأصول، يمكنك حساب تكاليف الموازنة في بنود جدول الصيانة. ويكون ذلك مفيدًا إذا كنت ترغب في الحصول على نظرة عامة حول التكاليف المتوقعة، على سبيل المثال، التكاليف المتعلقة بمهام الصيانة الوقائية المخططة للسنة التالية. تعتمد الحسابات على بنود جدول الصيانة الموجودة من نوع "خطط الصيانة" و "دورات الصيانة" و "طلبات الصيانة".
 
@@ -48,10 +46,11 @@ ms.locfileid: "1875473"
 
 5. انقر فوق **موافق** لبدء حساب التكلفة.
 
-6. في علامة التبويب **تكلفة جدول الصيانة** > في مجموعات جزء الإجراءات **تجميع حسب...**، انقر فوق الأزرار ذات الصلة لعرض مستوى التفاصيل المطلوب لحساب التكلفة. يتم تمييز أزرار مجموعات جزء الإجراءات المحددة باللون الأزرق. انقر فوق زر لتنشيطه أو إلغاء تنشيطه.
+6. في علامة التبويب **تكلفة جدول الصيانة** > في مجموعات جزء الإجراءات **تجميع حسب...**، انقر فوق الأزرار ذات الصلة لعرض مستوى التفاصيل المطلوب لحساب التكلفة. يتم تمييز أزرار مجموعة جزء الإجراءات المحددة. انقر فوق زر لتنشيطه أو إلغاء تنشيطه.
 
 7. انقر فوق زر **حساب التكلفة** إذا كنت ترغب في إجراء حساب تكلفة جديد.
 
+يُبين الرسم التوضيحي أدناه نتائج حساب تكلفة جدولة الصيانة.
 
 ![الشكل 1](media/17-preventive-maintenance.png)
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 68b285ba78a9bd654e7bfcfe8d4c6b0207346eab
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845584"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249507"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>مساحة العمل المحمولة للمخزون الفعلي
 
@@ -31,7 +31,7 @@ ms.locfileid: "1845584"
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **المخزون الفعلي**. تساعدك مساحة العمل هذه في الحصول على معلومات دقيقة تتعلق بالمخزون المحجوز والمتوفر في أي وقت وفي أي مكان.‬
 
-مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile.
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة. 
 
 ## <a name="overview"></a>نظرة عامة
 عادةً، يكون للشركات شحنات متعددة وإيصالات مخزون متعددة يوميًا. تغير هذه الحركات باستمرار حالة المخزون الفعلي. تسمح لك مساحة العمل المحمولة **المخزون الفعلي** برؤية حالة المخزون الفعلي عبر الشركة، حتى يتسنى لك الحصول على آخر المعلومات الدقيقة حول بيانات المخزون على جهاز محمول من اختيارك. بغض النظر عن ما إذا كان عملك في المخزن أو في المشتريات أو المبيعات أو التصنيع أو الإدارة، أو كان لديك أدوار أخرى، يمكنك الوصول إلى بيانات المخزون الفعلي في أي وقت وفي أي مكان. 
@@ -58,11 +58,11 @@ ms.locfileid: "1845584"
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 تختلف المتطلبات الأساسية، استنادًا إلى إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية عند استخدام Microsoft Dynamics 365 for Finance and Operations 
-إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **المخزون المتاح‬**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-finance-and-operations"></a>المتطلبات الأساسية إذا كنت تستخدم Finance and Operations 
+إذا تم نشر Supply Chain Management لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **المخزون المتاح**‬. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع platform update 3 أو إصدار لاحق
-إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
+### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار Platform update 3 أو إصدار لاحق 
+إذا تم نشر Platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
 
 <table>
 <thead>
@@ -94,9 +94,9 @@ ms.locfileid: "1845584"
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>تحميل وتثبيت تطبيق الجوال
+## <a name="download-and-install-the-mobile-app"></a>تنزيل وتثبيت تطبيق المحمول
 
-تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:
+تنزيل وتثبيت تطبيق Finance and Operations للأجهزة المحمولة:
 
 -   [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

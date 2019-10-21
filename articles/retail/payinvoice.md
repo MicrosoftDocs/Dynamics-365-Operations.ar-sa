@@ -1,6 +1,6 @@
 ---
 title: إعداد سيناريوهات دفع الفواتير
-description: يصف هذا الموضوع كيفية تكوين Dynamics 365 for Retail لدعم مختلف السيناريوهات ذات الصلة بدفع الفواتير.
+description: يصف هذا الموضوع كيفية تكوين Dynamics 365 Retail لدعم مختلف السيناريوهات ذات الصلة بدفع الفواتير.
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb9101843396e489e4d7b63879e9df35e52fe64
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564960"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018003"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>إعداد سيناريوهات دفع الفواتير
 
 [!include [banner](includes/banner.md)]
 
-تم توسيع نطاق وظيفة دفع الفواتير في Dynamics 365 for Retail لكي تدعم:
+تم توسيع نطاق وظيفة دفع الفواتير في Dynamics 365 Retail لكي تدعم:
 
 - دفع فواتير أوامر مبيعات متعددة في حركة نقطة بيع واحدة.
 - دفع مختلف أنواع فواتير العملاء بما في ذلك فواتير النص الحر والفواتير القائمة على المشاريع والإشعارات الدائنة.

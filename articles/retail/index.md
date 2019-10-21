@@ -1,6 +1,6 @@
 ---
-title: مرحبًا بك في Dynamics 365 for Retail
-description: الصفحة الرئيسية لتطبيق Dynamics 365 for Retail
+title: موارد تعليمات Dynamics 365 Retail
+description: الصفحة الرئيسية لتطبيق Dynamics 365 Retail
 author: josaw1
 manager: AnnBe
 ms.date: 08/14/2019
@@ -18,27 +18,30 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874917"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278096"
 ---
-# <a name="welcome-to-dynamics-365-for-retail"></a>مرحبًا بك في Dynamics 365 for Retail
+# <a name="help-resources-for-dynamics-365-retail"></a>موارد تعليمات Dynamics 365 Retail
 
 [!include [banner](includes/banner.md)]
 
-إن Microsoft Dynamics 365 for Retail عبارة عن حل شامل للبيع بالتجزئة يوفر التجارة الموحدة عبر جميع القنوات. إنه يشتمل على المبيعات، وإمكانية التنقل، والمعلومات، والإنتاجية، لمساعدة تجار التجزئة والعمال على تحقيق المزيد بطريقة السحابة أولاً، الجهاز المحمول أولاً. يوفر Retail دعمًا شاملاً لتشغيل مجموعة كبيرة من إجراءات العمل، مثل إمكانات إدارة القنوات، وترويج البضائع، والمخزون. وهو يوفر أيضًا تجربة غامرة للعملاء عبر جميع نقاط الاتصال.
-
-> [!NOTE]
-> يرتبط Dynamics 365 for Retail بشكل وثيق بالتطبيقين Dynamics 365 for Finance and Operations، وDynamics 365 for Talent. وقد تظهر الوظائف نفسها في المنتجات الثلاثة كلها. ونتيجة لذلك، سيكون اسم المنتج Microsoft Dynamics 365 for Retail في المواضيع المرتبطة بشكل أساسي بتطبيق Retail؛ وسيكون اسم المنتج Microsoft Dynamics 365 for Finance and Operations في المواضيع المرتبطة بشكل أساسي بالمنتج الرئيسي (Finance and Operations)؛ وسيكون اسم المنتج Dynamics 365 for Talent في المواضيع المرتبطة بشكل أساسي بالموارد البشرية.
+Microsoft Dynamics 365 Retail هو حل شامل للبيع بالتجزئة يقدم تجارة موحدة عبر جميع القنوات. إنه يشتمل على المبيعات، وإمكانية التنقل، والمعلومات، والإنتاجية، لمساعدة تجار التجزئة والعمال على تحقيق المزيد بطريقة السحابة أولاً، الجهاز المحمول أولاً. يوفر Retail دعمًا شاملاً لتشغيل مجموعة كبيرة من إجراءات العمل، مثل إمكانات إدارة القنوات، وترويج البضائع، والمخزون. كما يقدم أيضًا للعملاء تجارب رائعة عبر جميع نقاط الاتصال.
 
 في الجزء الأيمن، حدد منطقة ميزة لمعرفة المزيد عنها.
 
+## <a name="dynamics-365-commerce-preview"></a>Dynamics 365 Commerce (معاينة)
+
+تستند Dynamics 365 Commerce إلى قدرات Dynamics 365 Retail الثابتة وتقدم حلاً شاملاً ومتعدد الاتجاهات لتوحيد الخبرة الرقمية وخبرة مركز الاتصالات وخبرة المتجر وخبرة مكتب الدعم. تطبيق Commerce متوفر لمعاينة العملاء الآن. سيتمكن عملاء Dynamics 365 Retail الموجودون من تحديث التجارة بمجرد إتاحتها بشكل عام.
+
+للحصول على مزيد من المعلومات حول Dynamics 365 Commerce، انتقل إلى [صفحة موارد تعليمات Dynamics 365 Commerce](../commerce/index.md).
+
 ## <a name="channel-management"></a>إدارة القنوات
 
-أثناء قيامك بإعداد تجربة Retail الخاصة بك، سوف تقرر كيفية تحديد وتكوين المتاجر الخاصة بك، والتي يمكن أن تكون متاجر تقليدية عادية أو متاجر على الإنترنت أو مراكز اتصال.
+أثناء إعداد تجربتك للبيع بالتجزئة، ستقرر كيفية تحديد المتاجر الخاصة بك وتكوينها، والتي يمكن أن تكون متاجر تقليدية عادية أو متاجر على الإنترنت أو مراكز اتصال.
 
 من الممكن أن يشتمل كل متجر بيع بالتجزئة على طرق الدفع، وطرق التسليم، ومجموعات الأسعار، وحسابات الإيرادات والمصروفات، والسجلات، وفريق العمل الخاص به. بعد قيامك بإنشاء متجر البيع بالتجزئة الخاص بك، عليك إنشاء مجموعة من المنتجات التي ترغب في أن يتحملها المتجر. كما يمكنك تحديد الأسعار والخصومات الخاصة بالمتجر والتي تنطبق على المنتجات والمتوفرة في المتجر.
 
@@ -78,8 +81,8 @@ ms.locfileid: "1874917"
 
 إذا تمت مطالبتك بتخصيص بيئتك، أو إذا كنت مسؤولاً عن نشر النظام وصيانته، فاحرص على الاطلاع على محتوى مسؤول النظام والمطور الذي يتعلق بتطبيق Retail تحديدًا، فضلاً عن المحتوى الذي يتسم بطابع عمومي.
 
-- [Dynamics 365 for Retail للمحترفين والمطورين في مجال تقنية المعلومات](dev-itpro/dev-retail-home-page.md)
-- [التطوير والإدارة لتطبيق Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 Retail للمحترفين والمطورين في مجال تقنية المعلومات](dev-itpro/dev-retail-home-page.md)
+- [التطوير والإدارة لتطبيق Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

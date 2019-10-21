@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent (23 أبريل 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent.
+title: ما الجديد أو المتغير في Dynamics 365 Talent (23 أبريل 2019)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/23/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 1a70be88e3ab65bb0bdd844347e8ba69e4ba61a5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624571"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024104"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (23 أبريل 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (23 أبريل 2019)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>التغييرات في Attract
-يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 for Talent: Attract.
+يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>التغييرات في Onboard
-يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 for Talent: Onboard.
+يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>التغييرات في Core HR
 تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2253. تشير الأرقام الموجودة بين أقواس إلى أرقام الدعم في Lifecycle Services (LCS).
@@ -76,7 +76,7 @@ ms.locfileid: "1624571"
 
 ### <a name="improvements-to-the-user-interface-for-duplicate-employee-check"></a>تحسينات في واجهة المستخدم للتحقق من وجود موظفين مكررين
 مع هذا التغيير، يتم الكشف عن التكرارات عند إدخال حقول الأسماء، وتعرض الحالة عدد التكرارات التي تم العثور عليها. يمكنك تحديد الارتباط المتوفر لفتح صفحة جديدة لتقييم ما إذا كان يجب استخدام المطابقة التي تم الكشف عنها. لتجنب مقاطعة إدخال البيانات، لا يفتح نموذج التكرارات بشكل تلقائي.
-## <a name="known-issues"></a>مشكلات معروفة​
+## <a name="known-issues"></a>مشكلات معروفة
 
 ### <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
-مع إصدار Platform update 26، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث.
+في إصدار Platform update 26 لـ Finance and Operations بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيل الإعلامات بواسطة حدث.

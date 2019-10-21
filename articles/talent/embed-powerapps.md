@@ -1,6 +1,6 @@
 ---
-title: تضمين تطبيقات PowerApps في Core HR
-description: يشرح هذا المقال كيفية حل هذه المشكلة التي يختفي فيها عنصر قائمة PowerApps من الوحدة النمطية لإدارة النظام.
+title: تضمين تطبيقات PowerApps في Dynamics 365‏ - Core HR
+description: يشرح هذا المقال كيفية حل هذه المشكلة التي يختفي فيها عنصر قائمة PowerApps من الوحدة النمطية "إدارة النظام".
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,39 +17,39 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742809"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008420"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>تضمين تطبيقات PowerApps في Core HR
 
 [!include [banner](includes/banner.md)]
 
-**المشكلة**
+**إصدار**
 
-اختفي عنصر قائمة**PowerApps** من الوحدة النمطية لـ **إدارة النظام**.
+اختفى عنصر قائمة **PowerApps** من الوحدة النمطية **إدارة النظام**.
 
 **السبب**
 
 تم تغيير تصميم واجهة المستخدم، وتم الآن تضمين Microsoft PowerApps في نموذج التخصيص القياسي.
 
-**‏‏الدقة**
+**الدقة**
 
-تم تغيير الطريقة التي يتم من خلالها تضمين تطبيقات PowerApps. تتم الآن إضافة تطبيقات PowerApps من خلال نموذج التخصيص. يمكنك إضافة تطبيقات PowerApps إلى معظم الصفحات تقريبًا في Dynamics 365 for Talent.
+تم تغيير الطريقة التي يتم من خلالها تضمين تطبيقات PowerApps. تمت الآن إضافة تطبيقات PowerApps من خلال نموذج التخصيص. يمكنك إضافة تطبيقات PowerApps إلى معظم الصفحات تقريبًا في Microsoft Dynamics 365 Talent.
 
 للحصول على معلومات تفصيلية حول كيفية تضمين تطبيقات PowerApps في Talent، راجع [تضمين تطبيقات PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
-يجب أن تتم ترقية أي عميل من عملاء PowerApps الذي قام بتضمين التطبيقات قبل التغيير إلى النموذج الجديد.
+يجب أن تتم ترقية أي عميل PowerApps قام بتضمين التطبيقات قبل التغيير إلى النموذج الجديد.
 
-يوجد زر **PowerApps**في الزاوية اليسرى العليا في كل صفحة من صفحات Talent تقريبًا. يمكنك استخدام هذا الزر لإدراج تطبيق PowerApps.
+يقع زر **PowerApps** في الزاوية اليسرى العليا في كل صفحة من صفحات Talent تقريبًا. يمكنك استخدام هذا الزر لإدراج تطبيق PowerApps.
 
 فيما يلي مثال على ذلك.
 
 1. انتقل إلى **إدارة العاملين \> الارتباطات \> العاملون \> الموظفون**.
-2. حدد زر **PowerApps**، ثم قم بتحديد **إدراج PowerApp**.
+2. حدد زر **PowerApps**، ثم حدد **إدراج PowerApp**.
 
     ![زر PowerApps](media/png.png)
 

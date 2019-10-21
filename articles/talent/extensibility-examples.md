@@ -1,13 +1,13 @@
 ---
 title: توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
-description: يصف هذا الموضوع بعض الأمثلة عن سيناريوهات قابلية التوسعة في Microsoft Dynamics 365 for Talent التي تستخدم Microsoft PowerApps وMicrosoft Flow.
+description: يصف هذا الموضوع بعض الأمثلة عن سيناريوهات قابلية التوسعة في Microsoft Dynamics 365 Talent التي تستخدم Microsoft PowerApps وMicrosoft Flow.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781432"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008049"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
 
-يصف هذا الموضوع بعض الأمثلة عن سيناريوهات قابلية التوسعة في Microsoft Dynamics 365 for Talent التي تستخدم Microsoft PowerApps وMicrosoft Flow. يمكنك استيراد حزمة الحل المقترنة بكل مثال إلى بيئتك في PowerApps. بعد ذلك، يمكنك استخدام الحزم كنقاط إرشادية أو كنقاط بداية لتنفيذ السيناريوهات التي تنطبق على مؤسستك.
+يصف هذا الموضوع بعض الأمثلة عن سيناريوهات قابلية التوسعة في Microsoft Dynamics 365 Talent التي تستخدم Microsoft PowerApps وMicrosoft Flow. يمكنك استيراد حزمة الحل المقترنة بكل مثال إلى بيئتك في PowerApps. بعد ذلك، يمكنك استخدام الحزم كنقاط إرشادية أو كنقاط بداية لتنفيذ السيناريوهات التي تنطبق على مؤسستك.
 
 > [!IMPORTANT]
 > إذا أردت استخدام القوالب والتطبيقات التي تم وصفها في الموضوع "كما هي"، فتأكد من اختبارها للتأكد من أنها تغطي كافة السيناريوهات المتعلقة بعملية التنفيذ التي تقوم بها.
@@ -55,15 +55,15 @@ ms.locfileid: "1781432"
 
 لتنزيل القالب **Flow – توصيل النماذج** وبنية الكيان المخصص، انتقل إلى [Flow – توصيل النماذج](https://go.microsoft.com/fwlink/?linkid=2081988) في مركز التنزيل لـ Microsoft.
 
-## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>القالب "تهيئة واستخراج المعلمات التي تم تمريرها إلى Powerapps"
+## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>القالب "تهيئة واستخراج المعلمات التي تم تمريرها إلى PowerApps"
 
-يمكن استخدام القالب **تهيئة واستخراج المعلمات التي تم تمريرها إلى Powerapps** كنقطة بداية لأي سيناريو PowerApps يتعلق بتطبيق Attract. ويتضمن هذا القالب جميع المعلمات الافتراضية التي تم تمريرها بواسطة Attract، مثل **استمارة التقديم للوظيفة** و**معرف المرشح** و**معرف الوظيفة**.
+يمكن استخدام القالب **تهيئة واستخراج المعلمات التي تم تمريرها إلى PowerApps** كنقطة بداية لأي سيناريو PowerApps يتعلق بتطبيق Attract. ويتضمن هذا القالب جميع المعلمات الافتراضية التي تم تمريرها بواسطة Attract، مثل **استمارة التقديم للوظيفة** و**معرف المرشح** و**معرف الوظيفة**.
 
 يمكن استخدام هذا القالب للعثور على نموذج تقييم المرشح لتمكين مدير التوظيف من عرض التقييم الذي قام المرشح بتعبئته.
 
 يمكن تضمين التطبيقات التي يتم إنشاؤها باستخدام PowerApps في قالب الوظيفة في Attract.
 
-لتنزيل القالب **تهيئة واستخراج المعلمات التي تم تمريرها إلى Powerapps** وبنية الكيان المخصص، انتقل إلى [تهيئة واستخراج المعلمات التي تم تمريرها إلى Powerapps](https://go.microsoft.com/fwlink/?linkid=2081991) في مركز التنزيل لـ Microsoft.‬
+لتنزيل القالب **تهيئة واستخراج المعلمات التي تم تمريرها إلى PowerApps** وبنية الكيان المخصص، انتقل إلى [تهيئة واستخراج المعلمات التي تم تمريرها إلى PowerApps](https://go.microsoft.com/fwlink/?linkid=2081991) في مركز التنزيل لـ Microsoft.‬
 
 ## <a name="integration-with-office-365"></a>التكامل مع Office 365
 
@@ -79,7 +79,7 @@ ms.locfileid: "1781432"
 
 يمكن توسيع هذا القالب لتعقب التغييرات في مرحلة المرشح عبر عملية التعيين، ولإرسال إعلامات إلى فريق التوظيف والمرشح.
 
-بشكل عام، بالنسبة إلى الكيانات المخزنة في Common Data Service، يمكن إعداد مهام سير العمل لإرسال إعلامات تتعلق بالأحداث التي تقع في Core HR أو Attract أو Dynamics 365 Talent: Onboard.
+بشكل عام، بالنسبة إلى الكيانات المخزنة في Common Data Service، يمكن إعداد مهام سير العمل لإرسال إعلامات تتعلق بالأحداث التي تقع في Core HR أو Attract أو Onboard.
 
 لتنزيل القالب **Flow – إعلام بواسطة البريد الإلكتروني**، انتقل إلى [Flow – إعلام بواسطة البريد الإلكتروني](https://go.microsoft.com/fwlink/?linkid=2082103) في مركز التنزيل لـ Microsoft.
 
@@ -106,7 +106,7 @@ ms.locfileid: "1781432"
 
 يمكنك تضمين هذا التطبيق في الخدمة الذاتية للموظف (ESS) لإرسال الإحالات، أو يمكنك استخدامه كارتباط تشعبي في مدخل الشركة وتشغيله كتطبيق مستقل.
 
-لتنزيل **تطبيق Referral**، انتقل إلى [حل قابلية التوسعة في Dynamics 365 for Talent: تطبيق Referral](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) في مركز التنزيل لـ Microsoft. يمكنك استيراد هذا التطبيق وتخصيصه لإضافة المزيد من الوظائف.
+لتنزيل **تطبيق Referral**، انتقل إلى [حل قابلية التوسعة في Dynamics 365 Talent: تطبيق Referral](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) في مركز التنزيل لـ Microsoft. يمكنك استيراد هذا التطبيق وتخصيصه لإضافة المزيد من الوظائف.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

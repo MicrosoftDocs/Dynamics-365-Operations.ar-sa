@@ -1,6 +1,6 @@
 ---
-title: الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 for Talent
-description: يصف هذا الموضوع كيف يمكن لمسؤول تمكين الميزات المعاينة في Microsoft Dynamics 365 for Talent، ويسرد الميزات التي يجري تمكينها حاليًا للمعاينة.
+title: الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent
+description: يصف هذا الموضوع كيف يمكن لمسؤول تمكين الميزات المعاينة في Microsoft Dynamics 365 Talent، ويسرد الميزات التي يجري تمكينها حاليًا للمعاينة.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739577"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008692"
 ---
 # <a name="manage-preview-features"></a>إدارة ميزات المعاينة
 
 [!include[banner](../includes/banner.md)]
 
-كجزء من عملية النشر المستمر لإمكانات إدارة رؤوس الأموال البشرية‬ (HCM) لـ Microsoft Dynamics 365 for Talent، نحن نريد السماح للعملاء بتجربة الميزات الجديدة في أقرب وقت ممكن. يمكن للمسؤولين رؤية واستخدام ميزات المعاينة في البيئات الخاصة بها. هذه الميزات جاهزاً تقريبا للتوفر العام وقد خضعت للاختبارات الشاملة. ونحن فقط نبحث عن جولة نهائية من ملاحظات العملاء والتحقق من الصحة قبل أن نقوم بشكل عام بتحرير الميزات.
+كجزء من عملية النشر المستمر لإمكانات إدارة رؤوس الأموال البشرية‬ (HCM) لـ Microsoft Dynamics 365 Talent، نحن نريد السماح للعملاء بتجربة الميزات الجديدة في أقرب وقت ممكن. يمكن للمسؤولين رؤية واستخدام ميزات المعاينة في البيئات الخاصة بها. هذه الميزات جاهزاً تقريبا للتوفر العام وقد خضعت للاختبارات الشاملة. ونحن فقط نبحث عن جولة نهائية من ملاحظات العملاء والتحقق من الصحة قبل أن نقوم بشكل عام بتحرير الميزات.
 
-يصف هذا الموضوع كيف يمكنك تمكين الميزات المعاينة، ويسرد الميزات المتوفرة حاليا للمعاينة. سيتم تحديث هذه القائمة مع إصدار الميزات للتوفر العام ومع إصدار الميزات الجديدة للمعاينة. لا يتم إعطاء أي إعلام عندما يتم إصدار ميزات جديدة للمعاينة. سيبدأ المستخدمون فقط في رؤية الميزات. لمزيد من المعلومات حول الميزات الجديدة في Talent، راجع [ما الجديد أو المتغير‬ في ملاحظات الإصدار لكلٍّ من Dynamics 365 for Talent](./whats-new.md) و[Dynamics 365 وPower Platform](https://docs.microsoft.com/business-applications-release-notes).
+يصف هذا الموضوع كيف يمكنك تمكين الميزات المعاينة، ويسرد الميزات المتوفرة حاليا للمعاينة. سيتم تحديث هذه القائمة مع إصدار الميزات للتوفر العام ومع إصدار الميزات الجديدة للمعاينة. لا يتم إعطاء أي إعلام عندما يتم إصدار ميزات جديدة للمعاينة. سيبدأ المستخدمون فقط في رؤية الميزات. لمزيد من المعلومات حول الميزات الجديدة في Talent، راجع [ما الجديد أو المتغير‬ في ملاحظات الإصدار لكلٍّ من Dynamics 365 Talent](./whats-new.md) و[Dynamics 365 وPower Platform](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>تمكين أو تعطيل ميزات المعاينة
 
@@ -42,7 +42,7 @@ ms.locfileid: "1739577"
 
 ### <a name="attract"></a>Attract
 
-1. تسجيل الدخول إلى Microsoft Dynamics 365 for Talent: Attract.
+1. تسجيل الدخول إلى Microsoft Dynamics 365 Talent: Attract.
 2. في قائمة **الإعداد** (رمز الترس) في الزاوية العلوية اليسرى، حدد **مركز الإدارة**.
 3. في علامة التبويب **إدارة الميزات**، حدد الخيار بجانب **ميزات المعاينة** بحيث يتحول إلى الأزرق ويقول**تشغيل**.
 
@@ -69,7 +69,7 @@ ms.locfileid: "1739577"
 
 ### <a name="onboard"></a>الإعداد
 
-لا تتوفر ميزات المعاينة حاليًا لـ Microsoft Dynamics 365 for Talent: Onboard.
+لا تتوفر ميزات المعاينة حاليًا لـ Microsoft Dynamics 365 Talent: Onboard.
 
 ## <a name="features-that-are-currently-in-preview"></a>الميزات قيد المعاينة حاليًا
 

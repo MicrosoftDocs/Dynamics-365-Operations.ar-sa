@@ -1,9 +1,9 @@
 ---
-title: الصفحة الرئيسية لإدارة سلسة التوريد
-description: توفر هذه الصفحة قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: موارد التعليمات لإدارة سلسلة التوريد
+description: توفر هذه الصفحة قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,26 +18,27 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557582"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278314"
 ---
-# <a name="supply-chain-management-home-page"></a>الصفحة الرئيسية لإدارة سلسة التوريد
+# <a name="help-resources-for-supply-chain-management"></a>موارد التعليمات لإدارة سلسلة التوريد
 
 [!include [banner](includes/banner.md)]
 
-يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations. 
+يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد في Dynamics 365 Supply Chain Management. 
 
 ## <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
-انتقل إلى <a href="https://roadmap.dynamics.com/">خارطة طريق Dynamics 365</a> للتعرّف على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
+انتقل إلى مخطط <a href="https://roadmap.dynamics.com/">Dynamics 365</a> للتعرّف على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير. 
 
-## <a name="core-concepts-and-tasks"></a>المفاهيم الأساسية والمهام
+## <a name="core-concepts-and-tasks"></a>المهام والمفاهيم الأساسية
 
 حدد منطقة ميزة لمعرفة المزيد عنها.
 
+- [إدارة الأصول](asset-management/index.md)
 - [محاسبة التكاليف](../financials/cost-accounting/cost-accounting-home-page.md)
 - [إدارة التكلفة](cost-management/cost-management-home-page.md)  
 - [إدارة المخزون](inventory/inventory-home-page.md)
@@ -50,7 +51,11 @@ ms.locfileid: "1557582"
 - [إدارة النقل](transportation/transportation-management-overview.md)
 - [إدارة المستودعات](warehousing/warehouse-configuration.md)
 
-## <a name="videos"></a>مقاطع فيديو
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+للحصول على معلومات حول Dynamics 365 Finance، انتقل إلى صفحة موارد التعليمات [Dynamics 365 Finance](../finance/index.md).
+
+## <a name="videos"></a>ملفات فيديو
 
 تساعدك مقاطع الفيديو القصيرة هذه على التعرف على الميزات الجديدة الموجودة في Microsoft Dynamics 365 for Finance and Operations الإصدار 8.0 (أبريل 2018).
 
@@ -110,9 +115,9 @@ ms.locfileid: "1557582"
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">المختبرات المتاحة لمحاسبة التكاليف</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">‏‫حساب قائمة مكونات الصنف (BOM) ‏‫باستخدام كشف التكاليف‬‏‫‬‬</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">سهولة إمكانية التنقل في المستودع من خلال Microsoft Dynamics 365 for Finance and Operations</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">تم تيسير إمكانية التنقل في المستودع من خلال Microsoft Dynamics 365 for Finance and Operations</a>
 
-## <a name="elearning-courses"></a>دورات التعليم الإلكتروني
-لمزيد من المعلومات حول التدريب على Microsoft Dynamics 365 for Finance and Operations، راجع <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> مدخل تعلم Microsoft Dynamics</a>. (يحتاج إلى حساب CustomerSource) 
+## <a name="elearning-courses"></a>دورات التعليم الإلكتروني التدريبية
+لمزيد من المعلومات حول التدريب على Dynamics 365، راجع  مدخل تعلم <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics</a>. (يحتاج إلى حساب CustomerSource) 
 
 

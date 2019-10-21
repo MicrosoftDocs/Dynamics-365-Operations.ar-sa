@@ -3,7 +3,7 @@ title: جدول الصيانة
 description: يشرح هذا الموضوع جدول الصيانة في إدارة الأصول.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 780b633af04c38705f8321d19924f3802b2d5c67
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: af2152b334b51db48b60aa966ab49bf480c29bbc
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875483"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922127"
 ---
 # <a name="maintenance-schedule"></a>جدول الصيانة
 
@@ -64,7 +64,7 @@ ms.locfileid: "1875483"
 - عند ربط بند جدول صيانة بأمر عمل، سيظهر معرف أمر العمل في حقل **أمر العمل**.  
 - في طريقة عرض تفاصيل **كل الأصول‬** > علامة التبويب السريعة **خطط صيانة الأصول**، يمكنك تحديد خطط صيانة للأصل. في وقت لاحق، إذا قمت بحذف بند خطة صيانة متعلق بأصل في **كل الأصول**، فإنك أيضًا تحذف تلقائيًا كل بنود جدول الصيانة ذات الحالة "تم إنشاؤها" والتي تم إنشاؤها استنادًا إلى خطة الصيانة هذه. راجع أيضًا [إنشاء أصل](../objects/create-an-object.md).
 
-يعرض الشكل أدناه صفحة قائمة **جدول الصيانة بكامله**.
+يعرض الرسم التوضيحي أدناه صفحة قائمة **جدول الصيانة بكامله**.
 
 ![الشكل 1](media/16-preventive-maintenance.png)
 

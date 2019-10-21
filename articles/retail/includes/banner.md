@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> ينطبق هذا الموضوع على Dynamics 365 for Retail وDynamics 365 for Finance and Operations.
+> ينطبق هذا الموضوع على كل من Dynamics 365 Retail وDynamics 365 Commerce (معاينة).

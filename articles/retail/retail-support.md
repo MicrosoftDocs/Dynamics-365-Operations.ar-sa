@@ -1,6 +1,6 @@
 ---
-title: الحصول على الدعم لتطبيق Dynamics 365 for Retail
-description: يشرح هذا المقال كيفية الحصول على تعليمات حول Microsoft Dynamics 365 for Retail.
+title: الحصول على الدعم لتطبيق Dynamics 365 Retail
+description: يشرح هذا المقال كيفية الحصول على تعليمات حول Dynamics 365 RetailMicrosoft.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 225b39bb03fa3bbd0b3c3a24e4eb09a114d01904
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577834"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024996"
 ---
-# <a name="get-support-for-dynamics-365-for-retail"></a>الحصول على الدعم لتطبيق Dynamics 365 for Retail
+# <a name="get-support-for-dynamics-365-retail"></a>الحصول على الدعم لتطبيق Dynamics 365 Retail
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا المقال كيفية الحصول على تعليمات حول Dynamics 365 for Retail.
+يشرح هذا المقال كيفية الحصول على تعليمات حول Dynamics 365 Retail.
 
 ## <a name="contact-support"></a>الاتصال بالدعم
 
@@ -48,7 +48,7 @@ ms.locfileid: "1577834"
 <tbody>
 <tr>
 <td>طرح سؤال على المجتمع.</td>
-<td>انتقل إلى صفحة مجتمع <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> للبحث عن المساعدة فيما يتعلق بأسئلتك من مجتمع Dynamics.</td>
+<td>انتقل إلى صفحة مجتمع <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> للبحث عن المساعدة فيما يتعلق بأسئلتك من مجتمع Dynamics.</td>
 </tr>
 <tr>
 <td>استخدم أداة البحث عن المشاكل.</td>
@@ -74,7 +74,7 @@ ms.locfileid: "1577834"
 بالنسبة إلى الأسئلة التقنية المتعلقة بتسجيل الدخول والوصول إلى CustomerSource، والتعلم الإلكتروني والبحث وقاعدة المعارف وتنزيل الملفات وأخطاء الصفحة أو النظام، انتقل إلى <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">دعم موقع ويب</a>.</td>
 </tr>
 <tr>
-<td>الحصول على المساعدة بشأن الأسئلة المتعلقة بترخيص Retail أو Finance and Operations.</td>
+<td>الحصول على تعليمات بخصوص الأسئلة المتعلقة بالترخيص.</td>
 <td>اتصل بشريك أو أحد كبار البائعين (LAR) أو مندوب مبيعات Microsoft.</td>
 </tr>
 <tr>

@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773236"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008445"
 ---
 # <a name="create-a-job"></a>إنشاء وظيفة
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع عناصر وظيفة في Microsoft Dynamics 365 for Talent: Attract. ويشرح أيضًا كيفية إنشاء وظيفة.
+يصف هذا الموضوع عناصر وظيفة في Microsoft Dynamics 365 Talent: Attract. ويشرح أيضًا كيفية إنشاء وظيفة.
 
 ## <a name="job-creation"></a>إنشاء وظيفة
 
@@ -74,7 +74,7 @@ ms.locfileid: "1773236"
 
 ## <a name="postings"></a>عمليات النشر
 
-بعد تنشيط وظيفة، يمكن نشرها. وباستطاعة المسؤولين ومسؤولي التعيين فقط نشر الوظائف. يمكن نشر الوظيفة إما في Talent Careers (موقع وظائف في Microsoft Dynamics 365 for Talent) أو LinkedIn. يعمل فريق Attract باستمرار على عقد شراكة مع مع برامج تجميع لوحات الوظائف. وبالتالي، ستتوسع هذه القائمة على مدار الوقت. عندما يتم نشر وظيفة كداخلية فقط، يحتاج المرشحون إلى حساب AAD لعرض الوظيفة والتقدم بطلب للحصول عليها. إذا كان الوظيفة مدرجة كعمومية، بإمكان المرشحين عرض الوظائف والتقدم بطلب للحصول عليها باستخدام جميع خيارات المصادقة. 
+بعد تنشيط وظيفة، يمكن نشرها. وباستطاعة المسؤولين ومسؤولي التعيين فقط نشر الوظائف. يمكن نشر الوظيفة إما في Talent Careers (موقع وظائف في Dynamics 365 Talent) أو LinkedIn. يعمل فريق Attract باستمرار على عقد شراكة مع مع برامج تجميع لوحات الوظائف. وبالتالي، ستتوسع هذه القائمة على مدار الوقت. عندما يتم نشر وظيفة كداخلية فقط، يحتاج المرشحون إلى حساب AAD لعرض الوظيفة والتقدم بطلب للحصول عليها. إذا كان الوظيفة مدرجة كعمومية، بإمكان المرشحين عرض الوظائف والتقدم بطلب للحصول عليها باستخدام جميع خيارات المصادقة. 
 
 للحصول على مزيد من المعلومات حول إعلانات الوظائف، راجع [وظيفة موقع الوظائف في Attract‬](career-site.md).
 

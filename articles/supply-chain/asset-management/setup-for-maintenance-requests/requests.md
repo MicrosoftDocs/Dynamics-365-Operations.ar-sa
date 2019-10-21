@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d238bb31537a21f46c252fbee400fe61901e650
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790459"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250911"
 ---
 # <a name="maintenance-requests"></a>طلبات الصيانة
 
@@ -31,7 +31,7 @@ ms.locfileid: "1790459"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-يمكنك إعداد أنواع مختلفة من الطلبات لاستخدامها في شركتك. أنواع طلبات الصيانة هي من نوع واحد. يتم استخدام طلبات الصيانة لطلب أن يكون أمر عمل مطلوبًا لوظيفة معينة. يمكن إنشاء طلب صيانة من قبل أي مستخدم لديه حق الوصول إلى وظيفة إدارة الأصول في Microsoft Dynamics 365 for Finance and Operations. عندئذٍ، بإمكان مخطط أو مدير أن يقرر ما إذا كان يجب تحويل طلب الصيانة إلى أمر عمل، أو ما إذا كان يجب عليه إكمال دورة حياته.
+يمكنك إعداد أنواع مختلفة من الطلبات لاستخدامها في شركتك. أنواع طلبات الصيانة هي من نوع واحد. يتم استخدام طلبات الصيانة لطلب أن يكون أمر عمل مطلوبًا لوظيفة معينة. يمكن إنشاء طلب صيانة من قبل أي مستخدم لديه حق الوصول إلى وظيفة إدارة الأصول. عندئذٍ، بإمكان مخطط أو مدير أن يقرر ما إذا كان يجب تحويل طلب الصيانة إلى أمر عمل، أو ما إذا كان يجب عليه إكمال دورة حياته.
 
 ## <a name="view-maintenance-requests"></a>عرض طلبات الصيانة
 

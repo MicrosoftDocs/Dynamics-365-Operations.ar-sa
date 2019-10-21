@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (يوليو 2018)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
+title: ما الجديد أو المتغير في Dynamics 365 Talent - Core HR (يوليو 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent - Core HR.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/31/2018
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: c0867fcf6203c303a700723d8c190378f495dac0
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: ba06183f32e9a788432bae640d1997f2ffb127f1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856247"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010212"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (يوليو 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-july-2018"></a>ما الجديد والمتغير في Dynamics 365 Talent: Core HR (يوليو 2018)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent: Core HR.
 
-## <a name="powerapps-personalization"></a>تخصيص PowerApps
+## <a name="powerapps-personalization"></a>PowerAppsتخصيص
 
-يدعم Microsoft Dynamics 365 for Talent التكامل مع خدمة Microsoft PowerApps. يسمح PowerApps للمطورين والمستخدمين غير التقنيين على حدٍ سواء ببناء تطبيقات أعمال مخصصة للأجهزة المحمولة وأجهزة الكمبيوتر اللوحية والويب من دون الحاجة إلى كتابة تعليمات برمجية. عند ذلك، يمكن تضمين التطبيقات التي تطورها أنت أو مؤسستك أو النظام البيئي الأوسع باستخدام PowerApps في عميل Talent لزيادة الأداء الوظيفي للمنتج. على سبيل المثال، قد تقوم بإنشاء تطبيق لتكملة Talent باستخدام معلومات تم استردادها من نظام آخر.
+يدعم Talent التكامل مع خدمة Microsoft PowerApps. PowerApps يسمح للمطورين والمستخدمين غير التقنيين على حدٍ سواء ببناء تطبيقات أعمال مخصصة للأجهزة المحمولة وأجهزة الكمبيوتر اللوحية والويب من دون الحاجة إلى كتابة تعليمات برمجية. عند ذلك، يمكن تضمين التطبيقات التي تطورها أنت أو مؤسستك أو النظام البيئي الأوسع باستخدام PowerApps في عميل Talent لزيادة الأداء الوظيفي للمنتج. على سبيل المثال، قد تقوم بإنشاء تطبيق لتكملة Talent باستخدام معلومات تم استردادها من نظام آخر.
 
 للحصول على مزيد من المعلومات، راجع [تضمين تطبيقات PowerApps](../fin-and-ops/get-started/embed-power-apps.md).
 

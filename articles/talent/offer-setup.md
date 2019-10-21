@@ -1,6 +1,6 @@
 ---
 title: إعداد إدارة العروض
-description: يصف هذا الموضوع كيفية إعداد العروض في Talent.
+description: يصف هذا الموضوع كيفية إعداد العروض في Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517231"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010834"
 ---
 # <a name="set-up-offer-management"></a>إعداد إدارة العروض 
 
 [!include [banner](includes/banner.md)]
 
-عند نقل أحد المرشحين إلى مرحلة العرض في Dynamics 365 for Talent: Attract، يجب أن تتأكد من إمكانية إنشاء العروض بسرعة لهذا المرشح، والموافقة عليها كما تقتضي الحاجة، ثم إرسالها إلى المرشح. وبما أن معظم العروض تعتبر قياسية، يمكن إنشاؤها من قوالب قابلة لإعادة الاستخدام. في Attract، تكون جميع العروض مجمعة في حزمة عرض، وهي عبارة عن مجموعة تتضمن مستند عرض أو أكثر. 
+عند نقل أحد المرشحين إلى مرحلة العرض في Dynamics 365 Talent: Attract، يجب أن تتأكد من إمكانية إنشاء العروض بسرعة لهذا المرشح، والموافقة عليها كما تقتضي الحاجة، ثم إرسالها إلى المرشح. وبما أن معظم العروض تعتبر قياسية، يمكن إنشاؤها من قوالب قابلة لإعادة الاستخدام. في Attract، تكون جميع العروض مجمعة في حزمة عرض، وهي عبارة عن مجموعة تتضمن مستند عرض أو أكثر. 
 
 يسرد هذا الموضوع جميع الخطوات التي يجب على مسؤول Attract اتباعها لإعداد قوالب حزم عروض مختلفة كجزء من إمكانية إدارة العروض في Attract. لن يتمكن المستخدمون الذين لا يؤدون أدوار المسؤول من الوصول إلى هذه الإمكانيات.
 

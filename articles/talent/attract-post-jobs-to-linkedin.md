@@ -1,6 +1,6 @@
 ---
-title: نشر الوظائف في LinkedIn من Microsoft Dynamics 365 for Talent - Attract
-description: يشرح هذا الموضوع كيفية استخدام Dynamics 365 for Talent - Attract لنشر الوظائف في LinkedIn.
+title: نشر الوظائف في LinkedIn من Microsoft Dynamics 365 Talent - Attract
+description: يشرح هذا الموضوع كيفية استخدام Dynamics 365 Talent - Attract لنشر الوظائف في LinkedIn.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756166"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008233"
 ---
 # <a name="post-jobs-to-linkedin"></a>نشر وظائف في LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-تعتبر LinkedIn أكبر شركة احترافية عبر الإنترنت، وهي تمنحك حق الوصول إلى أهم المواهب في العالم.‬ يساعدك Microsoft Dynamics 365 for Talent: Attract على الحصول على المواهب التي تحتاج إليها من خلال السماح لك بنشر الوظائف مباشرة من Attract إلى LinkedIn.
+تعتبر LinkedIn أكبر شركة احترافية عبر الإنترنت، وهي تمنحك حق الوصول إلى أهم المواهب في العالم.‬ يساعدك Microsoft Dynamics 365 Talent: Attract على الحصول على المواهب التي تحتاج إليها من خلال السماح لك بنشر الوظائف مباشرة من Attract إلى LinkedIn.
 
 يتيح لك Attract نشر عروض وظائف محدودة في LinkedIn من دون تكلفة إضافية. تتوفر إدخالات عروض الوظائف هذه فقط من خلال شركاء برنامج LinkedIn مثل Attract. وهي لا تظهر في لوحة **المهن** في صفحة LinkedIn الخاصة بشركتك، لأن الإدخالات المدفوعة وحدها تظهر هناك. ومع ذلك، فهي تظهر عندما يستعرض المرشحون المحتملون كافة الوظائف المتوفرة. تظهر أيضًا عروض الوظائف المحدودة في عمليات البحث عن الوظائف في LinkedIn.
 

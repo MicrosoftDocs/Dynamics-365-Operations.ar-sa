@@ -1,6 +1,6 @@
 ---
-title: تحرير أدلة وقوالب الإعداد في Dynamics 365 for Talent - Onboard
-description: يشرح هذا الموضوع كيفيه إضافة أنشطة ومعلومات أخرى إلى أدلة وقوالب الإعداد في Microsoft Dynamics 365 for Talent - Onboard.
+title: تحرير أدلة وقوالب الإعداد في  Dynamics 365 Talent - Onboard
+description: يشرح هذا الموضوع كيفية إضافة أنشطة ومعلومات أخرى إلى أدلة وقوالب الإعداد في  Microsoft Dynamics 365 Talent - Onboard.
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68afc5d789d1f4af67cd2ec73eb0e073efad0761
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 7803c7cd2c58b8544d2c8dd711c295d6882f9fca
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864383"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010788"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-for-talent-onboard"></a>تحرير أدلة وقوالب الإعداد في Dynamics 365 for Talent: Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>تحرير أدلة وقوالب الإعداد
 
 [!include [banner](includes/banner.md)]
 
-بعد إنشاء دليل أو قالب إعداد في Microsoft Dynamics 365 for Talent: Onboard، يجب إضافة مقدمة وأنشطة وجهات اتصال وموارد. يسمح لك Onboard بتضمين محتوى غني في أدلة الإعداد، بما في ذلك:
+بعد إنشاء دليل أو قالب إعداد في  Microsoft Dynamics 365 Talent: Onboard، يجب إضافة مقدمة وأنشطة وجهات اتصال وموارد. يسمح لك Onboard بتضمين محتوى غني في أدلة الإعداد، بما في ذلك:
 
 - مقاطع فيديو YouTube
 - عروض تقديميه من Microsoft Sway
@@ -124,7 +124,7 @@ ms.locfileid: "1864383"
 
     - لإضافة مقطع فيديو YouTube، اسحب عنصر **YouTube** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، ثم أدخل عنوان URL لفيديو YouTube.
     - لإضافة رسالة إخبارية أو عرض تقديمي من Sway، اسحب عنصر**Sway** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL المضمن للرسالة الإخبارية أو العرض التقديمي من Sway.
-    - لإضافة تطبيق PowerApps، اسحب عنصر **PowerApps** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وحدد تطبيق PowerApps‎ أو أدخل معرف تطبيق PowerApps‎.
+    - لإضافة تطبيق PowerApps، اسحب عنصر **PowerApps** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وحدد تطبيق PowerApps أو أدخل مُعرف تطبيق PowerApps.
     - لإضافة مقطع فيديو Microsoft Stream، اسحب عنصر **Microsoft Stream** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، ثم أدخل عنوان URL لفيديو Microsoft Stream.
     - لإضافة نموذج Microsoft Forms، اسحب عنصر **Microsoft Forms** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL لنموذج Microsoft Forms، وحدد حجم منطقة الشاشة.
     - لإضافة iframe يتضمن محتوى ويب، اسحب عنصر **محتوى ويب (iframe)** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL لمحتوى الويب وحدد حجم منطقة الشاشة.

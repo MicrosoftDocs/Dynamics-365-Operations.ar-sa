@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 36fc98c44625cce03945d76973de67021d53353e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844359"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249438"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>تحويل وحدة القياس لكل متغير منتج
 
@@ -90,6 +90,6 @@ ms.locfileid: "1844359"
 
 ### <a name="using-excel-to-update-the-unit-conversions"></a>استخدام Excel لتحديث تحويلات الوحدات
 
-إذا تضمن أحد المنتجات الكثير من متغيرات المنتجات مع تحويلات وحدات مختلفة، فمن المستحسن تصدير تحويلات الوحدات من صفحة **تحويل الوحدة** إلى جدول بيانات Excel، وتحديث التحويلات، ثم إعادة نشرها في Finance and Operations.
+إذا تضمن أحد المنتجات الكثير من متغيرات المنتجات مع تحويلات وحدات مختلفة، فمن المستحسن تصدير تحويلات الوحدات من صفحة **تحويل الوحدة** إلى جدول بيانات Excel، وتحديث التحويلات، ثم إعادة نشرها في Supply Chain Mangement.
 
-يمكن تمكين خيار التصدير إلى Excel وإعادة نشر عمليات التحرير في Finance and Operations من عنصر القائمة **فتح في Microsoft Office** في "جزء الإجراءات" في صفحة  **تحويل الوحدة**.
+يمكن تمكين خيار التصدير إلى Excel وإعادة نشر عمليات التحرير في Supply Chain Mangement من عنصر القائمة **فتح في Microsoft Office** في "جزء الإجراءات" في صفحة  **تحويل الوحدة**.

@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 0993119de785d5e3826075778c018bdfa50071e2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517269"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024226"
 ---
 # <a name="get-started-with-talent"></a>بدء استخدام Talent
 
 [!include [banner](includes/banner.md)]
 
-في Microsoft Dynamics 365 for Talent من السهل تعديل واجهة المستخدم وتعيين الخيارات التي تجعل البرنامج أكثر سهولة في تلبية احتياجاتك. يتضمن هذا الموضوع ارتباطات موصلة للمواضيع التي توفر معلومات حول كيفية تهيئة واجهة المستخدم حسب التفضيلات الخاصة بك. يتضمن الموضوع أيضًا ارتباطات موصلة للمعلومات التي يمكن أن تساعدك في البحث عن المعلومات في النظام بكفاءة ودقة. 
+في Microsoft Dynamics 365 Talent من السهل تعديل واجهة المستخدم وتعيين الخيارات التي تجعل البرنامج أكثر سهولة في تلبية احتياجاتك. يتضمن هذا الموضوع ارتباطات موصلة للمواضيع التي توفر معلومات حول كيفية تهيئة واجهة المستخدم حسب التفضيلات الخاصة بك. يتضمن الموضوع أيضًا ارتباطات موصلة للمعلومات التي يمكن أن تساعدك في البحث عن المعلومات في النظام بكفاءة ودقة. 
 
 > [!NOTE] 
-> ترتبط المنتجات التالية ببعضها بشكل وثيق: Dynamics 365 for Finance and Operations وDynamics 365 for Retail وDynamics 365 for Talent. قد تظهر نفس الوظيفة في المنتجات الثلاثة كلها. ونتيجة لذلك، سيكون اسم المنتج Dynamics 365 for Retail في المواضيع المرتبطة بشكل أساسي بتطبيق Retail؛ وسيكون اسم المنتج Dynamics 365 for Talent في المواضيع المرتبطة بشكل أساسي بـ Talent؛ وسيكون اسم المنتج Dynamics 365 for Finance and Operations في المواضيع المرتبطة بشكل أساسي بالمنتج الرئيسي. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
+> ترتبط المنتجات التالية ببعضها بشكل وثيق: Dynamics 365 Finance وDynamics 365 Retail وDynamics 365 Talent. وقد تظهر الوظائف نفسها في المنتجات الثلاثة كلها. ونتيجة لذلك، سيكون اسم المنتج Dynamics 365 Retail في المواضيع المرتبطة بشكل أساسي بتطبيق Retail؛ وسيكون اسم المنتج Dynamics 365 Talent في المواضيع المرتبطة بشكل أساسي بـ Talent؛ وسيكون اسم المنتج Dynamics 365 Finance في المواضيع المرتبطة بشكل أساسي بالمنتج الرئيسي. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
 
 ## <a name="personalizing-talent"></a>إضفاء طابع شخصي على المواهب 
-توضح المواضيع التالية كيفية إعداد العديد من الميزات في Dynamics 365 for Talent التي تسهل عليك إتمام عملك في الوقت مناسب. 
+توضح المواضيع التالية كيفية إعداد العديد من الميزات في Talent التي تسهل عليك إتمام عملك في الوقت مناسب. 
 
 -   [إضفاء الطابع الشخصي على تجربة المستخدم](../fin-and-ops/get-started/personalize-user-experience.md) -يشرح هذا الموضوع الطرق المختلفة التي يمكن من خلالها إضفاء الطابع الشخصي على الموهبة وتهيئة أجزاء من المنتج لتلائم مجموعة التفضيلات الخاصة بك بشكل أفضل.
 
@@ -61,7 +61,7 @@ ms.locfileid: "1517269"
 انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
 
 ### <a name="blogs"></a>المدونات
-يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة وحلول أخرى في [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة وحلول أخرى في [Dynamics 365 Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>ملفات فيديو
 راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).

@@ -1,2 +1,2 @@
 > [!NOTE]
-> ينطبق هذا الموضوع على كل من Dynamics 365 for Finance and Operations وDynamics 365 for Retail. 
+> ينطبق هذا الموضوع على الشئون المالية وإدارة سلسلة التوريد والبيع بالتجزئة. 

@@ -1,6 +1,6 @@
 ---
 title: تجنب اقتطاع نص في التدرج الهرمي للمنصب والتصدير إلى Visio
-description: يشرح هذا الموضوع كيفية حل مشكلة تم فيها اقتطاع أسماء الأفراد ومناصبهم عندما قام العملاء بعرض التدرج الهرمي للمنصب في Dynamics 365 for Talent. يُصعب اقتطاع النص أخذ لقطة شاشة أو طباعة التدرج الهرمي.
+description: يشرح هذا الموضوع كيفية حل مشكلة تم فيها اقتطاع أسماء الأفراد ومناصبهم عندما قام العملاء بعرض التدرج الهرمي للمنصب في Dynamics 365 Talent. يُصعب اقتطاع النص أخذ لقطة شاشة أو طباعة التدرج الهرمي.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 07a972bc1c6dd4076932248edb314992cb7297e5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e151818f29ac37ff449daaf1dc02e44b8fb317c3
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741811"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008490"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>تجنب اقتطاع نص في التدرج الهرمي للمنصب والتصدير إلى Visio
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741811"
 
 **إصدار**
 
-عندما يستعرض العميل التدرج الهرمي للمنصب في Microsoft Dynamics 365 for Talent، يتم اقتطاع أسماء الأفراد ومناصبهم. لذلك، فقد يكون من الصعب أخذ لقطة شاشة أو طباعة وتوزيع التدرج الهرمي.
+عندما يستعرض العميل التدرج الهرمي للمنصب في Microsoft Dynamics 365 Talent، يتم اقتطاع أسماء الأفراد ومناصبهم. لذلك، فقد يكون من الصعب أخذ لقطة شاشة أو طباعة وتوزيع التدرج الهرمي.
 
 ![التدرج الهرمي للمناصب الوظيفية](media/position-h.png)
 

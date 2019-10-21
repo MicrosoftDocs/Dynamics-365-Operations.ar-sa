@@ -1,6 +1,6 @@
 ---
 title: تهيئة بيانات القيم الأولية في بيئات البيع بالتجزئة الجديدة
-description: تصف هذه المقالة البيانات التي يتم إنشاؤها كجزء من عملية تهيئة Microsoft Dynamics 365 for Retail.
+description: تصف هذه المقالة البيانات التي يتم إنشاؤها كجزء من عملية تهيئة Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556888"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025505"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>تهيئة بيانات إضافة قاعدة بيانات في بيئات Retail الجديدة
 
 [!include [banner](includes/banner.md)]
 
-تصف هذه المقالة البيانات التي يتم إنشاؤها كجزء من عملية تهيئة Microsoft Dynamics 365 for Retail.
+تصف هذه المقالة البيانات التي يتم إنشاؤها كجزء من عملية تهيئة Dynamics 365 Retail.
 
 بعد نشر حل البيع بالتجزئة من خلال Microsoft Dynamics Lifecycle Services (LCS)، يجب عليك تهيئة تكوين البيع بالتجزئة لإنشاء بيانات التكوين الأساسية.
 
@@ -39,7 +39,7 @@ ms.locfileid: "1556888"
 
 وتهيئة تكوين البيع بالتجزئة، اتبع الخطوات التالية.
 
-1. ابدأ تشغيل عميل Dynamics 365 for Retail.
+1. ابدأ تشغيل عميل Retail.
 2. انقر فوق **البيع بالتجزئة** &gt; **إعداد المقر الرئيسي** &gt; **المعلمات** &gt; **معلمات البيع بالتجزئة**.
 3. انقر فوق **تهيئة**.
 
@@ -57,7 +57,7 @@ ms.locfileid: "1556888"
 - قوالب التحقق من صحة الكيان
 - وظيفة دًفعية لحذف محفوظات جلسات عمل Commerce Data Exchange
 
-بالإضافة إلى ذلك، يتم تمكين التسجيل المتعلق بصناعة بطاقات الدفع (PCI) لقاعدة بيانات Dynamics 365 for Retail.
+بالإضافة إلى ذلك، يتم تمكين التسجيل المتعلق بصناعة بطاقات الدفع (PCI) لقاعدة بيانات Retail.
 
 > [!NOTE]
 > هناك خيار لتكوين مجدول البيع بالتجزئة بشكل منفصل. يتيح لك هذا الخيار إعادة تعيين تكوين مجدول البيع بالتجزئة إلى الإعدادات الافتراضية الخاصة به.

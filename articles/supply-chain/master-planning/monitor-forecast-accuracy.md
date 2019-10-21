@@ -1,6 +1,6 @@
 ---
-title: مراقبة دقة التنبؤ
-description: توضح هذه المقالة أنواع دقة التنبؤ التي يحسبها Microsoft Dynamics 365 for Finance and Operations، وتشرح لك كيف يمكنك عرض قيم الدقة.
+title: رصد دقة التنبؤ​
+description: يوضح هذا الموضوع  أنواع دقة التنبؤ التي يحسبها Dynamics 365 Supply Chain Management، وتشرح لك كيف يمكنك عرض قيم الدقة.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,25 +19,26 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7070c15f9ee23cfdba871af68d1fc5954735651
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6f238afadfa064e972ef11a95fdad073f63ff20c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556796"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250658"
 ---
-# <a name="monitor-forecast-accuracy"></a>مراقبة دقة التنبؤ
+# <a name="monitor-forecast-accuracy"></a>رصد دقة التنبؤ​
 
 [!include [banner](../includes/banner.md)]
 
-توضح هذه المقالة أنواع دقة التنبؤ التي يحسبها Microsoft Dynamics 365 for Finance and Operations، وتشرح لك كيف يمكنك عرض قيم الدقة.
+يوضح هذا الموضوع  أنواع دقة التنبؤ التي يحسبها Dynamics 365 Supply Chain Management الخاص بشركة Microsoft، وتشرح لك كيف يمكنك عرض قيم الدقة.
 
-يحسب Finance and Operations الأنواع التالية من دقة التنبؤ:
+يحسب Supply Chain Management الأنواع التالية من دقة التنبؤ:
 
 -   دقة التنبؤ التاريخي، عن طريق مقارنة التنبؤ التاريخي الذي يستخدمه "التخطيط الرئيسي" مع الطلب التاريخي. لعرض القيم (كل من القيم المطلقة والنسب المئوية) لدقة التنبؤ التاريخي، انقر فوق **إظهار الدقة** على الصفحة **تفاصيل التنبؤ بالطلب**.
 -   الدقة المقدرة لنموذج التنبؤ الذي يتم استخدامه لإنشاء التنبؤات. يمكنك عرض النسبة المئوية للدقة ضمن **تفاصيل النموذج -متوسط النسبة المئوية المطلقة للخطأ** على الصفحة **تفاصيل التنبؤ بالطلب**. 
 
-**ملاحظة:** إذا كنت تستخدم خدمة التعلم الآلي من Microsoft Azure للتنبؤ بالطلب في Finance and Operations، يستند حساب دقة النموذج الداخلي إلى مجموعة بيانات الاختبار. لتحديد حجم مجموعة بيانات الاختبار، قم بضبط المعلمة **TEST\_SET\_SIZE\_PERCENT** في الصفحة **معلمات التنبؤ بالطلب**. على سبيل المثال، إذا قمت بتعيين القيمة إلى **20**، فإنه سيتم استخدام نسبة 20% الأخيرة من البيانات المسجلة لحساب دقة النموذج الداخلي.
+> [!NOTE]
+> إذا كنت تستخدم خدمة التعلم الآلي من  Microsoft Azure للتنبؤ بالطلب، يستند حساب دقة النموذج الداخلي إلى مجموعة بيانات الاختبار. لتحديد حجم مجموعة بيانات الاختبار، قم بضبط المعلمة **TEST\_SET\_SIZE\_PERCENT** في الصفحة **معلمات التنبؤ بالطلب**. على سبيل المثال، إذا قمت بتعيين القيمة إلى **20**، فإنه سيتم استخدام نسبة 20% الأخيرة من البيانات المسجلة لحساب دقة النموذج الداخلي.
 
 
 <a name="additional-resources"></a>الموارد الإضافية

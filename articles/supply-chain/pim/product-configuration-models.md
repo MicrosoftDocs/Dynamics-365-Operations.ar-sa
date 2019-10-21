@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563587"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250603"
 ---
 # <a name="product-configuration-models-overview"></a>نظرة عامة على نماذج تكوين المنتجات
 
@@ -118,7 +118,7 @@ ms.locfileid: "1563587"
 </tr>
 </tbody>
 </table>
-يمثل قيد الجدول المحدد بواسطة النظام تخطيطًا بين نوع السمة والحقل في جدول Finance and Operations. يربط قيد الجدول المحدد بواسطة النظام بين نوع السمة والحقل ديناميكيًا. ويعمل هذا الرابط على تمكين السمة في نموذج تكوين المنتج لإظهار بيانات الحقل في جدول Finance and Operations.‬</td>
+يمثل قيد الجدول المحدد بواسطة النظام تخطيطًا بين نوع السمة والحقل في جدول Finance and Operations. يربط قيد الجدول المحدد بواسطة النظام بين نوع السمة والحقل ديناميكيًا. ويعمل هذا الرابط على تمكين السمة في نموذج تكوين المنتج لإظهار بيانات الحقل في جدول Supply Chain Management.‬</td>
 </tr>
 <tr class="odd">
 <td>عمليات الحساب</td>

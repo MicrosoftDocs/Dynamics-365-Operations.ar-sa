@@ -1,6 +1,6 @@
 ---
-title: مزامنة عمليات تحويل وتسوية المخزون من Field Service إلى Finance and Operations
-description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة عمليات تحويل وتسوية المخزون من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Field Service.
+title: مزامنة عمليات تحويل وتسوية المخزون من Field Service إلى Supply Chain Management
+description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة عمليات تحويل وتسوية المخزون من Dynamics 365 Supply Chain Management إلى Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,63 +19,63 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 145c9c06635aa6518fd1f76324a8bd6e4cc07d16
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c989e6efff88768f0b370fc81eea971c5c11bcef
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835708"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251605"
 ---
-# <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>مزامنة عمليات تسوية المخزون من Field Service إلى Finance and Operations
+# <a name="synchronize-inventory-adjustments-from-field-service-to-supply-chain-management"></a>مزامنة عمليات تسوية المخزون من Field Service إلى Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة عمليات تحويل وتسوية المخزون من Microsoft Dynamics 365 for Finance and Operations إلى Microsoft Dynamics 365 for Field Service.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة عمليات تحويل وتسوية المخزون من Dynamics 365 Supply Chain Management إلى Dynamics 365 Field Service.
 
-[![مزامنة عمليات الأعمال بين Finance and Operations وField Service](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
+[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
-يتم استخدام القوالب والمهام الأساسية التالية لمزامنة عمليات تحويل وتسوية المخزون من Microsoft Dynamics 365 for Field Service إلى Microsoft Dynamics 365 for Finance and Operations.
+يتم استخدام القوالب والمهام الأساسية التالية لمزامنة عمليات تحويل وتسوية المخزون من Field Service إلى Supply Chain Management.
 
 **القوالب في تكامل البيانات**
-- تسوية المخزون (Field Service إلى Fin and Ops)
-- تحويل المخزون‬ (Field Service إلى Fin and Ops)
+- عمليات تسوية المخزون (Field Service إلى Supply Chain Management)
+- عمليات تحويل المخزون (Field Service إلى Supply Chain Management)
 
 **المهام في مشاريع تكامل البيانات**
 - عمليات تسوية المخزون
 - عمليات تحويل المخزون
 
 ## <a name="entity-set"></a>مجموعة الكيانات
-| Field Service                     | Finance and Operations                             |
+| Field Service                     | Supply Chain Management                          |
 |-----------------------------------|----------------------------------------------------|
 | msdyn_inventoryadjustmentproducts |   رؤوس دفتر يومية تعديل مخزون CDS وبنوده |
 | msdyn_inventoryadjustmentproducts | رؤوس دفتر يومية نقل مخزون CDS وبنوده   |
 
 ## <a name="entity-flow"></a>تدفق الكيان
-ستتم مزامنة عمليات تسوية وتحويل المخزون التي يتم تنفيذها في Field Service إلى Finance and Operations، عندما تتغير **حالة الترحيل** من **تم الإنشاء** إلى **مرحّل**. عند حدوث ذلك، سيتم تأمين أمر التحويل أو التسوية ويصبح للقراءة فقط. وهذا يعني أنه يمكن ترحيل عمليات التسوية والتحويل في Finance and Operations، ولكن لا يمكن تعديلها. في Finance and Operations، يمكنك إعداد وظيفة دفعية لترحيل دفاتر اليومية لعمليات تسوية أو تحويل المخزون التي نشأت أثناء التكامل. راجع المتطلبات الأساسية التالية للحصول على تفاصيل حول كيفية تمكين الوظيفة الدفعية.
+ستتم مزامنة عمليات تسوية وتحويل المخزون التي يتم تنفيذها في Field Service إلى Supply Chain Management، عندما تتغير **حالة الترحيل** من **تم الإنشاء** إلى **مرحّل**. عند حدوث ذلك، سيتم تأمين أمر التحويل أو التسوية ويصبح للقراءة فقط. وهذا يعني أنه يمكن ترحيل عمليات التسوية والتحويل في Supply Chain Management، ولكن لا يمكن تعديلها. في Supply Chain Management، يمكنك إعداد وظيفة دفعية لترحيل دفاتر اليومية لعمليات تسوية أو تحويل المخزون التي نشأت أثناء التكامل. راجع المتطلبات الأساسية التالية للحصول على تفاصيل حول كيفية تمكين الوظيفة الدفعية.
 
 ## <a name="field-service-crm-solution"></a>حل Field Service CRM 
-تمت إضافة حقل **وحدة المخزون** إلى "كيان **المنتج**. ثمة حاجة إلى هذا الحقل لأن وحدة المبيعات والمخزون ليست دائمًا نفسها في Finance and Operations، ونحن نحتاج إلى وحدة المخزون لمخزون المستودع في Finance and Operations.
+تمت إضافة حقل **وحدة المخزون** إلى "كيان **المنتج**. ثمة حاجة إلى هذا الحقل لأن وحدة المبيعات والمخزون ليست دائمًا نفسها في Supply Chain Management، ونحن نحتاج إلى وحدة المخزون لمخزون المستودع في Supply Chain Management.
 عندما تقوم بتعيين المنتج على منتج تسوية المخزون لعمليات تسوية المخزون وتحويل المخزون، سيتم إحضار الوحدة من قيمة منتج المخزون. إذا تم العثور على قيمة، فسيتم تأمين حقل **الوحدة** على منتج تسوية المخزون.
 
-تمت إضافة حقل **حالة الترحيل** إلى كيان **تسوية المخزون** وكيان **تحويل المخزون**. يُستخدم هذا الحقل كعامل تصفية عند إرسال تسوية أو تحويل إلى Finance and Operations. الإعداد الافتراضي لهذا الحقل هو تم الإنشاء (1)، ومع ذلك لا يتم إرساله إلى Finance and Operations. عندما تقوم بتحديث القيمة إلى مرحّل (2)، يتم إرساله إلى Finance and Operations، ولكن سيتعذر عليك بعد ذلك تغيير أي شيء في التسوية أو التحويل أو إضافة أية بنود جديدة.
+تمت إضافة حقل **حالة الترحيل** إلى كيان **تسوية المخزون** وكيان **تحويل المخزون**. يُستخدم هذا الحقل كعامل تصفية عند إرسال تسوية أو تحويل إلى Supply Chain Management. الإعداد الافتراضي لهذا الحقل هو تم الإنشاء (1)، ومع ذلك لا يتم إرساله إلى Supply Chain Management. عندما تقوم بتحديث القيمة إلى مرحّل (2)، يتم إرساله إلى Supply Chain Management، ولكن سيتعذر عليك بعد ذلك تغيير أي شيء في التسوية أو التحويل أو إضافة أية بنود جديدة.
 
 تمت إضافة حقل **التسلسل الرقمي** إلى كيان **منتج تسوية المخزون**. يضمن هذا الحقل حصول التكامل على رقم فريد، بحيث تتمكن عملية التكامل من إنشاء التسوية وتحديثها؟ عندما تنشئ "منتج تسوية المخزون" الأول، سيؤدي ذلك إلى إنشاء سجل جديد في كيان **الرقم التلقائي P2C** للاحتفاظ بسلسلة الأرقام والبادئة المستخدمة.
 
 ## <a name="prerequisites-and-mapping-setup"></a>المتطلبات الأساسية وإعداد التعيين
 
-### <a name="finance-and-operations"></a>Finance and Operations
+### <a name="supply-chain-management"></a>Supply Chain Management
 بإمكان دفاتر يومية مخزون التكامل التي تم إنشاؤها بواسطة التكامل أن ترحّل بشكل تلقائي باستخدام وظيفة دفعية. يتم تمكين ذلك من **إدارة المخزون > المهام الدورية > تكامل CDS > ترحيل دفاتر يومية مخزون التكامل**.
 
 ## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 
 تبين الأشكال التوضيحية التالية تعيين القالب في تكامل البيانات.
 
-### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>تسوية المخزون (Field Service إلى Fin and Ops): تسوية المخزون
+### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>تسوية المخزون (Field Service إلى Supply Chain Management): تسوية المخزون
 
 [![تعيين القالب في تكامل البيانات](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>تحويل المخزون (Field Service إلى Fin and Ops): تحويل المخزون
+### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>تحويل المخزون (Field Service إلى Supply Chain Management): تحويل المخزون
 
 [![تعيين القالب في تكامل البيانات](./media/FSTrans1.png)](./media/FSTrans1.png)

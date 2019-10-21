@@ -1,6 +1,6 @@
 ---
-title: نشر الوظائف في مواقع وظائف خارجية من Attract
-description: يشرح هذا الموضوع كيفية استخدام Dynamics 365 for Talent - Attract لنشر الوظائف في مواقع توظيف خارجية.
+title: نشر الوظائف في مواقع مهن خارجية من Attract
+description: يشرح هذا الموضوع كيفية استخدام- Attract Dynamics 365 Talent لنشر الوظائف في مواقع توظيف خارجية.
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739807"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008072"
 ---
 # <a name="post-jobs-to-broadbean"></a>نشر وظائف في Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-يساعدك Microsoft Dynamics 365 for Talent: Attract على الحصول على المواهب التي تحتاج إليها من خلال السماح لك بنشر الوظائف مباشرة من Attract إلى Broadbean. بعد [إنشاء وظيفة](./creating-jobs-attract.md)، ما عليك سوى النقر فوق زر لوضع وظيفتك أمام الآلاف من المرشحين المحتملين في Broadbean.
+يساعدك Dynamics 365 Talent: Attract Microsoftعلى الحصول على المواهب التي تحتاج إليها من خلال السماح لك بنشر الوظائف مباشرة من Attract إلى Broadbean. بعد [إنشاء وظيفة](./creating-jobs-attract.md)، ما عليك سوى النقر فوق زر لوضع وظيفتك أمام الآلاف من المرشحين المحتملين في Broadbean.
 
 يتطلب نشر الوظائف في Broadbean الحصول على ترخيص Broadbean مناسب. يقدم Broadbean منتجات وخططًا المتنوعة. لمزيد من المعلومات حول ترخيص وأسعار Broadbean، [اتصل بـ Broadbean](https://www.broadbean.com/contact-us/).
 

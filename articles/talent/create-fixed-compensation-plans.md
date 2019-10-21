@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517200"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008141"
 ---
 # <a name="create-fixed-compensation-plans"></a>إنشاء خطط التعويض الثابت
 
@@ -31,7 +31,7 @@ ms.locfileid: "1517200"
 
 يشير التعويض الثابت إلى الأجر أو الراتب الإجمالي المنتظم للموظف. يوضح هذا الموضوع المكونات التي يجب إعدادها قبل أن تتمكن من إنشاء خطة التعويض الثابت وتسجيل الموظفين.
 
-يمكن حساب مبالغ التعويض الثابت للموظفين، على أساس عوامل مثل الأداء والمنطقة وزيادات الموازنة. يدعم Microsoft Talent الخطوة والدرجة وأنواع تعويض النطاق.
+يمكن حساب مبالغ التعويض الثابت للموظفين، على أساس عوامل مثل الأداء والمنطقة وزيادات الموازنة. يدعم Dynamics 365 Talent أنواع تعويضات الخطوة والدرجة والنطاق.
 
 ## <a name="fixed-compensation-components"></a>مكونات التعويض الثابت
 ### <a name="compensation-levels"></a>مستويات التعويض

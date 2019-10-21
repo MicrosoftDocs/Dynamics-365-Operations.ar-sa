@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (27 نوفمبر 2018)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 for Talent Core HR.
+title: ما الجديد أو المتغير في Dynamics 365 Talent - Core HR (27نوفمبر 2018)
+description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/27/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 81ea0e4f4878d1967234c597504071ce464a22c5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9ff375ca97444d060c701e27c8fdcfecab4df186
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517256"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010166"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-27-2018"></a>ما الجديد أو المتغير في Dynamics 365 for Talent Core HR‏ (27 نوفمبر 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-november-27-2018"></a>ما الجديد أو المتغير في Dynamics 365 Talent: Core HR‏ (27 نوفمبر 2018)
 
 [!include [banner](includes/banner.md)]
 

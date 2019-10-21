@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517196"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026246"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>جدولة الاستبيانات وتوزيعها
 
@@ -83,7 +83,7 @@ ms.locfileid: "1517196"
 
 يمكنك استخدام أنواع المرجع لإدخال معايير للمستجيبين الذين قد تحددهم عندما تقوم بجدولة استبيان. 
 
-واستخدام صفحة **أنواع المراجع** لإعداد أنواع المرجع لاستبيان. يتوافق كل نوع مرجع مع جدول في Microsoft Dynamics 365 for Finance and Operations. وعند إنشاء جداول الاستبيان، يمكنك تحديد السجلات الفردية في الجدول أو مجموعة السجلات التي سيتم إقران الاستبيان بها. 
+واستخدام صفحة **أنواع المراجع** لإعداد أنواع المرجع لاستبيان. يتوافق كل نوع مرجع مع جدول في Microsoft Dynamics 365 Finance. وعند إنشاء جداول الاستبيان، يمكنك تحديد السجلات الفردية في الجدول أو مجموعة السجلات التي سيتم إقران الاستبيان بها. 
 
 على سبيل المثال، إذا قمت بتحديد جدول الدورات التدريبية، يمكنك أن تقرر أي دورات تدريبية معينة سيُخصص الاستبيان لها. وعند إعداد مرجع لجدول الدورات، تتوفر بعض الحقول والأزرار في صفحة **الدورات**.
 

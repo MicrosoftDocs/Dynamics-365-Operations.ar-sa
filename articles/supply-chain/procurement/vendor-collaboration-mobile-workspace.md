@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843855"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250246"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>مساحة العمل المحمولة لتعاون المورد
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843855"
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **تعاون المورد**. تساعد مساحة العمل هذه الموردين على البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها. ويمكنهم أيضًا عرض معلومات حول جهات الاتصال وأوامر الشراء الجديدة والمحدثة.
 
-مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Microsoft Dynamics 365 for Unified Operations Mobile.
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة. 
 
 ## <a name="overview"></a>نظرة عامة 
-تسمح مساحة العمل المحمولة‬ **تعاون المورّد** للمورّدين بالبقاء على اطلاع دائم على أوامر الشراء الجديدة لكي يتمكنوا من رؤية أوامر الشراء والاستجابة لها في عميل ويب Microsoft Dynamics 365 for Finance and Operations. 
+تسمح مساحة العمل المحمولة‬ **تعاون المورّد** للمورّدين بالبقاء على اطلاع دائم على أوامر الشراء الجديدة لكي يتمكنوا من رؤية أوامر الشراء والاستجابة لها في عميل ويب . 
 
 >[!NOTE]
 > يجب استخدام مساحة العمل المحمولة‬ لتعاون المورّد كملحق لواجهة ويب لتعاون المورّد، ولكن ليس كبديل لها. 
@@ -59,8 +59,8 @@ ms.locfileid: "1843855"
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 تختلف المتطلبات الأساسية، استنادًا إلى إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>المتطلبات الأساسية عند استخدام Microsoft Dynamics 365 for Finance and Operations 
-إذا تم نشر Microsoft Dynamics 365 for Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **تعاون المورّد‬**. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>المتطلبات الأساسية في حالة استخدام Supply Chain Management
+إذا تم نشر Supply Chain Management لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **‏‫تعاون المورّد‬**‬. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار لاحق
 إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
@@ -104,15 +104,15 @@ ms.locfileid: "1843855"
 <li><a href="vendor-collaboration-work-external-vendors.md">استخدام تعاون المورّد للعمل مع مورّدين خارجيين</a></li>
 <li><a href="manage-vendor-collaboration-users.md">إدارة مستخدمي تعاون المورد‬</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">إعداد تعاون المورد والمحافظة عليه</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">استخدام تعاون المورّد للعمل مع العملاء في Finance and Operations‎</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">استخدام تعاون المورّد للعمل مع العملاء في Supply Chain Managements‎</a></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>تحميل وتثبيت تطبيق الجوال
+## <a name="download-and-install-the-mobile-app"></a>تنزيل وتثبيت تطبيق المحمول
 
-تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:
+تنزيل وتثبيت تطبيق Finance and Operations للأجهزة المحمولة:
 
 -   [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

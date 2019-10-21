@@ -1,6 +1,6 @@
 ---
-title: استخدام التقارير التحليلية‬ في Microsoft Dynamics 365 for Talent - Attract
-description: يصف هذا الموضوع التقارير التحليلية الخاصة بالرؤى الخاصة بعملية التوظيف في Microsoft Dynamics 365 for Talent - Attract
+title: استخدام التقارير التحليلية‬ في Microsoft Dynamics 365 Talent - Attract
+description: يصف هذا الموضوع التقارير التحليلية الخاصة بالرؤى الخاصة بعملية التوظيف في Microsoft Dynamics 365 Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: be62fe9a5021cfa83a465d316b182c0a154c0c50
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742873"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009970"
 ---
 # <a name="use-analytic-reports"></a>استخدام التقارير التحليلية
 
-توفر التقارير التحليلية في Attract حلا جاهزا (OOTB) لتفاصيل عملية التوظيف. تتضمن الميزات المتوفرة:
+توفر التقارير التحليلية في Microsoft Dynamics 365 Talent: Attract حلا جاهزا (OOTB) لرؤى عملية التوظيف. تتضمن الميزات المتوفرة:
 
 - **تحليلات الوظيفة:** انقر فوق علامة التبويب **التحليلات** ضمن وظيفة ما للاطلاع على مقاييس حول مقدمي طلبات الحصول على الوظيفة.
 - **مركز التحليلات:** انقر فوق **التحليلات** على قسم التنقل الأيمن للحصول على مقاييس مجمعة عبر الوظائف.

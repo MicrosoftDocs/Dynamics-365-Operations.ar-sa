@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865462"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250773"
 ---
 # <a name="inventory-management-overview"></a>نظرة عامة على إدارة المخزون
 
@@ -53,10 +53,8 @@ ms.locfileid: "1865462"
 ### <a name="inventory-accounting"></a>محاسبة المخزون 
 لمزيد من المعلومات، راجع [محاسبة المخزون في إدارة التكاليف](../cost-management/inventory-close.md).
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a>مدونات إدارة التصنيع وسلسلة التوريد
+### <a name="manufacturing-and-supply-chain-management-blogs"></a>مدونات التصنيع وSupply Chain Management
 يمكنك العثور على آراء وأخبار ومعلومات أخرى حول إدارة المخزون بالإضافة إلى حلول أخرى في [مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>دلائل المهام
-تتوفر التعليمات الإضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر **تعليمات** في أي صفحة.
-
-
+تتوفر تعليمات إضافية كدلائل مهام. للوصول إلى دلائل المهام، انقر فوق الزر **تعليمات** في أي صفحة.
