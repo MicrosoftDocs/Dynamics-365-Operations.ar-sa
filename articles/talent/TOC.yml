@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.yml
+  href: talent-welcome.md
   items:
     - name: البدء
       items:
@@ -8,6 +8,10 @@
         - name: المزايا الجديدة أو المتغيرة في Talent
           href: whats-new.md
           items:
+            - name: 23 أكتوبر 2019
+              href: whats-new-talent-october-23-2019.md
+            - name: 8 أكتوبر 2019
+              href: whats-new-talent-october-8-2019.md
             - name: 1 أكتوبر 2019
               href: whats-new-talent-october-1-2019.md
             - name: 17 سبتمبر 2019
@@ -391,12 +395,14 @@
               href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: تكامل
       items:
+        - name: إرشادات حول تكامل البيانات مع Dynamics 365 for Talent
+          href: data-integration.md
+        - name: تكوين تكامل Common Data Service
+          href: hr-common-data-service-integration.md
         - name: التكامل مع Dynamics 365 for Finance and Operations
           href: talent-financeandoperations-integration.md
         - name: تكوين تكامل كشف الرواتب بين Talent وDayforce
           href: configure-payroll-integration.md
-        - name: إرشادات حول تكامل البيانات مع Dynamics 365 for Talent
-          href: data-integration.md
         - name: الأسئلة المتداولة حول التكامل
           href: talent-fo-integration.md
         - name: تصدير البيانات المتكررة باستخدام تطبيقات Azure Logic

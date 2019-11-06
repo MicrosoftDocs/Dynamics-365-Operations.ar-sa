@@ -17,56 +17,60 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175812"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570115"
 ---
-# <a name="financial-management-home-page"></a><span data-ttu-id="99c45-103">الصفحة الرئيسية للإدارة المالية</span><span class="sxs-lookup"><span data-stu-id="99c45-103">Financial management home page</span></span>
+# <a name="financial-management-home-page"></a><span data-ttu-id="e3a89-103">الصفحة الرئيسية للإدارة المالية</span><span class="sxs-lookup"><span data-stu-id="e3a89-103">Financial management home page</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="99c45-104">يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات الإدارة المالية في Microsoft Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="99c45-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 Finance.</span></span> 
+<span data-ttu-id="e3a89-104">يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات الإدارة المالية في Microsoft Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="e3a89-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 Finance.</span></span> 
 
-<span data-ttu-id="99c45-105">حدد منطقة ميزة لمعرفة المزيد عنها.</span><span class="sxs-lookup"><span data-stu-id="99c45-105">Select a feature area to learn more about it.</span></span>
+<span data-ttu-id="e3a89-105">حدد منطقة ميزة لمعرفة المزيد عنها.</span><span class="sxs-lookup"><span data-stu-id="e3a89-105">Select a feature area to learn more about it.</span></span>
 
 :::row:::
     :::column:::
-        - [<span data-ttu-id="99c45-106">الحسابات الدائنة</span><span class="sxs-lookup"><span data-stu-id="99c45-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
-        - [<span data-ttu-id="99c45-107">الحسابات المدينة</span><span class="sxs-lookup"><span data-stu-id="99c45-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md)
-        - [<span data-ttu-id="99c45-108">إعداد الموازنة</span><span class="sxs-lookup"><span data-stu-id="99c45-108">Budgeting</span></span>](budgeting/budgeting-overview.md) 
-        - [<span data-ttu-id="99c45-109">إدارة النقد والبنوك</span><span class="sxs-lookup"><span data-stu-id="99c45-109">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
-        - [<span data-ttu-id="99c45-110">محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="99c45-110">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
+        - [<span data-ttu-id="e3a89-106">الحسابات الدائنة</span><span class="sxs-lookup"><span data-stu-id="e3a89-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
+        - [<span data-ttu-id="e3a89-107">الحسابات المدينة</span><span class="sxs-lookup"><span data-stu-id="e3a89-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md)
+        - [<span data-ttu-id="e3a89-108">إعداد الموازنة</span><span class="sxs-lookup"><span data-stu-id="e3a89-108">Budgeting</span></span>](budgeting/budgeting-overview.md) 
+        - [<span data-ttu-id="e3a89-109">إدارة النقد والبنوك</span><span class="sxs-lookup"><span data-stu-id="e3a89-109">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
+        - [<span data-ttu-id="e3a89-110">محاسبة التكاليف</span><span class="sxs-lookup"><span data-stu-id="e3a89-110">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [<span data-ttu-id="99c45-111">إدارة المصروفات</span><span class="sxs-lookup"><span data-stu-id="99c45-111">Expense management</span></span>](expense-management/expense-management.md)
-        - [<span data-ttu-id="99c45-112">التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="99c45-112">Financial reporting</span></span>](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
-        - [<span data-ttu-id="99c45-113">الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="99c45-113">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
-        - [<span data-ttu-id="99c45-114">دفتر الأستاذ العام</span><span class="sxs-lookup"><span data-stu-id="99c45-114">General ledger</span></span>](general-ledger/general-ledger.md) 
-        - [<span data-ttu-id="99c45-115">إدارة المشروع</span><span class="sxs-lookup"><span data-stu-id="99c45-115">Project management</span></span>](project-management/overview-project-management-accounting.md)
-        - [<span data-ttu-id="99c45-116">القطاع العام</span><span class="sxs-lookup"><span data-stu-id="99c45-116">Public sector</span></span>](public-sector/public-sector-functionality.md) 
+        - [<span data-ttu-id="e3a89-111">إدارة المصروفات</span><span class="sxs-lookup"><span data-stu-id="e3a89-111">Expense management</span></span>](expense-management/expense-management.md)
+        - [<span data-ttu-id="e3a89-112">التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="e3a89-112">Financial reporting</span></span>](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [<span data-ttu-id="e3a89-113">الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="e3a89-113">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
+        - [<span data-ttu-id="e3a89-114">دفتر الأستاذ العام</span><span class="sxs-lookup"><span data-stu-id="e3a89-114">General ledger</span></span>](general-ledger/general-ledger.md) 
+        - [<span data-ttu-id="e3a89-115">إدارة المشروع</span><span class="sxs-lookup"><span data-stu-id="e3a89-115">Project management</span></span>](project-management/overview-project-management-accounting.md)
+        - [<span data-ttu-id="e3a89-116">القطاع العام</span><span class="sxs-lookup"><span data-stu-id="e3a89-116">Public sector</span></span>](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
 
 
-## <a name="additional-resources"></a><span data-ttu-id="99c45-117">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="99c45-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e3a89-117">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="e3a89-117">Additional resources</span></span>
 
-### <a name="blogs"></a><span data-ttu-id="99c45-118">المدونات</span><span class="sxs-lookup"><span data-stu-id="99c45-118">Blogs</span></span>
+### <a name="blogs"></a><span data-ttu-id="e3a89-118">المدونات</span><span class="sxs-lookup"><span data-stu-id="e3a89-118">Blogs</span></span>
 
-- [<span data-ttu-id="99c45-119">مدونة Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="99c45-119">Microsoft Dynamics 365 blog</span></span>](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
-- [<span data-ttu-id="99c45-120">مدونة Financials</span><span class="sxs-lookup"><span data-stu-id="99c45-120">Financials blog</span></span>](https://community.dynamics.com/365/financeandoperations/b/financials) 
-- [<span data-ttu-id="99c45-121">مدونة مجتمع شركاء Microsoft Dynamics Operations</span><span class="sxs-lookup"><span data-stu-id="99c45-121">Microsoft Dynamics Operations Partner Community Blog</span></span>](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
+- [<span data-ttu-id="e3a89-119">مدونة Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="e3a89-119">Microsoft Dynamics 365 blog</span></span>](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [<span data-ttu-id="e3a89-120">مدونة Financials</span><span class="sxs-lookup"><span data-stu-id="e3a89-120">Financials blog</span></span>](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [<span data-ttu-id="e3a89-121">مدونة مجتمع شركاء Microsoft Dynamics Operations</span><span class="sxs-lookup"><span data-stu-id="e3a89-121">Microsoft Dynamics Operations Partner Community Blog</span></span>](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
-### <a name="task-guides"></a><span data-ttu-id="99c45-122">دلائل المهام</span><span class="sxs-lookup"><span data-stu-id="99c45-122">Task guides</span></span>
-<span data-ttu-id="99c45-123">تتوفر تعليمات إضافية كدلائل مهام داخل Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="99c45-123">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="99c45-124">وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.</span><span class="sxs-lookup"><span data-stu-id="99c45-124">To access task guides, click the Help button on any page.</span></span>
+### <a name="task-guides"></a><span data-ttu-id="e3a89-122">دلائل المهام</span><span class="sxs-lookup"><span data-stu-id="e3a89-122">Task guides</span></span>
+<span data-ttu-id="e3a89-123">تتوفر تعليمات إضافية كدلائل مهام داخل Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e3a89-123">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="e3a89-124">وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.</span><span class="sxs-lookup"><span data-stu-id="e3a89-124">To access task guides, click the Help button on any page.</span></span>
 
-### <a name="videos"></a><span data-ttu-id="99c45-125">ملفات فيديو</span><span class="sxs-lookup"><span data-stu-id="99c45-125">Videos</span></span>
+### <a name="videos"></a><span data-ttu-id="e3a89-125">ملفات فيديو</span><span class="sxs-lookup"><span data-stu-id="e3a89-125">Videos</span></span>
 
-<span data-ttu-id="99c45-126">راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="99c45-126">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="e3a89-126">راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="e3a89-126">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
-### <a name="countryregion-functionality"></a><span data-ttu-id="99c45-127">وظيفة البلد/المنطقة</span><span class="sxs-lookup"><span data-stu-id="99c45-127">Country/region functionality</span></span>
+### <a name="countryregion-functionality"></a><span data-ttu-id="e3a89-127">وظيفة البلد/المنطقة</span><span class="sxs-lookup"><span data-stu-id="e3a89-127">Country/region functionality</span></span>
 
-<span data-ttu-id="99c45-128">تؤثر لوائح البلد/المنطقة في إعداد الضرائب وجوانب أخرى في الإدارة المالية.</span><span class="sxs-lookup"><span data-stu-id="99c45-128">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="99c45-129">ارجع إلى قسم [الترجمة والميزات التنظيمية](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) للاطلاع على محتوى تعليماتنا للتعرف إلى الوظيفة الخاصة بالبلد/المنطقة.</span><span class="sxs-lookup"><span data-stu-id="99c45-129">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
+<span data-ttu-id="e3a89-128">تؤثر لوائح البلد/المنطقة في إعداد الضرائب وجوانب أخرى في الإدارة المالية.</span><span class="sxs-lookup"><span data-stu-id="e3a89-128">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="e3a89-129">ارجع إلى قسم [ميزات الترجمة والميزات التنظيمية‬](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) للاطلاع على محتوى تعليماتنا للتعرف إلى الوظيفة الخاصة بالبلد/المنطقة.</span><span class="sxs-lookup"><span data-stu-id="e3a89-129">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
+
+### <a name="additional-content"></a><span data-ttu-id="e3a89-130">محتوى إضافي</span><span class="sxs-lookup"><span data-stu-id="e3a89-130">Additional content</span></span>
+
+<span data-ttu-id="e3a89-131">تغطي وظيفة إدارة سلسلة التوريد أجزاء من عملية الشراء إلى الدفع التي تتضمن الطلب وإرسال الأمر والاستلام والفوترة والدفع مقابل البضائع والخدمات التي تشتريها مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="e3a89-131">Supply chain management functionality covers parts of the procure-to-pay process that includes requisitioning, ordering, receiving, invoicing and paying for the goods and services your organzation purchases.</span></span> <span data-ttu-id="e3a89-132">لمزيد من المعلومات حول قدرات إدارة عمليات الشراء والفواتير والتصنيع، يمكنك مراجعة [!الصفحة الرئيسية Supply Chain Management‬](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).</span><span class="sxs-lookup"><span data-stu-id="e3a89-132">Refer to the [!Supply Chain Management home page](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) for information about the capatilibities for managing purchases, inventory, and manufacturing.</span></span> 
 
