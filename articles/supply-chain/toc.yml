@@ -42,6 +42,8 @@
               items:
                 - name: خيارات النشر
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: مقارنة بين الميزات في السحابة وفي الموقع المحلي
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: النشر عبر السحابة
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: متطلبات النظام لعمليات النشر عبر السحابة
@@ -54,22 +56,26 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين التخزين في المستودع لعمليات النشر المحلي
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تطبيقات Finance and Operations مشغّل بواسطة 21Vianet في الصين
+                - name: تطبيقات Finance and Operations مشغّلة بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تطبيقات Finance and Operations في فرنسا
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: ما الجديد أو المتغير
               items:
-                - name: الصفحة الرئيسية للجديد أو المتغير‬
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: معاينة الميزات في تطبيقات Finance and Operations إصدار 10.0.6 (نوفمبر 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تطبيقات Finance and Operations إصدار 10.0.5 (أكتوبر 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations إصدار 10.0.4 (يوليو 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations، Enterprise edition 7.3
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ميزات المعاينة‬ في الإصدار 10.0.7 من Supply Chain Management (ديسمبر 2019)
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: الإصدار 10.0.6 من Supply Chain Management (نوفمبر 2019)
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: الجديد أو المتغير في الإصدارات السابقة
+                  items:
+                    - name: الجديد أو المتغير في صفحة Finance and Operations الرئيسية
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تطبيقات Finance and Operations إصدار 10.0.5 (أكتوبر 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations إصدار 10.0.4 (يوليو 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations، Enterprise edition 7.3
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ميزات AX 2012 التي تم تأجيلها
@@ -891,7 +897,7 @@
                       items:
                         - name: تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
                           href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: إنشاء نماذج فاتورة بنص حر (FTI) قابلة للطباعة
+                        - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                           href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
@@ -1687,9 +1693,7 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: التحكم في استهلاك المواد الخام عن طريق استخدام قواعد التفريغ
                       href: production-control/flushing-principles.md
-                    - name: توزيع البضائع من أوامر الإنتاج لمساحات خارجية​
-                      href: production-control/cross-docking-opportunities.md
-                    - name: إنشاء موقع إخراج المنتج للبضائع المنتهية​
+                    - name: تعيين موقع إخراج المنتج للبضائع المنتهية
                       href: production-control/production-output-location.md
                     - name: الإبلاغ عن قوائم مكونات الصنف كمنتهية
                       href: production-control/report-boms-as-finished.md
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: المعالجة المؤجلة لعمل المستودع
                   href: warehousing/deferred-put.md
+            - name: توزيع البضائع
+              items:
+                - name: توزيع البضائع من أوامر الإنتاج لمساحات خارجية
+                  href: production-control/cross-docking-opportunities.md
+                - name: إصدار الشحن التلقائي لتوزيع البضائع
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: الإصدار الجزئي والشحن الجزئي
               items:
                 - name: شحن جزئي لحمل النقل
@@ -2311,6 +2321,8 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: إعداد إعادة توزيع الأصناف للانتقاء القصير
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: إلغاء عمل المستودع لمعالجة الاستثناء
+                  href: warehousing/cancel-warehouse-work.md
             - name: جرد المخزون
               items:
                 - name: أكواد أسباب جرد المخزون

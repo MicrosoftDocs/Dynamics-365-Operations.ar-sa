@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278314"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653684"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>موارد التعليمات لإدارة سلسلة التوريد
 
@@ -39,7 +39,7 @@ ms.locfileid: "2278314"
 حدد منطقة ميزة لمعرفة المزيد عنها.
 
 - [إدارة الأصول](asset-management/index.md)
-- [محاسبة التكاليف](../financials/cost-accounting/cost-accounting-home-page.md)
+- [محاسبة التكاليف](../finance/cost-accounting/cost-accounting-home-page.md)
 - [إدارة التكلفة](cost-management/cost-management-home-page.md)  
 - [إدارة المخزون](inventory/inventory-home-page.md)
 - [التخطيط الرئيسي](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ ms.locfileid: "2278314"
 -  [إدارة النقل (TMS) في Microsoft Dynamics AX الجديد](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>المدونات
-هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد في <a href="https://blogs.msdn.microsoft.com/axmfg/">مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن التصنيع</a> و<a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن سلسلة التوريد</a>. وقد تمت كتابة معظم هذه المنشورات للإصدار السابق من Finance and Operations، ولكن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي. 
+هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد في <a href="https://blogs.msdn.microsoft.com/axmfg/">مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن التصنيع</a> و<a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن إدارة سلسلة التوريد</a>. وقد تمت كتابة معظم هذه المنشورات للإصدار السابق، ولكن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي. 
 
 ## <a name="white-papers"></a>المستندات التقنية
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">المختبرات المتاحة لمحاسبة التكاليف</a> 
