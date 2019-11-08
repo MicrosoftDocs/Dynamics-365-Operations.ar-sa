@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ab3758506679db5032e3dffc1664fe1ac7f622c8
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: a571568850a675f3472f2b62df33c0c35d905af0
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009660"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551370"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-november-15-2018"></a><span data-ttu-id="a5795-103">ما الجديد أو المتغير في Dynamics 365 Talent: Core HR‏ (15 نوفمبر 2018)</span><span class="sxs-lookup"><span data-stu-id="a5795-103">What's new or changed in Dynamics 365 Talent: Core HR (November 15, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-november-15-2018"></a><span data-ttu-id="242b9-103">ما الجديد أو المتغير في Dynamics 365 Talent - Core HR (15نوفمبر 2018)</span><span class="sxs-lookup"><span data-stu-id="242b9-103">What's new or changed in Dynamics 365 Talent - Core HR (November 15, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a5795-104">**الإصدار 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="a5795-104">**Build 8.1.2045**</span></span>
+<span data-ttu-id="242b9-104">**الإصدار 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="242b9-104">**Build 8.1.2045**</span></span>
 
-<span data-ttu-id="a5795-105">يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Core HR.</span><span class="sxs-lookup"><span data-stu-id="a5795-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="242b9-105">يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Core HR.</span><span class="sxs-lookup"><span data-stu-id="242b9-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="other-changesfixes"></a><span data-ttu-id="a5795-106">التغييرات/الإصلاحات الأخرى</span><span class="sxs-lookup"><span data-stu-id="a5795-106">Other changes/fixes</span></span>
+## <a name="other-changesfixes"></a><span data-ttu-id="242b9-106">التغييرات/الإصلاحات الأخرى</span><span class="sxs-lookup"><span data-stu-id="242b9-106">Other changes/fixes</span></span>
 
-### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="a5795-107">تعذر تغيير الوضع الحالي للموظف إلى وضع مفتوح في المستقبل.</span><span class="sxs-lookup"><span data-stu-id="a5795-107">Unable to change employee´s current position to a future open position</span></span>
+### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="242b9-107">تعذر تغيير الوضع الحالي للموظف إلى وضع مفتوح في المستقبل.</span><span class="sxs-lookup"><span data-stu-id="242b9-107">Unable to change employee´s current position to a future open position</span></span>
 
-<span data-ttu-id="a5795-108">تم إجراء تغيير لتمكين عمليات نقل المنصب عندما يكون المنصب متاحًا في المستقبل فقط.</span><span class="sxs-lookup"><span data-stu-id="a5795-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
+<span data-ttu-id="242b9-108">تم إجراء تغيير لتمكين عمليات نقل المنصب عندما يكون المنصب متاحًا في المستقبل فقط.</span><span class="sxs-lookup"><span data-stu-id="242b9-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
 
-### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="a5795-109">لا يتم عرض المنصب عند إنشاء موظف جديد</span><span class="sxs-lookup"><span data-stu-id="a5795-109">Position does not display when creating a new employee</span></span>
+### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="242b9-109">لا يتم عرض المنصب عند إنشاء موظف جديد</span><span class="sxs-lookup"><span data-stu-id="242b9-109">Position does not display when creating a new employee</span></span>
 
-<span data-ttu-id="a5795-110">تم إجراء تغيير لعرض جميع المناصب المفتوحة المتاحة لتعيينها عند توظيف موظف جديد في Talent.</span><span class="sxs-lookup"><span data-stu-id="a5795-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="a5795-111">ويتضمن هذا المناصب المسجلة أو إذا كانت المناصب محجوزة في المستقبل.</span><span class="sxs-lookup"><span data-stu-id="a5795-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="a5795-112">سوف تظهر المناصب الآن بشكل صحيح بناءً على تاريخ بداية الموظف.</span><span class="sxs-lookup"><span data-stu-id="a5795-112">Positions will now appear correctly based on the employment start date.</span></span> 
+<span data-ttu-id="242b9-110">تم إجراء تغيير لعرض جميع المناصب المفتوحة المتاحة لتعيينها عند توظيف موظف جديد في Talent.</span><span class="sxs-lookup"><span data-stu-id="242b9-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="242b9-111">ويتضمن هذا المناصب المسجلة أو إذا كانت المناصب محجوزة في المستقبل.</span><span class="sxs-lookup"><span data-stu-id="242b9-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="242b9-112">سوف تظهر المناصب الآن بشكل صحيح بناءً على تاريخ بداية الموظف.</span><span class="sxs-lookup"><span data-stu-id="242b9-112">Positions will now appear correctly based on the employment start date.</span></span> 
 
-### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="a5795-113">يتم عرض تاريخ الإنهاء بناءً على إعدادات المستخدم</span><span class="sxs-lookup"><span data-stu-id="a5795-113">Termination date is displaying based on user settings</span></span>
+### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="242b9-113">يتم عرض تاريخ الإنهاء بناءً على إعدادات المستخدم</span><span class="sxs-lookup"><span data-stu-id="242b9-113">Termination date is displaying based on user settings</span></span>
 
-<span data-ttu-id="a5795-114">تم إجراء تغيير على قائمة الموظفين السابقة على حساب أي مقاصات منطقة زمنية للمنطقة الزمنية المفضلة للموظفين عند عرض تاريخ الإنهاء.</span><span class="sxs-lookup"><span data-stu-id="a5795-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
+<span data-ttu-id="242b9-114">تم إجراء تغيير على قائمة الموظفين السابقة على حساب أي مقاصات منطقة زمنية للمنطقة الزمنية المفضلة للموظفين عند عرض تاريخ الإنهاء.</span><span class="sxs-lookup"><span data-stu-id="242b9-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
 
-### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="a5795-115">لا تقوم أصناف العمل التي تم تعيينها إلى ارتباطاتي بعرض المعلومات الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="a5795-115">Work items assigned to me links not displaying the correct information</span></span>
+### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="242b9-115">لا تقوم أصناف العمل التي تم تعيينها إلى ارتباطاتي بعرض المعلومات الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="242b9-115">Work items assigned to me links not displaying the correct information</span></span>
 
-<span data-ttu-id="a5795-116">من خلال هذا التغيير، سوف يعرض التنقل إلى عناصر أصناف العمل الفردية في القائمة المعلومات الصحيحة للعنصر المحدد.</span><span class="sxs-lookup"><span data-stu-id="a5795-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="a5795-117">تحدث هذه المشكلة فقط مع خيارات الأمان المتقدمة.</span><span class="sxs-lookup"><span data-stu-id="a5795-117">This issue only occurred with advanced security options.</span></span>
+<span data-ttu-id="242b9-116">من خلال هذا التغيير، سوف يعرض التنقل إلى عناصر أصناف العمل الفردية في القائمة المعلومات الصحيحة للعنصر المحدد.</span><span class="sxs-lookup"><span data-stu-id="242b9-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="242b9-117">تحدث هذه المشكلة فقط مع خيارات الأمان المتقدمة.</span><span class="sxs-lookup"><span data-stu-id="242b9-117">This issue only occurred with advanced security options.</span></span>
 
 
-## <a name="known-issue"></a><span data-ttu-id="a5795-118">مشكلات معروفة​</span><span class="sxs-lookup"><span data-stu-id="a5795-118">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="242b9-118">مشكلات معروفة​</span><span class="sxs-lookup"><span data-stu-id="242b9-118">Known issue</span></span>
 
-- <span data-ttu-id="a5795-119">**المشكلة**: عند إضافة مرفق جديد إلى عامل، يظهر الزران **جديد** و**تحرير** بلون رمادي.</span><span class="sxs-lookup"><span data-stu-id="a5795-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
-- <span data-ttu-id="a5795-120">**الحل البديل:** قبل فتح صفحة المرفق، تأكد من أن مربعات الحقائق في صفحة **العامل** مغلقة.</span><span class="sxs-lookup"><span data-stu-id="a5795-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="a5795-121">إذا كانت مربعات الحقائق مغلقة عند تحميل صفحة **العامل**، سيتم تمكين زر المرفقات</span><span class="sxs-lookup"><span data-stu-id="a5795-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="a5795-122">(سوف يتم إصلاح هذه المشكلة في التحديث التالي للنظام الأساسي.)</span><span class="sxs-lookup"><span data-stu-id="a5795-122">(This issue will be fixed in the next platform update.)</span></span>
+- <span data-ttu-id="242b9-119">**المشكلة**: عند إضافة مرفق جديد إلى عامل، يظهر الزران **جديد** و**تحرير** بلون رمادي.</span><span class="sxs-lookup"><span data-stu-id="242b9-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
+- <span data-ttu-id="242b9-120">**الحل البديل:** قبل فتح صفحة المرفق، تأكد من أن مربعات الحقائق في صفحة **العامل** مغلقة.</span><span class="sxs-lookup"><span data-stu-id="242b9-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="242b9-121">إذا كانت مربعات الحقائق مغلقة عند تحميل صفحة **العامل**، سيتم تمكين زر المرفقات</span><span class="sxs-lookup"><span data-stu-id="242b9-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="242b9-122">(سوف يتم إصلاح هذه المشكلة في التحديث التالي للنظام الأساسي.)</span><span class="sxs-lookup"><span data-stu-id="242b9-122">(This issue will be fixed in the next platform update.)</span></span>

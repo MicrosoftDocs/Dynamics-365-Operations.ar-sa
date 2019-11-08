@@ -1,0 +1,265 @@
+---
+title: استخدم مصادر بيانات JOIN في تعيينات نماذج التقارير الإلكترونية للحصول على البيانات من جداول التطبيقات المتعددة.
+description: يشرح لك هذا الموضوع كيفية استخدام مصادر البيانات من النوع JOIN في التقارير الإلكترونية (ER).
+author: NickSelin
+manager: AnnBe
+ms.date: 10/25/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner
+audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2019-03-01
+ms.dyn365.ops.version: Release 10.0.1
+ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
+ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667944"
+---
+# <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a><span data-ttu-id="4c846-103">استخدم مصادر بيانات JOIN للحصول على البيانات من جداول التطبيقات المتعددة في تعيينات نموذج التقارير الإلكترونية (ER).</span><span class="sxs-lookup"><span data-stu-id="4c846-103">Use JOIN data sources to get data from multiple application tables in Electronic reporting (ER) model mappings</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+<span data-ttu-id="4c846-104">أثناء تكوين تعيينات أو تنسيقات نموذج التقارير الإلكترونية (ER)، يُمكنك [إضافة](#review) مصادر البيانات المطلوبة من النوع **JOIN**.</span><span class="sxs-lookup"><span data-stu-id="4c846-104">While configuring Electronic reporting (ER) model mappings or formats, you can [add](#review) required data sources of the **Join** type.</span></span> <span data-ttu-id="4c846-105">في وقت التصميم، يتم تكوين مصدر بيانات **Join** كمجموعة من العديد من مصادر البيانات تقوم كل منها بإرجاع قائمة السجلات.</span><span class="sxs-lookup"><span data-stu-id="4c846-105">At design time, a **Join** data source is configured as a set of several data sources each of which returns a list of records.</span></span> <span data-ttu-id="4c846-106">لكل مصدر بيانات باستثناء الأول، فسوف تحتاج إلى تحديد الشروط اللازمة لربط سجلات مصادر البيانات الحالية والسابقة.</span><span class="sxs-lookup"><span data-stu-id="4c846-106">For every data source except the first one, you need to define necessary conditions to join records of the current and previous data sources.</span></span> <span data-ttu-id="4c846-107">في وقت التشغيل، يقوم مصدر البيانات المُكون لنوع **JOIN** [بإرجاع](#executeERformat) قائمة سجلات مرتبطة واحدة للسجلات التي تحتوي على حقول من سجلات مصادر البيانات المتداخلة.</span><span class="sxs-lookup"><span data-stu-id="4c846-107">At runtime, a configured data source of **Join** type [returns](#executeERformat) a single joined list of records containing fields from the records of nested data sources.</span></span>
+
+<span data-ttu-id="4c846-108">يتم حاليًا اعتماد أنواع الصلات التالية:</span><span class="sxs-lookup"><span data-stu-id="4c846-108">The following type of joins are currently supported:</span></span>
+
+- <span data-ttu-id="4c846-109">صلة خارجية (يُسرى):</span><span class="sxs-lookup"><span data-stu-id="4c846-109">Outer (left) join:</span></span>
+    - <span data-ttu-id="4c846-110">ربط كافة السجلات الخاصة بمصدر البيانات الأول (أقصى اليسار) ثم أي مطابقة وفقًا لسجلات الشروط المكونة من مصدر البيانات الثاني (أقصى اليمين).</span><span class="sxs-lookup"><span data-stu-id="4c846-110">Join all records of the first (left-most) data source and then any matching in accordance to configured conditions records of the second (right-most) data source.</span></span>
+- <span data-ttu-id="4c846-111">الربط الداخلي (الأيمن):</span><span class="sxs-lookup"><span data-stu-id="4c846-111">Inner (right) join:</span></span>
+    - <span data-ttu-id="4c846-112">ربط فقط السجلات الخاصة بمصدر البيانات الأول (أقصى اليسار) وسجلات مصدر البيانات الثاني (أقصى اليمين) المتطابقة مع بعضها البعض وفقًا للشروط المكونة.</span><span class="sxs-lookup"><span data-stu-id="4c846-112">Join only records of the first (left-most) data source and only records of the second (right-most) data source matching to each other in accordance to configured conditions.</span></span>
+
+<span data-ttu-id="4c846-113">في مصدر بيانات **الربط** الذي تم تكوينه، عندما تكون كافة مصادر البيانات هي من النوع **سجلات الجدول** ، ويمكن أداء تنفيذ مصدر بيانات الربط على [مستوي قاعدة البيانات](#analyze) باستخدام عبارة SQL مفردة.</span><span class="sxs-lookup"><span data-stu-id="4c846-113">In the configured **Join** data source, when all data sources are the **Table records** type, execution of the Join data source can be [performed at the database level](#analyze) using a single SQL statement.</span></span> <span data-ttu-id="4c846-114">يؤدي ذلك إلى تقليل عدد استدعاءات قواعد البيانات، التي تعمل علي تحسين أداء تعيين النموذج.</span><span class="sxs-lookup"><span data-stu-id="4c846-114">This reduces the number of database calls, which improves model mapping performance.</span></span> <span data-ttu-id="4c846-115">وبخلاف ذلك، يتم إجراء تنفيذ مصدر **بيانات الربط** في الذاكرة.</span><span class="sxs-lookup"><span data-stu-id="4c846-115">Otherwise, execution of **Join data** source is performed in memory.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="4c846-116">لم يتم تدعيم استخدام الوظيفة **VALUEIN** بعد في تعبيرات التقارير الإلكترونية التي تحدد شروط سجلات الربط في مصادر البيانات لنوع الربط.</span><span class="sxs-lookup"><span data-stu-id="4c846-116">Using the **VALUEIN** function in ER expressions that specify conditions for joining records in data sources of Join type is not supported yet.</span></span> <span data-ttu-id="4c846-117">قم بزيارة الصفحة [مصمم التركيبة في التقارير الإلكترونية‬](general-electronic-reporting-formula-designer.md) للمزيد من التفاصيل حول هذه الوظيفة.</span><span class="sxs-lookup"><span data-stu-id="4c846-117">Visit the [Formula designer in Electronic reporting](general-electronic-reporting-formula-designer.md) page for more details about this function.</span></span>
+
+<span data-ttu-id="4c846-118">لمعرفة المزيد حول هذه الميزة، أكمل المثال في هذا الموضوع.</span><span class="sxs-lookup"><span data-stu-id="4c846-118">To learn more about this feature, complete the example in this topic.</span></span>
+
+## <a name="example-use-join-data-sources-in-er-model-mappings"></a><span data-ttu-id="4c846-119">مثال: استخدام مصادر بيانات JOIN في تعيينات نموذج التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="4c846-119">Example: Use JOIN data sources in ER model mappings</span></span>
+
+<span data-ttu-id="4c846-120">توضح الخطوات التالية كيفية قيام مسؤول النظام أو مطور التقارير الإلكترونية بتكوين تعيين نموذج التقارير الإلكترونية (ER) للحصول علي البيانات من جداول التطبيقات المتعددة مرة واحدة باستخدام مصادر البيانات من النوع **JOIN** لتحسين أداء الوصول إلى البيانات.</span><span class="sxs-lookup"><span data-stu-id="4c846-120">The following steps explain how the System administrator or Electronic reporting developer can configure an Electronic reporting (ER) model mapping to get data from multiple application tables at once by using data sources of the **Join** type to improve data access performance.</span></span> <span data-ttu-id="4c846-121">يمكن تنفيذ هذه الخطوات في أي شركة Dynamics 365 Finance أو خدمات التكوين التنظيمية (RCS)‬.</span><span class="sxs-lookup"><span data-stu-id="4c846-121">These steps can be performed for any company of Dynamics 365 Finance or Regulatory Configuration Services (RCS).</span></span>
+
+### <a name="prerequisites"></a><span data-ttu-id="4c846-122">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="4c846-122">Prerequisites</span></span>
+
+<span data-ttu-id="4c846-123">لإكمال الأمثلة الموجودة في هذا الموضوع، يجب أن يكون لديك حق الوصول إلى أي مما يلي اعتمادًا على الخدمة المستخدمة للتنافس على هذه الخطوات:</span><span class="sxs-lookup"><span data-stu-id="4c846-123">To complete the examples in this topic, you must have access to one of the following depending on what service is used to compete these steps:</span></span>
+
+<span data-ttu-id="4c846-124">**الوصول إلى Finance لأحد الأدوار التالية:**</span><span class="sxs-lookup"><span data-stu-id="4c846-124">**Access to Finance for one of the following roles:**</span></span>
+
+- <span data-ttu-id="4c846-125">مطور إعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="4c846-125">Electronic reporting developer</span></span>
+- <span data-ttu-id="4c846-126">مستشار وظيفي لإعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="4c846-126">Electronic reporting functional consultant</span></span>
+- <span data-ttu-id="4c846-127">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="4c846-127">System administrator</span></span>
+
+<span data-ttu-id="4c846-128">**الوصول إلى RCS لأحد الأدوار التالية:**</span><span class="sxs-lookup"><span data-stu-id="4c846-128">**Access to RCS for one of the following roles:**</span></span>
+
+- <span data-ttu-id="4c846-129">مطور إعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="4c846-129">Electronic reporting developer</span></span>
+- <span data-ttu-id="4c846-130">مستشار وظيفي لإعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="4c846-130">Electronic reporting functional consultant</span></span>
+- <span data-ttu-id="4c846-131">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="4c846-131">System administrator</span></span>
+
+<span data-ttu-id="4c846-132">يجب أولاً إكمال الخطوات المذكورة في الإجراء [إنشاء موفر تكوين ووضع علامة عليه على أنه نشط](tasks/er-configuration-provider-mark-it-active-2016-11.md).</span><span class="sxs-lookup"><span data-stu-id="4c846-132">You also must first complete the steps in the [Create a configuration provider and mark it as active](tasks/er-configuration-provider-mark-it-active-2016-11.md) procedure.</span></span>
+
+<span data-ttu-id="4c846-133">مقدمًا، يجب أيضا تنزيل من [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=000000) وحفظ نموذج ملفات تكوين التقارير الإلكترونية التالي محليًا:</span><span class="sxs-lookup"><span data-stu-id="4c846-133">In advance, you must also download from [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=000000) and save locally the following sample ER configuration files:</span></span>
+
+| <span data-ttu-id="4c846-134">**وصف المحتوى**</span><span class="sxs-lookup"><span data-stu-id="4c846-134">**Content description**</span></span>  | <span data-ttu-id="4c846-135">**اسم الملف**</span><span class="sxs-lookup"><span data-stu-id="4c846-135">**File name**</span></span>   |
+|--------------------------|-----------------|
+| <span data-ttu-id="4c846-136">نموذج لملف تكوين **نموذج بيانات التقارير الإلكترونية** ، الذي يستخدم كمصدر بيانات لهذه الأمثلة.</span><span class="sxs-lookup"><span data-stu-id="4c846-136">Sample **ER data model** configuration file, which is used as the data source for the examples.</span></span>| [<span data-ttu-id="4c846-137">نموذج لمعرفة مصادر بيانات JOIN.الإصدار1.1.xml</span><span class="sxs-lookup"><span data-stu-id="4c846-137">Model to learn JOIN data sources.version.1.1.xml</span></span>](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| <span data-ttu-id="4c846-138">نموذج لملف تكوين **تعيين نموذج‬ التقارير الإلكترونية** ، الذي يُطبق نموذج بيانات التقارير الإلكترونية لهذه الأمثلة.</span><span class="sxs-lookup"><span data-stu-id="4c846-138">Sample **ER model mapping** configuration file, which implements the ER data model for the examples.</span></span> | [<span data-ttu-id="4c846-139">تعيين لمعرفة مصادر بيانات JOIN.الإصدار1.1.xml</span><span class="sxs-lookup"><span data-stu-id="4c846-139">Mapping to learn JOIN data sources.version.1.1.xml</span></span>](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| <span data-ttu-id="4c846-140">نموذج ملف تكوين **تنسيق التقارير الإلكترونية** .</span><span class="sxs-lookup"><span data-stu-id="4c846-140">Sample **ER format** configuration file.</span></span> <span data-ttu-id="4c846-141">يصف هذا الملف البيانات المطلوبة لملء مكون تنسيق التقارير الإلكترونية للأمثلة.</span><span class="sxs-lookup"><span data-stu-id="4c846-141">This file describes the data to populate the ER format component for the examples.</span></span> | [<span data-ttu-id="4c846-142">تنسيق لمعرفة مصادر بيانات JOIN.الإصدار1.1.xml</span><span class="sxs-lookup"><span data-stu-id="4c846-142">Format to learn JOIN data sources.version.1.1.xml</span></span>](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+
+### <a name="activate-a-configurations-provider"></a><span data-ttu-id="4c846-143">تنشيط موفر تكوينات</span><span class="sxs-lookup"><span data-stu-id="4c846-143">Activate a configurations provider</span></span>
+
+1. <span data-ttu-id="4c846-144">الوصول إما إلى Finance أو RCS في الجلسة الأولي لمستعرض الويب الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="4c846-144">Access either Finance or RCS in the first session of your web browser.</span></span>
+2. <span data-ttu-id="4c846-145">انتقل إلى **إدارة المؤسسة \> مساحات العمل \> إعداد التقارير الإلكترونية**.</span><span class="sxs-lookup"><span data-stu-id="4c846-145">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+3. <span data-ttu-id="4c846-146">في الصفحة **ترجمة التكوينات** ، في قسم **موفري التكوين** ، تحقق من أن موفر التكوين لنموذج الشركة Litware, Inc. (http://www.litware.com) مُدرج ومعلم كـ **نشط**.</span><span class="sxs-lookup"><span data-stu-id="4c846-146">On the **Localization configurations** page, in the **Configuration providers** section, make sure that the configuration provider for the Litware, Inc. (http://www.litware.com) sample company is listed, and that it's marked as **Active**.</span></span> <span data-ttu-id="4c846-147">إذا لم تطلع على موفر التكوين هذا، فاتبع الخطوات في إجراء [إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬](tasks/er-configuration-provider-mark-it-active-2016-11.md).</span><span class="sxs-lookup"><span data-stu-id="4c846-147">If you don't see this configuration provider, follow the steps in [Create a configuration provider and mark it as active](tasks/er-configuration-provider-mark-it-active-2016-11.md) procedure.</span></span>
+
+    ![مساحة عمل إعداد التقارير الإلكترونية](./media/GER-JoinDS-ActiveProvider.PNG)
+
+### <a name="import-sample-er-configuration-files"></a><span data-ttu-id="4c846-149">استيراد نموذج ملفات تكوين التقارير الإلكترونية .</span><span class="sxs-lookup"><span data-stu-id="4c846-149">Import sample ER configuration files</span></span>
+
+1. <span data-ttu-id="4c846-150">حدد **تكوينات إعداد التقارير‬**.</span><span class="sxs-lookup"><span data-stu-id="4c846-150">Select **Reporting configurations**.</span></span>
+2. <span data-ttu-id="4c846-151">استيراد ملف تكوين نموذج بيانات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-151">Import the ER data model configuration file.</span></span>
+    1. <span data-ttu-id="4c846-152">حدد **تبادل**.</span><span class="sxs-lookup"><span data-stu-id="4c846-152">Select **Exchange**.</span></span>
+    2. <span data-ttu-id="4c846-153">حدد **تحميل من ملف XML**.</span><span class="sxs-lookup"><span data-stu-id="4c846-153">Select **Load from XML file**.</span></span>
+    3. <span data-ttu-id="4c846-154">حدد **استعراض** للاطلاع علي ملف **نموذج لمعرفة مصادر بيانات JOIN.الإصدار1.1.xml** .</span><span class="sxs-lookup"><span data-stu-id="4c846-154">Select **Browse** to find the **Model to learn JOIN data sources.version.1.1.xml** file.</span></span>
+    4. <span data-ttu-id="4c846-155">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="4c846-155">Select **OK**.</span></span>
+3. <span data-ttu-id="4c846-156">استيراد ملف تكوين تعيين نموذج التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-156">Import the ER model mapping configuration file.</span></span>
+    1. <span data-ttu-id="4c846-157">حدد **تبادل**.</span><span class="sxs-lookup"><span data-stu-id="4c846-157">Select **Exchange**.</span></span>
+    2. <span data-ttu-id="4c846-158">حدد **تحميل من ملف XML**.</span><span class="sxs-lookup"><span data-stu-id="4c846-158">Select **Load from XML file**.</span></span>
+    3. <span data-ttu-id="4c846-159">حدد **استعراض** للعثور علي ملف **تعيين لمعرفة مصادر بيانات JOIN.الإصدار1.1.xml** .</span><span class="sxs-lookup"><span data-stu-id="4c846-159">Select **Browse** to find the **Mapping to learn JOIN data sources.version.1.1.xml** file.</span></span>
+    4. <span data-ttu-id="4c846-160">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="4c846-160">Select **OK**.</span></span>
+4.  <span data-ttu-id="4c846-161">استيراد ملف تكوين تنسيق التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-161">Import the ER format configuration file.</span></span>
+    1. <span data-ttu-id="4c846-162">حدد **تبادل**.</span><span class="sxs-lookup"><span data-stu-id="4c846-162">Select **Exchange**.</span></span>
+    2. <span data-ttu-id="4c846-163">حدد **تحميل من ملف XML**.</span><span class="sxs-lookup"><span data-stu-id="4c846-163">Select **Load from XML file**.</span></span>
+    3. <span data-ttu-id="4c846-164">حدد **استعراض** للعثور علي ملف **تنسيق لمعرفة مصادر بيانات JOIN.الإصدار1.1.xml** .</span><span class="sxs-lookup"><span data-stu-id="4c846-164">Select **Browse** to find the **Format to learn JOIN data sources.version.1.1.xml** file.</span></span>
+    4. <span data-ttu-id="4c846-165">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="4c846-165">Select **OK**.</span></span>
+5.  <span data-ttu-id="4c846-166">في شجرة التكوينات، قم بتوسيع عنصر **نموذج لمعرفة مصادر بيانات JOIN** بالإضافة إلى عناصر النموذج الأخرى (عند توافرها).</span><span class="sxs-lookup"><span data-stu-id="4c846-166">In the configurations tree, expand the **Model to learn JOIN data sources** item as well as other model items (when available).</span></span>
+6.  <span data-ttu-id="4c846-167">لاحظ قائمة تكوينات التقارير الإلكترونية في الشجرة بالإضافة إلى تفاصيل الإصدار في علامة التبويب السريعة **الإصدارات** – سيتم استخدامها كمصدر للبيانات الخاصة بنموذج التقرير الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="4c846-167">Observe the list of ER configurations in the tree as well as version details on the **Versions** fast tab – they will be used as the source of data for your sample report.</span></span>
+
+    ![صفحة تكوينات إعداد التقارير الإلكترونية](./media/GER-JoinDS-ConfigurationsTree.PNG)
+
+### <a name="turn-on-execution-trace-options"></a><span data-ttu-id="4c846-169">تشغيل خيارات تتبع التنفيذ</span><span class="sxs-lookup"><span data-stu-id="4c846-169">Turn on execution trace options</span></span>
+1.  <span data-ttu-id="4c846-170">تحديد **تكوينات**.</span><span class="sxs-lookup"><span data-stu-id="4c846-170">Select **CONFIGURATIONS**.</span></span>
+2.  <span data-ttu-id="4c846-171">تحديد **معلمات المستخدم**.</span><span class="sxs-lookup"><span data-stu-id="4c846-171">Select **User parameters**.</span></span>
+3.  <span data-ttu-id="4c846-172">قم بتعيين معلمات تتبع التنفيذ كما هو موضح في لقطه الشاشة أدناه.</span><span class="sxs-lookup"><span data-stu-id="4c846-172">Set execution trace parameters as shown on the screenshot below.</span></span>
+
+    ![صفحة معلمات إعداد التقارير الإلكترونية](./media/GER-JoinDS-Parameters.PNG)
+
+    <span data-ttu-id="4c846-174">مع تشغيل هذه المعلمات، لكل عمليه تنفيذ لملف تنسيق إعداد التقارير الإلكترونية المستوردة، سيتم إنشاء تتبع التنفيذ.</span><span class="sxs-lookup"><span data-stu-id="4c846-174">With these parameters turned on, for every execution of the imported ER format file, the execution trace will be generated.</span></span> <span data-ttu-id="4c846-175">باستخدام تفاصيل تتبع التنفيذ الذي تم إنشاؤه، يمكنك تحليل تنفيذ تنسيق إعداد التقارير الإلكترونية ومكونات تعيين نموذج إعداد التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-175">Using details of generated execution trace, you can analyze the execution of ER format and ER model mapping components.</span></span> <span data-ttu-id="4c846-176">قم بزيارة صفحة [تنفيذ تتبع تنسيق إعداد التقارير الإلكترونية لاستكشاف الأخطاء في المشكلة وإصلاحها](trace-execution-er-troubleshoot-perf.md) للحصول على المزيد من التفاصيل حول ميزه تتبع تنفيذ إعداد التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-176">Visit the [Trace execution of ER format to troubleshoot performance issues](trace-execution-er-troubleshoot-perf.md) page for more details about ER execution trace feature.</span></span>
+
+### <a name="review-er-model-mapping-part-1"></a><span data-ttu-id="4c846-177">مراجعة تعيين نموذج إعداد التقارير الإلكترونية (الجزء 1)</span><span class="sxs-lookup"><span data-stu-id="4c846-177">Review ER model mapping (part 1)</span></span>
+
+<span data-ttu-id="4c846-178">مراجعة إعدادات مكون تعيين نموذج إعداد التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-178">Review settings of the ER model mapping component.</span></span> <span data-ttu-id="4c846-179">يتم تكوين المكون للوصول إلى معلومات حول إصدارات تكوينات إعداد التقارير الإلكترونية وتفاصيل التكوينات وموفري التكوين دون استخدام مصادر بيانات من نوع **الربط** .</span><span class="sxs-lookup"><span data-stu-id="4c846-179">The component is configured to access information about versions of ER configurations, details of configurations and configuration providers without using data sources of the **Join** type.</span></span>
+
+1.  <span data-ttu-id="4c846-180">حدد تكوين **تعيين لمعرفة مصادر بيانات JOIN** .</span><span class="sxs-lookup"><span data-stu-id="4c846-180">Select **Mapping to learn JOIN data sources** configuration.</span></span>
+2.  <span data-ttu-id="4c846-181">حدد **المصمم** لفتح قائمة التعيينات.</span><span class="sxs-lookup"><span data-stu-id="4c846-181">Select **Designer** to open the list of mappings.</span></span>
+3.  <span data-ttu-id="4c846-182">حدد **المصمم** لمراجعة تفاصيل التعيين.</span><span class="sxs-lookup"><span data-stu-id="4c846-182">Select **Designer** to review the mapping details.</span></span> 
+4.  <span data-ttu-id="4c846-183">حدد **إظهار التفاصيل**.</span><span class="sxs-lookup"><span data-stu-id="4c846-183">Select **Show details**.</span></span>
+5.  <span data-ttu-id="4c846-184">في شجره التكوينات، قم بتوسيع عناصر نموذج بيانات **Set1** و **Set2.Details** :</span><span class="sxs-lookup"><span data-stu-id="4c846-184">In the configurations tree, expand the **Set1** and **Set1.Details** data model items:</span></span>
+
+    1. <span data-ttu-id="4c846-185">يُشير ربط **تفاصيل: قائمه السجلات = الإصدارات** إلى ربط العنصر **Set1.Details** بمصدر بيانات **الإصدارات** التي تُرجع سجلات الجدول **ERSolutionVersionTable** .</span><span class="sxs-lookup"><span data-stu-id="4c846-185">Binding **Details: Record list = Versions** indicates that the **Set1.Details** item is bound to the **Versions** data source returning records of the **ERSolutionVersionTable** table.</span></span> <span data-ttu-id="4c846-186">يمثل كل سجل في هذا الجدول إصدارا واحدًا لتكوين التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-186">Each record of this table represents a single version of an ER configuration.</span></span> <span data-ttu-id="4c846-187">يتم تقديم محتوي هذا الجدول في علامة التبويب السريعة **إصدارات** في الصفحة **تكوينات** .</span><span class="sxs-lookup"><span data-stu-id="4c846-187">The content of this table is presented in the **Versions** fast tab on the **Configurations** page.</span></span>
+    2. <span data-ttu-id="4c846-188">يُقصد بربط **ConfigurationVersion: String = @.PublicVersionNumber** أن قيمه الإصدار العام لكل إصدار من تكوين التقارير الإلكترونية مأخوذ من الحقل **PublicVersionNumber** الموجود في جدول **ERSolutionVersionTable** ويتم وضعه في العنصر **ConfigurationVersion** .</span><span class="sxs-lookup"><span data-stu-id="4c846-188">Binding **ConfigurationVersion: String = @.PublicVersionNumber** means that the value of the public version of each ER configuration’s version is taken from the **PublicVersionNumber** field of the **ERSolutionVersionTable** table and placed to the **ConfigurationVersion** item.</span></span>
+    3. <span data-ttu-id="4c846-189">يُشير الربط **ConfigurationTitle: String = @.'>Relations'.Solution.Name** إلى أن اسم تكوين التقارير الإلكترونية مأخوذ من حقل **Name** الخاص بجدول **ERSolutionTable** مُقيمًا باستخدام علاقة العديد إلى واحد (**'>Relations'**) بين الجدولين **ERSolutionVersionTable** و **ERSolutionTable** .</span><span class="sxs-lookup"><span data-stu-id="4c846-189">Binding **ConfigurationTitle: String = @.'>Relations'.Solution.Name** indicates that the name of an ER configuration is taken from the **Name** field of the **ERSolutionTable** table assessing by using the many-to-one relation (**'>Relations'**) between the **ERSolutionVersionTable** and **ERSolutionTable** tables.</span></span> <span data-ttu-id="4c846-190">يتم تقديم أسماء تكوينات التقارير الإلكترونية لمثيل التطبيق الحالي في شجرة التكوينات في الصفحة **تكوينات** .</span><span class="sxs-lookup"><span data-stu-id="4c846-190">Names of ER configurations of the current application instance are presented in the configurations tree on the **Configurations** page.</span></span>
+    4. <span data-ttu-id="4c846-191">يُقصد بالربط **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** أن اسم موفر التكوين المالك للتكوين الحالي مأخوذ من حقل **Name** الخاص بجدول **ERVendorTable** مُقيمًا باستخدام علاقة العديد إلى واحد بين الجدولين **ERSolutionTable** و **ERVendorTable** .</span><span class="sxs-lookup"><span data-stu-id="4c846-191">Binding **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** means that the name of the configuration provider that owns the current configuration is taken from the **Name** field of the **ERVendorTable** table assessing by using the many-to-one relation between **ERSolutionTable** and **ERVendorTable** tables.</span></span> <span data-ttu-id="4c846-192">يتم تقديم أسماء مقدمي تكوينات التقارير الإلكترونية في شجرة التكوينات في الصفحة **تكوينات** على رأس الصفحة لكل تكوين.</span><span class="sxs-lookup"><span data-stu-id="4c846-192">Names of ER configuration providers are presented in the configurations tree on the **Configurations** page on the page header for each configuration.</span></span> <span data-ttu-id="4c846-193">يمكن الاطلاع علي قائمة موفري تكوينات التقارير الإلكترونية بالكامل من الصفحة **‏‫إدارة المؤسسة \> التقارير الإلكترونية \> موفر التكوين** .</span><span class="sxs-lookup"><span data-stu-id="4c846-193">The entire list of ER configuration providers can be found on the **Organization administration \> Electronic reporting \> Configuration provider** table page.</span></span>
+
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/GER-JoinDS-Set1Review.PNG)
+
+6.  <span data-ttu-id="4c846-195">في شجره التكوينات، قم بتوسيع عنصر نموذج البيانات **Set1.Summary** :</span><span class="sxs-lookup"><span data-stu-id="4c846-195">In the configurations tree, expand the **Set1.Summary** data model item:</span></span>
+
+    1. <span data-ttu-id="4c846-196">يُشير ربط **VersionsNumber: عدد صحيح = VersionsSummary.aggregated.VersionsNumber** إلى ربط العنصر **Set1.Summary.VersionsNumber** بحقل تجميع **VersionsNumber** لمصدر بيانات **VersionsSummary** لنوع **GroupBy** الذي تم تكوينه لإرجاع عدد السجلات للجدول **ERSolutionVersionTable** من خلال مصدر بيانات **الإصدارات** .</span><span class="sxs-lookup"><span data-stu-id="4c846-196">Binding **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** indicates that the **Set1.Summary.VersionsNumber** item is bound to the **VersionsNumber** aggregation field of the **VersionsSummary** data source of the **GroupBy** type that was configured to return the number of records of the **ERSolutionVersionTable** table via the **Versions** data source.</span></span>
+
+    ![صفحه معلمات مصدر البيانات GROUPBY](./media/GER-JoinDS-Set1GroupByReview.PNG)
+
+7.  <span data-ttu-id="4c846-198">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="4c846-198">Close the page.</span></span>
+
+### <a name="review"></a> <span data-ttu-id="4c846-199">مراجعة تعيين نموذج التقارير الإلكترونية (الجزء 2)</span><span class="sxs-lookup"><span data-stu-id="4c846-199">Review ER model mapping (part 2)</span></span>
+
+<span data-ttu-id="4c846-200">مراجعة إعدادات مكون تعيين نموذج إعداد التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-200">Review settings of the ER model mapping component.</span></span> <span data-ttu-id="4c846-201">يتم تكوين المكون للوصول إلى معلومات حول إصدارات تكوينات التقارير الإلكترونية وتفاصيل التكوينات وموفري التكوين مع استخدام مصادر بيانات نوع **JOIN** .</span><span class="sxs-lookup"><span data-stu-id="4c846-201">The component is configured to access information about versions of ER configurations, details of configurations and configuration providers with using a data source of the **Join** type.</span></span>
+
+1.  <span data-ttu-id="4c846-202">في شجره التكوينات، قم بتوسيع عناصر نموذج بيانات **Set2** و**Set2.Details** :</span><span class="sxs-lookup"><span data-stu-id="4c846-202">In the configurations tree, expand the **Set2** and **Set2.Details** data model items.</span></span> <span data-ttu-id="4c846-203">لاحظ أن الربط **تفاصيل: قائمة السجل = تفاصيل** تشير إلى أنه تم ربط عنصر **Set2.Details** بمصدر البيانات **التفاصيل** الذي تم تكوينه كمصدر بيانات لنوع **Join** .</span><span class="sxs-lookup"><span data-stu-id="4c846-203">Note that the binding **Details: Record list = Details** indicates that the **Set2.Details** item is bound to the **Details** data source configured as the data source of the **Join** type.</span></span>
+
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/GER-JoinDS-Set2Review.PNG)
+
+    <span data-ttu-id="4c846-205">يمكن إضافة مصدر بيانات **Join** بتحديد مصدر بيانات **‏‫Functions/Join** :</span><span class="sxs-lookup"><span data-stu-id="4c846-205">The **Join** data source can be added by selecting the **Functions\Join** data source:</span></span>
+
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/GER-JoinDS-AddJoinDS.PNG)
+
+2.  <span data-ttu-id="4c846-207">حدد مصدر بيانات **تفاصيل**.</span><span class="sxs-lookup"><span data-stu-id="4c846-207">Select **Detail**s data source.</span></span>
+3.  <span data-ttu-id="4c846-208">حدد **تحرير** في جزء **مصادر البيانات** .</span><span class="sxs-lookup"><span data-stu-id="4c846-208">Select **Edit** in the **Data sources** pane.</span></span>
+4.  <span data-ttu-id="4c846-209">حدد **تحرير الربط**.</span><span class="sxs-lookup"><span data-stu-id="4c846-209">Select **Edit join**.</span></span>
+5.  <span data-ttu-id="4c846-210">حدد **إظهار التفاصيل**.</span><span class="sxs-lookup"><span data-stu-id="4c846-210">Select **Show details**.</span></span>
+
+    ![صفحة معلمات مصدر البيانات JOIN](./media/GER-JoinDS-JoinDSEditor.PNG)
+
+    <span data-ttu-id="4c846-212">تستخدم هذه الصفحة لتصميم مصدر البيانات المطلوب لـ **نوع الربط**.</span><span class="sxs-lookup"><span data-stu-id="4c846-212">This page is used to design the required data source of the **Join type**.</span></span> <span data-ttu-id="4c846-213">في وقت التشغيل، سيقوم مصدر البيانات هذا بإنشاء قائمة سجلات مرتبطة مفردة من مصادر البيانات في شبكة **القائمة المرتبطة**.</span><span class="sxs-lookup"><span data-stu-id="4c846-213">At runtime, this data source will create a single joined list of records from the data sources in the **Joined list** grid.</span></span> <span data-ttu-id="4c846-214">يتم بدء ربط السجلات من مصدر البيانات **ConfigurationProviders** الموجود في الشبكة كأول عمود (في عمود **النوع** الفارغ المخصص له).</span><span class="sxs-lookup"><span data-stu-id="4c846-214">Join of records will start from the **ConfigurationProviders** data source that is in the grid as a first one (the **Type** column is blank for it).</span></span> <span data-ttu-id="4c846-215">سوف يتم ربط سجلات كل مصدر بيانات آخر بسجلات مصدر البيانات الأصلي تبعًا لذلك استنادًا إلى ترتيبها في هذه الشبكة.</span><span class="sxs-lookup"><span data-stu-id="4c846-215">Records of every other data source will be joined consequently to records of the parent data source based on its order in this grid.</span></span> <span data-ttu-id="4c846-216">يتم تكوين كل مصدر بيانات ربط كمصدر بيانات متداخل تحت مصدر البيانات الهدف (يتم تضمين مصدر بيانات**1Versions** تحت **1Configurations** واحد، ويتم تضمين مصدر بيانات **1Configurations** تحت **ConfigurationProviders** واحد).</span><span class="sxs-lookup"><span data-stu-id="4c846-216">Every joining data source must be configured as a data source nested under a target data source (**1Versions** data source is nested under **1Configurations** one; **1Configurations** data source is nested under **ConfigurationProviders** one).</span></span> <span data-ttu-id="4c846-217">يحتوي كل مصدر بيانات تم تكوينه علي شروط الربط.</span><span class="sxs-lookup"><span data-stu-id="4c846-217">Each configured data source must contain the conditions for the join.</span></span> <span data-ttu-id="4c846-218">في مصدر البيانات لهذا **الربط**المعين، يتم تعريف الصلات التالية:</span><span class="sxs-lookup"><span data-stu-id="4c846-218">In the data source for this particular **Join**, the following joins are defined:</span></span>
+
+    - <span data-ttu-id="4c846-219">يُربط كل سجل من مصدر البيانات **ConfigurationProviders** (يُشير إلى الجدول **ERVendorTable** ) مع السجلات **1Configurations** واحدة (يُشار اليها في الجدول **ERSolutionTable** ) ويكون له نفس القيمة في الحقلين **SolutionVendor** و **RecId** .</span><span class="sxs-lookup"><span data-stu-id="4c846-219">Each record of the **ConfigurationProviders** data source (referred to the **ERVendorTable** table) is joined with only records of the **1Configurations** one (referred to in the **ERSolutionTable** table) having the same value in the **SolutionVendor** and **RecId** fields.</span></span> <span data-ttu-id="4c846-220">يُستخدم نوع **الربط الداخلي** لهذا الربط بالإضافة إلى الشروط التالية لمطابقه السجلات:</span><span class="sxs-lookup"><span data-stu-id="4c846-220">The **Inner join** type is used for this join as well as the following conditions for matching records:</span></span> 
+
+    <span data-ttu-id="4c846-221">FILTER (تكوينات، Configurations.SolutionVendor = onfigurationProviders.RecId)</span><span class="sxs-lookup"><span data-stu-id="4c846-221">FILTER (Configurations, Configurations.SolutionVendor = ConfigurationProviders.RecId)</span></span>
+
+    - <span data-ttu-id="4c846-222">يتم ربط كل سجل من مصدر البيانات **1Configurations** (يُشير إلى الجدول **ERSolutionTable** ) مع السجلات **1Versions** الأولى فقط (يُشار اليها في الجدول **ERSolutionVersionTable** ) ويكون له نفس القيمة في الحقول **Solution** و **RecId** .</span><span class="sxs-lookup"><span data-stu-id="4c846-222">Each record of the **1Configurations** data source (referred to the **ERSolutionTable** table) is joined with the only records of the **1Versions** one (referred to the **ERSolutionVersionTable** table) having the same value in the **Solution** and **RecId** fields.</span></span> <span data-ttu-id="4c846-223">يُستخدام نوع **الربط الداخلي** لهذا الربط بالإضافة إلى الشروط التالية لمطابقة السجلات:</span><span class="sxs-lookup"><span data-stu-id="4c846-223">**Inner join** type is used for this join as well as the following conditions for matching records:</span></span>
+
+    <span data-ttu-id="4c846-224">FILTER (ConfigurationVersions، ConfigurationVersions.Solution = ConfigurationProviders.'1Configurations'.RecId)</span><span class="sxs-lookup"><span data-stu-id="4c846-224">FILTER (ConfigurationVersions, ConfigurationVersions.Solution = ConfigurationProviders.'1Configurations'.RecId)</span></span>
+
+    - <span data-ttu-id="4c846-225">تم تكوين خيار **تنفيذ** كمعني **استعلام**، سوف يتم تنفيذ مصدر بيانات الربط هذا له في وقت التشغيل علي مستوي قاعدة البيانات كاستدعاء مباشر لـ SQL.</span><span class="sxs-lookup"><span data-stu-id="4c846-225">**Execute** option is configured as **Query** meaning that this join data source will be executed at runtime on database level as a direct SQL call.</span></span>
+
+    <span data-ttu-id="4c846-226">لاحظ أنه لربط سجلات مصادر البيانات التي تمثل جداول التطبيق، يمكنك تحديد شروط الربط باستخدام أزواج من الحقول بخلاف تلك الموجودة في علاقات AOT بين هذه الجداول.</span><span class="sxs-lookup"><span data-stu-id="4c846-226">Note that for joining records of data sources representing application tables, you can specify join conditions by using pairs of fields other than ones that describe existing in AOT relations between these tables.</span></span> <span data-ttu-id="4c846-227">يمكن تكوين هذا النوع من الربط لينفذ علي مستوي قاعدة البيانات أيضًا.</span><span class="sxs-lookup"><span data-stu-id="4c846-227">This type of join can be configured to execute at the database level as well.</span></span>
+
+6.  <span data-ttu-id="4c846-228">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="4c846-228">Close the page.</span></span>
+7.  <span data-ttu-id="4c846-229">حدد **إلغاء الأمر**.</span><span class="sxs-lookup"><span data-stu-id="4c846-229">Select **Cancel**.</span></span>
+8.  <span data-ttu-id="4c846-230">في شجره التكوينات، قم بتوسيع عنصر نموذج البيانات **Set2.Summary** :</span><span class="sxs-lookup"><span data-stu-id="4c846-230">In the configurations tree, expand the **Set2.Summary** data model item:</span></span>
+
+    - <span data-ttu-id="4c846-231">يُشير ربط **VersionsNumber: عدد صحيح = DetailsSummary.aggregated.VersionsNumber** إلى أنه يتم ربط العنصر **Set2.Summary.VersionsNumber** بحقل تجميع **VersionsNumber** لمصدر بيانات **DetailsSummary** لنوع **GroupBy** الذي تم تكوينه لإرجاع عدد السجلات المرتبطة لمصدر البيانات **Details** من النوع **Join** .</span><span class="sxs-lookup"><span data-stu-id="4c846-231">Binding **VersionsNumber: Integer = DetailsSummary.aggregated.VersionsNumber** indicates that the **Set2.Summary.VersionsNumber** item is bound to the **VersionsNumber** aggregation field of the **DetailsSummary** data source of the **GroupBy** type that was configured to return the number of joined records of the **Details** data source of the **Join** type.</span></span>
+    - <span data-ttu-id="4c846-232">لاحظ تكوين خيار موقع **تنفيذ** كمعني **استعلام** يتم تنفيذ مصدر بيانات **GroupBy** هذا في وقت التشغيل كاستدعاء مباشر لـ SQL على مستوى قاعدة البيانات.</span><span class="sxs-lookup"><span data-stu-id="4c846-232">Note that the **Execution** location option is configured as **Query** meaning that this **GroupBy** data source will be executed at runtime as a direct SQL call at the database level.</span></span> <span data-ttu-id="4c846-233">ويعد ذلك ممكنًا بسبب تكوين مصدر البيانات الأساسي **Details** لنوع **Join** علي أنه تم تنفيذه علي مستوي قاعدة البيانات.</span><span class="sxs-lookup"><span data-stu-id="4c846-233">This is possible because the base data source **Details** of the **Join** type is configured as executed at the database level.</span></span>
+
+    ![صفحه معلمات مصدر البيانات GROUPBY](./media/GER-JoinDS-Set2GroupByReview.PNG)
+
+9.  <span data-ttu-id="4c846-235">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="4c846-235">Close the page.</span></span>
+10. <span data-ttu-id="4c846-236">حدد **إلغاء الأمر**.</span><span class="sxs-lookup"><span data-stu-id="4c846-236">Select **Cancel**.</span></span>
+
+### <a name="executeERformat"></a> <span data-ttu-id="4c846-237">تنفيذ تنسيق التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="4c846-237">Execute ER format</span></span>
+
+1.  <span data-ttu-id="4c846-238">يمكنك الوصول إلى Finance أو RCS في الجلسة الثانية لمستعرض الويب الخاص بك باستخدام نفس بيانات الاعتماد والشركة كما في الجلسة الاولي.</span><span class="sxs-lookup"><span data-stu-id="4c846-238">Access Finance or RCS in the second session of your web browser using same credentials and company as in the first session.</span></span>
+2.  <span data-ttu-id="4c846-239">انتقل إلى **إدارة المؤسسة \> التقارير الإلكترونية \> التكوينات**.</span><span class="sxs-lookup"><span data-stu-id="4c846-239">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+3.  <span data-ttu-id="4c846-240">توسيع تكوين **نموذج لمعرفة مصادر بيانات JOIN** .</span><span class="sxs-lookup"><span data-stu-id="4c846-240">Expand **Model to learn JOIN data sources** configuration.</span></span>
+4.  <span data-ttu-id="4c846-241">حدد تكوين **تنسيق لمعرفة مصادر بيانات JOIN** .</span><span class="sxs-lookup"><span data-stu-id="4c846-241">Select **Format to learn JOIN data sources** configuration.</span></span>
+5.  <span data-ttu-id="4c846-242">حدد **المصمم**.</span><span class="sxs-lookup"><span data-stu-id="4c846-242">Select **Designer**.</span></span>
+6.  <span data-ttu-id="4c846-243">حدد **إظهار التفاصيل**.</span><span class="sxs-lookup"><span data-stu-id="4c846-243">Select **Show details**.</span></span>
+7.  <span data-ttu-id="4c846-244">حدد **التعيين**.</span><span class="sxs-lookup"><span data-stu-id="4c846-244">Select **Mapping**.</span></span>
+8.  <span data-ttu-id="4c846-245">حدد **التوسيع/الطي**.</span><span class="sxs-lookup"><span data-stu-id="4c846-245">Select **Expand/Collapse**.</span></span>
+
+    <span data-ttu-id="4c846-246">لاحظ أن هذا التنسيق تم تصميمه لملء الملف النصي الذي تم إنشاؤه بسطر جديد لكل إصدار من تكوين التقارير الإلكترونية (تسلسل**الإصدار** ).</span><span class="sxs-lookup"><span data-stu-id="4c846-246">Note that this format is designed to populate a generated text file with a new line for every version of an ER configuration (**Version** sequence).</span></span> <span data-ttu-id="4c846-247">سوف يحتوي كل سطر يتم إنشاؤه علي اسم موفر تكوين مالك للتكوين الحالي، واسم التكوين وإصدار التكوين المفصولين بعلامة الفاصلة المنقوطة.</span><span class="sxs-lookup"><span data-stu-id="4c846-247">Each generated line will contain the name of a configuration provider owning the current configuration, the configuration name and the configuration version separated by semicolon mark.</span></span> <span data-ttu-id="4c846-248">سوف يحتوي السطر الأخير من الملف الذي تم إنشاؤه علي عدد الإصدارات التي تم اكتشافها لتكوينات التقارير الإلكترونية (تسلسل**الملخص** ).</span><span class="sxs-lookup"><span data-stu-id="4c846-248">The final line of generated file will contain the number of discovered versions of ER configurations (**Summary** sequence).</span></span>
+
+    ![صفحة مصمم تنسيق‬ التقارير الإلكترونية](./media/GER-JoinDS-FormatReview.PNG)
+
+    <span data-ttu-id="4c846-250">يتم استخدام مصادر بيانات **التاريخ** و **الملخص** لملء تفاصيل إصدار التكوين للملف الذي تم إنشاؤه:</span><span class="sxs-lookup"><span data-stu-id="4c846-250">The **Data** and **Summary** data sources are used to populate configuration version details to the generated file:</span></span>
+
+    - <span data-ttu-id="4c846-251">يتم استخدام المعلومات من نموذج بيانات Set1 عند **اختيار** **لا** لمصدر البيانات **مُحدد** في وقت التشغيل في صفحة مربع حوار المستخدم عند تشغيل تنسيق التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-251">Information from the **Set1** data model is used when you choose **No** for the **Selector** data source at runtime on the user dialog page when running ER format.</span></span>
+    - <span data-ttu-id="4c846-252">يتم استخدام المعلومات من نموذج بيانات **Set2** عند اختيار **نعم** لمصدر البيانات **مُحدد** في وقت التشغيل في صفحة مربع حوار المستخدم عند تشغيل تنسيق التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="4c846-252">Information from the **Set2** data model is used when you choose **Yes** for the **Selector** data source at runtime on the user dialog page.</span></span>
+
+    ![صفحة مصمم تنسيق‬ التقارير الإلكترونية](./media/GER-JoinDS-FormatMappingReview.PNG)
+
+9.  <span data-ttu-id="4c846-254">حدد **تشغيل**.</span><span class="sxs-lookup"><span data-stu-id="4c846-254">Select **Run**.</span></span>
+10. <span data-ttu-id="4c846-255">في صفحه الحوار ، حدد **لا** في الحقل **استخدام مصدر بيانات JOIN** .</span><span class="sxs-lookup"><span data-stu-id="4c846-255">On the dialog page, select **No** in the **Use JOIN data source** field.</span></span>
+11. <span data-ttu-id="4c846-256">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="4c846-256">Select **OK**.</span></span>
+12. <span data-ttu-id="4c846-257">مراجعة الملف الذي تم إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="4c846-257">Review generated file.</span></span>
+
+    ![صفحه مربع حوار مستخدم التقارير الإلكترونية](./media/GER-JoinDS-Set1Run.PNG)
+
+#### <a name="analyze-er-format-execution-trace"></a><span data-ttu-id="4c846-259">تحليل تتبع تنفيذ تنسيق التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="4c846-259">Analyze ER format execution trace</span></span>
+
+1.  <span data-ttu-id="4c846-260">في جلسة العمل الاولي من Finance أو RCS، حدد **المصمم**.</span><span class="sxs-lookup"><span data-stu-id="4c846-260">In the first session of Finance or RCS, select **Designer**.</span></span>
+2.  <span data-ttu-id="4c846-261">حدد **تتبع الأداء**.</span><span class="sxs-lookup"><span data-stu-id="4c846-261">Select **Performance trac**e.</span></span>
+3.  <span data-ttu-id="4c846-262">في شبكة **تتبع الأداء** ، حدد السجل الأعلى لأحدث تتبع للتنفيذ الخاص بتنسيق التقارير الإلكترونية التي تستخدم مكون تعيين النموذج الحالي.</span><span class="sxs-lookup"><span data-stu-id="4c846-262">In the **Performance trace** grid, select the top-most record of the latest execution trace of an ER format that used the current model mapping component.</span></span>
+4.  <span data-ttu-id="4c846-263">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="4c846-263">Select **OK**.</span></span>
+
+    <span data-ttu-id="4c846-264">لاحظ أن إحصائيات التنفيذ تُعلمك بالاستدعاءات المكررة لجداول التطبيق:</span><span class="sxs-lookup"><span data-stu-id="4c846-264">Note that execution statistics informs you about duplicated calls to application tables:</span></span>
+
+    - <span data-ttu-id="4c846-265">تم استدعاء**ERSolutionTable** عدة مرات لسجلات إصدار التكوين في جدول **ERSolutionVersionTable** ، بينما يمكن تقليل عدد هذه الاستدعاءات في أوقات تحسين الأداء.</span><span class="sxs-lookup"><span data-stu-id="4c846-265">**ERSolutionTable** has been called as many times as you have configuration version records in the **ERSolutionVersionTable** table, while the number of such calls could be reduced in times for performance improvement.</span></span>
+    - <span data-ttu-id="4c846-266">تم استدعاء**ERVendorTable** مرتين لكل سجل إصدار التكوين الذي تم اكتشافه في جدول **ERSolutionVersionTable** ، بينما يمكن تقليل عدد هذه الاستدعاءات أيضًا.</span><span class="sxs-lookup"><span data-stu-id="4c846-266">**ERVendorTable** has been called twice for every configuration version record that was discovered in the **ERSolutionVersionTable** table, while the number of such calls could be reduced as well.</span></span>
+
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/GER-JoinDS-Set1Run2.PNG)
+
+5.  <span data-ttu-id="4c846-268">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="4c846-268">Close the page.</span></span>
+
+### <a name="execute-er-format"></a><span data-ttu-id="4c846-269">تنفيذ تنسيق التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="4c846-269">Execute ER format</span></span>
+
+1.  <span data-ttu-id="4c846-270">قم بالتبديل إلى علامة تبويب مستعرض الويب باستخدام جلسة العمل الثانية لـ Finance أو RCS.</span><span class="sxs-lookup"><span data-stu-id="4c846-270">Switch to your web browser tab with the second session of Finance or RCS.</span></span>
+2.  <span data-ttu-id="4c846-271">حدد **تشغيل**.</span><span class="sxs-lookup"><span data-stu-id="4c846-271">Select **Run**.</span></span>
+3.  <span data-ttu-id="4c846-272">في صفحه الحوار، حدد **نعم** في الحقل **استخدام مصدر بيانات JOIN** .</span><span class="sxs-lookup"><span data-stu-id="4c846-272">On the dialog page, select **Yes** in the **Use JOIN data source** field.</span></span>
+4.  <span data-ttu-id="4c846-273">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="4c846-273">Select **OK**.</span></span>
+5.  <span data-ttu-id="4c846-274">مراجعة الملف الذي تم إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="4c846-274">Review generated file.</span></span>
+
+    ![صفحه مربع حوار مستخدم التقارير الإلكترونية](./media/GER-JoinDS-Set2Run.PNG)
+
+#### <a name="analyze"></a> <span data-ttu-id="4c846-276">تحليل تتبع تنفيذ تنسيق التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="4c846-276">Analyze ER format execution trace</span></span>
+
+1.  <span data-ttu-id="4c846-277">في جلسة العمل الاولي من Finance أو RCS، حدد **المصمم**.</span><span class="sxs-lookup"><span data-stu-id="4c846-277">In the first session of Finance or RCS, select **Designer**.</span></span>
+2.  <span data-ttu-id="4c846-278">حدد **تتبع الأداء**.</span><span class="sxs-lookup"><span data-stu-id="4c846-278">Select **Performance trace**.</span></span>
+3.  <span data-ttu-id="4c846-279">في شبكة **تتبع الأداء** ، حدد السجل الأعلى الذي يمثل أحدث تتبع للتنفيذ الخاص بتنسيق التقارير الإلكترونية التي تستخدم مكون تعيين النموذج الحالي.</span><span class="sxs-lookup"><span data-stu-id="4c846-279">In the **Performance trace** grid, select top-most record representing the latest execution trace of an ER format that used the current model mapping component.</span></span>
+4.  <span data-ttu-id="4c846-280">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="4c846-280">Select **OK**.</span></span>
+
+    <span data-ttu-id="4c846-281">لاحظ ان إحصائيات التنفيذ تُعلمك بما يلي:</span><span class="sxs-lookup"><span data-stu-id="4c846-281">Note that execution statistics informs you about the following:</span></span>
+
+    - <span data-ttu-id="4c846-282">تم استدعاء قاعدة بيانات التطبيق مرة واحدة للحصول علي سجلات من الجداول **ERVendorTable**، و **ERSolutionTable**، و **ERSolutionVersionTable** للوصول إلى الحقول المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="4c846-282">Application database has been called once to get records from **ERVendorTable**, **ERSolutionTable**, and **ERSolutionVersionTable** tables to access required fields.</span></span>
+
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/GER-JoinDS-Set2Run2.PNG)
+
+    - <span data-ttu-id="4c846-284">تم استدعاء قاعدة بيانات التطبيق مرة واحدة لحساب عدد إصدارات التكوين باستخدام الروابط التي تم تكوينها في مصدر بيانات **التفاصيل** .</span><span class="sxs-lookup"><span data-stu-id="4c846-284">Application database has been called once to calculate the number of configuration versions by using joins that were configured in the **Details** data source.</span></span>
+
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="additional-resources"></a><span data-ttu-id="4c846-286">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="4c846-286">Additional resources</span></span>
+
+[<span data-ttu-id="4c846-287">مصمم المعادلات في التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="4c846-287">Formula designer in Electronic reporting</span></span>](general-electronic-reporting-formula-designer.md)
+
+[<span data-ttu-id="4c846-288">تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها</span><span class="sxs-lookup"><span data-stu-id="4c846-288">Trace execution of ER format to troubleshoot performance issues</span></span>](trace-execution-er-troubleshoot-perf.md)
+

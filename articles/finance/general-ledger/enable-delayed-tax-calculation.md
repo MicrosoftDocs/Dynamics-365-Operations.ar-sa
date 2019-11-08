@@ -1,6 +1,6 @@
 ---
-title: تمكين حساب الضريبة المؤجل في دفتر اليومية
-description: يوضح هذا الموضوع كيفية استخدام ميزة **تمكين حساب الضريبة المؤجل في دفتر اليومية‬** لتحسين أداء حساب الضريبة عندما يكون حجم بنود دفتر اليومية ضخمًا.
+title: تمكين حساب الضريبة المؤجل في دفاتر اليومية
+description: يوضح هذا الموضوع كيفية تشغيل ميزة حساب الضرائب المؤجلة للمساعدة في تحسين أداء العمليات الحسابية الضريبية عندما يكون عدد بنود دفتر اليومية كبيرًا للغاية.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176188"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623511"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a><span data-ttu-id="be158-103">تمكين حساب الضريبة المؤجل في دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="be158-103">Enable delayed tax calculation on journal</span></span>
+# <a name="enable-delayed-tax-calculation-on-journals"></a><span data-ttu-id="97b32-103">تمكين حساب الضريبة المؤجل في دفاتر اليومية</span><span class="sxs-lookup"><span data-stu-id="97b32-103">Enable delayed tax calculation on journals</span></span>
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="be158-104">يوضح هذا الموضوع كيفية استخدام ميزة **تمكين حساب الضريبة المؤجل في دفتر اليومية‬** لتحسين أداء حساب الضريبة عندما يكون حجم بنود دفتر اليومية ضخمًا.</span><span class="sxs-lookup"><span data-stu-id="be158-104">This topic explains how to use the **Enable delayed tax calculation on journal** feature to improve tax calculation performance when the volume of journal lines is huge.</span></span>
+<span data-ttu-id="97b32-104">يوضح هذا الموضوع كيف يمكنك تأجيل حساب ضريبة المبيعات في دفاتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="97b32-104">This topic explains how you can delay sales tax calculation on journals.</span></span> <span data-ttu-id="97b32-105">وتساعد هذه الإمكانية علي تحسين أداء الحسابات الضريبية عند وجود العديد من بنود دفاتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="97b32-105">This capability helps improve the performance of tax calculations when there are many journal lines.</span></span>
 
-<span data-ttu-id="be158-105">يتم تشغيل سلوك حساب ضريبة المبيعات الحالي في الوقت الحقيقي على دفتر اليومية عندما يقوم المستخدم بتحديث حقول الضرائب ذات الصلة، على سبيل المثال، مجموعة ضريبة المبيعات/مجموعة ضريبة مبيعات الأصناف.</span><span class="sxs-lookup"><span data-stu-id="be158-105">Current sales tax calculation behavior on journal is real-time triggered when user updates tax related fields, e.g. sales tax group/item sales tax group.</span></span> <span data-ttu-id="be158-106">سيقوم أي تحديث على مستوى بنود دفتر اليومية بإعادة حساب مبلغ الضريبة في كافة بنود دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="be158-106">Any update at journal line level will re-calculate tax amount on all journal lines.</span></span> <span data-ttu-id="be158-107">من شأن ذلك أن يساعد المستخدم علي رؤية مبلغ الضريبة المحسوب في الوقت الحقيقي، ولكنه قد يؤدي أيضًا إلى حدوث مشكلة في الأداء إذا كان حجم بنود دفتر اليومية ضخمًا.</span><span class="sxs-lookup"><span data-stu-id="be158-107">It helps user to see real-time calculated tax amount but it could also bring performance issue if  the volume of journal lines is huge.</span></span>
+<span data-ttu-id="97b32-106">بشكل افتراضي، يتم حساب مبالغ ضريبة المبيعات في بنود دفتر اليومية كلما تم تحديث الحقول المتعلقة بالضريبة.</span><span class="sxs-lookup"><span data-stu-id="97b32-106">By default, sales tax amounts on journal lines are calculated whenever tax-related fields are updated.</span></span> <span data-ttu-id="97b32-107">تتضمن هذه الحقول الحقول الخاصة بمجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف.</span><span class="sxs-lookup"><span data-stu-id="97b32-107">These fields include the fields for sales tax groups and item sales tax groups.</span></span> <span data-ttu-id="97b32-108">يتسبب أي تحديث لبند دفتر اليومية في إعادة حساب مبالغ الضريبة لكافة بنود دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="97b32-108">Any update to a journal line causes tax amounts to be recalculated for all journal lines.</span></span> <span data-ttu-id="97b32-109">علي الرغم من أن هذا السلوك يساعد المستخدم في رؤية مبالغ الضرائب المحسوبة في الوقت الفعلي، إلا أنه يمكن أن يؤثر أيضًا علي الأداء إذا كان عدد بنود دفتر اليومية كبيرًا جدًا.</span><span class="sxs-lookup"><span data-stu-id="97b32-109">Although this behavior helps user see tax amounts calculated in real time, it can also affect performance if the number of journal lines is very large.</span></span>
 
-<span data-ttu-id="be158-108">توفر هذه الميزة خيارًا لتأجيل حساب الضريبة لحل مشكلة الأداء.</span><span class="sxs-lookup"><span data-stu-id="be158-108">This feature provides an option to delay tax calculation to solve performance issue.</span></span> <span data-ttu-id="be158-109">إذا كان هذه الميزة قيد التشغيل، سيتم حساب مبلغ الضريبة فقط عند قيام المستخدم بالنقر فوق الأمر "ضريبة المبيعات" أو ترحيل دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="be158-109">If this feature is turned on, tax amount will only be calculated when user clicks "Sales Tax" command or posts the journal.</span></span>
+<span data-ttu-id="97b32-110">تتيح لك ميزة حساب الضريبة المؤجلة إمكانية تأجيل حساب الضريبة علي دفاتر اليومية والقيام بذلك بالمساعدة علي إصلاح مشكلات الأداء.</span><span class="sxs-lookup"><span data-stu-id="97b32-110">The Delayed tax calculation feature lets you delay tax calculation on journals and therefore helps fix performance issues.</span></span> <span data-ttu-id="97b32-111">عندما تكون هذه الميزة قيد التشغيل، سيتم حساب مبلغ الضريبة فقط عند قيام المستخدم بتحديد **ضريبة المبيعات** أو ترحيل دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="97b32-111">When this feature is turned on, tax amounts are calculated only when a user selects **Sales Tax** or posts the journal.</span></span>
 
-<span data-ttu-id="be158-110">بإمكان المستخدم تشغيل/إيقاف تشغيل المعلمة على ثلاثة مستويات:</span><span class="sxs-lookup"><span data-stu-id="be158-110">User can turn on/off the parameter at three levels:</span></span>
-- <span data-ttu-id="be158-111">بواسطة الكيان القانوني</span><span class="sxs-lookup"><span data-stu-id="be158-111">By legal entity</span></span>
-- <span data-ttu-id="be158-112">حسب اسم دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="be158-112">By journal name</span></span>
-- <span data-ttu-id="be158-113">حسب رأس دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="be158-113">By journal header</span></span>
+<span data-ttu-id="97b32-112">يمكنك تأجيل حساب ضرائب المبيعات علي ثلاثة مستويات:</span><span class="sxs-lookup"><span data-stu-id="97b32-112">You can delay the calculation of sales taxes at three levels:</span></span>
 
-<span data-ttu-id="be158-114">سيعتبر النظام قيمة المعلمة في رأس دفتر اليومية قيمة نهائية.</span><span class="sxs-lookup"><span data-stu-id="be158-114">System will take the parameter value on journal header as final.</span></span> <span data-ttu-id="be158-115">ستكون قيمة المعلمة على رأس دفتر اليومية بشكل افتراضي القيمة من اسم دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="be158-115">Parameter value on journal header will be defaulted from journal name.</span></span> <span data-ttu-id="be158-116">ستكون قيمة المعلمة على اسم دفتر اليومية بشكل افتراضي القيمة من معلمة دفتر الأستاذ العام عند إنشاء اسم دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="be158-116">Parameter value on journal name will be defaulted from general ledger parameter when the journal name is created.</span></span>
+- <span data-ttu-id="97b32-113">كيان قانوني</span><span class="sxs-lookup"><span data-stu-id="97b32-113">Legal entity</span></span>
+- <span data-ttu-id="97b32-114">اسم دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="97b32-114">Journal name</span></span>
+- <span data-ttu-id="97b32-115">رأس دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="97b32-115">Journal header</span></span>
 
-<span data-ttu-id="be158-117">سيتم إخفاء الحقلين "مبلغ ضريبة المبيعات الفعلي" و"مبلغ ضريبة المبيعات المحسوب" على دفتر اليومية في حالة تشغيل هذه المعلمة.</span><span class="sxs-lookup"><span data-stu-id="be158-117">"Actual sales tax amount" and "Calculated sales tax amount" fields on journal will be hided if this parameter is turned on.</span></span> <span data-ttu-id="be158-118">الغرض ليس إرباك المستخدم لأن قيمة هذين الحقلين ستعرض دائمًا 0 قبل ان يقوم المستخدم بتشغيل حساب الضريبة.</span><span class="sxs-lookup"><span data-stu-id="be158-118">The purpose is not to confuse user because the value of these two fields will always show 0 before user trigger the tax calculation.</span></span>
+<span data-ttu-id="97b32-116">يعطي النظام الأولوية لإعداد رأس دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="97b32-116">The system gives priority to the setting for the journal header.</span></span> <span data-ttu-id="97b32-117">وبشكل افتراضي، يتم الحصول على هذا الإعداد من اسم دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="97b32-117">By default, this setting is taken from the journal name.</span></span> <span data-ttu-id="97b32-118">وبشكل افتراضي، يتم الحصول علي إعداد اسم دفتر اليومية من خلال الإعداد الموجود في صفحة **معلمات دفتر الأستاذ العام** عند إنشاء اسم دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="97b32-118">By default, the setting for the journal name is taken from the setting on the **General ledger parameters** page when the journal name is created.</span></span> <span data-ttu-id="97b32-119">توضح الأقسام التالية كيفية تشغيل حساب الضريبة المؤجلة للكيانات القانونية وأسماء دفاتر اليومية ورؤوس دفاتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="97b32-119">The following sections explain how to turn on delayed tax calculation for legal entities, journal names, and journal headers.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a><span data-ttu-id="be158-119">تمكين حساب الضريبة المؤجل حسب الكيان القانوني</span><span class="sxs-lookup"><span data-stu-id="be158-119">Enable delayed tax calculation by legal entity</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a><span data-ttu-id="97b32-120">تشغيل حساب الضريبة المؤجل علي مستوي الكيان القانوني</span><span class="sxs-lookup"><span data-stu-id="97b32-120">Turn on delayed tax calculation at the legal entity level</span></span>
 
-1. <span data-ttu-id="be158-120">انتقل إلى **دفتر الأستاذ العام > إعداد دفتر الأستاذ‬ > معلمات دفتر الأستاذ العام**.</span><span class="sxs-lookup"><span data-stu-id="be158-120">Go to **General ledger > Ledger setup > General ledger parameters**</span></span>
-2. <span data-ttu-id="be158-121">انقر فوق علامة التبويب **ضريبة المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="be158-121">Click **Sales tax** tab</span></span>
-3. <span data-ttu-id="be158-122">ضمن علامة‏‎ التبويب السريعة **عام**، ابحث عن المعلمة **حساب الضريبة المؤجل**، وقم بتشغيلها/إيقاف تشغيلها.</span><span class="sxs-lookup"><span data-stu-id="be158-122">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+1. <span data-ttu-id="97b32-121">انتقل إلى **دفتر الأستاذ العام \> إعداد دفتر الأستاذ‬ \> معلمات دفتر الأستاذ العام**.</span><span class="sxs-lookup"><span data-stu-id="97b32-121">Go to **General ledger \> Ledger setup \> General ledger parameters**.</span></span>
+2. <span data-ttu-id="97b32-122">على علامة التبويب **ضريبة المبيعات** ، على علامة التبويب السريعة **عام** ، حدد الخيار **حساب الضريبة المؤجلة** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="97b32-122">On the **Sales tax** tab, on the **General** FastTab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-![](media/delayed-tax-calculation-gl.png)
+![صورة معلمات دفتر الأستاذ العام](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a><span data-ttu-id="97b32-124">تشغيل حساب الضريبة المؤجل علي مستوي اسم دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="97b32-124">Turn on delayed tax calculation at the journal name level</span></span>
 
+1. <span data-ttu-id="97b32-125">انتقل إلى **دفتر الأستاذ العام \> إعداد دفتر اليومية \> أسماء دفاتر اليومية**.</span><span class="sxs-lookup"><span data-stu-id="97b32-125">Go to **General ledger \> Journal setup \> Journal names**.</span></span>
+2. <span data-ttu-id="97b32-126">على علامة التبويب السريعة **عام** ، في القسم **ضريبة المبيعات** ، حدد الخيار **حساب الضريبة المؤجل** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="97b32-126">On the **General** FastTab, in the **Sales tax** section, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a><span data-ttu-id="be158-123">تمكين حساب الضريبة المؤجل حسب اسم دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="be158-123">Enable delayed tax calculation by journal name</span></span>
+![صورة أسماء دفاتر اليومية](media/delayed-tax-calculation-journal-name.png)
 
-1. <span data-ttu-id="be158-124">انتقل إلى **دفتر الأستاذ العام > إعداد دفتر اليومية > أسماء دفاتر اليومية**.</span><span class="sxs-lookup"><span data-stu-id="be158-124">Go to **General ledger > Journal setup > Journal names**</span></span>
-2. <span data-ttu-id="be158-125">ضمن علامة‏‎ التبويب السريعة **عام**، ابحث عن المعلمة **حساب الضريبة المؤجل**، وقم بتشغيلها/إيقاف تشغيلها.</span><span class="sxs-lookup"><span data-stu-id="be158-125">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a><span data-ttu-id="97b32-128">تشغيل حساب الضريبة المؤجل علي مستوي رأس دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="97b32-128">Turn on delayed tax calculation at the journal header level</span></span>
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. <span data-ttu-id="97b32-129">انتقل إلى **دفتر الأستاذ العام \> إدخالات دفتر اليومية \> دفاتر اليومية العامة**‬.</span><span class="sxs-lookup"><span data-stu-id="97b32-129">Go to **General ledger \> Journal entries \> General journals**.</span></span>
+2. <span data-ttu-id="97b32-130">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="97b32-130">Select **New**.</span></span>
+3. <span data-ttu-id="97b32-131">حدد اسم دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="97b32-131">Select a journal name.</span></span>
+4. <span data-ttu-id="97b32-132">على علامة التبويب **إعداد** ، قم بتعيين خيار **حساب الضريبة المؤجل** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="97b32-132">On the **Setup** tab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a><span data-ttu-id="be158-126">تمكين حساب الضريبة المؤجل حسب دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="be158-126">Enable delayed tax calculation by journal</span></span>
-
-1. <span data-ttu-id="be158-127">انتقل إلى **دفتر الأستاذ العام > إدخالات دفتر اليومية > دفاتر اليومية العامة**‬</span><span class="sxs-lookup"><span data-stu-id="be158-127">Go to **General ledger > Journal entries > General journals**</span></span>
-2. <span data-ttu-id="be158-128">انقر فوق **جديد**</span><span class="sxs-lookup"><span data-stu-id="be158-128">Click **New**</span></span>
-3. <span data-ttu-id="be158-129">حدد اسم دفتر اليومية</span><span class="sxs-lookup"><span data-stu-id="be158-129">Select a journal name</span></span>
-4. <span data-ttu-id="be158-130">انقر فوق **الإعداد**</span><span class="sxs-lookup"><span data-stu-id="be158-130">Click **Setup**</span></span>
-5. <span data-ttu-id="be158-131">ابحث عن المعلمة **حساب الضريبة المؤجل**، وقم بتشغيلها/إيقاف تشغيلها.</span><span class="sxs-lookup"><span data-stu-id="be158-131">Find parameter **Delayed tax calculation**, turn on/off it</span></span>
-
-![](media/delayed-tax-calculation-journal-header.png)
+![صورة صفحة دفتر اليومية العام](media/delayed-tax-calculation-journal-header.png)
