@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790462"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571152"
 ---
-# <a name="maintenance-request-states"></a>حالات طلب الصيانة
+# <a name="maintenance-request-lifecycle-states"></a>حالات دورة حياة طلبات الصيانة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 تحدد حالات دورة حياة طلب الصيانة المراحل التي يمكن أن يمر بها الطلب. تتضمن الأمثلة **تم إنشاؤه‬** و**نشط** و**منتهٍ‬**. عند تحويل طلب صيانة إلى أمر عمل، يجب تحديث حالة دورة حياة طلب الصيانة إلى **منتهٍ** أو **مُغلق** للإشارة إلى أن طلب الصيانة لم يعد نشطًا. في صفحة القائمة **جميع طلبات الصيانة**، يمكنك عرض جميع طلبات الصيانة، بغض النظر عن حالة دورة حياتها.
@@ -51,7 +51,7 @@ ms.locfileid: "1790462"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **حالات دورة حياة طلب الصيانة**.
 
-![الشكل 1](media/02-setup-for-requests.png)
+![صفحة حالات دورة حياة طلبات الصيانة](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > ترتبط حالات دورة حياة طلب الصيانة وأنواع ومجموعات حالات دورة الحياة ببعضها، ويتم استخدامها بالطريقة نفسها كحالات دورة حياة أمر عمل وأنواع ومجموعات حالات دورة الحياة. 
@@ -80,4 +80,4 @@ ms.locfileid: "1790462"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **نماذج دورة حياة طلب الصيانة**.
 
-![الشكل 2](media/06-setup-for-requests.png)
+![صفحة نماذج دورة حياة طلب الصيانة](media/06-setup-for-requests.png)

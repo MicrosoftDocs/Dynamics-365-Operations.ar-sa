@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على تثبيت وتكوين تطبيق التخزين
-description: يصف هذا الموضوع كيفية تثبيت وتكوين Dynamics 365 Supply Chain Management - تطبيق التخزين.
+description: يصف هذا الموضوع كيفية تثبيت وتكوين Dynamics 365 for Finance and Operations - تطبيق التخزين.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251490"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548958"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>نظرة عامة على تثبيت وتكوين تطبيق التخزين
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251490"
 > يوضح هذا الموضوع كيفية تكوين التخزين لعمليات توزيع المجموعة. إذا كنت تبحث عن كيفية تكوين التخزين لعمليات التوزيع المحلي، فيُرجى مراجعة [التخزين لعمليات التوزيع المحلية](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-يصف هذا الموضوع كيفية تثبيت وتكوين Dynamics 365 Supply Chain Management - تطبيق التخزين.
+يصف هذا الموضوع كيفية تثبيت وتكوين Dynamics 365 for Finance and Operations - تطبيق التخزين.
 
 يتوفر تطبيق التخزين في متجر Google Play وMicrosoft Store. بالنسبة إلى الإصدار الحالي من Dynamics 365 Supply Chain Management، يتوفر هذا التطبيق كمكون مستقل، مما يعني النشر الذاتي على الأجهزة المستخدمة لمهام المستودع. لاستخدام التطبيق، يجب تنزيل التطبيق على كل جهاز وتكوينه للاتصال ببيئة Supply Chain Management. يصف هذا الموضوع كيفية تثبيت التطبيق على الأجهزة. وهو يوضح أيضًا كيفية تكوين التطبيق للاتصال ببيئة Supply Chain Management.
 

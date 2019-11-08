@@ -1,5 +1,5 @@
 ---
-title: ما الجديد والمتغير في Dynamics 365 Talent (25 يونيو 2019)
+title: ما الجديد والمتغير في Dynamics 365 Talent (02 يوليو 2019)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a5de33a3a4f22f2a5be672c492fc59a6429b49e1
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 72ab29aff7f762c095c414e6edd0e49870e4a500
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010281"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551785"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>ما الجديد والمتغير في Dynamics 365 Talent (02 يوليو 2019)
 

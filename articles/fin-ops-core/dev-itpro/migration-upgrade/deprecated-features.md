@@ -3,7 +3,7 @@ title: ميزات تمت ازالتها أو إهمالها في Finance and Ope
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70bb8404c5b0e2422948d0b89311c384e3686710
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181072"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658680"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>ميزات تمت ازالتها أو إهمالها في Finance and Operations
 
@@ -38,13 +38,42 @@ ms.locfileid: "2181072"
 > [!NOTE]
 > اعتبارًا من تحديث يوليو 2017 لتطبيق Finance and Operations مع Platform update 8، يتم ذكر نوع عمليات النشر لكل ميزة تمت إزالتها أو إهمالها. تدعم كافة الإصدارات السابقة المذكورة في هذا لموضوع عمليات نشر المجموعة فقط.
 
-> يمكن العثور على معلومات مفصلة حول الكائنات في Finance and Operations في [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من Finance and Operations.
+يمكن العثور على معلومات مفصلة حول الكائنات في Finance and Operations في [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من Finance and Operations.
 
+## <a name="finance-1007-with-platform-update-31"></a>Finance الإصدار 10.0.7 مع Platform update 31
+
+### <a name="chinese-voucher-types-without-account-groups-selection"></a>أنواع الإيصالات الصينية بدون تحديد مجموعات الحساب
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | يتم تغييرها إلى الميزة مع تحديد مجموعات الحساب. |
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | الكل |
+| **الحالة**                         | مهمل: بحلول 1 ديسمبر 2020، لا نقدم خطط لدعم إعداد أنواع الإيصالات الصينية دون تحديد مجموعات الحساب. العثور علي مزيد من التفاصيل حول تصميم الميزة الجديدة في ما هو الجديد في الإصدار 10.0.7 |
 
 ## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 مع Platform update 30
 
-> [!IMPORTANT]
-> يتوفر Dynamics 365 for Finance and Operations 10.0.6 مع Platform update 30 للمستخدمين المستهدفين كجزء من إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [توافر تحديث الخدمة‬](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | يهمل Windows استخدام SHA1 ، كما هو موثق في [Windows Enforcement of SHA1 Certificates](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | الكل |
+| **الحالة**                         | مهمل: بحلول 1 ابريل 2020، يجب أن يستخدم المطورون API الجديدة. |
+
+### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | يهمل Windows استخدام SHA1 ، كما هو موثق في [Windows Enforcement of SHA1 Certificates](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم |
+| **مناطق المنتجات المتأثرة**         | النظام الأساسي |
+| **خيارات النشر**              | الكل |
+| **الحالة**                         | مهمل: بحلول 1 ابريل 2020، يجب أن يستخدم المطورون API الجديدة. |
+
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
@@ -308,7 +337,7 @@ ms.locfileid: "2181072"
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise edition 7.3 مع Platform update 12
 
 ### <a name="personalized-product-recommendations"></a>توصيات المنتجات المخصصة 
-اعتبارًا من 15 فبراير 2018، سيتعذر على بائعي التجزئة عرض توصيات المنتجات المخصصة على جهاز نقطة البيع (POS). لمزيد من المعلومات، راجع [توصيات المنتجات المخصصة‬‏‫](../../retail/personalized-product-recommendations.md).  
+اعتبارًا من 15 فبراير 2018، سيتعذر على بائعي التجزئة عرض توصيات المنتجات المخصصة على جهاز نقطة البيع (POS). لمزيد من المعلومات، راجع [نظرة عامة على توصيات المنتجات‬](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -413,7 +442,7 @@ ms.locfileid: "2181072"
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>توصيات المنتجات المخصصة 
-اعتبارًا من 15 فبراير 2018، سيتعذر على بائعي التجزئة عرض توصيات المنتجات المخصصة على جهاز نقطة البيع (POS). لمزيد من المعلومات، راجع [توصيات المنتجات المخصصة‬‏‫](../../retail/personalized-product-recommendations.md).  
+اعتبارًا من 15 فبراير 2018، سيتعذر على بائعي التجزئة عرض توصيات المنتجات المخصصة على جهاز نقطة البيع (POS). لمزيد من المعلومات، راجع [نظرة عامة على توصيات المنتجات‬](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -445,7 +474,7 @@ ms.locfileid: "2181072"
 |   |  |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تكرار الوظيفة.       |
-| **هل تم الاستبدال بميزة أخرى؟**   | نعم. تم استبدال هذه الميزة بواسطة Finance and Operations - التخزين. لمزيد من المعلومات حول الإعداد والمتطلبات الأساسية، راجع [تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم. تم استبدال هذه الميزة بواسطة Finance and Operations - التخزين. لمزيد من المعلومات حول الإعداد والمتطلبات الأساسية، راجع [تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations - التخزين](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **مناطق المنتجات المتأثرة**         | إدارة المستودعات وإدارة النقل     |
 | **خيارات النشر**              | يعتبر مدخل الأجهزة المحمولة للمستودع (WMDP)، مكون مستقل الغرض منه للنشر المحلي المُدار ذاتيًا.               |
 | **الحالة**                         | مهمل: هو الإطار الزمني الهدف للوظيفة المطلوب إزالتها هو Q4 2019.   |
@@ -1215,7 +1244,7 @@ ms.locfileid: "2181072"
 |   |  |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | عرضت أداة تصميم المنتج كود X++ للمستخدمين النهائيين وهي غير مدعومة في الإصدار الحالي من Dynamics AX. وتمت إزالتها لتجنب تداخل جهود الصيانة المتكررة، قواعد الأكواد كبيرة الحجم.  |
-| **هل تم الاستبدال بميزة أخرى؟**   | نعم. تم تقديم ميزة التكوين المستند إلى قيد في Dynamics AX 2012 حيث تم الإعلان مسبقًا عن إهلاك مُنشئ المنتج في الإصدارات المستقبلية. تم تحديد تقنية تكوين مستند إلى قيد على أصول المنتج لتمكين التكوين. لمزيد من المعلومات، راجع [تصميم نموذج تكوين منتج](../../supply-chain/pim/build-product-configuration-model.md). |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم. تم تقديم ميزة التكوين المستند إلى قيد في Dynamics AX 2012 حيث تم الإعلان مسبقًا عن إهلاك مُنشئ المنتج في الإصدارات المستقبلية. تم تحديد تقنية تكوين مستند إلى قيد على أصول المنتج لتمكين التكوين. لمزيد من المعلومات، راجع [تصميم نموذج تكوين منتج](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **مناطق المنتجات المتأثرة**         | إدارة معلومات المنتج والمبيعات والتسويق  |
 | **الحالة**                         | تمت إزالتها اعتبارًا من Dynamics AX 7.0.      |
 

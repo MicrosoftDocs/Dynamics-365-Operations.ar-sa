@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 486782968816cc585d9cf2d753f32e82f85e4f7e
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 8f3b771319eeb602a371500fdc69c68f88afe341
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874775"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571727"
 ---
 # <a name="update-maintenance-budgets"></a>تحديث موازنات الصيانة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 تعرض صفحة **بنود موازنة الصيانة** جميع بنود الموازنة التي تم إنشاؤها للموازنة المحددة في صفحة **موازنات الصيانة**. (لمزيد من المعلومات، راجع [إنشاء موازنات الصيانة](create-maintenance-budget.md).) يمكنك إعادة حساب بنود موازنة الصيانة وتعديلها حتى يتم اعتماد موازنة الصيانة. بعد مرور فترة الموازنة وترحيل التكاليف في إدارة الأصول، يمكنك أيضًا تحديث بنود الموازنة بواسطة التكاليف الفعلية.
 

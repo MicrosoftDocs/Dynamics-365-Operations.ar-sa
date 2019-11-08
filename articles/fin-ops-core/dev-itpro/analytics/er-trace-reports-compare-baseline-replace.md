@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181325"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578208"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنة مع القيم الأساسية
 
@@ -71,9 +71,6 @@ ms.locfileid: "2181325"
 5. في حقل **معرف الإدخال**، أدخل **1**.
 6. قم بتعيين خيار **إنشاء ملفات أساس** إلى **نعم**.
 7. حدد **موافق**.
-
-    ![مربع حوار معلمات التقارير الإلكترونية](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "لقطة شاشة لـ مربع حوار معلمات التقارير الإلكترونية")
-
 8. حدد **الأسس**.
 
     ![صفحة أسس تنسيق التقارير الإلكترونية](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "لقطة شاشة لصفحة أسس تنسيق التقارير الإلكترونية")
@@ -140,9 +137,6 @@ ms.locfileid: "2181325"
 
 1. في صفحة **التكوينات**، في علامة التبويب السريع **الاستبدالات**، حدد **تحديد المكونات**.
 2. في شجرة مكونات التنسيق، قم بتوسيع **الإخراج**، وقم بتوسيع **الإخراج\\المستند**، ثم حدد خانة الاختيار **الإخراج\\المستند\\ProcessingDateTime**.
-
-    ![مربع حوار تحديد المكونات](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "لقطة شاشة لمربع حوار تحديد المكونات")
-
 3. حدد **موافق**.
 
 ![صفحة أسس تنسيق التقارير الإلكترونية](media/GER-BaselineSample-AddBaseline4.PNG "لقطة شاشة لصفحة أسس تنسيق التقارير الإلكترونية")
@@ -162,19 +156,14 @@ ms.locfileid: "2181325"
 1. في صفحة **التكوينات**، في جزء الإجراء، في علامة التبويب **التكوينات**، حدد **معلمات المستخدمين**.
 2. قم بتعيين خيار **منع تحذيرات الأساس** على **نعم**، ثم حدد **موافق**.
 
-![مربع حوار معلمات المستخدم](media/GER-BaselineSample-ERUserParameters1.png "لقطة شاشة لمربع حوار معلمات المستخدم")
-
 ### <a name="review-the-generated-baseline-file"></a>مراجعة ملف الأساس المنشأ
 
 1. انتقل إلى **إدارة المؤسسة** \> **التقارير الإلكترونية** \> **التكوينات**.
 2. حدد **الأسس**.
 3. حدد **المرفقات**.
-
-    ![صفحة المرفقات](media/GER-BaselineSample-AttachedBaselineFile.PNG "لقطة شاشة لصفحة المرفقات")
-
     > [!NOTE]
     > يحتوي الملف الذي تم إنشاؤه على نص تاريخ ووقت المعالجة (**"#"**) من الربط الذي تم تكوينه في قاعدة الأساس المضافة، وليس من ربط التنسيق.
-
+    
 4. أغلق صفحة**المرفقات**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>تشغيل تنسيق ER المصمم ومراجعة السجل لتحليل النتائج

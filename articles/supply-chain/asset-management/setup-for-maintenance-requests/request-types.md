@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19d529df6c8aab036de59502b4f14101e1a07707
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 430e475b52638dd80512ffd79d42aac6f5f340e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790461"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571129"
 ---
 # <a name="maintenance-request-types"></a>أنواع طلبات الصيانة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 يتم استخدام أنواع طلبات الصيانة لتصنيف طلبات الصيانة. على سبيل المثال، قد يكون لديك أنواع طلبات صيانة تتعلق بالصيانة الوقائية والصيانة التصحيحية. أو قد يكون لديك نوع طلب صيانة خاص يستخدم لإدارة إصلاح الأصول (إصلاح المستودع).
 
@@ -44,4 +44,4 @@ ms.locfileid: "1790461"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة قائمة **أنواع طلبات الصيانة**.
 
-![الشكل 1](media/07-setup-for-requests.png)
+![صفحة أنواع طلبات الصيانة](media/07-setup-for-requests.png)

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5294325f67f0484b39194b5bd9784a2e612001a4
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 05d1a38ab8de406a1615c474ffe39d231335fb67
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783032"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570043"
 ---
 # <a name="condition-assessment"></a>تقييم الحالة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 يشرح هذا الموضوع كيفية إنشاء قالب تقييم الحالة والتسجيل على أصل في إدارة الأصول. يتم تنفيذ تقييم الحالة على فترات زمنية منتظمة، والهدف الرئيسي هو إنشاء بيانات الحالة على الأصول والمحافظة بها. ومن المهم، إذا نظرنا إليه من منظور الصيانة الوقائية، مراقبة المعلومات الأساسية مثل الحالة الراهنة، والمدة المتبقية من العمر. وعلاوة على ذلك، إذا قمت بإجراء تقييم الحالة على فترات منتظمة، سوف تكون قادرًا على مراقبة ومقارنة الشروط المطبّقة على الآلات في المصنع.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250911"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571106"
 ---
 # <a name="maintenance-requests"></a>طلبات الصيانة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 يمكنك إعداد أنواع مختلفة من الطلبات لاستخدامها في شركتك. أنواع طلبات الصيانة هي من نوع واحد. يتم استخدام طلبات الصيانة لطلب أن يكون أمر عمل مطلوبًا لوظيفة معينة. يمكن إنشاء طلب صيانة من قبل أي مستخدم لديه حق الوصول إلى وظيفة إدارة الأصول. عندئذٍ، بإمكان مخطط أو مدير أن يقرر ما إذا كان يجب تحويل طلب الصيانة إلى أمر عمل، أو ما إذا كان يجب عليه إكمال دورة حياته.
 
@@ -41,4 +41,4 @@ ms.locfileid: "2250911"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة قائمة **جميع طلبات الصيانة**.
 
-![الشكل 1](media/01-setup-for-requests.png)
+![صفحة قائمة جميع طلبات الصيانة](media/01-setup-for-requests.png)

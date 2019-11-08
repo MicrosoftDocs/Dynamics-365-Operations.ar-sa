@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 536795ac8ac164a6cc16e9ba22b0aa7bf30ddfd8
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 6eba14e285f23338cad0243fca567b30c6d4d3f2
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783055"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571566"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>إنشاء أصول استنادًا إلى أوامر الشراء
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 يشرح هذا الموضوع كيفية إنشاء قائمة تتضمن أصناف الأصول التي يمكن استخدامها كأساس لإنشاء أصول لمهام الصيانة في إدارة الأصول. استنادًا إلى أصناف الأصول، يمكنك عرض قائمة ببنود أوامر الشراء التي تم إنشاؤها على هذه الأصناف. الغرض من هذه الوظيفة هو إنشاء أصل بسهولة في إدارة الأصول استنادًا إلى أمر شراء.
 

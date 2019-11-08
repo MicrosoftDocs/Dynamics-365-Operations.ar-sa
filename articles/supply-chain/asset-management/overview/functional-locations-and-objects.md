@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024604"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653337"
 ---
 # <a name="functional-locations-and-assets"></a>الأصول ومواقع العمل
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 يصف الأصول ومواقع العمل في إدارة الأصول. إدارة الأصول عبارة عن وحدة نمطية متقدمة لإدارة الأصول ومهام الصيانة في Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>نظرة عامة
 
-تتكامل إدارة الأصول بسلاسة مع الوحدات النمطية المتعددة في Finance and Operations. يبين الرسم التوضيحي التالي الواجهات مع الوحدات النمطية الأخرى.
+تتكامل إدارة الأصول بسلاسة مع الوحدات النمطية المتعددة مع تطبيقات Finance and Operations الأخرى. يبين الرسم التوضيحي التالي الواجهات مع الوحدات النمطية الأخرى.
 
-![الشكل 1](media/01-overview-image.png)
+![يوضح الرسم التخطيطي كيفية عمل واجهات إدارة الأصول مع الوحدات النمطية الأخرى](media/01-overview-image.png)
 
 تسمح لك إدارة الأصول بإدارة وتنفيذ جميع المهام المرتبطة بإدارة وخدمة الكثير من أنواع المعدات في شركتك بطريقة فعالة. تتضمن هذه المعدات الأجهزة ومعدات الإنتاج والمركبات. كما تدعم إدارة الأصول الحلول عبر العديد من الصناعات.
 
 يعرض الرسم التوضيحي التالي نظرة عامة على الوظيفة الرئيسية التي تغطيها إدارة الأصول.
 
-![الشكل 2](media/02-overview-image.png)
+![يوضح الرسم التخطيطي الوظيفة الرئيسية في إدارة الأصول](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>الأصول ومواقع العمل
 
@@ -53,8 +53,8 @@ ms.locfileid: "2024604"
 
 تتوقف الطريقة التي تستخدمها لبناء التدرج الهرمي لمواقع العمل على متطلبات شركتك لصيانة المعدات الداخلية أو خدمة معدات العملاء. يبين الشكل التالي مثالاً عن مواقع العمل التي تستند إلى مواقع جغرافية.
 
-![الشكل 3](media/03-overview-image.png)
+![يوضح الرسم التخطيطي المواقع الوظيفية استنادًا إلى المواقع الجغرافية](media/03-overview-image.png)
 
 يبين الشكل التالي مثالاً عن مواقع العمل التي تستند إلى العملاء.
 
-![الشكل 4](media/04-overview-image.png)
+![يوضح الرسم التخطيطي المواقع الوظيفية بناءً على العملاء](media/04-overview-image.png)

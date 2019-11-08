@@ -17,18 +17,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 33e5993f57a8c0248ac2e314f91cc40a2b355858
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249415"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653454"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>مساحة العمل المحمولة "الموافقة على أمر الشراء"
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **الموافقة على أمر الشراء**. تسمح لك مساحة العمل هذه بعرض أوامر الشراء والاستجابة إليها من خلال الإجراءات. على سبيل المثال، يمكنك الموافقة على أمر شراء أو رفضه.
  
@@ -41,7 +39,7 @@ ms.locfileid: "2249415"
 تختلف المتطلبات الأساسية، بالاستناد إلى إصدار Supply Chain Management الذي تم نشره لمؤسستك.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>المتطلبات الأساسية في حالة استخدام Supply Chain Management 
-إذا تم نشر Finance and Operations لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء​‬** . للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+إذا تم نشر Supply Chain Management لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء​‬** . للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار لاحق
 إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 

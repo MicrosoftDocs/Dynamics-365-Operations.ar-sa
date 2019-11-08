@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8d9c8afc139c96e32efb3161d35fde685b8abcc5
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 89e13179e17b7cf075d631bc65d82da5f24da624
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874660"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569836"
 ---
 # <a name="scheduled-execution"></a>التنفيذ المجدول
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 يمكنك استخدام مستويات خدمة أمر العمل لإعداد التنفيذ المجدول. (لمزيد من المعلومات حول مستويات خدمة أمر العمل، راجع [مستوى الخدمة ووصفها‬](service-level-and-description.md).) يوفر التنفيذ المجدول مرونة في تخطيط العمل لعاملي الصيانة، لأنه يمكنك إعداد متطلبات أكثر تفصيلاً أو أقل تفصيلاً للفترة التي يجب أن يتم إكمال أمر العمل خلالها. على سبيل المثال، بإمكان عامل الصيانة الذي يكمل إحدى المهام خلال وقت أسرع من المتوقع في مرفق إنتاج الانتقال إلى مهمة قريبة تم التخطيط لتنفيذها في الأسبوع الحالي ولكن ليس بالضرورة في اليوم الحالي. تتيح هذه الطريقة تحسين تخطيط العامل واكتمال المهمة.
 
@@ -42,4 +42,4 @@ ms.locfileid: "1874660"
 5. في الحقل **التنفيذ المجدول**، حدد الفترة الزمنية.
 6. حدد **حفظ**.
 
-![الشكل 1](media/20-setup-for-work-orders.png)
+![التنفيذ المجدول](media/20-setup-for-work-orders.png)

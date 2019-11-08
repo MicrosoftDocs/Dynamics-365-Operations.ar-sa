@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783045"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571060"
 ---
-# <a name="asset-criticalities"></a>مستويات أهمية الأصول
+# <a name="asset-criticality-types"></a>أنواع مستويات أهمية الأصول
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 يُوضح هذا الموضوع أنواع مستويات أهمية الأصول في إدارة الأصول. يرتبط مستوى أهمية الأصل بالأصول ويتم تحويله إلى أوامر العمل. لا يمكن تغييره على أمر عمل. يتم استخدام مستوى أهمية الأصل لحساب مستوى أهمية أمر عمل أثناء جدولة أمر العمل. وبعبارة أخرى، يتم استخدامه لحساب مدى تأثير مهمة صيانة أحد الأصول على جدول الإنتاج والإنتاجية في شركتك. لمزيد من المعلومات حول الإعداد المرتبط بحساب درجات التقييم لجدولة أمر العمل، راجع [معلمات إدارة الأصول](../setup-for-objects/enterprise-asset-management-parameters.md).
 
@@ -43,7 +43,7 @@ ms.locfileid: "1783045"
 4. في حقل **الاسم**، أدخل اسمًا لنوع مستوى الأهمية.
 5. في حقل **المعامل**، أدخل معاملاً. يُستخدم المعامل أثناء حساب جدولة أمر العمل لتحديد سجل مستوى الأهمية الذي يجب استخدامه. (يتم استخدام السجل الذي يحتوي على أعلى معامل دائمًا.) يكون هذا الإعداد ذا صلة إذا تم إنشاء بنود مستويات الأهمية التي لها نفس قيمة الأهمية، كما هو موضح في الرسم التوضيحي التالي.
 
-    ![الشكل 1](media/23-setup-for-objects.png)
+    ![صفحة أنواع الأهمية](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>إعداد مستويات أهمية الأصول
 

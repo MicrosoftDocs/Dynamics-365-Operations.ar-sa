@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 801b90db8d70352693515b442f7a9316b447d041
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008721"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551578"
 ---
-# <a name="configure-company-information"></a>تكوين معلومات الشركة
+# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>تكوين معلومات الشركة في Microsoft Dynamics 365 Talent - Attract
 [!include[banner](../includes/banner.md)]
 
 يحتوي مركز الإدارة في The Admin center in Microsoft Dynamics 365 Talent: Attract على إعدادات التكوين وخيارات التكامل وخيارات الإعداد لتطبيق Attract.
