@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 48c90a8b776cc16804de8e20ada7d8ca347fa5b9
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 78c062f9982ca7b18fa00d60928089d09a5d552d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874729"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570945"
 ---
 # <a name="fault-management"></a>إدارة الأخطاء
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 في إدارة الأصول، يمكنك استخدام مصمم الأخطاء لإعداد أعراض الأخطاء ومجالات الأخطاء وأنواع الأخطاء على أنواع الأصول. وبهذه الطريقة، يمكنك إدارة الأخطاء التي تم الكشف عنها في الأصول. بالإضافة إلى ذلك، يمكن تسجيل أسباب الأخطاء والاقتراحات الخاصة بإصلاحها على أمر عمل.
 
@@ -109,7 +109,7 @@ ms.locfileid: "1874729"
 
 7. حدد **حفظ** لحفظ تغييراتك.
 
-![الشكل 1](media/21-setup-for-work-orders.png)
+![صفحة مصمم الأخطاء](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>إنشاء أسباب الأخطاء
 

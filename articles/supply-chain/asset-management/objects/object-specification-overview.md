@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f20df04d9625fdf0edfd312c097293f9be6d0f0
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: b4564fb2670f75d64b0c5214fb430e5e3fa4405c
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783038"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571451"
 ---
 # <a name="asset-attribute-overview"></a>نظرة عامة على سمات الأصول
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 يوفر هذا الموضوع نظرة عامة على سمات الأصول في إدارة الأصول. سمات الأصول هي خصائص مرتبطة بنوع أصل أو أصل. إذا قمت بإعداد [أنواع السمات](../setup-for-functional-locations/specification-types.md) واستخدمتها على الأصول، فيمكنك الحصول على نظرة عامة على قيم السمات التي تم إعدادها في الأصول. تظهر هذه النظرة العامة على صفحتين‏‎ في إدارة الأصول: **نظرة عامة على سمات الأصول** و**سمة الأصل**.
 

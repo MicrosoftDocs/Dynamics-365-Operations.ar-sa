@@ -1,5 +1,5 @@
 ---
-title: أوامر الخدمة
+title: عرض وقت البدء والمدة لأمر الخدمة
 description: يمكنك عرض الوقت الذي بدأ فيه العمل في أمر الخدمة والوقت الذي سيتم استكمال أمر الخدمة فيه.
 author: ShylaThompson
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0a2407c3ac045ecb2a83af13f56a15930822aed
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 606204e3939fe49b89ddb8829a1b5b5bf1ccabaf
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742987"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550380"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>عرض وقت البدء والمدة لأمر الخدمة 
 

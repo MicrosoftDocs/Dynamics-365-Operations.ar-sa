@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250177"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653592"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>تعاون المورد مع موردين خارجيين
 
@@ -190,7 +190,7 @@ ms.locfileid: "2250177"
 لا يتعيّن على الموردين تأكيد أمر الشراء باستخدام واجهة تعاون المورد. يمكنهم أيضًا إرسال رسالة بريد إلكتروني أو التبليغ عن موافقتهم على أمر الشراء عبر قنوات أخرى. يمكنك بعد ذلك تأكيد الأمر. في هذه الحالة، سوف تتلقى تحذيرًا يفيد بأنه قد تم تأكيد الأمر حتى لو لم يكن هناك استجابة من المورّد. ويظهر أمر الشراء عندئذٍ في محفوظات التأكيد كأمر مؤكد مفتوح ليس لديه أية استجابات. وعند هذه النقطة، لن يتوفر للمورّد خيار تأكيد أمر الشراء أو رفضه.
 
 > [!NOTE]
-> يكون إصدار أمر الشراء المتوفر لعمليات أخرى في Finance and Operations الإصدار الأحدث دائمًا، حتى لو لم يكن هذا الإصدار مسجلاً بعد في واجهة تعاون المورد.
+> يكون إصدار أمر الشراء المتوفر لعمليات أخرى في Supply Chain Management الإصدار الأحدث دائمًا، حتى لو لم يكن هذا الإصدار مسجلاً بعد في واجهة تعاون المورد.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>الإصدارات والحالات إذا استخدمت إدارة التغييرات
 

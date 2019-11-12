@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d7d98ec5434d9cdc93276952035b559625be2bd
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 577c888393163bdb7e445e436c336f20381cc78f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783043"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2572142"
 ---
 # <a name="introduction-to-functional-locations"></a>مقدمة إلى مواقع العمل
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 يوفر هذا الموضوع نظرة عامة حول مواقع العمل في إدارة الأصول. مواقع العمل هي عناصر البنية التقنية، مثل الوحدات الوظيفية في النظام. يتم إنشاء مواقع العمل بشكل هرمي، وتقوم أنت بتثبيت الأصول عليها. يعتمد إعداد مواقع العمل في شركتك على متطلبات الشركة.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 828de71da3f16db9024b08c724eb784127b080dc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176344"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553153"
 ---
 # <a name="human-resources-overview"></a>نظرة عامة على الموارد البشرية
 
@@ -45,9 +45,9 @@ ms.locfileid: "2176344"
 
 أثناء العمل مع الموارد البشرية، سوف تقرر كيفية بناء المؤسسة، واستخدام عناصر مثل الإدارات والوظائف والمناصب. هذه من بين العناصر الأساسية التي ستقوم بتكوينها في الموارد البشرية. يتم تعيين أفراد الموظفين للمناصب المرتبطة بالوظائف.
 
-- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](../../talent/departments-jobs-positions.md)
-- [إعداد معلمات الموارد البشرية الخاصة بالشركة](../../talent/set-up-company-specific-hr-parameters.md)
-- [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](../../../talent/departments-jobs-positions.md)
+- [إعداد معلمات الموارد البشرية الخاصة بالشركة](../../../talent/set-up-company-specific-hr-parameters.md)
+- [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>تعيين الموظفين وتوظيفهم وتحفيزهم
 
@@ -58,25 +58,25 @@ ms.locfileid: "2176344"
 
 بعد الانتهاء من عملية التوظيف، يمكنك إعداد خطط تسمح لك بإدارة التعويض بطريقة فعالة ومنصفة، بالإضافة إلى إدارة عناصر، مثل أجهزة الكمبيوتر والهواتف، التي تقوم مؤسستك بإعارتها للموظفين. يمكنك إنشاء خطط التعويض الثابتة والمتغيرة، بالإضافة إلى تحديد قواعد تطبيق خطة التعويض للوفاء بالمعايير الخاصة بتلك الخطة.
 
-- [خطط التعويض](../../talent/compensation-plans.md)
-- [إنشاء خطط التعويض الثابتة](../../talent/create-fixed-compensation-plans.md)
-- [إنشاء خطط التعويض المتغيرة](../../talent/create-variable-compensation-plans.md)
+- [خطط التعويض](../../../talent/compensation-plans.md)
+- [إنشاء خطط التعويض الثابتة](../../../talent/create-fixed-compensation-plans.md)
+- [إنشاء خطط التعويض المتغيرة](../../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>تطوير الموظفين وتدريبهم
 
 لمساعدة الموظفين لديك على بلوغ أهدافهم الوظيفية مع تلبية احتياجات العمل الهامة، يمكنك إعداد أهداف، وإنشاء مراجعات أداء، وتعقب الملاحظات. لمساعدة الموظفين على تطوير المهارات اللازمة، يمكنك أيضًا إعداد بيانات الموجهين‬ وأنواع الدورات التدريبية وأسمائها، وأوصافها، وجداول أعمالها ومساراتها وجلسات العمل الخاصة بها قبل تعيين أي موجه للدورة التدريبية أو تسجيل أي شخص لحضور الدورة التدريبية. يحب وجود المعلمين بالفعل كعمال أو مقدمي طلبات أو كجهات اتصال.
 
-- [إدارة الأداء](../../talent/performance-management-overview.md)
-- [محاذاة احتياجات العمل ومهارات العاملين](../../talent/skills.md)
-- [إدارة التدريب خلال الدورات التدريبية](../../talent/courses.md)
+- [إدارة الأداء](../../../talent/performance-management-overview.md)
+- [محاذاة احتياجات العمل ومهارات العاملين](../../../talent/skills.md)
+- [إدارة التدريب خلال الدورات التدريبية](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>إنشاء المزايا والحفاظ عليها
 
 بالإضافة إلى تعويض الموظفين بواسطة الأجور والمرتبات والمكافآت، يمكنك تطوير برامج المزايا مثل التأمين الصحي وخطط التقاعد. ويمكنك أيضًا إدارة مزايا مثل برامج القروض، حيث تقوم شركتك بإعارة بعض العناصر، مثل أجهزة الكمبيوتر والهواتف، لموظفيها.
 
-- [إدارة برنامج ميزة](../../talent/manage-benefit-program.md)
-- [سياسات استحقاق الميزات](../../talent/benefit-eligibility-policies.md)
-- [إدارة الأصناف المعارة للعاملين](../../talent/loan-items.md)
+- [إدارة برنامج ميزة](../../../talent/manage-benefit-program.md)
+- [سياسات استحقاق الميزات](../../../talent/benefit-eligibility-policies.md)
+- [إدارة الأصناف المعارة للعاملين](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>الحفاظ على السلامة والامتثال في أماكن العمل
 
@@ -90,7 +90,7 @@ ms.locfileid: "2176344"
 
 يمكنك تصميم الاستبيانات وإدارتها لجمع معلومات يمكن استخدامها لمجموعة من الأهداف. تسمح لك ميزة الاستبيانات بتصميم الاستبيانات وإنشائها. عندما يصبح الاستبيان جاهزًا، يمكنك توزيعه على نطاق واسع أو على مجموعة مستجيبين محددة لإكماله. وبعد أن يوفر المستجيبون إجاباتهم، يمكنك مراجعة النتائج وتحليلها.
 
-- [الاستبيانات](../../talent/questionnaires.md)
-- [تصميم استبيان](../../talent/design-questionnaires.md)
-- [توزيع وإكمال استبيان](../../talent/distribute-questionnaires.md)
-- [عرض وتقييم نتائج الاستبيان](../../talent/evaluate-questionnaire-results.md)
+- [الاستبيانات](../../../talent/questionnaires.md)
+- [تصميم استبيان](../../../talent/design-questionnaires.md)
+- [توزيع وإكمال استبيان](../../../talent/distribute-questionnaires.md)
+- [عرض وتقييم نتائج الاستبيان](../../../talent/evaluate-questionnaire-results.md)

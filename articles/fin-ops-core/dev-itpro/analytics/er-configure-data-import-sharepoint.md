@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181509"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564927"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>تكوين استيراد البيانات من SharePoint
 
@@ -62,9 +62,9 @@ ms.locfileid: "2181509"
 > تم تحديد التنسيق لاستيراد حركات المورد كتخطيط نموذج افتراضي. لذلك، إذا قمت بتشغيل تعيين نموذج لـ **نموذج مدفوعات 1099**، وكان تعيين النموذج هذا من النوع **إلى الوجهة**، يقوم تعيين النموذج بتشغيل هذا التنسيق لاستيراد بيانات من ملفات خارجية. ثم يستخدم هذه البيانات لتحديث جداول التطبيق.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>تكوين الوصول إلى SharePoint لتخزين الملفات
-لتخزين ملفات التقارير الإلكترونية في موقع SharePoint، يجب أن تقوم بتكوين الوصول إلى مثيل SharePoint Server الذي ستستخدمه الشركة الحالية. في هذا المثال، الشركة هي USMF. للحصول على الإرشادات، راجع [تكوين مساحة تخزين SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+لتخزين ملفات التقارير الإلكترونية في موقع SharePoint، يجب أن تقوم بتكوين الوصول إلى مثيل SharePoint Server الذي ستستخدمه الشركة الحالية. في هذا المثال، الشركة هي USMF. للحصول على الإرشادات، راجع [تكوين مساحة تخزين SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. أكمل الخطوات الواردة في [تكوين مساحة تخزين SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+1. أكمل الخطوات الواردة في [تكوين مساحة تخزين SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. افتح موقع SharePoint الذي تم تكوينه.
 3. أنشئ المجلدات التالية حيث يمكنك حفظ ملفات التقارير الإلكترونية الواردة:
 
@@ -80,7 +80,7 @@ ms.locfileid: "2181509"
     - مجلد أخطاء الملفات - يتم تخزين الملفات التي فشل استيرادها في هذا المجلد.
 
 4. انتقل إلى **إدارة المؤسسة > إدارة المستندات > أنواع المستندات**.
-5. أنشئ أنواع المستندات التالية التي سيتم استخدامها للوصول إلى مجلدات SharePoint التي أنشأتها للتوّ. للحصول على إرشادات، راجع [تكوين أنواع المستندات](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. أنشئ أنواع المستندات التالية التي سيتم استخدامها للوصول إلى مجلدات SharePoint التي أنشأتها للتوّ. للحصول على إرشادات، راجع [تكوين أنواع المستندات](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |نوع المستند       | مجموعة              |  الموق      | مجلد SharePoint      |
 |--------------------|--------------------|---------------|------------------------|

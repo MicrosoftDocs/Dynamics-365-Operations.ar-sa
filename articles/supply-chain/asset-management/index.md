@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f98185fbabefedd2a545bd1c3e15b9e180363469
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e4bc3ed1507dfc7d0d507772591d15adc018de97
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024696"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653290"
 ---
 # <a name="asset-management-overview"></a>نظرة عامة على إدارة الأصول
 
@@ -32,7 +32,7 @@ ms.locfileid: "2024696"
 [!include [banner](../includes/preview-banner.md)]
 
 
-إدارة الأصول عبارة عن وحدة نمطية متقدمة لإدارة الأصول ومهام الصيانة في Dynamics 365 Supply Chain Management. تتكامل إدارة الأصول بسلاسة مع الوحدات النمطية المتعددة في Finance and Operations. 
+إدارة الأصول عبارة عن وحدة نمطية متقدمة لإدارة الأصول ومهام الصيانة في Dynamics 365 Supply Chain Management. تتكامل إدارة الأصول بسلاسة مع الوحدات النمطية المتعددة في تطبيقات Finance and Operations. 
 
 الصورة أدناه هي شكل توضيحي لواجهات وحدات نمطية أخرى في Finance and Operations.
 

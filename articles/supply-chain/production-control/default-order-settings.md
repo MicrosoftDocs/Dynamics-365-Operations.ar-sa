@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e6d4e9a3ac5635e292b20eba60fe4f010562fdba
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d13aabfb36e8af4a32de8bc8949e8b164075532a
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250085"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570692"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 تحدد إعدادات الأوامر الافتراضية في Dynamics 365 Supply Chain Management الموقع والمستودع من حيث تؤخذ الأصناف أو حيث يتم تخزينها، والحد الأدنى من الكميات وحدها الأقصى ومضاعفاتها والكميات القياسية التي سيتم استخدامها للتجارة أو إدارة المخزون وزمن وصول البضاعة وعلامة الإيقاف وأسلوب التعهد بالأمر‬. يتم استخدام إعدادات الأوامر الافتراضية عند إنشاء أوامر الشراء وأوامر المبيعات وأوامر التحويل ودفاتر يومية المخزون، وبواسطة التخطيط الرئيسي لإنشاء الأوامر المخططة. بإمكان إعدادات الأوامر الافتراضية أن تكون خاصة بالأصناف أو المواقع أو بمتغير المنتج أو بُعد المنتج.
 

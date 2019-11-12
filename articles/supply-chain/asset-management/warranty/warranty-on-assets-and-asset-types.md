@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b13f8aba7e1d2448495f97a4772eb573e08c025
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6e69b471af0853159ba807af5f39db64dbbb04f8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874591"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569698"
 ---
-# <a name="warranty-on-assets-and-asset-types"></a>الضمان على الأصول وأنواع الأصول
+# <a name="warranties-on-assets-and-asset-types"></a>الضمانات على الأصول وأنواع الأصول
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 يشرح هذا الموضوع كيفية إعداد الضمانات على الأصول وأنواع الأصول في إدارة الأصول.
@@ -50,7 +50,7 @@ ms.locfileid: "1874591"
     > [!IMPORTANT]
     > إذا تم تحديد تاريخ في حقل **بدء الضمان** على أمر عملي، يصبح الضمان صالحًا لأمر العمل في ذلك التاريخ. عند إنشاء أمر عمل، يتم تعيين حقل **بدء الضمان** بشكل تلقائي إلى تاريخ الإنشاء. ومع ذلك، يمكنك تغيير التاريخ بحيث يتوافق مع تاريخ بدء اتفاقية الضمان، على سبيل المثال.
     >
-    > ![الشكل 1](media/02-warranty.png)
+    > ![صفحة أمر العمل](media/02-warranty.png)
 
 > [!NOTE]
 > إذا أنشأت أمر عمل لأصل يغطيه ضمان المورّد، وفي حال وجود تاريخ بدء متوقع لأمر العمل خلال فترة الضمان، ستتلقى إشعارًا حول اتفاقية الضمان. يمكنك عندئذٍ إلغاء أمر العمل، كما هو مطلوب.

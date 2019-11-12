@@ -1,6 +1,6 @@
 ---
-title: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 Supply Chain Management – تطبيق التخزين‬‏‫
-description: يشرح هذا الموضوع كيفية إعداد Dynamics 365 Supply Chain Management – تطبيق التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول.
+title: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations – تطبيق التخزين‬‏‫
+description: يشرح هذا الموضوع كيفية إعداد Dynamics 365 for Finance and Operations – تطبيق التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251444"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578139"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 Supply Chain Management – تطبيق التخزين‬‏‫
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد Dynamics 365 Supply Chain Management – تطبيق التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول. 
+يشرح هذا الموضوع كيفية إعداد Dynamics 365 for Finance and Operations – تطبيق التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول. 
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 لاستخدام هذه الميزة، يجب أن يكون الإصدار 1.2.0.0 من تطبيق التخزين مثبتًا لديك، ويجب أن يتضمن جهازك كاميرا. عندما تفتح التطبيق بعد التحديث، سيتم مطالبتك بالسماح لتطبيق لاستخدام الكاميرا. في حال عدم وجود كاميرا في جهازك، لن تظهر أي مطالبة، وسيتعذر عليك استخدام الكاميرا كماسح ضوئي. 
@@ -49,7 +49,7 @@ ms.locfileid: "2251444"
 
 | صفحة المهمة والتفاصيل | صفحة الكاميرا | 
 | :---------------------: | :--------------------: |
-| ![camera-scanning-example-task-detail-page](./media/camera-scanning-example-task-detail-page50.png)          | ![camera-scanning-example-camera-page-smaller](./media/camera-scanning-example-camera-page50.png)          |
+| ![صفحة تفاصيل مهمة مثال مسح الكاميرا](./media/camera-scanning-example-task-detail-page50.png)          | ![صفحة كاميرا مثال مسح الكاميرا أصغر](./media/camera-scanning-example-camera-page50.png)          |
 
 في صفحة الكاميرا، عندما تنقر فوق زر "الكاميرا"، سوف يظهر خافتًا أثناء محاولة تحديد كود شريطي. إذا لم يتم تحديد كود شريطي في غضون 5 ثوان، فستنتهي مهلة العملية وسيصبح زر الكاميرا متوفرًا من جديد. بعد ذلك، سيكون بإمكانك محاولة مسح كود شريطي مرة أخرى.
 

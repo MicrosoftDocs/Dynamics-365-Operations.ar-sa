@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 56d4abee451e6e22b9b9cc2fd36a13648202e7df
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: b19a92924d73847d9d2c09cd0ed111a9cbfdccbf
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847426"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571635"
 ---
 # <a name="maintenance-requests"></a>طلبات الصيانة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 طلبات الصيانة هي ملاحظات أو إقرارات تم إنشاؤها لإعلام المدير أو المخطط بأن أحد الأصول قد يحتاج إلى مهمة صيانة أو إصلاح، ولكن من دون إنشاء أمر عمل. إذا تم اعتبار محتويات طلب الصيانة صالحة، يمكن بعد ذلك إنشاء أمر عمل استنادًا إلى طلب الصيانة.
 
@@ -45,7 +45,7 @@ ms.locfileid: "1847426"
 
 لعرض طلبات الصيانة، حدد **إدارة الأصول** \> **عام** \> **طلبات الصيانة** \> **جميع طلبات الصيانة** أو **طلبات الصيانة النشطة** أو **طلبات الصيانة الخاصة بموقع العمل لدي**. تعرض كل صفحة قائمة بعض المعلومات المتعلقة بطلب صيانة.
 
-![الشكل 1](media/01-manage-maintenance-requests.png)
+![عرض طلبات الصيانة](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > استخدم صفحة قائمة **طلبات الصيانة الخاصة بموقع العمل لدي** لعرض قائمه بطلبات الصيانة التي تحتوي على مواقع العمل التي ترتبط بها كعامل أو أصول يتم تثبيتها في مواقع عمل ترتبط بها كعامل. (لمزيد من المعلومات حول كيفيه اعداد مواقع عمل على عاملي الصيانة، راجع [عاملو الصيانة ومجموعات عاملي الصيانة‬](../setup-for-objects/workers-and-worker-groups.md).)
@@ -54,7 +54,7 @@ ms.locfileid: "1847426"
 
 لفتح طريقه عرض تفاصيل أحد السجلات، في صفحة قائمة **جميع طلبات الصيانة**، في طريقة عرض الشبكة، حدد ارتباطًا في عمود **طلب الصيانة**.
 
-![الشكل 2](media/02-manage-maintenance-requests.png)
+![عرض تفاصيل طلب الصيانة.](media/02-manage-maintenance-requests.png)
 
 تم تنظيم الأزرار الموجودة في جزء الإجراءات على علامات تبويب. يصف الجدول التالي بإيجاز الأزرار المتعلقة بإدارة الأصول.
 

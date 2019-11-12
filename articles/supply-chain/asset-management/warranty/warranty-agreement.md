@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874683"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569675"
 ---
 # <a name="warranty-agreements"></a>اتفاقيات الضمان
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 في إدارة الأصول، يمكنك إعداد شروط الضمان التي يمكن ربطها بأصل أو نوع أصل. يتم إنشاء شروط الضمان لفترة محددة. يمكن إعداد الضمان بحيث يوفر تغطية كاملة أو تغطية جزئية، ويمكنك إعداد الشروط المرتبطة بالساعات والمصروفات والأصناف.
@@ -54,4 +54,4 @@ ms.locfileid: "1874683"
     3. في الحقل **الفاصل الزمني**، أدخل رقمًا. يحدد هذا الحقل عدد الفترات التي يجب أن يكون خلالها الضمان صالحًا.
     4. في حقل **النسبة المئوية**، أدخل النسبة المئوية للتغطية الخاصة ببند الضمان. تشير النسبة المئوية إلى المقدار الذي تغطيه شركتك.
 
-![الشكل 1](media/01-warranty.png)
+![صفحه الضمان](media/01-warranty.png)

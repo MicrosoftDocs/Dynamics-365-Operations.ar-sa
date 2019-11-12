@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: e1bddb65fd5fd73e879d8a95decc9f3e4f7f37e4
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249369"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653431"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>إعداد كتالوج خارجي للتدبير الإلكتروني للبطاقات المثقبة
 
 [!include [banner](../includes/banner.md)]
 
-باستخدام الكتالوج الخارجي، يمكنك أن تتأكد من أن معلومات المنتجات والأسعار التي تقوم بمعالجتها في وقت لاحق في Dynamics 365 for Finance and Operations لشهر يوليو 2017 هي معلومات دقيقة ومحدثة. ويمكن عندئذٍ الموافقة على الطلب وتحويله إلى أمر شراء ويمكن تقدير أمر لدى المورّد.
+باستخدام الكتالوج الخارجي، يمكنك أن تتأكد من أن معلومات المنتجات والأسعار التي تقوم بمعالجتها في وقت لاحق في Supply Chain Management هي معلومات دقيقة ومحدثة. ويمكن عندئذٍ الموافقة على الطلب وتحويله إلى أمر شراء ويمكن تقدير أمر لدى المورّد.
 
 عندما يتم إعداد الكتالوج الخارجي ويعمل أحد الموظفين على إعداد طلب، سيكون هناك خيار لإعادة التوجيه إلى موقع خارجي، الكتالوج الخارجي، وإعادة عربة التسوق التي تم إنشاؤها في الموقع الخارجي. يستند هذا الاتصال إلى بروتوكول cXML ويجب إعداده بين أنظمة مؤسسة البيع ومؤسسة الشراء.
 

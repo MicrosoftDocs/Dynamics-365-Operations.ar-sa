@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175812"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570115"
 ---
 # <a name="financial-management-home-page"></a>الصفحة الرئيسية للإدارة المالية
 
@@ -68,5 +68,9 @@ ms.locfileid: "2175812"
 
 ### <a name="countryregion-functionality"></a>وظيفة البلد/المنطقة
 
-تؤثر لوائح البلد/المنطقة في إعداد الضرائب وجوانب أخرى في الإدارة المالية. ارجع إلى قسم [الترجمة والميزات التنظيمية](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) للاطلاع على محتوى تعليماتنا للتعرف إلى الوظيفة الخاصة بالبلد/المنطقة.
+تؤثر لوائح البلد/المنطقة في إعداد الضرائب وجوانب أخرى في الإدارة المالية. ارجع إلى قسم [ميزات الترجمة والميزات التنظيمية‬](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) للاطلاع على محتوى تعليماتنا للتعرف إلى الوظيفة الخاصة بالبلد/المنطقة.
+
+### <a name="additional-content"></a>محتوى إضافي
+
+تغطي وظيفة إدارة سلسلة التوريد أجزاء من عملية الشراء إلى الدفع التي تتضمن الطلب وإرسال الأمر والاستلام والفوترة والدفع مقابل البضائع والخدمات التي تشتريها مؤسستك. لمزيد من المعلومات حول قدرات إدارة عمليات الشراء والفواتير والتصنيع، يمكنك مراجعة [!الصفحة الرئيسية Supply Chain Management‬](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 

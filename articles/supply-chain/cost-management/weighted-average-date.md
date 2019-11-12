@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b89082ef0dcaafd059fdc496acf49efbf2b9324a
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543619"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569192"
 ---
 # <a name="weighted-average-date"></a>تاريخ المتوسط المرجح
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 تاريخ المتوسط المرجح هو نموذج مخزون يستند إلى قاعدة المتوسط المرجح. وبالنسبة لقاعدة المتوسط المرجح، يتم تقييم عمليات الإصدار من المخزون بمتوسط قيمة الأصناف التي تم استلامها في المخزون لكل يوم في فترة إقفال المخزون. 
 

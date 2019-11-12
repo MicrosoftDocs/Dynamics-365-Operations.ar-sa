@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f86f6475e5226443f5e4d43fb91acafe2afdbb9
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: aa2d50a976af7ee7dde5335f94336b995fdc2d11
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887378"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652047"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>تقويم عامل الصيانة وجدولته
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-عندما تجدول أوامر العمل، تنشئ جدولاً لعاملي الصيانة والأدوات والأصول. ومن أجل تنفيذ الجدولة على عاملي الصيانة، يجب إعداد تقويم لكل عامل صيانة. يرتبط عاملو الصيانة بمورد، ويتم إعداد تقويمات وقت العمل على الموارد. يمكنك إعداد المورد والتقويم المرتبطين بعامل في **إدارة الأصول** > **الإعداد** > **العاملون** > **العاملون‏‎**، وقد ورد وصف هذا الإجراء في [عاملو الصيانة ومجموعات عاملي الصيانة‬](../setup-for-objects/workers-and-worker-groups.md).
+عندما تجدول أوامر العمل، تنشئ جدولاً لعاملي الصيانة والأدوات والأصول. ومن أجل جدولة عُمال الصيانة، يجب إعداد تقويم لكل عامل صيانة. يرتبط عمال الصيانة بالمورد، ويتم إعداد تقويمات وقت العمل للموارد. يمكنك إعداد المورد والتقويم في **إدارة الأصول** > **الإعداد** > **العاملون** > **العاملون‏‎**، وقد ورد وصف هذا الإجراء في [عاملو الصيانة ومجموعات عاملي الصيانة‬](../setup-for-objects/workers-and-worker-groups.md).
 
 تعرض لقطة الشاشة أدناه مثالاً عن عامل صيانة يرتبط بمورد يستخدم تقويم وقت العمل "الإنتاج".
 
