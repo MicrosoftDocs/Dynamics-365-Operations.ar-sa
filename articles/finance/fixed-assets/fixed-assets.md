@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd1488fc6b2c29a4cfa4be18b9a88a07d693d7fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bfa6dcbd8d75c1a6c40896311ed367a835eccc7f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175814"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770748"
 ---
 # <a name="fixed-assets-home-page"></a>الصفحة الرئيسية للأصول الثابتة
 
@@ -41,11 +41,11 @@ ms.locfileid: "2175814"
 
 #### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [ملاحظات حول إصدار Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
+انتقل إلى [خطط إصدار Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار ومعلومات أخرى في مدونة [Microsoft Dynamics365 ](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ومدونة الشئون المالية [Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) و[Microsoft Dynamics 365 Finance and Operations - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
 

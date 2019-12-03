@@ -306,7 +306,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/retail/toc.json
                 - name: معاينة مستندات PDF باستخدام عارض مضمن
                   href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/retail/toc.json
-            - name: التقارير الإلكترونية
+            - name: إعداد التقارير الإلكترونية
               items:
                 - name: نظرة عامة على التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/retail/toc.json
@@ -764,7 +764,7 @@
               items:
                 - name: الوقت والحضور في Retail
                   href: retail-time-attendance.md
-                - name: إنشاء ساعات التخزين وتغييرها
+                - name: إنشاء ساعات المتجر وتغييرها
                   href: dev-itpro/store-hours.md
             - name: إدارة قناة مركز الاتصال
               items:
@@ -850,6 +850,8 @@
           items:
             - name: نظرة عامة حول الولاء
               href: set-up-customer-loyalty-program.md
+            - name: نظرة عامه حول العملاء
+              href: clienteling-overview.md
         - name: المدفوعات
           items:
             - name: طرق الدفع
@@ -1268,8 +1270,6 @@
                   href: Open-URL-in-POS.md
                 - name: تثبيت مصمم تخطيط نقطة البيع
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS في الوضع غير المتصل
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: "توسيع طريقة عرض شاشة\_POS Dual"
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: قابلية التوسعة لمشغل Retail Modern POS ونقطة البيع السحابية
@@ -1292,9 +1292,9 @@
                   href: dev-itpro/pos-handler.md
                 - name: عرض معلومات حزمة ملحق نقطة البيع (POS)
                   href: dev-itpro/view-pos-extension-package-details.md
-                - name: مسجل الاختبار وRegression suite automation tool لمجموعة نقطة بيع Retail
+                - name: مسجل الاختبار وRegression Suite Automation Tool لـ Retail Cloud POS‬‬
                   href: dev-itpro/pos-rsat.md
-            - name: قابلية التوسعة وHardware Station
+            - name: Hardware Station وقابلية التوسعة
               href: dev-itpro/hardware-station-extensibility.md
             - name: دمج نقاط البيع مع جهاز جديد
               href: dev-itpro/hardware-device-extension.md
@@ -1332,6 +1332,8 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: تنفيذ سياسة الإرجاع باستخدام المشغلات
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: تسجيل أحداث الملحق في Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: قابلية توسعة التجارة الإلكترونية
               items:
                 - name: تكوين متاجر عبر الإنترنت
@@ -1370,7 +1372,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: أمثلة Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
-                - name: نقاط الامتداد لإيصالات التعبئة
+                - name: نقاط الملحق لإيصالات التعبئة
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: ملحقات قاعدة بيانات القنوات
                   href: dev-itpro/channel-db-extensions.md
@@ -1382,7 +1384,7 @@
                   href: dev-itpro/order-attributes.md
                 - name: سمات العميل
                   href: dev-itpro/customer-attributes.md
-                - name: 'Retail Typescript و C# proxies'
+                - name: 'وكلاء Retail Typescript وC#'
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: تشغيل نماذج Retail POS
                   href: dev-itpro/pos-run-samples.md
@@ -1398,7 +1400,7 @@
                   href: dev-itpro/pos-trigger-printing.md
                 - name: ‏‫إضافة عناصر تحكم مخصصة إلى طرق عرض نقطة البيع التي تستند إلى مصمم خارج الشاشة
                   href: dev-itpro/pos-control-non-screen.md
-                - name: التطوير في بيئات التطوير المستضافة على الشبكة السحابية دون أن يكون لديهم حق وصول المسؤول
+                - name: التطوير في بيئات التطوير المستضافة على الشبكة السحابية من دون حق وصول المسؤول
                   href: dev-itpro/cloud-dev-box.md
                 - name: إظهار اعلامات مخصصة في نقطة البيع
                   href: dev-itpro/extend-pos-notification.md

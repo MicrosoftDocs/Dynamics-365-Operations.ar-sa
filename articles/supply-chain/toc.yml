@@ -571,11 +571,13 @@
                   href: cost-management/inventory-close.md
                 - name: تعديل قيم تكلفة المخزون الفعلي
                   href: cost-management/adjust-hand-inventory-cost-values.md
+                - name: تقرير تقادم المخزون
+                  href: cost-management/inventory-aging-report-storage.md
             - name: محاسبة التصنيع
               items:
-                - name: العمليات الحسابية لقائمة مكونات الصنف​
+                - name: العمليات الحسابية لقائمة مكونات الصنف
                   href: cost-management/bom-calculations.md
-                - name: مجموعات حساب شجرة المواد
+                - name: مجموعات العمليات الحسابية الخاصة بقائمة مكونات الصنف‬
                   href: cost-management/bom-calculation-groups.md
                 - name: تحديد تكاليف الإصدار التلقائي
                   href: cost-management/backflush-costing.md
@@ -709,7 +711,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: معاينة مستندات PDF باستخدام عارض مضمن
                   href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/supply-chain/toc.json
-            - name: التقارير الإلكترونية
+            - name: إعداد التقارير الإلكترونية
               items:
                 - name: نظرة عامة على التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/supply-chain/toc.json
@@ -868,7 +870,13 @@
                         - name: تنزيل تكوينات من مستودع التقارير الإلكترونية (ER) من النوع RCS
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: استيراد التكوينات من RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: البرامج التعليمية
+                      items:
+                        - name: استخدم مصادر بيانات JOIN للحصول على البيانات من جداول التطبيقات المتعددة في تعيينات نموذج التقارير الإلكترونية (ER).
+                          href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: تكوين تعيينات نموذج التقارير الإلكترونية (ER) الذي يعتمد على سياق البلد
+                          href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: استخدام حلول التقارير الإلكترونية في Finance and Operations
                   items:
                     - name: تكوين إطار العمل
@@ -903,6 +911,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: نظرة عامة على إدارة مستندات الأعمال
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: إضافة حقول جديدة إلى قالب مستند أعمال في Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
                 - name: API إطار عمل التقارير الإلكترونية (ER)
                   items:
                     - name: توسيع قائمة وظائف التقارير الإلكترونية
@@ -1051,6 +1061,22 @@
           items:
             - name: الصفحة الرئيسية للتخطيط الرئيسي
               href: master-planning/master-planning-home-page.md
+            - name: تحسين التخطيط
+              items:
+                - name: نظرة عامة على تحسين التخطيط‬
+                  href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: بدء تحسين التخطيط
+                  href: master-planning/planning-optimization/get-started.md
+                - name: تحليل ملاءمة تحسين التخطيط
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: تطبيق عوامل تصفية على خطة
+                  href: master-planning/planning-optimization/plan-filters.md
+                - name: عرض سجل محفوظات الخطط والتخطيط
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: التأكيد التلقائي مع تحسين التخطيط
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: إلغاء وظيفة تخطيط
+                  href: master-planning/planning-optimization/cancel-planning-job.md
             - name: الخطط الرئيسية
               items:
                 - name: نظرة عامة على الخطط الرئيسية

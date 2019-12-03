@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570115"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770564"
 ---
 # <a name="financial-management-home-page"></a>الصفحة الرئيسية للإدارة المالية
 
@@ -42,10 +42,10 @@ ms.locfileid: "2570115"
     :::column-end:::
     :::column:::
         - [إدارة المصروفات](expense-management/expense-management.md)
-        - [التقارير المالية](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [إعداد التقارير المالية](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [الأصول الثابتة](fixed-assets/fixed-assets.md)
-        - [دفتر الأستاذ العام](general-ledger/general-ledger.md) 
-        - [إدارة المشروع](project-management/overview-project-management-accounting.md)
+        - [دفتر الأستاذ العام وإعداد التقارير المالية](general-ledger/general-ledger.md) 
+        - [إدارة المشاريع ومحاسبتها](project-management/overview-project-management-accounting.md)
         - [القطاع العام](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -72,5 +72,5 @@ ms.locfileid: "2570115"
 
 ### <a name="additional-content"></a>محتوى إضافي
 
-تغطي وظيفة إدارة سلسلة التوريد أجزاء من عملية الشراء إلى الدفع التي تتضمن الطلب وإرسال الأمر والاستلام والفوترة والدفع مقابل البضائع والخدمات التي تشتريها مؤسستك. لمزيد من المعلومات حول قدرات إدارة عمليات الشراء والفواتير والتصنيع، يمكنك مراجعة [!الصفحة الرئيسية Supply Chain Management‬](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
+تغطي وظيفة إدارة سلسلة التوريد أجزاء من عملية الشراء إلى الدفع التي تتضمن الطلب وإرسال الأمر والاستلام والفوترة والدفع مقابل البضائع والخدمات التي تشتريها مؤسستك. لمزيد من المعلومات حول قدرات إدارة عمليات الشراء والفواتير والتصنيع، يمكنك مراجعة [الصفحة الرئيسية لـ Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 

@@ -3,7 +3,7 @@ title: نظرة عامة على ميزة إقرار الإيرادات
 description: يوفر هذا الموضوع معلومات حول ميزة إقرار الإيرادات. توفر هذه الميزة اطار عمل مرنًا يتيح لك تحديد القواعد الخاصة بالشركة للتعرف على سعر الإيرادات وجدول الإيرادات للأوامر متعددة العناصر.
 author: kweekley
 manager: aolson
-ms.date: 08/24/2018
+ms.date: 11/11/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 0681636853b38895e4b8875150ea42baadd7b951
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8743183c46463395cad3138261860442701e0178
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570369"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781886"
 ---
 # <a name="revenue-recognition-overview"></a>نظرة عامة على ميزة إقرار الإيرادات
 
@@ -36,6 +36,10 @@ ms.locfileid: "2570369"
 
 * تخصيص الإيرادات للمساعدة في ضمان معرفة سعر الإيرادات المناسب استنادًا إلى قيمة المكونات في الأوامر متعددة العناصر.
 * تأجيل الإيرادات استنادًا إلى جدول الإيرادات الذي يمثل الإطار الزمني التعاقدي والنسب المئوية لإقرار الإيرادات بمرور الوقت.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE44iER]
+
+تم تضمين الفيديو [كيفية استخدام ميزة إقرار الإيرادات في Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة على YouTube.
 
 توفر ميزة إقرار الإيرادات اطار عمل مرنًا يتيح لك تحديد القواعد الخاصة بالشركة للتعرف على سعر الإيرادات وجدول الإيرادات للأوامر متعددة العناصر.
 
