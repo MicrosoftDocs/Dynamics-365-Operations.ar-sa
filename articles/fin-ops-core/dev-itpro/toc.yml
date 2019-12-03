@@ -2,6 +2,8 @@
   items:
     - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
       items:
+        - name: وثائق تطبيق Finance and Operations
+          href: ../fin-ops/index.md
         - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
           href: index.md
         - name: ما الجديد أو المتغير
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: التدرج الهرمي للمؤسسات في Common Data Service
                           href: data-entities/dual-write-organization.md
-                        - name: مفهوم الشركة في Common Data Service
-                          href: data-entities/dual-write-company.md
+                        - name: تكامل الشركة
+                          items:
+                            - name: مفهوم الشركة في Common Data Service
+                              href: data-entities/dual-write-company.md
+                            - name: التمهيد مع بيانات الشركة
+                              href: data-entities/dual-write-bootstrap.md
                         - name: أصل العميل المتكامل
                           href: data-entities/dual-write-customer.md
+                        - name: دفتر الأستاذ المتكامل
+                          href: data-entities/dual-write-ledger.md
                         - name: تجربه المنتج الموحدة
                           href: data-entities/dual-write-product.md
-                        - name: أصل المورّد المتكامل
-                          href: data-entities/dual-write-vendor.md
+                        - name: تكامل المورّد
+                          items:
+                            - name: أصل المورّد المتكامل
+                              href: data-entities/dual-write-vendor.md
+                            - name: التبديل بين تصميمات المورّدين
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: المواقع والمستودعات المتكاملة
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: أصل الضريبة المتكاملة
+                          href: data-entities/dual-write-tax.md
                         - name: مزامنة أولية
                           href: data-entities/dual-write-initial.md
                         - name: استكشاف أخطاء تكامل البيانات وإصلاحها
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: استكشاف مشاكل عمليات النشر المحلية وإصلاحها
                   href: deployment/troubleshoot-on-prem.md
+                - name: برامج نصية لحل المشكلات في البيئات المحلية
+                  href: deployment/onprem-tsg-implementations.md
                 - name: تدوير الشهادات
                   href: deployment/certificate-rotation-on-prem.md
             - name: نشر كود مخصص
