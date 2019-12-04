@@ -18,102 +18,102 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 168c2fb9edfc994617ef6764a5b9f5949d599882
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186315"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771742"
 ---
-# <a name="sales-tax-payments-and-rounding-rules"></a><span data-ttu-id="81ae7-103">مدفوعات ضريبة المبيعات وقواعد التقريب</span><span class="sxs-lookup"><span data-stu-id="81ae7-103">Sales tax payments and rounding rules</span></span>
+# <a name="sales-tax-payments-and-rounding-rules"></a><span data-ttu-id="86c2d-103">مدفوعات ضريبة المبيعات وقواعد التقريب</span><span class="sxs-lookup"><span data-stu-id="86c2d-103">Sales tax payments and rounding rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="81ae7-104">توضح هذه المقالة كيفية عمل إعداد قاعدة التقريب في هيئات ضريبة المبيعات‬ وتقريب موازنة ضريبة المبيعات أثناء وظيفة تسوية ضريبة المبيعات وترحيلها‬.</span><span class="sxs-lookup"><span data-stu-id="81ae7-104">This article explains how the rounding rule setup on the Sales tax authorities works and rounding the sales tax balance during the Settle and post sales tax job.</span></span>
+<span data-ttu-id="86c2d-104">توضح هذه المقالة كيفية عمل إعداد قاعدة التقريب في هيئات ضريبة المبيعات‬ وتقريب موازنة ضريبة المبيعات أثناء وظيفة تسوية ضريبة المبيعات وترحيلها‬.</span><span class="sxs-lookup"><span data-stu-id="86c2d-104">This article explains how the rounding rule setup on the Sales tax authorities works and rounding the sales tax balance during the Settle and post sales tax job.</span></span>
 
-<span data-ttu-id="81ae7-105">بشكل دوري، يلزم الإبلاغ عن ضريبة المبيعات ودفعها للسلطات الضريبية.</span><span class="sxs-lookup"><span data-stu-id="81ae7-105">Periodically, sales tax needs to be reported and paid to tax authorities.</span></span> <span data-ttu-id="81ae7-106">‏‫ويمكن القيام بهذا عن طريق إجراء عملية تسوية وترحيل ضريبة المبيعات في صفحة ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="81ae7-106">This can be done by running the settle and post sales tax process in the Sales tax page.</span></span> <span data-ttu-id="81ae7-107">وستتم تسوية ضريبة المبيعات لفترة في مقابل حسابات ضريبة المبيعات، وسيتم ترحيل رصيد ضريبة المبيعات إلى حساب تسوية ضريبة المبيعات.‬</span><span class="sxs-lookup"><span data-stu-id="81ae7-107">Sales tax for a period will be settled against the sales tax accounts and the sales tax balance will be posted to the Sales tax settlement account.</span></span> <span data-ttu-id="81ae7-108">ويتم تقريب رصيد ضريبة المبيعات، الذي يتم ترحيله في حساب تسوية ضريبة المبيعات، حسب ما تتطلبه السلطات الضريبية من خلال إعداد قاعدة تقريب في صفحة ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="81ae7-108">The sales tax balance, which is posted on the Sales tax settlement account, can be rounded as required by tax authorities by setting up a rounding rule on the Sales tax page.</span></span> 
+<span data-ttu-id="86c2d-105">بشكل دوري، يلزم الإبلاغ عن ضريبة المبيعات ودفعها للسلطات الضريبية.</span><span class="sxs-lookup"><span data-stu-id="86c2d-105">Periodically, sales tax needs to be reported and paid to tax authorities.</span></span> <span data-ttu-id="86c2d-106">‏‫ويمكن القيام بهذا عن طريق إجراء عملية تسوية وترحيل ضريبة المبيعات في صفحة ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="86c2d-106">This can be done by running the settle and post sales tax process in the Sales tax page.</span></span> <span data-ttu-id="86c2d-107">وستتم تسوية ضريبة المبيعات لفترة في مقابل حسابات ضريبة المبيعات، وسيتم ترحيل رصيد ضريبة المبيعات إلى حساب تسوية ضريبة المبيعات.‬</span><span class="sxs-lookup"><span data-stu-id="86c2d-107">Sales tax for a period will be settled against the sales tax accounts and the sales tax balance will be posted to the Sales tax settlement account.</span></span> <span data-ttu-id="86c2d-108">ويتم تقريب رصيد ضريبة المبيعات، الذي يتم ترحيله في حساب تسوية ضريبة المبيعات، حسب ما تتطلبه السلطات الضريبية من خلال إعداد قاعدة تقريب في صفحة ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="86c2d-108">The sales tax balance, which is posted on the Sales tax settlement account, can be rounded as required by tax authorities by setting up a rounding rule on the Sales tax page.</span></span> 
 
-<span data-ttu-id="81ae7-109">يتم ترحيل الفرق التقريبي إلى الحساب الضريبي لضريبة المبيعات المحدد في حقل الحسابات للحركات التلقائية في دفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="81ae7-109">The rounding difference is posted to the Sales tax rounding account that is selected in the Accounts for automatic transactions field in the General ledger.</span></span>
+<span data-ttu-id="86c2d-109">يتم ترحيل الفرق التقريبي إلى الحساب الضريبي لضريبة المبيعات المحدد في حقل الحسابات للحركات التلقائية في دفتر الأستاذ العام.</span><span class="sxs-lookup"><span data-stu-id="86c2d-109">The rounding difference is posted to the Sales tax rounding account that is selected in the Accounts for automatic transactions field in the General ledger.</span></span>
 
-<span data-ttu-id="81ae7-110">يوضح المثال أدناه كيفية عمل قاعدة التقريب في سلطة ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="81ae7-110">The below example illustrates how the rounding rule on Sales tax authority works.</span></span>
+<span data-ttu-id="86c2d-110">يوضح المثال أدناه كيفية عمل قاعدة التقريب في سلطة ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="86c2d-110">The below example illustrates how the rounding rule on Sales tax authority works.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="81ae7-111">أمثلة</span><span class="sxs-lookup"><span data-stu-id="81ae7-111">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="86c2d-111">أمثلة</span><span class="sxs-lookup"><span data-stu-id="86c2d-111">Examples</span></span>
 
-<span data-ttu-id="81ae7-112">تعرض ضريبة المبيعات الإجمالية لفترة رصيد دائن بمبلغ -98,765.43.</span><span class="sxs-lookup"><span data-stu-id="81ae7-112">The total sales tax for a period shows a credit balance of -98,765.43.</span></span> <span data-ttu-id="81ae7-113">قام الكيان القانوني بجمع ضرائب مبيعات أكثر مما دفع.</span><span class="sxs-lookup"><span data-stu-id="81ae7-113">The legal entity collected more sales taxes than it paid.</span></span> <span data-ttu-id="81ae7-114">ولذلك، تدين الكيان القانوني بأموال لهيئة الضرائب.</span><span class="sxs-lookup"><span data-stu-id="81ae7-114">Therefore, the legal entity owes money to the tax authority.</span></span> 
+<span data-ttu-id="86c2d-112">تعرض ضريبة المبيعات الإجمالية لفترة رصيد دائن بمبلغ -98,765.43.</span><span class="sxs-lookup"><span data-stu-id="86c2d-112">The total sales tax for a period shows a credit balance of -98,765.43.</span></span> <span data-ttu-id="86c2d-113">قام الكيان القانوني بجمع ضرائب مبيعات أكثر مما دفع.</span><span class="sxs-lookup"><span data-stu-id="86c2d-113">The legal entity collected more sales taxes than it paid.</span></span> <span data-ttu-id="86c2d-114">ولذلك، تدين الكيان القانوني بأموال لهيئة الضرائب.</span><span class="sxs-lookup"><span data-stu-id="86c2d-114">Therefore, the legal entity owes money to the tax authority.</span></span> 
 
-<span data-ttu-id="81ae7-115">ويرغب الكيان القانوني في استخدام أسلوب التقريب الذي يقرب الرصيد إلى أقرب 1.00.</span><span class="sxs-lookup"><span data-stu-id="81ae7-115">The legal entity wants to use a rounding method that rounds the balance to the nearest 1.00.</span></span> <span data-ttu-id="81ae7-116">ويقوم المستخدم المسؤول عن محاسبة ضرائب المبيعات بإجراء الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="81ae7-116">The user who is responsible for sales tax accounting performs the following steps.</span></span>
+<span data-ttu-id="86c2d-115">ويرغب الكيان القانوني في استخدام أسلوب التقريب الذي يقرب الرصيد إلى أقرب 1.00.</span><span class="sxs-lookup"><span data-stu-id="86c2d-115">The legal entity wants to use a rounding method that rounds the balance to the nearest 1.00.</span></span> <span data-ttu-id="86c2d-116">ويقوم المستخدم المسؤول عن محاسبة ضرائب المبيعات بإجراء الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="86c2d-116">The user who is responsible for sales tax accounting performs the following steps.</span></span>
 
-1.  <span data-ttu-id="81ae7-117">النقر فوق ضريبة‬ &gt; ضرائب غير مباشرة &gt; ضريبة مبيعات &gt; هيئات ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="81ae7-117">Click Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax authorities</span></span>
-2.  <span data-ttu-id="81ae7-118">في علامة التبويب السريع "عام"، حدد "عادي" في حقل نموذج التقريب.</span><span class="sxs-lookup"><span data-stu-id="81ae7-118">On the General FastTab, select Normal in the Rounding form field.</span></span>
-3.  <span data-ttu-id="81ae7-119">في حقل "تقريب العلامات العشرية‬"، أدخل 1.00.</span><span class="sxs-lookup"><span data-stu-id="81ae7-119">In the Round-off field, enter 1.00.</span></span>
-4.  <span data-ttu-id="81ae7-120">وعند حلول وقت دفع ضرائب المبيعات إلى هيئة الضرائب، افتح صفحة تسوية وترحيل ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="81ae7-120">When it is time to pay the sales taxes to the tax authority, open the Settle and post sales tax page.</span></span> <span data-ttu-id="81ae7-121">(انقر فوق ضريبة‬ &gt; إقرارات &gt; ضريبة مبيعات &gt; تسوية وترحيل ضريبة المبيعات.)</span><span class="sxs-lookup"><span data-stu-id="81ae7-121">(Click Tax &gt; Declarations &gt; Sales tax &gt; Settle and post sales tax.)</span></span>
-5.  <span data-ttu-id="81ae7-122">في حساب تسوية ضريبة المبيعات، يتم تقريب مبلغ المسؤولية الضريبية من 98,765.43 إلى 98,765.</span><span class="sxs-lookup"><span data-stu-id="81ae7-122">On the sales tax settlement account, the tax liability amount of 98,765.43 is rounded to 98,765.</span></span>
+1.  <span data-ttu-id="86c2d-117">النقر فوق ضريبة‬ &gt; ضرائب غير مباشرة &gt; ضريبة مبيعات &gt; هيئات ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="86c2d-117">Click Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax authorities</span></span>
+2.  <span data-ttu-id="86c2d-118">في علامة التبويب السريع "عام"، حدد "عادي" في حقل نموذج التقريب.</span><span class="sxs-lookup"><span data-stu-id="86c2d-118">On the General FastTab, select Normal in the Rounding form field.</span></span>
+3.  <span data-ttu-id="86c2d-119">في حقل "تقريب العلامات العشرية‬"، أدخل 1.00.</span><span class="sxs-lookup"><span data-stu-id="86c2d-119">In the Round-off field, enter 1.00.</span></span>
+4.  <span data-ttu-id="86c2d-120">وعند حلول وقت دفع ضرائب المبيعات إلى هيئة الضرائب، افتح صفحة تسوية وترحيل ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="86c2d-120">When it is time to pay the sales taxes to the tax authority, open the Settle and post sales tax page.</span></span> <span data-ttu-id="86c2d-121">(انقر فوق ضريبة‬ &gt; إقرارات &gt; ضريبة مبيعات &gt; تسوية وترحيل ضريبة المبيعات.)</span><span class="sxs-lookup"><span data-stu-id="86c2d-121">(Click Tax &gt; Declarations &gt; Sales tax &gt; Settle and post sales tax.)</span></span>
+5.  <span data-ttu-id="86c2d-122">في حساب تسوية ضريبة المبيعات، يتم تقريب مبلغ المسؤولية الضريبية من 98,765.43 إلى 98,765.</span><span class="sxs-lookup"><span data-stu-id="86c2d-122">On the sales tax settlement account, the tax liability amount of 98,765.43 is rounded to 98,765.</span></span>
 
-<span data-ttu-id="81ae7-123">يوضح الجدول التالي كيف يتم تقريب مبلغ 98,765.43 باستخدام كل أسلوب تقريب يتوفر في حقل نموذج التقريب في صفحة سلطات ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="81ae7-123">The following table shows how an amount of 98,765.43 is rounded by using each rounding method that is available in the Rounding form field in the Sales tax authorities page.</span></span>
+<span data-ttu-id="86c2d-123">يوضح الجدول التالي كيف يتم تقريب مبلغ 98,765.43 باستخدام كل أسلوب تقريب يتوفر في حقل نموذج التقريب في صفحة سلطات ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="86c2d-123">The following table shows how an amount of 98,765.43 is rounded by using each rounding method that is available in the Rounding form field in the Sales tax authorities page.</span></span>
 
-| <span data-ttu-id="81ae7-124">خيار نموذج التقريب</span><span class="sxs-lookup"><span data-stu-id="81ae7-124">Rounding form option</span></span>                | <span data-ttu-id="81ae7-125">قيمة التقريب = 0.01</span><span class="sxs-lookup"><span data-stu-id="81ae7-125">Round-off value = 0.01</span></span> | <span data-ttu-id="81ae7-126">قيمة التقريب = 0.10</span><span class="sxs-lookup"><span data-stu-id="81ae7-126">Round-off value = 0.10</span></span> | <span data-ttu-id="81ae7-127">قيمة التقريب = 1.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-127">Round-off value = 1.00</span></span> | <span data-ttu-id="81ae7-128">قيمة التقريب = 100.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-128">Round-off value = 100.00</span></span> |
+| <span data-ttu-id="86c2d-124">خيار نموذج التقريب</span><span class="sxs-lookup"><span data-stu-id="86c2d-124">Rounding form option</span></span>                | <span data-ttu-id="86c2d-125">قيمة التقريب = 0.01</span><span class="sxs-lookup"><span data-stu-id="86c2d-125">Round-off value = 0.01</span></span> | <span data-ttu-id="86c2d-126">قيمة التقريب = 0.10</span><span class="sxs-lookup"><span data-stu-id="86c2d-126">Round-off value = 0.10</span></span> | <span data-ttu-id="86c2d-127">قيمة التقريب = 1.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-127">Round-off value = 1.00</span></span> | <span data-ttu-id="86c2d-128">قيمة التقريب = 100.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-128">Round-off value = 100.00</span></span> |
 |-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| <span data-ttu-id="81ae7-129">عادي</span><span class="sxs-lookup"><span data-stu-id="81ae7-129">Normal</span></span>                              | <span data-ttu-id="81ae7-130">98,765.43</span><span class="sxs-lookup"><span data-stu-id="81ae7-130">98,765.43</span></span>              | <span data-ttu-id="81ae7-131">98,765.40</span><span class="sxs-lookup"><span data-stu-id="81ae7-131">98,765.40</span></span>              | <span data-ttu-id="81ae7-132">98,765.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-132">98,765.00</span></span>              | <span data-ttu-id="81ae7-133">98,800.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-133">98,800.00</span></span>                |
-| <span data-ttu-id="81ae7-134">انحداري</span><span class="sxs-lookup"><span data-stu-id="81ae7-134">Downward</span></span>                            | <span data-ttu-id="81ae7-135">98,765.43</span><span class="sxs-lookup"><span data-stu-id="81ae7-135">98,765.43</span></span>              | <span data-ttu-id="81ae7-136">98,765.40</span><span class="sxs-lookup"><span data-stu-id="81ae7-136">98,765.40</span></span>              | <span data-ttu-id="81ae7-137">98,765.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-137">98,765.00</span></span>              | <span data-ttu-id="81ae7-138">98,700.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-138">98,700.00</span></span>                |
-| <span data-ttu-id="81ae7-139">التقريب</span><span class="sxs-lookup"><span data-stu-id="81ae7-139">Rounding-up</span></span>                         | <span data-ttu-id="81ae7-140">98,765.43</span><span class="sxs-lookup"><span data-stu-id="81ae7-140">98,765.43</span></span>              | <span data-ttu-id="81ae7-141">98,765.50</span><span class="sxs-lookup"><span data-stu-id="81ae7-141">98,765.50</span></span>              | <span data-ttu-id="81ae7-142">98,766.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-142">98,766.00</span></span>              | <span data-ttu-id="81ae7-143">98,800.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-143">98,800.00</span></span>                |
-| <span data-ttu-id="81ae7-144">ميزة خاصة، لرصيد دائن</span><span class="sxs-lookup"><span data-stu-id="81ae7-144">Own advantage, for a credit balance</span></span> | <span data-ttu-id="81ae7-145">98,765.43</span><span class="sxs-lookup"><span data-stu-id="81ae7-145">98,765.43</span></span>              | <span data-ttu-id="81ae7-146">98,765.40</span><span class="sxs-lookup"><span data-stu-id="81ae7-146">98,765.40</span></span>              | <span data-ttu-id="81ae7-147">98,765.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-147">98,765.00</span></span>              | <span data-ttu-id="81ae7-148">98,700.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-148">98,700.00</span></span>                |
-| <span data-ttu-id="81ae7-149">ميزة خاصة، لرصيد مدين</span><span class="sxs-lookup"><span data-stu-id="81ae7-149">Own advantage, for a debit balance</span></span>  | <span data-ttu-id="81ae7-150">98,765.43</span><span class="sxs-lookup"><span data-stu-id="81ae7-150">98,765.43</span></span>              | <span data-ttu-id="81ae7-151">98,765.50</span><span class="sxs-lookup"><span data-stu-id="81ae7-151">98,765.50</span></span>              | <span data-ttu-id="81ae7-152">98,766.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-152">98,766.00</span></span>              | <span data-ttu-id="81ae7-153">98,800.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-153">98,800.00</span></span>                |
+| <span data-ttu-id="86c2d-129">عادي</span><span class="sxs-lookup"><span data-stu-id="86c2d-129">Normal</span></span>                              | <span data-ttu-id="86c2d-130">98,765.43</span><span class="sxs-lookup"><span data-stu-id="86c2d-130">98,765.43</span></span>              | <span data-ttu-id="86c2d-131">98,765.40</span><span class="sxs-lookup"><span data-stu-id="86c2d-131">98,765.40</span></span>              | <span data-ttu-id="86c2d-132">98,765.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-132">98,765.00</span></span>              | <span data-ttu-id="86c2d-133">98,800.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-133">98,800.00</span></span>                |
+| <span data-ttu-id="86c2d-134">انحداري</span><span class="sxs-lookup"><span data-stu-id="86c2d-134">Downward</span></span>                            | <span data-ttu-id="86c2d-135">98,765.43</span><span class="sxs-lookup"><span data-stu-id="86c2d-135">98,765.43</span></span>              | <span data-ttu-id="86c2d-136">98,765.40</span><span class="sxs-lookup"><span data-stu-id="86c2d-136">98,765.40</span></span>              | <span data-ttu-id="86c2d-137">98,765.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-137">98,765.00</span></span>              | <span data-ttu-id="86c2d-138">98,700.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-138">98,700.00</span></span>                |
+| <span data-ttu-id="86c2d-139">التقريب</span><span class="sxs-lookup"><span data-stu-id="86c2d-139">Rounding-up</span></span>                         | <span data-ttu-id="86c2d-140">98,765.43</span><span class="sxs-lookup"><span data-stu-id="86c2d-140">98,765.43</span></span>              | <span data-ttu-id="86c2d-141">98,765.50</span><span class="sxs-lookup"><span data-stu-id="86c2d-141">98,765.50</span></span>              | <span data-ttu-id="86c2d-142">98,766.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-142">98,766.00</span></span>              | <span data-ttu-id="86c2d-143">98,800.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-143">98,800.00</span></span>                |
+| <span data-ttu-id="86c2d-144">ميزة خاصة، لرصيد دائن</span><span class="sxs-lookup"><span data-stu-id="86c2d-144">Own advantage, for a credit balance</span></span> | <span data-ttu-id="86c2d-145">98,765.43</span><span class="sxs-lookup"><span data-stu-id="86c2d-145">98,765.43</span></span>              | <span data-ttu-id="86c2d-146">98,765.40</span><span class="sxs-lookup"><span data-stu-id="86c2d-146">98,765.40</span></span>              | <span data-ttu-id="86c2d-147">98,765.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-147">98,765.00</span></span>              | <span data-ttu-id="86c2d-148">98,700.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-148">98,700.00</span></span>                |
+| <span data-ttu-id="86c2d-149">ميزة خاصة، لرصيد مدين</span><span class="sxs-lookup"><span data-stu-id="86c2d-149">Own advantage, for a debit balance</span></span>  | <span data-ttu-id="86c2d-150">98,765.43</span><span class="sxs-lookup"><span data-stu-id="86c2d-150">98,765.43</span></span>              | <span data-ttu-id="86c2d-151">98,765.50</span><span class="sxs-lookup"><span data-stu-id="86c2d-151">98,765.50</span></span>              | <span data-ttu-id="86c2d-152">98,766.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-152">98,766.00</span></span>              | <span data-ttu-id="86c2d-153">98,800.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-153">98,800.00</span></span>                |
 
 
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a><span data-ttu-id="81ae7-154">بدون تقريب على الإطلاق، بما أن التقريب هو 0.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-154">No rounding at all, since the round-off is 0.00</span></span>
+### <a name="no-rounding-at-all-since-the-round-off-is-000"></a><span data-ttu-id="86c2d-154">بدون تقريب على الإطلاق، بما أن التقريب هو 0.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-154">No rounding at all, since the round-off is 0.00</span></span>
 
-<span data-ttu-id="81ae7-155">round(1.0151, 0.00) = 1.0151 دائرية (1.0149 أو 0.00) = 1.0149</span><span class="sxs-lookup"><span data-stu-id="81ae7-155">round(1.0151, 0.00) = 1.0151 round(1.0149, 0.00) = 1.0149</span></span>
+<span data-ttu-id="86c2d-155">round(1.0151, 0.00) = 1.0151 دائرية (1.0149 أو 0.00) = 1.0149</span><span class="sxs-lookup"><span data-stu-id="86c2d-155">round(1.0151, 0.00) = 1.0151 round(1.0149, 0.00) = 1.0149</span></span>
 
-### <a name="normal-round-and-round-precision-is-001"></a><span data-ttu-id="81ae7-156">تقريب عادي، ودقة التقريب هي 0.01</span><span class="sxs-lookup"><span data-stu-id="81ae7-156">Normal round, and round precision is 0.01</span></span>
+### <a name="normal-round-and-round-precision-is-001"></a><span data-ttu-id="86c2d-156">تقريب عادي، ودقة التقريب هي 0.01</span><span class="sxs-lookup"><span data-stu-id="86c2d-156">Normal round, and round precision is 0.01</span></span>
 
 <table>
   <tr>
-    <td><span data-ttu-id="81ae7-157">تقريب</span><span class="sxs-lookup"><span data-stu-id="81ae7-157">Rounding</span></span>
+    <td><span data-ttu-id="86c2d-157">تقريب</span><span class="sxs-lookup"><span data-stu-id="86c2d-157">Rounding</span></span>
     </td>
-    <td><span data-ttu-id="81ae7-158">عملية الحساب</span><span class="sxs-lookup"><span data-stu-id="81ae7-158">Calculation process</span></span>
+    <td><span data-ttu-id="86c2d-158">عملية الحساب</span><span class="sxs-lookup"><span data-stu-id="86c2d-158">Calculation process</span></span>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="81ae7-159">round(1.015, 0.01) = 1.02</span><span class="sxs-lookup"><span data-stu-id="81ae7-159">round(1.015, 0.01) = 1.02</span></span>
+    <td><span data-ttu-id="86c2d-159">round(1.015, 0.01) = 1.02</span><span class="sxs-lookup"><span data-stu-id="86c2d-159">round(1.015, 0.01) = 1.02</span></span>
     </td>
     <td>
       <ol>
-        <li><span data-ttu-id="81ae7-160">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span><span class="sxs-lookup"><span data-stu-id="81ae7-160">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span></span>
+        <li><span data-ttu-id="86c2d-160">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span><span class="sxs-lookup"><span data-stu-id="86c2d-160">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span></span>
         </li>
-        <li><span data-ttu-id="81ae7-161">102 \* 0.01 = 1.02</span><span class="sxs-lookup"><span data-stu-id="81ae7-161">102 \* 0.01 = 1.02</span></span>
-        </li>
-      </ol>
-    </td>
-  </tr>
-    <tr>
-    <td><span data-ttu-id="81ae7-162">round(1.014, 0.01) = 1.01</span><span class="sxs-lookup"><span data-stu-id="81ae7-162">round(1.014, 0.01) = 1.01</span></span>
-    </td>
-    <td> <ol>
-        <li><span data-ttu-id="81ae7-163">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span><span class="sxs-lookup"><span data-stu-id="81ae7-163">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span></span>
-        </li>
-        <li><span data-ttu-id="81ae7-164">101 \* 0.01 = 1.01</span><span class="sxs-lookup"><span data-stu-id="81ae7-164">101 \* 0.01 = 1.01</span></span>
+        <li><span data-ttu-id="86c2d-161">102 \* 0.01 = 1.02</span><span class="sxs-lookup"><span data-stu-id="86c2d-161">102 \* 0.01 = 1.02</span></span>
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="81ae7-165">round(1.011, 0.02) = 1.02</span><span class="sxs-lookup"><span data-stu-id="81ae7-165">round(1.011, 0.02) = 1.02</span></span>
+    <td><span data-ttu-id="86c2d-162">round(1.014, 0.01) = 1.01</span><span class="sxs-lookup"><span data-stu-id="86c2d-162">round(1.014, 0.01) = 1.01</span></span>
     </td>
     <td> <ol>
-        <li><span data-ttu-id="81ae7-166">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span><span class="sxs-lookup"><span data-stu-id="81ae7-166">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span></span>
+        <li><span data-ttu-id="86c2d-163">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span><span class="sxs-lookup"><span data-stu-id="86c2d-163">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span></span>
         </li>
-        <li><span data-ttu-id="81ae7-167">51 \* 0.02 = 1.02</span><span class="sxs-lookup"><span data-stu-id="81ae7-167">51 \* 0.02 = 1.02</span></span>
+        <li><span data-ttu-id="86c2d-164">101 \* 0.01 = 1.01</span><span class="sxs-lookup"><span data-stu-id="86c2d-164">101 \* 0.01 = 1.01</span></span>
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="81ae7-168">round(1.009, 0.02) = 1.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-168">round(1.009, 0.02) = 1.00</span></span>
+    <td><span data-ttu-id="86c2d-165">round(1.011, 0.02) = 1.02</span><span class="sxs-lookup"><span data-stu-id="86c2d-165">round(1.011, 0.02) = 1.02</span></span>
     </td>
     <td> <ol>
-        <li><span data-ttu-id="81ae7-169">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span><span class="sxs-lookup"><span data-stu-id="81ae7-169">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span></span>
+        <li><span data-ttu-id="86c2d-166">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span><span class="sxs-lookup"><span data-stu-id="86c2d-166">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span></span>
         </li>
-        <li><span data-ttu-id="81ae7-170">50 \* 0.02 = 1.00</span><span class="sxs-lookup"><span data-stu-id="81ae7-170">50 \* 0.02 = 1.00</span></span>
+        <li><span data-ttu-id="86c2d-167">51 \* 0.02 = 1.02</span><span class="sxs-lookup"><span data-stu-id="86c2d-167">51 \* 0.02 = 1.02</span></span>
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td><span data-ttu-id="86c2d-168">round(1.009, 0.02) = 1.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-168">round(1.009, 0.02) = 1.00</span></span>
+    </td>
+    <td> <ol>
+        <li><span data-ttu-id="86c2d-169">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span><span class="sxs-lookup"><span data-stu-id="86c2d-169">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span></span>
+        </li>
+        <li><span data-ttu-id="86c2d-170">50 \* 0.02 = 1.00</span><span class="sxs-lookup"><span data-stu-id="86c2d-170">50 \* 0.02 = 1.00</span></span>
         </li>
       </ol>
     </td>
@@ -121,13 +121,13 @@ ms.locfileid: "2186315"
 </table>
 
 > [!NOTE]                                                                                  
-> <span data-ttu-id="81ae7-171">إذا قمت بتحديد ميزة خاصة، يكون التقريب دائماً في صالح الكيان القانوني.</span><span class="sxs-lookup"><span data-stu-id="81ae7-171">If you select Own advantage, the rounding is always to the advantage of the legal entity.</span></span> 
+> <span data-ttu-id="86c2d-171">إذا قمت بتحديد ميزة خاصة، يكون التقريب دائماً في صالح الكيان القانوني.</span><span class="sxs-lookup"><span data-stu-id="86c2d-171">If you select Own advantage, the rounding is always to the advantage of the legal entity.</span></span> 
 
-<span data-ttu-id="81ae7-172">لمزيد من المعلومات، راجع الموضوعات التالية:</span><span class="sxs-lookup"><span data-stu-id="81ae7-172">For more information, see the following topics:</span></span>
-- [<span data-ttu-id="81ae7-173">نظرة عامة على ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="81ae7-173">Sales tax overview</span></span>](indirect-taxes-overview.md)
-- [<span data-ttu-id="81ae7-174">إنشاء دفع ضريبة مبيعات</span><span class="sxs-lookup"><span data-stu-id="81ae7-174">Create a sales tax payment</span></span>](tasks/create-sales-tax-payment.md)
-- [<span data-ttu-id="81ae7-175">إنشاء حركات المبيعات في المستندات</span><span class="sxs-lookup"><span data-stu-id="81ae7-175">Create sales transactions on documents</span></span>](tasks/create-sales-tax-transactions-documents.md)
-- [<span data-ttu-id="81ae7-176">عرض حركات ضرائب المبيعات المُرَّحلة</span><span class="sxs-lookup"><span data-stu-id="81ae7-176">View posted sales tax transactions</span></span>](tasks/view-posted-sales-tax-transactions.md)
-- [<span data-ttu-id="81ae7-177">الدالة round</span><span class="sxs-lookup"><span data-stu-id="81ae7-177">round Function</span></span>](https://msdn.microsoft.com/library/aa850656.aspx)
+<span data-ttu-id="86c2d-172">لمزيد من المعلومات، راجع الموضوعات التالية:</span><span class="sxs-lookup"><span data-stu-id="86c2d-172">For more information, see the following topics:</span></span>
+- [<span data-ttu-id="86c2d-173">نظرة عامة على ضريبة المبيعات</span><span class="sxs-lookup"><span data-stu-id="86c2d-173">Sales tax overview</span></span>](indirect-taxes-overview.md)
+- [<span data-ttu-id="86c2d-174">إنشاء دفع ضريبة مبيعات</span><span class="sxs-lookup"><span data-stu-id="86c2d-174">Create a sales tax payment</span></span>](tasks/create-sales-tax-payment.md)
+- [<span data-ttu-id="86c2d-175">إنشاء حركات ضريبة المبيعات في المستندات</span><span class="sxs-lookup"><span data-stu-id="86c2d-175">Create sales tax transactions on documents</span></span>](tasks/create-sales-tax-transactions-documents.md)
+- [<span data-ttu-id="86c2d-176">عرض حركات ضرائب المبيعات المُرَّحلة</span><span class="sxs-lookup"><span data-stu-id="86c2d-176">View posted sales tax transactions</span></span>](tasks/view-posted-sales-tax-transactions.md)
+- [<span data-ttu-id="86c2d-177">الدالة round</span><span class="sxs-lookup"><span data-stu-id="86c2d-177">round Function</span></span>](https://msdn.microsoft.com/library/aa850656.aspx)
 
 

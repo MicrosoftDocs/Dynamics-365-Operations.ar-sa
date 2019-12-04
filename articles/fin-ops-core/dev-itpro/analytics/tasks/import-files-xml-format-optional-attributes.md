@@ -16,111 +16,111 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1290598d8dbd5b72d679ccf3e642e75b6dc3215
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f34302a32b2e06f281dc93d6df160b88ffac7123
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182176"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769775"
 ---
-# <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a><span data-ttu-id="38288-103">استيراد ملفات (RCS) بتنسيق XML مع سمات اختيارية</span><span class="sxs-lookup"><span data-stu-id="38288-103">(RCS) Import files in XML format with optional attributes</span></span>
+# <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a><span data-ttu-id="35baa-103">استيراد ملفات (RCS) بتنسيق XML مع سمات اختيارية</span><span class="sxs-lookup"><span data-stu-id="35baa-103">(RCS) Import files in XML format with optional attributes</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="38288-104">تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوين تنسيق التقارير الإلكترونية (ER) لاستيراد الملفات التي تحتوي على سمات اختيارية بتنسيق XML.</span><span class="sxs-lookup"><span data-stu-id="38288-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can design ER format configuration to import files in XML format containing optional attributes.</span></span> <span data-ttu-id="38288-105">لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء موفر تكوين ووضع علامة عليه على أنه نشط".</span><span class="sxs-lookup"><span data-stu-id="38288-105">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span> <span data-ttu-id="38288-106">قبل البدء، قم بتنزيل وحفظ الملف IncomingDocumentToLearnHowToHandleOptionalAttributes.xml محليًا من [مركز تنزيل Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).</span><span class="sxs-lookup"><span data-stu-id="38288-106">Before you begin, download and save locally the IncomingDocumentToLearnHowToHandleOptionalAttributes.xml file from [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684).</span></span>
+<span data-ttu-id="35baa-104">تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوين تنسيق التقارير الإلكترونية (ER) لاستيراد الملفات التي تحتوي على سمات اختيارية بتنسيق XML.</span><span class="sxs-lookup"><span data-stu-id="35baa-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can design ER format configuration to import files in XML format containing optional attributes.</span></span> <span data-ttu-id="35baa-105">لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء موفر تكوين ووضع علامة عليه على أنه نشط".</span><span class="sxs-lookup"><span data-stu-id="35baa-105">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span> <span data-ttu-id="35baa-106">قبل البدء، قم بتنزيل وحفظ الملف IncomingDocumentToLearnHowToHandleOptionalAttributes.xml محليًا من [مركز تنزيل Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).</span><span class="sxs-lookup"><span data-stu-id="35baa-106">Before you begin, download and save locally the IncomingDocumentToLearnHowToHandleOptionalAttributes.xml file from [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684).</span></span>
 
-1.  <span data-ttu-id="38288-107">انتقل إلى **كل مساحات العمل‬** > **إعداد التقارير الإلكترونية**.</span><span class="sxs-lookup"><span data-stu-id="38288-107">Go to **All workspaces** > **Electronic reporting**.</span></span>
-2.  <span data-ttu-id="38288-108">تأكد من وجود موفر التكوين للشركة النموذجية "Litware, Inc." ومن وضع علامة عليه كـ **نشط**.</span><span class="sxs-lookup"><span data-stu-id="38288-108">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as **Active**.</span></span> <span data-ttu-id="38288-109">إذا لم تشاهد موفر التكوين هذا، فيجب أولاً إكمال الخطوات المذكورة في الإجراء [إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬](er-configuration-provider-mark-it-active-2016-11.md).</span><span class="sxs-lookup"><span data-stu-id="38288-109">If you don’t see this configuration provider, complete the steps in the procedure [Create a configuration provider and mark it as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span>
-3.  <span data-ttu-id="38288-110">انقر فوق **تكوينات إعداد التقارير‬**.</span><span class="sxs-lookup"><span data-stu-id="38288-110">Click **Reporting configurations**.</span></span>
+1.  <span data-ttu-id="35baa-107">انتقل إلى **كل مساحات العمل‬** > **إعداد التقارير الإلكترونية**.</span><span class="sxs-lookup"><span data-stu-id="35baa-107">Go to **All workspaces** > **Electronic reporting**.</span></span>
+2.  <span data-ttu-id="35baa-108">تأكد من وجود موفر التكوين للشركة النموذجية "Litware, Inc." ومن وضع علامة عليه كـ **نشط**.</span><span class="sxs-lookup"><span data-stu-id="35baa-108">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as **Active**.</span></span> <span data-ttu-id="35baa-109">في حالة عدم رؤية موفر التكوين هذا، أكمل الخطوات المذكورة في الإجراء [إنشاء موفرات تكوين وتحديدها بالحالة نشط‬](er-configuration-provider-mark-it-active-2016-11.md).</span><span class="sxs-lookup"><span data-stu-id="35baa-109">If you don’t see this configuration provider, complete the steps in the procedure [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span>
+3.  <span data-ttu-id="35baa-110">انقر فوق **تكوينات إعداد التقارير‬**.</span><span class="sxs-lookup"><span data-stu-id="35baa-110">Click **Reporting configurations**.</span></span>
 
-## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="38288-111">إنشاء تكوين نموذج بيانات جديد</span><span class="sxs-lookup"><span data-stu-id="38288-111">Create a new data model configuration</span></span>
-1.  <span data-ttu-id="38288-112">انقر فوق **إنشاء تكوين** لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="38288-112">Click **Create configuration** to open the drop dialog.</span></span>
-2.  <span data-ttu-id="38288-113">في حقل **الاسم**، اكتب "نموذج لاستيراد ملف xml".</span><span class="sxs-lookup"><span data-stu-id="38288-113">In the **Name** field, type 'Model to import xml file'.</span></span>
-3.  <span data-ttu-id="38288-114">وانقر فوق **إنشاء تكوين**.</span><span class="sxs-lookup"><span data-stu-id="38288-114">Click **Create configuration**.</span></span>
-4.  <span data-ttu-id="38288-115">انقر فوق **المصمم**.</span><span class="sxs-lookup"><span data-stu-id="38288-115">Click **Designer**.</span></span>
-5.  <span data-ttu-id="38288-116">انقر فوق **جديد**  لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="38288-116">Click **New** to open the drop dialog.</span></span>
-6.  <span data-ttu-id="38288-117">في حقل **الاسم**، اكتب "الجذر"‬.</span><span class="sxs-lookup"><span data-stu-id="38288-117">In the **Name** field, type 'Root'.</span></span>
-7.  <span data-ttu-id="38288-118">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="38288-118">Click **Add**.</span></span>
-8.  <span data-ttu-id="38288-119">انقر فوق **جديد**  لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="38288-119">Click **New** to open the drop dialog.</span></span>
-9.  <span data-ttu-id="38288-120">في حقل **الاسم**، اكتب "القائمة"‬.</span><span class="sxs-lookup"><span data-stu-id="38288-120">In the **Name** field, type 'List'.</span></span>
-10. <span data-ttu-id="38288-121">في حقل **نوع الصنف**، حدد **قائمة سجلات**.</span><span class="sxs-lookup"><span data-stu-id="38288-121">In the **Item type** field, select **Record list**.</span></span>
-11. <span data-ttu-id="38288-122">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="38288-122">Click **Add**.</span></span>
-12. <span data-ttu-id="38288-123">انقر فوق **جديد**  لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="38288-123">Click **New** to open the drop dialog.</span></span>
-13. <span data-ttu-id="38288-124">في حقل **الاسم**، اكتب "الرمز".</span><span class="sxs-lookup"><span data-stu-id="38288-124">In the **Name** field, type 'Code'.</span></span>
-14. <span data-ttu-id="38288-125">في الحقل **نوع الصنف**، حدد **سلسلة**.</span><span class="sxs-lookup"><span data-stu-id="38288-125">In the **Item type** field, select **String**.</span></span>
-15. <span data-ttu-id="38288-126">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="38288-126">Click **Add**.</span></span>
-16. <span data-ttu-id="38288-127">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="38288-127">Click **Save**.</span></span>
-17. <span data-ttu-id="38288-128">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="38288-128">Close the page.</span></span>
-18. <span data-ttu-id="38288-129">انقر فوق **تغيير الحالة**.</span><span class="sxs-lookup"><span data-stu-id="38288-129">Click **Change status**.</span></span>
-19. <span data-ttu-id="38288-130">انقر فوق **إكمال**.</span><span class="sxs-lookup"><span data-stu-id="38288-130">Click **Complete**.</span></span>
-20. <span data-ttu-id="38288-131">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="38288-131">Click **OK**.</span></span>
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="35baa-111">إنشاء تكوين نموذج بيانات جديد</span><span class="sxs-lookup"><span data-stu-id="35baa-111">Create a new data model configuration</span></span>
+1.  <span data-ttu-id="35baa-112">انقر فوق **إنشاء تكوين** لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="35baa-112">Click **Create configuration** to open the drop dialog.</span></span>
+2.  <span data-ttu-id="35baa-113">في حقل **الاسم**، اكتب "نموذج لاستيراد ملف xml".</span><span class="sxs-lookup"><span data-stu-id="35baa-113">In the **Name** field, type 'Model to import xml file'.</span></span>
+3.  <span data-ttu-id="35baa-114">وانقر فوق **إنشاء تكوين**.</span><span class="sxs-lookup"><span data-stu-id="35baa-114">Click **Create configuration**.</span></span>
+4.  <span data-ttu-id="35baa-115">انقر فوق **المصمم**.</span><span class="sxs-lookup"><span data-stu-id="35baa-115">Click **Designer**.</span></span>
+5.  <span data-ttu-id="35baa-116">انقر فوق **جديد**  لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="35baa-116">Click **New** to open the drop dialog.</span></span>
+6.  <span data-ttu-id="35baa-117">في حقل **الاسم**، اكتب "الجذر"‬.</span><span class="sxs-lookup"><span data-stu-id="35baa-117">In the **Name** field, type 'Root'.</span></span>
+7.  <span data-ttu-id="35baa-118">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="35baa-118">Click **Add**.</span></span>
+8.  <span data-ttu-id="35baa-119">انقر فوق **جديد**  لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="35baa-119">Click **New** to open the drop dialog.</span></span>
+9.  <span data-ttu-id="35baa-120">في حقل **الاسم**، اكتب "القائمة"‬.</span><span class="sxs-lookup"><span data-stu-id="35baa-120">In the **Name** field, type 'List'.</span></span>
+10. <span data-ttu-id="35baa-121">في حقل **نوع الصنف**، حدد **قائمة سجلات**.</span><span class="sxs-lookup"><span data-stu-id="35baa-121">In the **Item type** field, select **Record list**.</span></span>
+11. <span data-ttu-id="35baa-122">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="35baa-122">Click **Add**.</span></span>
+12. <span data-ttu-id="35baa-123">انقر فوق **جديد**  لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="35baa-123">Click **New** to open the drop dialog.</span></span>
+13. <span data-ttu-id="35baa-124">في حقل **الاسم**، اكتب "الرمز".</span><span class="sxs-lookup"><span data-stu-id="35baa-124">In the **Name** field, type 'Code'.</span></span>
+14. <span data-ttu-id="35baa-125">في الحقل **نوع الصنف**، حدد **سلسلة**.</span><span class="sxs-lookup"><span data-stu-id="35baa-125">In the **Item type** field, select **String**.</span></span>
+15. <span data-ttu-id="35baa-126">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="35baa-126">Click **Add**.</span></span>
+16. <span data-ttu-id="35baa-127">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="35baa-127">Click **Save**.</span></span>
+17. <span data-ttu-id="35baa-128">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="35baa-128">Close the page.</span></span>
+18. <span data-ttu-id="35baa-129">انقر فوق **تغيير الحالة**.</span><span class="sxs-lookup"><span data-stu-id="35baa-129">Click **Change status**.</span></span>
+19. <span data-ttu-id="35baa-130">انقر فوق **إكمال**.</span><span class="sxs-lookup"><span data-stu-id="35baa-130">Click **Complete**.</span></span>
+20. <span data-ttu-id="35baa-131">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="35baa-131">Click **OK**.</span></span>
 
-## <a name="create-a-format-for-data-import"></a><span data-ttu-id="38288-132">إنشاء تنسيق لاستيراد البيانات</span><span class="sxs-lookup"><span data-stu-id="38288-132">Create a format for data import</span></span>
-1.  <span data-ttu-id="38288-133">انقر فوق **إنشاء تكوين** لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="38288-133">Click **Create configuration** to open the drop dialog.</span></span>
-2.  <span data-ttu-id="38288-134">في الحقل **جديد**، أدخل "التنسيق المستند إلى نموذج البيانات نموذج لاستيراد ملف xml".</span><span class="sxs-lookup"><span data-stu-id="38288-134">In the **New** field, enter 'Format based on data model Model to import xml file'.</span></span>
-3.  <span data-ttu-id="38288-135">في حقل **الاسم** ، اكتب "تنسيق لاستيراد ملف xml".</span><span class="sxs-lookup"><span data-stu-id="38288-135">In the **Name** field, type 'Format to import xml file'.</span></span>
-4.  <span data-ttu-id="38288-136">حدد **نعم** في الحقل **دعم استيراد البيانات**.</span><span class="sxs-lookup"><span data-stu-id="38288-136">Select **Yes** in the **Supports data import** field.</span></span>
-5.  <span data-ttu-id="38288-137">وانقر فوق **إنشاء تكوين**.</span><span class="sxs-lookup"><span data-stu-id="38288-137">Click **Create configuration**.</span></span>
+## <a name="create-a-format-for-data-import"></a><span data-ttu-id="35baa-132">إنشاء تنسيق لاستيراد البيانات</span><span class="sxs-lookup"><span data-stu-id="35baa-132">Create a format for data import</span></span>
+1.  <span data-ttu-id="35baa-133">انقر فوق **إنشاء تكوين** لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="35baa-133">Click **Create configuration** to open the drop dialog.</span></span>
+2.  <span data-ttu-id="35baa-134">في الحقل **جديد**، أدخل "التنسيق المستند إلى نموذج البيانات نموذج لاستيراد ملف xml".</span><span class="sxs-lookup"><span data-stu-id="35baa-134">In the **New** field, enter 'Format based on data model Model to import xml file'.</span></span>
+3.  <span data-ttu-id="35baa-135">في حقل **الاسم** ، اكتب "تنسيق لاستيراد ملف xml".</span><span class="sxs-lookup"><span data-stu-id="35baa-135">In the **Name** field, type 'Format to import xml file'.</span></span>
+4.  <span data-ttu-id="35baa-136">حدد **نعم** في الحقل **دعم استيراد البيانات**.</span><span class="sxs-lookup"><span data-stu-id="35baa-136">Select **Yes** in the **Supports data import** field.</span></span>
+5.  <span data-ttu-id="35baa-137">وانقر فوق **إنشاء تكوين**.</span><span class="sxs-lookup"><span data-stu-id="35baa-137">Click **Create configuration**.</span></span>
 
-## <a name="design-a-format-to-parse-incoming-file-in-xml-format"></a><span data-ttu-id="38288-138">تصميم تنسيق لتحليل الملف الوارد بتنسيق xml</span><span class="sxs-lookup"><span data-stu-id="38288-138">Design a format to parse incoming file in xml format</span></span>
-1.  <span data-ttu-id="38288-139">انقر فوق **المصمم**.</span><span class="sxs-lookup"><span data-stu-id="38288-139">Click **Designer**.</span></span>
-2.  <span data-ttu-id="38288-140">انقر فوق **إضافة جذر** لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="38288-140">Click **Add root** to open the drop dialog.</span></span>
-3.  <span data-ttu-id="38288-141">في الشجرة، **XML\العنصر**.</span><span class="sxs-lookup"><span data-stu-id="38288-141">In the tree, select **XML\Element**.</span></span>
-4.  <span data-ttu-id="38288-142">في حقل **الاسم**، اكتب "الجذر"‬.</span><span class="sxs-lookup"><span data-stu-id="38288-142">In the **Name** field, type 'root'.</span></span>
-5.  <span data-ttu-id="38288-143">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="38288-143">Click **OK**.</span></span>
-6.  <span data-ttu-id="38288-144">انقر فوق **إضافة** لفتح مربع حوار الإسقاط.</span><span class="sxs-lookup"><span data-stu-id="38288-144">Click **Add** to open the drop dialog.</span></span>
-7.  <span data-ttu-id="38288-145">في الشجرة، **XML\العنصر**.</span><span class="sxs-lookup"><span data-stu-id="38288-145">In the tree, select **XML\Element**.</span></span>
-8.  <span data-ttu-id="38288-146">في حقل **الاسم**، اكتب "المستند".</span><span class="sxs-lookup"><span data-stu-id="38288-146">In the **Name** field, type 'document'.</span></span>
-9.  <span data-ttu-id="38288-147">في حقل **التعدد**، حدد **واحد كثير‬**.</span><span class="sxs-lookup"><span data-stu-id="38288-147">In the **Multiplicity** field, select **One many**.</span></span>
-10. <span data-ttu-id="38288-148">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="38288-148">Click **OK**.</span></span>
-11. <span data-ttu-id="38288-149">في الشجرة، حدد **root\document**.</span><span class="sxs-lookup"><span data-stu-id="38288-149">In the tree, select **root\document**.</span></span>
-12. <span data-ttu-id="38288-150">انقر فوق **إضافة** لفتح مربع حوار الإسقاط.</span><span class="sxs-lookup"><span data-stu-id="38288-150">Click **Add** to open the drop dialog.</span></span>
-13. <span data-ttu-id="38288-151">في الشجرة، حدد **XML\سمة**.</span><span class="sxs-lookup"><span data-stu-id="38288-151">In the tree, select **XML\Attribute**.</span></span>
-14. <span data-ttu-id="38288-152">في حقل **الاسم**، اكتب "المعرف".</span><span class="sxs-lookup"><span data-stu-id="38288-152">In the **Name** field, type 'ID'.</span></span>
-15. <span data-ttu-id="38288-153">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="38288-153">Click **OK**.</span></span>
-16. <span data-ttu-id="38288-154">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="38288-154">Click **Save**.</span></span>
+## <a name="design-a-format-to-parse-incoming-file-in-xml-format"></a><span data-ttu-id="35baa-138">تصميم تنسيق لتحليل الملف الوارد بتنسيق xml</span><span class="sxs-lookup"><span data-stu-id="35baa-138">Design a format to parse incoming file in xml format</span></span>
+1.  <span data-ttu-id="35baa-139">انقر فوق **المصمم**.</span><span class="sxs-lookup"><span data-stu-id="35baa-139">Click **Designer**.</span></span>
+2.  <span data-ttu-id="35baa-140">انقر فوق **إضافة جذر** لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="35baa-140">Click **Add root** to open the drop dialog.</span></span>
+3.  <span data-ttu-id="35baa-141">في الشجرة، **XML\العنصر**.</span><span class="sxs-lookup"><span data-stu-id="35baa-141">In the tree, select **XML\Element**.</span></span>
+4.  <span data-ttu-id="35baa-142">في حقل **الاسم**، اكتب "الجذر"‬.</span><span class="sxs-lookup"><span data-stu-id="35baa-142">In the **Name** field, type 'root'.</span></span>
+5.  <span data-ttu-id="35baa-143">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="35baa-143">Click **OK**.</span></span>
+6.  <span data-ttu-id="35baa-144">انقر فوق **إضافة** لفتح مربع حوار الإسقاط.</span><span class="sxs-lookup"><span data-stu-id="35baa-144">Click **Add** to open the drop dialog.</span></span>
+7.  <span data-ttu-id="35baa-145">في الشجرة، **XML\العنصر**.</span><span class="sxs-lookup"><span data-stu-id="35baa-145">In the tree, select **XML\Element**.</span></span>
+8.  <span data-ttu-id="35baa-146">في حقل **الاسم**، اكتب "المستند".</span><span class="sxs-lookup"><span data-stu-id="35baa-146">In the **Name** field, type 'document'.</span></span>
+9.  <span data-ttu-id="35baa-147">في حقل **التعدد**، حدد **واحد كثير‬**.</span><span class="sxs-lookup"><span data-stu-id="35baa-147">In the **Multiplicity** field, select **One many**.</span></span>
+10. <span data-ttu-id="35baa-148">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="35baa-148">Click **OK**.</span></span>
+11. <span data-ttu-id="35baa-149">في الشجرة، حدد **root\document**.</span><span class="sxs-lookup"><span data-stu-id="35baa-149">In the tree, select **root\document**.</span></span>
+12. <span data-ttu-id="35baa-150">انقر فوق **إضافة** لفتح مربع حوار الإسقاط.</span><span class="sxs-lookup"><span data-stu-id="35baa-150">Click **Add** to open the drop dialog.</span></span>
+13. <span data-ttu-id="35baa-151">في الشجرة، حدد **XML\سمة**.</span><span class="sxs-lookup"><span data-stu-id="35baa-151">In the tree, select **XML\Attribute**.</span></span>
+14. <span data-ttu-id="35baa-152">في حقل **الاسم**، اكتب "المعرف".</span><span class="sxs-lookup"><span data-stu-id="35baa-152">In the **Name** field, type 'ID'.</span></span>
+15. <span data-ttu-id="35baa-153">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="35baa-153">Click **OK**.</span></span>
+16. <span data-ttu-id="35baa-154">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="35baa-154">Click **Save**.</span></span>
 
-## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a><span data-ttu-id="38288-155">تصميم تعيين تنسيق لحفظ المعلومات التي تم تحليلها لنموذج البيانات</span><span class="sxs-lookup"><span data-stu-id="38288-155">Design a format mapping to save parsed information to data model</span></span>
-1. <span data-ttu-id="38288-156">انقر فوق **تعيين تنسيق لنموذج‬**.</span><span class="sxs-lookup"><span data-stu-id="38288-156">Click **Map format to model**.</span></span>
-2. <span data-ttu-id="38288-157">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="38288-157">Click **New**.</span></span>
-3. <span data-ttu-id="38288-158">في حقل **التعريف**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="38288-158">In the **Definition** field, enter or select a value.</span></span>
-4. <span data-ttu-id="38288-159">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="38288-159">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="38288-160">في حقل **الاسم**، اكتب "تعيين".</span><span class="sxs-lookup"><span data-stu-id="38288-160">In the **Name** field, type 'Mapping'.</span></span>
-6. <span data-ttu-id="38288-161">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="38288-161">Click **Save**.</span></span>
-7. <span data-ttu-id="38288-162">انقر فوق **المصمم**.</span><span class="sxs-lookup"><span data-stu-id="38288-162">Click **Designer**.</span></span>
-8. <span data-ttu-id="38288-163">في الشجرة، وسَّع **التنسيق**.</span><span class="sxs-lookup"><span data-stu-id="38288-163">In the tree, expand **format**.</span></span>
-9. <span data-ttu-id="38288-164">في الشجرة، وسَّع **format\root: XML Element(root)**.</span><span class="sxs-lookup"><span data-stu-id="38288-164">In the tree, expand **format\root: XML Element(root)**.</span></span>
-10. <span data-ttu-id="38288-165">في الشجرة، حدد \**format\root: XML Element(root)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="38288-165">In the tree, select \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="38288-166">(المستند)\*\*.</span><span class="sxs-lookup"><span data-stu-id="38288-166">(document)\*\*.</span></span>
-11. <span data-ttu-id="38288-167">انقر فوق **ربط**.</span><span class="sxs-lookup"><span data-stu-id="38288-167">Click **Bind**.</span></span>
-12. <span data-ttu-id="38288-168">في الشجرة، وسَّع \**format\root: XML Element(root)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="38288-168">In the tree, expand \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="38288-169">(المستند)\*\*.</span><span class="sxs-lookup"><span data-stu-id="38288-169">(document)\*\*.</span></span>
-13. <span data-ttu-id="38288-170">في الشجرة، حدد \**format\root: XML Element(root)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="38288-170">In the tree, select \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="38288-171">(المستند)\معرف\*\*.</span><span class="sxs-lookup"><span data-stu-id="38288-171">(document)\id\*\*.</span></span>
-14. <span data-ttu-id="38288-172">في الشجرة، وسّع **القائمة = format.root.document**.</span><span class="sxs-lookup"><span data-stu-id="38288-172">In the tree, expand **List = format.root.document**.</span></span>
-15. <span data-ttu-id="38288-173">في الشجرة، حدد **القائمة = format.root.document\Code**.</span><span class="sxs-lookup"><span data-stu-id="38288-173">In the tree, select **List = format.root.document\Code**.</span></span>
-16. <span data-ttu-id="38288-174">انقر فوق **ربط**.</span><span class="sxs-lookup"><span data-stu-id="38288-174">Click **Bind**.</span></span>
-17. <span data-ttu-id="38288-175">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="38288-175">Click **Save**.</span></span>
-18. <span data-ttu-id="38288-176">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="38288-176">Close the page.</span></span>
+## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a><span data-ttu-id="35baa-155">تصميم تعيين تنسيق لحفظ المعلومات التي تم تحليلها لنموذج البيانات</span><span class="sxs-lookup"><span data-stu-id="35baa-155">Design a format mapping to save parsed information to data model</span></span>
+1. <span data-ttu-id="35baa-156">انقر فوق **تعيين تنسيق لنموذج‬**.</span><span class="sxs-lookup"><span data-stu-id="35baa-156">Click **Map format to model**.</span></span>
+2. <span data-ttu-id="35baa-157">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="35baa-157">Click **New**.</span></span>
+3. <span data-ttu-id="35baa-158">في حقل **التعريف**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="35baa-158">In the **Definition** field, enter or select a value.</span></span>
+4. <span data-ttu-id="35baa-159">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="35baa-159">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="35baa-160">في حقل **الاسم**، اكتب "تعيين".</span><span class="sxs-lookup"><span data-stu-id="35baa-160">In the **Name** field, type 'Mapping'.</span></span>
+6. <span data-ttu-id="35baa-161">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="35baa-161">Click **Save**.</span></span>
+7. <span data-ttu-id="35baa-162">انقر فوق **المصمم**.</span><span class="sxs-lookup"><span data-stu-id="35baa-162">Click **Designer**.</span></span>
+8. <span data-ttu-id="35baa-163">في الشجرة، وسَّع **التنسيق**.</span><span class="sxs-lookup"><span data-stu-id="35baa-163">In the tree, expand **format**.</span></span>
+9. <span data-ttu-id="35baa-164">في الشجرة، وسَّع **format\root: XML Element(root)**.</span><span class="sxs-lookup"><span data-stu-id="35baa-164">In the tree, expand **format\root: XML Element(root)**.</span></span>
+10. <span data-ttu-id="35baa-165">في الشجرة، حدد \**format\root: XML Element(root)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="35baa-165">In the tree, select \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="35baa-166">(المستند)\*\*.</span><span class="sxs-lookup"><span data-stu-id="35baa-166">(document)\*\*.</span></span>
+11. <span data-ttu-id="35baa-167">انقر فوق **ربط**.</span><span class="sxs-lookup"><span data-stu-id="35baa-167">Click **Bind**.</span></span>
+12. <span data-ttu-id="35baa-168">في الشجرة، وسَّع \**format\root: XML Element(root)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="35baa-168">In the tree, expand \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="35baa-169">(المستند)\*\*.</span><span class="sxs-lookup"><span data-stu-id="35baa-169">(document)\*\*.</span></span>
+13. <span data-ttu-id="35baa-170">في الشجرة، حدد \**format\root: XML Element(root)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="35baa-170">In the tree, select \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="35baa-171">(المستند)\معرف\*\*.</span><span class="sxs-lookup"><span data-stu-id="35baa-171">(document)\id\*\*.</span></span>
+14. <span data-ttu-id="35baa-172">في الشجرة، وسّع **القائمة = format.root.document**.</span><span class="sxs-lookup"><span data-stu-id="35baa-172">In the tree, expand **List = format.root.document**.</span></span>
+15. <span data-ttu-id="35baa-173">في الشجرة، حدد **القائمة = format.root.document\Code**.</span><span class="sxs-lookup"><span data-stu-id="35baa-173">In the tree, select **List = format.root.document\Code**.</span></span>
+16. <span data-ttu-id="35baa-174">انقر فوق **ربط**.</span><span class="sxs-lookup"><span data-stu-id="35baa-174">Click **Bind**.</span></span>
+17. <span data-ttu-id="35baa-175">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="35baa-175">Click **Save**.</span></span>
+18. <span data-ttu-id="35baa-176">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="35baa-176">Close the page.</span></span>
  
-## <a name="run-format-mapping"></a><span data-ttu-id="38288-177">تشغيل تعيين التنسيق</span><span class="sxs-lookup"><span data-stu-id="38288-177">Run format mapping</span></span>
-1. <span data-ttu-id="38288-178">انقر فوق **تشغيل**.</span><span class="sxs-lookup"><span data-stu-id="38288-178">Click **Run**.</span></span>
-2. <span data-ttu-id="38288-179">انقر فوق **استعراض** وحدد **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.</span><span class="sxs-lookup"><span data-stu-id="38288-179">Click **Browse** and select **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.</span></span>
-3. <span data-ttu-id="38288-180">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="38288-180">Click **OK**.</span></span>
+## <a name="run-format-mapping"></a><span data-ttu-id="35baa-177">تشغيل تعيين التنسيق</span><span class="sxs-lookup"><span data-stu-id="35baa-177">Run format mapping</span></span>
+1. <span data-ttu-id="35baa-178">انقر فوق **تشغيل**.</span><span class="sxs-lookup"><span data-stu-id="35baa-178">Click **Run**.</span></span>
+2. <span data-ttu-id="35baa-179">انقر فوق **استعراض** وحدد **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.</span><span class="sxs-lookup"><span data-stu-id="35baa-179">Click **Browse** and select **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.</span></span>
+3. <span data-ttu-id="35baa-180">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="35baa-180">Click **OK**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="38288-181">لم يتم استيراد الملف المحدد نظرًا لأن تصميم التنسيق يفترض وجود سمة "المعرف" للعنصر "المستند"، ولكن الملف المستورد لا يحتوي علي مثل هذه السمة.</span><span class="sxs-lookup"><span data-stu-id="38288-181">The selected file has not been imported as the format design assumes the existence of ‘id’ attribute for the ‘document’ element, but the imported file contains no such attribute.</span></span>
+> <span data-ttu-id="35baa-181">لم يتم استيراد الملف المحدد نظرًا لأن تصميم التنسيق يفترض وجود سمة "المعرف" للعنصر "المستند"، ولكن الملف المستورد لا يحتوي علي مثل هذه السمة.</span><span class="sxs-lookup"><span data-stu-id="35baa-181">The selected file has not been imported as the format design assumes the existence of ‘id’ attribute for the ‘document’ element, but the imported file contains no such attribute.</span></span>
 
-## <a name="modify-format-structure-to-handle-xml-attribute-as-optional"></a><span data-ttu-id="38288-182">عدِّل بنية التنسيق لمعالجة سمة xml كملف اختياري</span><span class="sxs-lookup"><span data-stu-id="38288-182">Modify format structure to handle xml attribute as optional</span></span>
-1. <span data-ttu-id="38288-183">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="38288-183">Close the page.</span></span>
-2. <span data-ttu-id="38288-184">في الشجرة، وسَّع **root\document**.</span><span class="sxs-lookup"><span data-stu-id="38288-184">In the tree, expand **root\document**.</span></span>
-3. <span data-ttu-id="38288-185">في الشجرة، حدد **root\document\id**.</span><span class="sxs-lookup"><span data-stu-id="38288-185">In the tree, select **root\document\id**.</span></span>
-4. <span data-ttu-id="38288-186">حدد **نعم** في حقل **سلسلة فارغة للسمة المفقودة**.</span><span class="sxs-lookup"><span data-stu-id="38288-186">Select **Yes** in the **Empty string for missing attribute** field.</span></span>
-5. <span data-ttu-id="38288-187">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="38288-187">Click **Save**.</span></span>
+## <a name="modify-format-structure-to-handle-xml-attribute-as-optional"></a><span data-ttu-id="35baa-182">عدِّل بنية التنسيق لمعالجة سمة xml كملف اختياري</span><span class="sxs-lookup"><span data-stu-id="35baa-182">Modify format structure to handle xml attribute as optional</span></span>
+1. <span data-ttu-id="35baa-183">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="35baa-183">Close the page.</span></span>
+2. <span data-ttu-id="35baa-184">في الشجرة، وسَّع **root\document**.</span><span class="sxs-lookup"><span data-stu-id="35baa-184">In the tree, expand **root\document**.</span></span>
+3. <span data-ttu-id="35baa-185">في الشجرة، حدد **root\document\id**.</span><span class="sxs-lookup"><span data-stu-id="35baa-185">In the tree, select **root\document\id**.</span></span>
+4. <span data-ttu-id="35baa-186">حدد **نعم** في حقل **سلسلة فارغة للسمة المفقودة**.</span><span class="sxs-lookup"><span data-stu-id="35baa-186">Select **Yes** in the **Empty string for missing attribute** field.</span></span>
+5. <span data-ttu-id="35baa-187">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="35baa-187">Click **Save**.</span></span>
  
-## <a name="run-format-mapping-to-test-changes"></a><span data-ttu-id="38288-188">تشغيل تعيين التنسيق لاختبار التغييرات</span><span class="sxs-lookup"><span data-stu-id="38288-188">Run format mapping to test changes</span></span>
-1. <span data-ttu-id="38288-189">انقر فوق **تعيين تنسيق لنموذج‬**.</span><span class="sxs-lookup"><span data-stu-id="38288-189">Click **Map format to model**.</span></span>
-2. <span data-ttu-id="38288-190">انقر فوق **تشغيل**.</span><span class="sxs-lookup"><span data-stu-id="38288-190">Click **Run**.</span></span>
-3. <span data-ttu-id="38288-191">انقر فوق **استعراض** وحدد ملف **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.</span><span class="sxs-lookup"><span data-stu-id="38288-191">Click **Browse** and select the **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml** file.</span></span>
-4. <span data-ttu-id="38288-192">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="38288-192">Click **OK**.</span></span>
-5. <span data-ttu-id="38288-193">راجع الملف المنشأ.</span><span class="sxs-lookup"><span data-stu-id="38288-193">Review the generated file.</span></span> 
+## <a name="run-format-mapping-to-test-changes"></a><span data-ttu-id="35baa-188">تشغيل تعيين التنسيق لاختبار التغييرات</span><span class="sxs-lookup"><span data-stu-id="35baa-188">Run format mapping to test changes</span></span>
+1. <span data-ttu-id="35baa-189">انقر فوق **تعيين تنسيق لنموذج‬**.</span><span class="sxs-lookup"><span data-stu-id="35baa-189">Click **Map format to model**.</span></span>
+2. <span data-ttu-id="35baa-190">انقر فوق **تشغيل**.</span><span class="sxs-lookup"><span data-stu-id="35baa-190">Click **Run**.</span></span>
+3. <span data-ttu-id="35baa-191">انقر فوق **استعراض** وحدد ملف **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.</span><span class="sxs-lookup"><span data-stu-id="35baa-191">Click **Browse** and select the **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml** file.</span></span>
+4. <span data-ttu-id="35baa-192">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="35baa-192">Click **OK**.</span></span>
+5. <span data-ttu-id="35baa-193">راجع الملف المنشأ.</span><span class="sxs-lookup"><span data-stu-id="35baa-193">Review the generated file.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="38288-194">تم استيراد نفس الملف لأن تصميم التنسيق يأخذ بعين الاعتبار سمة "المعرف" لعنصر "المستند" باعتبارها اختيارية.</span><span class="sxs-lookup"><span data-stu-id="38288-194">The same file has been imported as the format design now consider the ‘id’ attribute for the ‘document’ element as optional.</span></span>
+> <span data-ttu-id="35baa-194">تم استيراد نفس الملف لأن تصميم التنسيق يأخذ بعين الاعتبار سمة "المعرف" لعنصر "المستند" باعتبارها اختيارية.</span><span class="sxs-lookup"><span data-stu-id="35baa-194">The same file has been imported as the format design now consider the ‘id’ attribute for the ‘document’ element as optional.</span></span>
