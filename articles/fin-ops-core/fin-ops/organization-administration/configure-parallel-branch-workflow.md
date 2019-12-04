@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190133"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811347"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>تكوين فروع موازٍية في سير عمل
 
@@ -46,8 +46,8 @@ ms.locfileid: "2190133"
 اتبع هذه الخطوات لتصميم وتكوين عناصر الفرع الموازي.
 
 1. انقر نقرًا مزدوجًا فوق الفرع الموازي.
-2. اسحب عناصر سير العمل إلى لوحة الرسم، ثم قم بتكوين العناصر، تمامًا كما تفعل لإنشاء أي سير عمل آخر. لمزيد من المعلومات، راجع [إنشاء سير عمل](create-workflow.md).
+2. اسحب عناصر سير العمل إلى لوحة الرسم، ثم قم بتكوين العناصر، تمامًا كما تفعل لإنشاء أي سير عمل آخر. لمزيد من المعلومات، راجع [نظرة عامة على إنشاء مهام سير العمل](create-workflow.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[إنشاء سير عمل](create-workflow.md)
+[نظرة عامة حول إنشاء عمليات سير العمل](create-workflow.md)

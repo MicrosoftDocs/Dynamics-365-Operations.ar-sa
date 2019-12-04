@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190087"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811278"
 ---
 # <a name="create-workflows-overview"></a>نظرة عامة حول إنشاء عمليات سير العمل
 
@@ -60,15 +60,15 @@ ms.locfileid: "2190087"
 
 قم بتكوين كل عنصر قمت بسحبه إلى اللوحة القماشية. لمزيد من المعلومات حول كيفية تكوين كل عنصر سير عمل، راجع المواضيع التالية:
 
-- [تكوين مهمة يدوية](configure-manual-task-workflow.md)
-- [تكوين مهمة تلقائية](configure-automated-task-workflow.md)
-- [تكوين عملية اعتماد](configure-approval-process-workflow.md)
-- [تكوين خطوة اعتماد](configure-approval-step-workflow.md)
-- [تكوين قرار يدوي](configure-manual-decision-workflow.md)
-- [تكوين قرار شرطي](configure-conditional-decision-workflow.md)
-- [تكوين نشاط موازٍ](configure-parallel-activity-workflow.md)
+- [تكوين المهام اليدوية في سير عمل](configure-manual-task-workflow.md)
+- [تكوين المهام المؤتمتة في سير عمل](configure-automated-task-workflow.md)
+- [تكوين عمليات الاعتماد في سير عمل](configure-approval-process-workflow.md)
+- [تكوين خطوات الاعتماد في سير عمل](configure-approval-step-workflow.md)
+- [تكوين القرارات اليدوية في سير عمل](configure-manual-decision-workflow.md)
+- [تكوين القرارات الشرطية في سير عمل‬](configure-conditional-decision-workflow.md)
+- [تكوين فروع موازٍية في سير عمل](configure-parallel-activity-workflow.md)
 - [تكوين فرع موازٍ](configure-parallel-branch-workflow.md)
-- [تكوين سير عمل لعنصر بند](configure-line-item-workflow.md)
+- [تكوين عمليات سير عمل لعنصر بند](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>حل أية أخطاء أو تحذيرات
 

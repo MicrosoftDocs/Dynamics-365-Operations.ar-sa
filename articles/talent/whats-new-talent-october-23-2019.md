@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662655"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772886"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (23 أكتوبر 2019)
 
@@ -47,7 +47,7 @@ ms.locfileid: "2662655"
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>إزالة الميزات التي تفتح ميزة معاينة التسجيل
 
-بالتزامن مع إعلاننا الخاص بالاستثمارات الاستراتيجية المنشور في مدونة التفوق العملي لتحسين core HR، تعمل Microsoft على إزالة الميزات التي تفتح ميزة التسجيل المعاينة العامة في 18 أكتوبر 2019. بدلاً من ذلك، سيتم إصدار وظيفة جديدة في المستقبل. لن يتم اعتماد استخدام الإنتاج للميزات التي تفتح ميزة التسجيل المتاحة حاليًا في المعاينة العامة.
+بالتزامن مع إعلاننا الخاص بالاستثمارات الاستراتيجية المنشور في [مدونة التفوق العملي لتحسين core HR](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence)، تعمل Microsoft على إزالة الميزات التي تفتح ميزة التسجيل المعاينة العامة في 18 أكتوبر 2019. بدلاً من ذلك، سيتم إصدار وظيفة جديدة في المستقبل. لن يتم اعتماد استخدام الإنتاج للميزات التي تفتح ميزة التسجيل المتاحة حاليًا في المعاينة العامة.
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>حدث خطأ أثناء تحديد البلد/المنطقة في نموذج العامل للمرة الثانية (350294)
 
@@ -69,7 +69,7 @@ ms.locfileid: "2662655"
 
 في هذا الإصدار، سيتم فقط فتح شروط التوظيف الخاصة بالموظفين المحددين في Excel. كما يتم أيضا سداد الرهن بالكامل للشركة.
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>الاقتران بين كيان عطلة تقويم العمل وكيان تقويم العمل مفقود في Common Data Service -(324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>الاقتران بين كيان عطلة تقويم العمل وكيان تقويم العمل مفقود في Common Data Service (324178)
 
 تمت إضافة هذه العلاقة مع الإصدار. سيؤدي هذا التغيير إلى تمكين أيام العمل للموظف للعرض في PowerApps. 
 

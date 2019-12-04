@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6e6b8d6243c1f7c5831baaee91baf38d51e0c26
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185234"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769987"
 ---
 # <a name="practice-manager-power-bi-content"></a>محتوى "إدارة الممارسات" في Power BI
 
@@ -58,7 +58,7 @@ ms.locfileid: "2185234"
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 
-تُستخدم البيانات التالية لملء صفحات التقارير في محتوى **إدارة الممارسات** في Power BI. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات Microsoft SQL Server تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع مخزن الكيانات](power-bi-integration-entity-store.md).
+تُستخدم البيانات التالية لملء صفحات التقارير في محتوى **إدارة الممارسات** في Power BI. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات Microsoft SQL Server تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [تكامل Power BI مع مخزن الكيانات](power-bi-integration-entity-store.md).
 
 تصف الأقسام التالية القياسات التجميعية‬ التي يتم استخدامها في كل كيان.
 

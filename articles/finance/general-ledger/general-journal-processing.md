@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570230"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771812"
 ---
 # <a name="general-journal-processing"></a>معالجة دفتر اليومية العام
 
@@ -85,7 +85,7 @@ ms.locfileid: "2570230"
 هياكل المحاسبة وهياكل القواعد المتقدمة تعتبر بالغة الأهمية لضمان أن يتم التقاط البيانات اللازمة للتقارير المالية وتتبع الأداء أثناء معالجة دفتر اليومية العام وأية وثائق. وتسمح لك هياكل المحاسبة وهياكل القواعد المتقدمة بتفصيل تجربة إدخال البيانات. ويمكنك السماح بإدخال البيانات فقط للأبعاد المالية ذات الصلة في كل حالة، ويمكن أيضًا فرض متطلب الحصول على البيانات المطلوبة والدقيقة دائماً.
 
 لمزيد من المعلومات، راجع الموضوعات التالية:
-- [التخطيط: دليل الحسابات](plan-chart-of-accounts.md) 
+- [تخطيط دليل الحسابات](plan-chart-of-accounts.md) 
 - [إنشاء قواعد متقدمة لدفاتر اليومية](tasks/create-advanced-rules-journals.md)
 - [إنشاء إدخال دفتر يومية باستخدام قالب](tasks/create-journal-entry-template.md)
 - [إنشاء دفاتر اليومية والتحقق من صحتها](tasks/create-validate-journals.md)

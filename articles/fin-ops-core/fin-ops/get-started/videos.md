@@ -3,7 +3,7 @@ title: مقاطع فيديو
 description: تسرد هذه الصفحة مقاطع الفيديو "الإرشادية" والأحاديث التقنية المتعلقة بتطبيقات Finance and Operations التي أنشأتها Microsoft والمتوفرة على YouTube ومواقع أخرى.
 author: josaw1
 manager: AnnBe
-ms.date: 10/20/2019
+ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: fb14ffa500fcf84030eca075545716a79d7b2b27
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635093"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781840"
 ---
 # <a name="videos"></a>مقاطع فيديو 
 
@@ -82,7 +82,7 @@ ms.locfileid: "2635093"
 
 ### <a name="customize-the-app"></a>تخصيص التطبيق
 - [إضافة حقول مخصصة](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [تضمين PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+- [تضمين Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 ### <a name="expenses"></a>المصروفات
 - [تجربة المصروفات](https://youtu.be/Ocy-MsTvEE0)
@@ -101,6 +101,9 @@ ms.locfileid: "2635093"
 ### <a name="organization-administration"></a>إدارة المؤسسة
 
 - [إدارة المستندات](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="revenue-recognition"></a>إقرار الإيرادات
+- [كيفية استخدام إقرار الإيرادات](https://youtu.be/v3amIsiqvoo)
 
 ### <a name="tax-engine"></a>محرك الضريبة
 

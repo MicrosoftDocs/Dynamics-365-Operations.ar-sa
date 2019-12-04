@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90d9176a2ca37b581ef82306cc1ceef515ceb624
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6c15402993568c53eda8e03351fc2fccbcd82ab8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187879"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770817"
 ---
 # <a name="cost-object-dimensions"></a>أبعاد كائن التكاليف
 
@@ -37,7 +37,7 @@ ms.locfileid: "2187879"
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>أبعاد كائن التكلفة وأعضاء أبعاد كائن التكلفة
 تُعرف كائنات التكلفة بالاسم *أبعاد كائن التكلفة*. بعد أن تحدد الكيان الذي يجب أن يرجع إليه بُعد كائن التكلفة، يجب تحديد قيم الأبعاد الفردية أو استيرادها إلى محاسبة التكاليف من أنظمة مصادر أخرى. تُعرف قيم الأبعاد الفردية هذه بالاسم *أعضاء أبعاد كائن التكلفة*. على سبيل المثال، تريد استخدام البعد المالي الذي يسمى مركز التكلفة كبُعد كائن التكلفة. للاطلاع على كيفية تدفق التكاليف إلى مراكز التكلفة الفردية، يجب عليك استيراد أعضاء أبعاد كائن التكلفة. وفي هذه الحالة، تكون أعضاء أبعاد كائن تكلفة مراكز التكلفة الفعلية، مثل المبيعات والإنتاج والإدارة والمواقع الجغرافية. تظهر لقطة الشاشة التالية مثالاً لمراكز التكلفة كبعد كائن التكلفة مع مراكز التكلفة الفعلية الخاصة به كأعضاء أبعاد كائن التكلفة. 
 
-[![أبعاد كائن التكلفة](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![لقطة شاشة تعرض مراكز التكلفة كبعد كائن تكلفة](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>استيراد أعضاء أبعاد كائن التكلفة من خلال موصلات البيانات
 لتسهيل عملية استيراد أعضاء أبعاد كائن التكلفة، استخدم موصلات البيانات لاسترداد القيم من الكيانات التي تريد استخدامها كأبعاد كائن التكلفة. ويمكنك استخدام موصلات البيانات المنشأة مسبقًا أو موصلات البيانات المخصصة التق تقوم أنت بإنشائها.

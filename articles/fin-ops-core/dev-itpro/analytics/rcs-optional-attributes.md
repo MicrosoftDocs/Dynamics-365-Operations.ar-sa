@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182820"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769937"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>استيراد ملفات بتنسيق XML مع سمات اختيارية
 
 يمكنك تصميم تنسيقات إعداد التقارير الإلكترونية (ER) لتحليل المستندات الإلكترونية الواردة بتنسيق XML. يمكن تحديد سمات معينة لعناصر XML بتنسيق ER مصمم كخيار اختياري. سيسمح لك ذلك بمعالجة الملفات الواردة باستخدام سمات XML هذه ومن دونها بشكل صحيح. يمكنك بعد ذلك استخدام المحتوى من هذه الملفات لتحديث بيانات التطبيق.
 
-لمعرفة المزيد حول هذه الميزة، أكمل الخطوات الموجودة في الموضوع، [استيراد ملفات RCS بتنسيق XML مع سمات اختيارية](tasks/import-files-xml-format-optional-attributes.md)، وهي جزء من العملية التجارية 7.5.4.3 اكتساب/تطوير خدمة تكنولوجيا المعلومات/مكونات الحل (10677). يمكنك تنزيل دليل المهام هذا وملفات العينة المرتبطة من [مركز تنزيل Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
+لمعرفة المزيد حول هذه الميزة، أكمل الخطوات الموجودة في الموضوع، [استيراد ملفات (RCS) بتنسيق XML مع سمات اختيارية](tasks/import-files-xml-format-optional-attributes.md)، وهي جزء من العملية التجارية 7.5.4.3 اكتساب/تطوير خدمة تكنولوجيا المعلومات/مكونات الحل (10677). يمكنك تنزيل دليل المهام هذا وملفات العينة المرتبطة من [مركز تنزيل Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
 
 
 | وصف المحتوى       | الملف                                                         |
@@ -36,10 +36,10 @@ ms.locfileid: "2182820"
 | دليل المهام                | استيراد ملفات RCS بتنسيق XML مع سمات اختيارية.axtr |
 
 
-تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوين تنسيق التقارير الإلكترونية (ER) لاستيراد الملفات التي تحتوي على سمات اختيارية بتنسيق XML. لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء [إنشاء موفر تكوين وتحديده بالحالة نشط](tasks/er-configuration-provider-mark-it-active-2016-11.md). قبل البدء، نزِّل الملف IncomingDocumentToLearnHowToHandleOptionalAttributes.xml من مركز تنزيل Microsoft واحفظه محليًا (https://go.microsoft.com/fwlink/?linkid=874684 ).
+تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوين تنسيق التقارير الإلكترونية (ER) لاستيراد الملفات التي تحتوي على سمات اختيارية بتنسيق XML. لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء، [إنشاء موفرات تكوين وتحديدها بالحالة نشط](tasks/er-configuration-provider-mark-it-active-2016-11.md). قبل البدء، نزِّل الملف IncomingDocumentToLearnHowToHandleOptionalAttributes.xml من مركز تنزيل Microsoft واحفظه محليًا (https://go.microsoft.com/fwlink/?linkid=874684 ).
 
 1. انتقل إلى **إدارة المؤسسة** > **مساحات العمل‬** > **إعداد التقارير الإلكترونية**‬.
-2. تأكد من وجود موفر التكوين للشركة النموذجية "Litware, Inc." ومن وضع علامة عليه كـ **نشط**. في حالة عدم رؤية موفر التكوين هذا، يجب إكمال الخطوات المذكورة في الموضوع، [إنشاء موفر تكوين وتحديدها بالحالة نشط‬](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. تأكد من وجود موفر التكوين للشركة النموذجية "Litware, Inc." ومن وضع علامة عليه كـ **نشط**. في حالة عدم رؤية موفر التكوين هذا، أكمل الخطوات المذكورة في الموضوع [إنشاء موفرات تكوين وتحديدها بالحالة نشط‬](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. انقر فوق **تكوينات إعداد التقارير‬**.
 
 ## <a name="create-a-new-data-model-configuration"></a>إنشاء تكوين نموذج بيانات جديد

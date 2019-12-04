@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517274"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813973"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>عرض وتقييم نتائج الاستبيانات
 
@@ -57,7 +57,8 @@ ms.locfileid: "1517274"
 -   **تقرير الإجابات** -يعرض هذا التقرير الإجابات التي حددها المستجي لكل سؤال في الاستبيان.
 -   **الإجابات غير الصحيحة** -يعرض هذا التقرير المعلومات المرتبطة بالإجابات غير الصحيحة التي حددها المستجيب.
 
-**ملاحظة:** يتوفر تقرير **النتائج** فقط، إذا كنت تستخدم مجموعات النتائج في الاستبيان، وإذا قمت بتحديد **صفحة نتائج** في صفحة **الاستبيانات**. ويتوفر تقرير **الإجابات** وتقرير **الإجابات غير الصحيحة** فقط إذا قمت بتحديد **تقرير الإجابات** في صفحة **الاستبيانات**.
+> [!NOTE]
+> يتوفر تقرير **النتائج** فقط، إذا كنت تستخدم مجموعات النتائج في الاستبيان، وإذا قمت بتحديد **صفحة نتائج** في صفحة **الاستبيانات**. ويتوفر تقرير **الإجابات** وتقرير **الإجابات غير الصحيحة** فقط إذا قمت بتحديد **تقرير الإجابات** في صفحة **الاستبيانات**.
 
 ## <a name="questionnaire-statistics"></a>إحصاءات الاستبيان
 يمكنك استخدام إحصاءات الاستبيان لتحليل نتائج الاستبيان المكتمل، استناداً إلى الحسابات التي تقوم بتحديدها. لتحديد عمليات الحساب، يجب إتمام المهام التالية:
@@ -75,9 +76,9 @@ ms.locfileid: "1517274"
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[تصميم الاستبيانات](design-questionnaires.md)
+[تصميم استبيانات](design-questionnaires.md)
 
-[استخدام الاستبيانات](questionnaires.md)
+[الاستبيانات](questionnaires.md)
 
-[توزيع وإكمال الاستبيانات](distribute-questionnaires.md)
+[توزيع الاستبيانات وجدولتها](distribute-questionnaires.md)
 

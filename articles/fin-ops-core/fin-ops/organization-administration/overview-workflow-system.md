@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189995"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812353"
 ---
 # <a name="workflow-system-overview"></a>نظرة عامة على نظام سير العمل
 
@@ -57,18 +57,18 @@ ms.locfileid: "2189995"
 
 ## <a name="workflow-content"></a>محتوى سير العمل
 
-+ [بنية سير العمل](workflow-system-architecture.md)
++ [بنية نظام سير العمل](workflow-system-architecture.md)
 + [عناصر سير العمل](workflow-elements.md)
-+ [إجراءات سير العمل](workflow-actions.md)
-+ [إنشاء سير عمل](create-workflow.md)
++ [الإجراءات في عمليات الموافقة على سير العمل](workflow-actions.md)
++ [نظرة عامة حول إنشاء عمليات سير العمل](create-workflow.md)
 + [تكوين خصائص سير العمل](configure-workflow-properties.md)
-+ [تكوين مهمة يدوية في سير عمل‬](configure-manual-task-workflow.md)
-+ [تكوين مهمة مؤتمتة في سير عمل‬](configure-automated-task-workflow.md)
-+ [تكوين عملية اعتماد في سير عمل](configure-approval-process-workflow.md)
-+ [تكوين خطوة اعتماد في سير عمل](configure-approval-step-workflow.md)
-+ [تكوين قرار يدوي في سير عمل](configure-manual-decision-workflow.md)
-+ [تكوين قرار شرطي في سير عمل‬](configure-conditional-decision-workflow.md)
-+ [تكوين نشاط موازٍ في سير عمل](configure-parallel-activity-workflow.md)
-+ [تكوين فرع موازٍ في سير عمل](configure-parallel-branch-workflow.md)
-+ [تكوين سير عمل لعنصر بند](configure-line-item-workflow.md)
++ [تكوين المهام اليدوية في سير عمل](configure-manual-task-workflow.md)
++ [تكوين المهام المؤتمتة في سير عمل](configure-automated-task-workflow.md)
++ [تكوين عمليات الاعتماد في سير عمل](configure-approval-process-workflow.md)
++ [تكوين خطوات الاعتماد في سير عمل](configure-approval-step-workflow.md)
++ [تكوين القرارات اليدوية في سير عمل](configure-manual-decision-workflow.md)
++ [تكوين القرارات الشرطية في سير عمل‬](configure-conditional-decision-workflow.md)
++ [تكوين أنشطة موازية في سير عمل](configure-parallel-activity-workflow.md)
++ [تكوين فروع موازٍية في سير عمل](configure-parallel-branch-workflow.md)
++ [تكوين عمليات سير عمل لعنصر بند](configure-line-item-workflow.md)
 + [الأسئلة المتداولة حول سير العمل](workflow-FAQ.md)

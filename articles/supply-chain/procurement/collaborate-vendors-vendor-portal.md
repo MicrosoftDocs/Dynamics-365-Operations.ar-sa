@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248970"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813513"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>التعاون مع المورّدين باستخدام مدخل المورِّد‬
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248970"
 
 يشرح هذا الموضوع كيف يمكن لوكلاء الشراء استخدام مدخل المورّد للتعاون مع المورّدين الخارجيين أثناء عملية تأكيد أمر الشراء. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016.
 
-تنطبق المعلومات الواردة في هذا الموضوع فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016. لمزيد من المعلومات حول وظيفة تعاون المورد، راجع [استخدام تعاون المورد للعمل مع موردين خارجيين‬‏‫](vendor-collaboration-work-external-vendors.md).  
+تنطبق المعلومات الواردة في هذا الموضوع فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016. لمزيد من المعلومات حول وظيفة تعاون الموردين الجديدة، راجع [تعاون الموردين مع موردين خارجيين‬‏‫](vendor-collaboration-work-external-vendors.md).  
 
 يستهدف مدخل المورّد المورّدين الذين ليس لديهم تكامل التبادل الإلكتروني للبيانات (EDI) مع Microsoft Dynamics AX لتبادل معلومات أوامر الشراء. ويسمح المدخل لوكلاء الشراء بإرسال أمر شراء إلى المورّد، ثم تلقي استجابة "مؤكد" أو "مرفوض" مباشرةً في Dynamics AX.  
 
@@ -98,7 +98,7 @@ ms.locfileid: "2248970"
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[تكوين الأمان لمستخدمي تعاون المورِّد‬](configure-security-vendor-portal-users.md)
+[أمان مستخدم مدخل المورّد على الإنترنت‬](configure-security-vendor-portal-users.md)
 
 [مساحة عمل فوترة تعاون المورد](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 

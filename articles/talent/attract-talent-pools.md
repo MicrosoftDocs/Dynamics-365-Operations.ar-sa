@@ -1,5 +1,5 @@
 ---
-title: بحث عن المرشحين باستخدام مجموعات المواهب في Microsoft Dynamics 365 Talent - Attract
+title: اختيار المرشحين باستخدام مجموعات المواهب في Attract‬
 description: يشرح هذا الموضوع كيفية إنشاء وإعداد مجموعات المواهب في Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551108"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832999"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>بحث عن المرشحين باستخدام مجموعات المواهب في Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>اختيار المرشحين باستخدام مجموعات المواهب في Attract‬
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 بإمكان مسؤولي التعيين ومدراء التوظيف تنظيم المرشحين باستخدام وظيفة مجموعات المواهب في Attract. بإمكان مجموعات المواهب أن تساعدك على تعقب جميع المرشحين الذين يتقدمون بطلبات الحصول على الوظائف في شركتك والتفاعل معهم.
 
@@ -116,7 +115,7 @@ ms.locfileid: "2551108"
 
     لعرض مستند، حدد اسم المستند في قائمة المستندات. يمكنك عرض مستندات Microsoft Word الموجودة في التطبيق باستخدام Microsoft Office 365. يمكنك أيضًا تنزيل المستندات إلى الكمبيوتر المحلي باستخدام الخيار **تنزيل** لكل مستند.
 
-- تعرض علامة التبويب **LinkedIn** بيانات LinkedIn للمرشح. لاستخدام علامة التبويب هذه، يجب توصيل حسابك في LinkedIn في إعدادات المستخدم، ويجب إنشاء اتصال LinkedIn Recruiter لبيئتك. للحصول على مزيد من المعلومات، راجع [التوريد باستخدام LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- تعرض علامة التبويب **LinkedIn** بيانات LinkedIn للمرشح. لاستخدام علامة التبويب هذه، يجب توصيل حسابك في LinkedIn في إعدادات المستخدم، ويجب إنشاء اتصال LinkedIn Recruiter لبيئتك. لمزيد من المعلومات، راجع [توريد المرشحين باستخدام LinkedIn Recruiter في Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > يمكن فقط للمرشحين تحديث مهاراتهم ومحفوظات التعليم وخبره العمل.

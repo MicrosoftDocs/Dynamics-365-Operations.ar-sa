@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1a96fda4e7f7b6407c51ee4056088d05027462cf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251375"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813237"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>مزامنة المنتجات مباشرةً من Supply Chain Management إلى المنتجات في Sales‎‎
 
@@ -43,7 +43,7 @@ ms.locfileid: "2251375"
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 
-للوصول إلى القوالب المتوفرة، افتح [PowerApps مركز الإدارة](https://admin.powerapps.com/dataintegration) . حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
+للوصول إلى القوالب المتوفرة، افتح [Power Apps مركز الإدارة](https://admin.powerapps.com/dataintegration) . حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
 يتم استخدام القالب والمهام الأساسية التالية لمزامنة المنتجات من Supply Chain Management إلى Sales.
 
@@ -116,7 +116,7 @@ ms.locfileid: "2251375"
 
 [مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎](contacts-template-mapping-direct.md)
 
-[مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-order-template-mapping-direct-two-ways.md)
+[مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
 [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-invoice-template-mapping-direct.md)
 

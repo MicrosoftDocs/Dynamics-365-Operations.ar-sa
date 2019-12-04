@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023874"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812731"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (26 مارس 2019)
 
@@ -75,11 +75,11 @@ ms.locfileid: "2023874"
 مع هذا الإصدار، يمكنك الآن إزالة سجلات الوظيفة باستخدام الخيار **فتح في Excel** في Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>الترقية إلى Common Data Service
-تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة PowerApps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة Power Apps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>قيد المعاينة
 
-للحصول على مزيد من المعلومات حول تمكين ميزات المعاينة، راجع [الوصول إلى ميزات المعاينة في Talent‎](./access-preview-feature.md).
+للحصول على معلومات حول ميزات المعاينة، راجع [الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>السماح بتعيين أكواد الأسباب على أنواع الإجازات
 قد تحتاج الشركات إلى معلومات إضافية تتعلق بطلبات الإجازات. للحصول على هذه المعلومات، يحتاج الموظفون إلى تضمين كود سبب على طلبات الإجازات. مع هذا الإصدار، يمكنك الآن تحديد أكواد الأسباب المرتبطة بنوع إجازة محدد وتمكين الموظفين من تحديد كود سبب في طلبات الإجازات.

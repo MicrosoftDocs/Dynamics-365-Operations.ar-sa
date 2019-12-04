@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184521"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772427"
 ---
 ## <a name="company-concept-in-common-data-service"></a>مفهوم الشركة في Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 في Finance and Operations، مفهوم *الشركة* عبارة عن مفهوم قانوني ومفهوم خاص بالأعمال. وهو أيضًا عبارة عن حدود أمان ورؤية للبيانات. يعمل المستخدمون دائمًا في سياق شركة واحدة، وتتم تجزئة معظم البيانات حسب الشركة.
 
@@ -60,12 +58,14 @@ ms.locfileid: "2184521"
 
 الموضوع الأخير للمناقشة هو كيف تحدد الكتابة المزدوجة الفريق المالك الذي يجب تعيين السجلات إليه. يتم التحكم في هذا السلوك بواسطة الحقل **الفريق المالك الافتراضي** على سجل cdm\_Company. عند تمكين سجل cdm\_للكتابة المزدوجة، يقوم مكون إضافي بشكل تلقائي بإنشاء وحدة الأعمال المقترنة والفريق المالك (إذا لم يكن موجودًا بعد)، ويعيّن حقل **الفريق المالك الافتراضي**. يمكن للمسؤول تغيير هذا الحقل إلى قيمة مختلفة. ومع ذلك، لا يمكن للمسؤول مسح الحقل طالما تم تمكين الكيان للكتابة المزدوجة.
 
+> [!div class="mx-imgBorder"]
 ![حقل الفريق المالك الافتراضي](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>تجزئة بيانات الشركة والتمهيد
 
 يؤدي تكامل Common Data Service إلى إحضار تماثل الشركة باستخدام معرف الشركة لتجزئة البيانات. كما يبين الرسم التوضيحي التالي، يتم توسيع جميع الكيانات الخاصة بالشركة بحيث تكون لها علاقة واحد إلى متعدد (N:1) مع كيان cdm\_Company.
 
+> [!div class="mx-imgBorder"]
 ![علاقة N:1 بين كيان خاص بالشركة وكيان cdm_Company](media/dual-write-bootstrapping.png)
 
 + بالنسبة إلى السجلات، بعد إضافة شركة وحفظها، تصبح القيمة للقراءة فقط. لذلك، يجب على المستخدمين التأكد من تحديد الشركة الصحيحة.

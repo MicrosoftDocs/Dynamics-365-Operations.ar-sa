@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025254"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811770"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>تخطيطات الشاشة الخاصة بنقطة البيع (POS)
 
@@ -171,7 +171,7 @@ ms.locfileid: "2025254"
 
     - **الإجراء** – في قائمة عمليات نقاط البيع القابلة للتطبيق، قم بتحديد العملية التي يتم استدعاؤها عندما يتم النقر فوق الزر في نقطة البيع..
 
-        للحصول على قائمة عمليات نقطة البيع المدعومة، راجع [عمليات نقطة البيع عبر الإنترنت ودون اتصال](pos-operations.md).
+        للحصول على قائمة عمليات نقطة البيع المدعومة، راجع [عمليات نقطة البيع المتصلة وغير المتصلة](pos-operations.md).
 
     - **محددات الإجراء** – تستخدم بعض عمليات نقطة البيع محددات إضافية عندما يتم استدعاءها. على سبيل المثال، لإضافة عملية المنتج، يمكن للمستخدمين تحديد المنتج لإضافته.
     - **نص الزر** - حدد النص الذي يظهر على الزر في نقطة البيع.
@@ -193,4 +193,4 @@ ms.locfileid: "2025254"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[تثبيت مصمم تخطيط Retail POS](install-pos-layout-designer.md)
+[تثبيت مصمم تخطيط نقطة البيع (POS)‬ بالتجزئة](install-pos-layout-designer.md)

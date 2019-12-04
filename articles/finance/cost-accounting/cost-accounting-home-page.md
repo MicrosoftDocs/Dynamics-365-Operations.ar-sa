@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176235"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771951"
 ---
 # <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف
 
@@ -39,17 +39,17 @@ ms.locfileid: "2176235"
 
 |      |   |
 |------|---|
-|  [تكوين الكيانات الأساسية (تعليم إلكتروني‬)](https://mbspartner.microsoft.com/Home) (يتطلب حساب CustomerSource)  |[إنشاء أبعاد](cost-elements.md)  |
-|  [إنشاء التدرج الهرمي للأبعاد](dimension-hierarchy.md)  |[إنشاء إعداد أساسي](./tasks/define-cost-control-units.md)| 
-| [تحديد أساس توزيع](allocation-bases.md)|[تحديد السياسات](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [مصدر البيانات وموفر البيانات](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [مصدر البيانات وموفر البيانات](./tasks/process-trace-source-data.md)     | 
-|[عملية حساب المصروفات الزائدة](overhead-calculation.md)  | [التحليل وإعداد التقارير](cost-control-workspace.md)   |
+|  [تكوين الكيانات الأساسية (تعليم إلكتروني‬)](https://mbspartner.microsoft.com/Home) (يتطلب حساب CustomerSource)  |[أبعاد عنصر التكلفة](cost-elements.md)  |
+|  [التدرج الهرمي للأبعاد](dimension-hierarchy.md)  |[تحديد وحدات التحكم بالتكلفة](./tasks/define-cost-control-units.md)| 
+| [أسس التوزيع](allocation-bases.md)|[إنشاء وتعيين سياسة تخصيص التكلفة إلى وحدة التحكم في التكلفة](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [معالجة وتتبع مصدر البيانات](./tasks/process-trace-source-data.md)     | 
+|[عملية حساب المصروفات الزائدة](overhead-calculation.md)  | [مساحة عمل مراقبة التكلفة](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>مقاطع فيديو لبدء الاستخدام<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [بدء استخدام محاسبة التكاليف](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [مساحة عمل متنقلة لمحاسبة التكاليف](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [استخدم Excel لتحليل محاسبة التكاليف](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

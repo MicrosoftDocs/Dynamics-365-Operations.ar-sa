@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e9fe8f78121428770e6516159f5eceb6976c4c9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdfa9ed24d0456d9beaec03ebac89098131d0675
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181785"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771132"
 ---
 # <a name="financial-reporting"></a>إعداد التقارير المالية
 
@@ -47,7 +47,7 @@ ms.locfileid: "2181785"
 | المكون        | الوظائف | المعلومات الإضافية |
 |------------------|-----------|------------------------|
 | أداة تصميم التقارير  | إنشاء كتل إنشاء التقارير التي يمكن دمجها لتحديد تقرير وإنشائه. ويرشد معالج التقارير المستخدمين قليلي الخبرة خلال عملية التصميم. وبإمكان المستخدمين المتقدمين إنشاء كتل إنشاء تقارير جديدة أو تعديل كتل إنشاء موجودة لتلبية متطلباتهم. | |
-| جداول التقارير | جدولة تقرير واحد أو مجموعة من التقارير لتمكين إنشائها على أساس منتظم. | [إنشاء تقرير مالي](generate-financial-report.md) |
+| جداول التقارير | جدولة تقرير واحد أو مجموعة من التقارير لتمكين إنشائها على أساس منتظم. | [إنشاء التقارير المالية](generate-financial-report.md) |
 
 ## <a name="features"></a>الميزات
 <table>
@@ -96,4 +96,4 @@ ms.locfileid: "2181785"
 </table>
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-[إنشاء تقرير مالي](generate-financial-report.md)
+[إنشاء التقارير المالية](generate-financial-report.md)

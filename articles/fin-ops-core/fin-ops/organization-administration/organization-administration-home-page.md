@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36784311294f80f56f680cd6d14cc989b629ba12
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b1b519d116a55c255cf90d9478ee1714de90264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176316"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811291"
 ---
 # <a name="organization-administration-home-page"></a>الصفحة الرئيسية لإدارة المؤسسة
 
@@ -36,7 +36,7 @@ ms.locfileid: "2176316"
 
 وتُستخدم التسلسلات الرقمية لإنشاء معرفات فريدة قابلة للقراءة لسجلات البيانات الرئيسية وسجلات الحركة التي تتطلب وجود هذه المعرفات. ويشار إلى سجل البيانات الرئيسية أو سجل الحركة الذي يتطلب معرفًا *بمرجع*. قبل إنشاء سجلات جديدة لأحد المراجع، يجب أن تقوم بإعداد تسلسل رقمي وإقرانه بالمرجع.
 
-- [نظرة عامة على تسلسلات الأرقام](number-sequence-overview.md)
+- [نظرة عامة على التسلسل الرقمي](number-sequence-overview.md)
 - [إعداد التسلسلات الرقمية باستخدام معالج](tasks/set-up-number-sequences-wizard.md) (دليل المهام)
 - [إعداد التسلسلات الرقمية على أساس فردي](tasks/set-up-number-sequences-individual-basis.md) (دليل المهام)
 
@@ -46,7 +46,7 @@ ms.locfileid: "2176316"
 
 قبل إعداد المؤسسات والتدرجات الهرمية للمؤسسات، احرص على التخطيط للطريقة التي سيتم من خلالها وضع نموذج لعملك. يمتلك نموذج المؤسسة تأثيرًا كبيرًا على التنفيذ وعلى سير العمليات التجارية.
 
-- [المؤسسات والتدرجات الهرمية للمؤسسات](organizations-organizational-hierarchies.md)
+- [نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات](organizations-organizational-hierarchies.md)
 - [تخطيط التدرج الهرمي للمؤسسات](plan-organizational-hierarchy.md)
 - [إنشاء تدرج هرمي للمؤسسات](tasks/create-organization-hierarchy.md) (دليل المهام)
 - [إنشاء كيان قانوني](tasks/create-legal-entity.md) (دليل المهام)
@@ -58,8 +58,8 @@ ms.locfileid: "2176316"
 
 بعد إنشاء "دفتر العناوين العمومي"، يمكنك إنشاء دفاتر عناوين إضافية عند اللزوم، مثل دفتر عناوين منفصلة لكل شركة في المؤسسة الخاصة بك أو لكل بند أعمال.
 
-- [دفتر العناوين العام](overview-global-address-book.md)
-- [التخطيط لتكوين دفتر العناوين العمومي ودفاتر العناوين الإضافية](plan-configuration-global-address-book-additional-address-books.md)
+- [نظرة عامة على دفتر العناوين العمومي](overview-global-address-book.md)
+- [التخطيط لدفتر عناوين عمومي ودفاتر العناوين الأخرى](plan-configuration-global-address-book-additional-address-books.md)
 - [تكوين دفتر العناوين العمومي](tasks/configure-global-address-book.md)
 - [الأسئلة المتداولة حول دفاتر العناوين](qa-address-books.md)
 
@@ -67,12 +67,12 @@ ms.locfileid: "2176316"
 
 يمثل سير العمل نظامًا يُمكن استخدامه لإنشاء عمليات سير عمل فردية أو عمليات تجارية. عندما تنشئ سير عمل، ستحدد كيفية انسياب المستند، أو انتقاله عبر النظام عن طريق إظهار الشخص الذي يجب عليه إكمال مهمة أو اتخاذ قرار أو الموافقة على مستند.
 
-- [نظرة عامة حول سير العمل](overview-workflow-system.md)
+- [نظرة عامة على نظام سير العمل](overview-workflow-system.md)
 - [عناصر سير العمل](workflow-elements.md)
-- [إجراءات سير العمل](workflow-actions.md)
-- [إنشاء سير عمل](create-workflow.md)
+- [الإجراءات في عمليات الموافقة على سير العمل](workflow-actions.md)
+- [نظرة عامة حول إنشاء عمليات سير العمل](create-workflow.md)
 
-## <a name="electronic-signatures"></a>تواقيع إلكترونية
+## <a name="electronic-signatures"></a>التوقيعات الإلكترونية
 
 ويؤكد التوقيع الإلكتروني هوية الشخص الذي يكون على وشك البدء في عملية حساب أو الموافقة عليها. في بعض الصناعات، يعد التوقيع الإلكتروني ملزمًا قانونيًا كالتوقيع الكتابي. يعد التوقيع الإلكتروني بمثابة شرط للامتثال للقوانين للعديد من الصناعات المنظمة، مثل المستحضرات الدوائية والأغذية والمشروبات والفضاء والدفاع.
 
@@ -81,18 +81,18 @@ ms.locfileid: "2176316"
 - [نظرة عامة على التوقيعات الإلكترونية](electronic-signature-overview.md)
 - [إعداد التوقيعات الإلكترونية](tasks/set-up-electronic-signatures.md) (دليل المهام)
 
-## <a name="case-management"></a>إدارة الحالة
+## <a name="case-management"></a>إدارة الحالات
 
 عن طريق تخطيط وتعقب وتحليل الحالات، يمكنك تطوير حلول فعالة يمكن استخدامها لمشكلات مشابهة. على سبيل المثال، عند قيام ممثلي خدمة العملاء أو متخصصي الموارد البشرية بإنشاء حالات، يمكنهم العثور على معلومات في المقالات المعرفية لمساعدتهم في العمل مع الحالة أو حلها بطريقة أكثر كفاءة.
 
 - [نظرة عامة على إدارة الحالات](cases.md)
-- [تكوين أمان الحالة والعمليات والفئات](plan-case-management.md)
+- [التخطيط لأمان فئة الحالة وعمليات الحالات وفئات الحالات](plan-case-management.md)
 
 ## <a name="record-templates"></a>قوالب السجل
 
 باستطاعة قوالب السجل أن تساعدك على إنشاء السجلات بشكل أسرع. يمكنك إنشاء قالب سجل بحيث تنتفي الحاجة إلى عملية إدخال واضحة لقيم الحقول التي يتم استخدامها في أغلب الأحيان لكل سجل جديد.
 
-- [قوالب السجل](record-templates.md)
+- [نظرة عامة على قوالب السجلات](record-templates.md)
 - [إنشاء قالب سجل لتسهيل إدخال البيانات](../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md) (دليل المهام)
 - [استخدام قالب سجل لإنشاء سجل جديد](../../dev-itpro/data-entities/tasks/use-record-template-new-record.md) (دليل المهام)
 

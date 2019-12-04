@@ -1,5 +1,5 @@
 ---
-title: إدارة الأمان والأدوار في Attract
+title: تعيين أذونات المستخدم في Attract
 description: يقدم هذا الموضوع معلومات حول دور الأمان في Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7db2ac241db121f07eb3524c7c5c9a8f64e78537
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: efac512cfa07bb2183f06b8be45f74bef9af0767
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551416"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832688"
 ---
-# <a name="security-and-role-management-in-attract"></a>إدارة الأمان والأدوار في Attract
+# <a name="set-user-permissions-in-attract"></a>تعيين أذونات المستخدم في Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يستخدم Microsoft Dynamics 365 Talent: Attract الأمان القائم على الأدوار. بمعنى آخر، لا يُمنح حق الوصول إلى مستخدمين فرديين، بل إلى أدوار الأمان التي يتم تعيين المستخدمين إليها. يحق للمستخدم الذي تم تعيينه إلى دور أمان الوصول إلى مجموعة الامتيازات المقترنة بهذا الدور.
 
@@ -52,7 +52,7 @@ ms.locfileid: "2551416"
 
 ## <a name="administrator"></a>مسؤول
 
-بإمكان المستخدمين الذين تم تعيينهم إلى دور المسؤول الوصول إلى كافة البيانات الموجودة في Attract وتغييرها. بإمكان المسؤولين إنشاء البيانات وقراءتها وتحديثها وحذفها. ويحق لهم أيضًا الوصول إلى مركز الإدارة، حيث يمكنهم تكوين Attract وإعداد معلومات المستخدم. نوصي بتعيين فرد واحد على الأقل إلى دور المسؤول. بشكل افتراضي، يتم تعيين مسؤول البيئة في Microsoft PowerApps كمسؤول في Attract. إذا قمت بالتسجيل للحصول على الإصدار التجريبي من Attract، فسيتم تعيين دور المسؤول لك بشكل تلقائي. في الوقت الحالي، لكي يتمكن المستخدم الذي يؤدي دور المسؤول من إنشاء الوظائف، يجب عليه أن يؤدي أيضًا دور مدير التوظيف أو مسؤول التعيين.
+بإمكان المستخدمين الذين تم تعيينهم إلى دور المسؤول الوصول إلى كافة البيانات الموجودة في Attract وتغييرها. بإمكان المسؤولين إنشاء البيانات وقراءتها وتحديثها وحذفها. ويحق لهم أيضًا الوصول إلى مركز الإدارة، حيث يمكنهم تكوين Attract وإعداد معلومات المستخدم. نوصي بتعيين فرد واحد على الأقل إلى دور المسؤول. بشكل افتراضي، يتم تعيين مسؤول البيئة في Microsoft Power Apps كمسؤول في Attract. إذا قمت بالتسجيل للحصول على الإصدار التجريبي من Attract، فسيتم تعيين دور المسؤول لك بشكل تلقائي. في الوقت الحالي، لكي يتمكن المستخدم الذي يؤدي دور المسؤول من إنشاء الوظائف، يجب عليه أن يؤدي أيضًا دور مدير التوظيف أو مسؤول التعيين.
 
 ## <a name="hiring-manager"></a>مدير التوظيف
 

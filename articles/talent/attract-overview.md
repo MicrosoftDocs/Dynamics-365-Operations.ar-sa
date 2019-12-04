@@ -1,5 +1,5 @@
 ---
-title: ميزات وقدرات Microsoft Dynamics 365 Talent - Attract
+title: ميزات وقدرات Attract
 description: يصف هذا الموضوع الميزات التي يقدمها Microsoft Dynamics 365 Talent - Attract لإدارة عملية توظيف مواهب جديدة.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552061"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833059"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>ميزات وقدرات Microsoft Dynamics 365 Talent - Attract
+# <a name="attract-features-and-capabilities"></a>ميزات وقدرات Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ ms.locfileid: "2552061"
 يتلقى المرشحون رسالة بريد إلكتروني تتضمن ارتباطًا للوصول إلى تطبيق الويب، وذلك بعد إضافتهم إلى وظيفة. يوفر التطبيق تفاصيل حول الوظيفة ويُستخدم لتمكين التواصل مع فريق التوظيف. وباستطاعة المرشحين استخدامه لإرسال معلومات حول توافرهم لإجراء المقابلات.
 
 ## <a name="analytic-reports"></a>التقارير التحليلية
-بإمكان فرق التوظيف عرض المقاييس الأساسية لعملية التوظيف لوظيفة واحدة أو مقاييس مجمعة عبر جميع الوظائف باستخدام [التقارير التحليلية في Attract](analytic-reports.md). هذه الميزة موجودة حاليًا في وضع [المعاينة](access-preview-feature.md) للعملاء الذين لديهم [المكون الإضافي التوظيف الشامل](attract-comprehensive-hiring.md).
+بإمكان فرق التوظيف عرض المقاييس الأساسية لعملية التوظيف لوظيفة واحدة أو مقاييس مجمعة عبر جميع الوظائف باستخدام [التقارير التحليلية في Attract](analytic-reports.md). هذه الميزة موجودة حاليًا في [المعاينة](access-preview-feature.md) للعملاء الذين لديهم [إصدار Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: fa2772db63332319c399999bd5f747b2ac729d9e
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: fb5073fe8db0b51c4ea378cac57097e15e88bf83
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653265"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814042"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
 
@@ -40,7 +40,7 @@ ms.locfileid: "2653265"
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 
-للوصول إلى القوالب المتوفرة، افتح [مركز إدارة PowerApps](https://preview.admin.powerapps.com/dataintegration). حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
+للوصول إلى القوالب المتوفرة، افتح [Power Apps مركز الإدارة](https://preview.admin.powerapps.com/dataintegration) . حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
 يتم استخدام القالب والمهام الأساسية التالية لمزامنة رؤوس وبنود فاتورة المبيعات من Supply Chain Management إلى المبيعات:
 
@@ -137,4 +137,4 @@ ms.locfileid: "2653265"
 
 [مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎](contacts-template-mapping-direct.md)
 
-[مزامنة رؤوس وبنود أوامر المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-order-template-mapping-direct-two-ways.md)
+[مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management](sales-order-template-mapping-direct-two-ways.md)

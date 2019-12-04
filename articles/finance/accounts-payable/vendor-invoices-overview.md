@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 616d3f5560d18c7fdd8a092c3fbca0fde44be069
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570415"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772158"
 ---
 # <a name="vendor-invoices-overview"></a>نظرة عامة على فواتير المورّدين
 
@@ -101,7 +101,7 @@ ms.locfileid: "2570415"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [إعداد سياسات فواتير المورِّدين](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
-- [بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام فاتورة المورد](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+- [بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام فاتورة المورد](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام ‏‫دفتر يومية الموافقة](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام ‏‫وعاء الفواتير‬](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [تسجيل فاتورة مورّد في دفتر يومية الفواتير](tasks/record-vendor-invoice-invoice-journal.md)

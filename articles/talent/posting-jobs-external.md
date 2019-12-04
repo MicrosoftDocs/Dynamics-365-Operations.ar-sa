@@ -1,6 +1,6 @@
 ---
-title: نشر الوظائف في مواقع مهن خارجية من Attract
-description: يشرح هذا الموضوع كيفية استخدام- Attract Dynamics 365 Talent لنشر الوظائف في مواقع توظيف خارجية.
+title: نشر الوظائف في Broadbean من Attract
+description: يشرح هذا الموضوع كيفية استخدام Dynamics 365 Talent - Attract لنشر الوظائف في Broadbean.
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 2c822a1f799144bb9240fc0cbdeb6c5441e278af
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 41fa057606887069a9ea0f1f2178eeaff59f33ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551393"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832619"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>نشر الوظائف في مواقع مهن خارجية من Attract
+# <a name="post-jobs-to-broadbean-from-attract"></a>نشر الوظائف في Broadbean من Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يساعدك Dynamics 365 Talent: Attract Microsoftعلى الحصول على المواهب التي تحتاج إليها من خلال السماح لك بنشر الوظائف مباشرة من Attract إلى Broadbean. بعد [إنشاء وظيفة](./creating-jobs-attract.md)، ما عليك سوى النقر فوق زر لوضع وظيفتك أمام الآلاف من المرشحين المحتملين في Broadbean.
 
 يتطلب نشر الوظائف في Broadbean الحصول على ترخيص Broadbean مناسب. يقدم Broadbean منتجات وخططًا المتنوعة. لمزيد من المعلومات حول ترخيص وأسعار Broadbean، [اتصل بـ Broadbean](https://www.broadbean.com/contact-us/).
 
-إذا كنت مسؤولاً يحتاج إلى مزيد من المعلومات حول كيفية تكوين تكامل Broadbean مع Attract، راجع [إدخال إعدادات للوحات الوظائف الخارجية](./attract-admin-job-board-settings.md).
+إذا كنت مسؤولاً واحتجت إلى مزيد من المعلومات حول كيفية تكوين تكامل Broadbean مع Attract، راجع [إعداد تكامل Broadbean في Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md).
 
 ## <a name="post-jobs-to-broadbean"></a>نشر وظائف في Broadbean
 
@@ -74,7 +74,7 @@ ms.locfileid: "2551393"
 2. في قسم **عمليات النشر**، حدد الزر **تحديث المنشور** الذي يتوافق مع Broadbean.
 3. حرر المنشور في نافذة Broadbean.
 
-–أو –
+    –أو –
 
 1. في Attract، افتح الوظيفة التي تريد عرضها في Broadbean.
 2. في قسم **عمليات النشر**، حدد زر علامة القطع (**...**) الذي يتطابق مع Broadbean، ثم حدد **عرض**.
@@ -99,6 +99,6 @@ ms.locfileid: "2551393"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[إنشاء وظائف](./creating-jobs-attract.md)
+[إنشاء الوظائف والموافقة عليها ونشرها في Attract](./creating-jobs-attract.md)
 
-[إدخال إعدادات للوحات الوظائف الخارجية](./attract-admin-job-board-settings.md)
+[تمكين تكامل Broadbean في Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)

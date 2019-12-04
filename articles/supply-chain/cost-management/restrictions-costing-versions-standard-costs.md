@@ -19,12 +19,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0383f78ea5cfa42183e0bfe8a96d7d3866766e7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 484471c6bbda1d7396dfcfa34c33f50d247dad98
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547711"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812662"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>قيود على إصدارات التكاليف للتكاليف القياسية
 
@@ -45,9 +45,9 @@ ms.locfileid: "1547711"
 <a name="related-topics"></a>مواضيع مرتبطة
 --------
 
-[إصدارات التكلفة](costing-versions.md)
+[نظرة عامة حول إصدارات التكاليف](costing-versions.md)
 
-[تحديث التكاليف المعيارية في بيئة غير مصنعة](update-standard-costs-non-manufacturing-environment.md)
+[تحديث التكاليف القياسية في بيئة غير تصنيع](update-standard-costs-non-manufacturing-environment.md)
 
 [الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة](update-standard-costs-manufacturing-environment.md)
 

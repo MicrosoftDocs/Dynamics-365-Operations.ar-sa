@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176264"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772020"
 ---
 # <a name="budget-planning-overview"></a>نظرة عامة على تخطيط الموازنة.
 
@@ -155,7 +155,8 @@ ms.locfileid: "2176264"
 
 يمكنك أيضًا تعيين ما إذا كان كل عنصر تخطيط (عمود) قابلاً للتحرير، وما إذا كان متوفراً في أي قالب ورقة عمل تم إنشاؤه لهذا التخطيط. وفي مثال المخطط، في التخطيط الذي يُستخدم لمرحلة التقدير، تكون أعمدة التنبؤ قابلة للتحرير، بينما أعمدة مبيعات PY والعقود للقراءة فقط.
 
-[!Note] بشكل افتراضي، ستحصل على 36 عمودًا إلا إذا قمت بتوسيع تخطيط الموازنة باستخدام الخطوات الموجودة في [توسيع تخطيط الموازنة](./extending-budget-planning-layout.md).
+> [!NOTE] 
+> بشكل افتراضي، ستحصل على 36 عمودًا إلا إذا قمت بتوسيع تخطيط الموازنة باستخدام الخطوات الموجودة في [توسيع تخطيط الموازنة](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>القوالب
 

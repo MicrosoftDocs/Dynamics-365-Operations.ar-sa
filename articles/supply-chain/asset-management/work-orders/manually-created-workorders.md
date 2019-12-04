@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626237"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811724"
 ---
 # <a name="manually-created-work-orders"></a>أوامر العمل التي تم إنشاؤها يدويًا
 
@@ -70,7 +70,7 @@ ms.locfileid: "2626237"
 
 - في صفحة القائمة **جميع أوامر العمل** ، يمكنك إضافة العديد من الأصول إلى أمر عمل في طريقه عرض التفاصيل عن طريق إضافة بنود على علامة التبويب السريعة **مهام صيانة أمر العمل** . على الأصل، يمكنك تحديد فقط أنواع مهام الصيانة التي تم تحديدها على نوع الأصل المحدد للأصل.  
 
-- إذا قمت بتغيير مستوى خدمة الأصل أو أهمية الأصل بعد استخدامه فعليًا في أمر عمل، فلن يتم تحديث مستوى خدمة الأصل أو أهميته في أمر العمل وفقًا لذلك. لمزيد من المعلومات حول مستويات الخدمة والأهمية، راجع [مستويات خدمه الأصل](../setup-for-objects/object-priorities.md) و [أهمية الأصل](../setup-for-objects/object-criticalities.md).
+- إذا قمت بتغيير مستوى خدمة الأصل أو أهمية الأصل بعد استخدامه فعليًا في أمر عمل، فلن يتم تحديث مستوى خدمة الأصل أو أهميته في أمر العمل وفقًا لذلك. لمزيد من المعلومات حول مستويات الخدمة والأهمية، راجع [مستويات خدمه الأصل](../setup-for-objects/object-priorities.md) و [أنواع أهمية الأصل](../setup-for-objects/object-criticalities.md).
 
 - يتم إعادة حساب مستوى الأهمية في أمر العمل في كل مرة تتم فيها إضافة وظيفة أمر العمل إلى أمر العمل أو حذفه منه.
 

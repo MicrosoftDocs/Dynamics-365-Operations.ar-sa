@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9afa98156c58d10c19454430769a3d60343661dc
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 654685a382ca5f3f462ad8a9c506b51b52c3758c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550946"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811639"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>استخدام البرنامج التعليمي للأداة Regression Suite Automation Tool
 
@@ -44,7 +44,7 @@ ms.locfileid: "2550946"
 
 ### <a name="derived-test-case"></a>حالة الاختبار المشتقة
 
-1. افتح أداة Regression suite automation tool (RSAT)، وحدد كلا من حالتي الاختبار التي أنشأتها في [إعداد وتثبيت أداة Regression suite automation tool](./hol-set-up-regression-suite-automation-tool.md).
+1. افتح أداة Regression suite automation tool (RSAT)، وحدد كلا من حالتي الاختبار التي أنشأتها في [إعداد وتثبيت أداة Regression suite automation Tool](./hol-set-up-regression-suite-automation-tool.md).
 2. حدد **جديد \> إنشاء حالة اختبار مشتقة**.
 
     ![أمر إنشاء أمر حالة اختبار مشتق في القائمة جديد](./media/use_rsa_tool_01.png)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187902"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770840"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>إنشاء الأبعاد واستيراد أعضاء الأبعاد
 
@@ -44,12 +44,11 @@ ms.locfileid: "2187902"
 بعد استيراد البيانات إلى محاسبة التكاليف، يمكنك استخدامها لإنشاء منظورات مختلفة توفر معلومات دقيقة إلى المدراء على جميع مستويات المؤسسة. توفر الموضوعات التالية معلومات حول إنشاء الأبعاد واستيراد أعضاء الأبعاد. 
 
 -  [أبعاد عنصر التكلفة](cost-elements.md)
--  [إنشاء عناصر تكلفة (دليل المهام)](./tasks/create-cost-elements.md)
--  [أبعاد كائن التكاليف](cost-objects.md)
--  [إنشاء عناصر تكلفة (دليل المهام)](./tasks/create-cost-objects.md)
+-  [إنشاء عناصر تكلفة](./tasks/create-cost-elements.md)
+-  [أبعاد كائن التكلفة](cost-objects.md)
 -  [تعيين أعضاء أبعاد عنصر التكلفة لمجموعة شائعة من أعضاء الأبعاد](map-cost-elements-dimension-members.md)
--  [تعيين بُعد عنصر تكلفة (دليل المهام)](./tasks/map-cost-element-dimension.md)
--  [أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية](statistical-measure-provider-template.md)
+-  [تعيين بُعد عنصر التكلفة](./tasks/map-cost-element-dimension.md)
+-  [أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية​](statistical-measure-provider-template.md)
 
 
 

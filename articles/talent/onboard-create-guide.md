@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3c465c667cbb8a66f301637ca620429b0ddc11c6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550333"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814618"
 ---
 # <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>إنشاء دليل الإعداد وإرساله باستخدام  Dynamics 365 Talent - Onboard
 
@@ -119,6 +119,6 @@ ms.locfileid: "2550333"
 ### <a name="see-also"></a>راجع أيضًا
 
 - [تجربة تطبيق Onboard أو شراؤه](https://dynamics.microsoft.com/talent/onboard/)
-- [الجديد](./whats-new.md)
-- [ملاحظات الإصدار](https://docs.microsoft.com/business-applications-release-notes/index)
-- [الحصول على الدعم](./talent-support.md)
+- [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md)
+- [خطط الإصدارات](https://docs.microsoft.com/business-applications-release-notes/index)
+- [الحصول على دعم لـ Microsoft Dynamics 365 Talent](./talent-support.md)

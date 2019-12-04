@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: التسجيل لاشتراكات المعاينة
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: معلومات دفع العميل (معاينة)
+              href: accounts-receivable/payment-insights-overview.md
             - name: تحديثات خدمة إصدار واحد
               items:
                 - name: نظرة عامة حول تحديثات خدمة إصدار واحد
@@ -1062,7 +1064,7 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: إضافة نوع شهادة إلى مورد في القطاع العام
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
-        - name: التقارير المالية
+        - name: إعداد التقارير المالية
           items:
             - name: نظرة عامة على التقارير المالية
               href: general-ledger/financial-reporting-getting-started.md
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: مصروفات نثرية
                       href: localizations/emea-petty-cash.md
+                    - name: النقد - النماذج الأولية المحلية‬ والتقارير الموحدة
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: ضريبة القيمة المضافة
                   items:
                     - name: الترحيل المحلي الخاص لضريبة القيمة المضافة للإخراج
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: إدارة الدفعات المقدمة
                       href: localizations/rus-prepayments-management.md
+                    - name: استرداد ضريبة القيمة المضافة الواردة
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: الأصول الثابتة
                   items:
                     - name: إدارة الأصول الثابتة
@@ -2313,9 +2319,17 @@
                       href: localizations/rus-cash-flow.md
                     - name: توزيع المصاريف المتنوعة بالنسبة إلى الوزن والحجم
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: المصاريف المتنوعة للطرف الثالث
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: المخزون
+                  items:
+                    - name: بضاعة بالطريق من المورِّد
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: أرقام إقرارات الجمارك
+                      href: localizations/rus-custom-declaration-number.md
                 - name: إعداد التقارير
                   items:
-                    - name: التقارير المالية
+                    - name: إعداد التقارير المالية
                       href: localizations/rus-financial-reports.md
                     - name: تكوين التقارير المالية في Excel
                       href: localizations/rus-excel-financial-report.md
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: أقسام الشركة
                       href: localizations/rus-company-divisions.md
+                    - name: تنسيقات العناوين الروسية والاستيراد من FIAS
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: التأجيلات
                   items:
                     - name: إعداد التأجيلات‬
@@ -2709,7 +2725,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/finance/toc.json
                 - name: معاينة مستندات PDF باستخدام عارض مضمن
                   href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/finance/toc.json
-            - name: التقارير الإلكترونية
+            - name: إعداد التقارير الإلكترونية
               items:
                 - name: نظرة عامة على التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: استيراد التكوينات من RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: البرامج التعليمية
+                  items:
+                    - name: استخدم مصادر بيانات JOIN للحصول على البيانات من جداول التطبيقات المتعددة في تعيينات نموذج التقارير الإلكترونية (ER).
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: تكوين تعيينات نموذج التقارير الإلكترونية (ER) الذي يعتمد على سياق البلد
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: استخدام حلول التقارير الإلكترونية في Finance and Operations
                   items:
                     - name: تكوين إطار العمل
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: نظرة عامة على إدارة مستندات الأعمال
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: إضافة حقول جديدة إلى قالب مستند أعمال في Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API إطار عمل التقارير الإلكترونية (ER)
                   items:
                     - name: توسيع قائمة وظائف التقارير الإلكترونية

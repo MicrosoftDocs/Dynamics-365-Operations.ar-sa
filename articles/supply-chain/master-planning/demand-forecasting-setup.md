@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653485"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813789"
 ---
 # <a name="demand-forecasting-setup"></a>إعداد التنبؤ بالطلب
 
@@ -70,7 +70,8 @@ ms.locfileid: "2653485"
 -   اسم حساب تخزين Azure
 -   مفتاح حساب تخزين Azure
 
-**ملاحظة:** يلزم اسم حساب تخزين Azure والمفتاح فقط إذا كنت تستخدم حساب تخزين مخصصة. إذا قمت بنشر الإصدار المحلي، يجب أن يكون لديك حساب تخزين مخصص على Azure، حتى تستطيع خدمة Machine Learning الوصول إلى البيانات المسجلة. 
+> [!NOTE]
+> يلزم اسم حساب تخزين Azure والمفتاح فقط إذا كنت تستخدم حساب تخزين مخصصة. إذا قمت بنشر الإصدار المحلي، يجب أن يكون لديك حساب تخزين مخصص على Azure، حتى تستطيع خدمة Machine Learning الوصول إلى البيانات المسجلة. 
 
 ‏‫لإنشاء توقعات الطلب، يمكنك نشر الخدمة الخاصة بك باستخدام Machine Learning Studio أو تجارب التنبؤ بالطلب في Supply Chain Management. تتوفر الإرشادات لنشر تجارب التنبؤ بالطلب كخدمة ويب في Supply Chain Management. على الصفحة **معلمات التبؤ بالطلب**، انقر فوق علامة التبويب **التعلم الآلي من Azure**.
 
@@ -93,11 +94,11 @@ ms.locfileid: "2653485"
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[مقدمة إلى التنبؤ بالطلب](introduction-demand-forecasting.md)
+[نظرة عامة على التنبؤ بالطلب‬](introduction-demand-forecasting.md)
 
-[إنشاء التنبؤ الأساسي الإحصائي](generate-statistical-baseline-forecast.md)
+[إنشاء تنبؤ أساسي إحصائي](generate-statistical-baseline-forecast.md)
 
-[القيام بتسويات يدوية في تنبؤ الخط الأساسي](manual-adjustments-baseline-forecast.md)
+[القيام بتسويات يدوية في التنبؤ الأساسي](manual-adjustments-baseline-forecast.md)
 
 
 

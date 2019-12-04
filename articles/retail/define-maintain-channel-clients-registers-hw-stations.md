@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019383"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811230"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>توصيل الأجهزة الطرفية بنقطة البيع (POS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019383"
 يتناول هذا الموضوع كيفية توصيل الأجهزة الطرفية بنقطة البيع بالتجزئة.
 
 > [!NOTE]
-> للحصول على إرشادات خاصة تتعلق بالتثبيت، راجع [تثبيت وتكوين Retail Hardware Station](retail-hardware-station-configuration-installation.md) و[تنزيل/تثبيت Retail Modern POS ذاتية الخدمة وتنشيط جهاز Modern POS وCloud POS](retail-modern-pos-device-activation.md).
+> للحصول علي إرشادات تثبيت معينة، راجع [تكوين وتثبيت محطة أجهزة Retail](retail-hardware-station-configuration-installation.md) و[تكوين وتثبيت وتنشيط Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>المكونات الرئيسية
 
@@ -139,7 +139,7 @@ ms.locfileid: "2019383"
 
 - علامة التبويب السريعة **أكواد المعلومات**:
 
-    - ‏‫جميع الجوانب المتعلقة بكيفية إدارة أكواد المعلومات في نقطة البيع. للحصول على التفاصيل، راجع [أكواد المعلومات](info-codes-retail.md).
+    - ‏‫جميع الجوانب المتعلقة بكيفية إدارة أكواد المعلومات في نقطة البيع. لمزيد من التفاصيل، راجع [أكواد المعلومات ومجموعات أكواد المعلومات‬](info-codes-retail.md).
 
 - علامة التبويب السريعة **ترقيم الإيصال‬**:
 

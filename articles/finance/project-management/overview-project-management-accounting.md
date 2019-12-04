@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185625"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770349"
 ---
 # <a name="project-management-and-accounting-overview"></a>نظرة عامة على إدارة المشاريع ومحاسبتها
 
@@ -72,7 +72,7 @@ ms.locfileid: "2185625"
 
 تعتمد درجة التفصيل في WBS على مستوى الدقة المطلوبة في التقديرات ومستوى التعقب المطلوب مقابل تلك التقديرات. وغالبًا ما تتطلب المشاريع التي تشتمل على تفاوت منخفضة جداً للتعثرات في جدول أو تكلفة WBS أكثر تفصيلاً وتعقب بعناية لتقدم العمل والتكلفة في مقابل WBS. 
 
-لمزيد من المعلومات، راجع [هياكل تنظيم العمل](work-breakdown-structures.md).
+لمزيد من المعلومات، راجع [نظرة عامة على هياكل تنظيم العمل](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>إنشاء تنبؤات وموازنات المشاريع
 
@@ -134,7 +134,7 @@ ms.locfileid: "2185625"
 
 هيكل تنظيم العمل عبارة عن وصف للعمل سيتم إكماله لمشروع. هيكل تنظيم العمل عبارة عن تدرج هرمي للمهام. وهو يمثل ليس فقط العمل لكل مهمة، ولكن أيضًا حجم وتكلفة ومدة المهمة. 
 
-لمزيد من المعلومات، راجع [هياكل تنظيم العمل](work-breakdown-structures.md).
+لمزيد من المعلومات، راجع [نظرة عامة على هياكل تنظيم العمل](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>إدارة موازنات وتنبؤات المشاريع
 

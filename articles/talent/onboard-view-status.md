@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009821"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814710"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>عرض حالة إعداد الموظفين ومهامك
 
@@ -54,6 +54,6 @@ ms.locfileid: "2009821"
 ### <a name="see-also"></a>راجع أيضًا
 
 - [تجربة تطبيق Onboard أو شراؤه](https://dynamics.microsoft.com/talent/onboard/)
-- [الجديد](./whats-new.md)
-- [ملاحظات الإصدار](https://docs.microsoft.com/business-applications-release-notes/index)
-- [الحصول على الدعم](./talent-support.md)
+- [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md)
+- [خطط الإصدارات](https://docs.microsoft.com/business-applications-release-notes/index)
+- [الحصول على دعم لـ Microsoft Dynamics 365 Talent](./talent-support.md)

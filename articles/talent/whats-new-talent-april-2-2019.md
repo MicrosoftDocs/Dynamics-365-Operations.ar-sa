@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026061"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773683"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (2 أبريل 2019)
 
@@ -63,7 +63,7 @@ ms.locfileid: "2026061"
 في الكثير من المؤسسات، قد يتوفر لدى مدراء التعويضات والمزايا حق الوصول إلى سجلات تعويض معينة فقط. هذه السجلات قد تتضمن سجلات مخصصة للمدراء التنفيذيين أو الموظفين الإقليميين. يسمح هذا التغيير لقسم الموارد البشرية بإدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. يمكن تعيين أدوار أمان للخطط الثابتة والمتغيرة. وتحدد أدوار الأمان هذه حق الوصول إلى الخطط وبيانات الموظفين ذات الصلة، مثل السجلات الرواتب أو مكافآت، بحيث تتمكن هذه الأدوار فقط من معالجة التعويض لمجموعات الموظفين.
 
 ### <a name="upgrade-to-common-data-service"></a>الترقية إلى Common Data Service
-تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة PowerApps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+تقترب المواعيد النهائية للترقية إلى Common Data Service بسرعة. سجّل دخولك إلى مركز إدارة Microsoft Power Apps لتحديد ما إذا كانت قاعدة بياناتك تحتاج إلى ترقية. للحصول على مزيد من المعلومات حول المواعيد النهائية والخطوات الضرورية للترقية، راجع [الترقية إلى Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>قيد المعاينة
 

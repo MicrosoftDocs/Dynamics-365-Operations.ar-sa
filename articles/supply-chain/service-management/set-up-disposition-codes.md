@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e21854825019a73dc8d7bf5a3ee18d508123f72
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: a85f804344abec37d85e1ce15f064c8a0b901546
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743177"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813099"
 ---
 # <a name="set-up-disposition-codes"></a>إعداد أكواد الترتيب 
 
@@ -32,7 +32,7 @@ ms.locfileid: "1743177"
 
 يمكنك إعداد رموز إرجاع لتحديد كيفية معالجة صنف مرتجع من عميل. على سبيل المثال، قم بإنشاء كود ترتيب باسم **إصلاح وإرجاع** للإشارة إلى أن الصنف المرتجع سيتم إصلاحه وإرجاعه إلى العميل. لمعرفة أمثلة حول أكواد الإرجاع التي تُستخدم عادةً للأصناف المرتجعة من العملاء، راجع [‏‫تحديد كيفية التخلص من الأصناف المرتجعة‬](specify-how-to-dispose-of-returned-items.md).
 
-كما يمكنك إعداد كود سبب للمساعدة في تفسير سبب إرجاع صنف ما. للحصول على مزيد من المعلومات حول أكواد الأسباب، راجع [إعداد كود سبب الإرجاع](set-up-return-reason-code.md).
+كما يمكنك إعداد كود سبب للمساعدة في تفسير سبب إرجاع صنف ما. للحصول على مزيد من المعلومات حول أكواد الأسباب، راجع [إعداد أكواد سبب الإرجاع](set-up-return-reason-code.md).
 
 1.  انقر فوق **‏‫المبيعات والتسويق‬** \> **إعداد** \> **‏‫‏‫أوامر المبيعات**‬ \> **المرتجعات** \> **رموز الإرجاع**.
 
@@ -46,7 +46,7 @@ ms.locfileid: "1743177"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[رموز الإرجاع وأكواد سبب الإرجاع](disposition-and-return-reason-codes.md)
+[نظرة عامة على مرتجعات العميل](disposition-and-return-reason-codes.md)
 
 [أكواد الترتيب (نموذج)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 

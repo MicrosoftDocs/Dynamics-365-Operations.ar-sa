@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008351"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832805"
 ---
 # <a name="formalize-business-processes"></a>صياغة العمليات التجارية
 
-[!include[banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 تسمح لك ميزة العملية التجارية بإنشاء قالب عملية تجارية للعمليات التجارية التي يلزم إتمامها داخل المؤسسة. على سبيل المثال، تكمل شركتك عملية تدقيق الموارد البشرية كل عام. يمكنك في هذه الحالة، يمكنك إنشاء قالب يتعقب كافة المهام التي تتكون منها عملية التدقيق. وبعد ذلك، يمكن أن يساعد هذا القالب على ضمان إنجاز كافة المهام في كل مرة يتم فيها التدقيق. بالإضافة إلى ذلك، إذا كان يلزم إتمام المهام بترتيب معين، يمكن أن يساعد القالب على ضمان تنفيذها بالترتيب الصحيح.
 

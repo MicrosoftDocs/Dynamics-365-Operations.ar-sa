@@ -1,6 +1,6 @@
 ---
-title: إنشاء قالب عملية في Attract
-description: يوفر هذا الموضوع معلومات حول كيفية إنشاء قالب عملية في Attract.
+title: إنشاء قالب عملية تعيين في Attract
+description: يوفر هذا الموضوع معلومات حول كيفية إنشاء قالب عملية تعيين في Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622708"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832548"
 ---
-# <a name="create-a-process-template-in-attract"></a>إنشاء قالب عملية في Attract
+# <a name="create-a-hiring-process-template-in-attract"></a>إنشاء قالب عملية تعيين في Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ ms.locfileid: "2622708"
 > [!NOTE]
 > تظهر أسماء المراحل للمرشحين في صفحة **حالة استمارة التقديم**. يجب مراعاة هذا الواقع عندما تختار أسماء للمراحل.
 
-لمزيد من المعلومات حول الأنشطة، راجع [أنشطة عملية التوظيف في Attract‎](./activities-attract.md).
+لمزيد من المعلومات حول الأنشطة، راجع [الأنشطة في عمليات التوظيف](./activities-attract.md).
 
 اتبع هذه الخطوات لإنشاء قالب عملية التوظيف.
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
-ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
+ms.openlocfilehash: df0bc9ff2405cc2f370ea777a70e005a1ff338a0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2548958"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814940"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>نظرة عامة على تثبيت وتكوين تطبيق التخزين
 
@@ -62,15 +62,32 @@ ms.locfileid: "2548958"
 
 1.  في مستعرض ويب، انتقل إلى <https://portal.azure.com>.
 2.  أدخل اسم المستخدم وكلمة المرور لمستخدم له حق الوصول إلى اشتراك Azure.
-3.  في مدخل Azure، في جزء التنقل الأيمن، انقر فوق **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+3.  في مدخل Azure، في جزء التنقل الأيمن، انقر فوق **Azure Active Directory**.
+
+    [![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+
 4.  تأكد من أن مثيل Active Directory هو المثيل الذي يتم استخدامه بواسطة Supply Chain Management.
-5.  في القائمة، انقر فوق **عمليات تسجيل التطبيق**. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+5.  في القائمة، انقر فوق **عمليات تسجيل التطبيق**. 
+
+    [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+
 6.  في الجزء العلوي، انقر فوق **تسجيل جديد**. يبدأ تشغيل **معالج تسجيل تطبيق**.
-7.  ادخل اسمًا للتطبيق وحدد **حسابات في هذا الدليل التنظيمي فقط**. انقر فوق **تسجيل**.  [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
-8.  يفتح تسجيل التطبيق الجديد. [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+7.  ادخل اسمًا للتطبيق وحدد **حسابات في هذا الدليل التنظيمي فقط**. انقر فوق **تسجيل**.  
+
+    [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+
+8.  يفتح تسجيل التطبيق الجديد. 
+
+    [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+
 9.  تذكر **"معرف تطبيق"**، أنك ستحتاجه فيما بعد. ستتم الإشارة إلى **معرف التطبيق** لاحقًا باعتباره **معرف العميل**.
-10. انقر فوق **الشهادة والأسرار** في الجزء **إدارة**. انقر فوق **سر عميل جديد**. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
-11. أنشئ مفتاحًا عن طريق إدخال وصف مفتاح وفترة زمنية في قسم **كلمات المرور**. انقر فوق **إضافة** وانسخ المفتاح. سيُشار إلى هذا المفتاح لاحقًا على أنه **سر العميل**. [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
+10. انقر فوق **الشهادة والأسرار** في الجزء **إدارة**. انقر فوق **سر عميل جديد**. 
+
+    [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
+
+11. أنشئ مفتاحًا عن طريق إدخال وصف مفتاح وفترة زمنية في قسم **كلمات المرور**. انقر فوق **إضافة** وانسخ المفتاح. سيُشار إلى هذا المفتاح لاحقًا على أنه **سر العميل**. 
+
+    [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>إنشاء وتكوين حساب مستخدم في Supply Chain Management
 لتمكين Supply Chain Management لاستخدام تطبيق Azure AD، تحتاج إلى إكمال خطوات التكوين التالية:
@@ -78,28 +95,47 @@ ms.locfileid: "2548958"
 1.  أنشئ مستخدمًا يتطابق مع بيانات اعتماد مستخدم تطبيق التخزين.
     1.  انتقل إلى **إدارة النظام** &gt; **عام** &gt; **المستخدمون**.
     2.  أنشئ مستخدمًا جديدًا.
-    3.  عيّن مستخدم الجهاز المحمول للمستودع‬، كما هو موضح في لقطة الشاشة التالية. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
+    3.  عيّن مستخدم الجهاز المحمول للمستودع‬، كما هو موضح في لقطة الشاشة التالية. 
+    
+        [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
 2.  قم بإقران تطبيق Azure Active Directory بمستخدم تطبيق التخزين.
     1.  في Supply Chain Management، انتقل إلى **إدارة النظام** &gt; **الإعداد‏‎** &gt; **تطبيقات Azure Active Directory**.
     2.  قم بإنشاء بند جديد.
-    3.  أدخل **"معرف العميل"** (الذي تم الحصول عليه في القسم الأخير)، وأدخل اسمًا له، وحدد المستخدم الذي أنشأته في وقت سابق. نوصي بتمييز كل أجهزتك بحيث يمكنك أن تزيل بسهولة حق وصولها إلى Supply Chain Management من هذه الصفحة في حال فقدانها. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
+    3.  أدخل **"معرف العميل"** (الذي تم الحصول عليه في القسم الأخير)، وأدخل اسمًا له، وحدد المستخدم الذي أنشأته في وقت سابق. نوصي بتمييز كل أجهزتك بحيث يمكنك أن تزيل بسهولة حق وصولها إلى Supply Chain Management من هذه الصفحة في حال فقدانها. 
+    
+        [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
 ## <a name="configure-the-application"></a>تكوين التطبيق
 يجب عليك تكوين التطبيق على الجهاز للاتصال بخادم Supply Chain Management من خلال تطبيق Azure AD. ولإجراء ذلك، أكمل الخطوات التالية.
 
 1.  في التطبيق، انتقل إلى **إعدادات الاتصال**.
-2.  انقر فوق حقل **وضع العرض التوضيحي**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+2.  انقر فوق حقل **وضع العرض التوضيحي**. <br>
+
+    [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+
 3.  أدخل المعلومات التالية: 
     + **معرف عميل Azure Active Directory** - يتم الحصول على معرف العميل في الخطوة 9 "إنشاء تطبيق خدمة ويب في Active Directory". 
     + **سر عميل Azure Active Directory** - يتم الحصول على سر العميل في الخطوة 11 "إنشاء تطبيق خدمة ويب في Active Directory". 
-    + **مورد Azure Active Directory** - يمثل مورد Azure AD Directory‏‎ عنوان URL الجذر لـ Supply Chain Management. **ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
-    + **مستأجر Azure Active Directory** - مستأجر Azure AD Directory‏‎ المستخدم مع خادم Supply Chain Management: `https://login.windows.net/your-AD-tenant-ID`. على سبيل المثال: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
-    <br>**ملاحظة**: لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
-    + **الشركة** - أدخل الكيان القانوني في Supply Chain Management الذي تريد أن يتصل به التطبيق. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
-4.  حدد زر **السابق** في الزاوية العلوية اليمنى من التطبيق. سيتصل الآن التطبيق بخادم Supply Chain Management وستظهر شاشة تسجيل الدخول لعامل المستودع. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+    + **مورد Azure Active Directory** - يمثل مورد Azure AD Directory‏‎ عنوان URL الجذر لـ Supply Chain Management. 
+    
+        > [!NOTE]
+        > لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
 
-لمزيد من المعلومات حول كيفية إعداد تطبيق التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول، راجع [مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations – التخزين](scan-bar-codes-using-a-camera.md)
+    + **مستأجر Azure Active Directory** - مستأجر Azure AD Directory‏‎ المستخدم مع خادم Supply Chain Management: `https://login.windows.net/your-AD-tenant-ID`. على سبيل المثال: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    
+        > [!NOTE]
+        > لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
+    
+    + **الشركة** - أدخل الكيان القانوني في Supply Chain Management الذي تريد أن يتصل به التطبيق. <br>
+    
+    [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+
+4.  حدد زر **السابق** في الزاوية العلوية اليمنى من التطبيق. سيتصل الآن التطبيق بخادم Supply Chain Management وستظهر شاشة تسجيل الدخول لعامل المستودع.
+
+    [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+
+لمزيد من المعلومات حول كيفية إعداد تطبيق التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول، راجع [مسح الأكواد الشريطية باستخدام كاميرا في تطبيق Dynamics 365 for Finance and Operations – التخزين](scan-bar-codes-using-a-camera.md).
 
 ## <a name="remove-access-for-a-device"></a>إزالة حق الوصول لجهاز
 عند فقدان جهاز أو تعرضه للاختراق، يجب إزالة حق الوصول إلى Supply Chain Management للجهاز. تصف الخطوات التالية العملية الموصى بها لإزالة حق الوصول.

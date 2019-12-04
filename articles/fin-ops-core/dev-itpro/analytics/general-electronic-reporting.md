@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578231"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771063"
 ---
 # <a name="electronic-reporting-er-overview"></a>نظرة عامة حول التقارير الإلكترونية
 
@@ -71,7 +71,7 @@ ms.locfileid: "2578231"
 
 - يمكنه استخدام أنواع بيانات مختلفة كمصادر بيانات لنموذج بيانات. على سبيل المثال، يمكنه استخدام الجداول أو كيانات البيانات أو الأساليب أو التعدادات.
 - إنه يدعم معلمات إدخالات المستخدم التي يمكن تعريفها كمصادر بيانات نموذج البيانات عندما يجب تحديد بعض البيانات في وقت التشغيل.
-- إنه يدعم تحويل البيانات إلى مجموعات مطلوبة. وهو يسمح لك أيضًا بتصفية البيانات وفرزها وحساب مجموعها، وإلحاق الحقول المحسوبة المنطقية التي تم تصميمها من خلال معادلات تشبه معادلات Microsoft Excel. للحصول على مزيد من المعلومات، راجع [مصمم المعادلة في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)).
+- إنه يدعم تحويل البيانات إلى مجموعات مطلوبة. وهو يسمح لك أيضًا بتصفية البيانات وفرزها وحساب مجموعها، وإلحاق الحقول المحسوبة المنطقية التي تم تصميمها من خلال معادلات تشبه معادلات Microsoft Excel. للحصول على مزيد من المعلومات، راجع [مصمم المعادلة في التقارير الإلكترونية (ER)](general-electronic-reporting-formula-designer.md)).
 
 
 يتضمن نموذج التعيين الذي يدعم المستندات الإلكترونية الواردة الإمكانيات التالية:
@@ -362,5 +362,5 @@ ms.locfileid: "2578231"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-- [متطلبات الترجمة – إنشاء تكوين التقارير الإلكترونية](electronic-reporting-configuration.md)
-- [إدارة دورة حياة تكوين التقارير الإلكترونية](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [إنشاء تكوينات التقارير الإلكترونية](electronic-reporting-configuration.md)
+- [إدارة دورة حياة تكوين إعداد التقارير الإلكترونية](general-electronic-reporting-manage-configuration-lifecycle.md)

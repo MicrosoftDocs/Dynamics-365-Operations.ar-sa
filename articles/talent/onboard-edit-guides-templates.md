@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551992"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812869"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>تحرير أدلة وقوالب الإعداد في  Dynamics 365 Talent - Onboard
 
@@ -124,7 +124,7 @@ ms.locfileid: "2551992"
 
     - لإضافة مقطع فيديو YouTube، اسحب عنصر **YouTube** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، ثم أدخل عنوان URL لفيديو YouTube.
     - لإضافة رسالة إخبارية أو عرض تقديمي من Sway، اسحب عنصر**Sway** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL المضمن للرسالة الإخبارية أو العرض التقديمي من Sway.
-    - لإضافة تطبيق PowerApps، اسحب عنصر **PowerApps** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وحدد تطبيق PowerApps أو أدخل مُعرف تطبيق PowerApps.
+    - لإضافة تطبيق Microsoft Power Apps، اسحب عنصر **Power Apps** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وحدد تطبيق Power Apps أو أدخل مُعرف تطبيق Power Apps.
     - لإضافة مقطع فيديو Microsoft Stream، اسحب عنصر **Microsoft Stream** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، ثم أدخل عنوان URL لفيديو Microsoft Stream.
     - لإضافة نموذج Microsoft Forms، اسحب عنصر **Microsoft Forms** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL لنموذج Microsoft Forms، وحدد حجم منطقة الشاشة.
     - لإضافة iframe يتضمن محتوى ويب، اسحب عنصر **محتوى ويب (iframe)** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL لمحتوى الويب وحدد حجم منطقة الشاشة.
@@ -186,6 +186,6 @@ ms.locfileid: "2551992"
 ### <a name="see-also"></a>راجع أيضًا
 
 - [تجربة تطبيق Onboard أو شراؤه](https://dynamics.microsoft.com/talent/onboard/)
-- [الجديد](./whats-new.md)
-- [ملاحظات الإصدار](https://docs.microsoft.com/business-applications-release-notes/index)
-- [الحصول على الدعم](./talent-support.md)
+- [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md)
+- [خطط الإصدارات](https://docs.microsoft.com/business-applications-release-notes/index)
+- [الحصول على دعم لـ Microsoft Dynamics 365 Talent](./talent-support.md)

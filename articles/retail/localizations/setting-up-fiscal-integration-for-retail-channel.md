@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577890"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811155"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>إعداد التكامل المالي لقنوات البيع بالتجزئة
 
@@ -210,7 +210,7 @@ ms.locfileid: "1577890"
 
 لتمكين تشغيل التقارير المالية X/Z من نقطة البيع، يجب إضافة أزرار جديدة إلى تخطيط نقطة البيع.
 
-- في صفحة **شبكات الأزرار**، اتبع الإرشادات في [إضافة زر عملية مخصصة إلى مخطط نقطة البيع في Retail headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) لتثبيت المصمم وتحديث تخطيط نقطة البيع.
+- في صفحة **شبكات الأزرار**، اتبع الإرشادات في [إضافة عمليات نقطة البيع إلى مخططات نقطة البيع باستخدام مصمم شبكة الأزرار](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) لتثبيت المصمم وتحديث تخطيط نقطة البيع.
 
     1. حدد التخطيط الذي تريد تحديثه. 
     2. أضف زرًا جديدًا، وعيّن خاصية الزر **طباعة X المالي**.
@@ -221,7 +221,7 @@ ms.locfileid: "1577890"
 
 لتمكين التنفيذ اليدوي لتسجيل مالي مؤجل، يجب إضافة زر جديد إلى مخطط نقطة البيع.
 
-- في صفحة **شبكات الأزرار**، اتبع الإرشادات في [إضافة زر عملية مخصصة إلى مخطط نقطة البيع في Retail headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) لتثبيت المصمم وتحديث تخطيط نقطة البيع.
+- في صفحة **شبكات الأزرار**، اتبع الإرشادات في [إضافة عمليات نقطة البيع إلى مخططات نقطة البيع باستخدام مصمم شبكة الأزرار](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) لتثبيت المصمم وتحديث تخطيط نقطة البيع.
 
     1. حدد التخطيط الذي تريد تحديثه.
     2. أضف زرًا جديدًا، وعيّن خاصية الزر **إكمال عملية التسجيل المالي**.

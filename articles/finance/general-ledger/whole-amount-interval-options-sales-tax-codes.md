@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc998ddc2f654afba778c8c3af85dce37d3c3427
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d452ccc94324a695f0d203486fc5fa8fe9db79f6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570161"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770541"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات
 
@@ -84,7 +84,7 @@ ms.locfileid: "2570161"
 
 
 
-لمزيد من المعلومات، راجع [تحديد معدلات ضريبة المبيعات استنادًا إلى حقلي "القاعدة الهامشية" و"أسلوب الحساب"](marginal-base-field.md).
+لمزيد من المعلومات، راجع [تحديد معدلات ضريبة المبيعات استنادًا إلى حقلي "القاعدة الهامشية" وأساليب الحساب](marginal-base-field.md).
 
 
 

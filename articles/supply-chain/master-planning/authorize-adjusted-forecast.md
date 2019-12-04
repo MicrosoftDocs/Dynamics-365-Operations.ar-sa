@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c397329993bd3014b608cdc50d5002dcd5ed6a4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: de7384e94a4b97cf515bb437ad546a8a5f96aa77
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547068"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815216"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>‏‫تخويل ‏‫التنبؤ الذي تمت تسويته
 
@@ -45,9 +45,9 @@ ms.locfileid: "1547068"
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[القيام بتسويات يدوية في تنبؤ الخط الأساسي](manual-adjustments-baseline-forecast.md)
+[القيام بتسويات يدوية في التنبؤ الأساسي](manual-adjustments-baseline-forecast.md)
 
-[مراقبة دقة التنبؤ](monitor-forecast-accuracy.md)
+[رصد دقة التنبؤ​](monitor-forecast-accuracy.md)
 
 
 

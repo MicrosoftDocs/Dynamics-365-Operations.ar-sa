@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd76fc771c370d8d769a97d3b33003f632717f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174180"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771507"
 ---
 # <a name="cost-management-power-bi-content"></a>محتوى "إدارة التكلفة‬" في Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "2174180"
 > [!NOTE]
 > ينطبق محتوى **إدارة التكلفة** في Power BI الذي ورد وصفه في هذا الموضوع على الإصدار 8.0 من Dynamics 365 Finance and Operations.
 > 
-> تم إهلاك حزمة محتوى **إدارة التكلفة** في Power BI، المتوفرة في موقع AppSource. للحصول على مزيد من المعلومات حول هذا الإهلاك، راجع [حزم محتوى Power BI المتوفرة في AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> تم إهلاك حزمة محتوى **إدارة التكلفة** في Power BI، المتوفرة في موقع AppSource. لمزيد من المعلومات حول هذا الإهمال، راجع [الميزات التي تمت إزالتها أو إهمالها لـ Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 يوفر محتوى Power BI هذا تنسيقًا مصنفًا يساعدك على مراقبة أداء عمليات الجرد وتصور كيفية تدفق التكاليف من خلالها. يمكنك الحصول على رؤى إدارية مثل نسبة معدل الدوران، وعدد الأيام التي يتوفر فيها المخزون، والدقة و"تصنيف ABC" بالمستوى المفضل لديك (الشركة أو الصنف أو مجموعة الأصناف أو الموقع). يمكن استخدام المعلومات التي تم توفيرها أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
 

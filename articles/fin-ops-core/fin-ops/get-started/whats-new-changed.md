@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e7a3d32ba9c9ac0f6497db78d125dc34b4cfbc61
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658703"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811423"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>الجديد أو المتغير في صفحة Finance and Operations الرئيسية
 [!include [banner](../includes/banner.md)]
 
 اعتبارًا من أكتوبر 2019، لن يتم الاحتفاظ بهذه الصفحة. توضح المعلومات الموجودة في هذا الموضوع مكان البحث عن معلومات ميزات تطبيقات Finance and Operations التي تم إصدارها قبل أكتوبر 2019.
 
-للحصول على معلومات حول كيفية الترقية إلى الإصدار الأخير، راجع [عملية الترقية إلى التحديث الأخير‬](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
+للحصول على معلومات حول كيفية الترقية إلى الإصدار الأخير، راجع [عملية الترقية إلى التحديث الأخير من Finance and Operations‬](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 [!include [release notes](../includes/release-notes.md)]
 

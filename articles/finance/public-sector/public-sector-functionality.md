@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174686"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770223"
 ---
 # <a name="public-sector-home-page"></a>الصفحة الرئيسية للقطاع العام
 
@@ -42,14 +42,14 @@ ms.locfileid: "2174686"
 
   لمزيد من المعلومات، راجع الموضوعات التالية:
 
-- [التخطيط لوظائف القطاع العام](plan-public-sector-functionality.md)
-- [الحسابات الدائنة في القطاع العام](accounts-payable-public-sector.md)
-- [الحسابات المدينة في القطاع العام](accounts-receivable-public-sector.md)
-- [إعداد الموازنة في القطاع العام](budgeting-public-sector.md)
+- [خطة لوظائف القطاع العام](plan-public-sector-functionality.md)
+- [نظرة عامة حول الحسابات الدائنة في القطاع العام](accounts-payable-public-sector.md)
+- [نظرة عامة حول الحسابات المدينة في القطاع العام](accounts-receivable-public-sector.md)
+- [نظرة عامة حول إعداد الموازنة في القطاع العام](budgeting-public-sector.md)
 - [الأصول الثابتة في القطاع العام](fixed-asset-public-sector.md)
-- [ميزات اللوائح التنظيمية الفرنسية‬](../localizations/emea-fra-public-sector-accounting.md)
-- [دفتر الأستاذ العام في القطاع العام](general-ledger-public-sector.md)
-- [التدبير والتوريد‬ في القطاع العام](procurement-sourcing-public-sector.md)
+- [محاسبة القطاع العام في فرنسا](../localizations/emea-fra-public-sector-accounting.md)
+- [نظرة عامة حول دفتر الأستاذ العام في القطاع العام](general-ledger-public-sector.md)
+- [التدبير والتوريد في القطاع العام](procurement-sourcing-public-sector.md)
 - [أدوار الأمان في القطاع العام](security-roles-public-sector.md)
 
 \* قابل للتطبيق فقط إذا كانت مؤسستك في فرنسا.
@@ -70,7 +70,7 @@ ms.locfileid: "2174686"
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[التخطيط لوظائف القطاع العام](plan-public-sector-functionality.md)
+[خطة لوظائف القطاع العام](plan-public-sector-functionality.md)
 
 
 

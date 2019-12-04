@@ -3,7 +3,7 @@ title: تعيين مستخدمين إلى أدوار أمان
 description: للوصول إلى تطبيقات Finance and Operations، يجب تعيين المستخدمين إلى أدوار الأمان.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180957"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2807986"
 ---
 # <a name="assign-users-to-security-roles"></a>تعيين مستخدمين إلى أدوار أمان
 
@@ -37,6 +37,9 @@ ms.locfileid: "2180957"
 5. في قائمة **اسم قاعدة العضوية**، انقر فوق الارتباط في الصف المحدد.
 6. انقر فوق **تحرير استعلام**. قم بتحرير الاستعلام، حسب الحاجة.  
 7. انقر فوق **موافق**.
+8. انقر فوق **التشغيل التلقائي لتعيين الدور**.
+9. انتقل إلى **جزء التنقل > الوحدات > إدارة النظام > المستخدمون > المستخدمون** (بشكل مثالي في علامة تبويب منفصلة للمستعرض).
+10. راجع الأدوار المعينة لمستخدمين متعددين للتأكد من صحة استعلام تعيين الدور. قم بالتعديل وأعد التشغيل إذا لزم الأمر.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>استبعاد المستخدمين من تعيين الدور التلقائي
 1. قم بإغلاق الصفحة.

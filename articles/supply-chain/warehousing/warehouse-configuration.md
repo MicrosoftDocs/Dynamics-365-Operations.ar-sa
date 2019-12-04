@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653408"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814894"
 ---
 # <a name="warehouse-configuration-overview"></a>نظرة عامة على تكوين المستودع
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653408"
 
 توضح هذه المقالة كيفية تكوين مستودع. ويشتمل على معلومات حول كيفية تكوين تخطيط المستودع وعمليات المستودع.
 
-**ملاحظة:** ينطبق هذا المقال على الميزات الموجودة في وحدة **إدارة المستودعات** (التخزين المتقدم). ولا ينطبق على ميزات المستودع في وحدة **إدارة المخزون**.
+> [!NOTE]
+> ينطبق هذا المقال على الميزات الموجودة في وحدة **إدارة المستودعات** (التخزين المتقدم). ولا ينطبق على ميزات المستودع في وحدة **إدارة المخزون**.
 
 ## <a name="warehouse-layout"></a>تخطيط المستودع
 يوفر نظام إدارة المستودعات في Supply Chain Management طرقًا مرنة لتحديد تخطيط المستودع لتلبية الاحتياجات المتغيرة، بحيث يمكنك تحقيق الكفاءة المثلى للمستودع.
@@ -114,7 +115,7 @@ ms.locfileid: "2653408"
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (دليل المهام)](tasks/configure-locations-wms-enabled-warehouse.md)
+[تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (WMS)](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

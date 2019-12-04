@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251334"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814065"
 ---
 # <a name="prospect-to-cash"></a>العميل المتوقع إلى النقدية
 
@@ -36,12 +36,12 @@ ms.locfileid: "2251334"
 
 في الإصدار الحالي، يوفر العميل المتوقع للنقدية الأنواع التالية من المزامنة المباشرة:
 
-- [المحافظة على الحسابات في Sales ومزامنتها مباشرة من Sales إلى Supply Chain Management.](accounts-template-mapping-direct.md)
-- [المحافظة على المنتجات في Supply Chain Management ومزامنتها مباشرة إلى Sales.](products-template-mapping-direct.md)
-- [‬‏‫المحافظة على جهات الاتصال في Sales ومزامنتها مباشرةً إلى جهات الاتصال أو العملاء في Supply Chain Management‎](contacts-template-mapping-direct.md)
-- [مزامنة عروض أسعار المبيعات مباشرةً من Sales إلى Supply Chain Management‎‎](sales-quotation-template-mapping-sales-fin.md)
-- [مزامنة أوامر المبيعات بين Sales وSupply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-- [مزامنة فواتير المبيعات مباشرةً من Supply Chain Management إلى Sales‎‎](sales-invoice-template-mapping-direct.md)
+- [مزامنة الحسابات مباشرةً من Sales إلى العملاء في Supply Chain Management‎](accounts-template-mapping-direct.md)
+- [مزامنة المنتجات مباشرةً من Supply Chain Management إلى المنتجات في Sales‎‎](products-template-mapping-direct.md)
+- [مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎](contacts-template-mapping-direct.md)
+- [مزامنة رؤوس وبنود عروض أسعار المبيعات مباشرةً من Sales إلى Supply Chain Management.](sales-quotation-template-mapping-sales-fin.md)
+- [مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management](sales-order-template-mapping-direct-two-ways.md)
+- [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>متطلبات النظام في Supply Chain Management
 يتم دعم العميل المتوقع لتكامل النقدية في الإصدارات التالية:

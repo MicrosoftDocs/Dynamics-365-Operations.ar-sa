@@ -8,6 +8,14 @@
         - name: المزايا الجديدة أو المتغيرة في Talent
           href: whats-new.md
           items:
+            - name: 19 نوفمبر 2019
+              href: whats-new-talent-november-19-2019.md
+            - name: 12 نوفمبر 2019
+              href: whats-new-talent-november-12-2019.md
+            - name: 5 نوفمبر 2019
+              href: whats-new-talent-november-5-2019.md
+            - name: 29 أكتوبر 2019
+              href: whats-new-talent-oct-29-2019.md
             - name: 23 أكتوبر 2019
               href: whats-new-talent-october-23-2019.md
             - name: 8 أكتوبر 2019
@@ -26,19 +34,19 @@
               href: whats-new-talent-august-15-2019.md
             - name: 6 أغسطس 2019
               href: whats-new-talent-august-7-2019.md
-            - name: 30 يوليو 2019
-              href: whats-new-talent-july-31-2019.md
-            - name: 23 يوليو 2019
-              href: whats-new-talent-july-24-2019.md
-            - name: 16 يوليو 2019
-              href: whats-new-talent-july-16-2019.md
-            - name: 9 يوليو 2019
-              href: whats-new-talent-july-9-2019.md
-            - name: 2 يوليو 2019
-              href: whats-new-talent-july-2-2019.md
             - name: الجديد في أرشيفات 2019
               items:
-                - name: 25 يونيه 2019
+                - name: 30 يوليو 2019
+                  href: whats-new-talent-july-31-2019.md
+                - name: 23 يوليو 2019
+                  href: whats-new-talent-july-24-2019.md
+                - name: 16 يوليو 2019
+                  href: whats-new-talent-july-16-2019.md
+                - name: 9 يوليو 2019
+                  href: whats-new-talent-july-9-2019.md
+                - name: 2 يوليو 2019
+                  href: whats-new-talent-july-2-2019.md
+                - name: 25 يونيو 2019
                   href: whats-new-talent-june-25-2019.md
                 - name: 18 يونيو 2019
                   href: whats-new-talent-june-18-2019.md
@@ -116,13 +124,17 @@
                   href: whats-new-talent-august2018.md
                 - name: يوليو 2018
                   href: whats-new-talent-july2018.md
-        - name: متطلبات النظام وسياسة التحديث
+        - name: متطلبات النظام
           href: talent-versions-update-policy.md
-        - name: توفير Talent
+        - name: تحديثات Talent
+          href: talent-updates.md
+        - name: تزويد Talent
           href: provisioning-talent.md
+        - name: نسخ مثيل Core HR
+          href: hr-copy-instance.md
         - name: إزالة بيئات Talent
           href: remove-talent-environment.md
-        - name: تشغيل الخدمة لتطبيق Onboard
+        - name: تزويد تطبيق Onboard
           href: modular-app-tech-faq.md
         - name: تضمين تطبيقات PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -439,6 +451,18 @@
           href: extensibility-attract.md
         - name: الحقول المخصصة في Core HR
           href: corehr-custom-fields.md
+        - name: مرجع API الكيان
+          items:
+            - name: المصادقة
+              href: api-odata-authentication.md
+            - name: الكيانات
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: نظره عامة على MyLeaveRequests
+                      href: api-myleaverequests-overview.md
+                    - name: إرسال طلب إجازة إلى سير العمل
+                      href: api-myleaverequests-submit.md
     - name: استكشاف أخطاء Talent وإصلاحها
       items:
         - name: تحسين الأداء باستخدام مهام التنظيف التلقائية

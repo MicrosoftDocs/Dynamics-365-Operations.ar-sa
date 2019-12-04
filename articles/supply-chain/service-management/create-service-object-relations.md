@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 792ceea52a9caa1a99217c77bb3fe4aafb80a0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 05d770234beb486eb3a8181b160967c802c15e8f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555003"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813145"
 ---
 # <a name="create-service-object-relations"></a>إنشاء علاقات كائن خدمة 
 
@@ -63,11 +63,11 @@ ms.locfileid: "1555003"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[‏‏كائنات الخدمة ](service-objects.md)
+[نظرة عامة على كائنات الخدمة](service-objects.md)
 
 [علاقات كائنات الخدمة](service-object-relations.md)
 
-[شجرة المواد القالب ](template-boms.md)
+[قوائم مكونات صنف القالب](template-boms.md)
 
   
 

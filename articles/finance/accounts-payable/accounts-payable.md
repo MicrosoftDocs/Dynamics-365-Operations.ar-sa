@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658726"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772227"
 ---
 # <a name="accounts-payable-home-page"></a>الصفحة الرئيسية للحسابات الدائنة
 
@@ -41,7 +41,7 @@ ms.locfileid: "2658726"
 
 يمكنك إعداد مجموعات المورِّدين والمورِّدين وملفات تعريف الترحيل وخيارات دفع متعددة ومعلمات تتعلق بالمورِّدين والرسوم وعمليات التسليم والوجهات والسندات الإذنية وأنواع أخرى من معلومات الحسابات الدائنة. 
 
-[تكوين الحسابات الدائنة](accounts-payable-overview.md)
+[نظرة عامة حول تكوين الحسابات الدائنة](accounts-payable-overview.md)
 
 [التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -49,9 +49,9 @@ ms.locfileid: "2658726"
 
 ## <a name="configure-vendor-invoices"></a>تكوين فواتير المورِّدين
 
-استخدم الحسابات مستحقة الدفع لتعقب الفواتير والنفقات الصادرة إلى المورِّدين.
+استخدم الحسابات الدائنة لتعقب الفواتير والنفقات الصادرة إلى المورِّدين.
 
-[مطابقة فاتورة الحسابات الدائنة](accounts-payable-invoice-matching.md)
+[نظرة عامة حول مطابقة فاتورة الحسابات الدائنة](accounts-payable-invoice-matching.md)
 
 [ملفات تعريف ترحيل الموردين](vendor-posting-profiles.md)
 
@@ -59,9 +59,9 @@ ms.locfileid: "2658726"
 
 [سياسات المطابقة الثلاثية](three-way-matching-policies.md)
 
-[مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة](invoice-matching-intercompany-purchase-orders.md)
+[مطابقة الفاتورة وأوامر الشراء المشتركة بين الشركات الشقيقة](invoice-matching-intercompany-purchase-orders.md)
 
-[حل الاختلافات أثناء مطابقة إجماليات الفواتير](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[نظرة عامة حول حل الاختلافات أثناء مطابقة إجماليات الفواتير](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [الحسابات المقابلة الافتراضية لدفاتر يومية فواتير الموردين ودفاتر يومية الموافقة على الفواتير](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,27 +93,27 @@ ms.locfileid: "2658726"
 
 [الحصول على خصم نقدي خارج فترة الخصم النقدي](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[إعداد التقارير الإلكترونية لشيكات المورد](electronic-reporting-sample-vendor-checks.md)
+[عينة شيكات المورد الخاصة بإعداد التقارير الإلكترونية‬](electronic-reporting-sample-vendor-checks.md)
 
 [إلغاء دفعة مورد](reverse-vendor-payment.md)
 
-[نظرة عامة على فواتير الدفعات المقدمة والدفعات المقدمة](prepayments-invoices-vs-prepayments.md)
+[فواتير الدفع المسبق مقابل الدفعات المقدمة](prepayments-invoices-vs-prepayments.md)
 
 [الدفعات المركزية للحسابات الدائنة](centralized-payments-accounts-payable.md)
 
-## <a name="settlements"></a>التسويات
+## <a name="settlements"></a>تسويات
 
 توفر المواضيع التالية معلومات حول التسويات: التسوية عبارة عن عملية تسوية المدفوعات مع الفواتير. 
 
 [تكوين التسوية](../cash-bank-management/configure-settlement.md)
 
-[تسوية دفعة مورد جزئية قبل تاريخ الخصم](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[تسوية دفع جزئي لمورد قبل تاريخ الخصم مع دفعة نهائية بعد تاريخ الخصم](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [تسوية دفعة جزئية لمورد لديه خصومات في الإشعارات الدائنة للمورد](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [تسوية دفعة جزئية لمورد تحتوي على عدة فترات خصم](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[تسوية دفعة مورد جزئية أو دفعة نهائية قبل الخصم](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[تسوية دفعة جزئية لمورد والدفعة النهائية بالكامل قبل تاريخ الخصم](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [إيصال واحد مع سجلات عملاء أو موردين متعددين](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,11 +123,11 @@ ms.locfileid: "2658726"
 
 #### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [ملاحظات حول إصدار Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي يتم التخطيط لإصدارها.‬ 
+انتقل إلى [خطط إصدار Microsoft Dynamics 365‏‎](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي يتم التخطيط لإصدارها.‬ 
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وخبار ومعلومات أخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على مدونة [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ومدونة الماليات [Microsoft Dynamics 365 Finance - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)و [Microsoft Dynamics 365 Finance - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
 

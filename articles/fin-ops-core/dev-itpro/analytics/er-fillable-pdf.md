@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181440"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771296"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>تصميم تكوينات التقارير الإلكترونية لملء قوالب PDF
 
@@ -46,7 +46,7 @@ ms.locfileid: "2181440"
     - مستشار وظيفي لإعداد التقارير الإلكتروني
     - مسؤول النظام
 
-ويجب عليك أيضًا إكمال الإجراء [إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+ويجب عليك أيضًا إكمال الإجراء [إنشاء موفري التكوين ووضع علامة عليهم على أنهم نشيطون‬](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 وأخيرًا، يجب تنزيل الملفات التالية من [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
 
@@ -300,5 +300,5 @@ ms.locfileid: "2181440"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-- [يعمل تصميم التقارير الإلكترونية على تصميم تكوين لإنشاء التقارير بتنسيق OPENXML](tasks/er-design-reports-openxml-2016-11.md)
-- [تصميم تكوينات التقارير الإلكترونية لإنشاء تقارير بتنسيق Microsoft WORD](tasks/er-design-configuration-word-2016-11.md)
+- [التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML (نوفمبر 2016)](tasks/er-design-reports-openxml-2016-11.md)
+- [تصميم تكوينات التقارير الإلكترونية لإنشاء تقارير بتنسيق Word](tasks/er-design-configuration-word-2016-11.md)

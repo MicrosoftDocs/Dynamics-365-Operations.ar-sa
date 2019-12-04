@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 19729cfd6bfd074c335612a06285bccf425333a4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8c4118565ba65700e2073e2f981caf80fa738d94
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182774"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772501"
 ---
 # <a name="report-designer-interface"></a>واجهة أداة تصميم التقارير
 
@@ -227,4 +227,4 @@ ms.locfileid: "2182774"
 
 [التقارير المالية](financial-reporting-intro.md)
 
-[إنشاء تقرير مالي](generate-financial-report.md)
+[إنشاء التقارير المالية](generate-financial-report.md)
