@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622758"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830176"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>الأسئلة المتداول حول تكامل Dynamics 365 Talent إلى Dynamics 365 Finance
 
@@ -48,7 +48,7 @@ ms.locfileid: "2622758"
 
 الأبعاد المالية غير موجودة حاليًا في Common Data Service ونتيجة لذلك لا تشكل جزءًا من القالب الافتراضي. تم التخطيط لهذا الكيان، ولكن لا يتوفر حاليًا أي مخطط زمني للإصدار.
 
-بالنسبة إلى البيانات الموجودة في Finance ولكن غير الموجودة في Talent، يمكن ربط النظامين معًا باستخدام **تكوين الارتباطات** في Talent. للحصول على مزيد من المعلومات حول كيفية تكوين الارتباطات بين Talent وFinance، راجع [ما الجديد أو المتغير في Dynamics 365 Talent: Core HR (31 أكتوبر 2018)](whats-new-talent-october-31.md).
+بالنسبة إلى البيانات الموجودة في Finance ولكن غير الموجودة في Talent، يمكن ربط النظامين معًا باستخدام **تكوين الارتباطات** في Talent. للحصول على مزيد من المعلومات حول كيفية تكوين الارتباطات بين Talent وFinance، راجع [ما الجديد أو المتغير في Dynamics 365 Talent - Core HR (31 أكتوبر 2018))](whats-new-talent-october-31.md).
 
 ![تعيين الأبعاد المالية](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ ms.locfileid: "2622758"
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>هل يمكنني تحديد الحقول التي سيتم إرسالها إلى Finance لكيان معين؟
 
 يمكنك إضافة حقول أو إزالتها من مهمة التكامل. لن يتم ملء كافة حقول البيانات الموجودة على كيان Common Data Service من Core HR.
-يمكنك ملء بيانات إضافية عبر PowerApps.
+يمكنك ملء بيانات إضافية عبر Power Apps.
 
 ![إضافة حقول إلى أو إزالتها من مهمة تكامل](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ ms.locfileid: "2622758"
 
 1. التقط فهرس المهمة من موحد البيانات (إنه "9" في هذا المثال).
 
-![التقاط فهرس المهمة من موحد البيانات](media/CaptureTaskIndex.png)
+    ![التقاط فهرس المهمة من موحد البيانات](media/CaptureTaskIndex.png)
 
 2. تعقب وقت تنفيذ المشروع.
 
-![تعقب وقت تنفيذ المشروع](media/CaptureTimeOfExecution.png)
+    ![تعقب وقت تنفيذ المشروع](media/CaptureTimeOfExecution.png)
 
 3. في Finance، قم بتعريف الفهرس-1. في هذا المثال، يتوافق المشروع مع اللاحقة "8" ووقت تنفيذ مشروع الفهرس "0" مع وقت التنفيذ في الخطوة 2.
 
-![تعريف الفهرس](media/IdentifyIndex.png)
+    ![تعريف الفهرس](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>بعد تمكين التكامل بين Talent وFinance، لا يمكنني رؤية بيانات Talent في Finance. ماذا أفعل؟
 
-التكامل مع Finance عبارة عن عملية تتكون من خطوتين. أولاً، تحقق من تحديث بيانات Talent ومن توفرها في Common Data Service. هذا الأمر عبارة عن مزامنة قريبة من الوقت الحقيقي ويمكن التحقق منها في PowerApps عن طريق مراجعة البيانات في كيانات البيانات.
+التكامل مع Finance عبارة عن عملية تتكون من خطوتين. أولاً، تحقق من تحديث بيانات Talent ومن توفرها في Common Data Service. هذا الأمر عبارة عن مزامنة قريبة من الوقت الحقيقي ويمكن التحقق منها في Power Apps عن طريق مراجعة البيانات في كيانات البيانات.
 
 ![البيانات الموجودة في Common Data Service](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ ms.locfileid: "2622758"
 
   - [إدارة أخطاء موحد البيانات واستكشاف الأخطاء وإصلاحها](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في PowerApps و Microsoft FlowوCommon Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في Power Apps، وMicrosoft Power Automate، وCommon Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - إدارة البيانات:
 

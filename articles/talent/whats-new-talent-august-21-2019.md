@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024058"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814480"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (20 أغسطس 2019)
 
@@ -35,7 +35,7 @@ ms.locfileid: "2024058"
 
 ### <a name="simplified-apply-experience-for-candidates"></a>تجربة مبسطة لتقديم طلبات التوظيف للمرشحين 
 
-تتوفر الآن تجربة مبسطة لتقديم طلبات التوظيف للمرشحين في المعاينة العامة. عند تمكينها، سيتمكن المرشحون من تقديم طلب الحصول على وظيفة ما باستخدام سيرتهم الذاتية، أو باستخدام **التقدم بطلب عبر LinkedIn** (في حال تمكينه) أو باستخدام استمارة التقديم الموجودة. ومع هذه التغييرات، باستطاعة المرشحين إرسال استمارة تقديم للحصول على الوظيفة مع القليل من الحقول التي تحتاج إلى إدخال يدوي. للحصول على معلومات حول كيفية تمكين هذه الميزة، راجع [تمكين أو تعطيل ميزات المعاينة‬](./access-preview-feature.md#enable-or-disable-preview-features).
+تتوفر الآن تجربة مبسطة لتقديم طلبات التوظيف للمرشحين في المعاينة العامة. عند تمكينها، سيتمكن المرشحون من تقديم طلب الحصول على وظيفة ما باستخدام سيرتهم الذاتية، أو باستخدام **التقدم بطلب عبر LinkedIn** (في حال تمكينه) أو باستخدام استمارة التقديم الموجودة. ومع هذه التغييرات، باستطاعة المرشحين إرسال استمارة تقديم للحصول على الوظيفة مع القليل من الحقول التي تحتاج إلى إدخال يدوي. للحصول على معلومات حول كيفية تمكين هذه الميزة، راجع [الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent](./access-preview-feature.md#enable-or-disable-preview-features).
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>عرض تعليقات الرفض كجزء من نشاط استمارة التقديم
 

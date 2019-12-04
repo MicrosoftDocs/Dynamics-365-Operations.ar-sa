@@ -15,12 +15,12 @@ ms.search.region: Saudi Arabia
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: eec146c3e8dc8218fea33c3e1390ea2b34b514c0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7d67720ad7bca89cf26a6dbcdcd0913b47746a63
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175683"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772878"
 ---
 # <a name="sales-tax-for-saudi-arabia"></a>ضريبة المبيعات للمملكة العربية السعودية
 
@@ -35,13 +35,13 @@ ms.locfileid: "2175683"
 | إعداد النشاط                                                 | الاعتبارات للمملكة العربية السعودية | مزيد من المعلومات |
 |----------------------------------------------------------------|---------------------------------|------------------|
 | إنشاء حسابات رئيسية.                                          | بلا | [إنشاء حساب رئيسي](../general-ledger/tasks/create-main-account.md) |
-| قم بإعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات.                    | بلا | [إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات](../general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md) |
+| قم بإعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات.                    | لا يوجد | [إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات](../general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md) |
 | قم بإعداد هيئات ضريبة المبيعات.                                  | عند إعداد هيئات ضريبة المبيعات، يجب الاهتمام بحقل **تخطيط التقرير**. تستخدم أكواد ضريبة المبيعات نفس تخطيط التقرير بهيئة ضريبة المبيعات المرتبطة بفترة تسوية ضريبة المبيعات التي حددتها لكود ضريبة المبيعات. | [إعداد هيئات ضريبة المبيعات](../general-ledger/tasks/set-up-sales-tax-authorities.md) |
 | إعداد فترات تسوية ضريبة المبيعات.                           | عند إعداد فترات تسوية ضرائب المبيعات، خذ بعين الاعتبار حقيقة أنها تكون خاضعة للضريبة في المملكة العربية السعودية، وإذا قمت بإجراء توريد سنوي خاضع للضريبة أعلى من مبلغ محدد، فقد تحتاج إلى حفظ العائدات الشهرية لضريبة القيمة المضافة (VAT) بدلاً من العائدات ربع السنوية لضريبة القيمة المضافة. للحصول على إرشادات، استشر أخصائي ضرائب. | [إعداد فترات تسوية ضريبة المبيعات](../general-ledger/tasks/set-up-sales-tax-settlement-periods.md) |
 | إعداد أكواد تقارير ضريبة المبيعات.                              | راجع قسم [مثال لأكواد تقارير ضريبة المبيعات للمملكة العربية السعودية](#sales-tax-reporting-codes-example-for-saudi-arabia) في هذا الموضوع. | [إعداد أكواد تقارير ضريبة المبيعات](../general-ledger/tasks/set-up-sales-tax-reporting-codes.md) |
-| إعداد أكواد ضريبة المبيعات.                                        | راجع القسم [أكواد ضريبة المبيعات، ومجموعات ضريبة المبيعات، ومجموعات ضريبة مبيعات الصنف‬](#sales-tax-codes-sales-tax-groups-and-item-sales-tax-groups) في هذا الموضوع. | [أكواد ضريبة المبيعات](../general-ledger/tasks/set-up-sales-tax-codes.md) |
-| قم بإعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف.             | راجع القسم [أكواد ضريبة المبيعات، ومجموعات ضريبة المبيعات، ومجموعات ضريبة مبيعات الصنف‬](#sales-tax-codes-sales-tax-groups-and-item-sales-tax-groups) في هذا الموضوع. | [مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف](../general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md) |
-| قم بإعداد معلمات ضريبة المبيعات في صفحات المعلمات في البرنامج. | في صفحة **معلمات دفتر الأستاذ العام**، قم بتشغيل وظيفة الرسوم العكسية. | [الرسوم العكسية](emea-reverse-charge.md) |
+| إعداد أكواد ضريبة المبيعات.                                        | راجع القسم [أكواد ضريبة المبيعات، ومجموعات ضريبة المبيعات، ومجموعات ضريبة مبيعات الصنف‬](#sales-tax-codes-sales-tax-groups-and-item-sales-tax-groups) في هذا الموضوع. | [إعداد أكواد ضريبة المبيعات](../general-ledger/tasks/set-up-sales-tax-codes.md) |
+| قم بإعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف.             | راجع القسم [أكواد ضريبة المبيعات، ومجموعات ضريبة المبيعات، ومجموعات ضريبة مبيعات الصنف‬](#sales-tax-codes-sales-tax-groups-and-item-sales-tax-groups) في هذا الموضوع. | [إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف](../general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md) |
+| قم بإعداد معلمات ضريبة المبيعات في صفحات المعلمات في البرنامج. | في صفحة **معلمات دفتر الأستاذ العام**، قم بتشغيل وظيفة الرسوم العكسية. | [ضريبة القيمة المضافة للرسوم العكسية](emea-reverse-charge.md) |
 
 ### <a name="sales-tax-reporting-codes-example-for-saudi-arabia"></a>مثال لأكواد تقارير ضريبة المبيعات للمملكة العربية السعودية
 

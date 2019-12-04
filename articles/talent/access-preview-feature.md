@@ -1,5 +1,5 @@
 ---
-title: الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent
+title: إدارة الميزات
 description: يصف هذا الموضوع كيف يمكن لمسؤول تمكين الميزات المعاينة في Microsoft Dynamics 365 Talent، ويسرد الميزات التي يجري تمكينها حاليًا للمعاينة.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551577"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833290"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>إدارة الميزات
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 كجزء من عملية النشر المستمر لإمكانات إدارة رؤوس الأموال البشرية‬ (HCM) لـ Microsoft Dynamics 365 Talent، نحن نريد السماح للعملاء بتجربة الميزات الجديدة في أقرب وقت ممكن. يمكن للمسؤولين رؤية واستخدام ميزات المعاينة في البيئات الخاصة بها. هذه الميزات جاهزاً تقريبا للتوفر العام وقد خضعت للاختبارات الشاملة. ونحن فقط نبحث عن جولة نهائية من ملاحظات العملاء والتحقق من الصحة قبل أن نقوم بشكل عام بتحرير الميزات.
 
@@ -117,6 +117,6 @@ ms.locfileid: "2551577"
 ## <a name="see-also"></a>راجع أيضًا
 
 - [تجريب أو شراء تطبيقات Talent](https://dynamics.microsoft.com/talent/overview/)
-- [الجديد](./whats-new.md)
-- [ملاحظات الإصدار](https://docs.microsoft.com/business-applications-release-notes/index)
-- [الحصول على دعم لـ Talent](./talent-support.md)
+- [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md)
+- [خطط الإصدارات](https://docs.microsoft.com/business-applications-release-notes/index)
+- [الحصول على دعم لـ Microsoft Dynamics 365 Talent](./talent-support.md)

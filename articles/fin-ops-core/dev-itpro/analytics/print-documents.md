@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c8475e26d9a2234d4c429ef1b5e482ac06fde08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182889"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772548"
 ---
 # <a name="document-printing-overview"></a>نظرة عامة على طباعة المستند
 
@@ -58,7 +58,7 @@ ms.locfileid: "2182889"
 بالإضافة إلى النظام الأساسي الذي يتم نشره لاشتراك Azure، تزود تطبيقات Finance and Operations العملاء بتطبيق Azure متكامل وأصيل يساعدهم على استخدام الأجهزة المستضافة من قِبل المجال لطباعة المستندات بسهولة أكبر.
 
 ## <a name="service-overview"></a>نظرة عامة على الخدمة
-بينما تنتظر المستندات التي يتم إنتاجها بواسطة التطبيقات المستضافة الطباعة على أحد الأجهزة المتصلة بشبكة، يتم تخزينها في تخزين Azure blob. يستخدم [وكيل توجيه المستند](install-document-routing-agent.md) مصادقة Azure لتأسيس قناة آمنة لخدمات Azure.
+بينما تنتظر المستندات التي يتم إنتاجها بواسطة التطبيقات المستضافة الطباعة على أحد الأجهزة المتصلة بشبكة، يتم تخزينها في تخزين Azure blob. يستخدم [تثبيت وكيل توجيه المستند لتمكين طباعة الشبكات](install-document-routing-agent.md) مصادقة Azure لتأسيس قناة آمنة لخدمات Azure.
 
 **تسلسل عمليات التنفيذ**
 

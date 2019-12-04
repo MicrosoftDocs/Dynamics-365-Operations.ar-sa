@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43700d68587cebfb4f897c8a5b619dd4771cc439
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e55ab83302cc75b1a9d9d3e4f06d2258697b31fc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181302"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771204"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>مصمم المعادلات في التقارير الإلكترونية
 
@@ -773,9 +773,9 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 
 ### <a name="functions-list-extension"></a>ملحق قائمة الدالات
 
-تسمح لك التقارير الإلكترونية بتوسيع قائمة الدالات التي يتم استخدامها في تعبيرات التقارير الإلكترونية. يُتطلب بذل بعض الجهود الهندسية. للحصول على معلومات مفصلة، راجع [توسيع قائمة دالات التقارير الإلكترونية](general-electronic-reporting-formulas-list-extension.md).
+تسمح لك التقارير الإلكترونية بتوسيع قائمة الدالات التي يتم استخدامها في تعبيرات التقارير الإلكترونية. يُتطلب بذل بعض الجهود الهندسية. للحصول على معلومات مفصلة، راجع [توسيع قائمة دالات التقارير الإلكترونية (ER)](general-electronic-reporting-formulas-list-extension.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-- [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
+- [نظرة عامة حول التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [توسيع قائمة دالات التقارير الإلكترونية](general-electronic-reporting-formulas-list-extension.md)

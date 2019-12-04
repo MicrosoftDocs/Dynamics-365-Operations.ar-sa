@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865318"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813536"
 ---
 # <a name="product-lifecycle-state-overview"></a>نظرة عامة على حالة دورة حياة المنتج
 
@@ -107,9 +107,9 @@ ms.locfileid: "1865318"
 
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
--  [إنشاء حالة دورة حياة منتج جديدة (دليل المهام)](tasks/new-product-lifecycle-state.md)
--  [إنشاء حالة دورة حياة منتج افتراضية (دليل المهام)](tasks/default-product-lifecycle-state.md)
--  [تعيين حالة دورة حياة المنتج لأصل منتج صادر (دليل المهام)](tasks/product-lifecycle-state-released-product-master.md)
--  [تعيين حالة دورة حياة المنتج لمنتج صادر (دليل المهام)](tasks/product-lifecycle-state-released-product.md)
--  [البحث عن متغيرات منتجات قديمة وتعيين حالة دورة حياة منتج (دليل المهام)](tasks/obsolete-product-variants.md)
--  [إنشاء حالة دورة حياة منتج لاستبعاد المنتجات من التخطيط الرئيسي (دليل المهام)](tasks/exclude-products-master-planning.md)
+-  [إنشاء حالة دورة حياة منتج جديد](tasks/new-product-lifecycle-state.md)
+-  [إنشاء حالة دورة حياة منتج افتراضي](tasks/default-product-lifecycle-state.md)
+-  [تعيين حالة دورة حياة منتج لأصل منتج صادر](tasks/product-lifecycle-state-released-product-master.md)
+-  [تعيين حالة دورة حياة منتج لمنتج صادر](tasks/product-lifecycle-state-released-product.md)
+-  [البحث عن متغيرات منتجات قديمة، وتعيين حالة دورة حياة منتج](tasks/obsolete-product-variants.md)
+-  [إنشاء حالة دورة حياة منتج لاستبعاد المنتجات من التخطيط الرئيسي](tasks/exclude-products-master-planning.md)

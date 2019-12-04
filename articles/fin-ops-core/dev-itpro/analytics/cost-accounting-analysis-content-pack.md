@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 21ff82df71e352ca176aa1635a5ffb478bbcaf0e
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 0fc9877fdca2d2f85f4f9609616d8d21ab7b5174
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536814"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771577"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>محتوى "تحليل محاسبة التكاليف‬" في Power BI
 
@@ -40,7 +40,7 @@ ms.locfileid: "2536814"
 
 لمزيد من المعلومات حول محاسبة التكاليف، راجع [الصفحة الرئيسية لمحاسبة التكاليف](../../../finance/cost-accounting/cost-accounting-home-page.md).
 
-من خلال تحديد مستوى الوصول الأمن في محاسبة التكاليف والجمع بينها وبين الأمان على مستوى الصف في Power BI، يمكنك منح كافة مالكي كائنات التكلفة حقل الوصول إلى محتوى **تحليل محاسبة التكاليف** في Power BI. ثم، تتم تصفية كافة البيانات في الرسوم المرئية بناءً على مستوى الوصول الذي يتم التحكم فيه في محاسبة التكاليف. لمزيد من المعلومات حول مستوى الوصول الآمن، والمستوى الآمن على مستوى الصف، راجع [إعداد الأمان لمحتوى محاسبة التكاليف في Power BI](setup-security-cost-accounting-content-pack.md).
+من خلال تحديد مستوى الوصول الأمن في محاسبة التكاليف والجمع بينها وبين الأمان على مستوى الصف في Power BI، يمكنك منح كافة مالكي كائنات التكلفة حقل الوصول إلى محتوى **تحليل محاسبة التكاليف** في Power BI. ثم، تتم تصفية كافة البيانات في الرسوم المرئية بناءً على مستوى الوصول الذي يتم التحكم فيه في محاسبة التكاليف. لمزيد من المعلومات حول مستوى الوصول الآمن والمستوى الآمن على مستوى الصف، راجع [إعداد الأمان لمحتوى تحليل محاسبة التكاليف في Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 يمكنك العثور على محتوى **تحليل محاسبة التكاليف** في Power BI في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft وشركائك](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
@@ -74,7 +74,7 @@ ms.locfileid: "2536814"
 |                                  | التكلفة الفعلية بحسب اسم عضو بُعد كائن التكلفة، واسم عضو بُعد عنصر التكلفة                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
-تستخدم البيانات التالية لملء صفحات التقارير في محتوى **تحليل محاسبة التكاليف** في Power BI. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات Microsoft SQL Server تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [نظرة عامة عن تكامل Power BI مع مخزن الكيانات](power-bi-integration-entity-store.md).
+تستخدم البيانات التالية لملء صفحات التقارير في محتوى **تحليل محاسبة التكاليف** في Power BI. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات Microsoft SQL Server تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [تكامل Power BI مع مخزن الكيانات](power-bi-integration-entity-store.md).
 
 تستخدم القياسات التجميعية الرئيسية التالية كأساس للمحتوى.
 

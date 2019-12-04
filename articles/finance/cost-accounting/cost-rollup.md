@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ecba97014d77c32855b5614c1feae8cbfab4cd5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 083b6cb604115c3f2a72a5ba23199e1517fc1ea1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176234"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771890"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>سياسة زيادة التكلفة وحساب المصروفات الزائدة 
 
@@ -297,7 +297,7 @@ ms.locfileid: "2176234"
 
 
 ## <a name="additional-resources"></a>الموارد الإضافية
--  [أبعاد كائن التكاليف](cost-objects.md)
+-  [أبعاد كائن التكلفة](cost-objects.md)
 -  [أبعاد عنصر التكلفة](cost-elements.md)
--  [التدرجات الهرمية للأبعاد](dimension-hierarchy.md)
+-  [التدرج الهرمي للأبعاد](dimension-hierarchy.md)
 -  [عملية حساب المصروفات الزائدة](overhead-calculation.md)

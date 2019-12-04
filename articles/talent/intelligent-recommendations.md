@@ -1,6 +1,6 @@
 ---
-title: التوصيات الذكية
-description: يشرح هذا الموضوع كيف يمكن استخدام التعلم الآلي‬ لتوفير توصيات تتعلق بالوظائف والمرشحين لها.
+title: التوصيات الذكية في Attract
+description: تشرح هذه المقالة كيف يمكن استخدام التعلم الآلي‬ لتوفير توصيات تتعلق بالوظائف والمرشحين لها في Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741742"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832781"
 ---
-# <a name="intelligent-recommendations"></a>التوصيات الذكية
+# <a name="intelligent-recommendations-in-attract"></a>التوصيات الذكية في Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 بإمكان التعلم الآلي أن يساعد مسؤولي التعيين ومدراء التوظيف على التعرف بسرعة على أفضل المرشحين لأحد المناصب. وبإمكانه أيضًا أن يساعد الموظفين المحتملين في العثور على المنصب الأكثر ملاءمة لملف تعريفهم واهتماماتهم. ومع استخدام هذه الميزات وتوفير الملاحظات، ستتحسن التوصيات.
 
 > [!NOTE] 
 > - تتوفر ميزة التوصيات الذكية فقط مع [المكون الإضافي "التوظيف الشامل"](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - تتوفر الوظيفة المذكورة في هذا الموضوع كجزء من إصدار مراجعة المعاينة. المحتوى والوظيفة عرضة للتغيير. لاستخدام هذه الميزة، اطلب من مسؤول تمكينها باستخدام **مركز الإدارة** في Attract. عيّن **توصيات المرشحين** و**توصيات الوظائف**، و **توصيات الموظفين المحتملين** إلى **تشغيل**. للحصول على مزيد من المعلومات، راجع [الوصول إلى ميزات المعاينة في Talent‬](./access-preview-feature.md). 
+> - تتوفر الوظيفة المذكورة في هذا الموضوع كجزء من إصدار مراجعة المعاينة. المحتوى والوظيفة عرضة للتغيير. لاستخدام هذه الميزة، اطلب من مسؤول تمكينها باستخدام **مركز الإدارة** في Attract. عيّن **توصيات المرشحين** و**توصيات الوظائف**، و **توصيات الموظفين المحتملين** إلى **تشغيل**. للحصول على مزيد من المعلومات، راجع [الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>توصيات المرشحين

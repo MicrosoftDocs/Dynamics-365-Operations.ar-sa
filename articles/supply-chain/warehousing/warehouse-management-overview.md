@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251052"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813007"
 ---
 # <a name="warehouse-management-overview"></a>نظرة عامة على إدارة المستودعات
 
@@ -36,7 +36,7 @@ ms.locfileid: "2251052"
 
 يجب عليك تكوين المكونات لمهام سير عمل المستودع الواردة والصادرة وفقًا لمتطلبات العمل. وأهم المكونات التي يجب عليك تكوينها هي قوالب الموجات، وقوالب العمل، وأوعية العمل، وتوجيهات المواقع.
 
-- [تكوين المستودع](warehouse-configuration.md)
+- [نظرة عامة على تكوين المستودع](warehouse-configuration.md)
 - [مراقبة عمل المستودع باستخدام قوالب العمل والتوجيهات المتعلقة بالموقع](control-warehouse-location-directives.md)
 - [إعداد الأجهزة المحمولة لعمل المستودع](configure-mobile-devices-warehouse.md)
 - [إعداد توجيه موقع لتخزين أمر الشراء](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

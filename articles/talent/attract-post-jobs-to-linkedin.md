@@ -1,5 +1,5 @@
 ---
-title: نشر الوظائف في LinkedIn من Microsoft Dynamics 365 Talent - Attract
+title: نشر الوظائف في LinkedIn من Attract
 description: يشرح هذا الموضوع كيفية استخدام Dynamics 365 Talent - Attract لنشر الوظائف في LinkedIn.
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551485"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832990"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>نشر الوظائف في LinkedIn من Microsoft Dynamics 365 Talent - Attract
+# <a name="post-jobs-to-linkedin-from-attract"></a>نشر الوظائف في LinkedIn من Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 تعتبر LinkedIn أكبر شركة احترافية عبر الإنترنت، وهي تمنحك حق الوصول إلى أهم المواهب في العالم.‬ يساعدك Microsoft Dynamics 365 Talent: Attract على الحصول على المواهب التي تحتاج إليها من خلال السماح لك بنشر الوظائف مباشرة من Attract إلى LinkedIn.
 
@@ -46,7 +46,7 @@ ms.locfileid: "2551485"
 
 لمزيد من المعلومات حول أدوار المستخدمين في Attract، راجع [إدارة الأمان والأدوار في Attract‬](./security-attract.md).
 
-إذا كنت مسؤولاً واحتجت إلى مزيد من المعلومات حول كيفية تكوين تكامل LinkedIn مع Attract، راجع [إعداد التكامل مع LinkedIn](./attract-admin-linkedin.md).
+إذا كنت مسؤولاً واحتجت إلى مزيد من المعلومات حول كيفية تكوين تكامل LinkedIn مع Attract، راجع [إعداد التكامل مع LinkedIn لـ Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md).
 
 تظهر إعلانات الوظائف المنشورة على LinkedIn في موقع LinkedIn المباشر. لا توجد لدى LinkedIn بيئة اختبار لنشر إعلانات الوظائف. لذلك، تأكد من عدم نشر أي وظائف اختبارية عن طريق الخطأ.
 
@@ -67,15 +67,15 @@ ms.locfileid: "2551485"
 
 تعبر جميع الوظائف المنشورة عبر Attract عروض وظائف محدودة. لمزيد من المعلومات حول عروض الوظائف المحدودة في LinkedIn، راجع [عروض الوظائف المحدودة في مقابل إعلانات الوظائف المميزة للنشر التلقائي لعروض الوظائف](https://www.linkedin.com/help/recruiter/answer/79049).
 
-إذا واجهت مشكلة ما في نشر الوظائف في LinkedIn، فراجع [استكشاف أخطاء نشر الوظائف في LinkedIn‏‎‏‎ وإصلاحها](./attract-troubleshoot-linkedin.md).
+إذا واجهت مشكلة ما في نشر الوظائف في LinkedIn، راجع [استكشاف أخطاء التكامل وإصلاحها مع LinkedIn‏‎ وMicrosoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md).
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[الأسئلة المتداولة حول LinkedIn](./attract-linkedin-faq.md)
+[الأسئلة المتداولة حول تكامل Attract مع LinkedIn](./attract-linkedin-faq.md)
 
-[إعداد التكامل مع LinkedIn](./attract-admin-linkedin.md)
+[إعداد التكامل مع LinkedIn لـ Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[إنشاء وظائف](./creating-jobs-attract.md)
+[إنشاء الوظائف والموافقة عليها ونشرها في Attract](./creating-jobs-attract.md)
 
 [بحث عن المرشحين باستخدام LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 

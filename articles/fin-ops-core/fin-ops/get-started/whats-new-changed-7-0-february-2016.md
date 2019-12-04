@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e39328c73fe3dd101e32ec04d895483335184ae7
-ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
+ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "2627641"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811472"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>ما الجديد أو المتغير في Dynamics AX 7.0 (فبراير 2016)
 
@@ -322,7 +322,7 @@ ms.locfileid: "2627641"
 <tr>
 <td>الوصول إلى التعليمات الإرشادية الموجهة (دلائل المهام) والمواضيع التصورية بالنقر فوق <strong>تعليمات</strong>.</td>
 <td>يشير نظام تعليمات AX 2012 إلى مواضيع HTML التي يتم تخزينها على خادم ويب محلي. يمكن للعملاء والشركاء إنشاء التعليمات الخاصة بهم.</td>
-<td>يعرض نظام التعليمات في الإصدار الحالي من Dynamics AX دلائل المهام المخزنة في ‏‫حزمة Lifecycle Services (LCS) BPM في Microsoft Dynamics. يعرض نظام التعليمات أيضًا مواضيع من موقع مستندات Microsoft. لمزيد من المعلومات، راجع <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">تعليمات Dynamics AX - بدء الاستخدام</a> و<a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">دلائل المهام الجديدة المتوفرة (فبراير 2016)</a>.</td>
+<td>يعرض نظام التعليمات في الإصدار الحالي من Dynamics AX دلائل المهام المخزنة في ‏‫حزمة Lifecycle Services (LCS) BPM في Microsoft Dynamics. يعرض نظام التعليمات أيضًا مواضيع من موقع مستندات Microsoft. لمزيد من المعلومات، راجع <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">نظام التعليمات</a> و<a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">وإرشادات المهام الجديدة (فبراير 2016)</a>.</td>
 <td>توفر دلائل المهام خبرة إرشادية تفاعلية تقودك خلال الخطوات الخاصة بمهمة أو عملية أعمال. يمكنك تحميل وتخصيص دلائل المهام التي تقدمها Microsoft. يوفر هذا الموضوع طريقة أسرع وأكثر مرونة لإنشاء وثائق المنتج وتقديمها وتحديثها. ولذلك، فهو يساعد على ضمان إمكانية الوصول إلى أحدث المعلومات التقنية.</td>
 </tr>
 </tbody>
@@ -1031,6 +1031,6 @@ u<td>أكواد السلع لنظام جمع المعلومات التجارية
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[الجديد أو المتغير](whats-new-changed.md)
+[الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md)
 
-[دلائل المهام الجديدة المتوفرة (فبراير 2016)](new-task-guides-available-february-2016.md)
+[دلائل المهام الجديدة (فبراير 2016)](new-task-guides-available-february-2016.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551439"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812823"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>مشاركة المحتوى مع مساهمين آخرين في Dynamics 365 Talent - Onboard
 
@@ -53,7 +53,7 @@ ms.locfileid: "2551439"
 
 3. ضمن **المستلم**، عيّن الخيار **هل باستطاعة هؤلاء الأشخاص إجراء عمليات تحرير؟** إلى **تشغيل** لتمكين المستلمين من مراجعة القالب. عيّن الخيار **إرسال إعلام بالبريد الإلكتروني** إلى **تشغيل** إذا كان يجب إعلام المستلمين بواسطة البريد الإلكتروني عن قيامك بمشاركة القالب معهم.
 
-    [!تعيين تفضيلات الوصول والبريد الإلكتروني لقالب](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![تعيين تفضيلات الوصول والبريد الإلكتروني لقالب](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. أدخل اسمًا أو عنوان بريد إلكتروني، وحدد المستلم المطلوب في القائمة المنسدلة.
 5. في علامة‏‎ التبويب **إدارة الوصول**، يمكنك مراجعة أو تغيير ما يمكن للمستلمين القيام به باستخدام القالب. لتغيير وصول أحد المستلمين، في القائمة المنسدلة بجوار اسم المستلم، حدد **إمكانية العرض** أو **إمكانية التحرير** أو **إزالة**، حسب الاقتضاء.
@@ -68,6 +68,6 @@ ms.locfileid: "2551439"
 ### <a name="see-also"></a>راجع أيضًا
 
 - [تجربة تطبيق Onboard أو شراؤه](https://dynamics.microsoft.com/talent/onboard/)
-- [الجديد](./whats-new.md)
-- [ملاحظات الإصدار](https://docs.microsoft.com/business-applications-release-notes/index)
-- [الحصول على الدعم](./talent-support.md)
+- [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md)
+- [خطط الإصدارات](https://docs.microsoft.com/business-applications-release-notes/index)
+- [الحصول على دعم لـ Microsoft Dynamics 365 Talent](./talent-support.md)

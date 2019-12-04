@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008118"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813927"
 ---
 # <a name="get-started-with-onboard"></a>بدء استخدام Onboard
 
@@ -35,17 +35,17 @@ ms.locfileid: "2008118"
 
 لمعرفة كيفية الحصول على تطبيق Onboard واستخدامه، راجع المواضيع التالية:
 
-- [الحصول على تطبيق Onboard](./onboard-get-app.md)
-- [إنشاء دليل إعداد](./onboard-create-guide.md)
-- [إنشاء قالب إعداد](./onboard-create-template.md)
-- [تحرير أدلة وقوالب الإعداد](./onboard-edit-guides-templates.md)
-- [مشاركة المحتوى مع مساهمين آخرين](./onboard-share-template.md)
-- [عرض حالة المهام وإعداد الموظفين](./onboard-view-status.md)
-- [إنشاء فرق توظيف في Onboard‎](./onboard-create-team.md)
+- [الحصول على Dynamics 365 Talent - تطبيق Onboard](./onboard-get-app.md)
+- [إنشاء دليل الإعداد وإرساله باستخدام Dynamics 365 Talent - Onboard](./onboard-create-guide.md)
+- [إنشاء قالب إعداد باستخدام Dynamics 365 Talent - Onboard](./onboard-create-template.md)
+- [تحرير أدلة وقوالب الإعداد في Dynamics 365 Talent - Onboard](./onboard-edit-guides-templates.md)
+- [مشاركة المحتوى مع مساهمين آخرين في Dynamics 365 Talent - Onboard](./onboard-share-template.md)
+- [عرض حالة إعداد الموظفين ومهامك](./onboard-view-status.md)
+- [إنشاء فريق توظيف باستخدام Dynamics 365 Talent - Onboard](./onboard-create-team.md)
 
 ## <a name="see-also"></a>راجع أيضًا
 
 - [تجربة تطبيق Onboard أو شراؤه](https://dynamics.microsoft.com/talent/onboard/)
-- [الجديد](./whats-new.md)
-- [ملاحظات الإصدار](https://docs.microsoft.com/business-applications-release-notes/index)
-- [الحصول على الدعم](./talent-support.md)
+- [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md)
+- [خطط الإصدارات](https://docs.microsoft.com/business-applications-release-notes/index)
+- [الحصول على دعم لـ Microsoft Dynamics 365 Talent](./talent-support.md)

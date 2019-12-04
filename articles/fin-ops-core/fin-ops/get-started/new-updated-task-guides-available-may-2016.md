@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 7134dc49c0e767d3bc4dc32e4feeb0e83a168e86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 930c744ff2a28451d4267f060867b4b6474d45e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190915"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811568"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>دلائل المهام الجديدة أو المحدثة (مايو 2016)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190915"
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (مايو 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
 
-تحتوي المكتبة الموحدة APQC (مايو 2016) على دلائل المهام المخصصة للاستخدام للتعليمات مع تحديث مايو 2016 من Microsoft Dynamics AX وإصدار فبراير 2016 من Microsoft Dynamics AX. تتوفر الإصدارات المترجمة من دلائل المهام التي تم إصدارها في المكتبة الموحدة APQC (فبراير 2016) في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md).
+تحتوي المكتبة الموحدة APQC (مايو 2016) على دلائل المهام المخصصة للاستخدام للتعليمات مع تحديث مايو 2016 من Microsoft Dynamics AX وإصدار فبراير 2016 من Microsoft Dynamics AX. تتوفر الإصدارات المترجمة من دلائل المهام التي تم إصدارها في المكتبة الموحدة APQC (فبراير 2016) في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [نظام التعليمات](help-overview.md).
 
 > [!NOTE]
 > تشير العلامة النجمية (\*) إلى جانب عنوان بند أداة تكوين عمليات الأعمال إلى إنشاء دليل المهام لعملية الأعمال هذه لتحديث مايو 2016 لتطبيق Dynamics AX وهو غير معتمد في الإصدارات السابقة من Microsoft Dynamics AX.
@@ -185,7 +185,7 @@ ms.locfileid: "2190915"
 | إعداد التعبئة في حاويات                                         | عمومي         |
 | إعداد التعبئة اليدوية                                           | عمومي         |
 | إعداد قيود النقل لصنف                   | عمومي         |
-| \*إعداد سياسات عمل المستودع                                 | عمومي         |
+| \*إعداد سياسات عمل المستودع                                | عمومي         |
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -193,4 +193,4 @@ ms.locfileid: "2190915"
 
 [دلائل المهام الجديدة أو المحدثة (أغسطس 2016)](new-updated-task-guides-available-august-2016.md)
 
-[دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)](new-task-guides-november-2016.md)
+[دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)‬](new-task-guides-november-2016.md)

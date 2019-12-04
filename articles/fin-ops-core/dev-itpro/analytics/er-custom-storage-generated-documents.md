@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569074"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771388"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>تحديد موقع تخزين مخصص للمستندات التي يتم إنشاؤها
 
@@ -54,7 +54,7 @@ ms.locfileid: "2569074"
 
 ## <a name="create-a-new-document-type"></a>إنشاء نوع مستند جديد
 
-لتحديد كيفية توجيه المستندات التي يقوم تنسيق التقارير الإلكترونية بإنشائها، يجب تكوين [وجهات التقارير الإلكترونية](electronic-reporting-destinations.md). في كل وجهة تقارير إلكترونية تم تكوينها لتخزين المستندات المنشأة كملفات، يجب تحديد نوع مستند من إطار عمل إدارة المستندات. ويمكن استخدام أنواع مستندات مختلفة لتوجيه المستندات التي تقوم تنسيقات تقارير إلكتروني مختلفة بإنشائها.
+لتحديد كيفية توجيه المستندات التي يقوم تنسيق التقارير الإلكترونية بإنشائها، يجب تكوين [وجهات التقارير الإلكترونية (ER)](electronic-reporting-destinations.md). في كل وجهة تقارير إلكترونية تم تكوينها لتخزين المستندات المنشأة كملفات، يجب تحديد نوع مستند من إطار عمل إدارة المستندات. ويمكن استخدام أنواع مستندات مختلفة لتوجيه المستندات التي تقوم تنسيقات تقارير إلكتروني مختلفة بإنشائها.
 
 1. أضف [نوع مستند](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) جديدًا لتنسيق التقارير الإلكترونية الذي أنشأته أو استوردته في خطوة سابقة. في الرسم التوضيحي الذي يلي، نوع المستند هو **FileX**.
 2. لتمييز نوع المستند هذا عن أنواع المستندات أخرى، يمكنك تضمين كلمة أساسية معينة في اسمه. على سبيل المثال، في الرسم التوضيحي الذي يلي، الاسم هو **المجلد (LOCAL)**.
@@ -173,5 +173,5 @@ public DocuRef insertFile(
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-- [وجهات إعداد التقارير الإلكترونية‬](electronic-reporting-destinations.md)
-- [الصفحة الرئيسية لقابلية التوسعة](../extensibility/extensibility-home-page.md)
+- [وجهات التقارير الإلكترونية‬](electronic-reporting-destinations.md)
+- [الصفحة الرئيسية لقابلية للتوسعة](../extensibility/extensibility-home-page.md)

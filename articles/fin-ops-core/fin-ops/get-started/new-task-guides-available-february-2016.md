@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190938"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811616"
 ---
 # <a name="new-task-guides-february-2016"></a>دلائل المهام الجديدة (فبراير 2016)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190938"
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (فبراير 2016) لتطبيق Microsoft Dynamics AX
 
-تحتوي المكتبة الموحدة APQC (فبراير 2016) على دلائل المهام المخصصة للاستخدام لنظام التعليمات مع الإصدار 7.0.0 من Dynamics AX. إذا احتجت إلى الإصدارات المترجمة من دلائل المهام هذه، فهي متوفرة في المكتبة الموحدة APQC (مايو 2016) لتطبيق Microsoft Dynamics AX. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md).
+تحتوي المكتبة الموحدة APQC (فبراير 2016) على دلائل المهام المخصصة للاستخدام لنظام التعليمات مع الإصدار 7.0.0 من Dynamics AX. إذا احتجت إلى الإصدارات المترجمة من دلائل المهام هذه، فهي متوفرة في المكتبة الموحدة APQC (مايو 2016) لتطبيق Microsoft Dynamics AX. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [نظام التعليمات](help-overview.md).
 
 ### <a name="accounts-payable"></a>الحسابات الدائنة
 
@@ -645,4 +645,4 @@ ms.locfileid: "2190938"
 
 [دلائل المهام الجديدة أو المحدثة (أغسطس 2016)](new-updated-task-guides-available-august-2016.md)
 
-[دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)](new-task-guides-november-2016.md)
+[دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)‬](new-task-guides-november-2016.md)

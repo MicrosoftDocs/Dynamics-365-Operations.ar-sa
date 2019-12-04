@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558208"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813376"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>الصفحة الرئيسية للتدبير وتحديد الموارد
 
@@ -39,16 +39,16 @@ ms.locfileid: "1558208"
 -   [إعداد الأذونات لطلب المنتجات بالنيابة عن شخص آخر](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>طلبات عرض الأسعار
--   [طلبات عروض الأسعار](request-quotations.md)
+-   [نظر عامة على طلب عرض الأسعار (RFQ)](request-quotations.md)
 -   [إنشاء طلب لعرض الأسعار](tasks/create-request-quotation.md)
 -   [إدخال عطاءات RFQ ومنح العقود ومقارنتها](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [إنشاء أسلوب تسجيل النقاط لطلبات عروض الأسعار](tasks/create-scoring-method-rfqs.md)
 -   [إنشاء أنواع طلبات ومعايير تسجيل النقاط‬ لطلبات عروض الأسعار](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
 ## <a name="vendor-management-and-collaboration"></a>إدارة وتعاون المورد‬
--   [إعداد حسابات المورّدين](set-up-vendor-accounts.md)
+-   [إعداد حسابات الموردين](set-up-vendor-accounts.md)
 -   [إنشاء حساب مورد](tasks/create-vendor-account.md)
--   [إنشاء حساب بنكي للمورد](tasks/create-vendor-bank-account.md)
+-   [إنشاء حساب بنكي للمورّد](tasks/create-vendor-bank-account.md)
 -   [البحث عن الموردين](tasks/search-vendors.md)
 -   [اعتماد موردين لمنتجات محددة](tasks/approve-vendors-specific-products.md)
 -   [تعاون المورد مع موردين خارجيين](vendor-collaboration-work-external-vendors.md)
@@ -58,12 +58,12 @@ ms.locfileid: "1558208"
 -   [البرنامج النصي للعرض التوضيحي الخاص بمخزون الشحن الوارد لتطبيق Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
 -   [مراقبة مخزون الشحن باستخدام تعاون المورّد](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [التعاون مع المورّدين باستخدام مدخل المورّد](collaborate-vendors-vendor-portal.md)  (إصدارات فبراير 2016 ومايو 2016 من Dynamics AX فقط)
--   [تكوين الأمان لمستخدمي مدخل المورد](configure-security-vendor-portal-users.md) (إصدارات فبراير 2016 ومايو 2016 من Finance and Operations فقط)
--   [مساحة العمل المحمولة "تعاون المورّد" لتطبيق Microsoft Dynamics 365 for Finance and Operations app](vendor-collaboration-mobile-workspace.md)
+-   [أمان مستخدمي مدخل المورد](configure-security-vendor-portal-users.md) (إصدارات فبراير 2016 ومايو 2016 من Finance and Operations فقط)
+-   [مساحة العمل المحمولة لتعاون المورد](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>إدارة منتج التدبير
--   [كتالوجات التدبير](procurement-catalogs.md)
--   [إنشاء كتالوج تدبير](tasks/create-procurement-catalog.md)
+-   [نظرة عامة على كتالوجات التدبير](procurement-catalogs.md)
+-   [إنشاء أوامر شراء](tasks/create-procurement-catalog.md)
 -   [استيراد كتالوجات المورّدين](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (منشور مدونة)
 -   [إعداد التدرج الهرمي لفئات التدبير](tasks/set-up-procurement-category-hierarchy.md)
 -   [إعداد سياسات للتدرج الهرمي لفئات التدبير](tasks/set-up-policies-procurement-category-hierarchies.md)
@@ -72,10 +72,10 @@ ms.locfileid: "1558208"
 ## <a name="procurement"></a>التدبير
 -   [نظرة عامة على أمر الشراء](purchase-order-overview.md)
 -   [إنشاء أمر شراء](purchase-order-creation.md)
--   [الموافقة على أمر الشراء وتأكيده](purchase-order-approval-confirmation.md)
+-   [اعتماد أوامر الشراء وتأكيدها](purchase-order-approval-confirmation.md)
 -   [إنشاء أمر شراء](tasks/create-purchase-order.md)
--   [إنشاء أمر شراء متكرر](tasks/create-repeat-purchase-order.md)
--   [إنشاء أمر للشراء من خلال أمر للبيع](../sales-marketing/tasks/create-purchase-order-sales-order.md)
+-   [إنشاء أمر شراء مكرر](tasks/create-repeat-purchase-order.md)
+-   [إنشاء أمر شراء من أمر مبيعات](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [إنشاء أمر شراء لمورد مرة واحدة](tasks/create-purchase-order-one-time-supplier.md)
 -   [إنشاء أمر شراء مع جدول تسليم](tasks/create-purchase-order-delivery-schedule.md)
 -   [إنشاء أمر إرجاع الشراء](tasks/create-purchase-return-order.md)
@@ -99,11 +99,8 @@ ms.locfileid: "1558208"
 -   [تسجيل استلام البضائع في أمر الشراء](tasks/record-receipt-goods-purchase-order.md)
 -   [سير عمل طلب الشراء](purchase-requisitions-workflow.md)
 -   [تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (مستند تقني)
--   [سياسات الشراء](purchase-policies.md)
--   [إنشاء مناهج الشراء](tasks/create-purchasing-policies.md)
-
-
-
+-   [نظرة عامة على سياسات الشراء](purchase-policies.md)
+-   [إنشاء سياسات الشراء](tasks/create-purchasing-policies.md)
 
 
 

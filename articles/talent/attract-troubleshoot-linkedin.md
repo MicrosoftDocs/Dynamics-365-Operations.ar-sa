@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551462"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832967"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>استكشاف أخطاء التكامل وإصلاحها باستخدام LinkedIn وMicrosoft Dynamics 365 Talent - Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 استخدم المعلومات التالية للمساعدة في استكشاف وإصلاح المشاكل التي قد تواجهها عند محاولة نشر الوظائف في LinkedIn من Microsoft Dynamics 365 Talent: Attract.
 
@@ -42,18 +42,18 @@ ms.locfileid: "2551462"
 
 إذا لم تظهر وظيفتك على LinkedIn بعد 24 ساعة، فحاول القيام بهذه الخطوات:
 
-1. تأكد من تعيين معرّف شركتك في LinkedIn إلى صفحة شركتك في LinkedIn ومن إدخالها بشكل صحيح في مركز إدارة Attract. لمزيد من المعلومات حول كيفية تغيير إعدادات LinkedIn في مركز الإدارة، راجع [إعداد التكامل مع LinkedIn.](attract-admin-linkedin.md) لمزيد من المعلومات حول معرّفات الشركات في LinkedIn، راجع [ربط معرّف شركتك في LinkedIn بلوحة وظائف LinkedIn - الأسئلة المتداولة](https://www.linkedin.com/help/linkedin/answer/98972).
+1. تأكد من تعيين معرّف شركتك في LinkedIn إلى صفحة شركتك في LinkedIn ومن إدخالها بشكل صحيح في مركز إدارة Attract. لمزيد من المعلومات حول كيفية تغيير إعدادات LinkedIn في مركز الإدارة، راجع [إعداد التكامل مع LinkedIn لـ Microsoft Dynamics 365 Talent - Attract](attract-admin-linkedin.md). لمزيد من المعلومات حول معرّفات الشركات في LinkedIn، راجع [ربط معرّف شركتك في LinkedIn بلوحة وظائف LinkedIn - الأسئلة المتداولة](https://www.linkedin.com/help/linkedin/answer/98972).
 2. تحقق من تفاصيل الوظيفة على LinkedIn للتأكد من إدخال عنوان كامل. لنشر وظيفة بطريقة ناجحة، تحتاج LinkedIn على الأقل إلى مدينة وبلد أو منطقة الوظيفة.
 3. تأكد من أن الوظيفة غير مكررة مع وظيفة أخرى تم نشرها في LinkedIn. لن تقوم LinkedIn بنشر وظائف مكررة أو إعلانات وظائف مميزة أو محدودة من LinkedIn من مصدر آخر. تأكد من عدم قيام شخص آخر في شركتك بنشر الوظيفة يدويًا.
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[الأسئلة المتداولة حول LinkedIn](./attract-linkedin-faq.md)
+[الأسئلة المتداولة حول تكامل Attract مع LinkedIn](./attract-linkedin-faq.md)
 
-[نشر الوظائف في LinkedIn من Attract](./attract-post-jobs-to-linkedin.md)
+[نشر الوظائف في LinkedIn من Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[بحث عن المرشحين باستخدام LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[بحث عن المرشحين باستخدام LinkedIn Recruiter في Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[إنشاء وظائف](./creating-jobs-attract.md)
+[إنشاء الوظائف والموافقة عليها ونشرها في Attract](./creating-jobs-attract.md)
 
-[استكشاف أخطاء التكامل مع LinkedIn وإصلاحها](./attract-troubleshoot-linkedin.md)
+[استكشاف أخطاء التكامل وإصلاحها مع LinkedIn وMicrosoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

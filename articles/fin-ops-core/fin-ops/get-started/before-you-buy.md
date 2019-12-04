@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191237"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812616"
 ---
 # <a name="before-you-buy"></a>قبل الشراء
 
@@ -41,8 +41,8 @@ ms.locfileid: "2191237"
 
 - الاحتياجات التنظيمية واحتياجات التوافق غير متوفرة في شهادات المجموعات
 - عملية أعمال غير متصلة مع اتصال متقطع بالإنترنت مطلوبة للوصول إلى Microsoft Dynamics Lifecycle Services (LCS) لإدارة دورة حياة التطبيقات
-- [ميزات لا يتم تنفيذها حاليًا في عمليات التوزيع المحلي](features-not-implemented-on-prem.md)
-- [الحد الأدنى لمتطلبات البنية الأساسية](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [ميزات لم يتم تنفيذها في عمليات النشر المحلية‬](features-not-implemented-on-prem.md)
+- [متطلبات النظام لعمليات النشر المحلي](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > عمليات النشر المحلي لتطبيق Microsoft Dynamics 365 for Finance and Operations غير مدعومة على أي مجموعة عامة، بما في ذلك Azure.
@@ -78,7 +78,7 @@ ms.locfileid: "2191237"
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>الشراء من خلال شريك Dynamics (محلي)
 
-يجب أن تعمل مع شريك لشراء Finance and Operations في الموقع المحلي. لمزيد من المعلومات، راجع [شراء Dynamics 365 for Finance and Operations (محلي)](purchase-on-premises.md)
+يجب أن تعمل مع شريك لشراء Finance and Operations في الموقع المحلي. لمزيد من المعلومات، راجع [شراء المالية + العمليات (محليًا)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>انتقاء خيار الدعم
 
@@ -91,7 +91,7 @@ ms.locfileid: "2191237"
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>الخطوة الرابعة: التعرف على FastTrack والتخطيط لعملية النشر
 
-إن Microsoft FastTrack for Dynamics 365 هو خدمة العملاء الناجحة التي تم تصميمها لمساعدتك على الانتقال إلى Dynamics 365 بثقة وسلاسة، لكي تتمكن من تحقيق قيمة عملك بشكل أسرع. عند مشاركتك في برنامج FastTrack، سوف تتلقى إرشادات حول أفضل الممارسات وكيفية التخطيط لعمليات نشر ناجحة. ستتعرف أيضًا على طرق لتمكين مستخدمين جدد وتوسيع الإمكانيات – كل ذلك بحسب وتيرتك الخاصة. بالإضافة إلى ذلك، سيتوفر لديك الوصول إلى موارد Microsoft الهندسية الملتزمة بتحويل تجربتك في استخدام Dynamics 365 إلى تجربة ناجحة. مزيد من المعلومات: [نظرة عامة على Microsoft FastTrack for Dynamics 365](fasttrack-dynamics-365-overview.md)
+إن Microsoft FastTrack for Dynamics 365 هو خدمة العملاء الناجحة التي تم تصميمها لمساعدتك على الانتقال إلى Dynamics 365 بثقة وسلاسة، لكي تتمكن من تحقيق قيمة عملك بشكل أسرع. عند مشاركتك في برنامج FastTrack، سوف تتلقى إرشادات حول أفضل الممارسات وكيفية التخطيط لعمليات نشر ناجحة. ستتعرف أيضًا على طرق لتمكين مستخدمين جدد وتوسيع الإمكانيات – كل ذلك بحسب وتيرتك الخاصة. بالإضافة إلى ذلك، سيتوفر لديك الوصول إلى موارد Microsoft الهندسية الملتزمة بتحويل تجربتك في استخدام Dynamics 365 إلى تجربة ناجحة. مزيد من المعلومات: [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>إذا كنت تقوم بالترقية من Dynamics AX 2012 أو الترحيل من AX 2009
 

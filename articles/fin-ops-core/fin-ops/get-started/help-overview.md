@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537822"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811662"
 ---
 # <a name="help-system"></a>نظام التعليمات
 
@@ -82,7 +82,7 @@ ms.locfileid: "2537822"
 
 يُعد دليل المهمة عبارة عن خبرة إرشادية تفاعلية محكومة وموجهة تقودك خلال الخطوات الخاصة بمهمة أو عملية أعمال. ويمكنك فتح (تشغيل) دليل المهام من جزء المساعدة. وعند النقر فوق دليل المهام أولاً، سيعرض جزء المساعدة التعليمات خطوة بخطوة للمهمة. دلائل المهام المترجمة متوفرة.
 
-قامت شركة Microsoft بشحن مكتبات دلائل المهام للإصدارات من شهر ديسمبر 2017 للتطبيق Dynamics 365 for Finance and Operations. يوضح قسم [الوصول إلى دلائل المهام من جزء التعليمات](help-overview.md#accessing-task-guides-from-the-help-pane) كيفية البحث عن دلائل المهام الصحيحة لمنتجك.
+قامت شركة Microsoft بشحن مكتبات دلائل المهام للإصدارات من شهر ديسمبر 2017 للتطبيق Dynamics 365 for Finance and Operations. يوضح قسم [نظام التعليمات](help-overview.md#accessing-task-guides-from-the-help-pane) كيفية البحث عن دلائل المهام الصحيحة لمنتجك.
 
 ![طريقة عرض قراءة دليل المهام](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ ms.locfileid: "2537822"
 > [!IMPORTANT]
 > إن البيانات التي تقوم بإدخالها عند تشغيل دليل مهمة هي بيانات حقيقية. إذا كنت في بيئة إنتاج، فسيتم إدخال البيانات في الشركة التي تقوم باستخدامها حاليًا.
 
-يمكنك استخدام مسجل المهام لإنشاء أدلة مهام مخصصة خاصة بك. لمزيد من المعلومات، راجع [إنشاء الوثائق أو التدريب باستخدام تسجيلات المهام](../../dev-itpro/user-interface/task-recorder-training-docs.md).
+يمكنك استخدام مسجل المهام لإنشاء أدلة مهام مخصصة خاصة بك. لمزيد من المعلومات، راجع [إنشاء الوثائق أو التدريب باستخدام مسجل المهام](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>التعليمات في منتج
 
@@ -144,13 +144,12 @@ ms.locfileid: "2537822"
 
 يمكنك إنشاء تعليمات للمستخدمين من خلال إنشاء دلائل مهام مخصصة أو ربط موقع الويب الخاص بك بجزء التعليمات. للحصول على التفاصيل، راجع:
 
-- [كيفية إنشاء تسجيل مهمة لاستخدامه كوثائق أو تدريب](../../dev-itpro/user-interface/task-recorder.md).
+- [موارد مسجل المهام](../../dev-itpro/user-interface/task-recorder.md).
 - [إنشاء تعليمات مخصصة (مستند تقني)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-- [مسجل المهام](../../dev-itpro/user-interface/task-recorder.md)
-- [إنشاء الوثائق أو التدريب باستخدام تسجيلات المهام](../../dev-itpro/user-interface/task-recorder.md)
+- [موارد مسجل المهام](../../dev-itpro/user-interface/task-recorder.md)
 
 يسرد الجدول التالي مواقعنا على الويب. وتتطلب بعض المواقع التي تحتوي على العلامة النجمية (\*) بجوار الاسم قيامك بتسجيل الدخول باستخدام حساب مقترن بخطة خدمة.
 

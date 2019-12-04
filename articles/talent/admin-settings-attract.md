@@ -1,5 +1,5 @@
 ---
-title: تكوين معلومات الشركة في Microsoft Dynamics 365 Talent - Attract
+title: تكوين معلومات الشركة في Attract
 description: يوضح هذا الموضوع كيفية تكوين معلومات الشركة والعلامة التجارية في Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551578"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833244"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>تكوين معلومات الشركة في Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>تكوين معلومات الشركة في Attract
+
+[!include [banner](includes/banner.md)]
 
 يحتوي مركز الإدارة في The Admin center in Microsoft Dynamics 365 Talent: Attract على إعدادات التكوين وخيارات التكامل وخيارات الإعداد لتطبيق Attract.
 
@@ -48,11 +49,11 @@ ms.locfileid: "2551578"
 
 ## <a name="template-management"></a>إدارة القوالب
 
-يحتوي قالب العملية على كافة الأنشطة التي ينبغي تضمينها كجزء من عملية توظيف لوظيفة ما. وبإمكان مؤسستك أن تسمح لجميع أعضاء الفريق أو المسؤولين فقط بإنشاء قوالب عملية التوظيف. للسماح لأعضاء الفريق بإنشاء قوالب عملية التوظيف الخاصة بهم، قم بتشغيل وظيفة إدارة القوالب. للحصول على مزيد من المعلومات حول قوالب العملية، راجع [قوالب العملية في Attract‎](./process-templates-attract.md).
+يحتوي قالب العملية على كافة الأنشطة التي ينبغي تضمينها كجزء من عملية توظيف لوظيفة ما. وبإمكان مؤسستك أن تسمح لجميع أعضاء الفريق أو المسؤولين فقط بإنشاء قوالب عملية التوظيف. للسماح لأعضاء الفريق بإنشاء قوالب عملية التوظيف الخاصة بهم، قم بتشغيل وظيفة إدارة القوالب. للحصول على مزيد من المعلومات حول قوالب العملية، راجع [إنشاء قالب عملية في Attract‎](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>إعدادات قالب البريد الإلكتروني
 
-بإمكان المؤسسات إنشاء قوالب بريد إلكتروني لسيناريوهات مختلفة. يمكنك تحديد صورة الرأس لتضمينها في قوالب البريد الإلكتروني. ويظهر عندئذٍ الرأس المحدد في جميع قوالب البريد الإلكتروني. في تذييل القالب، يمكنك إضافة ارتباط إلى بيانات الخصوصية الخاص بمؤسستك وشروط الاستخدام للاتصالات. لمزيد من المعلومات، راجع [‬‏‫قوالب البريد الإلكتروني في Attract‎](./email-templates.md).
+بإمكان المؤسسات إنشاء قوالب بريد إلكتروني لسيناريوهات مختلفة. يمكنك تحديد صورة الرأس لتضمينها في قوالب البريد الإلكتروني. ويظهر عندئذٍ الرأس المحدد في جميع قوالب البريد الإلكتروني. في تذييل القالب، يمكنك إضافة ارتباط إلى بيانات الخصوصية الخاص بمؤسستك وشروط الاستخدام للاتصالات. لمزيد من المعلومات، راجع [قوالب البريد الإلكتروني](./email-templates.md).
 
 ## <a name="offer-process"></a>عملية العرض
 

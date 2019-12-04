@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249812"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815262"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>نظرة عامة على التكامل مع Microsoft Dynamics 365 Field Service
 
@@ -41,9 +41,9 @@ ms.locfileid: "2249812"
 
 تعمل المرحلة الأولى من التكامل بين Field Service وSupply Chain Management على تمكين مزامنة العناصر التالية:
 
-- [المنتجات في Supply Chain Management مع المنتجات في Field Service التي تشمل معلومات نوع المنتج](field-service-product.md)
-- [أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management](field-service-work-order.md)
-- [الفواتير في Field Service مع فواتير النص الحر في Supply Chain Management](field-service-invoice.md)
+- [مزامنة المنتجات في Supply Chain Management مع المنتجات في Field Service](field-service-product.md)
+- [مزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management](field-service-work-order.md)
+- [مزامنة فواتير الاتفاقيات في Field Service مع فواتير النص الحر في Supply Chain Management](field-service-invoice.md)
 
 للاطلاع على مثال حول الطريقة التي يمكنك من خلالها مزامنة أمر عمل بين Field Service وSupply Chain Management، شاهد مقطع فيديو YouTube القصير [كيفية مزامنة أمر عمل مع تكامل Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo).
 

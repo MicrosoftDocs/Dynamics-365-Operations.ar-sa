@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 4343c875da05641c57b7784bf52f1c814dd26d20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174737"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773635"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>تنفيذ الحقول المخصصة لتطبيق Microsoft Dynamics 365 Project Timesheet للأجهزة المحمولة على iOS وAndroid
 
@@ -321,13 +321,9 @@ final class TSTimesheetEntryService_Extension
 
 ![أمر عرض المزيد من التفاصيل](media/show-more.png)
 
-
-
 يوجد أدناه لقطة شاشة من تطبيق الجوال تعرض قسم "المزيد" في جدول زمني. تمت إضافة حقل مخصص يسمى "معدل استخدام الجدول الزمني هذا (حقل مخصص محسوب)" إلى قسم رأس الجدول الزمني. يتم تعيين قيمة للقراءة فقط "0.667" في الحقل المخصص.
 
 ![قسم المزيد](media/more-section.jpg)
-
-
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>توسيع جدول TSTimesheetTable بحيث يحتوي على حقل مخصص
 

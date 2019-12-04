@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db85db993c5368eaaa6ddfcc3dd02a2c2aa2be01
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 184a6bf9ad43280de135a326688dedd4a5f03a6f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188293"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772595"
 ---
 # <a name="letters-of-credit"></a>خطابات الاعتماد
 
@@ -48,8 +48,8 @@ ms.locfileid: "2188293"
 
 [استيراد خطاب اعتماد](tasks/import-letter-credit.md)
 
-[تصدير خطاب اعتماد](tasks/export-letter-credit.md)
+[تصدير خطاب الاعتماد](tasks/export-letter-credit.md)
 
-[إنشاء تسهيلات مصرفية لخطاب الاعتماد](tasks/create-bank-facility-agreement-letter-credit.md)
+[إنشاء اتفاقية تسهيلات مصرفية لخطاب الاعتماد](tasks/create-bank-facility-agreement-letter-credit.md)
 
 

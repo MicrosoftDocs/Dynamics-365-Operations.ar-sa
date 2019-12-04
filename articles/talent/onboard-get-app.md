@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551969"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812846"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>الحصول على تطبيق Dynamics 365 Talent - Onboard
 
@@ -39,9 +39,9 @@ ms.locfileid: "2551969"
 > [!WARNING]
 > لا يمكنك ترحيل البيانات من الإصدار التجريبي إلى بيئة الاشتراك المدفوعة. <!--Reviewers: please verify.-->
 
-للاطلاع على الميزات الجديدة في Talent، راجع [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md) و[ملاحظات الإصدار لكلٍّ من Dynamics 365 وPower Platform](https://docs.microsoft.com/business-applications-release-notes/index). إذا أردت معاينة ميزات جديدة في Onboard، فراجع [الوصول إلى ميزات المعاينة في Talent](./access-preview-feature.md).
+للاطلاع على الميزات الجديدة في Talent، راجع [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md) و[ملاحظات الإصدار لكلٍّ من Dynamics 365 وPower Platform](https://docs.microsoft.com/business-applications-release-notes/index). إذا أردت معاينة ميزات جديدة في Onboard، فراجع [الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
-إذا كنت متخصصًا في تكنولوجيا المعلومات وترغب في معرفة المزيد حول كيفية تزويد الإصدارين من تطبيق Onboard، فراجع [تزويد تطبيق Onboard](./modular-app-tech-faq.md).
+إذا كنت متخصصًا في تكنولوجيا المعلومات وترغب في معرفة المزيد حول كيفية تزويد الإصدارين من تطبيق Onboard، فراجع [توفير Dynamics 365 Talent - Onboard](./modular-app-tech-faq.md).
 
 ## <a name="get-started-with-onboard"></a>بدء استخدام Onboard
 
@@ -89,6 +89,6 @@ ms.locfileid: "2551969"
 ### <a name="see-also"></a>راجع أيضًا
 
 - [تجربة تطبيق Onboard أو شراؤه](https://dynamics.microsoft.com/talent/onboard/)
-- [الجديد](./whats-new.md)
-- [ملاحظات الإصدار](https://docs.microsoft.com/business-applications-release-notes/index)
-- [الحصول على الدعم](./talent-support.md)
+- [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md)
+- [خطط الإصدارات](https://docs.microsoft.com/business-applications-release-notes/index)
+- [الحصول على دعم لـ Microsoft Dynamics 365 Talent](./talent-support.md)

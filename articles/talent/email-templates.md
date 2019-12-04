@@ -1,5 +1,5 @@
 ---
-title: قوالب البريد الإلكتروني
+title: إنشاء قوالب البريد الإلكتروني في Attract
 description: يوفر هذا الموضوع معلومات حول قوالب البريد الإلكتروني التي يمكنك إنشاؤها واستخدامها في Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008004"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832874"
 ---
-# <a name="email-templates"></a>قوالب البريد الإلكتروني
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>إنشاء قوالب البريد الإلكتروني في Attract
+
+[!include [banner](includes/banner.md)]
 
 باستخدام مكتبة قوالب البريد الإلكتروني، يمكن للمسؤولين إنشاء نسق وسمة علامة تجارية موحدة لجميع رسائل البريد الإلكتروني التي تم إرسالها عن طريق Microsoft Dynamics 365 Talent: Attract and Offer. بإمكان المسؤولين أيضًا تحديد مجموعة من قوالب محتوى البريد الإلكتروني التي يستطيع مستخدمون آخرون استعمالها. بإمكان فريق التوظيف استخدام هذه القوالب في سير عملهم لإرسال رسائل البريد الإلكتروني بطريقة أكثر كفاءة. تم تكوين بعض رسائل البريد الإلكتروني لإرسالها تلقائيًا، وباستطاعة المسؤول استخدام مكتبة قوالب البريد الإلكتروني لتخصيص محتوى رسائل البريد الإلكتروني هذه.
 

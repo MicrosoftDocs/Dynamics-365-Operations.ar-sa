@@ -3,7 +3,7 @@ title: التحديثات التلقائية للشحنات
 description: يقدم هذا الموضوع نظرة عامة حول الوظيفة التي توفر تحديثات تلقائية للشحنات.
 author: josaw1
 manager: AnnBe
-ms.date: 08/13/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 160ad55a12d13fdb64e55effaabb1848179e71cf
-ms.sourcegitcommit: c35dfce2c0605d6f46365ce5d985c22187d21761
+ms.openlocfilehash: e42e7f19311adee7cc48f0ad0b59a4d0d54df9aa
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1986107"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773533"
 ---
 # <a name="shipment-auto-updates"></a>التحديثات التلقائية للشحنات
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 تقوم وظيفة التحديثات التلقائية للشحنات بتحديث الكميات تلقائيًا (الزيادة والنقصان على حدٍ سواء) في بند الحمل المرتبط بالشحنة، بعد إصدار الحمل إلى المستودع. تبقى هذه الوظيفة قيد التشغيل حتى تتم معالجه بند الحمل على الشحن أو معالجة الحمل على موجة. عند استخدام هذه الميزة، بإمكان تحديثات الأوامر ان تتدفق بشكل تلقائي عبر المستودع، من دون الحاجة إلى أي تدخل يدوي، حتى إنشاء عمل المستودع.

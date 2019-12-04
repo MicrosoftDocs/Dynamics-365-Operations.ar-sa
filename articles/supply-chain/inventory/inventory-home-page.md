@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c286587add6cb38f5fe2728e29fe8b3ac528165
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250773"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814320"
 ---
 # <a name="inventory-management-overview"></a>نظرة عامة على إدارة المخزون
 
@@ -51,7 +51,7 @@ ms.locfileid: "2250773"
 انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.
 
 ### <a name="inventory-accounting"></a>محاسبة المخزون 
-لمزيد من المعلومات، راجع [محاسبة المخزون في إدارة التكاليف](../cost-management/inventory-close.md).
+لمعرفة المزيد، راجع [إغلاق المخزون](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>مدونات التصنيع وSupply Chain Management
 يمكنك العثور على آراء وأخبار ومعلومات أخرى حول إدارة المخزون بالإضافة إلى حلول أخرى في [مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).

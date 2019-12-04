@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176353"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812521"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>دلائل المهام الجديدة أو المحدثة (أغسطس 2016)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2176353"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
 
-تحتوي المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) على دلائل المهام المخصصة لاستخدامها لنظام التعليمات مع Microsoft Dynamics AX platform update 2 (أغسطس 2016) وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 من تطبيق Microsoft Dynamics AX. لمزيد من المعلومات حول هذه الإصدارات، راجع [ما هو الجديد أو المتغير](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [بدء استخدام التعليمات](help-overview.md).
+تحتوي المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) على دلائل المهام المخصصة لاستخدامها لنظام التعليمات مع Microsoft Dynamics AX platform update 2 (أغسطس 2016) وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 من تطبيق Microsoft Dynamics AX. لمزيد من المعلومات حول هذه الإصدارات، راجع [ما الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [نظام التعليمات](help-overview.md).
 
 ### <a name="data-access"></a>الوصول إلى البيانات
 
@@ -99,4 +99,4 @@ ms.locfileid: "2176353"
 
 [دلائل المهام الجديدة أو المحدثة (مايو 2016)](new-updated-task-guides-available-may-2016.md)
 
-[دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)](new-task-guides-november-2016.md)
+[دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)‬](new-task-guides-november-2016.md)

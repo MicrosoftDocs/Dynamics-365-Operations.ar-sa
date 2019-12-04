@@ -1,9 +1,9 @@
 ---
-title: متطلبات النظام وسياسة التحديث في Talent
-description: يسرد هذا الموضوع متطلبات Dynamics 365 Talent. وقد تم أيضًا توضيح سياسة التحديث.
+title: متطلبات نظام Talent
+description: يسرد هذا الموضوع متطلبات Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024150"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818469"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>متطلبات النظام وسياسة التحديث في Talent
+# <a name="talent-system-requirements"></a>متطلبات نظام Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -46,7 +46,7 @@ ms.locfileid: "2024150"
 > * تم بدء تشغيل محرر سير العمل كتطبيق ClickOnce. يدعم كل من Microsoft Edge وInternet Explorer (على إصدار معتمد من Microsoft Windows) فقط تطبيقات ClickOnce. يتطلب تطبيق ClickOnce محرر سير العمل نظام تشغيل متوافق 64 بت.
 > * لمعاينة ملفات PDF، ننصح باستخدام المستعرضات الحديثة مثل Microsoft Edge (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Google Chrome (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو الكمبيوتر اللوحي Google Nexus 10.
 >   متطلبات الشبكة
-> * تم تصميم Dynamics 365 Talent للشبكات مع زمن وصول من 250-300 مللي ثانية أو أقل. زمن الوصول هذا هو زمن الوصول من عميل المستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Talent. نوصي باختبار زمن وصول الشبكة على [www.azurespeed.com](https://www.azurespeed.com "اختبار زمن وصول Azure").
+> * تم تصميم Dynamics 365 Talent للشبكات مع زمن وصول من 250-300 مللي ثانية أو أقل. زمن الوصول هذا هو زمن الوصول من عميل المستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Talent. نوصي باختبار زمن وصول الشبكة على [www.azurespeed.com](https://www.azurespeed.com "اختبار زمن انتقال Azure").
 > * تعتمد متطلبات عرض النطاق الترددي لتطبيق Talent على السيناريو. تتطلب السيناريوهات الأكثر شيوعاً عرض نطاق ترددي لأكثر من 50 كيلو بايت في الثانية (KBps).
 > 
 > [!WARNING]
@@ -54,7 +54,7 @@ ms.locfileid: "2024150"
 
 ## <a name="supported-microsoft-office-applications"></a>تطبيقات Microsoft Office المدعومة
 
-* لتثبيت الوظائف الإضافية لكل من Microsoft Excel وWord، يجب أن يكون Microsoft Office 2016 for Windows أو Mac مثبتًا على جهازك. للحصول على مزيد من التفاصيل حول متطلبات الإصدار، راجع [استكشاف أخطاء تكامل Office‏ وإصلاحها](../dev-itpro/office-integration/office-integration-troubleshooting.md "استكشاف أخطاء تكامل Office‏ وإصلاحها").
+* لتثبيت الوظائف الإضافية لكل من Microsoft Excel وWord، يجب أن يكون Microsoft Office 2016 for Windows أو Mac مثبتًا على جهازك. للحصول على مزيد من التفاصيل حول متطلبات الإصدار، راجع [استكشاف وإصلاح مشاكل تكامل Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "استكشاف أخطاء تكامل Office وإصلاحها").
 * لعرض المستندات التي تم إنشاؤها بواسطة وظيفة التصدير إلى Word أو التصدير إلى Excel، يجب عليك تثبيت Microsoft Office 2007 أو إصدار لاحق.
 
 ## <a name="regional-availability-languages-and-localization"></a>التوافر الإقليمي واللغات والترجمة
@@ -66,8 +66,3 @@ ms.locfileid: "2024150"
 
 إذا كنت مطور برامج تهتم بإنشاء تخصيصات خاصة ببلد أو منطقة، أو في إنشاء حل لبلد أو منطقة لا تدعمها حاليًا Microsoft، فراجع [العولمة](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-## <a name="update-policy"></a>سياسة التحديث
-
-يتم تقديم الخدمات لتطبيق Talent في إطار عرض سحابي. تعتبر تحديثات Talent متواصلة ومطبقة بشكل تلقائي بواسطة Microsoft.
-
-يتم إصدار التحديثات في وتيرة منتظمة وستتم في جميع البيئات. يتم دعم Talent تماشيًا مع [دورة حياة دعم Microsoft](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "دورة حياة دعم Microsoft،") التي توفر إرشادات متناسقة ومتوقعة لتوفر دعم المنتج.

@@ -1,5 +1,5 @@
 ---
-title: بحث عن المرشحين باستخدام LinkedIn Recruiter في Microsoft Dynamics 365 Talent - Attract
+title: توريد المرشحين باستخدام LinkedIn Recruiter في Attract
 description: استخدم تكامل LinkedIn الذي يوفره Microsoft Dynamics 365 Talent - Attract للبحث عن المرشحين للوظائف عبر LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
@@ -19,15 +19,16 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551554"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833036"
 ---
-# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>بحث عن المرشحين باستخدام LinkedIn Recruiter في Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>توريد المرشحين باستخدام LinkedIn Recruiter في Attract
+
+[!include [banner](includes/banner.md)]
 
 تعتبر LinkedIn أكبر شركة احترافية عبر الإنترنت في العالم، وهي تمنحك حق الوصول إلى أهم المواهب في العالم.‬ يسمح لك Microsoft Dynamics 365 Talent: Attract بالبحث عن المرشحين مباشرةً من LinkedIn. وبالتالي، يمكنك العثور على الموهبة التي تحتاج إليها لملء مناصبك الشاغرة بسهولة. بعد إعداد الاتصال مع LinkedIn من خلال Attract، يمكنك عرض مرشحي LinkedIn المحتملين لمناصبك وتصديرهم إلى Attract بنقرة واحدة فقط.
 
@@ -100,12 +101,12 @@ ms.locfileid: "2551554"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[الأسئلة المتداولة حول LinkedIn](./attract-linkedin-faq.md)
+[الأسئلة المتداولة حول تكامل Attract مع LinkedIn](./attract-linkedin-faq.md)
 
-[إعداد التكامل مع LinkedIn](./attract-admin-linkedin.md)
+[إعداد التكامل مع LinkedIn لـ Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[إنشاء وظائف](./creating-jobs-attract.md)
+[إنشاء الوظائف والموافقة عليها ونشرها في Attract](./creating-jobs-attract.md)
 
-[نشر الوظائف في LinkedIn من Attract](./attract-post-jobs-to-linkedin.md)
+[نشر الوظائف في LinkedIn من Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[استكشاف أخطاء التكامل مع LinkedIn وإصلاحها](./attract-troubleshoot-linkedin.md)
+[استكشاف أخطاء التكامل وإصلاحها مع LinkedIn وMicrosoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

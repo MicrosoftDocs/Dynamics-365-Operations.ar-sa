@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 159320dcbdf257862378b347172ef71832e293dc
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 496603731eb343a64be1e8d9482ac8d42e6aa79a
+ms.sourcegitcommit: 7ef9e61f0388b5241894d40ff39f84a112232a5f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626052"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2694396"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (8 أكتوبر 2019)
 
@@ -57,15 +57,15 @@ ms.locfileid: "2626052"
 
 لمزيد من المعلومات، راجع [إدخال بيانات الموظف المبسطة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/streamlined-employee-data-entry) في خطة الموجة 2 من إصدار Dynamics 365: 2019.
 
-### <a name="issue-attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>المشكلة: في Attract وOnboard يتم إنشاء عمال غير نشطين في Core HR (380517)
+### <a name="attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>في Attract وOnboard يتم إنشاء عمال غير نشطين في Core HR (380517)
 
 في إصدار هذا الأسبوع يتم تصحيح مشكلة إنشاء Attract وOnboard لعمال غير نشطين في Core HR.
 
-### <a name="issue-the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>المشكلة: يفشل سير العمل عند تسجيل دخول المدير إلى شركة أخرى أثناء إنهاء الموظف (346852)
+### <a name="the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>يفشل سير العمل عند تسجيل دخول المدير إلى شركة أخرى أثناء إنهاء الموظف (346852)
 
 لم يعد سير العمل يفشل بناءً على الكيان القانوني الذي قام المدير بتسجيل الدخول إليه.
 
-### <a name="issue-missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>المشكلة: معلومات مفقوده في HcmOnboardingWorkerChecklistTaskEntity (349591)
+### <a name="missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>معلومات مفقوده في HcmOnboardingWorkerChecklistTaskEntity (349591)
 
 يتضمن هذا الإصدار معلومات إضافية في **HcmOnboardingWorkerChecklistTaskEntity**. فيما يلي بعض الأمثلة:
 
@@ -73,35 +73,35 @@ ms.locfileid: "2626052"
 - **اسم الموظف** عندما يكون النوع المعين هو **موظف**
 - **اسم المدير** عندما يكون النوع المعين هو **مدير**
 
-### <a name="issue-entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>المشكلة: الكيانات غير مدرجة بترتيب أبجدي في إدارة Common Data Service (377414)
+### <a name="entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>الكيانات غير مدرجة بترتيب أبجدي في إدارة Common Data Service (377414)
 
 الكيانات مدرجة الآن بترتيب أبجدي في صفحة **إدارة CDS**.
 
-### <a name="issue-changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>المشكلة: يؤدي تغيير نوع التوظيف بتاريخ مستقبلي لا يسمح بتعيين مهمة (339958)
+### <a name="changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>يؤدي تغيير نوع التوظيف بتاريخ مستقبلي لا يسمح بتعيين مهمة (339958)
 
 يسمح هذا التغيير بتعيينات المناصب عند تغيير أنواع العمال (على سبيل المثال، من الموظف إلى المقاول).
 
-### <a name="issue-updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>المشكلة: يعمل تحديث كيان حركة إجازة البنك في Common Data Service على إنشاء سجل جديد في Talent (352938)
+### <a name="updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>يعمل تحديث كيان حركة إجازة البنك في Common Data Service على إنشاء سجل جديد في Talent (352938)
 
 يتم الآن تحديث حركة الإجازة عند إجراء تحديث على Common Data Service لحركات إجازة البنك.
 
-### <a name="issue-the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>المشكلة: عنوان المرفقات لعناصر الملاحظات يُظهر وصف الملاحظات (343765)
+### <a name="the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>عنوان المرفقات لعناصر الملاحظات يُظهر وصف الملاحظات (343765)
 
 لم يعد وصف الملاحظات يظهر في عنوان المرفق.
 
-### <a name="issue-compensation-workflow-comments-field-shows-incorrect-content-339297"></a>المشكلة: يُظهر حقل تعليقات سير عمل التعويض محتوى غير صحيح (339297)
+### <a name="compensation-workflow-comments-field-shows-incorrect-content-339297"></a>يُظهر حقل تعليقات سير عمل التعويض محتوى غير صحيح (339297)
 
 يعرض هذا التغيير محتوي الحقل **HcmActionState.HcmWorkerActionComment.Comments%**.
 
-### <a name="issue-workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>المشكلة: WorkCalendarEntity وWorkCalendarDayEntity غير معروضين خلال OData (376329)
+### <a name="workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>WorkCalendarEntity وWorkCalendarDayEntity غير معروضين خلال OData (376329)
 
 في هذا الإصدار، يتوفر كل من **WorkCalendarEntity‎**و **WorkCalendarDayEntity‎** حاليًا من خلال بروتوكول البيانات المفتوحة (OData).
 
-### <a name="issue-hcmworkerentity-is-slow-when-odata-is-used-375221"></a>المشكلة: HCMWorkerEntity بطيء عند استخدام OData (375221)
+### <a name="hcmworkerentity-is-slow-when-odata-is-used-375221"></a>HCMWorkerEntity بطيء عند استخدام OData (375221)
 
 تعمل التغييرات على تحسين أداء **HCMWorkerEntity** عند استخدام مصمم مصنفات Microsoft Excel.
 
-### <a name="issue-manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>المشكلة: يعرض إدخال دفتر يومية أداء المدير خطأ بعد حذف دفتر يومية الأداء وإنشاء واحد جديد (336061)
+### <a name="manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>يعرض إدخال دفتر يومية أداء المدير خطأ بعد حذف دفتر يومية الأداء وإنشاء واحد جديد (336061)
 
 يعمل هذا الإصدار على تصحيح مشكلة تحدث بعد حذف دفتر يومية أداء ويتم إنشاء واحد جديد علي الفور بعد ذلك. يقوم هذا التصحيح بتغيير السلوك في الخدمة الذاتية للمدراء.
 

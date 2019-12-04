@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572177"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815355"
 ---
 # <a name="purchase-order-overview"></a>نظرة عامة على أمر الشراء
 
@@ -41,8 +41,8 @@ ms.locfileid: "2572177"
 
 توفر المقالات التالية نظرة عامة على مختلف المراحل التي يمر أمر الشراء من خلالها:
 
--   [إنشاء أمر شراء](purchase-order-creation.md)
--   [الموافقة على أمر الشراء وتأكيده](purchase-order-approval-confirmation.md)
+-   [إنشاء أوامر شراء](purchase-order-creation.md)
+-   [اعتماد أوامر الشراء وتأكيدها](purchase-order-approval-confirmation.md)
 -   [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
 -   [نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
 
@@ -82,9 +82,9 @@ ms.locfileid: "2572177"
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[إنشاء أمر شراء](purchase-order-creation.md)
+[إنشاء أوامر شراء](purchase-order-creation.md)
 
-[الموافقة على أمر الشراء وتأكيده](purchase-order-approval-confirmation.md)
+[اعتماد أوامر الشراء وتأكيدها](purchase-order-approval-confirmation.md)
 
 [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
 

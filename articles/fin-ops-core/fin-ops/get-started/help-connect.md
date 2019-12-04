@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537845"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812570"
 ---
 # <a name="connect-the-help-system"></a>الاتصال بنظام التعليمات
 
@@ -54,7 +54,7 @@ ms.locfileid: "2537845"
 > [!IMPORTANT]
 > في المرة الأولى التي تفتح فيها علامة التبويب **تعليمات** يجب الاتصال بميزة Lifecycle Services. احرص على النقر فوق الارتباط الموجود في وسط النموذج، وانتظر الاتصال، ثم قم بإغلاق مربع الحوار، ثم انقر فوق **موافق** للوصول إلى صفحة **معلمات النظام**.
 >
-> [![الاتصال بـ LCS](./media/connect-to-lcs-crop-1024x365.png "الاتصال بـ LCS‏‎")](./media/connect-to-lcs-crop.png)
+> [![الاتصال بـ LCS](./media/connect-to-lcs-crop-1024x365.png "الاتصال بـ LCS")](./media/connect-to-lcs-crop.png)
 
 1. تحديد مشروع Lifecycle Services المراد الاتصال به.
 2. تحديد مكتبات BPM (في المشروع المحدد) لاسترداد تسجيلات المهام منها.
@@ -80,7 +80,7 @@ ms.locfileid: "2537845"
 
 يمكنك إنشاء تعليمات مخصصة للتطبيق Finance وSupply Chain Management وRetail بإنشاء تسجيلات المهام التي تعكس عملية التنفيذ التي تقوم بها، وحفظها إلى مكتبة عمليات أعمال LCS. لا يمكنك إنشاء دلائل مهام مخصصة لتطبيق Talent.
 
-وبالنسبة للشركاء، إذا قمت بترقية مكتبة إلى مكتبة شركة وقمت بتضمينها في أحد حلول، فستتوفر للعملاء. يمكنك أيضًا إنشاء نسخة من المكتبة العمومية الموحدة APQC، ثم فتح نسختك وفتح تسجيلات المهام منها وتعديلها وحفظ التسجيلات مع تغييراتك. لمزيد من المعلومات، راجع [كيفية إنشاء تسجيل مهام لاستخدامه كوثيقة أو تدريب](../../dev-itpro/user-interface/task-recorder.md).
+وبالنسبة للشركاء، إذا قمت بترقية مكتبة إلى مكتبة شركة وقمت بتضمينها في أحد حلول، فستتوفر للعملاء. يمكنك أيضًا إنشاء نسخة من المكتبة العمومية الموحدة APQC، ثم فتح نسختك وفتح تسجيلات المهام منها وتعديلها وحفظ التسجيلات مع تغييراتك. لمزيد من المعلومات، راجع [موارد مسجل المهام](../../dev-itpro/user-interface/task-recorder.md).
 
 ### <a name="connect-a-custom-site"></a>الاتصال بموقع مخصص
 
@@ -91,8 +91,8 @@ ms.locfileid: "2537845"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على التعليمات](help-overview.md)
+[نظام التعليمات](help-overview.md)
 
-[نظرة عامة حول مسجل المهام](../../dev-itpro/user-interface/task-recorder.md)
+[موارد مسجل المهام](../../dev-itpro/user-interface/task-recorder.md)
 
-[كيفية إنشاء تسجيل مهمة لاستخدامه كوثائق أو تدريب](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[إنشاء الوثائق أو التدريب بمسجل المهام](../../dev-itpro/user-interface/task-recorder-training-docs.md)

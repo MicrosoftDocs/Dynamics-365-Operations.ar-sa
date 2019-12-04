@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251075"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814963"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>تكوين أسماء حقول حقول التطبيق في تطبيق التخزين
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251075"
 
 يوضح هذا الموضوع كيفية تحديد وتكوين أسماء حقول تطبيق المستودع والأولويات في Dynamics 365 Supply Chain Management. 
 
-**ملاحظة:** ينطبق هذا الموضوع على الميزات في إدارة المخزن. ولا ينطبق على الميزات في إدارة المخزون. التخزين هو تطبيق يمكن استخدامه لتنفيذ مهام المستودع. يمكن تحديد وتكوين أسماء الحقول المستخدمة في التطبيق، فضلًا عن تكوين الأولوية التي ينبغي تعيين أسماء الحقول على أساسها. يوضح هذا الموضوع كيفية تحديد وتكوين أسماء حقول تطبيق التخزين والأولويات هذه، وكيفية استخدامها في تطبيق التخزين. للحصول على معلومات مفصلة حول كيفية تكوين اتصال بتطبيق التخزين، يُرجى الرجوع إلى البرنامج التعليمي [تثبيت وتكوين تطبيق التخزين](install-configure-warehousing-app.md).
+> [!NOTE]
+> ينطبق هذا الموضوع على الميزات في إدارة المخزن. ولا ينطبق على الميزات في إدارة المخزون. التخزين هو تطبيق يمكن استخدامه لتنفيذ مهام المستودع. يمكن تحديد وتكوين أسماء الحقول المستخدمة في التطبيق، فضلًا عن تكوين الأولوية التي ينبغي تعيين أسماء الحقول على أساسها. يوضح هذا الموضوع كيفية تحديد وتكوين أسماء حقول تطبيق التخزين والأولويات هذه، وكيفية استخدامها في تطبيق التخزين. للحصول على معلومات مفصلة حول كيفية تكوين اتصال بتطبيق التخزين، يُرجى الرجوع إلى البرنامج التعليمي [نظرة عامة على تثبيت وتكوين تطبيق التخزين](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>تكوين أسماء حقول تطبيق المخزن
 
@@ -142,4 +143,4 @@ ms.locfileid: "2251075"
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[تثبيت وتكوين Microsoft Dynamics 365 for Finance and Operations – التخزين](install-configure-warehousing-app.md)
+[نظرة عامة على تثبيت وتكوين تطبيق التخزين](install-configure-warehousing-app.md)

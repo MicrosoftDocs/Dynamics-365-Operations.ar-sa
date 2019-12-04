@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37bb02dfc9cfcb3e2c1dcda446be3945563d6594
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d326480cc03d80d1ce27f8762e300dca3b0d325e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570570"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770633"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>طرق حساب ضريبة المبيعات في حقل الأصل
 
@@ -125,9 +125,9 @@ ms.locfileid: "2570570"
 <a name="additional-resources"></a>الموارد الإضافية
 --------
 
-[تحديد معدلات ضريبة المبيعات استنادًا إلى حقلي "القاعدة الهامشية" و"أسلوب الحساب"](marginal-base-field.md)
+[معدلات ضريبة المبيعات على أساس طريقتي القاعدة الهامشية والعملية الحسابية](marginal-base-field.md)
 
-[المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات](whole-amount-interval-options-sales-tax-codes.md)
+[خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات](whole-amount-interval-options-sales-tax-codes.md)
 
 
 

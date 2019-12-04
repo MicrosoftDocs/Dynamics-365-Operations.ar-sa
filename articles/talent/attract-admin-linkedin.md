@@ -1,5 +1,5 @@
 ---
-title: إعداد التكامل مع LinkedIn لـ Microsoft Dynamics 365 Talent - Attract
+title: إعداد تكامل LinkedIn مع Attract
 description: يشرح هذا الموضوع كيفيه تكوين تكامل LinkedIn لـ Microsoft Dynamics 365 Talent - Attract كي تتمكن من نشر الوظائف بسهولة في LinkedIn من Attract، مما يسمح لمسؤولي التعيين بمزامنة معلومات التعيين لديهم مع ملف تعريف المرشح في LinkedIn.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5cdce69396d6972d810e65e15b27c79119a0a9e6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552107"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833174"
 ---
-# <a name="set-up-integration-with-linkedin-for-microsoft-dynamics-365-talent---attract"></a>إعداد التكامل مع LinkedIn لـ Microsoft Dynamics 365 Talent - Attract
+# <a name="set-up-linkedin-integration-with-attract"></a>إعداد تكامل LinkedIn مع Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ساعد مسؤولي التعيين ومدراء التوظيف على جذب أهم المواهب من خلال تكوين تكامل LinkedIn مع Microsoft Dynamics 365 Talent: Attract:. يسمح لك Attract بنشر الوظائف مباشره في LinkedIn، أكبر شركة احترافية في العالم.‬
 
@@ -41,11 +41,11 @@ ms.locfileid: "2552107"
 يمكنك تكوين الخيارات في علامة التبويب **تكامل LinkedIn** في مركز الإدارة. لفتح مركز الإدارة، انتقل إلى <https://attract.talent.dynamics.com/adminsettings>.
 
 > [!NOTE]
-> لاستخدام تكامل LinkedIn Recruiter مع Attract، تحتاج إلى [المكون الإضافي "التوظيف الشامل"](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) بالإضافة إلى [تراخيص LinkedIn Recruiter](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). لمزيد من المعلومات، راجع [أي إصدار من Attract؟](./attract-comprehensive-hiring.md).
+> لاستخدام تكامل LinkedIn Recruiter مع Attract، تحتاج إلى [المكون الإضافي "التوظيف الشامل"](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) بالإضافة إلى [تراخيص LinkedIn Recruiter](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). لمزيد من المعلومات، راجع [أي إصدار من Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md).
 
-إذا واجهت مشكلة ما في نشر الوظائف في LinkedIn، فراجع [استكشاف أخطاء التكامل مع LinkedIn‏‎ وإصلاحها](./attract-troubleshoot-linkedin.md).
+إذا واجهت مشكلة ما في نشر الوظائف في LinkedIn، راجع [استكشاف أخطاء التكامل وإصلاحها مع LinkedIn‏‎ وMicrosoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md).
 
-للحصول على معلومات حول طرق أخرى لنشر الوظائف في LinkedIn، راجع [الأسئلة المتداولة حول LinkedIn](./attract-linkedin-faq.md).
+للحصول على معلومات حول طرق أخرى لنشر الوظائف في LinkedIn، راجع [الأسئلة المتداولة حول تكامل Attract مع LinkedIn](./attract-linkedin-faq.md).
 
 ## <a name="configure-job-posting-to-linkedin"></a>تكوين نشر الوظائف في LinkedIn
 
@@ -98,7 +98,7 @@ ms.locfileid: "2552107"
 
 يمكنك السماح للمرشحين بتقديم طلبات للحصول على وظائفك باستخدام ملفات تعريفهم في LinkedIn. لمزيد من المعلومات حول إعداد "التقدم بطلب عبر LinkedIn، راجع [قوة LinkedIn في كل مكان: التقدم بطلب عبر LinkedIn](https://blog.linkedin.com/2011/07/24/apply-with-linkedin).
 
-هذه الميزة قيد المعاينة حاليًا. قبل اتباع هذه الخطوات، تأكد من تمكين "التقدم بطلب عبر LinkedIn". لمزيد من المعلومات حول كيفية تمكين ميزات المعاينة، راجع [الوصول إلى ميزات المعاينة في Talent‎](./access-preview-feature.md).
+هذه الميزة قيد المعاينة حاليًا. قبل اتباع هذه الخطوات، تأكد من تمكين "التقدم بطلب عبر LinkedIn". لمزيد من المعلومات حول كيفية تمكين ميزات المعاينة، راجع [الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 1. في قائمة **الإعداد** (رمز الترس) في الزاوية العلوية اليسرى، حدد **مركز الإدارة**. بدلاً من ذلك، انتقل إلى <https://attract.talent.dynamics.com/adminsettings>.
 2. حدد علامة التبويب **تكامل LinkedIn**.
@@ -109,12 +109,12 @@ ms.locfileid: "2552107"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[الأسئلة المتداولة حول LinkedIn](./attract-linkedin-faq.md)
+[الأسئلة المتداولة حول تكامل Attract مع LinkedIn](./attract-linkedin-faq.md)
 
-[نشر الوظائف في مواقع خارجية من Attract](./posting-jobs-external.md)
+[نشر الوظائف في مواقع مهن خارجية من Attract](./posting-jobs-external.md)
 
-[بحث عن المرشحين باستخدام LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[بحث عن المرشحين باستخدام LinkedIn Recruiter في Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[إنشاء وظائف](./creating-jobs-attract.md)
+[إنشاء الوظائف والموافقة عليها ونشرها في Attract](./creating-jobs-attract.md)
 
-[استكشاف أخطاء التكامل مع LinkedIn وإصلاحها](./attract-troubleshoot-linkedin.md)
+[استكشاف أخطاء التكامل وإصلاحها مع LinkedIn وMicrosoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

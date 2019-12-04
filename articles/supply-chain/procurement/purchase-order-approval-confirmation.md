@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 265e4dd4be63f70a29e46b6acf7db514feb599a4
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652162"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813375"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>اعتماد وتأكيد أوامر الشراء
 
@@ -90,7 +90,7 @@ ms.locfileid: "2652162"
 
 [نظرة عامة على أمر الشراء](purchase-order-overview.md)
 
-[إنشاء أمر شراء](purchase-order-creation.md)
+[إنشاء أوامر شراء](purchase-order-creation.md)
 
 [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
 
