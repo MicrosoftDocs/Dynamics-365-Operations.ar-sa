@@ -1,0 +1,105 @@
+---
+title: الوحدة النمطية لسلة التسوق
+description: يتناول هذا الموضوع وحدات سلة التسوق ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+author: anupamar-ms
+manager: annbe
+ms.date: 10/31/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.search.region: Global
+ms.search.industry: ''
+ms.author: anupamar
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: 1c910f08e5999ec586b5cb656d5769e9d4abd069
+ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696751"
+---
+# <a name="cart-module"></a><span data-ttu-id="61b80-103">الوحدة النمطية لسلة التسوق</span><span class="sxs-lookup"><span data-stu-id="61b80-103">Cart module</span></span>
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="61b80-104">يتناول هذا الموضوع وحدات سلة التسوق ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="61b80-104">This topic covers cart modules and describes how to add them to site pages in Microsoft Dynamics 365 Commerce.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="61b80-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="61b80-105">Overview</span></span>
+
+<span data-ttu-id="61b80-106">تُمثل الوحدة النمطية لسلة التسوق حاوية تستخدم لاستضافة كافة الوحدات المطلوبة لإظهار الأصناف الموجودة في سلة التسوق.</span><span class="sxs-lookup"><span data-stu-id="61b80-106">A cart module is container that is used to host all the modules that are required to showcase items that are in the cart.</span></span> <span data-ttu-id="61b80-107">على سبيل المثال، يشمل جميع الأصناف التي تمت إضافتها إلى سلة التسوق وملخص الأمر والأكواد الترويجية.</span><span class="sxs-lookup"><span data-stu-id="61b80-107">For example, it includes all the items that have been added to the cart, the order summary, and promotional codes.</span></span>
+
+<span data-ttu-id="61b80-108">تعرض الوحدة النمطية لسلة التسوق البيانات بناءً على مُعرف سلة التسوق.</span><span class="sxs-lookup"><span data-stu-id="61b80-108">The cart module renders data based on the cart ID.</span></span> <span data-ttu-id="61b80-109">يُمثل مُعرف سلة التسوق ملف تعريف ارتباط المستعرض المتوفر من خلال الموقع.</span><span class="sxs-lookup"><span data-stu-id="61b80-109">The cart ID is a browser cookie that is available throughout the site.</span></span>
+
+## <a name="cart-module-properties-and-slots"></a><span data-ttu-id="61b80-110">خصائص الوحدة النمطية لسلة التسوق وفتحات التشغيل</span><span class="sxs-lookup"><span data-stu-id="61b80-110">Cart module properties and slots</span></span>
+
+<span data-ttu-id="61b80-111">وباعتبارها حاوية، تتحكم الوحدة النمطية لسلة التسوق في بعض الخصائص الأساسية مثل العنوان والعرض.</span><span class="sxs-lookup"><span data-stu-id="61b80-111">As a container, a cart module controls some basic properties, such as the heading and the width.</span></span> <span data-ttu-id="61b80-112">وعادةً ما يكون العنوان نصًا مثل **حقيبة التسوق**، أو **سلة التسوق الخاصة بك**، أو **الأصناف في سلة التسوق الخاصة بك**.</span><span class="sxs-lookup"><span data-stu-id="61b80-112">The heading is typically text such as **Shopping bag**, **Your cart**, or **Items in your cart**.</span></span> <span data-ttu-id="61b80-113">تُحدد إعدادات العرض ما إذا كانت الوحدات داخل الحاوية يجب أن تتلائم مع هذه الحاوية أو ما إذا كان بإمكانها ملء الشاشة.</span><span class="sxs-lookup"><span data-stu-id="61b80-113">The width setting determines whether the modules inside the container must fit within that container, or whether they can fill the screen.</span></span>
+
+<span data-ttu-id="61b80-114">تنقسم صفحة سلة التسوق إلى مناطق متعددة: أصناف بنود سلة التسوق وملخص الأمر والسحب ووظيفة "بحث في المتجر".</span><span class="sxs-lookup"><span data-stu-id="61b80-114">The cart page is divided into multiple regions: cart line items, order summary and checkout, and "find in store" functionality.</span></span> <span data-ttu-id="61b80-115">ويتم تعيين كل منطقة إلى فتحة في الوحدة النمطية لسلة التسوق، وتقبل كل فتحة مجموعة وحدات مُعرفة مسبقًا.</span><span class="sxs-lookup"><span data-stu-id="61b80-115">Each region is mapped to a slot in the cart module, and every slot accepts a predefined set of modules.</span></span>
+
+## <a name="modules-that-can-be-used-in-a-cart-module"></a><span data-ttu-id="61b80-116">الوحدات التي يُمكن استخدامها في الوحدة النمطية لسلة التسوق</span><span class="sxs-lookup"><span data-stu-id="61b80-116">Modules that can be used in a cart module</span></span>
+
+- <span data-ttu-id="61b80-117">**عناصر بنود السلة**- تعرض هذه الوحدة ملخص لكل صنف تمت إضافته إلى سلة التسوق.</span><span class="sxs-lookup"><span data-stu-id="61b80-117">**Cart line items** – This module shows a summary of every item that has been added to the cart.</span></span> <span data-ttu-id="61b80-118">وتشمل المعلومات عنوان المنتج والأبعاد المُحددة والسعر والكمية والخصومات.</span><span class="sxs-lookup"><span data-stu-id="61b80-118">The information includes the product title, selected dimensions, price, quantity, and discounts.</span></span> <span data-ttu-id="61b80-119">وتدعم هذه الوحدة أيضًا إجراءات مثل "إزالة من سلة التسوق" و"إضافة إلى قائمة الأمنيات."</span><span class="sxs-lookup"><span data-stu-id="61b80-119">This module also supports actions such as "remove from cart" and "add to wish list."</span></span> <span data-ttu-id="61b80-120">بالنسبة لكل صنف بند، يوجد خيار لشحن الصنف أو انتقائه من المتجر.</span><span class="sxs-lookup"><span data-stu-id="61b80-120">For each line item, there is an option to ship the item or pick it up from the store.</span></span> <span data-ttu-id="61b80-121">يجب تكون هذا الخيار بشكل منفصل في الانتقاء في وحدة المتجر.</span><span class="sxs-lookup"><span data-stu-id="61b80-121">This option must be configured separately in the pick up in store module.</span></span>
+- <span data-ttu-id="61b80-122">**ملخص الأمر**- تعرض هذه الوحدة ملخص الأمر.</span><span class="sxs-lookup"><span data-stu-id="61b80-122">**Order summary** – This module shows an order summary.</span></span> <span data-ttu-id="61b80-123">وتشمل المعلومات الإجمالي الفرعي والشحن والضرائب والمدخرات.</span><span class="sxs-lookup"><span data-stu-id="61b80-123">The information includes the subtotal, shipping, taxes, and savings.</span></span> <span data-ttu-id="61b80-124">يُمكن تكوين عنوان لهذه الوحدة.</span><span class="sxs-lookup"><span data-stu-id="61b80-124">A heading can be configured for this module.</span></span>
+- <span data-ttu-id="61b80-125">**الرمز الترويجي**- تسمح هذه الوحدة للعميل باسترجاع الأكواد الترويجية.</span><span class="sxs-lookup"><span data-stu-id="61b80-125">**Promo code** – This module lets the customer redeem promotional codes.</span></span> <span data-ttu-id="61b80-126">يُمكن استخدام كود ترويجي أو إزالته.</span><span class="sxs-lookup"><span data-stu-id="61b80-126">A promotional code can be applied or removed.</span></span>
+- <span data-ttu-id="61b80-127">**السحب** – تبدأ هذه الوحدة إجراء السحب وتُعيد توجيه المستخدم إلى صفحة السحب.</span><span class="sxs-lookup"><span data-stu-id="61b80-127">**Checkout** – This module initiates the checkout action and redirects the user to the checkout page.</span></span> <span data-ttu-id="61b80-128">يجب تكون ثلاثة ارتباطات لهذه الوحدة:</span><span class="sxs-lookup"><span data-stu-id="61b80-128">Three links must be configured for this module:</span></span>
+
+    - <span data-ttu-id="61b80-129">**السحب**- يفرض هذا الارتباط على العملاء تسجيل الدخول إذا لم يكونوا قد قاموا بتسجيل الدخول بالفعل.</span><span class="sxs-lookup"><span data-stu-id="61b80-129">**Checkout** – This link forces customers to sign in if they aren't already signed in.</span></span>
+    - <span data-ttu-id="61b80-130">**سحب الضيوف**- يسمح هذا الارتباط للعملاء المجهولين بوضع الأوامر.</span><span class="sxs-lookup"><span data-stu-id="61b80-130">**Guest checkout** – This link lets anonymous customers place orders.</span></span> <span data-ttu-id="61b80-131">ويظهر فقط في حالة عدم تسجيل العملاء للدخول.</span><span class="sxs-lookup"><span data-stu-id="61b80-131">It's shown only when customers aren't signed in.</span></span>
+    - <span data-ttu-id="61b80-132">**العودة إلى التسوق**- يسمح هذا الارتباط للعملاء بالانتقال إلى الصفحة الرئيسية أو أي صفحة أخرى، بحيث يُمكنهم الاستمرار في التسوق.</span><span class="sxs-lookup"><span data-stu-id="61b80-132">**Back to shopping** – This link lets customers go to the home page or any other page, so that they can continue to shop.</span></span>
+
+- <span data-ttu-id="61b80-133">**كتلة تنسيق المحتوى**- تدعم هذه الوحدة المُراسلة المخصصة في الوحدة النمطية لسلة التسوق.</span><span class="sxs-lookup"><span data-stu-id="61b80-133">**Content rich block** – This module supports custom messaging in the cart module.</span></span> <span data-ttu-id="61b80-134">يتم التحكم في الرسائل بواسطة نظام إدارة المحتوى (CMS).</span><span class="sxs-lookup"><span data-stu-id="61b80-134">The messages are driven by the content management system (CMS).</span></span> <span data-ttu-id="61b80-135">يُمكن إضافة أي رسالة، مثل "للمشكلات الخاصة بالطلب، اتصل بالرقم التالي 1-800-شركة الاتحاد للتصنيع."</span><span class="sxs-lookup"><span data-stu-id="61b80-135">Any message can be added, such as "For issues with the order, contact 1-800-Fabrikam."</span></span>
+- <span data-ttu-id="61b80-136">**انتقاء في المتجر**- تعرض هذه الوحدة قائمة بالمتاجر القريبة المتاح فيها الصنف للانتقاء.</span><span class="sxs-lookup"><span data-stu-id="61b80-136">**Pick up in store** – This module shows a list of nearby stores where an item is available for pickup.</span></span> <span data-ttu-id="61b80-137">وبشكل افتراضي، تعرض هذه الوحدة المتاجر التي تقع ضمن نطاق 50 ميل من موقع العميل.</span><span class="sxs-lookup"><span data-stu-id="61b80-137">By default, this module shows stores that are within a 50-mile radius of the customer's location.</span></span> <span data-ttu-id="61b80-138">ولكن، يُمكن تخصيص نطاق البحث في الوحدة.</span><span class="sxs-lookup"><span data-stu-id="61b80-138">However, the search radius can be customized in the module.</span></span> <span data-ttu-id="61b80-139">بالنسبة لكل متجر، يتم إجراء التحقق من المخزون، إذا تم تشغيل وظيفة فحص المخزون، ويتم عرض رسالة في المخزون أو نفذ من المخزون المناسبة.</span><span class="sxs-lookup"><span data-stu-id="61b80-139">For each store, an inventory check is done, if the inventory check functionality is turned on, and an appropriate in-stock or out-of-stock message is shown.</span></span>
+- <span data-ttu-id="61b80-140">**البحث في المتجر بواسطة خرائط Bing**- يُمكن استخدام هذه الوحدة النمطية داخل الانتقاء في وحدة المتجر.</span><span class="sxs-lookup"><span data-stu-id="61b80-140">**Store search by Bing Maps** – This module can be used inside the pick up in store module.</span></span> <span data-ttu-id="61b80-141">يسمح للعُملاء بالبحث عن المتاجر عن طريق إدخال موقع.</span><span class="sxs-lookup"><span data-stu-id="61b80-141">It lets customers search for stores by entering a location.</span></span> <span data-ttu-id="61b80-142">تُستخدم واجهة برمجة تطبيقات (API) للتشفير الجغرافي لخرائط Bing لتحويل الموقع الذي ادخله العميل إلى خط عرض وخط طول.</span><span class="sxs-lookup"><span data-stu-id="61b80-142">The Bing Maps geocoding application programming interface (API) is used to convert the location that the customer entered to a latitude and a longitude.</span></span> <span data-ttu-id="61b80-143">في حالة عدم استخدام هذه الوحدة، يتم فقط عرض مواقع المتاجر القريبة من العميل حاليًا، ولا يُمكن للعميل البحث عن موقع مختلف.</span><span class="sxs-lookup"><span data-stu-id="61b80-143">If this module isn't used, only stores that are near the customer's current location are shown, and the customer can't search for a different location.</span></span>
+
+## <a name="cart-module-settings"></a><span data-ttu-id="61b80-144">إعداد الوحدة النمطية لسلة التسوق</span><span class="sxs-lookup"><span data-stu-id="61b80-144">Cart module settings</span></span>
+
+<span data-ttu-id="61b80-145">وتشتمل وحدات سلة التسويق على ثلاثة إعدادات يُمكن تكوينها:</span><span class="sxs-lookup"><span data-stu-id="61b80-145">Cart modules have three settings that can be configured:</span></span>
+
+- <span data-ttu-id="61b80-146">**الحد الأقصى للكمية**- الحد الأقصى لكل صنف يُمكن إضافته إلى سلة التسوق.</span><span class="sxs-lookup"><span data-stu-id="61b80-146">**Maximum quantity** – The maximum number of each item that can be added to the cart.</span></span> <span data-ttu-id="61b80-147">على سبيل المثال، يُمكن لبائع التجزئة أن يُقرر إمكانية بيع 10 فقط من كل منتج في حركة واحدة.</span><span class="sxs-lookup"><span data-stu-id="61b80-147">For example, a retailer might decide that only 10 of each product can be sold in a single transaction.</span></span>
+- <span data-ttu-id="61b80-148">**فحص المخزون**- عندما يتم تعيين القيمة إلى **صحيح**، تتم إضافة عنصر إلى سلة التسوق فقط بعد تأكد وحدة مُربع الشراء من وجودها في المخزون.</span><span class="sxs-lookup"><span data-stu-id="61b80-148">**Inventory check** – When the value is set to **True**, an item is added to the cart only after the buy box module makes sure that it's in stock.</span></span> <span data-ttu-id="61b80-149">يتم إجراء فحص المخزون لكل من السيناريوهات التي سوف يتم فيها شحن الصنف وللسيناريوهات التي سوف يتم فيها انتقائها في المتجر.</span><span class="sxs-lookup"><span data-stu-id="61b80-149">This inventory check is done both for scenarios where the item will be shipped and for scenarios where it will be picked up in the store.</span></span> <span data-ttu-id="61b80-150">إذا تم تعيين القيمة إلى **خطأ**، فلن يتم إجراء فحص المخزون قبل إضافة أي صنف إلى سلة التسوق ووضع الأمر.</span><span class="sxs-lookup"><span data-stu-id="61b80-150">If the value is set to **False**, no inventory check is done before an item is added to the cart and the order is placed.</span></span>
+- <span data-ttu-id="61b80-151">**المخزن المؤقت للمخزون**- يتم الاحتفاظ بالمخزون في الوقت الفعلي، وعندما يقوم العديد من العملاء بوضع الأوامر، وقد يكون من الصعب الحفاظ على جرد المخزون الدقيق.</span><span class="sxs-lookup"><span data-stu-id="61b80-151">**Inventory buffer** – Inventory is maintained in real time, and when many customers place orders, it can be difficult to maintain an accurate inventory count.</span></span> <span data-ttu-id="61b80-152">وبالتالي، يُمكن تحديد مخزن مؤقت للمخزون.</span><span class="sxs-lookup"><span data-stu-id="61b80-152">Therefore, a buffer can be defined for inventory.</span></span> <span data-ttu-id="61b80-153">وعند إجراء فحص للمخزون، إذا كان المخزون أقل من مبلغ المخزن المؤقت، يتم مُعاملة المنتج على أنه خارج المخزون.</span><span class="sxs-lookup"><span data-stu-id="61b80-153">When an inventory check is done, if the inventory is less than the buffer amount, the product is treated as out of stock.</span></span> <span data-ttu-id="61b80-154">وبالتالي، عندما تُجرى المبيعات سريعًا من خلال قنوات متعددة، فلا تتم مزامنة جرد المخزون بالكامل، فمن ثم تقل فرصة خطر بيع منتج خارج المخزون.</span><span class="sxs-lookup"><span data-stu-id="61b80-154">Therefore, when sales occur quickly through several channels, so that the inventory count isn't fully synced, there is less risk that an item that is out of stock will be sold.</span></span>
+
+## <a name="retail-server-interaction"></a><span data-ttu-id="61b80-155">تفاعل خادم Retail</span><span class="sxs-lookup"><span data-stu-id="61b80-155">Retail Server interaction</span></span>
+
+<span data-ttu-id="61b80-156">تسترد الوحدة النمطية لسلة التسوق معلومات المنتج باستخدام واجهات API لخادم البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="61b80-156">The cart module retrieves product information by using Retail Server APIs.</span></span> <span data-ttu-id="61b80-157">يتم استخدام مُعرف سلة التسوق من ملف تعريف ارتباط المستعرض لاسترداد كافة معلومات المنتج من خادم البيع بالتجزئة.</span><span class="sxs-lookup"><span data-stu-id="61b80-157">The cart ID from the browser cookie is used to retrieve all the product information from Retail Server.</span></span>
+
+## <a name="add-a-cart-module-to-a-page"></a><span data-ttu-id="61b80-158">إضافة الوحدة النمطية لسلة التسوق إلى صفحة</span><span class="sxs-lookup"><span data-stu-id="61b80-158">Add a cart module to a page</span></span>
+
+<span data-ttu-id="61b80-159">لإضافة وحدة سلة تسوق إلى صفحة جديدة وتعيين الخصائص المطلوبة، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="61b80-159">To add a cart module to a new page and set the required properties, follow these steps.</span></span>
+
+1. <span data-ttu-id="61b80-160">إنشاء جزء يسمى **جزء سلة التسوق**، وإضافة الوحدة النمطية لسلة التسوق إليه.</span><span class="sxs-lookup"><span data-stu-id="61b80-160">Create a fragment that is named **cart fragment**, and add a cart module to it.</span></span>
+1. <span data-ttu-id="61b80-161">في فتحة **أصناف بند سلة التسوق** الموجودة في الوحدة النمطية لسلة التسوق، قم بإضافة وحدة أصناف بند سلة التسوق.</span><span class="sxs-lookup"><span data-stu-id="61b80-161">In the **Cart line items** slot of the cart module, add a cart line items module.</span></span>
+1. <span data-ttu-id="61b80-162">في فتحة **ملخص أمر**، قم بإضافة وحدة ملخص أمر.</span><span class="sxs-lookup"><span data-stu-id="61b80-162">In the **Order summary** slot, add an order summary module.</span></span>
+1. <span data-ttu-id="61b80-163">في فتحة **الرمز الترويجي**، قم بإضافة وحدة الرمز الترويجي.</span><span class="sxs-lookup"><span data-stu-id="61b80-163">In the **Promo code** slot, add a promo code module.</span></span>
+1. <span data-ttu-id="61b80-164">في فتحة **السحب** ، قم بإضافة وحدة السحب.</span><span class="sxs-lookup"><span data-stu-id="61b80-164">In the **Checkout** slot, add a checkout module.</span></span>
+1. <span data-ttu-id="61b80-165">في فتحة **البحث في المتجر** ، قم بإضافة انتقاء في وحدة المتجر.</span><span class="sxs-lookup"><span data-stu-id="61b80-165">In the **Find in Store** slot, add a pick up in store module.</span></span>
+1. <span data-ttu-id="61b80-166">في الانتقاء في وحدة المتجر، حدد فتحة **البحث في المتجر** ، وقم بإضافة بحث في المتجر عن طريق وحدة خرائط Bing.</span><span class="sxs-lookup"><span data-stu-id="61b80-166">In the pick up in store module, select the **Store search** slot, and add a store search by Bing Maps module.</span></span>
+1. <span data-ttu-id="61b80-167">قم بإيداع الجزء ونشره.</span><span class="sxs-lookup"><span data-stu-id="61b80-167">Check in the fragment, and publish it.</span></span>
+1. <span data-ttu-id="61b80-168">قم بإنشاء قالب يُسمى **قالب سلة التسوق** ، وقم بإضافة جزء السلة الذي قمت بإنشاءه للتو.</span><span class="sxs-lookup"><span data-stu-id="61b80-168">Create a template that is named **cart template**, and add the cart fragment that you just created to it.</span></span>
+1. <span data-ttu-id="61b80-169">قم بحفظ القالب، وإيداعه ونشره.</span><span class="sxs-lookup"><span data-stu-id="61b80-169">Save the template, check it in, and publish it.</span></span>
+1. <span data-ttu-id="61b80-170">قم بإنشاء صفحة تستخدم القالب الجديد.</span><span class="sxs-lookup"><span data-stu-id="61b80-170">Create a page that uses the new template.</span></span>
+1. <span data-ttu-id="61b80-171">احفظ الصفحة وقم بمعاينتها.</span><span class="sxs-lookup"><span data-stu-id="61b80-171">Save and preview the page.</span></span>
+1. <span data-ttu-id="61b80-172">قم بإيداع الصفحة ونشرها.</span><span class="sxs-lookup"><span data-stu-id="61b80-172">Check in the page, and publish it.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="61b80-173">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="61b80-173">Additional resources</span></span>
+
+[<span data-ttu-id="61b80-174">نظرة عامة حول أدوات البداية</span><span class="sxs-lookup"><span data-stu-id="61b80-174">Starter kit overview</span></span>](starter-kit-overview.md)
+
+[<span data-ttu-id="61b80-175">وحدة الحاوية</span><span class="sxs-lookup"><span data-stu-id="61b80-175">Container module</span></span>](add-container-module.md)
+
+[<span data-ttu-id="61b80-176">الوحدة النمطية لمربع شراء</span><span class="sxs-lookup"><span data-stu-id="61b80-176">Buy box module</span></span>](add-buy-box.md)
+
+[<span data-ttu-id="61b80-177">الوحدة النمطية للسداد مع الخروج</span><span class="sxs-lookup"><span data-stu-id="61b80-177">Checkout module</span></span>](add-checkout-module.md)
+
+[<span data-ttu-id="61b80-178">الوحدة النمطية لتأكيد الأمر</span><span class="sxs-lookup"><span data-stu-id="61b80-178">Order confirmation module</span></span>](order-confirmation-module.md)
+
+[<span data-ttu-id="61b80-179">الوحدة النمطية للعنوان</span><span class="sxs-lookup"><span data-stu-id="61b80-179">Header module</span></span>](author-header-module.md)
+
+[<span data-ttu-id="61b80-180">الوحدة النمطية لتذييل الصفحة</span><span class="sxs-lookup"><span data-stu-id="61b80-180">Footer module</span></span>](author-footer-module.md)
