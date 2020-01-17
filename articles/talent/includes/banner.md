@@ -1,1 +1,2 @@
-
+> [!IMPORTANT]
+> <span data-ttu-id="413e4-101">يتم إيقاف تطبيقات Dynamics 365 Talent: Attract وOnboard.</span><span class="sxs-lookup"><span data-stu-id="413e4-101">Dynamics 365 Talent: Attract and Onboard apps are being retired.</span></span> <span data-ttu-id="413e4-102">تعرف على المزدي في [إيقاف تطبيقات Dynamics 365 Talent: Attract وOnboard](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps).</span><span class="sxs-lookup"><span data-stu-id="413e4-102">Learn more at [Retiring Dynamics 365 Talent: Attract and Onboard apps](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps).</span></span>

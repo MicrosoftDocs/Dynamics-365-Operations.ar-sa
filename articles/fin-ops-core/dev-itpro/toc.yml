@@ -8,7 +8,9 @@
           href: index.md
         - name: ما الجديد أو المتغير
           items:
-            - name: ميزات المعاينة‬ في Platform update 31 (يناير 2020)
+            - name: ميزات المعاينة‬ في Platform update 32 (فبراير 2020)
+              href: get-started/whats-new-platform-update-32.md
+            - name: Platform update 31 (يناير 2020)
               href: get-started/whats-new-platform-update-31.md
             - name: Platform update 30 (نوفمبر 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: Platform update 15 (مارس 2018)
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: الجديد أو المتغير في الإصدارات السابقة
+              items:
+                - name: الجديد أو المتغير في صفحة Finance and Operations الرئيسية
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: أحداث الأعمال
           items:
             - name: نظرة عامة على أحداث الأعمال
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: تكامل PowerBI.com مع البيئات المحلية
                   href: analytics/entity-store-on-prem.md
-                - name: تكوين الوكلاء العكسيين للبيئات المحلية
+                - name: تكوين الوكلاء للبيئات المحلية
                   href: deployment/onprem-reverseproxy.md
                 - name: تطبيق التحديثات على عملية نشر محلي
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: مشكلات معروفة
                   href: lifecycle-services/known-issues.md
+                - name: الميزات المزالة أو المهملة في Lifecycle Services ‏(LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: دليل مستخدم Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: أداة تقدير الاشتراك
