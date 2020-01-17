@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: النشر عبر السحابة
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: متطلبات النظام لعمليات النشر عبر السحابة
+                - name: متطلبات النظام لمكونات عميل Retail
                   href: get-started/system-requirements.md
                 - name: النشر المحلي
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,21 +62,15 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: ما الجديد أو المتغير
               items:
-                - name: ميزات المعاينة في الإصدار 10.0.7 من Retail
+                - name: الإصدار 10.0.7 من Retail
                   href: get-started/whats-new-10-0-7.md
                 - name: الإصدار 10.0.6 من Retail
                   href: get-started/whats-new-10-0-6.md
-                - name: الإصدار 10.0.5 من Retail
-                  href: get-started/whats-new-10-0-5.md
                 - name: الجديد أو المتغير في الإصدارات السابقة
                   items:
                     - name: الجديد أو المتغير في صفحة Finance and Operations الرئيسية
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: تطبيقات Finance and Operations إصدار 10.0.5 (أكتوبر 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations إصدار 10.0.4 (يوليو 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations، Enterprise edition 7.3
+                    - name: Finance and Operations،‏ Enterprise Edition 7.3
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
@@ -788,10 +782,8 @@
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
             - name: التدرجات الهرمية للبيع بالتجزئة
               href: retail-hierarchies.md
-            - name: السمات ومجموعات السمات
+            - name: إدارة السمات ومجموعات السمات
               href: attribute-attributegroups-lifecycle.md
-            - name: إنشاء السمات وإدارتها
-              href: create-manage-attributes.md
             - name: إعداد منتجات البيع بالتجزئة
               href: set-up-retail-products.md
             - name: إنشاء منتج
@@ -1146,7 +1138,9 @@
               items:
                 - name: وظيفة آلة تسجيل المدفوعات النقدية
                   href: localizations/emea-swe-cash-registers.md
-                - name: عينة لتكامل Retail POS مع وحدات التحكم
+                - name: نموذج تكامل وحدة التحكم للسويد
+                  href: localizations/emea-swe-fi-sample.md
+                - name: عينة لتكامل Retail POS مع وحدات التحكم (قديمة)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: مهام البيع بالتجزئة
           items:
