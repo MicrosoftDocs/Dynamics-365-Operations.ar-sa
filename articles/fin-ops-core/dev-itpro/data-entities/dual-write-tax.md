@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b6be53e9a2065373ca37c2791568a8161823803f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 86e74086a5a74c7af5f2572d1a653a1658d729c0
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772400"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853849"
 ---
-## <a name="integrated-tax"></a><span data-ttu-id="0d842-103">الضريبة المتكاملة</span><span class="sxs-lookup"><span data-stu-id="0d842-103">Integrated tax</span></span>
+# <a name="integrated-tax"></a><span data-ttu-id="f5681-103">الضريبة المتكاملة</span><span class="sxs-lookup"><span data-stu-id="f5681-103">Integrated tax</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0d842-104">تحدد بيانات إعداد الضريبة الاعداد لكل من الضرائب غير المباشرة (ضريبة القيمة المضافة وGST وضريبة المبيعات) وضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="0d842-104">Tax setup data defines the setup for both indirect taxes (VAT, GST, Sales tax) and withholding tax.</span></span> <span data-ttu-id="0d842-105">وهو يصف القاعدة الخاصة بحساب الضريبة ومعدل الضريبة والمحاسبة الضريبية والتسوية والمفاهيم الأخرى.</span><span class="sxs-lookup"><span data-stu-id="0d842-105">It describes the tax calculation rule, tax rate, tax accounting, settlement, and other concepts.</span></span>
+<span data-ttu-id="f5681-104">تحدد بيانات إعداد الضريبة الاعداد لكل من الضرائب غير المباشرة (ضريبة القيمة المضافة وGST وضريبة المبيعات) وضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="f5681-104">Tax setup data defines the setup for both indirect taxes (VAT, GST, Sales tax) and withholding tax.</span></span> <span data-ttu-id="f5681-105">وهو يصف القاعدة الخاصة بحساب الضريبة ومعدل الضريبة والمحاسبة الضريبية والتسوية والمفاهيم الأخرى.</span><span class="sxs-lookup"><span data-stu-id="f5681-105">It describes the tax calculation rule, tax rate, tax accounting, settlement, and other concepts.</span></span>
 
-## <a name="templates"></a><span data-ttu-id="0d842-106">القوالب</span><span class="sxs-lookup"><span data-stu-id="0d842-106">Templates</span></span>
+## <a name="templates"></a><span data-ttu-id="f5681-106">القوالب</span><span class="sxs-lookup"><span data-stu-id="f5681-106">Templates</span></span>
 
-<span data-ttu-id="0d842-107">تشمل بيانات الضريبة مجموعة من مخططات الكيانات تعمل معًا أثناء تفاعل بيانات المورّد، كما هو موضح في الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="0d842-107">Tax data includes a collection of entity maps that work together during data interaction, as shown in the following table.</span></span>
+<span data-ttu-id="f5681-107">تشمل بيانات الضريبة مجموعة من مخططات الكيانات تعمل معًا أثناء تفاعل بيانات المورّد، كما هو موضح في الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="f5681-107">Tax data includes a collection of entity maps that work together during data interaction, as shown in the following table.</span></span>
 
-<span data-ttu-id="0d842-108">Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="0d842-108">Finance and Operations</span></span>   | <span data-ttu-id="0d842-109">تطبيق Customer Engagement</span><span class="sxs-lookup"><span data-stu-id="0d842-109">Customer Engagement application</span></span>
+<span data-ttu-id="f5681-108">Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="f5681-108">Finance and Operations</span></span>   | <span data-ttu-id="f5681-109">تطبيقات Dynamics 365 الأخرى</span><span class="sxs-lookup"><span data-stu-id="f5681-109">Other Dynamics 365 apps</span></span>
 -------------------------|---------------------------------
-<span data-ttu-id="0d842-110">الأكواد الضريبية</span><span class="sxs-lookup"><span data-stu-id="0d842-110">Tax codes</span></span>                  | <span data-ttu-id="0d842-111">msdyn\_taxcodes.md</span><span class="sxs-lookup"><span data-stu-id="0d842-111">msdyn\_taxcodes.md</span></span>
-<span data-ttu-id="0d842-112">مجموعات الضرائب</span><span class="sxs-lookup"><span data-stu-id="0d842-112">Tax groups</span></span>               | <span data-ttu-id="0d842-113">msdyn\_taxgroups.md</span><span class="sxs-lookup"><span data-stu-id="0d842-113">msdyn\_taxgroups.md</span></span>
-<span data-ttu-id="0d842-114">مجموعات أصناف الضرائب</span><span class="sxs-lookup"><span data-stu-id="0d842-114">Tax item groups</span></span>          | <span data-ttu-id="0d842-115">msdyn\_taxitemgroups.md</span><span class="sxs-lookup"><span data-stu-id="0d842-115">msdyn\_taxitemgroups.md</span></span>
-<span data-ttu-id="0d842-116">الإعفاءات الضريبية</span><span class="sxs-lookup"><span data-stu-id="0d842-116">Tax Exemptions</span></span>           | <span data-ttu-id="0d842-117">msdyn\_taxexemptcodes.md</span><span class="sxs-lookup"><span data-stu-id="0d842-117">msdyn\_taxexemptcodes.md</span></span>
-<span data-ttu-id="0d842-118">هيئات الضرائب</span><span class="sxs-lookup"><span data-stu-id="0d842-118">Tax Authorities</span></span>          | <span data-ttu-id="0d842-119">msdyn\_taxauthorities.md</span><span class="sxs-lookup"><span data-stu-id="0d842-119">msdyn\_taxauthorities.md</span></span>
-<span data-ttu-id="0d842-120">أكواد ضريبة الخصم</span><span class="sxs-lookup"><span data-stu-id="0d842-120">Withholding tax codes</span></span>      | <span data-ttu-id="0d842-121">msdyn\_withholdingtaxcodes.md</span><span class="sxs-lookup"><span data-stu-id="0d842-121">msdyn\_withholdingtaxcodes.md</span></span>
-<span data-ttu-id="0d842-122">مجموعات ضرائب الخصم</span><span class="sxs-lookup"><span data-stu-id="0d842-122">Withholding tax groups</span></span>   | <span data-ttu-id="0d842-123">msdyn\_withholdingtaxgroups.md</span><span class="sxs-lookup"><span data-stu-id="0d842-123">msdyn\_withholdingtaxgroups.md</span></span>
-<span data-ttu-id="0d842-124">مجموعات حسابات دفتر أستاذ الضريبة</span><span class="sxs-lookup"><span data-stu-id="0d842-124">Tax Ledger Account Group</span></span> | <span data-ttu-id="0d842-125">msdyn\_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="0d842-125">msdyn\_taxpostinggroups</span></span>  
+<span data-ttu-id="f5681-110">الأكواد الضريبية</span><span class="sxs-lookup"><span data-stu-id="f5681-110">Tax codes</span></span>                  | <span data-ttu-id="f5681-111">msdyn\_taxcodes.md</span><span class="sxs-lookup"><span data-stu-id="f5681-111">msdyn\_taxcodes.md</span></span>
+<span data-ttu-id="f5681-112">مجموعات الضرائب</span><span class="sxs-lookup"><span data-stu-id="f5681-112">Tax groups</span></span>               | <span data-ttu-id="f5681-113">msdyn\_taxgroups.md</span><span class="sxs-lookup"><span data-stu-id="f5681-113">msdyn\_taxgroups.md</span></span>
+<span data-ttu-id="f5681-114">مجموعات أصناف الضرائب</span><span class="sxs-lookup"><span data-stu-id="f5681-114">Tax item groups</span></span>          | <span data-ttu-id="f5681-115">msdyn\_taxitemgroups.md</span><span class="sxs-lookup"><span data-stu-id="f5681-115">msdyn\_taxitemgroups.md</span></span>
+<span data-ttu-id="f5681-116">الإعفاءات الضريبية</span><span class="sxs-lookup"><span data-stu-id="f5681-116">Tax Exemptions</span></span>           | <span data-ttu-id="f5681-117">msdyn\_taxexemptcodes.md</span><span class="sxs-lookup"><span data-stu-id="f5681-117">msdyn\_taxexemptcodes.md</span></span>
+<span data-ttu-id="f5681-118">هيئات الضرائب</span><span class="sxs-lookup"><span data-stu-id="f5681-118">Tax Authorities</span></span>          | <span data-ttu-id="f5681-119">msdyn\_taxauthorities.md</span><span class="sxs-lookup"><span data-stu-id="f5681-119">msdyn\_taxauthorities.md</span></span>
+<span data-ttu-id="f5681-120">أكواد ضريبة الخصم</span><span class="sxs-lookup"><span data-stu-id="f5681-120">Withholding tax codes</span></span>      | <span data-ttu-id="f5681-121">msdyn\_withholdingtaxcodes.md</span><span class="sxs-lookup"><span data-stu-id="f5681-121">msdyn\_withholdingtaxcodes.md</span></span>
+<span data-ttu-id="f5681-122">مجموعات ضرائب الخصم</span><span class="sxs-lookup"><span data-stu-id="f5681-122">Withholding tax groups</span></span>   | <span data-ttu-id="f5681-123">msdyn\_withholdingtaxgroups.md</span><span class="sxs-lookup"><span data-stu-id="f5681-123">msdyn\_withholdingtaxgroups.md</span></span>
+<span data-ttu-id="f5681-124">مجموعات حسابات دفتر أستاذ الضريبة</span><span class="sxs-lookup"><span data-stu-id="f5681-124">Tax Ledger Account Group</span></span> | <span data-ttu-id="f5681-125">msdyn\_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="f5681-125">msdyn\_taxpostinggroups</span></span>  
 
 [!include [banner](../includes/dual-write-symbols.md)]
 
