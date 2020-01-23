@@ -3,7 +3,7 @@ title: تحديد والاحتفاظ بقنوات البيع بالتجزئة
 description: يوفر هذا الموضوع نظرة عامة على عملية إعداد المتاجر التقليدية، والتي يشار إليها كمتاجر البيع بالتجزئة في Dynamics 365 Retail. وهي تتضمن معلومات حول المهام التي يجب إكمالها قبل إعداد متجر البيع بالتجزئة وبعده.
 author: mugunthanm
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 45d0386d215da15103a417502debb245c91f6309
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019360"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934598"
 ---
 # <a name="define-and-maintain-retail-channels"></a>تحديد والاحتفاظ بقنوات البيع بالتجزئة
 
@@ -85,3 +85,6 @@ ms.locfileid: "2019360"
 ## <a name="organization-hierarchies"></a>التدرجات الهرمية للمؤسسات
 
 يستخدم Retail التدرجات الهرمية للمؤسسات في هيكلة قنوات البيع بالتجزئة. تمثل التدرجات الهرمية للمؤسسات العلاقات بين المؤسسات التي تتألف منها أعمالك. عند إعداد المتاجر، يمكنك إضافتها إلى تدرج هرمي للمؤسسات. وقتئذٍ تتشارك المتاجر البيانات المستخدمة لعمليات الفرز، والتزويد، وإعداد التقارير.
+
+> [!NOTE]
+> لاستخدام وظيفة مبيعات البيع بالتجزئة، يجب تمكين مفتاح التكوين الخاص بـ **‏‫شحن إلى متعدد‬** . يمكن العثور علي مفتاح التكوين هذا في مفاتيح **تكوين التجارة** ضمن **‏‫إدارة النظام‬**\> **إعداد** \> **تكوين الرخصة**. يُطلب ذلك نظرًا لوظائف البيع بالتجزئة التي تنفذ عمليات تحقق متعددة بناءً على عنوان التسليم الذي تم تكوينه على مستوى سطر أمر المبيعات.

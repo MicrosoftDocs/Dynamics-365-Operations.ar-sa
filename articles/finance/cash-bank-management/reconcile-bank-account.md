@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188270"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888645"
 ---
 # <a name="reconcile-a-bank-account"></a>تسوية حساب بنكي
 
@@ -64,7 +64,7 @@ ms.locfileid: "2188270"
 
 8.  لعرض الحركات البنكية التي لم تتم تسويتها بعد، استخدم التقرير **حركات بنكية لم تتم تسويتها‬**. لعرض كشف الحساب البنكي لحساب بنكي، استخدم تقرير **كشف الحساب البنكي**.
 
-# <a name="cancel-bank-statement-reconciliation"></a>إلغاء كشف حساب بنكي 
+## <a name="cancel-bank-statement-reconciliation"></a>إلغاء كشف حساب بنكي 
 
 تسمح لك وظيفة تسوية كشف الحساب البنكي بإلغاء تسوية كشف الحساب البنكي. لاستخدام هذه الميزة، يجب تمكين وظيفة **تسوية كشف الحساب البنكي** في مساحة عمل **إدارة الميزات**. تحتاج أيضًا إلى تمكين‏‎ معلمة **السماح بتحرير كشف الحساب البنكي**. للقيام بذلك، انتقل إلى **إدارة النقد والبنوك > الإعداد > معلمات إدارة النقد والبنوك > تسوية بنكية**.
  

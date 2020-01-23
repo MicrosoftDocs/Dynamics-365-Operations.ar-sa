@@ -3,7 +3,7 @@ title: الأسئلة المتداولة حول سير العمل
 description: يجيب هذا الموضوع عن الأسئلة المتداولة حول نظام سير العمل.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772687"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934899"
 ---
 # <a name="workflow-faq"></a>الأسئلة المتداولة حول سير العمل
 
@@ -37,7 +37,7 @@ ms.locfileid: "2772687"
 يوجد حاليًا قيد في ميزة تصدير عمليات سير العمل يمنع تجاوز أسماء عمليات سير العمل 48 حرفًا. قد يؤدي استخدام اسم أطول من 48 حرفًا إلى ظهور الخطأ "فشل الخادم في مصادقة الطلب" و/أو منع تصدير ملف بدون نوع ملف. يوفر منشور المدونة التالي المزيد من التفاصيل [استكشاف أخطاء تصدير سير العمل وإصلاحها](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>هل يمكن لمرسل سير عمل القيام أيضًا الموافقة على سير العمل؟
-نعم، يمكن أيضًا لمرسل سير عمل الموافقة على سير العمل إذا تم تكوينه بهذه الطريقة. لمنع حدوث مثل هذا السلوك، عيِّن **معلمات سير العمل > عام > المعتمد > عدم السماح للمرسِل بالموافقة‬**على **نعم**.
+نعم، يمكن أيضًا لمرسل سير عمل الموافقة على سير العمل إذا تم تكوينه بهذه الطريقة. لمنع حدوث مثل هذا السلوك، عيِّن **إدارة النظام > سير العمل > معلمات سير العمل > عام > المعتمد > عدم السماح للمرسِل بالموافقة‬** على **نعم**.
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>هل يمكنني إضافة تنبيهات إلى مهام سير العمل لتوفير إخطارات للمستخدمين؟
 فيما يلي بعض المناطق الأساسية لملاحظة إضافة تنبيهات إلى مهام سير العمل لتوفير إخطارات:
@@ -51,3 +51,6 @@ ms.locfileid: "2772687"
     - [تحتوي مهام سير العمل علي أحداث أعمال](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) يمكن للعميل استخدامها لتشغيل المهام ذات الإشعارات التي يبحث عنها.   
 
 وفي الملخص، في حالة عدم حصول المستخدم على الإخطار المناسب من مركز الإجراءات عند تعيين عنصر عمل لسير العمل، قم بزيادة [أحداث أعمال سير العمل](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) مع Microsoft Power Automate لتوفير إخطارات إضافية أو مختلفة.
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>يواجه محرر سير العمل مشكلة في بدء التشغيل ضمن ADFS 
+عند التشغيل ضمن ‏‫خدمات الأمان المشترك لـ Active Directory (AD FS)‬ في بيئة تمت ترقيتها، فقد يواجه محرر سير العمل مشكلة في بدء التشغيل. إذا كان الأمر كذلك ، تأكد من إضافة عنوان URL "https://dynamicsaxworkfloweditor/" إلى الخاصية **Microsoft Dynamics 365 for Operations محلي - سير العمل - التطبيق الأصلي** في إعدادات ADFS.

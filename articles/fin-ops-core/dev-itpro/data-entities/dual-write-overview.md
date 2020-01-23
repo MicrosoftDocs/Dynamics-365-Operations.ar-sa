@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772377"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853896"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>تكامل البيانات في وقت قريب من الحقيقي مع Common Data Service
 
@@ -59,7 +59,7 @@ ms.locfileid: "2772377"
 اتبع هذه الخطوات لإعداد التكامل بين تطبيقات Finance and Operations وCommon Data Service.
     
 1. فيما يتعلق بإعداد نظام الكتابة المزدوجة، راجع [الدليل المفصل خطوة بخطوة](https://aka.ms/dualwrite-docs) حول الإعلان عن معاينة الكتابة المزدوجة.
-2. يمكنك تنزيل الحل وتثبيته من مجموعة [تكامل Finance and Operations وCommon Data Service وCustomer Engagement](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer. تحتوي الحزمة على خمسة حلول:
+2. تحميل وتثبيت الحل من [Fin Ops وتكامل CDS/CE عبر الكتابة المزدوجة](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) مجموعة Yammer . تحتوي الحزمة على خمسة حلول:
 
     + Dynamics365Company
     + CurrencyExchangeRates

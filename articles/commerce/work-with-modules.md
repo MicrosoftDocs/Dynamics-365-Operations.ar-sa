@@ -3,7 +3,7 @@ title: العمل باستخدام الوحدات النمطية
 description: يوضح هذا الموضوع كيفية استخدام الوحدات النمطية ووقت استخدامها في Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06a26e5dfd35bf229e67ed27213210d0da726bdf
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698063"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914784"
 ---
 # <a name="work-with-modules"></a>العمل باستخدام الوحدات النمطية
 
@@ -128,4 +128,6 @@ ms.locfileid: "2698063"
 [إضافة وحدة حاوية إلى صفحة](add-container-module.md)
 
 [إضافة وحدات نمطية لوضع المحتوى إلى صفحة](add-content-placement-modules.md)
+
+[العمل مع مجموعات النشر](publish-groups.md)
 

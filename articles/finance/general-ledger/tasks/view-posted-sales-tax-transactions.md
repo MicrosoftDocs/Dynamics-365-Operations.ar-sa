@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175270"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888599"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>عرض حركات ضرائب المبيعات المُرَّحلة
 
@@ -29,13 +29,13 @@ ms.locfileid: "2175270"
 
 يصف هذا الموضوع بعض الطرق لعرض حركات ضريبة المبيعات المرحّلة. يمكنك عرض حركات ضريبة المبيعات المرحّلة من صفحات مختلفة تبعًا لما تحتاج إلى عرضه. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
-# <a name="posted-sales-tax-page"></a>صفحة ضريبة المبيعات المرحّلة
+## <a name="posted-sales-tax-page"></a>صفحة ضريبة المبيعات المرحّلة
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الضريبة > الاستعلامات والتقارير > استعلامات ضريبة المبيعات > ضريبة المبيعات المرحّلة‬‬**.
 2. حدد **إظهار عوامل التصفية** لتضييق طريقة عرض حركات معينة.
 3. قم بإغلاق الصفحة.
 
-# <a name="sales-tax-settlement-periods-page"></a>صفحة فترات تسوية ضرائب المبيعات
+## <a name="sales-tax-settlement-periods-page"></a>صفحة فترات تسوية ضرائب المبيعات
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الضريبة > الضرائب غير المباشرة > ضريبة المبيعات > فترات تسوية ضرائب المبيعات‬**.
 2. وسّع مقطع **الفترات الزمنية**.
@@ -43,7 +43,7 @@ ms.locfileid: "2175270"
 4. يمكنك أيضًا تصفية قائمة حركات ضريبة المبيعات المرحّلة.
 5. قم بإغلاق الصفحة.
 
-# <a name="sales-tax-codes-page"></a>صفحة أكواد ضريبة المبيعات
+## <a name="sales-tax-codes-page"></a>صفحة أكواد ضريبة المبيعات
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الضريبة > الضرائب غير المباشرة > ضريبة المبيعات > أكواد ضريبة المبيعات**.
 2. في جزء الإجراءات، حدد **كود ضريبة المبيعات**.

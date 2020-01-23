@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7559a986c1a112eb1ccc6069ba5b8eb5c6e5b72b
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813904"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898725"
 ---
 # <a name="design-questionnaires"></a>تصميم الاستبيانات
-
-[!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع عملية إنشاء استبيان. والخطوة الأولى هو تصميم الاستبيان. عندما تقوم بتصميم استبيان، لا تقوم سوى بكتابة الأسئلة والإجابات، بل وتُنشئ أيضًا البنية التي تتيح إمكانية تسجيل الإجابات وجدولتها. 
 

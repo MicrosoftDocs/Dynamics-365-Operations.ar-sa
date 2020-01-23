@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 701ce0d710c20deb793534581c276edf02426a4b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 380f72f564d800d3f5b2e9f8fd3a5f8e8c9e81d5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833151"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898517"
 ---
 # <a name="choose-a-version-of-attract"></a>اختيار إصدار Attract
 
-[[!include [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 يتوقف إصدار The version of Microsoft Dynamics 365 Talent: Attract المناسب لك على حجم مؤسستك واحتياجاتها. يوفر الإصدار الأساسي من Attract مجموعة فرعية من الوظائف التي تستهدف مؤسسات أو فرق عمل أصغر حجمًا حيث يعتبر مدير التوظيف المستخدم الرئيسي. يمكنك بدء استخدام الإصدار الأساسي من Attract مع ترخيص واحد أو أكثر.
 

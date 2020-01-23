@@ -3,7 +3,7 @@ title: بيانات العرض التوضيحي لتوصيات منتج القن
 description: يهدف هذا المستند إلى توفير إرشادات حول كيفية الاستفادة من توصيات المنتج متعدد القنوات في بيئات مربعات فردية بمستوى 1 باستخدام بيانات العرض التوضيحي المعممة مسبقا.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2225541"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872316"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>بيانات العرض التوضيحي لتوصيات منتج القناة متعددة الاتجاهات
 
 يهدف هذا المستند إلى توفير إرشادات حول كيفية الاستفادة من توصيات المنتج متعدد القنوات في بيئات مربعات فردية بمستوى 1 باستخدام بيانات العرض التوضيحي المعممة مسبقا.
 
-توفر توصيات المنتج متعدد القنوات مجموعة من قوائم المنتجات المرتبة والتي تم إنشاؤها بشكل تحريري أو برمجيًا. يمكن استخدام هذه القوائم في العديد من السيناريوهات، وفقًا لاحتياجات العمل. لمزيد من المعلومات حول قوائم توصيات المنتجات، راجع [نظرة عامة على توصيات المنتجات.](product-recommendaitons-overview.md)
+توفر توصيات المنتج متعدد القنوات مجموعة من قوائم المنتجات المرتبة والتي تم إنشاؤها بشكل تحريري أو برمجيًا. يمكن استخدام هذه القوائم في العديد من السيناريوهات، وفقًا لاحتياجات العمل. لمزيد من المعلومات حول قوائم توصيات المنتجات، راجع [نظرة عامة على توصيات المنتجات.](../commerce/product-recommendations.md)
 
 بالنسبة لبيئات المنتجات من المستوي 2 وما أعلي، تُحتسب توصيات منتج البيئات الديناميكية تلقائيًا بناء علي بيانات العملاء.
 لا يؤدي استخدام البيانات التوضيحية لتوصيات المنتج إلى تعطيل اي حل توصيات للمنتج تم توفيرها بالفعل في البيئة وآية تكاليف مرتبطة باستخدامها.
@@ -68,6 +68,6 @@ ms.locfileid: "2225541"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على توصيات المنتجات](product-recommendations-overview.md)
+[نظرة عامة على توصيات المنتجات](../commerce/product-recommendations.md)
 
-[تخطيط بيئة](environment-planning.md)
+[تخطيط بيئة](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
