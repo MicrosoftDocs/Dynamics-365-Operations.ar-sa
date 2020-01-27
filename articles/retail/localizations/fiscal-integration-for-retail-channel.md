@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812297"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915237"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>نظرة عامة على التكامل المالي لقنوات البيع بالتجزئة
 
@@ -138,9 +138,14 @@ ms.locfileid: "2812297"
 - [عينة تكامل طابعة الضرائب المحصلة لبولندا](emea-pol-fpi-sample.md)
 - [عينة تكامل خدمة التسجيل المالي للنمسا](emea-aut-fi-sample.md)
 - [عينة تكامل خدمة التسجيل المالي لجمهورية التشيك‬](emea-cze-fi-sample.md)
+- [نموذج تكامل وحدة التحكم للسويد](./emea-swe-fi-sample.md)
 
 تتوفر أيضًا وظيفة التكامل المالي التالية في Retail SDK ولكنها لا تستفيد حاليًا من إطار عمل التكامل المالي. تم التخطيط لعملية ترحيل هذه الوظيفة إلى إطار عمل التكامل المالي لتحديثات لاحقة.
 
-- [وظيفة آلة تسجيل المدفوعات النقدية لفرنسا](emea-fra-cash-registers.md)
-- [وظيفة آلة تسجيل المدفوعات النقدية للنرويج](emea-nor-cash-registers.md)
-- [نموذج لتكامل Retail POS مع وحدات التحكم للسويد](./retail-sdk-control-unit-sample.md)
+
+- [التوقيع الرقمي الخاص بفرنسا](emea-fra-cash-registers.md)
+- [التوقيع الرقمي الخاص بالنرويج‬](emea-nor-cash-registers.md)
+
+لا تستخدم وظيفة التكامل المالي القديمة التالية المتاحة في Retail SDK إطار عمل التكامل المالي، وسوف تُهمل في التحديثات اللاحقة:
+
+- [نموذج تكامل وحدة التحكم للسويد (قديم)](./retail-sdk-control-unit-sample.md)

@@ -3,12 +3,12 @@ title: معرّفات المنتجات
 description: يشتمل هذا الموضوع على معلومات حول الأنواع المختلفة لمعرفات المنتجات ويوضح الكيفية التي يمكنك به إضافة معرفات المنتجات في بيانات المنتج.
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250589"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934876"
 ---
 # <a name="product-identifiers"></a>معرّفات المنتجات 
 
@@ -43,6 +43,9 @@ ms.locfileid: "2250589"
 عند استخدامك Supply Chain Management، يجب أن تُولي اهتمامًا خاصًا لاستراتيجيتك الخاصة بأرقام المنتجات. يُحسّن نظام ترقيم جيد اللوجستيات التي تتدفق ويساعد على منع الأخطاء. يحتوي معرف المنتج الجيد على 15 حرفًا كحد أقصى. وبشكل مثالي، يحتوي على أقل من 10 أحرف ويتضمن أكثر من خمسة أحرف تصنيف. يمكنك أيضًا استخدام أسماء البحث لتمكين عمليات البحث السريع. اسم البحث هو اسم إضافي يمثل تصنيفات أحد المنتجات.
 
 عند استخدام Common Data Service، يكون رقم المنتج في Supply Chain Management هو أيضا رقم المنتج الموجود في Common Data Service تتم مزامنة متغيرات المنتجات مع Common Data Service كمنتجات مميزة.
+
+> [!NOTE]
+> لا يمكن أن يبدأ رقم المنتج بـ "%".
 
 ## <a name="item-number-and-product-dimensions"></a>رقم الصنف وأبعاد المنتجات
 

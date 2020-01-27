@@ -3,7 +3,7 @@ title: صفحات إدارة الحساب والوحدات النمطية
 description: يُغطي هذا الموضوع صفحات إدارة الحساب والوحدات النمطية في Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3986505a7e0e8d33d5b8ff2c06f493335731a8d9
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785365"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885799"
 ---
 # <a name="account-management-pages-and-modules"></a>صفحات إدارة الحساب والوحدات النمطية
 
@@ -58,7 +58,7 @@ ms.locfileid: "2785365"
 
 ### <a name="user-profile-page"></a>صفحة ملف تعريف المستخدم
 
-تعرض صفحة ملف تعريف المستخدم تفاصيل حساب المستخدم، مثل اسم المستخدم وعنوان البريد الإلكتروني. فهو يستخدم الوحدة النمطية لملف تعريف المستخدم. على الرغم من عدم إمكانية إزالة عنوان البريد الإلكتروني، إلا أنه يُمكن تحريره.
+تعرض صفحة ملف تعريف المستخدم تفاصيل حساب المستخدم، مثل اسم المستخدم وعنوان البريد الإلكتروني. فهو يستخدم الوحدة النمطية لملف تعريف المستخدم. على الرغم من عدم إمكانية إزالة عنوان البريد الإلكتروني، إلا أنه يُمكن تحريره. تظهر صفحة ملف تعريف المستخدم أيضًا تفضيلات المستخدم التي تُمكن المستخدم من الاختيار أو التعطيل من ميزات معينة مثل تخصيص قوائم التوصيات. 
 
 ### <a name="user-address-page"></a>صفحة عنوان المستخدم
 
@@ -84,8 +84,8 @@ ms.locfileid: "2785365"
 
 [الوحدة النمطية للسداد مع الخروج](add-checkout-module.md)
 
-[الوحدة النمطية لتأكيد الأمر](order-confirmation-module.md)
+[وحدة تأكيد الأمر](order-confirmation-module.md)
 
-[الوحدة النمطية للعنوان](author-header-module.md)
+[وحدة الرأس](author-header-module.md)
 
-[الوحدة النمطية لتذييل الصفحة](author-footer-module.md)
+[وحدة التذييل](author-footer-module.md)

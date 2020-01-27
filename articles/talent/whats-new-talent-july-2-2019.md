@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 72ab29aff7f762c095c414e6edd0e49870e4a500
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 2aaf64fe1ebdaad8ec9b84615dbb8d48616f9a3a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551785"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2899002"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>ما الجديد والمتغير في Dynamics 365 Talent (02 يوليو 2019)
-
-[!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 

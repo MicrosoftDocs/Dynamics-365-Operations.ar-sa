@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812823"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897127"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>مشاركة المحتوى مع مساهمين آخرين في Dynamics 365 Talent - Onboard
+# <a name="share-content-with-other-contributors"></a>مشاركة المحتوى مع مساهمين آخرين
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "2812823"
 
 3. ضمن **مشاركة‏‎ مع**، عيّن الخيار **هل باستطاعة هؤلاء الأشخاص إجراء عمليات تحرير؟** إلى **تشغيل** لتمكين المستلمين من مراجعة الدليل. عيّن الخيار **إرسال إعلام بالبريد الإلكتروني** إلى **تشغيل** إذا كان يجب إعلام المستلمين بواسطة البريد الإلكتروني عن قيامك بمشاركة الدليل معهم.
 
-    ![[تعيين تفضيلات الوصول والبريد الإلكتروني لدليل إعداد](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
+    ![[تعيين تفضيلات الوصول والبريد الإلكتروني لدليل الإعداد](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
 
 4. أدخل اسمًا أو عنوان بريد إلكتروني، وحدد المستلم المطلوب في القائمة المنسدلة.
 5. في علامة‏‎ التبويب **إدارة الوصول**، يمكنك مراجعة أو تغيير ما يمكن للمستلمين القيام به باستخدام الدليل. لتغيير وصول أحد المستلمين، في القائمة المنسدلة بجوار اسم المستلم، حدد **إمكانية العرض** أو **إمكانية التحرير** أو **إزالة**، حسب الاقتضاء.

@@ -8,6 +8,12 @@
         - name: المزايا الجديدة أو المتغيرة في Talent
           href: whats-new.md
           items:
+            - name: 17 ديسمبر 2019
+              href: whats-new-talent-december-17-2019.md
+            - name: 12 ديسمبر 2019
+              href: whats-new-talent-december-12-2019.md
+            - name: 3 ديسمبر 2019
+              href: whats-new-talent-december-3-2019.md
             - name: 19 نوفمبر 2019
               href: whats-new-talent-november-19-2019.md
             - name: 12 نوفمبر 2019
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: 10 سبتمبر 2019
               href: whats-new-talent-september-12-2019.md
-            - name: 27 أغسطس 2019
-              href: whats-new-talent-august-28-2019.md
-            - name: 22 أغسطس 2019
-              href: whats-new-talent-august-21-2019.md
-            - name: 13 أغسطس 2019
-              href: whats-new-talent-august-15-2019.md
-            - name: 6 أغسطس 2019
-              href: whats-new-talent-august-7-2019.md
             - name: الجديد في أرشيفات 2019
               items:
+                - name: 27 أغسطس 2019
+                  href: whats-new-talent-august-28-2019.md
+                - name: 22 أغسطس 2019
+                  href: whats-new-talent-august-21-2019.md
+                - name: 13 أغسطس 2019
+                  href: whats-new-talent-august-15-2019.md
+                - name: 6 أغسطس 2019
+                  href: whats-new-talent-august-7-2019.md
                 - name: 30 يوليو 2019
                   href: whats-new-talent-july-31-2019.md
                 - name: 23 يوليو 2019
@@ -134,32 +140,28 @@
           href: hr-copy-instance.md
         - name: إزالة بيئات Talent
           href: remove-talent-environment.md
-        - name: تزويد تطبيق Onboard
+        - name: إدارة الميزات
+          href: access-preview-feature.md
+        - name: تزويد Onboard
           href: modular-app-tech-faq.md
-        - name: تضمين تطبيقات PowerApps
+        - name: تضمين تطبيقات Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR وCommon Data Service
+        - name: كيانات Core HR في Common Data Service
           href: CoreHREntities.md
         - name: الحصول على دعم لـ Talent
           href: talent-support.md
     - name: تعيين الموظفين لمؤسستك‬ باستخدام Attract
       items:
-        - name: أي إصدار من Attract؟
+        - name: اختيار إصدار Attract
           href: attract-comprehensive-hiring.md
         - name: ميزات وقدرات Attract
           href: attract-overview.md
-        - name: الأسئلة المتداولة
-          items:
-            - name: الأسئلة المتداولة حول تكامل LinkedIn
-              href: attract-linkedin-faq.md
         - name: تكوين إعدادات النظام
           items:
             - name: تكوين معلومات الشركة
               href: admin-settings-attract.md
             - name: تعيين أذونات المستخدم
               href: security-attract.md
-            - name: إدارة الميزات
-              href: access-preview-feature.md
             - name: اعداد موقع الوظائف
               href: career-site.md
             - name: تمكين تكامل Broadbean
@@ -168,13 +170,15 @@
               href: attract-configure-email-settings.md
             - name: إعداد تكامل LinkedIn
               href: attract-admin-linkedin.md
+            - name: الأسئلة المتداولة حول تكامل LinkedIn
+              href: attract-linkedin-faq.md
         - name: إنشاء عملية توظيف
           items:
-            - name: إنشاء قالب عملية
+            - name: إنشاء قالب عملية توظيف
               href: process-templates-attract.md
-            - name: الأنشطة في عمليات التوظيف
+            - name: إضافة الأنشطة إلى عملية توظيف
               href: activities-attract.md
-            - name: قوالب البريد الإلكتروني
+            - name: إنشاء قوالب بريد إلكتروني
               href: email-templates.md
             - name: استخدام التقارير التحليلية
               href: analytic-reports.md
@@ -197,10 +201,10 @@
             - name: تعقب مصادر المرشحين
               href: source-tracking.md
             - name: التوصيات الذكية
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: إعداد المقابلات
           items:
-            - name: جدولة المقابلات والملاحظات
+            - name: جدولة المقابلات
               href: interview-scheduling-feedback.md
         - name: تقديم عرض
           items:
@@ -433,21 +437,19 @@
       items:
         - name: Power BI المضمن في مساحات العمل
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: توسيع قدرات Talent باستخدام PowerApps وMicrosoft Flow - سيناريوهات أمثلة
+        - name: توسيع Talent باستخدام Power Apps وPower Automate
           href: extensibility-examples.md
         - name: تطبيق الجوال
           items:
             - name: مساحات العمل المحمولة
               items:
-                - name: مساحة العمل المحمولة بدليل الشركة
+                - name: مساحة عمل جوال دليل الشركة
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: مساحة العمل المحمولة "فريقي"
+                - name: مساحة عمل جوال فريقي
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: نشر مساحات العمل المحمولة
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: تعقب التغييرات في بيانات التعيين
+        - name: تتبع التغييرات في بيانات التوظيف
           href: process-auditing.md
-        - name: قابلية التوسعة‬ في Attract
+        - name: قابلية التوسعة في Attract
           href: extensibility-attract.md
         - name: الحقول المخصصة في Core HR
           href: corehr-custom-fields.md

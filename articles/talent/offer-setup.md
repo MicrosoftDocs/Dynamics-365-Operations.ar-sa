@@ -3,7 +3,7 @@ title: إعداد إدارة العروض في Attract
 description: يصف هذا الموضوع كيفية إعداد العروض في Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832712"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890545"
 ---
 # <a name="set-up-offer-management-in-attract"></a>إعداد إدارة العروض في Attract
 
@@ -45,9 +45,11 @@ ms.locfileid: "2832712"
 
     >[!NOTE]
     > تتضمن صفحة **بيانات العرض** القسمين **تفاصيل المرشح** و**تفاصيل الوظيفة**. يوفر Attract بعض العناصر النائبة الجاهزة لبيانات العرض.
-    
+    > 
     > تتضمن الصفحة أقسامًا لتنظيم مختلف العناصر النائبة لبيانات العرض في مجموعات منطقية. بإمكان هذه الأقسام المساعدة في الحفاظ على بيانات العرض وتعبئة البيانات أثناء عملية إنشاء عرض.
-
+    > 
+    > لإنشاء قائمة قيم لعنصر نائب، قم بتحميل ورقة عمل Excel تحتوي على عمود واحد بعنوان لعنصر النائب وقائمة الاختيارات في الصفوف المدرجة بأسفل. إذا تمت الإشارة إلى العنصر النائب نفسه في مجموعة قاعدة بيانات أخرى، تأكد من أن لديهم مجموعة مشتركة من القيم.
+    
 1.  لإنشاء قسم جديد لبيانات العرض، انقر فوق **إضافة قسم** وأدخل اسمًا فريدًا للقسم.
 
 1.  لإضافة العناصر النائبة لبيانات العرض إلى أي قسم، انقر فوق **إضافة بيانات العرض** وأدخل اسمًا فريدًا للعنصر النائب.

@@ -3,7 +3,7 @@ title: نظرة عامة على حالة دورة حياة المنتج
 description: توثق حالة دورة حياة المنتج، حالة دورة الحياة لمنتج صادر أو متغير المنتج.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813536"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934830"
 ---
 # <a name="product-lifecycle-state-overview"></a>نظرة عامة على حالة دورة حياة المنتج
 
@@ -74,11 +74,7 @@ ms.locfileid: "2813536"
 
 ## <a name="default-migration-import-and-export"></a>ترحيل البيانات الافتراضي واستيرادها وتصديرها 
 
-حالات دورة حياة المنتج غير مدعومة من قبل كيانات البيانات، ولا يمكن تعيين حالة دورة حياة إلى حالة متغيرة من خلال كيانات بيانات المنتجات المُصدرة.
-
--  عند الترحيل من إصدارات سابقة، سوف تكون جميع حالة دورة حياة جميع المنتجات ومتغيرات المنتج فارغة.  
--  عند استيراد منتجات مُصدرة من خلال كيان بيانات، فسوف تطبق حالة دورة الحياة الافتراضية عند إنشائها.  
--  عند استيراد متغيرات منتجات تم إصدارها من خلال كيان البيانات، فسوف يتم استيراد حالة دورة حياة المنتج لأصل المنتجات الذي تم إصدارها.   
+حالات دورة حياة المنتج مدعومة من قبل كيانات البيانات، ويمكن تعيين حالة دورة حياة إلى حالة متغيرة من خلال إما كيان بيانات منتج مُصدر أو كيان بيانات متغير مُصدر.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>البحث عن المنتجات القديمة ومتغيرات المنتجات 
 

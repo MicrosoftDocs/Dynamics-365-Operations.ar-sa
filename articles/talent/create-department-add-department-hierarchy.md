@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 7b6308c54d237d0d7558fc1f94647f7ca1ab82a1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 207b8c78c203cef4524eb2047e7680e57f2a109c
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506164"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898423"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>إنشاء أقسام وتضمينها في التدرج الهرمي للأقسام
-
-[!include [banner](includes/banner.md)]
 
 القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي في المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر.
 

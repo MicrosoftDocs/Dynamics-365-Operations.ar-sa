@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 075b2bdfa08bb190f66b6d60074e1263feedcf70
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251029"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898516"
 ---
-# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>تكوين تكامل كشف الرواتب بين Talent وDayforce
-
-[!include [banner](includes/banner.md)]
+# <a name="configure-payroll-integration-between-talent-and-dayforce"></a>تكوين تكامل الرواتب بين Talent وDayforce
 
 يعتمد التكامل بين Dynamics 365 Talent وCeridian Dayforce على العديد من خطوات التكوين التي تم وصفها في هذا الموضوع. يجب عليك تكوين التكامل في كل من Talent وDayforce قبل أن تتمكن من معالجة دورة دفع.
 

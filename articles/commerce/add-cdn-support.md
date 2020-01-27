@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fb757672fffb56892837c066d552773908dd1ec1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: d2d64f0de5287a764cb2e40b99a08084494bf53c
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696958"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945618"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
 
@@ -140,16 +140,16 @@ ms.locfileid: "2696958"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على المتجر على الإنترنت](online-store-overview.md)
-
-[إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
+[تكوين اسم مجالك](configure-your-domain-name.md)
 
 [نشر موقع تجارة إلكترونية جديد](deploy-ecommerce-site.md)
 
+[إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
+
 [إقران موقع عبر الإنترنت بقناة](associate-site-online-store.md)
 
-[تكوين اسم مجالك](configure-your-domain-name.md)
-
-[تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)
+[إدارة ملفات robots.txt](manage-robots-txt-files.md)
 
 [إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين](custom-pages-user-logins.md)
+
+[تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)

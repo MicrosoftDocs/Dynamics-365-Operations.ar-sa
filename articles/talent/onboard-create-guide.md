@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814618"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898238"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>إنشاء دليل الإعداد وإرساله باستخدام  Dynamics 365 Talent - Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>إنشاء دليل الإعداد وإرساله
 
 [!include [banner](includes/banner.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "2814618"
 
 5. في النافذة **إنشاء دليل**، ضمن **من الذي تقوم بإعداده**، أدخِل اسم الموظف الجديد أو عنوان البريد الإلكتروني الخاص به. إذا لم يكن الموظف الجديد في النظام، فحدد **إضافة الآن**، وأدخل معلومات الموظف.
 
-    ![[إدخال معلومات لدليل الإعداد](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[إدخال معلومات لدليل التأهيل](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 6. ضمن **متى يبدأ عمله**، حدد تاريخ بدء.
 7. إذا كان يجب إرسال دليل الإعداد تلقائيًا إلى موظف جديد بتاريخ محدد، فتأكد من تشغيل الخيار **جدولة تاريخ إرسال تلقائي**، ثم حدد تاريخ الإرسال التلقائي. لإرسال الدليل على الفور، قم بإيقاف تشغيل الخيار **جدولة تاريخ إرسال تلقائي**.
@@ -92,7 +92,7 @@ ms.locfileid: "2814618"
 1. في القائمة اليمنى، حدد **دلائل**، ثم حدد الزر **إضافة**(علامة الجمع \[**+**\]).
 2. في النافذة **إنشاء دليل**، ضمن **من الذي تقوم بإعداده**، أدخِل اسم الموظف الجديد أو عنوان البريد الإلكتروني الخاص به. إذا لم يكن الموظف الجديد في النظام، فحدد **إضافة الآن**، وأدخل معلومات الموظف.
 
-    ![[إدخال معلومات لدليل الإعداد](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[إدخال معلومات لدليل التأهيل](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 3. ضمن **متى يبدأ عمله**، حدد تاريخ بدء.
 4. إذا كان يجب إرسال دليل الإعداد تلقائيًا إلى موظف جديد بتاريخ محدد، فتأكد من تشغيل الخيار **جدولة تاريخ إرسال تلقائي**، ثم حدد تاريخ الإرسال التلقائي. لإرسال الدليل على الفور، قم بإيقاف تشغيل الخيار **جدولة تاريخ إرسال تلقائي**.

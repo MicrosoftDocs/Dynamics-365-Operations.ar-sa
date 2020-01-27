@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812869"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897110"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>تحرير أدلة وقوالب الإعداد في  Dynamics 365 Talent - Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>تحرير أدلة وقوالب الإعداد
 
 [!include [banner](includes/banner.md)]
 
@@ -114,11 +114,11 @@ ms.locfileid: "2812869"
 1. في علامة التبويب **الأنشطة**، اسحب العناصر من اليسار إلى منطقة التحرير.
 2. لتنظيم الدليل في أقسام، اسحب العنصر **قسم جديد** إلى منطقة التحرير، وأدخل اسمًا ووصفًا اختياريًا للقسم.
 
-    ![[إضافة قسم جديد إلى دليل أو قالب إعداد](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
+    ![[إضافة قسم جديد إلى دليل الإعداد أو القالب](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
 
 3. لإضافة أنشطة إلى الموظف الجديد، اسحب العنصر **نشاط جديد** إلى منطقة التحرير، ثم أدخل اسمًا ووصفًا للنشاط.
 
-    ![[إضافة نشاط جديد إلى دليل أو قالب إعداد](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
+    ![[إضافة نشاط جديد إلى دليل الإعداد أو القالب](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
 
 4. أضافه محتوى غني إلى دليل الإعداد:
 
@@ -129,7 +129,7 @@ ms.locfileid: "2812869"
     - لإضافة نموذج Microsoft Forms، اسحب عنصر **Microsoft Forms** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL لنموذج Microsoft Forms، وحدد حجم منطقة الشاشة.
     - لإضافة iframe يتضمن محتوى ويب، اسحب عنصر **محتوى ويب (iframe)** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL لمحتوى الويب وحدد حجم منطقة الشاشة.
 
-    ![[إضافة محتوى غني إلى دليل أو قالب إعداد](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
+    ![[إضافة محتوى غني إلى دليل الإعداد أو القالب](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
 
 2. اختياري: في المنطقة الموجودة إلى يسار كل نشاط، قم بتعيين النشاط إلى شخص أو دور معين، وأضف تاريخ استحقاق وجهة اتصال، وعيّن لون فئة. عند تعيين نشاط إلى شخص أو دور، يتم إنشاء مهمة لكل فرد. تظهر هذه المهمة في قائمة **المهام** في Onboard.
 
@@ -148,7 +148,7 @@ ms.locfileid: "2812869"
 1. على علامة التبويب **جهات الاتصال**، حدد **جهة اتصال جديدة**.
 2. في مربع الحوار **إضافة عضو فريق**، أدخل اسم جهة الاتصال أو عنوان بريدها الإلكتروني، وأدخل وصفًا قصيرًا يشرح الطريقة التي يمكن لجهة الاتصال أن تساعد من خلالها الموظف الجديد، ثم حدد **إضافة**. 
 
-    ![[إضافة جهات اتصال إلى دليل أو قالب إعداد](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
+    ![[إضافة جهات اتصال إلى دليل الإعداد أو القالب](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
 
     أو يمكنك تحديد جهة اتصال‏‎ أو أكثر ضمن **اقتراحات**.
 
@@ -169,7 +169,7 @@ ms.locfileid: "2812869"
     - لإضافة ارتباط، حدد علامة التبويب **ارتباط**، ثم أدخل اسمًا وعنوانًا للارتباط، ثم حدد **إضافة**.
     - لإضافة خريطة، حدد علامة التبويب **خريطة**، ثم أدخل اسمًا وعنوانًا للخريطة، ثم حدد **إضافة**. سيتضمن Onboard خريطة للعنوان الذي تحدده.
 
-    ![[إضافة مورد إلى دليل أو قالب إعداد](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
+    ![[إضافة مورد إلى دليل الإعداد أو القالب](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
 
 3. حدد **حفظ** لحفظ عملك.
 

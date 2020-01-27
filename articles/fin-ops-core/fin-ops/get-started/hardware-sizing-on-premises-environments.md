@@ -1,9 +1,9 @@
 ---
 title: متطلبات ضبط حجم الأجهزة للبيئات المحلية
 description: يسرد هذا الموضوع متطلبات ضبط حجم الأجهزة للبيئات المحلية.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812547"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870254"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>متطلبات ضبط حجم الأجهزة للبيئات المحلية
 
@@ -137,7 +137,7 @@ ms.locfileid: "2812547"
 
 ## <a name="environment-orchestrator"></a>منسق البيئة
 
-إن خدمة المنسق هي الخدمة التي تعمل على إدارة عملية النشر والاتصالات ذات الصلة بـ LCS. يتم نشر الخدمة كخدمة Service Fabric الأساسية وتتطلب ثلاثة أجهزة ظاهرية على الأقل. تقع هذه الخدمة في موقع مشترك مع خدمات تنسيق Service Fabric. ويجب أن يتم ضبط حجم ذلك لحمل العمل الأقصى في نظام المجموعة. للحصول على مزيد من المعلومات، راجع [اعتبارات تخطيط القدرة الإنتاجية لنظام مجموعة Service Fabric](/azure/service-fabric/service-fabric-cluster-capacity).
+إن خدمة المنسق هي الخدمة التي تعمل على إدارة عملية النشر والاتصالات ذات الصلة بـ LCS. يتم نشر الخدمة كخدمة Service Fabric الأساسية وتتطلب ثلاثة أجهزة ظاهرية على الأقل. تقع هذه الخدمة في موقع مشترك مع خدمات تنسيق Service Fabric. ويجب أن يتم ضبط حجم ذلك لحمل العمل الأقصى في نظام المجموعة. لمزيد من المعلومات، راجع [تخطيط وإعداد نشر مجموعة Service Fabric مستقلة](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>المحاكاة الافتراضية والاشتراك الزائد
 

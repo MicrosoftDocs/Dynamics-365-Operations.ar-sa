@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814825"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897179"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>إنشاء فريق توظيف باستخدام Dynamics 365 Talent - Onboard
+# <a name="create-a-hiring-team"></a>إنشاء فريق توظيف
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2814825"
 2. ضمن **الفرق**، حدد لوحة **إضافة** (علامة الجميع \[**+**\]).
 3. في مربع الحوار **إنشاء فريق جديد**، ضمن **اسم الفريق**، أدخل اسمًا لفريق التوظيف.
 
-    ![[إنشاء فريق جديد في Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[إنشاء فريق جديد في تطبيق Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. ضمن **اختيار أعضاء الفريق**، أدخل اسم كل عضو في الفريق أو عنوان بريده الإلكتروني.
 
@@ -51,11 +51,11 @@ ms.locfileid: "2814825"
 2. حدد الفريق.
 3. على علامة التبويب **الأدلة**، حدد **إضافة أدلة**.
 
-    ![[إضافة أدلة الإعداد إلى فريق](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
+    ![[إضافة أدلة الإعداد لفريق](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
 
 4. حدد خانة الاختيار لكل دليل إعداد تريد تعيينه للفريق، ثم حدد **إضافة**.
 
-    ![[تحديد أدلة الإعداد لإضافتها إلى الفريق](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
+    ![[تحديد أدله الإعداد لإضافتها إلى الفريق](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
 ## <a name="assign-onboarding-templates-to-a-hiring-team"></a>تعيين قوالب الإعداد لفريق التوظيف
 

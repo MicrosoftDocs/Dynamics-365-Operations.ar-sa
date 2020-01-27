@@ -3,7 +3,7 @@ title: إعداد التنبؤ بالطلب
 description: يصف هذا الموضوع مهام الإعداد التي يجب تنفيذها لتجهيز التنبؤ بالطلب.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813789"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935481"
 ---
 # <a name="demand-forecasting-setup"></a>إعداد التنبؤ بالطلب
 
@@ -63,7 +63,7 @@ ms.locfileid: "2813789"
 
 لا تتصرف كافة الأصناف بالطريقة نفسها من منظور التنبؤ بالطلب. يمكن تجميع الأصناف المتشابهة في مفتاح توزيع صنف واحد والمعلمات مثل أنواع الحركات ويمكن إعداد إعدادات أسلوب التنبؤ بكل مفتاح توزيع الصنف. انقر فوق **مفاتيح توزيع الأصناف** في الجزء الأيمن من الصفحة **معلمات التنبؤ بالطلب**. 
 
-لإنشاء التنبؤ، يستخدم Supply Chain Management خدمة التعلم الآلي على الويب. للاتصال بالخدمة، يجب أن تقدم إلى المعلومات التالية إذا سجلت دخولك إلى استوديو التعلم الآلي من Microsoft Azure:
+لإنشاء التنبؤ، يستخدم Supply Chain Management خدمة التعلم الآلي على الويب. للاتصال بالخدمة، يجب أن تقدم إلى المعلومات التالية إذا سجلت دخولك إلى استوديو التعلم الآلي من Microsoft Azure (تقليدي):
 
 -   مفتاح واجهة برمجة تطبيقات خدمة الويب (API)
 -   نقطة نهاية خدمة الويب URL
@@ -71,7 +71,7 @@ ms.locfileid: "2813789"
 -   مفتاح حساب تخزين Azure
 
 > [!NOTE]
-> يلزم اسم حساب تخزين Azure والمفتاح فقط إذا كنت تستخدم حساب تخزين مخصصة. إذا قمت بنشر الإصدار المحلي، يجب أن يكون لديك حساب تخزين مخصص على Azure، حتى تستطيع خدمة Machine Learning الوصول إلى البيانات المسجلة. 
+> يلزم اسم حساب تخزين Azure والمفتاح فقط إذا كنت تستخدم حساب تخزين مخصصة. إذا قمت بنشر الإصدار المحلي ، فيجب أن يكون لديك حساب تخزين مخصص على Azure، بحيث يمكن لـ Machine Learning الوصول إلى البيانات التاريخية. 
 
 ‏‫لإنشاء توقعات الطلب، يمكنك نشر الخدمة الخاصة بك باستخدام Machine Learning Studio أو تجارب التنبؤ بالطلب في Supply Chain Management. تتوفر الإرشادات لنشر تجارب التنبؤ بالطلب كخدمة ويب في Supply Chain Management. على الصفحة **معلمات التبؤ بالطلب**، انقر فوق علامة التبويب **التعلم الآلي من Azure**.
 

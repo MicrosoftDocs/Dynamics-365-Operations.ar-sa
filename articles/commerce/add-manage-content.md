@@ -3,7 +3,7 @@ title: طرق إضافة المحتوى
 description: يوفر هذا الموضوع معلومات حول كيفية إضافة محتوي وإدارته علي موقع Microsoft Dynamics 365 Commerce الخاص بك.
 author: phinneyridge
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3d91235837aee9ad06466ffe47727b435e39094f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2232dc7cdd24416b0df0919b96cd5d1f8113299f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770518"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914644"
 ---
 # <a name="ways-to-add-content"></a>طرق إضافة المحتوى
 
@@ -46,7 +46,9 @@ ms.locfileid: "2770518"
 
 [مصطلحات نموذج الصفحة](page-elements-overview.md)
 
-[حالات المستند ودوره الحياة](document-states-overview.md)
+[حالات المستند ودورة الحياة](document-states-overview.md)
+
+[العمل مع مجموعات النشر](publish-groups.md)
 
 [العمل باستخدام الوحدات النمطية](work-with-modules.md)
 

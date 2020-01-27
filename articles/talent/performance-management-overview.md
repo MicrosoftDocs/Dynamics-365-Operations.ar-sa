@@ -3,7 +3,7 @@ title: إدارة الأداء
 description: تتيح عملية إدارة الأداء للموظفين توثيق أدائهم ومناقشته مع مديرهم. ومن ثم، يمكن للمديرين تقديم تعليقات وتوجيهات للموظفين.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590495"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921140"
 ---
 # <a name="performance-management"></a>إدارة الأداء
-
-[!include [banner](includes/banner.md)]
 
 تتيح عملية إدارة الأداء للموظفين توثيق أدائهم ومناقشته مع مديرهم. ومن ثم، يمكن للمديرين تقديم تعليقات وتوجيهات للموظفين.  
 
@@ -91,6 +89,8 @@ ms.locfileid: "1590495"
 يمكنك أيضا استخدام القسم **الاختصاصات** لمناقشة اختصاصات الموظف ومناقشتها واستعراضها وتقييمها. يمكنك إضافة أي عدد تحتاجه من الاختصاصات، كما يمكنك اختيار ما إذا كان يجب تقييم الاختصاص. 
 
 يمكنك إنشاء مراجعات جديدة استناداً إلى القوالب التي قمت بإنشائها. على سبيل المثال، يمكن أن يتوفر لديك قالب للاجتماعات الثنائية، أو خطط التطوير، أو المراجعات الدورية. كما يمكنك تحديد القالب عندما تقوم بإنشاء مراجعة جديدة.
+
+لطباعة المراجعات، حدد الزر **طباعة المراجعة**. إذا لم تشاهد الزر في الصفحة **مراجعة**، تأكد من أنك قد قمت بتمكين الميزة في مساحة عمل **إدارة الميزة**. لمزيد من المعلومات حول إدارة الميزات، راجع [نظرة عامة على إدارة الميزات](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>المكونات التي يمكن تضمينها في مراجعات الأداء
 يمكنك تضمين عدة أنواع من المعلومات في مراجعات الأداء. تتضمن تفاصيل المراجعة، والقياسات، واﻷنشطة، والتقييمات والاعتمادات‬، والمرفقات.

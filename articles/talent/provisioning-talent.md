@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ba0d11efe868d57c74f6ae4b069d1cb8351f7213
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b705304788f47e4a5d2a9f1b2bf42a065428ea0f
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773037"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898123"
 ---
 # <a name="provision-talent"></a>توفير Talent
-
-[!include [banner](includes/banner.md)]
 
 ينقلك هذا الموضوع عبر عملية توفير بيئة إنتاج جديدة لتطبيق Microsoft Dynamics 365 Talent. يفترض هذا الموضوع أنك قمت بشراء Talent من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). إذا كان لديك ترخيص Microsoft Dynamics 365 يتضمن خطة خدمة Talent، ولا يمكنك إتمام الخطوات المذكورة في هذا الموضوع، فاتصل بالدعم.
 

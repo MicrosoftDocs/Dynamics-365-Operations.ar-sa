@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b69d9d2769023967e2b94fef1b8fcf6b5b3357c5
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 3ea06713af69659c205686a971393892fa584072
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698339"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945710"
 ---
 # <a name="manage-seo-metadata"></a>إدارة بيانات تعريف SEO
 
@@ -95,5 +95,6 @@ ms.locfileid: "2698339"
 
 [إثراء صفحة منتج](enrich-product-page.md)
 
-[إثراء الصفحة المتنقل إليها‬ لفئة](enrich-category-page.md)
+[إثراء الصفحة المنتقل إليها‬ لفئة](enrich-category-page.md)
 
+[التحقق من إمكانية الوصول إلى محتوي الصفحة](verify-accessibility.md)

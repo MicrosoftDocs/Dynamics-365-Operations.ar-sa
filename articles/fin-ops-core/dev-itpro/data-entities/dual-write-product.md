@@ -3,7 +3,7 @@ title: تجربة المنتجات الموحدة
 description: يصف هذا الموضوع تكامل بيانات المنتجات بين تطبيقات Finance and Operations وCommon Data Service.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769719"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914761"
 ---
 # <a name="unified-product-experience"></a>تجربة المنتجات الموحدة
 
@@ -52,7 +52,7 @@ ms.locfileid: "2769719"
 
 Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الوصف
 -----------------------|--------------------------------|---
-المنتجات الصادرة V2 | msdyn\_sharedproductdetails | يحتوي الكيان **msdyn\_sharedproductdetails** على حقول من تطبيقات Finance and Operations التي تحدد المنتج، والتي تحتوي على معلومات مالية وإدارية خاصة بالمنتج. يعرض الجدول التالي التعيينات.
+المنتجات الصادرة V2 | msdyn\_sharedproductdetails | يحتوي الكيان **msdyn\_sharedproductdetails** على حقول من تطبيقات Finance and Operations التي تحدد المنتج، والتي تحتوي على معلومات مالية وإدارية خاصة بالمنتج. 
 المنتجات المميزة الصادرة لـ Common Data Service | منتج | يحتوي كيان‏‎ **المنتج** على الحقول التي تعرّف المنتج. ويتضمن منتجات فردية (منتجات مع نوع فرعي للمنتج) ومتغيرات المنتج. يعرض الجدول التالي التعيينات.
 الكود الشريطي المحدد لرقم المنتج | msdyn\_productbarcodes | يتم استخدام الأكواد الشريطية للمنتجات لتحديد المنتجات بشكل فريد.
 إعدادات الأوامر الافتراضية | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الو
 تحويل وحدة قياس خاصة بالمنتج | msdyn_productspecificunitofmeasureconversion
 فئات المنتج | msdyn_productcategories | يتم تضمين كل من فئات المنتجات والمعلومات المتعلقة ببنيته وخصائصه في كيان فئة المنتج. 
 التدرجات الهرمية لفئات المنتجات | msdyn_productcategoryhierarhies | يمكنك استخدام التدرجات الهرمية للمنتجات لتصنيف المنتجات أو تجميعها. وتتوفر التدرجات الهرمية للفئات في Common Data Service باستخدامكيان التدرج الهرمي لفئات المنتجات. 
-أدوار التدرجات الهرمية لفئات المنتجات | msdyn_productcategoryhierarchies | يمكن استخدام التدرجات الهرمية للمنتجات للأدوار المختلفة في D365 Finance and Operations. تحديد الفئة المستخدمة في كل دور يتم فيه استخدام كيان دور فئة المنتج مع التعيينات التالية. 
+أدوار التدرجات الهرمية لفئات المنتجات | msdyn_productcategoryhierarchies | يمكن استخدام التدرجات الهرمية للمنتجات للأدوار المختلفة في D365 Finance and Operations. يُستخدم تحديد الفئة في كل دور يتم استخدام كيان دور فئة المنتج فيه. 
 تعيينات فئات المنتج | msdyn_productcategoryassignments | لتعيين منتج إلى فئة، يمكن استخدام كيان تعيينات فئات المنتجات.
 
 ## <a name="integration-of-products"></a>تكامل المنتجات
