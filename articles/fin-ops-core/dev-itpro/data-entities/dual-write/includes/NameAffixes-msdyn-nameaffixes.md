@@ -1,0 +1,9 @@
+## <a name="name-affixes-to-msdyn_nameaffixes"></a><span data-ttu-id="6a7ca-101">ملحقات الأسماء إلى msdyn_nameaffixes</span><span class="sxs-lookup"><span data-stu-id="6a7ca-101">Name affixes to msdyn_nameaffixes</span></span>
+
+<span data-ttu-id="6a7ca-102">يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وCommon Data Service.</span><span class="sxs-lookup"><span data-stu-id="6a7ca-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="6a7ca-103">حقل Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="6a7ca-103">Finance and Operations field</span></span> | <span data-ttu-id="6a7ca-104">نوع التعيين</span><span class="sxs-lookup"><span data-stu-id="6a7ca-104">Map type</span></span> | <span data-ttu-id="6a7ca-105">حقل Dynamics 365 الآخر</span><span class="sxs-lookup"><span data-stu-id="6a7ca-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="6a7ca-106">القيمة الافتراضية</span><span class="sxs-lookup"><span data-stu-id="6a7ca-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="6a7ca-107">ملحق</span><span class="sxs-lookup"><span data-stu-id="6a7ca-107">AFFIX</span></span> | = | <span data-ttu-id="6a7ca-108">msdyn_affix</span><span class="sxs-lookup"><span data-stu-id="6a7ca-108">msdyn_affix</span></span> | 
+<span data-ttu-id="6a7ca-109">‏‏النوع</span><span class="sxs-lookup"><span data-stu-id="6a7ca-109">TYPE</span></span> | >< | <span data-ttu-id="6a7ca-110">msdyn_affixtype</span><span class="sxs-lookup"><span data-stu-id="6a7ca-110">msdyn_affixtype</span></span> | 
+<span data-ttu-id="6a7ca-111">الوصف</span><span class="sxs-lookup"><span data-stu-id="6a7ca-111">DESCRIPTION</span></span> | = | <span data-ttu-id="6a7ca-112">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="6a7ca-112">msdyn_description</span></span> | 

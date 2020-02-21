@@ -1,0 +1,8 @@
+## <a name="fiscal-calendar-integration-entity-to-msdyn_fiscalcalendars"></a><span data-ttu-id="26260-101">كيان تكامل التقويم المالي إلى msdyn_fiscalcalendars</span><span class="sxs-lookup"><span data-stu-id="26260-101">Fiscal calendar integration entity to msdyn_fiscalcalendars</span></span>
+
+<span data-ttu-id="26260-102">يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وCommon Data Service.</span><span class="sxs-lookup"><span data-stu-id="26260-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="26260-103">حقل Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="26260-103">Finance and Operations field</span></span> | <span data-ttu-id="26260-104">نوع التعيين</span><span class="sxs-lookup"><span data-stu-id="26260-104">Map type</span></span> | <span data-ttu-id="26260-105">حقل Dynamics 365 الآخر</span><span class="sxs-lookup"><span data-stu-id="26260-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="26260-106">القيمة الافتراضية</span><span class="sxs-lookup"><span data-stu-id="26260-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="26260-107">CALENDARID</span><span class="sxs-lookup"><span data-stu-id="26260-107">CALENDARID</span></span> | = | <span data-ttu-id="26260-108">msdyn_calendar</span><span class="sxs-lookup"><span data-stu-id="26260-108">msdyn_calendar</span></span> | 
+<span data-ttu-id="26260-109">الوصف</span><span class="sxs-lookup"><span data-stu-id="26260-109">DESCRIPTION</span></span> | = | <span data-ttu-id="26260-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="26260-110">msdyn_description</span></span> | 

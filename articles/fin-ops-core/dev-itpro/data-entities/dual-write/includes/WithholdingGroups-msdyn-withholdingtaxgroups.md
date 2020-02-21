@@ -1,0 +1,8 @@
+## <a name="withholding-tax-groups-to-msdyn_withholdingtaxgroups"></a><span data-ttu-id="ed55c-101">مجموعات ضريبة الخصم إلى msdyn_withholdingtaxgroups</span><span class="sxs-lookup"><span data-stu-id="ed55c-101">Withholding tax groups to msdyn_withholdingtaxgroups</span></span>
+
+<span data-ttu-id="ed55c-102">يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وCommon Data Service.</span><span class="sxs-lookup"><span data-stu-id="ed55c-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="ed55c-103">حقل Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="ed55c-103">Finance and Operations field</span></span> | <span data-ttu-id="ed55c-104">نوع التعيين</span><span class="sxs-lookup"><span data-stu-id="ed55c-104">Map type</span></span> | <span data-ttu-id="ed55c-105">حقل Dynamics 365 الآخر</span><span class="sxs-lookup"><span data-stu-id="ed55c-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="ed55c-106">القيمة الافتراضية</span><span class="sxs-lookup"><span data-stu-id="ed55c-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="ed55c-107">WITHHOLDINGTAXGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="ed55c-107">WITHHOLDINGTAXGROUPCODE</span></span> | = | <span data-ttu-id="ed55c-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="ed55c-108">msdyn_name</span></span> | 
+<span data-ttu-id="ed55c-109">الوصف</span><span class="sxs-lookup"><span data-stu-id="ed55c-109">DESCRIPTION</span></span> | = | <span data-ttu-id="ed55c-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="ed55c-110">msdyn_description</span></span> | 

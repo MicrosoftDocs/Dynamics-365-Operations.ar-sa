@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="e47c3-101">تتوفر هذه الميزة في تحديث النظام الأساسي 15 (7.0.4841) أو إصدار أحدث.</span><span class="sxs-lookup"><span data-stu-id="e47c3-101">This feature is available in Platform update 15 (7.0.4841) or later.</span></span> <span data-ttu-id="e47c3-102">هذا التحديث متوفر حاليًا للعملاء المستهدفين وسيكون متوفرًا لجميع المستخدمين في يونيو 2018.</span><span class="sxs-lookup"><span data-stu-id="e47c3-102">This update is currently available for targeted customers and will be available to all users June 2018.</span></span>

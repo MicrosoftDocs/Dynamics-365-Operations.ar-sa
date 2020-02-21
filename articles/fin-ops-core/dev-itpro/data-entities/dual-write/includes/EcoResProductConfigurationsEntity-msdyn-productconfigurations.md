@@ -1,0 +1,7 @@
+## <a name="configurations-to-msdyn_productconfigurations"></a><span data-ttu-id="3b6a5-101">التكوينات إلى msdyn_productconfigurations</span><span class="sxs-lookup"><span data-stu-id="3b6a5-101">Configurations to msdyn_productconfigurations</span></span>
+
+<span data-ttu-id="3b6a5-102">يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وCommon Data Service.</span><span class="sxs-lookup"><span data-stu-id="3b6a5-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="3b6a5-103">حقل Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="3b6a5-103">Finance and Operations field</span></span> | <span data-ttu-id="3b6a5-104">نوع التعيين</span><span class="sxs-lookup"><span data-stu-id="3b6a5-104">Map type</span></span> | <span data-ttu-id="3b6a5-105">حقل Dynamics 365 الآخر</span><span class="sxs-lookup"><span data-stu-id="3b6a5-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="3b6a5-106">القيمة الافتراضية</span><span class="sxs-lookup"><span data-stu-id="3b6a5-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="3b6a5-107">CONFIGURATIONID</span><span class="sxs-lookup"><span data-stu-id="3b6a5-107">CONFIGURATIONID</span></span> | >> | <span data-ttu-id="3b6a5-108">msdyn_productconfiguration</span><span class="sxs-lookup"><span data-stu-id="3b6a5-108">msdyn_productconfiguration</span></span> | 

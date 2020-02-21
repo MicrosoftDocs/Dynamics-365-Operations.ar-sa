@@ -1,0 +1,7 @@
+## <a name="organization-hierarchy-type-to-msdyn_internalorganizationhierarchytypes"></a><span data-ttu-id="8df73-101">نوع التدرج الهرمي للمؤسسات إلى msdyn_internalorganizationhierarchytypes</span><span class="sxs-lookup"><span data-stu-id="8df73-101">Organization hierarchy type to msdyn_internalorganizationhierarchytypes</span></span>
+
+<span data-ttu-id="8df73-102">يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وCommon Data Service.</span><span class="sxs-lookup"><span data-stu-id="8df73-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="8df73-103">حقل Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="8df73-103">Finance and Operations field</span></span> | <span data-ttu-id="8df73-104">نوع التعيين</span><span class="sxs-lookup"><span data-stu-id="8df73-104">Map type</span></span> | <span data-ttu-id="8df73-105">حقل Dynamics 365 الآخر</span><span class="sxs-lookup"><span data-stu-id="8df73-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="8df73-106">القيمة الافتراضية</span><span class="sxs-lookup"><span data-stu-id="8df73-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="8df73-107">الاسم</span><span class="sxs-lookup"><span data-stu-id="8df73-107">NAME</span></span> | > | <span data-ttu-id="8df73-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="8df73-108">msdyn_name</span></span> | 

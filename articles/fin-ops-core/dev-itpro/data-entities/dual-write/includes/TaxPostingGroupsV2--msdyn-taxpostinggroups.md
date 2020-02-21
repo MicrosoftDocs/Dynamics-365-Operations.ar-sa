@@ -1,0 +1,8 @@
+## <a name="sales-tax-ledger-posting-groups-v2-to-msdyn_taxpostinggroups"></a><span data-ttu-id="c5362-101">مجموعات ترحيل دفتر أستاذ ضريبة المبيعات V2 إلى msdyn_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="c5362-101">Sales tax ledger posting groups V2 to msdyn_taxpostinggroups</span></span>
+
+<span data-ttu-id="c5362-102">يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وCommon Data Service.</span><span class="sxs-lookup"><span data-stu-id="c5362-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="c5362-103">حقل Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="c5362-103">Finance and Operations field</span></span> | <span data-ttu-id="c5362-104">نوع التعيين</span><span class="sxs-lookup"><span data-stu-id="c5362-104">Map type</span></span> | <span data-ttu-id="c5362-105">حقل Dynamics 365 الآخر</span><span class="sxs-lookup"><span data-stu-id="c5362-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="c5362-106">القيمة الافتراضية</span><span class="sxs-lookup"><span data-stu-id="c5362-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="c5362-107">TAXPOSTINGGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="c5362-107">TAXPOSTINGGROUPCODE</span></span> | = | <span data-ttu-id="c5362-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="c5362-108">msdyn_name</span></span> | 
+<span data-ttu-id="c5362-109">الوصف</span><span class="sxs-lookup"><span data-stu-id="c5362-109">DESCRIPTION</span></span> | = | <span data-ttu-id="c5362-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="c5362-110">msdyn_description</span></span> | 
