@@ -1,45 +1,57 @@
-- name: تطوير تطبيقات Finance and Operations‬ وإدارتها
+- name: التطوير والإدارة لتطبيقات Finance and Operations
   items:
-    - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
+    - name: التطوير والإدارة لتطبيقات Finance and Operations
       items:
         - name: وثائق تطبيق Finance and Operations
           href: ../fin-ops/index.md
-        - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
+        - name: التطوير والإدارة لتطبيقات Finance and Operations
           href: index.md
         - name: ما الجديد أو المتغير
           items:
-            - name: ميزات المعاينة‬ في Platform update 32 (فبراير 2020)
-              href: get-started/whats-new-platform-update-32.md
-            - name: Platform update 31 (يناير 2020)
-              href: get-started/whats-new-platform-update-31.md
-            - name: Platform update 30 (نوفمبر 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: Platform update 29 (أكتوبر 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-29.md
-            - name: Platform update 28 (يوليو 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-28.md
-            - name: Platform update 27 (يونيو 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-27.md
-            - name: Platform update 26 (مايو 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-26.md
-            - name: Platform update 25 (أبريل 2019)
-              href: ../fin-ops/get-started/whats-new-platform-25.md
-            - name: Platform update 24 (مارس 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-24.md
-            - name: Platform update 23 (يناير 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (ديسمبر 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-22.md
-            - name: Platform update 21 (نوفمبر 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: Platform update 20 (سبتمبر 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: Platform update 15 (مارس 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-15.md
-            - name: الجديد أو المتغير في الإصدارات السابقة
+            - name: ما الجديد أو المتغير‬ في تطبيقات Finance and Operations
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
-                - name: الجديد أو المتغير في صفحة Finance and Operations الرئيسية
-                  href: ../fin-ops/get-started/whats-new-changed.md
+                - name: الجديد أو المتغير‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
+                  href: get-started/whats-new-home-page.md
+                - name: تحديث النظام الأساسي 33 (أبريل 2020)
+                  href: get-started/whats-new-platform-update-33.md
+                - name: تحديث النظام الأساسي 32 (فبراير 2020)
+                  href: get-started/whats-new-platform-update-32.md
+                - name: تحديث النظام الأساسي 31 (يناير 2020)
+                  href: get-started/whats-new-platform-update-31.md
+                - name: تحديث النظام الأساسي 30 (نوفمبر 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
+                - name: تحديث النظام الأساسي 29 (أكتوبر 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
+                - name: تحديث النظام الأساسي 28 (يوليو 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
+                - name: تحديث النظام الأساسي 27 (يونيو 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
+                - name: تحديث النظام الأساسي 26 (مايو 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
+                - name: تحديث النظام الأساسي 25 (أبريل 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-25.md
+                - name: تحديث النظام الأساسي 24 (مارس 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
+                - name: تحديث النظام الأساسي 23 (يناير 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
+                - name: تحديث النظام الأساسي 22 (ديسمبر 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
+                - name: تحديث النظام الأساسي 21 (نوفمبر 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
+                - name: تحديث النظام الأساسي 20 (سبتمبر 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
+                - name: تحديث النظام الأساسي 15 (مارس 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: الميزات التي تمت إزالتها أو إهمالها
+              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: ميزات AX 2012 التي تم تأجيلها
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: ميزات لم يتم تنفيذها في عمليات النشر المحلية‬
+              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: أحداث الأعمال
           items:
             - name: نظرة عامة على أحداث الأعمال
@@ -133,52 +145,52 @@
                     - name: التكامل المتزامن ثنائي الاتجاه
                       items:
                         - name: تكامل البيانات في وقت قريب من الحقيقي
-                          href: data-entities/dual-write-overview.md
+                          href: data-entities/dual-write/dual-write-overview.md
                         - name: التدرج الهرمي للمؤسسات في Common Data Service
-                          href: data-entities/dual-write-organization.md
+                          href: data-entities/dual-write/organization-mapping.md
                         - name: تكامل الشركة
                           items:
-                            - name: مفهوم الشركة في Common Data Service
-                              href: data-entities/dual-write-company.md
+                            - name: مفهوم الشركة في Common Data Services
+                              href: data-entities/dual-write/company-data.md
                             - name: التمهيد مع بيانات الشركة
-                              href: data-entities/dual-write-bootstrap.md
+                              href: data-entities/dual-write/bootstrap-company-data.md
                         - name: أصل العميل المتكامل
-                          href: data-entities/dual-write-customer.md
+                          href: data-entities/dual-write/customer-mapping.md
                         - name: دفتر الأستاذ المتكامل
-                          href: data-entities/dual-write-ledger.md
+                          href: data-entities/dual-write/ledger-mapping.md
                         - name: تجربه المنتج الموحدة
-                          href: data-entities/dual-write-product.md
+                          href: data-entities/dual-write/product-mapping.md
                         - name: تكامل المورّد
                           items:
                             - name: أصل المورّد المتكامل
-                              href: data-entities/dual-write-vendor.md
+                              href: data-entities/dual-write/vendor-mapping.md
                             - name: التبديل بين تصميمات المورّدين
-                              href: data-entities/dual-write-vendor-switch.md
+                              href: data-entities/dual-write/vendor-switch.md
                         - name: المواقع والمستودعات المتكاملة
-                          href: data-entities/dual-write-sites-and-warehouses.md
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
                         - name: أصل الضريبة المتكاملة
-                          href: data-entities/dual-write-tax.md
+                          href: data-entities/dual-write/tax-mapping.md
                         - name: مزامنة أولية
-                          href: data-entities/dual-write-initial.md
+                          href: data-entities/dual-write/initial-sync.md
                         - name: استكشاف أخطاء تكامل البيانات وإصلاحها
-                          href: data-entities/dual-write-troubleshooting.md
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                     - name: التكامل المتزامن أحادي الاتجاه
                       items:
                         - name: تكوين سيناريو العميل المتوقع إلى النقدية
                           items:
                             - name: العميل المتوقع إلى النقدية
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
+                            - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
+                            - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎
+                            - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Finance and Operations
                               href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
                             - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations
                               href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
+                            - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations
                               href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
+                            - name: مزامنة رؤوس وبنود فاتورة المبيعات مباشرةً من Finance and Operations إلى Sales
                               href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                         - name: تكوين التكامل مع Field Service
                           items:
@@ -384,7 +396,7 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: تطبيق التحديثات على بيئات السحابة
                   href: deployment/apply-deployable-package-system.md
-                - name: تطبيق التحديثات والملحقات على مكونات قناة Retail المستضافة في السحابة
+                - name: تطبيق التحديثات والملحقات على مكونات قناة البيع بالتجزئة المستضافة في السحابة
                   href: deployment/Update-retail-channel.md
                 - name: تهيئة Retail Cloud Scale Unit
                   href: deployment/Initialize-Retail-Channels.md
@@ -406,9 +418,9 @@
                   items:
                     - name: الصفحة الرئيسية لإعداد بيئات محلية ونشرها
                       href: deployment/setup-deploy-on-premises-environments.md
-                    - name: نشر بيئات محلية (Platform update 12 وتحديث لاحق)
+                    - name: نشر بيئات محلية (تحديث النظام الأساسي 12 وتحديث لاحق)
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: نشر بيئات محلية (Platform update 8 و11)
+                    - name: نشر بيئات محلية (تحديث النظام الأساسي 8 و11)
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية
                       href: deployment/deploy-retail-onprem.md
@@ -912,7 +924,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: إدارة الوصول إلى البيانات الحساسة
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: الاستجابة لطلبات الحصول على بيانات شخصية باستخدام Talent
+                - name: الاستجابة لطلبات الحصول على بيانات شخصية باستخدام Human Resources
                   href: gdpr/respond-dsr-request-talent.md
                 - name: الاستجابة لطلبات الحصول على بيانات شخصية في AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -1258,21 +1270,21 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: الدعم
           items:
-            - name: الحصول على الدعم لـ Finance and Operations وLifecycle Services
+            - name: الحصول على دعم لـ Finance and Operations وLifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: نظرة عامة على دعم Dynamics 365
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: الحصول على الدعم لـ Finance and Operations المشغّل بواسطة 21Vianet في الصين
+            - name: الحصول على دعم لـ Finance and Operations الذي تديره 21Vianet في الصين
               href: lifecycle-services/21vianet-support.md
             - name: إرسال طلبات إلى فريق هندسة خدمات Dynamics
               href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-            - name: إعداد الدعم التقني لـ Finance and Operations
+            - name: إعداد الدعم الفني لـ Finance and Operations
               href: lifecycle-services/support-experience.md
             - name: الأسئلة الشائعة حول إطار الصيانة المخطط لها
               href: lifecycle-services/planned-maintenance-window-faq.md
             - name: الخدمة والعمليات السحابية
               href: lifecycle-services/cloud-operations-servicing.md
-            - name: إدارة خبرات دعم Finance and Operations
+            - name: إدارة تجارب دعم Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: إدارة النظام
           items:
@@ -1348,7 +1360,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: ترقية من AX 2012
               items:
-                - name: الترقية من AX 2012 إلى Finance and Operations
+                - name: ترقية من AX 2012 إلى Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: ترقية AX 2012 - وضع الخطة باستخدام أداة محلل الترقية
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1672,5 +1684,7 @@
       href: ../../supply-chain/index.md
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../../retail/index.md
+      href: ../../commerce/index.md

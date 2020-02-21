@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770909"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005530"
 ---
 # <a name="finance-and-operations-application-documentation"></a>وثائق تطبيق Finance and Operations
 
@@ -30,7 +30,7 @@ ms.locfileid: "2770909"
 
 تعرف على الطريقة الصحيحة لاستخدام تطبيقات Finance and Operations بما يناسبك نشاطك التجاري، وذلك باستخدام الموارد الواردة في الموضوع للعثور على محتوى متميز للمستخدمين النهائيين والمطورين ومحترفي تكنولوجيا المعلومات. 
 
-ينطبق جزء كبير من هذا المحتوى أيضًا على المنتجات ذات الصلة: Dynamics 365 Retail وTalent. 
+ينطبق أيضًا قسم كبير من هذا المحتوى على المنتجين ذي الصلة: Dynamics 365 Commerce وDynamics 365 Human Resources. 
 
 <table>
 <colgroup>
@@ -43,8 +43,8 @@ ms.locfileid: "2770909"
 <td>
 <h3><a href="get-started/before-you-buy.md">قبل الشراء</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">سجل للاشتراك في المعاينة</a></p>
- <p><a href="../dev-itpro/deployment/choose-deployment-type.md">اختر أحد خيارات التوزيع</a></p>
- <p><a href="get-started/purchase-on-premises.md">شراء Finance and Operations (on-premises)</a></p>
+ <p><a href="../dev-itpro/deployment/choose-deployment-type.md">اختر أحد خيارات النشر</a></p>
+ <p><a href="get-started/purchase-on-premises.md">شراء Finance and Operations (محلي)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">دورة حياة التطبيق</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
@@ -84,10 +84,10 @@ ms.locfileid: "2770909"
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">الميزات التنظيمية الإقليمية</a></p>
 
 <h3><a href="hr/hr-landing-page.md">الموارد البشرية</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">المزايا</a></p>
-<p><a href="../../talent/performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
-<p><a href="../../talent/questionnaires.md">الاستبيان</a></p>
-<p><a href="hr/manage-recruiting-process.md">التوظيف</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">المزايا</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">الاستبيانات</a></p>
+<p><a href="hr/manage-recruiting-process.md">توظيف</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">كشف رواتب الولايات المتحدة</a></p>
 
 </td>
@@ -107,7 +107,7 @@ ms.locfileid: "2770909"
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">المعلومات</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">التحليلات</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">مستندات الأعمال</a></p>
-<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">إعداد التقارير المالية</a></p>
+<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">Financial reporting</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting.md">التقارير التنظيمية</a></p>
 
 
@@ -129,16 +129,17 @@ ms.locfileid: "2770909"
 </td>
 <td>
 <h3>المنتجات المرتبطة</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
-<p><a href="../../retail/call-center-functionality.md">مركز الاتصال</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">إعداد القنوات وإدارتها</p>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
+<p>مركز الاتصال في <a href="../../retail/call-center-functionality.md"></p>
+<p>إعداد القنوات وإدارتها في <a href="../../retail/define-maintain-retail-channels.md"></p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS وCloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">مطور وإدارة Retail</p>
+<p>مطور وإدارة <a href="../../retail/dev-itpro/dev-retail-home-page.md">Commerce</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">المزايا</a></p>
-<p><a href="../../talent/performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
-<p><a href="../../talent/questionnaires.md">الاستبيان</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">دليل المسؤول</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">دليل المطور</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">دليل المستخدم</a></p>
+
 
 </td>
 </tr>

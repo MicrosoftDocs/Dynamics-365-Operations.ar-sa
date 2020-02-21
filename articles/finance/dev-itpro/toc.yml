@@ -1,30 +1,30 @@
-- name: ‏‫التطوير والإدارة لـ Finance and Operations‬
+- name: التطوير والإدارة في Finance and Operations
   href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: ما الجديد أو المتغير
   items:
-    - name: ميزات المعاينة‬ في Platform update 30 (نوفمبر 2019)
+    - name: ميزات المعاينة‬ في تحديث النظام الأساسي 30 (نوفمبر 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 29 (أكتوبر 2019)
+    - name: تحديث النظام الأساسي 29 (أكتوبر 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 28 (يوليو 2019)
+    - name: تحديث النظام الأساسي 28 (يوليو 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-28.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 27 (يونيو 2019)
+    - name: تحديث النظام الأساسي 27 (يونيو 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-27.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 26 (مايو 2019)
+    - name: تحديث النظام الأساسي 26 (مايو 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-26.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 25 (أبريل 2019)
+    - name: تحديث النظام الأساسي 25 (أبريل 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-25.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 24 (مارس 2019)
+    - name: تحديث النظام الأساسي 24 (مارس 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-24.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 23 (يناير 2019)
+    - name: تحديث النظام الأساسي 23 (يناير 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-23.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 22 (ديسمبر 2018)
+    - name: تحديث النظام الأساسي 22 (ديسمبر 2018)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-22.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 21 (نوفمبر 2018)
+    - name: تحديث النظام الأساسي 21 (نوفمبر 2018)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-21.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 20 (سبتمبر 2018)
+    - name: تحديث النظام الأساسي 20 (سبتمبر 2018)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-20.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Platform update 15 (مارس 2018)
+    - name: تحديث النظام الأساسي 15 (مارس 2018)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-15.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: أحداث الأعمال
   items:
@@ -76,9 +76,9 @@
       href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: واجهات API لتكامل البيانات
       items:
-        - name: واجهة REST API لحزمة إدارة البيانات
+        - name: واجهة برمجة تطبيقات REST لحزمة إدارة البيانات
           href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: نقاط نهاية الخدمات
+        - name: نقاط نهاية الخدمة
           items:
             - name: نظرة عامة حول نقاط نهاية الخدمة
               href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -120,7 +120,7 @@
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: التدرج الهرمي للمؤسسات في Common Data Service
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: مفهوم الشركة في Common Data Service
+                - name: مفهوم الشركة في Common Data Services
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: أصل العميل المتكامل
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -140,17 +140,17 @@
                   items:
                     - name: العميل المتوقع إلى النقدية
                       href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
+                    - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations
                       href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
+                    - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎
+                    - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Finance and Operations
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
+                    - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations
                       href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
+                    - name: مزامنة رؤوس وبنود فاتورة المبيعات مباشرةً من Finance and Operations إلى Sales
                       href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: تكوين التكامل مع Field Service
                   items:
@@ -336,7 +336,7 @@
           href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: تطبيق التحديثات على بيئات السحابة
           href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: تطبيق التحديثات والملحقات على مكونات قناة Retail المستضافة في السحابة
+        - name: تطبيق التحديثات والملحقات على مكونات قناة البيع بالتجزئة المستضافة في السحابة
           href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: تهيئة Retail Cloud Scale Unit
           href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -358,9 +358,9 @@
           items:
             - name: الصفحة الرئيسية لإعداد بيئات محلية ونشرها
               href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/financials/toc.json
-            - name: نشر بيئات محلية (Platform update 12 وتحديث لاحق)
+            - name: نشر بيئات محلية (تحديث النظام الأساسي 12 وتحديث لاحق)
               href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/financials/toc.json
-            - name: نشر بيئات محلية (Platform update 8 و11)
+            - name: نشر بيئات محلية (تحديث النظام الأساسي 8 و11)
               href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/financials/toc.json
             - name: خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية
               href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: إدارة الوصول إلى البيانات الحساسة
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: الاستجابة لطلبات الحصول على بيانات شخصية باستخدام Talent
+        - name: الاستجابة لطلبات الحصول على بيانات شخصية باستخدام Human Resources
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: الاستجابة لطلبات الحصول على بيانات شخصية في AX 2012
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1206,23 +1206,23 @@
           href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: الدعم
   items:
-    - name: الحصول على الدعم لـ Finance and Operations وLifecycle Services
+    - name: الحصول على دعم لـ Finance and Operations وLifecycle Services
       href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: نظرة عامة على دعم Dynamics 365
       href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
-    - name: الحصول على الدعم لـ Finance and Operations المشغّل بواسطة 21Vianet في الصين
+    - name: الحصول على دعم لـ Finance and Operations الذي تديره 21Vianet في الصين
       href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: تسجيل بطاقة دعم رئيسي
       href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: إرسال طلبات إلى فريق هندسة خدمات Dynamics
       href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: إعداد الدعم التقني لـ Finance and Operations
+    - name: إعداد الدعم الفني لـ Finance and Operations
       href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: الأسئلة الشائعة حول إطار الصيانة المخطط لها
       href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: الخدمة والعمليات السحابية
       href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: إدارة خبرات دعم Finance and Operations
+    - name: إدارة تجارب دعم Finance and Operations
       href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: إدارة النظام
   items:
@@ -1298,7 +1298,7 @@
       href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: ترقية من AX 2012
       items:
-        - name: الترقية من AX 2012 إلى Finance and Operations
+        - name: ترقية من AX 2012 إلى Finance and Operations
           href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: ترقية AX 2012 - وضع الخطة باستخدام أداة محلل الترقية
           href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
