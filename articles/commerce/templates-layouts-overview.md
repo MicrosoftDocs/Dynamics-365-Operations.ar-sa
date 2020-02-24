@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914831"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002672"
 ---
 # <a name="templates-and-layouts-overview"></a>نظرة عامة على القوالب والتخطيطات
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 تُعد القوالب عنصر أساسي من نموذج الصفحة لـ Microsoft Dynamics 365 Commerce. إذا كان هدفك هو زيادة الفعالية والتناسق لعمليات سير عمل تأليف الموقع إلى الحد الأقصى، فمن المهم التعرف على كيفية الحصول على مزايا القوالب لموقع الويب الخاص بك. تعتبر القرارات المبكرة حول بنيه القالب مهمة، ويمكن أن تؤثر بشكل ملحوظ على التكلفة والكفاءة لتحديثات العلامات التجارية اليومية والموسمية وعلى مستوى الموقع. وتتمتع القوالب المبنية جيدًا بمزايا أخرى أيضًا. على سبيل المثال، فإنها تساعد هذه المواقع على تحسين درجات تحسين محرك البحث على مستوى الموقع (SEO) وتقليل عدد الأخطاء إلى الحد الأدنى.

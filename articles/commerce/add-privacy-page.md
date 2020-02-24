@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fd39ff5f8c5d97f2d524043b65627dc7e87fcf64
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: ee9a68f46c91299065732e5f65479906f9e06079
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945965"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001313"
 ---
 # <a name="add-a-privacy-policy-page"></a>إضافة صفحة سياسة الخصوصية
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية إضافة صفحة سياسة الخصوصية إلى موقعك في Microsoft Dynamics 365 Commerce.
@@ -60,7 +60,7 @@ ms.locfileid: "2945965"
 
     على سبيل المثال، قد تتطلب فتحة **رأس HTML** الوحدة النمطية **النص الخارجي الافتراضي**.
 
-1. في فتحة **النص الأصلي** ، أضف الوحدة النمطية **الصفحة الافتراضية** .
+1. في فتحة **النص الأساسي‏‎** ، أضف الوحدة النمطية **الصفحة الافتراضية** .
 1. في الوحدة النمطية **الصفحة الافتراضية** ، قم بإضافة الفتحة **الرئيسية** ، أضف الوحدة النمطية **كتلة تنسيق المحتوى** .
 1. في الوحدة النمطية **كتلة تنسيق المحتوى** ، أضف الوحدة النمطية **عنصر تنسيق المحتوى** .
 1. قم بإيداع القالب ونشره.

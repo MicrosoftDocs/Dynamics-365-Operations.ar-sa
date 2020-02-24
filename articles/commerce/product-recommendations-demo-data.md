@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af8a30e69d9ed143e045950efdcece207f6da14c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697924"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003224"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>الحصول على توصيات المنتج باستخدام بيانات العرض التوضيحي
 يهدف هذا المستند إلى توفير إرشادات حول كيفية الاستفادة من توصيات المنتج متعدد القنوات في بيئات مربعات فردية بمستوى 1 باستخدام بيانات العرض التوضيحي المعممة مسبقا.
@@ -39,7 +39,7 @@ ms.locfileid: "2697924"
 لتمكين بيانات العرض التوضيحي لتوصيات المنتج، تحتاج نشر ملحق العرض التوضيحي للمعاينة لـ Dynamics 365 Commerce للبيئة المعينة. يؤدي ذلك إلى تمكين بيانات العرض التوضيحي لتوصيات المنتج تلقائيًا.
 
 ## <a name="default-demo-data"></a>بيانات العرض التوضيحي الافتراضية
-تأتي كل بيئة من النوع Onebox مع مجموعة من بيانات العرض التوضيحي لتوصيات المنتج التي تم تحميلها مسبقًا من ملف ‘reco_demo_data.csv’ المفصول بالنقاط، والموجود في خادم Retail Server.
+تأتي كل بيئة من النوع Onebox مع مجموعة من بيانات العرض التوضيحي لتوصيات المنتج التي تم تحميلها مسبقًا من ملف ‘reco_demo_data.csv’ المفصول بالنقاط، والموجود في Commerce Scale Unit.
 
 يتم هيكلة هذه البيانات بمحاذاة الأعمده التالية.
 

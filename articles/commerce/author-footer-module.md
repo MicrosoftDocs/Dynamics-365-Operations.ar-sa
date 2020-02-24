@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c253cd9620180b09f2f5cae232e46d236deabdd
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: f8e0290b5af9d0c1fc9ad0279b0d7f81c9feb2fc
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697303"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001112"
 ---
 # <a name="footer-module"></a>الوحدة النمطية لتذييل الصفحة  
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 يغطي هذا الموضوع الوحدات النمطية لتذييل الصفحات ويصف كيفية إنشائها في Microsoft Dynamics 365 Commerce.
@@ -79,8 +79,8 @@ ms.locfileid: "2697303"
 
 [الوحدة النمطية للسداد مع الخروج](add-checkout-module.md)
 
-[الوحدة النمطية لتأكيد الأمر](order-confirmation-module.md)
+[وحدة تأكيد الأمر](order-confirmation-module.md)
 
-[الوحدة النمطية للعنوان](author-header-module.md)
+[وحدة الرأس](author-header-module.md)
 
-[الوحدة النمطية لتذييل الصفحة](author-footer-module.md)
+[وحدة التذييل](author-footer-module.md)

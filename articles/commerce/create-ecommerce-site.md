@@ -1,9 +1,9 @@
 ---
 title: إنشاء موقع تجارة إلكترونية
-description: يصف هذا الموضوع المهام المرتبطة بإنشاء موقع جديد للتجارة الإلكترونية في Dynamics 365 Commerce.
+description: يوضح هذا الموضوع الخطوات والمعلومات المطلوبة لإنشاء موقع جديد للتجارة الإلكترونية في منشئ مواقع Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945825"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002003"
 ---
 # <a name="create-an-e-commerce-site"></a>إنشاء موقع تجارة إلكترونية
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع المهام المرتبطة بإنشاء موقع جديد للتجارة الإلكترونية في Dynamics 365 Commerce.
+يوضح هذا الموضوع الخطوات والمعلومات المطلوبة لإنشاء موقع جديد للتجارة الإلكترونية في منشئ مواقع Dynamics 365 Commerce.
 
-## <a name="overview"></a>نظرة عامة
+قبل البدء في إمكانية تطوير موقع التجارة الإلكترونية لديك، يجب أولاً إنشاء موقع جديد في منشئ مواقع. 
 
-لبدء تطوير موقع التجارة الإلكترونية الخاص بك، يجب عليك أولاً إنشاء موقع جديد في بيئة تأليف الموقع. قبل أن تتمكن من إنشاء موقع جديد، يجب إنشاء متجر واحد على الأقل على الإنترنت في Dynamics 365 Retail. 
+
+لبدء تطوير موقع التجارة الإلكترونية الخاص بك، يجب عليك أولاً إنشاء موقع جديد في بيئة تأليف الموقع. قبل أن تتمكن من إنشاء موقع جديد، يجب إنشاء متجر واحد على الأقل على الإنترنت في التجارة. 
+
 
 ## <a name="set-up-your-site"></a>إعداد موقعك
 
 لإعداد موقعك ، قم بما يلي.
 
-1. في Microsoft Lifecycle Services (LCS)، حدد الارتباط الخاص ببيئة تأليف الموقع. 
+1. افتح بيئة منشئ المواقع. يمكنك العثور علي ارتباط لمنشئ المواقع في Microsoft Lifecycle Services (LCS) في صفحة ميزات البيئة الخاصة بالتجارة.
 1. في الصفحة الرئيسية لبيئة تأليف الموقع، حدد **موقع جديد**.
 1. في مربع الحوار **موقع جديد** ، أدخل المعلومات التالية.
 

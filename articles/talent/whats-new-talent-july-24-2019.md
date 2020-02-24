@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffbb29fb89ed6a3fd6db11f2c8d656ab565c43f3
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8d89b1251429281521f32338f642cc7034420e0b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897639"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005976"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>ما الجديد والمتغير في Dynamics 365 Talent (23 يوليو 2019)
 
@@ -73,6 +73,6 @@ ms.locfileid: "2897639"
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>دعم المنطقة لكندا وجنوب شرق آسيا
 
-يسرنا الإعلان عن توفر كندا ومناطق جنوب شرق آسيا لتطبيق Talent في الأول من أغسطس 2019. مع هذا التغيير، يمكنك إنشاء بيئات في المناطق الكندية والآسيوية، وستتم المحافظة على بيانات Talent كلها داخل تلك المواقع فقط. يمكنك إنشاء بيئة في هذه المناطق الجديدة عن طريق تحديد الموقع في مربع حوار "بيئة جديدة" واستخدام هذه البيئة لتزويد Talent في LCS كما هو موضح هنا [تزويد Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+يسرنا الإعلان عن توفر كندا ومناطق جنوب شرق آسيا لتطبيق Talent في الأول من أغسطس 2019. مع هذا التغيير، يمكنك إنشاء بيئات في المناطق الكندية والآسيوية، وستتم المحافظة على بيانات Talent كلها داخل تلك المواقع فقط. يمكنك إنشاء بيئة في هذه المناطق الجديدة عن طريق تحديد الموقع في مربع حوار "بيئة جديدة" واستخدام هذه البيئة لتزويد Talent في LCS كما هو موضح هنا [تزويد Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 ترحيل البيانات الخاصة بالمشاريع الموجودة من مناطق أخرى إلى المناطق الكندية والآسيوية غير مدعوم. يمكن تزويد المشاريع الجديدة فقط لهذه المناطق المدعومة الجديدة.

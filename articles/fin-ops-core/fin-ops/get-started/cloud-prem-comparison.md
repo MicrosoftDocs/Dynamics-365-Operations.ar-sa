@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935377"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005716"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>مقارنة بين ميزات السحابة والمحلي
 
@@ -32,8 +32,8 @@ ms.locfileid: "2935377"
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
-- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
+- [Dynamics 365 Commerce](cloud-prem-comparison.md#dynamics-365-commerce)
+- [Dynamics 365 Human Resources](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 يتم تضمين معلومات حول [ميزات التطوير والإدارة](cloud-prem-comparison.md#development-and-administration-features) ، أيضًا.
 
@@ -45,9 +45,8 @@ ms.locfileid: "2935377"
 |---------------------|-----------------------------|-----------|-----------------|
 | التوافق والشهادات        |                                                                                           | ‏‏نعم       | ‏‏نعم             |
 |                                      | شهادة SOC 1 من النوع 1                                                                | ‏‏نعم       | لا              |
-| إدارة البيانات وتكاملها      |                                                                                           | ‏‏نعم       | ‏‏نعم             |
-|                                      | ملحق يعتمد على التكوين                                                            | نعم       | لا              |
-|                                      | تصدير البيانات إلى مستودع بياناتك                                                    | نعم       | نعم             |
+| إدارة البيانات وتكاملها      |                                                                                           | ‏‏نعم       | ‏‏نعم             
+|                                      | تصدير البيانات إلى مستودع بياناتك                                                    | ‏‏نعم       | ‏‏نعم             |
 |                                      | تمكين تصدير التحديثات التزايدية إلى كيان بيانات                                 | ‏‏نعم       | ‏‏نعم              |
 |                                      | عمليات تكامل البيانات                                                                         | ‏‏نعم       | ‏‏نعم             |
 | إدارة المستندات                  |                                                                                           | ‏‏نعم       | ‏‏نعم             |
@@ -146,15 +145,15 @@ ms.locfileid: "2935377"
 | الدعم                              |                                                                                           | ‏‏نعم       | ‏‏نعم             |
 |                                      | الوصول إلى الدعم عن طريق قائمة "التعليمات والدعم"                                             | ‏‏نعم       | لا              |
 
-## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-لمشاهدة قائمة بإمكانات البيع بالتجزئة المتوفرة في عمليات النشر المحلي‬، راجع [إمكانات البيع بالتجزئة المتوفرة في عمليات النشر المحلي‬](../../../retail/retail-onprem.md).
+لمشاهدة قائمة بالإمكانات المتوفرة في عمليات النشر المحلي‬، راجع [إمكانات البيع بالتجزئة المتوفرة في عمليات النشر المحلي‬](../../../retail/retail-onprem.md).
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
+## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
 | **المنطقة**         | **الميزة**         | **السحابة** | **محلي** |
 |------------------|---------------------|-----------|-----------------|
-| كل مناطق Talent | كل ميزات Talent | ‏‏نعم       | لا              |
+| جميع مجالات Human Resources | جميع ميزات Human Resources | ‏‏نعم       | لا              |
 
 ## <a name="development-and-administration-features"></a>ميزات التطوير والإدارة
 

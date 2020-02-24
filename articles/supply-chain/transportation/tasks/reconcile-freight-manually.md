@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843231"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026304"
 ---
 # <a name="reconcile-freight-manually"></a>تسوية الشحن يدويًا
 
@@ -37,7 +37,7 @@ ms.locfileid: "1843231"
 3. في القائمة، حدد الحمولة ذات معرف الحمل 00006.
 
 ## <a name="create-a-carrier-invoice"></a>إنشاء فاتورة شركة نقل
-    * إذا قمت بتسوية الشحن يدويًا ولم تستلم فواتير الشركة تلقائيًا، فيمكنك إنشاء فاتورة استنادًا إلى فاتورة الشحن.  
+إذا قمت بتسوية الشحن يدويًا ولم تستلم فواتير الشركة تلقائيًا، فيمكنك إنشاء فاتورة استنادًا إلى فاتورة الشحن.  
 1. انقر فوق "معلومات ذات صلة".
 2. انقر فوق "تفاصيل فاتورة الشحن".
 3. انقر فوق "إنشاء كمبيالة/فاتورة الشحن".
@@ -45,7 +45,7 @@ ms.locfileid: "1843231"
 5. انقر فوق "موافق".
 
 ## <a name="reconcile-the-invoice"></a>تسوية الفاتورة
-    * عند تسوية فاتورة الشركة وفاتورة الشحن، يتم ذلك كل بند بعد الآخر.  
+عند تسوية فاتورة الشركة وفاتورة الشحن، يتم ذلك كل بند بعد الآخر.  
 1. انقر فوق "مطابقة فواتير الشحن والفواتير".
 2. قم بتوسيع المقطع "تفاصيل الفاتورة".
 3. قم بتوسيع المقطع "تفاصيل فاتورة الشحن غير المطابقة‬".

@@ -1,0 +1,112 @@
+---
+title: تكوين تكامل Common Data Service
+description: يُمكنك تشغيل التكامل بين Common Data Service ومثيل Microsoft Dynamics 365 Human Resources أو إيقاف تشغيله. يُمكنك أيضًا عرض تفاصيل المزامنة، ومسح بيانات التعقب، وإعادة مزامنة كيان للمساعدة في استكشاف الأخطاء في مشاكل البيانات وإصلاحها بين البيئتين.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3007932"
+---
+# <a name="configure-common-data-service-integration"></a>تكوين تكامل Common Data Service
+
+يُمكنك تشغيل التكامل بين Common Data Service ومثيل Microsoft Dynamics 365 Human Resources أو إيقاف تشغيله. يُمكنك أيضًا عرض تفاصيل المزامنة، ومسح بيانات التعقب، وإعادة مزامنة كيان للمساعدة في استكشاف الأخطاء في مشاكل البيانات وإصلاحها بين البيئتين.
+
+عند إيقاف تشغيل التكامل، يُمكن للمستخدمين إجراء تغييرات في Human Resources أو Common Data Service، ولكن لا تتم مزامنة هذه التغييرات بين البيئتين.
+
+وبشكل افتراضي، يتم إيقاف أو تشغيل التكامل بين Human Resources و Common Data Service، بناءً على وجود بيانات العرض التوضيحي في البيئات:
+
+- **إيقاف** للبيئات الجديدة التي لا تشمل بيانات العرض التوضيحي
+- **تشغيل** للبيئات الجديدة التي تشمل بيانات العرض التوضيحي
+
+سوف تبدأ البيئات الجديدة التي تتضمن بيانات العرض التوضيحي بمزامنة البيانات عند توفيرها.
+
+قد ترغب في إيقاف تشغيل التكامل في هذه الحالات:
+
+- تقوم بتعبئة البيانات من خلال Data Management Framework ويجب عليك استيراد البيانات عدة مرات للوصول إلى حالة صحيحة.
+
+- توجد مشاكل في البيانات إما في Human Resources أو Common Data Service. إذا قمت بإيقاف تشغيل التكامل، يُمكنك حذف سجل في إحدى البيئات دون حذفه في الآخر. عند تشغيل التكامل مرة أخرى، سوف تتم مزامنة السجل الموجود في البيئة التي لم يتم حذفه فيها مرة أخرى إلى البيئة التي تم حذفه فيها. تبدأ المزامنة في المرة التالية التي يتم فيها تشغيل الوظيفة الدفعية **مزامنة طلب تكامل Common Data Service المفقود**.
+
+> [!WARNING]
+> عند إيقاف تشغيل تكامل البيانات، تأكد من أنك لم تقم بتحرير نفس السجل في كلتا البيئتين. عند تشغيل التكامل مرة أخرى، سوف تتم مزامنة آخر سجل قمت بتحريره. وبالتالي، إذا لم تقم بإجراء نفس التغييرات على السجل في كلا البيئتين، فقد يؤدي ذلك إلى فقد البيانات.
+
+## <a name="access-the-common-data-service-integration-page"></a>الوصول إلى صفحة تكامل Common Data Service
+
+1. في مثيل Human Resources الذي ترغب في عرض أو تكوين إعدادات للتكامل مع Common Data Service فيه، حدد التجانب **إدارة النظام**.
+
+    [![تجانب إدارة النظام](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+
+2. حدد علامة التبويب **الارتباطات**.
+
+    [![علامة التبويب ارتباطات](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+
+3. تحت **عمليات التكامل**، حدد **تكوين Common Data Service**.
+
+    [![ارتباط تكوين Common Data Service ](./media/hr-select-common-data-service-configuration.png)](./media/hr-select-common-data-service-configuration.png)
+
+## <a name="turn-data-integration-between-human-resources-and-common-data-service-on-or-off"></a>تشغيل تكامل البيانات بين Human Resources و Common Data Service أو إيقاف تشغيله.
+
+- لتشغيل التكامل، قم بتعيين خيار **تمكين التكامل إلى Common Data Service** إلى **نعم**.
+
+    > [!NOTE]
+    > عند تشغيل التكامل، سوف تتم مزامنة البيانات في المرة التالية التي يتم فيها تشغيل الوظيفة الدفعية **مزامنة طلب تكامل Common Data Service المفقود**. يجب أن تكون كافة البيانات متاحة بعد اكتمال الوظيفة الدفعية.
+
+- لإيقاف تشغيل التكامل، قم بتعيين الخيار إلى **لا**.
+
+[![تشغيل تكامل Common Data Service أو إيقاف تشغيله](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+## <a name="view-data-integration-details"></a>عرض تفاصيل تكامل البيانات
+
+في علامة التبويب السريعة **الإدارة** في صفحة **تكامل Common Data Service** ، يُمكنك رؤية كيف تكون السجلات مرتبطة ببعضها بين Human Resources وCommon Data Service.
+
+- لعرض السجلات الخاصة بكيان ما، حدد الكيان في حقل **اسم كيان CDS**. تعرض الشبكة كافة السجلات المرتبطة بالكيان المُحدد.
+
+[![عرض السجلات لكيان](./media/hr-common-data-service-configuration-view-entity.png)](./media/hr-common-data-service-configuration-view-entity.png)
+
+> [!NOTE]
+> حاليًا، لا يتم سرد كافة كيانات Common Data Service. تظهر فقط الكيانات التي تدعم استخدام الحقول المخصصة في الشبكة. تتوفر الكيانات الجديدة من خلال الإصدارات المستمرة لـ Human Resourcesـ. 
+
+تتضمن الشبكة الحقول التالية:
+
+- **اسم كيان CDS** - اسم الكيان في Common Data Service.
+- **مرجع كيان CDS** - المُعرف الذي يستخدمه Common Data Service لتحديد سجل. تُكافئ هذه القيمة قيمة **RecId** لـ Human Resourcesـ. يُمكنك العثور على المُعرف عندما تقوم بفتح كيان Common Data Service في Microsoft Excel.
+- **اسم كيان Human Resources** - آخر كيان قام بمزامنة البيانات إلى Common Data Service. يمكن أن يكون للكيان إما بادئة Common Data Service أو بادئة أخرى.
+- **مرجع Human Resources** - قيمة **RecId** المقترنة بالسجل في Human Resources.
+- **تم حذفه من CDS** - قيمة تشير إلى ما إذا كان السجل قد تم حذفه من Common Data Service أو لا.
+
+## <a name="remove-the-association-of-a-record-in-human-resources-from-common-data-service"></a>إزالة اقتران سجل في Human Resources من Common Data Service
+
+إذا واجهت مشاكل خلال مزامنة البيانات بين Human Resources و Common Data Service، فقد تكون قادرًا على حلها عن طريق مسح التعقب والسماح بإعادة مزامنة جدول التعقب. إذا قمت بإزالة الاقتران، ثم قمت بتغيير سجل أو حذفه في Common Data Service ، فلن تتم مزامنة التغييرات مع Human Resources. إذا قمت بإجراء تغييرات في Human Resources، يتم إنشاء سجل تعقب جديد، ويتم تحديث السجل في Common Data Service.
+
+- لإزالة اقتران سجل بين Human Resources و Common Data Service، حدد الكيان في حقل **اسم كيان CDS** ، ثم حدد **مسح معلومات التعقب**.
+
+[![مسح معلومات التعقب](./media/hr-common-data-service-configuration-clear-tracking.png)](./media/hr-common-data-service-configuration-clear-tracking.png)
+
+لتشغيل مزامنة كاملة على الكيان بعد مسح التتبع، راجع الإجراء التالي.
+
+## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>مزامنة كيان بين Human Resources و Common Data Service
+
+استخدم هذا الإجراء إذا استغرقت التغييرات من Common Data Service وقتًا طويلًا للظهور في Human Resources، أو إذا كان يجب عليك تحديث جدول التعقب بعد قيامك بمسح التتبع.
+
+- لتشغيل مزامنة كاملة على كيان بين Human Resources و Common Data Service ، حدد الكيان في حقل **اسم كيان CDS** ، ثم حدد **المزامنة الآن**.
+
+[![تشغيل مزامنة كاملة](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
+
+

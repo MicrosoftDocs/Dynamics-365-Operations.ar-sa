@@ -3,7 +3,7 @@ title: المدفوعات المركزية للحسابات المدينة
 description: يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني واحد يعالج جميع المدفوعات. ولذلك، لا يلزم إدخال نفس الحركة في العديد من الكيانات القانونية. توفر هذه المقالة أمثلة تعرض كيفية معالجة الترحيل للمدفوعات المركزية في سيناريوهات مختلفة.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176282"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000083"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>المدفوعات المركزية للحسابات المدينة
 
@@ -88,8 +88,8 @@ ms.locfileid: "2176282"
 
 | الحساب                             | المبلغ المدين | المبلغ الدائن |
 |-------------------------------------|--------------|---------------|
-| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) | 600.00       |               |
-| المبيعات (شركة الاتحاد الشرقية للتصنيع)               |              | 600.00        |
+| الحسابات المدينة (شركة الاتحاد الشرقية للتصنيع) | 580.00       |               |
+| المبيعات (شركة الاتحاد الشرقية للتصنيع)               |              | 580.00        |
 
 ### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>استلام الدفعة وترحيلها في شركة الاتحاد للتصنيع للعميل 4000 بشركة الاتحاد للتصنيع
 

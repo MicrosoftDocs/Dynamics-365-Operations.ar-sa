@@ -19,27 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d075635b7b986cc854550d15f7e941a9ea9cf72
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770403"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024923"
 ---
 # <a name="create-curated-product-recommendation-lists"></a>إنشاء قوائم توصيات منتجات المختارة
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 يشرح هذا الموضوع كيف يمكن للتجار إنشاء قوائم منتجات يدوية لعملاء Microsoft Dynamics 365 Commerce وإدارتها.
 
-القوائم المُجمّعة هي عبارة عن مجموعات من المحتوى الفردي الذي تم إنشاؤه وتجميعه بواسطة الأشخاص.  
+القوائم المُجمّعة هي عبارة عن مجموعات من محتوى فردي تم إنشاؤه وتجميعه على يد أشخاص.  
 
 ## <a name="create-a-new-list"></a>إنشاء قائمة جديدة.
 
 لإنشاء قائمة توصيات المنتج المُجمّع، اتبع هذه الخطوات.
 
-1. انتقل إلى **‏‫‏‫Retail‬‬** &gt; **توصيات المنتج** &gt; **قوائم التوصية**.
+1. انتقل إلى ‏‫‏‫**البيع بالتجزئة والتجارة&gt; توصيات المنتج&gt; قوائم التوصيات**.
 1. حدد **جديد**.
 1. في حقل **‏‫معرف القائمة‬** ، أدخل قيمة.
 1. في حقل **‏‫اسم القائمة‬** ، أدخل قيمة.
@@ -60,3 +59,5 @@ ms.locfileid: "2770403"
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
 
 [إضافة قوائم توصيات المنتجات إلى الصفحات](add-reco-list-to-page.md)
+
+[نظرة عامة على الوحدة النمطية لمجموعة المنتجات](product-collection-module-overview.md)

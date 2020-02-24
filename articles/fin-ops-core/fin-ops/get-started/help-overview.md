@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811662"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005693"
 ---
 # <a name="help-system"></a>نظام التعليمات
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811662"
 يوفر هذا الموضوع نظرة عامة حول مكونات نظام التعليمات. تشارك المنتجات التالية نظام التعليمات:
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 يمكنك الوصول إلى التعليمات من جزء التعليمات بصرف النظر عن المنتج الذي تستخدمه. 
 
@@ -42,7 +42,7 @@ ms.locfileid: "2811662"
 
 ## <a name="help-on-docsmicrosoftcom"></a>تعليمات حول docs.microsoft.com
 
-الموقع docs.microsoft.com هو ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) المصدر الأساسي لوثائق المنتج للتطبيقات المذكورة أعلاه. يقدم الموقع الميزات التالية:
+الموقع docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) هو المصدر الأساسي لوثائق المنتج للتطبيقات المذكورة أعلاه. يقدم الموقع الميزات التالية:
 
 - **الوصول إلى أحدث محتوى**– يعطينا الموقع طريقة أسرع وأكثر مرونةً لإنشاء وتسليم وتحديث وثائق المنتج. ولذلك، فهو يساعد على ضمان إمكانية الوصول إلى أحدث المعلومات التقنية.
 - **المحتوى الذي أعده خبراء**- يوفر الموقع مجموعة أوسع من وثائق المنتج يمكن أن تتعزز من قِبل أعضاء المجتمع داخل وخارج Microsoft.
@@ -73,7 +73,7 @@ ms.locfileid: "2811662"
 
 تم تضمين الفيديو [كيفية المساهمة في وثائق Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (مبيّن أعلاه) في قناة Microsoft Dynamics365 في YouTube.
 
-لمزيد من المعلومات، راجع [دليل المساهم](https://docs.microsoft.com/en-us/contribute) الخاص بنا.
+لمزيد من المعلومات، راجع [دليل المساهم](https://docs.microsoft.com/contribute) الخاص بنا.
 
 > [!NOTE]
 > لا نقبل في الوقت الحالي غير المساهمات في المحتويات التابعة لنا باللغة الإنجليزية.
@@ -106,12 +106,12 @@ ms.locfileid: "2811662"
 من جزء التعليمات، يمكنك الوصول إلى المقالات التي تنطبق على العميل. عندما تفتح جزء التعليمات للمرة الأولى وتنقر فوق علامة التبويب **تعليمات**، سترى المقالات التي تنطبق على الصفحة التي تعمل عليها حاليًا. إذا لم تعثر على مقالات، فيمكنك إدخال كلمات أساسية لتنقية البحث. وعند النقر فوق مقالة في جزء التعليمات، يتم فتح علامة تبويب جديدة في المتصفح وتعرض المقالة.
 
 > [!IMPORTANT]
-> لا ينطبق هذا القسم على Dynamics 365 Talent. يتصل نظام تعليمات Talent بشكل تلقائي بدلائل المهام الخاصة بالمنتج. علاوةً على ذلك، لا يمكنك إنشاء دلائل مهام مخصصة لتطبيق Talent.
+> لا ينطبق هذا القسم على Dynamics 365 Human Resources. يتصل نظام تعليمات Human Resources تلقائيًا بدلائل مهام المنتج. وعلاوةً على ذلك، لا يمكنك إنشاء دلائل مهام مخصصة لـ Human Resources.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>الوصول إلى دلائل المهام من جزء التعليمات
 
-قبل أن تتمكن من الوصول إلى دلائل المهام من جزء التعليمات، يتعين على مسؤول النظام الانتقال إلى صفحة **معلمات النظام** في Finance، وSupply Chain Managment، وRetail وتكوين بعض الإعدادات.
+قبل أن تتمكن من الوصول إلى دلائل المهام من جزء التعليمات، يتعين على مسؤول النظام الانتقال إلى صفحة **معلمات النظام** في Finance، وSupply Chain Managment، وCommerce وتكوين بعض الإعدادات.
 
 > [!NOTE]
 > - لتكوين التعليمات، يجب أن تسجل دخولك باستخدام حساب في المستأجر نفسه حيث تم نشر التطبيق.

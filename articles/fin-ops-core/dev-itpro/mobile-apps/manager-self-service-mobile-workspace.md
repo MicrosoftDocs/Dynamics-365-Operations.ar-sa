@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 272cf991301fa5c2df8a6de3354588fc372fa92f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248723"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005599"
 ---
 # <a name="my-team-mobile-workspace"></a>مساحة العمل المحمولة "فريقي"
 
@@ -28,7 +28,7 @@ ms.locfileid: "2248723"
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **فريقي**. تسمح مساحة العمل هذه للمدراء بعرض المرؤوسين المباشرين وفريق العمل الموسع.‬ ويمكنهم أيضًا إرسال ثناء إلى الأفراد في سلسلة التدرج الهرمي.
 
-مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة. 
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة.
 
 ## <a name="overview"></a>نظرة عامة 
 تسمح مساحة العمل المحمولة **فريقي** للمستخدمين بتنفيذ هذه المهام:
@@ -53,11 +53,11 @@ ms.locfileid: "2248723"
 <tr class="odd">
 <td>يجب أن يتم نشر أحد المنتجات التالية في مؤسستك:
 <ul><li>تطبيق Finance and Operations</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>مسؤول النظام</td>
-<td>إذا لم يتم نشر &#39; Finance and Operations في مؤسستك، فراجع نشر <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>. إذا لم يتم نشر Talent في مؤسستك، فباستطاعة مسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://www.microsoft.com/dynamics365/talent">صفحة ويب Talent</a>.
+<td>إذا لم يتم نشر تطبيق Finance and Operations في مؤسستك، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي‬</a>. إذا لم يتم نشر Human Resources في مؤسستك، فباستطاعة مسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://dynamics.microsoft.com/human-resources/overview/">صفحة ويب Human Resources</a>.
 </td>
 </tr>
 <tr class="even">

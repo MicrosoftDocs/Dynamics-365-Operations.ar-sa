@@ -3,7 +3,7 @@ title: بدء تحسين التخطيط
 description: يشرح هذا الموضوع كيفية بدء استخدام وظيفة تحسين التخطيط.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773891"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971454"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ ms.locfileid: "2773891"
 
 1. قم بتسجيل الدخول إلى LCS، وافتح البيئة المطلوبة.
 1. انتقل إلى **التفاصيل الكاملة**.
-1. حدد **الاحتفاظ**، أو قم بالتمرير لأسفل إلى علامة التبويب السريع **الوظائف الإضافية للبيئة**.
+1. قم بالتمرير لأسفل إلى علامة التبويب السريعة **الوظائف الإضافية للبيئة**.
 1. حدد **تثبيت وظيفة إضاية جديدة**.
 1. حدد **تحسين التخطيط**.
 1. اتبع دليل التثبيت، ووافق علي البنود والشروط.
 1. حدد **تثبيت**.
+1. في علامة التبويب السريعة **الوظائف الإضافية للبيئة‬**، ينبغي رؤية "جارِ تثبيت تحسين التخطيط".
+1. بعد بضع دقائق ينبغي تغيير **جارٍ التثبيت** إلى **تم التثبيت** (قد تحتاج إلى تحديث الصفحة). عندما يتم التثبيت، ستكون جاهزًا لتنشيط تحسين التخطيط في Dynamics 365 Supply Chain Management.
 
 ### <a name="planning-optimization-integration"></a>تكامل تحسين التخطيط‬
 
-لتكوين ما إذا كان يجب استخدام الوظيفة الاضافيه لتحسين التخطيط للتخطيط الرئيسي، انتقل إلى **التخطيط الرئيسي** \> **الإعداد** \> **تكامل تحسين التخطيط** \>**تخطيط التكامل**.
+لتكوين ما إذا كان يجب استخدام الوظيفة الإضافية لتحسين التخطيط للتخطيط الرئيسي، انتقل إلى **التخطيط الرئيسي** \> **الإعداد** \> **معلمات تحسين التخطيط**.
 
 #### <a name="connection-status"></a>حالة الاتصال
 

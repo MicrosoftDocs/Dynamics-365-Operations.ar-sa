@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 715d3df2fa41bdd6c65c42c55c8646eb7317c400
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697208"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001108"
 ---
 # <a name="authoring-page-overview"></a>نظرة عامة على صفحة التأليف
 
- [!include [banner](includes/preview-banner.md)] 
+  
  [!include [banner](includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة على صفحة التأليف في Microsoft Dynamics 365 Commerce.

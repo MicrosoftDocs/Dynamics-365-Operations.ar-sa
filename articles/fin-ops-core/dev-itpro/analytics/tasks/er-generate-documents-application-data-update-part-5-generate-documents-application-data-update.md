@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d95feb3395c36f9cf8a23770dc3173377067d9b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184866"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026053"
 ---
 # <a name="generate-documents-that-have-application-data"></a>إنشاء مستندات تتضمن بيانات التطبيق
 
@@ -58,7 +58,7 @@ ms.locfileid: "2184866"
 6. انقر فوق "موافق".
 
 ## <a name="review-er-format-executions-results"></a>مراجعة نتائج تنفيذ تنسيق التقارير الإلكترونية
-    * راجع ملف XML المنشأ.  
+راجع ملف XML المنشأ.  
 1. قم بإغلاق الصفحة.
 2. انتقل إلى الضريبة > الإقرارات‬ > التجارة الخارجية > نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي.
     * افتح هذا النموذج الذي يحتوي على حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي المضمنة في المستند الإلكتروني المنشأ.  

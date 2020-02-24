@@ -1,9 +1,9 @@
 ---
 title: الميزات المزالة أو المهملة في Lifecycle Services ‏(LCS)
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Microsoft Dynamics Lifecycle Services (LCS).
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885445"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027970"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>الميزات المزالة أو المهملة في Lifecycle Services ‏(LCS)
 
@@ -53,7 +53,7 @@ ms.locfileid: "2885445"
 </tr>
 <tr>
 <td><strong>الحالة</strong></td>
-<td>مهمل: يتوقع إزالة مكون المخططات الانسيابية في BPM بحلول أول فبراير 2020. سوف تتم إزالة الوظيفة التالية:
+<td>مهمل: يتوقع إزالة مكون المخططات الانسيابية في BPM في 2020. سوف تتم إزالة الوظيفة التالية:
 <ul>
 <li>لن تكون المخططات الانسيابية الموجودة متوفرة للعرض أو التحرير. ستكون خصائص الشكل المقترنة بأنشطة المخطط الانسيابي غير متوفرة أيضًا، لأنه ستتم إزالة علامة التبويب <strong>المخطط الانسيابي</strong> بالكامل. تتضمن هذه المخططات الانسيابية كلاً من المخططات الانسيابية الافتراضية التي يتم إنشاؤها تلقائيًا والمخططات الانسيابية المخصصة التي يتم تعديلها استنادًا إلى هذه المخططات الانسيابية الافتراضية.</li>
 <li>لن تتوفر ميزة تحليل الملائمة/الفجوة القديمة. ولذلك، لن يتم إنشاء قائمة فجوة تلقائيًا أو تتوفر للتصدير.

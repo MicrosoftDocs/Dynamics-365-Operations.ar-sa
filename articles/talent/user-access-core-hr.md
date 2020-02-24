@@ -1,6 +1,6 @@
 ---
-title: بإمكان المستخدم الوصول إلى Core HR ولكن ليس إلى تطبيق Onboard أو Attract
-description: يتناول هذا الموضوع كيفية حل هذه المشكلة، حيث يمكن للمستخدم الوصول إلى Microsoft Dynamics 365 Talent Core HR، ولكن لا يمكنه الوصول إلى تطبيق Attract أو Onboard.
+title: بإمكان المستخدم الوصول إلى Human Resources ولكن ليس إلى تطبيق Onboard أو Attract
+description: يتناول هذا الموضوع كيفية حل هذه المشكلة، حيث يمكن للمستخدم الوصول إلى Microsoft Dynamics 365 Talent - Human Resources، ولكن لا يمكنه الوصول إلى تطبيق Attract أو Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1a86936d756d8375761ce50c9d9bf33dc638dfad
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6c384d9a7100982eabd201d910e1bea14355dc1f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772909"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006300"
 ---
-# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>بإمكان المستخدم الوصول إلى Core HR ولكن ليس إلى تطبيق Onboard أو Attract
+# <a name="user-can-access-human-resources-but-not-onboard-or-attract"></a>بإمكان المستخدم الوصول إلى Human Resources ولكن ليس إلى تطبيق Onboard أو Attract
 
 [!include [banner](includes/banner.md)]
 
 **تفاصيل البيئة**
 
 - تم تنفيذ عملية نشر Microsoft Dynamics Lifecycle Services (LCS) بواسطة المستخدم أ.
-- قام المستخدم أ بإضافة المستخدم ب كمستخدم إلى Microsoft Dynamics 365 Talent: Core HR .
+- قام المستخدم أ بإضافة المستخدم ب كمستخدم إلى Microsoft Dynamics 365 Human Resources .
 
 **إصدار**
 
-يمكن للمستخدم ب الوصول إلى Core HR، ولا يمكنه الوصول إلى Talent أو Attract أو Talent: تطبيق Onboard. عندما يحاول المستخدم الانتقال إلى **تجربة التطبيقات**، فسوف يتم نقله إلى بيئة تجريبية بدلًا من ذلك.
+يمكن للمستخدم ب الوصول إلى Human Resources، ولا يمكنه الوصول إلى Talent أو Attract أو Talent: تطبيق Onboard. عندما يحاول المستخدم الانتقال إلى **تجربة التطبيقات**، فسوف يتم نقله إلى بيئة تجريبية بدلًا من ذلك.
 
 **الحل**
 
@@ -45,4 +45,4 @@ ms.locfileid: "2772909"
 
 **حل طويل الأجل**
 
-يضع Microsoft في الاعتبار تعيين الحقوق المناسبة لتطبيق Onboard و Attract عند إضافة مستخدم إلى Core HR.
+يضع Microsoft في الاعتبار تعيين الحقوق المناسبة لتطبيق Onboard و Attract عند إضافة مستخدم إلى Human Resources.

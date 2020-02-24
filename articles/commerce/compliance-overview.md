@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b409b6cd5eb8c1b96ffb9cc1df47ff88019989f9
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: f8c2cdbf055a2854c4140d3ccc264da260c7cdf5
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945960"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002256"
 ---
 # <a name="compliance-overview"></a>‏‫نظرة عامة على التوافق
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 هذا الموضوع هو نظرة عامة عن إرشادات التوافق التي يتم توفيرها مع Microsoft Dynamics 365 Commerce لمساعدتك في جعل مواقع شركتك متوافقة. يعد التوافق عاملاً هامًا لجميع الشركات، لأنه يساعد قاعدة المستخدمين على التواصل مع محتوى الموقع الخاص بهم. من خلال الالتزام بالتوافق، يمكنك أيضًا المساعدة في حماية شركتك من الإجراءات القانونية باهظة الثمن أو الغرامات الضخمة.
