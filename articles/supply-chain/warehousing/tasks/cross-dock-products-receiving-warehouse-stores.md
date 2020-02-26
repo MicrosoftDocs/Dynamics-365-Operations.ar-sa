@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563379"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004078"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>توزيع المنتجات من المستودع المستلم حتى المتاجر
 
@@ -31,7 +31,7 @@ ms.locfileid: "1563379"
 
 1. انتقل إلى "كافة أوامر الشراء".
 2. حدد أمر مبيعات في القائمة وانقر على الارتباط لفتح الأمر.
-3. في جزء "الإجراءات"، انقر فوق "‏‫البيع بالتجزئة‬".
+3. في جزء الإجراءات، انقر فوق "البيع بالتجزئة والتجارة".
 4. انقر فوق توزيع البضائع.
 5. انقر فوق "تحرير".
     * يمكن استخدام الفئة لتصفية الأصناف الموجودة في قسم "البنود".  

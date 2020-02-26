@@ -1,6 +1,6 @@
 ---
 title: إنشاء منتج
-description: يتناول هذا الإجراء إنشاء منتج جديد في التدرج الهرمي لمنتج البيع بالتجزئة.
+description: يتناول هذا الإجراء إنشاء منتج جديد في التدرج الهرمي للمنتج التجاري.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1dca3156a7fb90f8117e34225938cba151916842
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: dd154aeb037be5ac1062cc12a5911638db5a8239
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026315"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003917"
 ---
 # <a name="create-a-product"></a>إنشاء منتج
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-يتناول هذا الإجراء إنشاء منتج جديد في التدرج الهرمي لمنتج Retail. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT، وهذه المهمة مخصصة لمدير البضائع و‏‫مصمم المنتج‬.
+يتناول هذا الإجراء إنشاء منتج جديد في التدرج الهرمي للمنتج التجاري. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT، وهذه المهمة مخصصة لمدير البضائع و‏‫مصمم المنتج‬.
 
 1. انتقل إلى البيع بالتجزئة والتجارة > .. > المنتجات حسب الفئة.
-2. انقر فوق "جديد".
+2. انقر فوق جديد.
 3. في حقل "اسم المنتج"، اكتب اسمًا للمنتج..
-4. في حقل "‏‫فئة البيع بالتجزئة"، انقر فوق زر القائمة المنسدلة لفتح البحث.
+4. في حقل "الفئة"، انقر فوق زر القائمة المنسدلة لفتح البحث.
 5. في الشجرة، قم بتوسيع "الكل (ALL)/الموضة (Fashion)".
 6. في الشجرة، حدد "الكل (ALL)/الموضة (Fashion)/إكسسوارات الموضة (Fashion Accessories)".
 7. انقر فوق موافق.

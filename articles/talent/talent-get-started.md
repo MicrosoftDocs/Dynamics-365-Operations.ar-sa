@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c3a2881ede53e4adfba775b9bb23071468c8f602
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024226"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006507"
 ---
 # <a name="get-started-with-talent"></a>بدء استخدام Talent
 
@@ -31,7 +31,7 @@ ms.locfileid: "2024226"
 في Microsoft Dynamics 365 Talent من السهل تعديل واجهة المستخدم وتعيين الخيارات التي تجعل البرنامج أكثر سهولة في تلبية احتياجاتك. يتضمن هذا الموضوع ارتباطات موصلة للمواضيع التي توفر معلومات حول كيفية تهيئة واجهة المستخدم حسب التفضيلات الخاصة بك. يتضمن الموضوع أيضًا ارتباطات موصلة للمعلومات التي يمكن أن تساعدك في البحث عن المعلومات في النظام بكفاءة ودقة. 
 
 > [!NOTE] 
-> ترتبط المنتجات التالية ببعضها بشكل وثيق: Dynamics 365 Finance وDynamics 365 Retail وDynamics 365 Talent. وقد تظهر الوظائف نفسها في المنتجات الثلاثة كلها. ونتيجة لذلك، سيكون اسم المنتج Dynamics 365 Retail في المواضيع المرتبطة بشكل أساسي بتطبيق Retail؛ وسيكون اسم المنتج Dynamics 365 Talent في المواضيع المرتبطة بشكل أساسي بـ Talent؛ وسيكون اسم المنتج Dynamics 365 Finance في المواضيع المرتبطة بشكل أساسي بالمنتج الرئيسي. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
+> ترتبط المنتجات التالية ببعضها بشكل وثيق: Dynamics 365 Finance وDynamics 365 Commerce وDynamics 365 Talent. وقد تظهر الوظائف نفسها في المنتجات الثلاثة كلها. ونتيجة لذلك، سيكون اسم المنتج Dynamics 365 Commerce في المواضيع المرتبطة بشكل أساسي بتطبيق Commerce؛ وسيكون اسم المنتج Dynamics 365 Talent في المواضيع المرتبطة بشكل أساسي بـ Talent؛ وسيكون اسم المنتج Dynamics 365 Finance في المواضيع المرتبطة بشكل أساسي بالمنتج الرئيسي. قد تنطبق المواضيع التي تمت كتابتها لمنتج واحد على نفس الوظيفة في منتج ذي صلة.
 
 ## <a name="personalizing-talent"></a>إضفاء طابع شخصي على المواهب 
 توضح المواضيع التالية كيفية إعداد العديد من الميزات في Talent التي تسهل عليك إتمام عملك في الوقت مناسب. 

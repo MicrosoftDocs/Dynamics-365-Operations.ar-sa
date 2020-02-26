@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896786"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006254"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (23 أكتوبر 2019)
 
@@ -39,9 +39,9 @@ ms.locfileid: "2896786"
 
 تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2569. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام الدعم في Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-30-for-finance-and-operations-apps"></a>Platform update 30 لتطبيقات Finance and Operations
+### <a name="platform-update-30-for-finance-and-operations-apps"></a>تحديث النظام الأساسي 30 لتطبيقات Finance and Operations
 
-لمزيد من المعلومات، راجع [‏‫المزايا الجديدة أو المتغيرة في Platform update 30 لتطبيقات Finance and Operations (نوفمبر 2019)](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30)
+لمزيد من المعلومات، راجع [المزايا الجديدة أو المتغيرة في تحديث النظام الأساسي 30 لتطبيقات Finance and Operations (نوفمبر 2019)](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>إزالة الميزات التي تفتح ميزة معاينة التسجيل
 
@@ -89,4 +89,4 @@ ms.locfileid: "2896786"
 
 تتم إضافة ميزات وتحديثها في كل إصدار. وتوفر تجربة إدارة الميزات مساحة عمل حيث يمكنك عرض قائمه بالميزات التي تم تقديمها في كل إصدار. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها.
 
-لمعرفة المزيد حول التغييرات المصاحبة لإدارة الميزات، راجع [نظرة على إدارة الميزات‬](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+لمعرفة المزيد حول التغييرات المصاحبة لإدارة الميزات، راجع [نظرة على إدارة الميزات‬](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).

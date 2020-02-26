@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fff8299ecc6833890b14fa421501236830b2c61
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 04200264fabca265484b5e66426810efe8028a50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945664"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002791"
 ---
 # <a name="save-preview-and-publish-a-page"></a>حفظ صفحة ومعاينتها ونشرها
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية حفظ صفحة منتج معاينتها ونشرها في Microsoft Dynamics 365 Commerce.

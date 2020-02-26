@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812639"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006185"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>إنشاء الوثائق أو التدريب حسب مسجل المهام
 
@@ -32,7 +32,7 @@ ms.locfileid: "2812639"
 يشرح هذا المقال ما هو مسجل المهام ودلائل المهام‬، وكيفية إنشاء تسجيلات المهام، وكيفية تخصيص دلائل مهام‬ Microsoft وتضمينها في نظام التعليمات الخاص بك.
 
 > [!IMPORTANT]
-> يمكنك تسجيل دلائل مهام لتطبيق Dynamics 365 Talent، ولكنك لن تتمكن من حفظها في مكتبة أداة تكوين عمليات الأعمال (BPM) أو فتحها من جزء "التعليمات" في الوقت الحالي. يمكنك حفظها محلياً أو في موقع على الشبكة، ثم فتحها وإعادة تشغيلها باستخدام "مسجل المهام". 
+> يمكنك تسجيل دلائل مهام لتطبيق Dynamics 365 Human Resources، ولكنك لن تتمكن من حفظها في مكتبة أداة تكوين عمليات الأعمال (BPM) أو فتحها من جزء "التعليمات" في الوقت الحالي. يمكنك حفظها محلياً أو في موقع على الشبكة، ثم فتحها وإعادة تشغيلها باستخدام "مسجل المهام". 
 
 <a name="learn-about-task-recorder"></a>التعرف على مسجل المهام
 -------------------------

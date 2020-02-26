@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635116"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031057"
 ---
 # <a name="master-planning-setup-wizard"></a>معالج إعداد التخطيط الرئيسي
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635116"
 
 يوفر هذا الموضوع دليلاً **لمعالج‏‎ إعداد التخطيط الرئيسي**. ويوضح كيفيه حساب اقتراحات المعلمة ويوفر الأمثلة التي توضح كيفيه إعداد الشركات المختلفة للتخطيط الرئيسي، استنادًا إلى احتياجات الأعمال الخاصة بها.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-تم تضمين [معالج إعداد التخطيط الرئيسي في الفيديو Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (الموضح أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة في YouTube.
+تم [تضمين معالج إعداد التخطيط الرئيسي في الفيديو Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (الموضح أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة على YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>متطلبات خاصة بشركتك
@@ -184,7 +184,7 @@ Contoso Manufacturer هي شركة تصنيع مكبرات صوتية. وهي ت
 Contoso Retailer هي شركة توزيع في صناعة الأزياء. تستخدم التخطيط الرئيسي لحساب متى يجب إصدار أوامر الشراء، استنادًا إلى مبيعاتها المتوقعة. وفيما يلي بعض من خصائصه:
 
 - تستخدم Contoso Retailer توقعات الطلب للتنبؤ بالمبيعات. سيتم تخطيط أوامر الشراء وفقًا للتوقعات.
-- تستخدم متاجر البيع بالتجزئة الطلبات للتجديد.
+- متاجر تستخدم الطلبات للتجديد.
 - الحد الأدنى لوقت الإنتاج من المستودع الرئيسي إلى كل متجر هو أسبوعين تقريبًا لكل الأصناف.
 
 في المعالج، يتم إدخال القيم التالية لـ Contoso Retailer:

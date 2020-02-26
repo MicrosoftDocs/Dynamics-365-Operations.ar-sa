@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec7a2c5a2b2b7ef22fd3dcf7f7d3859e8e07ea5e
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568640"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003940"
 ---
 # <a name="configure-linked-products"></a>تكوين المنتجات المرتبطة
 
@@ -30,7 +30,7 @@ ms.locfileid: "1568640"
 
 1. انتقل إلى إدارة معلومات المنتج > المنتجات > المنتجات الصادرة.
 2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-3. في جزء "الإجراءات"، انقر فوق "‏‫البيع بالتجزئة‬".
+3. في جزء الإجراءات، انقر فوق "البيع بالتجزئة والتجارة".
 4. انقر فوق المنتجات المرتبطة.
 5. انقر فوق "تحرير".
 6. في حقل "‏‫رقم المنتج المرتبط‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.

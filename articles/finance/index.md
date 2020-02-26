@@ -1,5 +1,5 @@
 ---
-title: الصفحة الرئيسية للإدارة المالية
+title: الصفحة الرئيسية لـ Finance
 description: يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات الإدارة المالية في Microsoft Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770564"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000315"
 ---
-# <a name="financial-management-home-page"></a>الصفحة الرئيسية للإدارة المالية
+# <a name="finance-home-page"></a>الصفحة الرئيسية لـ Finance
 
 [!include [banner](includes/banner.md)]
 
@@ -42,9 +42,9 @@ ms.locfileid: "2770564"
     :::column-end:::
     :::column:::
         - [إدارة المصروفات](expense-management/expense-management.md)
-        - [إعداد التقارير المالية](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Financial reporting](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [الأصول الثابتة](fixed-assets/fixed-assets.md)
-        - [دفتر الأستاذ العام وإعداد التقارير المالية](general-ledger/general-ledger.md) 
+        - [دفتر الأستاذ العام وFinancial reporting](general-ledger/general-ledger.md) 
         - [إدارة المشاريع ومحاسبتها](project-management/overview-project-management-accounting.md)
         - [القطاع العام](public-sector/public-sector-functionality.md) 
     :::column-end:::

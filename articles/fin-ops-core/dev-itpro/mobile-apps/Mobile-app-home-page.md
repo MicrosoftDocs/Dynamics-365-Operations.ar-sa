@@ -1,9 +1,9 @@
 ---
 title: الصفحة الرئيسية لتطبيق الجوال
-description: يصف هذا الموضوع تطبيق Finance and Operations للأجهزة المحمولة ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
+description: يصف هذا الموضوع تطبيق جوال Finance and Operations (Dynamics 365) ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
 author: sericks007
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
-ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
+ms.openlocfilehash: 012b51b66c831a66a54c7c868735e310f05eb8c1
+ms.sourcegitcommit: f939bc6292840e29bc0f498efc8f4641dfe8f994
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853922"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "2975187"
 ---
 # <a name="mobile-app-home-page"></a>الصفحة الرئيسية لتطبيق الجوال
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع تطبيق Finance and Operations للأجهزة المحمولة ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
+يصف هذا الموضوع تطبيق جوال **Finance and Operations (Dynamics 365)** ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
 
 <a name="overview"></a>نظرة عامة
 --------
@@ -80,7 +80,7 @@ ms.locfileid: "2853922"
 <tr class="odd">
 <td>1</td>
 <td>مسؤول النظام</td>
-<td>تنفيذ تطبيقات Finance and Operations في المؤسسة الخاصة بك.</td>
+<td>استخدام تطبيق Finance and Operationsفي مؤسستك.</td>
 <td><ul><li>إذا لم تكن قد قمت بعد بنشر إصدار من Microsoft Dynamics 365، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>.</li><li>لمشاهدة قائمة بمساحات العمل المحمولة التي يمكن استخدامها، راجع <a href="mobile-workspaces-released.md">مساحات العمل المحمولة التي تم إصدارها مؤخرًا</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -134,9 +134,9 @@ ms.locfileid: "2853922"
 <td>8</td>
 <td>المستخدم</td>
 <td>تنزيل وتثبيت تطبيق الأجهزة المحمولة.</td>
-<td> 
-<a href="https://go.microsoft.com/fwlink/?linkid=850662"> في Finance and Operationsتطبيق Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations تطبيق لـ iOS</a><BR/>
+<td>تطبيق
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations لـ Android</a><BR/>تطبيق
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations لـ iOS</a><BR/>
 (Windows Phone غير معتمد)
 </td>
 </tr>

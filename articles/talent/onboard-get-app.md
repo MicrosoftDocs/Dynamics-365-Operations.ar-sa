@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 8739bb1afdbea40c7f1c77064ee6b052516903d1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 1b59fdbdd9ed46f42afd3e7310d2cd3f076edd95
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898192"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006369"
 ---
 # <a name="get-the-onboard-app"></a>الحصول على تطبيق Onboard
 
@@ -32,7 +32,7 @@ ms.locfileid: "2898192"
 > [!NOTE]
 > يتطلب الإصدار التجريبي حساب بريد إلكتروني للأعمال.
 
-يمكنك شراء اشتراك في Onboard كتطبيق مستقل أو كجزء من Dynamics 365 Talent. إن Talent عبارة عن نظام شامل لإدارة رؤوس الأموال البشرية يتضمن Dynamics 365 Talent: Attract Onboardو Core HR. لمزيد من المعلومات حول كيفية شراء Onboard، راجع [صفحة منتج Onboard](https://dynamics.microsoft.com/talent/onboard/).
+يمكنك شراء اشتراك في Onboard كتطبيق مستقل أو كجزء من Dynamics 365 Talent. لمزيد من المعلومات حول كيفية شراء Onboard، راجع [صفحة منتج Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 أثناء فترة الإصدار التجريبي أو عملية، ستقوم بإعداد عنوان بريدك الإلكتروني وكلمة المرور لـ Microsoft 365. تأكد من تدوين هذه القيم.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d71d2390e7b6e39798d0f061b584ad229a2459
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20d3da65028b455ab1602e3a8b443ea7e585b1f0
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897294"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030886"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-17-2018"></a>ما الجديد أو المتغير في Dynamics 365 Talent - Core HR(17 سبتمبر 2018)
 
@@ -35,13 +35,13 @@ ms.locfileid: "2897294"
 
 تمت إضافة نوع استحقاق جديد إلى خطط الإجازة. يمكن أن يستند جدول الاستحاق الآن على شهور الخدمة أو ساعات العمل. للحصول على مزيد من المعلومات، راجع [الإجازة المستحقة بناءً على ساعات العمل](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18-for-finance-and-operations"></a>Platform update 18 لـ Finance and Operations
+## <a name="platform-update-18-for-finance-and-operations"></a>تحديث النظام الأساسي 18 لـ Finance and Operations
 
-يمثل Platform update 18 لـ Finance and Operations الآن جزءًا من إصدار Talent. 
+يمثل تحديث النظام الأساسي 18 لـ Finance and Operations الآن جزءًا من إصدار Talent|. 
 
 -   يمكن إخفاء الحقول الإلزامية وغيرها عن طريق التخصيص. يسمح هذا للمستخدم بإنشاء تجربة مبسطة لا تظهر فيها الحقول الإلزامية التي يتم تحديدها افتراضيًا تبعًا لمنطق التسلسل. وتصبح الحقول الإلزامية المخفية مرئية مؤقتًا إذا كانت فارغة عندما تتم محاولة حفظ.
 
--   في Platform update 18 لـ Finance and Operations، يقوم عميل ويب Talent الآن بمحاذاة المرئيات الخاصة به مع Microsoft Fluent Design.
+-   في تحديث النظام الأساسي 18 لـ Finance and Operations، يقوم عميل ويب Talent الآن بمحاذاة المرئيات الخاصة به مع Microsoft Fluent Design.
 
     -   عندما تكون الحقول في "وضع القراءة"، يمكنك ببساطة تحديد خيار تحرير في الحقول لتبديل النموذج إلى وضع التحرير.
 
@@ -49,7 +49,7 @@ ms.locfileid: "2897294"
 
     -   العناوين في مساحات العمل والصفحات بخط غامق.
 
--   تم تحسين سلوك عمليات بحث غير الاستبدال. للحصول على مزيد من المعلومات، راجع [السلوك المُحسن لعمليات بحث غير الاستبدال](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).
+-   تم تحسين سلوك عمليات بحث غير الاستبدال. للحصول على مزيد من المعلومات، راجع [السلوك المُحسن لعمليات بحث غير الاستبدال](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/non-replacing-lookups).
 
 ## <a name="bug-fixes"></a>إصلاح الأخطاء
 

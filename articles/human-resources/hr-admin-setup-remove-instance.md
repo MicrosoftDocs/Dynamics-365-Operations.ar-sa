@@ -1,0 +1,74 @@
+---
+title: إزالة مثيل
+description: ''
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 5c5f875ad9361c31af4fbe863488b881cdd97a6e
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3007911"
+---
+# <a name="remove-an-instance"></a>إزالة مثيل
+
+ينقلك هذا المقال عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
+
+## <a name="remove-a-test-drive-environment"></a>إزالة بيئة محرك أقراص اختبار
+
+يتم توفير محركات أقراص اختبارات Human Resources باستخدام سياسة انتهاء صلاحية مدتها 60 يومًا. ومع ذلك، يتوفر لمالكي بيئات محركات أقراص الاختبار خيار إنهاء الخدمة التجريبية الخاصة بها بواسطة إكمال الخطوات التالية. 
+
+1. الانتقال إلى مركز إدارة [Power Apps ](https://admin.businessplatform.microsoft.com/).
+2. حدد **بيئات**.
+3. حدد بيئة الإصدار التجريبي، ذات نمط تسمية مماثل للنمط التالي: TestDrive - alias@domain
+4. حدد **حذف** وقم بتأكيد القرار. 
+
+ستتم إزالة بيئة محرك أقراص الاختبار الموجودة. عندما تتم إزالتها، يمكنك تسجيل الاشتراك في بيئة محرك أقراص اختبار جديدة. 
+
+## <a name="remove-a-production-environment"></a>إزالة بيئة إنتاج
+
+يفترض هذا المقال أنك قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). 
+
+نظرًا لأن هناك بيئة Human Resources واحدة مشمولة ضمن بيئة Power Apps واحدة، هناك خياران ينبغي أخذهما بعين الاعتبار. الخيار الأول يتضمن إزالة بيئة Power Apps بالكامل، والثاني يتضمن إزالة Human Resources فقط. والخيار الأول هو المفضل عند قيامك بإنشاء بيئة Power Apps صراحةً بغرض توفير Human Resources، وقد بدأت التنفيذ للتو، أو لم يكن لديك أي عمليات تكامل قائمة. والخيار الثاني مناسب إذا كان لديك بيئة Power Apps محددة معبأة بالبيانات الغنية التي يتم جمعها في Power Apps وPower Automate.
+
+> [!Important]
+> قبل إزالة بيئة Power Apps، تأكد من عدم استخدامه لعمليات تكامل البيانات الغنية خارج نطاق Human Resources. كما تجدر الإشارة إلى أنه لا يمكن إزالة بيئات Power Apps الافتراضية. 
+
+لإزالة بيئة Power Apps بأكملها، بما في ذلك Human Resources والتطبيقات والتدفقات المرتبطة:
+
+1. الانتقال إلى مركز إدارة [Power Apps ](https://admin.businessplatform.microsoft.com/).
+2. حدد **بيئات**.
+3. حدد البيئة المُراد إزالتها.
+4. حدد **حذف** وقم بتأكيد القرار. 
+5. انتظر حتى تكتمل عملية الحذف.
+6. قم بتسجيل الدخول إلى [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (‏LCS‏) باستخدام الحساب الذي استخدمته للاشتراك في Human Resources. 
+7. حدد مشروع Human Resources الذي يحتوي على البيئة. 
+8. في مشروع LCS، حدد تجانب **"إدارة تطبيق Human Resources**. 
+9. حدد المثيل المراد إزالته. 
+10. حدد **إزالة مثيل** وقم بتأكيد قرارك.  
+
+لإزالة بيئة Human Resources من بيئة Power Apps موجودة، أكمل الخطوات التالية. لاحظ أن الحاجة إلى تضمين الدعم والاتصال بفريق عمليات تطوير Human Resources مؤقتة إلى أن يتم تمكين هذه الميزة في LCS مباشرةً.
+
+1. اتصل بدعم لبدء طلب إزالة.
+2. سيبدأ فريق الدعم طلب إزالة مع فريق عمليات تطوير Human Resources. 
+3. تابع بعد ظهور كلمة لك تفيد بأنه تمت إزالة البيئة.
+4.  قم بتسجيل الدخول إلى LCS باستخدام الحساب الذي استخدمته للاشتراك في Human Resources. 
+5. حدد مشروع Human Resources الذي يحتوي على البيئة. 
+6. في مشروع LCS، حدد تجانب **"إدارة تطبيق Human Resources**. 
+7. حدد المثيل الذي ترغب في إزالته، والذي يجب تمييزه بحالة النشر **فشل**.
+8. حدد **إزالة مثيل** وقم بتأكيد قرارك. 

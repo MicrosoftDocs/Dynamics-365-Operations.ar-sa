@@ -1,5 +1,5 @@
 ---
-title: تكوين بيئة معاينة التجارة
+title: تكوين بيئة معاينة Dynamics 365 Commerce
 description: يشرح هذا الموضوع كيفية تكوين الميزات الاختيارية لبيئة معاينة Microsoft Dynamics 365 Commerce بعد توفيرها.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f19d03f3f2f5a9f6f7ba08b682277e4e3b764d10
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906129"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024696"
 ---
-# <a name="configure-a-commerce-preview-environment"></a>تكوين بيئة معاينة التجارة
+# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>تكوين بيئة معاينة Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 يشرح هذا الموضوع كيفية تكوين الميزات الاختيارية لبيئة معاينة Microsoft Dynamics 365 Commerce بعد توفيرها.
@@ -142,13 +142,13 @@ ms.locfileid: "2906129"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على بيئة معاينة التجارة](cpe-overview.md)
+[نظرة عامة على بيئة معاينة Dynamics 365 Commerce](cpe-overview.md)
 
-[توفير بيئة معاينة Commerce](provisioning-guide.md)
+[تشغيل بيئة معاينة Dynamics 365 Commerce](provisioning-guide.md)
 
-[تكوين الميزات الاختيارية لبيئة معاينة التجارة](cpe-optional-features.md)
+[تكوين ميزات اختيارية لبيئة معاينة Dynamics 365 Commerce](cpe-optional-features.md)
 
-[الأسئلة المتداولة حول بيئة معاينة التجارة](cpe-faq.md)
+[الأسئلة المتداولة حول بيئة معاينة Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -157,5 +157,3 @@ ms.locfileid: "2906129"
 [مدخل Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [موقع ويب Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[موارد تعليمات لـ Dynamics 365 Retail](../retail/index.md)

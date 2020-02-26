@@ -1,5 +1,5 @@
 ---
-title: ‏‫الأسئلة المتداولة حول بيئة معاينة التجارة
+title: الأسئلة المتداولة حول بيئة معاينة Dynamics 365 Commerce
 description: يوفر هذا الموضوع إجابات للأسئلة المتداولة حول بيئة معاينة Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,15 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 53e593931850d6b8b22bb756d5828f742416aa4d
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906083"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024742"
 ---
-# <a name="commerce-preview-environment-faq"></a>‏‫الأسئلة المتداولة حول بيئة معاينة التجارة
+# <a name="dynamics-365-commerce-preview-environment-faq"></a>الأسئلة المتداولة حول بيئة معاينة Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 يوفر هذا الموضوع إجابات للأسئلة المتداولة حول بيئة معاينة Microsoft Dynamics 365 Commerce.
@@ -83,10 +82,10 @@ ms.locfileid: "2906083"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على بيئة معاينة التجارة](cpe-overview.md)
+[نظرة عامة على بيئة معاينة Dynamics 365 Commerce](cpe-overview.md)
 
-[توفير بيئة معاينة Commerce](provisioning-guide.md)
+[تشغيل بيئة معاينة Dynamics 365 Commerce](provisioning-guide.md)
 
-[تكوين بيئة معاينة التجارة](cpe-post-provisioning.md)
+[تكوين بيئة معاينة Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[تكوين الميزات الاختيارية لبيئة معاينة التجارة](cpe-optional-features.md)
+[تكوين ميزات اختيارية لبيئة معاينة Dynamics 365 Commerce](cpe-optional-features.md)
