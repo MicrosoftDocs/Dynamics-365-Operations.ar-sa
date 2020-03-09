@@ -14,38 +14,42 @@
               items:
                 - name: الجديد أو المتغير‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
-                - name: تحديث النظام الأساسي 33 (أبريل 2020)
+                - name: تحديث Platform update 33 (أبريل 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: تحديث النظام الأساسي 32 (فبراير 2020)
+                - name: تحديث Platform update 32 (فبراير 2020)
                   href: get-started/whats-new-platform-update-32.md
-                - name: تحديث النظام الأساسي 31 (يناير 2020)
+                - name: تحديث Platform update 31 (يناير 2020)
                   href: get-started/whats-new-platform-update-31.md
-                - name: تحديث النظام الأساسي 30 (نوفمبر 2019)
+                - name: تحديث Platform update 30 (نوفمبر 2019)
                   href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: تحديث النظام الأساسي 29 (أكتوبر 2019)
+                - name: تحديث Platform update 29 (أكتوبر 2019)
                   href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: تحديث النظام الأساسي 28 (يوليو 2019)
+                - name: Platform update 28 (يوليو 2019)
                   href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: تحديث النظام الأساسي 27 (يونيو 2019)
+                - name: تحديث Platform update 27 (يونيو 2019)
                   href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: تحديث النظام الأساسي 26 (مايو 2019)
+                - name: تحديث Platform update 26 (مايو 2019)
                   href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: تحديث النظام الأساسي 25 (أبريل 2019)
+                - name: تحديث Platform update 25 (أبريل 2019)
                   href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: تحديث النظام الأساسي 24 (مارس 2019)
+                - name: تحديث Platform update 24 (مارس 2019)
                   href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: تحديث النظام الأساسي 23 (يناير 2019)
+                - name: تحديث Platform update 23 (يناير 2019)
                   href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: تحديث النظام الأساسي 22 (ديسمبر 2018)
+                - name: تحديث Platform update 22 (ديسمبر 2018)
                   href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: تحديث النظام الأساسي 21 (نوفمبر 2018)
+                - name: تحديث Platform update 21 (نوفمبر 2018)
                   href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: تحديث النظام الأساسي 20 (سبتمبر 2018)
+                - name: تحديث Platform update 20 (سبتمبر 2018)
                   href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: تحديث النظام الأساسي 15 (مارس 2018)
+                - name: Platform update 15 (مارس 2018)
                   href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: الميزات التي تمت إزالتها أو إهمالها
-              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+              items:
+                - name: ميزات Platform التي تمت إزالتها أو إهمالها
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: ميزات AX 2012 التي تم تأجيلها
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: ميزات لم يتم تنفيذها في عمليات النشر المحلية‬
@@ -144,7 +148,9 @@
                       href: data-entities/data-integration-cds.md
                     - name: التكامل المتزامن ثنائي الاتجاه
                       items:
-                        - name: تكامل البيانات في وقت قريب من الحقيقي
+                        - name: الصفحة الرئيسية لـ Dual-write
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: نظرة عامة على Dual-write
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: التدرج الهرمي للمؤسسات في Common Data Service
                           href: data-entities/dual-write/organization-mapping.md
@@ -396,7 +402,7 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: تطبيق التحديثات على بيئات السحابة
                   href: deployment/apply-deployable-package-system.md
-                - name: تطبيق التحديثات والملحقات على مكونات قناة البيع بالتجزئة المستضافة في السحابة
+                - name: تطبيق التحديثات والملحقات على مكونات قناة Retail المستضافة في السحابة
                   href: deployment/Update-retail-channel.md
                 - name: تهيئة Retail Cloud Scale Unit
                   href: deployment/Initialize-Retail-Channels.md
@@ -418,11 +424,11 @@
                   items:
                     - name: الصفحة الرئيسية لإعداد بيئات محلية ونشرها
                       href: deployment/setup-deploy-on-premises-environments.md
-                    - name: نشر بيئات محلية (تحديث النظام الأساسي 12 وتحديث لاحق)
+                    - name: نشر بيئات محلية (تحديث Platform update 12 وتحديث لاحق)
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: نشر بيئات محلية (تحديث النظام الأساسي 8 و11)
+                    - name: نشر بيئات محلية (تحديث Platform update 8 و11)
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
-                    - name: خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية
+                    - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
                       href: deployment/deploy-retail-onprem.md
                 - name: تطوير نماذج مخصصة ونشرها في بيئات محلية
                   href: deployment/develop-deploy-custom-models-on-premises.md
@@ -940,7 +946,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS للشركاء
                   href: lifecycle-services/getting-started-lcs.md
-                - name: الجديد
+                - name: المزايا الجديدة أو المتغيرة في Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
                 - name: مشكلات معروفة
                   href: lifecycle-services/known-issues.md
@@ -1685,6 +1691,4 @@
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../../commerce/index.md

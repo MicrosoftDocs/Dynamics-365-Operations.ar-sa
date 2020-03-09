@@ -60,7 +60,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: متطلبات النظام لعمليات النشر المحلي
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
-                - name: خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية
+                - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: شراء Finance and Operations (المحلي)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
@@ -166,6 +166,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: طرق العرض المحفوظة
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: قدرات الشبكة
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: إنشاء حقول مخصصة والعمل باستخدامها
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: تضمين تطبيقات PowerApps
@@ -182,7 +184,7 @@
           items:
             - name: الهندسة
               items:
-                - name: مكونات التجارة
+                - name: مكونات Commerce
                   href: retail-components.md
                 - name: هندسة Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
@@ -198,7 +200,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: شهادة معايير أمان بيانات تطبيق الدفع (PA-DSS)
                   href: dev-itpro/PA-DSS-Certification.md
-                - name: إمكانات التجارة المتوفرة في عمليات النشر المحلي
+                - name: إمكانات Commerce المتوفرة في عمليات النشر المحلي
                   href: retail-onprem.md
             - name: النشر والإصلاحات العاجلة
               items:
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: إعداد تنبيهات الاحتيال والعمل باستخدامها
                   href: set-up-fraud-alerts.md
-                - name: إعداد برامج الاستمرارية لمراكز الاتصال
-                  href: set-up-continuity-program.md
             - name: تكوين القناة الإضافية
               items:
                 - name: إضافة قناة إلى تدرج هرمي للمؤسسات
@@ -450,7 +450,13 @@
                       href: omni-auto-charges.md
                     - name: توزيع تكاليف الرأس لمطابقة بنود المبيعات
                       href: pro-rate-charges-matching-lines.md
-                - name: إدارة متجر البيع بالتجزئة
+                - name: إدارة برامج الاستمرارية
+                  items:
+                    - name: إعداد برامج الاستمرارية لمراكز الاتصال
+                      href: set-up-continuity-program.md
+                    - name: تحديد جداول الاستمرارية
+                      href: tasks/define-continuity-schedules.md
+                - name: إدارة متجر Retail
                   items:
                     - name: إنشاء ساعات المتجر وتغييرها
                       href: dev-itpro/store-hours.md
@@ -460,8 +466,6 @@
                   items:
                     - name: تكوين ‏‫تعليقات أوامر مركز الاتصال‬ والعمل باستخدامها
                       href: work-with-order-holds.md
-                    - name: تحديد جداول الاستمرارية
-                      href: tasks/define-continuity-schedules.md
                 - name: المدفوعات
                   items:
                     - name: طرق الدفع
@@ -478,6 +482,8 @@
                       href: dev-itpro/adyen-connector.md
                     - name: حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: التبديل السلس دون اتصال لعمليات بطاقة الهدايا وإشعار الدائن
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: إعداد سيناريوهات دفع الفواتير
                       href: payinvoice.md
                     - name: منع الدفعات المكررة
@@ -494,9 +500,9 @@
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: إعداد منتجات البيع بالتجزئة
                   href: set-up-retail-products.md
-                - name: التسلسل الهرمي لمنتج البيع بالتجزئة
+                - name: التدرج الهرمي للمنتجات
                   items:
-                    - name: التدرجات الهرمية للبيع بالتجزئة
+                    - name: التدرجات الهرمية لـ Commerce
                       href: retail-hierarchies.md
                     - name: إنشاء تدرج هرمي لمنتج جديد
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: إعداد قواعد ومعلمات لتوزيع البضائع ودفع المشتري
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: عملية المخزون الداخلية في نقطة البيع
+                      href: pos-inbound-inventory-operation.md
+                    - name: عملية المخزون الخارجية في نقطة البيع
+                      href: pos-outbound-inventory-operation.md
+                    - name: حساب توفر المخزون لقنوات البيع بالتجزئة
+                      href: calculated-inventory-retail-channels.md
                 - name: أوامر الشراء
                   items:
                     - name: نظرة عامة على أمر الشراء
@@ -726,6 +738,18 @@
               href: tasks/store-configurations-retail-statements.md
             - name: ترحيل الدفعات والمبيعات على الإنترنت
               href: tasks/posting-online-sales-payments.md
+        - name: إدارة مهام العامل
+          items:
+            - name: نظرة عامة حول إدارة المهام
+              href: task-mgmt-overview.md
+            - name: تكوين إدارة المهام
+              href: task-mgmt-configure.md
+            - name: إنشاء قوائم مهام وإضافة مهام
+              href: task-mgmt-create-lists.md
+            - name: تعيين قوائم المهام إلى المتاجر أو الموظفين
+              href: task-mgmt-assign-lists.md
+            - name: إدارة المهام في نقطة البيع
+              href: task-mgmt-pos.md
         - name: إدارة موقع التجارة الإلكترونية الخاص بك
           items:
             - name: نظرة عامة على المتجر على الإنترنت
@@ -872,14 +896,16 @@
                       href: add-video-player.md
                 - name: وحدات الرؤوس والتذييلات
                   items:
-                    - name: وحدة الرؤوس
+                    - name: الوحدة النمطية للرؤوس
                       href: author-header-module.md
-                    - name: وحدة نمطية للتذييلات
+                    - name: الوحدة النمطية للتذييلات‬
                       href: author-footer-module.md
                 - name: الوحدات النمطية لصفحة تفاصيل المنتج
                   items:
                     - name: الوحدة النمطية لصندوق الشراء
                       href: add-buy-box.md
+                    - name: الوحدات النمطية للتقييمات والمراجعات
+                      href: ratings-reviews-modules.md
                 - name: الوحدات النمطية للشراء
                   items:
                     - name: الوحدة النمطية لعربة التسوق
@@ -1042,7 +1068,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/commerce/toc.json
                 - name: توظيف
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: 'أداء قناة البيع بالتجزئة '
+                - name: أداء قناة Retail
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: أداء الربحية والمبيعات
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/commerce/toc.json
@@ -1056,6 +1082,8 @@
               items:
                 - name: نظرة عامة على خدمات تقارير المستندات
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: الخطوط المدعومة
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: تكوين SSRS لعمليات نشر محلية
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: طباعة
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: معاينة الوحدات النمطية وتصحيحها
                       href: e-commerce-extensibility/test-module.md
-                    - name: تصحيح الوحدات النمطية
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: اختبار الوحدات النمطية باستخدام عناصر وهمية
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: اختبار الوحدات النمطية باستخدام عناصر صفحة وهمية
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: إرشادات تطبيق إدارة الأجهزة
                   href: implementation-considerations-devices.md
+                - name: أحداث ومعالجات عرض سلة التسوق
+                  href: dev-itpro/cart-view-handlers.md
             - name: قابلية توسعة Hardware Station
               items:
                 - name: Hardware Station وقابلية التوسعة
@@ -2032,6 +2060,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: تسجيل أحداث الملحق في Application Insights
                   href: dev-itpro/commerce-application-insights.md
+                - name: إنشاء واجهات API غير متزامنة لـ Commerce (CRT) في منطق أعمالك
+                  href: dev-itpro/async-commerce-extension.md
             - name: قابلية توسعة موصل المدفوعات
               items:
                 - name: إنشاء تكامل الدفع للوحدة الطرفية للدفع
@@ -2048,6 +2078,8 @@
                   href: payment-connector-data-fields.md
                 - name: تمكين الحماية من الدفعات المكررة لموصل الدفع
                   href: dev-itpro/duplicate-payment-protection.md
+                - name: إنشاء حزمة دفع ‏‫لمستكشف التطبيق‬ في عمليات نشر Service Fabric
+                  href: dev-itpro/payment-connector-package.md
             - name: قابلية توسعة التجارة الإلكترونية لجهة خارجية
               items:
                 - name: تكوين متاجر عبر الإنترنت
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: تطوير وإدارة تطبيقات Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Retail
-      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management
