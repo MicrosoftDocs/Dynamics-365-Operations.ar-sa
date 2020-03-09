@@ -1,6 +1,6 @@
 ---
 title: إنشاء أوامر تستند إلى التغذية المستمرة لحركات متجر البيع بالتجزئة
-description: يصف هذا الموضوع إنشاء أوامر تستند إلى التغذية المستمرة لحركات متجر البيع بالتجزئة في Microsoft Dynamics 365 Commerce.
+description: يصف هذا الموضوع إنشاء أوامر تستند إلى التغذية المستمرة لحركات المتجر في Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 10/14/2019
@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f691017ad06d3416e4ba0e86d7a0bc207aba5bd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004264"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057130"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>إنشاء أوامر تستند إلى التغذية المستمرة لحركات متاجر البيع بالتجزئة (معاينة عامة)
 
 [!include [banner](includes/banner.md)]
-
-
 
 في الإصدار 10.0.4 من Dynamics 365 Retail والإصدارات السابقة، يعتبر ترحيل كشوف الحسابات إحدى عمليات نهاية اليوم ويتم ترحيل جميع الحركات في الدفاتر في نهاية اليوم. عندئذٍ، يجب معالجة الحركات الكبيرة في غضون فاصل زمني محدد، مما يؤدي في بعض الأحيان إلى نشوء حالات فشل في ترحيل حمل العمل والتأمين وكشوف الحسابات. ويتعذر أيضًا على بائعي التجزئة التعرف على الإيرادات والمدفوعات في دفاترهم خلال اليوم.
 

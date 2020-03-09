@@ -2,29 +2,29 @@
   href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: ما الجديد أو المتغير
   items:
-    - name: ميزات المعاينة‬ في تحديث النظام الأساسي 30 (نوفمبر 2019)
+    - name: ميزات المعاينة‬ في Platform update 30 (نوفمبر 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 29 (أكتوبر 2019)
+    - name: تحديث Platform update 29 (أكتوبر 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 28 (يوليو 2019)
+    - name: تحديث Platform update 28 (يوليو 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-28.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 27 (يونيو 2019)
+    - name: تحديث Platform update 27 (يونيو 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-27.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 26 (مايو 2019)
+    - name: تحديث Platform update 26 (مايو 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-26.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 25 (أبريل 2019)
+    - name: تحديث Platform update 25 (أبريل 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-25.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 24 (مارس 2019)
+    - name: تحديث Platform update 24 (مارس 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-24.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 23 (يناير 2019)
+    - name: تحديث Platform update 23 (يناير 2019)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-23.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 22 (ديسمبر 2018)
+    - name: تحديث Platform update 22 (ديسمبر 2018)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-22.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 21 (نوفمبر 2018)
+    - name: تحديث Platform update 21 (نوفمبر 2018)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-21.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 20 (سبتمبر 2018)
+    - name: تحديث Platform update 20 (سبتمبر 2018)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-20.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: تحديث النظام الأساسي 15 (مارس 2018)
+    - name: تحديث Platform update 15 (مارس 2018)
       href: ../../fin-and-ops/get-started/whats-new-platform-update-15.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: أحداث الأعمال
   items:
@@ -336,7 +336,7 @@
           href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: تطبيق التحديثات على بيئات السحابة
           href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: تطبيق التحديثات والملحقات على مكونات قناة البيع بالتجزئة المستضافة في السحابة
+        - name: تطبيق التحديثات والملحقات على مكونات قناة Retail المستضافة في السحابة
           href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: تهيئة Retail Cloud Scale Unit
           href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -358,11 +358,11 @@
           items:
             - name: الصفحة الرئيسية لإعداد بيئات محلية ونشرها
               href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: نشر بيئات محلية (تحديث النظام الأساسي 12 وتحديث لاحق)
+            - name: نشر بيئات محلية (تحديث Platform update 12 وتحديث لاحق)
               href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: نشر بيئات محلية (تحديث النظام الأساسي 8 و11)
+            - name: نشر بيئات محلية (تحديث Platform update 8 و11)
               href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية
+            - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
               href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: تطوير نماذج مخصصة ونشرها في بيئات محلية
           href: ../../dev-itpro/deployment/develop-deploy-custom-models-on-premises.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -456,8 +456,6 @@
           items:
             - name: نظرة عامة على إنشاء نماذج وعناصر نموذج بيانات
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: إرشادات التسمية للملحقات
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: تقرير تحليل التخصيص
