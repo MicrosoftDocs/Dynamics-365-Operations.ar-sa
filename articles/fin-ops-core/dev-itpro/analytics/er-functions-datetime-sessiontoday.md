@@ -18,35 +18,35 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcfb36d6e3fb8475546f7cfb420c4aca848ac896
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 483ff46a27068bc2d70c80a848f0329861c914b3
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917455"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042244"
 ---
-# <span data-ttu-id="b3bb7-103"><a name="SESSIONTODAY">SESSIONTODAY ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="b3bb7-103"><a name="SESSIONTODAY">SESSIONTODAY ER function</a></span></span>
+# <span data-ttu-id="b6f9c-103"><a name="SESSIONTODAY">SESSIONTODAY ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="b6f9c-103"><a name="SESSIONTODAY">SESSIONTODAY ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b3bb7-104">تُرجع وظيفة `SESSIONTODAY` قيمة *التاريخ* التي تمثل تاريخ جلسة التطبيق الحالي.</span><span class="sxs-lookup"><span data-stu-id="b3bb7-104">The `SESSIONTODAY` function returns a *Date* value that represents the current application session date.</span></span>
+<span data-ttu-id="b6f9c-104">تُرجع وظيفة `SESSIONTODAY` قيمة *التاريخ* التي تمثل تاريخ جلسة التطبيق الحالي.</span><span class="sxs-lookup"><span data-stu-id="b6f9c-104">The `SESSIONTODAY` function returns a *Date* value that represents the current application session date.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b3bb7-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="b3bb7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b6f9c-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="b6f9c-105">Syntax</span></span>
 
-```
+```vb
 SESSIONTODAY ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="b3bb7-106">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="b3bb7-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="b6f9c-106">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="b6f9c-106">Return values</span></span>
 
-<span data-ttu-id="b3bb7-107">*التاريخ*</span><span class="sxs-lookup"><span data-stu-id="b3bb7-107">*Date*</span></span>
+<span data-ttu-id="b6f9c-107">*التاريخ*</span><span class="sxs-lookup"><span data-stu-id="b6f9c-107">*Date*</span></span>
 
-<span data-ttu-id="b3bb7-108">قيمة التاريخ الناتجة.</span><span class="sxs-lookup"><span data-stu-id="b3bb7-108">The resulting date value.</span></span>
+<span data-ttu-id="b6f9c-108">قيمة التاريخ الناتجة.</span><span class="sxs-lookup"><span data-stu-id="b6f9c-108">The resulting date value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b3bb7-109">مثال</span><span class="sxs-lookup"><span data-stu-id="b3bb7-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b6f9c-109">مثال</span><span class="sxs-lookup"><span data-stu-id="b6f9c-109">Example</span></span>
 
-<span data-ttu-id="b3bb7-110">تُرجع وظيفة `DATEFORMAT (SESSIONTODAY (), "d", "DE")` قيمة تاريخ جلسة التطبيق الحالية، 24 ديسمبر 2015، كسلسلة **"24-12-2015"**، بناءً على الثقافة الألمانية المُحددة والتنسيق المُحدد. </span><span class="sxs-lookup"><span data-stu-id="b3bb7-110">`DATEFORMAT (SESSIONTODAY (), "d", "DE")` returns the current application session date, December 24, 2015, as the string **"24-12-2015"**, based on the selected German culture and the specified format.</span></span>
+<span data-ttu-id="b6f9c-110">تُرجع وظيفة `DATEFORMAT (SESSIONTODAY (), "d", "DE")` قيمة تاريخ جلسة التطبيق الحالية، 24 ديسمبر 2015، كسلسلة **"24-12-2015"**، بناءً على الثقافة الألمانية المُحددة والتنسيق المُحدد. </span><span class="sxs-lookup"><span data-stu-id="b6f9c-110">`DATEFORMAT (SESSIONTODAY (), "d", "DE")` returns the current application session date, December 24, 2015, as the string **"24-12-2015"**, based on the selected German culture and the specified format.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="b3bb7-111">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="b3bb7-111">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="b6f9c-111">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="b6f9c-111">Additional resources</span></span>
 
-[<span data-ttu-id="b3bb7-112">دلات التاريخ والوقت</span><span class="sxs-lookup"><span data-stu-id="b3bb7-112">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="b6f9c-112">دلات التاريخ والوقت</span><span class="sxs-lookup"><span data-stu-id="b6f9c-112">Date and time functions</span></span>](er-functions-category-datetime.md)

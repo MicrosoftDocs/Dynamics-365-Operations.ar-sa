@@ -18,45 +18,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81a596f5206b23001feea553adcdf6c904572775
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 2a850b1cbe7224ab1a7b2bd39ac4667304781cbb
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917110"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041666"
 ---
-# <span data-ttu-id="8cedc-103"><a name="OR">OR ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="8cedc-103"><a name="OR">OR ER function</a></span></span>
+# <span data-ttu-id="ec5a5-103"><a name="OR">OR ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="ec5a5-103"><a name="OR">OR ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8cedc-104">تُرجع الوظيفة `OR` قيمة *منطقية* **FALSE** إذا كانت جميع الشروط المُحددة خطأ.</span><span class="sxs-lookup"><span data-stu-id="8cedc-104">The `OR` function returns a *Boolean* value of **FALSE** if all the specified conditions are false.</span></span> <span data-ttu-id="8cedc-105">إذا كانت أي من الشروط المُحددة صحيحة، تُرجع هذه الوظيفة قيمة *منطقية* **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="8cedc-105">If any specified condition is true, the function returns a *Boolean* value of **TRUE**.</span></span>
+<span data-ttu-id="ec5a5-104">تُرجع الوظيفة `OR` قيمة *منطقية* **FALSE** إذا كانت جميع الشروط المُحددة خطأ.</span><span class="sxs-lookup"><span data-stu-id="ec5a5-104">The `OR` function returns a *Boolean* value of **FALSE** if all the specified conditions are false.</span></span> <span data-ttu-id="ec5a5-105">إذا كانت أي من الشروط المُحددة صحيحة، تُرجع هذه الوظيفة قيمة *منطقية* **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="ec5a5-105">If any specified condition is true, the function returns a *Boolean* value of **TRUE**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8cedc-106">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="8cedc-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ec5a5-106">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="ec5a5-106">Syntax</span></span>
 
-```
+```vb
 OR (condition 1[, condition 2, …, condition N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="8cedc-107">الوسائط</span><span class="sxs-lookup"><span data-stu-id="8cedc-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="ec5a5-107">الوسائط</span><span class="sxs-lookup"><span data-stu-id="ec5a5-107">Arguments</span></span>
 
-<span data-ttu-id="8cedc-108">`condition 1`: *منطقي*</span><span class="sxs-lookup"><span data-stu-id="8cedc-108">`condition 1`: *Boolean*</span></span>
+<span data-ttu-id="ec5a5-108">`condition 1`: *منطقي*</span><span class="sxs-lookup"><span data-stu-id="ec5a5-108">`condition 1`: *Boolean*</span></span>
 
-<span data-ttu-id="8cedc-109">تعبير شرطي صالح يجب اختباره.</span><span class="sxs-lookup"><span data-stu-id="8cedc-109">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="8cedc-110">هذه الوسيطة مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="8cedc-110">This argument is required.</span></span>
+<span data-ttu-id="ec5a5-109">تعبير شرطي صالح يجب اختباره.</span><span class="sxs-lookup"><span data-stu-id="ec5a5-109">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="ec5a5-110">هذه الوسيطة مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="ec5a5-110">This argument is required.</span></span>
 
-<span data-ttu-id="8cedc-111">`condition N`: *منطقي*</span><span class="sxs-lookup"><span data-stu-id="8cedc-111">`condition N`: *Boolean*</span></span>
+<span data-ttu-id="ec5a5-111">`condition N`: *منطقي*</span><span class="sxs-lookup"><span data-stu-id="ec5a5-111">`condition N`: *Boolean*</span></span>
 
-<span data-ttu-id="8cedc-112">تعبير شرطي صالح يجب اختباره.</span><span class="sxs-lookup"><span data-stu-id="8cedc-112">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="8cedc-113">هذه الوسائط الإضافية اختيارية.</span><span class="sxs-lookup"><span data-stu-id="8cedc-113">These additional arguments are optional.</span></span>
+<span data-ttu-id="ec5a5-112">تعبير شرطي صالح يجب اختباره.</span><span class="sxs-lookup"><span data-stu-id="ec5a5-112">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="ec5a5-113">هذه الوسائط الإضافية اختيارية.</span><span class="sxs-lookup"><span data-stu-id="ec5a5-113">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8cedc-114">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="8cedc-114">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ec5a5-114">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="ec5a5-114">Return values</span></span>
 
-<span data-ttu-id="8cedc-115">*منطقي*</span><span class="sxs-lookup"><span data-stu-id="8cedc-115">*Boolean*</span></span>
+<span data-ttu-id="ec5a5-115">*منطقي*</span><span class="sxs-lookup"><span data-stu-id="ec5a5-115">*Boolean*</span></span>
 
-<span data-ttu-id="8cedc-116">القيمة *المنطقية* الناتجة.</span><span class="sxs-lookup"><span data-stu-id="8cedc-116">The resulting *Boolean* value.</span></span>
+<span data-ttu-id="ec5a5-116">القيمة *المنطقية* الناتجة.</span><span class="sxs-lookup"><span data-stu-id="ec5a5-116">The resulting *Boolean* value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8cedc-117">مثال</span><span class="sxs-lookup"><span data-stu-id="8cedc-117">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ec5a5-117">مثال</span><span class="sxs-lookup"><span data-stu-id="ec5a5-117">Example</span></span>
 
-<span data-ttu-id="8cedc-118">يُرجع التعبير `OR (1=2, "a"="a")` **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="8cedc-118">`OR (1=2, "a"="a")` returns **TRUE**.</span></span>
+<span data-ttu-id="ec5a5-118">يُرجع التعبير `OR (1=2, "a"="a")` **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="ec5a5-118">`OR (1=2, "a"="a")` returns **TRUE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8cedc-119">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="8cedc-119">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ec5a5-119">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="ec5a5-119">Additional resources</span></span>
 
-[<span data-ttu-id="8cedc-120">الوظائف المنطقية</span><span class="sxs-lookup"><span data-stu-id="8cedc-120">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="ec5a5-120">الوظائف المنطقية</span><span class="sxs-lookup"><span data-stu-id="ec5a5-120">Logical functions</span></span>](er-functions-category-logical.md)

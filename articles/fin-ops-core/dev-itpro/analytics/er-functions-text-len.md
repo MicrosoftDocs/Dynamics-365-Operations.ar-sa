@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6f2a661dd3a85c658ff85f5886d98f665e28718
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 3e0ba19e762574dde4f9038b87ce352d13f714f4
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915569"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041045"
 ---
-# <span data-ttu-id="a206e-103"><a name="LEN">LEN ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="a206e-103"><a name="LEN">LEN ER function</a></span></span>
+# <span data-ttu-id="2879b-103"><a name="LEN">LEN ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="2879b-103"><a name="LEN">LEN ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a206e-104">تُرجع وظيفة `LEN` عدد الأحرف في السلسلة المحددة كقيمة *‏‫عدد صحيح* .</span><span class="sxs-lookup"><span data-stu-id="a206e-104">The `LEN` function returns the number of characters in the specified string as an *Integer* value.</span></span>
+<span data-ttu-id="2879b-104">تُرجع وظيفة `LEN` عدد الأحرف في السلسلة المحددة كقيمة *‏‫عدد صحيح* .</span><span class="sxs-lookup"><span data-stu-id="2879b-104">The `LEN` function returns the number of characters in the specified string as an *Integer* value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a206e-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="a206e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2879b-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="2879b-105">Syntax</span></span>
 
-```
+```vb
 LEN (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="a206e-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="a206e-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="2879b-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="2879b-106">Arguments</span></span>
 
-<span data-ttu-id="a206e-107">`text`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="a206e-107">`text`: *String*</span></span>
+<span data-ttu-id="2879b-107">`text`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="2879b-107">`text`: *String*</span></span>
 
-<span data-ttu-id="a206e-108">قيمة *سلسلة* التي تُحدد النص.</span><span class="sxs-lookup"><span data-stu-id="a206e-108">A *String* value that specifies the text.</span></span>
+<span data-ttu-id="2879b-108">قيمة *سلسلة* التي تُحدد النص.</span><span class="sxs-lookup"><span data-stu-id="2879b-108">A *String* value that specifies the text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="a206e-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="a206e-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2879b-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="2879b-109">Return values</span></span>
 
-<span data-ttu-id="a206e-110">*عدد صحيح*</span><span class="sxs-lookup"><span data-stu-id="a206e-110">*Integer*</span></span>
+<span data-ttu-id="2879b-110">*عدد صحيح*</span><span class="sxs-lookup"><span data-stu-id="2879b-110">*Integer*</span></span>
 
-<span data-ttu-id="a206e-111">القيمة العددية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="a206e-111">The resulting numeric value.</span></span>
+<span data-ttu-id="2879b-111">القيمة العددية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="2879b-111">The resulting numeric value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a206e-112">مثال</span><span class="sxs-lookup"><span data-stu-id="a206e-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2879b-112">مثال</span><span class="sxs-lookup"><span data-stu-id="2879b-112">Example</span></span>
 
-<span data-ttu-id="a206e-113">يُرجع التعبير `LEN ("Sample")` **6**.</span><span class="sxs-lookup"><span data-stu-id="a206e-113">`LEN ("Sample")` returns **6**.</span></span>
+<span data-ttu-id="2879b-113">يُرجع التعبير `LEN ("Sample")` **6**.</span><span class="sxs-lookup"><span data-stu-id="2879b-113">`LEN ("Sample")` returns **6**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="a206e-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="a206e-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2879b-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="2879b-114">Additional resources</span></span>
 
-[<span data-ttu-id="a206e-115">الدالات النصية</span><span class="sxs-lookup"><span data-stu-id="a206e-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="2879b-115">الدالات النصية</span><span class="sxs-lookup"><span data-stu-id="2879b-115">Text functions</span></span>](er-functions-category-text.md)

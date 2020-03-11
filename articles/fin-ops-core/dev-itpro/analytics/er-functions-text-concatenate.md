@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d3ff87a59632d58a7c34ef96f856b38f005651
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 04c7b32e2a9578f8864570a552817ec3ce28fa43
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915753"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041140"
 ---
-# <span data-ttu-id="9d6fd-103"><a name="CONCATENATE">وظيفة CONCATENATE ER </a></span><span class="sxs-lookup"><span data-stu-id="9d6fd-103"><a name="CONCATENATE">CONCATENATE ER function</a></span></span>
+# <span data-ttu-id="76d1c-103"><a name="CONCATENATE">وظيفة CONCATENATE ER </a></span><span class="sxs-lookup"><span data-stu-id="76d1c-103"><a name="CONCATENATE">CONCATENATE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9d6fd-104">تُرجع الوظيفة `CONCATENATE` جميع السلاسل النصية المُحددة كقيمة *سلسلة* بعد انضمامها في سلسلة واحدة.</span><span class="sxs-lookup"><span data-stu-id="9d6fd-104">The `CONCATENATE` function returns all the specified text strings as a *String* value after they have been joined into one string.</span></span>
+<span data-ttu-id="76d1c-104">تُرجع الوظيفة `CONCATENATE` جميع السلاسل النصية المُحددة كقيمة *سلسلة* بعد انضمامها في سلسلة واحدة.</span><span class="sxs-lookup"><span data-stu-id="76d1c-104">The `CONCATENATE` function returns all the specified text strings as a *String* value after they have been joined into one string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9d6fd-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="9d6fd-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="76d1c-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="76d1c-105">Syntax</span></span>
 
-```
+```vb
 CONCATENATE (text 1[, text 2, …, text N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="9d6fd-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="9d6fd-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="76d1c-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="76d1c-106">Arguments</span></span>
 
-<span data-ttu-id="9d6fd-107">`text 1`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="9d6fd-107">`text 1`: *String*</span></span>
+<span data-ttu-id="76d1c-107">`text 1`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="76d1c-107">`text 1`: *String*</span></span>
 
-<span data-ttu-id="9d6fd-108">مرجع إلى مصدر البيانات من نوع بيانات *السلسلة*.</span><span class="sxs-lookup"><span data-stu-id="9d6fd-108">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="9d6fd-109">هذه الوسيطة مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="9d6fd-109">This argument is required.</span></span>
+<span data-ttu-id="76d1c-108">مرجع إلى مصدر البيانات من نوع بيانات *السلسلة*.</span><span class="sxs-lookup"><span data-stu-id="76d1c-108">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="76d1c-109">هذه الوسيطة مطلوبة.</span><span class="sxs-lookup"><span data-stu-id="76d1c-109">This argument is required.</span></span>
 
-<span data-ttu-id="9d6fd-110">`text N`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="9d6fd-110">`text N`: *String*</span></span>
+<span data-ttu-id="76d1c-110">`text N`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="76d1c-110">`text N`: *String*</span></span>
 
-<span data-ttu-id="9d6fd-111">مرجع إلى مصدر البيانات من نوع بيانات *السلسلة*.</span><span class="sxs-lookup"><span data-stu-id="9d6fd-111">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="9d6fd-112">هذه الوسائط الإضافية اختيارية.</span><span class="sxs-lookup"><span data-stu-id="9d6fd-112">These additional arguments are optional.</span></span>
+<span data-ttu-id="76d1c-111">مرجع إلى مصدر البيانات من نوع بيانات *السلسلة*.</span><span class="sxs-lookup"><span data-stu-id="76d1c-111">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="76d1c-112">هذه الوسائط الإضافية اختيارية.</span><span class="sxs-lookup"><span data-stu-id="76d1c-112">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="9d6fd-113">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="9d6fd-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="76d1c-113">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="76d1c-113">Return values</span></span>
 
-<span data-ttu-id="9d6fd-114">*السلسلة*</span><span class="sxs-lookup"><span data-stu-id="9d6fd-114">*String*</span></span>
+<span data-ttu-id="76d1c-114">*السلسلة*</span><span class="sxs-lookup"><span data-stu-id="76d1c-114">*String*</span></span>
 
-<span data-ttu-id="9d6fd-115">القيمة النصية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="9d6fd-115">The resulting text value.</span></span>
+<span data-ttu-id="76d1c-115">القيمة النصية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="76d1c-115">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="9d6fd-116">مثال</span><span class="sxs-lookup"><span data-stu-id="9d6fd-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="76d1c-116">مثال</span><span class="sxs-lookup"><span data-stu-id="76d1c-116">Example</span></span>
 
-<span data-ttu-id="9d6fd-117">يُرجع التعبير `CONCATENATE ("abc", "def")` **"abcdef"**.</span><span class="sxs-lookup"><span data-stu-id="9d6fd-117">`CONCATENATE ("abc", "def")` returns **"abcdef"**.</span></span>
+<span data-ttu-id="76d1c-117">يُرجع التعبير `CONCATENATE ("abc", "def")` **"abcdef"**.</span><span class="sxs-lookup"><span data-stu-id="76d1c-117">`CONCATENATE ("abc", "def")` returns **"abcdef"**.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="9d6fd-118">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="9d6fd-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="76d1c-118">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="76d1c-118">Usage notes</span></span>
 
-<span data-ttu-id="9d6fd-119">كما يُرجع التعبير `"abc" & "def"` **"abcdef"**.</span><span class="sxs-lookup"><span data-stu-id="9d6fd-119">The expression `"abc" & "def"` also returns **"abcdef"**.</span></span>
+<span data-ttu-id="76d1c-119">كما يُرجع التعبير `"abc" & "def"` **"abcdef"**.</span><span class="sxs-lookup"><span data-stu-id="76d1c-119">The expression `"abc" & "def"` also returns **"abcdef"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="9d6fd-120">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="9d6fd-120">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="76d1c-120">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="76d1c-120">Additional resources</span></span>
 
-[<span data-ttu-id="9d6fd-121">الدالات النصية</span><span class="sxs-lookup"><span data-stu-id="9d6fd-121">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="76d1c-121">الدالات النصية</span><span class="sxs-lookup"><span data-stu-id="76d1c-121">Text functions</span></span>](er-functions-category-text.md)
