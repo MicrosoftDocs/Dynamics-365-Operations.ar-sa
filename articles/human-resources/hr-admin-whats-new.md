@@ -18,25 +18,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9ae80dd92fdb0ec4b33c2e42d4b6ec264aaf62de
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: f36aba8a68ea8cc261423f79db00e175df1cf349
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008029"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075938"
 ---
-# <a name="whats-new-or-changed-in-human-resources"></a>ما هو الجديد أو المتغير في Human Resources؟
+# <a name="whats-new-or-changed-in-human-resources"></a>المزايا الجديدة أو المتغيرة في Human Resources
 
-كل أسبوع، نقوم بتوفير إصدار جديد لـ Microsoft Dynamics Human Resources. توضح المقالات في هذا القسم التغييرات التي تم إجراؤها كل أسبوع.
+كل أسبوع، نقوم بتوفير إصدار جديد لـ Microsoft Dynamics 365 Human Resources. توضح المقالات في هذا القسم التغييرات التي تم إجراؤها كل أسبوع.
 
-لمزيد من المعلومات حول الميزات القادمة أو عملية التحديث لـ Human Resources، راجع ما يلي:
+لمزيد من المعلومات حول الميزات القادمة أو عملية التحديث لـ Human Resources، راجع المقالات التالية:
 
 - [نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
-- [عملية التحديث](hr-admin-setup-update-process.md)
+- [تحديث العملية](hr-admin-setup-update-process.md)
 
 - [إدارة الميزات](hr-admin-manage-features.md)
 
-## <a name="whats-new-weekly-releases"></a>ما هي الإصدارات الأسبوعية الجديدة؟
+## <a name="human-resources-weekly-releases"></a>الإصدارات الأسبوعية من Human Resources
 
+لمشاهدة الجديد أو الذي تم تغييره في كل إصدار أسبوعي من Human Resources، راجع المقالات التالية:
+
+[18 فبراير 2020](hr-whats-new-2020-02-18.md)</br>
+[12 فبراير 2020](hr-whats-new-2020-02-12.md)</br>
+[7 فبراير 2020](hr-whats-new-2020-02-07.md)</br>
 [3 فبراير 2020](hr-whats-new-2020-02-03.md)
+
+## <a name="see-also"></a>راجع أيضًا
+
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[تحديث العملية](hr-admin-setup-update-process.md)</br>
+[إدارة الميزات](hr-admin-manage-features.md)

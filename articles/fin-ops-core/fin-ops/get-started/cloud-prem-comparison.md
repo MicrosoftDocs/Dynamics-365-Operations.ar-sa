@@ -3,7 +3,7 @@ title: مقارنة بين الميزات في السحابة والميزات �
 description: يُظهر الموضوع الميزات المعتمدة في السحابة وفي الموقع المحلي.
 author: sericks007
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005716"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081960"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>مقارنة بين ميزات السحابة والمحلي
 
@@ -81,6 +81,7 @@ ms.locfileid: "3005716"
 |                                      | مسجل المهام- حفظ أو تحميل تسجيلات المهام من مكتبة BPM                         | نعم       | لا              |
 | الدعم                              |                                                                                           | ‏‏نعم       | ‏‏نعم             |
 |                                      | الوصول إلى الدعم عن طريق قائمة "التعليمات والدعم"                                             | ‏‏نعم       | لا              |
+|                                      | أحداث الأعمال                                                                           | ‏‏نعم       | نعم (إما أن يكون اتصال الإنترنت مطلوبًا أو إنه يجب تنفيذ نقاط نهائية مخصصة لإرسال/تلقي أحداث الأعمال ضمن إنترانت)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
@@ -147,7 +148,7 @@ ms.locfileid: "3005716"
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-لمشاهدة قائمة بالإمكانات المتوفرة في عمليات النشر المحلي‬، راجع [إمكانات البيع بالتجزئة المتوفرة في عمليات النشر المحلي‬](../../../retail/retail-onprem.md).
+لمشاهدة قائمة بالإمكانات المتوفرة في عمليات النشر المحلي‬، راجع [إمكانات التجارة المتوفرة في عمليات النشر المحلي‬](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

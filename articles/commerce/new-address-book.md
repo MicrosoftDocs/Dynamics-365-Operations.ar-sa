@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d8158f676a005f683d71f503c0a0eb3e50635e2a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4fe97e3e2f8265c1dc67a4052f45125b693c7218
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003385"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057523"
 ---
 # <a name="create-new-address-book"></a>إنشاء دفتر عناوين جديد
 
@@ -52,7 +52,7 @@ ms.locfileid: "3003385"
 
 [أكواد المعلومات ومجموعات أكواد المعلومات](info-codes-retail.md)           
 
-[ملف تعريف وظائف البيع بالتجزئة](retail-functionality-profile.md)   
+[إنشاء ملف تعريف وظائف البيع بالتجزئة](retail-functionality-profile.md)      
 
 [نظرة عامة على تخطيط الشاشة](pos-screen-layouts.md)       
 

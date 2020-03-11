@@ -1,6 +1,6 @@
 ---
 title: إعداد منتجات البيع بالتجزئة
-description: توضح هذه المقالة كيفية إعداد منتجات البيع بالتجزئة في Dynamics 365 Commerce.
+description: توضح هذه المقالة كيفية إعداد المنتجات في Dynamics 365 Commerce.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e8f624f5feb8ee8f641a9b35ae31bdfe38e5e0ce
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021493"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057222"
 ---
 # <a name="set-up-retail-products"></a>إعداد منتجات البيع بالتجزئة
 

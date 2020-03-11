@@ -1,9 +1,9 @@
 ---
 title: الصفحة الرئيسية للنشر المحلي
 description: يوفر هذا الموضوع معلومات وارتباطات إلى محتوى يتعلق بعمليات النشر المحلي.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770936"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090579"
 ---
 # <a name="on-premises-deployment-home-page"></a>الصفحة الرئيسية للنشر المحلي
 
@@ -51,16 +51,16 @@ ms.locfileid: "2770936"
 - [استيراد تكوينات إعداد التقارير الإلكترونية](../analytics/electronic-reporting-import-ger-configurations.md)
 - [إنشاء المستندات ونشرها وطباعتها في عمليات النشر المحلي](../analytics/printing-capabilities-on-premises.md)
 - [تكوين الوكلاء للبيئات المحلية](onprem-reverseproxy.md)
-- [إعداد الدعم التقني لتطبيقات Finance and Operations](../lifecycle-services/support-experience.md)
+- [إعداد الدعم الفني للتطبيقات Finance and Operations ](../lifecycle-services/support-experience.md)
 - [اتصال إنترنت العميل](../user-interface/client-disconnected.md)
 - [تطبيق التحديثات على عمليات النشر المحلية](apply-updates-on-premises.md)
 - [إعادة نشر بيئات محلية](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [إمكانات البيع بالتجزئة المتوفرة في عمليات النشر المحلي](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [إمكانات Commerce المتوفرة في عمليات النشر المحلي](../../../retail/retail-onprem.md)
 - [خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية](deploy-retail-onprem.md)
-- [تكوين وتثبيت وتنشيط Retail Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [تكوين وتثبيت Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [تكوين نقطة البيع (MPOS) وتثبيته وتنشيطه](../../../retail/retail-modern-pos-device-activation.md)
+- [تكوين وتثبيت Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>ترقية
 - [عملية الترقية في الموضع للبيئات المحلية](../migration-upgrade/on-prem-upgrade.md)
@@ -71,6 +71,6 @@ ms.locfileid: "2770936"
 - [تدوير الشهادات](certificate-rotation-on-prem.md)
 - [تشخيصات محلية](on-premises-diagnostics.md)
 - [ميزات لم يتم تنفيذها في عمليات النشر المحلية‬](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [ميزات تمت ازالتها أو إهمالها في Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [الميزات التي تمت إزالتها أو إهمالها لـ Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [سياسة دورة حياة البرامج والإصدارات المحلية](../migration-upgrade/on-prem-version-update-policy.md)
  

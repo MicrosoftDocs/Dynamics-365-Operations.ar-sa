@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019617"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081141"
 ---
 # <a name="unified-product-experience"></a>تجربه المنتج الموحدة
 
@@ -109,7 +109,7 @@ Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الو
 
 أبعاد المنتج هي الخصائص التي تحدد متغير المنتج. يتم أيضًا تعيين أبعاد المنتج الأربعة (اللون والحجم والنمط والتكوين) إلى Common Data Service لتعريف متغيرات المنتج. يبين الرسم التوضيحي التالي نموذج البيانات لبعد المنتج "اللون". يتم تطبيق نفس النموذج على الأحجام والأنماط والتكوينات. 
 
-![نموذج بيانات للمنتجات](media/dual-write-product-2.PNG)
+![نموذج بيانات للمنتجات](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الو
 
 تتوفر وحدات القياس والتحويلات الخاصة بها في Common Data Service باتباع لنموذج البيانات المعروض في الرسم التخطيطي.
 
-![نموذج بيانات للمنتجات](media/dual-write-product-3.PNG)
+![نموذج بيانات للمنتجات](media/dual-write-product-three.png)
 
 تم دمج مفهوم وحدة القياس بين تطبيقات Finance and Operations وتطبيقات Dynamics 365 الأخرى. لكل فئة وحدة في تطبيق Finance and Operations يتم إنشاء مجموعة وحدات في تطبيق Dynamics 365، تحتوي على الوحدات التي تنتمي إلى فئة الوحدة. كما يتم إنشاء وحدة أساسية افتراضية لكل مجموعة وحدات. 
 
@@ -205,13 +205,13 @@ Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الو
 
 بالنسبة لمستخدم تطبيقات Dynamics 365 آخر، يتم تعريف المنتج في واجهة المستخدم بواسطة **msdyn_productnumber** (لاحظ ان تسميه الحقل هي **رقم المنتج**). في نموذج المنتج، يتم عرض كل من الشركة وmsydn_productnumber. ومع ذلك، لا يتم عرض الحقل (productnumber) والمفتاح الفريد لأحد المنتجات. 
 
-لاحظ انه إذا تم تصميم التطبيقات أعلى Common Data Service، فيجب الانتباه بشكل خاص لاستخدام (productnumber)، وهو معرف المنتج الفريد، والذي هو عبارة عن مفتاح التكامل، وليس msdyn_productnumber، بسبب حقيقة أن الأخير ليس فريدًا. 
+إذا قمت بإنشاء تطبيقات على Common Data Service يجب عليك الانتباه إلى استخدام **productnumber‎** (معرف المنتج الفريد) كمفتاح تكامل. لا تستخدم **msdyn_productnumber**، لأنه ليس فريدا. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>المزامنة الأولية للمنتجات وترحيل البيانات من Common Data Service إلى Finance and Operations
 
 ### <a name="initial-synchronization-of-products"></a>المزامنة الأولية للمنتجات 
 
-عند تمكين الكتابة الثنائية، تتم مزامنة المنتجات من Dynamics 365 Finance and Operations إلى Common Data Service وتطبيقات Dynamics 365 الأخرى. لاحظ أن المنتجات التي تم إنشاؤها في Common Data Service وتطبيقات Dynamics 365 الأخرى قبل الكتابة الثنائية، لن يتم تحديثها أو مطابقتها مع بيانات المنتج من Finance and Operations.
+عند تمكين الكتابة الثنائية، تتم مزامنة المنتجات من Finance and Operations إلى Common Data Service والتطبيقات المستندة إلى الطراز الأخرى في Dynamics 365. المنتجات التي تم إنشاؤها في Common Data Service وتطبيقات Dynamics 365 الأخرى قبل الكتابة الثنائية، لن يتم تحديثها أو مطابقتها مع بيانات المنتج من تطبيقات Finance and Operations.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>مطابقه بيانات المنتج من Finance and Operations وتطبيقات Dynamics 365 الأخرى
 

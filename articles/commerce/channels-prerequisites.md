@@ -3,7 +3,7 @@ title: المتطلبات الأساسية‬ لإعداد قناة
 description: يقدم هذا الموضوع نظرة عامة على المتطلبات الأساسية لإعداد القناة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b861d90f1333c8f6e61a83602ed74e30b65f3dc1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002279"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081305"
 ---
 # <a name="channel-setup-prerequisites"></a>المتطلبات الأساسية‬ لإعداد قناة
 
@@ -40,16 +40,16 @@ ms.locfileid: "3002279"
 
 ## <a name="initialization"></a>بدء
 
-- [تهيئة البيانات الأولية](../retail/enable-configure-retail-functionality.md)
+- [تهيئة البيانات الأولية](enable-configure-retail-functionality.md)
 
 ## <a name="global-prerequisities-required-for-all-channel-types"></a>المتطلبات الأساسية العمومية لكل أنواع القنوات
 
 - [تعريف بنية الكيان القانوني وتكوينها](channels-legal-entities.md) 
 - [تكوين التدرج الهرمي للمؤسسات](channels-org-hierarchies.md)
 - [إعداد مستودع](channels-setup-warehouse.md)
-- [تكوين ضريبة المبيعات](https://docs.microsoft.com/en-us/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [تكوين ضريبة المبيعات](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
 - [إعداد ملف تعريف إخطار البريد الإلكتروني](email-notification-profiles.md)
-- [إعداد التسلسلات الرقمية](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [إعداد التسلسلات الرقمية](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
 - [إعداد عميل ودفتر عناوين افتراضيين](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)
@@ -57,23 +57,21 @@ ms.locfileid: "3002279"
 
 ## <a name="retail-channel-prerequisites"></a>المتطلبات الأساسية‬ لقناة البيع بالتجزئة
 
-- [أكواد المعلومات ومجموعات أكواد المعلومات](https://docs.microsoft.com/en-us/dynamics365/retail/info-codes-retail?toc=/dynamics365/commerce/toc.json)
+- [أكواد المعلومات ومجموعات أكواد المعلومات](info-codes-retail.md)
 - [إعداد ملف تعريف وظائف البيع بالتجزئة](retail-functionality-profile.md)
 - [إعداد دفتر عناوين للموظفين](new-address-book.md)
-- [إعداد تخطيط الشاشة](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json)
-- [إعداد محطة أجهزة](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/commerce/toc.json)
+- [إعداد تخطيط الشاشة](pos-screen-layouts.md)
+- [إعداد محطة أجهزة](retail-hardware-station-configuration-installation.md)
 
 ## <a name="call-center-channel-prerequisites"></a>المتطلبات الأساسية لقناة مركز الاتصال
 
 - محددات مركز الاتصال
-- طرق استرداد مبالغ مراكز الاتصال
-- أنواع الإيجار
-- خدمات الدفع
-- أكواد تعليق الأمر
+- [طريقة أمر مركز الاتصال ودفع المبلغ المسترد](work-with-payments.md)
+- [أوضاع تسليم مركز الاتصال والمصاريف](configure-call-center-delivery.md)
 
-## <a name="online-channel-prerequisites"></a>المتطلبات الأساسية‬ لقناة عبر الإنترنت
+## <a name="online-channel-prerequisites"></a>المتطلبات الأساسية لقناة على الإنترنت
 
-- [إنشاء ملف تعريف الوظائف عبر الإنترنت](online-functionality-profile.md)
+- [إنشاء ملف تعريف وظائف على الإنترنت](online-functionality-profile.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

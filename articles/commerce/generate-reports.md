@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ae7b73c7a51ffa606876072d607fc219f5f6a2ba
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002994"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057580"
 ---
 # <a name="generate-online-channel-reports"></a>إنشاء تقارير القناة عبر الإنترنت
 
@@ -137,4 +137,4 @@ ms.locfileid: "3002994"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-- [موارد تعليمات لـ Dynamics 365 Retail](../retail/index.md)
+- [الصفحة الرئيسية لـ Commerce](../retail/index.md)

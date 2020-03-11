@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810689"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058007"
 ---
 # <a name="one-voucher"></a>إيصال واحد
 
@@ -156,7 +156,7 @@ ms.locfileid: "2810689"
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>تسوية مدفوعات غير مرحلة متعددة لنفس الفاتورة
 
-وعادةً ما يتم العثور على هذا السيناريو في مؤسسات البيع بالتجزئة حيث يمكن للعملاء استخدام عدة طرق دفع لدفع المشتريات. في هذا السيناريو، يجب أن تكون المؤسسة قادرة على تسجيل مدفوعات غير مرحلة متعددة وتسويتها مقابل فاتورة العميل.
+وعادةً ما يتم العثور على هذا السيناريو في مؤسسات حيث يمكن للعملاء استخدام عدة طرق دفع لدفع المشتريات. في هذا السيناريو، يجب أن تكون المؤسسة قادرة على تسجيل مدفوعات غير مرحلة متعددة وتسويتها مقابل فاتورة العميل.
 
 تعمل ميزة جديدة تمت إضافتها في الإصدار 1611 من Microsoft Dynamics 365 for Operations ‏(نوفمبر 2016) على تمكين تسوية مدفوعات غير مرحلة متعددة مقابل فاتورة واحدة. لم يعد يلزم إدخال مدفوعات العملاء المتعددة في إيصال واحد.
 

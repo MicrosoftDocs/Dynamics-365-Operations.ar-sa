@@ -1,6 +1,6 @@
 ---
 title: إنشاء ملف تعريف وظائف البيع بالتجزئة
-description: يوضح هذا الموضوع كيفية إنشاء ملف تعريف وظائف البيع بالتجزئة في Microsoft Dynamics 365 Commerce.
+description: يوضح هذا الموضوع كيفية إنشاء ملف تعريف وظائف في Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002833"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057338"
 ---
 # <a name="create-a-retail-functionality-profile"></a>إنشاء ملف تعريف وظائف البيع بالتجزئة
 
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إنشاء ملف تعريف وظائف البيع بالتجزئة في Microsoft Dynamics 365 Commerce.
+يوضح هذا الموضوع كيفية إنشاء ملف تعريف وظائف في Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>نظرة عامة
 
-يوفر ملف تعريف وظائف البيع بالتجزئة الإعدادات المتنوعة المستخدمة للقنوات عبر الإنترنت. يجب أن تحدد كل قناه للبيع بالتجزئة ملف تعريف وظائف البيع بالتجزئة.
+يوفر ملف تعريف التجارة الإعدادات المتنوعة المستخدمة للقنوات عبر الإنترنت. يجب أن تحدد كل قناه ملف تعريف وظائف.
 
-## <a name="create-a-retail-functionality-profile"></a>إنشاء ملف تعريف وظائف البيع بالتجزئة
+## <a name="create-a-functionality-profile"></a>إنشاء ملف تعريف وظائف
 
-لإنشاء ملف تعريف وظائف البيع بالتجزئة، اتبع هذه الخطوات.
+لإنشاء ملف تعريف وظائف اتبع هذه الخطوات.
 
 1. في جزء التنقل، انتقل إلى **الوحدات \>إعداد القناة \> ملفات تعريف نقطة البيع \> ملفات تعريف الوظائف**.
 1. في جزء الإجراءات، حدد **جديد**.
@@ -51,9 +51,9 @@ ms.locfileid: "3002833"
 1. في قسم **أكواد المعلومات**، قم بتعديل الإعدادات حسب الحاجة.
 1. في قسم **ترقيم الإيصال**، قم بتعديل الإعدادات حسب الحاجة. 
   
-تعرض الصورة التالية مثالاً لملف تعريف وظائف البيع بالتجزئة.
+تعرض الصورة التالية مثالاً لملف تعريف الوظائف.
   
-![مثال لملف تعريف وظائف البيع بالتجزئة](media/retail-functionality-profile.png)
+![مثال لملف تعريف وظائف](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

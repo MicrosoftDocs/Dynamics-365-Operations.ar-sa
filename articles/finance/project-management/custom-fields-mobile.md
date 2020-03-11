@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773635"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080762"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>تنفيذ الحقول المخصصة لتطبيق Microsoft Dynamics 365 Project Timesheet للأجهزة المحمولة على iOS وAndroid
 
@@ -183,7 +183,7 @@ ms.locfileid: "2773635"
 
 تجدر الإشارة إلى استخدام طريقة **TSTimesheetCustomField::newFromMetatdata()** لتبسيط تهيئة خصائص الحقول المخصصة: **fieldBaseType**، و**tableName**، و**fieldname**، و**label**، و**isEditable**، و**isMandatory**، و**stringLength**، و**numberOfDecimals**. يمكنك أيضًا ضبط هذه المعلمات يدويًا ، حسب رغبتك.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 يتم استخدام أسلوب **buildCustomFieldListForEntry** لإدخال القيم في أسطر الجداول الزمنية المحفوظة في تطبيق الأجهزه المحمولة. يأخذ سجل TSTimesheetTrans كمعلمة. يمكن استخدام الحقول من هذا السجل لملء قيمة الحقل المخصص في التطبيق.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ final class TsTimesheetEntry_Extension
 > [!NOTE]
 > يقوم المثال التالي بحفظ قيمة **firstOption** أو **secondOption** الذي يقوم المستخدم بتحديده لقاعدة البيانات كقيمة سلسلة بسيطة. إذا كان حقل قاعدة البيانات هو حقل من نوع **التعداد**، فإنه يمكن تعيين هذه القيم يدويًا إلى قيمه تعداد ثم حفظها إلى حقل تعداد في جدول قاعده البيانات.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ final class TSTimesheetEntryService_Extension
 
 يوضح المثال التالي قيمة محسوبة في قسم الرأس في التطبيق.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 يتم استخدام أسلوب **buildCustomFieldListForHeader** لملء تفاصيل رأس الجدول الزمني في تطبيق الجوال. يأخذ سجل TSTimesheetTable كمعلمة. يمكن استخدام الحقول من هذا السجل لملء قيمة الحقل المخصص في التطبيق. المثال التالي لا يقرأ أي قيم من قاعدة البيانات. بدلاً من ذلك، يستخدم منطق X ++ لإنشاء قيمة محسوبة تظهر في التطبيق.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ec42ab920868f541eeac54556f4f24cb1efaa3a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 42448bd54c00b8642b158f422e17d2b46ee25579
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002440"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057869"
 ---
 # <a name="set-up-a-call-center-channel"></a>إعداد قناة مركز اتصال
 
@@ -33,7 +33,7 @@ ms.locfileid: "3002440"
 
 ## <a name="overview"></a>نظرة عامة
 
-في Dynamics 365 Commerce، يعتبر مركز الاتصال نوع قناة بيع بالتجزئة يمكن تعريفها في التطبيق. من شأن تحديد قناة لكيانات مركز الاتصال أن يسمح للنظام بربط بيانات معينة والإعدادات الافتراضية لمعالجة الأوامر بأوامر المبيعات. بإمكان شركة تعريف قنوات مراكز اتصال متعددة في Commerce. 
+في Dynamics 365 Commerce، يعتبر مركز الاتصال نوع قناة يمكن تعريفها في التطبيق. من شأن تحديد قناة لكيانات مركز الاتصال أن يسمح للنظام بربط بيانات معينة والإعدادات الافتراضية لمعالجة الأوامر بأوامر المبيعات. بإمكان شركة تعريف قنوات مراكز اتصال متعددة في Commerce. 
 
 قبل إنشاء قناة مركز اتصال جديدة، تأكد من إكمال [المتطلبات الأساسية لإعداد قناة](channels-prerequisites.md).
 

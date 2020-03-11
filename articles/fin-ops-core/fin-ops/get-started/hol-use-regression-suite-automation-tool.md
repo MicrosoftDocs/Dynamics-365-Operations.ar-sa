@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025794"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070810"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>استخدام البرنامج التعليمي للأداة Regression Suite Automation Tool
 
@@ -217,15 +217,15 @@ ms.locfileid: "3025794"
 
 ## <a name="advanced-scripting"></a>البرمجة المتقدمة
 
-### <a name="command-line"></a>سطر الأمر
+### <a name="cli"></a>CLI
 
-يمكن استدعاء RSAT من إطار **موجه الأوامر**.
+يمكن استدعاء RSAT من نافذة **موجه الأوامر** أو **PowerShell**.
 
 > [!NOTE]
 > تحقق من تعيين متغير البيئة **TestRoot** على مسار تثبيت RSAT. (في Microsoft Windows، افتح **لوحة التحكم**، وحدد **النظام والأمان \> النظام \> إعدادات الأمان المتقدمة**، ثم حدد **متغيرات البيئة**.)
 
-1. افتح إطار **موجه الأوامر** كمسؤول.
-2. قم بتشغيل الأداة من دليل التثبيت.
+1. افتح نافذة **موجه الأوامر** أو **PowerShell** كمسؤول.
+2. انتقل إلى دليل التثبيت RSAT.
 
     ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
@@ -242,22 +242,273 @@ ms.locfileid: "3025794"
         Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe /settings "C:\Path to\file.settings" command
 
     Available commands:
-        list
-        listtestsuite suite_name
-        download test_case_id output_dir
-        generate test_case_id output_dir
-        generatederived parent_test_case_id test_plan_id test_suite_id
-        generatetestonly test_case_id output_dir
-        edit excel_file
-        playback excel_file
-        playbackmany excel_file1 [excel_file2 [.. excel_fileN]]
-        playbackbyid test_case_id1 [test_case_id2 [.. test_case_idN]]
-        playbacksuite suite_name
-        clear
-        help
+        ?
         about
+        cls
+        download
+        edit
+        generate
+        generatederived
+        generatetestonly
+        generatetestsuite
+        help
+        list
+        listtestplans
+        listtestsuite
+        listtestsuitenames
+        playback
+        playbackbyid
+        playbackmany
+        playbacksuite
         quit
+        upload
+        uploadrecording
+        usage
     ```
+
+#### <a name=""></a>؟ 
+يظهر تعليمات حول كافة الأوامر المتوفرة والمعلمات الخاصة بها.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
+
+##### <a name="optional-parameters"></a>معلمات اختيارية
+
+**``command``**
+
+
+حيث ``[command]`` يكون أحد الأوامر المحددة أدناه.
+
+
+#### <a name="about"></a>حول
+يعرض الإصدار الحالي.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
+
+#### <a name="cls"></a>cls
+يمسح الشاشة.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
+
+
+#### <a name="download"></a>تنزيل
+يقوم بتنزيل مرفقات لحالة الاختبار المحددة إلى دليل الإخراج. يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``test_case_id``** تمثل معرف حالة الاختبار.  
+**``output_dir``** تمثل دليل الإخراج. الدليل يجب أن يكون موجودًا.
+
+##### <a name="examples"></a>أمثلة
+
+``download 123 c:\temp\rsat``   
+``download 765 c:\rsat\last``
+
+
+#### <a name="edit"></a>تحرير
+يسمح لك بفتح ملف المعلمات في برنامج Excel وتحريره.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``excel_file``** يجب أن يحتوي على مسار كامل لملف Excel موجود.
+
+##### <a name="examples"></a>أمثلة
+``edit c:\RSAT\TestCase_123_Base.xlsx``  
+``edit e:\temp\TestCase_456_Base.xlsx``
+
+
+#### <a name="generate"></a>إنشاء
+يقوم بإنشاء ملفات تنفيذ تجريبي ومعلمات لحالة الاختبار المحددة في دليل الإخراج.
+يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``test_case_id``** تمثل معرف حالة الاختبار.  
+**``output_dir``** تمثل دليل الإخراج. الدليل يجب أن يكون موجودًا.
+
+##### <a name="examples"></a>أمثلة
+``generate 123 c:\temp\rsat``  
+``generate 765 c:\rsat\last``
+
+
+#### <a name="generatederived"></a>generatederived
+يقوم بإنشاء حالة اختبار جديدة، مشتقة من حالة الاختبار المتوفرة. يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``parent_test_case_id``** تمثل معرف حالة الاختبار الأصلية.  
+**``test_plan_id``** تمثل معرف خطة الاختبار.  
+**``test_suite_id``** تمثل معرف مجموعة الاختبار.
+
+##### <a name="examples"></a>أمثلة
+``generatederived 123 8901 678``
+
+
+#### <a name="generatetestonly"></a>generatetestonly
+يقوم بإنشاء ملف تنفيذ تجريبي فقط لحالة الاختبار المحددة في دليل الإخراج. يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``test_case_id``** تمثل معرف حالة الاختبار.  
+**``output_dir``** تمثل دليل الإخراج. الدليل يجب أن يكون موجودًا.
+
+##### <a name="examples"></a>أمثلة
+``generatetestonly 123 c:\temp\rsat``  
+``generatetestonly 765 c:\rsat\last``
+
+
+#### <a name="generatetestsuite"></a>generatetestsuite
+يقوم بإنشاء كافة حالات الاختبار للمجموعة المحددة في دليل الإخراج.
+يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على كافة مجموعات الاختبار المتوفرة. استخدم أي قيمة من العمود كمعلمة **test_suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``test_suite_name``** تمثل اسم مجموعة الاختبار.  
+**``output_dir``** تمثل دليل الإخراج. الدليل يجب أن يكون موجودًا.
+
+##### <a name="examples"></a>أمثلة
+``generatetestsuite Tests c:\temp\rsat``   
+``generatetestsuite Purchase c:\rsat\last``
+
+
+#### <a name="help"></a>تعليمات
+مماثل لـ [?](####?) الأمر
+
+
+#### <a name="list"></a>القائمة
+يسرد كافة حالات الاختبار المتوفرة.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
+
+
+#### <a name="listtestplans"></a>listtestplans
+يسرد كافة خطط الاختبار المتوفرة.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
+
+
+#### <a name="listtestsuite"></a>listtestsuite
+يسرد حالات الاختبار لمجموعة الاختبار المحددة. يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على كافة مجموعات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``suite_name``** اسم المجموعة المطلوبة.
+
+##### <a name="examples"></a>أمثلة
+``listtestsuite "sample suite name"``  
+``listtestsuite NameOfTheSuite``
+
+
+#### <a name="listtestsuitenames"></a>listtestsuitenames
+يسرد كافة مجموعات الاختبار المتوفرة.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
+
+
+#### <a name="playback"></a>تشغيل
+يقوم بتشغيل حالة اختبار باستخدام ملف Excel.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``excel_file``** مسار كامل لملف Excel. يجب أن يكون الملف موجودًا. 
+
+##### <a name="examples"></a>أمثلة
+``
+playback c:\RSAT\TestCaseParameters\sample1.xlsx
+playback e:\temp\test.xlsx
+``
+
+
+#### <a name="playbackbyid"></a>playbackbyid
+يقوم بتشغيل عدة حالات اختبار في الحال.
+يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``test_case_id1``** معرف حالة اختبار موجودة.  
+**``test_case_id2``** معرف حالة اختبار موجودة.  
+**``test_case_idN``** معرف حالة اختبار موجودة.  
+
+##### <a name="examples"></a>أمثلة
+``playbackbyid 878``  
+``playbackbyid 2345 667 135``
+
+
+#### <a name="playbackmany"></a>playbackmany
+يقوم بتشغيل العديد من حالات الاختبار في الحال، باستخدام ملفات Excel.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``excel_file1``** مسار كامل لملف Excel. يجب أن يكون الملف موجودًا.  
+**``excel_file2``** مسار كامل لملف Excel. يجب أن يكون الملف موجودًا.  
+**``excel_fileN``** مسار كامل لملف Excel. يجب أن يكون الملف موجودًا.  
+
+##### <a name="examples"></a>أمثلة
+``playbackmany c:\RSAT\TestCaseParameters\param1.xlsx``  
+``playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx``
+
+
+#### <a name="playbacksuite"></a>playbacksuite
+يقوم بتشغيل كافة حالات الاختبار من مجموعة الاختبار المحددة. يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على كافة مجموعات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``suite_name``** اسم المجموعة المطلوبة.
+
+##### <a name="examples"></a>أمثلة
+``playbacksuite suiteName``  
+``playbacksuite sample_suite``
+
+
+#### <a name="quit"></a>إنهاء
+يغلق التطبيق.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
+
+
+#### <a name="upload"></a>تحميل
+يقوم بتحميل كل الملفات التي تنتمي لمجموعة الاختبار المحددة أو حالات الاختبار.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+
+#### <a name="required-parameters"></a>المعلمات المطلوبة
+**``suite_name``** سيتم تحميل كل الملفات التي تنتمي لمجموعة الاختبار المحددة.
+**``testcase_id``** سيتم تحميل كل الملفات التي تنتمي لحالة (حالات) الاختبار المحددة.
+
+##### <a name="examples"></a>أمثلة
+``upload sample_suite``  
+``upload 123``  
+``upload 123 456``
+
+
+#### <a name="uploadrecording"></a>uploadrecording
+يقوم بتحميل ملف تسجيل واحد ينتمي لحالات الاختبار المحددة.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+
+##### <a name="required-parameters"></a>المعلمات المطلوبة
+**``testcase_id``** سيتم تحميل ملف تسجيل واحد ينتمي لحالات الاختبار المحددة.
+
+##### <a name="examples"></a>أمثلة
+``uploadrecording 123``  
+``uploadrecording 123 456``
+
+
+#### <a name="usage"></a>استخدام
+يظهر طريقتين لاستدعاء هذا التطبيق: واحد باستخدام ملف إعداد افتراضي، آخر يوفر ملف إعداد.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
 
 ### <a name="windows-powershell-examples"></a>أمثلة Windows PowerShell
 

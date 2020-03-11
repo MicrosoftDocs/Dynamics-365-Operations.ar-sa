@@ -3,7 +3,7 @@ title: توفير Human Resources
 description: ''
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3a7987a9b385fb6ba0294dc46b0d66be8228f06
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026257"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071604"
 ---
 # <a name="provision-human-resources"></a>توفير Human Resources
 
@@ -62,9 +62,6 @@ ms.locfileid: "3026257"
 3. حدد الخيار **تضمين بيانات العرض التوضيحي** إذا كنت تريد أن تتضمن بيئتك مجموعة بيانات العرض التوضيحي نفسها المستخدمة في تجربة اختبار إصدار Human Resources. وهذا مفيد في العرض التوضيحي طويل الأمد أو بيئات التدريب، ويجب إلا يتم استخدامه في بيئات الإنتاج.  لاحظ ضرورة تحديد هذا الخيار عند النشر الأولى. لا يمكن تحديث نشر موجود في وقت لاحق.
 
 4. يتم توفير Human Resources دومًا في بيئة Microsoft Power Apps ، لتمكين تكامل Power Apps وقابليته للتوسع. راجع قسم "تحديد بيئة Power Apps " في هذا المقال قبل المتابعة. إذا لم تكن لديك بيئة Power Apps ، فحدد "إدارة البيئات" في LCS أو انتقل إلى مركز إدارة Power Apps . ثم اتبع الخطوات التي تؤدي إلى [إنشاء بيئة Power Apps .](https://docs.microsoft.com/powerapps/administrator/create-environment).
-
-    > [!NOTE]
-    > لعرض البيئات الموجودة أو إنشاء بيئات جديدة، يجب تعيين مسؤول المستأجرين الذي يوفر لـ Human Resourcesترخيص Power Apps P2. إذا لم يكن لدى مؤسستك ترخيص Power Apps P2، يمكنك الحصول على واحد من موفر حلول المجموعة (CSP) أو من صفحة أسعار [Power Apps .](https://powerapps.microsoft.com/pricing/).
 
 5. حدد البيئة المراد توفير Human Resources فيها.
 
