@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180980"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081986"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>إنشاء قواعد لمرشد تحسين الأداء
 
@@ -36,7 +36,7 @@ ms.locfileid: "2180980"
 
 لإنشاء قاعدة جديدة لـ **مرشد التحسين**، أضف فئة جديدة توسع الفئة المجردة **SelfHealingRule** وتنفذ واجهة **IDiagnosticsRule** ويتم تزيينها بالسمة **DiagnosticRule**. كما يجب أن تشتمل الفئة على أسلوب مزين بالسمة **DiagnosticsRuleSubscription**. بشكل تقليدي، يتم إجراء هذا في أسلوب **opportunityTitle** الذي ستتم مناقشته لاحقًا. يمكن إضافة هذه الفئة الجديدة إلى نموذج مخصص باستخدام تبعية في نموذج **SelfHealingRules**. في المثال التالي، تُسمى القاعدة الجاري تنفيذها **RFQTitleSelfHealingRule**.
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 تشتمل الفئة المجردة **SelfHealingRule** على أساليب مجردة يجب تنفيذها في الفئات القديمة. الذاكرة الأساسية هي أسلوب **التقييم** الأسلوب الذي يقوم بإرجاع قائمة بالفرص المحددة بواسطة القاعدة. يمكن أن تكون الفرص حسب الكيان القانوني أو يمكن تطبيقها على النظام بالكامل.
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ protected List evaluate()
 
 يعرض الرمز التالي أسلوب **findRFQCasesWithEmptyTitle**، الذي يعرض معرفات حالات طلب عروض الأسعار التي تشتمل على عناوين فارغة.
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ private container findRFQCasesWithEmptyTitle()
 
 التالي هو مثال للتنفيذ. يتم استخدام السلاسل الأولية لتحقيق البساطة، ولكن يتطلب التنفيذ الصحيح وجود ملصقات. 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 يظهر الوصف المعروض بواسطة **opportunityDetails** على الجزء الجانبي ويعرض مزيدًا من المعلومات حول الفرصة. يأخذ هذا الوسيطة **SelfHealingOpportunity** التي هي عبارة عن حقل **بيانات** يمكن استخدامه لتوفير المزيد من التفاصيل حول الفرصة. في المثال، يعرض الأسلوب معرفات حالات RFQ المشتملة على عنوان فارغ. 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ public str opportunityDetails(SelfHealingOpportunity _opportunity)
 
 يعرض **provideHealingAction** "حقيق" إذا تم توفير إجراء علاج، وإلا، فإنه يعرض "زائف". في حالة عرض "حقيقي"، يجب تنفيذ الأسلوب **performAction** وإلا سيظهر خطأ. أسلوب **performAction** يأخذ وسيطة **SelfHealingOpportunity**، التي يمكن فيها استخدام البيانات للإجراء. في المثال، يفتح الإجراء **PurchRFQCaseTableListPage** للتصحيح اليدوي. 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ protected void performAction(SelfHealingOpportunity _opportunity)
 > [!NOTE]
 > يجب أن يكون عنصر القائمة عبارة عن عنصر قائمة إجراءات لكي يعمل الأمان بشكل صحيح. لن تعمل أنواع عناصر القائمة الأخرى، مثل **عرض عناصر القائمة** بشكل صحيح.
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 بعد تأليف القاعدة، قم بتنفيذ الوظيفة التالية لعرضها في واجهة المستخدم (UI).
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ class ScanNewRulesJob
 
 المثال التالي عبارة عن أجزاء من تعليمات برمجية مع إطار عمل قاعدة تتضمن كافة الأساليب والسمات المطلوبة. من شأنه أن يساعدك في بدء كتابة قواعد جديدة. التسميات وعناصر قائمة الإجراءات المستخدمة في المثال هي مستخدمة فقط لأغراض العرض التوضيحي.
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

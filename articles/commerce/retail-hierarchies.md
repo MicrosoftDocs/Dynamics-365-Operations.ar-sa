@@ -1,6 +1,6 @@
 ---
-title: التسلسلات الهرمية للبيع بالتجزئة
-description: تشرح هذه المقالة التدرجات الهرمية للبيع بالتجزئة في Dynamics 365 Commerce.
+title: التدرجات الهرمية لـ Commerce
+description: تشرح هذه المقالة التدرجات الهرمية في Dynamics 365 Commerce.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: cf8db2c828f99dfd4c220966e31894dcd6eda572
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e1b9fc647ccaa3caeec0d0e3a8594fd6a2a8be0f
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021512"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070726"
 ---
-# <a name="retail-hierarchies"></a>التدرجات الهرمية للبيع بالتجزئة
+# <a name="commerce-hierarchies"></a>التدرجات الهرمية لـ Commerce
 
 [!include [banner](includes/banner.md)]
 

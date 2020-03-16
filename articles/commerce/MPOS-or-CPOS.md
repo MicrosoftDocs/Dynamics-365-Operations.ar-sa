@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1fffc7141c041873f39f716aaf1a775984ef499c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 508fda28d8f815f030e7b163709393f70904a5fd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021425"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057684"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>الاختيار بين نقطة البيع الحديثة (MPOS) وCloud POS
 
@@ -60,7 +60,7 @@ ms.locfileid: "3021425"
 MPOS على جهاز يعمل بنظام التشغيل Windows أو iOS أو Android عبارة عن تطبيق تم حزمه وتثبيته وصيانته على هذا الجهاز.
 
 - **Windows** - تحتوي نقطة البيع الحديثة لتطبيق Windows على كود التطبيق بالكامل ووقت التشغيل التجاري المضمن (CRT). 
-- **iOS/Android** – على هذين النظامين الأساسيين، يؤدي التطبيق دور المضيف لكود تطبيق CPOS. بمعنى آخر، تأتي التعليمات البرمجية للتطبيق من خادم CPOS في Microsoft Azure أو Commerce Scale Unit. لمزيد من المعلومات، راجع [نظرة عامة على Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – على هذين النظامين الأساسيين، يؤدي التطبيق دور المضيف لكود تطبيق CPOS. بمعنى آخر، تأتي التعليمات البرمجية للتطبيق من خادم CPOS في Microsoft Azure أو Commerce Scale Unit. لمزيد من المعلومات، راجع [نظرة عامة على Commerce Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>نقطة بيع المجموعة
 

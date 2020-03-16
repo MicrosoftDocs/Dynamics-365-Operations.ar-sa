@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: aae9ea56fc2174df56274776993c68b11c0521d0
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9ccf00b6fcd1e3a6002086360b1a4c5c464ba054
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773892"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076145"
 ---
+# <a name="planning-optimization-overview"></a>نظرة عامة على تحسين التخطيط‬
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
-
-# <a name="planning-optimization-overview"></a>نظرة عامة على تحسين التخطيط‬
 
 تتيح الوظيفة الاضافيه لتحسين أداء التخطيط لـ Microsoft Dynamics 365 Supply Chain Management إمكانية حساب التخطيط الرئيسي لكي يحدث خارج Dynamics 365 Supply Chain Management وقاعدة بيانات SQL ذات الصلة. تتضمن الفوائد المرتبطة بوظيفة "تحسين التخطيط" أداءً محسناً وأقل تأثير على قاعدة بيانات SQL أثناء تشغيل التخطيط الرئيسي. يمكن اجراء عمليات تشغيل التخطيط السريع حتى اثناء ساعات العمل ، بحيث يمكن للمخططات التعامل فورا مع الطلبات أو تغييرات المعلمات.
 

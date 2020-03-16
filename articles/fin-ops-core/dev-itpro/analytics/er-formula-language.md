@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916650"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042701"
 ---
 # <a name="electronic-reporting-formula-language"></a>لغة تركيبة التقارير الإلكترونية
 
@@ -154,7 +154,7 @@ ms.locfileid: "2916650"
 
 يمكنك إنشاء تعبيرات مركبة تستخدم وظائف من فئات مختلفة، بشرط أن تتطابق أنواع البيانات. عند استخدام الوظائف معًا، تطابق نوع بيانات الإخراج من وظيفة واحدة إلى نوع بيانات الإدخال المطلوب من قبل وظيفة أخرى. علي سبيل المثال، لتجنب الخطأ "قائمه-فارغة" في ربط حقل إلى عنصر تنسيق التقارير الإلكترونية، دمج الوظائف من فئة [القائمة](er-functions-category-list.md) مع وظيفة من الفئة [المنطقية](er-functions-category-logical.md) ، كما يظهر المثال التالي. هنا، تستخدم التركيبة وظيفة [IF](er-functions-logical-if.md) لاختبار ما إذا كانت قائمة **IntrastatTotals** فارغة قبل إرجاع قيمة التجميع المطلوب من تلك القائمة. إذا كانت القائمة **IntrastatTotals** فارغة، ترجع التركيبة **0** (صفر).
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 في كثير من الأحيان، يمكنك الحصول علي نفس نتيجة تحويل البيانات بطرق متعددة، باستخدام وظائف من فئات مختلفة أو وظائف مختلفة من نفس الفئة. علي سبيل المثال، يمكن أيضًا تكوين التعبير السابق باستخدام وظيفة [COUNT](er-functions-list-count.md) من فئة [قائمة](er-functions-category-list.md) .
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 

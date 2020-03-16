@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 7d68f65c27ec8704ef588cf98bbe30fc70cd5b47
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4185d4762b65b6b1ce7531c3995f8bbe084a9c5f
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021507"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057291"
 ---
 # <a name="get-support-for-dynamics-365-retail"></a>الحصول على الدعم لتطبيق Dynamics 365 Retail
 
@@ -42,13 +42,13 @@ ms.locfileid: "3021507"
 <thead>
 <tr>
 <th>المهمة</th>
-<th>معلومات إضافية</th>
+<th>مزيد من المعلومات</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>طرح سؤال على المجتمع.</td>
-<td>انتقل إلى صفحة مجتمع <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> للبحث عن المساعدة فيما يتعلق بأسئلتك من مجتمع Dynamics 365.</td>
+<td>انتقل إلى صفحة <a href="https://community.dynamics.com/365/retail">مجتمع Dynamics 365</a> للبحث عن المساعدة فيما يتعلق بأسئلتك من مجتمع Dynamics 365.</td>
 </tr>
 <tr>
 <td>استخدم أداة البحث عن المشاكل.</td>
