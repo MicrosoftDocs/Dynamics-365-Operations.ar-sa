@@ -14,9 +14,11 @@
               items:
                 - name: الجديد أو المتغير‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
-                - name: تحديث Platform update 33 (أبريل 2020)
+                - name: Platform update 34 (مايو 2020)
+                  href: get-started/whats-new-platform-update-34.md
+                - name: Platform update 33 (أبريل 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: تحديث Platform update 32 (فبراير 2020)
+                - name: Platform update 32 (فبراير 2020)
                   href: get-started/whats-new-platform-update-32.md
                 - name: تحديث Platform update 31 (يناير 2020)
                   href: get-started/whats-new-platform-update-31.md
@@ -146,41 +148,67 @@
                   items:
                     - name: نظرة عامة حول تكامل البيانات باستخدام Common Data Service
                       href: data-entities/data-integration-cds.md
-                    - name: التكامل المتزامن ثنائي الاتجاه
+                    - name: تكامل الكتابة المزدوجة
                       items:
-                        - name: الصفحة الرئيسية لـ Dual-write
+                        - name: الصفحة الرئيسية للكتابة المزدوجة
                           href: data-entities/dual-write/dual-write-home-page.md
-                        - name: نظرة عامة على Dual-write
+                        - name: نظرة عامة على الكتابة المزدوجة
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: التدرج الهرمي للمؤسسات في Common Data Service
-                          href: data-entities/dual-write/organization-mapping.md
-                        - name: تكامل الشركة
+                        - name: إعداد الكتابة المزدوجة
                           items:
-                            - name: مفهوم الشركة في Common Data Services
-                              href: data-entities/dual-write/company-data.md
-                            - name: التمهيد مع بيانات الشركة
-                              href: data-entities/dual-write/bootstrap-company-data.md
-                        - name: أصل العميل المتكامل
-                          href: data-entities/dual-write/customer-mapping.md
-                        - name: دفتر الأستاذ المتكامل
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: تجربه المنتج الموحدة
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: تكامل المورّد
+                            - name: متطلبات النظام للكتابة المزدوجة
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: السيناريوهات المدعومة لإعداد الكتابة المزدوجة
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: إعداد الكتابة المزدوجة من Lifecycle Services
+                              href: data-entities/dual-write/lcs-setup.md
+                        - name: تعيين المفاهيم بين التطبيقات
                           items:
-                            - name: أصل المورّد المتكامل
-                              href: data-entities/dual-write/vendor-mapping.md
-                            - name: التبديل بين تصميمات المورّدين
-                              href: data-entities/dual-write/vendor-switch.md
-                        - name: المواقع والمستودعات المتكاملة
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                        - name: أصل الضريبة المتكاملة
-                          href: data-entities/dual-write/tax-mapping.md
-                        - name: مزامنة أولية
-                          href: data-entities/dual-write/initial-sync.md
-                        - name: استكشاف أخطاء تكامل البيانات وإصلاحها
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: التكامل المتزامن أحادي الاتجاه
+                            - name: التدرج الهرمي للمؤسسات في Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: تكامل الشركة
+                              items:
+                                - name: مفهوم الشركة في Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: التمهيد باستخدام بيانات الشركة
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: أصل العميل المتكامل
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: تكامل المنتج
+                              items:
+                                - name: تجربه المنتج الموحدة
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: المواقع والمستودعات المتكاملة
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: البيانات المالية وبيانات الضرائب
+                              items:
+                                - name: الوصول إلى البيانات المرجعية المالية والضريبية
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: دفتر الأستاذ المتكامل
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: أصل الضريبة المتكاملة
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: تكامل المورّد
+                              items:
+                                - name: أصل المورّد المتكامل
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: التبديل بين تصميمات المورّدين
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: العميل المتوقع إلى النقدية في الكتابة المزدوجة
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: أصول داخلية لإخضاعها للصيانة
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: العامل والوظيفة والمنصب المتكامل
+                              href: data-entities/dual-write/integrated-hr.md
+                        - name: دعم الكتابة المزدوجة
+                          items:
+                            - name: دعم حلول Field Service وحلول Project Service Automation
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: مزامنة أولية
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: استكشاف أخطاء تكامل البيانات وإصلاحها
+                              href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: التكامل مع مؤسسة تكامل بيانات Power Platform
                       items:
                         - name: تكوين سيناريو العميل المتوقع إلى النقدية
                           items:
@@ -332,6 +360,8 @@
                   href: database/import-database.md
                 - name: استعادة النقطة الزمنية لقاعدة البيانات
                   href: database/database-point-in-time-restore.md
+                - name: استعادة النقطة الزمنية لقاعدة بيانات الإنتاج إلى بيئة الاختبار المعزولة
+                  href: database/database-pitr-prod-sandbox.md
             - name: البرامج التعليمية
               items:
                 - name: تحديث لأغراض التدريب
@@ -430,6 +460,8 @@
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
                       href: deployment/deploy-retail-onprem.md
+                    - name: إعادة استخدام مثيل AD FS نفسه لبيئات متعددة
+                      href: deployment/onprem-reuseadfs.md
                 - name: تطوير نماذج مخصصة ونشرها في بيئات محلية
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: تكامل PowerBI.com مع البيئات المحلية
@@ -970,24 +1002,34 @@
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: إنشاء المنهجيات أو تحديثها
               href: lifecycle-services/create-methodology.md
-            - name: أداة تكوين عمليات الأعمال
-              href: lifecycle-services/bpm-overview.md
-            - name: مكتبات العملية التجارية في أداة تكوين عمليات الأعمال
-              href: lifecycle-services/business-process-libraries-business-process-modeler.md
-            - name: إنشاء مكتبات أداة تكوين عمليات الأعمال وتحريرها واستعراضها
-              href: lifecycle-services/creating-editing-browsing.md
-            - name: إكمال المهام في أداة تكوين عمليات الأعمال
-              href: lifecycle-services/complete-tasks-bpm.md
-            - name: العمل باستخدام مخططات الأنشطة في مكتبات BPM
-              href: lifecycle-services/using-activity-diagrams.md
-            - name: مزامنة مكتبات BPM مع Azure DevOps
-              href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: إنشاء مكتبات اختبارات قبول المستخدم باستخدام دلائل المهام وBPM
-              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: المخططات الانسيابية‬ في إداة تكوين عمليات الأعمال
-              href: lifecycle-services/flowcharts-business-process-modeler.md
-            - name: تحميل عمليات تجارية مخصصة إلى أداة تكوين عمليات الأعمال
-              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: أداة تكوين عمليات الأعمال (BPM)
+              items:
+                - name: نظرة عامة على أداة تكوين عمليات الأعمال (BPM)
+                  href: lifecycle-services/bpm-overview.md
+                - name: مكتبات العملية التجارية في أداة تكوين عمليات الأعمال
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: إنشاء مكتبات أداة تكوين عمليات الأعمال وتحريرها واستعراضها
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: إكمال المهام في أداة تكوين عمليات الأعمال
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: العمل باستخدام مخططات الأنشطة في مكتبات BPM
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: مزامنة مكتبات BPM مع Azure DevOps
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: إنشاء مكتبات اختبارات قبول المستخدم باستخدام دلائل المهام وBPM
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: المخططات الانسيابية‬ في إداة تكوين عمليات الأعمال
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: تحميل عمليات أعمال مخصصة إلى أداة تكوين عمليات الأعمال
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: طلبات الخدمة
+              items:
+                - name: العمليات السحابية وصيانة السحابة
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: إرسال طلبات الخدمة إلى فريق هندسة خدمات Dynamics
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: الأسئلة المتداولة حول الإطار الزمني للصيانة المخطط لها
+                  href: lifecycle-services/planned-maintenance-window-faq.md
             - name: المراقبة والتشخيص
               href: lifecycle-services/monitoring-diagnostics.md
             - name: إعادة تشغيل الخدمات البيئية
@@ -1282,14 +1324,8 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: الحصول على دعم لـ Finance and Operations الذي تديره 21Vianet في الصين
               href: lifecycle-services/21vianet-support.md
-            - name: إرسال طلبات إلى فريق هندسة خدمات Dynamics
-              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
             - name: إعداد الدعم الفني لـ Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: الأسئلة الشائعة حول إطار الصيانة المخطط لها
-              href: lifecycle-services/planned-maintenance-window-faq.md
-            - name: الخدمة والعمليات السحابية
-              href: lifecycle-services/cloud-operations-servicing.md
             - name: إدارة تجارب دعم Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: إدارة النظام
