@@ -10,8 +10,6 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: التسجيل لاشتراكات المعاينة
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: معلومات دفع العميل (معاينة)
-              href: accounts-receivable/payment-insights-overview.md
             - name: تحديثات خدمة إصدار واحد
               items:
                 - name: نظرة عامة حول تحديثات خدمة إصدار واحد
@@ -26,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: تطبيق التحديثات على بيئات السحابة
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
+                - name: تطبيق التحديثات على عمليات النشر المحلية
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين تحديثات الخدمة
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: إيقاف تحديثات الخدمة مؤقتًا
@@ -70,20 +70,24 @@
                   items:
                     - name: الجديد أو المتغير‬ في صفحة Finance الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: الإصدار 10.0.10 من Finance (مايو 2020)
+                      href: get-started/whats-new-changed-10-0-10.md
                     - name: الإصدار 10.0.9 من Finance (أبريل 2020)
                       href: get-started/whats-new-changed-10-0-9.md
                     - name: الإصدار 10.0.8 من Finance (فبراير 2020)
                       href: get-started/whats-new-changed-10-0-8.md
-                    - name: الإصدار 10.0.7 من Finance (يناير 2020)
-                      href: get-started/whats-new-changed-10-0-7.md
-                - name: الميزات التي تمت إزالتها أو إهمالها
+            - name: الميزات التي تمت إزالتها أو إهمالها
+              items:
+                - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-                - name: ميزات AX 2012 التي تم تأجيلها
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-                - name: ميزات لم يتم تنفيذها في عمليات النشر المحلية‬
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
+            - name: ميزات AX 2012 التي تم تأجيلها
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: ميزات لم يتم تنفيذها في عمليات النشر المحلية‬
+              href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
+            - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: موارد الوثائق
               items:
                 - name: نظام التعليمات
@@ -312,6 +316,8 @@
               href: accounts-receivable/tasks/establish-customer-method-payment.md
             - name: ‏‫وضع رسوم دفع العميل‬
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: معلومات دفع العميل (معاينة)
+              href: accounts-receivable/payment-insights-overview.md
             - name: ملفات تعريف ترحيل العميل
               href: accounts-receivable/customer-posting-profiles.md
             - name: نسخ العملاء باستخدام تسلسلات رقمية مشتركة
@@ -1794,6 +1800,8 @@
                           href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
                         - name: تحديد أكواد HSN وأكواد محاسبة الخدمة
                           href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                        - name: إنشاء نوع معدل الضريبة
+                          href: localizations/apac-ind-GST-create-tax-rate-type.md
                         - name: إنشاء حسابات رئيسية لنوع ترحيل ضريبة السلع والخدمات (GST)
                           href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
                         - name: إنشاء فترة تسوية الضرائب
@@ -1922,17 +1930,18 @@
                   items:
                     - name: نظرة عامة على محرك الضريبة
                       href: general-ledger/tax-engine.md
-                      items:
-                        - name: إنشاء مكونات الضرائب
-                          href: localizations/tax-engine-create-tax-component.md
-                        - name: استيراد التكوين
-                          href: general-ledger/tax-engine-import-configuration.md
-                        - name: إمكانية تطبيق محرك الضريبة
-                          href: general-ledger/tax-engine-applicability.md
-                        - name: تكامل محرك الضريبة
-                          href: general-ledger/tax-engine-integration.md
-                        - name: توسيع محرك الضريبة
-                          href: general-ledger/extend-tax-engine-configurations.md
+                    - name: استيراد التكوين
+                      href: general-ledger/tax-engine-import-configuration.md
+                    - name: مصمم المعادلة المتقدم
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                    - name: إمكانية تطبيق محرك الضريبة
+                      href: general-ledger/tax-engine-applicability.md
+                    - name: إنشاء مكونات الضرائب
+                      href: localizations/tax-engine-create-tax-component.md
+                    - name: تكامل محرك الضريبة
+                      href: general-ledger/tax-engine-integration.md
+                    - name: توسيع محرك الضريبة
+                      href: general-ledger/extend-tax-engine-configurations.md
                 - name: الأسئلة المتداولة حول حدود الضريبة
                   href: localizations/apac-ind-tax-thresholds.md
                 - name: تحويلات الأسهم
@@ -2357,50 +2366,56 @@
                       href: localizations/rus-incoming-VAT-restoring.md
                 - name: الأصول الثابتة
                   items:
-                    - name: إدارة الأصول الثابتة
-                      href: localizations/rus-fixed-assets.md
                     - name: نظرة عامة على الأصول الثابتة
-                      hfre: localizations/rus-fixed-assets-overview.md
+                      href: localizations/rus-fixed-assets-overview.md
                     - name: إعداد الأصول الثابتة
-                      href: localizations/rus-set-up-fixed-assets.md
-                    - name: الاستحواذ على الأصول الثابتة ووضعها قيد العمل
-                      href: localizations/rus-fixed-asset-acquisition.md
-                    - name: تسجيل عمليات الاستحواذ على الأصول الثابتة
-                      href: localizations/rus-register-acquisition.md
-                    - name: إنشاء وترحيل دفاتر يومية الموازنة لعمليات الاستحواذ على الأصول الثابتة
-                      href: localizations/rus-post-budget-fixed-asset-acquisition.md
-                    - name: إنشاء إيجار الأصل الثابت‬ وعائد من حركة الإيجار
-                      href: localizations/rus-fixed-asset-leasing.md
-                    - name: جرد الأصول الثابتة
-                      href: localizations/rus-fixed-assets-counting.md
-                    - name: إعادة تقييم عملة الأصول الثابتة
-                      href: localizations/rus-fixed-asset-currency-revaluation.md
-                    - name: الاحتفاظ بالأصول الثابتة
-                      href: localizations/rus-maintain-fixed-assets.md
-                    - name: إعادة تقييم تكلفة وإهلاك الأصول الثابتة
-                      href: localizations/rus-fixed-assets-revaluation.md
-                    - name: فك التجميع الجزئي للأصول الثابتة (التصفية)
-                      href: localizations/rus-fixed-assets-disassembly.md
-                    - name: بيع الأصول والتخلص منها وشطب قيمتها
-                      href: localizations/rus-sell-dispose-write-off-fixed-assets.md
-                    - name: إعداد وترقيم مواقع الأصول الثابتة
-                      href: localizations/rus-fixed-assets-locations-numbering.md
-                    - name: إعداد إهلاك
-                      href: localizations/rus-depreciation-setup.md
-                    - name: طرق الإهلاك
-                      href: localizations/rus-depreciation-methods.md
-                    - name: مكافآت الإهلاك
-                      href: localizations/rus-bonus-depreciation.md
-                    - name: حساب الإهلاك
-                      href: localizations/rus-depreciation-calculation.md
-                    - name: تحويل الأصول الثابتة
-                      href: localizations/rus-fixed-asset-transfer.md
-                    - name: نماذج الطباعة الموحدة للأصول الثابتة
-                      href: localizations/printing-forms-fixed-assets.md
-                    - name: محاسبة ملابس العمل/المعدات الخاصة‬ (روسيا)
-                      href: localizations/rus-working-clothes-instruments-accounting.md
-                    - name: الأصول الثابتة غير القيّمة (NVFAs) (روسيا)
-                      href: localizations/rus-not-valuable-assets.md
+                      items:
+                        - name: إعداد الأصول الثابتة
+                          href: localizations/rus-set-up-fixed-assets.md
+                        - name: إعداد إهلاك
+                          href: localizations/rus-depreciation-setup.md
+                        - name: طرق الإهلاك
+                          href: localizations/rus-depreciation-methods.md
+                        - name: مكافآت الإهلاك
+                          href: localizations/rus-bonus-depreciation.md
+                        - name: إعداد وترقيم مواقع الأصول الثابتة
+                          href: localizations/rus-fixed-assets-locations-numbering.md
+                    - name: العمل مع الأصول الثابتة
+                      items:
+                        - name: إنشاء أصول ثابتة
+                          href: localizations/rus-fixed-assets.md
+                        - name: تسجيل عمليات الاستحواذ على الأصول الثابتة
+                          href: localizations/rus-register-acquisition.md
+                        - name: الاستحواذ على الأصول الثابتة ووضعها قيد العمل
+                          href: localizations/rus-fixed-asset-acquisition.md
+                        - name: حساب الإهلاك
+                          href: localizations/rus-depreciation-calculation.md
+                        - name: فك التجميع الجزئي للأصول الثابتة (التصفية)
+                          href: localizations/rus-fixed-assets-disassembly.md
+                        - name: بيع الأصول والتخلص منها وشطب قيمتها
+                          href: localizations/rus-sell-dispose-write-off-fixed-assets.md
+                        - name: إنشاء إيجار الأصل الثابت‬ وعائد من حركة الإيجار
+                          href: localizations/rus-fixed-asset-leasing.md
+                        - name: المحافظة على الأصول الثابتة
+                          href: localizations/rus-maintain-fixed-assets.md
+                        - name: جرد الأصول الثابتة
+                          href: localizations/rus-fixed-assets-counting.md
+                        - name: إعادة تقييم عملة الأصول الثابتة
+                          href: localizations/rus-fixed-asset-currency-revaluation.md
+                        - name: إعادة تقييم تكلفة وإهلاك الأصول الثابتة
+                          href: localizations/rus-fixed-assets-revaluation.md
+                        - name: إنشاء وترحيل دفاتر يومية الموازنة لعمليات الاستحواذ على الأصول الثابتة
+                          href: localizations/rus-post-budget-fixed-asset-acquisition.md
+                        - name: تحويل الأصول الثابتة
+                          href: localizations/rus-fixed-asset-transfer.md
+                    - name: الأصول الثابتة غير القيّمة، وملابس العمل
+                      items:
+                        - name: الأصول الثابتة غير القيّمة (NVFAs) (روسيا)
+                          href: localizations/rus-not-valuable-assets.md
+                        - name: محاسبة ملابس العمل/المعدات الخاصة‬ (روسيا)
+                          href: localizations/rus-working-clothes-instruments-accounting.md
+                        - name: نماذج الطباعة الموحدة للأصول الثابتة
+                          href: localizations/printing-forms-fixed-assets.md
                 - name: الحسابات الدائنة والمدينة
                   items:
                     - name: تصحيحات إشعار دائن (روسيا)
@@ -2427,6 +2442,14 @@
                           href: localizations/rus-register-transactions-with-reference-to-agreements.md
                         - name: الاستعلامات والتقارير مع الاتفاقيات
                           href: localizations/rus-inquiries-reports-agreements.md
+                    - name: الحركات من خلال وسيط
+                      items:
+                        - name: نظرة عامة على الحركات من خلال وسيط
+                          href: localizations/rus-transactions-through-intermediary.md
+                        - name: المشتريات على العمولة
+                          href: localizations/rus-purchases-on-commission.md
+                        - name: المبيعات على العمولة
+                          href: localizations/rus-sales-on-commission.md
                 - name: المخزون
                   items:
                     - name: بضاعة بالطريق من المورِّد
@@ -2533,6 +2556,8 @@
                   href: localizations/emea-swe-sie-standard-report.md
                 - name: استيراد تنسيقات الدفع
                   href: localizations/emea-swe-payment-formats-import.md
+                - name: تقرير دفع ضريبة المبيعات للسويد
+                  href: localizations/emea-swe-sales-tax-payment-report-sweden.md
             - name: سويسرا
               items:
                 - name: نظرة عامة على سويسرا
@@ -2561,20 +2586,24 @@
                   href: localizations/united-kingdom.md
                 - name: نظام صناعة الإنشاء
                   href: localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: إنشاء ائتمان على خصم التسوية
-                  href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: إنشاء أمر شراء يشتمل على أصناف خاضعة لضريبة القيمة المضافة على الرسوم العكسية
-                  href: localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: إنشاء أمر مبيعات يتضمن أصنافًا تخضع لضريبة القيمة المضافة للرسوم العكسية
-                  href: localizations/tasks/gb-00002-sales-order.md
-                - name: إعداد مجموعات ضريبة مبيعات الصنف لضريبة القيمة المضافة للرسوم العكسية
-                  href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: إعداد مجموعات وقواعد ومعلمات أصناف الرسوم العكسية
-                  href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: إعداد مجموعات ضريبة المبيعات للرسوم العكسية
-                  href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: الرسم العكسي
+                  items:
+                    - name: إنشاء ائتمان على خصم التسوية
+                      href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
+                    - name: إنشاء أمر شراء يشتمل على أصناف خاضعة لضريبة القيمة المضافة على الرسوم العكسية
+                      href: localizations/tasks/purchase-order-reverse-charge-vat.md
+                    - name: إنشاء أمر مبيعات يتضمن أصنافًا تخضع لضريبة القيمة المضافة للرسوم العكسية
+                      href: localizations/tasks/gb-00002-sales-order.md
+                    - name: إعداد مجموعات ضريبة مبيعات الصنف لضريبة القيمة المضافة للرسوم العكسية
+                      href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+                    - name: إعداد مجموعات وقواعد ومعلمات أصناف الرسوم العكسية
+                      href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+                    - name: إعداد مجموعات ضريبة المبيعات للرسوم العكسية
+                      href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
                 - name: رقمنة الضرائب لضريبة القيمة المضافة
                   href: localizations/emea-gbr-mtd-vat-integration.md
+                - name: تقرير الإحصائيات حول ممارسات الدفع
+                  href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: الولايات المتحدة
               items:
                 - name: نظرة عامة على الولايات المتحدة الأمريكية
@@ -3141,6 +3170,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: خيارات التصفية المحسنة للبحث عن التكوينات في المستودع العمومي
+                  href: ../finance/localizations/enhanced-filtering-global-repo.md
                 - name: إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
                   href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                 - name: (التقارير الإلكترونية) مصادر البيانات عبر الشركات في التقارير الإلكترونية

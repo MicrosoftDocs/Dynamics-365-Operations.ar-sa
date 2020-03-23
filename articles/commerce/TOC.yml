@@ -22,6 +22,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: تطبيق التحديثات على بيئات السحابة
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: تطبيق التحديثات على عمليات النشر المحلية
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: تكوين تحديثات الخدمة
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: إيقاف تحديثات الخدمة مؤقتًا
@@ -84,12 +86,12 @@
                   items:
                     - name: الجديد أو المتغير‬ في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: الإصدار 10.0.10 من Commerce (مايو 2020)
+                      href: get-started/whats-new-commerce-10-0-10.md
                     - name: الإصدار 10.0.9 من Commerce (أبريل 2020)
                       href: get-started/whats-new-10-0-9.md
                     - name: الإصدار 10.0.8 من Commerce (فبراير 2020)
                       href: get-started/whats-new-10-0-8.md
-                    - name: الإصدار 10.0.7 من Retail (يناير 2020)
-                      href: get-started/whats-new-10-0-7.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Finance and Operations
@@ -192,7 +194,7 @@
                   href: dev-itpro/retail-in-store-topology.md
                 - name: اتصالات قناة Commerce Data Exchange والتجارة
                   href: dev-itpro/define-retail-channel-communications-cdx.md
-                - name: هندسة POS الحديثة
+                - name: هندسة نقطة البيع الحديثة
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: هندسة نشر متجر على الإنترنت
                   href: dev-itpro/retail-online-store-publishing-architecture.md
@@ -208,13 +210,13 @@
                   href: dev-itpro/retail-store-system-begin.md
                 - name: تكوين وتثبيت Commerce Scale Unit
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-                - name: تكوين وتثبيت POS الحديثة
+                - name: تكوين وتثبيت نقطة بيع حديثة
                   href: retail-modern-pos-device-activation.md
                 - name: إدارة الحسابات والأجهزة من المركز الرئيسي
                   href: set-up-activation-accounts-validate-devices-hq.md
                 - name: تنشيط جهاز POS
                   href: dev-itpro/retail-device-activation.md
-                - name: المساعدة في تأمين Cloud POS في بيئات مشتركة
+                - name: المساعدة في تأمين نقطة البيع السحابية‬ في بيئات مشتركة
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: تكوين وتثبيت Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
@@ -328,15 +330,17 @@
                   href: channel-setup-retail.md
                 - name: تكوين عمال البيع بالتجزئة
                   href: tasks/worker.md
-                - name: Modern Point of Sale (MPOS) وCloud POS
+                - name: نقطة البيع الحديثة (MPOS) ونقطة البيع السحابية
                   items:
-                    - name: الاختيار بين MPOS وCloud POS
+                    - name: الاختيار بين MPOS ونقطة البيع السحابية
                       href: MPOS-or-CPOS.md
-                    - name: عمليات POS أثناء الاتصال وعدم الاتصال
+                    - name: عمليات نقطة البيع أثناء الاتصال وعدم الاتصال
                       href: pos-operations.md
-                    - name: تنشيط جهاز Modern POS مخصصة
+                    - name: تنشيط جهاز نقطة بيع حديثة مخصصة
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في MPOS وCloud POS
+                    - name: تمكين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
+                      href: aad-pos-logon.md
+                    - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في MPOS ونقطة البيع السحابية
                       href: demo-data.md
                     - name: البحث عن المنتج والعميل في نقطة البيع
                       href: POS-search-improvements.md
@@ -358,7 +362,7 @@
                       href: charge-send.md
                     - name: إخفاء أوضاع التسليم غير التابعة للناقل من مربع حوار شحنة POS
                       href: hide-non-carrier-modes.md
-                    - name: مسجل المهام والتعليمات لـ MPOS وCloud POS
+                    - name: مسجل المهام والتعليمات لـ MPOS ونقطة البيع السحابية
                       href: task-recorder-retail-pos.md
                     - name: الأجهزة والأجهزة الطرفية
                       items:
@@ -366,8 +370,10 @@
                           href: retail-peripherals-overview.md
                         - name: محاكي الأجهزة الطرفية
                           href: dev-itpro/retail-peripheral-simulator.md
-                        - name: توصيل الأجهزة الطرفية بنقطة البيع POS
+                        - name: توصيل الأجهزة الطرفية بنقطة البيع
                           href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: التحقق من سلامة الأجهزة الطرفية وخدمات نقطة البيع
+                          href: pos-healthcheck.md
                     - name: تخطيطات الشاشة
                       items:
                         - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في MPOS/CPOS
@@ -398,7 +404,7 @@
                       items:
                         - name: تكوين MPOS وتثبيته وتنشيطه
                           href: retail-modern-pos-device-activation.md
-                        - name: إعداد وظيفة تسجيل الدخول الموسع لـ MPOS وCloud POS
+                        - name: إعداد وظيفة تسجيل الدخول الموسع لـ MPOS ونقطة البيع السحابية
                           href: extended-logon.md
                         - name: إدارة حسابات التنشيط والتحقق من صحة الأجهزة
                           href: set-up-activation-accounts-validate-devices-hq.md
@@ -414,7 +420,7 @@
                   items:
                     - name: إعداد تنسيقات إيصالات الاستلام وتصميمها
                       href: receipt-templates-printing.md
-                    - name: إرسال إيصالات الاستلام عبر البريد الإلكتروني من Modern POS (MPOS)
+                    - name: إرسال إيصالات الاستلام عبر البريد الإلكتروني من نقطة بيع حديثة (MPOS)
                       href: email-receipts.md
                     - name: إعادة تعيين أرقام الإيصالات
                       href: reset_receipt_number_sequence.md
@@ -518,7 +524,7 @@
                       href: create-variant-group.md
                 - name: إنشاء منتج جديد
                   items:
-                    - name: نظرة عامة على إنشاء منتج جديد
+                    - name: إنشاء منتج جديد في Commerce
                       href: create-new-product.md
                     - name: إدارة فئات المنتجات والمنتجات
                       href: category-management-product-creation.md
@@ -570,6 +576,8 @@
                   href: retail-shipping-discount.md
                 - name: إعداد الكوبونات
                   href: retail-coupons.md
+                - name: عرض الخصومات في نقطة البيع
+                  href: discounts-pos.md
                 - name: تقارير السعر
                   href: price-report.md
                 - name: إنشاء اتفاقيات تجارية خاصة بالقناة
@@ -582,8 +590,6 @@
                   href: product-recommendations.md
                 - name: تمكين ADLS في بيئة Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
-                - name: إضافة قوائم توصيات المنتجات إلى صفحات التجارة الإلكترونية
-                  href: add-reco-list-to-page.md
                 - name: تمكين توصيات المنتجات
                   href: enable-product-recommendations.md
                 - name: التوصيات المخصصة
@@ -592,20 +598,22 @@
                       href: personalized-recommendations.md
                     - name: إلغاء الاشتراك في التوصيات المخصصة
                       href: personalization-gdpr.md
-                - name: إنشاء قوائم توصيات منتجات المختارة
-                  href: create-editorial-recommendation-lists.md
-                - name: إدارة نتائج توصيات المنتجات المستندة إلى AI-ML
+                - name: إضافة قوائم توصيات إلى موقع تجارة إلكترونية
+                  href: add-reco-list-to-page.md
+                - name: تجارب نقطة البيع
+                  items:
+                    - name: إضافة توصيات المنتجات على نقطة البيع
+                      href: product.md
+                    - name: إضافة توصيات إلى شاشة المعاملة
+                      href: add-recommendations-control-pos-screen.md
+                - name: إدارة نتائج توصيات المنتجات المستندة إلى الذكاء الاصطناعي والتعلم الآلي (AI-ML)
                   href: modify-product-recommendation-results.md
-                - name: الحصول على توصيات المنتج باستخدام بيانات العرض التوضيحي
+                - name: إنشاء توصيات منتجات مختارة يدويًا
+                  href: create-editorial-recommendation-lists.md
+                - name: إنشاء توصيات باستخدام بيانات العرض التوضيحي
                   href: product-recommendations-demo-data.md
                 - name: الأسئلة المتداولة حول توصيات المنتجات
                   href: faq-recommendations.md
-                - name: خبرات نقطة البيع
-                  items:
-                    - name: توصيات المنتجات على POS
-                      href: product.md
-                    - name: إضافة عنصر تحكم التوصيات إلى شاشة الحركة على أجهزة نقطة البيع (POS)
-                      href: add-recommendations-control-pos-screen.md
             - name: التقييمات والمراجعات
               items:
                 - name: نظرة عامة على التقييمات والمراجعات
@@ -650,13 +658,15 @@
                       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                     - name: إنشاء حزم المنتجات لأوامر الشراء
                       href: tasks/create-product-packages-purchase-orders.md
-        - name: إدارة الأوامر الخاصة بك
+        - name: إدارة أوامرك
           items:
             - name: أوامر المبيعات
               items:
                 - name: إنشاء أمر مركز الاتصال
                   href: tasks/create-call-center-orders.md
-            - name: إدارة الأمر الموزع
+                - name: تغيير ‏‫وضع التسليم‬ في نقطة البيع
+                  href: POS-change-delivery-mode.md
+            - name: إدارة الأوامر الموزعة
               items:
                 - name: نظرة عامة على DOM
                   href: dom.md
@@ -768,8 +778,14 @@
                   href: associate-site-online-store.md
                 - name: إدارة ملفات robots.txt
                   href: manage-robots-txt-files.md
+                - name: تحميل عناوين URL لإعادة التوجيه‬ بشكل مجمع
+                  href: upload-bulk-redirects.md
+                - name: إعداد مستأجر متاجرة عمل-مستهلك في Commerce
+                  href: set-up-B2C-tenant.md
                 - name: إعداد صفحات مخصصه لعمليات تسجيل دخول المستخدمين
                   href: custom-pages-user-logins.md
+                - name: تكوين مستأجرين متعددين لمتاجرة عمل-مستهلك في بيئة Commerce
+                  href: configure-multi-B2C-tenants.md
                 - name: إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
                   href: add-cdn-support.md
                 - name: تمكين اكتشاف المتجر استنادًا إلى الموقع
@@ -864,6 +880,20 @@
                       href: customize-site-navigation.md
                     - name: إنشاء عنوان URL لصفحة
                       href: create-page-URL.md
+            - name: إدارة الأصول الرقمية
+              items:
+                - name: نظرة عامة على إدارة الأصول الرقمية
+                  href: dam-overview.md
+                - name: تحميل صور
+                  href: dam-upload-images.md
+                - name: تحميل فيديو
+                  href: dam-upload-video.md
+                - name: تحميل ملفات غير الصور ومقاطع الفيديو
+                  href: dam-upload-files.md
+                - name: اقتصاص الصور
+                  href: dam-crop-images.md
+                - name: تخصيص نقاط تركيز الصورة
+                  href: dam-custom-focal-point.md
             - name: جعل موقعك متوافقًا
               items:
                 - name: نظرة عامة على الامتثال
@@ -1828,6 +1858,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: تكوين ملف بيئة تطوير (env.)
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: إعداد مشاركة التعليمات البرمجية في Azure DevOps وإنشاء مسار بناء
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: نظرة عامة حول النظام الأساسي
                   items:
                     - name: نظرة عامة هندسية
@@ -1910,15 +1942,19 @@
                       href: e-commerce-extensibility/batch-data-actions.md
                     - name: إجراءات البيانات التي يمكن ملاحظتها
                       href: e-commerce-extensibility/create-observable-data-action.md
-                    - name: مشاركه الحالة عبر الوحدات النمطية
+                    - name: مشاركة الحالة عبر الوحدات النمطية
                       href: e-commerce-extensibility/share-state-across-modules.md
-                - name: تطوير السمات
+                    - name: عمليات تجاوز إجراءات البيانات
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: ربط إجراءات البيانات
+                      href: e-commerce-extensibility/data-action-hooks.md
+                - name: تطوير النُسق
                   items:
-                    - name: نظرة عامة حول السمات
+                    - name: نظرة عامة حول النُسق
                       href: e-commerce-extensibility/theming.md
-                    - name: إنشاء سمة
+                    - name: إنشاء نسق
                       href: e-commerce-extensibility/create-theme.md
-                    - name: تكوين إعدادات السمات
+                    - name: تكوين إعدادات النسق
                       href: e-commerce-extensibility/configure-theme-settings.md
                 - name: إدخال برنامج نصي
                   items:
@@ -1958,7 +1994,7 @@
                   href: install-pos-layout-designer.md
                 - name: "توسيع طريقة عرض شاشة\_POS Dual"
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: قابلية التوسعة لمشغل Modern POS و Cloud POS
+                - name: قابلية التوسعة لمشغل نقطة البيع الحديثة ونقطة البيع السحابية
                   href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: إضافة عناصر تحكم مخصصة لطرق عرض نقطة البيع (POS)
                   href: dev-itpro/pos-custom-control.md
@@ -1978,7 +2014,7 @@
                   href: dev-itpro/pos-handler.md
                 - name: عرض معلومات حزمة ملحق نقطة البيع (POS)
                   href: dev-itpro/view-pos-extension-package-details.md
-                - name: مسجل الاختبار وRegression Suite Automation Tool لـ Cloud POS‬
+                - name: مسجل الاختبار وRegression Suite Automation Tool لنقطة البيع السحابية‬
                   href: dev-itpro/pos-rsat.md
                 - name: إضافة حقول مخصصة إلى لوحة إجمالي نقاط البيع
                   href: dev-itpro/custom-field-pos-totals.md
@@ -1988,13 +2024,13 @@
                   href: dev-itpro/pos-app-signing-certificate.md
                 - name: توسيع طرق عرض نقاط البيع لإضافة أعمدة مخصصة وأزرار أشرطة التطبيق
                   href: dev-itpro/pos-view-extension.md
-                - name: إضافة عناصر تحكم مخصصة إلى صفحات حركات Modern POS
+                - name: إضافة عناصر تحكم مخصصة إلى صفحات حركات نقطة البيع الحديثة
                   href: dev-itpro/pos-custom-transaction.md
                 - name: إضافة أعمدة مخصصة إلى شبكة حركة نقطة البيع (POS)
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: استدعاء واجهات API لـ POS أو العمليات من ملحقات POS
                   href: dev-itpro/pos-api-extension.md
-                - name: مشغلات Modern POS والطباعة
+                - name: المشغلات والطباعة في نقطة البيع الحديثة
                   href: dev-itpro/pos-trigger-printing.md
                 - name: ‏‫إضافة عناصر تحكم مخصصة إلى طرق عرض POS التي تستند إلى مصمم خارج الشاشة
                   href: dev-itpro/pos-control-non-screen.md
@@ -2062,6 +2098,8 @@
                   href: dev-itpro/commerce-application-insights.md
                 - name: إنشاء واجهات API غير متزامنة لـ Commerce (CRT) في منطق أعمالك
                   href: dev-itpro/async-commerce-extension.md
+                - name: الأعمدة الموسعة مسبقًا في قاعدة بيانات القناة
+                  href: dev-itpro/extended-columns.md
             - name: قابلية توسعة موصل المدفوعات
               items:
                 - name: إنشاء تكامل الدفع للوحدة الطرفية للدفع
