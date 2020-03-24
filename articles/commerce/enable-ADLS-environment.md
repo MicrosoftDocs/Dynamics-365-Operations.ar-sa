@@ -3,7 +3,7 @@ title: تمكين ADLS في بيئة Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage (ADLS) لإحدى بيئات Dynamics 365 Commerce، والتي تعتبر متطلبًا أساسيًا لتمكين توصيات المنتج.
 author: bebeale
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,84 +19,98 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 068eb522bd44e02dd31d3337a051691a956637fc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025221"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127757"
 ---
-# <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a><span data-ttu-id="8e686-103">تمكين ADLS في بيئة Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="8e686-103">Enable ADLS in a Dynamics 365 Commerce environment</span></span>
+# <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a><span data-ttu-id="bbe31-103">تمكين ADLS في بيئة Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="bbe31-103">Enable ADLS in a Dynamics 365 Commerce environment</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="8e686-104">يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage (ADLS) لإحدى بيئات Dynamics 365 Commerce، والتي تعتبر متطلبًا أساسيًا لتمكين توصيات المنتج.</span><span class="sxs-lookup"><span data-stu-id="8e686-104">This topic explains how to enable and test Azure Data Lake Storage (ADLS) for a Dynamics 365 Commerce environment, which is a prerequisite for enabling product recommendations.</span></span>
+<span data-ttu-id="bbe31-104">يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage (ADLS) لإحدى بيئات Dynamics 365 Commerce، والتي تعتبر متطلبًا أساسيًا لتمكين توصيات المنتج.</span><span class="sxs-lookup"><span data-stu-id="bbe31-104">This topic explains how to enable and test Azure Data Lake Storage (ADLS) for a Dynamics 365 Commerce environment, which is a prerequisite for enabling product recommendations.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="8e686-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="8e686-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="bbe31-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="bbe31-105">Overview</span></span>
 
-<span data-ttu-id="8e686-106">في الحل Dynamics 365 Commerce، يتم تعقب كل المنتجات والحركات في مخزن كيانات البيئة.</span><span class="sxs-lookup"><span data-stu-id="8e686-106">In the Dynamics 365 Commerce solution, all product and transaction information is tracked in the environment's Entity store.</span></span> <span data-ttu-id="8e686-107">لتمكين وصول هذه البيانات لخدمات Dynamics 365 الأخرى، مثل تحليلات البيانات والمعلومات المهنية والتوصيات المخصصة، من الضروري توصيل البيئة بحل Azure Data Lake Storage (ADLS) المملوك للعميل من الجيل الثاني.</span><span class="sxs-lookup"><span data-stu-id="8e686-107">To make this data accessible to other Dynamics 365 services, such as data analytics, business intelligence, and personalized recommendations, it is necessary to connect the environment to a customer-owned Azure Data Lake Storage Gen 2 (ADLS) solution.</span></span>
+<span data-ttu-id="bbe31-106">في الحل Dynamics 365 Commerce، يتم تعقب كل المنتجات والحركات في مخزن كيانات البيئة.</span><span class="sxs-lookup"><span data-stu-id="bbe31-106">In the Dynamics 365 Commerce solution, all product and transaction information is tracked in the environment's Entity store.</span></span> <span data-ttu-id="bbe31-107">لتمكين وصول هذه البيانات لخدمات Dynamics 365 الأخرى، مثل تحليلات البيانات والمعلومات المهنية والتوصيات المخصصة، من الضروري توصيل البيئة بحل Azure Data Lake Storage (ADLS) المملوك للعميل من الجيل الثاني.</span><span class="sxs-lookup"><span data-stu-id="bbe31-107">To make this data accessible to other Dynamics 365 services, such as data analytics, business intelligence, and personalized recommendations, it is necessary to connect the environment to a customer-owned Azure Data Lake Storage Gen 2 (ADLS) solution.</span></span>
 
-<span data-ttu-id="8e686-108">بتكوين ADLS لإحدى البيئات، يتم إجراء نسخًا متطابقًا لكل البيانات الضرورية من مخزن الوحدات أثناء حمايتها والاحتفاظ بها في تحكم العميل.</span><span class="sxs-lookup"><span data-stu-id="8e686-108">As ADLS is configured in an environment, all necessary data is mirrored from the Entity store while still being protected and under customer's control.</span></span>
+<span data-ttu-id="bbe31-108">بتكوين ADLS لإحدى البيئات، يتم إجراء نسخًا متطابقًا لكل البيانات الضرورية من مخزن الوحدات أثناء حمايتها والاحتفاظ بها في تحكم العميل.</span><span class="sxs-lookup"><span data-stu-id="bbe31-108">As ADLS is configured in an environment, all necessary data is mirrored from the Entity store while still being protected and under customer's control.</span></span>
 
-<span data-ttu-id="8e686-109">في حالة تمكين توصيات المنتج أو التوصيات المخصصة أيضًا في البيئة، سيتم منح مكدس توصيات المنتجات إمكانية الوصول إلى المجلد المخصص في ADLS لاسترداد بيانات العميل وحساب التوصيات استنادًا إليه.</span><span class="sxs-lookup"><span data-stu-id="8e686-109">If product recommendations or personalized recommendations are also enabled in the environment, then the product recommendations stack will be granted access to the dedicated folder in ADLS to retrieve the customer’s data and compute recommendations based on it.</span></span>
+<span data-ttu-id="bbe31-109">في حالة تمكين توصيات المنتج أو التوصيات المخصصة أيضًا في البيئة، سيتم منح مكدس توصيات المنتجات إمكانية الوصول إلى المجلد المخصص في ADLS لاسترداد بيانات العميل وحساب التوصيات استنادًا إليه.</span><span class="sxs-lookup"><span data-stu-id="bbe31-109">If product recommendations or personalized recommendations are also enabled in the environment, then the product recommendations stack will be granted access to the dedicated folder in ADLS to retrieve the customer’s data and compute recommendations based on it.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="8e686-110">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="8e686-110">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="bbe31-110">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="bbe31-110">Prerequisites</span></span>
 
-<span data-ttu-id="8e686-111">يحتاج العملاء إلى تكوين ADLS في أحد اشتراكات Azure التي يملكونها.</span><span class="sxs-lookup"><span data-stu-id="8e686-111">Customers need to have ADLS configured in an Azure subscription that they own.</span></span> <span data-ttu-id="8e686-112">لا يتناول هذا الموضوع شراء اشتراك Azure أو إعداد حساب تخزين تم تمكين ADLS له.</span><span class="sxs-lookup"><span data-stu-id="8e686-112">This topic does not cover the purchase of an Azure subscription or the setup of an ADLS-enabled storage account.</span></span>
+<span data-ttu-id="bbe31-111">يحتاج العملاء إلى تكوين ADLS في أحد اشتراكات Azure التي يملكونها.</span><span class="sxs-lookup"><span data-stu-id="bbe31-111">Customers need to have ADLS configured in an Azure subscription that they own.</span></span> <span data-ttu-id="bbe31-112">لا يتناول هذا الموضوع شراء اشتراك Azure أو إعداد حساب تخزين تم تمكين ADLS له.</span><span class="sxs-lookup"><span data-stu-id="bbe31-112">This topic does not cover the purchase of an Azure subscription or the setup of an ADLS-enabled storage account.</span></span>
 
-<span data-ttu-id="8e686-113">لمزيد من المعلومات حول ADLS، راجع [وثائق ADLS الرسمية](https://azure.microsoft.com/pricing/details/storage/data-lake).</span><span class="sxs-lookup"><span data-stu-id="8e686-113">For more information about ADLS, see [ADLS official documentation](https://azure.microsoft.com/pricing/details/storage/data-lake).</span></span>
+<span data-ttu-id="bbe31-113">لمزيد من المعلومات حول ADLS، راجع [وثائق ADLS الرسمية](https://azure.microsoft.com/pricing/details/storage/data-lake).</span><span class="sxs-lookup"><span data-stu-id="bbe31-113">For more information about ADLS, see [ADLS official documentation](https://azure.microsoft.com/pricing/details/storage/data-lake).</span></span>
   
-## <a name="configuration-steps"></a><span data-ttu-id="8e686-114">خطوات التكوين</span><span class="sxs-lookup"><span data-stu-id="8e686-114">Configuration steps</span></span>
+## <a name="configuration-steps"></a><span data-ttu-id="bbe31-114">خطوات التكوين</span><span class="sxs-lookup"><span data-stu-id="bbe31-114">Configuration steps</span></span>
 
-<span data-ttu-id="8e686-115">يتناول هذا القسم خطوات التكوين الضرورية لتمكين ADLS في إحدى البيئات.</span><span class="sxs-lookup"><span data-stu-id="8e686-115">This section covers the configuration steps necessary for enabling ADLS in an environment.</span></span>
+<span data-ttu-id="bbe31-115">يتناول هذا القسم خطوات التكوين الضرورية لتمكين ADLS في إحدى البيئات.</span><span class="sxs-lookup"><span data-stu-id="bbe31-115">This section covers the configuration steps necessary for enabling ADLS in an environment.</span></span>
 
-### <a name="enable-adls-in-the-environment"></a><span data-ttu-id="8e686-116">تمكين ADLS في البيئة</span><span class="sxs-lookup"><span data-stu-id="8e686-116">Enable ADLS in the environment</span></span>
+### <a name="enable-adls-in-the-environment"></a><span data-ttu-id="bbe31-116">تمكين ADLS في البيئة</span><span class="sxs-lookup"><span data-stu-id="bbe31-116">Enable ADLS in the environment</span></span>
 
-1. <span data-ttu-id="8e686-117">سجل الدخول إلى مدخل المكتب الخلفي للبيئة.</span><span class="sxs-lookup"><span data-stu-id="8e686-117">Log in to the environment's back office portal.</span></span>
-1. <span data-ttu-id="8e686-118">ابحث عن **معلمات النظام** وانتقل إلى علامة التبويب **اتصالات البيانات**.</span><span class="sxs-lookup"><span data-stu-id="8e686-118">Search for **System Parameters** and navigate to the **Data connections** tab.</span></span> 
-1. <span data-ttu-id="8e686-119">عيِّن **تمكين تكامل Data Lake** على **نعم**.</span><span class="sxs-lookup"><span data-stu-id="8e686-119">Set **Enable Data Lake integration** to **Yes**.</span></span>
-1. <span data-ttu-id="8e686-120">عيِّن **تحديث Data Lake بشكل تدريجي** على **نعم**.</span><span class="sxs-lookup"><span data-stu-id="8e686-120">Set **Trickle update Data Lake** to **Yes**.</span></span>
-1. <span data-ttu-id="8e686-121">ثم أدخل المعلومات المطلوبة التالية:</span><span class="sxs-lookup"><span data-stu-id="8e686-121">Next, enter the following required information:</span></span>
-    1. <span data-ttu-id="8e686-122">**معرف التطبيق** // **سر التطبيق** // **اسم DNS** - المطلوب للاتصال ب KeyVault حيث يتم تخزين سر ADLS.</span><span class="sxs-lookup"><span data-stu-id="8e686-122">**Application ID** // **Application Secret** // **DNS Name** - Needed to connect to KeyVault where the ADLS secret is stored.</span></span>
-    1. <span data-ttu-id="8e686-123">**الاسم السري** - الاسم السري المخزن في KeyVault والمستخدم للمصادقة مع ADLS.</span><span class="sxs-lookup"><span data-stu-id="8e686-123">**Secret name** - The secret name stored in KeyVault and used to authenticate with ADLS.</span></span>
-1. <span data-ttu-id="8e686-124">احفظ التغييرات في الجزء العلوي الأيمن من الصفحة.</span><span class="sxs-lookup"><span data-stu-id="8e686-124">Save your changes in the top left corner of the page.</span></span>
+1. <span data-ttu-id="bbe31-117">سجل الدخول إلى مدخل المكتب الخلفي للبيئة.</span><span class="sxs-lookup"><span data-stu-id="bbe31-117">Log in to the environment's back office portal.</span></span>
+1. <span data-ttu-id="bbe31-118">ابحث عن **معلمات النظام** وانتقل إلى علامة التبويب **اتصالات البيانات**.</span><span class="sxs-lookup"><span data-stu-id="bbe31-118">Search for **System Parameters** and navigate to the **Data connections** tab.</span></span> 
+1. <span data-ttu-id="bbe31-119">عيِّن **تمكين تكامل Data Lake** على **نعم**.</span><span class="sxs-lookup"><span data-stu-id="bbe31-119">Set **Enable Data Lake integration** to **Yes**.</span></span>
+1. <span data-ttu-id="bbe31-120">عيِّن **تحديث Data Lake بشكل تدريجي** على **نعم**.</span><span class="sxs-lookup"><span data-stu-id="bbe31-120">Set **Trickle update Data Lake** to **Yes**.</span></span>
+1. <span data-ttu-id="bbe31-121">ثم أدخل المعلومات المطلوبة التالية:</span><span class="sxs-lookup"><span data-stu-id="bbe31-121">Next, enter the following required information:</span></span>
+    1. <span data-ttu-id="bbe31-122">**معرف التطبيق** // **سر التطبيق** // **اسم DNS** - المطلوب للاتصال ب KeyVault حيث يتم تخزين سر ADLS.</span><span class="sxs-lookup"><span data-stu-id="bbe31-122">**Application ID** // **Application Secret** // **DNS Name** - Needed to connect to KeyVault where the ADLS secret is stored.</span></span>
+    1. <span data-ttu-id="bbe31-123">**الاسم السري** - الاسم السري المخزن في KeyVault والمستخدم للمصادقة مع ADLS.</span><span class="sxs-lookup"><span data-stu-id="bbe31-123">**Secret name** - The secret name stored in KeyVault and used to authenticate with ADLS.</span></span>
+1. <span data-ttu-id="bbe31-124">احفظ التغييرات في الجزء العلوي الأيمن من الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bbe31-124">Save your changes in the top left corner of the page.</span></span>
 
-<span data-ttu-id="8e686-125">تعرض الصورة التالية مثالاً لتكوين ADLS.</span><span class="sxs-lookup"><span data-stu-id="8e686-125">The following image shows an example ADLS configuration.</span></span>
+<span data-ttu-id="bbe31-125">تعرض الصورة التالية مثالاً لتكوين ADLS.</span><span class="sxs-lookup"><span data-stu-id="bbe31-125">The following image shows an example ADLS configuration.</span></span>
 
 ![مثال لتكوين ADLS](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-adls-connection"></a><span data-ttu-id="8e686-127">اختبار اتصال ADLS</span><span class="sxs-lookup"><span data-stu-id="8e686-127">Test the ADLS connection</span></span>
+### <a name="test-the-adls-connection"></a><span data-ttu-id="bbe31-127">اختبار اتصال ADLS</span><span class="sxs-lookup"><span data-stu-id="bbe31-127">Test the ADLS connection</span></span>
 
-1. <span data-ttu-id="8e686-128">اختبار الاتصال بـ KeyVault باستخدام ارتباط **اختبار Azure Key Vault**.</span><span class="sxs-lookup"><span data-stu-id="8e686-128">Test the connection to KeyVault using the **Test Azure Key Vault** link.</span></span>
-1. <span data-ttu-id="8e686-129">اختبار الاتصال بـ ADLS باستخدام ارتباط **اختبار Azure Storage**.</span><span class="sxs-lookup"><span data-stu-id="8e686-129">Test the connection to ADLS using the **Test Azure Storage** link.</span></span>
+1. <span data-ttu-id="bbe31-128">اختبار الاتصال بـ KeyVault باستخدام ارتباط **اختبار Azure Key Vault**.</span><span class="sxs-lookup"><span data-stu-id="bbe31-128">Test the connection to KeyVault using the **Test Azure Key Vault** link.</span></span>
+1. <span data-ttu-id="bbe31-129">اختبار الاتصال بـ ADLS باستخدام ارتباط **اختبار Azure Storage**.</span><span class="sxs-lookup"><span data-stu-id="bbe31-129">Test the connection to ADLS using the **Test Azure Storage** link.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8e686-130">في حالة فشل الاختبارات، تحقق مرة أخرى من صحة كل معلومات KeyVault المضافة أعلاه، ثم حاول مرة أخرى.</span><span class="sxs-lookup"><span data-stu-id="8e686-130">If the tests fail, double-check that all of the KeyVault information added above is correct, then try again.</span></span>
+> <span data-ttu-id="bbe31-130">في حالة فشل الاختبارات، تحقق مرة أخرى من صحة كل معلومات KeyVault المضافة أعلاه، ثم حاول مرة أخرى.</span><span class="sxs-lookup"><span data-stu-id="bbe31-130">If the tests fail, double-check that all of the KeyVault information added above is correct, then try again.</span></span>
 
-<span data-ttu-id="8e686-131">بمجرد نجاح اختبارات الاتصال، يجب تمكين التحديث التلقائي لمخزن الوحدات.</span><span class="sxs-lookup"><span data-stu-id="8e686-131">Once the connection tests are successful, you must enable automatic refresh for Entity store.</span></span>
+<span data-ttu-id="bbe31-131">بمجرد نجاح اختبارات الاتصال، يجب تمكين التحديث التلقائي لمخزن الوحدات.</span><span class="sxs-lookup"><span data-stu-id="bbe31-131">Once the connection tests are successful, you must enable automatic refresh for Entity store.</span></span>
 
-<span data-ttu-id="8e686-132">لتمكين التحديث التلقائي لمخزن الكيانات، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="8e686-132">To enable automatic refresh for Entity store, follow these steps.</span></span>
+<span data-ttu-id="bbe31-132">لتمكين التحديث التلقائي لمخزن الكيانات، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="bbe31-132">To enable automatic refresh for Entity store, follow these steps.</span></span>
 
-1. <span data-ttu-id="8e686-133">ابحث عن **مخزن الكيانات**.</span><span class="sxs-lookup"><span data-stu-id="8e686-133">Search for **Entity Store**.</span></span>
-1. <span data-ttu-id="8e686-134">في القائمة الموجودة علي اليمين، انتقل إلى إدخال **RetailSales**، وحدد **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="8e686-134">In the list on the left, navigate to the **RetailSales** entry, and select **Edit**.</span></span>
-1. <span data-ttu-id="8e686-135">تأكد من تعيين **تم تمكين التحديث التلقائي** على القيمة **نعم**، وحدد **تحديث**، ثم حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="8e686-135">Ensure that **Automatic Refresh Enabled** is set to **Yes**, select **Refresh**, and then select **Save**.</span></span>
+1. <span data-ttu-id="bbe31-133">ابحث عن **مخزن الكيانات**.</span><span class="sxs-lookup"><span data-stu-id="bbe31-133">Search for **Entity Store**.</span></span>
+1. <span data-ttu-id="bbe31-134">في القائمة الموجودة على اليمين، انتقل إلى إدخال **RetailSales**، وحدد **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="bbe31-134">In the list on the left, navigate to the **RetailSales** entry, and select **Edit**.</span></span>
+1. <span data-ttu-id="bbe31-135">تأكد من تعيين **تم تمكين التحديث التلقائي** على القيمة **نعم**، وحدد **تحديث**، ثم حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="bbe31-135">Ensure that **Automatic Refresh Enabled** is set to **Yes**, select **Refresh**, and then select **Save**.</span></span>
 
-<span data-ttu-id="8e686-136">تعرض الصورة التالية مثالاً لمخزن الكيانات مع تمكين التحديث التلقائي.</span><span class="sxs-lookup"><span data-stu-id="8e686-136">The following image shows an example of Entity store with automatic refresh enabled.</span></span>
+<span data-ttu-id="bbe31-136">تعرض الصورة التالية مثالاً لمخزن الكيانات مع تمكين التحديث التلقائي.</span><span class="sxs-lookup"><span data-stu-id="bbe31-136">The following image shows an example of Entity store with automatic refresh enabled.</span></span>
 
 ![مثال على مخزن الكيانات مع تمكين التحديث التلقائي](./media/exampleADLSConfig2.png)
 
-<span data-ttu-id="8e686-138">تم تكوين ADLS الآن للبيئة.</span><span class="sxs-lookup"><span data-stu-id="8e686-138">ADLS is now configured for the environment.</span></span> 
+<span data-ttu-id="bbe31-138">تم تكوين ADLS الآن للبيئة.</span><span class="sxs-lookup"><span data-stu-id="bbe31-138">ADLS is now configured for the environment.</span></span> 
 
-<span data-ttu-id="8e686-139">في حالة عدم الاكتمال بالفعل، اتبع الخطوات [لتمكين توصيات المنتج والتخصيص](enable-product-recommendations.md) للبيئة.</span><span class="sxs-lookup"><span data-stu-id="8e686-139">If not completed already, follow the steps for [enabling product recommendations and personalization](enable-product-recommendations.md) for the environment.</span></span>
+<span data-ttu-id="bbe31-139">في حالة عدم الاكتمال بالفعل، اتبع الخطوات [لتمكين توصيات المنتج والتخصيص](enable-product-recommendations.md) للبيئة.</span><span class="sxs-lookup"><span data-stu-id="bbe31-139">If not completed already, follow the steps for [enabling product recommendations and personalization](enable-product-recommendations.md) for the environment.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8e686-140">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="8e686-140">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="bbe31-140">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="bbe31-140">Additional resources</span></span>
 
-[<span data-ttu-id="8e686-141">نظرة عامة على توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="8e686-141">Product recommendations overview</span></span>](product-recommendations.md)
+[<span data-ttu-id="bbe31-141">نظرة عامة على توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="bbe31-141">Product recommendations overview</span></span>](product-recommendations.md)
 
-[<span data-ttu-id="8e686-142">تمكين توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="8e686-142">Enable product recommendations</span></span>](enable-product-recommendations.md)
+[<span data-ttu-id="bbe31-142">تمكين توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="bbe31-142">Enable product recommendations</span></span>](enable-product-recommendations.md)
 
-[<span data-ttu-id="8e686-143">إضافة قوائم توصيات المنتجات إلى الصفحات</span><span class="sxs-lookup"><span data-stu-id="8e686-143">Add product recommendation lists to pages</span></span>](add-reco-list-to-page.md)
+[<span data-ttu-id="bbe31-143">تمكين التوصيات المخصصة</span><span class="sxs-lookup"><span data-stu-id="bbe31-143">Enable personalized recommendations</span></span>](personalized-recommendations.md)
 
-[<span data-ttu-id="8e686-144">إضافة عنصر تحكم في التوصيات إلى شاشة الحركة على أجهزة نقطة البيع (POS)</span><span class="sxs-lookup"><span data-stu-id="8e686-144">Add a recommendations control to the transaction screen on POS devices</span></span>](../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json)
+[<span data-ttu-id="bbe31-144">إلغاء الاشتراك في التوصيات المخصصة</span><span class="sxs-lookup"><span data-stu-id="bbe31-144">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
+
+[<span data-ttu-id="bbe31-145">إضافة قوائم توصيات المنتجات إلى موقع تجارة إلكترونية</span><span class="sxs-lookup"><span data-stu-id="bbe31-145">Add recommendation lists to an e-Commerce site</span></span>](add-reco-list-to-page.md)
+
+[<span data-ttu-id="bbe31-146">إضافة توصيات المنتجات على نقطة البيع</span><span class="sxs-lookup"><span data-stu-id="bbe31-146">Add product recommendations on POS</span></span>](product.md)
+
+[<span data-ttu-id="bbe31-147">إضافة توصيات إلى شاشة المعاملة</span><span class="sxs-lookup"><span data-stu-id="bbe31-147">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
+
+[<span data-ttu-id="bbe31-148">إدارة نتائج توصيات الذكاء الاصطناعي والتعلم الآلي (AI-ML)</span><span class="sxs-lookup"><span data-stu-id="bbe31-148">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
+
+[<span data-ttu-id="bbe31-149">إنشاء توصيات مختارة يدويًا</span><span class="sxs-lookup"><span data-stu-id="bbe31-149">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+
+[<span data-ttu-id="bbe31-150">إنشاء توصيات بواسطة بيانات العرض التوضيحي</span><span class="sxs-lookup"><span data-stu-id="bbe31-150">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+
+[<span data-ttu-id="bbe31-151">الأسئلة المتداولة حول توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="bbe31-151">Product recommendations FAQ</span></span>](faq-recommendations.md)
 
 
