@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 9e5d90eaf1815bbe54b0bea40d92a0a993a23b75
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057604"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113795"
 ---
 # <a name="set-up-an-email-notification-profile"></a>إعداد ملف تعريف إخطار البريد الإلكتروني
 
@@ -35,7 +35,7 @@ ms.locfileid: "3057604"
 
 قبل إنشاء قنوات، ستحتاج إلى إعداد ملف تعريف للتأكد من إمكانية إرسال إخطارات البريد الإلكتروني لأحداث مختلفة، مثل إنشاء الأمر وحالة شحن الطلب وفشل الدفع.
 
-للحصول على مزيد من المعلومات حول تكوين البريد الإلكتروني، راجع [تكوين البريد الإلكتروني وإرساله](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email).
+للحصول على مزيد من المعلومات حول تكوين البريد الإلكتروني، راجع [تكوين البريد الإلكتروني وإرساله](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="create-an-email-notification-profile"></a>إنشاء ملف تعريف إخطار البريد الإلكتروني
 
@@ -49,7 +49,7 @@ ms.locfileid: "3057604"
 
 ### <a name="create-an-email-template"></a>إنشاء قالب بريد إلكتروني
 
-قبل التمكين من إنشاء إخطار البريد الإلكتروني، يجب إنشاء قالب بريد إلكتروني للمؤسسة يحتوي علي معلومات البريد الإلكتروني للمرسلين وقالب البريد الإلكتروني.
+قبل التمكين من إنشاء إخطار البريد الإلكتروني، يجب إنشاء قالب بريد إلكتروني للمؤسسة يحتوي على معلومات البريد الإلكتروني للمرسلين وقالب البريد الإلكتروني.
 
 لإنشاء قالب بريد إلكتروني، اتبع هذه الخطوات.
 
@@ -84,7 +84,7 @@ ms.locfileid: "3057604"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[تكوين وإرسال البريد الإلكتروني](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email)
+[تكوين وإرسال البريد الإلكتروني](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)
 
 [نظرة عامة على القنوات](channels-overview.md)
 

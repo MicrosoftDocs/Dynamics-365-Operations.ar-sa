@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 66d5b10e1471b98274d4049df18a2e53873f789a
-ms.sourcegitcommit: 92cd55028be556a0bd41b6972c9c6d14b695dfa0
+ms.openlocfilehash: c04e2b2c0e5d7f28ea688578b3e1d7a1e1d9f6d3
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947470"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117438"
 ---
 # <a name="cancel-a-master-planning-job"></a>إلغاء وظيفة التخطيط الرئيسي
+
+[!include [banner](../includes/banner.md)]
 
 في Microsoft Dynamics 365 Supply Chain Management، هناك اختيارات متعددة لإلغاء وظيفة التخطيط الرئيسي. علي سبيل المثال، قد ترغب في إلغاء وظيفة تخطيط رئيسيه إذا تم تشغيلها عن طريق الخطأ أو انها تعمل لفتره أطول من المتوقع وتريد إنهائها. أفضل طريقة لإلغاء وظيفة التخطيط هي من صفحة **عمليات التخطيط غير المكتملة** . تُستخدم اختيارات بديلة من صفحات **الوظائف الدفعية‬** و **الوظائف الدفعية‬ المحسّنة** فقط في حالة عدم اكتمال إلغاء وظيفة التخطيط الرئيسية من صفحة **عمليات التخطيط غير المكتملة** في غضون بضع دقائق.
 
@@ -37,7 +39,7 @@ ms.locfileid: "2947470"
 3. وانقر فوق **إلغاء الأمر**.
 
 ## <a name="additional-cancel-options"></a>خيارات إلغاء إضافية
-تُستخدم هذه فقط إذا لم يكتمل إلغاء وظيفة التخطيط الرئيسية من صفحة **عمليات التخطيط غير المكتملة** في غضون بضع دقائق.
+تُستخدم هذه فقط إذا لم يكتمل إلغاء وظيفة التخطيط الرئيسي من صفحة **عمليات التخطيط غير المكتملة** في غضون بضع دقائق.
 
 ### <a name="delete-master-planning-job-from-the-batch-jobs-page"></a>حذف وظيفة التخطيط الرئيسي من صفحة **الوظائف الدفعية** .
 1. انتقل إلى **إدارة النظام > الاستعلامات > الوظائف الدفعية**.

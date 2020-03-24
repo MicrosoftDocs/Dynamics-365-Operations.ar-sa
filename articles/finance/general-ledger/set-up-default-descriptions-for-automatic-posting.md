@@ -17,19 +17,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eb89f50a3d227cad80226ce30f71c4f210129245
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622679"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117351"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>إعداد أوصاف افتراضية للترحيل التلقائي
+
+[!include [banner](../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إعداد نص افتراضي يُستخدم لملء القيود المحاسبية التي تم ترحيلها تلقائيًا لدفتر الأستاذ العام. يمكنك إعداد نص وصف افتراضي باستخدام نص نموذج حر أو عن طريق تحديد متغيرات ثابتة.
 
 > [!NOTE]
-> بالنسبة لبعض أنواع حركات معيَّنة في بعض البلدان أو المناطق، يمكنك أيضًا تضمين نصوص من الحقول الموجودة في قاعدة البيانات Microsoft DynamicsAX المرتبطة بأنواع الحركات تلك. للحصول علي قائمة بأنواع الحركات والبلدان والمناطق، راجع قسم [‏‫اختياري: إضافة نص آخر إلى الأوصاف الافتراضية‬](#optional-add-other-text-to-default-descriptions) لاحقًا في هذا الموضوع.
+> بالنسبة لبعض أنواع حركات معيَّنة في بعض البلدان أو المناطق، يمكنك أيضًا تضمين نصوص من الحقول الموجودة في قاعدة البيانات Microsoft DynamicsAX المرتبطة بأنواع الحركات تلك. للحصول على قائمة بأنواع الحركات والبلدان والمناطق، راجع قسم [‏‫اختياري: إضافة نص آخر إلى الأوصاف الافتراضية‬](#optional-add-other-text-to-default-descriptions) لاحقًا في هذا الموضوع.
 
 ## <a name="set-up-default-descriptions"></a>إعداد الأوصاف الافتراضية
 

@@ -3,7 +3,7 @@ title: تمكين ADLS في بيئة Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage (ADLS) لإحدى بيئات Dynamics 365 Commerce، والتي تعتبر متطلبًا أساسيًا لتمكين توصيات المنتج.
 author: bebeale
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 068eb522bd44e02dd31d3337a051691a956637fc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025221"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127757"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>تمكين ADLS في بيئة Dynamics 365 Commerce
 
@@ -78,7 +78,7 @@ ms.locfileid: "3025221"
 لتمكين التحديث التلقائي لمخزن الكيانات، اتبع الخطوات التالية.
 
 1. ابحث عن **مخزن الكيانات**.
-1. في القائمة الموجودة علي اليمين، انتقل إلى إدخال **RetailSales**، وحدد **تحرير**.
+1. في القائمة الموجودة على اليمين، انتقل إلى إدخال **RetailSales**، وحدد **تحرير**.
 1. تأكد من تعيين **تم تمكين التحديث التلقائي** على القيمة **نعم**، وحدد **تحديث**، ثم حدد **حفظ**.
 
 تعرض الصورة التالية مثالاً لمخزن الكيانات مع تمكين التحديث التلقائي.
@@ -95,8 +95,22 @@ ms.locfileid: "3025221"
 
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
 
-[إضافة قوائم توصيات المنتجات إلى الصفحات](add-reco-list-to-page.md)
+[تمكين التوصيات المخصصة](personalized-recommendations.md)
 
-[إضافة عنصر تحكم في التوصيات إلى شاشة الحركة على أجهزة نقطة البيع (POS)](../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json)
+[إلغاء الاشتراك في التوصيات المخصصة](personalization-gdpr.md)
+
+[إضافة قوائم توصيات المنتجات إلى موقع تجارة إلكترونية](add-reco-list-to-page.md)
+
+[إضافة توصيات المنتجات على نقطة البيع](product.md)
+
+[إضافة توصيات إلى شاشة المعاملة](add-recommendations-control-pos-screen.md)
+
+[إدارة نتائج توصيات الذكاء الاصطناعي والتعلم الآلي (AI-ML)](modify-product-recommendation-results.md)
+
+[إنشاء توصيات مختارة يدويًا](create-editorial-recommendation-lists.md)
+
+[إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
+
+[الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
 
 

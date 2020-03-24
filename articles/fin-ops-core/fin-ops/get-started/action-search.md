@@ -3,7 +3,7 @@ title: البحث عن إجراء
 description: تشرح هذه المقالة وظيفة البحث عن إجراء‬. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01247aa356625cb759306e5ead2afd3cdeb840f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bd4d81f010149c762dac0f4e6fa912c2e2cef072
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191306"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112158"
 ---
 # <a name="action-search"></a>البحث عن إجراء
 
@@ -69,6 +69,9 @@ ms.locfileid: "2191306"
 في المثال السابق، أظهرت عملية البحث عن إجراء نتائج من جزء الإجراءات القياسي في أعلى الصفحة. ومع ذلك، يعرض البحث عن إجراء أيضًا نتائج من أشرطة الأدوات المرئية الموجودة في أماكن أخرى في الصفحة. على سبيل المثال، تقوم بالبحث عن زر **المخزون الفعلي** الموجود في علامة التبويب السريعة **بنود أمر المبيعات**. في هذه الحالة، يُخبرك مسار الزر في قائمة النتائج (**بنود أمر المبيعات** &gt; **المخزون** &gt; **عرض**) أن هذا الزر يقع تحت **عرض** بعنوان زر قائمة **المخزون** في علامة التبويب السريعة **بنود أمر المبيعات**.
 
 [![المخزون الفعلي](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+
+> [!NOTE]
+> هناك بعض الأزرار التي لا تظهر في بحث الإجراء. وهي تشمل أزرار مربع الحوار من النماذج الفرعية. 
 
 ## <a name="action-search-vs-navigation-search"></a>البحث عن إجراء بحث مقابل البحث عن تنقل
 

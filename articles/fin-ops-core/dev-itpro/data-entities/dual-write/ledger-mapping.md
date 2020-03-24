@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6bf1c554f56c1424da9fde98f67f80a6b7c95461
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: d9bcec1d4bb0207a2c3e0d46f7661b666fea3736
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019619"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112204"
 ---
 # <a name="integrated-ledger"></a>دفتر الأستاذ المتكامل
 
@@ -32,28 +32,28 @@ ms.locfileid: "3019619"
 
 [!include [preview-banner](../../includes/preview-banner.md)]
 
-في تطبيق العمل، تقوم بيانات دفتر الأستاذ بتعريف الأساس الذي تم اعداده لكيفيه عمل أحدي الشركات. علي سبيل المثال، تصف بيانات دفتر الأستاذ السنه المالية التي تتبعها الشركة، والعملات التي تتعامل فيها، والحسابات التي تستخدمها. يصف هذا الموضوع تكامل البيانات المالية الرئيسية هذه.
+في تطبيق العمل، تقوم بيانات دفتر الأستاذ بتعريف الأساس الذي تم إعداده لكيفيه عمل أحدي الشركات. علي سبيل المثال، تصف بيانات دفتر الأستاذ السنه المالية التي تتبعها الشركة، والعملات التي تتعامل فيها، والحسابات التي تستخدمها. يصف هذا الموضوع تكامل البيانات المالية الرئيسية هذه.
 
 ## <a name="templates"></a>القوالب
 
 تشمل بيانات دفتر الأستاذ مجموعة من مخططات الكيانات المالية الرئيسية تعمل معًا أثناء تفاعل بيانات المورّد، كما هو موضح في الجدول التالي.
 
-تطبيقات Finance and Operations      | تطبيقات Dynamics 365 الأخرى
----------------------------------|---------------------------------
-العملات                       | transactioncurrencies
-FiscalCalendar                   | msdyn\_fiscalcalendars
-FiscalCalendarYear               | msdyn\_fiscalcalendaryears
-ExchRateType                     | msdyn\_exchangeratetypes
-ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs
-FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods
-MainAccountCategory              | msdyn\_mainaccountcategory
-الحساب الرئيسي                      | msdyn\_mainaccounts
-دفتر الأستاذ                           | msdyn\_ledgers
-ExchangeRates                    | msdyn\_currencyexchangerates
-FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods
-DimensionAttributeEntity         | msdyn\_dimensionattributes.md
-DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats.md
-LedgerChartOfAccounts            | msdyn\_chartofaccounts.md
+تطبيقات Finance and Operations      | تطبيق المستند إلى نموذج في Dynamics 365 | ‏‏الوصف
+---------------------------------|----------------------------------|------------
+العملات                       | transactioncurrencies            |
+FiscalCalendar                   | msdyn\_fiscalcalendars        |
+FiscalCalendarYear               | msdyn\_fiscalcalendaryears        |
+ExchRateType                     | msdyn\_exchangeratetypes        |
+ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs        |
+FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods        |
+MainAccountCategory              | msdyn\_mainaccountcategory        |
+الحساب الرئيسي                      | msdyn\_mainaccounts        |
+دفتر الأستاذ                           | msdyn\_ledgers        |
+ExchangeRates                    | msdyn\_currencyexchangerates        |
+FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods        |
+DimensionAttributeEntity         | msdyn\_dimensionattributes        |
+DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats        |
+LedgerChartOfAccounts            | msdyn\_chartofaccounts        |
 
 
 [!include [banner](../../includes/dual-write-symbols.md)]

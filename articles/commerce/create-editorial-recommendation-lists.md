@@ -1,9 +1,9 @@
 ---
-title: إنشاء قوائم توصيات منتجات المختارة
-description: يشرح هذا الموضوع كيف يمكن للتجار إنشاء قوائم منتجات يدوية لعملاء Microsoft Dynamics 365 Commerce وإدارتها.
+title: إنشاء توصيات مختارة يدويًا
+description: يشرح هذا الموضوع كيف يمكن للتجار إنشاء قوائم منتجات وإدارتها يدويًا لعملاء Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024923"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127711"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>إنشاء قوائم توصيات منتجات المختارة
+# <a name="manually-create-curated-recommendations"></a>إنشاء توصيات مختارة يدويًا
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيف يمكن للتجار إنشاء قوائم منتجات يدوية لعملاء Microsoft Dynamics 365 Commerce وإدارتها.
+يشرح هذا الموضوع كيف يمكن للتجار إنشاء قوائم توصيات منتجات وإدارتها يدويًا لعملاء Microsoft Dynamics 365 Commerce.
 
 القوائم المُجمّعة هي عبارة عن مجموعات من محتوى فردي تم إنشاؤه وتجميعه على يد أشخاص.  
 
@@ -56,8 +56,22 @@ ms.locfileid: "3024923"
 
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
+[تمكين ADLS في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
+
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
 
-[إضافة قوائم توصيات المنتجات إلى الصفحات](add-reco-list-to-page.md)
+[تمكين التوصيات المخصصة](personalized-recommendations.md)
 
-[نظرة عامة على الوحدة النمطية لمجموعة المنتجات](product-collection-module-overview.md)
+[إلغاء الاشتراك في التوصيات المخصصة](personalization-gdpr.md)
+
+[إضافة قوائم توصيات المنتجات إلى موقع تجارة إلكترونية](add-reco-list-to-page.md)
+
+[إضافة توصيات المنتجات على نقطة البيع](product.md)
+
+[إضافة توصيات إلى شاشة المعاملة](add-recommendations-control-pos-screen.md)
+
+[إدارة نتائج توصيات الذكاء الاصطناعي والتعلم الآلي (AI-ML)](modify-product-recommendation-results.md)
+
+[إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
+
+[الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)

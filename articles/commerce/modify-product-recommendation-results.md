@@ -1,9 +1,9 @@
 ---
-title: إدارة نتائج توصيات المنتجات المستندة إلى AI-ML
+title: ضبط نتائج توصيات المنتجات المستندة إلى AI-ML
 description: يوضح هذا الموضوع كيفية نفصيل نتائج توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) مع احتياجات أعمالك.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5da77f71fb2569adc011bb9ee9c8c795d85545f8
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024992"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127918"
 ---
-# <a name="manage-ai-ml-based-product-recommendation-results"></a>إدارة نتائج توصيات المنتجات المستندة إلى AI-ML
+# <a name="adjust-ai-ml-based-product-recommendation-results"></a>ضبط نتائج توصيات المنتجات المستندة إلى AI-ML
 
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية نفصيل نتائج توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) مع احتياجات أعمالك. 
+يوضح هذا الموضوع كيفية ضبط نتائج توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) بحيث تتلاءم مع احتياجات أعمالك. 
 
 بعد تمكين توصيات المنتج، ستصبح الإعدادات الافتراضية نافذة المفعول؛ أي أن هذه المعلمات ستؤدي دورها لتلبية العديد من الاحتياجات. من الأفضل التخطيط لقضاء بعض الوقت في تقييم ما إذا كانت النتائج تناسب حركه بيع المنتجات أم لا. نقترح عليك تقييم النتائج لأيام قليلة قبل تغيير المعلمات حسب الحاجة قبل الاختبار مرة أخرى. 
 
@@ -102,10 +102,22 @@ ms.locfileid: "3024992"
 
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
+[تمكين ADLS في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
+
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
 
 [تمكين التوصيات المخصصة](personalized-recommendations.md)
 
-[إضافة قوائم توصيات المنتجات إلى الصفحات](add-reco-list-to-page.md)
+[إلغاء الاشتراك في التوصيات المخصصة](personalization-gdpr.md)
 
-[نظرة عامة على الوحدة النمطية لمجموعة المنتجات](product-collection-module-overview.md)
+[إضافة قوائم توصيات المنتجات إلى موقع تجارة إلكترونية](add-reco-list-to-page.md)
+
+[إضافة توصيات المنتجات على نقطة البيع](product.md)
+
+[إضافة توصيات إلى شاشة المعاملة](add-recommendations-control-pos-screen.md)
+
+[إنشاء توصيات مختارة يدويًا](create-editorial-recommendation-lists.md)
+
+[إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
+
+[الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
