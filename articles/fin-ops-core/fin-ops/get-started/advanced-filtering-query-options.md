@@ -1,9 +1,9 @@
 ---
 title: التصفية المتقدمة وبنية الاستعلام
-description: يوضح هذا الموضوع خيارات التصفية والاستعلام التي تتوفر عند استخدام مربع الحوار التصفية/الفرز المتقدم أو عامل تشغيل تطابق في جزء عامل التصفية أو عوامل تصفية عناوين أعمدة الشبكة.
+description: يصف هذا الموضوع خيارات التصفية والاستعلام التي تتوفر عند استخدام مربع الحوار التصفية/الفرز المتقدم أو عامل تشغيل التطابق في جزء عامل التصفية أو عوامل تصفية عناوين أعمدة الشبكة.
 author: jasongre
 manager: AnnBe
-ms.date: 01/02/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
-ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
+ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "2931278"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112181"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>التصفية المتقدمة وبنية الاستعلام
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع خيارات التصفية والاستعلام التي تتوفر عند استخدام مربع الحوار التصفية/الفرز المتقدم أو عامل تشغيل **تطابق** في جزء عامل التصفية أو عوامل تصفية عناوين أعمدة الشبكة.
+يصف هذا الموضوع خيارات التصفية والاستعلام التي تتوفر عند استخدام مربع الحوار التصفية/الفرز المتقدم أو عامل تشغيل **التطابق** في جزء عامل التصفية أو عوامل تصفية عناوين أعمدة الشبكة.
 
 ## <a name="advanced-query-syntax"></a>‏‫بنية الاستعلام المتقدمة
 
@@ -122,13 +122,14 @@ ms.locfileid: "2931278"
 <td>يوجد علامتي اقتباس مزدوج متتالية (<strong>""</strong>) يعثران على صفوف بدون قيمة للعمود الحالي.</td>
 </tr>
 <tr>
-<td>(<span class="code">عبارة SQL</span>) (عبارة SQL بين قوسين)</td>
+<td>(<span class="code">استعلام Finance and Operations</span>) (Finance and Operations استعلام بين قوسين)</td>
 <td>مطابقة استعلام محدد</td>
-<td>اكتب استعلامًا على هيئة عبارة SQL بين قوسين.</td>
-<td><strong><span class="code">(مصدر البيانات.اسم الحقل != &quot;A&quot;)</span></strong></td>
+<td>اكتب استعلامًا كعبارة SQL بين قوسين باستخدام لغة الاستعلام في Finance and Operations.</td>
+  <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
+       كمثال على بناء جملة لشرط عامل تصفية في حقل من مصدر البيانات الجذر بالإضافة إلى حقل من مصدر بيانات مختلف (لصفحة كافة العملاء)</td>
 </tr>
 <tr>
-<td>ث</td>
+<td>ا</td>
 <td>تاريخ اليوم</td>
 <td>اكتب <strong>T</strong>.</td>
 <td><strong>T</strong> تطابق تاريخ اليوم (today's date).</td>

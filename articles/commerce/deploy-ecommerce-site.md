@@ -3,7 +3,7 @@ title: نشر مستأجر التجارة الإلكترونية الجديد
 description: يصف هذا الموضوع كيفية نشر مستأجر التجارة الإلكترونية الجديد باستخدام Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001773"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096668"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>نشر مستأجر التجارة الإلكترونية الجديد
 
@@ -72,7 +72,7 @@ ms.locfileid: "3001773"
 بعد تجميع المعلومات المطلوبة، اتبع الخطوات التالية لتهيئه التجارة الإلكترونية.
 
 1. سجل الدخول إلى [LCS](https://lcs.dynamics.com).
-1. افتح المشروع الذي يحتوي علي البيئة التي ترغب في تهيئة التجارة الإلكترونية فيها.
+1. افتح المشروع الذي يحتوي على البيئة التي ترغب في تهيئة التجارة الإلكترونية فيها.
 1. في قسم **البيئات** ، حدد البيئة.
 1. تحت **ميزات البيئة**، حدد ارتباط **إدارة Retail** .
 1. في علامة التبويب **التجارة الإلكترونية** ، حدد **إعداد**. سوف يظهر مربع حوار، حيث يجب عليك إدخال المعلومات المطلوب توفيرها.
@@ -97,11 +97,19 @@ ms.locfileid: "3001773"
 
 [إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
 
+[إعداد قناة متجر عبر الإنترنت](online-stores.md)
+
 [إقران موقع عبر الإنترنت بقناة](associate-site-online-store.md)
 
 [إدارة ملفات robots.txt](manage-robots-txt-files.md)
 
+[تحميل عناوين URL لإعادة التوجيه‬ بشكل مجمع](upload-bulk-redirects.md)
+
+[إعداد مستأجر B2C في Commerce](set-up-B2C-tenant.md)
+
 [إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين](custom-pages-user-logins.md)
+
+[تكوين مستأجرين متعددين لمتاجرة عمل-مستهلك في بيئة Commerce](configure-multi-B2C-tenants.md)
 
 [إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
 

@@ -1,6 +1,6 @@
 ---
-title: إعداد تكرارات الدفع
-description: ''
+title: إعداد تكرارات المدفوعات
+description: تستخدم Microsoft Dynamics 365 Human Resources تكرارات الدفع لحساب راتب الميزة السنوي وتحدد مبلغ قسط الميزة الذي يدفعه الموظف كل فترة دفع وتحدد دفعات التكرار التي يتم تقديمها إلى الممولين.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5fe0a16c4abbb9241fcdac88fd56e92bf04788c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: b786485ab53dcdb3b7e5ff02562f674a7f8e6eae
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008017"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092581"
 ---
-# <a name="set-up-payment-frequencies"></a>إعداد تكرارات الدفع
+# <a name="set-up-payment-frequencies"></a>إعداد تكرارات المدفوعات
 
 [!include [banner](includes/preview-feature.md)]
 

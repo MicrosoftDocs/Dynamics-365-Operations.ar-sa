@@ -3,7 +3,7 @@ title: ربط موقع التجارة الإلكترونية بقناة على �
 description: يشرح هذا الموضوع كيفية ربط موقع Microsoft Dynamics 365 Commerce الخاص بك بواحد أو أكثر من المتاجر عبر الإنترنت.
 author: stuharg
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8de02eca941054c7c43dec1c904f461da1927230
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 30a992ae5cc68173b830224ae88ac3770b414b7a
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001198"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096691"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>ربط موقع التجارة الإلكترونية بقناة على الإنترنت
 
@@ -44,11 +44,19 @@ ms.locfileid: "3001198"
 
 [نشر موقع تجارة إلكترونية جديد](deploy-ecommerce-site.md)
 
+[إعداد قناة متجر عبر الإنترنت](online-stores.md)
+
 [إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
 
 [إدارة ملفات robots.txt](manage-robots-txt-files.md)
 
+[تحميل عناوين URL لإعادة التوجيه‬ بشكل مجمع](upload-bulk-redirects.md)
+
+[إعداد مستأجر B2C في Commerce](set-up-B2C-tenant.md)
+
 [إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين](custom-pages-user-logins.md)
+
+[تكوين مستأجرين متعددين لمتاجرة عمل-مستهلك في بيئة Commerce](configure-multi-B2C-tenants.md)
 
 [إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057846"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113749"
 ---
 # <a name="warehouse-set-up"></a>إعداد مستودع
 
@@ -33,7 +33,7 @@ ms.locfileid: "3057846"
 
 ## <a name="overview"></a>نظرة عامة
 
-تحتاج كل قناة تجارية إلى مستودع مكوّن يرتبط بها. توفر الإجراءات التالية الحد الأدنى من التكوين المطلوب لإعداد مستودع لقناة تجارية. لمزيد من المعلومات حول إعداد المستودع، راجع [نظرة عامة حول إدارة المستودعات](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview).
+تحتاج كل قناة تجارية إلى مستودع مكوّن يرتبط بها. توفر الإجراءات التالية الحد الأدنى من التكوين المطلوب لإعداد مستودع لقناة تجارية. لمزيد من المعلومات حول إعداد المستودع، راجع [نظرة عامة حول إدارة المستودعات](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="configure-a-warehouse-site"></a>تكوين موقع مستودع
 
@@ -131,7 +131,7 @@ ms.locfileid: "3057846"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على إدارة المستودعات](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview)
+[نظرة عامة على إدارة المستودعات](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
 [نظرة عامة على القنوات](channels-overview.md)
 

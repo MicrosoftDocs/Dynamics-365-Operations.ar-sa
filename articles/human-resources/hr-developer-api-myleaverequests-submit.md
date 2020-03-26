@@ -1,6 +1,6 @@
 ---
 title: إرسال طلب إجازة إلى سير العمل
-description: ''
+description: في Microsoft Dynamics 365 Human Resources، يمكنك استخدام واجهة برمجه التطبيقات MyLeaveRequests submit() لإرسال طلب الإجازة إلى سير العمل.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 008ee231ca9f0459e332b17cea9f2a3f3e3cc2a5
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008006"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092004"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>إرسال طلب إجازة إلى سير العمل
 
@@ -99,7 +99,7 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
  - قد يضع الطلب الرصيد '{LeaveTypeId}' تحت الحد الأدنى للرصيد المسوح به في {date}.
  - لا يمكن إرسال طلب زمن التوقف في حالة مكتملة.
  - لا يمكن إرسال طلب أو حفظه لأنه لم يتم إجراء أية تغييرات. قم بإضافة أو تحديث المبلغ أو نوع الإجازة ثم حاول مرة أخرى.
- - طلب زمن التوقف الذي أدخلته يحتوي علي يوم واحد أو أكثر بنفس التاريخ ونوع الإجازة كطلب معلق موجود. الرجاء استدعاء الطلب الموجود لإجراء التغييرات.
+ - طلب زمن التوقف الذي أدخلته يحتوي على يوم واحد أو أكثر بنفس التاريخ ونوع الإجازة كطلب معلق موجود. الرجاء استدعاء الطلب الموجود لإجراء التغييرات.
  - لا ينطبق رمز السبب '{ReasonCodeId}' على أي من أنواع الإجازات في الطلب.
  - يتطلب نوع الإجازة '{LeaveTypeId}' رمز سبب. حدد النوع المناسب ورمز السبب.
  - لم يتم إرسال زمن التوقف بنجاح. تم حفظ زمن التوقف كطلب مسودة.

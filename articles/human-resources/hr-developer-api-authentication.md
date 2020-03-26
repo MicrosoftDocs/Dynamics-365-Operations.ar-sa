@@ -1,6 +1,6 @@
 ---
-title: المصادقة
-description: ''
+title: مصادقة
+description: يقدم هذا المقال معلومات عامة حول كيفية المصادقة مع واجهة برمجة تطبيقات بيانات Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 025feca31eed8649bc319a1e1a1b6d1af3ddb128
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008008"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092096"
 ---
-# <a name="authentication"></a>المصادقة
+# <a name="authentication"></a>مصادقة
 
 يقدم هذا المقال معلومات عامة حول كيفية المصادقة مع واجهة برمجة تطبيقات بيانات Microsoft Dynamics 365 Human Resources.
 
@@ -37,13 +37,13 @@ ms.locfileid: "3008008"
 
 ## <a name="fundamentals"></a>القواعد الأساسية
 
-لاستدعاء API للبيانات، يجب أن يحصل التطبيق الخاص بك على رمز مميز للوصول من النظام الأساسي لهويه Microsoft. يحتوي الرمز المميز للوصول على معلومات حول التطبيق الخاص بك والإذن الذي يجب عليه استدعاء الموارد في الموارد البشرية.
+لاستدعاء API للبيانات، يجب أن يحصل التطبيق الخاص بك على رمز مميز للوصول من النظام الأساسي ل هوية  Microsoft. يحتوي الرمز المميز للوصول على معلومات حول التطبيق الخاص بك والإذن الذي يجب عليه استدعاء الموارد في الموارد البشرية.
 
 ### <a name="access-token"></a>الرمز المميز للوصول
 
-الرموز المميزة للوصول التي يصدرها النظام الأساسي لهويه Microsoft هي رموز JavaScript Object Notation (JSON) مميزة للويب (JWTs) يتم ترميزها باستخدام base64. وهي تحتوي على معلومات (مطالبات) تستخدمها واجهة API للبيانات (وواجهات API الويب الأخرى التي تم تأمينها بواسطة النظام الأساسي لهويه Microsoft) للتحقق من المتصل والتأكد من أنه يملك الأذونات الصحيحة لتنفيذ العملية التي يطلبها. أثناء المكالمات، يمكنك التعامل مع رموز الوصول المميزة على أنها غير شفافة. يجب عليك دائمًا نقل رموز الوصول المميزة عبر قناة آمنة ، مثل أمان طبقة النقل (TLS) وبروتوكول نقل النص التشعبي الآمن (HTTPS).
+الرموز المميزة للوصول التي يصدرها النظام الأساسي ل هوية  Microsoft هي رموز JavaScript Object Notation (JSON) مميزة للويب (JWTs) يتم ترميزها باستخدام base64. وهي تحتوي على معلومات (مطالبات) تستخدمها واجهة API للبيانات (وواجهات API الويب الأخرى التي تم تأمينها بواسطة النظام الأساسي ل هوية  Microsoft) للتحقق من المتصل والتأكد من أنه يملك الأذونات الصحيحة لتنفيذ العملية التي يطلبها. أثناء المكالمات، يمكنك التعامل مع رموز الوصول المميزة على أنها غير شفافة. يجب عليك دائمًا نقل رموز الوصول المميزة عبر قناة آمنة ، مثل أمان طبقة النقل (TLS) وبروتوكول نقل النص التشعبي الآمن (HTTPS).
 
-وفيما يلي مثال لرمز وصول مميز تم إصداره بواسطة النظام الأساسي لهويه Microsoft.
+وفيما يلي مثال لرمز وصول مميز تم إصداره بواسطة النظام الأساسي ل هوية  Microsoft.
 
 ```jwt
 EwAoA8l6BAAU7p9QDpi/D7xJLwsTgCg3TskyTaQAAXu71AU9f4aS4rOK5xoO/SU5HZKSXtCsDe0Pj7uSc5Ug008qTI+a9M1tBeKoTs7tHzhJNSKgk7pm5e8d3oGWXX5shyOG3cKSqgfwuNDnmmPDNDivwmi9kmKqWIC9OQRf8InpYXH7NdUYNwN+jljffvNTewdZz42VPrvqoMH7hSxiG7A1h8leOv4F3Ek/oeJX6U8nnL9nJ5pHLVuPWD0aNnTPTJD8Y4oQTp5zLhDIIfaJCaGcQperULVF7K6yX8MhHxIBwek418rKIp11om0SWBXOYSGOM0rNNN59qNiKwLNK+MPUf7ObcRBN5I5vg8jB7IMoz66jrNmT2uiWCyI8MmYDZgAACPoaZ9REyqke+AE1/x1ZX0w7OamUexKF8YGZiw+cDpT/BP1GsONnwI4a8M7HsBtDgZPRd6/Hfqlq3HE2xLuhYX8bAc1MUr0gP9KuH6HDQNlIV4KaRZWxyRo1wmKHOF5G5wTHrtxg8tnXylMc1PKOtaXIU4JJZ1l4x/7FwhPmg9M86PBPWr5zwUj2CVXC7wWlL/6M89Mlh8yXESMO3AIuAmEMKjqauPrgi9hAdI2oqnLZWCRL9gcHBida1y0DTXQhcwMv1ORrk65VFHtVgYAegrxu3NDoJiDyVaPZxDwTYRGjPII3va8GALAMVy5xou2ikzRvJjW7Gm3XoaqJCTCExN4m5i/Dqc81Gr4uT7OaeypYTUjnwCh7aMhsOTDJehefzjXhlkn//2eik+NivKx/BTJBEdT6MR97Wh/ns/VcK7QTmbjwbU2cwLngT7Ylq+uzhx54R9JMaSLhnw+/nIrcVkG77Hi3neShKeZmnl5DC9PuwIbtNvVge3Q+V0ws2zsL3z7ndz4tTMYFdvR/XbrnbEErTDLWrV6Lc3JHQMs0bYUyTBg5dThwCiuZ1evaT6BlMMLuSCVxdBGzXTBcvGwihFzZbyNoX+52DS5x+RbIEvd6KWOpQ6Ni+1GAawHDdNUiQTQFXRxLSHfc9fh7hE4qcD7PqHGsykYj7A0XqHCjbKKgWSkcAg==
@@ -79,7 +79,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
     - **عنوان URI لإعادة التوجيه (اختياري)** - حدد نوع التطبيق الذي تقوم بتصميمه: **ويب** أو **عميل عام (هاتف محمول وسطح المكتب)**. ثم أدخل عنوان URI لإعادة التوجيه (أو عنوان URL الخاص بالرد) للتطبيق.
 
-        - بالنسبة لتطبيقات الويب، قم بتوفير عنوان URL الأساسي الخاص بالتطبيق. على سبيل المثال، قد يكون `http://localhost:31544` هو عنوان URL الخاص بتطبيق ويب الذي يتم تشغيله علي الجهاز المحلي الخاص بك. ثم يقوم المستخدمون باستخدام عنوان URL هذا لتسجيل الدخول إلى تطبيق عميل ويب.
+        - بالنسبة لتطبيقات الويب، قم بتوفير عنوان URL الأساسي الخاص بالتطبيق. على سبيل المثال، قد يكون `http://localhost:31544` هو عنوان URL الخاص بتطبيق ويب الذي يتم تشغيله على الجهاز المحلي الخاص بك. ثم يقوم المستخدمون باستخدام عنوان URL هذا لتسجيل الدخول إلى تطبيق عميل ويب.
         - بالنسبة لتطبيقات العميل العامة، قم بتوفير عنوان URL الذي يستخدمه Azure AD لإرجاع استجابات الرمز المميزة. أدخل قيمة خاصة بالتطبيق، مثل `myapp://auth`.
 
         لمشاهدة أمثلة معينة لتطبيقات الويب أو التطبيقات الأصلية، راجع قوالب التشغيل السريع في [النظام الأساسي للهوية Microsoft (الذي كان يسمى سابقًا Azure Active Directory للمطورين)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).

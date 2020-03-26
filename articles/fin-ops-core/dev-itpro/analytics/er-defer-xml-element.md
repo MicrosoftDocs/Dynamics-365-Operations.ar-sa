@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015095"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120868"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية
 
@@ -47,9 +47,9 @@ ms.locfileid: "3015095"
 
 خيار **التنفيذ المؤجل** غير معتمد لعناصر XML الموجودة في عنصر التنسيق**العام\\الملف** عند تعيين خيار**تقسيم الملف** على **نعم**. لمزيد من المعلومات حول كيفية تقسيم ملفات XML، راجع [تقسيم ملفات XML المنشأة حسب حجم الملف وكمية المحتوى](er-split-files.md).
 
-## <a name="Example"></a>مثال: تأجيل تنفيذ عنصر XML في تنسيق إعداد التقارير الإلكترونية
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>مثال: تأجيل تنفيذ عنصر XML في تنسيق إعداد التقارير الإلكترونية
 
-توضح الخطوات التالية كيفية تكوين مستخدم في [دور](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)مستشار وظيفة إعداد التقارير الإلكترونية أو مسؤول النظام لتنسيق إعداد التقارير الإلكترونية الذي يحتوي علي عنصر XML يختلف فيه ترتيب التنفيذ عن الترتيب الموجود في التدرج الهرمي للتنسيق.
+توضح الخطوات التالية كيفية تكوين مستخدم في [دور](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)مستشار وظيفة إعداد التقارير الإلكترونية أو مسؤول النظام لتنسيق إعداد التقارير الإلكترونية الذي يحتوي على عنصر XML يختلف فيه ترتيب التنفيذ عن الترتيب الموجود في التدرج الهرمي للتنسيق.
 
 يمكن تنفيذ هذه الخطوات في شركة **USMF** في Microsoft Dynamics 365 Finance.
 

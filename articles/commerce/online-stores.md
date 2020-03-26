@@ -3,7 +3,7 @@ title: إعداد قناة متجر عبر الإنترنت
 description: توفر هذه المقالة معلومات حول قنوات المتاجر عبر الإنترنت وكيفية إعدادها في Dynamics 365 Commerce.
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021541"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096884"
 ---
 # <a name="set-up-an-online-store-channel"></a>إعداد قناة متجر عبر الإنترنت
 
@@ -71,3 +71,27 @@ ms.locfileid: "3021541"
 عندما تقوم بإنشاء تدرج هرمي للمؤسسات، تقوم بتعيين غرض منه. يشير الغرض إلى كيفية استخدام التدرج الهرمي في بنية الأعمال. يمكنك إنشاء تدرج هرمي واحد للمؤسسات لعمليات المتجر الخاص بك، واستخدام هذا التدرج الهرمي لعمليات الفرز والتزويد وإعداد التقارير. 
 
 ‏‫وكبديل لذلك، يمكنك إنشاء تدرج هرمي للمؤسسات منفصل لكل غرض. يمكنك أيضًا إنشاء تدرجات هرمية متعددة لنفس الغرض وتعيين قناة لكل منهم. إذا كنت تنوي نشر كتالوجات المنتجات على المتجر على الإنترنت، يجب عليك، كحد أدنى، إضافة المتاجر على الإنترنت لتدرج هرمي تنظيمي لعمليات الفرز. يتم تحديد المنتجات في الكتالوج من تشكيلات منتجات يتم تعيينها إلى المتجر عبر الإنترنت. عند نشر الكتالوج، عملية النشر تقارن تواريخ السريان للفرز الذي تم تعيينه للمتجر على الإنترنت باستخدام المنتجات المتضمنة في الكتالوج لتحديد المنتجات التي تتوفر في المتجر على الإنترنت.
+
+## <a name="additional-resources"></a>الموارد الإضافية
+
+[تكوين اسم مجالك](configure-your-domain-name.md)
+
+[نشر موقع تجارة إلكترونية جديد](deploy-ecommerce-site.md)
+
+[إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
+
+[إقران موقع عبر الإنترنت بقناة](associate-site-online-store.md)
+
+[إدارة ملفات robots.txt](manage-robots-txt-files.md)
+
+[تحميل عناوين URL لإعادة التوجيه‬ بشكل مجمع](upload-bulk-redirects.md)
+
+[إعداد مستأجر B2C في Commerce](set-up-B2C-tenant.md)
+
+[إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين](custom-pages-user-logins.md)
+
+[تكوين مستأجرين متعددين لمتاجرة عمل-مستهلك في بيئة Commerce](configure-multi-B2C-tenants.md)
+
+[إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
+
+[تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)

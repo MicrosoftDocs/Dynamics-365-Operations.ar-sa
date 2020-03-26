@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004009"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095607"
 ---
 # <a name="product-identifiers"></a>معرّفات المنتجات 
 
@@ -43,9 +43,6 @@ ms.locfileid: "3004009"
 عند استخدامك Supply Chain Management، يجب أن تُولي اهتمامًا خاصًا لاستراتيجيتك الخاصة بأرقام المنتجات. يُحسّن نظام ترقيم جيد اللوجستيات التي تتدفق ويساعد على منع الأخطاء. يحتوي معرف المنتج الجيد على 15 حرفًا كحد أقصى. وبشكل مثالي، يحتوي على أقل من 10 أحرف ويتضمن أكثر من خمسة أحرف تصنيف. يمكنك أيضًا استخدام أسماء البحث لتمكين عمليات البحث السريع. اسم البحث هو اسم إضافي يمثل تصنيفات أحد المنتجات.
 
 عند استخدام Common Data Service، يكون رقم المنتج في Supply Chain Management هو أيضا رقم المنتج الموجود في Common Data Service تتم مزامنة متغيرات المنتجات مع Common Data Service كمنتجات مميزة.
-
-> [!NOTE]
-> لا يمكن أن يبدأ رقم المنتج بـ "%".
 
 ## <a name="item-number-and-product-dimensions"></a>رقم الصنف وأبعاد المنتجات
 

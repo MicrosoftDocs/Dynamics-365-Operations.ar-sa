@@ -3,7 +3,7 @@ title: إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
 description: يوضح هذا الموضوع كيفية إضافة شبكة توصيل المحتوى (CDN) إلى بيئة Microsoft Dynamics 365 Commerce الخاصة بك.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bf5a0da2803f985e6c0c04dd9916977397173d11
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 23ac9d8844c2a8ae20bd316c40078319601a3a4d
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001612"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096715"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
 
@@ -144,12 +144,20 @@ ms.locfileid: "3001612"
 
 [نشر موقع تجارة إلكترونية جديد](deploy-ecommerce-site.md)
 
+[إعداد قناة متجر عبر الإنترنت](online-stores.md)
+
 [إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
 
 [إقران موقع عبر الإنترنت بقناة](associate-site-online-store.md)
 
 [إدارة ملفات robots.txt](manage-robots-txt-files.md)
 
+[تحميل عناوين URL لإعادة التوجيه‬ بشكل مجمع](upload-bulk-redirects.md)
+
+[إعداد مستأجر B2C في Commerce](set-up-B2C-tenant.md)
+
 [إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين](custom-pages-user-logins.md)
+
+[تكوين مستأجرين متعددين لمتاجرة عمل-مستهلك في بيئة Commerce](configure-multi-B2C-tenants.md)
 
 [تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)

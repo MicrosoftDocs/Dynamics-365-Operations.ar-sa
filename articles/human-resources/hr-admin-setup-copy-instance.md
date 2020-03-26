@@ -1,6 +1,6 @@
 ---
 title: نسخ مثيل
-description: ''
+description: يمكنك استخدام Microsoft Dynamics Lifecycle Services (LCS) لنسخ قاعدة بيانات Microsoft Dynamics 365 Human Resources إلى بيئة وضع الحماية.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0bbe325edb65cad0c1912e0a6ade559e5675dc58
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: bb363369994d99f358be0c23cdaf1dbc80b644e5
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007912"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092282"
 ---
 # <a name="copy-an-instance"></a>نسخ مثيل
 
@@ -68,11 +68,11 @@ ms.locfileid: "3007912"
 
 4. في جزء المهام **نسخ مثيل** ، حدد المثيل المراد استبداله، ثم حدد **نسخ**. انتظر حتي يتم تحديث قيمة حقل **نسخ الحالة** إلى **مكتمل**.
 
-   ![[حدد مثيلًا لاستبداله](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[تحديد مثيل لاستبداله](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. حدد **Power Platform**، وقم بتسجيل الدخول إلى مركز مسؤول Microsoft Power Platform.
 
-   ![[حدد Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[تحديد Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. حدد بيئة PowerApps المراد نسخها، ثم حدد **نسخ**.
 

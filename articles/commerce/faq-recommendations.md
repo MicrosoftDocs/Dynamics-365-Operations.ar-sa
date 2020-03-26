@@ -3,7 +3,7 @@ title: الأسئلة المتداولة حول توصيات المنتجات
 description: يوفر هذا الموضوع معلومات حول العمليات والأدوات التي يمكنك استخدامها لاستكشاف المشكلات المتعلقة بتوصيات المنتج أو النتائج الخاصة بها.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7951f92ef68a7a782f2874d7b73d7e45eba0afba
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3add4e2e0d5cc16b561b808aacf5cef94fea5ae5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003017"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127780"
 ---
 # <a name="product-recommendations-faq"></a>الأسئلة المتداولة حول توصيات المنتجات
 
@@ -73,14 +73,30 @@ ms.locfileid: "3003017"
 
 للحصول على معلومات حول كيفية إضافة صفحات توصية المنتج إلى موقع التجارة الإلكترونية، راجع [إضافة قوائم توصيات المنتج إلى الصفحات](add-reco-list-to-page.md).
 
-## <a name="how-do-i-enable-recommendations-on-pos"></a>كيف يتم تمكين التوصيات علي نقطه البيع؟
+## <a name="how-do-i-enable-recommendations-on-pos"></a>كيف يتم تمكين التوصيات على نقطه البيع؟
 
-بعد تمكين توصيات المنتج، سوف تحتاج إلى إضافة لوحة التوصيات إلى شاشة التحكم في نقاط البيع. راجع [وثائق هذه الميزة](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/add-recommendations-control-pos-screen) للحصول على مزيد من المعلومات حول كيفية إضافة لوحة التوصيات إلى تخطيط جهاز نقطه البيع.
+بعد تمكين توصيات المنتج، سوف تحتاج إلى إضافة لوحة التوصيات إلى شاشة التحكم في نقاط البيع. لمزيد من المعلومات، راجع [إضافة عنصر تحكم التوصيات إلى شاشة الحركة على أجهزة نقطة البيع (POS)](add-recommendations-control-pos-screen.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
+[تمكين ADLS في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
+
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
 
-[إدارة نتائج توصيات المنتجات المستندة إلى AI-ML](modify-product-recommendation-results.md)
+[تمكين التوصيات المخصصة](personalized-recommendations.md)
+
+[إلغاء الاشتراك في التوصيات المخصصة](personalization-gdpr.md)
+
+[إضافة قوائم توصيات المنتجات إلى موقع تجارة إلكترونية](add-reco-list-to-page.md)
+
+[إضافة توصيات المنتجات على نقطة البيع](product.md)
+
+[إضافة توصيات إلى شاشة المعاملة](add-recommendations-control-pos-screen.md)
+
+[إدارة نتائج توصيات الذكاء الاصطناعي والتعلم الآلي (AI-ML)](modify-product-recommendation-results.md)
+
+[إنشاء توصيات مختارة يدويًا](create-editorial-recommendation-lists.md)
+
+[إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)

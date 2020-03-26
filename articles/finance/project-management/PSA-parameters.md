@@ -3,7 +3,7 @@ title: محددات تكامل Project Service Automation
 description: يشرح هذا الموضوع كيفية تكوين طريقة إدخال البيانات الافتراضية عند تمكين تكامل Microsoft Dynamics 365 for Project Service Automation مع Dynamics 365 Finance Microsoft.
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: f7cef5384812e0dcb7d5e084ddd7668a7687a259
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd09dad15112fd71bfd386e0072a77a4121c96e0
+ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174738"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096241"
 ---
 # <a name="project-service-automation-integration-parameters"></a>معلمات تكامل Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
 في صفحة **معلمات تكامل Project Service Automation‬**، يمكنك تكوين كيفية إدخال البيانات الافتراضية عند تمكين تكامل Dynamics 365 Project Service Automation مع Dynamics 365 Finance. لكي تتم مزامنة المشاريع بشكل ناجح من Project Service Automation إلى Finance، يجب إعداد الحقول التالية.
+
+لفتح صفحة **معلمات تكامل Project Service Automation**، انتقل إلى **إدارة المشاريع ومحاسبتها** \> **إعداد** \> **معلمات تكامل Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - تتوافر ميزات تكامل مهام المشروع وفئات حركات المصروفات وتقديرات عدد الساعات وتقديرات المصروفات وتأمين الوظيفة في الإصدار 8.0.

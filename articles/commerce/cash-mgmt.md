@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28b034c9b2a2c7ae63b055338dea3aab4a3b86f2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021444"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127688"
 ---
 # <a name="cash-management-improvements"></a>تحسينات إدارة النقد
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 إدارة النقد هي وظيفة رئيسية لتجار التجزئة في المتاجر الفعلية. يرغب تجار التجزئة في امتلاك متاجرهم لأنظمة يمكن أن تساعدهم على توفير إمكانية تتبع ومساءلة كاملة للنقد وحركته عبر مختلف السجلات والصرافين في المتجر. يجب أن تكون قادرة على تسوية أي اختلافات وتحديد المساءلة.
 

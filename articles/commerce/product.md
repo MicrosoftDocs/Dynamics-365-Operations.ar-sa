@@ -1,9 +1,9 @@
 ---
-title: توصيات المنتجات على نقطة البيع‬
+title: إضافة توصيات المنتجات على نقطة البيع
 description: ‏‫يصف هذا الموضوع استخدام توصيات المنتج على جهاز نقطه البيع (POS).
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bfb13904b774558907b29e74158b1e0a193e17cd
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 48533596c5bdc73dd8c815166e7dde0ca2f3cb4d
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057431"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127803"
 ---
-# <a name="product-recommendations-on-pos"></a>توصيات المنتجات على نقطة البيع
+# <a name="add-product-recommendations-on-pos"></a>إضافة توصيات المنتجات على نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
@@ -71,8 +71,24 @@ ms.locfileid: "3057431"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[إضافة عنصر تحكم في التوصيات إلى شاشة الحركة على أجهزة نقطة البيع (POS)](add-recommendations-control-pos-screen.md)
+[نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
-[نظرة عامة على توصيات المنتجات](../commerce/product-recommendations.md)
+[تمكين ADLS في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
 
-[تمكين توصيات المنتجات](../commerce/enable-product-recommendations.md) 
+[تمكين توصيات المنتجات](enable-product-recommendations.md)
+
+[تمكين التوصيات المخصصة](personalized-recommendations.md)
+
+[إلغاء الاشتراك في التوصيات المخصصة](personalization-gdpr.md)
+
+[إضافة قوائم توصيات المنتجات إلى موقع تجارة إلكترونية](add-reco-list-to-page.md)
+
+[إضافة توصيات إلى شاشة المعاملة](add-recommendations-control-pos-screen.md)
+
+[إدارة نتائج توصيات الذكاء الاصطناعي والتعلم الآلي (AI-ML)](modify-product-recommendation-results.md)
+
+[إنشاء توصيات مختارة يدويًا](create-editorial-recommendation-lists.md)
+
+[إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
+
+[الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)

@@ -3,7 +3,7 @@ title: تمكين اكتشاف المتجر استنادًا إلى الموقع
 description: يوضح هذا الموضوع كيفية تشغيل اكتشاف المتجر استنادًا إلى الموقع‬ لموقع Dynamics 365 Commerce الخاص بك.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 304d8d2f05916295b9c6320561d6a25ff40df955
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 66ffe56f9d969c9d62ed4ff49f0848fab7e58a56
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003078"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096859"
 ---
 # <a name="enable-location-based-store-detection"></a>تمكين اكتشاف المتجر استنادًا إلى الموقع
 
@@ -44,7 +44,7 @@ ms.locfileid: "3003078"
 لتشغيل اكتشاف المتجر استنادًا إلى الموقع في Commerce، اتبع الخطوات التالية.
 
 1. في أداة التأليف ، انتقل إلى الموقع الخاص بك.
-1. في جزء التنقل علي اليسار، حدد **إدارة الموقع**.
+1. في جزء التنقل على اليسار، حدد **إدارة الموقع**.
 1. حدد **إعدادات الموقع**.
 1. قم بتعيين خيار **تمكين اكتشاف المتجر استنادًا إلى الموقع** إلى **تشغيل**.
 
@@ -54,12 +54,20 @@ ms.locfileid: "3003078"
 
 [نشر موقع تجارة إلكترونية جديد](deploy-ecommerce-site.md)
 
+[إعداد قناة متجر عبر الإنترنت](online-stores.md)
+
 [إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
 
 [إقران موقع عبر الإنترنت بقناة](associate-site-online-store.md)
 
 [إدارة ملفات robots.txt](manage-robots-txt-files.md)
 
+[تحميل عناوين URL لإعادة التوجيه‬ بشكل مجمع](upload-bulk-redirects.md)
+
+[إعداد مستأجر B2C في Commerce](set-up-B2C-tenant.md)
+
 [إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين](custom-pages-user-logins.md)
+
+[تكوين مستأجرين متعددين لمتاجرة عمل-مستهلك في بيئة Commerce](configure-multi-B2C-tenants.md)
 
 [إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
