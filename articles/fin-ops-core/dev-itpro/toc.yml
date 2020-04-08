@@ -162,24 +162,52 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: إعداد الكتابة المزدوجة من Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
+                            - name: مزامنة أولية
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
+                              items:
+                                - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: متطلبات النظام والشروط الأساسية
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: كيفيه استخدام معالج الكتابة المزدوجة لربط بيئاتك
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: تمكين كيان الخريطة للكتابة المزدوجة
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: إدارة الكتابة المزدوجة
+                          items:
+                            - name: تخصيص تعيينات الكيانات والحقول
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: إدارة الأخطاء وإخطارات التنبيه
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: إدارة دورة حياة التطبيق
+                              href: data-entities/dual-write/app-lifecycle-management.md
                         - name: تعيين المفاهيم بين التطبيقات
                           items:
-                            - name: التدرج الهرمي للمؤسسات في Common Data Service
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: تكامل الشركة
-                              items:
-                                - name: مفهوم الشركة في Common Data Services
-                                  href: data-entities/dual-write/company-data.md
-                                - name: التمهيد باستخدام بيانات الشركة
-                                  href: data-entities/dual-write/bootstrap-company-data.md
                             - name: أصل العميل المتكامل
                               href: data-entities/dual-write/customer-mapping.md
+                            - name: تكامل المورّد
+                              items:
+                                - name: أصل المورّد المتكامل
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: التبديل بين تصميمات المورّدين
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: بطاقات ولاء العملاء ونقاط المكافآت
+                              href: data-entities/dual-write/loyalty-mapping.md
                             - name: تكامل المنتج
                               items:
                                 - name: تجربه المنتج الموحدة
                                   href: data-entities/dual-write/product-mapping.md
                                 - name: المواقع والمستودعات المتكاملة
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: تكامل الشركة
+                              items:
+                                - name: مفهوم الشركة في Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: التمهيد باستخدام بيانات الشركة
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: التدرج الهرمي للمؤسسات في Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
                             - name: البيانات المالية وبيانات الضرائب
                               items:
                                 - name: الوصول إلى البيانات المرجعية المالية والضريبية
@@ -188,12 +216,8 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: أصل الضريبة المتكاملة
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: تكامل المورّد
-                              items:
-                                - name: أصل المورّد المتكامل
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: التبديل بين تصميمات المورّدين
-                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: المزامنة مع محرك التسعير عند الطلب في Dynamics 365 Supply Chain Management
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: العميل المتوقع إلى النقدية في الكتابة المزدوجة
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: أصول داخلية لإخضاعها للصيانة
@@ -204,11 +228,25 @@
                           items:
                             - name: دعم حلول Field Service وحلول Project Service Automation
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: مزامنة أولية
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: استكشاف أخطاء تكامل البيانات وإصلاحها
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: التكامل مع مؤسسة تكامل بيانات Power Platform
+                            - name: استكشاف الأخطاء وإصلاحها
+                              items:
+                                - name: التحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وCommon Data Service
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: استكشاف المشاكل وإصلاحها أثناء الإعداد الأولي
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: استكشاف المشاكل وإصلاحها مع وحدة الكتابة المزدوجة في تطبيقات Finance and Operations
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: استكشاف المشاكل وإصلاحها في المزامنة المباشرة
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: استكشاف المشاكل ذات الصلة بإدراك الحلول وإصلاحها
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: استكشاف المشاكل ذات الصلة بترقيات تطبيقات Finance and Operations
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: استكشاف المشاكل العامة وإصلاحها
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: التكامل مع Power Platform
                       items:
                         - name: تكوين سيناريو العميل المتوقع إلى النقدية
                           items:
@@ -392,6 +430,8 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: تحديث إدارة قاعدة البيانات
                       href: database/api/v1/reference-create-refresh.md
+                    - name: إنشاء عملية تصدير لقاعدة بيانات
+                      href: database/api/v1/reference-create-export.md
                     - name: الحصول على حالة نشاط العملية
                       href: database/api/v1/reference-get-status.md
         - name: بيانات العرض التوضيحي
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: المراقبة والتشخيص
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: تقرير تحليل التأثير
+              href: lifecycle-services/impact-analysis-report.md
             - name: إعادة تشغيل الخدمات البيئية
               href: lifecycle-services/restart-environment-services.md
             - name: إبلاغ عن انقطاع إنتاج
@@ -1396,6 +1438,10 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: إبلاغ عن انقطاع إنتاج
               href: lifecycle-services/report-production-outage.md
+            - name: تكوين وإدارة تسجيل قاعده البيانات
+              href: sysadmin/configure-manage-database-log.md
+            - name: إنشاء مخزن مؤقت لبيانات تعريف OData عند بدء تشغيل AOS
+              href: sysadmin/odata-warmup.md
         - name: الترقيات والتحديثات والإصلاحات العاجلة
           items:
             - name: موارد الترقيات والتحديثات والإصلاحات العاجلة

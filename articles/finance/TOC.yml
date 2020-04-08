@@ -660,7 +660,7 @@
               href: expense-management/expense-report-distributions.md
             - name: المصروفات المشتركة بين الشركات الشقيقة
               href: expense-management/intercompany-expense.md
-            - name: سياسات المصروفات
+            - name: تعريف سياسات المصروفات
               href: expense-management/travel-expense-policies.md
             - name: عرض تقرير مصروفات
               href: expense-management/view-expense-report.md
@@ -984,9 +984,11 @@
               href: project-management/project-contracts.md
             - name: تنبؤات وموازنات المشاريع
               href: project-management/project-forecasts-budgets.md
+            - name: نقل موازنات المشروع في نهاية السنة المالية
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: أوامر مبيعات المشروع
               href: project-management/project-sales-orders.md
-            - name: أوامر الشراء لمشروع​
+            - name: أوامر الشراء لمشروع
               href: project-management/project-purchase-orders.md
             - name: عروض أسعار المشروع
               href: project-management/project-quotations.md
@@ -1124,7 +1126,7 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: إضافة نوع شهادة إلى مورد في القطاع العام
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
-        - name: Financial reporting
+        - name: Financial Reporting
           items:
             - name: نظرة عامة على Financial reporting
               href: general-ledger/financial-reporting-getting-started.md
@@ -1136,7 +1138,7 @@
               href: general-ledger/financial-reporting-currency-capability.md
             - name: التقارير المالية للميزانية العمومية
               href: general-ledger/balance-sheet-financial-reports.md
-            - name: إنشاء Financial reporting
+            - name: إنشاء تقارير مالية
               href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
             - name: التقرير المالي لكشف حساب الدخل
               href: general-ledger/income-statement-financial-report.md
@@ -1646,6 +1648,12 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: عرض الحركات عند التسوية
                   href: localizations/emea-transactions-settlement-form.md
+            - name: فنلندا
+              items:
+                - name: نظرة عامة على فنلندا
+                  href: localizations/finland.md
+                - name: تقرير دفع ضريبة المبيعات لفنلندا
+                  href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: فرنسا
               items:
                 - name: نظرة عامة على فرنسا
@@ -1696,6 +1704,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: تحديث طريقة الدفع للعميل
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: تقرير DAS-2
+                  href: localizations/emea-fra-das2-report.md
             - name: ألمانيا
               items:
                 - name: نظرة عامة على ألمانيا
@@ -1992,10 +2002,16 @@
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: تحسين التحقيق في تسويات الخصم أو الائتمان
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: تسويه العمولة على المدفوعات
+                  href: localizations/emea-ita-exil-commission-settlement.md
                 - name: عمليات محاكاة دفتر الأستاذ العام (إيطاليا)
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: ملفات تعريف الترحيل القابلة للتكوين للبنوك وأنواع الحوالات
+                  href: localizations/emea-ita-exil-bank-remittance.md
                 - name: شهادة فريدة
                   href: localizations/emea-ita-exil-unique-certification.md
+                - name: اعتراض على استيراد كمبيالة
+                  href: localizations/emea-ita-exil-protest-boe.md
             - name: اليابان
               items:
                 - name: نظرة عامة على اليابان
@@ -2460,9 +2476,11 @@
                       href: localizations/rus-inventory-cost-structure.md
                     - name: معالج تسوية المخزون
                       href: localizations/rus-inventory-adjustment-wizard.md
+                    - name: تقارير المخزون
+                      href: localizations/rus-inventory-reports.md
                 - name: التقارير
                   items:
-                    - name: Financial reporting
+                    - name: Financial Reporting
                       href: localizations/rus-financial-reports.md
                     - name: تكوين التقارير المالية في Excel
                       href: localizations/rus-excel-financial-report.md
