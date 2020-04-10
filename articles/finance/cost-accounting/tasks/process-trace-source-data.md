@@ -15,33 +15,33 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6e913f3630862ba07718592cdd039940c5d40b8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34cd29c4c31e1941c4e4acdbc1609210ea46934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187672"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142284"
 ---
-# <a name="process-and-trace-source-data"></a><span data-ttu-id="8f6be-103">معالجة وتتبع مصدر البيانات</span><span class="sxs-lookup"><span data-stu-id="8f6be-103">Process and trace source data</span></span>
+# <a name="process-and-trace-source-data"></a><span data-ttu-id="eebe0-103">معالجة وتتبع مصدر البيانات</span><span class="sxs-lookup"><span data-stu-id="eebe0-103">Process and trace source data</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8f6be-104">يتم تشغيل كافة عمليات معالجة البيانات بواسطة المهام.</span><span class="sxs-lookup"><span data-stu-id="8f6be-104">All data processing is run by jobs.</span></span> <span data-ttu-id="8f6be-105">لكل وظيفة وموفر بيانات، يتم إنشاء دفتر يومية لتوثيق تشغيل العملية، ومعالجة الإدخالات في الوظيفة الحالية.</span><span class="sxs-lookup"><span data-stu-id="8f6be-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="8f6be-106">استخدم هذا الإجراء لإعداد مصدر بيانات ثم تتبع أصل إدخال تكلفة محدد.</span><span class="sxs-lookup"><span data-stu-id="8f6be-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="8f6be-107">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.</span><span class="sxs-lookup"><span data-stu-id="8f6be-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="8f6be-108">قبل إتمام هذه المهمة، احرص على تشغيل دلائل المهام التالية "إنشاء دفتر أستاذ محاسبة التكاليف" و"تحديد وحدات التحكم بالتكاليف" و"إدارة مصدر البيانات لدفتر أستاذ محاسبة التكاليف".</span><span class="sxs-lookup"><span data-stu-id="8f6be-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
+<span data-ttu-id="eebe0-104">يتم تشغيل كافة عمليات معالجة البيانات بواسطة المهام.</span><span class="sxs-lookup"><span data-stu-id="eebe0-104">All data processing is run by jobs.</span></span> <span data-ttu-id="eebe0-105">لكل وظيفة وموفر بيانات، يتم إنشاء دفتر يومية لتوثيق تشغيل العملية، ومعالجة الإدخالات في الوظيفة الحالية.</span><span class="sxs-lookup"><span data-stu-id="eebe0-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="eebe0-106">استخدم هذا الإجراء لإعداد مصدر بيانات ثم تتبع أصل إدخال تكلفة محدد.</span><span class="sxs-lookup"><span data-stu-id="eebe0-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="eebe0-107">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.</span><span class="sxs-lookup"><span data-stu-id="eebe0-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="eebe0-108">قبل إتمام هذه المهمة، احرص على تشغيل دلائل المهام التالية "إنشاء دفتر أستاذ محاسبة التكاليف" و"تحديد وحدات التحكم بالتكاليف" و"إدارة مصدر البيانات لدفتر أستاذ محاسبة التكاليف".</span><span class="sxs-lookup"><span data-stu-id="eebe0-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 
-1. <span data-ttu-id="8f6be-109">انتقل إلى محاسبة التكاليف > إعداد دفتر الأستاذ > دفاتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="8f6be-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="8f6be-110">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="8f6be-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="8f6be-111">حدد دفتر أستاذ محاسبة التكاليف الذي قمت بإنشائه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="8f6be-111">Select the cost accounting ledger that you created earlier.</span></span>  
-3. <span data-ttu-id="8f6be-112">انقر فوق "الإصدارات الفعلية".</span><span class="sxs-lookup"><span data-stu-id="8f6be-112">Click Actual versions.</span></span>
-4. <span data-ttu-id="8f6be-113">في "جزء الإجراءات"، انقر فوق "معالجة البيانات المصدر".</span><span class="sxs-lookup"><span data-stu-id="8f6be-113">On the Action Pane, click Source data processing.</span></span>
-5. <span data-ttu-id="8f6be-114">انقر فوق "دفاتر يومية تحويل إدخال دفتر الأستاذ العام".</span><span class="sxs-lookup"><span data-stu-id="8f6be-114">Click General ledger entry transfer journals.</span></span>
-6. <span data-ttu-id="8f6be-115">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="8f6be-115">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="8f6be-116">انقر فوق "إدخالات دفتر اليومية".</span><span class="sxs-lookup"><span data-stu-id="8f6be-116">Click Journal entries.</span></span>
-8. <span data-ttu-id="8f6be-117">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="8f6be-117">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="8f6be-118">انقر فوق "إدخالات التكلفة".</span><span class="sxs-lookup"><span data-stu-id="8f6be-118">Click Cost entries.</span></span>
-10. <span data-ttu-id="8f6be-119">انقر فوق "إدخال المصدر".</span><span class="sxs-lookup"><span data-stu-id="8f6be-119">Click Source entry.</span></span>
-11. <span data-ttu-id="8f6be-120">في "جزء الإجراءات"، انقر فوق "معالجة البيانات المصدر".</span><span class="sxs-lookup"><span data-stu-id="8f6be-120">On the Action Pane, click Source data processing.</span></span>
-12. <span data-ttu-id="8f6be-121">انقر فوق "دفتر الأستاذ العام".</span><span class="sxs-lookup"><span data-stu-id="8f6be-121">Click General ledger.</span></span>
-13. <span data-ttu-id="8f6be-122">في حقل "فترة التقويم المالي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="8f6be-122">In the Fiscal calendar period field, enter or select a value.</span></span>
-    * <span data-ttu-id="8f6be-123">لهذا المثال، حدد المالية 2017 الفترة 9.</span><span class="sxs-lookup"><span data-stu-id="8f6be-123">For this example, select Fiscal 2017 Period 9.</span></span>  
-14. <span data-ttu-id="8f6be-124">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="8f6be-124">Click OK.</span></span>
+1. <span data-ttu-id="eebe0-109">انتقل إلى محاسبة التكاليف > إعداد دفتر الأستاذ > دفاتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="eebe0-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="eebe0-110">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="eebe0-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="eebe0-111">حدد دفتر أستاذ محاسبة التكاليف الذي قمت بإنشائه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="eebe0-111">Select the cost accounting ledger that you created earlier.</span></span>  
+3. <span data-ttu-id="eebe0-112">انقر فوق "الإصدارات الفعلية".</span><span class="sxs-lookup"><span data-stu-id="eebe0-112">Click Actual versions.</span></span>
+4. <span data-ttu-id="eebe0-113">في "جزء الإجراءات"، انقر فوق "معالجة البيانات المصدر".</span><span class="sxs-lookup"><span data-stu-id="eebe0-113">On the Action Pane, click Source data processing.</span></span>
+5. <span data-ttu-id="eebe0-114">انقر فوق "دفاتر يومية تحويل إدخال دفتر الأستاذ العام".</span><span class="sxs-lookup"><span data-stu-id="eebe0-114">Click General ledger entry transfer journals.</span></span>
+6. <span data-ttu-id="eebe0-115">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="eebe0-115">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="eebe0-116">انقر فوق "إدخالات دفتر اليومية".</span><span class="sxs-lookup"><span data-stu-id="eebe0-116">Click Journal entries.</span></span>
+8. <span data-ttu-id="eebe0-117">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="eebe0-117">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="eebe0-118">انقر فوق "إدخالات التكلفة".</span><span class="sxs-lookup"><span data-stu-id="eebe0-118">Click Cost entries.</span></span>
+10. <span data-ttu-id="eebe0-119">انقر فوق "إدخال المصدر".</span><span class="sxs-lookup"><span data-stu-id="eebe0-119">Click Source entry.</span></span>
+11. <span data-ttu-id="eebe0-120">في "جزء الإجراءات"، انقر فوق "معالجة البيانات المصدر".</span><span class="sxs-lookup"><span data-stu-id="eebe0-120">On the Action Pane, click Source data processing.</span></span>
+12. <span data-ttu-id="eebe0-121">انقر فوق "دفتر الأستاذ العام".</span><span class="sxs-lookup"><span data-stu-id="eebe0-121">Click General ledger.</span></span>
+13. <span data-ttu-id="eebe0-122">في حقل "فترة التقويم المالي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="eebe0-122">In the Fiscal calendar period field, enter or select a value.</span></span>
+    * <span data-ttu-id="eebe0-123">لهذا المثال، حدد المالية 2017 الفترة 9.</span><span class="sxs-lookup"><span data-stu-id="eebe0-123">For this example, select Fiscal 2017 Period 9.</span></span>  
+14. <span data-ttu-id="eebe0-124">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="eebe0-124">Click OK.</span></span>
 

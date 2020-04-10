@@ -17,34 +17,34 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 97b6eea4e93967dbe1eea5eac9fe3fbf6b336a49
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 48dd5c3a878efb7413f461e76fde086030015b60
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838453"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146665"
 ---
-# <a name="update-kanban-status"></a><span data-ttu-id="930e3-103">تحديث حالة كانبان</span><span class="sxs-lookup"><span data-stu-id="930e3-103">Update kanban status</span></span>
+# <a name="update-kanban-status"></a><span data-ttu-id="973fd-103">تحديث حالة كانبان</span><span class="sxs-lookup"><span data-stu-id="973fd-103">Update kanban status</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="930e3-104">عندما يتم إفراغ كانبان عن طريق الخطأ أو يحتاج كانبان المستلم إلى الإفراغ، فإنك تحتاج إلى تحديث حالة كانبان.</span><span class="sxs-lookup"><span data-stu-id="930e3-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="930e3-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="930e3-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="930e3-106">هذا الإجراء مخصص لمشرف المتجر.</span><span class="sxs-lookup"><span data-stu-id="930e3-106">This procedure is intended for the shop supervisor.</span></span>
+<span data-ttu-id="973fd-104">عندما يتم إفراغ كانبان عن طريق الخطأ أو يحتاج كانبان المستلم إلى الإفراغ، فإنك تحتاج إلى تحديث حالة كانبان.</span><span class="sxs-lookup"><span data-stu-id="973fd-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="973fd-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="973fd-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="973fd-106">هذا الإجراء مخصص لمشرف المتجر.</span><span class="sxs-lookup"><span data-stu-id="973fd-106">This procedure is intended for the shop supervisor.</span></span>
 
 
-## <a name="find-the-kanban"></a><span data-ttu-id="930e3-107">قم بإيجاد الكانبان.</span><span class="sxs-lookup"><span data-stu-id="930e3-107">Find the kanban.</span></span>
-1. <span data-ttu-id="930e3-108">انتقل إلى التحكم بالإنتاج > كانبان > عمليات كانبان.</span><span class="sxs-lookup"><span data-stu-id="930e3-108">Go to Production control > Kanban > Kanbans.</span></span>
-2. <span data-ttu-id="930e3-109">افتح عامل تصفية عمود وحدة معالجة المواد.</span><span class="sxs-lookup"><span data-stu-id="930e3-109">Open Handling unit status column filter.</span></span>
-3. <span data-ttu-id="930e3-110">انقر فوق "مسح".</span><span class="sxs-lookup"><span data-stu-id="930e3-110">Click Clear.</span></span>
-    * <span data-ttu-id="930e3-111">هذا يعيد تعيين عوامل التصفية.</span><span class="sxs-lookup"><span data-stu-id="930e3-111">This resets the filters.</span></span>  
-4. <span data-ttu-id="930e3-112">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="930e3-112">Use the Quick Filter to find records.</span></span> <span data-ttu-id="930e3-113">على سبيل المثال، قم بإجراء التصفية بالحقل "رقم البطاقة" باستخدام القيمة "000149".</span><span class="sxs-lookup"><span data-stu-id="930e3-113">For example, filter on the Card number field with a value of '000149'.</span></span>
+## <a name="find-the-kanban"></a><span data-ttu-id="973fd-107">قم بإيجاد الكانبان.</span><span class="sxs-lookup"><span data-stu-id="973fd-107">Find the kanban.</span></span>
+1. <span data-ttu-id="973fd-108">انتقل إلى التحكم بالإنتاج > كانبان > عمليات كانبان.</span><span class="sxs-lookup"><span data-stu-id="973fd-108">Go to Production control > Kanban > Kanbans.</span></span>
+2. <span data-ttu-id="973fd-109">افتح عامل تصفية عمود وحدة معالجة المواد.</span><span class="sxs-lookup"><span data-stu-id="973fd-109">Open Handling unit status column filter.</span></span>
+3. <span data-ttu-id="973fd-110">انقر فوق "مسح".</span><span class="sxs-lookup"><span data-stu-id="973fd-110">Click Clear.</span></span>
+    * <span data-ttu-id="973fd-111">هذا يعيد تعيين عوامل التصفية.</span><span class="sxs-lookup"><span data-stu-id="973fd-111">This resets the filters.</span></span>  
+4. <span data-ttu-id="973fd-112">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="973fd-112">Use the Quick Filter to find records.</span></span> <span data-ttu-id="973fd-113">على سبيل المثال، قم بإجراء التصفية بالحقل "رقم البطاقة" باستخدام القيمة "000149".</span><span class="sxs-lookup"><span data-stu-id="973fd-113">For example, filter on the Card number field with a value of '000149'.</span></span>
 
-## <a name="change-emptied-status-to-received-status"></a><span data-ttu-id="930e3-114">تغيير حالة "مفرغة" إلى حالة "مستلمة"</span><span class="sxs-lookup"><span data-stu-id="930e3-114">Change emptied status to received status</span></span>
-1. <span data-ttu-id="930e3-115">انقر فوق "عكس وحدة معالجة مواد فارغة".</span><span class="sxs-lookup"><span data-stu-id="930e3-115">Click Reverse empty handling unit.</span></span>
-2. <span data-ttu-id="930e3-116">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="930e3-116">Click OK.</span></span>
-    * <span data-ttu-id="930e3-117">لاحظ أن حالة وحدة معالجة المواد هي "مستلم".</span><span class="sxs-lookup"><span data-stu-id="930e3-117">Notice that the Handling unit status is Received.</span></span>  
+## <a name="change-emptied-status-to-received-status"></a><span data-ttu-id="973fd-114">تغيير حالة "مفرغة" إلى حالة "مستلمة"</span><span class="sxs-lookup"><span data-stu-id="973fd-114">Change emptied status to received status</span></span>
+1. <span data-ttu-id="973fd-115">انقر فوق "عكس وحدة معالجة مواد فارغة".</span><span class="sxs-lookup"><span data-stu-id="973fd-115">Click Reverse empty handling unit.</span></span>
+2. <span data-ttu-id="973fd-116">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="973fd-116">Click OK.</span></span>
+    * <span data-ttu-id="973fd-117">لاحظ أن حالة وحدة معالجة المواد هي "مستلم".</span><span class="sxs-lookup"><span data-stu-id="973fd-117">Notice that the Handling unit status is Received.</span></span>  
 
-## <a name="change-received-status-to-emptied-status"></a><span data-ttu-id="930e3-118">تغيير حالة "مستلمة" إلى حالة "مفرغة"</span><span class="sxs-lookup"><span data-stu-id="930e3-118">Change received status to emptied status</span></span>
-1. <span data-ttu-id="930e3-119">انقر فوق "كانبان فارغة".</span><span class="sxs-lookup"><span data-stu-id="930e3-119">Click Empty kanban.</span></span>
-2. <span data-ttu-id="930e3-120">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="930e3-120">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="930e3-121">لاحظ أن حالة وحدة معالجة المواد هي "مفرغ".</span><span class="sxs-lookup"><span data-stu-id="930e3-121">Notice that the Handling unit status is Emptied.</span></span>  
+## <a name="change-received-status-to-emptied-status"></a><span data-ttu-id="973fd-118">تغيير حالة "مستلمة" إلى حالة "مفرغة"</span><span class="sxs-lookup"><span data-stu-id="973fd-118">Change received status to emptied status</span></span>
+1. <span data-ttu-id="973fd-119">انقر فوق "كانبان فارغة".</span><span class="sxs-lookup"><span data-stu-id="973fd-119">Click Empty kanban.</span></span>
+2. <span data-ttu-id="973fd-120">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="973fd-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="973fd-121">لاحظ أن حالة وحدة معالجة المواد هي "مفرغ".</span><span class="sxs-lookup"><span data-stu-id="973fd-121">Notice that the Handling unit status is Emptied.</span></span>  
 
