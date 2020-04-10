@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40b40b77877680e28671b7a15ea8c8b58ce94417
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 712cc90bef4f3ad56291e99edd9f963ae88add48
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180865"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143502"
 ---
 # <a name="set-up-segregation-of-duties"></a>إعداد الفصل بين المهام
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يمكنك إعداد قواعد لفصل المهام التي يجب تنفيذها بواسطة مستخدمين مختلفين. يسمى هذا المفهوم الفصل بين المهام. على سبيل المثال، قد لا تريد أن يقر نفس الشخص بكل من استلام البضائع ومعالجة الدفع للمورد. يساعدك الفصل بين المهام في الحد من مخاطر الغش كما يساعدك أيضًا على اكتشاف الأخطاء أو المخالفات. يمكنك أيضا استخدام الفصل بين المهام لفرض سياسات الرقابة الداخلية. أكمل الإجراء التالي لإنشاء قاعدة. يجب أن تكون مسؤول نظام لإكمال الإجراء. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي DAT. 
 

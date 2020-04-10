@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b048c49de7357ec1b5cbf36dd4f22a5d3efd443b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189397"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143772"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>إعداد التحقق من صحة مطابقة فاتورة الحسابات الدائنة
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 قبل أن تبدأ، تأكد من تحديد مفتاح تكوين مطابقة الفاتورة. إذا كان الكيان القانوني يتعقب المصروفات، مثل الشحن، باستخدام الرسوم، تأكد من تحديد مفتاح تكوين الرسوم.  مطابقة فاتورة الحسابات الدائنة هي عبارة عن عملية مطابقة فاتورة المورّد وأمر الشراء ومعلومات إيصال استلام المنتجات. تسمى الاختلافات بين هذه المستندات اختلافات في المطابقة. تتم مقارنة الاختلافات في المطابقة مع التفاوتات المحددة. إذا تجاوز اختلاف في المطابقة النسبة المئوية للتفاوت أو المبلغ، فستظهر أيقونات الفرق في المطابقة‬ في صفحة **فاتورة المورّد** وفي صفحة **تفاصيل مطابقة الفاتورة**.
 

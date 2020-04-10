@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbd6dc6c2e5b7c1abe6e19f00a5df285e0147a92
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3f922620c7aeeafd8560316239875c1ec5486191
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845368"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145676"
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>تهيئة مستويات المخزون في المستودع
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح هذا الإجراء كيفية تحديث المخزون المتاح يدوياً باستخدام دفتر يومية حركة مخزون. (ومن الممكن أيضا تحديث المخزون المتاح عن طريق استيراد الحركات في وحدات البيانات.) يمكنك تشغيل هذا الدليل في شركة بيانات العرض التقديمي USMF حيث تتوفر جميع المتطلبات الأساسية مثل اسم دفتر اليومية وإعداد الصنف وملفات تعريف الترحيل والحسابات. يقترح هذا الدليل قيمًا معينة للصنف والأبعاد المستخدمة. إذا اخترتَ عنصرًا مختلفًا، فقد تحتاجُ إلى إدخال قيم لأبعاد مختلفة.
 

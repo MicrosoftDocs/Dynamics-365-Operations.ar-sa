@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f56769abb4da0068d6e2916df8dc782e662a2d56
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0c4367838bc334f18608e17f966397302c20aa06
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190386"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143617"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>تعيين مرشح من خلال التوظيف
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يتيح هذا الإجراء لمسؤول التعيين توظيف مقدم الطلب الذي قدم استمارة تقديم طلب من خلال مشروع تعيين محدد. عند توظيف مقدم طلب من خلال مشروع تعيين، سيتم إنشاء سجل عامل جديد وستكون حالة سجل مقدم الطلب "موظف". شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. لإكمال هذا الإجراء، انتقل إلى الموارد البشرية > التوظيف‬ > استمارات التقديم‬ > استمارات التقديم‬ 
 

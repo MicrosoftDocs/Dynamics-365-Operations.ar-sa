@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2a2b56d387cfe90cbfac0bca3c11e699573c1d05
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: 502b2e08c6c1f4190031d171f037a05d591e5cd8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097416"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164755"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.9 (أبريل 2020)
 
@@ -41,30 +41,32 @@ ms.locfileid: "3097416"
 
 - [بناء حمل العمل المتقدم أثناء موجة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)
 - [‏‫إصدار الشحن التلقائي لتوزيع البضائع‬](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock) - لمزيد من المعلومات، راجع [‏‫إصدار الشحن التلقائي لتوزيع البضائع‬](../warehousing/auto-release-shipment-for-cross-docking.md).
+- [حساب تاريخ تسليم الشراء استنادًا إلى المهلة وأيام العمل (القطاع العام)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
+- [معالجة المنتجات ذات وزن التعبئة مع إدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/catch-weight-product-processing-warehouse-management) - لمزيد من المعلومات، راجع [معالجة المنتجات ذات وزن التعبئة مع إدارة المستودعات](../warehousing/catch-weight-processing.md) وكذلك فيديو [تحسينات منتجات وزن التعبئة](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
 - [مقارنة تخزين سعر الصنف](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/compare-item-price-storage) - لمزيد من المعلومات، راجع [تقرير مقارنة تخزين أسعار الأصناف](../cost-management/compare-item-price.md).
 - [دمج تحسينات الشحن](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
-- [توزيع البضائع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking)
+- [توزيع البضائع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking) - لمزيد من المعلومات، راجع فيديو [توزيع البضائع المخطط](https://www.microsoft.com/videoplayer/embed/RE4f7LF).
 - مزيد من تكامل وزن التعبئة [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1)، و[10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2)، و[10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3)، و[10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4)، و[10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5)، و[10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6)، و[10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) - لمزيد من المعلومات، راجع [معالجة منتج وزن التعبئة باستخدام إدارة المستودع](../warehousing/catch-weight-processing.md) وفيديو [تحسينات منتج وزن التعبئة](https://www.microsoft.com/videoplayer/embed/RE4jzx8) أيضًا.
 - [مرونة حجز البعد على مستوى المستودع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) - لمزيد من المعلومات، راجع [سياسة مرنة لحجز البعد على مستوى المستودع‬](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+- [تحسين جهاز بطاقة الوظيفة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - لمزيد من المعلومات، راجع [الإبلاغ عن التقدم المحرز على جهاز وظيفة محمول](../production-control/tasks/report-progress-mobile-job-device.md)و[الإبلاغ عن الانتهاء إلى موقع يتم التحكم فيه من لوحة ترخيص من جهاز بطاقة الوظيفة](../production-control/report-finished-job-device.md)
 - [‏‫إجراء فحص الجودة‬ الوارد](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 - [تخزين تقرير تقادم المخزون](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
 - [‏‫مساحة تخزين تقارير قيمة المخزون](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)
 - [مخطط Gantt لتمثيل تقدم التخطيط الرئيسي](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/master-planning-progress-gantt-chart) - لمزيد من المعلومات، راجع [مراقبة تشغيل التخطيط الرئيسي](../master-planning/tasks/monitor-master-planning-run.md) وفيديو [تحسينات أداء MRP وإمكانية الاستخدام](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
+- [كيانات البيانات الجديدة لمنطقة التصنيع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [الفرز الصادر](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)
 - [أبعاد التعبئة مقابل أبعاد التخزين](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 - [موازاة التأكيد للطلبات المخططة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders) - لمزيد من المعلومات ، راجع [موازاة التأكيد](../master-planning/maintain-planned-orders.md#parallelize-firming) وفيديو [تحسينات أداء MRP وإمكانية الاستخدام](https://www.microsoft.com/videoplayer/embed/RE4myrJ) أيضًا.
 - [تحسين التخطيط للتوزيع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution) - لمزيد من المعلومات، راجع [نظرة عامة حول تحسين التخطيط](../master-planning/planning-optimization/planning-optimization-overview.md).
 - [تحسينات اتفاقيات الشراء](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements) - لمزيد من المعلومات، راجع [اتفاقيات الشراء](../procurement/purchase-agreements.md).
-- [وضع أنظمة المجموعات بعيدًا](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters)
+- [استبعاد المجموعات](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters) - لمزيد من المعلومات، راجع فيديو [استبعاد المجموعات](https://www.microsoft.com/videoplayer/embed/RE4f5aB).
 - [وضع على الحائط/وضع في المتجر](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)
 - [تلقي الفرز](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
+- [شحن طرد صغير (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [أسئلة عطاء المورّد من الموردين والاستجابات الملخصة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
 - [تقسيم المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [تحسينات طباعة تسمية الموجة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [رمز خطوة الموجة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)
-
-<!-- - [Self-billing invoice control for procurement](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-procurement)
-- [Self-billing invoice control for sales](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-sales) -->
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

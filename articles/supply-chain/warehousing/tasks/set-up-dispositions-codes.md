@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec353ecffdc457e1502cfad24e7a50ae31048647
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557997"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146044"
 ---
 # <a name="set-up-dispositions-codes"></a>إعداد أكواد الترتيب
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ويركز هذا الإجراء على إعداد رمز الإرجاع الذي يمكن استخدامه على جهاز محمول لعملية استلام أمر الإرجاع. تمثل رموز الإرجاع مجموعة من القواعد التي يمكن استخدامها عند استلام الأصناف. على سبيل المثال، عندما يستخدم مستخدم عمل جهازًا محمولاً لاستلام الأصناف التي تعرضت للتلف، يجب عليه فحص رمز الإرجاع للعناصر التالفة. ويمكن تحديد كل من حالة المخزون للبضائع المستلمة وقالب العمل وتوجيه الموقع من رمز الإرجاع الممسوح ضوئياً. بالنسبة لعملية استلام أمر الشراء وتقرير أمر الإنتاج بانتهاء العملية، يكون استخدام رمز إرجاع اختياريًا. وبالنسبة لعملية استلام إرجاع أمر المبيعات، إذا كانت الأصناف مسجلة باستخدام جهاز محمول، فإن استخدام كود الترتيب يكون إلزاميًا.  تم إنشاء هذا الدليل باستخدام شركة بيانات العرض التقديمي USMF. هذا الإجراء مخصص لمدير المستودعات. 
 

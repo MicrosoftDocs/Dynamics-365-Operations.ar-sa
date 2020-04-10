@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baf39040bef2ccd0c643ce0d034348807ecdc50c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: fe8ad0540febcc703554e2451f7f644338e4d57b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914765"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149448"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>إعداد الأذونات لطلب المنتجات بالنيابة عن شخص آخر
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية منح العاملين الإذن الذي يسمح لهم بإعداد طلبات شراء نيابة عن عاملين آخرين. بمعنى آخر، بإمكان "معد" طلب شراء إنشاء طلب من أجل "طالب" آخر. يبين الإجراء أيضًا كيفية منح أذونات لأحد العاملين لطلب أصناف وخدمات في كيانات قانونية أو وحدات تشغيل مختلفة. يقوم مدير المشتريات عادةً بتنفيذ هذه المهام. يمكنك استخدام هذا الإجراء إما على بيانات خاصة بشركة بيانات العرض التوضيحي USMF أو على بياناتك الخاصة.
 

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe0fd9a7c27efb71f15cca9d3a0341b550bf9698
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ba64093dfe9ca28108456641ad17b5eda23d7f49
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916658"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148190"
 ---
 # <a name="trace-an-item-or-raw-material"></a>تعقب صنف أو مادة خام
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح هذا الإجراء كيفية استخدام تتبع صنف لتحديد الموقع الذي تم أو يتم به استخدام الأصناف أو المواد الخام. باستخدام هذا الإجراء، يمكنك تحديد صف وتتبعه للخلف المصدر ثم تتبعه للأمام من خلال إنتاج المنتج النهائي وبيعه. يمكن استخدام العملية للتحقق من العملاء المتأثرين وأوامر المبيعات المتأثرة والمزيد غير ذلك. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USP2.
 

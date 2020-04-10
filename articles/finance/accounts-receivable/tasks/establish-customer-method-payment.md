@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22680a3033c1518735eb9edb4c6f22f310509aba
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b9960c3fdf0d65be19e28dbb41913a310ae7530
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188799"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140204"
 ---
 # <a name="establish-customer-method-of-payment"></a>‏‫وضع طريقة دفع العميل‬
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إنشاء طريق دفع لمدفوعات العميل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
@@ -43,6 +43,6 @@ ms.locfileid: "2188799"
 12. أدخل الحساب الرئيسي المستخدم للترحيل المؤقت. هذا هو الحساب الرئيسي الذي سيتم ترحيل الدفعة إليه بشكل مؤقت عند استخدام المرحلة المؤقتة.  
 13. استخدم علامة التبويب **تنسيق الملف** لتحديد الإعداد لعمليات الدفع الإلكترونية.
 14. استخدم علامة التبويب **التحكم في الدفع** لتحديد الحقول الإلزامية. على سبيل المثال، إذا كنت تطالب بأن يتم إيداع كافة المدفوعات بطريقة الدفع هذه، فيمكنك تحديد هذا الخيار في علامة التبويب هذه.  
-15. استخدم علامة التبويب **سمات الدفع‬** لتحديد سمات الدفع التي تريد استخدامها لطريقة الدفع هذه.
+15. استخدم علامة التبويب **سمات الدفع** لتحديد سمات الدفع التي تريد استخدامه لطريقة الدفع هذه.
 16. حدد **حفظ**.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: f5639a46c105e735d028e903513b4fcfb1f0d968
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550799"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142599"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>تستخدم التقارير الإلكترونية ملفات إدارة المستندات في مخرجات التنسيق‬ (الجزء 4 - تشغيل التنسيق)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لاستخدام ملفات إدارة المستندات (مرفقات) في مخرجات التقارير الإلكترونية. يمكن تنفيذ هذه الخطوات في شركة DEMF.
 
@@ -66,7 +66,7 @@ ms.locfileid: "2550799"
 8. حدد الصف لحقل دفتر يومية فاتورة العميل وأمر المبيعات.
 9. في الحقل "المعايير، اكتب ''000148".
     * في حقل معايير "أمر المبيعات"، اكتب رقم الأمر 000148.  
-10. انقر فوق "موافق".
-11. انقر فوق "موافق".
+10. انقر فوق موافق.
+11. انقر فوق موافق.
     * اعمل على مراجعة المخرجات المنشأة. لاحظ أنه قد تم إنشاء عقده XML واحدة لكل مرفق. تتم تعبئة محتوى المرفقات في مخرجات XML بالتنسيق النصي MIME (base64).  
 

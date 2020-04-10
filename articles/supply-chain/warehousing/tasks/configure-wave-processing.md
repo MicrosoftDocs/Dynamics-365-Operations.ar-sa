@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc28149aa56302e09eb0e7be581a582f58a76416
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9c813a429d7837493663625bde341638eecfc5ee
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847341"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148482"
 ---
 # <a name="configure-wave-processing"></a>تكوين معالجة الموجة
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يصف هذا الدليل كيفية إعداد المعايير التي تحدد العمل الذي يتم إنشاؤه لمستودع عند معالجة الموجة وما إذا كانت الموجات يتم معالجتها يدويًا أو تلقائيًا. قم بتحديد المعايير بإعداد قوالب واستعلامات الموجة التي تتطابق مع موجة ذات بنود مصدرة في أوامر المبيعات أو أوامر الإنتاج أو أوامر كانبان. يتم استخدام معالجة الموجة في المستودعات التي تستخدم الوظائف في وحدة إدارة المستودع، وليست تلك التي تستخدم الوظائف في الوحدة لإدارة المخزون. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.
 

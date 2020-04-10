@@ -3,7 +3,7 @@ title: نوع وجهة إعداد التقارير الإلكترونية للط
 description: يوضح هذا الموضوع كيفية تكوين وجهة طابعة لكل مكون "ملف" أو "مجلد" لتنسيق إعداد التقارير الإلكترونية (ER) التي يتم تكوينها لإنشاء مستندات صادرة بتنسيق PDF أو تنسيق Microsoft Office (Excel\Word).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58e067baa130458e3a8e788d978604f208140a03
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 148da191ce4ea99c237895c40ec007a1aa0cd537
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019607"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150782"
 ---
-# <a name="PrinterDestinationType"></a>وجهة الطابعة
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>وجهة الطابعة
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,8 @@ ms.locfileid: "3019607"
 
 > [!NOTE]
 > لا يلزم تشغيل خيار **لتحويل إلى PDF‬** عند تكوين وجهة **الطابعة**. سيتم التحويل إلى PDF لأغراض الطباعة حتى في حالة إيقاف تشغيل الخيار.
+
+لاستخدام [اتجاه صفحة ](electronic-reporting-destinations.md#SelectPdfPageOrientation) محدد عند طباعة مستند صادر في تنسيق Excel، يجب تشغيل خيار **التحويل إلى PDF**. عندما تقوم بتعيين خيار **التحويل إلى PDF** إلى **نعم**، يصبح حقل **اتجاه الصفحة** متاحًا. في حقل **اتجاه الصفحة**، يمكنك تحديد اتجاه الصفحة.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

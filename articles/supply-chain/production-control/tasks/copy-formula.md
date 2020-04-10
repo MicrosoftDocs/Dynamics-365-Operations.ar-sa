@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd87ded3bcc20b94fae723424d9cc6b94049a1a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9c5d8dbc5204464b2265029b6a11fcac7b79b464
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558749"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147148"
 ---
 # <a name="copy-a-formula"></a>‏‫نسخ معادلة‬
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يركز هذا الإجراء على إنشاء معادلة تتضمن نفس المكونات التي تتضمنها معادلة موجودة، ولكن مع اختلافات بسيطة. لإنشاء بنود المعادلة، يمكنك استخدام دالة النسخ لنسخ معادلة موجودة تحتوي على معظم المكونات التي تحتاجها. ثم يمكنك إجراء أية تغييرات ضرورية على البنود الفردية في الإصدار الجديد. باستخدام دالة النسخ، لا يلزمك إنشاء معادلات متعددة متماثلة تقريبًا. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USP2.‬
 

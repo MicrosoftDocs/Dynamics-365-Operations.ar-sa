@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081141"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173190"
 ---
 # <a name="unified-product-experience"></a>تجربه المنتج الموحدة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 عندما يتكون النظام البيئي للشركة من تطبيقات Dynamics 365، مثل Finance وSupply Chain Management وSales، من الطبيعي أن تستخدم الشركات هذه التطبيقات لتوريد بيانات المنتجات. ويعود السبب في ذلك إلى أن هذه التطبيقات توفر بنية تحتية قوية للمنتجات تكملها مفاهيم تسعير معقدة وبيانات دقيقة تتعلق بالمخزون المتوفر. بإمكان الشركات التي تستخدم نظامًا خارجيًا لإدارة دورة حياة المنتج (PLM) لتوريد بيانات المنتجات توجيه المنتجات من تطبيقات Finance and Operations إلى تطبيقات Dynamics 365 الأخرى. تقوم تجربة المنتجات الموحدة بإحضار نموذج بيانات المنتجات المتكاملة إلى Common Data Service، لتمكين جميع مستخدمي التطبيقات، بمن فيهم مستخدمي Power Platform من الاستفادة من بيانات المنتجات القادمة من تطبيقات Finance and Operations.
 
@@ -52,7 +52,7 @@ ms.locfileid: "3081141"
 
 تحتوي معلومات المنتج على كافة المعلومات المرتبطة بالمنتج وتعريفه، مثل أبعاد المنتج أو أبعاد التعقب والتخزين. كما يوضح الجدول التالي، يتم إنشاء مجموعة من مخططات الكيانات لمزامنة المنتجات والمعلومات المتعلقة بها.
 
-Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الوصف
+تطبيقات Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الوصف
 -----------------------|--------------------------------|---
 المنتجات الصادرة V2 | msdyn\_sharedproductdetails | يحتوي الكيان **msdyn\_sharedproductdetails** على حقول من تطبيقات Finance and Operations التي تحدد المنتج، والتي تحتوي على معلومات مالية وإدارية خاصة بالمنتج. 
 المنتجات المميزة الصادرة لـ Common Data Service | منتج | يحتوي كيان‏‎ **المنتج** على الحقول التي تعرّف المنتج. ويتضمن منتجات فردية (منتجات مع نوع فرعي للمنتج) ومتغيرات المنتج. يعرض الجدول التالي التعيينات.
@@ -75,7 +75,7 @@ Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الو
 تحويلات الوحدات | msdyn_ unitofmeasureconversions
 تحويل وحدة قياس خاصة بالمنتج | msdyn_productspecificunitofmeasureconversion
 فئات المنتج | msdyn_productcategories | يتم تضمين كل من فئات المنتجات والمعلومات المتعلقة ببنيته وخصائصه في كيان فئة المنتج. 
-التدرجات الهرمية لفئات المنتجات | msdyn_productcategoryhierarhies | يمكنك استخدام التدرجات الهرمية للمنتجات لتصنيف المنتجات أو تجميعها. وتتوفر التدرجات الهرمية للفئات في Common Data Service باستخدامكيان التدرج الهرمي لفئات المنتجات. 
+التدرجات الهرمية لفئات المنتجات | msdyn_productcategoryhierarhies | ويمكنك استخدام التدرجات الهرمية للمنتجات لتصنيف أو تجميع المنتجات. تتوفر التسلسلات الهرمية للفئات في Common Data Service باستخدام كيان التسلسل الهرمي لفئة المنتج. 
 أدوار التدرجات الهرمية لفئات المنتجات | msdyn_productcategoryhierarchies | يمكن استخدام التدرجات الهرمية للمنتجات للأدوار المختلفة في D365 Finance and Operations. يُستخدم تحديد الفئة في كل دور يتم استخدام كيان دور فئة المنتج فيه. 
 تعيينات فئات المنتج | msdyn_productcategoryassignments | لتعيين منتج إلى فئة، يمكن استخدام كيان تعيينات فئات المنتجات.
 
@@ -153,7 +153,7 @@ Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الو
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>المزامنة الأولية لمطابقة بيانات الوحدات بين Finance and Operations وCommon Data Service
 
@@ -203,7 +203,7 @@ Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الو
 
 لتحديد منتجات الهوية الفريدة بين  Dynamics 365 for Finance and Operations والمنتجات في Common Data Service يتم استخدام مفاتيح التكامل. بالنسبة للمنتجات، يكون **(productnumber)** هو المفتاح الفريد الذي يحدد منتجًا في Common Data Service. ويتم تكوينه بواسطة سلسلة: **(company, msdyn_productnumber)**. تشير **الشركة** إلى الكيان القانوني في Finance and Operations و**msdyn_productnumber** إلى رقم المنتج الخاص بالمنتج المحدد في Finance and Operations. 
 
-بالنسبة لمستخدم تطبيقات Dynamics 365 آخر، يتم تعريف المنتج في واجهة المستخدم بواسطة **msdyn_productnumber** (لاحظ ان تسميه الحقل هي **رقم المنتج**). في نموذج المنتج، يتم عرض كل من الشركة وmsydn_productnumber. ومع ذلك، لا يتم عرض الحقل (productnumber) والمفتاح الفريد لأحد المنتجات. 
+بالنسبة لمستخدمي تطبيقات Dynamics 365 آخر، يتم تعريف المنتج في واجهة المستخدم بواسطة **msdyn_productnumber** (لاحظ ان تسميه الحقل هي **رقم المنتج**). في نموذج المنتج، يتم عرض كل من الشركة وmsydn_productnumber. ومع ذلك، لا يتم عرض الحقل (productnumber) والمفتاح الفريد لأحد المنتجات. 
 
 إذا قمت بإنشاء تطبيقات على Common Data Service يجب عليك الانتباه إلى استخدام **productnumber‎** (معرف المنتج الفريد) كمفتاح تكامل. لا تستخدم **msdyn_productnumber**، لأنه ليس فريدا. 
 

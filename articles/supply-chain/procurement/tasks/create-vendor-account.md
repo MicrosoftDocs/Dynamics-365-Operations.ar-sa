@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 116085a71e872c13bbf2820f4408e3c7d1261d17
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: ba585a9bb1a296bbf7181530e151d737bfa22fc2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924399"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149586"
 ---
 # <a name="create-a-vendor-account"></a>إنشاء حساب مورد
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح هذا الإجراء كيفية إنشاء حساب مورد، وإضافة عنوان ومعلومات الاتصال. ولا يوضح الإجراء كيفية ملء جميع الحقول لأغراض المشتريات والأغراض المالية. للتعرف على مزيد من المعلومات حول هذه الحقول، الرجاء قراءة أوصاف الحقول. يمكنك استخدام هذا الإجراء في شركة بيانات العرض التقديمي USMF، أو في البيانات الخاصة بك. يتم إنشاء حسابات الموردين عادة بواسطة عاملين محترفين أو عاملي الحسابات المدينة.
 

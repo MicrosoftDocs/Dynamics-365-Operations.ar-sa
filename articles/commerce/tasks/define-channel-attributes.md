@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90199750e98789eebcff0008bc1610d1727e2286
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f6e55b98dde8f55172191ba43044d22fe3f2a61d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021473"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141328"
 ---
 # <a name="define-channel-attributes"></a> تحديد سمات القناة
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 قم بتحسين القناة بإضافة القناة وسمات المنتج. يجب إضافة القناة إلى التدرج الهرمي الافتراضي للمؤسسات قبل أن تتمكن من تحديد السمات.
 

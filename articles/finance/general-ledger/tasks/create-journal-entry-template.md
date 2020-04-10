@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: babbc5ee067743d368680970556f8e5d3d8585f0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 360df29e6349fd4d42d6d14af646e929b73943bd
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176173"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145136"
 ---
 # <a name="create-a-journal-entry-using-template"></a>إنشاء إدخال دفتر يومية باستخدام قالب
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يمكن حفظ إيصالات دفاتر اليومية المرحلة كقوالب إيصالات وتطبيقها في إيصال دفتر يومية جديد. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
 

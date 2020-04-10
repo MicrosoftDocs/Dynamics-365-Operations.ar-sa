@@ -3,7 +3,7 @@ title: إلغاء الاشتراك في التوصيات المخصصة
 description: يشرح هذا الموضوع كيفيه السماح للعملاء بالانسحاب من تلقي التوصيات المخصصة في Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a6d2388e863135c2b6d51af915b606a56f0603a8
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 1e88980ef6ad585826762c8be35304aecbcc02ab
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127734"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154285"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>إلغاء الاشتراك في التوصيات المخصصة
 
@@ -90,8 +90,6 @@ ms.locfileid: "3127734"
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
 
 [تمكين التوصيات المخصصة](personalized-recommendations.md)
-
-[إضافة قوائم توصيات المنتجات إلى موقع تجارة إلكترونية](add-reco-list-to-page.md)
 
 [إضافة توصيات المنتجات على نقطة البيع](product.md)
 

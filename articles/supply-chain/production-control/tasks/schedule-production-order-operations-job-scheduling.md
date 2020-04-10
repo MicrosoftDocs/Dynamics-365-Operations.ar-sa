@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3023d6a6fe09c84b47839a2c4b78c37907754ded
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 2181a84aea08aac0ddb202f7211dbda6330a3d49
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914874"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148827"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>جدولة أمر إنتاج بواسطة جدولة العمليات وجدولة الوظائف
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يركز هذا الموضوع على جدولة أمر إنتاج بواسطة جدولة العمليات وجدولة الوظائف. لا يتم إنشاء أي وظائف بواسطة جدولة العمليات، بينما يتم إنشاء الوظائف بواسطة جدولة الوظائف. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬ تم تخصيص هذا الإجراء لمدير الإنتاج أو مخطط الإنتاج أو المشرف على صالة الإنتاج‬ في بيئة تصنيع منفصلة.
 

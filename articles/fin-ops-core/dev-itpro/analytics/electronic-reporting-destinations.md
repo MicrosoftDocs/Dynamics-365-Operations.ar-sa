@@ -3,7 +3,7 @@ title: وجهات إعداد التقارير الإلكترونية (ER)‬
 description: يوفر هذا الموضوع معلومات حول إدارة وجهات إعداد التقارير الإلكترونية‬ (ER) وأنواع الوجهات المدعومة واعتبارات الأمان.
 author: nselin
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030763"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150805"
 ---
 # <a name="electronic-reporting-er-destinations"></a>وجهات التقارير الإلكترونية‬
 
@@ -114,7 +114,7 @@ ms.locfileid: "3030763"
 
 [![خيار تشغيل المسودة](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
-## <a name="DestinationFailure"></a>معالجة فشل الوجهة
+## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>معالجة فشل الوجهة
 
 عادة ما يتم تشغيل تنسيق إعداد التثارير الإلكترونية في نطاق عملية تجارية محددة. ولكن يجب في بعض الأحيان اعتبار تسليم المستند الصادر الذي يتم إنشاؤه أثناء تنفيذ أحد تنسيقات إعداد التقارير الإلكترونية جزءًا من هذه العملية التجارية. وفي هذه الحالة، في حالة فشل تسليم المستند الصادر الذي تم إنشاؤه إلى وجهة مكونة، يجب إلغاء تنفيذ العملية التجارية. لتكوين وجهة إعداد التقارير الإلكترونية المناسبة، حدد الخيار **إيقاف المعالجة عند الفشل**.
 
@@ -124,7 +124,7 @@ ms.locfileid: "3030763"
 
 في حالة مسح خانة الاختيار **إيقاف المعالجة عند الفشل** لمكون **CoveringLetter** في الوجهة، سيتم اعتبار إتمام الدفع بنجاح حتى لو لم يتم تسليم خطاب الإرفاق عبر البريد الإلكتروني بنجاح. سيتم تغيير حالة الدفع من **لا شيء** إلى **تم الإرسال** حتى في حالة تعذر إرسال خطاب الإرفاق لفقدان عنوان البريد الكتروني للمستلم أو المرسل أو عدم صحته على سبيل المثال.
 
-## <a name="OutputConversionToPDF"></a>تحويل المخرجات إلى PDF
+## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>تحويل المخرجات إلى PDF
 
 يمكنك استخدام خيار تحويل إلى PDF لتحويل المخرجات في Microsoft Office بتنسيق (Excel/Word) إلى تنسيق PDF.
 
@@ -157,6 +157,19 @@ ms.locfileid: "3030763"
 لتشغيل التحويل إلى PDF لوجهة ملف، حدد خانة الاختيار **التحويل إلى PDF**.
 
 [![تشغيل التحويل إلى PDF لوجهة ملف](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+
+### <a name=""></a><a name="SelectPdfPageOrientation">حدد اتجاه صفحة تحويل PDF</a>
+
+إذا قمت بإنشاء تكوين ER بتنسيق Excel وتريد تحويله إلى تنسيق PDF، يمكنك تعيين اتجاه صفحة PDF. عندما تقوم بتحديد خانة الاختيار **التحويل إلى PDF** لتشغيل تحويل PDF لوجهm ملف تنتج ملف مخرجات بتنسيق Excel، فإن حقل **اتجاه الصفحة** يصبح متاحًا على علامة التبويب السريع **إعدادات تحويل PDF**. في حقل **اتجاه الصفحة**، حدد الاتجاه المفضل.
+
+[![حدد اتجاه صفحة تحويل PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+
+> [!NOTE]
+> حتى يكون لديك خيار لتحديد اتجاه صفحه PDF، يجب عليك تثبيت Microsoft Dynamics 365 Finance، الإصدار 10.0.10 (مايو 2020) أو إصدار لاحق.
+>
+> يتم تطبيق اتجاه الصفحة المحدد على كافة تكوينات ER التي تم إنشاؤها بتنسيق Excel ثم يتم تحويلها إلى تنسيق PDF.
+>
+> إذا تم إنشاء PDF محول من تكوين ER باستخدام تنسيق Word، فان اتجاه الصفحة الخاص بـ PDF يتم الحصول عليه من وثيقة Word.
 
 ## <a name="security-considerations"></a>اعتبارات الأمان
 

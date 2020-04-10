@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0830707885e8ed52581aa789df0279d78e3a9c10
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184820"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142376"
 ---
 # <a name="er-import-a-configuration-from-lifecycle-services"></a>تعمل التقارير الإلكترونية على الاستيراد من Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 تشرح الخطوات التالية كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية استيراد إصدار جديد من تكوين التقارير الإلكترونية من Microsoft Lifecycle Services (LCS).
 
@@ -36,13 +36,13 @@ ms.locfileid: "2184820"
 
 ## <a name="delete-a-shared-version-of-data-model-configuration"></a>حذف الإصدار المشترك من تكوين نموذج البيانات
 1. في الشجرة، حدد "تكوين نموذج مبسط".
-    * تم إنشاء الإصدار الأول لتكوين طراز بيانات العينة ونشرها على LCS أثناء الإجراء "تحميل تكوين التقرير الإلكتروني داخل Life Services". في هذا الإجراء، يمكنك حذف هذا الإصدار لتكوين التقارير الإلكترونية. سيتم استيراد هذا الإصدار من تكوين عينة نموذج البيانات في وقت لاحق من LCS.  
+    * تم إنشاء الإصدار الأول لتكوين طراز بيانات العينة ونشرها على LCS أثناء الإجراء "تحميل تكوين التقرير الإلكتروني داخل Lifecycle Services". في هذا الإجراء، يمكنك حذف هذا الإصدار لتكوين التقارير الإلكترونية. سيتم استيراد هذا الإصدار من تكوين عينة نموذج البيانات في وقت لاحق من LCS.  
 2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
     * حدد إصدار هذا التكوين الذي يكون في الحالة "مشتركة". تشير هذه الحالة إلى أن التكوين تم نشره على LCS.  
 3. انقر فوق "تغيير الحالة".
 4. انقر فوق "إيقاف".
     * قم بتغيير حالة الإصدار المحدد من "مشترك" إلى "إيقاف" لجعله متوفرًا للحذف.  
-5. انقر فوق "موافق".
+5. انقر فوق موافق.
 6. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
     * حدد إصدار هذا التكوين الذي يحتوي على حالة "إيقاف".  
 7. انقر فوق حذف.

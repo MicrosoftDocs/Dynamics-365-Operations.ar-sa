@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1c6bcbb71f52e0ec5f979f8d79c896d10689a1b
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 55512c75445a5f3b9c1521376a20d48dd60e22c6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867211"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145515"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>إعداد ملف تعريف نظرة عامة على وصول الصنف
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
 يركز هذا الموضوع على إعداد ملف تعريف النظرة العامة على الوصول. إن ملف تعريف النظرة العامة على الوصول عبارة عن مجموعة من القواعد التي سيتم تطبيقها عند فتح صفحة "نظرة عامة على الوصول" من قِبل المستخدم. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF. يقوم موظف الاستلام عادةً بتنفيذ هذا الإجراء.
 

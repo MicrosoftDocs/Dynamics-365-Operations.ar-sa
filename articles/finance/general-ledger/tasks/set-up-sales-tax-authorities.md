@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bb0b30be91e33cb50af0ae5c2e4dcd75bd12599b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dc6aeb39591c68cae78537faa077010d68628b02
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175275"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144756"
 ---
 # <a name="set-up-sales-tax-authorities"></a>إعداد هيئات ضريبة المبيعات
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 إن هيئات ضريبة المبيعات‬ هي كيانات حيث يجب الإبلاغ عن ضريبة المبيعات المحصلة ودفعها. يمكنك دفع ضرائب المبيعات للهيئة مباشرة أو من خلال حساب مورّد تقوم بإنشائه لهيئة ضريبة المبيعات. إذا قمت بذلك، فيمكن للشركة استخدام طرق الدفع المعتادة الخاصة بها للدفع إلى هيئة ضريبة المبيعات في الوقت المناسب. إذا لم تقم بإعداد هيئة الضرائب كمورّد، فيجب على الشخص الدفع يدويًا لهيئة الضرائب في تاريخ الاستحقاق المناسب. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 

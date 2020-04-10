@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 818e641d19444e94a287134b68b25d52a05021d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: db662eb407fbcf3587f3fcb03347a3f14e83b879
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189857"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140482"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>إعداد التسلسلات الرقمية على أساس فردي
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إعداد التسلسلات الرقمية على أساس فردي. تُستخدم التسلسلات الرقمية لإنشاء معرفات فريدة قابلة للقراءة لسجلات البيانات الرئيسية وسجلات الحركات التي تتطلب وجودها. ويشار إلى البيانات الرئيسية أو سجل الحركة الذي يتطلب معرفًا بمرجع. قبل إنشاء سجلات جديدة لأحد المراجع، يجب أن تقوم بإعداد تسلسل رقمي وإقرانه بالمرجع. يمكنك إعداد كافة التسلسلات الرقمية المطلوبة في نفس الوقت باستخدام المعالج **تعيين التسلسلات الرقمية‬**، أو يمكنك إنشاء تسلسلات رقمية فردية أو تعديلها باستخدام الصفحة **التسلسلات الرقمية‬**.
 

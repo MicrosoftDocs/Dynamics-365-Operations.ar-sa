@@ -1,5 +1,5 @@
 ---
-title: سير عمل المصروفات
+title: سير عمل إدارة المصروفات
 description: يشرح هذا الموضوع كيفية استخدام نظام سير العمل في Microsoft Dynamics 365 Finance، لإعداد عملية مراجعة لتقارير المصروفات في إدارة المصروفات.
 author: ShylaThompson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c52915860709e38013ec06204c52bb06de417eb1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5207be92cb58d8ab2658096b3e0f3fc81d73d91e
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187580"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3153961"
 ---
-# <a name="expense-workflow"></a>سير عمل المصروفات
+# <a name="expense-management-workflow"></a>سير عمل إدارة المصروفات
 
 [!include [banner](../includes/banner.md)]
 

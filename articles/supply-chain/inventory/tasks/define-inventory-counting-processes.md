@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 016447bca53bbc7b2eb3d7ea0790837fa8035dc6
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: b4f83ae0e33520f1777cea31e2f986af1691bfa1
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867187"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145538"
 ---
 # <a name="define-inventory-counting-processes"></a>تحديد عمليات جرد المخزون
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح هذا الموضوع تكوين عمليات جرد المخزون الأساسي عن طريق إنشاء مجموعة جرد ودفتر يومية جرد. كما يوضح لك كيفية تمكين سياسات الجرد على مستوى الصنف والمستودع. وعادة ما تُنفذ هذه المهام عن طريق مشرف المستودع. من الضروري وجود بعض المنتجات الموجودة التي تم إصدارها بالإضافة إلى المستودعات. إذا كنت تستخدم شركة عرض توضيحي للبيانات، فيمكنك تنفيذ هذا الإجراء في شركة USMF مع أي صنف مخزّن.
 

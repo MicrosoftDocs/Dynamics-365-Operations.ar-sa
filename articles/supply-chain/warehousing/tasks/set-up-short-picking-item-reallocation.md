@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 964302cb7e7835b6e619602ac7165c9e7adbcefb
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: eae86b307ac8d8539c3897293c2fc21ea57d2d60
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916737"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148229"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>إعداد إعادة توزيع الأصناف للانتقاء القصير
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح هذا الإجراء كيفية تمكين العاملين في المستودع من العثور بسرعة على مواقع بديلة في حال عدم وجود مخزون كافٍ في الموقع الذي تم توجيههم إليه. من الممكن استخدام عملية إعادة توزيع تلقائي، تستخدم توجيهات الموقع لاسترداد السلع إذا كانت متوفرة في موقع آخر. بدلاً من ذلك، عند استخدام إعادة التوزيع اليدوي، يتم عرض قائمة بالمواقع مع الكمية المتوفرة على الجهاز المحمول، مما يسمح لعامل المستودع باختيار الموقع لاستخدام المخزون منه. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF. يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
 
