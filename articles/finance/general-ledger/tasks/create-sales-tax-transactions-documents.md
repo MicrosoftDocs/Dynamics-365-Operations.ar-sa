@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 653b93744f5b891655cade0cb669d34179fca9cd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bdc4b5c31d9a478a5226ae6b5e8c776de3b661dd
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186131"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144825"
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>إنشاء حركات ضريبة المبيعات في المستندات
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يتم حساب ضريبة المبيعات على المستندات عن طريق توفير مجموعة ضريبة المبيعات ومجموعة ضرائب المبيعات للأصناف‬ على بنود المستند. وهذه تأتي بشكل افتراضي من البيانات الرئيسية، ولكن يمكن تغييرها يدويًا إذا لزم الأمر. يمكن التحقق من ضريبة المبيعات المحسوبة على مستوى البند والمستند. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 

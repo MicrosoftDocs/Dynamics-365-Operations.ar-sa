@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 77b5dd5feb16cc3bd6d64b6520cc47087c5b5224
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e3c1ec73da27a08aa7a6cd859d1adac772916e4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188638"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140158"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>إعداد وإنشاء معلومات تقادم الحسابات المدينة
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 سوف يساعدك هذا الدليل في إعداد تعريف فترة تقادم، وأرصدة العميل القديمة‬، وعرض الأرصدة في قائمة الأرصدة المتقادم‬ة وصفحة التحصيلات‬. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.
 

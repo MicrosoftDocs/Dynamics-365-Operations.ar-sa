@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 867bfd2f2d1ff486e683cb11c38906dd0efe8c14
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c46d77a632b0d2939d9a9f561e7c761845169629
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187856"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144463"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>تكوين معلمات مساحة عمل مراقبة التكلفة
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 استخدم هذا الإجراء لتكوين مساحة عمل التحكم في التكلفة لتمكين المدراء من مستويات مختلفة في المؤسسة من الحصول على نظرة أعمق على كائنات التكلفة، مثل مراكز التكلفة ومجموعات المنتجات. تم استخدام شركة العرض التوضيحي USP2 لإنشاء هذا التسجيل.
 

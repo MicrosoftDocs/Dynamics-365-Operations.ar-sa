@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e85109cd0448383ba231cbec1bdeeb9dcd2db805
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a7a2559bdadbfc74a14bd0e7add9c2f794226e0b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550776"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141915"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>التقارير الإلكترونية - تكوين التنسيق لتنفيذ عمليات الجرد والتجميع (الجزء 1 - إنشاء التنسيق)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لتنفيذ عمليات الجرد والتجميع بالاستناد إلى البيانات الخاصة بالمخرجات النصية المُنشأة بالفعل. يمكن تنفيذ هذه الخطوات في أي شركة.
 
@@ -36,7 +36,7 @@ ms.locfileid: "2550776"
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>الوصول إلى قائمة التكوينات التي توفرها Microsoft
 1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
-    * تأكد من أن “Litware, Inc.” متوفر ومن وضع علامة عليه كنشط.  
+    * تأكد من أن موفر “Litware, Inc.” متوفر ومن وضع علامة عليه كنشط.  
 2. حدد الموفر “Litware, Inc.” .
 3. انقر فوق "المستودعات".
     * إذا كان مخزن من نوع "موارد العمليات" موجودًا بالفعل، فيمكنك تجاوز الخطوات المتبقية في المهمة الفرعية الحالية.  

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4e001a6fdf390c6211ba85aa327b60dcdf16d9e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 85ccf187e77faf338ac29452d823c3652b806a21
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176196"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138105"
 ---
 # <a name="split-a-fixed-asset"></a>تقسيم أصل ثابت
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية تقسيم نسبة مئوية من دفتر الأصول إلى دفتر أصول جديد. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي USMF.‬
 

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30bbb404e624c33e047c5505c5b21565ed8cce10
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec4d86673555f594bb2f81010235fd7eb6e83f27
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847173"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148275"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>إعداد التعبئة اليدوية (فبراير 2016 & مايو 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 تسمح لك عملية التعبئة بالتحقق من المنتجات داخل الحاويات وتعبئتها. في هذه العملية، يعمل عمال المستودع على انتقاء المنتجات من مواقع التخزين ونقلها إلى محطة تعبئة حيث يتحققون من كميات الأصناف وأنواعها ووضعها في حاويات مناسبة. عند وجود حاوية معبأة تمامًا، فإنه يمكنك إغلاقها ونقلها إلى مساحات خارجية وتكون المنتجات جاهزة للشحن. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF. يتم استخدام هذا الإجراء لإصدارات فبراير 2016 ومايو 2016 من Dynamics 365 for Operations فقط.
 

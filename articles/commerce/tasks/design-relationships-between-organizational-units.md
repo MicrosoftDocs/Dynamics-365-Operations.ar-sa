@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5592e41ef8f2a082646b9024af0d91917bb451a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2c6502a05d3cc53d8031b9f8e365454556513c3c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021468"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140823"
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> تصميم العلاقات بين الوحدات التنظيمية
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ينقلك هذا الإجراء عبر عملية تصميم العلاقة بين الوحدات التنظيمية. يجب عليك إنشاء غرض مؤسسة جديد قبل تحديد العلاقة، أو يمكنك استخدام غرض المؤسسة الموجود. شركة بيانات العرض التوضيحي التي تم استخدامها لإكمال هذا الإجراء هي USRT. وهذه المهمة مخصصة لدور المسؤول.
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58b725af456f1a5c7f158f01ffe48a2d8cdf056b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 03fcc62236b14a8721a4cb611978e8672ae77ea3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550527"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146918"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>إنشاء خلية عمل متعاقد عليها من الباطن لـ lean manufacturing
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 لتصميم نموذج متعاقد عليه من الباطن لـ lean manufacturing، يجب عليك إنشاء خلية عمل مرتبطة بالمورّد الذي وفر العمل. ترتبط خلية عمل متعاقد عليه من الباطن بالمورّد من خلال ربط مورد بنوع المورّد. إذا قمت بتشغيل هذا التسجيل في شركة العرض التوضيحي USMF، فيمكنك تحديد معرّف حساب المورّد 1002 والموقع 1.
 

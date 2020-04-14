@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124579"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172821"
 ---
 # <a name="integrated-customer-master"></a>أصل العميل المتكامل
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-من المعتاد أن تتم عادة إدارة سجلات العملاء في أكثر من تطبيق واحد. على سبيل المثال، بإمكان نشاط المبيعات إحضار سجلات العملاء عبر تطبيق مبيعات، وبإمكان مبيعات التجزئة أو التجارة الإلكترونية إحضار سجلات العملاء عبر تطبيق Finance and Operations. بغض النظر عن مصدر سجلات العملاء، فهي تتكامل في الخلفية عبر حدود التطبيق واختلافات البنية التحتية. تساعد إدارة العملاء المتكامل على التعامل مع سيناريوهات إدارة متعددة وتوفر طريقة عرض شاملة للعميل في مجموعة تطبيقات Dynamics 365.
+يمكن إدارة بيانات العملاء في أكثر من تطبيق Dynamics 365 واحد. علي سبيل المثال، يمكن أن ينشأ سجل العميل إذا كان نشاط المبيعات في Dynamics 365 Sales (تطبيق يستند إلى النموذج في Dynamics 365)، أو يمكن أن سجل من خلال نشاط بيع بالتجزئة في Dynamics 365 Commerce (تطبيق Finance and Operations). بغض النظر عن المكان الذي تنشأ فيه البيانات الخاصة بالعميل، فإنها تتكامل خلف المشاهد. يوفر أصل العميل المتكامل المرونة لبيانات العميل الرئيسية في أي تطبيق Dynamics 365 ويوفر طريقة عرض شاملة للعميل عبر مجموعة تطبيقات Dynamics 365.
 
 ## <a name="customer-data-flow"></a>تدفق بيانات العميل
 
@@ -59,7 +58,6 @@ ms.locfileid: "3124579"
 طريقة دفع العميل     | msdyn_customerpaymentmethods    | يقوم هذا القالب بمزامنة معلومات طرق دفع العملاء.
 العملاء V3                | الحسابات                        | يقوم هذا القالب بمزامنة المعلومات الرئيسية للعميل للعملاء التجاريين والمؤسسين.
 العملاء V3                | جهات الاتصال                        | يقوم هذا القالب بمزامنة البيانات الرئيسية للعميل للعملاء والمستخدمين النهائيين.
-بطاقة الولاء                | msdyn_loyaltycards              | يقوم هذا القالب بمزامنة معلومات بطاقة ولاء العملاء.
 ملحقات الاسم                | msdyn_nameaffixes               | يقوم هذا القالب بمزامنة البيانات المرجعية لملصقات الأسماء، لكلٍّ من العملاء والموردين.
 بنود يوم الدفع CDS V2    | msdyn_paymentdaylines           | يقوم هذا القالب بمزامنة البيانات المرجعية لأسطر أيام الدفع لكلٍّ من العملاء والموردين.
 أيام الدفع CDS            | msdyn_paymentdays               | يقوم هذا القالب بمزامنة البيانات المرجعية لأيام الدفع لكلٍّ من العملاء والموردين.
@@ -78,8 +76,6 @@ ms.locfileid: "3124579"
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 

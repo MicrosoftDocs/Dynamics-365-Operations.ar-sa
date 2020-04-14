@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 5972c44261a6ebd49df0fcbcef9a8c60aaa487e2
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658919"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144710"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>إعداد فترات تسوية ضريبة المبيعات
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إعداد ‏‫فترات تسوية ضريبة المبيعات‬. تحتوي فترات تسوية ضرائب المبيعات على معلومات عن الفترات الزمنية التي يجب خلالها الإبلاغ عن الضرائب ودفعها. يمكن تشغيل عملية التسوية لفترة تسوية وفترة تاريخ محددة. وستتم تسوية كافة أكواد الضرائب المقترنة بفترة التسوية. بالاستناد إلى إعداد هيئة ضريبة المبيعات ذات الصلة، يتم ترحيل الالتزام الضريبي إما إلى حساب مورّد أو حساب دفتر أستاذ عام.
 

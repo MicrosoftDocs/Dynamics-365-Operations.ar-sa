@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d785b321037645837dbcbaf28c8ede9b8e97b79
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 20188438a4ca623fc926e6c373fb002f148c3df4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550592"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142468"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>التقارير الإلكترونية - تكوين التنسيق لتنفيذ عمليات الجرد والتجميع (الجزء 2 - تكوين العمليات الحسابية)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لتنفيذ عمليات الجرد والتجميع بالاستناد إلى البيانات الخاصة بالمخرجات النصية المُنشأة بالفعل. يمكن تنفيذ هذه الخطوات في أي شركة.
 
@@ -85,7 +85,7 @@ ms.locfileid: "2550592"
 34. انقر فوق الزر "تحرير" للحقل "اسم مفتاح البيانات المجمعة‬"
 35. انقر فوق "إضافة مصدر بيانات".
     * $BlockName  
-36. انقر فوق "حفظ".
+36. انقر فوق حفظ.
 37. قم بإغلاق الصفحة.
 38. انقر فوق الزر "تحرير" للحقل "قيمة مفتاح البيانات المجمعة‬‬".
 39. في حقل "المعادلة"، أدخل "r 'IF(Intrastat.CommodityRecord.Direction=Direction.Import, "استيراد"، "تصدير")'.
@@ -99,7 +99,7 @@ ms.locfileid: "2550592"
     * قم بعدّ الأسطر في هذا التسلسل. سوف تحفظ النتائج باستخدام الاسم "السجل".  
 45. في الشجرة، حدد "$RecName".
 46. انقر فوق "إضافة مصدر بيانات".
-47. انقر فوق "حفظ".
+47. انقر فوق حفظ.
 48. قم بإغلاق الصفحة.
 49. انقر فوق الزر "تحرير" للحقل "قيمة مفتاح البيانات المجمعة‬‬".
 50. في حقل المعادلة، أدخل "Intrastat.CommodityRecord.CommodityCode".
@@ -110,7 +110,7 @@ ms.locfileid: "2550592"
 54. انقر فوق الزر "تحرير" للحقل "اسم مفتاح البيانات المجمعة‬"
 55. في الشجرة، حدد "$RecName".
 56. انقر فوق "إضافة مصدر بيانات".
-57. انقر فوق "حفظ".
+57. انقر فوق حفظ.
 58. قم بإغلاق الصفحة.
 59. انقر فوق الزر "تحرير" للحقل "قيمة مفتاح البيانات المجمعة‬‬".
 60. في حقل المعادلة، أدخل "Intrastat.CommodityRecord.CommodityCode".

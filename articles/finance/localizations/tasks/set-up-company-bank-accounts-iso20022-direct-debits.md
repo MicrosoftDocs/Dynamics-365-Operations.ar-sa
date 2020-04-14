@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89c4a8d3cb504df97bad5679bf12b3cdb5931d95
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 652d8aa8f78d9a12ee390d23904f2c94d9bcf684
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185694"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144848"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>إعداد الحسابات البنكية للشركة للديون المباشرة ISO20022
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 تنقلك هذه المهمة عبر عملية إعداد المعلومات المحددة الخاصة بالحساب البنكي للشركة والمطلوبة لإنشاء ملفات دفع العميل. يستخدم هذا الإجراء تنسيق الدين المباشر ISO 20022 كمثال. قد تتطلب تنسيقات أخرى معلومات إعداد إضافية، مثل "معرف الشركة" أو "كود الفرز".
 

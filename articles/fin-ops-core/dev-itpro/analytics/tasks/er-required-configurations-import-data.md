@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042863"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143305"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>التقارير الإلكترونية - إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 تشرح الخطوات التالية كيف يستطيع المستخدم الذي يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوينات تقارير إلكترونية لاستيراد البيانات إلى التطبيق من ملف خارجي. في هذا المثال، سوف تنشئ تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية Litware, Inc. لإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات الموجودة في دليل المهام "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط"‬. يمكن إتمام هذه الخطوات باستخدام مجموعة بيانات USMF. يجب أيضًا تنزيل الملفات التالية وحفظها محليًا باستخدام الارتباطات من الموضوع "نظرة عامة حول التقارير الإلكترونية‬‏‫" (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 

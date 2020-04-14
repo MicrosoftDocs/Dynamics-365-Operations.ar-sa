@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: c8416f9a869b9144a63a6fb08c667cc32dec9854
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856462"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149701"
 ---
 # <a name="create-purchasing-policies"></a>إنشاء سياسات الشراء
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إنشاء سياسات شراء لتتماشى مع عملياتك التجارية الخاصة بالشراء. قبل أن تتمكن من إنشاء سياسات الشراء، يجب أن تقوم بإعداد محددات سياسة الشراء. من الممكن إنشاء سياسة شراء وتعديلها وإيقافها، ولكن لا يمكنك حذف سياسة شراء. يقوم مدير المشتريات عادةً بتنفيذ هذا الإجراء. يمكنك استخدام هذا الإجراء في شركة بيانات العرض التقديمي USMF، أو في البيانات الخاصة بك.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad1399d8ca96b9fdc5d316b6d9de8d9e04af55e8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 212227afb21ac1a20d29c33b40f6c44561da14fe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176169"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144343"
 ---
 # <a name="create-and-validate-journals"></a>إنشاء دفاتر اليومية والتحقق من صحتها
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ينشئ دليل المهام هذا دفاتر اليومية وبنود دفاتر اليومية ويتحقق من صحتها. وتستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.  
 

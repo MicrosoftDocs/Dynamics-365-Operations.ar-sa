@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769845"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142122"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML (نوفمبر 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيف يمكن لمستخدم يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء تكوين تقارير إلكترونية جديد يحتوي على قالب لإنشاء المستندات الإلكترونية بتنسيق OPENXML. سيتم استخدام هذا التكوين لمعالجة مدفوعات المورد.
 
@@ -55,7 +55,7 @@ ms.locfileid: "2769845"
 3. حدد **إنشاء تكوين** لفتح مربع الحوار المنسدل.
 4. في الحقل **جديد**، أدخل `Format based on data model PaymentModel`. ثم بإنشاء تنسيق يستند إلى نموذج البيانات "PaymentModel".
 5. في حقل **الاسم**، اكتب `Sample worksheet report`. تقرير ورقة العمل للعينة  
-6. في حقل **الوصف**، اكتب `Sample worksheet report for vendors’ payments`. تقرير ورقة عمل عينة لدفعات الموردين.  
+6. في حقل **الوصف**، اكتب `Sample worksheet report for vendors' payments`. تقرير ورقة عمل عينة لدفعات الموردين.  
 7. في الحقل **تعريف نموذج البيانات**، أدخل قيمة أو حددها. حدد تعريف **CustomerCreditTransferInitiation**.  
 8. حدد **إنشاء التكوين**.
 

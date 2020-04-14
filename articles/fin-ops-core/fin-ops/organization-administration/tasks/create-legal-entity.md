@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f63591d2bdb88de8c9bc7a544ac4f3adbab90a7c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cab889d89b239c746c98108a22746774203e4169
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176312"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140595"
 ---
 # <a name="create-a-legal-entity"></a>إنشاء كيان قانوني
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 الكيان القانوني هو مؤسسة يتم تعريفها من خلال التسجيل في هيئة قانونية. يمكن إدخال الكيانات القانونية في العقود ويجب عليها إعداد كشوف حساب تقوم بالإبلاغ عن أدائها. يشرح الإجراء التالي كيفية إنشاء كيان قانوني. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

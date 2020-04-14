@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 980ce00ae702ea0a3394efa15419e0f7b7dc2530
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182199"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143263"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>تعمل التقارير الإلكترونية على تحميل تكوين في Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء تكوين التقارير الإلكترونية وتحميلها داخل Microsoft Lifecycle Services (LCS).
 
 في هذا المثال، ستقوم بإنشاء تكوين وتحميله إلى LCS لشركة نموذجية Litware, Inc. يمكن تنفيذ هذه الخطوات في أي شركة نظرًا لمشاركة تكوينات التقارير الإلكترونية بين الشركات. لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الإجراء "إنشاء موفر تكوين ووضع علامة عليه على أنه نشط". يتم أيضًا الوصول إلى LCS المطلوب لإكمال هذه الخطوات.
 
 1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
-2. حدد ‘Litware, Inc.’ وقم بتعيينها كنشطة.
+2. حدد ".Litware, Inc" وقم بتعيينها كنشطة.
 3. انقر فوق "التكوينات".
 
 ## <a name="create-a-new-data-model-configuration"></a>إنشاء تكوين نموذج بيانات جديد
@@ -83,7 +83,7 @@ ms.locfileid: "2182199"
 4. انقر فوق "تغيير الحالة".
 5. انقر فوق "مشاركة".
     * سيتم تغيير حالة التكوين من "مكتمل" إلى "مشترك" عند نشرها في LCS.  
-6. انقر فوق "موافق".
+6. انقر فوق موافق.
 7. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
     * حدد إصدار التكوين مع الحالة "مشترك".  
     * لاحظ أنه تم تغيير حالة الإصدار المحدد من "مكتملة" إلى "مشتركة".  

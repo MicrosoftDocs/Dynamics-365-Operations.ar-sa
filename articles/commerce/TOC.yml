@@ -454,6 +454,8 @@
                   items:
                     - name: تكوين التكاليف التلقائية المتقدمة واستخدامها
                       href: omni-auto-charges.md
+                    - name: تمكين التكاليف التلقائية وتكوينها حسب القناة
+                      href: auto-charges-by-channel.md
                     - name: توزيع تكاليف الرأس لمطابقة بنود المبيعات
                       href: pro-rate-charges-matching-lines.md
                 - name: إدارة برامج الاستمرارية
@@ -525,7 +527,7 @@
                 - name: إنشاء منتج جديد
                   items:
                     - name: إنشاء منتج جديد في Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: إدارة فئات المنتجات والمنتجات
                       href: category-management-product-creation.md
                 - name: سمات المنتج
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: إلغاء الاشتراك في التوصيات المخصصة
                       href: personalization-gdpr.md
-                - name: إضافة قوائم توصيات إلى موقع تجارة إلكترونية
-                  href: add-reco-list-to-page.md
                 - name: تجارب نقطة البيع
                   items:
                     - name: إضافة توصيات المنتجات على نقطة البيع
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: الوحدة النمطية لتأكيد الأمر
                       href: order-confirmation-module.md
+                    - name: الوحدة النمطية لمحدد المتجر
+                      href: store-selector.md
                 - name: الوحدات النمطية لإدارة الحسابات
                   items:
                     - name: الصفحات والوحدة النمطية لإدارة الحسابات
@@ -2115,7 +2117,7 @@
                 - name: استخدام بيانات الدفع
                   href: payment-connector-data-fields.md
                 - name: تمكين الحماية من الدفعات المكررة لموصل الدفع
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: إنشاء حزمة دفع ‏‫لمستكشف التطبيق‬ في عمليات نشر Service Fabric
                   href: dev-itpro/payment-connector-package.md
             - name: قابلية توسعة التجارة الإلكترونية لجهة خارجية

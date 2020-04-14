@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 28f47f8cebca6c7249e0596c53f3589dc6541e26
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 50f906d62ad6f1e0b79c9c1bb6fcd373ba350c98
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112379"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172588"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>الوصول إلى البيانات المالية وبيانات مرجع الضريبة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 يحتاج كل عمل إلى مجموعة أساسية من البيانات المالية، مثل تقويم السنة المالية، والعملة المستخدمة لتنفيذ معاملات الشركة، والحسابات التي ترد إليها أو تخرج منها الأموال الخاصة بإدارة العمل ومعدلات الضرائب والتحويلات. توجد هذه البيانات في تطبيقات Finance and Operations. ومع ذلك، فهي معروضة لتطبيق Common Data Service بحيث تحصل التطبيقات المستندة إلى نموذج في Microsoft Dynamics 365 على مصدر واحد للبيانات المالية والضريبية.. وبهذه الطريقة، تكون البيانات موحدة عبر النظام البيئي للأعمال. 
 

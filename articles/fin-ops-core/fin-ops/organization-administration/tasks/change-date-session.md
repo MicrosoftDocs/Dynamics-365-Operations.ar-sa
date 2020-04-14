@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 910d2347bcfb7dcdaa9ff96f324f99e17614d3a9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 33773725a1da38e017f660a4ccfc5bdd98de2b69
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176313"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140619"
 ---
 # <a name="change-the-date-for-a-session"></a>تغيير تاريخ جلسة
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تغيير تاريخ جلسة عمل. بشكل افتراضي، يتم استخدام التاريخ الحالي عند إدخال المستندات المصدر أو إدخالات دفتر اليومية وترحيلها. يمكن تغيير التاريخ المستخدم لجلسة عملك الحالية. استخدم هذه الميزة لتغيير تاريخ إدخالات دفتر اليومية أو المستندات المصدر، عند الضرورة.
 

@@ -3,7 +3,7 @@ title: المزايا الجديدة أو المتغيرة في Human Resources
 description: كل أسبوع، نقوم بتوفير إصدار جديد لـ Microsoft Dynamics 365 Human Resources. توضح المقالات المذكورة هنا التغييرات التي تم تمت كل أسبوع.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4058618ec95fabc90fdc784552c1920a109e6418
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 7ba311a3ab6ac482821e485186d81a5bcb91ab38
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123960"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154449"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>المزايا الجديدة أو المتغيرة في Human Resources
 

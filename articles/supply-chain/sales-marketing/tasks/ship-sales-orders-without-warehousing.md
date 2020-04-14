@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e311d3e033168ed577094e94477e7fe47d185d
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 9bd90767af741760b1fbd3fd5c2b4cbbae95a477
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914920"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146389"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>شحن أوامر المبيعات دون تخزينها
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تحديث أمر مبيعات عند شحن المنتجات إلى العميل. وينطبق الدليل على تدفق التنفيذ الذي لا يتم إعداده لإدارة المستودعات (ليس المستودع الأساسية أو المتقدم)، ولذلك لا يتطلب تسجيل انتقاء المنتجات قبل الشحن. يمكنك تنفيذ هذا الإجراء في البيانات الخاصة بك أو في شركة بيانات العرض التوضيحي USMF. في الحالتين، قبل أن تبدأ هذه المهمة، أنشئ أمر مبيعات لمنتج مسجل في المخزون كميته أكبر من 1. لتجنب حدوث خطأ في الترحيل، يجب عليك أن تتأكد من أن كمية المنتج الفعلية في الموقع والمستودع التي حددتها في الأمر تغطي كمية الأمر.
 

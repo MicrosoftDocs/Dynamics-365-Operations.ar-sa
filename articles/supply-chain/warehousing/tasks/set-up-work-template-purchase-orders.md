@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227a6865df826caf8ce154f9c44ebe082acd76a5
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 473bb133159bb6cdcbbd30ab2c8452eb69f8cfaf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916727"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148183"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>إعداد قالب عمل لأوامر الشراء
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يصف هذا الموضوع كيفية إعداد قالب عمل بسيط لاستخدامه عند تخزين الأصناف المستلمة. تحدد قوالب العمل مجموعة الإرشادات المقدمة إلى عامل المستودع على جهاز محمول عند نقل الأصناف من منطقة الاستلام. يمكنك استخدام هذا الإجراء مع البيانات المذكورة في شركة بيانات العرض التوضيحي USMF. قبل تشغيل هذا الدليل، قم بإنشاء معرف وعاء عمل. في هذا المثال، يُستخدم معرف وعاء عمل يتم استدعاؤه في "الوارد". هذا الإجراء مخصص لمدير المستودعات.
 

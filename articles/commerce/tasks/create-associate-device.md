@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e9151adbadffa54633cb10a37522c065e86dd5c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bb201dac1cbfa59f1a46ef42da3822040f74e620
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021485"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141466"
 ---
 # <a name="create-and-associate-a-device"></a> إنشاء وربط جهاز
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يتناول هذا الإجراء كيفية إنشاء جهاز جديد وإقرانه بسجل. من المفترض أن يتم إنشاء السجل بالفعل.  تستخدم هذه المهمة شركة USRT في بيانات العرض التوضيحي. هذه المهمة مخصصة لأدوار المسؤولين وفنيي تكنولوجيا المعلومات أو تكنولوجيا معلومات التجارة‬ ومدير المتجر.
 

@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62eeb29e348c558e8954f656b89d90792b0c347b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021461"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141213"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> دفع المنتجات من مركز توزيع إلى متجر باستخدام دفع المشتري
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 يتناول هذا الإجراء الخطوات اللازمة لإنشاء ومعالجة ‏‫توزيع المشتريات‬ لتوزيع المنتجات من موقع واحد إلى متجر واحد أو أكثر. يمكن للمستخدم تحديد تكوينات متعددة وامتلاك النظام الذي يقترح كيفية توزيع المنتجات أو إدخال مكان توزيع المنتجات يدويًا وكمية المنتجات التي يتم توزيعها على كل متجر. لا يتضمن هذا الإجراء عملية إعداد البيانات التي يمكن استخدامها في ‏‫توزيع المشتريات‬، مثل قواعد التزويد والتدرجات الهرمية للمؤسسات وتخزين الأوزان. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
 

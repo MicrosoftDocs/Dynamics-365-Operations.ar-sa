@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7515b3519d97d43bc5c656c43fd7e64b8bab8b13
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8ace88e590363f411e1d7120cbafc2637355c6d2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844431"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149954"
 ---
 # <a name="define-configuration-route"></a>تحديد مسار التكوين
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يركز هذا الإجراء على تحديد مسار تكوين يحدد التسلسل الذي سيتم عرض مجموعات التكوين به. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. وهذا هو الإجراء السادس من أصل ثمانية إجراءات الذي يوضح كيفية إنشاء مجموعات للتكوين مستند إلى بُعد.
 

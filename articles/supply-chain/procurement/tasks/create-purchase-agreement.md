@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec792ca27bf0245ff25e59cfe28122f17caec7fc
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 81b0e33d8f721cfcfd437e34b42a909798a6514b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866840"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147447"
 ---
 # <a name="create-a-purchase-agreement"></a>إنشاء اتفاقية شراء
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يُرشدك هذا الموضوع عبر عملية إنشاء اتفاقية شراء. يتم إجراء هذا عادة عن طريق إدارة الشراء. يمكنك استخدام هذا الإجراء في شركة بيانات العرض التقديمي USMF، أو في البيانات الخاصة بك. تحتاجُ إلى إعداد تصنيفات اتفاقيات الشراء قبل البدء. بمجرد إنشاء اتفاقية يمكنك استخدامها عند إنشاء أمر مبيعات، وسيؤدي هذا إلى نسخ شروط اتفاقية الشراء للرأس وأي بنود في الأمر متأثرة بالاتفاقية.
 

@@ -1,5 +1,5 @@
 ---
-title: معالجة الخصومات النقدية لحالات الدفع بالزيادة
+title: الخصومات النقدية لحالات الدفع بالزيادة
 description: توفر هذه المقالة سيناريوهات توضح كيفية معالجة الدفع عندما يأخذ العميل خصمًا نقديًا ولكنه يدفع أيضًا مبلغًا زائدًا.
 author: ShylaThompson
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 803cb478bb7631439ebde66ad96182193d3dd1ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e2fafe2fba9dd71fc09c60bfa20d72fa59510b7f
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188339"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154146"
 ---
-# <a name="handling-cash-discounts-for-overpayments"></a>معالجة الخصومات النقدية لحالات الدفع بالزيادة
+# <a name="cash-discounts-for-overpayments"></a>الخصومات النقدية لحالات الدفع بالزيادة
 
 [!include [banner](../includes/banner.md)]
 

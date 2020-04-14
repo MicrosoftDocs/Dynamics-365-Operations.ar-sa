@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 246502f66c0cfcd4b4ed3c4b9f2ae616e71a1c50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9bcb78158afbf7bb0e9b83b35e37b1532a7c6283
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186867"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138174"
 ---
 # <a name="set-up-fixed-asset-groups"></a>إعداد مجموعات الأصول الثابتة
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إنشاء مجموعة أصول ثابتة جديدة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c89d27eb8b587e8936258aae3ec1fee4574ccfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 70fe3bb707f2f204cda92ec979fe9fe1a3b96bac
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180911"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143594"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>تحديد وحل التعارضات في الفصل بين المهام
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية التعرّف على التعارضات وحلها في الفصل بين المهام. يمكنك إعداد قواعد لفصل المهام التي يجب تنفيذها بواسطة مستخدمين مختلفين. يسمى هذا المفهوم الفصل بين المهام. عندما يخالف تعريف دور أمان أو تعيينات أدوار لأحد المستخدمين القواعد، سيتم تسجيل التعارض. يجب حل جميع التعارضات بواسطة المسؤول. أكمل الإجراء التالي لتحديد التعارضات وحلها. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

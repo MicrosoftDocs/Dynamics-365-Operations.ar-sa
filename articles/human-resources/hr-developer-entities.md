@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087336"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166488"
 ---
 # <a name="common-data-service-entities"></a>كيانات Common Data Service .
 
@@ -87,14 +87,19 @@ ms.locfileid: "3087336"
 | منصب الوظيفة | cdm_jobposition |
 | نوع المنصب | cdm_positiontype |
 | تعيين العامل بالمنصب | cdm_positionworkerassignmentmap |
+| بُعد منصب الوظيفة | cdm_jobpositiondimension|
 | نوع الوظيفة | cdm_jobtype |
 | اللغة | cdm_language |
+| المسمى الوظيفي | cdm_title |
+
+> [!NOTE]
+> توفر الأبعاد المالية لـ **نوع المنصب **، و**تعيين عامل المنصب**، و**التوظيف** تكاملاً من اتجاه واحد لـ Common Data Service. في الوقت الحالي، لا يمكن مزامنة تحديثات الأبعاد المالية من Common Data Service إلى Human Resources. 
 
 ## <a name="leave-and-absence-entities"></a>كيانات الإجازة والغياب
 
 | الاسم | الكيان |
 | --- | --- |
-| حركة أجازة البنك | cdm_leavebanktransaction |
+| حركة بنك الإجازة | cdm_leavebanktransaction |
 | تسجيل الأجازة | cdm_leaveenrollment |
 | خطة الإجازة | cdm_leaveplan |
 | طلب الإجازة | cdm_leaverequest |
