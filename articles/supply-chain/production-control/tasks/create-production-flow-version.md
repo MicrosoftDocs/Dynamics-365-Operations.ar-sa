@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5512c30be586c75d2571d60588a1179c0d47570b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564076"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146987"
 ---
 # <a name="create-a-production-flow-version"></a>إنشاء إصدار تدفق إنتاج
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يركز هذا الإجراء على إنشاء إصدار تدفق إنتاج جديد. بالنسبة لهذا الإجراء، يجب تعريف معلمات lean manufacturing للإنتاج ووحدات القياس للوقت الخاص بالفئة. كما تحتاج أيضا إلى تعريف تدفق قيم ومجموعة إنتاج. لمعرفة المزيد حول تدفقات الإنتاج والأنشطة المضمنة في lean manufacturing، راجع المستندات التقنية حول lean manufacturing لتطبيق Microsoft Dynamics AX. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

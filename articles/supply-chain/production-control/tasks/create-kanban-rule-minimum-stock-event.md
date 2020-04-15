@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b578a664e9e3b6496e5665b2eefd9d75f86ecc3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6ca5a2e2180235e51ef569fd93ad06867c3dddae
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837820"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149310"
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>إنشاء قاعدة كانبان باستخدام حدث الحد الأدنى للمخزون
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يركز هذا الإجراء على الإعداد المطلوب لإنشاء قاعدة كانبان باستخدام حدث مخزون الحد أدنى لضمان توفر منتج معين في موقع معين في كل الأوقات. يتم إنشاء قاعدة كانبان لتحويل المواد إلى الموقع عندما ينخفض مستوى المخزون إلى أقل من 200 قطعة. من خلال تشغيل معالجة حدث تثبيت السعر، يتم إنشاء كانبان المطلوب. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬ هذه المهمة مخصصة لمهندس العمليات أو مدير تدفق القيم عند قيامه بتحضير عملية إنتاج منتج جديد أو معدل في بيئة محدودة.
 

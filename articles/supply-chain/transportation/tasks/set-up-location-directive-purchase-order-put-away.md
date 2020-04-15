@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aea3f08ea2d1bd584448c3033aea41eca2a0e3ce
-ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
+ms.openlocfilehash: 54c75696f7147a7a4eb7b9d984936af9c28ef501
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870906"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146205"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>إعداد توجيه موقع لتخزين أمر الشراء
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إعداد توجيه موقع بسيط. ينشئ المثال المعروض توجيه موقع سيتم استخدامه لتحديد مكان وضع الأصناف التي تم استلامها لأمر شراء. يمكنك تشغيل دليل المهام هذا مع البيانات المذكورة باستخدام شركة بيانات العرض التوضيحي USMF. الشروط المسبقة: تحتاج لإنشاء رمز إرجاع. في هذا الإجراء نستخدم رمز إرجاع يُسمى "إعادة تسمية". إذا كنت تقوم بإنشاء توجيه موقع في البيانات الخاصة بك، فستحتاج إلى إعداد إدارة المستودعات المتقدمة للمستودع والأصناف. هذا الإجراء مخصص لمدير المستودعات.
 

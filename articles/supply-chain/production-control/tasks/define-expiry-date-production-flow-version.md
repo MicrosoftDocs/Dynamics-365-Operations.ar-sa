@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10260290fba02ebf9313d0d1355c9aa28e3509d7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5d8df396abc3ac4a2c3920e6bf2b21d8a4463df2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843687"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146849"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>تحديد تاريخ انتهاء صلاحية لإصدار تدفق الإنتاج
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 إنهاء الصلاحية ومعالجة إصدار تدفق الإنتاج في تاريخ معين، أو للتخطيط لاستبدال إصدار نشط بإصدار جديد، يجب عليك تعيين تاريخ انتهاء صلاحية على الإصدار. ليس من الضروري إلغاء تنشيط الإصدار.
 
