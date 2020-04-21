@@ -5,6 +5,12 @@
       items:
         - name: المزايا الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 13 أبريل 2020
+          href: hr-whats-new-2020-04-13.md
+        - name: 3 أبريل 2020
+          href: hr-whats-new-2020-04-03.md
+        - name: 24 مارس 2020
+          href: hr-whats-new-2020-03-24.md
         - name: 19 مارس 2020
           href: hr-whats-new-2020-03-19.md
         - name: 10 مارس 2020
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: إدارة المزايا
           items:
-            - name: 'ميزة المعاينة: إدارة المزايا'
+            - name: إدارة المزايا
               items:
                 - name: نظرة عامة على إدارة المزايا
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: إعداد خطط المزايا
                       href: hr-benefits-plans-setup.md
-                    - name: إنشاء خطط المزايا للعامل
-                      href: hr-benefits-plans-worker.md
                     - name: إعداد برامج الائتمان المرنة
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: تكوين أحداث الحياة المستقبلية
-                      href: hr-benefits-plans-future-life-events.md
                 - name: معالجة خطط المزايا
                   items:
                     - name: معالجة أهلية التسجيل
@@ -499,6 +501,8 @@
               href: hr-leave-and-absence-enroll.md
             - name: استحقاق خطط الإجازة والغياب
               href: hr-leave-and-absence-accrue.md
+            - name: تعليق الإجازة
+              href: hr-leave-and-absence-suspend-leave.md
             - name: عرض تحليلات الإجازة والغياب
               href: hr-leave-and-absence-analytics.md
             - name: إدارة طلبات الإجازة والغياب
