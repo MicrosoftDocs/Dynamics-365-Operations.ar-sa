@@ -1,5 +1,5 @@
 ---
-title: الصفحة الرئيسية للمعلومات المهنية (BI) وإعداد التقارير
+title: إعداد التقارير والتحليلات في الصفحة الرئيسية لـ Power BI
 description: يوجهك هذا الموضوع إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير المتوفرة.
 author: sericks007
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 424da665f91820f3fe42c98b352a646dd3db72c5
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771554"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258570"
 ---
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>الصفحة الرئيسية للمعلومات المهنية (BI) وإعداد التقارير
+# <a name="reporting-and-analytics-with-power-bi-home-page"></a>إعداد التقارير والتحليلات في الصفحة الرئيسية لـ Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "2771554"
 ## <a name="get-started"></a>البدء
 - [الوصول إلى المعلومات وإعداد التقارير](information-access-reporting.md)
 - [حديث تقني: خيارات إعداد التقارير](https://www.youtube.com/watch?v=NzZONjKs5xA) (فيديو)
-- [Finance and Operations: مدونة خدمات التحليلات وإعداد التقارير في Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (مدونة)
+- [Finance and Operations: Power BI مدونة خدمات التحليلات وإعداد التقارير في](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (مدونة)
 
 ## <a name="analytical-workspaces"></a>مساحات العمل التحليلية
 بإمكان مساحات العمل استخدام مرئيات ومخططات معلومات رسومية ثرية مدعمة من Microsoft Power BI. تشتمل هذه المرئيات ومخططات المعلومات الرسومية على العديد من عناصر التحكم التي توفرها جهات خارجية. ولذلك، يمكن لمساحات العمل توفير تجربة مرئية وتفاعلية عالية للمستخدمين.
