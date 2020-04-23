@@ -2,7 +2,7 @@
 title: حساب قائمة مكونات الصنف باستخدام هيكل أحادي المستوى (فبراير 2016)
 description: يوضح هذا الإجراء كيفية حساب تكلفة المنتج النهائي باستخدام عملية تحديد إجمالي المكونات المطلوبة‬ أحادية المستوى يوجد أساسها في كشف التكاليف.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,37 +10,37 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e02e76cd5762fc683290eeee49d23c9fed8d4503
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: e7c2c34474cada787b7a7ba720ba177aa8dc125f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150506"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214333"
 ---
-# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a><span data-ttu-id="8b0d3-103">حساب قائمة مكونات الصنف باستخدام هيكل أحادي المستوى (فبراير 2016)</span><span class="sxs-lookup"><span data-stu-id="8b0d3-103">Calculate a BOM by using a single level structure (February 2016)</span></span>
+# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a><span data-ttu-id="49392-103">حساب قائمة مكونات الصنف باستخدام هيكل أحادي المستوى (فبراير 2016)</span><span class="sxs-lookup"><span data-stu-id="49392-103">Calculate a BOM by using a single level structure (February 2016)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8b0d3-104">يوضح هذا الإجراء كيفية حساب تكلفة المنتج النهائي باستخدام عملية تحديد إجمالي المكونات المطلوبة‬ أحادية المستوى يوجد أساسها في كشف التكاليف.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-104">This procedure shows how to calculate the cost of a finished product by using single level explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="8b0d3-105">إنها المهمة السادسة في سلسلة حسابات قائمة مكونات الصنف.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-105">This is the sixth task in the BOM calculation series.</span></span> <span data-ttu-id="8b0d3-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="8b0d3-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="49392-104">يوضح هذا الإجراء كيفية حساب تكلفة المنتج النهائي باستخدام عملية تحديد إجمالي المكونات المطلوبة‬ أحادية المستوى يوجد أساسها في كشف التكاليف.</span><span class="sxs-lookup"><span data-stu-id="49392-104">This procedure shows how to calculate the cost of a finished product by using single level explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="49392-105">إنها المهمة السادسة في سلسلة حسابات قائمة مكونات الصنف.</span><span class="sxs-lookup"><span data-stu-id="49392-105">This is the sixth task in the BOM calculation series.</span></span> <span data-ttu-id="49392-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="49392-106">The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="8b0d3-107">انتقل إلى "المنتجات الصادرة‬".</span><span class="sxs-lookup"><span data-stu-id="8b0d3-107">Go to Released products.</span></span>
-2. <span data-ttu-id="8b0d3-108">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="8b0d3-109">حدد المنتج BOM_1.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-109">Select product BOM_1.</span></span>  
-3. <span data-ttu-id="8b0d3-110">في جزء الإجراءات، انقر فوق "إدارة التكاليف‬".</span><span class="sxs-lookup"><span data-stu-id="8b0d3-110">On the Action Pane, click Manage costs.</span></span>
-4. <span data-ttu-id="8b0d3-111">انقر فوق "سعر الصنف".</span><span class="sxs-lookup"><span data-stu-id="8b0d3-111">Click Item price.</span></span>
-5. <span data-ttu-id="8b0d3-112">انقر فوق "حساب تكلفة الصنف".</span><span class="sxs-lookup"><span data-stu-id="8b0d3-112">Click Calculate item cost.</span></span>
-    * <span data-ttu-id="8b0d3-113">قد تحتاج إلى النقر فوق علامة القطع (...) لرؤية هذا الخيار في القائمة العلوية.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
-6. <span data-ttu-id="8b0d3-114">في الحقل "إصدار محاسبة التكاليف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-114">In the Costing version field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="8b0d3-115">بالنسبة إلى هذا العرض التوضيحي، حدد 10.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-115">For this demo, select 10.</span></span> <span data-ttu-id="8b0d3-116">هذا هو إصدار محاسبة التكاليف نفسه المستخدم لإضافة سعر التكلفة إلى المكونات.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-116">This is the same costing version used for adding the cost price to the components.</span></span>  
-7. <span data-ttu-id="8b0d3-117">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="8b0d3-117">Click OK.</span></span>
-8. <span data-ttu-id="8b0d3-118">انقر فوق "عرض تفاصيل الحساب"ز</span><span class="sxs-lookup"><span data-stu-id="8b0d3-118">Click View calculation details.</span></span>
-    * <span data-ttu-id="8b0d3-119">قد تحتاج إلى النقر فوق علامة القطع (...) لرؤية هذا الخيار في القائمة العلوية.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-119">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>    <span data-ttu-id="8b0d3-120">إليك تركيب التكلفة:  \*    يشتق 10 من ITEM_A، و10 من ITEM_B, 10 من BOM_2.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-120">Here's the composition of the cost:  \*    10 is derived from ITEM_A, 10 from ITEM_B, 10 from BOM_2.</span></span> <span data-ttu-id="8b0d3-121">وفي هذه الحالة لا توجد تفاصيل لـ BOM_2 حيث تم إدخالها كتكلفة معيارية من 10 لكن ذلك لم يتم من خلال الحساب.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-121">In this case there are no details for BOM_2 because it was entered as a standard cost of 10 but not done through calculation.</span></span>  <span data-ttu-id="8b0d3-122">\*  يشتق 7 من وقت الإعداد، وهو تكلفة ثابتة، ويشتق 7 إضافي من عملية وقت التشغيل (العملية).</span><span class="sxs-lookup"><span data-stu-id="8b0d3-122">\*    7 is derived from the setup time, which is a constant cost, and additional 7 is derived from the run-time operation (Process).</span></span>  <span data-ttu-id="8b0d3-123">\*   هناك أيضًا مبالغ أخرى تتطابق مع التكاليف غير المباشرة.</span><span class="sxs-lookup"><span data-stu-id="8b0d3-123">\*    There are also other amounts that correspond to indirect costs.</span></span>  
-9. <span data-ttu-id="8b0d3-124">@SysTaskRecorder:_RequestClose</span><span class="sxs-lookup"><span data-stu-id="8b0d3-124">@SysTaskRecorder:_RequestClose</span></span>
+1. <span data-ttu-id="49392-107">انتقل إلى "المنتجات الصادرة‬".</span><span class="sxs-lookup"><span data-stu-id="49392-107">Go to Released products.</span></span>
+2. <span data-ttu-id="49392-108">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="49392-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="49392-109">حدد المنتج BOM_1.</span><span class="sxs-lookup"><span data-stu-id="49392-109">Select product BOM_1.</span></span>  
+3. <span data-ttu-id="49392-110">في جزء الإجراءات، انقر فوق "إدارة التكاليف‬".</span><span class="sxs-lookup"><span data-stu-id="49392-110">On the Action Pane, click Manage costs.</span></span>
+4. <span data-ttu-id="49392-111">انقر فوق "سعر الصنف".</span><span class="sxs-lookup"><span data-stu-id="49392-111">Click Item price.</span></span>
+5. <span data-ttu-id="49392-112">انقر فوق "حساب تكلفة الصنف".</span><span class="sxs-lookup"><span data-stu-id="49392-112">Click Calculate item cost.</span></span>
+    * <span data-ttu-id="49392-113">قد تحتاج إلى النقر فوق علامة القطع (...) لرؤية هذا الخيار في القائمة العلوية.</span><span class="sxs-lookup"><span data-stu-id="49392-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
+6. <span data-ttu-id="49392-114">في الحقل "إصدار محاسبة التكاليف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="49392-114">In the Costing version field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="49392-115">بالنسبة إلى هذا العرض التوضيحي، حدد 10.</span><span class="sxs-lookup"><span data-stu-id="49392-115">For this demo, select 10.</span></span> <span data-ttu-id="49392-116">هذا هو إصدار محاسبة التكاليف نفسه المستخدم لإضافة سعر التكلفة إلى المكونات.</span><span class="sxs-lookup"><span data-stu-id="49392-116">This is the same costing version used for adding the cost price to the components.</span></span>  
+7. <span data-ttu-id="49392-117">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="49392-117">Click OK.</span></span>
+8. <span data-ttu-id="49392-118">انقر فوق "عرض تفاصيل الحساب"ز</span><span class="sxs-lookup"><span data-stu-id="49392-118">Click View calculation details.</span></span>
+    * <span data-ttu-id="49392-119">قد تحتاج إلى النقر فوق علامة القطع (...) لرؤية هذا الخيار في القائمة العلوية.</span><span class="sxs-lookup"><span data-stu-id="49392-119">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>    <span data-ttu-id="49392-120">إليك تركيب التكلفة:  \*    يشتق 10 من ITEM_A، و10 من ITEM_B, 10 من BOM_2.</span><span class="sxs-lookup"><span data-stu-id="49392-120">Here's the composition of the cost:  \*    10 is derived from ITEM_A, 10 from ITEM_B, 10 from BOM_2.</span></span> <span data-ttu-id="49392-121">وفي هذه الحالة لا توجد تفاصيل لـ BOM_2 حيث تم إدخالها كتكلفة معيارية من 10 لكن ذلك لم يتم من خلال الحساب.</span><span class="sxs-lookup"><span data-stu-id="49392-121">In this case there are no details for BOM_2 because it was entered as a standard cost of 10 but not done through calculation.</span></span>  <span data-ttu-id="49392-122">\*  يشتق 7 من وقت الإعداد، وهو تكلفة ثابتة، ويشتق 7 إضافي من عملية وقت التشغيل (العملية).</span><span class="sxs-lookup"><span data-stu-id="49392-122">\*    7 is derived from the setup time, which is a constant cost, and additional 7 is derived from the run-time operation (Process).</span></span>  <span data-ttu-id="49392-123">\*   هناك أيضًا مبالغ أخرى تتطابق مع التكاليف غير المباشرة.</span><span class="sxs-lookup"><span data-stu-id="49392-123">\*    There are also other amounts that correspond to indirect costs.</span></span>  
+9. <span data-ttu-id="49392-124">@SysTaskRecorder:_RequestClose</span><span class="sxs-lookup"><span data-stu-id="49392-124">@SysTaskRecorder:_RequestClose</span></span>
 

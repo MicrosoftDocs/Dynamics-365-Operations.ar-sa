@@ -2,7 +2,7 @@
 title: تحديد كيفية التخلص من الأصناف المرتجعة
 description: تحديد كيفية التخلص من الأصناف المرتجعة.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6991fc04f5015fc3d604306e9327a5e551e728db
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cb991b5e9abbe517dcbd73de4f34744955383e82
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743062"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206647"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a><span data-ttu-id="11817-103">تحديد كيفية التخلص من الأصناف المرتجعة</span><span class="sxs-lookup"><span data-stu-id="11817-103">Specify how to dispose of returned items</span></span> 
+# <a name="specify-how-to-dispose-of-returned-items"></a><span data-ttu-id="ee6b8-103">تحديد كيفية التخلص من الأصناف المرتجعة</span><span class="sxs-lookup"><span data-stu-id="ee6b8-103">Specify how to dispose of returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="11817-104">عند معالجة أمر إرجاع، عليك تحديد كود سبب إرجاع لتحديد سبب إرجاع المنتج.</span><span class="sxs-lookup"><span data-stu-id="11817-104">When you handle a return order, you must specify a reason return code to identify why the product is being returned.</span></span> <span data-ttu-id="11817-105">يجب عليك أيضًا تحديد رمز الإرجاع وإجراء الإرجاع الذي يجب اتخاذه مع المنتج المرتجع ذاته.</span><span class="sxs-lookup"><span data-stu-id="11817-105">You must also specify a disposition code and a disposition action to determine what should be done with the returned product itself.</span></span>
+<span data-ttu-id="ee6b8-104">عند معالجة أمر إرجاع، عليك تحديد كود سبب إرجاع لتحديد سبب إرجاع المنتج.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-104">When you handle a return order, you must specify a reason return code to identify why the product is being returned.</span></span> <span data-ttu-id="ee6b8-105">يجب عليك أيضًا تحديد رمز الإرجاع وإجراء الإرجاع الذي يجب اتخاذه مع المنتج المرتجع ذاته.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-105">You must also specify a disposition code and a disposition action to determine what should be done with the returned product itself.</span></span>
 
-<span data-ttu-id="11817-106">يمكن تطبيق كود الترتيب عند إنشاء أمر الإرجاع وتسجيل وصول صنف أو تحديث كشف التعبئة الخاص بوصول صنف وكذلك عند إنهاء أمر إدخال مخزن الفحص.</span><span class="sxs-lookup"><span data-stu-id="11817-106">A disposition code can be applied when you create the return order, register item arrival or packing-slip update an item arrival, and end a quarantine order.</span></span>
+<span data-ttu-id="ee6b8-106">يمكن تطبيق كود الترتيب عند إنشاء أمر الإرجاع وتسجيل وصول صنف أو تحديث كشف التعبئة الخاص بوصول صنف وكذلك عند إنهاء أمر إدخال مخزن الفحص.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-106">A disposition code can be applied when you create the return order, register item arrival or packing-slip update an item arrival, and end a quarantine order.</span></span>
 
-<span data-ttu-id="11817-107">يمكنك تحديد أية رموز إرجاع ضرورية تحتاجها لدعم عمليات الأعمال.</span><span class="sxs-lookup"><span data-stu-id="11817-107">You can define any disposition codes that you need in order to support the business processes.</span></span> <span data-ttu-id="11817-108">ويوفر الجدول التالي مجموعة من الرموز المستخدمة بشكلٍ نموذجي لتعيين ترتيب صنف مرتجع.</span><span class="sxs-lookup"><span data-stu-id="11817-108">The following table provides a set of typically used codes to assign return-item disposition.</span></span>
+<span data-ttu-id="ee6b8-107">يمكنك تحديد أية رموز إرجاع ضرورية تحتاجها لدعم عمليات الأعمال.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-107">You can define any disposition codes that you need in order to support the business processes.</span></span> <span data-ttu-id="ee6b8-108">ويوفر الجدول التالي مجموعة من الرموز المستخدمة بشكلٍ نموذجي لتعيين ترتيب صنف مرتجع.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-108">The following table provides a set of typically used codes to assign return-item disposition.</span></span>
 
 <table>
 <colgroup>
@@ -44,87 +44,87 @@ ms.locfileid: "1743062"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="11817-109">نوع الترتيب</span><span class="sxs-lookup"><span data-stu-id="11817-109">Disposition type</span></span></p></th>
-<th><p><span data-ttu-id="11817-110">الكود العام</span><span class="sxs-lookup"><span data-stu-id="11817-110">Common code</span></span></p></th>
-<th><p><span data-ttu-id="11817-111">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="11817-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="ee6b8-109">نوع الترتيب</span><span class="sxs-lookup"><span data-stu-id="ee6b8-109">Disposition type</span></span></p></th>
+<th><p><span data-ttu-id="ee6b8-110">الكود العام</span><span class="sxs-lookup"><span data-stu-id="ee6b8-110">Common code</span></span></p></th>
+<th><p><span data-ttu-id="ee6b8-111">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="ee6b8-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-112">التخلص</span><span class="sxs-lookup"><span data-stu-id="11817-112">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="11817-113">SC</span><span class="sxs-lookup"><span data-stu-id="11817-113">SC</span></span></p></td>
-<td><p><span data-ttu-id="11817-114">خردة/تالف</span><span class="sxs-lookup"><span data-stu-id="11817-114">Scrap/Destroy</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-112">التخلص</span><span class="sxs-lookup"><span data-stu-id="ee6b8-112">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-113">SC</span><span class="sxs-lookup"><span data-stu-id="ee6b8-113">SC</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-114">خردة/تالف</span><span class="sxs-lookup"><span data-stu-id="ee6b8-114">Scrap/Destroy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-115">التخلص</span><span class="sxs-lookup"><span data-stu-id="11817-115">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="11817-116">DC</span><span class="sxs-lookup"><span data-stu-id="11817-116">DC</span></span></p></td>
-<td><p><span data-ttu-id="11817-117">التبرع للأعمال الخيرية</span><span class="sxs-lookup"><span data-stu-id="11817-117">Donate to Charity</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-115">التخلص</span><span class="sxs-lookup"><span data-stu-id="ee6b8-115">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-116">DC</span><span class="sxs-lookup"><span data-stu-id="ee6b8-116">DC</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-117">التبرع للأعمال الخيرية</span><span class="sxs-lookup"><span data-stu-id="ee6b8-117">Donate to Charity</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-118">التخلص</span><span class="sxs-lookup"><span data-stu-id="11817-118">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="11817-119">TD</span><span class="sxs-lookup"><span data-stu-id="11817-119">TD</span></span></p></td>
-<td><p><span data-ttu-id="11817-120">التخلص الخاص بجهة أخرى</span><span class="sxs-lookup"><span data-stu-id="11817-120">Third-Party Disposal</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-118">التخلص</span><span class="sxs-lookup"><span data-stu-id="ee6b8-118">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-119">TD</span><span class="sxs-lookup"><span data-stu-id="ee6b8-119">TD</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-120">التخلص الخاص بجهة أخرى</span><span class="sxs-lookup"><span data-stu-id="ee6b8-120">Third-Party Disposal</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-121">التخلص</span><span class="sxs-lookup"><span data-stu-id="11817-121">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="11817-122">SL</span><span class="sxs-lookup"><span data-stu-id="11817-122">SL</span></span></p></td>
-<td><p><span data-ttu-id="11817-123">المسترد</span><span class="sxs-lookup"><span data-stu-id="11817-123">Salvage</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-121">التخلص</span><span class="sxs-lookup"><span data-stu-id="ee6b8-121">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-122">SL</span><span class="sxs-lookup"><span data-stu-id="ee6b8-122">SL</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-123">المسترد</span><span class="sxs-lookup"><span data-stu-id="ee6b8-123">Salvage</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-124">التخلص</span><span class="sxs-lookup"><span data-stu-id="11817-124">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="11817-125">TS</span><span class="sxs-lookup"><span data-stu-id="11817-125">TS</span></span></p></td>
-<td><p><span data-ttu-id="11817-126">مبيعات جهة أخرى (أسواق ثانوية)</span><span class="sxs-lookup"><span data-stu-id="11817-126">Third-Party Sale (Secondary Markets)</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-124">التخلص</span><span class="sxs-lookup"><span data-stu-id="ee6b8-124">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-125">TS</span><span class="sxs-lookup"><span data-stu-id="ee6b8-125">TS</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-126">مبيعات جهة أخرى (أسواق ثانوية)</span><span class="sxs-lookup"><span data-stu-id="ee6b8-126">Third-Party Sale (Secondary Markets)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-127">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="11817-127">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="11817-128">RW</span><span class="sxs-lookup"><span data-stu-id="11817-128">RW</span></span></p></td>
-<td><p><span data-ttu-id="11817-129">إعادة العمل</span><span class="sxs-lookup"><span data-stu-id="11817-129">Rework</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-127">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="ee6b8-127">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-128">RW</span><span class="sxs-lookup"><span data-stu-id="ee6b8-128">RW</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-129">إعادة العمل</span><span class="sxs-lookup"><span data-stu-id="ee6b8-129">Rework</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-130">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="11817-130">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="11817-131">RF</span><span class="sxs-lookup"><span data-stu-id="11817-131">RF</span></span></p></td>
-<td><p><span data-ttu-id="11817-132">جهة إعادة التصنيع/التجديد</span><span class="sxs-lookup"><span data-stu-id="11817-132">Remanufacture/Refurbish</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-130">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="ee6b8-130">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-131">RF</span><span class="sxs-lookup"><span data-stu-id="ee6b8-131">RF</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-132">جهة إعادة التصنيع/التجديد</span><span class="sxs-lookup"><span data-stu-id="ee6b8-132">Remanufacture/Refurbish</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-133">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="11817-133">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="11817-134">MD</span><span class="sxs-lookup"><span data-stu-id="11817-134">MD</span></span></p></td>
-<td><p><span data-ttu-id="11817-135">تعديل</span><span class="sxs-lookup"><span data-stu-id="11817-135">Modify</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-133">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="ee6b8-133">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-134">MD</span><span class="sxs-lookup"><span data-stu-id="ee6b8-134">MD</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-135">تعديل</span><span class="sxs-lookup"><span data-stu-id="ee6b8-135">Modify</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-136">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="11817-136">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="11817-137">RP</span><span class="sxs-lookup"><span data-stu-id="11817-137">RP</span></span></p></td>
-<td><p><span data-ttu-id="11817-138">تعديل</span><span class="sxs-lookup"><span data-stu-id="11817-138">Repair</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-136">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="ee6b8-136">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-137">RP</span><span class="sxs-lookup"><span data-stu-id="ee6b8-137">RP</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-138">تعديل</span><span class="sxs-lookup"><span data-stu-id="ee6b8-138">Repair</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-139">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="11817-139">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="11817-140">RV</span><span class="sxs-lookup"><span data-stu-id="11817-140">RV</span></span></p></td>
-<td><p><span data-ttu-id="11817-141">إرجاع إلى المورّد</span><span class="sxs-lookup"><span data-stu-id="11817-141">Return to Vendor</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-139">إصلاح/تعديل</span><span class="sxs-lookup"><span data-stu-id="ee6b8-139">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-140">RV</span><span class="sxs-lookup"><span data-stu-id="ee6b8-140">RV</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-141">إرجاع إلى المورّد</span><span class="sxs-lookup"><span data-stu-id="ee6b8-141">Return to Vendor</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-142">أخرى</span><span class="sxs-lookup"><span data-stu-id="11817-142">Other</span></span></p></td>
-<td><p><span data-ttu-id="11817-143">AI</span><span class="sxs-lookup"><span data-stu-id="11817-143">AI</span></span></p></td>
-<td><p><span data-ttu-id="11817-144">الاستخدام على حالتها</span><span class="sxs-lookup"><span data-stu-id="11817-144">Use as is</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-142">أخرى</span><span class="sxs-lookup"><span data-stu-id="ee6b8-142">Other</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-143">AI</span><span class="sxs-lookup"><span data-stu-id="ee6b8-143">AI</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-144">الاستخدام على حالتها</span><span class="sxs-lookup"><span data-stu-id="ee6b8-144">Use as is</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-145">آخر</span><span class="sxs-lookup"><span data-stu-id="11817-145">Other</span></span></p></td>
-<td><p><span data-ttu-id="11817-146">RS</span><span class="sxs-lookup"><span data-stu-id="11817-146">RS</span></span></p></td>
-<td><p><span data-ttu-id="11817-147">إعادة البيع</span><span class="sxs-lookup"><span data-stu-id="11817-147">Resale</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-145">آخر</span><span class="sxs-lookup"><span data-stu-id="ee6b8-145">Other</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-146">RS</span><span class="sxs-lookup"><span data-stu-id="ee6b8-146">RS</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-147">إعادة البيع</span><span class="sxs-lookup"><span data-stu-id="ee6b8-147">Resale</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-148">آخر</span><span class="sxs-lookup"><span data-stu-id="11817-148">Other</span></span></p></td>
-<td><p><span data-ttu-id="11817-149">EX</span><span class="sxs-lookup"><span data-stu-id="11817-149">EX</span></span></p></td>
-<td><p><span data-ttu-id="11817-150">التبادل</span><span class="sxs-lookup"><span data-stu-id="11817-150">Exchange</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-148">آخر</span><span class="sxs-lookup"><span data-stu-id="ee6b8-148">Other</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-149">EX</span><span class="sxs-lookup"><span data-stu-id="ee6b8-149">EX</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-150">التبادل</span><span class="sxs-lookup"><span data-stu-id="ee6b8-150">Exchange</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-151">آخر</span><span class="sxs-lookup"><span data-stu-id="11817-151">Other</span></span></p></td>
-<td><p><span data-ttu-id="11817-152">سيدة</span><span class="sxs-lookup"><span data-stu-id="11817-152">MS</span></span></p></td>
-<td><p><span data-ttu-id="11817-153">متنوع</span><span class="sxs-lookup"><span data-stu-id="11817-153">Miscellaneous</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-151">آخر</span><span class="sxs-lookup"><span data-stu-id="ee6b8-151">Other</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-152">سيدة</span><span class="sxs-lookup"><span data-stu-id="ee6b8-152">MS</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-153">متنوع</span><span class="sxs-lookup"><span data-stu-id="ee6b8-153">Miscellaneous</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="11817-154">عليك تحديد إجراء الترتيب لكل رمز ترتيب تقوم بتحديده.</span><span class="sxs-lookup"><span data-stu-id="11817-154">For each disposition code that you define, you must select a disposition action.</span></span> <span data-ttu-id="11817-155">يحدد إجراء الترتيب المعاني الفعلية والمالية لرموز الترتيب.</span><span class="sxs-lookup"><span data-stu-id="11817-155">The disposition action determines the physical and financial implications of the disposition codes.</span></span> <span data-ttu-id="11817-156">على سبيل المثال، يحدد إجراء الترتيب المعالجة الفعلية للصنف المرتجع، والتأثير المالي للصنف المرتجع، وما إذا كان يجب إرسال صنف استبدال للعميل.</span><span class="sxs-lookup"><span data-stu-id="11817-156">For example, the disposition action determines the physical handling of the returned item, the financial effect of the returned item, and if a replacement item must be sent to the customer.</span></span> <span data-ttu-id="11817-157">يمكنك تحديد عدد غير محدود لرموز الإرجاع وفقًا لاحتياجات العمل الخاصة بك، ولكن يوجد فقط ستة إجراءات ترتيب معرفة مسبقًا يجب أن تحدد منها.</span><span class="sxs-lookup"><span data-stu-id="11817-157">You can define an unlimited number of disposition codes according to your business needs, but there are only six predefined disposition actions that you can select from.</span></span> <span data-ttu-id="11817-158">ويسرد الجدول التالي إجراءات الترتيب وتعريفاتها.</span><span class="sxs-lookup"><span data-stu-id="11817-158">The following table provides the disposition actions and their definitions.</span></span>
+<span data-ttu-id="ee6b8-154">عليك تحديد إجراء الترتيب لكل رمز ترتيب تقوم بتحديده.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-154">For each disposition code that you define, you must select a disposition action.</span></span> <span data-ttu-id="ee6b8-155">يحدد إجراء الترتيب المعاني الفعلية والمالية لرموز الترتيب.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-155">The disposition action determines the physical and financial implications of the disposition codes.</span></span> <span data-ttu-id="ee6b8-156">على سبيل المثال، يحدد إجراء الترتيب المعالجة الفعلية للصنف المرتجع، والتأثير المالي للصنف المرتجع، وما إذا كان يجب إرسال صنف استبدال للعميل.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-156">For example, the disposition action determines the physical handling of the returned item, the financial effect of the returned item, and if a replacement item must be sent to the customer.</span></span> <span data-ttu-id="ee6b8-157">يمكنك تحديد عدد غير محدود لرموز الإرجاع وفقًا لاحتياجات العمل الخاصة بك، ولكن يوجد فقط ستة إجراءات ترتيب معرفة مسبقًا يجب أن تحدد منها.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-157">You can define an unlimited number of disposition codes according to your business needs, but there are only six predefined disposition actions that you can select from.</span></span> <span data-ttu-id="ee6b8-158">ويسرد الجدول التالي إجراءات الترتيب وتعريفاتها.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-158">The following table provides the disposition actions and their definitions.</span></span>
 
 <table>
 <colgroup>
@@ -133,52 +133,52 @@ ms.locfileid: "1743062"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="11817-159">إجراءات الترتيب</span><span class="sxs-lookup"><span data-stu-id="11817-159">Disposition action</span></span></p></th>
-<th><p><span data-ttu-id="11817-160">الوصف</span><span class="sxs-lookup"><span data-stu-id="11817-160">Description</span></span></p></th>
+<th><p><span data-ttu-id="ee6b8-159">إجراءات الترتيب</span><span class="sxs-lookup"><span data-stu-id="ee6b8-159">Disposition action</span></span></p></th>
+<th><p><span data-ttu-id="ee6b8-160">الوصف</span><span class="sxs-lookup"><span data-stu-id="ee6b8-160">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-161"><strong>يضع في الحساب مبلغاً دائناً</strong></span><span class="sxs-lookup"><span data-stu-id="11817-161"><strong>Credit</strong></span></span></p></td>
-<td><p><span data-ttu-id="11817-162">إرجاع الصنف إلى المخزون وائتمان العميل.</span><span class="sxs-lookup"><span data-stu-id="11817-162">Return the item to inventory and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-161"><strong>يضع في الحساب مبلغاً دائناً</strong></span><span class="sxs-lookup"><span data-stu-id="ee6b8-161"><strong>Credit</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-162">إرجاع الصنف إلى المخزون وائتمان العميل.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-162">Return the item to inventory and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-163"><strong>يضع في الحساب مبلغاً دائناً فقط</strong></span><span class="sxs-lookup"><span data-stu-id="11817-163"><strong>Credit only</strong></span></span></p></td>
-<td><p><span data-ttu-id="11817-164">ائتمان العميل بدون السؤال عن أو توقع إرجاع الصنف.</span><span class="sxs-lookup"><span data-stu-id="11817-164">Credit the customer without requiring or expecting the item to be returned.</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-163"><strong>يضع في الحساب مبلغاً دائناً فقط</strong></span><span class="sxs-lookup"><span data-stu-id="ee6b8-163"><strong>Credit only</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-164">ائتمان العميل بدون السؤال عن أو توقع إرجاع الصنف.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-164">Credit the customer without requiring or expecting the item to be returned.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-165"><strong>خردة</strong></span><span class="sxs-lookup"><span data-stu-id="11817-165"><strong>Scrap</strong></span></span></p></td>
-<td><p><span data-ttu-id="11817-166">تخريد الصنف وائتمان العميل.</span><span class="sxs-lookup"><span data-stu-id="11817-166">Scrap the item and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-165"><strong>خردة</strong></span><span class="sxs-lookup"><span data-stu-id="ee6b8-165"><strong>Scrap</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-166">تخريد الصنف وائتمان العميل.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-166">Scrap the item and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-167"><strong>استبدال وائتمان</strong></span><span class="sxs-lookup"><span data-stu-id="11817-167"><strong>Replace and credit</strong></span></span></p></td>
-<td><p><span data-ttu-id="11817-168">إرجاع الصنف إلى المخزون وإنشاء أمر استبدال وائتمان العميل.</span><span class="sxs-lookup"><span data-stu-id="11817-168">Return the item to inventory, create a replacement order, and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-167"><strong>استبدال وائتمان</strong></span><span class="sxs-lookup"><span data-stu-id="ee6b8-167"><strong>Replace and credit</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-168">إرجاع الصنف إلى المخزون وإنشاء أمر استبدال وائتمان العميل.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-168">Return the item to inventory, create a replacement order, and credit the customer.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11817-169"><strong>استبدال وتخريد</strong></span><span class="sxs-lookup"><span data-stu-id="11817-169"><strong>Replace and scrap</strong></span></span></p></td>
-<td><p><span data-ttu-id="11817-170">تخريد الصنف وإنشاء أمر استبدال وائتمان العميل.</span><span class="sxs-lookup"><span data-stu-id="11817-170">Scrap the item, create a replacement order, and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-169"><strong>استبدال وتخريد</strong></span><span class="sxs-lookup"><span data-stu-id="ee6b8-169"><strong>Replace and scrap</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-170">تخريد الصنف وإنشاء أمر استبدال وائتمان العميل.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-170">Scrap the item, create a replacement order, and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11817-171"><strong>إرجاع إلى العميل</strong></span><span class="sxs-lookup"><span data-stu-id="11817-171"><strong>Return to customer</strong></span></span></p></td>
-<td><p><span data-ttu-id="11817-172">رفض الصنف المرتجع وإعادته إلى العميل.</span><span class="sxs-lookup"><span data-stu-id="11817-172">Reject the returned item and return it to the customer.</span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-171"><strong>إرجاع إلى العميل</strong></span><span class="sxs-lookup"><span data-stu-id="ee6b8-171"><strong>Return to customer</strong></span></span></p></td>
+<td><p><span data-ttu-id="ee6b8-172">رفض الصنف المرتجع وإعادته إلى العميل.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-172">Reject the returned item and return it to the customer.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="select-a-disposition-code-for-a-quarantine-order"></a><span data-ttu-id="11817-173">تحديد كود توزيع لأمر إدخال مخزن الفحص</span><span class="sxs-lookup"><span data-stu-id="11817-173">Select a disposition code for a quarantine order</span></span>
+## <a name="select-a-disposition-code-for-a-quarantine-order"></a><span data-ttu-id="ee6b8-173">تحديد كود توزيع لأمر إدخال مخزن الفحص</span><span class="sxs-lookup"><span data-stu-id="ee6b8-173">Select a disposition code for a quarantine order</span></span>
 
-1.  <span data-ttu-id="11817-174">‏‫انقر فوق **‏‫إدارة المخزون‬** \> **دوري** \> **إدارة الجودة** \>‏‫ **أوامر إدخال مخزن الفحص**.</span><span class="sxs-lookup"><span data-stu-id="11817-174">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
+1.  <span data-ttu-id="ee6b8-174">‏‫انقر فوق **‏‫إدارة المخزون‬** \> **دوري** \> **إدارة الجودة** \>‏‫ **أوامر إدخال مخزن الفحص**.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-174">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
 
-2.  <span data-ttu-id="11817-175">بالنسبة لأمر إدخال مخزن الفحص الموجود، حدد إجراءً من الحقل **رمز الإرجاع** من علامة التبويب **نظرة عامة**.</span><span class="sxs-lookup"><span data-stu-id="11817-175">For an existing quarantine order, select an action from the **Disposition code** field on the **Overview** tab.</span></span>
+2.  <span data-ttu-id="ee6b8-175">بالنسبة لأمر إدخال مخزن الفحص الموجود، حدد إجراءً من الحقل **رمز الإرجاع** من علامة التبويب **نظرة عامة**.</span><span class="sxs-lookup"><span data-stu-id="ee6b8-175">For an existing quarantine order, select an action from the **Disposition code** field on the **Overview** tab.</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="11817-176">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="11817-176">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ee6b8-176">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="ee6b8-176">See also</span></span>
 
-<span data-ttu-id="11817-177">[أمر إدخال مخزن الفحص (نموذج)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span><span class="sxs-lookup"><span data-stu-id="11817-177">[Quarantine order (form)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span></span>
+<span data-ttu-id="ee6b8-177">[أمر إدخال مخزن الفحص (نموذج)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span><span class="sxs-lookup"><span data-stu-id="ee6b8-177">[Quarantine order (form)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span></span>
 
-<span data-ttu-id="11817-178">[أكواد الترتيب (نموذج)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="11817-178">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
+<span data-ttu-id="ee6b8-178">[أكواد الترتيب (نموذج)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="ee6b8-178">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
 
   
 
