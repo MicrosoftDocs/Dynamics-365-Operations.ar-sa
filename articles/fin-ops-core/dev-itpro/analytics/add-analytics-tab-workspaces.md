@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025844"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259622"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
 
@@ -84,7 +84,7 @@ ms.locfileid: "3025844"
 8. انقر بزر الماوس الأيمن، ثم حدد **صفحة علامة تبويب جديدة**.
 9. أعد تسمية صفحة علامة التبويب باسم ذي مغزى، مثل **تحليلات**.
 10. في مصمم النماذج، حدد **التحليلات (صفحة علامة التبويب)**.
-11. عيّن خاصية **التسمية التوضيحية** إلى **التحليلات**.
+11. قم بتعيين الخاصية **تسمية توضيحية** إلى **تحليلات** والخاصية **إعلان تلقائي** إلى **نعم**.
 12. انقر بزر الماوس الأيمن فوق عنصر التحكم، ثم حدد **جديد‏‎** \> **مجموعة** لإضافة عنصر تحكم مجموعة نماذج جديدة.
 13. أعد تسمية مجموعة النماذج باسم ذي مغزى، مثل **powerBIReportGroup**.
 14. في مصمم النماذج، حدد **PanoramaBody (علامة التبويب)**، ثم قم بسحب عنصر التحكم إلى علامة تبويب **مساحة العمل**.

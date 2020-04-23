@@ -3,7 +3,7 @@ title: الأسئلة المتداولة حول بيئة معاينة Dynamics 3
 description: يوفر هذا الموضوع إجابات للأسئلة المتداولة حول بيئة معاينة Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024742"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254714"
 ---
 # <a name="dynamics-365-commerce-preview-environment-faq"></a>الأسئلة المتداولة حول بيئة معاينة Dynamics 365 Commerce
 
@@ -77,8 +77,6 @@ ms.locfileid: "3024742"
 ## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>معلومات جهة اتصال بيئة معاينةDynamics 365 Commerce .
 
 للاتصال بـ Microsoft إذا كان لديك اسئلة أو طلبات تتعلق ببيئة معاينة التجارة، تفضل بزيارة [مجموعة Microsoft Dynamics 365 Commerce Preview Yammer](https://aka.ms/Dynamics365CommercePreviewYammer) 
-
-إذا واجهت مشكلات عند محاولة الوصول إلى مجموعة Yammer ، يمكنك التواصل مع Microsoft عبر البريد الكتروني <Dynamics365Commerce@microsoft.com>. لا يتم مراقبة هذا البريد الإلكتروني بنشاط. لذا، توقع تأخير في الاستجابة.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

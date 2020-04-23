@@ -2,7 +2,7 @@
 title: إدخال عطاءات RFQ ومنح العقود ومقارنتها
 description: يوضح هذا الموضوع كيفية إدخال الردود إلى طلب عرض أسعار (RFQ) ومجموع النقاط ومقارنة العطاءات، وبعد ذلك منح العقد إلى أحد الموردين.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 888b8ea8a4ca0c48706442308309588bf25d47d9
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 7fbbae2f097f812e1eefd8a095d72aa1c284c757
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149540"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207636"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>إدخال عطاءات RFQ ومنح العقود ومقارنتها
 
@@ -62,7 +62,7 @@ ms.locfileid: "3149540"
 
 ## <a name="score-the-bids"></a>تسجيل نقاط العطاءات
 
-1. في الصفحة **كل طلبات عروض الأسعار**، حدد حاله RFQ التي ترغب في تسجيل نقاط الردود عليها.
+1. في الصفحة **كل طلبات عروض الأسعار**، حدد حالة RFQ التي ترغب في تسجيل نقاط الردود عليها.
 2. حدد **إدارة الردود**.
 3. حدد الرد الذي تريد تسجيل نقاط له.
 4. حدد **الرأس** بحيث يمكنك عرض مجموع نقاط العطاء.
@@ -99,7 +99,7 @@ ms.locfileid: "3149540"
 
 1. حدد العرض الذي تريد قبوله، ثم حدد الارتباط في حقل **طلب عرض الأسعار**. إذا كنت تعمل في الصفحة **مقارنة الردود على طلب عرض الأسعار**، فإن العطاء المميز قيد التركيز هو العطاء الذي سيأخذه النظام في الاعتبار أثناء تنفيذ إجراء القبول. يمكنك قبول البنود من عطاء واحد فقط في كل مرة.  
 2. في جزء الإجراءات، حدد **رد**.
-3. حدد **قبول**. إذا قمت بتعليم بنود معينة فقط، فسيتضمن اجراء القبول تلك البنود فقط. إذا كنت تريد قبول كافة البنود الموجودة في العطاء، فمن غير الضروري تعليم البنود.  
+3. حدد **قبول**. إذا قمت بتعليم بنود معينة فقط، فسيتضمن إجراء القبول تلك البنود فقط. إذا كنت تريد قبول كافة البنود الموجودة في العطاء، فمن غير الضروري تعليم البنود.  
 4. حدد **المعلمات**، ثم، في الحقل‏‎ **سبب القبول**، أدخل أو حدد سبب قبول العطاء. يتم تخزين السبب في العطاء.  
 5. حدد **موافق**.
 6. حدد **موافق**. عندما تحدد **موافق**، يتم إنشاء أمر شراء استنادًا إلى البنود التي سيتم تضمينها في قبول RFQ. إذا كان هناك عطاءات أخرى لم تتم معالجتها (قبول أو رفض أو إرجاع)، سيطالبك النظام برفضها.  

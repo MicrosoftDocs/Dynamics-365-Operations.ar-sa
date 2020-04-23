@@ -1,27 +1,28 @@
 ---
 title: إعداد البرنامج التعليمي للأداة Regression Suite Automation Tool وتثبيته
 description: هذا الموضوع هو برنامج تعليمي يوضح كيفية إعداد الأداة Regression Suite Automation Tool ‏(RSAT).
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
-ms.custom: 21761
+ms.custom: 21761, NotInToc
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 50450669387f4e2c9e81975d5345c525c7929c47
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180635"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248703"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>إعداد البرنامج التعليمي للأداة Regression Suite Automation Tool وتثبيته
 هذا الموضوع هو برنامج تعليمي يساعدك على الحصول على الإعداد والبدء باستخدام RSAT والأدوات المقترنة باستخدام RSAT. 
@@ -111,7 +112,7 @@ ms.locfileid: "2180635"
 
 ## <a name="configure-the-lcs-project"></a>تكوين مشروع LCS
 
-تحتاج إلى مشروع Lifecycle Services ‏(LCS) لمكتبة الاختبار الرئيسية الخاصة بك. وتُستخدم أداة تكوين عمليات الأعمال(BPM) لـ LCS بصفتها المكتبة الرئيسية لحالات الاختبار الخاصة بك. وتُستخدم BPM لإدارة مكتبات الاختبار وتوزيعها عبر مشاريع LCS. علي سبيل المثال، يقوم أحد شركاء Microsoft أو مورِّد برامج مستقل (ISV) بإنشاء مكتبات الاختبار التي ستُصدر حالات الاختبار في شكل مكتبات BPM. في BPM، يتم تنظيم حالات الاختبار حسب العملية التجارية. لا تحدد BPM أمر التنفيذ أو التكرار الخاص باجتياز الاختبار الخاص بك. تتم إدارة هذه التفاصيل في Azure DevOps، كما هو مفصل لاحقًا في هذا الموضوع.  
+تحتاج إلى مشروع Lifecycle Services ‏(LCS) لمكتبة الاختبار الرئيسية الخاصة بك. وتُستخدم أداة تكوين عمليات الأعمال(BPM) لـ LCS بصفتها المكتبة الرئيسية لحالات الاختبار الخاصة بك. وتُستخدم BPM لإدارة مكتبات الاختبار وتوزيعها عبر مشاريع LCS. على سبيل المثال، يقوم أحد شركاء Microsoft أو مورِّد برامج مستقل (ISV) بإنشاء مكتبات الاختبار التي ستُصدر حالات الاختبار في شكل مكتبات BPM. في BPM، يتم تنظيم حالات الاختبار حسب العملية التجارية. لا تحدد BPM أمر التنفيذ أو التكرار الخاص باجتياز الاختبار الخاص بك. تتم إدارة هذه التفاصيل في Azure DevOps، كما هو مفصل لاحقًا في هذا الموضوع.  
 
 بالنسبة لمشروع LCS، يمكنك استخدام تطبيق عميل أو مشروع شريك موجود.
 

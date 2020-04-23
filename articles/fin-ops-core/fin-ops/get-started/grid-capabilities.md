@@ -3,7 +3,7 @@ title: قدرات الشبكة
 description: يوضح هذا الموضوع العديد من الميزات الفعالة في عنصر تحكم الشبكة. ويجب تمكين ميزة الشبكة الجديدة للوصول إلى هذه القدرات.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036255"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260450"
 ---
 # <a name="grid-capabilities"></a>قدرات الشبكة
 
@@ -90,4 +90,23 @@ ms.locfileid: "3036255"
 ## <a name="evaluating-math-expressions"></a>تقييم التعبيرات الرياضية
 كمعزز للإنتاجية، يمكن للمستخدمين إدخال الصيغ الرياضية إلى خلايا رقمية في شبكة. فإنه ليس عليهم القيام بعملية الحساب في أحد التطبيقات خارج النظام. على سبيل المثال، إذا قمت بإدخال **=15\*4** ثم قمت بالضغط على المفتاح **Tab** للانتقال خارج الحقل، فسيقوم النظام بتقييم التعبير وحفظ قيمة **60** للحقل.
 
-ليتعرف النظام على قيمة كتعبير، أبدة القيمة بعلامة يساوي (**=**). للحصول على مزيد من التفاصيل حول بناء الجملة وعوامل التشغيل المدعومة، راجع [رموز الرياضيات المعتمدة ](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  
+ليتعرف النظام على قيمة كتعبير، أبدة القيمة بعلامة يساوي (**=**). للحصول على مزيد من المعلومات حول بناء الجملة وعوامل التشغيل المدعومة، راجع [رموز الرياضيات المدعومة](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+
+## <a name="frequently-asked-questions"></a>الأسئلة المتداولة
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>كيف يمكنني تمكين عنصر تحكم الشبكة الجديد في بيئتي؟ 
+
+**10.0.9/‏ Platform update 33 وإصدار أحدث** تتوفر ميزة **عنصر تحكم الشبكة الجديد** مباشره في إدارة الميزات في اي بيئة. بطريقة مماثلة لميزات المعاينة العامة الأخرى، يخضع تمكين هذه الميزة في الإنتاج إلى [الشروط الإضافية لاتفاقيه الاستخدام](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/‏Platform update 32 و10.0.7 / Platform update 31** يمكن تمكين ميزة **عنصر تحكم الشبكة الجديد‬‏‫** في بيئات المستوى 1 (التطوير/الاختبار) والمستوى 2 (بيئة الاختبار المعزولة) من أجل تقديم اختبارات اضافيه وتغييرات في التصميم باتباع الخطوات التالية.
+
+1.  **تمكين إصدار التقييم**: تنفيذ عبارة SQL التالية: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **إعادة تعيين IIS** لمسح ذاكرة التخزين المؤقت الثابتة للتقييم. 
+
+3.  **بحث عن الميزة**: انتقل‏‎ إلى مساحة عمل **إدارة الميزات**. إذا لم يظهر **عنصر تحكم الشبكة الجديد** في قائمة جميع الميزات، فحدد **التحقق من وجود تحديثات**.   
+
+4.  **تمكين الميزة**: ابحث عن ميزة **عنصر تحكم الشبكة الجديد** في قائمة الميزات، وحدد **تمكين الآن** في جزء التفاصيل. لاحظ أن تحديث المستعرض مطلوب. 
+
+ستبدأ كافة جلسات عمل المستخدم اللاحقة مع تمكين عنصر تحكم الشبكة الجديد.

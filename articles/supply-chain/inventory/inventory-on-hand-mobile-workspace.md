@@ -2,14 +2,14 @@
 title: مساحة العمل المحمولة للمخزون الفعلي
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "المخزون الفعلي‬". تساعدك مساحة العمل هذه في الحصول على معلومات دقيقة على جهازك المحمول تتعلق بالمخزون المحجوز والمتوفر في أي وقت وفي أي مكان.‬
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
-ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
+ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2574789"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212723"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>مساحة العمل المحمولة للمخزون الفعلي
 
@@ -31,7 +31,7 @@ ms.locfileid: "2574789"
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **المخزون الفعلي**. تساعدك مساحة العمل هذه في الحصول على معلومات دقيقة تتعلق بالمخزون المحجوز والمتوفر في أي وقت وفي أي مكان.‬
 
-مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة. 
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة.
 
 ## <a name="overview"></a>نظرة عامة
 عادةً، يكون للشركات شحنات متعددة وإيصالات مخزون متعددة يوميًا. تغير هذه الحركات باستمرار حالة المخزون الفعلي. تسمح لك مساحة العمل المحمولة **المخزون الفعلي** برؤية حالة المخزون الفعلي عبر الشركة، حتى يتسنى لك الحصول على آخر المعلومات الدقيقة حول بيانات المخزون على جهاز محمول من اختيارك. بغض النظر عن ما إذا كان عملك في المخزن أو في المشتريات أو المبيعات أو التصنيع أو الإدارة، أو كان لديك أدوار أخرى، يمكنك الوصول إلى بيانات المخزون الفعلي في أي وقت وفي أي مكان. 

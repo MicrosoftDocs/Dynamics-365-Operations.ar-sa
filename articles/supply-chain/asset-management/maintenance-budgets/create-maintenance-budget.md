@@ -2,7 +2,7 @@
 title: إنشاء موازنات الصيانة
 description: يشرح هذا الموضوع كيفية إنشاء موازنة الصيانة في إدارة الأصول.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99f76c684150f154404cbb241daacb7a8d05f7f9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: aa373a1a15c19154e6c822c3a962c2b43b8d9e10
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571750"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205289"
 ---
 # <a name="create-maintenance-budgets"></a>إنشاء موازنات الصيانة
 
@@ -44,7 +44,7 @@ ms.locfileid: "2571750"
 3. في الحقل **موازنة الصيانة**، أدخل معرف موازنة.
 4. في الحقل **الوصف**، أدخل وصفًا.
 4. على علامة التبويب السريعة **الفترة**، في الحقلين **من تاريخ** و**إلى تاريخ**، أدخل تاريخي البدء والانتهاء لفترة الموازنة.
-5. لتضمين تكاليف الموازنة التصحيحية التي يتم حسابها استنادًا إلى التكاليف الفعلية من فترة سابقة، في حقل **تصحيحية من تاريخ**، أدخل تاريخ البدء للفترة التي يجب ان يتم تضمين هذه التكاليف منها.
+5. لتضمين تكاليف الموازنة التصحيحية التي يتم حسابها استنادًا إلى التكاليف الفعلية من فترة سابقة، في حقل **تصحيحية من تاريخ**، أدخل تاريخ البدء للفترة التي يجب أن يتم تضمين هذه التكاليف منها.
 6. وفقًا لمستوى التفاصيل المطلوب في الموازنة، قم بتعيين الخيارات ذات الصلة على علامات التبويب السريعة الخمس **تجميع حسب**.
 7. حدد **موافق**.
 8. حدد **بنود الموازنة** لفتح صفحة **بنود موازنة الصيانة**، حيث يمكنك عرض كافة بنود الموازنة التي تم إنشاؤها للفترة.

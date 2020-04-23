@@ -2,7 +2,7 @@
 title: إعداد المورّدين
 description: يصف هذا الموضوع عملية إعداد موردين جدد. كما يشرح الإجراءات التي تتطلبها عدة أدوار أثناء هذه العملية.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250117"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203401"
 ---
 # <a name="onboard-vendors"></a>إعداد المورّدين
 [!include [banner](../includes/banner.md)]
@@ -48,7 +48,7 @@ ms.locfileid: "2250117"
 | المسؤول            | | | قم بإنشاء مستخدم في Supply Chain Management و Microsoft Azure. | | | |
 | الشخص المسؤول لدى المورد    | | | أرسل بريدًا إلكترونياً إلى الشخص المسؤول. | قم بتسجيل معلومات المورّد. | | |
 
-للاطلاع على عرض توضيحي سريع لعملية إعداد المورد، شاهد هذا الفيديو القصير على YouTube حول [إعداد مورد جديد في Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk)
+للاطلاع على عرض توضيحي سريع لعملية إعداد المورّد، شاهد هذا الفيديو القصير على YouTube حول [كيفية إعداد مورّد جديد في Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>استيراد طلب تسجيل المورّد المتوقع
 
@@ -141,7 +141,7 @@ ms.locfileid: "2250117"
 
 قبل الموافقة على طلب مورد، في صفحة **مورد جديد**، ومن علامة التبويب السريعة **عام**، حدد **مجموعة الموردين** لتحديد مجموعة موردين.
 
-إذا كان لمستخدم المورد المتوقع صلاحية الوصول إلى Supply Chain Management كمستخدم تعاون المورد والذي يمثل المورّد، قم بتعيين إذن الوصول إلى تعاون المورّد إلى الحالة  **نعم**. لإلغاء تنشيط حساب المستخدم الذي يستخدمه المورّد المتوقع للتسجيل، قم بتعيين هذا الإذن إلى **لا**.
+إذا كان لمستخدم المورد المتوقع صلاحية الوصول إلى Supply Chain Management كمستخدم تعاون المورد والذي يمثل المورّد، قم بتعيين إذن الوصول إلى تعاون المورّد إلى الحالة **نعم**. لإلغاء تنشيط حساب المستخدم الذي يستخدمه المورّد المتوقع للتسجيل، قم بتعيين هذا الإذن إلى **لا**.
 
 إذا تم تعيين إذن الوصول لتعاون المورد إلى **نعم**، عند اعتماد طلب المورد، يتم إرسال طلب لتعديل أدوار المستخدم بحيث يكون للمستخدم الأدوار المُحددة لنوع **المورد** في **الأدوار الخارجية**. إذا تم تعيين هذا الإذن إلى **لا**، عندما يتم اعتماد طلب المورد، يتم إرسال طلب لإلغاء تنشيط المستخدم. في هذه الحالة، يجب إعداد سير العمل لإلغاء تنشيط طلب مستخدم.
 

@@ -1,9 +1,9 @@
 ---
 title: تكوين تكامل Common Data Service
-description: يُمكنك تشغيل التكامل بين Common Data Service ومثيل Microsoft Dynamics 365 Human Resources أو إيقاف تشغيله. يُمكنك أيضًا عرض تفاصيل المزامنة، ومسح بيانات التعقب، وإعادة مزامنة كيان للمساعدة في استكشاف الأخطاء في مشاكل البيانات وإصلاحها بين البيئتين.
+description: يُمكنك تشغيل التكامل بين Common Data Service وDynamics 365 Human Resources أو إيقاف تشغيله. يُمكنك أيضًا عرض تفاصيل المزامنة، ومسح بيانات التعقب، وإعادة مزامنة كيان للمساعدة في استكشاف الأخطاء في مشاكل البيانات وإصلاحها بين البيئتين.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,25 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007932"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198412"
 ---
 # <a name="configure-common-data-service-integration"></a>تكوين تكامل Common Data Service
 
-يُمكنك تشغيل التكامل بين Common Data Service ومثيل Microsoft Dynamics 365 Human Resources أو إيقاف تشغيله. يُمكنك أيضًا عرض تفاصيل المزامنة، ومسح بيانات التعقب، وإعادة مزامنة كيان للمساعدة في استكشاف الأخطاء في مشاكل البيانات وإصلاحها بين البيئتين.
+يُمكنك تشغيل التكامل بين Common Data Service وDynamics 365 Human Resources أو إيقاف تشغيله. يُمكنك أيضًا عرض تفاصيل المزامنة، ومسح بيانات التعقب، وإعادة مزامنة كيان للمساعدة في استكشاف الأخطاء في مشاكل البيانات وإصلاحها بين البيئتين.
 
 عند إيقاف تشغيل التكامل، يُمكن للمستخدمين إجراء تغييرات في Human Resources أو Common Data Service، ولكن لا تتم مزامنة هذه التغييرات بين البيئتين.
 
-وبشكل افتراضي، يتم إيقاف أو تشغيل التكامل بين Human Resources و Common Data Service، بناءً على وجود بيانات العرض التوضيحي في البيئات:
-
-- **إيقاف** للبيئات الجديدة التي لا تشمل بيانات العرض التوضيحي
-- **تشغيل** للبيئات الجديدة التي تشمل بيانات العرض التوضيحي
-
-سوف تبدأ البيئات الجديدة التي تتضمن بيانات العرض التوضيحي بمزامنة البيانات عند توفيرها.
+بشكل افتراضي، يكون التكامل بين Human Resources وCommon Data Service متوقفًا عن التشغيل.
 
 قد ترغب في إيقاف تشغيل التكامل في هذه الحالات:
 
@@ -103,9 +98,17 @@ ms.locfileid: "3007932"
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>مزامنة كيان بين Human Resources و Common Data Service
 
-استخدم هذا الإجراء إذا استغرقت التغييرات من Common Data Service وقتًا طويلًا للظهور في Human Resources، أو إذا كان يجب عليك تحديث جدول التعقب بعد قيامك بمسح التتبع.
+استخدم هذا الإجراء في الحالات التالية:
 
-- لتشغيل مزامنة كاملة على كيان بين Human Resources و Common Data Service ، حدد الكيان في حقل **اسم كيان CDS** ، ثم حدد **المزامنة الآن**.
+- يستغرق ظهور التغييرات من Common Data Service في Human Resources وقتًا طويلاً.
+
+- يجب تحديث جدول التعقب بعد مسح التعقب.
+
+لتشغيل مزامنة كاملة على كيان بين Human Resources وCommon Data Service:
+
+1. في حقل **اسم كيان CDS**، حدد الكيان.
+
+2. حدد **المزامنة الآن**.
 
 [![تشغيل مزامنة كاملة](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

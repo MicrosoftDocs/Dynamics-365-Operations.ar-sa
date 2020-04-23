@@ -3,7 +3,7 @@ title: إنشاء تقويم مواعيد العمل
 description: تحديد تقويم وقت العمل وأيام العطل وأوقات عدم العمل في Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 641f66c75875cfba51af3753223a070d7cb7dc50
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007997"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198017"
 ---
 # <a name="create-a-working-time-calendar"></a>إنشاء تقويم مواعيد العمل
 
@@ -35,11 +35,11 @@ ms.locfileid: "3007997"
 - العطلات والإغلاق
 - وقت غير العمل
 
-يمكنك أضافه آخر صنفين مع اعداد تقويم زمني للعمل. ويمكنك أيضا تكوينها أو تحديثها بشكل منفصل.
+يمكنك أضافه آخر صنفين مع إعداد تقويم زمني للعمل. ويمكنك أيضا تكوينها أو تحديثها بشكل منفصل.
 
 ## <a name="set-up-a-working-time-calendar"></a>إعداد تقويم وقت العمل
 
-قم باعداد تقويم وقت عمل واحد علي الأقل يوضح أيام العمل وساعتاته. إذا كانت لديك مواقع في العديد من البلدان والمناطق ، فقد ترغب في اعداد تقويم زمني للعمل لكل منطقه.
+قم بإعداد تقويم وقت عمل واحد علي الأقل يوضح أيام العمل وساعتاته. إذا كانت لديك مواقع في العديد من البلدان والمناطق ، فقد ترغب في إعداد تقويم زمني للعمل لكل منطقه.
 
 1. على صفحة **"إدارة المؤسسة"**، حدد **التقويمات**.
 
@@ -68,10 +68,6 @@ ms.locfileid: "3007997"
 1. على صفحة **"إدارة المؤسسة"**، حدد **وقت غير العمل**.
 
 2. حدد **جديد**، وأدخل اسمًا ونطاق الوقت لوقت غير العمل.
-
-## <a name="leave-and-absence-preview-feature"></a>ميزات مُعاينة الإجازة والغياب
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
 
 إذا قمت بتمكين ميزه معاينه تصحيحات أيام الإجازات والإجازات البنكية للغياب ، تستخدم Human Resources تواريخ العطل والإغلاق لتحديد عدد الأيام التي يجب تعديلها للموظفين المسجلين في التقويم.
 

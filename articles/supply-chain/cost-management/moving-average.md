@@ -2,7 +2,7 @@
 title: المتوسط المتحرك
 description: المتوسط المتحرك هو أسلوب حساب تكلفة دائم يقوم على مبدأ المتوسط، حيث لا تتغير التكاليف الخاصة بمشكلات المخزون عندما تتغير تكلفة الشراء. تتم رسملة الفرق ويستند إلى حساب نسبي. ويُحسب المبلغ المتبقي كمصروف.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bf7069e0c25fd85cc1f5cc53e8e584179fb7f92c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558843"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214678"
 ---
 # <a name="moving-average"></a>المتوسط المتحرك
 

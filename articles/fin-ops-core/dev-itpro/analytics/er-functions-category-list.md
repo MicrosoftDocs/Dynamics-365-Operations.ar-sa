@@ -3,7 +3,7 @@ title: قائمة وظائف التقارير الإلكترونية في فئة
 description: يوفر هذا الموضوع معلومات حول وظائف القائمة المعتمدة في التقارير الإلكترونية (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917754"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201033"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>قائمة وظائف التقارير الإلكترونية في فئة القائمة
 
@@ -46,6 +46,7 @@ ms.locfileid: "2917754"
 | [Index](er-functions-list-index.md)                       | تُرجع هذه الوظيفة قيمة *الحاوية (سجل)* المُحددة باستخدام الفهرس الرقمي المُحدد في القائمة المُحددة. إذا كان هذا الفهرس خارج النطاق للسجلات في القائمة المُحددة، تطرح هذه الوظيفة استثناءً. |
 | [IsEmpty](er-functions-list-isempty.md)                   | تُرجع هذه الوظيفة قيمة *منطقية* **TRUE** إذا لم تحتوي القائمة المُحددة على سجلات. وبخلاف ذلك، تُرجع قيمة *منطقية* لـ **FALSE**. |
 | [قائمة](er-functions-list-list.md)                         | تُرجع هذه الوظيفة قيمة *قائمة السجلات* تتكون من قائمة سجلات جديدة تم إنشاءها من الوسيطات المُحددة.|
+| [ListJoin](er-functions-list-listjoin.md)                 | تُرجع هذه الوظيفة قيمة *قائمة السجلات* التي تمثل قائمة منضمة جديدة تم إنشاءها من الوسيطات المُحددة.|
 | [ListOfFields](er-functions-list-listoffields.md)         | تُرجع هذه الوظيفة قيمة *قائمة السجل* التي تم إنشاؤها بناءً على بنية الوسيطة المُحددة للنوع *التعداد* أو *الحاوية (السجل)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | تُرجع هذه الوظيفة قيمة *قائمة السجلات* التي تتكون فقط من السجل الأول للقائمة المُحددة.|
 | [OrderBy](er-functions-list-orderby.md)                   | تُرجع هذه الوظيفة القائمة المُحددة كقيمة *قائمة السجلات* بعد أن تم فرزها وفقًا للوسيطات المُحددة. يمكن تعريف الوسيطات التالية كعبارات. |

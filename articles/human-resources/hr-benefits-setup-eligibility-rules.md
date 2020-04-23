@@ -3,7 +3,7 @@ title: تكوين قواعد الأهلية وخياراتها
 description: تعيين قواعد الأهلية وخياراتها في إدارة الميزات في Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008021"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229891"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>تكوين قواعد الأهلية وخياراتها
-
-[!include [banner](includes/preview-feature.md)]
 
 بعد أن تقوم بتكوين المحددات الضرورية لإدارة الميزات في Microsoft Dynamics 365 Human Resources، فإنه يمكنك إنشاء قواعد الأهلية والمجموعات والفترات والبرامج التي ستقوم بربطها بخطط الميزات الخاصة بك.
 
@@ -57,6 +55,7 @@ ms.locfileid: "3008021"
    | **فئة التوظيف** | فئة التوظيف الخاصة بالموظف إذا تم تعيين مفتاح التبديل **استخدام فئة التوظيف** على **نعم**. |
    | **استخدام قاعدة التوظيف الجديدة** | يحدد ما إذا كان سيتم استخدام قيمة فترة التوظيف الجديدة للموظف الجديد كجزء من قاعدة أهلية الميزة أم لا. |
    | **فترة التسجيل** | الفترة الزمنية التي يتم فيها السماح بتسجيل الموظف الجديد. إذا قمت أيضًا بتعيين هذا في المحددات، فان إعداد المحددات يأخذ الأسبقية على هذا الحقل. |
+   | **استخدام حالة التوظيف السابق** | يحدد ما إذا كان سيتم استخدام حالة التوظيف السابقة للموظف كجزء من قاعدة أهلية المزايا أم لا. على سبيل المثال، يمكنك تحديد قاعدة الأهلية التي تتنازل عن فترة انتظار التغطية لجميع الموظفين الذين انتقلوا من حالة **الفصل عن العمل** إلى حالة **التوظيف** خلال 90 يومًا من توظيفهم السابق. |
 
 4. ضمن **معايير إضافية**، حدد الخيارات التالية وأضف المعلومات حسب الحاجة:
 

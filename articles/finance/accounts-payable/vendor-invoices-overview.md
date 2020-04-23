@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
-ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
+ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3133886"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249108"
 ---
 # <a name="vendor-invoices-overview"></a>نظرة عامة على فواتير المورّدين
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يوفر هذا الموضوع معلومات عامة حول فواتير المورد. فواتير المورد هي طلبات دفع للمنتجات والخدمات التي تم تلقيها. بإمكان فواتير المورد أن تمثل فاتورة في مقابل خدمات مستمرة، أو يمكنها أن تستند إلى أوامر شراء لأصناف وخدمات معينة.
 
@@ -111,7 +110,7 @@ ms.locfileid: "3133886"
 
 يمكنك الوصول إلى الصفحة **استرداد فواتير المورّد** فقط إذا كانت مهمة وامتياز الأمان **استرداد فواتير المورّد قيد الاستخدام‬** معينة لك. بالإضافة إلى ذلك، يجب أن تكون المعلمة **السماح باسترداد فاتورة المورّد** في صفحة **محددات الحسابات الدائنة‬** قيد التشغيل.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>إعادة تعيين حاله سير العمل لفواتير المورد من غير القابل للاسترداد إلى المسودة
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>إعادة تعيين حالة سير العمل لفواتير المورد من غير القابل للاسترداد إلى المسودة
 
 سيكون لمثيل سير العمل الذي توقف بسبب خطأ لا يمكن إصلاحه حالة سير العمل **غير قابل للاسترداد**. عندما تكون حالة سير عمل فاتورة المورد **غير قابلة للاسترداد**، يمكنك تعيينها إلى **مسودة** عن طريق تحديد **استدعاء**. يمكنك تحرير فاتورة المورّد بعد ذلك. تتوفر هذه الميزة في حالة تشغيل معلمة **إعادة تعيين حالة المسودة لسير عمل فاتور المورد** في صفحة **إدارة الميزات**.
 
