@@ -2,7 +2,7 @@
 title: إنشاء تخطيط مستودع جديد
 description: يصف هذا الموضوع كيفية إعداد المعلومات حول المواقع في مستودع.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 399c87c2e5ad26d5ccc1618cfb6520de3fcdc644
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 09666e95cc90913f1bf8555b9ff2c48aa55369ed
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145653"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214011"
 ---
 # <a name="create-a-new-warehouse-layout"></a>إنشاء تخطيط مستودع جديد
 
@@ -59,7 +59,7 @@ ms.locfileid: "3145653"
 3. حدد **التالي**.
 4. إلغاء تحديد الخيار **مساحات خارجية**
 5. إلغاء تحديد خيار **مواقع الكميات الكبيرة**
-6. حدد **التالي** إلى ان تصل إلى الخيار لتحديد **إنهاء.**
+6. حدد **التالي** إلى أن تصل إلى الخيار لتحديد **إنهاء.**
 7. قم بإغلاق الصفحة.
 8. قم بتحديث الصفحة.
 

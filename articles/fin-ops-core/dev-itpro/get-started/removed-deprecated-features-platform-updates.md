@@ -3,7 +3,7 @@ title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 03/03/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: d394f5ca84efc5beb943d349e45a3d2c9639d83c
-ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
+ms.openlocfilehash: 0072ca507301fdb880f0595a06377ff01366ca20
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095764"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260519"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -35,6 +35,28 @@ ms.locfileid: "3095764"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.11 من تطبيقات Finance and Operations
+
+### <a name="field-groups-containing-invalid-field-references"></a>مجموعات الحقول التي تحتوي على مراجع حقول غير صالحة
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | بإمكان مجموعات الحقول الموجودة في تعريفات بيانات تعريف الجدول على مراجع حقول غير صالحة. إذا تم نشر مجموعات الحقول هذه، فبإمكانها أن تتسبب في حدوث حالات فشل في وقت التشغيل في Financial Reporting وفي Microsoft SQL Server Reporting Services (SSRS). في Platform update 23، تم تقديم *تحذير* محول برمجي سمح بمعالجة مشكلة بيانات التعريف هذه. تصنف تحديثات النظام الأساسي للإصدار 10.0.11 من تطبيقات Finance and Operations هذه المشكلة في خانة *خطأ* محول برمجي.<p>لإصلاح هذه المشكلة، اتبع هذه الخطوات.</p><ol><li>قم بإزالة مرجع الحقل غير الصالح من تعريف مجموعة حقول الجدول.</li><li>أعد إجراء التحويل البرمجي.</li><li>تأكد من معالجة أي أخطاء.</li></ol> |
+| **هل تم الاستبدال بميزة أخرى؟**   | يحل خطأ المحول البرمجي هذا بشكل دائم محل تحذير المحول البرمجي.  |
+| **مناطق المنتجات المتأثرة**         | أدوات تطوير Visual Studio |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | **ميزة مهملة:** أصبح الآن تحذير المحول البرمجي خطأ في المحول البرمجي في تحديثات النظام الأساسي للإصدار 10.0.11 من تطبيقات Finance and Operations. |
+
+### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>تراخيص ISV التي تم إنشاؤها باستخدام خوارزمية التجزئة SHA1
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | لقد تغيرت عملية إنشاء تراخيص مورّد البرامج المستقل (ISV). لمزيد من المعلومات، راجع [ترخيص مورّد البرامج المستقل (ISV)](../dev-tools/isv-licensing.md#appendix-create-self-signed-certificates-for-test-purposes). |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم. استخدام Windows PowerShell لإنشاء التراخيص. |
+| **مناطق المنتجات المتأثرة**         | أدوات تطوير Visual Studio |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | <strong>ميزة مهملة:</strong> تراخيص ISV التي تم إنشاؤها باستخدام خوارزمية التجزئة SHA1. تتوقف هذه الخوارزمية على الشهادات التي تم إنشاؤها باستخدام الأداة MakeCert، وقد تم إهمال هذه الأداة.<p><strong>ميزة مهملة:</strong> استخدام SHA1 لأغراض الأمان والتجزئة. ستتوقف خوارزمية SHA1 عن العمل في وقت مبكر من عام 2021. وبالتاي، يجب التوقف عن استخدامها.<p><strong>ميزة تمت إزالتها</strong> دعم الإصدار 1.0 من أمان طبقة النقل (TLS) وطلبات TLS 1.1 الواردة أو الصادرة. |
 
 ## <a name="platform-update-32"></a>update 32 للنظام الأساسي
 
