@@ -2,7 +2,7 @@
 title: إعداد عمال الصيانة المفضلين
 description: يشرح هذا الموضوع كيفية إعداد عاملي الصيانة المفضلين في إدارة الأصول.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3501cb49cbc8b3060da03b3d2e9badc949910a48
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 327cda12a05ad54b310e472a652f1c822ad97142
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652185"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215322"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>إعداد عمال الصيانة المفضلين
 
@@ -52,7 +52,7 @@ ms.locfileid: "2652185"
 
 2. انقر فوق **جديد** لإنشاء سجل جديد.
 
-3. ابدأ بإنشاء عامل صيانة "افتراضي" أو مجموعه عاملين "افتراضية". وهذا يعني انك تجري تحديدًا فقط في الحقل **مجموعة عاملي الصيانة المفضلين** أو الحقل **عامل الصيانة المفضل**. في لقطة الشاشة أدناه، يمكنك رؤية مثال في السجل الأول الذي تم فيه تحديد "طلبات" **مجموعة عاملي الصيانة المفضلين**.
+3. ابدأ بإنشاء عامل صيانة "افتراضي" أو مجموعة عاملين "افتراضية". وهذا يعني انك تجري تحديدًا فقط في الحقل **مجموعة عاملي الصيانة المفضلين** أو الحقل **عامل الصيانة المفضل**. في لقطة الشاشة أدناه، يمكنك رؤية مثال في السجل الأول الذي تم فيه تحديد "طلبات" **مجموعة عاملي الصيانة المفضلين**.
 
     [!NOTE] سيتم استخدام الإعداد الافتراضي أثناء جدولة أمر العمل إذا لم تطابق تركيبة أخرى أكثر تحديداً محتويات أمر العمل.
 

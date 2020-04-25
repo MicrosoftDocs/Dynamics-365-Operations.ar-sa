@@ -2,7 +2,7 @@
 title: طلبات الصيانة
 description: يوفر هذا الموضوع نظرة عامة حول إدارة طلبات الصيانة في إدارة الأصول
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b19a92924d73847d9d2c09cd0ed111a9cbfdccbf
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c911f1a0cd895899f85ae8f5ec4c3fcc847c0cf0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571635"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205151"
 ---
 # <a name="maintenance-requests"></a>طلبات الصيانة
 
@@ -48,7 +48,7 @@ ms.locfileid: "2571635"
 ![عرض طلبات الصيانة](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
-> استخدم صفحة قائمة **طلبات الصيانة الخاصة بموقع العمل لدي** لعرض قائمه بطلبات الصيانة التي تحتوي على مواقع العمل التي ترتبط بها كعامل أو أصول يتم تثبيتها في مواقع عمل ترتبط بها كعامل. (لمزيد من المعلومات حول كيفيه اعداد مواقع عمل على عاملي الصيانة، راجع [عاملو الصيانة ومجموعات عاملي الصيانة‬](../setup-for-objects/workers-and-worker-groups.md).)
+> استخدم صفحة قائمة **طلبات الصيانة الخاصة بموقع العمل لدي** لعرض قائمة بطلبات الصيانة التي تحتوي على مواقع العمل التي ترتبط بها كعامل أو أصول يتم تثبيتها في مواقع عمل ترتبط بها كعامل. (لمزيد من المعلومات حول كيفيه إعداد مواقع عمل على عاملي الصيانة، راجع [عاملو الصيانة ومجموعات عاملي الصيانة‬](../setup-for-objects/workers-and-worker-groups.md).)
 > 
 > علي الرغم من توفر معلومات حساب العميل في إدارة خدمة الأصول (صيانة خارجية)، إلا أنها لا تتوفر في إدارة الأصول (صيانة داخلية).
 
@@ -66,7 +66,7 @@ ms.locfileid: "2571635"
 | مجموعة أمر العمل                  | ربط طلب الصيانة المحدد بمجموعة أمر عمل. |
 | أمر العمل                       | إنشاء أمر عمل استنادًا إلى طلب الصيانة المحدد. |
 | خطأ الأصل‬                      | انقر **فوق أخطاء الأصل‬**، حيث يمكنك إنشاء تسجيل خاطئ في طلب الصيانة المحدد. |
-| أوامر العمل                      | عرض قائمه بجميع أوامر العمل المرتبطة بطلب الصيانة المحدد. |
+| أوامر العمل                      | عرض قائمة بجميع أوامر العمل المرتبطة بطلب الصيانة المحدد. |
 | تحديث حالة طلب الصيانة | تحديث حالة طلب الصيانة. |
 | سجل حالة دورة الحياة              | عرض سجل يُظهر حالات دورة حياة طلب الصيانة المحدد, |
 | تفاصيل طلب الصيانة      | طباعه تقرير يوضح تفاصيل طلب الصيانة المحدد. |

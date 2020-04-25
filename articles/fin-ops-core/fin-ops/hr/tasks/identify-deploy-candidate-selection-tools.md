@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51200a67a51097c438370866cb9d0ccbebe8392c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190363"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143939"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>تحديد أدوات اختيار المرشحين ونشرها
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 قد يكون البحث عن مجموعة مؤهلة تضم مرشحين لملء الوظائف الشاغرة صعبًا، لا سيما عندما يتطلب أحد المراكز مجموعة فريدة من المهارات.  ومع ذلك، من المحتمل أن يكون قد تم توظيف مرشحين لديهم المهارات المطلوبة في مؤسستك. يمكنك البحث عن مجموعة مهارات معينة بين الموظفين الموجودين أو مقدمي الطلبات الجدد. يسمح هذا الأمر لمسؤول التعيين بجمع مقدمي الطلبات الذين تقدموا بطلبات ملء منصب مفتوح الآن أو في السابق وفحص مقدمي الطلبات هؤلاء، أو بالبحث عن المرشحين المحتملين من مجموعة موظفيهم الموجودة. استخدم تسجيل هذه المهام لمعرفة كيف تساعد وظيفة تعيين المهارة في العثور على الشخص المناسب لمنصب مفتوح. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

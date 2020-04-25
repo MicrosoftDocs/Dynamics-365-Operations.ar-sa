@@ -2,7 +2,7 @@
 title: كيانات هدف
 description: يوضح هذا الموضوع كيفية الحصول على نظرة عامة حول الكيانات الهدف في إدارة الأصول.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 09/26/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5bb94b6e4176a7dbed2d78149e7120ce832d0bc0
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 58027fcb29efbac847f3018ae1eb6677241ed87b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652300"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205427"
 ---
 # <a name="target-entities"></a>الكيانات الهدف
 
@@ -33,7 +33,7 @@ ms.locfileid: "2652300"
 
 في مساحة عمل **إدارة البيانات**، يمكنك الحصول على نظرة عامة على الكيانات الهدف وأنواع الكيانات ذات الصلة والجداول المرحلية‬ ذات الصلة بالوحدة النمطية **إدارة الأصول**. 
 
-1. انقر فوق الزر **Finance and Operations** الموجود في الزاوية العلوية اليمنى من الشاشة، ثم انقر فوق **إدارة البيانات**.
+1. انقر فوق الزر **Finance and Operations** في الزاوية العلوية اليمنى من الشاشة، ثم انقر فوق **إدارة البيانات**.
 
 2. في القسم **استيراد/تصدير**، انقر فوق **وحدات البيانات**. 
 

@@ -2,7 +2,7 @@
 title: الأصول ومواقع العمل
 description: يصف الأصول ومواقع العمل في إدارة الأصول. إدارة الأصول عبارة عن وحدة نمطية متقدمة لإدارة الأصول ومهام الصيانة في Dynamics 365 Supply Chain Management.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: fe3e82f425421acdae81a02032ac6252765e1c05
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653337"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208053"
 ---
 # <a name="functional-locations-and-assets"></a>الأصول ومواقع العمل
 
@@ -35,7 +35,7 @@ ms.locfileid: "2653337"
 
 ## <a name="overview"></a>نظرة عامة
 
-تتكامل إدارة الأصول بسلاسة مع الوحدات النمطية المتعددة مع تطبيقات Finance and Operations الأخرى. يبين الرسم التوضيحي التالي الواجهات مع الوحدات النمطية الأخرى.
+تتكامل إدارة الأصول بسلاسة مع وحدات نمطية متعددة في تطبيقات Finance and Operations الاخرى. يبين الرسم التوضيحي التالي الواجهات مع الوحدات النمطية الأخرى.
 
 ![يوضح الرسم التخطيطي كيفية عمل واجهات إدارة الأصول مع الوحدات النمطية الأخرى](media/01-overview-image.png)
 

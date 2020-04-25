@@ -2,15 +2,15 @@
 title: التأخيرات
 description: يوفر هذا الموضوع معلومات حول التواريخ المتأخرة في التخطيط الرئيسي. التاريخ المتأخر هو تاريخ استحقاق واقعي تتلقاه الحركة إذا كان أقرب تاريخ تنفيذ يحسبه التخطيط الرئيسي أحدث من التاريخ المطلوب.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 03/15/2019
+manager: tfehr
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34252e5cd9ee5151b1cba47975fc0cc612521a17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522279"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203838"
 ---
 # <a name="delays"></a>التأخيرات
 
@@ -44,6 +44,12 @@ ms.locfileid: "1522279"
 
 > [!NOTE]
 > في الإصدارات السابقة، كانت التأخيرات المحسوبة تُعرف باسم *رسائل العمليات الآجلة‬*, وكان التاريخ المتأخر يُعرف باسم *تاريخ العمليات الآجلة*، وكان يشار إلى الحركة المتأخرة على أنها *حركة تم تعيينها للمستقبل*.
+
+## <a name="limited-delays-in-production-setup-with-multiple-bom-levels"></a>حالات تأخير محدودة في إعداد الإنتاج مع مستويات متعددة لقائمة مكونات الصنف‬
+عندما تعمل مع حالات تأخير في إعداد الإنتاج لديه مستويات متعددة لقائمة مكونات الصنف‬، من الضروري الملاحظة أنه سيتم تحديث فقط الأصناف الموجودة فوق الصنف (في بنية قائمة مكونات الصنف‬) التي تسبب التأخير، كجزء من تشغيل التخطيط الرئيسي. أما الأصناف الأخرى في بنية قائمة مكونات الصنف فلن يتم تطبيق التأخير عليها حتى تشغيل التخطيط الرئيسي الأول، عند اعتماد الأمر المخطط للمستوى العلوي أو تأكيده. 
+
+لحل هذه القيود المعروفة، يمكن اعتماد أوامر الإنتاج الموجودة في أعلى بنية قائمة مكونات الصنف والتي فيها حالات تأخير (أو تأكيدها) قبل تشغيل التخطيط الرئيسي التالي. وبهذه الطريقة، سيتم الاحتفاظ بالتأخير من أمر الإنتاج المخطط المعتمد، وسيتم تحديث كافة المكونات الأساسية وفقًا لذلك.
+كما يمكن استخدام رسائل الاجراءات سيتم الأوامر المخططة التي يمكن نقلها إلى تاريخ لاحق بسبب حالات التأخير في بنية قائمة مكونات الصنف.
 
 ## <a name="desired-date"></a>التاريخ المطلوب
 

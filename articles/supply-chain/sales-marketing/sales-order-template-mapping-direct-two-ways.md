@@ -2,7 +2,7 @@
 title: مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management
 description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً بين Dynamics 365 Sales و Dynamics 365 Supply Chain Management.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c91a3b7e28bc55046ff6eeb37a5fddc8637aa230
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773301"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212953"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management
 
@@ -147,7 +147,7 @@ ms.locfileid: "2773301"
 
 - انتقل إلى **المبيعات والتسويق**&gt;**المهام الدورية**&gt;**حساب إجماليات المبيعات**، وعيِّن الوظيفة لتشغيلها كوظيفة دُفعة. عيّن الخيار **‏‫حساب إجماليات أوامر المبيعات‬** إلى **نعم**. ‏‫تعد هذه الخطوة هامة لأن أوامر المبيعات التي تم حساب إجماليات المبيعات‬ فيها هي فقط أوامر المبيعات التي ستتم مزامنتها إلى Sales. يجب أن يكون مدى تكرار وظيفة الدُفعة متوافقًا مع مدى تكرار مزامنة أوامر المبيعات.
 
-إذا كنت تستخدم أيضًا تكامل أمر العمل، ستحتاج إلى اعداد أصل المبيعات. يتم استخدام أصل المبيعات لتمييز أوامر المبيعات في Supply Chain Management التي تم إنشاؤها من أوامر العمل في Field Service. عندما يشتمل أمر مبيعات على أصل مبيعات من نوع **تكامل أمر العمل**، يظهر حقل **حالة أمر العمل الخارجي** في عنوان أمر المبيعات. بالإضافة إلى ذلك، يساعد أصل المبيعات في ضمان تصفية أوامر المبيعات التي تم إنشاؤها من أوامر العمل في Field Service أثناء مزامنة أوامر المبيعات من Supply Chain Management إلى Field Service.
+إذا كنت تستخدم أيضًا تكامل أمر العمل، ستحتاج إلى إعداد أصل المبيعات. يتم استخدام أصل المبيعات لتمييز أوامر المبيعات في Supply Chain Management التي تم إنشاؤها من أوامر العمل في Field Service. عندما يشتمل أمر مبيعات على أصل مبيعات من نوع **تكامل أمر العمل**، يظهر حقل **حالة أمر العمل الخارجي** في عنوان أمر المبيعات. بالإضافة إلى ذلك، يساعد أصل المبيعات في ضمان تصفية أوامر المبيعات التي تم إنشاؤها من أوامر العمل في Field Service أثناء مزامنة أوامر المبيعات من Supply Chain Management إلى Field Service.
 
 1. انتقل إلى **المبيعات والتسويق** \> **الإعداد** \> **أوامر المبيعات** \> **أصل المبيعات**.
 2. حدد **جديد** لإنشاء أصل مبيعات جديد.

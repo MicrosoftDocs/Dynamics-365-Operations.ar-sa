@@ -1,9 +1,9 @@
 ---
 title: إنشاء خيارات تغطية
-description: تُعد خيارات التغطية في Microsoft Dynamics 365 Human Resources مستويات التغطية لاختيار المشارك في خطة أو برنامج الميزة، مثل الموظف فقط لخطة طبية أو مضاعفة راتب لخطة التأمين على الحياة.
+description: خيارات التغطية في Microsoft Dynamics 365 Human Resources عبارة عن مستويات تغطية لاختيار مشاركة في خطة أو برنامج مزايا.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092696"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230167"
 ---
 # <a name="create-coverage-options"></a>إنشاء خيارات تغطية
 
-[!include [banner](includes/preview-feature.md)]
+خيارات التغطية في Microsoft Dynamics 365 Human Resources عبارة عن مستويات تغطية لاختيار مشاركة في خطة أو برنامج مزايا. على سبيل المثال، بإمكان خيارات التغطية أن تتضمن **الموظف فقط** لخطة طبية، أو **2x الراتب** لخطة تأمين على الحياة. يمكنك إعادة استخدام خيارات تغطية المزايا بعد تحديدها. يمكنك ربط خيار بخطة أو أكثر.
 
-تُعد خيارات التغطية في Microsoft Dynamics 365 Human Resources مستويات التغطية لاختيار المشارك في خطة أو برنامج الميزة، مثل الموظف فقط لخطة طبية أو مضاعفة راتب لخطة التأمين على الحياة. وبمجرد التحديد، تتم إعادة استخدام خيارات تغطية الميزة ويمكن ربط خيار بخطة واحدة أو أكثر.
-
-بمجرد تحديد خيارات التغطية، قم بإرفاق خيارات التغطية بنوع خطة الميزة. ثم يتم إقران نوع الخطة بنوع خطة أو برنامج الميزة. ستكون خيارات التغطية المقترنة بنوع الخطة متاحة لكافة الخطط التي يتم إنشاؤها باستخدام نوع الخطة هذا. 
+بعد تحديد خيارات التغطية، قم بإرفاق خيارات التغطية بنوع خطة مزايا. ثم يتم إقران نوع الخطة بنوع خطة أو برنامج الميزة. تتوفر خيارات التغطية المقترنة بنوع خطة لكافة الخطط التي يتم إنشاؤها باستخدام نوع الخطة هذا. 
 
 1. في مساحة العمل **إدارة الميزات**، ضمن **إعداد**، حدد **خيارات التغطية**.
 

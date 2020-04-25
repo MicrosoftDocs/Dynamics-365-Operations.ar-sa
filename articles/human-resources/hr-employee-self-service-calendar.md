@@ -3,7 +3,7 @@ title: إنشاء تقويم فريق
 description: عرض تقويمات الفريق وإنشاءها في Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22350e0a9da593d52278090dde298923d490cb8c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 71637a659b26ea6912da993f1e899e33f7082512
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007951"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226197"
 ---
 # <a name="view-team-and-company-calendars"></a>عرض تقويمات الفريق والشركة
 
 [!include [banner](includes/preview-feature.md)]
 
-يمكنك عرض تقويمات الفريق والشركة في Dynamics 365 Human Resources.
+يمكنك عرض تقويمات الفريق والشركة في Dynamics 365 Human Resources. تعرض تقويمات الفريق التقارير المباشرة فقط، كما هو محدد في التدرج الهرمي للبند.
 
-## <a name="view-your-team-calendar"></a>عرض تقويم الفريق الخاص بك
-
-يمكن للمديرين عرض تقويمات الفريق. تعرض تقويمات الفريق التقارير المباشرة فقط، كما هو محدد في التدرج الهرمي للبند.
+## <a name="view-your-team-calendar-as-an-employee"></a>عرض تقويم الفريق كموظف
 
 1. في مساحة العمل **‏‫خدمة الموظف الذاتية‬**، حدد **‏‫فريقي‬**.
 
 2. حدد **الإجازة والغياب‬**، ثم حدد **عرض تقويم الفريق**.
+
+## <a name="view-your-team-calendar-as-a-manager"></a>عرض تقويم الفريق كمدير
+
+1. في مساحة العمل **‏‫خدمة الموظف الذاتية‬**، حدد **‏‫فريقي‬**.
+
+2. حدد **الإجازة والغياب‬**، ثم حدد **عرض تقويم الفريق**.
+
+بإمكان المدراء أيضًا الوصول إلى تقويم الفريق من **طلبات الإجازات‏‎المعلقة لفريقي** و**الإجازات الموافق عليها** و**طلبات الإجازات**. 
 
 ## <a name="view-a-company-calendar"></a>عرض تقويم شركة
 
@@ -47,5 +53,7 @@ ms.locfileid: "3007951"
 
 2. حدد **تقويم ‏‫الإجازة والغياب‬**.
 
-للحصول على معلومات حول إعدادات التقويم، راجع [تكوين معلمات التقويم](hr-leave-and-absence-parameters.md?configure-calendar-parameters)
+بإمكان أدوار الموارد البشرية أيضًا الوصول إلى تقويم الشركة من **طلبات الإجازة والغياب** و**الإجازات الموافق عليها‬‏‫** و**طلبات الإجازات**. 
+
+للحصول على معلومات حول إعدادات التقويم، راجع [تكوين معلمات التقويم](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

@@ -2,30 +2,30 @@
 title: إعداد توجيه موقع لتخزين أمر الشراء
 description: يشرح هذا الموضوع كيفية إعداد توجيه موقع بسيط.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aea3f08ea2d1bd584448c3033aea41eca2a0e3ce
-ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
+ms.openlocfilehash: e4008639411c18c0fad0d4dec0da98dbc13191a5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870906"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208122"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>إعداد توجيه موقع لتخزين أمر الشراء
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إعداد توجيه موقع بسيط. ينشئ المثال المعروض توجيه موقع سيتم استخدامه لتحديد مكان وضع الأصناف التي تم استلامها لأمر شراء. يمكنك تشغيل دليل المهام هذا مع البيانات المذكورة باستخدام شركة بيانات العرض التوضيحي USMF. الشروط المسبقة: تحتاج لإنشاء رمز إرجاع. في هذا الإجراء نستخدم رمز إرجاع يُسمى "إعادة تسمية". إذا كنت تقوم بإنشاء توجيه موقع في البيانات الخاصة بك، فستحتاج إلى إعداد إدارة المستودعات المتقدمة للمستودع والأصناف. هذا الإجراء مخصص لمدير المستودعات.
 

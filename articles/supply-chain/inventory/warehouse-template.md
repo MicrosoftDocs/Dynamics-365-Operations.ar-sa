@@ -2,7 +2,7 @@
 title: إعداد مستودع باستخدام قالب تكوين مستودع
 description: يشرح هذا الموضوع طريقة إعداد مستودع باستخدام قالب تكوين مستودع.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3a6645bc55dfd4f03ce9872ff5017f1659b1f11c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 66fdc26b0b967a04a3c6a6e3444e00b1372dc504
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017587"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204000"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>إعداد مستودع باستخدام قالب تكوين مستودع
 
@@ -93,7 +93,7 @@ ms.locfileid: "2017587"
 
 يوفر عرض **سجل التنفيذ** معلومات مفصلة حول كيان البيانات التي تم استيرادها. يمكنك استخدام ‏‫عرض بيانات التشغيل المرحلي‬ للوصول بسرعة إلى البيانات الهدف. وبهذه الطريقة، يمكنك مشاهدة الطريقة التي تبدو عليها البيانات المستوردة في الصفحات ذات الصلة في استمارة التقديم. عند استخدام قوالب البيانات الافتراضية، يعمل استيراد التسلسل لكل كيان من كيانات البيانات بالطريقة المحددة مسبقاً، للمساعدة في ضمان أن يتم استيراد كافة البيانات التابعة أولاً. إذا كانت كيانات البيانات المخصصة جزءًا من المشروع، فيجب التأكد من تحديد التسلسل الصحيح. لمزيد من المعلومات، راجع [‬‏‫قوالب بيانات التكوين](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-لمعرفة المزيد حول كيفية استخدام قالب المستودع لنسخ تكوين مستودع من شركة إلى شركة جديدة داخل المثيل نفسه، راجع هذا الفيديو ومدته 3 دقائق على YouTube حول [استخدام قالب المستودع لنسخ التكوين في Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+لمعرفة المزيد حول كيفية استخدام قالب المستودع لنسخ تكوين مستودع من شركة إلى شركة جديدة داخل المثيل نفسه، راجع هذا الفيديو ومدته 3 دقائق عل YouTube حول [كيفية استخدام قالب المستودع لنسخ التكوين في Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>مواضيع مرتبطة
 

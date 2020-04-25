@@ -2,7 +2,7 @@
 title: تقرير تقادم المخزون
 description: يصف هذا الموضوع الوظيفة التي تتيح لك امكانيه تشغيل تقرير فتره تاخر المخزون وجعل المخرجات متاحه كنموذج ومخطط.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 21411c104c854224ff3689dc8e080b88d9fc7d23
-ms.sourcegitcommit: 9267608347c9781fb4ba70f1384ca24da69c716d
+ms.openlocfilehash: 790c8fe3a52bce652227f1cef97eff6496476100
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2810241"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201607"
 ---
 # <a name="inventory-aging-report"></a>تقرير تقادم المخزون
 
@@ -32,9 +32,9 @@ ms.locfileid: "2810241"
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-في Microsoft Dynamics 365 Supply Chain Management، يمكنك تشغيل تقرير **فتره تقادم المخزون** وجعل المخرجات متاحه كنموذج ومخطط. في النموذج ، يتم تسويه الاعمده والارصده التجميعية بشكل حيوي ، وذلك وفقا للتخطيط الذي تم تكوينه. يوفر المخطط نظره عامه مرئية تدعم التصفية ويتيح لك التنقل لأسفل إلى التفاصيل. بالاضافه إلى ذلك، يتيح لك كيان البيانات المسمى **تقرير فترة تقادم المخزون** تصدير نتائج تشغيل تقرير **تقادم المخزون** إلى تنسيق مثل ملف Microsoft Excel أو ملف PDF.
+في Microsoft Dynamics 365 Supply Chain Management، يمكنك تشغيل تقرير **فتره تقادم المخزون** وجعل المخرجات متاحه كنموذج ومخطط. في النموذج ، يتم تسويه الاعمده والارصده التجميعية بشكل حيوي ، وذلك وفقا للتخطيط الذي تم تكوينه. يوفر المخطط نظره عامه مرئية تدعم التصفية ويتيح لك التنقل لأسفل إلى التفاصيل. بالإضافة إلى ذلك، يتيح لك كيان البيانات المسمى **تقرير فترة تقادم المخزون** تصدير نتائج تشغيل تقرير **تقادم المخزون** إلى تنسيق مثل ملف Microsoft Excel أو ملف PDF.
 
-تفيد هذه الطريقة الخاصة بتشغيل تقرير **تقادم المخزون** في الحالات التي تحتوي فيها المخرجات علي العديد من البنود. علي سبيل المثال ، سيحتوي الإخراج علي العديد من البنود إذا كان لديك 50,000 أصناف و 300 متجر يتم إنشاؤها كمستودعات ، وطلب فتره تاخر المخزون حسب الصنف والموقع والمستودع.
+تفيد هذه الطريقة الخاصة بتشغيل تقرير **تقادم المخزون** في الحالات التي تحتوي فيها المخرجات علي العديد من البنود. على سبيل المثال ، سيحتوي الإخراج علي العديد من البنود إذا كان لديك 50,000 أصناف و 300 متجر يتم إنشاؤها كمستودعات ، وطلب فتره تاخر المخزون حسب الصنف والموقع والمستودع.
 
 ## <a name="run-an-inventory-aging-report"></a>تشغيل تقرير تقادم المخزون
 

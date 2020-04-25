@@ -3,7 +3,7 @@ title: إعداد أكواد السبب
 description: يستخدم Dynamics 365 Human Resources رموز السبب لتوضيح سبب تغيير ميزات الموظف.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f52d19f3d5303d59c560aa4c8cd45fe2b873c771
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 63f31e810d932cf7d08f5dd7af9bce68e4790a51
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092429"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229661"
 ---
 # <a name="set-up-reason-codes"></a>إعداد أكواد السبب
-
-[!include [banner](includes/preview-feature.md)]
 
 يستخدم Dynamics 365 Human Resources رموز السبب لتوضيح سبب تغيير ميزات الموظف. 
 
@@ -39,7 +37,7 @@ ms.locfileid: "3092429"
 
    | الحقل | ‏‏الوصف |
    | --- | --- |
-   | رمز السبب | اسم فريد لتحديد السبب الذي من أجله قام الموظف بتغيير تسجيل خطة الميزة. |
-   | ‏‏الوصف | وصف كود السبب. |
+   | **رمز السبب** | اسم فريد لتحديد السبب الذي من أجله قام الموظف بتغيير تسجيل خطة الميزة. |
+   | **‏‏الوصف** | وصف كود السبب. |
 
 4. حدد **حفظ**. 

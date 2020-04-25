@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0a80e5b1a79c874ce0a8d24c85be71d0dc5c9c8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b89d08d8f6a4223eb592ffa2b918504839e5287b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550546"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142399"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>التقارير الإلكترونية - تكوين التنسيق لتنفيذ عمليات الجرد والتجميع (الجزء 4 - تشغيل التنسيق)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لتنفيذ عمليات الجرد والتجميع بالاستناد إلى البيانات الخاصة بالمخرجات النصية المُنشأة بالفعل. يمكن تنفيذ هذه الخطوات في شركة DEMF.
 
@@ -51,7 +51,7 @@ ms.locfileid: "2550546"
 14. قم بتوسيع القسم "إعداد التقارير الإلكترونية".
 15. حدد التكوين "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (DE) مع الجرد والجمع".
 16. حدد التكوين "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (DE) مع الجرد والجمع".
-17. انقر فوق "حفظ".
+17. انقر فوق حفظ.
 18. قم بإغلاق الصفحة.
 19. انتقل إلى الضريبة > الإقرارات‬ > التجارة الخارجية > نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي.
 20. انقر فوق "الإخراج".

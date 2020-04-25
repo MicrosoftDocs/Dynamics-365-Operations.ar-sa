@@ -2,7 +2,7 @@
 title: تطبيق عوامل تصفية على خطة
 description: يشرح هذا الموضوع كيفية استخدام عوامل التصفية في خطة عند استخدام وظيفة "تحسين التخطيط".
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: ca28953846b4f1978a453d2ab2aa9759e4f45221
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 73e4a045ff5a9912b898a7115d3d8f530846ebdd
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076099"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209779"
 ---
 # <a name="apply-filters-to-a-plan"></a>تطبيق عوامل تصفية على خطة
 
@@ -47,7 +47,7 @@ ms.locfileid: "3076099"
 - **عامل التصفية وقت التشغيل الذي يتضمن كافة الأصناف (عامل التصفية الفارغ):** يتم تضمين الأصناف A و B و C في تشغيل التخطيط ، وتتم الكتابة فوق الإخراج السابق للتخطيط الخاص بالأصناف A و B.
 
 > [!NOTE]
-> وينبغي تجنب اعداد عامل تصفيه الخطة علي الخطة المحددة كـ **خطة رئيسيه ديناميكية حاليه** في صفحه **معلمات التخطيط الرئيسية**. وبخلاف ذلك ، سيتم تحديد وظيفة الخطة الرئيسية الديناميكية للأصناف التي تمت تصفيتها. علي سبيل المثال ، إذا تم تحديث صافي المتطلبات لصنف ليس جزءا من عامل تصفيه الخطة ، فلن يتم إنشاء إيه نتيجة.
+> وينبغي تجنب إعداد عامل تصفيه الخطة علي الخطة المحددة كـ **خطة رئيسيه ديناميكية حاليه** في صفحه **معلمات التخطيط الرئيسية**. وبخلاف ذلك ، سيتم تحديد وظيفة الخطة الرئيسية الديناميكية للأصناف التي تمت تصفيتها. على سبيل المثال ، إذا تم تحديث صافي المتطلبات لصنف ليس جزءا من عامل تصفيه الخطة ، فلن يتم إنشاء إيه نتيجة.
 
 ## <a name="related-resources"></a>الموارد ذات الصلة
 

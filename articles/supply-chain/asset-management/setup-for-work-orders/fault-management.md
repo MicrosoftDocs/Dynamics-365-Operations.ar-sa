@@ -2,7 +2,7 @@
 title: إدارة الأخطاء
 description: يشرح هذا الموضوع إدارة الأخطاء في إدارة الأصول.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 78c062f9982ca7b18fa00d60928089d09a5d552d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6665e80342af1baa7176aee92693b77e83b368f0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570945"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205910"
 ---
 # <a name="fault-management"></a>إدارة الأخطاء
 
@@ -65,7 +65,7 @@ ms.locfileid: "2570945"
 
 ## <a name="create-fault-symptoms"></a>إنشاء أعراض الأخطاء
 
-اتبع الخطوات التالية لإنشاء قائمه بالأعراض التي يمكن استخدامها في "مصمم الأخطاء".
+اتبع الخطوات التالية لإنشاء قائمة بالأعراض التي يمكن استخدامها في "مصمم الأخطاء".
 
 1. حدد **إدارة الأصول** \> **الإعداد** \> **الخطأ** \> **أعراض الأخطاء**.
 2. حدد **جديد** لإنشاء سجل.
@@ -75,7 +75,7 @@ ms.locfileid: "2570945"
 
 ## <a name="create-fault-areas"></a>إنشاء مجالات الأخطاء
 
-اتبع الخطوات التالية لإنشاء قائمه بالمجالات أو المواقع التي يمكن استخدامها في "مصمم الأخطاء".
+اتبع الخطوات التالية لإنشاء قائمة بالمجالات أو المواقع التي يمكن استخدامها في "مصمم الأخطاء".
 
 1. حدد **إدارة الأصول** \> **الإعداد** \> **الخطأ** \> **مجالات الأخطاء**.
 2. حدد **جديد** لإنشاء سجل.
@@ -85,7 +85,7 @@ ms.locfileid: "2570945"
 
 ## <a name="create-fault-types"></a>إنشاء أنواع الأخطاء
 
-اتبع الخطوات التالية لإنشاء قائمه بأنواع الأخطاء التي يمكن استخدامها في "مصمم الأخطاء".
+اتبع الخطوات التالية لإنشاء قائمة بأنواع الأخطاء التي يمكن استخدامها في "مصمم الأخطاء".
 
 1. حدد **إدارة الأصول** \> **الإعداد** \> **الخطأ** \> **أنواع الأخطاء**.
 2. حدد **جديد** لإنشاء سجل.

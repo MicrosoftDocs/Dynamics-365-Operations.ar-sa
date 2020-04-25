@@ -3,7 +3,7 @@ title: توفير بيئة معاينة Dynamics 365 Commerce
 description: يشرح هذا الموضوع كيفية توفير بيئة معاينة Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024626"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254738"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>توفير بيئة معاينة Dynamics 365 Commerce
 
@@ -32,7 +32,7 @@ ms.locfileid: "3024626"
 
 يشرح هذا الموضوع كيفية توفير بيئة معاينة Dynamics 365 Commerce.
 
-قبل البدء، نوصي باجراء فحص سريع من خلال هذا الموضوع للتعرف علي فكره العملية التي تتطلبها.
+قبل البدء، نوصي بإجراء فحص سريع من خلال هذا الموضوع للتعرف علي فكره العملية التي تتطلبها.
 
 > [!NOTE]
 > إذا لم يتم منحك إلى الآن حق الوصول إلى معاينة Dynamics 365 Commerce فيمكنك طلب الوصول إلى المعاينة من موقع ويب [Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite).
@@ -222,7 +222,7 @@ ms.locfileid: "3024626"
 1. للمتابعة، حدد **التالي**.
 1. في الحقل **أسماء الأجهزة المضيفة المدعومة**، أدخل أي مجال صالح، مثل `www.fabrikam.com`.
 1.  في الحقل **مجموعة أمان AAD لمسؤول النظام‬‏‫**، أدخل الأحرف القليلة الأولى من اسم مجموعة الأمان التي تريد استخدامها. حدد رمز العدسة المكبرة لعرض نتائج البحث. حدد مجموعة الأمان الصحيحة من القائمة.
-2.  في الحقل **مجموعه أمان AAD الخاصة بالمشرف على التقييمات والمراجعات**، أدخل الأحرف القليلة الأولى من اسم مجموعة الأمان التي تريد استخدامها. حدد رمز العدسة المكبرة لعرض نتائج البحث. حدد مجموعة الأمان الصحيحة من القائمة.
+2.  في الحقل **مجموعة أمان AAD الخاصة بالمشرف على التقييمات والمراجعات**، أدخل الأحرف القليلة الأولى من اسم مجموعة الأمان التي تريد استخدامها. حدد رمز العدسة المكبرة لعرض نتائج البحث. حدد مجموعة الأمان الصحيحة من القائمة.
 1. اترك خيار **تمكين خدمة التقييمات والمراجعات** ممكنًا.
 1. حدد **تهيئة**. تظهر طريقة عرض **إدارة Commerce** مره أخرى، حيث يتم تحديد علامة التبويب **Commerce**. تم بدء تشغيل تهيئة التجارة الإلكترونية.
 1. قبل المتابعة، انتظر حتى تصبح حالة تهيئة التجارة الإلكترونية هي **نجاح التهيئة**.
@@ -234,8 +234,6 @@ ms.locfileid: "3024626"
 ## <a name="commerce-preview-environment-support"></a>دعم بيئة معاينة Commerce
 
 في حالة مواجهة مشكلات أثناء إكمال خطوات التوفير، يُرجى زيارة، [مجموعة Microsoft Dynamics 365 Commerce Preview Yammer ](https://aka.ms/Dynamics365CommercePreviewYammer) للحصول على المساعدة.
-
-إذا واجهت مشكلات عند محاولة الوصول إلى مجموعة Yammer ، يمكنك التواصل مع Microsoft عبر البريد الكتروني <Dynamics365Commerce@microsoft.com>. لا يتم مراقبة هذا البريد الإلكتروني بنشاط. لذا، توقع تأخير في الاستجابة.
 
 ## <a name="next-steps"></a>الخطوات التالية
 

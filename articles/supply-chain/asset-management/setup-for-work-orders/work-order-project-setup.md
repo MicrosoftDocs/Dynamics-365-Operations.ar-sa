@@ -2,7 +2,7 @@
 title: إعداد مشروع أمر العمل
 description: يوضح هذا الموضوع إعداد مشروع أمر عمل في إدارة الأصول.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 702fe915666bdf9334274fd8fb48f5db2b271371
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569767"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215437"
 ---
 # <a name="work-order-project-setup"></a>إعداد مشروع أمر العمل
 
@@ -57,7 +57,7 @@ ms.locfileid: "2569767"
 
 يمكن استخدام مجموعات المشاريع لإنشاء فئات (مجموعات) معينة يتم استخدامها لمراقبة التكاليف. على سبيل المثال، من خلال إنشاء مجموعات مشايع لأنواع أصول أو أنواع أوامر عمل معينة، يمكنك إجراء تعقب تفصيلي لتكاليف الصيانة حسب النوع.
 
-مجموعات المشاريع ليست إلزاميه. في حالة عدم إعداد مجموعات المشاريع، يتم استخدام المشروع الرئيسي لتحديد مجموعة المشاريع ويتم إنشاء مشروع فرعي من مجموعه مشاريع المشروع الرئيسي.
+مجموعات المشاريع ليست إلزاميه. في حالة عدم إعداد مجموعات المشاريع، يتم استخدام المشروع الرئيسي لتحديد مجموعة المشاريع ويتم إنشاء مشروع فرعي من مجموعة مشاريع المشروع الرئيسي.
 
 يسمح الإعداد بالتكامل الكامل مع الوحدة النمطية **إدارة المشاريع ومحاسبتها**. وبالتالي، يمكنك تتبع التكاليف المرتبطة بأوامر العمل في المشاريع ذات الصلة. يصف الإجراء التالي إعداد مشاريع أمر العمل.
 

@@ -2,15 +2,15 @@
 title: طرق خفض التنبؤ
 description: يوفر هذا الموضوع أمثلة تعرض كيفية إعداد طريقة الخفض. وهي تتضمن معلومات حول مختلف إعدادات طريقة الخفض ونتائج كل إعداد. يمكنك استخدام طريقة الخفض لتعريف كيفية خفض متطلبات التنبؤ.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 07/09/2019
+manager: tfehr
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11d5613f23805993b2a83d007c818c80de6a4b9b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814250"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225095"
 ---
 # <a name="forecast-reduction-keys"></a>طرق خفض التنبؤ
 
@@ -34,7 +34,7 @@ ms.locfileid: "2814250"
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>الطرق المستخدمة لتقليل متطلبات التنبؤ
 
-عندما تقوم بتضمين تنبؤ في خطة رئيسية، يمكنك تحديد كيف يتم تقليل متطلبات التنبؤ عند تضمين الطلب الفعلي.
+عندما تقوم بتضمين تنبؤ في خطة رئيسية، يمكنك تحديد كيف يتم تقليل متطلبات التنبؤ عند تضمين الطلب الفعلي. لاحظ أن التخطيط الرئيسي يستبعد متطلبات التنبؤ من الماضي، مما يعني أن كافة متطلبات التنبؤ هي قبل تاريخ اليوم.
 
 لتضمين تنبؤ في خطة رئيسية وتحديد الأسلوب المستخدم لتقليل متطلبات التنبؤ، انتقل إلى **التخطيط الرئيسي \> الإعداد \> خطط \> الخطط الرئيسية**. حدد نموذج التنبؤ في الحقل **نموذج التنبؤ**. في **الطريقة المستخدمة لتقليل متطلبات التنبؤ‬**، حدد طريقة. وتتوفر الخيارات التالية:
 

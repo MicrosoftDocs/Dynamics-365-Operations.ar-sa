@@ -3,7 +3,7 @@ title: REPLACE ER وظيفة
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكتروني REPLACE (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040976"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201056"
 ---
-# <a name="REPLACE">REPLACE ER وظيفة</a>
+# <a name=""></a><a name="REPLACE">REPLACE ER وظيفة</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ REPLACE (text, pattern, replacement, regular expression flag)
 
 إذا كانت الوسيطة `regular expression flag` **TRUE**، تقوم هذه الوظيفة بإرجاع السلسلة المُحددة بعد أن تم تغييرها عن طريق تطبيق التعبير العادي المُحدد بواسطة الوسيطة `pattern`. يتم استخدام التعبير العادي للبحث عن الأحرف التي يجب استبدالها.
 
-إذا كانت الوسيطة `regular expression flag` **FALSE**، تتصرف هذه الوظيفة مثل [TRANSLATE](er-functions-text-translate.md). تستخدم الأحرف المُحددة بواسطة الوسيطة `replacement` لاستبدال الأحرف التي يتم العثور عليها. 
+إذا كانت الوسيطة `regular expression flag` بقيمة **FALSE**، ترجع هذه الدالة السلسلة المحددة بعد أن يتم استبدال مجموعة الأحرف التي تم تعريفها في الوسيطة `pattern` بأحرف من الوسيطة `replacement`. 
 
 ## <a name="example-1"></a>مثال1
 

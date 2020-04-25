@@ -2,7 +2,7 @@
 title: إنشاء منتج جديد
 description: يصف هذا الموضوع كيفية إنشاء منتج مشترك جديد.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,22 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 722414eee1e738e1438bbb40dbd9b8ca606f9245
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0bf15359e085b541407bb49c266f7d9505893e25
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844791"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203700"
 ---
 # <a name="create-a-new-product"></a>إنشاء منتج جديد
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يصف هذا الموضوع كيفية إنشاء منتج مشترك جديد. عادة ما يتم تنفيذها عن طريق مصمم المنتج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬
 

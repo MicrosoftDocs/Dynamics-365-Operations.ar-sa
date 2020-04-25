@@ -3,7 +3,7 @@ title: تمكين ADLS في بيئة Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage (ADLS) لإحدى بيئات Dynamics 365 Commerce، والتي تعتبر متطلبًا أساسيًا لتمكين توصيات المنتج.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154426"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259738"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>تمكين ADLS في بيئة Dynamics 365 Commerce
 
@@ -48,7 +48,8 @@ ms.locfileid: "3154426"
   
 ## <a name="configuration-steps"></a>خطوات التكوين
 
-يتناول هذا القسم خطوات التكوين الضرورية لتمكين ADLS في إحدى البيئات.
+يغطي هذا القسم خطوات التكوين الضرورية لتمكين ADLS في بيئة ما كما يتعلق بتوصيات المنتج.
+للحصول على نظرة عامة أكثر عمقًا للخطوات المطلوبة لتمكين ADLS، راجع [جعل مخزن الكيانات‬ متوفرًا كـ Data Lake‬](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-adls-in-the-environment"></a>تمكين ADLS في البيئة
 
@@ -91,6 +92,8 @@ ms.locfileid: "3154426"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
+[جعل مخزن الكيانات‬ متوفرًا كـ Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ ms.locfileid: "3154426"
 [إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
-
-

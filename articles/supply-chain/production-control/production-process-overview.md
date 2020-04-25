@@ -2,7 +2,7 @@
 title: نظرة عامة على عملية الإنتاج
 description: يوفر هذا الموضوع نظرة عامة على عمليات الإنتاج.‬ وهي تصف مختلف مراحل أوامر الإنتاج والأوامر الدفعية وكانبان، اعتبارًا من عملية إنشاء الأمر وصولاً إلى إقفال الفترة المالية.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c25b5f6a4aa6f2742ee5e41039f3f5511715e3b0
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 27d955dd1ba12ff9897697fad50a0bc8172905ae
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814227"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211274"
 ---
 # <a name="production-process-overview"></a>نظرة عامة على عملية الإنتاج
 

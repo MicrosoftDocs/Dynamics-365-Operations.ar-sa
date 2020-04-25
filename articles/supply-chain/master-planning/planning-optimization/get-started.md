@@ -2,7 +2,7 @@
 title: بدء تحسين التخطيط
 description: يشرح هذا الموضوع كيفية بدء استخدام وظيفة تحسين التخطيط.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,19 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4f9124e824a0b6d5035b2567cb19c2c494390d55
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076122"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213505"
 ---
 # <a name="get-started-with-planning-optimization"></a>بدء تحسين التخطيط
 
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
-لا تدعم وظيفة تحسين التخطيط كافة الميزات المتوفرة في مشغل التخطيط المضمن في Microsoft Dynamics 365 Supply Chain Management. لذلك ، فانه من المهم تقييم ما إذا كانت مجموعه الميزات المتوفرة حاليا في تحسين التخطيط ستفي بمتطلباتك. بشكل افتراضي ، وظيفة تحسين التخطيط ليست قيد التشغيل في Dynamics Lifecycle Services (LCS) بشكل افتراضي. لذلك ، لديك فرصه لاجراء التقييم الخاص بك قبل تشغيلها.
+لا تدعم وظيفة تحسين التخطيط كافة الميزات المتوفرة في مشغل التخطيط المضمن في Microsoft Dynamics 365 Supply Chain Management. لذلك ، فانه من المهم تقييم ما إذا كانت مجموعة الميزات المتوفرة حاليا في تحسين التخطيط ستفي بمتطلباتك. بشكل افتراضي ، وظيفة تحسين التخطيط ليست قيد التشغيل في Dynamics Lifecycle Services (LCS) بشكل افتراضي. لذلك ، لديك فرصه لإجراء التقييم الخاص بك قبل تشغيلها.
 
 في نهاية المطاف ، سيحل تحسين التخطيط محل محرك التخطيط الحالي لـ Supply Chain Management المضمن.
 
@@ -43,7 +43,7 @@ ms.locfileid: "3076122"
 
 ### <a name="install-the-add-in"></a>تثبيت الوظيفة الإضافية
 
-لاستخدام أمثليه التخطيط، قم بتثبيت الوظيفة الاضافيه لتحسين التخطيط لـ Dynamics 365 Supply Chain Management. يمكنك الوصول إلى الوظيفة الاضافيه من مشروع LCS وتشغيل وظيفة تحسين التخطيط من واجهه مستخدم Supply Chain Management (UI).
+لاستخدام أمثليه التخطيط، قم بتثبيت الوظيفة الإضافية لتحسين التخطيط لـ Dynamics 365 Supply Chain Management. يمكنك الوصول إلى الوظيفة الإضافية من مشروع LCS وتشغيل وظيفة تحسين التخطيط من واجهه مستخدم Supply Chain Management (UI).
 
 > [!NOTE]
 > يُعد متطلب تحسين التخطيط بيئة ذات توفر عالي بتمكين LCS (ليست بيئة OneBox)، مع الإصدار Dynamics 365 Supply Chain Management 10.0.7 أو أحدث.
@@ -64,7 +64,7 @@ ms.locfileid: "3076122"
 
 #### <a name="connection-status"></a>حالة الاتصال
 
-تشير حاله الاتصال إلى الحالة الحالية للاتصال بين Supply Chain Management وخدمه تحسين التخطيط. ويوضح الجدول التالي القيم المحتملة.
+تشير حالة الاتصال إلى الحالة الحالية للاتصال بين Supply Chain Management وخدمه تحسين التخطيط. ويوضح الجدول التالي القيم المحتملة.
 
 | حالة الاتصال | ‏‏الوصف | هل يمكن استخدام تحسين التخطيط؟ |
 |---|---|---|
@@ -86,7 +86,7 @@ ms.locfileid: "3076122"
 
 ### <a name="integration-with-the-setup"></a>التكامل مع الإعداد
 
-إذا كانت معاينه تحسين التخطيط قيد التشغيل، يتم اجراء التخطيط الرئيسي باستخدام الوظيفة الاضافيه لتحسين التخطيط. في هذه الحالة، تتاثر نتائج التخطيط الرئيسي وميزاته.
+إذا كانت معاينه تحسين التخطيط قيد التشغيل، يتم إجراء التخطيط الرئيسي باستخدام الوظيفة الإضافية لتحسين التخطيط. في هذه الحالة، تتاثر نتائج التخطيط الرئيسي وميزاته.
 
 ## <a name="related-resources"></a>الموارد ذات الصلة
 

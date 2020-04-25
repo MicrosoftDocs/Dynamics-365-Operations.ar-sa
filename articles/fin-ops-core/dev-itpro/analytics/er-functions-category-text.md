@@ -3,7 +3,7 @@ title: قائمة وظائف التقارير الإلكترونية من فئة
 description: يوفر هذا الموضوع معلومات حول وظائف النص المعتمدة في التقارير الإلكترونية (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/05/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f519d242fe74196b0d12bdc9df4f1b4b0e585752
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916604"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201079"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>قائمة وظائف التقارير الإلكترونية من فئة النص
 
@@ -52,7 +52,7 @@ ms.locfileid: "2916604"
 | [استبدال](er-functions-text-replace.md) | تُرجع هذه الوظيفة السلسلة النصية المُحددة كقيمة *السلسلة* بعد استبدالها كليًا أو جزئيًا بسلسلة أخرى. |
 | [إلى اليمين](er-functions-text-right.md) | تُرجع هذه الوظيفة قيمة *السلسلة* التي توضح العدد المُحدد من الأحرف من نهاية السلسلة المُحددة. |
 | [النص](er-functions-text-text.md) | تُرجع هذه الوظيفة الرقم المُحدد كقيمة *سلسلة* بعد أن يتم تحويله إلى سلسلة نصية يتم تنسيقها وفقًا لإعدادات الخادم المحلية لمثيل التطبيق الحالي. |
-| [ترجمة](er-functions-text-translate.md) | تُرجع هذه الوظيفة السلسلة النصية المُحددة كقيمة *السلسلة* بعد استبدالها كليًا أو جزئيًا بسلسلة أخرى. |
+| [ترجمة](er-functions-text-translate.md) | تقوم هذه الدالة بإرجاع قيمة *سلسلة* تحتوي على نتيجة استبدال النص المحدد بأحرف بمجموعة أحرف أخرى متوفرة. |
 | [Trim](er-functions-text-trim.md) | تُرجع هذه الوظيفة سلسلة النص المُحددة كقيمة *سلسلة* بعد اقتطاع المسافات البادئة والزائدة، وبعد أن تمت إزالة المسافات المتعددة بين الكلمات. |
 | [Upper](er-functions-text-upper.md) | تُرجع هذه الوظيفة سلسلة النص المُحددة كقيمة *السلسلة* بعد أن تم تحويلها إلى أحرف كبيرة. |
 

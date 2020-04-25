@@ -2,7 +2,7 @@
 title: نقل الأصول واستبدالها وتثبيتها
 description: يشرح هذا الموضوع كيفية نقل الأصول واستبدالها وتثبيتها في إدارة الأصول.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30145a56de4f7e3dce039968791d2fc9b960077f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 1e203c9b1cfb61e0a512f678b0c29ff40b9628e8
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571520"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216289"
 ---
 # <a name="move-replace-and-install-assets"></a>نقل الأصول واستبدالها وتثبيتها
 
@@ -38,7 +38,7 @@ ms.locfileid: "2571520"
 - **تثبيت** – تثبيت أصل أساسي والأصول التابعة ذات الصلة في موقع عمل.
 
 > [!NOTE]
-> قد يكون الأصل الذي تقوم بنقله أو استبداله أو تثبيته مرتبطًا بموقع عمل آخر. وفي هذه الحالة، قد يستخدم الأصل الأبعاد المالية لموقع العمل. في صفحة **أنواع مواقع العمل**، يمكنك اعداد معالجه الأبعاد المالية على مواقع العمل.
+> قد يكون الأصل الذي تقوم بنقله أو استبداله أو تثبيته مرتبطًا بموقع عمل آخر. وفي هذه الحالة، قد يستخدم الأصل الأبعاد المالية لموقع العمل. في صفحة **أنواع مواقع العمل**، يمكنك إعداد معالجه الأبعاد المالية على مواقع العمل.
 
 ## <a name="move-asset"></a>نقل الأصل
 
@@ -86,7 +86,7 @@ ms.locfileid: "2571520"
 2. في القائمة، حدد الأصل الأساسي المراد تثبيته في موقع عمل آخر.
 3. حدد **تثبيت الأصل**.
 
-    يعرض قسم **السمات** سمات الأصول التي يتم اعدادها في الأصل الأساسي.
+    يعرض قسم **السمات** سمات الأصول التي يتم إعدادها في الأصل الأساسي.
 
 4. في حقل **موقع العمل**، اختر الموقع الجديد.
 5. بشكل افتراضي، يتم تعيين الحقل **ساري** إلى التاريخ والوقت الحاليين. ومع ذلك، يمكنك تحديد تاريخ ووقت مختلفين لبدء صلاحية التثبيت على بنية الأصل.

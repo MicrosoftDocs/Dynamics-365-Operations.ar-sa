@@ -2,7 +2,7 @@
 title: إنشاء أوامر عمل من طلبات الصيانة
 description: يشرح هذا الموضوع كيفية إنشاء أمر عمل من طلب صيانة في إدارة الأصول.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b6bd98796140ab7aa3e7813ff1526413504554c5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571681"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205197"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>إنشاء أوامر عمل من طلبات الصيانة
 
@@ -42,7 +42,7 @@ ms.locfileid: "2571681"
 3. عندما تصبح جاهزًا لإنشاء أمر عمل، حدد طلبات الصيانة المراد تضمينها به.
 
     - إذا قمت بتحديد العديد من طلبات الصيانة لتحويلها إلى أمر عمل، فيجب تعيين حقل **الأصل** وحقل **نوع مهمة الصيانة** قبل إنشاء أمر العمل.
-    - في حاله تحديد طلب صيانة واحد لتحويله إلى أمر عمل ، فيجب تعيين حقل **الأصل** فقط قبل إنشاء أمر العمل. ومع ذلك، عند إنشاء أمر العمل، يمكنك تحديد نوع مهمة صيانة (ونوع متغير مهمة صيانة ذات صلة ووظيفة تحتاج إلى تدريبات، إذا كانت هذه المعلومات ذات صلة) في مربع الحوار **إنشاء أمر عمل**.
+    - في حالة تحديد طلب صيانة واحد لتحويله إلى أمر عمل ، فيجب تعيين حقل **الأصل** فقط قبل إنشاء أمر العمل. ومع ذلك، عند إنشاء أمر العمل، يمكنك تحديد نوع مهمة صيانة (ونوع متغير مهمة صيانة ذات صلة ووظيفة تحتاج إلى تدريبات، إذا كانت هذه المعلومات ذات صلة) في مربع الحوار **إنشاء أمر عمل**.
 
 4. حدد **أمر عمل**.
 5. في مربع الحوار **إنشاء أمر عمل**، قم بتعيين الحقول ، ثم حدد **موافق**.

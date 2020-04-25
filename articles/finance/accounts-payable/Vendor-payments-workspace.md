@@ -3,7 +3,7 @@ title: مساحة عمل دفعات المورد
 description: يوفر هذا الموضوع معلومات حول مساحة العمل "مدفوعات المورد‬". تعرض مساحة عمل "مدفوعات المورد‬" المعلومات المتعلقة بمعالجة مدفوعات المورد.
 author: abruer
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 89ba0d68bd52413328dd583e87b09b01fd523d6f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176304"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225003"
 ---
 # <a name="vendor-payments-workspace"></a>مساحة عمل دفعات المورد
 
@@ -36,7 +36,7 @@ ms.locfileid: "2176304"
 1. انتقل إلى **إدارة النظام > الإعداد > معلمات النظام** لتعيين **عملة النظام** و**سعر صرف النظام**.
 2. انتقل إلى **دفتر الأستاذ العام> الإعداد > دفتر الأستاذ** لتعيين **عملة المحاسبة** و**نوع سعر الصرف**. 
 2. حدد أسعار الصرف بين العملات الخاصة بالحركة وعملة المحاسبة، وبين عملة المحاسبة وعملة النظام. للقيام بذلك، اذهب إلى **دفتر الأستاذ العام > العملات > أسعار صرف العملات**.
-3. انتقل إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **CustCollectionsBIMeasurements**. 
+3. انتقل إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **VendPaymentBIMeasureV2**. 
 
 ## <a name="my-work-view"></a>طريقة عرض "عملي"
 

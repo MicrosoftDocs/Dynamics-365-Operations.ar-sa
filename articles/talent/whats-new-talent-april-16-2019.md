@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897915"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197257"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (16 أبريل 2019)
 
@@ -47,17 +47,13 @@ ms.locfileid: "2897915"
 
 مع هذا الإصدار، تم تحديث كيانات Common Data Service بحيث تتضمن القدرة على تضمين حقل مخصص تمت إضافته عبر خلال Talent: Core HR.
 
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>دعم كيانات Common Data Service جديدة لكل من استحقاقات التعويض‬ وخطة التعويض المتغيرة‬ والتعويض المتغير
-
-مع هذا الإصدار ، تمت أضافه كيانات استحقاقات التعويض‬ وخطة التعويض المتغيرة‬ والتعويض المتغير إلى Common Data Service. وتدعم هذه الكيانات أيضًا الحقول المخصصة التي تمت اضافتها عبر Talent: Core HR.
-
 ### <a name="powerbi-refresh-issues-314342"></a>مشكلات تحديث PowerBI (314342)
 
 يعمل هذا التغيير على تصحيح مشكلة تتعلق بتحديث تقارير PowerBI بشكل صحيح.
 
 ### <a name="unable-to-click-directly-through-on-transition-tasks-in-employee-self-service-303309"></a>يتعذر النقر فوق المهام الانتقالية بشكل مباشر في الخدمة الذاتية للموظف (303309)
 
-يتيح هذا التغيير للمستخدمين الذين لديهم دور الموظف تحديد مهام انتقالية وتحديثها من قائمه المهام في Talent.
+يتيح هذا التغيير للمستخدمين الذين لديهم دور الموظف تحديد مهام انتقالية وتحديثها من قائمة المهام في Talent.
 
 ### <a name="performance-feedback-email-message-updated-309615"></a>تحديث رسائل البريد الإلكتروني حول ملاحظات الأداء (309615)
 
@@ -93,6 +89,6 @@ ms.locfileid: "2897915"
 
 ### <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
 
-في إصدار Platform update 25 لـ Finance and Operations بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيل الإعلامات بواسطة حدث.
+مع إصدار Platform update 25 لـ Finance and Operations، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث.
 
 

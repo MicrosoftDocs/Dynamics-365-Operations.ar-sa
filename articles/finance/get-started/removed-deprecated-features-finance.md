@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ec13076e6a05c3402af566487f7921f6971da215
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127967"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175098"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -47,6 +47,18 @@ ms.locfileid: "3127967"
 | **مناطق المنتجات المتأثرة**         | التطبيق |
 | **خيارات النشر**              | ‏‏الكل |
 | **الحالة**                         | ميزات مهملة: بحلول 1 يوليو 2021، سنتوقف عن توفير الدعم لتقارير SSRS: **سجل ضريبة القيمة المضافة للإخراج، سجل ضريبة القيمة المضافة للإدخال، سجل تقرير ملخص ضريبة القيمة المضافة للاتحاد الأوروبي‬، مرجع الميزة PL-00014‬**. بدلاً من ذلك، سيتم تقديم مثال عن تنسيق Excel لملف المراجعة القياسي مع إقرار ضريبة القيمة المضافة (JPK_VDEK). |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.11 من Finance
+
+### <a name="norwegian-standard-main-accounts"></a>الحسابات النرويجية الرئيسية القياسية
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | إعادة التصميم  |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم (تم استبداله بالمعلمات الخاصة بتطبيق تنسيق التقارير الإلكترونية) |
+| **مناطق المنتجات المتأثرة**         | التطبيق |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | ميزة مهملة: بحلول 1 ابريل 2021، نخطط لإيقاف دعم الوظيفة ذات الصلة بالحسابات الرئيسية القياسية: حقل المرجع، الجدول ذو الصلة، كيان البيانات. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.7 من Finance
 

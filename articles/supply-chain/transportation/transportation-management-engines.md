@@ -2,7 +2,7 @@
 title: محركات إدارة النقل
 description: تقوم محركات إدارة النقل بتعريف المنطق المستخدم لإنشاء ومعالجه معدلات النقل في إدارة النقل.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40539d649d3ee43fea8dc71f608dd6281d1c0e39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0d4478f170e222a1e56596fbad7245832e300cdb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251674"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201377"
 ---
 # <a name="transportation-management-engines"></a>محركات إدارة النقل
 

@@ -2,7 +2,7 @@
 title: إنشاء أمر شراء من أمر توريد
 description: يوضح لك هذا الإجراء إنشاء أمر شراء يستند إلى أمر مبيعات.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,22 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b346731ec80d08afabe648e1b47b30b53b29e744
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 3379f5899fedbe8944585388bdb98c4d810c2e26
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924391"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204345"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>إنشاء أمر شراء من أمر توريد
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 يوضح لك هذا الإجراء إنشاء أمر شراء يستند إلى أمر مبيعات. ثم يتم تعيين كميات المنتج في أمر الشراء ثم يتم تعيينها لتلبية الطلب الخاص بأمر المبيعات الأصلي. تُعد تلبية طلب المبيعات بهذه الطريقة بديلاً لطريقة أكثر شمولاً وتحسينًا لتخطيط متطلبات التوزيع. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.
 
