@@ -18,39 +18,13 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: تحديثات النظام الأساسي لـ 10.0.10 (مايو 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: تحديث النظام الأساسي 33 (أبريل 2020)
+                - name: Platform update 33 (أبريل 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: تحديث النظام الأساسي 32 (فبراير 2020)
+                - name: Platform update 32 (فبراير 2020)
                   href: get-started/whats-new-platform-update-32.md
-                - name: تحديث Platform update 31 (يناير 2020)
-                  href: get-started/whats-new-platform-update-31.md
-                - name: تحديث Platform update 30 (نوفمبر 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: تحديث Platform update 29 (أكتوبر 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: Platform update 28 (يوليو 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: تحديث Platform update 27 (يونيو 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: تحديث Platform update 26 (مايو 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: تحديث Platform update 25 (أبريل 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: تحديث Platform update 24 (مارس 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: تحديث Platform update 23 (يناير 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: تحديث Platform update 22 (ديسمبر 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: تحديث Platform update 21 (نوفمبر 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: تحديث Platform update 20 (سبتمبر 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: Platform update 15 (مارس 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
-                - name: ميزات Platform التي تمت إزالتها أو إهمالها
+                - name: ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -104,6 +78,8 @@
               href: dev-tools/exclude-test-packages.md
             - name: إدارة نماذج الجهات الخارجية وحزم وقت التشغيل باستخدام التحكم بالمصادر
               href: dev-tools/manage-runtime-packages.md
+            - name: حزم متكاملة قابلة للنشر
+              href: dev-tools/aio-deployable-packages.md
             - name: تحديث إصدارات النماذج في البنية التلقائية
               href: dev-tools/version-models-build.md
         - name: تكامل البيانات
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: إعادة نشر عمليات النشر المحلية
                       href: deployment/redeploy-on-prem.md
-                    - name: إزالة عقدة AOS وإعادة تثبيتها
+                    - name: إزالة عقدة AOS وإعادة تثبيتها أو إضافتها
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: إعادة استخدام مثيل AD FS نفسه لبيئات متعددة
                       href: deployment/onprem-reuseadfs.md
