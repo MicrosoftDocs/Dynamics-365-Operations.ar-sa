@@ -70,12 +70,12 @@
                   items:
                     - name: ما الجديد أو المتغير في الصفحة الرئيسية لـ Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.11 (يوليو 2020)
+                      href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (مايو 2020)
                       href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management 10.0.9 (أبريل 2020)
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: Supply Chain Management 10.0.8 (فبراير 2020)
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
@@ -168,9 +168,9 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/supply-chain/toc.json
                 - name: فهم Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/supply-chain/toc.json
-            - name: تنفيذ إدارة دورة الحياة
+            - name: إدارة دورة حياة التنفيذ
               items:
-                - name: الصفحة الرئيسية لتنفيذ إدارة دورة الحياة
+                - name: الصفحة الرئيسية لإدارة دورة حياة التنفيذ
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: هندسة تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
@@ -349,6 +349,8 @@
               items:
                 - name: التنبؤات وأوامر العمل والمشاريع
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: تكامل إدارة الأصول مع الأصول الثابتة
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: الصيانة الوقائية والتفاعلية
               items:
                 - name: نظرة عامة على الصيانة الوقائية
@@ -519,7 +521,7 @@
                   href: cost-management/manage-standard-cost-updates.md
                 - name: قيود على إصدارات التكاليف للتكاليف القياسية
                   href: cost-management/restrictions-costing-versions-standard-costs.md
-                - name: المعلومات المستخدمة في حساب شجرة المواد مع التكاليف القياسية
+                - name: المعلومات المستخدمة في حساب BOM مع التكاليف القياسية
                   href: cost-management/information-used-bom-calculations-standard-costs.md
                 - name: تحديث التكاليف القياسية في بيئة تصنيع
                   href: cost-management/update-standard-costs-manufacturing-environment.md
@@ -565,6 +567,8 @@
                   href: cost-management/lifo-physical-value-marking.md
                 - name: المتوسط المتحرك
                   href: cost-management/moving-average.md
+                - name: تسلسل التكلفة الاحتياطي‬ للمتوسط المتحرك
+                  href: cost-management/moving-average-fallback.md
                 - name: التحديثات الفعلية والمالية
                   href: cost-management/physical-financial-updates.md
                 - name: متوسط سعر التكلفة الجاري
@@ -579,13 +583,15 @@
                   href: cost-management/inventory-close.md
                 - name: تعديل قيم تكلفة المخزون الفعلي
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: تقرير تقادم المخزون
+                - name: ‏تقرير تخزين قيمة المخزون
+                  href: cost-management/inventory-value-report-storage.md
+                - name: تخزين تقرير تقادم المخزون
                   href: cost-management/inventory-aging-report-storage.md
             - name: محاسبة التصنيع
               items:
-                - name: العمليات الحسابية لقائمة مكونات الصنف
+                - name: العمليات الحسابية لقائمة مكونات الصنف (BOM)
                   href: cost-management/bom-calculations.md
-                - name: مجموعات العمليات الحسابية الخاصة بقائمة مكونات الصنف‬
+                - name: مجموعات العمليات الحسابية لقائمة مكونات الصنف (BOM)
                   href: cost-management/bom-calculation-groups.md
                 - name: تحديد تكاليف الإصدار التلقائي
                   href: cost-management/backflush-costing.md
@@ -697,7 +703,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إضافة الأبعاد المالية لتجميع القياسات
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: إنشاء تقارير تحليلية باستخدام Power BI Desktop
+                - name: إنشاء تقارير تحليلية باستخدام PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1223,6 +1229,8 @@
                   href: inventory/enable-quality-management.md
                 - name: عمليات إدارة الجودة
                   href: inventory/quality-management-processes.md
+                - name: إدارة الجودة لعمليات المستودعات
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: إدارة عدم المطابقة
                   href: inventory/enable-nonconformance-management.md
                 - name: إعداد المتطلبات الأساسية للإدارة
@@ -1377,7 +1385,7 @@
                       href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
                     - name: تحديد إصدار BOM
                       href: master-planning/master-plan-bom-version-determined.md
-                    - name: تحديد إجمالي المكونات المطلوبة‬ لإصدار قائمة مكونات الصنف
+                    - name: تحديد إجمالي المكونات المطلوبة‬ لإصدار BOM
                       href: master-planning/master-plan-explosion-bom-version.md
                 - name: الأيام السالبة والأيام السالبة الديناميكية
                   href: master-planning/more-about-dynamic-negative-days.md
@@ -1813,7 +1821,7 @@
                   href: pim/tasks/create-sales-price-selection-criteria.md
                 - name: إعداد تسعير يستند إلى سمة للمنتجات القابلة للتكوين
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
-                - name: العمليات الحسابية لقائمة مكونات الصنف
+                - name: العمليات الحسابية لقائمة مكونات الصنف (BOM)
                   href: cost-management/bom-calculations.md
             - name: تكوين المنتج
               items:
@@ -1893,7 +1901,7 @@
                       href: production-control/bom-designer-functionality.md
                     - name: أصناف وهمية
                       href: production-control/phantom-items.md
-                    - name: العمليات الحسابية لقائمة مكونات الصنف​
+                    - name: العمليات الحسابية لقائمة مكونات الصنف (BOM)
                       href: cost-management/bom-calculations.md
                     - name: إدارة وحدة القياس
                       href: pim/tasks/manage-unit-measure.md
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: تجميع النظام في قائمة عمل مفتوحة
                   href: warehousing/system-group-on-open-work-list.md
+                - name: تخطيط توجيه المستند لتسميات لوحات الترخيص
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: دعم الكود الشريطي للأجهزة المحمولة
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: إعداد الأجهزة المحمولة لعمل المستودع
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: استلام لوحة الترخيص‬ بواسطة تطبيق المستودع للأجهزة المحمولة
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: إعداد صنف قائمة الأجهزة المحمولة لتسجيل الأصناف المستلمة
@@ -2673,6 +2685,8 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: إيصالات الاستلام للتسجيل والتخزين
               items:
+                - name: معالجة المستودع للحمل الوارد لأوامر الشراء
+                  href: warehousing/inbound-load-handling.md
                 - name: تسجيل أصناف لصنف ممكَّن للتخزين المتقدم باستخدام دفتر يومية وصول الصنف
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: تسجيل أصناف لصنف ممكَّن للتخزين الأساسي باستخدام دفتر يومية وصول الصنف
@@ -2682,6 +2696,7 @@
                 - name: إعداد توجيه موقع لتخزين أمر الشراء
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: إعداد قالب عمل لأوامر الشراء
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: تطوير إدارة سلسة التوريد
           items:
             - name: دليل تطوير عنصر تحكم جانت

@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3da8bdf6feb932e074680b6cb80e1b7b71f9a82b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004241"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265608"
 ---
 # <a name="retail-transaction-consistency-checker"></a>مدقق تناسق حركة البيع بالتجزئة
 
-
 [!include [banner](includes/banner.md)]
-[!include [preview banner](includes/preview-banner.md)]
 
 يصف هذا الموضوع وظيفة مدقق تناسق الحركة في Microsoft Dynamics 365 Commerce. يحدد مدقق التناسق الحركات غير المتناسقة ويعزلها قبل انتقائها من قبل عملية ترحيل كشف الحساب.
 
