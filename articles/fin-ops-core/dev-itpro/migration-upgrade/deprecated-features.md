@@ -3,7 +3,7 @@ title: الميزات التي تمت إزالتها أو إهمالها في ا
 description: يصف هذا الموضوع الميزات التي تمت ازالتها أو التي تم التخطيط لإزالتها من Dynamics 365 for Finance and Operations والإصدارات السابقة لهذا المنتج.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225118"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284004"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
 
@@ -230,7 +230,7 @@ ms.locfileid: "3225118"
 | **هل تم الاستبدال بميزة أخرى؟**   | الرقم |
 | **مناطق المنتجات المتأثرة**         | إدارة معلومات المنتج |
 | **خيارات النشر**              | ‏‏الكل  |
-| **الحالة**                         | تمت إزالتها اعتبارًا من الإصدار 10.0.0 من Finance and Operations مع Platform update 24. (إذا كنت بحاجة فقط إلى إصلاح تلف البيانات التي سببت إعادة تسميه سابقه للمفتاح الأساسي لمنتج تم إصداره، فالرجاء الاتصال بدعم Microsoft لطلب الإزالة المؤقتة لهذا التقييد.) |
+| **الحالة**                         | تمت إزالتها اعتبارًا من الإصدار 10.0.0 من Finance and Operations مع Platform update 24.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>الإصدار 8.1.3 من Finance and Operations مع Platform update 23
@@ -267,7 +267,7 @@ ms.locfileid: "3225118"
 | **هل تم الاستبدال بميزة أخرى؟**   | سيتم استبدال هذا التحذير بخطأ تحويل برمجي في المستقبل. |
 | **مناطق المنتجات المتأثرة**         | أدوات تطوير Visual Studio |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | ميزة مهملة: سيتحوّل التحذير إلى خطأ في وقت التحويل البرمجي في المستقبل. يتم استهداف هذا التغيير بتحديثات النظام الأساسي للإصدار 10.0.11 من تطبيقات Finance and Operations. |
+| **الحالة**                         | ميزة مهملة: أصبح التحذير خطأ بوقت التحويل مع تحديثات النظام الأساسي للإصدار 10.0.11 من تطبيقات Finance and Operations. |
 
 #### <a name="complete-list"></a>القائمة الكاملة
 للوصول إلى القائمة الكاملة لواجهات برمجة التطبيقات التي تم إهمالها، راجع [إهمال الأساليب وعناصر بيانات التعريف](deprecation-deletion-apis.md).

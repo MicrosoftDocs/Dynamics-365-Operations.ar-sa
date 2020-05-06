@@ -3,7 +3,7 @@ title: محتوى "إدارة التحصيلات والائتمان" في Power 
 description: يصف هذا الموضوع العناصر المضمنة في محتوى "إدارة التحصيلات والائتمان" في Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189098"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278864"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>محتوى "إدارة التحصيلات والائتمان" في Power BI
 
@@ -49,7 +49,7 @@ ms.locfileid: "2189098"
 1. انتقل إلى **إدارة النظام > الإعداد > معلمات النظام** لتعيين **عملة النظام** و**سعر صرف النظام**.
 2. انتقل إلى **دفتر الأستاذ العام> لإعداد > دفتر الأستاذ** لتعيين **عملة المحاسبة** و**نوع سعر الصرف**.
 3. حدد أسعار الصرف بين العملات الخاصة بالحركة وعملة المحاسبة، وبين عملة المحاسبة وعملة النظام. للقيام بذلك، اذهب إلى **دفتر الأستاذ العام > العملات > أسعار صرف العملات**.
-4. اذهب إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **CustCollectionsBIMeasurements**.
+4. انتقل إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **CustCollectionsBIMeasurementsV2**.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 

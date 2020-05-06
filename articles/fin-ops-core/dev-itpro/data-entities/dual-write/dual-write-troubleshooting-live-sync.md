@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 60839bbd1b3ae642cdd419c7df2388292776a461
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172727"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275407"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>استكشاف المشاكل وإصلاحها في المزامنة المباشرة
 
@@ -102,7 +102,7 @@ ms.locfileid: "3172727"
 
 فيما يلي النمط الذي يبدو عليه الخطأ في التطبيق المستند إلى النموذج في Dynamics 365:
 
-*حدث خطأ غير متوقع من كود ISV. ‏(ErrorType = ClientError) استثناء غير متوقع من المكون الإضافي (التنفيذ): Microsoft.Dynamics.Integrator.CrmPlugins.Plugin: System.Exception: فشل معالجة حساب الكيان-(فشلت محاولة الاتصال بسبب عدم استجابه الجهة المتصلة بشكل صحيح بعد فترة من الوقت، أو فشل تأسيس الاتصال بسبب فشل المضيف المتصل في الاستجابة*
+*حدث خطأ غير متوقع من رمز ISV. (ErrorType = ClientError) استثناء غير متوقع من المكون الإضافي (تنفيذ): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: فشلت معالجة حساب الكيان - (فشلت محاولة الاتصال لأن الطرف المتصل لم يستجب بشكل صحيح بعد فترة من الوقت أو فشل الاتصال القائم لأن المضيف المتصل فشل في الاستجابة*
 
 يحدث هذا الخطأ عند إعادة تعيين بيئة Common Data Service بشكل غير صحيح في نفس الوقت الذي تحاول فيه إنشاء البيانات في تطبيق Finance and Operations.
 

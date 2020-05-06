@@ -3,7 +3,7 @@ title: إثراء صفحة منتج
 description: يوضح هذا الموضوع كيفية تحسين صفحة منتج في Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003063"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269810"
 ---
 # <a name="enrich-a-product-page"></a>إثراء صفحة منتج
 
@@ -53,7 +53,7 @@ ms.locfileid: "3003063"
 1. حدد **ميزة**، ثم قم بتحديد **موافق**.
 1. في جزء الخصائص الموجود علي اليمين، في حقل **النص المنسق** ، ادخل الوصف المحدث للمنتج.
 1. في حقل **العنوان** ، ادخل نص العنوان ، ثم حدد **موافق**.
-1. حدد **حفظ**، ثم قم بتحديد **إيداع**.
+1. حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.
 1. في حقل **التعليقات** ، ادخل **تحسين منتج**، ثم حدد **موافق**.
 1. حدد **معاينة** لمعاينة صفحة تحسين منتج. عند الانتهاء، قم بإغلاق علامة تبويب المعاينة للرجوع إلى أداة التأليف.
 1. حدد **نشر**.

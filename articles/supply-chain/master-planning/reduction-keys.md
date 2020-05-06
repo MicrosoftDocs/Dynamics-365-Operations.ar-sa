@@ -3,7 +3,7 @@ title: طرق خفض التنبؤ
 description: يوفر هذا الموضوع أمثلة تعرض كيفية إعداد طريقة الخفض. وهي تتضمن معلومات حول مختلف إعدادات طريقة الخفض ونتائج كل إعداد. يمكنك استخدام طريقة الخفض لتعريف كيفية خفض متطلبات التنبؤ.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 04/03/2020
+ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 6191b4809c3785d92395bec1b7d51bfc978f9245
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225095"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262686"
 ---
 # <a name="forecast-reduction-keys"></a>طرق خفض التنبؤ
 
@@ -222,7 +222,7 @@ ms.locfileid: "3225095"
 
 ## <a name="reduce-a-forecast-by-transactions"></a>خفض تنبؤ بواسطة الحركات
 
-عندما تحدد **الحركات - طريقة الخفض** أو **الحركات - الفترة الديناميكية** كطريقة لتقليل متطلبات التنبؤ، يمكنك تحديد الحركات التي تقلل التنبؤ. في صفحة **المنتجات الصادرة**، على علامة التبويب السريعة **غير ذلك**، في حقل **تقليل التنبؤ حسب‬**، حدد **كافة الحركات** إذا كان يجب على كافة الحركات تقليل التنبؤ أو **الأوامر** إذا كان يجب على أوامر المبيعات فقط تقليل التنبؤ.
+عندما تحدد **الحركات - طريقة الخفض** أو **الحركات - الفترة الديناميكية** كطريقة لتقليل متطلبات التنبؤ، يمكنك تحديد الحركات التي تقلل التنبؤ. في صفحة **مجموعات التغطية**، في علامة التبويب السريعة **غير ذلك**، في حقل **تقليل التنبؤ حسب‬**، حدد **كافة الحركات** إذا كان يجب على كافة الحركات تقليل التنبؤ أو **الأوامر** إذا كان يجب على أوامر المبيعات فقط تقليل التنبؤ.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

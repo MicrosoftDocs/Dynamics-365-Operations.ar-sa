@@ -3,20 +3,20 @@ title: كتالوج التعليم لـ Finance and Operations
 description: البحث عن كافة خيارات التدريب الخاصة بـ Finance and Operations.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3077983"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278911"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>كتالوج التعليم لـ Finance and Operations
 
@@ -33,6 +33,10 @@ ms.locfileid: "3077983"
     هل تقرر ما إذا كنت ترغب في الاستثمار في تكنولوجيات جديدة؟ 
 
     [كتالوج تعلّم صناع قرارات الأعمال والقرارات الفنية](learning-catalog-bdm.md#)
+
+    [بدء الاستخدام](learning-catalog-bdm.md#get-started)
+
+    [اختبار](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ ms.locfileid: "3077983"
 
     [الإدارة المالية](learning-catalog-business-user.md#financial-management)
 
+    [اختبار](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>مدراء مشاريع التنفيذ
+    ### <a name="implementation-project-managers"></a>مدراء مشاريع التنفيذ
 
     هل أنت المسؤول عن التأكد من أن تنفيذ شركتك يسير بسلاسة؟
 
@@ -73,6 +79,9 @@ ms.locfileid: "3077983"
     [التصنيع](learning-catalog-project-manager.md#manufacturing)
 
     [إدارة سلسلة التوريد](learning-catalog-project-manager.md#supply-chain-management)
+
+    [اختبارات](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -82,15 +91,19 @@ ms.locfileid: "3077983"
 
     [كتالوج تعلم المسؤولين](learning-catalog-administrator.md)
 
-    [البدء](learning-catalog-administrator.md#get-started)
+    [بدء الاستخدام](learning-catalog-administrator.md#get-started)
 
     [المعرفة الأساسية للنظام الأساسي](learning-catalog-administrator.md#core-platform-knowledge)
+
+    [التطوير الأساسي](learning-catalog-administrator.md#core-development)
 
     [الترقية والترحيل](learning-catalog-administrator.md#migration-and-upgrade)
 
     [الخدمة](learning-catalog-administrator.md#servicing)
 
     [اختبار](learning-catalog-administrator.md#testing)
+
+    [اختبار](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ ms.locfileid: "3077983"
 
     [إدارة سلسلة التوريد](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [اختبارات](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ ms.locfileid: "3077983"
     هل أنت مسؤول عن مساعدة عملائك على شراء الحل المناسب؟ 
 
     [كتالوج تعلّم التسويق والمبيعات لشريك Microsoft](learning-catalog-partner-sales.md)
+
+    [بدء الاستخدام](learning-catalog-partner-sales.md#get-started)
+
+    [اختبار](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

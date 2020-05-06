@@ -3,7 +3,7 @@ title: تخصيص نقاط تركيز الصورة
 description: يصف هذا الموضوع كيفية تخصيص نقاط تركيز الصورة في منشئ موقع Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 03/03/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c9bbd51f1fe9a19198a455eedd3ba744d54a165
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096963"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269511"
 ---
 # <a name="customize-image-focal-points"></a>تخصيص نقاط تركيز الصورة
 
@@ -41,7 +41,7 @@ ms.locfileid: "3096963"
 
 1. في جزء التنقل الأيمن في منشئ موقع Commerce، حدد **مكتبة الوسائط**.
 1. في النافذة الرئيسية،، حدد الصورة التي تريد تعديلها.
-1. في شريط الأوامر، حدد **تحرير** لسحب الملف.
+1. في شريط الأوامر، حدد **تحرير**.
 1. حدد الصورة التي تريد إدخالها في **وضع التحرير**.
 1. ضمن **وضع التحرير**، حدد **تغيير نقطة التركيز**. يظهر عنصر تحكم نقطة تركيز فوق الصورة.
 1. حدد عنصر تحكم نقطة التركيز لتحريكه فوق نقطة التركيز التي تريدها.

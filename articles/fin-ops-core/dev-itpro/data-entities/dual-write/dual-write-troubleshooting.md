@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172681"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275640"
 ---
 # <a name="general-troubleshooting"></a>استكشاف المشاكل العامة وإصلاحها
 
@@ -70,14 +70,12 @@ ms.locfileid: "3172681"
 لعرض سجل التتبع‬، اتبع الخطوات التالية.
 
 1. قم بتسجيل الدخول إلى تطبيق Finance and Operations، وافتح صفحة **الإعدادات**، ثم ضمن **التخصيص**، حدد **سجل تتبع المكون الإضافي**.
-2. ابحث عن سجلات التتبع التي يتم فيها تعيين حقل **اسم النوع** إلى **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+2. ابحث عن سجلات التتبع التي يتم فيها تعيين حقل **اسم النوع** إلى **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. انقر نقرًا مزدوجًا فوق أحد العناصر لعرض السجل الكامل، ثم في علامة التبويب السريع **تنفيذ**، راجع نص **كتلة الرسالة**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>تمكين وضع التصحيح لاستكشاف مشكلات المزامنة المباشرة وإصلاحها في تطبيقات Finance and Operations
 
-**الدور المطلوب لعرض الأخطاء:** مسؤول النظام
-
-يمكن أن تظهر أخطاء الكتابة الثنائية التي تنشأ في Common Data Service في تطبيق Finance and Operations. في بعض الحالات، لا يتوفر النص الكامل لرسالة الخطأ نظرا لأن الرسالة طويلة جدًا أو تحتوي على معلومات التعريف الشخصية (PII). يمكنك تشغيل التسجيل المطول للأخطاء باتباع الخطوات التالية.
+**الدور المطلوب لعرض الأخطاء:** يمكن أن تظهر أخطاء الكتابة المزدوجة لمسؤول النظام التي تنشأ في Common Data Service مع التطبيق Finance and Operations. في بعض الحالات، لا يتوفر النص الكامل لرسالة الخطأ نظرا لأن الرسالة طويلة جدًا أو تحتوي على معلومات التعريف الشخصية (PII). يمكنك تشغيل التسجيل المطول للأخطاء باتباع الخطوات التالية.
 
 1. تحتوي جميع تكوينات المشاريع في تطبيقات Finance and Operations على خاصية **IsDebugMode** في كيان **DualWriteProjectConfiguration**. افتح كيان **DualWriteProjectConfiguration** باستخدام المكون الإضافي لـ Excel.
 
@@ -104,7 +102,7 @@ ms.locfileid: "3172681"
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>إلغاء ارتباط بيئة Common Data Service أخرى من تطبيق Finance and Operations وربطها
 
-**بيانات الاعتماد المطلوبة لإلغاء ربط البيئة:** مسؤول مستأجر Azure AD
+**الدور المطلوب لإلغاء ارتباط البيئة:** مسؤول النظام لتطبيق Finance and Operations أو Common Data Service.
 
 1. قم بتسجيل الدخول إلى تطبيق Finance and Operations.
 2. انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد تجانب **الكتابة الثنائية**.
@@ -113,3 +111,13 @@ ms.locfileid: "3172681"
 5. حدد **نعم** لتأكيد العملية.
 
 يمكنك الآن ربط بيئة جديدة.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>يتعذر عرض نموذج معلومات بند أمر المبيعات 
+
+عند إنشاء أمر مبيعات في Dynamics 365 Sales، فإن النقر فوق **+ إضافة منتجات** قد يعيد توجيهك إلى نموذج بند الأمر الخاص بـ Dynamics 365 Project Operations. لا توجد طريقة من هذا النموذج لعرض نموذج **المعلومات** لبند أمر المبيعات. لا يظهر الخيار الخاص بـ **المعلومات** في القائمة المنسدلة أسفل **بند أمر جديد**. يحدث هذا لأنه تم تثبيت Project Operations في البيئة الخاصة بك.
+
+لإعادة تمكين خيار نموذج **المعلومات**، اتبع الخطوات التالية:
+1. انتقل إلى كيان **بند الأمر**.
+2. ابحث عن نموذج **المعلومات** أسفل عقدة النماذج. 
+3. حدد نموذج **المعلومات** وانقر فوق **تمكين أدوار الأمان**. 
+4. قم بتغيير إعدادات الأمان إلى **العرض للجميع**.
