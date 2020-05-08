@@ -3,7 +3,7 @@ title: إضافة صفحة موقع جديدة
 description: يصف هذا الموضوع كيفية إضافة صفحة موقع جديدة في Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68461f1f0be46f979a67e1806e03c02200cf61db
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001336"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269948"
 ---
 # <a name="add-a-new-site-page"></a>إضافة صفحة موقع جديدة
 
@@ -67,7 +67,7 @@ ms.locfileid: "3001336"
 1. حدد **كتلة تنسيق المحتوى**، حدد زر علامة الحذف، ثم حدد **‏‫إضافة وحدة نمطية**‬.
 1. حدد **عنصر كتلة تنسيق المحتوى**، ثم حدد **موافق**.
 1. في جزء الخصائص الموجود علي اليمين، حدد **فقرة**، ثم في الحقل، أدخل **نص الاختبار الخاص بي**.
-1. حدد **حفظ**، ثم قم بتحديد **إيداع**.
+1. حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.
 1. في حقل **التعليقات** ، أدخل **إضافة صفحة جديدة**، ثم حدد **موافق**.
 1. حدد **معاينة** لمعاينه الصفحة الخاصة بك. عند الانتهاء، قم بإغلاق علامة تبويب المعاينة للرجوع إلى أداة التأليف.
 1. حدد **نشر**.

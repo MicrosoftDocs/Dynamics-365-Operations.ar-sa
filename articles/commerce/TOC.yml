@@ -40,10 +40,12 @@
               items:
                 - name: نظرة عامة على بيئة معاينة Dynamics 365 Commerce
                   href: cpe-overview.md
-                - name: توفير بيئة معاينة Dynamics 365 Commerce
+                - name: تزويد بيئة معاينة Dynamics 365 Commerce
                   href: provisioning-guide.md
                 - name: تكوين بيئة معاينة Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
+                - name: تكوين BOPIS في بيئة Dynamics 365 Commerce
+                  href: cpe-bopis.md
                 - name: تكوين الميزات الاختيارية لبيئة معاينه Dynamics 365 Commerce
                   href: cpe-optional-features.md
                 - name: الأسئلة المتداولة لبيئة معاينة Dynamics 365 Commerce
@@ -86,6 +88,8 @@
                   items:
                     - name: الجديد أو المتغير‬ في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.11 (يوليو 2020)
+                      href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (مايو 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (أبريل 2020)
@@ -206,6 +210,8 @@
                   href: retail-onprem.md
             - name: النشر والإصلاحات العاجلة
               items:
+                - name: مزامنة مثبتات الخدمة الذاتية في Dynamics 365 Commerce
+                  href: dev-itpro/Synchronize-installers.md
                 - name: Commerce Scale Unit
                   href: dev-itpro/retail-store-system-begin.md
                 - name: تكوين وتثبيت Commerce Scale Unit
@@ -226,9 +232,11 @@
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: تطبيق حزمة قابلة للنشر
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
-            - name: تنفيذ إدارة دورة الحياة
+                - name: تهيئة بيانات أولية في بيئات Commerce الجديدة
+                  href: enable-configure-retail-functionality.md
+            - name: إدارة دورة حياة التنفيذ
               items:
-                - name: الصفحة الرئيسية لتنفيذ إدارة دورة الحياة
+                - name: الصفحة الرئيسية لإدارة دورة حياة التنفيذ
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
                 - name: هندسة تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
@@ -378,7 +386,7 @@
                       items:
                         - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في MPOS/CPOS
                           href: demo-data.md
-                        - name: تخطيطات الشاشة لـ POS
+                        - name: التكوينات المرئية لواجهة مستخدم POS
                           href: pos-screen-layouts.md
                         - name: تثبيت مصمم تخطيط POS
                           href: install-pos-layout-designer.md
@@ -906,11 +914,13 @@
                   href: cookie-compliance.md
                 - name: إضافة صفحة سياسة الخصوصية
                   href: add-privacy-page.md
+                - name: استبدال معرفات المستخدم المقترنة بتغييرات المحتوى المتعقبة
+                  href: replace-IDs-tracked-changes.md
             - name: أدوات البداية
               items:
                 - name: نظرة عامة حول أدوات البداية
                   href: starter-kit-overview.md
-                - name: وحدات الحاوية النمطية
+                - name: وحدات الحاوية
                   items:
                     - name: وحدة الحاوية
                       href: add-container-module.md
@@ -942,15 +952,19 @@
                   items:
                     - name: الوحدة النمطية لعربة التسوق
                       href: add-cart-module.md
+                    - name: وحدة أيقونة عربة التسوق
+                      href: cart-icon-module.md
                     - name: الوحدة النمطية للسداد مع الخروج
                       href: add-checkout-module.md
                     - name: الوحدة النمطية لتأكيد الأمر
                       href: order-confirmation-module.md
                     - name: الوحدة النمطية لمحدد المتجر
                       href: store-selector.md
+                    - name: وحدة بطاقة الهدايا
+                      href: add-giftcard.md
                 - name: الوحدات النمطية لإدارة الحسابات
                   items:
-                    - name: الصفحات والوحدة النمطية لإدارة الحسابات
+                    - name: صفحات ووحدات إدارة الحسابات
                       href: account-management.md
                 - name: الوحدات النمطية لمجموعة المنتجات
                   items:
@@ -1124,7 +1138,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: إضافة الأبعاد المالية لتجميع القياسات
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: إنشاء تقارير تحليلية باستخدام Power BI Desktop
+                - name: إنشاء تقارير تحليلية باستخدام PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1882,7 +1896,7 @@
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: اختبار الوحدات النمطية باستخدام عناصر صفحة وهمية
                       href: e-commerce-extensibility/test-page-mock.md
-                    - name: وحدات الحاوية النمطية
+                    - name: وحدات الحاوية
                       href: e-commerce-extensibility/container-modules.md
                     - name: إنشاء وحدة نمطية لحاوية تخطيط
                       href: e-commerce-extensibility/create-layout-container.md
@@ -1940,6 +1954,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: تكوين إعدادات النسق
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: توسيع نسق
+                      href: e-commerce-extensibility/extend-theme.md
                 - name: إدخال برنامج نصي
                   items:
                     - name: مدخلات برنامج نصي
@@ -1960,11 +1976,13 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: التغييرات القادمة في Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: دمج أنظمة البناء لـ Commerce and Finance and Operations
+                - name: دمج أنظمة البناء لـ Commerce وFinance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: ترحيل Retail SDK من Visual Studio 2015 إلى Visual Studio 2017
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: نماذج قابلية توسعة Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-                - name: إنشاء حزمات قابلة للنشر
+                - name: إنشاء حزم قابلة للنشر
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: التطوير في بيئات التطوير المستضافة على الشبكة السحابية من دون حق وصول المسؤول
                   href: dev-itpro/cloud-dev-box.md

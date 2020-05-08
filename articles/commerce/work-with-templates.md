@@ -3,7 +3,7 @@ title: العمل مع القوالب
 description: يصف هذا الموضوع كيفية العمل مع القوالب في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002557"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269856"
 ---
 # <a name="work-with-templates"></a>العمل مع القوالب
 
@@ -132,14 +132,14 @@ ms.locfileid: "3002557"
 للحفظ والإيداع في قالب، اتبع الخطوات التالية.
 
 1. حدد **حفظ** في أعلى محرر القالب. لا تؤثر التغييرات المحفوظة على الصفحات اللاحقة حتى يتم إيداعها.
-1. حدد **إيداع**. تكون التغييرات الخاصة بك قابلة للاكتشاف الآن لعمليات سير العمل اللاحقة.
+1. حدد **إنهاء التحرير**. تكون التغييرات الخاصة بك قابلة للاكتشاف الآن لعمليات سير العمل اللاحقة.
 
 لمعاينة التغييرات الخاصة بك، فإما أن تقوم بفتح صفحة موجودة تستخدم القالب أو إنشاء صفحة جديدة من القالب.
 
 بعد الانتهاء من معاينة التغييرات التي تمت على القالب، اتبع إحدى هذه الخطوات لنشر القالب على موقعك المباشر:
 
 * انتقل إلى **القوالب**، حدد القالب، ثم حدد **نشر**.
-* في محرر القالب، حدد **نشر**.
+* حدد اسم المخطط لفتح محرر التخطيط، ثم حدد **نشر**.
 * انشر صفحة تشير إلى القالب غير المنشور. يتم نشر القالب تلقائيًا.
 
 > [!WARNING]

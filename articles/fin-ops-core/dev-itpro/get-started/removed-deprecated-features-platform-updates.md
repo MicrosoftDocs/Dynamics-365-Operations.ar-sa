@@ -3,7 +3,7 @@ title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0072ca507301fdb880f0595a06377ff01366ca20
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260519"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268737"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -46,7 +46,7 @@ ms.locfileid: "3260519"
 | **هل تم الاستبدال بميزة أخرى؟**   | يحل خطأ المحول البرمجي هذا بشكل دائم محل تحذير المحول البرمجي.  |
 | **مناطق المنتجات المتأثرة**         | أدوات تطوير Visual Studio |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | **ميزة مهملة:** أصبح الآن تحذير المحول البرمجي خطأ في المحول البرمجي في تحديثات النظام الأساسي للإصدار 10.0.11 من تطبيقات Finance and Operations. |
+| **الحالة**                         | **ميزة مهملة:** أصبح تحذير المحول البرمجي خطأ في المحول البرمجي في تحديثات النظام الأساسي للإصدار 10.0.11 من تطبيقات Finance and Operations. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>تراخيص ISV التي تم إنشاؤها باستخدام خوارزمية التجزئة SHA1
 

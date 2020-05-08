@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173121"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275477"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>سلسله تبعية الكيان (أمر التزامن)
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-يتم سرد الجداول والكيانات التالية بحسب الترتيب الذي يجب عليك تمكينها فيه. عندما تقوم بتمكين مخطط للمزامنة الأولية، فإن الكتابة الثنائية تقوم تلقائيًا بالكشف عن المخططات الأخرى التي يجب تمكينها. يمكنك استخدام صفحة **الكتابة الثنائية**في تطبيقات Finance and Operations لتحديد أو إلغاء تحديد الكيانات أثناء المزامنة الأولية.
-
-وفي أحدث إصدار من الكتابة الثنائية، يمكنك تمكين بعض الكيانات فقط، ويتم التعامل مع التبعيات لك.
+يحدد هذا الموضوع ترتيب المزامنة الذي يجب اتباعه لإنشاء البيانات الأولية إذا كنت لا تستخدم تبعيات الكيان التي توفرها ميزة **المزامنة الأولية**. إذا كنت لا تستخدم **المزامنة الأولية**، فعندئذ يجب عليك تشغيل كل تعيين كيان بشكل فردي.
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>كيانات Dynamics 365 Supply Chain Management
 

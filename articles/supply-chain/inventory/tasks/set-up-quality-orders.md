@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 679448255bd85aafb07270f4858d4b83d2fe643b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4577b8b189403b3d71eb634e159d51d2fa53ce12
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204023"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268783"
 ---
 # <a name="set-up-quality-orders"></a>إعداد أوامر الجودة
 
@@ -78,6 +78,9 @@ ms.locfileid: "3204023"
 8. انقر فوق **حفظ**.
 9. قم بإغلاق الصفحة.
 
+> [!NOTE]
+> توفر ميزة *‏‫إدارة الجودة لعمليات المستودعات‬* إمكانات أخذ عينات إضافية للأصناف. ويقوم بإضافة لـ *نطاق أخذ العينات للصنف* والقدرة على تحديد لوحة ترخيص كاملة كمواصفة للكمية. إذا قمت بتمكين هذه الميزة، فراجع [‏‫إدارة الجودة لعمليات المستودعات‬](../quality-management-for-warehouses-processes.md)لمعرفة التفاصيل.
+
 ## <a name="create-a-quality-group"></a>إنشاء مجموعة جودة
 1. انتقل إلى **إدارة المخزون > الإعداد > مراقبة الجودة > مجموعات الجودة**.
 2. انقر فوق **جديد**.
@@ -131,3 +134,5 @@ ms.locfileid: "3204023"
 16. انقر فوق **حفظ**.
 17. قم بإغلاق الصفحة.
 
+> [!NOTE]
+> توفر ميزة *‏‫إدارة الجودة لعمليات المستودعات‬* خيارات إضافية لإعداد عمليات اقتران الجودة. تضيف شرطًا جديدًا **(نوع المستودع القابل للتطبيق**) وإعدادًا جديدًا (**سياسة معالجة الجودة**). إذا قمت بتمكين هذه الميزة، فراجع [‏‫إدارة الجودة لعمليات المستودعات‬](../quality-management-for-warehouses-processes.md)لمعرفة التفاصيل.

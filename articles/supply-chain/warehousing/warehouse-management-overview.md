@@ -3,7 +3,7 @@ title: نظرة عامة على إدارة المستودعات
 description: استخدام إدارة المستودع لمراقبة وجعل عمليات المستودع تلقائية.
 author: ShylaThompson
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17e4429dbf3f7e5d6c737c365f0351d5c588fcd2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bed896245b777ca195f7d03a9fdb697cad360ee7
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204575"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275384"
 ---
 # <a name="warehouse-management-overview"></a>نظرة عامة على إدارة المستودعات
 
@@ -30,7 +30,7 @@ ms.locfileid: "3204575"
 تتيح وحدة إدارة المستودع لك إدارة عمليات المستودع في التصنيع والتوزيع وشركات البيع بالتجزئة. تحتوي هذه الميزة على نطاق واسع من الميزات لدعم منشأة المستودع على المستوى الأمثل، في أي وقت. تتكامل إدارة المستودعات بشكل تام مع العمليات التجارية الأخرى مثل النقل والتصنيع ومراقبة الجودة والشراء والتحويل والمبيعات والمرتجعات.
 
 ## <a name="get-started"></a>بدء الاستخدام
-للشروع في العمل مع إدارة المستودعات، يجب عليك إكمال عملية إعداد محددات المستودعات العامة لدعم العمليات التجارية لشركتك.
+لبدء العمل في إدارة المستودعات، يجب عليك إكمال عملية إعداد معلمات المستودعات العامة لدعم العمليات الأعمال لشركتك.
 
 - انتقل إلى الصفحة **محددات إدارة المستودعات** ضمن **إدارة المستودعات** > **الإعداد** لإعداد محددات المستودعات العامة.
 
