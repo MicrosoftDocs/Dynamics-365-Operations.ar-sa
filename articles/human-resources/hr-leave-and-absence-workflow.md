@@ -3,7 +3,7 @@ title: إنشاء سير عمل طلب إجازة
 description: إنشاء سير عمل لطلب أجازه وغياب لأداره طلبات الإجازات بشكل مستمر في Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 05/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,33 +18,65 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c2689a0cdf2969455a301593e8f60b10c07e6f91
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: c2e994d11bbd45907a48c1f3955fa751a676a327
+ms.sourcegitcommit: e69cfc74e9dbce64ae0e1ab7cd441e5ae6efd4c9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007940"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "3353678"
 ---
-# <a name="create-a-leave-request-workflow"></a><span data-ttu-id="d3297-103">إنشاء سير عمل طلب إجازة</span><span class="sxs-lookup"><span data-stu-id="d3297-103">Create a leave request workflow</span></span>
+# <a name="create-a-leave-request-workflow"></a><span data-ttu-id="47b72-103">إنشاء سير عمل طلب إجازة</span><span class="sxs-lookup"><span data-stu-id="47b72-103">Create a leave request workflow</span></span>
 
-<span data-ttu-id="d3297-104">يمكنك إنشاء سير عمل في Dynamics 365 Human Resources لإدارة طلبات الإجازة والغياب بشكل مستمر.</span><span class="sxs-lookup"><span data-stu-id="d3297-104">You can create a workflow in Dynamics 365 Human Resources to consistently manage your leave and absence requests.</span></span> <span data-ttu-id="d3297-105">يتيح لك سير عمل **الإجازة والغياب** ما يلي:</span><span class="sxs-lookup"><span data-stu-id="d3297-105">A **Leave and absence** workflow lets you:</span></span>
+<span data-ttu-id="47b72-104">يمكنك إنشاء سير عمل في Dynamics 365 Human Resources لإدارة طلبات الإجازة والغياب بشكل مستمر.</span><span class="sxs-lookup"><span data-stu-id="47b72-104">You can create a workflow in Dynamics 365 Human Resources to consistently manage your leave and absence requests.</span></span> <span data-ttu-id="47b72-105">يتيح لك سير عمل **الإجازة والغياب** ما يلي:</span><span class="sxs-lookup"><span data-stu-id="47b72-105">A **Leave and absence** workflow lets you:</span></span>
 
-- <span data-ttu-id="d3297-106">تعريف المهام</span><span class="sxs-lookup"><span data-stu-id="d3297-106">Define tasks</span></span>
-- <span data-ttu-id="d3297-107">تحديد من يجب أن يقوم بإكمال المهام</span><span class="sxs-lookup"><span data-stu-id="d3297-107">Determine who must complete the tasks</span></span>
-- <span data-ttu-id="d3297-108">تحديد من يمكنه الموافقة على الطلبات أو رفضها</span><span class="sxs-lookup"><span data-stu-id="d3297-108">Specify who can approve or reject requests</span></span>
+- <span data-ttu-id="47b72-106">تعريف المهام</span><span class="sxs-lookup"><span data-stu-id="47b72-106">Define tasks</span></span>
+- <span data-ttu-id="47b72-107">تحديد من يجب أن يقوم بإكمال المهام</span><span class="sxs-lookup"><span data-stu-id="47b72-107">Determine who must complete the tasks</span></span>
+- <span data-ttu-id="47b72-108">تحديد من يمكنه الموافقة على الطلبات أو رفضها</span><span class="sxs-lookup"><span data-stu-id="47b72-108">Specify who can approve or reject requests</span></span>
 
-## <a name="create-a-leave-and-absence-request-workflow"></a><span data-ttu-id="d3297-109">إنشاء سير عمل طلب إجازة وغياب</span><span class="sxs-lookup"><span data-stu-id="d3297-109">Create a Leave and absence request workflow</span></span>
+## <a name="create-a-leave-and-absence-request-workflow"></a><span data-ttu-id="47b72-109">إنشاء سير عمل طلب إجازة وغياب</span><span class="sxs-lookup"><span data-stu-id="47b72-109">Create a Leave and absence request workflow</span></span>
 
-1. <span data-ttu-id="d3297-110">في صفحة **‏‫الإجازة والغياب‬** حدد علامة التبويب **الارتباطات**.</span><span class="sxs-lookup"><span data-stu-id="d3297-110">On the **Leave and absence** page, select the **Links** tab.</span></span>
+1. <span data-ttu-id="47b72-110">في صفحة **‏‫الإجازة والغياب‬** حدد علامة التبويب **الارتباطات**.</span><span class="sxs-lookup"><span data-stu-id="47b72-110">On the **Leave and absence** page, select the **Links** tab.</span></span>
 
-2. <span data-ttu-id="d3297-111">ضمن **الإعداد**، حدد **سير عمل الموارد البشرية**.</span><span class="sxs-lookup"><span data-stu-id="d3297-111">Under **Setup**, select **Human resource workflows**.</span></span>
+2. <span data-ttu-id="47b72-111">ضمن **الإعداد**، حدد **سير عمل الموارد البشرية**.</span><span class="sxs-lookup"><span data-stu-id="47b72-111">Under **Setup**, select **Human resource workflows**.</span></span>
 
-3. <span data-ttu-id="d3297-112">حدد **جديد‬**، ثم حدد **طلب الإجازة والغياب**.</span><span class="sxs-lookup"><span data-stu-id="d3297-112">Select **New**, and then select **Leave and absence request**.</span></span> 
+3. <span data-ttu-id="47b72-112">حدد **جديد‬**، ثم حدد **طلب الإجازة والغياب**.</span><span class="sxs-lookup"><span data-stu-id="47b72-112">Select **New**, and then select **Leave and absence request**.</span></span> 
 
-4. <span data-ttu-id="d3297-113">عند ظهور مربع الرسالة **هل تريد فتح هذا الملف؟**، حدد **فتح** وتسجيل الدخول باستخدام بيانات اعتماد الشركة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="d3297-113">When the **Open this file?** message box appears, select **Open** and sign in with your company credentials.</span></span>
+4. <span data-ttu-id="47b72-113">عند ظهور مربع الرسالة **هل تريد فتح هذا الملف؟**، حدد **فتح** وتسجيل الدخول باستخدام بيانات اعتماد الشركة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="47b72-113">When the **Open this file?** message box appears, select **Open** and sign in with your company credentials.</span></span>
 
-5. <span data-ttu-id="d3297-114">استخدم محرر سير العمل لإنشاء سير عمل لطلبات الإجازة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="d3297-114">Use the workflow editor to create a workflow for your leave requests.</span></span> <span data-ttu-id="d3297-115">لمزيد من المعلومات حول العمل مع مهام سير العمل ، راجع [إنشاء نظرة عامة حول مهام سير العمل](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span><span class="sxs-lookup"><span data-stu-id="d3297-115">For more information about working with workflows, see [Create workflows overview](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span></span>
+5. <span data-ttu-id="47b72-114">استخدم محرر سير العمل لإنشاء سير عمل لطلبات الإجازة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="47b72-114">Use the workflow editor to create a workflow for your leave requests.</span></span> <span data-ttu-id="47b72-115">لمزيد من المعلومات حول العمل مع مهام سير العمل ، راجع [إنشاء نظرة عامة حول مهام سير العمل](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span><span class="sxs-lookup"><span data-stu-id="47b72-115">For more information about working with workflows, see [Create workflows overview](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d3297-116">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="d3297-116">See also</span></span>
+## <a name="leave-and-absence-request-workflow-data-elements"></a><span data-ttu-id="47b72-116">عناصر بيانات سير عمل طلب إجازة وغياب</span><span class="sxs-lookup"><span data-stu-id="47b72-116">Leave and absence request workflow data elements</span></span>
 
-- [<span data-ttu-id="d3297-117">نظرة عامة على الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="d3297-117">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+<span data-ttu-id="47b72-117">يمكنك استخدام عناصر البيانات التالية لإنشاء الموافقات الشرطية أو التلقائية في عمليات سير العمل لطلبات الإجازة والغياب:</span><span class="sxs-lookup"><span data-stu-id="47b72-117">You can use the following data elements to create conditional or automatic approvals in workflows for leave and absence requests:</span></span>
+
+- <span data-ttu-id="47b72-118">**تعليق**</span><span class="sxs-lookup"><span data-stu-id="47b72-118">**Comment**</span></span>
+- <span data-ttu-id="47b72-119">**الشركة**</span><span class="sxs-lookup"><span data-stu-id="47b72-119">**Company**</span></span>
+- <span data-ttu-id="47b72-120">**تم الإنشاء بواسطة**</span><span class="sxs-lookup"><span data-stu-id="47b72-120">**Created by**</span></span>
+- <span data-ttu-id="47b72-121">**تاريخ  ووقت الإنشاء**</span><span class="sxs-lookup"><span data-stu-id="47b72-121">**Created date and time**</span></span>
+- <span data-ttu-id="47b72-122">**تاريخ الإنهاء**</span><span class="sxs-lookup"><span data-stu-id="47b72-122">**End date**</span></span>
+- <span data-ttu-id="47b72-123">**نوع الإجازة**</span><span class="sxs-lookup"><span data-stu-id="47b72-123">**Leave type**</span></span>
+- <span data-ttu-id="47b72-124">**تعديل بواسطة**</span><span class="sxs-lookup"><span data-stu-id="47b72-124">**Modified by**</span></span>
+- <span data-ttu-id="47b72-125">**تاريخ ووقت التعديل**</span><span class="sxs-lookup"><span data-stu-id="47b72-125">**Modified date and time**</span></span>
+- <span data-ttu-id="47b72-126">**رمز السبب**</span><span class="sxs-lookup"><span data-stu-id="47b72-126">**Reason code**</span></span>
+- <span data-ttu-id="47b72-127">**معرف الطلب**</span><span class="sxs-lookup"><span data-stu-id="47b72-127">**Request ID**</span></span>
+- <span data-ttu-id="47b72-128">**تاريخ البدء**</span><span class="sxs-lookup"><span data-stu-id="47b72-128">**Start date**</span></span>
+- <span data-ttu-id="47b72-129">**الحالة**</span><span class="sxs-lookup"><span data-stu-id="47b72-129">**Status**</span></span> 
+- <span data-ttu-id="47b72-130">**تاريخ الإرسال**</span><span class="sxs-lookup"><span data-stu-id="47b72-130">**Submission date**</span></span>
+- <span data-ttu-id="47b72-131">**مُرسل بواسطة**</span><span class="sxs-lookup"><span data-stu-id="47b72-131">**Submitted by**</span></span>
+- <span data-ttu-id="47b72-132">**مرسل بواسطة الموارد البشرية**</span><span class="sxs-lookup"><span data-stu-id="47b72-132">**Submitted by Human resources**</span></span>
+- <span data-ttu-id="47b72-133">**مرسل بواسطة المدير**</span><span class="sxs-lookup"><span data-stu-id="47b72-133">**Submitted by Manager**</span></span>
+- <span data-ttu-id="47b72-134">**تم الإرسال بالنيابة**</span><span class="sxs-lookup"><span data-stu-id="47b72-134">**Submitted on behalf**</span></span>
+- <span data-ttu-id="47b72-135">**العامل**</span><span class="sxs-lookup"><span data-stu-id="47b72-135">**Worker**</span></span>
+- <span data-ttu-id="47b72-136">**نوع العامل**</span><span class="sxs-lookup"><span data-stu-id="47b72-136">**Worker type**</span></span>
+
+<span data-ttu-id="47b72-137">تظهر هذه الأمثله كيف يمكنك إنشاء أنواع مختلفة من شروط سير العمل باستخدام عناصر البيانات هذه:</span><span class="sxs-lookup"><span data-stu-id="47b72-137">These examples show how you can create different types of workflow conditions by using these data elements:</span></span>
+
+- <span data-ttu-id="47b72-138">استخدم **كود السبب** في العبارة الشرطية لتوجيه طلبات الإجازات المرضية مع كود السبب **جراحة** إلى الموارد البشرية للموافقة، بينما يتم توجيه كافة أكواد الأسباب الأخرى إلى المدير.</span><span class="sxs-lookup"><span data-stu-id="47b72-138">Use **Reason code** in a conditional statement to route sick leave requests with the reason code **Surgery** to HR for approval, while routing all other reason codes to the manager.</span></span> <span data-ttu-id="47b72-139">لمزيد من المعلومات حول العبارات الشرطية، راجع [‏‫تكوين القرارات الشرطية في سير عمل‬‬](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow).</span><span class="sxs-lookup"><span data-stu-id="47b72-139">For more information about conditional statements, see [Configure conditional decisions in a workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow).</span></span> 
+
+- <span data-ttu-id="47b72-140">استخدم **مرسل بواسطة الموارد البشرية‬‏‫** و **مرسل بواسطة المدير‬‏‫** في إجراء تلقائي للموافقة تلقائيا علي طلبات الإجازات التي تُرسلها هذه الأدوار نيابة عن الموظفين.</span><span class="sxs-lookup"><span data-stu-id="47b72-140">Use **Submitted by Human resources** and **Submitted by manager** in an automatic action to automatically approve leave requests that these roles submit on behalf of employees.</span></span> <span data-ttu-id="47b72-141">لمزيد من المعلومات حول الإجراءات التلقائية، راجع [‏‫‏‫تكوين عمليات الاعتماد في سير عمل‬](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span><span class="sxs-lookup"><span data-stu-id="47b72-141">For more information about automatic actions, see [Configure approval processes in a workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span></span>
+
+- <span data-ttu-id="47b72-142">استخدم **نوع الإجازة** في عبارة شرطية أو إجراء تلقائي للتحكم في كيفيه قيام سير العمل بتوجيه الطلبات بأنواع إجازة معينة.</span><span class="sxs-lookup"><span data-stu-id="47b72-142">Use **Leave type** in a conditional statement or automatic action to control how the workflow routes requests with certain leave types.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="47b72-143">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="47b72-143">See also</span></span>
+
+- [<span data-ttu-id="47b72-144">نظرة عامة على الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="47b72-144">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)

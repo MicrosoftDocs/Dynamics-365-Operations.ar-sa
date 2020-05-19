@@ -3,7 +3,7 @@ title: إضافة أيقونة المفضلة
 description: ‏‫يوضح هذا الموضوع كيفية إضافة أيقونة مفضلة إلى الموقع الخاص بك.‬
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,61 +17,85 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 287663817232e7ce86e8fdb1fb5c2fcfeed33d20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
+ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001518"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295070"
 ---
-# <a name="add-a-favicon"></a><span data-ttu-id="6e39a-103">إضافة أيقونة المفضلة</span><span class="sxs-lookup"><span data-stu-id="6e39a-103">Add a favicon</span></span>
-
+# <a name="add-a-favicon"></a><span data-ttu-id="e9ae3-103">إضافة أيقونة المفضلة</span><span class="sxs-lookup"><span data-stu-id="e9ae3-103">Add a favicon</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="6e39a-104">‏‫يوضح هذا الموضوع كيفية إضافة أيقونة مفضلة إلى الموقع الخاص بك.‬</span><span class="sxs-lookup"><span data-stu-id="6e39a-104">This topic explains how to add a favicon to your site.</span></span>
+<span data-ttu-id="e9ae3-104">‏‫يوضح هذا الموضوع كيفية إضافة أيقونة مفضلة إلى الموقع الخاص بك.‬</span><span class="sxs-lookup"><span data-stu-id="e9ae3-104">This topic explains how to add a favicon to your site.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="6e39a-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="6e39a-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="e9ae3-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="e9ae3-105">Overview</span></span>
 
-<span data-ttu-id="6e39a-106">وأيقونة المفضلة هي ملف رسومي صغير يتم عرضة على علامة تبويب مستعرض ويب، في شريط العنوان، وفي محفوظات الاستعراض، وفي الإشارات المرجعية أو المفضلة، من بين أماكن أخرى.</span><span class="sxs-lookup"><span data-stu-id="6e39a-106">A favicon is a small graphics file that is shown on a web browser tab, in the Address bar, in the browsing history, and in bookmarks or favorites, among other places.</span></span> <span data-ttu-id="6e39a-107">نوصي أن تقوم بإضافة أيقونة المفضلة إلى موقعك، لأنها تعرض وتعزز علامتك التجارية، وتساعد في تمييز موقعك عن المواقع الأخرى التي يزورها عملائك.</span><span class="sxs-lookup"><span data-stu-id="6e39a-107">We recommend that you add a favicon to your site, because it represents and reinforces your brand, and helps distinguish your site from other sites that your customers visit.</span></span>
+<span data-ttu-id="e9ae3-106">وأيقونة المفضلة هي ملف رسومي صغير يتم عرضة على علامة تبويب مستعرض ويب، في شريط العنوان، وفي محفوظات الاستعراض، وفي الإشارات المرجعية أو المفضلة، من بين أماكن أخرى.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-106">A favicon is a small graphics file that is shown on a web browser tab, in the Address bar, in the browsing history, and in bookmarks or favorites, among other places.</span></span> <span data-ttu-id="e9ae3-107">نوصي أن تقوم بإضافة أيقونة المفضلة إلى موقعك، لأنها تعرض وتعزز علامتك التجارية، وتساعد في تمييز موقعك عن المواقع الأخرى التي يزورها عملائك.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-107">We recommend that you add a favicon to your site, because it represents and reinforces your brand, and helps distinguish your site from other sites that your customers visit.</span></span>
 
-<span data-ttu-id="6e39a-108">على الرغم من أنه يُمكنك إضافة عدة أيقونات للمفضلة بأحجام مختلفة وأنواع ملفات إلى موقعك، ويوضح هذا الموضوع كيفية إضافة أيقونة مفضلة واحدة.</span><span class="sxs-lookup"><span data-stu-id="6e39a-108">Although you can add multiple favicons of various sizes and file types to your site, this topic shows how to add a single favicon.</span></span> <span data-ttu-id="6e39a-109">ولكن، يتم استخدام نفس العملية والموقع لإضافة أكثر من أيقونة المفضلة.</span><span class="sxs-lookup"><span data-stu-id="6e39a-109">However, the same process and location are used to add more favicons.</span></span>
+<span data-ttu-id="e9ae3-108">على الرغم من أنه يُمكنك إضافة عدة أيقونات للمفضلة بأحجام مختلفة وأنواع ملفات إلى موقعك، ويوضح هذا الموضوع كيفية إضافة أيقونة مفضلة واحدة.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-108">Although you can add multiple favicons of various sizes and file types to your site, this topic shows how to add a single favicon.</span></span> <span data-ttu-id="e9ae3-109">ولكن، يتم استخدام نفس العملية والموقع لإضافة أكثر من أيقونة المفضلة.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-109">However, the same process and location are used to add more favicons.</span></span>
 
-## <a name="upload-a-favicon-to-your-sites-asset-collection"></a><span data-ttu-id="6e39a-110">تحميل أيقونة المفضلة إلى مجموعة أصول الموقع الخاص بك</span><span class="sxs-lookup"><span data-stu-id="6e39a-110">Upload a favicon to your site's asset collection</span></span>
+## <a name="upload-a-favicon-to-your-sites-asset-collection"></a><span data-ttu-id="e9ae3-110">تحميل أيقونة المفضلة إلى مجموعة أصول الموقع الخاص بك</span><span class="sxs-lookup"><span data-stu-id="e9ae3-110">Upload a favicon to your site's asset collection</span></span>
 
-<span data-ttu-id="6e39a-111">لتحميل أيقونة المفضلة إلى مجموعة أصول الموقع الخاص بك، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="6e39a-111">To upload a favicon to your site's asset collection, follow these steps.</span></span>
+<span data-ttu-id="e9ae3-111">لتحميل أيقونة المفضلة إلى مجموعة أصول الموقع الخاص بك، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-111">To upload a favicon to your site's asset collection, follow these steps.</span></span>
 
-1. <span data-ttu-id="6e39a-112">انتقل إلى **الأصول \> تحميل \> تحميل الأصول**.</span><span class="sxs-lookup"><span data-stu-id="6e39a-112">Go to **Assets \> Upload \> Upload assets**.</span></span>
-1. <span data-ttu-id="6e39a-113">ابحث عن أيقونة المفضلة في نظام ملفاتك المحلي وحددها.</span><span class="sxs-lookup"><span data-stu-id="6e39a-113">Find and select the favicon on your local file system.</span></span>
-1. <span data-ttu-id="6e39a-114">ادخل تجانب، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="6e39a-114">Enter a title, and then select **OK**.</span></span> 
-1. <span data-ttu-id="6e39a-115">في جزء الخصائص الموجود على اليمين، انسخ عنوان URL العمومي لأيقونة المفضلة.</span><span class="sxs-lookup"><span data-stu-id="6e39a-115">In the property pane on the right, copy the public URL of the favicon.</span></span>
+1. <span data-ttu-id="e9ae3-112">في جزء التنقل الأيسر، حدد **مكتبة الوسائط**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-112">In the left navigation pane, select **Media Library**.</span></span>
+1. <span data-ttu-id="e9ae3-113">في شريط الأوامر، حدد **تحميل \> تحميل عناصر الوسائط**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-113">On the command bar, select **Upload \> Upload Media Items**.</span></span>
+1. <span data-ttu-id="e9ae3-114">في نافذة "مستكشف الملفات"، استعرض بحثا عن ملف صورة أيقونة المفضلة‬ الذي تريد تحميله، وحدده، ثم حدد **فتح**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-114">In the File Explorer window, browse to the favicon image file that you want to upload, select it, and then select **Open**.</span></span>
+1. <span data-ttu-id="e9ae3-115">في مربع الحوار **تحميل عنصر الوسائط**، أدخل العنوان والنص البديل المطلوبين.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-115">In the **Upload Media Item** dialog box, enter the required title and alt text.</span></span>
+1. <span data-ttu-id="e9ae3-116">إذا أردت نشر الصورة مباشرةً بعد التحميل، فحدد خانه الاختيار **نشر عناصر الوسائط بعد التحميل**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-116">If you want to publish the image immediately after upload, select the **Publish media items after upload** check box.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="6e39a-116">إذا لم تقم بتحديد خيار **نشر الأصول بعد التحميل** ، يجب عليك العودة إلى صفحة **الأصول** ، ونشر أيقونة المفضلة يدويًا في وقت لاحق.</span><span class="sxs-lookup"><span data-stu-id="6e39a-116">If you don't select the **Publish assets after upload** option, you must return to **Assets** page and manually publish the favicon later.</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="e9ae3-117">إذا لم تقم بتحديد خانة الاختيار **نشر عناصر الوسائط بعد التحميل‬‏‫** ، يجب عليك العودة إلى صفحة **عناصر الوسائط** ، ونشر أيقونة المفضلة يدويًا في وقت لاحق.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-117">If you don't select the **Publish media items after upload** check box, you must return to **Media items** page and manually publish the favicon later.</span></span>
 
-## <a name="create-the-html-for-the-favicon"></a><span data-ttu-id="6e39a-117">قم بإنشاء HTML لأيقونة المفضلة</span><span class="sxs-lookup"><span data-stu-id="6e39a-117">Create the HTML for the favicon</span></span>
+1. <span data-ttu-id="e9ae3-118">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-118">Select **OK**.</span></span>
+1. <span data-ttu-id="e9ae3-119">في جزء الخصائص الموجود على اليمين، انسخ عنوان URL العمومي لأيقونة المفضلة.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-119">In the property pane on the right, copy the public URL of the favicon.</span></span> <span data-ttu-id="e9ae3-120">ستستخدم عنوان URL هذا لاحقا.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-120">You will use this URL later.</span></span>
 
-<span data-ttu-id="6e39a-118">لإنشاء HTML لأيقونة المفضلة، استخدم جزء HTML التالي.</span><span class="sxs-lookup"><span data-stu-id="6e39a-118">To create the HTML for the favicon, use the following HTML snippet.</span></span> <span data-ttu-id="6e39a-119">بالنسبة للسمة **href** ،استبدل **"عنوان URL\_العمومي\_لـ\_أيقونة المفضلة\_الخاصة بك"** بعنوان URL الذي قمت بنسخه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="6e39a-119">For the **href** attribute, replace **"Public\_URL\_for\_your\_favicon"** with the public URL that you copied earlier.</span></span>
+## <a name="create-the-html-for-your-favicon"></a><span data-ttu-id="e9ae3-121">إنشاء HTML للأيقونة المفضلة الخاصة بك</span><span class="sxs-lookup"><span data-stu-id="e9ae3-121">Create the HTML for your favicon</span></span>
+
+<span data-ttu-id="e9ae3-122">لإنشاء HTML لأيقونة المفضلة، استخدم سلسلة HTML التالية.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-122">To create the HTML for the favicon, use the following HTML string.</span></span> <span data-ttu-id="e9ae3-123">بالنسبة للسمة **href** ، استبدل **عنوان URL\_العمومي\_لـ\_أيقونة المفضلة\_الخاصة بك** بعنوان URL الذي قمت بنسخه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-123">For the **href** attribute, replace **Public\_URL\_for\_your\_favicon** with the public URL that you copied earlier.</span></span>
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="add-the-html-for-the-favicon-to-the-head-element-of-your-pages"></a><span data-ttu-id="6e39a-120">إضافة HTML لأيقونة المفضلة إلى عنصر \<العنوان\> في الصفحات الخاصة بك</span><span class="sxs-lookup"><span data-stu-id="6e39a-120">Add the HTML for the favicon to the \<head\> element of your pages</span></span>
+## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a><span data-ttu-id="e9ae3-124">إنشاء جزء صفحه يحتوي على علامة تعريف لأيقونة المفضلة الخاصة بك</span><span class="sxs-lookup"><span data-stu-id="e9ae3-124">Create a page fragment that contains a metatag for your favicon</span></span>
 
-<span data-ttu-id="6e39a-121">لإضافة أيقونة المفضلة إلى موقعك، استخدم نفس الإجراء المستخدم لإضافة أي نوع من HTML أو البرنامج النصي إلى عنصر **\<العنوان\>** لصفحات موقعك.</span><span class="sxs-lookup"><span data-stu-id="6e39a-121">To add a favicon to your site, use the same procedure that is used to add any type of HTML or script to the **\<head\>** element of your site pages.</span></span>
+<span data-ttu-id="e9ae3-125">لإنشاء جزء صفحه يحتوي على علامة تعريف لأيقونة المفضلة الخاصة بك، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-125">To create a page fragment that contains a metatag for your favicon, follow these steps.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6e39a-122">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="6e39a-122">Additional resources</span></span>
+1. <span data-ttu-id="e9ae3-126">انتقل إلى **أجزاء الصفحات**، ثم حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-126">Go to **Page fragments**, and select **New**.</span></span>
+1. <span data-ttu-id="e9ae3-127">في مربع الحوار **جزء صفحة جديد** ، حدد **علامات التعريف** كالوحدة النمطية التي يستند إليها جزء الصفحة.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-127">In the **New Page Fragment** dialog box, select **Metatags** as the module that the page fragment is based on.</span></span>
+1. <span data-ttu-id="e9ae3-128">أدخل اسمًا لجزء الصفحة، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-128">Enter a name for the page fragment, and then select **OK**.</span></span>
+1. <span data-ttu-id="e9ae3-129">في شجره التدرج الهرمي للجزء، حدد التابع **علامات التعريف الافتراضية**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-129">In the fragment hierarchy tree, select the **Default metatags** child.</span></span>
+1. <span data-ttu-id="e9ae3-130">في الجزء الأيسر، ضمن **علامات التعريف**، حدد **إضافة** ، ثم أدخل سلسلة HTML التي قمت بإنشاءها سابقا لأيقونة المفضلة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-130">In the right pane, under **Meta Tags**, select **Add**, and then enter the HTML string that you created earlier for the favicon.</span></span> 
+1. <span data-ttu-id="e9ae3-131">حدد **إنهاء التحرير** ثم حدد **نشر** لنشر جزء الصفحة.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-131">Select **Finish editing**, and then select **Publish** to publish the page fragment.</span></span>
 
-[<span data-ttu-id="6e39a-123">إضافة شعار</span><span class="sxs-lookup"><span data-stu-id="6e39a-123">Add a logo</span></span>](add-logo.md)
+## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a><span data-ttu-id="e9ae3-132">إضافة جزء صفحة علامة التعريف إلى مقطع رأس HTML الخاص بالصفحات لديك</span><span class="sxs-lookup"><span data-stu-id="e9ae3-132">Add the metatag page fragment to the HTML head section of your pages</span></span>
 
-[<span data-ttu-id="6e39a-124">تحديد سمة الموقع</span><span class="sxs-lookup"><span data-stu-id="6e39a-124">Select a site theme</span></span>](select-site-theme.md)
+<span data-ttu-id="e9ae3-133">لإضافة جزء صفحة علامة التعريف إلى المقطع **رأس** HTMLالخاص بالصفحات لديك، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-133">To add the metatag page fragment to the HTML **head** section of your pages, follow these steps.</span></span>
 
-[<span data-ttu-id="6e39a-125">العمل CSS مع ملفات التجاوز</span><span class="sxs-lookup"><span data-stu-id="6e39a-125">Work with CSS override files</span></span>](css-override-files.md)
+1. <span data-ttu-id="e9ae3-134">انتقل إلى **القوالب** وافتح القالب الخاص بالصفحات التي تريد إضافة أيقونة المفضلة له، ثم حدد **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-134">Go to **Templates**, open the template for the pages that you want to add your favicon to, and then select **Edit**.</span></span>
+1. <span data-ttu-id="e9ae3-135">في شجره التدرج الهرمي للقالب، حدد زر علامة القطع (**...**) إلى يمين حاوية **رأس HTML** ، ثم حدد **إضافة جزء صفحة**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-135">In the template hierarchy tree, select the ellipsis (**...**) button to the right of the **HTML head** container, and then select **Add page fragment**.</span></span>
+1. <span data-ttu-id="e9ae3-136">في مربع الحوار **حدد جزء الصفحة** ، حدد جزء صفحة علامة التعريف التي أنشأتها من قبل، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-136">In the **Select Page Fragment** dialog box, select the metatag page fragment that you created earlier, and then select **OK**.</span></span>
+1. <span data-ttu-id="e9ae3-137">حدد **إنهاء التحرير** ثم حدد **نشر** لنشر القالب.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-137">Select **Finish editing**, and then select **Publish** to publish the template.</span></span>
 
-[<span data-ttu-id="6e39a-126">إضافة رسالة ترحيب</span><span class="sxs-lookup"><span data-stu-id="6e39a-126">Add a welcome message</span></span>](add-welcome-message.md)
+> [!NOTE]
+> <span data-ttu-id="e9ae3-138">إذا كان الموقع الخاص بك يستخدم أكثر من قالب واحد، يجب عليك إضافة جزء صفحة علامة تعريف إلى جميعهم.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-138">If your site uses more than one template, you must add the metatags page fragment to all of them.</span></span>
 
-[<span data-ttu-id="6e39a-127">إضافة إشعار لحقوق النشر</span><span class="sxs-lookup"><span data-stu-id="6e39a-127">Add a copyright notice</span></span>](add-copyright-notice.md)
+<span data-ttu-id="e9ae3-139">عند معاينه الصفحات التي تستند إلى القالب الذي قمت باضافه جزء صفحة علامة التعريف إليه، ستشاهد الآن أيقونة المفضلة في علامة تبويب المستعرض.</span><span class="sxs-lookup"><span data-stu-id="e9ae3-139">When you preview pages that are based on the template that you added the metatags page fragment to, you should now see the favicon on the browser tab.</span></span>
 
-[<span data-ttu-id="6e39a-128">إضافة لغات إلى الموقع الخاص بك</span><span class="sxs-lookup"><span data-stu-id="6e39a-128">Add languages to your site</span></span>](add-languages-to-site.md)
+## <a name="additional-resources"></a><span data-ttu-id="e9ae3-140">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="e9ae3-140">Additional resources</span></span>
 
-[<span data-ttu-id="6e39a-129">إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام</span><span class="sxs-lookup"><span data-stu-id="6e39a-129">Add script code to site pages to support telemetry</span></span>](add-telemetry.md)
+[<span data-ttu-id="e9ae3-141">إضافة شعار</span><span class="sxs-lookup"><span data-stu-id="e9ae3-141">Add a logo</span></span>](add-logo.md)
+
+[<span data-ttu-id="e9ae3-142">تحديد سمة الموقع</span><span class="sxs-lookup"><span data-stu-id="e9ae3-142">Select a site theme</span></span>](select-site-theme.md)
+
+[<span data-ttu-id="e9ae3-143">العمل CSS مع ملفات التجاوز</span><span class="sxs-lookup"><span data-stu-id="e9ae3-143">Work with CSS override files</span></span>](css-override-files.md)
+
+[<span data-ttu-id="e9ae3-144">إضافة رسالة ترحيب</span><span class="sxs-lookup"><span data-stu-id="e9ae3-144">Add a welcome message</span></span>](add-welcome-message.md)
+
+[<span data-ttu-id="e9ae3-145">إضافة إشعار لحقوق النشر</span><span class="sxs-lookup"><span data-stu-id="e9ae3-145">Add a copyright notice</span></span>](add-copyright-notice.md)
+
+[<span data-ttu-id="e9ae3-146">إضافة لغات إلى الموقع الخاص بك</span><span class="sxs-lookup"><span data-stu-id="e9ae3-146">Add languages to your site</span></span>](add-languages-to-site.md)
+
+[<span data-ttu-id="e9ae3-147">إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام</span><span class="sxs-lookup"><span data-stu-id="e9ae3-147">Add script code to site pages to support telemetry</span></span>](add-telemetry.md)
 
