@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: ERSolutionTable , ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+ms.search.form: ERSolutionTable, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2940d99243ac52ee0d56a1c4423c4f0250f42f57
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: c08e81b6e2983a8f16104698944820e93ba3852d
+ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091762"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331314"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>استخدام مسار نسبي في روابط البيانات لتنسيقات ونماذج ER
 
@@ -29,10 +29,10 @@ ms.locfileid: "3091762"
 
 تتيح أداة إعداد التقارير الإلكترونية‬ (ER) للمستخدمين تحديد بنيات التنسيق الإلكتروني ثم توضيح كيفية تعبئة تلك البنيات باستخدام البيانات والخوارزميات الموجودة في التطبيق. للحصول على مزيد من التفاصيل، راجع [إنشاء تكوينات إعداد التقارير الإلكترونية (ER)](electronic-reporting-configuration.md). لتحديد تدفق البيانات لاسترداد بيانات Finance and Operations واستخدامها لإنشاء مستند إلكتروني، يجب إجراء ما يلي:
 
-- ربط مصادر البيانات المكونة بعناصر نموذج البيانات الخاص بالمجال المصمم. قد يكون هيكل النموذج ومصادر البيانات المحددة جزءًا من بنية هرمية معقدة. ولهذا السبب، يمكن أن تكون الروابط النهائية كبيرة جدًا وتحتوي على العديد من العناصر من أنواع مختلفة (علي سبيل المثال، العلاقات والجداول والأساليب). يمكن أن تصبح الروابط أقل قابلية للقراءة ومعقدة لإجراء المراجعة والفهم، وتحديدًا لغير المالكين. 
-- ربط عناصر نموذج البيانات بمكونات التنسيق لتحديد البيانات التي سيتم ملؤها من نموذج البيانات إلى إخراج التنسيق الذي تم إنشاؤه.
+- ربط مصادر البيانات المكونة بعناصر نموذج البيانات الخاص بالمجال المصمم [نموذج البيانات](general-electronic-reporting.md#data-model-and-model-mapping-components) قد يكون هيكل النموذج ومصادر البيانات المحددة جزءًا من بنية هرمية معقدة. ولهذا السبب، يمكن أن تكون الروابط النهائية كبيرة جدًا وتحتوي على العديد من العناصر من أنواع مختلفة (علي سبيل المثال، العلاقات والجداول والأساليب). يمكن أن تصبح الروابط أقل قابلية للقراءة ومعقدة لإجراء المراجعة والفهم، وتحديدًا لغير المالكين. 
+- ربط عناصر نموذج البيانات بمكونات [التنسيق](general-electronic-reporting.md#FormatComponentOutbound) لتحديد البيانات التي سيتم ملؤها من نموذج البيانات إلى إخراج التنسيق الذي تم إنشاؤه.
 
-لتحسين قابلية استخدام مصممي تعيين التقارير الإلكترونية، تم إصدار ميزة المسار النسبي. يتم تشغيل خيار تمثيل المسار النسبي لأي مثيل جديد للتطبيق افتراضيًا حيث يتم تمكين تجربة تصميم التقارير الإلكترونية ( Dynamics 365 Finance Microsoft وMicrosoft Regulatory Configuration Service). تم تطبيق معلمة المسار النسبي بحيث يمكن للمستخدمين الاستمرار في استخدام المسار الكامل عند العمل مع هذا العرض التقديمي لروابط التقارير الإلكترونية.
+لتحسين قابلية استخدام مصممي تعيين التقارير الإلكترونية، تم إصدار ميزة [المسار النسبي](er-formula-language.md#relative-path). يتم تشغيل خيار تمثيل المسار النسبي لأي مثيل جديد للتطبيق افتراضيًا حيث يتم تمكين تجربة تصميم التقارير الإلكترونية ( Dynamics 365 Finance Microsoft وMicrosoft Regulatory Configuration Service). تم تطبيق معلمة المسار النسبي بحيث يمكن للمستخدمين الاستمرار في استخدام المسار الكامل عند العمل مع هذا العرض التقديمي لروابط التقارير الإلكترونية.
 
 [![معلمات المستخدم](./media/relative-path-01.png)](./media/relative-path-01.png)
 
@@ -54,3 +54,7 @@ ms.locfileid: "3091762"
 
 > [!NOTE]
 > يتم حفظ كل التغييرات التي يتم تقديمها بواسطة التعديل الشامل لروابط العناصر المتداخلة في تعيينات النموذج بشكل صحيح في دلتا التكوين (تتبع التغييرات). ويسمح هذا للعملاء بتغيير العنوان الأساسي للإصدار المشتق من تعيينات النموذج إلى أي إصدار أساسي جديد منه تم تعديله باستخدام هذه الميزة الجديدة.
+
+## <a name="additional-resources"></a>الموارد الإضافية
+
+[لغة معادلة ER](er-formula-language.md)

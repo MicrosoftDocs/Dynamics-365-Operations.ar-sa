@@ -2,8 +2,8 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
-ms.date: 03/03/2020
+manager: AnnBe
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2011f5cc3489eb7921d818dbd178425f72bac2d1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7502cd16129431d41d152508fb3b49ff85a5a9f8
+ms.sourcegitcommit: f1db998ecfccca660eb15cc2739b12c8463fa54d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205059"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331238"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
 
@@ -35,6 +35,18 @@ ms.locfileid: "3205059"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.11 من Supply Chain Management
+
+### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>استخدام محرك التخطيط الرئيسي لـ Supply Chain Management لسيناريوهات التوزيع
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | لتحسين الأداء وتصغير حمل قاعده بيانات SQL أثناء تشغيل التخطيط الرئيسي، يتم استبدال محرك التخطيط الرئيسي لـ Supply Chain Management بواسطة تحسين التخطيط. يسمح تحسين التخطيط بتشغيل التخطيط السريع الذي يمكن تنفيذه حتى أثناء ساعات العمل. ويعمل ذلك علي المخططين من التفاعل علي الفور للتغييرات في محددات الطلب أو التخطيط. |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم، سيحل تحسين التخطيط محل محرك التخطيط الرئيسي الحالي لـ Supply Chain Management المضمن. |
+| **مناطق المنتجات المتأثرة**         | Supply Chain Management - التخطيط الرئيسي |
+| **خيارات النشر**              | السحابة فقط. تحسين التخطيط غير مدعوم بعمليات النشر المحلية. |
+| **الحالة**                         | مهملة. في إبريل 2021، لن يتم دعم سيناريوهات التوزيع بعد ذلك مع محرك التخطيط الرئيسي المضمّن لـ Dynamics 365 Supply Chain Management. بالنسبة لسيناريوهات التوزيع، يجب أن يستخدم العملاء تحسين التخطيط لعمليات حساب التخطيط الرئيسي. لمزيد من المعلومات، راجع [مستندات تحسين التخطيط](https://go.microsoft.com/fwlink/?linkid=2105830). وقد يستمر العملاء الذين لديهم عمليات نشر محلية لـ Dynamics 365 Supply Chain Management في استخدام محرك التخطيط الرئيسي لـ Supply Chain Management بعد أبريل 2021. ومع ذلك، لن يتم توفير المزيد من تحسينات الميزات. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>الإعلانات السابقة حول الميزات التي تمت إزالتها أو إهمالها
 

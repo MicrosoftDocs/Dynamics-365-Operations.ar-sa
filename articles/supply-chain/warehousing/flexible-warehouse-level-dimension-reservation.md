@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205657"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346458"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>سياسة مرنة لحجز البعد على مستوى المستودع
 
@@ -233,7 +233,7 @@ ms.locfileid: "3205657"
 <td>‏‏نعم</td>
 <td>
 <ol>
-<li>حدد عنصر القائمة <strong>تجاوز الموقع</strong> في Warehouse Mmobile App (WMA) عند بدء عمل الانتقاء.</li>
+<li>حدد عنصر القائمة <strong>تجاوز الموقع</strong> في تطبيق المستودع عند بدء عمل الانتقاء.</li>
 <li>حدد <strong>اقتراح</strong>.</li>
 <li>قم بتاكيد الموقع الجديد المقترح بناء علي توفر كميه الدفعة.</li>
 </ol>
@@ -250,7 +250,7 @@ ms.locfileid: "3205657"
 <td>لا</td>
 <td>
 <ol>
-<li>حدد عنصر القائمة <strong>تجاوز الموقع</strong> في (WMA) عند بدء عمل الانتقاء.</li>
+<li>حدد عنصر القائمة <strong>تجاوز الموقع</strong> في تطبيق المستودع عند بدء عمل الانتقاء.</li>
 <li>ادخل موقعا يدويا.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ ms.locfileid: "3205657"
 <td>غير قابل للتطبيق</td>
 <td>
 <ol>
-<li>حدد عنصر القائمة <strong>كامل</strong> في (WMA) عند معالجة عمل الانتقاء.</li>
+<li>حدد عنصر القائمة <strong>كامل</strong> في تطبيق المستودع عند معالجة عمل الانتقاء.</li>
 <li>في الحقل <strong>كميه الانتقاء</strong>، ادخل كميه جزئيه من الانتقاء المطلوب للاشاره إلى القدرة الكاملة.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ ms.locfileid: "3205657"
 <td>‏‏نعم</td>
 <td>
 <ol>
-<li>بدء حركه في WMA.</li>
+<li>بدء حركه في تطبيق المستودع.</li>
 <li>أدخل موقعي البداية والنهاية.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ ms.locfileid: "3205657"
 <td>‏‏نعم</td>
 <td>
 <ol>
-<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في (WMA) عند تشغيل عمل الانتقاء.</li>
+<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في تطبيق المستودع عند معالجة عمل الانتقاء.</li>
 <li>في حقل <strong>كمية الانتقاء</strong>، أدخل <strong>0</strong> (صفرًا).</li>
 <li>في حقل <strong>السبب</strong>، أدخل <strong>لا توجد إعادة توزيع</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ ms.locfileid: "3205657"
 <td>‏‏نعم</td>
 <td>
 <ol>
-<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في (WMA) عند تشغيل عمل الانتقاء.</li>
+<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في تطبيق المستودع عند معالجة عمل الانتقاء.</li>
 <li>في حقل <strong>كمية الانتقاء</strong>، أدخل <strong>0</strong> (صفرًا).</li>
 <li>في حقل <strong>السبب</strong>، أدخل <strong>لا توجد إعادة توزيع</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ ms.locfileid: "3205657"
 <td>‏‏نعم</td>
 <td>
 <ol>
-<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في (WMA) عند تشغيل عمل الانتقاء.</li>
+<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في تطبيق المستودع عند معالجة عمل الانتقاء.</li>
 <li>في حقل <strong>كمية الانتقاء القصير</strong>، أدخل <strong>0</strong> (صفرًا).</li>
 <li>في الحقل <strong>السبب</strong>، حدد<strong>الانتقاء القصير مع إعادة التوزيع اليدوية</strong>.</li>
 <li>حدد لوحه الترخيص/الموقع في القائمة.</li>
@@ -548,7 +548,7 @@ ms.locfileid: "3205657"
 <td>لا</td>
 <td>
 <ol>
-<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في (WMA) عند تشغيل عمل الانتقاء.</li>
+<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في تطبيق المستودع عند معالجة عمل الانتقاء.</li>
 <li>في حقل <strong>كمية الانتقاء القصير</strong>، أدخل <strong>0</strong> (صفرًا).</li>
 <li>في الحقل <strong>السبب</strong>، حدد<strong>الانتقاء القصير مع إعادة التوزيع اليدوية</strong>.</li>
 </ol>
@@ -561,7 +561,7 @@ ms.locfileid: "3205657"
 <td>لا</td>
 <td>
 <ol>
-<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في (WMA) عند تشغيل عمل الانتقاء.</li>
+<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في تطبيق المستودع عند معالجة عمل الانتقاء.</li>
 <li>في حقل <strong>كمية الانتقاء القصير</strong>، أدخل <strong>0</strong> (صفرًا).</li>
 <li>في الحقل <strong>السبب</strong>، حدد<strong>الانتقاء القصير مع إعادة التوزيع اليدوية</strong>.</li>
 <li>حدد لوحه الترخيص/الموقع في القائمة.</li>
@@ -585,7 +585,7 @@ ms.locfileid: "3205657"
 <td>غير قابل للتطبيق</td>
 <td>
 <ol>
-<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في (WMA) عند تشغيل عمل الانتقاء.</li>
+<li>حدد عنصر القائمة <strong>انتقاء قصير</strong> في تطبيق المستودع عند معالجة عمل الانتقاء.</li>
 <li>في حقل <strong>كمية الانتقاء القصير</strong>، أدخل <strong>0</strong> (صفرًا).</li>
 <li>في الحقل <strong>السبب</strong>، حدد<strong>الانتقاء القصير مع إعادة التوزيع التلقائية</strong>.</li>
 </ol>

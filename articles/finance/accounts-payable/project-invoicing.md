@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
+ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658610"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331362"
 ---
 # <a name="project-invoicing"></a>فوترة المشاريع
 
@@ -112,6 +112,9 @@ ms.locfileid: "2658610"
 
 -   فوترة عميل المشروع للصنف: تعيين خاصية البند للصنف إلى قيمة خاضعة للرسوم في أمر الشراء، ثم فوترة العميل باستخدام طريقة فوترة المشروع الصحيح.
 -   لا تقم بفوترة عميل المشروع للصنف: لا تقم بتحديد خاصية البند **الخاضع للرسوم** في بند أمر الشراء للصنف. ويمكنك فيما بعد فوترة أمر الشراء ولا يلزم اتخاذ أي إجراء آخر.
+
+> [!NOTE] 
+> بنود استبقاء الإصدار بلا رسوم بشكل افتراضي. ويعني ذلك عدم تمكين إمكانية إنشاء مقترح فاتورة لعمليه الاستبقاء التي تم إصدارها.
 
 ## <a name="credit-notes"></a>إشعارات دائن
 عندما تكون قيمة أحد مبالغ فاتورة العميل سالبة، يتم تصنيف الفاتورة على أنها إشعار دائن. وعند طباعة المستند، تشتمل على العنوان "إشعار الدائن". 

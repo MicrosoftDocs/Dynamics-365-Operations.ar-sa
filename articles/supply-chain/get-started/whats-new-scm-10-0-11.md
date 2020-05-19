@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 479a7edd456a1f4d121ceef292d2559c400c31a2
-ms.sourcegitcommit: c30a9956d9c29a504856487a3a98090eef9aab2b
+ms.openlocfilehash: 0b71a76b348941f5a010e2f3e4bbb2fa60d37101
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3266313"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346343"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>ما الجديد والمتغير في Dynamics 365 Supply Chain Management 10.0.11 (يوليو 2020)
 
@@ -40,7 +40,7 @@ ms.locfileid: "3266313"
 يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
 - [تخزين تقارير المخزون الفعلي](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [استلام لوحة الترخيص للتحسينات لتطبيق المستودع للأجهزة المحمولة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق المستودع للأجهزة المحمولة‬](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [استلام لوحة الترخيص للتحسينات لتطبيق المستودع للأجهزة المحمولة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق المستودع](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 - [تحسينات في حجز البنود لنموذج حجز رقم الدفعة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - لمزيد من المعلومات ، راجع [حجز الدفعة نفسها لأمر مبيعات](../sales-marketing/reserve-same-batch-sales-order.md)
 - [كيانات البيانات الجديدة لمنطقة التصنيع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [استلام زائد لكميات الأحمال](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - لمزيد من المعلومات، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](../warehousing/inbound-load-handling.md).
