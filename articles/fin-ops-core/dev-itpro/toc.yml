@@ -18,10 +18,8 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: تحديثات النظام الأساسي لـ 10.0.10 (مايو 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (أبريل 2020)
+                - name: تحديث النظام الأساسي 33 (أبريل 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32 (فبراير 2020)
-                  href: get-started/whats-new-platform-update-32.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: إعداد الكتابة المزدوجة من Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: مزامنة أولية
-                              href: data-entities/dual-write/initial-sync.md
                             - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
                               items:
                                 - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: التحكم بالإصدار والبحث عن بيانات التعريف والتنقل
               href: dev-tools/version-control-metadata-navigation.md
+            - name: التنفيذ التلقائي للبنية باستخدام Azure
+              items:
+                - name: التنفيذ التلقائي للبنية باستخدام عوامل التشغيل المستضافة من قِبل Microsoft وAzure Pipelines
+                  href: dev-tools/hosted-build-automation.md
+                - name: إضافة ملفات ترخيص إلى حزمة قابلة للنشر في Azure Pipelines
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: إنشاء حزم قابلة للنشر في Azure Pipelines
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: الطراز X++ - تعيين الإصدار في Azure Pipelines
+                  href: dev-tools/pipeline-model-version.md
             - name: تطبيق نموذجي لإدارة الأسطول
               items:
                 - name: السيناريو الشامل ‏‫للتطبيق النموذجي لإدارة الأسطول
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: تعيين مستخدمين إلى أدوار أمان
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: ‏‫تشخيصات الأمان‬ لتسجيلات المهام
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: معالجة الدُفعات
               items:
                 - name: نظرة عامة على معالجة الدُفعات

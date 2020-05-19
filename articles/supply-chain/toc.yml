@@ -419,17 +419,19 @@
                   href: asset-management/controlling-and-reporting/asset-fault-cost-control.md
                 - name: تحليل خطأ الأصل
                   href: asset-management/controlling-and-reporting/asset-fault-analysis.md
-                - name: ‏‫مؤشرات KPI للأصل
+                - name: ‏‫مؤشرات KPI للأصول
                   href: asset-management/controlling-and-reporting/asset-kpis.md
-                - name: صنف مُستخدم
+                - name: عنصر موجود في المكان المحدد لاستخدامه لاحقًا
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: حالة الصيانة
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: تكامل إدارة الأصول مع Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: مساحة العمل المحمولة للأصل
               href: asset-management/asset-management-mobile-workspace.md
         - name: إدارة البيانات
           items:
-            - name: الكيانات الهدف
+            - name: كيانات هدف
               href: asset-management/data-management/target-entities.md
         - name: محاسبة التكاليف
           items:
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إضافة الأبعاد المالية لتجميع القياسات
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: إنشاء تقارير تحليلية باستخدام PowerBI Desktop
+                - name: إنشاء التقارير التحليلية باستخدام Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -735,7 +737,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إعداد بيانات تعريف خاصة بالتطبيق
                       items:
-                        - name: (التقارير الإلكترونية) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
+                        - name: (ER) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
@@ -749,9 +751,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                         - name: تعيين مكونات التنسيق المنشأ لعناصر نموذج البيانات
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: اختبار حل التقارير الإلكترونية (ER) الذي تم إعداده في التطبيق الهدف
+                    - name: اختبار حل ER الذي تم إعداده في التطبيق الهدف
                       items:
-                        - name: (التقارير الإلكترونية) استيراد التكوينات من RCS
+                        - name: (ER) استيراد التكوينات من RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: إنشاء مستندات إلكترونية للمدفوعات باستخدام تكوين تنسيق
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
@@ -1009,7 +1011,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'نص: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: إدارة تعيين نموذج ER (تقارير إلكترونية) في تكوينات ER (تقارير إلكترونية) منفصلة
+            - name: إدارة تعيين نموذج ER في تكوينات ER منفصلة
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1017,19 +1019,19 @@
               href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
-            - name: (التقارير الإلكترونية) مصادر البيانات عبر الشركات في التقارير الإلكترونية
+            - name: (ER) مصادر البيانات عبر الشركات في التقارير الإلكترونية
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تصميم تنسيقات التقارير الإلكترونية (ER) لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
+            - name: تصميم تنسيقات ER لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
               items:
-                - name: (التقارير الإلكترونية) تصميم تكوين لإنشاء التقارير بتنسيق OPENXML
+                - name: (ER) تصميم تكوين لإنشاء التقارير بتنسيق OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: (التقارير الإلكترونية) تصميم تكوينات لإنشاء تقارير بتنسيق Word
+                - name: (ER) تصميم تكوينات لإنشاء تقارير بتنسيق Word
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تصميم تكوينات لملء قوالب PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/supply-chain/toc.json
             - name: تضمين الصور والأشكال
               items:
-                - name: (التقارير الإلكترونية) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
+                - name: (ER) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
                 - name: مثال عن تضمين الصور والأشكال
                   items:
@@ -1041,9 +1043,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
             - name: تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تحديد تبعية تكوينات التقارير الإلكترونية (ER) في المكونات الأخرى
+            - name: تحديد تبعية تكوينات ER في المكونات الأخرى
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تصميم حل تقارير إلكترونية (ER) لاستخدام الأبعاد المالية
+            - name: تصميم حل ER لاستخدام الأبعاد المالية
               items:
                 - name: تصميم نماذج بيانات لاستخدام الأبعاد المالية كمصادر بيانات
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1053,7 +1055,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تشغيل تقارير تستخدم الأبعاد المالية كمصادر بيانات
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تصميم تنسيقات التقارير الإلكترونية (ER) لتنفيذ عمليات العد والجمع باستخدام معلومات من المخرجات المنشأة
+            - name: تصميم تنسيقات ER لتنفيذ عمليات العد والجمع باستخدام معلومات من المخرجات المنشأة
               items:
                 - name: إنشاء تنسيقات لتنفيذ عمليات العد والجمع
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1071,15 +1073,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
             - name: استخدام ملفات إدارة المستندات في مخرجات التنسيقات
               items:
-                - name: إعداد نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                - name: إعداد نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات ER
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: توسيع نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                - name: توسيع نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات ER
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: إنشاء تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                - name: إنشاء تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات ER
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                - name: تشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات ER
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية (ER)
+                - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات في مخرجات ER
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
             - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية
               items:
@@ -1095,7 +1097,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء مستندات تتضمن بيانات التطبيق
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/supply-chain/toc.json
-            - name: استيراد بيانات من ملفات واردة باستخدام حلول التقارير الإلكترونية (ER)
+            - name: استيراد بيانات من ملفات واردة باستخدام حلول ER
               items:
                 - name: توزيع المستندات الواردة بتنسيقات مختلفة
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/supply-chain/toc.json
@@ -1109,7 +1111,7 @@
                   items:
                     - name: استيراد ملفات بتنسيق XML مع سمات اختيارية
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تكوين تنسيقات التقارير الإلكترونية (ER) لاستيراد ملفات بتنسيق XML مع سمات اختيارية
+                    - name: تكوين تنسيقات ER لاستيراد ملفات بتنسيق XML مع سمات اختيارية
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
             - name: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
@@ -1129,19 +1131,19 @@
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تنزيل تكوينات ER من مستودع RCS
                   items:
-                    - name: تنزيل تكوينات من مستودع التقارير الإلكترونية (ER) من النوع RCS
+                    - name: تنزيل تكوينات من مستودع ER من النوع RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: استيراد التكوينات من RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: البرامج التعليمية
               items:
-                - name: استخدام مصادر بيانات JOIN للحصول على البيانات من جداول التطبيقات المتعددة
+                - name: استخدام "ضمّ" مصادر بيانات للحصول على البيانات من جداول التطبيقات المتعددة
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تكوين تعيينات نموذج التقارير الإلكترونية (ER) الذي يعتمد على سياق البلد
+                - name: تكوين تعيينات نموذج ER الذي يعتمد على سياق البلد
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني
+                - name: تكوين تنسيقات ER لاستخدام المعلمات المحددة لكل كيان قانوني
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                - name: إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
+                - name: إعداد معلمات تنسيق ER لكل كيان قانوني
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تأجيل تنفيذ عناصر التنسيق لـ ER
                   items:
@@ -1155,7 +1157,7 @@
                   items:
                     - name: تكوين إطار عمل إعداد التقارير الإلكتروني
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: النسخ الاحتياطي لقوالب التقارير الإلكترونية واستردادها
+                    - name: النسخ الاحتياطي لقوالب ER واستردادها
                       href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إنشاء موفري التكوين ووضع علامة نشط عليهم
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1185,7 +1187,7 @@
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسينات في تتبع نتائج ER المنشأة والمقارنات مع القيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -1195,7 +1197,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
+                - name: تتبع تنفيذ تنسيقات ER لاستكشاف مشكلات الأداء وإصلاحها
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إدارة مستندات الأعمال
                   items:
@@ -1205,7 +1207,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إضافة حقول جديدة إلى قالب مستند أعمال في Microsoft Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: API إطار عمل التقارير الإلكترونية (ER)
+            - name: API إطار عمل ER
               items:
                 - name: توسيع قائمة وظائف التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: نظرة عامة على تحسين التخطيط‬
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: يتم التعامل مع الكمية الحالية السالبة على أنها صفر فعلي
+                - name: التخطيط بالكميات الحالية السالبة
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: بدء تحسين التخطيط
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,9 +2655,7 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: إعداد الحد الأدنى والحد الأقصى لعملية التزويد
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: إعداد قالب عمل لأوامر الشراء
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: تثبيت تطبيق المستودع وتكوينه
+            - name: تثبيت وتكوين تطبيق المستودع
               items:
                 - name: نظرة عامة على التثبيت والتكوين
                   href: warehousing/install-configure-warehousing-app.md
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: إعداد الأجهزة المحمولة لعمل المستودع
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: استلام لوحة الترخيص‬ بواسطة تطبيق المستودع للأجهزة المحمولة
+                - name: استلام لوحة الترخيص‬ بواسطة تطبيق المستودع
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
                   href: warehousing/tasks/set-up-mobile-device-menu.md
