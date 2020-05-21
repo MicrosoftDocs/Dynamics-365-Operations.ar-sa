@@ -3,7 +3,7 @@ title: إنشاء سير عمل طلب إجازة
 description: إنشاء سير عمل لطلب أجازه وغياب لأداره طلبات الإجازات بشكل مستمر في Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 05/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c2689a0cdf2969455a301593e8f60b10c07e6f91
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: c2e994d11bbd45907a48c1f3955fa751a676a327
+ms.sourcegitcommit: e69cfc74e9dbce64ae0e1ab7cd441e5ae6efd4c9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007940"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "3353678"
 ---
 # <a name="create-a-leave-request-workflow"></a>إنشاء سير عمل طلب إجازة
 
@@ -44,6 +44,38 @@ ms.locfileid: "3007940"
 4. عند ظهور مربع الرسالة **هل تريد فتح هذا الملف؟**، حدد **فتح** وتسجيل الدخول باستخدام بيانات اعتماد الشركة الخاصة بك.
 
 5. استخدم محرر سير العمل لإنشاء سير عمل لطلبات الإجازة الخاصة بك. لمزيد من المعلومات حول العمل مع مهام سير العمل ، راجع [إنشاء نظرة عامة حول مهام سير العمل](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)
+
+## <a name="leave-and-absence-request-workflow-data-elements"></a>عناصر بيانات سير عمل طلب إجازة وغياب
+
+يمكنك استخدام عناصر البيانات التالية لإنشاء الموافقات الشرطية أو التلقائية في عمليات سير العمل لطلبات الإجازة والغياب:
+
+- **تعليق**
+- **الشركة**
+- **تم الإنشاء بواسطة**
+- **تاريخ  ووقت الإنشاء**
+- **تاريخ الإنهاء**
+- **نوع الإجازة**
+- **تعديل بواسطة**
+- **تاريخ ووقت التعديل**
+- **رمز السبب**
+- **معرف الطلب**
+- **تاريخ البدء**
+- **الحالة** 
+- **تاريخ الإرسال**
+- **مُرسل بواسطة**
+- **مرسل بواسطة الموارد البشرية**
+- **مرسل بواسطة المدير**
+- **تم الإرسال بالنيابة**
+- **العامل**
+- **نوع العامل**
+
+تظهر هذه الأمثله كيف يمكنك إنشاء أنواع مختلفة من شروط سير العمل باستخدام عناصر البيانات هذه:
+
+- استخدم **كود السبب** في العبارة الشرطية لتوجيه طلبات الإجازات المرضية مع كود السبب **جراحة** إلى الموارد البشرية للموافقة، بينما يتم توجيه كافة أكواد الأسباب الأخرى إلى المدير. لمزيد من المعلومات حول العبارات الشرطية، راجع [‏‫تكوين القرارات الشرطية في سير عمل‬‬](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow). 
+
+- استخدم **مرسل بواسطة الموارد البشرية‬‏‫** و **مرسل بواسطة المدير‬‏‫** في إجراء تلقائي للموافقة تلقائيا علي طلبات الإجازات التي تُرسلها هذه الأدوار نيابة عن الموظفين. لمزيد من المعلومات حول الإجراءات التلقائية، راجع [‏‫‏‫تكوين عمليات الاعتماد في سير عمل‬](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).
+
+- استخدم **نوع الإجازة** في عبارة شرطية أو إجراء تلقائي للتحكم في كيفيه قيام سير العمل بتوجيه الطلبات بأنواع إجازة معينة.
 
 ## <a name="see-also"></a>راجع أيضًا
 

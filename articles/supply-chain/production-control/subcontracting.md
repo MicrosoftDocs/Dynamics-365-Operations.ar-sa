@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1cc1040393d843f39ca8c741a7c51435c7169c00
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 05e6ccdce21ccc5f3e83ad860163cccadcea2edc
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211044"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346412"
 ---
 # <a name="subcontracting"></a>التعاقد من الباطن
 
@@ -211,7 +211,7 @@ ms.locfileid: "3211044"
 
     ![مجموعتي عمل لانتقاء المادة الخام في صفحة العمل](./media/subcontract22_work-page.png)
 
-26. بدء تشغيل تطبيق المستودع لمعالجة عمل المستودع للعملية 10.
+26. بدء تشغيل تطبيق المستودع لعمل المستودع للعملية 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -229,7 +229,7 @@ ms.locfileid: "3211044"
 
     لاحظ أن حالة أمر الإنتاج الآن هي **تم البدء**. تم استهلاك المواد للعملية 10 من خلال الترحيل التلقائي لدفتر يومية قائمة الانتقاء. يتم حساب استهلاك الوقت للعملية 10 من خلال الترحيل التلقائي لدفتر يومية بطاقة المسار.
 
-32. بدء تشغيل تطبيق المستودع لمعالجة عمل المستودع للعملية 20.
+32. بدء تشغيل تطبيق المستودع لعمل المستودع للعملية 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 

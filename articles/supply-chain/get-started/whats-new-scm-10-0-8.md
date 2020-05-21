@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6ace25bc64bcd5afce7e3f23479b0d93535b1a9b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 40d1090d18857c6978ce42a34d6d67241f9df18f
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201492"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346319"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.8 (فبراير 2020)
 
@@ -51,7 +51,7 @@ ms.locfileid: "3201492"
 - [فصل عمل التزويد عند الطلب عن إنشاء خطوة انتقاء عمل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [تقسيم العمل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
 - [‏‫انتقاء نظام مجموعة بتوجيه من النظام‬](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking) - لمزيد من المعلومات، راجع [‏‫انتقاء نظام مجموعة بتوجيه من النظام‬](../warehousing/system-directed-cluster-pick.md).
-- [التحقق من صحة مهمة التطبيق Warehouse باستخدام RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [التحقق من صحة مهمة تطبيق المستودع باستخدام RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [قاعدة الإصدار إلى المستودع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [مرئيات حالة الموجة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
 - [تجميع قوالب الموجات](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
