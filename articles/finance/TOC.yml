@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: الاتصال بنظام التعليمات
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: الاتصال بموقع تعليمات مخصص
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: نظرة عامة حول التعليمات المخصصة
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: عرض أوصاف الحقول وتصديرها
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: مسجل المهام
@@ -1736,11 +1736,13 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: الإرسال الإلكتروني لإقرار ضريبة القيمة المضافة (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: إقرار ضريبة القيمة المضافة لألمانيا
+                  href: localizations/emea-de-vat-declaration.md
                 - name: تقرير قائمة دفتر اليومية
                   href: localizations/emea-deu-journal-list-report.md
                 - name: إعداد الإقرارات الضريبية الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
-            - name: هنغاريا‬
+            - name: المجر
               items:
                 - name: نظرة عامة على المجر
                   href: localizations/hungary.md
@@ -2286,7 +2288,7 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: تكامل Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'ملف مراجعة (XML Auditfile Financieel, XAF)'
+                - name: 'ملف مراجعة - XML Auditfile Financieel, XAF'
                   hred: localizations/emea-nl-audit-file.md
             - name: النرويج
               items:
@@ -2398,6 +2400,8 @@
                       href: localizations/rus-prepayments-management.md
                     - name: استرداد ضريبة القيمة المضافة الواردة
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: معالجة أجزاء الفاتورة لتجارة التصدير
+                      href: localizations/rus-export-trade.md
                 - name: الأصول الثابتة
                   items:
                     - name: نظرة عامة على الأصول الثابتة
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: تقارير المخزون
                       href: localizations/rus-inventory-reports.md
+                    - name: نظرة عامة على ملف تعريف المخزون
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: إعداد ملف تعريف المخزون
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: استخدام ملف تعريف المخزون في المستندات والاستعلامات
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: التقارير
                   items:
                     - name: Financial Reporting
@@ -3248,34 +3258,40 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: تصميم تنسيقات ER لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
               items:
-                - name: (ER) تصميم تكوين لإنشاء التقارير بتنسيق OPENXML
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: (ER) تصميم تكوينات لإنشاء تقارير بتنسيق Word
+                - name: تصميم التكوينات لإنشاء مستندات صادره بتنسيق Excel
+                  items:
+                    - name: تصميم تكوين لإنشاء مستندات بتنسيق Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: مثال لإنشاء تقارير بتنسيق OPENXML
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: تعديل تنسيقات ER من خلال إعادة تطبيق قوالب Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: إضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+                      items:
+                        - name: تصميم تنسيقات لإضافة أعمدة إلى تقارير Excel بشكل ديناميكي
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: تشغيل تنسيقات لإضافة أعمدة إلى تقارير Excel بشكل ديناميكي
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: تصميم تكوينات لإنشاء تقارير بتنسيق Word
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: تصميم تكوينات لملء قوالب PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: تضمين الصور والأشكال
-              items:
-                - name: (ER) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: مثال عن تضمين الصور والأشكال
+                - name: تضمين الصور والأشكال
                   items:
-                    - name: تصميم تكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: مراجعة التكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: إنشاء تقارير بتنسيقات Office ذات صور مضمنة
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: (ER) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: مثال عن تضمين الصور والأشكال
+                      items:
+                        - name: تصميم تكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: مراجعة التكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: إنشاء تقارير بتنسيقات Office ذات صور مضمنة
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: تحديد تبعية تكوينات ER في المكونات الأخرى
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: إضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
-              items:
-                - name: تصميم تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: تشغيل تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية
               items:
                 - name: إنشاء مستندات إلكترونية وتحديث بيانات التطبيق
@@ -3306,8 +3322,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: تكوين تنسيقات ER لاستيراد ملفات بتنسيق XML مع سمات اختيارية
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: دورة حياة التكوين
               items:
                 - name: إدارة دورة حياة التكوينات
@@ -3327,7 +3341,11 @@
                     - name: تنزيل تكوينات من مستودع ER من النوع RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: استيراد التكوينات من RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: إنشاء تكوينات ER في RCS وتحميلها إلى المستودع العمومي
+                  href: localizations/rcs-global-repo-upload.md
+                - name: مشاركة تكوينات ER في RCS مع المؤسسات الخارجية
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: البرامج التعليمية
               items:
                 - name: التعرف على كيفية استخدام مصادر البيانات
