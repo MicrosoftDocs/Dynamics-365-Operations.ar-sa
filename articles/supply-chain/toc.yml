@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: صفحة Dynamics 365 Supply Chain Management الرئيسية
           href: index.md
         - name: البدء
           items:
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: الاتصال بنظام التعليمات
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: الاتصال بموقع تعليمات مخصص
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: نظرة عامة حول التعليمات المخصصة
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: عرض أوصاف الحقول وتصديرها
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: مسجل المهام
@@ -1187,7 +1187,7 @@
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تحسينات في تتبع نتائج ER المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسينات في تتبع نتائج تقارير ER المنشأة والمقارنات مع القيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -1309,10 +1309,26 @@
                   href: cost-management/inventory-close.md
                 - name: متوسط سعر التكلفة الجاري
                   href: cost-management/running-average-cost-price.md
-                - name: تعديل قيمة تكلفة المخزون الفعلي​
+                - name: تعديل قيمة تكلفة المخزون الفعلي
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: تتبع متوسط سعر التكلفة الجاري لكل بُعد مخزون
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: ذكاء IoT
+          items:
+            - name: الصفحة الرئيسية لذكاء IoT
+              href: iot/iot-intelligence-home-page.md
+            - name: إعداد موارد Azure
+              href: iot/iot-azure-setup.md
+            - name: تنسيقات مخطط الرسائل لمركز IoT
+              href: iot/iot-schema-format.md
+            - name: تثبيت الوظيفة الإضافية في LCS
+              href: iot/iot-lcs-setup.md
+            - name: إعداد القياسات
+              href: iot/iot-metrics-setup.md
+            - name: إعداد السيناريو
+              href: iot/iot-scenario-setup.md
+            - name: المراقبة والإدارة
+              href: iot/iot-management.md
         - name: التخطيط الرئيسي
           items:
             - name: الصفحة الرئيسية للتخطيط الرئيسي
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: إلغاء وظيفة تخطيط
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: استكشاف أخطاء تحسين التخطيط وإصلاحها
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: الخطط الرئيسية
               items:
                 - name: نظرة عامة على الخطط الرئيسية
@@ -2655,9 +2673,9 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: إعداد الحد الأدنى والحد الأقصى لعملية التزويد
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: تثبيت وتكوين تطبيق المستودع
+            - name: تثبيت تطبيق المستودع وتكوينه
               items:
-                - name: نظرة عامة على التثبيت والتكوين
+                - name: تثبيت تطبيق المستودع وتوصيله
                   href: warehousing/install-configure-warehousing-app.md
                 - name: تكوين أسماء الحقول في تطبيق المستودع
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,7 +2715,23 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: إعداد قالب عمل لأوامر الشراء
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
-        - name: تطوير إدارة سلسة التوريد
+            - name: سياسات دمج الشحنات
+              items:
+                - name: سياسات دمج الشحنات
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: تكوين سياسات دمج الشحنات
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: السيناريو 1 - دمج الشحنات عند إصدارها إلى المستودع باستخدام الإصدار التلقائي لأوامر المبيعات
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: السيناريو 2 - دمج الشحنات عند تجاوز سياسة دمج الشحنات من صفحة الإصدار إلى مستودع
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: السيناريو 3 - دمج الشحنات باستخدام الإصدار إلى مستودع من منضدة عمل تخطيط الحمل
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: السيناريو 4 - دمج الشحنات باستخدام منضدة عمل دمج الشحنات
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: السيناريو 5 - دمج الشحنات يدويًا باستخدام صفحة دمج الشحنات
+                  href: warehousing/consolidate-shipments-manual-form.md
+        - name: تطوير Supply Chain Management
           items:
             - name: دليل تطوير عنصر تحكم جانت
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json

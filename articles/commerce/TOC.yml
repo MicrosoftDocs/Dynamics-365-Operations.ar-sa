@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: صفحة Dynamics 365 Commerce الرئيسية
           href: index.md
         - name: البدء
           items:
@@ -79,7 +79,7 @@
                 - name: تثبيت التطوير التدريجي (N-1) والتكوين والتكوين المرحلي
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: ترقية ملحق قناة البيع بالتجزئة إلى أحدث Retail SDK
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: ما الجديد أو المتغير
               items:
                 - name: ما الجديد أو المتغير‬ في تطبيقات Finance and Operations
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: الاتصال بنظام التعليمات
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: الاتصال بموقع تعليمات مخصص
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: نظرة عامة حول التعليمات المخصصة
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: عرض أوصاف الحقول وتصديرها
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: مسجل المهام
@@ -499,7 +499,9 @@
                     - name: موصل مدفوعات Adyen
                       href: dev-itpro/adyen-connector.md
                     - name: حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: مصادقة العملاء القوية (SCA) باستخدام موصل Adyen
+                      href: adyen_redirect.md
                     - name: التبديل السلس دون اتصال لعمليات بطاقة الهدايا وإشعار الدائن
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: إعداد سيناريوهات دفع الفواتير
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: الأسئلة المتداولة حول الدفعات
                       href: dev-itpro/payments-retail.md
+                - name: إدارة خرائط Bing لمؤسستك
+                  href: dev-itpro/manage-bing-maps.md
         - name: الترويج التجاري لمنتجاتك وخدماتك
           items:
             - name: المنتجات والفئات والفرز
@@ -824,6 +828,8 @@
                   href: search-engine-optimization-considerations.md
                 - name: إدارة سياسة أمان المحتوى (CSP)
                   href: manage-csp.md
+                - name: الانسحاب من مجموعة أحداث نشاط الويب
+                  href: web-activity-opt-out.md
             - name: إدارة محتوى موقعك
               items:
                 - name: طرق إضافة المحتوى
@@ -1184,7 +1190,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: إعداد بيانات تعريف خاصة بالتطبيق
                       items:
-                        - name: (ER) إعداد بيانات تعريف التطبيق لاستخدامها في RCS
+                        - name: (ER) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
                         - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
@@ -1634,7 +1640,7 @@
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commerce/toc.json
-                    - name: تحسينات في تتبع نتائج ER المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسينات في تتبع نتائج تقارير ER المنشأة والمقارنات مع القيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: تكوين وإرسال البريد الإلكتروني
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: إنشاء قوالب بريد إلكتروني لأحداث المعاملات
+              href: email-templates-transactions.md
             - name: تطوير تجارب البريد الإلكتروني
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: استكشاف أخطاء تكامل Office وإصلاحها
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: الأعمدة الموسعة مسبقًا في قاعدة بيانات القناة
                   href: dev-itpro/extended-columns.md
+                - name: توسيع Commerce Data Exchange - Real-time Service
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: قابلية توسعة موصل المدفوعات
               items:
                 - name: إنشاء تكامل الدفع للوحدة الطرفية للدفع
