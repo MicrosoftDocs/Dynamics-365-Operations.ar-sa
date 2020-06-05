@@ -3,7 +3,7 @@ title: إلغاء وظيفة التخطيط الرئيسي
 description: يشرح هذا الموضوع كيفية إلغاء وظيفة تخطيط نشطة تستخدم وظيفة التخطيط المُضمن.
 author: ChristianRytt
 manager: tfehr
-ms.date: 01/10/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 08dd612d9fb01ba2db6d4fcc7db9507a41a4b29f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1e38b1bb84414dde603dbf5bcda0e8253a12e40b
+ms.sourcegitcommit: 78a1aa37f9a1565135b139e36501b759e7b2f849
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203907"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "3374786"
 ---
 # <a name="cancel-a-master-planning-job"></a>إلغاء وظيفة التخطيط الرئيسي
 
@@ -51,4 +51,5 @@ ms.locfileid: "3203907"
 2. إذا لم يتم عرض معرف الوظيفة في القائمة، فانقر فوق **التبديل إلى النموذج المحسّن**، وإلا فتابع الخطوة التالية.
 3. فتح الوظيفة الدفعية انقر فوق **معرف الوظيفة** للوظيفة الدفعية مع المهام التي تريد إنهائها.
 4. في **الوظائف الدفعية**، حدد المهام المطلوب إنهاؤها.
-5. في علامة التبويب السريعة **مهام الدُفعة** ، انقر فوق **إيقاف**.
+5. انقر فوق **تغيير الحالة**، واختر **إلغاء التحديد** ثم انقر فوق **موافق**.
+6. في علامة التبويب السريعة **مهام الدُفعة** ، انقر فوق **إيقاف**.

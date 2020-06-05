@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e16c9adf592282a941b1112e197ea1ce9bdd34f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f84701f5b82ece1806d289dd6aea370bbd8c750
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207705"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383241"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>إنشاء أمر شراء مع جدول تسليم
 
@@ -31,7 +31,7 @@ ms.locfileid: "3207705"
 
 ## <a name="create-a-delivery-schedule"></a>إنشاء جدول تسليم
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > التدبير والتوريد‬**> أوامر الشراء > جميع أوامر الشراء.
-2. في جزء الإجراءات، حدد **جديد**.
+2. في جزء الإجراء، حدد **جديد**.
 3. في حقل **حساب المورّد‬**، أدخل `US-101`.
 4. حدد **موافق**.
 5. في الحقل **رقم الصنف**، أدخل `M0001`.
