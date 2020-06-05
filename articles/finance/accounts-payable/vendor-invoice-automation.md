@@ -3,7 +3,7 @@ title: التنفيذ التلقائي لفاتورة المورّد
 description: يشرح هذا الموضوع الميزات المتوفرة للتنفيذ التلقائي لفواتير المورّد من نهاية إلى نهاية، حتى الفواتير التي تحتوي على مرفقات.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176286"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3395999"
 ---
 # <a name="vendor-invoice-automation"></a>التنفيذ التلقائي لفاتورة المورّد
 
@@ -61,7 +61,7 @@ ms.locfileid: "2176286"
 
 مرفق مستند فاتورة المورد عبارة عن كيان بيانات جديد تم تقديمه كجزء من هذه الميزة. تم تعديل كيان رأس فاتورة المورد بحيث يدعم المرفقات. لم يتم تعديل كيان بند فاتورة المورد لهذه الميزة.
 
-لا يقدم هذا الموضوع وصفًا تفصيليًا لحزمة البيانات. كما أنه لا يشرح كيفية إنشاء حزم البيانات. للحصول على هذه المعلومات، راجع [إطار عمل كيانات البيانات وحزم البيانات](../../dev-itpro/data-entities/data-entities-data-packages.md).
+للحصول على معلومات مفصلة حول حزم البيانات، راجع [نظرة عامة حول إدارة البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). للحصول على معلومات حول كيفية إنشاء حزم بيانات باستخدام مساحة عمل إدارة البيانات، راجع [حل معالجة واستهلاك حزم البيانات في تطبيقات Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 لإنشاء بيانات الاختبار التي تشتمل على الفواتير والمرفقات بشكل سريع، اتبع هذه الخطوات.
 

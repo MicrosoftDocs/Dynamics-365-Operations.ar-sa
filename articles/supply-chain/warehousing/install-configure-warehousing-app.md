@@ -1,9 +1,9 @@
 ---
-title: نظرة عامة على تثبيت وتكوين تطبيق التخزين
-description: يصف هذا الموضوع كيفية تثبيت وتكوين Dynamics 365 for Finance and Operations - تطبيق التخزين.
+title: تثبيت تطبيق المستودع وتوصيله
+description: يشرح هذا الموضوع كيفية تثبيت تطبيق المستودع على كل جهاز محمول خاص بك وتكوينه للاتصال ببيئة Microsoft Dynamics 365 Supply Chain Management الخاصة بك. يمكنك تكوين كل جهاز يدويًا، أو يمكنك استيراد إعدادات الاتصال من خلال ملف أو عن طريق مسح رمز QR.
 author: MarkusFogelberg
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,132 +19,258 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 52882ef7542bfedebdae4a08de8404cddd01ed55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205588"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367072"
 ---
-# <a name="install-and-configure-the-warehousing-app-overview"></a>نظرة عامة على تثبيت وتكوين تطبيق التخزين
+# <a name="install-and-connect-the-warehousing-app"></a>تثبيت تطبيق المستودع وتوصيله
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 
-> يوضح هذا الموضوع كيفية تكوين التخزين لعمليات توزيع المجموعة. إذا كنت تبحث عن كيفية تكوين التخزين لعمليات التوزيع المحلي، فيُرجى مراجعة [التخزين لعمليات التوزيع المحلية](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> يوضح هذا الموضوع كيفية تكوين التخزين لعمليات توزيع المجموعة. إذا كنت تبحث عن معلومات حول كيفية تكوين مستودع لعمليات التوزيع المحلي، فراجع [التخزين لعمليات التوزيع المحلية](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
+يتوفر تطبيق المستودع من متجر Google Play وMicrosoft Store. ويتم توفيره كمكون مستقل. بالتالي، يجب تنزيله على كل جهاز ثم تكوينه للاتصال ببيئة Microsoft Dynamics 365 Supply Chain Management الخاصة بك.
 
-يصف هذا الموضوع كيفية تثبيت وتكوين Dynamics 365 for Finance and Operations - تطبيق التخزين.
+يشرح هذا الموضوع كيفية تثبيت تطبيق المستودع على كل جهاز محمول خاص بك وتكوينه للاتصال ببيئة Supply Chain Management الخاصة بك. يمكنك تكوين كل جهاز يدويًا، أو يمكنك استيراد إعدادات الاتصال من خلال ملف أو عن طريق مسح رمز QR.
 
-يتوفر تطبيق التخزين في متجر Google Play وMicrosoft Store. بالنسبة إلى الإصدار الحالي من Dynamics 365 Supply Chain Management، يتوفر هذا التطبيق كمكون مستقل، مما يعني النشر الذاتي على الأجهزة المستخدمة لمهام المستودع. لاستخدام التطبيق، يجب تنزيل التطبيق على كل جهاز وتكوينه للاتصال ببيئة Supply Chain Management. يصف هذا الموضوع كيفية تثبيت التطبيق على الأجهزة. وهو يوضح أيضًا كيفية تكوين التطبيق للاتصال ببيئة Supply Chain Management.
+## <a name="system-requirements"></a>متطلبات النظام
 
-## <a name="prerequisites"></a>المتطلبات الأساسية
-يتوفر التطبيق على أنظمة تشغيل Android وWindows. لاستخدام هذا التطبيق، يجب أن يكون أحد أنظمة التشغيل التالية المعتمدة مثبتة على أجهزتك. يجب أن يتوفر لديك أحد الإصدارات التالية المعتمدة. استخدم المعلومات في الجدول التالي لتقييم جهوزية بيئة الأجهزة والبرامج لديك لدعم عملية التثبيت.
+يتوفر تطبيق المستودع على كل من أنظمة تشغيل Windows وAndroid. لاستخدام أحدث إصدار من التطبيق، يجب أن يكون أحد أنظمة التشغيل التالية مثبتًا على أجهزتك المحمولة:
 
-| النظام الأساسي                    | الإصدار                                                                                                                                                                     |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4، 5.0، 6.0، 7.0، 8.0، 9.0                                                                                                                                                     |
-| Windows ‏(UWP)               | Windows 10 (كل الإصدارات)                                                                                                                                                   |
-| Finance and Operations | الإصدار 1611 من Microsoft Dynamics 365 for Operations <br>-أو - <br>الإصدار 7.0/7.0.1 من Microsoft Dynamics AX وMicrosoft Dynamics AX platform update 2 مع الإصلاح العاجل KB 3210014 |
-
-## <a name="get-the-app"></a>الحصول على التطبيق
--   Windows ‏(UWP)
-     - [Finance and Operations - التخزين في متجر Windows](https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   Android
-    - [Finance and Operations - التخزين في Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
+- التحديث الخاص بمنشئي الخريف من نظام Windows 10 (Universal Windows Platform \[UWP\]) رقم 1709 (البناء 10.0.16299) أو أحدث
+- Android 4.4 أو أحدث
 
 > [!NOTE]
-> تم إيقاف Zebra App Gallery عن العمل، مما يعني أن تطبيق التخزين لن يعود متوفرًا لتنزيله من هذا الموقع.
+> إذا كان من الضروري دعم أجهزة Windows القديمة التي لا يمكنها تشغيل أحدث إصدار من Windows ، فلا يزال بإمكانك تنزيل إصدار 1.6.3.0 من تطبيق المستودع من Microsoft Store. سيتم تشغيل هذا الإصدار على أنظمة Windows 10 (UWP) تحديث نوفمبر 1511 (البناء 10.0.10586) أو إصدار لاحق. مع ذلك، يجب العلم أن هذا الإصدار من تطبيق المستودع لا يدعم النشر الشامل لإعدادات الاتصال. بالتالي، يجب [تكوين الاتصال يدويا](#config-manually) على كل جهاز يقوم بتشغيل هذا الإصدار من التطبيق.
 
-## <a name="create-a-web-service-application-in-azure-active-directory"></a>إنشاء تطبيق خدمة ويب في Azure Active Directory
-لتمكين التطبيق من التفاعل مع خادم Supply Chain Management معين، يجب عليك تسجيل تطبيق خدمة ويب في Azure Active Directory لمستأجر Supply Chain Management. لأسباب تتعلق بالأمان، نوصي بإنشاء تطبيق خدمة ويب لكل جهاز تستخدمه. لإنشاء تطبيق خدمة ويب في Azure Active Directory (Azure AD)، أكمل الخطوات التالية:
+## <a name="get-the-warehousing-app"></a>الحصول على تطبيق المستودع
 
-1.  في مستعرض ويب، انتقل إلى <https://portal.azure.com>.
-2.  أدخل اسم المستخدم وكلمة المرور لمستخدم له حق الوصول إلى اشتراك Azure.
-3.  في مدخل Azure، في جزء التنقل الأيمن، انقر فوق **Azure Active Directory**.
+استخدم أحد الارتباطات التالية لتنزيل التطبيق:
 
-    [![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+- **Windows (UWP):** [Dynamics 365 for Finance and Operations - Warehousing على Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+- **Android:** [Warehousing - Dynamics 365 على Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-4.  تأكد من أن مثيل Active Directory هو المثيل الذي يتم استخدامه بواسطة Supply Chain Management.
-5.  في القائمة، انقر فوق **عمليات تسجيل التطبيق**. 
+مع عمليات التوزيع الأصغر، قد ترغب في تثبيت التطبيق من المتجر المناسب على كل جهاز ثم تكوين الاتصال يدويًا بالبيئات التي تستخدمها. مع ذلك، في الإصدار 1.7.0.0 والإصدارات الأحدث من تطبيق المستودع، يمكنك أيضًا أتمتة نشر التطبيق و/أو تكوينه. قد تكون هذه الطريقة ملائمة إذا كنت تدير العديد من الأجهزة، وكنت تستخدم إدارة الأجهزة المحمولة وحل إدارة تطبيقات الأجهزة المحمولة مثل [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). للحصول على معلومات حول كيفية استخدام Intune لإضافة التطبيقات، راجع [إضافة تطبيقات إلى Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
-    [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>إنشاء تطبيق خدمة ويب في Azure Active Directory
 
-6.  في الجزء العلوي، انقر فوق **تسجيل جديد**. يبدأ تشغيل **معالج تسجيل تطبيق**.
-7.  ادخل اسمًا للتطبيق وحدد **حسابات في هذا الدليل التنظيمي فقط**. انقر فوق **تسجيل**.  
+لتمكين تطبيق المستودع من التفاعل مع خادم Supply Chain Management معين، يجب عليك تسجيل تطبيق خدمة ويب لمستأجر Supply Chain Management في Azure Active Directory (Azure AD). يعرض الإجراء التالي إحدى الطرق لتنفيذ هذه المهمة. للحصول على معلومات وبدائل تفصيلية، راجع الارتباطات بعد الإجراء.
 
-    [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+1. في مستعرض الويب، انتقل إلى [https://portal.azure.com](https://portal.azure.com/).
+1. أدخل اسم المستخدم وكلمة المرور لمستخدم له حق الوصول إلى اشتراك Azure.
+1. في مدخل Azure، في جزء التنقل الأيسر، حدد **Azure Active Directory**.
 
-8.  يفتح تسجيل التطبيق الجديد. 
+    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
 
-    [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+1. تأكد من أن تعمل باستخدام مثيل Azure AD الذي يستخدمه Supply Chain Management.
+1. في قائمة **الإدارة**، حدد **عمليات تسجيل التطبيق**.
 
-9.  تذكر **"معرف تطبيق"**، أنك ستحتاجه فيما بعد. ستتم الإشارة إلى **معرف التطبيق** لاحقًا باعتباره **معرف العميل**.
-10. انقر فوق **الشهادة والأسرار** في الجزء **إدارة**. انقر فوق **سر عميل جديد**. 
+    ![عمليات تسجيل التطبيق](media/app-connect-azure-register.png "عمليات تسجيل التطبيق")
 
-    [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
+1. في شريط الأدوات، حدد **تسجيل جديد** لفتح معالج **تسجيل تطبيقات**.
+1. ادخل اسمًا للتطبيق وحدد خيار **الحسابات في هذا الدليل التنظيمي فقط**، ثم حدد **تسجيل**.
 
-11. أنشئ مفتاحًا عن طريق إدخال وصف مفتاح وفترة زمنية في قسم **كلمات المرور**. انقر فوق **إضافة** وانسخ المفتاح. سيُشار إلى هذا المفتاح لاحقًا على أنه **سر العميل**. 
+    ![معالج تسجيل تطبيق](media/app-connect-azure-register-wizard.png "معالج تسجيل تطبيق")
 
-    [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
+1. يتم فتح تسجيل تطبيق جديد. قم بتدوين قيمة **رقم التطبيق (العميل)**، لأنك ستحتاج إليها لاحقًا. ستتم الإشارة إلى هذا المعرف لاحقًا في هذا الموضوع باعتباره *معرف العميل*.
+
+    ![معرف التطبيق (العميل)](media/app-connect-azure-app-id.png "معرف التطبيق (العميل)")
+
+1. في قائمة **إدارة**، حدد **الشهادة وكلمات السر**. ثم حدد أحد الأزرار التالية، وفقا للطريقة التي تريدها لتكوين التطبيق للمصادقة. (لمزيد من المعلومات، راجع قسم [المصادقة باستخدام شهادة أو سر العميل](#authenticate) لاحقا في هذا الموضوع.)
+
+    - **تحميل الشهادة** – يقوم بتحميل شهادة لاستخدامها ككلمة سر. نوصي بهذا الأسلوب، نظرا لأنه أكثر أمانًا ويمكن أيضا أتمتته بشكل كامل. إذا كنت تقوم بتشغيل تطبيق المستودع على أجهزه Windows، قم بتدوين قيمة **بصمة الإبهام** التي تظهر بعد تحميل الشهادة. ستحتاج إلى هذه القيمة عند تكوين الشهادة على أجهزة Windows.
+    - **سر العميل الجديد** – قم بإنشاء مفتاح عن طريق إدخال وصف مفتاح ومدة في قسم **كلمات المرور**، ثم حدد **إضافة**. قم بعمل نسخة من المفتاح، وقم بتخزينه بأمان.
+
+    ![الشهادة وكلمات السر](media/app-connect-azure-authentication.png "الشهادة وكلمات السر")
+
+لمزيد من المعلومات حول كيفية إعداد تطبيقات خدمة الويب في Azure AD، راجع الموارد التالية:
+
+- للحصول على إرشادات تُظهر كيفية استخدام Windows PowerShell لإعداد تطبيقات خدمة الويب في Azure AD، راجع [كيفية: استخدام Azure PowerShell لإنشاء مسؤول خدمة باستخدام شهادة](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- للحصول على التفاصيل الكاملة حول كيفية إنشاء تطبيق خدمة ويب يدويًا في Azure AD، راجع الموضوعات التالية:
+
+    - [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهوية Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
+    - [كيفية: استخدم المدخل لإنشاء تطبيق Azure AD ومدير خدمة يمكنه الوصول إلى الموارد](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>إنشاء وتكوين حساب مستخدم في Supply Chain Management
-لتمكين Supply Chain Management لاستخدام تطبيق Azure AD، تحتاج إلى إكمال خطوات التكوين التالية:
 
-1.  أنشئ مستخدمًا يتطابق مع بيانات اعتماد مستخدم تطبيق التخزين.
-    1.  انتقل إلى **إدارة النظام** &gt; **عام** &gt; **المستخدمون**.
-    2.  أنشئ مستخدمًا جديدًا.
-    3.  عيّن مستخدم الجهاز المحمول للمستودع‬، كما هو موضح في لقطة الشاشة التالية. 
-    
-        [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
+لتمكين Supply Chain Management لاستخدام تطبيق Azure AD الخاص بك، اتبع الخطوات التالية.
 
-2.  قم بإقران تطبيق Azure Active Directory بمستخدم تطبيق التخزين.
-    1.  في Supply Chain Management، انتقل إلى **إدارة النظام** &gt; **الإعداد‏‎** &gt; **تطبيقات Azure Active Directory**.
-    2.  قم بإنشاء بند جديد.
-    3.  أدخل **"معرف العميل"** (الذي تم الحصول عليه في القسم الأخير)، وأدخل اسمًا له، وحدد المستخدم الذي أنشأته في وقت سابق. نوصي بتمييز كل أجهزتك بحيث يمكنك أن تزيل بسهولة حق وصولها إلى Supply Chain Management من هذه الصفحة في حال فقدانها. 
-    
-        [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
+1. أنشئ مستخدمًا يتوافق مع بيانات اعتماد المستخدم لتطبيق المستودع:
 
-## <a name="configure-the-application"></a>تكوين التطبيق
-يجب عليك تكوين التطبيق على الجهاز للاتصال بخادم Supply Chain Management من خلال تطبيق Azure AD. ولإجراء ذلك، أكمل الخطوات التالية.
+    1. في Supply Chain Management، انتقل إلى **إدارة النظام \> المستخدمون \> المستخدمون**.
+    1. أنشئ مستخدمًا.
+    1. قم بتعيين مستخدم جهاز محمول في المستودع.
 
-1.  في التطبيق، انتقل إلى **إعدادات الاتصال**.
-2.  انقر فوق حقل **وضع العرض التوضيحي**. <br>
+    ![تعيين مستخدم جهاز محمول في المستودع](media/app-connect-app-users.png "تعيين مستخدم جهاز محمول في المستودع")
 
-    [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+1. قم بإقران تطبيق Azure AD بمستخدم تطبيق المستودع:
 
-3.  أدخل المعلومات التالية: 
-    + **معرف عميل Azure Active Directory** - يتم الحصول على معرف العميل في الخطوة 9 "إنشاء تطبيق خدمة ويب في Active Directory". 
-    + **سر عميل Azure Active Directory** - يتم الحصول على سر العميل في الخطوة 11 "إنشاء تطبيق خدمة ويب في Active Directory". 
-    + **مورد Azure Active Directory** - يمثل مورد Azure AD Directory‏‎ عنوان URL الجذر لـ Supply Chain Management. 
-    
+    1. انتقل إلى **إدارة النظام \> الإعداد \> تطبيقات Azure Active Directory**.
+    1. قم بإنشاء بند.
+    1. أدخل معرف العميل الذي قمت بتدوينه من القسم السابق، ثم قم بتسميته، ثم حدد المستخدم الذي قمت بإنشائه للتو. نوصي بوضع علامة على كافة الأجهزة الخاصة بك. بعد ذلك، في حالة فقدانها، يمكنك بسهولة إزالة وصولها إلى Supply Chain Management من هذه الصفحة.
+
+    ![تطبيقات Azure Active Directory](media/app-connect-aad-apps.png "تطبيقات Azure Active Directory")
+
+## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>المصادقة باستخدام الشهادة أو سر العميل
+
+توفر المصادقة من خلال Azure AD طريقة أمنة لتوصيل جهاز محمول بـ Supply Chain Management. ويمكنك المصادقة إما باستخدام كلمة سر العميل أو شهادة. إذا كنت ستقوم باستيراد إعدادات الاتصال، نوصي باستخدام شهادة بدلا من سر العميل. نظرًا لأنه يجب تخزين سر العميل بأمان دومًا، فلا يمكنك استيراده من ملف إعدادات الاتصال أو رمز QR، كما هو موضح لاحقا في هذا الموضوع.
+
+يمكن استخدام الشهادات كأسرار لإثبات هوية التطبيق عند طلب رمز مميز. يتم تحميل الجزء العام من الشهادة إلى تسجيل التطبيق في مدخل Azure، بينما يجب أن يتم نشر الشهادة الكاملة على كل جهاز يتم فيه تثبيت تطبيق المستودع. تتحمل مؤسستك المسؤولية عن إدارة الشهادة فيما يتعلق بالتدوير وغيرها. يمكنك استخدام شهادات موقعة ذاتيًا، ولكن يجب دائمًا استخدام الشهادات غير القابلة للتصدير.
+
+يجب أن تجعل الشهادة متاحة محليًا على كل جهاز يتم فيه تشغيل التطبيق المستودع. لمزيد من المعلومات حول كيفية إدارة الشهادات في الأجهزة المتحكم فيها بواسطة Intune إذا كنت تستخدم Intune، فراجع [استخدام الشهادات للمصادقة في Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-application-by-importing-connection-settings"></a>تكوين التطبيق عن طريق استيراد إعدادات الاتصال
+
+لتسهيل صيانة التطبيق ونشره على العديد من الأجهزة المحمولة، يمكنك استيراد إعدادات الاتصال بدلا من إدخالها يدويًا على كل جهاز. يوضح هذا القسم كيفية إنشاء الإعدادات واستيرادها.
+
+### <a name="create-a-connection-settings-file-or-qr-code"></a>إنشاء ملف إعدادات الاتصال أو رمز QR
+
+يمكنك استيراد إعدادات الاتصال إما من ملف أو من رمز QR. مع كلا الأسلوبين، يجب أولا إنشاء ملف إعدادات يستخدم تنسيق JavaScript Object Notation (JSON) وبنية جملة. يجب أن يتضمن الملف قائمة اتصال تحتوى على الاتصالات الفردية التي يجب إضافتها. يلخص الجدول التالي المعلمات التي يجب أن تحددها في ملف إعدادات الاتصال.
+
+| المعلمة | ‏‏الوصف |
+| --- | --- |
+| ConnectionName | حدد اسم إعداد الاتصال. الحد الأقصى لعدد الحروف هو 20 حرفًا. ونظرًا لأن هذه القيمة هي المعرف الفريد لإعداد الاتصال، فتأكد من أنها فريدة في القائمة. في حالة وجود اتصال يحمل نفس الاسم بالفعل على الجهاز، سيتم تجاوزه بواسطة الإعدادات الموجودة في الملف المستورد. |
+| ActiveDirectoryClientAppId | حدد معرف العميل الذي قمت بتدوينه أثناء قيامك بإعداد Azure AD في قسم [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service). |
+| ActiveDirectoryResource | حدد عنوان URL الجذر لـ Supply Chain Management. |
+| ActiveDirectoryTenant | حدد مستأجر Azure AD الذي تستخدمه مع خادم Supply Chain Management. تكون هذه القيمة بشكل `https://login.windows.net/<your-Azure-AD-tenant-ID>`. وفيما يلي مثال على ذلك: `https://login.windows.net/contosooperations.onmicrosoft.com` |
+| الشركة | أدخل الكيان القانوني في Supply Chain Management الذي تريد أن يتصل به التطبيق. |
+| ConnectionType | (اختياري) حدد ما إذا كان يجب أن يستخدم إعداد الاتصال شهادة أو سر عميل للاتصال ببيئة. القيم الصالحة هي *"certificate"* و *"clientsecret"*. القيمة الافتراضية هي *"certificate"*.<p>**ملاحظة:** لا يمكن استيراد أسرار العميل.</p> |
+| IsEditable | (اختياري) حدد ما إذا كان يجب أن يكون بإمكان مستخدم التطبيق تحرير إعداد الاتصال. القيم الصالحة هي *"true"* و *"false"*. القيمة الافتراضية هي *"true"*. |
+| IsDefault | (اختياري) حدد ما إذا كان الاتصال هو الاتصال الافتراضي أم لا. يتم بشكل مسبق اختيار الاتصال المعين كاتصال افتراضي تلقائيًا عند فتح التطبيق. يمكن تعيين اتصال واحد فقط كاتصال افتراضي. القيم الصالحة هي *"true"* و *"false"*. القيمة الافتراضية هي *"false"*. |
+| CertificateThumbprint | (اختياري) مع أجهزة Windows، يمكنك تحديد بصمة الشهادة للاتصال. مع أجهزة Android، يجب على مستخدم التطبيق تحديد الشهادة في المرة الأولى التي يتم فيها استخدام الاتصال. |
+
+يوضح المثال التالي ملف إعدادات اتصال صالح يحتوي على اتصالين. كما ترى، تكون قائمة الاتصال (المسماه *"ConnectionList"* في الملف) عبارة عن كائن يحتوي على مصفوفة تخزن كل اتصال ككائن. يجب إحاطة كل كائن بأقواس ({}) وتكون مفصولة بفواصل، ويجب إحاطة المصفوفة بأقواس (\[\]).
+
+```json
+{
+    "ConnectionList": [
+        {
+            "ActiveDirectoryClientAppId":"aaaaaaaa-bbbb-ccccc-dddd-eeeeeeeeeeee",
+            "ConnectionName": "Connection1",
+            "ActiveDirectoryResource": "https://yourenvironment.cloudax.dynamics.com",
+            "ActiveDirectoryTenant": "https://login.windows.net/contosooperations.onmicrosoft.com",
+            "Company": "USMF",
+            "IsEditable": false,
+            "IsDefaultConnection": true,
+            "CertificateThumbprint": "aaaabbbbcccccdddddeeeeefffffggggghhhhiiiii",
+            "ConnectionType": "certificate"
+        },
+        {
+            "ActiveDirectoryClientAppId":"aaaaaaaa-bbbb-ccccc-dddd-eeeeeeeeeeee",
+            "ConnectionName": "Connection2",
+            "ActiveDirectoryResource": "https://yourenvironment2.cloudax.dynamics.com",
+            "ActiveDirectoryTenant": "https://login.windows.net/contosooperations.onmicrosoft.com",
+            "Company": "USMF",
+            "IsEditable": true,
+            "IsDefaultConnection": false,
+            "ConnectionType": "clientsecret"
+        }
+    ]
+}
+```
+
+يمكنك إما حفظ المعلومات كملف JSON أو إنشاء رمز QR له نفس المحتوى. إذا قمت بحفظ المعلومات كملف، نوصي بحفظه باستخدام الاسم الافتراضي، *connections.json*، خاصة إذا كنت ستقوم بتخزينه في الموقع الافتراضي على كل جهاز محمول.
+
+### <a name="save-the-connection-settings-file-on-each-device"></a>حفظ ملف إعدادات الاتصال على كل جهاز
+
+عادة، ما يتم استخدام أداة إدارة الأجهزة أو برنامج نصي لتوزيع ملفات إعدادات الاتصال لكل جهاز تقوم بإدارته. في حالة استخدام الاسم والموقع الافتراضيين عند حفظ ملف إعدادات الاتصال على كل جهاز، سيقوم تطبيق المستودع تلقائيًا باستيراده، حتى أثناء التشغيل الأول بعد تثبيت التطبيق. إذا كنت تستخدم اسمًا أو موقعًا مخصصًا للملف، فيجب على مستخدم التطبيق تحديد القيم أثناء التشغيل الأول. مع ذلك، سيتابع التطبيق استخدام الاسم والموقع المحددين فيما بعد.
+
+وفي كل مرة يتم فيها بدء التطبيق، فانه يعيد استيراد إعدادات الاتصال من الموقع السابق لتحديد ما إذا كانت هناك أية تغييرات. سيقوم التطبيق فقط بتحديث الاتصالات التي لها نفس أسماء الاتصالات الموجودة في ملف إعدادات الاتصال. لن يتم تحديث الاتصالات التي أنشاها المستخدم والتي تستخدم أسماء أخرى.
+
+لا يمكنك إزالة الاتصال باستخدام ملف إعدادات الاتصال.
+
+كما ذكرنا، فان اسم الملف الافتراضي هو *connections.json*. يعتمد موقع الملف الافتراضي على ما إذا كنت تستخدم جهاز Windows أو جهاز Android:
+
+- **Windows:** `C:\Users\<User>\AppData\Local\Packages\Microsoft.Dynamics365forOperations-Warehousing_8wekyb3d8bbwe\LocalState`
+- **Android:** `Android\data\com.Microsoft.Dynamics365forOperationsWarehousing\files`
+
+عادة، يتم إنشاء المسارات تلقائيًا بعد التشغيل الأول للتطبيق. ومع ذلك، يمكنك إنشاءها يدويا إذا كان يجب عليك نقل ملف إعدادات الاتصال إلى الجهاز قبل التثبيت.
+
+> [!NOTE]
+> في حالة إزالة تثبيت التطبيق، يتم إزالة المسار الافتراضي ومحتوياته.
+
+### <a name="import-the-connection-settings"></a>استيراد إعدادات الاتصال
+
+اتبع هذه الخطوات لاستيراد إعدادات الاتصال من ملف أو من رمز QR.
+
+1. افتح التطبيق المستودع على جهازك المحمول.
+1. انتقل إلى **إعدادات الاتصال**.
+1. قم بتعيين خيار **استخدام وضع العرض التوضيحي** إلى _لا_.
+
+    ![استخدام خيار وضع العرض التوضيحي](media/app-connect-app-demo-mode.png "استخدام خيار وضع العرض التوضيحي")
+
+1. حدد **تحديد ملف** أو **مسح رمز QR**، وفقا للطريقة التي تريد بها استيراد الإعدادات:
+
+    - إذا كنت تقوم باستيراد إعدادات الاتصال من أحد الملفات، ربما يكون التطبيق قد قام بالفعل بالعثور على الملف في حالة استخدام الاسم الافتراضي والموقع الافتراضي عند حفظه. خلاف ذلك، حدد **تحديد ملف**، واستعرض إلى الملف على جهازك المحلي، وحدده. إذا قمت بتحديد موقع مخصص، سيقوم التطبيق بتخزينه واستخدامه تلقائيًا في المرة التالية.
+    - إذا كنت تقوم باستيراد إعدادات الاتصال عن طريق مسح رمز QR، فحدد **مسح رمز QR**. يطالبك التطبيق بمنح الإذن لاستخدام كاميرا الجهاز. بعد منحك الإذن، يتم بدء تشغيل الكاميرا، بحيث يمكنك استخدامها للمسح الضوئي. اعتمادا على جودة كاميرا الجهاز ومدي تعقيد رمز QR، فقد تجد أنه من الصعب الحصول على مسح صحيح. في هذه الحالة، حاول تقليل تعقيد رمز QR بإنشاء اتصال واحد فقط لكل رمز QR. (يمكنك حاليًا استخدام كاميرا الجهاز فقط لمسح رمز QR.)
+
+    ![استيراد إعدادات الاتصال](media/app-connect-app-select-file.png "استيراد إعدادات الاتصال")
+
+1. عند تحميل إعدادات الاتصال بنجاح، حدد زر **الخلف** (السهم الأيسر) في الزاوية العلوية اليسرى للصفحة.
+
+    ![تم تحميل إعدادات الاتصال](media/app-connect-app-settings-loaded.png "تم تحميل إعدادات الاتصال")
+
+1. إذا كنت تستخدم جهاز Android وتستخدم شهادة للمصادقة، يطالبك الجهاز بتحديد الشهادة.
+
+    ![اختيار المطالبة بالشهادة على جهاز Android](media/app-connect-app-choose-cert.png "اختيار المطالبة بالشهادة على جهاز Android")
+
+1. يتصل التطبيق بخادم Supply Chain Management ويعرض صفحة تسجيل الدخول.
+
+    ![صفحة تسجيل الدخول](media/app-connect-sign-in.png "صفحة تسجيل الدخول")
+
+## <a name="manually-configure-the-application"></a><a name="config-manually"></a>تكوين التطبيق يدويًا
+
+يمكنك تكوين التطبيق يدويًا على الجهاز لكي يتصل بخادم Supply Chain Management من خلال تطبيق Azure AD.
+
+1. افتح التطبيق المستودع على جهازك المحمول.
+1. انتقل إلى **إعدادات الاتصال**.
+1. قم بتعيين خيار **استخدام وضع العرض التوضيحي** إلى _لا_.
+
+    ![إيقاف تشغيل وضع العرض التوضيحي](media/app-connect-app-select-file.png "إيقاف تشغيل وضع العرض التوضيحي")
+
+1. اضغط في حقل **تحديد الاتصال** لتوسيع الإعدادات المطلوبة لإدخال تفاصيل الاتصال يدويًا.
+
+    ![حقول الاتصال اليدوية](media/app-connect-manual-connect.png "حقول الاتصال اليدوية")
+
+1. أدخل المعلومات التالية:
+
+    - **استخدام سر العميل** – قم بتعيين هذا الخيار على _نعم_ لاستخدام سر عميل للمصادقة مع Supply Chain Management. قم بتعيينه إلى _لا_ لاستخدام شهادة للمصادقة. (لمزيد من المعلومات، راجع [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service).
+    - **اسم الاتصال** – ادخل اسمًا للاتصال الجديد. يظهر هذا الاسم في حقل **تحديد الاتصال** في المرة التالية التي تقوم فيها بفتح إعدادات الاتصال. يجب أن يكون الاسم الذي تقوم بإدخاله فريدًا. (بمعنى آخر، يجب أن يختلف هذا الاسم عن كافة أسماء الاتصالات الأخرى التي تم تخزينها على جهازك، وذلك في حالة تخزين أسماء اتصالات أخرى هناك.).
+    - **معرف عميل Active Directory** – أدخل معرف العميل الذي قمت بتدوينه أثناء قيامك بإعداد Azure AD في قسم [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service).
+    - **سر عميل Active Directory** – يتوفر هذا الحقل فقط عند تعيين الخيار **استخدام سر العميل** إلى _نعم_. أدخل سر العميل الذي قمت بتدوينه أثناء قيامك بإعداد Azure AD في قسم [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service).
+    - **بصمة شهادة Active Directory** – يتوفر هذا الحقل لأجهزة Windows فقط عند تعيين الخيار **استخدام سر العميل** إلى _لا_. أدخل بصمة الشهادة التي قمت بتدوينها أثناء قيامك بإعداد Azure AD في قسم [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service).
+    - **مورد Active Directory** – حدد عنوان URL الجذر لـ Supply Chain Management.
+
         > [!NOTE]
-        > لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
+        > لا تقم بإنهاء هذه القيمة بشرطة مائلة (/).
 
-    + **مستأجر Azure Active Directory** - مستأجر Azure AD Directory‏‎ المستخدم مع خادم Supply Chain Management: `https://login.windows.net/your-AD-tenant-ID`. على سبيل المثال: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
-    
+    - **مستأجر Active Directory** - أدخل مستأجر Azure AD الذي تستخدمه مع خادم Supply Chain Management: . تكون هذه القيمة بشكل `https://login.windows.net/<your-Azure-AD-tenant-ID>`. وفيما يلي مثال على ذلك: `https://login.windows.net/contosooperations.onmicrosoft.com`
+
         > [!NOTE]
-        > لا تضع حرف خط مائل للأمام (/) في نهاية هذا الحقل. 
-    
-    + **الشركة** - أدخل الكيان القانوني في Supply Chain Management الذي تريد أن يتصل به التطبيق. <br>
-    
-    [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+        > لا تقم بإنهاء هذه القيمة بشرطة مائلة (/).
 
-4.  حدد زر **السابق** في الزاوية العلوية اليمنى من التطبيق. سيتصل الآن التطبيق بخادم Supply Chain Management وستظهر شاشة تسجيل الدخول لعامل المستودع.
+    - **الشركة** - أدخل الكيان القانوني في Supply Chain Management التي تريد أن يتصل به التطبيق.
 
-    [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
-
-لمزيد من المعلومات حول كيفية إعداد تطبيق التخزين لمسح الأكواد الشريطية باستخدام كاميرا على جهاز محمول، راجع [مسح الأكواد الشريطية باستخدام كاميرا في تطبيق Dynamics 365 for Finance and Operations – التخزين](scan-bar-codes-using-a-camera.md).
+1. حدد زر **حفظ** في الزاوية العلوية اليمنى للصفحة.
+1. إذا كنت تستخدم جهاز Android وتستخدم شهادة للمصادقة، يطالبك الجهاز بتحديد الشهادة.
+1. يتصل التطبيق بخادم Supply Chain Management ويعرض صفحة تسجيل الدخول.
 
 ## <a name="remove-access-for-a-device"></a>إزالة حق الوصول لجهاز
-عند فقدان جهاز أو تعرضه للاختراق، يجب إزالة حق الوصول إلى Supply Chain Management للجهاز. تصف الخطوات التالية العملية الموصى بها لإزالة حق الوصول.
 
-1.  انتقل إلى **إدارة النظام** &gt; **الإعداد** &gt; **تطبيقات Azure Active Directory**.
-2.  احذف السطر الذي يتوافق مع الجهاز الذي تريد إزالة حق الوصول الممنوح له. تذكر **معرف العميل** المستخدم للجهاز الذي تمت إزالته، أنك ستحتاجه فيما بعد.
-3.  سجل الدخول إلى مدخل Azure على العنوان <https://portal.azure.com>.
-4.  انقر فوق رمز **Active Directory** في القائمة اليسرى، وتأكد من أنك في الدليل الصحيح.
-5.  في القائمة، انقر فوق **عمليات تسجيل التطبيقات**، ثم انقر فوق التطبيق الذي تريد تكوينه. ستظهر صفحة **الإعدادات** مع معلومات التكوين.
-6.  تأكد من أن **معرف العميل** هو نفسه كما هو موضح في الخطوة 2 في هذا القسم.
-7.  انقر فوق الزر **حذف** في الجزء العلوي.
-8.  انقر فوق **نعم** في رسالة التأكيد.
+في حالة فقدان جهاز أو تعرضه للاختراق، يجب إزالة حق الوصول إلى Supply Chain Management للجهاز. تصف الخطوات التالية العملية الموصى بها لإزالة الوصول.
+
+1. انتقل إلى **إدارة النظام \> الإعداد \> تطبيقات Azure Active Directory**.
+1. احذف السطر الذي يتوافق مع الجهاز الذي تريد إزالة الوصول الممنوح له. قم بتدوين معرف العميل المستخدم للجهاز الذي تمت إزالته، لأنك ستحتاجه لاحقًا.
+
+    إذا كنت قد قمت بتسجيل معرف عميل واحد فقط، وكانت هناك عدة أجهزه تستخدم نفس معرف العميل، فيجب عليك نشر إعدادات الاتصال الجديدة إلى تلك الأجهزة. خلاف ذلك، سوف يفقدون إمكانية الوصول.
+
+1. سجل الدخول إلى مدخل Azure على العنوان [https://portal.azure.com](https://portal.azure.com/).
+1. في جزء التنقل الأيسر، حدد **Active Directory**، وتأكد من أنك في الدليل الصحيح.
+1. في القائمة **إدارة**، حدد **عمليات تسجيل التطبيقات**، ثم حدد التطبيق الذي تريد تكوينه. تظهر صفحة **الإعدادات** مع معلومات التكوين.
+1. تأكد من أن معرف العميل الخاص بالتطبيق يطابق معرف العميل الذي قمت بتدوينه في الخطوة 2.
+1. في شريط الأدوات، حدد **حذف**.
+1. في رسالة التأكيد التي تظهر، حدد **نعم**.

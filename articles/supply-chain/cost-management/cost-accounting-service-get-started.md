@@ -1,5 +1,5 @@
 ---
-title: الشروع في العمل مع خدمة محاسبة التكاليف
+title: الشروع في العمل مع خدمة محاسبة التكاليف (معاينة خاصة)
 description: يوفر هذا الموضوع تفاصيل الترخيص وتعليمات التثبيت لخدمة محاسبة التكاليف.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276884"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372726"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>الشروع في العمل مع خدمة محاسبة التكاليف
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>الشروع في العمل مع خدمة محاسبة التكاليف (معاينة خاصة)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ ms.locfileid: "3276884"
 
 خدمة محاسبة التكاليف لا تدعم حاليًا كافة ميزات إدارة التكلفة المدمجة في Dynamics 365 Supply Chain Management. بالتالي، من المهم أن تجري تقييمًا بشأن ما إذا كانت مجموعة الميزات المتوفرة حاليًا ستلبي متطلباتك أم لا.
 
-## <a name="licensing"></a>الترخيص
-
-يجري ترخيص خدمة محاسبة التكاليف معًا مع الميزات القياسية لمحاسبة المخزون المتوفرة لـ Supply Chain Management. لا يتعين عليك شراء ترخيص إضافي لاستخدام خدمة محاسبة التكاليف.
-
-## <a name="install-the-add-in"></a>تثبيت الوظيفة الإضافية
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>كيف تحصل على خدمة محاسبة التكاليف (معاينة خاصة)
 
 > [!IMPORTANT]
 > لاستخدام خدمة محاسبة التكاليف، يجب أن يكون لديك بيئة عالية الاتاحة تم تمكين LCS عليها (ليس بيئة OneBox)، ويجب أن يتم تشغيل Dynamics 365 Supply Chain Management الإصدار 10.0.11 أو أكثر.
 
+للتسجيل في المعاينة الخاصة لخدمة محاسبة التكاليف، الرجاء إرسال معرف بيئة LCS الخاص بك بالبريد الإلكتروني إلى [خدمة محاسبة التكاليف (المعاينة الخاصة)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29). عند اعتمادك للبرنامج، سنرسل لك بريدًا إلكترونيًا للمتابعة يحتوي على مفتاح بيتا لخدمة محاسبة التكاليف. عند استلام مفتاح بيتا، يمكنك المتابعة عن طريق [تثبيت الوظيفة الإضافية](#install).
+
+## <a name="licensing"></a>الترخيص
+
+يجري ترخيص خدمة محاسبة التكاليف معًا مع الميزات القياسية لمحاسبة المخزون المتوفرة لـ Supply Chain Management. لا يتعين عليك شراء ترخيص إضافي لاستخدام خدمة محاسبة التكاليف.
+
+## <a name="install-the-add-in"></a><a name="install"></a>تثبيت الوظيفة الإضافية
+
 لاستخدام خدمة محاسبة التكاليف، قم بتثبيت الوظيفة الإضافية لخدمة محاسبة التكاليف لـ Supply Chain Management كما هو موضح في الإجراء التالي.
+
+1. [التسجيل](#sign-up) في خدمة محاسبة التكاليف (معاينة خاصة).
 
 1. سجل الدخول إلى LCS.
 

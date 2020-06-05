@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: استكشاف مشكلات تطبيق الحزمة وإصلاحها
                   href: deployment/deployable-package-troubleshooting.md
+            - name: نشر تعليمات مخصصة
+              items:
+                - name: نظرة عامة حول التعليمات المخصصة
+                  href: help/custom-help-overview.md
+                - name: إعداد محتوى لاستخدامه مع الجزء "تعليمات"
+                  href: help/preparing-content.md
+                - name: نشر تعليمات مخصصة إلى Azure
+                  href: help/walkthrough-help-azure.md
+                - name: توصيل التعليمات المخصصة بالجزء "تعليمات"
+                  href: help/connect-help-pane.md
+                - name: مجموعة أدوات التعليمات المخصصة
+                  items:
+                    - name: نظرة عامة
+                      href: help/custom-help-toolkit.md
+                    - name: أداة HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: أداة Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: أداة HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: تحويل التعليمات المخصصة لـ Dynamics AX للاستخدام في Dynamics 365
+                      href: help/migrate-dynamicsax2012.md
+                - name: واصفات اللغة والإعدادات المحلية عبر المنتج والتعليمات
+                  href: help/language-locale.md
+                - name: التوسيع والتخصيص والتعاون في التعليمات
+                  href: help/contributor-guide.md
         - name: التطوير والتخصيص
           items:
             - name: الصفحة الرئيسية للتطوير والتخصيص
@@ -835,7 +861,7 @@
                     - name: إصدار تغييرات قابلية التوسعة 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: التغييرات القابلية للتوسعة في الإصدار 8.0
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: التغييرات القابلية للتوسعة في الإصدار 7.3
                       href: extensibility/extensibility-changes-73.md
                     - name: تغييرات قابلية للتوسعة في يوليو 2017
