@@ -14,6 +14,8 @@
               items:
                 - name: الجديد أو المتغير‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي لـ 10.0.12 (أغسطس 2020)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: تحديثات النظام الأساسي لـ 10.0.11 (يوليو 2020)
                   href: get-started/whats-new-platform-update-35.md
                 - name: تحديثات النظام الأساسي لـ 10.0.10 (مايو 2020)
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: العامل والوظيفة والمنصب المتكامل
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: توفر المخزون
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: دعم الكتابة المزدوجة
                           items:
                             - name: دعم حلول Field Service وحلول Project Service Automation
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: تطبيق التحديثات على بيئات السحابة
                   href: deployment/apply-deployable-package-system.md
-                - name: تطبيق التحديثات والملحقات على مكونات قناة Retail المستضافة في السحابة
+                - name: تطبيق التحديثات والملحقات على Commerce Scale Unit (السحابة)
                   href: deployment/Update-retail-channel.md
-                - name: تهيئة Retail Cloud Scale Unit
+                - name: تهيئة Commerce Scale Unit (السحابة)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: موقع إقامة بيانات Retail
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: اتصال إنترنت العميل
                       href: user-interface/client-disconnected.md
+                    - name: تكوين الدُفعة فقط وعُقد AOS التفاعلية فقط في عمليات النشر المحلية
+                      href: deployment/onprem-batchonly.md
                     - name: تكوين الوكلاء للبيئات المحلية
                       href: deployment/onprem-reverseproxy.md
                     - name: تشخيصات محلية
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: دليل مستخدم Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
+            - name: إعداد مشروع
+              href: lifecycle-services/project-onboarding.md
             - name: أداة تقدير الاشتراك
               href: lifecycle-services/subscription-estimator.md
             - name: تكوين الأمان
@@ -1118,9 +1126,23 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: ملفات ذاكرة الترجمة
                   href: lifecycle-services/use-translation-service-tm.md
-        - name: النظام الأساسي للجوال
+        - name: تكامل Microsoft Power Platform
           items:
-            - name: موارد النظام الأساسي للجوال
+            - name: تكامل Microsoft Power Platform مع Finance and Operations
+              href: power-platform/overview.md
+            - name: تصميم الكيان
+              href: power-platform/entity-modeling.md
+            - name: إدارة دورة حياة التطبيق
+              href: power-platform/application-lifecycle-management.md
+            - name: مرجع مسؤول Finance and Operations وCommon Data Service
+              href: power-platform/admin-reference.md
+            - name: مداخل Power Apps مع Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: الأسئلة المتداولة كيانات Finance and Operations الافتراضية
+              href: power-platform/faq.md
+        - name: النظام الأساسي للأجهزة المحمولة
+          items:
+            - name: موارد النظام الأساسي للأجهزة المحمولة
               href: mobile-apps/platform/mobile-platform-home-page.md
             - name: البدء
               items:
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: التثبيت والتكوين
               href: perf-test/rsat/rsat-install-configure.md
-            - name: اختبار عدم تحديد البيانات باستخدام Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: تشغيل حالات الاختبار
+            - name: استخدام برنامج Regression suite automation tool
               href: perf-test/rsat/rsat-run.md
             - name: التحقق من صحة القيم المتوقعة
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: حالات الاختبار المشتقة
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: استخدام برنامج Regression suite automation tool التعليمي
+            - name: برنامج Regression suite automation tool التعليمي والميزات الأخرى
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: أفضل الممارسات
               href: perf-test/rsat/rsat-best-practices.md
+            - name: اختبار عدم تحديد البيانات باستخدام Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: استكشاف الأخطاء وإصلاحها
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: إصدار حلول باستخدام Lifecycle Services
@@ -1436,12 +1458,14 @@
                   href: sysadmin/batch-processing-overview.md
                 - name: مُعالجة الدُفعات وخوادم الدُفعات
                   href: sysadmin/batch-server-overview.md
-                - name: إنشاء وظائف دُفعية
+                - name: إنشاء وظائف دفعية
                   href: sysadmin/tasks/create-batch-job.md
                 - name: نسخ وظيفة دُفعية
                   href: sysadmin/copy-batch-job.md
                 - name: الفترات النشطة للوظائف الدُفعية
                   href: sysadmin/activeperiod.md
+                - name: دعم التوقيت الصيفي لفترات الدُفعة النشطة
+                  href: sysadmin/batch-active-period-dst.md
                 - name: دور أمان مدير الدُفعة
                   href: sysadmin/runby.md
                 - name: وظيفة دُفعية للتعامل مع إلغاء تجزئة فهرس SQL
