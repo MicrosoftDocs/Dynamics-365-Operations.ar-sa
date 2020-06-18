@@ -2371,7 +2371,7 @@
                     - name: نظرة عامة على أصحاب السُلف في روسيا
                       href: localizations/rus-advance-holders.md
                     - name: إنشاء صاحب سلفة
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: العمليات اليومية لأصحاب السلف
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: "تقارير السُلف\_مع رقابة\_الموازنة"
@@ -3346,7 +3346,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services ‏(RCS)
                   items:
-                    - name: Regulatory Configuration Service ‏(RCS) - ميزات العولمة
+                    - name: Regulatory Configuration Services ‏(RCS) - ميزات العولمة
                       href: localizations/rcs-globalization-feature.md
                     - name: تنزيل تكوينات التقارير الإلكترونية إلى Finance
                       items:
