@@ -3,7 +3,7 @@ title: تمكين توصيات المنتجات
 description: يوضح هذا الموضوع كيفية عمل توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) المتوفرة لعملاء Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259784"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404199"
 ---
 # <a name="enable-product-recommendations"></a>تمكين توصيات المنتجات
 
@@ -34,11 +34,11 @@ ms.locfileid: "3259784"
 
 ## <a name="recommendations-pre-check"></a>توصيات قبل الفحص
 
-قبل التمكين، يرجى العلم أن توصيات المنتج غير مدعومة إلا لعملاء Commerce ممن قاموا بترحيل التخزين باستخدام Azure Data Lake Storage (ADLS). 
+قبل التمكين، يرجى العلم أن توصيات المنتج غير مدعومة إلا لعملاء Commerce ممن قاموا بترحيل مساحة التخزين باستخدام Azure Data Lake Storage. 
 
 يجب تمكين التكوينات التالية في المكتب الخلفي قبل تمكين التوصيات:
 
-1. التأكد من شراء ADLS والتحقق منه في البيئة بنجاح. لمزيد من المعلومات [التأكد من شراء ADLS والتحقق منه في البيئة بنجاح](enable-ADLS-environment.md).
+1. تأكد من شراء Azure Data Lake Storage والتحقق منه في البيئة بنجاح. لمزيد من المعلومات، راجع [التأكد من شراء Azure Data Lake Storage والتحقق منه في البيئة بنجاح](enable-ADLS-environment.md).
 2. التأكد من تعيين التنفيذ التلقائي لتحديث مخزن الكيانات‬. لمزيد من المعلومات، راجع [التأكد من تعيين التنفيذ التلقائي لتحديث مخزن الكيانات](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. التأكد من أن تكوين الهوية في Azure AD يحتوي على إدخال للتوصيات. توجد أدناه معلومات اضافيه حول كيفية تنفيذ هذا الإجراء.
 
@@ -84,7 +84,7 @@ ms.locfileid: "3259784"
 
 ## <a name="enable-personalized-recommendations"></a>تمكين التوصيات المخصصة
 
-وفي Dynamics 365 Commerce، يمكن لبائعي التجزئة إجراء توصيات للمنتجات الشخصية (والتي تعرف أيضا بالتخصيص) المتوفرة. وبهذه الطريقة، يمكن دمج التوصيات الشخصية في تجربه العميل عبر الإنترنت وفي نقطه البيع. عند تشغيل وظيفة إضفاء الطابع الشخصي ، يمكن للنظام ربط معلومات الشراء والمنتج الخاصة بالمستخدم لإنشاء توصيات منتج إينديفيدواليزيد.
+وفي Dynamics 365 Commerce، يمكن لبائعي التجزئة إجراء توصيات للمنتجات الشخصية (والتي تعرف أيضا بالتخصيص) المتوفرة. وبهذه الطريقة، يمكن دمج التوصيات الشخصية في تجربه العميل عبر الإنترنت وفي نقطه البيع. عند تشغيل وظيفة إضفاء الطابع الشخصي، يمكن للنظام ربط معلومات الشراء والمنتج الخاصة بالمستخدم لإنشاء توصيات منتج إينديفيدواليزيد.
 
 لمعرفة المزيد حول كيفية تلقي توصيات مخصصة، راجع [تمكين التوصيات المخصصة](personalized-recommendations.md).
 
@@ -92,7 +92,7 @@ ms.locfileid: "3259784"
 
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
-[تمكين ADLS في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
+[تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
 
 [تمكين التوصيات المخصصة](personalized-recommendations.md)
 

@@ -3,7 +3,7 @@ title: نظرة عامة على توصيات المنتجات
 description: يوفر هذا الموضوع معلومات عامة حول توصيات المنتج. تسمح توصيات المنتجات للعملاء بالبحث عن المنتجات التي يريدونها بسهولة وسرعة، وحتى المنتجات التي لم يرغبون بشراءها.
 author: Moonma
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e61136ed296d673e14600762c6f6199093530546
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154216"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404338"
 ---
 # <a name="product-recommendations-overview"></a>نظرة عامة على توصيات المنتجات
 
@@ -40,7 +40,7 @@ ms.locfileid: "3154216"
 
 تستخدم خدمه توصيات المنتجات تقنيات الذكاء الاصطناعي والتعلم الآلي (AI-ML) بالطريقة التالية:
 
-- يتم استخراج البيانات بالتنسيق المطلوب من خلال خدمة التوصيات من قاعدة البيانات التشغيلية في تطبيق Commerce وإرسالها إلى Azure Data Lake Storage (ADLS) أو متجر الكيانات.
+- يتم استخراج البيانات بالتنسيق المطلوب من خلال خدمة التوصيات من قاعدة البيانات التشغيلية في تطبيق Commerce ويتم إرسالها إلى Azure Data Lake Storage أو مخزن الكيانات.
 - تستخدم خدمة التوصيات البيانات المخزنة لتدريب نماذج التوصيات للقوائم ‫‬‏‫**أشخاص معجبون به أيضًا‬‏‫**، و**الأغراض التي يتم شراؤها معًا كثيرًا**‬‏‫ و**جديد** و**الأفضل مبيعًا**‬‏‫ و**المتداول**.
 
 ## <a name="scenarios"></a>السيناريوهات
@@ -67,7 +67,7 @@ ms.locfileid: "3154216"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[تمكين ADLS في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
+[تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
 
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
 

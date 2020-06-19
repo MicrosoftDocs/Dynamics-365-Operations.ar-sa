@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007913"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410048"
 ---
 # <a name="overview"></a>نظرة عامة
 
@@ -35,14 +35,14 @@ ms.locfileid: "3007913"
   - [توفير Human Resources](hr-admin-setup-provision.md)
   - [نسخ مثيل](hr-admin-setup-copy-instance.md)
   - [إزالة مثيل](hr-admin-setup-remove-instance.md)
-  - [عملية التحديث](hr-admin-setup-update-process.md)
+  - [تحديث العملية](hr-admin-setup-update-process.md)
 
-- إعداد تكامل البيانات
+- إعداد تكامل البينات
   - [اختر تكنولوجيا تكامل البيانات](hr-admin-integration-choose-technology.md)
   - [تكوين تكامل Common Data Service ](hr-admin-integration-common-data-service.md)
-  - [تكوين التكامل مع Finance ](hr-admin-integration-finance.md)
-  - [تكوين التكامل مع Dayforce ](hr-admin-integration-dayforce.md)
-  - [إنشاء تطبيق تصدير بيانات متكررة](hr-admin-integration-recurring-data-export.md)
+  - [تكوين التكامل مع Finance](hr-admin-integration-finance.md)
+  - [تكوين التكامل مع Dayforce](hr-admin-integration-dayforce.md)
+  - [إنشاء تطبيق تصدير البيانات المتكررة](hr-admin-integration-recurring-data-export.md)
   - التكامل مع Office
     - [برنامج تعليمي لتكامل Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [تحديث بيانات الكيان في Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -75,20 +75,19 @@ ms.locfileid: "3007913"
 - موارد الوثائق
   - [نظام التعليمات](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [الاتصال بنظام التعليمات](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [الاتصال بموقع تعليمات مخصص](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [عرض أوصاف الحقول وتصديرها](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [مسجل المهام](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [إنشاء الوثائق أو التدريب بمسجل المهام](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- استكشاف المشكلات وإصلاحها في Human Resources
+- استكشاف أخطاء Human Resources وإصلاحها
   - [الحصول على الدعم](hr-admin-troubleshooting-support.md)
   - [تحسين الأداء باستخدام مهام التنظيف التلقائية](hr-admin-troubleshooting-batch-history.md)
   - [لم يتم تحديث تقارير التحليلات](hr-admin-troubleshooting-analytic-reports.md)
   - [تعذر إنشاء بيئة في مركز إدارة Power Apps ](hr-admin-troubleshooting-power-apps.md)
-  - [قطع اتصال عميل](hr-admin-troubleshooting-disconnect.md)
+  - [قطع اتصال العميل](hr-admin-troubleshooting-disconnect.md)
   - [تجنب النص المقتطع في التدرج الهرمي للمنصب](hr-admin-troubleshooting-truncate.md)
   - [تشغيل عملية التعويض](hr-admin-troubleshooting-compensation.md)
-  - [حفظ دليل المهام إلى LCS](hr-admin-troubleshooting-task-guide.md)
+  - [حفظ دليل المهام في LCS](hr-admin-troubleshooting-task-guide.md)
   - [الوصول إلى العناوين الخاصة حسب دور الأمان](hr-admin-troubleshooting-private-addresses.md)
   - [لا يظهر Human Resources في تطبيقات Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [خيارات إعداد التقارير](hr-admin-troubleshooting-reporting.md)

@@ -11,18 +11,18 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d2c029f6e5654f0da399ee7fc26ead6d787e59f5
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 69db88dd5a30d35cbc2c5b46f0ab3fbce057f799
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278913"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418505"
 ---
 # <a name="microsoft-partner-sales-and-marketing-learning-catalog"></a>كتالوج تعلّم التسويق والمبيعات لشريك Microsoft
 
 هل أنت مسؤول عن مساعدة عملائك على شراء الحل المناسب؟ 
 
-تم تنظيم الكتالوج التالي من خلال المعرفة الأساسية لمجالات معنية ومن أبسط المستويات إلى أكثرها تقدمًا. إذا كان المحتوى موجود بتنسيقات مُتعددة، فسوف نُعلمك بذلك، بحيث تتمكن من اختيار تنسيق التدريب الأمثل لاحتياجاتك. 
+تم تنظيم الكتالوج التالي من خلال المعرفة الأساسية لمجالات معنية ومن أبسط المستويات إلى أكثرها تقدمًا. إذا كان المحتوى موجود بتنسيقات مُتعدة، فسوف نُعلمك بذلك، بحيث تتمكن من اختيار تنسيق التدريب الأمثل لاحتياجاتك. 
 
 
 ## <a name="get-started"></a>البدء<a name="get-started"></a>
@@ -31,7 +31,7 @@ ms.locfileid: "3278913"
 | [تعرف على قيمة الأعمال الخاصة بـ Microsoft Dynamics 365و Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | هل أنت مُهتم في معرفة تطبيقات الأعمال؟ ربما لا تعرف من أين تبدأ مع تطبيقات Microsoft Dynamics 365 وPower Platform؟ تعلم كيف يمكن لإمكانات تطبيقات الأعمال مساعدتك في إحداث تحويل في شركتك.  | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم                                          | 7 ساعات |
 | [Dynamics 365 والقواعد الأساسية لـ Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)  | هل أنت مُهتم في معرفة تطبيقات الأعمال؟ أبدا بالمسار التعليمي هذا لمعرفة كيفية استخدام تطبيقات Dynamics 365. تعرف على مفاهمين السحابة وPower Platform وكيفية البدء في استخدام تطبيقات Dynamics 365. | 5.5 ساعات |
 | [بدء استخدام تطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-with-dynamics-365-for-finance-and-ops/)  | تعرف كيف يدعم تطبيق Finance and Operations الأعمال لإدارة الأنظمة المالية العمومية والعمليات التجارية التشغيلية وسلاسل التوريد الانسيبابية لتمكين الأشخاص من اتخاذ قرارات سريعة وصائبة. وكخطوة أولى في مسيرتك المهنية للعمل باستخدام تطبيقات Finance and Operations، يجب أن تكون على دراية بميزاته ووظائفه، بصرف النظر عن دورك المرغوب فيه. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم   | ساعتان |
-| [الدورة MB-900T01-A: القواعد الأساسية لـ Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)  | وسوف تُعرف هذه الدورة التدريبية المُتعلم على وظيفة Dynamics 365 وقيمة الأعمال. وسوف تغطي هذه الدورة تطبيقات Dynamics 365 وPower Platform ومفاهيم السحابة ونموذج الأمان واعتبارات الترخيص.  | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت؛ تختلف التكلفة حسب المنطقة والشريك. | يوم واحد      |
+
 
 
 ## <a name="exam"></a>اختبار<a name="exam"></a>
