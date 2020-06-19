@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057546"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403205"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>نظرة عامة على التكامل المالي لقنوات Commerce
 
@@ -139,6 +139,7 @@ ms.locfileid: "3057546"
 - [عينة تكامل خدمة التسجيل المالي للنمسا](emea-aut-fi-sample.md)
 - [عينة تكامل خدمة التسجيل المالي لجمهورية التشيك‬](emea-cze-fi-sample.md)
 - [نموذج تكامل وحدة التحكم للسويد](./emea-swe-fi-sample.md)
+- [عينة تكامل خدمة التسجيل المالي لألمانيا](./emea-deu-fi-sample.md)
 
 تتوفر أيضًا وظيفة التكامل المالي التالية في Retail SDK ولكنها لا تستفيد حاليًا من إطار عمل التكامل المالي. تم التخطيط لعملية ترحيل هذه الوظيفة إلى إطار عمل التكامل المالي لتحديثات لاحقة.
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EssWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d871bead89e48e65c411686e1bf3697b13b9a5aa
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: f4c2d082ebe7f97d5c649c38d2462a3c011aa0e7
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008005"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429579"
 ---
 # <a name="request-time-off"></a>طلب زمن التوقف
 
@@ -33,7 +33,7 @@ ms.locfileid: "3008005"
 
 1. في مساحة **خدمة الموظف الذاتية** حدد **طلب زمن التوقف** في اللوحة **أرصدة زمن التوقف**.
 
-2. قم بإدخال المعلومات المطلوبة في **نوع الإجازة** و **‏‫رمز السبب** و **تاريخ البدء** و **تاريخ الإنتهاء**.
+2. قم بإدخال المعلومات المطلوبة في **نوع الإجازة** و **‏‫رمز السبب** و **تاريخ البدء** و **تاريخ الانتهاء**.
 
 3. ضمن **التواريخ**، حدد تواريخ طلب الإجازة الخاصة بك.
 
@@ -42,6 +42,12 @@ ms.locfileid: "3008005"
 5. أدخل المعلومات في **التعليق**، إذا لزم الأمر.
 
 6. حدد **إرسال** عندما تكون مستعدا لتقديم طلبك. وإلا، حدد **حفظ المسودة**.
+
+## <a name="add-an-attachment-to-an-existing-request"></a>إضافة مرفق إلى طلب موجود
+
+[!include [banner](includes/preview-feature.md)]
+
+عند تحديث طلب إجازة موجود، يمكنك إضافة مرفق. يمكنك أيضًا رؤية كافة الطلبات ذات الصلة لتاريخ محدد. 
 
 ## <a name="view-leave-balances"></a>عرض أرصدة الإجازات
 

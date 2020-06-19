@@ -3,7 +3,7 @@ title: ضبط نتائج توصيات المنتجات المستندة إلى A
 description: يوضح هذا الموضوع كيفية نفصيل نتائج توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) مع احتياجات أعمالك.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afd9271c680b1f4248d6e60036f3e79d204dc3c2
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0b4228583c4a2b89d7139b51880cea0288d7fe49
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154331"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404361"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>ضبط نتائج توصيات المنتجات المستندة إلى AI-ML
 
@@ -66,7 +66,7 @@ ms.locfileid: "3154331"
 1.  في قائمة المعلمات المشتركة، حدد **قوائم التوصيات**.
 1.  حدد القائمة التي تريد إضافة أو إزالة منتجات منها.
 1.  لإضافة منتجات إلى الجدول، حدد **إضافة بند**. 
-1.  ضمن عمود المنتج ، ابحث عن منتج حسب **الاسم** أو **رقم المنتج**.
+1.  ضمن عمود المنتج، ابحث عن منتج حسب **الاسم** أو **رقم المنتج**.
 
     ![أمثله للبحث عن منتج في قائمة المنتجات الجديدة](./media/examplenewlistconfiguration1.png)
 
@@ -102,7 +102,7 @@ ms.locfileid: "3154331"
 
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
-[تمكين ADLS في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
+[تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
 
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
 

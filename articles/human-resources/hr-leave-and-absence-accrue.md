@@ -3,12 +3,12 @@ title: استحقاق خطط الإجازة والغياب
 description: يمكنك تسجيل الإجازات والغياب في Dynamics 365 Human Resources للعديد من الموظفين أو لفرد واحد.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197303"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429049"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>استحقاق خطط الإجازة والغياب
 
@@ -37,7 +37,7 @@ ms.locfileid: "3197303"
 
 3. يظهر مربع الحوار **استحقاق خطط الإجازة والغياب‬**. في **استحقاق اعتبارًا من**، حدد **تاريخ اليوم** أو **تاريخ مخصص** وأدخل تاريخًا مخصصًا.
 
-4. إذا كنت ترغب في تشغيل عملية التسجيل في الخلفية ، حدد **تشغيل في الخلفية** وقم بالمهام التالية:
+4. إذا كنت ترغب في تشغيل عملية التسجيل في الخلفية، حدد **تشغيل في الخلفية** وقم بالمهام التالية:
 
    1. أدخل معلومات لعملية التسجيل.
 
@@ -55,7 +55,7 @@ ms.locfileid: "3197303"
 
 3. يظهر مربع الحوار **استحقاق خطط الإجازة والغياب‬**. في **استحقاق اعتبارًا من**، حدد **تاريخ اليوم** أو **تاريخ مخصص** وأدخل تاريخًا مخصصًا.
 
-4. إذا كنت ترغب في تشغيل عملية التسجيل في الخلفية ، حدد **تشغيل في الخلفية** وقم بالمهام التالية:
+4. إذا كنت ترغب في تشغيل عملية التسجيل في الخلفية، حدد **تشغيل في الخلفية** وقم بالمهام التالية:
 
    1. أدخل معلومات لعملية التسجيل.
 
@@ -103,7 +103,19 @@ ms.locfileid: "3197303"
 
 2. ضمن **إدارة الإجازة**، حدد **حذف تدقيق استحقاق الإجازة**.
 
+## <a name="configure-preview-features"></a>تكوين ميزات المعاينة
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+إذا قمت بتمكين ميزات المعاينة للإجازة والغياب، فانك تحتاج إلى تكوين إعدادات لها أيضا.
+
+### <a name="accrue-leave-per-company-or-per-leave-plan"></a>استحقاق الإجازات لكل شركة أو خطة إجازة
+
+عند تشغيل استحقاق خطط الإجازات والغياب، يمكنك اختيار استحقاقها لجميع الشركات. إذا اخترت جميع الشركات‬، فلا يمكنك تحديد خطط إجازات فردية. إذا اخترت عدم استحقاق الإجازات لجميع الشركات، فيكنك تشغيل استحقاقها لخطة إجازة معينة. 
+
+تتوفر هذه الخيارات عند تشغيل الاستحقاق لجميع الموظفين أو موظفين فرديين. 
+
 ## <a name="see-also"></a>راجع أيضًا
 
-- [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
-- [إنشاء خطة الإجازة والغياب](hr-leave-and-absence-plans.md)
+[نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)</br>
+[إنشاء خطة الإجازة والغياب](hr-leave-and-absence-plans.md)

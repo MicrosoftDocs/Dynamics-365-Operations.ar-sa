@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb363369994d99f358be0c23cdaf1dbc80b644e5
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092282"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431235"
 ---
 # <a name="copy-an-instance"></a>نسخ مثيل
 
-يمكنك استخدام Microsoft Dynamics Lifecycle Services (LCS) لنسخ قاعدة بيانات Microsoft Dynamics 365 Human Resources إلى بيئة وضع الحماية. إذا كان لديك بيئة وضع حماية أخرى ، يمكنك أيضًا نسخ قاعدة البيانات من تلك البيئة إلى بيئة وضع حماية مستهدفة.
+يمكنك استخدام Microsoft Dynamics Lifecycle Services (LCS) لنسخ قاعدة بيانات Microsoft Dynamics 365 Human Resources إلى بيئة وضع الحماية. إذا كان لديك بيئة وضع حماية أخرى، يمكنك أيضًا نسخ قاعدة البيانات من تلك البيئة إلى بيئة وضع حماية مستهدفة.
 
 لنسخ مثيل، تحتاج إلى التأكد من التالي:
 
@@ -37,7 +37,7 @@ ms.locfileid: "3092282"
 
 - يجب أن تكون مسؤولًا في البيئة الهدف بحيث يُمكنك تسجيل الدخول إليها بعد نسخ المثيل.
 
-- عند نسخ قاعدة Human Resources، لا تقوم بنسخ العناصر (التطبيقات أو البيانات) المُضمنة في بيئة Microsoft PowerApps. للحصول على معلومات حول كيفية نسخ العناصر في بيئة PowerApps ، راجع [نسخ بيئة ](https://docs.microsoft.com/power-platform/admin/copy-environment). يجب أن تكون بيئة PowerApps التي تريد استبدالها بيئة وضع الحماية. يجب أن تكون مسؤول مستأجر عمومي لتغيير بيئة انتاج PowerApps إلى بيئة حماية. لمزيد من المعلومات حول تغيير بيئة PowerApps، راجع [تبديل مثيل](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- عند نسخ قاعدة Human Resources، لا تقوم بنسخ العناصر (التطبيقات أو البيانات) المُضمنة في بيئة Microsoft PowerApps. للحصول على معلومات حول كيفية نسخ العناصر في بيئة PowerApps، راجع [نسخ بيئة ](https://docs.microsoft.com/power-platform/admin/copy-environment). يجب أن تكون بيئة PowerApps التي تريد استبدالها بيئة وضع الحماية. يجب أن تكون مسؤول مستأجر عمومي لتغيير بيئة انتاج PowerApps إلى بيئة حماية. لمزيد من المعلومات حول تغيير بيئة PowerApps، راجع [تبديل مثيل](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>تأثيرات نسخ قاعدة بيانات Human Resources
 
@@ -64,9 +64,9 @@ ms.locfileid: "3092282"
 
 2. في مشروع LCS، حدد تجانب **"إدارة تطبيق Human Resources**.
 
-3. حدد المثيل المراد نسخه ، ثم حدد **نسخ**.
+3. حدد المثيل المراد نسخه، ثم حدد **نسخ**.
 
-4. في جزء المهام **نسخ مثيل** ، حدد المثيل المراد استبداله، ثم حدد **نسخ**. انتظر حتي يتم تحديث قيمة حقل **نسخ الحالة** إلى **مكتمل**.
+4. في جزء المهام **نسخ مثيل**، حدد المثيل المراد استبداله، ثم حدد **نسخ**. انتظر حتي يتم تحديث قيمة حقل **نسخ الحالة** إلى **مكتمل**.
 
    ![[تحديد مثيل لاستبداله](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
@@ -76,7 +76,7 @@ ms.locfileid: "3092282"
 
 6. حدد بيئة PowerApps المراد نسخها، ثم حدد **نسخ**.
 
-7. عند اكتمال عمليه النسخ ، قم بتسجيل الدخول إلى المثيل الهدف، وتمكين تكامل Common Data Service. لمزيد من المعلومات والتعليمات، راجع [تكوين تكامل Common Data Service ](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. عند اكتمال عمليه النسخ، قم بتسجيل الدخول إلى المثيل الهدف، وتمكين تكامل Common Data Service. لمزيد من المعلومات والتعليمات، راجع [تكوين تكامل Common Data Service ](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>عناصر البيانات والحالات
 

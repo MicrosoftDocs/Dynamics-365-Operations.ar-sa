@@ -1,6 +1,6 @@
 ---
-title: تمكين ADLS في بيئة Dynamics 365 Commerce
-description: يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage (ADLS) لإحدى بيئات Dynamics 365 Commerce، والتي تعتبر متطلبًا أساسيًا لتمكين توصيات المنتج.
+title: تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce
+description: يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage لبيئة Dynamics 365 Commerce، وهو عبارة عن شرط أساسي لتمكين توصيات المنتج.
 author: bebeale
 manager: AnnBe
 ms.date: 04/13/2020
@@ -19,57 +19,57 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259738"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404176"
 ---
-# <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>تمكين ADLS في بيئة Dynamics 365 Commerce
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage (ADLS) لإحدى بيئات Dynamics 365 Commerce، والتي تعتبر متطلبًا أساسيًا لتمكين توصيات المنتج.
+يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage لبيئة Dynamics 365 Commerce، وهو عبارة عن شرط أساسي لتمكين توصيات المنتج.
 
 ## <a name="overview"></a>نظرة عامة
 
-في الحل Dynamics 365 Commerce، يتم تعقب كل المنتجات والحركات في مخزن كيانات البيئة. لتمكين وصول هذه البيانات لخدمات Dynamics 365 الأخرى، مثل تحليلات البيانات والمعلومات المهنية والتوصيات المخصصة، من الضروري توصيل البيئة بحل Azure Data Lake Storage (ADLS) المملوك للعميل من الجيل الثاني.
+في الحل Dynamics 365 Commerce، يتم تعقب كل المنتجات والحركات في مخزن كيانات البيئة. لتمكين وصول هذه البيانات لخدمات Dynamics 365 الأخرى، مثل تحليلات البيانات والمعلومات المهنية والتوصيات المخصصة، من الضروري توصيل البيئة بحل Azure Data Lake Storage Gen 2 الذي يملكه العميل.
 
-بتكوين ADLS لإحدى البيئات، يتم إجراء نسخًا متطابقًا لكل البيانات الضرورية من مخزن الوحدات أثناء حمايتها والاحتفاظ بها في تحكم العميل.
+مع تكوين Azure Data Lake Storage لبيئة، يتم إجراء نسخ متطابق لكل البيانات الضرورية من مخزن الوحدات وهي لا تزال محمية وخاضعة لمراقبة العميل.
 
-في حالة تمكين توصيات المنتج أو التوصيات المخصصة أيضًا في البيئة، سيتم منح مكدس توصيات المنتجات إمكانية الوصول إلى المجلد المخصص في ADLS لاسترداد بيانات العميل وحساب التوصيات استنادًا إليه.
+في حالة تمكين توصيات المنتجات‬ أو التوصيات المخصصة أيضًا في البيئة، سيتم منح مكدس توصيات المنتجات إمكانية الوصول إلى المجلد المخصص في Azure Data Lake Storage لاسترداد بيانات العميل وحساب التوصيات استنادًا إليه.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-يحتاج العملاء إلى تكوين ADLS في أحد اشتراكات Azure التي يملكونها. لا يتناول هذا الموضوع شراء اشتراك Azure أو إعداد حساب تخزين تم تمكين ADLS له.
+يحتاج العملاء إلى تكوين Azure Data Lake Storage في أحد اشتراكات Azure التي يملكونها. لا يتناول هذا الموضوع شراء اشتراك Azure أو إعداد حساب تخزين تم تمكين Azure Data Lake Storage له.
 
-لمزيد من المعلومات حول ADLS، راجع [وثائق ADLS الرسمية](https://azure.microsoft.com/pricing/details/storage/data-lake).
+لمزيد من المعلومات حول Azure Data Lake Storage، راجع [ وثائق Azure Data Lake Storage Gen2](https://azure.microsoft.com/pricing/details/storage/data-lake).
   
 ## <a name="configuration-steps"></a>خطوات التكوين
 
-يغطي هذا القسم خطوات التكوين الضرورية لتمكين ADLS في بيئة ما كما يتعلق بتوصيات المنتج.
-للحصول على نظرة عامة أكثر عمقًا للخطوات المطلوبة لتمكين ADLS، راجع [جعل مخزن الكيانات‬ متوفرًا كـ Data Lake‬](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+يغطي هذا القسم خطوات التكوين الضرورية لتمكين Azure Data Lake Storage في بيئة ما كما يتعلق بتوصيات المنتجات.
+للحصول على نظرة عامة أكثر عمقًا للخطوات المطلوبة لتمكين Azure Data Lake Storage، راجع [جعل مخزن الكيانات‬ متوفرًا كـ Data Lake‬](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
-### <a name="enable-adls-in-the-environment"></a>تمكين ADLS في البيئة
+### <a name="enable-azure-data-lake-storage-in-the-environment"></a>تمكين Azure Data Lake Storage في البيئة
 
 1. سجل الدخول إلى مدخل المكتب الخلفي للبيئة.
 1. ابحث عن **معلمات النظام** وانتقل إلى علامة التبويب **اتصالات البيانات**. 
 1. عيِّن **تمكين تكامل Data Lake** على **نعم**.
 1. عيِّن **تحديث Data Lake بشكل تدريجي** على **نعم**.
 1. ثم أدخل المعلومات المطلوبة التالية:
-    1. **معرف التطبيق** // **سر التطبيق** // **اسم DNS** - المطلوب للاتصال ب KeyVault حيث يتم تخزين سر ADLS.
-    1. **الاسم السري** - الاسم السري المخزن في KeyVault والمستخدم للمصادقة مع ADLS.
+    1. **معرف التطبيق** // **سر التطبيق** // **اسم DNS** - مطلوب للاتصال ب KeyVault حيث يتم تخزين سر Azure Data Lake Storage.
+    1. **اسم السر** - اسم السر المخزن في KeyVault والمستخدم للمصادقة مع Azure Data Lake Storage.
 1. احفظ التغييرات في الجزء العلوي الأيمن من الصفحة.
 
-تعرض الصورة التالية مثالاً لتكوين ADLS.
+تعرض الصورة التالية مثالاً لتكوين Azure Data Lake Storage.
 
-![مثال لتكوين ADLS](./media/exampleADLSConfig1.png)
+![مثال لتكوين Azure Data Lake Storage](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-adls-connection"></a>اختبار اتصال ADLS
+### <a name="test-the-azure-data-lake-storage-connection"></a>اختبار اتصال Azure Data Lake Storage
 
 1. اختبار الاتصال بـ KeyVault باستخدام ارتباط **اختبار Azure Key Vault**.
-1. اختبار الاتصال بـ ADLS باستخدام ارتباط **اختبار Azure Storage**.
+1. اختبر اتصال Azure Data Lake Storage باستخدام ارتباط **اختبار Azure Storage**.
 
 > [!NOTE]
 > في حالة فشل الاختبارات، تحقق مرة أخرى من صحة كل معلومات KeyVault المضافة أعلاه، ثم حاول مرة أخرى.
@@ -86,7 +86,7 @@ ms.locfileid: "3259738"
 
 ![مثال على مخزن الكيانات مع تمكين التحديث التلقائي](./media/exampleADLSConfig2.png)
 
-تم تكوين ADLS الآن للبيئة. 
+تم الآن تكوين Azure Data Lake Storage للبيئة. 
 
 في حالة عدم الاكتمال بالفعل، اتبع الخطوات [لتمكين توصيات المنتج والتخصيص](enable-product-recommendations.md) للبيئة.
 

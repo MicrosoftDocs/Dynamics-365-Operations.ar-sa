@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 67501a1fa65493a1a23eb6176ece5be98d6e4659
-ms.sourcegitcommit: 7fc0726c0a93ce6f4dafaad3232b4687f61cdc88
+ms.openlocfilehash: b3daa76385518ad4c7150fa93ce33be0351bfd57
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "3392998"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428818"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
@@ -47,7 +47,7 @@ ms.locfileid: "3392998"
 
    ![تثبيت تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-in-store.png)
 
-إذا لم يقم التطبيق بتسجيل الدخول تلقائيًا ، حدد علامة التبويب **إعدادات** لتسجيل الدخول.
+إذا لم يقم التطبيق بتسجيل الدخول تلقائيًا، حدد علامة التبويب **إعدادات** لتسجيل الدخول.
 
 ![علامة تبويب الإعدادات في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-settings-tab.png)
 

@@ -3,7 +3,7 @@ title: "\"التقارير الإلكترونية - استخدام الأبعا�
 description: تشرح الخطوات التالية كيف يستطيع مسؤول النظام أو مطور التقارير الإلكترونية تكوين نموذج التقارير الإلكترونية لاستخدام الأبعاد المالية كمصدر بيانات للتقارير الإلكترونية.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b02496ebb06e0c2eb644fc7ef3280ca4eca05923
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: b951c9074c68a9f7592c17e0688498880397b223
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141990"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406533"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>"التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 1 - تصميم نموذج البيانات)
 
@@ -104,6 +104,8 @@ ms.locfileid: "3141990"
 66. انقر فوق "جديد" لفتح مربع حوار الإسقاط‬.
 67. في الحقل "الاسم"، اكتب "الاسم".
 68. وانقر فوق إضافة.
-69. انقر فوق "حفظ".
+69. انقر فوق حفظ.
 70. قم بإغلاق الصفحة.
+
+![صفحة مصمم نموذج بيانات التقارير الإلكترونية](../media/er-financial-dimensions-guides-data-model.png)
 

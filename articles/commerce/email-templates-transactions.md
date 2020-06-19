@@ -3,7 +3,7 @@ title: إنشاء قوالب بريد إلكتروني لأحداث الحركا
 description: يوضح هذا الموضوع كيفية إنشاء قوالب بريد إلكتروني وتحميلها وتكوينها لأحداث الحركات في Microsoft Dynamics 365 Commerce.
 author: stuharg
 manager: annbe
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5cd928e90654cca639ed1e163be9192c0dffd9ad
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: a02839088addfa9b405af486f3b795eace1671cc
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367165"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416569"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>إنشاء قوالب بريد إلكتروني لأحداث الحركات
 
@@ -40,7 +40,7 @@ ms.locfileid: "3367165"
 
 لإنشاء قالب بريد إلكتروني، اتبع هذه الخطوات.
 
-1. في Commerce headquarters، انتقل إلى **Retail and Commerce \> إعداد Headquarters \> قوالب البريد الإلكتروني للمؤسسة**.
+1. في Commerce headquarters، انتقل إلى **قوالب البريد الإلكتروني للمؤسسة** ضمن **Retail and Commerce \> إعداد Headquarters \> قوالب البريد الإلكتروني للمؤسسة** أو **إدارة المؤسسة \> إعداد \> قوالب البريد الإلكتروني للمؤسسة**.
 1. حدد **جديد**.
 1. ضمن **عام**، قم بتعيين الحقول التالية:
 
@@ -187,7 +187,7 @@ ms.locfileid: "3367165"
 1. حدد **تحرير**.
 1. في مربع الحوار الذي يظهر، حدد **استعراض**. قم بالاستعراض بحثا عن مستند HTML الذي تريد تحميله، وحدده، ثم حدد **فتح**.
 1. ثم حدد **تحميل**.
-1. بعد ظهور HTML بالبريد الإلكتروني الخاص بك في نافذة المعاينة ، حدد **موافق**.
+1. بعد ظهور HTML بالبريد الإلكتروني الخاص بك في نافذة المعاينة، حدد **موافق**.
 1. تأكد من تحديد خانة الاختيار **يتضمن نص** للصف.
 
 إذا كنت قد قمت بالفعل بتكوين Commerce Headquarters لإرسال البريد الإلكتروني، سيتم إرسال بريد إلكتروني جديد أو محدث خاص بك إلى كافة العملاء الذين ينفذون حركة تستدعي الحدث الذي تم تعيينه إلى القالب.

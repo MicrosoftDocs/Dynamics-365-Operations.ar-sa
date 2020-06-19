@@ -3,7 +3,7 @@ title: إضافة توصيات إلى شاشة الحركة
 description: يوضح هذا الموضوع كيفية إضافة عنصر تحكم في التوصيات لشاشة الحركة على جهاز نقطة البيع باستخدام مصمم تخطيط الشاشة في Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 05/26/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a39389da0908953cbbc161f07d067ce3fc569a1b
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 77870cd19ebf15a72f323f116579f7769a766995
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154122"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404223"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>إضافة توصيات إلى شاشة الحركة
 
@@ -88,7 +88,7 @@ ms.locfileid: "3154122"
 
     [![تحديد المنتجات الموصى بها في حقل المحتويات](./media/pic-6.png)](./media/pic-6.png)
 
-6. في حقل **التسمية** ، اكتب اسمًا لعلامة تبويب التوصيات. على سبيل المثال، اكتب "المنتجات الموصى بها‬".
+6. في حقل **التسمية**، اكتب اسمًا لعلامة تبويب التوصيات. على سبيل المثال، اكتب "المنتجات الموصى بها‬".
 7. في حقل **صورة**، قم بتحديد الصورة لتظهر على علامة التبويب.
 8. انقر فوق **موافق**. سوف تظهر علامة التبويب الجديدة في شبكة الأزرار.
 9. انقر فوق **X** للحفظ والخروج من مصمم التخطيط.
@@ -100,7 +100,7 @@ ms.locfileid: "3154122"
 
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
-[تمكين ADLS في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
+[تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
 
 [تمكين توصيات المنتجات](enable-product-recommendations.md)
 
