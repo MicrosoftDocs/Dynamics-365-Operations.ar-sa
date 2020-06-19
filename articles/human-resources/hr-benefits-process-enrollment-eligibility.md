@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: BenefitWorkspace
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1d978982213e713e362798c49aa57e6dc8b7a862
-ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
+ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "3230001"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429279"
 ---
 # <a name="process-enrollment-eligibility"></a>معالجة أهلية التسجيل‬
 
 يوضح هذا المقال كيفية تشغيل معالجة أهلية التسجيل.
 
-1. في مساحة العمل **إدارة المزايا** ، ضمن **معالجة**، حدد **معالجة أهلية التسجيل**.
+1. في مساحة العمل **إدارة المزايا**، ضمن **معالجة**، حدد **معالجة أهلية التسجيل**.
 
-2. في مربع الحوار **تشغيل معالجة أهلية التسجيل** ، حدد قيم الحقول التالية:
+2. في مربع الحوار **تشغيل معالجة أهلية التسجيل**، حدد قيم الحقول التالية:
 
    | الحقل | ‏‏الوصف |
    | --- | --- |
@@ -40,7 +40,7 @@ ms.locfileid: "3230001"
    | **العامل** | العامل المراد معالجة أهلية التسجيل له. في حالة ترك هذا الحقل فارغًا، فإنه ستتم معالجة أهلية التسجيل لكافة العاملين. |
    | **خطة الميزة** | خطة الميزة المراد معالجة أهلية التسجيل لها.
 
-3. إذا كنت ترغب في تشغيل العملية في الخلفية ، حدد **تشغيل في الخلفية** وقم بالمهام التالية:
+3. إذا كنت ترغب في تشغيل العملية في الخلفية، حدد **تشغيل في الخلفية** وقم بالمهام التالية:
 
    1. إدخال المعلومات للمعالجة.
 

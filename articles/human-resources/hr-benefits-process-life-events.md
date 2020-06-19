@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: BenefitWorkspace
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba8d21482a18c6baa93437fc65c165907bdb515d
-ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
+ms.openlocfilehash: 504408505168947ac725b5ee9764ecd994a64631
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "3229914"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429210"
 ---
 # <a name="process-life-events"></a>معالجة الأحداث الحياتية
 
@@ -46,7 +46,7 @@ ms.locfileid: "3229914"
    | **تاريخ حدث الحياة** | يقوم النظام بمعالجة كافة الأحداث الحياتية خلال فترة التسجيل التي تتم حتى هذا التاريخ. |
    | **العامل** | العامل المراد معالجة الأحداث الحياتية له. في حالة ترك هذا الحقل فارغًا، فإنه ستتم معالجة الأحداث الحياتية لكافة العاملين. |
 
-3. إذا كنت ترغب في تشغيل العملية في الخلفية ، حدد **تشغيل في الخلفية** وقم بالمهام التالية:
+3. إذا كنت ترغب في تشغيل العملية في الخلفية، حدد **تشغيل في الخلفية** وقم بالمهام التالية:
 
    1. إدخال المعلومات للمعالجة.
 

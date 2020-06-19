@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a0be50a9b861190e7ce9b3f56bb4e583b791d1
-ms.sourcegitcommit: 33685a5cc37081a189279e917def7f122d3beaef
+ms.openlocfilehash: e37777b8000fb3afbc72ff9c61347085816e36c9
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "3285479"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431212"
 ---
 # <a name="provision-human-resources"></a>تزويد Human Resources
 
@@ -57,11 +57,11 @@ ms.locfileid: "3285479"
    
     > [!NOTE]
     > لا يمكن تغيير نوع مثيل Human Resources بمجرد تعيينه. تحقق من تحديد نوع المثيل الصحيح قبل المتابعة.</br></br>
-    > يعد نوع مثيل Human Resources منفصلاً عن نوع مثيل بيئة Microsoft Power Apps ، الذي قمت بتعيينه في مركز إدارة Power Apps .
+    > يعد نوع مثيل Human Resources منفصلاً عن نوع مثيل بيئة Microsoft Power Apps، الذي قمت بتعيينه في مركز إدارة Power Apps .
     
 3. حدد الخيار **تضمين بيانات العرض التوضيحي** إذا كنت تريد أن تتضمن بيئتك مجموعة بيانات العرض التوضيحي نفسها المستخدمة في تجربة اختبار إصدار Human Resources. تكون بيانات العرض التوضيحي مفيدة في العرض التوضيحي طويل الأمد أو بيئات التدريب، ويجب إلا يتم أبدًا استخدامها في بيئات الإنتاج. يجب أن تحدد هذا الخيار عند النشر الأولى. لا يمكنك تحديث نشر موجود في وقت لاحق.
 
-4. يتم توفير Human Resources دومًا في بيئة Microsoft Power Apps ، لتمكين تكامل Power Apps وقابليته للتوسع. راجع قسم "تحديد بيئة Power Apps " في هذا المقال قبل المتابعة. إذا لم تكن لديك بيئة Power Apps ، فحدد "إدارة البيئات" في LCS أو انتقل إلى مركز إدارة Power Apps . ثم اتبع الخطوات التي تؤدي إلى [إنشاء بيئة Power Apps .](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. يتم توفير Human Resources دومًا في بيئة Microsoft Power Apps، لتمكين تكامل Power Apps وقابليته للتوسع. راجع قسم "تحديد بيئة Power Apps " في هذا المقال قبل المتابعة. إذا لم تكن لديك بيئة Power Apps، فحدد "إدارة البيئات" في LCS أو انتقل إلى مركز إدارة Power Apps . ثم اتبع الخطوات التي تؤدي إلى [إنشاء بيئة Power Apps .](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
 5. حدد البيئة المراد توفير Human Resources فيها.
 
@@ -78,15 +78,15 @@ ms.locfileid: "3285479"
 
 ## <a name="select-a-power-apps-environment"></a>تحديد بيئة Power Apps 
 
-يمكنك دمج وتوسيع استخدام بيانات Human Resources باستخدام أدوات Power Apps. لمزيد من المعلومات حول بيئات Power Apps ، بما في ذلك نطاق البيئة، والوصول إلى البيئة، وإنشاء واختيار بيئة، راجع [الإعلان عن بيئات Power Apps .](https://powerapps.microsoft.com/blog/powerapps-environments/). 
+يمكنك دمج وتوسيع استخدام بيانات Human Resources باستخدام أدوات Power Apps. لمزيد من المعلومات حول بيئات Power Apps، بما في ذلك نطاق البيئة، والوصول إلى البيئة، وإنشاء واختيار بيئة، راجع [الإعلان عن بيئات Power Apps .](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 استخدم الإرشادات التالية عند تحديد بيئة Power Apps لنشر Human Resources في: 
 
-1. في LCS، حدد **إدارة البيئات**. يمكنك أيضًا الانتقال مباشرة إلى مركز مسؤول Power Apps ، حيث يمكنك عرض البيئات الموجودة وإنشاء بيئات جديدة.
+1. في LCS، حدد **إدارة البيئات**. يمكنك أيضًا الانتقال مباشرة إلى مركز مسؤول Power Apps، حيث يمكنك عرض البيئات الموجودة وإنشاء بيئات جديدة.
 
 2. تم تعيين بيئة Human Resources واحدة لبيئة Power Apps واحدة.
 
-3. تحتوي بيئة Power Apps على Human Resources، إلى جانب تطبيقات Power Apps ، وPower Automate، وCommon Data Service. إذا تم حذف بيئة Power Apps، لذا توجد التطبيقات داخله. عند تزويد بيئة Human Resources، يمكن تزويد إما بيئة **الإصدار التجريبي** أو **الإنتاج** . اختر نوع البيئة استنادًا إلى كيفية استخدام البيئة. 
+3. تحتوي بيئة Power Apps على Human Resources، إلى جانب تطبيقات Power Apps، وPower Automate، وCommon Data Service. إذا تم حذف بيئة Power Apps، لذا توجد التطبيقات داخله. عند تزويد بيئة Human Resources، يمكن تزويد إما بيئة **الإصدار التجريبي** أو **الإنتاج** . اختر نوع البيئة استنادًا إلى كيفية استخدام البيئة. 
 
 4. يجب مراعاة استراتيجيات الاختبار وتكامل البيانات، مثل بيئة الاختبار المعزولة أو اختبار قبول المستخدم (UAT)‬ أو الإنتاج. فكر بعناية في مختلف الدلالات التي ستترتب على عملية النشر، لأنه من الصعب تغيير بيئة Human Resources المعينة إلى بيئة Power Apps.
 

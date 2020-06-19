@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
 ms.technology: ''
-ms.search.form: HRMParameters
+ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed3a3b4a9715404d0f9d87bb1766f52a4b6b8eb1
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0158bd4ee74e24006e338c0477ee0ac4210b1bf5
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3157354"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429349"
 ---
 # <a name="edit-personal-information"></a>تحرير المعلومات الشخصية
 
@@ -65,7 +65,7 @@ ms.locfileid: "3157354"
     - لإضافة رقم تعريف، حدد **جديد**. أكمل الحقول حسب الحاجة وحدد **حفظ**.
     - لتحرير رقم، حدد **تحرير**. حرر الحقول حسب الحاجة وحدد **حفظ**.
 
-7. لتغيير الطرق التي تدفع بها، حدد علامة التبويب **معلومات الدفع الخاصة بي**. ولا تكون علامة التبويب هذه متاحة إلا في حالة تمكين طرق الدفع في نموذج **معلمات Human Resources**. يمكن للموارد البشرية تمكين **المسودات البنكية** أو **النقد** أو **الشيك** أو **الدفع الإلكتروني** أو **أخرى**. ويمكن للموارد البشرية أيضًا تعطيل التحقق من صحة الدفع الإلكتروني (المستخدم لكشف الرواتب الأمريكي) ، والتحقق من صحة الحساب البنكي ورقم التحويل.
+7. لتغيير الطرق التي تدفع بها، حدد علامة التبويب **معلومات الدفع الخاصة بي**. ولا تكون علامة التبويب هذه متاحة إلا في حالة تمكين طرق الدفع في نموذج **معلمات Human Resources**. يمكن للموارد البشرية تمكين **المسودات البنكية** أو **النقد** أو **الشيك** أو **الدفع الإلكتروني** أو **أخرى**. ويمكن للموارد البشرية أيضًا تعطيل التحقق من صحة الدفع الإلكتروني (المستخدم لكشف الرواتب الأمريكي)، والتحقق من صحة الحساب البنكي ورقم التحويل.
 
 8. لتغيير الصورة التي تُعرض في Human Resources لملف التعريف الخاص بك، حدد علامة التبويب **صورة**. ووفقًا لإعدادات مؤسستك، قد يتم توجيه الصور للاعتماد.
 
