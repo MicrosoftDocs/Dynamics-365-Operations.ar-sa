@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,60 +18,60 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198017"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428792"
 ---
-# <a name="create-a-working-time-calendar"></a><span data-ttu-id="31437-103">إنشاء تقويم مواعيد العمل</span><span class="sxs-lookup"><span data-stu-id="31437-103">Create a working time calendar</span></span>
+# <a name="create-a-working-time-calendar"></a><span data-ttu-id="8dfcf-103">إنشاء تقويم مواعيد العمل</span><span class="sxs-lookup"><span data-stu-id="8dfcf-103">Create a working time calendar</span></span>
 
-<span data-ttu-id="31437-104">يعرض تقويم مواعيد العمل في Dynamics 365 Human Resources الأيام والساعات التي يعمل بها الموظفون في مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="31437-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="31437-105">عندما يقوم أحد الموظفين بإرسال طلب المهلة ، فليس من الضروري القلق بالعطلات والإغلاق.</span><span class="sxs-lookup"><span data-stu-id="31437-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
+<span data-ttu-id="8dfcf-104">يعرض تقويم مواعيد العمل في Dynamics 365 Human Resources الأيام والساعات التي يعمل بها الموظفون في مؤسستك.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="8dfcf-105">عندما يقوم أحد الموظفين بإرسال طلب المهلة، فليس من الضروري القلق بالعطلات والإغلاق.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
 
-<span data-ttu-id="31437-106">لتبسيط طلبات المهلة ، قم بتكوين هذه العناصر للمؤسسة الخاصة بك:</span><span class="sxs-lookup"><span data-stu-id="31437-106">To streamline time-off requests, configure these items for your organization:</span></span>
+<span data-ttu-id="8dfcf-106">لتبسيط طلبات المهلة، قم بتكوين هذه العناصر للمؤسسة الخاصة بك:</span><span class="sxs-lookup"><span data-stu-id="8dfcf-106">To streamline time-off requests, configure these items for your organization:</span></span>
 
-- <span data-ttu-id="31437-107">تقويم خاص بمواعيد العمل</span><span class="sxs-lookup"><span data-stu-id="31437-107">Working time calendar</span></span>
-- <span data-ttu-id="31437-108">العطلات والإغلاق</span><span class="sxs-lookup"><span data-stu-id="31437-108">Holidays and closures</span></span>
-- <span data-ttu-id="31437-109">وقت غير العمل</span><span class="sxs-lookup"><span data-stu-id="31437-109">Non-work time</span></span>
+- <span data-ttu-id="8dfcf-107">تقويم خاص بمواعيد العمل</span><span class="sxs-lookup"><span data-stu-id="8dfcf-107">Working time calendar</span></span>
+- <span data-ttu-id="8dfcf-108">العطلات والإغلاق</span><span class="sxs-lookup"><span data-stu-id="8dfcf-108">Holidays and closures</span></span>
+- <span data-ttu-id="8dfcf-109">وقت غير العمل</span><span class="sxs-lookup"><span data-stu-id="8dfcf-109">Non-work time</span></span>
 
-<span data-ttu-id="31437-110">يمكنك أضافه آخر صنفين مع إعداد تقويم زمني للعمل.</span><span class="sxs-lookup"><span data-stu-id="31437-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="31437-111">ويمكنك أيضا تكوينها أو تحديثها بشكل منفصل.</span><span class="sxs-lookup"><span data-stu-id="31437-111">You can also configure or update them separately.</span></span>
+<span data-ttu-id="8dfcf-110">يمكنك أضافه آخر صنفين مع إعداد تقويم زمني للعمل.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="8dfcf-111">ويمكنك أيضا تكوينها أو تحديثها بشكل منفصل.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-111">You can also configure or update them separately.</span></span>
 
-## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="31437-112">إعداد تقويم وقت العمل</span><span class="sxs-lookup"><span data-stu-id="31437-112">Set up a working time calendar</span></span>
+## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="8dfcf-112">إعداد تقويم وقت العمل</span><span class="sxs-lookup"><span data-stu-id="8dfcf-112">Set up a working time calendar</span></span>
 
-<span data-ttu-id="31437-113">قم بإعداد تقويم وقت عمل واحد علي الأقل يوضح أيام العمل وساعتاته.</span><span class="sxs-lookup"><span data-stu-id="31437-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="31437-114">إذا كانت لديك مواقع في العديد من البلدان والمناطق ، فقد ترغب في إعداد تقويم زمني للعمل لكل منطقه.</span><span class="sxs-lookup"><span data-stu-id="31437-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
+<span data-ttu-id="8dfcf-113">قم بإعداد تقويم وقت عمل واحد علي الأقل يوضح أيام العمل وساعتاته.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="8dfcf-114">إذا كانت لديك مواقع في العديد من البلدان والمناطق، فقد ترغب في إعداد تقويم زمني للعمل لكل منطقه.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
 
-1. <span data-ttu-id="31437-115">على صفحة **"إدارة المؤسسة"**، حدد **التقويمات**.</span><span class="sxs-lookup"><span data-stu-id="31437-115">On the **Organization administration** page, select **Calendars**.</span></span>
+1. <span data-ttu-id="8dfcf-115">على صفحة **"إدارة المؤسسة"**، حدد **التقويمات**.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-115">On the **Organization administration** page, select **Calendars**.</span></span>
 
-2. <span data-ttu-id="31437-116">حدد **جديد**، وأدخل اسمًا ووصفًا لتقويمك.</span><span class="sxs-lookup"><span data-stu-id="31437-116">Select **New** and enter a name and description for your calendar.</span></span>
+2. <span data-ttu-id="8dfcf-116">حدد **جديد**، وأدخل اسمًا ووصفًا لتقويمك.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-116">Select **New** and enter a name and description for your calendar.</span></span>
 
-3. <span data-ttu-id="31437-117">ضمن **خيارات الإنشاء**، حدد أيام العمل للمؤسسة وادخل أوقات العمل.</span><span class="sxs-lookup"><span data-stu-id="31437-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
-   - <span data-ttu-id="31437-118">لأضافه عطله أو إغلاق، حدد الزر **إضافة** بجوار **العطلات والإغلاق**.</span><span class="sxs-lookup"><span data-stu-id="31437-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
-   - <span data-ttu-id="31437-119">لأضافه وقت غير العمل ، مثل مواعيد الغداء أو الفواصل الزمنية، حدد **إضافة** ضمن **وقت غير العمل** وادخل الاسم ونطاق الوقت.</span><span class="sxs-lookup"><span data-stu-id="31437-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
+3. <span data-ttu-id="8dfcf-117">ضمن **خيارات الإنشاء**، حدد أيام العمل للمؤسسة وادخل أوقات العمل.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
+   - <span data-ttu-id="8dfcf-118">لأضافه عطله أو إغلاق، حدد الزر **إضافة** بجوار **العطلات والإغلاق**.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
+   - <span data-ttu-id="8dfcf-119">لأضافه وقت غير العمل، مثل مواعيد الغداء أو الفواصل الزمنية، حدد **إضافة** ضمن **وقت غير العمل** وادخل الاسم ونطاق الوقت.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
 
-4. <span data-ttu-id="31437-120">ضمن علامة التبويب **الأيام** ، حدد **إنشاء** لإنشاء الأيام في التقويم الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="31437-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="31437-121">ادخل نطاق التاريخ للتقويم الخاص بك ثم حدد **إنشاء أيام**.</span><span class="sxs-lookup"><span data-stu-id="31437-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
+4. <span data-ttu-id="8dfcf-120">ضمن علامة التبويب **الأيام**، حدد **إنشاء** لإنشاء الأيام في التقويم الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="8dfcf-121">ادخل نطاق التاريخ للتقويم الخاص بك ثم حدد **إنشاء أيام**.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
 
-5. <span data-ttu-id="31437-122">لأضافه جداول عمل ، ضمن **جدول العمل**، حدد **إضافة**، ثم ادخل الأوقات لكل جدول من جداول العمل.</span><span class="sxs-lookup"><span data-stu-id="31437-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
+5. <span data-ttu-id="8dfcf-122">لأضافه جداول عمل، ضمن **جدول العمل**، حدد **إضافة**، ثم ادخل الأوقات لكل جدول من جداول العمل.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
 
-## <a name="configure-holidays-and-closures"></a><span data-ttu-id="31437-123">تكوين العطلات والإغلاق</span><span class="sxs-lookup"><span data-stu-id="31437-123">Configure holidays and closures</span></span>
+## <a name="configure-holidays-and-closures"></a><span data-ttu-id="8dfcf-123">تكوين العطلات والإغلاق</span><span class="sxs-lookup"><span data-stu-id="8dfcf-123">Configure holidays and closures</span></span>
 
-<span data-ttu-id="31437-124">ويمكنك أضافه أيام العطل أو تغييرها وإغلاقها بشكل منفصل من تقويم وقت العمل.</span><span class="sxs-lookup"><span data-stu-id="31437-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
+<span data-ttu-id="8dfcf-124">ويمكنك أضافه أيام العطل أو تغييرها وإغلاقها بشكل منفصل من تقويم وقت العمل.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
 
-1. <span data-ttu-id="31437-125">على صفحة **"إدارة المؤسسة"**، حدد **العطلات والإغلاق**.</span><span class="sxs-lookup"><span data-stu-id="31437-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
+1. <span data-ttu-id="8dfcf-125">على صفحة **"إدارة المؤسسة"**، حدد **العطلات والإغلاق**.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
 
-2. <span data-ttu-id="31437-126">حدد **جديد**، وأدخل اسمًا وتاريخًا للعطلة أو الإغلاق.</span><span class="sxs-lookup"><span data-stu-id="31437-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
+2. <span data-ttu-id="8dfcf-126">حدد **جديد**، وأدخل اسمًا وتاريخًا للعطلة أو الإغلاق.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
 
-## <a name="configure-non-work-time"></a><span data-ttu-id="31437-127">تكوين وقت غير العمل</span><span class="sxs-lookup"><span data-stu-id="31437-127">Configure non-work time</span></span>
+## <a name="configure-non-work-time"></a><span data-ttu-id="8dfcf-127">تكوين وقت غير العمل</span><span class="sxs-lookup"><span data-stu-id="8dfcf-127">Configure non-work time</span></span>
 
-<span data-ttu-id="31437-128">يمكنك أضافه أوقات غير العمل أو تغييرها وإغلاقها بشكل منفصل من تقويم وقت العمل.</span><span class="sxs-lookup"><span data-stu-id="31437-128">You can add or change non-work times separately from a working time calendar.</span></span>
+<span data-ttu-id="8dfcf-128">يمكنك أضافه أوقات غير العمل أو تغييرها وإغلاقها بشكل منفصل من تقويم وقت العمل.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-128">You can add or change non-work times separately from a working time calendar.</span></span>
 
-1. <span data-ttu-id="31437-129">على صفحة **"إدارة المؤسسة"**، حدد **وقت غير العمل**.</span><span class="sxs-lookup"><span data-stu-id="31437-129">On the **Organization administration** page, select **Non-work time**.</span></span>
+1. <span data-ttu-id="8dfcf-129">على صفحة **"إدارة المؤسسة"**، حدد **وقت غير العمل**.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-129">On the **Organization administration** page, select **Non-work time**.</span></span>
 
-2. <span data-ttu-id="31437-130">حدد **جديد**، وأدخل اسمًا ونطاق الوقت لوقت غير العمل.</span><span class="sxs-lookup"><span data-stu-id="31437-130">Select **New** and enter a name and time range for the non-work time.</span></span>
+2. <span data-ttu-id="8dfcf-130">حدد **جديد**، وأدخل اسمًا ونطاق الوقت لوقت غير العمل.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-130">Select **New** and enter a name and time range for the non-work time.</span></span>
 
-<span data-ttu-id="31437-131">إذا قمت بتمكين ميزه معاينه تصحيحات أيام الإجازات والإجازات البنكية للغياب ، تستخدم Human Resources تواريخ العطل والإغلاق لتحديد عدد الأيام التي يجب تعديلها للموظفين المسجلين في التقويم.</span><span class="sxs-lookup"><span data-stu-id="31437-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
+<span data-ttu-id="8dfcf-131">إذا قمت بتمكين ميزه معاينه تصحيحات أيام الإجازات والإجازات البنكية للغياب، تستخدم Human Resources تواريخ العطل والإغلاق لتحديد عدد الأيام التي يجب تعديلها للموظفين المسجلين في التقويم.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="31437-132">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="31437-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8dfcf-132">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="8dfcf-132">See also</span></span>
 
-- [<span data-ttu-id="31437-133">نظرة عامة على الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="31437-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="31437-134">تكوين أنواع الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="31437-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+- [<span data-ttu-id="8dfcf-133">نظرة عامة على الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="8dfcf-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="8dfcf-134">تكوين أنواع الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="8dfcf-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
