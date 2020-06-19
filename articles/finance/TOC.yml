@@ -70,12 +70,12 @@
                   items:
                     - name: الجديد أو المتغير‬ في صفحة Finance الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.12 (أغسطس 2020)
+                      href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (يوليو 2020)
                       href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (مايو 2020)
                       href: get-started/whats-new-changed-10-0-10.md
-                    - name: Finance 10.0.9 (أبريل 2020)
-                      href: get-started/whats-new-changed-10-0-9.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
@@ -228,10 +228,12 @@
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
-            - name: مطابقة الفاتورة وأوامر الشراء بين الشركات الشقيقة
+            - name: مطابقة الفاتورة وأوامر الشراء المشتركة بين الشركات الشقيقة
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
             - name: إعداد سياسات فواتير المورِّدين
               href: accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: التنفيذ التلقائي لمقترحات دفع المورد
+              href: accounts-payable/automate-vendor-payment-proposal.md
             - name: تسجيل فاتورة المورّد ومطابقتها بالكمية المستلمة
               href: accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: نظرة عامة على الدفع الإيجابي
@@ -324,14 +326,6 @@
               href: accounts-receivable/copy-customer.md
             - name: سير عمل العميل
               href: accounts-receivable/customer-workflow.md
-            - name: الائتمان والتحصيلات في الحسابات المدينة
-              href: accounts-receivable/collections-credit-accounts-receivable.md
-            - name: تكوين الحسابات المدينة والائتمان والتحصيلات
-              href: accounts-receivable/accounts-receivables-set-up-overview.md
-            - name: إعداد الائتمان والتحصيلات
-              href: accounts-receivable/set-up-collections.md
-            - name: مراجعة معلومات التحصيلات
-              href: accounts-receivable/tasks/review-collections-information.md
             - name: نظرة عامة على ميزة إقرار الإيرادات
               href: accounts-receivable/revenue-recognition-overview.md
             - name: إعداد إقرار الإيرادات
@@ -410,6 +404,14 @@
               items:
                 - name: نظرة عامة على الائتمان والتحصيلات
                   href: accounts-receivable/cm-credit-and-collections-overview.md
+                - name: التحصيلات في الحسابات المدينة
+                  href: accounts-receivable/collections-credit-accounts-receivable.md
+                - name: تكوين الحسابات المدينة والائتمان والتحصيلات
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: إعداد الائتمان والتحصيلات
+                  href: accounts-receivable/set-up-collections.md
+                - name: مراجعة معلومات التحصيلات
+                  href: accounts-receivable/tasks/review-collections-information.md
                 - name: إعداد إدارة الائتمان
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: معلومات إعداد إدارة الائتمان
@@ -448,6 +450,8 @@
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: إنشاء دفتر يومية شطب لعميل
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: إدارة إشعارات متقدمة
+              href: localizations/emea-ita-exil-structured-notes.md
         - name: إعداد الموازنة
           items:
             - name: الصفحة الرئيسية لإعداد الموازنة
@@ -978,6 +982,8 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: تكوين التكاليف القياسية للعمالة والمصروفات
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: إنشاء شروط احتجاز مدفوعات المورد وتطبيقها
+              href: project-management/create-and-apply-vendor-payment-retention-terms.md
             - name: إعداد واستخدام الدفع عند دفع مدفوعات المورّد
               href: project-management/setup-manage-vendor-payments.md
             - name: إيصالات استحقاق تكلفة المشروع على الشراء
@@ -1000,6 +1006,10 @@
               href: project-management/project-purchase-orders.md
             - name: عروض أسعار المشروع
               href: project-management/project-quotations.md
+            - name: تأكيد عرض أسعار مشروع وتحديثه وإرساله
+              href: project-management/confirm-update-send-project-quotation.md
+            - name: تحويل عرض أسعار إلى مشروع
+              href: project-management/transfer-quote-new-existing-project.md
             - name: تحديد موارد المشروع
               href: project-management/project-resourcing.md
             - name: تلقي الأصناف على أمر شراء من متطلبات الصنف
@@ -1022,6 +1032,8 @@
                   href: project-management/custom-fields-mobile.md
             - name: منح المشروع
               href: project-management/project-grants.md
+            - name: استبعاد تقدير مشروع
+              href: project-management/eliminate-project-estimate.md
         - name: القطاع العام
           items:
             - name: الصفحة الرئيسية للقطاع العام
@@ -1758,6 +1770,8 @@
                   href: localizations/emea-hun-tax-reimbursement-docs.md
                 - name: إقفال نهاية السنة
                   href: localizations/emea-cze-hun-year-end.md
+                - name: نظام الفوترة على الإنترنت
+                  href: localizations/emea-hun-online-invoicing.md
             - name: أيسلندا
               items:
                 - name: نظرة عامة على أيسلندا
@@ -2008,8 +2022,6 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: المصاريف المتنوعة للكيلوغرام الواحد في إعلان نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
-                - name: إدارة إشعارات متقدمة
-                  href: localizations/emea-ita-exil-structured-notes.md
                 - name: خطابات النوايا - فوترة مصدرين عاديين
                   href: localizations/emea-ita-exil-intent-letter.md
                 - name: ‏‫الفاتورة الضريبية للبضائع المسلمة مجانًا‬
@@ -2222,7 +2234,7 @@
                   href: localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
                 - name: إنشاء دين عميل لمبيعات المشروع
                   href: localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
-                - name: ضريبة على البضائع والخدمات (GST)
+                - name: ضريبة السلع والخدمات (GST)
                   href: localizations/apac-mys-gst.md
                 - name: GST - إنشاء ملفات GAF بالتنسيق المطلوب
                   href: localizations/tasks/my-00010-gst-gaf-files-required-format.md
@@ -2288,8 +2300,8 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: تكامل Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'ملف مراجعة - XML Auditfile Financieel, XAF'
-                  hred: localizations/emea-nl-audit-file.md
+                - name: ملف مراجعة (XML Auditfile Financieel XAF)
+                  href: localizations/emea-nl-audit-file.md
             - name: النرويج
               items:
                 - name: نظرة عامة على النرويج
@@ -2359,7 +2371,7 @@
                     - name: نظرة عامة على أصحاب السُلف في روسيا
                       href: localizations/rus-advance-holders.md
                     - name: إنشاء صاحب سلفة
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: العمليات اليومية لأصحاب السلف
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: "تقارير السُلف\_مع رقابة\_الموازنة"
@@ -2970,15 +2982,17 @@
               items:
                 - name: إنشاء التكوينات
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
+                - name: تحديد تبعية تكوينات التقارير الإلكترونية في المكونات الأخرى
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: إعداد المكونات لحل إعداد التقارير الإلكترونية
                   items:
                     - name: تصميم نموذج بيانات خاص بالمجال
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: إعداد بيانات تعريف خاصة بالتطبيق
                       items:
-                        - name: (ER) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
+                        - name: (التقارير الإلكترونية) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER
+                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين التقارير الإلكترونية
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
                         - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
@@ -2990,7 +3004,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/finance/toc.json
                         - name: تعيين مكونات التنسيق المنشأ لعناصر نموذج البيانات
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: اختبار حل ER الذي تم إعداده في التطبيق الهدف
+                    - name: اختبار حل التقارير الإلكترونية الذي تم إعداده في التطبيق الهدف
                       items:
                         - name: استيراد التكوينات من RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
@@ -3252,11 +3266,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'نص: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: إدارة تعيين نموذج ER في تكوينات ER منفصلة
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: تصميم تنسيقات ER لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
+            - name: تصميم تنسيقات التقارير الإلكترونية لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
               items:
                 - name: تصميم التكوينات لإنشاء مستندات صادره بتنسيق Excel
                   items:
@@ -3264,7 +3274,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
                     - name: مثال لإنشاء تقارير بتنسيق OPENXML
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: تعديل تنسيقات ER من خلال إعادة تطبيق قوالب Excel
+                    - name: تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: إضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
                       items:
@@ -3278,7 +3288,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: تضمين الصور والأشكال
                   items:
-                    - name: (ER) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
+                    - name: (التقارير الإلكترونية) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
                     - name: مثال عن تضمين الصور والأشكال
                       items:
@@ -3290,8 +3300,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: تحديد تبعية تكوينات ER في المكونات الأخرى
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية
               items:
                 - name: إنشاء مستندات إلكترونية وتحديث بيانات التطبيق
@@ -3306,7 +3314,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/finance/toc.json
                 - name: إنشاء مستندات تتضمن بيانات التطبيق
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/finance/toc.json
-            - name: استيراد بيانات من ملفات واردة باستخدام حلول ER
+            - name: استيراد بيانات من ملفات واردة باستخدام حلول التقارير الإلكترونية
               items:
                 - name: توزيع المستندات الواردة بتنسيقات مختلفة
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/finance/toc.json
@@ -3320,32 +3328,42 @@
                   items:
                     - name: استيراد ملفات بتنسيق XML مع سمات اختيارية
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
-                    - name: تكوين تنسيقات ER لاستيراد ملفات بتنسيق XML مع سمات اختيارية
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                    - name: تكوين تنسيقات التقارير الإلكترونية لاستيراد ملفات بتنسيق XML مع سمات اختيارية
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/finance/toc.json
             - name: دورة حياة التكوين
               items:
                 - name: إدارة دورة حياة التكوينات
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: تحميل التكوينات إلى Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: استيراد التكوينات من Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: تنزيل التكوينات من Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
-                - name: استيراد التكوينات
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: خيارات التصفية المحسنة للبحث عن التكوينات في المستودع العمومي
-                  href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                - name: تنزيل تكوينات ER من مستودع RCS
+                - name: ' Lifecycle Services (LCS)'
                   items:
-                    - name: تنزيل تكوينات من مستودع ER من النوع RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: استيراد التكوينات من RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
-                - name: إنشاء تكوينات ER في RCS وتحميلها إلى المستودع العمومي
-                  href: localizations/rcs-global-repo-upload.md
-                - name: مشاركة تكوينات ER في RCS مع المؤسسات الخارجية
-                  href: localizations/rcs-global-repo-share-configuration.md
+                    - name: تحميل التكوينات في LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: استيراد التكوينات من LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: تنزيل التكوينات من LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
+                    - name: استيراد التكوينات (LBD)
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory services ‏(RCS)
+                  items:
+                    - name: Regulatory Configuration Services ‏(RCS) - ميزات العولمة
+                      href: localizations/rcs-globalization-feature.md
+                    - name: تنزيل تكوينات التقارير الإلكترونية إلى Finance
+                      items:
+                        - name: تنزيل التكوينات من RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: استيراد التكوينات من RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: المستودع العالمي (GR)
+                      items:
+                        - name: استيراد التكوينات من GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: تصفية محسنة للعثور على التكوينات في GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: تحميل التكوينات إلى GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: مشاركه التكوينات في GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: البرامج التعليمية
               items:
                 - name: التعرف على كيفية استخدام مصادر البيانات
@@ -3356,7 +3374,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                     - name: اعتماد استدعاءات ذات معلمات لمصادر بيانات الحقل المحسوب
                       href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
-                    - name: مصادر بيانات ER عبر الشركات
+                    - name: مصادر بيانات التقارير الإلكترونية عبر الشركات
                       href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: استخدام مصادر بيانات تفاصيل الأبعاد المالية
                       items:
@@ -3392,18 +3410,26 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                         - name: تصحيح مصادر البيانات
                           href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
-                - name: تكوين تعيينات نموذج ER الذي يعتمد على سياق البلد
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
-                - name: تكوين تنسيقات ER لاستخدام المعلمات المحددة لكل كيان قانوني
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
-                - name: إعداد معلمات تنسيق ER لكل كيان قانوني
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                - name: تأجيل تنفيذ عناصر التنسيق لـ ER
+                - name: تكوين تعيينات النماذج
                   items:
-                    - name: تأجيل تنفيذ عنصر تسلسلي
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
-                    - name: تأجيل تنفيذ عنصر XML
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: تكوين تعيينات نماذج التقارير الإلكترونية التي تعتمد على سياق البلد
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                    - name: إدارة تعيين نموذج التقارير الإلكترونية في تكوينات تقارير إلكترونية منفصلة
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: تكوين التنسيقات
+                  items:
+                    - name: تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                    - name: إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                    - name: تحديد تعريفات النماذج عندما تنشئ التنسيقات
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: تأجيل تنفيذ عناصر تنسيق التقارير الإلكترونية
+                      items:
+                        - name: تأجيل تنفيذ عنصر تسلسلي
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                        - name: تأجيل تنفيذ عنصر XML
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                 - name: المسار النسبي في عمليات ربط البيانات
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: استخدام حلول التقارير الإلكترونية في Finance and Operations
@@ -3412,11 +3438,11 @@
                   items:
                     - name: تكوين إطار عمل إعداد التقارير الإلكتروني
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
-                    - name: النسخ الاحتياطي لقوالب ER واستردادها
+                    - name: النسخ الاحتياطي لقوالب التقارير الإلكترونية واستردادها
                       items:
-                        - name: مساحة تخزين النسخ الاحتياطية لقوالب ER
+                        - name: مساحة تخزين النسخ الاحتياطية لقوالب التقارير الإلكترونية
                           href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
-                        - name: تنظيف ترحيل ER
+                        - name: تنظيف ترحيل التقارير الإلكترونية
                           href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/finance/toc.json
                     - name: إنشاء موفري التكوين ووضع علامة نشط عليهم
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3440,13 +3466,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: تكوين الوجهات
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: إعداد مرجع لتنسيق ER
+                - name: إعداد مرجع لتنسيق التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: التحقق التلقائي من صحة التقارير المنشاة
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: تحسينات في تتبع نتائج تقارير ER المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية المنشأة والمقارنات مع القيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
@@ -3456,7 +3482,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: تتبع تنفيذ تنسيقات ER لاستكشاف مشكلات الأداء وإصلاحها
+                - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                 - name: إدارة مستندات الأعمال
                   items:
@@ -3466,7 +3492,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
                     - name: إضافة حقول جديدة إلى قالب مستند أعمال في Microsoft Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
-            - name: API إطار عمل ER
+            - name: API إطار عمل التقارير الإلكترونية
               items:
                 - name: توسيع قائمة الوظائف المضمنة
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json

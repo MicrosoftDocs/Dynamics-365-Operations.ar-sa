@@ -5,6 +5,8 @@
       items:
         - name: المزايا الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 مايو 2020
+          href: hr-whats-new-2020-05-28.md
         - name: 14 مايو 2020
           href: hr-whats-new-2020-05-14.md
         - name: 1 مايو 2020
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: تعليق الإجازة
               href: hr-leave-and-absence-suspend-leave.md
+            - name: طلب إذن غياب
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: إدارة إجازة الموظف
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: عرض تحليلات الإجازة والغياب
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: عرض تقويمات الفريق والشركة
               href: hr-employee-self-service-calendar.md
+            - name: إدارة سياسات شراء الإجازة وبيعها
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: شراء الإجازة وبيعها
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: إدارة طلبات الإجازة في Teams
           href: hr-teams-leave-app.md
         - name: تطوير الموظفين

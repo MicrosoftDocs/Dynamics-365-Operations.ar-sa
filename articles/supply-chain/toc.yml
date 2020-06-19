@@ -70,12 +70,12 @@
                   items:
                     - name: ما الجديد أو المتغير في الصفحة الرئيسية لـ Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.12 (أغسطس 2020)
+                      href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (يوليو 2020)
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (مايو 2020)
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: Supply Chain Management 10.0.9 (أبريل 2020)
-                      href: get-started/whats-new-scm-10-0-9.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
@@ -523,7 +523,7 @@
                   href: cost-management/manage-standard-cost-updates.md
                 - name: قيود على إصدارات التكاليف للتكاليف القياسية
                   href: cost-management/restrictions-costing-versions-standard-costs.md
-                - name: المعلومات المستخدمة في حساب BOM مع التكاليف القياسية
+                - name: المعلومات المستخدمة في عمليات حساب BOM مع التكاليف القياسية
                   href: cost-management/information-used-bom-calculations-standard-costs.md
                 - name: تحديث التكاليف القياسية في بيئة تصنيع
                   href: cost-management/update-standard-costs-manufacturing-environment.md
@@ -591,10 +591,12 @@
                   href: cost-management/inventory-aging-report-storage.md
             - name: محاسبة التصنيع
               items:
-                - name: العمليات الحسابية لقائمة مكونات الصنف (BOM)
+                - name: عمليات حساب BOM
                   href: cost-management/bom-calculations.md
-                - name: مجموعات العمليات الحسابية لقائمة مكونات الصنف (BOM)
+                - name: مجموعات عمليات حساب BOM
                   href: cost-management/bom-calculation-groups.md
+                - name: مستوى حساب التكلفة
+                  href: cost-management/cost-calculation-level.md
                 - name: تحديد تكاليف الإصدار التلقائي
                   href: cost-management/backflush-costing.md
                 - name: المصادر الشائعة للفروق في الإنتاج
@@ -737,9 +739,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إعداد بيانات تعريف خاصة بالتطبيق
                       items:
-                        - name: (ER) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
+                        - name: (التقارير الإلكترونية) إعداد بيانات تعريف التطبيق لاستخدامها في RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER
+                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين التقارير الإلكترونية
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
@@ -751,9 +753,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                         - name: تعيين مكونات التنسيق المنشأ لعناصر نموذج البيانات
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: اختبار حل ER الذي تم إعداده في التطبيق الهدف
+                    - name: اختبار حل التقارير الإلكترونية الذي تم إعداده في التطبيق الهدف
                       items:
-                        - name: (ER) استيراد التكوينات من RCS
+                        - name: (التقارير الإلكترونية) استيراد التكوينات من RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: إنشاء مستندات إلكترونية للمدفوعات باستخدام تكوين تنسيق
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
@@ -1011,7 +1013,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'نص: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: إدارة تعيين نموذج ER في تكوينات ER منفصلة
+            - name: إدارة تعيين نموذج التقارير الإلكترونية في تكوينات تقارير إلكترونية منفصلة
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1019,19 +1021,19 @@
               href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
-            - name: (ER) مصادر البيانات عبر الشركات في التقارير الإلكترونية
+            - name: (التقارير الإلكترونية) مصادر البيانات عبر الشركات في التقارير الإلكترونية
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تصميم تنسيقات ER لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
+            - name: تصميم تنسيقات التقارير الإلكترونية لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
               items:
-                - name: (ER) تصميم تكوين لإنشاء التقارير بتنسيق OPENXML
+                - name: (التقارير الإلكترونية) تصميم تكوين لإنشاء التقارير بتنسيق OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: (ER) تصميم تكوينات لإنشاء تقارير بتنسيق Word
+                - name: (التقارير الإلكترونية) تصميم تكوينات لإنشاء تقارير بتنسيق Word
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تصميم تكوينات لملء قوالب PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/supply-chain/toc.json
             - name: تضمين الصور والأشكال
               items:
-                - name: (ER) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
+                - name: (التقارير الإلكترونية) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
                 - name: مثال عن تضمين الصور والأشكال
                   items:
@@ -1043,9 +1045,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
             - name: تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تحديد تبعية تكوينات ER في المكونات الأخرى
+            - name: تحديد تبعية تكوينات التقارير الإلكترونية في المكونات الأخرى
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تصميم حل ER لاستخدام الأبعاد المالية
+            - name: تصميم حل التقارير الإلكترونية لاستخدام الأبعاد المالية
               items:
                 - name: تصميم نماذج بيانات لاستخدام الأبعاد المالية كمصادر بيانات
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1055,7 +1057,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تشغيل تقارير تستخدم الأبعاد المالية كمصادر بيانات
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تصميم تنسيقات ER لتنفيذ عمليات العد والجمع باستخدام معلومات من المخرجات المنشأة
+            - name: تصميم تنسيقات التقارير الإلكترونية لتنفيذ عمليات العد والجمع باستخدام معلومات من المخرجات المنشأة
               items:
                 - name: إنشاء تنسيقات لتنفيذ عمليات العد والجمع
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1073,15 +1075,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
             - name: استخدام ملفات إدارة المستندات في مخرجات التنسيقات
               items:
-                - name: إعداد نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات ER
+                - name: إعداد نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: توسيع نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات ER
+                - name: توسيع نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: إنشاء تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات ER
+                - name: إنشاء تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات ER
+                - name: تشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات في مخرجات ER
+                - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
             - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية
               items:
@@ -1097,7 +1099,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء مستندات تتضمن بيانات التطبيق
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/supply-chain/toc.json
-            - name: استيراد بيانات من ملفات واردة باستخدام حلول ER
+            - name: استيراد بيانات من ملفات واردة باستخدام حلول التقارير الإلكترونية
               items:
                 - name: توزيع المستندات الواردة بتنسيقات مختلفة
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/supply-chain/toc.json
@@ -1111,11 +1113,11 @@
                   items:
                     - name: استيراد ملفات بتنسيق XML مع سمات اختيارية
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تكوين تنسيقات ER لاستيراد ملفات بتنسيق XML مع سمات اختيارية
+                    - name: تكوين تنسيقات التقارير الإلكترونية لاستيراد ملفات بتنسيق XML مع سمات اختيارية
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
             - name: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
-            - name: اعتماد استدعاءات ذات معلمات لمصادر بيانات ER لنوع الحقل المحسوب
+            - name: اعتماد استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب
               href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
             - name: دورة حياة التكوين
               items:
@@ -1129,9 +1131,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: استيراد التكوينات
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تنزيل تكوينات ER من مستودع RCS
+                - name: تنزيل تكوينات التقارير الإلكترونية من مستودع RCS
                   items:
-                    - name: تنزيل تكوينات من مستودع ER من النوع RCS
+                    - name: تنزيل تكوينات من مستودع التقارير الإلكترونية من النوع RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: استيراد التكوينات من RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
@@ -1139,13 +1141,13 @@
               items:
                 - name: استخدام "ضمّ" مصادر بيانات للحصول على البيانات من جداول التطبيقات المتعددة
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تكوين تعيينات نموذج ER الذي يعتمد على سياق البلد
+                - name: تكوين تعيينات نماذج التقارير الإلكترونية التي تعتمد على سياق البلد
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تكوين تنسيقات ER لاستخدام المعلمات المحددة لكل كيان قانوني
+                - name: تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                - name: إعداد معلمات تنسيق ER لكل كيان قانوني
+                - name: إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تأجيل تنفيذ عناصر التنسيق لـ ER
+                - name: تأجيل تنفيذ عناصر تنسيق التقارير الإلكترونية
                   items:
                     - name: تأجيل تنفيذ عنصر تسلسلي
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
@@ -1157,7 +1159,7 @@
                   items:
                     - name: تكوين إطار عمل إعداد التقارير الإلكتروني
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: النسخ الاحتياطي لقوالب ER واستردادها
+                    - name: النسخ الاحتياطي لقوالب التقارير الإلكترونية واستردادها
                       href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إنشاء موفري التكوين ووضع علامة نشط عليهم
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1181,13 +1183,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تكوين الوجهات
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: إعداد مرجع لتنسيق ER
+                - name: إعداد مرجع لتنسيق التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: التحقق التلقائي من صحة التقارير المنشاة
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تحسينات في تتبع نتائج تقارير ER المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية المنشأة والمقارنات مع القيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -1197,7 +1199,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تتبع تنفيذ تنسيقات ER لاستكشاف مشكلات الأداء وإصلاحها
+                - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إدارة مستندات الأعمال
                   items:
@@ -1207,7 +1209,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إضافة حقول جديدة إلى قالب مستند أعمال في Microsoft Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: API إطار عمل ER
+            - name: API إطار عمل التقارير الإلكترونية
               items:
                 - name: توسيع قائمة وظائف التقارير الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,6 +1347,8 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: تطبيق عوامل تصفية على خطة
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: التخطيط الرئيسي مع اتفاقيات الشراء التجارية
+                  href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: عرض سجل محفوظات الخطط والتخطيط
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: التأكيد التلقائي مع تحسين التخطيط
@@ -1829,7 +1833,7 @@
                   href: production-control/default-order-settings.md
                 - name: قوائم مكونات الصنف والمعادلات
                   href: production-control/bill-of-material-bom.md
-                - name: استخدام مصمم قائمة مكونات الصنف
+                - name: استخدام مصمم BOM
                   href: production-control/bom-designer-functionality.md
                 - name: استخدام مصمم المعادلة
                   href: production-control/formula-designer.md
@@ -1841,7 +1845,7 @@
                   href: pim/tasks/create-sales-price-selection-criteria.md
                 - name: إعداد تسعير يستند إلى سمة للمنتجات القابلة للتكوين
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
-                - name: العمليات الحسابية لقائمة مكونات الصنف (BOM)
+                - name: عمليات حساب BOM
                   href: cost-management/bom-calculations.md
             - name: تكوين المنتج
               items:
@@ -1893,7 +1897,7 @@
                       href: pim/tasks/add-expression-constraint-product-configuration-model.md
                     - name: إضافة عملية حسابية إلى نموذج تكوين منتج
                       href: pim/tasks/add-calculation-product-configuration-model.md
-                    - name: الاحتفاظ ‏‫بقائمة مكونات الصنف‬ لطراز تكوين المنتج
+                    - name: الاحتفاظ ‏‫بـ BOM‬ لطراز تكوين المنتج
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: الاحتفاظ بمسار لطراز المنتج
                       href: pim/tasks/maintain-route-product-model.md
@@ -1917,11 +1921,11 @@
                       href: production-control/production-set-up-requirements.md
                     - name: قوائم مكونات الصنف والمعادلات
                       href: production-control/bill-of-material-bom.md
-                    - name: وظيفة مصمم قائمة مكونات الصنف
+                    - name: وظيفة مصمم BOM
                       href: production-control/bom-designer-functionality.md
                     - name: أصناف وهمية
                       href: production-control/phantom-items.md
-                    - name: العمليات الحسابية لقائمة مكونات الصنف (BOM)
+                    - name: عمليات حساب BOM
                       href: cost-management/bom-calculations.md
                     - name: إدارة وحدة القياس
                       href: pim/tasks/manage-unit-measure.md
@@ -1989,13 +1993,15 @@
                       href: production-control/release-production-orders.md
                     - name: الإبلاغ عن أوامر الإنتاج كمنتهية
                       href: production-control/report-production-orders-as-finished.md
-                    - name: الإبلاغ عن الانتهاء إلى موقع يتم التحكم فيه بواسطة لوحة ترخيص
+                    - name: تكوين بطاقة وظيفة للأجهزة
+                      href: production-control/config-job-card-device.md
+                    - name: الإبلاغ عن الانتهاء من جهاز بطاقة الوظيفة
                       href: production-control/report-finished-job-device.md
                     - name: عكس حالة أمر الإنتاج
                       href: production-control/reverse-production-order-status.md
                     - name: إمكانية رؤية استثناءات المواد
                       href: production-control/improved-visibility-into-material-exceptions.md
-                    - name: إصدار بنود قائمة مكونات الصنف (BOM) والتركيبة‬ إلى المستودع
+                    - name: إصدار بنود BOM والتركيبة‬ إلى المستودع
                       href: production-control/releasing-bom-and-formula-lines-to-warehouse.md
                     - name: تسجيل استهلاك المواد باستخدام جهاز محمول
                       href: production-control/register-material-consumption-hand-held-device.md
@@ -2003,7 +2009,7 @@
                       href: production-control/flushing-principles.md
                     - name: تعيين موقع إخراج المنتج للبضائع المنتهية
                       href: production-control/production-output-location.md
-                    - name: الإبلاغ عن قوائم مكونات الصنف كمنتهية
+                    - name: الإبلاغ عن قوائم BOM كمنتهية
                       href: production-control/report-boms-as-finished.md
                     - name: 'الإبلاغ عن الانتهاء إلى موقع يتم التحكم فيه بواسطة لوحة '
                       href: production-control/tasks/report-finished-non-license-plate-controlled-location-2016-11.md
@@ -2095,7 +2101,7 @@
                       href: production-control/tasks/calculate-kanban-quantity-suggestions.md
                     - name: تغيير قواعد كانبان لوظيفة عملية
                       href: production-control/tasks/change-kanban-rules-process-job.md
-                    - name: إنشاء قاعدة كانبان لحدث بند قائمة مكونات الصنف
+                    - name: إنشاء قاعدة كانبان لحدث بند BOM
                       href: production-control/tasks/create-bom-line-event-kanban-rule.md
                     - name: إنشاء قاعدة كانبان الكمية الثابتة للتصنيع
                       href: production-control/tasks/create-fixed-quantity-kanban-rule-manufacturing.md
@@ -2259,6 +2265,16 @@
                   href: sales-marketing/tasks/register-sales-commissions.md
                 - name: إعداد قواعد عمولات المبيعات
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
+            - name: مدخل العميل لـ Dynamics 365 Supply Chain Management
+              items:
+                - name: نظرة عامة على مدخل العملاء
+                  href: sales-marketing/customer-portal-overview.md
+                - name: تثبيت مدخل العميل وإعداده وتحديثه
+                  href: sales-marketing/customer-portal-setup.md
+                - name: إنشاء مستخدمي مدخل العميل وإدارتهم
+                  href: sales-marketing/customer-portal-user-admin.md
+                - name: تخصيص مدخل العميل واستخدامه
+                  href: sales-marketing/customer-portal-customize.md
             - name: البدل التجاري
               href: sales-marketing/trade-allowance.md
             - name: إنشاء اتفاقية تجارية جديدة
@@ -2307,9 +2323,9 @@
                       href: service-management/service-object-relations.md
                     - name: إنشاء علاقات كائن خدمة
                       href: service-management/create-service-object-relations.md
-                    - name: قوائم مكونات صنف القالب
+                    - name: قوائم BOM للقالب
                       href: service-management/template-boms.md
-                    - name: إنشاء قائمة مكونات صنف قالب
+                    - name: إنشاء BOM لقالب
                       href: service-management/create-template-bom.md
                     - name: إرفاق القوالب بكائنات الخدمة
                       href: service-management/attach-templates-service-objects.md
@@ -2373,9 +2389,9 @@
                       href: service-management/change-service-order-stage.md
                     - name: تحديث الاتفاقيات وتقييمها
                       items:
-                        - name: إدارة قائمة مكونات صنف القالب على علاقات الكائن
+                        - name: إدارة قوائم BOM للقالب على علاقات الكائن
                           href: service-management/manage-template-boms-on-object-relations.md
-                        - name: حذف قائمة مكونات صنف الخدمة
+                        - name: حذف BOM لخدمة
                           href: service-management/delete-service-bom.md
                         - name: أسعار المبيعات المفهرسة
                           href: service-management/indexed-sales-prices.md
@@ -2475,7 +2491,7 @@
                           href: service-management/reverse-changes-in-a-dispatch-board.md
                         - name: عرض أوامر الخدمة غير المرسلة
                           href: service-management/view-undispatched-service-orders.md
-                        - name: تعديل قائمة مكونات صنف خدمة
+                        - name: تعديل BOM لخدمة
                           href: service-management/modify-service-bom.md
                     - name: تسليم الخدمة
                       items:
@@ -2653,8 +2669,10 @@
                   href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
                 - name: الجرد الدوري الجزئي للمواقع
                   href: warehousing/partial-location-cycle-counting.md
-                - name: 'تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫ '
+                - name: تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                - name: مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات
+                  href: warehousing/onhand-cleanup.md
                 - name: دفتر يومية المخزون
                   href: inventory/inventory-journals.md
                 - name: موقع المخزون
