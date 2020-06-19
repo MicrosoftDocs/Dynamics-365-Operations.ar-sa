@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: BenefitWorkspace
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,86 +18,86 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91a4425b4f020f90843bb3b0b280b7ee28463670
-ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
+ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "3230144"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429235"
 ---
-# <a name="benefits-management-overview"></a><span data-ttu-id="93917-104">نظرة عامة على إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="93917-104">Benefits management overview</span></span>
+# <a name="benefits-management-overview"></a><span data-ttu-id="d1786-104">نظرة عامة على إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="d1786-104">Benefits management overview</span></span>
 
-<span data-ttu-id="93917-105">لكي تظل قادرًا على المنافسة، ينبغي أن تقدم مجموعة ثرية من المزايا لجذب أفضل الموظفين والاحتفاظ بهم.</span><span class="sxs-lookup"><span data-stu-id="93917-105">To remain competitive, you must offer a rich set of benefits to attract and retain your best employees.</span></span> <span data-ttu-id="93917-106">بالإضافة إلى المزايا القياسية مثل التغطية الطبية وتغطية الأسنان، وقد ترغب أيضًا في تقديم خدمات موسعة مثل المساعدة في التبني وبرامج الترفيه وبدل الملابس.</span><span class="sxs-lookup"><span data-stu-id="93917-106">In addition to standard benefits like medical and dental coverage, you might also want to offer expanded services like adoption assistance, recreation programs, and clothing allowances.</span></span> <span data-ttu-id="93917-107">توفر لك ميزة إدارة المزايا في Microsoft Dynamics 365 Human Resources حلاً مرنًا يدعم مجموعة واسعة من خيارات المزايا.</span><span class="sxs-lookup"><span data-stu-id="93917-107">Benefits management in Microsoft Dynamics 365 Human Resources provides you with a flexible solution that supports a wide variety of benefit options.</span></span> <span data-ttu-id="93917-108">كما يتضمن Human Resources أيضًا تجربة سهلة الاستخدام للموظف التي تعرض عروضك.</span><span class="sxs-lookup"><span data-stu-id="93917-108">Human Resources also includes an easy-to-use employee experience that showcases your offerings.</span></span>
+<span data-ttu-id="d1786-105">لكي تظل قادرًا على المنافسة، ينبغي أن تقدم مجموعة ثرية من المزايا لجذب أفضل الموظفين والاحتفاظ بهم.</span><span class="sxs-lookup"><span data-stu-id="d1786-105">To remain competitive, you must offer a rich set of benefits to attract and retain your best employees.</span></span> <span data-ttu-id="d1786-106">بالإضافة إلى المزايا القياسية مثل التغطية الطبية وتغطية الأسنان، وقد ترغب أيضًا في تقديم خدمات موسعة مثل المساعدة في التبني وبرامج الترفيه وبدل الملابس.</span><span class="sxs-lookup"><span data-stu-id="d1786-106">In addition to standard benefits like medical and dental coverage, you might also want to offer expanded services like adoption assistance, recreation programs, and clothing allowances.</span></span> <span data-ttu-id="d1786-107">توفر لك ميزة إدارة المزايا في Microsoft Dynamics 365 Human Resources حلاً مرنًا يدعم مجموعة واسعة من خيارات المزايا.</span><span class="sxs-lookup"><span data-stu-id="d1786-107">Benefits management in Microsoft Dynamics 365 Human Resources provides you with a flexible solution that supports a wide variety of benefit options.</span></span> <span data-ttu-id="d1786-108">كما يتضمن Human Resources أيضًا تجربة سهلة الاستخدام للموظف التي تعرض عروضك.</span><span class="sxs-lookup"><span data-stu-id="d1786-108">Human Resources also includes an easy-to-use employee experience that showcases your offerings.</span></span>
 
-- <span data-ttu-id="93917-109">تتيح لك خطط المزايا المحسّنة إنشاء وإدارة خطط مزايا فريدة ودعم جداول معدلات الميزة المعقدة والمستويات المتداخلة.</span><span class="sxs-lookup"><span data-stu-id="93917-109">Enhanced benefits plans let you create and manage unique benefit plans and support complex benefit rate tables and nested tiers.</span></span> <span data-ttu-id="93917-110">يمكنك بسهولة إنشاء برامج ميزة وحزم وقواعد التسجيل التلقائي لتجربة استخدام أسهل من جانب الموظف.</span><span class="sxs-lookup"><span data-stu-id="93917-110">You can easily create benefit programs, bundles, and auto-enrollment rules for an easier employee experience.</span></span>
+- <span data-ttu-id="d1786-109">تتيح لك خطط المزايا المحسّنة إنشاء وإدارة خطط مزايا فريدة ودعم جداول معدلات الميزة المعقدة والمستويات المتداخلة.</span><span class="sxs-lookup"><span data-stu-id="d1786-109">Enhanced benefits plans let you create and manage unique benefit plans and support complex benefit rate tables and nested tiers.</span></span> <span data-ttu-id="d1786-110">يمكنك بسهولة إنشاء برامج ميزة وحزم وقواعد التسجيل التلقائي لتجربة استخدام أسهل من جانب الموظف.</span><span class="sxs-lookup"><span data-stu-id="d1786-110">You can easily create benefit programs, bundles, and auto-enrollment rules for an easier employee experience.</span></span>
 
-- <span data-ttu-id="93917-111">تسمح لك برامج الائتمان المرنة التقسيم بالتناسب لدعم التقاعد والأحداث الحياتية الأخرى.</span><span class="sxs-lookup"><span data-stu-id="93917-111">Flex credit programs let you prorate to support retirement and other life events.</span></span>
+- <span data-ttu-id="d1786-111">تسمح لك برامج الائتمان المرنة التقسيم بالتناسب لدعم التقاعد والأحداث الحياتية الأخرى.</span><span class="sxs-lookup"><span data-stu-id="d1786-111">Flex credit programs let you prorate to support retirement and other life events.</span></span>
 
-- <span data-ttu-id="93917-112">وتضمن قواعد الاستحقاق الشاملة جعل المزايا الصحيحة متوفرة للموظفين المستحقين.</span><span class="sxs-lookup"><span data-stu-id="93917-112">Extensive eligibility rules ensure you make the right benefits available to the right employees.</span></span>
+- <span data-ttu-id="d1786-112">وتضمن قواعد الاستحقاق الشاملة جعل المزايا الصحيحة متوفرة للموظفين المستحقين.</span><span class="sxs-lookup"><span data-stu-id="d1786-112">Extensive eligibility rules ensure you make the right benefits available to the right employees.</span></span>
 
-- <span data-ttu-id="93917-113">يوفر تسجيل المزايا عبر الإنترنت تجربة سهلة لموظفيك.</span><span class="sxs-lookup"><span data-stu-id="93917-113">Online benefits enrollment provides an easy experience for your employees.</span></span>
+- <span data-ttu-id="d1786-113">يوفر تسجيل المزايا عبر الإنترنت تجربة سهلة لموظفيك.</span><span class="sxs-lookup"><span data-stu-id="d1786-113">Online benefits enrollment provides an easy experience for your employees.</span></span>
 
-- <span data-ttu-id="93917-114">تدعم معالجة أحداث الحياة المؤهلة أحداث الحياة المستقبلية.</span><span class="sxs-lookup"><span data-stu-id="93917-114">Qualified life event processing supports future life events.</span></span>
+- <span data-ttu-id="d1786-114">تدعم معالجة أحداث الحياة المؤهلة أحداث الحياة المستقبلية.</span><span class="sxs-lookup"><span data-stu-id="d1786-114">Qualified life event processing supports future life events.</span></span>
 
-<span data-ttu-id="93917-115">إذا كنت ترغب في الوصول إلى بيانات العرض التوضيحي‬، فستحتاج إلى إعادة نشر بيئة الحماية.</span><span class="sxs-lookup"><span data-stu-id="93917-115">If you would like to access the demo data, you'll need to redeploy your sandbox environment.</span></span>
+<span data-ttu-id="d1786-115">إذا كنت ترغب في الوصول إلى بيانات العرض التوضيحي‬، فستحتاج إلى إعادة نشر بيئة الحماية.</span><span class="sxs-lookup"><span data-stu-id="d1786-115">If you would like to access the demo data, you'll need to redeploy your sandbox environment.</span></span>
 
-## <a name="benefits-management-known-issues"></a><span data-ttu-id="93917-116">المشكلات المعروفة في إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="93917-116">Benefits management known issues</span></span>
+## <a name="benefits-management-known-issues"></a><span data-ttu-id="d1786-116">المشكلات المعروفة في إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="d1786-116">Benefits management known issues</span></span>
 
-### <a name="flex-credit-programs"></a><span data-ttu-id="93917-117">برامج الائتمان المرنة</span><span class="sxs-lookup"><span data-stu-id="93917-117">Flex credit programs</span></span>
+### <a name="flex-credit-programs"></a><span data-ttu-id="d1786-117">برامج الائتمان المرنة</span><span class="sxs-lookup"><span data-stu-id="d1786-117">Flex credit programs</span></span>
 
-<span data-ttu-id="93917-118">لا تظهر قيمة الائتمان الإجمالية المحددة لبرنامج ائتمان مرن‬ في نموذج **خطط المزايا الخاصة بالعامل**.</span><span class="sxs-lookup"><span data-stu-id="93917-118">The total credit value defined for a flex credit program doesn't display in the **Worker benefit plans** form.</span></span> <span data-ttu-id="93917-119">كذلك الأمر، إذا قمت بتعيين برنامج ائتمان كي تكون له قاعدة تناسب بقيمة **بلا**، ستحصل على خطأ في نموذج **خطط المزايا الخاصة بالعامل‬‏‫** عند تحديد الخطط وتأكيدها.</span><span class="sxs-lookup"><span data-stu-id="93917-119">Also, if you set a flex credit program to have a proration rule of **None**, you get an error in the **Worker benefit plan** form when selecting and confirming plans.</span></span>
+<span data-ttu-id="d1786-118">لا تظهر قيمة الائتمان الإجمالية المحددة لبرنامج ائتمان مرن‬ في نموذج **خطط المزايا الخاصة بالعامل**.</span><span class="sxs-lookup"><span data-stu-id="d1786-118">The total credit value defined for a flex credit program doesn't display in the **Worker benefit plans** form.</span></span> <span data-ttu-id="d1786-119">كذلك الأمر، إذا قمت بتعيين برنامج ائتمان كي تكون له قاعدة تناسب بقيمة **بلا**، ستحصل على خطأ في نموذج **خطط المزايا الخاصة بالعامل‬‏‫** عند تحديد الخطط وتأكيدها.</span><span class="sxs-lookup"><span data-stu-id="d1786-119">Also, if you set a flex credit program to have a proration rule of **None**, you get an error in the **Worker benefit plan** form when selecting and confirming plans.</span></span>
 
-## <a name="enable-benefits-management"></a><span data-ttu-id="93917-120">تمكين إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="93917-120">Enable Benefits management</span></span>
+## <a name="enable-benefits-management"></a><span data-ttu-id="d1786-120">تمكين إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="d1786-120">Enable Benefits management</span></span>
 
-<span data-ttu-id="93917-121">توضح هذه المقالة كيفية تشغيل ميزات Human Resources.</span><span class="sxs-lookup"><span data-stu-id="93917-121">This article describes how to turn on features in Human Resources.</span></span> <span data-ttu-id="93917-122">كما أنها تحدد المزايا الموجودة في Human Resources والتي تستبدلها إدارة المزايا أو تقوم بتعطيلها بمجرد تشغيل إدارة المزايا.</span><span class="sxs-lookup"><span data-stu-id="93917-122">It also tells which existing features in Human Resources that Benefits management replaces or are disabled once you turn on Benefits management.</span></span>
+<span data-ttu-id="d1786-121">توضح هذه المقالة كيفية تشغيل ميزات Human Resources.</span><span class="sxs-lookup"><span data-stu-id="d1786-121">This article describes how to turn on features in Human Resources.</span></span> <span data-ttu-id="d1786-122">كما أنها تحدد المزايا الموجودة في Human Resources والتي تستبدلها إدارة المزايا أو تقوم بتعطيلها بمجرد تشغيل إدارة المزايا.</span><span class="sxs-lookup"><span data-stu-id="d1786-122">It also tells which existing features in Human Resources that Benefits management replaces or are disabled once you turn on Benefits management.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="93917-123">بعد تمكين إدارة المزايا في بيئة **الإنتاج**، لا يمكنك تعطيلها.</span><span class="sxs-lookup"><span data-stu-id="93917-123">After you enable Benefits management in a **Production** environment, you can't disable it.</span></span> <span data-ttu-id="93917-124">نوصي بتمكين إدارة المزايا واختبارها في **بيئة اختبار معزولة** قبل تمكينها في بيئة **الإنتاج**.</span><span class="sxs-lookup"><span data-stu-id="93917-124">We recommend enabling and testing Benefits management in a **Sandbox** environment before enabling it in a **Production** environment.</span></span> <span data-ttu-id="93917-125">توجد اختلافات كبيرة بين وظيفة المزايا القديمة ووظيفة إدارة المزايا الجديدة التي تتطلب عملية إعداد إضافية ويجب اختبارها قبل وضعها في بيئة الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="93917-125">There are significant differences between the legacy Benefit functionality and new Benefits management functionality that require additional setup and should be tested prior to being placed into production.</span></span>
+> <span data-ttu-id="d1786-123">بعد تمكين إدارة المزايا في بيئة **الإنتاج**، لا يمكنك تعطيلها.</span><span class="sxs-lookup"><span data-stu-id="d1786-123">After you enable Benefits management in a **Production** environment, you can't disable it.</span></span> <span data-ttu-id="d1786-124">نوصي بتمكين إدارة المزايا واختبارها في **بيئة اختبار معزولة** قبل تمكينها في بيئة **الإنتاج**.</span><span class="sxs-lookup"><span data-stu-id="d1786-124">We recommend enabling and testing Benefits management in a **Sandbox** environment before enabling it in a **Production** environment.</span></span> <span data-ttu-id="d1786-125">توجد اختلافات كبيرة بين وظيفة المزايا القديمة ووظيفة إدارة المزايا الجديدة التي تتطلب عملية إعداد إضافية ويجب اختبارها قبل وضعها في بيئة الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="d1786-125">There are significant differences between the legacy Benefit functionality and new Benefits management functionality that require additional setup and should be tested prior to being placed into production.</span></span>
 
-- [<span data-ttu-id="93917-126">إدارة الميزات</span><span class="sxs-lookup"><span data-stu-id="93917-126">Manage features</span></span>](hr-admin-manage-features.md)
+- [<span data-ttu-id="d1786-126">إدارة الميزات</span><span class="sxs-lookup"><span data-stu-id="d1786-126">Manage features</span></span>](hr-admin-manage-features.md)
 
-## <a name="configure-employee-information"></a><span data-ttu-id="93917-127">تكوين معلومات الموظفين</span><span class="sxs-lookup"><span data-stu-id="93917-127">Configure employee information</span></span>
+## <a name="configure-employee-information"></a><span data-ttu-id="d1786-127">تكوين معلومات الموظفين</span><span class="sxs-lookup"><span data-stu-id="d1786-127">Configure employee information</span></span>
 
-<span data-ttu-id="93917-128">قبل تسجيل الموظفين في المزايا، يجب تقديم المعلومات المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="93917-128">Before you can enroll employees in benefits, you must provide required information.</span></span> <span data-ttu-id="93917-129">يجب أن تسجل موظفًا في **خطة تعويض ثابت** في تاريخ بدئها، ويجب أن تحدد **تكرار دفع المزايا** في **تفاصيل التوظيف** على نموذج **العامل**.</span><span class="sxs-lookup"><span data-stu-id="93917-129">You must enroll an employee in a **Fixed compensation plan** on their start date, and you must select a **Benefit pay frequency** in **Employment details** on the **Worker** form.</span></span>
+<span data-ttu-id="d1786-128">قبل تسجيل الموظفين في المزايا، يجب تقديم المعلومات المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="d1786-128">Before you can enroll employees in benefits, you must provide required information.</span></span> <span data-ttu-id="d1786-129">يجب أن تسجل موظفًا في **خطة تعويض ثابت** في تاريخ بدئها، ويجب أن تحدد **تكرار دفع المزايا** في **تفاصيل التوظيف** على نموذج **العامل**.</span><span class="sxs-lookup"><span data-stu-id="d1786-129">You must enroll an employee in a **Fixed compensation plan** on their start date, and you must select a **Benefit pay frequency** in **Employment details** on the **Worker** form.</span></span>
 
-<span data-ttu-id="93917-130">عند إنشاء خطة مزايا تستخدم الأسعار التي تعتمد على الجنس أو العمر، يجب إدخال تاريخ ميلاد الموظف وجنسه لحساب تكلفة المزايا.</span><span class="sxs-lookup"><span data-stu-id="93917-130">When you create a benefit plan that uses rates that are based on gender or age, you must enter a birth date and gender for the employee to calculate the benefit cost.</span></span>
+<span data-ttu-id="d1786-130">عند إنشاء خطة مزايا تستخدم الأسعار التي تعتمد على الجنس أو العمر، يجب إدخال تاريخ ميلاد الموظف وجنسه لحساب تكلفة المزايا.</span><span class="sxs-lookup"><span data-stu-id="d1786-130">When you create a benefit plan that uses rates that are based on gender or age, you must enter a birth date and gender for the employee to calculate the benefit cost.</span></span>
 
-## <a name="configure-benefits-management"></a><span data-ttu-id="93917-131">تكوين إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="93917-131">Configure Benefits management</span></span>
+## <a name="configure-benefits-management"></a><span data-ttu-id="d1786-131">تكوين إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="d1786-131">Configure Benefits management</span></span>
 
-<span data-ttu-id="93917-132">قبل أن تتمكن من إنشاء خطط المزايا للموظفين، تحتاج إلى تكوين خيارات للخطط.</span><span class="sxs-lookup"><span data-stu-id="93917-132">Before you can create benefit plans for your employees, you need to configure options for the plans.</span></span>
+<span data-ttu-id="d1786-132">قبل أن تتمكن من إنشاء خطط المزايا للموظفين، تحتاج إلى تكوين خيارات للخطط.</span><span class="sxs-lookup"><span data-stu-id="d1786-132">Before you can create benefit plans for your employees, you need to configure options for the plans.</span></span>
 
-- [<span data-ttu-id="93917-133">تعيين معلمات إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="93917-133">Set Benefits management parameters</span></span>](hr-benefits-setup-parameters.md)
-- [<span data-ttu-id="93917-134">تكوين قواعد الاهلية وخياراتها</span><span class="sxs-lookup"><span data-stu-id="93917-134">Configure eligibility rules and options</span></span>](hr-benefits-setup-eligibility-rules.md)
-- [<span data-ttu-id="93917-135">تكوين خيارات أهلية جهة الاتصال الشخصية</span><span class="sxs-lookup"><span data-stu-id="93917-135">Configure personal contact eligibility options</span></span>](hr-benefits-setup-contact-eligibility-options.md)
-- [<span data-ttu-id="93917-136">إنشاء خيارات تغطية</span><span class="sxs-lookup"><span data-stu-id="93917-136">Create coverage options</span></span>](hr-benefits-setup-coverage-options.md)
-- [<span data-ttu-id="93917-137">إعداد تكرارات المدفوعات</span><span class="sxs-lookup"><span data-stu-id="93917-137">Set up payment frequencies</span></span>](hr-benefits-setup-payment-frequencies.md)
-- [<span data-ttu-id="93917-138">تكوين أنواع أحداث الحياة</span><span class="sxs-lookup"><span data-stu-id="93917-138">Configure life event types</span></span>](hr-benefits-setup-life-event-types.md)
-- [<span data-ttu-id="93917-139">إنشاء أنواع الخطة</span><span class="sxs-lookup"><span data-stu-id="93917-139">Create plan types</span></span>](hr-benefits-setup-plan-types.md)
-- [<span data-ttu-id="93917-140">إعداد أكواد السبب</span><span class="sxs-lookup"><span data-stu-id="93917-140">Set up reason codes</span></span>](hr-benefits-setup-reason-codes.md)
-- [<span data-ttu-id="93917-141">إعداد أكواد الطبقات</span><span class="sxs-lookup"><span data-stu-id="93917-141">Set up tier codes</span></span>](hr-benefits-setup-tier-codes.md)
-- [<span data-ttu-id="93917-142">تكوين المعدلات</span><span class="sxs-lookup"><span data-stu-id="93917-142">Configure rates</span></span>](hr-benefits-setup-rates.md)
-- [<span data-ttu-id="93917-143">تكوين الخصومات</span><span class="sxs-lookup"><span data-stu-id="93917-143">Configure deductions</span></span>](hr-benefits-setup-deductions.md)
-- [<span data-ttu-id="93917-144">تكوين أيام الانتظار</span><span class="sxs-lookup"><span data-stu-id="93917-144">Configure waiting days</span></span>](hr-benefits-setup-waiting-days.md)
-- [<span data-ttu-id="93917-145">تكوين فترات الانتظار</span><span class="sxs-lookup"><span data-stu-id="93917-145">Configure waiting periods</span></span>](hr-benefits-setup-waiting-periods.md)
-- [<span data-ttu-id="93917-146">إعداد قواعد التقريب</span><span class="sxs-lookup"><span data-stu-id="93917-146">Set up rounding rules</span></span>](hr-benefits-setup-rounding-rules.md)
-- [<span data-ttu-id="93917-147">إنشاء فئات التوظيف</span><span class="sxs-lookup"><span data-stu-id="93917-147">Create employment categories</span></span>](hr-benefits-setup-employment-categories.md)
-- [<span data-ttu-id="93917-148">إعداد أنواع التوظيف</span><span class="sxs-lookup"><span data-stu-id="93917-148">Set up employment types</span></span>](hr-benefits-setup-employment-types.md)
-- [<span data-ttu-id="93917-149">تكوين خدمة الموظف الذاتية</span><span class="sxs-lookup"><span data-stu-id="93917-149">Configure employee self service</span></span>](hr-benefits-setup-employee-self-service.md)
+- [<span data-ttu-id="d1786-133">تعيين معلمات إدارة المزايا</span><span class="sxs-lookup"><span data-stu-id="d1786-133">Set Benefits management parameters</span></span>](hr-benefits-setup-parameters.md)
+- [<span data-ttu-id="d1786-134">تكوين قواعد الاهلية وخياراتها</span><span class="sxs-lookup"><span data-stu-id="d1786-134">Configure eligibility rules and options</span></span>](hr-benefits-setup-eligibility-rules.md)
+- [<span data-ttu-id="d1786-135">تكوين خيارات أهلية جهة الاتصال الشخصية</span><span class="sxs-lookup"><span data-stu-id="d1786-135">Configure personal contact eligibility options</span></span>](hr-benefits-setup-contact-eligibility-options.md)
+- [<span data-ttu-id="d1786-136">إنشاء خيارات تغطية</span><span class="sxs-lookup"><span data-stu-id="d1786-136">Create coverage options</span></span>](hr-benefits-setup-coverage-options.md)
+- [<span data-ttu-id="d1786-137">إعداد تكرارات المدفوعات</span><span class="sxs-lookup"><span data-stu-id="d1786-137">Set up payment frequencies</span></span>](hr-benefits-setup-payment-frequencies.md)
+- [<span data-ttu-id="d1786-138">تكوين أنواع أحداث الحياة</span><span class="sxs-lookup"><span data-stu-id="d1786-138">Configure life event types</span></span>](hr-benefits-setup-life-event-types.md)
+- [<span data-ttu-id="d1786-139">إنشاء أنواع الخطة</span><span class="sxs-lookup"><span data-stu-id="d1786-139">Create plan types</span></span>](hr-benefits-setup-plan-types.md)
+- [<span data-ttu-id="d1786-140">إعداد أكواد السبب</span><span class="sxs-lookup"><span data-stu-id="d1786-140">Set up reason codes</span></span>](hr-benefits-setup-reason-codes.md)
+- [<span data-ttu-id="d1786-141">إعداد أكواد الطبقات</span><span class="sxs-lookup"><span data-stu-id="d1786-141">Set up tier codes</span></span>](hr-benefits-setup-tier-codes.md)
+- [<span data-ttu-id="d1786-142">تكوين المعدلات</span><span class="sxs-lookup"><span data-stu-id="d1786-142">Configure rates</span></span>](hr-benefits-setup-rates.md)
+- [<span data-ttu-id="d1786-143">تكوين الخصومات</span><span class="sxs-lookup"><span data-stu-id="d1786-143">Configure deductions</span></span>](hr-benefits-setup-deductions.md)
+- [<span data-ttu-id="d1786-144">تكوين أيام الانتظار</span><span class="sxs-lookup"><span data-stu-id="d1786-144">Configure waiting days</span></span>](hr-benefits-setup-waiting-days.md)
+- [<span data-ttu-id="d1786-145">تكوين فترات الانتظار</span><span class="sxs-lookup"><span data-stu-id="d1786-145">Configure waiting periods</span></span>](hr-benefits-setup-waiting-periods.md)
+- [<span data-ttu-id="d1786-146">إعداد قواعد التقريب</span><span class="sxs-lookup"><span data-stu-id="d1786-146">Set up rounding rules</span></span>](hr-benefits-setup-rounding-rules.md)
+- [<span data-ttu-id="d1786-147">إنشاء فئات التوظيف</span><span class="sxs-lookup"><span data-stu-id="d1786-147">Create employment categories</span></span>](hr-benefits-setup-employment-categories.md)
+- [<span data-ttu-id="d1786-148">إعداد أنواع التوظيف</span><span class="sxs-lookup"><span data-stu-id="d1786-148">Set up employment types</span></span>](hr-benefits-setup-employment-types.md)
+- [<span data-ttu-id="d1786-149">تكوين خدمة الموظف الذاتية</span><span class="sxs-lookup"><span data-stu-id="d1786-149">Configure employee self service</span></span>](hr-benefits-setup-employee-self-service.md)
 
-## <a name="create-benefit-plans"></a><span data-ttu-id="93917-150">إنشاء خطط المزايا</span><span class="sxs-lookup"><span data-stu-id="93917-150">Create benefit plans</span></span>
+## <a name="create-benefit-plans"></a><span data-ttu-id="d1786-150">إنشاء خطط المزايا</span><span class="sxs-lookup"><span data-stu-id="d1786-150">Create benefit plans</span></span>
 
-<span data-ttu-id="93917-151">توضح هذه المقالات كيفية إنشاء خطط المزايا، بما في ذلك الحزم وبرامج الائتمان المرنة.</span><span class="sxs-lookup"><span data-stu-id="93917-151">These articles show how to create benefit plans, including bundles and flex credit programs.</span></span>
+<span data-ttu-id="d1786-151">توضح هذه المقالات كيفية إنشاء خطط المزايا، بما في ذلك الحزم وبرامج الائتمان المرنة.</span><span class="sxs-lookup"><span data-stu-id="d1786-151">These articles show how to create benefit plans, including bundles and flex credit programs.</span></span>
 
-- [<span data-ttu-id="93917-152">إعداد خطط المزايا</span><span class="sxs-lookup"><span data-stu-id="93917-152">Set up benefit plans</span></span>](hr-benefits-plans-setup.md)
-- [<span data-ttu-id="93917-153">إعداد برامج الائتمان المرنة</span><span class="sxs-lookup"><span data-stu-id="93917-153">Set up flex credit programs</span></span>](hr-benefits-plans-flex-credit-programs.md)
+- [<span data-ttu-id="d1786-152">إعداد خطط المزايا</span><span class="sxs-lookup"><span data-stu-id="d1786-152">Set up benefit plans</span></span>](hr-benefits-plans-setup.md)
+- [<span data-ttu-id="d1786-153">إعداد برامج الائتمان المرنة</span><span class="sxs-lookup"><span data-stu-id="d1786-153">Set up flex credit programs</span></span>](hr-benefits-plans-flex-credit-programs.md)
 
-## <a name="process-benefit-plans"></a><span data-ttu-id="93917-154">معالجة خطط المزايا</span><span class="sxs-lookup"><span data-stu-id="93917-154">Process benefit plans</span></span>
+## <a name="process-benefit-plans"></a><span data-ttu-id="d1786-154">معالجة خطط المزايا</span><span class="sxs-lookup"><span data-stu-id="d1786-154">Process benefit plans</span></span>
 
-<span data-ttu-id="93917-155">تحتاج إلى معالجة بعض تغييراتك لجعلها نشطة.</span><span class="sxs-lookup"><span data-stu-id="93917-155">You need to process some of your changes to make them active.</span></span>
+<span data-ttu-id="d1786-155">تحتاج إلى معالجة بعض تغييراتك لجعلها نشطة.</span><span class="sxs-lookup"><span data-stu-id="d1786-155">You need to process some of your changes to make them active.</span></span>
 
-- [<span data-ttu-id="93917-156">معالجة أهلية التسجيل‬</span><span class="sxs-lookup"><span data-stu-id="93917-156">Process enrollment eligibility</span></span>](hr-benefits-process-enrollment-eligibility.md)
-- [<span data-ttu-id="93917-157">معالجة الأحداث الحياتية</span><span class="sxs-lookup"><span data-stu-id="93917-157">Process life events</span></span>](hr-benefits-process-life-events.md)
-- [<span data-ttu-id="93917-158">معالجة تغييرات الأحداث الحياتية</span><span class="sxs-lookup"><span data-stu-id="93917-158">Process life event changes</span></span>](hr-benefits-process-life-event-changes.md)
-- [<span data-ttu-id="93917-159">‏‫معالجة أهلية الحدث الحياتي‬</span><span class="sxs-lookup"><span data-stu-id="93917-159">Process life event eligibility</span></span>](hr-benefits-process-life-event-eligibility.md)
-- [<span data-ttu-id="93917-160">معالجة تغييرات المعدل</span><span class="sxs-lookup"><span data-stu-id="93917-160">Process rate changes</span></span>](hr-benefits-process-rate-changes.md)
+- [<span data-ttu-id="d1786-156">معالجة أهلية التسجيل‬</span><span class="sxs-lookup"><span data-stu-id="d1786-156">Process enrollment eligibility</span></span>](hr-benefits-process-enrollment-eligibility.md)
+- [<span data-ttu-id="d1786-157">معالجة الأحداث الحياتية</span><span class="sxs-lookup"><span data-stu-id="d1786-157">Process life events</span></span>](hr-benefits-process-life-events.md)
+- [<span data-ttu-id="d1786-158">معالجة تغييرات الأحداث الحياتية</span><span class="sxs-lookup"><span data-stu-id="d1786-158">Process life event changes</span></span>](hr-benefits-process-life-event-changes.md)
+- [<span data-ttu-id="d1786-159">‏‫معالجة أهلية الحدث الحياتي‬</span><span class="sxs-lookup"><span data-stu-id="d1786-159">Process life event eligibility</span></span>](hr-benefits-process-life-event-eligibility.md)
+- [<span data-ttu-id="d1786-160">معالجة تغييرات المعدل</span><span class="sxs-lookup"><span data-stu-id="d1786-160">Process rate changes</span></span>](hr-benefits-process-rate-changes.md)
 
