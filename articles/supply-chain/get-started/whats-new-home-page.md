@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ad8f01a27fde8525c09807a28ed980c335eb8d25
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: f6824e4c8e0e6d3071973dc92d2ff90d78f4dde5
+ms.sourcegitcommit: d64a07748bdd7c85877cfe0343bee952f235f38e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417405"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457183"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 
 
@@ -34,7 +34,7 @@ ms.locfileid: "3417405"
 
 | الإصدار | رقم النسخة | توافر التحديث التلقائي | معرفة المزيد |
 |---|---|---|---|
-| 10.0.11 | 10.0.464 | 2020 يونيو | [ما الجديد والمتغير في الإصدار 10.0.11 من Dynamics 365 Supply Chain Management](whats-new-scm-10-0-11.md) |
+| 10.0.11 | 10.0.464 | 2020 يوليو | [ما الجديد والمتغير في الإصدار 10.0.11 من Dynamics 365 Supply Chain Management](whats-new-scm-10-0-11.md) |
 | 10.0.10 | 10.0.420 | 2020 مايو | [ما الجديد والمتغير في الإصدار 10.0.10 من Dynamics 365 Supply Chain Management](whats-new-scm-10-0-10.md) |
 
 ## <a name="releases-before-march-2020"></a>الإصدارات قبل مارس 2020

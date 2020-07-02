@@ -3,7 +3,7 @@ title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 06/02/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
-ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "3433912"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457556"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -36,6 +36,22 @@ ms.locfileid: "3433912"
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.13 من تطبيقات Finance and Operations
+
+> [!NOTE]
+> لم يتم إطلاق إصدار 10.0.13 حتى الآن. هذه المعلومات متوفرة لأغراض التخطيط. المحتوى والوظيفة الخاصة بالإصدار 10.0.13 عرضة للتغيير. للحصول على مزيد من المعلومات حول اإصدارات، راجع [توافر تحديث الخدمة‬](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>ترقيه لثلاث مكتبات مكونات jQuery 
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | يتم تحديث ثلاثة مكتبات مكونات jQuery لإصلاحات الأمان وللحفاظ على العملة.   
+| **هل تم الاستبدال بميزة أخرى؟**   | تتأثر المكتبات التالية: jQuery (إلى الإصدار 3.5.0 من إصدار 2.1.4)، وjQuery UI (إلى الإصدار 1.12.1 من إصدار 1.11.4)، وjQuery qTip (إلى الإصدار 3.0.3 من 2.2.1). تم توفير إرشادات الترحيل عبر الإنترنت بواسطة jQuery.  |
+| **مناطق المنتجات المتأثرة**         | عناصر التحكم القابلة للتوسعة، عبارة عن تعليمات برمجيه JavaScript مخصصه بشكل خاص للاستفادة من واجهات API المهملة أو المُزالة |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | باستخدام إصدار 10.0.13/تحديث النظام الأساسي 37، يمكن للعملاء الانتقال بشكل اختياري إلى أحدث المكتبات عن طريق تمكين ميزه "‏‫ترقيه لثلاث مكتبات مكونات jQuery‬". سيكون الانتقال إلى المكتبات الجديدة إلزاميًا بإصدار إبريل 2021 لتوفير الوقت اللازم لترحيل واجهات برمجة التطبيقات المتأثرة.   |
+
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.12 من تطبيقات Finance and Operations
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>ملحقات نموذج عنصر تحكم الشبكة أو المجموعة التي تحتوي على مراجع حقول غير صالحة
@@ -50,11 +66,11 @@ ms.locfileid: "3433912"
 
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.11 من تطبيقات Finance and Operations
 
-### <a name="explicit-whitelisting-for-self-service-environments"></a>إدراج في القائمة البيضاء بشكل صريح لبيئات الخدمة الذاتية
+### <a name="explicit-safe-lists-for-self-service-environments"></a>إدراج في القوائم الآمنة بشكل صريح لبيئات الخدمة الذاتية
 
 |   |  |
 |------------|--------------------|
-| **سبب الإهلاك/الإزالة** | طرأ تغيير على إدراج عناوين IP في القائمة البيضاء. لم تعد الخدمة الذاتية تدعم إدراج عناوين IP في القائمة البيضاء. |
+| **سبب الإهلاك/الإزالة** | تم تغيير عملية نقل IP إلى القوائم الآمنة. لم تعد الخدمة الذاتية تدعم إدراج قوائم IP الآمنة. |
 | **هل تم الاستبدال بميزة أخرى؟**   | لمزيد من المعلومات، راجع [تكوين الوصول الشرطي في Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
 | **مناطق المنتجات المتأثرة**         | الأمان |
 | **خيارات النشر**              | مجموعة |

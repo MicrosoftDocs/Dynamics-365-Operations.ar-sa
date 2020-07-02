@@ -3,7 +3,7 @@ title: نظرة عامة على مدخل العميل في Dynamics 365 Supply C
 description: يقدم هذا الموضوع مدخل العميل، ويقدم شرحًا يتعلق بالجهات التي يمكنها استخدامه وكيفية عمله.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413929"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456916"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>نظرة عامة على مدخل العميل في Dynamics 365 Supply Chain Management
 
@@ -37,6 +37,12 @@ ms.locfileid: "3413929"
 
 > [!NOTE]
 > تتوجه وثائق مدخل العميل للمسؤولين والمخصصين والعاملين في مؤسسات تكامل الأنظمة الذين سيعملون على إعداد مدخل العميل لتثبيت Supply Chain Management. وهي تستخدم مصطلحات _العميل_ و_المستخدم_ لوصف الأشخاص الذين هم من عملاء المؤسسة التي تقوم بتشغيل Supply Chain Management والذين سيستخدمون المدخل النهائي بحد ذاته.
+
+## <a name="video"></a>الفيديو
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+يتم تضمين [نظرة عامة لنموذج بوابة العميل في الفيديو Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (المعروض أعلاه) في [Finance and Operations قائمة التشغيل](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفر على YouTube.
 
 ## <a name="who-should-use-it"></a>من هي الجهات التي يمكنها استخدامه؟
 
@@ -58,6 +64,6 @@ ms.locfileid: "3413929"
 
 [الكتابة المزدوجة](https://docs.microsoft.com/powerapps/maker/portals/overview) هي بنية أساسية جاهزة توفر تفاعلاً قريبًا من الوقت الفعلي بين التطبيقات مستندة إلى النموذج في Dynamics 365 وتطبيقات Finance and Operations. وتوفر الكتابة المزدوجة تكاملاً ثنائي الاتجاه بين تطبيقات Finance and Operations وCommon Data Service. وهي بالتالي توفر تجربة متكاملة للمستخدم عبر التطبيقات. يعتمد مدخل العميل على الكيانات التي تتم مزامنتها مع الكتابة المزدوجة. قبل التمكن من إظهار البيانات من Supply Chain Management في مدخل العميل، يجب تمكين الكتابة المزدوجة لكافة الكيانات المناسبة.
 
-![![تبعيات مدخل العميل](media/customer-portal-elements.png "تبعيات مدخل العميل")](media/customer-portal-elements.png "Customer portal dependencies")
+![تبعيات مدخل العميل](media/customer-portal-elements.png "تبعيات مدخل العميل")
 
 يعمل مدخل العميل كنقطة بداية للمؤسسات التي ترغب في استخدام مداخل Power Apps لإنشاء موقع ويب خارجي يستخدم البيانات من تثبيت Supply Chain Management. وهو يساعد المؤسسات على توصيل الكتابة المزدوجة وSupply Chain Management ومداخل Power Apps.

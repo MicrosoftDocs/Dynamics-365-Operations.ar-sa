@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 10065039fce441d7f96f700ff826d959e96f2479
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410071"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443839"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
 
@@ -39,7 +39,7 @@ ms.locfileid: "3410071"
 
 بعد تمكين قوالب التعيين، يجب أن تكون حالة المخططات **قيد التشغيل**. إذا لم تكن الحالة **قيد التشغيل**، حدثت أخطاء أثناء المزامنة الأولية. لعرض الأخطاء، حدد علامة التبويب **تفاصيل المزامنة الأولية** في صفحة **الكتابة الثنائية**.
 
-![علامة التبويب تفاصيل المزامنة الأولية](media/initial_sync_status.png)
+![خطأ في علامة التبويب تفاصيل المزامنة الأولية](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>لا يمكنك إكمال المزامنة الأولية: 400 طلب غير صحيح
 
@@ -47,7 +47,7 @@ ms.locfileid: "3410071"
 
 قد تتلقى رسالة الخطأ التالية عند محاولة تشغيل التعيين والمزامنة الأولية:
 
-*أرجع الخادم البعيد الخطأ: (400) طلب غير صحيح.)، صادف تصدير AX خطأ*
+*(\[طلب غير صحيح\]، يقوم الخادم عن بُعد بإرجاع خطأ: (400) طلب غير صحيح.)، AX صادف التصدير خطأ*
 
 فيما يلي مثال لرسالة الخطأ الكاملة.
 
@@ -86,130 +86,127 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 1. قم بتسجيل الدخول إلى تطبيق Finance and Operations.
 2. في صفحة **تطبيقات Azure Active Directory**، احذف عميل **DtAppID**، ثم أضفه مرة أخرى.
 
-![قائمة تطبيقات Azure AD](media/aad_applications.png)
+![عميل DtAppID في قائمة تطبيقات Azure AD](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>حالات فشل المراجع الذاتية أو المراجع الدائرية أثناء المزامنة الأولية
 
 قد تتلقى رسائل خطأ عند وجود مراجع ذاتية أو مراجع دائرية لدى أي من تعييناتك. تقع الأخطاء ضمن هذه الفئات:
 
-- [تعيين كيان المورّدون V2 في مقابل msdyn_vendors](#error-vendor-map)
-- [تعيين كيان العملاء V3 في مقابل الحسابات](#error-customer-map)
+- [خطأ في تعيين كيان الموردين V2–to–msdyn_vendors](#error-vendor-map)
+- [خطأ في تعيين كيان العملاء V3–to–Accounts](#error-customer-map)
 
-## <a name="resolve-an-error-in-vendors-v2-to-msdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>حل خطأ في تعيين كيان المورّدون V2 في مقابل msdyn_vendors
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>حل خطأ في تعيين كيان الموردين V2–to–msdyn_vendors
 
-قد تواجه أخطاء المزامنة الأولية التالية على تعيين **المورّدون V2** في مقابل **msdyn_vendors** إذا تضمنت الكيانات سجلات موجودة لديها قيم في الحقلين **PrimaryContactPersonId** و**InvoiceVendorAccountNumber**. يعود سبب ذلك إلى كون **InvoiceVendorAccountNumber** عبارة عن حقل مرجع ذاتي و**PrimaryContactPersonId** عبارة عن مرجع دائري في تعيين المورّد.
+قد تواجه أخطاء المزامنة الأولية لتعيين **الموردون V2** إلى **msdyn\_الموردون** إذا كانت الكيانات تحتوي على سجلات حالية حيث توجد قيم في الحقول **PrimaryContactPersonId** و **InvoiceVendorAccountNumber**. تحدث هذه الأخطاء لأن **InvoiceVendorAccountNumber** عبارة عن حقل مرجع ذاتي و **PrimaryContactPersonId** عبارة عن مرجع دائري في تعيين المورّد.
 
-*تعذّر حل guid للحقل: <field>. لم يتم العثور على قيمة البحث: <value>. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>*
+سيكون لرسائل الخطأ التي تتلقاها النموذج التالي.
+
+*يتعذر حل guid الدليل للحقل: \<field\>. لم يتم العثور على قيمة البحث: \<value\>. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
 فيما يلي بعض الأمثلة:
 
-- *تعذّر حل guid للحقل: msdyn_vendorprimarycontactperson.msdyn_contactpersonid. لم يتم العثور على قيمة البحث: 000056. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *تعذّر حل guid للحقل: msdyn_invoicevendoraccountnumber.msdyn_vendoraccountnumber. لم يتم العثور على قيمة البحث: V24-1. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'*
+- *يتعذر حل guid الدليل للحقل: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. لم يتم العثور على البحث: 000056. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *يتعذر حل guid الدليل للحقل: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. لم يتم العثور على قيمة البحث: V24-1. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-إذا كانت لديك سجلات تتضمن قيمًا في هذه الحقول في كيان المورّد، فاتبع الخطوات في القسم أدناه لإكمال المزامنة الأولية.
+إذا كانت أية سجلات في كيان مورد تتضمن قيمًا في الحقول **PrimaryContactPersonId** و **InvoiceVendorAccountNumber**، فاتبع هذه الخطوات لإكمال المزامنة الأولية.
 
-1. في التطبيق Finance and Operations، احذف الحقلين **PrimaryContactPersonId** و**InvoiceVendorAccountNumber** من التعيين واحفظ التغييرات.
+1. في التطبيق Finance and Operations، احذف الحقلين **PrimaryContactPersonId** و**InvoiceVendorAccountNumber** من التعيين، ثم احفظ التعيين.
 
-    1. انتقل إلى صفحة تعيين الكتابة المزدوجة **المورّدون V2 (msdyn_vendors)**، وحدد علامة تبويب **تعيينات الكيان**. في عامل التصفية الأيسر، حدد **Finance and Operations apps.Vendors V2**. في عامل التصفية الأيمن، حدد **Sales.Vendor**
-
+    1. في صفحة تعيين الكتابة المزدوجة **Vendors V2 (msdyn\_الموردون)**، في علامة التبويب **تعيينات الكيان**، في عامل التصفية الأيسر، حدد **Finance and Operations apps.Vendors V2**. في عامل التصفية الأيمن، حدد **Sales.Vendor**
     2. ابحث عن **primarycontactperson** للعثور على الحقل المصدر **PrimaryContactPersonId**.
-    
-    3. انقر فوق زر **الإجراءات**، وحدد **حذف**.
-    
-        ![مرجع ذاتي أو دائري 3](media/vend_selfref3.png)
-    
-    4. كرر الإجراء لحذف الحقل **InvoiceVendorAccountNumber**.
-    
-        ![مرجع ذاتي أو دائري 4](media/vend-selfref4.png)
-    
-    5. احفظ تغييرات التعيين.
+    3. حدد **الإجراءات**، ثم حدد **حذف**.
 
-2. عطّل تعقب التغييرات لكيان **المورّدون V2**.
+        ![حذف الحقل PrimaryContactPersonId](media/vend_selfref3.png)
 
-    1. انتقل إلى **إدارة البيانات \> كيانات البيانات**.
-    
+    4. كرر هذه الخطوات لحذف الحقل **InvoiceVendorAccountNumber**.
+
+        ![حذف الحقل InvoiceVendorAccountNumber](media/vend-selfref4.png)
+
+    5. احفظ التغييرات الخاصة بك للتعيين.
+
+2. قم بإيقاف تشغيل تعقب كيان **المورّدون V2**.
+
+    1. في مساحة عمل **إدارة بيانات**، حدد تجانب **كيانات البيانات**.
     2. حدد الكيان **المورّدون V2**.
-    
-    3. انقر فوق **خيارات** من شريط القوائم، ثم فوق **تعقب التغييرات**.
-    
-        ![مرجع ذاتي أو دائري 5](media/selfref_options.png)
-    
-    4. انقر فوق **تعطيل تعقب التغييرات**.
-    
-        ![مرجع ذاتي أو دائري 6](media/selfref_tracking.png)
+    3. في جزء الإجراء، حدد **الخيارات**، ثم حدد **تعقب التغييرات**.
 
-3. قم بتشغيل المزامنة الأولية لتعيين **المورّدون V2 (msdyn_vendors)**. يجب أن تنجح المزامنة الأولية بدون حدوث أي أخطاء.
+        ![تحديد خيار تعقب التغييرات](media/selfref_options.png)
 
-4. قم بتشغيل المزامنة الأولية لتعيين **جهات اتصال CDS V2 (جهات الاتصال)**. يجب مزامنة هذا التعيين إذا كنت ترغب في مزامنة حقل جهة الاتصال الرئيسية أو كيان الموردين لأنه يجب إجراء مزامنة أولية لسجلات جهات الاتصال.
+    4. حدد **تعطيل تعقب التغييرات**.
 
-5. أعد إضافة الحقلين **PrimaryContactPersonId** و**InvoiceVendorAccountNumber** إلى تعيين **المورّدون V2 (msdyn_vendors)** واحفظ التعيين.
+        ![تحديد تعطيل تعقب التغييرات](media/selfref_tracking.png)
 
-6. قم بتشغيل المزامنة الأولية من جديد لتعيين **المورّدون V2 (msdyn_vendors)**. ستتم مزامنة كافة السجلات بسبب تعطيل تعقب التغييرات.
+3. قم بتشغيل المزامنة الأولية لتعيين **الموردون V2 (msdyn\_الموردون)**. يجب أن تنجح المزامنة الأولية بدون حدوث أية أخطاء.
+4. قم بتشغيل المزامنة الأولية لتعيين **جهات اتصال CDS V2 (جهات الاتصال)**. يجب مزامنة هذا التعيين إذا كنت ترغب في مزامنة حقل جهة الاتصال الرئيسية أو كيان الموردين، لأنه يجب إجراء مزامنة أولية لسجلات جهات الاتصال.
+5. أضف الحقول **PrimaryContactPersonId** و **InvoiceVendorAccountNumber** إلى تعيين **الموردون V2 (msdyn\_vendors)**، ثم احفظ التعيين.
+6. قم بتشغيل المزامنة الأولية مرة أخرى لتعيين **الموردون V2 (msdyn\_الموردون)**. ستتم مزامنة كافة السجلات بسبب إيقاف تشغيل تعقب التغييرات.
+7. قم بتشغيل تعقب كيان **المورّدون V2** مرة أخرى.
 
-7. مكّن تعقب التغييرات لكيان **المورّدون V2**.
+## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>حل أخطاء في تعيين كيان العملاء V3–to–Accounts
 
-## <a name="resolve-an-error-in-customers-v3-to-accounts-entity-mapping"></a><a id="error-customer-map"></a>حل خطأ في تعيين كيان العملاء V3 في مقابل الحسابات
+قد تواجه أخطاء المزامنة الأولية لتعيين**العملاء V3** إلى **الحسابات** إذا كانت الكيانات تحتوي على سجلات حالية حيث توجد قيم في الحقول **ContactPersonID** و **InvoiceAccount** . يعود سبب حدوث هذه الأخطاء إلى كون **InvoiceAccount** عبارة عن حقل مرجع ذاتي و**ContactPersonId** عبارة عن مرجع دائري في تعيين المورّد.
 
-قد تواجه أخطاء المزامنة الأولية التالية على تعيين **العملاء V3** في مقابل **الحسابات** إذا تضمنت الكيانات سجلات موجودة لديها قيم في الحقلين **ContactPersonID** و**InvoiceAccount**. يعود سبب ذلك إلى كون **InvoiceAccount** عبارة عن حقل مرجع ذاتي و**ContactPersonId** عبارة عن مرجع دائري في تعيين المورّد.
+سيكون لرسائل الخطأ التي تتلقاها النموذج التالي.
 
-*تعذّر حل guid للحقل: <field>. لم يتم العثور على قيمة البحث: <value>. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>*
+*يتعذر حل guid الدليل للحقل: \<field\>. لم يتم العثور على قيمة البحث: \<value\>. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
-- *تعذّر حل guid للحقل: primarycontactid.msdyn_contactpersonid. لم يتم العثور على قيمة البحث: 000056. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *تعذّر حل guid للحقل: msdyn_billingaccount.accountnumber. لم يتم العثور على قيمة البحث: 1206-1. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'*
+فيما يلي بعض الأمثلة:
 
-إذا كانت لديك سجلات تتضمن قيمًا في هذه الحقول في كيان العميل، فاتبع الخطوات في القسم أدناه لإكمال المزامنة الأولية. يمكنك استخدام هذا الأسلوب لأي كيانات جاهزة مثل الحسابات وجهات الاتصال.
+- *يتعذر حل guid للحقل: primarycontactid.msdyn\_contactpersonid. لم يتم العثور على البحث: 000056. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *يتعذر حل guid للحقل: msdyn\_billingaccount.accountnumber. لم يتم العثور على البحث: 1206-1. جرّب عنوان (عناوين) URL هذا للتأكد من وجود البيانات المرجعية:`https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-1. في التطبيق Finance and Operations، احذف الحقلين **ContactPersonID** و**InvoiceAccount** من التعيين **العملاء V3 (الحسابات)** واحفظ التعيين.
+إذا كانت أية سجلات في كيان العميل تتضمن قيمًا في الحقول **ContactPersonID** و **InvoiceAccount**، فاتبع هذه الخطوات لإكمال المزامنة الأولية. يمكنك استخدام هذا الأسلوب لأي كيانات جاهزة مثل **الحسابات** و **جهات الاتصال**.
 
-    1. انتقل إلى صفحة تعيين الكتابة المزدوجة **العملاء V3 (الحسابات)**، وحدد علامة تبويب **تعيينات الكيان**. في عامل التصفية الأيسر، حدد **Finance and Operations app.Customers V3**. في عامل التصفية الأيسر، حدد **Common Data Service.Account**.
+1. في التطبيق Finance and Operations، احذف الحقلين **ContactPersonID** و **InvoiceAccount** من التعيين **العملاء V3 (الحسابات)** ثم احفظ التعيين.
 
+    1. في صفحة تعيين الكتابة المزدوجة **العملاء V3 (الحسابات)**، وفي علامة تبويب **تعيينات الكيان**، في عامل التصفية الأيسر، حدد **Finance and Operations app.Customers V3**. في عامل التصفية الأيسر، حدد **Common Data Service.Account**.
     2. ابحث عن **contactperson** للعثور على الحقل المصدر **ContactPersonID**.
-    
-    3. انقر فوق زر **الإجراءات**، وحدد **حذف**.
-    
-        ![مرجع ذاتي أو دائري 3](media/cust_selfref3.png)
-    
-    4. كرر الإجراء لحذف الحقل **InvoiceAccount**.
-    
-        ![مرجع ذاتي أو دائري](media/cust_selfref4.png)
-    
-    5. احفظ تغييرات التعيين.
+    3. حدد **الإجراءات**، ثم حدد **حذف**.
 
-2. عطّل تعقب التغييرات لكيان **العملاء V3**.
+        ![حذف الحقل ContactPersonID](media/cust_selfref3.png)
 
-    1. انتقل إلى **إدارة البيانات \> كيانات البيانات**.
-    
+    4. كرر هذه الخطوات لحذف الحقل **‎InvoiceAccount**.
+
+        ![حذف الحقل InvoiceAccount](media/cust_selfref4.png)
+
+    5. احفظ التغييرات الخاصة بك للتعيين.
+
+2. قم بإيقاف تشغيل تعقب كيان **العملاء V3**.
+
+    1. في مساحة عمل **إدارة بيانات**، حدد تجانب **كيانات البيانات**.
     2. حدد الكيان **العملاء V3**.
-    
-    3. انقر فوق **خيارات** من شريط القوائم، ثم فوق **تعقب التغييرات**.
-    
-        ![مرجع ذاتي أو دائري 5](media/selfref_options.png)
-    
-    4. انقر فوق **تعطيل تعقب التغييرات**.
-    
-        ![مرجع ذاتي أو دائري 6](media/selfref_tracking.png)
+    3. في جزء الإجراء، حدد **الخيارات**، ثم حدد **تعقب التغييرات**.
 
-3. قم بتشغيل المزامنة الأولية لتعيين **العملاء V3 (الحسابات)**. يجب أن تنجح المزامنة الأولية بدون حدوث أي أخطاء.
+        ![تحديد خيار تعقب التغييرات](media/selfref_options.png)
 
-4. قم بتشغيل المزامنة الأولية لتعيين **جهات اتصال CDS V2 (جهات الاتصال)**. هناك خريطتان بالاسم نفسه. حدد الخريطة التي تتضمن الوصف **قالب كتابة مزدوجة للمزامنة بين FO.CDS المورّدون جهات الاتصال V2 وCDS.Contacts. بحاجة إلى حزمة جديدة \[Dynamics365SupplyChainExtended\].** على علامة التبويب **تفاصيل** للخريطة.
+    4. حدد **تعطيل تعقب التغييرات**.
 
-5. أعد إضافة الحقلين **InvoiceAccount** و**ContactPersonId** إلى تعيين **العملاء V3 (الحسابات)** واحفظ التعيين. الحقلان **InvoiceAccount** و**ContactPersonId** هما الآن من جديد عبارة عن جزء من وضع المزامنة المباشرة. في الخطوة التالية، ستكمل المزامنة الأولية لهذه الحقول.
+        ![تحديد تعطيل تعقب التغييرات](media/selfref_tracking.png)
 
-6. قم بتشغيل المزامنة الأولية من جديد لتعيين **العملاء V3 (الحسابات)**. بسبب تعطيل تعقب التغييرات، سيؤدي تشغيل المزامنة إلى مزامنة بيانات **InvoiceAccount** و**ContactPersonId** من التطبيق Finance and Operations إلى Common Data Service.
+3. قم بتشغيل المزامنة الأولية لتعيين **العملاء V3 (الحسابات)**. يجب أن تنجح المزامنة الأولية بدون حدوث أية أخطاء.
+4. قم بتشغيل المزامنة الأولية لتعيين **جهات اتصال CDS V2 (جهات الاتصال)**.
 
-7. لمزامنة بيانات **InvoiceAccount** و**ContactPersonId** من Common Data Service إلى Finance and Operations، تستخدم مشروع تكامل البيانات.
+    > [!NOTE]
+    > هناك مخططان لهما نفس الاسم. تأكد من تحديد المخطط الذي يتضمن الوصف التالي في علامة التبويب **تفاصيل**: **قالب كتابة مزدوجة للمزامنة بين FO.CDS المورّدون جهات الاتصال V2 وCDS.Contacts. بحاجة إلى حزمة جديدة \[Dynamics365SupplyChainExtended\].**
 
-    1. في Power Apps، أنشئ مشروع تكامل البيانات بين الكيانين **Sales.Account** و**Finance and Operations apps.Customers V3**. يجب أن يكون اتجاه البيانات من Common Data Service إلى التطبيق Finance and Operations.  لأن **InvoiceAccount** عبارة عن سمة جديدة في الكتابة المزدوجة، فقد ترغب في تخطي المزامنة الأولية لهذه السمة. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
+5. أعد إضافة الحقلين **InvoiceAccount** و**ContactPersonId** إلى تعيين **العملاء V3 (الحسابات)**، ثم احفظ التعيين. الحقلان **InvoiceAccount** و**ContactPersonId** هما الآن عبارة عن جزء من وضع المزامنة المباشرة مرة أخرى. في الخطوة التالية، ستقوم بالمزامنة الأولية لهذه الحقول.
+6. قم بتشغيل المزامنة الأولية مرة أخرى لتعيين **العملاء V3 (الحسابات)**. بسبب إيقاف تشغيل تعقب التغييرات، سيؤدي تشغيل المزامنة إلى مزامنة بيانات **InvoiceAccount** و**ContactPersonId** من التطبيق Finance and Operations إلى Common Data Service.
+7. لمزامنة بيانات **InvoiceAccount** و**ContactPersonId** من تطبيق Common Data Service إلى Finance and Operations، فإنك تستخدم مشروع تكامل البيانات.
 
-        تظهر الصورة التالية مشروعًا يقوم بتحديث **CustomerAccount** و**ContactPersonId**.
+    1. في Power Apps، أنشئ مشروع تكامل البيانات بين الكيانين **Sales.Account** و**Finance and Operations apps.Customers V3**. يجب أن يكون اتجاه البيانات من Common Data Service إلى التطبيق Finance and Operations. لأن **InvoiceAccount** عبارة عن سمة جديدة في الكتابة المزدوجة، فقد ترغب في تخطي المزامنة الأولية لهذه السمة. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
 
-        ![مرجع ذاتي أو دائري](media/cust_selfref6.png)
+        يوضح الرسم التوضيحي التالي مشروعًا يقوم بتحديث **CustomerAccount** و**ContactPersonId**.
 
-    2. أضف معايير الشركة في عامل التصفية على جانب Common Data Service، لأنه السجلات التي تطابق معايير التصفية هي وحدها التي سيتم تحديثها في التطبيق Finance and Operations. لإضافة عامل تصفية، انقر فوق أيقونة التصفية. في مربع الحوار **تحرير الاستعلام**، يمكنك إضافة استعلام تصفية مثل **_msdyn_company_value eq '\<guid\>'**. إذا لم تكن أيقونة التصفية موجودة، فأنشئ تذكرة دعم كي تطلب من فريق تكامل البيانات تمكين إمكانية التصفية على المستأجر. إذا لم تقم بإدخال استعلام تصفية للقيمة **_msdyn_company_value**، فستتم مزامنة جميع السجلات.
+        ![مشروع تكامل البيانات لتحديث CustomerAccount وCustomerAccount](media/cust_selfref6.png)
 
-        ![مرجع ذاتي أو دائري](media/cust_selfref7.png)
+    2. أضف معايير الشركة في عامل التصفية على جانب Common Data Service، لذلك فإن السجلات التي تطابق معايير التصفية هي وحدها التي سيتم تحديثها في التطبيق Finance and Operations. لإضافة عامل تصفية، حدد زر عامل التصفية. ثم في مربع الحوار **تحرير الاستعلام**، فإنه يمكنك إضافة استعلام عامل تصفية مثل **\_msdyn\_company\_value eq '\<guid\>'**. 
 
-        يؤدي ذلك إلى إكمال المزامنة الأولية للسجلات.
+        > [ملحوظة] إذا لم يكن زر عامل التصفية موجودًا، فأنشئ تذكرة دعم كي تطلب من فريق تكامل البيانات تمكين إمكانية التصفية على المستأجر.
 
-8. مكّن تعقب التغييرات لكيان **العملاء V3** في التطبيق Finance and Operations.
+        إذا لم تقم بإدخال استعلام عامل تصفية للقيمة **\_msdyn\_company\_value**، فستتم مزامنة جميع السجلات.
 
+        ![إضافة استعلام عامل تصفية](media/cust_selfref7.png)
+
+    يتم الآن إكمال المزامنة الأولية للسجلات.
+
+8. في التطبيق  Finance and Operations، قم بتشغيل تعقب التغييرات مرة أخرى للكيان**العملاء V3**.

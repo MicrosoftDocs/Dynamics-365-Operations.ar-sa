@@ -3,7 +3,7 @@ title: الميزات المزالة أو المهملة في Lifecycle Services
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Microsoft Dynamics Lifecycle Services (LCS).
 author: AngelMarshall
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e571cc26f55e0bd7a1eef301e193921e0b3f8e31
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367258"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454685"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>الميزات المزالة أو المهملة في Lifecycle Services ‏(LCS)
 
@@ -56,6 +56,7 @@ ms.locfileid: "3367258"
 <td>مهمل: يتوقع إزالة مكون المخططات الانسيابية في BPM في 2020. ستكون الوظيفة التالية غير متوفرة:
 <ul>
 <li>ستكون كافة المخططات الانسيابية للقراءة فقط وغير متوفرة للتحرير. لن تتوفر أيضا خصائص الشكل المقترنة بأنشطة المخطط الانسيابي. تتضمن هذه المخططات الانسيابية كلاً من المخططات الانسيابية الافتراضية التي يتم إنشاؤها تلقائيًا والمخططات الانسيابية المخصصة التي يتم تعديلها استنادًا إلى هذه المخططات الانسيابية الافتراضية.</li>
+<li>ستكون خطوات العملية للقراءة فقط وغير متوفرة للتحرير.</li>     
 <li>لن تتوفر ميزة تحليل الملائمة/الفجوة القديمة. ولذلك، لن يتم إنشاء قائمة فجوة تلقائيًا أو تتوفر للتصدير.
 <p><strong>ملاحظه:</strong> تم إهمال هذه الميزة سابقًا واستبدالها بعمليات تكامل DevOps Microsoft Azure.</p>
 </li>

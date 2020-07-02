@@ -3,7 +3,7 @@ title: تكوين القرارات اليدوية في سير عمل
 description: يوضح هذا الموضوع كيفية تكوين خصائص قرار يدوي.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176319"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455023"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>تكوين القرارات اليدوية في سير عمل
 
@@ -239,26 +239,6 @@ ms.locfileid: "2176319"
     <li>بعد تحديد <strong>المستخدم</strong>، انقر فوق علامة تبويب <strong>المستخدم</strong>.</li>
     <li>تتضمن قائمة <strong>المستخدمون المتاحون</strong> جميع المستخدمين. حدد المستخدمين المراد تعيين القرار لهم، ثم انقل هؤلاء المستخدمين إلى قائمة <strong>المستخدمون المحددون</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>قائمة الانتظار</td>
-    <td>قائمة انتظار عناصر العمل</td>
-    <td>
-    <ol>
-    <li>بعد تحديد <strong>قائمة انتظار</strong>، انقر فوق علامة التبويب <strong>مستند إلى قائمة الانتظار</strong>.</li>
-    <li>لتعيين القرار إلى قائمة انتظار معينة، اتبع الخطوات التالية: <ol>
-    <li>في قائمة <strong>نوع قائمة الانتظار</strong>، حدد <strong>قوائم انتظار عناصر العمل‬</strong>.</li>
-    <li>في قائمة <strong>اسم قائمة الانتظار</strong>، حدد قائمة الانتظار.</li>
-    </ol>
-    </li>
-    <li>إذا كان يتعين تحديد قائمة الانتظار التي يجب تعيين القرار لها بواسطة شرط محدد، فاتبع الخطوات التالية: <ol>
-    <li>في قائمة <strong>نوع قائمة الانتظار</strong>، حدد <strong>قوائم انتظار عناصر عمل شرطية‬</strong>.</li>
-    <li>في قائمة <strong>اسم قائمة الانتظار</strong>، حدد <strong>قائمة انتظار شرطية</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] يتم استخدام هذا الخيار لبعض مهام سير العمل فقط، مثل إدارة الحالات‬.</blockquote>
     </td>
     </tr>
     </tbody>

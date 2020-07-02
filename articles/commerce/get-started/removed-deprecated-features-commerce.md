@@ -3,7 +3,7 @@ title: الميزات التي تمت إزالتها أو إهمالها في Dy
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 05/04/2020
+ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c47c5430a8f5d67e13c95db609a95d5ad66933ae
-ms.sourcegitcommit: a8b6cd799eddaf5be9aec9ea3c2b55e2c3231652
+ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3335266"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443908"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 
@@ -35,6 +35,16 @@ ms.locfileid: "3335266"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.11 من Commerce
+### <a name="data-action-hooks"></a>ربط إجراءات البيانات
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم إهمال ميزه ربط إجراءات البيانات بسبب مشاكل في الأداء. |
+| **هل تم الاستبدال بميزة أخرى؟**   | يوصى بدلا من ذلك استخدام [‏‫عمليات تجاوز إجراءات البيانات‬](../e-commerce-extensibility/data-action-overrides.md) لتعديل منطق تسلسل العمل في طبقه إجراء البيانات.|
+| **مناطق المنتجات المتأثرة**         | إجراءات بيانات قابلية توسعة التجارة الإلكترونية |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: اعتبارًا من إصدار 10.0.11 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.10 من Commerce
 ### <a name="pos-operation-803---picking-and-receiving"></a>عملية نقطة البيع 803 - الانتقاء والاستلام

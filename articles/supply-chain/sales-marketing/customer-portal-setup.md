@@ -3,7 +3,7 @@ title: تثبيت مدخل العميل وإعداده وتحديثه
 description: يوفر هذا الموضوع تفاصيل الترخيص وتعليمات حول إعداد مدخل العميل.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413930"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435597"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>تثبيت مدخل العميل وإعداده وتحديثه
 
@@ -35,7 +35,7 @@ ms.locfileid: "3413930"
 
 يعتمد مدخل العميل على مداخل Power Apps والكتابة المزدوجة، كما هو مبين في الشكل التوضيحي التالي.
 
-![![تبعيات مدخل العميل](media/customer-portal-elements.png "تبعيات مدخل العميل")](media/customer-portal-elements.png "Customer portal dependencies")
+![تبعيات مدخل العميل](media/customer-portal-elements.png "تبعيات مدخل العميل")
 
 بعكس الميزات الأخرى من Supply Chain Management، يقيم قالب مدخل العميل في مداخل Power Apps. وبالتالي، يتحدد مدخل العميل بالوظيفة والقدرات التي توفرها مداخل Power Apps في الكتابة المزدوجة.
 
@@ -59,7 +59,7 @@ ms.locfileid: "3413930"
 
 1. انتقل إلى [make.powerapps.com](https://make.powerapps.com/).
 2. تأكد من استخدام البيئة حيث قمت بتمكين الكتابة المزدوجة.
-3. من علامة التبويب **إنشاء**، قم بالتمرير لأسفل إلى القسم **بدء من القالب**، وحدد القالب المسمى **عميل Supply Chain Management**.
+3. من علامة التبويب **إنشاء**، قم بالتمرير لأسفل إلى القسم **بدء من القالب**، وحدد القالب المسمى **مدخل العميل**.
 4. اتبع الإرشادات التي تظهر على الشاشة.
 
 بعد اكتمال التزويد، يمكنك الوصول إلى مدخل العميل في قسم **تطبيقاتك** في **الصفحة الرئيسية**.
@@ -71,7 +71,7 @@ ms.locfileid: "3413930"
 
 قد تُضاف وظائف إضافية إلى مدخل العميل لاحقًا. ستظهر تلقائيًا في بيئتك التغييرات التي تجريها Microsoft على مكون الحل الأساسية. ومع ذلك، فإن موقع الويب الذي تم تزويده في بيئتك لن يعكس التغييرات التي يتم إدخالها على بيانات التكوين. سيتعين عليك تطبيق هذه التغييرات يدويًا عن طريق الحصول على التعليمات البرمجية من القالب الجديد ودمجه مع موقع ويب الذي تم تزويده.
 
-## <a name="resources"></a>الموارد
+## <a name="additional-resources"></a>الموارد الإضافية
 
 لمعرفة كيفية إعداد مدخل العميل وتخصيصه، يجب البدء بمراجعة الوثائق التالية للتقنيات الأساسية:
 

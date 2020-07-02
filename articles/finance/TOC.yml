@@ -54,7 +54,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/finance/toc.json
                 - name: متطلبات النظام لعمليات النشر المحلي
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: شراء Finance and Operations (المحلي)
+                - name: شراء Finance + Operations (المحلي)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين التخزين في المستودع لعمليات النشر المحلي
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
@@ -1816,10 +1816,36 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: تحويل عناصر رأس المال إلى الأصل الثابت
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: ضريبة السلع والخدمات (GST) للهند
+                - name: ضريبة السلع والخدمات في الهند
                   items:
                     - name: نظرة عامة على ضريبة السلع والخدمات (GST) في الهند
                       href: localizations/apac-ind-gst.md
+                    - name: ما الجديد أو المتغير‬ في ترجمة ‏‫ضريبة السلع والخدمات (GST) للهند‬ وآسيا والمحيط الهادئ
+                      items:
+                        - name: ما الجديد أو المتغير‬ في 10.0.0
+                          href: localizations/apac-ind-news-letter-10-0-00.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.01
+                          href: localizations/apac-ind-news-letter-10-0-01.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.02
+                          href: localizations/apac-ind-news-letter-10-0-02.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.03
+                          href: localizations/apac-ind-news-letter-10-0-03.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.04
+                          href: localizations/apac-ind-news-letter-10-0-04.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.05
+                          href: localizations/apac-ind-news-letter-10-0-05.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.06
+                          href: localizations/apac-ind-news-letter-10-0-06.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.07
+                          href: localizations/apac-ind-news-letter-10-0-07.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.08
+                          href: localizations/apac-ind-news-letter-10-0-08.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.09
+                          href: localizations/apac-ind-news-letter-10-0-09.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.10
+                          href: localizations/apac-ind-news-letter-10-0-10.md
+                        - name: ما الجديد أو المتغير‬ في 10.0.11
+                          href: localizations/apac-ind-news-letter-10-0-11.md
                     - name: المجموعات المرجعية لضريبة السلع والخدمات (GST) في الهند
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: تكامل ضريبة السلع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
@@ -2346,6 +2372,8 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: كشف الأرصدة والدوران
                   href: localizations/emea-pol-turnover-balances-statement.md
+                - name: تقسيم فرق سعر الصرف AP/AR
+                  href: localizations/emea-pol-split-ap-ar-exchange-difference.md
             - name: روسيا
               items:
                 - name: نظرة عامة على روسيا
@@ -2956,7 +2984,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: إضافة الأبعاد المالية لتجميع القياسات
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: إنشاء التقارير التحليلية باستخدام Power BI Desktop
+                - name: إنشاء التقارير التحليلية باستخدام PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -3408,8 +3436,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                        - name: تصحيح مصادر البيانات
-                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: تصحيح مصادر البيانات
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: استخدام BARCODE لإنشاء صور الكود الشريطي
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين تعيينات النماذج
                   items:
                     - name: تكوين تعيينات نماذج التقارير الإلكترونية التي تعتمد على سياق البلد
@@ -3418,18 +3448,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين التنسيقات
                   items:
+                    - name: تحديد تعريفات النماذج عندما تنشئ التنسيقات
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                     - name: إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: تحديد تعريفات النماذج عندما تنشئ التنسيقات
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: تأجيل تنفيذ عناصر تنسيق التقارير الإلكترونية
+                    - name: تأجيل تنفيذ عناصر التنسيق لـ ER
                       items:
                         - name: تأجيل تنفيذ عنصر تسلسلي
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                         - name: تأجيل تنفيذ عنصر XML
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: تصميم تقارير متعددة اللغات
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                 - name: المسار النسبي في عمليات ربط البيانات
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: استخدام حلول التقارير الإلكترونية في Finance and Operations
