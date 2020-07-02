@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: الترقية والدعم N-1
               items:
-                - name: الترقية ودعم N-1 لـ Retail
+                - name: الترقية ودعم N-1 لـ Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: تثبيت التطوير التدريجي (N-1) والتكوين والتكوين المرحلي
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (مايو 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9 (أبريل 2020)
-                      href: get-started/whats-new-10-0-9.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Finance and Operations
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: مصادقة العملاء القوية (SCA) باستخدام موصل Adyen
                       href: adyen_redirect.md
+                    - name: وحدات دفع طرفية مخصصة ومطالبات لطابعة ودرج الأوراق النقدية
+                      href: pos-multi-hws.md
                     - name: التبديل السلس دون اتصال لعمليات بطاقة الهدايا وإشعار الدائن
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: إعداد سيناريوهات دفع الفواتير
@@ -572,6 +572,10 @@
                       href: set-up-bar-codes.md
                     - name: إعداد أقنعة الأكواد الشريطية
                       href: set-up-bar-code-masks.md
+                - name: الضمانات
+                  items:
+                    - name: إنشاء الضمانات الموسعة وتكوينها
+                      href: extended-warranty.md
             - name: التسعير والخصومات
               items:
                 - name: الخصومات
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: الوحدة النمطية للسداد مع الخروج
                       href: add-checkout-module.md
-                    - name: الوحدة النمطية لتأكيد الأمر
+                    - name: وحدة تفاصيل الأوامر
                       href: order-confirmation-module.md
                     - name: الوحدة النمطية لمحدد المتجر
                       href: store-selector.md
@@ -1176,7 +1180,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: إضافة الأبعاد المالية لتجميع القياسات
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: إنشاء التقارير التحليلية باستخدام Power BI Desktop
+                - name: إنشاء التقارير التحليلية باستخدام PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1658,7 +1662,7 @@
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commerce/toc.json
-                    - name: تحسينات في تتبع نتائج تقارير التقارير الإلكترونية المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية المنشأة والمقارنات مع القيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: تكوين ملف بيئة تطوير (env.)
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: تصحيح الأخطاء مقابل بيئة تطوير Commerce المستوى 1
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: إعداد مشاركة التعليمات البرمجية في Azure DevOps وإنشاء مسار بناء
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: نظرة عامة حول النظام الأساسي
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: التطوير في بيئات التطوير المستضافة على الشبكة السحابية من دون حق وصول المسؤول
                   href: dev-itpro/cloud-dev-box.md
+                - name: إعداد مسار بناء Commerce SDK
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: قابلية توسعة نقطة البيع
               items:
                 - name: تخطيطات شاشة نقطة البيع
@@ -2102,7 +2110,7 @@
                   href: dev-itpro/call-crt-service-offline.md
                 - name: إنشاء ملحق Retail Server جديد
                   href: dev-itpro/retail-server-extension.md
-                - name: 'وكلاء Retail Typescript وC#'
+                - name: وكلاء Retail Typescript وC#
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: قابلية توسعة Commerce Runtime (CRT)
               items:
