@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: تحديثات النظام الأساسي لـ 10.0.10 (مايو 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: تحديث النظام الأساسي 33 (أبريل 2020)
-                  href: get-started/whats-new-platform-update-33.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: تمكين كيان الخريطة للكتابة المزدوجة
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: ترحيل نوع بيانات "العملة" للكتابة المزدوجة
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: إدارة الكتابة المزدوجة
                           items:
                             - name: تخصيص تعيينات الكيانات والحقول
@@ -364,6 +364,8 @@
           items:
             - name: نظرة عامة على Azure Data Lake
               href: data-entities/azure-data-lake-overview.md
+            - name: تكوين التصدير إلى Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
             - name: تطبيقات Finance and Operations في Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: جعل مخزن الكيانات‬ متوفرًا كـ Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: تشخيصات محلية
                       href: deployment/on-premises-diagnostics.md
+                    - name: تكوين التعافي من الكوارث المحلي
+                      href: deployment/onprem-dr.md
                     - name: تكامل PowerBI.com مع البيئات المحلية
                       href: analytics/entity-store-on-prem.md
                     - name: إعادة تكوين البيئات
@@ -652,11 +656,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة
                   href: dev-tools/event-handler-result-class.md
-                - name: 'كتابة منطق تسلسل العمل باستخدام كود المصدر C# وX++'
+                - name: كتابة منطق تسلسل العمل باستخدام كود المصدر C# وX++
                   href: dev-tools/write-business-logic.md
                 - name: التغييرات في X + + والمحول البرمجي X + +
                   href: dev-tools/programming-language-support.md
-                - name: 'موفر LINQ لـ C#'
+                - name: موفر LINQ لـ C#
                   href: dev-tools/linq-provider-c.md
                 - name: كتابة قواعد أفضل الممارسات
                   href: dev-tools/author-best-practice-rules.md
@@ -716,7 +720,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: فئات سمات X++
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'مقارنة X++ وC#'
+                    - name: مقارنة X++ وC#
                       href: dev-ref/xpp-cs-comparison.md
                     - name: بناء الجملة X++
                       href: dev-ref/xpp-syntax.md
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: هندسة الأمان
                   href: sysadmin/security-architecture.md
+                - name: التشفير في تطبيقات Finance and Operations
+                  href: sysadmin/encryption.md
                 - name: تعيين مهله خمول جلسة العمل
                   href: sysadmin/session-idle-timeout.md
                 - name: تقارير الأمان الجاهزة

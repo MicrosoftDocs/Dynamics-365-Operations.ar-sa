@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1558d050627c8dc64727884901ed0d0716df0c50
-ms.sourcegitcommit: f481dfd6bf93bb3e03a7bd9a765e2cfd14305d02
+ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3169267"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431258"
 ---
 # <a name="configure-integration-with-finance"></a>تكوين التكامل مع Finance
 
@@ -242,7 +242,7 @@ ms.locfileid: "3169267"
 
 ## <a name="integration-considerations"></a>اعتبارات التكامل
 
-يحاول التكامل من Human Resources إلى Finance مطابقة السجلات بناءً على المُعرف. في حالة تطابق السجلات، يستبدل مكامل البيانات البيانات الموجودة في Finance بالقيم الموجودة في Human Resources. ومع ذلك ، قد تحدث مشكلة إذا كانت هذه سجلات مختلفة منطقيًا وتم إنشاء نفس المعرّف في أي من Human Resources أو Finance استنادًا إلى تسلسل الأرقام المعني.
+يحاول التكامل من Human Resources إلى Finance مطابقة السجلات بناءً على المُعرف. في حالة تطابق السجلات، يستبدل مكامل البيانات البيانات الموجودة في Finance بالقيم الموجودة في Human Resources. ومع ذلك، قد تحدث مشكلة إذا كانت هذه سجلات مختلفة منطقيًا وتم إنشاء نفس المعرّف في أي من Human Resources أو Finance استنادًا إلى تسلسل الأرقام المعني.
 
 قد تحدث هذه المشكلة لدى **العامل**، الذي يستخدم **رقم الموظف** لإجراء المطابقة، و**المناصب**. لا تستخدم الوظائف التسلسلات الرقمية. ونتيجة لذلك، إذا كان نفس مُعرف الوظيفة موجودًا في كل من Human Resources و Finance، تقوم معلومات Human Resources باستبدال معلومات Dynamics 365 Finance. 
 

@@ -3,7 +3,7 @@ title: نظرة عامة حول قاعدة العملاء
 description: يوفر هذا الموضوع نظرة عامة حول إمكانيات قاعدة العملاء الجديدة المتوفرة في تطبيق المتجر.
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021442"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456497"
 ---
 # <a name="clienteling-overview"></a>نظرة عامه حول العملاء
 
@@ -115,7 +115,7 @@ ms.locfileid: "3021442"
 3. قم بإنشاء مخزن مفتاح Azure، وقم بحفظ سر التطبيق. للحصول على الإرشادات، راجع [بدء التشغيل السريع: تعيين سر من Azure Key Vault واسترداده باستخدام مدخل Azure](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
 4. قم بتشغيل الوصول إلى Azure Key Vault من Commerce. لإكمال هذه الخطوة، يجب أن يكون لديك معرف تطبيق وسره. يمكن ان يكون التطبيق هو نفس التطبيق الذي قمت بإنشاءه في الخطوة 1، أو يمكن ان يكون تطبيقا جديدا. (بمعني آخر، يمكنك استخدام التطبيق الذي قمت بإنشائه في الخطوة 1 لكل من الوصول إلى Key Vault والوصول إلى خدمة Customer Insights، أو يمكنك إنشاء تطبيق فريد لكل نوع من أنواع الوصول.) للحصول علي الإرشادات، راجع [بيانات الاعتماد الرئيسية لخدمه المتجر في Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
 5. في المراكز الرئيسية، انتقل إلى **إدارة النظام \> الإعداد \>معلمات المخزن الرئيسي**، وأدخل المعلومات المطلوبة للمخزن الرئيسي. ثم في حقل **عميل المخزن الرئيسي**، أدخل معرف التطبيق الذي قمت باستخدامه في الخطوة 4، لتمكين Commerce من الوصول إلى الأسرار في المخزن الرئيسي.
-6. لأضافه التطبيق الذي قمت بإنشاءه في الخطوة 1 إلى قائمه التطبيقات الامنه (التي يشار اليها أحيانا بالقائمة البيضاء)، انتقل إلى Customer Insights، وقم بتوفير الوصول إلى **طريقة العرض** للتطبيق. للاطلاع على الإرشادات، راجع [الأذونات](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. لإضافة التطبيق الذي قمت بإنشاءه في الخطوة 1 إلى قائمة التطبيقات الآمنة (التي يشار إليها أحيانًا بالقائمة الآمنة)، انتقل إلى Customer Insights، وقم بتقديم الوصول إلى **طريقة العرض** للتطبيق. للاطلاع على الإرشادات، راجع [الأذونات](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. في Commerce، في صفحة **معلمات التجارة**، من علامة التبويب **قاعدة العملاء**، في علامة التبويب السريعة **Dynamics 365 Customer Insights**، اتبع الخطوات التالية:
 
     1. في الحقل **معرف التطبيق**، ادخل معرف التطبيق الذي استخدمته في الخطوة 1.

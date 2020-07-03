@@ -3,7 +3,7 @@ title: قم بتمكين المستخدمين من تلقي رسائل البر�
 description: يمكنك تكوين النظام لإرسال رسائل إلكترونية إلى المستخدمين عند وقوع أحداث مرتبطة بسير العمل.
 author: jasongre
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4c9f2f22bc4b5ca5b4351f7956ad2eb6d3b903d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 40ad380c7bfb2b3fc518b0278286ae03532668ed
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140411"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416543"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>قم بتمكين المستخدمين من تلقي رسائل البريد الإلكتروني المرتبطة بسير العمل
 
@@ -40,3 +40,5 @@ ms.locfileid: "3140411"
 6. انقر فوق **حفظ**.
 7. قم بإغلاق الصفحة.
 
+> [!NOTE]
+> يتم توريد قوالب البريد الإلكتروني لسير العمل من قوالب البريد الإلكتروني للنظام أو قوالب البريد الإلكتروني للمؤسسة استنادًا إلى ما إذا كان سير العمل هو سير عمل على مستوى النظام (غير خاص بالشركة) أو سير عمل على مستوي مستوى (خاص بالشركة).

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39ac850b70974dd15906039293bb6c60492da324
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007976"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3430898"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>تجنب اقتطاع نص في التدرج الهرمي للمنصب والتصدير إلى Visio
 
@@ -42,7 +42,7 @@ ms.locfileid: "3007976"
 
 اتبع هذه الخطوات للتصدير إلى Visio.
 
-1. في Human Resources ، افتح صفحة قائمة **المناصب** .
+1. في Human Resources، افتح صفحة قائمة **المناصب** .
 
     لتضمين المزيد من المعلومات في مخطط بنية المؤسسة، أضف الحقول إلى قائمة **المناصب**، بحيث تكون متاحة عندما تقوم باستخدام المعالج لاحقًا في هذا الإجراء.
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388106"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431120"
 ---
 # <a name="human-resources-app-in-teams"></a>تطبيق Human Resources في Teams
 
@@ -45,6 +45,7 @@ ms.locfileid: "3388106"
 
 | المشكلة | الحالة |
 | --- | --- |
+| خطأ: توجد مشكلة في العثور على بيئة للاتصال بها. | قد تتلقى رسالة الخطأ هذه حتى لو تأكدت من أنه باستطاعة المستخدم الوصول إلى بيئة واحدة أو أكثر من بيئات Human Resources. علاوةً على ذلك، قد لا ترى كافة البيئات التي تتوقعها. وحتى نقوم بإصلاح هذه المشكلة، يمكنك حذف المستخدم ثم استيراده مرة أخرى لحل المشكلة. |
 | يصبح الرصيد غير صحيح عند إرسال إجازة لتاريخ مستقبلي. | التنبؤ غير متوفر بعد. يتم عرض الرصيد للتاريخ الحالي. |
 | عند تقليل عدد الساعات المستغرقة في طلب موجود، فان **الرصيد المتبقي** ينتقل لأسفل بدلا من أعلى. | سنقوم بمعالجة هذه المشكلة المعروفة في المستقبل. يكون العرض غير صحيح، لكن يتم تعديل الأعداد الصحيحة عند الإرسال. |
 | تعرض بطاقتان **لإجازة قادمة** نفس التواريخ. | وتمثل البطاقات عمليات إرسال فردية. سنستمر في تدوين الملاحظات وإجراء تعديلات. |

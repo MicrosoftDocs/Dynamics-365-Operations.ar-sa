@@ -3,24 +3,24 @@ title: تمكين مصادقة Azure Active Directory لتسجيل الدخول 
 description: يشرح هذا الموضوع كيفية تكوين تجربة تسجيل الدخول إلى نقطة البيع (POS) في Microsoft Dynamics 365 Commerce بحيث تستخدم مصادقة Azure Active Directory.
 author: boycezhu
 manager: annbe
-ms.date: 03/08/2020
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgri
 ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: dfc49585434383385b6b993893d93b95ef888384
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248930"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410025"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>تمكين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
 [!include [banner](includes/banner.md)]
@@ -47,6 +47,8 @@ ms.locfileid: "3248930"
 
 > [!NOTE]
 > تتطلب مصادقة Azure AD اتصال إنترنت. ولن تعمل عندما تكون نقطة البيع في وضع عدم الاتصال.
+> 
+> في الوقت الحالي، لا تدعم وظيفة **تجاوز المدير** لا تدعم Azure AD كأسلوب مصادقة. يلزم وجود معرف عامل التشغيل وكلمة المرور حتى لو تم تكوين Azure AD كأسلوب مصادقة لتسجيل الدخول إلى نقطة البيع.
 
 ## <a name="associate-an-azure-ad-account-with-a-worker"></a>ربط حساب Azure AD بعامل
 

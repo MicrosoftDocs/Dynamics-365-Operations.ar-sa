@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: CDSIntegrationAdministration
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
-ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
+ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198412"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431304"
 ---
 # <a name="configure-common-data-service-integration"></a>تكوين تكامل Common Data Service
 
@@ -69,7 +69,7 @@ ms.locfileid: "3198412"
 
 ## <a name="view-data-integration-details"></a>عرض تفاصيل تكامل البيانات
 
-في علامة التبويب السريعة **الإدارة** في صفحة **تكامل Common Data Service** ، يُمكنك رؤية كيف تكون السجلات مرتبطة ببعضها بين Human Resources وCommon Data Service.
+في علامة التبويب السريعة **الإدارة** في صفحة **تكامل Common Data Service**، يُمكنك رؤية كيف تكون السجلات مرتبطة ببعضها بين Human Resources وCommon Data Service.
 
 - لعرض السجلات الخاصة بكيان ما، حدد الكيان في حقل **اسم كيان CDS**. تعرض الشبكة كافة السجلات المرتبطة بالكيان المُحدد.
 
@@ -88,9 +88,9 @@ ms.locfileid: "3198412"
 
 ## <a name="remove-the-association-of-a-record-in-human-resources-from-common-data-service"></a>إزالة اقتران سجل في Human Resources من Common Data Service
 
-إذا واجهت مشاكل خلال مزامنة البيانات بين Human Resources و Common Data Service، فقد تكون قادرًا على حلها عن طريق مسح التعقب والسماح بإعادة مزامنة جدول التعقب. إذا قمت بإزالة الاقتران، ثم قمت بتغيير سجل أو حذفه في Common Data Service ، فلن تتم مزامنة التغييرات مع Human Resources. إذا قمت بإجراء تغييرات في Human Resources، يتم إنشاء سجل تعقب جديد، ويتم تحديث السجل في Common Data Service.
+إذا واجهت مشاكل خلال مزامنة البيانات بين Human Resources و Common Data Service، فقد تكون قادرًا على حلها عن طريق مسح التعقب والسماح بإعادة مزامنة جدول التعقب. إذا قمت بإزالة الاقتران، ثم قمت بتغيير سجل أو حذفه في Common Data Service، فلن تتم مزامنة التغييرات مع Human Resources. إذا قمت بإجراء تغييرات في Human Resources، يتم إنشاء سجل تعقب جديد، ويتم تحديث السجل في Common Data Service.
 
-- لإزالة اقتران سجل بين Human Resources و Common Data Service، حدد الكيان في حقل **اسم كيان CDS** ، ثم حدد **مسح معلومات التعقب**.
+- لإزالة اقتران سجل بين Human Resources و Common Data Service، حدد الكيان في حقل **اسم كيان CDS**، ثم حدد **مسح معلومات التعقب**.
 
 [![مسح معلومات التعقب](./media/hr-common-data-service-configuration-clear-tracking.png)](./media/hr-common-data-service-configuration-clear-tracking.png)
 

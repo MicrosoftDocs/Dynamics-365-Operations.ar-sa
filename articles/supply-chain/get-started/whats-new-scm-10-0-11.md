@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0b71a76b348941f5a010e2f3e4bbb2fa60d37101
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: e396d2f2731d3600ee9e83e419d1038571e7bd85
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346343"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413020"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>ما الجديد والمتغير في Dynamics 365 Supply Chain Management 10.0.11 (يوليو 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار المعاينة 10.0.11 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.464، وهو يتوفر كما يلي
 
@@ -41,10 +40,10 @@ ms.locfileid: "3346343"
 
 - [تخزين تقارير المخزون الفعلي](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 - [استلام لوحة الترخيص للتحسينات لتطبيق المستودع للأجهزة المحمولة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق المستودع](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [تحسينات في حجز البنود لنموذج حجز رقم الدفعة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - لمزيد من المعلومات ، راجع [حجز الدفعة نفسها لأمر مبيعات](../sales-marketing/reserve-same-batch-sales-order.md)
+- [تحسينات في حجز البنود لنموذج حجز رقم الدفعة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - لمزيد من المعلومات، راجع [حجز الدفعة نفسها لأمر مبيعات](../sales-marketing/reserve-same-batch-sales-order.md)
 - [كيانات البيانات الجديدة لمنطقة التصنيع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [استلام زائد لكميات الأحمال](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - لمزيد من المعلومات، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](../warehousing/inbound-load-handling.md).
-- [الإبلاغ كمنتهية على أرقام الدفعات من جهاز بطاقة الوظيفة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)
+- [الإبلاغ عن الانتهاء في أرقام الدُفعات من جهاز البطاقة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) - لمزيد من المعلومات، راجع [الإبلاغ عن الانتهاء من جهاز بطاقة الوظيفة‬](../production-control/report-finished-job-device.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

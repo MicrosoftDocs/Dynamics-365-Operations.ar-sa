@@ -1,9 +1,9 @@
 ---
 title: نظرة على إدارة الميزات
 description: يصف هذا الموضوع ميزة إدارة الميزات وكيف يمكن استخدامها.
-author: mikefalkner
+author: ChrisGarty
 manager: AnnBe
-ms.date: 09/12/2019
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,17 +13,17 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
-ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
+ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778695"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456587"
 ---
 # <a name="feature-management-overview"></a>نظرة على إدارة الميزات
 
@@ -144,3 +144,34 @@ ms.locfileid: "2778695"
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>استخدام إدارة الميزات لتشغيل ميزات ISV أو الميزات المخصصة
 
 إدارة الميزات غير متاحة حاليًا للميزات من بائعي البرامج المستقلين (ISV) والميزات المخصصة. ومع ذلك، تقوم Microsoft بإضافة المزيد من الوظائف لتحسين إدارة الميزات. بعد اكتمال هذه التحسينات، ستوفر Microsoft إدارة الميزات لجميع الميزات وستقدم إرشادات لتحديث ميزاتك لاستخدامها.
+
+## <a name="frequently-asked-questions-faq"></a>الأسئلة المتداولة (FAQ)
+
+### <a name="when-are-features-added-removed-or-changed"></a>متى تتم إضافه الميزات أو ازالتها أو تغييرها؟ 
+تتم إضافه الميزات وإزالها وتغييرها من خلال تغييرات التعليمات البرمجية. يجب تحديث البيئات لتلقي هذه التغييرات.
+
+### <a name="does-a-feature-become-mandatory-automatically"></a>هل تصبح الميزة إلزاميه تلقائيا؟ 
+لا، ليس إجراءً تلقائيًا أن تصبح الميزة إلزاميه. تحتاج فرق المنتجات إلى إجراء تغيير في التعليمات البرمجية.
+
+### <a name="when-do-features-become-mandatory"></a>متى تصبح الميزات إلزاميه؟ 
+تنص السياسة على أن جميع الميزات الجديدة سيتم الاشتراك فيها لمدة 12 شهراً ولن تتطلب أي تغيير في الإدارة حتى يتم تمكين الميزة. يمكن لفرق المنتج اختيار ما إذا سيتم جعل الميزة إلزامية بعد انتهاء هذه الفترة ام لا. 
+
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>لماذا لا يوجد "تاريخ تمكين إلزامي"؟ 
+يعد تحديث وقت الإصدار متغيرا، كما يعد توقيت تحديث البيئة متغيرًا، ويمكن للعملاء الموافقة علي تخطي بعض التحديثات. ونتيجة لذلك، يصعب تحديد التواريخ الخاصة. 
+
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>أين توجد الوثائق الخاصة بالميزات التي تصبح إلزامية؟ 
+تاتي هذه الوثائق من فرق التطبيق. غالبًا ما يتم ذكر هذا في [‏‫الميزات التي تمت إزالتها أو إهمالها‬](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>هل هناك إشارة أو إخطار في المنتج يفيد بأن إحدي الميزات يمكن أن تكون إلزاميه؟ 
+لا توجد اليوم آلية إخطار تفيد بجعل ميزة ما إلزاميه.
+
+### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>هل سبق أن تم تمكين الميزات دون علم العميل؟ 
+نعم، إذا لم يكن للميزات تاثير وظيفي، فيمكن تمكينها بشكل افتراضي.
+
+### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>ما المقصود بإصدار الميزات وكيف يرتبط بإدارة الميزات؟ 
+إطلاق الميزات عبارة عن مفاتيح تشغيل/إيقاف تشغيل آنية تتحكم بها Microsoft. وهي مستقلة عن إدارة العملاء التي توفرها إدارة الميزات. 
+- لن يتم سرد ميزات المعاينة الخاصة في إدارة الميزات حتى يتم إصدارها. في الإنتاج، يجب أن يوافق العميل على أن يكون جزءا من برنامج خاص كي يتم.
+- سيتم سرد الميزات الصادرة وميزات المعاينة الخاصة (المتوفرة بشكل عام) في إدارة الميزات حتى يتم إزالتها. ويعتبر إزالة إحدى الميزات الخيار الأخير لفرق المنتجات في حاله العثور علي مشكلة خطيرة وتكون عادة حسب كل عميل.
+
+### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>هل سبق أن تم تعطيل الميزات دون علم العميل؟ 
+نعم، إذا كانت الميزة تؤثر سلبا على عمل بيئة ليس لها تاثير وظيفي، فيمكن تمكينها بشكل افتراضي.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131721"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410403"
 ---
 # <a name="set-up-a-call-center-channel"></a>إعداد قناة مركز اتصال
 
@@ -34,7 +34,7 @@ ms.locfileid: "3131721"
 ## <a name="overview"></a>نظرة عامة
 
 
-في Dynamics 365 Commerce، يعتبر مركز الاتصال نوع قناة بيع بالتجزئة يمكن تعريفها في التطبيق. من شأن تحديد قناة لكيانات مركز الاتصال أن يسمح للنظام بربط بيانات معينة والإعدادات الافتراضية لمعالجة الأوامر بأوامر المبيعات. بينما تستطيع الشركة تحديد قنوات مراكز اتصالات متعددة في Commerce، من الضروري الإشارة إلى أنه يمكن ربط مستخدم فردي فقط بقناة مركز اتصال. 
+في Dynamics 365 Commerce، يعتبر مركز الاتصال نوع قناة Commerce يمكن تعريفها في التطبيق. من شأن تحديد قناة لكيانات مركز الاتصال أن يسمح للنظام بربط بيانات معينة والإعدادات الافتراضية لمعالجة الأوامر بأوامر المبيعات. بينما تستطيع الشركة تحديد قنوات مراكز اتصالات متعددة في Commerce، من الضروري الإشارة إلى أنه يمكن ربط مستخدم فردي فقط بقناة مركز اتصال. 
 
 قبل إنشاء قناة مركز اتصال جديدة، تأكد من إكمال [المتطلبات الأساسية لإعداد قناة](channels-prerequisites.md).
 
@@ -84,7 +84,7 @@ ms.locfileid: "3131721"
 
 تعرض الصورة التالية مثالاً عن طريقة الدفع النقدي.
 
-![أمثلة عن طرق الدفع](media/channel-setup-retail-5.png)
+![أمثلة عن طرق الدفع](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>إعداد أوضاع التسليم
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 85e7274b0e9c130e5c3426fd1fff98410f93e49a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007914"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431281"
 ---
 # <a name="configure-integration-with-dayforce"></a>تكوين التكامل مع Dayforce 
 
@@ -179,7 +179,7 @@ ms.locfileid: "3007914"
 
 #### <a name="departments"></a>الأقسام
 
-القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي في المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر.
+القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر.
 
 لمزيد من المعلومات، راجع المقالات التالية:
 
