@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261296"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530571"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>معالجة المستودع للحمل الوارد لأوامر الشراء
 
@@ -66,7 +66,7 @@ ms.locfileid: "3261296"
 
 - **قائمة جهاز محمول تم تكوينها لدعم استلام الحمل**
 
-    يدعم [Dynamics 365 for Finance and Operations – تطبيق التخزين](install-configure-warehousing-app.md) للأجهزة المحمولة عمليات إنشاء العمل التالية:
+    يدعم [تطبيق المستودع](install-configure-warehousing-app.md) للأجهزة المحمولة عمليات إنشاء العمل التالية:
 
     - استلام صنف الحمل
     - استلام صنف الحمل وتخزينه
@@ -285,7 +285,7 @@ ms.locfileid: "3261296"
 
 قبل أن يتمكن الموظفون المستلمون في المستودع من استخدام جهاز محمول لتسجيل المخزون الوارد المرتبط بحمل، يجب إنشاء عنصر قائمة جهاز محمول لهذا الغرض.
 
-في هذا القسم، ستقوم بإنشاء عنصر قائمة جهاز محمول وإضافته إلى قائمة موجودة. بإمكان عامل المستودع عندئذٍ تحديد عنصر القائمة في تطبيق التخزين.
+في هذا القسم، ستقوم بإنشاء عنصر قائمة جهاز محمول وإضافته إلى قائمة موجودة. بإمكان عامل المستودع عندئذٍ تحديد عنصر القائمة في تطبيق المستودع.
 
 1. انتقل إلى **إدارة المستودعات \> الإعداد \> الجهاز المحمول \> عناصر قائمة الجهاز المحمول**، وتأكد من أن قائمة الجهاز المحمول تتضمن عنصر قائمة يتضمن الإعدادات التالية:
 

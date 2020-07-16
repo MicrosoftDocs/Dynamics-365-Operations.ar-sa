@@ -3,7 +3,7 @@ title: تكوين بيئة معاينة Dynamics 365 Commerce
 description: يشرح هذا الموضوع كيفية تكوين الميزات الاختيارية لبيئة معاينة Microsoft Dynamics 365 Commerce بعد توفيرها.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
+ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057707"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3534057"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>تكوين بيئة معاينة Dynamics 365 Commerce
 
@@ -116,7 +116,7 @@ ms.locfileid: "3057707"
 
 لتشغيل مزامنة البيانات الكاملة في Commerce، اتبع الخطوات التالية.
 
-1. باستخدام القائمة الموجودة على اليسار، للانتقال إلى **الوحدات النمطية \> Retail وcommerce \> ‏‫إعداد المراكز الرئيسية \> مجدول البيع بالتجزئة \> ‏‫قاعدة بيانات القناة‬**.
+1. باستخدام القائمة الموجودة على اليسار، للانتقال إلى **الوحدات النمطية \> البيع بالتجزئة والتجارة‬ \> ‏‫إعداد المراكز الرئيسية \> مجدول التجارة \> ‏‫قاعدة بيانات القناة‬**.
 1. من القائمة الموجودة على اليسار، حدد القناة **الافتراضية** . حدد القناة الأخرى المتوفرة. تسمي هذه القناة **scxxxxxxxxx**.
 1. في جزء الإجراءات، حدد **مزامنة البيانات بالكامل**.
 1. أدخل **9999** لجدول لتوزيع.

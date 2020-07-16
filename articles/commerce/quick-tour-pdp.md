@@ -1,5 +1,5 @@
 ---
-title: نظرة عامة حول صفحات تفاصيل المنتج
+title: نظرة عامة على صفحات تفاصيل المنتج
 description: يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (بتنسيق PDP) في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025915"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527529"
 ---
-# <a name="overview-of-product-details-pages"></a>نظرة عامة حول صفحات تفاصيل المنتج
-
+# <a name="product-details-pages-overview"></a>نظرة عامة على صفحات تفاصيل المنتج
 
 [!include [banner](includes/banner.md)]
 
@@ -83,8 +82,6 @@ ms.locfileid: "3025915"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على الصفحة الرئيسية](quick-tour-home-page.md)
-
-[نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث](category-search-page-overview.md)
 
 [نظرة عامة على صفحات سلة التسوق والسداد مع الخروج](quick-tour-cart-checkout.md)
 

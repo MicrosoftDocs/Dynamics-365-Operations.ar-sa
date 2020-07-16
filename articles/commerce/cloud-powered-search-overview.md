@@ -1,9 +1,9 @@
 ---
 title: نظرة عامة على البحث المشغل في السحابة
 description: يقدم هذا الموضوع نظرة عامة حول البحث المشغل في السحابة في Microsoft Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057823"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527433"
 ---
 # <a name="cloud-powered-search-overview"></a>نظرة عامة على البحث المشغل في السحابة
 
@@ -73,8 +73,12 @@ ms.locfileid: "3057823"
 
 يتيح الفرز المحسن في Dynamics 365 Commerce للعملاء فرز نتائج البحث والبحث عنها وتصفحها وتحسينها وفقًا لمعايير مثل السعر واسم المنتج ورقم المنتج. يمكن للعملاء أيضًا فرز النتائج بناءً على ما إذا كان المنتج جديدًا أو أكثر مبيعًا أو تم إضافته مؤخرًا.
 
+>[!NOTE]
+>إمكانيات البحث المتصلة بالسحابة هذه متوفرة للبدء في الإصدار 10.0.8. تأكد من أن تحت **معلمات التجارة > معلمات التكوين** يوجد إدخال لـ "ProductSearch.UseAzureSearch تم تعيينه إلى"صواب"". 
+![معلمات التكوين للبحث عن طريق السحابة](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[الصفحة المتنقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث](category-search-page-overview.md)
+[نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث](category-search-page-overview.md)
 
 [إدارة بيانات تعريف SEO](manage-seo-metadata.md)
