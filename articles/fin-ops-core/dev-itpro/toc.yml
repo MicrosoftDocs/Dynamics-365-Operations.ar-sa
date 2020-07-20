@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: تحديثات النظام الأساسي لـ 10.0.11 (يوليو 2020)
                   href: get-started/whats-new-platform-update-35.md
-                - name: تحديثات النظام الأساسي لـ 10.0.10 (مايو 2020)
-                  href: get-started/whats-new-platform-update-34.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
@@ -713,9 +711,29 @@
                         - name: الأحداث
                           href: dev-ref/xpp-events.md
                     - name: تحديد بيانات X++ والمعالجة
-                      href: dev-ref/xpp-data-query.md
-                    - name: الوصول إلى البيانات باستخدام SysDa API
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: نظرة عامة على تحديد بيانات X++ والمعالجة
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: تحديد كشف حساب
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: تحديد البيانات
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: إدراج البيانات
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: تحديث البيانات
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: حذف البيانات
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: أثناء تحديد عبارة
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: كتابه عبارة تحديد كتعبير
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: تكامل الحركات
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: تحويل العمليات من استنادًا إلى المجموعة إلى سجل بسجل
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: الوصول إلى البيانات باستخدام SysDa API
+                          href: dev-ref/sysda.md
                     - name: وحدات ماكرو X++
                       href: dev-ref/xpp-macros.md
                     - name: فئات سمات X++
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: فئات النظام
                   items:
-                    - name: فئات A
-                      href: dev-ref/a-classes.md
-                    - name: فئات B
-                      href: dev-ref/b-classes.md
-                    - name: فئات C
-                      href: dev-ref/c-classes.md
-                    - name: فئات D
-                      href: dev-ref/d-classes.md
-                    - name: فئات E
-                      href: dev-ref/e-classes.md
-                    - name: فئات F (FieldBinding إلى FormBuildAnimateControl)
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: فئات F (FormBuildButtonControl إلى FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: 'فئات F: FormBuildFilterPaneControl إلى FormBuildRealControl'
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: فئات F (FormBuildReferenceControl إلى FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: فئات F (FormChangeTracker إلى FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: فئات F (FormDataObject إلى FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: فئات F (FormFastTabSummarySeparator إلى FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: فئات F ‏(FormGroupControl إلى FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: فئات F (FormListBoxControl إلى FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: فئات F (FormObject إلى FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: فئات F (FormReferenceControl إلى FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: فئات F (FormTabControl إلى FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: فئات G
-                      href: dev-ref/g-classes.md
-                    - name: فئات H
-                      href: dev-ref/h-classes.md
-                    - name: فئات I
-                      href: dev-ref/i-classes.md
-                    - name: فئات J
-                      href: dev-ref/j-classes.md
-                    - name: فئات K
-                      href: dev-ref/k-classes.md
-                    - name: فئات L
-                      href: dev-ref/l-classes.md
-                    - name: فئات M
-                      href: dev-ref/m-classes.md
-                    - name: فئات N
-                      href: dev-ref/n-classes.md
-                    - name: فئات O
-                      href: dev-ref/o-classes.md
-                    - name: فئات P
-                      href: dev-ref/p-classes.md
-                    - name: فئات Q
-                      href: dev-ref/q-classes.md
-                    - name: فئات R
-                      href: dev-ref/r-classes.md
-                    - name: فئات S
-                      href: dev-ref/s-classes.md
-                    - name: فئات T
-                      href: dev-ref/t-classes.md
-                    - name: فئات U
-                      href: dev-ref/u-classes.md
-                    - name: فئات V
-                      href: dev-ref/v-classes.md
-                    - name: فئات W
-                      href: dev-ref/w-classes.md
-                    - name: فئات X
-                      href: dev-ref/x-classes.md
+                    - name: قائمه فئات النظام
+                      href: dev-ref/system-classes/toc.yml
+                    - name: فئات النظام المجمعة أبجديًا
+                      items:
+                        - name: فئات A
+                          href: dev-ref/a-classes.md
+                        - name: فئات B
+                          href: dev-ref/b-classes.md
+                        - name: فئات C
+                          href: dev-ref/c-classes.md
+                        - name: فئات D
+                          href: dev-ref/d-classes.md
+                        - name: فئات E
+                          href: dev-ref/e-classes.md
+                        - name: فئات F
+                          href: dev-ref/f-classes.md
+                        - name: فئات G
+                          href: dev-ref/g-classes.md
+                        - name: فئات H
+                          href: dev-ref/h-classes.md
+                        - name: فئات I
+                          href: dev-ref/i-classes.md
+                        - name: فئات J
+                          href: dev-ref/j-classes.md
+                        - name: فئات K
+                          href: dev-ref/k-classes.md
+                        - name: فئات L
+                          href: dev-ref/l-classes.md
+                        - name: فئات M
+                          href: dev-ref/m-classes.md
+                        - name: فئات N
+                          href: dev-ref/n-classes.md
+                        - name: فئات O
+                          href: dev-ref/o-classes.md
+                        - name: فئات P
+                          href: dev-ref/p-classes.md
+                        - name: فئات Q
+                          href: dev-ref/q-classes.md
+                        - name: فئات R
+                          href: dev-ref/r-classes.md
+                        - name: فئات S
+                          href: dev-ref/s-classes.md
+                        - name: فئات T
+                          href: dev-ref/t-classes.md
+                        - name: فئات U
+                          href: dev-ref/u-classes.md
+                        - name: فئات V
+                          href: dev-ref/v-classes.md
+                        - name: فئات W
+                          href: dev-ref/w-classes.md
+                        - name: فئات X
+                          href: dev-ref/x-classes.md
             - name: قابلية التوسعة
               items:
                 - name: الصفحة الرئيسية لقابلية للتوسعة
@@ -964,15 +964,15 @@
               items:
                 - name: التقاط تتبعات باستخدام محلل التتبع
                   href: perf-test/trace-trace-tutorial.md
-                - name: اختبارات أحادية المستخدم مع مسجل المهام وSDK للأداء
+                - name: اختبارات أحادية المستخدم مع مسجل المهام وPerformance SDK
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: اختبارات متعددة المستخدمين مع SDK للأداء ووحده تحكم اختبارات محلية
+                - name: اختبارات متعددة المستخدمين مع Performance SDK ووحده تحكم اختبارات محلية
                   href: perf-test/multi-user-testing-local-test-controller.md
-                - name: اختبارات متعددة المستخدمين مع SDK للأداء وAzure DevOps
+                - name: اختبارات متعددة المستخدمين مع Performance SDK وAzure DevOps
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: دليل استكشاف الأخطاء وإصلاحها لاختبارات أحادية المستخدم أو متعددة المستخدمين مع SDK للأداء
+                - name: دليل استكشاف الأخطاء وإصلاحها لاختبارات أحادية المستخدم أو متعددة المستخدمين مع Performance SDK
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
-                - name: ‏‫SDK للأداء والاختبارات متعددة المستخدمين‬ في البيئات المحلية
+                - name: ‏‫Performance SDK والاختبارات متعددة المستخدمين‬ في البيئات المحلية
                   href: perf-test/perfsdk-tutorial-lbd.md
                 - name: تشخيص المشاكل وتحليل الأداء باستخدام Trace Parser
                   href: perf-test/trace-parser.md
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: تصدير مستخدمي B2B إلى Azure AD
               href: sysadmin/implement-b2b.md
+            - name: أتمته العملية
+              href: sysadmin/process-automation.md
             - name: الأمان
               items:
                 - name: أمان يستند إلى الدور
@@ -1458,6 +1460,8 @@
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: ‏‫تشخيصات الأمان‬ لتسجيلات المهام
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: أتمته العملية
+              href: /sysadmin/process-automation.md
             - name: معالجة الدُفعات
               items:
                 - name: نظرة عامة على معالجة الدُفعات
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: ترقية AX 2012 - ترقية البيانات في بيئات اختبار معزولة
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: ترقية AX 2012 - البيئات المحلية
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: ترقية AX 2012 - اختبار مرحلي
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: ترقية AX 2012 - مهام ما بعد الترقية

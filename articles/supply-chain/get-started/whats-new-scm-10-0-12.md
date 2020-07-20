@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c773b5e1013bbd58f48cd345f50a342175ed0c98
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413883"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530134"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.12 (أغسطس 2020)
 
@@ -43,9 +43,8 @@ ms.locfileid: "3413883"
 - [التقاط متغيرات المنتجات وأبعاد التعقب في تطبيق المستودع أثناء استلام أصناف الحمل](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) - لمزيد من المعلومات، راجع [إعداد الأجهزة المحمولة لعمل المستودع‬](../warehousing/configure-mobile-devices-warehouse.md).
 - مستوى حساب التكاليف (مستوى BOM جديد) - لمزيد من المعلومات، راجع [مستوى حساب التكاليف](../cost-management/cost-calculation-level.md).
 - [مدخل العميل لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) - لمزيد من المعلومات، راجع [نظرة عامة على مدخل العميل لـ Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
-- [خدمة المخزون المتاح](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-service)
 - [الرؤى الرئيسية لذكاء IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights)  - لمزيد من المعلومات، راجع [صفحة الرؤى الرئيسية لذكاء IoT](../iot/iot-intelligence-home-page.md).
-- [تحسينات استلام لوحة الترخيص لتطبيق المستودع (تابع)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق المستودع](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [تحسينات استلام لوحة الترخيص لتطبيق المستودع (يتبع)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق المستودع](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 - [النشر الجماعي لتطبيق Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - لمزيد من المعلومات، راجع [نظرة عامة على تثبيت وتكوين تطبيق المستودع](../warehousing/install-configure-warehousing-app.md).
 - [الحد الأقصى لوقت تنفيذ مهمة تنظيف الإدخالات المتاحة في إدارة المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) - لمزيد من المعلومات، رادع [مهمة تنظيف الإدخالات المتاحة في إدارة المستودع](../warehousing/onhand-cleanup.md).
 - [دعم تحسين التخطيط لاتفاقيات الشراء التجارية](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) - لمزيد من المعلومات، راجع [التخطيط الرئيسي لاتفاقيات الشراء التجارية](../master-planning/planning-optimization/purchase-trade-agreement.md).

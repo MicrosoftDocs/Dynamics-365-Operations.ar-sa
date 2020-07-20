@@ -3,7 +3,7 @@ title: إعداد صفحات مخصصه لعمليات تسجيل دخول ال�
 description: يوضح هذا الموضوع كيفية إنشاء صفحات مخصصة في Microsoft Dynamics 365 Commerce التي تقوم بمعالجة عمليات تسجيل الدخول المخصصة لمستخدمي مستأجري ميزة عمل-مستهلك (B2C) في Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 06/16/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71c0f0b6969985b04262b522dd2165eb1475878d
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456962"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533449"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>إعداد صفحات مخصصه لعمليات تسجيل دخول المستخدمين
 
@@ -198,8 +198,6 @@ ms.locfileid: "3456962"
 [تكوين اسم مجالك](configure-your-domain-name.md)
 
 [نشر موقع تجارة إلكترونية جديد](deploy-ecommerce-site.md)
-
-[إعداد قناة متجر عبر الإنترنت](online-stores.md)
 
 [إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
 

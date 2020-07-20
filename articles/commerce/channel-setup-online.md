@@ -3,7 +3,7 @@ title: إعداد قناة عبر الإنترنت
 description: يوضح هذا الموضوع كيفية إنشاء قناة جديدة عبر الإنترنت في Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002417"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533311"
 ---
 # <a name="set-up-an-online-channel"></a>إعداد قناة عبر الإنترنت
 
@@ -35,9 +35,9 @@ ms.locfileid: "3002417"
 
 يدعم Dynamics 365 Commerce عدة قنوات بيع بالتجزئة. وتتضمن قنوات البيع بالتجزئة هذه المتاجر على إنترنت، ومراكز الاتصال، ومتاجر البيع بالتجزئة (تعرف أيضًا بالمتاجر التقليدية). تمنح المتاجر على الإنترنت للعملاء خيار شراء المنتجات من متجر عبر الإنترنت تابع لبائع التجزئة عبر الإنترنت بالإضافة إلى متاجره للبيع بالتجزئة.
 
-لإنشاء متجر عبر الإنترنت في Commerce، يجب أولاً إنشاء قناة عبر الإنترنت. 
+لإنشاء متجر عبر الإنترنت في Commerce، يجب أولاً إنشاء قناة عبر الإنترنت. قبل إنشاء قناة جديدة عبر الإنترنت، تأكد من إكمال [المتطلبات الأساسية لإعداد قناة](channels-prerequisites.md).
 
-قبل إنشاء قناة جديدة عبر الإنترنت، تأكد من إكمال [المتطلبات الأساسية لإعداد قناة](channels-prerequisites.md).
+قبل أن تتمكن من إنشاء موقع جديد، يجب إنشاء متجر واحد على الأقل على الإنترنت في التجارة. لمزيد من المعلومات، راجع [إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md).
 
 ## <a name="create-and-configure-a-new-online-channel"></a>إنشاء قناة جديدة عبر الإنترنت وتكوينها
 

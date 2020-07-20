@@ -74,8 +74,6 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (يوليو 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (مايو 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
@@ -2565,192 +2563,230 @@
           items:
             - name: نظرة عامة على إدارة المستودعات
               href: warehousing/warehouse-management-overview.md
-            - name: تكوين المستودع
+            - name: عمليات المستودعات الواردة
               items:
-                - name: نظرة عامة على تكوين المستودع
-                  href: warehousing/warehouse-configuration.md
-                - name: إعداد مستودع باستخدام قالب تكوين المستودع
-                  href: inventory/warehouse-template.md
-                - name: التحكم في العمل باستخدام قوالب العمل وتوجيهات الموقع
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: رموز خطوة الموجة
-                  href: warehousing/wave-step-codes.md
-                - name: تكوين معالجة الموجة
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: التحديث التلقائي للشحنات
-                  href: warehousing/auto-update-shipment.md
-                - name: إنشاء ملف تعريف للموقع
-                  href: warehousing/tasks/create-location-profile.md
-                - name: تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (WMS)
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: جدولة استغلال الحِمل
-                  href: warehousing/schedule-load-utilization.md
-                - name: جدولة قدرة حمل العمل
-                  href: warehousing/schedule-workload-capacity.md
-                - name: إعداد أكواد التخلص
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: وحدة القياس وسياسات المخزون
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: محتوى Power BI للمستودعات
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: تجميع النظام في قائمة عمل مفتوحة
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: تخطيط توجيه المستند لتسميات لوحات الترخيص
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: دعم الكود الشريطي للأجهزة المحمولة
-                  href: warehousing/mobile-barcode-support.md
-                - name: إعداد المستودع لأوامر التحويل
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: عمليات الحجز في إدارة المستودعات
+                - name: إيصالات الاستلام للتسجيل والتخزين
+                  items:
+                    - name: معالجة المستودع للحمل الوارد لأوامر الشراء
+                      href: warehousing/inbound-load-handling.md
+                    - name: تسجيل أصناف لصنف ممكَّن للتخزين المتقدم باستخدام دفتر يومية وصول الصنف
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: تسجيل أصناف لصنف ممكَّن للتخزين الأساسي باستخدام دفتر يومية وصول الصنف
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: توزيع المنتجات من المستودع المستلم حتى المتاجر
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: إعداد توجيه موقع لتخزين أمر الشراء
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: إعداد قالب عمل لأوامر الشراء
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: خلط أبعاد المنتج في الموقع
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: عمليات المستودعات الصادرة
               items:
-                - name: سياسة مرنة لحجز البعد على مستوى المستودع
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: سياسات عمل المستودع
-              items:
-                - name: نظرة عامة على سياسات عمل المستودع
-                  href: warehousing/warehouse-work-policies.md
-                - name: إعداد سياسات عمل المستودع
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: حركة المخزون مع العمل المقترن في إدارة المستودعات
-                  href: warehousing/move-inventory-associated-work.md
-                - name: إنشاء درجة عمل
-                  href: warehousing/tasks/create-work-class.md
-                - name: إدارة عمال المستودعات
-                  href: warehousing/manage-warehouse-workers.md
-                - name: المعالجة المؤجلة لعمل المستودع
-                  href: warehousing/deferred-put.md
-            - name: توزيع البضائع
-              items:
-                - name: توزيع البضائع من أوامر الإنتاج لمساحات خارجية
-                  href: production-control/cross-docking-opportunities.md
-                - name: إصدار الشحن التلقائي لتوزيع البضائع
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: الإصدار الجزئي والشحن الجزئي
-              items:
-                - name: شحن جزئي لحمل النقل
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: إصدار دُفعة أوامر التحويل المحجوزة جزئيًا
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: الانتقاء والتعبئة
-              items:
-                - name: إعداد انتقاء نظام المجموعة
-                  href: warehousing/set-up-cluster-picking.md
-                - name: إعداد التعبئة في حاويات
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: تأكيد لوحة الترخيص والدُفعة
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: تمكين طباعة بطاقة لوحة الترخيص
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: تأكيد انتقاء الأجزاء
-                  href: warehousing/piece-picking-confirmation.md
-                - name: رسوم ومواد التعبئة
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: إعداد التعبئة اليدوية (فبراير ومايو 2016 فقط)
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: إعداد إعادة توزيع الأصناف للانتقاء القصير
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: إلغاء عمل المستودع لمعالجة الاستثناء
-                  href: warehousing/cancel-warehouse-work.md
-                - name: انتقاء نظام مجموعة بتوجيه من النظام
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: تجميع سطور الانتقاء
-                  href: warehousing/pick-line-grouping.md
-            - name: جرد المخزون
-              items:
-                - name: أكواد أسباب جرد المخزون
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: حظر المخزون
-                  href: inventory/inventory-blocking.md
-                - name: الجرد الدوري
-                  href: warehousing/cycle-counting.md
-                - name: 'تحديد الجرد الدوري '
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: الجرد الدوري الجزئي للمواقع
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات
-                  href: warehousing/onhand-cleanup.md
-                - name: دفتر يومية المخزون
-                  href: inventory/inventory-journals.md
-                - name: موقع المخزون
-                  href: inventory/inventory-locations.md
-                - name: حالة المخزون
-                  href: inventory/inventory-statuses.md
-                - name: جرد علامات المخزون
-                  href: inventory/inventory-tag-counting.md
-            - name: التزويد
-              items:
-                - name: نظرة عامة على التزويد
-                  href: warehousing/replenishment.md
-                - name: التزويد الفوري
-                  href: warehousing/immediate-replenishment.md
-                - name: التزويد بحلول كانبان للسحب
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: إعداد الحد الأدنى والحد الأقصى لعملية التزويد
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: تثبيت تطبيق المستودع وتكوينه
-              items:
-                - name: تثبيت تطبيق المستودع وتوصيله
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: تكوين أسماء الحقول في تطبيق المستودع
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: إعداد الأجهزة المحمولة لعمل المستودع
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: استلام لوحة الترخيص‬ بواسطة تطبيق المستودع
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: إعداد صنف قائمة الأجهزة المحمولة لتسجيل الأصناف المستلمة
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: إنشاء عنصر في قائمة الجهاز المحمول لدمج لوحة الترخيص
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: استلام لوحة الترخيص‬ المختلطة على جهاز محمول
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: تكوين عرض الدُفعات القديمة داخل المستودع على جهاز محمول
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: انتقاء الدُفعة الأقدم على جهاز محمول
-                  href: warehousing/pick-oldest-batch.md
-                - name: إطار عمل دليل العملية
-                  href: warehousing/process-guide-framework.md
-            - name: الترقية والترحيل
-              items:
-                - name: ترقية عمليات إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: إيصالات الاستلام للتسجيل والتخزين
-              items:
-                - name: معالجة المستودع للحمل الوارد لأوامر الشراء
-                  href: warehousing/inbound-load-handling.md
-                - name: تسجيل أصناف لصنف ممكَّن للتخزين المتقدم باستخدام دفتر يومية وصول الصنف
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: تسجيل أصناف لصنف ممكَّن للتخزين الأساسي باستخدام دفتر يومية وصول الصنف
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: توزيع المنتجات من المستودع المستلم حتى المتاجر
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: إعداد توجيه موقع لتخزين أمر الشراء
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: إعداد قالب عمل لأوامر الشراء
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: سياسات دمج الشحنات
-              items:
+                - name: عمليات الحجز في إدارة المستودعات
+                  items:
+                    - name: سياسة مرنة لحجز البعد على مستوى المستودع
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: الإصدار الجزئي والشحن الجزئي
+                  items:
+                    - name: شحن جزئي لحمل النقل
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: إصدار دُفعة أوامر التحويل المحجوزة جزئيًا
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: الانتقاء والتعبئة
+                  items:
+                    - name: إعداد انتقاء نظام المجموعة
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: إعداد التعبئة في حاويات
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: تأكيد لوحة الترخيص والدُفعة
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: تمكين طباعة بطاقة لوحة الترخيص
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: تأكيد انتقاء الأجزاء
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: رسوم ومواد التعبئة
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: إعداد التعبئة اليدوية (فبراير ومايو 2016 فقط)
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: إعداد إعادة توزيع الأصناف للانتقاء القصير
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: إلغاء عمل المستودع لمعالجة الاستثناء
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: انتقاء نظام مجموعة بتوجيه من النظام
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: تسلسل العمل الموجه بواسطة النظام
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: تجميع سطور الانتقاء
+                      href: warehousing/pick-line-grouping.md
+                    - name: تقسيم المستودعات
+                      href: warehousing/warehouse-slotting.md
+                - name: تزويد
+                  items:
+                    - name: نظرة عامة على التزويد
+                      href: warehousing/replenishment.md
+                    - name: تزويد فوري
+                      href: warehousing/immediate-replenishment.md
+                    - name: التزويد بحلول كانبان للسحب
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: إعداد الحد الأدنى والحد الأقصى لعملية التزويد
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: تزويد حد المنطقة
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: تحميل الإنشاء والشحنات
+                  items:
+                    - name: التأكيد والتحويل
+                      href: warehousing/confirm-and-transfer.md
+                    - name: إنشاء حمل العمل المتقدم أثناء موجة
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: إصدار إلى قاعده المستودع
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: تجميع قوالب الموجات
+                      href: warehousing/wave-template-grouping.md
                 - name: سياسات دمج الشحنات
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: تكوين سياسات دمج الشحنات
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: السيناريو 1 - دمج الشحنات عند إصدارها إلى المستودع باستخدام الإصدار التلقائي لأوامر المبيعات
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: السيناريو 2 - دمج الشحنات عند تجاوز سياسة دمج الشحنات من صفحة الإصدار إلى مستودع
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: السيناريو 3 - دمج الشحنات باستخدام الإصدار إلى مستودع من منضدة عمل تخطيط الحمل
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: السيناريو 4 - دمج الشحنات باستخدام منضدة عمل دمج الشحنات
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: السيناريو 5 - دمج الشحنات يدويًا باستخدام صفحة دمج الشحنات
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: سياسات دمج الشحنات
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: تكوين سياسات دمج الشحنات
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: السيناريو 1 - دمج الشحنات عند إصدارها إلى المستودع باستخدام الإصدار التلقائي لأوامر المبيعات
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: السيناريو 2 - دمج الشحنات عند تجاوز سياسة دمج الشحنات من صفحة الإصدار إلى مستودع
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: السيناريو 3 - دمج الشحنات باستخدام الإصدار إلى مستودع من منضدة عمل تخطيط الحمل
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: السيناريو 4 - دمج الشحنات باستخدام منضدة عمل دمج الشحنات
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: السيناريو 5 - دمج الشحنات يدويًا باستخدام صفحة دمج الشحنات
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: عبر عمليات المستودعات
+              items:
+                - name: سياسات عمل المستودع
+                  items:
+                    - name: نظرة عامة على سياسات عمل المستودع
+                      href: warehousing/warehouse-work-policies.md
+                    - name: إعداد سياسات عمل المستودع
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: حركة المخزون مع العمل المقترن في إدارة المستودعات
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: إنشاء درجة عمل
+                      href: warehousing/tasks/create-work-class.md
+                    - name: إدارة عمال المستودعات
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: المعالجة المؤجلة لعمل المستودع
+                      href: warehousing/deferred-put.md
+                - name: توزيع البضائع
+                  items:
+                    - name: توزيع البضائع من أوامر الإنتاج لمساحات خارجية
+                      href: production-control/cross-docking-opportunities.md
+                    - name: إصدار الشحن التلقائي لتوزيع البضائع
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: توزيع البضائع المخطط
+                      href: warehousing/planned-cross-docking.md
+                - name: جرد المخزون
+                  items:
+                    - name: أكواد أسباب جرد المخزون
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: حظر المخزون
+                      href: inventory/inventory-blocking.md
+                    - name: الجرد الدوري
+                      href: warehousing/cycle-counting.md
+                    - name: 'تحديد الجرد الدوري '
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: الجرد الدوري الجزئي للمواقع
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات
+                      href: warehousing/onhand-cleanup.md
+                    - name: دفتر يومية المخزون
+                      href: inventory/inventory-journals.md
+                    - name: موقع المخزون
+                      href: inventory/inventory-locations.md
+                    - name: حالة المخزون
+                      href: inventory/inventory-statuses.md
+                    - name: جرد علامات المخزون
+                      href: inventory/inventory-tag-counting.md
+                - name: عمل المستودع
+                  items:
+                    - name: تفاصيل بنود العمل
+                      href: warehousing/work-line-details.md
+                    - name: ‏‫تحديد موضع لوحة ترخيص الموقع
+                      href: warehousing/location-license-plate-positioning.md
+            - name: إعداد المستودع
+              items:
+                - name: تكوين المستودع
+                  items:
+                    - name: نظرة عامة على تكوين المستودع
+                      href: warehousing/warehouse-configuration.md
+                    - name: إعداد مستودع باستخدام قالب تكوين المستودع
+                      href: inventory/warehouse-template.md
+                    - name: التحكم في العمل باستخدام قوالب العمل وتوجيهات الموقع
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: رموز خطوة الموجة
+                      href: warehousing/wave-step-codes.md
+                    - name: تكوين معالجة الموجة
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: التحديث التلقائي للشحنات
+                      href: warehousing/auto-update-shipment.md
+                    - name: إنشاء ملف تعريف للموقع
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (WMS)
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: حالة موقع المستودع
+                      href: warehousing/warehouse-location-status.md
+                    - name: مناطق مواقع إضافية
+                      href: warehousing/additional-location-zones.md
+                    - name: جدولة استغلال الحِمل
+                      href: warehousing/schedule-load-utilization.md
+                    - name: جدولة قدرة حمل العمل
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: إعداد أكواد التخلص
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: وحدة القياس وسياسات المخزون
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: محتوى Power BI للمستودعات
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: تجميع النظام في قائمة عمل مفتوحة
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: تخطيط توجيه المستند لتسميات لوحات الترخيص
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: دعم الكود الشريطي للأجهزة المحمولة
+                      href: warehousing/mobile-barcode-support.md
+                    - name: إعداد المستودع لأوامر التحويل
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: تثبيت تطبيق المستودع وتكوينه
+                  items:
+                    - name: تثبيت تطبيق المستودع وتوصيله
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: تكوين أسماء الحقول في تطبيق المستودع
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: إعداد الأجهزة المحمولة لعمل المستودع
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: استلام لوحة الترخيص‬ بواسطة تطبيق المستودع
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: إعداد صنف قائمة الأجهزة المحمولة لتسجيل الأصناف المستلمة
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: إنشاء عنصر في قائمة الجهاز المحمول لدمج لوحة الترخيص
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: استلام لوحة الترخيص‬ المختلطة على جهاز محمول
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: تكوين عرض الدُفعات القديمة داخل المستودع على جهاز محمول
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: انتقاء الدُفعة الأقدم على جهاز محمول
+                      href: warehousing/pick-oldest-batch.md
+                    - name: إطار عمل دليل العملية
+                      href: warehousing/process-guide-framework.md
+                - name: الترقية والترحيل
+                  items:
+                    - name: ترقية عمليات إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: تطوير Supply Chain Management
           items:
             - name: دليل تطوير عنصر تحكم جانت

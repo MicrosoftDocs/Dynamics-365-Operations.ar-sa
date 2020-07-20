@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367072"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530065"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>تثبيت تطبيق المستودع وتوصيله
+# <a name="install-and-connect-the-warehouse-app"></a>تثبيت تطبيق المستودع وتوصيله
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,7 +47,7 @@ ms.locfileid: "3367072"
 > [!NOTE]
 > إذا كان من الضروري دعم أجهزة Windows القديمة التي لا يمكنها تشغيل أحدث إصدار من Windows ، فلا يزال بإمكانك تنزيل إصدار 1.6.3.0 من تطبيق المستودع من Microsoft Store. سيتم تشغيل هذا الإصدار على أنظمة Windows 10 (UWP) تحديث نوفمبر 1511 (البناء 10.0.10586) أو إصدار لاحق. مع ذلك، يجب العلم أن هذا الإصدار من تطبيق المستودع لا يدعم النشر الشامل لإعدادات الاتصال. بالتالي، يجب [تكوين الاتصال يدويا](#config-manually) على كل جهاز يقوم بتشغيل هذا الإصدار من التطبيق.
 
-## <a name="get-the-warehousing-app"></a>الحصول على تطبيق المستودع
+## <a name="get-the-warehouse-app"></a>الحصول على تطبيق المستودع
 
 استخدم أحد الارتباطات التالية لتنزيل التطبيق:
 

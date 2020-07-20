@@ -3,7 +3,7 @@ title: نظرة على إدارة الميزات
 description: يصف هذا الموضوع ميزة إدارة الميزات وكيف يمكن استخدامها.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/12/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
+ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456587"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499609"
 ---
 # <a name="feature-management-overview"></a>نظرة على إدارة الميزات
 
@@ -140,6 +140,10 @@ ms.locfileid: "3456587"
 ## <a name="feature-management-and-flighting"></a>إدارة الميزات وإصدارات التقييم
 
 تتيح لك إدارة الميزات التحكم في الميزات التي يتم تسليمها في كل إصدار. وتسمح إصدارات التقييم لفرق Microsoft بإصدار ميزات لعدد محدود من العملاء بحيث يمكن اختبار الميزات والتحقق من صحتها دون التأثير على كافة العملاء. لا تتحكم إدارة الميزات في إصدارات التقييم لأي ميزات.
+
+## <a name="new-features-are-optional-for-12-months"></a>الميزات الجديدة اختيارية لمدة 12 شهرًا
+
+عند تثبيت ميزة جديدة غير أساسية، ستكون اختيارية لمدة 12 شهرًا. هذا يسمح لك ولمؤسسك بالتخطيط المسبق بشأن متى يتم استيعاب الميزة واختبارها مقابل العمليات اليومية الخاصة بك. للحصول على مزيد من المعلومات، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>استخدام إدارة الميزات لتشغيل ميزات ISV أو الميزات المخصصة
 

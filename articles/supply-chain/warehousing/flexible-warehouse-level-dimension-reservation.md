@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346458"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530295"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>سياسة مرنة لحجز البعد على مستوى المستودع
 
@@ -186,7 +186,7 @@ ms.locfileid: "3346458"
 
     يتم الآن انتقاء الكمية **10** لرقم الدفعة **B11** لبند أمر المبيعات ووضعها في موقع **باب تحميل البضائع**. في هذه المرحلة، يكون جاهزا ليتم تحميله علي الشاحنة وإرساله إلى عنوان العميل.
 
-## <a name="exception-handling-of-warehouse-work-thas-has-order-committed-batch-numbers"></a>معالجة استثنائية لعمل المستودع الذي يحتوي علي أرقام الدفعات المخصصة للأمر
+## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>معالجة استثنائية لعمل المستودع الذي يحتوي على أرقام الدفعات المخصصة للأمر
 
 يعمل المستودع الخاص بأرقام أمر الانتقاء-المخصصة إلى نفس معالجه استثناء المستودع القياسي والإجراءات الخاصة به كعمل عادي. بشكل عام ، يمكن إلغاء العمل المفتوح أو سطر العمل، حيث يمكن مقاطعته لان موقع المستخدم ممتلئ، ويمكن أن يتم انتقاؤه بشكل قصير، ويمكن تحديثه بسبب الحركة. بالمثل ، يمكن تقليل الكمية المنتقاة للعمل التي تم إكمالها بالفعل، أو يمكن عكس العمل.
 
@@ -353,7 +353,7 @@ ms.locfileid: "3346458"
 <td>‏‏نعم</td>
 <td>
 <ol>
-<li>بدء حركه في تطبيق المستودع.</li>
+<li>بدء حركة في تطبيق المستودع.</li>
 <li>أدخل موقعي البداية والنهاية.</li>
 </ol></td>
 <td>

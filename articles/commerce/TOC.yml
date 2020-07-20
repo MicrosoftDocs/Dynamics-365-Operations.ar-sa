@@ -92,8 +92,6 @@
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (يوليو 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
-                    - name: Commerce 10.0.10 (مايو 2020)
-                      href: get-started/whats-new-commerce-10-0-10.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Finance and Operations
@@ -192,6 +190,8 @@
               items:
                 - name: نظرة عامة على البنية الهندسية لـ Dynamics 365 Commerce
                   href: commerce-architecture.md
+                - name: تدفقات مصادقة Dynamics 365 Commerce
+                  href: arch-auth-flow.md
                 - name: هندسة Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: تحديد مخطط‬ في المتجر
@@ -748,12 +748,12 @@
               href: edit-audit-retail-transactions.md
             - name: إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
               href: tasks/create-calculate-post-statement-retail-store.md
-            - name: تحسينات على وظيفة ترحيل كشف الحساب
-              href: statement-posting-eod.md
             - name: إنشاء أوامر تستند إلى التغذية المستمرة لحركات متجر البيع بالتجزئة
               href: trickle-feed.md
             - name: إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
               href: tasks/create-calculate-post-statement-retail-store.md
+            - name: التسوية المالية في متاجر البيع بالتجزئة
+              href: fin-recon.md
             - name: تحسينات على وظيفة ترحيل كشف الحساب
               href: statement-posting-eod.md
             - name: معالجة محسنة للأصناف المتعقبة بطريقة دُفعية
@@ -788,12 +788,10 @@
               href: online-store-overview.md
             - name: إنشاء موقع تجارة إلكترونية
               items:
-                - name: تكوين اسم المجال الخاص بك
+                - name: تكوين اسم مجالك
                   href: configure-your-domain-name.md
                 - name: نشر مستأجر تجارة إلكترونية جديد
                   href: deploy-ecommerce-site.md
-                - name: إعداد قناة متجر عبر الإنترنت
-                  href: online-stores.md
                 - name: إنشاء موقع تجارة إلكترونية
                   href: create-ecommerce-site.md
                 - name: إقران موقع تجارة إلكترونية بقناة عبر الإنترنت
@@ -816,8 +814,6 @@
               items:
                 - name: نظرة عامة على الصفحة الرئيسية
                   href: quick-tour-home-page.md
-                - name: نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
-                  href: category-search-page-overview.md
                 - name: نظرة عامة على صفحات تفاصيل المنتج
                   href: quick-tour-pdp.md
                 - name: نظرة عامة على صفحات سلة التسوق والسداد مع الخروج
@@ -998,11 +994,11 @@
                       href: add-breadcrumb.md
             - name: بحث
               items:
-                - name: الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
+                - name: نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
                   href: category-search-page-overview.md
                 - name: نظرة عامة على البحث المشغل في السحابة
                   href: cloud-powered-search-overview.md
-            - name: التقارير‬
+            - name: التقارير
               items:
                 - name: إنشاء تقارير القناة عبر الإنترنت
                   href: generate-reports.md
@@ -2000,6 +1996,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: تكوين إعدادات النسق
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: تكوين الإعدادات المسبقة لنمط النسق
+                      href: e-commerce-extensibility/theme-style-presets.md
                     - name: توسيع نسق لإضافة ملحقات الوحدة
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: توسيع نسق من نسق أساسي
@@ -2036,6 +2034,8 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: إعداد مسار بناء Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: الأسئلة الشائعة حول Retail SDK
+                  href: dev-itpro/retail-sdk/sdk-faq.md
             - name: قابلية توسعة نقطة البيع
               items:
                 - name: تخطيطات شاشة نقطة البيع
@@ -2044,10 +2044,8 @@
                   href: Open-URL-in-POS.md
                 - name: تثبيت مصمم تخطيط نقطة البيع
                   href: install-pos-layout-designer.md
-                - name: "توسيع طريقة عرض شاشة\_الثنائية لنقطة البيع"
+                - name: "توسيع طريقة عرض الشاشة\_الثنائية لنقطة البيع"
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: قابلية التوسعة لمشغل نقطة البيع الحديثة ونقطة البيع السحابية
-                  href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: إضافة عناصر تحكم مخصصة لطرق عرض نقطة البيع
                   href: dev-itpro/pos-custom-control.md
                 - name: إضافة عمليات نقطة البيع إلى مخططات نقطة البيع باستخدام مصمم شبكة الأزرار
@@ -2080,9 +2078,9 @@
                   href: dev-itpro/pos-custom-transaction.md
                 - name: إضافة أعمدة مخصصة إلى شبكة حركة نقطة البيع
                   href: dev-itpro/pos-custom-transaction-column.md
-                - name: استدعاء واجهات API لنقطة البيع أو العمليات من ملحقات نقطة البيع
+                - name: استدعاء واجهات برمجة التطبيقات لنقطة البيع أو العمليات من ملحقات نقطة البيع
                   href: dev-itpro/pos-api-extension.md
-                - name: المشغلات والطباعة في نقطة البيع الحديثة
+                - name: المشغلات والطباعة في نقطة البيع الحديثة (MPOS)
                   href: dev-itpro/pos-trigger-printing.md
                 - name: ‏‫إضافة عناصر تحكم مخصصة إلى طرق عرض نقطة البيع التي تستند إلى مصمم خارج الشاشة
                   href: dev-itpro/pos-control-non-screen.md
@@ -2142,7 +2140,7 @@
                   href: dev-itpro/order-attributes.md
                 - name: سمات العميل
                   href: dev-itpro/customer-attributes.md
-                - name: عينات CRT SDK
+                - name: عينات CRT ‏SDK
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: تسجيل أحداث الملحق في Application Insights
                   href: dev-itpro/commerce-application-insights.md
