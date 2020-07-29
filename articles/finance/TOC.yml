@@ -10,11 +10,11 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: التسجيل لاشتراكات المعاينة
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: تحديثات خدمة إصدار واحد
+            - name: تحديثات خدمة One Version
               items:
-                - name: نظرة عامة حول تحديثات خدمة إصدار واحد
+                - name: نظرة عامة حول تحديثات خدمة One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
-                - name: الأسئلة المتداولة حول تحديثات خدمة إصدار واحد
+                - name: الأسئلة المتداولة حول تحديثات خدمة One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
                 - name: سياسة دورة حياة البرامج - إصدارات على السحابة
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: أتمتة مهمة البيانات
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة إصدار واحد
+                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -54,19 +54,19 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/finance/toc.json
                 - name: متطلبات النظام لعمليات النشر المحلي
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: ‏‫شراء Finance and Operations (المحلي)‬
+                - name: شراء Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين التخزين في المستودع لعمليات النشر المحلي
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: تطبيق Finance and Operations الذي تديره 21Vianet في الصين
+                - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
                 - name: تطبيقات Finance and Operations في فرنسا
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
-            - name: ما الجديد أو المتغير
+            - name: الجديد أو المتغير
               items:
-                - name: ما الجديد أو المتغير‬ في تطبيقات Finance and Operations
+                - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: المزايا الجديدة أو المتغيرة في Finance
+                - name: الجديد أو المتغير في Finance
                   items:
                     - name: الجديد أو المتغير‬ في صفحة Finance الرئيسية
                       href: get-started/whats-new-home-page.md
@@ -1820,31 +1820,31 @@
                   items:
                     - name: نظرة عامة على ضريبة السلع والخدمات (GST) في الهند
                       href: localizations/apac-ind-gst.md
-                    - name: ما الجديد أو المتغير‬ في ترجمة ‏‫ضريبة السلع والخدمات (GST) للهند‬ وآسيا والمحيط الهادئ
+                    - name: الجديد أو المتغير‬ في ترجمة ‏‫ضريبة السلع والخدمات (GST) للهند‬ وآسيا والمحيط الهادئ
                       items:
-                        - name: ما الجديد أو المتغير‬ في 10.0.0
+                        - name: الجديد أو المتغير‬ في 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.01
+                        - name: الجديد أو المتغير‬ في 10.0.01
                           href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.02
+                        - name: الجديد أو المتغير‬ في 10.0.02
                           href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.03
+                        - name: الجديد أو المتغير‬ في 10.0.03
                           href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.04
+                        - name: الجديد أو المتغير‬ في 10.0.04
                           href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.05
+                        - name: الجديد أو المتغير‬ في 10.0.05
                           href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.06
+                        - name: الجديد أو المتغير‬ في 10.0.06
                           href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.07
+                        - name: الجديد أو المتغير‬ في 10.0.07
                           href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.08
+                        - name: الجديد أو المتغير‬ في 10.0.08
                           href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.09
+                        - name: الجديد أو المتغير‬ في 10.0.09
                           href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.10
+                        - name: الجديد أو المتغير‬ في 10.0.10
                           href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: ما الجديد أو المتغير‬ في 10.0.11
+                        - name: الجديد أو المتغير‬ في 10.0.11
                           href: localizations/apac-ind-news-letter-10-0-11.md
                     - name: المجموعات المرجعية لضريبة السلع والخدمات (GST) في الهند
                       href: localizations/apac-ind-gst-reference-groups.md
@@ -2540,12 +2540,14 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: تقارير المخزون
                       href: localizations/rus-inventory-reports.md
-                    - name: نظرة عامة على ملف تعريف المخزون
-                      href: localizations/rus-inventory-profile-overview.md
-                    - name: إعداد ملف تعريف المخزون
-                      hreF: localizations/rus-set-up-inventory-profile.md
-                    - name: استخدام ملف تعريف المخزون في المستندات والاستعلامات
-                      href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: ملف تعريف المخزون
+                      items:
+                        - name: نظرة عامة على ملف تعريف المخزون
+                          href: localizations/rus-inventory-profile-overview.md
+                        - name: إعداد ملف تعريف المخزون
+                          hreF: localizations/rus-set-up-inventory-profile.md
+                        - name: استخدام ملف تعريف المخزون في المستندات والاستعلامات
+                          href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: التقارير
                   items:
                     - name: Financial Reporting
@@ -3610,7 +3612,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/finance/toc.json
             - name: المؤسسات والتدرجات الهرمية للمؤسسات
               items:
-                - name: نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات
+                - name: نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/finance/toc.json
                 - name: تخطيط التدرج الهرمي للمؤسسات
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/finance/toc.json
