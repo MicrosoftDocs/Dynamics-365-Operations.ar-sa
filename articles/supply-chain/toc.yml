@@ -10,11 +10,11 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: التسجيل لاشتراكات المعاينة
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تحديثات خدمة إصدار واحد
+            - name: تحديثات خدمة One Version
               items:
-                - name: نظرة عامة حول تحديثات خدمة إصدار واحد
+                - name: نظرة عامة حول تحديثات خدمة One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: الأسئلة المتداولة حول تحديثات خدمة إصدار واحد
+                - name: الأسئلة المتداولة حول تحديثات خدمة One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: سياسة دورة حياة البرامج - إصدارات على السحابة
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: أتمتة مهمة البيانات
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة إصدار واحد
+                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -54,26 +54,28 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: متطلبات النظام لعمليات النشر المحلي
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ‏‫شراء Finance and Operations (المحلي)‬
+                - name: شراء Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين التخزين في المستودع لعمليات النشر المحلي
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تطبيق Finance and Operations الذي تديره 21Vianet في الصين
+                - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تطبيقات Finance and Operations في فرنسا
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ما الجديد أو المتغير
+            - name: الجديد أو المتغير
               items:
-                - name: ما الجديد أو المتغير‬ في تطبيقات Finance and Operations
+                - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ما الجديد أو المتغير في Supply Chain Management
+                - name: الجديد أو المتغير في Supply Chain Management
                   items:
-                    - name: ما الجديد أو المتغير في الصفحة الرئيسية لـ Supply Chain Management
+                    - name: الجديد أو المتغير في الصفحة الرئيسية لـ Supply Chain Management
                       href: get-started/whats-new-home-page.md
                     - name: Supply Chain Management 10.0.12 (أغسطس 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (يوليو 2020)
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: Supply Chain Management 10.0.10 (مايو 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
@@ -1355,6 +1357,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: إلغاء وظيفة تخطيط
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: قابلية توسعة تحسين التخطيط‬
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: استكشاف أخطاء تحسين التخطيط وإصلاحها
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: الخطط الرئيسية
@@ -1511,9 +1515,11 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إعداد التسلسلات الرقمية باستخدام معالج
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
+                - name: تكوين التسلسلات الرقمية لعمليات سير مهام المستودع
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: المؤسسات والتدرجات الهرمية للمؤسسات
               items:
-                - name: نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات
+                - name: نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تخطيط التدرج الهرمي للمؤسسات
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/supply-chain/toc.json
@@ -1817,6 +1823,10 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: استبعاد منتجات من التخطيط الرئيسي
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: سلع ذات استخدام مزدوج
+                  href: pim/dual-use.md
+                - name: بلد المنشأ
+                  href: pim/country-of-origin.md
                 - name: إنشاء كود شريطي لمنتج
                   href: pim/tasks/create-bar-code-product.md
                 - name: إدخال كود GTIN لمنتج
@@ -2565,22 +2575,20 @@
               href: warehousing/warehouse-management-overview.md
             - name: عمليات المستودعات الواردة
               items:
-                - name: إيصالات الاستلام للتسجيل والتخزين
-                  items:
-                    - name: معالجة المستودع للحمل الوارد لأوامر الشراء
-                      href: warehousing/inbound-load-handling.md
-                    - name: تسجيل أصناف لصنف ممكَّن للتخزين المتقدم باستخدام دفتر يومية وصول الصنف
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: تسجيل أصناف لصنف ممكَّن للتخزين الأساسي باستخدام دفتر يومية وصول الصنف
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: توزيع المنتجات من المستودع المستلم حتى المتاجر
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: إعداد توجيه موقع لتخزين أمر الشراء
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: إعداد قالب عمل لأوامر الشراء
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: خلط أبعاد المنتج في الموقع
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: تعامل المستودع مع الأحمال الواردة لأوامر الشراء
+                  href: warehousing/inbound-load-handling.md
+                - name: تسجيل أصناف لصنف ممكَّن للتخزين المتقدم باستخدام دفتر يومية وصول الصنف
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: تسجيل أصناف لصنف ممكَّن للتخزين الأساسي باستخدام دفتر يومية وصول الصنف
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: توزيع المنتجات من المستودع المستلم حتى المتاجر
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: إعداد توجيه موقع لتخزين أمر الشراء
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: إعداد قالب عمل لأوامر الشراء
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: خلط أبعاد المنتج في الموقع
+                  href: warehousing/location-product-dimension-mixing.md
             - name: عمليات المستودعات الصادرة
               items:
                 - name: عمليات الحجز في إدارة المستودعات
@@ -2597,14 +2605,14 @@
                   items:
                     - name: إعداد انتقاء نظام المجموعة
                       href: warehousing/set-up-cluster-picking.md
+                    - name: انتقاء نظام مجموعة بتوجيه من النظام
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: إعداد التعبئة في حاويات
                       href: warehousing/tasks/set-up-containerization.md
                     - name: تأكيد لوحة الترخيص والدُفعة
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: تمكين طباعة بطاقة لوحة الترخيص
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: تأكيد انتقاء الأجزاء
                       href: warehousing/piece-picking-confirmation.md
                     - name: رسوم ومواد التعبئة
@@ -2615,15 +2623,19 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: إلغاء عمل المستودع لمعالجة الاستثناء
                       href: warehousing/cancel-warehouse-work.md
-                    - name: انتقاء نظام مجموعة بتوجيه من النظام
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: تسلسل العمل الموجه بواسطة النظام
                       href: warehousing/system-directed-work-sequencing.md
-                    - name: تجميع سطور الانتقاء
+                    - name: تجميع بنود الانتقاء
                       href: warehousing/pick-line-grouping.md
                     - name: تقسيم المستودعات
                       href: warehousing/warehouse-slotting.md
-                - name: تزويد
+                    - name: تقادم انتقاء مخزون لتوجيه الموقع
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: الفرز الصادر
+                      href: warehousing/outbound-sorting.md
+                    - name: وضع على الحائط - وضع في المتجر
+                      href: warehousing/put-to-wall-put-to-store.md
+                - name: التزويد
                   items:
                     - name: نظرة عامة على التزويد
                       href: warehousing/replenishment.md
@@ -2639,12 +2651,14 @@
                   items:
                     - name: التأكيد والتحويل
                       href: warehousing/confirm-and-transfer.md
-                    - name: إنشاء حمل العمل المتقدم أثناء موجة
+                    - name: إنشاء حمل العمل المتقدم أثناء الموجة
                       href: warehousing/advanced-load-building-during-wave.md
-                    - name: إصدار إلى قاعده المستودع
+                    - name: إصدار إلى قاعدة المستودع
                       href: warehousing/release-to-warehouse-rule.md
                     - name: تجميع قوالب الموجات
                       href: warehousing/wave-template-grouping.md
+                    - name: إعادة طباعة تسميات الموجات وإلغاؤها
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: سياسات دمج الشحنات
                   items:
                     - name: سياسات دمج الشحنات
@@ -2715,6 +2729,10 @@
                       href: warehousing/work-line-details.md
                     - name: ‏‫تحديد موضع لوحة ترخيص الموقع
                       href: warehousing/location-license-plate-positioning.md
+                    - name: تغيير وعاء العمل في العمل
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: دمج الأصناف - استخدام الموقع
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: إعداد المستودع
               items:
                 - name: تكوين المستودع
@@ -2729,9 +2747,11 @@
                       href: warehousing/wave-step-codes.md
                     - name: تكوين معالجة الموجة
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: إعداد طباعة تسميات الموجات واستخدامها
+                      href: warehousing/configure-wave-label-printing.md
                     - name: التحديث التلقائي للشحنات
                       href: warehousing/auto-update-shipment.md
-                    - name: إنشاء ملف تعريف للموقع
+                    - name: إنشاء ملف تعريف الموقع
                       href: warehousing/tasks/create-location-profile.md
                     - name: تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (WMS)
                       href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
@@ -2751,10 +2771,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: تجميع النظام في قائمة عمل مفتوحة
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: تخطيط توجيه المستند لتسميات لوحات الترخيص
+                    - name: تخطيط توجيه المستند لبطاقات لوحات الترخيص
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: مسح الأكواد الشريطية باستخدام كاميرا في Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: دعم الكود الشريطي للأجهزة المحمولة
                       href: warehousing/mobile-barcode-support.md
                     - name: إعداد المستودع لأوامر التحويل
@@ -2767,6 +2785,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: إعداد الأجهزة المحمولة لعمل المستودع
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق المستودع
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: استلام لوحة الترخيص‬ بواسطة تطبيق المستودع
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء

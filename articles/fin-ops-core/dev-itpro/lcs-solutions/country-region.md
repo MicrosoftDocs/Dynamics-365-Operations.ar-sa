@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812078"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598171"
 ---
 # <a name="globalization-resources"></a>موارد العولمة
 
 ## <a name="local-and-regional-deployments"></a>عمليات النشر المحلية والإقليمية
 إذا تطلبت القوانين الحكومية تخزين البيانات أو صيانتها بشكل مختلف عما هو مطلوب في البلدان/المناطق الأخرى، فقد تكون هناك متطلبات خاصة بالبلد/المنطقة يجب وضعها في الاعتبار عند النشر. ضع الموارد التالية في الاعتبار والتي قد تكون ملائمة لك:
 
-[تطبيقات Microsoft Dynamics 365 Finance and Operations المشعلة بواسطة 21Vianet في الصين](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[تطبيقات Finance and Operations المشعلة بواسطة 21Vianet في الصين](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>ميزات الترجمة والميزات التنظيمية
 
 [!include [banner](../includes/banner.md)]
 
-تتضمن تطبيقات Dynamics 365 Finance and Operations وظائف للبلدان/المناطق موثقة في [دليل توافر ترجمة المنتج](https://aka.ms/dynamics_365_international_availability_deck). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
+تتضمن تطبيقات Finance and Operations وظائف للبلدان/المناطق موثقة في [دليل توافر ترجمة المنتج](https://aka.ms/dynamics_365_international_availability_deck). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
 
 يتضمن هذا الموضوع قوائم الموارد التي يمكنها مساعدتك في القيام بما يلي: 
 - معرفة المزيد حول الحلول الخاصة بتطوير البلد/المنطقة.
@@ -67,7 +67,7 @@ ms.locfileid: "2812078"
 توفر [خطط إصدار Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) وصفًا للقدرات الجديدة والمحسنة التي تم التخطيط لها في تطبيقات أعمال Dynamics 365 والأنظمة الأساسية للتطبيقات. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>الجديد في تطبيقات Finance and Operations
-يسرد محتوى [الجديد أو المتغير في صفحة Finance and Operations الرئيسية‬](../../fin-ops/get-started/whats-new-changed.md) الميزات المضمنة في إصدارات خاصة من تطبيقات Finance and Operations.
+يسرد القسم [الجديد أو المتغير في الصفحة الرئيسية لتطبيق Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) الميزات المضمنة في الإصدارات الخاصة من تطبيقات Finance and Operations.
 
 ### <a name="electronic-reporting"></a>إعداد التقارير الإلكترونية
 تتيح لك أداة إعداد التقارير الإلكترونية (ER) إمكانية تكوين تنسيقات المستندات الإلكترونية وفقًا للمتطلبات القانونية لمختلف البلدان/المناطق. يتيح لك إعداد التقارير الإلكترونية إدارة هذه التنسيقات خلال دورة حياتها. لمزيد من المعلومات، راجع أحد المواضيع التالية:

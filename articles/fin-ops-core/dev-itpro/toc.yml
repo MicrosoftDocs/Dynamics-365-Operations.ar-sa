@@ -6,9 +6,9 @@
           href: ../fin-ops/index.md
         - name: التطوير والإدارة لتطبيقات Finance and Operations
           href: index.md
-        - name: ما الجديد أو المتغير
+        - name: الجديد أو المتغير
           items:
-            - name: ما الجديد أو المتغير‬ في تطبيقات Finance and Operations
+            - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
@@ -1434,8 +1434,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: تصدير مستخدمي B2B إلى Azure AD
               href: sysadmin/implement-b2b.md
-            - name: أتمته العملية
-              href: sysadmin/process-automation.md
             - name: الأمان
               items:
                 - name: أمان يستند إلى الدور
@@ -1458,13 +1456,19 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: تعيين مستخدمين إلى أدوار أمان
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: استيراد تكوين أمان مخصص أو تصديره باستخدام إدارة البيانات
+                  href: sysadmin/import-export-customized-security.md
                 - name: ‏‫تشخيصات الأمان‬ لتسجيلات المهام
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: سياسات أمان البيانات القابلة للتوسعة
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: إنشاء سياسة أمان
+                  href: sysadmin/create-simple-security-policy.md
             - name: أتمته العملية
-              href: /sysadmin/process-automation.md
-            - name: معالجة الدُفعات
+              href: sysadmin/process-automation.md
+            - name: المعالجة الدُفعية
               items:
-                - name: نظرة عامة على معالجة الدُفعات
+                - name: نظرة عامة على المعالجة الدُفعية
                   href: sysadmin/batch-processing-overview.md
                 - name: مُعالجة الدُفعات وخوادم الدُفعات
                   href: sysadmin/batch-server-overview.md
@@ -1582,7 +1586,7 @@
               items:
                 - name: عملية النقل إلى التحديث الأخير
                   href: migration-upgrade/upgrade-latest-update.md
-                - name: المسارات إلى إصدار واحد
+                - name: المسارات إلى One Version
                   items:
                     - name: ترقيه الخدمة الذاتية إلى الإصدار الأخير
                       href: migration-upgrade/self-service-upgrade.md
@@ -1670,7 +1674,7 @@
                   href: user-interface/check-box-tree-controls.md
                 - name: خيارات التصفية
                   href: user-interface/filtering.md
-                - name: التحكم في مضيف PowerApps
+                - name: التحكم في مضيف Power Apps
                   href: user-interface/powerapps-host-control.md
             - name: إدارة النوافذ
               items:
