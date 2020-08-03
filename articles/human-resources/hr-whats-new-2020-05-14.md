@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d46671f73a75a9ed3a652d76153c923a3542b5f6
-ms.sourcegitcommit: 7c750711e9fe1d3726c6ee650669529684933001
+ms.openlocfilehash: 3ce1aca9cebc5b330f054a11e38b5dfc4fc9109d
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386097"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555161"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (14‏ مايو 2020)
 
@@ -93,7 +93,7 @@ ms.locfileid: "3386097"
 
 ## <a name="suspend-leave-accrual-for-specified-leave-types-272447"></a>تعليق استحقاق الإجازه لأنواع الإجازات المحددة (272447)
 
-في هذا الإصدار، يمكن للموارد البشرية إنشاء قاعده لكي يتم تعليق استحقاق الإجازات للموظفين الذين لديهم طلبات الاجازه التي تم إدخالها لإجازه غير مدفوعة. يمكن أن تكون الإجازه غير المدفوع نوعا، ولكن ليس من الضروري أن تكون كذلك. يمكنك تعليق أي إجازة استنادا إلى نوع إجازة آخر.
+في هذا الإصدار، يمكن للموارد البشرية إنشاء قاعده لكي يتم تعليق استحقاق الإجازات للموظفين الذين لديهم طلبات الاجازه التي تم إدخالها لإجازه غير مدفوعة. يمكن أن تكون الإجازة غير المدفوع نوعا، ولكن ليس من الضروري أن تكون كذلك. يمكنك تعليق أي إجازة استنادا إلى نوع إجازة آخر.
 
 ## <a name="dmf-entity-available-for-accrual-suspensions-429549"></a>يتوفر كيان DMF لتعليقات الاستحقاق (429549)
 
@@ -110,3 +110,10 @@ ms.locfileid: "3386097"
 ## <a name="carry-forward-rules"></a>قواعد نقل الإجازة
 
 يمكنك تحديد نوع الإجازة المنقولة للأرصدة المنقولة حيث يتم تحويل تسويات النقل. على سبيل المثال، إذا قام أحد الموظفين بنقل إجازة من 10 أيام، يمكنك انتقاء نوع إجازة آخر لمدة العشرة أيام هذه. لمزيد من المعلومات، راجع [تكوين أنواع الإجازة والغياب](hr-leave-and-absence-types.md).
+
+## <a name="see-also"></a>راجع أيضًا
+
+[المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[تحديث العملية](hr-admin-setup-update-process.md)</br>
+[إدارة الميزات](hr-admin-manage-features.md)

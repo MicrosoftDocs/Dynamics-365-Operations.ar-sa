@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d6988bb95cf2ffe8146434f4b194d97491952915
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: f636dbd3b0ba59ea6cafbc431af46315210dded1
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3157356"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555234"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (19 مارس 2020)
 
@@ -122,3 +122,9 @@ ms.locfileid: "3157356"
 
 - **ميزة معاينة إدارة الميزات** - لمزيد من المعلومات، بما في ذلك المشكلات المعروفة، راجع [نظرة عامة على إدارة الميزات](hr-benefits-management-overview.md).
 
+## <a name="see-also"></a>راجع أيضًا
+
+[المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[تحديث العملية](hr-admin-setup-update-process.md)</br>
+[إدارة الميزات](hr-admin-manage-features.md)

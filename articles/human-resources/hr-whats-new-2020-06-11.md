@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39f18dc92fb01f9a0437f4166c0f08f8d6b1b81b
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: cba6e48899ec39fc4de6656f8151a42b8aa43261
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456610"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555185"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>ما الجديد والمتغير في Dynamics 365 Human Resources (11 يونيو 2020)
 
@@ -95,3 +95,10 @@ ms.locfileid: "3456610"
 ## <a name="configure-the-name-of-employee-self-service"></a>تكوين اسم خدمة الموظف الذاتية
 
 سيتوفر خيار جديد في محددات الموارد البشرية لتحديث اسم مساحة عمل خدمة الموظف الذاتية إلى الخدمة الذاتية. 
+
+## <a name="see-also"></a>راجع أيضًا
+
+[المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[تحديث العملية](hr-admin-setup-update-process.md)</br>
+[إدارة الميزات](hr-admin-manage-features.md)

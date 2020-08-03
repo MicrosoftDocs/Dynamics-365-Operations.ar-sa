@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1a0cfd1c1b0dcc9defaad7e4cce22ebe1e91fae
-ms.sourcegitcommit: cc5dc0bd90277f1ba684dd310da3274886ce573c
+ms.openlocfilehash: e4da626ce3412fba6f90dd7f953c1cbc79ab60c3
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3320909"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555113"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (1‏ مايو 2020)
 
@@ -71,7 +71,7 @@ ms.locfileid: "3320909"
 
 ## <a name="suspend-leave-accrual-for-specified-leave-types-272447"></a>تعليق استحقاق الإجازه لأنواع الإجازات المحددة (272447)
 
-في هذا الإصدار، يمكن للموارد البشرية إنشاء قاعده لكي يتم تعليق استحقاق الإجازات للموظفين الذين لديهم طلبات الاجازه التي تم إدخالها لإجازه غير مدفوعة. يمكن أن تكون الإجازه غير المدفوع نوعا، ولكن ليس من الضروري أن تكون كذلك. يمكنك تعليق أي إجازة استنادا إلى نوع إجازة آخر.
+في هذا الإصدار، يمكن للموارد البشرية إنشاء قاعده لكي يتم تعليق استحقاق الإجازات للموظفين الذين لديهم طلبات الاجازه التي تم إدخالها لإجازه غير مدفوعة. يمكن أن تكون الإجازة غير المدفوع نوعا، ولكن ليس من الضروري أن تكون كذلك. يمكنك تعليق أي إجازة استنادا إلى نوع إجازة آخر.
 
 ## <a name="dmf-entity-available-for-accrual-suspensions-429549"></a>يتوفر كيان DMF لتعليقات الاستحقاق (429549)
 
@@ -102,3 +102,10 @@ ms.locfileid: "3320909"
 3. يمكنك الوصول إلى مرفق في SharePoint لبدء معاينة المستند.
 
 4. قم بتسجيل الدخول باستخدام حساب مستخدم آخر له حق الوصول إلى المرفقات وتحقق من أن المعاينة تعمل كما هو متوقع.
+
+## <a name="see-also"></a>راجع أيضًا
+
+[المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[تحديث العملية](hr-admin-setup-update-process.md)</br>
+[إدارة الميزات](hr-admin-manage-features.md)

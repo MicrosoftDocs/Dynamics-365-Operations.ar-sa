@@ -3,7 +3,7 @@ title: عملية المخزون الخارجية في نقطه البيع
 description: يصف هذا الموضوع إمكانيات عمليه المخزون الخارجية لنقطه البيع (POS).
 author: hhaines
 manager: annbe
-ms.date: 05/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
-ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
+ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3384119"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551615"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>عملية المخزون الخارجية في نقطه البيع
 
@@ -58,6 +58,9 @@ ms.locfileid: "3384119"
 7. في علامة التبويب السريعة **عام**، في قسم **الإعداد**، قم بتعيين خيار **مستمر** على **لا** للتاكد من عدم وجود أية مشكلات في الأداء.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>إنشاء وظيفتين دفعتين وجدولتهما لمهام معالجة ومراقبة المستندات
+
+> [!NOTE]
+> في إصدار Commerce 10.0.13 والإصدارات اللاحقة، لا يلزم تكوين وظائف الدفعات من خلال إطار عمل وظيفة الدفعة. يمكن تكوين عمليات الدفعة من قائمة **Retail and Commerce > تكنولوجيا معلومات Retail and Commerce**. استخدم خيارات قائمة **شاشة عمليات مستند البيع بالتجزئة** و**معالجة عمليات مستند البيع بالتجزئة** لتكوين وظائف الدفعات
 
 سيتم استخدام الوظائف الدفعية لمعالجة المستندات التي فشلت أو انتهت مهلتها. كما سيتم استخدامها عندما يتجاوز عدد مستندات المخزون النشطة التي تتم معالجتها من نقطه البيع قيمه تم تكوينها بواسطة النظام.
 

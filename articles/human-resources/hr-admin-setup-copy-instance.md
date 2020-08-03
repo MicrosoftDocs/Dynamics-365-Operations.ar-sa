@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431235"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554315"
 ---
 # <a name="copy-an-instance"></a>نسخ مثيل
 
@@ -68,15 +68,15 @@ ms.locfileid: "3431235"
 
 4. في جزء المهام **نسخ مثيل**، حدد المثيل المراد استبداله، ثم حدد **نسخ**. انتظر حتي يتم تحديث قيمة حقل **نسخ الحالة** إلى **مكتمل**.
 
-   ![[تحديد مثيل لاستبداله](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[حدد مثيلًا لاستبداله](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. حدد **Power Platform**، وقم بتسجيل الدخول إلى مركز مسؤول Microsoft Power Platform.
 
-   ![[تحديد Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[حدد Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. حدد بيئة PowerApps المراد نسخها، ثم حدد **نسخ**.
 
-7. عند اكتمال عمليه النسخ، قم بتسجيل الدخول إلى المثيل الهدف، وتمكين تكامل Common Data Service. لمزيد من المعلومات والتعليمات، راجع [تكوين تكامل Common Data Service ](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. عند اكتمال عمليه النسخ ، قم بتسجيل الدخول إلى المثيل الهدف، وتمكين تكامل Common Data Service. لمزيد من المعلومات والتعليمات، راجع [تكوين تكامل Common Data Service ](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>عناصر البيانات والحالات
 
@@ -108,6 +108,6 @@ ms.locfileid: "3431235"
 
 ## <a name="environment-admin"></a>مسؤول البيئة
 
-يتم استبدال كافة المستخدمين في بيئة الحماية الهدف، بما في ذلك المسؤولين، بالمستخدمين في البيئة المصدر. قبل نسخ مثيل، تأكد من أنك مسؤول في البيئة الهدف. إذا لم تقم بذلك، فلن تتمكن من تسجيل الدخول إلى بيئة الحماية الهدف بعد اكتمال عملية النسخ.
+يتم استبدال كافة المستخدمين في بيئة الحماية الهدف، بما في ذلك المسؤولين، بالمستخدمين في البيئة المصدر. قبل نسخ مثيل، تأكد من أنك مسؤول في البيئة المصدر. إذا لم تقم بذلك، فلن تتمكن من تسجيل الدخول إلى بيئة الحماية الهدف بعد اكتمال عملية النسخ.
 
 يتم تعطيل كافة المستخدمين غير المسؤولين في بيئة الحماية الهدف لمنع تسجيلات الدخول غير المرعوب فيها في بيئة الحماية. يمكن للمسؤولين إعادة تمكين المستخدمين عند الحاجة.

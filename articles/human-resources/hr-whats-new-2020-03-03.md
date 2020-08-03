@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fdd409b33989e371d0bd2a6e21b27721336cea0
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: d85ce8ccfcd7f1b975244cc2f65535101013ac89
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3114417"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555281"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-3-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (3 مارس 2020)
 
@@ -87,3 +87,10 @@ ms.locfileid: "3114417"
 - **ميزات معاينة الغياب والإجازات** - لمزيد من المعلومات، راجع [ميزات معاينة الإجازات والغياب](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
 - **ميزة معاينة إدارة الميزات** - لمزيد من المعلومات، بما في ذلك المشكلات المعروفة، راجع [نظرة عامة على إدارة الميزات](hr-benefits-management-overview.md).
+
+## <a name="see-also"></a>راجع أيضًا
+
+[المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[تحديث العملية](hr-admin-setup-update-process.md)</br>
+[إدارة الميزات](hr-admin-manage-features.md)

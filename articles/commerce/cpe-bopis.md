@@ -1,9 +1,9 @@
 ---
-title: تكوين BOPIS في بيئة Dynamics 365 Commerce
-description: يوضح هذا الموضوع كيف تكون الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة Microsoft Dynamics 365 Commerce بعد توفيرها.
+title: تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce
+description: يوضح هذا الموضوع كيفية تكوين الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
 author: rubendel
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 956d66d09885d4d54655ce25b3aa7ba6a9c34cf4
-ms.sourcegitcommit: dfef2faf881b2db1bd0f016df36e2b838105312b
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3282786"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599786"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-environment"></a>تكوين BOPIS في بيئة Dynamics 365 Commerce
-
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تكوين الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة Microsoft Dynamics 365 Commerce بعد توفيرها.
+يوضح هذا الموضوع كيفية تكوين الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
 
 ## <a name="prerequisite"></a>المتطلب الأساسي
 
-استكمل الإجراءات في هذا الموضوع فقط بعد توفير بيئة معاينة Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة معاينة Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة معاينة Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+استكمل الإجراءات في هذا الموضوع فقط بعد توفير بيئة تقييم Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة تقييم Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
 
 بعد توفير بيئة معاينة Commerce وتكوينها من البداية إلى النهائية، يمكنك استخدام هذا الموضوع لتكوين سيناريوهات BOPIS.
 
@@ -71,7 +70,7 @@ ms.locfileid: "3282786"
 5. يظهر مربع حوار المصادقة. حدد الحساب الذي يستخدم عنوان البريد الإلكتروني الذي كان مرتبطًا في السابق بالعامل **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > إذا لم تكن قد قمت بربط عامل بهويتك، فسيكون التنشيط غير ناجح. في هذه الحالة، اتبع الخطوات تحت قسم "ربط عامل بهويتك" في الموضوع [تكوين بيئة معاينة Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > إذا لم تكن قد قمت بربط عامل بهويتك، فسيكون التنشيط غير ناجح. في هذه الحالة، اتبع الخطوات تحت قسم "ربط عامل بهويتك" في الموضوع [تكوين بيئة تقييم Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. عندما مطالبتك بالسماح للمؤسسة بإدارة الجهاز، حدد **هذا التطبيق فقط**.
 7. عند استكمال عملية التنشيط، حدد **الشروع في العمل**.
@@ -144,13 +143,13 @@ ms.locfileid: "3282786"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على بيئة معاينة Dynamics 365 Commerce](cpe-overview.md)
+[نظرة عامة على بيئة تقييم Dynamics 365 Commerce](cpe-overview.md)
 
-[تشغيل بيئة معاينة Dynamics 365 Commerce](provisioning-guide.md)
+[توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md)
 
-[تكوين ميزات اختيارية لبيئة معاينة Dynamics 365 Commerce](cpe-optional-features.md)
+[تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce](cpe-optional-features.md)
 
-[الأسئلة الشائعة حول بيئة معاينة Dynamics 365 Commerce](cpe-faq.md)
+[الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
