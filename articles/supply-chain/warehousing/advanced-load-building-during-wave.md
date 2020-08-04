@@ -2,7 +2,7 @@
 title: بناء متقدم لحمل عمل أثناء الموجة
 description: يوفر هذا الموضوع معلومات حول البناء المتقدم لحمل الموجة، والذي يقوم تلقائيًا بتعيين الشحنات إلى موجات موجودة أثناء تنفيذ الموجة. بالتالي، يمكنك إنشاء حمولات ذات مغذى والتي تمثل الشاحنات دون الحاجة إلى استخدام منضدة عمل تخطيط الحمل.
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a4d331e08af75347ed2dbc3dd777c79961de48a4
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 3ad24c2f59b8d698f0ef34b83f333c75b79a8516
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530502"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597302"
 ---
 # <a name="advanced-load-building-during-wave"></a>بناء متقدم لحمل عمل أثناء الموجة
 

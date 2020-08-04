@@ -3,7 +3,7 @@ title: الميزات التي تمت إزالتها أو إهمالها في Dy
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443908"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539869"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 
@@ -41,8 +41,35 @@ ms.locfileid: "3443908"
 |   |  |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم إهمال ميزه ربط إجراءات البيانات بسبب مشاكل في الأداء. |
-| **هل تم الاستبدال بميزة أخرى؟**   | يوصى بدلا من ذلك استخدام [‏‫عمليات تجاوز إجراءات البيانات‬](../e-commerce-extensibility/data-action-overrides.md) لتعديل منطق تسلسل العمل في طبقه إجراء البيانات.|
+| **هل تم الاستبدال بميزة أخرى؟**   | يستحسن استخدام [‏‫عمليات تجاوز إجراءات البيانات‬](../e-commerce-extensibility/data-action-overrides.md) لتعديل منطق تسلسل العمل في طبقة إجراء البيانات.|
 | **مناطق المنتجات المتأثرة**         | إجراءات بيانات قابلية توسعة التجارة الإلكترونية |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: اعتبارًا من إصدار 10.0.11 |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>دعم Retail SDK لكل من Visual Studio‏ 2015 وmsbuild 14.0 ومكتباتRetail SDK\المرجعية والأدوات
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم إهمال دعم Retail SDK لـ Visual Studio 2015 وتحديثه لدعم الإصدارات 2017 وmsbuild 15.0 وجميع المكتبات المرجعية وأدوات منشئ وكيل التجارة في المجلد RetailSDK\المراجع الذي تم نقله إلى حزم NuGet لتبسيط نموذج الامتدادات وعملية ترقية SDK.|
+| **هل تم الاستبدال بميزة أخرى؟**   | يستحسن اتباع المعلومات الواردة في [ترحيل Retail SDK من Visual Studio 2015 إلى Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) لتحديث نظامك. |
+| **مناطق المنتجات المتأثرة**         | امتدادات Retail SDK |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: اعتبارًا من إصدار 10.0.11 |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>امتداد خادم البيع بالتجزئة باستخدام IEdmModelExtender وCommerceController
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم إهمال امتداد خادم البيع بالتجزئة باستخدام IEdmModelExtender و CommerceController لتوفير نموذج امتداد مبسط. سينطوي التنفيذ الجديد على فئة عنصر التحكم فقط دون تطبيق أي فئة IEdmModelExtender إضافية. ويؤدي ذلك أيضًا إلى تجنب التبعية مع إصدار OData معين (في حالة تحديث إصدار OData، فقد يؤدي ذلك إلى إيقاف الامتدادات.) |
+| **هل تم الاستبدال بميزة أخرى؟**   |  يستحسن استخدام نموذج امتداد الفئة IController عن طريق استيراد حزمة NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **مناطق المنتجات المتأثرة**         | امتدادات خادم البيع بالتجزئة |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: اعتبارًا من إصدار 10.0.11 |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>امتداد محطة الأجهزة باستخدام IHardwareStationController
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم إهمال امتداد محطة الأجهزة باستخدام IHardwareStationController لتوفير نموذج امتداد مبسط. سينطوي التنفيذ الجديد على الفئة IController فقط دون تطبيق أي فئة إضافية ولتجنب التبعية مع مكتبات محطات الأجهزة الأساسية، يحتاج الامتداد السابق إلى الرجوع إلى مكتبات متعددة. |
+| **هل تم الاستبدال بميزة أخرى؟**   | يستحسن استخدام نموذج امتداد الفئة IController عن طريق استيراد حزمة NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **مناطق المنتجات المتأثرة**         | امتدادات محطة الأجهزة |
 | **خيارات النشر**              | ‏‏الكل |
 | **الحالة**                         | مهمل: اعتبارًا من إصدار 10.0.11 |
 

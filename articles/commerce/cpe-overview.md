@@ -1,9 +1,9 @@
 ---
-title: نظرة عامة على بيئة معاينة Dynamics 365 Commerce
-description: يقدم هذا الموضوع نظرة عامة على بيئة معاينة Microsoft Dynamics 365 Commerce.
+title: نظرة عامة على بيئة تقييم Dynamics 365 Commerce
+description: يقدم هذا الموضوع نظرة عامة على بيئة تقييم Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,45 +17,50 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024673"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599738"
 ---
-# <a name="dynamics-365-commerce-preview-environment-overview"></a>نظرة عامة على بيئة معاينة Dynamics 365 Commerce
-
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>نظرة عامة على بيئة تقييم Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على بيئة معاينة Microsoft Dynamics 365 Commerce.
+يقدم هذا الموضوع نظرة عامة على بيئة تقييم Microsoft Dynamics 365 Commerce.
+
+> [!NOTE]
+> لا تتوفر بيئات تقييم Commerce بشكل عام، ويتم منحها للشركاء والعملاء على أساس كل طلب. لمزيد من المعلومات، اتصل بجهة اتصال شريك Microsoft.
 
 ## <a name="overview"></a>نظرة عامة
 
-بيئة معاينة التجارة هي بيئة معاينة شاملة لـ Dynamics 365 Commerce تتيح للعملاء المحتملين تجربة منتج التجارة قبل صدوره بشكل عام للجمهور.
+بيئة تقييم Commerce هي بيئة اختيارية شاملة لـ Dynamics 365 Commerce تتيح للشركاء والعملاء المحتملين تجربة منتج Commerce.
 
-بصرف النظر عن بعض القيود البسيطة التي لا تؤثر على الميزات أو الوظائف، توفر بيئة معاينة التجارة تجربة التجارة الكاملة، ويمكن استخدامها من قبل العملاء وشركاء التنفيذ لتقييم المنتج ، وتقديم الملاحظات ، وتحليل الملاءمة / الفجوة.
+يتم تكوين بيئات التقييم مسبقًا بشكل جزئي لتقليل الخطوات التالية للتوفير المطلوبة.
 
-## <a name="limitations-of-the-commerce-preview-environment"></a>قيود بيئة معاينة التجارة
+بصرف النظر عن بعض القيود البسيطة التي لا تؤثر على الميزات أو الوظائف، توفر بيئة تقييم Commerce تجربة Commerce بالكامل، ويمكن للعملاء وشركاء التنفيذ استخدامها لتقييم المنتج وتقديم الملاحظات وإجراء تحليل الملاءمة/الفروق.
 
-على الرغم من أن بيئة معاينة التجارة توفر مجموعة كاملة من ميزات ووظائف التجارة، إلا أن هناك بعض القيود الثانوية:
+## <a name="limitations-of-the-commerce-evaluation-environment"></a>قيود بيئة تقييم Commerce
 
-- على الرغم من أن بيئة معاينة التجارة نفسها لا تحتوي على قيود جغرافية، إلا أنه لا يمكن توفير مكونات البيئة، مثل Retail Cloud Scale Unit (RCSU) وتطبيقات التجارة الإلكترونية، إلا في الولايات المتحدة.
-- يقتصر استخدام بيئة المعاينة التجارية على مهلة 30 يومًا من تاريخ توفير التجارة الإلكترونية.
-- يمكن نشر بيئة معاينة التجارة بنجاح وتهيئتها فقط في بيئة تستخدم طوبولوجيا العرض التوضيحي، حيث يتم نشر جميع مكونات البيئة في جهاز ظاهري واحد (VM). القيد الرئيسي لمخطط الجهاز الظاهري OneBox هو عدد المستخدمين المتزامنين الذين يمكن أن تدعمهم بيئة المعاينة.
-- لا يمكن تقييم بيئة معاينة التجارة إلا إلى أن يكون التوافر العام (GA) لمنتج التجارة. ستكون البيئات التجريبية الجديدة متاحة بعد التوافر العام.
+على الرغم من توفير بيئة تقييم Commerce مجموعة كاملة من ميزات Commerce ووظائفها، إلا أن هناك بعض القيود الثانوية:
 
-## <a name="get-started"></a>البدء
+- على الرغم من عدم احتواء بيئة تقييم Commerce نفسها على قيود جغرافية، إلا أنه لا ينبغي توفير مكونات البيئة، مثل Retail Cloud Scale Unit (RCSU) وتطبيقات التجارة الإلكترونية، إلا في الولايات المتحدة.
+- يوجد حد زمني لاستخدام بيئة تقييم Commerce بقيمة 30 يومًا من تاريخ توفير التجارة الإلكترونية.
+- لا يمكن نشر بيئة تقييم Commerce وتهيئتها بنجاح إلا في بيئة تستخدم مخطط العرض التوضيحي، حيث يتم نشر جميع مكونات البيئة في جهاز ظاهري واحد (VM) مُستضاف في سحابة. والقيد الرئيسي للمخطط هو عدد المستخدمين المتزامنين الذين يمكن أن تدعمهم البيئة.
 
-لتوفير بيئة معاينة التجارة، راجع [توفير بيئة معاينة التجارة](provisioning-guide.md)
+## <a name="get-started"></a>بدء الاستخدام
+
+لتوفير بيئة تقييم Commerce، راجع [توفير بيئة تقييم Commerce](provisioning-guide.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[تشغيل بيئة معاينة Dynamics 365 Commerce](provisioning-guide.md)
+[توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md)
 
-[تكوين بيئة معاينة Dynamics 365 Commerce](cpe-post-provisioning.md)
+[تكوين بيئة تقييم Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[تكوين ميزات اختيارية لبيئة معاينة Dynamics 365 Commerce](cpe-optional-features.md)
+[تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce](cpe-bopis.md)
 
-[الأسئلة المتداولة حول بيئة معاينة Dynamics 365 Commerce](cpe-faq.md)
+[تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce](cpe-optional-features.md)
+
+[الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)

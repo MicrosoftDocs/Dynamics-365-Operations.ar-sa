@@ -1,9 +1,9 @@
 ---
-title: الأسئلة المتداولة حول بيئة معاينة Dynamics 365 Commerce
-description: يوفر هذا الموضوع إجابات للأسئلة المتداولة حول بيئة معاينة Microsoft Dynamics 365 Commerce.
+title: الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce
+description: يوفر هذا الموضوع إجابات للأسئلة الشائعة حول بيئة تقييم Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254714"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599739"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a>الأسئلة المتداولة حول بيئة معاينة Dynamics 365 Commerce
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوفر هذا الموضوع إجابات للأسئلة المتداولة حول بيئة معاينة Microsoft Dynamics 365 Commerce.
+يوفر هذا الموضوع إجابات للأسئلة الشائعة حول بيئة تقييم Microsoft Dynamics 365 Commerce.
 
-**هل يمكنني نقل دعوتي لبيئة المعاينة التجارية إلى مستأجر آخر؟**
+**هل يمكن استخدام بيئة تقييم Commerce كواجهة للتجارة الإلكترونية للعملاء الذين يتولون حاليًا مسؤولية تنفيذ البيع بالتجزئة؟**
 
-نعم. لنقل الدعوات، يمكنك استخدام [نموذج نقل معاينه التجارة](https://aka.ms/Dynamics365CommercePreviewTransferForm).
+الرقم بيئة تقييم Commerce هي بيئة مخصصة للتقييم فقط. إذا كنت تحتاج إلى بيئة للعميل الذي يقوم بتنفيذ البيع بالتجزئة، اتصل بـ Microsoft.
 
-**كم من الوقت يستغرق نقل الدعوة؟**
+**هل يمكن استخدام بيئة تقييم التجارة لتوفير ميزات التجارة الإلكترونية على رأس تطبيق/بيئة حالية تنفذ البيع بالتجزئة؟**
 
-وتستغرق عملية النقل حوالي من ثلاثة إلى خمسة أيام عمل. ومع ذلك، قد تنطبق الاستثناءات.
+لا (غالبًا). لا تتوفر مكونات تقييم التجارة إلا للبيئات التي تطابق التكوينات المحددة في دليل التوفير والمتطلبات الأساسية. وبالإضافة إلى ذلك، لن تتوفر بيانات العرض التوضيحي الأساسي المطلوبة في البيئات التي تم نشرها بإصدار أولي أقدم من 10.0.8. 
 
-**هل تعمل بيئة معاينة Commerce مع Dynamics 365 Finance أو مشروعات Dynamics 365 Supply Chain؟**
+**ما التكاليف التي ينطوي عليها نشر بيئة تقييم Commerce في Microsoft Azure عبر خدمات Microsoft Dynamics Lifecycle Services (LCS)؟**
 
-الرقم تعمل بيئة معاينة التجارة فقط مع مشاريع Dynamics 365 Retail.
+ستتم استضافة بيئة Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce تقليدية للعرض التوضيحي للمقرات الرئيسية (جهاز ظاهري \[VM\]) في اشتراكك في Azure. يمكنك استخدام [حاسبة تسعير Azure](https://azure.microsoft.com/pricing/calculator/) لتقدير هذه التكلفة.
 
-**هل يمكننا استخدام بيئة معاينه التجارة كواجهة للتجارة الكترونيه للعملاء الذين يقومون حاليا بتنفيذ البيع بالتجزئة؟**
+ستتوفر المكونات الأخرى مثل Commerce Scale Unit ومنشئ مواقع Commerce وموقع التجارة الإلكترونية كخدمة تأجير البرامج (SaaS) وستتم استضافتها بواسطة Microsoft.
 
-الرقم بيئة معاينه التجارة هي بيئة التقييم فقط. إذا كنت تحتاج إلى بيئة للعميل الذي يقوم بتنفيذ البيع بالتجزئة، اتصل بـ Microsoft.
+**ما مناطق Azure الجغرافية المدعومة حاليًا لبيئة تقييم Commerce؟**
 
-**هل يمكن استخدام بيئة معاينة التجارة لتوفير ميزات التجارة الإلكترونية أعلى تطبيق / بيئة حالية تنفذ البيع بالتجزئة؟**
-
-الرقم تتوفر بيئة معاينة التجارة حاليًا فقط في البيئات الجديدة التي تم نشرها في مشاريع وحدة حفظ المخزون بالتجزئة (SKU) التي تحتوي على بيانات تجريبية من الإصدار 10.0.6.
-
-**ما هي التكاليف التي ينطوي عليها نشر بيئة المعاينة التجارية على Microsoft Azure عبر خدمات Microsoft Dynamics Lifecycle Services (LCS)؟**
-
-البيع بالتجزئة هو المكون الوحيد الذي يتم استضافته في اشتراكك. سيتم استضافة مكونات أخرى مثل Retail Cloud Scale Unit (RCSU) والتجارة الإلكترونية في اشتراكات Microsoft. يمكنك استخدام [حاسبة تسعير Azure](https://azure.microsoft.com/pricing/calculator/) لتقدير هذه التكلفة.
-
-**ما هي مناطق Azure الجغرافية المدعومة حاليًا لبيئة المعاينة التجارية؟**
-
-لا يمكن نشر بيئة معاينة التجارة إلا في جغرافيا أمريكا الشمالية.
+لا يمكن نشر بيئة تقييم Commerce إلا في جغرافيا أمريكا الشمالية.
 
 **هل يوجد قرص ثابت ظاهري قابل للتنزيل (VHD) به خيار جهاز ظاهري (جهاز ظاهري) OneBox كامل؟**
 
-تعتبر Dynamics 365 Retail Cloud Scale Unit (RCSU) والتجارة الإلكترونية بمثابة خدمة تأجير البرامج‬ (SaaS) ويجب أن تكون مستضافة على السحابة.
+تعتبر Dynamics 365 Commerce وCommerce Scale Unit بمثابة خدمة تأجير البرامج‬ (SaaS) ويجب استضافتها على السحابة.
 
-**إلى متى يمكن استخدام بيئة معاينة التجارة؟**
+**ما طول مدة استخدام بيئة تقييم Commerce؟**
 
-تحتوي بيئة معاينة التجارة على مهلة 30 يومًا من تاريخ توفير التجارة الإلكترونية.
+تنطوي بيئة تقييم Commerce على حد زمني لمدة 30 يومًا من تاريخ توفير مكونات خدمة تأجير البرامج مثل Commerce Scale Unit ومنشئ مواقع Commerce وموقع التجارة الإلكترونية.
 
-**هل يمكنني تمديد الحد الزمني لبيئة معاينة التجارة الخاصة بي؟**
+**هل يمكنني تمديد الحد الزمني لبيئة تقييم Commerce لدي؟**
 
-نعم. يمكنك الاتصال بفريق الدعم باستخدام [نموذج تمديد معاينة التجارة](https://aka.ms/Dynamics365CommercePreviewExtensionForm)
-
-**هل يمكننا تقديم طلبات متعددة لبيئة معاينة التجارة؟**
-
-نحن نمنح حصة من بيئة معاينة التجارة الواحدة لكل طلب يتم قبوله. إذا كنت بحاجة إلى أكثر من بيئة معاينة، اتصل بشركة Microsoft. للحصول على معلومات الاتصال ، طالع القسم التالي.
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>معلومات جهة اتصال بيئة معاينةDynamics 365 Commerce .
-
-للاتصال بـ Microsoft إذا كان لديك اسئلة أو طلبات تتعلق ببيئة معاينة التجارة، تفضل بزيارة [مجموعة Microsoft Dynamics 365 Commerce Preview Yammer](https://aka.ms/Dynamics365CommercePreviewYammer) 
+يعد تمديد الحد الزمني استثناءًا للقاعدة ويتم اعتباره لكل حالة على حدة. ينبغي الاتصال بجهة اتصال شريك Microsoft للمساعدة.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على بيئة معاينة Dynamics 365 Commerce](cpe-overview.md)
+[نظرة عامة على بيئة تقييم Dynamics 365 Commerce](cpe-overview.md)
 
-[تشغيل بيئة معاينة Dynamics 365 Commerce](provisioning-guide.md)
+[توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md)
 
-[تكوين بيئة معاينة Dynamics 365 Commerce](cpe-post-provisioning.md)
+[تكوين بيئة تقييم Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[تكوين ميزات اختيارية لبيئة معاينة Dynamics 365 Commerce](cpe-optional-features.md)
+[تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce](cpe-bopis.md)
+
+[تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce](cpe-optional-features.md)

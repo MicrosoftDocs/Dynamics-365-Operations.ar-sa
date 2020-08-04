@@ -3,7 +3,7 @@ title: محتوى "إدارة التحصيلات والائتمان" في Power 
 description: يصف هذا الموضوع العناصر المضمنة في محتوى "إدارة التحصيلات والائتمان" في Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278864"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598048"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>محتوى "إدارة التحصيلات والائتمان" في Power BI
 
@@ -47,9 +47,10 @@ ms.locfileid: "3278864"
 يجب إكمال الإعداد التالي ليتم عرض البيانات مرئيات **‏‫تحصيلات وائتمان العميل‬** في Power BI.
 
 1. انتقل إلى **إدارة النظام > الإعداد > معلمات النظام** لتعيين **عملة النظام** و**سعر صرف النظام**.
-2. انتقل إلى **دفتر الأستاذ العام> لإعداد > دفتر الأستاذ** لتعيين **عملة المحاسبة** و**نوع سعر الصرف**.
-3. حدد أسعار الصرف بين العملات الخاصة بالحركة وعملة المحاسبة، وبين عملة المحاسبة وعملة النظام. للقيام بذلك، اذهب إلى **دفتر الأستاذ العام > العملات > أسعار صرف العملات**.
-4. انتقل إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **CustCollectionsBIMeasurementsV2**.
+2. انتقل إلى **دفتر الأستاذ العام > التقويمات > التقويمات المالية** للتحقق من صحة تواريخ التقويم المالي المعينة إلى الفترة الزمنية النشطة.
+3. انتقل إلى **دفتر الأستاذ العام> لإعداد > دفتر الأستاذ** لتعيين **عملة المحاسبة** و**نوع سعر الصرف**.
+4. حدد أسعار الصرف بين العملات الخاصة بالحركة وعملة المحاسبة، وبين عملة المحاسبة وعملة النظام. للقيام بذلك، اذهب إلى **دفتر الأستاذ العام > العملات > أسعار صرف العملات**.
+5. انتقل إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **CustCollectionsBIMeasurementsV2**.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 

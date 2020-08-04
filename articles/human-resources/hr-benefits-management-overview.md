@@ -3,7 +3,7 @@ title: نظرة عامة على إدارة المزايا
 description: نظرة عامة على ميزة إدارة المزايا في Dynamics 365 Human Resources. يمكنك تزويد موظفيك بخيارات المزايا الممتدة مع تجربة سهلة الاستخدام عبر الإنترنت.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429235"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599370"
 ---
 # <a name="benefits-management-overview"></a>نظرة عامة على إدارة المزايا
 
@@ -59,6 +59,8 @@ ms.locfileid: "3429235"
 ## <a name="configure-employee-information"></a>تكوين معلومات الموظفين
 
 قبل تسجيل الموظفين في المزايا، يجب تقديم المعلومات المطلوبة. يجب أن تسجل موظفًا في **خطة تعويض ثابت** في تاريخ بدئها، ويجب أن تحدد **تكرار دفع المزايا** في **تفاصيل التوظيف** على نموذج **العامل**.
+
+إذا كان لديك موظف يتلقى تعويضات تكميلية كالعمولات، يمكنك إضافة مبلغ **الراتب السنوي للميزات** من سجل الموظف. تستخدم الموارد البشرية مبلغ **الراتب السنوي للميزات** عند تحديد مبالغ التغطية، بدلاً من المبلغ السنوي للتعويض الثابت. يجب أن يكون **الراتب السنوي للميزات** صالحًا اعتبارًا من تاريخ بدء الموظف أو بداية فترة الميزة، أو أحدثهما. في حالة تسجيل كل من التعويض الثابت ومبلغ الراتب السنوي للميزات لأحد الموظفين، يتم استخدام الراتب السنوي للميزات لتحديد مبالغ التغطية.
 
 عند إنشاء خطة مزايا تستخدم الأسعار التي تعتمد على الجنس أو العمر، يجب إدخال تاريخ ميلاد الموظف وجنسه لحساب تكلفة المزايا.
 

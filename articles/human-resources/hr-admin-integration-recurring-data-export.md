@@ -41,7 +41,7 @@ ms.locfileid: "3007916"
 يستخدم هذا البرنامج التعليمي التقنيات التالية:
 
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)** – مصدر البيانات الرئيسية للعمال الذين سوف يتم تصديرهم.
-- **[تطبيقات Azure Logic](https://azure.microsoft.com/services/logic-apps/)** - التقنية التي توفر خدمات التنسيق والجدولة للتصدير المتكرر.
+- **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** - التقنية التي توفر خدمات التنسيق والجدولة للتصدير المتكرر.
 
     - **[الموصلات](https://docs.microsoft.com/azure/connectors/apis-list)** – التقنية المستخدمة لربط تطبيق logic بنقاط النهاية المطلوبة.
 
@@ -83,7 +83,7 @@ ms.locfileid: "3007916"
 
     ![صفحة إنشاء تطبيق logic.](media/integration-logic-app-creation-1.png)
 
-2. في Logic Apps Designer، ابدأ بتطبيق logic فارغ.
+2. في Logic Apps Designer ابدأ بتطبيق logic فارغ.
 3. أضف [مشغل جدول متكرر](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) لتشغيل تطبيق logic كل 24 ساعة (أو وفقًا لجدول من اختيارك).
 
     ![مربع حوار التكرار](media/integration-logic-app-recurrence-step.png)

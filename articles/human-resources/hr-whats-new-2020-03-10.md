@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124006"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555233"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (10 مارس 2020)
 
@@ -97,3 +97,10 @@ ms.locfileid: "3124006"
 - الحقول المخصصة - يحتاج المستخدمون في أغلب الأحيان إلى إضافة حقول إلى شبكة أو صفحة. قد يكون هذا الأمر صعبًا مع وجود عدد كبير من الحقول المتوفرة. بدلاً من البحث عبر قائمة كبيرة، تسمح هذه الميزة للنظام بإظهار مجموعة من الحقول الموصى بها استنادًا إلى ما يضيفه المستخدمون الآخرون في أغلب الأحيان في سيناريوهات مماثلة.‬
 
 - الإجراءات الافتراضية الثابتة في الشبكات‬ - تضمن هذه الميزة أن الإجراء الافتراضي في إحدى الشبكات مرتبط بعمود معين في شبكة، بغض النظر عما إذا كان قد تم نقل هذا العمود أو إخفاؤه.
+
+## <a name="see-also"></a>راجع أيضًا
+
+[المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[تحديث العملية](hr-admin-setup-update-process.md)</br>
+[إدارة الميزات](hr-admin-manage-features.md)

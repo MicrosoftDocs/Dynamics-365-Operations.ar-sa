@@ -8,11 +8,11 @@
           items:
             - name: قبل الشراء
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
-            - name: تحديثات خدمة إصدار واحد
+            - name: تحديثات خدمة One Version
               items:
-                - name: نظرة عامة حول تحديثات خدمة إصدار واحد
+                - name: نظرة عامة حول تحديثات خدمة One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: الأسئلة المتداولة حول تحديثات خدمة إصدار واحد
+                - name: الأسئلة المتداولة حول تحديثات خدمة One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
                 - name: سياسة دورة حياة البرامج - إصدارات على السحابة
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
@@ -32,23 +32,23 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: أتمتة مهمة البيانات
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة إصدار واحد
+                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: إعداد بيئة معاينة Dynamics 365 Commerce
+            - name: إعداد بيئة تقييم Dynamics 365 Commerce
               items:
-                - name: نظرة عامة على بيئة معاينة Dynamics 365 Commerce
+                - name: نظرة عامة على بيئة تقييم Dynamics 365 Commerce
                   href: cpe-overview.md
-                - name: تزويد بيئة معاينة Dynamics 365 Commerce
+                - name: تزويد بيئة تقييم Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: تكوين بيئة معاينة Dynamics 365 Commerce
+                - name: تكوين بيئة تقييم Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: تكوين BOPIS في بيئة Dynamics 365 Commerce
+                - name: تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة تقييم Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: تكوين الميزات الاختيارية لبيئة معاينه Dynamics 365 Commerce
+                - name: تكوين ميزات اختيارية في بيئة تقييم Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: الأسئلة المتداولة لبيئة معاينة Dynamics 365 Commerce
+                - name: الأسئلة المتداولة حول بيئة تقييم Dynamics 365 Commerce
                   href: cpe-faq.md
             - name: اعتبارات النشر
               items:
@@ -66,13 +66,15 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: شراء Finance and Operations (المحلي)
+                - name: شراء Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: تطبيق Finance and Operations الذي تديره 21Vianet في الصين
+                - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: تطبيقات Finance and Operations في فرنسا
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: الترقية والدعم N-1
+            - name: الحصول على الدعم لتطبيق Dynamics 365 Commerce
+              href: retail-support.md
+            - name: الترقية ودعم N-1
               items:
                 - name: الترقية ودعم N-1 لـ Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
@@ -80,9 +82,9 @@
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: ترقية ملحق قناة البيع بالتجزئة إلى أحدث Retail SDK
                   href: dev-itpro/RetailSDK-update.md
-            - name: ما الجديد أو المتغير
+            - name: الجديد أو المتغير
               items:
-                - name: ما الجديد أو المتغير‬ في تطبيقات Finance and Operations
+                - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: المزايا الجديدة أو المتغيرة في Commerce
                   items:
@@ -188,10 +190,12 @@
           items:
             - name: الهندسة
               items:
-                - name: نظرة عامة على البنية الهندسية لـ Dynamics 365 Commerce
+                - name: نظرة عامة على هندسة Dynamics 365 Commerce
                   href: commerce-architecture.md
-                - name: تدفقات مصادقة Dynamics 365 Commerce
+                - name: سير مهام مصادقة Dynamics 365 Commerce
                   href: arch-auth-flow.md
+                - name: متطلبات تعيين إصدار مكونات Dynamics 365 Commerce
+                  href: arch-component-versioning.md
                 - name: هندسة Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: تحديد مخطط‬ في المتجر
@@ -282,7 +286,7 @@
                   items:
                     - name: المؤسسات والتدرجات الهرمية للمؤسسات
                       items:
-                        - name: نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات
+                        - name: نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات
                           href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
                         - name: تخطيط التدرج الهرمي للمؤسسات
                           href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
@@ -1758,7 +1762,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/commerce/toc.json
             - name: المؤسسات والتدرجات الهرمية للمؤسسات
               items:
-                - name: نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات
+                - name: نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
                 - name: تخطيط التدرج الهرمي للمؤسسات
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
@@ -1984,6 +1988,8 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: مشاركة الحالة عبر الوحدات النمطية
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: إعدادات ذاكرة التخزين المؤقت لإجراءات البيانات
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: عمليات تجاوز إجراءات البيانات
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: ربط إجراءات البيانات

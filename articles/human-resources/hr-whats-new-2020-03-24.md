@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83f24dd6f094715f96666c3ae94faa4bdb97a652
-ms.sourcegitcommit: fac1d519a85eab0c936b54e0a9247f6a11842871
+ms.openlocfilehash: 4f46d631379711dd2002a95dfa6001a362727f4f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "3177927"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555089"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (24 مارس 2020)
 
@@ -113,3 +113,10 @@ ms.locfileid: "3177927"
 ## <a name="employment-detail-entity"></a>كيان تفاصيل التوظيف
 
 تم تحديث كيان **تفاصيل التوظيف** بواسطة الحقول التالية: **تكرار الدفع** و**معرف فئة التوظيف** و**نوع التوظيف** و**معرف نوع التوظيف** و**حالة ميزة التوظيف**. يعتمد إعداد بيانات لهذه الحقول على إدارة المزايا التي يتم تمكينها في إدارة المزايا. يجب عدم ملء هذه الحقول أو تحديثها في كيان **تفاصيل التوظيف**، لأن ذلك سيؤدي إلى حدوث أخطاء أثناء الاستيراد.
+
+## <a name="see-also"></a>راجع أيضًا
+
+[المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[تحديث العملية](hr-admin-setup-update-process.md)</br>
+[إدارة الميزات](hr-admin-manage-features.md)
