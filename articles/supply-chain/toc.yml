@@ -70,12 +70,12 @@
                   items:
                     - name: الجديد أو المتغير في الصفحة الرئيسية لـ Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.13 (أكتوبر 2020)
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (أغسطس 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (يوليو 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (مايو 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
@@ -109,23 +109,23 @@
             - name: كتالوج التعليم
               items:
                 - name: الصفحة الرئيسية لكتالوج التعليم
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: صناع قرار الأعمال
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: المستخدمون المهنيون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: مدراء مشاريع التنفيذ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: المسؤولون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: المطورون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: التسويق ومبيعات الشريك
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: مستشارون وظيفيون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: مهندسون معماريون للحلول
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: استكشاف واجهة المستخدم
               items:
                 - name: عناصر واجهة المستخدم
@@ -1257,6 +1257,8 @@
               items:
                 - name: دفاتر يومية المخزون
                   href: inventory/inventory-journals.md
+                - name: عمليات سير عمل اعتماد دفتر يومية المخزون
+                  href: inventory/inventory-journal-workflow.md
                 - name: مواقع المخزون
                   href: inventory/inventory-locations.md
                 - name: حالات المخزون
@@ -1267,6 +1269,8 @@
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: التحقق من توفر المخزون
                   href: inventory/tasks/check-availability-stock.md
+                - name: قائمة المخزون المتاح
+                  href: inventory/inventory-on-hand-list.md
                 - name: تهيئة مستويات المخزون في المستودع
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: نقل المخزون الفعلي داخل المستودع
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: المسارات والعمليات
                       href: production-control/routes-operations.md
-                    - name: سياسات عمل المستودع
+                    - name: سياسات العمل
                       href: warehousing/warehouse-work-policies.md
                     - name: إنشاء خصائص جدولة أوقات العمل
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2589,6 +2593,8 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: خلط أبعاد المنتج في الموقع
                   href: warehousing/location-product-dimension-mixing.md
+                - name: فحص الجودة
+                  href: warehousing/quality-check.md
             - name: عمليات المستودعات الصادرة
               items:
                 - name: عمليات الحجز في إدارة المستودعات
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: تزويد حد المنطقة
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: تزويد أعلى من قدرة الموقع
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: تحميل الإنشاء والشحنات
                   items:
                     - name: التأكيد والتحويل
                       href: warehousing/confirm-and-transfer.md
+                    - name: تأكيد الشحنات الخارجية من الوظائف الدفعية
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: إنشاء حمل العمل المتقدم أثناء الموجة
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: إصدار إلى قاعدة المستودع
@@ -2679,10 +2689,8 @@
               items:
                 - name: سياسات عمل المستودع
                   items:
-                    - name: نظرة عامة على سياسات عمل المستودع
+                    - name: سياسات العمل
                       href: warehousing/warehouse-work-policies.md
-                    - name: إعداد سياسات عمل المستودع
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: حركة المخزون مع العمل المقترن في إدارة المستودعات
                       href: warehousing/move-inventory-associated-work.md
                     - name: إنشاء درجة عمل
@@ -2715,7 +2723,7 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات
                       href: warehousing/onhand-cleanup.md
-                    - name: دفتر يومية المخزون
+                    - name: دفاتر يومية المخزون
                       href: inventory/inventory-journals.md
                     - name: موقع المخزون
                       href: inventory/inventory-locations.md
