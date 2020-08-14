@@ -90,6 +90,8 @@
                   items:
                     - name: الجديد أو المتغير‬ في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13 (أكتوبر 2020)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (أغسطس 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (يوليو 2020)
@@ -127,23 +129,23 @@
             - name: كتالوج التعليم
               items:
                 - name: الصفحة الرئيسية لكتالوج التعليم
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: صناع قرار الأعمال
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: المستخدمون المهنيون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: مدراء مشاريع التنفيذ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: المسؤولون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: المطورون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: التسويق ومبيعات الشريك
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: مستشارون وظيفيون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: مهندسون معماريون للحلول
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: استكشاف واجهة المستخدم
               items:
                 - name: عناصر واجهة المستخدم
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: حساب الإعفاء الضريبي
+                          href: tax-exempt-price-inclusive.md
                     - name: إنشاء ملف تعريف الإخطار بالبريد الإلكتروني
                       href: email-notification-profiles.md
                     - name: التسلسلات الرقمية
@@ -386,6 +390,8 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: التحقق من سلامة الأجهزة الطرفية وخدمات نقطة البيع
                           href: pos-healthcheck.md
+                        - name: دعم الأجهزه الطرفية الخاصة بالشبكة
+                          href: dev-itpro/network-peripherals.md
                     - name: تخطيطات الشاشة
                       items:
                         - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة/نقطة البيع السحابية
@@ -946,6 +952,8 @@
                       href: add-accordion.md
                     - name: وحدة علامة تبويب
                       href: add-tab.md
+                    - name: وحدة Iframe
+                      href: iframe-module.md
                 - name: وحدات التسويق
                   items:
                     - name: وحدة الشعار الترويجي
@@ -960,14 +968,16 @@
                       href: add-video-player.md
                 - name: وحدات الرؤوس والتذييلات
                   items:
-                    - name: الوحدة النمطية للرؤوس
+                    - name: وحدة الرؤوس
                       href: author-header-module.md
-                    - name: الوحدة النمطية للتذييلات‬
+                    - name: وحدة التذييلات‬
                       href: author-footer-module.md
                 - name: الوحدات النمطية لصفحة تفاصيل المنتج
                   items:
                     - name: الوحدة النمطية لصندوق الشراء
                       href: add-buy-box.md
+                    - name: وحدة معرض الوسائط
+                      href: media-gallery-module.md
                     - name: الوحدات النمطية للتقييمات والمراجعات
                       href: ratings-reviews-modules.md
                 - name: الوحدات النمطية للشراء
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: وحدة تفاصيل الأوامر
                       href: order-confirmation-module.md
-                    - name: الوحدة النمطية لمحدد المتجر
-                      href: store-selector.md
                     - name: وحدة بطاقة الهدايا
                       href: add-giftcard.md
+                - name: تخزين وحدات الباحث
+                  items:
+                    - name: وحدة الخريطة
+                      href: map-module.md
+                    - name: الوحدة النمطية لمحدد المتجر
+                      href: store-selector.md
                 - name: الوحدات النمطية لإدارة الحسابات
                   items:
                     - name: صفحات ووحدات إدارة الحسابات
@@ -1938,7 +1952,7 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: معاينة الوحدات النمطية وتصحيحها
                       href: e-commerce-extensibility/test-module.md
-                    - name: اختبار الوحدات النمطية باستخدام عناصر وهمية
+                    - name: وحدات الاختبار مع عناصر وهمية للوحدات
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: اختبار الوحدات النمطية باستخدام عناصر صفحة وهمية
                       href: e-commerce-extensibility/test-page-mock.md
