@@ -3,7 +3,7 @@ title: اقتراح عمليات الاستحواذ على الأصول الثا
 description: يوضح هذا الموضوع كيفية الاستحواذ على أصل ثابت باستخدام مقترح الاستحواذ في دفتر يومية الأصول الثابتة.
 author: saraschi2
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 07/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e08177aad2db2438c2d5d4ddd294c1056b88167c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 0997af638c141661afb677e2407a90a883168aed
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142721"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628875"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>اقتراح عمليات الاستحواذ على الأصول الثابتة‬
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية الاستحواذ على أصل ثابت باستخدام مقترح الاستحواذ في دفتر يومية الأصول الثابتة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
+يوضح هذا الموضوع كيفية الاستحواذ على أصل ثابت باستخدام مقترح الاستحواذ في دفتر يومية الأصول الثابتة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF. للاستحواذ على أصل ثابت من خلال دفتر يومية مقترح الأصل الثابت، يجب أولاً إنشاء سجل الأصل الثابت، ثم تحديد سعر الاستحواذ في دفتر الأصول.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الأصول الثابتة > إدخالات دفتر اليومية‬ > دفتر يومية الأصول الثابتة‬**.
 2. حدد **جديد**.
@@ -43,4 +43,3 @@ ms.locfileid: "3142721"
 - سيتضمن مقترح الاستحواذ فقط الأصول الثابتة ذات تاريخ استحواذ وسعر استحواذ تم تعيينهما على الدفتر.  
 11. على الصفحة، حدد **الدفاتر**.
 12. حدد **ترحيل**.
-

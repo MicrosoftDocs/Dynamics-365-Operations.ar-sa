@@ -3,7 +3,7 @@ title: إنشاء مستخدمي مدخل العميل وإدارتهم
 description: يشرح هذا الموضوع كيفية إنشاء حسابات مستخدمي مدخل العميل وتعيين الأذونات لهم.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413931"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645303"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>إنشاء مستخدمي مدخل العميل وإدارتهم
 
@@ -30,11 +30,16 @@ ms.locfileid: "3413931"
 
 عندما يقوم المستخدم بالتسجيل الذاتي، يتم إنشاء سجلات جهات الاتصال لهم بشكل تلقائي. وبالتالي، لا يمكنك أن تتأكد من أن المستخدم يحدد مستخدم حساب العميل والكيان القانوني الصحيحين. من ناحية أخرى، تتيح عملية الدعوة للمسؤول إمكانية تعيين حساب العميل والكيان القانوني الصحيحين إلى سجل جهة الاتصال قبل إرسال الدعوة. إذا كنت تفكر في تخصيص الحل لتمكين المستخدمين من التسجيل ذاتيًا، احرص على مراعاة العواقب المحتملة.
 
+## <a name="video"></a>الفيديو
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+تم تضمين الفيديو [دعوة العملاء للتسجيل في مدخل العميل واستخدامه](https://youtu.be/drGUYHX9QIQ) (المبين أعلاه) في [قائمة التشغيل في Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة على YouTube.
+
 ## <a name="prerequisite-setup"></a>إعداد المتطلبات الأساسية
 
 يتم تخزين جهات الاتصال في مداخل Power Apps كسجلات في كيان **جهات الاتصال** في Common Data Service ثم تقوم الكتابة المزدوجة بمزامنة هذه السجلات مع Microsoft Dynamics 365 Supply Chain Management كما هو مطلوب.
 
-![![الرسم التخطيطي للنظام لجهات اتصال مدخل العميل](media/customer-portal-contacts.png "الرسم التخطيطي للنظام لجهات اتصال مدخل العميل")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![الرسم التخطيطي للنظام لجهات اتصال مدخل العميل](media/customer-portal-contacts.png "الرسم التخطيطي للنظام لجهات اتصال مدخل العميل")
 
 قبل أن تبدأ دعوة عملاء جدد، تأكد من تمكين تعيين كيان **جهة الاتصال** في الكتابة المزدوجة.
 
