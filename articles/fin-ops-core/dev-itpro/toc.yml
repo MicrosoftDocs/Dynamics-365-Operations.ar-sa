@@ -14,6 +14,8 @@
               items:
                 - name: الجديد أو المتغير‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.13 (أكتوبر 2020)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: تحديثات النظام الأساسي لـ 10.0.12 (أغسطس 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: تحديثات النظام الأساسي لـ 10.0.11 (يوليو 2020)
@@ -82,7 +84,9 @@
           items:
             - name: "اختيار استراتيجية تكامل البيانات\_(استيراد/تصدير)"
               href: data-entities/integration-overview.md
-            - name: واجهات API لتكامل البيانات
+            - name: التحكم المستند إلى الأولوية
+              hreF: data-entities/priority-based-throttling.md
+            - name: واجهات برمجة تطبيقات تكامل البيانات
               items:
                 - name: واجهة برمجة تطبيقات REST لحزمة إدارة البيانات
                   href: data-entities/data-management-api.md
@@ -152,6 +156,8 @@
                           items:
                             - name: تخصيص تعيينات الكيانات والحقول
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: تحرير كيان قانوني بعد إعداد الكتابة المزدوجة
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: إدارة الأخطاء وإخطارات التنبيه
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: إدارة دورة حياة التطبيق

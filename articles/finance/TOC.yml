@@ -70,6 +70,8 @@
                   items:
                     - name: الجديد أو المتغير‬ في صفحة Finance الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (أكتوبر 2020)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (أغسطس 2020)
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (يوليو 2020)
@@ -107,23 +109,23 @@
             - name: كتالوج التعليم
               items:
                 - name: الصفحة الرئيسية لكتالوج التعليم
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: صناع قرار الأعمال
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: المستخدمون المهنيون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: مدراء مشاريع التنفيذ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: المسؤولون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: المطورون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: التسويق ومبيعات الشريك
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: مستشارون وظيفيون
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: مهندسون معماريون للحلول
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: استكشاف واجهة المستخدم
               items:
                 - name: عناصر واجهة المستخدم
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: توزيعات العمليات
                   href: general-ledger/process-allocations.md
+                - name: شروط التوزيع
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: الأبعاد المالية
                   href: general-ledger/financial-dimensions.md
                 - name: مجموعات حساب التوحيد وحساب التوحيد الإضافية
@@ -1122,6 +1126,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: إنشاء إدخال دفتر أستاذ متقدم في القطاع العام
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: ميزان المراجعة مع تقرير تفاصيل الحركات
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: استخدام حدود التحكم النقدي
                   href: public-sector/cash-control.md
                 - name: معالجة نهاية السنة في القطاع العام
@@ -1146,15 +1152,17 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: إضافة نوع شهادة إلى مورد في القطاع العام
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
-        - name: Financial Reporting
+            - name: حساب ضريبة المبيعات المنسقة الكندية
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
+        - name: إعداد التقارير المالية
           items:
-            - name: نظرة عامة على Financial reporting
+            - name: نظرة عامة على إعداد التقارير المالية
               href: general-ledger/financial-reporting-getting-started.md
-            - name: نظرة عامة على Financial reporting
+            - name: نظرة عامة على إعداد التقارير المالية
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: مكونات التقرير المالي
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
-            - name: قدرات العملات في Financial reporting
+            - name: قدرات العملات في إعداد التقارير المالية
               href: general-ledger/financial-reporting-currency-capability.md
             - name: التقارير المالية للميزانية العمومية
               href: general-ledger/balance-sheet-financial-reports.md
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: الجديد أو المتغير‬ في 10.0.11
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: الجديد أو المتغير‬ في 10.0.12
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: المجموعات المرجعية لضريبة السلع والخدمات (GST) في الهند
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: تكامل ضريبة السلع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
@@ -2550,7 +2560,7 @@
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: التقارير
                   items:
-                    - name: Financial Reporting
+                    - name: إعداد التقارير المالية
                       href: localizations/rus-financial-reports.md
                     - name: تكوين التقارير المالية في Excel
                       href: localizations/rus-excel-financial-report.md
@@ -2632,10 +2642,14 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: تقرير 340
                   href: localizations/emea-esp-report-340.md
+                - name: تقرير إعلان 347
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: دورات المبيعات والشراء
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: الإدخالات الخاصة و‏‫الكشوف الافتتاحية‬
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: التوفير الفوري للمعلومات على ضريبة القيمة المضافة
+                  href: localizations/emea-esp-sii.md
             - name: السويد
               items:
                 - name: نظرة عامة على السويد

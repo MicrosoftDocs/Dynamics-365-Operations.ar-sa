@@ -3,7 +3,7 @@ title: تمكين مصادقة Azure Active Directory لتسجيل الدخول 
 description: يشرح هذا الموضوع كيفية تكوين تجربة تسجيل الدخول إلى نقطة البيع (POS) في Microsoft Dynamics 365 Commerce بحيث تستخدم مصادقة Azure Active Directory.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410025"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641023"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>تمكين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
 [!include [banner](includes/banner.md)]
@@ -64,9 +64,12 @@ ms.locfileid: "3410025"
 
 ستتم تعبئة حقول **الاسم المستعار** و**UPN** و**المعرف الفرعي الخارجي** على علامة تبويب **Commerce** في صفحة تفاصيل العامل.
 
+> [!NOTE]
+> بعد تحديث سجل العامل، علي سبيل المثال إذا تم إقران حساب Azure AD جديد أو تغيير كلمة مرور أو تحديث دفتر عناوين الموظفين، من المستحسن أن تقوم بتشغيل جدول التوزيع **1060** (**الموظفون**) لمزامنة معلومات الموظفين الأخيرة مع القناة. وبهذه الطريقة، يمكن لتطبيق نقطة البيع إحضار البيانات الصحيحة لمصادقة المستخدم والتحقق من التخويل.
+
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[إعداد وظيفة تسجيل الدخول الموسع لـ MPOS وCloud POS](extended-logon.md)
+[إعداد وظيفة تسجيل الدخول الموسع لنقطة البيع الحديثة ونقطة البيع السحابية](extended-logon.md)
 
 [إنشاء ملف تعريف وظائف البيع بالتجزئة](retail-functionality-profile.md)
 

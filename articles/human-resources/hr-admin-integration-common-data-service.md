@@ -3,7 +3,7 @@ title: تكوين تكامل Common Data Service
 description: يُمكنك تشغيل التكامل بين Common Data Service وDynamics 365 Human Resources أو إيقاف تشغيله. يُمكنك أيضًا عرض تفاصيل المزامنة، ومسح بيانات التعقب، وإعادة مزامنة كيان للمساعدة في استكشاف الأخطاء في مشاكل البيانات وإصلاحها بين البيئتين.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431304"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621294"
 ---
 # <a name="configure-common-data-service-integration"></a>تكوين تكامل Common Data Service
 
@@ -66,6 +66,9 @@ ms.locfileid: "3431304"
 - لإيقاف تشغيل التكامل، قم بتعيين الخيار إلى **لا**.
 
 [![تشغيل تكامل Common Data Service أو إيقاف تشغيله](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> نوصي بضرورة إيقاف تشغيل تكامل Common Data Service أثناء تنفيذ مهام ترحيل البيانات. بإمكان تحميلات البيانات الكبيرة أن تؤثر على الأداء بشكل ملحوظ. على سبيل المثال، قد يستغرق تحميل 2000 عامل ساعات متعددة عند تمكين التكامل، وأقل من ساعة عند تعطيله. الأرقام المتوفرة في هذا المثال هي لأغراء العرض التوضيحي فقط. يمكن أن يختلف مقدار الوقت الدقيق الذي تستغرقه عملية استيراد السجلات بشكل كبير استنادًا إلى العديد من العوامل.
 
 ## <a name="view-data-integration-details"></a>عرض تفاصيل تكامل البيانات
 

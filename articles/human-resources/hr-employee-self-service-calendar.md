@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429638"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628419"
 ---
 # <a name="view-team-and-company-calendars"></a>عرض تقويمات الفريق والشركة
 
@@ -33,15 +33,13 @@ ms.locfileid: "3429638"
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>عرض تقويم الفريق كموظف
 
-1. في مساحة العمل **‏‫خدمة الموظف الذاتية‬**، حدد **‏‫فريقي‬**.
-
-2. حدد **الإجازة والغياب‬**، ثم حدد **عرض تقويم الفريق**.
+1. في مساحة العمل **خدمة الموظف الذاتية‬**، حدد **تقويم غياب الفريق** ضمن **الملخص**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>عرض تقويم الفريق كمدير
 
 1. في مساحة العمل **‏‫خدمة الموظف الذاتية‬**، حدد **‏‫فريقي‬**.
 
-2. حدد **الإجازة والغياب‬**، ثم حدد **عرض تقويم الفريق**.
+2. حدد **الإجازة والغياب‬**، ثم حدد **عرض تقويم غياب المدير**.
 
 بإمكان المدراء أيضًا الوصول إلى تقويم الفريق من **طلبات الإجازات‏‎المعلقة لفريقي** و**الإجازات الموافق عليها** و**طلبات الإجازات**. 
 

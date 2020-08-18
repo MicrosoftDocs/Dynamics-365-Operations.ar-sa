@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268760"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652097"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management‏ 10.0.10‏ (مايو 2020)
 
@@ -39,11 +39,11 @@ ms.locfileid: "3268760"
 يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
 - [تحسين لاستخدام علامات وزن التعبئة الموجودة مع إدارة المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [تحسينات إدارة الأحمال الواردة لإدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - لمزيد من المعلومات، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](../warehousing/inbound-load-handling.md).
-- [تحسينات في طباعة التسميات لإدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) - لمزيد من المعلومات، راجع [تخطيط توجيه المستند لتسميات لوحات الترخيص‬](../warehousing/document-routing-layout-for-license-plates.md).
+- [تحسينات إدارة التحميل الواردة لإدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - لمزيد من المعلومات، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](../warehousing/inbound-load-handling.md).
+- [تحسينات في طباعة التسميات لإدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - لمزيد من المعلومات، راجع [تخطيط توجيه المستند لبطاقات لوحات الترخيص‬](../warehousing/document-routing-layout-for-license-plates.md).
 - [يتضمن التخطيط الرئيسي الأصناف ذات المخزون الفعلي عند تمكين عوامل تصفية المعالجة المسبقة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [كيانات البيانات الجديدة لمنطقة التصنيع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [إدارة الجودة لعمليات المستودع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) - لمزيد من المعلومات، راجع [إدارة الجودة لعمليات المستودع](../inventory/quality-management-for-warehouses-processes.md).
+- [إدارة الجودة لعمليات المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - لمزيد من المعلومات، راجع [إدارة الجودة لعمليات المستودعات](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

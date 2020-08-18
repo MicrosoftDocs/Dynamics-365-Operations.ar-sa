@@ -3,7 +3,7 @@ title: الوحدة النمطية لمربع شراء
 description: يتناول هذا الموضوع وحدات مربع الشراء ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411332"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645329"
 ---
 # <a name="buy-box-module"></a>الوحدة النمطية لمربع شراء
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 يتناول هذا الموضوع وحدات مربع الشراء ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
@@ -61,7 +61,7 @@ ms.locfileid: "3411332"
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>الوحدات التي يُمكن استخدامها في وحدة مربع الشراء
 
-- **معرض الوسائط** - تستخدم هذه الوحدة النمطية لإظهار صور أحد المنتجات في صفحة تفاصيل المنتج. يُمكن أن يدعم صورة واحدة وحتى العديد من الصور. وهي تدعم أيضًا الصور المُصغرة. يُمكن ترتيب الصور المُصغرة إما أفقيًا (كصف أسفل الصورة) أو عموديًا (كعمود بجانب الصورة). يُمكن إضافة الوحدة النمطية لمعرض الوسائط إلى فتحة **الوسائط** في الوحدة النمطية لصندوق الشراء. وهي تدعم حاليًا الصور فقط. 
+- **معرض الوسائط** - تستخدم هذه الوحدة النمطية لإظهار صور أحد المنتجات في صفحة تفاصيل المنتج. لمزيد من المعلومات حول هذه الوحدة النمطية، راجع [الوحدة النمطية لمعرض الوسائط‬](mediagallery-module.md).
 - **محدد المتجر**- تعرض هذه الوحدة قائمة بالمتاجر القريبة المتاح فيها الصنف للانتقاء. وهو يتيح للمستخدمين إدخال موقع للعثور على المتاجر القريبة. لمزيد من المعلومات حول هذه الوحدة النمطية، راجع [الوحدة النمطية لمحدد المتجر‬](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>إعدادات الوحدة النمطية لمربع الشراء
@@ -112,11 +112,13 @@ ms.locfileid: "3411332"
 
 [الوحدة النمطية لمحدد المتجر](store-selector.md)
 
+[وحدة معرض الوسائط](media-gallery-module.md)
+
 [وحدة الحاوية](add-container-module.md)
 
 [الوحدة النمطية لعربة التسوق](add-cart-module.md)
 
-[الوحدة النمطية لأيقونة عربة التسوق](cart-icon-module.md)
+[وحدة أيقونة عربة التسوق](cart-icon-module.md)
 
 [الوحدة النمطية للسداد مع الخروج](add-checkout-module.md)
 

@@ -3,7 +3,7 @@ title: إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
 description: يوضح هذا الموضوع كيفية إضافة شبكة توصيل المحتوى (CDN) إلى بيئة Microsoft Dynamics 365 Commerce الخاصة بك.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533334"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646029"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
 
@@ -35,7 +35,7 @@ ms.locfileid: "3533334"
 
 عندما تقوم بإعادة بيئة تجارة إلكترونية في Dynamics 365 Commerce، يُمكنك تكوينه للعمل مع خدمة CDN الخاصة بك. 
 
-يُمكن تمكين مجالك المُخصص أثناء عملية التوفير لبيئة التجارة الإلكترونية الخاصة بك. وبدلًا من ذلك، يُمكن استخدام طلب خدمة لإعداده بعد اكتمال عملية التوفير. تقوم عملية توفير بيئة التجارة الإلكترونية بإنشاء اسم مضيف مرتبط بالبيئة. يكون لاسم هذا المضيف التنسيق التالي، حيث يكون *e-commerce-tenant-name* هو اسم البيئة الخاصة بك: 
+يُمكن تمكين مجالك المُخصص أثناء عملية التوفير لبيئة التجارة الإلكترونية الخاصة بك. وبدلًا من ذلك، يُمكن استخدام طلب خدمة لإعداده بعد اكتمال عملية التوفير. تقوم عملية توفير بيئة التجارة الإلكترونية بإنشاء اسم مضيف مرتبط بالبيئة. يكون لاسم هذا المضيف التنسيق التالي، حيث \<*e-commerce-tenant-name*\> هو اسم بيئتك:
 
 &lt;e-commerce-tenant-name&gt;.commerce.dynamics.com
 
@@ -65,7 +65,7 @@ ms.locfileid: "3533334"
 تتكون عملية إعداد CDN من الخطوات العامة التالية:
 
 1. إضافة مضيف واجهة أمامية.
-1. قم بتكوين مجموعة النهاية الخلفية.
+1. تكوين وعاء خلفي.
 1. إعداد القواعد للتوجيه والتخزين المؤقت.
 
 ### <a name="add-a-front-end-host"></a>إضافة مضيف واجهة أمامية
@@ -74,18 +74,20 @@ ms.locfileid: "3533334"
 
 للحصول على معلومات حول كيفية إعداد Azure Front Door Service، راجع [Quickstart: إنشاء Front Door لتطبيق الويب العمومي المتوفرة بشكل كبير](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
 
-### <a name="configure-a-back-end-pool-in-azure-front-door-service"></a>تكوين وعاء خلفي في Azure Front Door Service 
+### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>تكوين وعاء خلفي في Azure Front Door Service
 
-لتكوين وعاء خلفي في Azure Front Door Service، اتبع الخطوات التالية. 
+لتكوين وعاء خلفي في Azure Front Door Service، اتبع الخطوات التالية.
 
-1. إضافة **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** للوعاء الخلفي كمضيف مخصص له عنوان مضيف خلفي فارغ.
-1. ضمن **فحوصات الصحة**، في حقل **المسار** ، ادخل **/keepalive**. 
-1. في حقل **الفواصل الزمنية (ثوان)** ، ادخل **255**.
+1. أضف **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** إلى الوعاء الخلفي كمضيف مخصص له عنوان مضيف خلفي فارغ.
 1. تحت **موازنة التحميل**، اترك القيم الافتراضية.
 
-يُبين الرسم التوضيحي التالي مربع الحوار **إضافة وعاء خلفي** في Azure Front Door Service. 
+يُبين الرسم التوضيحي التالي مربع الحوار **إضافة وعاء خلفي** في Azure Front Door Service مع إدخال اسم مضيف وعاء خلفي.
 
 ![إضافة مربع حوار وعاء خلفي](./media/CDN_BackendPool.png)
+
+يُبين الرسم التوضيحي التالي مربع الحوار **إضافة وعاء خلفي** في Azure Front Door Service مع قيم موازنة الحمل الافتراضي.
+
+![إضافة مربع حوار وعاء خلفي يتبع](./media/CDN_BackendPool_2.png)
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>إعداد القواعد في Azure Front Door Service
 
@@ -121,20 +123,22 @@ ms.locfileid: "3533334"
 
 ![إضافة مربع حوار قاعدة](./media/CDN_CachingRule.png)
 
-بعد أن يتم نشر هذا التكوين الأولي، يجب عليك إضافة مجالك المخصص إلى التكوين الخاص بـ Azure Front Door Service. لإضافة مجال مخصص (على سبيل المثال، `www.fabrikam.com`)، يجب عليك تكوين اسم متعارف عليه (CNAME) للمجال.
+> [!WARNING]
+> إذا كان المجال الذي ستستخدمه نشطًا ومباشرًا، فأنشئ تذكرة دعم من الإطار المتجانب **الدعم** في [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) للحصول على المساعدة لخطواتك التالية. لمزيد من المعلومات، راجع [الحصول على الدعم لتطبيقات Finance and Operations أو Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+
+إذا كان مجالك جديدًا وليس مجالاً مباشرًا موجودًا بشكل مسبق، فيمكنك إضافة مجال مخصص إلى تكوين Azure Front Door Service. سيؤدي ذلك إلى تمكين حركة مرور الويب لتوجيه موقعك عبر مثيل Azure Front Door. لإضافة مجال مخصص (على سبيل المثال، `www.fabrikam.com`)، يجب عليك تكوين اسم متعارف عليه (CNAME) للمجال.
 
 يُبين الرسم التوضيحي التالي مربع الحوار **تكوين CNAME** في Azure Front Door Service.
 
 ![مربع حوار تكوين CNAME](./media/CNAME_Configuration.png)
-
-> [!NOTE]
-> إذا كان المجال الذي سوف تستخدمه نشطًا ومباشرًا بالفعل، اتصل بالدعم لتمكين هذا المجال مع Azure Front Door Service لإعداد اختبار.
 
 يُمكنك استخدام Azure Front Door Service لإدارة الشهادة، أو يُمكنك استخدام شهادتك الخاصة للمجال المخصص. 
 
 يُبين الرسم التوضيحي التالي مربع الحوار **HTTP للمجال المخصص** في Azure Front Door Service.
 
 ![مربع حوار HTTP للمجال المخصص](./media/Custom_Domain_HTTPS.png)
+
+للحصول على إرشادات مفصلة حول إضافة مجال مخصص إلى Azure Front Door، راجع [إضافة مجال مخصص إلى Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
 
 يجب الآن تكوين CDN بشكل صحيح بحيث يُمكن استخدامه مع موقع Commerce الخاص بك.
 
