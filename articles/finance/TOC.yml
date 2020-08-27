@@ -1156,7 +1156,7 @@
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: إعداد التقارير المالية
           items:
-            - name: نظرة عامة على إعداد التقارير المالية
+            - name: بدء إعداد التقارير المالية
               href: general-ledger/financial-reporting-getting-started.md
             - name: نظرة عامة على إعداد التقارير المالية
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -2600,7 +2600,13 @@
                       href: localizations/rus-counting-deferrals.md
                     - name: الإعلام عن التأجيلات
                       href: localizations/rus-reporting-deferrals.md
-            - name: المملكة العربية السعودية‬
+                - name: محاسبة الضرائب
+                  items:
+                    - name: أكواد المصروفات والإيرادات
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: سجلات ضرائب الأصول
+                      href: localizations/rus-assets-tax-registers.md
+            - name: المملكة العربية السعودية
               items:
                 - name: نظرة عامة على المملكة العربية السعودية
                   href: localizations/saudi-arabia.md
@@ -2746,9 +2752,9 @@
                   href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
                 - name: الأسئلة المتداولة حول إجراءات العاملين
                   href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف
+                - name: استخدام عمليات سير العمل لإدارة معلومات الموظفين
                   href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: تعديل علاقات التقارير لمنصب
+                - name: تعديل العلاقات الهرمية لمنصب
                   href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
                 - name: إدخال معلومات العامل
                   href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
@@ -3126,6 +3132,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
                         - name: قائمة
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3134,7 +3142,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/finance/toc.json
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/finance/toc.json
-                        - name: عكسي
+                        - name: عكس
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/finance/toc.json
                         - name: تقسيم
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
@@ -3412,8 +3420,10 @@
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: دلائل البدء السريع
               items:
-                - name: ضبط تنسيق ER لإنشاء مستند إلكتروني مخصص
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                - name: ضبط تنسيق التقارير الإلكترونية لإنشاء مستند إلكتروني مخصص
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: تصميم حل جديد للتقارير الإلكترونية لطباعة تقرير مخصص
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: البرامج التعليمية
               items:
                 - name: التعرف على كيفية استخدام مصادر البيانات

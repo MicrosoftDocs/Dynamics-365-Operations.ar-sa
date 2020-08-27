@@ -408,15 +408,9 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: صور العميل في نقطة البيع
                           href: pos-image.md
-                    - name: أوامر العميل
-                      items:
-                        - name: أوامر العميل في نقطة البيع الحديثة
-                          href: customer-orders-overview.md
-                        - name: أوامر العملاء المختلطة
-                          href: hybrid-customer-orders.md
                     - name: شركاء المبيعات
                       items:
-                        - name: تعقب العمولات في نقطة البيع الحديثة باستخدام مجموعات المبيعات
+                        - name: تعقب العمولات في نقطة البيع باستخدام مجموعات المبيعات
                           href: pos-sales-groups-track-commissions.md
                     - name: تنشيط الجهاز
                       items:
@@ -630,6 +624,8 @@
                       href: personalized-recommendations.md
                     - name: إلغاء الاشتراك في التوصيات المخصصة
                       href: personalization-gdpr.md
+                - name: تمكين توصيات "تسوق أشكال مماثلة"
+                  href: shop-similar-looks.md
                 - name: تجارب نقطة البيع
                   items:
                     - name: إضافة توصيات المنتجات على نقطة البيع
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: إدارة أوامرك
           items:
+            - name: أوامر العميل
+              items:
+                - name: أوامر العميل في نقطة البيع الحديثة
+                  href: customer-orders-overview.md
+                - name: أوامر العملاء المختلطة
+                  href: hybrid-customer-orders.md
             - name: أوامر المبيعات
               items:
                 - name: إنشاء أمر مركز الاتصال
@@ -984,15 +986,21 @@
                   items:
                     - name: الوحدة النمطية لعربة التسوق
                       href: add-cart-module.md
-                    - name: وحدة أيقونة عربة التسوق
+                    - name: الوحدة النمطية لأيقونة عربة التسوق
                       href: cart-icon-module.md
                     - name: الوحدة النمطية للسداد مع الخروج
                       href: add-checkout-module.md
-                    - name: وحدة تفاصيل الأوامر
+                    - name: الوحدة النمطية للدفع
+                      href: payment-module.md
+                    - name: الوحدة النمطية لعنوان الشحن
+                      href: ship-address-module.md
+                    - name: الوحدة النمطية لخيارات التسليم
+                      href: delivery-options-module.md
+                    - name: الوحدة النمطية لتفاصيل الأوامر
                       href: order-confirmation-module.md
-                    - name: وحدة بطاقة الهدايا
+                    - name: الوحدة النمطية لبطاقة الهدايا
                       href: add-giftcard.md
-                - name: تخزين وحدات الباحث
+                - name: الوحدات النمطية للباحث عن المتجر
                   items:
                     - name: وحدة الخريطة
                       href: map-module.md
@@ -1324,7 +1332,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/commerce/toc.json
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/commerce/toc.json
-                        - name: عكسي
+                        - name: عكس
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/commerce/toc.json
                         - name: تقسيم
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
@@ -1970,10 +1978,12 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: إعدادات التطبيقات
                       href: e-commerce-extensibility/app-settings.md
-                    - name: توسيع تعريف وحدة نمطية
+                    - name: توسيع تعريف الوحدة النمطية
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: نظرة عامة حول API ملفات تعريف الارتباط
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: نظرة عامة حول المكونات التفاعلية
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: عولمة الوحدات النمطية باستخدام الفئة CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: تطوير إجراءات البيانات
@@ -1990,7 +2000,7 @@
                       href: e-commerce-extensibility/core-data-actions.md
                     - name: استدعاء واجهات Retail Server API
                       href: e-commerce-extensibility/call-retail-server-apis.md
-                    - name: استدعاء واجهات امتداد Retail Server API
+                    - name: استدعاء واجهات API لملحق Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
                 - name: مواضيع إجراءات البيانات المتقدمة
                   items:
@@ -2026,9 +2036,13 @@
                   items:
                     - name: مدخلات برنامج نصي
                       href: e-commerce-extensibility/script-injector.md
-                - name: تتبع الاستخدام والتحليلات
+                - name: الموصلات
                   items:
-                    - name: مسجل تتبع الاستخدام
+                    - name: تكوين الموصلات وتمكينها
+                      href: e-commerce-extensibility/connectors.md
+                - name: بيانات تتبع الاستخدام والتحليلات
+                  items:
+                    - name: مسجل بيانات تتبع الاستخدام
                       href: e-commerce-extensibility/telemetry-logger.md
                 - name: النشر والصيانة
                   items:
@@ -2042,6 +2056,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: التغييرات القادمة في Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: التطوير الهام وتغييرات ALM الهامة من الإصدار 10.0.10 إلى 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: دمج أنظمة البناء لـ Commerce وFinance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: ترحيل Retail SDK من Visual Studio 2015 إلى Visual Studio 2017
@@ -2070,7 +2086,7 @@
                   href: dev-itpro/pos-custom-control.md
                 - name: إضافة عمليات نقطة البيع إلى مخططات نقطة البيع باستخدام مصمم شبكة الأزرار
                   href: dev-itpro/add-POS-operations.md
-                - name: وجهات نقطة البيع
+                - name: واجهات API لنقطة البيع
                   href: dev-itpro/POS-APIs.md
                 - name: ملحق دفع نقطة البيع
                   href: dev-itpro/pos-payment-extension.md
@@ -2098,7 +2114,7 @@
                   href: dev-itpro/pos-custom-transaction.md
                 - name: إضافة أعمدة مخصصة إلى شبكة حركة نقطة البيع
                   href: dev-itpro/pos-custom-transaction-column.md
-                - name: استدعاء واجهات برمجة التطبيقات لنقطة البيع أو العمليات من ملحقات نقطة البيع
+                - name: استدعاء واجهات API لنقطة البيع أو العمليات من ملحقات نقطة البيع
                   href: dev-itpro/pos-api-extension.md
                 - name: المشغلات والطباعة في نقطة البيع الحديثة (MPOS)
                   href: dev-itpro/pos-trigger-printing.md
@@ -2118,15 +2134,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: قابلية توسعة Retail Server
               items:
-                - name: توسيع وحدة تحكم OData لـ Commerce Scale Unit
-                  href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: عميل Commerce Scale Unit وواجهات برمجة تطبيقات المستهلكين
+                - name: عميل Commerce Scale Unit وواجهات API للمستهلكين
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: توسيع وحدة تحكم بيانات تعريف Commerce Scale Unit الافتراضية
-                  href: dev-itpro/extend-metadata.md
-                - name: الاتصال بخدمة CRT في وضع عدم الاتصال
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: إنشاء ملحق Retail Server جديد
+                - name: إنشاء واجهة API جديدة لملحق Retail Server (الإصدار 10.0.11 والإصدارات اللاحقة من Retail SDK)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: إنشاء واجهة API جديدة لملحق Retail Server (الإصدار 10.0.11 والإصدارات السابقة من Retail SDK)
                   href: dev-itpro/retail-server-extension.md
                 - name: وكلاء Retail Typescript وC#
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: CRT وقابلية توسعة Retail Server
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: إضافة بيانات تفضيلات العميل إلى قواعد بيانات القنوات
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: إدارة الأسرار لقنوات Retail
                   href: dev-itpro/manage-secrets.md
                 - name: قابلية توسعة CRT والمشغلات
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: حظر الحركات باستخدام المشغلات
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: تنفيذ سياسة الإرجاع باستخدام المشغلات
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: ملحق الولاء
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: نقاط الملحق لإيصالات التعبئة

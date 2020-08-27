@@ -5,13 +5,15 @@
       items:
         - name: الجديد أو المتغير في Human Resources
           href: hr-admin-whats-new.md
+        - name: 6 أغسطس 2020
+          href: hr-whats-new-2020-08-06.md
         - name: 23 يوليو 2020
           href: hr-whats-new-2020-07-23.md
         - name: 8 يوليو 2020
           href: hr-whats-new-2020-07-08.md
         - name: 25 يونيو 2020
           href: hr-whats-new-2020-06-23.md
-        - name: 11 يونيه 2020
+        - name: 11 يونيو 2020
           href: hr-whats-new-2020-06-11.md
         - name: 28 مايو 2020
           href: hr-whats-new-2020-05-28.md
@@ -23,16 +25,16 @@
           href: hr-whats-new-2020-04-13.md
         - name: 3 أبريل 2020
           href: hr-whats-new-2020-04-03.md
-        - name: 24 مارس 2020
-          href: hr-whats-new-2020-03-24.md
-        - name: 19 مارس 2020
-          href: hr-whats-new-2020-03-19.md
-        - name: 10 مارس 2020
-          href: hr-whats-new-2020-03-10.md
-        - name: 3 مارس 2020
-          href: hr-whats-new-2020-03-03.md
         - name: الجديد في أرشيفات 2020
           items:
+            - name: 24 مارس 2020
+              href: hr-whats-new-2020-03-24.md
+            - name: 19 مارس 2020
+              href: hr-whats-new-2020-03-19.md
+            - name: 10 مارس 2020
+              href: hr-whats-new-2020-03-10.md
+            - name: 3 مارس 2020
+              href: hr-whats-new-2020-03-03.md
             - name: 25 فبراير 2020
               href: hr-whats-new-2020-02-25.md
             - name: 18 فبراير 2020
@@ -225,8 +227,6 @@
               href: hr-setup-parameters.md
             - name: تكوين المعلمات المشتركة لـ Human resources
               href: hr-setup-shared-parameters.md
-            - name: إعداد تدفقات عمل Human resource
-              href: hr-setup-workflows.md
             - name: فهم حقول التاريخ والوقت
               href: hr-setup-date-time-fields.md
         - name: تكوين إعدادات المؤسسة
@@ -381,9 +381,11 @@
               href: hr-personnel-create-working-time-calendar.md
             - name: الأسئلة المتداولة حول إجراءات العاملين
               href: hr-personnel-actions-faq.md
-            - name: استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف
+            - name: استخدام عمليات سير العمل لإدارة معلومات الموظفين
               href: hr-workflow-manage-employee-information.md
-            - name: تعديل علاقات التقارير لمنصب
+            - name: عرض تغييرات العناوين وإدارتها
+              href: hr-personnel-view-address-changes.md
+            - name: تعديل العلاقات الهرمية لمنصب
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: إدخال معلومات العامل
               href: hr-personnel-enter-worker-information.md
@@ -395,8 +397,6 @@
               href: hr-personnel-loan-items.md
             - name: تطوير خطة تتابع
               href: hr-personnel-develop-succession-plan.md
-            - name: إدخال الجداول الزمنية للمشروع‬
-              href: hr-personnel-enter-project-timesheets.md
             - name: مشاريع التوظيف الجماعي
               href: hr-personnel-mass-hire-projects.md
             - name: إنشاء مشروع توظيف جماعي
