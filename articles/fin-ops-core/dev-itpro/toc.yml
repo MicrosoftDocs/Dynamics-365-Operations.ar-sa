@@ -156,6 +156,8 @@
                           items:
                             - name: تخصيص تعيينات الكيانات والحقول
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: التعامل مع تعيينات كيانات متعددة
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: تحرير كيان قانوني بعد إعداد الكتابة المزدوجة
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: إدارة الأخطاء وإخطارات التنبيه
