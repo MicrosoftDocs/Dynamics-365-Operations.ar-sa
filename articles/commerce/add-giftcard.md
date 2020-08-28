@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411102"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661232"
 ---
 # <a name="gift-card-module"></a>وحدة بطاقة الهدايا
 
@@ -63,8 +63,18 @@ ms.locfileid: "3411102"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[الوحدة النمطية لعربة التسوق](add-cart-module.md)
+
+[وحدة أيقونة عربة التسوق](cart-icon-module.md)
 
 [الوحدة النمطية للسداد مع الخروج](add-checkout-module.md)
+
+[الوحدة النمطية للدفع](payment-module.md)
+
+[الوحدة النمطية لعنوان الشحن](ship-address-module.md)
+
+[الوحدة النمطية لخيارات التسليم](delivery-options-module.md)
+
+[وحدة تفاصيل الأوامر](order-confirmation-module.md)
 
 [دعم بطاقات الهدايا الخارجية](./dev-itpro/gift-card.md)

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6215bc21bd3ee377274556f09ba29231118e5002
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
+ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201354"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677328"
 ---
 # <a name="shipment-auto-updates"></a>التحديثات التلقائية للشحنات
 
@@ -120,7 +120,7 @@ ms.locfileid: "3201354"
 1. انتقل إلى **المبيعات والتسويق \> أوامر المبيعات \> كافة أوامر المبيعات‬**.
 2. حدد أمر المبيعات الذي قمت بإصداره في وقت سابق إلى المستودع.
 3. قم بإنشاء بند لرقم الصنف **A0002**.
-4. في حقل **كمية** ، أدخل **10**. (تأكد من أنك تستخدم المستودع **24**.) يُضاف البند الجديد بشكل تلقائي إلى الشحنة الموجودة.
+4. في حقل **كمية**، أدخل **10**. (تأكد من أنك تستخدم المستودع **24**.) يُضاف البند الجديد بشكل تلقائي إلى الشحنة الموجودة.
 5. حدد **حفظ**.
 6. عد إلى صفحة **كافة أوامر المبيعات**، وحدد أمر المبيعات‏‎ مرة أخرى.
 7. في جزء الإجراءات، ضمن علامة التبويب **المستودع**، في مجموعة **‏‫المعلومات ذات الصلة**، حدد **تفاصيل الشحن**. في صفحة **تفاصيل الشحن**، على علامة التبويب السريعة **بنود الحِمل‬**، لاحظ بند الحمل الثاني.

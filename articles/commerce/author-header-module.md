@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411174"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686612"
 ---
 # <a name="header-module"></a>وحدة الرأس
 
@@ -62,7 +62,7 @@ ms.locfileid: "3411174"
 
 لإنشاء وحدة نمطية للعنوان، اتبع هذه الخطوات.
 
-1. انتقل إلى **أجزاء الصفحة**، ثم حدد **جديد** لإنشاء جزء جديد.
+1. انتقل إلى **الأجزاء**، ثم حدد **جديد** لإنشاء جزء جديد.
 1. في مربع الحوار **جزء الصفحة الجديد**، حدد وحدة **الحاوية**، وأدخل اسمًا لجزء الصفحة، ثم حدد **موافق**.
 1. حدد فتحة **الحاوية الافتراضية**، ثم في جزء الخصائص الموجود إلى اليمين، قم بتعيين خاصية **العرض** إلى **ملء الحاوية‬‏‫**.
 1. في فتحة **الحاوية الافتراضية‬‬‏‫**، حدد علامة القطع (**...**)، ثم حدد **إضافة وحدة**.
