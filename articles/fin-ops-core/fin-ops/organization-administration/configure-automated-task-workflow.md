@@ -1,7 +1,7 @@
 ---
 title: تكوين المهام المؤتمتة في سير عمل
 description: يوضح هذا الموضوع كيفية تكوين خصائص مهمة تلقائية.
-author: sericks007
+author: ChrisGarty
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
-ms.author: donaldc
+ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c02b4ff61b5b1f1e69d7fc0d537fe5ce535a430
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ca46e6c69b8e823be15f3e039408017e6463406
+ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190225"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3698257"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>تكوين المهام المؤتمتة في سير عمل
 
@@ -55,7 +55,7 @@ ms.locfileid: "2190225"
 
     1. في مربع النص، انقر في تخصيص الذي يجب أن يظهر فيه العنصر النائب.
     2. انقر فوق **إدراج عنصر نائب**.
-    3. في القائمة التي تظهر ، حدد العنصر النائب المراد إدراجه.
+    3. في القائمة التي تظهر، حدد العنصر النائب المراد إدراجه.
     4. انقر فوق **إدراج**.
 
 6. لإضافة ترجمات الإخطارات، اتبع الخطوات التالية:

@@ -3,7 +3,7 @@ title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
+ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651656"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3678212"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -39,6 +39,16 @@ ms.locfileid: "3651656"
 
 > [!NOTE]
 > الإصدار 10.0.13 هو إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [توافر تحديث الخدمة‬](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="custom-code-defined-in-ssrs-report-properties"></a>كود مخصص معرف في خصائص تقرير SSRS 
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | بشكل عام، يقدم الكود المخصص فوائد محدودة وتحتاج في الوقت نفسه إلى موارد وحوسبة مهمة للدعم. يتم استخدام الكود المخصص بشكل أساسي بواسطة مؤلفي التقارير لاستدعاء الأساليب العامة من تجميع أكواد مخصصة. ومع ذلك، لا تدعم خدمة استضافة السحابة المراجع إلى التجميعات المخصصة لتقارير SSRS. |
+| **هل تم الاستبدال بميزة أخرى؟**   | قد يختار مؤلفو التقارير متابعة الرجوع إلى واجهات API لـ NET. العامة للرياضيات وعمليات التحويل والتنسيق من أي تعبير مربع نصي. لمزيد من المعلومات، راجع [إضافة كود إلى تقرير (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **مناطق المنتجات المتأثرة**         | مجموعة فرعيه من تصميمات تقرير التطبيق تم تعريفها في RDL التي تحتوي على كود مخصص. |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | وباستخدام الإصدار 10.0.13، سيبدأ المحول البرمجي بإصدار تحذير للمثيلات حيث يتم الكشف عن الكود المخصص في تعريف تقرير SSRS. لإصلاح هذه المشكلة، افتح تعريف تصميم التقرير وقم بإزالة كافة نتائج الكود المخصص. سيتم استبدال هذا التحذير بخطأ في المحول البرمجي في تحديث مستقبلي.   |
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>ترقيه لثلاث مكتبات مكونات jQuery 
 

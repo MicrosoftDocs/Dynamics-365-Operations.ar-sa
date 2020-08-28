@@ -3,7 +3,7 @@ title: دعم استدعاءات ذات معلمات لمصادر بيانات �
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام نوع الحقل المحسوب لمصادر بيانات التقارير الإلكترونية.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771319"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665600"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>دعم استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب‬
 
@@ -39,20 +39,20 @@ ms.locfileid: "2771319"
     - مستشار وظيفي لإعداد التقارير الإلكتروني
     - مسؤول النظام
 
-- يمكنك الوصول إلى مثيل Regulatory Configuration Services (RCS) التي تم تزويدها لنفس المستأجر مثل Finance and Operations، لأحد الأدوار التالية:
+- يمكنك الوصول إلى Regulatory Configuration Services (RCS) التي تم تزويدها لنفس المستأجر مثل Finance and Operations، لأحد الأدوار التالية:
 
     - مطور إعداد التقارير الإلكتروني
     - مستشار وظيفي لإعداد التقارير الإلكتروني
     - مسؤول النظام
 
-من [مركز التنزيل لـ Microsoft](https://go.microsoft.com/fwlink/?linkid=874684)، قم بتنزيل الملف المضغوط **دعم استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب**. ويحتوي على تكوينات التقارير الإلكترونية التالية والتي يجب استخراجها وتخزينها محليًا.
+يجب عليك أيضًا تنزيل الملفات التالية وتخزينها محليًا.
 
 | **المحتوى**                           | **اسم الملف**                                        |
 |---------------------------------------|------------------------------------------------------|
-| تكوين نموذج عينة بيانات التقارير الإلكترونية    | Model to learn parameterized calls.version.1.xml     |
-| تكوين بيانات تعريف عينة التقارير الإلكترونية      | Metadata to learn parameterized calls.version.1.xml  |
-| تكوين تعيين نموذج عينة التقارير الإلكترونية | Mapping to learn parameterized calls.version.1.1.xml |
-| تكوين تنسيق عينة التقارير الإلكترونية        | Format to learn parameterized calls.version.1.1.xml  |
+| تكوين نموذج عينة بيانات التقارير الإلكترونية    | [Model to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| تكوين بيانات تعريف عينة التقارير الإلكترونية      | [Metadata to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| تكوين تعيين نموذج عينة التقارير الإلكترونية | [Mapping to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| تكوين تنسيق عينة التقارير الإلكترونية        | [Format to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>تسجيل الدخول إلى مثيل RCS
 في هذا المثال، سوف تنشئ تكوينًا للشركة النموذجية Litware, Inc. في RCS يجب عليك أولاً إكمال الخطوات الموجودة في الإجراء [‏‫إنشاء موفري التكوين ووضع علامة عليهم على أنهم نشيطون‬](tasks/er-configuration-provider-mark-it-active-2016-11.md):

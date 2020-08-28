@@ -3,7 +3,7 @@ title: نظرة عامة حول دفتر الأستاذ العام وإعداد 
 description: استخدام دفتر الأستاذ العام لتحديد السجلات المالية للكيانات القانونية وإدارتها.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/31/2017
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e68fee44fdc18cada99e3c7e2cba021036e869db
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771789"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696654"
 ---
-# <a name="general-ledger-and-financial-reporting-overview"></a>نظرة عامة حول دفتر الأستاذ العام وإعداد التقارير المالية
+# <a name="general-ledger-home-page"></a>الصفحة الرئيسية لدفتر الأستاذ العام
 
 [!include [banner](../includes/banner.md)]
 
@@ -57,9 +57,12 @@ ms.locfileid: "2771789"
 
 انتقل إلى [خطط إصدار Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
 
+#### <a name="financial-reporting"></a>إعداد التقارير المالية
+انتقل إلى الموضوع [نظرة عامة على التقارير المالية](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) للحصول على معلومات حول التقارير المالية.
+
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار ومعلومات أخرى في مدونة [Microsoft Dynamics365 ](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ومدونة الشئون المالية [Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) و[Microsoft Dynamics 365 Finance and Operations - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
 

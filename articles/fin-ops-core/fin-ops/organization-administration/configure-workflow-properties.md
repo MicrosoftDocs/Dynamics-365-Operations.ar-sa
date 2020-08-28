@@ -1,7 +1,7 @@
 ---
 title: تكوين خصائص سير العمل
 description: يوضح هذا الموضوع كيفية تكوين مختلف خصائص لسير العمل.
-author: sericks007
+author: ChrisGarty
 manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 196083
 ms.assetid: 192b7a98-7d04-4c7a-a986-29d797a8a837
 ms.search.region: Global
-ms.author: donaldc
+ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
-ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
+ms.openlocfilehash: 4d01a784b0f0cbfce30f1197278f015b236ef0b8
+ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "3541099"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3698134"
 ---
 # <a name="configure-workflow-properties"></a>تكوين خصائص سير العمل
 
@@ -63,7 +63,7 @@ ms.locfileid: "3541099"
 
     1. انقر في حقل **إرشادات الإرسال** لتحديد المكان الذي يجب أن يظهر فيه العنصر النائب.
     2. انقر فوق **إدراج عنصر نائب**.
-    3. في القائمة التي تظهر ، حدد العنصر النائب المراد إدراجه.
+    3. في القائمة التي تظهر، حدد العنصر النائب المراد إدراجه.
     4. انقر فوق **إدراج**.
 
 4. لإضافة ترجمات الإرشادات، اتبع الخطوات التالية:
@@ -112,7 +112,7 @@ ms.locfileid: "3541099"
 
     1. انقر داخل الحقل لتحديد المكان الذي يجب أن يظهر فيه العنصر النائب.
     2. انقر فوق **إدراج عنصر نائب**.
-    3. في القائمة التي تظهر ، حدد العنصر النائب المراد إدراجه.
+    3. في القائمة التي تظهر، حدد العنصر النائب المراد إدراجه.
     4. انقر فوق **إدراج**.
     5. عنصر نائب شائع **نص الإعلام** يجب تضمينه هو "الملاحظات الأخيرة: %Workflow.Last note%"، وهو يعرض تعليقات من الخطوة السابقة.
 

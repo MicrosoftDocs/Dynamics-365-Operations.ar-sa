@@ -1,9 +1,9 @@
 ---
 title: نظرة عامة على التقارير المالية
-description: يصف هذا الموضوع المكان الذي يمكن منه الوصول إلى التقارير المالية في Microsoft Dynamics 365 Finance وكيفية استخدام إمكانيات إعداد التقارير المالية. كما يتضمن وصفاً للتقارير المالية الافتراضية التي يتم توفيرها.
+description: يصف هذا الموضوع المكان الذي يمكن منه الوصول إلى التقارير المالية في Microsoft Dynamics 365 Finance وكيفية استخدام إمكانيات إعداد التقارير المالية.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618028"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696678"
 ---
-# <a name="financial-reporting-overview"></a>نظرة عامة على التقارير المالية
+# <a name="get-started-with-financial-reporting"></a>الشروع في العمل مع التقارير المالية 
 
 [!include [banner](../includes/banner.md)]
 
@@ -134,6 +134,12 @@ ms.locfileid: "3618028"
 ## <a name="creating-and-modifying-financial-reports"></a>إنشاء وتعديل التقارير المالية
 من قائمة التقارير المالية، يمكنك إنشاء تقرير جديد أو تعديل تقرير موجود. إذا كانت لديك الأذونات المناسبة، يمكنك إنشاء تقرير مالي جديد بتحديد **جديد** في "جزء الإجراءات". ويتم تنزيل برنامج مصمم التقارير لجهازك.‬ بعد بدء تشغيل مصمم التقارير، يمكنك إنشاء التقرير الجديد. وبعد حفظ التقرير الجديد، يظهر في قائمة التقارير المالية. لا تعرض القائمة إلا التقارير التي تم إنشاؤها للشركة التي تستخدمها في Dynamics 365 Finance. 
 
+## <a name="reporting-tree-definitions"></a>تعريفات شجرة التقارير 
+أحد المكونات المستخدمة لبناء التقارير المالية هو تعريف شجرة التقارير. يساعد تعريف شجرة التقارير على تعريف بنية مؤسستك وتدرجها الهرمي. إنها بنية عبر الأبعاد ذات تدرجات هرمية تستند إلى علاقات الأبعاد في البيانات المالية. وهي توفر معلومات على مستوى وحدة التقارير وعلى مستوى الملخص لجميع الوحدات في الشجرة.
+
+يمكنك إنشاء عدد غير محدود من أشجار التقارير لعرض بيانات مؤسستك بطرق مختلفة. بإمكان كل شجرة تقارير أن تحتوي على أي مجموعة من الأقسام ووحدات التلخيص، ولكن بإمكان تعريف التقرير أن يرتبط بشجرة تقارير واحدة فقط في كل مرة. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>استكشاف أخطاء فتح مصمم التقارير وإصلاحها
 هناك بعض الأخطاء الشائعة التي قد تتسبب في حدوث مشكلات عند فتح "مصمم التقارير". فيما يلي نسرد هذه الأخطاء والخطوات المطلوبة لحلها.
 
@@ -162,3 +168,4 @@ ms.locfileid: "3618028"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 - [عرض التقارير المالية](view-financial-reports.md)
+- [تعريفات شجرة التقارير في التقارير المالية](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
