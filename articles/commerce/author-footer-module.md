@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411173"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686684"
 ---
 # <a name="footer-module"></a>الوحدة النمطية لتذييل الصفحة  
 
@@ -50,7 +50,7 @@ ms.locfileid: "3411173"
 
 ## <a name="create-a-footer-module"></a>إنشاء وحدة نمطية لتذييل الصفحة
 
-1. انتقل إلى **أجزاء الصفحة**، ثم حدد **جديد** لإنشاء جزء جديد.
+1. انتقل إلى **الأجزاء**، ثم حدد **جديد** لإنشاء جزء جديد.
 1. في مربع الحوار **جزء الصفحة الجديد**، حدد وحدة **الحاوية**، وأدخل اسمًا لجزء الصفحة، ثم حدد **موافق**.
 1. في فتحة **الحاوية الافتراضية‬‬‏‫**، حدد علامة القطع (**...**)، ثم حدد **إضافة وحدة**.
 1. في مربع الحوار **إضافة وحدة**، حدد وحدة **فئة التذييل**، ثم حدد **موافق**.

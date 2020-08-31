@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464920"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661162"
 ---
 # <a name="order-details-module"></a>وحدة تفاصيل الأوامر
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ ms.locfileid: "3464920"
 
 ## <a name="overview"></a>نظرة عامة
 
-يتم استخدام وحدة تفاصيل الأوامر لإظهار تفاصيل تأكيد الأوامر بعد تقديم أحد الأوامر. ويعرض معرف تاكيد الأمر ومعلومات الاتصال بالطلب وتفاصيل الطلبات الأخرى ، مثل الأصناف التي تم شراؤها ومعلومات الدفع وطريقه الشحن.
+يتم استخدام وحدة تفاصيل الأوامر لإظهار تفاصيل تأكيد الأوامر بعد تقديم أحد الأوامر. ويعرض معرف تاكيد الأمر ومعلومات الاتصال بالطلب وتفاصيل الطلبات الأخرى، مثل الأصناف التي تم شراؤها ومعلومات الدفع وطريقه الشحن.
 
 ## <a name="order-details-module-properties"></a>خصائص الوحدة النمطية لتفاصيل الأمر
 
@@ -44,7 +43,7 @@ ms.locfileid: "3464920"
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>يمكن استخدام الوحدات على صفحة تفاصيل الأوامر.
 
-عند إنشاء صفحه تفاصيل أمر ، يمكنك أضافه وحدات نمطيه أخرى ذات صله بالاضافه إلى الوحدة النمطية لتفاصيل الأمر. فيما يلي بعض الأمثلة:
+عند إنشاء صفحه تفاصيل أمر، يمكنك أضافه وحدات نمطيه أخرى ذات صله بالاضافه إلى الوحدة النمطية لتفاصيل الأمر. فيما يلي بعض الأمثلة:
 
 - **وحدة التوصيات** – يمكن إضافة وحدة التوصيات إلى صفحة تفاصيل الأوامر لاقتراح منتجات أخرى للعميل.
 - **وحدات التسويق** يمكن أضافه إيه وحده نمطيه للتسويق إلى صفحه تفاصيل الأمر لإظهار محتويات التسويق.
@@ -72,16 +71,16 @@ ms.locfileid: "3464920"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
-
-[وحدة الحاوية](add-container-module.md)
-
-[الوحدة النمطية لصندوق الشراء](add-buy-box.md)
-
 [الوحدة النمطية لعربة التسوق](add-cart-module.md)
+
+[وحدة أيقونة عربة التسوق](cart-icon-module.md)
 
 [الوحدة النمطية للسداد مع الخروج](add-checkout-module.md)
 
-[وحدة نمطية للرؤوس](author-header-module.md)
+[الوحدة النمطية للدفع](payment-module.md)
 
-[وحدة التذييل](author-footer-module.md)
+[الوحدة النمطية لعنوان الشحن](ship-address-module.md)
+
+[الوحدة النمطية لخيارات التسليم](delivery-options-module.md)
+
+[وحدة بطاقة الهدايا](add-giftcard.md)

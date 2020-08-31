@@ -3,7 +3,7 @@ title: إزالة مثيل
 description: ينقلك هذا المقال عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621370"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668315"
 ---
 # <a name="remove-an-instance"></a>إزالة مثيل
 
@@ -70,7 +70,7 @@ ms.locfileid: "3621370"
 4. قم بتسجيل الدخول إلى LCS باستخدام الحساب الذي استخدمته للاشتراك في Human Resources. 
 5. حدد مشروع Human Resources الذي يحتوي على البيئة. 
 6. في مشروع LCS، حدد تجانب **"إدارة تطبيق Human Resources**. 
-7. حدد المثيل الذي ترغب في إزالته، والذي يجب تمييزه بحالة النشر **فشل**.
+7. حدد المثيل الذي ترغب في إزالته، والذي يجب تمييزه بحالة النشر **محذوف**.
 8. حدد **إزالة مثيل** وقم بتأكيد قرارك. 
 
 ## <a name="recover-a-soft-deleted-environment"></a>استرداد بيئة محذوفة بشكل مبدئي

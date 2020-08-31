@@ -1,7 +1,7 @@
 ---
 title: تكوين خطوات الاعتماد في سير عمل
 description: يوضح هذا الموضوع كيفية تكوين خصائص خطوة اعتماد.
-author: sericks007
+author: ChrisGarty
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
-ms.author: donaldc
+ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5bd5300a061e12ccabdea83c20863c95e15fe19
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 69035be84d489d6ea2342c6974cfa9a31531f1c7
+ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124671"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3698061"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>تكوين خطوات الاعتماد في سير عمل
 
@@ -48,7 +48,7 @@ ms.locfileid: "3124671"
 
     1. في مربع النص، انقر في تخصيص الذي يجب أن يظهر فيه العنصر النائب.
     2. انقر فوق **إدراج عنصر نائب**.
-    3. في القائمة التي تظهر ، حدد العنصر النائب المراد إدراجه.
+    3. في القائمة التي تظهر، حدد العنصر النائب المراد إدراجه.
     4. انقر فوق **إدراج**.
 
 4. لإضافة ترجمات سطر الموضوع، اتبع الخطوات التالية:
@@ -65,7 +65,7 @@ ms.locfileid: "3124671"
 
     1. في مربع النص، انقر في تخصيص الذي يجب أن يظهر فيه العنصر النائب.
     2. انقر فوق **إدراج عنصر نائب**.
-    3. في القائمة التي تظهر ، حدد العنصر النائب المراد إدراجه.
+    3. في القائمة التي تظهر، حدد العنصر النائب المراد إدراجه.
     4. انقر فوق **إدراج**.
 
 7. لإضافة ترجمات الإرشادات، اتبع الخطوات التالية:

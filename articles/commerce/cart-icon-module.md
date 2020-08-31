@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411079"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661137"
 ---
 # <a name="cart-icon-module"></a>وحدة أيقونة عربة التسوق
 
@@ -42,22 +42,22 @@ ms.locfileid: "3411079"
 
 - **إظهار سلة التسوق الصغيرة** – تمكّن هذه الخاصية، عندما تكون قيمتها صواب، عرض ملخص سلة التسوق (سلة التسوق الصغيرة) عند تمرير الماوس فوق أيقونة سلة التسوق. هذه الوظيفة مدعومة فقط لمنافذ عرض سطح المكتب.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>إضافة وحدة سلة التسوق إلى صفحة
 
 لإضافة وحدة ايقونة سلة التسوق، راجع [وحدة الرأس](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>الموارد الإضافية
-
-[الوحدة النمطية لصندوق الشراء](add-buy-box.md)
 
 [الوحدة النمطية لعربة التسوق](add-cart-module.md)
 
 [الوحدة النمطية للسداد مع الخروج](add-checkout-module.md)
 
-[الوحدة النمطية لتأكيد الأمر](order-confirmation-module.md)
+[الوحدة النمطية للدفع](payment-module.md)
 
-[وحدة الرأس](author-header-module.md)
+[الوحدة النمطية لعنوان الشحن](ship-address-module.md)
 
-[وحدة التذييل](author-footer-module.md)
+[الوحدة النمطية لخيارات التسليم](delivery-options-module.md)
+
+[وحدة تفاصيل الأوامر](order-confirmation-module.md)
+
+[وحدة بطاقة الهدايا](add-giftcard.md)

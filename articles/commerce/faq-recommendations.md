@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e27e4c4d8bdf614d6f55f44daeac3bc152219004
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: cf3df2267671b50c20b28dbdb1c6a21696bf2515
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404292"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664968"
 ---
 # <a name="product-recommendations-faq"></a>الأسئلة المتداولة حول توصيات المنتجات
 
@@ -88,6 +88,8 @@ ms.locfileid: "3404292"
 [تمكين التوصيات المخصصة](personalized-recommendations.md)
 
 [إلغاء الاشتراك في التوصيات المخصصة](personalization-gdpr.md)
+
+[تمكين توصيات "تسوق منتجات تبدو مماثلة"](shop-similar-looks.md)
 
 [إضافة توصيات المنتجات على نقطة البيع](product.md)
 
