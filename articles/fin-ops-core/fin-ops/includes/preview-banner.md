@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> تتوفر الوظيفة المذكورة في هذا الموضوع كجزء من إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [توافر تحديث الخدمة‬](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> تتوفر بعض أو كل الوظائف المذكورة في هذا الموضوع كجزء من إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [توافر تحديث الخدمة‬](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
