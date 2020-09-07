@@ -66,8 +66,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: شراء Finance + Operations (on-premises)
+                - name: شراء Finance + Operations ‏(on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: إرشادات تطبيق Commerce Data Exchange
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: تطبيقات Finance and Operations في فرنسا
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: إنشاء حقول مخصصة والعمل باستخدامها
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: تضمين تطبيقات PowerApps
+                - name: تضمين Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: البحث عن المعلومات باستخدام عمليات البحث
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,8 +204,14 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: تحديد مخطط‬ في المتجر
                   href: dev-itpro/retail-in-store-topology.md
-                - name: اتصالات قناة Commerce Data Exchange والتجارة
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: أفضل ممارسات Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: اتصالات قناة Commerce Data Exchange والتجارة
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: استكشاف الأخطاء وإصلاحها في Commerce Data Exchange
+                      href: dev-itpro/CDX-Troubleshooting.md
                 - name: هندسة نقطة البيع الحديثة
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: هندسة نشر متجر على الإنترنت
@@ -516,6 +524,8 @@
                       href: duplicate-payment-protection.md
                     - name: نظرة عامة على مدفوعات القنوات متعددة الاتجاهات
                       href: omni-channel-payments.md
+                    - name: مدفوعات أمر تجارة القناة متعددة الاتجاهات
+                      href: dev-itpro/commerce-payments.md
                     - name: الأسئلة المتداولة حول الدفعات
                       href: dev-itpro/payments-retail.md
                 - name: إدارة خرائط Bing لمؤسستك
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: تحرير حركات متجر البيع بالتجزئة والتدقيق فيها
               href: edit-audit-retail-transactions.md
-            - name: إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: إنشاء أوامر تستند إلى التغذية المستمرة لحركات متجر البيع بالتجزئة
               href: trickle-feed.md
             - name: إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
@@ -1130,13 +1138,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: الوصول إلى المعلومات وإعداد التقارير
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: خيارات التخصيص‬ مع PowerBI.com
+            - name: خيارات التخصيص‬ مع Power BI
               items:
-                - name: الميزات المتوفرة من خلال تكامل PowerBI.com
+                - name: الميزات المتوفرة من خلال تكامل Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: تثبيت محتوى PowerBI.com
+                - name: تثبيت محتوى Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: تحديد مساحات عمل تحليلية من PowerBI.com
+                - name: تحديد مساحات عمل تحليلية من Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: محتوى Power BI
               items:
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: حل المشكلات بعد صيانة مخزن الكيان
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: تكوين تكامل PowerBI.com
+                - name: تكوين تكامل Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: إحضار قاعدة بياناتك الخاصة
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -1202,7 +1210,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: إضافة الأبعاد المالية لتجميع القياسات
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: إنشاء التقارير التحليلية باستخدام PowerBI Desktop
+                - name: إنشاء تقارير تحليلية باستخدام Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -2048,7 +2056,7 @@
                   items:
                     - name: تكوينات الحزم وتوزيعها على بيئة عبر الإنترنت
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: تحديثات SDK و المكتبة الأساسية
+                    - name: SDK وتخزين تحديثات مجموعة أدوات البداية‬
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2186,6 +2194,8 @@
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: نشر موصلات المدفوعات
                   href: dev-itpro/deploy-payment-connector.md
+                - name: التقاط تزايدي لفوترة المكتب الخلفي
+                  href: dev-itpro/incremental-capture.md
                 - name: إنشاء رسائل خطأ مترجمة مخصصة لملحقات الوحدات الطرفية للدفع
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: إنشاء Windows installer لموصلات المدفوعات

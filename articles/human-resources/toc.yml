@@ -5,6 +5,8 @@
       items:
         - name: الجديد أو المتغير في Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 أغسطس 2020
+          href: hr-whats-new-2020-08-20.md
         - name: 6 أغسطس 2020
           href: hr-whats-new-2020-08-06.md
         - name: 23 يوليو 2020
@@ -78,13 +80,91 @@
             - name: التكامل مع Office
               items:
                 - name: برنامج تعليمي لتكامل Office
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
                 - name: تحديث بيانات الكيان في Excel
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
                 - name: إنشاء خبرات فتح في Excel
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
                 - name: استكشاف أخطاء تكامل Office وإصلاحها
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
+        - name: تكوين إدارة البيانات
+          items:
+            - name: نظرة عامة على إطار عمل إدارة البيانات
+              href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: كيانات البيانات
+              items:
+                - name: نظرة عامة حول كيانات البيانات
+                  href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: مشاريع بيانات التكوين
+                  href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
+                - name: نسخ بيانات التكوين بين الشركات أو الكيانات القانونية
+                  items:
+                    - name: نظرة عامة حول نسخ بيانات التكوين
+                      href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
+                    - name: حزم بيانات التكوين
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                    - name: "حزم\_بيانات التكوين\_(إصدار يوليو 2017 فقط)"
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                - name: قوالب بيانات التكوين
+                  href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: تعقب التغييرات في كيان
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: البحث عن معلومات حول كيانات البيانات القياسية
+                  href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: قوالب بيانات مع أوراق عمل متعددة
+                  href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
+                - name: تمكين تعقب التغيير للكيانات
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: مفاتيح التكوين وكيانات البيانات
+                  href: ../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: حزم بيانات التكوين
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: استيراد البيانات وتصدير الوظائف
+              items:
+                - name: نظرة عامة حول مهام استيراد البيانات وتصديرها
+                  href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
+                - name: أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
+                  href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
+            - name: التطوير لكيانات البيانات
+              items:
+                - name: مبادئ التصميم وأفضل الممارسات لكيانات البيانات
+                  href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء كيانات بيانات جديدة
+                  href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: خصائص كيان البيانات
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء أعمدة محسوبة وحقول ظاهرية
+                  href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: السلوك عبر الشركة
+                  href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
+                - name: معالجة رموز البلدان/المناطق
+                  href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
+                - name: أنماط التوريث
+                  href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
+                - name: قواعد معالج كيان البيانات
+                  href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
+                - name: خصائص بيانات التعريف
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: عمليات التحقق من الصحة والإعدادات الافتراضية والحقول غير المعينة
+                  href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: الأمان وكيانات البيانات
+                  href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: استخدم الأدوات المساعدة لاختبار خدمات جهات خارجية
+                  href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء كيانات للقراءة فقط تعرض الأبعاد المالية
+                  href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/human-resources/toc.json
+            - name: إحضار قاعدة بياناتك الخاصة
+              href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/human-resources/toc.json
+            - name: تحسين مهام دفعات BYOD
+              href: hr-admin-integration-byod-batch-jobs.md
+            - name: التحديث التلقائي لمخزن الكيانات
+              href: ../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/human-resources/toc.json
+            - name: أتمتة مهمة البيانات
+              href: ../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/human-resources/toc.json
+            - name: مساحة عمل قائمة التحقق من صحة البيانات
+              href: ../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/human-resources/toc.json
+            - name: أوصاف أخطاء إدارة البيانات
+              href: ../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/human-resources/toc.json
         - name: إدارة الميزات
           href: hr-admin-manage-features.md
         - name: تكوين وإدارة تسجيل قاعده البيانات
@@ -539,6 +619,8 @@
               href: hr-employee-self-service-calendar.md
             - name: إدارة سياسات شراء الإجازة وبيعها
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: إنشاء عمليات سير عمل شراء الإجازات وبيعها
+              href: hr-leave-and-absence-buy-sell-workflow.md
             - name: شراء الإجازة وبيعها
               href: hr-employee-self-service-buy-sell-leave.md
         - name: إدارة طلبات الإجازة في Teams
