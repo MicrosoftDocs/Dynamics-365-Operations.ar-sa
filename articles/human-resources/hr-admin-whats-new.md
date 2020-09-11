@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3bab048a58da7aa981cb807ccb0757ecb237c1ee
-ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
+ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3666324"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712149"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>المزايا الجديدة أو المتغيرة في Human Resources
 
@@ -41,6 +41,7 @@ ms.locfileid: "3666324"
 
 لمشاهدة الجديد أو الذي تم تغييره في كل إصدار كل أسبوعين من Human Resources، راجع المقالات التالية:
 
+[20 أغسطس 2020](hr-whats-new-2020-08-20.md)</br>
 [6 أغسطس 2020](hr-whats-new-2020-08-06.md)</br>
 [23 يوليو 2020](hr-whats-new-2020-07-23.md)</br>
 [8 يوليو 2020](hr-whats-new-2020-07-08.md)</br>
