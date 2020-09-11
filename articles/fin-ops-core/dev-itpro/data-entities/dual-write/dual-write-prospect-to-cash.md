@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443885"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719254"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>العميل المتوقع إلى النقدية في الكتابة المزدوجة
 
@@ -79,7 +79,7 @@ ms.locfileid: "3443885"
 
 يمكن إنشاء أوامر المبيعات في Sales أو Supply Chain Management. إذا قمت بإنشاء أمر مبيعات في Sales، ستتم مزامنته إلى Supply Chain Management في الوقت الحقيقي. وبطريقة مماثلة، إذا قمت بإنشاء أمر مبيعات في Supply Chain Management، ستتم مزامنته إلى Sales في الوقت الحقيقي. لاحظ النقاط التالية:
 
-+ يمكن تنشيط الأوامر ومزامنتها من Sales فقط إذا أتت جميع المنتجات على الأمر من تطبيقات Finance and Operations. لذلك، قد لا يكون هناك أي منتجات مدونة.
++ سوف تظهر المنتجات المدونة في Dynamics 365 Sales كفئات منتجات في Dynamics 365 Supply Chain Management.
 + حساب الخصومات وتقريبها:
 
     - يختلف نموذج حساب الخصم في Sales عن نموذج حساب الخصم في Supply Chain Management. في Supply Chain Management، يمكن أن يكون مبلغ الخصم النهائي على بند مبيعات نتيجة لمجموعة من مبالغ الخصم والنسب المئوية. إذا كان مبلغ الخصم النهائي هذا مُقسمًا على الكمية في البند، فيمكن أن يحدث تقريب. ومع ذلك، لا يؤخذ هذا التقريب في الاعتبار في حالة مزامنة مبلغ خصم مقرّب لكل وحدة إلى Sales. للمساعدة في ضمان مزامنة مبلغ الخصم الكامل من بند مبيعات في Supply Chain Management بشكل صحيح إلى Sales، يجب مزامنة المبلغ الكامل دون تقسيمه على كمية البند. وبالتالي، يجب عليك تحديد طريقة حساب الخصم على أنه **صنف بند** في Sales.

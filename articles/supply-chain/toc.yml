@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء حقول مخصصة والعمل باستخدامها
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تضمين تطبيقات PowerApps
+                - name: تضمين Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: البحث عن المعلومات باستخدام عمليات البحث
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,13 +633,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: الوصول إلى المعلومات وإعداد التقارير
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: خيارات التخصيص‬ مع PowerBI.com
+            - name: خيارات التخصيص‬ مع Power BI
               items:
-                - name: الميزات المتوفرة من خلال تكامل PowerBI.com
+                - name: الميزات المتوفرة من خلال تكامل Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تثبيت محتوى PowerBI.com
+                - name: تثبيت محتوى Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تحديد مساحات عمل تحليلية من PowerBI.com
+                - name: تحديد مساحات عمل تحليلية من Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: محتوى Power BI
               items:
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: استبعاد منتجات من التخطيط الرئيسي
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: سلع ذات استخدام مزدوج
-                  href: pim/dual-use.md
-                - name: بلد المنشأ
-                  href: pim/country-of-origin.md
                 - name: إنشاء كود شريطي لمنتج
                   href: pim/tasks/create-bar-code-product.md
                 - name: إدخال كود GTIN لمنتج
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: إضافة صورة إلى منتج
                   href: pim/tasks/add-image-product.md
+                - name: بلد المنشأ
+                  href: pim/country-of-origin.md
+                - name: سلع ذات استخدام مزدوج
+                  href: pim/dual-use.md
+                - name: المواد الخطرة
+                  items:
+                    - name: نظرة عامة على المواد الخطرة
+                      href: pim/hazmat-overview.md
+                    - name: إعداد المواد الخطرة
+                      href: pim/hazmat-setup.md
+                    - name: المواد الخطرة في المنتجات والأوامر والشحنات والأحمال
+                      href: pim/hazmat-items.md
+                    - name: استعلامات وتقارير المواد الخطرة
+                      href: pim/hazmat-reports.md
                 - name: ترجمة الأسئلة المتداولة حول معلومات المنتجات
                   href: pim/translations-product-related-information.md
                 - name: البحث عن المنتج أثناء إدخال أمر

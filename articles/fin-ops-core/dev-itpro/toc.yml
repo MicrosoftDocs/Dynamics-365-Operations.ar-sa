@@ -130,6 +130,8 @@
                       items:
                         - name: الصفحة الرئيسية للكتابة المزدوجة
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: ما الجديد أو المتغير‬ في الكتابة المزدوجة
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: نظرة عامة على الكتابة المزدوجة
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: إعداد الكتابة المزدوجة
@@ -298,7 +300,7 @@
               items:
                 - name: نظرة عامة حول كيانات البيانات
                   href: data-entities/data-entities.md
-                - name: مشروعات بيانات التكوين
+                - name: مشاريع بيانات التكوين
                   href: data-entities/configuration-data-projects.md
                 - name: نسخ بيانات التكوين بين الشركات أو الكيانات القانونية
                   items:
@@ -1472,11 +1474,13 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: إنشاء سياسة أمان
                   href: sysadmin/create-simple-security-policy.md
+            - name: الحفاظ على التوافق مع متطلبات ترخيص المستخدم
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: أتمته العملية
               href: sysadmin/process-automation.md
-            - name: المعالجة الدُفعية
+            - name: معالجة الدُفعات
               items:
-                - name: نظرة عامة على المعالجة الدُفعية
+                - name: نظرة عامة على معالجة الدُفعات
                   href: sysadmin/batch-processing-overview.md
                 - name: مُعالجة الدُفعات وخوادم الدُفعات
                   href: sysadmin/batch-server-overview.md

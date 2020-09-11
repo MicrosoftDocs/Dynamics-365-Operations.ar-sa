@@ -3,7 +3,7 @@ title: تمكين توصيات المنتجات
 description: يوضح هذا الموضوع كيفية عمل توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) المتوفرة لعملاء Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665016"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700832"
 ---
 # <a name="enable-product-recommendations"></a>تمكين توصيات المنتجات
 
@@ -65,11 +65,13 @@ ms.locfileid: "3665016"
 
 لتشغيل توصيات المنتج‬، اتبع الخطوات التالية.
 
-1. انتقل إلى ‏‫‏‫**البيع بالتجزئة والتجارة&gt; توصيات المنتج &gt; معلمات التوصية**.
-1. في قائمة المعلمات المشتركة، حدد **قوائم التوصيات**.
-1. عيّن الخيار **تمكين التوصيات** إلى **نعم**.
+1. في المركز الرئيسي لـ Commerce ، ابحث عن **إدارة الميزات**.
+1. حدد **الكل** للاطلاع على قائمة الميزات المتاحة. 
+1. في مربع البحث، ادخل **التوصيات**.
+1. حدد ميزة **توصيات المنتج**.
+1. في جزء خصائص **توصيات المنتج** ، حدد **تمكين الآن**.
 
-![تشغيل التوصيات](./media/enablepersonalization.png)
+![تشغيل التوصيات](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > يبدأ هذا الإجراء عملية إنشاء قوائم توصيات المنتج. قد تحتاج إلى عدة ساعات قبل أن تصبح القوائم متوفرة ويمكن عرضها في نقطة البيع أو في Dynamics 365 Commerce.

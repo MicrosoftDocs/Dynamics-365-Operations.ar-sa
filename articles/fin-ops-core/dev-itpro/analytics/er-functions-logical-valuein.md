@@ -3,7 +3,7 @@ title: VALUEIN ER وظيفة
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية VALUEIN (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041689"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705109"
 ---
-# <a name="VALUEIN">VALUEIN ER وظيفة</a>
+# <a name=""></a><a name="VALUEIN">VALUEIN ER وظيفة</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ VALUEIN (input, list, list item expression)
 
 ## <a name="usage-notes"></a>ملاحظات الاستخدام
 
-بشكل عام، يتم تحويل الوظيفة `VALUEIN` إلى مجموعة من شروط **OR**.
+بشكل عام، يتم تحويل الوظيفة `VALUEIN` إلى مجموعة من شروط **OR**. إذا كانت قائمة شروط **OR** كبيرة وقد يتم تجاوز الحد الأقصى لطول عبارة SQL، فعليك استخدام الوظيفة [`VALUEINLARGE`](er-functions-logical-valueinlarge.md).
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ VALUEIN (input, list, list item expression)
 
 الحد الأقصى لعدد الأحرف في نص شرط هو 32768 حرفًا. لذلك، يجب عدم إنشاء مصادر بيانات قد تتجاوز هذا الحد في وقت التشغيل. إذا تم تجاوز الحد المسموح به، يتوقف تشغيل التطبيق، ويتم طرح استثناء. على سبيل المثال، قد تحدث هذه الحالة إذا تم تكوين مصدر البيانات على الشكل `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)` ، وتحتوي القائمتين **List1**و **List2** على عدد ضخم من السجلات.
 
-في بعض الحالات، تُترجم الوظيفة `VALUEIN` إلى بيان قاعدة بيانات باستخدام عامل التشغيل `EXISTS JOIN`. يحدث هذا السلوك عند استخدام الدالة [FILTER](er-functions-list-filter.md) وتلبية الشروط التالية:
+في بعض الحالات، تُترجم الوظيفة `VALUEIN` إلى بيان قاعدة بيانات باستخدام عامل التشغيل `EXISTS JOIN`. يحدث هذا السلوك عند استخدام الدالة [`FILTER`](er-functions-list-filter.md) وتلبية الشروط التالية:
 
 - يكون الخيار **طلب استعلام**‬ متوقفًا عن التشغيل لمصدر بيانات الوظيفة `VALUEIN` التي تشير إلى قائمة السجلات. لم يتم تطبيق أية شروط إضافية لمصدر البيانات هذا في وقت التشغيل.
 - لا يتم تكوين تعبيرات متداخلة لمصدر بيانات وظيفة `VALUEIN` التي تشير إلى قائمة السجلات.
 - يُشير عنصر قائمة الوظيفة `VALUEIN` إلى حقل مصدر بيانات مُحدد، وليس إلى تعبير أو أسلوب لمصدر البيانات هذا.
 
-يمكنك استخدام هذا الخيار بدلاً من الوظيفة [WHERE](er-functions-list-where.md) الموضحة سابقًا في هذا المثال.
+يمكنك استخدام هذا الخيار بدلاً من الوظيفة [`WHERE`](er-functions-list-where.md) الموضحة سابقًا في هذا المثال.
 
 ## <a name="example-2"></a>مثال2
 
@@ -118,3 +118,5 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الوظائف المنطقية](er-functions-category-logical.md)
+
+[وظائف VALUEINLARGE](er-functions-logical-valueinlarge.md)

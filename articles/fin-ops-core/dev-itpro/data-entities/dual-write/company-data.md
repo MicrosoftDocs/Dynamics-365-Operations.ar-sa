@@ -3,7 +3,7 @@ title: مفهوم الشركة في Common Data Service
 description: يوضح هذا الموضوع تكامل بيانات الشركة بين Finance and Operations وCommon Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172890"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728403"
 ---
 # <a name="company-concept-in-common-data-service"></a>مفهوم الشركة في Common Data Service
 
@@ -72,3 +72,32 @@ ms.locfileid: "3172890"
 + بالنسبة إلى السجلات، بعد إضافة شركة وحفظها، تصبح القيمة للقراءة فقط. لذلك، يجب على المستخدمين التأكد من تحديد الشركة الصحيحة.
 + وحدها السجلات التي تحتوي على بيانات الشركة مؤهلة للكتابة المزدوجة بين التطبيق وCommon Data Service.
 + بالنسبة إلى بيانات Common Data Service الموجودة، ستكون تجربة التمهيد التي يديرها المسؤول متوفرة قريبًا.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>ملء اسم الشركة تلقائيًا في تطبيق مشاركة العملاء
+
+توجد العديد من الطرق لملء اسم الشركة تلقائيًا في تطبيق مشاركة العملاء.
+
++ إذا كنت مسؤول نظام، يُمكنك تعيين الشركة الافتراضية من خلال الانتقال إلى **الإعدادات المتقدمة > النظام > الأمان > المستخدمين**.  افتح نموذج **المستخدم**، وفي قسم **معلومات المؤسسة** ، قم بتعيين قيمة **الشركة إلى القيمة الافتراضية في النماذج**.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="قم بتعيين الشركة الافتراضية في قسم معلومات المؤسسة.":::
+
++ إذا كان لديك حق الوصول لـ**الكتابة** إلى كيان **SystemUser** لمستوى **وحدة الأعمال** ، فمن ثم يُمكنك تغيير الشركة الافتراضية في أي نموذج من خلال تحديد شركة من القائمة المنسدلة الخاصة بـ**الشركة**.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="تغيير اسم الشركة في حساب جديد.":::
+
++ إذا كان لديك حق الوصول لـ**الكتابة** إلى البيانات في أكثر من شركة، فمن ثم يُمكنك تغيير الشركة الافتراضية عن طريق اختيار سجل يخص شركة مختلفة.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="يؤدي اختيار أحد السجلات إلى تغيير الشركة الافتراضية.":::
+
++ إذا كنت من مكونيّ النظام أو المسؤول، وتريد ملء بيانات الشركة تلقائيًا في نموذج مخصص، فيمكنك استخدام [أحداث النموذج](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). قم بإضافة مرجع  JavaScript **msdyn_/DefaultCompany.js** واستخدم الأحداث التالية. يُمكنك استخدام أيًا من النماذج الجاهزة، على سبيل المثال، نموذج **الحساب**.
+
+    + حدث **OnLoad** للنموذج: قم بتعيين حقل **defaultCompany**. 
+    + حدث **OnChange** لحقل **الشركة**: قم بتعيين حقل **updateDefaultCompany**. 
+
+## <a name="apply-filtering-based-on-the-company-context"></a>تطبيق التصفية استنادًا إلى سياق الشركة
+
+لتطبيق التصفية استنادًا إلى سياق الشركة في النماذج المخصصة الخاصة بك أو في حقوق البحث المخصصة المضافة إلى النماذج القياسية، افتح النموذج واستخدم قسم **تصفية السجلات ذات الصلة** لتطبيق عامل تصفية الشركة. يجب تعيين هذا لكل حقل بحث يتطلب تصفية استنادًا إلى الشركة الأساسية في سجل مُحدد. يتم عرض الإعداد الخاص بـ **الحساب** في الرسم التوضيحي التالي.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="تطبيق سياق الشركة":::
+

@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources (3 أبريل 2020)
-description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources.
+description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 3 أبريل 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02243b2c75a4f50683a51c1d9d811f2e2a2d413f
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 03fe38c8e2a8de6957cdc1adf5e89d7d0421d997
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555041"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712464"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (3 أبريل 2020)
 
