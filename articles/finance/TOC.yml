@@ -66,10 +66,12 @@
               items:
                 - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: الجديد أو المتغير في Finance
+                - name: المزايا الجديدة أو المتغيرة في Finance
                   items:
-                    - name: الجديد أو المتغير‬ في صفحة Finance الرئيسية
+                    - name: المزايا الجديدة أو المتغيرة‬ في صفحة Finance الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.14 (نوفمبر 2020)
+                      href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (أكتوبر 2020)
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (أغسطس 2020)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/set-up-collections.md
                 - name: مراجعة معلومات التحصيلات
                   href: accounts-receivable/tasks/review-collections-information.md
+                - name: التنفيذ التلقائي للتحصيلات
+                  href: accounts-receivable/collections-process-automate.md
                 - name: إعداد إدارة الائتمان
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: معلومات إعداد إدارة الائتمان
@@ -756,9 +760,11 @@
                   href: fixed-assets/175-percent-reducing-balance-depreciation.md
                 - name: إهلاك القسط المتناقص بنسبة 200 بالمئة
                   href: fixed-assets/200-percent-reducing-balance-depreciation.md
+                - name: منهج قاعدة إهلاك نصف السنة
+                  href: fixed-assets/half-year-depreciation-methodology.md
                 - name: الإهلاك الإضافي
                   href: fixed-assets/bonus-depreciation.md
-                - name: إعداد إهلاك إضافي
+                - name: إعداد الإهلاك الإضافي
                   href: fixed-assets/tasks/set-up-bonus-depreciation.md
                 - name: إهلاك الاستهلاك
                   href: fixed-assets/consumption-depreciation.md
@@ -1013,7 +1019,27 @@
             - name: تحويل عرض أسعار إلى مشروع
               href: project-management/transfer-quote-new-existing-project.md
             - name: تحديد موارد المشروع
-              href: project-management/project-resourcing.md
+              items:
+                - name: نظرة عامة على موارد المشروع
+                  href: project-management/project-resourcing.md
+                - name: إعداد موارد المشروع
+                  href: project-management/set-up-project-resources.md
+                - name: إدارة اختصاصات الموارد
+                  href: project-management/manage-resource-competencies.md
+                - name: إنشاء مشروع جديد
+                  href: project-management/create-new-project.md
+                - name: إعداد التسعير المستند إلى الدور
+                  href: project-management/set-up-role-based-pricing.md
+                - name: إنشاء فريق مشروع
+                  href: project-management/create-project-team.md
+                - name: مزامنة قدرة الموارد‬
+                  href: project-management/synchronize-resource-capacity.md
+                - name: أداء جدولة موارد المشروع
+                  href: project-management/project-scheduling-performance.md
+                - name: إعداد الأدوار في قوالب هيكل تنظيم العمل
+                  href: project-management/set-up-roles-wbs-template.md
+                - name: تنفيذ الموارد للموارد المخططة
+                  href: project-management/resource-fulfillment-planned-resources.md
             - name: تلقي الأصناف على أمر شراء من متطلبات الصنف
               href: project-management/tasks/receive-items-purchase-order-item-requirement.md
             - name: هياكل تنظيم العمل
@@ -1222,13 +1248,23 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: رسوم مواد التعبئة
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: كشف ضريبة القيمة المضافة
+                - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-aut-vat-statement-details.md
+            - name: البحرين
+              items:
+                - name: نظرة عامة على البحرين
+                  href: localizations/bahrain.md
+                - name: تكوين تخطيط الفاتورة للبحرين
+                  href: localizations/emea-bhr-invoice-layout.md
+                - name: إقرار ضريبة القيمة المضافة للبحرين
+                  href: localizations/emea-bhr-vat-declaration.md
+                - name: الموعد النهائي لإصدار الفاتورة
+                  href: localizations/gcc-invoice-issue-deadline.md
             - name: بلجيكا
               items:
                 - name: نظرة عامة على بلجيكا
                   href: localizations/belgium.md
-                - name: كشف الحساب البنكي بتنسيق CODA
+                - name: كشف حساب بنكي بتنسيق CODA
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: إنشاء حركات وتحويلها إلى BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
@@ -1244,7 +1280,7 @@
               items:
                 - name: نظرة عامة على البرازيل
                   href: localizations/brazil.md
-                - name: نطاق التعريب
+                - name: نطاق الترجمة
                   href: localizations/latam-bra-scope.md
                 - name: الدفاتر المالية‬
                   items:
@@ -1494,8 +1530,10 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: تحديث طريقة عرض المبالغ في التقارير والمستندات
                   href: localizations/emea-amount-printing-forms.md
-                - name: كشف ضريبة القيمة المضافة
+                - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-cze-vat-statement-details.md
+                - name: إقرار ضريبة القيمة المضافة (جمهورية التشيك)
+                  href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: إقفال نهاية السنة
                   href: localizations/emea-cze-hun-year-end.md
             - name: الدنمارك
@@ -1530,7 +1568,7 @@
                   href: localizations/estonia.md
                 - name: طلبات المعلومات الشخصية
                   href: localizations/emea-est-personal-info.md
-                - name: كشف ضريبة القيمة المضافة
+                - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-est-vat-statement-details.md
             - name: أوروبا
               items:
@@ -1778,8 +1816,10 @@
                   href: localizations/emea-hun-tax-reimbursement-docs.md
                 - name: إقفال نهاية السنة
                   href: localizations/emea-cze-hun-year-end.md
-                - name: نظام الفوترة على الإنترنت
+                - name: نظام الفوترة عبر الإنترنت
                   href: localizations/emea-hun-online-invoicing.md
+                - name: عمليات حساب ضريبة المبيعات المؤجلة
+                  href: localizations/emea-hun-deferred-vat.md
             - name: أيسلندا
               items:
                 - name: نظرة عامة على أيسلندا
@@ -2234,10 +2274,14 @@
                   href: localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
                 - name: ‏‫تسوية فواتير الموردين المجمعة باستخدام تسوية الحركات‬
                   href: localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
-                - name: ‏‫إنشاء قائمة تجميع بأصل ثابت‬
+                - name: ‏‫إنشاء قائمة تجميع للأصول الثابتة
                   href: localizations/tasks/use-assemble-list-fixed-asset.md
-                - name: ‏‫استخدام قائمة تفكيك التجميع الخاصة بالأصول الثابتة‬
+                - name: ‏‫استخدام قائمة تفكيك للأصول الثابتة‬
                   href: localizations/tasks/use-disassemble-list-fixed-assets.md
+            - name: الكويت
+              items:
+                - name: نظرة عامة على الكويت
+                  href: localizations/kuwait.md
             - name: لاتفيا
               items:
                 - name: نظرة عامة على لاتفيا
@@ -2288,11 +2332,13 @@
                   href: localizations/tasks/my-00007-self-billed-invoices.md
                 - name: إعداد بنود تصريف GST‬
                   href: localizations/tasks/my-00006-01-gst-relief-clauses.md
+                - name: إقرار ضريبة المبيعات والخدمات (SST-02) لماليزيا
+                  href: localizations/apac-mys-sst-declaration.md
             - name: المكسيك
               items:
                 - name: نظرة عامة على المكسيك
                   href: localizations/mexico.md
-                - name: نطاق التعريب
+                - name: نطاق الترجمة
                   href: localizations/latam-mex-scope.md
                 - name: تقرير إعلان تسوية التضخم
                   href: localizations/latam-mex-adjustment-inflation-declaration-report.md
@@ -2324,10 +2370,14 @@
                   href: localizations/tasks/mx-00006-sales-tax-code.md
                 - name: إعداد دليل الحسابات لكيان قانوني في المكسيك
                   href: localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: تحديد معرف التسجيل RFC لحسابات البنوك المكسيكية
+                - name: تحديد معرف تسجيل RFC لحسابات البنوك المكسيكية
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: معرفات تسجيل الموردين
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
+            - name: عمان
+              items:
+                - name: نظرة عامة على عمان
+                  href: localizations/oman.md
             - name: هولندا
               items:
                 - name: نظرة عامة على هولندا
@@ -2350,7 +2400,7 @@
                   href: localizations/tasks/no-00002-customer-payment-based-payment-id.md
                 - name: تنسيق ملف استيراد صافي القيم​
                   href: localizations/emea-nor-nets-import-format.md
-                - name: كشف ضريبة القيمة المضافة
+                - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-nor-sales-tax-payment-report.md
                 - name: ملف المراجعة القياسي للضريبة (SAF-T) للنرويج
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
@@ -2384,8 +2434,12 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: كشف الأرصدة والدوران
                   href: localizations/emea-pol-turnover-balances-statement.md
-                - name: تقسيم فرق سعر الصرف AP/AR
+                - name: تقسيم فرق سعر الصرف للحسابات الدائنة/الحسابات المدينة
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+            - name: قطر
+              items:
+                - name: نظرة عامة على قطر
+                  href: localizations/qatar.md
             - name: روسيا
               items:
                 - name: نظرة عامة على روسيا
@@ -2720,10 +2774,12 @@
               items:
                 - name: نظرة عامة على الولايات المتحدة الأمريكية
                   href: localizations/united-states.md
-                - name: تقرير 1099 لنهاية العام للولايات المتحدة
+                - name: إعداد تقرير 1099 لنهاية العام للولايات المتحدة
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: نموذج 1099 للقطاع العام
                   href: localizations/noam-usa-form-1099-public-sector.md
+                - name: إعداد الموردين لإعداد تقرير 1099
+                  href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
         - name: Human Resources
           items:
             - name: نظرة عامة على Human Resources
@@ -2970,6 +3026,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: خبرات إعداد التقارير الافتراضية في بيئات IaaS
                   href: ../fin-ops-core/dev-itpro/analytics/reporting-experience-iias-environments.md?toc=/dynamics365/finance/toc.json
+                - name: خيارات معاينة إعداد تقارير المستندات
+                  href: ../fin-ops-core/dev-itpro/analytics/reporting-printing-preview-page-options.md
                 - name: طباعة
                   items:
                     - name: نظرة عامة على طباعة المستند
@@ -3436,9 +3494,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: استخدام RAW XML لإضافة المحتوى
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
-                    - name: اعتماد استدعاءات ذات معلمات لمصادر بيانات الحقل المحسوب
-                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
-                    - name: مصادر بيانات التقارير الإلكترونية عبر الشركات
+                    - name: دعم الاستدعاءات ذات المعلمات لمصادر بيانات الحقول المحسوبة
+                      items:
+                        - name: تحسين خبرة المستخدم وصيانة إمكانية الاستخدام
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                        - name: تحسين أداء الوصول إلى البيانات
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/finance/toc.json
+                    - name: مصادر بيانات إعداد التقارير الإلكترونية عبر الشركات
                       href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: استخدام مصادر بيانات تفاصيل الأبعاد المالية
                       items:
@@ -3490,7 +3552,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                     - name: إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: تأجيل تنفيذ عناصر التنسيق لـ ER
+                    - name: تأجيل تنفيذ عناصر تنسيق التقارير الإلكترونية
                       items:
                         - name: تأجيل تنفيذ عنصر تسلسلي
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json

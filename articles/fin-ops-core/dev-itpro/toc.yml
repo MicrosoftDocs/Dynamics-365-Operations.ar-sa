@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
-                - name: الجديد أو المتغير‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
+                - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.14 (نوفمبر 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.13 (أكتوبر 2020)
                   href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: تحديثات النظام الأساسي لـ 10.0.12 (أغسطس 2020)
+                - name: تحديثات النظام الأساسي للإصدار 10.0.12 (أغسطس 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: تحديثات النظام الأساسي لـ 10.0.11 (يوليو 2020)
-                  href: get-started/whats-new-platform-update-35.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
@@ -604,13 +604,21 @@
                   href: dev-tools/pipeline-add-license-package.md
                 - name: إنشاء حزم قابلة للنشر في Azure Pipelines
                   href: dev-tools/pipeline-create-deployable-package.md
-                - name: الطراز X++ - تعيين الإصدار في Azure Pipelines
+                - name: تعيين إصدار النموذج X++ في Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
-            - name: تطبيق نموذجي لإدارة الأسطول
+                - name: تنزيل الأصول باستخدام Azure Pipelines
+                  href: dev-tools/pipeline-asset-download.md
+                - name: تحميل الأصول باستخدام Azure Pipelines
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: نشر الأصول باستخدام Azure Pipelines
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: إنشاء اتصال Lifecycle Services (LCS) في Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
+            - name: التطبيق النموذجي لإدارة الأسطول
               items:
                 - name: السيناريو الشامل ‏‫للتطبيق النموذجي لإدارة الأسطول
                   href: dev-tools/fleet-management-sample.md
-                - name: تطبيق نموذجي لإدارة الأسطول
+                - name: التطبيق النموذجي لإدارة الأسطول
                   href: dev-tools/introduction-fleet-management-sample.md
             - name: أدوات Visual Studio
               items:
@@ -852,7 +860,7 @@
                       href: extensibility/customize-model-elements-extensions.md
                     - name: تخصيص من خلال الملحق وتراكب الطبقات
                       href: extensibility/customization-overlayering-extensions.md
-                - name: الجديد
+                - name: الميزات الجديدة
                   items:
                     - name: الجديد أو المتغير‬ في قابلية التوسعة
                       href: extensibility/extensibility-new.md
