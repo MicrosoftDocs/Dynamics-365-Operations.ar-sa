@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: الجديد أو المتغير في Supply Chain Management
                   items:
-                    - name: الجديد أو المتغير في الصفحة الرئيسية لـ Supply Chain Management
+                    - name: الميزات الجديدة أو المتغيرة في صفحة Supply Chain Management الرئيسية
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.13 (أكتوبر 2020)
+                    - name: الإصدار 10.0.14 من Supply Chain Management (نوفمبر 2020)
+                      href: get-started/whats-new-scm-10-0-14.md
+                    - name: الإصدار 10.0.13 من Supply Chain Management (أكتوبر 2020)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12 (أغسطس 2020)
+                    - name: الإصدار 10.0.12 من Supply Chain Management (أغسطس 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11 (يوليو 2020)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: قوائم فحص الصيانة
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: وقت تعطل الصيانة
+                - name: وقت تعطل الصيانة لأوامر العمل
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: إضافة خطأ إلى أمر العمل
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -341,7 +341,7 @@
                   href: asset-management/work-orders/work-order-report.md
                 - name: مجموعات أمر العمل
                   href: asset-management/work-orders/work-order-pools.md
-                - name: مهام صيانة أوامر العمل النشطة
+                - name: مهام صيانة أمر العمل النشط
                   href: asset-management/work-orders/active-work-order-jobs-overview.md
                 - name: أوامر العمل والأصول الثابتة
                   href: asset-management/work-orders/work-orders-and-fixed-assets.md
@@ -367,13 +367,13 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: إنشاء أوامر العمل
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: وقت تعطل الصيانة
+                - name: أنشطة وقت تعطل الصيانة
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
-            - name: تخطيط القدرة الإنتاجية
+            - name: تخطيط القدرة
               items:
                 - name: حساب القدرة الإنتاجية
                   href: asset-management/capacity-planning/calculate-capacity-load.md
-                - name: حساب تنبؤ العنصر
+                - name: حساب تنبؤ الصنف
                   href: asset-management/capacity-planning/calculate-item-forecast.md
             - name: جدولة أمر العمل
               items:
@@ -1345,26 +1345,30 @@
               items:
                 - name: نظرة عامة على تحسين التخطيط‬
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: التخطيط بالكميات الحالية السالبة
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: بدء تحسين التخطيط
                   href: master-planning/planning-optimization/get-started.md
                 - name: تحليل ملاءمة تحسين التخطيط
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: تطبيق عوامل تصفية على خطة
+                - name: تطبيق عوامل التصفية على خطة
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: التخطيط الرئيسي مع اتفاقيات الشراء التجارية
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: عرض سجل محفوظات الخطط والتخطيط
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: هوامش الضمان
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: الموافقة على الأوامر المخططة
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: التأكيد التلقائي مع تحسين التخطيط
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: التخطيط بالكميات الحالية السالبة
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: عرض سجلات التخطيط ومحفوظات الخطط
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: إلغاء وظيفة تخطيط
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: قابلية توسعة تحسين التخطيط‬
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: استكشاف أخطاء تحسين التخطيط وإصلاحها
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: قابلية توسعة تحسين التخطيط‬
+                  href: master-planning/planning-optimization/extensibility.md
             - name: الخطط الرئيسية
               items:
                 - name: نظرة عامة على الخطط الرئيسية
@@ -2621,6 +2625,8 @@
                   items:
                     - name: إعداد انتقاء نظام المجموعة
                       href: warehousing/set-up-cluster-picking.md
+                    - name: منصب نظام المجموعة ممتلئ
+                      href: warehousing/cluster-position-full.md
                     - name: انتقاء نظام مجموعة بتوجيه من النظام
                       href: warehousing/system-directed-cluster-pick.md
                     - name: إعداد التعبئة في حاويات
