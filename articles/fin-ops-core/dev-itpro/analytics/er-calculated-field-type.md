@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
-ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
+ms.openlocfilehash: c68f0a0e2481c69add8c50a1581466ad0b1483c0
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665600"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759901"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>دعم استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب‬
 
@@ -339,4 +339,7 @@ ms.locfileid: "3665600"
 8. قارن بين محتويات المخرجات التي تم إنشاؤها.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-[مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
+
+- [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
+- [تحسين أداء حلول التقارير الإلكتروني عن طريق إضافة مصادر بيانات الحقول المحسوبة ذات معلمات](er-calculated-field-ds-performance.md)
+

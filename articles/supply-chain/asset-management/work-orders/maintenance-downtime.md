@@ -1,6 +1,6 @@
 ---
-title: وقت تعطل الصيانة
-description: يصف هذا الموضوع وقت تعطل الصيانة في إدارة الأصول.
+title: وقت تعطل الصيانة لأوامر العمل
+description: يصف هذا الموضوع كيفية إنشاء تسجيلات وقت تعطل الصيانة على الأصل المحدد في أمر العمل.
 author: josaw1
 manager: tfehr
 ms.date: 10/15/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b4960aea95d63486207699f3bbd7f4b4f3cf0488
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 263a044a0a378e95ea271ac1c6f468f9e3287f26
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206854"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802715"
 ---
-# <a name="maintenance-downtime"></a>وقت تعطل الصيانة
+# <a name="maintenance-downtime-for-work-orders"></a>وقت تعطل الصيانة لأوامر العمل
 
 [!include [banner](../../includes/banner.md)]
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209204"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813824"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>الصفحة الرئيسية للتدبير وتحديد الموارد
 
@@ -55,7 +55,7 @@ ms.locfileid: "3209204"
 -   [تعاون المورد مع العملاء](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [إدارة مستخدمي تعاون المورد‬](manage-vendor-collaboration-users.md)
 -   [إعداد تعاون المورد والمحافظة عليه](set-up-maintain-vendor-collaboration.md)
--   [البرنامج النصي للعرض التوضيحي الخاص بمخزون الشحن الوارد لتطبيق Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
+-   [البرنامج النصي للعرض التوضيحي الخاص بمخزون الشحن الوارد لتطبيق Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(white paper)
 -   [مراقبة مخزون الشحن باستخدام تعاون المورّد](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [التعاون مع المورّدين باستخدام مدخل المورّد](collaborate-vendors-vendor-portal.md)  (إصدارات فبراير 2016 ومايو 2016 من Dynamics AX فقط)
 -   [أمان مستخدمي مدخل المورد](configure-security-vendor-portal-users.md) (إصدارات فبراير 2016 ومايو 2016 من Finance and Operations فقط)
@@ -98,7 +98,7 @@ ms.locfileid: "3209204"
 -   [عمليات سير العمل للتدبير وتحديد الموارد](procurement-sourcing-workflows.md)
 -   [تسجيل استلام البضائع في أمر الشراء](tasks/record-receipt-goods-purchase-order.md)
 -   [سير عمل طلب الشراء](purchase-requisitions-workflow.md)
--   [تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (مستند تقني)
+-   [تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://www.microsoft.com/download/details.aspx?id=101821) (مستند تقني)
 -   [نظرة عامة على سياسات الشراء](purchase-policies.md)
 -   [إنشاء سياسات الشراء](tasks/create-purchasing-policies.md)
 

@@ -3,7 +3,7 @@ title: تحديث العملية
 description: إن Microsoft Dynamics 365 Human Resources عبارة عن خدمة تأجير برامج (SaaS) حقيقية توفر تحديثات خدمة مستمرة بدون لمس للتغييرات في التطبيق والنظام الأساسي.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431166"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759949"
 ---
 # <a name="update-process"></a>تحديث العملية
 
@@ -33,7 +33,7 @@ ms.locfileid: "3431166"
 
 يتم إصدار التحديثات في وتيرة منتظمة لجميع البيئات. يتم دعم Human Resources وفقًا لـ [سياسة دورة حياة Microsoft](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy)،  التي توفر إرشادات متناسقة ومتوقعة لتوفر الدعم.
 
-## <a name="release-cadence"></a>وتيرة الإصدار
+## <a name="release-cadence"></a>وتيرة الإصدار 
 
 يتم تطبيق تحديثات Human Resources على كافة البيئات تلقائيًا. يوفر Human Resources نوعين من الإصدارات:
 
@@ -56,14 +56,12 @@ ms.locfileid: "3431166"
 
 ## <a name="release-cadence-exceptions-in-2020"></a>إصدار استثناءات الوتيرة في 2020
 
-تعتبر التواريخ التالية استثناءات لجدول الإصدار المنتظم:
+لحساب الإجازات، يكون جدول الإصدار لشهري نوفمبر وديسمبر 2020 كالتالي:
 
-| التاريخ | ‏‏الوصف |
-| --- | --- |
-| أسبوع من 23 نوفمبر | لا توجد تحديثات |
-| أسبوع من 14 ديسمبر | تحديثات ثانوية فقط |
-| أسبوع من 21 ديسمبر | لا توجد تحديثات |
-| أسبوع من 28 ديسمبر | لا توجد تحديثات |
+- إصدار شهر نوفمبر: 2 نوفمبر - 13 نوفمبر
+- إصدار شهر ديسمبر: 30 نوفمبر - 11 ديسمبر
+ 
+سيتم استئناف وتيرة الإصدار من أسبوعين بالشكل المعتاد في 11 يناير 2021.
 
 ## <a name="communications"></a>المراسلات
 

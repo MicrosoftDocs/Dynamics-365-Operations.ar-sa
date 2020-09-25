@@ -1,5 +1,5 @@
 ---
-title: حالة موجة المستودع
+title: حالة موقع المستودع
 description: يقدم هذا الموضوع نظرة عامة على ميزة حالة موقع المستودع.
 author: Mirzaab
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597496"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775164"
 ---
-# <a name="warehouse-location-status"></a>حالة موجة المستودع
+# <a name="warehouse-location-status"></a>حالة موقع المستودع
 
 [!include [banner](../includes/banner.md)]
 
@@ -76,6 +76,9 @@ ms.locfileid: "3597496"
     تتحكم هذه الخيارات فيما إذا كانت حقول المرجع في الموقع نشطة أم لا.
 
 1. كرر الخطوات من 3 إلى 4 لملف التعريف **انتقاء-06**.
+
+> [!NOTE]
+> عندما يتم تعيين المعلمات في ملف تعريف الموقع (**تمكين الصنف في الموقع**، **تمكين نشاط الموقع**، **تمكين حالة الموقع**) إلى *نعم*، يقوم النظام على الفور بتحديث المواقع ذات الصلة عن طريقة تنفيذ مهمة *تدقيق تناسق حالة موقع المستودع*.
 
 ### <a name="scenario"></a>سيناريو
 
